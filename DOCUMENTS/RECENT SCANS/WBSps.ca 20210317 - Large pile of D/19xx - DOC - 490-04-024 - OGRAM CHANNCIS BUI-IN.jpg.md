@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,248,964 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-024, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 4–280 mm up
+- **Outlines:** line 651 rings, 5,162 straight (10,518 mm) / 965 curved (1,072 mm); text 170 rings, 977 straight (828 mm) / 298 curved (362 mm); tb 661 rings, 4,586 straight (6,737 mm) / 1,070 curved (1,281 mm)
+- **Closed boxes:** 7 (3 in the title block); named: 490-04-024
+- **Words (OCR):** 30 in 27 lines: WBS · V490L · llce · Lenicel · Tanat · enans · "Fom · pproncial · cutral · cranne · FDLOBACR · contol
+- **Title block:** (199, 20)–(432, 276) mm: WBS · V490L · Lenicel · Tanat · enans · pproncial · cutral · cranne · contol · FB 2 · Icvela · tnannele · Ehan · 67 · OFF · "ROGAAU tnannela · DUFTt · WBS WARD-DeCk SySTeMS · M490[
+
+Every curve, box, word and wire group: [19xx - DOC - 490-04-024 - OGRAM CHANNCIS BUI-IN (traced).json](19xx%20-%20DOC%20-%20490-04-024%20-%20OGRAM%20CHANNCIS%20BUI-IN%20%28traced%29.json) (the CAD file: `19xx - DOC - 490-04-024 - OGRAM CHANNCIS BUI-IN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 26 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 1,030,862 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 612-01-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–339 mm across, 36–395 mm up
+- **Outlines:** line 74 rings, 3,018 straight (6,009 mm) / 381 curved (666 mm); text 287 rings, 1,885 straight (2,314 mm) / 565 curved (915 mm)
+- **Centre lines:** 1,541 paths (51 closed); straight 4,625 mm, curved 115 mm; horizontal 1,734 mm, vertical 1,141 mm, diagonal 1,750 mm
+- **Circles and arcs:** 3 circles, 1 arcs; largest r 5.7 @ (235.6, 97.3), r 5.7 @ (235.6, 137.0), r 5.6 @ (235.9, 57.3)
+- **Closed boxes:** 1
+- **Words (OCR):** 45 in 37 lines: (~6dB) · (~6dB) · ~6dB) · (~6dB) · MWV · (~6dB) · TRIM · +/-3dB · MWV · (~6dB) · iNPUT · -32 dBm To +14
+- **Wiring (first pass):** 76 connected wire groups from 136 runs; labelled ends: 627 mm → (~6dB), ~6dB), MWV, out; 81 mm → 38; 73 mm → 38, REF; 51 mm → dBm, PRE; 49 mm → out, BST
+
+Every curve, box, word and wire group: [1983 - M612A - 612-01-001 - OVERLOAD REF NORMAL REF (traced).json](1983%20-%20M612A%20-%20612-01-001%20-%20OVERLOAD%20REF%20NORMAL%20REF%20%28traced%29.json) (the CAD file: `1983 - M612A - 612-01-001 - OVERLOAD REF NORMAL REF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

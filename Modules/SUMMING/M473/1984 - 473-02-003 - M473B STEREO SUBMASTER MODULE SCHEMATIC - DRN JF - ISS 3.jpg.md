@@ -23,6 +23,21 @@ Wiki page: [M473](../../../PAGES/M473.md)
 - **Size:** 4,194,578 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 473-02-003, size B (assumed) 432 × 153 mm, 2000 × 708 px traced (0.216 mm/px); scale LBI 473-02 003
+- **Ink extent:** 0–429 mm across, 0–139 mm up
+- **Outlines:** line 748 rings, 6,496 straight (13,040 mm) / 1,504 curved (1,836 mm); text 253 rings, 1,786 straight (1,575 mm) / 552 curved (703 mm); tb 13 rings, 118 straight (152 mm) / 30 curved (36.8 mm)
+- **Centre lines:** 11,289 paths (182 closed); straight 9,675 mm, curved 31.0 mm; horizontal 4,370 mm, vertical 2,178 mm, diagonal 3,126 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 0.7 @ (40.2, 35.7)
+- **Closed boxes:** 32 (8 in the title block); named: REVISOr
+- **Dots (junctions):** 1
+- **Words (OCR):** 44 in 39 lines: PALEKCE · DIRFCT · LCFT · Ddbm · BALANCE · COOSTTEP · AHPLIFIEF · {88 · Right · GONTEOL · SUMANINC · TALLY
+- **Title block:** (353, 3)–(432, 32) mm: IDATL · WBS WARO-BeCK systems · DRN~hed · M4738 · STEREO SUBMASTER MODULE · SCHEMATIC · Scale LBI 473-02 003
+- **Wiring (first pass):** 90 connected wire groups from 637 runs; labelled ends: 80 mm → IDATL, WBS; 71 mm → {88; 42 mm → {88; 42 mm → IDATL, WBS; 42 mm → IDATL, WARO-BeCK systems
+
+Every curve, box, word and wire group: [1984 - 473-02-003 - M473B STEREO SUBMASTER MODULE SCHEMATIC - DRN JF - ISS 3 (traced).json](1984%20-%20473-02-003%20-%20M473B%20STEREO%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JF%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1984 - 473-02-003 - M473B STEREO SUBMASTER MODULE SCHEMATIC - DRN JF - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

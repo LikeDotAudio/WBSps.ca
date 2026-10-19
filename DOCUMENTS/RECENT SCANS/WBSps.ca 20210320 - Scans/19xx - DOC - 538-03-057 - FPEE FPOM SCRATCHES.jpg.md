@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,958,082 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 538-03-057, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 12–298 mm up
+- **Outlines:** line 168 rings, 3,195 straight (9,092 mm) / 317 curved (458 mm); text 447 rings, 3,878 straight (4,900 mm) / 1,101 curved (1,860 mm); tb 8 rings, 110 straight (228 mm) / 14 curved (22.9 mm)
+- **Centre lines:** 4,105 paths (64 closed); straight 8,373 mm, curved 16.8 mm; horizontal 3,965 mm, vertical 1,603 mm, diagonal 2,805 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 14 (10 in the title block); named: Geb
+- **Words (OCR):** 65 in 55 lines: 485 · 538-03-057/1 · ~242 · 5.638 · 5-876 · -485 · o86DIA · C'PORE · 125 DIA · 2 PACES TYP · -SEE · EETAIL A
+- **Title block:** (120, 13)–(429, 83) mm: SIZE INcREASED · Geb · 2489 · FFLAE IDENT · ISSUE DATE · REVISION · APP · EDGES · Buees SHAPP · WBS WARD-BECK · SYSTEMS · DRN: BDE · M538 · Mew · ENG · IDENT COVER · CKD: · APP · SCALE · 03-007 · ISSU
+
+Every curve, box, word and wire group: [19xx - DOC - 538-03-057 - FPEE FPOM SCRATCHES (traced).json](19xx%20-%20DOC%20-%20538-03-057%20-%20FPEE%20FPOM%20SCRATCHES%20%28traced%29.json) (the CAD file: `19xx - DOC - 538-03-057 - FPEE FPOM SCRATCHES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

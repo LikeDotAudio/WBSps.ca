@@ -11,6 +11,18 @@ Wiki page: [M457A](../../../PAGES/M457A.md)
 - **Size:** 166,477 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 457-04-006, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 150 rings, 1,687 straight (4,597 mm) / 291 curved (405 mm); text 326 rings, 2,313 straight (2,203 mm) / 822 curved (1,077 mm); tb 170 rings, 1,214 straight (3,118 mm) / 244 curved (375 mm)
+- **Closed boxes:** 12 (10 in the title block); named: When sultch Sh9: the channe connec ted H; input SELECTOR switch Swio: Nhen depra; 
+- **Dots (junctions):** 1
+- **Words (OCR):** 60 in 46 lines: WBS · M457A · Channe · MASTER LEVEL control · Adjusts · leve · channe · sultch Sh9: · When · outpu · the channe · MASTER
+- **Title block:** (144, 0)–(336, 317) mm: WBS · M457A · Channe · MASTER LEVEL control · Adjusts · leve · channe · outpu · MASTER · Char · nne · djusts leve · HASTER LEVEL control · RIO: · output. · channe · MASTER · EXT · 9/77 · REDRAWN · MSS
+
+Every curve, box, word and wire group: [1975 - M457A - 457-04-006 - ENG KUVBET PRE-MIXER MASTER MODULE (traced).json](1975%20-%20M457A%20-%20457-04-006%20-%20ENG%20KUVBET%20PRE-MIXER%20MASTER%20MODULE%20%28traced%29.json) (the CAD file: `1975 - M457A - 457-04-006 - ENG KUVBET PRE-MIXER MASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -26,6 +26,20 @@ Wiki page: [M745](../../../PAGES/M745.md)
 
 - **1974** (labelled): `DATE SEPT 74` — …ISS MOD ICKD: USED ON MATL WBS WARD-BECK SYSTEMS L DRN. GEB DATE SEPT 74 CKD Rr SCALE TOLS _ Ma M 745 B 5 VoLt 3 AMP REGLLATo SCHEMA…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 745-02-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–298 mm up
+- **Outlines:** line 424 rings, 5,971 straight (9,940 mm) / 737 curved (846 mm); text 330 rings, 2,468 straight (2,877 mm) / 784 curved (1,220 mm); tb 32 rings, 225 straight (374 mm) / 35 curved (46.7 mm)
+- **Centre lines:** 8,490 paths (82 closed); straight 8,381 mm, curved 45.8 mm; horizontal 3,684 mm, vertical 1,817 mm, diagonal 2,880 mm
+- **Circles and arcs:** 2 circles, 4 arcs; largest r 2.4 @ (71.6, 97.4), r 2.4 @ (102.5, 98.0)
+- **Closed boxes:** 27 (22 in the title block); named: z1 LM323k
+- **Words (OCR):** 51 in 45 lines: 4 A · z1 · LM323k · Ci · c2 · 5 V DC · I0 · To 20 V DC · 1/35 · 10/25 · REGULATED · UNREGULATED
+- **Title block:** (157, 28)–(392, 77) mm: ISS MOD IICKD · USED ON · MATL · WARD-BECK · WBS · DRN · GEB · M 745 B · DATE SEPT 74 5 VoLt · AMP · FIMISH · CKD · SCHEMATIC · SCALE · TOLS · 745 · 02 00 3
+- **Wiring (first pass):** 23 connected wire groups from 195 runs; labelled ends: 432 mm → LM323k, 1/35, 10/25, c2; 118 mm → LM323k, 4 A, Ci, 1/35; 47 mm → ISS_, SCHEMATIC, 745, 02; 37 mm → TOLS; 27 mm → TOLS
+
+Every curve, box, word and wire group: [1974 - 745-02-003 - M745B 5 VOLT 3 AMP REGULATOR SCHEMATIC - DRN GEB (traced).json](1974%20-%20745-02-003%20-%20M745B%205%20VOLT%203%20AMP%20REGULATOR%20SCHEMATIC%20-%20DRN%20GEB%20%28traced%29.json) (the CAD file: `1974 - 745-02-003 - M745B 5 VOLT 3 AMP REGULATOR SCHEMATIC - DRN GEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -21,6 +21,19 @@ Wiki page: [M907](../../../PAGES/M907.md)
 - **Size:** 1,014,640 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 907-03-001, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 0–842 mm across, 0–560 mm up
+- **Outlines:** line 568 rings, 4,250 straight (18,577 mm) / 825 curved (2,851 mm); text 229 rings, 1,492 straight (3,250 mm) / 451 curved (1,152 mm); tb 15 rings, 112 straight (301 mm) / 37 curved (81.2 mm)
+- **Centre lines:** 7,439 paths (160 closed); straight 13,330 mm, curved 1,170 mm; horizontal 4,354 mm, vertical 3,823 mm, diagonal 5,153 mm
+- **Circles and arcs:** 19 circles, 15 arcs; largest r 128.5 @ (705.2, 380.1), r 3.6 @ (417.0, 487.4), r 3.6 @ (238.4, 85.9), r 3.6 @ (244.4, 490.0)
+- **Closed boxes:** 37 (2 in the title block); named: M907 MASTER MODULE; 907-03-001
+- **Words (OCR):** 25 in 21 lines: REQ D · 0.210 · 0,015 · SECTON · (SOEAIL)) · MATERIAL: ALUM ALLOY 0.125 ThICK · FINISH: · SAND 120 Grit AND PAINT · TEXTURED   BEIGE (4520) · TEXCOTE MNYL · (EXTRA FINE TEXTURE) · 1J.150
+- **Title block:** (684, 44)–(853, 77) mm: REMNCr · WBS · WARD-BECK  SYSTEMS · M907
+
+Every curve, box, word and wire group: [19xx - 907-03-001 - MASTER MODULE - DRN DRG - ISS 2 (traced).json](19xx%20-%20907-03-001%20-%20MASTER%20MODULE%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 907-03-001 - MASTER MODULE - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

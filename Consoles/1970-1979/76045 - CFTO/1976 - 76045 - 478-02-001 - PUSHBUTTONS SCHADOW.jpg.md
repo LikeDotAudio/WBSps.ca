@@ -11,6 +11,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 7,139,495 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 478-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 20–300 mm up
+- **Outlines:** line 407 rings, 6,423 straight (10,858 mm) / 932 curved (1,339 mm); text 174 rings, 1,264 straight (1,383 mm) / 367 curved (546 mm)
+- **Centre lines:** 3,902 paths (53 closed); straight 6,972 mm, curved 269 mm; horizontal 3,381 mm, vertical 1,859 mm, diagonal 1,733 mm
+- **Circles and arcs:** 22 circles, 42 arcs; largest r 1.6 @ (369.8, 30.8), r 1.6 @ (374.0, 30.9), r 1.3 @ (58.3, 208.3), r 1.2 @ (374.5, 68.9)
+- **Closed boxes:** 44
+- **Wiring (first pass):** 64 connected wire groups from 418 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 478-02-001 - PUSHBUTTONS SCHADOW (traced).json](1976%20-%2076045%20-%20478-02-001%20-%20PUSHBUTTONS%20SCHADOW%20%28traced%29.json) (the CAD file: `1976 - 76045 - 478-02-001 - PUSHBUTTONS SCHADOW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

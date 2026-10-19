@@ -23,6 +23,20 @@ Wiki page: [L1202A](../../../PAGES/L1202A.md)
 - **Size:** 321,235 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1202-02-016, size B 432 × 276 mm, 2000 × 1276 px traced (0.216 mm/px)
+- **Ink extent:** 29–432 mm across, 0–276 mm up
+- **Outlines:** line 139 rings, 2,695 straight (5,825 mm) / 404 curved (667 mm); text 580 rings, 4,494 straight (5,167 mm) / 1,255 curved (1,948 mm); tb 5 rings, 24 straight (45.6 mm) / 7 curved (8.4 mm)
+- **Centre lines:** 4,253 paths (64 closed); straight 6,626 mm, curved 185 mm; horizontal 2,534 mm, vertical 1,332 mm, diagonal 2,760 mm
+- **Circles and arcs:** 5 circles, 18 arcs; largest r 5.5 @ (80.9, 88.7), r 1.6 @ (205.8, 144.4), r 1.3 @ (78.6, 90.1), r 1.3 @ (83.2, 90.1)
+- **Closed boxes:** 10 (7 in the title block); named: M481E CUE OSC RE-ENTRY MODULE
+- **Words (OCR):** 103 in 80 lines: NQTES; · xv JUMPERED AROUND MODLLL ? · 0L4 · FROM · M1 · MI CSC INSERT · MASTER · To MASTER · FADERS M2 · 028 · 4,D · M2
+- **Title block:** (285, 2)–(432, 70) mm: ISSUE DATE · REViSION · APp · WBS WARD-BECK SYSTEMs · DRN 9/8 JP · ENG MRw · OSC, CUEISOLO, RE-ENTRY & AUX LEVEL · CKD Ve~ · SCHEMATIC · APP · SCALE · ISSUE · 1202-02-016
+- **Wiring (first pass):** 45 connected wire groups from 178 runs; labelled ends: 508 mm → 028, 0L4, M2, Pin1,-; 157 mm → 028, 0L4, 8rN, Aea; 66 mm → Aea, 20, +25v; 34 mm → IOL, To VU SEL; 32 mm → 13,P, TS
+
+Every curve, box, word and wire group: [1982 - 1202-02-016 - OSC, CUE SOLO, RE-ENTRY & AUX LEVEL SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).json](1982%20-%201202-02-016%20-%20OSC%2C%20CUE%20SOLO%2C%20RE-ENTRY%20%26%20AUX%20LEVEL%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 1202-02-016 - OSC, CUE SOLO, RE-ENTRY & AUX LEVEL SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

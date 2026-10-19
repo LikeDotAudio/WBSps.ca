@@ -21,6 +21,19 @@ Wiki page: [Job-950410](../../../PAGES/Job-950410.md)
 - **Size:** 708,347 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950410-03-001, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px)
+- **Ink extent:** 58–846 mm across, 14–525 mm up
+- **Outlines:** line 848 rings, 5,485 straight (29,374 mm) / 1,140 curved (2,758 mm); text 229 rings, 1,251 straight (2,188 mm) / 362 curved (896 mm); tb 64 rings, 410 straight (757 mm) / 99 curved (229 mm)
+- **Centre lines:** 6,899 paths (230 closed); straight 18,407 mm, curved 43.8 mm; horizontal 9,412 mm, vertical 4,431 mm, diagonal 4,563 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 6.3 @ (344.2, 342.7)
+- **Closed boxes:** 55 (13 in the title block)
+- **Words (OCR):** 34 in 31 lines: 7-no0 · 0,080 ThIC · DETAL · REC'D · 01-72 · 0.234 · ~ROcEs · 06z] REF · TFR A · EXTAUS · IDENT EXRUSICN · SANOBLAST THJ MEDI
+- **Title block:** (681, 12)–(858, 79) mm: WBS · WARD-BECK SYSTEMS · REAR PLATE · ScALE · CODES · 950410-03-001
+
+Every curve, box, word and wire group: [1995 - 950410-03-001 - REAR PLATE - DRN DRG - ISS 1 (traced).json](1995%20-%20950410-03-001%20-%20REAR%20PLATE%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950410-03-001 - REAR PLATE - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

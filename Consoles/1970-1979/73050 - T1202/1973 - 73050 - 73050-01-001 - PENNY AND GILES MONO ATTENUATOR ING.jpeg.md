@@ -10,6 +10,19 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 676,733 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 73050-01-001, size B (assumed) 334 × 432 mm, 1276 × 1650 px traced (0.262 mm/px)
+- **Ink extent:** 8–334 mm across, 0–432 mm up
+- **Outlines:** line 102 rings, 593 straight (964 mm) / 115 curved (210 mm); text 744 rings, 5,534 straight (6,624 mm) / 1,979 curved (3,355 mm)
+- **Centre lines:** 4,507 paths (106 closed); straight 5,344 mm, curved 74.1 mm; horizontal 1,143 mm, vertical 1,113 mm, diagonal 3,088 mm
+- **Circles and arcs:** 1 circles, 17 arcs; largest r 1.4 @ (36.7, 133.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 69 in 51 lines: AUDIO MIXING · CONSGTI · DRAWING · INDEX · 73050-01-001 · Functional · Diagram · 73050-02-001 · Input and · Output Schematic · Auxilliary and hevep · 73050-02-002
+- **Wiring (first pass):** 4 connected wire groups from 45 runs; labelled ends: 71 mm → CONSGTI, AUDIO; 52 mm → INDEX, DRAWING; 7 mm → 9162; 6 mm → 73050-02-005
+
+Every curve, box, word and wire group: [1973 - 73050 - 73050-01-001 - PENNY AND GILES MONO ATTENUATOR ING (traced).json](1973%20-%2073050%20-%2073050-01-001%20-%20PENNY%20AND%20GILES%20MONO%20ATTENUATOR%20ING%20%28traced%29.json) (the CAD file: `1973 - 73050 - 73050-01-001 - PENNY AND GILES MONO ATTENUATOR ING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

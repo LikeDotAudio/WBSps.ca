@@ -10,6 +10,17 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 3,663,221 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-004, size B (assumed) 305 × 432 mm, 1413 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 25–432 mm up
+- **Outlines:** line 9 rings, 909 straight (3,274 mm) / 78 curved (145 mm); text 928 rings, 6,089 straight (6,833 mm) / 1,926 curved (2,959 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.1 @ (14.4, 228.3), r 5.0 @ (15.4, 71.8), r 4.9 @ (12.8, 386.1)
+- **Words (OCR):** 53 in 51 lines: Systems · LTD_ · WAAD-BECK · CFTO-TV · AUDIO_CONSOLE · DRAWING · LIST · 880134-04-004 · Rear View Layout · 3642-04-005 · TBl Layout · 3642-04-006
+- **Title block:** (22, 402)–(122, 426) mm: Systems · WAAD-BECK
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-004 - CFTO-TV AUDIO CONSOLE DRAWING LISI (traced).json](1988%20-%20880134%20-%20880134-04-004%20-%20CFTO-TV%20AUDIO%20CONSOLE%20DRAWING%20LISI%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-004 - CFTO-TV AUDIO CONSOLE DRAWING LISI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -24,6 +24,21 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 2,060,385 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-120, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 1,499 rings, 13,459 straight (17,055 mm) / 2,890 curved (3,359 mm); text 419 rings, 2,831 straight (2,850 mm) / 952 curved (1,309 mm); tb 205 rings, 1,195 straight (1,040 mm) / 318 curved (350 mm)
+- **Centre lines:** 14,797 paths (102 closed); straight 13,144 mm, curved 313 mm; horizontal 5,340 mm, vertical 2,518 mm, diagonal 5,285 mm
+- **Circles and arcs:** 12 circles, 76 arcs; largest r 4.0 @ (174.9, 198.7), r 1.3 @ (361.1, 193.3), r 1.2 @ (363.5, 149.9), r 1.1 @ (163.4, 55.5)
+- **Closed boxes:** 22; named: MATL _
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 62 lines: 125v Common · 17 I0 · +25v · Swi · RR ON · Sw3 · Mi · Pie · ISk · 91 · RR ON · PAN
+- **Title block:** (268, 19)–(412, 62) mm: WBS · WAAD-BECK BYSTEMB · DRN · M468AY · Assign Module · REvERB · CKD: · SchEMATIC · 'SCAL}
+- **Wiring (first pass):** 84 connected wire groups from 645 runs; labelled ends: 781 mm → MATL _, FINISH; 191 mm → Rb, 27, Rio, Zk; 174 mm → Sclolcue; 156 mm → Sw6; 94 mm → +25v
+
+Every curve, box, word and wire group: [1985 - 468-02-120 - M468AY REVERB ASSIGN MODULE SCHEMATIC - DRN AV handwritten, unclear - ISS 1 (traced).json](1985%20-%20468-02-120%20-%20M468AY%20REVERB%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20AV%20handwritten%2C%20unclear%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1985 - 468-02-120 - M468AY REVERB ASSIGN MODULE SCHEMATIC - DRN AV handwritten, unclear - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

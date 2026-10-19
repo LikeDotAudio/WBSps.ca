@@ -21,6 +21,19 @@ Typed drawing list pages for a Ward-Beck audio console, text running vertically 
 - **Size:** 330,917 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 880134-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–264 mm across, 23–412 mm up
+- **Outlines:** line 1,339 rings, 7,864 straight (9,708 mm) / 2,738 curved (3,696 mm); text 700 rings, 3,834 straight (3,872 mm) / 1,313 curved (1,732 mm)
+- **Centre lines:** 6,398 paths (421 closed); straight 8,372 mm, curved 532 mm; horizontal 2,708 mm, vertical 1,537 mm, diagonal 4,126 mm
+- **Circles and arcs:** 8 circles, 176 arcs; largest r 1.1 @ (158.8, 323.7), r 0.9 @ (220.1, 310.7), r 0.9 @ (229.0, 341.6), r 0.9 @ (149.7, 323.9)
+- **Closed boxes:** 2; named: Iuu; HiW Ji Ij1 XX
+- **Words (OCR):** 5 in 3 lines: Iuu · HiW Ji XX · Ij1
+- **Wiring (first pass):** 6 connected wire groups from 681 runs; labelled ends: 29 mm → Iuu; 27 mm → Iuu
+
+Every curve, box, word and wire group: [1988 - 880134-01-001 - CFTO-TV Audio Console Drawing List (traced).json](1988%20-%20880134-01-001%20-%20CFTO-TV%20Audio%20Console%20Drawing%20List%20%28traced%29.json) (the CAD file: `1988 - 880134-01-001 - CFTO-TV Audio Console Drawing List (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

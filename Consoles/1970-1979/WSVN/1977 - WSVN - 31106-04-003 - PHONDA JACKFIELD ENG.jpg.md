@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 37,836,568 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–430 mm across, 0–279 mm up
+- **Outlines:** line 1,850 rings, 13,025 straight (27,515 mm) / 1,486 curved (1,786 mm); text 103 rings, 608 straight (593 mm) / 193 curved (238 mm); tb 58 rings, 306 straight (290 mm) / 83 curved (100 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 0.7 @ (410.0, 265.7), r 0.7 @ (405.9, 247.8), r 0.7 @ (404.4, 259.2), r 0.7 @ (405.6, 256.6)
+- **Closed boxes:** 100 (4 in the title block); named: LEGEND
+- **Words (OCR):** 15 in 13 lines: LEGEND · ROW · JUMPER · TpA · TERNIYAL BLoCh · CONSOLE · PRELIMINARY · WBS WAAD-BeCk SysteMS · JACKFIELD · Viami · Latout · SCALE
+- **Title block:** (358, 1)–(432, 33) mm: WBS WAAD-BeCk SysteMS · JACKFIELD · Viami · Latout · SCALE · 31106-04-003/1
+
+Every curve, box, word and wire group: [1977 - WSVN - 31106-04-003 - PHONDA JACKFIELD ENG (traced).json](1977%20-%20WSVN%20-%2031106-04-003%20-%20PHONDA%20JACKFIELD%20ENG%20%28traced%29.json) (the CAD file: `1977 - WSVN - 31106-04-003 - PHONDA JACKFIELD ENG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

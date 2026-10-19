@@ -9,6 +9,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 383,093 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 1202-01-002, size B (assumed) 432 × 278 mm, 2000 × 1290 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–272 mm up
+- **Outlines:** line 1,024 rings, 9,837 straight (17,350 mm) / 2,081 curved (2,619 mm); text 115 rings, 894 straight (851 mm) / 270 curved (351 mm); tb 29 rings, 305 straight (321 mm) / 69 curved (79.0 mm)
+- **Centre lines:** 9,430 paths (159 closed); straight 9,612 mm, curved 372 mm; horizontal 3,761 mm, vertical 2,874 mm, diagonal 2,977 mm
+- **Circles and arcs:** 24 circles, 27 arcs; largest r 2.0 @ (36.1, 174.6), r 2.0 @ (164.6, 135.0), r 2.0 @ (36.2, 148.3), r 2.0 @ (36.2, 181.0)
+- **Closed boxes:** 68 (2 in the title block); named: McIOR; CUE /09c
+- **Words (OCR):** 23 in 22 lines: IHPUT · ouTPUT · AUX cut · 7948 · Cohtaol · Like · TALLT · McIOR · HLIcT04 · IHCUT · PHARTOE · Power
+- **Title block:** (360, 6)–(432, 31) mm: WBS · WBS T12O2A CONSOLE · FUNCTIONAL DIAGRAM
+- **Wiring (first pass):** 112 connected wire groups from 944 runs; labelled ends: 633 mm → AUX cut; 185 mm → 7948; 30 mm → CUE /09c; 22 mm → Like; 10 mm → CUE /09c
+
+Every curve, box, word and wire group: [1980 - 1980-1989 - 1202-01-002 - HOOULE FOWER CHAAEE AESIGH CONTROL MEET CHAKRELS IOIHTICAL (traced).json](1980%20-%201980-1989%20-%201202-01-002%20-%20HOOULE%20FOWER%20CHAAEE%20AESIGH%20CONTROL%20MEET%20CHAKRELS%20IOIHTICAL%20%28traced%29.json) (the CAD file: `1980 - 1980-1989 - 1202-01-002 - HOOULE FOWER CHAAEE AESIGH CONTROL MEET CHAKRELS IOIHTICAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 30 words corrected)

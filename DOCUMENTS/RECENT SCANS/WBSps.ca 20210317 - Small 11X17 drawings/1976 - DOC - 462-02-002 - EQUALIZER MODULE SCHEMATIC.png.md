@@ -18,6 +18,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1976** (labelled): `DATE oct 76` — …5ENDL USED ON MATL WBS WARD-BECK ByBTEMB 2iv- 2iv- DRM: CEB DATE oct 76 cKD SCALE TOLS _ i M462A EQUALIZER MODULE SCHEMATIC C46 nis…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 462-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 7–294 mm up
+- **Outlines:** line 995 rings, 10,568 straight (22,763 mm) / 2,058 curved (2,652 mm); text 965 rings, 5,406 straight (5,015 mm) / 1,856 curved (2,367 mm); tb 6 rings, 27 straight (19.5 mm) / 21 curved (27.7 mm)
+- **Centre lines:** 13,629 paths (222 closed); straight 16,440 mm, curved 371 mm; horizontal 5,911 mm, vertical 4,628 mm, diagonal 5,900 mm
+- **Circles and arcs:** 9 circles, 93 arcs; largest r 3.1 @ (372.5, 193.5), r 3.1 @ (373.0, 256.2), r 3.0 @ (381.3, 246.1), r 3.0 @ (364.9, 241.0)
+- **Closed boxes:** 23 (1 in the title block); named: FILTER AMPLIFIER 4-126 1E12; 02 - 462- 002; TOLS
+- **Words (OCR):** 195 in 177 lines: hiGh FREQENCY · Mid · FREQUENCY · Low FREQUENCY · #-6khz-25kAz · 004z-6.4khz · 25Hz 400 Hz · cri · 25v+ · Rcs · FILTER AMPLIFIER · 4-126
+- **Title block:** (358, 11)–(383, 34) mm: IdRN- · GEBL · ISCALE · TOLS
+- **Wiring (first pass):** 180 connected wire groups from 1,105 runs; labelled ends: 297 mm → [DL; 119 mm → 243, 6-B/6; 118 mm → R23, ISk, REA <ik, 22; 116 mm → EQUALIZER Module, WBSs, GEBL; 114 mm → 6.8/6
+
+Every curve, box, word and wire group: [1976 - DOC - 462-02-002 - EQUALIZER MODULE SCHEMATIC (traced).json](1976%20-%20DOC%20-%20462-02-002%20-%20EQUALIZER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1976 - DOC - 462-02-002 - EQUALIZER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

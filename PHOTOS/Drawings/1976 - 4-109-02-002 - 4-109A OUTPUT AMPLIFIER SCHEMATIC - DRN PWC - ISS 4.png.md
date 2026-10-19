@@ -21,6 +21,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 535,857 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-109-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–294 mm up
+- **Outlines:** line 254 rings, 4,215 straight (13,191 mm) / 572 curved (903 mm); text 847 rings, 4,756 straight (4,447 mm) / 1,493 curved (2,048 mm); tb 10 rings, 91 straight (173 mm) / 16 curved (17.7 mm)
+- **Centre lines:** 6,267 paths (133 closed); straight 10,002 mm, curved 284 mm; horizontal 4,152 mm, vertical 2,710 mm, diagonal 3,140 mm
+- **Circles and arcs:** 2 circles, 54 arcs; largest r 4.2 @ (335.5, 271.8), r 1.1 @ (319.5, 86.1)
+- **Closed boxes:** 41 (31 in the title block); named: 4-10S-02-092; FISS
+- **Words (OCR):** 166 in 149 lines: E3 · 921s5v+ · <R16 · C4 · S15K · R14 ~ Ris · 47k · >ik · 884037 · 1/35 · R1o · C5
+- **Title block:** (249, 20)–(407, 58) mm: ISS MOD CKD · USED ON · MatL · WBS WAAD-Beck BybteMB LTC · 460 + 46 inc. · DRN.PWC · 4-10QA · FINISA · DATE ULY16 · OUTPuT AMPL'FIER · CKD Rece · SCHEMATIC · SCALE · TOLS · 4-10S-02-092 FISS
+- **Wiring (first pass):** 68 connected wire groups from 410 runs; labelled ends: 212 mm → R14, S15K, PN3569, C18; 201 mm → 813?, P5356-, R29, C19; 156 mm → E3, 921s5v+, <R16, >ik; 155 mm → 2N2102, {843 <144, {B*2, R45; 139 mm → ZIA, 3ok, 739, 2.7e
+
+Every curve, box, word and wire group: [1976 - 4-109-02-002 - 4-109A OUTPUT AMPLIFIER SCHEMATIC - DRN PWC - ISS 4 (traced).json](1976%20-%204-109-02-002%20-%204-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20PWC%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1976 - 4-109-02-002 - 4-109A OUTPUT AMPLIFIER SCHEMATIC - DRN PWC - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

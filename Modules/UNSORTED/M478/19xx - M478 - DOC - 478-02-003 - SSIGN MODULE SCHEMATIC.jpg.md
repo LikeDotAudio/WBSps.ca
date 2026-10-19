@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,345,414 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 478-02-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 10–298 mm up
+- **Outlines:** line 391 rings, 6,186 straight (13,374 mm) / 950 curved (1,284 mm); text 168 rings, 1,199 straight (1,499 mm) / 362 curved (517 mm); tb 32 rings, 258 straight (355 mm) / 45 curved (48.9 mm)
+- **Centre lines:** 6,479 paths (47 closed); straight 8,854 mm, curved 294 mm; horizontal 3,194 mm, vertical 3,436 mm, diagonal 2,223 mm
+- **Circles and arcs:** 20 circles, 42 arcs; largest r 1.4 @ (39.6, 233.0), r 1.4 @ (38.7, 197.3), r 1.3 @ (163.4, 198.2), r 1.3 @ (80.6, 197.5)
+- **Closed boxes:** 28 (8 in the title block)
+- **Words (OCR):** 27 in 23 lines: Iel · I5k · Isk · I5k $ · VIZu · V 1B,v · Pcb 4-125 · UsE · ISSUE DATE · REVISION · APP · SYSTEMS
+- **Title block:** (278, 11)–(431, 80) mm: ISSUE DATE · REVISION · APP · SYSTEMS · WBS WARD-BECK · M478 B · ENG_ EIT · A SSIGN · MODULE · CKD. · SCHEMATIC · APP · SCALE · 478-02-003 · ISSUE
+- **Wiring (first pass):** 65 connected wire groups from 341 runs; labelled ends: 754 mm → I5k $, Isk, VIZu; 105 mm → I5k; 64 mm → I5k; 62 mm → I5k $; 34 mm → V 1B,v
+
+Every curve, box, word and wire group: [19xx - M478 - DOC - 478-02-003 - SSIGN MODULE SCHEMATIC (traced).json](19xx%20-%20M478%20-%20DOC%20-%20478-02-003%20-%20SSIGN%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M478 - DOC - 478-02-003 - SSIGN MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 - **Size:** 1,988,100 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-030, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–430 mm up
+- **Outlines:** line 160 rings, 2,930 straight (7,022 mm) / 564 curved (1,141 mm); text 187 rings, 1,454 straight (1,501 mm) / 528 curved (715 mm); tb 558 rings, 4,075 straight (8,999 mm) / 1,094 curved (2,199 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 5.0 @ (73.6, 73.5), r 5.0 @ (73.8, 103.0), r 5.0 @ (73.9, 132.9), r 5.0 @ (73.7, 263.2)
+- **Closed boxes:** 16 (12 in the title block); named: PT Ng; DESCRiPTiON; Oty; ITEM
+- **Words (OCR):** 42 in 40 lines: ITEM · PT Ng · DESCRiPTiON · Oty · WBS · M463L; · 18 · 19 · PRE · RS-€-PA · RS · PRE
+- **Title block:** (145, 0)–(335, 416) mm: WBS · M463L; · 18 · 19 · PRE · RS-€-PA · RS · PRE · PRE · 3/4-€-V2 · PRE · 12.8 · RHZ · 25 · MF · 50 100200 · 300 · 400 · 28 · PAN · ISSUE IDATE · REviSION · APP · WBS WAAD-BECk sysTeMS · DRN: 12/82 J
+
+Every curve, box, word and wire group: [1974 - M463LA - 463-04-030 - ENG MEW SUBMASTER MODULE (traced).json](1974%20-%20M463LA%20-%20463-04-030%20-%20ENG%20MEW%20SUBMASTER%20MODULE%20%28traced%29.json) (the CAD file: `1974 - M463LA - 463-04-030 - ENG MEW SUBMASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

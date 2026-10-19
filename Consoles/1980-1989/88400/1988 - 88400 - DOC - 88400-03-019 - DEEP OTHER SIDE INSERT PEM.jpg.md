@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,585,884 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 88400-03-019, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 16–420 mm across, 2–262 mm up
+- **Outlines:** line 703 rings, 7,684 straight (14,623 mm) / 1,105 curved (1,495 mm); text 169 rings, 1,057 straight (938 mm) / 320 curved (407 mm); tb 24 rings, 180 straight (194 mm) / 44 curved (47.6 mm)
+- **Centre lines:** 6,994 paths (165 closed); straight 8,924 mm, curved 174 mm; horizontal 4,192 mm, vertical 2,475 mm, diagonal 2,257 mm
+- **Circles and arcs:** 2 circles, 18 arcs; largest r 1.2 @ (373.8, 12.2), r 0.8 @ (50.8, 19.0)
+- **Closed boxes:** 5 (3 in the title block)
+- **Words (OCR):** 28 in 28 lines: 070] · PLCES · PLACFS · DETAI · 6 CJ0 · 2coc · 0.150 · DETAM · 1.675 · INSFRT OTHEF · 5-44-1 · PACES
+- **Title block:** (340, 24)–(425, 44) mm: WARD-BECK  SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1988 - 88400 - DOC - 88400-03-019 - DEEP OTHER SIDE INSERT PEM (traced).json](1988%20-%2088400%20-%20DOC%20-%2088400-03-019%20-%20DEEP%20OTHER%20SIDE%20INSERT%20PEM%20%28traced%29.json) (the CAD file: `1988 - 88400 - DOC - 88400-03-019 - DEEP OTHER SIDE INSERT PEM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -21,6 +21,19 @@ Wiki page: [Job-940145](../../../PAGES/Job-940145.md)
 - **Size:** 384,675 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940145-03-001, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px); scale DISC NG
+- **Ink extent:** 49–863 mm across, 17–460 mm up
+- **Outlines:** line 709 rings, 4,296 straight (18,163 mm) / 800 curved (2,323 mm); text 139 rings, 905 straight (1,641 mm) / 275 curved (683 mm); tb 66 rings, 446 straight (891 mm) / 107 curved (263 mm)
+- **Centre lines:** 5,318 paths (126 closed); straight 11,789 mm, curved 517 mm; horizontal 5,653 mm, vertical 2,666 mm, diagonal 3,470 mm
+- **Circles and arcs:** 10 circles, 13 arcs; largest r 12.5 @ (382.6, 253.7), r 12.5 @ (427.1, 253.3), r 12.4 @ (471.6, 253.1), r 6.3 @ (118.0, 231.7)
+- **Closed boxes:** 31 (13 in the title block)
+- **Words (OCR):** 23 in 21 lines: 0. 328 · DEIAIL · DEIA · PLACE · FLACTS · 0,602 · PLACES · 17n · TL-VZD · PLACES · PLACCS · NoTEs
+- **Title block:** (667, 15)–(844, 82) mm: WB3S · WARD-BECK SYSTEMS · REAR PANEL · FOR · SCALE DISC NG · 940145-03-001 · COJE
+
+Every curve, box, word and wire group: [1994 - 940145-03-001 - REAR PANEL FOR M8212 (MODIFIED) - DRN WS - ENG WS - ISS 1 (traced).json](1994%20-%20940145-03-001%20-%20REAR%20PANEL%20FOR%20M8212%20%28MODIFIED%29%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940145-03-001 - REAR PANEL FOR M8212 (MODIFIED) - DRN WS - ENG WS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

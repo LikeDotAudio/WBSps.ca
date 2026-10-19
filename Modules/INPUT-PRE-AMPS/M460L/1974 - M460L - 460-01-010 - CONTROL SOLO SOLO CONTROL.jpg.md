@@ -11,6 +11,21 @@ Wiki page: [M460L](../../../PAGES/M460L.md)
 - **Size:** 1,077,730 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 460-01-010, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 305 rings, 4,963 straight (11,937 mm) / 598 curved (847 mm); text 528 rings, 3,713 straight (3,946 mm) / 1,151 curved (1,730 mm); tb 45 rings, 300 straight (649 mm) / 51 curved (70.4 mm)
+- **Centre lines:** 6,638 paths (107 closed); straight 9,273 mm, curved 178 mm; horizontal 3,757 mm, vertical 2,322 mm, diagonal 3,194 mm
+- **Circles and arcs:** 10 circles, 21 arcs; largest r 3.3 @ (153.6, 188.9), r 3.1 @ (229.8, 186.6), r 1.5 @ (238.5, 149.9), r 1.5 @ (248.6, 149.9)
+- **Closed boxes:** 39 (29 in the title block); named: -126
+- **Dots (junctions):** 1
+- **Words (OCR):** 92 in 79 lines: sensitivity · DIRECT OUTPut · E Q · 10 dBm · LINE · 30 dB · INSERT · INSERT · PAN · LINE IN · 20/+ 10 dBm · LEFT Output
+- **Title block:** (139, 5)–(421, 57) mm: IsS MOD  CKD_ · USED ON · MATL · WBS WARD BeCK SYSTEMs LTD · DRNVINCE · M46OL · DATE · FIMISH · INPUT MODULE · Ly · FUNCTIONAL DIAGRAM · [SCALE · TOLS · 460 01 - 010 · ISS_
+- **Wiring (first pass):** 166 connected wire groups from 369 runs; labelled ends: 248 mm → 8-109, ON, FADER, (-I5d8); 127 mm → Right Output, CONTROL; 70 mm → PFL; 60 mm → DIRECT OUTPut, 10 dBm, INSERT; 50 mm → INSERT, 8*109A
+
+Every curve, box, word and wire group: [1974 - M460L - 460-01-010 - CONTROL SOLO SOLO CONTROL (traced).json](1974%20-%20M460L%20-%20460-01-010%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20%28traced%29.json) (the CAD file: `1974 - M460L - 460-01-010 - CONTROL SOLO SOLO CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

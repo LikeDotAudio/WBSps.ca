@@ -1,0 +1,324 @@
+{
+ "code": "M600",
+ "name": "Universal Amplifier",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 21,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "SUMMING Low LEVEL CABLES BUSES DRESS SEPARATELY P1-1,2 PGM 1- PIN 1,A(3) P1-3,4 PGM 1-R ~0 PIN 2,B(C) P1-5,6 PGM 2-L L0 PIN 1,A(3) P1-7.8 PGM 2-R -0 PIN 2,B(C) ",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "SUMMING Low LEVEL CABLES BUSES DRESS SEPARATELY P1-1,2 PGM 1- PIN 1,A(3) P1-3,4 PGM 1-R ~0 PIN 2,B(C) P1-5,6 PGM 2-L L0 PIN 1,A(3) P1-7.8 PGM 2-R -0 PIN 2,B(C) ",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "SUMMING Low LEVEL CABLES BUSES DRESS SEPARATELY P1-1,2 PGM 1- PIN 1,A(3) P1-3,4 PGM 1-R ~0 PIN 2,B(C) P1-5,6 PGM 2-L L0 PIN 1,A(3) P1-7.8 PGM 2-R -0 PIN 2,B(C) ",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "SUMMING Low LEVEL CABLES BUSES DRESS SEPARATELY P1-1,2 PGM 1- PIN 1,A(3) P1-3,4 PGM 1-R ~0 PIN 2,B(C) P1-5,6 PGM 2-L L0 PIN 1,A(3) P1-7.8 PGM 2-R -0 PIN 2,B(C) ",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "SUMMING Low LEVEL CABLES BUSES DRESS SEPARATELY P1-1,2 PGM 1- PIN 1,A(3) P1-3,4 PGM 1-R ~0 PIN 2,B(C) P1-5,6 PGM 2-L L0 PIN 1,A(3) P1-7.8 PGM 2-R -0 PIN 2,B(C) ",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "P1-13,14",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "P1-15,16",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "039a8ee68e05c84b4d15c40dcaa716ecca6e208060c505131cab6f6098931b69",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "P1-16 P1-15",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "P1-17,18",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "P1-22",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c5b3ad72394842f8482791cfb4b1fb67cc00d377830d0035f205ce9e1f819c7c",
+    "file": "Modules/AMPLIFIERS/M600/19xx - 600-02-100 - M625B D TEST JIG SCHEMATIC (T625B) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1.png",
+    "page": 1
+   },
+   "quote": "P2-1",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "039a8ee68e05c84b4d15c40dcaa716ecca6e208060c505131cab6f6098931b69",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "P2-5,6",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "P2-10",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "25v P2-19&w #16  AWG",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25V",
+   "kind": "power",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6d1a69779a4bccbc5854870075360c65f1b958d3952a230785d41c6667ff24be",
+    "file": "Modules/AMPLIFIERS/M600/1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1.png",
+    "page": 1
+   },
+   "quote": "POWER BUSES CTL COM P2-228Z PINS 9-10 #16 AWG BR +25V P2-21&Y PINS 1-2 #16 AWG RD t- 25V COM P2-20kX PINS 3-4 #16 AWG BK",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

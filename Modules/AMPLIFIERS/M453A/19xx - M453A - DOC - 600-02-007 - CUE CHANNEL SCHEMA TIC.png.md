@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,245,954 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 600-02-007, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 0–427 mm across, 22–278 mm up
+- **Outlines:** line 126 rings, 1,648 straight (5,169 mm) / 231 curved (351 mm); text 463 rings, 3,096 straight (3,909 mm) / 965 curved (1,399 mm); tb 3 rings, 80 straight (202 mm) / 4 curved (5.8 mm)
+- **Centre lines:** 3,119 paths (71 closed); straight 5,341 mm, curved 174 mm; horizontal 2,248 mm, vertical 1,382 mm, diagonal 1,711 mm
+- **Circles and arcs:** 9 circles, 24 arcs; largest r 1.4 @ (110.6, 223.8), r 1.4 @ (110.7, 156.7), r 1.4 @ (299.5, 266.2), r 1.3 @ (110.7, 146.9)
+- **Closed boxes:** 19 (14 in the title block); named: M453A CUE AMPLFIER; 600-02-007; ISSUE
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 52 lines: TB2 · 128822 LINE OUTPUT · +8 dBm, 600 OHMS · FROM CUE · (123) · MIXING · BUS · TB1 · BELDEN #8451 · To · 3W,8 OHMS (MAX) · 15,16
+- **Title block:** (263, 36)–(432, 105) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: JRG 02/87 · EENG Zz · CUE CHANNEL · CKD; · SCHEMA TIC · APP _ · SCALE DISC NO: 130 · 600-02-007 · ISSUE · CODE: 600S07
+- **Wiring (first pass):** 40 connected wire groups from 148 runs, 1 dotted junctions; labelled ends: 428 mm → FROM CUE, (147), 148,149; 274 mm → TB2, 128822, BELDEN #8451; 152 mm → SCALE; 95 mm → +25V; 34 mm → BELDEN #8451, CUE, SPEAKER
+
+Every curve, box, word and wire group: [19xx - M453A - DOC - 600-02-007 - CUE CHANNEL SCHEMA TIC (traced).json](19xx%20-%20M453A%20-%20DOC%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `19xx - M453A - DOC - 600-02-007 - CUE CHANNEL SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

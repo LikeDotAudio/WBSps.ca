@@ -11,6 +11,18 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 949,254 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 122-06-012, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 11–431 mm up
+- **Outlines:** line 128 rings, 2,750 straight (4,977 mm) / 551 curved (642 mm); text 398 rings, 3,696 straight (3,946 mm) / 1,208 curved (1,432 mm); tb 4 rings, 88 straight (150 mm) / 18 curved (16.8 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 13.2 @ (106.4, 172.4), r 13.1 @ (105.1, 269.5), r 13.1 @ (161.6, 269.3)
+- **Closed boxes:** 1; named: C16 0.01
+- **Words (OCR):** 51 in 45 lines: 20 · 2OK · K2 · R3L 100 · 09 · Mm3o07 · MM3OO · R32 100 · 3569 · 07 PN3645 · z0 · 27 1/2w R39
+- **Title block:** (185, 54)–(314, 78) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1970 - M600 - 122-06-012 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](1970%20-%20M600%20-%20122-06-012%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1970 - M600 - 122-06-012 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

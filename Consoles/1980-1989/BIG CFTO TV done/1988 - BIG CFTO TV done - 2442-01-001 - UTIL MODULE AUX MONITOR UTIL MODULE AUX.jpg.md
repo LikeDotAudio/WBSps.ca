@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,322,527 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 2442-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 2–432 mm up
+- **Outlines:** line 528 rings, 7,620 straight (15,705 mm) / 929 curved (1,344 mm); text 376 rings, 2,277 straight (2,640 mm) / 664 curved (952 mm)
+- **Centre lines:** 6,863 paths (85 closed); straight 9,056 mm, curved 293 mm; horizontal 2,845 mm, vertical 3,283 mm, diagonal 2,928 mm
+- **Circles and arcs:** 11 circles, 48 arcs; largest r 1.4 @ (136.9, 298.5), r 1.3 @ (141.0, 322.4), r 1.3 @ (21.0, 10.8), r 1.3 @ (142.5, 154.2)
+- **Closed boxes:** 25
+- **Wiring (first pass):** 118 connected wire groups from 592 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 2442-01-001 - UTIL MODULE AUX MONITOR UTIL MODULE AUX (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20UTIL%20MODULE%20AUX%20MONITOR%20UTIL%20MODULE%20AUX%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 2442-01-001 - UTIL MODULE AUX MONITOR UTIL MODULE AUX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

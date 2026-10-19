@@ -10,6 +10,21 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 36,276,313 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 31106-01-004, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–279 mm up
+- **Outlines:** line 2,525 rings, 17,484 straight (23,742 mm) / 3,388 curved (4,014 mm); text 385 rings, 1,821 straight (1,537 mm) / 610 curved (722 mm); tb 92 rings, 485 straight (436 mm) / 159 curved (176 mm)
+- **Centre lines:** 27,879 paths (468 closed); straight 17,864 mm, curved 21.5 mm; horizontal 4,987 mm, vertical 5,589 mm, diagonal 7,288 mm
+- **Circles and arcs:** 8 circles, 10 arcs; largest r 3.3 @ (109.3, 193.6), r 3.3 @ (96.4, 174.1), r 3.3 @ (96.2, 161.1), r 3.3 @ (109.0, 161.1)
+- **Closed boxes:** 81 (9 in the title block); named: CHAhGE; ReA
+- **Dots (junctions):** 6
+- **Words (OCR):** 39 in 34 lines: PAOGAAY #OURCE · (HTURE] · PAOORAM B0uRCE · Como · Aupc Conbole · BTIDIO · 0necton · CONsoLE SLATE · IUTuAE · DYNICARB · UATAM · (Hoto
+- **Title block:** (358, 0)–(432, 30) mm: WBSS WARO-BECK systems · LSC · KUNE · SCALE · 31106-01-004
+- **Wiring (first pass):** 206 connected wire groups from 1,508 runs; labelled ends: 96 mm → 777477777; 95 mm → 777477777; 90 mm → 777477777; 88 mm → 777477777; 80 mm → 777477777
+
+Every curve, box, word and wire group: [1977 - WSVN - 31106-01-004 - RESUEMITTAL NOTREQUIRED CONTROL PATH CLIENT (traced).json](1977%20-%20WSVN%20-%2031106-01-004%20-%20RESUEMITTAL%20NOTREQUIRED%20CONTROL%20PATH%20CLIENT%20%28traced%29.json) (the CAD file: `1977 - WSVN - 31106-01-004 - RESUEMITTAL NOTREQUIRED CONTROL PATH CLIENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 22 words corrected)

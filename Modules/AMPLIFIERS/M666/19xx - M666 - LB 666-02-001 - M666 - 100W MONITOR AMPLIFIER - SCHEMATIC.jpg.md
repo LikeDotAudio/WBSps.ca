@@ -11,6 +11,21 @@ Wiki page: [M666](../../../PAGES/M666.md)
 - **Size:** 4,526,899 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 666-02-001, size B (assumed) 432 × 167 mm, 2000 × 775 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 23–166 mm up
+- **Outlines:** line 867 rings, 6,567 straight (11,302 mm) / 1,495 curved (1,824 mm); text 262 rings, 1,559 straight (1,304 mm) / 542 curved (648 mm); tb 2 rings, 38 straight (93.2 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 8,280 paths (285 closed); straight 7,760 mm, curved 198 mm; horizontal 3,145 mm, vertical 1,804 mm, diagonal 2,811 mm
+- **Circles and arcs:** 10 circles, 38 arcs; largest r 3.3 @ (178.0, 64.0), r 3.2 @ (188.5, 63.9), r 3.1 @ (178.9, 129.2), r 2.2 @ (262.9, 89.7)
+- **Closed boxes:** 23 (1 in the title block); named: Pce LEa; CRDI; M666 MoNiTOR AMP; Ififk oow SCHEMAT; Cz-0u
+- **Dots (junctions):** 2
+- **Words (OCR):** 42 in 37 lines: Neres · SchEMATIC OF Pce (-136 · For component Layout  See · ARE · UNLESS OTHeBWISE · OHMS · Cicitor · ARE IN · LaST · desigutiohs · 30eo · Cpice
+- **Title block:** (358, 45)–(432, 55) mm: WBS WARD-BECk SYSTEMS
+- **Wiring (first pass):** 52 connected wire groups from 488 runs; labelled ends: 584 mm → WBS; 515 mm → 33; 159 mm → Rros, Disoor, Decoa; 156 mm → WBS; 125 mm → 25 TURNS
+
+Every curve, box, word and wire group: [19xx - M666 - LB 666-02-001 - M666 - 100W MONITOR AMPLIFIER - SCHEMATIC (traced).json](19xx%20-%20M666%20-%20LB%20666-02-001%20-%20M666%20-%20100W%20MONITOR%20AMPLIFIER%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M666 - LB 666-02-001 - M666 - 100W MONITOR AMPLIFIER - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

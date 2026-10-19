@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,235,969 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-037, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 80–431 mm across, 2–298 mm up
+- **Outlines:** line 140 rings, 1,961 straight (6,820 mm) / 236 curved (482 mm); text 643 rings, 3,975 straight (4,806 mm) / 1,303 curved (1,885 mm); tb 3 rings, 78 straight (202 mm) / 6 curved (7.7 mm)
+- **Centre lines:** 4,801 paths (99 closed); straight 7,034 mm, curved 228 mm; horizontal 2,898 mm, vertical 1,628 mm, diagonal 2,508 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 12.8 @ (233.5, 190.0), r 12.6 @ (194.6, 189.6)
+- **Closed boxes:** 12 (10 in the title block); named: SCALE 1:1; CODE: 8224M37
+- **Words (OCR):** 76 in 58 lines: 3.750 · 0.257 · 3.236 · 0.110 DIA · C'SK 82 · To 0.175 DIA · PLACES · 0.375 · 0.825 · 0.900 · 1.650 · 0.328 REF
+- **Title block:** (252, 21)–(422, 89) mm: REVISION · APP · ISSUE · WBS · WARD-BECK · SYSTEMS · DRN; DRG · REAR PANEL · ENG · CKD · (2X XLR-31) · APP_ · SCALE DISC NO: SYSO1 · ISSUE · 1:1 CODE: 8224M37 · 8224-03-037
+
+Every curve, box, word and wire group: [19xx - 8224-03-037 - REAR PANEL (2X XLR-31) - DRN DRG - ISS 1 (traced).json](19xx%20-%208224-03-037%20-%20REAR%20PANEL%20%282X%20XLR-31%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-037 - REAR PANEL (2X XLR-31) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -10,6 +10,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,452,739 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 548 rings, 6,175 straight (14,319 mm) / 1,004 curved (1,540 mm); text 878 rings, 5,518 straight (5,572 mm) / 1,810 curved (2,409 mm)
+- **Centre lines:** 8,166 paths (148 closed); straight 11,571 mm, curved 426 mm; horizontal 5,172 mm, vertical 2,711 mm, diagonal 3,688 mm
+- **Circles and arcs:** 11 circles, 75 arcs; largest r 1.4 @ (218.9, 190.5), r 1.4 @ (219.0, 182.6), r 1.3 @ (219.0, 198.4), r 1.3 @ (218.9, 214.1)
+- **Closed boxes:** 2; named: 51,52; 43
+- **Words (OCR):** 153 in 134 lines: SUBMASTER · LE CONN. · CHANNELS · JC-37P · P1 · P1 · M1 MONO · S1-L · 37,38 · 1,2 · S1-R · 39,40
+- **Wiring (first pass):** 207 connected wire groups from 680 runs; labelled ends: 1311 mm → P1, 1,2, LOOPED TO, SUBMASTER MODULES; 1088 mm → 52-54, 33-35, 43, P2; 66 mm → 51,52; 59 mm → MONITOR, METER; 57 mm → METER
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-003 - MODULE FEMALE CONN MALE CONN (traced).json](1988%20-%20880134%20-%203642-02-003%20-%20MODULE%20FEMALE%20CONN%20MALE%20CONN%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-003 - MODULE FEMALE CONN MALE CONN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

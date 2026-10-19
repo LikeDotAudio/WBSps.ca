@@ -1,0 +1,80 @@
+{
+ "code": "M901NW",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 43,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 44,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "43",
+   "row": 43,
+   "side": "num",
+   "signal": "ALTERNATELY AN EXTERNAL GROUND",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "da17633613426824a20f10d7b0dc59e6716ad1589b9b399e2ce1623eeb925a72",
+    "file": "Modules/UNSORTED/M901NW/1994 - M901NW - 14-281-02-001 - SA14-281 - INPUT AMPLIFIER - ASSEMBLY.wp",
+    "page": 1
+   },
+   "quote": "Alternately an external ground applied at edge connector P2 pin 43 will produce the same effect.",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "41",
+   "row": 41,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "da17633613426824a20f10d7b0dc59e6716ad1589b9b399e2ce1623eeb925a72",
+    "file": "Modules/UNSORTED/M901NW/1994 - M901NW - 14-281-02-001 - SA14-281 - INPUT AMPLIFIER - ASSEMBLY.wp",
+    "page": 1
+   },
+   "quote": "This state change can be brought about by two different methods: Momentary operation of the Cue switch SW5, or momentary closure of the external Cue control inp",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "44",
+   "row": 44,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "da17633613426824a20f10d7b0dc59e6716ad1589b9b399e2ce1623eeb925a72",
+    "file": "Modules/UNSORTED/M901NW/1994 - M901NW - 14-281-02-001 - SA14-281 - INPUT AMPLIFIER - ASSEMBLY.wp",
+    "page": 1
+   },
+   "quote": "Momentary operation of the channel off switch SW3 or momentary grounding of the external channel off control input at P2-44 will result in a negative going puls",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

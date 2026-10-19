@@ -11,6 +11,18 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,549,351 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7750-02-022, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 1–289 mm up
+- **Outlines:** line 879 rings, 8,891 straight (18,258 mm) / 1,617 curved (1,861 mm); text 78 rings, 547 straight (561 mm) / 151 curved (196 mm)
+- **Centre lines:** 8,801 paths (151 closed); straight 10,506 mm, curved 49.6 mm; horizontal 6,165 mm, vertical 2,105 mm, diagonal 2,236 mm
+- **Circles and arcs:** 1 circles, 17 arcs; largest r 1.1 @ (354.6, 15.1)
+- **Closed boxes:** 44
+- **Wiring (first pass):** 91 connected wire groups from 699 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 7750-02-022 - OUTPUT MONITOR FOR MODULS AND CONNECTORS FRAME LAYOUT (traced).json](1981%20-%20microCOM%20-%207750-02-022%20-%20OUTPUT%20MONITOR%20FOR%20MODULS%20AND%20CONNECTORS%20FRAME%20LAYOUT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7750-02-022 - OUTPUT MONITOR FOR MODULS AND CONNECTORS FRAME LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

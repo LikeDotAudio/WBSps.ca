@@ -11,6 +11,17 @@ Wiki page: [M461M](../../../PAGES/M461M.md)
 - **Size:** 2,076,491 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 461-04-008, size B (assumed) 432 × 291 mm, 2000 × 1348 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–291 mm up
+- **Outlines:** line 345 rings, 7,063 straight (11,529 mm) / 968 curved (1,307 mm); text 270 rings, 1,765 straight (1,838 mm) / 542 curved (756 mm); tb 808 rings, 6,889 straight (8,843 mm) / 1,202 curved (1,661 mm)
+- **Closed boxes:** 32 (23 in the title block); named: WBS WARD-BECK BYBTEM6 LTD_; In 101 iNFUT AsseMbLY IMODULE; FiniSH; 008 461 04; ISS_
+- **Words (OCR):** 50 in 40 lines: 3ooster · WBS · M6"M · Sw · WESJ · ~z 5 · 110 · 77 4 · 5//2 · 5W/5 · 6-109 · 348
+- **Title block:** (52, 3)–(422, 270) mm: 3ooster · WBS · M6"M · Sw · ~z 5 · 77 4 · 5//2 · 5W/5 · 6-109 · 348 · SW9 · WBS ) · WBS] · AUX · 4.03 · Sw7 · C:s · AUX · Ch On · SW3 · Qutzut AM? · Iv 461 M INZUT VODULE · USS: · MOD CKD: · USED ON ·
+
+Every curve, box, word and wire group: [1975 - M461M - 461-04-008 - INPUT MODULE ASSEMBLY (traced).json](1975%20-%20M461M%20-%20461-04-008%20-%20INPUT%20MODULE%20ASSEMBLY%20%28traced%29.json) (the CAD file: `1975 - M461M - 461-04-008 - INPUT MODULE ASSEMBLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

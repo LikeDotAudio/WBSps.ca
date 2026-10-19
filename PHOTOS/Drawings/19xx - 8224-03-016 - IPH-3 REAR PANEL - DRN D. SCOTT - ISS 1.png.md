@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,306,970 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-016, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 169 rings, 2,810 straight (8,763 mm) / 407 curved (742 mm); text 557 rings, 3,641 straight (4,332 mm) / 1,177 curved (1,690 mm); tb 6 rings, 82 straight (214 mm) / 8 curved (12.1 mm)
+- **Centre lines:** 7,626 paths (107 closed); straight 8,456 mm, curved 256 mm; horizontal 3,539 mm, vertical 1,987 mm, diagonal 2,930 mm
+- **Circles and arcs:** 4 circles, 7 arcs; largest r 12.5 @ (126.2, 168.5), r 10.0 @ (165.6, 168.7), r 10.0 @ (339.1, 220.8), r 1.0 @ (55.0, 49.2)
+- **Closed boxes:** 13 (9 in the title block); named: 8224-03-016; SCALE 1:1; CODE: 8224M16
+- **Words (OCR):** 68 in 52 lines: #4-40 UNC · 2 PLACES · DETAILB · 0.140 · PLACES · 0.531 · DETAIL B · 1.062 · 6.19 · 2.340 · 1.50 · 0.780 DIA:
+- **Title block:** (250, 24)–(420, 91) mm: ISSUE · REVSION · APP · WARD-BECK SYSTEMS · WBS · DRN, · SCOTT · EENG_ · IPH-3 · CKD: · REAR PANEL · APP. · ISSUE · SCALE DISC NO: · 285 · 8224-03-016 · 1:1 CODE: 8224M16
+
+Every curve, box, word and wire group: [19xx - 8224-03-016 - IPH-3 REAR PANEL - DRN D. SCOTT - ISS 1 (traced).json](19xx%20-%208224-03-016%20-%20IPH-3%20REAR%20PANEL%20-%20DRN%20D.%20SCOTT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-016 - IPH-3 REAR PANEL - DRN D. SCOTT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

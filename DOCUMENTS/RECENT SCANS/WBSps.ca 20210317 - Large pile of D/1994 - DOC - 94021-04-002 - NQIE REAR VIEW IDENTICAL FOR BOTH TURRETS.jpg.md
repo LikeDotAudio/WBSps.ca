@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,375,958 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94021-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 44–424 mm across, 4–260 mm up
+- **Outlines:** line 662 rings, 4,244 straight (13,637 mm) / 964 curved (1,448 mm); text 274 rings, 1,671 straight (1,692 mm) / 509 curved (623 mm); tb 15 rings, 123 straight (162 mm) / 23 curved (26.7 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 4.5 @ (229.0, 174.1), r 4.5 @ (89.4, 174.5), r 4.2 @ (89.6, 203.2), r 4.2 @ (89.2, 117.3)
+- **Closed boxes:** 52 (4 in the title block); named: TALKBACK ADORESS MCROPACNE USE TALBACR; ADORESS MICROPHONE USE HEADPHONES TALKBA; TALKBACK ADORESS MCROPACNE USE TALBACR; HEADDHONE HEADSE |; HEADDHONE HEADSE |; GLEN GOULD  STUDIO TURRET LAYOUTS; DISC ND;; 94021-04-002
+- **Dots (junctions):** 18
+- **Words (OCR):** 35 in 31 lines: ADORESS · TALKBACK ADORESS · MCROPACNE · MICROPHONE · USE · USE · HEADPHONES · TALKBACK · TALBACR · TOP MEW · TOP MEW · "PRDOUCER 5
+- **Title block:** (345, 22)–(429, 43) mm: ISSUE]DATL · WBS · WARD-BECK   SYSTEMS · GLEN GOULD  STUDIO
+
+Every curve, box, word and wire group: [1994 - DOC - 94021-04-002 - NQIE REAR VIEW IDENTICAL FOR BOTH TURRETS (traced).json](1994%20-%20DOC%20-%2094021-04-002%20-%20NQIE%20REAR%20VIEW%20IDENTICAL%20FOR%20BOTH%20TURRETS%20%28traced%29.json) (the CAD file: `1994 - DOC - 94021-04-002 - NQIE REAR VIEW IDENTICAL FOR BOTH TURRETS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,17 @@ Communication terminal front and rear layout Title block at bottom left reading 
 - **Size:** 4,908,530 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 7800-04-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,418 rings, 10,176 straight (19,586 mm) / 2,071 curved (3,303 mm); text 106 rings, 752 straight (749 mm) / 212 curved (285 mm)
+- **Circles and arcs:** 36 circles, 0 arcs; largest r 6.1 @ (313.7, 169.7), r 5.0 @ (289.7, 86.5), r 4.7 @ (110.0, 85.3), r 3.9 @ (110.0, 85.3)
+- **Closed boxes:** 37
+- **Dots (junctions):** 5
+
+Every curve, box, word and wire group: [19xx - 7800-04-001 - M7800A COMMUNICATION TERMINAL FRONT & REAR LAYOUT - ISS 3 (traced).json](19xx%20-%207800-04-001%20-%20M7800A%20COMMUNICATION%20TERMINAL%20FRONT%20%26%20REAR%20LAYOUT%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 7800-04-001 - M7800A COMMUNICATION TERMINAL FRONT & REAR LAYOUT - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

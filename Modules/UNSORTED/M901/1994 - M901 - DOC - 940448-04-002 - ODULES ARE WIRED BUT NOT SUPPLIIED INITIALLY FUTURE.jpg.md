@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,158,855 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940448-04-002, size B (assumed) 432 × 360 mm, 2000 × 1667 px traced (0.216 mm/px); scale DISC NO: 487
+- **Ink extent:** 1–413 mm across, 1–355 mm up
+- **Outlines:** line 1,651 rings, 12,414 straight (38,768 mm) / 1,624 curved (2,164 mm); text 672 rings, 4,292 straight (4,729 mm) / 1,341 curved (1,819 mm); tb 19 rings, 411 straight (2,026 mm) / 7 curved (9.4 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 7.1 @ (359.7, 113.7), r 7.1 @ (360.1, 141.7), r 2.1 @ (362.1, 116.3), r 2.0 @ (362.5, 144.3)
+- **Closed boxes:** 194; named: M9OSB; HEADPHONES CUES 4Ue STUDIO; HEADPHONES CUESI HUTE STUDIO; Tocjo
+- **Dots (junctions):** 46
+- **Words (OCR):** 116 in 78 lines: METER · Mic · LINE · LINE · LINE · LINE · LINE · LINE · LINE · LINE 8 SEL. · SEL: · CR MON STD MON
+- **Title block:** (274, 7)–(419, 69) mm: ISSUE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN_ · PAS · WBZ BOSTON · ENG SM · CKD · TAPE OPS · APP · RENAISSANCE MKII · LAYOUT · SCALE DISC NO: 487 · 940448-04-002 · ISSUE · CODE: 94448L02
+
+Every curve, box, word and wire group: [1994 - M901 - DOC - 940448-04-002 - ODULES ARE WIRED BUT NOT SUPPLIIED INITIALLY FUTURE (traced).json](1994%20-%20M901%20-%20DOC%20-%20940448-04-002%20-%20ODULES%20ARE%20WIRED%20BUT%20NOT%20SUPPLIIED%20INITIALLY%20FUTURE%20%28traced%29.json) (the CAD file: `1994 - M901 - DOC - 940448-04-002 - ODULES ARE WIRED BUT NOT SUPPLIIED INITIALLY FUTURE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

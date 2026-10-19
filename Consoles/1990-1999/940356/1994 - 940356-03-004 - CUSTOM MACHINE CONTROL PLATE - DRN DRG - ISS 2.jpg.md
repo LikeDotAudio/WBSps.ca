@@ -20,6 +20,20 @@ Wiki page: [Job-940356](../../../PAGES/Job-940356.md)
 - **Size:** 433,737 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940356-03-004, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 108–842 mm across, 16–508 mm up
+- **Outlines:** line 766 rings, 5,325 straight (23,697 mm) / 1,024 curved (2,389 mm); text 279 rings, 1,619 straight (3,083 mm) / 523 curved (1,324 mm); tb 15 rings, 126 straight (318 mm) / 25 curved (60.1 mm)
+- **Centre lines:** 6,734 paths (210 closed); straight 15,896 mm, curved 67.5 mm; horizontal 6,469 mm, vertical 3,852 mm, diagonal 5,575 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 1.4 @ (762.7, 385.2)
+- **Closed boxes:** 67 (3 in the title block); named: CUSTOM MACHINE CONTROL PLATE; 940356-03-004; Me
+- **Dots (junctions):** 1
+- **Words (OCR):** 29 in 26 lines: PITCH(IcOD) (3) · 2730 · 940356-03-004- · DATUM · Ro'D · ALOO · 940556 · SUB FLATE · n 447 · DATC · PUNCH 0,640 · RCO D
+- **Title block:** (683, 47)–(853, 89) mm: ISSLELDATEL · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940356-03-004 - CUSTOM MACHINE CONTROL PLATE - DRN DRG - ISS 2 (traced).json](1994%20-%20940356-03-004%20-%20CUSTOM%20MACHINE%20CONTROL%20PLATE%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940356-03-004 - CUSTOM MACHINE CONTROL PLATE - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

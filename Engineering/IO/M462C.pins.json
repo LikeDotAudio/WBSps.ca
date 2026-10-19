@@ -1,0 +1,196 @@
+{
+ "code": "M462C",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "EQ IN LEFT",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462C/M462C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "EQ IN LEFT",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462C/M462C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "EQ IN RIGHT",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462C/M462C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "EQ IN RIGHT",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462C/M462C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "EQ OUT LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462C/M462C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "EQ OUT LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462C/M462C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "EQ OUT RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462C/M462C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "EQ OUT RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462C/M462C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "POWER SUPPLY COMMON RETURN",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c72f20b47a50e0021dbfc8236aab124fa2b56ec7a222be901f1eb0dc1ee8a1a0",
+    "file": "Modules/FILTERS/M462C/1985 - M462C - M462C562C - P010 - 4-3.jpg",
+    "page": 1
+   },
+   "quote": "The +/-18 volt supply voltage required by the operational amplifiers the equalization circuitry decoup ed and filtered by 05 through 08 These voltages are tapped off the +/-22 volt supply Iines The power supply common return appears pin connector and the chassis frame connects pin 22 the module 4-3",
+   "also": [
+    {
+     "signal": "POWER SUPPLY COMMON RETURN",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/FILTERS/M462C/1985 - M462C - M462C562C - P010 - 4-3.jpg",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

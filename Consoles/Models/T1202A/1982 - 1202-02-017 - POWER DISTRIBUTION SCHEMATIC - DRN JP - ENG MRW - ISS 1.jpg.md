@@ -23,6 +23,20 @@ Wiki page: [T1202A](../../../PAGES/T1202A.md)
 - **Size:** 566,741 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1202-02-017, size B 432 × 275 mm, 2000 × 1272 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–269 mm up
+- **Outlines:** line 303 rings, 3,593 straight (8,443 mm) / 587 curved (881 mm); text 1,216 rings, 9,334 straight (11,074 mm) / 2,782 curved (4,315 mm); tb 42 rings, 212 straight (343 mm) / 50 curved (74.8 mm)
+- **Centre lines:** 8,244 paths (147 closed); straight 12,173 mm, curved 237 mm; horizontal 3,910 mm, vertical 2,661 mm, diagonal 5,602 mm
+- **Circles and arcs:** 23 circles, 20 arcs; largest r 2.1 @ (71.8, 143.7), r 2.1 @ (114.6, 51.5), r 2.1 @ (104.9, 137.0), r 2.0 @ (114.4, 41.8)
+- **Closed boxes:** 16 (6 in the title block); named: M2o7 PHANTOM POWER CONVERTER
+- **Words (OCR):** 171 in 125 lines: NQIES: · *v REFER To TIZO2A MANUAL · M485B SECTION FOR 230v SOHz · +25v · STRAPPING AND CORRECT · FUSE · M2o7 · siG COM · PHANTOM POWER · M480c · Ch1 TO 12 PIN #22 AWG OR · CONVERTER
+- **Title block:** (65, 1)–(432, 68) mm: BINDING · (ISSUE |DATE · REVISION · APP · SYSTEMS · PoSTS · CHAsSIS · M4BOB 1TO 12 PIN 22 #22 AWG · GN · GROUND · WBS WARD-BECK SYSTEMS · 6M487 · 162 · e M481B · Ac · DRN_ · JP SEF8z · GROUND · M482B 
+- **Wiring (first pass):** 49 connected wire groups from 294 runs; labelled ends: 251 mm → PHANTOM POWER, M480c; 143 mm → BINDING, PoSTS; 132 mm → #16, AwG; 116 mm → M485B, BINDING; 107 mm → SYSTEMS, GROUND, 1i5, 230 VAC
+
+Every curve, box, word and wire group: [1982 - 1202-02-017 - POWER DISTRIBUTION SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).json](1982%20-%201202-02-017%20-%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 1202-02-017 - POWER DISTRIBUTION SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

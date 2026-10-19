@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,184,215 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94063-04-003, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px); scale DISC ND: Sysoi
+- **Ink extent:** 70–423 mm across, 8–237 mm up
+- **Outlines:** line 962 rings, 7,100 straight (28,264 mm) / 860 curved (1,514 mm); text 295 rings, 2,194 straight (2,082 mm) / 554 curved (712 mm); tb 9 rings, 75 straight (128 mm) / 16 curved (20.1 mm)
+- **Circles and arcs:** 75 circles, 0 arcs; largest r 2.8 @ (161.6, 196.2), r 2.8 @ (206.4, 161.8), r 2.8 @ (107.9, 196.2), r 2.8 @ (242.1, 156.0)
+- **Closed boxes:** 126 (12 in the title block); named: IFB PROGRAM ASSIGN BUS LISTEN ASSIGN; IFB PROGRAM ASSIGN BUS LISTEN ASSIGN; IFB PROGRAM ASSIGN; BUS LISTEN ASSIGN; CAUTION CiSCONNECT POwER BEFORE SERcIR C; CAUTION CiSCONNECT POwER BEFORE SERcIR C; PS2 DISCOHNEcT PCAU TIONGrE InStRTNG ETR; PS2 DISCOHNEcT PCAU TIONGrE InStRTNG ETR; CAUTION discovneci Ponkk REFCRI IRSERMNG; CAUTION discovneci Ponkk REFCRI IRSERMNG
+- **Dots (junctions):** 1
+- **Words (OCR):** 50 in 34 lines: IFB PROGRAM ASSIGN · BUS LISTEN ASSIGN · CiSCONNECT POwER BEFORE · CAUTION · SERcIR C POnER SuPPLT · M712B| · M703C · M702C · PS2 · DISCOHNEcT PCAU TIONGrE InStRTNG · ETRAcMkc Pokns SuPPLY Modunes · V-ADJ
+- **Title block:** (339, 6)–(430, 40) mm: SSUE · REMSION · WBS · WARD-BECK · SYSTEMS · DRN: DRG · ENG; · CBC REGINA · FIELD COMMUNICA TIONS SYSTEM · LAYOUT · APP · SCALE DISC ND: Sysoi · ISSUE · NTS CODE: 94063L03 · 94063-04-003
+
+Every curve, box, word and wire group: [1994 - M712B - DOC - 94063-04-003 - MODUNES V-ADJ V-ADJ CAUTION DISCOVNECI PONKK REFCRI IRSERMNG (traced).json](1994%20-%20M712B%20-%20DOC%20-%2094063-04-003%20-%20MODUNES%20V-ADJ%20V-ADJ%20CAUTION%20DISCOVNECI%20PONKK%20REFCRI%20IRSERMNG%20%28traced%29.json) (the CAD file: `1994 - M712B - DOC - 94063-04-003 - MODUNES V-ADJ V-ADJ CAUTION DISCOVNECI PONKK REFCRI IRSERMNG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

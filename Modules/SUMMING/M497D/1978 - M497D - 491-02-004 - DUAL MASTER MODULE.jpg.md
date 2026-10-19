@@ -11,6 +11,19 @@ Wiki page: [M497D](../../../PAGES/M497D.md)
 - **Size:** 478,851 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 491-02-004, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–431 mm up
+- **Outlines:** line 491 rings, 4,627 straight (7,750 mm) / 1,076 curved (1,422 mm); text 376 rings, 2,475 straight (2,505 mm) / 836 curved (1,135 mm)
+- **Centre lines:** 4,634 paths (80 closed); straight 5,923 mm, curved 320 mm; horizontal 2,592 mm, vertical 852 mm, diagonal 2,479 mm
+- **Circles and arcs:** 11 circles, 77 arcs; largest r 1.3 @ (298.0, 26.3), r 1.2 @ (154.8, 217.3), r 1.2 @ (154.8, 346.1), r 1.2 @ (213.4, 213.9)
+- **Closed boxes:** 11; named: Maw; 497-02-00
+- **Words (OCR):** 63 in 54 lines: NoTES · ALL RESiSToRS W,5 % AND · ALC · CAPACiTORS IN _F DMLESS · Otherwise SpeciFied. · 2,LAST COMPCNENT DESIGNATION · 224,(R4,06,R19 2Z6_ · 3. USE · PcB 7-/13 · 2iv · Sert · IBn
+- **Wiring (first pass):** 77 connected wire groups from 311 runs; labelled ends: 259 mm → IssuDte, WBS; 244 mm → WBS; 47 mm → 2E2; 34 mm → 235, 3k, Iei; 34 mm → IEZ, 2k
+
+Every curve, box, word and wire group: [1978 - M497D - 491-02-004 - DUAL MASTER MODULE (traced).json](1978%20-%20M497D%20-%20491-02-004%20-%20DUAL%20MASTER%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M497D - 491-02-004 - DUAL MASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

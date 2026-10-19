@@ -25,6 +25,20 @@ M463K submaster module functional diagram, cropped.
 - **Size:** 1,008,640 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 463-01-010, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 0–432 mm up
+- **Outlines:** line 528 rings, 10,967 straight (14,893 mm) / 1,646 curved (1,920 mm); text 497 rings, 3,806 straight (4,894 mm) / 1,134 curved (1,890 mm); tb 71 rings, 530 straight (723 mm) / 75 curved (99.3 mm)
+- **Centre lines:** 21,212 paths (159 closed); straight 14,958 mm, curved 45.9 mm; horizontal 4,932 mm, vertical 3,676 mm, diagonal 6,350 mm
+- **Circles and arcs:** 5 circles, 6 arcs; largest r 2.0 @ (53.8, 332.2), r 2.0 @ (72.2, 340.5), r 1.7 @ (53.9, 332.1), r 1.6 @ (54.8, 348.0)
+- **Closed boxes:** 18 (4 in the title block); named: MATL.; WBS WAAD-BeCK BYSTEMS LTD_; M463K MODULE SUBMASTER FUNCTIONAL DIAGRA; FIMISH; 463- 01-010; ISS.
+- **Words (OCR):** 80 in 74 lines: DIRECT OUT · -10 dBm · PAN · INSERT · MiX · M1 · LEFT · OUt · Jb) · M3X · 8.109 · PAN
+- **Title block:** (97, 0)–(246, 86) mm: WBS WAAD-BeCK BYSTEMS LTD_ · DRN. · PKM · DATE 11,hJy/ 79 · SUBMASTER · CKD · SCALE · TOLS _ EnG · XX · 463- 01-010
+- **Wiring (first pass):** 105 connected wire groups from 428 runs; labelled ends: 310 mm → PRE/ POST, PRE /POST; 208 mm → -10 dBm, LEFT; 178 mm → ON; 154 mm → DRN., DATE 11,hJy/ 79, CKD; 141 mm → WAAD-BeCK, LTD_
+
+Every curve, box, word and wire group: [1979 - 463-01-010 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2 (traced).json](1979%20-%20463-01-010%20-%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1979 - 463-01-010 - SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

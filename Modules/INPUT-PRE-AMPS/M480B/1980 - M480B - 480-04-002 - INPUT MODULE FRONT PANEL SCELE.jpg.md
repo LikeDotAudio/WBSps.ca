@@ -11,6 +11,18 @@ Wiki page: [M480B](../../../PAGES/M480B.md)
 - **Size:** 1,837,562 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 480-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 3–429 mm across, 3–276 mm up
+- **Outlines:** line 126 rings, 1,335 straight (4,090 mm) / 260 curved (452 mm); text 73 rings, 468 straight (474 mm) / 143 curved (186 mm); tb 368 rings, 2,006 straight (3,981 mm) / 563 curved (925 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 3.3 @ (268.5, 81.6), r 3.3 @ (269.2, 206.2), r 3.2 @ (268.5, 70.7), r 3.2 @ (269.1, 195.8)
+- **Closed boxes:** 10 (5 in the title block); named: INPUT MODULE FRONT PANFI
+- **Words (OCR):** 12 in 9 lines: WBS · M4808 · Pfar · AUX · WBS · WARO-BeCk SYSTEMS · INPUT MODULE · FRONT PANFI · 480 04-002
+- **Title block:** (307, 18)–(432, 233) mm: WBS · M4808 · Pfar · AUX · WBS · WARO-BeCk SYSTEMS
+
+Every curve, box, word and wire group: [1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE (traced).json](1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE%20%28traced%29.json) (the CAD file: `1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

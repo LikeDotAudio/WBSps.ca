@@ -22,6 +22,19 @@ M460M input module component layout.
 - **Size:** 1,086,656 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 460-06-028, size B 432 × 317 mm, 2000 × 1470 px traced (0.216 mm/px)
+- **Ink extent:** 1–425 mm across, 2–305 mm up
+- **Outlines:** line 4,752 rings, 25,841 straight (30,558 mm) / 5,678 curved (5,118 mm); text 114 rings, 782 straight (761 mm) / 235 curved (275 mm); tb 5 rings, 61 straight (112 mm) / 11 curved (10.5 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 0.6 @ (143.4, 116.6), r 0.6 @ (97.7, 68.9), r 0.6 @ (54.5, 108.0), r 0.6 @ (287.0, 247.3)
+- **Closed boxes:** 43
+- **Dots (junctions):** 7
+- **Words (OCR):** 9 in 7 lines: WBS WAAD-BECK 9ybteMS · M46om · INPUT MODULE · COMPONENT · LAYOUT · B 460-06-028 · ISS.
+- **Title block:** (333, 34)–(432, 51) mm: WBS WAAD-BECK 9ybteMS
+
+Every curve, box, word and wire group: [19xx - 460-06-028 - INPUT MODULE COMPONENT LAYOUT - ISS 1 (2) (traced).json](19xx%20-%20460-06-028%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 460-06-028 - INPUT MODULE COMPONENT LAYOUT - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

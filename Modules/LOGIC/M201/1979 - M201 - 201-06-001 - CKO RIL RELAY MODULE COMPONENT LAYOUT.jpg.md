@@ -11,6 +11,17 @@ Wiki page: [M201](../../../PAGES/M201.md)
 - **Size:** 6,606,744 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 201-06-001, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–431 mm across, 18–307 mm up
+- **Outlines:** line 714 rings, 5,236 straight (10,111 mm) / 1,460 curved (1,427 mm); text 154 rings, 821 straight (630 mm) / 291 curved (300 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.2 @ (171.5, 160.1), r 4.2 @ (171.5, 169.8), r 3.1 @ (105.1, 188.8), r 2.3 @ (105.2, 141.6)
+- **Closed boxes:** 21
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1979 - M201 - 201-06-001 - CKO RIL RELAY MODULE COMPONENT LAYOUT (traced).json](1979%20-%20M201%20-%20201-06-001%20-%20CKO%20RIL%20RELAY%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1979 - M201 - 201-06-001 - CKO RIL RELAY MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

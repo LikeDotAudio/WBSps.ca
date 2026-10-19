@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 24,569,260 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 95021-01-002, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 41–432 mm across, 7–267 mm up
+- **Outlines:** line 2,719 rings, 25,058 straight (40,016 mm) / 2,480 curved (3,231 mm); text 235 rings, 1,371 straight (1,231 mm) / 447 curved (554 mm); tb 60 rings, 359 straight (341 mm) / 105 curved (121 mm)
+- **Centre lines:** 115,396 paths (244 closed); straight 47,131 mm, curved 244 mm; horizontal 11,454 mm, vertical 13,737 mm, diagonal 21,939 mm
+- **Circles and arcs:** 223 circles, 74 arcs; largest r 3.4 @ (301.2, 186.9), r 3.4 @ (263.0, 131.9), r 3.4 @ (141.9, 144.4), r 3.4 @ (122.7, 106.2)
+- **Closed boxes:** 43 (12 in the title block)
+- **Dots (junctions):** 5
+- **Words (OCR):** 34 in 31 lines: SCUND InFuTS · 244341 · 304481 · A9 · JFL8I , · NORLALLI · A1 · (2524 Aoutpurs) · AFD · INEUS · 4aa · IHPUTE
+- **Title block:** (340, 5)–(428, 39) mm: WARD-BECK SYSTEMS · WBS · MATRIX FUNCTIONAL · CBC EDMONTON · SCALE · 95021-01-002
+- **Wiring (first pass):** 302 connected wire groups from 3,882 runs, 8 dotted junctions; labelled ends: 38 mm → fcis; 27 mm → fczi; 17 mm → AFD; 17 mm → AFD; 17 mm → JFL8I ,
+
+Every curve, box, word and wire group: [1995 - 95021 - DOC - 95021-01-002 - TRIX FUNCTIONAL MATRIX OUTPUTS (traced).json](1995%20-%2095021%20-%20DOC%20-%2095021-01-002%20-%20TRIX%20FUNCTIONAL%20MATRIX%20OUTPUTS%20%28traced%29.json) (the CAD file: `1995 - 95021 - DOC - 95021-01-002 - TRIX FUNCTIONAL MATRIX OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

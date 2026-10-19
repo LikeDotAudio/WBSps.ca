@@ -24,6 +24,18 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 4,830,156 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 459-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 728 rings, 8,593 straight (12,287 mm) / 1,470 curved (1,925 mm); text 209 rings, 1,447 straight (1,552 mm) / 362 curved (526 mm)
+- **Centre lines:** 8,146 paths (79 closed); straight 8,323 mm, curved 248 mm; horizontal 3,433 mm, vertical 2,132 mm, diagonal 2,758 mm
+- **Circles and arcs:** 7 circles, 48 arcs; largest r 1.7 @ (85.3, 118.4), r 1.7 @ (264.0, 23.6), r 1.5 @ (142.5, 175.9), r 1.4 @ (140.5, 197.1)
+- **Closed boxes:** 39
+- **Wiring (first pass):** 39 connected wire groups from 485 runs
+
+Every curve, box, word and wire group: [1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (traced).json](1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

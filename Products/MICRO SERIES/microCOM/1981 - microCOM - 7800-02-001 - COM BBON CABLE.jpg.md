@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,668,751 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7800-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,899 rings, 15,213 straight (22,271 mm) / 3,216 curved (3,696 mm); text 346 rings, 2,028 straight (1,708 mm) / 615 curved (749 mm)
+- **Centre lines:** 19,148 paths (402 closed); straight 14,948 mm, curved 40.9 mm; horizontal 6,212 mm, vertical 3,763 mm, diagonal 4,973 mm
+- **Circles and arcs:** 4 circles, 12 arcs; largest r 2.3 @ (322.1, 257.7), r 0.8 @ (52.1, 154.1), r 0.8 @ (350.9, 78.6), r 0.8 @ (338.6, 233.4)
+- **Closed boxes:** 12
+- **Dots (junctions):** 6
+- **Wiring (first pass):** 146 connected wire groups from 1,646 runs, 3 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 7800-02-001 - COM BBON CABLE (traced).json](1981%20-%20microCOM%20-%207800-02-001%20-%20COM%20BBON%20CABLE%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7800-02-001 - COM BBON CABLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 15,971,735 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94021-04-004, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 93–422 mm across, 7–197 mm up
+- **Outlines:** line 635 rings, 4,185 straight (13,741 mm) / 670 curved (1,027 mm); text 105 rings, 625 straight (686 mm) / 203 curved (277 mm); tb 13 rings, 120 straight (150 mm) / 31 curved (39.4 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 3.1 @ (265.8, 84.8), r 3.1 @ (213.5, 84.7), r 3.1 @ (199.3, 84.6), r 3.1 @ (237.3, 84.7)
+- **Closed boxes:** 64 (5 in the title block); named: RLOUNDAYT; RLOUNDAYT; GLEN NGOULD   STUDIO CENTRAL ELECTRONICS; 94021- 04-004
+- **Dots (junctions):** 5
+- **Words (OCR):** 9 in 8 lines: RLOUNDAYT · ISSUE DATE] · WBS · WARD-BECK SYSTEMS · GLEN NGOULD   STUDIO · CENTRAL ELECTRONICS · LAYOUT · 94021- 04-004
+- **Title block:** (343, 23)–(427, 44) mm: ISSUE DATE] · WBS · WARD-BECK SYSTEMS · GLEN NGOULD   STUDIO
+
+Every curve, box, word and wire group: [1994 - 94021 - DOC - 94021-04-004 - FOALH BEOT VOBLUES U-AD USA MAIN SIUDIQ CREDENZA (traced).json](1994%20-%2094021%20-%20DOC%20-%2094021-04-004%20-%20FOALH%20BEOT%20VOBLUES%20U-AD%20USA%20MAIN%20SIUDIQ%20CREDENZA%20%28traced%29.json) (the CAD file: `1994 - 94021 - DOC - 94021-04-004 - FOALH BEOT VOBLUES U-AD USA MAIN SIUDIQ CREDENZA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,307,800 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 930430-01-001, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px)
+- **Ink extent:** 38–432 mm across, 10–273 mm up
+- **Outlines:** line 4,239 rings, 24,386 straight (31,997 mm) / 3,447 curved (4,076 mm); text 115 rings, 656 straight (731 mm) / 218 curved (303 mm); tb 24 rings, 174 straight (200 mm) / 37 curved (40.1 mm)
+- **Centre lines:** 48,526 paths (115 closed); straight 25,026 mm, curved 43.7 mm; horizontal 8,976 mm, vertical 8,160 mm, diagonal 7,890 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 31 (4 in the title block); named: TORONTO BROADCAST CENTRE PROPOSED MicroC; 001 930430-01-
+- **Dots (junctions):** 1
+- **Words (OCR):** 8 in 8 lines: WBS · WARD- · BECK SYSTEMS · TORONTO BROADCAST CENTRE · PROPOSED MicroCoM · FUNCTIONAL · 930430-01- · 001
+- **Title block:** (344, 26)–(428, 43) mm: WBS · WARD- · BECK SYSTEMS · TORONTO BROADCAST CENTRE
+- **Wiring (first pass):** 187 connected wire groups from 6,285 runs, 2 dotted junctions; labelled ends: 169 mm → WBS, TORONTO BROADCAST CENTRE, 001, 930430-01-
+
+Every curve, box, word and wire group: [1993 - microCOM - DOC - 930430-01-001 - TORONTO BROADCAST CENTRE PROPOSED MICROCOM EKDX FUNCTIONAL (traced).json](1993%20-%20microCOM%20-%20DOC%20-%20930430-01-001%20-%20TORONTO%20BROADCAST%20CENTRE%20PROPOSED%20MICROCOM%20EKDX%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1993 - microCOM - DOC - 930430-01-001 - TORONTO BROADCAST CENTRE PROPOSED MICROCOM EKDX FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

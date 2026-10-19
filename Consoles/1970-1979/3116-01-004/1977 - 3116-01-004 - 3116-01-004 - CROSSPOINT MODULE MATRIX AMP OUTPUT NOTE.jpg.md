@@ -9,6 +9,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,829,580 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 3116-01-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–426 mm up
+- **Outlines:** line 645 rings, 8,688 straight (15,115 mm) / 1,239 curved (1,937 mm); text 487 rings, 3,367 straight (3,318 mm) / 1,004 curved (1,444 mm)
+- **Centre lines:** 9,270 paths (129 closed); straight 11,324 mm, curved 400 mm; horizontal 3,407 mm, vertical 3,755 mm, diagonal 4,162 mm
+- **Circles and arcs:** 59 circles, 25 arcs; largest r 6.8 @ (196.1, 217.8), r 6.8 @ (182.7, 217.8), r 6.7 @ (222.4, 190.8), r 6.7 @ (235.8, 257.7)
+- **Closed boxes:** 52
+- **Words (OCR):** 44 in 33 lines: (Future) · VidEoTAPE · projeCTion · MASTER · ContROL · ANNOUNCE · Studio · DirECTor · Audio · Producer · (IFB ONLY) · (Future)
+- **Wiring (first pass):** 177 connected wire groups from 695 runs; labelled ends: 160 mm → 422.; 104 mm → 20; 31 mm → (Future); 25 mm → (Future); 20 mm → Output AmpLifier, MUtE CTL, CTL, MUTE OVERRIDE CTL
+
+Every curve, box, word and wire group: [1977 - 3116-01-004 - 3116-01-004 - CROSSPOINT MODULE MATRIX AMP OUTPUT NOTE (traced).json](1977%20-%203116-01-004%20-%203116-01-004%20-%20CROSSPOINT%20MODULE%20MATRIX%20AMP%20OUTPUT%20NOTE%20%28traced%29.json) (the CAD file: `1977 - 3116-01-004 - 3116-01-004 - CROSSPOINT MODULE MATRIX AMP OUTPUT NOTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

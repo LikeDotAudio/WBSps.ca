@@ -27,6 +27,19 @@ Wiki page: [M466](../../../PAGES/M466.md)
 
 - **1976** (labelled): `DATE JULY 76` — …477 USED 01 M466 MATL . WBS WARD-BECK BySTEMs LTD- DRN: MRW DATE JULY 76 CKD Roa SCALE XX TOLS Ara 6-106 FIMISH COMPRESSOR CONTROL A…
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 6-106-06-001, size B 432 × 330 mm, 1997 × 1526 px traced (0.216 mm/px)
+- **Ink extent:** 30–432 mm across, 0–283 mm up
+- **Outlines:** line 427 rings, 6,293 straight (11,957 mm) / 1,592 curved (1,721 mm); text 690 rings, 6,639 straight (6,900 mm) / 1,988 curved (2,307 mm); tb 35 rings, 308 straight (472 mm) / 83 curved (93.9 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 10.7 @ (227.4, 203.6), r 9.8 @ (252.1, 203.1), r 9.8 @ (195.4, 203.2), r 9.7 @ (364.0, 203.0)
+- **Closed boxes:** 37 (29 in the title block); named: Z3; 25 LM 301; zi LMSi; 26 LM3oi; 22 LMSo8; 74 Lm3oi
+- **Dots (junctions):** 2
+- **Words (OCR):** 92 in 73 lines: HDE3 · EJ2 · EI3 · ES · #CR8 · CR7 · cs d · CRZQI R4 R5 zi · R7 R38 pa Crs Z3 · 9 RI4 · R27 Rzi · 25
+- **Title block:** (85, 6)–(371, 68) mm: IsS MOD [CKD] · USED 01 · MATL - · WBS WARD-BeCK BySTEMS LTD- · 2943 · M466 · [3016 · Bo57G8 · DRN · MRW · 6-106 · 5 |3477 · FINISH · DATE JULY ' 76 COMPRESSOR CONTROL AMPLIFIER · CKD · COMPONENT  LAY
+
+Every curve, box, word and wire group: [1976 - 6-106-06-001 - 6-106 COMPRESSOR CONTROL AMPLIFIER COMPONENT LAYOUT - DRN MRW - ISS 5 (traced).json](1976%20-%206-106-06-001%20-%206-106%20COMPRESSOR%20CONTROL%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1976 - 6-106-06-001 - 6-106 COMPRESSOR CONTROL AMPLIFIER COMPONENT LAYOUT - DRN MRW - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

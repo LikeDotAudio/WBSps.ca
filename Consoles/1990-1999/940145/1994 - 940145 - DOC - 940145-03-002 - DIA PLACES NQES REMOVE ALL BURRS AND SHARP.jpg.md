@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,123,172 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940145-03-002, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 51–423 mm across, 0–257 mm up
+- **Outlines:** line 1,236 rings, 9,541 straight (21,914 mm) / 2,128 curved (2,878 mm); text 275 rings, 1,781 straight (1,509 mm) / 543 curved (642 mm); tb 8 rings, 80 straight (127 mm) / 10 curved (12.5 mm)
+- **Centre lines:** 13,459 paths (277 closed); straight 14,015 mm, curved 472 mm; horizontal 7,677 mm, vertical 2,688 mm, diagonal 3,650 mm
+- **Circles and arcs:** 16 circles, 25 arcs; largest r 5.0 @ (199.3, 205.8), r 5.0 @ (231.1, 206.2), r 5.0 @ (149.0, 205.3), r 5.0 @ (114.6, 205.1)
+- **Closed boxes:** 13 (4 in the title block); named: XLR PANEL RACK   UNITS); 940145-03-002; disc No;
+- **Dots (junctions):** 2
+- **Words (OCR):** 48 in 46 lines: PACFS · P/ 94145402 · DEL · FINISH: SAND 120 · EXCOTL · IRED · PLAD · 0,550 · 0,760 DU · 0325 · DETAIL · 0,550
+- **Title block:** (345, 23)–(428, 43) mm: ISSUE DATC · AFS · WBS · WARD-BECK   SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940145 - DOC - 940145-03-002 - DIA PLACES NQES REMOVE ALL BURRS AND SHARP (traced).json](1994%20-%20940145%20-%20DOC%20-%20940145-03-002%20-%20DIA%20PLACES%20NQES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20%28traced%29.json) (the CAD file: `1994 - 940145 - DOC - 940145-03-002 - DIA PLACES NQES REMOVE ALL BURRS AND SHARP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

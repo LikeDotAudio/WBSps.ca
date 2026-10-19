@@ -11,6 +11,19 @@ Wiki page: [M461M](../../../PAGES/M461M.md)
 - **Size:** 6,092,765 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 461-01-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 12–432 mm across, 0–287 mm up
+- **Outlines:** line 840 rings, 7,773 straight (14,066 mm) / 1,125 curved (1,605 mm); text 289 rings, 1,826 straight (2,005 mm) / 506 curved (725 mm)
+- **Centre lines:** 4,247 paths (57 closed); straight 8,336 mm, curved 319 mm; horizontal 3,902 mm, vertical 2,070 mm, diagonal 2,364 mm
+- **Circles and arcs:** 12 circles, 62 arcs; largest r 1.5 @ (284.7, 36.6), r 1.4 @ (25.7, 136.4), r 1.3 @ (377.1, 82.9), r 1.3 @ (389.4, 83.0)
+- **Closed boxes:** 39
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 155 connected wire groups from 644 runs
+
+Every curve, box, word and wire group: [1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (traced).json](1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%28traced%29.json) (the CAD file: `1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

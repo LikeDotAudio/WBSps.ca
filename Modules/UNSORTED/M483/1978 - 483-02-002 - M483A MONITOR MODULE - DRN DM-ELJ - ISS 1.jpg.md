@@ -24,6 +24,21 @@ Wiki page: [M483](../../../PAGES/M483.md)
 - **Size:** 2,240,763 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 483-02-002, size B 432 × 140 mm, 2000 × 648 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–140 mm up
+- **Outlines:** line 1,230 rings, 13,394 straight (18,645 mm) / 2,961 curved (3,403 mm); text 96 rings, 653 straight (568 mm) / 222 curved (273 mm); tb 11 rings, 86 straight (126 mm) / 15 curved (19.6 mm)
+- **Centre lines:** 16,214 paths (339 closed); straight 12,625 mm, curved 132 mm; horizontal 4,441 mm, vertical 3,686 mm, diagonal 4,498 mm
+- **Circles and arcs:** 3 circles, 34 arcs; largest r 1.9 @ (426.4, 5.8), r 1.5 @ (281.5, 31.9), r 1.4 @ (281.8, 16.8)
+- **Closed boxes:** 40
+- **Dots (junctions):** 1
+- **Words (OCR):** 19 in 14 lines: OUTEU · OUTPUT · @TA · IcRs · HUTE Controi · FAS · Risistors · COHAGNENT · WBS WAAD- · BeCk Byeteme KT · M4834 · MONITOR MODULE
+- **Title block:** (352, 18)–(428, 28) mm: WBS WAAD- · BeCk Byeteme KT
+- **Wiring (first pass):** 156 connected wire groups from 927 runs; labelled ends: 154 mm → FAS; 56 mm → IcRs; 52 mm → FAS; 30 mm → IcRs; 22 mm → @TA
+
+Every curve, box, word and wire group: [1978 - 483-02-002 - M483A MONITOR MODULE - DRN DM-ELJ - ISS 1 (traced).json](1978%20-%20483-02-002%20-%20M483A%20MONITOR%20MODULE%20-%20DRN%20DM-ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 483-02-002 - M483A MONITOR MODULE - DRN DM-ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

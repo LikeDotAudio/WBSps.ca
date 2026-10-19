@@ -11,6 +11,19 @@ Wiki page: [M724](../../../PAGES/M724.md)
 - **Size:** 8,068,137 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 724-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 2,955 rings, 28,899 straight (36,303 mm) / 6,211 curved (7,179 mm); text 169 rings, 1,150 straight (988 mm) / 324 curved (395 mm)
+- **Centre lines:** 28,624 paths (749 closed); straight 22,901 mm, curved 403 mm; horizontal 5,585 mm, vertical 7,748 mm, diagonal 9,568 mm
+- **Circles and arcs:** 4 circles, 108 arcs; largest r 0.8 @ (256.9, 234.0), r 0.8 @ (306.9, 207.0), r 0.7 @ (32.6, 171.8), r 0.7 @ (120.3, 184.3)
+- **Closed boxes:** 82
+- **Dots (junctions):** 13
+- **Wiring (first pass):** 305 connected wire groups from 2,361 runs, 6 dotted junctions
+
+Every curve, box, word and wire group: [19xx - M724 - 724-02-001 - INTERCOM MATRIX AMPLIFIER SCHEMATIC (traced).json](19xx%20-%20M724%20-%20724-02-001%20-%20INTERCOM%20MATRIX%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M724 - 724-02-001 - INTERCOM MATRIX AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

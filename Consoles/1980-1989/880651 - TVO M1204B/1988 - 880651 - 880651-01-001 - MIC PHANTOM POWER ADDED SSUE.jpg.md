@@ -10,6 +10,21 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 58,239,248 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 880651-01-001, size B (assumed) 432 × 334 mm, 2000 × 1545 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 4–334 mm up
+- **Outlines:** line 2,176 rings, 13,870 straight (18,627 mm) / 1,968 curved (2,182 mm); text 98 rings, 517 straight (458 mm) / 126 curved (156 mm); tb 22 rings, 104 straight (221 mm) / 7 curved (7.4 mm)
+- **Centre lines:** 7,870 paths (123 closed); straight 8,071 mm, curved 60.3 mm; horizontal 3,506 mm, vertical 2,773 mm, diagonal 1,792 mm
+- **Circles and arcs:** 1 circles, 17 arcs; largest r 1.3 @ (343.2, 254.4)
+- **Closed boxes:** 43
+- **Dots (junctions):** 4
+- **Words (OCR):** 9 in 9 lines: end · WBS · WARD- · BECK · SYSTEMS · ONTARIO · TRACK RECORDING CONSOLE · FUNCTICNAL · 880651-01.
+- **Title block:** (364, 14)–(432, 31) mm: WBS · WARD- · BECK · SYSTEMS · ONTARIO · TRACK RECORDING CONSOLE
+- **Wiring (first pass):** 210 connected wire groups from 1,242 runs
+
+Every curve, box, word and wire group: [1988 - 880651 - 880651-01-001 - MIC PHANTOM POWER ADDED SSUE (traced).json](1988%20-%20880651%20-%20880651-01-001%20-%20MIC%20PHANTOM%20POWER%20ADDED%20SSUE%20%28traced%29.json) (the CAD file: `1988 - 880651 - 880651-01-001 - MIC PHANTOM POWER ADDED SSUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 26 words corrected)

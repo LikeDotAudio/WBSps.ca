@@ -23,6 +23,20 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 5,758,330 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 441-02-004, size B 432 × 108 mm, 2000 × 499 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–108 mm up
+- **Outlines:** line 1,705 rings, 14,706 straight (17,418 mm) / 2,839 curved (3,216 mm); text 43 rings, 213 straight (153 mm) / 59 curved (65.1 mm)
+- **Centre lines:** 15,894 paths (367 closed); straight 11,068 mm, curved 93.5 mm; horizontal 3,722 mm, vertical 2,876 mm, diagonal 4,470 mm
+- **Circles and arcs:** 1 circles, 28 arcs; largest r 1.9 @ (421.7, 27.9)
+- **Closed boxes:** 7
+- **Dots (junctions):** 5
+- **Words (OCR):** 9 in 8 lines: Cdud DEiver · 812481 · 44plifie · EATED · ibi · BEKSHIEI · MCDLLC · 02+034
+- **Wiring (first pass):** 160 connected wire groups from 903 runs; labelled ends: 42 mm → BEKSHIEI; 27 mm → 812481; 18 mm → 812481; 12 mm → BEKSHIEI; 11 mm → 812481
+
+Every curve, box, word and wire group: [1971 - 441-02-004 - M441C INPUT MODULE SCHEMATIC - DRN MRW - ISS 2 (traced).json](1971%20-%20441-02-004%20-%20M441C%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1971 - 441-02-004 - M441C INPUT MODULE SCHEMATIC - DRN MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

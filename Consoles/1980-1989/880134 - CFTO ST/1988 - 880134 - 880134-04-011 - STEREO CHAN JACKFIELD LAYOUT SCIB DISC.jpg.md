@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,780,794 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-011, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 3,553 rings, 19,630 straight (28,573 mm) / 3,720 curved (6,153 mm); text 111 rings, 658 straight (715 mm) / 176 curved (240 mm)
+- **Circles and arcs:** 421 circles, 0 arcs; largest r 2.0 @ (304.4, 142.0), r 2.0 @ (292.6, 96.2), r 2.0 @ (349.9, 131.3), r 2.0 @ (338.5, 131.5)
+- **Closed boxes:** 10; named: WARD-BECK SYSTEMS WES; 08 /eJ; SCAU; 880134-04-011
+- **Dots (junctions):** 1
+- **Words (OCR):** 10 in 9 lines: HeHSC · WES · WARD-BECK SYSTEMS · 08 /eJ · CFTO-TV · 24 MONO/12 STEREO CHAN · JACKFIELD LAYOUT · SCAU · 880134-04-011
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-011 - STEREO CHAN JACKFIELD LAYOUT SCIB DISC (traced).json](1988%20-%20880134%20-%20880134-04-011%20-%20STEREO%20CHAN%20JACKFIELD%20LAYOUT%20SCIB%20DISC%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-011 - STEREO CHAN JACKFIELD LAYOUT SCIB DISC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

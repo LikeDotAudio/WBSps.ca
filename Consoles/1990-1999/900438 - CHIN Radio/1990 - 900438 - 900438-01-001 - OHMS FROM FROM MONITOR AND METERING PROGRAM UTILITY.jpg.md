@@ -10,6 +10,19 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,605,822 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 900438-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–304 mm across, 0–406 mm up
+- **Outlines:** line 310 rings, 4,297 straight (9,551 mm) / 720 curved (1,072 mm); text 780 rings, 5,167 straight (5,976 mm) / 1,641 curved (2,381 mm)
+- **Centre lines:** 7,842 paths (176 closed); straight 8,791 mm, curved 416 mm; horizontal 2,872 mm, vertical 2,522 mm, diagonal 3,398 mm
+- **Circles and arcs:** 42 circles, 23 arcs; largest r 1.4 @ (180.3, 277.5), r 1.4 @ (153.4, 256.4), r 1.4 @ (25.6, 49.0), r 1.4 @ (12.7, 48.9)
+- **Closed boxes:** 24; named: METER_SELECIOR; M498 8X1 SIEREQ LINE SELECIOR; M495_MONITOR MODULE
+- **Words (OCR):** 128 in 91 lines: METERING · PROGRAM · UTILITY · LEFT · RIGHT · LEFT · RIGHT · JUTPUIS · dB) · (-4 dB) · PROGRAM · ERTS
+- **Wiring (first pass):** 91 connected wire groups from 384 runs; labelled ends: 243 mm → 3 0; 171 mm → JUTPUIS, (~8dB); 92 mm → METER_SELECIOR; 88 mm → METER_SELECIOR; 88 mm → 3 0
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-01-001 - OHMS FROM FROM MONITOR AND METERING PROGRAM UTILITY (traced).json](1990%20-%20900438%20-%20900438-01-001%20-%20OHMS%20FROM%20FROM%20MONITOR%20AND%20METERING%20PROGRAM%20UTILITY%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-01-001 - OHMS FROM FROM MONITOR AND METERING PROGRAM UTILITY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

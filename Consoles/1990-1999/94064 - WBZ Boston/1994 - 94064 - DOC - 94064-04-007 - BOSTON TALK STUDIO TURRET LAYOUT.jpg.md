@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,743,975 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94064-04-007, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 28–424 mm across, 7–265 mm up
+- **Outlines:** line 418 rings, 3,320 straight (12,532 mm) / 777 curved (1,430 mm); text 210 rings, 1,409 straight (1,533 mm) / 357 curved (462 mm); tb 19 rings, 172 straight (190 mm) / 37 curved (42.4 mm)
+- **Circles and arcs:** 36 circles, 0 arcs; largest r 4.6 @ (213.4, 189.2), r 4.6 @ (195.5, 189.2), r 4.5 @ (213.5, 250.2), r 4.5 @ (195.5, 207.0)
+- **Closed boxes:** 35 (4 in the title block); named: 98 ok; 98 ok; GUEST GUEST CuEST GUEST; WBZ BOSTON TALK   STUDIO TURRET LAYOUT; 94064-04-007
+- **Dots (junctions):** 1
+- **Words (OCR):** 21 in 17 lines: 98 · ok · CuEST · GUEST · GUEST · GUEST · WBS · WARD-BECK SYSTEMS · WBZ BOSTON · REAR VieW · CARIE · COHNECTOR
+- **Title block:** (345, 23)–(429, 39) mm: WBS · WARD-BECK SYSTEMS · WBZ BOSTON
+
+Every curve, box, word and wire group: [1994 - 94064 - DOC - 94064-04-007 - BOSTON TALK STUDIO TURRET LAYOUT (traced).json](1994%20-%2094064%20-%20DOC%20-%2094064-04-007%20-%20BOSTON%20TALK%20STUDIO%20TURRET%20LAYOUT%20%28traced%29.json) (the CAD file: `1994 - 94064 - DOC - 94064-04-007 - BOSTON TALK STUDIO TURRET LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

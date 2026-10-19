@@ -23,6 +23,20 @@ Wiki page: [M704](../../../PAGES/M704.md)
 - **Size:** 4,505,730 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 704-02-001, size B 432 × 133 mm, 2000 × 616 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 0–129 mm up
+- **Outlines:** line 1,125 rings, 7,715 straight (9,763 mm) / 1,374 curved (1,596 mm); text 85 rings, 386 straight (353 mm) / 117 curved (144 mm)
+- **Centre lines:** 4,796 paths (154 closed); straight 5,158 mm, curved 78.6 mm; horizontal 1,879 mm, vertical 1,641 mm, diagonal 1,638 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Closed boxes:** 13; named: Md LID: (DATE 0 Lut 70+ BCAEMATIE Joi-c-; 0 Lut
+- **Dots (junctions):** 3
+- **Words (OCR):** 15 in 13 lines: VALue= · 040 · 4je4 · OutpLT · CKNB OnCY · CKm · CFJn · Md · LID: · (DATE 0 Lut · 70+ · BCAEMATIE
+- **Wiring (first pass):** 87 connected wire groups from 476 runs; labelled ends: 228 mm → LID:; 46 mm → LID:, Md; 44 mm → Md; 23 mm → OutpLT
+
+Every curve, box, word and wire group: [1970 - 704-02-001 - M 704 INTERCOM PRE-AMPLIFIER SCHEMATIC - DRN DPS - ISS 1 (traced).json](1970%20-%20704-02-001%20-%20M%20704%20INTERCOM%20PRE-AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1970 - 704-02-001 - M 704 INTERCOM PRE-AMPLIFIER SCHEMATIC - DRN DPS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,18 @@ Wiki page: [M475A](../../../PAGES/M475A.md)
 - **Size:** 957,895 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 475-06-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–329 mm across, 11–418 mm up
+- **Outlines:** line 543 rings, 5,996 straight (11,021 mm) / 1,537 curved (1,630 mm); text 775 rings, 5,591 straight (5,214 mm) / 2,123 curved (2,383 mm); tb 572 rings, 4,589 straight (5,763 mm) / 1,393 curved (1,530 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 4.9 @ (272.4, 326.2), r 2.0 @ (142.5, 338.3), r 2.0 @ (250.0, 338.2)
+- **Closed boxes:** 9
+- **Words (OCR):** 136 in 123 lines: ~n10 · 7/10 · 4K · R39 2K · R38 · 7/10 · 22k · 7/10 · 22K · Z2P · 22k · 31222k
+- **Title block:** (97, 45)–(334, 251) mm: R52 · 39K · ISSUE · 22/25 · R2z · R48 · C2z · R46 · SVI · CR4 · R18 % · 4OK · R26 · Cr4z 22k · R45 · RZ-245-C · R25 · R3o · 8 8 8 · C33 · R2o K R23 · LOK · R28 · CR6 I746 · J2-1 · Sok · R27 · R47 · 2k
+
+Every curve, box, word and wire group: [1986 - M475A - 475-06-002 - STEREO MONITOR MODULE COMPONENT (traced).json](1986%20-%20M475A%20-%20475-06-002%20-%20STEREO%20MONITOR%20MODULE%20COMPONENT%20%28traced%29.json) (the CAD file: `1986 - M475A - 475-06-002 - STEREO MONITOR MODULE COMPONENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [M497A](../../../PAGES/M497A.md)
 - **Size:** 551,143 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8-109-02-006, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–431 mm up
+- **Outlines:** line 222 rings, 4,080 straight (7,977 mm) / 650 curved (875 mm); text 373 rings, 2,884 straight (2,975 mm) / 881 curved (1,284 mm); tb 5 rings, 108 straight (176 mm) / 15 curved (23.9 mm)
+- **Centre lines:** 7,728 paths (67 closed); straight 7,166 mm, curved 252 mm; horizontal 2,849 mm, vertical 1,543 mm, diagonal 2,774 mm
+- **Circles and arcs:** 3 circles, 26 arcs; largest r 5.7 @ (52.4, 288.3), r 5.7 @ (51.6, 364.0), r 5.7 @ (52.9, 168.4)
+- **Closed boxes:** 10 (9 in the title block)
+- **Words (OCR):** 91 in 87 lines: E3 · +2i.5Y · Ris · 22 · 92 · Pn3c45 · C7 · 03 · Zn2i02 · IOp · Rzo · 6*3
+- **Title block:** (228, 1)–(336, 61) mm: ISSUIDATE · REVISION · WBS · WARD-BECK SYSTEMS · DRN: GEB · 8 ~ I09E · ENG MRW · 4/78 · BOOSTER AMPLIFIER · CKD. · SCHEMATIC · APP · SCALE · 8-109-02-006
+- **Wiring (first pass):** 38 connected wire groups from 176 runs; labelled ends: 208 mm → 2N4037, 4k7, E7; 206 mm → E3, Zn2i02; 149 mm → R37, 4K7, 16, 22o/10; 148 mm → 220/10, E4, R3c; 133 mm → HF, L8p, CRi, IN414B
+
+Every curve, box, word and wire group: [1978 - M497A - 8-109-02-006 - REVISION NOMINAL VALUE (traced).json](1978%20-%20M497A%20-%208-109-02-006%20-%20REVISION%20NOMINAL%20VALUE%20%28traced%29.json) (the CAD file: `1978 - M497A - 8-109-02-006 - REVISION NOMINAL VALUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 692,187 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8000-03-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 381
+- **Ink extent:** 0–431 mm across, 1–298 mm up
+- **Outlines:** line 91 rings, 1,444 straight (7,220 mm) / 128 curved (162 mm); text 500 rings, 3,105 straight (3,795 mm) / 1,032 curved (1,490 mm); tb 5 rings, 93 straight (216 mm) / 5 curved (5.8 mm)
+- **Centre lines:** 3,292 paths (80 closed); straight 6,441 mm, curved 5.5 mm; horizontal 3,223 mm, vertical 1,374 mm, diagonal 1,844 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 18 (10 in the title block); named: 4/91; TEMPO" PAINT WAS BLACK FLAT; SCALE 1:1; 8000-03-011; ISSUE; CODE: 8000m1
+- **Words (OCR):** 64 in 48 lines: 4.500 · 0.228 · 0.125 · 4.044 · 0.250 · 0.750 · 1.000 · 1.125 · 1.490 · 1.100 · 0.700 · 3.1' 0
+- **Title block:** (247, 16)–(418, 84) mm: 4/91 · PAINT WAS · TEMPO" FLAT · BLACK · GEB · lISSUE| DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: DRG · ENG. · CKD. · SHIM · PLATE · APP; · SCALE DISC NO: 381 · ISSUE · 1:1 CODE: 8000m1 · 
+
+Every curve, box, word and wire group: [1991 - 8000-03-011 - SHIM PLATE - DRN DRG - ISS 2 (traced).json](1991%20-%208000-03-011%20-%20SHIM%20PLATE%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1991 - 8000-03-011 - SHIM PLATE - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

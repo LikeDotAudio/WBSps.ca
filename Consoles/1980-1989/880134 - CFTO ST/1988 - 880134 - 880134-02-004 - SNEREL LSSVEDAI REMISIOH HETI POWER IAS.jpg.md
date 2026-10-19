@@ -11,6 +11,20 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,483,224 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-004, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC
+- **Ink extent:** 6–423 mm across, 0–279 mm up
+- **Outlines:** line 518 rings, 3,971 straight (7,549 mm) / 690 curved (808 mm); text 573 rings, 3,332 straight (2,592 mm) / 849 curved (983 mm); tb 36 rings, 304 straight (1,219 mm) / 30 curved (43.7 mm)
+- **Centre lines:** 6,599 paths (135 closed); straight 6,334 mm, curved 62.3 mm; horizontal 2,500 mm, vertical 1,957 mm, diagonal 1,877 mm
+- **Circles and arcs:** 1 circles, 23 arcs; largest r 1.9 @ (8.6, 14.2)
+- **Closed boxes:** 2; named: HQNQ KASTER EADER S491
+- **Words (OCR):** 102 in 94 lines: MASTER CHANNEL · (M1 · k M2 CHANNELS ARE IDENTICAL) · HONC · 40.57 · MCNO · SUMMING · MASTER · Ln · 77 Te · dBm; · ToubeyTShms
+- **Title block:** (339, 5)–(431, 43) mm: ISSUEI DATE · REMSION · APP; · WBS · WARD-BECK SYSTEMS · DRNPA_OB · MASTER CHANNEL · ENG: · CKD: · SCHEMATIC · SCALE DISC · 880134-02-004 · SSUE · CCDE 80134504
+- **Wiring (first pass):** 65 connected wire groups from 420 runs; labelled ends: 747 mm → SLATE, Vokd, STEAEO, 25v; 449 mm → Monior, VeTER, Uomntc?; 119 mm → FAMSF, Cott, Lideys; 105 mm → FLbie, Couk, S491; 32 mm → FAMSF, Cott
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-004 - SNEREL LSSVEDAI REMISIOH HETI POWER IAS (traced).json](1988%20-%20880134%20-%20880134-02-004%20-%20SNEREL%20LSSVEDAI%20REMISIOH%20HETI%20POWER%20IAS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-004 - SNEREL LSSVEDAI REMISIOH HETI POWER IAS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 16 words corrected)

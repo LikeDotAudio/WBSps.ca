@@ -20,6 +20,19 @@ Wiki page: [Job-960296](../../../PAGES/Job-960296.md)
 - **Size:** 448,833 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960296-03-008, size D 864 × 554 mm, 2000 × 1283 px traced (0.432 mm/px)
+- **Ink extent:** 72–864 mm across, 10–486 mm up
+- **Outlines:** line 928 rings, 6,392 straight (27,539 mm) / 1,105 curved (2,595 mm); text 201 rings, 1,083 straight (1,996 mm) / 367 curved (928 mm); tb 13 rings, 121 straight (301 mm) / 24 curved (51.7 mm)
+- **Centre lines:** 8,113 paths (220 closed); straight 17,642 mm, curved 51.4 mm; horizontal 8,552 mm, vertical 4,534 mm, diagonal 4,556 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 70 (4 in the title block); named: AUX MICc CTL BOX; 960296-03-008; DSC NC;
+- **Words (OCR):** 26 in 26 lines: JCUNC · PLicG · 0.710 · 1,844 · Sand 120 · 0.+CD · 0.800 · PUNC' · DETAIL · FNGER · RLCSDESIDE · HEEDED
+- **Title block:** (667, 42)–(834, 82) mm: ISSUELDATE · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1996 - 960296-03-008 - AUX MIC CTL BOX - DRN DRG - ISS 1 (traced).json](1996%20-%20960296-03-008%20-%20AUX%20MIC%20CTL%20BOX%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960296-03-008 - AUX MIC CTL BOX - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

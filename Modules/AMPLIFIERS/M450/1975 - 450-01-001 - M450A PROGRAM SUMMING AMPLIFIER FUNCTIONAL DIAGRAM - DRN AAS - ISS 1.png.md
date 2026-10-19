@@ -23,6 +23,20 @@ Wiki page: [M450](../../../PAGES/M450.md)
 - **Size:** 1,898,325 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 450-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 8–298 mm up
+- **Outlines:** line 344 rings, 5,402 straight (11,280 mm) / 747 curved (978 mm); text 356 rings, 2,538 straight (3,110 mm) / 719 curved (1,117 mm); tb 27 rings, 190 straight (353 mm) / 23 curved (36.1 mm)
+- **Centre lines:** 6,547 paths (64 closed); straight 8,534 mm, curved 92.3 mm; horizontal 3,864 mm, vertical 1,727 mm, diagonal 2,943 mm
+- **Circles and arcs:** 3 circles, 19 arcs; largest r 1.6 @ (41.6, 113.9), r 1.5 @ (53.5, 61.5), r 1.3 @ (107.9, 48.2)
+- **Closed boxes:** 41 (27 in the title block); named: WBS WAAD-BECK LTD; M450_ M4SoA PROGKAM/SUMMING AMPiIFIER FU; 450-01-001; TOLS; ISS_
+- **Words (OCR):** 55 in 43 lines: BALANCED · CINE · INFUT · 12 · EALANCED · BALANCED · SUMKING · Low PAS= · CINE · INPUT · FCTER · 713
+- **Title block:** (140, 16)–(375, 68) mm: DSS MOD ICKD · USED ON · MAT'L · WBS WAAD-BECK · DRN AAS · M450_ M4SoA · FINISH · DATE 6 MAR 75 PROGKAM/SUMMING AMPiIFIER · CKD: Fmi · SCALE · FUNCTIONAL DIA  RAM · TOLS · 450-01-001
+- **Wiring (first pass):** 43 connected wire groups from 183 runs; labelled ends: 265 mm → FCTER; 115 mm → GAIA; 91 mm → 713; 33 mm → PAS=, FCTER; 26 mm → supply
+
+Every curve, box, word and wire group: [1975 - 450-01-001 - M450A PROGRAM SUMMING AMPLIFIER FUNCTIONAL DIAGRAM - DRN AAS - ISS 1 (traced).json](1975%20-%20450-01-001%20-%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20AAS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1975 - 450-01-001 - M450A PROGRAM SUMMING AMPLIFIER FUNCTIONAL DIAGRAM - DRN AAS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

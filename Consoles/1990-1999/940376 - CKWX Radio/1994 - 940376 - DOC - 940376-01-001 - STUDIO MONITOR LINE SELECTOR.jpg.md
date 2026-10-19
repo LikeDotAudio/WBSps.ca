@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,919,246 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940376-01-001, size B (assumed) 432 × 291 mm, 2000 × 1347 px traced (0.216 mm/px); scale DISC NO: 476
+- **Ink extent:** 20–424 mm across, 18–284 mm up
+- **Outlines:** line 918 rings, 8,425 straight (22,029 mm) / 1,102 curved (1,311 mm); text 1,098 rings, 7,178 straight (5,730 mm) / 2,022 curved (2,365 mm); tb 217 rings, 1,484 straight (3,626 mm) / 241 curved (295 mm)
+- **Centre lines:** 20,138 paths (323 closed); straight 18,514 mm, curved 45.7 mm; horizontal 7,722 mm, vertical 5,279 mm, diagonal 5,513 mm
+- **Circles and arcs:** 2 circles, 10 arcs; largest r 2.3 @ (36.4, 274.5), r 1.8 @ (36.3, 274.5)
+- **Closed boxes:** 63 (2 in the title block); named: PGMI RIGHT; PGM2 RIGHT; SEL; VCA; VCA; MX MNUS; 2200; 12 00; CUE; 10X1 SEL
+- **Words (OCR):** 190 in 173 lines: LEGEND · CONSOLE SUMMING BUSES · OPTICAL SHAFT ENCCDER · LEVEL · MUSIC · MNS · Mix CUE · AUX AUX · INSERTS · METER AND MONITCR OUTPUT · aBu · SS Sw
+- **Title block:** (48, 16)–(430, 99) mm: POWER · WBS · POWER · WBS · CONSOLE MODULES · SUPPLY · 0924 · SUPPLY · 0924 · COVMON · LINE · OFIPCTOR #1 · FOR FUTURE · REDUNDANT USE · NQIFS; · CONSOLE FRAME IS WIRED FOR M9O5B STUDIO MONITOR · X0 ·
+- **Wiring (first pass):** 258 connected wire groups from 1,425 runs; labelled ends: 595 mm → K0, XO, 70, 78 10; 323 mm → Mix, CUE, MNS, MUSIC; 247 mm → MUSIC; 219 mm → CUE, AUX AUX, CR MONITCR; 217 mm → Mix, CUE, MNS
+
+Every curve, box, word and wire group: [1994 - 940376 - DOC - 940376-01-001 - STUDIO MONITOR LINE SELECTOR (traced).json](1994%20-%20940376%20-%20DOC%20-%20940376-01-001%20-%20STUDIO%20MONITOR%20LINE%20SELECTOR%20%28traced%29.json) (the CAD file: `1994 - 940376 - DOC - 940376-01-001 - STUDIO MONITOR LINE SELECTOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 18 words corrected)

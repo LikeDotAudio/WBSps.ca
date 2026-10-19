@@ -11,6 +11,19 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 1,309,027 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 612-02-003, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 18–329 mm across, 37–411 mm up
+- **Outlines:** line 187 rings, 5,390 straight (11,151 mm) / 598 curved (1,062 mm); text 492 rings, 3,981 straight (4,732 mm) / 977 curved (1,551 mm)
+- **Centre lines:** 4,340 paths (84 closed); straight 8,896 mm, curved 524 mm; horizontal 3,759 mm, vertical 2,777 mm, diagonal 2,360 mm
+- **Circles and arcs:** 18 circles, 47 arcs; largest r 1.7 @ (284.9, 314.7), r 1.7 @ (284.9, 304.8), r 1.7 @ (284.7, 323.7), r 1.7 @ (284.7, 381.1)
+- **Closed boxes:** 64; named: P2-16; P2-16; P2-16; P2-16_
+- **Words (OCR):** 86 in 71 lines: MULTIPLE UniT · WIRING · Within · mountiNG_FRAME · A1 outputs · P2-8 · iNPUT · of 12) · P2-16 AI · N/c · P2-7 · Pl-7
+- **Wiring (first pass):** 61 connected wire groups from 405 runs; labelled ends: 545 mm → PI-8, P1-8, Pz-?, P2-7; 410 mm → [LZ, P1-46, PL-?, P1-16; 406 mm → A2, [LZ, A3, PL-?; 376 mm → P2-7, PI-8, P1-8, Pz-?; 240 mm → P2-8, P2-16, P2-7, PI-8
+
+Every curve, box, word and wire group: [1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE (traced).json](1983%20-%20M612A%20-%20612-02-003%20-%20STAT%20ION%20TECHNICAL%20GROUND%20INSULATED%20GROUND%20BAR%20TIPLE%20%28traced%29.json) (the CAD file: `1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

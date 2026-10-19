@@ -15,6 +15,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 288,519 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 77038-01-002, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 29–432 mm across, 0–251 mm up
+- **Outlines:** line 771 rings, 7,406 straight (14,225 mm) / 1,343 curved (1,552 mm); text 98 rings, 617 straight (598 mm) / 165 curved (208 mm); tb 15 rings, 143 straight (170 mm) / 32 curved (32.9 mm)
+- **Centre lines:** 7,280 paths (147 closed); straight 8,432 mm, curved 77.6 mm; horizontal 3,071 mm, vertical 3,017 mm, diagonal 2,344 mm
+- **Circles and arcs:** 3 circles, 13 arcs; largest r 2.0 @ (87.7, 229.6), r 2.0 @ (255.2, 185.9), r 1.2 @ (383.7, 3.1)
+- **Closed boxes:** 18 (2 in the title block)
+- **Dots (junctions):** 2
+- **Words (OCR):** 17 in 13 lines: 37J4 · 4470 #put · ALC · 747s · VE / · MoLE · 0aTF · WBS WARO-BECK systeMs · L3242 · Ta · 1OGIc · FUNCTIONA WIRING Diacram
+- **Title block:** (360, 16)–(432, 31) mm: 0aTF · WBS WARO-BECK systeMs · L3242
+- **Wiring (first pass):** 127 connected wire groups from 560 runs; labelled ends: 53 mm → 0aTF; 45 mm → WBS; 30 mm → VE /; 19 mm → MoLE; 12 mm → 37J4
+
+Every curve, box, word and wire group: [1977 - M470 - DOC - 77038-01-002 - MMEN OTONALI INE (traced).json](1977%20-%20M470%20-%20DOC%20-%2077038-01-002%20-%20MMEN%20OTONALI%20INE%20%28traced%29.json) (the CAD file: `1977 - M470 - DOC - 77038-01-002 - MMEN OTONALI INE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

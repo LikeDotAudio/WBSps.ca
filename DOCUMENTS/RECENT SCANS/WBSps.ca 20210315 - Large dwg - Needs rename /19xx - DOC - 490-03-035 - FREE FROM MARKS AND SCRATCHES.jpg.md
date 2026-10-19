@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,826,820 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 490-03-035, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 1–281 mm up
+- **Outlines:** line 826 rings, 8,101 straight (22,250 mm) / 1,128 curved (1,589 mm); text 612 rings, 3,322 straight (3,091 mm) / 1,041 curved (1,388 mm); tb 18 rings, 158 straight (185 mm) / 40 curved (50.6 mm)
+- **Centre lines:** 9,466 paths (186 closed); straight 14,387 mm, curved 176 mm; horizontal 8,044 mm, vertical 3,032 mm, diagonal 3,311 mm
+- **Circles and arcs:** 6 circles, 25 arcs; largest r 2.6 @ (377.4, 130.2), r 2.5 @ (30.1, 132.8), r 2.2 @ (308.7, 139.2), r 2.1 @ (168.1, 140.4)
+- **Closed boxes:** 15 (3 in the title block); named: PETALLB; InPUT MODULE ESCUTCHEen; 2:1; 490-03.035
+- **Dots (junctions):** 1
+- **Words (OCR):** 107 in 88 lines: 12.938 · 5.6i6 · 203 · 5.025 · 066 · 3.250 · 06g · 7OC · Other side-5 PLALES · Boc · SEE Note · RGDla
+- **Title block:** (355, 21)–(432, 37) mm: WBS WARO-BeCK sysTeMS · JR
+
+Every curve, box, word and wire group: [19xx - DOC - 490-03-035 - FREE FROM MARKS AND SCRATCHES (traced).json](19xx%20-%20DOC%20-%20490-03-035%20-%20FREE%20FROM%20MARKS%20AND%20SCRATCHES%20%28traced%29.json) (the CAD file: `19xx - DOC - 490-03-035 - FREE FROM MARKS AND SCRATCHES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

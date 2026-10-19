@@ -27,6 +27,20 @@ Wiki page: [M464](../../../PAGES/M464.md)
 
 - **1977** (labelled): `DATE FEB 77` — …MOD [CKD USE ON MATL _ WBS WAAD-BeCK BybTEMB LTD_ DRN_ DNM DATE FEB 77 CKD: Ruu SCALE M464 HiGh PASS= LOw PASS FiLteR FUNCTIONAL D…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 464-01-001, size B 432 × 287 mm, 2000 × 1331 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–240 mm up
+- **Outlines:** line 153 rings, 3,174 straight (6,107 mm) / 376 curved (528 mm); text 217 rings, 1,679 straight (1,860 mm) / 505 curved (765 mm); tb 18 rings, 189 straight (322 mm) / 33 curved (57.0 mm)
+- **Centre lines:** 4,288 paths (48 closed); straight 5,190 mm, curved 71.3 mm; horizontal 2,356 mm, vertical 1,167 mm, diagonal 1,668 mm
+- **Circles and arcs:** 3 circles, 6 arcs; largest r 4.2 @ (284.9, 218.7), r 1.2 @ (251.0, 121.9), r 1.2 @ (145.4, 120.7)
+- **Closed boxes:** 29 (1 in the title block); named: Low PASS 18 dB | OCTIVE; MaTL -; [SSTocKo]
+- **Words (OCR):** 35 in 28 lines: LF cut · HF cut · INSERT · INSERT · INPUT · -109A · output · High PASS · Low PASS · 18d8 /OCTIve · 18 dB | OCTIVE · LF CUT
+- **Title block:** (268, 17)–(380, 53) mm: WBS WAAD-BeCk · DRN_ DNM · M464 · DDATE FEB 77 · HiGh PASS LOw PASS FiLter · Rxll
+- **Wiring (first pass):** 32 connected wire groups from 164 runs; labelled ends: 552 mm → WBS, USED ON, MaTL -, [SSTocKo]; 105 mm → Low PASS, 18 dB | OCTIVE; 89 mm → -109A; 88 mm → WAAD-BeCk, HiGh PASS, LTD:; 80 mm → High PASS, 18d8 /OCTIve
+
+Every curve, box, word and wire group: [1977 - 464-01-001 - HIGH PASS - LOW PASS FILTER FUNCTIONAL DIAGRAM - DRN DNM - ISS 1 (traced).json](1977%20-%20464-01-001%20-%20HIGH%20PASS%20-%20LOW%20PASS%20FILTER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20DNM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 464-01-001 - HIGH PASS - LOW PASS FILTER FUNCTIONAL DIAGRAM - DRN DNM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,289,436 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-009, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 579 rings, 6,228 straight (14,901 mm) / 1,112 curved (1,506 mm); text 277 rings, 1,946 straight (2,404 mm) / 623 curved (914 mm)
+- **Centre lines:** 4,590 paths (88 closed); straight 9,491 mm, curved 326 mm; horizontal 4,772 mm, vertical 2,677 mm, diagonal 2,042 mm
+- **Circles and arcs:** 10 circles, 63 arcs; largest r 1.3 @ (205.5, 221.4), r 1.2 @ (77.9, 417.7), r 1.2 @ (75.1, 417.7), r 1.2 @ (132.8, 34.2)
+- **Closed boxes:** 33
+- **Wiring (first pass):** 73 connected wire groups from 519 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-009 - STEREO TIE JUMPER PINS CORRECTED (traced).json](1988%20-%20880134%20-%203642-02-009%20-%20STEREO%20TIE%20JUMPER%20PINS%20CORRECTED%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-009 - STEREO TIE JUMPER PINS CORRECTED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

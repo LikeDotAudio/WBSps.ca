@@ -11,6 +11,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,227,265 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 453-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 688 rings, 6,011 straight (10,858 mm) / 819 curved (1,174 mm); text 380 rings, 2,217 straight (2,256 mm) / 667 curved (938 mm)
+- **Centre lines:** 3,551 paths (51 closed); straight 7,004 mm, curved 203 mm; horizontal 3,379 mm, vertical 1,567 mm, diagonal 2,058 mm
+- **Circles and arcs:** 8 circles, 39 arcs; largest r 1.7 @ (308.5, 229.4), r 1.6 @ (291.1, 45.5), r 1.5 @ (354.0, 189.5), r 1.4 @ (20.9, 264.6)
+- **Closed boxes:** 25
+- **Wiring (first pass):** 77 connected wire groups from 497 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 453-02-001 - CUE AMPLIFIER FIMISH (traced).json](1976%20-%2076045%20-%20453-02-001%20-%20CUE%20AMPLIFIER%20FIMISH%20%28traced%29.json) (the CAD file: `1976 - 76045 - 453-02-001 - CUE AMPLIFIER FIMISH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

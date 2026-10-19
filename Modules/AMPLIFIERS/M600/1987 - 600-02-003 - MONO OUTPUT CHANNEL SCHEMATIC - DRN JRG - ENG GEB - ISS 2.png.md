@@ -23,6 +23,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 2,950,173 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 2–430 mm across, 10–287 mm up
+- **Outlines:** line 137 rings, 2,064 straight (6,366 mm) / 290 curved (465 mm); text 711 rings, 4,578 straight (5,816 mm) / 1,476 curved (2,163 mm); tb 3 rings, 76 straight (195 mm) / 9 curved (13.3 mm)
+- **Centre lines:** 5,031 paths (118 closed); straight 7,429 mm, curved 158 mm; horizontal 2,940 mm, vertical 1,844 mm, diagonal 2,645 mm
+- **Circles and arcs:** 6 circles, 22 arcs; largest r 1.4 @ (275.8, 218.2), r 1.4 @ (275.8, 202.5), r 1.4 @ (275.7, 256.0), r 1.4 @ (275.8, 240.3)
+- **Closed boxes:** 22 (10 in the title block); named: M49Z(A) MASTER MODULE; 11/8; MODIFIED PROGRAM OUTPUTS; ISSUE; 600-02-003; SCALE; CODE: 600503
+- **Words (OCR):** 104 in 78 lines: MONQ_QUTPUT_CHANNEL · FROM · TB2 · PGM M497 · 12N · PINS 11,M · 73,74 · (75) · 13P · PGM · PGM · 76,77
+- **Title block:** (267, 15)–(432, 83) mm: MODIFIED PROGRAM OUTPUTS · basl · 11/8 · (ISSUE] DATE · REVISION · APP_ · WBS · WARD-BECK SYSTEMS · DRN: JRG 02/87 · ENG. · G1 · MONO · OUTPUT CHANNEL · CKD: · SCHEMA TIC · APP. · SCALE DISC NO: 130 ·
+- **Wiring (first pass):** 22 connected wire groups from 184 runs; labelled ends: 634 mm → MONQ_QUTPUT_CHANNEL, TB2, 73,74, (78); 342 mm → MONQ_QUTPUT_CHANNEL, M497, 11,M, MONO; 111 mm → basl; 84 mm → ~25v, +25v, 19, Izo; 63 mm → (75), 76,77
+
+Every curve, box, word and wire group: [1987 - 600-02-003 - MONO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 2 (traced).json](1987%20-%20600-02-003%20-%20MONO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1987 - 600-02-003 - MONO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

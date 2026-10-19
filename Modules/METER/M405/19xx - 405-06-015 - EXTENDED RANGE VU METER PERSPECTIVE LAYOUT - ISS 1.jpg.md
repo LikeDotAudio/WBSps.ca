@@ -22,6 +22,16 @@ Rotated spiral-bound manual page showing M405F perspective layout.
 - **Size:** 3,587,652 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 405-06-015, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–305 mm up
+- **Outlines:** line 1,028 rings, 11,126 straight (13,251 mm) / 1,589 curved (1,666 mm); text 179 rings, 1,209 straight (1,111 mm) / 355 curved (401 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 3.4 @ (266.9, 117.6), r 2.8 @ (266.5, 126.4), r 2.6 @ (266.5, 117.5), r 2.6 @ (247.2, 126.4)
+- **Closed boxes:** 1
+
+Every curve, box, word and wire group: [19xx - 405-06-015 - EXTENDED RANGE VU METER PERSPECTIVE LAYOUT - ISS 1 (traced).json](19xx%20-%20405-06-015%20-%20EXTENDED%20RANGE%20VU%20METER%20PERSPECTIVE%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 405-06-015 - EXTENDED RANGE VU METER PERSPECTIVE LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

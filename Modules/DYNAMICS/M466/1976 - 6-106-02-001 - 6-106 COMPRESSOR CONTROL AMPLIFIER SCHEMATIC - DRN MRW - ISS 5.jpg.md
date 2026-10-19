@@ -27,6 +27,20 @@ Wiki page: [M466](../../../PAGES/M466.md)
 
 - **1976** (labelled): `DATE JULY '76` — …RD-BECK syBTEMB LTD RELEASE CAL r29 ~I6v R3i E3 22k DRN MRW DATE JULY '76 CKD_Re SCALE TOLS . {6. 6-106 COMPRESSOR CONTROL AMPLIFIER…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 6-106-02-001, size B 432 × 273 mm, 2000 × 1266 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–272 mm up
+- **Outlines:** line 321 rings, 6,180 straight (14,190 mm) / 944 curved (1,607 mm); text 1,017 rings, 7,164 straight (8,059 mm) / 2,330 curved (3,325 mm); tb 22 rings, 221 straight (360 mm) / 53 curved (86.4 mm)
+- **Centre lines:** 9,234 paths (170 closed); straight 13,626 mm, curved 440 mm; horizontal 4,529 mm, vertical 3,162 mm, diagonal 5,935 mm
+- **Circles and arcs:** 10 circles, 60 arcs; largest r 7.7 @ (261.5, 222.1), r 7.6 @ (293.5, 169.5), r 4.3 @ (411.7, 258.1), r 1.4 @ (259.3, 225.6)
+- **Closed boxes:** 27 (23 in the title block)
+- **Words (OCR):** 194 in 166 lines: I6v · 2r0 · 47/35 · RI R38 · 62k 22M · +I6v · ES · ~i6v · R3 · CRI · 47k · BIAS
+- **Title block:** (146, 5)–(384, 57) mm: ISSMOD ICKD: · USED Ov · MATL _ · WBS WARD-BECK syBTEMB LTD · 2948 · M466 · 3o16 Wt · 3os-IGEB · DRA · MRW · 6-106 · FINISH · DATE JULY 76 · CKD · COMPRESSOR CONTROL AMPLIFIER · SCHEMATIC · ISCALE · T
+- **Wiring (first pass):** 101 connected wire groups from 451 runs; labelled ends: 307 mm → LMITER, R2Z, Icok, R23; 247 mm → Iiilio, 4k7, E13, R34; 224 mm → 47/35, 47k, IN4148, CR4; 168 mm → R38, 22M, CRI, 47k; 139 mm → R4o, 3m3, 2N4401, CR5
+
+Every curve, box, word and wire group: [1976 - 6-106-02-001 - 6-106 COMPRESSOR CONTROL AMPLIFIER SCHEMATIC - DRN MRW - ISS 5 (traced).json](1976%20-%206-106-02-001%20-%206-106%20COMPRESSOR%20CONTROL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1976 - 6-106-02-001 - 6-106 COMPRESSOR CONTROL AMPLIFIER SCHEMATIC - DRN MRW - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

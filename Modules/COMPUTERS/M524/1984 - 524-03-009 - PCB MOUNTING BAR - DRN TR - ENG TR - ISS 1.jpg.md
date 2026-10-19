@@ -24,6 +24,19 @@ Wiki page: [M524](../../../PAGES/M524.md)
 - **Size:** 1,242,070 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 524-03-009, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 110 rings, 2,587 straight (7,458 mm) / 193 curved (310 mm); text 273 rings, 2,067 straight (2,531 mm) / 617 curved (948 mm); tb 8 rings, 102 straight (227 mm) / 8 curved (12.5 mm)
+- **Centre lines:** 2,674 paths (39 closed); straight 5,825 mm, curved 39.1 mm; horizontal 3,056 mm, vertical 1,283 mm, diagonal 1,486 mm
+- **Circles and arcs:** 0 circles, 8 arcs
+- **Closed boxes:** 6 (6 in the title block)
+- **Words (OCR):** 36 in 29 lines: NOTES · MATERIAL 188 ALUM: ALLOY · 2) TOLERANCES XXX =,005 · 3) REMOVE AL_ BURRS AND SHARP EDGES · FINISH CLEAR ALODINE · 2.800 · 400 · 188 · TAP 4-40 UNC · 2 PLACES · 100 · 250
+- **Title block:** (278, 3)–(432, 72) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. · TR: /84 · ENG_ TR_ · M524 · CKD: · PCB MOUNTING BAR · APP · SCALE · ISSUE · 12X · 524-03
+
+Every curve, box, word and wire group: [1984 - 524-03-009 - PCB MOUNTING BAR - DRN TR - ENG TR - ISS 1 (traced).json](1984%20-%20524-03-009%20-%20PCB%20MOUNTING%20BAR%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 524-03-009 - PCB MOUNTING BAR - DRN TR - ENG TR - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

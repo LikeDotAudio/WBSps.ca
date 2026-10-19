@@ -22,6 +22,20 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 3,394,425 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 73050-01-001, size B (assumed) 432 × 264 mm, 2000 × 1221 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–264 mm up
+- **Outlines:** line 1,867 rings, 21,206 straight (22,867 mm) / 3,784 curved (4,219 mm); text 1,229 rings, 8,080 straight (6,558 mm) / 2,715 curved (3,224 mm)
+- **Centre lines:** 40,579 paths (431 closed); straight 22,569 mm, curved 171 mm; horizontal 6,490 mm, vertical 5,191 mm, diagonal 10,889 mm
+- **Circles and arcs:** 0 circles, 56 arcs
+- **Closed boxes:** 29; named: CONISOLE AJDio FUNCTIONAL
+- **Dots (junctions):** 1
+- **Words (OCR):** 317 in 264 lines: VU · M166_ · [SENS Sw · Ch12 2 OrLy · RELAY · (-15) · (-Is) ) · dBm · 44 · dBm · 782 · Low LEVEL:
+- **Wiring (first pass):** 198 connected wire groups from 1,208 runs; labelled ends: 182 mm → M166_; 134 mm → 0i24; 116 mm → dBm, LINE KET, LINE KEY 2; 111 mm → Mooicko, Zale; 106 mm → (-Is) ), PRE, OFF, ZOaBm,
+
+Every curve, box, word and wire group: [1973 - 73050-01-001 - AUDIO CONSOLE FUNCTIONAL - DRN PC - ISS 2 (traced).json](1973%20-%2073050-01-001%20-%20AUDIO%20CONSOLE%20FUNCTIONAL%20-%20DRN%20PC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1973 - 73050-01-001 - AUDIO CONSOLE FUNCTIONAL - DRN PC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

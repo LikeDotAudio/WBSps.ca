@@ -21,6 +21,18 @@ Wiki page: [Job-970177](../../../PAGES/Job-970177.md)
 - **Size:** 528,717 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 970177-04-001, size D 864 × 560 mm, 2000 × 1298 px traced (0.432 mm/px)
+- **Ink extent:** 2–864 mm across, 15–560 mm up
+- **Outlines:** line 830 rings, 6,899 straight (35,516 mm) / 1,068 curved (3,853 mm); text 92 rings, 553 straight (1,184 mm) / 152 curved (413 mm); tb 19 rings, 158 straight (356 mm) / 36 curved (84.9 mm)
+- **Circles and arcs:** 27 circles, 0 arcs; largest r 9.1 @ (334.7, 209.4), r 9.1 @ (258.4, 211.1), r 9.1 @ (296.6, 210.2), r 9.1 @ (372.9, 208.5)
+- **Closed boxes:** 55; named: CBC MF_7 UTILIT FRAME LAYOUT; 970177-04-001
+- **Words (OCR):** 11 in 9 lines: CNJICH · WBS · WARD-BECK  SYSTEMS · CBC · MF_7 UTILIT FRAME · LAYOUT · CODE; 9T177L0' · 57501 · 970177-04-001
+- **Title block:** (670, 47)–(838, 80) mm: WBS · WARD-BECK  SYSTEMS · CBC
+
+Every curve, box, word and wire group: [1997 - 970177-04-001 - CBC MF-7 UTILITY FRAME LAYOUT - DRN DRG - ISS 1 (traced).json](1997%20-%20970177-04-001%20-%20CBC%20MF-7%20UTILITY%20FRAME%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1997 - 970177-04-001 - CBC MF-7 UTILITY FRAME LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

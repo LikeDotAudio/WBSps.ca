@@ -22,6 +22,19 @@ Wiki page: [M568](../../../PAGES/M568.md)
 - **Size:** 1,536,003 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 568-03-031, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 278 rings, 3,850 straight (11,357 mm) / 409 curved (590 mm); text 726 rings, 4,445 straight (5,154 mm) / 1,564 curved (2,230 mm); tb 6 rings, 83 straight (214 mm) / 9 curved (14.0 mm)
+- **Centre lines:** 6,546 paths (132 closed); straight 10,046 mm, curved 29.4 mm; horizontal 4,662 mm, vertical 2,062 mm, diagonal 3,321 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 1.2 @ (151.2, 175.5)
+- **Closed boxes:** 16 (12 in the title block); named: 0.570 #2 CSK HOLES ADDED, 0.691; SCALE; CODE: M568M31
+- **Words (OCR):** 83 in 69 lines: 0.110 DIA · & CSK 82 DEG · PITCHES OF 1.608 · 4.823 · To 0.175 DIA · PLACES · 0.894 · 7.000 · 1.19 · 4.78 · CSK 82 DEG TO · 0.13 DIA
+- **Title block:** (250, 16)–(420, 85) mm: 411/87 · #2 CSK HOLES ADDED, 0.691 · 0.570 · REVISION · (ISSUE] DATE · APP · WBS · WARD-BECK SYSTEMS · D.S: 11/87 · DRN: · ENG_ · EXTRUSION · CKD · APP · SCALE · DISC NO: 195 · ISSUE · 568-03-031 · CO
+
+Every curve, box, word and wire group: [1987 - 568-03-031 - EXTRUSION - DRN DS - ISS 2 (traced).json](1987%20-%20568-03-031%20-%20EXTRUSION%20-%20DRN%20DS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1987 - 568-03-031 - EXTRUSION - DRN DS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

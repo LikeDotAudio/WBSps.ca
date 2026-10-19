@@ -10,6 +10,20 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 1,437,342 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880651-02-008, size B (assumed) 432 × 281 mm, 2000 × 1303 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–278 mm up
+- **Outlines:** line 2,029 rings, 17,420 straight (32,492 mm) / 2,905 curved (3,574 mm); text 181 rings, 1,282 straight (1,208 mm) / 407 curved (510 mm); tb 10 rings, 92 straight (137 mm) / 19 curved (19.2 mm)
+- **Centre lines:** 20,517 paths (200 closed); straight 20,297 mm, curved 351 mm; horizontal 9,032 mm, vertical 6,188 mm, diagonal 5,077 mm
+- **Circles and arcs:** 1 circles, 136 arcs; largest r 0.7 @ (255.2, 77.7)
+- **Closed boxes:** 179 (4 in the title block); named: MONITOR MIXDOWN SCHEMATIC; 880651-02-008
+- **Words (OCR):** 31 in 30 lines: ATNSTED · NPUT* · (TMSTED) · DIRECT · "PLAYBACK" · OVERDUB" · TRCAS · WRAD · TRACK · TRACA · TRAC · CUTPUTS
+- **Title block:** (347, 18)–(432, 39) mm: SSUEI DATE · REMSICN · WBS WARD-BECK  SYSTEMS · ID/BB
+- **Wiring (first pass):** 154 connected wire groups from 2,029 runs; labelled ends: 255 mm → NPUT*; 138 mm → TRACR; 136 mm → NPUT*; 87 mm → TRACK; 87 mm → NPUT*
+
+Every curve, box, word and wire group: [1988 - 880651 - 880651-02-008 - TRACK TRACK TRACK TRACK LSSUEDAI REVSION (traced).json](1988%20-%20880651%20-%20880651-02-008%20-%20TRACK%20TRACK%20TRACK%20TRACK%20LSSUEDAI%20REVSION%20%28traced%29.json) (the CAD file: `1988 - 880651 - 880651-02-008 - TRACK TRACK TRACK TRACK LSSUEDAI REVSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

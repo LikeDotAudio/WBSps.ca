@@ -15,6 +15,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 561,351 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 471-04-004, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 23–326 mm across, 18–412 mm up
+- **Outlines:** line 65 rings, 1,438 straight (5,729 mm) / 245 curved (714 mm); text 174 rings, 1,354 straight (1,679 mm) / 388 curved (567 mm); tb 353 rings, 2,762 straight (5,375 mm) / 715 curved (1,473 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 9.4 @ (136.0, 50.5), r 8.1 @ (136.1, 50.5), r 5.7 @ (135.9, 50.5), r 5.0 @ (28.9, 342.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 30 in 28 lines: WBS · Matic · MODE · 12 · PGW · PEAK · SENS · PRE · PST · AUX · PRE · AUX
+- **Title block:** (99, 50)–(332, 415) mm: WBS · Matic · MODE · 12 · PGW · PEAK · SENS · PRE · PST · AUX · PRE · AUX · PRE · PST · AUX · PRE · PST · AUX · 16 · BAL · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - DOC - STEREO L SERIES - P015 - B471-04-004 R (traced).json](19xx%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P015%20-%20B471-04-004%20R%20%28traced%29.json) (the CAD file: `19xx - DOC - STEREO L SERIES - P015 - B471-04-004 R (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

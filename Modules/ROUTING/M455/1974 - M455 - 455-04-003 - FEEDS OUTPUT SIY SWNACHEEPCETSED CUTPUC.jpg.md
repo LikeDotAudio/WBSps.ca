@@ -12,6 +12,18 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 197,491 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 455-04-003, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 151 rings, 2,318 straight (5,372 mm) / 210 curved (311 mm); text 422 rings, 2,276 straight (2,177 mm) / 586 curved (807 mm); tb 226 rings, 1,692 straight (3,213 mm) / 262 curved (421 mm)
+- **Closed boxes:** 7 (7 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 43 lines: WBS · M455 · AUX!LIARY FSTER LeveE control · Controls sign3 · both outpuls · VU Kater Indicates Teve | · signa · meduTe · AUX · Dutdut · Tefer · switch Smi When Ce"
+- **Title block:** (127, 20)–(300, 324) mm: WBS · M455 · AUX!LIARY FSTER LeveE control · Controls sign3 · both outpuls · AUX · AVA · swiech SW7: · ON · Feeds output siyna| · Cepresse · ISSUE DATE · REVISICN · WBS WARD-BECK SYSTEMS · DRN · M455 
+
+Every curve, box, word and wire group: [1974 - M455 - 455-04-003 - FEEDS OUTPUT SIY SWNACHEEPCETSED CUTPUC (traced).json](1974%20-%20M455%20-%20455-04-003%20-%20FEEDS%20OUTPUT%20SIY%20SWNACHEEPCETSED%20CUTPUC%20%28traced%29.json) (the CAD file: `1974 - M455 - 455-04-003 - FEEDS OUTPUT SIY SWNACHEEPCETSED CUTPUC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 13 words corrected)

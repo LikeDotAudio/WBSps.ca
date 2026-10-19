@@ -11,6 +11,20 @@ Wiki page: [M703B](../../../PAGES/M703B.md)
 - **Size:** 5,751,937 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 701-02-101, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 17–303 mm up
+- **Outlines:** line 1,704 rings, 14,662 straight (22,089 mm) / 3,310 curved (3,954 mm); text 535 rings, 2,827 straight (2,466 mm) / 957 curved (1,170 mm); tb 19 rings, 179 straight (203 mm) / 37 curved (42.1 mm)
+- **Centre lines:** 18,717 paths (418 closed); straight 15,898 mm, curved 418 mm; horizontal 4,756 mm, vertical 4,568 mm, diagonal 6,574 mm
+- **Circles and arcs:** 15 circles, 89 arcs; largest r 3.2 @ (169.9, 184.6), r 3.1 @ (55.8, 115.9), r 3.1 @ (74.4, 160.4), r 3.0 @ (87.2, 243.3)
+- **Closed boxes:** 29 (6 in the title block); named: M7o18 INTERCOM Pre-AMPLifiER SCHEMATIC; SCALL; 701-02-101
+- **Words (OCR):** 92 in 87 lines: Nores · ALL Resistors ArE · AND · LAST COMPCNENT Jesignaticns · criog · Ri7t Swioy; Tioi · USE PCB · Z42i02 · Rioz · 2.2/15 · Ci · 22/75
+- **Title block:** (356, 36)–(432, 52) mm: WBS WARD-Beck systeMS · M7o18
+- **Wiring (first pass):** 180 connected wire groups from 1,359 runs; labelled ends: 540 mm → [K072Z, WBS, SCALL; 290 mm → Riig, IoLC; 204 mm → Ui4-B; 131 mm → Ui4-B; 117 mm → 9n
+
+Every curve, box, word and wire group: [1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX (traced).json](1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX%20%28traced%29.json) (the CAD file: `1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

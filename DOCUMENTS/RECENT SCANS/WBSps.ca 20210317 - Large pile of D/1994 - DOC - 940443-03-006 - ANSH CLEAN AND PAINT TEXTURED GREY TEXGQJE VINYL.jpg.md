@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,469,026 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940443-03-006, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 4–422 mm across, 7–274 mm up
+- **Outlines:** line 711 rings, 4,845 straight (10,793 mm) / 553 curved (680 mm); text 303 rings, 1,796 straight (1,638 mm) / 572 curved (707 mm); tb 29 rings, 223 straight (237 mm) / 48 curved (56.5 mm)
+- **Centre lines:** 5,567 paths (132 closed); straight 7,185 mm, curved 33.9 mm; horizontal 3,482 mm, vertical 1,791 mm, diagonal 1,912 mm
+- **Circles and arcs:** 0 circles, 13 arcs
+- **Closed boxes:** 6 (2 in the title block); named: Sce
+- **Dots (junctions):** 1
+- **Words (OCR):** 41 in 36 lines: 1.640 · 0.267 · REQU/SIDE · 0.930 · 1.207 · 0.290 · 5.203 · 6.41.7 · "ELD AND · Svooth MaTED CORNERS · 0.166 · 0.5o
+- **Title block:** (342, 24)–(427, 41) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940443-03-006 - ANSH CLEAN AND PAINT TEXTURED GREY TEXGQJE VINYL (traced).json](1994%20-%20DOC%20-%20940443-03-006%20-%20ANSH%20CLEAN%20AND%20PAINT%20TEXTURED%20GREY%20TEXGQJE%20VINYL%20%28traced%29.json) (the CAD file: `1994 - DOC - 940443-03-006 - ANSH CLEAN AND PAINT TEXTURED GREY TEXGQJE VINYL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

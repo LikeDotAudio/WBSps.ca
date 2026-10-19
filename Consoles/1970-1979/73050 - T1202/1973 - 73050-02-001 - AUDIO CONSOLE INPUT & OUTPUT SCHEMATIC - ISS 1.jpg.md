@@ -25,6 +25,20 @@ Cropped photo of the audio console input and output schematic with title block a
 
 - **1973** (labelled): `DATE Sept 73` — …dBm 6o0n 300 (6 N MATL. WBS WAAD-BECK BYSTEMB LTD; DRN: Pc DATE Sept 73 CKD RC SCALE XX TOLS Zne FiNISH AudIO CONSOLE iAput & Outpu…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-001, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 334 rings, 14,215 straight (16,174 mm) / 1,927 curved (2,915 mm); text 353 rings, 4,132 straight (4,329 mm) / 957 curved (1,392 mm); tb 31 rings, 454 straight (532 mm) / 68 curved (105 mm)
+- **Centre lines:** 6,335 paths (61 closed); straight 12,186 mm, curved 766 mm; horizontal 5,580 mm, vertical 3,101 mm, diagonal 3,505 mm
+- **Circles and arcs:** 43 circles, 56 arcs; largest r 2.4 @ (117.8, 313.8), r 2.4 @ (147.0, 313.9), r 2.3 @ (107.9, 314.1), r 2.3 @ (34.4, 315.0)
+- **Closed boxes:** 16 (1 in the title block); named: MATL; AUDIO CONSOLE Output SCHEMATIC; FINISH; TOLS; 73050-02-0oi; ISS.
+- **Words (OCR):** 55 in 45 lines: VU · 300 · TBZ · 300 · MI · +8dBm Goo · 16o · LINE KEY #4 Mit M2 · 9,12 · TB2 · 300 · LINE OUT
+- **Title block:** (94, 15)–(244, 85) mm: WBS WAAD-BeCK BYSTEMS LTD_ · DRN · Rc · AUDIO CONSOLE · DATE SEpt · 73 · CKD. · Rc · SCALE · SCHEMATIC · TOLS
+- **Wiring (first pass):** 149 connected wire groups from 606 runs; labelled ends: 195 mm → 300; 155 mm → 300; 139 mm → 620; 126 mm → FINISH; 103 mm → 300, M2, Mit
+
+Every curve, box, word and wire group: [1973 - 73050-02-001 - AUDIO CONSOLE INPUT & OUTPUT SCHEMATIC - ISS 1 (traced).json](1973%20-%2073050-02-001%20-%20AUDIO%20CONSOLE%20INPUT%20%26%20OUTPUT%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-001 - AUDIO CONSOLE INPUT & OUTPUT SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

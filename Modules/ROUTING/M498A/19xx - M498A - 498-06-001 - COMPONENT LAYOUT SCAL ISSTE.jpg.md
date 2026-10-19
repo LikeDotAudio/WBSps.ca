@@ -11,6 +11,17 @@ Wiki page: [M498A](../../../PAGES/M498A.md)
 - **Size:** 7,456,328 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 498-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–428 mm across, 19–304 mm up
+- **Outlines:** line 586 rings, 6,478 straight (13,378 mm) / 1,636 curved (1,572 mm); text 114 rings, 845 straight (862 mm) / 242 curved (291 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.5 @ (74.9, 97.5)
+- **Closed boxes:** 28
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [19xx - M498A - 498-06-001 - COMPONENT LAYOUT SCAL ISSTE (traced).json](19xx%20-%20M498A%20-%20498-06-001%20-%20COMPONENT%20LAYOUT%20SCAL%20ISSTE%20%28traced%29.json) (the CAD file: `19xx - M498A - 498-06-001 - COMPONENT LAYOUT SCAL ISSTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

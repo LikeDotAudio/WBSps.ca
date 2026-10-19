@@ -22,6 +22,18 @@ M497D dual master module functional diagram, cropped.
 - **Size:** 159,166 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 497-01-005, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 9–372 mm up
+- **Outlines:** line 194 rings, 2,791 straight (4,034 mm) / 416 curved (431 mm); text 260 rings, 1,767 straight (2,052 mm) / 561 curved (869 mm); tb 3 rings, 70 straight (176 mm) / 5 curved (7.9 mm)
+- **Centre lines:** 4,420 paths (57 closed); straight 4,009 mm, curved 0.0 mm; horizontal 1,369 mm, vertical 956 mm, diagonal 1,684 mm
+- **Words (OCR):** 29 in 19 lines: 8-109E · PROGRAM OUTPUTS · dBm · 600 OHMS · LEFT · MONITOR OUTPUT · MONO SUMMING OUTPUT · 8-109E · PROGRAM OUTPUTS · +8 dBm 600 OHMS · RIGHT · MONITOR OUTPUT
+- **Title block:** (204, 44)–(326, 68) mm: WBS · WARD-BECK SYSTEMS · M497D
+- **Wiring (first pass):** 55 connected wire groups from 110 runs; labelled ends: 44 mm → OUTPUTS; 30 mm → OUTPUTS, LEFT; 24 mm → PROGRAM; 24 mm → PROGRAM; 24 mm → 8-109E
+
+Every curve, box, word and wire group: [19xx - 497-01-005 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - ISS 1 (traced).json](19xx%20-%20497-01-005%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 497-01-005 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

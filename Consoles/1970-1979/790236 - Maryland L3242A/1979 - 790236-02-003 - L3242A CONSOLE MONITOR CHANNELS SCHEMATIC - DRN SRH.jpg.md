@@ -21,6 +21,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 2,824,185 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 790236-02-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–288 mm up
+- **Outlines:** line 585 rings, 7,410 straight (14,404 mm) / 1,426 curved (2,056 mm); text 228 rings, 1,462 straight (1,568 mm) / 480 curved (694 mm)
+- **Centre lines:** 7,752 paths (111 closed); straight 9,770 mm, curved 427 mm; horizontal 4,956 mm, vertical 1,833 mm, diagonal 2,981 mm
+- **Circles and arcs:** 15 circles, 87 arcs; largest r 2.0 @ (408.7, 28.3), r 1.6 @ (45.5, 157.1), r 1.6 @ (65.6, 157.1), r 1.3 @ (63.5, 93.9)
+- **Closed boxes:** 33
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 93 connected wire groups from 636 runs
+
+Every curve, box, word and wire group: [1979 - 790236-02-003 - L3242A CONSOLE MONITOR CHANNELS SCHEMATIC - DRN SRH (traced).json](1979%20-%20790236-02-003%20-%20L3242A%20CONSOLE%20MONITOR%20CHANNELS%20SCHEMATIC%20-%20DRN%20SRH%20%28traced%29.json) (the CAD file: `1979 - 790236-02-003 - L3242A CONSOLE MONITOR CHANNELS SCHEMATIC - DRN SRH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

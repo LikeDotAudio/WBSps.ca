@@ -11,6 +11,17 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 412,795 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-014, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–336 mm across, 4–414 mm up
+- **Outlines:** line 647 rings, 7,161 straight (15,114 mm) / 1,276 curved (2,074 mm); text 659 rings, 4,587 straight (4,012 mm) / 1,673 curved (2,149 mm)
+- **Circles and arcs:** 37 circles, 0 arcs; largest r 9.2 @ (260.1, 47.2), r 8.7 @ (260.3, 75.5), r 7.7 @ (260.1, 47.2), r 7.2 @ (259.8, 168.6)
+- **Closed boxes:** 14; named: INPUT SELEcTOR suitch Sw} When depressed; INPUT   SELECTOR shi tch Hhen depressed,; PAD insertion shitch Khen Oepressed, ins; DS2 : wil indicate PEAK OVERLOAD indicat; Swio, PRE / Post AUX ILIARY sui tches Sw; Aux iliary AssignhEnt Sw26 switches Sw23; Sw22: switch Hhen depressed, the igna| S
+- **Words (OCR):** 126 in 68 lines: Wos · Matoe · INPUT SELEcTOR suitch Sw} When depressed, connec[$ · Line source · input · unit · INPUT   SELECTOR shi tch · Hhen depressed, connects · hicrophone #2 · input unit_ · 81 · unithen depressed, connect$
+
+Every curve, box, word and wire group: [1984 - M470E - 470-04-014 - WHEN DEPRESSED ENABLES PAN CONTROL AUX PRE (traced).json](1984%20-%20M470E%20-%20470-04-014%20-%20WHEN%20DEPRESSED%20ENABLES%20PAN%20CONTROL%20AUX%20PRE%20%28traced%29.json) (the CAD file: `1984 - M470E - 470-04-014 - WHEN DEPRESSED ENABLES PAN CONTROL AUX PRE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,038,262 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94064-04-008, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 63–424 mm across, 7–196 mm up
+- **Outlines:** line 157 rings, 1,258 straight (5,703 mm) / 292 curved (482 mm); text 131 rings, 827 straight (937 mm) / 219 curved (294 mm); tb 61 rings, 494 straight (1,384 mm) / 86 curved (97.8 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 4.5 @ (187.7, 146.3), r 4.5 @ (169.9, 146.3), r 3.3 @ (248.0, 164.1), r 2.4 @ (248.0, 164.1)
+- **Closed boxes:** 10
+- **Words (OCR):** 16 in 12 lines: ISSUE DATEA · WBS · WARD-BECK SYSTEMS · WBZ BOSTON · REAR MEW · CRE · SIdE VEW · HOST TURRET · AYOUT · NTS COCE; · SCALE · 94064-04-008
+- **Title block:** (341, 6)–(429, 44) mm: ISSUE DATEA · WBS · WARD-BECK SYSTEMS · WBZ BOSTON · HOST TURRET · AYOUT · NTS COCE; · SCALE · 94064-04-008
+
+Every curve, box, word and wire group: [1994 - DOC - 94064-04-008 - REAR VIEW METER CABLE TERMINATNG (traced).json](1994%20-%20DOC%20-%2094064-04-008%20-%20REAR%20VIEW%20METER%20CABLE%20TERMINATNG%20%28traced%29.json) (the CAD file: `1994 - DOC - 94064-04-008 - REAR VIEW METER CABLE TERMINATNG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

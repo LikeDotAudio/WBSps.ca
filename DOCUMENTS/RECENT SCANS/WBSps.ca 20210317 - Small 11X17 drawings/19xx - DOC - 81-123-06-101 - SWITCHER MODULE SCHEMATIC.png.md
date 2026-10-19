@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 14,474,226 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 81-123-06-101, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 2,165 rings, 18,523 straight (33,502 mm) / 4,539 curved (4,702 mm); text 545 rings, 3,242 straight (2,488 mm) / 995 curved (1,070 mm); tb 19 rings, 133 straight (153 mm) / 40 curved (37.4 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.1 @ (401.2, 200.0), r 1.0 @ (68.6, 272.9), r 0.9 @ (417.6, 249.3), r 0.9 @ (180.9, 238.1)
+- **Closed boxes:** 156 (1 in the title block); named: 10925
+- **Dots (junctions):** 3
+- **Words (OCR):** 79 in 67 lines: Noreei · AJALL Resistor · DIc · INPUTS · A~D ALL · COVECNENT DEsisVAT · 4PCB 1-122 · ARE · C6os 3603,3813 · 48 · 8483 · EET
+- **Title block:** (359, 24)–(432, 46) mm: be Lebi · REVISION · WBS WAAD-BECK SYSTEME · M8128
+
+Every curve, box, word and wire group: [19xx - DOC - 81-123-06-101 - SWITCHER MODULE SCHEMATIC (traced).json](19xx%20-%20DOC%20-%2081-123-06-101%20-%20SWITCHER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 81-123-06-101 - SWITCHER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

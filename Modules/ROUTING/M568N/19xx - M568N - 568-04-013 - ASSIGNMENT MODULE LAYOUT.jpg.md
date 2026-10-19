@@ -11,6 +11,16 @@ Wiki page: [M568N](../../../PAGES/M568N.md)
 - **Size:** 7,063,205 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 568-04-013, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 4–280 mm up
+- **Outlines:** line 353 rings, 4,363 straight (10,790 mm) / 638 curved (1,052 mm); text 63 rings, 431 straight (507 mm) / 122 curved (165 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 5.2 @ (410.6, 151.6), r 5.2 @ (313.0, 156.7), r 5.2 @ (313.1, 139.3), r 4.0 @ (371.9, 164.9)
+- **Closed boxes:** 25
+
+Every curve, box, word and wire group: [19xx - M568N - 568-04-013 - ASSIGNMENT MODULE LAYOUT (traced).json](19xx%20-%20M568N%20-%20568-04-013%20-%20ASSIGNMENT%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M568N - 568-04-013 - ASSIGNMENT MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,539,705 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940334-04-002, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 4–421 mm across, 11–269 mm up
+- **Outlines:** line 555 rings, 5,922 straight (16,792 mm) / 429 curved (646 mm); text 184 rings, 1,393 straight (1,701 mm) / 407 curved (543 mm); tb 22 rings, 176 straight (201 mm) / 27 curved (32.5 mm)
+- **Closed boxes:** 114 (2 in the title block); named: 2200; Wlezo08; 2200
+- **Words (OCR):** 22 in 21 lines: 2200 · Wlezo08 · 37 · METER_BRIDCE · 2200 · Mk · Kk · METER_BRIDCE · AND_MKIII · CONSQLE · SIDE_PROFLLE · PANELC
+- **Title block:** (342, 27)–(427, 44) mm: REHSC · WBS WARD-BECK SYSTEMS · CHFI /CFTR
+
+Every curve, box, word and wire group: [1994 - DOC - 940334-04-002 - AND MKI MEIER BRIDGE TABLE CONSOLE SIDE PROFLLE (traced).json](1994%20-%20DOC%20-%20940334-04-002%20-%20AND%20MKI%20MEIER%20BRIDGE%20TABLE%20CONSOLE%20SIDE%20PROFLLE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940334-04-002 - AND MKI MEIER BRIDGE TABLE CONSOLE SIDE PROFLLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -20,6 +20,19 @@ Wiki page: [Job-950271](../../../PAGES/Job-950271.md)
 - **Size:** 471,209 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950271-03-002, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 66–852 mm across, 17–500 mm up
+- **Outlines:** line 974 rings, 6,870 straight (31,502 mm) / 1,274 curved (2,973 mm); text 179 rings, 1,185 straight (2,184 mm) / 326 curved (789 mm); tb 15 rings, 132 straight (317 mm) / 29 curved (63.9 mm)
+- **Centre lines:** 8,802 paths (183 closed); straight 19,936 mm, curved 91.1 mm; horizontal 10,402 mm, vertical 4,287 mm, diagonal 5,247 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 69 (3 in the title block); named: INTERFACE PANEL RACK  UNITS); 002 950271-03
+- **Words (OCR):** 28 in 26 lines: ALPONEC ThICk · MATERUL · ANIS · GRET TEXCOTE · FLACES · PLACES · Lo0 · FTCHFS · 1a Ico · PLACES · L.280 · 93027-
+- **Title block:** (694, 49)–(863, 91) mm: ISSUL DATEL · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1995 - 950271-03-002 - INTERFACE PANEL (2 RACK UNITS) - DRN DRG - ISS 1 (traced).json](1995%20-%20950271-03-002%20-%20INTERFACE%20PANEL%20%282%20RACK%20UNITS%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950271-03-002 - INTERFACE PANEL (2 RACK UNITS) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

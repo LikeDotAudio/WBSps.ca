@@ -11,6 +11,18 @@ Wiki page: [M490J](../../../PAGES/M490J.md)
 - **Size:** 185,675 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-020, size B (assumed) 334 × 432 mm, 1548 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–334 mm across, 2–431 mm up
+- **Outlines:** line 426 rings, 5,906 straight (10,383 mm) / 1,256 curved (1,799 mm); text 103 rings, 1,046 straight (932 mm) / 382 curved (507 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 4.6 @ (317.8, 77.7), r 2.2 @ (317.9, 91.5), r 2.1 @ (327.2, 26.1)
+- **Closed boxes:** 12; named: microphone mulua Iher mcrodnone; depre- Jch channei 7i9r Iel miing; FOLDBACK Centrole LEVEL connol; (01 cul atlon and toeraed beyond unuator; cul CHAMMEL DSz : Indlcetor cue Inalca c; cu ch oprrhiion cu channen ana; CHANNEL operanon Ina ch Indical buili-in
+- **Dots (junctions):** 1
+- **Words (OCR):** 45 in 39 lines: WBS · microphone · mulua · Iher · mcrodnone · Jch · depre- · channei · Iel · 7i9r · miing · deorenead
+
+Every curve, box, word and wire group: [1983 - M490J - 490-04-020 - EAEN DEPREATED ENABIET PAM NINOL RISO-RISI CONTROLE IEVA (traced).json](1983%20-%20M490J%20-%20490-04-020%20-%20EAEN%20DEPREATED%20ENABIET%20PAM%20NINOL%20RISO-RISI%20CONTROLE%20IEVA%20%28traced%29.json) (the CAD file: `1983 - M490J - 490-04-020 - EAEN DEPREATED ENABIET PAM NINOL RISO-RISI CONTROLE IEVA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 26 words corrected)

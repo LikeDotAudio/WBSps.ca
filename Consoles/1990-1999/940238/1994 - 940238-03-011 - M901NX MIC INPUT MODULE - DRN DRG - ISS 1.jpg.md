@@ -20,6 +20,19 @@ Wiki page: [Job-940238](../../../PAGES/Job-940238.md)
 - **Size:** 524,276 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940238-03-011, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px); scale 4)
+- **Ink extent:** 83–846 mm across, 14–525 mm up
+- **Outlines:** line 478 rings, 3,512 straight (20,015 mm) / 530 curved (2,342 mm); text 726 rings, 4,242 straight (6,939 mm) / 1,229 curved (2,928 mm); tb 36 rings, 238 straight (2,503 mm) / 29 curved (76.9 mm)
+- **Centre lines:** 10,530 paths (263 closed); straight 18,191 mm, curved 1,040 mm; horizontal 5,231 mm, vertical 5,788 mm, diagonal 7,173 mm
+- **Circles and arcs:** 9 circles, 10 arcs; largest r 128.6 @ (704.7, 375.1), r 3.7 @ (206.4, 477.4), r 3.7 @ (418.1, 477.9), r 3.7 @ (417.7, 77.1)
+- **Closed boxes:** 43; named: nas Vadinx CH ON AUX AUX
+- **Words (OCR):** 119 in 102 lines: 8 33 · F8-8250NC15 · UNC-C'Sk · REQ"D · 0.100 DIA-c"Sk · 0.180,DIA · REQ'D · DATUM · 0.200 · nas · Vadinx · Madinx
+- **Title block:** (673, 10)–(856, 269) mm: DETAIL · (SCALE 4) · MATERIAL: ALUM · ALLOY 0.125 THICK · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BEIGE (452C) · TEXCOTE VINYL_ · (EXTRA FINE · TEXTURE) · NOTE: · REMOVE ALL BURRS AND SHARP EDGES: 
+
+Every curve, box, word and wire group: [1994 - 940238-03-011 - M901NX MIC INPUT MODULE - DRN DRG - ISS 1 (traced).json](1994%20-%20940238-03-011%20-%20M901NX%20MIC%20INPUT%20MODULE%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940238-03-011 - M901NX MIC INPUT MODULE - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

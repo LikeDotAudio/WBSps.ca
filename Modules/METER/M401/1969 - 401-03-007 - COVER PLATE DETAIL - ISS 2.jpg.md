@@ -23,6 +23,19 @@ Mechanical detail of a cover plate with bends and holes.
 - **Size:** 1,204,950 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 401-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale FULLSIZE
+- **Ink extent:** 0–432 mm across, 10–299 mm up
+- **Outlines:** line 222 rings, 4,041 straight (6,866 mm) / 564 curved (725 mm); text 335 rings, 3,010 straight (3,387 mm) / 760 curved (1,191 mm); tb 108 rings, 1,722 straight (2,554 mm) / 204 curved (282 mm)
+- **Centre lines:** 8,440 paths (61 closed); straight 8,308 mm, curved 32.5 mm; horizontal 3,287 mm, vertical 2,217 mm, diagonal 2,804 mm
+- **Circles and arcs:** 0 circles, 8 arcs
+- **Closed boxes:** 4 (1 in the title block); named: ISSUE
+- **Words (OCR):** 44 in 38 lines: ISSUE · BRAcKETs · Aat Ar 4S · De · Jn69 · 5.04 · TAP · 4 HOLES DRILL · 4-4OUNC _ · 45EACH SIDE) · 24 · 1.25
+- **Title block:** (182, 10)–(408, 284) mm: ISSUE · BRAcKETs · Aat Ar 4S · De · Jn69 · TAP · 4 HOLES DRILL · 4-4OUNC _ · 24 · 1.25 · 2 HOLES 64 DIA · MIN BEND · RAD · VARD · BECK SYSTEMS · DRN · DJG · 120 GRiT e BLACK · DATE · 29Th OCt68 ANODIZ
+
+Every curve, box, word and wire group: [1969 - 401-03-007 - COVER PLATE DETAIL - ISS 2 (traced).json](1969%20-%20401-03-007%20-%20COVER%20PLATE%20DETAIL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1969 - 401-03-007 - COVER PLATE DETAIL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

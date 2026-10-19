@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,996,498 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** parts list 907-08-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 1–271 mm up
+- **Outlines:** line 235 rings, 1,792 straight (4,266 mm) / 310 curved (371 mm); text 244 rings, 1,489 straight (1,515 mm) / 435 curved (567 mm); tb 20 rings, 171 straight (200 mm) / 31 curved (34.1 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.9 @ (119.3, 43.8), r 1.9 @ (123.1, 244.0), r 1.9 @ (205.9, 42.4), r 1.8 @ (209.7, 242.4)
+- **Closed boxes:** 7 (2 in the title block); named: M907 CUSTOM MODULE TOP PLATE; 940238-03-010
+- **Words (OCR):** 24 in 18 lines: 0250 · REC D · MATERIAL: CR.S; 0.048   THICK · FINISH: SAND 120 GRIT AND PAINT · TEXTURED    BEIGE (452C) · TEXCOTE VIN · (EXTRA  FINE TEXTURE) · BLaRS SHAR? EDGCS · 4225 · TOLA NCES · (SPECiA }-&.cos · WBS
+- **Title block:** (342, 23)–(427, 40) mm: WBS · WARD-BECK SYSTEMS · M907
+
+Every curve, box, word and wire group: [1994 - M907 - DOC - 907-08-001 - ENG CUSTOM MODULE TOP PLATE (traced).json](1994%20-%20M907%20-%20DOC%20-%20907-08-001%20-%20ENG%20CUSTOM%20MODULE%20TOP%20PLATE%20%28traced%29.json) (the CAD file: `1994 - M907 - DOC - 907-08-001 - ENG CUSTOM MODULE TOP PLATE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

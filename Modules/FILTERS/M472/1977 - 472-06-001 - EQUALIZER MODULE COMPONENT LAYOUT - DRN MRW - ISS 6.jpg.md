@@ -23,6 +23,19 @@ Wiki page: [M472](../../../PAGES/M472.md)
 - **Size:** 362,710 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 472-06-001, size B 432 × 357 mm, 2000 × 1654 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–343 mm up
+- **Outlines:** line 630 rings, 6,607 straight (14,836 mm) / 1,692 curved (1,739 mm); text 465 rings, 3,534 straight (3,315 mm) / 1,180 curved (1,364 mm); tb 150 rings, 1,296 straight (1,625 mm) / 426 curved (448 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 2.1 @ (102.0, 131.2), r 1.8 @ (102.1, 120.5), r 1.8 @ (102.3, 184.9), r 1.8 @ (102.1, 125.7)
+- **Closed boxes:** 37 (29 in the title block); named: R22 sk IO-008; 23 L4A58; 24 LM/458; Rs Sk I0-008_; Rz5 sk; ISS
+- **Dots (junctions):** 1
+- **Words (OCR):** 81 in 78 lines: WBS · CANADA · 7-110 · R22 · sk · +arvni · IO-008 · R6 4K · R9JY · G5_-66 · 23 · Zi
+- **Title block:** (199, 1)–(351, 311) mm: WBS · CANADA · 7-110 · +arvni · Zi · LMsoi · Ri6 J5K · Ri9 · 22 · LMsol · Rzo Lke · Rzi Ske · Rzo 24k · R36 25 · Cig 22/25v · R24- Ww · Ci7 2225 · R33 · ISSQODIcKo] · USED On · WBS · 347] · 3549PM · D
+
+Every curve, box, word and wire group: [1977 - 472-06-001 - EQUALIZER MODULE COMPONENT LAYOUT - DRN MRW - ISS 6 (traced).json](1977%20-%20472-06-001%20-%20EQUALIZER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1977 - 472-06-001 - EQUALIZER MODULE COMPONENT LAYOUT - DRN MRW - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

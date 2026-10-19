@@ -11,6 +11,17 @@ Wiki page: [M498](../../../PAGES/M498.md)
 - **Size:** 114,282 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 498-04-003, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–331 mm across, 1–432 mm up
+- **Outlines:** line 49 rings, 1,318 straight (4,970 mm) / 174 curved (277 mm); text 209 rings, 1,274 straight (1,237 mm) / 458 curved (597 mm); tb 110 rings, 1,290 straight (5,411 mm) / 188 curved (265 mm)
+- **Closed boxes:** 15 (14 in the title block); named: STRIP Indicatc imput sourcc
+- **Words (OCR):** 31 in 23 lines: WBS · M498 · STRIP · Indicatc · Inter |ocked SELECTOR · low · ing of any · imput sourcc · one · ight S LCrEO · inout Pairs · one stereo outpui paie
+- **Title block:** (141, 7)–(326, 316) mm: WBS · M498 · Inter |ocked SELECTOR · low · ing of any · one · ight S LCrEO · inout Pairs · one stereo outpui paie · Revision · APP · WBS WAAD-Beck systeMS · M498 · ENG · 8X1 STEREO SWITCHER MODULE · F
+
+Every curve, box, word and wire group: [19xx - M498 - 498-04-003 - STEREO SWITCHER MODULE FRONT PANEL (traced).json](19xx%20-%20M498%20-%20498-04-003%20-%20STEREO%20SWITCHER%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `19xx - M498 - 498-04-003 - STEREO SWITCHER MODULE FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

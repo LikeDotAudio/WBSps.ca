@@ -22,6 +22,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 3,028,421 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-009, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–608 mm across, 0–864 mm up
+- **Outlines:** line 944 rings, 9,549 straight (33,353 mm) / 1,724 curved (4,104 mm); text 308 rings, 2,225 straight (5,551 mm) / 773 curved (2,263 mm)
+- **Centre lines:** 9,209 paths (107 closed); straight 22,495 mm, curved 675 mm; horizontal 10,264 mm, vertical 6,037 mm, diagonal 6,194 mm
+- **Circles and arcs:** 5 circles, 74 arcs; largest r 2.5 @ (303.3, 29.2), r 2.4 @ (308.5, 29.3), r 2.4 @ (412.6, 834.8), r 1.9 @ (454.3, 155.2)
+- **Closed boxes:** 41
+- **Wiring (first pass):** 120 connected wire groups from 875 runs
+
+Every curve, box, word and wire group: [1988 - 3642-02-009 - PROCESSING MODULES SCHEMATIC - DRN DS - ISS 4 (2) (traced).json](1988%20-%203642-02-009%20-%20PROCESSING%20MODULES%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%204%20%282%29%20%28traced%29.json) (the CAD file: `1988 - 3642-02-009 - PROCESSING MODULES SCHEMATIC - DRN DS - ISS 4 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

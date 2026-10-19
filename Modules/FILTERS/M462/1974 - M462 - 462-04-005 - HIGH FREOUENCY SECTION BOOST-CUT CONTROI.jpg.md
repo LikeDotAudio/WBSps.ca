@@ -11,6 +11,19 @@ Wiki page: [M462](../../../PAGES/M462.md)
 - **Size:** 832,022 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 462-04-005, size B (assumed) 326 × 432 mm, 1512 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–326 mm across, 4–344 mm up
+- **Outlines:** line 359 rings, 3,042 straight (6,414 mm) / 779 curved (1,055 mm); text 1,687 rings, 10,220 straight (9,186 mm) / 4,114 curved (5,384 mm); tb 471 rings, 3,584 straight (7,028 mm) / 877 curved (1,338 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.1 @ (106.7, 129.6), r 1.1 @ (59.3, 197.6), r 1.1 @ (59.1, 303.2)
+- **Closed boxes:** 7; named: High FRequency section. ADJUSThEnT Alows; FREQUENcY ADJUSTHEnT contro hid FREQuEnc; ADJUSTHENT Jons sect ion PEAK |NG Filter; FREQUENcY LOw section ADJUS THENT contro; Low FREQUENcY Q AdJusthenT Riz: section ; LoK FREQUENcY section HODE SELECTOR swit; NSERT switch Sh3 : Hhen depressed; this 
+- **Dots (junctions):** 1
+- **Words (OCR):** 297 in 185 lines: High FREQUENCY section _ · FREQUENCY ADJUSThENT contro · WBS · M462 · the PEAKiNG moce_ che requency ibration · R2: Cont nuous · From · kHz · Ene center requency · shapea · PEAKiNG · 3.2 6 4123
+- **Title block:** (136, 0)–(326, 326) mm: WBS · M462 · 3.2 6 4123 · HF · high · FREQUENcY · sect ion BoosT/CUT controi · RI3: · Cont nuous · aole rom · to -15 · Sets · gain · 055 · nian requency conten · [ne program · ma teria · reference the
+
+Every curve, box, word and wire group: [1974 - M462 - 462-04-005 - HIGH FREOUENCY SECTION BOOST-CUT CONTROI (traced).json](1974%20-%20M462%20-%20462-04-005%20-%20HIGH%20FREOUENCY%20SECTION%20BOOST-CUT%20CONTROI%20%28traced%29.json) (the CAD file: `1974 - M462 - 462-04-005 - HIGH FREOUENCY SECTION BOOST-CUT CONTROI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 13 words corrected)

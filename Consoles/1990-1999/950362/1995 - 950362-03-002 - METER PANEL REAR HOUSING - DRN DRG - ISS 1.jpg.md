@@ -21,6 +21,19 @@ Wiki page: [Job-950362](../../../PAGES/Job-950362.md)
 - **Size:** 572,546 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950362-03-002, size D 864 × 554 mm, 2000 × 1282 px traced (0.432 mm/px)
+- **Ink extent:** 71–864 mm across, 7–495 mm up
+- **Outlines:** line 587 rings, 4,777 straight (23,100 mm) / 804 curved (1,834 mm); text 257 rings, 1,485 straight (2,620 mm) / 453 curved (1,110 mm); tb 40 rings, 256 straight (529 mm) / 72 curved (160 mm)
+- **Centre lines:** 5,806 paths (177 closed); straight 14,988 mm, curved 29.6 mm; horizontal 8,031 mm, vertical 2,929 mm, diagonal 4,029 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 31 (10 in the title block)
+- **Words (OCR):** 31 in 29 lines: 0 PLADES · C4 EACH SIDE · 0.150 · SRER · 44-40 UNC REO'D · 0 312 · 1.544 · +0.003 Dia- INSTAL · 6.375 · NUT 5+40-2 · OM IER · PLACEC
+- **Title block:** (680, 4)–(854, 73) mm: MsIo" · WBS · WARD-BECK SYSTEMS · CRN; DRcNC 95) · METER PANEL · REAR HOUSING · SCALE · Icoce: 95362u02 · 950362-03-002
+
+Every curve, box, word and wire group: [1995 - 950362-03-002 - METER PANEL REAR HOUSING - DRN DRG - ISS 1 (traced).json](1995%20-%20950362-03-002%20-%20METER%20PANEL%20REAR%20HOUSING%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950362-03-002 - METER PANEL REAR HOUSING - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

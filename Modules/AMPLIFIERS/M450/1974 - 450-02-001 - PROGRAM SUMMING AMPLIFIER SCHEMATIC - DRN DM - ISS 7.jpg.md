@@ -23,6 +23,21 @@ Wiki page: [M450](../../../PAGES/M450.md)
 - **Size:** 522,408 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 450-02-001, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–560 mm up
+- **Outlines:** line 940 rings, 8,633 straight (32,384 mm) / 1,555 curved (4,064 mm); text 882 rings, 5,032 straight (8,887 mm) / 1,412 curved (3,510 mm); tb 38 rings, 248 straight (534 mm) / 52 curved (132 mm)
+- **Centre lines:** 11,434 paths (179 closed); straight 23,742 mm, curved 854 mm; horizontal 8,080 mm, vertical 6,422 mm, diagonal 9,239 mm
+- **Circles and arcs:** 11 circles, 67 arcs; largest r 7.3 @ (664.1, 369.0), r 7.1 @ (663.4, 257.7), r 7.1 @ (614.1, 243.6), r 6.9 @ (614.2, 146.2)
+- **Closed boxes:** 31 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 185 in 164 lines: C25 · C24 · R38 · 0/5 · 05 · Tipsob · C27 · C9 · 6800p · #I6v · CRS · R39
+- **Title block:** (693, 11)–(816, 66) mm: WBSS · WAAD Beck byateme LTo · @ATE · M450 · SCALE · SCHEMATIC · 450-02
+- **Wiring (first pass):** 191 connected wire groups from 1,061 runs, 2 dotted junctions; labelled ends: 472 mm → WBSS, [7521; 438 mm → Qio, Tip30b, C22, icoop; 308 mm → C27, '84r, C?8, 22on10; 213 mm → 230/6, RB, 7k5, Cio; 160 mm → C25, R37, C26
+
+Every curve, box, word and wire group: [1974 - 450-02-001 - PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7 (traced).json](1974%20-%20450-02-001%20-%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%207%20%28traced%29.json) (the CAD file: `1974 - 450-02-001 - PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M465A](../../../PAGES/M465A.md)
 - **Size:** 195,193 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 465-04-005, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 4–305 mm across, 18–432 mm up
+- **Outlines:** line 317 rings, 1,964 straight (7,325 mm) / 231 curved (315 mm); text 840 rings, 3,801 straight (3,478 mm) / 905 curved (1,277 mm); tb 356 rings, 2,038 straight (6,194 mm) / 399 curved (740 mm)
+- **Closed boxes:** 23 (13 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 128 in 71 lines: WBS · M46sa · REVERB SEND MASTER leve | control 31/2: Controls leve · REV SEND 5E · ion · VU Meter: Indicafes · MstR · SEND · SOLO swiech SwS Wncn Tessed · SOLO otput · dep · Feeds pre-fede REV
+- **Title block:** (131, 20)–(305, 323) mm: WBS · M46sa · REVERB SEND MASTER leve | control 31/2: Controls leve · REV SEND 5E · ion · MstR · SEND · SOLO swiech SwS Wncn Tessed · SOLO otput · dep · Feeds pre-fede REV · FOLDBACK LcVEL concro| RJ/
+
+Every curve, box, word and wire group: [1977 - M465A - 465-04-005 - RETPRETURAS CHE OUTPUT NOTE THAT THE SOLO OUTPUT (traced).json](1977%20-%20M465A%20-%20465-04-005%20-%20RETPRETURAS%20CHE%20OUTPUT%20NOTE%20THAT%20THE%20SOLO%20OUTPUT%20%28traced%29.json) (the CAD file: `1977 - M465A - 465-04-005 - RETPRETURAS CHE OUTPUT NOTE THAT THE SOLO OUTPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

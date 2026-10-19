@@ -20,6 +20,18 @@ Photo of a rotated WBS mic input module schematic sheet 3, title block partly cr
 - **Size:** 186,649 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 940444-02-100/3, size B 322 × 432 mm, 968 × 1296 px traced (0.333 mm/px), turned 90°
+- **Ink extent:** 0–323 mm across, 46–427 mm up
+- **Outlines:** line 594 rings, 5,978 straight (10,945 mm) / 1,188 curved (2,174 mm); text 138 rings, 988 straight (1,341 mm) / 314 curved (583 mm)
+- **Centre lines:** 7,463 paths (151 closed); straight 7,643 mm, curved 394 mm; horizontal 2,725 mm, vertical 1,584 mm, diagonal 3,335 mm
+- **Circles and arcs:** 8 circles, 22 arcs; largest r 4.9 @ (41.8, 213.2), r 4.8 @ (171.4, 268.8), r 4.7 @ (274.2, 260.8), r 4.6 @ (250.4, 272.7)
+- **Closed boxes:** 23
+- **Wiring (first pass):** 92 connected wire groups from 607 runs
+
+Every curve, box, word and wire group: [1994 - 940444-02-100 - MIC INPUT MODULE SCHEMATIC (8) (traced).json](1994%20-%20940444-02-100%20-%20MIC%20INPUT%20MODULE%20SCHEMATIC%20%288%29%20%28traced%29.json) (the CAD file: `1994 - 940444-02-100 - MIC INPUT MODULE SCHEMATIC (8) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

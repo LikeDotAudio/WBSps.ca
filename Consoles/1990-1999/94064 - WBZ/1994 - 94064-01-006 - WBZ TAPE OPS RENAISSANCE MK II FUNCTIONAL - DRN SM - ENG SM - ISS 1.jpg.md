@@ -22,6 +22,20 @@ Wiki page: [Job-94064](../../../PAGES/Job-94064.md)
 - **Size:** 1,179,016 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 94064-01-006, size D 864 × 546 mm, 2000 × 1265 px traced (0.432 mm/px); scale DISC ND:
+- **Ink extent:** 37–830 mm across, 0–513 mm up
+- **Outlines:** line 1,221 rings, 10,813 straight (55,990 mm) / 1,283 curved (3,068 mm); text 1,209 rings, 7,612 straight (11,964 mm) / 2,056 curved (4,792 mm); tb 55 rings, 448 straight (3,148 mm) / 39 curved (93.2 mm)
+- **Centre lines:** 22,500 paths (362 closed); straight 41,783 mm, curved 106 mm; horizontal 18,520 mm, vertical 11,290 mm, diagonal 11,974 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 4.4 @ (726.5, 217.5), r 3.5 @ (726.1, 217.6)
+- **Closed boxes:** 224 (2 in the title block); named: PGM2 LEFI; PGV2 RICHI; PGM1 MINUS Right; PG42 MINUS RIGHT; (2 00; 2200; 10XI SEL; KuTO CUE; CUE MUTE
+- **Words (OCR):** 208 in 186 lines: CONSCLE SUMMING BUSES · VUSIC VCICE · 7MNS · CUE AUX AUX · INSERTS · DIRECT · OUT · dBu · PGMI LEFT · 3o/*i0 · VNE INPUTS · MONO
+- **Title block:** (157, 0)–(846, 91) mm: STEREO2 · PowER · WBS · CONSOLE MODULES · STEREOJ · 09oe · VETER · MINUS MODULE · SUPPLY · M924 · comvCn · ISSUEL · REMSION · APP. · WBS · WARD-BECK SYSTEMS · CONSOLE FRAME WIRED FOR M9O5B STUDIO MONI
+- **Wiring (first pass):** 345 connected wire groups from 2,424 runs; labelled ends: 7790 mm → 7MNS, CUE, AUX AUX, VUSIC; 1383 mm → 10XI, 70, SEL, 7010; 225 mm → P2 MINUS; 215 mm → VCA; 209 mm → AUX AUX
+
+Every curve, box, word and wire group: [1994 - 94064-01-006 - WBZ TAPE OPS RENAISSANCE MK II FUNCTIONAL - DRN SM - ENG SM - ISS 1 (traced).json](1994%20-%2094064-01-006%20-%20WBZ%20TAPE%20OPS%20RENAISSANCE%20MK%20II%20FUNCTIONAL%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94064-01-006 - WBZ TAPE OPS RENAISSANCE MK II FUNCTIONAL - DRN SM - ENG SM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 25 words corrected)

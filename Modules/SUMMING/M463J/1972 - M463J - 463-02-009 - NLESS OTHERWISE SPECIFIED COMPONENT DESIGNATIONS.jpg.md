@@ -11,6 +11,20 @@ Wiki page: [M463J](../../../PAGES/M463J.md)
 - **Size:** 592,656 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-009, size B (assumed) 432 × 298 mm, 2000 × 1382 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–295 mm up
+- **Outlines:** line 626 rings, 8,615 straight (18,402 mm) / 1,526 curved (2,073 mm); text 1,318 rings, 7,849 straight (7,062 mm) / 2,915 curved (3,717 mm); tb 8 rings, 69 straight (102 mm) / 11 curved (16.4 mm)
+- **Centre lines:** 20,141 paths (285 closed); straight 16,906 mm, curved 449 mm; horizontal 5,988 mm, vertical 3,996 mm, diagonal 6,922 mm
+- **Circles and arcs:** 12 circles, 61 arcs; largest r 4.2 @ (54.5, 182.5), r 4.2 @ (57.4, 90.4), r 4.1 @ (85.1, 83.4), r 4.1 @ (111.7, 183.1)
+- **Closed boxes:** 17 (2 in the title block)
+- **Words (OCR):** 341 in 298 lines: R43 75 · 717 MoniToR · +I8v · 75 · 1DU · OUT · ISk · Rio · 22 · Riz · Rtse? 716 DIRECT · OUT
+- **Title block:** (360, 2)–(432, 42) mm: Issu DATE | · REVISION · WBS WARD-BECK BybtI · Drn GEL · M463] · ENG.Geb4/79 · SUBMASTER_Module · CKDTRA / · SCHEMATIC · App · SCall · 463-02-009
+- **Wiring (first pass):** 168 connected wire groups from 858 runs; labelled ends: 661 mm → R27, Iki, R2e, 390; 310 mm → Rtse?, R46 2.2, 2E4, R3s; 302 mm → Rtse?, R46 2.2, Amplifier, 2E6; 288 mm → SwS, Sw6 M2, Sw7, SwB; 188 mm → Sw3, Sw4, 14
+
+Every curve, box, word and wire group: [1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS (traced).json](1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

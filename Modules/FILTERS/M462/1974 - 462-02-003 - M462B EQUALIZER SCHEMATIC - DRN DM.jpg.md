@@ -24,6 +24,20 @@ Angled photo of the M462B equalizer schematic with title block at bottom right.
 - **Size:** 2,137,109 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 462-02-003, size D 864 × 645 mm, 2000 × 1494 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–645 mm up
+- **Outlines:** line 1,213 rings, 13,401 straight (37,821 mm) / 2,550 curved (6,305 mm); text 418 rings, 3,546 straight (8,761 mm) / 1,010 curved (3,079 mm); tb 43 rings, 424 straight (1,478 mm) / 95 curved (306 mm)
+- **Centre lines:** 31,029 paths (162 closed); straight 39,986 mm, curved 328 mm; horizontal 5,546 mm, vertical 4,037 mm, diagonal 30,403 mm
+- **Circles and arcs:** 0 circles, 41 arcs
+- **Closed boxes:** 3
+- **Words (OCR):** 76 in 65 lines: Zv · 95= · Tipzcb · JELE · 366 · 5p · 25V+ · Rso V2 N · 21 V- · 045 · 6.816 · 4k7
+- **Title block:** (293, 101)–(771, 276) mm: 2E2 · R49 · WARD-BeCk M462B SCHEMAZ · Gk2 · WBS EQUALIZER · MATL . · [DATE · On · CKD ISCALE · USED · Tols _ · CKD: · FINISH · TMODI Ez
+- **Wiring (first pass):** 66 connected wire groups from 1,022 runs; labelled ends: 25 mm → Tipzcb; 12 mm → Sw3, -25', R48, JNSERT; 11 mm → Sw3, JNSERT; 9 mm → OUTPUt; 9 mm → 95=
+
+Every curve, box, word and wire group: [1974 - 462-02-003 - M462B EQUALIZER SCHEMATIC - DRN DM (traced).json](1974%20-%20462-02-003%20-%20M462B%20EQUALIZER%20SCHEMATIC%20-%20DRN%20DM%20%28traced%29.json) (the CAD file: `1974 - 462-02-003 - M462B EQUALIZER SCHEMATIC - DRN DM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -22,6 +22,20 @@ Wide digital logic schematic strip (register select decoding) with title block a
 - **Size:** 1,880,585 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 742-02-001, size B 432 × 132 mm, 2000 × 609 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–131 mm up
+- **Outlines:** line 1,290 rings, 9,544 straight (17,467 mm) / 1,907 curved (2,294 mm); text 231 rings, 1,225 straight (1,031 mm) / 367 curved (458 mm)
+- **Centre lines:** 9,096 paths (276 closed); straight 10,516 mm, curved 212 mm; horizontal 4,767 mm, vertical 2,590 mm, diagonal 3,159 mm
+- **Circles and arcs:** 4 circles, 38 arcs; largest r 1.8 @ (62.2, 84.6), r 1.8 @ (62.2, 60.4), r 0.8 @ (339.5, 81.6), r 0.7 @ (110.0, 45.2)
+- **Closed boxes:** 36
+- **Dots (junctions):** 4
+- **Words (OCR):** 32 in 28 lines: REGISTER ENTER · SEQUENCER · Rele43) · ENTER · RCCISTEX · LNTED · 2r3 R2o · REGISTER · rio · ENTER · REC ?TER · Recister
+- **Wiring (first pass):** 91 connected wire groups from 939 runs, 3 dotted junctions; labelled ends: 202 mm → 2r3, 7410; 174 mm → REGISTER; 113 mm → ZEGSTFR; 54 mm → RECSTED; 50 mm → REGISTER
+
+Every curve, box, word and wire group: [19xx - 742-02-001 - LINE RECEIVER & REGISTER ENTRY CONTROL SCHEMATIC - ISS 2 (traced).json](19xx%20-%20742-02-001%20-%20LINE%20RECEIVER%20%26%20REGISTER%20ENTRY%20CONTROL%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 742-02-001 - LINE RECEIVER & REGISTER ENTRY CONTROL SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

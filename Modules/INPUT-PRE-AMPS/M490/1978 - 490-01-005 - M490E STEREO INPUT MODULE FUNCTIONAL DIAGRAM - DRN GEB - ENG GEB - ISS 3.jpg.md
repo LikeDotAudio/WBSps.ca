@@ -26,6 +26,18 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 3,091,229 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 490-01-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 10–432 mm across, 0–288 mm up
+- **Outlines:** line 635 rings, 6,467 straight (14,360 mm) / 991 curved (1,386 mm); text 377 rings, 2,602 straight (2,906 mm) / 797 curved (1,190 mm)
+- **Centre lines:** 5,467 paths (74 closed); straight 9,108 mm, curved 222 mm; horizontal 4,034 mm, vertical 2,407 mm, diagonal 2,667 mm
+- **Circles and arcs:** 11 circles, 44 arcs; largest r 3.2 @ (183.6, 103.5), r 2.9 @ (157.5, 103.3), r 1.5 @ (85.4, 96.1), r 1.5 @ (35.6, 80.0)
+- **Closed boxes:** 22
+- **Wiring (first pass):** 173 connected wire groups from 612 runs
+
+Every curve, box, word and wire group: [1978 - 490-01-005 - M490E STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (traced).json](1978%20-%20490-01-005%20-%20M490E%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1978 - 490-01-005 - M490E STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

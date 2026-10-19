@@ -22,6 +22,21 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 2,018,232 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-008, size B (assumed) 432 × 139 mm, 2000 × 644 px traced (0.216 mm/px)
+- **Ink extent:** 2–431 mm across, 0–139 mm up
+- **Outlines:** line 1,168 rings, 12,759 straight (19,298 mm) / 2,547 curved (3,207 mm); text 328 rings, 2,031 straight (1,767 mm) / 701 curved (825 mm); tb 3 rings, 23 straight (21.8 mm) / 6 curved (8.3 mm)
+- **Centre lines:** 12,339 paths (208 closed); straight 12,896 mm, curved 297 mm; horizontal 5,814 mm, vertical 2,953 mm, diagonal 4,130 mm
+- **Circles and arcs:** 5 circles, 86 arcs; largest r 2.5 @ (202.4, 36.9), r 2.5 @ (219.1, 36.7), r 1.0 @ (142.0, 53.0), r 1.0 @ (32.1, 123.7)
+- **Closed boxes:** 44; named: 73050.02-008
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 56 lines: TURRET · CABLE · 78z · 330 · Ps 2 · Wafning · Lizh · CONTROL · P52 TcLU · LAAP · 762 · OFF
+- **Title block:** (352, 17)–(430, 27) mm: WBS WARD BeCk byatemB
+- **Wiring (first pass):** 162 connected wire groups from 1,101 runs; labelled ends: 453 mm → 75 1, 223/40v, leed, NUTE; 255 mm → Jov/ 301, 1Os Fot; 166 mm → sy3o0_, LOG PoT, L  Pot; 90 mm → OFF; 76 mm → 762, leed, RiS%1
+
+Every curve, box, word and wire group: [1973 - 73050-02-008 - AUDIO CONSOLE TURRET SCHEMATIC - DRN PC - ISS 1 (traced).json](1973%20-%2073050-02-008%20-%20AUDIO%20CONSOLE%20TURRET%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-008 - AUDIO CONSOLE TURRET SCHEMATIC - DRN PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

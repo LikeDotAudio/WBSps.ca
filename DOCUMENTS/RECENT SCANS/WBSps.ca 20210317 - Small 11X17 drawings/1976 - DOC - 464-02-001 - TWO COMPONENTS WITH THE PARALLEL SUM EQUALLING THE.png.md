@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1976** (labelled): `DATE NOV 76` — …zt PKM 3596NpL USEDAOH WBS WAAD-Beck Byeteme Lta: DRM: GlEB DATE NOV 76 CKD SCALE ToLs M464 High PASS Low PASS Filter SCHEMATIC 464…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 464-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 12–298 mm up
+- **Outlines:** line 1,237 rings, 11,677 straight (19,603 mm) / 2,970 curved (3,664 mm); text 700 rings, 3,873 straight (3,451 mm) / 1,508 curved (1,888 mm); tb 15 rings, 86 straight (123 mm) / 11 curved (16.8 mm)
+- **Centre lines:** 14,991 paths (392 closed); straight 14,288 mm, curved 440 mm; horizontal 4,561 mm, vertical 3,658 mm, diagonal 6,068 mm
+- **Circles and arcs:** 7 circles, 101 arcs; largest r 3.2 @ (361.5, 192.8), r 3.2 @ (370.2, 246.1), r 3.1 @ (353.8, 206.1), r 3.1 @ (362.0, 255.6)
+- **Closed boxes:** 16 (3 in the title block)
+- **Dots (junctions):** 6
+- **Words (OCR):** 138 in 112 lines: Low FrequenCY CuT · High · FREQUENCY CUT · Tip2sb · Ai · PASS · Low · PASS · 25v · Rze · R745 MOUNTED · Resistors
+- **Title block:** (349, 17)–(412, 40) mm: WBSS WARD-BeCk eyateme Lr · 0404 · DATE Hov76 · High Pass Low PASS · SCALL · SchematIC
+- **Wiring (first pass):** 131 connected wire groups from 937 runs, 2 dotted junctions; labelled ends: 311 mm → ResiSToRS; 233 mm → R27; 199 mm → Iso/6, RIio, Isok, R2s; 160 mm → 2i5; 120 mm → 2E2
+
+Every curve, box, word and wire group: [1976 - DOC - 464-02-001 - TWO COMPONENTS WITH THE PARALLEL SUM EQUALLING THE (traced).json](1976%20-%20DOC%20-%20464-02-001%20-%20TWO%20COMPONENTS%20WITH%20THE%20PARALLEL%20SUM%20EQUALLING%20THE%20%28traced%29.json) (the CAD file: `1976 - DOC - 464-02-001 - TWO COMPONENTS WITH THE PARALLEL SUM EQUALLING THE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

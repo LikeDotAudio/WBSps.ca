@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,305,885 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-020, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 782 rings, 10,119 straight (17,264 mm) / 2,151 curved (2,910 mm); text 507 rings, 3,186 straight (2,873 mm) / 1,263 curved (1,630 mm)
+- **Centre lines:** 12,768 paths (174 closed); straight 12,420 mm, curved 462 mm; horizontal 5,008 mm, vertical 2,945 mm, diagonal 4,466 mm
+- **Circles and arcs:** 9 circles, 78 arcs; largest r 4.0 @ (99.9, 267.8), r 3.9 @ (62.2, 95.9), r 3.8 @ (59.7, 183.9), r 3.8 @ (60.6, 261.3)
+- **Closed boxes:** 19; named: WES5 WARD-DECK EYETEMB; M463 AC schematic
+- **Dots (junctions):** 4
+- **Words (OCR):** 137 in 120 lines: Rio · RIz · Pn3c+5 · 3301 · 93p · FADER · (INSERT) 2E3 267 · ISk · 92E2 2E4 · 716 DIRECT DuT · 8-1094 · R4c 2.2
+- **Wiring (first pass):** 145 connected wire groups from 843 runs; labelled ends: 312 mm → Rzc, IkI, Rz8, 356; 268 mm → WARD-DECK EYETEMB, WES5; 180 mm → 54a; 160 mm → 267, 2E4, R4c 2.2, Rzc; 153 mm → R4c 2.2, Amplifier, RZ7, Iki
+
+Every curve, box, word and wire group: [19xx - DOC - 463-02-020 - BYBTEMB DALHM EHNE (traced).json](19xx%20-%20DOC%20-%20463-02-020%20-%20BYBTEMB%20DALHM%20EHNE%20%28traced%29.json) (the CAD file: `19xx - DOC - 463-02-020 - BYBTEMB DALHM EHNE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

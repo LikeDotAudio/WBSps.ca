@@ -22,6 +22,20 @@ M471C stereo input module schematic.
 - **Size:** 757,949 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 471-02-003, size B 432 × 290 mm, 2000 × 1342 px traced (0.216 mm/px)
+- **Ink extent:** 2–427 mm across, 6–290 mm up
+- **Outlines:** line 1,924 rings, 17,580 straight (26,441 mm) / 3,626 curved (4,159 mm); text 877 rings, 5,503 straight (4,262 mm) / 1,482 curved (1,682 mm); tb 2 rings, 42 straight (105 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 19,899 paths (615 closed); straight 18,144 mm, curved 189 mm; horizontal 6,499 mm, vertical 5,228 mm, diagonal 6,418 mm
+- **Circles and arcs:** 8 circles, 11 arcs; largest r 3.4 @ (176.5, 101.8), r 3.3 @ (39.9, 41.9), r 3.2 @ (57.1, 45.9), r 3.2 @ (180.1, 87.6)
+- **Closed boxes:** 35
+- **Words (OCR):** 223 in 212 lines: 49es · 3ic" · ChAYE · VE55J-N · Oto · 43 · Kcos · 3 3 · 18jI · 68 'J · INPUTS · SELECT
+- **Title block:** (342, 28)–(432, 45) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 257 connected wire groups from 1,886 runs; labelled ends: 427 mm → LMbjsN, 10/25, Sins, LMBJIN JJ/1o; 334 mm → 0/23; 315 mm → Sins, 5076, 4780, JJa0; 189 mm → Sm1d, SM _; 184 mm → SELECT
+
+Every curve, box, word and wire group: [19xx - 471-02-003 - STEREO INPUT MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20471-02-003%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 471-02-003 - STEREO INPUT MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

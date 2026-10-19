@@ -22,6 +22,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 3,930,079 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 76045-02-008, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–426 mm across, 19–305 mm up
+- **Outlines:** line 365 rings, 4,314 straight (8,040 mm) / 553 curved (811 mm); text 261 rings, 1,658 straight (1,836 mm) / 427 curved (578 mm)
+- **Centre lines:** 2,760 paths (44 closed); straight 5,400 mm, curved 89.6 mm; horizontal 2,818 mm, vertical 1,081 mm, diagonal 1,500 mm
+- **Circles and arcs:** 3 circles, 16 arcs; largest r 1.4 @ (43.5, 195.7), r 1.4 @ (354.7, 52.1), r 1.2 @ (207.6, 76.5)
+- **Closed boxes:** 37
+- **Wiring (first pass):** 29 connected wire groups from 297 runs
+
+Every curve, box, word and wire group: [1977 - 76045-02-008 - STUDIO A MONITOR CHANNEL SCHEMATIC - DRN ELJ - ISS 1 (traced).json](1977%20-%2076045-02-008%20-%20STUDIO%20A%20MONITOR%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 76045-02-008 - STUDIO A MONITOR CHANNEL SCHEMATIC - DRN ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

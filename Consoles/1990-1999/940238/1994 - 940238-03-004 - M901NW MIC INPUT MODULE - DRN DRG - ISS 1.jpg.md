@@ -22,6 +22,19 @@ Mic input module faceplate drawing with title block at bottom right.
 - **Size:** 505,475 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940238-03-004, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px); scale 41)
+- **Ink extent:** 7–864 mm across, 4–551 mm up
+- **Outlines:** line 413 rings, 4,215 straight (19,263 mm) / 478 curved (2,264 mm); text 689 rings, 4,185 straight (6,913 mm) / 1,303 curved (3,128 mm); tb 32 rings, 488 straight (2,524 mm) / 21 curved (50.1 mm)
+- **Centre lines:** 10,690 paths (242 closed); straight 17,939 mm, curved 1,050 mm; horizontal 4,882 mm, vertical 5,565 mm, diagonal 7,492 mm
+- **Circles and arcs:** 10 circles, 10 arcs; largest r 128.3 @ (711.7, 380.7), r 3.7 @ (412.5, 96.1), r 3.6 @ (430.6, 335.3), r 3.6 @ (221.2, 505.2)
+- **Closed boxes:** 24
+- **Words (OCR):** 105 in 87 lines: 3 3 · F8-O2SONCIAC*SK · 938486Diask · REQ'D · REQ"D · DATUM · 0.200 · (0.04 RAD CORNERS) · PuncH 0.38o SQ · Sk REAR OF PANEL · Mooinn · 500
+- **Title block:** (669, 10)–(851, 276) mm: DETAIL · (SCALE 41) · MATERIAL: ALUM ALLOY 0.125 THICK · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BEIGE (452C) · TEXCOTE VINYL. · (EXTRA FINE  TEXTURE) · NOTE: · TOLERANCES: Ayat 0.015 XXX=+/-0.005 
+
+Every curve, box, word and wire group: [1994 - 940238-03-004 - M901NW MIC INPUT MODULE - DRN DRG - ISS 1 (traced).json](1994%20-%20940238-03-004%20-%20M901NW%20MIC%20INPUT%20MODULE%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940238-03-004 - M901NW MIC INPUT MODULE - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

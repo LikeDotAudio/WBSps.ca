@@ -12,6 +12,21 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 2,557,823 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 520-02-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 48–432 mm across, 1–279 mm up
+- **Outlines:** line 1,137 rings, 8,561 straight (14,076 mm) / 1,781 curved (2,075 mm); text 235 rings, 1,336 straight (1,228 mm) / 401 curved (491 mm); tb 1 rings, 38 straight (94.0 mm) / 2 curved (3.7 mm)
+- **Centre lines:** 8,565 paths (278 closed); straight 8,871 mm, curved 90.5 mm; horizontal 3,691 mm, vertical 2,300 mm, diagonal 2,880 mm
+- **Circles and arcs:** 5 circles, 10 arcs; largest r 2.6 @ (238.8, 54.8), r 2.5 @ (238.7, 67.4), r 0.7 @ (189.7, 77.9), r 0.7 @ (266.1, 247.9)
+- **Closed boxes:** 17
+- **Dots (junctions):** 3
+- **Words (OCR):** 29 in 28 lines: CHANNE · PoSTFADE · PRE/Post · LEVEL · VCLESS · caaciTORS · SPECIFIED · CoUPD ENT · LEVEL · RETURR · LEVEL · PRE /Post
+- **Title block:** (341, 31)–(430, 47) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 79 connected wire groups from 605 runs, 2 dotted junctions; labelled ends: 870 mm → 18633; 772 mm → PoSTFADE, CHANNE, PRE/Post, PRE /Post; 713 mm → PRE/Post; 62 mm → LEVEL; 61 mm → LFVFL
+
+Every curve, box, word and wire group: [1988 - M520 - B 520-02-001-3 - M520 MONO INPUT MODULE - SCHEMATIC (traced).json](1988%20-%20M520%20-%20B%20520-02-001-3%20-%20M520%20MONO%20INPUT%20MODULE%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1988 - M520 - B 520-02-001-3 - M520 MONO INPUT MODULE - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

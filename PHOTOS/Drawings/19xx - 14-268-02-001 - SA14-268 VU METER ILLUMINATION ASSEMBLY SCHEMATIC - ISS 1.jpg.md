@@ -20,6 +20,18 @@ VU meter illumination assembly schematic, title block at top right reading downw
 - **Size:** 5,041,313 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-268-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–414 mm across, 20–304 mm up
+- **Outlines:** line 171 rings, 2,096 straight (4,578 mm) / 275 curved (383 mm); text 282 rings, 1,871 straight (2,286 mm) / 493 curved (685 mm)
+- **Centre lines:** 2,573 paths (48 closed); straight 3,810 mm, curved 135 mm; horizontal 1,388 mm, vertical 1,150 mm, diagonal 1,272 mm
+- **Circles and arcs:** 8 circles, 19 arcs; largest r 2.7 @ (125.7, 193.0), r 2.5 @ (125.5, 144.2), r 2.0 @ (125.9, 192.9), r 1.5 @ (180.9, 105.1)
+- **Closed boxes:** 3
+- **Wiring (first pass):** 50 connected wire groups from 197 runs
+
+Every curve, box, word and wire group: [19xx - 14-268-02-001 - SA14-268 VU METER ILLUMINATION ASSEMBLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-268-02-001%20-%20SA14-268%20VU%20METER%20ILLUMINATION%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-268-02-001 - SA14-268 VU METER ILLUMINATION ASSEMBLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,19 @@ Wiki page: [M523](../../../PAGES/M523.md)
 - **Size:** 9,015,774 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 523-06-001, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 1–280 mm up
+- **Outlines:** line 2,323 rings, 18,168 straight (21,517 mm) / 5,391 curved (5,400 mm); text 566 rings, 3,685 straight (3,216 mm) / 1,381 curved (1,543 mm); tb 159 rings, 1,317 straight (1,588 mm) / 423 curved (426 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 3.9 @ (162.2, 86.2), r 3.8 @ (242.7, 85.3), r 3.8 @ (228.0, 236.3), r 3.8 @ (36.4, 88.2)
+- **Closed boxes:** 23 (3 in the title block)
+- **Dots (junctions):** 4
+- **Words (OCR):** 57 in 54 lines: ELRNC · SVOFF · 58 · 379 · WBS · CANADA · 14-085 · 9953 · ISSUE · 73 · 725 · 4m
+- **Title block:** (347, 28)–(432, 212) mm: WBS · CANADA · 14-085 · ISSUE · 47/40 · 740 · 4io · Ro · P2-22 · WBS · WARD-BECX SYSTEN
+
+Every curve, box, word and wire group: [1985 - M523 - 523-06-001 - STEREO SUBMASTER MODULE COMPONENT LAYOUT (traced).json](1985%20-%20M523%20-%20523-06-001%20-%20STEREO%20SUBMASTER%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M523 - 523-06-001 - STEREO SUBMASTER MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

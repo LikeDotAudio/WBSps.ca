@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,074,899 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 82-03-004, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 0–273 mm up
+- **Outlines:** line 1,089 rings, 8,812 straight (18,451 mm) / 1,705 curved (2,045 mm); text 417 rings, 2,220 straight (2,158 mm) / 732 curved (963 mm); tb 17 rings, 136 straight (172 mm) / 35 curved (42.2 mm)
+- **Centre lines:** 10,463 paths (327 closed); straight 12,403 mm, curved 45.9 mm; horizontal 4,664 mm, vertical 4,101 mm, diagonal 3,638 mm
+- **Circles and arcs:** 1 circles, 17 arcs; largest r 2.3 @ (136.3, 84.0)
+- **Closed boxes:** 5 (2 in the title block)
+- **Dots (junctions):** 3
+- **Words (OCR):** 44 in 35 lines: SIDEPLATE LefT · 82-03-004-1 · SIDEPLATE LEFT 82-03-004-3 · 12713 · 0,606 · PuycH 0,25 888 · Cec) · 1e5 · 0507 · 3.230 · 1 270 · 3154
+- **Title block:** (326, 26)–(410, 43) mm: WBS · WARD-BECK   SYSTEMS · SIDEPLATE
+
+Every curve, box, word and wire group: [19xx - D8212 - DOC - 82-03-004 - RESD CHZVREQ (traced).json](19xx%20-%20D8212%20-%20DOC%20-%2082-03-004%20-%20RESD%20CHZVREQ%20%28traced%29.json) (the CAD file: `19xx - D8212 - DOC - 82-03-004 - RESD CHZVREQ (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

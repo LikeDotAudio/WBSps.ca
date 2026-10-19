@@ -26,6 +26,19 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 1,485,420 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 490-03-016, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale ':1
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 318 rings, 5,456 straight (14,192 mm) / 623 curved (1,069 mm); text 394 rings, 2,527 straight (2,950 mm) / 860 curved (1,314 mm); tb 31 rings, 269 straight (412 mm) / 69 curved (86.4 mm)
+- **Centre lines:** 6,632 paths (92 closed); straight 10,303 mm, curved 318 mm; horizontal 4,231 mm, vertical 3,324 mm, diagonal 2,748 mm
+- **Circles and arcs:** 7 circles, 21 arcs; largest r 13.1 @ (156.1, 152.7), r 13.0 @ (295.8, 197.0), r 1.6 @ (1.4, 244.1), r 1.5 @ (11.7, 61.2)
+- **Closed boxes:** 18 (8 in the title block); named: Ieehy; ISSUE; AAo-03-016
+- **Words (OCR):** 52 in 45 lines: Qoo · 062 Typ · 2-56UnC~Q PlACES · 041 · '032 · FULL RAD · 265 · 1.883 · 107 · S00 · DiA · 1.638
+- **Title block:** (279, 14)–(431, 82) mm: Ieehy · NF · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN · Swtch mJNTia BeacKet · ENG GEE 8/32 · CKD · Zobus %i · M 49o · APP · SCALE ':1 · AAo-03-016 · ISSUE · 0/5
+
+Every curve, box, word and wire group: [1980 - 490-03-016 - SWITCH MOUNTING BRACKET M490 - DRN ALF - ENG GEB - ISS 6 (traced).json](1980%20-%20490-03-016%20-%20SWITCH%20MOUNTING%20BRACKET%20M490%20-%20DRN%20ALF%20-%20ENG%20GEB%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1980 - 490-03-016 - SWITCH MOUNTING BRACKET M490 - DRN ALF - ENG GEB - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

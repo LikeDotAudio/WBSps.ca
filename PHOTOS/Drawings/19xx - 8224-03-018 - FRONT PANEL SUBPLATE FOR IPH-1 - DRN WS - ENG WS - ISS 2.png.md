@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,039,933 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-018, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 256
+- **Ink extent:** 0–428 mm across, 3–298 mm up
+- **Outlines:** line 123 rings, 1,600 straight (5,460 mm) / 189 curved (297 mm); text 514 rings, 3,342 straight (4,168 mm) / 988 curved (1,480 mm); tb 3 rings, 78 straight (236 mm) / 4 curved (5.9 mm)
+- **Centre lines:** 3,132 paths (86 closed); straight 5,718 mm, curved 76.6 mm; horizontal 2,378 mm, vertical 1,373 mm, diagonal 1,966 mm
+- **Circles and arcs:** 3 circles, 6 arcs; largest r 3.3 @ (181.8, 150.8), r 3.3 @ (196.3, 170.5), r 3.2 @ (219.8, 170.1)
+- **Closed boxes:** 15 (10 in the title block); named: SCALE 1:1; 8224-03-018; ISSUE; CODE: 8224M18
+- **Words (OCR):** 60 in 43 lines: 0.078 RAD · 900 · 0.200 · 0.156 · 0.550 · 0.200 · 0.150 · 0.550 · 1.150 · 0.750 · 0.250 · 3 PLACES
+- **Title block:** (254, 19)–(424, 87) mm: ISSUE] DATE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN: · W.S · FRONT · PANEL · ENG: W.S · SUBPLA TE · CKD_ · FOR IPH-1 · APP · SCALE DISC NO: 256 · ISSUE · 1:1 CODE: 8224M18 · 8224-03-018
+
+Every curve, box, word and wire group: [19xx - 8224-03-018 - FRONT PANEL SUBPLATE FOR IPH-1 - DRN WS - ENG WS - ISS 2 (traced).json](19xx%20-%208224-03-018%20-%20FRONT%20PANEL%20SUBPLATE%20FOR%20IPH-1%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 8224-03-018 - FRONT PANEL SUBPLATE FOR IPH-1 - DRN WS - ENG WS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

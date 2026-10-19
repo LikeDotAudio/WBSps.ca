@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,101,817 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-005, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 297 rings, 3,095 straight (6,187 mm) / 595 curved (900 mm); text 245 rings, 1,425 straight (1,563 mm) / 442 curved (592 mm)
+- **Centre lines:** 3,218 paths (51 closed); straight 4,397 mm, curved 292 mm; horizontal 2,061 mm, vertical 1,025 mm, diagonal 1,311 mm
+- **Circles and arcs:** 7 circles, 55 arcs; largest r 3.7 @ (4.0, 255.3), r 3.6 @ (4.2, 143.6), r 1.2 @ (283.0, 211.3), r 1.2 @ (295.7, 81.3)
+- **Wiring (first pass):** 31 connected wire groups from 260 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-005 - DISTRIBUTION LISTS CHASS CONTROL (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20DISTRIBUTION%20LISTS%20CHASS%20CONTROL%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-005 - DISTRIBUTION LISTS CHASS CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

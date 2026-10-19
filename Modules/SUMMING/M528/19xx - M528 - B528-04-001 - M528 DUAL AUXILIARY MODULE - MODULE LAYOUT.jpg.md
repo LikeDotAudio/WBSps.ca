@@ -11,6 +11,18 @@ Wiki page: [M528](../../../PAGES/M528.md)
 - **Size:** 1,613,910 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 528-04-001, size B (assumed) 432 × 239 mm, 2000 × 1106 px traced (0.216 mm/px)
+- **Ink extent:** 6–426 mm across, 4–239 mm up
+- **Outlines:** line 311 rings, 2,535 straight (5,566 mm) / 396 curved (591 mm); text 109 rings, 740 straight (819 mm) / 179 curved (260 mm); tb 31 rings, 275 straight (1,394 mm) / 18 curved (22.6 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.4 @ (20.6, 198.7), r 2.4 @ (20.6, 110.3), r 2.0 @ (125.7, 109.7), r 2.0 @ (125.5, 161.5)
+- **Closed boxes:** 3
+- **Words (OCR):** 11 in 9 lines: WBS · L4VFRSAL · WBS WARD-BeCk SYSTEMS · M528 · DUAL · AUXILIARY MODULE · MODULE LAYout · 528-04-001 · ISS.
+- **Title block:** (266, 32)–(432, 228) mm: WBS · WBS WARD-BeCk SYSTEMS
+
+Every curve, box, word and wire group: [19xx - M528 - B528-04-001 - M528 DUAL AUXILIARY MODULE - MODULE LAYOUT (traced).json](19xx%20-%20M528%20-%20B528-04-001%20-%20M528%20DUAL%20AUXILIARY%20MODULE%20-%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M528 - B528-04-001 - M528 DUAL AUXILIARY MODULE - MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

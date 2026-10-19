@@ -12,6 +12,17 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 402,263 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 200 rings, 5,014 straight (8,905 mm) / 775 curved (912 mm); text 510 rings, 4,540 straight (6,112 mm) / 1,095 curved (1,806 mm); tb 7 rings, 225 straight (611 mm) / 26 curved (59.5 mm)
+- **Closed boxes:** 43 (2 in the title block); named: A1; c|3; D/4; E|5; F/6; HI7; K/9; L/io; Ml; R/14; U/17; X/2o
+- **Words (OCR):** 109 in 54 lines: P2 · IC A1 IC · GND · GND · LEFT OUt · c|3 LEFT OUT · (MI) · LEFT Out D/4 LEFT · OUT (M3) · RIGHT Out E|5 RGHT OUt (M2) · RIGHT OUt · F/6 RIGHT OUt (M4)
+- **Title block:** (98, 14)–(249, 84) mm: WBS WARD-BECK BYSTEMS LTD. · DRN_ · DATE MAR · CKD_ kee_ · SCALE · TOLS _
+
+Every curve, box, word and wire group: [1972 - M463 - 463-04-002 - KELE CONNECTOR REAR VIEW (traced).json](1972%20-%20M463%20-%20463-04-002%20-%20KELE%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1972 - M463 - 463-04-002 - KELE CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

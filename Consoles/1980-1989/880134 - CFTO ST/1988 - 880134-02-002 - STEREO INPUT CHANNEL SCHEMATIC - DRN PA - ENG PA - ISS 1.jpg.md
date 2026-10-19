@@ -22,6 +22,21 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 10,137,986 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 880134-02-002, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–558 mm up
+- **Outlines:** line 2,285 rings, 17,904 straight (41,934 mm) / 3,271 curved (7,170 mm); text 106 rings, 682 straight (1,403 mm) / 195 curved (518 mm); tb 31 rings, 182 straight (406 mm) / 47 curved (108 mm)
+- **Centre lines:** 23,438 paths (293 closed); straight 28,321 mm, curved 303 mm; horizontal 10,436 mm, vertical 7,348 mm, diagonal 10,538 mm
+- **Circles and arcs:** 5 circles, 43 arcs; largest r 4.1 @ (4.4, 136.9), r 3.7 @ (3.6, 28.7), r 1.6 @ (305.5, 390.0), r 1.6 @ (309.8, 167.8)
+- **Closed boxes:** 74 (4 in the title block); named: STEPLC; INPUT CHANNEL STEREO SCHEMATIC; 880134-02-002
+- **Dots (junctions):** 3
+- **Words (OCR):** 15 in 15 lines: INPUT · CHANNELS · JAC PLANE · 04jo * 5 · (CHANNEL · 62 · STEPLC · WARD-BECK  SYSTEMS · WBS · STEREO · INPUT CHANNEL · SCHEMATIC
+- **Title block:** (691, 49)–(860, 84) mm: WARD-BECK  SYSTEMS · WBS
+- **Wiring (first pass):** 306 connected wire groups from 2,559 runs, 5 dotted junctions; labelled ends: 2294 mm → 62; 1189 mm → 62; 304 mm → WBS, STEREO, 880134-02-002; 12 mm → 62; 9 mm → HObi
+
+Every curve, box, word and wire group: [1988 - 880134-02-002 - STEREO INPUT CHANNEL SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1988%20-%20880134-02-002%20-%20STEREO%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 880134-02-002 - STEREO INPUT CHANNEL SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 15 words corrected)

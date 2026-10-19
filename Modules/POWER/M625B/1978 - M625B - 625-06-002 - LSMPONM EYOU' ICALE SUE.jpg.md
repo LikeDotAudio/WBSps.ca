@@ -11,6 +11,19 @@ Wiki page: [M625B](../../../PAGES/M625B.md)
 - **Size:** 3,175,326 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 625-06-002, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 0–421 mm up
+- **Outlines:** line 18,021 rings, 100,521 straight (67,328 mm) / 26,259 curved (23,276 mm); text 40 rings, 357 straight (361 mm) / 96 curved (104 mm); tb 91 rings, 501 straight (380 mm) / 134 curved (126 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.3 @ (28.7, 156.8), r 2.0 @ (29.4, 156.2), r 1.7 @ (279.8, 53.5), r 0.7 @ (262.5, 281.9)
+- **Closed boxes:** 2 (1 in the title block)
+- **Dots (junctions):** 4
+- **Words (OCR):** 12 in 12 lines: Rs · R2 · Rs · Jz (BLACK) · (RED) · WBS · Sw2 · M6258 · ENG: · FOWERESUPAY · ICALE · 625-06-Uo
+- **Title block:** (216, 13)–(260, 50) mm: WBS · ENG:
+
+Every curve, box, word and wire group: [1978 - M625B - 625-06-002 - LSMPONM EYOU' ICALE SUE (traced).json](1978%20-%20M625B%20-%20625-06-002%20-%20LSMPONM%20EYOU%27%20ICALE%20SUE%20%28traced%29.json) (the CAD file: `1978 - M625B - 625-06-002 - LSMPONM EYOU' ICALE SUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,212,974 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 468-02-025, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 12–298 mm up
+- **Outlines:** line 402 rings, 6,186 straight (11,976 mm) / 1,070 curved (1,318 mm); text 316 rings, 2,085 straight (2,175 mm) / 669 curved (917 mm); tb 43 rings, 263 straight (391 mm) / 38 curved (42.9 mm)
+- **Centre lines:** 9,950 paths (86 closed); straight 9,542 mm, curved 183 mm; horizontal 3,800 mm, vertical 2,504 mm, diagonal 3,238 mm
+- **Circles and arcs:** 12 circles, 41 arcs; largest r 1.3 @ (234.2, 207.7), r 1.3 @ (43.1, 270.7), r 1.1 @ (222.4, 245.4), r 1.1 @ (196.9, 248.1)
+- **Closed boxes:** 34 (30 in the title block); named: WBS WARD-BECK sysTeMS LTD
+- **Dots (junctions):** 1
+- **Words (OCR):** 63 in 52 lines: INPUT · Sw/1 · Sw3 · SW7 RI9 · 30k · 3ok · RB · ISk · R2i · ISk · RV · OUT
+- **Title block:** (141, 17)–(413, 68) mm: ISS MOD [CKD_ · USED ON · MATL. · WBS WARD-BECK sysTeMS LTD · DRN PA · DATE SePr 76 · M468M · FINISH · Assign MoDuLE · SCHEMATIC · CKD. · SCALE · TOLS _ · 468-02 -025 · ISS
+- **Wiring (first pass):** 51 connected wire groups from 326 runs, 3 dotted junctions; labelled ends: 302 mm → Sw8, inpuT, SwA, SwZ; 300 mm → INPUT, RB, 30k; 168 mm → INPUT, Sw/1, Sw3; 163 mm → Rio, 3ok, RIl; 138 mm → SW7, Sw3
+
+Every curve, box, word and wire group: [19xx - M468M - DOC - 468-02-025 - ASSIGN MODULE SCHEMATIC (traced).json](19xx%20-%20M468M%20-%20DOC%20-%20468-02-025%20-%20ASSIGN%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M468M - DOC - 468-02-025 - ASSIGN MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

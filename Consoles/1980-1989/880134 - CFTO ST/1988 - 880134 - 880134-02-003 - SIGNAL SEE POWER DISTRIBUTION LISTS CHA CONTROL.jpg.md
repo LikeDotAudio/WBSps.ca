@@ -11,6 +11,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,056,635 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 334 rings, 3,612 straight (7,016 mm) / 652 curved (878 mm); text 262 rings, 1,735 straight (1,946 mm) / 514 curved (698 mm)
+- **Centre lines:** 4,203 paths (58 closed); straight 5,203 mm, curved 243 mm; horizontal 1,967 mm, vertical 1,519 mm, diagonal 1,717 mm
+- **Circles and arcs:** 9 circles, 45 arcs; largest r 3.8 @ (4.8, 142.6), r 1.3 @ (253.7, 91.2), r 1.2 @ (225.9, 404.9), r 1.2 @ (190.0, 86.0)
+- **Closed boxes:** 10
+- **Wiring (first pass):** 49 connected wire groups from 311 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHA CONTROL (traced).json](1988%20-%20880134%20-%20880134-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHA%20CONTROL%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHA CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

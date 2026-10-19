@@ -11,6 +11,19 @@ Wiki page: [M475A](../../../PAGES/M475A.md)
 - **Size:** 626,885 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-140-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–330 mm across, 12–346 mm up
+- **Outlines:** line 245 rings, 2,636 straight (4,502 mm) / 784 curved (811 mm); text 607 rings, 4,370 straight (4,304 mm) / 1,570 curved (1,778 mm); tb 109 rings, 1,251 straight (1,753 mm) / 292 curved (318 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.1 @ (117.5, 339.3), r 2.1 @ (118.0, 169.6), r 2.0 @ (225.8, 339.2)
+- **Closed boxes:** 3; named: 10/25 10/25 10/25 84 #zl 8e % 4016 401 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 71 in 60 lines: 10/25 · 10/25 · 10/25 · #zl · 84 · 8e % · 4016 · 401 · 4015 43 · 11I4 · 22 · 2282
+- **Title block:** (162, 52)–(336, 284) mm: 68/10 · 68410 · ISK · C14 · 46)4PZ · R26 · Rzi B2K WBS · R27 · 82k · CANADA & 1/400 554 · 14-140 · R2z !OK · Rze !OK · 7/35 · C1O) 4PZ · JK · 4P7 · 015) 22p · R2s · R29 · ISSUE · 594 5554 · 22p · 22P 
+
+Every curve, box, word and wire group: [1986 - M475A - 14-140-06-001 - DUAL BOOSTER AMPLIFIER COMPONENT LAYOUT (traced).json](1986%20-%20M475A%20-%2014-140-06-001%20-%20DUAL%20BOOSTER%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1986 - M475A - 14-140-06-001 - DUAL BOOSTER AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,501,141 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940444-03-006, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px); scale 41)
+- **Ink extent:** 21–422 mm across, 6–261 mm up
+- **Outlines:** line 1,042 rings, 6,615 straight (16,407 mm) / 1,450 curved (2,315 mm); text 391 rings, 2,341 straight (2,279 mm) / 709 curved (885 mm); tb 113 rings, 753 straight (625 mm) / 195 curved (224 mm)
+- **Centre lines:** 14,111 paths (332 closed); straight 12,191 mm, curved 623 mm; horizontal 3,149 mm, vertical 4,558 mm, diagonal 4,484 mm
+- **Circles and arcs:** 33 circles, 27 arcs; largest r 64.3 @ (356.4, 186.9), r 3.2 @ (131.5, 185.5), r 3.2 @ (124.3, 209.0), r 1.9 @ (68.3, 37.1)
+- **Closed boxes:** 43 (4 in the title block); named: GON; M9O1BY /CY CUSTOM INPUT MODULES; 940444-03-006; I:1; Conz;
+- **Dots (junctions):** 4
+- **Words (OCR):** 47 in 37 lines: 3 3 · UNC-C'5 · Dan · PVNCI 0190 · CokPEREL · 2452 · 1052 · GRIENTATION · 0,07) · DETAIL · (SCALE 41) · 40 LCNG
+- **Title block:** (341, 22)–(427, 134) mm: DETAIL · (SCALE 41) · MATERIAL: ALUM ALLOY 0.125 ThiCK · FINISH: SAND 120 · TEXTURED BEIGE (452C) · CRIT AND PAINT · TEXCOTE VINYL_ · (EXTRA FINE TEXTURE) · SHART · -086-2 FCR · WBS · WARD-BECK SYSTEM
+
+Every curve, box, word and wire group: [1994 - DOC - 940444-03-006 - LOVG FULL RAD SLOT SEE NOTE DOR ENTATIONS (traced).json](1994%20-%20DOC%20-%20940444-03-006%20-%20LOVG%20FULL%20RAD%20SLOT%20SEE%20NOTE%20DOR%20ENTATIONS%20%28traced%29.json) (the CAD file: `1994 - DOC - 940444-03-006 - LOVG FULL RAD SLOT SEE NOTE DOR ENTATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

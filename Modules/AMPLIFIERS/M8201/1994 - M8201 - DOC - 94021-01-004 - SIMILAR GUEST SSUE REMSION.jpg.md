@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,081,829 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 94021-01-004, size B (assumed) 432 × 275 mm, 2000 × 1273 px traced (0.216 mm/px)
+- **Ink extent:** 45–428 mm across, 6–244 mm up
+- **Outlines:** line 744 rings, 6,748 straight (12,958 mm) / 1,155 curved (1,324 mm); text 323 rings, 2,093 straight (1,927 mm) / 615 curved (758 mm)
+- **Centre lines:** 10,019 paths (165 closed); straight 8,972 mm, curved 21.3 mm; horizontal 3,659 mm, vertical 2,319 mm, diagonal 2,994 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 0.8 @ (101.6, 90.5), r 0.8 @ (104.4, 186.9)
+- **Closed boxes:** 12; named: JALBAC
+- **Words (OCR):** 40 in 35 lines: JALBAC · NJJEPSC · ADCRESS · JALAAC · OR-7-32 · LETEL · Aur ^ · ANNOUNCER_TURRET · VIC OY/CF · HEADPHONF · ouiuTS · XLA}-JZ
+- **Wiring (first pass):** 100 connected wire groups from 576 runs; labelled ends: 409 mm → WARD-BECK SYSTEMS, WB3S, IERM, ZT; 215 mm → Aur ^; 120 mm → NJJEPSC, ANNOUNCER_TURRET; 114 mm → NJJEPAC; 74 mm → VIC OY/CF
+
+Every curve, box, word and wire group: [1994 - M8201 - DOC - 94021-01-004 - SIMILAR GUEST SSUE REMSION (traced).json](1994%20-%20M8201%20-%20DOC%20-%2094021-01-004%20-%20SIMILAR%20GUEST%20SSUE%20REMSION%20%28traced%29.json) (the CAD file: `1994 - M8201 - DOC - 94021-01-004 - SIMILAR GUEST SSUE REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

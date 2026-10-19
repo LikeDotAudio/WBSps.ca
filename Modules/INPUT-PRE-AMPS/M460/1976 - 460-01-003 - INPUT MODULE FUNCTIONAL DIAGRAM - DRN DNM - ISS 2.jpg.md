@@ -27,6 +27,20 @@ Wiki page: [M460](../../../PAGES/M460.md)
 
 - **1976** (labelled): `DATE DEC 76` — …[CKD 83540 USED ON MATL. WBS WARD-BECK BYSTEMS LTD DRN DNM DATE DEC 76 CKD Ru SCALE M460 B INPUT MODULE FUNCTIONAL DIAGRAM FINISH…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 460-01-003, size B 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–260 mm up
+- **Outlines:** line 270 rings, 5,067 straight (11,715 mm) / 634 curved (887 mm); text 501 rings, 3,886 straight (4,160 mm) / 1,170 curved (1,781 mm); tb 41 rings, 339 straight (623 mm) / 59 curved (82.7 mm)
+- **Centre lines:** 7,253 paths (106 closed); straight 9,499 mm, curved 162 mm; horizontal 3,838 mm, vertical 2,389 mm, diagonal 3,272 mm
+- **Circles and arcs:** 11 circles, 13 arcs; largest r 3.1 @ (230.1, 187.4), r 1.6 @ (67.6, 164.8), r 1.5 @ (68.1, 209.4), r 1.4 @ (80.9, 212.8)
+- **Closed boxes:** 37 (29 in the title block); named: -126
+- **Words (OCR):** 93 in 84 lines: SENSITIvITY · DIRECT OUTPUt · E Q · 10 dBm · LINE · 30 dB · INSERT · PAN · LINE IN · INSERT · ~20/+10dBm · INSERT JACKS PHASE ON
+- **Title block:** (140, 4)–(383, 57) mm: ISS MOD [CKD] · USED ON · WBS WARD-BECK BySTEMS LTD- · 3540 · DRN DNM · M46O B · FFINISH · DATE DEC 76 · INPUT · CKD_ · FUNCTIONAL DIAGRAM · SCALE · 460 = 01-003 · TOLs
+- **Wiring (first pass):** 173 connected wire groups from 370 runs; labelled ends: 121 mm → EONTROL; 105 mm → PRE / Post; 79 mm → INSERT JACKS PHASE, ON; 66 mm → REVERB, FB1, FB2, FB3; 66 mm → SOLO
+
+Every curve, box, word and wire group: [1976 - 460-01-003 - INPUT MODULE FUNCTIONAL DIAGRAM - DRN DNM - ISS 2 (traced).json](1976%20-%20460-01-003%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20DNM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 460-01-003 - INPUT MODULE FUNCTIONAL DIAGRAM - DRN DNM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

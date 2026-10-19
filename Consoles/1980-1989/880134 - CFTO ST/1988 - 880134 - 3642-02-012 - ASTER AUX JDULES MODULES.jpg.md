@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,574,461 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-012, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–287 mm across, 11–432 mm up
+- **Outlines:** line 960 rings, 9,683 straight (22,134 mm) / 2,018 curved (2,685 mm); text 335 rings, 2,383 straight (2,869 mm) / 735 curved (1,055 mm)
+- **Centre lines:** 8,240 paths (148 closed); straight 14,061 mm, curved 440 mm; horizontal 4,063 mm, vertical 6,736 mm, diagonal 3,262 mm
+- **Circles and arcs:** 18 circles, 102 arcs; largest r 1.5 @ (215.3, 19.6), r 1.4 @ (42.1, 138.6), r 1.3 @ (54.1, 138.6), r 1.2 @ (166.9, 25.1)
+- **Closed boxes:** 85
+- **Wiring (first pass):** 25 connected wire groups from 768 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-012 - ASTER AUX JDULES MODULES (traced).json](1988%20-%20880134%20-%203642-02-012%20-%20ASTER%20AUX%20JDULES%20MODULES%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-012 - ASTER AUX JDULES MODULES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

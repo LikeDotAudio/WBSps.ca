@@ -11,6 +11,16 @@ Wiki page: [M5200](../../../PAGES/M5200.md)
 - **Size:** 7,625,663 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 5200-04-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–428 mm across, 5–287 mm up
+- **Outlines:** line 794 rings, 5,902 straight (14,242 mm) / 1,122 curved (1,550 mm); text 117 rings, 781 straight (676 mm) / 246 curved (288 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 3.4 @ (207.4, 13.8), r 3.3 @ (164.3, 13.4), r 3.3 @ (216.6, 14.0), r 3.3 @ (181.6, 13.5)
+- **Closed boxes:** 20
+
+Every curve, box, word and wire group: [1985 - M5200 - B 5200-04-001 - M5200 - CONTROLLER MODULE - MODULE LAYOUT (traced).json](1985%20-%20M5200%20-%20B%205200-04-001%20-%20M5200%20-%20CONTROLLER%20MODULE%20-%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M5200 - B 5200-04-001 - M5200 - CONTROLLER MODULE - MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

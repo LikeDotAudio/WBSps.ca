@@ -11,6 +11,18 @@ Wiki page: [M5200](../../../PAGES/M5200.md)
 - **Size:** 8,296,203 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-095-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–428 mm across, 1–275 mm up
+- **Outlines:** line 3,469 rings, 27,196 straight (49,211 mm) / 3,556 curved (4,157 mm); text 79 rings, 529 straight (537 mm) / 134 curved (189 mm)
+- **Centre lines:** 49,045 paths (301 closed); straight 34,073 mm, curved 41.8 mm; horizontal 12,002 mm, vertical 13,965 mm, diagonal 8,106 mm
+- **Circles and arcs:** 0 circles, 12 arcs
+- **Closed boxes:** 178
+- **Wiring (first pass):** 240 connected wire groups from 4,962 runs
+
+Every curve, box, word and wire group: [1985 - M5200 - 14-095-02-001 - INTERFACE ASSEMBLY SCHEMATIC (traced).json](1985%20-%20M5200%20-%2014-095-02-001%20-%20INTERFACE%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200 - 14-095-02-001 - INTERFACE ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

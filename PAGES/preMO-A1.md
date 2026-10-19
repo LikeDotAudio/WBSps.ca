@@ -30,29 +30,3 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|---|
 | ? | [19xx - preMO-A1 - Information Sheet.jpg](../Products/RAVENNA%20AES67/preMO-A1/19xx%20-%20preMO-A1%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/preMO-A1/19xx%20-%20preMO-A1%20-%20Information%20Sheet.jpg.md) |
 | ? | [19xx - preMO-A1 - Issue 1 Three Quarter View.jpg](../Products/RAVENNA%20AES67/preMO-A1/19xx%20-%20preMO-A1%20-%20Issue%201%20Three%20Quarter%20View.jpg) | [note](../Products/RAVENNA%20AES67/preMO-A1/19xx%20-%20preMO-A1%20-%20Issue%201%20Three%20Quarter%20View.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "preMO-A1",
- "category": "RAVENNA AES67",
- "year": 2017,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/preMO-A1/19xx - preMO-A1 - Information Sheet.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/RAVENNA AES67/preMO-A1/19xx - preMO-A1 - Issue 1 Three Quarter View.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

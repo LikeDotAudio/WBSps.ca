@@ -11,6 +11,20 @@ Wiki page: [M538](../../../PAGES/M538.md)
 - **Size:** 5,963,769 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 538-02-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–287 mm across, 2–427 mm up
+- **Outlines:** line 616 rings, 5,195 straight (8,323 mm) / 907 curved (1,096 mm); text 100 rings, 648 straight (609 mm) / 216 curved (277 mm)
+- **Centre lines:** 5,093 paths (86 closed); straight 5,332 mm, curved 45.7 mm; horizontal 1,382 mm, vertical 2,276 mm, diagonal 1,674 mm
+- **Circles and arcs:** 1 circles, 15 arcs; largest r 1.4 @ (12.3, 63.0)
+- **Closed boxes:** 43
+- **Dots (junctions):** 1
+- **Words (OCR):** 3 in 3 lines: 25 & · WW · Ul
+- **Wiring (first pass):** 106 connected wire groups from 579 runs; labelled ends: 16 mm → Ul; 16 mm → Ul; 8 mm → Ul
+
+Every curve, box, word and wire group: [1985 - M538 - B 538-02-004 - 8X1 STEREO SWITCHER MODULE - SCHEMATIC (traced).json](1985%20-%20M538%20-%20B%20538-02-004%20-%208X1%20STEREO%20SWITCHER%20MODULE%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M538 - B 538-02-004 - 8X1 STEREO SWITCHER MODULE - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

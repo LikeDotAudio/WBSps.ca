@@ -26,6 +26,18 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **Size:** 4,376,122 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 452-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 5–426 mm across, 1–287 mm up
+- **Outlines:** line 414 rings, 4,277 straight (10,206 mm) / 751 curved (1,062 mm); text 236 rings, 1,368 straight (1,600 mm) / 473 curved (692 mm)
+- **Centre lines:** 3,813 paths (92 closed); straight 5,882 mm, curved 232 mm; horizontal 2,602 mm, vertical 1,349 mm, diagonal 1,930 mm
+- **Circles and arcs:** 17 circles, 40 arcs; largest r 2.1 @ (386.0, 31.4), r 1.8 @ (385.8, 31.6), r 1.7 @ (298.7, 42.8), r 1.7 @ (388.4, 24.3)
+- **Closed boxes:** 22
+- **Wiring (first pass):** 65 connected wire groups from 363 runs
+
+Every curve, box, word and wire group: [1977 - 452-01-001 - OSCILLATOR MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).json](1977%20-%20452-01-001%20-%20OSCILLATOR%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1977 - 452-01-001 - OSCILLATOR MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

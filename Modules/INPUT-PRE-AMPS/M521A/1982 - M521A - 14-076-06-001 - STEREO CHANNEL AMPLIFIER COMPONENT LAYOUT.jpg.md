@@ -11,6 +11,17 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 7,381,123 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-076-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–287 mm up
+- **Outlines:** line 1,174 rings, 7,323 straight (8,052 mm) / 2,212 curved (2,227 mm); text 204 rings, 1,287 straight (1,257 mm) / 393 curved (450 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.1 @ (252.2, 186.3), r 1.6 @ (256.3, 122.8), r 1.4 @ (361.0, 196.1), r 1.4 @ (256.2, 196.2)
+- **Closed boxes:** 13
+- **Dots (junctions):** 2
+
+Every curve, box, word and wire group: [1982 - M521A - 14-076-06-001 - STEREO CHANNEL AMPLIFIER COMPONENT LAYOUT (traced).json](1982%20-%20M521A%20-%2014-076-06-001%20-%20STEREO%20CHANNEL%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M521A - 14-076-06-001 - STEREO CHANNEL AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

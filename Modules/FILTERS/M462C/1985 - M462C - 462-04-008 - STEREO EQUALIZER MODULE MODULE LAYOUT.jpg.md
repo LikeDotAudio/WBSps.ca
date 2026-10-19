@@ -11,6 +11,18 @@ Wiki page: [M462C](../../../PAGES/M462C.md)
 - **Size:** 2,036,100 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 462-04-008, size B (assumed) 329 × 432 mm, 1522 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 2–432 mm up
+- **Outlines:** line 91 rings, 1,457 straight (3,281 mm) / 252 curved (464 mm); text 141 rings, 1,225 straight (1,473 mm) / 331 curved (534 mm); tb 218 rings, 1,484 straight (2,200 mm) / 434 curved (776 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.0 @ (65.6, 239.5), r 5.0 @ (65.3, 146.4), r 5.0 @ (65.6, 265.5), r 5.0 @ (65.5, 213.7)
+- **Closed boxes:** 2; named: WBS M46ZC KHz 26 KHz MF 140 200 400 Hz; WBS M46ZC KHz 26 KHz MF 140 200 400 Hz
+- **Words (OCR):** 21 in 19 lines: WBS · M46ZC · KHz · 26 · KHz · MF · 140 · 200 · 400 · Hz · 10_ · WBS WARD-BECK SYSTEMS
+- **Title block:** (142, 43)–(329, 322) mm: WBS · M46ZC · KHz · 26 · KHz · MF · 140 · 200 · 400 · Hz · 10_ · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M462C - 462-04-008 - STEREO EQUALIZER MODULE MODULE LAYOUT (traced).json](1985%20-%20M462C%20-%20462-04-008%20-%20STEREO%20EQUALIZER%20MODULE%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M462C - 462-04-008 - STEREO EQUALIZER MODULE MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

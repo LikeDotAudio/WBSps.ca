@@ -23,6 +23,21 @@ Wiki page: [M469](../../../PAGES/M469.md)
 - **Size:** 1,449,985 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 469-02-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 227 rings, 4,808 straight (10,468 mm) / 638 curved (895 mm); text 292 rings, 2,271 straight (2,624 mm) / 663 curved (929 mm); tb 51 rings, 398 straight (449 mm) / 72 curved (73.4 mm)
+- **Centre lines:** 6,420 paths (69 closed); straight 8,046 mm, curved 272 mm; horizontal 3,213 mm, vertical 2,245 mm, diagonal 2,588 mm
+- **Circles and arcs:** 19 circles, 37 arcs; largest r 1.3 @ (68.9, 202.2), r 1.3 @ (257.6, 233.5), r 1.3 @ (257.7, 217.0), r 1.2 @ (68.8, 220.5)
+- **Closed boxes:** 10 (4 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 52 in 48 lines: REMOTE · NpuT · Sw 1 · (LE Ft) · Sw8 · I5k · I5k · Mi OUT · INSERT · DIRECT · FADER · MODULE
+- **Title block:** (279, 8)–(431, 77) mm: IISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN · M469D · ENG_ · ELI · ASSIGNMENT · MODULE · CKD: · SCHEMATIC · APP · SCALE · ISSUE · 469 - 02 -004
+- **Wiring (first pass):** 40 connected wire groups from 219 runs, 5 dotted junctions; labelled ends: 168 mm → Sok, swt; 144 mm → Sw 1; 48 mm → 15 K; 31 mm → Mi, OUT; 22 mm → M2
+
+Every curve, box, word and wire group: [19xx - 469-02-004 - M469D ASSIGNMENT MODULE SCHEMATIC - DRN EH - ENG ELJ - ISS 1 (traced).json](19xx%20-%20469-02-004%20-%20M469D%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20EH%20-%20ENG%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 469-02-004 - M469D ASSIGNMENT MODULE SCHEMATIC - DRN EH - ENG ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

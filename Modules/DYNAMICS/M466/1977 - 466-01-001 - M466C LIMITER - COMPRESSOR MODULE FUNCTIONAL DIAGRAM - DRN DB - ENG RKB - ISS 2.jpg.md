@@ -24,6 +24,20 @@ Wiki page: [M466](../../../PAGES/M466.md)
 - **Size:** 228,243 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 466-01-001, size B 432 × 277 mm, 2000 × 1281 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–277 mm up
+- **Outlines:** line 251 rings, 3,957 straight (9,466 mm) / 487 curved (774 mm); text 234 rings, 2,842 straight (2,978 mm) / 739 curved (1,077 mm); tb 19 rings, 214 straight (333 mm) / 40 curved (59.2 mm)
+- **Centre lines:** 5,559 paths (36 closed); straight 7,621 mm, curved 186 mm; horizontal 3,271 mm, vertical 1,906 mm, diagonal 2,444 mm
+- **Circles and arcs:** 17 circles, 10 arcs; largest r 3.4 @ (277.1, 179.0), r 3.2 @ (263.9, 178.6), r 1.4 @ (240.6, 158.2), r 1.4 @ (230.4, 161.7)
+- **Closed boxes:** 11 (7 in the title block); named: GR ELEMENT; Limit CONTROL; FILTER
+- **Words (OCR):** 64 in 58 lines: MAKE- UP · INSERT · GAIN · COMPRESSOR · INPUT · BST · GR · OUTPut · -10/+8 dBm · ELEMENT · 4-109 · -10/+8 dBm
+- **Title block:** (284, 1)–(432, 76) mm: 10/77 · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: DB · M466 / M466C · ENG RKB · LIMITER COMPRESSOR MODULE · CKD: · FUNCTIONAL DIAGRAM · APP · SCALE · Ho-h · ISSUE · 466 01 
+- **Wiring (first pass):** 102 connected wire groups from 284 runs; labelled ends: 238 mm → INSERT; 217 mm → ELEMENT, GAIN, SENSITIvITY, IOFF; 166 mm → O1P, RELEASE, SLOPE, COMP; 132 mm → SENSITIVITY, BUF, THRESHOLD; 101 mm → Vu, BUF
+
+Every curve, box, word and wire group: [1977 - 466-01-001 - M466C LIMITER - COMPRESSOR MODULE FUNCTIONAL DIAGRAM - DRN DB - ENG RKB - ISS 2 (traced).json](1977%20-%20466-01-001%20-%20M466C%20LIMITER%20-%20COMPRESSOR%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20DB%20-%20ENG%20RKB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1977 - 466-01-001 - M466C LIMITER - COMPRESSOR MODULE FUNCTIONAL DIAGRAM - DRN DB - ENG RKB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

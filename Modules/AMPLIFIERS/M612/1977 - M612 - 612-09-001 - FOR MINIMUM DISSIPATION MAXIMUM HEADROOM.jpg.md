@@ -11,6 +11,20 @@ Wiki page: [M612](../../../PAGES/M612.md)
 - **Size:** 405,392 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring 612-09-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 148 rings, 4,153 straight (12,285 mm) / 524 curved (878 mm); text 550 rings, 4,370 straight (5,759 mm) / 1,262 curved (2,153 mm); tb 6 rings, 147 straight (379 mm) / 16 curved (35.8 mm)
+- **Centre lines:** 4,049 paths (107 closed); straight 10,495 mm, curved 230 mm; horizontal 4,784 mm, vertical 2,242 mm, diagonal 3,470 mm
+- **Circles and arcs:** 0 circles, 27 arcs
+- **Closed boxes:** 21 (7 in the title block); named: SCALE; LB; 612-09-001
+- **Words (OCR):** 71 in 60 lines: Pl-@ · Goon · NOTES: · Pi-14 · THIS POINT BONDED To M · FRAME _ · P1-5 · Pl-3 · 600n · DENOTES ELECTRICAL GE · P1-4 · For Minimum
+- **Title block:** (164, 8)–(330, 119) mm: 78 · REDRAWN · ISSUE |DATE · REVISION · WBS WARD-BECK SyS · DRNP MAHoNey · M612 · ENG · DISTRIBUTION AMPLII · CKD: Rell · DIAGRAM · APP · WIRING · SCALE · LB · 612-09-001
+- **Wiring (first pass):** 50 connected wire groups from 204 runs; labelled ends: 308 mm → OUTPUTS, ((NOTE 3), 12; 233 mm → 600n, 6002; 232 mm → Goon; 200 mm → 6002; 200 mm → 6002
+
+Every curve, box, word and wire group: [1977 - M612 - 612-09-001 - FOR MINIMUM DISSIPATION MAXIMUM HEADROOM (traced).json](1977%20-%20M612%20-%20612-09-001%20-%20FOR%20MINIMUM%20DISSIPATION%20MAXIMUM%20HEADROOM%20%28traced%29.json) (the CAD file: `1977 - M612 - 612-09-001 - FOR MINIMUM DISSIPATION MAXIMUM HEADROOM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -15,6 +15,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 747,461 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 77012-01-004, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 8–421 mm up
+- **Outlines:** line 1,014 rings, 8,123 straight (12,433 mm) / 1,869 curved (2,582 mm); text 759 rings, 3,973 straight (3,707 mm) / 1,642 curved (2,194 mm); tb 32 rings, 262 straight (316 mm) / 69 curved (88.5 mm)
+- **Centre lines:** 8,447 paths (249 closed); straight 9,435 mm, curved 329 mm; horizontal 3,601 mm, vertical 2,428 mm, diagonal 3,405 mm
+- **Circles and arcs:** 14 circles, 87 arcs; largest r 2.9 @ (226.4, 292.5), r 1.1 @ (30.8, 159.1), r 1.1 @ (202.2, 146.4), r 1.1 @ (40.5, 311.6)
+- **Closed boxes:** 19 (12 in the title block)
+- **Words (OCR):** 118 in 94 lines: MASILR · (SE E NoTe · FADER · Jbut · 48tn · (-I5 48 ) · Udbm · Hon · summing · buS · inser · 15 40
+- **Title block:** (227, 6)–(335, 64) mm: Revision · WBS WARD-BECK BYBTEMB · WBS L2042 · CONSOLE · (STEREO VERSION B · CKD: · FUNCTIONAL · APP · SCALE · 77012-01-004 · ISSUE
+- **Wiring (first pass):** 115 connected wire groups from 662 runs; labelled ends: 120 mm → 'ubm CIS, Mon; 114 mm → Mon, 5010; 90 mm → {IBLQ MQNIQR MQQuLE; 88 mm → Udbm, comt; 87 mm → 0 CONT
+
+Every curve, box, word and wire group: [1977 - DOC - 77012-01-004 - MUT DIR MILIA MOM OUT (traced).json](1977%20-%20DOC%20-%2077012-01-004%20-%20MUT%20DIR%20MILIA%20MOM%20OUT%20%28traced%29.json) (the CAD file: `1977 - DOC - 77012-01-004 - MUT DIR MILIA MOM OUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

@@ -11,6 +11,16 @@ Wiki page: [M490F](../../../PAGES/M490F.md)
 - **Size:** 262,083 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 7-112-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–338 mm across, 6–426 mm up
+- **Outlines:** line 490 rings, 4,630 straight (7,314 mm) / 1,392 curved (1,506 mm); text 908 rings, 7,711 straight (7,673 mm) / 2,371 curved (2,759 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 7.1 @ (219.5, 179.9), r 3.6 @ (64.0, 125.2), r 3.6 @ (218.1, 126.1), r 3.5 @ (216.8, 286.4)
+- **Words (OCR):** 137 in 111 lines: E7 E8 · Eio E9 Eii E14 E6 E5 · 0 0 @ 0 0 0 7-112 · CANADA · WBS · 0 e3 · Rti 2k2 41 Joop De4 0ei3 · E12 · Rto 2k2 · 69a20 · 47 · Rib
+
+Every curve, box, word and wire group: [1978 - M490F - 7-112-06-001 - COMPONENT SIDE NOTE COMPONENTS (traced).json](1978%20-%20M490F%20-%207-112-06-001%20-%20COMPONENT%20SIDE%20NOTE%20COMPONENTS%20%28traced%29.json) (the CAD file: `1978 - M490F - 7-112-06-001 - COMPONENT SIDE NOTE COMPONENTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

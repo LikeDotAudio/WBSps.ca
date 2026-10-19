@@ -25,6 +25,20 @@ Photo of an M467 noisegate and meter module schematic, title block at bottom rig
 - **Size:** 3,141,072 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 467-02-001, size B 324 × 432 mm, 1500 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–324 mm across, 37–432 mm up
+- **Outlines:** line 921 rings, 8,443 straight (12,515 mm) / 1,275 curved (1,725 mm); text 608 rings, 3,347 straight (3,172 mm) / 957 curved (1,271 mm); tb 13 rings, 62 straight (40.1 mm) / 9 curved (7.3 mm)
+- **Centre lines:** 18,301 paths (206 closed); straight 12,302 mm, curved 229 mm; horizontal 3,193 mm, vertical 3,166 mm, diagonal 5,942 mm
+- **Circles and arcs:** 10 circles, 39 arcs; largest r 2.4 @ (101.5, 100.5), r 2.3 @ (84.3, 287.0), r 1.1 @ (64.1, 110.0), r 0.9 @ (81.8, 110.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 134 in 121 lines: ALIACK R30 · 228 · ISM · R31 · 0 pi · 04440 · 220r · Re2 Qelease · 25v+ · 03 · 7KS · RGo
+- **Title block:** (119, 18)–(280, 67) mm: 28 · Nov [z2PM · USED ON · MATL_ · DSS IMOD: CKD · WBS WARD-BeCK bybteMB LTD · 312 · GEB · 14 · DRN · M467 · 3578 · FINISH · DATE OCT / 77 NOISEGATE & METER  MODULE · ML_ · CKD ROJ · ML · SCALE · SCHE
+- **Wiring (first pass):** 96 connected wire groups from 561 runs; labelled ends: 90 mm → NG INSERT; 68 mm → Pn3569, 0 pi, IN 40o3, Sk; 49 mm → Cr3, IN4003, mne, 470K; 48 mm → SE L; 44 mm → NG INSERT, Rs, 4M7
+
+Every curve, box, word and wire group: [1977 - 467-02-001 - NOISEGATE & METER MODULE SCHEMATIC - DRN AF - ISS 7 (traced).json](1977%20-%20467-02-001%20-%20NOISEGATE%20%26%20METER%20MODULE%20SCHEMATIC%20-%20DRN%20AF%20-%20ISS%207%20%28traced%29.json) (the CAD file: `1977 - 467-02-001 - NOISEGATE & METER MODULE SCHEMATIC - DRN AF - ISS 7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

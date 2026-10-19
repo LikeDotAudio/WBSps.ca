@@ -11,6 +11,16 @@ Wiki page: [M124](../../../PAGES/M124.md)
 - **Size:** 7,878,560 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 124-06-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–285 mm up
+- **Outlines:** line 974 rings, 11,724 straight (13,983 mm) / 3,421 curved (3,328 mm); text 146 rings, 1,143 straight (1,035 mm) / 412 curved (444 mm)
+- **Circles and arcs:** 20 circles, 0 arcs; largest r 9.9 @ (356.7, 190.9), r 9.8 @ (312.2, 191.5), r 9.8 @ (287.7, 191.2), r 9.5 @ (382.2, 191.8)
+- **Closed boxes:** 41
+
+Every curve, box, word and wire group: [1968 - M124 - 124-06-001 - ICOMPONENT LAYOUT AMPLIFIER (traced).json](1968%20-%20M124%20-%20124-06-001%20-%20ICOMPONENT%20LAYOUT%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1968 - M124 - 124-06-001 - ICOMPONENT LAYOUT AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

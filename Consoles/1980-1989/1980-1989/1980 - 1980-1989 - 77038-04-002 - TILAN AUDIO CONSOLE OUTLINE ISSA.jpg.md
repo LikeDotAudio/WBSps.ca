@@ -9,6 +9,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 236,249 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77038-04-002, size B (assumed) 432 × 308 mm, 2000 × 1429 px traced (0.216 mm/px)
+- **Ink extent:** 63–431 mm across, 0–299 mm up
+- **Outlines:** line 557 rings, 5,219 straight (14,344 mm) / 460 curved (667 mm); text 44 rings, 490 straight (493 mm) / 131 curved (190 mm); tb 11 rings, 153 straight (190 mm) / 24 curved (30.0 mm)
+- **Closed boxes:** 62 (5 in the title block); named: 77038-04-002
+- **Dots (junctions):** 1
+- **Words (OCR):** 9 in 8 lines: DATE · Rtvison · WBS WARD-Beck sybtemB · WBS L3242 · CONSOLE · CKD · AUDIO CONsOLE OUTLINE · 77038-04-002
+- **Title block:** (348, 5)–(432, 41) mm: DATE · Rtvison · WBS WARD-Beck sybtemB · WBS L3242 · CONSOLE · CKD · AUDIO CONsOLE OUTLINE
+
+Every curve, box, word and wire group: [1980 - 1980-1989 - 77038-04-002 - TILAN AUDIO CONSOLE OUTLINE ISSA (traced).json](1980%20-%201980-1989%20-%2077038-04-002%20-%20TILAN%20AUDIO%20CONSOLE%20OUTLINE%20ISSA%20%28traced%29.json) (the CAD file: `1980 - 1980-1989 - 77038-04-002 - TILAN AUDIO CONSOLE OUTLINE ISSA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,18 @@ Wiki page: [Job-94021](../../../PAGES/Job-94021.md)
 - **Size:** 400,699 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 94021-04-003, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px)
+- **Ink extent:** 84–846 mm across, 13–519 mm up
+- **Outlines:** line 383 rings, 3,064 straight (22,149 mm) / 623 curved (1,847 mm); text 161 rings, 1,003 straight (2,151 mm) / 299 curved (771 mm); tb 24 rings, 164 straight (388 mm) / 35 curved (78.5 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 8.4 @ (278.0, 233.4), r 8.4 @ (448.7, 233.0), r 8.3 @ (282.9, 331.2), r 8.3 @ (283.3, 383.6)
+- **Closed boxes:** 39 (4 in the title block); named: REAOPHOKE; REAOPHOKE; GLEN GOULD STUDIO TURRET LAYOUT; DiSC ND436; 94021-04-003
+- **Words (OCR):** 20 in 18 lines: TOP MEWI · TURRET) · REAOPHOKE · FRONT · CONTRO · HEADDHCNC · HURRET (10.70 · WBS · WARD-BECK SYSTEMS · GLEN GOULD STUDIO · REAR_MEL · TYPICAL SIDE
+- **Title block:** (687, 44)–(857, 78) mm: WBS · WARD-BECK SYSTEMS · GLEN GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - 94021-04-003 - GLEN GOULD STUDIO TURRET LAYOUT - DRN DRG - ISS 1 (traced).json](1994%20-%2094021-04-003%20-%20GLEN%20GOULD%20STUDIO%20TURRET%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94021-04-003 - GLEN GOULD STUDIO TURRET LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

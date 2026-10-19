@@ -11,6 +11,19 @@ Wiki page: [M648](../../../PAGES/M648.md)
 - **Size:** 228,808 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-058-06-001, size B (assumed) 432 × 261 mm, 2000 × 1208 px traced (0.216 mm/px)
+- **Ink extent:** 2–422 mm across, 6–255 mm up
+- **Outlines:** line 108 rings, 1,694 straight (4,343 mm) / 415 curved (429 mm); text 534 rings, 4,285 straight (4,495 mm) / 1,209 curved (1,428 mm); tb 28 rings, 420 straight (735 mm) / 57 curved (74.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 8.7 @ (61.4, 236.1), r 5.0 @ (76.7, 208.7)
+- **Closed boxes:** 2; named: CR4 2N6395
+- **Dots (junctions):** 1
+- **Words (OCR):** 81 in 75 lines: 620 · 12K 4/2w · R1O · 6k8 WBS · 01 · TNZi02 · 03 · RS · R7 · 6K8 · TN2102 · 820 1/2w
+- **Title block:** (258, 36)–(431, 247) mm: 6k8 WBS · 150 CANADA · 14-058 · #CR3_4N47588 · 270 · JK · R16 150 · R14 · 1K8 · 500 · WARD-BECK BYBTEMB · WBS
+
+Every curve, box, word and wire group: [1970 - M648 - 14-058-06-001 - REGULATOR ASSEMBLY COMPONENT LAYOUT (traced).json](1970%20-%20M648%20-%2014-058-06-001%20-%20REGULATOR%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1970 - M648 - 14-058-06-001 - REGULATOR ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

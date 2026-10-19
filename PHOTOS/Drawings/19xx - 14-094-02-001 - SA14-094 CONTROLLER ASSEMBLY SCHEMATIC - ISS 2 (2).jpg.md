@@ -20,6 +20,18 @@ SA14-094 controller assembly schematic. Title block at top right reading downwar
 - **Size:** 3,938,718 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 14-094-02-001/1, size D 864 × 606 mm, 2000 × 1404 px traced (0.432 mm/px), turned 270°
+- **Ink extent:** 0–850 mm across, 37–602 mm up
+- **Outlines:** line 3,472 rings, 26,914 straight (101,341 mm) / 4,664 curved (11,839 mm); text 149 rings, 1,191 straight (2,636 mm) / 283 curved (772 mm)
+- **Centre lines:** 50,341 paths (231 closed); straight 72,506 mm, curved 335 mm; horizontal 32,188 mm, vertical 22,861 mm, diagonal 17,457 mm
+- **Circles and arcs:** 3 circles, 33 arcs; largest r 4.3 @ (123.7, 575.6), r 4.0 @ (165.8, 585.0), r 3.0 @ (806.5, 109.6)
+- **Closed boxes:** 213
+- **Wiring (first pass):** 359 connected wire groups from 7,663 runs
+
+Every curve, box, word and wire group: [19xx - 14-094-02-001 - SA14-094 CONTROLLER ASSEMBLY SCHEMATIC - ISS 2 (2) (traced).json](19xx%20-%2014-094-02-001%20-%20SA14-094%20CONTROLLER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 14-094-02-001 - SA14-094 CONTROLLER ASSEMBLY SCHEMATIC - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

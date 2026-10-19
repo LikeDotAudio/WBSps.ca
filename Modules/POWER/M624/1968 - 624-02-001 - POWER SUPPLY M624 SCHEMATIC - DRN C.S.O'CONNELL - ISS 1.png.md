@@ -27,6 +27,21 @@ Wiki page: [M624](../../../PAGES/M624.md)
 
 - **1968** (labelled): `DATE JULY 68` — …CT PI - 6 AND FINISH DRN C,S,0CONNELL WARD BECK SYSIEIS LTd DATE JULY 68 chkk7 /ark MATERIAL POWER SUPPLY M624 SCHEMATIC SCALE TOLs]…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 624-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–294 mm up
+- **Outlines:** line 358 rings, 7,002 straight (12,515 mm) / 1,078 curved (1,674 mm); text 538 rings, 3,935 straight (4,442 mm) / 1,166 curved (1,737 mm); tb 23 rings, 166 straight (232 mm) / 36 curved (43.3 mm)
+- **Centre lines:** 6,882 paths (98 closed); straight 10,281 mm, curved 385 mm; horizontal 4,056 mm, vertical 2,755 mm, diagonal 3,470 mm
+- **Circles and arcs:** 21 circles, 35 arcs; largest r 4.9 @ (203.4, 149.1), r 1.8 @ (398.6, 252.7), r 1.8 @ (394.0, 252.2), r 1.7 @ (345.2, 270.3)
+- **Closed boxes:** 14 (9 in the title block); named: ISS_; (TOLs
+- **Dots (junctions):** 3
+- **Words (OCR):** 92 in 74 lines: 24V · AC · M624 · 3wi · 2ASB · CONFIGURATION · TYPICAL 24v CONTROL · Ac · BN · 80-9 · MISv · GOHZ
+- **Title block:** (190, 28)–(384, 77) mm: FINISH · WARD · BECK SYSIESS · DRN C,S,OCONNELL · DATE JULY 68 · MATERIAL · POWER SUPPLY · CHKD · SCHEMATIC · SCALE · (TOLs · ANGLES · 624 = 02 0oi
+- **Wiring (first pass):** 93 connected wire groups from 444 runs, 4 dotted junctions; labelled ends: 194 mm → 2580, DSI, I6; 171 mm → AC, M624; 99 mm → Ac; 92 mm → 624 = 02; 91 mm → F2, +24, 240
+
+Every curve, box, word and wire group: [1968 - 624-02-001 - POWER SUPPLY M624 SCHEMATIC - DRN C.S.O'CONNELL - ISS 1 (traced).json](1968%20-%20624-02-001%20-%20POWER%20SUPPLY%20M624%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1968 - 624-02-001 - POWER SUPPLY M624 SCHEMATIC - DRN C.S.O'CONNELL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

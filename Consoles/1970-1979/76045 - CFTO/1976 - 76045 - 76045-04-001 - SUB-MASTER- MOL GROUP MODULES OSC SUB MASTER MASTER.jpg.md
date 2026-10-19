@@ -10,6 +10,17 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,476,637 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 76045-04-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 2–432 mm up
+- **Outlines:** line 1,143 rings, 9,547 straight (15,123 mm) / 1,204 curved (1,642 mm); text 285 rings, 1,791 straight (1,814 mm) / 638 curved (850 mm)
+- **Closed boxes:** 3
+- **Dots (junctions):** 8
+- **Words (OCR):** 48 in 42 lines: 5 3 · M 2 · 2 5 · 2 6 · 2 7 · 28 · LIC 1 NG · LIC 2 NG ? · M468m AsSignMEnT MODULES ( 28) · M478A · M466 · M466
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-04-001 - SUB-MASTER- MOL GROUP MODULES OSC SUB MASTER MASTER (traced).json](1976%20-%2076045%20-%2076045-04-001%20-%20SUB-MASTER-%20MOL%20GROUP%20MODULES%20OSC%20SUB%20MASTER%20MASTER%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-04-001 - SUB-MASTER- MOL GROUP MODULES OSC SUB MASTER MASTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

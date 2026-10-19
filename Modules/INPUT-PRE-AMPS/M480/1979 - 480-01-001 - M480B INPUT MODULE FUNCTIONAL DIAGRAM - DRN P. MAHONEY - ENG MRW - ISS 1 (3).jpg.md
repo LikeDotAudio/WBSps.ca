@@ -24,6 +24,20 @@ Wiki page: [M480](../../../PAGES/M480.md)
 - **Size:** 2,882,756 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 480-01-001, size B 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 3–429 mm across, 3–276 mm up
+- **Outlines:** line 238 rings, 4,333 straight (8,670 mm) / 473 curved (675 mm); text 356 rings, 2,370 straight (2,729 mm) / 736 curved (1,048 mm); tb 15 rings, 153 straight (256 mm) / 15 curved (24.8 mm)
+- **Centre lines:** 3,463 paths (55 closed); straight 6,039 mm, curved 79.3 mm; horizontal 2,547 mm, vertical 1,653 mm, diagonal 1,838 mm
+- **Circles and arcs:** 2 circles, 10 arcs; largest r 4.0 @ (193.6, 193.9), r 3.7 @ (250.2, 136.3)
+- **Closed boxes:** 16 (10 in the title block); named: EQUALIZER; 480-01-001; ISSUE
+- **Words (OCR):** 45 in 40 lines: Mic/LINE · SELECT · AIB 31e EQUALIZER · SELECT · FAS &B) · ER · Mic · PRE · 70/-49 dBm; · 150 OHMS · SENSiTiviTY · 30 dB
+- **Title block:** (282, 10)–(431, 76) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN PMaovsxl · M48oB · ENG MRW Wli] · INPUT MODULE · CKD: · APP · FUNCTIONAL DIAGRAM · SCALE · 480-01-001 · ISSUE
+- **Wiring (first pass):** 81 connected wire groups from 174 runs; labelled ends: 194 mm → FAS &B), CUE; 87 mm → FAS &B), ER, PRE / POST; 50 mm → 31e; 37 mm → EXTERNAL, CALIBRATION; 32 mm → 31e
+
+Every curve, box, word and wire group: [1979 - 480-01-001 - M480B INPUT MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (3) (traced).json](1979%20-%20480-01-001%20-%20M480B%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%283%29%20%28traced%29.json) (the CAD file: `1979 - 480-01-001 - M480B INPUT MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (3) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

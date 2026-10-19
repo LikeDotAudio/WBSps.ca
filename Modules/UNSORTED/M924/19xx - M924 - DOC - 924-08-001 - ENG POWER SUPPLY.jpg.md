@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,800,685 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** parts list 924-08-001, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 4–272 mm up
+- **Outlines:** line 529 rings, 4,040 straight (9,262 mm) / 808 curved (991 mm); text 218 rings, 1,256 straight (1,153 mm) / 413 curved (512 mm); tb 6 rings, 52 straight (40.2 mm) / 14 curved (14.5 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (240.6, 151.8)
+- **Closed boxes:** 16 (1 in the title block); named: BECK  SYSTEMS WBSS WARD; M924/m9244/m9240 POWER  SUPPLY FRONT PAN; 924-03- 001
+- **Words (OCR):** 30 in 28 lines: 0250 Dla · FLACES · PITCHES · 0,2JC · 0,6 90 · Z9C0 · 7 0no · REC D · REC D · 10.033 · Dlod · HOES;
+- **Title block:** (367, 24)–(428, 40) mm: WARD · BECK  SYSTEMS · M924/m9244/m9240
+
+Every curve, box, word and wire group: [19xx - M924 - DOC - 924-08-001 - ENG POWER SUPPLY (traced).json](19xx%20-%20M924%20-%20DOC%20-%20924-08-001%20-%20ENG%20POWER%20SUPPLY%20%28traced%29.json) (the CAD file: `19xx - M924 - DOC - 924-08-001 - ENG POWER SUPPLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

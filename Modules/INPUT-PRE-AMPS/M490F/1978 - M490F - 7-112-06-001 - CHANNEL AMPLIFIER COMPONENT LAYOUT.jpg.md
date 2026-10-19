@@ -11,6 +11,18 @@ Wiki page: [M490F](../../../PAGES/M490F.md)
 - **Size:** 685,929 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 7-112-06-001, size B (assumed) 432 × 386 mm, 2000 × 1789 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 0–386 mm up
+- **Outlines:** line 48 rings, 1,716 straight (4,767 mm) / 436 curved (404 mm); text 1,076 rings, 8,570 straight (8,323 mm) / 2,688 curved (3,125 mm); tb 631 rings, 5,048 straight (6,302 mm) / 1,475 curved (1,601 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.3 @ (91.2, 342.4)
+- **Closed boxes:** 10 (10 in the title block)
+- **Words (OCR):** 159 in 136 lines: E7 · E8 EI0 E9 Eii E14 E6 E5 · 0 0 0 0 0 0 7-112 · CANADA · WBS · E12 · R+i 2k2 · Ric JEk · ~Rto 2k2 · 0=4 41217: 7/10 · E13 · ~C2b L20
+- **Title block:** (34, 3)–(432, 339) mm: CANADA · WBS · E12 · R+i 2k2 · Ric JEk · ~Rto 2k2 · 0=4 41217: 7/10 · E13 · ~C2b L20 · ~cio:Tp Cib · ~R53 · ~R2g 242 · 23 · cze-W/3s 26 · Illmzoi · ~R2b · 22ok · 47ok · Jeok · Im3oi · R33 328 · ~833 3
+
+Every curve, box, word and wire group: [1978 - M490F - 7-112-06-001 - CHANNEL AMPLIFIER COMPONENT LAYOUT (traced).json](1978%20-%20M490F%20-%207-112-06-001%20-%20CHANNEL%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1978 - M490F - 7-112-06-001 - CHANNEL AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

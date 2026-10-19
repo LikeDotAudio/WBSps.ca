@@ -15,6 +15,20 @@ Wiki page: [M467](../../../PAGES/M467.md)
 
 - **1976** (labelled): `DATE DEC 76` — …. 4000 M.L USED ON MaTI_ WBS WAAD-BECK BYBTEMB LTD_ DRN DNM DATE DEC 76 CKD_ Rle SCALE M467 NOISE GATE & METER MODULE FUNCTIONAL DI…
 
+## Vectors (traced)
+
+- **Sheet:** functional 467-01-001, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px)
+- **Ink extent:** 47–432 mm across, 0–235 mm up
+- **Outlines:** line 276 rings, 3,127 straight (7,725 mm) / 383 curved (578 mm); text 315 rings, 2,462 straight (2,733 mm) / 702 curved (1,094 mm); tb 26 rings, 198 straight (445 mm) / 43 curved (58.4 mm)
+- **Centre lines:** 4,065 paths (58 closed); straight 6,178 mm, curved 60.2 mm; horizontal 2,875 mm, vertical 1,387 mm, diagonal 1,916 mm
+- **Circles and arcs:** 5 circles, 6 arcs; largest r 3.5 @ (265.8, 144.9), r 1.6 @ (61.2, 112.0), r 1.1 @ (101.4, 165.9), r 1.1 @ (61.0, 112.2)
+- **Closed boxes:** 32 (29 in the title block); named: OVERLOAD CLIPPER; GATE CONTROL
+- **Words (OCR):** 56 in 46 lines: DIFFERENT IAL · Output · AMP · AMP · AUdiO · INPUT · AUDiO · OUTPUt · 8-109A · AttenuatIon · CUT Away · (GATEOFF
+- **Title block:** (146, 5)–(384, 56) mm: MTL · DSSMODICKD] · USED ON · 3536 IPKM: · WBS WAAD-BECK byBTEMB LTD: · 4000 · DRN DNM · M467 · FIMISH · DATE DEC 76 · NOISE GATE · CKD · FUNCTIONAL DIAGRAM · FSCALE · TOLS · 467- 01-001
+- **Wiring (first pass):** 42 connected wire groups from 277 runs; labelled ends: 125 mm → CONTROL, ATTACK, RELEASE; 88 mm → BUFFER, AMP; 85 mm → OVERLOAD; 72 mm → Away; 63 mm → 8-109A
+
+Every curve, box, word and wire group: [1976 - M467 - 467-01-001 - RZLA FUNCTIONAL DIAGRAM (traced).json](1976%20-%20M467%20-%20467-01-001%20-%20RZLA%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1976 - M467 - 467-01-001 - RZLA FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

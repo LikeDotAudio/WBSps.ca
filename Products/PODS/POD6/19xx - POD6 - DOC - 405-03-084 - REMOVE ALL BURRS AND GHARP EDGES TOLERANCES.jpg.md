@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,395,962 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 405-03-084, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–414 mm across, 0–280 mm up
+- **Outlines:** line 305 rings, 2,841 straight (8,658 mm) / 448 curved (539 mm); text 187 rings, 1,153 straight (1,113 mm) / 344 curved (427 mm); tb 19 rings, 161 straight (187 mm) / 27 curved (29.4 mm)
+- **Centre lines:** 3,808 paths (87 closed); straight 5,658 mm, curved 8.9 mm; horizontal 2,648 mm, vertical 1,489 mm, diagonal 1,521 mm
+- **Circles and arcs:** 1 circles, 3 arcs; largest r 0.8 @ (71.4, 251.8)
+- **Closed boxes:** 12 (3 in the title block); named: M405s BASE; 405-03-084; code; 40548'
+- **Words (OCR):** 23 in 15 lines: 1850 · REQ · 0,787 · MATERIAL: CRS: 0.105 ThICK, · FINISH: SAND 120 GriT AND PAINT · TEXTURED BROWN (438C) · TEXCOTE VNY SE SpoT WELD NOTE · WBS · WARD-BECK SYSTEMS · TOLERA' CES: · BURAS ShaRF · M405s
+- **Title block:** (336, 23)–(420, 40) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - POD6 - DOC - 405-03-084 - REMOVE ALL BURRS AND GHARP EDGES TOLERANCES (traced).json](19xx%20-%20POD6%20-%20DOC%20-%20405-03-084%20-%20REMOVE%20ALL%20BURRS%20AND%20GHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `19xx - POD6 - DOC - 405-03-084 - REMOVE ALL BURRS AND GHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

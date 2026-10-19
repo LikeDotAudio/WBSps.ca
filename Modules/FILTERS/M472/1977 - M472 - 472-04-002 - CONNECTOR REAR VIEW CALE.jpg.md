@@ -11,6 +11,16 @@ Wiki page: [M472](../../../PAGES/M472.md)
 - **Size:** 188,807 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 472-04-002, size B (assumed) 432 × 328 mm, 2000 × 1517 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 0–297 mm up
+- **Outlines:** line 168 rings, 3,577 straight (8,710 mm) / 475 curved (808 mm); text 251 rings, 2,469 straight (3,413 mm) / 522 curved (892 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (208.4, 8.5)
+- **Closed boxes:** 50
+
+Every curve, box, word and wire group: [1977 - M472 - 472-04-002 - CONNECTOR REAR VIEW CALE (traced).json](1977%20-%20M472%20-%20472-04-002%20-%20CONNECTOR%20REAR%20VIEW%20CALE%20%28traced%29.json) (the CAD file: `1977 - M472 - 472-04-002 - CONNECTOR REAR VIEW CALE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -21,6 +21,21 @@ M538A 4x2 switcher module schematic, cropped at right.
 - **Size:** 2,949,631 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 538-02-002, size B 432 × 261 mm, 2000 × 1210 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–261 mm up
+- **Outlines:** line 623 rings, 6,931 straight (11,486 mm) / 1,203 curved (1,433 mm); text 101 rings, 848 straight (833 mm) / 221 curved (313 mm); tb 2 rings, 57 straight (109 mm) / 1 curved (1.8 mm)
+- **Centre lines:** 10,871 paths (121 closed); straight 8,639 mm, curved 39.1 mm; horizontal 3,653 mm, vertical 2,189 mm, diagonal 2,797 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Closed boxes:** 56
+- **Dots (junctions):** 1
+- **Words (OCR):** 12 in 11 lines: VicrophcNE · outpts · Loie ; · cohponcht · WBS WARD-BECK SYSTEMZ · M538A · 4x2 Switcher MODULE · SCHEMATIC · 638-02-703 · B 538-02-002 · ISS_
+- **Title block:** (344, 38)–(432, 54) mm: WBS WARD-BECK SYSTEMZ
+- **Wiring (first pass):** 118 connected wire groups from 723 runs
+
+Every curve, box, word and wire group: [19xx - 538-02-002 - 4x2 SWITCHER MODULE SCHEMATIC (2) (traced).json](19xx%20-%20538-02-002%20-%204x2%20SWITCHER%20MODULE%20SCHEMATIC%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 538-02-002 - 4x2 SWITCHER MODULE SCHEMATIC (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

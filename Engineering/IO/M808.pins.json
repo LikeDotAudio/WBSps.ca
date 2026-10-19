@@ -1,0 +1,97 @@
+{
+ "code": "M808",
+ "name": "RELAY Switcher MOPLLE SCHEMATIC",
+ "derived": true,
+ "variant_of": "M808C",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "ENERGIZED BY MOMENTARILY GROUNDING THE CONTROL T",
+   "kind": "control",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dec8071402c09cd1d4ea896e5280f8dc83006c1ff7f236a1bcbddb192356d80d",
+    "file": "Modules/AMPLIFIERS/M808C/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Latching Circuit K1 is energized by momentarily grounding the control terminal at pin 2.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "BE TIED TOGETHER THEN, THE CANCEL BUSS",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dec8071402c09cd1d4ea896e5280f8dc83006c1ff7f236a1bcbddb192356d80d",
+    "file": "Modules/AMPLIFIERS/M808C/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "If many cards are to be tied together then, the cancel buss terminals (pin 6), must be tied together.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "INPUT ONE",
+   "kind": "in",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dec8071402c09cd1d4ea896e5280f8dc83006c1ff7f236a1bcbddb192356d80d",
+    "file": "Modules/AMPLIFIERS/M808C/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Input Input One is applied through edge connector pins 15 and S.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "INPUT ONE",
+   "kind": "in",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dec8071402c09cd1d4ea896e5280f8dc83006c1ff7f236a1bcbddb192356d80d",
+    "file": "Modules/AMPLIFIERS/M808C/1994 - M808C - M808C - 808-02-004 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Input Input One is applied through edge connector pins 15 and S.",
+   "also": [],
+   "from_conf": "medium"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

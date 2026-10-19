@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,329,572 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 458-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 372 rings, 5,176 straight (10,529 mm) / 805 curved (1,112 mm); text 414 rings, 3,227 straight (3,674 mm) / 1,099 curved (1,621 mm); tb 34 rings, 286 straight (371 mm) / 38 curved (53.0 mm)
+- **Centre lines:** 9,993 paths (92 closed); straight 9,631 mm, curved 324 mm; horizontal 3,478 mm, vertical 2,655 mm, diagonal 3,497 mm
+- **Circles and arcs:** 13 circles, 39 arcs; largest r 3.9 @ (196.6, 164.5), r 3.9 @ (196.4, 223.3), r 3.8 @ (196.4, 204.1), r 3.8 @ (196.4, 184.1)
+- **Closed boxes:** 37 (9 in the title block); named: Mse QUAD PEAK OVERLOAD JLCATQB; SCALE
+- **Dots (junctions):** 1
+- **Words (OCR):** 60 in 57 lines: +24V · +25v · TALLY #1 · TALLY#2 · AUDIO · TKLD # 1 · THLD #2 · SOURCE · Aupio · AUDIO · SOURCE# IN · SQURCE"2
+- **Title block:** (278, 16)–(431, 84) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK sySTEMS · ENG_ · M458 · CKD_ · WIRING SCHEMATIC · APP · ISSUE · SCALE · 458-02-002
+- **Wiring (first pass):** 39 connected wire groups from 334 runs; labelled ends: 325 mm → ~25v, +25v; 114 mm → +24V; 97 mm → AUDIO, Audio, SOURCE 4; 72 mm → ISSUE, 458-02-002; 20 mm → 919
+
+Every curve, box, word and wire group: [19xx - DOC - 458-02-002 - AUDIO SOURCE (traced).json](19xx%20-%20DOC%20-%20458-02-002%20-%20AUDIO%20SOURCE%20%28traced%29.json) (the CAD file: `19xx - DOC - 458-02-002 - AUDIO SOURCE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

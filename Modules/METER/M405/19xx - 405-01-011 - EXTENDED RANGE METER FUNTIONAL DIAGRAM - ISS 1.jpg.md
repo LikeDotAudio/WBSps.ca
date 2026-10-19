@@ -22,6 +22,19 @@ Rotated manual page with M405D extended range meter functional diagram.
 - **Size:** 2,870,648 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 405-01-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 5–424 mm across, 0–287 mm up
+- **Outlines:** line 624 rings, 5,326 straight (9,249 mm) / 852 curved (1,093 mm); text 40 rings, 283 straight (275 mm) / 79 curved (102 mm)
+- **Centre lines:** 4,592 paths (100 closed); straight 5,105 mm, curved 165 mm; horizontal 2,131 mm, vertical 1,445 mm, diagonal 1,529 mm
+- **Circles and arcs:** 10 circles, 25 arcs; largest r 3.1 @ (248.0, 80.6), r 1.6 @ (375.0, 19.4), r 1.2 @ (366.0, 11.6), r 1.2 @ (374.9, 19.5)
+- **Closed boxes:** 14
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 164 connected wire groups from 459 runs
+
+Every curve, box, word and wire group: [19xx - 405-01-011 - EXTENDED RANGE METER FUNTIONAL DIAGRAM - ISS 1 (traced).json](19xx%20-%20405-01-011%20-%20EXTENDED%20RANGE%20METER%20FUNTIONAL%20DIAGRAM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 405-01-011 - EXTENDED RANGE METER FUNTIONAL DIAGRAM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

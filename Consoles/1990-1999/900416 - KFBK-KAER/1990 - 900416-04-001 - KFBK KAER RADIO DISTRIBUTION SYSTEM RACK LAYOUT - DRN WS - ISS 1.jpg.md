@@ -23,6 +23,19 @@ Wiki page: [Job-900416](../../../PAGES/Job-900416.md)
 - **Size:** 1,889,402 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout C 900416-04-001, size C 559 × 431 mm, 2000 × 1543 px traced (0.279 mm/px)
+- **Ink extent:** 45–538 mm across, 25–384 mm up
+- **Outlines:** line 1,375 rings, 10,140 straight (41,608 mm) / 1,170 curved (2,204 mm); text 1,103 rings, 6,936 straight (10,026 mm) / 2,152 curved (3,722 mm); tb 24 rings, 419 straight (2,422 mm) / 22 curved (36.3 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.7 @ (380.4, 209.4), r 1.6 @ (380.6, 196.5), r 1.2 @ (375.5, 301.4), r 1.2 @ (190.9, 339.2)
+- **Closed boxes:** 149; named: PS2; M8205 DISTRIBUTION AMPS FRAME iiliL- 10; PS2; AMPS M8205 DISTRIBUTION FRAME 12 10 iii#; PS2; M8205 DISTRIBUTION AMPS FRAME 10; PSI PS2; M8205 DISTRIBUTION AMPS FRAME "8" Ll 10; PSI PS2; M8205 DISTRIBUTION AMPS FRAME "H" 10 iLi; PS2; M8205 DISTRIBUTION AMPS FRAME 12 10
+- **Dots (junctions):** 1
+- **Words (OCR):** 147 in 121 lines: PS2 · M8205 DISTRIBUTION · AMPS · PS2 · M8205 DISTRIBUTION AMPS · FRAME · iiliL- · FRAME · iii# · 10 · 12 · 10
+- **Title block:** (377, 24)–(546, 96) mm: APP_ · ISSUE · REVISION · WARD-BECK · SYSTEMS · WBS · DRN_ WS 08, · 90 · KFBK /KAER · RADIO · ENG: · DISTRIBUTION SYSTEM · CKD. · APP. K · RACK · LA YOUT · SCALE · DISC NO: 370 · ISSUE · NTS · CODE: 0
+
+Every curve, box, word and wire group: [1990 - 900416-04-001 - KFBK KAER RADIO DISTRIBUTION SYSTEM RACK LAYOUT - DRN WS - ISS 1 (traced).json](1990%20-%20900416-04-001%20-%20KFBK%20KAER%20RADIO%20DISTRIBUTION%20SYSTEM%20RACK%20LAYOUT%20-%20DRN%20WS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900416-04-001 - KFBK KAER RADIO DISTRIBUTION SYSTEM RACK LAYOUT - DRN WS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

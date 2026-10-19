@@ -22,6 +22,19 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 3,712,417 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 76045-02-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 414 rings, 4,505 straight (9,588 mm) / 697 curved (1,054 mm); text 155 rings, 923 straight (971 mm) / 278 curved (388 mm)
+- **Centre lines:** 2,472 paths (29 closed); straight 5,650 mm, curved 200 mm; horizontal 3,371 mm, vertical 976 mm, diagonal 1,303 mm
+- **Circles and arcs:** 5 circles, 45 arcs; largest r 1.5 @ (283.1, 31.4), r 1.5 @ (57.5, 255.5), r 1.4 @ (94.1, 97.7), r 1.2 @ (203.6, 73.8)
+- **Closed boxes:** 37
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 43 connected wire groups from 371 runs, 5 dotted junctions
+
+Every curve, box, word and wire group: [1977 - 76045-02-005 - AUX CHANNEL SCHEMATIC - DRN ELJ - ISS 1 (2) (traced).json](1977%20-%2076045-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1977 - 76045-02-005 - AUX CHANNEL SCHEMATIC - DRN ELJ - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -29,6 +29,20 @@ Notes sheet of the 20 watt monitor amp PCB schematic, cropped.
 
 - **1973** (labelled): `DATE SEPT 1973` — …L_ WBS WARD-BECK BySTEMs LTD. DRN: D Ps 20 WATT MONITOR AMP DATE SEPT 1973 CKD_ Ra P € B SCHEMATIC SCALE XX TOLS_ 3 173-02-001 ISS_ An…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 173-02-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–432 mm up
+- **Outlines:** line 309 rings, 4,570 straight (6,364 mm) / 717 curved (928 mm); text 435 rings, 4,716 straight (5,946 mm) / 1,055 curved (1,802 mm); tb 28 rings, 367 straight (640 mm) / 42 curved (58.3 mm)
+- **Centre lines:** 5,068 paths (57 closed); straight 7,958 mm, curved 6.0 mm; horizontal 3,126 mm, vertical 1,628 mm, diagonal 3,204 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 13 (4 in the title block); named: WBS WAAD-BECK BYSTEMs LTD-; MATL; 20 WATT MONITOR AMP P C B SCHEMATIC; FINISH; ISS.; 173-02-001; XX TOLS
+- **Words (OCR):** 58 in 35 lines: NOTES: · UNLEss OThERwise · STATED, ALL resistors ARE · 'aWATT, · VALUES in Ohms · CAPAC itor VALUES · in · Micro FARADS · COMPONENT · DesignAtions C 33 · R65 · Q6
+- **Title block:** (102, 17)–(253, 88) mm: WBS WAAD-BECK BYSTEMs LTD- · DRN: · DPs 20 WATT MONITOR AMP · DATE sept 1973 · CKD_ · Ra · P C B SCHEMATIC · SCALE · TOLS · XX
+- **Wiring (first pass):** 10 connected wire groups from 105 runs; labelled ends: 247 mm → WBS, ON; 200 mm → DRN:, DATE, CKD_; 156 mm → LTD-, WBS, WAAD-BECK, 20 WATT; 60 mm → SCHEMATIC, 173-02-001, ISS.; 36 mm → NOTES:, UNLEss, 'aWATT,
+
+Every curve, box, word and wire group: [1973 - 173-02-001 - 20 WATT MONITOR AMP PCB SCHEMATIC - DRN DPS - ISS 6 (traced).json](1973%20-%20173-02-001%20-%2020%20WATT%20MONITOR%20AMP%20PCB%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1973 - 173-02-001 - 20 WATT MONITOR AMP PCB SCHEMATIC - DRN DPS - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

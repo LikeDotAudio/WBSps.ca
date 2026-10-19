@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,267,631 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-008, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 20–303 mm up
+- **Outlines:** line 709 rings, 6,403 straight (11,678 mm) / 1,484 curved (2,250 mm); text 180 rings, 1,045 straight (1,249 mm) / 385 curved (564 mm)
+- **Centre lines:** 5,135 paths (95 closed); straight 7,068 mm, curved 925 mm; horizontal 2,933 mm, vertical 1,962 mm, diagonal 2,173 mm
+- **Circles and arcs:** 45 circles, 141 arcs; largest r 2.4 @ (357.8, 80.8), r 2.2 @ (373.0, 53.7), r 2.2 @ (374.9, 61.8), r 1.6 @ (388.1, 62.9)
+- **Closed boxes:** 16
+- **Wiring (first pass):** 55 connected wire groups from 707 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-008 - MONITOR SELECTOR SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-008%20-%20MONITOR%20SELECTOR%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-008 - MONITOR SELECTOR SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -10,6 +10,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,318,587 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-009, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 341 rings, 3,921 straight (9,348 mm) / 584 curved (817 mm); text 190 rings, 1,454 straight (1,666 mm) / 523 curved (720 mm)
+- **Centre lines:** 2,862 paths (54 closed); straight 6,023 mm, curved 200 mm; horizontal 2,866 mm, vertical 1,906 mm, diagonal 1,251 mm
+- **Circles and arcs:** 3 circles, 36 arcs; largest r 3.8 @ (7.3, 107.6), r 0.9 @ (245.4, 72.6), r 0.9 @ (270.3, 38.6)
+- **Closed boxes:** 17; named: PROCESSIG MODULE; PROCESSING MODULE; PROCESSING MODULE; PROCESSING MODULE
+- **Words (OCR):** 31 in 26 lines: 620 · 620 · OUT · 15.16 PROCESSIG · OUT · 15,16 PROCESSING · MODULE · MODULE · 1215 · (GR METER) · 12,13 · 25v
+- **Wiring (first pass):** 93 connected wire groups from 382 runs; labelled ends: 2055 mm → 15.16, SIGNAL GROUND, CHASSIS GROUND; 537 mm → 15.16; 245 mm → 15.16; 9 mm → 620; 8 mm → 620
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-009 - ESSING OUT PROCESSING DULE MODULE (traced).json](1988%20-%20880134%20-%203642-02-009%20-%20ESSING%20OUT%20PROCESSING%20DULE%20MODULE%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-009 - ESSING OUT PROCESSING DULE MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

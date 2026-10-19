@@ -27,6 +27,20 @@ Wiki page: [M712](../../../PAGES/M712.md)
 
 - **1972** (labelled): `DATE MAY 1972` — …eiheoNGLEs Wand BECK _SVSTEMS Ltd DRA M7I2 PART / FULL MUTE DATE MAY 1972 CROSS POINT Ra( SCHEMATIC C 712 003 Fins ATERIAL…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-003, size B 432 × 132 mm, 2000 × 610 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–132 mm up
+- **Outlines:** line 617 rings, 4,930 straight (7,106 mm) / 903 curved (1,119 mm); text 160 rings, 1,210 straight (1,039 mm) / 378 curved (460 mm)
+- **Centre lines:** 5,491 paths (85 closed); straight 4,796 mm, curved 126 mm; horizontal 2,094 mm, vertical 1,046 mm, diagonal 1,656 mm
+- **Circles and arcs:** 2 circles, 29 arcs; largest r 2.9 @ (225.5, 61.8), r 0.8 @ (389.3, 56.8)
+- **Closed boxes:** 6
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 15 lines: CROSSPONTS NOS; 4,6,7 &9. · CFOSSFO NTS NOS; 3.5. · CUTPUT T0 AP · NOIES · FEFER T0 DXG 0i74-C6-OCI · PII: SHOWNCN 1725 FCR · MUTING DOMN · FCR CBC ss510 · PEMOVED PS 470 OHMS · M72s · BELK · M712 PiRT / FULL NUTE
+- **Wiring (first pass):** 35 connected wire groups from 349 runs; labelled ends: 263 mm → PiRT / FULL NUTE, CROSS FOINT; 76 mm → CFOSSFO NTS NOS;; 25 mm → CROSSPONTS, NOS;; 13 mm → CROSSPONTS; 11 mm → CFOSSFO NTS NOS;
+
+Every curve, box, word and wire group: [1972 - 712-02-003 - PART FULL MUTE CROSS POINT SCHEMATIC - DRN TY - ISS 2 (traced).json](1972%20-%20712-02-003%20-%20PART%20FULL%20MUTE%20CROSS%20POINT%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1972 - 712-02-003 - PART FULL MUTE CROSS POINT SCHEMATIC - DRN TY - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

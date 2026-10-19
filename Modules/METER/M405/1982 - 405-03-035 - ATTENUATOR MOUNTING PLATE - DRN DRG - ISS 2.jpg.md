@@ -24,6 +24,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 1,290,591 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 405-03-035, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale | : |
+- **Ink extent:** 0–432 mm across, 10–299 mm up
+- **Outlines:** line 336 rings, 4,201 straight (9,037 mm) / 642 curved (897 mm); text 349 rings, 2,582 straight (3,124 mm) / 768 curved (1,211 mm); tb 10 rings, 100 straight (221 mm) / 9 curved (16.2 mm)
+- **Centre lines:** 9,234 paths (56 closed); straight 8,390 mm, curved 56.8 mm; horizontal 3,178 mm, vertical 1,857 mm, diagonal 3,355 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 7 (6 in the title block)
+- **Words (OCR):** 53 in 38 lines: 2.625 · NTS · 2.250 · NtS · Soe · 187 DIA: · 4 PLACES · 187 DIA. CSK AT 820 To.330 DIA · 1312 · 1.125 · 2 PLACES · 2.625
+- **Title block:** (278, 3)–(432, 72) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN DrIZ · 34 · ENG · ATTENUATor Mounting · CKD ELEZ · Ma · PLATE · APP · SCALE | : | · ISSUE · 0is · 4os-03-035
+
+Every curve, box, word and wire group: [1982 - 405-03-035 - ATTENUATOR MOUNTING PLATE - DRN DRG - ISS 2 (traced).json](1982%20-%20405-03-035%20-%20ATTENUATOR%20MOUNTING%20PLATE%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1982 - 405-03-035 - ATTENUATOR MOUNTING PLATE - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

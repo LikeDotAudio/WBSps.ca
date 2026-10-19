@@ -11,6 +11,21 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 643,367 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-009, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–432 mm up
+- **Outlines:** line 637 rings, 11,320 straight (19,305 mm) / 2,297 curved (3,133 mm); text 993 rings, 6,178 straight (6,038 mm) / 2,309 curved (3,167 mm); tb 23 rings, 163 straight (238 mm) / 49 curved (70.9 mm)
+- **Centre lines:** 18,366 paths (253 closed); straight 17,295 mm, curved 445 mm; horizontal 6,032 mm, vertical 4,215 mm, diagonal 7,048 mm
+- **Circles and arcs:** 16 circles, 69 arcs; largest r 5.9 @ (261.5, 133.8), r 5.8 @ (175.3, 101.4), r 5.8 @ (260.8, 105.1), r 5.7 @ (222.8, 120.6)
+- **Closed boxes:** 32 (4 in the title block); named: 22 CD4oi6; 25; 28 74C76; Rizs 47k
+- **Dots (junctions):** 2
+- **Words (OCR):** 258 in 231 lines: czi · R5+ · 47/25 · Sw4 · ouTeU · 220 · Assign · Mixing · R69 · R7C · R5? · 2+2
+- **Title block:** (139, 0)–(329, 49) mm: WBS WARD-BECK bybteMB · M49oh · ENG PA LINE INPUT MODULE · CKd · SCHEMATIC · App · REvERSED PA · SCALE · 490-02-009 · ISSUE · UsueIDATE · REvasion · APP
+- **Wiring (first pass):** 147 connected wire groups from 988 runs, 3 dotted junctions; labelled ends: 284 mm → 7 /io, Rio |, 30k, c32; 258 mm → Ri3c, iok, C49; 247 mm → c25, R34, R92, 22k; 242 mm → Ri4o, Jok, Tok, 012; 238 mm → 74014
+
+Every curve, box, word and wire group: [1978 - M490H - 490-02-009 - LINE INPUT MODULE (traced).json](1978%20-%20M490H%20-%20490-02-009%20-%20LINE%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-02-009 - LINE INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

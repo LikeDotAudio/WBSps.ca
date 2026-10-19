@@ -11,6 +11,17 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 1,569,289 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 457-04-005, size B (assumed) 346 × 432 mm, 1601 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–345 mm across, 0–432 mm up
+- **Outlines:** line 57 rings, 1,426 straight (3,931 mm) / 146 curved (212 mm); text 678 rings, 4,078 straight (4,009 mm) / 1,535 curved (2,097 mm); tb 388 rings, 2,931 straight (5,904 mm) / 660 curved (1,083 mm)
+- **Closed boxes:** 10 (9 in the title block); named: ASSIGNMENT switches Swi through Sw8 When
+- **Words (OCR):** 100 in 69 lines: WBS · M457 · SENS ITivity controls R2 , · R4 , · and R8 (outer knobs) · order · accammodate constant · AIXER · SEN-C-MiX · LEVEL contro · settings with · input leve I$ ,
+- **Title block:** (129, 0)–(346, 369) mm: WBS · M457 · SENS ITivity controls R2 , · R4 , · and R8 (outer knobs) · order · accammodate constant · AIXER · SEN-C-MiX · LEVEL contro · settings with · input leve I$ , · the SENS · nuousiY · contro|
+
+Every curve, box, word and wire group: [1975 - M457 - 457-04-005 - FORM THE OUTPUT IGNA (traced).json](1975%20-%20M457%20-%20457-04-005%20-%20FORM%20THE%20OUTPUT%20IGNA%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-04-005 - FORM THE OUTPUT IGNA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

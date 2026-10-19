@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,798,219 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 773-03-004, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale |:
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 149 rings, 3,237 straight (9,288 mm) / 348 curved (552 mm); text 249 rings, 1,944 straight (2,543 mm) / 557 curved (880 mm); tb 23 rings, 215 straight (334 mm) / 37 curved (49.3 mm)
+- **Centre lines:** 2,998 paths (44 closed); straight 6,768 mm, curved 117 mm; horizontal 3,631 mm, vertical 1,629 mm, diagonal 1,508 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 3.5 @ (323.2, 108.7)
+- **Closed boxes:** 8 (8 in the title block)
+- **Words (OCR):** 37 in 27 lines: 12.96 · PIFches AT 4.500 9.Oo0 · 2-18 · 5.000 · 5.54 · HOLES · 281 DIA = · MAIERAAL: Fish · PARER · Thick · ISSUE DATE · REVISION
+- **Title block:** (279, 10)–(432, 79) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN GEB · M773 / M773A · ENG.GEB "/82 · Fisk PA PER · CKD_ · COVER · APP · SCALE |: · ISSUE · 015 · 773-03-004
+
+Every curve, box, word and wire group: [19xx - M773 - DOC - 773-03-004 - DIA MAIERIAL FISH PARER (traced).json](19xx%20-%20M773%20-%20DOC%20-%20773-03-004%20-%20DIA%20MAIERIAL%20FISH%20PARER%20%28traced%29.json) (the CAD file: `19xx - M773 - DOC - 773-03-004 - DIA MAIERIAL FISH PARER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

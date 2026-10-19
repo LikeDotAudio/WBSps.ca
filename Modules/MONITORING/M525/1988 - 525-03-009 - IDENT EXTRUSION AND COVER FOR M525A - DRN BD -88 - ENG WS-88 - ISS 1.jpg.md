@@ -23,6 +23,19 @@ Wiki page: [M525](../../../PAGES/M525.md)
 - **Size:** 1,337,833 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 525-03-009, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:MSOOLM-2
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 160 rings, 2,466 straight (9,109 mm) / 304 curved (425 mm); text 607 rings, 3,916 straight (4,914 mm) / 1,351 curved (1,968 mm); tb 8 rings, 111 straight (244 mm) / 23 curved (34.3 mm)
+- **Centre lines:** 4,406 paths (91 closed); straight 8,267 mm, curved 70.9 mm; horizontal 4,135 mm, vertical 1,724 mm, diagonal 2,409 mm
+- **Circles and arcs:** 1 circles, 15 arcs; largest r 1.3 @ (150.6, 35.4)
+- **Closed boxes:** 15 (13 in the title block); named: 525-03-009; ISSUE
+- **Words (OCR):** 73 in 55 lines: 7.480 · 3.940 · IDENT EXTRUSION · B 525-03-009/1 · 0.400 · NOTES: · 0.250 · MATL: A9917 ALUM:  EXTRUSION · 0.500 · FINISH: SAND BLAST WTH · REF · MEDIA
+- **Title block:** (248, 14)–(419, 82) mm: SSUE DATE · REVISION · APP · WARD-BECK SYSTEMS · WBS · DRN; · BD /88 · IDENT EXTRUSION AND · CKD_ · COVER FOR M525A · APP · SCALE DISC NO:MSOOLM-2 · 525-03-009 · ISSUE · 1 /1 CODE: MM525-9
+
+Every curve, box, word and wire group: [1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1 (traced).json](1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

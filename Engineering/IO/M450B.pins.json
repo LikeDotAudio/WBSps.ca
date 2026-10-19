@@ -1,0 +1,207 @@
+{
+ "code": "M450B",
+ "name": "Program - Summing Amplifier",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 11,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "NORMALLY OPERATING AT UNITY GAIN WHEREAS IN",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "03f637fcb72c5f546c684b5cdb07c7379bf39389bfe901e29d7224336a448b16",
+    "file": "Modules/AMPLIFIERS/M450B/1979 - M450B - Program - Summing Amplifier.pdf",
+    "page": 6
+   },
+   "quote": "When used as summing amplifier, the M4SOB is normally operating at unity gain, whereas in the program amplifier mode the gain may be adjusted anywhere between 24 and 40 dB Al gain changes are achieved by external resistance strapping On pins 9 , 10 and 11 on the module connector, affecting the feedb",
+   "also": [
+    {
+     "signal": "NORMALLY OPERATING AT UNITY GAIN WHEREAS IN",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M450B/1979 - M450B - Program - Summing Amplifier.pdf",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "NORMALLY OPERATING AT UNITY GAIN WHEREAS IN",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "03f637fcb72c5f546c684b5cdb07c7379bf39389bfe901e29d7224336a448b16",
+    "file": "Modules/AMPLIFIERS/M450B/1979 - M450B - Program - Summing Amplifier.pdf",
+    "page": 6
+   },
+   "quote": "When used as summing amplifier, the M4SOB is normally operating at unity gain, whereas in the program amplifier mode the gain may be adjusted anywhere between 24 and 40 dB Al gain changes are achieved by external resistance strapping On pins 9 , 10 and 11 on the module connector, affecting the feedb",
+   "also": [
+    {
+     "signal": "NORMALLY OPERATING AT UNITY GAIN WHEREAS IN",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M450B/1979 - M450B - Program - Summing Amplifier.pdf",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "NORMALLY OPERATING AT UNITY GAIN WHEREAS IN",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "03f637fcb72c5f546c684b5cdb07c7379bf39389bfe901e29d7224336a448b16",
+    "file": "Modules/AMPLIFIERS/M450B/1979 - M450B - Program - Summing Amplifier.pdf",
+    "page": 6
+   },
+   "quote": "When used as summing amplifier, the M4SOB is normally operating at unity gain, whereas in the program amplifier mode the gain may be adjusted anywhere between 24 and 40 dB Al gain changes are achieved by external resistance strapping On pins 9 , 10 and 11 on the module connector, affecting the feedb",
+   "also": [
+    {
+     "signal": "NORMALLY OPERATING AT UNITY GAIN WHEREAS IN",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M450B/1979 - M450B - Program - Summing Amplifier.pdf",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450B/M450B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450B/M450B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450B/M450B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M450B/M450B.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450B/M450B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450B/M450B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

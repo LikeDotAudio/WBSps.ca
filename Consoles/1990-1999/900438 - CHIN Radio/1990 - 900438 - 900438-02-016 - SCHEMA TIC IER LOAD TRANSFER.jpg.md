@@ -10,6 +10,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 8,365,565 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 900438-02-016, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–303 mm up
+- **Outlines:** line 1,303 rings, 11,632 straight (23,704 mm) / 2,318 curved (3,413 mm); text 359 rings, 2,292 straight (2,763 mm) / 802 curved (1,124 mm)
+- **Centre lines:** 11,212 paths (209 closed); straight 14,891 mm, curved 1,046 mm; horizontal 7,311 mm, vertical 3,560 mm, diagonal 4,020 mm
+- **Circles and arcs:** 70 circles, 110 arcs; largest r 3.4 @ (205.9, 71.2), r 3.3 @ (205.9, 55.5), r 3.3 @ (205.9, 63.3), r 3.3 @ (205.9, 47.6)
+- **Closed boxes:** 68
+- **Wiring (first pass):** 124 connected wire groups from 1,388 runs
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-02-016 - SCHEMA TIC IER LOAD TRANSFER (traced).json](1990%20-%20900438%20-%20900438-02-016%20-%20SCHEMA%20TIC%20IER%20LOAD%20TRANSFER%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-02-016 - SCHEMA TIC IER LOAD TRANSFER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

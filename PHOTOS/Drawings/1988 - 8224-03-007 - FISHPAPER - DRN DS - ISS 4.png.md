@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,256,908 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 256
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 90 rings, 1,689 straight (6,406 mm) / 152 curved (212 mm); text 446 rings, 2,971 straight (3,547 mm) / 930 curved (1,380 mm); tb 7 rings, 117 straight (242 mm) / 8 curved (17.6 mm)
+- **Centre lines:** 3,110 paths (76 closed); straight 5,893 mm, curved 11.8 mm; horizontal 2,664 mm, vertical 1,575 mm, diagonal 1,654 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 25 (15 in the title block); named: GEB; ho/89 LEFT SIDEoSLOT CHANGED To FULL CUT; CUTOUT ADDED, SLOTS WERE 0.14 DIA HOLES; DS; 2/89; DS; W 3.340, 0.188 W 0.250 3.464; SCALE
+- **Words (OCR):** 50 in 39 lines: 3.720 · 0.375 · 1.730 · 1.855 · .250 · 3.460 · 0.125 · 0.375 · ho/89 LEFT SIDEoSLOT CHANGED To · GEB · FULL CUTOUT · 2/89 0.14 DIA HOLES
+- **Title block:** (248, 20)–(418, 88) mm: h12/88 3.464 · W 3.340, 0.188 W 0.250 · DS · IISSUE| DATE · REVSION · APP_ · WBS · WARD-BECK · SYSTEMS · DRN: D.S: 10/88 · ENG · FISHPAPER · CKD: · APP; · SCALE DISC NO: 256 · ISSUE · 8224-03 007 · CO
+
+Every curve, box, word and wire group: [1988 - 8224-03-007 - FISHPAPER - DRN DS - ISS 4 (traced).json](1988%20-%208224-03-007%20-%20FISHPAPER%20-%20DRN%20DS%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1988 - 8224-03-007 - FISHPAPER - DRN DS - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

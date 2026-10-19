@@ -15,6 +15,19 @@ Wiki page: [M406](../../../PAGES/M406.md)
 
 - **1968** (month): `JUlY-68` — …E By SIDE ON 1.60 CTRS C,5 CONNELL EScUTCH BLACK AKodize CE JUlY-68 88228 etettereathotcustih Rs_( ALUM throughout OUTLINE Phys…
 
+## Vectors (traced)
+
+- **Sheet:** wiring 406-09-001, size B (assumed) 432 × 305 mm, 1753 × 1240 px traced (0.246 mm/px)
+- **Ink extent:** 13–431 mm across, 0–305 mm up
+- **Outlines:** line 1,143 rings, 9,467 straight (15,286 mm) / 1,745 curved (2,580 mm); text 291 rings, 1,918 straight (1,884 mm) / 527 curved (752 mm)
+- **Centre lines:** 8,047 paths (98 closed); straight 9,356 mm, curved 524 mm; horizontal 3,715 mm, vertical 2,728 mm, diagonal 2,912 mm
+- **Circles and arcs:** 17 circles, 27 arcs; largest r 11.2 @ (125.5, 257.1), r 10.6 @ (196.1, 257.7), r 10.6 @ (160.5, 257.5), r 8.8 @ (196.3, 257.4)
+- **Closed boxes:** 20
+- **Words (OCR):** 42 in 28 lines: 63 · 250 · 6 0- · 1.58 · OTap · FaneL CUTOUT · 51 · 43 · NoTES · DESIGNED FoR MtG S1DE · BY SIDE, ON · 60 CTRS
+- **Wiring (first pass):** 104 connected wire groups from 510 runs; labelled ends: 398 mm → CUTOUT, FaneL; 133 mm → 51; 124 mm → 51; 77 mm → 51; 70 mm → 250, 6 0-
+
+Every curve, box, word and wire group: [1968 - M406 - C 406-09-001 - COMPRESSOR - PACKAGE OUTLINE (traced).json](1968%20-%20M406%20-%20C%20406-09-001%20-%20COMPRESSOR%20-%20PACKAGE%20OUTLINE%20%28traced%29.json) (the CAD file: `1968 - M406 - C 406-09-001 - COMPRESSOR - PACKAGE OUTLINE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

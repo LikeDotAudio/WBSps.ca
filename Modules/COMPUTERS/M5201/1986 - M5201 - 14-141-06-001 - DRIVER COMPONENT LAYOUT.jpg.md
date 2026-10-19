@@ -11,6 +11,16 @@ Wiki page: [M5201](../../../PAGES/M5201.md)
 - **Size:** 7,463,107 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-141-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–429 mm across, 0–286 mm up
+- **Outlines:** line 649 rings, 3,983 straight (6,159 mm) / 1,243 curved (1,240 mm); text 199 rings, 1,140 straight (963 mm) / 364 curved (370 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.5 @ (379.8, 17.0), r 1.5 @ (370.1, 17.1), r 1.5 @ (405.4, 16.9), r 1.4 @ (388.5, 8.7)
+- **Closed boxes:** 18
+
+Every curve, box, word and wire group: [1986 - M5201 - 14-141-06-001 - DRIVER COMPONENT LAYOUT (traced).json](1986%20-%20M5201%20-%2014-141-06-001%20-%20DRIVER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1986 - M5201 - 14-141-06-001 - DRIVER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

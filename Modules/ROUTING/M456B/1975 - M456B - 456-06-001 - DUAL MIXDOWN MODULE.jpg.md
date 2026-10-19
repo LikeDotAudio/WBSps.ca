@@ -11,6 +11,19 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 1,162,991 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 456-06-001, size B (assumed) 432 × 248 mm, 2000 × 1147 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–241 mm up
+- **Outlines:** line 3,638 rings, 23,664 straight (28,889 mm) / 6,994 curved (6,891 mm); text 920 rings, 5,224 straight (4,119 mm) / 1,841 curved (1,903 mm); tb 14 rings, 120 straight (161 mm) / 32 curved (29.9 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 5.8 @ (269.9, 93.7), r 2.5 @ (363.5, 74.6), r 2.5 @ (57.6, 74.3), r 2.5 @ (247.6, 74.0)
+- **Closed boxes:** 46 (3 in the title block); named: SB
+- **Dots (junctions):** 7
+- **Words (OCR):** 41 in 36 lines: 883 · Ji · 849 · 83 88 · 8 3 · 24 · 84 · 13 · 13 · 2 8 · 82 & 62 · 80
+- **Title block:** (350, 2)–(387, 27) mm: WBS WAAD · DILEEB · 93 · CKD; / · BCALE
+
+Every curve, box, word and wire group: [1975 - M456B - 456-06-001 - DUAL MIXDOWN MODULE (traced).json](1975%20-%20M456B%20-%20456-06-001%20-%20DUAL%20MIXDOWN%20MODULE%20%28traced%29.json) (the CAD file: `1975 - M456B - 456-06-001 - DUAL MIXDOWN MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

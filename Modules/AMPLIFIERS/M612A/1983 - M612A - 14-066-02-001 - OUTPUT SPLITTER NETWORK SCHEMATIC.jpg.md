@@ -11,6 +11,19 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 161,007 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-066-02-001, size B (assumed) 339 × 432 mm, 850 × 1084 px traced (0.398 mm/px)
+- **Ink extent:** 0–333 mm across, 9–361 mm up
+- **Outlines:** line 56 rings, 397 straight (833 mm) / 131 curved (306 mm); text 169 rings, 992 straight (1,824 mm) / 312 curved (764 mm); tb 2 rings, 31 straight (138 mm) / 4 curved (16.9 mm)
+- **Centre lines:** 1,330 paths (40 closed); straight 1,867 mm, curved 66.0 mm; horizontal 442 mm, vertical 320 mm, diagonal 1,106 mm
+- **Circles and arcs:** 3 circles, 8 arcs; largest r 1.8 @ (291.4, 24.1), r 1.6 @ (3.9, 236.6), r 1.6 @ (3.9, 217.5)
+- **Words (OCR):** 19 in 14 lines: NOTES: · RESISTORS ARE · 1/2w 59 . · ALL · LAST COMPONENT · DESIGNATION: · To AMPHENOL · 26-159-16 · CONNECTOR · WBS WARD-BECK byotemB · SA14-066 · output SpLitter NETWORK
+- **Title block:** (214, 42)–(339, 67) mm: WBS WARD-BECK byotemB
+- **Wiring (first pass):** 6 connected wire groups from 17 runs
+
+Every curve, box, word and wire group: [1983 - M612A - 14-066-02-001 - OUTPUT SPLITTER NETWORK SCHEMATIC (traced).json](1983%20-%20M612A%20-%2014-066-02-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1983 - M612A - 14-066-02-001 - OUTPUT SPLITTER NETWORK SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

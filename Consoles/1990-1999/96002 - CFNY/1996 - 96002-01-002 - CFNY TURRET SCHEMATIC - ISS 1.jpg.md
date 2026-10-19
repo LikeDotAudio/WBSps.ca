@@ -22,6 +22,20 @@ CFNY turret schematic with headset and select controls.
 - **Size:** 1,188,062 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 96002-01-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 61–431 mm across, 0–298 mm up
+- **Outlines:** line 131 rings, 2,556 straight (8,409 mm) / 334 curved (483 mm); text 271 rings, 1,718 straight (1,912 mm) / 580 curved (799 mm); tb 10 rings, 102 straight (212 mm) / 14 curved (19.8 mm)
+- **Centre lines:** 2,881 paths (54 closed); straight 5,482 mm, curved 106 mm; horizontal 3,077 mm, vertical 1,094 mm, diagonal 1,312 mm
+- **Circles and arcs:** 8 circles, 14 arcs; largest r 1.2 @ (166.8, 190.5), r 1.2 @ (331.2, 189.6), r 1.2 @ (199.6, 190.3), r 1.2 @ (298.3, 189.9)
+- **Closed boxes:** 7 (4 in the title block); named: AC /DC; TMR-1(s); CLK-1
+- **Words (OCR):** 33 in 30 lines: AC /DC · TMR-1(s) · CLK-1 · SLAVE TIMER · CLOCK · COMMON · (IVE · SELECT CONTROLS · 78F · MONITOR · LEVEL CONTROL · (THIS CONTROL ON HOWARD'S TURRET ONLY)
+- **Title block:** (89, 41)–(408, 157) mm: MONITOR · LEVEL CONTROL · (THIS CONTROL ON HOWARD'S TURRET ONLY) · HEADSET · HEADSET · 5K LIN) · HEADSET · POD · HEADSET · OFF · TALKBACK · WES WARD-BECK · SYSTEMS · CFNY
+- **Wiring (first pass):** 35 connected wire groups from 208 runs; labelled ends: 831 mm → SELECT CONTROLS, (IVE; 308 mm → COMMON, (IVE; 164 mm → AC /DC, CLK-1, TMR-1(s); 37 mm → 5K LIN); 30 mm → MONITOR, LEVEL CONTROL
+
+Every curve, box, word and wire group: [1996 - 96002-01-002 - CFNY TURRET SCHEMATIC - ISS 1 (traced).json](1996%20-%2096002-01-002%20-%20CFNY%20TURRET%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 96002-01-002 - CFNY TURRET SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

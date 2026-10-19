@@ -11,6 +11,20 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 330,152 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 432 × 298 mm, 1541 × 1062 px traced (0.280 mm/px)
+- **Ink extent:** 0–432 mm across, 0–298 mm up
+- **Outlines:** line 644 rings, 5,910 straight (14,088 mm) / 1,128 curved (1,734 mm); text 506 rings, 2,893 straight (3,241 mm) / 825 curved (1,344 mm); tb 24 rings, 157 straight (224 mm) / 34 curved (57.2 mm)
+- **Centre lines:** 9,738 paths (158 closed); straight 10,979 mm, curved 92.1 mm; horizontal 3,697 mm, vertical 2,998 mm, diagonal 4,284 mm
+- **Circles and arcs:** 1 circles, 26 arcs; largest r 1.2 @ (307.1, 158.6)
+- **Closed boxes:** 21 (1 in the title block); named: 02-001 4-126
+- **Words (OCR):** 114 in 100 lines: Ha EREQLENEI · 25khz · MD · FRESLENGY (400 Hz 6k4z ) · 35 · 6k2 · R21 · 018 · 221 · 26k 222 · R23 · 6816
+- **Title block:** (342, 5)–(408, 33) mm: WVBS WAAD-Beck byatemb LTD · CE · 4-126 · SCALL · cKD_ · AMPLIFIER SCHEMATIC · TOLS · 4-126 · 02-001
+- **Wiring (first pass):** 93 connected wire groups from 713 runs; labelled ends: 187 mm → 6k2, 23; 185 mm → 433, 845_JED, +21v; 167 mm → 26k, 222, 223; 140 mm → 713; 134 mm → R39, 620, 22 *, 26
+
+Every curve, box, word and wire group: [1974 - M460M - 4-126-02-001 - EQUALIZER FILTER ECALE AMPLIFIER SCHEMATI (traced).json](1974%20-%20M460M%20-%204-126-02-001%20-%20EQUALIZER%20FILTER%20ECALE%20AMPLIFIER%20SCHEMATI%20%28traced%29.json) (the CAD file: `1974 - M460M - 4-126-02-001 - EQUALIZER FILTER ECALE AMPLIFIER SCHEMATI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

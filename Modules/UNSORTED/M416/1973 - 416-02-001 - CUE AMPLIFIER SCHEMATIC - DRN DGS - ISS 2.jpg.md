@@ -24,6 +24,20 @@ Wiki page: [M416](../../../PAGES/M416.md)
 - **Size:** 4,016,807 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 416-02-001, size B 432 × 140 mm, 2000 × 646 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–140 mm up
+- **Outlines:** line 695 rings, 6,139 straight (12,225 mm) / 1,322 curved (1,678 mm); text 265 rings, 1,664 straight (1,414 mm) / 548 curved (666 mm); tb 6 rings, 65 straight (112 mm) / 11 curved (13.3 mm)
+- **Centre lines:** 7,439 paths (192 closed); straight 8,108 mm, curved 175 mm; horizontal 3,401 mm, vertical 2,030 mm, diagonal 2,678 mm
+- **Circles and arcs:** 7 circles, 29 arcs; largest r 3.4 @ (322.6, 57.2), r 3.4 @ (337.9, 48.1), r 1.1 @ (380.4, 6.5), r 1.1 @ (239.5, 76.1)
+- **Closed boxes:** 24; named: R25-; WBS WAAD-Beck; Mtic CUE schematie; 416 02 00
+- **Words (OCR):** 55 in 45 lines: 1N3549 · Crt · 1215, · 6 Be[ · 47Oksv · cie · 470/25v · 410v · 470 · 243569 · 6 Bpf · 075
+- **Title block:** (351, 19)–(409, 29) mm: WBS WAAD-Beck
+- **Wiring (first pass):** 52 connected wire groups from 536 runs; labelled ends: 479 mm → Lasoi, R25-, Rrc, LeveL; 335 mm → WBS, WAAD-Beck; 201 mm → Lasoi, crg; 111 mm → 075, crg, 2r0k, 0.75; 101 mm → AIlnov
+
+Every curve, box, word and wire group: [1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 2 (traced).json](1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

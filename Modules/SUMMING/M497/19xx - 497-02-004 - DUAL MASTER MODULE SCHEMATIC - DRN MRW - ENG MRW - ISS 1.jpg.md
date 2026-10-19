@@ -23,6 +23,20 @@ Wiki page: [M497](../../../PAGES/M497.md)
 - **Size:** 268,945 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 497-02-004, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–432 mm up
+- **Outlines:** line 528 rings, 5,308 straight (8,002 mm) / 1,071 curved (1,318 mm); text 429 rings, 2,892 straight (2,873 mm) / 1,031 curved (1,390 mm); tb 6 rings, 101 straight (182 mm) / 21 curved (31.4 mm)
+- **Centre lines:** 5,617 paths (92 closed); straight 6,422 mm, curved 290 mm; horizontal 2,680 mm, vertical 984 mm, diagonal 2,758 mm
+- **Circles and arcs:** 8 circles, 75 arcs; largest r 1.2 @ (155.4, 361.0), r 1.2 @ (154.8, 217.3), r 1.2 @ (154.7, 346.1), r 1.1 @ (155.0, 196.7)
+- **Closed boxes:** 11 (5 in the title block); named: 497-02-00
+- **Words (OCR):** 69 in 62 lines: NQTES · ALL RESiSToRS W,5 % AND · ALL · CAPACiTORS · Af UMLESS · Otherwise SpeciFied. · 2,LAST COMPCNENT DESIGNATION · 224,(R4,06,R194Z6_ · 3. USE · PcB 7-113 · 2iv · SeRT
+- **Title block:** (233, 25)–(313, 58) mm: IssuDate · WBS · WARD-Duck · Maw · Ma97d
+- **Wiring (first pass):** 74 connected wire groups from 262 runs; labelled ends: 94 mm → WBS, Maw; 46 mm → 2E2; 36 mm → 235, 3k, Iei; 33 mm → 2k; 33 mm → IEZ
+
+Every curve, box, word and wire group: [19xx - 497-02-004 - DUAL MASTER MODULE SCHEMATIC - DRN MRW - ENG MRW - ISS 1 (traced).json](19xx%20-%20497-02-004%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 497-02-004 - DUAL MASTER MODULE SCHEMATIC - DRN MRW - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

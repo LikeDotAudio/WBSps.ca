@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,672,247 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940238-03-005, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–422 mm across, 1–272 mm up
+- **Outlines:** line 862 rings, 6,191 straight (13,244 mm) / 1,381 curved (2,344 mm); text 348 rings, 2,053 straight (1,902 mm) / 670 curved (822 mm); tb 21 rings, 161 straight (190 mm) / 44 curved (47.3 mm)
+- **Centre lines:** 11,784 paths (241 closed); straight 9,576 mm, curved 800 mm; horizontal 2,589 mm, vertical 3,159 mm, diagonal 3,828 mm
+- **Circles and arcs:** 23 circles, 22 arcs; largest r 64.1 @ (352.3, 187.7), r 7.4 @ (208.8, 93.6), r 7.4 @ (208.7, 61.0), r 2.6 @ (211.6, 96.7)
+- **Closed boxes:** 42 (4 in the title block); named: WOcE Phore Vonitok; WOcE Phore; Vonitok; MgO5NW CONTROLLER MONITOR MODULE; CCAF; 940238-03-005
+- **Dots (junctions):** 2
+- **Words (OCR):** 43 in 37 lines: 5 33 · 02801 JONCC Sx · 0200 · PUNCH 0Jad · ACAR CF · O.8C0 · 0,070 · 0,095 · 6.610 · SFCTC · Phore · WOcE
+- **Title block:** (343, 23)–(427, 39) mm: WBS · WARD-BECK SYSTEMS · MgO5NW
+
+Every curve, box, word and wire group: [1994 - 940238 - DOC - 940238-03-005 - HODE HEAD PHONE MODE HEAO PHONE (traced).json](1994%20-%20940238%20-%20DOC%20-%20940238-03-005%20-%20HODE%20HEAD%20PHONE%20MODE%20HEAO%20PHONE%20%28traced%29.json) (the CAD file: `1994 - 940238 - DOC - 940238-03-005 - HODE HEAD PHONE MODE HEAO PHONE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

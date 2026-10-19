@@ -1,0 +1,97 @@
+{
+ "code": "M718A",
+ "name": null,
+ "derived": true,
+ "variant_of": "M718",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 54,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "+10 TO +25 VOLTS DC",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "756347c755f74c0646729efff344d8968f5dc39ca703e7f833f89a210ddf1710",
+    "file": "Modules/COMMUNICATION/M718/1995 - M718 - 718-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Power Supply The +10 to +25 volts dc applied at pin 1 of the edge connector is supplied to the switching regulator U9 through fuse F1, filtering capacitor C10 and protection circuitry CR23 and R51.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "33",
+   "row": 33,
+   "side": "num",
+   "signal": "BUSY TALLY OUTPUT",
+   "kind": "control",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "756347c755f74c0646729efff344d8968f5dc39ca703e7f833f89a210ddf1710",
+    "file": "Modules/COMMUNICATION/M718/1995 - M718 - 718-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The busy tally output on edge connector pin 33 is an open collector output capable of sinking 30 mA.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "48",
+   "row": 48,
+   "side": "num",
+   "signal": "TALKBACK ADDRESS OUTPUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "756347c755f74c0646729efff344d8968f5dc39ca703e7f833f89a210ddf1710",
+    "file": "Modules/COMMUNICATION/M718/1995 - M718 - 718-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The talkback address output is a four bit binary code with the LSB on edge connector pin 54 and the MSB on edge connector pin 48.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "54",
+   "row": 54,
+   "side": "num",
+   "signal": "TALKBACK ADDRESS OUTPUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "756347c755f74c0646729efff344d8968f5dc39ca703e7f833f89a210ddf1710",
+    "file": "Modules/COMMUNICATION/M718/1995 - M718 - 718-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The talkback address output is a four bit binary code with the LSB on edge connector pin 54 and the MSB on edge connector pin 48.",
+   "also": [],
+   "from_conf": "medium"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

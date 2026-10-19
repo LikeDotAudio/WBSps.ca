@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,619,512 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940238-04-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 281 rings, 2,364 straight (6,494 mm) / 462 curved (766 mm); text 66 rings, 379 straight (386 mm) / 138 curved (199 mm)
+- **Circles and arcs:** 20 circles, 0 arcs; largest r 3.7 @ (177.5, 176.8), r 3.6 @ (417.7, 169.7), r 3.6 @ (6.7, 169.6), r 3.0 @ (177.5, 176.8)
+- **Closed boxes:** 16
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940238-04-003 - MIOINW STEREO LINE INPUT MODULE LAYOUT (traced).json](1994%20-%20Renaisance%20-%20940238-04-003%20-%20MIOINW%20STEREO%20LINE%20INPUT%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940238-04-003 - MIOINW STEREO LINE INPUT MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

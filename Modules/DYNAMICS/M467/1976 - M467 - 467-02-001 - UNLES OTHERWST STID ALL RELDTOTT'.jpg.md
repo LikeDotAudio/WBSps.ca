@@ -11,6 +11,20 @@ Wiki page: [M467](../../../PAGES/M467.md)
 - **Size:** 405,431 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 467-02-001, size B (assumed) 432 × 285 mm, 2000 × 1321 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–285 mm up
+- **Outlines:** line 881 rings, 11,008 straight (17,279 mm) / 2,752 curved (3,513 mm); text 114 rings, 886 straight (808 mm) / 309 curved (385 mm)
+- **Centre lines:** 12,875 paths (121 closed); straight 11,529 mm, curved 345 mm; horizontal 3,410 mm, vertical 3,253 mm, diagonal 4,867 mm
+- **Circles and arcs:** 5 circles, 79 arcs; largest r 3.3 @ (216.6, 227.2), r 3.2 @ (370.5, 243.4), r 3.2 @ (353.6, 201.7), r 3.1 @ (353.7, 237.4)
+- **Closed boxes:** 6
+- **Dots (junctions):** 2
+- **Words (OCR):** 31 in 31 lines: 25++ · Rct · soon · 1211 · Hreshold · R7o · Dil) · 2sv- · Chuss · L4235 · LhZol · Ioo7
+- **Wiring (first pass):** 166 connected wire groups from 1,039 runs; labelled ends: 133 mm → NG inseRT; 123 mm → 811; 100 mm → Tla; 75 mm → 8-1091; 69 mm → METER MCDU:
+
+Every curve, box, word and wire group: [1976 - M467 - 467-02-001 - UNLES OTHERWST STID ALL RELDTOTT' (traced).json](1976%20-%20M467%20-%20467-02-001%20-%20UNLES%20OTHERWST%20STID%20ALL%20RELDTOTT%27%20%28traced%29.json) (the CAD file: `1976 - M467 - 467-02-001 - UNLES OTHERWST STID ALL RELDTOTT' (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

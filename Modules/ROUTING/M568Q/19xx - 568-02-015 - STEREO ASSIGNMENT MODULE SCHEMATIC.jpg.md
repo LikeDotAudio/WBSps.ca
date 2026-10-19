@@ -21,6 +21,19 @@ Stereo assignment module schematic, title block at bottom left reading sideways.
 - **Size:** 4,742,344 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 568-02-015, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–285 mm up
+- **Outlines:** line 647 rings, 8,655 straight (13,175 mm) / 1,404 curved (1,717 mm); text 57 rings, 358 straight (353 mm) / 134 curved (188 mm)
+- **Centre lines:** 7,409 paths (65 closed); straight 7,656 mm, curved 69.2 mm; horizontal 3,108 mm, vertical 2,472 mm, diagonal 2,076 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 2.0 @ (118.5, 68.4), r 1.1 @ (415.8, 18.0)
+- **Closed boxes:** 43
+- **Dots (junctions):** 3
+- **Wiring (first pass):** 109 connected wire groups from 830 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 568-02-015 - STEREO ASSIGNMENT MODULE SCHEMATIC (traced).json](19xx%20-%20568-02-015%20-%20STEREO%20ASSIGNMENT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 568-02-015 - STEREO ASSIGNMENT MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

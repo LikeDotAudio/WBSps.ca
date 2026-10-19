@@ -11,6 +11,20 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 665,053 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 457-01-001, size B (assumed) 432 × 271 mm, 2000 × 1257 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–270 mm up
+- **Outlines:** line 237 rings, 5,353 straight (11,068 mm) / 647 curved (890 mm); text 352 rings, 2,757 straight (3,051 mm) / 861 curved (1,234 mm); tb 8 rings, 121 straight (271 mm) / 17 curved (25.0 mm)
+- **Centre lines:** 5,488 paths (61 closed); straight 8,148 mm, curved 145 mm; horizontal 3,786 mm, vertical 1,763 mm, diagonal 2,599 mm
+- **Circles and arcs:** 2 circles, 31 arcs; largest r 1.0 @ (406.6, 150.2), r 0.8 @ (251.9, 221.3)
+- **Closed boxes:** 12 (5 in the title block); named: 457-01 - 001
+- **Words (OCR):** 56 in 51 lines: LEVEL · Mic Input · PRE · 60/-30 dBm · (-10dB) · LINE · INPUT · -15/+15dBm · Mic INPUT · PRE · 60/-30dBm · LINE  INPUT }
+- **Title block:** (290, 6)–(432, 80) mm: REDRAWN · 10/77 · JISSUE |DATE · REVISION · WBS · WARD-BECK SYSTEME · DRN DB · M457 · 4x2 PRE-MIXER · MODULE · ENG _ RKB · CKD. · FUNCTIONAL DIAGRAM · APP · ScALE · ISSUE · 457-01 - 001
+- **Wiring (first pass):** 124 connected wire groups from 282 runs; labelled ends: 233 mm → 6-101; 99 mm → BST; 96 mm → BST; 96 mm → BST; 76 mm → INPUT 1, 60/-30 dBm
+
+Every curve, box, word and wire group: [1975 - M457 - 457-01-001 - PRE SUMMING OUTPUT LINE INPUT (traced).json](1975%20-%20M457%20-%20457-01-001%20-%20PRE%20SUMMING%20OUTPUT%20LINE%20INPUT%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-01-001 - PRE SUMMING OUTPUT LINE INPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

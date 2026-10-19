@@ -11,6 +11,18 @@ Wiki page: [M497C](../../../PAGES/M497C.md)
 - **Size:** 886,447 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 497-02-003, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 4–402 mm up
+- **Outlines:** line 413 rings, 7,983 straight (12,904 mm) / 1,593 curved (2,230 mm); text 369 rings, 3,015 straight (2,870 mm) / 1,069 curved (1,483 mm)
+- **Centre lines:** 8,579 paths (84 closed); straight 9,514 mm, curved 535 mm; horizontal 3,054 mm, vertical 2,373 mm, diagonal 4,087 mm
+- **Circles and arcs:** 6 circles, 120 arcs; largest r 4.8 @ (140.6, 108.3), r 4.8 @ (104.7, 60.5), r 4.7 @ (106.5, 113.9), r 1.2 @ (161.9, 388.5)
+- **Words (OCR):** 128 in 126 lines: 620 · 2p · INSERT · Oabn · Suhming · 330/6 · C22 · R76 · R3s · ss/i0 · Rs · Ri7
+- **Wiring (first pass):** 100 connected wire groups from 666 runs; labelled ends: 310 mm → C2), 22/15, (25, C27; 181 mm → Rio, Ra, IIk, Cii_; 167 mm → rx, Riz, ciz, Lsoi; 159 mm → Rze, Lsoi, RZ4, Iooe; 158 mm → C22, ss/i0, '12p, R25
+
+Every curve, box, word and wire group: [1978 - M497C - 497-02-003 - SOT SOT REE CRI TIP (traced).json](1978%20-%20M497C%20-%20497-02-003%20-%20SOT%20SOT%20REE%20CRI%20TIP%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-02-003 - SOT SOT REE CRI TIP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

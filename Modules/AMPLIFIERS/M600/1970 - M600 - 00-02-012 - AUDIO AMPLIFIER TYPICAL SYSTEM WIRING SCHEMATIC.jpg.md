@@ -11,6 +11,19 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 713,283 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 00-02-012, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 12–341 mm up
+- **Outlines:** line 23 rings, 683 straight (1,684 mm) / 96 curved (136 mm); text 146 rings, 1,152 straight (1,419 mm) / 332 curved (525 mm); tb 3 rings, 68 straight (156 mm) / 5 curved (6.4 mm)
+- **Centre lines:** 1,022 paths (19 closed); straight 1,924 mm, curved 0.0 mm; horizontal 564 mm, vertical 718 mm, diagonal 642 mm
+- **Closed boxes:** 3; named: M468 PST
+- **Words (OCR):** 20 in 14 lines: 2,3 · M468 · 10. · PST · 50/60 Hz · M1SV AC · ITED · BAR · WBS WARD-BECK SYSTEMS · M600 · AUDIO AMPLIFIER · TYPICAL SYSTEM WIRING SCHEMATIC
+- **Title block:** (205, 48)–(333, 73) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 6 connected wire groups from 48 runs; labelled ends: 530 mm → 2,3, 10., ITED, BAR; 52 mm → 2,3; 21 mm → ITED, BAR
+
+Every curve, box, word and wire group: [1970 - M600 - 00-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC (traced).json](1970%20-%20M600%20-%2000-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1970 - M600 - 00-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

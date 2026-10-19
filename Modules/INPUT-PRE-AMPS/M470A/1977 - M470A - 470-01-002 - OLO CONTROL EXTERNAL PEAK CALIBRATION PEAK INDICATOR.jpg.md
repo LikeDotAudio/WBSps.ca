@@ -11,6 +11,20 @@ Wiki page: [M470A](../../../PAGES/M470A.md)
 - **Size:** 112,113 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 470-01-002, size B (assumed) 432 × 284 mm, 1609 × 1057 px traced (0.268 mm/px)
+- **Ink extent:** 0–432 mm across, 1–284 mm up
+- **Outlines:** line 393 rings, 4,359 straight (13,736 mm) / 507 curved (789 mm); text 677 rings, 3,954 straight (5,023 mm) / 1,308 curved (2,154 mm); tb 19 rings, 170 straight (358 mm) / 27 curved (53.6 mm)
+- **Centre lines:** 6,593 paths (116 closed); straight 10,462 mm, curved 90.3 mm; horizontal 4,102 mm, vertical 2,632 mm, diagonal 3,729 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 3.4 @ (220.2, 199.1), r 3.3 @ (179.6, 198.8), r 3.3 @ (241.9, 93.1)
+- **Closed boxes:** 19 (8 in the title block); named: 11/77; 470-01-002; SCALE
+- **Words (OCR):** 111 in 103 lines: mic/line · DIRECT OUTput · Mic INPUT · SELECTOR · SUB · dBm · BRIDGING · 60 /-10 dBm · CTL Com · 150 Ohms · MSTR · 51
+- **Title block:** (287, 4)–(432, 79) mm: 11/77 · DC · 10/77 · REDRAWN · ISSUE · DATE · REVISION · APF · WBS · WARD-BECK · SYSTEMS · DRN GEB · M4zOA · ENG RKB · INPUT MODULE · FUNCTIONAL · DIAGRAM · APP · SCALE · ISSUE · 470-01-002
+- **Wiring (first pass):** 210 connected wire groups from 521 runs; labelled ends: 240 mm → BST; 166 mm → CONTROL; 92 mm → JACKS, 0 dBm, CHAN, ON; 89 mm → INSERT; 58 mm → DC, 11/77, 10/77, DATE
+
+Every curve, box, word and wire group: [1977 - M470A - 470-01-002 - OLO CONTROL EXTERNAL PEAK CALIBRATION PEAK INDICATOR (traced).json](1977%20-%20M470A%20-%20470-01-002%20-%20OLO%20CONTROL%20EXTERNAL%20PEAK%20CALIBRATION%20PEAK%20INDICATOR%20%28traced%29.json) (the CAD file: `1977 - M470A - 470-01-002 - OLO CONTROL EXTERNAL PEAK CALIBRATION PEAK INDICATOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

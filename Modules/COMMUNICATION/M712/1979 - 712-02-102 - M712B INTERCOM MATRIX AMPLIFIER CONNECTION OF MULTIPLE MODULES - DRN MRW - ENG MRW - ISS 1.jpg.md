@@ -23,6 +23,20 @@ Wiki page: [M712](../../../PAGES/M712.md)
 - **Size:** 1,361,506 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 712-02-102, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–560 mm up
+- **Outlines:** line 1,399 rings, 10,615 straight (37,606 mm) / 1,747 curved (4,348 mm); text 191 rings, 1,342 straight (2,598 mm) / 444 curved (1,108 mm); tb 15 rings, 178 straight (375 mm) / 41 curved (97.5 mm)
+- **Centre lines:** 16,186 paths (247 closed); straight 26,560 mm, curved 41.6 mm; horizontal 7,974 mm, vertical 10,150 mm, diagonal 8,437 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 15 (3 in the title block); named: L7om; 102
+- **Words (OCR):** 26 in 24 lines: IYB Mc_INPUT · +846 · CARLOu - · L7om · REHOTE · Dyu( CARBDN · GELECT · MATRIX INPUTS · MAIRIX_QUTPUTS · TYP; HDsT OutPUT · 4k · Noh
+- **Title block:** (710, 38)–(864, 72) mm: WBS WARD-DeCk SYSTEMS · M7128
+- **Wiring (first pass):** 406 connected wire groups from 1,706 runs; labelled ends: 813 mm → WBS, INTERCOM MATRiX Amplifier, CONNECTION Of MulTiPlE MODULES; 385 mm → 2x21k}; 244 mm → INPUTS; 243 mm → CONTROLS; 220 mm → LOOPED
+
+Every curve, box, word and wire group: [1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1 (traced).json](1979%20-%20712-02-102%20-%20M712B%20INTERCOM%20MATRIX%20AMPLIFIER%20CONNECTION%20OF%20MULTIPLE%20MODULES%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

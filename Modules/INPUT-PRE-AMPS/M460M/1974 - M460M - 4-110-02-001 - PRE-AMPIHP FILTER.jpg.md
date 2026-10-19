@@ -11,6 +11,20 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 1,410,660 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-110-02-001, size B (assumed) 432 × 297 mm, 2000 × 1375 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–297 mm up
+- **Outlines:** line 428 rings, 8,479 straight (15,442 mm) / 1,228 curved (1,694 mm); text 758 rings, 6,491 straight (8,120 mm) / 1,841 curved (2,956 mm); tb 53 rings, 437 straight (642 mm) / 83 curved (107 mm)
+- **Centre lines:** 15,038 paths (134 closed); straight 16,000 mm, curved 291 mm; horizontal 5,787 mm, vertical 3,142 mm, diagonal 7,071 mm
+- **Circles and arcs:** 6 circles, 25 arcs; largest r 6.5 @ (155.6, 227.7), r 6.4 @ (88.2, 196.3), r 6.2 @ (198.2, 237.8), r 6.2 @ (123.1, 196.1)
+- **Closed boxes:** 27 (22 in the title block); named: FINISH; 4-110-02-001; ML
+- **Words (OCR):** 129 in 119 lines: PRE · AMPLIFIER · HIGH · PASS FILTER · E4 · +21v · R4 · R5 · C12 · C6 · 22k · 18
+- **Title block:** (142, 12)–(386, 64) mm: ISS MOD [CKD_ · USEDON · MATL · WBS WARD-BECK · 4-Iio · DRN · Ro · osla · DATE 8MARZ4 · 4-110 · FINISH · PRE-AMP/HP FILTER · CKD · 3uv_ · Rc · [SCALE · SCHEMATIC · Zb5911PKM · ToLs · 4-110-02-001
+- **Wiring (first pass):** 60 connected wire groups from 372 runs; labelled ends: 532 mm → E4, +21v, R5, 18; 365 mm → C12, 33/10, Q4, 2N4403; 255 mm → R12, 1k5, 150, E9; 174 mm → 47pF, 2N5209, R6, 20k; 172 mm → 1k5, LAST, COMPONENT, C7
+
+Every curve, box, word and wire group: [1974 - M460M - 4-110-02-001 - PRE-AMPIHP FILTER (traced).json](1974%20-%20M460M%20-%204-110-02-001%20-%20PRE-AMPIHP%20FILTER%20%28traced%29.json) (the CAD file: `1974 - M460M - 4-110-02-001 - PRE-AMPIHP FILTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

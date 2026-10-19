@@ -1,0 +1,177 @@
+{
+ "code": "M702",
+ "name": "Intercom Output Amplifier",
+ "derived": true,
+ "variant_of": "M702D",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "POWERED BY A +32 VOLT DC UNREGULATED",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9c0f308a4a394e58de4b7d6b91551bd71a6ca3005be3b605370209462aaddf8d",
+    "file": "Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The module is powered by a +32 volt DC unregulated power source, connected to pins 13 and P of the module connector.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "POWERED BY A +32 VOLT DC UNREGULATED",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9c0f308a4a394e58de4b7d6b91551bd71a6ca3005be3b605370209462aaddf8d",
+    "file": "Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The module is powered by a +32 volt DC unregulated power source, connected to pins 13 and P of the module connector.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "INPUT",
+   "kind": "in",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9c0f308a4a394e58de4b7d6b91551bd71a6ca3005be3b605370209462aaddf8d",
+    "file": "Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd",
+    "page": 1
+   },
+   "quote": "Input The input is applied to pins U and V of the module connector and is coupled by C201 and C202 to two separate resistive networks followed by two solid state switches.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "INPUT",
+   "kind": "in",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9c0f308a4a394e58de4b7d6b91551bd71a6ca3005be3b605370209462aaddf8d",
+    "file": "Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd",
+    "page": 1
+   },
+   "quote": "Input The input is applied to pins U and V of the module connector and is coupled by C201 and C202 to two separate resistive networks followed by two solid state switches.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "W",
+   "row": 19,
+   "side": "letter",
+   "signal": "600 OHM OUTPUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9c0f308a4a394e58de4b7d6b91551bd71a6ca3005be3b605370209462aaddf8d",
+    "file": "Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd",
+    "page": 1
+   },
+   "quote": "This is available at the module connector pins W and X.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "600 OHM OUTPUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9c0f308a4a394e58de4b7d6b91551bd71a6ca3005be3b605370209462aaddf8d",
+    "file": "Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd",
+    "page": 1
+   },
+   "quote": "This is available at the module connector pins W and X.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "ITS OUTPUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9c0f308a4a394e58de4b7d6b91551bd71a6ca3005be3b605370209462aaddf8d",
+    "file": "Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd",
+    "page": 1
+   },
+   "quote": "Its output appears at module connector pins 21 and Y.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "ITS OUTPUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9c0f308a4a394e58de4b7d6b91551bd71a6ca3005be3b605370209462aaddf8d",
+    "file": "Modules/COMMUNICATION/M702D/1996 - M702D - file.wpd",
+    "page": 1
+   },
+   "quote": "Its output appears at module connector pins 21 and Y.",
+   "also": [],
+   "from_conf": "medium"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

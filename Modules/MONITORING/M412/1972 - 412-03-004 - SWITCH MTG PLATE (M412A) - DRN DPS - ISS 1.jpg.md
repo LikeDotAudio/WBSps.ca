@@ -28,6 +28,19 @@ Mechanical drawing of an M412A switch mounting plate with hole details, title bl
 
 - **1972** (labelled): `Date 23 FEb. 72` — …e {R ETHSdh "GLE ' firisk 120 GrIT ARN D. P.$ cLear ALODINE Date 23 FEb. 72 Material Chd 14 GA (.064) AL; ALLo Y ScalE Mard BeCK SYSTER…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 412-03-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 453 rings, 7,675 straight (12,576 mm) / 1,132 curved (1,595 mm); text 383 rings, 2,946 straight (3,365 mm) / 858 curved (1,349 mm); tb 14 rings, 93 straight (77.6 mm) / 22 curved (27.2 mm)
+- **Centre lines:** 9,798 paths (95 closed); straight 10,226 mm, curved 224 mm; horizontal 4,568 mm, vertical 2,310 mm, diagonal 3,349 mm
+- **Circles and arcs:** 2 circles, 26 arcs; largest r 7.0 @ (240.8, 175.0), r 1.3 @ (261.4, 52.1)
+- **Closed boxes:** 3 (1 in the title block); named: TOLs
+- **Words (OCR):** 69 in 50 lines: 5.75 · 4.42 · 45 · 2 . 86 · Lel · Klo · 312 · 350 · 700 · HeL E · DEIALS · 093 DIA
+- **Title block:** (263, 21)–(382, 60) mm: Mard BECK SYSTENIS LID · DRN · swITCH MTG PLATE · DATE · 23.FEB. 72 · (m 41,2
+
+Every curve, box, word and wire group: [1972 - 412-03-004 - SWITCH MTG PLATE (M412A) - DRN DPS - ISS 1 (traced).json](1972%20-%20412-03-004%20-%20SWITCH%20MTG%20PLATE%20%28M412A%29%20-%20DRN%20DPS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1972 - 412-03-004 - SWITCH MTG PLATE (M412A) - DRN DPS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

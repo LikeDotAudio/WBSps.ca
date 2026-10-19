@@ -21,6 +21,20 @@ Wiki page: [M922](../../../PAGES/M922.md)
 - **Size:** 938,846 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 922-03-001, size D 864 × 569 mm, 2000 × 1317 px traced (0.432 mm/px)
+- **Ink extent:** 2–863 mm across, 0–526 mm up
+- **Outlines:** line 869 rings, 6,077 straight (21,620 mm) / 1,333 curved (4,249 mm); text 304 rings, 1,882 straight (3,588 mm) / 576 curved (1,472 mm); tb 21 rings, 140 straight (362 mm) / 22 curved (48.3 mm)
+- **Centre lines:** 12,424 paths (284 closed); straight 17,144 mm, curved 1,029 mm; horizontal 4,879 mm, vertical 4,441 mm, diagonal 7,823 mm
+- **Circles and arcs:** 11 circles, 29 arcs; largest r 130.8 @ (721.9, 391.5), r 3.8 @ (474.8, 390.8), r 3.8 @ (319.2, 193.6), r 3.8 @ (472.6, 192.2)
+- **Closed boxes:** 57 (5 in the title block); named: M922/M922A STEREO EQUALIZER MODULE; SCALC; Icisc ND; 922-03-001; LCOE;
+- **Dots (junctions):** 1
+- **Words (OCR):** 39 in 33 lines: REC @ · 938 · Cs · 0200 · SHCNSAtiON · RAD CQ · 0,070 · (0.03 · 0.DS · FAR SIDE · 1675 · (SCHE #1)
+- **Title block:** (702, 54)–(864, 88) mm: REMSIC · WBS WARD · BECK SYSTEMS · M922/M922A
+
+Every curve, box, word and wire group: [19xx - 922-03-001 - M922A STEREO EQUALIZER MODULE - DRN DRG - ISS 3 (traced).json](19xx%20-%20922-03-001%20-%20M922A%20STEREO%20EQUALIZER%20MODULE%20-%20DRN%20DRG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 922-03-001 - M922A STEREO EQUALIZER MODULE - DRN DRG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

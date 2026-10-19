@@ -11,6 +11,18 @@ Wiki page: [M5200A](../../../PAGES/M5200A.md)
 - **Size:** 4,385,905 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-096-02-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 63–432 mm across, 18–303 mm up
+- **Outlines:** line 193 rings, 1,781 straight (4,817 mm) / 374 curved (506 mm); text 191 rings, 1,094 straight (1,153 mm) / 386 curved (512 mm)
+- **Centre lines:** 2,179 paths (51 closed); straight 3,333 mm, curved 134 mm; horizontal 1,461 mm, vertical 962 mm, diagonal 911 mm
+- **Circles and arcs:** 6 circles, 21 arcs; largest r 3.3 @ (289.9, 167.1), r 3.3 @ (250.1, 166.9), r 1.2 @ (361.8, 27.8), r 1.2 @ (225.0, 164.8)
+- **Closed boxes:** 1
+- **Wiring (first pass):** 24 connected wire groups from 156 runs
+
+Every curve, box, word and wire group: [1985 - M5200A - 14-096-02-001 - ASSEMBLY SCHEMATIC (traced).json](1985%20-%20M5200A%20-%2014-096-02-001%20-%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200A - 14-096-02-001 - ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

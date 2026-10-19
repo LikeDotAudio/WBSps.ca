@@ -22,6 +22,21 @@ Wiki page: [M454](../../../PAGES/M454.md)
 - **Size:** 1,476,015 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 454-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 13–298 mm up
+- **Outlines:** line 426 rings, 6,285 straight (11,479 mm) / 1,258 curved (1,794 mm); text 337 rings, 2,492 straight (2,909 mm) / 689 curved (993 mm); tb 67 rings, 534 straight (571 mm) / 146 curved (177 mm)
+- **Centre lines:** 8,830 paths (141 closed); straight 9,407 mm, curved 545 mm; horizontal 2,883 mm, vertical 2,799 mm, diagonal 3,724 mm
+- **Circles and arcs:** 49 circles, 54 arcs; largest r 1.5 @ (334.6, 237.6), r 1.4 @ (334.7, 221.3), r 1.3 @ (154.3, 174.6), r 1.3 @ (227.4, 157.6)
+- **Closed boxes:** 9 (7 in the title block)
+- **Dots (junctions):** 3
+- **Words (OCR):** 25 in 22 lines: Ji · 19 · aFEEEEEEE · IV · 00 · Inovkz RE DRAWN · ISSUE (DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · Nov[82
+- **Title block:** (279, 12)–(432, 86) mm: Inovkz RE DRAWN · ISSUE (DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · Nov[82 · ENG_ · M454 · SLATE · AssiGn · CKD: · MOpULE · APP · SCALE · ISSUE · 454 02-00|
+- **Wiring (first pass):** 50 connected wire groups from 445 runs, 11 dotted junctions; labelled ends: 380 mm → aFEEEEEEE, Ji, IV; 105 mm → aFEEEEEEE; 103 mm → Ji, IV; 98 mm → Ji, aFEEEEEEE; 38 mm → Ji
+
+Every curve, box, word and wire group: [1982 - 454-02-001 - SLATE ASSIGN MODULE - DRN D.N. NOV-82 - ISS 2 (traced).json](1982%20-%20454-02-001%20-%20SLATE%20ASSIGN%20MODULE%20-%20DRN%20D.N.%20NOV-82%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1982 - 454-02-001 - SLATE ASSIGN MODULE - DRN D.N. NOV-82 - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

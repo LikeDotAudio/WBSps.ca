@@ -23,6 +23,17 @@ Centennial College desk top/desk mount turret layouts with title block at bottom
 - **Size:** 431,187 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940248-04-001, size D 864 × 556 mm, 2000 × 1287 px traced (0.432 mm/px)
+- **Ink extent:** 0–859 mm across, 8–554 mm up
+- **Outlines:** line 570 rings, 3,807 straight (25,730 mm) / 971 curved (2,919 mm); text 188 rings, 1,171 straight (2,390 mm) / 376 curved (970 mm)
+- **Circles and arcs:** 35 circles, 0 arcs; largest r 9.1 @ (255.6, 362.6), r 9.1 @ (627.1, 362.9), r 9.1 @ (315.2, 362.7), r 9.0 @ (315.1, 327.2)
+- **Closed boxes:** 47; named: TeRCO SPEAKER HEADSET; TeRCO SPEAKER HEADSET; HEADSET; READSET; READSET; 940248-04-001; 0424L01
+- **Words (OCR):** 22 in 19 lines: TeRCO · SPEAKER · HEADSET · HEADSET · VETCR CKELC · CONNECTO? · TOP · VIEW · READSET · ERONT · WARD-BECK   SYSTEMS · WB3Ss
+
+Every curve, box, word and wire group: [1994 - 940248-04-001 - CENTENNIAL COLLEGE DESK TOP DESK MOUNT TURRET LAYOUTS - DRN DRG - ISS 2 (traced).json](1994%20-%20940248-04-001%20-%20CENTENNIAL%20COLLEGE%20DESK%20TOP%20DESK%20MOUNT%20TURRET%20LAYOUTS%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940248-04-001 - CENTENNIAL COLLEGE DESK TOP DESK MOUNT TURRET LAYOUTS - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

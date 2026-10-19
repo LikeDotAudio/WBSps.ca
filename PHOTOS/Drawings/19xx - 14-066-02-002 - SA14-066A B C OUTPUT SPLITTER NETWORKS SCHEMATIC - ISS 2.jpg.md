@@ -22,6 +22,19 @@ Notes portion of the SA14-066 output splitter networks schematic.
 - **Size:** 184,699 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-066-02-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 4–431 mm up
+- **Outlines:** line 159 rings, 1,920 straight (1,482 mm) / 372 curved (383 mm); text 417 rings, 3,471 straight (4,035 mm) / 989 curved (1,591 mm); tb 2 rings, 77 straight (148 mm) / 4 curved (10.1 mm)
+- **Centre lines:** 8,178 paths (84 closed); straight 4,743 mm, curved 19.2 mm; horizontal 1,104 mm, vertical 965 mm, diagonal 2,675 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Words (OCR):** 36 in 25 lines: NQTES: · ALL · RESISTORS ARE · 1/2w 576 . · LAST COMPONENT · DESIGNAT ION: RL. · SA1L-O66A usES COMPONENT · LAYoUT · 814-066-06-002 · SA1L-0663 USES · COMPONENT LAYOUT · 814-066-06-003.
+- **Title block:** (199, 54)–(326, 80) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 4 connected wire groups from 29 runs
+
+Every curve, box, word and wire group: [19xx - 14-066-02-002 - SA14-066A B C OUTPUT SPLITTER NETWORKS SCHEMATIC - ISS 2 (traced).json](19xx%20-%2014-066-02-002%20-%20SA14-066A%20B%20C%20OUTPUT%20SPLITTER%20NETWORKS%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 14-066-02-002 - SA14-066A B C OUTPUT SPLITTER NETWORKS SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

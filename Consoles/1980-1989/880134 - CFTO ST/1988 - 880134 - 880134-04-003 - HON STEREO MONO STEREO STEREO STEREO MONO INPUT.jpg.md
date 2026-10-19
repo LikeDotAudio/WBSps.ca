@@ -11,6 +11,16 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,171,218 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 186 rings, 5,347 straight (16,364 mm) / 547 curved (822 mm); text 383 rings, 2,520 straight (2,682 mm) / 731 curved (1,024 mm)
+- **Closed boxes:** 14; named: M522A STEREO EQUALIZER (12); Il; M523 SUBMASTER MODULES; M527 MASTER MODULES; STEREO INPUT FADERS (12); STEREO SUBMASTER FADERS; STEREO MASTER FADERS; MONO MASTER FADERS
+- **Words (OCR):** 47 in 43 lines: 22 · M522A · FUTURE · UALIZER · STEREO EQUALIZER · PROCESSING MODULES · (12) · (12) · 20 · M521A · M524A · M523
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-003 - HON STEREO MONO STEREO STEREO STEREO MONO INPUT (traced).json](1988%20-%20880134%20-%20880134-04-003%20-%20HON%20STEREO%20MONO%20STEREO%20STEREO%20STEREO%20MONO%20INPUT%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-003 - HON STEREO MONO STEREO STEREO STEREO MONO INPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

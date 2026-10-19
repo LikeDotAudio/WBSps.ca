@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,290,463 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 702-03-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: M: |zxX
+- **Ink extent:** 52–432 mm across, 2–298 mm up
+- **Outlines:** line 109 rings, 1,815 straight (7,612 mm) / 154 curved (257 mm); text 452 rings, 2,897 straight (3,695 mm) / 873 curved (1,313 mm); tb 3 rings, 78 straight (202 mm) / 2 curved (2.6 mm)
+- **Centre lines:** 2,850 paths (73 closed); straight 6,484 mm, curved 29.5 mm; horizontal 2,600 mm, vertical 1,979 mm, diagonal 1,905 mm
+- **Circles and arcs:** 0 circles, 8 arcs
+- **Closed boxes:** 19 (14 in the title block); named: SCALE 2:1; CODE: M702-3
+- **Words (OCR):** 65 in 49 lines: 25 · 0.950- · 690 · 388 · 0.410 · 12 · 45 DEG. · TYP . · TAP · 2-56 · (2 PLACES) · TAP 4-40
+- **Title block:** (249, 22)–(420, 90) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRN WS · M7O2D · ENG · HEA TSINK · CKD · APP · SCALE DISC NO: M: |zxX · 702-03-003 · ISSUE · 2:1 CODE: M702-3
+
+Every curve, box, word and wire group: [19xx - M702 - DOC - 702-03-003 - REMOVE ALL BURRS AND SHARP EDGES (traced).json](19xx%20-%20M702%20-%20DOC%20-%20702-03-003%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `19xx - M702 - DOC - 702-03-003 - REMOVE ALL BURRS AND SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -15,6 +15,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 503,485 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 471-01-004, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 14–374 mm up
+- **Outlines:** line 239 rings, 3,622 straight (8,533 mm) / 499 curved (632 mm); text 371 rings, 2,136 straight (2,310 mm) / 712 curved (970 mm); tb 2 rings, 68 straight (150 mm) / 3 curved (4.6 mm)
+- **Centre lines:** 4,105 paths (57 closed); straight 5,934 mm, curved 56.7 mm; horizontal 2,310 mm, vertical 1,572 mm, diagonal 2,053 mm
+- **Circles and arcs:** 1 circles, 10 arcs; largest r 4.0 @ (9.2, 140.7)
+- **Closed boxes:** 7
+- **Words (OCR):** 53 in 50 lines: SuB · CONTROL · BOOSTER · SUB · AMPLIF IER · BALANCE · INSERT · CONTROL · MaSTER · CONTROL · ERT · (-15 d8)
+- **Title block:** (207, 51)–(332, 76) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 142 connected wire groups from 324 runs; labelled ends: 329 mm → PRE /POST, PRE /Post; 106 mm → BALANCE, INSERT; 76 mm → SOL; 50 mm → PRE /POST, PRE /Post; 42 mm → BOOSTER, AMPLIF IER
+
+Every curve, box, word and wire group: [19xx - M471C - DOC - STEREO L SERIES - P014 - B471-01-004 R (traced).json](19xx%20-%20M471C%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P014%20-%20B471-01-004%20R%20%28traced%29.json) (the CAD file: `19xx - M471C - DOC - STEREO L SERIES - P014 - B471-01-004 R (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

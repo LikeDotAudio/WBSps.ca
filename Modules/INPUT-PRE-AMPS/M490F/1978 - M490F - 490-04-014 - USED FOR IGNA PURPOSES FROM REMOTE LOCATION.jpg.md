@@ -11,6 +11,18 @@ Wiki page: [M490F](../../../PAGES/M490F.md)
 - **Size:** 339,614 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-014, size B (assumed) 432 × 324 mm, 2000 × 1499 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–314 mm up
+- **Outlines:** line 639 rings, 3,942 straight (7,012 mm) / 1,366 curved (1,596 mm); text 569 rings, 3,061 straight (2,582 mm) / 1,250 curved (1,482 mm); tb 707 rings, 4,919 straight (11,446 mm) / 1,505 curved (1,930 mm)
+- **Closed boxes:** 9; named: Prograh Hhtn channe buse; BALANCE Sh} ; BALANCE Enjb concro|; Thin (Pre) (Post) oucput prior; Sh7 : Hhen AuxiLiAR Auxiliary is Fca Dut; Attenuator cue (Q) Tomentary jc Eion Tov; indicotor shitcned indicjte chunns btina; Shi ternately Ok ind chacns; orer"Thon= prograh chjnne amo 4nt tatus
+- **Dots (junctions):** 14
+- **Words (OCR):** 107 in 91 lines: WBS · controi contfoi rangt · 313s · of 20 · cont · nucus |y · Richi · contro · Rioe · cont · Fange · Prograh
+- **Title block:** (157, 0)–(432, 318) mm: WBS · controi contfoi rangt · 313s · of 20 · cont · nucus |y · Richi · contro · Rioe · cont · Fange · Paograh · Sitch · Khen ceprereo · miring · rant · channt · mirin · contro · Right · correct · anci
+
+Every curve, box, word and wire group: [1978 - M490F - 490-04-014 - USED FOR IGNA PURPOSES FROM REMOTE LOCATION (traced).json](1978%20-%20M490F%20-%20490-04-014%20-%20USED%20FOR%20IGNA%20PURPOSES%20FROM%20REMOTE%20LOCATION%20%28traced%29.json) (the CAD file: `1978 - M490F - 490-04-014 - USED FOR IGNA PURPOSES FROM REMOTE LOCATION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 40 words corrected)

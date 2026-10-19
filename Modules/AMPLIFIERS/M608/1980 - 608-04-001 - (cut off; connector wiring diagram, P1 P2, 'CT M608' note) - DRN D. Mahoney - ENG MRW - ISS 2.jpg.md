@@ -26,6 +26,19 @@ Connector wiring drawing with P1 and P2 connectors, title block at bottom right 
 - **Size:** 309,845 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 608-04-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 4–424 mm up
+- **Outlines:** line 231 rings, 4,246 straight (9,318 mm) / 583 curved (1,032 mm); text 367 rings, 3,642 straight (4,641 mm) / 871 curved (1,567 mm); tb 32 rings, 333 straight (508 mm) / 72 curved (93.9 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.3 @ (154.6, 202.4), r 2.0 @ (130.8, 201.9), r 1.7 @ (130.4, 274.2), r 1.6 @ (196.9, 286.5)
+- **Closed boxes:** 20 (5 in the title block); named: SCALE
+- **Dots (junctions):** 8
+- **Words (OCR):** 59 in 52 lines: MODULE COMMON MAY · BE · USED To · CONNECT · OUTPUT · CABLE · SHIELDS · CHASSIS · MODULE · 0s · i8o · CCMCN TC
+- **Title block:** (260, 11)–(336, 296) mm: MODULE · CCMCN TC · SYSTEMs · GROUND · CUTPUTs · OUTFUT 6 · OUTPUT 7 · CUTPUTE · TNPUT · SHIELD · CONNECTION · ISSU · WBS · ENG. MEW 7go · CKD: · APP · SCALE
+
+Every curve, box, word and wire group: [1980 - 608-04-001 - (cut off; connector wiring diagram, P1 P2, 'CT M608' note) - DRN D. Mahoney - ENG MRW - ISS 2 (traced).json](1980%20-%20608-04-001%20-%20%28cut%20off%3B%20connector%20wiring%20diagram%2C%20P1%20P2%2C%20%27CT%20M608%27%20note%29%20-%20DRN%20D.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1980 - 608-04-001 - (cut off; connector wiring diagram, P1 P2, 'CT M608' note) - DRN D. Mahoney - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

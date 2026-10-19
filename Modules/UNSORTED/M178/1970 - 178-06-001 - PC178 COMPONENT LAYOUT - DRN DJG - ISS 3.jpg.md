@@ -26,6 +26,19 @@ Wiki page: [M178](../../../PAGES/M178.md)
 
 - **1970** (month): `OCT 70` — …Sw8 FIMISH 0J6 WARD BECK SYSHEIS LTd PC/78 COMPONENT LayoUT OCT 70 MATERIAL 2xFUlL FRACT: 31/64 DEC TO PLACES GIVEM ANGLES + 1…
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 178-06-001, size B 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 1,658 rings, 14,728 straight (13,541 mm) / 4,243 curved (4,002 mm); text 435 rings, 4,385 straight (3,969 mm) / 1,367 curved (1,405 mm); tb 2 rings, 14 straight (16.4 mm) / 4 curved (4.5 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.9 @ (172.2, 169.4), r 4.9 @ (207.0, 366.8), r 2.0 @ (77.1, 165.4), r 1.9 @ (191.0, 324.3)
+- **Closed boxes:** 7; named: DJ6; FIMISH; OCT 70; COMPONENT PCI78 LaYoUT; MATERIAL; 178 0o1 06
+- **Dots (junctions):** 5
+- **Words (OCR):** 62 in 43 lines: Sw5(No) · '3(o) · swz(nl) · 035 · 057 · Q1 · CR · K5 13 14 CR Lc'Rl · CR · K7 · I0 JL · CR
+- **Title block:** (172, 60)–(251, 91) mm: WARD BECK
+
+Every curve, box, word and wire group: [1970 - 178-06-001 - PC178 COMPONENT LAYOUT - DRN DJG - ISS 3 (traced).json](1970%20-%20178-06-001%20-%20PC178%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1970 - 178-06-001 - PC178 COMPONENT LAYOUT - DRN DJG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

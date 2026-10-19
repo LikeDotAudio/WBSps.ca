@@ -23,6 +23,18 @@ Wiki page: [M201](../../../PAGES/M201.md)
 - **Size:** 182,881 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 201-06-001, size B 338 × 432 mm, 1564 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–294 mm up
+- **Outlines:** line 191 rings, 2,761 straight (5,212 mm) / 749 curved (744 mm); text 410 rings, 3,218 straight (2,785 mm) / 1,094 curved (1,178 mm); tb 183 rings, 2,194 straight (3,737 mm) / 611 curved (587 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 4.7 @ (30.3, 259.1), r 4.7 @ (30.6, 186.0), r 2.8 @ (30.5, 186.0), r 2.7 @ (30.2, 259.1)
+- **Closed boxes:** 6; named: 74014; RZS
+- **Words (OCR):** 46 in 42 lines: 4ad · WBS · 0.228 · CAHADA · 891 | · 9-101 · Aozi-A104 · 886 & · 02 · 04 · V23obo · 740221
+- **Title block:** (107, 0)–(338, 293) mm: WBS · CAHADA · 9-101 · Aozi-A104 · 04 · V23obo · 74coo · 02 · U5 · K2 · 74Coo · V2soso-A2ozi-Aio4 · 88 · U6 · -12 · IssUE |DATE · REVISION · WBS WARD-BeCk BYBTEMS · Drn Mrw 2/79 · ENG Mrw · M201 · REL
+
+Every curve, box, word and wire group: [1979 - 201-06-001 - RELAY MODULE COMPONENT LAYOUT - DRN MRW - ENG MRW - ISS 1 (traced).json](1979%20-%20201-06-001%20-%20RELAY%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 201-06-001 - RELAY MODULE COMPONENT LAYOUT - DRN MRW - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

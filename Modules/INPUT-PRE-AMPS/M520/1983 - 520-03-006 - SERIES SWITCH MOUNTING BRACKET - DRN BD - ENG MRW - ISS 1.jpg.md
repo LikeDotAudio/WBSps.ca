@@ -24,6 +24,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 1,277,358 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 520-03-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–299 mm up
+- **Outlines:** line 199 rings, 2,920 straight (7,366 mm) / 359 curved (535 mm); text 322 rings, 2,658 straight (3,067 mm) / 773 curved (1,188 mm); tb 6 rings, 102 straight (238 mm) / 9 curved (12.9 mm)
+- **Centre lines:** 8,643 paths (54 closed); straight 7,399 mm, curved 142 mm; horizontal 3,015 mm, vertical 1,717 mm, diagonal 2,667 mm
+- **Circles and arcs:** 4 circles, 12 arcs; largest r 12.6 @ (99.6, 191.8), r 1.3 @ (173.6, 171.9), r 1.3 @ (102.4, 154.3), r 1.0 @ (171.0, 171.7)
+- **Closed boxes:** 16 (8 in the title block)
+- **Words (OCR):** 51 in 44 lines: TAP 2-56 UNC · 2 PLACES · F00 DIA · 500 DIA · Cks 828 To .15 DIA · 2 PLACES · NOTES: · 850 · '750 · 1) TOLERANCES · 425 · XX
+- **Title block:** (278, 3)–(432, 72) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN · B.D 85 · ENG · M520 SERIES · CKD: · switch MOUNTING BRACKET · APP · SCALE · ISSUE · 2X · 520-03-006
+
+Every curve, box, word and wire group: [1983 - 520-03-006 - SERIES SWITCH MOUNTING BRACKET - DRN BD - ENG MRW - ISS 1 (traced).json](1983%20-%20520-03-006%20-%20SERIES%20SWITCH%20MOUNTING%20BRACKET%20-%20DRN%20BD%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1983 - 520-03-006 - SERIES SWITCH MOUNTING BRACKET - DRN BD - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

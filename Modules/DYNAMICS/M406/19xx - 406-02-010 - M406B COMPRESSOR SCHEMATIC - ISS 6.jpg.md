@@ -22,6 +22,20 @@ Very wide, thin strip scan of a schematic with title block at lower right, illeg
 - **Size:** 2,268,756 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 406-02-010, size B 432 × 99 mm, 2000 × 457 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–99 mm up
+- **Outlines:** line 1,403 rings, 14,353 straight (19,128 mm) / 2,716 curved (3,079 mm); text 33 rings, 287 straight (215 mm) / 69 curved (78.6 mm)
+- **Centre lines:** 14,207 paths (364 closed); straight 11,294 mm, curved 73.8 mm; horizontal 4,864 mm, vertical 2,495 mm, diagonal 3,935 mm
+- **Circles and arcs:** 3 circles, 17 arcs; largest r 3.2 @ (205.0, 32.5), r 0.8 @ (413.2, 3.6), r 0.7 @ (228.4, 41.9)
+- **Closed boxes:** 13
+- **Dots (junctions):** 2
+- **Words (OCR):** 4 in 4 lines: Cdcitor · CCMPONENT · M4OSE COVPRESSOR · schevatic
+- **Wiring (first pass):** 136 connected wire groups from 777 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 406-02-010 - M406B COMPRESSOR SCHEMATIC - ISS 6 (traced).json](19xx%20-%20406-02-010%20-%20M406B%20COMPRESSOR%20SCHEMATIC%20-%20ISS%206%20%28traced%29.json) (the CAD file: `19xx - 406-02-010 - M406B COMPRESSOR SCHEMATIC - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,331,060 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 790236-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 702 rings, 8,257 straight (14,026 mm) / 1,585 curved (2,026 mm); text 422 rings, 2,432 straight (2,552 mm) / 827 curved (1,174 mm)
+- **Centre lines:** 12,776 paths (154 closed); straight 10,469 mm, curved 338 mm; horizontal 4,073 mm, vertical 2,712 mm, diagonal 3,684 mm
+- **Circles and arcs:** 18 circles, 74 arcs; largest r 1.4 @ (45.7, 328.5), r 1.3 @ (285.4, 371.6), r 1.3 @ (182.7, 29.0), r 1.3 @ (299.0, 74.7)
+- **Closed boxes:** 15
+- **Wiring (first pass):** 80 connected wire groups from 569 runs
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-01-001 - MONIIOR MODULE CONT MUTE DIR (traced).json](1979%20-%20790236%20-%20790236-01-001%20-%20MONIIOR%20MODULE%20CONT%20MUTE%20DIR%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-01-001 - MONIIOR MODULE CONT MUTE DIR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,18 @@ Wiki page: [M402B](../../../PAGES/M402B.md)
 - **Size:** 6,894,027 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring 404-09-002, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 23–307 mm up
+- **Outlines:** line 386 rings, 5,471 straight (11,787 mm) / 770 curved (1,190 mm); text 258 rings, 2,023 straight (2,416 mm) / 554 curved (821 mm)
+- **Centre lines:** 3,283 paths (32 closed); straight 7,563 mm, curved 368 mm; horizontal 3,699 mm, vertical 2,328 mm, diagonal 1,536 mm
+- **Circles and arcs:** 19 circles, 53 arcs; largest r 1.8 @ (340.9, 32.5), r 1.6 @ (124.4, 151.6), r 1.6 @ (23.4, 109.3), r 1.5 @ (113.9, 151.7)
+- **Closed boxes:** 28
+- **Wiring (first pass):** 89 connected wire groups from 496 runs
+
+Every curve, box, word and wire group: [1970 - M402B - 404-09-002 - BEND RAD UNLESS SPECIFIED (traced).json](1970%20-%20M402B%20-%20404-09-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1970 - M402B - 404-09-002 - BEND RAD UNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

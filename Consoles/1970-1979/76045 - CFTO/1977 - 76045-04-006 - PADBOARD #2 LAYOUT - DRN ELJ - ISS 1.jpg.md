@@ -22,6 +22,17 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 4,346,414 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 76045-04-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 20–305 mm up
+- **Outlines:** line 709 rings, 7,903 straight (14,988 mm) / 1,134 curved (1,763 mm); text 443 rings, 2,752 straight (2,819 mm) / 892 curved (1,241 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 6.3 @ (356.8, 191.7), r 1.9 @ (82.7, 167.0), r 1.9 @ (141.5, 167.6), r 1.8 @ (86.7, 203.9)
+- **Closed boxes:** 38
+- **Dots (junctions):** 4
+
+Every curve, box, word and wire group: [1977 - 76045-04-006 - PADBOARD #2 LAYOUT - DRN ELJ - ISS 1 (traced).json](1977%20-%2076045-04-006%20-%20PADBOARD%20%232%20LAYOUT%20-%20DRN%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 76045-04-006 - PADBOARD #2 LAYOUT - DRN ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

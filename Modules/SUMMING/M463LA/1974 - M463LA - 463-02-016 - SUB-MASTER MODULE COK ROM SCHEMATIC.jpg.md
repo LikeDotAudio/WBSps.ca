@@ -11,6 +11,20 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 - **Size:** 2,126,288 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-016, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–427 mm up
+- **Outlines:** line 556 rings, 9,670 straight (20,784 mm) / 1,632 curved (2,553 mm); text 691 rings, 5,123 straight (5,722 mm) / 1,813 curved (2,799 mm)
+- **Centre lines:** 9,794 paths (131 closed); straight 15,953 mm, curved 599 mm; horizontal 6,748 mm, vertical 3,782 mm, diagonal 5,422 mm
+- **Circles and arcs:** 20 circles, 150 arcs; largest r 1.5 @ (234.8, 189.0), r 1.4 @ (250.4, 382.3), r 1.3 @ (77.8, 324.0), r 1.0 @ (130.7, 351.6)
+- **Closed boxes:** 54; named: WBS Lto; MAGJLA Module schemaTiC; 463-02 - 016; LB
+- **Dots (junctions):** 1
+- **Words (OCR):** 158 in 135 lines: DIRECT · ~P2-12 OUTPuT · +2iv · ~2iv · +8dBm · P2-N · Rizo · NoMiNAL · 420K · P2-3 · 403 · 487
+- **Wiring (first pass):** 173 connected wire groups from 842 runs, 1 dotted junctions; labelled ends: 399 mm → Fbilz, Swzo, Fb34; 368 mm → PRE, 2ST, Swzo, PsT; 348 mm → Lto, WBS, 324Z, LB; 310 mm → PRE; 297 mm → Swzz Ri3i, Sw24 Ri3s, Sw?s Rr37, Swp
+
+Every curve, box, word and wire group: [1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC (traced).json](1974%20-%20M463LA%20-%20463-02-016%20-%20SUB-MASTER%20MODULE%20COK%20ROM%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

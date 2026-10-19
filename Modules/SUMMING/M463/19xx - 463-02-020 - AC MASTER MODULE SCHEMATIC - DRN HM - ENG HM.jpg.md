@@ -23,6 +23,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 378,008 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 463-02-020, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–429 mm up
+- **Outlines:** line 406 rings, 7,022 straight (11,835 mm) / 1,154 curved (1,641 mm); text 401 rings, 3,347 straight (3,496 mm) / 1,021 curved (1,538 mm); tb 23 rings, 256 straight (320 mm) / 61 curved (85.8 mm)
+- **Centre lines:** 6,846 paths (78 closed); straight 9,199 mm, curved 324 mm; horizontal 3,920 mm, vertical 2,241 mm, diagonal 3,038 mm
+- **Circles and arcs:** 8 circles, 82 arcs; largest r 1.4 @ (315.9, 347.2), r 1.4 @ (294.8, 269.9), r 1.4 @ (312.0, 347.3), r 1.0 @ (128.8, 214.3)
+- **Closed boxes:** 19 (7 in the title block)
+- **Words (OCR):** 99 in 82 lines: +21v Z1v · ER · RT) 2E3 2E7 · R45 2.2 · 8252 25+ · 7Ic DIRECT OuT · R46 2.2 · Dt · BoOsTER · Amplifier · 12E1 2EC · 2E5
+- **Title block:** (224, 1)–(335, 60) mm: GSUIDATE · WES · WARD-BECX 8Y3TENB · DAAM · M463 Ac · MASTER MODLLE · CKD · SCHEMATIC · SCAL · 463-02-020 · ISSUE
+- **Wiring (first pass):** 75 connected wire groups from 326 runs; labelled ends: 362 mm → R28, 390; 252 mm → 5477, 5wB, 5wS, R52; 242 mm → R45 2.2, R46 2.2, 2E7, 25+; 226 mm → 5w3, FB, 14; 214 mm → 390
+
+Every curve, box, word and wire group: [19xx - 463-02-020 - AC MASTER MODULE SCHEMATIC - DRN HM - ENG HM (traced).json](19xx%20-%20463-02-020%20-%20AC%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20%28traced%29.json) (the CAD file: `19xx - 463-02-020 - AC MASTER MODULE SCHEMATIC - DRN HM - ENG HM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

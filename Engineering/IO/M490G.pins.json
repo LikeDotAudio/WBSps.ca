@@ -1,0 +1,1106 @@
+{
+ "code": "M490G",
+ "name": "Mic Input Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 4,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "PGM",
+   "kind": "audio",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "PGM 3 OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "PGM 3 OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "PGM 2 OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "PGM 2 OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "BALANCED PREAMPLIFIER OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - P005 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "BALANCED PREAMPLIFIER OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - P005 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "BALANCED PREAMPLIFIER OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - P005 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "BALANCED PREAMPLIFIER OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - P005 - 2-1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "PGM 4 OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "PGM 4 OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "CUE OUT, LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "CUE OUT, LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "CUE OUT, RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "CUE OUT, RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 30
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "LEFT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "LEFT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "RIGHT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "RIGHT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "MIC IN A",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "MIC IN A",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "MIC B",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "MIC IN B",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "CTL",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "MIC IN B",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "INPUT",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module.pdf",
+     "page": 26
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "NSERTS R2l 4 > ez0/0 22 / 2 & P2-8 P2- 5 P2.7",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "INSERT SEND",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "INSERT SEND",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "NSERTS R2l 4 > ez0/0 22 / 2 & P2-8 P2- 5 P2.7",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "8 CTL",
+   "kind": "control",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "8 CTL P2 -L",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "Pz-M",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "Ext Ch P2-N ON",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "Pz - 12",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ececc367c953dc1afcfadf6d89c1fded0f34335907dd6d760058114db017ca2a",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - MIC INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-P Ch B Ou",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-13,w",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "P2 -15",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-U",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "P2 - 17",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "P2 -V",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e5641c68b05329bfea1846de89a363b935d65d02d941b3346beabe192e383889",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-18",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "W",
+   "row": 19,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "adc42e712a54f038f15faf45b2af594da7ae11559e000d0788843aeb16fa398b",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - Mic Input Module (2).pdf",
+    "page": 26
+   },
+   "quote": "P2 - W! <E-----:",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490G/M490G.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ececc367c953dc1afcfadf6d89c1fded0f34335907dd6d760058114db017ca2a",
+    "file": "Modules/INPUT-PRE-AMPS/M490G/1978 - M490G - 490-02-008 - MIC INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "CRZi Ctl 0 >P2 -22,2 comm 1n4063",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

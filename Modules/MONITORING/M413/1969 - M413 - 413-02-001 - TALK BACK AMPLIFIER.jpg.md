@@ -11,6 +11,21 @@ Wiki page: [M413](../../../PAGES/M413.md)
 - **Size:** 24,049,068 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 413-02-001, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–138 mm up
+- **Outlines:** line 1,710 rings, 13,922 straight (14,497 mm) / 2,525 curved (2,844 mm); text 78 rings, 411 straight (342 mm) / 129 curved (153 mm); tb 34 rings, 192 straight (155 mm) / 52 curved (58.7 mm)
+- **Centre lines:** 11,299 paths (196 closed); straight 8,666 mm, curved 64.6 mm; horizontal 2,842 mm, vertical 2,652 mm, diagonal 3,172 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 2.9 @ (57.3, 36.9)
+- **Closed boxes:** 13 (4 in the title block); named: Q2
+- **Dots (junctions):** 3
+- **Words (OCR):** 16 in 13 lines: Re33tons ArE: · Valjes · Miero FARADE · LAST CAPACTOR · Rert · DUPL · DBECKSYSIS LiD · DP? · 43 · DATE · TAER · SCKEMATIC
+- **Title block:** (346, 10)–(430, 30) mm: DBECKSYSIS LiD · DP? · 43 · DATE · TAER · SCKEMATIC
+- **Wiring (first pass):** 137 connected wire groups from 775 runs; labelled ends: 23 mm → DUPL; 22 mm → DUPL; 6 mm → DUPL
+
+Every curve, box, word and wire group: [1969 - M413 - 413-02-001 - TALK BACK AMPLIFIER (traced).json](1969%20-%20M413%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1969 - M413 - 413-02-001 - TALK BACK AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

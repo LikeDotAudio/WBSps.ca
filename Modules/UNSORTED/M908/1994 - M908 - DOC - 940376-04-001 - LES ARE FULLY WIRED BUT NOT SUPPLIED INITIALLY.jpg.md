@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,367,770 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940376-04-001, size B (assumed) 432 × 364 mm, 2000 × 1688 px traced (0.216 mm/px)
+- **Ink extent:** 3–418 mm across, 10–352 mm up
+- **Outlines:** line 1,552 rings, 11,275 straight (38,386 mm) / 1,705 curved (2,249 mm); text 719 rings, 4,693 straight (5,060 mm) / 1,457 curved (1,991 mm); tb 19 rings, 372 straight (2,006 mm) / 20 curved (32.6 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 7.1 @ (364.2, 143.5), r 7.1 @ (364.3, 115.6), r 2.1 @ (366.7, 118.2), r 2.0 @ (366.5, 146.1)
+- **Closed boxes:** 222; named: M9O1A 70 ON; M9o7; M9O5A HodE EQ INS HEADPHONE MUTE MOHITOR; M9OSB; M9O1A CH ON; M9O1A ON; M9O1A ON; M9O1A 70; M9O1A I(FUTURE) (FUTURE) (FUTURE) ((FUTU; M9O1A 70 ON I(FUTURE) (FUTURE) (FUTURE) ; M9OIA CH ON; M9O1A 70
+- **Dots (junctions):** 50
+- **Words (OCR):** 110 in 71 lines: METER · CH 2 · CH 3 · CH 4 · CH 5 CH 6 · CH 7 · CH · CH · CH 10 CH 11 CH 12 CH 13 CH 14 · CH 15 CH 16 · CR MON STD MON · CH 1
+- **Title block:** (281, 10)–(425, 70) mm: ISSUE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRN. SM · CKWX · ENG. SM · RENAISSANCE MKII · CKD · APP . · CONSOLE LA YOUT · SCALE · DISC NO: 459A · 940376-04-001 · ISSUE · CODE: 94376L01
+
+Every curve, box, word and wire group: [1994 - M908 - DOC - 940376-04-001 - LES ARE FULLY WIRED BUT NOT SUPPLIED INITIALLY (traced).json](1994%20-%20M908%20-%20DOC%20-%20940376-04-001%20-%20LES%20ARE%20FULLY%20WIRED%20BUT%20NOT%20SUPPLIED%20INITIALLY%20%28traced%29.json) (the CAD file: `1994 - M908 - DOC - 940376-04-001 - LES ARE FULLY WIRED BUT NOT SUPPLIED INITIALLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

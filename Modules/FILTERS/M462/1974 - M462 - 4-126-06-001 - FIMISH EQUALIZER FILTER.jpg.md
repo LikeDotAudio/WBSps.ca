@@ -15,6 +15,18 @@ Wiki page: [M462](../../../PAGES/M462.md)
 
 - **1974** (labelled): `DATE JULY 74` — …el 14egg M( FIMISH WBS WARD-Deck systems LTD. DRN_ Dm 4-126 DATE JULY 74 EQUALIZER FILTER CKD 447 COMPONENT A SSEMBLY SCALE TOLS _ #…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 432 × 392 mm, 2000 × 1817 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–392 mm up
+- **Outlines:** line 451 rings, 7,137 straight (14,516 mm) / 1,839 curved (1,891 mm); text 630 rings, 6,298 straight (6,625 mm) / 1,774 curved (2,141 mm); tb 13 rings, 146 straight (245 mm) / 23 curved (23.4 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.8 @ (302.1, 220.0), r 4.8 @ (194.7, 203.8), r 4.7 @ (51.9, 111.4), r 4.7 @ (193.5, 281.3)
+- **Closed boxes:** 23 (1 in the title block); named: 4-126 FILTER EQUALIZER COMPONENT  ASSEMB; Iss_; 4-126-06-001; Tols _
+- **Words (OCR):** 88 in 78 lines: E2 · E5 · C6 · R2o · Ri?cig C18 · 2S · R24 · R18 · C2I R2i · LMi458 · C4 · 37 21
+- **Title block:** (288, 2)–(422, 51) mm: WBS · WAAD-Beck · systeMS LTD: · RM · DRH: · 4-126 · DATE July74 · EQUALIZER · FILTER · CKD_ · 447 · COMPONENT  ASSEMBLY · SCALE · Tols _ · 4-126-06-001 Iss_
+
+Every curve, box, word and wire group: [1974 - M462 - 4-126-06-001 - FIMISH EQUALIZER FILTER (traced).json](1974%20-%20M462%20-%204-126-06-001%20-%20FIMISH%20EQUALIZER%20FILTER%20%28traced%29.json) (the CAD file: `1974 - M462 - 4-126-06-001 - FIMISH EQUALIZER FILTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

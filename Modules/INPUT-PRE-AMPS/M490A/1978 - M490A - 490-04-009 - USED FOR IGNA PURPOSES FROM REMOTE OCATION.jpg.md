@@ -11,6 +11,19 @@ Wiki page: [M490A](../../../PAGES/M490A.md)
 - **Size:** 4,004,240 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-009, size B (assumed) 432 × 318 mm, 2000 × 1473 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–318 mm up
+- **Outlines:** line 419 rings, 3,571 straight (9,052 mm) / 831 curved (1,022 mm); text 735 rings, 3,657 straight (3,001 mm) / 1,518 curved (1,809 mm); tb 399 rings, 2,673 straight (5,183 mm) / 757 curved (951 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 0.7 @ (82.3, 282.1), r 0.7 @ (95.0, 96.0), r 0.7 @ (56.1, 88.5)
+- **Closed boxes:** 10 (1 in the title block); named: selecticr mutue interlocked (A or microp; PRCGRAH Assignhent switch hten cepressed; Attenuator cu (Q) shitcn switch action t; CHANNEL ndicator 0Sz: uminateo belng swi; CUE sitch ponntury cpcration; CHAMNEL Moncntary switch switch thc Tigh; 178; 90-04-009
+- **Dots (junctions):** 3
+- **Words (OCR):** 100 in 75 lines: WBS · M49OA · mutue · interlocked · selecticr · micropncne sources · (A or · SENSitivity contro · continuousy · adjustab Jcv control runge · 30   dB= · PROCRAY
+- **Title block:** (169, 24)–(432, 318) mm: WBS · M49OA · SENSitivity contro · continuousy · adjustab Jcv control runge · 30   dB= · PROCRAY · channc] · ia fed via mixing ntnonks · switci · nixing · Jppropnatc · cft · right PGh · gain · PROGRAM
+
+Every curve, box, word and wire group: [1978 - M490A - 490-04-009 - USED FOR IGNA PURPOSES FROM REMOTE OCATION (traced).json](1978%20-%20M490A%20-%20490-04-009%20-%20USED%20FOR%20IGNA%20PURPOSES%20FROM%20REMOTE%20OCATION%20%28traced%29.json) (the CAD file: `1978 - M490A - 490-04-009 - USED FOR IGNA PURPOSES FROM REMOTE OCATION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

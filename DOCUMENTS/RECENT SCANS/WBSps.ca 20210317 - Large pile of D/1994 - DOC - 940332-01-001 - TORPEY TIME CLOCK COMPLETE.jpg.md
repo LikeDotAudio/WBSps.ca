@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,553,705 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940332-01-001, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px); scale DISC 473
+- **Ink extent:** 20–421 mm across, 6–279 mm up
+- **Outlines:** line 828 rings, 9,044 straight (22,112 mm) / 1,083 curved (1,355 mm); text 1,181 rings, 8,041 straight (6,483 mm) / 2,276 curved (2,628 mm); tb 99 rings, 843 straight (2,226 mm) / 118 curved (147 mm)
+- **Centre lines:** 21,547 paths (339 closed); straight 18,936 mm, curved 46.3 mm; horizontal 7,737 mm, vertical 5,188 mm, diagonal 6,010 mm
+- **Circles and arcs:** 3 circles, 10 arcs; largest r 2.3 @ (37.5, 269.8), r 1.8 @ (37.3, 269.8), r 0.8 @ (85.1, 122.2)
+- **Closed boxes:** 86 (12 in the title block); named: VCA; AVPI; 2200; 2200; CUE MUTE
+- **Dots (junctions):** 1
+- **Words (OCR):** 194 in 163 lines: LEGEND · LEVEL · OPTICAL SHAFT ENCODER · CONSOLE SUMMING BUSES · Music VOICE · CUE AUX AUX · VETER AND MONITCR OUTPUT · MNS · INSERTS · 5S Sw · SOLID STATE SwtCh · PGMI_MUSIC_LEFT
+- **Title block:** (56, 6)–(429, 86) mm: MCNO? · MONOT · 70 Monoi · 70 Mix · WBS · KBS · MONOS · MCNO2 · MONO} · SUPPL: · POWER · SUPPLY · POWER · CONSOLE VODULES · TELCO · M924 · M924 · CommoN · METERING INPUTS · TELCO #2 · FOR REDUNDANT · 
+- **Wiring (first pass):** 286 connected wire groups from 1,314 runs, 3 dotted junctions; labelled ends: 630 mm → Music, VOICE, CUE, MNS; 457 mm → VOICE; 346 mm → MNS, CUE, CR MONITOR; 294 mm → CUE, AUX AUX, CR MONITOR; 273 mm → MUTE
+
+Every curve, box, word and wire group: [1994 - DOC - 940332-01-001 - TORPEY TIME CLOCK COMPLETE (traced).json](1994%20-%20DOC%20-%20940332-01-001%20-%20TORPEY%20TIME%20CLOCK%20COMPLETE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940332-01-001 - TORPEY TIME CLOCK COMPLETE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 18 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 392,034 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-002, size B (assumed) 432 × 313 mm, 2000 × 1451 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–299 mm up
+- **Outlines:** line 216 rings, 2,925 straight (6,930 mm) / 655 curved (751 mm); text 800 rings, 7,478 straight (8,423 mm) / 2,013 curved (2,424 mm); tb 36 rings, 520 straight (797 mm) / 89 curved (104 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.7 @ (82.8, 117.7), r 9.7 @ (26.4, 227.7), r 9.7 @ (82.2, 227.9), r 9.2 @ (26.9, 118.0)
+- **Closed boxes:** 10 (7 in the title block); named: 0e7 E2 ~CI33/10 23/0 +C2 ~c8-8p 47k LRi ; 21 Lf356; z2 Lf356
+- **Words (OCR):** 109 in 99 lines: 0e7 · E2 · ~CI33/10 +C2 · 23/0 · ~c8-8p · LRi · 47k · 22k · 30k · ~Ri8 · R5 · 4k7
+- **Title block:** (147, 3)–(432, 143) mm: WBS · 8-109 · 2zolecl6 - · 22o/6 · ~Cis · ~~R374K7 · 4k7 · (ISSUE DATE · REVISION · APP_ · E6 · WBS WARD-BECK SYBTEMS · DRN: GEB · 8 = 109A · ENG.MRW 4l78 · OUTPUT AMPLIFIER · CKD Ra · COMPONENT LAYOU
+
+Every curve, box, word and wire group: [1976 - M460A - 8-109-06-002 - OUTPUT AMPLIFIER (traced).json](1976%20-%20M460A%20-%208-109-06-002%20-%20OUTPUT%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1976 - M460A - 8-109-06-002 - OUTPUT AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

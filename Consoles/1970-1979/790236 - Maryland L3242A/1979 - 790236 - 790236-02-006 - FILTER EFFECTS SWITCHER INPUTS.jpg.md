@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,370,330 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-006, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–286 mm up
+- **Outlines:** line 449 rings, 5,288 straight (6,727 mm) / 731 curved (939 mm); text 152 rings, 1,022 straight (993 mm) / 328 curved (428 mm)
+- **Centre lines:** 3,630 paths (47 closed); straight 4,249 mm, curved 130 mm; horizontal 1,971 mm, vertical 1,037 mm, diagonal 1,241 mm
+- **Circles and arcs:** 8 circles, 20 arcs; largest r 3.5 @ (8.9, 32.9), r 3.5 @ (8.7, 143.4), r 3.4 @ (9.3, 254.7), r 1.4 @ (254.6, 213.0)
+- **Words (OCR):** 33 in 29 lines: Tb6 · JOdBm · 6200 · 12,822 · 70 · M464 · Ch 1 · L2 · Ela · (25) · FILTER 29 · 21 20
+- **Wiring (first pass):** 38 connected wire groups from 269 runs; labelled ends: 192 mm → 6200, 5.8, 10; 88 mm → 133,134, 220; 68 mm → #ZAV, 24v, COH, 22; 65 mm → FILTER, 21, 20, 23y; 61 mm → 70
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-006 - FILTER EFFECTS SWITCHER INPUTS (traced).json](1979%20-%20790236%20-%20790236-02-006%20-%20FILTER%20EFFECTS%20SWITCHER%20INPUTS%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-006 - FILTER EFFECTS SWITCHER INPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

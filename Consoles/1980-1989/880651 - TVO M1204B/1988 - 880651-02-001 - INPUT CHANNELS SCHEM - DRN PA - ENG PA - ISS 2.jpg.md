@@ -22,6 +22,18 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,009,671 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 880651-02-001, size B (assumed) 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 15–288 mm up
+- **Outlines:** line 501 rings, 4,949 straight (10,873 mm) / 895 curved (1,336 mm); text 279 rings, 1,581 straight (1,825 mm) / 475 curved (693 mm)
+- **Centre lines:** 3,830 paths (48 closed); straight 6,672 mm, curved 469 mm; horizontal 2,984 mm, vertical 1,656 mm, diagonal 2,032 mm
+- **Circles and arcs:** 14 circles, 84 arcs; largest r 1.7 @ (391.3, 19.8), r 1.6 @ (401.9, 40.4), r 1.6 @ (373.3, 19.5), r 1.5 @ (402.1, 42.8)
+- **Closed boxes:** 6
+- **Wiring (first pass):** 87 connected wire groups from 534 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-001 - INPUT CHANNELS SCHEM - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%20880651-02-001%20-%20INPUT%20CHANNELS%20SCHEM%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-001 - INPUT CHANNELS SCHEM - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

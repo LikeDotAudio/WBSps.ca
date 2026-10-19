@@ -24,6 +24,20 @@ Studio A/B1 IFB buffer facility functional diagram with title block at bottom ri
 - **Size:** 705,685 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920002-01-003, size D 864 × 565 mm, 2000 × 1308 px traced (0.432 mm/px); scale DISC_NO: 406
+- **Ink extent:** 0–862 mm across, 20–565 mm up
+- **Outlines:** line 635 rings, 5,002 straight (18,907 mm) / 669 curved (1,742 mm); text 603 rings, 4,808 straight (7,419 mm) / 1,191 curved (2,776 mm); tb 40 rings, 429 straight (2,536 mm) / 47 curved (136 mm)
+- **Centre lines:** 11,718 paths (286 closed); straight 17,749 mm, curved 535 mm; horizontal 6,355 mm, vertical 4,586 mm, diagonal 6,807 mm
+- **Circles and arcs:** 20 circles, 12 arcs; largest r 3.9 @ (264.6, 326.5), r 3.9 @ (263.3, 285.9), r 3.9 @ (762.2, 435.5), r 3.9 @ (757.8, 293.0)
+- **Closed boxes:** 7
+- **Words (OCR):** 143 in 132 lines: To MATRIX · ParT MIchOCCH · MATRIY · SOUND INPUTS · IFB PROGRAM · FROM MATRIX · dBu · PARI Muie · PANEL · IFB  OUTPUTS · dBu · 4705C
+- **Title block:** (672, 20)–(850, 96) mm: ISSUE] DATE · REVSION · WBS WARD-BECK SYSTEMS · DRN: · STUDIO A/B1 · IFB BUFFER FACILITY · FUNCTIONAL · SCALE DISC_NO: 406 · CODE: 92002F0z · 920002-01-003 · SSUE
+- **Wiring (first pass):** 166 connected wire groups from 812 runs; labelled ends: 249 mm → can; 233 mm → CO4N; 130 mm → ZG RIN ,; 102 mm → Cotk; 66 mm → VCII
+
+Every curve, box, word and wire group: [1992 - 920002-01-003 - STUDIO A B1 IFB BUFFER FACILITY FUNCTIONAL - DRN PA - ENG PA - ISS 2 (traced).json](1992%20-%20920002-01-003%20-%20STUDIO%20A%20B1%20IFB%20BUFFER%20FACILITY%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1992 - 920002-01-003 - STUDIO A B1 IFB BUFFER FACILITY FUNCTIONAL - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 14 words corrected)

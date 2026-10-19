@@ -11,6 +11,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 300,261 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 405-04-013, size B (assumed) 432 × 392 mm, 1924 × 1748 px traced (0.224 mm/px)
+- **Ink extent:** 5–426 mm across, 7–382 mm up
+- **Outlines:** line 252 rings, 3,575 straight (10,593 mm) / 688 curved (1,612 mm); text 232 rings, 2,022 straight (2,497 mm) / 584 curved (905 mm); tb 35 rings, 477 straight (1,054 mm) / 72 curved (209 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 15.7 @ (143.2, 236.7), r 10.6 @ (95.5, 236.4), r 6.8 @ (102.5, 171.3), r 5.6 @ (97.5, 94.0)
+- **Closed boxes:** 4; named: 484481& Ju; 484481& Ju
+- **Dots (junctions):** 2
+- **Words (OCR):** 31 in 25 lines: 484481& · Ju · CHARGE · ON TEST · Off · 20 · 20 · 10 · 20k · 40 · 50 · 150
+- **Title block:** (135, 47)–(426, 206) mm: WBS · M4os · INPUT · HDST · WBS WAAD-BECK ByBTEMB
+
+Every curve, box, word and wire group: [1975 - M405 - 405-04-013 - PORTABLE EXTENDED RANGE (traced).json](1975%20-%20M405%20-%20405-04-013%20-%20PORTABLE%20EXTENDED%20RANGE%20%28traced%29.json) (the CAD file: `1975 - M405 - 405-04-013 - PORTABLE EXTENDED RANGE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

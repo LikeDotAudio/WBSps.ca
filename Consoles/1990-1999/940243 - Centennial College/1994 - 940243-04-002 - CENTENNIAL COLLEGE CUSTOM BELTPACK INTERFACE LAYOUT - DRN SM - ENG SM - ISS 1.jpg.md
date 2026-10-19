@@ -22,6 +22,18 @@ Wiki page: [Job-940243](../../../PAGES/Job-940243.md)
 - **Size:** 409,372 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940243-04-002, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 128–845 mm across, 14–433 mm up
+- **Outlines:** line 625 rings, 4,321 straight (24,570 mm) / 917 curved (3,004 mm); text 160 rings, 1,016 straight (2,078 mm) / 286 curved (749 mm); tb 15 rings, 147 straight (347 mm) / 34 curved (75.9 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 8.6 @ (425.0, 181.8), r 8.5 @ (286.6, 181.5), r 8.5 @ (535.5, 182.0), r 8.5 @ (480.2, 181.9)
+- **Closed boxes:** 68 (3 in the title block); named: V-ADJ; V-ADJ; UNTERPHCNC SolD 'CaumON; UNTERPHCNC SolD 'CaumON; CENTENNIAL COLLEGE CUSTOM BELTPACK  INTE; CSC NO; 940243-04-002; CDDE 94245102
+- **Words (OCR):** 16 in 15 lines: FRONT VIEW · V-ADJ · STSTEU · REAR VIEW · UNTERPHCNC · SolD · 'CaumON · WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLEGE · CUSTOM BELTPACK  INTERFACE · LAYOUT
+- **Title block:** (687, 45)–(856, 78) mm: WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLEGE
+
+Every curve, box, word and wire group: [1994 - 940243-04-002 - CENTENNIAL COLLEGE CUSTOM BELTPACK INTERFACE LAYOUT - DRN SM - ENG SM - ISS 1 (traced).json](1994%20-%20940243-04-002%20-%20CENTENNIAL%20COLLEGE%20CUSTOM%20BELTPACK%20INTERFACE%20LAYOUT%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940243-04-002 - CENTENNIAL COLLEGE CUSTOM BELTPACK INTERFACE LAYOUT - DRN SM - ENG SM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

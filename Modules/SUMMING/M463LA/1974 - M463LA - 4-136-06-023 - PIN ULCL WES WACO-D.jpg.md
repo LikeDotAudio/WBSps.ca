@@ -11,6 +11,18 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 - **Size:** 2,032,974 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-136-06-023, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 597 rings, 5,881 straight (9,655 mm) / 1,570 curved (1,502 mm); text 845 rings, 6,647 straight (6,377 mm) / 2,136 curved (2,475 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.6 @ (247.2, 152.8), r 2.2 @ (101.9, 157.0), r 2.2 @ (166.3, 218.0), r 2.2 @ (129.0, 218.0)
+- **Closed boxes:** 28; named: Swio Other SiDE Swis; 5w7 Iswzd; SwG CtheR SIDE Swib; 25; 23; Z6; Oyetentd LTD: WaNO-Dack WBS; M46J[4 Module Sub-MasTER Layout COMPONEN
+- **Dots (junctions):** 1
+- **Words (OCR):** 120 in 95 lines: Swio · Sws · Swb 5w7 SwG Sw5 Sw4 · Sw3 · Other · CtheR · SiDE · SIDE · ILT PCb · Iswzd Swib · FOR M463 · Swis
+
+Every curve, box, word and wire group: [1974 - M463LA - 4-136-06-023 - PIN ULCL WES WACO-D (traced).json](1974%20-%20M463LA%20-%204-136-06-023%20-%20PIN%20ULCL%20WES%20WACO-D%20%28traced%29.json) (the CAD file: `1974 - M463LA - 4-136-06-023 - PIN ULCL WES WACO-D (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

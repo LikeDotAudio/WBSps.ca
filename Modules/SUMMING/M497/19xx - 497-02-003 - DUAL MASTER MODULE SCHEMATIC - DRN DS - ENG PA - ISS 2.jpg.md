@@ -22,6 +22,20 @@ Wiki page: [M497](../../../PAGES/M497.md)
 - **Size:** 320,790 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 497-02-003, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–432 mm up
+- **Outlines:** line 309 rings, 4,908 straight (8,650 mm) / 736 curved (951 mm); text 546 rings, 4,325 straight (4,253 mm) / 1,500 curved (2,105 mm); tb 6 rings, 84 straight (150 mm) / 4 curved (6.3 mm)
+- **Centre lines:** 6,157 paths (98 closed); straight 7,964 mm, curved 105 mm; horizontal 2,666 mm, vertical 2,094 mm, diagonal 3,203 mm
+- **Circles and arcs:** 1 circles, 30 arcs; largest r 1.6 @ (147.1, 281.4)
+- **Closed boxes:** 19 (8 in the title block); named: Revison; sca; 497-02-003
+- **Words (OCR):** 122 in 109 lines: NOTES · LALL Resistors 'w,5 % AND · ALL CAAALiTORS I Af · U4LeS6 · Otherwise Specieied. · 2.LAST CoMponENT DesicnaTion : · C34, C4,06,R79 z6. · 2iv · 2iv · 3. USE PcB 7-113 · R3s · Ies
+- **Title block:** (218, 11)–(304, 61) mm: Issu IDate · Revison · WBS · WARD-BeCk byytemd · DRnLS · ENG_ · PA · M497C · DUAL MASTER MODULE · CKD: · ScHEMATiC · ApR · sca
+- **Wiring (first pass):** 72 connected wire groups from 204 runs; labelled ends: 161 mm → Ie6, R45, 30, R47; 142 mm → rss, 30, 2E6, r57; 138 mm → byytemd; 137 mm → R5R136, 30, Rs6, R5B; 104 mm → R48, 30, Rso, Rsi
+
+Every curve, box, word and wire group: [19xx - 497-02-003 - DUAL MASTER MODULE SCHEMATIC - DRN DS - ENG PA - ISS 2 (traced).json](19xx%20-%20497-02-003%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20DS%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 497-02-003 - DUAL MASTER MODULE SCHEMATIC - DRN DS - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

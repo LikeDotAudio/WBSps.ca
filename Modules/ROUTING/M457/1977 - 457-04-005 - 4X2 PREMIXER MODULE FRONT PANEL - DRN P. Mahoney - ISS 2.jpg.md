@@ -24,6 +24,17 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 686,181 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout A 457-04-005, size A 224 × 279 mm, 1602 × 2000 px traced (0.140 mm/px)
+- **Ink extent:** 0–224 mm across, 0–279 mm up
+- **Outlines:** line 57 rings, 1,429 straight (2,576 mm) / 173 curved (163 mm); text 672 rings, 4,273 straight (2,718 mm) / 1,490 curved (1,306 mm); tb 380 rings, 2,881 straight (3,776 mm) / 610 curved (674 mm)
+- **Closed boxes:** 7 (6 in the title block); named: ASSIGNMENT switches Shi through Sw8 When
+- **Words (OCR):** 103 in 65 lines: WBS · M457 · SENS !Tivity controls R2 , · R4 , · and R8 (outer knobs) · order · accommodate constant · MIXER · SEN-C-MiX · LEVEL contro] settings with · input leve Is , the SENS / - · tinuousiY
+- **Title block:** (83, 0)–(224, 239) mm: WBS · M457 · SENS !Tivity controls R2 , · R4 , · and R8 (outer knobs) · order · accommodate constant · MIXER · SEN-C-MiX · LEVEL contro] settings with · input leve Is , the SENS / - · tinuousiY · cont
+
+Every curve, box, word and wire group: [1977 - 457-04-005 - 4X2 PREMIXER MODULE FRONT PANEL - DRN P. Mahoney - ISS 2 (traced).json](1977%20-%20457-04-005%20-%204X2%20PREMIXER%20MODULE%20FRONT%20PANEL%20-%20DRN%20P.%20Mahoney%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1977 - 457-04-005 - 4X2 PREMIXER MODULE FRONT PANEL - DRN P. Mahoney - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

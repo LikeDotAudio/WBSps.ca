@@ -12,6 +12,20 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 22,489,585 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 490-03-006, size B (assumed) 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 0–282 mm up
+- **Outlines:** line 1,926 rings, 12,592 straight (23,630 mm) / 2,384 curved (3,064 mm); text 576 rings, 3,076 straight (2,798 mm) / 917 curved (1,189 mm); tb 21 rings, 166 straight (194 mm) / 46 curved (53.1 mm)
+- **Centre lines:** 12,789 paths (319 closed); straight 15,043 mm, curved 156 mm; horizontal 7,380 mm, vertical 3,356 mm, diagonal 4,307 mm
+- **Circles and arcs:** 6 circles, 33 arcs; largest r 2.7 @ (29.8, 130.1), r 2.6 @ (377.4, 130.8), r 2.3 @ (308.6, 139.3), r 1.4 @ (167.9, 139.2)
+- **Closed boxes:** 39 (7 in the title block); named: HeLs; 35; 49-; Joj: 434; 1240 Lat; 490-03-o6-; CL; WBS WAAD-DECK BybtemB; M490/D INPUT MODULE ESCUTCHEON; 490
+- **Dots (junctions):** 2
+- **Words (OCR):** 101 in 83 lines: HeLs · 35 · 49- · M49oB · 1240 Lat · M49OD · Joj: 434 · 490-03-o6- · 190-07 · CL · 938 · Oce
+- **Title block:** (356, 4)–(388, 36) mm: DAXGEB · SCALE
+
+Every curve, box, word and wire group: [1978 - M490 - 490-03-006 - FREE FROM MARKS AND SCRATCHES DETAIL RETAIL (traced).json](1978%20-%20M490%20-%20490-03-006%20-%20FREE%20FROM%20MARKS%20AND%20SCRATCHES%20DETAIL%20RETAIL%20%28traced%29.json) (the CAD file: `1978 - M490 - 490-03-006 - FREE FROM MARKS AND SCRATCHES DETAIL RETAIL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

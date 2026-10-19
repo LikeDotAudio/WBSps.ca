@@ -24,6 +24,18 @@ Upside-down module schematic with title block at top left.
 - **Size:** 3,958,754 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 463-02-007, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 10–864 mm up
+- **Outlines:** line 356 rings, 5,301 straight (22,780 mm) / 532 curved (1,621 mm); text 545 rings, 3,483 straight (7,584 mm) / 845 curved (2,512 mm)
+- **Centre lines:** 3,611 paths (31 closed); straight 16,366 mm, curved 118 mm; horizontal 7,321 mm, vertical 4,458 mm, diagonal 4,587 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 2.9 @ (483.4, 738.3), r 2.0 @ (305.0, 550.8)
+- **Closed boxes:** 48
+- **Wiring (first pass):** 119 connected wire groups from 445 runs
+
+Every curve, box, word and wire group: [1976 - 463-02-007 - M463M SUBMASTER (SUMMING struck) MODULE SCHEMATIC - ISS 1 (traced).json](1976%20-%20463-02-007%20-%20M463M%20SUBMASTER%20%28SUMMING%20struck%29%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 463-02-007 - M463M SUBMASTER (SUMMING struck) MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

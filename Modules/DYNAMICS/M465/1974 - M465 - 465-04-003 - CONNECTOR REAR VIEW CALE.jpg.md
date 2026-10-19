@@ -11,6 +11,16 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 781,368 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 465-04-003, size B (assumed) 432 × 335 mm, 2000 × 1553 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 4–427 mm across, 0–335 mm up
+- **Outlines:** line 238 rings, 6,076 straight (12,225 mm) / 669 curved (1,106 mm); text 575 rings, 5,136 straight (6,656 mm) / 1,171 curved (1,970 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.3 @ (27.7, 78.2)
+- **Closed boxes:** 82
+
+Every curve, box, word and wire group: [1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE (traced).json](1974%20-%20M465%20-%20465-04-003%20-%20CONNECTOR%20REAR%20VIEW%20CALE%20%28traced%29.json) (the CAD file: `1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

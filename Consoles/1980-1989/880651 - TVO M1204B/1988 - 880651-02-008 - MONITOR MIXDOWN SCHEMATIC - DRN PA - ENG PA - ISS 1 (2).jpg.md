@@ -24,6 +24,20 @@ Monitor mixdown schematic with title block at bottom right.
 - **Size:** 1,476,187 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 880651-02-008, size D 864 × 563 mm, 2000 × 1303 px traced (0.432 mm/px)
+- **Ink extent:** 4–864 mm across, 0–556 mm up
+- **Outlines:** line 2,347 rings, 21,332 straight (68,471 mm) / 3,721 curved (8,720 mm); text 177 rings, 1,200 straight (2,275 mm) / 420 curved (1,040 mm); tb 10 rings, 86 straight (269 mm) / 19 curved (38.4 mm)
+- **Centre lines:** 31,904 paths (224 closed); straight 46,919 mm, curved 692 mm; horizontal 19,144 mm, vertical 13,675 mm, diagonal 14,100 mm
+- **Circles and arcs:** 1 circles, 135 arcs; largest r 1.4 @ (510.4, 155.4)
+- **Closed boxes:** 238 (2 in the title block); named: MONITOR MIXDOWN SCHEMATIC; 880651-02-008
+- **Words (OCR):** 31 in 30 lines: conmro · (TNSTED · NPUT* · (TMSTED) · "DIRECT · "PLAYBACK" · OVERDUB" · DDAC · TRACK · TRACX · TRACK · CUTPUTS
+- **Title block:** (695, 36)–(864, 78) mm: SSUEI DATE · REMSICH · WBS WARD-BECK SYSTEMS · I0/BB
+- **Wiring (first pass):** 472 connected wire groups from 3,226 runs; labelled ends: 497 mm → NPUT*, DDAC; 402 mm → conmro; 271 mm → NPUT*; 174 mm → NPUT*; 163 mm → TRACK
+
+Every curve, box, word and wire group: [1988 - 880651-02-008 - MONITOR MIXDOWN SCHEMATIC - DRN PA - ENG PA - ISS 1 (2) (traced).json](1988%20-%20880651-02-008%20-%20MONITOR%20MIXDOWN%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1988 - 880651-02-008 - MONITOR MIXDOWN SCHEMATIC - DRN PA - ENG PA - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 13 words corrected)

@@ -11,6 +11,17 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,117,072 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 777-04-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–427 mm across, 4–287 mm up
+- **Outlines:** line 555 rings, 3,958 straight (6,334 mm) / 1,122 curved (1,458 mm); text 61 rings, 431 straight (531 mm) / 116 curved (177 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 2.5 @ (261.0, 72.7), r 2.4 @ (272.6, 149.2), r 2.3 @ (176.1, 148.7), r 2.3 @ (259.9, 224.9)
+- **Closed boxes:** 6
+- **Dots (junctions):** 2
+
+Every curve, box, word and wire group: [1981 - microCOM - 777-04-002 - STATUS MONITOR MODULE FRONT PANEL LAYOUT (traced).json](1981%20-%20microCOM%20-%20777-04-002%20-%20STATUS%20MONITOR%20MODULE%20FRONT%20PANEL%20LAYOUT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 777-04-002 - STATUS MONITOR MODULE FRONT PANEL LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -26,6 +26,20 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 
 - **1977** (labelled): `DATE JAN 77` — …CKD USED ON MATL_ :S Ly WBS WARD-BECK sysTeMs LTD. DRN ELJ DATE JAN 77 CKD K SCALE XX TOLS _ ANG. FINISH SUB CHANNEL SChEMATIC B 7…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 76045-02-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 19–300 mm up
+- **Outlines:** line 213 rings, 3,155 straight (7,107 mm) / 371 curved (542 mm); text 285 rings, 1,584 straight (1,588 mm) / 466 curved (636 mm); tb 15 rings, 191 straight (414 mm) / 33 curved (50.7 mm)
+- **Centre lines:** 2,256 paths (20 closed); straight 4,984 mm, curved 41.6 mm; horizontal 2,797 mm, vertical 1,004 mm, diagonal 1,183 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 39 (31 in the title block); named: WBS WARD-BECK LTD; TOLS; ISS_ 76045-02 063
+- **Words (OCR):** 42 in 36 lines: SuB · VU Meter · 4J8 · 843m · Tb3 · 8dBm · SuB OUTPUT · 3k6 · 44B) · Bk2 · To MON SELECTCRS · Put
+- **Title block:** (141, 31)–(377, 83) mm: ISS MOD CKD_ · USED ON · MATL_ · WBS WARD-BECK · DRN_ · ELJ · DATE JAN 77 · SuB CHANNEL · IFINISH · CKD · SChEMATIC · SCALE · TOLS
+- **Wiring (first pass):** 22 connected wire groups from 139 runs; labelled ends: 187 mm → ISS_, TOLS; 63 mm → TOLS; 51 mm → SuB, 4J8; 37 mm → Bk2; 9 mm → (-2848) =, 100
+
+Every curve, box, word and wire group: [1977 - 76045-02-003 - SUB CHANNEL SCHEMATIC - DRN ELJ - ISS 1 (traced).json](1977%20-%2076045-02-003%20-%20SUB%20CHANNEL%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 76045-02-003 - SUB CHANNEL SCHEMATIC - DRN ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

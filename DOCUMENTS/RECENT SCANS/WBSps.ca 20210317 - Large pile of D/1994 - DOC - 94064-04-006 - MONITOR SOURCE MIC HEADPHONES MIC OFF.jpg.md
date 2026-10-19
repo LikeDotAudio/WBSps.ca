@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,151,348 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94064-04-006, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 75–424 mm across, 7–218 mm up
+- **Outlines:** line 171 rings, 1,601 straight (6,038 mm) / 262 curved (426 mm); text 156 rings, 957 straight (1,061 mm) / 290 curved (373 mm); tb 20 rings, 176 straight (194 mm) / 38 curved (42.5 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 4.6 @ (154.2, 185.3), r 4.5 @ (154.2, 167.4), r 4.1 @ (187.3, 167.5), r 3.3 @ (172.0, 117.3)
+- **Closed boxes:** 24 (3 in the title block); named: HEADPHONES; HEADPHONES; WBZ BOSTON CONTROL RoOM  TURRET LAYOUT; NTS; 94064-04-006; CODE:
+- **Dots (junctions):** 2
+- **Words (OCR):** 19 in 14 lines: HEADPHONES · TOP MEW · FRONT · WBS · WARD-BECK SYSTEMS · WBZ BOSTON · REAR MEW · CAF F TFRUINAMNC · CD  ECTDA · SIDE VEW · CONTROL RoOM  TURRET · LAYOUT
+- **Title block:** (345, 22)–(429, 39) mm: WBS · WARD-BECK SYSTEMS · WBZ BOSTON
+
+Every curve, box, word and wire group: [1994 - DOC - 94064-04-006 - MONITOR SOURCE MIC HEADPHONES MIC OFF (traced).json](1994%20-%20DOC%20-%2094064-04-006%20-%20MONITOR%20SOURCE%20MIC%20HEADPHONES%20MIC%20OFF%20%28traced%29.json) (the CAD file: `1994 - DOC - 94064-04-006 - MONITOR SOURCE MIC HEADPHONES MIC OFF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

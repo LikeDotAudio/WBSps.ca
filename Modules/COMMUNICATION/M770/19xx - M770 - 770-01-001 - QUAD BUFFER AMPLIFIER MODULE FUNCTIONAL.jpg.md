@@ -11,6 +11,18 @@ Wiki page: [M770](../../../PAGES/M770.md)
 - **Size:** 7,354,159 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 770-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 367 rings, 3,871 straight (7,317 mm) / 769 curved (1,028 mm); text 155 rings, 1,032 straight (1,025 mm) / 357 curved (503 mm)
+- **Centre lines:** 2,710 paths (62 closed); straight 4,363 mm, curved 199 mm; horizontal 1,680 mm, vertical 1,083 mm, diagonal 1,601 mm
+- **Circles and arcs:** 5 circles, 48 arcs; largest r 1.0 @ (85.7, 140.5), r 1.0 @ (185.3, 192.9), r 1.0 @ (312.5, 87.3), r 0.9 @ (181.7, 75.7)
+- **Closed boxes:** 7
+- **Wiring (first pass):** 119 connected wire groups from 282 runs
+
+Every curve, box, word and wire group: [19xx - M770 - 770-01-001 - QUAD BUFFER AMPLIFIER MODULE FUNCTIONAL (traced).json](19xx%20-%20M770%20-%20770-01-001%20-%20QUAD%20BUFFER%20AMPLIFIER%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - M770 - 770-01-001 - QUAD BUFFER AMPLIFIER MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

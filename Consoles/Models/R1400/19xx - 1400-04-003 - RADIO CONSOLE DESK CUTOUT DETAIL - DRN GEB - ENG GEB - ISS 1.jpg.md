@@ -22,6 +22,15 @@ Wiki page: [R1400](../../../PAGES/R1400.md)
 - **Size:** 5,262,691 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 1400-04-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–414 mm across, 19–305 mm up
+- **Outlines:** line 327 rings, 3,105 straight (7,965 mm) / 527 curved (1,003 mm); text 281 rings, 1,837 straight (2,202 mm) / 576 curved (852 mm)
+- **Closed boxes:** 16
+
+Every curve, box, word and wire group: [19xx - 1400-04-003 - RADIO CONSOLE DESK CUTOUT DETAIL - DRN GEB - ENG GEB - ISS 1 (traced).json](19xx%20-%201400-04-003%20-%20RADIO%20CONSOLE%20DESK%20CUTOUT%20DETAIL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 1400-04-003 - RADIO CONSOLE DESK CUTOUT DETAIL - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

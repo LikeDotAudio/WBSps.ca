@@ -15,6 +15,18 @@ Wiki page: [M462](../../../PAGES/M462.md)
 
 - **1974** (labelled): `DATE July74` — …CeI 5egb M( [IMISH WBS WAAD-BeCk systeMs LTD. DRN: 3m 4-126 DATE July74 EQUALIZER FILTER CKD_ 44 SCALE COMPONENT.A SSEMBLY TolS _ #…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 4–411 mm up
+- **Outlines:** line 321 rings, 5,705 straight (12,055 mm) / 1,490 curved (1,499 mm); text 567 rings, 5,688 straight (5,969 mm) / 1,549 curved (1,910 mm); tb 32 rings, 403 straight (553 mm) / 94 curved (106 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.9 @ (198.4, 233.2), r 4.8 @ (90.3, 125.1), r 4.8 @ (88.6, 216.7), r 4.8 @ (87.5, 295.9)
+- **Closed boxes:** 26 (18 in the title block); named: 4-126 EQUALIZER FILTER COMPONENT  ASSEMB; FIISH; Iss_; TOLS
+- **Words (OCR):** 72 in 62 lines: E3 68l6 · E2 · Lo ~C9= · C6 · R2o · Ri?cig C18 · R24 · R18 · 53 · 37 21 · E4 · C1b
+- **Title block:** (66, 10)–(318, 63) mm: IsS MOD @cKD] · USED OH · WBS · systeMS LtD · 2 B563 PM · 38 BD · Dm · 4-126 · 1eg8 · DAT JULY 74 · EQUALIZER FILTER · FIISH · CKD. · 44 · COMPONENT  ASSEMBLY · [SCALE · TOLS · 4-126-06-001 · Iss_
+
+Every curve, box, word and wire group: [1974 - M462 - 4-126-06-001 - FFIMISH EQUALIZER FILTER (traced).json](1974%20-%20M462%20-%204-126-06-001%20-%20FFIMISH%20EQUALIZER%20FILTER%20%28traced%29.json) (the CAD file: `1974 - M462 - 4-126-06-001 - FFIMISH EQUALIZER FILTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

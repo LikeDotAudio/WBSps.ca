@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 4,656,411 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 3642-04-001, size B (assumed) 432 × 290 mm, 2000 × 1342 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–290 mm up
+- **Outlines:** line 740 rings, 8,808 straight (22,521 mm) / 682 curved (1,019 mm); text 203 rings, 1,124 straight (1,029 mm) / 435 curved (570 mm); tb 30 rings, 209 straight (238 mm) / 60 curved (73.4 mm)
+- **Closed boxes:** 240 (1 in the title block)
+- **Words (OCR):** 24 in 21 lines: CABLE duct Opehino 00in.460 ooln.-70.20mmi1411.40mm · 150.24mm · 45-60in · 33.5Oin. · 050.90mm · 45.sOln. · 1166.70mm · CABLE duct Opening ooin, · ooln · h0mm · 473 · Toin
+- **Title block:** (356, 0)–(396, 32) mm: WBS · CKD · SCALE
+
+Every curve, box, word and wire group: [1985 - ST - 3642-04-001 - CABLE DUCT OPEHINO DOUNERBE (traced).json](1985%20-%20ST%20-%203642-04-001%20-%20CABLE%20DUCT%20OPEHINO%20DOUNERBE%20%28traced%29.json) (the CAD file: `1985 - ST - 3642-04-001 - CABLE DUCT OPEHINO DOUNERBE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

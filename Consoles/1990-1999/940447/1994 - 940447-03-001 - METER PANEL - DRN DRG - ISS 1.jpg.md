@@ -20,6 +20,19 @@ Wiki page: [Job-940447](../../../PAGES/Job-940447.md)
 - **Size:** 404,883 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940447-03-001, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 99–846 mm across, 12–428 mm up
+- **Outlines:** line 652 rings, 4,232 straight (19,188 mm) / 845 curved (2,002 mm); text 300 rings, 1,720 straight (3,247 mm) / 507 curved (1,237 mm); tb 19 rings, 131 straight (342 mm) / 21 curved (55.6 mm)
+- **Centre lines:** 6,271 paths (195 closed); straight 13,475 mm, curved 41.4 mm; horizontal 6,433 mm, vertical 2,983 mm, diagonal 4,059 mm
+- **Circles and arcs:** 0 circles, 8 arcs
+- **Closed boxes:** 51 (4 in the title block); named: DETAILIB; DETAILIB; DETAIL; DETAIL; METER PANEL Isxe; 940447 03-001; CCDF; 94447V71
+- **Words (OCR):** 40 in 33 lines: 13 · REC'D · 48 · 0 507 · DETAILIB · PUNCH · 2,062 · 0,985 · 14875 · DETAIL · DETAIL · 1.025
+- **Title block:** (687, 46)–(857, 79) mm: REWSIO" · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940447-03-001 - METER PANEL - DRN DRG - ISS 1 (traced).json](1994%20-%20940447-03-001%20-%20METER%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940447-03-001 - METER PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

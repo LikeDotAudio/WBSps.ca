@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,358,050 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-008, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 366 rings, 4,026 straight (8,325 mm) / 530 curved (818 mm); text 832 rings, 5,077 straight (5,186 mm) / 1,538 curved (2,144 mm)
+- **Centre lines:** 6,209 paths (137 closed); straight 8,036 mm, curved 223 mm; horizontal 3,184 mm, vertical 2,126 mm, diagonal 2,726 mm
+- **Circles and arcs:** 11 circles, 27 arcs; largest r 1.6 @ (210.6, 200.8), r 1.4 @ (211.5, 66.9), r 1.4 @ (210.3, 216.7), r 1.4 @ (210.3, 224.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 146 in 125 lines: COMMUNICATIONS · CHANNEL · P2 · I,A · 6ojfm · OaBm · OVGILLATOR · QUTPUTS · 3,C · U1o · 7,8 · BaBm
+- **Wiring (first pass):** 141 connected wire groups from 415 runs, 1 dotted junctions; labelled ends: 758 mm → MI-STEREO, 14, 13, 16; 636 mm → P2; 487 mm → TO, To, TB2, 97,98; 66 mm → (147), 139,140; 52 mm → COMMUNICATIONS
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-008 - UVCLLATOR OABM QUTPUTS (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20UVCLLATOR%20OABM%20QUTPUTS%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-008 - UVCLLATOR OABM QUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

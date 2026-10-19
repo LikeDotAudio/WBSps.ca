@@ -22,6 +22,18 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 4,580,070 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 459-04-001, size B 432 × 288 mm, 2000 × 1332 px traced (0.216 mm/px); scale FULL
+- **Ink extent:** 0–432 mm across, 0–288 mm up
+- **Outlines:** line 896 rings, 11,592 straight (11,031 mm) / 2,022 curved (2,237 mm); text 94 rings, 894 straight (751 mm) / 210 curved (248 mm); tb 385 rings, 2,812 straight (2,818 mm) / 483 curved (592 mm)
+- **Closed boxes:** 16 (15 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 21 in 19 lines: WBS · M459 · Loc 0 · On · OFF [ · ISS MODICKD · USED ON · MATL . · WBS WARD-Beck · LT · DRM · FFINISH
+- **Title block:** (144, 14)–(390, 275) mm: WBS · M459 · Loc 0 · On · OFF [ · ISS MODICKD · USED ON · MATL . · WBS WARD-Beck · DRM · FFINISH · DATe ALe75 · M459 · cKD fa · ASSEMBLY · SCALE FULL · TOLS
+
+Every curve, box, word and wire group: [1975 - 459-04-001 - ASSEMBLY - DRN DM (traced).json](1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20%28traced%29.json) (the CAD file: `1975 - 459-04-001 - ASSEMBLY - DRN DM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

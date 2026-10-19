@@ -18,6 +18,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,901,618 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-161-02-001/1, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–424 mm across, 0–286 mm up
+- **Outlines:** line 1,597 rings, 13,061 straight (22,505 mm) / 2,445 curved (2,847 mm); text 79 rings, 552 straight (472 mm) / 139 curved (161 mm)
+- **Centre lines:** 15,557 paths (284 closed); straight 13,927 mm, curved 160 mm; horizontal 5,564 mm, vertical 4,775 mm, diagonal 3,588 mm
+- **Circles and arcs:** 6 circles, 31 arcs; largest r 1.6 @ (389.8, 23.9), r 1.2 @ (376.1, 24.1), r 1.2 @ (389.7, 24.1), r 1.2 @ (397.4, 18.7)
+- **Closed boxes:** 61
+- **Wiring (first pass):** 77 connected wire groups from 1,699 runs
+
+Every curve, box, word and wire group: [19xx - 14-161-02-001 - SA14-161 MACHINE CONTROL ASSEMBLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-161-02-001%20-%20SA14-161%20MACHINE%20CONTROL%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-161-02-001 - SA14-161 MACHINE CONTROL ASSEMBLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

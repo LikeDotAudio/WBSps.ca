@@ -15,6 +15,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 1,041,314 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 521-04-001, size B (assumed) 195 × 432 mm, 905 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–194 mm across, 0–430 mm up
+- **Outlines:** line 22 rings, 1,639 straight (4,645 mm) / 126 curved (214 mm); text 186 rings, 1,557 straight (1,879 mm) / 480 curved (741 mm); tb 327 rings, 2,396 straight (3,483 mm) / 541 curved (800 mm)
+- **Closed boxes:** 6 (6 in the title block)
+- **Words (OCR):** 35 in 31 lines: WBS · M5?1 · BAL · MODE · PEAK · SENS · AUX · PRE PST · AUX · PRE · PST · AUX 2
+- **Title block:** (12, 0)–(182, 432) mm: WBS · M5?1 · BAL · MODE · PEAK · SENS · AUX · PRE PST · AUX · PRE · PST · AUX 2 · PRE · PST · AUX · PRE · Pst · Ch · ON · {ISSUE DATE · REVISION · WBS WAAD-BECK sybt · DRN BL) · M521 · ENG · STEREO IN
+
+Every curve, box, word and wire group: [19xx - M521 - DOC - 521-04-001 - STEREO INPUT MODL (traced).json](19xx%20-%20M521%20-%20DOC%20-%20521-04-001%20-%20STEREO%20INPUT%20MODL%20%28traced%29.json) (the CAD file: `19xx - M521 - DOC - 521-04-001 - STEREO INPUT MODL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

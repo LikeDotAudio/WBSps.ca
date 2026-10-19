@@ -22,6 +22,20 @@ Schematic of the input and equalizer wiring for K2042S consoles with M-Matic ste
 - **Size:** 440,766 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 2042-02-001, size B 432 × 329 mm, 2000 × 1523 px traced (0.216 mm/px)
+- **Ink extent:** 6–427 mm across, 4–316 mm up
+- **Outlines:** line 289 rings, 3,969 straight (8,896 mm) / 650 curved (959 mm); text 860 rings, 6,144 straight (6,733 mm) / 1,664 curved (2,333 mm); tb 2 rings, 42 straight (119 mm) / 2 curved (5.1 mm)
+- **Centre lines:** 6,462 paths (112 closed); straight 8,986 mm, curved 313 mm; horizontal 3,876 mm, vertical 1,750 mm, diagonal 3,360 mm
+- **Circles and arcs:** 5 circles, 60 arcs; largest r 1.0 @ (98.5, 285.2), r 1.0 @ (98.5, 275.1), r 1.0 @ (98.3, 270.1), r 0.9 @ (98.4, 290.6)
+- **Closed boxes:** 12; named: M4ZZA SteREO 22 MQDULe; 54?k-034 STEREQ CHANNEL EADER (1543); 7,4
+- **Words (OCR):** 135 in 117 lines: TB / · E1 · Left 37.78 · S0B · 19861 · (33) · 20,X · MZLS · 4.D · 90B2 · ICaB~ Tc +icde~ · right
+- **Title block:** (327, 30)–(432, 49) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 75 connected wire groups from 385 runs; labelled ends: 2150 mm → 90B2, (33), 19861, 502 2; 104 mm → +25v, ~Zs~, 201, 18; 47 mm → TB /, 37.78; 44 mm → S0B; 44 mm → Hoo To
+
+Every curve, box, word and wire group: [19xx - 2042-02-001 - K2042S 1 AND K2042S 2 INPUT AND EQUALIZER SCHEMATIC - ISS 1 (traced).json](19xx%20-%202042-02-001%20-%20K2042S%201%20AND%20K2042S%202%20INPUT%20AND%20EQUALIZER%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 2042-02-001 - K2042S 1 AND K2042S 2 INPUT AND EQUALIZER SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -11,6 +11,21 @@ Wiki page: [M475](../../../PAGES/M475.md)
 - **Size:** 449,828 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 475-02-001, size B (assumed) 432 × 281 mm, 2000 × 1301 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–281 mm up
+- **Outlines:** line 1,362 rings, 11,393 straight (18,911 mm) / 2,579 curved (3,180 mm); text 734 rings, 4,082 straight (3,590 mm) / 1,403 curved (1,762 mm); tb 16 rings, 119 straight (175 mm) / 14 curved (16.1 mm)
+- **Centre lines:** 12,377 paths (307 closed); straight 13,256 mm, curved 495 mm; horizontal 4,296 mm, vertical 3,398 mm, diagonal 5,562 mm
+- **Circles and arcs:** 15 circles, 117 arcs; largest r 3.9 @ (348.6, 62.2), r 3.9 @ (325.1, 62.3), r 3.9 @ (323.8, 201.7), r 3.8 @ (323.8, 234.6)
+- **Closed boxes:** 29 (3 in the title block)
+- **Dots (junctions):** 3
+- **Words (OCR):** 157 in 141 lines: 620 · 5w2 · 242132 · 320 · Rcs · 367 · R72 e2o/i0 · C22 · 5w3 · MonITCR · 44oa7 · NFLTS
+- **Title block:** (355, 2)–(392, 29) mm: WBS WAAD DeCK · GD · CKD; · SCAl[ · R4 · Tols
+- **Wiring (first pass):** 142 connected wire groups from 1,109 runs, 4 dotted junctions; labelled ends: 226 mm → c23, 0i2s; 216 mm → 233; 208 mm → 756 _, 357<, {-s3, 558<; 184 mm → Swc, 22k; 183 mm → R22, 4{10
+
+Every curve, box, word and wire group: [1977 - M475 - 475-02-001 - ALL IC'S LMZOI EXCEPT (traced).json](1977%20-%20M475%20-%20475-02-001%20-%20ALL%20IC%27S%20LMZOI%20EXCEPT%20%28traced%29.json) (the CAD file: `1977 - M475 - 475-02-001 - ALL IC'S LMZOI EXCEPT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

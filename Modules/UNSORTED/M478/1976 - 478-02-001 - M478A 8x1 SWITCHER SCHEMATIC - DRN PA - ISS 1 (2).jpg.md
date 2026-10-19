@@ -24,6 +24,21 @@ Wiki page: [M478](../../../PAGES/M478.md)
 - **Size:** 4,799,475 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 478-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 20–302 mm up
+- **Outlines:** line 521 rings, 7,903 straight (10,900 mm) / 1,230 curved (1,604 mm); text 227 rings, 1,652 straight (1,804 mm) / 475 curved (704 mm); tb 43 rings, 310 straight (374 mm) / 36 curved (48.8 mm)
+- **Centre lines:** 6,123 paths (66 closed); straight 7,773 mm, curved 242 mm; horizontal 3,474 mm, vertical 2,045 mm, diagonal 2,253 mm
+- **Circles and arcs:** 18 circles, 43 arcs; largest r 1.3 @ (293.9, 146.7), r 1.2 @ (100.5, 204.9), r 1.1 @ (139.6, 205.2), r 1.0 @ (228.1, 189.0)
+- **Closed boxes:** 38 (28 in the title block); named: WBS WAAD-BeCK LTDS bybTeMS; M478A 8*1 SwitcheR SCHEMATIC; FINISH; 478-02 -ooi; TOLS; ISS_
+- **Dots (junctions):** 2
+- **Words (OCR):** 31 in 25 lines: 620 · 721 · OUTPUI · 1760 · INPUTS · Pushbuttons Schadow · 8*F17.5D4uGRsp FA100 · Blk/yel · ISSMODICKD · USEDON · MATL · WBS WAAD-BeCK bybTeMS
+- **Title block:** (141, 31)–(378, 82) mm: ISSMODICKD · USEDON · MATL · WBS WAAD-BeCK bybTeMS · DRN · PA · M478A · DATE July 76 · FINISH · 8*1 SwitcheR · CKD. · SCHEMATIC · FSCALE · TOLS
+- **Wiring (first pass):** 64 connected wire groups from 327 runs, 5 dotted junctions; labelled ends: 131 mm → 478-02 -ooi; 78 mm → 478-02 -ooi; 35 mm → LTDS, bybTeMS; 31 mm → 620; 25 mm → 721
+
+Every curve, box, word and wire group: [1976 - 478-02-001 - M478A 8x1 SWITCHER SCHEMATIC - DRN PA - ISS 1 (2) (traced).json](1976%20-%20478-02-001%20-%20M478A%208x1%20SWITCHER%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1976 - 478-02-001 - M478A 8x1 SWITCHER SCHEMATIC - DRN PA - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

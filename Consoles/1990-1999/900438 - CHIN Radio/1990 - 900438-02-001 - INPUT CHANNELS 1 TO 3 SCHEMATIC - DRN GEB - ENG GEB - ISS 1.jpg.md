@@ -23,6 +23,19 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,382,544 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 701 rings, 6,015 straight (12,012 mm) / 1,349 curved (1,965 mm); text 447 rings, 2,937 straight (3,591 mm) / 872 curved (1,234 mm)
+- **Centre lines:** 6,240 paths (133 closed); straight 8,600 mm, curved 741 mm; horizontal 3,480 mm, vertical 2,393 mm, diagonal 2,728 mm
+- **Circles and arcs:** 35 circles, 114 arcs; largest r 1.7 @ (382.4, 80.1), r 1.6 @ (402.6, 82.8), r 1.5 @ (155.8, 194.3), r 1.4 @ (148.5, 286.1)
+- **Closed boxes:** 22
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 114 connected wire groups from 719 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1990 - 900438-02-001 - INPUT CHANNELS 1 TO 3 SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-001%20-%20INPUT%20CHANNELS%201%20TO%203%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-001 - INPUT CHANNELS 1 TO 3 SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

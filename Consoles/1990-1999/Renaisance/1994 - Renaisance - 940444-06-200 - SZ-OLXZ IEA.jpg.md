@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 9,024,852 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 940444-06-200, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–288 mm across, 0–432 mm up
+- **Outlines:** line 3,756 rings, 27,302 straight (30,734 mm) / 8,574 curved (8,910 mm); text 797 rings, 4,674 straight (3,707 mm) / 1,879 curved (2,023 mm)
+- **Circles and arcs:** 40 circles, 0 arcs; largest r 3.1 @ (138.7, 387.2), r 3.1 @ (138.7, 394.4), r 3.0 @ (97.6, 234.1), r 3.0 @ (179.2, 234.2)
+- **Closed boxes:** 55; named: Eo
+- **Dots (junctions):** 12
+- **Words (OCR):** 74 in 70 lines: 9O6CNZ · 3524 · NOODHTL · 23 · NczijmtL · 28 · I88 · 423888 · cula · NSZ[jhtL · 6183 · sely
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940444-06-200 - SZ-OLXZ IEA (traced).json](1994%20-%20Renaisance%20-%20940444-06-200%20-%20SZ-OLXZ%20IEA%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940444-06-200 - SZ-OLXZ IEA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

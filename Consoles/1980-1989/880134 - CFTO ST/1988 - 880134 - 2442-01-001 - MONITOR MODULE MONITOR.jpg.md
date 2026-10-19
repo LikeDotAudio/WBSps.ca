@@ -10,6 +10,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,774,613 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 2442-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 1–432 mm up
+- **Outlines:** line 629 rings, 10,423 straight (28,199 mm) / 1,214 curved (1,932 mm); text 294 rings, 1,880 straight (2,180 mm) / 599 curved (866 mm)
+- **Centre lines:** 6,897 paths (94 closed); straight 15,378 mm, curved 468 mm; horizontal 5,220 mm, vertical 7,956 mm, diagonal 2,201 mm
+- **Circles and arcs:** 32 circles, 54 arcs; largest r 1.5 @ (140.5, 375.2), r 1.5 @ (96.0, 375.2), r 1.5 @ (32.5, 140.5), r 1.5 @ (124.5, 375.2)
+- **Closed boxes:** 179
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 204 connected wire groups from 1,011 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1988 - 880134 - 2442-01-001 - MONITOR MODULE MONITOR (traced).json](1988%20-%20880134%20-%202442-01-001%20-%20MONITOR%20MODULE%20MONITOR%20%28traced%29.json) (the CAD file: `1988 - 880134 - 2442-01-001 - MONITOR MODULE MONITOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -21,6 +21,19 @@ Outline drawing of a modified IFB beltpack with top, side and bottom views.
 - **Size:** 375,961 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 940243-04-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 31–432 mm across, 10–299 mm up
+- **Outlines:** line 208 rings, 1,782 straight (5,803 mm) / 384 curved (739 mm); text 179 rings, 1,201 straight (1,305 mm) / 352 curved (486 mm); tb 2 rings, 40 straight (94.3 mm) / 2 curved (3.0 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 7.6 @ (342.7, 144.0), r 7.0 @ (376.4, 143.8), r 6.3 @ (342.9, 144.1), r 3.7 @ (94.9, 152.4)
+- **Closed boxes:** 6
+- **Dots (junctions):** 2
+- **Words (OCR):** 29 in 23 lines: 3.75 in · 4.75 · (95 Mm) · (121 mm) · CAUTION 32v · HEADSET · .65 in · IPH-1E · mm) · OFF · LEVEL · HEADSET
+- **Title block:** (335, 27)–(425, 44) mm: WBS · WARD-BECK SYSTEMS · IPH-1E
+
+Every curve, box, word and wire group: [1994 - 940243-04-004 - IPH-1E MODIFIED IFB BELTPACK OUTLINE - ISS 1 (traced).json](1994%20-%20940243-04-004%20-%20IPH-1E%20MODIFIED%20IFB%20BELTPACK%20OUTLINE%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940243-04-004 - IPH-1E MODIFIED IFB BELTPACK OUTLINE - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

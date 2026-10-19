@@ -11,6 +11,19 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 573,766 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 460-04-008, size B (assumed) 432 × 318 mm, 2000 × 1471 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–312 mm up
+- **Outlines:** line 1,185 rings, 6,189 straight (10,559 mm) / 2,103 curved (2,443 mm); text 1,337 rings, 5,817 straight (4,732 mm) / 2,588 curved (3,078 mm); tb 1,393 rings, 8,842 straight (16,225 mm) / 2,593 curved (3,527 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 0.8 @ (76.8, 247.9), r 0.8 @ (69.0, 172.6), r 0.8 @ (79.8, 122.5), r 0.7 @ (74.6, 93.1)
+- **Closed boxes:** 10; named: Public ADORESS With 5 iGnd output; PUBLIC LDCRESS PubLic cncosc ADORESS (PR; FOLdBACK SWS 4nd cutou{ Joproorintc; sitch ocpressec Jopropr OUIDU[; cornct SheLG; FREquERCT section vary; ca |ieration ceters ceneer Curvc; R7 L00 Erom defint DOin [ GooSI; Equalizer iNSERT Twitcn Nncn [ne EQuaize; SOLo Shi6 : Tana CHAMNEL 04 encer
+- **Dots (junctions):** 8
+- **Words (OCR):** 187 in 152 lines: Micronhonc · micrcohone · Seeccs · sian · WBS · Kinc · (PAD OFF · PHASE · Rhen · high pass FilteR control RIOM; · Potn · {ron 25
+- **Title block:** (162, 0)–(432, 312) mm: Micronhonc · micrcohone · Seeccs · sian · WBS · Kinc · (PAD OFF · high pass FilteR control RIOM; · Potn · {ron 25 · 120 · 2251 · adjustab · controi · Provicct 56 c · nuousy · curces · conero| · nout ·
+
+Every curve, box, word and wire group: [1976 - M460A - 460-04-008 - XTERNA CONTROI FUNCTIONS NOTE THAT THE (traced).json](1976%20-%20M460A%20-%20460-04-008%20-%20XTERNA%20CONTROI%20FUNCTIONS%20NOTE%20THAT%20THE%20%28traced%29.json) (the CAD file: `1976 - M460A - 460-04-008 - XTERNA CONTROI FUNCTIONS NOTE THAT THE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 23 words corrected)

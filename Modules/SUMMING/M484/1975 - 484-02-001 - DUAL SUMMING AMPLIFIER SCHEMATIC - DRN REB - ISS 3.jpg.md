@@ -24,6 +24,20 @@ Wiki page: [M484](../../../PAGES/M484.md)
 - **Size:** 4,352,531 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 484-02-001, size B 432 × 168 mm, 2000 × 780 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–168 mm up
+- **Outlines:** line 1,125 rings, 10,193 straight (15,282 mm) / 1,948 curved (2,340 mm); text 311 rings, 1,868 straight (1,580 mm) / 535 curved (643 mm); tb 9 rings, 81 straight (134 mm) / 5 curved (5.1 mm)
+- **Centre lines:** 10,279 paths (258 closed); straight 9,883 mm, curved 330 mm; horizontal 3,808 mm, vertical 2,192 mm, diagonal 3,882 mm
+- **Circles and arcs:** 1 circles, 91 arcs; largest r 3.3 @ (152.0, 130.8)
+- **Closed boxes:** 23; named: Mati.
+- **Words (OCR):** 57 in 50 lines: 882162 · 246 · 242102 · 822 · <247 · R7 2 · SUMMNG AMP 2 · R49 · Ezo/10 _ · SUMMING_AMP · R24 220/10 · R27
+- **Title block:** (351, 45)–(428, 56) mm: WBS WARD Beck ByBTEMB LTD
+- **Wiring (first pass):** 124 connected wire groups from 801 runs; labelled ends: 727 mm → SUMMING, ECHEMATIC, 484 -, 02-0oi; 83 mm → 242162, 220/10, 39', 22; 78 mm → 39', 47 <, 770/6; 76 mm → <322, 47P; 70 mm → 100p
+
+Every curve, box, word and wire group: [1975 - 484-02-001 - DUAL SUMMING AMPLIFIER SCHEMATIC - DRN REB - ISS 3 (traced).json](1975%20-%20484-02-001%20-%20DUAL%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20REB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1975 - 484-02-001 - DUAL SUMMING AMPLIFIER SCHEMATIC - DRN REB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

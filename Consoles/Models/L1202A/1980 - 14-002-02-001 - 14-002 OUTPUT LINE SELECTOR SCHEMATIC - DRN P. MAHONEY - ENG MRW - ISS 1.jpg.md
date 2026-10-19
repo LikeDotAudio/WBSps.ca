@@ -23,6 +23,21 @@ Wiki page: [L1202A](../../../PAGES/L1202A.md)
 - **Size:** 247,512 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-002-02-001, size B 432 × 312 mm, 2000 × 1444 px traced (0.216 mm/px)
+- **Ink extent:** 43–432 mm across, 0–312 mm up
+- **Outlines:** line 131 rings, 2,646 straight (6,148 mm) / 388 curved (595 mm); text 308 rings, 2,729 straight (3,355 mm) / 737 curved (1,189 mm); tb 13 rings, 153 straight (298 mm) / 29 curved (49.3 mm)
+- **Centre lines:** 2,880 paths (58 closed); straight 5,615 mm, curved 201 mm; horizontal 2,149 mm, vertical 1,521 mm, diagonal 1,945 mm
+- **Circles and arcs:** 21 circles, 7 arcs; largest r 1.5 @ (196.5, 152.0), r 1.5 @ (138.6, 152.2), r 1.4 @ (138.7, 157.7), r 1.4 @ (196.5, 163.0)
+- **Closed boxes:** 8 (5 in the title block); named: M2; M1
+- **Dots (junctions):** 1
+- **Words (OCR):** 49 in 43 lines: NeTES: · RESISTOR 1S vaw 5*. · 2.LAST COMPONENT DESIANATION: · R1 & Sw6 · #2DC · LINE · DC · LINE · CONTROL · IN · CONTROL · IN
+- **Title block:** (267, 1)–(432, 78) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK systeMB · DRN · 14-002 · ENG Mrw · OUTPUT LINE · SELECTOR · CKd · SCHEMATIC · APP · SCALE · ISSUE · 14-002-02-001
+- **Wiring (first pass):** 29 connected wire groups from 120 runs, 3 dotted junctions; labelled ends: 260 mm → Sw 1, Sw2, Sw 3; 79 mm → N/C No; 74 mm → ARM; 63 mm → NC N/o, 10; 62 mm → Sw2
+
+Every curve, box, word and wire group: [1980 - 14-002-02-001 - 14-002 OUTPUT LINE SELECTOR SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).json](1980%20-%2014-002-02-001%20-%2014-002%20OUTPUT%20LINE%20SELECTOR%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1980 - 14-002-02-001 - 14-002 OUTPUT LINE SELECTOR SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

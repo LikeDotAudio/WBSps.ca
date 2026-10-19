@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,579,555 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 093047-04-001, size B (assumed) 432 × 288 mm, 2000 × 1332 px traced (0.216 mm/px); scale DISC NO: 450
+- **Ink extent:** 0–423 mm across, 13–283 mm up
+- **Outlines:** line 1,986 rings, 21,381 straight (30,868 mm) / 2,237 curved (2,923 mm); text 1,966 rings, 12,229 straight (9,540 mm) / 3,269 curved (3,782 mm); tb 1,288 rings, 5,663 straight (8,196 mm) / 760 curved (995 mm)
+- **Circles and arcs:** 162 circles, 0 arcs; largest r 3.4 @ (377.8, 192.9), r 3.4 @ (249.8, 192.9), r 3.4 @ (224.3, 193.0), r 3.4 @ (396.8, 193.0)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 201 in 175 lines: UNITARY PROGRAYSCUND INPUTS · NORMALLED · JACKFIELD · MODULAR · 082040 · PGM} · NOTE · M8204D · PGM? · NOTE · M8204d · PGMI
+- **Title block:** (21, 12)–(431, 205) mm: INPUTS · AMP · CCOBES · CAM · NOTE · MBZO4D · CAv ENG · NOTE · M8204D · Cav PRCD · M8204D · UHF3 · NOTE · 4M8512 · UHF2 · TELEPHONE · MRE · M7840 · UHFI · LINE · TELEPHONE UNiT · FROM MaTRIX Cut · SEC
+
+Every curve, box, word and wire group: [1989 - 893047 - DOC - 093047-04-001 - NOTE NOTE NORMALLED JACK PAIR NOTE CAMERA PRUGRAN (traced).json](1989%20-%20893047%20-%20DOC%20-%20093047-04-001%20-%20NOTE%20NOTE%20NORMALLED%20JACK%20PAIR%20NOTE%20CAMERA%20PRUGRAN%20%28traced%29.json) (the CAD file: `1989 - 893047 - DOC - 093047-04-001 - NOTE NOTE NORMALLED JACK PAIR NOTE CAMERA PRUGRAN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 19 words corrected)

@@ -24,6 +24,20 @@ Wiki page: [Job-93039](../../../PAGES/Job-93039.md)
 - **Size:** 793,970 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 93039-01-002, size D 864 × 552 mm, 2000 × 1279 px traced (0.432 mm/px)
+- **Ink extent:** 10–864 mm across, 0–535 mm up
+- **Outlines:** line 1,149 rings, 7,926 straight (31,746 mm) / 879 curved (2,220 mm); text 85 rings, 562 straight (1,175 mm) / 147 curved (386 mm); tb 48 rings, 297 straight (588 mm) / 87 curved (215 mm)
+- **Centre lines:** 9,167 paths (112 closed); straight 17,988 mm, curved 83.7 mm; horizontal 8,686 mm, vertical 4,866 mm, diagonal 4,435 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 3.6 @ (147.3, 123.0)
+- **Closed boxes:** 36 (6 in the title block)
+- **Words (OCR):** 10 in 8 lines: CONTRCL MOCULE · SSUFIDATF · WBS · WARD-BECK SYSTEMS · CBC SR-398 · CONTROL UNIT · FUNCTIONAL · SCALE
+- **Title block:** (670, 0)–(845, 58) mm: SSUFIDATF · WBS · WARD-BECK SYSTEMS · CBC SR-398 · CONTROL UNIT · FUNCTIONAL · SCALE
+- **Wiring (first pass):** 166 connected wire groups from 1,717 runs; labelled ends: 6 mm → SSUFIDATF, WARD-BECK SYSTEMS; 6 mm → SSUFIDATF, WBS; 6 mm → SSUFIDATF, WBS; 5 mm → WARD-BECK SYSTEMS; 5 mm → WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1993 - 93039-01-002 - CBC SR-398 CONTROL UNIT FUNCTIONAL - DRN DRG - ENG RB - ISS 1 (traced).json](1993%20-%2093039-01-002%20-%20CBC%20SR-398%20CONTROL%20UNIT%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ENG%20RB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1993 - 93039-01-002 - CBC SR-398 CONTROL UNIT FUNCTIONAL - DRN DRG - ENG RB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

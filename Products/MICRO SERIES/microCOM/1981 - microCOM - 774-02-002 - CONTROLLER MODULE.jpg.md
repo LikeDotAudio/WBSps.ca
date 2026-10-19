@@ -11,6 +11,18 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,209,580 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 774-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–287 mm up
+- **Outlines:** line 796 rings, 7,342 straight (11,853 mm) / 1,425 curved (1,671 mm); text 157 rings, 977 straight (790 mm) / 272 curved (334 mm)
+- **Centre lines:** 8,496 paths (184 closed); straight 7,483 mm, curved 56.2 mm; horizontal 2,264 mm, vertical 2,996 mm, diagonal 2,223 mm
+- **Circles and arcs:** 7 circles, 10 arcs; largest r 1.6 @ (380.9, 25.5), r 1.6 @ (368.9, 25.3), r 1.3 @ (368.8, 25.5), r 1.2 @ (380.4, 20.4)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 126 connected wire groups from 661 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 774-02-002 - CONTROLLER MODULE (traced).json](1981%20-%20microCOM%20-%20774-02-002%20-%20CONTROLLER%20MODULE%20%28traced%29.json) (the CAD file: `1981 - microCOM - 774-02-002 - CONTROLLER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

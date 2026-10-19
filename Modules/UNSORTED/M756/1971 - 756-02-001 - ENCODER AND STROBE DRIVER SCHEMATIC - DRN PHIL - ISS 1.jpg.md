@@ -22,6 +22,20 @@ Wiki page: [M756](../../../PAGES/M756.md)
 - **Size:** 4,679,521 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 756-02-001, size B 129 × 432 mm, 597 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–129 mm across, 2–432 mm up
+- **Outlines:** line 916 rings, 7,005 straight (11,152 mm) / 1,086 curved (1,418 mm); text 94 rings, 438 straight (313 mm) / 108 curved (123 mm)
+- **Centre lines:** 5,018 paths (50 closed); straight 6,152 mm, curved 112 mm; horizontal 1,386 mm, vertical 3,408 mm, diagonal 1,358 mm
+- **Circles and arcs:** 1 circles, 30 arcs; largest r 0.9 @ (100.0, 37.4)
+- **Closed boxes:** 22; named: dm
+- **Dots (junctions):** 4
+- **Words (OCR):** 3 in 3 lines: dm · 153 · 422
+- **Wiring (first pass):** 115 connected wire groups from 745 runs, 8 dotted junctions; labelled ends: 106 mm → dm; 66 mm → dm; 62 mm → 422; 46 mm → dm; 21 mm → dm
+
+Every curve, box, word and wire group: [1971 - 756-02-001 - ENCODER AND STROBE DRIVER SCHEMATIC - DRN PHIL - ISS 1 (traced).json](1971%20-%20756-02-001%20-%20ENCODER%20AND%20STROBE%20DRIVER%20SCHEMATIC%20-%20DRN%20PHIL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 756-02-001 - ENCODER AND STROBE DRIVER SCHEMATIC - DRN PHIL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

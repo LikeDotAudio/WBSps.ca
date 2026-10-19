@@ -20,6 +20,19 @@ Wiki page: [Job-960077](../../../PAGES/Job-960077.md)
 - **Size:** 610,031 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960077-03-003, size D 864 × 551 mm, 2000 × 1277 px traced (0.432 mm/px)
+- **Ink extent:** 70–864 mm across, 10–490 mm up
+- **Outlines:** line 701 rings, 5,176 straight (26,528 mm) / 999 curved (2,965 mm); text 203 rings, 1,044 straight (1,895 mm) / 387 curved (969 mm); tb 17 rings, 130 straight (328 mm) / 27 curved (63.1 mm)
+- **Centre lines:** 5,527 paths (161 closed); straight 15,852 mm, curved 658 mm; horizontal 8,383 mm, vertical 3,988 mm, diagonal 3,481 mm
+- **Circles and arcs:** 10 circles, 8 arcs; largest r 12.3 @ (374.7, 376.3), r 12.3 @ (615.1, 377.9), r 12.3 @ (546.7, 377.2), r 12.3 @ (443.2, 377.0)
+- **Closed boxes:** 45 (3 in the title block); named: STUDIO INTERFACE PANEL; 960077-03-003; DSC * 51301
+- **Words (OCR):** 28 in 26 lines: 16,070 · DETA · DEMA · 0463 · CUNC · 0.252 · 0.710 · 0.844 · 2.050 · 0,800 · DETAIL · PMCHES
+- **Title block:** (683, 42)–(849, 75) mm: WARD-BECK  SYSTEMS · REY SICA · WBS
+
+Every curve, box, word and wire group: [1996 - 960077-03-003 - STUDIO INTERFACE PANEL - DRN DRG - ISS 1 (traced).json](1996%20-%20960077-03-003%20-%20STUDIO%20INTERFACE%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960077-03-003 - STUDIO INTERFACE PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

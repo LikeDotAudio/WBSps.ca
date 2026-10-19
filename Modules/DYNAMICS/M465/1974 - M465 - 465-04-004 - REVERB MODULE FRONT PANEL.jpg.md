@@ -11,6 +11,19 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 190,947 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 465-04-004, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 5–305 mm across, 16–432 mm up
+- **Outlines:** line 163 rings, 1,275 straight (5,701 mm) / 110 curved (174 mm); text 658 rings, 3,086 straight (2,861 mm) / 627 curved (862 mm); tb 470 rings, 2,499 straight (6,445 mm) / 450 curved (840 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (44.6, 159.8)
+- **Closed boxes:** 12 (6 in the title block)
+- **Dots (junctions):** 3
+- **Words (OCR):** 90 in 67 lines: WBS · control Ri/2: contrals · REv SEND · REV SEnD sectior · WU Meter · Indicales oucdut cvc] · MsTR · When cupressed Feeds · Pre-Fade REV · SENJ signa · bus . · control
+- **Title block:** (131, 24)–(305, 324) mm: WBS · control Ri/2: contrals · REv SEND · MsTR · When cupressed Feeds · Pre-Fade REV · SENJ signa · bus . · control · Tows · chioose · the · icl-up · iLher · prPorntc to (PRE) · Ene · (post) tne · Fad
+
+Every curve, box, word and wire group: [1974 - M465 - 465-04-004 - REVERB MODULE FRONT PANEL (traced).json](1974%20-%20M465%20-%20465-04-004%20-%20REVERB%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1974 - M465 - 465-04-004 - REVERB MODULE FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 16 words corrected)

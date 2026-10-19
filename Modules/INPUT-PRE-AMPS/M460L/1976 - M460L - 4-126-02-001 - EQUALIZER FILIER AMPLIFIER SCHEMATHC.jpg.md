@@ -15,6 +15,21 @@ Wiki page: [M460L](../../../PAGES/M460L.md)
 
 - **1976** (labelled): `DATE Oct 76` — …1949 3047 2 5377 USED ON MATL WBS WAAD-BECK BYBTEMB DRN 2EB DATE Oct 76 CKD Aiela SCALE TOLS Ra 4-126 FINISH EQUAlIZER Filier AmPLi…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 432 × 300 mm, 2000 × 1391 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–294 mm up
+- **Outlines:** line 616 rings, 6,288 straight (12,676 mm) / 1,227 curved (1,593 mm); text 708 rings, 4,218 straight (4,176 mm) / 1,497 curved (2,055 mm); tb 18 rings, 148 straight (210 mm) / 30 curved (35.8 mm)
+- **Centre lines:** 8,852 paths (138 closed); straight 10,228 mm, curved 298 mm; horizontal 3,506 mm, vertical 2,658 mm, diagonal 4,065 mm
+- **Circles and arcs:** 8 circles, 90 arcs; largest r 1.5 @ (283.2, 44.8), r 1.2 @ (135.1, 84.1), r 1.1 @ (123.0, 83.7), r 1.1 @ (161.5, 220.6)
+- **Closed boxes:** 20 (4 in the title block); named: 4-126-02-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 150 in 133 lines: HG FREQUENCY · (16 khz - 25k Az ) · MD FREQUENCY · (4004z Gkhz · E3 · 65 · Ke2 cio · ok · 2k2 · R21 · Ci8 · 221
+- **Title block:** (352, 0)–(421, 32) mm: WBS WAAD-BECK BYBTEME · DRN 2EB · 4-126 · Oct 7 · EQUALIZER FIliER · cKD · ScALE · Lu · MPLIFIER SCHEMANC · Tols · 4-126-02-001
+- **Wiring (first pass):** 91 connected wire groups from 673 runs; labelled ends: 241 mm → USED, 3047; 195 mm → Ke2, cio, Ooop, 23; 158 mm → 22, -2iv; 156 mm → 620, 22; 145 mm → ok, 222, YALJE
+
+Every curve, box, word and wire group: [1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC (traced).json](1976%20-%20M460L%20-%204-126-02-001%20-%20EQUALIZER%20FILIER%20AMPLIFIER%20SCHEMATHC%20%28traced%29.json) (the CAD file: `1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

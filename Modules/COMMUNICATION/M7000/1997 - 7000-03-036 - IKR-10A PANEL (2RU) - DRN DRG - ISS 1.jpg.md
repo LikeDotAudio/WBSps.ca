@@ -24,6 +24,19 @@ Panel drawing with dimensions and detail views, title block at bottom right.
 - **Size:** 456,855 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 7000-03-036, size D 864 × 864 mm, 2000 × 2000 px traced (0.432 mm/px); scale 4:1)
+- **Ink extent:** 0–862 mm across, 72–819 mm up
+- **Outlines:** line 342 rings, 4,017 straight (26,274 mm) / 436 curved (2,433 mm); text 534 rings, 2,724 straight (5,454 mm) / 1,119 curved (2,920 mm); tb 44 rings, 551 straight (3,617 mm) / 51 curved (126 mm)
+- **Centre lines:** 6,130 paths (139 closed); straight 19,781 mm, curved 1,279 mm; horizontal 8,688 mm, vertical 4,656 mm, diagonal 6,436 mm
+- **Circles and arcs:** 8 circles, 10 arcs; largest r 181.1 @ (622.9, 385.1), r 9.2 @ (156.1, 580.5), r 9.1 @ (12.7, 577.3), r 9.0 @ (228.4, 561.3)
+- **Closed boxes:** 18
+- **Words (OCR):** 64 in 61 lines: 17.110 · 16.710 · PUNCH 0.380 SQ · PITCHES OF 1.000 9.000 · (0.04 RAD CORNERS) · Sk REAR · 90 DEG · PANEL · 500 DIA · 0.855 · 448 · 0.282 0,564
+- **Title block:** (588, 65)–(829, 238) mm: DETAIL · (SCALE 4:1) · REVISION · ISSUE] DATEL · WBS · WARD-BECK · SYSTEMS · DRG(8 · DRN: · ENG; · IKR-1OA · PANEL(2RU) · CKD; · 7000-03-036 · SSUE · SCALE · DISC NO: · CODE: 7000-036
+
+Every curve, box, word and wire group: [1997 - 7000-03-036 - IKR-10A PANEL (2RU) - DRN DRG - ISS 1 (traced).json](1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%20%282RU%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1997 - 7000-03-036 - IKR-10A PANEL (2RU) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

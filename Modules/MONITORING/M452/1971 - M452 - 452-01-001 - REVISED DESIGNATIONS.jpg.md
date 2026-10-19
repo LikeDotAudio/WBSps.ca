@@ -12,6 +12,18 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **Size:** 6,779,579 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 452-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–426 mm across, 0–287 mm up
+- **Outlines:** line 407 rings, 4,245 straight (10,325 mm) / 712 curved (1,013 mm); text 224 rings, 1,291 straight (1,528 mm) / 446 curved (652 mm)
+- **Centre lines:** 3,862 paths (91 closed); straight 5,873 mm, curved 257 mm; horizontal 2,613 mm, vertical 1,365 mm, diagonal 1,895 mm
+- **Circles and arcs:** 19 circles, 45 arcs; largest r 2.1 @ (386.0, 31.5), r 1.7 @ (298.7, 42.8), r 1.7 @ (388.5, 24.2), r 1.5 @ (293.3, 104.4)
+- **Closed boxes:** 22
+- **Wiring (first pass):** 66 connected wire groups from 371 runs
+
+Every curve, box, word and wire group: [1971 - M452 - 452-01-001 - REVISED DESIGNATIONS (traced).json](1971%20-%20M452%20-%20452-01-001%20-%20REVISED%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `1971 - M452 - 452-01-001 - REVISED DESIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

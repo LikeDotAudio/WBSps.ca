@@ -11,6 +11,17 @@ Wiki page: [M463L](../../../PAGES/M463L.md)
 - **Size:** 910,039 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-024, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 163 rings, 4,997 straight (8,333 mm) / 584 curved (772 mm); text 515 rings, 4,243 straight (5,566 mm) / 1,106 curved (1,788 mm); tb 33 rings, 402 straight (806 mm) / 55 curved (88.7 mm)
+- **Closed boxes:** 17 (3 in the title block); named: A| 1; C|3; Xi2o; Y /21; 2 /22; MATL_; WBS WAAD-BECK BYBTEMs LTD-; M4S 3L MODULE SUB-MASTER CONNECTOR REAR ; XX TOLS_; ISS; 46 3-04-024
+- **Words (OCR):** 107 in 57 lines: P2 · IC A| 1 IC · GND · GND · LEFT OUT C|3 LEFT OUT (MI) · LEFT OUT D/4 LEFT · OUT · (M3) · RIGHT OUT · E|5 RIGHT OUT (M2) · RIGHT · Out F , 6 RIGHT OUT (M4)
+- **Title block:** (101, 16)–(251, 86) mm: WBS WAAD-BECK BYBTEMs LTD- · M4S 3L · SUB-MASTER · CKD · CONNECTOR REAR VIEW · SCALE · TOLS_ · XX · 46 3-04-024
+
+Every curve, box, word and wire group: [1974 - M463L - 463-04-024 - CONNECTOR REAR VIEW (traced).json](1974%20-%20M463L%20-%20463-04-024%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1974 - M463L - 463-04-024 - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

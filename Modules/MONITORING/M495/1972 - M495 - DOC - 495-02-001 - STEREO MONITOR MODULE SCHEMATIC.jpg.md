@@ -18,6 +18,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1972** (labelled): `APP 72` — …569 36945 R49WAs2% REVISION R4g 4k7 He] 2478 ISSuE DATE cOM APP 72 CTL COM Cib 22/25 CzO 22/25 WBS WAAD-BECK ByBteMS Crz 25v I…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 495-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–427 mm across, 11–298 mm up
+- **Outlines:** line 1,034 rings, 9,758 straight (17,577 mm) / 2,249 curved (2,709 mm); text 253 rings, 1,836 straight (1,549 mm) / 581 curved (687 mm); tb 21 rings, 170 straight (131 mm) / 34 curved (36.9 mm)
+- **Centre lines:** 13,898 paths (273 closed); straight 12,191 mm, curved 253 mm; horizontal 4,597 mm, vertical 3,070 mm, diagonal 4,524 mm
+- **Circles and arcs:** 3 circles, 76 arcs; largest r 3.0 @ (292.8, 49.7), r 1.9 @ (321.3, 71.0), r 0.8 @ (386.6, 47.8)
+- **Closed boxes:** 12 (4 in the title block); named: 5-1012 DUAL BOOSTER AMPLIFIER; 2l78
+- **Words (OCR):** 65 in 62 lines: Nores · CAprcitops · AF UnLESS · SPECIFIED, · Czi · LAST · 3. USE Pce 7-I14 · INPUT · teabm &con · Riss · 620 > · Rns R8
+- **Title block:** (354, 9)–(432, 43) mm: WBS WARD-BECK Bybtems · M495 · STEREO · MONITOR Module · SCHEMATIC · SCALE · 02-001
+- **Wiring (first pass):** 127 connected wire groups from 815 runs; labelled ends: 456 mm → 3. USE; 149 mm → R8<, R49 <, 4K7 <, 2225; 141 mm → 574e, 5wze, swie;; 138 mm → 6426, Swa; 138 mm → Rns R8, Lok
+
+Every curve, box, word and wire group: [1972 - M495 - DOC - 495-02-001 - STEREO MONITOR MODULE SCHEMATIC (traced).json](1972%20-%20M495%20-%20DOC%20-%20495-02-001%20-%20STEREO%20MONITOR%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1972 - M495 - DOC - 495-02-001 - STEREO MONITOR MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

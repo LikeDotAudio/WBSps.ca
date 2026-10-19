@@ -22,6 +22,17 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,698,715 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 880651-02-007, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–324 mm across, 0–288 mm up
+- **Outlines:** line 182 rings, 945 straight (1,957 mm) / 117 curved (183 mm); text 89 rings, 486 straight (649 mm) / 64 curved (101 mm)
+- **Centre lines:** 545 paths (1 closed); straight 1,108 mm, curved 7.5 mm; horizontal 318 mm, vertical 560 mm, diagonal 229 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Wiring (first pass):** 16 connected wire groups from 106 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-007 - TRACK ASSIGN SWITCHER SCHEMATIC - DRN HM - ENG HM - ISS 2 (traced).json](1988%20-%20880651-02-007%20-%20TRACK%20ASSIGN%20SWITCHER%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-007 - TRACK ASSIGN SWITCHER SCHEMATIC - DRN HM - ENG HM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

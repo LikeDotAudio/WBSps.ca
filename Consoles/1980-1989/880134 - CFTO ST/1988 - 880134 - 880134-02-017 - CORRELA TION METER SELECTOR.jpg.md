@@ -11,6 +11,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 6,033,440 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-017, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–432 mm across, 0–287 mm up
+- **Outlines:** line 417 rings, 4,194 straight (9,503 mm) / 824 curved (1,368 mm); text 557 rings, 3,297 straight (3,672 mm) / 950 curved (1,386 mm)
+- **Centre lines:** 4,634 paths (78 closed); straight 7,015 mm, curved 605 mm; horizontal 2,923 mm, vertical 2,060 mm, diagonal 2,033 mm
+- **Circles and arcs:** 51 circles, 48 arcs; largest r 3.5 @ (9.3, 141.8), r 3.4 @ (9.6, 31.6), r 1.6 @ (352.4, 20.4), r 1.6 @ (347.9, 20.4)
+- **Closed boxes:** 17
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 111 connected wire groups from 551 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-017 - CORRELA TION METER SELECTOR (traced).json](1988%20-%20880134%20-%20880134-02-017%20-%20CORRELA%20TION%20METER%20SELECTOR%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-017 - CORRELA TION METER SELECTOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

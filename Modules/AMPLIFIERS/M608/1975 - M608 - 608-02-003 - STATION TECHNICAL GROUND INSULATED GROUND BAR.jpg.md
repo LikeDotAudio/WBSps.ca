@@ -11,6 +11,20 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 254,471 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 608-02-003, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 4–424 mm up
+- **Outlines:** line 290 rings, 6,266 straight (13,510 mm) / 842 curved (1,474 mm); text 373 rings, 3,518 straight (4,557 mm) / 830 curved (1,444 mm)
+- **Centre lines:** 4,475 paths (53 closed); straight 10,090 mm, curved 508 mm; horizontal 4,820 mm, vertical 2,592 mm, diagonal 2,678 mm
+- **Circles and arcs:** 14 circles, 45 arcs; largest r 2.0 @ (241.4, 241.6), r 2.0 @ (241.2, 198.9), r 1.9 @ (241.5, 251.0), r 1.9 @ (241.2, 191.3)
+- **Closed boxes:** 76; named: P2-16
+- **Dots (junctions):** 1
+- **Words (OCR):** 53 in 45 lines: MULTIPLE UNT_WIRIG · WITHIN A MOUNTWG FBAAE · 1PA1 OUTPUTE · P2-2 · (1 CF 2) · INFLT 1 · F2-16 A1 P1-7 · F2- · F1-e · NC · F2-1 · F2-3
+- **Wiring (first pass):** 57 connected wire groups from 528 runs, 1 dotted junctions; labelled ends: 694 mm → A2, A3, A4, P1-7; 398 mm → A3, A4, As, P2-7; 372 mm → A3, A4, As, P1-7; 349 mm → FAS OUTFUTS, A3; 331 mm → A2
+
+Every curve, box, word and wire group: [1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR (traced).json](1975%20-%20M608%20-%20608-02-003%20-%20STATION%20TECHNICAL%20GROUND%20INSULATED%20GROUND%20BAR%20%28traced%29.json) (the CAD file: `1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

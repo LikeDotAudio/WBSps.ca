@@ -10,6 +10,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 5,223,757 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 76045-02-006, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–286 mm up
+- **Outlines:** line 673 rings, 5,318 straight (9,095 mm) / 817 curved (1,204 mm); text 261 rings, 1,463 straight (1,369 mm) / 380 curved (505 mm)
+- **Centre lines:** 3,387 paths (32 closed); straight 5,371 mm, curved 192 mm; horizontal 2,147 mm, vertical 1,507 mm, diagonal 1,717 mm
+- **Circles and arcs:** 0 circles, 43 arcs
+- **Words (OCR):** 45 in 37 lines: (zate) 756 · 330 · Ikz · (iode) Ike · FROM MonitoR · split PADS · Mc · 4ux · JBr · (-ioab · 430 · M2
+- **Wiring (first pass):** 96 connected wire groups from 511 runs; labelled ends: 70 mm → Mc; 48 mm → 4ux; 24 mm → Ext 2; 15 mm → Te =, 6 (46; 14 mm → (iode), Ikz
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-02-006 - IKZ IODE FROM MONITOR SPLIT PADS COABM (traced).json](1976%20-%2076045%20-%2076045-02-006%20-%20IKZ%20IODE%20FROM%20MONITOR%20SPLIT%20PADS%20COABM%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-02-006 - IKZ IODE FROM MONITOR SPLIT PADS COABM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

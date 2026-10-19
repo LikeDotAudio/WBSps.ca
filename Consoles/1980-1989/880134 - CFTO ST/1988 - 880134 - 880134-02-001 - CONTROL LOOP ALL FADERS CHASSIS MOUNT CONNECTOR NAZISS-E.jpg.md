@@ -10,6 +10,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 2,775,721 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-001, size B (assumed) 354 × 432 mm, 1640 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–343 mm across, 12–429 mm up
+- **Outlines:** line 893 rings, 8,132 straight (17,502 mm) / 1,308 curved (1,811 mm); text 808 rings, 5,220 straight (4,806 mm) / 1,677 curved (2,045 mm)
+- **Centre lines:** 11,423 paths (177 closed); straight 12,788 mm, curved 433 mm; horizontal 5,359 mm, vertical 3,598 mm, diagonal 3,831 mm
+- **Circles and arcs:** 20 circles, 66 arcs; largest r 1.3 @ (162.6, 138.0), r 1.3 @ (162.5, 274.8), r 1.3 @ (162.5, 296.9), r 1.3 @ (161.9, 396.4)
+- **Closed boxes:** 25; named: M522 EQUALIZER MODULE; CHANNEL EADER (-1Sd8)
+- **Words (OCR):** 155 in 144 lines: MONO INPUT · ANE · ON' · CHANNELS · BACKPLANE CONNECTIONS · S1-L · 7B6 · TB5 · Si-R · MICROPHONE · 52 _ · INPUTS
+- **Wiring (first pass):** 117 connected wire groups from 1,077 runs; labelled ends: 1269 mm → 27.28, 14,33, 13,32, 12,31; 867 mm → CONTROL, 25v, SIGNAL GND, +25v; 449 mm → 1,2; 232 mm → INSERT, OUT, 1,2; 120 mm → TWSTED
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-001 - CONTROL LOOP ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E (traced).json](1988%20-%20880134%20-%20880134-02-001%20-%20CONTROL%20LOOP%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-001 - CONTROL LOOP ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

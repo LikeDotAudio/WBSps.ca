@@ -22,6 +22,20 @@ M460M input module schematic sheet 2 of 2.
 - **Size:** 562,484 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 460-02-028/2, size B 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–342 mm across, 0–432 mm up
+- **Outlines:** line 907 rings, 10,319 straight (14,041 mm) / 2,349 curved (2,838 mm); text 396 rings, 2,682 straight (2,590 mm) / 831 curved (1,132 mm); tb 8 rings, 97 straight (154 mm) / 17 curved (26.3 mm)
+- **Centre lines:** 14,202 paths (148 closed); straight 11,076 mm, curved 566 mm; horizontal 4,195 mm, vertical 2,335 mm, diagonal 4,545 mm
+- **Circles and arcs:** 40 circles, 87 arcs; largest r 1.3 @ (50.3, 89.7), r 1.3 @ (88.8, 379.7), r 1.3 @ (88.9, 370.3), r 1.3 @ (50.7, 270.4)
+- **Closed boxes:** 8
+- **Words (OCR):** 61 in 52 lines: Dipect Output · aBm, · 367 150 OHMS · Left Output · R81 · NQIESL · CAPAciTORS ARE in uf · Resistops · AND · Right output · ALL · UNLESS Otherwise SpecifIED_
+- **Title block:** (213, 46)–(340, 70) mm: WBS · WAAD-BeCk ByBTEMB
+- **Wiring (first pass):** 97 connected wire groups from 501 runs; labelled ends: 371 mm → coM; 108 mm → R81; 96 mm → RB6, 390, PAn  INSERT; 85 mm → LEvEL; 77 mm → RS 1/2
+
+Every curve, box, word and wire group: [19xx - 460-02-028 - INPUT MODULE SCHEMATIC (SHEET 2 OF 2) - ISS 1 (traced).json](19xx%20-%20460-02-028%20-%20INPUT%20MODULE%20SCHEMATIC%20%28SHEET%202%20OF%202%29%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 460-02-028 - INPUT MODULE SCHEMATIC (SHEET 2 OF 2) - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,327,737 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 970177-04-001, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 7–280 mm up
+- **Outlines:** line 825 rings, 6,920 straight (17,728 mm) / 1,100 curved (1,959 mm); text 85 rings, 502 straight (547 mm) / 152 curved (211 mm); tb 18 rings, 148 straight (171 mm) / 33 curved (40.5 mm)
+- **Circles and arcs:** 26 circles, 0 arcs; largest r 4.6 @ (129.2, 105.6), r 4.6 @ (167.3, 104.7), r 4.6 @ (148.3, 105.1), r 4.5 @ (186.5, 104.2)
+- **Closed boxes:** 35 (1 in the title block); named: CBC MF_7 UTILIT FRAME LAYOUT; 970177-04-001
+- **Words (OCR):** 10 in 9 lines: CNICH · WBS · WARD-BECK  SYSTEMS · CBC · MF_7 UTILIT FRAME · LAYOUT · CODE; · 571501 · 970177-04-001
+- **Title block:** (335, 23)–(419, 40) mm: WBS · WARD-BECK  SYSTEMS · CBC
+
+Every curve, box, word and wire group: [1997 - DOC - 970177-04-001 - OUFUTS HEDUNS CAUTION DISCONNECT PONER AAF REPLACINC FUSE (traced).json](1997%20-%20DOC%20-%20970177-04-001%20-%20OUFUTS%20HEDUNS%20CAUTION%20DISCONNECT%20PONER%20AAF%20REPLACINC%20FUSE%20%28traced%29.json) (the CAD file: `1997 - DOC - 970177-04-001 - OUFUTS HEDUNS CAUTION DISCONNECT PONER AAF REPLACINC FUSE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

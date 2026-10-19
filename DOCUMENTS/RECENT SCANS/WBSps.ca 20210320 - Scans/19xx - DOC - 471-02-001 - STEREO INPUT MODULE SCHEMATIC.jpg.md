@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,974,496 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 471-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 913 rings, 8,966 straight (19,433 mm) / 1,728 curved (2,180 mm); text 786 rings, 4,831 straight (4,686 mm) / 1,444 curved (1,840 mm); tb 9 rings, 92 straight (130 mm) / 14 curved (18.4 mm)
+- **Centre lines:** 12,912 paths (220 closed); straight 14,332 mm, curved 278 mm; horizontal 5,383 mm, vertical 3,608 mm, diagonal 5,341 mm
+- **Circles and arcs:** 7 circles, 49 arcs; largest r 3.6 @ (61.6, 30.5), r 3.6 @ (53.5, 39.4), r 3.5 @ (60.7, 90.4), r 3.4 @ (68.4, 76.1)
+- **Closed boxes:** 17 (1 in the title block); named: M471 STEREO INPUT MODULE SCHEMATIC
+- **Words (OCR):** 157 in 150 lines: Ch on · Sw3 · 2E3 · BALANCE · 2E2 · 2E4 · R56 · 33k · 390 · RLD · 22k · 8-109B
+- **Title block:** (348, 24)–(385, 46) mm: WBS · DRN_@L
+- **Wiring (first pass):** 161 connected wire groups from 940 runs; labelled ends: 157 mm → STEREO INPUT MODULE; 147 mm → Swio; 135 mm → POST, 33/i0; 116 mm → SWS, SwA, Swio; 114 mm → 22k, R4b
+
+Every curve, box, word and wire group: [19xx - DOC - 471-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).json](19xx%20-%20DOC%20-%20471-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 471-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

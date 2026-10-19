@@ -21,6 +21,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,149,942 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5-133-02-001, size B 432 × 163 mm, 2000 × 754 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 20–161 mm up
+- **Outlines:** line 755 rings, 7,578 straight (14,277 mm) / 1,603 curved (1,843 mm); text 70 rings, 481 straight (409 mm) / 149 curved (170 mm)
+- **Centre lines:** 9,608 paths (212 closed); straight 8,846 mm, curved 90.8 mm; horizontal 3,756 mm, vertical 2,593 mm, diagonal 2,498 mm
+- **Circles and arcs:** 2 circles, 18 arcs; largest r 1.3 @ (406.8, 29.4), r 1.2 @ (398.5, 29.4)
+- **Closed boxes:** 44
+- **Wiring (first pass):** 72 connected wire groups from 648 runs
+
+Every curve, box, word and wire group: [1976 - 5-133-02-001 - PUSHBUTTON LAMP TALLY READ CTL, PUSHBUTTON TAKE SEND AUTOMATION TALLY - DRN DM - ISS 2 (traced).json](1976%20-%205-133-02-001%20-%20PUSHBUTTON%20LAMP%20TALLY%20READ%20CTL%2C%20PUSHBUTTON%20TAKE%20SEND%20AUTOMATION%20TALLY%20-%20DRN%20DM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 5-133-02-001 - PUSHBUTTON LAMP TALLY READ CTL, PUSHBUTTON TAKE SEND AUTOMATION TALLY - DRN DM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

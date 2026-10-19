@@ -23,6 +23,21 @@ Wiki page: [L1202A](../../../PAGES/L1202A.md)
 - **Size:** 362,079 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1202-02-015, size B 432 × 275 mm, 2000 × 1273 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–275 mm up
+- **Outlines:** line 199 rings, 3,682 straight (8,344 mm) / 582 curved (1,005 mm); text 501 rings, 3,539 straight (4,243 mm) / 1,082 curved (1,652 mm); tb 8 rings, 142 straight (260 mm) / 14 curved (17.6 mm)
+- **Centre lines:** 3,989 paths (76 closed); straight 7,392 mm, curved 310 mm; horizontal 2,874 mm, vertical 1,703 mm, diagonal 2,815 mm
+- **Circles and arcs:** 4 circles, 40 arcs; largest r 5.5 @ (145.9, 236.9), r 5.5 @ (244.8, 237.3), r 1.3 @ (217.7, 239.1), r 1.1 @ (81.8, 168.8)
+- **Closed boxes:** 17 (7 in the title block); named: FCE I4-0.; PcB 14-002; DM; I2N; 9k; VU 2 SELECTOR 14 -OOIA PcB
+- **Dots (junctions):** 2
+- **Words (OCR):** 82 in 69 lines: OUTPUT LINE SELECToRS · LINE · LinE2 · NOTE : nlo NORMALLY Opln · Nlc NORMALLY CLOSEd · 2*3001 · 3001 · "/2 w · LINE · LINE 2 · OUTPUT · OUTPUT
+- **Title block:** (286, 1)–(432, 69) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK systems · DRN. 9/82 JP · ENG · MPw · OUTPUT LINE   SELECTORS & VU · CKd · SCHEMATIC · APP · SCALE · ISSUE · 1202-02-015
+- **Wiring (first pass):** 70 connected wire groups from 277 runs; labelled ends: 520 mm → LINE, LinE2, 14-002, I4-0.; 149 mm → LINE, 024, I4-0.; 147 mm → LinE2, 14-002; 122 mm → LinE2, LINE; 71 mm → I2N
+
+Every curve, box, word and wire group: [1982 - 1202-02-015 - OUTPUT LINE SELECTORS & VU SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).json](1982%20-%201202-02-015%20-%20OUTPUT%20LINE%20SELECTORS%20%26%20VU%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 1202-02-015 - OUTPUT LINE SELECTORS & VU SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

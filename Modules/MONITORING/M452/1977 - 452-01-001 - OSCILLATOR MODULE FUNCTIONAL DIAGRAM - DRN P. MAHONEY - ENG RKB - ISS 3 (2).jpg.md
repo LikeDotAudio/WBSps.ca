@@ -26,6 +26,20 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **Size:** 168,345 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 452-01-001, size B 432 × 297 mm, 2000 × 1374 px traced (0.216 mm/px)
+- **Ink extent:** 14–432 mm across, 0–276 mm up
+- **Outlines:** line 150 rings, 2,700 straight (7,168 mm) / 302 curved (441 mm); text 420 rings, 3,145 straight (3,789 mm) / 928 curved (1,475 mm); tb 14 rings, 167 straight (336 mm) / 29 curved (37.5 mm)
+- **Centre lines:** 3,323 paths (81 closed); straight 5,902 mm, curved 22.4 mm; horizontal 2,237 mm, vertical 1,323 mm, diagonal 2,342 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 16 (10 in the title block); named: OSC; AGC; REVISFD   DESIGNATIONS; 10/77; ISSUE
+- **Words (OCR):** 57 in 53 lines: HZ · 20 K · OSC · CONTROL/TALLY · 15 K · ON · 10 K · +14 dBm OUt · 5 K · 600 OHMS · SWITCHED · LEVEL
+- **Title block:** (257, 3)–(432, 90) mm: 10/77 · REVISFD   DESIGNATIONS · 10/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M452 · ENG_ RKB · OSCILLATOR MODULE · CKD Rell · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 452
+- **Wiring (first pass):** 53 connected wire groups from 138 runs; labelled ends: 219 mm → (-6dB), BST, +14 dBm OUT, (-84dB); 128 mm → REVISFD   DESIGNATIONS, 10/77, ISSUE DATE; 37 mm → Trim, BST; 30 mm → +14 dBm; 21 mm → OSC, AGC
+
+Every curve, box, word and wire group: [1977 - 452-01-001 - OSCILLATOR MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (2) (traced).json](1977%20-%20452-01-001%20-%20OSCILLATOR%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1977 - 452-01-001 - OSCILLATOR MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

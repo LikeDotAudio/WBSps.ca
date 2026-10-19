@@ -24,6 +24,21 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 1,878,159 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-021, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 531 rings, 7,673 straight (14,727 mm) / 1,264 curved (1,702 mm); text 279 rings, 2,444 straight (3,128 mm) / 710 curved (1,118 mm); tb 18 rings, 160 straight (342 mm) / 13 curved (18.7 mm)
+- **Centre lines:** 9,993 paths (103 closed); straight 11,495 mm, curved 487 mm; horizontal 4,509 mm, vertical 2,852 mm, diagonal 4,134 mm
+- **Circles and arcs:** 42 circles, 67 arcs; largest r 1.3 @ (89.4, 257.9), r 1.2 @ (163.6, 57.7), r 1.1 @ (255.8, 237.7), r 1.1 @ (295.9, 256.1)
+- **Closed boxes:** 28; named: MATL; [1433
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 55 lines: SWig · SwIs · SWi · SW? · SwS · SW7 · SWg · Swii · Ri · 20 · (22 <1 · INPUT
+- **Title block:** (268, 16)–(376, 63) mm: WARD-BECK · WBS · DRN · 20 · M468H · DATE AvaZ1 · CKD · TAPE · [SCALE · Bl468-02-021 ISS_ · TOLS
+- **Wiring (first pass):** 93 connected wire groups from 439 runs, 3 dotted junctions; labelled ends: 905 mm → WBS, DRN, DATE AvaZ1, CKD; 62 mm → SW2, 16; 62 mm → N12; 61 mm → 15; 59 mm → Swii
+
+Every curve, box, word and wire group: [1974 - 468-02-021 - M468H TAPE INPUT SWITCHER - DRN DM - ISS 2 (traced).json](1974%20-%20468-02-021%20-%20M468H%20TAPE%20INPUT%20SWITCHER%20-%20DRN%20DM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1974 - 468-02-021 - M468H TAPE INPUT SWITCHER - DRN DM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

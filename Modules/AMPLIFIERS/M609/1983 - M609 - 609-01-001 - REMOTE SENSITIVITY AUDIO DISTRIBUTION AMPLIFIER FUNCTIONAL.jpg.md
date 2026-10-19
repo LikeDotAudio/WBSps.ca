@@ -11,6 +11,19 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 450,630 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 609-01-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 6–424 mm up
+- **Outlines:** line 91 rings, 1,940 straight (4,424 mm) / 296 curved (494 mm); text 267 rings, 2,073 straight (2,483 mm) / 620 curved (1,042 mm); tb 14 rings, 102 straight (214 mm) / 5 curved (6.7 mm)
+- **Centre lines:** 1,392 paths (44 closed); straight 3,983 mm, curved 122 mm; horizontal 1,512 mm, vertical 1,070 mm, diagonal 1,401 mm
+- **Circles and arcs:** 3 circles, 1 arcs; largest r 5.9 @ (46.4, 137.1), r 5.9 @ (46.7, 97.0), r 5.8 @ (47.1, 56.6)
+- **Words (OCR):** 27 in 24 lines: (~6dB) · (~6dB) · (~6dB) · outputs · (_6d8) · dBm · OR · out · 600 ohms · S6dB) · (~6d8) · (~6dB)
+- **Title block:** (199, 47)–(326, 72) mm: WBS · WARD-BECK SYSTEMS · M609
+- **Wiring (first pass):** 51 connected wire groups from 91 runs; labelled ends: 467 mm → (~6dB), (_6d8), out, S6dB); 49 mm → (_6d8), S6dB); 49 mm → (~6dB); 48 mm → (~6dB), (_6d8); 48 mm → (~6d8), (~6dB)
+
+Every curve, box, word and wire group: [1983 - M609 - 609-01-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL (traced).json](1983%20-%20M609%20-%20609-01-001%20-%20REMOTE%20SENSITIVITY%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1983 - M609 - 609-01-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

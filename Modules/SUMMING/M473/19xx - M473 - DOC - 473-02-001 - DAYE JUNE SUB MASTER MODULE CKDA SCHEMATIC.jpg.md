@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,047,067 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 473-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 12–298 mm up
+- **Outlines:** line 1,210 rings, 11,083 straight (21,209 mm) / 2,361 curved (3,087 mm); text 804 rings, 4,388 straight (3,907 mm) / 1,489 curved (1,914 mm)
+- **Centre lines:** 14,082 paths (284 closed); straight 15,007 mm, curved 546 mm; horizontal 5,659 mm, vertical 3,788 mm, diagonal 5,559 mm
+- **Circles and arcs:** 19 circles, 81 arcs; largest r 4.0 @ (87.6, 258.9), r 3.9 @ (127.1, 150.2), r 3.9 @ (76.1, 94.3), r 3.8 @ (76.2, 48.4)
+- **Closed boxes:** 34; named: MAAT L; DATL MNE; Scalt
+- **Words (OCR):** 162 in 144 lines: 342 · Ro · Ri2 · ISk · Monitcr AND · METERING · 244401 · Pn3c45 · 03 · R4w5>t · 330/6 · 7>15
+- **Wiring (first pass):** 157 connected wire groups from 1,143 runs; labelled ends: 449 mm → MAAT L, Buge PB, AieP; 277 mm → 342, R4w5>t, 224, As; 268 mm → R4w5>t, VSTRR3o, R33, AmpliFiER; 248 mm → As, Swz, Solo; 225 mm → As, 470
+
+Every curve, box, word and wire group: [19xx - M473 - DOC - 473-02-001 - DAYE JUNE SUB MASTER MODULE CKDA SCHEMATIC (traced).json](19xx%20-%20M473%20-%20DOC%20-%20473-02-001%20-%20DAYE%20JUNE%20SUB%20MASTER%20MODULE%20CKDA%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M473 - DOC - 473-02-001 - DAYE JUNE SUB MASTER MODULE CKDA SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

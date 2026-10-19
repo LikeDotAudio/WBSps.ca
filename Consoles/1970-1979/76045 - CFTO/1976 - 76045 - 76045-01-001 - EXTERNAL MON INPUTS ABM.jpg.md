@@ -10,6 +10,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,725,365 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 76045-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 2–432 mm up
+- **Outlines:** line 754 rings, 8,256 straight (14,421 mm) / 1,049 curved (1,474 mm); text 1,460 rings, 8,059 straight (7,807 mm) / 2,108 curved (2,819 mm)
+- **Centre lines:** 8,678 paths (105 closed); straight 11,886 mm, curved 128 mm; horizontal 4,485 mm, vertical 2,818 mm, diagonal 4,583 mm
+- **Circles and arcs:** 2 circles, 31 arcs; largest r 1.4 @ (133.2, 170.7), r 1.0 @ (5.9, 317.1)
+- **Closed boxes:** 43
+- **Wiring (first pass):** 157 connected wire groups from 682 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-01-001 - EXTERNAL MON INPUTS ABM (traced).json](1976%20-%2076045%20-%2076045-01-001%20-%20EXTERNAL%20MON%20INPUTS%20ABM%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-01-001 - EXTERNAL MON INPUTS ABM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

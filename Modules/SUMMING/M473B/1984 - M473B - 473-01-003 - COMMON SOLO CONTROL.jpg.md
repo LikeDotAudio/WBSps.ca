@@ -11,6 +11,20 @@ Wiki page: [M473B](../../../PAGES/M473B.md)
 - **Size:** 2,440,266 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 473-01-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 453 rings, 11,961 straight (12,757 mm) / 1,970 curved (2,517 mm); text 246 rings, 3,990 straight (3,611 mm) / 1,002 curved (1,252 mm); tb 67 rings, 667 straight (579 mm) / 118 curved (140 mm)
+- **Centre lines:** 17,209 paths (123 closed); straight 12,927 mm, curved 58.8 mm; horizontal 4,569 mm, vertical 3,381 mm, diagonal 4,977 mm
+- **Circles and arcs:** 0 circles, 15 arcs
+- **Closed boxes:** 15 (9 in the title block); named: 473-01-003
+- **Words (OCR):** 35 in 33 lines: CE · SUB · DIRECT · OUTPUT · +8 dBm, 600. · M1 ON · M1 CONTROL · M2 ON · SUMMING · M2 OUTPUT · BUS · OUTPUTS
+- **Title block:** (113, 11)–(333, 113) mm: ISSUE (DATE · REVISION · APp · WBS WAAD-BECK SYSTEMS · DRN.J1k7/84 · M473B · ENG. · STEREO SUBMASTER MODULE · CKD: · FUNCTIONAL · APP · SCALE · ISSUE · 473-01-003
+- **Wiring (first pass):** 69 connected wire groups from 309 runs; labelled ends: 97 mm → SOLO; 88 mm → M1 ON; 60 mm → M2 ON; 32 mm → SUB, OUTPUT, +8 dBm, 600.; 27 mm → M2 OUTPUT
+
+Every curve, box, word and wire group: [1984 - M473B - 473-01-003 - COMMON SOLO CONTROL (traced).json](1984%20-%20M473B%20-%20473-01-003%20-%20COMMON%20SOLO%20CONTROL%20%28traced%29.json) (the CAD file: `1984 - M473B - 473-01-003 - COMMON SOLO CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

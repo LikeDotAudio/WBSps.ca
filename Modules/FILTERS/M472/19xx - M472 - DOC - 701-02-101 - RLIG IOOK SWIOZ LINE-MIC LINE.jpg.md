@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,821,434 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 701-02-101, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 1,507 rings, 13,248 straight (20,365 mm) / 2,964 curved (3,572 mm); text 541 rings, 2,775 straight (2,364 mm) / 928 curved (1,088 mm); tb 17 rings, 148 straight (176 mm) / 42 curved (43.7 mm)
+- **Centre lines:** 16,540 paths (472 closed); straight 14,075 mm, curved 387 mm; horizontal 4,383 mm, vertical 4,043 mm, diagonal 5,649 mm
+- **Circles and arcs:** 9 circles, 79 arcs; largest r 3.1 @ (178.4, 165.4), r 3.0 @ (99.9, 223.0), r 3.0 @ (207.1, 107.7), r 2.9 @ (206.3, 80.2)
+- **Closed boxes:** 31 (3 in the title block); named: INTERCOM Pre-AMPlifiER SCHEMATiC; 701-02-101
+- **Dots (junctions):** 1
+- **Words (OCR):** 91 in 87 lines: NoTE2 · LALL · ARE · ALL CapaciTORS Are · COMPONEMT · SPECIFIED OTKER NSE · Designations · CP I69 DS I62 · USE PCB · RiOZ · Iioolle · ciok
+- **Title block:** (355, 19)–(432, 35) mm: WBS WARD-DeCk SYSTEMS
+- **Wiring (first pass):** 145 connected wire groups from 1,205 runs; labelled ends: 195 mm → 6405; 163 mm → Ror, Qo, Pioe 7; 157 mm → 403, 4062, 4045, L0lS; 88 mm → LCS; 87 mm → L0lS
+
+Every curve, box, word and wire group: [19xx - M472 - DOC - 701-02-101 - RLIG IOOK SWIOZ LINE-MIC LINE (traced).json](19xx%20-%20M472%20-%20DOC%20-%20701-02-101%20-%20RLIG%20IOOK%20SWIOZ%20LINE-MIC%20LINE%20%28traced%29.json) (the CAD file: `19xx - M472 - DOC - 701-02-101 - RLIG IOOK SWIOZ LINE-MIC LINE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

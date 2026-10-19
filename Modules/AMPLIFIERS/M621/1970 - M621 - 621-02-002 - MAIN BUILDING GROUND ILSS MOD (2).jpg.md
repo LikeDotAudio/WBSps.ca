@@ -11,6 +11,21 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 18,812,682 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-002, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 0–424 mm across, 0–138 mm up
+- **Outlines:** line 842 rings, 7,204 straight (10,769 mm) / 1,406 curved (1,700 mm); text 166 rings, 904 straight (735 mm) / 253 curved (310 mm); tb 10 rings, 57 straight (47.0 mm) / 14 curved (19.0 mm)
+- **Centre lines:** 9,804 paths (206 closed); straight 7,625 mm, curved 139 mm; horizontal 3,457 mm, vertical 1,580 mm, diagonal 2,589 mm
+- **Circles and arcs:** 9 circles, 31 arcs; largest r 1.1 @ (373.3, 3.6), r 1.0 @ (81.7, 48.9), r 0.9 @ (72.1, 51.7), r 0.9 @ (82.0, 58.1)
+- **Closed boxes:** 31 (1 in the title block); named: USED; WBSS; DRA; IcKDS; ISCALE
+- **Dots (junctions):** 4
+- **Words (OCR):** 31 in 29 lines: Notes · 65 J6, · Livz · DoKn= · Yp · INTeRSTAGE · CONTROL · Optional, · Not · MA< · DACANCED · 5624
+- **Title block:** (341, 4)–(365, 14) mm: IcKDS · ISCALE
+- **Wiring (first pass):** 55 connected wire groups from 438 runs; labelled ends: 224 mm → WBSS, DRA, IcKDS, ISCALE; 69 mm → 5yStEM; 56 mm → DoKn=; 51 mm → G4N; 43 mm → G4N
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD (2) (traced).json](1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD%20%282%29%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 445,188 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 432 × 306 mm, 2000 × 1416 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–306 mm up
+- **Outlines:** line 888 rings, 7,247 straight (13,689 mm) / 1,554 curved (2,012 mm); text 595 rings, 3,400 straight (3,340 mm) / 1,233 curved (1,687 mm)
+- **Centre lines:** 8,388 paths (125 closed); straight 9,934 mm, curved 300 mm; horizontal 3,686 mm, vertical 2,332 mm, diagonal 3,915 mm
+- **Circles and arcs:** 9 circles, 90 arcs; largest r 1.6 @ (139.5, 167.5), r 1.5 @ (336.9, 270.7), r 1.2 @ (276.5, 42.8), r 1.2 @ (393.9, 119.1)
+- **Closed boxes:** 21; named: WES; 3047; DA
+- **Words (OCR):** 113 in 101 lines: 25 <Az · ACC -: · 35 · 83 :22 · 22 · 36 · c3i6 · 22 · 23/6 · ooop · 34 · 68p
+- **Wiring (first pass):** 106 connected wire groups from 738 runs; labelled ends: 469 mm → LTD, 3047, 253, WES; 194 mm → R33, 6<2, '025, +2iv; 191 mm → 31, I0 P; 105 mm → 83; 105 mm → 345, 642, 242, C43
+
+Every curve, box, word and wire group: [1976 - M460A - 4-126-02-001 - NEL EQUALIZER FILTER (traced).json](1976%20-%20M460A%20-%204-126-02-001%20-%20NEL%20EQUALIZER%20FILTER%20%28traced%29.json) (the CAD file: `1976 - M460A - 4-126-02-001 - NEL EQUALIZER FILTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

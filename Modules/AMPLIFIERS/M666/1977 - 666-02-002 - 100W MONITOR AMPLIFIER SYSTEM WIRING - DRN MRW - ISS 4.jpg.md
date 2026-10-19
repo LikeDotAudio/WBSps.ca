@@ -22,6 +22,21 @@ Wiki page: [M666](../../../PAGES/M666.md)
 - **Size:** 6,119,484 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 666-02-002, size B (assumed) 432 × 194 mm, 2000 × 899 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 58–194 mm up
+- **Outlines:** line 965 rings, 7,715 straight (10,169 mm) / 1,681 curved (1,961 mm); text 235 rings, 1,312 straight (1,102 mm) / 455 curved (543 mm); tb 18 rings, 157 straight (174 mm) / 25 curved (29.3 mm)
+- **Centre lines:** 9,857 paths (182 closed); straight 7,413 mm, curved 102 mm; horizontal 2,846 mm, vertical 1,632 mm, diagonal 2,936 mm
+- **Circles and arcs:** 5 circles, 30 arcs; largest r 1.0 @ (96.2, 146.3), r 0.9 @ (96.2, 140.1), r 0.8 @ (355.9, 180.6), r 0.8 @ (148.6, 132.2)
+- **Closed boxes:** 18 (2 in the title block); named: LBI
+- **Dots (junctions):** 1
+- **Words (OCR):** 34 in 30 lines: OFERATING · (AMALICIER · AMD Must · LINE · REAUIRED · FoR OPEF A hG · Presente · CCHNECT · From Cutput · LINE · KOTE · poe
+- **Title block:** (359, 80)–(432, 93) mm: WARD-BECK SYSTEMS · WBS · 4666
+- **Wiring (first pass):** 46 connected wire groups from 435 runs; labelled ends: 154 mm → WARD-BECK SYSTEMS; 147 mm → 8:3; 102 mm → NOT; 54 mm → SHAL; 31 mm → 8:3
+
+Every curve, box, word and wire group: [1977 - 666-02-002 - 100W MONITOR AMPLIFIER SYSTEM WIRING - DRN MRW - ISS 4 (traced).json](1977%20-%20666-02-002%20-%20100W%20MONITOR%20AMPLIFIER%20SYSTEM%20WIRING%20-%20DRN%20MRW%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1977 - 666-02-002 - 100W MONITOR AMPLIFIER SYSTEM WIRING - DRN MRW - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

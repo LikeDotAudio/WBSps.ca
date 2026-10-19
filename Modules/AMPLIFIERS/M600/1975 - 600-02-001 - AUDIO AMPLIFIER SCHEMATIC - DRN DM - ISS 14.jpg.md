@@ -24,6 +24,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 4,290,614 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-001, size B 432 × 168 mm, 2000 × 779 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–139 mm up
+- **Outlines:** line 965 rings, 8,431 straight (15,356 mm) / 1,590 curved (2,000 mm); text 405 rings, 2,214 straight (1,943 mm) / 820 curved (974 mm); tb 18 rings, 151 straight (197 mm) / 29 curved (33.4 mm)
+- **Centre lines:** 9,357 paths (192 closed); straight 10,076 mm, curved 417 mm; horizontal 3,886 mm, vertical 2,670 mm, diagonal 3,520 mm
+- **Circles and arcs:** 15 circles, 69 arcs; largest r 3.2 @ (277.9, 96.4), r 3.2 @ (319.7, 60.2), r 3.1 @ (334.9, 88.9), r 3.1 @ (250.8, 103.5)
+- **Closed boxes:** 25; named: WARD-BeCK WBS; MEOO AuDiO AMPLIFIER SCHEMAT; O-OZ-
+- **Words (OCR):** 66 in 63 lines: PCB Mi22 · NOTES · 148v · ResiStors ARETw 5 · AND CAPAciTORS · ARE In MiCROFARADS UNLESS OTHERwisE · P29 · C14 · SPECIFIED= · Tzlo · 160 · 220
+- **Title block:** (348, 7)–(410, 29) mm: WBS · WARD-BeCK · MEOO · cKD; · AuDiO AMPLIFIER SCHEMAT
+- **Wiring (first pass):** 105 connected wire groups from 721 runs; labelled ends: 340 mm → R3i, R9, P33, 012; 307 mm → USD07, cKD;; 206 mm → P29, 824, 220, 2nzioz; 138 mm → R3o, R36, CP3, R32; 135 mm → C14, 282102, 2n2102
+
+Every curve, box, word and wire group: [1975 - 600-02-001 - AUDIO AMPLIFIER SCHEMATIC - DRN DM - ISS 14 (traced).json](1975%20-%20600-02-001%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%2014%20%28traced%29.json) (the CAD file: `1975 - 600-02-001 - AUDIO AMPLIFIER SCHEMATIC - DRN DM - ISS 14 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

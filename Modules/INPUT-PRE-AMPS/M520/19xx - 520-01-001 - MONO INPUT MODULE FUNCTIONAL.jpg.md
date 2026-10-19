@@ -22,6 +22,19 @@ Functional block diagram of the M520 mono input module, scanned rotated.
 - **Size:** 4,718,262 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 520-01-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–288 mm up
+- **Outlines:** line 1,020 rings, 8,587 straight (13,044 mm) / 1,474 curved (1,838 mm); text 101 rings, 661 straight (654 mm) / 172 curved (223 mm)
+- **Centre lines:** 7,646 paths (111 closed); straight 7,617 mm, curved 154 mm; horizontal 3,089 mm, vertical 1,939 mm, diagonal 2,589 mm
+- **Circles and arcs:** 10 circles, 26 arcs; largest r 3.6 @ (7.0, 31.3), r 3.5 @ (8.0, 255.7), r 3.5 @ (7.4, 143.4), r 2.1 @ (109.7, 107.8)
+- **Closed boxes:** 9
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 196 connected wire groups from 815 runs
+
+Every curve, box, word and wire group: [19xx - 520-01-001 - MONO INPUT MODULE FUNCTIONAL (traced).json](19xx%20-%20520-01-001%20-%20MONO%20INPUT%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - 520-01-001 - MONO INPUT MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 10,425,791 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-006, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 4–864 mm across, 0–558 mm up
+- **Outlines:** line 1,964 rings, 14,913 straight (44,691 mm) / 2,228 curved (4,924 mm); text 434 rings, 2,608 straight (4,100 mm) / 690 curved (1,619 mm); tb 43 rings, 444 straight (3,030 mm) / 51 curved (134 mm)
+- **Centre lines:** 23,538 paths (223 closed); straight 33,024 mm, curved 156 mm; horizontal 13,399 mm, vertical 9,164 mm, diagonal 10,461 mm
+- **Circles and arcs:** 2 circles, 22 arcs; largest r 2.6 @ (187.0, 140.9), r 2.2 @ (187.3, 155.8)
+- **Closed boxes:** 75
+- **Words (OCR):** 85 in 74 lines: SUB 1-L · SUB 1-R · SUB 2-L · SUB 2-R · MI-L · MI-R · MONO · 04j5 · M435 · M4SS · Md · Ciag
+- **Title block:** (679, 11)–(857, 100) mm: RedrAWN · 0I85 AUPUnef · MRING CMCED · JLSSUE] DATE_ · REVISION · APP_ · WBS WARD-BECK SYSTEMS · 5788 · DRN: · ENG: · METER · CKD; · SCHEMATIC · APP , · SCALE DISC NO: · CODE: 3642506 · 3642-02-006 · 
+- **Wiring (first pass):** 218 connected wire groups from 2,310 runs; labelled ends: 1964 mm → AUDIQ, AUDIO; 1584 mm → AUDIO, PANEl; 1469 mm → AudIO, AUDIO, IuDIO, +8 dBm; 1142 mm → AUDIO; 884 mm → AUDIO
+
+Every curve, box, word and wire group: [1988 - 3642-02-006 - METER SCHEMATIC - DRN DS - ISS 3 (traced).json](1988%20-%203642-02-006%20-%20METER%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1988 - 3642-02-006 - METER SCHEMATIC - DRN DS - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

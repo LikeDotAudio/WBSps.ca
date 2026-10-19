@@ -25,6 +25,19 @@ Wiki page: [M774](../../../PAGES/M774.md)
 - **Size:** 1,439,483 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 774-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale 1:1
+- **Ink extent:** 0–431 mm across, 9–299 mm up
+- **Outlines:** line 379 rings, 5,579 straight (11,381 mm) / 794 curved (1,078 mm); text 464 rings, 3,369 straight (4,135 mm) / 929 curved (1,428 mm); tb 36 rings, 328 straight (543 mm) / 78 curved (106 mm)
+- **Centre lines:** 11,211 paths (87 closed); straight 10,644 mm, curved 47.9 mm; horizontal 4,761 mm, vertical 2,062 mm, diagonal 3,820 mm
+- **Circles and arcs:** 4 circles, 4 arcs; largest r 1.6 @ (215.4, 215.3), r 1.6 @ (211.7, 215.3), r 1.5 @ (7.6, 215.0), r 1.4 @ (79.2, 240.5)
+- **Closed boxes:** 16 (8 in the title block); named: 7/e31; CHAHPHER 062; Jne8i
+- **Words (OCR):** 58 in 47 lines: 4.00 · 1.45 · ~128 DIA. ~ 2PLACES · 1.45 · 1.100- · .128 DIA~2 PLACES · 1.00 · 2.00 · 062 · TyP · 4.00 · HEATSINK
+- **Title block:** (278, 5)–(431, 72) mm: Jne8i · 61 · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: / Madons_ · ENG. MpW · M774 · CKD · HEATSINKS · APP Qm · SCALE 1:1 · ISSUE · 015 · 774-03-002 · AX 1.005
+
+Every curve, box, word and wire group: [1983 - 774-03-002 - HEATSINKS - DRN P. Mahoney - ENG MRW - ISS 3 (traced).json](1983%20-%20774-03-002%20-%20HEATSINKS%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1983 - 774-03-002 - HEATSINKS - DRN P. Mahoney - ENG MRW - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 378,544 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 128 rings, 4,957 straight (8,220 mm) / 591 curved (966 mm); text 175 rings, 1,635 straight (1,966 mm) / 455 curved (697 mm)
+- **Centre lines:** 1,924 paths (33 closed); straight 5,827 mm, curved 107 mm; horizontal 3,028 mm, vertical 1,457 mm, diagonal 1,342 mm
+- **Circles and arcs:** 4 circles, 7 arcs; largest r 2.6 @ (77.8, 145.5), r 2.5 @ (143.6, 145.1), r 2.5 @ (59.3, 145.5), r 1.6 @ (52.9, 217.5)
+- **Closed boxes:** 33; named: USED ON; 053; 5 1269
+- **Words (OCR):** 31 in 23 lines: 1/5 V 60 Hz · P2 · pi · OUTput 4 3 JBm · pi · 10 · 2ow MAX. · FFT · UNBAL ANCED · P2 · PZ 13 · P2
+- **Wiring (first pass):** 24 connected wire groups from 192 runs; labelled ends: 1228 mm → ISS MOD  CKD-, 053, FINISH; 317 mm → FFT, P2; 168 mm → P2, PZ; 157 mm → 1/5 V; 148 mm → pi, 10
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-002 - MAIN BUILDING GROUND (traced).json](1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-002 - MAIN BUILDING GROUND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

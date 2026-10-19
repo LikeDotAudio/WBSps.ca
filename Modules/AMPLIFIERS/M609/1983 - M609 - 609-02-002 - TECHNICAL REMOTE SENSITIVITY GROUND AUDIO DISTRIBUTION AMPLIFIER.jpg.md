@@ -11,6 +11,20 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 574,558 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 609-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 6–408 mm up
+- **Outlines:** line 156 rings, 3,567 straight (8,162 mm) / 452 curved (795 mm); text 396 rings, 3,225 straight (3,870 mm) / 902 curved (1,454 mm); tb 3 rings, 68 straight (152 mm) / 5 curved (8.6 mm)
+- **Centre lines:** 3,176 paths (80 closed); straight 6,769 mm, curved 356 mm; horizontal 2,776 mm, vertical 1,942 mm, diagonal 2,051 mm
+- **Circles and arcs:** 20 circles, 27 arcs; largest r 1.8 @ (135.1, 381.5), r 1.8 @ (135.4, 320.2), r 1.8 @ (135.9, 242.8), r 1.8 @ (135.5, 301.5)
+- **Closed boxes:** 30
+- **Words (OCR):** 65 in 60 lines: JNIT WIRING · UNTING · FRAME · 10 · AI · outputs · OF · NC · 16 · Al · Pl-7 · P1-16
+- **Title block:** (199, 15)–(326, 71) mm: WBS · WARD-BECX SYSTEMS · M609 · REMOTE SENSITIVITY · AUDIO DISTRIBUTION AMPLIFIER · SYSTEMS · WIRING · ISS.1 · 609-02-002
+- **Wiring (first pass):** 68 connected wire groups from 256 runs; labelled ends: 729 mm → P1-16, A3, A4, P1-7; 453 mm → Pl-7, P1-16, PI-7, P1-7; 255 mm → A3, P1-7; 255 mm → A2, PI-7; 187 mm → NC
+
+Every curve, box, word and wire group: [1983 - M609 - 609-02-002 - TECHNICAL REMOTE SENSITIVITY GROUND AUDIO DISTRIBUTION AMPLIFIER (traced).json](1983%20-%20M609%20-%20609-02-002%20-%20TECHNICAL%20REMOTE%20SENSITIVITY%20GROUND%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1983 - M609 - 609-02-002 - TECHNICAL REMOTE SENSITIVITY GROUND AUDIO DISTRIBUTION AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

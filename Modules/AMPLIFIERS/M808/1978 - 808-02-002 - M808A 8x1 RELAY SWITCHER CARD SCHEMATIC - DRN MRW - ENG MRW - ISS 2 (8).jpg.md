@@ -23,6 +23,20 @@ Wiki page: [M808](../../../PAGES/M808.md)
 - **Size:** 1,805,740 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 808-02-002, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 2–140 mm up
+- **Outlines:** line 306 rings, 4,433 straight (9,280 mm) / 749 curved (935 mm); text 101 rings, 719 straight (648 mm) / 253 curved (319 mm); tb 7 rings, 69 straight (122 mm) / 12 curved (13.1 mm)
+- **Centre lines:** 5,122 paths (86 closed); straight 6,071 mm, curved 28.9 mm; horizontal 2,664 mm, vertical 1,850 mm, diagonal 1,557 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 14
+- **Words (OCR):** 19 in 17 lines: DIodes · RelaYs · LLARE · CTLA · Mrb 3424 · Liat · DESK NATIONS · LSE Pcb 2-105 · #@v CTL · Output · OUTPUT · REVE ON
+- **Title block:** (357, 22)–(432, 33) mm: REVE ON · WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 56 connected wire groups from 398 runs; labelled ends: 473 mm → #@v CTL, Output; 457 mm → #@v CTL; 57 mm → WBS, Bx | RELAY SWITCHER; 54 mm → WBS, WARD-BECK SYSTEMS; 48 mm → WBS, WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1978 - 808-02-002 - M808A 8x1 RELAY SWITCHER CARD SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (8) (traced).json](1978%20-%20808-02-002%20-%20M808A%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%288%29%20%28traced%29.json) (the CAD file: `1978 - 808-02-002 - M808A 8x1 RELAY SWITCHER CARD SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (8) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

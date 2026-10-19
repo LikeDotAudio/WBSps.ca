@@ -22,6 +22,17 @@ Wiki page: [M147](../../../PAGES/M147.md)
 - **Size:** 5,377,972 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 147-06-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–431 mm across, 19–305 mm up
+- **Outlines:** line 1,438 rings, 14,590 straight (15,374 mm) / 4,378 curved (4,267 mm); text 356 rings, 3,092 straight (2,767 mm) / 968 curved (1,052 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 7.6 @ (143.1, 208.0), r 6.1 @ (133.7, 183.4), r 6.0 @ (77.9, 183.5), r 5.9 @ (293.2, 180.3)
+- **Closed boxes:** 16
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1969 - 147-06-010 - M406B COMRESSOR M147 COMPONENT LAYOUT - DRN DJG - ISS 6 (traced).json](1969%20-%20147-06-010%20-%20M406B%20COMRESSOR%20M147%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1969 - 147-06-010 - M406B COMRESSOR M147 COMPONENT LAYOUT - DRN DJG - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

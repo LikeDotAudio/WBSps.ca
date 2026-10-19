@@ -11,6 +11,20 @@ Wiki page: [M625A](../../../PAGES/M625A.md)
 - **Size:** 727,720 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 117-02-001, size B (assumed) 432 × 142 mm, 2000 × 659 px traced (0.216 mm/px)
+- **Ink extent:** 4–430 mm across, 2–142 mm up
+- **Outlines:** line 922 rings, 7,482 straight (11,830 mm) / 1,900 curved (2,412 mm); text 415 rings, 2,321 straight (1,994 mm) / 770 curved (958 mm); tb 35 rings, 216 straight (222 mm) / 64 curved (83.5 mm)
+- **Centre lines:** 9,479 paths (301 closed); straight 8,593 mm, curved 385 mm; horizontal 2,836 mm, vertical 2,165 mm, diagonal 3,592 mm
+- **Circles and arcs:** 15 circles, 81 arcs; largest r 6.7 @ (118.4, 54.1), r 6.5 @ (79.0, 86.7), r 3.5 @ (337.2, 89.3), r 3.4 @ (53.6, 58.8)
+- **Closed boxes:** 25 (4 in the title block); named: G2; 438; 6E61; ISSu
+- **Words (OCR):** 60 in 58 lines: resisturs Are · A ALL · OthErwise · RLS, BASE · CURRENt · Limit · +25v · L45 · Ozsignitions · 612 · Teansistors 02 · Were
+- **Title block:** (349, 0)–(432, 31) mm: WBS WARO-BECK systeMs · -117 · REGULATOR BOARD · CKD · chemaTIC · Scale · ISSUL
+- **Wiring (first pass):** 61 connected wire groups from 547 runs; labelled ends: 463 mm → 744037, 24612; 277 mm → 0872, 24612, 643; 236 mm → WARO-BECK systeMs, ISSu, WBS; 227 mm → 8k, 83k; 89 mm → 14105
+
+Every curve, box, word and wire group: [1978 - M625A - 117-02-001 - IRCUIT ADCED IISSUEJDATE REVISION (traced).json](1978%20-%20M625A%20-%20117-02-001%20-%20IRCUIT%20ADCED%20IISSUEJDATE%20REVISION%20%28traced%29.json) (the CAD file: `1978 - M625A - 117-02-001 - IRCUIT ADCED IISSUEJDATE REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

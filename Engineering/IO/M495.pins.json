@@ -1,0 +1,472 @@
+{
+ "code": "M495",
+ "name": "Stereo Monitor Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P5",
+   "rows": 5,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "RIGHT IN 5",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "RIGHT IN 5",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "B",
+   "row": 2,
+   "side": "letter",
+   "signal": "LEFT IN 5",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "LEFT IN 5",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "LEFT IN 4",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "RIGHT IN 4",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "LEFT IN 4",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M495/M495.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "RIGHT IN 4",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "RIGHT IN 3",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "RIGHT IN 3",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "LEFT IN 3",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "LEFT IN 3",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "LEFT MUTED",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "LEFT MUTED",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "RIGHT MUTED",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "RIGHT MUTED",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "MUTING RELAY K1",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2d48496bcaf9e15a718a6d753e24804abd75ad6cb86fcd8c4bd602bfff1af000",
+    "file": "Modules/MONITORING/M495/1975 - M495 - P003 - 2-1.jpg",
+    "page": 1
+   },
+   "quote": "Muting The muting relay K1 may be operated either by the mute pushbutton Sw6 or externa ]y by a ground closure at pin X 0 f the modu le connector The LED DS 1 is iluminated when the muting function is activated 2 -1",
+   "also": [
+    {
+     "signal": "MUTING RELAY K1",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/MONITORING/M495/1975 - M495 - P003 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "MUTING RELAY KL",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/MONITORING/M495/1975 - M495 - Stereo Monitor Module (2).pdf",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M495/M495.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M495/M495.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P5",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "53118032b9524674502ef31f2b1ec3c66cbae888e95fc574abeec026ba5b929e",
+    "file": "Modules/MONITORING/M495/1975 - M495 - P004 - 2-2.jpg",
+    "page": 1
+   },
+   "quote": "deir bajns] sd 94+ M*0} 2j09n0qmo) b9j6+30226 7+9d} bn$ SI II 8 (enasa? TiJ] #d3 70} b9zv 79f} 1[9mstq 8306b99m | suqn} T9v9{ 94f T0 T 601 910 0$ 8[J deuotdj bs",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

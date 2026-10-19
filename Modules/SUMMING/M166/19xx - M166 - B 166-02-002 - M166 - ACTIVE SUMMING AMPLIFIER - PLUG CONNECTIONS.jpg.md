@@ -11,6 +11,18 @@ Wiki page: [M166](../../../PAGES/M166.md)
 - **Size:** 7,050,706 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 166-02-002, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 17–307 mm up
+- **Outlines:** line 411 rings, 5,430 straight (7,722 mm) / 863 curved (1,315 mm); text 128 rings, 1,198 straight (1,209 mm) / 350 curved (486 mm)
+- **Centre lines:** 3,046 paths (37 closed); straight 4,929 mm, curved 366 mm; horizontal 2,366 mm, vertical 1,257 mm, diagonal 1,306 mm
+- **Circles and arcs:** 11 circles, 41 arcs; largest r 3.0 @ (252.1, 235.6), r 3.0 @ (252.0, 210.5), r 3.0 @ (252.0, 185.4), r 3.0 @ (252.2, 153.3)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 39 connected wire groups from 319 runs
+
+Every curve, box, word and wire group: [19xx - M166 - B 166-02-002 - M166 - ACTIVE SUMMING AMPLIFIER - PLUG CONNECTIONS (traced).json](19xx%20-%20M166%20-%20B%20166-02-002%20-%20M166%20-%20ACTIVE%20SUMMING%20AMPLIFIER%20-%20PLUG%20CONNECTIONS%20%28traced%29.json) (the CAD file: `19xx - M166 - B 166-02-002 - M166 - ACTIVE SUMMING AMPLIFIER - PLUG CONNECTIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

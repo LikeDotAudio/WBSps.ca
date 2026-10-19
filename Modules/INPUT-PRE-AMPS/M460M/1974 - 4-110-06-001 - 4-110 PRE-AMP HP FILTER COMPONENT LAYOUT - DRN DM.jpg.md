@@ -22,6 +22,18 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 717,467 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 4-110-06-001, size B 432 × 416 mm, 2000 × 1927 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–416 mm up
+- **Outlines:** line 827 rings, 8,352 straight (12,572 mm) / 2,081 curved (2,109 mm); text 502 rings, 4,693 straight (4,786 mm) / 1,309 curved (1,541 mm); tb 103 rings, 731 straight (662 mm) / 170 curved (169 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 10.5 @ (141.5, 195.2), r 10.5 @ (176.3, 155.5), r 10.5 @ (141.7, 155.5), r 10.5 @ (176.3, 194.9)
+- **Closed boxes:** 21 (14 in the title block); named: FIINISH; 4-1I0-06-001
+- **Words (OCR):** 45 in 40 lines: 2 8 · 33/0 · 38 · 330K · 248 · 83 · 9kL · 22/10 · aj; · 470K · 33/12 · Ioles
+- **Title block:** (168, 14)–(425, 62) mm: @SSMODECKD · USED ON · MATL · WARD-BECK ByBTeMB LTD · WBS · DRN · 4-110 · 51B5212kM · FIINISH · DATEIOJUNZ4 · PRE-AMP/HP FILTER · CKD: · RZ · COMPONENT LAYOUT · 3699 ML · Iss_
+
+Every curve, box, word and wire group: [1974 - 4-110-06-001 - 4-110 PRE-AMP HP FILTER COMPONENT LAYOUT - DRN DM (traced).json](1974%20-%204-110-06-001%20-%204-110%20PRE-AMP%20HP%20FILTER%20COMPONENT%20LAYOUT%20-%20DRN%20DM%20%28traced%29.json) (the CAD file: `1974 - 4-110-06-001 - 4-110 PRE-AMP HP FILTER COMPONENT LAYOUT - DRN DM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

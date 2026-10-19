@@ -10,6 +10,20 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,640,941 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-010, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC NO: 233
+- **Ink extent:** 0–431 mm across, 0–279 mm up
+- **Outlines:** line 1,399 rings, 8,574 straight (16,610 mm) / 1,188 curved (1,500 mm); text 495 rings, 3,118 straight (2,462 mm) / 808 curved (925 mm); tb 24 rings, 178 straight (192 mm) / 33 curved (42.1 mm)
+- **Centre lines:** 10,727 paths (240 closed); straight 10,554 mm, curved 208 mm; horizontal 5,198 mm, vertical 2,644 mm, diagonal 2,712 mm
+- **Circles and arcs:** 18 circles, 21 arcs; largest r 1.8 @ (254.4, 85.5), r 1.8 @ (4.8, 13.0), r 1.8 @ (258.3, 85.5), r 1.8 @ (250.6, 81.6)
+- **Closed boxes:** 45 (14 in the title block); named: CONIROL EQBL42K; IN+oni; MGll ESL; 0648 PS9; V6 PS?; V648 PSIQ
+- **Words (OCR):** 102 in 87 lines: TP+07 · FEMALE · 8_103 · QAD_RRANEERI · CONIROL · MaEElf · EQBL42K · TRANSFER · +447 · TY · Dolczr · CABLE 43746
+- **Title block:** (339, 3)–(430, 42) mm: Ur+R · PSIO ADDED · ISSUE DATE · CLARIFIaD · REMSION · CONNECTCR PINS · APP_ · WBS · WARD-BECK SYSTEMS · DRN;_D.S; 188 · M611 · POWER · SUPPLIES · CKD_ · APP_ · SCHEMATIC · SCALE DISC NO: 233 · 3642-0
+- **Wiring (first pass):** 173 connected wire groups from 1,149 runs; labelled ends: 163 mm → MaTS;, 0r75i; 150 mm → FROM SIGNAL GND BAR; 123 mm → MaTS;, 0r75i; 122 mm → 8_103, QAD_RRANEERI, CONIROL, EQBL42K; 118 mm → 8_103, QAD_RRANEERI, CONIROL
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-010 - CLARIFIED SEX CONNECTOR PINS (traced).json](1988%20-%20880134%20-%203642-02-010%20-%20CLARIFIED%20SEX%20CONNECTOR%20PINS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-010 - CLARIFIED SEX CONNECTOR PINS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

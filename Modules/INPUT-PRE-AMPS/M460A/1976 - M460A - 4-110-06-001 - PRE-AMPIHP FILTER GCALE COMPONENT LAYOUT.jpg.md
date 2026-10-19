@@ -11,6 +11,18 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 298,104 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-110-06-001, size B (assumed) 432 × 339 mm, 2000 × 1570 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–333 mm up
+- **Outlines:** line 380 rings, 5,630 straight (10,220 mm) / 1,399 curved (1,568 mm); text 502 rings, 4,849 straight (5,163 mm) / 1,372 curved (1,576 mm); tb 75 rings, 495 straight (616 mm) / 95 curved (99.1 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 10.7 @ (134.9, 191.9), r 10.7 @ (169.9, 151.3), r 10.7 @ (170.2, 191.4), r 10.7 @ (267.5, 178.2)
+- **Closed boxes:** 19 (17 in the title block); named: Nv
+- **Words (OCR):** 48 in 43 lines: 28 · 33/0 · 38 · 332 K · 249 · 83 · 9kL · 33 · 47ok · Nv · 33/2 · I0
+- **Title block:** (160, 3)–(422, 54) mm: ISS MODICCKD · USED ON · MATL. · WARD-BECK ByBTEMB LTD: · WBS · bosecey · ZEs · DRN_ · DO · DAL [0JUNZ4 · 4-110 · S1b5212KM · FInISH · PRE-AMPIHP FILTER · CKD · RM · COMPONENT LAYOUT · 643699 NL · ScA
+
+Every curve, box, word and wire group: [1976 - M460A - 4-110-06-001 - PRE-AMPIHP FILTER GCALE COMPONENT LAYOUT (traced).json](1976%20-%20M460A%20-%204-110-06-001%20-%20PRE-AMPIHP%20FILTER%20GCALE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1976 - M460A - 4-110-06-001 - PRE-AMPIHP FILTER GCALE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

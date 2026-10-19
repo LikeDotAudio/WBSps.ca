@@ -11,6 +11,20 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 450,181 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 460-02-028, size B (assumed) 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–342 mm across, 3–423 mm up
+- **Outlines:** line 808 rings, 7,910 straight (14,693 mm) / 1,512 curved (1,930 mm); text 292 rings, 1,770 straight (1,538 mm) / 722 curved (898 mm)
+- **Centre lines:** 6,646 paths (115 closed); straight 9,046 mm, curved 412 mm; horizontal 4,076 mm, vertical 2,659 mm, diagonal 2,311 mm
+- **Circles and arcs:** 26 circles, 61 arcs; largest r 3.2 @ (86.7, 302.9), r 1.3 @ (217.6, 360.3), r 1.3 @ (90.4, 355.0), r 1.3 @ (272.5, 228.3)
+- **Closed boxes:** 22
+- **Dots (junctions):** 2
+- **Words (OCR):** 71 in 70 lines: LE3 · FADER · Ch ON · SwZ · INSERT · 5w21 · CONTROL · PHASE · LE2 · 8-109 · 4E4 · BOOSTER
+- **Wiring (first pass):** 82 connected wire groups from 535 runs, 2 dotted junctions; labelled ends: 1055 mm → R77, 5.6, PRE, PosLo; 491 mm → PosLO; 293 mm → R77, 5.6, RBO, RBA; 239 mm → Rb}, 390, R77, 5.6; 226 mm → 4E4
+
+Every curve, box, word and wire group: [1974 - M460M - 460-02-028 - LEL BOOSTER AMPL IFIER (traced).json](1974%20-%20M460M%20-%20460-02-028%20-%20LEL%20BOOSTER%20AMPL%20IFIER%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-02-028 - LEL BOOSTER AMPL IFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

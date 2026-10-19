@@ -11,6 +11,20 @@ Wiki page: [M490K](../../../PAGES/M490K.md)
 - **Size:** 228,413 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 7–428 mm up
+- **Outlines:** line 155 rings, 3,520 straight (9,628 mm) / 451 curved (696 mm); text 294 rings, 2,499 straight (3,567 mm) / 717 curved (1,219 mm); tb 12 rings, 185 straight (402 mm) / 23 curved (41.3 mm)
+- **Centre lines:** 2,992 paths (43 closed); straight 7,408 mm, curved 38.6 mm; horizontal 3,411 mm, vertical 1,664 mm, diagonal 2,332 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 1.1 @ (87.4, 345.8), r 1.1 @ (73.3, 361.5)
+- **Closed boxes:** 18 (6 in the title block); named: M4e3; DIRECT OUTPUTS ADDED; SCALE; 490-01-011; ISSUE
+- **Words (OCR):** 41 in 34 lines: P1 LefT · P2 LEFT · PAN · INSERT · PAN · P1 Right · P2 Right · POST DIRECT · FB · FB 1 · FB 2 · FB 2
+- **Title block:** (118, 12)–(335, 114) mm: M4e3 ADDED · DIRECT OUTPUTS · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. · BD 83 · Ma9ok · ENG SehuBev · LINE INPUT MODULE · CKD · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 490-01-01
+- **Wiring (first pass):** 71 connected wire groups from 132 runs; labelled ends: 254 mm → M4e3, OUTPUTS; 144 mm → POST DIRECT; 63 mm → FB 2; 61 mm → PAN, INSERT; 56 mm → FB, FB 2
+
+Every curve, box, word and wire group: [1983 - M490K - 490-01-011 - ENG SCLIBENT LINE INPUT MODULE (traced).json](1983%20-%20M490K%20-%20490-01-011%20-%20ENG%20SCLIBENT%20LINE%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1983 - M490K - 490-01-011 - ENG SCLIBENT LINE INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

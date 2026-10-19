@@ -22,6 +22,20 @@ Wiki page: [M741](../../../PAGES/M741.md)
 - **Size:** 1,402,935 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 741-02-002, size B 432 × 144 mm, 2000 × 668 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–142 mm up
+- **Outlines:** line 364 rings, 3,309 straight (7,504 mm) / 685 curved (842 mm); text 151 rings, 887 straight (794 mm) / 309 curved (386 mm); tb 7 rings, 64 straight (120 mm) / 9 curved (12.5 mm)
+- **Centre lines:** 4,452 paths (74 closed); straight 5,013 mm, curved 27.9 mm; horizontal 2,616 mm, vertical 1,025 mm, diagonal 1,372 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 29; named: 7442; '74L2; 7442; Mat L; Inish
+- **Words (OCR):** 29 in 26 lines: DATA · DATA · DATA · L4 · Register · REGISTER · Registep · DATA Out · DATA OUT · DATA CUI · 7442 · '74L2
+- **Title block:** (361, 20)–(432, 30) mm: WBS WARD BeCK BysteMB
+- **Wiring (first pass):** 32 connected wire groups from 342 runs; labelled ends: 378 mm → USLD 0 ", WBS, WARD; 253 mm → L L, 20 >; 77 mm → ce eso/sv, 930/6v; 73 mm → 930/6v, ce eso/sv; 32 mm → L4, 7442
+
+Every curve, box, word and wire group: [1973 - 741-02-002 - M741A REGISTER MODULE SCHEMATIC - DRN PC (traced).json](1973%20-%20741-02-002%20-%20M741A%20REGISTER%20MODULE%20SCHEMATIC%20-%20DRN%20PC%20%28traced%29.json) (the CAD file: `1973 - 741-02-002 - M741A REGISTER MODULE SCHEMATIC - DRN PC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

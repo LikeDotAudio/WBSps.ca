@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,193,175 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960312-03-001, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px)
+- **Ink extent:** 28–432 mm across, 0–250 mm up
+- **Outlines:** line 1,014 rings, 8,382 straight (20,751 mm) / 1,356 curved (1,618 mm); text 360 rings, 1,837 straight (1,590 mm) / 630 curved (774 mm); tb 13 rings, 128 straight (159 mm) / 21 curved (27.1 mm)
+- **Centre lines:** 8,454 paths (337 closed); straight 12,654 mm, curved 62.1 mm; horizontal 6,300 mm, vertical 3,423 mm, diagonal 2,930 mm
+- **Circles and arcs:** 1 circles, 22 arcs; largest r 2.8 @ (305.7, 147.4)
+- **Closed boxes:** 54 (2 in the title block); named: INTERCOM PANEL WAY)
+- **Words (OCR):** 53 in 50 lines: pitckes · 7.555 1510 · LOJu · DETAIL · 04400 · OTHERCSIDE · REQ'0 · REC'D · 0-200 · 0.500 Dia · 1.40 · 0.800
+- **Title block:** (344, 14)–(427, 32) mm: 3e15104 · BECK   SYSTEMS · WBS · WARD- · INTERCOM
+
+Every curve, box, word and wire group: [1996 - DOC - 960312-03-001 - MEDIA CLEAN REQ'D (traced).json](1996%20-%20DOC%20-%20960312-03-001%20-%20MEDIA%20CLEAN%20REQ%27D%20%28traced%29.json) (the CAD file: `1996 - DOC - 960312-03-001 - MEDIA CLEAN REQ'D (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

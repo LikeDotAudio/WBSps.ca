@@ -22,6 +22,16 @@ M7810 intercom studio terminal perspective layout Title block at bottom left rea
 - **Size:** 4,842,256 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 7810-06-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–426 mm across, 0–287 mm up
+- **Outlines:** line 1,031 rings, 12,104 straight (16,323 mm) / 1,493 curved (1,578 mm); text 169 rings, 1,042 straight (965 mm) / 361 curved (420 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.6 @ (396.2, 23.3), r 1.6 @ (407.8, 18.0), r 1.4 @ (260.2, 226.9), r 1.4 @ (270.2, 226.8)
+- **Closed boxes:** 3
+
+Every curve, box, word and wire group: [19xx - 7810-06-001 - INTERCOM STUDIO TERMINAL PERSPECTIVE LAYOUT - ISS 2 (traced).json](19xx%20-%207810-06-001%20-%20INTERCOM%20STUDIO%20TERMINAL%20PERSPECTIVE%20LAYOUT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 7810-06-001 - INTERCOM STUDIO TERMINAL PERSPECTIVE LAYOUT - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

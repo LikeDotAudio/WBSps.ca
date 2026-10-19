@@ -21,6 +21,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 393,696 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-030, size D 864 × 560 mm, 2000 × 1298 px traced (0.432 mm/px)
+- **Ink extent:** 0–843 mm across, 0–541 mm up
+- **Outlines:** line 421 rings, 3,582 straight (20,346 mm) / 655 curved (1,552 mm); text 272 rings, 1,507 straight (2,881 mm) / 506 curved (1,253 mm); tb 17 rings, 119 straight (306 mm) / 28 curved (64.7 mm)
+- **Centre lines:** 5,003 paths (142 closed); straight 13,524 mm, curved 36.2 mm; horizontal 7,409 mm, vertical 2,790 mm, diagonal 3,324 mm
+- **Circles and arcs:** 2 circles, 3 arcs; largest r 1.8 @ (153.9, 83.5), r 1.8 @ (407.2, 416.4)
+- **Closed boxes:** 23 (3 in the title block); named: POWER   DISTRIBUTION BRACKET CAPACiTORS); 900-03 030; COCE_ bojojo
+- **Words (OCR):** 35 in 27 lines: FITCHFS · 0M3 · 0 840 · 3450 · OCTAL · REC'D · CTANTER 020 · REO"D · 0,750 · 1CJO · MATERIAL: ALUM ALLOY 0.080 ThICK , · 030
+- **Title block:** (685, 48)–(853, 90) mm: ISSUE] DATE] · WBS · WARD-BECK   SYSTEMS · POWER   DISTRIBUTION
+
+Every curve, box, word and wire group: [19xx - 900-03-030 - POWER DISTRIBUTION BRACKET (4 CAPACITORS) - DRN DRG - ISS 2 (traced).json](19xx%20-%20900-03-030%20-%20POWER%20DISTRIBUTION%20BRACKET%20%284%20CAPACITORS%29%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 900-03-030 - POWER DISTRIBUTION BRACKET (4 CAPACITORS) - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

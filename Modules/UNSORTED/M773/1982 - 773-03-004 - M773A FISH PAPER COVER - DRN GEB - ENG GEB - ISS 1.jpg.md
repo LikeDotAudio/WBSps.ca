@@ -23,6 +23,19 @@ Wiki page: [M773](../../../PAGES/M773.md)
 - **Size:** 1,293,975 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 773-03-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale @
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 139 rings, 3,251 straight (9,303 mm) / 335 curved (524 mm); text 250 rings, 1,927 straight (2,525 mm) / 568 curved (899 mm); tb 22 rings, 198 straight (322 mm) / 38 curved (53.1 mm)
+- **Centre lines:** 3,038 paths (46 closed); straight 6,782 mm, curved 122 mm; horizontal 3,618 mm, vertical 1,628 mm, diagonal 1,536 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 3.5 @ (323.2, 108.7), r 3.5 @ (322.5, 239.2)
+- **Closed boxes:** 8 (8 in the title block)
+- **Words (OCR):** 37 in 27 lines: 12.96 · PiFches AT 4.500 9.Oo0 · 2-18 · 5.000 · 5.54 · HOLES · 281 DIA = · MAIERAAL: Fish · PARER · Thick · ISSUE DATE · REVISION
+- **Title block:** (279, 9)–(432, 79) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN GEB · M773 / M773A · ENG.GEB "/82 · Fisk PA PER · CKD_ · COVER · APP · SCALE @ · ISSUE · 015 · 773-03-004
+
+Every curve, box, word and wire group: [1982 - 773-03-004 - M773A FISH PAPER COVER - DRN GEB - ENG GEB - ISS 1 (traced).json](1982%20-%20773-03-004%20-%20M773A%20FISH%20PAPER%20COVER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 773-03-004 - M773A FISH PAPER COVER - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

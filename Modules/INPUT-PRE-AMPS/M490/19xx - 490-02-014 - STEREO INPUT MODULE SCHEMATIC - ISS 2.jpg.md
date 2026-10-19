@@ -23,6 +23,21 @@ M490N stereo input module schematic, cropped.
 - **Size:** 392,401 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 490-02-014, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 12–429 mm up
+- **Outlines:** line 1,641 rings, 15,402 straight (21,427 mm) / 3,570 curved (4,220 mm); text 381 rings, 2,415 straight (2,327 mm) / 819 curved (1,051 mm); tb 2 rings, 63 straight (147 mm) / 2 curved (5.4 mm)
+- **Centre lines:** 18,739 paths (278 closed); straight 15,357 mm, curved 441 mm; horizontal 6,041 mm, vertical 3,464 mm, diagonal 5,852 mm
+- **Circles and arcs:** 5 circles, 139 arcs; largest r 4.2 @ (156.3, 171.2), r 4.1 @ (182.8, 151.3), r 2.4 @ (142.2, 132.3), r 0.7 @ (288.3, 100.8)
+- **Closed boxes:** 7
+- **Dots (junctions):** 1
+- **Words (OCR):** 63 in 59 lines: Jz-I0 · outPUTS · iiC0 · Buse $ · R88 S"o · 264 · ASsign · NESSjh · LEvEL · AssiGN · CHANNEL · JJ/I0
+- **Title block:** (212, 46)–(335, 71) mm: WBS · WARD-BECK BYSTEMS
+- **Wiring (first pass):** 176 connected wire groups from 1,131 runs; labelled ends: 310 mm → 12,2; 134 mm → 3102; 92 mm → 788}; 84 mm → S"o; 66 mm → 13,10
+
+Every curve, box, word and wire group: [19xx - 490-02-014 - STEREO INPUT MODULE SCHEMATIC - ISS 2 (traced).json](19xx%20-%20490-02-014%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 490-02-014 - STEREO INPUT MODULE SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

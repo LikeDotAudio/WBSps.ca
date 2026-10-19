@@ -11,6 +11,16 @@ Wiki page: [M463B](../../../PAGES/M463B.md)
 - **Size:** 5,401,446 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-007, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–428 mm across, 18–303 mm up
+- **Outlines:** line 712 rings, 6,888 straight (12,383 mm) / 1,230 curved (1,766 mm); text 492 rings, 2,993 straight (3,302 mm) / 879 curved (1,254 mm)
+- **Closed boxes:** 42
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1972 - M463B - 463-04-007 - CONNECTOR REAR VIEW (traced).json](1972%20-%20M463B%20-%20463-04-007%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1972 - M463B - 463-04-007 - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

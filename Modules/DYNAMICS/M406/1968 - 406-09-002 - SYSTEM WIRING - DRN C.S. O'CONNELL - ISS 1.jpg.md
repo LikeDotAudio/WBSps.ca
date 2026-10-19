@@ -22,6 +22,19 @@ Wiki page: [M406](../../../PAGES/M406.md)
 - **Size:** 4,429,913 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring B 406-09-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 9–432 mm across, 26–305 mm up
+- **Outlines:** line 262 rings, 4,725 straight (9,996 mm) / 650 curved (1,016 mm); text 164 rings, 1,222 straight (1,420 mm) / 351 curved (514 mm)
+- **Centre lines:** 2,425 paths (42 closed); straight 6,087 mm, curved 347 mm; horizontal 3,016 mm, vertical 1,912 mm, diagonal 1,159 mm
+- **Circles and arcs:** 19 circles, 50 arcs; largest r 1.8 @ (191.3, 31.6), r 1.6 @ (53.8, 232.1), r 1.6 @ (327.6, 169.1), r 1.6 @ (252.7, 152.0)
+- **Closed boxes:** 22
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 54 connected wire groups from 374 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1968 - 406-09-002 - SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (traced).json](1968%20-%20406-09-002%20-%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1968 - 406-09-002 - SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

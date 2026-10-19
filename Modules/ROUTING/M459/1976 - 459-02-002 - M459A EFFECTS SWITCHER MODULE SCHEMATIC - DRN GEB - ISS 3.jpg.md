@@ -24,6 +24,21 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 1,705,020 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 459-02-002, size B (assumed) 432 × 139 mm, 2000 × 645 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 0–137 mm up
+- **Outlines:** line 669 rings, 5,256 straight (9,931 mm) / 1,178 curved (1,417 mm); text 83 rings, 606 straight (551 mm) / 211 curved (263 mm); tb 4 rings, 69 straight (118 mm) / 10 curved (14.8 mm)
+- **Centre lines:** 4,933 paths (163 closed); straight 6,012 mm, curved 173 mm; horizontal 2,524 mm, vertical 1,731 mm, diagonal 1,757 mm
+- **Circles and arcs:** 18 circles, 12 arcs; largest r 1.8 @ (330.6, 114.6), r 1.7 @ (95.3, 118.8), r 1.7 @ (233.4, 120.0), r 1.7 @ (182.9, 119.5)
+- **Closed boxes:** 20 (1 in the title block); named: NEW; EFFECTS Switcher schematIc MODULE; 450-02-002
+- **Dots (junctions):** 4
+- **Words (OCR):** 20 in 16 lines: PLY WT · 782 · Areo & · 463 3 · EfFECTS · LevELCTL · DutpuT · NEW · NOTE · WBS WAAD-BeCK BybteMB · USE · wBS Pcb 4-10
+- **Title block:** (97, 18)–(432, 31) mm: NOTE · WBS WAAD-BeCK BybteMB · USE · wBS Pcb 4-10
+- **Wiring (first pass):** 52 connected wire groups from 361 runs, 1 dotted junctions; labelled ends: 184 mm → 463 3; 112 mm → EfFECTS; 84 mm → NEW, WBS, WAAD-BeCK BybteMB; 55 mm → WBS; 38 mm → NEW
+
+Every curve, box, word and wire group: [1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 3 (traced).json](1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

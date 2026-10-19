@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,633,263 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940145-04-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 459
+- **Ink extent:** 38–432 mm across, 0–298 mm up
+- **Outlines:** line 203 rings, 2,464 straight (12,056 mm) / 230 curved (312 mm); text 251 rings, 1,795 straight (2,465 mm) / 537 curved (822 mm); tb 4 rings, 84 straight (234 mm) / 2 curved (2.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (216.6, 123.7), r 1.6 @ (220.4, 220.9)
+- **Closed boxes:** 52 (10 in the title block); named: SCALE; 940145-04-003; ISSUE; 94145L03 CODE:
+- **Words (OCR):** 39 in 28 lines: 15 · 14_240 · +ZvO 14-240 · 1_198 · CONTRCLLER · BACKPLANE · CCNIROLLER · BACKPLANE · BUFFER AmpuneR · 14 · 13 · 12
+- **Title block:** (248, 11)–(419, 78) mm: ISSUE · REVSION · APP · WBS WARD-BECK SYSTEMS · DRN: W.S · INPUT BUFFER CONTROL · ENG: W.S · SYSTEM REAR · CKD · APP_ · LA YOUT · SCALE DISC NO: 459 · ISSUE · CODE: · 94145L03 · 940145-04-003
+
+Every curve, box, word and wire group: [1994 - 940145 - DOC - 940145-04-003 - CONTROLLER BACKPLANE (traced).json](1994%20-%20940145%20-%20DOC%20-%20940145-04-003%20-%20CONTROLLER%20BACKPLANE%20%28traced%29.json) (the CAD file: `1994 - 940145 - DOC - 940145-04-003 - CONTROLLER BACKPLANE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

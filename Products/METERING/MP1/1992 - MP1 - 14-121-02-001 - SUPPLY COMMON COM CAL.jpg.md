@@ -11,6 +11,19 @@ Wiki page: [MP1](../../../PAGES/MP1.md)
 - **Size:** 1,041,230 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-121-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–339 mm across, 94–350 mm up
+- **Outlines:** line 144 rings, 2,879 straight (6,112 mm) / 504 curved (685 mm); text 599 rings, 4,624 straight (5,052 mm) / 1,515 curved (2,182 mm)
+- **Centre lines:** 5,242 paths (91 closed); straight 6,668 mm, curved 202 mm; horizontal 2,032 mm, vertical 1,732 mm, diagonal 2,904 mm
+- **Circles and arcs:** 15 circles, 31 arcs; largest r 1.2 @ (178.4, 241.5), r 1.2 @ (168.7, 218.8), r 1.2 @ (159.1, 218.9), r 1.2 @ (188.1, 241.5)
+- **Closed boxes:** 1; named: U2
+- **Words (OCR):** 123 in 109 lines: 22P · CAL · R16 · Cw · R2O · 43K · R17 · sok · JOK U1B · R13 · +22v · R18
+- **Wiring (first pass):** 54 connected wire groups from 265 runs; labelled ends: 331 mm → CRI, IN4OO3, LM31ZLZ, R26; 222 mm → 22/25, 10/25, R24, Jk9; 172 mm → 15k, R13, sk, R5; 153 mm → R5, 270k, sk, 1SK; 100 mm → 22P, R17, sok, Cw
+
+Every curve, box, word and wire group: [1992 - MP1 - 14-121-02-001 - SUPPLY COMMON COM CAL (traced).json](1992%20-%20MP1%20-%2014-121-02-001%20-%20SUPPLY%20COMMON%20COM%20CAL%20%28traced%29.json) (the CAD file: `1992 - MP1 - 14-121-02-001 - SUPPLY COMMON COM CAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

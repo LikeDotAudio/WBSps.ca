@@ -11,6 +11,20 @@ Wiki page: [M611](../../../PAGES/M611.md)
 - **Size:** 2,406,004 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 611-02-001, size B (assumed) 432 × 284 mm, 2000 × 1313 px traced (0.216 mm/px)
+- **Ink extent:** 5–429 mm across, 4–284 mm up
+- **Outlines:** line 258 rings, 2,794 straight (5,826 mm) / 407 curved (629 mm); text 439 rings, 2,666 straight (2,816 mm) / 907 curved (1,260 mm); tb 2 rings, 39 straight (104 mm) / 2 curved (4.0 mm)
+- **Centre lines:** 2,989 paths (79 closed); straight 4,824 mm, curved 266 mm; horizontal 1,503 mm, vertical 1,424 mm, diagonal 1,897 mm
+- **Circles and arcs:** 10 circles, 40 arcs; largest r 4.1 @ (222.6, 179.8), r 1.4 @ (62.3, 227.2), r 1.3 @ (223.0, 172.1), r 1.3 @ (60.7, 221.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 73 in 56 lines: NOTES: · LAST COMPONENT DESIGNATIONS: · C2, · CR2 DSI F3, P2, · RI, · SW1 Ti · SW1 · 2.5A · SB · (M611) · 5A SB (M6I1A) · 9201
+- **Title block:** (341, 28)–(432, 45) mm: WBS · WARD-BECK By8temB
+- **Wiring (first pass):** 71 connected wire groups from 251 runs; labelled ends: 156 mm → C2, 2600; 154 mm → 9600, 13 ,; 106 mm → CR2Z; 95 mm → C2, 2600; 92 mm → 7A, 9600
+
+Every curve, box, word and wire group: [1982 - M611 - B 611-02-001 - M611-M611A POWER SUPPLY - SCHEMATIC (traced).json](1982%20-%20M611%20-%20B%20611-02-001%20-%20M611-M611A%20POWER%20SUPPLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1982 - M611 - B 611-02-001 - M611-M611A POWER SUPPLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

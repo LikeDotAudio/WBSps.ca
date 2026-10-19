@@ -11,6 +11,18 @@ Wiki page: [Job-78050](../../../PAGES/Job-78050.md)
 - **Size:** 36,830,963 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 78050-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 396 rings, 5,179 straight (16,183 mm) / 557 curved (703 mm); text 291 rings, 1,607 straight (1,287 mm) / 458 curved (528 mm); tb 9 rings, 71 straight (132 mm) / 8 curved (11.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (220.1, 182.0)
+- **Closed boxes:** 55 (14 in the title block); named: 4iAJA4; EQUALIZERS; OPTIoNAl Ha9r SELECTORS MnF; JACKF IELD JackS; M4tja SUBMASTER MODULES; M475 Monitor MODUleS; BLANK; SUB FADERS; SPACE For Machine InteRcOM CONTROLS; FADERS InpuT
+- **Words (OCR):** 50 in 47 lines: 4iAJA4 · EQUALIZERS · OPTIoNAl · Ha9r · JACKF IELD · JackS · MnF · SELECTORS · MaSTER · M4tt · OPTOHAL · PATCHABLE
+- **Title block:** (354, 2)–(432, 40) mm: ISSUE DATE · REVISION · APP: · WBS WARD-BECK SYSTEMS · DRNPM euYl · ENG · WBS L2042A · CONSOLE · CKD: · AUDIO CONSOLE LAYOUT · SCALE · 347c · ISSUE · 1.4 · 78050-04-002
+
+Every curve, box, word and wire group: [1978 - 78050 - 78050-04-002 - HASTLK OPTIOMAL PATCHABL HOBULI ANCILLARI MODULES HAJEE MAPUT (traced).json](1978%20-%2078050%20-%2078050-04-002%20-%20HASTLK%20OPTIOMAL%20PATCHABL%20HOBULI%20ANCILLARI%20MODULES%20HAJEE%20MAPUT%20%28traced%29.json) (the CAD file: `1978 - 78050 - 78050-04-002 - HASTLK OPTIOMAL PATCHABL HOBULI ANCILLARI MODULES HAJEE MAPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

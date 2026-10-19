@@ -1,0 +1,112 @@
+{
+ "code": "M8207",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "K",
+   "row": 9,
+   "side": "letter",
+   "signal": "INPUT SIGNAL",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bd8727a048a7547fede1b1c5e8a6d148023043ffae4cdd5ce70462776c12e225",
+    "file": "Modules/DYNAMICS/M8207/1995 - M8207 - 8207-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "M8206 Matrixing Audio Distribution Amplifier M8208 Remote Level Amplifier Input The input signal is applied to pins 9 and K, with the input shield connection at pin L.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "INPUT SIGNAL",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bd8727a048a7547fede1b1c5e8a6d148023043ffae4cdd5ce70462776c12e225",
+    "file": "Modules/DYNAMICS/M8207/1995 - M8207 - 8207-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "M8206 Matrixing Audio Distribution Amplifier M8208 Remote Level Amplifier Input The input signal is applied to pins 9 and K, with the input shield connection at pin L.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "INPUT SIGNAL",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bd8727a048a7547fede1b1c5e8a6d148023043ffae4cdd5ce70462776c12e225",
+    "file": "Modules/DYNAMICS/M8207/1995 - M8207 - 8207-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "M8206 Matrixing Audio Distribution Amplifier M8208 Remote Level Amplifier Input The input signal is applied to pins 9 and K, with the input shield connection at pin L.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "\u00b122 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bd8727a048a7547fede1b1c5e8a6d148023043ffae4cdd5ce70462776c12e225",
+    "file": "Modules/DYNAMICS/M8207/1995 - M8207 - 8207-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b122 volt DC supply bus voltages appearing at the amplifier connector pins (15&S)and (13&P) are isolated from the amplifier circuitry by fusing resistors R85 and R88.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "\u00b122 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bd8727a048a7547fede1b1c5e8a6d148023043ffae4cdd5ce70462776c12e225",
+    "file": "Modules/DYNAMICS/M8207/1995 - M8207 - 8207-02-001 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b122 volt DC supply bus voltages appearing at the amplifier connector pins (15&S)and (13&P) are isolated from the amplifier circuitry by fusing resistors R85 and R88.",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

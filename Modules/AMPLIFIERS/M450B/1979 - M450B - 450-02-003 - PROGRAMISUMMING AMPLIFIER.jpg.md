@@ -11,6 +11,21 @@ Wiki page: [M450B](../../../PAGES/M450B.md)
 - **Size:** 419,300 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 450-02-003, size B (assumed) 432 × 292 mm, 2000 × 1352 px traced (0.216 mm/px)
+- **Ink extent:** 17–432 mm across, 0–279 mm up
+- **Outlines:** line 807 rings, 7,794 straight (14,678 mm) / 1,781 curved (2,378 mm); text 548 rings, 3,247 straight (2,855 mm) / 1,187 curved (1,500 mm); tb 14 rings, 147 straight (180 mm) / 31 curved (38.6 mm)
+- **Centre lines:** 9,380 paths (208 closed); straight 10,141 mm, curved 612 mm; horizontal 3,801 mm, vertical 2,598 mm, diagonal 3,742 mm
+- **Circles and arcs:** 16 circles, 86 arcs; largest r 4.0 @ (286.2, 138.0), r 4.0 @ (85.6, 141.3), r 4.0 @ (314.5, 199.2), r 4.0 @ (285.7, 257.8)
+- **Closed boxes:** 11 (4 in the title block); named: 3540
+- **Dots (junctions):** 2
+- **Words (OCR):** 119 in 113 lines: RIC · ISk · 4k7 · 743245 · 2n3L+5 · 330/6 · 3.3p · C2C · Tip298 · P43scs · 744 · 2k7
+- **Title block:** (357, 16)–(432, 32) mm: WBS · WARD-BECk SYSTEMS · M450B
+- **Wiring (first pass):** 97 connected wire groups from 778 runs, 2 dotted junctions; labelled ends: 261 mm → 335, I5k, C24, zo/10; 187 mm → 1440o3, c2s, 22/25, 0.68/35; 150 mm → 743245, 3.3p, 2k7, S6p; 141 mm → C23, 220/10, c22, 10/2s; 140 mm → R32, Ci3, 220
+
+Every curve, box, word and wire group: [1979 - M450B - 450-02-003 - PROGRAMISUMMING AMPLIFIER (traced).json](1979%20-%20M450B%20-%20450-02-003%20-%20PROGRAMISUMMING%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1979 - M450B - 450-02-003 - PROGRAMISUMMING AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

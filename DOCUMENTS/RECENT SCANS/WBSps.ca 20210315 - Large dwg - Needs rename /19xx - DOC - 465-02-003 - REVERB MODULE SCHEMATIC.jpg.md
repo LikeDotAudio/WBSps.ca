@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,485,437 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 465-02-003, size B (assumed) 432 × 282 mm, 2000 × 1306 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–282 mm up
+- **Outlines:** line 1,224 rings, 10,911 straight (22,947 mm) / 2,166 curved (2,686 mm); text 321 rings, 1,935 straight (1,719 mm) / 584 curved (716 mm); tb 13 rings, 131 straight (157 mm) / 27 curved (30.9 mm)
+- **Centre lines:** 11,331 paths (312 closed); straight 14,211 mm, curved 286 mm; horizontal 6,257 mm, vertical 3,901 mm, diagonal 4,053 mm
+- **Circles and arcs:** 7 circles, 53 arcs; largest r 3.8 @ (86.6, 32.4), r 3.8 @ (74.8, 84.9), r 3.8 @ (79.4, 190.6), r 3.8 @ (87.9, 95.7)
+- **Closed boxes:** 40 (2 in the title block); named: M465B REVERB MODULE SCHEMATIC; 465-02-003; Is5uve
+- **Dots (junctions):** 3
+- **Words (OCR):** 56 in 53 lines: DIRECT · Left OUT · Chon · FADE F · 390 · IUPUT · (NeCt) · 08 · Richt · Ext CtL · 9w(0 · E2
+- **Title block:** (357, 19)–(432, 35) mm: WBS WARO-BeCk SYSTEMS · M465B
+- **Wiring (first pass):** 157 connected wire groups from 1,002 runs, 2 dotted junctions; labelled ends: 399 mm → Fe/2; 391 mm → Bre, PaST, PoSt; 370 mm → E2, PaST, Fe/2, PoSt; 299 mm → E2; 123 mm → 390
+
+Every curve, box, word and wire group: [19xx - DOC - 465-02-003 - REVERB MODULE SCHEMATIC (traced).json](19xx%20-%20DOC%20-%20465-02-003%20-%20REVERB%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 465-02-003 - REVERB MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

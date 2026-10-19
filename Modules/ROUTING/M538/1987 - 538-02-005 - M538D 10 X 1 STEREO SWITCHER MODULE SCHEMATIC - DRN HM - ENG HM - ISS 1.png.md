@@ -24,6 +24,21 @@ Wiki page: [M538](../../../PAGES/M538.md)
 - **Size:** 1,683,917 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 538-02-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 594 rings, 7,996 straight (16,289 mm) / 1,297 curved (1,732 mm); text 102 rings, 662 straight (651 mm) / 199 curved (268 mm); tb 9 rings, 137 straight (166 mm) / 16 curved (20.0 mm)
+- **Centre lines:** 5,849 paths (65 closed); straight 9,590 mm, curved 219 mm; horizontal 3,860 mm, vertical 3,381 mm, diagonal 2,350 mm
+- **Circles and arcs:** 8 circles, 68 arcs; largest r 1.2 @ (45.8, 90.7), r 1.0 @ (199.9, 90.8), r 0.9 @ (334.1, 176.9), r 0.9 @ (334.2, 150.6)
+- **Closed boxes:** 9 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 27 in 23 lines: p2 · OLEL · Lez_ · 730 · 731 · CUTEU · 23-2927 23 · 23 3132 · IOL ICR · ER · 37 · 4L 4R
+- **Title block:** (353, 22)–(432, 40) mm: WBS WANO-Beck ayateme · M638D
+- **Wiring (first pass):** 155 connected wire groups from 676 runs, 2 dotted junctions; labelled ends: 172 mm → ER, JPUTS, IOL; 169 mm → JPUTS; 94 mm → 23 3132; 64 mm → 23 3132; 63 mm → 23-2927 23
+
+Every curve, box, word and wire group: [1987 - 538-02-005 - M538D 10 X 1 STEREO SWITCHER MODULE SCHEMATIC - DRN HM - ENG HM - ISS 1 (traced).json](1987%20-%20538-02-005%20-%20M538D%2010%20X%201%20STEREO%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 538-02-005 - M538D 10 X 1 STEREO SWITCHER MODULE SCHEMATIC - DRN HM - ENG HM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

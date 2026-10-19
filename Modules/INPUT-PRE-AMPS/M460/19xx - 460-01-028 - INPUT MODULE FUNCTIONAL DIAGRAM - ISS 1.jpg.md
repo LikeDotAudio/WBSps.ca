@@ -22,6 +22,20 @@ Functional diagram of the M460M input module, cropped.
 - **Size:** 435,163 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 460-01-028, size B 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 433 rings, 6,386 straight (9,328 mm) / 1,335 curved (1,587 mm); text 279 rings, 2,115 straight (2,079 mm) / 698 curved (968 mm); tb 2 rings, 55 straight (154 mm) / 2 curved (2.2 mm)
+- **Centre lines:** 11,616 paths (74 closed); straight 8,199 mm, curved 149 mm; horizontal 2,733 mm, vertical 2,057 mm, diagonal 3,408 mm
+- **Circles and arcs:** 3 circles, 39 arcs; largest r 3.2 @ (152.8, 327.3), r 0.9 @ (151.9, 333.8), r 0.8 @ (18.5, 314.4)
+- **Closed boxes:** 9
+- **Words (OCR):** 46 in 39 lines: DIRECT output · dBm; REF 150 OHMS · ChaN · INSER? · AMPLIFIER · boostER · LEFT outPut · FADER · PAN · (-15 JB) · INSERT · 8-109
+- **Title block:** (216, 49)–(342, 73) mm: WBS WARD-BECK systemb
+- **Wiring (first pass):** 148 connected wire groups from 491 runs; labelled ends: 85 mm → DIRECT; 50 mm → FOLDBACK; 46 mm → REVERB; 34 mm → LEFT, PAN; 32 mm → boostER, AMPLIFIER
+
+Every curve, box, word and wire group: [19xx - 460-01-028 - INPUT MODULE FUNCTIONAL DIAGRAM - ISS 1 (traced).json](19xx%20-%20460-01-028%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 460-01-028 - INPUT MODULE FUNCTIONAL DIAGRAM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

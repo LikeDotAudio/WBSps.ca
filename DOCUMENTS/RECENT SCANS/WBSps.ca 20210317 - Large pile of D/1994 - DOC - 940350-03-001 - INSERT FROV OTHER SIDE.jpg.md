@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,978,171 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940350-03-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 73–423 mm across, 6–262 mm up
+- **Outlines:** line 525 rings, 3,379 straight (7,358 mm) / 751 curved (957 mm); text 288 rings, 1,731 straight (2,121 mm) / 489 curved (656 mm); tb 19 rings, 189 straight (202 mm) / 36 curved (40.3 mm)
+- **Centre lines:** 6,125 paths (180 closed); straight 5,946 mm, curved 166 mm; horizontal 1,846 mm, vertical 2,069 mm, diagonal 2,032 mm
+- **Circles and arcs:** 16 circles, 16 arcs; largest r 2.5 @ (201.8, 98.7), r 2.5 @ (201.6, 86.2), r 1.8 @ (206.8, 38.3), r 1.5 @ (210.7, 207.1)
+- **Closed boxes:** 18 (5 in the title block); named: M907 MODULE CUSTOM BOTTOM PLATE; 940350-03-001; DSC NC
+- **Dots (junctions):** 1
+- **Words (OCR):** 28 in 23 lines: 3 3 · 0,650 · J500 0,203 CA · 9.712 · MATERIAL: ALUM ALLOY 0.080 THICK · Rod · 1218 4 · 42532 · FINISH: SAND 120 · TEXTURED  BEIGE (452C) · GRiT AND PAINT · TEXCOTE VINM
+- **Title block:** (344, 22)–(428, 39) mm: WBS · WARD-BECK SYSTEMS · M907
+
+Every curve, box, word and wire group: [1994 - DOC - 940350-03-001 - INSERT FROV OTHER SIDE (traced).json](1994%20-%20DOC%20-%20940350-03-001%20-%20INSERT%20FROV%20OTHER%20SIDE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940350-03-001 - INSERT FROV OTHER SIDE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

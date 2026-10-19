@@ -22,6 +22,20 @@ Wiki page: [Job-920306](../../../PAGES/Job-920306.md)
 - **Size:** 538,499 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920306-01-002, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DGC NG
+- **Ink extent:** 0–845 mm across, 14–514 mm up
+- **Outlines:** line 876 rings, 6,812 straight (20,882 mm) / 1,478 curved (3,592 mm); text 267 rings, 2,004 straight (3,728 mm) / 589 curved (1,440 mm); tb 39 rings, 247 straight (518 mm) / 66 curved (160 mm)
+- **Centre lines:** 13,538 paths (243 closed); straight 16,246 mm, curved 229 mm; horizontal 5,357 mm, vertical 3,973 mm, diagonal 6,916 mm
+- **Circles and arcs:** 6 circles, 22 arcs; largest r 2.8 @ (434.4, 51.6), r 2.8 @ (536.2, 50.6), r 2.8 @ (511.4, 101.5), r 2.8 @ (460.4, 101.9)
+- **Closed boxes:** 35 (11 in the title block); named: KCJULE; VCDULE Utmc?; 4-103
+- **Words (OCR):** 47 in 45 lines: 88 · MONITOBING · MUEB · controls · KCJULE · RESCT · TALLY · SE6C103 · Utmc? · VCDULE · RESET · SopfoFF
+- **Title block:** (679, 13)–(856, 79) mm: WBS · WARD-BECK SYSTEMS · CJMJ_FM · RADIO CONSOLE · DC FUNCTIONAL · SCALE DGC NG · CCOE: 923C6F02 · 920306-01. 002
+- **Wiring (first pass):** 177 connected wire groups from 1,205 runs; labelled ends: 160 mm → MONQ_LNE_MPUL CHANNIS; 95 mm → MONQ_LNE_MPUL CHANNIS; 40 mm → RESET; 39 mm → MONQ_LNE_MPUL CHANNIS; 37 mm → CONSDLE
+
+Every curve, box, word and wire group: [1992 - 920306-01-002 - CJMJ-FM RADIO CONSOLE DC FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).json](1992%20-%20920306-01-002%20-%20CJMJ-FM%20RADIO%20CONSOLE%20DC%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1992 - 920306-01-002 - CJMJ-FM RADIO CONSOLE DC FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

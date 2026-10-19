@@ -11,6 +11,18 @@ Wiki page: [M562C](../../../PAGES/M562C.md)
 - **Size:** 2,163,303 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-109-06-002, size B (assumed) 332 × 432 mm, 1539 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–431 mm up
+- **Outlines:** line 834 rings, 6,850 straight (6,597 mm) / 1,856 curved (1,849 mm); text 421 rings, 3,117 straight (2,963 mm) / 969 curved (1,111 mm); tb 60 rings, 522 straight (567 mm) / 148 curved (157 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.4 @ (119.3, 284.1), r 2.4 @ (38.0, 285.6), r 2.4 @ (126.3, 284.5), r 2.0 @ (37.0, 160.5)
+- **Closed boxes:** 6; named: PN5645 PN5569 Q41 013 cl 14-109 ISSUE 2 ; JOOUH
+- **Words (OCR):** 59 in 48 lines: PN5569 · PN5645 · Q41 · 013 · cl 14-109 · 0 1/100 · ~esies · ci8) · ISSUE 2 · R2422 · 22 · 0. 1/100
+- **Title block:** (108, 45)–(330, 283) mm: cl 14-109 · ISSUE 2 · 22 · 1056 · R52 6 8 · 6L8 · C19 · 220/10 · JOOUH · ~R41 E20 · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M562C - 14-109-06-002 - UNIVERSAL AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](1985%20-%20M562C%20-%2014-109-06-002%20-%20UNIVERSAL%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M562C - 14-109-06-002 - UNIVERSAL AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

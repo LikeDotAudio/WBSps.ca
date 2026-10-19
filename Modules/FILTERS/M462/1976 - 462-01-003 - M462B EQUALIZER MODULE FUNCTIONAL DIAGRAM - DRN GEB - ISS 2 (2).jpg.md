@@ -23,6 +23,20 @@ Wiki page: [M462](../../../PAGES/M462.md)
 - **Size:** 129,302 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 462-01-003, size B 432 × 334 mm, 1351 × 1045 px traced (0.320 mm/px)
+- **Ink extent:** 0–432 mm across, 0–334 mm up
+- **Outlines:** line 109 rings, 1,763 straight (9,121 mm) / 209 curved (402 mm); text 305 rings, 1,772 straight (2,780 mm) / 554 curved (1,060 mm); tb 20 rings, 182 straight (562 mm) / 27 curved (61.3 mm)
+- **Centre lines:** 2,731 paths (54 closed); straight 6,564 mm, curved 79.4 mm; horizontal 3,288 mm, vertical 1,449 mm, diagonal 1,827 mm
+- **Circles and arcs:** 5 circles, 8 arcs; largest r 4.6 @ (294.0, 226.6), r 1.9 @ (230.3, 150.6), r 1.9 @ (119.2, 151.1), r 1.4 @ (78.6, 172.0)
+- **Closed boxes:** 40 (31 in the title block); named: WBS WARD-BeCK BysTEMs LTD; M462 B E QUALIZER MODULE FUnCTIoNAL DIAG; TOLS; 462 - 01-003; ISS_
+- **Words (OCR):** 49 in 42 lines: LF · MF 2 · MF 1 · HF · Boost/ · FREQ · Boost/ · FREQ · Boosti · Boost/ · EQ · cut
+- **Title block:** (88, 8)–(370, 70) mm: IsS MOD CKD · USED ON · MATL. · WBS WARD-BeCK BysTEMs LTD · 3536 IPKM · DRN: GE B · M462 B · FINISH · DATE oct · E QUALIZER MODULE · CKD · SCALE · FUnCTIoNAL DIAG RA M · TOLS · 462 - 01-003
+- **Wiring (first pass):** 19 connected wire groups from 107 runs; labelled ends: 51 mm → Boost/, FREQ; 51 mm → Boost/, FREQ; 48 mm → Boosti, FREQ; 40 mm → FREQ, Boost/; 29 mm → LTD, BysTEMs
+
+Every curve, box, word and wire group: [1976 - 462-01-003 - M462B EQUALIZER MODULE FUNCTIONAL DIAGRAM - DRN GEB - ISS 2 (2) (traced).json](1976%20-%20462-01-003%20-%20M462B%20EQUALIZER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `1976 - 462-01-003 - M462B EQUALIZER MODULE FUNCTIONAL DIAGRAM - DRN GEB - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

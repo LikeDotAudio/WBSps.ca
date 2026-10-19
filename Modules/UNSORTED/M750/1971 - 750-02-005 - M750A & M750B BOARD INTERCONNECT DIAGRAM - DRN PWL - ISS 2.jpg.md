@@ -23,6 +23,20 @@ Wiki page: [M750](../../../PAGES/M750.md)
 - **Size:** 1,939,802 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 750-02-005, size B 432 × 140 mm, 2000 × 648 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–140 mm up
+- **Outlines:** line 510 rings, 5,127 straight (12,155 mm) / 1,109 curved (1,456 mm); text 235 rings, 1,446 straight (1,518 mm) / 445 curved (606 mm); tb 5 rings, 34 straight (32.9 mm) / 8 curved (8.9 mm)
+- **Centre lines:** 5,357 paths (192 closed); straight 8,008 mm, curved 301 mm; horizontal 3,408 mm, vertical 2,622 mm, diagonal 1,978 mm
+- **Circles and arcs:** 26 circles, 63 arcs; largest r 1.1 @ (256.1, 92.6), r 1.0 @ (255.8, 80.2), r 1.0 @ (255.7, 83.2), r 1.0 @ (255.6, 42.2)
+- **Closed boxes:** 47; named: PCBI-126 DATA LINE RECEIVER; PCB 1/26 LINE RECIDR; Jene R B
+- **Words (OCR):** 30 in 24 lines: PC B 1-124 · CODE CONV. (Ai) · 2 2 · PCBI-126 · PCB 1/26 · DATA LINE · LINE RECIDR · RECEIVER · 15 16 I7 18 202122 23 24252627 2829303i32 · PCB 1-125 · CODE CONV: (42) · Kaad
+- **Title block:** (179, 15)–(279, 24) mm: DRAWN FOR · DRAWN · FOR · NSOA · M7SOB
+- **Wiring (first pass):** 50 connected wire groups from 453 runs; labelled ends: 494 mm → 2M750B, Jene, R B; 137 mm → 2 2; 127 mm → 202122 23 24252627 2829303i32; 65 mm → PCBI-126, DATA; 42 mm → 15 16 I7 18
+
+Every curve, box, word and wire group: [1971 - 750-02-005 - M750A & M750B BOARD INTERCONNECT DIAGRAM - DRN PWL - ISS 2 (traced).json](1971%20-%20750-02-005%20-%20M750A%20%26%20M750B%20BOARD%20INTERCONNECT%20DIAGRAM%20-%20DRN%20PWL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1971 - 750-02-005 - M750A & M750B BOARD INTERCONNECT DIAGRAM - DRN PWL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

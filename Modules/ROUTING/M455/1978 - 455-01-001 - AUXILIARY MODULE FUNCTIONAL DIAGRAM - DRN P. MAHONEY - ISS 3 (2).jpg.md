@@ -24,6 +24,20 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 318,019 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 455-01-001, size B 432 × 276 mm, 2000 × 1278 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–262 mm up
+- **Outlines:** line 96 rings, 2,461 straight (5,875 mm) / 269 curved (411 mm); text 430 rings, 3,220 straight (3,982 mm) / 877 curved (1,392 mm); tb 8 rings, 120 straight (260 mm) / 14 curved (20.9 mm)
+- **Centre lines:** 3,259 paths (70 closed); straight 5,669 mm, curved 35.3 mm; horizontal 2,194 mm, vertical 1,241 mm, diagonal 2,234 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 10 (6 in the title block); named: 8-109C 4-109C WAS; 7/78
+- **Words (OCR):** 54 in 46 lines: EXT · METeR INPUT · EXT · +8 dBm · 600 Ohm · AUX · AUX · AUXILIARY · INPut · ON · SWITCHED OUtPut · -10 dBm
+- **Title block:** (245, 3)–(432, 96) mm: W/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN;PMAHoNsy · M455 · ENG_ · AUXILIARY · MODULE · CKD Rll · FUNCTIONAL DIAGRAM · APP · FSCALE · ISSUE · 455-01-001
+- **Wiring (first pass):** 37 connected wire groups from 76 runs; labelled ends: 134 mm → 7/78, W/77; 120 mm → (-15dB), (-33dB); 120 mm → EXT, AUX, METeR INPUT; 102 mm → 8-109C, ON, (-6dB), (~6dB); 56 mm → EXT, AUX
+
+Every curve, box, word and wire group: [1978 - 455-01-001 - AUXILIARY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ISS 3 (2) (traced).json](1978%20-%20455-01-001%20-%20AUXILIARY%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1978 - 455-01-001 - AUXILIARY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

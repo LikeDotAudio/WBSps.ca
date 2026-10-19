@@ -11,6 +11,17 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 1,072,485 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 12-06-003, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 8–415 mm up
+- **Outlines:** line 190 rings, 3,788 straight (6,055 mm) / 669 curved (789 mm); text 176 rings, 1,650 straight (1,870 mm) / 464 curved (545 mm); tb 3 rings, 88 straight (147 mm) / 12 curved (11.6 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.3 @ (46.8, 104.6), r 1.8 @ (94.6, 99.2)
+- **Words (OCR):** 22 in 18 lines: 7r0/ · M6TZA · TBS GAIN · k220 ( · TRim · NORM · Fza / · DC · Jot 7 0 · Cla ] € · WBS · WARD-BECK BYSTEMS
+- **Title block:** (206, 44)–(330, 68) mm: WBS · WARD-BECK BYSTEMS
+
+Every curve, box, word and wire group: [1983 - M612A - 12-06-003 - AUDIO DISTRIBUTION AMPLIFIER PERSPECTIVE LAYOUT (traced).json](1983%20-%20M612A%20-%2012-06-003%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20PERSPECTIVE%20LAYOUT%20%28traced%29.json) (the CAD file: `1983 - M612A - 12-06-003 - AUDIO DISTRIBUTION AMPLIFIER PERSPECTIVE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

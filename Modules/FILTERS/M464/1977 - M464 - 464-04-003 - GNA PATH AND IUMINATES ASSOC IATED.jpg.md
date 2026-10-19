@@ -15,6 +15,17 @@ Wiki page: [M464](../../../PAGES/M464.md)
 
 - **1977** (labelled): `DATE FEB 77` — …S MOD ICKD USED ON MATL _ WBS WARD-BECK 9ysTeMB LTD DRN DNM DATE FEB 77 CKD Rull; [SCALE TOLS G, M 4 64 FINISH HI PASS-LO PASS FILT…
 
+## Vectors (traced)
+
+- **Sheet:** layout 464-04-003, size B (assumed) 432 × 296 mm, 2000 × 1370 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–287 mm up
+- **Outlines:** line 105 rings, 1,968 straight (7,768 mm) / 217 curved (316 mm); text 912 rings, 5,276 straight (5,031 mm) / 1,861 curved (2,467 mm); tb 164 rings, 1,106 straight (1,449 mm) / 316 curved (512 mm)
+- **Closed boxes:** 37 (27 in the title block); named: HIGH FREQUENCY When  depressed; CUT INSE; LOw FREQUENCY CUT Aows se lect switch SW; Low FREQUENCY cut I NSERT SW3 : depresse; FIMISH; TOLS
+- **Words (OCR):** 135 in 74 lines: WBS · M464 · HIGH: FREQUENCY CUT switch SW2: · A]lows · select one · even · di screte cut-off · frequenc ies at the · high · end · the audio spectrum; The · ibration defines
+- **Title block:** (171, 3)–(393, 288) mm: WBS · M464 · HIGH: FREQUENCY CUT switch SW2: · A]lows · select one · even · di screte cut-off · frequenc ies at the · high · end · the audio spectrum; The · ibration defines · the 3 · corner point. · 
+
+Every curve, box, word and wire group: [1977 - M464 - 464-04-003 - GNA PATH AND IUMINATES ASSOC IATED (traced).json](1977%20-%20M464%20-%20464-04-003%20-%20GNA%20PATH%20AND%20IUMINATES%20ASSOC%20IATED%20%28traced%29.json) (the CAD file: `1977 - M464 - 464-04-003 - GNA PATH AND IUMINATES ASSOC IATED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

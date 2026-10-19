@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,254,478 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 96004-01-001, size B (assumed) 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px)
+- **Ink extent:** 34–414 mm across, 3–260 mm up
+- **Outlines:** line 3,216 rings, 22,472 straight (35,442 mm) / 3,796 curved (4,448 mm); text 233 rings, 1,492 straight (1,287 mm) / 435 curved (527 mm); tb 19 rings, 148 straight (176 mm) / 35 curved (38.4 mm)
+- **Centre lines:** 40,178 paths (361 closed); straight 25,935 mm, curved 111 mm; horizontal 7,841 mm, vertical 7,485 mm, diagonal 10,610 mm
+- **Circles and arcs:** 7 circles, 31 arcs; largest r 2.0 @ (59.1, 8.4), r 1.0 @ (68.7, 217.8), r 1.0 @ (68.7, 227.9), r 1.0 @ (69.2, 127.1)
+- **Closed boxes:** 36 (3 in the title block); named: CCNNECTOX; ZCNROL; CONROL; TTC PAGING SYSTEM FUNC TONAL; 96004-01- 001; NSC
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 21 lines: ZCNROL · CONROL · ZONE · 'SIALLED · CCNNECTOX · GROURS · SPAAE · OispaTo · XMZBJLES · FUNURE · BOCTTc · HF
+- **Title block:** (336, 18)–(420, 35) mm: WARD-BECK   SYSTEMS · WBS · TTC
+- **Wiring (first pass):** 452 connected wire groups from 2,528 runs; labelled ends: 310 mm → GROURS; 200 mm → HF; 162 mm → HF; 128 mm → BOCTTc; 76 mm → HF
+
+Every curve, box, word and wire group: [1996 - DOC - 96004-01-001 - ZONE ZONE ZONE ZONE ZONE ZONE ZONE (traced).json](1996%20-%20DOC%20-%2096004-01-001%20-%20ZONE%20ZONE%20ZONE%20ZONE%20ZONE%20ZONE%20ZONE%20%28traced%29.json) (the CAD file: `1996 - DOC - 96004-01-001 - ZONE ZONE ZONE ZONE ZONE ZONE ZONE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 14 words corrected)

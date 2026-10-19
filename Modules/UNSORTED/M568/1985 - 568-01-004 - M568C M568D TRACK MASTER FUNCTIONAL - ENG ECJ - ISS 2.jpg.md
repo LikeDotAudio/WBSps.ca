@@ -23,6 +23,20 @@ Wiki page: [M568](../../../PAGES/M568.md)
 - **Size:** 1,881,192 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 568-01-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–298 mm up
+- **Outlines:** line 397 rings, 7,748 straight (14,328 mm) / 1,007 curved (1,249 mm); text 236 rings, 2,000 straight (2,374 mm) / 607 curved (906 mm); tb 44 rings, 453 straight (642 mm) / 120 curved (193 mm)
+- **Centre lines:** 9,648 paths (66 closed); straight 10,432 mm, curved 118 mm; horizontal 4,320 mm, vertical 2,534 mm, diagonal 3,578 mm
+- **Circles and arcs:** 5 circles, 19 arcs; largest r 3.0 @ (158.8, 138.3), r 1.2 @ (154.7, 188.8), r 1.2 @ (155.2, 176.6), r 1.1 @ (163.4, 194.3)
+- **Closed boxes:** 12 (6 in the title block); named: 563-01-004; SCALE
+- **Words (OCR):** 44 in 43 lines: Shins · or Msged · Bus · Texk · M528 · M52B · REc · Solo · i0dB ) · mik DOwN · FADEE · (8u8)
+- **Title block:** (274, 17)–(427, 86) mm: TRACK< · Se17 · APLE · issue |DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN_ · ENG · CKD: · FUNCToNAL · APP · SCALE · ISSUE · 563-01-004
+- **Wiring (first pass):** 72 connected wire groups from 300 runs; labelled ends: 266 mm → FAYBAcK; 225 mm → Solo; 182 mm → FAYBAcK; 155 mm → i0dB ); 77 mm → Shins, Bus, M52B
+
+Every curve, box, word and wire group: [1985 - 568-01-004 - M568C M568D TRACK MASTER FUNCTIONAL - ENG ECJ - ISS 2 (traced).json](1985%20-%20568-01-004%20-%20M568C%20M568D%20TRACK%20MASTER%20FUNCTIONAL%20-%20ENG%20ECJ%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1985 - 568-01-004 - M568C M568D TRACK MASTER FUNCTIONAL - ENG ECJ - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

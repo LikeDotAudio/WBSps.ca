@@ -9,6 +9,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,784,723 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 3116-01-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–423 mm up
+- **Outlines:** line 1,273 rings, 13,753 straight (20,106 mm) / 2,317 curved (3,511 mm); text 259 rings, 1,477 straight (1,497 mm) / 436 curved (603 mm)
+- **Centre lines:** 16,086 paths (60 closed); straight 15,070 mm, curved 372 mm; horizontal 3,701 mm, vertical 5,065 mm, diagonal 6,304 mm
+- **Circles and arcs:** 41 circles, 31 arcs; largest r 6.5 @ (78.5, 242.0), r 1.3 @ (177.8, 46.2), r 1.3 @ (77.9, 304.2), r 1.3 @ (210.0, 304.4)
+- **Closed boxes:** 32
+- **Dots (junctions):** 2
+- **Words (OCR):** 30 in 20 lines: DIscREET PATCHABLE IFB · PROGRAM SOURCE inPUts · FB IFB · IFB IFB IFB · IFB IFB · IFB IFB IFB IFB · IFB · 10 · MonO · Mstr · AUX · PROG
+- **Wiring (first pass):** 322 connected wire groups from 1,282 runs, 2 dotted junctions; labelled ends: 61 mm → MonO; 58 mm → To CONSOLE; 50 mm → AUX; 40 mm → PROGRAM SOURCE inPUts; 31 mm → AUX
+
+Every curve, box, word and wire group: [1977 - 3116-01-004 - 3116-01-004 - ATCHABLE IFB OURCE INPUTS IFB IFB IFB IFB (traced).json](1977%20-%203116-01-004%20-%203116-01-004%20-%20ATCHABLE%20IFB%20OURCE%20INPUTS%20IFB%20IFB%20IFB%20IFB%20%28traced%29.json) (the CAD file: `1977 - 3116-01-004 - 3116-01-004 - ATCHABLE IFB OURCE INPUTS IFB IFB IFB IFB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

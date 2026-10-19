@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,425,745 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 82-03-003, size B (assumed) 432 × 344 mm, 2000 × 1591 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–431 mm across, 23–344 mm up
+- **Outlines:** line 256 rings, 4,478 straight (17,886 mm) / 321 curved (468 mm); text 677 rings, 3,969 straight (4,675 mm) / 1,335 curved (1,974 mm); tb 32 rings, 477 straight (2,092 mm) / 46 curved (62.7 mm)
+- **Centre lines:** 6,089 paths (134 closed); straight 13,883 mm, curved 22.6 mm; horizontal 8,646 mm, vertical 2,440 mm, diagonal 2,796 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 1.2 @ (257.0, 140.8)
+- **Closed boxes:** 21
+- **Words (OCR):** 81 in 63 lines: TAP · 4-40 UNC · 3 PITCHES OF 5.530 · PLC'S; · 0.265 · 16.590 · 0.125 · 1.289 · 82-03-003-1 · UPPER REAR · SUPPORT BAR · 0.500
+- **Title block:** (263, 36)–(406, 96) mm: SSUE| DATE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · D8212 · DRN: · ENG_ · P.C. · GUIDE SUPPORT BAR · CKD · APP · UPPER /LOWER REAR · SCALE DISC NO: · 82-03-003 · SSUE · 1;1 CODE · 003
+
+Every curve, box, word and wire group: [19xx - D8212 - DOC - 82-03-003 - TEXTURED GREY TEXCOTE VINY OVE ALL BURRS (traced).json](19xx%20-%20D8212%20-%20DOC%20-%2082-03-003%20-%20TEXTURED%20GREY%20TEXCOTE%20VINY%20OVE%20ALL%20BURRS%20%28traced%29.json) (the CAD file: `19xx - D8212 - DOC - 82-03-003 - TEXTURED GREY TEXCOTE VINY OVE ALL BURRS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

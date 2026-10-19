@@ -15,6 +15,19 @@ Wiki page: [M406](../../../PAGES/M406.md)
 
 - **1968** (labelled): `DATE july 68` — …RD BECK SYSTEEIS @Td COMPRESSOR BOARD MI47 COMPONENT LAYOUT DATE july 68 MATERIAL CHKDI775}, SCALE 2 ' | TOLS FRACT = 1/64 DEC TO PL…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 147-06-001, size B (assumed) 432 × 281 mm, 2000 × 1302 px traced (0.216 mm/px)
+- **Ink extent:** 0–426 mm across, 0–281 mm up
+- **Outlines:** line 841 rings, 10,449 straight (14,340 mm) / 2,873 curved (2,849 mm); text 715 rings, 5,704 straight (5,457 mm) / 1,829 curved (2,025 mm); tb 14 rings, 70 straight (82.4 mm) / 24 curved (22.0 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 9.0 @ (103.6, 198.5), r 8.8 @ (271.1, 185.8), r 7.8 @ (302.0, 177.9), r 7.8 @ (103.6, 198.4)
+- **Closed boxes:** 28 (10 in the title block); named: 152; R84; R8s; RGL; R8z; R72; C39; F39; R4o; C35; E7O; R3o
+- **Dots (junctions):** 2
+- **Words (OCR):** 118 in 90 lines: 13 + · ON M146 BOARD · To Rl8   POT C8 · ON Mi46 BOARD · Swi WIPER · BANK · SW4 B RESISTOR · Sw4 € RESISTOR BANK · Sw4 A · SW 4 B WIPER · WIPER · 152
+- **Title block:** (190, 8)–(385, 55) mm: DRN C$ O CONNELL · FINISH · WARD · DATE july 68 · COMPRESSOR BOARD · CHKDI775}, · MATERIAL · MI47 COMPONENT LAYOUT · SCALE · FRACT = 1/64 DEC TO PLACES GIVEN ANGLES
+
+Every curve, box, word and wire group: [1968 - M406 - B 147-06-001 - COMPRESSOR BOARD M147 COMPONENT LAYOUT (traced).json](1968%20-%20M406%20-%20B%20147-06-001%20-%20COMPRESSOR%20BOARD%20M147%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1968 - M406 - B 147-06-001 - COMPRESSOR BOARD M147 COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

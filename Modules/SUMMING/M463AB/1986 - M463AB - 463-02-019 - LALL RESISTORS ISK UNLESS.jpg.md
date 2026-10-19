@@ -11,6 +11,18 @@ Wiki page: [M463AB](../../../PAGES/M463AB.md)
 - **Size:** 278,901 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-019, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 1–432 mm up
+- **Outlines:** line 281 rings, 5,578 straight (11,642 mm) / 985 curved (1,622 mm); text 680 rings, 4,985 straight (5,045 mm) / 1,640 curved (2,416 mm)
+- **Centre lines:** 7,338 paths (83 closed); straight 9,684 mm, curved 669 mm; horizontal 3,382 mm, vertical 2,391 mm, diagonal 3,911 mm
+- **Circles and arcs:** 14 circles, 65 arcs; largest r 6.2 @ (91.8, 126.9), r 5.9 @ (146.2, 270.4), r 5.9 @ (131.6, 117.3), r 5.9 @ (86.2, 259.9)
+- **Words (OCR):** 170 in 162 lines: +1By · Rio · Ri2 · ISk · 22 · 02 · 03 · 204401 21440i · Pn36+5 · 33ol6 · T2iy · 2iv
+- **Wiring (first pass):** 87 connected wire groups from 474 runs; labelled ends: 213 mm → 7ks, 204401, 330/6, IOp; 181 mm → Pn36+5, 3*3p, R3 8K2, MN; 179 mm → Ioa, +18v, 204401, RII; 155 mm → Rc8, 2-2, +21~, Pn3sc9; 133 mm → Pn3C4S, Ric, Isk, 22k
+
+Every curve, box, word and wire group: [1986 - M463AB - 463-02-019 - LALL RESISTORS ISK UNLESS (traced).json](1986%20-%20M463AB%20-%20463-02-019%20-%20LALL%20RESISTORS%20ISK%20UNLESS%20%28traced%29.json) (the CAD file: `1986 - M463AB - 463-02-019 - LALL RESISTORS ISK UNLESS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

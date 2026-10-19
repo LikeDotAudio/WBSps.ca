@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,099,668 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 524-03-103, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: M5oO-1
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 102 rings, 2,309 straight (9,354 mm) / 198 curved (266 mm); text 867 rings, 5,159 straight (5,757 mm) / 1,860 curved (2,641 mm); tb 3 rings, 81 straight (199 mm) / 4 curved (6.7 mm)
+- **Centre lines:** 4,571 paths (165 closed); straight 8,986 mm, curved 7.2 mm; horizontal 4,068 mm, vertical 2,185 mm, diagonal 2,734 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 17 (12 in the title block); named: SCALE 1/1; CODE: MM524-3
+- **Words (OCR):** 86 in 69 lines: 889 · +.000 · 7.008 · 005 · 1.108 · +.000 · ~.O03 · +.000 · 2.074 · +.000 · 2.188 005 · +.000
+- **Title block:** (245, 22)–(416, 90) mm: IISSUE| DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: MRW 5//86 · M524A · ENG MRW 5/86 · CKD. · Front Panel Display Screens · APP · SCALE DISC NO: M5oO-1 · ISSUE · 1/1 CODE: MM524-3 · 524-03-
+
+Every curve, box, word and wire group: [19xx - DOC - 524-03-103 - FRONT PANEL DISPLAY SCREENS (traced).json](19xx%20-%20DOC%20-%20524-03-103%20-%20FRONT%20PANEL%20DISPLAY%20SCREENS%20%28traced%29.json) (the CAD file: `19xx - DOC - 524-03-103 - FRONT PANEL DISPLAY SCREENS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,21 @@ Wiki page: [M750](../../../PAGES/M750.md)
 - **Size:** 510,469 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 750-02-001, size B 432 × 144 mm, 2000 × 668 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 1–139 mm up
+- **Outlines:** line 1,289 rings, 7,078 straight (10,032 mm) / 1,182 curved (1,473 mm); text 217 rings, 1,092 straight (961 mm) / 249 curved (328 mm); tb 32 rings, 186 straight (187 mm) / 59 curved (72.0 mm)
+- **Centre lines:** 4,484 paths (40 closed); straight 5,325 mm, curved 60.5 mm; horizontal 2,354 mm, vertical 1,414 mm, diagonal 1,557 mm
+- **Circles and arcs:** 1 circles, 21 arcs; largest r 0.9 @ (149.2, 106.2)
+- **Closed boxes:** 18 (2 in the title block); named: M750 M750 UNE RECEIVER Dener; AATFKLAL; 750-02-001
+- **Dots (junctions):** 7
+- **Words (OCR):** 47 in 35 lines: To H & fETC · DES SNATE · SR5 · FOR · ZEE DRG · 06 ooi · FoR M7s0 NON-INVERTING · LINE RECEIVER/DRIVER · CR5 CR6 · LINRED TO · ETC = · <R8
+- **Title block:** (345, 11)–(428, 31) mm: BECK SYSHEMS Liv · M750 M750 · DATE · UNE RECEIVER Dener
+- **Wiring (first pass):** 56 connected wire groups from 519 runs, 2 dotted junctions; labelled ends: 84 mm → TOLS; 36 mm → CRI4; 28 mm → DATE, AATFKLAL; 23 mm → SR5; 22 mm → <R8
+
+Every curve, box, word and wire group: [1973 - 750-02-001 - & M750-1 LINE RECEIVER DRIVER SCHEMATIC - DRN DS - ISS 3 (traced).json](1973%20-%20750-02-001%20-%20%26%20M750-1%20LINE%20RECEIVER%20DRIVER%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1973 - 750-02-001 - & M750-1 LINE RECEIVER DRIVER SCHEMATIC - DRN DS - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

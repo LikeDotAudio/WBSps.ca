@@ -11,6 +11,18 @@ Wiki page: [M473B](../../../PAGES/M473B.md)
 - **Size:** 2,256,737 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 473-04-007, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 683 rings, 11,883 straight (10,037 mm) / 2,139 curved (2,353 mm); text 282 rings, 3,824 straight (3,612 mm) / 924 curved (1,210 mm); tb 54 rings, 462 straight (527 mm) / 78 curved (101 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.3 @ (71.3, 131.8)
+- **Closed boxes:** 9 (8 in the title block); named: 473-04-007
+- **Words (OCR):** 60 in 42 lines: SSIGNMENT snitch SwL: · When · Ine · ouipul signai · 15 fed via · esistors · the exlernal master · M2 · SSIGNMENT switch · Sw3: · When · Ine
+- **Title block:** (115, 13)–(335, 116) mm: ISSUE DATE · REVISION · APP: · WBS WARD-BECK SysTEMs · M473B · ENG · STEREO SUBMASTER MODULE · CKD · FRONT · PANEL · APP · SCALE · ISSUE · 473-04-007 · 1:1
+
+Every curve, box, word and wire group: [1984 - M473B - 473-04-007 - SWITCH SWI WHEN FEEDS SUBMASTER SIGNAI (traced).json](1984%20-%20M473B%20-%20473-04-007%20-%20SWITCH%20SWI%20WHEN%20FEEDS%20SUBMASTER%20SIGNAI%20%28traced%29.json) (the CAD file: `1984 - M473B - 473-04-007 - SWITCH SWI WHEN FEEDS SUBMASTER SIGNAI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

@@ -11,6 +11,21 @@ Wiki page: [M490F](../../../PAGES/M490F.md)
 - **Size:** 3,120,085 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7-112-02-001, size B (assumed) 432 × 302 mm, 2000 × 1399 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–302 mm up
+- **Outlines:** line 916 rings, 8,386 straight (14,624 mm) / 2,018 curved (2,546 mm); text 707 rings, 4,073 straight (3,665 mm) / 1,472 curved (1,830 mm); tb 9 rings, 107 straight (159 mm) / 22 curved (26.5 mm)
+- **Centre lines:** 11,396 paths (228 closed); straight 11,172 mm, curved 221 mm; horizontal 4,094 mm, vertical 3,030 mm, diagonal 4,048 mm
+- **Circles and arcs:** 9 circles, 53 arcs; largest r 4.3 @ (85.7, 118.3), r 4.1 @ (133.6, 183.6), r 4.1 @ (133.2, 155.2), r 1.1 @ (286.2, 237.4)
+- **Closed boxes:** 23 (3 in the title block); named: REvIsIOH; WBS WAAD-Beck sy9TeS; 7-112 CHANNEL Amplifier SchEMATiC; crD; 001
+- **Dots (junctions):** 1
+- **Words (OCR):** 158 in 140 lines: R+2 · CHANNEL ON · 25 · R4i · CRZ · CohtROL · 2k2 · ATTenuaTOR · Rto · CLt Control · 2k2 · 47ok
+- **Title block:** (345, 20)–(409, 37) mm: REvIsIOH · WBS WAAD-Beck sy9TeS · 7-112
+- **Wiring (first pass):** 110 connected wire groups from 917 runs, 2 dotted junctions; labelled ends: 362 mm → R23, 22k, R2+, Rze; 280 mm → Ris, 4K7, 4/18; 137 mm → E3; 122 mm → A4 4, c23, 1/35, R4s; 96 mm → 92, Alio, iek, Lu3oi
+
+Every curve, box, word and wire group: [1978 - M490F - 7-112-02-001 - CHANNEL AMPLIFIER SCHEMATIC ISSUL (traced).json](1978%20-%20M490F%20-%207-112-02-001%20-%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20ISSUL%20%28traced%29.json) (the CAD file: `1978 - M490F - 7-112-02-001 - CHANNEL AMPLIFIER SCHEMATIC ISSUL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

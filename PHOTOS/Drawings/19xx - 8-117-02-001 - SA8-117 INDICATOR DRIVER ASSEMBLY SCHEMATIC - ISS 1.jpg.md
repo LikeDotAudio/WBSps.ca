@@ -22,6 +22,19 @@ SA8-117 indicator driver assembly schematic, cropped.
 - **Size:** 376,631 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-117-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 331 rings, 4,756 straight (4,619 mm) / 951 curved (1,068 mm); text 143 rings, 1,182 straight (1,255 mm) / 345 curved (507 mm); tb 2 rings, 88 straight (148 mm) / 4 curved (7.2 mm)
+- **Centre lines:** 9,404 paths (66 closed); straight 4,938 mm, curved 129 mm; horizontal 1,378 mm, vertical 1,134 mm, diagonal 2,426 mm
+- **Circles and arcs:** 3 circles, 23 arcs; largest r 5.7 @ (28.9, 197.6), r 3.0 @ (44.9, 250.0), r 0.9 @ (190.2, 215.2)
+- **Words (OCR):** 21 in 21 lines: RI42 · IkB · IKB · 052 · "OVLD" · "NorM" · RIIE · iOk · R1I6 · FROM · 22k · output
+- **Title block:** (215, 39)–(338, 65) mm: WBS · WARD-BECk BysTeMB
+- **Wiring (first pass):** 22 connected wire groups from 227 runs; labelled ends: 104 mm → R1I6, 22k; 93 mm → 47k; 67 mm → R1I6; 63 mm → IkB, RI42, IKB; 62 mm → IkB, "OVLD", RIIE
+
+Every curve, box, word and wire group: [19xx - 8-117-02-001 - SA8-117 INDICATOR DRIVER ASSEMBLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%208-117-02-001%20-%20SA8-117%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8-117-02-001 - SA8-117 INDICATOR DRIVER ASSEMBLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

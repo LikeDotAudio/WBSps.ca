@@ -22,6 +22,16 @@ Rotated connector rear view drawing for the M467 module with title block down th
 - **Size:** 524,777 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout A 467-04-001, size A 279 × 217 mm, 2000 × 1552 px traced (0.140 mm/px), turned 270°
+- **Ink extent:** 1–276 mm across, 3–216 mm up
+- **Outlines:** line 182 rings, 4,298 straight (7,330 mm) / 367 curved (401 mm); text 300 rings, 2,593 straight (2,226 mm) / 709 curved (777 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (16.6, 51.2), r 1.6 @ (60.8, 51.2)
+- **Closed boxes:** 87
+
+Every curve, box, word and wire group: [19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1 (traced).json](19xx%20-%20467-04-001%20-%20NOISE%20GATE%20%26%20COMPRESSOR%20METER%20MODULE%20CONNECTOR%20REAR%20VIEW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

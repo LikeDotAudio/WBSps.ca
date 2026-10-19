@@ -22,6 +22,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 3,556,274 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 76045-02-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–300 mm up
+- **Outlines:** line 636 rings, 5,472 straight (10,641 mm) / 763 curved (1,118 mm); text 285 rings, 1,712 straight (1,779 mm) / 455 curved (647 mm)
+- **Centre lines:** 3,229 paths (30 closed); straight 6,531 mm, curved 162 mm; horizontal 3,385 mm, vertical 1,446 mm, diagonal 1,700 mm
+- **Circles and arcs:** 1 circles, 39 arcs; largest r 1.2 @ (227.7, 231.0)
+- **Closed boxes:** 36
+- **Wiring (first pass):** 91 connected wire groups from 507 runs
+
+Every curve, box, word and wire group: [1977 - 76045-02-006 - CR MONITOR #1 SCHEMATIC - DRN ELJ - ISS 1 (traced).json](1977%20-%2076045-02-006%20-%20CR%20MONITOR%20%231%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 76045-02-006 - CR MONITOR #1 SCHEMATIC - DRN ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

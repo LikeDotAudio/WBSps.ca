@@ -22,6 +22,20 @@ Wiki page: [Job-94033](../../../PAGES/Job-94033.md)
 - **Size:** 469,300 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 94033-01-001, size D 864 × 557 mm, 2000 × 1289 px traced (0.432 mm/px)
+- **Ink extent:** 149–862 mm across, 9–479 mm up
+- **Outlines:** line 638 rings, 5,834 straight (21,626 mm) / 703 curved (1,808 mm); text 316 rings, 2,094 straight (3,589 mm) / 583 curved (1,387 mm); tb 40 rings, 322 straight (2,540 mm) / 30 curved (87.5 mm)
+- **Centre lines:** 24,559 paths (97 closed); straight 23,737 mm, curved 82.0 mm; horizontal 7,282 mm, vertical 6,330 mm, diagonal 10,125 mm
+- **Circles and arcs:** 36 circles, 13 arcs; largest r 6.7 @ (284.6, 244.3), r 6.7 @ (284.6, 206.3), r 6.7 @ (297.2, 244.4), r 6.7 @ (259.2, 256.9)
+- **Closed boxes:** 24 (1 in the title block); named: AMPLIFIERS VATRIX alzlelalelel Jabeleell; AMPLIFIERS alzlelalelel; VATRIX Jabeleell; BLANK M632; M632; BLANK; NEWS; PROD; RC?
+- **Words (OCR):** 53 in 47 lines: 5.255 · AMPLIFIERS · VATRIX · alzlelalelel · Jabeleell · 3.50' · M632 · BLANK · NEWS · PROD · TYPICAL INTERCCv CONTROL LAYCUT: · (INTEGRATEO INTO RADIO CONSCLES)
+- **Title block:** (670, 5)–(853, 81) mm: SSUEI · REMISION · APP; · WBS · WARD-BECK SYSTEMS · DRN: DRG · CENTENNIAL COLLEGE · ENG; · RADIO INTERCOM · CKD · APP · BCALE DISCIND; 456 · 94033-01-001 · ISSUE · CCDE: 94033-01
+- **Wiring (first pass):** 420 connected wire groups from 1,370 runs; labelled ends: 396 mm → MULTIPIN; 71 mm → NEWS; 54 mm → Jabeleell, alzlelalelel; 35 mm → 5.255, alzlelalelel; 35 mm → 5.255
+
+Every curve, box, word and wire group: [1994 - 94033-01-001 - CENTENTIAL COLLEGE RADIO INTERCOM - DRN DRG - ISS 1 (traced).json](1994%20-%2094033-01-001%20-%20CENTENTIAL%20COLLEGE%20RADIO%20INTERCOM%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94033-01-001 - CENTENTIAL COLLEGE RADIO INTERCOM - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

@@ -11,6 +11,16 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 273,230 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-066-06-004, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 6–407 mm up
+- **Outlines:** line 50 rings, 401 straight (512 mm) / 85 curved (74.1 mm); text 121 rings, 1,239 straight (1,373 mm) / 349 curved (421 mm); tb 2 rings, 59 straight (149 mm) / 7 curved (8.4 mm)
+- **Words (OCR):** 8 in 8 lines: WBS · WARD-BECK SYSTEMS · SA14-066C · SPLITTER NETWORKS · OUTPUt · COMPONENT LAYOUT · 14-066-06-004 · ISS.1
+- **Title block:** (200, 43)–(327, 68) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1983 - M609 - 14-066-06-004 - OUTPUT SPLITTER NETWORKS COMPONENT LAYOUT (traced).json](1983%20-%20M609%20-%2014-066-06-004%20-%20OUTPUT%20SPLITTER%20NETWORKS%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1983 - M609 - 14-066-06-004 - OUTPUT SPLITTER NETWORKS COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,16 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,440,428 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 772-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–429 mm across, 0–288 mm up
+- **Outlines:** line 1,667 rings, 10,606 straight (14,782 mm) / 3,339 curved (3,148 mm); text 107 rings, 727 straight (716 mm) / 202 curved (232 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 3.5 @ (316.0, 91.2), r 3.5 @ (37.6, 175.5), r 2.9 @ (37.9, 128.5), r 2.9 @ (47.6, 152.0)
+- **Closed boxes:** 11
+
+Every curve, box, word and wire group: [1981 - microCOM - 772-06-001 - DATA TRANSMITIRECEIVE MODULE COMPONENT LAYOUT (traced).json](1981%20-%20microCOM%20-%20772-06-001%20-%20DATA%20TRANSMITIRECEIVE%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 772-06-001 - DATA TRANSMITIRECEIVE MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

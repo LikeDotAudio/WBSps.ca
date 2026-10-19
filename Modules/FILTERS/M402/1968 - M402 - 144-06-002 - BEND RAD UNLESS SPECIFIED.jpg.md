@@ -11,6 +11,17 @@ Wiki page: [M402](../../../PAGES/M402.md)
 - **Size:** 6,628,466 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 144-06-002, size B (assumed) 432 × 307 mm, 2000 × 1423 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 32–307 mm up
+- **Outlines:** line 1,931 rings, 9,652 straight (10,972 mm) / 1,878 curved (1,909 mm); text 455 rings, 2,965 straight (2,731 mm) / 738 curved (815 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (110.6, 207.9)
+- **Closed boxes:** 12
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1968 - M402 - 144-06-002 - BEND RAD UNLESS SPECIFIED (traced).json](1968%20-%20M402%20-%20144-06-002%20-%20BEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M402 - 144-06-002 - BEND RAD UNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

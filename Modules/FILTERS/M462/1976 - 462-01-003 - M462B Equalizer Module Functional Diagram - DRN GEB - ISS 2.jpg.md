@@ -28,6 +28,20 @@ Photograph of a drawing on a light table: functional diagram of the M462B four-b
 
 - **1976** (month): `Oct 76` — …09jg Wam uerou Mati WES; WaaD-@rCK ayatem8 LTD: Dn Gn DATt Oct 76 CKD 4u GGAe M46? B Equalizer Module Functional Diagram Toly…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 462-01-003, size B 432 × 323 mm, 2000 × 1494 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 39–323 mm up
+- **Outlines:** line 675 rings, 8,570 straight (7,344 mm) / 1,765 curved (1,874 mm); text 22 rings, 125 straight (93.6 mm) / 24 curved (26.8 mm)
+- **Centre lines:** 19,280 paths (154 closed); straight 9,383 mm, curved 41.5 mm; horizontal 2,253 mm, vertical 2,151 mm, diagonal 4,979 mm
+- **Circles and arcs:** 3 circles, 11 arcs; largest r 0.9 @ (269.9, 158.3), r 0.8 @ (108.6, 145.2), r 0.8 @ (245.8, 207.4)
+- **Closed boxes:** 4
+- **Dots (junctions):** 2
+- **Words (OCR):** 13 in 12 lines: outrut · Mou CKu · WES · ayateme · DAIL · M46? B · Equalizer · ModuLe · CKo · functional Diagaam · Tols · 462-01-003
+- **Wiring (first pass):** 86 connected wire groups from 664 runs; labelled ends: 91 mm → Mou, CKu; 30 mm → DAIL, CKo, Tols; 29 mm → ModuLe, functional Diagaam; 22 mm → ModuLe, functional Diagaam; 20 mm → Mou
+
+Every curve, box, word and wire group: [1976 - 462-01-003 - M462B Equalizer Module Functional Diagram - DRN GEB - ISS 2 (traced).json](1976%20-%20462-01-003%20-%20M462B%20Equalizer%20Module%20Functional%20Diagram%20-%20DRN%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 462-01-003 - M462B Equalizer Module Functional Diagram - DRN GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

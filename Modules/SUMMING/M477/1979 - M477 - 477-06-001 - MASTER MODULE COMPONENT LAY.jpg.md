@@ -11,6 +11,18 @@ Wiki page: [M477](../../../PAGES/M477.md)
 - **Size:** 310,440 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 477-06-001, size B (assumed) 432 × 332 mm, 2000 × 1539 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–328 mm up
+- **Outlines:** line 504 rings, 4,321 straight (9,285 mm) / 1,178 curved (1,165 mm); text 880 rings, 6,061 straight (5,701 mm) / 1,954 curved (2,176 mm); tb 428 rings, 2,760 straight (4,783 mm) / 760 curved (767 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 8.6 @ (219.5, 259.1), r 3.8 @ (262.3, 272.4), r 2.3 @ (131.4, 185.4), r 2.3 @ (169.9, 237.8)
+- **Closed boxes:** 7 (1 in the title block); named: LM3OI
+- **Words (OCR):** 143 in 112 lines: 5oof · PN3645 · PN3645 2N4401 204401 · PN3645 ~2n44oi 2n4401 · Rzi · R22 · Jumpec < · Ris · J00 · Rii ISk · R9 22k · Rio !5
+- **Title block:** (54, 0)–(432, 170) mm: R48 Gzc · WBS · R47 320 · R46 Joe · CANADA · R44 · 20 · 7-105 · R43 300 · FIE4 · IEI · R7i 41 · 02E3 · ZE7 · 22/25 · 22/25 · 22/25 · 22/15 · (23 · C25 · C24 · 222 · 0436t5 · PN3569 · Swio · 2/9 36|( ·
+
+Every curve, box, word and wire group: [1979 - M477 - 477-06-001 - MASTER MODULE COMPONENT LAY (traced).json](1979%20-%20M477%20-%20477-06-001%20-%20MASTER%20MODULE%20COMPONENT%20LAY%20%28traced%29.json) (the CAD file: `1979 - M477 - 477-06-001 - MASTER MODULE COMPONENT LAY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

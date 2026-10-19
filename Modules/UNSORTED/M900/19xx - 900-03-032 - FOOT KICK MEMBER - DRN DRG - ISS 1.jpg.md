@@ -21,6 +21,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 385,626 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-032, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 92–844 mm across, 16–462 mm up
+- **Outlines:** line 442 rings, 3,112 straight (19,854 mm) / 564 curved (1,360 mm); text 241 rings, 1,406 straight (2,709 mm) / 416 curved (1,067 mm); tb 20 rings, 154 straight (357 mm) / 33 curved (79.9 mm)
+- **Centre lines:** 4,554 paths (125 closed); straight 12,966 mm, curved 122 mm; horizontal 6,213 mm, vertical 3,397 mm, diagonal 3,356 mm
+- **Circles and arcs:** 1 circles, 18 arcs; largest r 1.7 @ (497.2, 130.0)
+- **Closed boxes:** 62 (3 in the title block); named: PART NUMBER; MODULE COUNT; 44670; Foot Kick MEMBER; DSC "C;; 900-03-032; CLJL
+- **Words (OCR):** 29 in 23 lines: REQ D · 5 970 · ar · 0.449 · 075 Mp · PART NUMBER MODULE COUNT · 44670 · MATERIAL: CRS: 0.074 ThiCK · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BROWN · (438C ) · WBS
+- **Title block:** (686, 47)–(856, 80) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-032 - FOOT KICK MEMBER - DRN DRG - ISS 1 (traced).json](19xx%20-%20900-03-032%20-%20FOOT%20KICK%20MEMBER%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-032 - FOOT KICK MEMBER - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

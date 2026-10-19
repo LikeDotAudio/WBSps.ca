@@ -10,6 +10,21 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 40,058,154 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 900438-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISc No:
+- **Ink extent:** 0–430 mm across, 1–272 mm up
+- **Outlines:** line 884 rings, 7,423 straight (17,215 mm) / 1,441 curved (1,839 mm); text 1,389 rings, 10,254 straight (8,730 mm) / 2,794 curved (3,273 mm); tb 32 rings, 331 straight (1,350 mm) / 24 curved (29.9 mm)
+- **Centre lines:** 26,789 paths (424 closed); straight 17,582 mm, curved 8.1 mm; horizontal 5,913 mm, vertical 4,988 mm, diagonal 6,681 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 1.9 @ (4.0, 17.3)
+- **Closed boxes:** 92 (1 in the title block); named: PGM 1-R; PGM; PGM 2-4; PGM 2-R; AUX; PGM I-R; PGV; PGM 2-L; PGM; AUX; AUX; METER_SELECTOR
+- **Dots (junctions):** 2
+- **Words (OCR):** 277 in 255 lines: CONSOLE   SUMMING BUSES · PGM · CUE · MC_INPUL CHANNELS (1-3) · PROGRAM · STEREQ QUTPUIS · METERING · INSERTS · PGH · PGM 1-R · PG · INSERIS
+- **Title block:** (337, 6)–(428, 45) mm: 11/90| · REMSED AS PER CUSTCVER APPROYAL · GEB · SSUE DATE · REMSION · WE3S · WARD-BECK SYSTEMS · IDRN: GEB · RADIO R1400 · ENG; GEB 8/50 · CHIN · RADIO CONSOLE · CKD · AUDIO_FUNCTIONAL · APP_ · SCALE
+- **Wiring (first pass):** 197 connected wire groups from 1,035 runs, 4 dotted junctions; labelled ends: 1736 mm → PGM, CUE, MC_INPUL CHANNELS (1-3), PGH; 416 mm → INSERIS, M49ZA MASIEEMQ JULE, MONITOR AND METERING, BDG LOAD; 129 mm → MC_INPUL CHANNELS (1-3); 118 mm → SIEREQ_ LINE_WNPUL CHANNELS (4_5), M49QEA_STEREQ LINE_INPUL MODULES; 113 mm → SMTCHED, INPUTS, dBm, 600 OrHMS
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-01-001 - UODUILZ VOCULE RADIO CONSOLE AUDIQ FUNCTIONAL OUTPITC CUTPMTC (traced).json](1990%20-%20900438%20-%20900438-01-001%20-%20UODUILZ%20VOCULE%20RADIO%20CONSOLE%20AUDIQ%20FUNCTIONAL%20OUTPITC%20CUTPMTC%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-01-001 - UODUILZ VOCULE RADIO CONSOLE AUDIQ FUNCTIONAL OUTPITC CUTPMTC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 18 words corrected)

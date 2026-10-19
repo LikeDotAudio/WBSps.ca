@@ -22,6 +22,18 @@ Outline drawing of an equalizer module package with panel cutout.
 - **Size:** 229,132 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout A 404-04-010, size A 279 × 198 mm, 1753 × 1240 px traced (0.159 mm/px)
+- **Ink extent:** 14–279 mm across, 0–197 mm up
+- **Outlines:** line 874 rings, 5,119 straight (5,077 mm) / 645 curved (613 mm); text 291 rings, 1,625 straight (1,021 mm) / 423 curved (377 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (101.0, 13.6)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 40 in 27 lines: 250 · 6.0 · PANEL FINISH · CLEAR CHARACTEAS' · ECUA · TZFR CN · Ecun · PANEL CUTOUT · 4-40 · Kthk RC: CCNNECTOR · Dins ON This SIDE · cini
+
+Every curve, box, word and wire group: [1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING (traced).json](1970%20-%20404-04-010%20-%20M404A%20EQUALIZER%20OUTLINE%20DRAWING%20%28traced%29.json) (the CAD file: `1970 - 404-04-010 - M404A EQUALIZER OUTLINE DRAWING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,797,433 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-106-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–286 mm up
+- **Outlines:** line 462 rings, 3,314 straight (8,192 mm) / 865 curved (907 mm); text 66 rings, 388 straight (349 mm) / 135 curved (146 mm)
+- **Circles and arcs:** 33 circles, 0 arcs; largest r 2.1 @ (49.2, 211.8), r 1.7 @ (80.2, 109.7), r 1.6 @ (67.3, 109.8), r 1.6 @ (56.3, 109.9)
+- **Closed boxes:** 34
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1984 - ST - 14-106-06-001 - LOWER MONO INPUT MODULE BACKPLANE ASSEMBLY (traced).json](1984%20-%20ST%20-%2014-106-06-001%20-%20LOWER%20MONO%20INPUT%20MODULE%20BACKPLANE%20ASSEMBLY%20%28traced%29.json) (the CAD file: `1984 - ST - 14-106-06-001 - LOWER MONO INPUT MODULE BACKPLANE ASSEMBLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

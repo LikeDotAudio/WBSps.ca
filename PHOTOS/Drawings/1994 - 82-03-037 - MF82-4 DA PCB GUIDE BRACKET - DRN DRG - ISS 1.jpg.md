@@ -20,6 +20,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 339,880 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 82-03-037, size D 864 × 561 mm, 2000 × 1300 px traced (0.432 mm/px)
+- **Ink extent:** 53–862 mm across, 0–441 mm up
+- **Outlines:** line 401 rings, 2,781 straight (14,976 mm) / 557 curved (1,339 mm); text 175 rings, 1,052 straight (2,060 mm) / 322 curved (800 mm); tb 17 rings, 157 straight (353 mm) / 26 curved (63.2 mm)
+- **Centre lines:** 4,207 paths (105 closed); straight 10,140 mm, curved 100 mm; horizontal 5,166 mm, vertical 2,302 mm, diagonal 2,672 mm
+- **Circles and arcs:** 2 circles, 8 arcs; largest r 4.9 @ (328.2, 246.5), r 4.8 @ (506.4, 248.3)
+- **Closed boxes:** 23 (3 in the title block); named: MFB2 = PCB  GUIDE BRACKET; 03-037
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 20 lines: PITCHES · F Gon · PUNCI · REC 0 · SecTO · A-A · WARD-BECK SYSTEMS · MATERIAL: · ALUM ALLOY 0.050 ThiCK. · WBS · (0FC94 · FINISH:
+- **Title block:** (688, 46)–(858, 79) mm: WARD-BECK SYSTEMS · WBS · (0FC94
+
+Every curve, box, word and wire group: [1994 - 82-03-037 - MF82-4 DA PCB GUIDE BRACKET - DRN DRG - ISS 1 (traced).json](1994%20-%2082-03-037%20-%20MF82-4%20DA%20PCB%20GUIDE%20BRACKET%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 82-03-037 - MF82-4 DA PCB GUIDE BRACKET - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

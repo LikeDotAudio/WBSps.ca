@@ -29,6 +29,18 @@ Schematic of the M648A 48V power supply with regulator card.
 
 - **1970** (month): `JUNE 70` — …PIN 9(-) TO PINS I0 #I OR BLK WH RD G Roles #eo DRh 0JG MTE JUNE 70 Wand @ESX SIEIEENS UT M6484 POWER SUPPLY SCHMATIC Cr Fe B 6…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 648-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 3–298 mm up
+- **Outlines:** line 806 rings, 9,491 straight (14,292 mm) / 1,434 curved (1,797 mm); text 609 rings, 4,350 straight (5,098 mm) / 1,187 curved (1,810 mm)
+- **Centre lines:** 11,224 paths (117 closed); straight 11,285 mm, curved 474 mm; horizontal 3,848 mm, vertical 3,124 mm, diagonal 4,313 mm
+- **Circles and arcs:** 16 circles, 48 arcs; largest r 8.0 @ (268.9, 252.1), r 5.3 @ (375.1, 164.4), r 1.7 @ (52.1, 144.0), r 1.7 @ (69.9, 140.0)
+- **Words (OCR):** 101 in 85 lines: P2 · 2N3442 · RZ · +48 · PI · SWI FI · F2 · RI · 5w · R4 · I.Sk · L,.5A
+- **Wiring (first pass):** 87 connected wire groups from 375 runs; labelled ends: 159 mm → CI, 2500, R3, AV; 131 mm → 2N3442, F2, L,.5A, RI; 123 mm → RZ, 5w, R4, I.Sk; 117 mm → DSI, R3, AV, 1.5; 96 mm → L,.5A, CI, 2500, IOO
+
+Every curve, box, word and wire group: [1970 - 648-02-002 - M648A POWER SUPPLY SCHMATIC - DRN DJG - ISS 4 (traced).json](1970%20-%20648-02-002%20-%20M648A%20POWER%20SUPPLY%20SCHMATIC%20-%20DRN%20DJG%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1970 - 648-02-002 - M648A POWER SUPPLY SCHMATIC - DRN DJG - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

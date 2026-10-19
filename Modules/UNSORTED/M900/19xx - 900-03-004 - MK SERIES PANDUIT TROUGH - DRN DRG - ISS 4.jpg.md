@@ -21,6 +21,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 969,221 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-004, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–534 mm up
+- **Outlines:** line 759 rings, 5,785 straight (31,075 mm) / 911 curved (2,341 mm); text 299 rings, 1,633 straight (3,112 mm) / 558 curved (1,443 mm); tb 22 rings, 155 straight (367 mm) / 41 curved (99.0 mm)
+- **Centre lines:** 7,161 paths (186 closed); straight 19,748 mm, curved 197 mm; horizontal 9,897 mm, vertical 4,518 mm, diagonal 5,333 mm
+- **Circles and arcs:** 2 circles, 26 arcs; largest r 4.6 @ (439.9, 482.9), r 1.8 @ (644.4, 364.9)
+- **Closed boxes:** 114 (3 in the title block); named: PART NUMBER; MODULE COUNT; 24,010; 21000; z0Cod; 2CO; 34030; 20c0; MK SERIES PANDUIT TROUGH; 1:1; 900-03-004
+- **Words (OCR):** 30 in 25 lines: 3 #8 · REC D/END · (0) REQT · DATUM · 03-32 UNC · (K) REQ D · PART NUMBER MODULE COUNT · 24,010 · 21000 · z0Cod · MATERIAL; CR.s 0.074 ThICK · 2CO
+- **Title block:** (687, 47)–(857, 80) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-004 - MK SERIES PANDUIT TROUGH - DRN DRG - ISS 4 (traced).json](19xx%20-%20900-03-004%20-%20MK%20SERIES%20PANDUIT%20TROUGH%20-%20DRN%20DRG%20-%20ISS%204%20%28traced%29.json) (the CAD file: `19xx - 900-03-004 - MK SERIES PANDUIT TROUGH - DRN DRG - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -23,6 +23,20 @@ Wiki page: [M470](../../../PAGES/M470.md)
 - **Size:** 519,394 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 470-01-004, size B 432 × 282 mm, 2000 × 1304 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–278 mm up
+- **Outlines:** line 427 rings, 5,361 straight (12,875 mm) / 666 curved (884 mm); text 709 rings, 4,518 straight (5,088 mm) / 1,414 curved (2,074 mm); tb 7 rings, 100 straight (233 mm) / 15 curved (22.4 mm)
+- **Centre lines:** 6,770 paths (119 closed); straight 9,685 mm, curved 120 mm; horizontal 3,454 mm, vertical 2,605 mm, diagonal 3,627 mm
+- **Circles and arcs:** 7 circles, 11 arcs; largest r 3.6 @ (218.3, 197.9), r 3.3 @ (178.5, 198.0), r 3.2 @ (238.2, 92.0), r 1.5 @ (233.9, 147.8)
+- **Closed boxes:** 14 (7 in the title block)
+- **Words (OCR):** 109 in 98 lines: Mic/LiNE · DIRECT OUTPUt · mic input · SELECTOR · dBm · BRIDGING · 60/-10 dBm · SUB · 150 Ohms · CTL COm · 751 · MSTR
+- **Title block:** (282, 1)–(432, 69) mm: ISSUE · DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNPMaoN · M47oc · ENG RKB · INPUT MODULE · CKD: · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 470-01-004
+- **Wiring (first pass):** 229 connected wire groups from 523 runs; labelled ends: 270 mm → ON, FADER, BST; 109 mm → PEAK, INDICATOR; 68 mm → INDICATOR; 63 mm → PAL; 48 mm → SELECTOR
+
+Every curve, box, word and wire group: [19xx - 470-01-004 - M470C INPUT MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 1 (traced).json](19xx%20-%20470-01-004%20-%20M470C%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 470-01-004 - M470C INPUT MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

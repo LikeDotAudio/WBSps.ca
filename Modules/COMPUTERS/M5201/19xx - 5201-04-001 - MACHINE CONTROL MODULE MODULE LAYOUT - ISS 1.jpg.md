@@ -22,6 +22,17 @@ Machine control module layout with title block at bottom left reading sideways.
 - **Size:** 4,792,549 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 5201-04-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–426 mm across, 0–287 mm up
+- **Outlines:** line 681 rings, 5,311 straight (14,559 mm) / 909 curved (1,991 mm); text 180 rings, 1,091 straight (974 mm) / 317 curved (384 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 19.9 @ (259.0, 157.8), r 19.9 @ (258.6, 223.5), r 19.8 @ (206.7, 157.5), r 19.8 @ (206.4, 223.4)
+- **Closed boxes:** 11
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [19xx - 5201-04-001 - MACHINE CONTROL MODULE MODULE LAYOUT - ISS 1 (traced).json](19xx%20-%205201-04-001%20-%20MACHINE%20CONTROL%20MODULE%20MODULE%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 5201-04-001 - MACHINE CONTROL MODULE MODULE LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

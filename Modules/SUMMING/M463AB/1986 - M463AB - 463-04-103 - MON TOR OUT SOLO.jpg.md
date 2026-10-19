@@ -11,6 +11,17 @@ Wiki page: [M463AB](../../../PAGES/M463AB.md)
 - **Size:** 269,976 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-103, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–423 mm up
+- **Outlines:** line 265 rings, 5,969 straight (10,773 mm) / 843 curved (1,325 mm); text 562 rings, 5,060 straight (6,085 mm) / 1,303 curved (2,188 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.3 @ (255.5, 94.1), r 2.3 @ (256.0, 26.3)
+- **Closed boxes:** 17; named: ci 3 Dl 4; El 5; HI 7; Eii; Pl131
+- **Words (OCR):** 89 in 63 lines: NPUT · INPUT · SHIELD · SHIELD · ci 3 N/C · N/C · OUT · Dl 4 · FB · OUT · FB · FB OUT
+
+Every curve, box, word and wire group: [1986 - M463AB - 463-04-103 - MON TOR OUT SOLO (traced).json](1986%20-%20M463AB%20-%20463-04-103%20-%20MON%20TOR%20OUT%20SOLO%20%28traced%29.json) (the CAD file: `1986 - M463AB - 463-04-103 - MON TOR OUT SOLO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

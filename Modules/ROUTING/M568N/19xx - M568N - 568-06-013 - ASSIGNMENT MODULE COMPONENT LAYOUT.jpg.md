@@ -11,6 +11,17 @@ Wiki page: [M568N](../../../PAGES/M568N.md)
 - **Size:** 7,189,618 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 568-06-013, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 3–284 mm up
+- **Outlines:** line 1,031 rings, 6,966 straight (8,978 mm) / 1,923 curved (1,923 mm); text 190 rings, 1,119 straight (993 mm) / 406 curved (440 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 4.0 @ (363.2, 188.3), r 3.4 @ (260.9, 224.9), r 3.4 @ (262.4, 102.3), r 1.6 @ (350.0, 99.6)
+- **Closed boxes:** 7
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [19xx - M568N - 568-06-013 - ASSIGNMENT MODULE COMPONENT LAYOUT (traced).json](19xx%20-%20M568N%20-%20568-06-013%20-%20ASSIGNMENT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M568N - 568-06-013 - ASSIGNMENT MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

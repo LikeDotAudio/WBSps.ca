@@ -21,6 +21,20 @@ M538C 8x1 stereo switcher module functional diagram.
 - **Size:** 2,936,754 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 538-01-004, size B 432 × 291 mm, 2000 × 1347 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–286 mm up
+- **Outlines:** line 242 rings, 3,913 straight (7,950 mm) / 491 curved (636 mm); text 126 rings, 1,095 straight (1,161 mm) / 275 curved (397 mm); tb 2 rings, 64 straight (112 mm) / 4 curved (6.2 mm)
+- **Centre lines:** 2,327 paths (16 closed); straight 4,787 mm, curved 40.9 mm; horizontal 2,341 mm, vertical 1,355 mm, diagonal 1,091 mm
+- **Circles and arcs:** 0 circles, 13 arcs
+- **Closed boxes:** 7
+- **Words (OCR):** 13 in 12 lines: LEfT · SWiTCHER · SwitChER · output · INPUTS · RIGHT · WBS WAAD-BECK systeN · Ms38C · 8x1 STEREO SWITCHER MODULE · FUNCTIONAL · B 538-01-004 · ISS
+- **Title block:** (343, 40)–(432, 57) mm: WBS WAAD-BECK systeN
+- **Wiring (first pass):** 72 connected wire groups from 216 runs; labelled ends: 414 mm → RIGHT; 317 mm → LEfT; 35 mm → LEfT, RIGHT
+
+Every curve, box, word and wire group: [19xx - 538-01-004 - 8x1 STEREO SWITCHER MODULE FUNCTIONAL (traced).json](19xx%20-%20538-01-004%20-%208x1%20STEREO%20SWITCHER%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - 538-01-004 - 8x1 STEREO SWITCHER MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

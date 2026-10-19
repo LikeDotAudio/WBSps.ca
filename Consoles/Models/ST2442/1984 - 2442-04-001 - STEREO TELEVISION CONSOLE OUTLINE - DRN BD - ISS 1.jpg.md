@@ -23,6 +23,15 @@ Wiki page: [ST2442](../../../PAGES/ST2442.md)
 - **Size:** 3,986,917 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 2442-04-001, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 1,131 rings, 12,892 straight (25,818 mm) / 2,284 curved (4,878 mm); text 129 rings, 1,409 straight (2,792 mm) / 331 curved (910 mm)
+- **Closed boxes:** 17
+
+Every curve, box, word and wire group: [1984 - 2442-04-001 - STEREO TELEVISION CONSOLE OUTLINE - DRN BD - ISS 1 (traced).json](1984%20-%202442-04-001%20-%20STEREO%20TELEVISION%20CONSOLE%20OUTLINE%20-%20DRN%20BD%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 2442-04-001 - STEREO TELEVISION CONSOLE OUTLINE - DRN BD - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

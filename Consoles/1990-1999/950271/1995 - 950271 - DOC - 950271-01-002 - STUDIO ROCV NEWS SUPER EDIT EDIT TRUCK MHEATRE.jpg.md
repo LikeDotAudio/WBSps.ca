@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,920,632 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 950271-01-002, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 47–420 mm across, 8–228 mm up
+- **Outlines:** line 3,341 rings, 20,931 straight (22,050 mm) / 8,220 curved (14,435 mm); text 290 rings, 1,831 straight (1,660 mm) / 530 curved (663 mm); tb 46 rings, 349 straight (324 mm) / 79 curved (86.7 mm)
+- **Centre lines:** 38,457 paths (192 closed); straight 26,186 mm, curved 49.3 mm; horizontal 9,999 mm, vertical 9,846 mm, diagonal 6,342 mm
+- **Circles and arcs:** 367 circles, 18 arcs; largest r 1.7 @ (238.3, 186.9), r 1.7 @ (193.8, 186.9), r 1.7 @ (232.0, 186.9), r 1.7 @ (206.5, 186.9)
+- **Closed boxes:** 15 (14 in the title block)
+- **Dots (junctions):** 1055
+- **Words (OCR):** 34 in 28 lines: THEATRE THEATRE · THEAIKE · TAUCR + · LEGeND: · IkuC · CROSSRCINT · (IFB ONLY) · TFLCO · (44 INPUTS · SPARE · studio · CUSTOMER;
+- **Title block:** (337, 6)–(426, 40) mm: WBS · WARD-BECK SYSTEMS · ALGONQUIN COLLEGE · 48x48 INTERCOM FUNCTIONAL · INTEGRA TED MEDIA CENTRE · SCALE · CCOC 05271F02 · 950271-01 002
+- **Wiring (first pass):** 129 connected wire groups from 5,849 runs, 1669 dotted junctions; labelled ends: 12606 mm → ji; 225 mm → ji, 3 2 3, 8 8; 150 mm → ji; 29 mm → 3 2 3, NeXS SUPER; 20 mm → ji
+
+Every curve, box, word and wire group: [1995 - 950271 - DOC - 950271-01-002 - STUDIO ROCV NEWS SUPER EDIT EDIT TRUCK MHEATRE (traced).json](1995%20-%20950271%20-%20DOC%20-%20950271-01-002%20-%20STUDIO%20ROCV%20NEWS%20SUPER%20EDIT%20EDIT%20TRUCK%20MHEATRE%20%28traced%29.json) (the CAD file: `1995 - 950271 - DOC - 950271-01-002 - STUDIO ROCV NEWS SUPER EDIT EDIT TRUCK MHEATRE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

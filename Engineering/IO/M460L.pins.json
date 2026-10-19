@@ -1,0 +1,616 @@
+{
+ "code": "M460L",
+ "name": "Input Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "OUTPUT ACTIVELY BALANCED AND FED THE INSERT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b730b761b56e894f6be854b7be65e10ad26dabe6eff0c8080120db2f787b5356",
+    "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - OCR - M460L - P007 - 2-3.jpg",
+    "page": 1
+   },
+   "quote": "The output actively balanced and fed the \"insert point\" pins 22 and module connector P1 This feature allows the use insert jacks, permitting the insertion ancillary equipment into the main mixing signal patn.",
+   "also": [
+    {
+     "signal": "OUTPUT ACTIVELY BALANCED AND FED THE INSERT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - OCR - M460L - P007 - 2-3.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "MIC IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "MIC IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "W",
+   "row": 19,
+   "side": "letter",
+   "signal": "FADER RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "FADER RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "CH ON SWITCH OUT",
+   "kind": "control",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "CH ON SWITCH OUT",
+   "kind": "control",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "INSERT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "INSERT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dfb4cdacdfb8bb36950467814a6a7e782f01646c5d7e3c635b8fe46eb427d293",
+    "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Input Module.pdf",
+    "page": 25
+   },
+   "quote": "Ov P2-2 + LAME",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "a6e75d6a1d4c7d4d1de31ee7763d8698b123958470ef9472f95a17fda6da85b4",
+    "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Input Module (2).pdf",
+    "page": 25
+   },
+   "quote": "PI                                                                                                                                                              ",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "a6e75d6a1d4c7d4d1de31ee7763d8698b123958470ef9472f95a17fda6da85b4",
+    "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Input Module (2).pdf",
+    "page": 25
+   },
+   "quote": "lE4               1\u00a39                             10 K.                                                                                                         ",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "BUS RIGHT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "BUS RIGHT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "RIGHT OUT",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Input Module.pdf",
+     "page": 25
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Schematic.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Input Module.pdf",
+     "page": 25
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Schematic.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dfb4cdacdfb8bb36950467814a6a7e782f01646c5d7e3c635b8fe46eb427d293",
+    "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Input Module.pdf",
+    "page": 25
+   },
+   "quote": "Ml ~E (P2 - -ONTROL Pz-17 =",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "a6e75d6a1d4c7d4d1de31ee7763d8698b123958470ef9472f95a17fda6da85b4",
+    "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Input Module (2).pdf",
+    "page": 25
+   },
+   "quote": "\"\"                                   )   P2 - V",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M460L/1974 - M460L - Input Module (2).pdf",
+     "page": 25
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

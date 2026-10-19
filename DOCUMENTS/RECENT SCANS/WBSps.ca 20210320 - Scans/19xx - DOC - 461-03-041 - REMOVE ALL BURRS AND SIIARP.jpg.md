@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,929,663 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-041, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 200
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 122 rings, 2,661 straight (6,638 mm) / 344 curved (505 mm); text 322 rings, 2,353 straight (2,949 mm) / 744 curved (1,110 mm); tb 5 rings, 184 straight (433 mm) / 9 curved (12.3 mm)
+- **Centre lines:** 4,857 paths (70 closed); straight 6,244 mm, curved 67.1 mm; horizontal 2,473 mm, vertical 1,797 mm, diagonal 1,974 mm
+- **Circles and arcs:** 1 circles, 16 arcs; largest r 3.8 @ (118.0, 207.9)
+- **Closed boxes:** 16 (10 in the title block); named: 461-03-041; ISSUE; CODE: 461M41
+- **Words (OCR):** 48 in 35 lines: 0.24 0.551 · 0.29 · 0.26 · 0.35 · 0.54 · 0.130 DIA: · 2 PLACES · #4-40 UNC · 0.60 · NQTES; · SSUE] DATE · REVISION
+- **Title block:** (246, 19)–(416, 87) mm: SSUE] DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: · DEC · 987 · M461 · ENG_ · SWTCH · MOUNTING BRACKEI · CKD · APP. · SCALE DISC NO: 200 · 461-03-041 · ISSUE · 2:1 CODE: 461M41
+
+Every curve, box, word and wire group: [19xx - DOC - 461-03-041 - REMOVE ALL BURRS AND SIIARP (traced).json](19xx%20-%20DOC%20-%20461-03-041%20-%20REMOVE%20ALL%20BURRS%20AND%20SIIARP%20%28traced%29.json) (the CAD file: `19xx - DOC - 461-03-041 - REMOVE ALL BURRS AND SIIARP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

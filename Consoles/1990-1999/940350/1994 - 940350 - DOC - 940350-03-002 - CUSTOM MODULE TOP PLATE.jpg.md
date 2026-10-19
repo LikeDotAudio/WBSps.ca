@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,571,405 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940350-03-002, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 73–422 mm across, 7–263 mm up
+- **Outlines:** line 325 rings, 2,239 straight (5,372 mm) / 499 curved (628 mm); text 250 rings, 1,487 straight (1,530 mm) / 473 curved (600 mm); tb 9 rings, 82 straight (128 mm) / 15 curved (17.7 mm)
+- **Centre lines:** 5,007 paths (114 closed); straight 4,504 mm, curved 38.1 mm; horizontal 1,175 mm, vertical 1,644 mm, diagonal 1,685 mm
+- **Circles and arcs:** 3 circles, 11 arcs; largest r 1.9 @ (119.4, 39.3), r 1.8 @ (207.2, 239.4), r 0.9 @ (86.8, 235.6)
+- **Closed boxes:** 18 (5 in the title block); named: Ro; M907 CUSTOM MODULE PLATE TOP; 940350-03-002; CCOE
+- **Dots (junctions):** 1
+- **Words (OCR):** 29 in 24 lines: 9308, · RFO"D · 9.05/ · REO'D · MATERIAL: C.R.S. 0.048  THICK · 17U · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BEIGE (452C) · TEXCOTE VNYL. · (EXTRA FINE TEXTURE) · BURRS · EHAR ED CES
+- **Title block:** (344, 23)–(428, 39) mm: KSDAT · REMsOH · WBS · WARD-BECK SYSTEMS · M907
+
+Every curve, box, word and wire group: [1994 - 940350 - DOC - 940350-03-002 - CUSTOM MODULE TOP PLATE (traced).json](1994%20-%20940350%20-%20DOC%20-%20940350-03-002%20-%20CUSTOM%20MODULE%20TOP%20PLATE%20%28traced%29.json) (the CAD file: `1994 - 940350 - DOC - 940350-03-002 - CUSTOM MODULE TOP PLATE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -22,6 +22,20 @@ M472A equalizer module functional diagram, cropped.
 - **Size:** 114,755 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 472-01-002, size B 334 × 432 mm, 1264 × 1634 px traced (0.264 mm/px)
+- **Ink extent:** 0–324 mm across, 11–341 mm up
+- **Outlines:** line 111 rings, 1,658 straight (4,384 mm) / 248 curved (452 mm); text 120 rings, 890 straight (1,302 mm) / 209 curved (365 mm); tb 2 rings, 51 straight (150 mm) / 3 curved (6.2 mm)
+- **Centre lines:** 1,355 paths (16 closed); straight 3,192 mm, curved 45.0 mm; horizontal 1,155 mm, vertical 964 mm, diagonal 1,073 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 1
+- **Words (OCR):** 14 in 13 lines: LeFt · FREQ · cuT_ Freq · BCOST · RiGHT · WBS · WAAD-BECK BYSTEMB · M472A · EQUALiZER · MODULE · FuncTioNAL · 472-01-002
+- **Title block:** (204, 45)–(329, 70) mm: WBS · WAAD-BECK BYSTEMB
+- **Wiring (first pass):** 66 connected wire groups from 139 runs; labelled ends: 72 mm → LeFt; 62 mm → RiGHT; 12 mm → RiGHT; 11 mm → RiGHT; 11 mm → LeFt
+
+Every curve, box, word and wire group: [19xx - 472-01-002 - EQUALIZER MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20472-01-002%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 472-01-002 - EQUALIZER MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M202](../../../PAGES/M202.md)
 - **Size:** 278,902 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 202-06-001, size B (assumed) 432 × 411 mm, 1506 × 1435 px traced (0.287 mm/px)
+- **Ink extent:** 5–432 mm across, 0–400 mm up
+- **Outlines:** line 160 rings, 2,650 straight (7,392 mm) / 636 curved (828 mm); text 318 rings, 2,876 straight (3,546 mm) / 1,007 curved (1,526 mm); tb 363 rings, 3,769 straight (5,696 mm) / 1,062 curved (1,472 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 7.2 @ (45.7, 249.1), r 5.8 @ (46.0, 351.6), r 4.3 @ (45.4, 248.8)
+- **Closed boxes:** 9 (3 in the title block); named: 74414
+- **Words (OCR):** 29 in 27 lines: WBS · 14 · U6 · 9-102 · 01 · U2 · 492 · U4 · 7C42 · 74676 · HN · 74414
+- **Title block:** (111, 12)–(396, 396) mm: WBS · 14 · U6 · 9-102 · 01 · U2 · 492 · U4 · 7C42 · 74676 · HN · TIz · J8 Z96 · 74c00 · 74676 · Issn oate · WBS · WARD-Beck · M202 · Arw · lOtic LATCH · mooule · CKD: · COMPONENT LAYOUT · Apr
+
+Every curve, box, word and wire group: [1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE (traced).json](1979%20-%20M202%20-%20202-06-001%20-%20ARW%20LOGIC%20LATCH%20MOOULE%20%28traced%29.json) (the CAD file: `1979 - M202 - 202-06-001 - ARW LOGIC LATCH MOOULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

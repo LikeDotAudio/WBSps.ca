@@ -23,6 +23,19 @@ Mechanical drawing of an aluminum angle console support/trim piece.
 - **Size:** 380,432 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-211, size D 864 × 530 mm, 2000 × 1228 px traced (0.432 mm/px)
+- **Ink extent:** 6–864 mm across, 6–479 mm up
+- **Outlines:** line 339 rings, 3,756 straight (18,119 mm) / 461 curved (1,174 mm); text 306 rings, 1,773 straight (3,373 mm) / 586 curved (1,460 mm); tb 22 rings, 175 straight (389 mm) / 44 curved (96.5 mm)
+- **Centre lines:** 4,523 paths (116 closed); straight 12,499 mm, curved 44.6 mm; horizontal 7,430 mm, vertical 1,955 mm, diagonal 3,114 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 15 (3 in the title block)
+- **Words (OCR):** 28 in 21 lines: 08J · 02y R40 · NO INSERTS · (SLE PEVSERT NOIE) · 78,025 · REQD · AETFR · 211-1 AS SHOWN (RH.S ) · 900-03-211-2 OPP HAND (LA.S:) · MATERIAL: ALUM ALLOY ANGLE 0.75 0.75 0.12 · FINISH: SAND 120 GriT AND PAINT · TEXTURED BROWN (438C)
+- **Title block:** (631, 37)–(795, 70) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-211 - EQUALIZER MK SERIES CONSOLE SUPPORT TRIM - DRN DRG - ISS 1 (traced).json](19xx%20-%20900-03-211%20-%20EQUALIZER%20MK%20SERIES%20CONSOLE%20SUPPORT%20TRIM%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-211 - EQUALIZER MK SERIES CONSOLE SUPPORT TRIM - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

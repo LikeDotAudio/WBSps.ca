@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,900,321 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 950272-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 20–422 mm across, 8–280 mm up
+- **Outlines:** line 380 rings, 4,554 straight (11,652 mm) / 618 curved (752 mm); text 156 rings, 1,013 straight (967 mm) / 286 curved (365 mm); tb 46 rings, 361 straight (342 mm) / 81 curved (91.8 mm)
+- **Centre lines:** 6,863 paths (83 closed); straight 6,991 mm, curved 46.1 mm; horizontal 2,965 mm, vertical 2,075 mm, diagonal 1,951 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 3.4 @ (91.2, 247.2), r 0.8 @ (92.4, 119.1)
+- **Closed boxes:** 32 (12 in the title block); named: BASECNEATION
+- **Words (OCR):** 18 in 16 lines: BASECNEATION · OTHEE ZONES · Coxweu · EXCHANC? · DINLANDS · CASTE · TD'CE · UIA · WBS · WARD-BECK SYSTEMS · TTC DISPATCH · JACKFIELD POSITION
+- **Title block:** (340, 7)–(428, 40) mm: WBS · WARD-BECK SYSTEMS · TTC DISPATCH · JACKFIELD POSITION · FUNCTIONAL · SCALE · CCDE; 0527001 · 950272 01-001
+- **Wiring (first pass):** 149 connected wire groups from 665 runs; labelled ends: 48 mm → UIA; 41 mm → OTHEE ZONES; 40 mm → BASECNEATION; 35 mm → EXCHANC?; 17 mm → CASTE
+
+Every curve, box, word and wire group: [1995 - 950272 - DOC - 950272-01-001 - AUDIO DIVIDER AMP CHESTER CONT BROADMEW CASTLE FRANK (traced).json](1995%20-%20950272%20-%20DOC%20-%20950272-01-001%20-%20AUDIO%20DIVIDER%20AMP%20CHESTER%20CONT%20BROADMEW%20CASTLE%20FRANK%20%28traced%29.json) (the CAD file: `1995 - 950272 - DOC - 950272-01-001 - AUDIO DIVIDER AMP CHESTER CONT BROADMEW CASTLE FRANK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

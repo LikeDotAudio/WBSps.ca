@@ -11,6 +11,15 @@ Wiki page: [M481](../../../PAGES/M481.md)
 - **Size:** 575,992 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 481-04-002, size B (assumed) 432 × 331 mm, 1085 × 832 px traced (0.398 mm/px), turned 270°
+- **Ink extent:** 6–431 mm across, 2–329 mm up
+- **Outlines:** line 276 rings, 3,142 straight (12,509 mm) / 429 curved (1,072 mm); text 388 rings, 2,178 straight (4,015 mm) / 826 curved (2,014 mm)
+- **Closed boxes:** 80
+
+Every curve, box, word and wire group: [1975 - M481 - 481-04-002 - EKD OSCILLATOR-CUE AMPLIFIER (traced).json](1975%20-%20M481%20-%20481-04-002%20-%20EKD%20OSCILLATOR-CUE%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M481 - 481-04-002 - EKD OSCILLATOR-CUE AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

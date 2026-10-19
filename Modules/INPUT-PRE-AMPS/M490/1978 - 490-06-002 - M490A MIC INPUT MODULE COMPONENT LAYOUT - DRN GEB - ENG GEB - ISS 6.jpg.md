@@ -25,6 +25,19 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 1,289,713 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 490-06-002, size B 432 × 262 mm, 2000 × 1216 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–257 mm up
+- **Outlines:** line 1,466 rings, 9,025 straight (16,546 mm) / 2,402 curved (2,277 mm); text 2,025 rings, 10,969 straight (8,135 mm) / 3,734 curved (3,668 mm); tb 251 rings, 1,336 straight (2,432 mm) / 289 curved (273 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 3.8 @ (372.9, 162.1), r 3.4 @ (94.6, 134.6), r 2.7 @ (165.1, 237.3), r 2.6 @ (360.7, 237.3)
+- **Closed boxes:** 29 (14 in the title block); named: 43; 31
+- **Dots (junctions):** 6
+- **Words (OCR):** 122 in 97 lines: 44& # #449 · 81 % & · 701 Zada · Lli-L Yoth') · (SEM · J 4 · 4d · 2 E 2 · 2 9 · 18 · 9 8 · 02d
+- **Title block:** (35, 0)–(432, 113) mm: 31 · 11-042 · WBS · 15597 · CRZi · AND CRZZ ADDED · MeR EEVISED As PeE SchematIC GEB · Moved 05 HoLE · DDEd GEB · COMPCNENT HDE · EB REvSED AS · PER SChEMATC GEB · ISSU DATE · REVISION · APP · WBS · W
+
+Every curve, box, word and wire group: [1978 - 490-06-002 - M490A MIC INPUT MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB - ISS 6 (traced).json](1978%20-%20490-06-002%20-%20M490A%20MIC%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1978 - 490-06-002 - M490A MIC INPUT MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -22,6 +22,19 @@ Wiki page: [M7000](../../../PAGES/M7000.md)
 - **Size:** 530,140 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 7000-03-039, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 51–835 mm across, 11–473 mm up
+- **Outlines:** line 855 rings, 6,913 straight (31,361 mm) / 1,283 curved (3,867 mm); text 323 rings, 1,779 straight (3,093 mm) / 597 curved (1,439 mm); tb 57 rings, 340 straight (672 mm) / 99 curved (232 mm)
+- **Centre lines:** 10,795 paths (234 closed); straight 21,054 mm, curved 1,012 mm; horizontal 8,906 mm, vertical 4,850 mm, diagonal 7,298 mm
+- **Circles and arcs:** 14 circles, 17 arcs; largest r 128.7 @ (693.7, 233.1), r 6.6 @ (414.5, 358.8), r 6.5 @ (210.9, 355.1), r 6.5 @ (236.4, 355.5)
+- **Closed boxes:** 52 (3 in the title block); named: DETAL
+- **Words (OCR):** 47 in 45 lines: PMCHES · OFRPEREL · UNC · REQ D · CSk RLAR · 0,200 · 0 172 · DP OTHER · RREQE · INCERT · 440 · 0.725
+- **Title block:** (669, 8)–(845, 79) mm: WARD-BECK  SYSTEMS · WBS · IKR-1OB · PANEL(ZRU) · (2X PCB) · ScALE · 7000-03-039 · [CCDE: 7cOD-0j9
+
+Every curve, box, word and wire group: [1998 - 7000-03-039 - IKR-10B PANEL(2RU) (2X PCB) - DRN DRG - ISS 1 (traced).json](1998%20-%207000-03-039%20-%20IKR-10B%20PANEL%282RU%29%20%282X%20PCB%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1998 - 7000-03-039 - IKR-10B PANEL(2RU) (2X PCB) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

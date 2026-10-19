@@ -23,6 +23,18 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 3,810,580 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 461-01-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 12–432 mm across, 0–287 mm up
+- **Outlines:** line 804 rings, 8,263 straight (14,700 mm) / 1,182 curved (1,694 mm); text 288 rings, 1,839 straight (2,069 mm) / 545 curved (772 mm)
+- **Centre lines:** 4,489 paths (63 closed); straight 8,766 mm, curved 376 mm; horizontal 4,107 mm, vertical 2,155 mm, diagonal 2,504 mm
+- **Circles and arcs:** 12 circles, 69 arcs; largest r 1.5 @ (284.7, 36.6), r 1.4 @ (25.7, 136.4), r 1.3 @ (227.4, 230.2), r 1.3 @ (31.7, 241.0)
+- **Closed boxes:** 39
+- **Wiring (first pass):** 161 connected wire groups from 655 runs
+
+Every curve, box, word and wire group: [1976 - 461-01-002 - M461M INPUT MODULE FUNCTIONAL DIAGRAM - DRN ELJ - ISS 3 (traced).json](1976%20-%20461-01-002%20-%20M461M%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20ELJ%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1976 - 461-01-002 - M461M INPUT MODULE FUNCTIONAL DIAGRAM - DRN ELJ - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

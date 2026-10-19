@@ -11,6 +11,17 @@ Wiki page: [Job-77038](../../../PAGES/Job-77038.md)
 - **Size:** 35,766,458 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77038-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–277 mm up
+- **Outlines:** line 627 rings, 5,740 straight (16,235 mm) / 490 curved (652 mm); text 256 rings, 1,793 straight (1,489 mm) / 490 curved (570 mm); tb 11 rings, 85 straight (143 mm) / 15 curved (20.1 mm)
+- **Closed boxes:** 23 (11 in the title block); named: OPTIONAL M498 LINE EQUALIZERS (Z0) 447s ; AUX; M477 MASTER MODULES
+- **Words (OCR):** 49 in 43 lines: AUX · 4441 JeT · "TTT · OPTIONAL · Jackfield · M472 EQUALIZERS (12) · 447s · EQUALIZERS (Z0) · M498 LINE · SELecTORS · (120 JACKS) · LIne M477
+- **Title block:** (353, 0)–(432, 37) mm: DATE · REviSION · ISSUE · WBS WARD-BECK SYSTEMS · DRN PMaY WBS L3242 CONSOLE · CKD · AUDIO · CONSOLE LAYOUT · SCALE · 77038-04-001 · ISSUE · 1.4
+
+Every curve, box, word and wire group: [1977 - 77038 - 77038-04-001 - OPTIONAL PATCHAALE ANSTEP HODUA YOOULES HAEL INPUT HODUMS (traced).json](1977%20-%2077038%20-%2077038-04-001%20-%20OPTIONAL%20PATCHAALE%20ANSTEP%20HODUA%20YOOULES%20HAEL%20INPUT%20HODUMS%20%28traced%29.json) (the CAD file: `1977 - 77038 - 77038-04-001 - OPTIONAL PATCHAALE ANSTEP HODUA YOOULES HAEL INPUT HODUMS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

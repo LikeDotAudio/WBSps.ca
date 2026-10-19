@@ -11,6 +11,18 @@ Wiki page: [M406](../../../PAGES/M406.md)
 - **Size:** 6,850,242 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring 406-09-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 9–432 mm across, 26–305 mm up
+- **Outlines:** line 263 rings, 4,427 straight (9,837 mm) / 631 curved (982 mm); text 174 rings, 1,257 straight (1,434 mm) / 363 curved (539 mm)
+- **Centre lines:** 2,452 paths (39 closed); straight 6,023 mm, curved 316 mm; horizontal 3,003 mm, vertical 1,880 mm, diagonal 1,140 mm
+- **Circles and arcs:** 19 circles, 41 arcs; largest r 1.8 @ (191.3, 31.6), r 1.6 @ (53.8, 232.1), r 1.6 @ (327.6, 169.1), r 1.6 @ (149.4, 255.8)
+- **Closed boxes:** 23
+- **Wiring (first pass):** 53 connected wire groups from 371 runs
+
+Every curve, box, word and wire group: [1968 - M406 - 406-09-002 - MIN BEND RAD UNLESS SPECIFIED (traced).json](1968%20-%20M406%20-%20406-09-002%20-%20MIN%20BEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M406 - 406-09-002 - MIN BEND RAD UNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

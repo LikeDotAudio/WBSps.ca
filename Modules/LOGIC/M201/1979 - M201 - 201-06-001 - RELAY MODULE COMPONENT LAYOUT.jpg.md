@@ -11,6 +11,18 @@ Wiki page: [M201](../../../PAGES/M201.md)
 - **Size:** 151,859 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 201-06-001, size B (assumed) 338 × 432 mm, 1564 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–338 mm across, 0–294 mm up
+- **Outlines:** line 176 rings, 2,357 straight (5,162 mm) / 670 curved (677 mm); text 427 rings, 3,087 straight (2,882 mm) / 1,115 curved (1,184 mm); tb 137 rings, 1,519 straight (3,735 mm) / 411 curved (403 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.7 @ (30.6, 185.9), r 3.5 @ (30.3, 259.1), r 2.2 @ (30.5, 186.0), r 1.7 @ (30.2, 259.2)
+- **Closed boxes:** 6; named: 74014; RZS
+- **Words (OCR):** 47 in 42 lines: Aad · WBS · 8.828 · CAHADA · 89 · 9-101 · 34 · 404 4 · 02 · 04 · V23obo Azozi-A104 · 740221
+- **Title block:** (107, 0)–(338, 292) mm: WBS · CAHADA · 9-101 · 34 · 04 · V23obo Azozi-A104 · 74coo · 02 · 7495 · U5 · K2 · 74Coo · V23obo-A2ozi-A104 · 88 · LSt · -12 · ISSUE (DATE · REVISION · APP: · WBS WAAD-BeCk systeMS · DRNMrw 2/79 · EN
+
+Every curve, box, word and wire group: [1979 - M201 - 201-06-001 - RELAY MODULE COMPONENT LAYOUT (traced).json](1979%20-%20M201%20-%20201-06-001%20-%20RELAY%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1979 - M201 - 201-06-001 - RELAY MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

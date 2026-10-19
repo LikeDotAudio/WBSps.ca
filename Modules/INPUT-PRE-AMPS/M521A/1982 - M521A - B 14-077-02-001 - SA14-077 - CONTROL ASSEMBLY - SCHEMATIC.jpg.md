@@ -11,6 +11,19 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 7,725,558 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-077-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–430 mm across, 0–287 mm up
+- **Outlines:** line 1,281 rings, 11,354 straight (21,333 mm) / 2,235 curved (2,610 mm); text 180 rings, 1,092 straight (913 mm) / 336 curved (393 mm)
+- **Centre lines:** 11,364 paths (270 closed); straight 12,831 mm, curved 150 mm; horizontal 5,152 mm, vertical 4,265 mm, diagonal 3,414 mm
+- **Circles and arcs:** 2 circles, 32 arcs; largest r 3.4 @ (61.0, 193.0), r 3.2 @ (61.4, 212.9)
+- **Closed boxes:** 112
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 68 connected wire groups from 1,112 runs
+
+Every curve, box, word and wire group: [1982 - M521A - B 14-077-02-001 - SA14-077 - CONTROL ASSEMBLY - SCHEMATIC (traced).json](1982%20-%20M521A%20-%20B%2014-077-02-001%20-%20SA14-077%20-%20CONTROL%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1982 - M521A - B 14-077-02-001 - SA14-077 - CONTROL ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

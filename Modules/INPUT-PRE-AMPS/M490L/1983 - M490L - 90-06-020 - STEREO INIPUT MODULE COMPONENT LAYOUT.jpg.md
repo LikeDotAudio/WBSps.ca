@@ -11,6 +11,18 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 364,620 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 90-06-020, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–427 mm up
+- **Outlines:** line 1,239 rings, 12,905 straight (17,892 mm) / 4,185 curved (4,372 mm); text 355 rings, 2,898 straight (2,487 mm) / 1,102 curved (1,222 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.4 @ (206.6, 310.1), r 3.8 @ (235.3, 337.8), r 3.7 @ (61.8, 338.8), r 1.1 @ (80.5, 307.8)
+- **Closed boxes:** 23; named: WBS VAad Amdk Oruturean; M490 [ StereO iniput Module COMFONENT LA
+- **Dots (junctions):** 9
+- **Words (OCR):** 37 in 31 lines: 7070) · SOM · 14 · 22; · Ude · 1a 9af 0 · 19 391: · 19 · 39 · 38 · Rw=0; · Rlr e
+
+Every curve, box, word and wire group: [1983 - M490L - 90-06-020 - STEREO INIPUT MODULE COMPONENT LAYOUT (traced).json](1983%20-%20M490L%20-%2090-06-020%20-%20STEREO%20INIPUT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1983 - M490L - 90-06-020 - STEREO INIPUT MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

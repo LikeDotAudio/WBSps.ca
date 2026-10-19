@@ -1,0 +1,260 @@
+{
+ "code": "M481B",
+ "name": "Cue OSC Re-entry Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "RE-ENTRY THE M2 OUTPUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 5
+   },
+   "quote": "Re-entry The M2 output appearing at pins 17 & U ot this module; is routed through MI Re-en try switch Sw3 and Re-entry Level control RS/R6 to summing resistors R27 and R28 These resistors connect to the M1 summ ing bus via pins 8 at the module connector AuX Master Level Control The AuX Master level ",
+   "also": [
+    {
+     "signal": "RE-ENTRY THE M2 OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 4
+   },
+   "quote": "Re-entry selector and level control of Master (M2) output back to Master (MI) summ ing bus Aux Master\" level control Cue_Amplifiec The Cue Amplifier inputs are derived from an external cue input appearing at pins 11 M of the tiodule connector and from the CUE MASTER output, appearing at pins 12 & N.",
+   "also": [
+    {
+     "signal": "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 4
+   },
+   "quote": "Re-entry selector and level control of Master (M2) output back to Master (MI) summ ing bus Aux Master\" level control Cue_Amplifiec The Cue Amplifier inputs are derived from an external cue input appearing at pins 11 M of the tiodule connector and from the CUE MASTER output, appearing at pins 12 & N.",
+   "also": [
+    {
+     "signal": "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 4
+   },
+   "quote": "Re-entry selector and level control of Master (M2) output back to Master (MI) summ ing bus Aux Master\" level control Cue_Amplifiec The Cue Amplifier inputs are derived from an external cue input appearing at pins 11 M of the tiodule connector and from the CUE MASTER output, appearing at pins 12 & N.",
+   "also": [
+    {
+     "signal": "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "CUE/SOLO ASSI GN SWITCH SW2 ROUTES THIE",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 4
+   },
+   "quote": "The CUE/SOLO ASSI GN switch Sw2 routes thie signal from the CUE MASTER output Lo either [he cue amplifier input Or , if depressed, it provides SOLO feed to the monitor module MLBZB via SOLO Level control R3/R4 and appears at pins 13 8 of the module connector.",
+   "also": [
+    {
+     "signal": "CUE/SOLO ASSI GN SWITCH SW2 ROUTES THIE",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "RE-ENTRY THE M2 OUTPUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 5
+   },
+   "quote": "Re-entry The M2 output appearing at pins 17 & U ot this module; is routed through MI Re-en try switch Sw3 and Re-entry Level control RS/R6 to summing resistors R27 and R28 These resistors connect to the M1 summ ing bus via pins 8 at the module connector AuX Master Level Control The AuX Master level ",
+   "also": [
+    {
+     "signal": "RE-ENTRY THE M2 OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "RE-ENTRY THE M2 OUTPUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 5
+   },
+   "quote": "Re-entry The M2 output appearing at pins 17 & U ot this module; is routed through MI Re-en try switch Sw3 and Re-entry Level control RS/R6 to summing resistors R27 and R28 These resistors connect to the M1 summ ing bus via pins 8 at the module connector AuX Master Level Control The AuX Master level ",
+   "also": [
+    {
+     "signal": "RE-ENTRY THE M2 OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "POWERSUPPLY POWER",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 5
+   },
+   "quote": "Power_Supply Power is derived from the console integral +/ - 25 volt supply which appears a[ pins 21 and 19 of the module connector .",
+   "also": [
+    {
+     "signal": "POWERSUPPLY POWER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "POWERSUPPLY POWER",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6674bf4c2dc869b7a45d2ce822deebc8c4c80e625ab907455f8df712e06d9c60",
+    "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+    "page": 5
+   },
+   "quote": "Power_Supply Power is derived from the console integral +/ - 25 volt supply which appears a[ pins 21 and 19 of the module connector .",
+   "also": [
+    {
+     "signal": "POWERSUPPLY POWER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M481B/1982 - M481B - Cue OSC Re-entry Module.pdf",
+     "page": 5
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

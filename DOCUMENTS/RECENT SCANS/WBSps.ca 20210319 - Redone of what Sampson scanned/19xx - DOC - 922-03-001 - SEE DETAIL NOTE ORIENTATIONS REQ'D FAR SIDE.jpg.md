@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,122,718 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 922-03-001, size B (assumed) 432 × 284 mm, 2000 × 1317 px traced (0.216 mm/px)
+- **Ink extent:** 1–431 mm across, 0–262 mm up
+- **Outlines:** line 886 rings, 6,245 straight (10,831 mm) / 1,397 curved (2,218 mm); text 283 rings, 1,705 straight (1,685 mm) / 531 curved (682 mm); tb 21 rings, 137 straight (179 mm) / 22 curved (25.8 mm)
+- **Centre lines:** 12,169 paths (273 closed); straight 8,461 mm, curved 546 mm; horizontal 2,420 mm, vertical 2,189 mm, diagonal 3,852 mm
+- **Circles and arcs:** 12 circles, 31 arcs; largest r 65.4 @ (360.9, 195.7), r 1.9 @ (160.7, 196.3), r 1.9 @ (237.4, 195.4), r 1.9 @ (236.3, 96.1)
+- **Closed boxes:** 23 (5 in the title block); named: M922/M922A STEREO EQUALIZER MODULE; SCALC; 922-03-001; LCOE;
+- **Dots (junctions):** 4
+- **Words (OCR):** 36 in 31 lines: REQ QOIA · 938 · 0200 · Dh · RAD CO · 0,070 · (0.03 · FAR SIDE · 1675 · (SCHE #1) · DETAIL · 0.257
+- **Title block:** (351, 27)–(432, 44) mm: REMSIC · WBS WARD · BECK SYSTEMS · M922/M922A
+
+Every curve, box, word and wire group: [19xx - DOC - 922-03-001 - SEE DETAIL NOTE ORIENTATIONS REQ'D FAR SIDE (traced).json](19xx%20-%20DOC%20-%20922-03-001%20-%20SEE%20DETAIL%20NOTE%20ORIENTATIONS%20REQ%27D%20FAR%20SIDE%20%28traced%29.json) (the CAD file: `19xx - DOC - 922-03-001 - SEE DETAIL NOTE ORIENTATIONS REQ'D FAR SIDE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

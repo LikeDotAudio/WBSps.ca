@@ -23,6 +23,21 @@ Wiki page: [L1202A](../../../PAGES/L1202A.md)
 - **Size:** 340,093 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-001-02-002, size B 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 15–432 mm across, 0–277 mm up
+- **Outlines:** line 194 rings, 3,829 straight (8,134 mm) / 640 curved (989 mm); text 361 rings, 2,760 straight (3,213 mm) / 804 curved (1,231 mm); tb 8 rings, 123 straight (253 mm) / 13 curved (16.5 mm)
+- **Centre lines:** 3,611 paths (70 closed); straight 6,532 mm, curved 387 mm; horizontal 2,472 mm, vertical 1,789 mm, diagonal 2,270 mm
+- **Circles and arcs:** 40 circles, 24 arcs; largest r 1.8 @ (144.3, 190.0), r 1.6 @ (57.5, 138.6), r 1.6 @ (98.0, 138.7), r 1.6 @ (258.0, 138.7)
+- **Closed boxes:** 16 (6 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 62 in 49 lines: NQTES: · 1.ALL RESISTORS Vaw 5e · 2.LAST · COMPONENT DESIGNATION: · R13 SwG · LINE · SELECTOR INPUTS · 620 · SW1 · Sw2 · Sw3 · SwA
+- **Title block:** (284, 1)–(432, 70) mm: ISSUE IDATE · RE VISION · APP · WBS WARD-BECK SYSTEMS · DRN PMlexY · 14-00IA · ENG.Mrw | /8 · SELECTOR · CKD · INPUT LINE · SCHEMATIC · APP · SCALE · 14-001-02-002 · ISSUE
+- **Wiring (first pass):** 44 connected wire groups from 241 runs, 4 dotted junctions; labelled ends: 301 mm → SRS, S15, SR13, 1.5; 256 mm → 1.5, R6, R8, RA; 87 mm → INPUTS, SwA; 86 mm → SW1; 86 mm → Sw5
+
+Every curve, box, word and wire group: [1980 - 14-001-02-002 - 14-001A INPUT LINE SELECTOR SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).json](1980%20-%2014-001-02-002%20-%2014-001A%20INPUT%20LINE%20SELECTOR%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1980 - 14-001-02-002 - 14-001A INPUT LINE SELECTOR SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -21,6 +21,16 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,118,018 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 790236-04-018, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 2–289 mm up
+- **Outlines:** line 423 rings, 6,422 straight (14,223 mm) / 1,059 curved (1,935 mm); text 621 rings, 4,861 straight (5,813 mm) / 1,426 curved (2,266 mm)
+- **Circles and arcs:** 34 circles, 0 arcs; largest r 5.0 @ (187.3, 230.1), r 5.0 @ (121.1, 229.6), r 5.0 @ (188.7, 99.4), r 4.9 @ (122.6, 98.7)
+- **Closed boxes:** 29
+
+Every curve, box, word and wire group: [1979 - 790236-04-018 - CONSOLE AC TERMINAL BLOCK LAYOUT - DRN SRH - ENG SRH - ISS 1 (traced).json](1979%20-%20790236-04-018%20-%20CONSOLE%20AC%20TERMINAL%20BLOCK%20LAYOUT%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-04-018 - CONSOLE AC TERMINAL BLOCK LAYOUT - DRN SRH - ENG SRH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

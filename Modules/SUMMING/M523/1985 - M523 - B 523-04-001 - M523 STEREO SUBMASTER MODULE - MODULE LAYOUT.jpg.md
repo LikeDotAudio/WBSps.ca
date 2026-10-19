@@ -11,6 +11,19 @@ Wiki page: [M523](../../../PAGES/M523.md)
 - **Size:** 4,591,652 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 523-04-001, size B (assumed) 432 × 304 mm, 2000 × 1406 px traced (0.216 mm/px)
+- **Ink extent:** 4–428 mm across, 0–300 mm up
+- **Outlines:** line 1,126 rings, 8,850 straight (20,203 mm) / 1,552 curved (2,432 mm); text 133 rings, 1,002 straight (1,038 mm) / 255 curved (372 mm); tb 2 rings, 51 straight (112 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 3.7 @ (351.0, 201.6), r 3.7 @ (350.9, 253.9), r 3.7 @ (350.8, 270.2), r 3.6 @ (211.9, 32.5)
+- **Closed boxes:** 32; named: 58
+- **Dots (junctions):** 2
+- **Words (OCR):** 21 in 18 lines: 5414-Cob · BAL · 8 07 · Fe · J#U · AUX 3 · AUX 2 · AUX · PRE · outpuT · WBS WAAD-BECK SYSTEMB · 58
+- **Title block:** (339, 30)–(432, 48) mm: WBS WAAD-BECK SYSTEMB
+
+Every curve, box, word and wire group: [1985 - M523 - B 523-04-001 - M523 STEREO SUBMASTER MODULE - MODULE LAYOUT (traced).json](1985%20-%20M523%20-%20B%20523-04-001%20-%20M523%20STEREO%20SUBMASTER%20MODULE%20-%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M523 - B 523-04-001 - M523 STEREO SUBMASTER MODULE - MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

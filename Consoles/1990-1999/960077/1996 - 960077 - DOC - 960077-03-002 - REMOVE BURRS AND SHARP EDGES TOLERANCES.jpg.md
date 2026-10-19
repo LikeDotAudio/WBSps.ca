@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,224,818 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960077-03-002, size B (assumed) 432 × 274 mm, 2000 × 1269 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–264 mm up
+- **Outlines:** line 387 rings, 4,668 straight (11,652 mm) / 567 curved (787 mm); text 197 rings, 1,198 straight (1,233 mm) / 382 curved (519 mm); tb 20 rings, 167 straight (181 mm) / 43 curved (48.5 mm)
+- **Centre lines:** 4,488 paths (101 closed); straight 7,332 mm, curved 23.7 mm; horizontal 2,888 mm, vertical 1,710 mm, diagonal 2,735 mm
+- **Circles and arcs:** 2 circles, 6 arcs; largest r 1.3 @ (298.0, 102.5), r 1.3 @ (288.0, 84.5)
+- **Closed boxes:** 5 (2 in the title block)
+- **Words (OCR):** 23 in 18 lines: RALT4) · 12026 · A OCO · 0,50 · TUNchiny · Tc? TO · SEc · MATERIAL: CRS 0.105 ThiCK: · FInISH: SAND 120 CRiT AND PAINT · TEXTURED BROVN (438C) · TEXCOTE VNYL. · OLRANCES
+- **Title block:** (336, 16)–(419, 32) mm: WBS · WARD-BECK  SYSTEMS
+
+Every curve, box, word and wire group: [1996 - 960077 - DOC - 960077-03-002 - REMOVE BURRS AND SHARP EDGES TOLERANCES (traced).json](1996%20-%20960077%20-%20DOC%20-%20960077-03-002%20-%20REMOVE%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1996 - 960077 - DOC - 960077-03-002 - REMOVE BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

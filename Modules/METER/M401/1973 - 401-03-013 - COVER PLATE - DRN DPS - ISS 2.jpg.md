@@ -22,6 +22,19 @@ Wiki page: [M401](../../../PAGES/M401.md)
 - **Size:** 1,221,416 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 401-03-013, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 12–299 mm up
+- **Outlines:** line 163 rings, 2,855 straight (9,166 mm) / 246 curved (386 mm); text 355 rings, 2,507 straight (2,946 mm) / 750 curved (1,145 mm); tb 34 rings, 205 straight (345 mm) / 29 curved (49.7 mm)
+- **Centre lines:** 3,887 paths (72 closed); straight 7,256 mm, curved 6.0 mm; horizontal 3,755 mm, vertical 1,606 mm, diagonal 1,895 mm
+- **Circles and arcs:** 1 circles, 2 arcs; largest r 1.8 @ (127.1, 227.8)
+- **Closed boxes:** 24 (22 in the title block); named: 40i013; WBS WARD-BECK LTD SySTEMS
+- **Words (OCR):** 57 in 38 lines: 9.56 · 7.56 · 40i013 · 16 · HoLes 14 DIA · NeIes · See Note 2 · ReMove ALL Burrs · SHARP eDees · PArt Ne · 401013 To · Be PerMANENTLY
+- **Title block:** (141, 6)–(413, 58) mm: ISS MOD [CKD_ · USED ON · MATL · 2631 · D 401 -03 009 · GA ( - 059) · WBS WARD-BECK SySTEMS · crs · DRN: · DR? · FINISH · DATE 20 Nc73 · CKD · PLATE · Paint TEXTURID GRIY SCALE · COVER · To spec A1200
+
+Every curve, box, word and wire group: [1973 - 401-03-013 - COVER PLATE - DRN DPS - ISS 2 (traced).json](1973%20-%20401-03-013%20-%20COVER%20PLATE%20-%20DRN%20DPS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1973 - 401-03-013 - COVER PLATE - DRN DPS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

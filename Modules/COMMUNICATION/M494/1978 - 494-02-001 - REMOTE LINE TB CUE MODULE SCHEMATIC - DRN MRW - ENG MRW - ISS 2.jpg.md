@@ -24,6 +24,20 @@ Wiki page: [M494](../../../PAGES/M494.md)
 - **Size:** 496,504 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 494-02-001, size B 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 0–429 mm up
+- **Outlines:** line 244 rings, 4,242 straight (9,551 mm) / 639 curved (961 mm); text 529 rings, 4,109 straight (4,554 mm) / 1,299 curved (1,838 mm); tb 15 rings, 146 straight (298 mm) / 26 curved (34.2 mm)
+- **Centre lines:** 5,735 paths (82 closed); straight 8,389 mm, curved 298 mm; horizontal 3,073 mm, vertical 2,158 mm, diagonal 3,158 mm
+- **Circles and arcs:** 19 circles, 20 arcs; largest r 6.5 @ (98.8, 72.8), r 6.3 @ (44.2, 73.2), r 3.8 @ (102.7, 114.5), r 3.8 @ (123.8, 219.3)
+- **Closed boxes:** 17 (17 in the title block)
+- **Words (OCR):** 87 in 74 lines: NOTES · I.ALL Resistors 'I4W,5 % AND · ALL CAPACiTOPS IN · AE UNLESS · otheRWiSE SPECiFIED. · 2.LAST componEnT DESIGNATIONS: · LiNE Listen · Output · Swio · I6 · PROGRAM CuE · INPUT
+- **Title block:** (190, 2)–(331, 74) mm: 2/78]C1WAS 100/25R23+R31 WAS 22K · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: MRW · M494 · Z2 CHAssIS ENG.MRW 10/77 · REMOTE LINE TB/CUE MODULE · SCHEMATIC · APP · SCALE · 494-02-001 
+- **Wiring (first pass):** 37 connected wire groups from 161 runs; labelled ends: 242 mm → Mrg 3424, R29, 33k, R32; 220 mm → 2n3569, R3b, C2, 22/25; 91 mm → NOTES; 90 mm → Swio; 57 mm → K3, R37, Iy23012, FLV4iO
+
+Every curve, box, word and wire group: [1978 - 494-02-001 - REMOTE LINE TB CUE MODULE SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (traced).json](1978%20-%20494-02-001%20-%20REMOTE%20LINE%20TB%20CUE%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1978 - 494-02-001 - REMOTE LINE TB CUE MODULE SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

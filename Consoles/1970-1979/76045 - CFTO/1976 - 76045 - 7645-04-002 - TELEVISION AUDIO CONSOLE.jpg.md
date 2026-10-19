@@ -10,6 +10,17 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 33,266,493 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 7645-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale 4 ' 10
+- **Ink extent:** 0–430 mm across, 0–276 mm up
+- **Outlines:** line 328 rings, 2,341 straight (6,516 mm) / 247 curved (330 mm); text 446 rings, 2,001 straight (1,468 mm) / 599 curved (683 mm); tb 29 rings, 187 straight (230 mm) / 24 curved (30.3 mm)
+- **Closed boxes:** 33 (29 in the title block); named: WBS WAAD-BECK bystems LTD; 28/4/2 TELEViSION AUDIO CONSOLE OUTLINE; ISS 0 4 - 0 0 76 0 45
+- **Words (OCR):** 65 in 42 lines: LINE · Preselectors YaTR E · Assicamni · MODULES Knaom · 4-L/C AND · METERS W6ie · Mag6m · CHANNEL EQUALIZERS · EQUALIZERS FILTERS · JAcKFIELD · AuX MODULES M4ss · PFLACME AMPLINIER NsJ
+- **Title block:** (284, 4)–(408, 34) mm: USS Modackd: · USED · MATL · WBS WAAD-BECK bystems LTD · DRN: · DATE FEB · 28/4/2 TELEViSION AUDIO CONSOLE · FINISH · CKD · OUTLINE · SCALE 4 ' 10 · TOLS · 76 0 45 · 0 4 - 0 0
+
+Every curve, box, word and wire group: [1976 - 76045 - 7645-04-002 - TELEVISION AUDIO CONSOLE (traced).json](1976%20-%2076045%20-%207645-04-002%20-%20TELEVISION%20AUDIO%20CONSOLE%20%28traced%29.json) (the CAD file: `1976 - 76045 - 7645-04-002 - TELEVISION AUDIO CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

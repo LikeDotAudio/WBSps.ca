@@ -24,6 +24,20 @@ Output transformer connection diagram for M621T, title block cropped at right.
 - **Size:** 553,490 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 621-02-004, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 313 rings, 9,509 straight (13,442 mm) / 1,309 curved (2,238 mm); text 203 rings, 2,286 straight (2,756 mm) / 524 curved (853 mm); tb 31 rings, 631 straight (762 mm) / 77 curved (113 mm)
+- **Centre lines:** 4,227 paths (87 closed); straight 9,755 mm, curved 715 mm; horizontal 4,472 mm, vertical 2,657 mm, diagonal 2,626 mm
+- **Circles and arcs:** 51 circles, 28 arcs; largest r 3.3 @ (137.8, 235.0), r 3.3 @ (138.1, 250.7), r 3.3 @ (137.8, 275.6), r 3.3 @ (137.7, 243.3)
+- **Closed boxes:** 36 (28 in the title block); named: FINISH; TOLS_
+- **Words (OCR):** 36 in 33 lines: OUTPUT · TRANSFORMER CONNECT IONS · 4 OHM · 16 OHM · 150 OHM · PI · 160 · 160 · 160 · 150 · 150 · 15
+- **Title block:** (54, 16)–(321, 94) mm: ISS MOD  CKD: · USED ON · MATL · WBS WA · DRN: · BJ · DATESEPL73 · FINISH · CKD · SCALE · TOLS_
+- **Wiring (first pass):** 80 connected wire groups from 289 runs; labelled ends: 108 mm → TRANSFORMER CONNECT IONS; 92 mm → 160; 87 mm → 160; 55 mm → IOO; 55 mm → 160
+
+Every curve, box, word and wire group: [1973 - 621-02-004 - OUTPUT TRANSFORMER CONNECTIONS (4 OHM 16 OHM 150 OHM; title block cut - DRN BJ (traced).json](1973%20-%20621-02-004%20-%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20%284%20OHM%2016%20OHM%20150%20OHM%3B%20title%20block%20cut%20-%20DRN%20BJ%20%28traced%29.json) (the CAD file: `1973 - 621-02-004 - OUTPUT TRANSFORMER CONNECTIONS (4 OHM 16 OHM 150 OHM; title block cut - DRN BJ (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

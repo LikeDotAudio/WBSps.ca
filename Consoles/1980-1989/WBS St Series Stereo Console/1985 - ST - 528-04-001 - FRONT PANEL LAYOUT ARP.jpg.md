@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 643,078 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 528-04-001, size B (assumed) 206 × 432 mm, 953 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–206 mm across, 0–411 mm up
+- **Outlines:** line 12 rings, 1,276 straight (2,251 mm) / 95 curved (156 mm); text 142 rings, 1,698 straight (2,227 mm) / 435 curved (779 mm); tb 48 rings, 1,870 straight (2,742 mm) / 168 curved (282 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 18 in 15 lines: WBS · M528 · ISSUE DATE · WBS · WARD-BECK sybteI · DRN BD · IN · M528 · ENG · Mrw DUAL AUXILIARY MODULE · Ckd · FRONT PANEL LAYOUT
+- **Title block:** (20, 3)–(168, 413) mm: WBS · M528 · ISSUE DATE · WBS · WARD-BECK sybteI · DRN BD · IN · M528 · ENG · Mrw DUAL AUXILIARY MODULE · Ckd · FRONT PANEL LAYOUT · APP L · SCALE · 528-04-001
+
+Every curve, box, word and wire group: [1985 - ST - 528-04-001 - FRONT PANEL LAYOUT ARP (traced).json](1985%20-%20ST%20-%20528-04-001%20-%20FRONT%20PANEL%20LAYOUT%20ARP%20%28traced%29.json) (the CAD file: `1985 - ST - 528-04-001 - FRONT PANEL LAYOUT ARP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

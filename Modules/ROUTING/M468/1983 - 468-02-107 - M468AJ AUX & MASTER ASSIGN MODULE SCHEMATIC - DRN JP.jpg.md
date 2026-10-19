@@ -24,6 +24,21 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 3,841,664 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 468-02-107, size B (assumed) 432 × 140 mm, 2000 × 649 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–140 mm up
+- **Outlines:** line 796 rings, 7,717 straight (13,154 mm) / 1,696 curved (2,029 mm); text 121 rings, 1,076 straight (950 mm) / 254 curved (335 mm); tb 10 rings, 89 straight (128 mm) / 16 curved (23.9 mm)
+- **Centre lines:** 10,135 paths (190 closed); straight 8,916 mm, curved 118 mm; horizontal 3,533 mm, vertical 2,477 mm, diagonal 2,906 mm
+- **Circles and arcs:** 3 circles, 15 arcs; largest r 3.6 @ (362.8, 112.5), r 3.4 @ (375.2, 122.5), r 3.3 @ (376.0, 75.8)
+- **Closed boxes:** 27 (4 in the title block); named: 468-02-107
+- **Dots (junctions):** 1
+- **Words (OCR):** 23 in 20 lines: PRE · R2s {15 · poST · YELLOY · IHPUT · 242580 · 20 · 4u4 · REVISION · WBS · WARD-BECk SysteMS · M468AJ
+- **Title block:** (359, 28)–(432, 45) mm: REVISION · WBS · WARD-BECk SysteMS
+- **Wiring (first pass):** 101 connected wire groups from 686 runs, 2 dotted junctions; labelled ends: 118 mm → R2s {15, YELLOY; 107 mm → WBS, LB, 468-02-107; 35 mm → R2s {15; 24 mm → 4u4; 24 mm → R2s {15
+
+Every curve, box, word and wire group: [1983 - 468-02-107 - M468AJ AUX & MASTER ASSIGN MODULE SCHEMATIC - DRN JP (traced).json](1983%20-%20468-02-107%20-%20M468AJ%20AUX%20%26%20MASTER%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20%28traced%29.json) (the CAD file: `1983 - 468-02-107 - M468AJ AUX & MASTER ASSIGN MODULE SCHEMATIC - DRN JP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

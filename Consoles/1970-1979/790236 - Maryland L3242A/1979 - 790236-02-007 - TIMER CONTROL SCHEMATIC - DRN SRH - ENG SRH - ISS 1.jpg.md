@@ -22,6 +22,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 4,928,832 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 790236-02-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 219 rings, 3,978 straight (8,517 mm) / 555 curved (806 mm); text 201 rings, 1,468 straight (1,713 mm) / 406 curved (590 mm)
+- **Centre lines:** 4,070 paths (60 closed); straight 6,029 mm, curved 111 mm; horizontal 2,825 mm, vertical 1,626 mm, diagonal 1,579 mm
+- **Circles and arcs:** 7 circles, 21 arcs; largest r 3.5 @ (8.8, 33.4), r 1.2 @ (189.0, 143.9), r 1.1 @ (348.3, 67.6), r 1.1 @ (228.5, 151.3)
+- **Closed boxes:** 13
+- **Wiring (first pass):** 38 connected wire groups from 280 runs
+
+Every curve, box, word and wire group: [1979 - 790236-02-007 - TIMER CONTROL SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).json](1979%20-%20790236-02-007%20-%20TIMER%20CONTROL%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-02-007 - TIMER CONTROL SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

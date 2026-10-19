@@ -11,6 +11,18 @@ Wiki page: [M648](../../../PAGES/M648.md)
 - **Size:** 6,157,817 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring 648-09-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 17–305 mm up
+- **Outlines:** line 1,370 rings, 14,007 straight (12,861 mm) / 2,923 curved (3,297 mm); text 214 rings, 1,555 straight (1,596 mm) / 435 curved (617 mm)
+- **Centre lines:** 24,954 paths (137 closed); straight 12,645 mm, curved 442 mm; horizontal 3,700 mm, vertical 2,796 mm, diagonal 6,149 mm
+- **Circles and arcs:** 25 circles, 65 arcs; largest r 1.8 @ (342.2, 124.6), r 1.5 @ (342.0, 124.7), r 1.5 @ (239.0, 150.0), r 1.5 @ (342.0, 143.9)
+- **Closed boxes:** 11
+- **Wiring (first pass):** 59 connected wire groups from 654 runs
+
+Every curve, box, word and wire group: [1970 - M648 - B 648-09-001 - M648 FRAME - CONNECTOR WIRING (traced).json](1970%20-%20M648%20-%20B%20648-09-001%20-%20M648%20FRAME%20-%20CONNECTOR%20WIRING%20%28traced%29.json) (the CAD file: `1970 - M648 - B 648-09-001 - M648 FRAME - CONNECTOR WIRING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

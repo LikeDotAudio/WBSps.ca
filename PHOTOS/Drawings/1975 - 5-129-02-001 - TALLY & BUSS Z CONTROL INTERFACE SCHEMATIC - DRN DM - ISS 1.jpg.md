@@ -21,6 +21,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,261,043 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5-129-02-001, size B 432 × 147 mm, 2000 × 681 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–432 mm across, 0–141 mm up
+- **Outlines:** line 1,197 rings, 12,294 straight (21,210 mm) / 2,271 curved (2,547 mm); text 35 rings, 209 straight (184 mm) / 90 curved (107 mm)
+- **Centre lines:** 15,138 paths (331 closed); straight 13,039 mm, curved 81.3 mm; horizontal 5,869 mm, vertical 3,302 mm, diagonal 3,869 mm
+- **Circles and arcs:** 3 circles, 18 arcs; largest r 1.1 @ (381.1, 7.1), r 0.9 @ (94.5, 126.4), r 0.8 @ (138.0, 54.9)
+- **Closed boxes:** 67
+- **Wiring (first pass):** 101 connected wire groups from 1,171 runs
+
+Every curve, box, word and wire group: [1975 - 5-129-02-001 - TALLY & BUSS Z CONTROL INTERFACE SCHEMATIC - DRN DM - ISS 1 (traced).json](1975%20-%205-129-02-001%20-%20TALLY%20%26%20BUSS%20Z%20CONTROL%20INTERFACE%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1975 - 5-129-02-001 - TALLY & BUSS Z CONTROL INTERFACE SCHEMATIC - DRN DM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

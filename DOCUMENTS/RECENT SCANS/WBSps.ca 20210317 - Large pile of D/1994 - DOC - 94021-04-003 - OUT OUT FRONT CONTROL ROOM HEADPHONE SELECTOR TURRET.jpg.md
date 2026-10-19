@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,855,618 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94021-04-003, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px)
+- **Ink extent:** 42–423 mm across, 6–260 mm up
+- **Outlines:** line 384 rings, 3,224 straight (11,085 mm) / 644 curved (963 mm); text 153 rings, 934 straight (1,015 mm) / 281 curved (370 mm); tb 22 rings, 166 straight (192 mm) / 36 curved (40.1 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 4.2 @ (224.4, 116.5), r 4.2 @ (139.0, 116.7), r 4.1 @ (141.5, 165.6), r 4.1 @ (204.5, 165.4)
+- **Closed boxes:** 30 (4 in the title block); named: 2-Vix VCN; 2-Vix VCN; GLEN GOULD STUDIO TURRET LAYOUT; 94021-04-003
+- **Words (OCR):** 19 in 17 lines: 2-Vix VCN · TOP MEW · TURRET) · FRONT · CONTRO · HEADDHCNC · JURRET (10.70 · WBS · WARD-BECK SYSTEMS · GLEN GOULD STUDIO · REAR_MEW · TYPICAL
+- **Title block:** (344, 22)–(428, 39) mm: WBS · WARD-BECK SYSTEMS · GLEN GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - DOC - 94021-04-003 - OUT OUT FRONT CONTROL ROOM HEADPHONE SELECTOR TURRET (traced).json](1994%20-%20DOC%20-%2094021-04-003%20-%20OUT%20OUT%20FRONT%20CONTROL%20ROOM%20HEADPHONE%20SELECTOR%20TURRET%20%28traced%29.json) (the CAD file: `1994 - DOC - 94021-04-003 - OUT OUT FRONT CONTROL ROOM HEADPHONE SELECTOR TURRET (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

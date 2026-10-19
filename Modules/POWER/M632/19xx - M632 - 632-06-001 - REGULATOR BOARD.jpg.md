@@ -11,6 +11,18 @@ Wiki page: [M632](../../../PAGES/M632.md)
 - **Size:** 276,357 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 632-06-001, size B (assumed) 432 × 258 mm, 2000 × 1196 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–251 mm up
+- **Outlines:** line 66 rings, 2,247 straight (6,530 mm) / 612 curved (585 mm); text 363 rings, 3,278 straight (3,760 mm) / 883 curved (1,056 mm); tb 163 rings, 1,836 straight (2,725 mm) / 465 curved (517 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 6.3 @ (46.8, 188.6), r 3.8 @ (25.2, 234.1)
+- **Closed boxes:** 10 (8 in the title block); named: 9-104 WBS 300 CR2in4oo3 R8 21k CANADA R6; Tip 308
+- **Words (OCR):** 53 in 47 lines: WBS · 9-104 · 300 · CANADA · CR2in4oo3 R8 21k · R6z3 · V2w · U1 · R9 · R11- · 429 · R3 40
+- **Title block:** (39, 4)–(432, 248) mm: WBS · 9-104 · 300 · CANADA · CR2in4oo3 R8 21k · R6z3 · V2w · U1 · R9 · R11- · 429 · R3 40 · ce · Vzw · Lm376 · 70735' 150 · R12 · 500 · R2229 · V ADU · Rio [K? · Jc11soop · Q2 · Tip 308 · jQQ · 2n6395
+
+Every curve, box, word and wire group: [19xx - M632 - 632-06-001 - REGULATOR BOARD (traced).json](19xx%20-%20M632%20-%20632-06-001%20-%20REGULATOR%20BOARD%20%28traced%29.json) (the CAD file: `19xx - M632 - 632-06-001 - REGULATOR BOARD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

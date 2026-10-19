@@ -11,6 +11,18 @@ Wiki page: [Job-77012](../../../PAGES/Job-77012.md)
 - **Size:** 38,319,570 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77012-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–278 mm up
+- **Outlines:** line 711 rings, 6,830 straight (14,094 mm) / 884 curved (1,002 mm); text 215 rings, 1,388 straight (1,122 mm) / 426 curved (497 mm); tb 32 rings, 173 straight (176 mm) / 25 curved (27.0 mm)
+- **Closed boxes:** 24 (5 in the title block); named: Optiomal EQUALIZERS 447Z SELECTORS LINE; JACKFIELD JAC KS; INPUT MODULES Man; BLANK conTROL; 4475 Monitor MODULES; M47] SUBMaSTER MODULES; SUD FAdERS IhPUT (20 ] FADERS
+- **Dots (junctions):** 2
+- **Words (OCR):** 58 in 47 lines: EQUALIZERS · Optiomal · JACKFIELD · 447Z · LINE · SELECTORS · JAC KS · M477 · OptioNal PATC HABLE · OUT MODULES · LINE| MASTER · ANCILLaRY MODILES (8)
+- **Title block:** (352, 0)–(432, 42) mm: k7 · REdRawN · 54 ODLOLETL · IssUE DatE · REVISION · APP · WBS WARD-BeCK SySTEMS · DRM · gee8 · WBS L2042 · CONSOLE · ENG ELJ · cKD RC: · APP · AUDIO · CONSOLE LAYOUT · SCALE · 77012 -04-002
+
+Every curve, box, word and wire group: [1977 - 77012 - 77012-04-002 - MASTER AOAMTOPR BLANK WOMAO HONUAS ITE (traced).json](1977%20-%2077012%20-%2077012-04-002%20-%20MASTER%20AOAMTOPR%20BLANK%20WOMAO%20HONUAS%20ITE%20%28traced%29.json) (the CAD file: `1977 - 77012 - 77012-04-002 - MASTER AOAMTOPR BLANK WOMAO HONUAS ITE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

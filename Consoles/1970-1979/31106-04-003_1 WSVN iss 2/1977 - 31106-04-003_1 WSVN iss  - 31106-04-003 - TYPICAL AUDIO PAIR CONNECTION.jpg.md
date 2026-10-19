@@ -9,6 +9,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,288,482 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–429 mm up
+- **Outlines:** line 147 rings, 2,679 straight (5,147 mm) / 292 curved (432 mm); text 232 rings, 1,369 straight (1,400 mm) / 461 curved (652 mm)
+- **Closed boxes:** 10
+- **Words (OCR):** 29 in 17 lines: LEGEND · No CONNECTION · STRAP OR JUMPER · CONNECTion · TB4/21,22 · TYPicAl AUDIO PAIR · connECTION · To · TERMINAL BLOCK · PINS 21 AND · STRAP OR JUMPER · CONNECTED
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_1 WSVN iss  - 31106-04-003 - TYPICAL AUDIO PAIR CONNECTION (traced).json](1977%20-%2031106-04-003_1%20WSVN%20iss%20%20-%2031106-04-003%20-%20TYPICAL%20AUDIO%20PAIR%20CONNECTION%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_1 WSVN iss  - 31106-04-003 - TYPICAL AUDIO PAIR CONNECTION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

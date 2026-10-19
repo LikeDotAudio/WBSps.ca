@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,204,122 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-008, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–302 mm across, 2–432 mm up
+- **Outlines:** line 553 rings, 5,464 straight (9,165 mm) / 1,116 curved (1,543 mm); text 332 rings, 2,018 straight (2,157 mm) / 626 curved (870 mm)
+- **Centre lines:** 6,014 paths (98 closed); straight 6,788 mm, curved 462 mm; horizontal 2,718 mm, vertical 1,876 mm, diagonal 2,195 mm
+- **Circles and arcs:** 26 circles, 71 arcs; largest r 1.5 @ (201.7, 259.9), r 1.4 @ (194.4, 305.5), r 1.4 @ (194.3, 363.4), r 1.4 @ (194.4, 329.1)
+- **Closed boxes:** 1
+- **Wiring (first pass):** 100 connected wire groups from 442 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-008 - AUX MODULE (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20AUX%20MODULE%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-008 - AUX MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

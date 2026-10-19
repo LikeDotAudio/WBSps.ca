@@ -11,6 +11,18 @@ Wiki page: [M466](../../../PAGES/M466.md)
 - **Size:** 153,261 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-005, size B (assumed) 432 × 288 mm, 2000 × 1332 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–277 mm up
+- **Outlines:** line 218 rings, 2,530 straight (6,515 mm) / 519 curved (622 mm); text 774 rings, 6,721 straight (7,494 mm) / 1,891 curved (2,275 mm); tb 22 rings, 355 straight (676 mm) / 61 curved (73.2 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 9.0 @ (23.1, 211.3), r 9.0 @ (75.0, 109.2), r 8.6 @ (74.6, 211.5), r 8.6 @ (23.2, 109.6)
+- **Closed boxes:** 10 (7 in the title block); named: 0E7 E2 ~CI33/1@ E10 RIG 22k 22k RS 4k7 ~; LF356; 22 LF356
+- **Words (OCR):** 99 in 94 lines: 0E7 · E2 · E10 · ~CI33/1@ · RIG 22k · ~Ri8 · 22k · RS 4k7 · +k7 · R2i · R6 JBK · R2o470
+- **Title block:** (133, 2)–(432, 132) mm: E50 · WBS · 8-109 · ~CI5-22o/i6 · 22o/ecl6o- · ~R36 4k7 · -R374k7 · ISSUE DATE · REVISION · APF · EG · WBS WARD-BECK sysTEMS · DRN: GE B · 8 - 109D · ENG MRW 4/78 · OUT PUT · AMPLIFIER · COMPONENT LAY
+
+Every curve, box, word and wire group: [1976 - M466 - 8-109-06-005 - OUT PUT AMPLIFIER COMPONENT LAYOUT (traced).json](1976%20-%20M466%20-%208-109-06-005%20-%20OUT%20PUT%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1976 - M466 - 8-109-06-005 - OUT PUT AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

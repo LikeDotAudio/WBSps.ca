@@ -21,6 +21,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 851,782 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-020, size D 864 × 558 mm, 2000 × 1292 px traced (0.432 mm/px)
+- **Ink extent:** 66–861 mm across, 0–558 mm up
+- **Outlines:** line 1,116 rings, 6,497 straight (29,409 mm) / 921 curved (2,185 mm); text 307 rings, 1,769 straight (3,304 mm) / 554 curved (1,390 mm); tb 14 rings, 128 straight (329 mm) / 23 curved (57.3 mm)
+- **Centre lines:** 6,743 paths (196 closed); straight 18,301 mm, curved 101 mm; horizontal 12,072 mm, vertical 2,019 mm, diagonal 4,210 mm
+- **Circles and arcs:** 1 circles, 12 arcs; largest r 1.9 @ (440.3, 443.7)
+- **Closed boxes:** 43 (3 in the title block); named: MK SERIES SUPPORT LID METER  BRIDGE; 900-03-020
+- **Words (OCR):** 30 in 27 lines: 33 · 900-03-020- · (0.175 [ 4 · 98 · 13 · 900 · 020-2 · SSONECESD ARY · 900-03-020-3 · 0,570 · MATERIAL: · CRS 0.074 THICK
+- **Title block:** (688, 46)–(858, 79) mm: REUSID · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-020 - MK SERIES METER BRIDGE LID SUPPORT - DRN DRG - ISS 2 (traced).json](19xx%20-%20900-03-020%20-%20MK%20SERIES%20METER%20BRIDGE%20LID%20SUPPORT%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 900-03-020 - MK SERIES METER BRIDGE LID SUPPORT - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

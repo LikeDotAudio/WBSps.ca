@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,524,293 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940238-04-037, size B (assumed) 432 × 276 mm, 2000 × 1280 px traced (0.216 mm/px)
+- **Ink extent:** 35–428 mm across, 8–232 mm up
+- **Outlines:** line 511 rings, 3,699 straight (10,889 mm) / 722 curved (1,076 mm); text 120 rings, 794 straight (788 mm) / 248 curved (313 mm); tb 17 rings, 156 straight (180 mm) / 30 curved (36.0 mm)
+- **Circles and arcs:** 24 circles, 0 arcs; largest r 1.8 @ (96.8, 74.7), r 1.8 @ (210.1, 78.6), r 1.8 @ (202.6, 78.6), r 1.8 @ (104.3, 74.7)
+- **Closed boxes:** 54 (4 in the title block); named: CCNSCLE; CKNW CUSTOM POWER INTERFACE PANEL; 940238-04-037; SCALF; DISC NO;
+- **Dots (junctions):** 6
+- **Words (OCR):** 16 in 14 lines: POAFR · CAELES · REUCHAL · CCNSCLE · CAALE · Co NECTCRS · FROHT · WBS · WARD-BECK SYSTEMS · CKNW CUSTOM · POWER INTERFACE · PANEL
+- **Title block:** (339, 23)–(423, 40) mm: WBS · WARD-BECK SYSTEMS · CKNW CUSTOM
+
+Every curve, box, word and wire group: [1994 - 940238 - DOC - 940238-04-037 - CCNNECTORS FACING THE REAR (traced).json](1994%20-%20940238%20-%20DOC%20-%20940238-04-037%20-%20CCNNECTORS%20FACING%20THE%20REAR%20%28traced%29.json) (the CAD file: `1994 - 940238 - DOC - 940238-04-037 - CCNNECTORS FACING THE REAR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

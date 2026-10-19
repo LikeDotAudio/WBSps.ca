@@ -11,6 +11,19 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 370,056 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8470-06-005, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 3–430 mm up
+- **Outlines:** line 1,892 rings, 17,069 straight (22,261 mm) / 5,321 curved (5,326 mm); text 608 rings, 5,457 straight (4,718 mm) / 1,780 curved (1,969 mm); tb 27 rings, 171 straight (166 mm) / 32 curved (32.9 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 6.2 @ (210.6, 267.8), r 5.7 @ (56.9, 241.7), r 5.7 @ (48.6, 226.5), r 5.7 @ (49.1, 274.5)
+- **Closed boxes:** 37; named: Pn; NY; 35; WBS WAAD-Duck; Mazoe INPUT Module ASSEMBLY; 470 - 06 012
+- **Dots (junctions):** 3
+- **Words (OCR):** 53 in 42 lines: P2 · 444 · CRI · Rixt · Rso · 844 · Ri3s · 43 · 8E8 · 02 Pn · ~CR7 · 49&
+- **Title block:** (213, 14)–(255, 54) mm: cKD · Tols _
+
+Every curve, box, word and wire group: [1984 - M470E - 8470-06-005 - SOC UHZ MATT JLDER SIDE (traced).json](1984%20-%20M470E%20-%208470-06-005%20-%20SOC%20UHZ%20MATT%20JLDER%20SIDE%20%28traced%29.json) (the CAD file: `1984 - M470E - 8470-06-005 - SOC UHZ MATT JLDER SIDE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,18 @@ Wiki page: [M146](../../../PAGES/M146.md)
 - **Size:** 4,402,764 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 146-06-010, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–286 mm across, 0–427 mm up
+- **Outlines:** line 1,275 rings, 9,038 straight (11,504 mm) / 2,146 curved (2,164 mm); text 380 rings, 2,316 straight (2,118 mm) / 592 curved (640 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 7.1 @ (110.4, 139.8), r 1.7 @ (280.1, 194.2)
+- **Closed boxes:** 17
+- **Dots (junctions):** 4
+- **Words (OCR):** 4 in 4 lines: 82 · 85 · 35 · 86
+
+Every curve, box, word and wire group: [1969 - 146-06-010 - M406 B COMPRESSOR M146 LAYOUT - DRN DJG - ISS 5 (traced).json](1969%20-%20146-06-010%20-%20M406%20B%20COMPRESSOR%20M146%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1969 - 146-06-010 - M406 B COMPRESSOR M146 LAYOUT - DRN DJG - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

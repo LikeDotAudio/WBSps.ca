@@ -1,0 +1,1749 @@
+{
+ "code": "M470D",
+ "name": "2AUX with pan",
+ "derived": true,
+ "variant_of": "M470C",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 3,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "OUTPUT SIGNAL OF THE BOOSTER AMPLIFIER",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "956b95813ba5d58032bdf17aab0730be84bfd7d81be9a9e02aeed281a62701c8",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - Input Module (2).pdf",
+    "page": 5
+   },
+   "quote": "CIR CUIT DESCRIPTION H470C INPUT MODUL E DIRECT Output The output signal of the booster amplifier feeds the DIRECT output a t connector Pl, pins 3/C.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "M2 OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "M2 OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "B",
+   "row": 2,
+   "side": "letter",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 3 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 3 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 4 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "SUB",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 4 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "MASTER OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 5 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "MASTER OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 5 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 6 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 6 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 7 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 7 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "SUB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "K",
+   "row": 9,
+   "side": "letter",
+   "signal": "AUX 4 OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "AUX",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "AUX OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "AUX",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "AUX 2 OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "AUX OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "AUX",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "AUX OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "PFL",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "PFL",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "R",
+   "row": 14,
+   "side": "letter",
+   "signal": "SOLO",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "SOLO",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 18 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 18 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "W",
+   "row": 19,
+   "side": "letter",
+   "signal": "MIC IN 1",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "MIC IN 1",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "MIC",
+   "kind": "in",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 20 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "MIC",
+   "kind": "in",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 20 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "MIC SHIELD",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 21 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "MIC SHIELD",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 21 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "EQUAL OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 22 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "EQUAL N",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 22 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "variant",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "305df998f07467b1fc686c1e0e4d12e18b048e9cbba92a14ac0ca40f76bb7f32",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "PZ - 2|",
+   "also": [],
+   "from_conf": "low"
+  },
+  {
+   "conn": "P2",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 4 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "FADER RETURN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "FADER RETURN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "CH ON SWITCH OUT",
+   "kind": "control",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "CH ON SWITCH OUT",
+   "kind": "control",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "INSERT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "INSERT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "K",
+   "row": 9,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "MASTER CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "MASTER CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "SUB 5 CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "SUB 6 CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "SUB 3 CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "SUB CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "SUB CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "SUB CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "R",
+   "row": 14,
+   "side": "letter",
+   "signal": "SUB CTL COM",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "MASTER CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "CH ON AUX",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "LINE MUTE CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "MUTE CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "MIC 2 MUTE CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "SOLO CTL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 18 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "W",
+   "row": 19,
+   "side": "letter",
+   "signal": "CH ON CTL COM",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 19 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "MIC/LINE CTL COM",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 20 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "CH ON LAMP",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fd6240f5cb3d9f0f4c4d40b4e757aae197bd3960127b679b5327afc7bcd0819c",
+    "file": "Modules/INPUT-PRE-AMPS/M470C/1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 22 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470C/M470C.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

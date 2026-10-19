@@ -11,6 +11,17 @@ Wiki page: [M460L](../../../PAGES/M460L.md)
 - **Size:** 505,990 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 460-04-622, size B (assumed) 432 × 288 mm, 2000 × 1335 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–285 mm up
+- **Outlines:** line 151 rings, 2,387 straight (5,305 mm) / 261 curved (394 mm); text 808 rings, 5,815 straight (6,777 mm) / 1,692 curved (2,520 mm); tb 10 rings, 142 straight (293 mm) / 24 curved (40.2 mm)
+- **Closed boxes:** 69 (6 in the title block); named: E|5 L/1o N/12 Pl13 R/14 S15 U/17 V/18 Wl; E5; 10; L/1o; M/1; N/12 P/13 R/14 S/15; N/12 Pl13; R/14; S15; 7/16 U/17 vli8 w/1g; U/17; V/18
+- **Words (OCR):** 161 in 108 lines: P1 · P2 · MIc A 1 Mic · NC · NC · NC · Mic SHIELD · GND · GND · LEFT OUT · LEFT OUT · PA
+- **Title block:** (306, 0)–(432, 74) mm: ISSUE DATE · REVISION · WBS WARD-BECK sy · DRN:VInkE · ENG_ · M460L · INPUT MODULE · CKD 7u · CONNECTOR · REAR · VIEL_ · APP · SCALE · 460-04-022
+
+Every curve, box, word and wire group: [1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW (traced).json](1974%20-%20M460L%20-%20460-04-622%20-%20INPUT%20MODULE%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

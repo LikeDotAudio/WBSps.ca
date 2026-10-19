@@ -18,6 +18,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 284,386 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-106-02-001, size B 432 × 305 mm, 2000 × 1413 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 1,240 rings, 9,762 straight (21,205 mm) / 1,601 curved (1,860 mm); text 104 rings, 784 straight (745 mm) / 247 curved (322 mm); tb 6 rings, 74 straight (161 mm) / 6 curved (8.3 mm)
+- **Centre lines:** 8,006 paths (173 closed); straight 12,203 mm, curved 22.5 mm; horizontal 7,265 mm, vertical 2,725 mm, diagonal 2,213 mm
+- **Circles and arcs:** 0 circles, 9 arcs
+- **Closed boxes:** 32
+- **Words (OCR):** 17 in 16 lines: INSERT CUT · (PREFADE) · CHANNEL · QUTUT · DuT · OJPUT · J2 · WBS · WARD-BECK SYSTEMS · SA14-106 · DATA BUS · DAtA BUS
+- **Title block:** (334, 47)–(424, 64) mm: WBS · WARD-BECK SYSTEMS · SA14-106
+- **Wiring (first pass):** 179 connected wire groups from 1,211 runs; labelled ends: 33 mm → CHANNEL; 9 mm → J2; 9 mm → DuT; 8 mm → DuT; 7 mm → QUTUT
+
+Every curve, box, word and wire group: [19xx - 14-106-02-001 - SA14-106 LOWER MONO INPUT MODULES SCHEMATIC - ISS 2 (traced).json](19xx%20-%2014-106-02-001%20-%20SA14-106%20LOWER%20MONO%20INPUT%20MODULES%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 14-106-02-001 - SA14-106 LOWER MONO INPUT MODULES SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

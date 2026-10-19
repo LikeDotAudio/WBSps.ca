@@ -10,6 +10,21 @@ Wiki page: [Job-820322](../../../PAGES/Job-820322.md)
 - **Size:** 1,151,850 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 20321-02-013, size B (assumed) 432 × 136 mm, 2000 × 632 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–131 mm up
+- **Outlines:** line 830 rings, 8,407 straight (12,467 mm) / 1,913 curved (2,395 mm); text 1,082 rings, 6,556 straight (5,208 mm) / 1,986 curved (2,296 mm); tb 52 rings, 292 straight (298 mm) / 76 curved (85.6 mm)
+- **Centre lines:** 18,542 paths (404 closed); straight 12,203 mm, curved 246 mm; horizontal 3,818 mm, vertical 3,111 mm, diagonal 5,274 mm
+- **Circles and arcs:** 2 circles, 77 arcs; largest r 2.0 @ (223.5, 83.6), r 0.8 @ (328.7, 90.2)
+- **Closed boxes:** 22 (9 in the title block); named: ALlO4 WEL MQdLE; M47AA SUB NAS TER LQDWILE; SUB FADE; D6c54 ALCA 2a4; 74628; E?QPl BLLAY Mobuly;; chahhE AdE R (-ISd6)
+- **Dots (junctions):** 3
+- **Words (OCR):** 261 in 216 lines: Mi S0uaceS · 6048 /-10464 · (592032i-0z 009 · PhaATOR PoteR · JNPUL CHAMNEL · SNRMASTER G HANNE L · 9Ue · Is0n · (Chi · chZo AREIDENTICAQ · Lovt LEUEL · (Sub
+- **Title block:** (208, 1)–(432, 48) mm: Froh · Ict · WBs*10 029 · 90- N477 · LQLZ · SUANASTER · OliUles · cor · For INTERLOCK · Se5 Owg · 0B2032/-01- · CONTROLS · 007 · IsSUE DATE · REVISION · 424V · COM · WBS WARD-BECK SYSTEMS · (-1548) 82
+- **Wiring (first pass):** 125 connected wire groups from 807 runs, 1 dotted junctions; labelled ends: 273 mm → SUB NAS TER, LQDWILE, 10*2), 04; 102 mm → SEE Note), pZ-7; 80 mm → 70", Ei, 70*, 708; 77 mm → MASTER ^HAWNEL, (Hi AND, DaskeE, 44A*Bab; 70 mm → chZo AREIDENTICAQ, 70", 70*, M47AA
+
+Every curve, box, word and wire group: [1982 - 820322 - 820321-02-001 - CONTROLS AASTER MODULES COM SEE (traced).json](1982%20-%20820322%20-%20820321-02-001%20-%20CONTROLS%20AASTER%20MODULES%20COM%20SEE%20%28traced%29.json) (the CAD file: `1982 - 820322 - 820321-02-001 - CONTROLS AASTER MODULES COM SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 16 words corrected)

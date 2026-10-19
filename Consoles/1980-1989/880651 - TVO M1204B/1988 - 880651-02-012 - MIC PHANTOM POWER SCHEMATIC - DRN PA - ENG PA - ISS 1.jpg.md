@@ -23,6 +23,18 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,435,596 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 880651-02-012, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 18–306 mm up
+- **Outlines:** line 253 rings, 2,868 straight (6,761 mm) / 543 curved (800 mm); text 254 rings, 1,752 straight (2,125 mm) / 554 curved (824 mm)
+- **Centre lines:** 3,264 paths (72 closed); straight 5,104 mm, curved 193 mm; horizontal 2,340 mm, vertical 1,142 mm, diagonal 1,622 mm
+- **Circles and arcs:** 11 circles, 30 arcs; largest r 2.2 @ (340.0, 52.6), r 2.2 @ (370.4, 52.4), r 1.7 @ (351.0, 34.9), r 1.6 @ (337.6, 34.7)
+- **Closed boxes:** 15
+- **Wiring (first pass):** 32 connected wire groups from 266 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-012 - MIC PHANTOM POWER SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1988%20-%20880651-02-012%20-%20MIC%20PHANTOM%20POWER%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 880651-02-012 - MIC PHANTOM POWER SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

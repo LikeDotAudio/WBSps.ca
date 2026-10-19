@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 23,097,739 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960163-04-001, size B (assumed) 432 × 290 mm, 2000 × 1342 px traced (0.216 mm/px)
+- **Ink extent:** 0–421 mm across, 0–267 mm up
+- **Outlines:** line 1,932 rings, 11,965 straight (32,326 mm) / 2,878 curved (3,743 mm); text 193 rings, 1,178 straight (1,194 mm) / 355 curved (452 mm); tb 15 rings, 126 straight (165 mm) / 29 curved (31.0 mm)
+- **Circles and arcs:** 43 circles, 0 arcs; largest r 1.4 @ (312.2, 133.8), r 1.4 @ (312.1, 104.0), r 1.4 @ (312.2, 114.0), r 1.4 @ (312.3, 143.7)
+- **Closed boxes:** 120 (5 in the title block); named: 0.0; OTTAWA CBC PARLIMENTARY BUREAU 48*96 Mic; 960163-04-001; IDISC NL; Code: 96163L01
+- **Dots (junctions):** 4
+- **Words (OCR):** 19 in 15 lines: 6 | 3 3 | 6 · 0.0 · NOIes_ · CC "ECIDS · CONNECTORS · ISSUE DATE · WBS · WARD-BECK SYSTEMS · CBC · OTTAWA · PARLIMENTARY BUREAU · 48*96 MicroCOM RACK LAYOUT
+- **Title block:** (339, 25)–(426, 46) mm: ISSUE DATE · WBS · WARD-BECK SYSTEMS · CBC · OTTAWA
+
+Every curve, box, word and wire group: [1996 - DOC - 960163-04-001 - FRAMES ARE SHOWN WITH DOORS REMOVED CONNECTIONS (traced).json](1996%20-%20DOC%20-%20960163-04-001%20-%20FRAMES%20ARE%20SHOWN%20WITH%20DOORS%20REMOVED%20CONNECTIONS%20%28traced%29.json) (the CAD file: `1996 - DOC - 960163-04-001 - FRAMES ARE SHOWN WITH DOORS REMOVED CONNECTIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

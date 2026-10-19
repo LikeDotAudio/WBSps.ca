@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,789,068 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940356-03-005, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 72–423 mm across, 6–204 mm up
+- **Outlines:** line 269 rings, 2,240 straight (6,255 mm) / 358 curved (421 mm); text 276 rings, 1,591 straight (1,722 mm) / 501 curved (661 mm); tb 24 rings, 177 straight (199 mm) / 36 curved (40.3 mm)
+- **Centre lines:** 3,987 paths (86 closed); straight 4,835 mm, curved 13.0 mm; horizontal 2,204 mm, vertical 1,109 mm, diagonal 1,521 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 34 (3 in the title block); named: MODULE COUNT; PART NUMBER; 900-0}-004; MK SERIES TROUGH PANDUIT; 940356-03-005; CCDEI
+- **Dots (junctions):** 2
+- **Words (OCR):** 25 in 20 lines: DIMENSIONED C'SK HOLES TO EXISTING PART: · MODIFICA TION: · ADD · PART NUMBER · MODULE COUNT · MATERIAL: CRS: 0.074 THICK · 900-0}-004 · ThIS PARI · FINISH: · SAND 120 Grit AND PAINT · TEXTURED BROWN (4J8C) · TEXCOTE VINY.
+- **Title block:** (345, 22)–(429, 39) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940356 - DOC - 940356-03-005 - REMOVE ALL BURRS AND SHARP EDCES TOLERANCES (traced).json](1994%20-%20940356%20-%20DOC%20-%20940356-03-005%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDCES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - 940356 - DOC - 940356-03-005 - REMOVE ALL BURRS AND SHARP EDCES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

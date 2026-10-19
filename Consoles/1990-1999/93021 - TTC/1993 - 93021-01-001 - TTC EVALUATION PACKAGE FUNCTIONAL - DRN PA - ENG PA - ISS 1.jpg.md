@@ -22,6 +22,20 @@ Wiki page: [Job-93021](../../../PAGES/Job-93021.md)
 - **Size:** 1,056,032 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 93021-01-001, size D 864 × 560 mm, 2000 × 1298 px traced (0.432 mm/px); scale DISC
+- **Ink extent:** 148–845 mm across, 14–544 mm up
+- **Outlines:** line 418 rings, 4,993 straight (26,456 mm) / 571 curved (1,413 mm); text 741 rings, 5,221 straight (8,299 mm) / 1,408 curved (3,278 mm); tb 34 rings, 234 straight (2,457 mm) / 27 curved (69.6 mm)
+- **Centre lines:** 11,331 paths (251 closed); straight 21,180 mm, curved 177 mm; horizontal 7,785 mm, vertical 6,577 mm, diagonal 6,818 mm
+- **Circles and arcs:** 1 circles, 28 arcs; largest r 2.4 @ (757.7, 137.9)
+- **Closed boxes:** 39 (2 in the title block); named: M462 MODULE; 0364 HIAO FILTER MODULE; M82O58 MODULE; EXISTING TTC COMMUNICATONS SYSTEM SYSTEM; M8z058 MODULE; 482058 MODULE; M462 MODULE; M464 HIAO FILTER MODULE; M466 LIVITER, COMP MODULE; M467 NOISE GATE MODULE; M8ZO5B MODULE; MB2O5 MODULE
+- **Words (OCR):** 146 in 137 lines: PROCESSING MODULES · DISTRIBUS" · BUTON · MON · INPUT · HIAO · 0364 · LIMITER · M466 · M467 · NOISE · M462
+- **Title block:** (676, 10)–(860, 87) mm: ISSUEI · REVSION · WBS · WARD-BECK SYSTEMS · IDRN: · TTC · ENG; · CKD; · EVALUATION PACKAGE · APP · FUNCTIONAL · SCALE DISC · 93021_01 001 · ISSUE · CODE: 93021F01
+- **Wiring (first pass):** 171 connected wire groups from 722 runs; labelled ends: 514 mm → DISTRIBUS", BUTON, M462, MODULE; 369 mm → INPUT, M462, MODULE, M466; 352 mm → DISTRIBUTION, AHPLFERS, M462, MODULE; 298 mm → PROCESSING MODULES, M466, M467, M462; 154 mm → INPUT
+
+Every curve, box, word and wire group: [1993 - 93021-01-001 - TTC EVALUATION PACKAGE FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).json](1993%20-%2093021-01-001%20-%20TTC%20EVALUATION%20PACKAGE%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1993 - 93021-01-001 - TTC EVALUATION PACKAGE FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

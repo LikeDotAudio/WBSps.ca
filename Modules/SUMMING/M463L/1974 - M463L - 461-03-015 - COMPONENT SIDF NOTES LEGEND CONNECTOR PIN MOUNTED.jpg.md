@@ -11,6 +11,18 @@ Wiki page: [M463L](../../../PAGES/M463L.md)
 - **Size:** 1,242,909 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 751 rings, 5,879 straight (9,214 mm) / 1,349 curved (1,952 mm); text 994 rings, 6,410 straight (6,858 mm) / 2,251 curved (3,229 mm)
+- **Centre lines:** 10,420 paths (211 closed); straight 10,363 mm, curved 469 mm; horizontal 3,153 mm, vertical 2,237 mm, diagonal 4,973 mm
+- **Circles and arcs:** 30 circles, 55 arcs; largest r 7.7 @ (187.3, 228.6), r 4.8 @ (75.7, 235.5), r 3.1 @ (56.4, 223.6), r 2.9 @ (187.4, 228.4)
+- **Closed boxes:** 8; named: 24; Tip 3OB; 23; ki V23030-4202/-4104; 22; Tip 29B; 21
+- **Words (OCR):** 140 in 114 lines: MOUNTED ON · SOLDER SIDE · Rios · Swi3 Swi2 · Swi · M m · R8z · Ek · R8o 42 · 0 0 · 0 0000 · -R8iz?
+
+Every curve, box, word and wire group: [1974 - M463L - 461-03-015 - COMPONENT SIDF NOTES LEGEND CONNECTOR PIN MOUNTED (traced).json](1974%20-%20M463L%20-%20461-03-015%20-%20COMPONENT%20SIDF%20NOTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED%20%28traced%29.json) (the CAD file: `1974 - M463L - 461-03-015 - COMPONENT SIDF NOTES LEGEND CONNECTOR PIN MOUNTED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

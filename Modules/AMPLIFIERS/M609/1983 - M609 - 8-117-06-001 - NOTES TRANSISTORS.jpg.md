@@ -11,6 +11,18 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 962,459 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-117-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–338 mm across, 0–325 mm up
+- **Outlines:** line 85 rings, 1,780 straight (3,361 mm) / 476 curved (469 mm); text 433 rings, 3,787 straight (4,111 mm) / 1,155 curved (1,350 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 7.7 @ (81.7, 125.4), r 4.9 @ (64.7, 316.5), r 4.4 @ (66.0, 107.0)
+- **Closed boxes:** 2; named: U101 LM1458
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 47 lines: NOTES: · TRANSISTORS 0101 · oC · 0102 ARE · PN3646 _ · R1o1 · 1K 3W · 8 - 117 · DODES CR1O2 To CR · 1K3W OE · R102 · ARE INL148 _
+
+Every curve, box, word and wire group: [1983 - M609 - 8-117-06-001 - NOTES TRANSISTORS (traced).json](1983%20-%20M609%20-%208-117-06-001%20-%20NOTES%20TRANSISTORS%20%28traced%29.json) (the CAD file: `1983 - M609 - 8-117-06-001 - NOTES TRANSISTORS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,736,392 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 033-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 2,857 rings, 22,218 straight (37,224 mm) / 3,726 curved (4,567 mm); text 90 rings, 570 straight (594 mm) / 188 curved (265 mm)
+- **Centre lines:** 29,944 paths (268 closed); straight 24,258 mm, curved 143 mm; horizontal 10,953 mm, vertical 7,343 mm, diagonal 5,962 mm
+- **Circles and arcs:** 3 circles, 33 arcs; largest r 1.5 @ (359.9, 10.5), r 1.5 @ (378.2, 10.8), r 1.1 @ (370.3, 10.8)
+- **Closed boxes:** 29
+- **Dots (junctions):** 5
+- **Wiring (first pass):** 197 connected wire groups from 3,971 runs, 20 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 033-02-001 - CONTROLLER DAUGHTER BOARD ASEY SCHEMATIC (traced).json](1981%20-%20microCOM%20-%20033-02-001%20-%20CONTROLLER%20DAUGHTER%20BOARD%20ASEY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1981 - microCOM - 033-02-001 - CONTROLLER DAUGHTER BOARD ASEY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

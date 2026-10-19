@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,443,382 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 285
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 211 rings, 2,928 straight (9,907 mm) / 493 curved (1,107 mm); text 665 rings, 4,430 straight (5,253 mm) / 1,419 curved (2,075 mm); tb 4 rings, 82 straight (196 mm) / 5 curved (7.9 mm)
+- **Centre lines:** 6,311 paths (116 closed); straight 8,917 mm, curved 622 mm; horizontal 4,028 mm, vertical 1,858 mm, diagonal 3,032 mm
+- **Circles and arcs:** 9 circles, 10 arcs; largest r 12.5 @ (243.6, 139.2), r 10.3 @ (194.4, 139.3), r 10.3 @ (170.9, 139.2), r 10.3 @ (100.0, 139.3)
+- **Closed boxes:** 18 (9 in the title block); named: FINISH  REVSED WAS MATTE GREY; 8224-03-010; SCALE 1:1; ISSUE; CODE: 8224M10
+- **Words (OCR):** 82 in 59 lines: 0.656 · 0.328 · #4-40 UNC · 2 PLACES · DETAIL A · 0.531 · 0.516 · 1.062 · DETAIL · 1.031 · 0.780 DIA · #4-40 UNC 2 PLACES
+- **Title block:** (254, 21)–(424, 88) mm: PLACES · FINISH  REVSED WAS MATTE GREY · ISSUE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN: D.SCOTT · ENG. · ISP_6 · CKD: · FRONT PANEL · APP_ · SCALE DISC NO: 285 · ISSUE · 8224-03-010 · 1:1 CODE
+
+Every curve, box, word and wire group: [19xx - 8224-03-010 - ISP-6 FRONT PANEL - DRN D.SCOTT - ISS 2 (traced).json](19xx%20-%208224-03-010%20-%20ISP-6%20FRONT%20PANEL%20-%20DRN%20D.SCOTT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 8224-03-010 - ISP-6 FRONT PANEL - DRN D.SCOTT - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

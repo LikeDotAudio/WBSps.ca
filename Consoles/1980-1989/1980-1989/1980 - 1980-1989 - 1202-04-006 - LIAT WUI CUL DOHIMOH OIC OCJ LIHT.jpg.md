@@ -9,6 +9,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 178,544 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 1202-04-006, size B (assumed) 418 × 432 mm, 1700 × 1756 px traced (0.246 mm/px)
+- **Ink extent:** 8–418 mm across, 0–420 mm up
+- **Outlines:** line 212 rings, 4,179 straight (19,223 mm) / 455 curved (762 mm); text 126 rings, 1,056 straight (1,332 mm) / 341 curved (532 mm); tb 50 rings, 756 straight (2,000 mm) / 170 curved (261 mm)
+- **Closed boxes:** 41; named: 447; Ihput (11); Haster
+- **Dots (junctions):** 1
+- **Words (OCR):** 24 in 24 lines: 07 · WI · 447 · cue /osc · Monitor · 482 8 · InPut · HODULES (12 } · HOOULE · MODULES · Mor · Haster
+- **Title block:** (287, 0)–(418, 65) mm: Issu · ApP · WBS · WBS T1202A CONSOLE · CKD; · LAYOUT · 182 · 1202-04-006 · IssuE
+
+Every curve, box, word and wire group: [1980 - 1980-1989 - 1202-04-006 - LIAT WUI CUL DOHIMOH OIC OCJ LIHT (traced).json](1980%20-%201980-1989%20-%201202-04-006%20-%20LIAT%20WUI%20CUL%20DOHIMOH%20OIC%20OCJ%20LIHT%20%28traced%29.json) (the CAD file: `1980 - 1980-1989 - 1202-04-006 - LIAT WUI CUL DOHIMOH OIC OCJ LIHT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

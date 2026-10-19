@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,719,162 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 2442-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–427 mm up
+- **Outlines:** line 378 rings, 5,555 straight (13,405 mm) / 606 curved (867 mm); text 368 rings, 2,784 straight (3,318 mm) / 748 curved (1,065 mm)
+- **Centre lines:** 5,592 paths (78 closed); straight 8,579 mm, curved 114 mm; horizontal 3,974 mm, vertical 2,556 mm, diagonal 2,048 mm
+- **Circles and arcs:** 10 circles, 10 arcs; largest r 1.4 @ (102.9, 4.1), r 1.4 @ (102.9, 35.6), r 1.3 @ (103.0, 40.9), r 1.3 @ (254.5, 18.4)
+- **Closed boxes:** 109; named: M522 EQUALIZER; (_15dB); M522A EQUALIZER
+- **Words (OCR):** 57 in 46 lines: M520_MONQ_INPUI CHANNELS · 48v PHANTOM POWER · INSERTS · M522 · MC · AO · EQUALIZER · -60/--30 dBm · dBm · (_15dB) · 1500 · BO
+- **Wiring (first pass):** 84 connected wire groups from 481 runs; labelled ends: 228 mm → POWER, EQUALIZER, AO, BO; 163 mm → IA0, BO, TAo, 80; 134 mm → M538_8XL; 85 mm → M522A, EQUALIZER; 73 mm → M522A, EQUALIZER
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 2442-01-001 - STEREQ STEREO SWITCHER SWITCHER EXTERNAL LINE TALLY (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20STEREQ%20STEREO%20SWITCHER%20SWITCHER%20EXTERNAL%20LINE%20TALLY%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 2442-01-001 - STEREQ STEREO SWITCHER SWITCHER EXTERNAL LINE TALLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

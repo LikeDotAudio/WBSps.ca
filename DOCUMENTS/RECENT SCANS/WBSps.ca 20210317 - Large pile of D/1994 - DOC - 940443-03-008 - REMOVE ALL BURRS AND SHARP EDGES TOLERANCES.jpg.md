@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,108,149 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940443-03-008, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 29–424 mm across, 7–224 mm up
+- **Outlines:** line 216 rings, 1,929 straight (6,328 mm) / 316 curved (353 mm); text 254 rings, 1,371 straight (1,254 mm) / 474 curved (600 mm); tb 20 rings, 167 straight (188 mm) / 45 curved (51.2 mm)
+- **Centre lines:** 3,663 paths (92 closed); straight 4,580 mm, curved 15.6 mm; horizontal 2,301 mm, vertical 1,018 mm, diagonal 1,260 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 0.7 @ (108.6, 125.4)
+- **Closed boxes:** 13 (3 in the title block); named: IKR-10 COVER; 940443-03-008
+- **Words (OCR):** 37 in 31 lines: 17320 · 6.160 · OCo - · 0.213 · 0_8,30 · 1280 · 0-720 · 6.TC · 4.000 · 0.130 CIA c"Sk_82 REQ G · 0.25 DiA · -660
+- **Title block:** (345, 23)–(430, 39) mm: WBS · WARD-BECK SYSTEMS · (1/95)
+
+Every curve, box, word and wire group: [1994 - DOC - 940443-03-008 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20DOC%20-%20940443-03-008%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940443-03-008 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -23,6 +23,20 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 6,741,735 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 405-02-001, size B 140 × 432 mm, 647 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–135 mm across, 0–429 mm up
+- **Outlines:** line 914 rings, 5,605 straight (7,734 mm) / 867 curved (1,056 mm); text 75 rings, 360 straight (308 mm) / 68 curved (87.0 mm)
+- **Centre lines:** 3,140 paths (37 closed); straight 3,801 mm, curved 33.2 mm; horizontal 1,332 mm, vertical 1,525 mm, diagonal 944 mm
+- **Circles and arcs:** 2 circles, 11 arcs; largest r 2.0 @ (63.9, 425.8), r 1.8 @ (118.8, 425.3)
+- **Closed boxes:** 5; named: Iu
+- **Dots (junctions):** 1
+- **Words (OCR):** 1 in 1 lines: Iu
+- **Wiring (first pass):** 75 connected wire groups from 487 runs, 2 dotted junctions; labelled ends: 250 mm → Iu; 71 mm → Iu; 42 mm → Iu; 23 mm → Iu; 21 mm → Iu
+
+Every curve, box, word and wire group: [1968 - 405-02-001 - EXTENDED RANGE VU SCHEMATIC - DRN C.S. O'CONNELL - ISS 8 (traced).json](1968%20-%20405-02-001%20-%20EXTENDED%20RANGE%20VU%20SCHEMATIC%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%208%20%28traced%29.json) (the CAD file: `1968 - 405-02-001 - EXTENDED RANGE VU SCHEMATIC - DRN C.S. O'CONNELL - ISS 8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

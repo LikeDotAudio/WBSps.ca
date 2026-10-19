@@ -30,29 +30,3 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|---|
 | 2014 | [2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20002%20-%20AMS8-1AN%20Three%20Quarter.jpg) | [note](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20002%20-%20AMS8-1AN%20Three%20Quarter.jpg.md) |
 | 2014 | [2014 - AMS8-1AN - Information Sheet.jpg](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "AMS8-1AN",
- "category": "RAVENNA AES67",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```

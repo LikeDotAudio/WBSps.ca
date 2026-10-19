@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 15,711,302 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 780-03-005, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale 1:1
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 119 rings, 2,774 straight (7,365 mm) / 298 curved (437 mm); text 214 rings, 1,583 straight (1,902 mm) / 434 curved (674 mm); tb 28 rings, 239 straight (360 mm) / 55 curved (84.7 mm)
+- **Centre lines:** 3,334 paths (39 closed); straight 5,634 mm, curved 7.1 mm; horizontal 2,930 mm, vertical 1,225 mm, diagonal 1,479 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 12 (7 in the title block); named: ISSUE; SCALE 1:1 5.015 XX $.005; 780-03-005
+- **Words (OCR):** 28 in 22 lines: 2.500 · 1.156 · 700 · 2.843 · 2.00 · 440 DIA: 3 PLACES · 1.750 · JISSUE |DATE · REVISION · APP · WBS WARD-BECK systEMS · MATE:EISHPAPER 032THK
+- **Title block:** (279, 15)–(431, 83) mm: JISSUE |DATE · REVISION · APP · WBS WARD-BECK systEMS · M780 , MZ8OA · CKD: · POWER SUPPLY SHIELD · APP · SCALE 1:1 · ISSUE · XX $.005 · 5.015 · 780-03-005
+
+Every curve, box, word and wire group: [19xx - M780 - DOC - 780-03-005 - PMUBVE EINSH NONJE (traced).json](19xx%20-%20M780%20-%20DOC%20-%20780-03-005%20-%20PMUBVE%20EINSH%20NONJE%20%28traced%29.json) (the CAD file: `19xx - M780 - DOC - 780-03-005 - PMUBVE EINSH NONJE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

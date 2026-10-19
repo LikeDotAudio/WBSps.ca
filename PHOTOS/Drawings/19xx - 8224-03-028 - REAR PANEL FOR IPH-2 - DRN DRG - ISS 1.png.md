@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,149,368 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-028, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 443
+- **Ink extent:** 37–432 mm across, 18–298 mm up
+- **Outlines:** line 168 rings, 2,109 straight (7,395 mm) / 298 curved (650 mm); text 736 rings, 4,579 straight (5,374 mm) / 1,487 curved (2,137 mm); tb 3 rings, 70 straight (196 mm) / 6 curved (12.2 mm)
+- **Centre lines:** 5,107 paths (123 closed); straight 7,616 mm, curved 336 mm; horizontal 2,834 mm, vertical 1,920 mm, diagonal 2,862 mm
+- **Circles and arcs:** 4 circles, 11 arcs; largest r 12.2 @ (239.6, 172.1), r 12.2 @ (188.6, 172.1), r 9.9 @ (72.9, 207.7), r 9.9 @ (214.0, 171.7)
+- **Closed boxes:** 12 (9 in the title block); named: SCALE 1:1; 8224-03-028; CODE: 8224M28
+- **Words (OCR):** 85 in 63 lines: 0.630 · 0.315 · #2-56 UNC 2 PLACES · 3.750 · 0.257 · 0.355 · 3.236 · 0.710 · 0.110 DIA & C'SK 82 · DETAIL · To 0.175 DIA 4 PLACES · 0.750 DIA
+- **Title block:** (251, 20)–(421, 86) mm: ISSUE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN; · DRG · REAR PANEL · ENG_ · CKD: · FOR IPH- 2 · APP_ · SCALE DISC NO: 443 · ISSUE · 1:1 CODE: 8224M28 · 8224-03-028
+
+Every curve, box, word and wire group: [19xx - 8224-03-028 - REAR PANEL FOR IPH-2 - DRN DRG - ISS 1 (traced).json](19xx%20-%208224-03-028%20-%20REAR%20PANEL%20FOR%20IPH-2%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-028 - REAR PANEL FOR IPH-2 - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

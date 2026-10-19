@@ -11,6 +11,18 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 253,661 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-307-02-001, size B (assumed) 432 × 305 mm, 1753 × 1240 px traced (0.246 mm/px), turned 270°
+- **Ink extent:** 18–432 mm across, 23–304 mm up
+- **Outlines:** line 216 rings, 2,680 straight (6,680 mm) / 420 curved (656 mm); text 280 rings, 1,757 straight (2,348 mm) / 466 curved (694 mm)
+- **Centre lines:** 3,048 paths (61 closed); straight 5,110 mm, curved 168 mm; horizontal 1,754 mm, vertical 1,642 mm, diagonal 1,714 mm
+- **Circles and arcs:** 11 circles, 25 arcs; largest r 2.7 @ (97.6, 195.1), r 2.7 @ (97.4, 118.9), r 2.0 @ (97.6, 118.7), r 2.0 @ (97.7, 194.9)
+- **Closed boxes:** 7
+- **Wiring (first pass):** 18 connected wire groups from 167 runs
+
+Every curve, box, word and wire group: [1996 - M445 - B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC (traced).json](1996%20-%20M445%20-%20B%2014-307-02-001%20-%20SA14-307%20EXTENDED%20RANGE%20METER%20LIGHT%20BAR%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1996 - M445 - B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

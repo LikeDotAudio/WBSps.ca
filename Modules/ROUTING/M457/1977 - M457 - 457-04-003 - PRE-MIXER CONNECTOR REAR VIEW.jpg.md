@@ -15,6 +15,17 @@ Wiki page: [M457](../../../PAGES/M457.md)
 
 - **1977** (labelled): `DATE APR 77` — …sS MOD CKD USED ON MATL WBS WARD-BECK sysTEMs LTD_ DRN: EAl DATE APR 77 CKD Kell SCALE TOLS _ ZiG M457 4X2 PRE-MIXER CONNECTOR REAR…
 
+## Vectors (traced)
+
+- **Sheet:** layout 457-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–289 mm across, 35–432 mm up
+- **Outlines:** line 416 rings, 4,484 straight (9,894 mm) / 709 curved (977 mm); text 401 rings, 2,763 straight (3,289 mm) / 741 curved (1,036 mm); tb 13 rings, 220 straight (457 mm) / 33 curved (45.1 mm)
+- **Closed boxes:** 74 (25 in the title block); named: WBS BYSTEMS LTD_ WARD-BECK; IIss; M457 PRE-MIXER 4X2 VIEW CONNECTOR REAR; FINISH; IsS_; 457-04-003; TOLS
+- **Words (OCR):** 27 in 21 lines: JJ · WW · IIss MOD  CKD_ · USED ON · MATL. · WBS WARD-BECK · BYSTEMS LTD_ · DRN: Rul · DATE APR 77 · M457 · FINISH · 4X2
+- **Title block:** (15, 47)–(236, 102) mm: IIss MOD  CKD_ · USED ON · MATL. · WBS WARD-BECK · DRN: Rul · DATE APR 77 · M457 · FINISH · 4X2 · CKD · Reul · CONNECTOR REAR · SCALE · TOLS · 457-04-003
+
+Every curve, box, word and wire group: [1977 - M457 - 457-04-003 - PRE-MIXER CONNECTOR REAR VIEW (traced).json](1977%20-%20M457%20-%20457-04-003%20-%20PRE-MIXER%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1977 - M457 - 457-04-003 - PRE-MIXER CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

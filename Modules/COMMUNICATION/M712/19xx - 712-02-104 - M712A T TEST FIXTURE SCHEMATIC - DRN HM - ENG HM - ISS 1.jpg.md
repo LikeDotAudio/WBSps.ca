@@ -24,6 +24,20 @@ Wiki page: [M712](../../../PAGES/M712.md)
 - **Size:** 1,816,033 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 712-02-104, size B (assumed) 432 × 140 mm, 2000 × 646 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 2–136 mm up
+- **Outlines:** line 367 rings, 4,242 straight (10,189 mm) / 795 curved (1,016 mm); text 363 rings, 2,269 straight (1,945 mm) / 760 curved (931 mm); tb 10 rings, 83 straight (135 mm) / 11 curved (14.0 mm)
+- **Centre lines:** 7,167 paths (164 closed); straight 7,489 mm, curved 90.7 mm; horizontal 3,540 mm, vertical 1,661 mm, diagonal 2,288 mm
+- **Circles and arcs:** 5 circles, 25 arcs; largest r 2.0 @ (279.6, 108.9), r 1.1 @ (335.9, 110.4), r 0.8 @ (342.1, 113.7), r 0.8 @ (342.1, 107.6)
+- **Closed boxes:** 16 (6 in the title block); named: MUZB; 712-02-104; SCALE; ISSUF
+- **Words (OCR):** 76 in 65 lines: M632 POWER SuPPLY CONNECTORS · SENJSE · PoWER ON · +8 dBm · InPUT · TaLLY · 012 · 01g · 600n · DIALIGHT · 4861-3332 · 25v
+- **Title block:** (352, 5)–(432, 37) mm: ISSUE |DATE · REVISION · WBS WARD-BECK · SYSTEMS · DRR AM · ENG AM · TEST Fixture · M7IzA/T · CKd: · SCHEMATIC · SCALE · 712-02-104 · ISSUF
+- **Wiring (first pass):** 70 connected wire groups from 397 runs; labelled ends: 299 mm → SENJSE, Pz, AwleRDtZEV, JAWa BLK; 232 mm → 72615, E8s; 49 mm → TaLLY, AwleRDtZEV, JAWa BLK; 42 mm → TaLLY, AwleRDtZEV, JAWa BLK, chaEDS; 32 mm → M632 POWER SuPPLY
+
+Every curve, box, word and wire group: [19xx - 712-02-104 - M712A T TEST FIXTURE SCHEMATIC - DRN HM - ENG HM - ISS 1 (traced).json](19xx%20-%20712-02-104%20-%20M712A%20T%20TEST%20FIXTURE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 712-02-104 - M712A T TEST FIXTURE SCHEMATIC - DRN HM - ENG HM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

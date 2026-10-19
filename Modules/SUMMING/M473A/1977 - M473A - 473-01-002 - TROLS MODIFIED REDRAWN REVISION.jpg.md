@@ -11,6 +11,20 @@ Wiki page: [M473A](../../../PAGES/M473A.md)
 - **Size:** 194,749 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 473-01-002, size B (assumed) 432 × 290 mm, 2000 × 1345 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–288 mm up
+- **Outlines:** line 280 rings, 3,437 straight (9,980 mm) / 360 curved (476 mm); text 508 rings, 3,340 straight (3,972 mm) / 993 curved (1,441 mm); tb 21 rings, 156 straight (304 mm) / 33 curved (40.2 mm)
+- **Centre lines:** 4,061 paths (77 closed); straight 7,517 mm, curved 41.4 mm; horizontal 3,235 mm, vertical 1,774 mm, diagonal 2,509 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 3.3 @ (111.1, 204.3)
+- **Closed boxes:** 26 (13 in the title block); named: 109A (G) JYA(G) WAS; UNTROLS MODIFIED; SCALE; 473-01-002; ISSUE
+- **Words (OCR):** 77 in 67 lines: MoniTOR · outPuts · DIRECT OUTPUT · 8dBm 600 _ · SUB · MASTER · M1 · TRIm · SummiNG · ON · FADER · BUS
+- **Title block:** (276, 4)–(432, 81) mm: UNTROLS MODIFIED · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. GEB · M473A · ENG RKB · SUB-MASTER MODULE · CKD. Ru · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 473-01-002
+- **Wiring (first pass):** 128 connected wire groups from 292 runs; labelled ends: 352 mm → DIRECT, 8dBm, TRIm, 1096; 216 mm → CONTROL; 118 mm → 8dBm, 600 _, SOLo; 90 mm → SOLO; 55 mm → TRIm
+
+Every curve, box, word and wire group: [1977 - M473A - 473-01-002 - TROLS MODIFIED REDRAWN REVISION (traced).json](1977%20-%20M473A%20-%20473-01-002%20-%20TROLS%20MODIFIED%20REDRAWN%20REVISION%20%28traced%29.json) (the CAD file: `1977 - M473A - 473-01-002 - TROLS MODIFIED REDRAWN REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

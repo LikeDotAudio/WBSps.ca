@@ -11,6 +11,20 @@ Wiki page: [M472A](../../../PAGES/M472A.md)
 - **Size:** 312,854 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 472-02-002, size B (assumed) 334 × 432 mm, 1264 × 1634 px traced (0.264 mm/px)
+- **Ink extent:** 0–324 mm across, 14–418 mm up
+- **Outlines:** line 899 rings, 6,268 straight (9,697 mm) / 1,293 curved (1,818 mm); text 117 rings, 824 straight (1,159 mm) / 214 curved (376 mm); tb 2 rings, 50 straight (150 mm) / 2 curved (6.1 mm)
+- **Centre lines:** 4,867 paths (153 closed); straight 6,119 mm, curved 17.4 mm; horizontal 2,311 mm, vertical 1,454 mm, diagonal 2,354 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 1
+- **Words (OCR):** 14 in 14 lines: Left qutbut · sgL · Aicht · ELOr · 0.022 · uIO - · WBS · WAAD-BECK BYBTEMS · M472A · EQUALIZER · MODULE · SCHEMATIC
+- **Title block:** (204, 46)–(330, 72) mm: WBS · WAAD-BECK BYBTEMS
+- **Wiring (first pass):** 114 connected wire groups from 457 runs; labelled ends: 71 mm → sgL; 28 mm → 0.022; 27 mm → 0.022; 20 mm → Left qutbut; 6 mm → ELOr
+
+Every curve, box, word and wire group: [1986 - M472A - 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT (traced).json](1986%20-%20M472A%20-%20472-02-002%20-%20ICD%20DIT%20COWPORRNT%20DRSICAATIONP%20COLGAT%20%28traced%29.json) (the CAD file: `1986 - M472A - 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

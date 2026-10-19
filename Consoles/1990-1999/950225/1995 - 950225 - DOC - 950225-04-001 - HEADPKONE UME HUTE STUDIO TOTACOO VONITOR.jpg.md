@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,365,423 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950225-04-001, size B (assumed) 432 × 339 mm, 2000 × 1570 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 36–413 mm across, 1–313 mm up
+- **Outlines:** line 1,317 rings, 9,225 straight (32,736 mm) / 1,360 curved (1,806 mm); text 459 rings, 2,891 straight (2,982 mm) / 1,037 curved (1,357 mm); tb 18 rings, 322 straight (1,822 mm) / 20 curved (30.1 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 6.5 @ (366.3, 122.3), r 6.5 @ (366.2, 96.9), r 1.9 @ (368.3, 99.3), r 1.8 @ (377.2, 117.7)
+- **Closed boxes:** 190; named: M9OIA CH ON; M9O1A; M9O1A 70; MIOIA; M9OIA; M9O1A; M9O1A 70; M9OIA; M9O1A 70 CH ON; M9O1A 70 CHON; M907; M9O5A LODE EQ KS HEADPKONE HUTE VOnitor
+- **Dots (junctions):** 23
+- **Words (OCR):** 84 in 55 lines: METER · CH · CH 2 · CH 3 · CH 4 · CH · CH · CH · CH · CH · CH 10 CH 11 CH 12 · CH 13 CH 14 CH 15 CH 16
+- **Title block:** (281, 1)–(414, 57) mm: ISSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: WKW · WKW · YBC HOLDINGS · ENG_ · CKD_ · MKII   CONSOLE LA YOUT · APP_ · SCALE DISC NO: SYSO1 · 950225_04-001 · ISSUE · CODE: 95225L01
+
+Every curve, box, word and wire group: [1995 - 950225 - DOC - 950225-04-001 - HEADPKONE UME HUTE STUDIO TOTACOO VONITOR (traced).json](1995%20-%20950225%20-%20DOC%20-%20950225-04-001%20-%20HEADPKONE%20UME%20HUTE%20STUDIO%20TOTACOO%20VONITOR%20%28traced%29.json) (the CAD file: `1995 - 950225 - DOC - 950225-04-001 - HEADPKONE UME HUTE STUDIO TOTACOO VONITOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

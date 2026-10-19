@@ -22,6 +22,20 @@ M475A stereo monitor module schematic, cropped.
 - **Size:** 390,836 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 475-02-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 4–432 mm up
+- **Outlines:** line 361 rings, 6,209 straight (11,138 mm) / 1,068 curved (1,452 mm); text 587 rings, 4,547 straight (4,297 mm) / 1,564 curved (1,974 mm); tb 2 rings, 94 straight (149 mm) / 6 curved (10.6 mm)
+- **Centre lines:** 11,101 paths (122 closed); straight 10,024 mm, curved 258 mm; horizontal 3,278 mm, vertical 3,020 mm, diagonal 3,725 mm
+- **Circles and arcs:** 8 circles, 16 arcs; largest r 4.9 @ (89.5, 78.0), r 4.8 @ (78.0, 183.3), r 4.8 @ (119.4, 216.0), r 4.8 @ (81.3, 136.9)
+- **Closed boxes:** 7; named: SA14-140 DUAL BOOSTER AMPLIFIER
+- **Words (OCR):** 155 in 138 lines: ARE 1/4w 52 · ICITORS ARE IN UF · RwSE  SPECIFIED · ENT DESIGNA TIONS: · R21 · K2, · R65, · Sk · MUTE · R1R · LEFT · R25
+- **Title block:** (211, 39)–(338, 63) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 63 connected wire groups from 497 runs; labelled ends: 994 mm → R1R, R25, R26, R29; 351 mm → C3O, 22/25, C32, 0.1/100 |0.1/100; 305 mm → R41, Jok, 2k2 < IN4OO], R44; 240 mm → R41, Jok, MUTE, IN7SJA; 216 mm → TN2102, +18V, C3O, 22/25
+
+Every curve, box, word and wire group: [19xx - 475-02-002 - STEREO MONITOR MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20475-02-002%20-%20STEREO%20MONITOR%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 475-02-002 - STEREO MONITOR MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

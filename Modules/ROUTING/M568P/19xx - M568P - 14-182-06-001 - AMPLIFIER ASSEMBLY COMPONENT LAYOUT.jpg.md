@@ -11,6 +11,19 @@ Wiki page: [M568P](../../../PAGES/M568P.md)
 - **Size:** 2,942,031 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-182-06-001, size B (assumed) 338 × 432 mm, 1564 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–338 mm across, 0–432 mm up
+- **Outlines:** line 622 rings, 7,895 straight (11,561 mm) / 2,386 curved (2,549 mm); text 490 rings, 4,233 straight (4,231 mm) / 1,466 curved (1,726 mm); tb 58 rings, 414 straight (552 mm) / 117 curved (130 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.4 @ (79.9, 168.7), r 2.4 @ (207.2, 241.2), r 2.4 @ (133.6, 405.0)
+- **Closed boxes:** 19 (4 in the title block)
+- **Dots (junctions):** 2
+- **Words (OCR):** 86 in 83 lines: 182P1 · 22P · 22p · 10/25 · Rz · LHBSSN · 10/25 · RS · C3O · 10/25 · RS · 22/25
+- **Title block:** (108, 44)–(308, 195) mm: WBS · CANADA · 14-182 · ISSUE · WES · WARD-BECK
+
+Every curve, box, word and wire group: [19xx - M568P - 14-182-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](19xx%20-%20M568P%20-%2014-182-06-001%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M568P - 14-182-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

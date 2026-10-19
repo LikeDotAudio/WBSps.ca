@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,218,903 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-018-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 1–286 mm up
+- **Outlines:** line 666 rings, 6,549 straight (11,347 mm) / 1,573 curved (2,077 mm); text 162 rings, 917 straight (849 mm) / 309 curved (392 mm)
+- **Centre lines:** 6,891 paths (126 closed); straight 7,396 mm, curved 204 mm; horizontal 2,522 mm, vertical 2,570 mm, diagonal 2,304 mm
+- **Circles and arcs:** 3 circles, 71 arcs; largest r 3.9 @ (66.6, 201.6), r 0.8 @ (336.4, 216.0), r 0.8 @ (105.0, 193.8)
+- **Closed boxes:** 25
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 77 connected wire groups from 710 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 14-018-02-001 - LEVER KEY ASSEMBLY SCHEMATIC (traced).json](1981%20-%20microCOM%20-%2014-018-02-001%20-%20LEVER%20KEY%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1981 - microCOM - 14-018-02-001 - LEVER KEY ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

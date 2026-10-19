@@ -11,6 +11,17 @@ Wiki page: [M453A](../../../PAGES/M453A.md)
 - **Size:** 210,432 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 453-04-006, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 72 rings, 1,085 straight (4,031 mm) / 113 curved (183 mm); text 198 rings, 1,211 straight (1,222 mm) / 379 curved (521 mm); tb 105 rings, 1,009 straight (2,580 mm) / 164 curved (257 mm)
+- **Closed boxes:** 15 (14 in the title block); named: Muting switch Sw1 Nhen depressec_ speake
+- **Words (OCR):** 29 in 23 lines: WBS · M45JA · Muting switch Sw1 Nhen depressec_ · LEVEL conErol · rates the associatec · ces · the · speaker · cpe- · MUTE · CUE · ISSUE DATE
+- **Title block:** (125, 29)–(303, 324) mm: WBS · M45JA · LEVEL conErol · MUTE · CUE · ISSUE DATE · APP · WBS WARD-BECK SYSTEMS · DRN? · M453A · CUE · AMPLIFIER · CKD: · FRONT PANEL · SCALE · ISSUE · 453-04-006
+
+Every curve, box, word and wire group: [1978 - M453A - 453-04-006 - MUTING SMITCH SWI NHEN DEPRESSED MUEES THE EAKER (traced).json](1978%20-%20M453A%20-%20453-04-006%20-%20MUTING%20SMITCH%20SWI%20NHEN%20DEPRESSED%20MUEES%20THE%20EAKER%20%28traced%29.json) (the CAD file: `1978 - M453A - 453-04-006 - MUTING SMITCH SWI NHEN DEPRESSED MUEES THE EAKER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

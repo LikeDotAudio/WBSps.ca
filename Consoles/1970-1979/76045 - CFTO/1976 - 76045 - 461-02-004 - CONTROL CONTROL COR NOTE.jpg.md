@@ -11,6 +11,19 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 34,373,301 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 461-02-004, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 0–279 mm up
+- **Outlines:** line 837 rings, 4,302 straight (8,456 mm) / 409 curved (493 mm); text 701 rings, 2,973 straight (2,181 mm) / 465 curved (521 mm); tb 30 rings, 222 straight (249 mm) / 35 curved (41.4 mm)
+- **Centre lines:** 2,834 paths (31 closed); straight 4,778 mm, curved 0.0 mm; horizontal 2,283 mm, vertical 1,611 mm, diagonal 884 mm
+- **Closed boxes:** 30 (29 in the title block)
+- **Words (OCR):** 199 in 171 lines: 22V+ 2ev- · 22 /+ 22v= · 22 ( + · 22v/ = · R2o · R24 · 201 · IE4 · (E9 · 263 227 · Sw2 · 3e2
+- **Title block:** (295, 3)–(426, 34) mm: ISSMOD: CKD · USED · MATL, · WBS WAAD-BeCK systeMs LTD · DRH · ELE · M461 · nish · DATE · CKD · 8 S621 · INPUT · MODULE · SCALE · SCHEMATIC · TOLS AnG · 461 02-004 · ISS
+- **Wiring (first pass):** 68 connected wire groups from 393 runs; labelled ends: 41 mm → ISSMOD:; 31 mm → AUxz, 6 4 5; 22 mm → ISSMOD:; 18 mm → 3e4, ~C)s" ER; 18 mm → PFE
+
+Every curve, box, word and wire group: [1976 - 76045 - 461-02-004 - CONTROL CONTROL COR NOTE (traced).json](1976%20-%2076045%20-%20461-02-004%20-%20CONTROL%20CONTROL%20COR%20NOTE%20%28traced%29.json) (the CAD file: `1976 - 76045 - 461-02-004 - CONTROL CONTROL COR NOTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

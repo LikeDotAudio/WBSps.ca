@@ -11,6 +11,18 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,201,158 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 771-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–426 mm across, 0–287 mm up
+- **Outlines:** line 273 rings, 2,493 straight (5,271 mm) / 527 curved (747 mm); text 107 rings, 777 straight (765 mm) / 252 curved (342 mm)
+- **Centre lines:** 1,721 paths (29 closed); straight 2,493 mm, curved 140 mm; horizontal 1,067 mm, vertical 636 mm, diagonal 790 mm
+- **Circles and arcs:** 4 circles, 26 arcs; largest r 3.8 @ (229.4, 101.1), r 1.2 @ (372.4, 10.5), r 1.0 @ (244.4, 167.2), r 1.0 @ (317.4, 163.0)
+- **Closed boxes:** 10
+- **Wiring (first pass):** 66 connected wire groups from 160 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 771-01-001 - MATRIX LATCH MODULE FUNCTIONAL (traced).json](1981%20-%20microCOM%20-%20771-01-001%20-%20MATRIX%20LATCH%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1981 - microCOM - 771-01-001 - MATRIX LATCH MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

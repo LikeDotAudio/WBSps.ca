@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,478,193 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960325-03-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 9–265 mm up
+- **Outlines:** line 797 rings, 6,457 straight (13,126 mm) / 1,163 curved (1,415 mm); text 302 rings, 1,638 straight (1,507 mm) / 533 curved (664 mm); tb 20 rings, 191 straight (201 mm) / 37 curved (38.8 mm)
+- **Centre lines:** 7,158 paths (226 closed); straight 8,609 mm, curved 77.5 mm; horizontal 3,792 mm, vertical 2,267 mm, diagonal 2,549 mm
+- **Circles and arcs:** 3 circles, 19 arcs; largest r 1.3 @ (363.8, 191.7), r 0.9 @ (374.3, 196.1), r 0.8 @ (138.8, 230.2)
+- **Closed boxes:** 11 (2 in the title block); named: Se
+- **Dots (junctions):** 4
+- **Words (OCR):** 42 in 35 lines: 9,0d0 · Piches · 0.540 · 4105 · RLC D · 3.700 · 200 · 1-cJo · DCTA · INSTALL · SIDE; · PLACES
+- **Title block:** (342, 25)–(427, 42) mm: WBS) WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1996 - DOC - 960325-03-002 - IDENT COVER DETAIL DETAIL DETAIL SSUE REMSION DETAIL (traced).json](1996%20-%20DOC%20-%20960325-03-002%20-%20IDENT%20COVER%20DETAIL%20DETAIL%20DETAIL%20SSUE%20REMSION%20DETAIL%20%28traced%29.json) (the CAD file: `1996 - DOC - 960325-03-002 - IDENT COVER DETAIL DETAIL DETAIL SSUE REMSION DETAIL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

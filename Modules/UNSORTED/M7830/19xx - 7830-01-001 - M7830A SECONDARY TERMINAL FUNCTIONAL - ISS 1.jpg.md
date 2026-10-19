@@ -22,6 +22,19 @@ M7820 secondary terminal functional Title block at bottom left reading sideways.
 - **Size:** 4,756,613 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 7830-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 635 rings, 6,696 straight (10,501 mm) / 1,335 curved (1,638 mm); text 156 rings, 1,311 straight (1,221 mm) / 356 curved (442 mm)
+- **Centre lines:** 7,980 paths (91 closed); straight 7,142 mm, curved 63.3 mm; horizontal 2,660 mm, vertical 2,157 mm, diagonal 2,324 mm
+- **Circles and arcs:** 1 circles, 15 arcs; largest r 2.7 @ (120.8, 226.2)
+- **Closed boxes:** 5
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 178 connected wire groups from 663 runs
+
+Every curve, box, word and wire group: [19xx - 7830-01-001 - M7830A SECONDARY TERMINAL FUNCTIONAL - ISS 1 (traced).json](19xx%20-%207830-01-001%20-%20M7830A%20SECONDARY%20TERMINAL%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 7830-01-001 - M7830A SECONDARY TERMINAL FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

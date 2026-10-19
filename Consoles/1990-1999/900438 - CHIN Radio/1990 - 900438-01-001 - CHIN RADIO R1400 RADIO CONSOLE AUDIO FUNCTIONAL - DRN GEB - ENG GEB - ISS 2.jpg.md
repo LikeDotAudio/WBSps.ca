@@ -24,6 +24,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,351,685 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 900438-01-001, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 26–864 mm up
+- **Outlines:** line 433 rings, 5,388 straight (24,055 mm) / 899 curved (2,641 mm); text 583 rings, 4,329 straight (10,641 mm) / 1,268 curved (3,815 mm)
+- **Centre lines:** 7,098 paths (151 closed); straight 17,866 mm, curved 1,174 mm; horizontal 6,504 mm, vertical 5,074 mm, diagonal 6,289 mm
+- **Circles and arcs:** 54 circles, 54 arcs; largest r 3.5 @ (406.4, 129.1), r 2.8 @ (347.3, 635.0), r 2.8 @ (430.1, 838.4), r 2.8 @ (398.8, 838.3)
+- **Closed boxes:** 46
+- **Wiring (first pass):** 114 connected wire groups from 680 runs
+
+Every curve, box, word and wire group: [1990 - 900438-01-001 - CHIN RADIO R1400 RADIO CONSOLE AUDIO FUNCTIONAL - DRN GEB - ENG GEB - ISS 2 (traced).json](1990%20-%20900438-01-001%20-%20CHIN%20RADIO%20R1400%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1990 - 900438-01-001 - CHIN RADIO R1400 RADIO CONSOLE AUDIO FUNCTIONAL - DRN GEB - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

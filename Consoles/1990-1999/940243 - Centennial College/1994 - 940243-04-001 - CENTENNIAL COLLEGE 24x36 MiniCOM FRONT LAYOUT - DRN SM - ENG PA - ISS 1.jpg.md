@@ -22,6 +22,18 @@ Wiki page: [Job-940243](../../../PAGES/Job-940243.md)
 - **Size:** 463,746 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940243-04-001, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px)
+- **Ink extent:** 165–845 mm across, 13–376 mm up
+- **Outlines:** line 727 rings, 5,690 straight (42,395 mm) / 694 curved (1,802 mm); text 110 rings, 684 straight (1,466 mm) / 202 curved (547 mm); tb 15 rings, 138 straight (352 mm) / 24 curved (52.7 mm)
+- **Closed boxes:** 96 (4 in the title block); named: Cruto; Cruto; CENTENNIAL COLLEGE 24*36 MinicoM FRONT L; 940243-04-001; DSC ND469
+- **Dots (junctions):** 1
+- **Words (OCR):** 10 in 10 lines: VAT ( · oci · Cruto · WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLEGE · 24*36 MinicoM · FRONT LAYOUT · DSC ND469 · 940243-04-001
+- **Title block:** (687, 45)–(856, 78) mm: WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLEGE
+
+Every curve, box, word and wire group: [1994 - 940243-04-001 - CENTENNIAL COLLEGE 24x36 MiniCOM FRONT LAYOUT - DRN SM - ENG PA - ISS 1 (traced).json](1994%20-%20940243-04-001%20-%20CENTENNIAL%20COLLEGE%2024x36%20MiniCOM%20FRONT%20LAYOUT%20-%20DRN%20SM%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940243-04-001 - CENTENNIAL COLLEGE 24x36 MiniCOM FRONT LAYOUT - DRN SM - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 13 words corrected)

@@ -23,6 +23,18 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,903,310 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 880651-02-010, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 1–432 mm across, 18–304 mm up
+- **Outlines:** line 717 rings, 8,007 straight (17,902 mm) / 1,505 curved (2,216 mm); text 539 rings, 3,253 straight (3,602 mm) / 1,029 curved (1,432 mm)
+- **Centre lines:** 6,638 paths (157 closed); straight 11,911 mm, curved 665 mm; horizontal 5,260 mm, vertical 3,266 mm, diagonal 3,385 mm
+- **Circles and arcs:** 32 circles, 107 arcs; largest r 3.1 @ (389.1, 150.3), r 2.6 @ (389.2, 150.2), r 2.6 @ (359.0, 150.0), r 2.4 @ (361.3, 82.0)
+- **Closed boxes:** 53
+- **Wiring (first pass):** 91 connected wire groups from 779 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-010 - + -25V POWER SUPPLIES SCHEMATIC - DRN HM - ENG HM - ISS 2 (traced).json](1988%20-%20880651-02-010%20-%20%2B%20-25V%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-010 - + -25V POWER SUPPLIES SCHEMATIC - DRN HM - ENG HM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

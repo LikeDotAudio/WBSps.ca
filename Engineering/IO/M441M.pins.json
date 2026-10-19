@@ -1,0 +1,345 @@
+{
+ "code": "M441M",
+ "name": "Channel Amplifier",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": true,
+   "size": {
+    "count": 22,
+    "file": "Modules/INPUT-PRE-AMPS/M441M/1973 - M441M - wbsps - promo - m441m pre-amp - 004.jpg",
+    "page": 1,
+    "quote": "CONNECTOR (22 Pin"
+   }
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "MIC IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "MIC IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "PREAMP OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "PREAMP OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "BOOSTER AMP IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "BOOSTER AMP IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "FOLDBACK OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "FOLDBACK OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "SWITCHED CH ON OUT",
+   "kind": "control",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "SWITCHED CH ON OUT",
+   "kind": "control",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "+48 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M441M/M441M.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

@@ -22,6 +22,19 @@ M770 quad buffer amplifier module schematic Title block at bottom left reading s
 - **Size:** 5,125,350 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 770-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–428 mm across, 0–287 mm up
+- **Outlines:** line 1,741 rings, 18,827 straight (24,288 mm) / 4,410 curved (5,136 mm); text 193 rings, 1,265 straight (1,202 mm) / 352 curved (452 mm)
+- **Centre lines:** 19,537 paths (336 closed); straight 15,828 mm, curved 214 mm; horizontal 5,283 mm, vertical 3,983 mm, diagonal 6,561 mm
+- **Circles and arcs:** 4 circles, 68 arcs; largest r 2.9 @ (323.9, 170.9), r 1.2 @ (364.1, 9.0), r 1.1 @ (358.9, 8.9), r 1.1 @ (372.7, 9.1)
+- **Closed boxes:** 31
+- **Dots (junctions):** 4
+- **Wiring (first pass):** 211 connected wire groups from 1,745 runs, 4 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 770-02-001 - QUAD BUFFER AMPLIFIER MODULE SCHEMATIC - ISS 3 (traced).json](19xx%20-%20770-02-001%20-%20QUAD%20BUFFER%20AMPLIFIER%20MODULE%20SCHEMATIC%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 770-02-001 - QUAD BUFFER AMPLIFIER MODULE SCHEMATIC - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

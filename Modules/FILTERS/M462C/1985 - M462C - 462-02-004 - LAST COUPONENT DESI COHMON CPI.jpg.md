@@ -11,6 +11,20 @@ Wiki page: [M462C](../../../PAGES/M462C.md)
 - **Size:** 2,496,779 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 462-02-004, size B (assumed) 342 × 432 mm, 1586 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–343 mm across, 2–431 mm up
+- **Outlines:** line 1,374 rings, 17,530 straight (23,110 mm) / 3,668 curved (4,575 mm); text 57 rings, 488 straight (423 mm) / 155 curved (177 mm)
+- **Centre lines:** 18,532 paths (196 closed); straight 14,974 mm, curved 362 mm; horizontal 5,522 mm, vertical 3,805 mm, diagonal 5,648 mm
+- **Circles and arcs:** 5 circles, 82 arcs; largest r 4.1 @ (178.3, 45.3), r 4.0 @ (171.8, 97.6), r 4.0 @ (135.5, 103.5), r 4.0 @ (179.7, 105.9)
+- **Closed boxes:** 9
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 22 lines: Neut · bno · 1204 · Tuno · 47002 · eno · 4no · Sa · Ano · 4ho · Jno · sho
+- **Wiring (first pass):** 156 connected wire groups from 1,565 runs; labelled ends: 309 mm → 10/75; 208 mm → 10/75; 126 mm → bno, Tuno; 123 mm → eno; 118 mm → Jno
+
+Every curve, box, word and wire group: [1985 - M462C - 462-02-004 - LAST COUPONENT DESI COHMON CPI (traced).json](1985%20-%20M462C%20-%20462-02-004%20-%20LAST%20COUPONENT%20DESI%20COHMON%20CPI%20%28traced%29.json) (the CAD file: `1985 - M462C - 462-02-004 - LAST COUPONENT DESI COHMON CPI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

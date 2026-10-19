@@ -21,6 +21,19 @@ Wiki page: [Job-920170](../../../PAGES/Job-920170.md)
 - **Size:** 372,789 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920170-01-002, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px); scale DiSc NO:
+- **Ink extent:** 79–846 mm across, 14–480 mm up
+- **Outlines:** line 241 rings, 1,942 straight (9,022 mm) / 328 curved (831 mm); text 482 rings, 3,804 straight (6,720 mm) / 1,059 curved (2,506 mm); tb 27 rings, 231 straight (2,389 mm) / 19 curved (58.0 mm)
+- **Centre lines:** 9,053 paths (165 closed); straight 10,947 mm, curved 0.0 mm; horizontal 3,674 mm, vertical 2,640 mm, diagonal 4,633 mm
+- **Closed boxes:** 10 (1 in the title block); named: N495_MONIIOR_MODULE; STUDER SwATCH 43_MASTER DIGITAL TIMER; MIMER KEYPAD; M495_MQNTQR_MQDULE; M495_MONITOR_MQDULE; H495_MONIOR_MODULE; M4SJA CUE_AMPLIFIER; PSl M6258
+- **Words (OCR):** 99 in 88 lines: MIC IPUL_CHANNELS 133 · MONITORING · IMER · EXTERNAL · STARI/ON · CONTROL · VUTE · CONTROLS · CH OFF · STCP /OFF · ASSICN · N495_MONIIOR_MODULE
+- **Title block:** (677, 11)–(861, 87) mm: SsuF · REVISION · WBS WARD-BECK SYSTEMS · DRN: DRC · ENG: · CHYM/CKGL · CKD_ · RADIO CONSOLE · DC    FUNCTIONAL · APP_ · SCALE DiSc NO: · CCDE: 92170F02 · 920170-01-002 · ISSUE
+- **Wiring (first pass):** 79 connected wire groups from 251 runs; labelled ends: 171 mm → LINE_INPUL_CHANNELS 4_14, SIEREQ; 153 mm → MIC, IPUL_CHANNELS; 91 mm → LINE_INPUL_CHANNELS 4_14; 54 mm → UP /DOWN, START, Gtoe, RESET; 48 mm → START, Gtoe, RESET
+
+Every curve, box, word and wire group: [1992 - 920170-01-002 - CHYM CKGL RADIO CONSOLE DC FUNCTIONAL - DRN DRG - ISS 1 (traced).json](1992%20-%20920170-01-002%20-%20CHYM%20CKGL%20RADIO%20CONSOLE%20DC%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1992 - 920170-01-002 - CHYM CKGL RADIO CONSOLE DC FUNCTIONAL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

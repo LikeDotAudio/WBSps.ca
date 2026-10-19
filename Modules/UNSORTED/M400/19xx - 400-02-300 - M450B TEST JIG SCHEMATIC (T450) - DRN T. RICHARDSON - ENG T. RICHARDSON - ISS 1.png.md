@@ -24,6 +24,21 @@ Wiki page: [M400](../../../PAGES/M400.md)
 - **Size:** 1,396,026 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 400-02-300, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 206 rings, 4,114 straight (11,258 mm) / 582 curved (864 mm); text 301 rings, 2,442 straight (2,992 mm) / 708 curved (1,073 mm); tb 10 rings, 144 straight (256 mm) / 22 curved (31.7 mm)
+- **Centre lines:** 4,799 paths (74 closed); straight 8,221 mm, curved 354 mm; horizontal 4,198 mm, vertical 1,763 mm, diagonal 2,261 mm
+- **Circles and arcs:** 34 circles, 24 arcs; largest r 2.2 @ (53.0, 47.1), r 2.1 @ (344.6, 202.4), r 2.1 @ (344.6, 186.8), r 2.1 @ (52.5, 94.2)
+- **Closed boxes:** 18 (10 in the title block); named: M4SOB (UNDER TEST); 400-02-300
+- **Dots (junctions):** 1
+- **Words (OCR):** 53 in 51 lines: Sw2 · AMP  MODE · CcM MODE · SUM · ~Ooff · LINe · 15k · M4SOB · INPUT · 620 · ON · ISK
+- **Title block:** (279, 14)–(432, 83) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRNTRICHARDSON · MAsoB TEST JIG · ENG TRICHARDSON · CKD: OLA · SCHEMATIC · (T450) · APP · SCALE · 400-02-300 · ISSUE
+- **Wiring (first pass):** 30 connected wire groups from 211 runs; labelled ends: 1251 mm → 620, OUTPUT, ISK, R8; 238 mm → Sw4, BELSS, 0H, Q-I; 220 mm → Sw4, 0H, ~I0, METER; 95 mm → GAIN, R7, 500; 91 mm → 0H, +25v 0
+
+Every curve, box, word and wire group: [19xx - 400-02-300 - M450B TEST JIG SCHEMATIC (T450) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1 (traced).json](19xx%20-%20400-02-300%20-%20M450B%20TEST%20JIG%20SCHEMATIC%20%28T450%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 400-02-300 - M450B TEST JIG SCHEMATIC (T450) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

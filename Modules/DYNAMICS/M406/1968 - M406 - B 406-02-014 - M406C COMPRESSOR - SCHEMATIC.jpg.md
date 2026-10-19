@@ -11,6 +11,19 @@ Wiki page: [M406](../../../PAGES/M406.md)
 - **Size:** 12,573,492 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 406-02-014, size B (assumed) 432 × 113 mm, 2000 × 524 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–112 mm up
+- **Outlines:** line 1,700 rings, 14,543 straight (17,357 mm) / 2,739 curved (3,169 mm); text 73 rings, 469 straight (379 mm) / 163 curved (194 mm)
+- **Centre lines:** 14,749 paths (284 closed); straight 10,852 mm, curved 93.0 mm; horizontal 4,405 mm, vertical 2,450 mm, diagonal 3,998 mm
+- **Circles and arcs:** 2 circles, 25 arcs; largest r 0.8 @ (223.8, 20.7), r 0.7 @ (192.5, 19.4)
+- **Closed boxes:** 8
+- **Words (OCR):** 10 in 7 lines: UNLEZS · Resistors /aw 5 VALUE OHVS · PICACFARADS · 374+20 · 5 R92 · V406 COMPRESSOR · SCHEMATIC
+- **Wiring (first pass):** 153 connected wire groups from 950 runs; labelled ends: 60 mm → 5 R92; 58 mm → COMPRESSOR, V406; 42 mm → 374+20; 28 mm → 374+20; 15 mm → COMPRESSOR, SCHEMATIC, V406
+
+Every curve, box, word and wire group: [1968 - M406 - B 406-02-014 - M406C COMPRESSOR - SCHEMATIC (traced).json](1968%20-%20M406%20-%20B%20406-02-014%20-%20M406C%20COMPRESSOR%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1968 - M406 - B 406-02-014 - M406C COMPRESSOR - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -23,6 +23,19 @@ Wiki page: [M166](../../../PAGES/M166.md)
 - **Size:** 7,408,716 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 166-02-001, size B 140 × 432 mm, 647 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–138 mm across, 0–429 mm up
+- **Outlines:** line 1,591 rings, 9,917 straight (12,222 mm) / 1,777 curved (2,056 mm); text 120 rings, 509 straight (364 mm) / 123 curved (154 mm)
+- **Centre lines:** 6,524 paths (204 closed); straight 6,287 mm, curved 50.5 mm; horizontal 1,963 mm, vertical 2,215 mm, diagonal 2,110 mm
+- **Circles and arcs:** 0 circles, 18 arcs
+- **Closed boxes:** 5
+- **Dots (junctions):** 6
+- **Wiring (first pass):** 99 connected wire groups from 644 runs, 6 dotted junctions
+
+Every curve, box, word and wire group: [1970 - 166-02-001 - ACTIVE SUMMING AMPLIFIER SCHEMATIC - DRN DPS - ISS 7 (2) (traced).json](1970%20-%20166-02-001%20-%20ACTIVE%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%207%20%282%29%20%28traced%29.json) (the CAD file: `1970 - 166-02-001 - ACTIVE SUMMING AMPLIFIER SCHEMATIC - DRN DPS - ISS 7 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

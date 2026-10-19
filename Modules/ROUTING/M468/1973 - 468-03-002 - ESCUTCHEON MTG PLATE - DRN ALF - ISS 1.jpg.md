@@ -28,6 +28,20 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1973** (labelled): `DATE 5 Nov 73` — …L STEEL CrcA # I6GA 059 WBS WARD-BECK SYSTEMS LTD. DRN: AlF DATE 5 Nov 73 CKD_ 22 SCALE Full 0i5 TOLS i 3-005 FINISH EscuTcHEoN Mre P…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 468-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale Full
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 370 rings, 5,790 straight (14,176 mm) / 660 curved (935 mm); text 501 rings, 3,229 straight (3,621 mm) / 1,030 curved (1,497 mm); tb 28 rings, 194 straight (364 mm) / 34 curved (47.6 mm)
+- **Centre lines:** 6,921 paths (89 closed); straight 10,737 mm, curved 49.7 mm; horizontal 5,776 mm, vertical 2,078 mm, diagonal 2,883 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 1.1 @ (181.1, 213.5), r 1.0 @ (270.4, 156.9)
+- **Closed boxes:** 42 (29 in the title block); named: WBS WARD-BECK SYSTEMS LTD_; EscuTcHEoN Mre PlATz; FINISH Bright CAD; ISS_; 468-03-002; 285 TOLS
+- **Dots (junctions):** 1
+- **Words (OCR):** 72 in 52 lines: TAP# 4-40 UNC · See Note · PLAces (4) · I0 · 5.55 · 200 · 35 · 75 · 4.250 · 128 DIA, CSk · To.23 DIA · TAP 2-56 UNc_
+- **Title block:** (140, 18)–(412, 69) mm: IsS MOD [CKD: · USEDON · MAT'L. · STEEL Crca · WBS WARD-BECK SYSTEMS LTD_ · M 4684 · I6GA 059 · DRN AlF · DATE SNov 73 · EscuTcHEoN Mre PlATz · FINISH · CKD. · Da · Bright CAD · SCALE Full · 285 · TOL
+
+Every curve, box, word and wire group: [1973 - 468-03-002 - ESCUTCHEON MTG PLATE - DRN ALF - ISS 1 (traced).json](1973%20-%20468-03-002%20-%20ESCUTCHEON%20MTG%20PLATE%20-%20DRN%20ALF%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 468-03-002 - ESCUTCHEON MTG PLATE - DRN ALF - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

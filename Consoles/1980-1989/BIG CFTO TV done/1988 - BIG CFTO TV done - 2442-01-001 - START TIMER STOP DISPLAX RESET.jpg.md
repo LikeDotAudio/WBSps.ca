@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,418,905 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 2442-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 417 rings, 6,179 straight (14,339 mm) / 766 curved (1,162 mm); text 250 rings, 1,740 straight (1,994 mm) / 526 curved (753 mm)
+- **Centre lines:** 4,854 paths (80 closed); straight 8,341 mm, curved 344 mm; horizontal 2,761 mm, vertical 3,811 mm, diagonal 1,769 mm
+- **Circles and arcs:** 27 circles, 37 arcs; largest r 1.5 @ (41.4, 361.4), r 1.4 @ (155.3, 203.2), r 1.4 @ (154.7, 302.9), r 1.4 @ (1.5, 329.2)
+- **Closed boxes:** 77
+- **Wiring (first pass):** 85 connected wire groups from 568 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 2442-01-001 - START TIMER STOP DISPLAX RESET (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20START%20TIMER%20STOP%20DISPLAX%20RESET%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 2442-01-001 - START TIMER STOP DISPLAX RESET (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

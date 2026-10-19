@@ -11,6 +11,15 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 211,714 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 471-04-008, size B (assumed) 432 × 328 mm, 2000 × 1521 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 21–432 mm across, 0–310 mm up
+- **Outlines:** line 119 rings, 2,922 straight (7,072 mm) / 348 curved (574 mm); text 709 rings, 6,221 straight (8,557 mm) / 1,402 curved (2,247 mm)
+- **Closed boxes:** 34
+
+Every curve, box, word and wire group: [1985 - M471A - 471-04-008 - ENG STEREO INPUT MODULE (traced).json](1985%20-%20M471A%20-%20471-04-008%20-%20ENG%20STEREO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1985 - M471A - 471-04-008 - ENG STEREO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

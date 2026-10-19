@@ -11,6 +11,20 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 300,993 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 471-01-002, size B (assumed) 432 × 292 mm, 2000 × 1351 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–254 mm up
+- **Outlines:** line 162 rings, 3,169 straight (8,412 mm) / 331 curved (509 mm); text 459 rings, 3,192 straight (3,697 mm) / 878 curved (1,312 mm); tb 10 rings, 140 straight (311 mm) / 18 curved (31.0 mm)
+- **Centre lines:** 3,554 paths (70 closed); straight 6,738 mm, curved 76.5 mm; horizontal 2,975 mm, vertical 1,655 mm, diagonal 2,108 mm
+- **Circles and arcs:** 2 circles, 8 arcs; largest r 4.6 @ (74.1, 174.8), r 1.4 @ (337.0, 187.1)
+- **Closed boxes:** 10 (5 in the title block)
+- **Words (OCR):** 53 in 52 lines: 8-1098 · BALANCE BALANCE · LEFT INPUT · CHANNEL · ON · INSERT · LEFT Output · STEREO · dBm/600 n · FADER · dBm/600 _ · 8- 109B
+- **Title block:** (277, 3)–(432, 76) mm: IsSUE |DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN_ · D.N./82 · M471A · MODULE · ENG · STEREO INPUT · CKD · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 471-01-002
+- **Wiring (first pass):** 101 connected wire groups from 227 runs; labelled ends: 181 mm → z2, PREIPOST, PFL, PRE; 126 mm → BALANCE, LEFT Output; 121 mm → Right output, PRE/POST; 114 mm → PRE/POST; 101 mm → z2, 21
+
+Every curve, box, word and wire group: [1985 - M471A - 471-01-002 - CONTROL COMMON PRE POST (traced).json](1985%20-%20M471A%20-%20471-01-002%20-%20CONTROL%20COMMON%20PRE%20POST%20%28traced%29.json) (the CAD file: `1985 - M471A - 471-01-002 - CONTROL COMMON PRE POST (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

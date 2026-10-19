@@ -23,6 +23,19 @@ Close photo of the audio console DC control schematic title block. Title block a
 - **Size:** 1,629,600 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 73050-02-009, size B 432 × 288 mm, 2000 × 1333 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 43–288 mm up
+- **Outlines:** line 63 rings, 5,008 straight (5,968 mm) / 681 curved (998 mm); text 111 rings, 1,325 straight (1,301 mm) / 310 curved (410 mm); tb 21 rings, 728 straight (836 mm) / 103 curved (153 mm)
+- **Centre lines:** 2,663 paths (31 closed); straight 4,976 mm, curved 44.9 mm; horizontal 1,991 mm, vertical 581 mm, diagonal 2,404 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 4.5 @ (31.2, 79.2), r 1.9 @ (28.7, 271.3)
+- **Words (OCR):** 19 in 14 lines: Wiriny · Tlt · WBS WARD-BECK · Lt · DRN · DATE Oct 73 · CKd Rc · CONSOLE · AUpio · SCALE · ScHEMATIC · DC CONTROL
+- **Title block:** (7, 87)–(300, 202) mm: WBS WARD-BECK · DRN · DATE Oct 73 · CKd Rc · AUpio · SCALE · DC CONTROL
+- **Wiring (first pass):** 49 connected wire groups from 157 runs; labelled ends: 102 mm → ISS, 173050-02_009; 54 mm → ScHEMATIC, 173050-02_009, CONTROL; 52 mm → DC; 39 mm → ISS; 38 mm → 173050-02_009
+
+Every curve, box, word and wire group: [1973 - 73050-02-009 - AUDIO CONSOLE DC CONTROL SCHEMATIC - DRN PC (traced).json](1973%20-%2073050-02-009%20-%20AUDIO%20CONSOLE%20DC%20CONTROL%20SCHEMATIC%20-%20DRN%20PC%20%28traced%29.json) (the CAD file: `1973 - 73050-02-009 - AUDIO CONSOLE DC CONTROL SCHEMATIC - DRN PC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M463AC](../../../PAGES/M463AC.md)
 - **Size:** 1,099,145 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 463-06-028, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–420 mm up
+- **Outlines:** line 580 rings, 7,105 straight (13,726 mm) / 2,138 curved (2,260 mm); text 995 rings, 7,774 straight (7,339 mm) / 2,467 curved (2,902 mm); tb 336 rings, 2,065 straight (2,001 mm) / 690 curved (757 mm)
+- **Circles and arcs:** 20 circles, 0 arcs; largest r 10.8 @ (266.4, 306.5), r 10.7 @ (295.0, 307.0), r 4.8 @ (295.4, 344.3), r 4.7 @ (242.4, 344.2)
+- **Closed boxes:** 8 (2 in the title block); named: 2k5 Sw4 WBS IO-01 WBS Il-0o5 R42 R4i R+o
+- **Words (OCR):** 143 in 112 lines: ~C13-5005 Pn3445 Pn35L9 P13l45 214401 · 204401 ?1440 · R2i · 4k · 08 · ~R2z · R23 2k3 · R24 IsK · CRiiJsK · Rs 22k · Rio-e* R3 @k · 10r5_Ri3 22
+- **Title block:** (83, 78)–(240, 288) mm: Sw4 · 2k5 · 2E6 · WBS IO-01 · WBS Il-0o5 · R42 R4i R+o R39 · Swi · WBs ii-oosi · siwis 583 · WbS Il-0o51 Wl-eoc · 1E3 · 254 · 2k5 · Wbs 10-003 · A37 R3a · WBS · CANADA · Sws · 8-105 · swg 5w2 · WBS Il
+
+Every curve, box, word and wire group: [1986 - M463AC - 463-06-028 - TES COMPONENT SIDE NOIES PINS IEI (traced).json](1986%20-%20M463AC%20-%20463-06-028%20-%20TES%20COMPONENT%20SIDE%20NOIES%20PINS%20IEI%20%28traced%29.json) (the CAD file: `1986 - M463AC - 463-06-028 - TES COMPONENT SIDE NOIES PINS IEI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

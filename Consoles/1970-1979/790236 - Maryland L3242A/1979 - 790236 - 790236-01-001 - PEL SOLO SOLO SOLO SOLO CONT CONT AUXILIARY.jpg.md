@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,133,831 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 790236-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 252 rings, 4,432 straight (11,014 mm) / 550 curved (743 mm); text 753 rings, 4,665 straight (4,834 mm) / 1,544 curved (2,148 mm)
+- **Centre lines:** 6,922 paths (120 closed); straight 8,833 mm, curved 87.8 mm; horizontal 3,689 mm, vertical 2,305 mm, diagonal 2,839 mm
+- **Circles and arcs:** 6 circles, 15 arcs; largest r 1.3 @ (285.4, 371.6), r 1.3 @ (182.7, 29.0), r 1.2 @ (234.9, 196.2), r 1.2 @ (182.9, 66.1)
+- **Closed boxes:** 12; named: (-15 dB ); M419 DUAL AUX MODULE; MODULE Monitor M 475
+- **Words (OCR):** 147 in 133 lines: S1 · SUBMASTER · SUBMASTER · (SUB1To4 IDENTICAL ) · SumMing · BUS · (~4dB ) · SUB · CHAN · INSERT · FADER · S1
+- **Wiring (first pass):** 83 connected wire groups from 316 runs; labelled ends: 358 mm → 8dBm, MON, Summing, BUS; 342 mm → E18, E1z, M1, M2; 328 mm → BUS, S1; 298 mm → S1, 5 2, 53, 54; 184 mm → MUTE, DIR
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-01-001 - PEL SOLO SOLO SOLO SOLO CONT CONT AUXILIARY (traced).json](1979%20-%20790236%20-%20790236-01-001%20-%20PEL%20SOLO%20SOLO%20SOLO%20SOLO%20CONT%20CONT%20AUXILIARY%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-01-001 - PEL SOLO SOLO SOLO SOLO CONT CONT AUXILIARY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -24,6 +24,20 @@ Wiki page: [M471](../../../PAGES/M471.md)
 - **Size:** 339,763 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 471-01-002, size B 432 × 292 mm, 2000 × 1351 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–254 mm up
+- **Outlines:** line 161 rings, 3,380 straight (8,452 mm) / 324 curved (488 mm); text 460 rings, 3,247 straight (3,744 mm) / 888 curved (1,321 mm); tb 9 rings, 130 straight (267 mm) / 15 curved (28.2 mm)
+- **Centre lines:** 3,570 paths (73 closed); straight 6,792 mm, curved 82.8 mm; horizontal 3,013 mm, vertical 1,661 mm, diagonal 2,118 mm
+- **Circles and arcs:** 3 circles, 8 arcs; largest r 4.6 @ (74.1, 174.8), r 1.4 @ (337.0, 187.1), r 1.2 @ (4.3, 211.5)
+- **Closed boxes:** 9 (4 in the title block)
+- **Words (OCR):** 54 in 50 lines: 8-109B · BALANCE BALANCE · LEFT INPUT · CHANNEL ON · INSERT · LEFT · OUTPut · STEREO · dBm/600 _ · FADER · dBm/600 _ · 8-109B
+- **Title block:** (278, 3)–(432, 77) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMB · DRN_ D.N./82 · M47IA · STEREO INPUT MODULE · ENG_ · CKD · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 471-01-002
+- **Wiring (first pass):** 98 connected wire groups from 230 runs; labelled ends: 181 mm → 22, PREIPOST, PFL, PRE; 126 mm → BALANCE, LEFT; 121 mm → Right Output, PREIPOST; 114 mm → PREIPOST; 101 mm → 22, 21
+
+Every curve, box, word and wire group: [1982 - 471-01-002 - M471A STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN D.N.-82 - ENG PC - ISS 1 (traced).json](1982%20-%20471-01-002%20-%20M471A%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20D.N.-82%20-%20ENG%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 471-01-002 - M471A STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN D.N.-82 - ENG PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

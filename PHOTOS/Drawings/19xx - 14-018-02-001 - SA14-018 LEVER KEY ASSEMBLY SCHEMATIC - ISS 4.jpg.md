@@ -20,6 +20,19 @@ SA14-018 lever key assembly schematic, title block at bottom left reading sidewa
 - **Size:** 4,429,694 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-018-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–432 mm across, 1–286 mm up
+- **Outlines:** line 660 rings, 6,605 straight (11,406 mm) / 1,554 curved (2,047 mm); text 166 rings, 901 straight (811 mm) / 328 curved (415 mm)
+- **Centre lines:** 6,901 paths (126 closed); straight 7,391 mm, curved 217 mm; horizontal 2,520 mm, vertical 2,574 mm, diagonal 2,297 mm
+- **Circles and arcs:** 5 circles, 74 arcs; largest r 4.0 @ (66.6, 201.5), r 0.8 @ (336.4, 216.0), r 0.8 @ (336.2, 202.3), r 0.8 @ (105.0, 193.8)
+- **Closed boxes:** 26
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 80 connected wire groups from 753 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 14-018-02-001 - SA14-018 LEVER KEY ASSEMBLY SCHEMATIC - ISS 4 (traced).json](19xx%20-%2014-018-02-001%20-%20SA14-018%20LEVER%20KEY%20ASSEMBLY%20SCHEMATIC%20-%20ISS%204%20%28traced%29.json) (the CAD file: `19xx - 14-018-02-001 - SA14-018 LEVER KEY ASSEMBLY SCHEMATIC - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

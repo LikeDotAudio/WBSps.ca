@@ -20,6 +20,19 @@ Wiki page: [Job-940443](../../../PAGES/Job-940443.md)
 - **Size:** 493,823 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940443-03-010, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 71–847 mm across, 14–502 mm up
+- **Outlines:** line 814 rings, 5,868 straight (27,463 mm) / 1,383 curved (4,185 mm); text 343 rings, 1,819 straight (3,217 mm) / 615 curved (1,518 mm); tb 21 rings, 169 straight (396 mm) / 34 curved (78.0 mm)
+- **Centre lines:** 9,921 paths (254 closed); straight 18,836 mm, curved 1,042 mm; horizontal 8,299 mm, vertical 3,618 mm, diagonal 6,918 mm
+- **Circles and arcs:** 10 circles, 21 arcs; largest r 128.5 @ (203.0, 164.7), r 6.4 @ (330.0, 420.7), r 6.4 @ (355.4, 406.5), r 6.4 @ (381.0, 420.8)
+- **Closed boxes:** 57 (5 in the title block); named: IKR-4A PANEL; 940443-03-010; Cooe: 94443410
+- **Words (OCR):** 45 in 40 lines: I6.7I0 · PUNC  0 J80 · RREQE · 70,04 RAD Corneas · 0,200 · QSER DIPEMILF 04002,DP OTHER · "REC D · 0.546 · L-592 · 0,80} · 1.719 · 0.626
+- **Title block:** (688, 46)–(859, 79) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940443-03-010 - IKR-4A PANEL - DRN DRG - ISS 1 (traced).json](1994%20-%20940443-03-010%20-%20IKR-4A%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940443-03-010 - IKR-4A PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

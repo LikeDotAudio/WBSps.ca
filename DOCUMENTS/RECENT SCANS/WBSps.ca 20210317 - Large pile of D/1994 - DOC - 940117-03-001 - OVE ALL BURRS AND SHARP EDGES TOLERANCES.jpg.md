@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,855,018 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940117-03-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 58–432 mm across, 7–255 mm up
+- **Outlines:** line 665 rings, 5,398 straight (12,817 mm) / 928 curved (1,109 mm); text 239 rings, 1,371 straight (1,342 mm) / 462 curved (569 mm); tb 18 rings, 154 straight (188 mm) / 37 curved (41.4 mm)
+- **Centre lines:** 6,432 paths (211 closed); straight 8,329 mm, curved 16.9 mm; horizontal 3,016 mm, vertical 3,190 mm, diagonal 2,123 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 76 (3 in the title block); named: MK SERIES CONNECTOR PANEL; SCALF; 940117-03-001
+- **Words (OCR):** 32 in 27 lines: REOCCORDINGLY · DETA · 5,050 · CETAL · Zti0 · DETAI · DAUU · DJon · 0Jou · MATERIAL: CR.S: 0.059 THICK · FINISH: SAND 120 · GRiT AND PAINT
+- **Title block:** (342, 23)–(427, 40) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940117-03-001 - OVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20DOC%20-%20940117-03-001%20-%20OVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940117-03-001 - OVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

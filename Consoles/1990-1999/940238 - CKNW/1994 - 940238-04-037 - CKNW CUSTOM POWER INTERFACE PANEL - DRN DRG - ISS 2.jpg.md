@@ -21,6 +21,18 @@ Wiki page: [Job-940238](../../../PAGES/Job-940238.md)
 - **Size:** 399,713 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940238-04-037, size D 864 × 553 mm, 2000 × 1280 px traced (0.432 mm/px)
+- **Ink extent:** 70–856 mm across, 16–465 mm up
+- **Outlines:** line 512 rings, 3,670 straight (21,809 mm) / 708 curved (2,114 mm); text 118 rings, 828 straight (1,619 mm) / 250 curved (628 mm); tb 17 rings, 155 straight (359 mm) / 30 curved (71.3 mm)
+- **Circles and arcs:** 30 circles, 0 arcs; largest r 3.6 @ (193.6, 149.5), r 3.6 @ (405.2, 157.2), r 3.6 @ (420.3, 157.2), r 3.6 @ (208.7, 149.5)
+- **Closed boxes:** 69 (4 in the title block); named: CCNSCLE; CKNW CUSTOM POWER INTERFACE PANEL; SCALF; DISC NO;; 940238-04-037; CoDez 942JELJZ
+- **Words (OCR):** 17 in 14 lines: POAFR · CAELES · CCNSCLE · CAALE · CO NECTCRS · FROHT · WBS · WARD-BECK SYSTEMS · CKNW CUSTOM · POWER INTERFACE · PANEL · SCALF DISC NO;
+- **Title block:** (678, 47)–(846, 80) mm: WBS · WARD-BECK SYSTEMS · CKNW CUSTOM
+
+Every curve, box, word and wire group: [1994 - 940238-04-037 - CKNW CUSTOM POWER INTERFACE PANEL - DRN DRG - ISS 2 (traced).json](1994%20-%20940238-04-037%20-%20CKNW%20CUSTOM%20POWER%20INTERFACE%20PANEL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940238-04-037 - CKNW CUSTOM POWER INTERFACE PANEL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

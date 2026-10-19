@@ -11,6 +11,21 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 7,862,592 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-077-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 0–287 mm up
+- **Outlines:** line 1,313 rings, 11,465 straight (21,213 mm) / 2,256 curved (2,607 mm); text 152 rings, 977 straight (950 mm) / 296 curved (374 mm); tb 2 rings, 37 straight (99.5 mm) / 1 curved (3.1 mm)
+- **Centre lines:** 11,376 paths (267 closed); straight 12,847 mm, curved 134 mm; horizontal 5,152 mm, vertical 4,265 mm, diagonal 3,431 mm
+- **Circles and arcs:** 2 circles, 29 arcs; largest r 3.4 @ (61.0, 193.0), r 3.2 @ (61.4, 212.9)
+- **Closed boxes:** 108; named: 74C764; 74c471N
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 16 lines: UNLESS Othearise · SpECIF · DIODES · DESIGNATIONS; · hic/LINE · 12 · Cal · 74C764 · 74c471N · WBS · WARD-BECK SYSTEMS · SA14-077
+- **Title block:** (346, 29)–(432, 46) mm: WBS · WARD-BECK SYSTEMS · SA14-077
+- **Wiring (first pass):** 66 connected wire groups from 1,086 runs; labelled ends: 346 mm → 12; 34 mm → 12; 28 mm → 12; 22 mm → Cal; 19 mm → Cal
+
+Every curve, box, word and wire group: [1982 - M521A - B 14-077-02-001 - SA14-077 - CONTROL ASSEMBLY - SCHEMATIC (2) (traced).json](1982%20-%20M521A%20-%20B%2014-077-02-001%20-%20SA14-077%20-%20CONTROL%20ASSEMBLY%20-%20SCHEMATIC%20%282%29%20%28traced%29.json) (the CAD file: `1982 - M521A - B 14-077-02-001 - SA14-077 - CONTROL ASSEMBLY - SCHEMATIC (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

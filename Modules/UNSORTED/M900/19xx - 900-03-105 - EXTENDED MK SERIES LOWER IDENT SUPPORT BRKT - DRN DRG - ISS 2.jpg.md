@@ -23,6 +23,19 @@ Mechanical drawing of a lower ident support bracket.
 - **Size:** 500,017 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-105, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 34–845 mm across, 0–494 mm up
+- **Outlines:** line 747 rings, 4,783 straight (25,281 mm) / 840 curved (2,260 mm); text 296 rings, 1,778 straight (3,431 mm) / 516 curved (1,313 mm); tb 21 rings, 160 straight (360 mm) / 50 curved (120 mm)
+- **Centre lines:** 6,744 paths (137 closed); straight 16,926 mm, curved 133 mm; horizontal 8,614 mm, vertical 3,172 mm, diagonal 5,140 mm
+- **Circles and arcs:** 0 circles, 18 arcs
+- **Closed boxes:** 97 (4 in the title block); named: PART NUMBER; MODULE COUNT; O50-0}-105; 23 070; 16435; 9C0-0}-105-2; J5 070; 47-070; 40.40 5; EXTENDED MK   SERIES LOWER IDENT SUPPORT; 900-03-105; CCDE;
+- **Words (OCR):** 35 in 25 lines: PUNCH · ENLARCSUENT (721) · 0J76 · (K) REQ"D · 4LOYG UNGM · INCHEST · PART NUMBER MODULE COUNT · MATERIAL; CR,S 0.047 ThICK; · FINISH: SAND 120 GriT AND PAINT · 9C0-0}-105-2 · O50-0}-105 · 23 070
+- **Title block:** (687, 48)–(857, 80) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-105 - EXTENDED MK SERIES LOWER IDENT SUPPORT BRKT - DRN DRG - ISS 2 (traced).json](19xx%20-%20900-03-105%20-%20EXTENDED%20MK%20SERIES%20LOWER%20IDENT%20SUPPORT%20BRKT%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 900-03-105 - EXTENDED MK SERIES LOWER IDENT SUPPORT BRKT - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

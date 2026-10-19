@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 2,743,999 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940333-04-001, size B (assumed) 432 × 346 mm, 2000 × 1602 px traced (0.216 mm/px); scale DISC NO: 473
+- **Ink extent:** 74–427 mm across, 9–346 mm up
+- **Outlines:** line 916 rings, 6,701 straight (24,360 mm) / 1,151 curved (1,556 mm); text 515 rings, 3,440 straight (3,732 mm) / 1,135 curved (1,519 mm); tb 18 rings, 336 straight (2,001 mm) / 14 curved (24.6 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 7.0 @ (304.2, 142.5), r 7.0 @ (304.2, 114.6), r 2.5 @ (333.5, 117.5), r 2.4 @ (104.7, 117.9)
+- **Closed boxes:** 136; named: M9O1A; M9og; APC_88IC; M9O1A 70 CH ON; M9O1A; M9O1A CH ON; M9O1A ON; M9O1A CH  ON; M9O1A 70 ON; M9O1A 70 CH ON; M907; M9O5A HJoe TREBLE 69 NS HEADPHONE Vue MO
+- **Dots (junctions):** 24
+- **Words (OCR):** 82 in 59 lines: METER · CH 1 · CH 2 · CH 3 · CH 4 · CH 5 · CH · CH 7 · CH · CR MONSTD · MON · M9og
+- **Title block:** (290, 9)–(432, 69) mm: ISSUE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: SM · CFTR BOOTH · ENG_ SM · RENAISSANCE MKI · CKD · APP_ · LAYOUT · SCALE DISC NO: 473 · 940333-04-001 · ISSUE · CODE: 94333L01
+
+Every curve, box, word and wire group: [1994 - 940333 - DOC - 940333-04-001 - OTHERS AND ARE INTEGRATED INTO THE CONSOLE (traced).json](1994%20-%20940333%20-%20DOC%20-%20940333-04-001%20-%20OTHERS%20AND%20ARE%20INTEGRATED%20INTO%20THE%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - 940333 - DOC - 940333-04-001 - OTHERS AND ARE INTEGRATED INTO THE CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

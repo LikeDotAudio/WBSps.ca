@@ -26,6 +26,19 @@ Wiki page: [M626](../../../PAGES/M626.md)
 
 - **1971** (month): `APRIL 1971` — …EC D FLceS AnGles TOLS UNLESS E5 Gc En @L Finih Drf Ty SATE APRIL 1971 MRATERIAL CISO WaRd BECK SVSIEMS ATD M626 FRAME CONNECTOR W…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 626-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 9–298 mm up
+- **Outlines:** line 587 rings, 8,094 straight (9,421 mm) / 1,271 curved (1,660 mm); text 229 rings, 1,923 straight (2,406 mm) / 384 curved (655 mm)
+- **Centre lines:** 9,933 paths (83 closed); straight 7,829 mm, curved 340 mm; horizontal 3,150 mm, vertical 1,777 mm, diagonal 2,902 mm
+- **Circles and arcs:** 18 circles, 40 arcs; largest r 1.7 @ (164.2, 181.6), r 1.6 @ (82.6, 154.1), r 1.6 @ (82.7, 147.8), r 1.6 @ (164.1, 188.3)
+- **Closed boxes:** 6; named: TOLs; Finish
+- **Words (OCR):** 38 in 33 lines: PI · P2 · +El MEASURE · AC · IS0 · 20 · 140 · 30 · I30 · 40 · OIs · I20
+- **Wiring (first pass):** 87 connected wire groups from 455 runs; labelled ends: 206 mm → Ty, APRIL 1971, SCAE; 80 mm → TOLs, Finish; 75 mm → PI; 72 mm → 40, 015, 016, COM:; 66 mm → Ty, APRIL 1971
+
+Every curve, box, word and wire group: [1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1 (traced).json](1971%20-%20626-02-002%20-%20FRAME%20CONNECTOR%20WIRING%20-%20DRN%20TY%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

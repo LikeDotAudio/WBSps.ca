@@ -10,6 +10,20 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 4,647,698 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 73050-01-001, size B (assumed) 432 × 264 mm, 2000 × 1221 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–264 mm up
+- **Outlines:** line 1,713 rings, 19,897 straight (22,134 mm) / 3,510 curved (3,961 mm); text 1,268 rings, 8,289 straight (6,748 mm) / 2,812 curved (3,332 mm)
+- **Centre lines:** 37,973 paths (400 closed); straight 21,819 mm, curved 157 mm; horizontal 6,329 mm, vertical 5,000 mm, diagonal 10,490 mm
+- **Circles and arcs:** 0 circles, 52 arcs
+- **Closed boxes:** 30; named: CONISOLE AJDio FUACTIONAL
+- **Dots (junctions):** 1
+- **Words (OCR):** 315 in 263 lines: VU · M166 _ · [SENS Sw · Ch 12 2 OrLy · RELAY · (-15) · (-Is) ) · dBm · 44 · dBm · 782 · Low LEVEL:
+- **Wiring (first pass):** 189 connected wire groups from 1,156 runs; labelled ends: 180 mm → M166 _; 134 mm → 0i24; 116 mm → dBm, LINE KET, LINE KEY 2; 111 mm → Mooickol, Zle; 106 mm → (-Is) ), PRE, OFF, ZOaBm,
+
+Every curve, box, word and wire group: [1973 - 73050 - 73050-01-001 - STO HOST FEED TURRET COMPLETE NITH MIC LOFF (traced).json](1973%20-%2073050%20-%2073050-01-001%20-%20STO%20HOST%20FEED%20TURRET%20COMPLETE%20NITH%20MIC%20LOFF%20%28traced%29.json) (the CAD file: `1973 - 73050 - 73050-01-001 - STO HOST FEED TURRET COMPLETE NITH MIC LOFF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

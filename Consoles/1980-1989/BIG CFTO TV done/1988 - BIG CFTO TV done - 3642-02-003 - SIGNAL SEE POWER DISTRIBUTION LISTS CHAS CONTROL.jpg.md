@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,388,082 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 290 rings, 3,030 straight (5,876 mm) / 592 curved (790 mm); text 212 rings, 1,264 straight (1,285 mm) / 458 curved (619 mm)
+- **Centre lines:** 3,088 paths (47 closed); straight 4,173 mm, curved 125 mm; horizontal 1,685 mm, vertical 1,087 mm, diagonal 1,401 mm
+- **Circles and arcs:** 4 circles, 31 arcs; largest r 3.9 @ (4.5, 254.9), r 3.6 @ (5.0, 142.9), r 3.5 @ (4.9, 32.1), r 1.0 @ (273.6, 252.6)
+- **Closed boxes:** 2
+- **Wiring (first pass):** 50 connected wire groups from 257 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHAS CONTROL (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20SIGNAL%20SEE%20POWER%20DISTRIBUTION%20LISTS%20CHAS%20CONTROL%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-003 - SIGNAL SEE POWER DISTRIBUTION LISTS CHAS CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

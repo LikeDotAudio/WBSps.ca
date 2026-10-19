@@ -11,6 +11,16 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 7,372,871 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 461-04-008, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 1,052 rings, 13,709 straight (16,887 mm) / 2,230 curved (2,972 mm); text 195 rings, 1,888 straight (2,108 mm) / 479 curved (720 mm)
+- **Circles and arcs:** 21 circles, 0 arcs; largest r 8.3 @ (25.4, 184.3), r 7.8 @ (26.3, 295.4), r 4.8 @ (25.9, 232.9), r 4.7 @ (26.4, 295.6)
+- **Closed boxes:** 39
+
+Every curve, box, word and wire group: [1976 - 76045 - 461-04-008 - INPUT MODULE ASSEMBLY (traced).json](1976%20-%2076045%20-%20461-04-008%20-%20INPUT%20MODULE%20ASSEMBLY%20%28traced%29.json) (the CAD file: `1976 - 76045 - 461-04-008 - INPUT MODULE ASSEMBLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

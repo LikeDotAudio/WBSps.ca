@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,085,428 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960243-03-004, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 32–432 mm across, 1–241 mm up
+- **Outlines:** line 477 rings, 3,231 straight (7,596 mm) / 722 curved (858 mm); text 265 rings, 1,545 straight (1,491 mm) / 463 curved (597 mm)
+- **Centre lines:** 5,095 paths (138 closed); straight 5,477 mm, curved 35.3 mm; horizontal 2,123 mm, vertical 1,628 mm, diagonal 1,726 mm
+- **Circles and arcs:** 1 circles, 9 arcs; largest r 1.5 @ (315.5, 183.3)
+- **Closed boxes:** 16; named: REWSID"; WARD-BECK SYSTEMS LWBS; VOICER TURRET CONNECTOR BRACKET; 960243-03-004; Code9024540'
+- **Words (OCR):** 29 in 21 lines: PUScH (0,750 · 004 PILLAP · ALLOY 0O EL(0.25 DiA) · 0 25) · 960243-03 0041 · CONNECTOR BRACKET · AUM ALLOT · MATERIAL: · SEE Bod OF DRAMNG · REWSID" · FINISH: SAND · GRIT AND PAINT
+
+Every curve, box, word and wire group: [1996 - 960243 - DOC - 960243-03-004 - NOTE REMOVE ALL BURRS AND SHARP EOGES TOLERANCES (traced).json](1996%20-%20960243%20-%20DOC%20-%20960243-03-004%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EOGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1996 - 960243 - DOC - 960243-03-004 - NOTE REMOVE ALL BURRS AND SHARP EOGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

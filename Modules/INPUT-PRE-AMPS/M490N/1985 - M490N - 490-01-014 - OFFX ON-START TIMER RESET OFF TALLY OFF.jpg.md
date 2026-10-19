@@ -11,6 +11,19 @@ Wiki page: [M490N](../../../PAGES/M490N.md)
 - **Size:** 210,108 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-014, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–336 mm across, 33–432 mm up
+- **Outlines:** line 403 rings, 4,253 straight (8,566 mm) / 657 curved (981 mm); text 316 rings, 2,699 straight (3,284 mm) / 671 curved (1,116 mm)
+- **Centre lines:** 2,841 paths (46 closed); straight 5,788 mm, curved 162 mm; horizontal 1,952 mm, vertical 1,804 mm, diagonal 2,033 mm
+- **Circles and arcs:** 6 circles, 9 arcs; largest r 4.8 @ (282.0, 147.7), r 4.6 @ (246.4, 210.4), r 4.5 @ (242.6, 147.4), r 2.0 @ (247.2, 278.8)
+- **Closed boxes:** 4; named: MODE SELECT 30 50+-0 Mo; PGM/ CUE CTL LoGIc
+- **Words (OCR):** 59 in 48 lines: FADER · (-15 dB ) CH ON · INSERT · MODE · LEFT · SELECT · LEFT · SENSITiViTY · (20 dB ) · 30 · LINE · NPUTS
+- **Wiring (first pass):** 180 connected wire groups from 371 runs; labelled ends: 127 mm → MODE, SELECT, (-15, dB ); 116 mm → INPUT; 63 mm → INSERT; 62 mm → INSERT; 42 mm → INSERT
+
+Every curve, box, word and wire group: [1985 - M490N - 490-01-014 - OFFX ON-START TIMER RESET OFF TALLY OFF (traced).json](1985%20-%20M490N%20-%20490-01-014%20-%20OFFX%20ON-START%20TIMER%20RESET%20OFF%20TALLY%20OFF%20%28traced%29.json) (the CAD file: `1985 - M490N - 490-01-014 - OFFX ON-START TIMER RESET OFF TALLY OFF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

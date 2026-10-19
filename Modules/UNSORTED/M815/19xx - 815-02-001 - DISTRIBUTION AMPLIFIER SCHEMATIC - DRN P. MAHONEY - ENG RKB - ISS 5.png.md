@@ -23,6 +23,20 @@ Wiki page: [M815](../../../PAGES/M815.md)
 - **Size:** 987,184 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 815-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 11–298 mm up
+- **Outlines:** line 921 rings, 9,377 straight (18,340 mm) / 2,048 curved (2,676 mm); text 914 rings, 5,204 straight (4,691 mm) / 1,835 curved (2,330 mm)
+- **Centre lines:** 13,658 paths (285 closed); straight 13,927 mm, curved 523 mm; horizontal 4,747 mm, vertical 3,730 mm, diagonal 5,450 mm
+- **Circles and arcs:** 16 circles, 106 arcs; largest r 3.8 @ (329.9, 185.8), r 3.8 @ (271.6, 258.7), r 3.8 @ (310.2, 191.7), r 3.7 @ (311.6, 97.4)
+- **Closed boxes:** 7
+- **Dots (junctions):** 1
+- **Words (OCR):** 166 in 141 lines: ZN2i02 · +25V · 4/25 · 10/25 · R43 · <848 352 · SUM · V3s · INPUT · +IBv · 2n588] · Kymaql
+- **Wiring (first pass):** 133 connected wire groups from 955 runs; labelled ends: 350 mm → WBS, SChf; 246 mm → B8, Kymaql, Loint, FIAV; 222 mm → R43, 636, c29, 1425; 191 mm → Rie, R2z, s0k; 188 mm → [840, R32, iok, 2206p
+
+Every curve, box, word and wire group: [19xx - 815-02-001 - DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. MAHONEY - ENG RKB - ISS 5 (traced).json](19xx%20-%20815-02-001%20-%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%205%20%28traced%29.json) (the CAD file: `19xx - 815-02-001 - DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. MAHONEY - ENG RKB - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

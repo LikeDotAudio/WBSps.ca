@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,320,824 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940011-04-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 454
+- **Ink extent:** 21–432 mm across, 10–299 mm up
+- **Outlines:** line 217 rings, 3,098 straight (12,255 mm) / 281 curved (394 mm); text 248 rings, 1,834 straight (2,512 mm) / 526 curved (797 mm); tb 3 rings, 80 straight (207 mm) / 1 curved (0.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (211.3, 122.8)
+- **Closed boxes:** 51 (13 in the title block); named: SCALE
+- **Words (OCR):** 38 in 33 lines: +20v0 · -240 · +20v0 · 14-198 · 14 · CCHIROLLER · CONTROLLER · BUFFER AMPVNER · BACXPLANE · BACKPLANE · BACXPLANE · 13
+- **Title block:** (250, 11)–(420, 80) mm: ISSUE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · WS · INPUT BUFFER CONTROL · DRN · ENG: WS · REAR · CKD_ · SYSTEM · LA YOUT · APP · SCALE DISC NO: 454 · ISSUE · 940011-04-002 · CODE: 94011L02
+
+Every curve, box, word and wire group: [1994 - DOC - 940011-04-002 - BUFFER AMPUFIER BACKPLANE (traced).json](1994%20-%20DOC%20-%20940011-04-002%20-%20BUFFER%20AMPUFIER%20BACKPLANE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940011-04-002 - BUFFER AMPUFIER BACKPLANE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

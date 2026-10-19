@@ -28,6 +28,20 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1976** (labelled): `DATE DEC 76` — …ATL . WBS WARD-BECK SYSTEMS LTD- TooTHK: AL.ALLOY DRN_ Ming DATE DEC 76 FINISH ALODNE CKD AE LL SCALE 01 TOLS _ {a 2.0o 230 3 For S…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 468-03-035, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 8–298 mm up
+- **Outlines:** line 292 rings, 4,995 straight (11,555 mm) / 574 curved (756 mm); text 416 rings, 3,284 straight (3,794 mm) / 896 curved (1,378 mm); tb 50 rings, 366 straight (587 mm) / 70 curved (95.8 mm)
+- **Centre lines:** 6,937 paths (61 closed); straight 9,551 mm, curved 35.3 mm; horizontal 4,769 mm, vertical 1,982 mm, diagonal 2,800 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 1.2 @ (233.9, 190.8)
+- **Closed boxes:** 38 (26 in the title block); named: WBS BYSTEMS LTD_ WAAD-BECK; Mn 468P ESCUTCHEON; IsS_; 01s TOLS 885
+- **Dots (junctions):** 1
+- **Words (OCR):** 65 in 48 lines: 7207 DIA ~2 PLACES · SQUACE CORNER TYR: · 2.087 · 542 · 487 TYP;, · 375 TyP . · 455 · 740 · 4.025 · 005 · 4480 · 66lo
+- **Title block:** (149, 20)–(375, 71) mm: Iss MOD ICKD · USED ON · MATL · WBS WAAD-BECK · 4F · 78 · AL.ALLOY · DRM: MIg · Mn 468P · FMISH · DATE DEC 70 · ALODINE · CKD_AE · ESCUTCHEON · SCALE · TOLS · 885 · 01s · A68 03 ~035
+
+Every curve, box, word and wire group: [1976 - 468-03-035 - M468P ESCUTCHEON - DRN MING - ISS 2 (traced).json](1976%20-%20468-03-035%20-%20M468P%20ESCUTCHEON%20-%20DRN%20MING%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 468-03-035 - M468P ESCUTCHEON - DRN MING - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

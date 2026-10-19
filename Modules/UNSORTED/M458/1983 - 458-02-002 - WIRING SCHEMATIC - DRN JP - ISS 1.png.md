@@ -24,6 +24,20 @@ Wiki page: [M458](../../../PAGES/M458.md)
 - **Size:** 1,453,238 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 458-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–298 mm up
+- **Outlines:** line 381 rings, 5,111 straight (10,479 mm) / 779 curved (1,115 mm); text 420 rings, 3,273 straight (3,724 mm) / 1,119 curved (1,639 mm); tb 28 rings, 254 straight (323 mm) / 30 curved (37.9 mm)
+- **Centre lines:** 10,108 paths (96 closed); straight 9,628 mm, curved 344 mm; horizontal 3,497 mm, vertical 2,668 mm, diagonal 3,464 mm
+- **Circles and arcs:** 13 circles, 41 arcs; largest r 3.9 @ (196.4, 184.1), r 3.9 @ (196.6, 164.5), r 3.9 @ (196.4, 223.3), r 3.8 @ (196.4, 204.1)
+- **Closed boxes:** 38 (9 in the title block); named: Mse QUAD PEAK OVEBLOAD JLCATQB; ISSUE; SCALE
+- **Words (OCR):** 60 in 57 lines: +24V · +25v · TALLY #1 · TALLY#2 · AUDIO · TKLD # 1 · THLD #2 · SOURCE · Audio · AUDIO · SOURCE#A IN · SQURCE"2
+- **Title block:** (278, 16)–(431, 84) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK sySTEMS · DRN, JP/o6/33 · ENG_ · M458 · CKD_ · WIRING SCHEMATIC · APP · ISSUE · SCALE · 458-02-002
+- **Wiring (first pass):** 42 connected wire groups from 336 runs; labelled ends: 325 mm → +25v, ~25v; 114 mm → +24V; 97 mm → AUDIO, Audio, SOURCE 4; 70 mm → 458-02-002; 18 mm → SOURCE 4
+
+Every curve, box, word and wire group: [1983 - 458-02-002 - WIRING SCHEMATIC - DRN JP - ISS 1 (traced).json](1983%20-%20458-02-002%20-%20WIRING%20SCHEMATIC%20-%20DRN%20JP%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1983 - 458-02-002 - WIRING SCHEMATIC - DRN JP - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

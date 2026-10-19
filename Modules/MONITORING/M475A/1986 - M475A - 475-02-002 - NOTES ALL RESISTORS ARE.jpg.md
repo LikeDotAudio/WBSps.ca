@@ -11,6 +11,19 @@ Wiki page: [M475A](../../../PAGES/M475A.md)
 - **Size:** 1,059,265 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 475-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–339 mm across, 59–403 mm up
+- **Outlines:** line 802 rings, 9,668 straight (17,516 mm) / 2,139 curved (2,785 mm); text 634 rings, 4,083 straight (3,622 mm) / 1,546 curved (1,849 mm)
+- **Centre lines:** 11,718 paths (189 closed); straight 12,706 mm, curved 365 mm; horizontal 3,991 mm, vertical 4,165 mm, diagonal 4,549 mm
+- **Circles and arcs:** 8 circles, 79 arcs; largest r 4.8 @ (173.6, 77.0), r 4.6 @ (173.8, 110.8), r 4.4 @ (330.9, 184.3), r 0.8 @ (68.6, 263.7)
+- **Closed boxes:** 9; named: 5414-140 DUAL BOOSTER AMPLIFIER
+- **Words (OCR):** 145 in 136 lines: NOTES: · ALL RESISTORS ARE · AND ALL CAPACITORS ARE IN UF · UNLESS OTheRMiSE  SPECIFIED: · LAST component DESIGNATIONS; · 47 /10 · CJ9, crio. 053, J2. · R65; · UIa · 22P · 5w7 · USE PCB -139.
+- **Wiring (first pass):** 116 connected wire groups from 900 runs; labelled ends: 996 mm → U4A, J-1,2, 3,40; 488 mm → U4A, 74C02N, ULB, U4C; 184 mm → SMZB, 47/10, 5448; 168 mm → Swja; 156 mm → 47/10, SMZB, 5448
+
+Every curve, box, word and wire group: [1986 - M475A - 475-02-002 - NOTES ALL RESISTORS ARE (traced).json](1986%20-%20M475A%20-%20475-02-002%20-%20NOTES%20ALL%20RESISTORS%20ARE%20%28traced%29.json) (the CAD file: `1986 - M475A - 475-02-002 - NOTES ALL RESISTORS ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

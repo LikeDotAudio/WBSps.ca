@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,722,211 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940238-04-004, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 250 rings, 2,362 straight (6,674 mm) / 489 curved (1,146 mm); text 101 rings, 676 straight (838 mm) / 201 curved (297 mm)
+- **Circles and arcs:** 20 circles, 0 arcs; largest r 15.2 @ (375.5, 170.3), r 14.9 @ (308.2, 170.1), r 5.3 @ (369.1, 175.9), r 5.3 @ (301.9, 175.7)
+- **Closed boxes:** 18
+- **Dots (junctions):** 2
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940238-04-004 - MIOSNW CONTROL ROOM MONITOR MODULE LAYOUT (2) (traced).json](1994%20-%20Renaisance%20-%20940238-04-004%20-%20MIOSNW%20CONTROL%20ROOM%20MONITOR%20MODULE%20LAYOUT%20%282%29%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940238-04-004 - MIOSNW CONTROL ROOM MONITOR MODULE LAYOUT (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

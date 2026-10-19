@@ -11,6 +11,18 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 316,722 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-003, size B (assumed) 432 × 283 mm, 2000 × 1310 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–274 mm up
+- **Outlines:** line 212 rings, 2,825 straight (7,203 mm) / 589 curved (664 mm); text 828 rings, 7,125 straight (7,895 mm) / 1,987 curved (2,402 mm); tb 45 rings, 515 straight (838 mm) / 91 curved (107 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 8.9 @ (71.1, 107.1), r 8.9 @ (70.2, 208.6), r 8.9 @ (20.1, 107.1), r 8.9 @ (19.1, 208.3)
+- **Closed boxes:** 13 (11 in the title block); named: 0E7 E2 33/* 33/10 +c2 E1E ~Ci ~RI6 22k -; ISSUE
+- **Words (OCR):** 116 in 103 lines: 0E7 · E2 · 33/10 +c2 · 33/* · E1E ~Ci · -ceG8p · ~RI6 22k · R2-Azk · LRI · R4 Lk? · ~R18 · 22k
+- **Title block:** (129, 4)–(432, 131) mm: WBS · ES · 8-109 · z2o/iec16+ · 22o/6 · Iblul81 Ece493 4017 · ~R374K7 · ~R36 · 4k7_ · ISSUE DATE · REVISION · APP · EG · WBS WARD-BECK SYSTEMS · DRN GEB · 8 - 109 B · 4/78 · ENG.MRW · BOOSTER AMPLIFIE
+
+Every curve, box, word and wire group: [1985 - M471A - 8-109-06-003 - BOOSTER AMPLIFIER (traced).json](1985%20-%20M471A%20-%208-109-06-003%20-%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1985 - M471A - 8-109-06-003 - BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

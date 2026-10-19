@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,654,838 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960195-03-001, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 4–258 mm up
+- **Outlines:** line 689 rings, 5,329 straight (12,826 mm) / 952 curved (1,426 mm); text 284 rings, 1,614 straight (1,468 mm) / 499 curved (615 mm); tb 16 rings, 183 straight (199 mm) / 34 curved (37.8 mm)
+- **Centre lines:** 6,817 paths (209 closed); straight 8,267 mm, curved 290 mm; horizontal 3,790 mm, vertical 2,255 mm, diagonal 2,221 mm
+- **Circles and arcs:** 9 circles, 13 arcs; largest r 6.2 @ (196.2, 171.8), r 6.2 @ (233.8, 171.4), r 6.2 @ (233.3, 146.2), r 6.2 @ (215.0, 171.6)
+- **Closed boxes:** 15 (3 in the title block); named: REAR PANEL; 960195-03-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 35 in 31 lines: 4500 · 16.602 · pitc-es · Dis DIA · 2102 · 2.050 · DETAT · DETAI · 0,40 0 · 0254 · PLICES · Dtin
+- **Title block:** (332, 20)–(415, 36) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1996 - DOC - 960195-03-001 - FOR SILKSCREEN ARTWORK SEE (traced).json](1996%20-%20DOC%20-%20960195-03-001%20-%20FOR%20SILKSCREEN%20ARTWORK%20SEE%20%28traced%29.json) (the CAD file: `1996 - DOC - 960195-03-001 - FOR SILKSCREEN ARTWORK SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

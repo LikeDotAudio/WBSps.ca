@@ -11,6 +11,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,421,610 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-007, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 242 rings, 6,528 straight (18,728 mm) / 407 curved (610 mm); text 706 rings, 3,961 straight (3,760 mm) / 1,399 curved (1,851 mm)
+- **Centre lines:** 5,016 paths (105 closed); straight 12,230 mm, curved 212 mm; horizontal 7,606 mm, vertical 2,464 mm, diagonal 2,159 mm
+- **Circles and arcs:** 11 circles, 28 arcs; largest r 1.4 @ (255.1, 373.8), r 1.4 @ (255.3, 367.3), r 1.4 @ (88.4, 376.8), r 1.4 @ (255.0, 380.4)
+- **Closed boxes:** 7; named: 27.28; 27.28; 31,32; 31,32; 35,36; 49,50; 49,50
+- **Words (OCR):** 127 in 125 lines: CORRELA TION · CORRELA TION METER · SELECTOR · SELECTOR · TB2 · TB2 · 85,86 · 79,80 · MON · OUTPUTS · (81) · MON
+- **Wiring (first pass):** 87 connected wire groups from 487 runs; labelled ends: 4079 mm → 1,2, 2X36k, 3,4, 2X36K; 1202 mm → 25,26; 390 mm → 45,46, 51,52, 43,44, 53,54; 339 mm → 13,14, 15,16, 17,18, 19,20; 170 mm → TB2, (87), 88,89, 25,26
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-007 - CORRELA TION CORRELATION METER SELECTOR SELECTOR (traced).json](1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-007 - CORRELA TION CORRELATION METER SELECTOR SELECTOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

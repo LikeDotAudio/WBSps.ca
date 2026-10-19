@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 1,180,750 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 523-04-001, size B (assumed) 211 × 432 mm, 976 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–211 mm across, 0–429 mm up
+- **Outlines:** line 61 rings, 2,195 straight (4,811 mm) / 217 curved (355 mm); text 179 rings, 1,634 straight (1,926 mm) / 477 curved (733 mm); tb 237 rings, 1,862 straight (2,869 mm) / 348 curved (533 mm)
+- **Closed boxes:** 7 (6 in the title block)
+- **Words (OCR):** 33 in 27 lines: WBS · BAL · PGM · Mix · AUX · PRE PST · AUX 3 · PRE PST · AUX 2 · PRE · PST · AUX
+- **Title block:** (16, 0)–(194, 429) mm: WBS · BAL · PGM · Mix · AUX · PRE PST · AUX 3 · PRE PST · AUX 2 · PRE · PST · AUX · PRE PST · ISSUE DATE · REVISION · SUB · WBS WAAD-BECK · ON · DRN rD · M523 · ENG_ · STEREO SUB MODULE · CKD · FRONT 
+
+Every curve, box, word and wire group: [1985 - ST - 523-04-001 - STEREO SUB MODULE (traced).json](1985%20-%20ST%20-%20523-04-001%20-%20STEREO%20SUB%20MODULE%20%28traced%29.json) (the CAD file: `1985 - ST - 523-04-001 - STEREO SUB MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

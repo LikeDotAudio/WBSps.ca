@@ -11,6 +11,20 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 1,062,700 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 12-02-003, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 6–411 mm up
+- **Outlines:** line 107 rings, 3,019 straight (5,730 mm) / 408 curved (716 mm); text 296 rings, 2,377 straight (2,870 mm) / 683 curved (1,129 mm); tb 3 rings, 81 straight (151 mm) / 7 curved (15.7 mm)
+- **Centre lines:** 2,602 paths (59 closed); straight 5,028 mm, curved 321 mm; horizontal 2,084 mm, vertical 1,457 mm, diagonal 1,486 mm
+- **Circles and arcs:** 16 circles, 23 arcs; largest r 1.7 @ (100.6, 314.9), r 1.7 @ (100.4, 323.8), r 1.7 @ (100.2, 372.9), r 1.7 @ (100.7, 305.0)
+- **Closed boxes:** 30
+- **Words (OCR):** 45 in 40 lines: IT WIRING · Ting · FRAME · outputs · A1 · 12) · of · N/c · PL-7 · P1-16 · A2 · outputs
+- **Title block:** (216, 8)–(338, 67) mm: WBS · WARD-BECK BybTemD · M6 12A · Audio Distribution AmpLiFIER · SYSTEMS WIRING · B6 12-02-003 · ISS.
+- **Wiring (first pass):** 22 connected wire groups from 194 runs; labelled ends: 610 mm → A2, PLZ, P1-16, PL-7; 434 mm → PLZ, P1-16, PL-Z, PL-16; 213 mm → A5, N/c; 212 mm → A4; 212 mm → A3, n/c
+
+Every curve, box, word and wire group: [1983 - M612A - 12-02-003 - BYBTEMD TECHNICAL GROUND (traced).json](1983%20-%20M612A%20-%2012-02-003%20-%20BYBTEMD%20TECHNICAL%20GROUND%20%28traced%29.json) (the CAD file: `1983 - M612A - 12-02-003 - BYBTEMD TECHNICAL GROUND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

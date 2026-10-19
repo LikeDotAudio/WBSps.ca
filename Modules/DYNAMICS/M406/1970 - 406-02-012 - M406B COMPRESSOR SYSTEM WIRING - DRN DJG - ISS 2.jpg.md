@@ -22,6 +22,18 @@ Wiki page: [M406](../../../PAGES/M406.md)
 - **Size:** 4,450,826 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 406-02-012, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–425 mm across, 30–305 mm up
+- **Outlines:** line 439 rings, 6,052 straight (10,054 mm) / 772 curved (1,177 mm); text 267 rings, 2,066 straight (2,427 mm) / 571 curved (919 mm)
+- **Centre lines:** 2,975 paths (54 closed); straight 6,742 mm, curved 350 mm; horizontal 3,144 mm, vertical 1,855 mm, diagonal 1,744 mm
+- **Circles and arcs:** 13 circles, 47 arcs; largest r 2.5 @ (401.6, 65.7), r 2.3 @ (361.5, 65.3), r 1.9 @ (138.2, 235.1), r 1.9 @ (152.5, 115.7)
+- **Closed boxes:** 20
+- **Wiring (first pass):** 64 connected wire groups from 477 runs
+
+Every curve, box, word and wire group: [1970 - 406-02-012 - M406B COMPRESSOR SYSTEM WIRING - DRN DJG - ISS 2 (traced).json](1970%20-%20406-02-012%20-%20M406B%20COMPRESSOR%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1970 - 406-02-012 - M406B COMPRESSOR SYSTEM WIRING - DRN DJG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

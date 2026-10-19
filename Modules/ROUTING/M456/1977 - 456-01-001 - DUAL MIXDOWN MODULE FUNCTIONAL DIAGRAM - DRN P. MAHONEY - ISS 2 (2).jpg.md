@@ -23,6 +23,18 @@ Wiki page: [M456](../../../PAGES/M456.md)
 - **Size:** 3,639,450 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 456-01-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–427 mm across, 18–303 mm up
+- **Outlines:** line 656 rings, 7,198 straight (17,820 mm) / 1,213 curved (1,722 mm); text 310 rings, 1,955 straight (2,195 mm) / 640 curved (922 mm)
+- **Centre lines:** 6,055 paths (107 closed); straight 10,345 mm, curved 450 mm; horizontal 4,527 mm, vertical 2,796 mm, diagonal 3,022 mm
+- **Circles and arcs:** 33 circles, 61 arcs; largest r 3.3 @ (92.5, 117.8), r 3.1 @ (92.7, 212.5), r 1.8 @ (393.0, 51.8), r 1.8 @ (363.4, 44.2)
+- **Closed boxes:** 34
+- **Wiring (first pass):** 186 connected wire groups from 642 runs
+
+Every curve, box, word and wire group: [1977 - 456-01-001 - DUAL MIXDOWN MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ISS 2 (2) (traced).json](1977%20-%20456-01-001%20-%20DUAL%20MIXDOWN%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `1977 - 456-01-001 - DUAL MIXDOWN MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

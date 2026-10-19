@@ -18,6 +18,605 @@ Wiki page: [M466](../../../PAGES/M466.md)
 - **1978** (manual_issue): `ISSUE '6 BS SE PT. 1978` — …8- 1090 Component l ayou t 88- 109- 06-005 a .c ps HAN UAL ISSUE '6 BS SE PT. 1978 W :// tp ht…
 - **1978** (month): `JUNE 78` — …3~ (iE D'-:N. MRW M4U ,, "' , 5 ~41 1 J>.o.:.. fiNISH DATf JUNE 78 CK • SCALE C OM PR ES SOR f li M IT ER SCH EM AT rc , IL. _…
 
+## Vectors (traced)
+
+### Page 1
+
+- **Sheet:** drawing, size B (assumed) 318 × 432 mm, 1471 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 25–284 mm across, 1–429 mm up
+- **Outlines:** line 82 rings, 2,864 straight (9,772 mm) / 239 curved (432 mm)
+- **Closed boxes:** 6; named: 'N8S; 'N8S
+- **Words (OCR):** 18 in 15 lines: 'N8S · 'N8S · 'N8S · 'N8S · 'N8S · 'N8S · 'N8S · 'N8S · 466 · Cl:J1PRESSORj liM HR · 'N8S ps · BS
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p1 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p1%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p1 (traced).dxf`).
+
+### Page 2
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–297 mm across, 4–421 mm up
+- **Outlines:** line 92 rings, 1,980 straight (4,144 mm) / 331 curved (507 mm); text 84 rings, 910 straight (1,256 mm) / 216 curved (342 mm); tb 15 rings, 168 straight (186 mm) / 34 curved (52.6 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.7 @ (114.8, 232.7), r 2.7 @ (150.3, 232.6)
+- **Dots (junctions):** 3
+- **Words (OCR):** 20 in 13 lines: (VVBS] B41 Fe!lS · WARD -BECK · LT · JW£N...E. · ClNTAJOID · T'O-£X: · ..,tJJ43t~ · M466 · CO PRES SQR/Ll MI ER · ps · BS · tp
+- **Title block:** (100, 403)–(188, 428) mm: WARD -BECK · JW£N...E.
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p2 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p2%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p2 (traced).dxf`).
+
+### Page 3
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–296 mm across, 0–418 mm up
+- **Outlines:** line 5 rings, 862 straight (2,683 mm) / 95 curved (151 mm); text 850 rings, 6,323 straight (7,278 mm) / 1,749 curved (2,741 mm); tb 117 rings, 1,196 straight (1,672 mm) / 305 curved (452 mm)
+- **Words (OCR):** 155 in 59 lines: WARD-BECK SYSTEM LTD · TA 8L~ · OF CO NTEN TS · M466 COMP RESSOR/LI MITER · SEC TI ON · PAGE · Wa anty · Tec hni ca Oa ta · to · Cf cui Oe cr pt on · 10 · Operating ns uc ons
+- **Title block:** (7, 42)–(274, 426) mm: WARD-BECK SYSTEM LTD · TA 8L~ · OF CO NTEN TS · M466 COMP RESSOR/LI MITER · SEC TI ON · PAGE · Wa anty · Tec hni ca Oa ta · to · Cf cui Oe cr pt on · 10 · Operating ns uc ons · 10 · COllpressor Cha ra
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p3 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p3%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p3 (traced).dxf`).
+
+### Page 4
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–294 mm across, 21–417 mm up
+- **Outlines:** line 225 rings, 2,408 straight (4,732 mm) / 549 curved (794 mm); text 1,375 rings, 9,652 straight (10,495 mm) / 3,013 curved (4,565 mm); tb 358 rings, 2,866 straight (3,300 mm) / 794 curved (1,149 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (258.0, 55.2), r 1.7 @ (197.9, 62.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 351 in 115 lines: WA · CK · LT · RA NT · All Ward·8ed Sy · ms Lt · produ · ar warrant · ins · defective materials and workmanship for · per od · one
+- **Title block:** (26, 77)–(215, 349) mm: All Ward·8ed Sy · ms Lt · produ · ar warrant · defective materials and workmanship for · year from date of shipment. · Ward-B ck Syst ems wi · epair · repl dce · at · with out ha rge · aid prod ucts o
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p4 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p4%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p4 (traced).dxf`).
+
+### Page 5
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 6–419 mm up
+- **Outlines:** line 179 rings, 2,216 straight (4,531 mm) / 466 curved (715 mm); text 1,203 rings, 8,846 straight (10,004 mm) / 2,539 curved (3,886 mm); tb 13 rings, 128 straight (175 mm) / 27 curved (46.0 mm)
+- **Closed boxes:** 2; named: dB
+- **Dots (junctions):** 1
+- **Words (OCR):** 243 in 76 lines: WARD -BECK SYSTEM LTC. · TE CH NICAL DATA · "466 · COMPRESSOR/ LIMITER · Galn · Unity. Make up gain of 16 dB · ldll ull fs · ve tlebt · in ceep es cn 1lI0de only · Frequ en cy Resp onse · 25 dB fr OIl 20 Hz · 20 kHz
+- **Title block:** (6, 404)–(72, 427) mm: WARD -BECK SYSTEM LTC.
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p5 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p5%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p5 (traced).dxf`).
+
+### Page 6
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–298 mm across, 3–417 mm up
+- **Outlines:** line 74 rings, 1,388 straight (3,616 mm) / 213 curved (341 mm); text 697 rings, 5,271 straight (5,957 mm) / 1,443 curved (2,254 mm)
+- **Words (OCR):** 136 in 48 lines: WAF:lO -SECK SYS · MS · TECHNI CAL DATA · M466 COMP RESSOR/LI MITER · Recovery Ti · Co_pre or · 5s. · ro_ 10 · dB of · Ll~ te · to 5s. · gain ed uctio
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p6 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p6%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p6 (traced).dxf`).
+
+### Page 7
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–297 mm across, 5–420 mm up
+- **Outlines:** line 239 rings, 3,016 straight (5,396 mm) / 662 curved (1,016 mm); text 1,726 rings, 13,364 straight (14,991 mm) / 3,807 curved (5,875 mm); tb 41 rings, 501 straight (760 mm) / 94 curved (150 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (145.7, 67.0)
+- **Words (OCR):** 387 in 98 lines: WARO -BECK YSTE MS LTO · CIRCU IT DE SCRI PTION · M466 COMPR ESSOR/ LI MITER · In put · The in put · gn al · applied to pin · an · of th edge co · ne cto · The ignal · routed direct ly to the nor mall
+- **Title block:** (32, 251)–(202, 427) mm: WARO -BECK YSTE MS LTO · CIRCU IT DE SCRI PTION · M466 COMPR ESSOR/ LI MITER · In put · The in put · gn al · applied to pin · an · ne cto · The ignal · routed direct ly to the nor mall · cont ac · uf 
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p7 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p7%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p7 (traced).dxf`).
+
+### Page 8
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 5–418 mm up
+- **Outlines:** line 84 rings, 1,755 straight (4,030 mm) / 330 curved (515 mm); text 2,092 rings, 16,243 straight (18,228 mm) / 4,492 curved (6,928 mm); tb 169 rings, 1,590 straight (2,001 mm) / 413 curved (626 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (197.2, 72.9)
+- **Words (OCR):** 421 in 91 lines: WARO-BECK YS TE MS LT · CIRC UIT DES CRIPT ION · M466 COMPRESSOR/ LIM ITER · CO Mpressor AMpli fi · and Rectifier · The ou tput ro. he COMPRESSOR TH RESH OLD attenuator SV4 eeds · the slgnal via the 0[-E55 switch SV6 and ass ociated fflter to · aMp lifier 26. · ful wave rectifier consisting of CR5 a
+- **Title block:** (6, 27)–(149, 425) mm: WARO-BECK YS TE MS LT · CO Mpressor AMpli fi · and Rectifier · aMp lifier 26. · fol ows l6 nd in ur generates · th attack ti me, and · Howeve · he · si or .ay be va ied · ac ieve oth · ac · -E55 Co nt
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p8 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p8%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p8 (traced).dxf`).
+
+### Page 9
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–299 mm across, 5–419 mm up
+- **Outlines:** line 181 rings, 2,487 straight (4,975 mm) / 519 curved (780 mm); text 1,021 rings, 7,859 straight (8,901 mm) / 2,149 curved (3,334 mm)
+- **Dots (junctions):** 1
+- **Words (OCR):** 233 in 58 lines: WAAD ·SECI< · LTD. · CIR CUIT OfSCR IPTIOH · M4 66 COMPRESSOR/L IM IT[ · li Mit Ind cat or · Two volta ge co.par to rs · art of Z9 · pin · and · compa re he · .it mo ni to vol age · pin
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p9 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p9%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p9 (traced).dxf`).
+
+### Page 10
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–299 mm across, 4–418 mm up
+- **Outlines:** line 426 rings, 4,519 straight (7,102 mm) / 1,067 curved (1,603 mm); text 1,895 rings, 13,870 straight (15,501 mm) / 4,043 curved (6,288 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.8 @ (74.7, 80.9), r 1.8 @ (74.7, 67.3), r 1.8 @ (50.1, 60.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 418 in 113 lines: WAA O·BECK SYSTEM LTO · OPERATIN IN STRUCTI ONS · M4 66 COMPRESSOR/ LI MITER · Th H466 is de s1g ned · as · comp esso and/or 11 · in de pen dent of one · he as fa · hre sh ol · attack ti me and · le ase · mes re conce ned
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p10 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p10%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p10 (traced).dxf`).
+
+### Page 11
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–302 mm across, 2–419 mm up
+- **Outlines:** line 234 rings, 2,883 straight (5,390 mm) / 641 curved (950 mm); text 2,164 rings, 16,536 straight (18,511 mm) / 4,754 curved (7,323 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (125.2, 66.9)
+- **Words (OCR):** 446 in 96 lines: WARO ·SE CK SYSTE MS LTO · OPERATING NSTRUCTI ONS · M466 COMPRESSOR/LI MITE · st ere tie connec tion (pin 10) pr OY fs on is ade · co nnec · he CODpresso con rol cir cuitry of seve ral oe · re · gether fo · he purpos · stere or ul · channel opera ion. · re units can
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p11 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p11%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p11 (traced).dxf`).
+
+### Page 12
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–299 mm across, 5–418 mm up
+- **Outlines:** line 208 rings, 3,407 straight (7,123 mm) / 654 curved (921 mm); text 388 rings, 2,560 straight (2,858 mm) / 799 curved (1,124 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 1.8 @ (53.5, 342.1), r 1.8 @ (27.7, 133.4), r 1.8 @ (153.5, 138.4), r 1.8 @ (196.8, 273.6)
+- **Closed boxes:** 2
+- **Words (OCR):** 12 in 7 lines: WARO -BE CK YSTE MS LTO · 51 · J2: · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p12 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p12%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p12 (traced).dxf`).
+
+### Page 13
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–299 mm across, 4–417 mm up
+- **Outlines:** line 112 rings, 2,820 straight (6,627 mm) / 451 curved (602 mm); text 195 rings, 1,313 straight (1,369 mm) / 383 curved (548 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (154.2, 32.2)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 8 in 7 lines: WAI=lO · CK SYS · LTO · ps · BS · tp · ht
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p13 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p13%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p13 (traced).dxf`).
+
+### Page 14
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–298 mm across, 7–420 mm up
+- **Outlines:** line 326 rings, 3,335 straight (6,040 mm) / 700 curved (1,082 mm); text 1,097 rings, 7,884 straight (9,010 mm) / 2,240 curved (3,549 mm)
+- **Words (OCR):** 233 in 75 lines: WARO ·BECK SYS TE · ADJUSTMENT PROCEDURE · M4 66 COMPRESSOR/ LIMITER · Refe re nc Ora wi ngs: · 8466-0 001 · M466 · Fu nc ti on.. · 8466·0 2-001 · H466 · Sch · et · 0466- 06-001
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p14 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p14%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p14 (traced).dxf`).
+
+### Page 15
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 5–419 mm up
+- **Outlines:** line 226 rings, 2,545 straight (5,025 mm) / 592 curved (908 mm); text 1,183 rings, 8,984 straight (10,221 mm) / 2,563 curved (3,995 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 240 in 87 lines: WAI=I · CK · LTO · ADJUST HE~ · PROC EDURE · M46 COMPRESSOR IMI TER · Sct con tro ls as follows · -SENS · COMP · LI · IN · -Tr1 pot R3S, R4 and R70: lIid -posit io
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p15 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p15%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p15 (traced).dxf`).
+
+### Page 16
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–297 mm across, 6–420 mm up
+- **Outlines:** line 264 rings, 2,974 straight (5,444 mm) / 643 curved (980 mm); text 1,173 rings, 9,002 straight (10,330 mm) / 2,494 curved (3,862 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (99.1, 81.3)
+- **Closed boxes:** 1
+- **Words (OCR):** 270 in 79 lines: WA RO ·SECK SYSTE MS LT · ADJUSTMENT PROCE DURE · M466 COMPRES SOR/ LIMITER · 11) · LI MI TH LD to · ·Oep ress LIM switc · ·Adj us 11101 for · 20 · at pin TE12. · nc as LIMI THLD in · dB step al · he way to +20 and
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p16 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p16%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p16 (traced).dxf`).
+
+### Page 17
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–297 mm across, 4–417 mm up
+- **Outlines:** line 91 rings, 1,687 straight (4,101 mm) / 280 curved (408 mm); text 1,365 rings, 10,023 straight (11,288 mm) / 2,815 curved (4,420 mm)
+- **Words (OCR):** 251 in 81 lines: WAF=lD -SECK SYS TE · LTD · ADJU STMENT PMDCEUURE · H466 · COMPR ESSOR LIM ITER · GR/ VU · out GR) · -Sl OPE · COMP THLD · -RLS (COMP) · 1d- pos 1t fo · COMP
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p17 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p17%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p17 (traced).dxf`).
+
+### Page 18
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–299 mm across, 5–420 mm up
+- **Outlines:** line 447 rings, 4,521 straight (7,105 mm) / 1,029 curved (1,554 mm); text 975 rings, 7,162 straight (8,161 mm) / 2,048 curved (3,226 mm); tb 13 rings, 115 straight (172 mm) / 29 curved (43.8 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.9 @ (156.6, 326.2), r 1.8 @ (146.7, 106.9), r 1.8 @ (146.3, 68.1)
+- **Closed boxes:** 2
+- **Dots (junctions):** 3
+- **Words (OCR):** 245 in 96 lines: WARD -BECK SYSTEM · LTD. · ADJU STM ENT PROCEDUR · M4 66 COMPR ESSOR/L MITER · nc ease input · ve to +20 dBm. Output level hould · nc eas~ · an ther · dB for · tot al of 10 dB. · No te · If
+- **Title block:** (6, 404)–(72, 426) mm: WARD -BECK SYSTEM
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p18 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p18%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p18 (traced).dxf`).
+
+### Page 19
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 6–419 mm up
+- **Outlines:** line 86 rings, 1,314 straight (3,420 mm) / 238 curved (359 mm); text 924 rings, 7,225 straight (8,548 mm) / 1,969 curved (3,066 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (123.0, 53.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 169 in 72 lines: WARO ·SE CK · MS LTD · AOJ USTM FHT PR OCE DURE · M466 COMPR ESSOR/L IMITER · ·Repeat ab ove steps wi · OS co nt ro · ul ly cw an · input · que ncy at · kHz · Set contro · fol lows
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p19 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p19%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p19 (traced).dxf`).
+
+### Page 20
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–297 mm across, 4–417 mm up
+- **Outlines:** line 241 rings, 2,654 straight (5,154 mm) / 585 curved (909 mm); text 1,149 rings, 8,428 straight (9,460 mm) / 2,420 curved (3,753 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (210.1, 125.3)
+- **Closed boxes:** 2
+- **Words (OCR):** 258 in 96 lines: D-BECK SYSTEM · TD · ADJ USTME NT PROCEDURE · M466 COMPRESSOR/L IMITER · -CDMP: ou · INS · in · Appl · kH · dBm npu sfg na · -Adju · R10l (on mothe board fo
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p20 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p20%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p20 (traced).dxf`).
+
+### Page 21
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 4–419 mm up
+- **Outlines:** line 214 rings, 2,572 straight (4,937 mm) / 599 curved (918 mm); text 1,166 rings, 8,782 straight (10,015 mm) / 2,505 curved (3,900 mm); tb 13 rings, 126 straight (167 mm) / 32 curved (52.0 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.9 @ (153.1, 102.5), r 1.9 @ (152.7, 35.0), r 1.8 @ (152.7, 41.8), r 1.8 @ (107.9, 48.8)
+- **Closed boxes:** 1; named: MIT
+- **Words (OCR):** 245 in 85 lines: WARD -BECK SYSTEM LTD · ADJUSTMENT PROC(D URE · 1'14 66 CO MPRESSOR/L IM ITER · 20) · Test and adjust LIMIT indicators · ro. he th re hold le vel, in creas inp ut · ve by d8 · Adj ust R1 46 · herboard) · gr ee LE CR15 just · itc es · on. Vo lta ge
+- **Title block:** (6, 404)–(72, 426) mm: WARD -BECK SYSTEM LTD
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p21 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p21%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p21 (traced).dxf`).
+
+### Page 22
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–296 mm across, 3–416 mm up
+- **Outlines:** line 280 rings, 3,069 straight (5,613 mm) / 699 curved (1,048 mm); text 702 rings, 5,444 straight (6,184 mm) / 1,458 curved (2,277 mm)
+- **Closed boxes:** 2; named: -BE
+- **Words (OCR):** 170 in 71 lines: WA~D -BE CK SYS TE · LTD · ADJU STMENT PROCEDURE · M4 66 CO MP RESSO R/L MI TER · Set co · ollow · -SE NS · LI MIT TH LD: · RLS LI MI · cw · -LIM · in
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p22 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p22%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p22 (traced).dxf`).
+
+### Page 23
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 4–419 mm up
+- **Outlines:** line 281 rings, 3,214 straight (5,778 mm) / 698 curved (1,087 mm); text 1,297 rings, 9,587 straight (10,778 mm) / 2,653 curved (4,130 mm)
+- **Words (OCR):** 268 in 96 lines: WARD · ECK YS · MS LTD. · ADJ USTMEN PROCEDURE · 466 · CO MPRESSOR/ LIM ITER · -RLS (CDMP) · Mid-posi tion · CDHP · INS · Appl · kH
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p23 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p23%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p23 (traced).dxf`).
+
+### Page 24
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–296 mm across, 6–419 mm up
+- **Outlines:** line 525 rings, 5,290 straight (8,249 mm) / 1,321 curved (2,056 mm); text 802 rings, 6,145 straight (7,010 mm) / 1,835 curved (2,834 mm)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 230 in 128 lines: WA · -SECK SYSTEM · LT · PARTS II ST · 46 · CO HPRESSOR llH IT ER · PART · OES CR PHO · Hr' · HFG PART NUH 8ER · Cl · Cap aci
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p24 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p24%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p24 (traced).dxf`).
+
+### Page 25
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 4–419 mm up
+- **Outlines:** line 376 rings, 3,806 straight (6,629 mm) / 938 curved (1,494 mm); text 506 rings, 3,603 straight (4,156 mm) / 1,070 curved (1,667 mm); tb 13 rings, 140 straight (184 mm) / 21 curved (36.7 mm)
+- **Words (OCR):** 135 in 84 lines: WARD -BECK SYSTEM LTD · PARTS LIST · 1'14 · COMPRESSOR IMITER · PART · DESCR IPTION · HFG · MFG PA RT NUMBER · caeee tor 10 uf /2S · Ke_et · T390C106 M02SAS · C37
+- **Title block:** (6, 404)–(72, 426) mm: WARD -BECK SYSTEM LTD
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p25 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p25%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p25 (traced).dxf`).
+
+### Page 26
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–296 mm across, 5–418 mm up
+- **Outlines:** line 252 rings, 3,057 straight (5,752 mm) / 667 curved (1,007 mm); text 346 rings, 2,466 straight (2,817 mm) / 657 curved (993 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Words (OCR):** 75 in 64 lines: WARD ~BeCI( SYSTEM LTD · PAR TS IS · M4 · COMPRESSOR/ LI MITER · PART · DESCRIPTIO · Kro · HFG PART NUMBER · Qll · ran · er · National
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p26 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p26%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p26 (traced).dxf`).
+
+### Page 27
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 5–418 mm up
+- **Outlines:** line 257 rings, 2,941 straight (5,753 mm) / 695 curved (1,060 mm); text 642 rings, 4,788 straight (5,561 mm) / 1,396 curved (2,167 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 128 in 84 lines: WARD-B ECK SYS TE MS LTD · PARTS LIST · "466 COMPRESSOR /LIMITER · PART · DESCRIPTION · MFG · MFG PAR NUMBER · .31 · Re istor · Phl1 1ps · R32 · 15K
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p27 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p27%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p27 (traced).dxf`).
+
+### Page 28
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–295 mm across, 4–417 mm up
+- **Outlines:** line 157 rings, 2,325 straight (4,738 mm) / 430 curved (683 mm); text 665 rings, 4,782 straight (5,520 mm) / 1,377 curved (2,152 mm)
+- **Dots (junctions):** 2
+- **Words (OCR):** 130 in 87 lines: WARD -SE CK SYS · MS LTD · PARTS LI ST · M46 · COMP RES SOR · MI TER · PART · DE SCRI PTION · ,Fe · MFG PART NUMBER · '66 · Resist or
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p28 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p28%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p28 (traced).dxf`).
+
+### Page 29
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–299 mm across, 2–416 mm up
+- **Outlines:** line 439 rings, 4,345 straight (7,471 mm) / 1,063 curved (1,650 mm); text 301 rings, 2,054 straight (2,359 mm) / 533 curved (810 mm); tb 26 rings, 250 straight (338 mm) / 45 curved (65.5 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 122 in 87 lines: WARD -BECK SYSTEMS LTD · PARTS LIS · H46 · COMPRESSOR /LIMITER · PART · O£SCRIP TION · HFG PART UHBER · RIOI · Po · iher · PT lOY ZOK · R10Z
+- **Title block:** (6, 401)–(116, 424) mm: WARD -BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p29 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p29%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p29 (traced).dxf`).
+
+### Page 30
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–298 mm across, 3–416 mm up
+- **Outlines:** line 261 rings, 2,930 straight (5,840 mm) / 668 curved (1,013 mm); text 656 rings, 4,849 straight (5,586 mm) / 1,368 curved (2,131 mm); tb 14 rings, 141 straight (202 mm) / 14 curved (21.9 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 159 in 90 lines: WARD BECK SY STE · LTD · PARTS LIST · M466 COMP RESSOR lIMI TER · PA RT · OESCRIP TI ON · MF PART NUMBE · Rl l6 · Resistor · SKI · Phi lip · (De ell!)
+- **Title block:** (6, 402)–(72, 424) mm: WARD BECK SY STE
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p30 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p30%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p30 (traced).dxf`).
+
+### Page 31
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–298 mm across, 3–416 mm up
+- **Outlines:** line 15 rings, 767 straight (2,613 mm) / 85 curved (140 mm); text 113 rings, 725 straight (821 mm) / 153 curved (232 mm); tb 21 rings, 175 straight (238 mm) / 40 curved (75.7 mm)
+- **Words (OCR):** 13 in 7 lines: WARD-BECK SYSTEMS LTO · 106 COHPRESSOR CONTROL AMPLIF IER · ps · BS · tp · ht · 06
+- **Title block:** (7, 401)–(116, 424) mm: WARD-BECK SYSTEMS LTO
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p31 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p31%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p31 (traced).dxf`).
+
+### Page 32
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–299 mm across, 4–418 mm up
+- **Outlines:** line 250 rings, 2,982 straight (5,443 mm) / 621 curved (956 mm); text 1,428 rings, 10,595 straight (11,827 mm) / 3,097 curved (4,776 mm); tb 174 rings, 1,500 straight (1,856 mm) / 368 curved (550 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (97.2, 140.4)
+- **Closed boxes:** 1
+- **Words (OCR):** 331 in 87 lines: Fl · SYSTE MS LTD. · DESCR PTI ON · 106 COHPRESSOR CON TROL AHP LIFlfR · The 6-106 co nt ol am plif ie is · pri nt ed ci cui boa rd un · desig ned · be us ed · an inte rn · compo nen · the WBS · H466 compressor/ lim ter modu
+- **Title block:** (29, 141)–(265, 328) mm: The 6-106 co nt ol am plif ie is · pri nt ed ci cui boa rd un · desig ned · be us ed · an inte rn · compo nen · the WBS · H466 compressor/ lim ter modu · Th · 106 · unt ont · H4 66 motherb oar as · pl
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p32 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p32%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p32 (traced).dxf`).
+
+### Page 33
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 4–417 mm up
+- **Outlines:** line 49 rings, 1,108 straight (3,270 mm) / 183 curved (284 mm); text 619 rings, 4,601 straight (5,185 mm) / 1,273 curved (1,991 mm); tb 59 rings, 560 straight (728 mm) / 122 curved (188 mm)
+- **Words (OCR):** 126 in 42 lines: WARD -BECK SYSTEMS LTD · DESCRIPTI ON · 106 COMPRESSO CON TROL AMPL IFIER · 25 provid@ · he 1i it in ac t10n. The ou tpu · ZS · u••@d via R1 · Z4. It als app ear <It · ai · naI EI3, · wher · is used
+- **Title block:** (6, 307)–(177, 425) mm: WARD -BECK SYSTEMS LTD · DESCRIPTI ON · 106 COMPRESSO CON TROL AMPL IFIER · 25 provid@ · he 1i it in ac t10n. The ou tpu · u••@d via R1 · Z4. It als app ear <It · wher · is used · operate wo vo lta ge
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p33 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p33%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p33 (traced).dxf`).
+
+### Page 34
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 6–418 mm up
+- **Outlines:** line 363 rings, 4,046 straight (7,014 mm) / 943 curved (1,425 mm); text 626 rings, 4,405 straight (5,041 mm) / 1,225 curved (1,938 mm); tb 26 rings, 242 straight (334 mm) / 45 curved (66.6 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 156 in 100 lines: WARD-BECK SYSTEMS LTD · PARTS LI ST · 106 COMPR ESSOR CONTROL AMPLIFIE · PART · DESCRIP TION · MFG PART NUMBER · C1 · Ca pacitor · Phi lips · 22 22-638 -10159 · C2 · 0.4 uF 135
+- **Title block:** (7, 403)–(115, 426) mm: WARD-BECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p34 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p34%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p34 (traced).dxf`).
+
+### Page 35
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–301 mm across, 4–416 mm up
+- **Outlines:** line 352 rings, 3,603 straight (6,408 mm) / 763 curved (1,196 mm); text 429 rings, 3,385 straight (3,989 mm) / 982 curved (1,486 mm)
+- **Words (OCR):** 129 in 98 lines: WARD-SECK SYSTEM · LTD · PA RTS LI ST · COMPRESSOR CONTR OL AM PLI fi ER · PAR · OES CRI PTIO · MFG · Mf PART NUMB ER · Rll · Re sisto · 620 · Phil
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p35 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p35%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p35 (traced).dxf`).
+
+### Page 36
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–297 mm across, 6–418 mm up
+- **Outlines:** line 102 rings, 1,784 straight (3,820 mm) / 318 curved (514 mm); text 175 rings, 1,344 straight (1,511 mm) / 342 curved (526 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 46 in 14 lines: WARD -SECK SYSTEM LTD. · PARTS LI · COMPRE SS OR CONT ROL AK PlIF · WB · e,ommends he use of · pl ement parts ma de by the · pecfffed manuf ac turers or · ,ontfnu ed opt imum equ fp me nt · pe rfo mance. · ps · BS · tp
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p36 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p36%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p36 (traced).dxf`).
+
+### Page 37
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 3–417 mm up
+- **Outlines:** line 44 rings, 1,141 straight (2,966 mm) / 152 curved (250 mm); text 58 rings, 384 straight (396 mm) / 75 curved (114 mm)
+- **Closed boxes:** 1
+- **Words (OCR):** 14 in 8 lines: WAF'lD -BECK SYSTEM · LT · 109 AM PLI FIER SERIES · ps · BS · tp · ht · 109
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p37 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p37%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p37 (traced).dxf`).
+
+### Page 38
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–298 mm across, 4–418 mm up
+- **Outlines:** line 375 rings, 3,558 straight (5,927 mm) / 868 curved (1,334 mm); text 1,043 rings, 7,569 straight (8,465 mm) / 2,229 curved (3,488 mm); tb 90 rings, 781 straight (928 mm) / 200 curved (307 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.0 @ (272.9, 53.2), r 1.8 @ (217.1, 317.9)
+- **Words (OCR):** 262 in 111 lines: WARD-BECK SYSTEMS LTC · OE SCII II' TJ ON · 109 AMPLI FIER ERI ES · The · 109 er es · pllf ler are ut · zed · int ern · cOllpon · wi · va rio us WBS er · au di co nso le .od es.
+- **Title block:** (7, 306)–(148, 425) mm: WARD-BECK SYSTEMS LTC · The · 109 er es · pllf ler are ut · cOllpon · wi · va rio us WBS er · Ea · 10 · pl ifi er mo unt as
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p38 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p38%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p38 (traced).dxf`).
+
+### Page 39
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–297 mm across, 1–416 mm up
+- **Outlines:** line 90 rings, 1,425 straight (3,617 mm) / 241 curved (384 mm); text 1,899 rings, 14,726 straight (16,337 mm) / 4,083 curved (6,294 mm)
+- **Words (OCR):** 393 in 99 lines: WA D-SECK SYSTEM · TD. · DESCRI PTI ON · 109 AMPL IF ER SER IES · Ou tp ut Imp edance · less han 100 ohms · Lo ad mped an ce: · 600 ohms ba nce · Ou tput Le ve · +30 dBm ma xi mu · Power Req ui reme nt · tZ
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p39 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p39%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p39 (traced).dxf`).
+
+### Page 40
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–296 mm across, 3–418 mm up
+- **Outlines:** line 56 rings, 1,253 straight (3,326 mm) / 204 curved (303 mm); text 228 rings, 1,718 straight (1,978 mm) / 471 curved (742 mm)
+- **Words (OCR):** 47 in 21 lines: WARO·SECK SVSTEMS LTC · DE SCRIPTION · 8-109 AMP LIF IER SERI ES · inver ing · .pli fi~ with EI · ~xt ern all~ · apped · The ou tp ut · ll ode · of th · J09 · ies is acti vel
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p40 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p40%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p40 (traced).dxf`).
+
+### Page 41
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–297 mm across, 4–418 mm up
+- **Outlines:** line 238 rings, 3,038 straight (5,692 mm) / 676 curved (1,032 mm); text 686 rings, 4,978 straight (5,685 mm) / 1,505 curved (2,304 mm); tb 26 rings, 257 straight (337 mm) / 40 curved (64.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (86.6, 115.7)
+- **Closed boxes:** 2; named: DESCRIPTION
+- **Words (OCR):** 158 in 93 lines: WARD-SECK SYSTEMS LTD · PA RTS LI ST · 109 '\MPlIflER SERI ES · -109 · PART · DESCRIPTION · MeG · MFG PART NUMBER · Cl · Capaci to · J3 F/l · Ke.et
+- **Title block:** (6, 402)–(115, 425) mm: WARD-SECK SYSTEMS LTD
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p41 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p41%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p41 (traced).dxf`).
+
+### Page 42
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–298 mm across, 4–417 mm up
+- **Outlines:** line 211 rings, 2,523 straight (5,116 mm) / 552 curved (846 mm); text 431 rings, 3,230 straight (3,702 mm) / 918 curved (1,413 mm)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 91 in 66 lines: WA~D ~BE CK · MS LTD · PAR TS LI ST · 109 AMPLIF ER SERI ES · 109 · PA RT · OESCRI PTI ON · MFG · HFG PAR HUM8ER · R4 · Res isto · 51
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p42 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p42%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p42 (traced).dxf`).
+
+### Page 43
+
+- **Sheet:** wiring 638-09 478, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–301 mm across, 0–418 mm up
+- **Outlines:** line 393 rings, 4,563 straight (8,016 mm) / 1,054 curved (1,653 mm); text 364 rings, 2,875 straight (3,242 mm) / 768 curved (1,195 mm)
+- **Centre lines:** 3,511 paths (105 closed); straight 6,374 mm, curved 309 mm; horizontal 2,172 mm, vertical 1,770 mm, diagonal 2,432 mm
+- **Circles and arcs:** 12 circles, 52 arcs; largest r 1.2 @ (136.7, 1.5), r 1.2 @ (96.1, 77.9), r 1.2 @ (126.8, 353.5), r 1.2 @ (121.0, 111.7)
+- **Closed boxes:** 6
+- **Dots (junctions):** 2
+- **Words (OCR):** 124 in 73 lines: RD BEC · YS · LTD. · PARTS LI ST · 8-10 AMP LIF IER · RIES · 109 · PART · DESCRIP TI ON · MFG · NFC PA RT NUM BER · .36
+- **Wiring (first pass):** 23 connected wire groups from 212 runs; labelled ends: 124 mm → PART; 109 mm → 015, PART; 60 mm → Philip; 55 mm → NFC, BER; 54 mm → MFC, 2222-, RER, 478
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p43 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p43%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p43 (traced).dxf`).
+
+### Page 44
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–300 mm across, 8–427 mm up
+- **Outlines:** line 231 rings, 3,411 straight (6,547 mm) / 649 curved (1,032 mm); text 604 rings, 4,498 straight (5,177 mm) / 1,404 curved (2,180 mm)
+- **Words (OCR):** 143 in 76 lines: WA · BECK · SYS · MS LTO · PART LI ST · 8-109 AMPL IF ER SERI ES · -109C · All pirts is pe · 109 except as note be ow · PART · DESCRIPTION · "FG PA RT HUMB ER
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p44 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p44%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p44 (traced).dxf`).
+
+### Page 45
+
+- **Sheet:** drawing, size B (assumed) 310 × 432 mm, 1437 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–310 mm across, 8–432 mm up
+- **Outlines:** line 180 rings, 2,961 straight (5,460 mm) / 509 curved (780 mm); text 441 rings, 3,475 straight (3,938 mm) / 1,007 curved (1,577 mm); tb 25 rings, 234 straight (339 mm) / 49 curved (74.4 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (120.7, 89.8), r 1.9 @ (141.2, 82.7)
+- **Closed boxes:** 2
+- **Dots (junctions):** 2
+- **Words (OCR):** 125 in 50 lines: WARO-BECK SYSTEMS LT · PARTS · ST · 8-1 09 · AMPL IFI ER SE RI ES · 109F · Al part as per · 109 ex cept as not cd bel ow · PART · DESC Rl TI · MeG · MFG
+- **Title block:** (6, 397)–(114, 420) mm: WARO-BECK SYSTEMS LT
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p45 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p45%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p45 (traced).dxf`).
+
+### Page 46
+
+- **Sheet:** drawing, size B (assumed) 316 × 432 mm, 1463 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–316 mm across, 1–323 mm up
+- **Outlines:** line 706 rings, 6,836 straight (13,517 mm) / 1,707 curved (2,268 mm); text 1,909 rings, 10,043 straight (8,936 mm) / 3,937 curved (5,069 mm); tb 124 rings, 835 straight (774 mm) / 301 curved (396 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 8.4 @ (164.1, 226.4), r 4.2 @ (142.6, 226.5), r 4.2 @ (142.6, 211.5), r 3.3 @ (142.5, 243.5)
+- **Closed boxes:** 23; named: ll"\.IJ NDICATORS: Gr LED in ica dB peak; BS LiMIT -'10 SENS -zc lI THlO ReS SlQI'; BS LiMIT -'10 SENS -zc lI THlO ReS SlQI'; LI MIT THR ESHOLD sw itc SWS Se 1!t' lt ; SENSIT VITY sw tc SW1 AlIo...:o se ecti ; LI MIT INSERT swi tch SW) ttve res imi c; DE- ESS itc SW6 re se II Quen v<l..-i<l ; LI MI RELEASE ontro 11.98: Adju sts oli ; GAIN REDUCTION ch SW<): ll ows elt.he Sa; $1.59: ow,,> DE ESS to move ot eo dB po ; SLOPE Se ects four ee opes co-o ee tee l; CCt1 PRESSOR THR ESHOLD wi SW4 Set es th
+- **Dots (junctions):** 3
+- **Words (OCR):** 524 in 242 lines: ll"\.IJ NDICATORS: Gr · dB peak imit ing, yellow LED nd ca · LED in ica · 12 d6 pe llk · im i"g · 12 dB · ov rl oad · BS · LI MIT THR ESHOLD sw itc SWS · hre sh · re ee ec · SENSIT VITY
+- **Title block:** (56, 0)–(237, 204) mm: wi · SW4 · Set · SLOPE · re-e ece · co-o ee · tee · nq downward · dB · lose · beloe nomina · ab sh ng amou · pe rati ng · SlQI'E · soc · Ac volte · LED. · rec ov ry rate · pe ti ng wi · tate · Callb r
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p46 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p46%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p46 (traced).dxf`).
+
+### Page 47
+
+- **Sheet:** functional 466-01-001, size B (assumed) 432 × 277 mm, 2000 × 1281 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–277 mm up
+- **Outlines:** line 247 rings, 3,317 straight (9,448 mm) / 425 curved (662 mm); text 250 rings, 2,735 straight (2,954 mm) / 790 curved (1,177 mm); tb 14 rings, 161 straight (290 mm) / 26 curved (39.3 mm)
+- **Centre lines:** 5,130 paths (47 closed); straight 7,438 mm, curved 194 mm; horizontal 3,200 mm, vertical 1,852 mm, diagonal 2,386 mm
+- **Circles and arcs:** 20 circles, 8 arcs; largest r 3.4 @ (277.1, 179.1), r 3.1 @ (263.8, 178.6), r 1.4 @ (287.3, 226.3), r 1.4 @ (277.3, 222.9)
+- **Closed boxes:** 11 (8 in the title block); named: GR ELEMENT; Limit ICONTROL; FILTER
+- **Words (OCR):** 68 in 62 lines: MAKE- UP · GAIN · COMPRESSOR · INSERT · INPUT · BST · GR · ON · OutPut · -10/+8 dBm · ELEMENT · -109
+- **Title block:** (284, 1)–(432, 76) mm: 10/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYsTEMS · DRN DB · M466 / M466C · ENG. · RKB · LIMITER · COMPRESSOR MODULE · CKD · FUNCTIONAL DIAGRAM · APP · SCALE · Lo-4' ?11 · ISSUE · 
+- **Wiring (first pass):** 101 connected wire groups from 274 runs; labelled ends: 233 mm → INSERT; 229 mm → ELEMENT, GR, GAIN, SENSITiviTy; 159 mm → COMPRESSOR, SENSiTivITY, BUF, THRESHOLD; 108 mm → GR, BUF; 101 mm → VU, BUF
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p47 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p47%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p47 (traced).dxf`).
+
+### Page 48
+
+- **Sheet:** drawing, size B (assumed) 432 × 282 mm, 2000 × 1307 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–280 mm up
+- **Outlines:** line 2,180 rings, 21,507 straight (31,244 mm) / 5,046 curved (6,151 mm); text 154 rings, 719 straight (610 mm) / 201 curved (254 mm); tb 31 rings, 227 straight (174 mm) / 93 curved (110 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (357.7, 63.1)
+- **Closed boxes:** 24 (9 in the title block); named: DATf JUNE 78 CK
+- **Dots (junctions):** 1
+- **Words (OCR):** 139 in 99 lines: ..25\1' · 2.1 · GO · 1,"V · vee. pc.a 10 · ..oM PONENT · '-NA otJ c:a ..Ro · IH · E3 · 1<5 · 07 · C44, CR ID,
+- **Title block:** (299, 2)–(377, 32) mm: 00. CKD. · USED ON · MA Tl• · :2tU1 · 301,, 1u.:.. · (iE · ht 78 · D'-:N. MRW · ~41 J>.o.:.. · fiNISH · DATf JUNE · CK · SCALE · Ton. · 1M..
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p48 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p48%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p48 (traced).dxf`).
+
+### Page 49
+
+- **Sheet:** drawing, size B (assumed) 432 × 317 mm, 2000 × 1468 px traced (0.216 mm/px)
+- **Ink extent:** 44–432 mm across, 0–306 mm up
+- **Outlines:** line 1,448 rings, 13,145 straight (22,579 mm) / 2,835 curved (3,913 mm); text 643 rings, 3,923 straight (3,704 mm) / 1,247 curved (1,588 mm)
+- **Circles and arcs:** 21 circles, 0 arcs; largest r 6.2 @ (143.3, 232.8), r 6.0 @ (203.3, 174.4), r 5.9 @ (204.5, 105.8), r 5.9 @ (267.0, 272.5)
+- **Closed boxes:** 84; named: SlY1; 5W5; LM ~76; :at :Ql) ',QA; Z4; 'eg] 21 LM~1; '[JJ zz; R45 7115; USED ON; CKO.; G;EB
+- **Words (OCR):** 133 in 108 lines: Om · oj · R.IIS · 75 lc · IES · \1011 · RII7 ..til · SlY1 · Rlll..... · -RlIb -aL · -RllD · \2.~.lmf>
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p49 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p49%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p49 (traced).dxf`).
+
+### Page 50
+
+- **Sheet:** drawing, size B (assumed) 323 × 432 mm, 1497 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 118–323 mm across, 0–432 mm up
+- **Outlines:** line 176 rings, 3,440 straight (8,266 mm) / 555 curved (951 mm); text 217 rings, 2,054 straight (2,769 mm) / 506 curved (824 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (249.2, 91.9), r 2.5 @ (316.1, 207.9)
+- **Closed boxes:** 48; named: 10; co ZI- O:<c; t\l; 111; 11; 12; 13; 14; ::Iii; 15; 16; 17
+- **Dots (junctions):** 3
+- **Words (OCR):** 60 in 53 lines: ui · 111 · en · INPUT · en · SH IELD GND · III · c<c< · ",Ulc< · :ll! · Ul · c<u
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p50 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p50%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p50 (traced).dxf`).
+
+### Page 51
+
+- **Sheet:** schematic 6-106-02-001, size B (assumed) 432 × 273 mm, 2000 × 1266 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–272 mm up
+- **Outlines:** line 880 rings, 9,656 straight (18,840 mm) / 2,189 curved (3,241 mm); text 416 rings, 2,731 straight (3,185 mm) / 882 curved (1,290 mm); tb 82 rings, 552 straight (721 mm) / 151 curved (234 mm)
+- **Centre lines:** 8,878 paths (168 closed); straight 12,958 mm, curved 1,006 mm; horizontal 4,413 mm, vertical 3,071 mm, diagonal 5,474 mm
+- **Circles and arcs:** 53 circles, 158 arcs; largest r 7.7 @ (261.5, 222.3), r 7.5 @ (293.5, 169.7), r 4.3 @ (411.7, 258.2), r 1.7 @ (169.8, 48.6)
+- **Closed boxes:** 28 (15 in the title block); named: MOD.; 2.'34B; 3057
+- **Words (OCR):** 160 in 132 lines: 1101/ RiO · -10V · 2'2.0 · +I~,v · -@ES · Rl · RM · 22M · c.R1 · 47K · R2. · GlI~Q.'1.. BO\-lDEO
+- **Title block:** (169, 5)–(422, 54) mm: ISS. MOD. CKD. · USED · ~WARD .BECK BS LTD. · 2.'34B · M40b · SYSTEMS · 3057 · GEB · DRN. · MRW · 6-10 · DATE JULY '76 · COMPRESSOR CONTROL AMPLIFIER · tp · CKD. · ht · SCHEMATIC · SCALE · XX
+- **Wiring (first pass):** 102 connected wire groups from 645 runs; labelled ends: 328 mm → EI2., R'2.7, R.31, 51K.; 246 mm → 41<7, R34; 157 mm → RIO, M7, If3S, 14; 154 mm → 2.'34B, ISS., MOD.; 144 mm → 2'2.0, 22M, c.R1, 47K
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p51 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p51%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p51 (traced).dxf`).
+
+### Page 52
+
+- **Sheet:** drawing, size B (assumed) 432 × 330 mm, 2000 × 1529 px traced (0.216 mm/px)
+- **Ink extent:** 93–432 mm across, 0–283 mm up
+- **Outlines:** line 608 rings, 7,037 straight (13,955 mm) / 1,654 curved (2,795 mm); text 398 rings, 3,107 straight (3,924 mm) / 938 curved (1,505 mm); tb 29 rings, 244 straight (483 mm) / 46 curved (87.8 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 10.8 @ (227.5, 203.7), r 9.8 @ (252.0, 203.3), r 9.8 @ (195.3, 203.4), r 9.8 @ (364.0, 203.1)
+- **Closed boxes:** 36 (18 in the title block); named: EiJ Z5 L>I; MOD.; 2-'48; 30,,-; ;'<\-11
+- **Dots (junctions):** 2
+- **Words (OCR):** 83 in 48 lines: E3 · A'2 · flT\E · -*CR · CR7 EiJ R2.3 R22.CR6 C9 · Rb RZI · RI4 · Z5 · cf · II · L>I · PAL~l1.
+- **Title block:** (114, 6)–(416, 66) mm: ps · ISS, MOD. CKD. · USED O'l · MATL. · M466 · SYSTEMS · BS LTD · DRN. · MRW · GE · -106 · DATE · JlllY' 76 · ;'<\-11 · FINISH · COMPRESSOR CO · tp NTROL AMPLI FIER · CKD. · ht LAYOUT · SCALE · COMPO
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p52 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p52%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p52 (traced).dxf`).
+
+### Page 53
+
+- **Sheet:** drawing, size B (assumed) 432 × 286 mm, 2000 × 1323 px traced (0.216 mm/px)
+- **Ink extent:** 47–432 mm across, 0–274 mm up
+- **Outlines:** line 252 rings, 3,570 straight (8,797 mm) / 714 curved (984 mm); text 482 rings, 2,627 straight (2,410 mm) / 902 curved (1,136 mm); tb 47 rings, 381 straight (328 mm) / 119 curved (155 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.1 @ (121.3, 261.2), r 1.1 @ (194.6, 66.8)
+- **Closed boxes:** 8 (4 in the title block); named: 'ip
+- **Dots (junctions):** 1
+- **Words (OCR):** 138 in 118 lines: E3 · 18 · 10 lZ5 · J7 · K7 · 22 · IfF · E:l · PN.3 · CI · R6 · 2t.l21
+- **Title block:** (355, 2)–(432, 35) mm: IISSLE DATE · REVISION · APP · tp WARD·se SYSTEMS · \NSS] · ht · ORH. · GEl · ENG.MI · 4/78 · OU PUT AMP LI FIER · -109 · CKD. · SCHEMATIC · SCAl. · ISSU'
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p53 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p53%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p53 (traced).dxf`).
+
+### Page 54
+
+- **Sheet:** drawing, size B (assumed) 432 × 288 mm, 2000 × 1333 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–277 mm up
+- **Outlines:** line 560 rings, 4,618 straight (9,586 mm) / 1,187 curved (2,125 mm); text 345 rings, 2,440 straight (3,180 mm) / 780 curved (1,321 mm); tb 74 rings, 553 straight (889 mm) / 158 curved (266 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 8.6 @ (22.9, 211.7), r 8.6 @ (74.6, 211.7), r 8.6 @ (23.2, 109.7), r 8.6 @ (74.8, 109.5)
+- **Closed boxes:** 9 (6 in the title block); named: EI8 33 Z.k -RI<;' IB 221'. R1 fi JN4 14 ; 35"; 7:2
+- **Dots (junctions):** 1
+- **Words (OCR):** 103 in 80 lines: EI8 · 33 · -RI<;' · Z.k · IB 221'. · fi · R1 · JN4 14 · CR · 10-45 · 7:2 · N2 10Z.
+- **Title block:** (260, 3)–(432, 81) mm: ISSUE DA TE · REVISION · APP · [\NBS] WAR · CK YSTEMS · ps · BS · DRN · E8 · 8-109 · ENG.M RW · 78 · UT PUT AMPLIFIER · CKD · rl2.tMv- · CO PO EN · tp LAY OU · APP. · ht · SCALE · ISSUE · 10
+
+Every curve, box, word and wire group: [1976 - M466 - Compressor - Limiter (2) p54 (traced).json](1976%20-%20M466%20-%20Compressor%20-%20Limiter%20%282%29%20p54%20%28traced%29.json) (the CAD file: `1976 - M466 - Compressor - Limiter (2) p54 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (PDF text layer)

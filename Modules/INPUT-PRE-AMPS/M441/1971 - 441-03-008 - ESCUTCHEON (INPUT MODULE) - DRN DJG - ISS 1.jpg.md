@@ -26,6 +26,18 @@ Wiki page: [M441](../../../PAGES/M441.md)
 
 - **1971** (labelled): `Date APRIL 71` — …ero RD Uhle Sdnes 1 Finish DRN DJG VAPOUR BLAST TOP SURFACE Date APRIL 71 CIterval Cm 4 PLEXIGLEEAck) SCHE FULL Wand beCK SVSTEMS LTD…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 441-03-008, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 557 rings, 9,086 straight (13,611 mm) / 1,319 curved (1,864 mm); text 525 rings, 4,129 straight (4,785 mm) / 1,151 curved (1,900 mm)
+- **Centre lines:** 13,534 paths (122 closed); straight 12,219 mm, curved 262 mm; horizontal 4,806 mm, vertical 2,796 mm, diagonal 4,617 mm
+- **Circles and arcs:** 6 circles, 37 arcs; largest r 5.0 @ (200.9, 187.4), r 1.5 @ (300.3, 188.4), r 1.3 @ (257.6, 67.0), r 1.3 @ (242.0, 66.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 60 in 50 lines: 6.625 · 6-25 · HOLE .196 DIA · 5.187 · 3.562 · 2:75 · 2 HOLES · DRILL & TAP · 8-32 UNC & Csk AT 82 · To 4 DIA · 1*75 · x45"CHAMFER
+
+Every curve, box, word and wire group: [1971 - 441-03-008 - ESCUTCHEON (INPUT MODULE) - DRN DJG - ISS 1 (traced).json](1971%20-%20441-03-008%20-%20ESCUTCHEON%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 441-03-008 - ESCUTCHEON (INPUT MODULE) - DRN DJG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -1,0 +1,432 @@
+{
+ "code": "M7880H",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": true,
+   "size": {
+    "count": 15,
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1,
+    "quote": "Connector, 15 Pin"
+   }
+  },
+  {
+   "name": "P2",
+   "rows": 4,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P6",
+   "rows": 25,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "HAVE ITS MICROPHONE CAPSULE AND THE MATING",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The M7880H Communications Ter\u00adminal may have its microphone capsule and the mat\u00ading 9 pin D data connector for P1 pack\u00adaged separ\u00adately within the shipp\u00ading carton.",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "e)\tMomentary and lock talk keyswitch oper\u00adation tallies are provided at P2-1 & 2 respectively. These open collector outputs may be jumpered to P6 for example, t",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Grounding this pin (P2-4) configures the operating system software to operate the M7880H terminal, while leaving it open (not grounded) configures the operating",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The headset function is selected by connect\u00ading P6-22 to control common (P6-12). The front panel dynamic microphone is switched off, the headset microphone inpu",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Two switchable inputs are provided to the speaker amplifier. They appear at P6-5 & 6 and P6-7 & 8. Control of these inputs is via P6-18 & 19 to control common (",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Two switchable inputs are provided to the speaker amplifier. They appear at P6-5 & 6 and P6-7 & 8. Control of these inputs is via P6-18 & 19 to control common (",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Connector P6 (page 6-3) provides the means of connecting an external headset from a second\u00adary receptacle into the M7880H terminal. Caution must be exercised wh",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Connector P6 (page 6-3) provides the means of connecting an external headset from a second\u00adary receptacle into the M7880H terminal. Caution must be exercised wh",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Connector P6 (page 6-3) provides the means of connecting an external headset from a second\u00adary receptacle into the M7880H terminal. Caution must be exercised wh",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The headset function is selected by connect\u00ading P6-22 to control common (P6-12). The front panel dynamic microphone is switched off, the headset microphone inpu",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P6",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The M7880H may be operated with its inte\u00adgral speaker and front panel microphone or with a headset. An external speaker may be connected at P6-13 & 12, after di",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P6",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "An external preamplifier input is provided at P6-15 & 16. This sound feed is separate from the microphone input. It is selected by con\u00adnecting P6-17 to control ",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "An external preamplifier input is provided at P6-15 & 16. This sound feed is separate from the microphone input. It is selected by con\u00adnecting P6-17 to control ",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Two switchable inputs are provided to the speaker amplifier. They appear at P6-5 & 6 and P6-7 & 8. Control of these inputs is via P6-18 & 19 to control common (",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "b)\tFor applications where the microphone output must be on continuously, regard\u00adless of keyswitch assignments and oper\u00adation, connect P6-20 to control common (P",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The headset function is selected by connect\u00ading P6-22 to control common (P6-12). The front panel dynamic microphone is switched off, the headset microphone inpu",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "23",
+   "row": 23,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "An external part mute control input is available at P6-23.",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "24",
+   "row": 24,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "d)\tFull muting of the terminal speaker may be implemented by connecting P6-24 to con\u00adtrol common (P6-12).",
+   "also": []
+  },
+  {
+   "conn": "P6",
+   "pin": "25",
+   "row": 25,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d20a91fcd644fc6f7cb5f010708430c286c8ac88f969274708a0a63f0cc1b84b",
+    "file": "Modules/COMMUNICATION/M7880H/1994 - M7880H - M7880H - 14-246-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The M7880H may be operated with its inte\u00adgral speaker and front panel microphone or with a headset. An external speaker may be connected at P6-13 & 12, after di",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

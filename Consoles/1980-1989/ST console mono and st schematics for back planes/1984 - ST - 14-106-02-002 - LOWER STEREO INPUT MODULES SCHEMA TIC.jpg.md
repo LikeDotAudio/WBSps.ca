@@ -10,6 +10,21 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,669,030 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-106-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–416 mm across, 19–293 mm up
+- **Outlines:** line 1,297 rings, 12,167 straight (26,218 mm) / 1,982 curved (2,356 mm); text 207 rings, 1,505 straight (1,363 mm) / 452 curved (563 mm)
+- **Centre lines:** 13,893 paths (220 closed); straight 16,177 mm, curved 37.0 mm; horizontal 7,800 mm, vertical 4,908 mm, diagonal 3,469 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 0.8 @ (276.3, 56.1), r 0.8 @ (65.3, 216.7)
+- **Closed boxes:** 58
+- **Dots (junctions):** 4
+- **Words (OCR):** 26 in 24 lines: INSERT OUT · (PREFADER) · INSERI CUT · INSERT RETURN · (PREF ADER) · CAANHEL · CHAN NEL · CHANNO · aa · Ja · 4 31 · 4n0
+- **Title block:** (356, 50)–(425, 66) mm: WARD-BECK SYSTEMS · SA14-106A
+- **Wiring (first pass):** 160 connected wire groups from 1,681 runs, 6 dotted junctions; labelled ends: 2480 mm → aa, Ja, 28, 8 : 9 3 3 2; 278 mm → Ja, aa; 277 mm → 4n0, c cou; 221 mm → 4 31; 175 mm → 8 : 9 3 3 2
+
+Every curve, box, word and wire group: [1984 - ST - 14-106-02-002 - LOWER STEREO INPUT MODULES SCHEMA TIC (traced).json](1984%20-%20ST%20-%2014-106-02-002%20-%20LOWER%20STEREO%20INPUT%20MODULES%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1984 - ST - 14-106-02-002 - LOWER STEREO INPUT MODULES SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

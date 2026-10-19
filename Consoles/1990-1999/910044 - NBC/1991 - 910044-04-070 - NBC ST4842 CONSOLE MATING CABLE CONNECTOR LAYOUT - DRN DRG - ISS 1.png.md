@@ -21,6 +21,18 @@ Wiki page: [Job-910044](../../../PAGES/Job-910044.md)
 - **Size:** 1,011,454 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 910044-04-070, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 387
+- **Ink extent:** 0–428 mm across, 7–302 mm up
+- **Outlines:** line 794 rings, 5,662 straight (14,320 mm) / 1,450 curved (2,710 mm); text 434 rings, 2,964 straight (3,948 mm) / 961 curved (1,461 mm); tb 3 rings, 69 straight (204 mm) / 3 curved (4.1 mm)
+- **Circles and arcs:** 90 circles, 0 arcs; largest r 6.7 @ (96.3, 156.1), r 4.9 @ (95.6, 227.4), r 4.8 @ (214.9, 228.2), r 3.3 @ (69.8, 202.0)
+- **Closed boxes:** 37 (13 in the title block); named: SCALE; CODE: 10044L70
+- **Words (OCR):** 37 in 27 lines: CONSOLE · MATING CABLE · CONNECTOR LAYOUT · CONNECTOR LAYOUT · lISSUEl DATE · REVSION · APP · WARD-BECK SYSTEMS · WBS · SHIELD PIN · DRN: · DRG
+- **Title block:** (265, 32)–(432, 100) mm: lISSUEl DATE · REVSION · APP · WARD-BECK SYSTEMS · WBS · DRN: · DRG · NBC · ST4842 CONSOLE · ENG_ · MA TING CABLE · CKD; · LA YOUT · CONNECTOR · ISSUE · SCALE DISC NO: 387 · 910044-04-070 · CODE: 1004
+
+Every curve, box, word and wire group: [1991 - 910044-04-070 - NBC ST4842 CONSOLE MATING CABLE CONNECTOR LAYOUT - DRN DRG - ISS 1 (traced).json](1991%20-%20910044-04-070%20-%20NBC%20ST4842%20CONSOLE%20MATING%20CABLE%20CONNECTOR%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1991 - 910044-04-070 - NBC ST4842 CONSOLE MATING CABLE CONNECTOR LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

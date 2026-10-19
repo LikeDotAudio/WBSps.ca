@@ -22,6 +22,17 @@ Perspective layout drawing of the M405F single-VU extended range meter.
 - **Size:** 1,706,694 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 405-06-015, size B 432 × 301 mm, 2000 × 1396 px traced (0.216 mm/px)
+- **Ink extent:** 10–427 mm across, 0–301 mm up
+- **Outlines:** line 743 rings, 10,021 straight (12,353 mm) / 1,271 curved (1,404 mm); text 292 rings, 2,144 straight (2,137 mm) / 588 curved (644 mm); tb 54 rings, 686 straight (749 mm) / 76 curved (85.8 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.1 @ (245.1, 142.8), r 1.0 @ (300.4, 206.6)
+- **Words (OCR):** 26 in 26 lines: M780E · SA 14-055A · EXTENDED RANGE AMPLIFIER · POWER SUPPLY · ASSEMBLY · TB1 · aridgl · INPUT · Filter · JRPUT · WBS · Hos]
+- **Title block:** (192, 37)–(432, 146) mm: WBS · Hos] · J1,J2 · WBS · WAAD-BECK BYBTEMB
+
+Every curve, box, word and wire group: [19xx - 405-06-015 - EXTENDED RANGE VU METER PERSPECTIVE LAYOUT - ISS 1 (2) (traced).json](19xx%20-%20405-06-015%20-%20EXTENDED%20RANGE%20VU%20METER%20PERSPECTIVE%20LAYOUT%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 405-06-015 - EXTENDED RANGE VU METER PERSPECTIVE LAYOUT - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

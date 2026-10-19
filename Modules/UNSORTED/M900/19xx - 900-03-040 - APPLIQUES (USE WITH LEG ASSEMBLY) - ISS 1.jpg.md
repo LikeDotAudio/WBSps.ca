@@ -20,6 +20,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 375,900 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-040, size D 864 × 547 mm, 2000 × 1267 px traced (0.432 mm/px)
+- **Ink extent:** 0–850 mm across, 26–531 mm up
+- **Outlines:** line 386 rings, 3,014 straight (15,046 mm) / 580 curved (1,343 mm); text 294 rings, 1,586 straight (2,992 mm) / 558 curved (1,416 mm); tb 15 rings, 126 straight (296 mm) / 29 curved (74.0 mm)
+- **Centre lines:** 4,323 paths (147 closed); straight 10,786 mm, curved 63.5 mm; horizontal 3,325 mm, vertical 2,835 mm, diagonal 4,627 mm
+- **Circles and arcs:** 0 circles, 13 arcs
+- **Closed boxes:** 36 (5 in the title block); named: APPLIQUES (USE WITH LEG ASSEMBLY); DISC; 900-03-040
+- **Words (OCR):** 28 in 23 lines: ECCES' · 900-03 040-2 · 900-03-040-3 · COUSOLE) · OTHER · REO ERS) · 900-03-040_ · COYSOLE; · 0.5o? · 845 · MATERIAL: ALUM ALLOY 0.040 THICK; · FinISH:  SAND 120 Grit AND Paint
+- **Title block:** (670, 58)–(835, 90) mm: [Ssuel DAIE · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-040 - APPLIQUES (USE WITH LEG ASSEMBLY) - ISS 1 (traced).json](19xx%20-%20900-03-040%20-%20APPLIQUES%20%28USE%20WITH%20LEG%20ASSEMBLY%29%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-040 - APPLIQUES (USE WITH LEG ASSEMBLY) - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

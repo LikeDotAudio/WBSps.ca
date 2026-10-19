@@ -23,6 +23,20 @@ Wiki page: [M415](../../../PAGES/M415.md)
 - **Size:** 4,466,749 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 415-02-002, size B 432 × 134 mm, 2000 × 621 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–134 mm up
+- **Outlines:** line 1,127 rings, 8,786 straight (13,696 mm) / 1,785 curved (2,192 mm); text 274 rings, 1,314 straight (1,100 mm) / 415 curved (518 mm)
+- **Centre lines:** 7,910 paths (317 closed); straight 8,601 mm, curved 160 mm; horizontal 3,303 mm, vertical 2,155 mm, diagonal 3,143 mm
+- **Circles and arcs:** 8 circles, 20 arcs; largest r 3.8 @ (112.4, 65.8), r 3.7 @ (180.2, 28.8), r 3.7 @ (212.9, 78.0), r 0.8 @ (256.1, 62.1)
+- **Closed boxes:** 3
+- **Dots (junctions):** 6
+- **Words (OCR):** 45 in 41 lines: 46-0 7 · SEE Dc · Ki07 · Rio · 470 · BOARD · Are · VELUES · OHMS · Resistors · Ric8 · Ves
+- **Wiring (first pass):** 88 connected wire groups from 645 runs, 6 dotted junctions; labelled ends: 238 mm → Ki07, Rio, 244540, Dl40; 141 mm → 4769, C47; 79 mm → CR  =; 42 mm → Ves; 38 mm → C4a
+
+Every curve, box, word and wire group: [1971 - 415-02-002 - COMPRESSOR CONTROL SYSTEM SCHEMATIC - DRN DPS - ISS 3 (2) (traced).json](1971%20-%20415-02-002%20-%20COMPRESSOR%20CONTROL%20SYSTEM%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1971 - 415-02-002 - COMPRESSOR CONTROL SYSTEM SCHEMATIC - DRN DPS - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

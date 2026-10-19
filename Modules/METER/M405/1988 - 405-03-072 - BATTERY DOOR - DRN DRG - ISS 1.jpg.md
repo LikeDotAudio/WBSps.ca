@@ -22,6 +22,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 706,312 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 405-03-072, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 163
+- **Ink extent:** 0–432 mm across, 8–299 mm up
+- **Outlines:** line 128 rings, 2,066 straight (8,240 mm) / 243 curved (317 mm); text 551 rings, 3,484 straight (4,247 mm) / 1,156 curved (1,664 mm); tb 4 rings, 78 straight (203 mm) / 5 curved (7.7 mm)
+- **Centre lines:** 3,684 paths (81 closed); straight 7,302 mm, curved 16.8 mm; horizontal 3,069 mm, vertical 2,056 mm, diagonal 2,177 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 18 (10 in the title block); named: SCALE 1:1; 405-03-072; ISSUE; CODE: 405m72
+- **Words (OCR):** 64 in 45 lines: 4.10 · 0.175 · 3.75 · ALUM ALLOY 0.125 THICK · 0.375 · 3.000 · ALUM ALLOY 0.064 THICK · 0.20 · 0.45 · 0.962 · 3.30 · 2.40
+- **Title block:** (249, 11)–(420, 78) mm: ISSUE| DATE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN: DRG 8/88 · ENG- · BA TTERY DOOR · CKD; · APP · SCALE DISC NO: 163 · 405-03-072 · ISSUE · 1:1 CODE: 405m72
+
+Every curve, box, word and wire group: [1988 - 405-03-072 - BATTERY DOOR - DRN DRG - ISS 1 (traced).json](1988%20-%20405-03-072%20-%20BATTERY%20DOOR%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 405-03-072 - BATTERY DOOR - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

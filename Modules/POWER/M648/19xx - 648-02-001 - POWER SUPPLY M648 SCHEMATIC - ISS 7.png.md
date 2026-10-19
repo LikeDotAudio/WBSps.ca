@@ -22,6 +22,20 @@ Schematic of the M648 power supply with regulator card.
 - **Size:** 955,319 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 648-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–424 mm across, 11–298 mm up
+- **Outlines:** line 744 rings, 11,115 straight (14,569 mm) / 2,005 curved (2,471 mm); text 542 rings, 3,788 straight (4,076 mm) / 1,103 curved (1,605 mm); tb 5 rings, 13 straight (8.3 mm) / 7 curved (8.2 mm)
+- **Centre lines:** 13,655 paths (91 closed); straight 12,176 mm, curved 318 mm; horizontal 4,160 mm, vertical 2,982 mm, diagonal 5,034 mm
+- **Circles and arcs:** 14 circles, 41 arcs; largest r 5.0 @ (374.0, 177.9), r 1.6 @ (63.1, 187.5), r 1.6 @ (95.8, 182.8), r 1.6 @ (194.8, 243.6)
+- **Closed boxes:** 2; named: SENSE
+- **Words (OCR):** 88 in 71 lines: 33 jul6b · Was · 2N3442 OR · P2 · 942.4 · 2n4347 · R2 · 6 WACCR2 · 48v · oiFied · R4 · 26/70
+- **Title block:** (302, 37)–(390, 57) mm: WARD BECK SYSTEMS LTD
+- **Wiring (first pass):** 99 connected wire groups from 554 runs; labelled ends: 313 mm → 33 jul6b, 6 WACCR2, oiFied, 26/70; 252 mm → 470/35; 132 mm → IN5404 X 4; 130 mm → P2, +24V; 125 mm → R2, R4
+
+Every curve, box, word and wire group: [19xx - 648-02-001 - POWER SUPPLY M648 SCHEMATIC - ISS 7 (traced).json](19xx%20-%20648-02-001%20-%20POWER%20SUPPLY%20M648%20SCHEMATIC%20-%20ISS%207%20%28traced%29.json) (the CAD file: `19xx - 648-02-001 - POWER SUPPLY M648 SCHEMATIC - ISS 7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

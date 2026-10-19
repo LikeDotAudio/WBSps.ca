@@ -11,6 +11,20 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 - **Size:** 534,677 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-110-02-001, size B (assumed) 432 × 284 mm, 2000 × 1316 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–273 mm up
+- **Outlines:** line 292 rings, 5,622 straight (12,531 mm) / 810 curved (1,289 mm); text 801 rings, 6,781 straight (8,486 mm) / 1,956 curved (3,152 mm); tb 96 rings, 595 straight (791 mm) / 122 curved (164 mm)
+- **Centre lines:** 8,544 paths (114 closed); straight 13,181 mm, curved 260 mm; horizontal 4,750 mm, vertical 2,687 mm, diagonal 5,744 mm
+- **Circles and arcs:** 5 circles, 19 arcs; largest r 6.8 @ (195.2, 232.9), r 6.6 @ (151.8, 222.5), r 6.4 @ (84.3, 191.4), r 6.2 @ (119.2, 191.1)
+- **Closed boxes:** 25 (24 in the title block)
+- **Words (OCR):** 133 in 119 lines: PRE · AMPLIEIER · HIGH · PASS FILTER · E4 · +21v · RA · R5 · C12 · C6 · 22k · 18
+- **Title block:** (138, 5)–(420, 58) mm: ISS MOD ICKD: · USED ON · MATL _ · E esk- 44 · WBS WARD-BECK · SYSTEMS LTD_ · Ibodk · DRN Do · 4-110 · DATE 8MARZ4 · Ru · FINISH · PRE-AMP/HP FILTER · JIRc · CKD: L4 · [SCALE · SCHEMATIC · I391PKM
+- **Wiring (first pass):** 58 connected wire groups from 290 runs; labelled ends: 482 mm → C6, R2, ISk, AMPLIEIER; 370 mm → C12, 22/10, 94, 2N4403; 228 mm → RI, 1k5, RI2, 150; 202 mm → COMPONENT, E9, 0-21v; 150 mm → 47pF, 2N5209-, R6, 20k
+
+Every curve, box, word and wire group: [1976 - M460B - 4-110-02-001 - MPONENT DESICN RIG CIG (traced).json](1976%20-%20M460B%20-%204-110-02-001%20-%20MPONENT%20DESICN%20RIG%20CIG%20%28traced%29.json) (the CAD file: `1976 - M460B - 4-110-02-001 - MPONENT DESICN RIG CIG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

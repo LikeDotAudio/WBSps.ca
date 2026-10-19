@@ -24,6 +24,21 @@ Photo of a WBS 501A preamp schematic with title block at bottom right.
 - **Size:** 1,227,437 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 501-02-002, size B 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 25–431 mm across, 15–321 mm up
+- **Outlines:** line 545 rings, 5,264 straight (7,488 mm) / 540 curved (808 mm); text 306 rings, 2,098 straight (2,274 mm) / 537 curved (771 mm); tb 43 rings, 300 straight (359 mm) / 75 curved (103 mm)
+- **Centre lines:** 2,527 paths (28 closed); straight 5,375 mm, curved 79.2 mm; horizontal 2,230 mm, vertical 1,508 mm, diagonal 1,637 mm
+- **Circles and arcs:** 0 circles, 18 arcs
+- **Closed boxes:** 4 (3 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 61 in 58 lines: RIS · 470 · (62 · AVv · I0 / · Can · 212 · 21364 · 2niti · ZNZ052 · 02 · BR
+- **Title block:** (176, 35)–(409, 92) mm: BECK   SYSTEMS · @TD · DRN · FINISH · WARD · DATE · SCHEMATIC · 50IA   PREAMP · CHKD · MATERIAL · SCALE · ISS · ANGLES · DEC · To PLACES GIVEN,
+- **Wiring (first pass):** 68 connected wire groups from 327 runs; labelled ends: 51 mm → GIVEN,, ANGLES, UNLESS SPECIFIED, DEC; 46 mm → Go-; 43 mm → SCALE, MNBEND RAD; 37 mm → ANGLES; 34 mm → 2n4037
+
+Every curve, box, word and wire group: [1958 - 501-02-002 - 501A PREAMP SCHEMATIC - DRN O'CONNELL handwritten, uncertain - ISS 1 (traced).json](1958%20-%20501-02-002%20-%20501A%20PREAMP%20SCHEMATIC%20-%20DRN%20O%27CONNELL%20handwritten%2C%20uncertain%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1958 - 501-02-002 - 501A PREAMP SCHEMATIC - DRN O'CONNELL handwritten, uncertain - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

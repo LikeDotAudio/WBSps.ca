@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,339,499 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940184-04-002, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 43–424 mm across, 7–229 mm up
+- **Outlines:** line 714 rings, 4,604 straight (13,651 mm) / 1,044 curved (1,628 mm); text 265 rings, 1,533 straight (1,566 mm) / 484 curved (617 mm); tb 20 rings, 162 straight (190 mm) / 42 curved (46.1 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 4.5 @ (108.2, 220.2), r 4.5 @ (248.1, 219.9), r 4.5 @ (229.0, 158.1), r 4.5 @ (89.3, 170.2)
+- **Closed boxes:** 55 (4 in the title block); named: TalkbACK ADORESS TALKBACk LEVEM USE BUSY; TALKBACK ADDRESS BUSY HEADPHONES; TalkbACK ADORESS TALKBACk LEVEM USE BUSY; HEAOEHCNE; HEAOEHCNE; GLENN  GOULD STUDIO TURRET LAYOUTS; 940184-04-002
+- **Dots (junctions):** 16
+- **Words (OCR):** 35 in 29 lines: TALKBACK ADDRESS · TalkbACK ADORESS · BUSY · TALKBACk · LEVEM · BUSY · USE · HEADPHONES · TP VieW · TOP VEW · MURRET · 'PRODUCER" TuARET
+- **Title block:** (345, 23)–(429, 39) mm: WBS · WARD-BECK SYSTEMS · GLENN  GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - DOC - 940184-04-002 - NOTE REAR VEW IDENTICAL FOR BOTH TURRETS (traced).json](1994%20-%20DOC%20-%20940184-04-002%20-%20NOTE%20REAR%20VEW%20IDENTICAL%20FOR%20BOTH%20TURRETS%20%28traced%29.json) (the CAD file: `1994 - DOC - 940184-04-002 - NOTE REAR VEW IDENTICAL FOR BOTH TURRETS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

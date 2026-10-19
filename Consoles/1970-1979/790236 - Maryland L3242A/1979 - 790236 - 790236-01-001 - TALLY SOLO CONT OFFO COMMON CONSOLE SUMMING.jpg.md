@@ -10,6 +10,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,012,163 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 790236-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–305 mm across, 0–432 mm up
+- **Outlines:** line 490 rings, 5,000 straight (8,633 mm) / 766 curved (1,113 mm); text 708 rings, 4,409 straight (4,889 mm) / 1,333 curved (1,872 mm)
+- **Centre lines:** 7,836 paths (121 closed); straight 8,005 mm, curved 285 mm; horizontal 3,023 mm, vertical 1,951 mm, diagonal 3,031 mm
+- **Circles and arcs:** 17 circles, 33 arcs; largest r 4.1 @ (198.9, 249.5), r 1.4 @ (212.8, 296.2), r 1.4 @ (246.5, 130.2), r 1.3 @ (196.3, 375.1)
+- **Closed boxes:** 2
+- **Dots (junctions):** 2
+- **Words (OCR):** 125 in 115 lines: K9 · M1 · OUt · MASTER · +8 dBm · MI,M2 IDENTICAL) · K10 · BRIDGING LOAD · M1 · Vi · K11 · K12
+- **Wiring (first pass):** 91 connected wire groups from 362 runs, 7 dotted junctions; labelled ends: 289 mm → MASTER, C19, 8dBm, SQLO; 133 mm → MASTER, FADER, C13; 110 mm → E1; 88 mm → LINE KEY, MLO, TALLY; 66 mm → M477, MODULE
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-01-001 - TALLY SOLO CONT OFFO COMMON CONSOLE SUMMING (traced).json](1979%20-%20790236%20-%20790236-01-001%20-%20TALLY%20SOLO%20CONT%20OFFO%20COMMON%20CONSOLE%20SUMMING%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-01-001 - TALLY SOLO CONT OFFO COMMON CONSOLE SUMMING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [M475A](../../../PAGES/M475A.md)
 - **Size:** 844,227 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 475-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 4–399 mm up
+- **Outlines:** line 449 rings, 5,786 straight (11,593 mm) / 1,255 curved (1,708 mm); text 473 rings, 3,465 straight (3,405 mm) / 1,169 curved (1,544 mm); tb 2 rings, 77 straight (156 mm) / 2 curved (3.4 mm)
+- **Centre lines:** 7,529 paths (118 closed); straight 8,996 mm, curved 289 mm; horizontal 3,011 mm, vertical 2,905 mm, diagonal 3,080 mm
+- **Circles and arcs:** 8 circles, 28 arcs; largest r 4.9 @ (78.0, 183.2), r 4.8 @ (89.5, 77.9), r 4.8 @ (119.4, 216.0), r 4.8 @ (90.2, 149.3)
+- **Closed boxes:** 9; named: 5A14-140 DUAL BOOSTER AMPLIFIER
+- **Words (OCR):** 99 in 94 lines: AAE 1/4w 53 · INT DESICNA Mons: · R6S, · MUTE · LEFT · MONITOR · OUTPUTS · 5A14-140 · BdBm 600 n · DUAL · BOOSTER · AMPLIFIER
+- **Title block:** (211, 39)–(338, 64) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 67 connected wire groups from 575 runs; labelled ends: 1203 mm → RJO, J-1,2, 310, +18v; 358 mm → CJZ, 22/25, C36, 0.1/100; 303 mm → 2k2 }, R47, Zw-c, RSB; 216 mm → TN2102, +18V, 22/25, CJZ; 193 mm → C3}, 22/25, 0./100, C39
+
+Every curve, box, word and wire group: [1986 - M475A - 475-02-002 - STEREO MONITOR MODULE SCHEMATIC (traced).json](1986%20-%20M475A%20-%20475-02-002%20-%20STEREO%20MONITOR%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1986 - M475A - 475-02-002 - STEREO MONITOR MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

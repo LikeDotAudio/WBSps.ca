@@ -22,6 +22,19 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 1,207,690 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 445-03-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SysO1
+- **Ink extent:** 37–431 mm across, 0–298 mm up
+- **Outlines:** line 132 rings, 2,199 straight (7,784 mm) / 255 curved (452 mm); text 1,088 rings, 6,962 straight (8,186 mm) / 2,257 curved (3,283 mm); tb 18 rings, 127 straight (224 mm) / 24 curved (32.3 mm)
+- **Centre lines:** 7,505 paths (162 closed); straight 10,005 mm, curved 100 mm; horizontal 3,354 mm, vertical 2,516 mm, diagonal 4,135 mm
+- **Circles and arcs:** 4 circles, 11 arcs; largest r 5.0 @ (268.0, 169.9), r 4.7 @ (315.9, 203.5), r 1.3 @ (428.9, 295.5), r 1.2 @ (129.9, 111.6)
+- **Closed boxes:** 19 (14 in the title block)
+- **Words (OCR):** 113 in 90 lines: C.R.S. 0.125 DIA · 0.750 · Fo.450-7 · F-0.250 · 0.625 · 0.150 · CR.S: 0.25 DIA · 0.375 · 0.125 · 0.210 · THROUGH · 0.128 DIA
+- **Title block:** (288, 17)–(420, 71) mm: ISSUE · REVSION · WBS · WARD-BECK SYSTEMS · DRN: DRG(8 · ENG_ · FRONT LOCK · CKD · LATCH · & BLOCK · APP · SCALE DISC NO: SysO1 · 445-03-010 · ISSUE · CODE: MM445-10
+
+Every curve, box, word and wire group: [1995 - 445-03-010 - FRONT LOCK LATCH & BLOCK - DRN DRG - ISS 1 (traced).json](1995%20-%20445-03-010%20-%20FRONT%20LOCK%20LATCH%20%26%20BLOCK%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 445-03-010 - FRONT LOCK LATCH & BLOCK - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

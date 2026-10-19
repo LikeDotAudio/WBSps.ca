@@ -11,6 +11,19 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 349,397 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-004, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–426 mm up
+- **Outlines:** line 177 rings, 5,022 straight (7,479 mm) / 647 curved (1,063 mm); text 177 rings, 1,543 straight (1,830 mm) / 410 curved (696 mm)
+- **Centre lines:** 1,729 paths (55 closed); straight 4,999 mm, curved 442 mm; horizontal 2,072 mm, vertical 1,534 mm, diagonal 1,394 mm
+- **Circles and arcs:** 29 circles, 22 arcs; largest r 3.1 @ (299.3, 250.9), r 3.1 @ (298.7, 234.8), r 3.1 @ (298.6, 226.7), r 3.0 @ (298.9, 267.5)
+- **Closed boxes:** 3
+- **Words (OCR):** 21 in 21 lines: OUTPU · 8 OHM · 4 OHM · 16 · 160 · 150 · 140 · 12 · 38 · C3 · JO · IOO
+- **Wiring (first pass):** 65 connected wire groups from 193 runs; labelled ends: 149 mm → OUTPU; 65 mm → C3; 64 mm → 4 OHM; 54 mm → 16, 150; 40 mm → 12, C3
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-004 - OUTPUT PRIVARY DIRECT OUTPUT SIGNA GROUND (traced).json](1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIVARY%20DIRECT%20OUTPUT%20SIGNA%20GROUND%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-004 - OUTPUT PRIVARY DIRECT OUTPUT SIGNA GROUND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

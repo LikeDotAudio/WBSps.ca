@@ -11,6 +11,20 @@ Wiki page: [M490G](../../../PAGES/M490G.md)
 - **Size:** 180,498 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-008, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 2–422 mm up
+- **Outlines:** line 100 rings, 2,221 straight (6,606 mm) / 268 curved (397 mm); text 204 rings, 1,867 straight (2,869 mm) / 512 curved (925 mm); tb 27 rings, 197 straight (408 mm) / 25 curved (31.7 mm)
+- **Centre lines:** 1,730 paths (31 closed); straight 5,205 mm, curved 42.1 mm; horizontal 2,354 mm, vertical 1,406 mm, diagonal 1,444 mm
+- **Circles and arcs:** 1 circles, 8 arcs; largest r 1.1 @ (85.8, 339.3)
+- **Closed boxes:** 11 (10 in the title block); named: ISSUE
+- **Words (OCR):** 30 in 25 lines: P1 · P2 · P 3 · P3 · P4 · CUE · AsSIGN · On · AsSIGN · TALLY · ISSUE DATE · REVISION
+- **Title block:** (117, 5)–(336, 108) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. PA 82 · MAT · M49OG · ENG. PA · MIC INPUT MODULE · CKD: · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 490-01-008
+- **Wiring (first pass):** 54 connected wire groups from 90 runs; labelled ends: 181 mm → P 3; 32 mm → P 3; 15 mm → P4; 15 mm → P2; 15 mm → P1
+
+Every curve, box, word and wire group: [1978 - M490G - 490-01-008 - INPUT MODULE FUNCTIONAL DIAGRAM (traced).json](1978%20-%20M490G%20-%20490-01-008%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1978 - M490G - 490-01-008 - INPUT MODULE FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

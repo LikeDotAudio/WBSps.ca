@@ -11,6 +11,19 @@ Wiki page: [M453A](../../../PAGES/M453A.md)
 - **Size:** 203,861 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 453-06-002, size B (assumed) 432 × 331 mm, 2000 × 1533 px traced (0.216 mm/px)
+- **Ink extent:** 34–432 mm across, 0–331 mm up
+- **Outlines:** line 545 rings, 4,934 straight (12,406 mm) / 1,294 curved (1,298 mm); text 715 rings, 4,852 straight (4,409 mm) / 1,791 curved (1,920 mm); tb 215 rings, 1,571 straight (3,059 mm) / 446 curved (454 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 5.1 @ (294.8, 270.5), r 4.1 @ (160.7, 181.9), r 4.1 @ (160.3, 137.8), r 2.5 @ (104.8, 104.7)
+- **Closed boxes:** 37 (23 in the title block); named: 7SA; 24 CD4016; 24 CD4016; Zi LMW5B; MRB 3424; RZb Sk 4'
+- **Dots (junctions):** 1
+- **Words (OCR):** 111 in 100 lines: R2o zek · R4 J · Ris KeK · Rb 22* · RS ISk · Rikzu · RIi_ISK · 23 · R6 4 · Rib M · 24 · #crg _ CD40l6
+- **Title block:** (235, 0)–(432, 219) mm: WBS · CANADA · 7-119 · R3g4*7 · R40 #7 · R43520 · cri4ie · Cr2 4146 · Cr8 %3 R47 H1 #(R6445 · R4s- · R44 WeK · RA6 224 · [(2495 · 3750 · ISSUE  DATE · REVISION · WBS WARD-BECK SYSTEMS · DRN Mrw 01/78 
+
+Every curve, box, word and wire group: [1978 - M453A - 453-06-002 - CUE AMPLIFIER COMPONENT LAYOUT (traced).json](1978%20-%20M453A%20-%20453-06-002%20-%20CUE%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1978 - M453A - 453-06-002 - CUE AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

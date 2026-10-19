@@ -22,6 +22,17 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,714,933 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 880651-02-003, size B (assumed) 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–324 mm across, 0–288 mm up
+- **Outlines:** line 150 rings, 766 straight (1,664 mm) / 81 curved (121 mm); text 14 rings, 85 straight (103 mm) / 12 curved (22.3 mm)
+- **Centre lines:** 277 paths (0 closed); straight 750 mm, curved 2.9 mm; horizontal 223 mm, vertical 375 mm, diagonal 152 mm
+- **Circles and arcs:** 0 circles, 1 arcs
+- **Wiring (first pass):** 14 connected wire groups from 86 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-003 - REVERB RETURN SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%20880651-02-003%20-%20REVERB%20RETURN%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-003 - REVERB RETURN SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

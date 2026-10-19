@@ -21,6 +21,19 @@ Wiki page: [Job-940443](../../../PAGES/Job-940443.md)
 - **Size:** 452,279 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940443-03-004, size D 864 × 560 mm, 2000 × 1298 px traced (0.432 mm/px)
+- **Ink extent:** 53–846 mm across, 13–507 mm up
+- **Outlines:** line 786 rings, 5,233 straight (26,227 mm) / 1,193 curved (2,697 mm); text 332 rings, 1,781 straight (3,031 mm) / 601 curved (1,460 mm); tb 26 rings, 212 straight (459 mm) / 41 curved (95.2 mm)
+- **Centre lines:** 7,681 paths (222 closed); straight 17,443 mm, curved 56.1 mm; horizontal 9,660 mm, vertical 2,727 mm, diagonal 5,056 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 1.7 @ (154.5, 107.3)
+- **Closed boxes:** 51 (4 in the title block); named: PANEL (10 POTS) IFB; 940443-03-004; SCME; CCDE; 04245404
+- **Words (OCR):** 53 in 51 lines: 47.40 · 16710 · PITCHES · J5.10 · 1.0C0 · 0.200 · 0,080 OTPLERCES · SIDE · 0 2o0 · 440 · 0.492 · 1810 1n
+- **Title block:** (688, 46)–(857, 79) mm: WBS · WARD-BECK   SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940443-03-004 - IFB PANEL (10 POTS) - DRN DRG - ISS 1 (traced).json](1994%20-%20940443-03-004%20-%20IFB%20PANEL%20%2810%20POTS%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940443-03-004 - IFB PANEL (10 POTS) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

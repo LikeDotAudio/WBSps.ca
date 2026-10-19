@@ -12,6 +12,16 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 6,668,557 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-081-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–431 mm across, 17–305 mm up
+- **Outlines:** line 736 rings, 4,742 straight (5,986 mm) / 1,295 curved (1,328 mm); text 87 rings, 511 straight (425 mm) / 202 curved (211 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 3.0 @ (302.4, 137.5), r 3.0 @ (302.3, 163.8), r 1.6 @ (360.8, 35.5), r 1.6 @ (371.3, 35.4)
+- **Closed boxes:** 13
+
+Every curve, box, word and wire group: [1988 - M520 - 14-081-06-001 - PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](1988%20-%20M520%20-%2014-081-06-001%20-%20PREAMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1988 - M520 - 14-081-06-001 - PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

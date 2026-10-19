@@ -11,6 +11,20 @@ Wiki page: [M522](../../../PAGES/M522.md)
 - **Size:** 287,781 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 522-01-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 12–294 mm up
+- **Outlines:** line 54 rings, 1,071 straight (2,447 mm) / 126 curved (206 mm); text 132 rings, 1,024 straight (1,313 mm) / 259 curved (399 mm); tb 2 rings, 59 straight (154 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 937 paths (21 closed); straight 1,997 mm, curved 50.1 mm; horizontal 733 mm, vertical 513 mm, diagonal 751 mm
+- **Circles and arcs:** 2 circles, 4 arcs; largest r 3.9 @ (131.6, 196.6), r 1.1 @ (132.4, 276.7)
+- **Closed boxes:** 1
+- **Words (OCR):** 15 in 14 lines: NSERT · output · EL · FREQ · cuT/ · FREQ · BOOST · WBS · WARD-BECK SYSTEMS · M522 · EQUALIZER MODULE · FUNCTIONAL
+- **Title block:** (211, 46)–(336, 70) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 38 connected wire groups from 69 runs; labelled ends: 131 mm → NSERT; 72 mm → NSERT, output; 19 mm → FREQ; 11 mm → output; 11 mm → output
+
+Every curve, box, word and wire group: [19xx - M522 - 522-01-001 - EQUALIZER MODULE FUNCTIONAL (traced).json](19xx%20-%20M522%20-%20522-01-001%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - M522 - 522-01-001 - EQUALIZER MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

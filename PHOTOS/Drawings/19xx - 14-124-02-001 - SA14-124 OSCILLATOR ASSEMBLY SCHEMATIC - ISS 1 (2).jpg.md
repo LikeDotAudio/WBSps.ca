@@ -22,6 +22,20 @@ SA14-124 oscillator assembly schematic with show-through from the reverse page.
 - **Size:** 3,533,876 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-124-02-001, size B 432 × 278 mm, 2000 × 1286 px traced (0.216 mm/px)
+- **Ink extent:** 2–422 mm across, 0–278 mm up
+- **Outlines:** line 719 rings, 7,927 straight (11,869 mm) / 1,843 curved (2,165 mm); text 235 rings, 1,580 straight (1,487 mm) / 471 curved (611 mm); tb 2 rings, 51 straight (107 mm) / 1 curved (2.2 mm)
+- **Centre lines:** 10,171 paths (140 closed); straight 8,475 mm, curved 134 mm; horizontal 2,816 mm, vertical 2,420 mm, diagonal 3,239 mm
+- **Circles and arcs:** 2 circles, 40 arcs; largest r 4.0 @ (118.4, 113.5), r 0.8 @ (302.6, 114.0)
+- **Closed boxes:** 3
+- **Words (OCR):** 37 in 33 lines: 600 /16 · Sn= · OSCILLATO? · Ouiput · 3/16 · 680/16 · 22/25 · Te · 10/25 · AGC · 700 · 5W-3
+- **Title block:** (332, 31)–(431, 47) mm: WBS WAAD-BeCk SYSTEMS
+- **Wiring (first pass):** 103 connected wire groups from 705 runs; labelled ends: 171 mm → LuBJW, 94, 22/25; 121 mm → 3/16, 22/25; 102 mm → 94, 10/25; 95 mm → Te, 78, T2f3, 0.1/100; 67 mm → 100/25 -
+
+Every curve, box, word and wire group: [19xx - 14-124-02-001 - SA14-124 OSCILLATOR ASSEMBLY SCHEMATIC - ISS 1 (2) (traced).json](19xx%20-%2014-124-02-001%20-%20SA14-124%20OSCILLATOR%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 14-124-02-001 - SA14-124 OSCILLATOR ASSEMBLY SCHEMATIC - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

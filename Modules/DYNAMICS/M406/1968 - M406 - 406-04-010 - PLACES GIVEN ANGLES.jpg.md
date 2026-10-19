@@ -11,6 +11,17 @@ Wiki page: [M406](../../../PAGES/M406.md)
 - **Size:** 7,429,731 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 406-04-010, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–428 mm across, 18–305 mm up
+- **Outlines:** line 759 rings, 10,759 straight (15,926 mm) / 1,580 curved (2,550 mm); text 365 rings, 3,295 straight (3,602 mm) / 885 curved (1,326 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 6.7 @ (393.3, 243.6), r 6.7 @ (333.8, 204.8), r 6.1 @ (334.0, 165.3), r 5.9 @ (344.1, 125.6)
+- **Closed boxes:** 17
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1968 - M406 - 406-04-010 - PLACES GIVEN ANGLES (traced).json](1968%20-%20M406%20-%20406-04-010%20-%20PLACES%20GIVEN%20ANGLES%20%28traced%29.json) (the CAD file: `1968 - M406 - 406-04-010 - PLACES GIVEN ANGLES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

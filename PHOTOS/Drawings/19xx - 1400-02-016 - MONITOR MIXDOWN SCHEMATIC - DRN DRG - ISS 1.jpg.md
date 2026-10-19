@@ -19,6 +19,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 3,756,510 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 1400-02-016, size B (assumed) 432 × 203 mm, 2000 × 942 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 20–148 mm up
+- **Outlines:** line 1,114 rings, 8,006 straight (14,662 mm) / 1,501 curved (1,853 mm); text 218 rings, 1,348 straight (1,128 mm) / 394 curved (475 mm)
+- **Centre lines:** 10,455 paths (165 closed); straight 9,565 mm, curved 157 mm; horizontal 4,531 mm, vertical 2,055 mm, diagonal 2,980 mm
+- **Circles and arcs:** 0 circles, 60 arcs
+- **Closed boxes:** 52
+- **Wiring (first pass):** 86 connected wire groups from 1,002 runs
+
+Every curve, box, word and wire group: [19xx - 1400-02-016 - MONITOR MIXDOWN SCHEMATIC - DRN DRG - ISS 1 (traced).json](19xx%20-%201400-02-016%20-%20MONITOR%20MIXDOWN%20SCHEMATIC%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 1400-02-016 - MONITOR MIXDOWN SCHEMATIC - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

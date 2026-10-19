@@ -22,6 +22,18 @@ M538 switcher module layout with front panel callouts.
 - **Size:** 3,138,744 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 538-04-001, size B 432 × 276 mm, 2000 × 1278 px traced (0.216 mm/px)
+- **Ink extent:** 20–428 mm across, 0–276 mm up
+- **Outlines:** line 221 rings, 2,842 straight (6,595 mm) / 351 curved (499 mm); text 98 rings, 678 straight (746 mm) / 166 curved (247 mm); tb 35 rings, 267 straight (461 mm) / 43 curved (65.3 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 3.4 @ (350.4, 124.3), r 3.4 @ (218.2, 150.8), r 3.4 @ (350.3, 177.5), r 3.4 @ (350.2, 167.1)
+- **Closed boxes:** 12 (2 in the title block)
+- **Words (OCR):** 9 in 8 lines: WBS · 14-.27 · WBS WARD-Beck BYSTEMB · M538A/B/C · Switcher MODULES · MODULE LAYOUT · B 538-04-001 · ISS.1
+- **Title block:** (49, 35)–(425, 135) mm: WBS · 14-.27 · WBS WARD-Beck BYSTEMB
+
+Every curve, box, word and wire group: [19xx - 538-04-001 - SWITCHER MODULES MODULE LAYOUT - ISS 1 (traced).json](19xx%20-%20538-04-001%20-%20SWITCHER%20MODULES%20MODULE%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 538-04-001 - SWITCHER MODULES MODULE LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

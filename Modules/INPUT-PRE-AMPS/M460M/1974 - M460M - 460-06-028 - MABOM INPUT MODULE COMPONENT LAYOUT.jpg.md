@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 1,318,810 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 460-06-028, size B (assumed) 432 × 317 mm, 2000 × 1470 px traced (0.216 mm/px)
+- **Ink extent:** 1–425 mm across, 2–305 mm up
+- **Outlines:** line 4,788 rings, 25,932 straight (30,668 mm) / 5,649 curved (5,086 mm); text 114 rings, 787 straight (758 mm) / 236 curved (277 mm); tb 5 rings, 59 straight (110 mm) / 12 curved (11.9 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.6 @ (143.4, 116.6), r 0.6 @ (97.7, 68.9)
+- **Closed boxes:** 45
+- **Dots (junctions):** 7
+- **Words (OCR):** 9 in 7 lines: WBS WAAD-BECK 9ybteMS · M46om · INPUT MODULE · COMPONENT · LAYOUT · 8 460-06-028 · ISS.
+- **Title block:** (333, 34)–(432, 51) mm: WBS WAAD-BECK 9ybteMS
+
+Every curve, box, word and wire group: [1974 - M460M - 460-06-028 - MABOM INPUT MODULE COMPONENT LAYOUT (traced).json](1974%20-%20M460M%20-%20460-06-028%20-%20MABOM%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-06-028 - MABOM INPUT MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

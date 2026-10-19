@@ -21,6 +21,17 @@ Studio monitor module component layout. Title block at top right reading downwar
 - **Size:** 5,944,623 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 940444-06-302, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–422 mm across, 20–305 mm up
+- **Outlines:** line 3,472 rings, 23,644 straight (26,387 mm) / 7,447 curved (7,714 mm); text 589 rings, 3,483 straight (2,850 mm) / 1,463 curved (1,565 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 3.3 @ (376.2, 127.0), r 3.3 @ (384.1, 127.0), r 3.3 @ (381.4, 153.9), r 3.1 @ (230.5, 182.3)
+- **Closed boxes:** 31
+- **Dots (junctions):** 4
+
+Every curve, box, word and wire group: [1994 - 940444-06-302 - M905B STUDIO MONITOR MODULE COMPONENT LAYOUT - ISS 1 (traced).json](1994%20-%20940444-06-302%20-%20M905B%20STUDIO%20MONITOR%20MODULE%20COMPONENT%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940444-06-302 - M905B STUDIO MONITOR MODULE COMPONENT LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -23,6 +23,20 @@ Schematic of the M490S stereo input switcher module with eight pushbuttons.
 - **Size:** 1,262,960 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 490-02-024/2, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 4–298 mm up
+- **Outlines:** line 173 rings, 2,692 straight (6,979 mm) / 497 curved (715 mm); text 194 rings, 1,523 straight (1,422 mm) / 505 curved (650 mm)
+- **Centre lines:** 3,825 paths (55 closed); straight 4,948 mm, curved 205 mm; horizontal 2,319 mm, vertical 1,288 mm, diagonal 1,342 mm
+- **Circles and arcs:** 8 circles, 28 arcs; largest r 2.7 @ (335.6, 148.5), r 2.6 @ (299.7, 148.7), r 2.6 @ (263.4, 148.8), r 2.6 @ (227.2, 149.0)
+- **Closed boxes:** 7
+- **Words (OCR):** 28 in 25 lines: (ALL PUSHBUTTONS ARE DIALIGHT MOM 554-3221) · FROM · 490-02-024/1 · CR26 · CRZB · CR29 · CRSO · CR32 · CRJJ · IN4OOJ · IN4OO} · IN4OOJ
+- **Title block:** (356, 34)–(426, 50) mm: WARD-BECK SYSTEMS · M49os
+- **Wiring (first pass):** 36 connected wire groups from 261 runs; labelled ends: 53 mm → CRJJ, IN4OOJ; 52 mm → CRSO, IN4OOJ; 47 mm → CR29, IN4005; 46 mm → CRZB, IN4OOJ; 46 mm → CR26, IN4OOJ
+
+Every curve, box, word and wire group: [19xx - 490-02-024 - M490S STEREO INPUT SWITCHER MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20490-02-024%20-%20M490S%20STEREO%20INPUT%20SWITCHER%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 490-02-024 - M490S STEREO INPUT SWITCHER MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -21,6 +21,21 @@ Wiki page: [Job-93032](../../../PAGES/Job-93032.md)
 - **Size:** 363,996 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 93032-01-006, size D 864 × 569 mm, 2000 × 1318 px traced (0.432 mm/px)
+- **Ink extent:** 229–862 mm across, 0–504 mm up
+- **Outlines:** line 486 rings, 3,838 straight (13,820 mm) / 773 curved (1,888 mm); text 217 rings, 1,501 straight (2,719 mm) / 457 curved (1,162 mm); tb 13 rings, 115 straight (301 mm) / 23 curved (55.2 mm)
+- **Centre lines:** 8,158 paths (101 closed); straight 11,234 mm, curved 104 mm; horizontal 4,057 mm, vertical 2,961 mm, diagonal 4,215 mm
+- **Circles and arcs:** 1 circles, 15 arcs; largest r 2.1 @ (812.6, 5.0)
+- **Closed boxes:** 45 (3 in the title block); named: ATR; Boou; CONTERP INTFRFACE; TELTEHONE; STUDIO CTS DRAMA 24x36 MiniCOM FUNCTIONA
+- **Dots (junctions):** 1
+- **Words (OCR):** 35 in 33 lines: FLCCR · FLodR · CiRCUM · (SUPPLEID · OTHFRST · CONTERP · INTFRFACE · IpH-2 · Boou · CHANNEL · Cacum · boov
+- **Title block:** (701, 29)–(864, 64) mm: REMSC · WBS · WARD-BECK SYSTEMS · CTS DRAMA · STUDIO
+- **Wiring (first pass):** 106 connected wire groups from 743 runs, 2 dotted junctions; labelled ends: 1254 mm → CONTERP, ASS COFNECTTOMPUIER; 137 mm → TELTEHONE, Jeco; 25 mm → CoTa; 17 mm → WBS; 16 mm → FLodR
+
+Every curve, box, word and wire group: [1993 - 93032-01-006 - CTS DRAMA STUDIO 24x36 MiniCOM SYSTEM FUNCTIONAL - DRN DRG - ISS 2 (traced).json](1993%20-%2093032-01-006%20-%20CTS%20DRAMA%20STUDIO%2024x36%20MiniCOM%20SYSTEM%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1993 - 93032-01-006 - CTS DRAMA STUDIO 24x36 MiniCOM SYSTEM FUNCTIONAL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 1,333,398 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 529-04-001, size B (assumed) 234 × 432 mm, 1085 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–234 mm across, 0–428 mm up
+- **Outlines:** line 658 rings, 5,389 straight (9,166 mm) / 975 curved (1,532 mm); text 183 rings, 1,626 straight (2,026 mm) / 493 curved (764 mm); tb 25 rings, 1,002 straight (2,042 mm) / 96 curved (154 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 5.6 @ (43.3, 98.1), r 5.6 @ (43.1, 112.6), r 5.6 @ (43.2, 140.3), r 5.5 @ (43.2, 126.7)
+- **Closed boxes:** 8; named: so Nx ^ux
+- **Words (OCR):** 27 in 23 lines: Osc · TONE · PGm · SLATE · PEAK · so · Nx · ^ux · ISSUE DATE · REVISION · APP · WBS
+- **Title block:** (79, 0)–(234, 76) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · M529 · ENG_ MKJ COMMUNICATIONS MODULE · CKD lot- · FRONT PANEL LAYOUT · APP · SCALE · ISSUE · 529-04-001
+
+Every curve, box, word and wire group: [1985 - ST - 529-04-001 - COMMUNICA TIONS MODULE (traced).json](1985%20-%20ST%20-%20529-04-001%20-%20COMMUNICA%20TIONS%20MODULE%20%28traced%29.json) (the CAD file: `1985 - ST - 529-04-001 - COMMUNICA TIONS MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

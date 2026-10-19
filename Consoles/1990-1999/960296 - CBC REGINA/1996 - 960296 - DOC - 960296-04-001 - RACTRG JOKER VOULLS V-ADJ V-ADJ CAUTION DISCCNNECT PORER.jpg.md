@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,187,442 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960296-04-001, size B (assumed) 432 × 274 mm, 2000 × 1270 px traced (0.216 mm/px); scale DISC NO:  Syso1
+- **Ink extent:** 69–432 mm across, 13–262 mm up
+- **Outlines:** line 831 rings, 6,699 straight (26,900 mm) / 729 curved (1,355 mm); text 333 rings, 2,268 straight (1,915 mm) / 642 curved (779 mm); tb 304 rings, 1,874 straight (3,607 mm) / 426 curved (723 mm)
+- **Circles and arcs:** 56 circles, 0 arcs; largest r 2.7 @ (255.2, 203.3), r 2.7 @ (88.5, 163.5), r 2.7 @ (97.3, 200.2), r 2.7 @ (246.4, 203.3)
+- **Closed boxes:** 121 (36 in the title block); named: PROGRAM PROGRAM MUTE PROD TECH RICHT LEF; PROGRAM PROGRAM MUTE PROD TECH RICHT LEF; PROGRAM MUTE PROD TECH; TALKBAC K BUS_ASSIGN; REMOTE TALKBACK MUTE; +28v +287 POWER SUPPLY STATUS WBS OFF M9
+- **Words (OCR):** 57 in 49 lines: PROGRAM MUTE · PROD TECH · PROGRAM · LEF | · RICHT · REMOTE TALKBACK MUTE · TALKBAC K BUS_ASSIGN · Hyly (10 X M712B) · MZO3D) · MZOZD) · +287 · +28v
+- **Title block:** (84, 11)–(423, 140) mm: WBS · POWER SUPPLY STATUS · OFF · M924D · 420 , · T26v · 4281 · 12846 · ONE · Disccengct PcadR bogore inseRMKT · CAUTICN · OR EXTRACTRG JOKER · Voulls · V-ADJ · V-ADJ · DISCCNNECT PORER BEFORE · CAUTI
+
+Every curve, box, word and wire group: [1996 - 960296 - DOC - 960296-04-001 - RACTRG JOKER VOULLS V-ADJ V-ADJ CAUTION DISCCNNECT PORER (traced).json](1996%20-%20960296%20-%20DOC%20-%20960296-04-001%20-%20RACTRG%20JOKER%20VOULLS%20V-ADJ%20V-ADJ%20CAUTION%20DISCCNNECT%20PORER%20%28traced%29.json) (the CAD file: `1996 - 960296 - DOC - 960296-04-001 - RACTRG JOKER VOULLS V-ADJ V-ADJ CAUTION DISCCNNECT PORER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

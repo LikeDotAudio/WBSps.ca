@@ -22,6 +22,18 @@ M770 quad buffer amplifier module functional Title block at bottom left reading 
 - **Size:** 4,836,765 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 770-01-001, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–288 mm across, 0–428 mm up
+- **Outlines:** line 384 rings, 4,023 straight (7,459 mm) / 810 curved (1,085 mm); text 150 rings, 1,023 straight (990 mm) / 346 curved (500 mm)
+- **Centre lines:** 2,808 paths (60 closed); straight 4,553 mm, curved 162 mm; horizontal 1,158 mm, vertical 1,740 mm, diagonal 1,654 mm
+- **Circles and arcs:** 4 circles, 45 arcs; largest r 1.1 @ (85.8, 346.7), r 0.9 @ (93.6, 240.8), r 0.9 @ (195.7, 104.5), r 0.8 @ (140.1, 344.2)
+- **Closed boxes:** 10
+- **Wiring (first pass):** 128 connected wire groups from 333 runs
+
+Every curve, box, word and wire group: [19xx - 770-01-001 - QUAD BUFFER AMPLIFIER MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20770-01-001%20-%20QUAD%20BUFFER%20AMPLIFIER%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 770-01-001 - QUAD BUFFER AMPLIFIER MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,19 @@ Wide schematic strip of repeated transistor stages, title block at bottom right.
 - **Size:** 1,831,495 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 740-02-001, size B 432 × 130 mm, 2000 × 601 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 0–130 mm up
+- **Outlines:** line 1,091 rings, 7,906 straight (9,640 mm) / 1,624 curved (2,012 mm); text 190 rings, 983 straight (868 mm) / 306 curved (372 mm)
+- **Centre lines:** 7,638 paths (189 closed); straight 6,284 mm, curved 189 mm; horizontal 2,098 mm, vertical 1,177 mm, diagonal 3,009 mm
+- **Circles and arcs:** 3 circles, 34 arcs; largest r 2.8 @ (66.5, 57.9), r 2.7 @ (35.6, 35.9), r 0.7 @ (97.1, 65.2)
+- **Dots (junctions):** 1
+- **Words (OCR):** 32 in 28 lines: R19 · 7494 · 7404 · 34 2102 · 742i02 · 7464 · 44914 · 7404 · 4N9IA · '7404 · N3A · 7404
+- **Wiring (first pass):** 52 connected wire groups from 532 runs; labelled ends: 36 mm → 560 6; 30 mm → cpnOk; 22 mm → 22/25; 20 mm → 7464; 19 mm → 7404
+
+Every curve, box, word and wire group: [19xx - 740-02-001 - LAMP DRIVER PCB SCHEMATIC - ISS 2 (traced).json](19xx%20-%20740-02-001%20-%20LAMP%20DRIVER%20PCB%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 740-02-001 - LAMP DRIVER PCB SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

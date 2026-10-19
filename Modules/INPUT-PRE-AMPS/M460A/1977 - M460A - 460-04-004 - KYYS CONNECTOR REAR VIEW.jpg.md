@@ -15,6 +15,17 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 
 - **1977** (labelled): `DATE JaN 77` — …EGEND NC : IC: NoT CONNECTED INTERNALLY CONNECTED DRN_ 342. DATE JaN 77 CKD Rjs SCALE TOLS_ 2 M46oA NPUT MODULE CONNECTOR REAR VIEW…
 
+## Vectors (traced)
+
+- **Sheet:** layout 460-04-004, size B (assumed) 432 × 281 mm, 2000 × 1301 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–271 mm up
+- **Outlines:** line 234 rings, 2,743 straight (7,293 mm) / 371 curved (524 mm); text 831 rings, 5,392 straight (6,357 mm) / 1,657 curved (2,335 mm); tb 15 rings, 238 straight (472 mm) / 41 curved (58.5 mm)
+- **Closed boxes:** 72 (29 in the title block); named: El5; 10; 10; U| 17
+- **Words (OCR):** 162 in 115 lines: P2 · Mic · Mic · NC · NC · NC · MIC SHIELD · GND · GND · PA · PA · LEFT OUT
+- **Title block:** (142, 4)–(421, 56) mm: Inss MOD CKD · USED ON · MATL · WBS WARD-BECK SYSTEMS LTD · 12o32/E < · 37B152E, < · DRN Ef · M460A · FINISH · DATE JAN 77 · NPUT MODULE · CKD · CONNECTOR REAR VIEW · SCALE · TOLS_ · ISS_ · 460-04-004
+
+Every curve, box, word and wire group: [1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW (traced).json](1977%20-%20M460A%20-%20460-04-004%20-%20KYYS%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

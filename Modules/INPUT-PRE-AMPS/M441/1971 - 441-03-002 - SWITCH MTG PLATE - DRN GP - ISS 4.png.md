@@ -26,6 +26,19 @@ Wiki page: [M441](../../../PAGES/M441.md)
 
 - **1971** (labelled): `DATE JUNE '71` — …S Seds Drcles finish VIBRATE I20 GRIT: ALODINE Drr GP CLEAR DATE JUNE '71 MATe Cid 0 64 ALUM_ Scaie I:1 MARd BECK SVSIENS LT SWITCh M…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 441-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–426 mm across, 9–298 mm up
+- **Outlines:** line 492 rings, 8,131 straight (13,930 mm) / 1,159 curved (1,503 mm); text 323 rings, 2,410 straight (2,731 mm) / 700 curved (1,109 mm); tb 4 rings, 143 straight (135 mm) / 27 curved (34.3 mm)
+- **Centre lines:** 11,845 paths (98 closed); straight 11,156 mm, curved 131 mm; horizontal 5,198 mm, vertical 2,374 mm, diagonal 3,583 mm
+- **Circles and arcs:** 1 circles, 34 arcs; largest r 1.5 @ (210.1, 177.9)
+- **Closed boxes:** 3
+- **Words (OCR):** 51 in 35 lines: 54 · 813 · 4.500 · 3.416 · 2.041 · HoLE 130 DIA · HOLE 32 DIA · 1-500 · 2 HOLES 4-40unC ThD: · 250 · 570 · "625
+- **Title block:** (320, 43)–(414, 67) mm: WARd · BECK _ SVSIENS ATD
+
+Every curve, box, word and wire group: [1971 - 441-03-002 - SWITCH MTG PLATE - DRN GP - ISS 4 (traced).json](1971%20-%20441-03-002%20-%20SWITCH%20MTG%20PLATE%20-%20DRN%20GP%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1971 - 441-03-002 - SWITCH MTG PLATE - DRN GP - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

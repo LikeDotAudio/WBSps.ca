@@ -15,6 +15,19 @@ Wiki page: [M466](../../../PAGES/M466.md)
 
 - **1976** (labelled): `DATE JULY 76` — …3477 USED 01 M466 MATL . WBS WARD-BeCK BySTEMs LTD DRN: MRW DATE JULY 76 CKD Rol SCALE 6-106 FIMISH COMPRESSOR CONTROL AMPLIFIER COM…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 6-106-06-001, size B (assumed) 432 × 330 mm, 1997 × 1526 px traced (0.216 mm/px)
+- **Ink extent:** 32–432 mm across, 0–300 mm up
+- **Outlines:** line 422 rings, 5,837 straight (12,238 mm) / 1,321 curved (1,427 mm); text 711 rings, 6,439 straight (6,788 mm) / 1,981 curved (2,330 mm); tb 36 rings, 374 straight (546 mm) / 76 curved (83.9 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 9.8 @ (252.0, 203.2), r 9.8 @ (195.3, 203.3), r 9.8 @ (364.0, 203.0), r 9.8 @ (339.4, 203.2)
+- **Closed boxes:** 39 (30 in the title block); named: 25 LM 301; Z3; zi LMSI; 26 LM30i; 22 LMSo8; 24 Lh3oi
+- **Dots (junctions):** 1
+- **Words (OCR):** 95 in 72 lines: DE3 · EJ2 · EI3 · ES · CR8 · CR7 · cs d · C8 · CRZQRI R4 R5 zi · R7 R38 Pa Crs Z3 · 9 RI4 · R27 Rzi
+- **Title block:** (85, 6)–(371, 68) mm: InsS MOD [CKD: · USED 01 · MATL - · WBS WARD-BeCK BySTEMS LTD · 2943 · M466 · [3016 · DRN · MRW · Ge& · 6-106 · 5|3477 · FINISH · DATE JULY ' 76 COMPRESSOR CONTROL AMPLIFIER · CKD Roy · COMPONENT LAYO
+
+Every curve, box, word and wire group: [1976 - M466 - 6-106-06-001 - FIMISH COMPRESSOR CONTROL AMPLIFIER COMPONENT LAYOUT (traced).json](1976%20-%20M466%20-%206-106-06-001%20-%20FIMISH%20COMPRESSOR%20CONTROL%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1976 - M466 - 6-106-06-001 - FIMISH COMPRESSOR CONTROL AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

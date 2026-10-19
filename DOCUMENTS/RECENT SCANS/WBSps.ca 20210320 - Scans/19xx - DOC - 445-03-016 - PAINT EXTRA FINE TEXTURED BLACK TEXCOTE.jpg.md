@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,798,664 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 445-03-016, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 38–431 mm across, 2–298 mm up
+- **Outlines:** line 81 rings, 1,443 straight (5,827 mm) / 164 curved (240 mm); text 481 rings, 2,980 straight (3,370 mm) / 973 curved (1,342 mm); tb 39 rings, 247 straight (315 mm) / 73 curved (91.5 mm)
+- **Centre lines:** 3,643 paths (79 closed); straight 5,636 mm, curved 6.1 mm; horizontal 2,276 mm, vertical 1,602 mm, diagonal 1,758 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 12 (11 in the title block)
+- **Words (OCR):** 51 in 41 lines: 2.220 · 2.060 · 080 · 0.215 · 0.335 · 1.550 · 070 · 0.130 DIA · 4 REQ'D · 0.358 · 2.300 · 2.620
+- **Title block:** (290, 19)–(420, 54) mm: REVSiOR · WEBS · WARD-BECK · SYSTEMS · DRN: DRC(Aug95) · M445 · ENC: · EXTENDED RANGE METER · SPEAKER SCREEN · ISSUE · CODE: · 4ML5-16 · 445-03-016
+
+Every curve, box, word and wire group: [19xx - DOC - 445-03-016 - PAINT EXTRA FINE TEXTURED BLACK TEXCOTE (traced).json](19xx%20-%20DOC%20-%20445-03-016%20-%20PAINT%20EXTRA%20FINE%20TEXTURED%20BLACK%20TEXCOTE%20%28traced%29.json) (the CAD file: `19xx - DOC - 445-03-016 - PAINT EXTRA FINE TEXTURED BLACK TEXCOTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

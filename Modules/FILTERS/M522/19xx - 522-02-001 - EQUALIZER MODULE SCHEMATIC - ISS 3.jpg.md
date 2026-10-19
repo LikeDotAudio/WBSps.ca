@@ -22,6 +22,20 @@ M522 equalizer module schematic, issue 3.
 - **Size:** 214,966 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 522-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 6–367 mm up
+- **Outlines:** line 536 rings, 5,444 straight (6,923 mm) / 1,317 curved (1,508 mm); text 181 rings, 1,427 straight (1,525 mm) / 408 curved (565 mm); tb 2 rings, 68 straight (148 mm) / 4 curved (6.0 mm)
+- **Centre lines:** 6,307 paths (93 closed); straight 5,280 mm, curved 90.1 mm; horizontal 1,742 mm, vertical 1,259 mm, diagonal 2,278 mm
+- **Circles and arcs:** 3 circles, 27 arcs; largest r 2.5 @ (197.9, 204.4), r 1.0 @ (39.9, 158.1), r 0.7 @ (78.9, 338.8)
+- **Closed boxes:** 1
+- **Words (OCR):** 30 in 27 lines: 2200 · OUTPUT · 43/10 · co25 · cuT BOST · I/J5 · 4/10 · SHELF · USA · 0.022 · 04047 · CiJ
+- **Title block:** (212, 45)–(338, 70) mm: WBS WARD-BECK BYSTEMS
+- **Wiring (first pass):** 43 connected wire groups from 363 runs; labelled ends: 124 mm → 43/10, co25; 112 mm → co25; 84 mm → 2200, co25; 82 mm → cuT BOST; 56 mm → 0.022, CiJ, 04047
+
+Every curve, box, word and wire group: [19xx - 522-02-001 - EQUALIZER MODULE SCHEMATIC - ISS 3 (traced).json](19xx%20-%20522-02-001%20-%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 522-02-001 - EQUALIZER MODULE SCHEMATIC - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

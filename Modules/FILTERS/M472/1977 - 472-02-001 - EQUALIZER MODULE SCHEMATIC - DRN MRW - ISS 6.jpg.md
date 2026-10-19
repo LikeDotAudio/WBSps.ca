@@ -23,6 +23,20 @@ Wiki page: [M472](../../../PAGES/M472.md)
 - **Size:** 383,268 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 472-02-001, size B 432 × 350 mm, 2000 × 1621 px traced (0.216 mm/px)
+- **Ink extent:** 18–432 mm across, 0–343 mm up
+- **Outlines:** line 396 rings, 6,206 straight (14,755 mm) / 1,214 curved (1,734 mm); text 811 rings, 5,429 straight (5,713 mm) / 2,001 curved (2,757 mm); tb 14 rings, 121 straight (260 mm) / 28 curved (39.2 mm)
+- **Centre lines:** 9,453 paths (126 closed); straight 12,550 mm, curved 259 mm; horizontal 4,456 mm, vertical 2,995 mm, diagonal 5,099 mm
+- **Circles and arcs:** 13 circles, 48 arcs; largest r 3.6 @ (305.0, 226.9), r 1.4 @ (366.0, 258.4), r 1.3 @ (73.8, 93.9), r 1.1 @ (300.9, 238.4)
+- **Closed boxes:** 31 (4 in the title block); named: USED ON; MATL .; 2 3474; 3 /3549PM; 3605; 13664; ML; TOLs
+- **Words (OCR):** 169 in 139 lines: 220P · Ri6 · R23 · ISk · 33k · R3o · LM301 · EQ input · Ibv · LM301 · 4-7/i0v · 6*"8v Ci3
+- **Title block:** (291, 3)–(390, 49) mm: WBS WAAD-beCK bybteMB LTD_ · DRN · MRW · DATL JUNE ZZ · M472 · CKDPCLA · EQUALIZER · SCHEMATIC · SCALE · TOLs · 472 - 02-0o1
+- **Wiring (first pass):** 82 connected wire groups from 574 runs; labelled ends: 684 mm → 2 3474, WBS, 3 /3549PM, DRN; 264 mm → SwiA; 248 mm → 6KB, Sk6; 215 mm → CB, MF cuT/BCOST, Sk, Rzz; 202 mm → R36, Ci3, 33/1ov, R26
+
+Every curve, box, word and wire group: [1977 - 472-02-001 - EQUALIZER MODULE SCHEMATIC - DRN MRW - ISS 6 (traced).json](1977%20-%20472-02-001%20-%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1977 - 472-02-001 - EQUALIZER MODULE SCHEMATIC - DRN MRW - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

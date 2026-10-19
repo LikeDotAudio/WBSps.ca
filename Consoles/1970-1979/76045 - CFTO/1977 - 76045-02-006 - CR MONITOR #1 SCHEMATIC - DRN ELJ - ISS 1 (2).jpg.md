@@ -22,6 +22,20 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 3,805,024 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 76045-02-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 19–304 mm up
+- **Outlines:** line 417 rings, 4,711 straight (9,930 mm) / 578 curved (864 mm); text 499 rings, 3,025 straight (3,216 mm) / 868 curved (1,199 mm); tb 19 rings, 207 straight (434 mm) / 13 curved (19.9 mm)
+- **Centre lines:** 3,772 paths (50 closed); straight 7,458 mm, curved 102 mm; horizontal 3,641 mm, vertical 1,692 mm, diagonal 2,125 mm
+- **Circles and arcs:** 2 circles, 20 arcs; largest r 1.2 @ (227.6, 251.8), r 1.1 @ (227.6, 231.2)
+- **Closed boxes:** 40 (18 in the title block); named: ISS MOD_; WBS WAAD-BeCK systeMs LTD; CR Monitor #i SC HEMATIC; TOLS_; ISS_ 76045-02-006
+- **Words (OCR):** 77 in 64 lines: 2505L · 505 · Ext MoN · Los · Pot · inPUts · C.W · OdBm · 3 6p0n · 8t Ext · From · 300
+- **Title block:** (163, 30)–(414, 82) mm: ISS MOD_ CKD · USED ON · MATL _ · WBS WAAD-BeCK systeMs LTD · DRN: · ELJ · DATE JAN 77 · FINISH · CR Monitor #i · CKD. · SC HEMATIC · SCALE · TOLS_ · 76045-02-006 · ISS_
+- **Wiring (first pass):** 97 connected wire groups from 364 runs; labelled ends: 87 mm → 250, 250,; 37 mm → 505; 30 mm → 2505L; 26 mm → LEVE; 26 mm → 2505L
+
+Every curve, box, word and wire group: [1977 - 76045-02-006 - CR MONITOR #1 SCHEMATIC - DRN ELJ - ISS 1 (2) (traced).json](1977%20-%2076045-02-006%20-%20CR%20MONITOR%20%231%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1977 - 76045-02-006 - CR MONITOR #1 SCHEMATIC - DRN ELJ - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -26,6 +26,19 @@ Mounting detail for 7000 series intercom desk panels.
 - **Size:** 2,010,754 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 7000-03-008, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 6–298 mm up
+- **Outlines:** line 594 rings, 7,061 straight (15,039 mm) / 796 curved (1,010 mm); text 512 rings, 3,667 straight (4,325 mm) / 986 curved (1,518 mm); tb 24 rings, 201 straight (325 mm) / 37 curved (51.1 mm)
+- **Centre lines:** 8,191 paths (107 closed); straight 11,455 mm, curved 33.0 mm; horizontal 5,185 mm, vertical 2,976 mm, diagonal 3,295 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 1.1 @ (335.6, 248.8)
+- **Closed boxes:** 40 (8 in the title block); named: DIM:; PANEL; 3.50; 2.50; IMP-1; 7.20; 7.70; 6.75; ISP-1; 1O.00; 10 50; IMSP-1
+- **Words (OCR):** 73 in 64 lines: LEGEND · 4.20 · PANEL DIM: A · DIM: BB DIM: · 5.70 · IMP-1 · 2.50 · 5.00 · 3.50 · 3.00 · ISP-1 · 7.20
+- **Title block:** (278, 15)–(431, 84) mm: ISSUE DATE · REVISION · APP · WARD-BECK SYSTEMS · WBS · 7000 · SERIES   INTERCOM · ENG. MRW 4/X · DESK PANELS · CKD · MOUNTING DETAIL · APP · ISSUE · SCALE · 7000-03-008 · i:1
+
+Every curve, box, word and wire group: [1980 - 7000-03-008 - 7000 SERIES INTERCOM DESK PANELS MOUNTING DETAIL - DRN P. Mahoney - ENG MRW - ISS 1 (traced).json](1980%20-%207000-03-008%20-%207000%20SERIES%20INTERCOM%20DESK%20PANELS%20MOUNTING%20DETAIL%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1980 - 7000-03-008 - 7000 SERIES INTERCOM DESK PANELS MOUNTING DETAIL - DRN P. Mahoney - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

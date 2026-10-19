@@ -11,6 +11,19 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 2,421,042 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 432 × 283 mm, 2000 × 1311 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–264 mm up
+- **Outlines:** line 970 rings, 7,447 straight (11,576 mm) / 1,908 curved (2,461 mm); text 753 rings, 5,047 straight (4,979 mm) / 1,726 curved (2,215 mm); tb 13 rings, 117 straight (202 mm) / 17 curved (23.2 mm)
+- **Centre lines:** 13,845 paths (196 closed); straight 11,105 mm, curved 357 mm; horizontal 4,194 mm, vertical 1,926 mm, diagonal 4,985 mm
+- **Circles and arcs:** 14 circles, 79 arcs; largest r 1.8 @ (358.0, 68.7), r 1.8 @ (358.1, 195.0), r 1.8 @ (250.9, 119.3), r 1.8 @ (251.0, 130.4)
+- **Closed boxes:** 28 (1 in the title block); named: MatL_; FINISA; TOLS .; 5-106-06-001
+- **Words (OCR):** 149 in 126 lines: R2g JE* CoRI-A · Swi · Sw2 · R3O · 37 RAO 22* · 825 _ · Rig 12 · Ti88 - RIS · Rig _e* · Rib # · Ras · CORS-A
+- **Title block:** (330, 8)–(407, 43) mm: WBS WAAD-BeCK · DRM: · M457 · DATE · 75 · 4 X 2 PRE-Mixer · CKD · MOIHERBOARD · (SCALE · TOLS . · 5-106-06-001
+
+Every curve, box, word and wire group: [1975 - M457 - 461-03-015 - ZOIAN ALL TRANSISTORS ARE (traced).json](1975%20-%20M457%20-%20461-03-015%20-%20ZOIAN%20ALL%20TRANSISTORS%20ARE%20%28traced%29.json) (the CAD file: `1975 - M457 - 461-03-015 - ZOIAN ALL TRANSISTORS ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

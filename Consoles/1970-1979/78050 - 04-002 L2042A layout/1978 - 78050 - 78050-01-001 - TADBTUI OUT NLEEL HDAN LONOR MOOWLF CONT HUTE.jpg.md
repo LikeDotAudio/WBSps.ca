@@ -11,6 +11,21 @@ Wiki page: [Job-78050](../../../PAGES/Job-78050.md)
 - **Size:** 38,258,713 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 78050-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 737 rings, 6,249 straight (13,382 mm) / 1,101 curved (1,367 mm); text 1,301 rings, 6,282 straight (4,886 mm) / 2,093 curved (2,412 mm); tb 15 rings, 104 straight (147 mm) / 24 curved (29.0 mm)
+- **Centre lines:** 10,271 paths (462 closed); straight 9,805 mm, curved 66.7 mm; horizontal 3,834 mm, vertical 2,519 mm, diagonal 3,452 mm
+- **Circles and arcs:** 3 circles, 14 arcs; largest r 1.9 @ (365.6, 189.4), r 1.9 @ (365.6, 196.9), r 0.7 @ (222.2, 68.2)
+- **Closed boxes:** 34 (9 in the title block); named: 441z; (-15 dB); (2I5 dB ); dB m; TSdB; MI DUALAUL MODULE; M4 MODULE; Cnena SELECTOR]; HohItOR MQQuLE; M4S2 OSC MQQu; MODULE MONIIOR H475; MONIOR MODU
+- **Dots (junctions):** 1
+- **Words (OCR):** 273 in 219 lines: INPUI CHANNEL · SUBMASTER · ( SEE NOTE · SUBMASTER · (SEE Note · Summing · MASTER · ChaH · ChAN · BUS · SUB · ~adb '
+- **Title block:** (355, 0)–(432, 36) mm: ISSUE @amt · REVisiOH · WBS WARD-BECK SYSTEMS · DRM: SRH · ENG · WBS L2042A CONSOLE · CKD; · FUNCTIONAL DIAGRAM · APP · SCALE · 78050 01 001 · ISSUE
+- **Wiring (first pass):** 124 connected wire groups from 510 runs; labelled ends: 767 mm → ~adb ', Summing, BUS, ChAN; 99 mm → MASTER, ATTEMuatoRI, Mon, JdBm; 82 mm → SELECTOR], HohItOR; 75 mm → AtoR, (cldk); 72 mm → 441z
+
+Every curve, box, word and wire group: [1978 - 78050 - 78050-01-001 - TADBTUI OUT NLEEL HDAN LONOR MOOWLF CONT HUTE (traced).json](1978%20-%2078050%20-%2078050-01-001%20-%20TADBTUI%20OUT%20NLEEL%20HDAN%20LONOR%20MOOWLF%20CONT%20HUTE%20%28traced%29.json) (the CAD file: `1978 - 78050 - 78050-01-001 - TADBTUI OUT NLEEL HDAN LONOR MOOWLF CONT HUTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 16 words corrected)

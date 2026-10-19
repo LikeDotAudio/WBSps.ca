@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,236,891 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 780-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 590 rings, 5,819 straight (11,306 mm) / 1,392 curved (1,910 mm); text 226 rings, 1,377 straight (1,246 mm) / 515 curved (651 mm)
+- **Centre lines:** 5,703 paths (106 closed); straight 7,232 mm, curved 326 mm; horizontal 3,401 mm, vertical 1,681 mm, diagonal 2,150 mm
+- **Circles and arcs:** 5 circles, 63 arcs; largest r 4.5 @ (169.0, 59.8), r 4.4 @ (125.6, 64.5), r 1.2 @ (374.5, 11.1), r 1.1 @ (362.1, 11.0)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 141 connected wire groups from 490 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 780-02-001 - POWER SUPPLY CARD (traced).json](1981%20-%20microCOM%20-%20780-02-001%20-%20POWER%20SUPPLY%20CARD%20%28traced%29.json) (the CAD file: `1981 - microCOM - 780-02-001 - POWER SUPPLY CARD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

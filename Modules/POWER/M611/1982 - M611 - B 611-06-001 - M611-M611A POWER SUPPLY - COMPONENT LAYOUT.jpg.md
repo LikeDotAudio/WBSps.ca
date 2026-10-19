@@ -11,6 +11,16 @@ Wiki page: [M611](../../../PAGES/M611.md)
 - **Size:** 4,545,618 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 611-06-001, size B (assumed) 432 × 295 mm, 2000 × 1367 px traced (0.216 mm/px)
+- **Ink extent:** 7–427 mm across, 4–295 mm up
+- **Outlines:** line 1,082 rings, 9,541 straight (16,507 mm) / 1,374 curved (1,596 mm); text 335 rings, 2,148 straight (2,025 mm) / 716 curved (841 mm); tb 16 rings, 143 straight (223 mm) / 13 curved (13.4 mm)
+- **Words (OCR):** 40 in 22 lines: CI-9600 uF 50v · CR2-PB6O · CRI-PB6O · P2 · C2 - 2600 uF 40v · TI_WBS 80-24  (USED IN · M611) · WBS 80-30 USED IN M6I1A) · SW1-9201 · DSI-HLMP 1401 · F1-2.5A SB (USED · M611)
+- **Title block:** (276, 28)–(410, 202) mm: TI_WBS 80-24  (USED IN · M611) · WBS 80-30 USED IN M6I1A) · SW1-9201 · DSI-HLMP 1401 · F1-2.5A SB (USED · M611) · SB  (USED IN M611A) · 1.5A · F3-0.5A FB · WBS WARD-BECK BystemB
+
+Every curve, box, word and wire group: [1982 - M611 - B 611-06-001 - M611-M611A POWER SUPPLY - COMPONENT LAYOUT (traced).json](1982%20-%20M611%20-%20B%20611-06-001%20-%20M611-M611A%20POWER%20SUPPLY%20-%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M611 - B 611-06-001 - M611-M611A POWER SUPPLY - COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,925,825 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 96017-01-001, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 41–422 mm across, 8–260 mm up
+- **Outlines:** line 1,249 rings, 9,596 straight (18,323 mm) / 1,525 curved (1,817 mm); text 481 rings, 2,654 straight (2,553 mm) / 913 curved (1,183 mm); tb 51 rings, 333 straight (312 mm) / 89 curved (105 mm)
+- **Centre lines:** 15,752 paths (281 closed); straight 13,348 mm, curved 53.9 mm; horizontal 3,697 mm, vertical 4,884 mm, diagonal 4,767 mm
+- **Circles and arcs:** 1 circles, 20 arcs; largest r 2.1 @ (338.4, 223.8)
+- **Closed boxes:** 23 (12 in the title block)
+- **Words (OCR):** 55 in 48 lines: PRoGrAM MUTE (R) · 48zC0 48201 · LEGEND · Crosspoint NORMALLY ON SWTCHED OfF · CROSSPOINT NORMALLY OFF SMtcHED CN · LISTEN CoNTROLS · SREYOTE · CD TRCLS ORERAIED · RFL OTF · UUTE (L) ANd OccuRS SIVULTANEQUSLT · MZoId · M7I2B
+- **Title block:** (339, 7)–(428, 41) mm: REY SID" · WBSS · WARD-BECK SYSTEMS · CBC REGINA · CENTRAL ELEC TRONICS · FUNCTIONAL · SCALE · 96017-01-001
+- **Wiring (first pass):** 183 connected wire groups from 1,314 runs; labelled ends: 208 mm → PROGRAMO ", MJIC; 146 mm → SPKR; 60 mm → MZoId; 56 mm → M7I2B; 30 mm → HDST, SPKR
+
+Every curve, box, word and wire group: [1996 - DOC - 96017-01-001 - ISSUEI REMSION (traced).json](1996%20-%20DOC%20-%2096017-01-001%20-%20ISSUEI%20REMSION%20%28traced%29.json) (the CAD file: `1996 - DOC - 96017-01-001 - ISSUEI REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

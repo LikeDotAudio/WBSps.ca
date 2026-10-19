@@ -24,6 +24,21 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 4,587,549 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 441-02-006, size B 432 × 132 mm, 2000 × 609 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–128 mm up
+- **Outlines:** line 1,826 rings, 11,457 straight (13,346 mm) / 2,167 curved (2,497 mm); text 243 rings, 1,339 straight (1,043 mm) / 382 curved (446 mm); tb 9 rings, 52 straight (49.9 mm) / 13 curved (16.7 mm)
+- **Centre lines:** 8,309 paths (224 closed); straight 7,315 mm, curved 136 mm; horizontal 2,451 mm, vertical 1,951 mm, diagonal 2,914 mm
+- **Circles and arcs:** 1 circles, 34 arcs; largest r 2.3 @ (419.2, 32.2)
+- **Closed boxes:** 10; named: M44 MODUJLE GCHEMATIC; JOv
+- **Dots (junctions):** 10
+- **Words (OCR):** 37 in 36 lines: 2n4929 · 884401 · LLAST · 022S · 1820 · ZNsiat · LULESS · STATEC · Capacuoa 5 · 47k< · 295 · MICACEARA0S
+- **Title block:** (373, 15)–(424, 26) mm: WARD · BECK SYSTELS · M44
+- **Wiring (first pass):** 99 connected wire groups from 715 runs, 6 dotted junctions; labelled ends: 184 mm → WARD; 43 mm → 47k<, 295; 40 mm → 884401, ZNsiat, 47k<, 295; 33 mm → 884401; 25 mm → CUE Sw, Sw 3
+
+Every curve, box, word and wire group: [1971 - 441-02-006 - M441E INPUT MODULE SCHEMATIC - DRN GP - ISS 2 (traced).json](1971%20-%20441-02-006%20-%20M441E%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1971 - 441-02-006 - M441E INPUT MODULE SCHEMATIC - DRN GP - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

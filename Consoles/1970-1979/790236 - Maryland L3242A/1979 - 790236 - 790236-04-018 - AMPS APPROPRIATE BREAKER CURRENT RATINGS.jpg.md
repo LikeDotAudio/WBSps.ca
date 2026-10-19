@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,599,679 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-018, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 2–289 mm up
+- **Outlines:** line 28 rings, 1,328 straight (4,845 mm) / 110 curved (184 mm); text 824 rings, 6,482 straight (7,964 mm) / 1,909 curved (3,061 mm); tb 190 rings, 3,136 straight (7,148 mm) / 491 curved (1,012 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.4 @ (9.2, 255.2)
+- **Closed boxes:** 7 (5 in the title block); named: 790236-04-018; SCALE
+- **Words (OCR):** 102 in 83 lines: INTERNAL CONSOLE · CUSTOMER · EXTERNAL · NeIES: · WBS · COnNEctions · connEctions · To ConSOLe · REFER · POwER · DistRibUTiON · DIAGRAM
+- **Title block:** (43, 10)–(432, 278) mm: INTERNAL CONSOLE · CUSTOMER · EXTERNAL · NeIES: · WBS · COnNEctions · connEctions · To ConSOLe · REFER · POwER · DistRibUTiON · DIAGRAM · FOR · TECHNICAL · GROUND" · connection inFoRMATioN · 2) CONSOL
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-018 - AMPS APPROPRIATE BREAKER CURRENT RATINGS (traced).json](1979%20-%20790236%20-%20790236-04-018%20-%20AMPS%20APPROPRIATE%20BREAKER%20CURRENT%20RATINGS%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-018 - AMPS APPROPRIATE BREAKER CURRENT RATINGS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

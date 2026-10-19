@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 13,933,142 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 465-02-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 1,123 rings, 10,215 straight (23,147 mm) / 2,189 curved (2,731 mm); text 322 rings, 1,857 straight (1,643 mm) / 595 curved (725 mm); tb 1 rings, 26 straight (18.6 mm) / 5 curved (5.9 mm)
+- **Centre lines:** 10,151 paths (258 closed); straight 14,013 mm, curved 264 mm; horizontal 6,490 mm, vertical 3,795 mm, diagonal 3,728 mm
+- **Circles and arcs:** 4 circles, 57 arcs; largest r 3.8 @ (77.7, 190.6), r 3.8 @ (89.2, 34.7), r 3.7 @ (76.1, 86.5), r 3.6 @ (88.7, 97.5)
+- **Closed boxes:** 46 (3 in the title block); named: WBSS WARO-Beck sytems; M4658 REVERB MODULE SCHEMATIC; 465-02-003
+- **Dots (junctions):** 3
+- **Words (OCR):** 54 in 50 lines: DIRECT · LeFT Out · ChON · FADE F · (nserT) · Richt · OUt · 390 · Ext CL · 5.6 · NOT JSED · PiylB
+- **Title block:** (368, 29)–(432, 50) mm: ISSUE IDATE · WBSS WARO-Beck sytems · M4658
+- **Wiring (first pass):** 156 connected wire groups from 934 runs, 2 dotted junctions; labelled ends: 387 mm → PRE, Post; 356 mm → 390; 223 mm → WBSS; 184 mm → PRE, Post; 115 mm → 22/25
+
+Every curve, box, word and wire group: [19xx - M465B - DOC - 465-02-003 - REVERB MODULE SCHEMATIC (traced).json](19xx%20-%20M465B%20-%20DOC%20-%20465-02-003%20-%20REVERB%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M465B - DOC - 465-02-003 - REVERB MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

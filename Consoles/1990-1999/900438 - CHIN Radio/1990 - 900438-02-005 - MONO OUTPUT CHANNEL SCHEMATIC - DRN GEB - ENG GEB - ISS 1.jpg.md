@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,241,607 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–304 mm up
+- **Outlines:** line 472 rings, 4,722 straight (9,548 mm) / 1,018 curved (1,530 mm); text 290 rings, 1,821 straight (2,076 mm) / 634 curved (907 mm)
+- **Centre lines:** 4,151 paths (102 closed); straight 6,406 mm, curved 571 mm; horizontal 2,626 mm, vertical 1,688 mm, diagonal 2,092 mm
+- **Circles and arcs:** 32 circles, 80 arcs; largest r 2.2 @ (377.6, 63.9), r 2.2 @ (380.7, 55.8), r 1.7 @ (380.4, 81.8), r 1.7 @ (390.4, 81.7)
+- **Closed boxes:** 21
+- **Wiring (first pass):** 59 connected wire groups from 535 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-005 - MONO OUTPUT CHANNEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-005%20-%20MONO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-005 - MONO OUTPUT CHANNEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

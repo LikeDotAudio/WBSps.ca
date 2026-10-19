@@ -10,6 +10,21 @@ Wiki page: [Job-72032](../../../PAGES/Job-72032.md)
 - **Size:** 1,007,306 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 72032-02-002, size B (assumed) 432 × 138 mm, 2000 × 640 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–138 mm up
+- **Outlines:** line 1,104 rings, 10,380 straight (19,465 mm) / 2,022 curved (2,447 mm); text 256 rings, 1,378 straight (1,224 mm) / 503 curved (637 mm); tb 32 rings, 202 straight (234 mm) / 44 curved (57.2 mm)
+- **Centre lines:** 11,079 paths (196 closed); straight 12,470 mm, curved 121 mm; horizontal 5,047 mm, vertical 3,910 mm, diagonal 3,512 mm
+- **Circles and arcs:** 3 circles, 43 arcs; largest r 1.0 @ (293.3, 65.4), r 0.8 @ (390.8, 21.6), r 0.8 @ (175.1, 30.9)
+- **Closed boxes:** 69 (4 in the title block); named: ASm; INPUT system SchEMATIC Auoio; 720 32 00
+- **Dots (junctions):** 3
+- **Words (OCR):** 48 in 41 lines: SLe+ · S6zo · 6zo · M4ti · CHANNEL · Co0n · Sh0WVN · FBC · TJAL · iok · iok · Miniature
+- **Title block:** (350, 4)–(387, 27) mm: WBS · ESCALE
+- **Wiring (first pass):** 181 connected wire groups from 1,231 runs, 1 dotted junctions; labelled ends: 510 mm → M4ti, I502; 359 mm → M4ti, PRE; 310 mm → S6zo; 217 mm → S6zo; 110 mm → Sh0WVN, 8055
+
+Every curve, box, word and wire group: [1972 - 72032 - 72032-02-002 - PRELMINABY IODBM GOON FOR PRE LISTEN SCHEMATIC SEE (traced).json](1972%20-%2072032%20-%2072032-02-002%20-%20PRELMINABY%20IODBM%20GOON%20FOR%20PRE%20LISTEN%20SCHEMATIC%20SEE%20%28traced%29.json) (the CAD file: `1972 - 72032 - 72032-02-002 - PRELMINABY IODBM GOON FOR PRE LISTEN SCHEMATIC SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

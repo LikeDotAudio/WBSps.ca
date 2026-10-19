@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,261,509 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920384-01-001, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 23–423 mm across, 6–268 mm up
+- **Outlines:** line 1,608 rings, 11,668 straight (19,635 mm) / 2,662 curved (3,201 mm); text 397 rings, 2,723 straight (2,409 mm) / 808 curved (978 mm); tb 44 rings, 287 straight (294 mm) / 65 curved (77.7 mm)
+- **Centre lines:** 21,714 paths (387 closed); straight 14,087 mm, curved 88.0 mm; horizontal 4,730 mm, vertical 3,799 mm, diagonal 5,558 mm
+- **Circles and arcs:** 1 circles, 35 arcs; largest r 1.1 @ (345.4, 48.0)
+- **Closed boxes:** 57 (12 in the title block); named: Pcu I-k; SERT; PGU 2-R; VCOULE; 45258
+- **Dots (junctions):** 1
+- **Words (OCR):** 70 in 63 lines: VCROPHCNE · PBOGBAM · Pcu I-k · VD TCR UETER · CCHTRCI · TaY · C4 ON · PROGRA SIREQ QUPPUIS · ST4RT /04 · SERT · (ChJ 'RED FoR FUTURE) · Movoy
+- **Title block:** (340, 5)–(429, 39) mm: WBS · WARD-BECK SYSTEMS · WOWF · R1Ooo RADIO CONSOLE · FUNC TIONAL · SCALE · 920384-01- 001 · COCE; 20384f01
+- **Wiring (first pass):** 139 connected wire groups from 1,129 runs; labelled ends: 1724 mm → PBOGBAM, PROGRA, SIEBEQ IEUL CHWNE : CHL_CHiQ; 220 mm → Movoy, MONO;; 191 mm → SIREQ QUPPUIS, SERT, MoNo, MONO;; 91 mm → PBOGBAM; 64 mm → EXEERNAL_PQKER_SUPPLY
+
+Every curve, box, word and wire group: [1992 - 920384 - DOC - 920384-01-001 - START STOP RESET LINE SELECTOR CUTPUTS (traced).json](1992%20-%20920384%20-%20DOC%20-%20920384-01-001%20-%20START%20STOP%20RESET%20LINE%20SELECTOR%20CUTPUTS%20%28traced%29.json) (the CAD file: `1992 - 920384 - DOC - 920384-01-001 - START STOP RESET LINE SELECTOR CUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 24 words corrected)

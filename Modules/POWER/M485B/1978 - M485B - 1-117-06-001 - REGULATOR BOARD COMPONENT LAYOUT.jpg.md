@@ -15,6 +15,18 @@ Wiki page: [M485B](../../../PAGES/M485B.md)
 
 - **1978** (labelled): `REVISION 6/78` — …ns 40+2 Eco#2r2 Ecc #213 4L Le3te 4803 Ccr 8 Addeo RE-DRAWN REVISION 6/78 ISSUE DATE APP WBS WARD-BECK SyBTEMB DRN.Mrw 6/78 ENG_ MRW…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 1-117-06-001, size B (assumed) 432 × 316 mm, 2000 × 1466 px traced (0.216 mm/px)
+- **Ink extent:** 74–432 mm across, 0–280 mm up
+- **Outlines:** line 392 rings, 3,671 straight (6,675 mm) / 1,003 curved (1,034 mm); text 495 rings, 3,273 straight (2,912 mm) / 1,157 curved (1,236 mm); tb 164 rings, 1,740 straight (3,177 mm) / 448 curved (472 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 8.2 @ (205.5, 191.9), r 8.2 @ (151.1, 192.0), r 4.7 @ (95.8, 170.8), r 4.7 @ (123.8, 170.8)
+- **Closed boxes:** 5; named: MJE 2301; Ri8; Ri4; 2n6s95
+- **Words (OCR):** 81 in 77 lines: MJE 2301 · MUE2901 · Ri4 · ADJ · Ri8 CIF ADJ · 500 · 5k · R23-e* · Ra 92 · Rzo 24] · Cio · R4
+- **Title block:** (161, 0)–(432, 156) mm: 230 9u* · WBS · Re5 · R32ok · CANADA · R34 · RS: · 1-117 · 258 · Rzo · P3s · zok · 50 · Ok · DIF @ · RE-DRAWN · ISSUE · DATE · REVISION · WBS WARD-BECk SYBTEMB · DRN Mrw 6/78 · -117 · ENG Mrw · REGULA
+
+Every curve, box, word and wire group: [1978 - M485B - 1-117-06-001 - REGULATOR BOARD COMPONENT LAYOUT (traced).json](1978%20-%20M485B%20-%201-117-06-001%20-%20REGULATOR%20BOARD%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1978 - M485B - 1-117-06-001 - REGULATOR BOARD COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M494](../../../PAGES/M494.md)
 - **Size:** 1,734,412 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 494-01-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–331 mm across, 0–432 mm up
+- **Outlines:** line 98 rings, 2,587 straight (6,404 mm) / 341 curved (457 mm); text 207 rings, 1,814 straight (2,830 mm) / 459 curved (786 mm); tb 6 rings, 145 straight (358 mm) / 14 curved (28.5 mm)
+- **Centre lines:** 3,569 paths (46 closed); straight 5,590 mm, curved 32.4 mm; horizontal 2,428 mm, vertical 1,524 mm, diagonal 1,638 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 12 (9 in the title block); named: SCALE; 494 -01 001
+- **Words (OCR):** 30 in 18 lines: LINE LISTEN OUt · CUE · PROGRAM CUE IN · LINE TALK IN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. MRW · M494 · ENG.MRW 11/77 · REMOTE LINE TB/ CUE MODULE
+- **Title block:** (111, 6)–(330, 109) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. MRW · M494 · ENG.MRW 11/77 · REMOTE LINE TB/ CUE MODULE · CKD: Kell · FUNCTIONAL · APP @uje · SCALE · ISSUE · 494 -01 001
+- **Wiring (first pass):** 27 connected wire groups from 74 runs; labelled ends: 80 mm → LINE LISTEN; 80 mm → CUE, PROGRAM
+
+Every curve, box, word and wire group: [19xx - M494 - 494-01-001 - ELL- REMOTE LINE TB-CUE MODULE FUNCTIONAL (traced).json](19xx%20-%20M494%20-%20494-01-001%20-%20ELL-%20REMOTE%20LINE%20TB-CUE%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - M494 - 494-01-001 - ELL- REMOTE LINE TB-CUE MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

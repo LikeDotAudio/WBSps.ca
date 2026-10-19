@@ -11,6 +11,18 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 219,508 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-024, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–338 mm across, 13–412 mm up
+- **Outlines:** line 811 rings, 7,080 straight (12,186 mm) / 1,622 curved (2,220 mm); text 199 rings, 1,073 straight (923 mm) / 463 curved (593 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 4.8 @ (223.4, 71.8), r 3.0 @ (245.9, 378.9), r 3.0 @ (245.6, 359.6), r 2.4 @ (223.8, 86.2)
+- **Closed boxes:** 16; named: ao; Paogram deore nd channe Onaa Ihe Pch 7ir; ATTENuATOA CUE Ton Ano motina beyond Mon; cue CHANNEL cue; cuE CUF Wich Jnd
+- **Dots (junctions):** 5
+- **Words (OCR):** 45 in 43 lines: WBS · ao · Paogram · deore · nd · channe · Onaa · 7iring · Ihe · Pch · BAL ANCE · BALANCE conifoi
+
+Every curve, box, word and wire group: [1983 - M490L - 490-04-024 - SMILCH SWI THIS SICH THE MOMENIARY JCION IDC (traced).json](1983%20-%20M490L%20-%20490-04-024%20-%20SMILCH%20SWI%20THIS%20SICH%20THE%20MOMENIARY%20JCION%20IDC%20%28traced%29.json) (the CAD file: `1983 - M490L - 490-04-024 - SMILCH SWI THIS SICH THE MOMENIARY JCION IDC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 24 words corrected)

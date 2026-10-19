@@ -23,6 +23,20 @@ Wiki page: [M629](../../../PAGES/M629.md)
 - **Size:** 1,450,336 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 629-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 12–298 mm up
+- **Outlines:** line 184 rings, 4,050 straight (9,899 mm) / 561 curved (828 mm); text 311 rings, 2,176 straight (2,498 mm) / 693 curved (1,075 mm); tb 23 rings, 177 straight (342 mm) / 29 curved (41.0 mm)
+- **Centre lines:** 5,358 paths (72 closed); straight 7,626 mm, curved 232 mm; horizontal 3,559 mm, vertical 1,881 mm, diagonal 2,186 mm
+- **Circles and arcs:** 8 circles, 19 arcs; largest r 7.8 @ (230.6, 206.3), r 5.1 @ (89.0, 183.0), r 1.4 @ (228.6, 225.1), r 1.2 @ (31.4, 209.7)
+- **Closed boxes:** 36 (30 in the title block); named: 16; I5; WBS LTD. WARD-BECK sySTEMs; M6z9 TRIckLE CHARGE R Sch
+- **Words (OCR):** 59 in 48 lines: R2 · 820 1e W · 2N4920 CR4 · P2 · F1 'SA SB · CR · 166 Cso · 150k · IN4003 · Ik 1/2W · IN4003 · R1
+- **Title block:** (138, 16)–(410, 68) mm: IsS MOD [CKD · MATL · USED ON · WBS WARD-BECK sySTEMs · DRN_ · 2J · M6z9 · FINISH · DATE oct 73 · CKD PAA · TRIckLE CHARGE R Sch · SCALE · TOLS · sS_ · 629 02 001
+- **Wiring (first pass):** 34 connected wire groups from 170 runs; labelled ends: 196 mm → ci, 100/35, R4, 3w; 142 mm → Ik 1/2W, CR, IN4003, CR 3; 126 mm → P2; 92 mm → P2; 89 mm → VBio
+
+Every curve, box, word and wire group: [1973 - 629-02-001 - TRICKLE CHARGER SCH - DRN BJ - ISS 1 (traced).json](1973%20-%20629-02-001%20-%20TRICKLE%20CHARGER%20SCH%20-%20DRN%20BJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 629-02-001 - TRICKLE CHARGER SCH - DRN BJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

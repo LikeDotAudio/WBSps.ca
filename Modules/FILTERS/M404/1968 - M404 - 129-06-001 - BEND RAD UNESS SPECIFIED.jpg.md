@@ -11,6 +11,17 @@ Wiki page: [M404](../../../PAGES/M404.md)
 - **Size:** 7,318,208 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 129-06-001, size B (assumed) 432 × 307 mm, 2000 × 1423 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 22–432 mm across, 26–307 mm up
+- **Outlines:** line 692 rings, 9,398 straight (14,576 mm) / 2,786 curved (2,814 mm); text 312 rings, 2,555 straight (2,434 mm) / 833 curved (939 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 9.9 @ (254.4, 251.2), r 9.9 @ (87.6, 250.2), r 9.8 @ (131.0, 249.8), r 9.8 @ (326.3, 251.2)
+- **Closed boxes:** 46
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED (traced).json](1968%20-%20M404%20-%20129-06-001%20-%20BEND%20RAD%20UNESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M404 - 129-06-001 - BEND RAD UNESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

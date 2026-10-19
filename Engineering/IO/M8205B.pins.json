@@ -1,0 +1,150 @@
+{
+ "code": "M8205B",
+ "name": "Audio Distribution Amplifier",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2eed9448ec2c8114dc3d00cb864d0f2b663f77ade5b650a86e770f4baa0481d7",
+    "file": "Products/8200 SERIES/M8205B/1995 - M8205B - 8205-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "CIRCUIT DESCRIPTION M8205B AUDIO DISTRIBUTION AMPLIFIER Input The input signal to the amplifier is applied at connector pins 1 & A, and the input shield connects to pin B.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2eed9448ec2c8114dc3d00cb864d0f2b663f77ade5b650a86e770f4baa0481d7",
+    "file": "Products/8200 SERIES/M8205B/1995 - M8205B - 8205-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "CIRCUIT DESCRIPTION M8205B AUDIO DISTRIBUTION AMPLIFIER Input The input signal to the amplifier is applied at connector pins 1 & A, and the input shield connects to pin B.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "B",
+   "row": 2,
+   "side": "letter",
+   "signal": "INPUT SIGNAL TO THE AMPLIFIER",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2eed9448ec2c8114dc3d00cb864d0f2b663f77ade5b650a86e770f4baa0481d7",
+    "file": "Products/8200 SERIES/M8205B/1995 - M8205B - 8205-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "CIRCUIT DESCRIPTION M8205B AUDIO DISTRIBUTION AMPLIFIER Input The input signal to the amplifier is applied at connector pins 1 & A, and the input shield connects to pin B.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "\u00b122 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2eed9448ec2c8114dc3d00cb864d0f2b663f77ade5b650a86e770f4baa0481d7",
+    "file": "Products/8200 SERIES/M8205B/1995 - M8205B - 8205-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b122 volt DC supply bus voltages appearing at the amplifier connector pins 15 & S and 13 & P are isolated from the amplifier circuitry via fusing resistors R52 and R53.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "\u00b122 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2eed9448ec2c8114dc3d00cb864d0f2b663f77ade5b650a86e770f4baa0481d7",
+    "file": "Products/8200 SERIES/M8205B/1995 - M8205B - 8205-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b122 volt DC supply bus voltages appearing at the amplifier connector pins 15 & S and 13 & P are isolated from the amplifier circuitry via fusing resistors R52 and R53.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "\u00b122 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2eed9448ec2c8114dc3d00cb864d0f2b663f77ade5b650a86e770f4baa0481d7",
+    "file": "Products/8200 SERIES/M8205B/1995 - M8205B - 8205-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b122 volt DC supply bus voltages appearing at the amplifier connector pins 15 & S and 13 & P are isolated from the amplifier circuitry via fusing resistors R52 and R53.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "\u00b122 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2eed9448ec2c8114dc3d00cb864d0f2b663f77ade5b650a86e770f4baa0481d7",
+    "file": "Products/8200 SERIES/M8205B/1995 - M8205B - 8205-02-003 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b122 volt DC supply bus voltages appearing at the amplifier connector pins 15 & S and 13 & P are isolated from the amplifier circuitry via fusing resistors R52 and R53.",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

@@ -24,6 +24,20 @@ Wiki page: [M494](../../../PAGES/M494.md)
 - **Size:** 919,458 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 494-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 662 rings, 6,655 straight (14,869 mm) / 1,474 curved (1,975 mm); text 525 rings, 3,327 straight (3,136 mm) / 1,167 curved (1,459 mm); tb 37 rings, 285 straight (341 mm) / 65 curved (75.5 mm)
+- **Centre lines:** 10,119 paths (194 closed); straight 11,003 mm, curved 437 mm; horizontal 4,361 mm, vertical 2,633 mm, diagonal 4,009 mm
+- **Circles and arcs:** 11 circles, 91 arcs; largest r 4.1 @ (180.5, 58.7), r 4.0 @ (275.8, 58.8), r 4.0 @ (162.5, 59.0), r 2.6 @ (278.3, 86.4)
+- **Closed boxes:** 30 (13 in the title block)
+- **Words (OCR):** 110 in 100 lines: NoTES · I.ALC Resistors · AND · ALL CAPACiTORS · UNLESS · OTHEPWiSE SpecifieD · 1-049 · LAST · 62 , CrG_ DS 3,k3 · 05,RAO,Swio · 3w2o · Swjo
+- **Title block:** (332, 13)–(432, 61) mm: ISSU VAE · REVISION · APP: · WBS WARD-BECK ByBteMB · DRM: MRW · M494 · 22 CHASSIS ENG Mrw 1017t · REMOTE LINE TB/CUE MODULE · CKD · SCHEMATIC · SCALE · 494-02-001 · ISSUE
+- **Wiring (first pass):** 88 connected wire groups from 610 runs; labelled ends: 294 mm → 1-049, 3w2o, Swjo, SwSo; 286 mm → Rig, Rkg, 22k, 4k7; 280 mm → 3w2o, Swjo, 944, SwSo; 277 mm → Iok, R37, 33k, Rzo; 232 mm → 944, SwSo, Swco, Swlo
+
+Every curve, box, word and wire group: [1978 - 494-02-001 - REMOTE LINE TB CUE MODULE SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (2) (traced).json](1978%20-%20494-02-001%20-%20REMOTE%20LINE%20TB%20CUE%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `1978 - 494-02-001 - REMOTE LINE TB CUE MODULE SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

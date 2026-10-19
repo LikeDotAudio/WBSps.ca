@@ -21,6 +21,21 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 3,696,563 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 2042-02-003, size B (assumed) 432 × 145 mm, 2000 × 673 px traced (0.216 mm/px)
+- **Ink extent:** 42–429 mm across, 0–128 mm up
+- **Outlines:** line 772 rings, 6,093 straight (11,530 mm) / 1,588 curved (1,895 mm); text 179 rings, 1,157 straight (1,015 mm) / 328 curved (407 mm); tb 3 rings, 39 straight (95.9 mm) / 2 curved (4.6 mm)
+- **Centre lines:** 10,313 paths (171 closed); straight 8,266 mm, curved 137 mm; horizontal 3,634 mm, vertical 1,906 mm, diagonal 2,726 mm
+- **Circles and arcs:** 1 circles, 53 arcs; largest r 0.8 @ (221.0, 111.9)
+- **Closed boxes:** 34 (1 in the title block); named: MONITOR SCHEMATIC; SCAE; 2042-02-003
+- **Dots (junctions):** 1
+- **Words (OCR):** 33 in 32 lines: 87 · 83a,590 · CIRECT · DKECT · DIRECT · cutpuT · 751,62 · SUTCHED · 764,05 · 4Bcam,econ · auns · Q1os)
+- **Title block:** (343, 19)–(428, 30) mm: WARD BECK SYSTEMS · WBS
+- **Wiring (first pass):** 53 connected wire groups from 587 runs; labelled ends: 2199 mm → 87, 83a,590, 751,62, 764,05; 67 mm → BECK SYSTEMS, WBS; 63 mm → WBS, SCAE; 36 mm → 0 +34V; 17 mm → O1)_, 8u14
+
+Every curve, box, word and wire group: [1987 - 2042-02-003 - MONITOR SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1987%20-%202042-02-003%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 2042-02-003 - MONITOR SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

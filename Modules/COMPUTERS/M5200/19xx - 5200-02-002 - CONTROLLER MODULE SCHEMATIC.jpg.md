@@ -21,6 +21,21 @@ M5200A controller module schematic, cropped at right.
 - **Size:** 3,498,622 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5200-02-002, size B 432 × 299 mm, 2000 × 1384 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 1–299 mm up
+- **Outlines:** line 1,053 rings, 10,507 straight (22,456 mm) / 1,529 curved (1,725 mm); text 265 rings, 1,886 straight (1,563 mm) / 453 curved (584 mm); tb 2 rings, 41 straight (100 mm) / 2 curved (3.6 mm)
+- **Centre lines:** 11,292 paths (195 closed); straight 13,460 mm, curved 15.9 mm; horizontal 6,682 mm, vertical 4,313 mm, diagonal 2,465 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 63; named: 5414-036 Dispiay ss2481; MI Vp Loaenss QECI 5414-024 FEo cotrolr ; 5a4_12 VACHINE conTROL NTeRFAC Assqval
+- **Dots (junctions):** 3
+- **Words (OCR):** 35 in 33 lines: Ac · BAoruB B4tlaT potih · 3770797{75 HSALLD · 5414-036 · ss2481 · Dispiay · MI · Vp · 4AAE # · Loaenss · NAl · QECI
+- **Title block:** (352, 34)–(432, 51) mm: WBS · WARD-BECK SYSTEN
+- **Wiring (first pass):** 103 connected wire groups from 1,171 runs; labelled ends: 587 mm → MI, 23243, 324478; 336 mm → 82R; 292 mm → Vp, MI; 135 mm → 82R, 324478, 23243; 52 mm → 324478
+
+Every curve, box, word and wire group: [19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC (traced).json](19xx%20-%205200-02-002%20-%20CONTROLLER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 5200-02-002 - CONTROLLER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

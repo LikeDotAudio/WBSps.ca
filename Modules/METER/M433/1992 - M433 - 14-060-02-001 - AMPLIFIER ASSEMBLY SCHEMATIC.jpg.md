@@ -11,6 +11,20 @@ Wiki page: [M433](../../../PAGES/M433.md)
 - **Size:** 518,162 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-060-02-001, size B (assumed) 432 × 257 mm, 2000 × 1192 px traced (0.216 mm/px)
+- **Ink extent:** 6–427 mm across, 4–253 mm up
+- **Outlines:** line 491 rings, 5,528 straight (9,742 mm) / 1,405 curved (1,829 mm); text 819 rings, 5,682 straight (5,334 mm) / 2,074 curved (2,568 mm)
+- **Centre lines:** 10,961 paths (165 closed); straight 9,558 mm, curved 402 mm; horizontal 2,645 mm, vertical 2,515 mm, diagonal 4,398 mm
+- **Circles and arcs:** 19 circles, 41 arcs; largest r 4.8 @ (147.8, 59.2), r 4.7 @ (248.2, 111.2), r 4.7 @ (248.2, 145.4), r 4.7 @ (248.2, 128.4)
+- **Closed boxes:** 1
+- **Words (OCR):** 179 in 163 lines: CRS · 1N4148 · R52 · 22k · R16 · RJ6 · 82k R64 · R21 · 47k · Rso R5J · Rv · +22v
+- **Title block:** (363, 25)–(432, 40) mm: WARD-BECK · SYSTEMS
+- **Wiring (first pass):** 78 connected wire groups from 557 runs; labelled ends: 192 mm → LM3I7LZ, +22v, 2N3904, Reo; 188 mm → 47k, RJ6, LFSSJBN, R6}; 167 mm → 1N4148, RJ6, U1B, LFSSJBN; 152 mm → 10/35, R58, 3k9, R61; 126 mm → 15k, Rv, 270k, 4K}
+
+Every curve, box, word and wire group: [1992 - M433 - 14-060-02-001 - AMPLIFIER ASSEMBLY SCHEMATIC (traced).json](1992%20-%20M433%20-%2014-060-02-001%20-%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1992 - M433 - 14-060-02-001 - AMPLIFIER ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

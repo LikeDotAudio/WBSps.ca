@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,296,191 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950410-03-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 29–423 mm across, 7–262 mm up
+- **Outlines:** line 931 rings, 6,119 straight (15,109 mm) / 1,278 curved (1,542 mm); text 182 rings, 891 straight (814 mm) / 289 curved (358 mm); tb 28 rings, 196 straight (221 mm) / 39 curved (44.6 mm)
+- **Centre lines:** 6,881 paths (228 closed); straight 9,176 mm, curved 35.9 mm; horizontal 4,713 mm, vertical 2,206 mm, diagonal 2,257 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 3.2 @ (172.1, 171.4)
+- **Closed boxes:** 21 (4 in the title block); named: REAR PLATE; 950410-03-001; CODE
+- **Words (OCR):** 24 in 24 lines: 0,750 · 2COUCHES 05 · Mn_ · DETAIL · DETAL · REC D · 7,000 · 0.234 · PLACES · 0,710 · 0.844 · 41.688
+- **Title block:** (344, 23)–(429, 40) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1995 - 950410 - DOC - 950410-03-001 - NOTE REVOVE ALL BURRS AND SHARP (traced).json](1995%20-%20950410%20-%20DOC%20-%20950410-03-001%20-%20NOTE%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20%28traced%29.json) (the CAD file: `1995 - 950410 - DOC - 950410-03-001 - NOTE REVOVE ALL BURRS AND SHARP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

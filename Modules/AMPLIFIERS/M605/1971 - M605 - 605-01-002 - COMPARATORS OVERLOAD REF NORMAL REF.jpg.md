@@ -11,6 +11,20 @@ Wiki page: [M605](../../../PAGES/M605.md)
 - **Size:** 9,400,837 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 605-01-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 0–279 mm up
+- **Outlines:** line 112 rings, 2,505 straight (7,369 mm) / 264 curved (410 mm); text 370 rings, 2,152 straight (2,504 mm) / 731 curved (1,063 mm); tb 7 rings, 111 straight (252 mm) / 8 curved (10.6 mm)
+- **Centre lines:** 2,547 paths (66 closed); straight 5,139 mm, curved 98.2 mm; horizontal 2,122 mm, vertical 1,472 mm, diagonal 1,545 mm
+- **Circles and arcs:** 5 circles, 4 arcs; largest r 3.9 @ (135.9, 106.1), r 3.9 @ (136.0, 80.0), r 3.9 @ (135.9, 132.0), r 1.5 @ (250.8, 183.4)
+- **Closed boxes:** 11 (8 in the title block); named: 605-01-002; ISSUE
+- **Words (OCR):** 48 in 39 lines: DIRECT OUTPUT · INPUT · 10 To +14 dBm · PRE · (-6 dB ) · 600 ohms · (-6 dB) · +8 dBm · 600 ohms · GAIN · (-6 dB) · 6/+18 dB
+- **Title block:** (279, 2)–(432, 68) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. INEE · 75.4 · M6oSA · ENG · AUDIO DISTRIBUTION AMPLIFIER · CKD. Kvl · 2zaz2 · FUNCTIONAL DIAGRAM · APP · SCALE · 605-01-002 · ISSUE
+- **Wiring (first pass):** 61 connected wire groups from 144 runs; labelled ends: 312 mm → (-6 dB ), (-6 dB); 86 mm → VAC; 55 mm → PRE; 46 mm → PRE, 10 To +14 dBm; 40 mm → REF
+
+Every curve, box, word and wire group: [1971 - M605 - 605-01-002 - COMPARATORS OVERLOAD REF NORMAL REF (traced).json](1971%20-%20M605%20-%20605-01-002%20-%20COMPARATORS%20OVERLOAD%20REF%20NORMAL%20REF%20%28traced%29.json) (the CAD file: `1971 - M605 - 605-01-002 - COMPARATORS OVERLOAD REF NORMAL REF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -9,6 +9,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,543,745 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 3116-01-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–423 mm up
+- **Outlines:** line 402 rings, 5,287 straight (9,114 mm) / 579 curved (813 mm); text 1,040 rings, 6,193 straight (6,022 mm) / 2,057 curved (2,778 mm)
+- **Centre lines:** 7,764 paths (154 closed); straight 8,515 mm, curved 65.0 mm; horizontal 2,537 mm, vertical 2,751 mm, diagonal 3,227 mm
+- **Circles and arcs:** 11 circles, 12 arcs; largest r 1.8 @ (119.1, 266.5), r 1.8 @ (119.0, 287.6), r 1.8 @ (118.3, 237.5), r 1.8 @ (238.2, 237.9)
+- **Closed boxes:** 10; named: Mt 128; Mto38; 201 BLANK; M7128; BLANK; M632 PS 1
+- **Words (OCR):** 151 in 78 lines: 1422/23 · Mto38 · Fut · Mt 128 · Fut · Mto38 · Mt 128 · 10 · 201 · Fut · M7128 · M7 128
+- **Wiring (first pass):** 75 connected wire groups from 392 runs; labelled ends: 45 mm → 1422/23; 27 mm → Fut, Mto38; 21 mm → 201; 19 mm → Fut, Mto38; 18 mm → M632, PS2
+
+Every curve, box, word and wire group: [1977 - 3116-01-004 - 3116-01-004 - INPUT SENSITIVITIES DYNAMIC MIC CARBON MIC AND LINE (traced).json](1977%20-%203116-01-004%20-%203116-01-004%20-%20INPUT%20SENSITIVITIES%20DYNAMIC%20MIC%20CARBON%20MIC%20AND%20LINE%20%28traced%29.json) (the CAD file: `1977 - 3116-01-004 - 3116-01-004 - INPUT SENSITIVITIES DYNAMIC MIC CARBON MIC AND LINE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

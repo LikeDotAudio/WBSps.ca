@@ -22,6 +22,18 @@ Wiki page: [M625](../../../PAGES/M625.md)
 - **Size:** 1,535,087 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 625-06-002, size B 314 × 432 mm, 1455 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 3–430 mm up
+- **Outlines:** line 2,636 rings, 16,439 straight (26,152 mm) / 2,154 curved (2,094 mm); text 211 rings, 1,390 straight (1,337 mm) / 431 curved (494 mm); tb 7 rings, 93 straight (160 mm) / 15 curved (13.7 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.0 @ (30.9, 174.2), r 2.8 @ (109.6, 256.8)
+- **Closed boxes:** 13 (13 in the title block)
+- **Words (OCR):** 30 in 28 lines: R2 · 7100 · Rs · Sw · Ds1 · 46358 · Nes · (BLACK) · (RED) · F3 · ISSUF DATE · REVISION
+- **Title block:** (204, 23)–(313, 81) mm: ISSUF DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN- PMae · M6258 · ENG · POWER · SUPPLY · CKD & R · COMPONENT LAYOUT · APP · SCALE · 625-06-002 · ISSUE · 1:2
+
+Every curve, box, word and wire group: [19xx - 625-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (traced).json](19xx%20-%20625-06-002%20-%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 625-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -20,6 +20,19 @@ Wiki page: [Job-970245](../../../PAGES/Job-970245.md)
 - **Size:** 422,925 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 970245-03-001, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 38–820 mm across, 17–495 mm up
+- **Outlines:** line 858 rings, 5,564 straight (22,363 mm) / 1,149 curved (3,372 mm); text 178 rings, 1,155 straight (2,153 mm) / 352 curved (863 mm); tb 24 rings, 155 straight (377 mm) / 36 curved (91.2 mm)
+- **Centre lines:** 6,677 paths (158 closed); straight 14,358 mm, curved 795 mm; horizontal 6,614 mm, vertical 3,526 mm, diagonal 4,218 mm
+- **Circles and arcs:** 12 circles, 22 arcs; largest r 12.4 @ (406.5, 252.7), r 12.4 @ (540.0, 252.8), r 12.4 @ (495.6, 252.7), r 12.4 @ (450.7, 253.0)
+- **Closed boxes:** 44 (4 in the title block); named: PANEL MIXER; 970245-03-001; LLUL
+- **Words (OCR):** 32 in 32 lines: DELUL · DEIALA · QICCP · PLACES · 04o · DEIAIL · DEINLD · DEIAL E · DETAIL · PLACES · DITCHES · odo
+- **Title block:** (662, 49)–(831, 82) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1997 - 970245-03-001 - CONNECTOR PANEL MIXER (4X1) - DRN DRG - ISS 1 (traced).json](1997%20-%20970245-03-001%20-%20CONNECTOR%20PANEL%20MIXER%20%284X1%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1997 - 970245-03-001 - CONNECTOR PANEL MIXER (4X1) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

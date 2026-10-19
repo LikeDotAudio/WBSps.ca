@@ -25,6 +25,21 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 1,764,172 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 463-02-006, size B 432 × 141 mm, 2000 × 651 px traced (0.216 mm/px)
+- **Ink extent:** 1–430 mm across, 0–137 mm up
+- **Outlines:** line 1,123 rings, 6,511 straight (8,022 mm) / 1,191 curved (1,234 mm); text 37 rings, 163 straight (138 mm) / 44 curved (57.9 mm); tb 57 rings, 287 straight (284 mm) / 58 curved (67.6 mm)
+- **Centre lines:** 2,865 paths (112 closed); straight 3,830 mm, curved 15.8 mm; horizontal 2,021 mm, vertical 886 mm, diagonal 922 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 20; named: M 463 MAsTER SUB
+- **Dots (junctions):** 3
+- **Words (OCR):** 7 in 6 lines: Noti · WBSs WAAD-Beck · M 463 · SUB · MAsTER · SCALE
+- **Title block:** (349, 6)–(411, 28) mm: WBSs WAAD-Beck · M 463 · SUB · MAsTER · SCALE
+- **Wiring (first pass):** 42 connected wire groups from 304 runs; labelled ends: 274 mm → WBSs
+
+Every curve, box, word and wire group: [1976 - 463-02-006 - F SUB-MASTER MODULE - DRN AF - ISS 2 (traced).json](1976%20-%20463-02-006%20-%20F%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 463-02-006 - F SUB-MASTER MODULE - DRN AF - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

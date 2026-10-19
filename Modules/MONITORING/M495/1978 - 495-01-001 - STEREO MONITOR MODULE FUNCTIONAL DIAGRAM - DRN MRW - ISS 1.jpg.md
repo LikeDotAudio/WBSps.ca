@@ -24,6 +24,20 @@ Wiki page: [M495](../../../PAGES/M495.md)
 - **Size:** 954,461 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 495-01-001, size B 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–424 mm up
+- **Outlines:** line 331 rings, 3,985 straight (7,270 mm) / 559 curved (739 mm); text 227 rings, 2,230 straight (3,048 mm) / 563 curved (973 mm); tb 26 rings, 239 straight (418 mm) / 29 curved (39.2 mm)
+- **Centre lines:** 3,260 paths (43 closed); straight 5,525 mm, curved 76.1 mm; horizontal 2,336 mm, vertical 1,228 mm, diagonal 1,961 mm
+- **Circles and arcs:** 6 circles, 6 arcs; largest r 1.8 @ (55.7, 208.3), r 1.8 @ (56.0, 287.0), r 1.7 @ (30.0, 129.1), r 1.6 @ (27.1, 138.2)
+- **Closed boxes:** 9 (5 in the title block); named: SCALE; 495-01-001
+- **Words (OCR):** 27 in 22 lines: LEFT · 5-101B · MONITOR OUTPUts · 0 dBm 600 OHM · RIGHT · MUTE CONTROL · MUTE ASSIGN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. MRW
+- **Title block:** (123, 8)–(336, 110) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. MRW · M495 · ENG. · CKDRAL · STEREO · MONITOR MODULE · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 495-01-001
+- **Wiring (first pass):** 41 connected wire groups from 126 runs; labelled ends: 95 mm → RIGHT; 16 mm → LEFT; 14 mm → RIGHT; 14 mm → RIGHT; 14 mm → LEFT
+
+Every curve, box, word and wire group: [1978 - 495-01-001 - STEREO MONITOR MODULE FUNCTIONAL DIAGRAM - DRN MRW - ISS 1 (traced).json](1978%20-%20495-01-001%20-%20STEREO%20MONITOR%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 495-01-001 - STEREO MONITOR MODULE FUNCTIONAL DIAGRAM - DRN MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

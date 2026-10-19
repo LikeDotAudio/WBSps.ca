@@ -10,6 +10,16 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,921,952 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 523 rings, 12,528 straight (30,105 mm) / 1,346 curved (2,025 mm); text 1,703 rings, 10,929 straight (11,108 mm) / 3,428 curved (4,630 mm)
+- **Closed boxes:** 62; named: 23; 24; 19; 21; 22; 17; 18; 16; 13; 14; 15; 12
+- **Words (OCR):** 321 in 224 lines: 10 · 12 · 13 · 14 · 15 · 16 · 17 · 18 · 19 · 20 · 21 · 22
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-003 - OUTPUT LNES RETURN BUS INSERTS RETURN (2) (traced).json](1979%20-%20790236%20-%20790236-04-003%20-%20OUTPUT%20LNES%20RETURN%20BUS%20INSERTS%20RETURN%20%282%29%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-003 - OUTPUT LNES RETURN BUS INSERTS RETURN (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

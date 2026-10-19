@@ -25,6 +25,21 @@ Wiki page: [M469](../../../PAGES/M469.md)
 - **Size:** 557,037 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 469-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 336 rings, 5,550 straight (13,222 mm) / 963 curved (1,402 mm); text 391 rings, 2,833 straight (3,277 mm) / 889 curved (1,268 mm); tb 19 rings, 182 straight (316 mm) / 27 curved (38.4 mm)
+- **Centre lines:** 4,961 paths (77 closed); straight 9,297 mm, curved 484 mm; horizontal 4,004 mm, vertical 2,458 mm, diagonal 2,836 mm
+- **Circles and arcs:** 41 circles, 60 arcs; largest r 1.6 @ (7.1, 38.4), r 1.4 @ (79.1, 209.6), r 1.4 @ (79.3, 128.8), r 1.3 @ (276.8, 219.8)
+- **Closed boxes:** 15 (10 in the title block); named: WERE REVERSED PINS
+- **Dots (junctions):** 1
+- **Words (OCR):** 76 in 67 lines: 15< · INPUT 3 · 14 < · INPUT · Sw · Sw3 R7 · Sw5 · Sw7 · 88k · Sok · RB · Rzo
+- **Title block:** (278, 11)–(432, 80) mm: /78 PINS · WERE REVERSED · ISSUE DATE · REVISION · APP · WARD-BECK SYSTEMS · WBS · DRN PMANEY · M469A · ENG_ · MODULE · ASSIGNMENT · CKD · SCHEMATIC · APP · SCALE · 469-02-001 · ISSUE
+- **Wiring (first pass):** 85 connected wire groups from 391 runs, 1 dotted junctions; labelled ends: 253 mm → 14 <; 246 mm → 113<, Swz, JWe, Sw4; 240 mm → Sw 8, SW6; 232 mm → 15<, INPUT 3, 14 <, Sw5; 196 mm → 113<, INPUT 2, Bok, Rs
+
+Every curve, box, word and wire group: [1978 - 469-02-001 - M469A ASSIGNMENT MODULE SCHEMATIC - DRN P. Mahoney - ENG PC - ISS 2 (traced).json](1978%20-%20469-02-001%20-%20M469A%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20PC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1978 - 469-02-001 - M469A ASSIGNMENT MODULE SCHEMATIC - DRN P. Mahoney - ENG PC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 18,575,806 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-002, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–424 mm across, 0–138 mm up
+- **Outlines:** line 808 rings, 7,101 straight (10,644 mm) / 1,359 curved (1,635 mm); text 217 rings, 1,093 straight (916 mm) / 322 curved (402 mm)
+- **Centre lines:** 9,659 paths (204 closed); straight 7,604 mm, curved 129 mm; horizontal 3,456 mm, vertical 1,573 mm, diagonal 2,576 mm
+- **Circles and arcs:** 9 circles, 27 arcs; largest r 1.1 @ (373.3, 3.6), r 0.9 @ (72.1, 51.7), r 0.9 @ (81.8, 48.9), r 0.9 @ (82.0, 58.1)
+- **Closed boxes:** 29
+- **Dots (junctions):** 4
+- **Wiring (first pass):** 55 connected wire groups from 442 runs
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD (traced).json](1970%20-%20M621%20-%20621-02-002%20-%20MAIN%20BUILDING%20GROUND%20ILSS%20MOD%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-002 - MAIN BUILDING GROUND ILSS MOD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

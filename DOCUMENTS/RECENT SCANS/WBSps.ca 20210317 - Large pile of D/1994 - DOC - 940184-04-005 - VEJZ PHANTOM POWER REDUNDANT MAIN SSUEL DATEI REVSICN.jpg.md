@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,367,014 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940184-04-005, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 95–422 mm across, 8–198 mm up
+- **Outlines:** line 565 rings, 3,726 straight (12,074 mm) / 623 curved (1,004 mm); text 110 rings, 703 straight (735 mm) / 196 curved (275 mm); tb 16 rings, 128 straight (166 mm) / 21 curved (21.7 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 3.1 @ (145.4, 85.2), r 3.1 @ (186.1, 85.3), r 3.1 @ (266.9, 85.4), r 3.1 @ (200.4, 85.3)
+- **Closed boxes:** 49 (5 in the title block); named: GLENN GOULD STUDIO CENTRAL ELECTRONICS L; DISC No;459; 940184-04 005
+- **Dots (junctions):** 3
+- **Words (OCR):** 9 in 8 lines: ISSVEDATE · WBS · WARD-BECK   SYSTEMS · GLENN GOULD STUDIO · CENTRAL ELECTRONICS · LAYOUT #2 · DISC No;459 · 940184-04 005
+- **Title block:** (344, 23)–(428, 44) mm: ISSVEDATE · WBS · WARD-BECK   SYSTEMS · GLENN GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - DOC - 940184-04-005 - VEJZ PHANTOM POWER REDUNDANT MAIN SSUEL DATEI REVSICN (traced).json](1994%20-%20DOC%20-%20940184-04-005%20-%20VEJZ%20PHANTOM%20POWER%20REDUNDANT%20MAIN%20SSUEL%20DATEI%20REVSICN%20%28traced%29.json) (the CAD file: `1994 - DOC - 940184-04-005 - VEJZ PHANTOM POWER REDUNDANT MAIN SSUEL DATEI REVSICN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

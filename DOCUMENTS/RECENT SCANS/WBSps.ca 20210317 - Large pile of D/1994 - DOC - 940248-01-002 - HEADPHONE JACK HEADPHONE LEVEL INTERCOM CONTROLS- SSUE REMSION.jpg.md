@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,964,581 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940248-01-002, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 96–431 mm across, 7–265 mm up
+- **Outlines:** line 239 rings, 1,916 straight (4,868 mm) / 266 curved (363 mm); text 304 rings, 1,780 straight (1,714 mm) / 564 curved (718 mm); tb 20 rings, 144 straight (174 mm) / 34 curved (37.8 mm)
+- **Centre lines:** 3,727 paths (72 closed); straight 3,926 mm, curved 111 mm; horizontal 1,554 mm, vertical 1,102 mm, diagonal 1,271 mm
+- **Circles and arcs:** 5 circles, 13 arcs; largest r 2.2 @ (111.7, 79.4), r 2.2 @ (130.9, 79.6), r 2.2 @ (137.3, 79.7), r 2.2 @ (124.5, 79.6)
+- **Closed boxes:** 18 (4 in the title block); named: CENTENNIAL COLLECE MASTER TURRET FUNCTIO; 002 940248-; CCOE: 54240F02
+- **Words (OCR):** 36 in 34 lines: FDE_9S · TURRET · TURRET · AUDIQ AND CONTRCL · SMALL · Tppft · INPUTS · TURRET · CONTRCL · FdE_ · P2 | TALLY · EJAC
+- **Title block:** (345, 23)–(429, 40) mm: WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLECE
+- **Wiring (first pass):** 81 connected wire groups from 260 runs; labelled ends: 527 mm → FDE_9S, 516-058-500-102, SPEAKER, HEADPHIONE; 149 mm → WBS, 002, 940248-, CCOE: 54240F02; 26 mm → PROCRAM, SPEAKER; 20 mm → TURRET; 11 mm → PROCRAM, SOUND SPEAKER
+
+Every curve, box, word and wire group: [1994 - DOC - 940248-01-002 - HEADPHONE JACK HEADPHONE LEVEL INTERCOM CONTROLS- SSUE REMSION (traced).json](1994%20-%20DOC%20-%20940248-01-002%20-%20HEADPHONE%20JACK%20HEADPHONE%20LEVEL%20INTERCOM%20CONTROLS-%20SSUE%20REMSION%20%28traced%29.json) (the CAD file: `1994 - DOC - 940248-01-002 - HEADPHONE JACK HEADPHONE LEVEL INTERCOM CONTROLS- SSUE REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

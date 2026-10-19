@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,650,831 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 401-03-004, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale FULL SIZE
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 237 rings, 3,479 straight (7,136 mm) / 499 curved (646 mm); text 709 rings, 5,524 straight (6,303 mm) / 1,548 curved (2,359 mm); tb 268 rings, 3,569 straight (4,838 mm) / 549 curved (802 mm)
+- **Centre lines:** 11,804 paths (99 closed); straight 11,834 mm, curved 76.2 mm; horizontal 4,185 mm, vertical 3,105 mm, diagonal 4,544 mm
+- **Circles and arcs:** 0 circles, 14 arcs
+- **Closed boxes:** 16 (8 in the title block); named: 800-7.42
+- **Words (OCR):** 81 in 61 lines: RE-DRAWN · Iss_ MoD CKD_ · 2631 · Nh · 20 · 800-7.42 · 2HOLES DRILL · 8 TAP4-4OUNC · 1 DEER · 2HOLES · 64DIA · 4HOLEs4 DIA
+- **Title block:** (177, 8)–(428, 271) mm: RE-DRAWN · Iss_ MoD CKD_ · 2631 · Nh · 800-7.42 · ON · 32 CHARACTERS · GATE · OFF · 21 · DISPOSE AS SHOWN · 21a · HOLE DIMAs · PANEL · 1.65 · 240 · M401-2 · 8 CHARACTERS DISPOSE · AS SHOWN · NOTES · #
+
+Every curve, box, word and wire group: [19xx - DOC - 401-03-004 - HOLES DIA (traced).json](19xx%20-%20DOC%20-%20401-03-004%20-%20HOLES%20DIA%20%28traced%29.json) (the CAD file: `19xx - DOC - 401-03-004 - HOLES DIA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

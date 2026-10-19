@@ -11,6 +11,19 @@ Wiki page: [M529](../../../PAGES/M529.md)
 - **Size:** 6,204,833 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-124-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 808 rings, 7,401 straight (11,244 mm) / 1,698 curved (1,921 mm); text 226 rings, 1,527 straight (1,354 mm) / 429 curved (516 mm)
+- **Centre lines:** 8,756 paths (158 closed); straight 7,623 mm, curved 69.1 mm; horizontal 2,617 mm, vertical 2,197 mm, diagonal 2,809 mm
+- **Circles and arcs:** 1 circles, 19 arcs; largest r 3.8 @ (142.6, 109.7)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 83 connected wire groups from 664 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1985 - M529 - B 14-124-02-001 - SA14-124 OSCILLATOR ASSEMBLY - SCHEMATIC (traced).json](1985%20-%20M529%20-%20B%2014-124-02-001%20-%20SA14-124%20OSCILLATOR%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M529 - B 14-124-02-001 - SA14-124 OSCILLATOR ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

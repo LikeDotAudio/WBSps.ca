@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,238,629 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960163-04-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 53–431 mm across, 0–298 mm up
+- **Outlines:** line 386 rings, 3,611 straight (9,001 mm) / 638 curved (897 mm); text 1,374 rings, 8,941 straight (10,835 mm) / 2,606 curved (3,692 mm); tb 2 rings, 71 straight (190 mm) / 2 curved (4.6 mm)
+- **Closed boxes:** 41 (10 in the title block); named: PROD LOBB CER REC AGE ANNC Ce RMT CNF: C; CER; REC; AGE; PROD LOBB; Ce; RMT; CNF:; PROD ED_- SAVE IXED CER 0BB REC ANNC NPT; CER; SAVE IXED; PROD 0BB
+- **Words (OCR):** 144 in 109 lines: BUS_NUMBER SIATION_NAME · CODE IERMNAL_IXPE · STUDI8 SIRECYGR ST11 83 M7884 · PROD · STUDIO 1-PA · CER · LOBB REC · AGE · STUDIO · {-PRSOUCSR ST15 · MZ88OD · STUDIO
+- **Title block:** (248, 15)–(419, 82) mm: ISSUE · REVSION · APP · WBS WARD-BECK SYSTEMS · DRN: · DBS · CBC OTTAWA · ENG, · MNEMONIC AND · CODE · CKD: · APP · LA YOUT · SCALE DISC NO: SYSO1 · ISSUE · CODE: 96163L02 · 960163-04-002
+
+Every curve, box, word and wire group: [1996 - M7884 - DOC - 960163-04-002 - KEYPAD LAYOUI IISSUE REVSION (traced).json](1996%20-%20M7884%20-%20DOC%20-%20960163-04-002%20-%20KEYPAD%20LAYOUI%20IISSUE%20REVSION%20%28traced%29.json) (the CAD file: `1996 - M7884 - DOC - 960163-04-002 - KEYPAD LAYOUI IISSUE REVSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

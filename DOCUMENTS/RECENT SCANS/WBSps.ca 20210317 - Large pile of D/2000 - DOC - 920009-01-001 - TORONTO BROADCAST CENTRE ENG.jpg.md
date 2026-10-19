@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **2000** (manual_issue): `ISSUE 92000` — …9/90 48x48 INTERCOM SYSTEM STUDIO N2 FUNCTIONAL SCALE DISC ISSUE 920009-01-001 CODE: 92009F01…
 
+## Vectors (traced)
+
+- **Sheet:** functional 920009-01-001, size B (assumed) 432 × 279 mm, 2000 × 1291 px traced (0.216 mm/px)
+- **Ink extent:** 84–421 mm across, 7–261 mm up
+- **Outlines:** line 3,309 rings, 23,333 straight (39,274 mm) / 2,553 curved (3,090 mm); text 352 rings, 2,548 straight (2,254 mm) / 745 curved (910 mm); tb 884 rings, 5,615 straight (4,458 mm) / 1,527 curved (1,749 mm)
+- **Centre lines:** 86,854 paths (487 closed); straight 41,344 mm, curved 139 mm; horizontal 12,914 mm, vertical 12,379 mm, diagonal 16,051 mm
+- **Circles and arcs:** 7 circles, 37 arcs; largest r 1.3 @ (338.8, 226.2), r 1.1 @ (338.7, 229.4), r 1.0 @ (283.5, 232.6), r 1.0 @ (271.1, 232.6)
+- **Closed boxes:** 690 (215 in the title block); named: DUNERS; TORONTO BROADCAST   CENTRE 48*48   INTER; 920009-01-001
+- **Dots (junctions):** 24
+- **Words (OCR):** 49 in 43 lines: SEE DaG · LEGEND: · crosspd * · 2"OUTPUTS) · SECTUSHSR · CAVER · CAMERA · Ros) · LTG4 · UIHMNG · LTG] · FLOCF
+- **Title block:** (92, 23)–(426, 138) mm: ENG (PL) · LiC BOARD · VTR (PL) · LTG DIR · DUNERS · MDEQ · SATcHEF · Anio · NOTES: · FULLI · VODULES Consist · INPUS · OUTPUS · VATRI   INPUTS · supeusd · +IJBJ · DESICHAIICNS · DETERUINED · CUSTCHER
+- **Wiring (first pass):** 152 connected wire groups from 3,605 runs, 72 dotted junctions; labelled ends: 158 mm → LTG4; 73 mm → WBS, TORONTO, 48*48   INTERCOM; 54 mm → 920009-01-001, FUNCTIONAL; 32 mm → SEE DaG; 15 mm → LTG]
+
+Every curve, box, word and wire group: [2000 - DOC - 920009-01-001 - TORONTO BROADCAST CENTRE ENG (traced).json](2000%20-%20DOC%20-%20920009-01-001%20-%20TORONTO%20BROADCAST%20CENTRE%20ENG%20%28traced%29.json) (the CAD file: `2000 - DOC - 920009-01-001 - TORONTO BROADCAST CENTRE ENG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

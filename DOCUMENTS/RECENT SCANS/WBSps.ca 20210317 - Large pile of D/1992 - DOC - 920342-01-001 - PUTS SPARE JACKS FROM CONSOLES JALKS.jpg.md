@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,942,427 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920342-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 13–421 mm across, 7–276 mm up
+- **Outlines:** line 3,883 rings, 27,007 straight (41,694 mm) / 3,601 curved (4,530 mm); text 291 rings, 2,046 straight (1,758 mm) / 538 curved (657 mm); tb 55 rings, 370 straight (350 mm) / 112 curved (128 mm)
+- **Centre lines:** 82,417 paths (472 closed); straight 39,852 mm, curved 52.3 mm; horizontal 12,495 mm, vertical 12,400 mm, diagonal 14,956 mm
+- **Circles and arcs:** 4 circles, 15 arcs; largest r 1.3 @ (342.9, 257.4), r 1.1 @ (342.7, 248.5), r 1.0 @ (342.7, 251.5), r 0.8 @ (113.4, 248.4)
+- **Closed boxes:** 1245 (5 in the title block); named: BD
+- **Dots (junctions):** 38
+- **Words (OCR):** 35 in 33 lines: DuzTI · Crosspol · SwicHED · CROSSECINT · Norualt · CISELFD · CUAT · CONSOLES · Banin · ECUITT' · nCT · BDUT
+- **Title block:** (337, 7)–(426, 40) mm: WBS · WARD-BECK   SYSTEMS · MOTOROLA CANADA · 48X48 MicROCOM SYSTEM · FUNCTIONAL · SCALE · 920542-01-001
+- **Wiring (first pass):** 269 connected wire groups from 5,737 runs, 174 dotted junctions; labelled ends: 27 mm → CONSOUS; 26 mm → BD; 9 mm → Crosspol
+
+Every curve, box, word and wire group: [1992 - DOC - 920342-01-001 - PUTS SPARE JACKS FROM CONSOLES JALKS (traced).json](1992%20-%20DOC%20-%20920342-01-001%20-%20PUTS%20SPARE%20JACKS%20FROM%20CONSOLES%20JALKS%20%28traced%29.json) (the CAD file: `1992 - DOC - 920342-01-001 - PUTS SPARE JACKS FROM CONSOLES JALKS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

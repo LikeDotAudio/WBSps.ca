@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,633,288 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 410-03-005, size B (assumed) 432 × 281 mm, 2000 × 1301 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–281 mm up
+- **Outlines:** line 1,442 rings, 11,835 straight (20,883 mm) / 2,094 curved (2,995 mm); text 409 rings, 2,254 straight (2,102 mm) / 753 curved (971 mm); tb 27 rings, 220 straight (164 mm) / 60 curved (68.6 mm)
+- **Centre lines:** 19,515 paths (195 closed); straight 15,472 mm, curved 623 mm; horizontal 7,065 mm, vertical 3,397 mm, diagonal 5,010 mm
+- **Circles and arcs:** 23 circles, 30 arcs; largest r 6.8 @ (218.6, 150.7), r 6.5 @ (190.6, 150.0), r 6.4 @ (246.6, 150.9), r 6.4 @ (302.7, 151.7)
+- **Closed boxes:** 25 (1 in the title block); named: 41; 307 4741; 17o-03 D0s-; 470-03-O05.4
+- **Dots (junctions):** 1
+- **Words (OCR):** 78 in 67 lines: 312 DA: · PLACES · 970 · 3.858 · 6.746 · 545DiA · PLACES · MARKED · 634 · 622 · 7.065 · 697
+- **Title block:** (348, 7)–(428, 33) mm: AlLOY · WBS WAAD-BeCK BYBTeME · LTD · M470 · nPUT MODULE · CKD · ECALE · 470 · 03-005
+
+Every curve, box, word and wire group: [19xx - DOC - 410-03-005 - ALUM ALLOY FIKISE VEDATAE IOO (traced).json](19xx%20-%20DOC%20-%20410-03-005%20-%20ALUM%20ALLOY%20FIKISE%20VEDATAE%20IOO%20%28traced%29.json) (the CAD file: `19xx - DOC - 410-03-005 - ALUM ALLOY FIKISE VEDATAE IOO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

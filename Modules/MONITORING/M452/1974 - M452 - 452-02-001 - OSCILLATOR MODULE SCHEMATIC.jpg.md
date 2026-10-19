@@ -16,6 +16,21 @@ Wiki page: [M452](../../../PAGES/M452.md)
 
 - **1974** (labelled): `DATE JULY 74` — …Honjccko VSED OM WBS WARD-aack ayatamau LTD 3 zoz-40 EB DRN DATE JULY 74 CKD Ey sc4l TOLS _ M45? OSCIllatoR MODULE SCHEMATIC 452-02-…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 452-02-001, size B (assumed) 432 × 263 mm, 2000 × 1218 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–256 mm up
+- **Outlines:** line 1,294 rings, 10,812 straight (15,662 mm) / 2,539 curved (3,079 mm); text 255 rings, 1,393 straight (1,165 mm) / 486 curved (597 mm); tb 26 rings, 163 straight (178 mm) / 40 curved (49.0 mm)
+- **Centre lines:** 11,205 paths (263 closed); straight 10,251 mm, curved 287 mm; horizontal 3,038 mm, vertical 2,921 mm, diagonal 4,291 mm
+- **Circles and arcs:** 7 circles, 68 arcs; largest r 3.9 @ (299.2, 200.1), r 3.8 @ (299.0, 226.3), r 3.7 @ (116.3, 79.2), r 0.9 @ (20.5, 192.2)
+- **Closed boxes:** 12 (3 in the title block)
+- **Dots (junctions):** 3
+- **Words (OCR):** 50 in 48 lines: 25V · 22/25 · Ccmmon · 42/ 0 · 355 · 22/25 · 820 · 003 · ~3TE · Coutrol · soon · 4k3
+- **Title block:** (350, 0)–(387, 28) mm: WBS WAAD_ · Da · Ry · SCALE
+- **Wiring (first pass):** 137 connected wire groups from 804 runs, 2 dotted junctions; labelled ends: 185 mm → NOTE, Krzo, S4Ic; 183 mm → 355; 159 mm → Rs6; 109 mm → USED 07; 94 mm → LTD
+
+Every curve, box, word and wire group: [1974 - M452 - 452-02-001 - OSCILLATOR MODULE SCHEMATIC (traced).json](1974%20-%20M452%20-%20452-02-001%20-%20OSCILLATOR%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1974 - M452 - 452-02-001 - OSCILLATOR MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

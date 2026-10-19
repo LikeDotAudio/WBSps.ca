@@ -25,6 +25,17 @@ Rear-view connector pinout of the M450 and M450A program/summing amplifier.
 - **Size:** 368,826 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout A 450-04-001, size A 198 × 279 mm, 1240 × 1753 px traced (0.159 mm/px)
+- **Ink extent:** 0–198 mm across, 0–276 mm up
+- **Outlines:** line 262 rings, 5,753 straight (7,118 mm) / 656 curved (754 mm); text 338 rings, 3,234 straight (2,778 mm) / 845 curved (979 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (191.0, 233.9), r 1.7 @ (170.5, 243.7), r 1.4 @ (152.3, 34.2)
+- **Closed boxes:** 61; named: 26; Buea; I0; 1I; 12; 13; 14; 15
+- **Words (OCR):** 30 in 26 lines: NGv · 26 · AHEN · INPUT WHEN · SuMMING · AMP · PROGRA AS · (NA FOR MASOA ) · INPUT SHIELD · CoMMON · GAIN SET · I0
+
+Every curve, box, word and wire group: [1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2 (traced).json](1976%20-%20450-04-001%20-%20AND%20M450A%20PROGRAM%20SUMMING%20AMPLIFIER%20CONNECTOR%20LAYOUT%20-%20DRN%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

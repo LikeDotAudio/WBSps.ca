@@ -23,6 +23,20 @@ Wiki page: [M466](../../../PAGES/M466.md)
 - **Size:** 444,769 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 466-02-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 13–298 mm up
+- **Outlines:** line 106 rings, 1,416 straight (5,300 mm) / 216 curved (313 mm); text 236 rings, 1,887 straight (2,316 mm) / 518 curved (831 mm); tb 12 rings, 131 straight (245 mm) / 11 curved (13.8 mm)
+- **Centre lines:** 1,990 paths (48 closed); straight 4,476 mm, curved 92.7 mm; horizontal 2,347 mm, vertical 792 mm, diagonal 1,336 mm
+- **Circles and arcs:** 10 circles, 5 arcs; largest r 1.6 @ (218.1, 159.4), r 1.3 @ (171.6, 207.3), r 1.2 @ (276.0, 207.7), r 1.2 @ (181.9, 201.0)
+- **Closed boxes:** 9 (8 in the title block); named: VU METER
+- **Words (OCR):** 34 in 27 lines: COMPRESSOR STEREO TIE · VU · METER · OFF · 10 · PuS · BuS STEREO · TIE · NOTE · FOR · CoMPONENT LAYout · 002
+- **Title block:** (281, 14)–(432, 83) mm: ISSUE |DATE · REVISION · ApP · WBS WARD-BECK SYSTEMS · DRN: GEB · M4g6m · ENG · COMPRESSOR METER · CKD EE_ · APP · MODULE SCHEMATIC · SCALE · ISSUE · 466-02-003
+- **Wiring (first pass):** 10 connected wire groups from 73 runs; labelled ends: 96 mm → 10; 18 mm → 466-02-003
+
+Every curve, box, word and wire group: [1976 - 466-02-003 - M466M COMPRESSOR METER MODULE SCHEMATIC - DRN GEB - ISS 1 (traced).json](1976%20-%20466-02-003%20-%20M466M%20COMPRESSOR%20METER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 466-02-003 - M466M COMPRESSOR METER MODULE SCHEMATIC - DRN GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

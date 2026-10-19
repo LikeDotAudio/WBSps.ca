@@ -22,6 +22,18 @@ Wiki page: [Job-77012](../../../PAGES/Job-77012.md)
 - **Size:** 302,939 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 77012-04-011, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 8–422 mm up
+- **Outlines:** line 491 rings, 6,734 straight (12,626 mm) / 997 curved (1,216 mm); text 391 rings, 2,450 straight (2,395 mm) / 878 curved (1,163 mm); tb 8 rings, 87 straight (154 mm) / 10 curved (14.7 mm)
+- **Closed boxes:** 35 (11 in the title block); named: OptioNal 4am SELECToRS LIne; JAcKFIELD 100 JACKS; LIMe OuT SEL; M471 MaSTER HOOULES; OpTional PATCHABLE ANCILLARY MODULES (0); 441J submaSter MODULeS; BL ANK; SUb FadeRS; 'LF # SPACE For Motion CONTROL
+- **Dots (junctions):** 3
+- **Words (OCR):** 76 in 59 lines: Au · 4/9.4 · FSSJ · 4C? · T02 40 [Q4 · Ml · M472A · OptioNal · STEREO · 4am · JAcKFIELD · EQUALIZERS
+- **Title block:** (225, 7)–(335, 65) mm: ISSU date · REVISION · APP · WBS WARD-BECK ByBTeMB · Drr,6EB · ENG Geb · zeok5 · WBS L2042 · CONSOLE · CKD_ · STEREO VERSION · LAYOUT · APP · ISSUE · ScALE · 77012-04-011
+
+Every curve, box, word and wire group: [1985 - 77012-04-011 - WBS L2042 CONSOLE (STEREO VERSION B) LAYOUT - DRN GEB - ENG GEB - ISS 2 (traced).json](1985%20-%2077012-04-011%20-%20WBS%20L2042%20CONSOLE%20%28STEREO%20VERSION%20B%29%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1985 - 77012-04-011 - WBS L2042 CONSOLE (STEREO VERSION B) LAYOUT - DRN GEB - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

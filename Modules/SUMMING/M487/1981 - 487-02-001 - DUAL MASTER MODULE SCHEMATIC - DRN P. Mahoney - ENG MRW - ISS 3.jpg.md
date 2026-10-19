@@ -24,6 +24,20 @@ Wiki page: [M487](../../../PAGES/M487.md)
 - **Size:** 724,139 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 487-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 935 rings, 8,957 straight (15,699 mm) / 2,064 curved (2,608 mm); text 492 rings, 2,954 straight (2,624 mm) / 954 curved (1,253 mm)
+- **Centre lines:** 12,524 paths (260 closed); straight 11,361 mm, curved 316 mm; horizontal 4,156 mm, vertical 2,647 mm, diagonal 4,558 mm
+- **Circles and arcs:** 7 circles, 88 arcs; largest r 3.3 @ (79.2, 43.9), r 3.1 @ (79.5, 80.1), r 3.1 @ (102.3, 48.4), r 1.0 @ (109.9, 78.0)
+- **Closed boxes:** 11; named: M487 DUAL MASTER  MODULE SCHEMATIC
+- **Dots (junctions):** 2
+- **Words (OCR):** 99 in 92 lines: 1,AL · Resisters · 4w 3% · DTHERTYSE SFECIFIED · 2.L437 · 0,R73 · 9.USF P2B · 4p · R35 · -IOdBm · 68/10 · W >10
+- **Wiring (first pass):** 107 connected wire groups from 866 runs; labelled ends: 377 mm → WAAD-Deck systeMS, WBSS, MASTER  MODULE; 138 mm → R65, 22/25, C2, PN3645; 111 mm → 22/23, 027, 22/25, C2; 111 mm → 622, 03s6; 106 mm → 350/2, Iak, 4jok
+
+Every curve, box, word and wire group: [1981 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC - DRN P. Mahoney - ENG MRW - ISS 3 (traced).json](1981%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1981 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC - DRN P. Mahoney - ENG MRW - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

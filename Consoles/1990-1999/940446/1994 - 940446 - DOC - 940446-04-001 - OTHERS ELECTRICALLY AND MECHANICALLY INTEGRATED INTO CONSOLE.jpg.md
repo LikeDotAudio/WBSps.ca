@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 2,853,873 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940446-04-001, size B (assumed) 432 × 358 mm, 2000 × 1656 px traced (0.216 mm/px); scale DISC NO: 464
+- **Ink extent:** 84–432 mm across, 10–352 mm up
+- **Outlines:** line 988 rings, 8,221 straight (28,004 mm) / 1,052 curved (1,404 mm); text 556 rings, 3,582 straight (4,061 mm) / 1,164 curved (1,570 mm); tb 4 rings, 72 straight (167 mm) / 3 curved (3.9 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 7.1 @ (316.9, 115.4), r 7.1 @ (316.5, 143.4), r 3.1 @ (346.1, 117.5), r 2.1 @ (319.2, 118.1)
+- **Closed boxes:** 150 (9 in the title block); named: M9OSB; HEADPHONES CU6S7 Mum STUDIO; HEADPHONES Gues MON HUE STUDIO; TNXBISk Jo FUTURE; 940446-04-001
+- **Dots (junctions):** 27
+- **Words (OCR):** 88 in 70 lines: METER · CH · CH 2 · CH 3 · CH · CH · CH · CH 7 · CH 8 · CR MON · STD MON · M9og
+- **Title block:** (135, 10)–(414, 71) mm: ISSUE · REVISION · NOTES: · WBS · WARD-BECK · FUTURE MODULES ARE · APC-88RS IS SUPPLIED BY OTHERS · WIRED BUT NOT SUPPLIED. · 2. SAS · ELECTRICALLY AND MECHANICALLY INTEGRATED · INTO CONSOLE BY WBS. ·
+
+Every curve, box, word and wire group: [1994 - 940446 - DOC - 940446-04-001 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE (traced).json](1994%20-%20940446%20-%20DOC%20-%20940446-04-001%20-%20OTHERS%20ELECTRICALLY%20AND%20MECHANICALLY%20INTEGRATED%20INTO%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - 940446 - DOC - 940446-04-001 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -10,6 +10,20 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 31,130,229 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-011, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale IDISC NO:
+- **Ink extent:** 2–432 mm across, 0–279 mm up
+- **Outlines:** line 1,393 rings, 9,151 straight (17,024 mm) / 1,298 curved (1,639 mm); text 676 rings, 4,111 straight (3,171 mm) / 1,069 curved (1,205 mm); tb 15 rings, 120 straight (160 mm) / 24 curved (26.8 mm)
+- **Centre lines:** 11,984 paths (286 closed); straight 11,291 mm, curved 324 mm; horizontal 5,302 mm, vertical 2,876 mm, diagonal 3,112 mm
+- **Circles and arcs:** 29 circles, 31 arcs; largest r 1.9 @ (222.7, 33.2), r 1.8 @ (3.9, 121.1), r 1.8 @ (226.7, 33.2), r 1.8 @ (222.9, 29.4)
+- **Closed boxes:** 45 (13 in the title block); named: M625a PSI; M6528 PS4; ChLss GoyD; "SCa ChOUNI; 5 /88]; 2/87]; e/e6_; 2/88]; hoji 421
+- **Words (OCR):** 112 in 91 lines: FemalE Pins · MALE PiS · 1254 · 8_103 · QAO_RRANEERI · CONIRQL · EQR25k · TRANSFER · deldgr Caln 00740 · MMAE · VALE · m105
+- **Title block:** (339, 3)–(430, 42) mm: 2/88] M20z [2 ADdeD · ISSUEIDAIE · 2/26 CARIFD SEX OCONHECICR PLNs · RaMsIO" · WBS · WARD-BECK SYSTEMS · DRN,_D.S: 5/88 · M625B · ENG. · CKD: · POWER · SUPPLIES · App · SCHEMATIC · SCALE IDISC NO: · 3
+- **Wiring (first pass):** 166 connected wire groups from 1,149 runs; labelled ends: 228 mm → 04 5515, REQUIRED, GROUNO, cCNUROL; 178 mm → 5 /88], 2/87], e/e6_, 2/88]; 93 mm → OPT_e; 91 mm → 144C0s; 87 mm → 144C0s
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-011 - CONNECTOR PINS VEWED MOLEX (traced).json](1988%20-%20880134%20-%203642-02-011%20-%20CONNECTOR%20PINS%20VEWED%20MOLEX%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-011 - CONNECTOR PINS VEWED MOLEX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,266,921 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 772-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–430 mm across, 0–287 mm up
+- **Outlines:** line 466 rings, 4,282 straight (9,431 mm) / 733 curved (889 mm); text 94 rings, 732 straight (708 mm) / 216 curved (272 mm)
+- **Centre lines:** 4,319 paths (64 closed); straight 5,387 mm, curved 29.4 mm; horizontal 2,334 mm, vertical 1,764 mm, diagonal 1,289 mm
+- **Circles and arcs:** 3 circles, 4 arcs; largest r 1.1 @ (364.0, 10.0), r 1.0 @ (374.2, 10.0), r 0.9 @ (371.6, 10.3)
+- **Closed boxes:** 26
+- **Wiring (first pass):** 77 connected wire groups from 344 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 772-01-001 - DATA TRANSMIT-RECENE MODULE FUNCTIONAL (traced).json](1981%20-%20microCOM%20-%20772-01-001%20-%20DATA%20TRANSMIT-RECENE%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1981 - microCOM - 772-01-001 - DATA TRANSMIT-RECENE MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

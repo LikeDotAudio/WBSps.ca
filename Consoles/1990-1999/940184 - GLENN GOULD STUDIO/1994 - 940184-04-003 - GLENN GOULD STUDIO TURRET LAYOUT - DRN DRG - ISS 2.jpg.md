@@ -21,6 +21,19 @@ Wiki page: [Job-940184](../../../PAGES/Job-940184.md)
 - **Size:** 436,383 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940184-04-003, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px)
+- **Ink extent:** 0–847 mm across, 14–555 mm up
+- **Outlines:** line 343 rings, 3,027 straight (22,460 mm) / 526 curved (1,646 mm); text 214 rings, 1,317 straight (2,750 mm) / 402 curved (1,015 mm); tb 17 rings, 131 straight (345 mm) / 20 curved (47.6 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 8.4 @ (275.6, 228.3), r 8.4 @ (453.0, 227.9), r 8.3 @ (483.7, 428.5), r 8.2 @ (273.9, 429.0)
+- **Closed boxes:** 36 (3 in the title block); named: HEADPHONE SOURCE SELECT; HEADPHONE HEADPHONE; HEADPHONE HEADPHONE; GLENN GOULD STUDIO TURRET LAYOUT; NTS; DISC NO;; 940184-04-003; CODE_
+- **Dots (junctions):** 1
+- **Words (OCR):** 26 in 23 lines: HEADPHONE SOURCE SELECT · TCP · cu · TURRET) · HEADPHONE · HEADPHONE · FRONT · ISSUE DAT · WBS · WARD- · BECK  SYSTEMS · GLENN GOULD STUDIO
+- **Title block:** (689, 45)–(859, 86) mm: ISSUE DAT · WBS · WARD- · BECK  SYSTEMS · GLENN GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - 940184-04-003 - GLENN GOULD STUDIO TURRET LAYOUT - DRN DRG - ISS 2 (traced).json](1994%20-%20940184-04-003%20-%20GLENN%20GOULD%20STUDIO%20TURRET%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940184-04-003 - GLENN GOULD STUDIO TURRET LAYOUT - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

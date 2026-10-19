@@ -29,6 +29,20 @@ Faint crosspoint schematic and component layout strip, title block at bottom rig
 
 - **1973** (labelled): `DATE JAN73` — …oint SCHEMATIC WBS WAAD- BeCk BybtemB LTO 1398 Rc DRN: GEBA DATE JAN73 CKD SCALE TOLs Kng M72e FINISH CRos5 PoiNT 742 02 012…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-012, size B 432 × 142 mm, 2000 × 656 px traced (0.216 mm/px)
+- **Ink extent:** 1–428 mm across, 4–138 mm up
+- **Outlines:** line 342 rings, 2,658 straight (6,760 mm) / 335 curved (499 mm); text 606 rings, 2,788 straight (2,284 mm) / 819 curved (1,000 mm); tb 15 rings, 151 straight (182 mm) / 14 curved (17.2 mm)
+- **Centre lines:** 3,886 paths (125 closed); straight 5,078 mm, curved 70.8 mm; horizontal 2,390 mm, vertical 1,186 mm, diagonal 1,502 mm
+- **Circles and arcs:** 2 circles, 11 arcs; largest r 2.0 @ (265.2, 61.6), r 1.6 @ (270.2, 93.5)
+- **Closed boxes:** 35 (29 in the title block); named: TOLs Kng
+- **Words (OCR):** 105 in 89 lines: Supply Buss · 22 Dc · SYSTEM · M7i2 · SUMMING · ApplicatiON · MIXER · BUSS · M728 · COMPONENT CAYOUT · Rio3 · 01o2
+- **Title block:** (285, 7)–(410, 31) mm: ISSLMOD CKDL · USON · MatL · WBS WAAD- BeCk · Rc · 1398 · DRN: GEBA · M72e · FINISH · DATE JAN73 · CKD · CRos5 PoiNT · SCALE · TOLs Kng · 742 02 012
+- **Wiring (first pass):** 45 connected wire groups from 301 runs; labelled ends: 65 mm → Riog, 2M2; 31 mm → Riol, 22k; 31 mm → Rio3, iook, Riog, 2M2; 20 mm → Rio8, iook, Rio7; 20 mm → Rios, iook, Riio
+
+Every curve, box, word and wire group: [1973 - 712-02-012 - M728 CROSSPOINT - DRN GEB - ISS 3 (traced).json](1973%20-%20712-02-012%20-%20M728%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1973 - 712-02-012 - M728 CROSSPOINT - DRN GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

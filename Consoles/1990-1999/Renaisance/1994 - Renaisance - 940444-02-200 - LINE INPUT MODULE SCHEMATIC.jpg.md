@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,137,536 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 940444-02-200, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–415 mm across, 35–283 mm up
+- **Outlines:** line 836 rings, 11,141 straight (16,527 mm) / 2,500 curved (2,913 mm); text 38 rings, 320 straight (295 mm) / 92 curved (121 mm)
+- **Centre lines:** 16,488 paths (217 closed); straight 11,492 mm, curved 155 mm; horizontal 4,357 mm, vertical 3,066 mm, diagonal 4,068 mm
+- **Circles and arcs:** 4 circles, 30 arcs; largest r 3.0 @ (125.9, 176.2), r 3.0 @ (126.1, 238.4), r 1.2 @ (386.0, 61.2), r 0.9 @ (386.7, 43.5)
+- **Closed boxes:** 18
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 133 connected wire groups from 1,131 runs
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940444-02-200 - LINE INPUT MODULE SCHEMATIC (traced).json](1994%20-%20Renaisance%20-%20940444-02-200%20-%20LINE%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940444-02-200 - LINE INPUT MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

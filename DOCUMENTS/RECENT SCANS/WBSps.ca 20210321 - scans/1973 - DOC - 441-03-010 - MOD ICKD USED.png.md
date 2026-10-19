@@ -18,6 +18,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1973** (labelled): `DATE FEB 73` — …64 ThK) WBS WAAD-BECK BySTEMs LTD- AL.ALLOY: DRN: GP FINISH DATE FEB 73 ESCUTCHEON MTG PLATE VIBRATE CKD_ D.RS 120 GRIT & CLEARISCA…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 441-03-010, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 352 rings, 5,976 straight (14,796 mm) / 674 curved (1,117 mm); text 546 rings, 4,023 straight (4,599 mm) / 1,180 curved (1,877 mm); tb 30 rings, 219 straight (366 mm) / 40 curved (55.8 mm)
+- **Centre lines:** 6,274 paths (97 closed); straight 11,527 mm, curved 189 mm; horizontal 5,680 mm, vertical 2,718 mm, diagonal 3,130 mm
+- **Circles and arcs:** 4 circles, 20 arcs; largest r 5.2 @ (179.0, 183.3), r 4.9 @ (83.7, 175.0), r 1.4 @ (188.8, 171.8), r 1.4 @ (167.5, 177.1)
+- **Closed boxes:** 45 (30 in the title block); named: WBS WAAD-BECK LTD; ESCUTCHEON MTG PLATE; FINISH VIBRATE Ii20 GRIT & CLEARISCALE A; 441-03-0i0; IsS_; 4985 TOLS
+- **Words (OCR):** 77 in 58 lines: 58 · 5.74 · 6'HOLE .128 DIA; · 4.50 · 29 · 3 `C · HOLES 4-40 UNC THD · 2-88 · RAD.(TYR) · 1.62 · 06 · 43
+- **Title block:** (140, 16)–(377, 68) mm: IsS MOD [CKD · USED ON · MATL · 14 GA.( 064 ThK) WBS WAAD-BECK · 200 · Dp · M441M · AL.ALLOY: · 352 · B441-03-0i1 · DRN Gp · FINISH VIBRATE CKD: D.RS · DATE FEB 73 ESCUTCHEON MTG PLATE · Ii20 GRIT & C
+
+Every curve, box, word and wire group: [1973 - DOC - 441-03-010 - MOD ICKD USED (traced).json](1973%20-%20DOC%20-%20441-03-010%20-%20MOD%20ICKD%20USED%20%28traced%29.json) (the CAD file: `1973 - DOC - 441-03-010 - MOD ICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

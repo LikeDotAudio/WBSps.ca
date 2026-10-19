@@ -21,6 +21,17 @@ Faded, noisy scan of a component layout with a Ward-Beck title block running ver
 - **Size:** 2,462,727 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B ?-110-06-001, size B (assumed) 314 × 432 mm, 1453 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–310 mm across, 3–425 mm up
+- **Outlines:** line 12,839 rings, 102,706 straight (48,807 mm) / 21,352 curved (16,103 mm); text 157 rings, 1,983 straight (1,082 mm) / 464 curved (377 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 9.2 @ (158.1, 175.7), r 9.1 @ (124.6, 206.6), r 5.4 @ (109.9, 215.4), r 1.0 @ (130.9, 98.9)
+- **Dots (junctions):** 155
+- **Words (OCR):** 13 in 13 lines: 0F · 19 · 7id: · 24 · 72 · 34 · Ld · 23 · 425 · 912- · 4431 · 6c7sNZ
+
+Every curve, box, word and wire group: [19xx - 110-06-001 - 4-110 PRE-AMP HP FILTER COMPONENT LAYOUT (traced).json](19xx%20-%20110-06-001%20-%204-110%20PRE-AMP%20HP%20FILTER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - 110-06-001 - 4-110 PRE-AMP HP FILTER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

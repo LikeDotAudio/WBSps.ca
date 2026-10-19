@@ -11,6 +11,21 @@ Wiki page: [M490G](../../../PAGES/M490G.md)
 - **Size:** 365,469 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-008, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–429 mm up
+- **Outlines:** line 612 rings, 9,119 straight (18,485 mm) / 1,915 curved (2,745 mm); text 1,044 rings, 6,502 straight (6,470 mm) / 2,369 curved (3,272 mm); tb 23 rings, 173 straight (255 mm) / 41 curved (54.6 mm)
+- **Centre lines:** 11,036 paths (199 closed); straight 14,801 mm, curved 487 mm; horizontal 5,338 mm, vertical 3,818 mm, diagonal 5,646 mm
+- **Circles and arcs:** 21 circles, 71 arcs; largest r 5.8 @ (231.5, 120.7), r 5.8 @ (270.6, 134.5), r 5.7 @ (184.5, 100.7), r 5.6 @ (270.4, 105.9)
+- **Closed boxes:** 32 (4 in the title block); named: 22; 25; 28 74C76; Rizs 47k
+- **Dots (junctions):** 1
+- **Words (OCR):** 249 in 218 lines: +7/25 · cz · To · R5+ · Mixing BUSES · 220 · Assign · Rcg · 2.2 · ISk · PI - · APGM
+- **Title block:** (148, 0)–(274, 49) mm: WBS · DRN · ENG. PA · Ece 207 · AL ApP · 4e3 Q134014 REVERSED PA · SCALI · ISSuE Dhf · REvisio · APP
+- **Wiring (first pass):** 144 connected wire groups from 851 runs; labelled ends: 563 mm → 242, CRZ, R134, CRK; 412 mm → 23, R94, R32, 22k; 358 mm → 0/25, R4C, R47, 47k; 330 mm → Rc4, Czo, Ri3c, iok; 252 mm → R1t0, Iok, 012, 243s6)
+
+Every curve, box, word and wire group: [1978 - M490G - 490-02-008 - MIC INPUT MODULE (traced).json](1978%20-%20M490G%20-%20490-02-008%20-%20MIC%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M490G - 490-02-008 - MIC INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

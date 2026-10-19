@@ -11,6 +11,17 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 229,735 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 066-06-001, size B (assumed) 339 × 432 mm, 850 × 1084 px traced (0.398 mm/px)
+- **Ink extent:** 0–332 mm across, 4–429 mm up
+- **Outlines:** line 487 rings, 2,821 straight (5,555 mm) / 771 curved (1,325 mm); text 172 rings, 959 straight (1,429 mm) / 345 curved (661 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.9 @ (173.5, 201.6), r 3.8 @ (62.5, 259.8), r 3.7 @ (173.0, 262.0), r 2.2 @ (146.5, 259.9)
+- **Closed boxes:** 18
+- **Words (OCR):** 21 in 19 lines: R49247 · A46 22 · Rso LC · R4z l5 · 719186 · Pujsee · L70/LC · 470/40 · 57Q_ZZ0 · R3 12 · JVto · Ti2296
+
+Every curve, box, word and wire group: [1983 - M612A - 066-06-001 - AUDIO AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](1983%20-%20M612A%20-%20066-06-001%20-%20AUDIO%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1983 - M612A - 066-06-001 - AUDIO AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

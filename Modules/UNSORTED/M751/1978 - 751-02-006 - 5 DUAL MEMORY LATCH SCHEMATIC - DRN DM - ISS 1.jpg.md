@@ -23,6 +23,21 @@ Wiki page: [M751](../../../PAGES/M751.md)
 - **Size:** 1,321,596 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 751-02-006, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 1–560 mm up
+- **Outlines:** line 3,146 rings, 25,927 straight (72,078 mm) / 4,106 curved (10,315 mm); text 297 rings, 1,573 straight (2,736 mm) / 526 curved (1,257 mm); tb 33 rings, 180 straight (371 mm) / 41 curved (79.6 mm)
+- **Centre lines:** 27,015 paths (303 closed); straight 46,652 mm, curved 518 mm; horizontal 18,922 mm, vertical 13,047 mm, diagonal 14,684 mm
+- **Circles and arcs:** 7 circles, 55 arcs; largest r 2.2 @ (553.4, 8.1), r 2.0 @ (776.4, 462.6), r 1.8 @ (251.1, 484.9), r 1.8 @ (486.7, 472.8)
+- **Closed boxes:** 76 (1 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 56 in 51 lines: ATCH · ouT · DRIVER · DATA · Loeic · OuT Locic · Logic · MODULE SelecT · Pulse · INPUTS · 73-64 · 85-96
+- **Title block:** (712, 5)–(864, 71) mm: WBS WAAD-DECK SyStEMS · M7SI · DOAL MEMORY LATCH · SCALE · SCHEMATIC · 75102-006
+- **Wiring (first pass):** 756 connected wire groups from 3,762 runs, 1 dotted junctions; labelled ends: 169 mm → 212, Tsie; 161 mm → 212, Tsie; 133 mm → ENTER; 98 mm → AAzo; 84 mm → DATA, OuT
+
+Every curve, box, word and wire group: [1978 - 751-02-006 - 5 DUAL MEMORY LATCH SCHEMATIC - DRN DM - ISS 1 (traced).json](1978%20-%20751-02-006%20-%205%20DUAL%20MEMORY%20LATCH%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 751-02-006 - 5 DUAL MEMORY LATCH SCHEMATIC - DRN DM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

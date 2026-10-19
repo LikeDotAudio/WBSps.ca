@@ -21,6 +21,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 398,691 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-203, size D 864 × 560 mm, 2000 × 1298 px traced (0.432 mm/px)
+- **Ink extent:** 64–846 mm across, 14–451 mm up
+- **Outlines:** line 412 rings, 3,096 straight (21,838 mm) / 521 curved (1,264 mm); text 289 rings, 1,721 straight (3,501 mm) / 527 curved (1,381 mm); tb 9 rings, 83 straight (254 mm) / 17 curved (40.7 mm)
+- **Centre lines:** 4,867 paths (107 closed); straight 14,518 mm, curved 53.7 mm; horizontal 9,015 mm, vertical 2,104 mm, diagonal 3,399 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 2.7 @ (153.9, 283.3)
+- **Closed boxes:** 35 (4 in the title block); named: EQUALIZER MK SERIES CONSOLE  SUPPORT /TR; NTS; 900-03-203
+- **Words (OCR):** 29 in 22 lines: NO INSERTS · (AFTER MILLING) · REC D · JOBA · 900-03-203-1 · AS ShOWN (RH.S) · 900-03 · 203 - · OPP HAND (LA.S.) · MATERIAL: ALUM ALLOY ANGLE 0.75 * 0.75 0,12 · FINISH: SAND 120 GRIT AND PAINT · ISSUE DATE
+- **Title block:** (687, 46)–(857, 87) mm: ISSUE DATE · ACMCCN · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-203 - EQUALIZER MK SERIES CONSOLE SUPPORT TRIM - DRN DRG - ISS 2 (traced).json](19xx%20-%20900-03-203%20-%20EQUALIZER%20MK%20SERIES%20CONSOLE%20SUPPORT%20TRIM%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 900-03-203 - EQUALIZER MK SERIES CONSOLE SUPPORT TRIM - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

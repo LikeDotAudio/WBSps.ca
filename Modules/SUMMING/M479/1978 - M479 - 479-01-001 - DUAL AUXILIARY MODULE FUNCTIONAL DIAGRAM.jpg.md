@@ -11,6 +11,20 @@ Wiki page: [M479](../../../PAGES/M479.md)
 - **Size:** 121,433 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 479-01-001, size B (assumed) 432 × 302 mm, 2000 × 1399 px traced (0.216 mm/px)
+- **Ink extent:** 19–432 mm across, 0–302 mm up
+- **Outlines:** line 91 rings, 1,644 straight (5,716 mm) / 228 curved (354 mm); text 239 rings, 2,061 straight (2,543 mm) / 646 curved (1,005 mm); tb 16 rings, 197 straight (351 mm) / 36 curved (59.6 mm)
+- **Centre lines:** 2,909 paths (40 closed); straight 4,929 mm, curved 59.6 mm; horizontal 2,149 mm, vertical 952 mm, diagonal 1,827 mm
+- **Circles and arcs:** 4 circles, 2 arcs; largest r 3.4 @ (182.5, 196.5), r 3.2 @ (182.8, 151.3), r 1.7 @ (181.0, 225.9), r 1.2 @ (180.8, 226.0)
+- **Closed boxes:** 8 (5 in the title block); named: InFORMATION ADDED AmP; lo/77
+- **Words (OCR):** 43 in 36 lines: AUX · SUMMING · SUM · BST · INPUT · +8dbm]600 OHMS · EXTERNAL · Monitor · INput · AUX · SUMMING · Oh
+- **Title block:** (270, 2)–(432, 78) mm: lo/77 ADDED AmP · InFORMATION · (IsSUE DATE · REVISION · APP · WBS WARO-BECK sysTEMB · M479 · ENG_ RKB · CKD: Rpl · DUAL · AUXILIARY MODULE · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 479-01-001
+- **Wiring (first pass):** 48 connected wire groups from 91 runs; labelled ends: 134 mm → SUM; 116 mm → SUM; 101 mm → lo/77, (IsSUE DATE; 84 mm → BST; 83 mm → BST
+
+Every curve, box, word and wire group: [1978 - M479 - 479-01-001 - DUAL AUXILIARY MODULE FUNCTIONAL DIAGRAM (traced).json](1978%20-%20M479%20-%20479-01-001%20-%20DUAL%20AUXILIARY%20MODULE%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1978 - M479 - 479-01-001 - DUAL AUXILIARY MODULE FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

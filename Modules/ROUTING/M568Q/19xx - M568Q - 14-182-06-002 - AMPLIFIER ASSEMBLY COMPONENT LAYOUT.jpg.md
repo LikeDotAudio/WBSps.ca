@@ -11,6 +11,17 @@ Wiki page: [M568Q](../../../PAGES/M568Q.md)
 - **Size:** 7,051,929 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-182-06-002, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–283 mm up
+- **Outlines:** line 857 rings, 5,609 straight (7,098 mm) / 1,602 curved (1,648 mm); text 163 rings, 906 straight (788 mm) / 324 curved (357 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.6 @ (357.1, 136.3), r 1.6 @ (284.8, 95.4), r 1.4 @ (388.2, 13.2), r 1.4 @ (315.4, 229.0)
+- **Closed boxes:** 22
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [19xx - M568Q - 14-182-06-002 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](19xx%20-%20M568Q%20-%2014-182-06-002%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M568Q - 14-182-06-002 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

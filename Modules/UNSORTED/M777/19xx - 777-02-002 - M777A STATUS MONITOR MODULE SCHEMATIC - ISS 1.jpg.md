@@ -22,6 +22,19 @@ M777A status monitor module schematic Title block at bottom left reading sideway
 - **Size:** 4,904,571 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 777-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 1,117 rings, 10,548 straight (21,400 mm) / 1,709 curved (2,009 mm); text 136 rings, 905 straight (880 mm) / 256 curved (335 mm)
+- **Centre lines:** 11,759 paths (173 closed); straight 13,192 mm, curved 6.0 mm; horizontal 5,748 mm, vertical 4,668 mm, diagonal 2,775 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 237
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 95 connected wire groups from 1,393 runs
+
+Every curve, box, word and wire group: [19xx - 777-02-002 - M777A STATUS MONITOR MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20777-02-002%20-%20M777A%20STATUS%20MONITOR%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 777-02-002 - M777A STATUS MONITOR MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

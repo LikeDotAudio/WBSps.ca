@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,356,728 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-030, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 443
+- **Ink extent:** 77–429 mm across, 4–298 mm up
+- **Outlines:** line 149 rings, 1,977 straight (7,376 mm) / 259 curved (428 mm); text 779 rings, 4,678 straight (5,553 mm) / 1,571 curved (2,296 mm); tb 4 rings, 89 straight (214 mm) / 6 curved (7.8 mm)
+- **Centre lines:** 4,822 paths (128 closed); straight 7,829 mm, curved 111 mm; horizontal 3,064 mm, vertical 1,798 mm, diagonal 2,966 mm
+- **Circles and arcs:** 2 circles, 13 arcs; largest r 5.6 @ (184.5, 161.8), r 4.8 @ (237.1, 181.3)
+- **Closed boxes:** 12 (8 in the title block); named: 8224-03-030; ISSUE; SCALE; CODE: 8224M30
+- **Words (OCR):** 87 in 61 lines: 2 PLACES · 0.130 DIA · 0.375 DIA · 3.750 · 0.110 DIA & C'SK 82- · 0.257 · 3.236 · To 0.175 4 PLACES · 2.618 · .868 · 0.175 TYP · REF
+- **Title block:** (248, 20)–(418, 88) mm: ISSUE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRG · DRN: · FRONT PANEL · ENG_ · CKD_ · (IPH-1) · APP_ · SCALE DISC NO: 443 · ISSUE · 8224-03-030 · CODE: 8224M30
+
+Every curve, box, word and wire group: [19xx - 8224-03-030 - FRONT PANEL (IPH-1) - DRN DRG - ISS 1 (traced).json](19xx%20-%208224-03-030%20-%20FRONT%20PANEL%20%28IPH-1%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-030 - FRONT PANEL (IPH-1) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

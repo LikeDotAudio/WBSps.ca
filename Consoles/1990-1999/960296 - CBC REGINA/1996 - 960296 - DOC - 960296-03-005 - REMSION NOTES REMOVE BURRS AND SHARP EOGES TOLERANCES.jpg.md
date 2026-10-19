@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,021,510 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960296-03-005, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px); scale DISC NO
+- **Ink extent:** 38–432 mm across, 0–246 mm up
+- **Outlines:** line 985 rings, 7,265 straight (16,185 mm) / 1,611 curved (1,873 mm); text 220 rings, 1,359 straight (1,183 mm) / 407 curved (495 mm); tb 48 rings, 415 straight (1,321 mm) / 71 curved (80.1 mm)
+- **Centre lines:** 9,608 paths (284 closed); straight 11,029 mm, curved 49.2 mm; horizontal 5,790 mm, vertical 2,496 mm, diagonal 2,743 mm
+- **Circles and arcs:** 3 circles, 13 arcs; largest r 0.8 @ (224.9, 35.1), r 0.8 @ (263.5, 82.9), r 0.8 @ (280.8, 37.6)
+- **Closed boxes:** 18
+- **Words (OCR):** 36 in 34 lines: 17.10 · 0,173 · OTHFR < 7F · INSERT · "PEV" 440-| · 03P · 1-194 · 1 194 · 1762 · 2.767 · JANEL · THIC
+- **Title block:** (330, 0)–(418, 36) mm: ISSUE DALEL · REASC · WBS · WARD-BECK   SYSTEMS · PROGRAM  SELECTOR · PANEL · ScALE DISC NO · 960296-03-005
+
+Every curve, box, word and wire group: [1996 - 960296 - DOC - 960296-03-005 - REMSION NOTES REMOVE BURRS AND SHARP EOGES TOLERANCES (traced).json](1996%20-%20960296%20-%20DOC%20-%20960296-03-005%20-%20REMSION%20NOTES%20REMOVE%20BURRS%20AND%20SHARP%20EOGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1996 - 960296 - DOC - 960296-03-005 - REMSION NOTES REMOVE BURRS AND SHARP EOGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

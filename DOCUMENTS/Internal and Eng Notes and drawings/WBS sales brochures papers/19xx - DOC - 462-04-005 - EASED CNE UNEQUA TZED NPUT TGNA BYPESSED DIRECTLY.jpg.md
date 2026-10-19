@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 295,639 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 462-04-005, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 3–306 mm across, 20–432 mm up
+- **Outlines:** line 609 rings, 3,981 straight (10,718 mm) / 859 curved (1,230 mm); text 1,749 rings, 8,744 straight (7,997 mm) / 2,761 curved (3,816 mm); tb 514 rings, 2,778 straight (5,608 mm) / 759 curved (1,269 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 0.9 @ (47.2, 221.0), r 0.9 @ (70.8, 181.6), r 0.8 @ (124.7, 294.8), r 0.8 @ (112.3, 181.7)
+- **Closed boxes:** 20 (11 in the title block); named: FREQUENCY DJUSTMENT 4igh FREQuEncY secti; HIgh FREQUENCY seccion Yaty Q-factor PEA; high FREQUENCY section switch When the e; FREQUENCY control FREQUENCY AOJUSTNENT s; ows 4i0 FREQUENCY section ADJUSTHENT var; contro FREQUENcY section FREQUENCY ADJUS; Low FREQUENCY tion ADJUSTHENT Vary PEAKI; FREQUE NcY HODE SELECTOR switcn SwZ; LON; Nnon EQUALIZER INSERT tch Sw} depressed 
+- **Dots (junctions):** 8
+- **Words (OCR):** 248 in 164 lines: 4igh FREQuEncY section, · PZakteg the {requency oratior · FREQUENCY DJUSTMENT coniro · WBS · M462 · the · Lont · modc · iable · 25 <hz · the center · Donje curve
+- **Title block:** (142, 25)–(305, 319) mm: WBS · M462 · 4ig4 FREQUENcY section BOOST/ CUT contro · R13: · Cont inuous Iy · eble frcm 15 dB -15 dB_ Sets · ma teria| · high frequenc contemt · The · Lne · program · MF · CKA: · hid FREQUENCY · sef
+
+Every curve, box, word and wire group: [19xx - DOC - 462-04-005 - EASED CNE UNEQUA TZED NPUT TGNA BYPESSED DIRECTLY (traced).json](19xx%20-%20DOC%20-%20462-04-005%20-%20EASED%20CNE%20UNEQUA%20TZED%20NPUT%20TGNA%20BYPESSED%20DIRECTLY%20%28traced%29.json) (the CAD file: `19xx - DOC - 462-04-005 - EASED CNE UNEQUA TZED NPUT TGNA BYPESSED DIRECTLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 20 words corrected)

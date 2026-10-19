@@ -11,6 +11,18 @@ Wiki page: [M441M](../../../PAGES/M441M.md)
 - **Size:** 7,952,300 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 441-04-013, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–287 mm up
+- **Outlines:** line 262 rings, 3,655 straight (6,191 mm) / 425 curved (531 mm); text 322 rings, 2,196 straight (2,331 mm) / 631 curved (852 mm); tb 462 rings, 5,805 straight (7,464 mm) / 818 curved (1,288 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.9 @ (75.1, 110.9), r 2.8 @ (77.0, 225.2)
+- **Closed boxes:** 25 (22 in the title block); named: M4 4.|M CHANN EL AMPLIFIE R A Yout Mop !
+- **Words (OCR):** 52 in 42 lines: WBS · M44iM · SENS · Sw 5 · 60 · 50 · WBS 60-9 · 140 · 30 · Swic · SWIA · 20 OFF Lin6
+- **Title block:** (114, 2)–(375, 251) mm: WBS · M44iM · SENS · Sw 5 · 60 · 50 · WBS 60-9 · 140 · 30 · Swic · SWIA · 20 OFF Lin6 · I0 · Sw2c · 8W2A · REVERE · IR2ia · SW2 D · Sw2B · PRE · OFF Post · R238 · Sw6 SW3 · FR · SW4 · Ch On · SIDE COV
+
+Every curve, box, word and wire group: [1973 - M441M - 441-04-013 - WAAD-BECK BYSTEMS (2) (traced).json](1973%20-%20M441M%20-%20441-04-013%20-%20WAAD-BECK%20BYSTEMS%20%282%29%20%28traced%29.json) (the CAD file: `1973 - M441M - 441-04-013 - WAAD-BECK BYSTEMS (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

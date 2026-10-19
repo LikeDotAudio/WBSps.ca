@@ -11,6 +11,17 @@ Wiki page: [M495](../../../PAGES/M495.md)
 - **Size:** 2,161,343 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 495-04-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–336 mm across, 0–429 mm up
+- **Outlines:** line 71 rings, 2,011 straight (4,999 mm) / 222 curved (327 mm); text 328 rings, 2,452 straight (2,257 mm) / 857 curved (1,152 mm); tb 127 rings, 1,457 straight (5,054 mm) / 207 curved (326 mm)
+- **Closed boxes:** 10 (8 in the title block); named: DES IGNATION Strip to indicate input sou; Getif huting switch SL6: Allous manual i
+- **Words (OCR):** 54 in 37 lines: WBS · M495 · Honitor · input  SELECTOR switches ShI chrough · DES IGNATION Strip to indicate input source. · ShS · to se ect the · MOnITOR   feeds · fron · any One of five stereo igna · sources · huting switch SL6: Allous manual
+- **Title block:** (142, 0)–(334, 317) mm: WBS · M495 · Honitor · input  SELECTOR switches ShI chrough · ShS · to se ect the · MOnITOR   feeds · fron · any One of five stereo igna · sources · HOnITOR LEVEL control · R25/R26 : Determines · igna
+
+Every curve, box, word and wire group: [1975 - M495 - 495-04-003 - THE ASSOC IATED LED WILL INDI- IGNA LEVE (traced).json](1975%20-%20M495%20-%20495-04-003%20-%20THE%20ASSOC%20IATED%20LED%20WILL%20INDI-%20IGNA%20LEVE%20%28traced%29.json) (the CAD file: `1975 - M495 - 495-04-003 - THE ASSOC IATED LED WILL INDI- IGNA LEVE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

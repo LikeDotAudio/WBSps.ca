@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,980,166 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 772-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–427 mm across, 0–287 mm up
+- **Outlines:** line 2,340 rings, 23,703 straight (44,693 mm) / 4,015 curved (4,854 mm); text 64 rings, 391 straight (441 mm) / 115 curved (149 mm)
+- **Centre lines:** 23,886 paths (184 closed); straight 26,425 mm, curved 106 mm; horizontal 9,772 mm, vertical 10,714 mm, diagonal 5,939 mm
+- **Circles and arcs:** 4 circles, 28 arcs; largest r 2.7 @ (161.8, 37.6), r 1.4 @ (376.8, 9.8), r 1.1 @ (365.8, 9.5), r 1.1 @ (396.0, 23.1)
+- **Closed boxes:** 75
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 185 connected wire groups from 3,302 runs, 4 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 772-02-001 - DATA TRANSMITIRECEIVE MODULE SCHEMATIC (traced).json](1981%20-%20microCOM%20-%20772-02-001%20-%20DATA%20TRANSMITIRECEIVE%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1981 - microCOM - 772-02-001 - DATA TRANSMITIRECEIVE MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

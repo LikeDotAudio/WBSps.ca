@@ -11,6 +11,19 @@ Wiki page: [MP1](../../../PAGES/MP1.md)
 - **Size:** 910,194 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-121-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 20–344 mm up
+- **Outlines:** line 48 rings, 790 straight (1,588 mm) / 143 curved (197 mm); text 347 rings, 2,899 straight (3,364 mm) / 865 curved (1,251 mm); tb 2 rings, 66 straight (144 mm) / 3 curved (5.4 mm)
+- **Centre lines:** 2,957 paths (37 closed); straight 3,192 mm, curved 59.4 mm; horizontal 859 mm, vertical 743 mm, diagonal 1,590 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 1.8 @ (141.3, 330.6), r 1.5 @ (141.3, 320.3), r 1.0 @ (147.8, 255.0)
+- **Words (OCR):** 53 in 44 lines: CAL · R2O · METER   DRIVE · Jok · 'UIB · R18 · LM8JJN · R22 · P1 · 10/25 · R18 · R19
+- **Title block:** (197, 47)–(320, 71) mm: WBS WARD-BECK SYSTEMS · SA14-121
+- **Wiring (first pass):** 20 connected wire groups from 73 runs; labelled ends: 67 mm → METER   DRIVE, R22, Sk9; 62 mm → R18, R19, 200; 40 mm → COMMON; 39 mm → 200, C5, 470p, +11v; 32 mm → R2O, Jok, 'UIB, LM8JJN
+
+Every curve, box, word and wire group: [1992 - MP1 - 14-121-02-001 - TER DRIVE RNAL METER DRIVE (traced).json](1992%20-%20MP1%20-%2014-121-02-001%20-%20TER%20DRIVE%20RNAL%20METER%20DRIVE%20%28traced%29.json) (the CAD file: `1992 - MP1 - 14-121-02-001 - TER DRIVE RNAL METER DRIVE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

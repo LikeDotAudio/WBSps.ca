@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 24,392,782 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 930420-01-001, size B (assumed) 432 × 274 mm, 2000 × 1271 px traced (0.216 mm/px)
+- **Ink extent:** 32–413 mm across, 8–264 mm up
+- **Outlines:** line 3,717 rings, 32,836 straight (40,178 mm) / 5,819 curved (9,498 mm); text 192 rings, 1,052 straight (1,076 mm) / 327 curved (437 mm); tb 17 rings, 140 straight (168 mm) / 36 curved (41.2 mm)
+- **Centre lines:** 50,985 paths (433 closed); straight 34,322 mm, curved 52.4 mm; horizontal 13,641 mm, vertical 11,952 mm, diagonal 8,728 mm
+- **Circles and arcs:** 639 circles, 20 arcs; largest r 1.9 @ (288.8, 128.0), r 1.9 @ (151.6, 194.1), r 1.9 @ (151.4, 165.0), r 1.9 @ (282.0, 189.8)
+- **Closed boxes:** 156 (4 in the title block); named: CBC  FREDERICTON 48x48 Microcom INTERCOM; CSC N:; 930420-01-001
+- **Words (OCR):** 17 in 16 lines: LEGEND: · CUTPJTS · crosspoit · 48546 · VATRIX · (48 InPutS OUTPUTS) · (12 SECTIONS) · (OTo · CUSTOUEF · WBS) · WARD-BECK SYSTEMS · CBC  FREDERICTON
+- **Title block:** (336, 24)–(419, 40) mm: WBS) · WARD-BECK SYSTEMS · CBC  FREDERICTON
+- **Wiring (first pass):** 471 connected wire groups from 6,594 runs; labelled ends: 71 mm → WARD-BECK SYSTEMS, INTERCOM FUNCTIONAL, 930420-01-001; 64 mm → WBS), INTERCOM FUNCTIONAL; 9 mm → (12 SECTIONS)
+
+Every curve, box, word and wire group: [1993 - microCOM - DOC - 930420-01-001 - PER CUSTOMER REQUEST REVSION SSUE (traced).json](1993%20-%20microCOM%20-%20DOC%20-%20930420-01-001%20-%20PER%20CUSTOMER%20REQUEST%20REVSION%20SSUE%20%28traced%29.json) (the CAD file: `1993 - microCOM - DOC - 930420-01-001 - PER CUSTOMER REQUEST REVSION SSUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

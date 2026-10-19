@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 36,043,624 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 4–430 mm across, 0–279 mm up
+- **Outlines:** line 1,968 rings, 13,063 straight (27,491 mm) / 1,481 curved (1,783 mm); text 115 rings, 575 straight (528 mm) / 164 curved (206 mm); tb 35 rings, 189 straight (198 mm) / 36 curved (41.5 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.7 @ (397.7, 232.3), r 0.7 @ (57.0, 28.7)
+- **Closed boxes:** 128; named: LEGEND; WBS WARD-BECK SYSTEMS Latout; 31106-04-003/
+- **Dots (junctions):** 2
+- **Words (OCR):** 13 in 12 lines: LEGEND · ROW · EunIO · CONYECTED · JOURCE 5 · CON DLL · CONSLLE · 40444 · No4u · WBS WARD-BECK SYSTEMS · Latout · 31106-04-003/
+- **Title block:** (358, 18)–(432, 33) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1977 - WSVN - 31106-04-003 - CLIENT ARROVAL MLEA PEELIMNALL (traced).json](1977%20-%20WSVN%20-%2031106-04-003%20-%20CLIENT%20ARROVAL%20MLEA%20PEELIMNALL%20%28traced%29.json) (the CAD file: `1977 - WSVN - 31106-04-003 - CLIENT ARROVAL MLEA PEELIMNALL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

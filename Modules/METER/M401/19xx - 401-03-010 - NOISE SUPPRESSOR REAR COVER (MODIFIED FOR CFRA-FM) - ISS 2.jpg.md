@@ -27,6 +27,19 @@ Rear cover drilling detail for the M401 noise suppressor.
 
 - **1968** (labelled): `DATE DEC 68` — …IGH AND DISPOSED As SHOWN: ISS _ MODICKD: DRA DJG 2 2631 'M DATE DEC 68 FlSH 240 GRIT, ZINC CHROMATE 6 PANT AMPEX GRTY TO Wbs SPFC…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 401-03-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 415 rings, 5,994 straight (10,654 mm) / 855 curved (1,320 mm); text 449 rings, 3,853 straight (4,419 mm) / 1,051 curved (1,635 mm); tb 52 rings, 534 straight (533 mm) / 87 curved (115 mm)
+- **Centre lines:** 8,072 paths (67 closed); straight 9,430 mm, curved 350 mm; horizontal 3,934 mm, vertical 2,137 mm, diagonal 3,359 mm
+- **Circles and arcs:** 3 circles, 31 arcs; largest r 12.4 @ (219.1, 159.0), r 10.4 @ (145.3, 159.5), r 9.7 @ (116.0, 160.2)
+- **Closed boxes:** 11 (2 in the title block); named: ISS_; MoD; 2631
+- **Words (OCR):** 62 in 41 lines: 5.37 · 99 · DRILL & TAP 4-4OUNC · I8 · 8 HOLES · 656 · 1.47 · 34 · 1.062 · 103 · OUTPUT · INPUT
+- **Title block:** (166, 27)–(373, 56) mm: ISS_ MoD CKD DRN · FlISH · 240 · Grit, ZINc WARD · DJG · 2631 MM DATE · CHROMATE · PAiNT AMPEX · DEC 68 · GRFY To Wbs · SFFC . ^ {2007 M401 NOISE SUPPRESSOR
+
+Every curve, box, word and wire group: [19xx - 401-03-010 - NOISE SUPPRESSOR REAR COVER (MODIFIED FOR CFRA-FM) - ISS 2 (traced).json](19xx%20-%20401-03-010%20-%20NOISE%20SUPPRESSOR%20REAR%20COVER%20%28MODIFIED%20FOR%20CFRA-FM%29%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 401-03-010 - NOISE SUPPRESSOR REAR COVER (MODIFIED FOR CFRA-FM) - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

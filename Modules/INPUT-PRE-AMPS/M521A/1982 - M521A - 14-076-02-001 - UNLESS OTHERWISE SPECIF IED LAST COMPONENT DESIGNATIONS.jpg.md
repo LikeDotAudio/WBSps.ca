@@ -11,6 +11,19 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 7,545,339 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-076-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 6–287 mm up
+- **Outlines:** line 1,065 rings, 8,777 straight (11,847 mm) / 1,878 curved (2,187 mm); text 149 rings, 934 straight (879 mm) / 277 curved (338 mm)
+- **Centre lines:** 8,143 paths (256 closed); straight 7,435 mm, curved 97.9 mm; horizontal 2,462 mm, vertical 1,987 mm, diagonal 2,986 mm
+- **Circles and arcs:** 2 circles, 13 arcs; largest r 3.2 @ (134.8, 132.2), r 3.1 @ (134.5, 219.0)
+- **Closed boxes:** 2
+- **Dots (junctions):** 4
+- **Wiring (first pass):** 98 connected wire groups from 726 runs
+
+Every curve, box, word and wire group: [1982 - M521A - 14-076-02-001 - UNLESS OTHERWISE SPECIF IED LAST COMPONENT DESIGNATIONS (traced).json](1982%20-%20M521A%20-%2014-076-02-001%20-%20UNLESS%20OTHERWISE%20SPECIF%20IED%20LAST%20COMPONENT%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `1982 - M521A - 14-076-02-001 - UNLESS OTHERWISE SPECIF IED LAST COMPONENT DESIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

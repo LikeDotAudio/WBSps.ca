@@ -30,21 +30,3 @@ tags: ["product", "metering", "2010s"]
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - AMS16-2A - Rear.jpg](../Products/METERING/AMS16-2A/2014%20-%20AMS16-2A%20-%20Rear.jpg) | [note](../Products/METERING/AMS16-2A/2014%20-%20AMS16-2A%20-%20Rear.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "AMS16-2A",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/AMS16-2AE/2014 - AMS16-2AE - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

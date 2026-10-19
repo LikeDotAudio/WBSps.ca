@@ -24,6 +24,19 @@ Mechanical drawing of a jack mounting strip, title block at bottom right.
 - **Size:** 1,243,211 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 405-03-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–299 mm up
+- **Outlines:** line 187 rings, 5,281 straight (9,334 mm) / 664 curved (1,016 mm); text 207 rings, 1,823 straight (2,356 mm) / 474 curved (781 mm); tb 33 rings, 461 straight (416 mm) / 139 curved (185 mm)
+- **Centre lines:** 7,127 paths (67 closed); straight 7,688 mm, curved 328 mm; horizontal 3,122 mm, vertical 1,813 mm, diagonal 2,752 mm
+- **Circles and arcs:** 9 circles, 18 arcs; largest r 12.5 @ (121.2, 168.2), r 12.5 @ (55.6, 167.8), r 12.3 @ (186.3, 169.1), r 1.4 @ (268.9, 18.2)
+- **Closed boxes:** 1
+- **Words (OCR):** 30 in 30 lines: 6-32 UnC THRU · TYP 5 HOLES · 468 DIAA · TYP3 HOLES · /,250 · {.250 · '375 · I.00 · 625 · .625 · .42= · /.650
+- **Title block:** (257, 18)–(376, 60) mm: MaRd · BECK · PHIL · RM4054 · JuNe 7( · JAck · DATE
+
+Every curve, box, word and wire group: [1971 - 405-03-010 - RM405A JACK MOUNTING STRIP - DRN PHL - ISS 2 (traced).json](1971%20-%20405-03-010%20-%20RM405A%20JACK%20MOUNTING%20STRIP%20-%20DRN%20PHL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1971 - 405-03-010 - RM405A JACK MOUNTING STRIP - DRN PHL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

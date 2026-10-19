@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 8,033,156 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 029-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–288 mm up
+- **Outlines:** line 3,025 rings, 25,316 straight (43,932 mm) / 4,397 curved (5,243 mm); text 104 rings, 661 straight (666 mm) / 192 curved (258 mm)
+- **Centre lines:** 35,490 paths (305 closed); straight 28,608 mm, curved 162 mm; horizontal 12,818 mm, vertical 8,653 mm, diagonal 7,137 mm
+- **Circles and arcs:** 1 circles, 46 arcs; largest r 1.2 @ (396.8, 17.6)
+- **Closed boxes:** 26
+- **Dots (junctions):** 3
+- **Wiring (first pass):** 261 connected wire groups from 4,089 runs, 6 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 029-02-001 - ADORESS OUTPUTS NADS NADS (traced).json](1981%20-%20microCOM%20-%20029-02-001%20-%20ADORESS%20OUTPUTS%20NADS%20NADS%20%28traced%29.json) (the CAD file: `1981 - microCOM - 029-02-001 - ADORESS OUTPUTS NADS NADS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

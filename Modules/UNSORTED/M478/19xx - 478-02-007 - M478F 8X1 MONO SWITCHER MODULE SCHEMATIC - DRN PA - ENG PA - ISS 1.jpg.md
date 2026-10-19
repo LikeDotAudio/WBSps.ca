@@ -24,6 +24,21 @@ Wiki page: [M478](../../../PAGES/M478.md)
 - **Size:** 635,100 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 478-02-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 358 rings, 5,706 straight (13,629 mm) / 822 curved (1,206 mm); text 224 rings, 1,540 straight (1,962 mm) / 479 curved (738 mm); tb 7 rings, 97 straight (235 mm) / 10 curved (14.9 mm)
+- **Centre lines:** 3,465 paths (84 closed); straight 8,624 mm, curved 246 mm; horizontal 3,964 mm, vertical 2,838 mm, diagonal 1,821 mm
+- **Circles and arcs:** 15 circles, 57 arcs; largest r 1.5 @ (8.3, 133.1), r 1.4 @ (327.0, 136.6), r 0.9 @ (352.1, 210.3), r 0.9 @ (212.8, 180.0)
+- **Closed boxes:** 42 (9 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 34 in 26 lines: 7I/ · output · ~se]common · I2,N · 22,2 · CTL 8 · CTL · CTL6 · CTL4 · CTL3 · CTLZ · INPUTS CoNTROLS
+- **Title block:** (279, 10)–(432, 78) mm: ISSUE DATE · REVISION · APP: · WBS WARD-BECK SYSTEMS · DRN PA · M478F · ENG_ PA · 8X1 MONO SWITCHER MODULE · CKD: · APP · SCHEMATIC · SCALE · 478-02-007 · ISSUE
+- **Wiring (first pass):** 66 connected wire groups from 425 runs, 3 dotted junctions; labelled ends: 531 mm → 7I/; 392 mm → ~se]common; 143 mm → CTL4, CoNTROLS; 143 mm → INPUTS; 29 mm → I2,N, 22,2
+
+Every curve, box, word and wire group: [19xx - 478-02-007 - M478F 8X1 MONO SWITCHER MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](19xx%20-%20478-02-007%20-%20M478F%208X1%20MONO%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 478-02-007 - M478F 8X1 MONO SWITCHER MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

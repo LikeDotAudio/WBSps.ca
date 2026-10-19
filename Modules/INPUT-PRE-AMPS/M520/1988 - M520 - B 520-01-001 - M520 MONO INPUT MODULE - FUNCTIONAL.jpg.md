@@ -12,6 +12,20 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 2,166,705 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 520-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 40–431 mm across, 2–279 mm up
+- **Outlines:** line 945 rings, 6,875 straight (11,195 mm) / 1,089 curved (1,254 mm); text 125 rings, 783 straight (793 mm) / 215 curved (283 mm); tb 2 rings, 32 straight (93.6 mm) / 2 curved (4.6 mm)
+- **Centre lines:** 6,833 paths (144 closed); straight 6,570 mm, curved 86.5 mm; horizontal 2,416 mm, vertical 1,975 mm, diagonal 2,179 mm
+- **Circles and arcs:** 5 circles, 13 arcs; largest r 2.3 @ (157.0, 101.8), r 2.2 @ (117.4, 106.0), r 2.0 @ (109.7, 106.1), r 1.9 @ (75.9, 234.3)
+- **Closed boxes:** 9
+- **Words (OCR):** 17 in 17 lines: PAELUP · POKEn · FADEA · 60 -Jc · RchI · Kight · 4ict · AGAT · Kight · PRE POST · WBS · WARD-BECK SYSTEMS
+- **Title block:** (340, 32)–(429, 48) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 135 connected wire groups from 673 runs; labelled ends: 54 mm → PRE POST; 8 mm → AGAT; 7 mm → 4ict; 7 mm → Kight; 7 mm → RchI
+
+Every curve, box, word and wire group: [1988 - M520 - B 520-01-001 - M520 MONO INPUT MODULE - FUNCTIONAL (traced).json](1988%20-%20M520%20-%20B%20520-01-001%20-%20M520%20MONO%20INPUT%20MODULE%20-%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1988 - M520 - B 520-01-001 - M520 MONO INPUT MODULE - FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

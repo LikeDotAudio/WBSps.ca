@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,548,562 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950144-04-001, size B (assumed) 432 × 369 mm, 2000 × 1710 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–420 mm across, 12–350 mm up
+- **Outlines:** line 2,358 rings, 17,900 straight (44,784 mm) / 3,251 curved (4,068 mm); text 706 rings, 4,569 straight (4,927 mm) / 1,516 curved (2,045 mm); tb 18 rings, 396 straight (2,008 mm) / 10 curved (20.4 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 7.1 @ (360.1, 141.5), r 7.1 @ (360.5, 113.6), r 2.1 @ (362.4, 144.1), r 2.1 @ (362.8, 116.3)
+- **Closed boxes:** 320; named: M9OSB; HEADPHOVES CUEST MUTE STUDIO; HEADPHONES HON MUTE STUDIO; ILKBCK 1O ANOUNCER
+- **Dots (junctions):** 77
+- **Words (OCR):** 114 in 90 lines: CH · CH · CH 3 · CH · CH 5 · CH 6 · CH 7 · CH · CH · CH 10 · CH · CH 12
+- **Title block:** (282, 11)–(426, 73) mm: FUTURE · ISSUE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRN · SM · CHML · PRODUCTION · ENG. · SM · RENAISSANCE MKII · CKD · CONSOLE LA YOUT · APP · SCALE DISC NO: · SYSO1 · 950144-04-001 · ISSUE
+
+Every curve, box, word and wire group: [1995 - M907 - DOC - 950144-04-001 - NOFTGTURE MODULES ARE WIRED INTO THE FRAME BUT (traced).json](1995%20-%20M907%20-%20DOC%20-%20950144-04-001%20-%20NOFTGTURE%20MODULES%20ARE%20WIRED%20INTO%20THE%20FRAME%20BUT%20%28traced%29.json) (the CAD file: `1995 - M907 - DOC - 950144-04-001 - NOFTGTURE MODULES ARE WIRED INTO THE FRAME BUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -12,6 +12,19 @@ Wiki page: [M521](../../../PAGES/M521.md)
 - **Size:** 7,243,353 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 521-01-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–430 mm across, 1–285 mm up
+- **Outlines:** line 1,132 rings, 9,322 straight (14,994 mm) / 1,517 curved (1,881 mm); text 88 rings, 523 straight (506 mm) / 172 curved (232 mm)
+- **Centre lines:** 8,070 paths (134 closed); straight 8,392 mm, curved 154 mm; horizontal 3,262 mm, vertical 2,327 mm, diagonal 2,803 mm
+- **Circles and arcs:** 5 circles, 28 arcs; largest r 2.3 @ (70.7, 190.3), r 1.9 @ (129.0, 108.3), r 1.6 @ (394.1, 10.7), r 1.3 @ (394.0, 10.9)
+- **Closed boxes:** 23
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 221 connected wire groups from 867 runs
+
+Every curve, box, word and wire group: [1985 - M521 - 521-01-001 - AUX PRE-PCST AUX AUX AUX (traced).json](1985%20-%20M521%20-%20521-01-001%20-%20AUX%20PRE-PCST%20AUX%20AUX%20AUX%20%28traced%29.json) (the CAD file: `1985 - M521 - 521-01-001 - AUX PRE-PCST AUX AUX AUX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

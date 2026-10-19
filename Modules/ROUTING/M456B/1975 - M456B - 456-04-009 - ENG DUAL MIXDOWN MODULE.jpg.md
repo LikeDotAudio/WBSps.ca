@@ -11,6 +11,16 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 6,790,216 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 456-04-009, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–430 mm across, 0–288 mm up
+- **Outlines:** line 1,460 rings, 7,324 straight (11,641 mm) / 1,080 curved (1,446 mm); text 217 rings, 985 straight (754 mm) / 172 curved (194 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 3.7 @ (213.2, 33.2), r 3.7 @ (200.3, 33.2), r 2.7 @ (212.7, 140.5), r 2.7 @ (199.9, 154.2)
+- **Closed boxes:** 13
+
+Every curve, box, word and wire group: [1975 - M456B - 456-04-009 - ENG DUAL MIXDOWN MODULE (traced).json](1975%20-%20M456B%20-%20456-04-009%20-%20ENG%20DUAL%20MIXDOWN%20MODULE%20%28traced%29.json) (the CAD file: `1975 - M456B - 456-04-009 - ENG DUAL MIXDOWN MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

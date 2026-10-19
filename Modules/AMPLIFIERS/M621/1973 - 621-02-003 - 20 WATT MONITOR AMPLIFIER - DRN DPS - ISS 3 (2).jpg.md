@@ -29,6 +29,20 @@ M621 20 watt monitor amplifier drawing with notes, cropped.
 
 - **1973** (labelled): `DATE SEPT 73` — …V AC 60 HZ 16 ON MATL. WBS WAAD-BeCK SYSTEMS LTD: DRN: DPS DATE SEPT 73 CKD R1 SCALE XX TOLS ENG M 621 FINISH 20 WATT MONITOR AMPLI…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 621-02-003, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 275 rings, 5,489 straight (7,025 mm) / 825 curved (1,119 mm); text 549 rings, 5,866 straight (6,360 mm) / 1,497 curved (2,314 mm); tb 32 rings, 502 straight (542 mm) / 85 curved (114 mm)
+- **Centre lines:** 5,659 paths (81 closed); straight 8,858 mm, curved 72.3 mm; horizontal 3,187 mm, vertical 2,080 mm, diagonal 3,590 mm
+- **Circles and arcs:** 6 circles, 3 arcs; largest r 1.9 @ (54.2, 253.4), r 1.9 @ (102.1, 246.2), r 1.8 @ (102.0, 176.9), r 1.8 @ (43.9, 246.5)
+- **Closed boxes:** 11 (4 in the title block); named: MATL .; WBS WARD-BECK BYSTEMS; M 621 20 WATT MONITOR AMPLIFIER; FINISH; 621-02-003; XX TOLS _ ANG
+- **Words (OCR):** 59 in 41 lines: NOTES · SCHEMATIC OF PCB 173 SEE · I.FOR · 17 3-06-001 · 2 FOR COMPONENT LAYOUT OF PC B 173 · SEE B 173-02-001 · 3. UNLESS SPECIFIED ALL RESISTORS · WATT · TOLERA NCE :590 · ARE V/4 · VA LUES ARE OHMS.(n) · iN
+- **Title block:** (98, 17)–(249, 87) mm: WBS WARD-BECK BYSTEMS · DRN: · DPs · M 621 · DATE · SEPT 73 · CKD Rk · 20 WATT MONITOR AMPLIFIER · SCALE · XX · 621-02-003
+- **Wiring (first pass):** 23 connected wire groups from 138 runs; labelled ends: 233 mm → ON; 191 mm → DRN:, DATE, CKD; 157 mm → WBS, WARD-BECK, 20 WATT MONITOR AMPLIFIER; 99 mm → 16; 58 mm → BYSTEMS
+
+Every curve, box, word and wire group: [1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (2) (traced).json](1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

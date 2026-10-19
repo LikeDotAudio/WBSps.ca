@@ -11,6 +11,21 @@ Wiki page: [M490N](../../../PAGES/M490N.md)
 - **Size:** 317,313 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-014, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 13–417 mm up
+- **Outlines:** line 1,661 rings, 13,596 straight (20,296 mm) / 3,229 curved (3,954 mm); text 385 rings, 2,303 straight (2,253 mm) / 731 curved (956 mm); tb 2 rings, 56 straight (152 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 11,567 paths (256 closed); straight 13,008 mm, curved 398 mm; horizontal 5,508 mm, vertical 2,809 mm, diagonal 4,691 mm
+- **Circles and arcs:** 7 circles, 121 arcs; largest r 4.3 @ (110.0, 141.0), r 4.1 @ (182.8, 151.3), r 2.6 @ (131.8, 189.8), r 2.4 @ (142.2, 132.3)
+- **Closed boxes:** 5
+- **Dots (junctions):** 1
+- **Words (OCR):** 61 in 58 lines: Jz-I0 · ViC0 · Buse $ · R88 54zo · WJ/i0 · 264 · R88 · ASsign · NEaSjh · AssiGN · JJ/0 · Rz0
+- **Title block:** (212, 46)–(335, 71) mm: WBS · WARD-BECK BYSTEMS
+- **Wiring (first pass):** 190 connected wire groups from 1,042 runs; labelled ends: 294 mm → 2102; 208 mm → 12, 2; 101 mm → Rz0; 91 mm → 788}; 82 mm → ASsign
+
+Every curve, box, word and wire group: [1985 - M490N - 490-02-014 - STEREO INPUT MODULE SCHEMATIC (traced).json](1985%20-%20M490N%20-%20490-02-014%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M490N - 490-02-014 - STEREO INPUT MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

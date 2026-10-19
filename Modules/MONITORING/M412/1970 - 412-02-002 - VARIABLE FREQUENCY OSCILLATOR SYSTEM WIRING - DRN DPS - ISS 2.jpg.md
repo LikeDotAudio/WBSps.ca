@@ -23,6 +23,18 @@ Wiki page: [M412](../../../PAGES/M412.md)
 - **Size:** 3,811,719 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 412-02-002, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 17–303 mm up
+- **Outlines:** line 958 rings, 7,745 straight (10,026 mm) / 1,109 curved (1,504 mm); text 468 rings, 2,852 straight (2,980 mm) / 650 curved (939 mm)
+- **Centre lines:** 7,078 paths (52 closed); straight 7,549 mm, curved 234 mm; horizontal 2,863 mm, vertical 2,083 mm, diagonal 2,603 mm
+- **Circles and arcs:** 7 circles, 42 arcs; largest r 1.7 @ (61.2, 245.8), r 1.7 @ (278.0, 109.3), r 1.7 @ (153.7, 219.3), r 1.7 @ (38.3, 218.0)
+- **Closed boxes:** 8
+- **Wiring (first pass):** 71 connected wire groups from 624 runs
+
+Every curve, box, word and wire group: [1970 - 412-02-002 - VARIABLE FREQUENCY OSCILLATOR SYSTEM WIRING - DRN DPS - ISS 2 (traced).json](1970%20-%20412-02-002%20-%20VARIABLE%20FREQUENCY%20OSCILLATOR%20SYSTEM%20WIRING%20-%20DRN%20DPS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1970 - 412-02-002 - VARIABLE FREQUENCY OSCILLATOR SYSTEM WIRING - DRN DPS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

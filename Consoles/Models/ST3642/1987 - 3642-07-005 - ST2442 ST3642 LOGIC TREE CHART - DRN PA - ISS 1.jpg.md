@@ -24,6 +24,16 @@ Logic tree chart grid, title block at bottom left reading sideways.
 - **Size:** 3,827,600 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** artwork B 3642-07-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–430 mm across, 14–286 mm up
+- **Outlines:** line 1,968 rings, 14,268 straight (29,229 mm) / 3,115 curved (2,855 mm); text 153 rings, 1,343 straight (1,554 mm) / 344 curved (415 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.4 @ (7.6, 253.5), r 3.4 @ (7.6, 32.3), r 3.4 @ (7.9, 142.2), r 1.4 @ (378.8, 75.8)
+- **Closed boxes:** 864
+
+Every curve, box, word and wire group: [1987 - 3642-07-005 - ST2442 ST3642 LOGIC TREE CHART - DRN PA - ISS 1 (traced).json](1987%20-%203642-07-005%20-%20ST2442%20ST3642%20LOGIC%20TREE%20CHART%20-%20DRN%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 3642-07-005 - ST2442 ST3642 LOGIC TREE CHART - DRN PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

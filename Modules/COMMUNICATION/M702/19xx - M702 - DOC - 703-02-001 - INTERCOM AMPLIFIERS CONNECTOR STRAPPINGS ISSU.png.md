@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 14,146,276 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 703-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–294 mm up
+- **Outlines:** line 199 rings, 3,660 straight (12,204 mm) / 445 curved (734 mm); text 787 rings, 5,188 straight (6,116 mm) / 1,668 curved (2,543 mm); tb 5 rings, 95 straight (250 mm) / 9 curved (13.9 mm)
+- **Centre lines:** 5,314 paths (159 closed); straight 10,496 mm, curved 398 mm; horizontal 4,090 mm, vertical 2,719 mm, diagonal 3,688 mm
+- **Circles and arcs:** 28 circles, 18 arcs; largest r 2.3 @ (36.6, 94.9), r 2.3 @ (36.7, 74.1), r 2.2 @ (36.0, 143.7), r 2.0 @ (35.5, 235.0)
+- **Closed boxes:** 19 (7 in the title block); named: 24 To 36V UNREG. THE M7o2 CARD 3 WATT M7; THE M7o3 CARD BoTH PROVIDES M70? AMP ThE; REDRAWN; 703-02-001; SCALE
+- **Words (OCR):** 115 in 85 lines: +24 · 36V · UNRE6 · M7oI · THE · M7oi CARD · PRE · 8dBm PROVIDES ONLY · PREAMP OUTPUT · Nom: ThE PRE AMP · PRE AMP INPUT · SECTION
+- **Title block:** (295, 20)–(414, 94) mm: 1/78 · REDRAWN · ISSUE DATE · REVISION · WBS WARD-BECK SYSTEM · DRN. PMHoKey] · M703 · ENG_ · INTERCOM AMPLIFIERS · CKD Rxl · CONNECTOR STRAPPINGS · APP · SCALE · 703-02-001
+- **Wiring (first pass):** 65 connected wire groups from 215 runs; labelled ends: 449 mm → CONNECTOR STRAPPINGS, ISSU; 209 mm → 36V, CarBon, CONNECT; 157 mm → 36V; 122 mm → (-30), CARBON; 114 mm → OdBm, MUTE
+
+Every curve, box, word and wire group: [19xx - M702 - DOC - 703-02-001 - INTERCOM AMPLIFIERS CONNECTOR STRAPPINGS ISSU (traced).json](19xx%20-%20M702%20-%20DOC%20-%20703-02-001%20-%20INTERCOM%20AMPLIFIERS%20CONNECTOR%20STRAPPINGS%20ISSU%20%28traced%29.json) (the CAD file: `19xx - M702 - DOC - 703-02-001 - INTERCOM AMPLIFIERS CONNECTOR STRAPPINGS ISSU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -22,6 +22,18 @@ M7810 intercom studio terminal functional Title block at bottom left reading sid
 - **Size:** 4,972,360 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 7810-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 968 rings, 10,878 straight (18,147 mm) / 1,877 curved (2,233 mm); text 82 rings, 683 straight (589 mm) / 213 curved (260 mm)
+- **Centre lines:** 10,898 paths (119 closed); straight 10,663 mm, curved 130 mm; horizontal 4,515 mm, vertical 3,189 mm, diagonal 2,959 mm
+- **Circles and arcs:** 6 circles, 30 arcs; largest r 2.3 @ (173.4, 256.2), r 1.6 @ (389.0, 18.7), r 1.2 @ (388.9, 18.9), r 1.2 @ (392.8, 24.2)
+- **Closed boxes:** 32
+- **Wiring (first pass):** 222 connected wire groups from 1,125 runs
+
+Every curve, box, word and wire group: [19xx - 7810-01-001 - INTERCOM STUDIO TERMINAL FUNCTIONAL - ISS 2 (traced).json](19xx%20-%207810-01-001%20-%20INTERCOM%20STUDIO%20TERMINAL%20FUNCTIONAL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 7810-01-001 - INTERCOM STUDIO TERMINAL FUNCTIONAL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

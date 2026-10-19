@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,238,556 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940248-04-001, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px)
+- **Ink extent:** 0–422 mm across, 4–277 mm up
+- **Outlines:** line 551 rings, 3,767 straight (12,744 mm) / 946 curved (1,443 mm); text 193 rings, 1,210 straight (1,215 mm) / 382 curved (491 mm); tb 12 rings, 88 straight (67.5 mm) / 22 curved (21.8 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 4.5 @ (157.6, 181.3), r 4.5 @ (313.6, 181.5), r 4.5 @ (127.8, 181.3), r 4.5 @ (157.5, 163.6)
+- **Closed boxes:** 36 (1 in the title block); named: SPEAKER HEADSET; SPEAKER HEADSET; HEADSET; READSET; READSET; diSC No; 404; 940248-04-001; 04240L01
+- **Dots (junctions):** 17
+- **Words (OCR):** 23 in 21 lines: SPEAKER · HEADSET · HEADSET · VETCR · CONNECTO? · TOP · VIEW · READSET · ERONT · WARD · BECK   SYSTEMS · WB3Ss
+- **Title block:** (367, 20)–(427, 36) mm: WARD · BECK   SYSTEMS · CENTENNIAL COLLEGE
+
+Every curve, box, word and wire group: [1994 - DOC - 940248-04-001 - SPEAKER HEADSET HEADSET LEVEL OFF MIC OFF ALL (traced).json](1994%20-%20DOC%20-%20940248-04-001%20-%20SPEAKER%20HEADSET%20HEADSET%20LEVEL%20OFF%20MIC%20OFF%20ALL%20%28traced%29.json) (the CAD file: `1994 - DOC - 940248-04-001 - SPEAKER HEADSET HEADSET LEVEL OFF MIC OFF ALL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

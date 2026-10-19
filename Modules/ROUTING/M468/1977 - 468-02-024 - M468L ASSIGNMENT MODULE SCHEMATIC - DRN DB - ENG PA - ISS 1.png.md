@@ -25,6 +25,20 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 538,926 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-024, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 375 rings, 5,301 straight (12,062 mm) / 1,151 curved (1,638 mm); text 235 rings, 1,685 straight (1,989 mm) / 540 curved (799 mm); tb 6 rings, 76 straight (198 mm) / 8 curved (11.1 mm)
+- **Centre lines:** 4,595 paths (65 closed); straight 7,999 mm, curved 467 mm; horizontal 3,434 mm, vertical 2,398 mm, diagonal 2,167 mm
+- **Circles and arcs:** 53 circles, 43 arcs; largest r 1.5 @ (200.6, 141.4), r 1.5 @ (253.5, 141.6), r 1.4 @ (96.1, 140.9), r 1.4 @ (253.2, 233.0)
+- **Closed boxes:** 27 (7 in the title block); named: ISSUE; 468 - 02-024; SCALE
+- **Words (OCR):** 43 in 38 lines: INPUT · s3 · Sw5 · Sw7 · 30k · R2o · ISk · B5 · OUT · OUT · OUT · OUT
+- **Title block:** (278, 14)–(431, 82) mm: ISSUE DATE · REVISION · APP: · WBS WARD-BECK · SYSTEMS · DRN: DB. 5lio/77 · ENG_ PA · M468L · ASSIGNMENT MODULE · CKD · APP · SCHEMATIC · SCALE · ISSUE · 468 - 02-024
+- **Wiring (first pass):** 54 connected wire groups from 365 runs; labelled ends: 550 mm → RIe, R8k, Rok; 534 mm → 30k; 310 mm → Sw7, Sw5, s3; 304 mm → 51B, INPUT 2, Swz, 5W4; 40 mm → OUT
+
+Every curve, box, word and wire group: [1977 - 468-02-024 - M468L ASSIGNMENT MODULE SCHEMATIC - DRN DB - ENG PA - ISS 1 (traced).json](1977%20-%20468-02-024%20-%20M468L%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20DB%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 468-02-024 - M468L ASSIGNMENT MODULE SCHEMATIC - DRN DB - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

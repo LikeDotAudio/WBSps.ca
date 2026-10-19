@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,857,577 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 481-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 1,036 rings, 9,046 straight (15,285 mm) / 2,042 curved (2,526 mm); text 514 rings, 3,152 straight (2,849 mm) / 980 curved (1,294 mm); tb 11 rings, 97 straight (137 mm) / 14 curved (18.4 mm)
+- **Centre lines:** 11,948 paths (253 closed); straight 11,192 mm, curved 250 mm; horizontal 4,289 mm, vertical 2,255 mm, diagonal 4,648 mm
+- **Circles and arcs:** 9 circles, 82 arcs; largest r 1.1 @ (320.0, 91.5), r 1.0 @ (152.8, 90.5), r 1.0 @ (259.9, 80.0), r 1.0 @ (167.3, 103.7)
+- **Closed boxes:** 5 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 85 in 78 lines: Notesi · CUEAMPLEIER · ALL CAPACITCRS ARE · ALL RESISTORS ARE V4w57l · UNLESS Othepwisz Specified_ · 82; · COMPONENT CESiG AT - · CUE AMP MuTE · LSe PCB 52115 · EXTERNAL CUE · INPUT · MUTE CONTROL
+- **Title block:** (355, 20)–(432, 42) mm: issueldate · WBS WAAD-BECK Systems · M48 1B
+- **Wiring (first pass):** 138 connected wire groups from 873 runs, 1 dotted junctions; labelled ends: 80 mm → 10/25; 79 mm → R26, Cubsigh; 79 mm → C1ze, Gecop[, R37, R38; 77 mm → Cubsigh, Swvz; 71 mm → 82;
+
+Every curve, box, word and wire group: [19xx - M487 - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC (traced).json](19xx%20-%20M487%20-%20DOC%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M487 - DOC - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

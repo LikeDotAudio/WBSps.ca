@@ -22,6 +22,18 @@ SA14-124 oscillator assembly PCB component layout.
 - **Size:** 1,211,203 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 14-124-06-001, size B 258 × 432 mm, 1195 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 9–251 mm across, 0–429 mm up
+- **Outlines:** line 532 rings, 6,432 straight (8,430 mm) / 1,922 curved (2,021 mm); text 570 rings, 4,515 straight (4,262 mm) / 1,651 curved (1,850 mm); tb 147 rings, 1,507 straight (1,770 mm) / 451 curved (459 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.8 @ (122.1, 373.5), r 3.8 @ (124.3, 324.2), r 2.4 @ (14.6, 158.8), r 2.4 @ (15.4, 327.3)
+- **Closed boxes:** 13 (2 in the title block)
+- **Words (OCR):** 90 in 79 lines: FREQUENCY  SeLecTOR · VBS 11-131 · 10/25 · LEVEL · R4594 · R4I · S52k · R40 · Sk · R2i · FOR C1/C2 AND · COHBINED VALUE
+- **Title block:** (29, 49)–(253, 246) mm: 14-124 · 10/25 · 22P · L2zzes_ · JISSUE · 119 · 22k NESS · U3 · NESS · R44 · 54N · 22k · 54N · 47P · R49 !OK R48 · RSO · R47 · 40 · C2s · R54 · 680/16 · PI · C22 · 00000 · 680/16 · WBS WARD-BECK sysTe
+
+Every curve, box, word and wire group: [19xx - 14-124-06-001 - SA14-124 OSCILLATOR ASSEMBLY COMPONENT LAYOUT - ISS 1 (traced).json](19xx%20-%2014-124-06-001%20-%20SA14-124%20OSCILLATOR%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-124-06-001 - SA14-124 OSCILLATOR ASSEMBLY COMPONENT LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

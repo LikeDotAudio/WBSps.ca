@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,261,942 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940444-04-004, size B (assumed) 432 × 275 mm, 2000 × 1275 px traced (0.216 mm/px)
+- **Ink extent:** 46–426 mm across, 11–275 mm up
+- **Outlines:** line 418 rings, 3,382 straight (12,295 mm) / 663 curved (1,221 mm); text 158 rings, 919 straight (1,019 mm) / 257 curved (344 mm); tb 16 rings, 138 straight (163 mm) / 27 curved (37.2 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 4.5 @ (189.1, 106.8), r 4.5 @ (151.6, 107.2), r 4.5 @ (207.9, 106.6), r 4.5 @ (170.3, 107.0)
+- **Closed boxes:** 35 (2 in the title block); named: M718 M718 SA14-289 M712B M712B M8204; M718 M718 SA14-289 M712B M712B M8204; M718; M718; SA14-289; M712B; M712B; M8204; QutUTS; QutUTS; WBZ BOSTON SMART MiX MINUS CONTROL UNIT ; 940444-04-004
+- **Dots (junctions):** 2
+- **Words (OCR):** 15 in 15 lines: M718 · M718 · SA14-289 · M712B · M712B · M8204 · RLVOMD · QutUTS · WBS · WARD-BECK SYSTEMS · WBZ BOSTON · SMART MiX MINUS CONTROL
+- **Title block:** (338, 27)–(421, 42) mm: WBS · WARD-BECK SYSTEMS · WBZ BOSTON
+
+Every curve, box, word and wire group: [1994 - M8204 - DOC - 940444-04-004 - HYBRID UTL UTL HYBRID HYBRID CUTPUTS CORD REAR (traced).json](1994%20-%20M8204%20-%20DOC%20-%20940444-04-004%20-%20HYBRID%20UTL%20UTL%20HYBRID%20HYBRID%20CUTPUTS%20CORD%20REAR%20%28traced%29.json) (the CAD file: `1994 - M8204 - DOC - 940444-04-004 - HYBRID UTL UTL HYBRID HYBRID CUTPUTS CORD REAR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

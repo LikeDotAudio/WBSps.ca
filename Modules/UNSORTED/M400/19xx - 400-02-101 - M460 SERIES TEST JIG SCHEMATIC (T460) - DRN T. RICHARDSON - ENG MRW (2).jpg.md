@@ -23,6 +23,18 @@ Wiki page: [M400](../../../PAGES/M400.md)
 - **Size:** 1,964,955 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic C 400-02-101, size C 559 × 417 mm, 2000 × 1494 px traced (0.279 mm/px), turned 180°
+- **Ink extent:** 1–559 mm across, 11–417 mm up
+- **Outlines:** line 1,984 rings, 17,438 straight (16,733 mm) / 2,934 curved (3,718 mm); text 42 rings, 310 straight (331 mm) / 77 curved (120 mm)
+- **Centre lines:** 73,709 paths (235 closed); straight 31,486 mm, curved 78.6 mm; horizontal 7,232 mm, vertical 7,236 mm, diagonal 17,018 mm
+- **Circles and arcs:** 1 circles, 17 arcs; largest r 1.7 @ (480.1, 28.2)
+- **Closed boxes:** 3
+- **Wiring (first pass):** 80 connected wire groups from 899 runs
+
+Every curve, box, word and wire group: [19xx - 400-02-101 - M460 SERIES TEST JIG SCHEMATIC (T460) - DRN T. RICHARDSON - ENG MRW (2) (traced).json](19xx%20-%20400-02-101%20-%20M460%20SERIES%20TEST%20JIG%20SCHEMATIC%20%28T460%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20MRW%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 400-02-101 - M460 SERIES TEST JIG SCHEMATIC (T460) - DRN T. RICHARDSON - ENG MRW (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

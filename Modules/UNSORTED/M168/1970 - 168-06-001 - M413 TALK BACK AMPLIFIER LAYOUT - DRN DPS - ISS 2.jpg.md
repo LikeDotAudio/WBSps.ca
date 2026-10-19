@@ -26,6 +26,18 @@ Wiki page: [M168](../../../PAGES/M168.md)
 
 - **1970** (month): `FEB.1970` — …23 j4 C 20 C 23 R3i [r23 22 DRN DR $ FINISH clean DATE 2.7. FEB.1970 MATERIAL CHKD WARD BECK SYSTEMS LTD M413 TALk BACK AMPLIFIE…
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 168-06-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–287 mm up
+- **Outlines:** line 2,797 rings, 16,295 straight (14,850 mm) / 3,950 curved (3,587 mm); text 557 rings, 4,439 straight (4,125 mm) / 1,452 curved (1,500 mm); tb 28 rings, 99 straight (73.0 mm) / 8 curved (8.0 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 4.8 @ (112.9, 156.3), r 4.2 @ (304.4, 220.3), r 3.6 @ (300.7, 250.1), r 3.6 @ (99.6, 249.8)
+- **Closed boxes:** 40 (9 in the title block); named: {ETe; E21J; Bz}; C15; Rbo; HE]; KS; LeaF; IRA; 1r23; EIH; Tel
+- **Words (OCR):** 87 in 75 lines: 22 · c5 · ED-7? · Cct · {ETe · Ca € 19 · Lio · E21J · Cce · z.3 · 26 2 4 · Bz}
+- **Title block:** (181, 12)–(407, 61) mm: FINISH · WARD · BECK SYSTEMS · DRN DR $ · clean · DATE 2.7. FEB.1970 · MATERIAL · M413 · CHKD · TALk · BACK AMPLIFIER · SCALE · LaYout · TOLS · FRACT * 1/64 DEC TO · PLACES GIVEN · ANGLES · 168 · 06 O
+
+Every curve, box, word and wire group: [1970 - 168-06-001 - M413 TALK BACK AMPLIFIER LAYOUT - DRN DPS - ISS 2 (traced).json](1970%20-%20168-06-001%20-%20M413%20TALK%20BACK%20AMPLIFIER%20LAYOUT%20-%20DRN%20DPS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1970 - 168-06-001 - M413 TALK BACK AMPLIFIER LAYOUT - DRN DPS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -22,6 +22,19 @@ Controller module functional Title block at bottom left reading sideways.
 - **Size:** 4,842,600 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 774-01-002, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–287 mm across, 10–429 mm up
+- **Outlines:** line 628 rings, 6,803 straight (14,750 mm) / 1,060 curved (1,281 mm); text 103 rings, 740 straight (737 mm) / 227 curved (314 mm)
+- **Centre lines:** 6,341 paths (104 closed); straight 8,020 mm, curved 63.3 mm; horizontal 2,574 mm, vertical 3,591 mm, diagonal 1,855 mm
+- **Circles and arcs:** 0 circles, 22 arcs
+- **Closed boxes:** 68; named: 72
+- **Words (OCR):** 2 in 2 lines: 72 · Hi
+- **Wiring (first pass):** 163 connected wire groups from 639 runs; labelled ends: 87 mm → 72; 81 mm → Hi; 75 mm → 72; 42 mm → 72; 19 mm → 72
+
+Every curve, box, word and wire group: [19xx - 774-01-002 - M774A M776A CONTROLLER MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20774-01-002%20-%20M774A%20M776A%20CONTROLLER%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 774-01-002 - M774A M776A CONTROLLER MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

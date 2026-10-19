@@ -11,6 +11,18 @@ Wiki page: [M124](../../../PAGES/M124.md)
 - **Size:** 6,817,013 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 124-06-001, size B (assumed) 432 × 287 mm, 2000 × 1331 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–285 mm up
+- **Outlines:** line 4,302 rings, 29,326 straight (23,020 mm) / 7,130 curved (6,348 mm); text 307 rings, 2,427 straight (2,181 mm) / 752 curved (831 mm); tb 23 rings, 117 straight (101 mm) / 21 curved (18.8 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 9.9 @ (348.7, 195.3), r 9.9 @ (279.4, 195.9), r 9.9 @ (304.0, 196.0), r 9.9 @ (374.4, 196.2)
+- **Closed boxes:** 32; named: LR33; RZa; R34; R3i; R29; Lr2s; Rz3; R26; RZ4; Ti; RIz {R22 C8 GN
+- **Words (OCR):** 46 in 43 lines: Cio · 06 · 05 · L2 · CI · LR33 · RZa · R34 · R30 · R29 · R3i · DEDE
+- **Title block:** (303, 28)–(398, 46) mm: WARD BECK · SYSTEMS
+
+Every curve, box, word and wire group: [1968 - M124 - 124-06-001 - COMPONENT LAYOUT AMPLIFIER (traced).json](1968%20-%20M124%20-%20124-06-001%20-%20COMPONENT%20LAYOUT%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1968 - M124 - 124-06-001 - COMPONENT LAYOUT AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -23,6 +23,19 @@ Wiki page: [M451](../../../PAGES/M451.md)
 - **Size:** 1,495,489 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 451-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale 2u
+- **Ink extent:** 0–432 mm across, 4–298 mm up
+- **Outlines:** line 402 rings, 5,796 straight (11,634 mm) / 793 curved (1,009 mm); text 278 rings, 2,002 straight (2,402 mm) / 561 curved (921 mm); tb 37 rings, 275 straight (439 mm) / 46 curved (69.9 mm)
+- **Centre lines:** 7,943 paths (68 closed); straight 8,900 mm, curved 128 mm; horizontal 4,442 mm, vertical 1,925 mm, diagonal 2,532 mm
+- **Circles and arcs:** 3 circles, 1 arcs; largest r 9.5 @ (190.5, 194.1), r 9.4 @ (140.2, 193.8), r 1.5 @ (115.1, 109.3)
+- **Closed boxes:** 37 (27 in the title block); named: WARD-BECK WBS sysTEMs LTD; M45I TRANSFORMER BRACKET MountinG; ~-03-007 451; ISS_; 85 TOLS _
+- **Words (OCR):** 42 in 34 lines: 2.50 · 96 · 38 · 328 DIA · PLACE $ · 1.920 · '290 · 20 · 2 - 56 TAD · 2 PLACES · IISS MOD CKD_ · USED ON
+- **Title block:** (140, 13)–(412, 64) mm: IISS MOD CKD_ · USED ON · MATL. · WBS · WARD-BECK sysTEMs LTD · 18 GA CRS · (.043 Thk: ) DRN_ · SEB · M45I · DATE ALs 7Z · TRANSFORMER · FINISH · CKD · MountinG · BRACKET · CAD. · PLATE · ScALE 2u · 8
+
+Every curve, box, word and wire group: [1977 - 451-03-007 - TRANSFORMER MOUNTING BRACKET - DRN GEB - ISS 2 (traced).json](1977%20-%20451-03-007%20-%20TRANSFORMER%20MOUNTING%20BRACKET%20-%20DRN%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1977 - 451-03-007 - TRANSFORMER MOUNTING BRACKET - DRN GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

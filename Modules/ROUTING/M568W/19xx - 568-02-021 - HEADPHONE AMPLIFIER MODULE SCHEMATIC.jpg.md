@@ -21,6 +21,19 @@ Headphone amplifier module schematic, title block at bottom left reading sideway
 - **Size:** 4,844,982 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 568-02-021, size B 303 × 432 mm, 1404 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–288 mm across, 0–432 mm up
+- **Outlines:** line 843 rings, 8,812 straight (12,246 mm) / 2,089 curved (2,514 mm); text 166 rings, 1,494 straight (1,345 mm) / 464 curved (551 mm)
+- **Centre lines:** 10,460 paths (168 closed); straight 8,570 mm, curved 161 mm; horizontal 2,571 mm, vertical 2,868 mm, diagonal 3,131 mm
+- **Circles and arcs:** 3 circles, 34 arcs; largest r 3.0 @ (113.2, 335.7), r 2.9 @ (105.6, 349.5), r 0.9 @ (41.6, 414.6)
+- **Closed boxes:** 10
+- **Words (OCR):** 2 in 2 lines: 32 · lp
+- **Wiring (first pass):** 72 connected wire groups from 823 runs; labelled ends: 147 mm → 32; 106 mm → 32; 18 mm → lp; 17 mm → lp
+
+Every curve, box, word and wire group: [19xx - 568-02-021 - HEADPHONE AMPLIFIER MODULE SCHEMATIC (traced).json](19xx%20-%20568-02-021%20-%20HEADPHONE%20AMPLIFIER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 568-02-021 - HEADPHONE AMPLIFIER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

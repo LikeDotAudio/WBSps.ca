@@ -15,6 +15,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 
 - **1976** (labelled): `DATE AuG76` — …3423 PB USED ON MATL . WBS WARD-BECK systeMs LtD; DRN: GEB DATE AuG76 CKD Rc [SCALE TOLS _ M M459A E FFECTS SWItChER MoDULE SCHEM…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 459-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 482 rings, 8,317 straight (10,871 mm) / 1,312 curved (1,519 mm); text 419 rings, 3,049 straight (3,299 mm) / 816 curved (1,208 mm); tb 21 rings, 188 straight (274 mm) / 21 curved (39.4 mm)
+- **Centre lines:** 15,359 paths (96 closed); straight 10,493 mm, curved 87.5 mm; horizontal 3,761 mm, vertical 2,694 mm, diagonal 4,038 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 1.7 @ (85.3, 118.4), r 1.2 @ (5.1, 234.4)
+- **Closed boxes:** 41 (31 in the title block); named: WBS WARD-BECK systeMs LTD;; M459A SWItChER E FFECTS SCHEMATIC MoDULE; FINISH; 459 -02.-002; TOLS _
+- **Dots (junctions):** 1
+- **Words (OCR):** 63 in 55 lines: Eidema · RI3 · A |le n - · BcaAley · cFo2-YtS-/762 · DUAL 300_ · 70c4NostP2sia · Los Pet · v2 · Ri7 · OUt Scka dew · 75_
+- **Title block:** (14, 12)–(278, 64) mm: Iss · MOD ICKD · USED ON · MATL . · WBS WARD-BECK systeMs LTD; · 3423 · PB · DRN: · GEB · DATE · AuG76 · M459A · FINISH · E FFECTS · SWItChER · CKD · Rc · [SCALE · MoDULE · SCHEMATIC · TOLS _ · 459 -0
+- **Wiring (first pass):** 44 connected wire groups from 266 runs, 1 dotted junctions; labelled ends: 197 mm → 300; 76 mm → Vzw; 72 mm → 305, 300; 42 mm → Iss; 37 mm → 305
+
+Every curve, box, word and wire group: [1979 - 790236 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC (traced).json](1979%20-%20790236%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1979 - 790236 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

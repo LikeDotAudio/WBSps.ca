@@ -11,6 +11,18 @@ Wiki page: [M406](../../../PAGES/M406.md)
 - **Size:** 9,657,395 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 146-06-001, size B (assumed) 432 × 271 mm, 2000 × 1257 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–271 mm up
+- **Outlines:** line 474 rings, 6,280 straight (11,156 mm) / 1,580 curved (1,583 mm); text 788 rings, 4,923 straight (4,465 mm) / 1,344 curved (1,450 mm); tb 29 rings, 117 straight (119 mm) / 29 curved (23.7 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 9.1 @ (124.5, 179.4), r 8.6 @ (146.6, 170.4), r 8.6 @ (146.8, 205.1), r 7.5 @ (308.6, 163.2)
+- **Closed boxes:** 39 (10 in the title block); named: Rlz8; Rl2; RIO; Ree; C6; @Lz; Czi; (Cz9; BzI; FIZ; RI4; R27
+- **Words (OCR):** 100 in 76 lines: OUTPUT · To · R23 + 25 · TO Rl8   WIPER · ON SW2 · OUTPUT TO R24;26 · RO · Rl2 · ci8 · Rlz8 · R9 · RIO
+- **Title block:** (194, 11)–(377, 57) mm: FINISH · WARD BECK · DRN · C $ OCONNELL · DATE JULY 6E · COMPRESSOR EOARD · MATERIAL · CHKD · M146 · SCALE · FRACT = · 1/64 DEC TO · PLACES   GIVEN · ANGLES · 06 0oi · TOLS 1R" · 146
+
+Every curve, box, word and wire group: [1968 - M406 - B 146-06-001 - COMPRESSOR BOARD M146 COMPONENT LAYOUT (traced).json](1968%20-%20M406%20-%20B%20146-06-001%20-%20COMPRESSOR%20BOARD%20M146%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1968 - M406 - B 146-06-001 - COMPRESSOR BOARD M146 COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

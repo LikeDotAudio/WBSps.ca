@@ -20,6 +20,19 @@ Wiki page: [Job-940350](../../../PAGES/Job-940350.md)
 - **Size:** 383,714 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940350-03-001, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px)
+- **Ink extent:** 147–846 mm across, 13–523 mm up
+- **Outlines:** line 514 rings, 3,341 straight (14,891 mm) / 767 curved (1,936 mm); text 291 rings, 1,758 straight (4,177 mm) / 498 curved (1,306 mm); tb 12 rings, 106 straight (292 mm) / 30 curved (68.5 mm)
+- **Centre lines:** 6,088 paths (187 closed); straight 11,873 mm, curved 349 mm; horizontal 3,702 mm, vertical 4,131 mm, diagonal 4,041 mm
+- **Circles and arcs:** 17 circles, 17 arcs; largest r 5.0 @ (403.3, 197.6), r 5.0 @ (403.3, 172.2), r 3.6 @ (414.4, 476.4), r 3.6 @ (413.6, 76.5)
+- **Closed boxes:** 49 (4 in the title block); named: M907 CUSTOM MODULE BOTTOM PLATE; 940350-03-001; DSC NC
+- **Words (OCR):** 29 in 24 lines: 3 3 · REQ D · 0,850 · 9.711 · MATERIAL: ALUM ALLOY 0.080 THICK · 18_0 · 1218 4 · 42.532 · FINISH: SAND 120 · TEXTURED   BEIGE (452C) · GRiT AND PAINT · TEXCOTE VINM
+- **Title block:** (688, 45)–(857, 78) mm: SSJEIOA · RFYSID · WBS · WARD-BECK SYSTEMS · M907
+
+Every curve, box, word and wire group: [1994 - 940350-03-001 - M907 CUSTOM MODULE BOTTOM PLATE - DRN DRG - ISS 1 (traced).json](1994%20-%20940350-03-001%20-%20M907%20CUSTOM%20MODULE%20BOTTOM%20PLATE%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940350-03-001 - M907 CUSTOM MODULE BOTTOM PLATE - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

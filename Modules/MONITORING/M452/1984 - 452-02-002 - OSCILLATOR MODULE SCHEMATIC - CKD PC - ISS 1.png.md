@@ -24,6 +24,20 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **Size:** 480,306 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 452-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–426 mm across, 12–298 mm up
+- **Outlines:** line 960 rings, 8,203 straight (14,178 mm) / 1,893 curved (2,344 mm); text 134 rings, 809 straight (679 mm) / 258 curved (311 mm)
+- **Centre lines:** 7,753 paths (172 closed); straight 8,665 mm, curved 290 mm; horizontal 3,201 mm, vertical 2,304 mm, diagonal 3,160 mm
+- **Circles and arcs:** 5 circles, 70 arcs; largest r 4.0 @ (304.4, 232.3), r 3.7 @ (120.2, 89.9), r 3.6 @ (304.5, 206.4), r 0.8 @ (17.7, 51.8)
+- **Closed boxes:** 9
+- **Dots (junctions):** 3
+- **Words (OCR):** 35 in 33 lines: Cis · 22/25 · CR7 · Rs6 · 22/25 · ZV · 09 44 · 4003 · Goon · 463 · LEVEL · CAL
+- **Wiring (first pass):** 110 connected wire groups from 626 runs, 2 dotted junctions; labelled ends: 117 mm → Rs6; 87 mm → 22k, GR 2; 81 mm → CR7; 68 mm → 463; 50 mm → 4003
+
+Every curve, box, word and wire group: [1984 - 452-02-002 - OSCILLATOR MODULE SCHEMATIC - CKD PC - ISS 1 (traced).json](1984%20-%20452-02-002%20-%20OSCILLATOR%20MODULE%20SCHEMATIC%20-%20CKD%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 452-02-002 - OSCILLATOR MODULE SCHEMATIC - CKD PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

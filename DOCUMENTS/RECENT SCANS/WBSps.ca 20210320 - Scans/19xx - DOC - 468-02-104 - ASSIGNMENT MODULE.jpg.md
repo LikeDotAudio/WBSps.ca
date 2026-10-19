@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,217,172 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 468-02-104, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 245 rings, 5,531 straight (15,107 mm) / 658 curved (953 mm); text 170 rings, 1,481 straight (1,872 mm) / 423 curved (657 mm); tb 5 rings, 106 straight (268 mm) / 8 curved (12.6 mm)
+- **Centre lines:** 5,035 paths (58 closed); straight 9,738 mm, curved 266 mm; horizontal 4,606 mm, vertical 3,195 mm, diagonal 1,936 mm
+- **Circles and arcs:** 18 circles, 41 arcs; largest r 1.5 @ (95.3, 180.3), r 1.5 @ (279.3, 181.4), r 1.3 @ (94.8, 227.9), r 1.2 @ (278.8, 213.2)
+- **Closed boxes:** 35 (8 in the title block); named: 468-02-104; SCALE
+- **Dots (junctions):** 1
+- **Words (OCR):** 28 in 25 lines: PGM2 · RGM · z0k · 30K · 30k- · Sisk gisk ?I5K gI5K · PGM 2 · INPUT · PGM · lIsSUE |DATE · REVISION · App
+- **Title block:** (278, 15)–(432, 84) mm: lIsSUE |DATE · REVISION · App · WBS · WARD-BECK ByBTEMB · DRN: JP 8/82 · M468 AE · ENG_ EDJ · AsSIGNMENT · MODULE · CKD: · APP · SCHEMATIC · ISSUE · SCALE · 468-02-104
+- **Wiring (first pass):** 53 connected wire groups from 296 runs, 1 dotted junctions; labelled ends: 624 mm → PGM2; 414 mm → 30k-; 141 mm → RGM; 104 mm → lIsSUE |DATE; 101 mm → Sisk gisk ?I5K gI5K
+
+Every curve, box, word and wire group: [19xx - DOC - 468-02-104 - ASSIGNMENT MODULE (traced).json](19xx%20-%20DOC%20-%20468-02-104%20-%20ASSIGNMENT%20MODULE%20%28traced%29.json) (the CAD file: `19xx - DOC - 468-02-104 - ASSIGNMENT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

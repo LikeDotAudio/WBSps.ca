@@ -15,6 +15,20 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 
 - **1976** (labelled): `DATE DEC 76` — …CKD_ 83540 USED ON MATL - WBS WARD-BECK BYSTEMS LTD DRN DNM DATE DEC 76 CKD Reeb SCALE M46O B INPUT MODULE FUNCTIONAL DIAGRAM FINIS…
 
+## Vectors (traced)
+
+- **Sheet:** functional 460-01-003, size B (assumed) 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–260 mm up
+- **Outlines:** line 261 rings, 4,558 straight (11,610 mm) / 568 curved (804 mm); text 541 rings, 4,056 straight (4,436 mm) / 1,186 curved (1,807 mm); tb 28 rings, 224 straight (582 mm) / 29 curved (44.3 mm)
+- **Centre lines:** 6,605 paths (107 closed); straight 9,342 mm, curved 164 mm; horizontal 3,827 mm, vertical 2,333 mm, diagonal 3,182 mm
+- **Circles and arcs:** 11 circles, 11 arcs; largest r 3.1 @ (230.1, 187.3), r 1.6 @ (67.6, 164.8), r 1.5 @ (68.1, 209.4), r 1.4 @ (80.9, 212.8)
+- **Closed boxes:** 36 (29 in the title block); named: -126
+- **Words (OCR):** 103 in 91 lines: SENSITIvITY · DIRECT OUTPut · EQ · 10 dBm · LINE · 30 dB · PAN · LINE IN · INSERT · INSERT · -20/+10dBm · CHAN
+- **Title block:** (140, 4)–(384, 57) mm: ISS MOD [CKD_ · USED ON · MATL - · 83540 · WBS WARD-BECK · DRN DNM · M46O B · FINISH · DATE DEC  76 · INPUT · CKD Reeb · FUNCTIONAL DIAGRAM · SCALE · TOLS _ · 460 - 01-003
+- **Wiring (first pass):** 173 connected wire groups from 362 runs; labelled ends: 121 mm → CONTROL; 105 mm → PRE / Post; 79 mm → PHASE, ON; 66 mm → SOLO; 59 mm → REVERB, FB1, FB2, FB3
+
+Every curve, box, word and wire group: [1976 - M460B - 460-01-003 - CONTROL CONTROL COMMON (traced).json](1976%20-%20M460B%20-%20460-01-003%20-%20CONTROL%20CONTROL%20COMMON%20%28traced%29.json) (the CAD file: `1976 - M460B - 460-01-003 - CONTROL CONTROL COMMON (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

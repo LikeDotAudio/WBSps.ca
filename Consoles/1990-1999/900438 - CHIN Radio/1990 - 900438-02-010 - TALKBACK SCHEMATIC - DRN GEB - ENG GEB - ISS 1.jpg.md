@@ -23,6 +23,19 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,304,165 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 440 rings, 4,232 straight (9,654 mm) / 842 curved (1,225 mm); text 309 rings, 2,048 straight (2,381 mm) / 691 curved (1,009 mm)
+- **Centre lines:** 4,037 paths (82 closed); straight 6,634 mm, curved 484 mm; horizontal 2,955 mm, vertical 1,746 mm, diagonal 1,933 mm
+- **Circles and arcs:** 22 circles, 76 arcs; largest r 1.7 @ (371.2, 80.0), r 1.5 @ (191.3, 213.1), r 1.4 @ (284.2, 248.3), r 1.4 @ (284.2, 223.4)
+- **Closed boxes:** 21
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 79 connected wire groups from 535 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1990 - 900438-02-010 - TALKBACK SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-010%20-%20TALKBACK%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-010 - TALKBACK SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

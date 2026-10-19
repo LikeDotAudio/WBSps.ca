@@ -11,6 +11,19 @@ Wiki page: [M415](../../../PAGES/M415.md)
 - **Size:** 30,328,114 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 416-06-001, size B (assumed) 432 × 158 mm, 2000 × 733 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–158 mm up
+- **Outlines:** line 3,826 rings, 22,470 straight (17,623 mm) / 5,399 curved (4,897 mm); text 335 rings, 1,917 straight (1,450 mm) / 518 curved (492 mm); tb 26 rings, 92 straight (43.8 mm) / 16 curved (13.9 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 5.5 @ (185.7, 130.3), r 5.2 @ (225.8, 130.6), r 4.0 @ (136.5, 98.8), r 3.9 @ (136.5, 89.5)
+- **Closed boxes:** 15; named: CI7; C26; C44; Cz3
+- **Dots (junctions):** 3
+- **Words (OCR):** 42 in 39 lines: CI7 · C44 · Ccib · c25 · C26 · NOTES · FOR SCHEMATIcs · [ea · TTm · 415 · 64" · 0o2
+- **Title block:** (288, 9)–(313, 34) mm: DRN · GP · DATE · MAR · CHKD · SCalE · TOLS
+
+Every curve, box, word and wire group: [1971 - M415 - 416-06-001 - MNSBEREGEABHES SEHE ANGLES (traced).json](1971%20-%20M415%20-%20416-06-001%20-%20MNSBEREGEABHES%20SEHE%20ANGLES%20%28traced%29.json) (the CAD file: `1971 - M415 - 416-06-001 - MNSBEREGEABHES SEHE ANGLES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -23,6 +23,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 4,320,909 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 790236-01-002, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 90°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 1,199 rings, 13,911 straight (28,314 mm) / 2,539 curved (5,383 mm); text 152 rings, 1,069 straight (2,870 mm) / 333 curved (1,025 mm)
+- **Centre lines:** 39,501 paths (162 closed); straight 33,073 mm, curved 348 mm; horizontal 8,563 mm, vertical 8,071 mm, diagonal 16,439 mm
+- **Circles and arcs:** 6 circles, 39 arcs; largest r 2.8 @ (186.4, 644.6), r 2.6 @ (446.9, 538.7), r 2.6 @ (289.7, 687.9), r 2.3 @ (350.1, 35.8)
+- **Closed boxes:** 23
+- **Wiring (first pass):** 173 connected wire groups from 1,598 runs
+
+Every curve, box, word and wire group: [1978 - 790236-01-002 - L3242A DC TALLY & LOGIC FUNCTIONAL & WIRING DIAGRAM - DRN ELJ - ENG ELJ - ISS 1 (2) (traced).json](1978%20-%20790236-01-002%20-%20L3242A%20DC%20TALLY%20%26%20LOGIC%20FUNCTIONAL%20%26%20WIRING%20DIAGRAM%20-%20DRN%20ELJ%20-%20ENG%20ELJ%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1978 - 790236-01-002 - L3242A DC TALLY & LOGIC FUNCTIONAL & WIRING DIAGRAM - DRN ELJ - ENG ELJ - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

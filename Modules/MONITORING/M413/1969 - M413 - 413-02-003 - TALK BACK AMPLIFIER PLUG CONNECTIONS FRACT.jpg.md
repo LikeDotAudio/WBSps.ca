@@ -11,6 +11,19 @@ Wiki page: [M413](../../../PAGES/M413.md)
 - **Size:** 7,423,445 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 413-02-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–287 mm up
+- **Outlines:** line 616 rings, 8,337 straight (11,510 mm) / 1,566 curved (2,527 mm); text 262 rings, 1,943 straight (1,997 mm) / 622 curved (886 mm)
+- **Centre lines:** 5,574 paths (103 closed); straight 7,264 mm, curved 1,214 mm; horizontal 3,115 mm, vertical 1,726 mm, diagonal 2,423 mm
+- **Circles and arcs:** 55 circles, 76 arcs; largest r 3.8 @ (270.7, 207.7), r 3.8 @ (270.6, 224.0), r 3.5 @ (270.8, 101.8), r 3.5 @ (270.8, 118.0)
+- **Closed boxes:** 15
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 48 connected wire groups from 497 runs
+
+Every curve, box, word and wire group: [1969 - M413 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS FRACT (traced).json](1969%20-%20M413%20-%20413-02-003%20-%20TALK%20BACK%20AMPLIFIER%20PLUG%20CONNECTIONS%20FRACT%20%28traced%29.json) (the CAD file: `1969 - M413 - 413-02-003 - TALK BACK AMPLIFIER PLUG CONNECTIONS FRACT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

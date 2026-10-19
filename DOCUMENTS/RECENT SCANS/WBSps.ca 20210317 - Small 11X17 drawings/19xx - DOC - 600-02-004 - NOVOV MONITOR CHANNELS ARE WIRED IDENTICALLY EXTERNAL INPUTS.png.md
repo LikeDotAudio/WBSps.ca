@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,636,012 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 600-02-004, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 3–432 mm across, 0–285 mm up
+- **Outlines:** line 220 rings, 3,136 straight (8,100 mm) / 503 curved (784 mm); text 699 rings, 4,523 straight (5,486 mm) / 1,327 curved (1,947 mm); tb 3 rings, 89 straight (205 mm) / 1 curved (1.8 mm)
+- **Centre lines:** 5,388 paths (136 closed); straight 7,944 mm, curved 390 mm; horizontal 3,181 mm, vertical 2,085 mm, diagonal 2,678 mm
+- **Circles and arcs:** 15 circles, 57 arcs; largest r 1.4 @ (254.8, 148.2), r 1.4 @ (255.2, 115.6), r 1.4 @ (255.1, 122.2), r 1.4 @ (95.6, 108.6)
+- **Closed boxes:** 10 (7 in the title block); named: M495 MONITOR_MODULE; SCALE; CODE: 600504
+- **Words (OCR):** 90 in 79 lines: JUMPER · TO MONITOR · 2 (SEE NOTE 2) · MONITOR CHANNEL · TBI · R 130,131 · EXT MON · (132) · L127,128 · PGM MONO · (129) · 3C
+- **Title block:** (270, 16)–(432, 85) mm: REVISION · APP · lISSUE| DATE · WBS · WARD-BECK SYSTEMS · DRN.JRG 02/87 · MONITOR · ENG_ Ea · SCHEMATIC · CKD · APP_ · SCALE DISC NO: 130 · ISSUE · 600-02-004 · CODE: 600504
+- **Wiring (first pass):** 36 connected wire groups from 284 runs; labelled ends: 839 mm → MONITOR CHANNEL, 88,89, 944.95, 25v; 290 mm → MONITOR CHANNEL, R 130,131, (132), L127,128; 136 mm → SCALE, ISSUE; 87 mm → MONO, 0 Lzn; 82 mm → 3C, L127,128, (129), MONO
+
+Every curve, box, word and wire group: [19xx - DOC - 600-02-004 - NOVOV MONITOR CHANNELS ARE WIRED IDENTICALLY EXTERNAL INPUTS (traced).json](19xx%20-%20DOC%20-%20600-02-004%20-%20NOVOV%20MONITOR%20CHANNELS%20ARE%20WIRED%20IDENTICALLY%20EXTERNAL%20INPUTS%20%28traced%29.json) (the CAD file: `19xx - DOC - 600-02-004 - NOVOV MONITOR CHANNELS ARE WIRED IDENTICALLY EXTERNAL INPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

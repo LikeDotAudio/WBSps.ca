@@ -19,6 +19,18 @@ Wiki page: [Job-940238](../../../PAGES/Job-940238.md)
 - **Size:** 594,779 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940238-04-003, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 82–864 mm across, 0–559 mm up
+- **Outlines:** line 870 rings, 6,805 straight (30,980 mm) / 1,213 curved (2,962 mm); text 304 rings, 1,692 straight (3,206 mm) / 532 curved (1,314 mm); tb 18 rings, 134 straight (337 mm) / 23 curved (53.1 mm)
+- **Closed boxes:** 115 (4 in the title block); named: CONNECTOR PANEL (REAR L.AS:); 940238-04-003; DSC N0; 1:1
+- **Dots (junctions):** 1
+- **Words (OCR):** 39 in 36 lines: OCTAL · 0liso Dia · deTA · REc 0 · 3050 · DETAL · DETAIL · OCTAL · 0,280 · CCANERST4) · 0.Szo · 0.707
+- **Title block:** (687, 44)–(857, 79) mm: RMSCN · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940238-04-003 - CONNECTOR PANEL (REAR L.H.S.) - ISS 1 (traced).json](1994%20-%20940238-04-003%20-%20CONNECTOR%20PANEL%20%28REAR%20L.H.S.%29%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940238-04-003 - CONNECTOR PANEL (REAR L.H.S.) - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

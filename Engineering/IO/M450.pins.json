@@ -1,0 +1,282 @@
+{
+ "code": "M450",
+ "name": "Program Summing Amp",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "TWO SECTIONS OF 21 WITH THEIR POWER",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "a785c7362b4120e26f53f4b66ebdf825b0f7920faf669b0b91562082920acefd",
+    "file": "Modules/AMPLIFIERS/M450/1975 - M450 - vint P5.jpg",
+    "page": 1
+   },
+   "quote": "WARD-BECK SYSTEMS LTD_ CIRCUiT DESCRIPTION M45o PROGRAM/ SUMM NG AMPLIFIER The two sections of 21 with their power booster output transistors Q1, Q2 , Q3 and Ql provide the ba lanced summing (mixing) nput to the M450 Via pins 3 and 5 of the edge connector.",
+   "also": [
+    {
+     "signal": "TWO SECTIONS OF 21 WITH THEIR POWER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M450/1975 - M450 - vint P5.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "PROGRA AS",
+   "kind": "other",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "4884c4f0c249b87c8dd30a95bc23a7307c48e0eadc58a9fa47b3fd4b4a9accdb",
+    "file": "Modules/AMPLIFIERS/M450/1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg",
+    "page": 1
+   },
+   "quote": "row 5 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "(NA FOR MASOA )",
+   "kind": "other",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "4884c4f0c249b87c8dd30a95bc23a7307c48e0eadc58a9fa47b3fd4b4a9accdb",
+    "file": "Modules/AMPLIFIERS/M450/1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg",
+    "page": 1
+   },
+   "quote": "row 5 of the drawing, right of the pin column",
+   "also": [
+    {
+     "signal": "TWO SECTIONS OF 21 WITH THEIR POWER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M450/1975 - M450 - vint P5.jpg",
+     "page": 1
+    },
+    {
+     "signal": "TWO SECTIONS OF 21 WITH THEIR POWER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M450/1975 - M450 - vint P5.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "INPUT SHIELD",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "4884c4f0c249b87c8dd30a95bc23a7307c48e0eadc58a9fa47b3fd4b4a9accdb",
+    "file": "Modules/AMPLIFIERS/M450/1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg",
+    "page": 1
+   },
+   "quote": "row 7 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "4884c4f0c249b87c8dd30a95bc23a7307c48e0eadc58a9fa47b3fd4b4a9accdb",
+    "file": "Modules/AMPLIFIERS/M450/1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "4884c4f0c249b87c8dd30a95bc23a7307c48e0eadc58a9fa47b3fd4b4a9accdb",
+    "file": "Modules/AMPLIFIERS/M450/1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "-25V",
+   "kind": "power",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "4884c4f0c249b87c8dd30a95bc23a7307c48e0eadc58a9fa47b3fd4b4a9accdb",
+    "file": "Modules/AMPLIFIERS/M450/1976 - 450-04-001 - AND M450A PROGRAM SUMMING AMPLIFIER CONNECTOR LAYOUT - DRN GEB - ISS 2.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450/M450.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450/M450.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450/M450.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M450/M450.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450/M450.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450/M450.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

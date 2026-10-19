@@ -1,0 +1,71 @@
+{
+ "code": "M482B",
+ "name": "Monitor Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 59,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "25",
+   "row": 25,
+   "side": "num",
+   "signal": "INPUT SELECTORS",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "40dbbada78941f2f725c61cce547bf046d7259efb04afe5c560ab4e1eb982ea3",
+    "file": "Modules/MONITORING/M482B/1982 - M482B - Monitor Module.pdf",
+    "page": 4
+   },
+   "quote": "It thc SOLO control (pin 25 of [he module connector) is activated external Iy, 44 Passes the SOLO signal and turns off the signal from the input selectors .",
+   "also": [
+    {
+     "signal": "INPUT SELECTORS",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/MONITORING/M482B/1982 - M482B - Monitor Module.pdf",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "59",
+   "row": 59,
+   "side": "num",
+   "signal": "DIRECT OUTPUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "acc2ca668040f1005f831fe08abb76f999110171288ba047cd405591e79e78cf",
+    "file": "Modules/MONITORING/M482B/1982 - M482B - P05 - 2-2.jpg",
+    "page": 1
+   },
+   "quote": "The direct output appears pins 59 60, while muted output made available Pins 55 56 the module connector Muting relay can bc controlled externally by grounding pin AII outputs have nominal level dBm.",
+   "also": [
+    {
+     "signal": "DIRECT OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/MONITORING/M482B/1982 - M482B - P05 - 2-2.jpg",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

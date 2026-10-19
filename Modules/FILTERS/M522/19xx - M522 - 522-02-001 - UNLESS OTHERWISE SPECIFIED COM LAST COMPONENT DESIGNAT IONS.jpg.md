@@ -11,6 +11,19 @@ Wiki page: [M522](../../../PAGES/M522.md)
 - **Size:** 546,684 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 522-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–338 mm across, 8–366 mm up
+- **Outlines:** line 626 rings, 6,451 straight (10,608 mm) / 1,635 curved (2,010 mm); text 145 rings, 934 straight (748 mm) / 323 curved (368 mm)
+- **Centre lines:** 6,290 paths (120 closed); straight 6,672 mm, curved 190 mm; horizontal 2,641 mm, vertical 1,686 mm, diagonal 2,345 mm
+- **Circles and arcs:** 1 circles, 51 arcs; largest r 4.0 @ (96.0, 182.4)
+- **Dots (junctions):** 1
+- **Words (OCR):** 34 in 30 lines: 4z8 · SHELD · 3h/i0 · Lhall · 4o · VALUG · SELF · Lmajin · S0k ' @ · 0_021 · 0047 · SELECT
+- **Wiring (first pass):** 70 connected wire groups from 594 runs; labelled ends: 335 mm → IHLOO], 22/25, "7/ 35, 7/15; 194 mm → T4zioz, "7/ 35, 7/15, IHLOO]; 169 mm → ./J5, 4J5, 0.1/100; 89 mm → Lhall; 77 mm → 4z8
+
+Every curve, box, word and wire group: [19xx - M522 - 522-02-001 - UNLESS OTHERWISE SPECIFIED COM LAST COMPONENT DESIGNAT IONS (traced).json](19xx%20-%20M522%20-%20522-02-001%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20COM%20LAST%20COMPONENT%20DESIGNAT%20IONS%20%28traced%29.json) (the CAD file: `19xx - M522 - 522-02-001 - UNLESS OTHERWISE SPECIFIED COM LAST COMPONENT DESIGNAT IONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

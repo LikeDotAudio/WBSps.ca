@@ -22,6 +22,19 @@ M777A status monitor module functional Title block at bottom left reading sidewa
 - **Size:** 4,819,271 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 777-01-002, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–287 mm across, 0–429 mm up
+- **Outlines:** line 721 rings, 7,677 straight (15,554 mm) / 1,143 curved (1,460 mm); text 182 rings, 1,261 straight (1,103 mm) / 377 curved (468 mm)
+- **Centre lines:** 6,817 paths (101 closed); straight 8,118 mm, curved 140 mm; horizontal 2,678 mm, vertical 3,383 mm, diagonal 2,056 mm
+- **Circles and arcs:** 4 circles, 39 arcs; largest r 1.2 @ (21.9, 50.1), r 1.2 @ (16.5, 41.3), r 1.2 @ (21.9, 40.6), r 0.8 @ (38.1, 40.5)
+- **Closed boxes:** 41; named: 6i
+- **Words (OCR):** 1 in 1 lines: 6i
+- **Wiring (first pass):** 235 connected wire groups from 700 runs; labelled ends: 128 mm → 6i; 125 mm → 6i; 83 mm → 6i; 59 mm → 6i; 13 mm → 6i
+
+Every curve, box, word and wire group: [19xx - 777-01-002 - M777A STATUS MONITOR MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20777-01-002%20-%20M777A%20STATUS%20MONITOR%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 777-01-002 - M777A STATUS MONITOR MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

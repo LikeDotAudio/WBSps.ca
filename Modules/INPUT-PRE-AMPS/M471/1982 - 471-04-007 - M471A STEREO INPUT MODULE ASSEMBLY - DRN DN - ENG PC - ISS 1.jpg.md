@@ -24,6 +24,17 @@ Wiki page: [M471](../../../PAGES/M471.md)
 - **Size:** 346,455 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 471-04-007, size B 432 × 343 mm, 2000 × 1587 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–289 mm up
+- **Outlines:** line 231 rings, 2,825 straight (6,088 mm) / 362 curved (505 mm); text 253 rings, 1,845 straight (2,134 mm) / 546 curved (819 mm); tb 384 rings, 4,778 straight (10,258 mm) / 728 curved (1,234 mm)
+- **Closed boxes:** 4
+- **Words (OCR):** 37 in 34 lines: WBS · 4-123 · DS · sw 2 · R1,R2 · 8-109 · Sw 4 · AUX2 · sw 3 · 8-109 · R3, R 4 · SW 6
+- **Title block:** (186, 0)–(432, 292) mm: WBS · 4-123 · R1,R2 · 8-109 · AUX2 · sw 3 · R3, R 4 · sw 9 · Rs,R 6 · R7, R8 · Sw 3 · BoostER AMP (LEFT)- · ISSU DATE · REVISION · APp · WARO-BECK SySTEMS · WBS · ENG · M47 1A · STEREO INPUT MODULE · 
+
+Every curve, box, word and wire group: [1982 - 471-04-007 - M471A STEREO INPUT MODULE ASSEMBLY - DRN DN - ENG PC - ISS 1 (traced).json](1982%20-%20471-04-007%20-%20M471A%20STEREO%20INPUT%20MODULE%20ASSEMBLY%20-%20DRN%20DN%20-%20ENG%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 471-04-007 - M471A STEREO INPUT MODULE ASSEMBLY - DRN DN - ENG PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

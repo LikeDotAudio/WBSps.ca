@@ -22,6 +22,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 522,070 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-109-02-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 386 rings, 3,998 straight (11,451 mm) / 787 curved (1,055 mm); text 368 rings, 2,127 straight (1,913 mm) / 686 curved (862 mm); tb 20 rings, 158 straight (187 mm) / 43 curved (55.3 mm)
+- **Centre lines:** 5,569 paths (93 closed); straight 7,563 mm, curved 302 mm; horizontal 3,475 mm, vertical 1,910 mm, diagonal 2,177 mm
+- **Circles and arcs:** 7 circles, 52 arcs; largest r 3.8 @ (210.3, 250.7), r 3.8 @ (210.9, 121.9), r 3.8 @ (182.2, 237.3), r 3.8 @ (182.1, 108.7)
+- **Closed boxes:** 9 (3 in the title block)
+- **Words (OCR):** 82 in 80 lines: E3 · #2i-5v · 23 · Ri7 · Ris · 10/zs · 4k7 · 02 · PN3L45 · 03 · 2n2i02 · F3s6
+- **Title block:** (354, 23)–(432, 40) mm: WBS · WARD-BeCK Bystems
+- **Wiring (first pass):** 46 connected wire groups from 412 runs; labelled ends: 247 mm → 6k2, 85356, Cio, 4-7p; 184 mm → E3, #2i-5v, Ri7, 4k7; 176 mm → R23, 4k7; 133 mm → Rzo, 6.3, Vzw, R3+; 133 mm → 6k2
+
+Every curve, box, word and wire group: [1978 - 8-109-02-007 - 8-109F BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).json](1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 8-109-02-007 - 8-109F BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M528](../../../PAGES/M528.md)
 - **Size:** 1,281,758 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 528-01-001, size B (assumed) 432 × 261 mm, 2000 × 1208 px traced (0.216 mm/px)
+- **Ink extent:** 4–429 mm across, 0–261 mm up
+- **Outlines:** line 316 rings, 2,335 straight (5,012 mm) / 394 curved (514 mm); text 326 rings, 1,949 straight (1,935 mm) / 581 curved (780 mm); tb 2 rings, 52 straight (129 mm) / 2 curved (3.8 mm)
+- **Centre lines:** 2,936 paths (67 closed); straight 4,021 mm, curved 54.8 mm; horizontal 1,380 mm, vertical 1,218 mm, diagonal 1,423 mm
+- **Circles and arcs:** 1 circles, 14 arcs; largest r 0.9 @ (154.4, 214.8)
+- **Dots (junctions):** 1
+- **Words (OCR):** 49 in 43 lines: sumhing · IER · OVEALOAO · NSERT · SLaTE · A4PI · BOOSTER · Suvuing · JacKS FADER · 4-10 · 109m · DAECT
+- **Title block:** (318, 35)–(432, 52) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 103 connected wire groups from 233 runs; labelled ends: 91 mm → 5414-1098; 87 mm → DAECT; 84 mm → LEvEL; 65 mm → LFVEL; 60 mm → sumhing, Suvuing
+
+Every curve, box, word and wire group: [19xx - M528 - B 528-01-001 - M528 DUAL AUXILIARY MODULE - FUNCTIONAL (traced).json](19xx%20-%20M528%20-%20B%20528-01-001%20-%20M528%20DUAL%20AUXILIARY%20MODULE%20-%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - M528 - B 528-01-001 - M528 DUAL AUXILIARY MODULE - FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

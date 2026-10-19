@@ -24,6 +24,18 @@ Wiki page: [M712](../../../PAGES/M712.md)
 - **Size:** 3,232,156 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 712-01-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 481 rings, 4,675 straight (9,706 mm) / 760 curved (1,126 mm); text 294 rings, 2,034 straight (2,394 mm) / 609 curved (880 mm)
+- **Centre lines:** 5,359 paths (73 closed); straight 6,588 mm, curved 184 mm; horizontal 2,087 mm, vertical 1,898 mm, diagonal 2,602 mm
+- **Circles and arcs:** 11 circles, 38 arcs; largest r 1.5 @ (55.1, 45.8), r 1.5 @ (74.3, 133.5), r 1.1 @ (55.0, 45.9), r 1.1 @ (74.1, 133.7)
+- **Closed boxes:** 9
+- **Wiring (first pass):** 105 connected wire groups from 430 runs
+
+Every curve, box, word and wire group: [1980 - 712-01-002 - INTERCOM MATRIX AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2 (traced).json](1980%20-%20712-01-002%20-%20INTERCOM%20MATRIX%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1980 - 712-01-002 - INTERCOM MATRIX AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

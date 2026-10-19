@@ -11,6 +11,19 @@ Wiki page: [M490J](../../../PAGES/M490J.md)
 - **Size:** 214,994 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-020, size B (assumed) 338 × 432 mm, 1565 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–431 mm up
+- **Outlines:** line 534 rings, 6,409 straight (12,192 mm) / 1,383 curved (1,912 mm); text 197 rings, 1,470 straight (1,366 mm) / 584 curved (762 mm); tb 10 rings, 175 straight (225 mm) / 38 curved (59.3 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.9 @ (10.0, 363.6), r 2.0 @ (1.6, 409.2)
+- **Closed boxes:** 20 (3 in the title block); named: Sensi- Tvity 825 : coniro controi; coninol R64 and #lgned andor; FOLDBACK ouiut; SL IDE Pro- 94i7 Gram AuxiliAry channe c; CUT hia ntinit cu bring channein ooena; Off Paocaam ich chaone built-in DSI Irom; WBS; M4poj Mic INFUI Module FRONT PANEL; 490-04-020
+- **Dots (junctions):** 3
+- **Words (OCR):** 55 in 47 lines: M49oJ · Sensi- Tvity coniro · controi · 825 : · program · AssiGhhent · 505 ; · channe · 970/ · Iet [ and · riani · mlning
+- **Title block:** (221, 9)–(266, 51) mm: WBS · CKD.
+
+Every curve, box, word and wire group: [1983 - M490J - 490-04-020 - IIGNA DUCDOSE IROM REMOLE IOCATLON RELATED THE DARILCULAR (traced).json](1983%20-%20M490J%20-%20490-04-020%20-%20IIGNA%20DUCDOSE%20IROM%20REMOLE%20IOCATLON%20RELATED%20THE%20DARILCULAR%20%28traced%29.json) (the CAD file: `1983 - M490J - 490-04-020 - IIGNA DUCDOSE IROM REMOLE IOCATLON RELATED THE DARILCULAR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 20 words corrected)

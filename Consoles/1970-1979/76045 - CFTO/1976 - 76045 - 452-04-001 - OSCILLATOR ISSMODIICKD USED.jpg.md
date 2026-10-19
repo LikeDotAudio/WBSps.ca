@@ -11,6 +11,16 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,814,721 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 452-04-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 580 rings, 5,911 straight (9,762 mm) / 888 curved (1,199 mm); text 82 rings, 544 straight (565 mm) / 172 curved (243 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.3 @ (195.0, 180.4), r 2.3 @ (194.9, 210.1), r 2.3 @ (194.9, 194.9), r 2.3 @ (195.0, 202.5)
+- **Closed boxes:** 42
+
+Every curve, box, word and wire group: [1976 - 76045 - 452-04-001 - OSCILLATOR ISSMODIICKD USED (traced).json](1976%20-%2076045%20-%20452-04-001%20-%20OSCILLATOR%20ISSMODIICKD%20USED%20%28traced%29.json) (the CAD file: `1976 - 76045 - 452-04-001 - OSCILLATOR ISSMODIICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

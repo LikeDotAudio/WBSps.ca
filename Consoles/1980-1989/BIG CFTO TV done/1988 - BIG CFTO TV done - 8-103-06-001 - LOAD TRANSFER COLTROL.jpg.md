@@ -10,6 +10,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,779,806 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-103-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 342 rings, 3,860 straight (7,420 mm) / 1,057 curved (1,098 mm); text 142 rings, 1,274 straight (1,221 mm) / 332 curved (385 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 10.5 @ (143.0, 113.7), r 10.4 @ (116.6, 205.2), r 10.4 @ (169.3, 204.7), r 4.5 @ (143.2, 159.5)
+- **Closed boxes:** 11
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 8-103-06-001 - LOAD TRANSFER COLTROL (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%208-103-06-001%20-%20LOAD%20TRANSFER%20COLTROL%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 8-103-06-001 - LOAD TRANSFER COLTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

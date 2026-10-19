@@ -11,6 +11,18 @@ Wiki page: [M497A](../../../PAGES/M497A.md)
 - **Size:** 800,637 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 497-06-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 2–422 mm up
+- **Outlines:** line 672 rings, 6,425 straight (11,540 mm) / 1,862 curved (1,891 mm); text 526 rings, 4,473 straight (4,324 mm) / 1,403 curved (1,609 mm); tb 53 rings, 721 straight (912 mm) / 155 curved (185 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 9.3 @ (51.7, 309.5), r 6.1 @ (143.5, 335.2), r 3.1 @ (71.9, 123.2), r 3.0 @ (72.4, 273.4)
+- **Closed boxes:** 32 (16 in the title block); named: 24 LMboi; 25; 26 Lm3oi
+- **Words (OCR):** 81 in 75 lines: R7 I5K · RB Jsk · cseol · 5k · RII JSK · ~Sk · R75 · C34 .047 · 4047 C64l · CI4sle · Ri4-620 · Rzz
+- **Title block:** (83, 6)–(336, 158) mm: WBS · CANADA · 7-113 · Ftipz980 · 4h9 · 3627 · 7/78 · R76 To R79 ADDED · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMB · DRN: Mrw · M497A · ENG.MRW 10177i · CKD RA_ · DUAL MASTER MODULE · COMPON
+
+Every curve, box, word and wire group: [1978 - M497A - 497-06-002 - DUAL MASTER MODULE (traced).json](1978%20-%20M497A%20-%20497-06-002%20-%20DUAL%20MASTER%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M497A - 497-06-002 - DUAL MASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

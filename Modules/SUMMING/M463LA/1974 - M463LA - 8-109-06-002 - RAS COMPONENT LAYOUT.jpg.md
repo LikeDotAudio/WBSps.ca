@@ -11,6 +11,18 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 - **Size:** 2,077,172 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-002, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 575 rings, 5,378 straight (7,693 mm) / 1,360 curved (1,231 mm); text 287 rings, 2,882 straight (3,612 mm) / 745 curved (923 mm); tb 15 rings, 267 straight (426 mm) / 45 curved (50.9 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 6.7 @ (44.6, 339.8), r 5.5 @ (44.2, 163.5), r 5.5 @ (44.4, 91.1)
+- **Closed boxes:** 14 (10 in the title block); named: SCALE; ISSUE; 8-109-06-002
+- **Words (OCR):** 36 in 33 lines: E2C · R2_ · 47k · R6 · a8k · R7410 · 22 · LF356 · -C1o47p · ~Ril JGk · ~Ri2 2k · Riz 228
+- **Title block:** (114, 10)–(332, 112) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · 8 ~ 109A · ENG.MRW · 4/78 · OUTPUT · AMPLIFIER · CKD Ras · COMPONENT LAYOUT · APP · SCALE · ISSUE · 8-109-06-002
+
+Every curve, box, word and wire group: [1974 - M463LA - 8-109-06-002 - RAS COMPONENT LAYOUT (traced).json](1974%20-%20M463LA%20-%208-109-06-002%20-%20RAS%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1974 - M463LA - 8-109-06-002 - RAS COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

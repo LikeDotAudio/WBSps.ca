@@ -22,6 +22,19 @@ Communication terminal functional Title block at bottom left reading sideways.
 - **Size:** 4,941,253 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 7800-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 1,474 rings, 14,097 straight (22,291 mm) / 2,373 curved (2,802 mm); text 139 rings, 1,080 straight (1,073 mm) / 305 curved (401 mm)
+- **Centre lines:** 13,986 paths (350 closed); straight 13,292 mm, curved 124 mm; horizontal 5,626 mm, vertical 3,903 mm, diagonal 3,763 mm
+- **Circles and arcs:** 1 circles, 39 arcs; largest r 2.2 @ (227.3, 246.3)
+- **Closed boxes:** 50
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 288 connected wire groups from 1,499 runs
+
+Every curve, box, word and wire group: [19xx - 7800-01-001 - M7800A COMMUNICATION TERMINAL FUNCTIONAL - ISS 2 (traced).json](19xx%20-%207800-01-001%20-%20M7800A%20COMMUNICATION%20TERMINAL%20FUNCTIONAL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 7800-01-001 - M7800A COMMUNICATION TERMINAL FUNCTIONAL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

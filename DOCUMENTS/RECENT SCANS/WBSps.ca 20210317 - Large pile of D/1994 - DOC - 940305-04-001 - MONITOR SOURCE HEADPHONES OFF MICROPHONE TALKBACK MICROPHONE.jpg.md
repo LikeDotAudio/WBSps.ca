@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,017,027 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940305-04-001, size B (assumed) 432 × 281 mm, 2000 × 1303 px traced (0.216 mm/px)
+- **Ink extent:** 59–426 mm across, 11–235 mm up
+- **Outlines:** line 205 rings, 1,797 straight (6,698 mm) / 355 curved (644 mm); text 199 rings, 1,147 straight (1,256 mm) / 347 curved (458 mm); tb 18 rings, 157 straight (189 mm) / 39 curved (43.5 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 4.6 @ (146.4, 175.6), r 4.6 @ (180.7, 175.5), r 4.6 @ (146.5, 193.7), r 4.5 @ (215.2, 193.4)
+- **Closed boxes:** 27 (4 in the title block); named: SOURCE HEADPHCNES MICROPHONE TALKBAC< MI; SOURCE HEADPHCNES MICROPHONE TALKBAC< MI; TELEMEDIA  SUDBURY CUSTOM TURRET LA YOUT; NTS; DISC_NO;; 940305-04-001; COCE
+- **Dots (junctions):** 2
+- **Words (OCR):** 20 in 19 lines: SOURCE · HEADPHCNES · MICROPHONE · TALKBAC< · MICROPHONE · TOP · MEWI · FRONT · WARD-BECK SYSTEMS · WBS · TELEMEDIA  SUDBURY · CUSTOM TURRET
+- **Title block:** (345, 27)–(431, 44) mm: WARD-BECK SYSTEMS · WBS · TELEMEDIA  SUDBURY
+
+Every curve, box, word and wire group: [1994 - DOC - 940305-04-001 - MONITOR SOURCE HEADPHONES OFF MICROPHONE TALKBACK MICROPHONE (traced).json](1994%20-%20DOC%20-%20940305-04-001%20-%20MONITOR%20SOURCE%20HEADPHONES%20OFF%20MICROPHONE%20TALKBACK%20MICROPHONE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940305-04-001 - MONITOR SOURCE HEADPHONES OFF MICROPHONE TALKBACK MICROPHONE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

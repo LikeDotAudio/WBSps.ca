@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,891,240 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960296-03-008, size B (assumed) 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px)
+- **Ink extent:** 36–432 mm across, 5–243 mm up
+- **Outlines:** line 930 rings, 6,481 straight (13,825 mm) / 1,095 curved (1,266 mm); text 193 rings, 1,033 straight (958 mm) / 358 curved (450 mm); tb 13 rings, 120 straight (149 mm) / 25 curved (28.6 mm)
+- **Centre lines:** 8,047 paths (223 closed); straight 8,805 mm, curved 20.8 mm; horizontal 4,261 mm, vertical 2,262 mm, diagonal 2,282 mm
+- **Circles and arcs:** 0 circles, 9 arcs
+- **Closed boxes:** 37 (5 in the title block); named: AUX MIC CTL BOX; 960296-03-008; DSC NC;
+- **Words (OCR):** 26 in 25 lines: 0 460 · JCUNC · PLicG · 0.710 · 1,844 · 0.+CD · 0,800 · DETAIL · AROUND · FNGER · RLCSDESIDE · HEEDED
+- **Title block:** (333, 21)–(417, 41) mm: ISSUELDATE · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1996 - DOC - 960296-03-008 - GRIT PAINT TEXTURED GREY TEXCOTE (traced).json](1996%20-%20DOC%20-%20960296-03-008%20-%20GRIT%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20%28traced%29.json) (the CAD file: `1996 - DOC - 960296-03-008 - GRIT PAINT TEXTURED GREY TEXCOTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

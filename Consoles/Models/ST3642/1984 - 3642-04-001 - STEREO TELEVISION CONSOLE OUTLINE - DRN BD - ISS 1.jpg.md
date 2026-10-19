@@ -24,6 +24,16 @@ Wiki page: [ST3642](../../../PAGES/ST3642.md)
 - **Size:** 4,074,197 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 3642-04-001, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 798 rings, 11,324 straight (24,039 mm) / 1,856 curved (3,995 mm); text 83 rings, 575 straight (1,284 mm) / 155 curved (418 mm)
+- **Closed boxes:** 15
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1984 - 3642-04-001 - STEREO TELEVISION CONSOLE OUTLINE - DRN BD - ISS 1 (traced).json](1984%20-%203642-04-001%20-%20STEREO%20TELEVISION%20CONSOLE%20OUTLINE%20-%20DRN%20BD%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 3642-04-001 - STEREO TELEVISION CONSOLE OUTLINE - DRN BD - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

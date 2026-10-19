@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,002,656 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 907-03-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 0–421 mm across, 0–280 mm up
+- **Outlines:** line 557 rings, 4,241 straight (9,265 mm) / 814 curved (1,418 mm); text 234 rings, 1,474 straight (1,604 mm) / 452 curved (580 mm); tb 14 rings, 113 straight (149 mm) / 36 curved (41.8 mm)
+- **Centre lines:** 7,345 paths (155 closed); straight 6,630 mm, curved 582 mm; horizontal 2,165 mm, vertical 1,902 mm, diagonal 2,563 mm
+- **Circles and arcs:** 18 circles, 12 arcs; largest r 64.2 @ (352.6, 190.0), r 1.8 @ (208.5, 243.7), r 1.8 @ (119.2, 42.9), r 1.8 @ (122.2, 245.0)
+- **Closed boxes:** 12 (2 in the title block); named: M907 MASTER MODULE; 907-03-001
+- **Dots (junctions):** 4
+- **Words (OCR):** 26 in 22 lines: 83283 · REQ D · 0.210 · 0,015 · seCTON · MATERIAL: ALUM ALLOY 0.125 MhICK · FINISH: · SAND 120 Grit AND PAINT · TEXTURED   BEIGE (452C) · TEXCOTE MNYL · (EXTRA FINE TEXTURE) · 1J.150
+- **Title block:** (342, 22)–(427, 38) mm: REM9G · WBS · WARD-BECK  SYSTEMS · M907
+
+Every curve, box, word and wire group: [19xx - DOC - 907-03-001 - ISSUEI DATEI REMSION (traced).json](19xx%20-%20DOC%20-%20907-03-001%20-%20ISSUEI%20DATEI%20REMSION%20%28traced%29.json) (the CAD file: `19xx - DOC - 907-03-001 - ISSUEI DATEI REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

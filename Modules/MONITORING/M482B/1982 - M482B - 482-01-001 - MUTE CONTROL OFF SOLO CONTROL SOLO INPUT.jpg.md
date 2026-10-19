@@ -11,6 +11,20 @@ Wiki page: [M482B](../../../PAGES/M482B.md)
 - **Size:** 235,063 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 482-01-001, size B (assumed) 432 × 273 mm, 2000 × 1265 px traced (0.216 mm/px)
+- **Ink extent:** 17–432 mm across, 0–267 mm up
+- **Outlines:** line 225 rings, 2,576 straight (6,930 mm) / 328 curved (470 mm); text 340 rings, 2,361 straight (2,770 mm) / 734 curved (1,097 mm); tb 9 rings, 138 straight (272 mm) / 15 curved (25.8 mm)
+- **Centre lines:** 3,483 paths (56 closed); straight 5,522 mm, curved 63.1 mm; horizontal 2,246 mm, vertical 1,259 mm, diagonal 2,017 mm
+- **Circles and arcs:** 3 circles, 5 arcs; largest r 4.1 @ (185.7, 116.8), r 1.3 @ (226.7, 144.0), r 1.3 @ (237.3, 144.1)
+- **Closed boxes:** 7 (6 in the title block)
+- **Words (OCR):** 49 in 47 lines: Utility · CUE _ · LINE · INPUTS · (-6dB) · METER · (-6 dB) · Monitor Outputs · (-10dB) · DIRECT · OHms · dBm
+- **Title block:** (287, 0)–(432, 68) mm: ISSUE (DATE · REVISION · ApP · WBS · WARD-BECK systeM8 · DRN:P MAHove · M4828 · ENG. MRN Il/79 · MONITOR MODULE · CKD: · DIAGRAM · APP · FUNCTIONAL · SCALE · 482-01-001 · ISSUE
+- **Wiring (first pass):** 76 connected wire groups from 210 runs; labelled ends: 110 mm → (-6dB), (-6 dB), S~ede); 84 mm → SOLO, INPUT, 600 OHMS; 57 mm → LINE, INPUTS, +8dBm; 38 mm → 600 OHMS, AUXILIARY _; 37 mm → METER, Monitor Outputs, DIRECT, MUTED
+
+Every curve, box, word and wire group: [1982 - M482B - 482-01-001 - MUTE CONTROL OFF SOLO CONTROL SOLO INPUT (traced).json](1982%20-%20M482B%20-%20482-01-001%20-%20MUTE%20CONTROL%20OFF%20SOLO%20CONTROL%20SOLO%20INPUT%20%28traced%29.json) (the CAD file: `1982 - M482B - 482-01-001 - MUTE CONTROL OFF SOLO CONTROL SOLO INPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

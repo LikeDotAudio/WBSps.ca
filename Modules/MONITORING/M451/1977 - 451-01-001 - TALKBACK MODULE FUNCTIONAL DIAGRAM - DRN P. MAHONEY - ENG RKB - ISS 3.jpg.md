@@ -25,6 +25,18 @@ Wiki page: [M451](../../../PAGES/M451.md)
 - **Size:** 4,269,751 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 451-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–428 mm across, 0–286 mm up
+- **Outlines:** line 383 rings, 4,333 straight (11,044 mm) / 686 curved (978 mm); text 297 rings, 1,956 straight (2,336 mm) / 582 curved (851 mm)
+- **Centre lines:** 4,731 paths (81 closed); straight 7,090 mm, curved 246 mm; horizontal 2,963 mm, vertical 2,032 mm, diagonal 2,096 mm
+- **Circles and arcs:** 15 circles, 37 arcs; largest r 2.1 @ (380.1, 30.9), r 1.7 @ (383.8, 23.8), r 1.5 @ (321.5, 162.8), r 1.5 @ (69.4, 154.6)
+- **Closed boxes:** 23
+- **Wiring (first pass):** 119 connected wire groups from 398 runs
+
+Every curve, box, word and wire group: [1977 - 451-01-001 - TALKBACK MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).json](1977%20-%20451-01-001%20-%20TALKBACK%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1977 - 451-01-001 - TALKBACK MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

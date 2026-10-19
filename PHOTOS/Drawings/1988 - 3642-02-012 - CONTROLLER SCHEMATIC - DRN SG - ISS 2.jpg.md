@@ -22,6 +22,21 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 10,701,702 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-012, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–559 mm up
+- **Outlines:** line 2,149 rings, 17,622 straight (62,704 mm) / 2,843 curved (6,195 mm); text 593 rings, 3,889 straight (6,340 mm) / 1,045 curved (2,409 mm); tb 37 rings, 320 straight (2,581 mm) / 27 curved (78.2 mm)
+- **Centre lines:** 24,516 paths (523 closed); straight 42,827 mm, curved 29.7 mm; horizontal 9,904 mm, vertical 21,859 mm, diagonal 11,064 mm
+- **Circles and arcs:** 1 circles, 6 arcs; largest r 1.6 @ (154.8, 189.8)
+- **Closed boxes:** 129; named: MONIIORS 1i; SLL-l06 BACKPLANE_PcB CHANNELS 25-36 CHA; SUBMASTERS; SL1L-106 BACKELANE_ece CHANRELS 13-24 CH; SA1-106 BACKPLANE_PCB CHANNELS 1-12 CHAN; 45248 PROGRAUMER HQDULE (OPTONAL); M526 QVERLQAD MODUE (OPTIONAL)
+- **Dots (junctions):** 1
+- **Words (OCR):** 77 in 62 lines: SA1-106 · SL1L-106 · SLL-l06 · BACKPLANE_PCB · CHANRELS 13-24 · BACKELANE_ece · CHANNELS 25-36 · BACKPLANE_PcB · SUBMASTERS · MONIIORS 1i · CHANNELS 1-12 · CHANNELS 1-12
+- **Title block:** (680, 8)–(862, 91) mm: REDRAWN · ISSUE DAW · 5488 · REMSION · WES · WARD-BECK SYSTEMS · IDRN: SG · 4/88 · CONTROLLER · ENG: · CKD_ · SCHEMATIC · APP_ · SCALEI DISC ND: 233 · 3642-02 012 · ISSUE · CODE: 3642512
+- **Wiring (first pass):** 147 connected wire groups from 2,572 runs; labelled ends: 1044 mm → 71, 232, IJi, 3231825; 704 mm → 3231825, 33 ;; 580 mm → CR cou, aeeleleeleell, 828; 538 mm → 38325232328, Rr}r}"; 245 mm → 38325232328, 8 3 3 8 &, Rr}r}"
+
+Every curve, box, word and wire group: [1988 - 3642-02-012 - CONTROLLER SCHEMATIC - DRN SG - ISS 2 (traced).json](1988%20-%203642-02-012%20-%20CONTROLLER%20SCHEMATIC%20-%20DRN%20SG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 3642-02-012 - CONTROLLER SCHEMATIC - DRN SG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

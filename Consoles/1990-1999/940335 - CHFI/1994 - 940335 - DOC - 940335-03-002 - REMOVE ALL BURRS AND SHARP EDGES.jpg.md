@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,285,307 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940335-03-002, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px); scale CSC *
+- **Ink extent:** 40–432 mm across, 6–272 mm up
+- **Outlines:** line 612 rings, 4,634 straight (13,725 mm) / 786 curved (1,010 mm); text 254 rings, 1,538 straight (1,436 mm) / 470 curved (591 mm); tb 41 rings, 312 straight (301 mm) / 85 curved (95.3 mm)
+- **Centre lines:** 6,234 paths (153 closed); straight 8,810 mm, curved 61.4 mm; horizontal 4,391 mm, vertical 2,295 mm, diagonal 2,125 mm
+- **Circles and arcs:** 2 circles, 11 arcs; largest r 1.6 @ (154.2, 238.2), r 1.6 @ (163.7, 238.3)
+- **Closed boxes:** 33 (11 in the title block)
+- **Words (OCR):** 29 in 28 lines: DATUU · DATU · 02d · (2:1) · Mmhiy · 0.883 TP · AEFCRF · MATERIAL: · SEE BODY OF DRAMNG. · DATI · SAND 120 CRIT AND · PAINT
+- **Title block:** (342, 5)–(430, 39) mm: WBS · WARD-BECK SYSTEMS · IRN: · SAS · APC-88 · BRACE · SCALE CSC * · CCOE · 940335-03-002
+
+Every curve, box, word and wire group: [1994 - 940335 - DOC - 940335-03-002 - REMOVE ALL BURRS AND SHARP EDGES (traced).json](1994%20-%20940335%20-%20DOC%20-%20940335-03-002%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `1994 - 940335 - DOC - 940335-03-002 - REMOVE ALL BURRS AND SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

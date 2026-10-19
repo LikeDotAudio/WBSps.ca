@@ -11,6 +11,17 @@ Wiki page: [M465B](../../../PAGES/M465B.md)
 - **Size:** 4,914,340 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 465-04-007, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–303 mm up
+- **Outlines:** line 549 rings, 3,844 straight (7,909 mm) / 848 curved (1,372 mm)
+- **Circles and arcs:** 25 circles, 0 arcs; largest r 5.6 @ (337.5, 125.8), r 3.4 @ (338.1, 146.3), r 2.8 @ (336.8, 192.1), r 2.7 @ (337.4, 159.5)
+- **Closed boxes:** 9
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1982 - M465B - 465-04-007 - FRONT PANEL LAYOUT (traced).json](1982%20-%20M465B%20-%20465-04-007%20-%20FRONT%20PANEL%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M465B - 465-04-007 - FRONT PANEL LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

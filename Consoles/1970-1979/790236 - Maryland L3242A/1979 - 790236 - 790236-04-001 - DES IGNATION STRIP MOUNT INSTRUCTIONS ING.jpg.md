@@ -10,6 +10,17 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 971,523 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-001, size B (assumed) 334 × 432 mm, 1270 × 1640 px traced (0.263 mm/px)
+- **Ink extent:** 8–334 mm across, 5–432 mm up
+- **Outlines:** line 39 rings, 1,178 straight (2,850 mm) / 122 curved (230 mm); text 1,003 rings, 6,936 straight (9,186 mm) / 2,165 curved (4,006 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.5 @ (14.3, 47.4), r 5.3 @ (13.7, 385.4)
+- **Words (OCR):** 91 in 69 lines: LTD. · WAAD-BECK Systems · MCPB_L32424 · MANUAL · LNDEX · 790236-04-001 · Console Outline · 790236-04-002 · Console Layout · Jackfield Row A-H · 790236-04-003 · 790236-04- 004
+- **Title block:** (23, 402)–(132, 427) mm: WAAD-BECK Systems
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-001 - DES IGNATION STRIP MOUNT INSTRUCTIONS ING (traced).json](1979%20-%20790236%20-%20790236-04-001%20-%20DES%20IGNATION%20STRIP%20MOUNT%20INSTRUCTIONS%20ING%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-001 - DES IGNATION STRIP MOUNT INSTRUCTIONS ING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

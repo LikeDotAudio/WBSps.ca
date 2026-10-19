@@ -23,6 +23,17 @@ Wiki page: [T1202A](../../../PAGES/T1202A.md)
 - **Size:** 186,784 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 1202-04-005, size B 413 × 432 mm, 1881 × 1968 px traced (0.219 mm/px)
+- **Ink extent:** 8–413 mm across, 0–424 mm up
+- **Outlines:** line 357 rings, 5,627 straight (14,883 mm) / 507 curved (801 mm); text 59 rings, 633 straight (733 mm) / 162 curved (250 mm); tb 28 rings, 395 straight (478 mm) / 112 curved (149 mm)
+- **Closed boxes:** 57 (3 in the title block)
+- **Words (OCR):** 9 in 8 lines: 13.0 · 27.8 · 28.0 · Issu Date · WBS · WBS T1202A CONSOLE · OUTLINE · 1202-04-005
+- **Title block:** (302, 10)–(413, 59) mm: Issu Date · WBS · WBS T1202A CONSOLE · OUTLINE
+
+Every curve, box, word and wire group: [1982 - 1202-04-005 - WBS T1202A CONSOLE OUTLINE - DRN DN - ENG Schubert - ISS 1 (traced).json](1982%20-%201202-04-005%20-%20WBS%20T1202A%20CONSOLE%20OUTLINE%20-%20DRN%20DN%20-%20ENG%20Schubert%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 1202-04-005 - WBS T1202A CONSOLE OUTLINE - DRN DN - ENG Schubert - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

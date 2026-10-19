@@ -1,0 +1,701 @@
+{
+ "code": "M609",
+ "name": "Remote sensitivity and DA",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 16,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b7e892cb7c14011cfb91638ed0844edb668b4e072682afc1fa688cef7c72ebc7",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+    "page": 1
+   },
+   "quote": "P1-7 P1-16",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - TECHNICAL REMOTE SENSITIVITY GROUND AUDIO DISTRIBUTION AMPLIFIER.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - TECHNICAL REMOTE SENSITIVITY GROUND AUDIO DISTRIBUTION AMPLIFIER.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - TECHNICAL REMOTE SENSITIVITY GROUND AUDIO DISTRIBUTION AMPLIFIER.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "93422cf781247bd5fb95e6ebce6379c36e3b328438e5ad1cd8141ddcf8fb988c",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "> P1-12",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/19xx - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ecbebe1c192385b815e982169bfd68e32c30bd50579583d8137b357735753844",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "P1-16",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ecbebe1c192385b815e982169bfd68e32c30bd50579583d8137b357735753844",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "Pz-1",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ecbebe1c192385b815e982169bfd68e32c30bd50579583d8137b357735753844",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "P2-2",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "93422cf781247bd5fb95e6ebce6379c36e3b328438e5ad1cd8141ddcf8fb988c",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "Pz-3",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/19xx - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "93422cf781247bd5fb95e6ebce6379c36e3b328438e5ad1cd8141ddcf8fb988c",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "Pz- 4",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "93422cf781247bd5fb95e6ebce6379c36e3b328438e5ad1cd8141ddcf8fb988c",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "> Pz-5",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/19xx - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "93422cf781247bd5fb95e6ebce6379c36e3b328438e5ad1cd8141ddcf8fb988c",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-6",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/19xx - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "INPUT SHIELD",
+   "kind": "ground",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ecbebe1c192385b815e982169bfd68e32c30bd50579583d8137b357735753844",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "INPUT ShielD Pz-7",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ecbebe1c192385b815e982169bfd68e32c30bd50579583d8137b357735753844",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "Pz-8",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "93422cf781247bd5fb95e6ebce6379c36e3b328438e5ad1cd8141ddcf8fb988c",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "Pz-9 CHAsSIS",
+   "also": [
+    {
+     "signal": "CHASSIS",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/19xx - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "cdf0d335a42c8cd4b0634d52b5acf38c95b1c30db2e978ede25ae1942e7cf520",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - Remote sensitivity and DA.pdf",
+    "page": 20
+   },
+   "quote": "PZ-2 PZ-10 P2-8 P2-16 PZ-7 P2-L",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ecbebe1c192385b815e982169bfd68e32c30bd50579583d8137b357735753844",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "Pz-10",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - P010 - 3-3.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "93422cf781247bd5fb95e6ebce6379c36e3b328438e5ad1cd8141ddcf8fb988c",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "> Pz-11",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/19xx - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "93422cf781247bd5fb95e6ebce6379c36e3b328438e5ad1cd8141ddcf8fb988c",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-12",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/19xx - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "cdf0d335a42c8cd4b0634d52b5acf38c95b1c30db2e978ede25ae1942e7cf520",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - Remote sensitivity and DA.pdf",
+    "page": 17
+   },
+   "quote": "Pz-14",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/19xx - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ecbebe1c192385b815e982169bfd68e32c30bd50579583d8137b357735753844",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-001 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "Pz-16",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M609/1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "cdf0d335a42c8cd4b0634d52b5acf38c95b1c30db2e978ede25ae1942e7cf520",
+    "file": "Modules/AMPLIFIERS/M609/1983 - M609 - Remote sensitivity and DA.pdf",
+    "page": 20
+   },
+   "quote": "P2-9 P2-2 PZ-10 P2-8 Pz-162 PZ-Z P2-1",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

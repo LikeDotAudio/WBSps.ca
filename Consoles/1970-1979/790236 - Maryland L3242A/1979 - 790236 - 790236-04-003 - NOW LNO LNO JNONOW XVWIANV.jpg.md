@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,951,357 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 4–432 mm up
+- **Outlines:** line 1,853 rings, 21,387 straight (38,232 mm) / 3,931 curved (5,327 mm); text 1,031 rings, 6,042 straight (5,838 mm) / 1,900 curved (2,499 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.3 @ (266.8, 318.3), r 1.3 @ (261.8, 318.4), r 1.2 @ (219.9, 337.0), r 1.0 @ (126.8, 318.0)
+- **Closed boxes:** 88; named: (Li)91'5i; 78108*62; (17186 (E5105 67 (L7)77 87 (65)95s5; (LI)+ '€1; (SE)ze E; (LL)OLSL; (L7157 57; (42)OE69; (0)oi'G; (1i)?i 5i; (22122*12; (62,,82  2
+- **Dots (junctions):** 1
+- **Words (OCR):** 161 in 127 lines: 517 · (ois (Li)91'5i · (5)0562 · (L7197'S7 · 88 · 78108*62 · 83 · (LI)+ '€1 · [(82yoz 61 (62192 s2 (SE)ze E · (17186 (L7)77 87 · (E5105 67 (65)95s5 · (56)26
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-003 - NOW LNO LNO JNONOW XVWIANV (traced).json](1979%20-%20790236%20-%20790236-04-003%20-%20NOW%20LNO%20LNO%20JNONOW%20XVWIANV%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-003 - NOW LNO LNO JNONOW XVWIANV (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

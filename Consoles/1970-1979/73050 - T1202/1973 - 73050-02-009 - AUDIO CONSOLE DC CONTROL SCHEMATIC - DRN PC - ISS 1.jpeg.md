@@ -22,6 +22,20 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 1,539,669 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-009, size B (assumed) 432 × 138 mm, 2000 × 638 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–138 mm up
+- **Outlines:** line 614 rings, 6,232 straight (8,986 mm) / 1,330 curved (1,655 mm); text 189 rings, 1,071 straight (869 mm) / 379 curved (449 mm); tb 29 rings, 155 straight (153 mm) / 54 curved (64.7 mm)
+- **Centre lines:** 7,676 paths (163 closed); straight 6,484 mm, curved 232 mm; horizontal 2,252 mm, vertical 1,962 mm, diagonal 2,270 mm
+- **Circles and arcs:** 12 circles, 29 arcs; largest r 2.5 @ (382.0, 117.6), r 2.5 @ (308.9, 68.3), r 2.5 @ (347.9, 118.0), r 2.5 @ (269.8, 118.2)
+- **Closed boxes:** 29; named: WAAD-BeCk WBS KTD; DC CONTrD_ SHEMATIC; 73050.02.009
+- **Words (OCR):** 45 in 37 lines: START · MLLIm · St0p · 762 Dioy · 017 · 0i26 · 732 · 0910320 · 061 065 · 064062 TBz C.7069 · CWNNEL Ori DC CI · LAMP
+- **Title block:** (349, 6)–(412, 26) mm: WBS · WAAD-BeCk · DATE · CKd_ · DC CONTrD_ SHEMATIC
+- **Wiring (first pass):** 97 connected wire groups from 395 runs; labelled ends: 244 mm → WBS, HOd  CRD, US ED; 88 mm → 0i26, Ori DC CI; 73 mm → 017; 50 mm → MLLIm, 0i26; 40 mm → 762, Dioy
+
+Every curve, box, word and wire group: [1973 - 73050-02-009 - AUDIO CONSOLE DC CONTROL SCHEMATIC - DRN PC - ISS 1 (traced).json](1973%20-%2073050-02-009%20-%20AUDIO%20CONSOLE%20DC%20CONTROL%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-009 - AUDIO CONSOLE DC CONTROL SCHEMATIC - DRN PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -22,6 +22,20 @@ Wiki page: [M568](../../../PAGES/M568.md)
 - **Size:** 1,036,026 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 568-02-018, size D 864 × 547 mm, 2000 × 1266 px traced (0.432 mm/px); scale DISC No:
+- **Ink extent:** 141–863 mm across, 0–547 mm up
+- **Outlines:** line 764 rings, 6,162 straight (27,406 mm) / 1,302 curved (3,173 mm); text 144 rings, 1,039 straight (1,989 mm) / 340 curved (817 mm); tb 35 rings, 245 straight (527 mm) / 61 curved (138 mm)
+- **Centre lines:** 8,880 paths (114 closed); straight 18,244 mm, curved 116 mm; horizontal 7,456 mm, vertical 5,546 mm, diagonal 5,243 mm
+- **Circles and arcs:** 0 circles, 23 arcs
+- **Closed boxes:** 101 (12 in the title block)
+- **Words (OCR):** 24 in 21 lines: IHPUT · hPUT · RicHT · 14-067 · Pushautto4s; · STEREO SEL · INPUT · RICHT · STEREC SEL · LENSES · BLr /RED · WBS
+- **Title block:** (676, 0)–(852, 64) mm: WBS · WARD- · BECK SYSTEMS · M568T · LINE SEL · MASTER ASSIGN · MODULE SCHEMATIC · SCALE DISC No: · 568-02-018 · CODL: 568518
+- **Wiring (first pass):** 123 connected wire groups from 1,095 runs; labelled ends: 16 mm → INPUT; 13 mm → INPUT; 6 mm → WBS; 6 mm → WBS; 5 mm → INPUT
+
+Every curve, box, word and wire group: [19xx - 568-02-018 - M568T LINE SEL MASTER ASSIGN MODULE SCHEMATIC - DRN DBS - ENG DBS - ISS 1 (traced).json](19xx%20-%20568-02-018%20-%20M568T%20LINE%20SEL%20MASTER%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20DBS%20-%20ENG%20DBS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 568-02-018 - M568T LINE SEL MASTER ASSIGN MODULE SCHEMATIC - DRN DBS - ENG DBS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

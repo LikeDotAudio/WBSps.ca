@@ -22,6 +22,18 @@ M771 matrix latch card schematic Title block at bottom left reading sideways.
 - **Size:** 5,046,497 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 771-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 1,524 rings, 15,490 straight (26,765 mm) / 3,091 curved (3,780 mm); text 96 rings, 668 straight (642 mm) / 184 curved (245 mm)
+- **Centre lines:** 17,126 paths (142 closed); straight 16,407 mm, curved 217 mm; horizontal 6,798 mm, vertical 4,738 mm, diagonal 4,871 mm
+- **Circles and arcs:** 0 circles, 53 arcs
+- **Closed boxes:** 165
+- **Wiring (first pass):** 191 connected wire groups from 1,837 runs
+
+Every curve, box, word and wire group: [19xx - 771-02-001 - MATRIX LATCH CARD SCHEMATIC - ISS 2 (traced).json](19xx%20-%20771-02-001%20-%20MATRIX%20LATCH%20CARD%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 771-02-001 - MATRIX LATCH CARD SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

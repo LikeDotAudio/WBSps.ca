@@ -11,6 +11,17 @@ Wiki page: [M405C](../../../PAGES/M405C.md)
 - **Size:** 7,179,986 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 142-06-001, size B (assumed) 432 × 307 mm, 2000 × 1423 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 16–307 mm up
+- **Outlines:** line 1,619 rings, 15,913 straight (18,318 mm) / 4,609 curved (4,410 mm); text 186 rings, 1,513 straight (1,394 mm) / 491 curved (531 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.3 @ (263.9, 116.8)
+- **Closed boxes:** 21
+- **Dots (junctions):** 4
+
+Every curve, box, word and wire group: [1975 - M405C - 142-06-001 - PLACES GIVEN ANGLES (traced).json](1975%20-%20M405C%20-%20142-06-001%20-%20PLACES%20GIVEN%20ANGLES%20%28traced%29.json) (the CAD file: `1975 - M405C - 142-06-001 - PLACES GIVEN ANGLES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

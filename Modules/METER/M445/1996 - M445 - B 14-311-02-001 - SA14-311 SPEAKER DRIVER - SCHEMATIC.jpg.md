@@ -11,6 +11,19 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 271,315 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-311-02-001, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 2–289 mm across, 17–431 mm up
+- **Outlines:** line 821 rings, 7,619 straight (13,330 mm) / 1,716 curved (2,329 mm); text 396 rings, 2,186 straight (2,066 mm) / 719 curved (940 mm)
+- **Centre lines:** 8,122 paths (201 closed); straight 9,144 mm, curved 113 mm; horizontal 2,692 mm, vertical 2,287 mm, diagonal 4,165 mm
+- **Circles and arcs:** 0 circles, 36 arcs
+- **Closed boxes:** 1
+- **Words (OCR):** 15 in 15 lines: Ww · 28 · Vl · 87 · 378238 · 88 · 38 · 22 · 373 · 28 · 88 · 853
+- **Wiring (first pass):** 91 connected wire groups from 736 runs; labelled ends: 186 mm → 38; 159 mm → 49; 141 mm → 49; 128 mm → 378238, 88; 64 mm → 8878 @
+
+Every curve, box, word and wire group: [1996 - M445 - B 14-311-02-001 - SA14-311 SPEAKER DRIVER - SCHEMATIC (traced).json](1996%20-%20M445%20-%20B%2014-311-02-001%20-%20SA14-311%20SPEAKER%20DRIVER%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1996 - M445 - B 14-311-02-001 - SA14-311 SPEAKER DRIVER - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

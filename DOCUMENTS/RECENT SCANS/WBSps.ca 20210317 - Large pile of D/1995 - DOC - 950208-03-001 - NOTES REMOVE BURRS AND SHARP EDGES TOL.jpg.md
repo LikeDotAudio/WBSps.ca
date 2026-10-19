@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,173,396 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950208-03-001, size B (assumed) 432 × 275 mm, 2000 × 1274 px traced (0.216 mm/px)
+- **Ink extent:** 39–432 mm across, 6–214 mm up
+- **Outlines:** line 572 rings, 3,890 straight (8,740 mm) / 847 curved (979 mm); text 188 rings, 1,041 straight (934 mm) / 346 curved (429 mm)
+- **Centre lines:** 4,810 paths (166 closed); straight 5,644 mm, curved 16.1 mm; horizontal 2,723 mm, vertical 1,345 mm, diagonal 1,577 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 18; named: WES WARD-BECK SYSTEMS; INCH RACK PNL; 950208-03-001; CCOE: 93208401
+- **Words (OCR):** 25 in 24 lines: 40-1 · DETAIL · DUNCI · 01260 · 4125 · 2062 · 1.750 · Anish · TxTuRFD · TEXCOTE Wr · 1.B75 · 0.750
+
+Every curve, box, word and wire group: [1995 - DOC - 950208-03-001 - NOTES REMOVE BURRS AND SHARP EDGES TOL (traced).json](1995%20-%20DOC%20-%20950208-03-001%20-%20NOTES%20REMOVE%20BURRS%20AND%20SHARP%20EDGES%20TOL%20%28traced%29.json) (the CAD file: `1995 - DOC - 950208-03-001 - NOTES REMOVE BURRS AND SHARP EDGES TOL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 10,688,620 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-009, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px)
+- **Ink extent:** 10–864 mm across, 0–559 mm up
+- **Outlines:** line 2,034 rings, 14,675 straight (44,008 mm) / 2,421 curved (5,268 mm); text 118 rings, 738 straight (1,491 mm) / 228 curved (585 mm); tb 84 rings, 534 straight (1,192 mm) / 98 curved (212 mm)
+- **Centre lines:** 20,099 paths (245 closed); straight 29,316 mm, curved 216 mm; horizontal 12,912 mm, vertical 7,672 mm, diagonal 8,732 mm
+- **Circles and arcs:** 2 circles, 42 arcs; largest r 3.7 @ (16.3, 242.5), r 1.5 @ (307.4, 214.6)
+- **Closed boxes:** 71 (1 in the title block); named: UCOULE; EACCESSING; SSUEADATE WARD-BECK SYSTEMS WBS PROCESSI; PROCESSING MODULES SCHEMATIC; disc No;; 3642-02-009
+- **Words (OCR):** 12 in 12 lines: UCOULE · Crorn · EACCESSING · CHASSS · NQIE: · SSUEADATE · WARD-BECK SYSTEMS · WBS · PROCESSING MODULES · SCHEMATIC · disc No; · 3642-02-009
+- **Title block:** (689, 42)–(858, 83) mm: SSUEADATE · WARD-BECK SYSTEMS · WBS
+- **Wiring (first pass):** 282 connected wire groups from 2,532 runs; labelled ends: 709 mm → Crorn; 74 mm → disc No;; 11 mm → disc No;; 11 mm → PROCESSING MODULES; 11 mm → PROCESSING MODULES, SCHEMATIC, 3642-02-009
+
+Every curve, box, word and wire group: [1988 - 3642-02-009 - PROCESSING MODULES SCHEMATIC - DRN DS - ISS 4 (traced).json](1988%20-%203642-02-009%20-%20PROCESSING%20MODULES%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1988 - 3642-02-009 - PROCESSING MODULES SCHEMATIC - DRN DS - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 15 words corrected)

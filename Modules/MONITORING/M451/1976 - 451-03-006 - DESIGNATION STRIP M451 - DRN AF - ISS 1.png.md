@@ -22,6 +22,19 @@ Wiki page: [M451](../../../PAGES/M451.md)
 - **Size:** 1,394,935 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 451-03-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 8–298 mm up
+- **Outlines:** line 278 rings, 4,558 straight (9,710 mm) / 615 curved (885 mm); text 320 rings, 2,255 straight (2,756 mm) / 657 curved (987 mm); tb 24 rings, 182 straight (331 mm) / 19 curved (31.4 mm)
+- **Centre lines:** 6,347 paths (83 closed); straight 7,942 mm, curved 121 mm; horizontal 3,661 mm, vertical 1,926 mm, diagonal 2,355 mm
+- **Circles and arcs:** 3 circles, 26 arcs; largest r 1.3 @ (166.7, 57.4), r 1.2 @ (32.9, 123.8), r 1.2 @ (163.6, 57.3)
+- **Closed boxes:** 44 (4 in the title block); named: EXT FB3/4 FB1/2 STUDIO; EXT AUX MON FB3/4 FB12; LTD_ WBS WAAD-BECK BySTEMS; USED ON; MAT'L PLEXIGLAes BLAcr p 93 o6-iick; DESIGNATIOU steip Masi; FIMISH; 451-03-006; 01= TOLS 385; ISS_
+- **Words (OCR):** 47 in 40 lines: '700 TYP · 350 Tre · 250 · EXT · EXT · 1.038 · AUX · FB3/4 · MON · 2.864 · 2.6614 · FB1/2
+- **Title block:** (268, 14)–(377, 62) mm: WBS WAAD-BECK BySTEMS · DRN; · DESIGNATIOU steip · DATE OT76 · CKD · Masi · SCALE · 01= · 451-03-006 · TOLS
+
+Every curve, box, word and wire group: [1976 - 451-03-006 - DESIGNATION STRIP M451 - DRN AF - ISS 1 (traced).json](1976%20-%20451-03-006%20-%20DESIGNATION%20STRIP%20M451%20-%20DRN%20AF%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 451-03-006 - DESIGNATION STRIP M451 - DRN AF - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

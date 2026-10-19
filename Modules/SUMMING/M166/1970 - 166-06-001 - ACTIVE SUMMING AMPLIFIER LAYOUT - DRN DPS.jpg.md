@@ -21,6 +21,17 @@ Wiki page: [M166](../../../PAGES/M166.md)
 - **Size:** 4,069,713 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 166-06-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–285 mm up
+- **Outlines:** line 921 rings, 9,254 straight (13,220 mm) / 2,652 curved (2,643 mm); text 276 rings, 2,269 straight (2,199 mm) / 665 curved (751 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 8.6 @ (191.6, 210.4), r 1.7 @ (217.3, 9.3), r 1.5 @ (161.1, 184.1), r 1.4 @ (122.4, 196.1)
+- **Closed boxes:** 28
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1970 - 166-06-001 - ACTIVE SUMMING AMPLIFIER LAYOUT - DRN DPS (traced).json](1970%20-%20166-06-001%20-%20ACTIVE%20SUMMING%20AMPLIFIER%20LAYOUT%20-%20DRN%20DPS%20%28traced%29.json) (the CAD file: `1970 - 166-06-001 - ACTIVE SUMMING AMPLIFIER LAYOUT - DRN DPS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

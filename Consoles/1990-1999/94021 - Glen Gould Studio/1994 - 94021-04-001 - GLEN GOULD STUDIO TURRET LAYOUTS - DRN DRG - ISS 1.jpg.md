@@ -22,6 +22,19 @@ Wiki page: [Job-94021](../../../PAGES/Job-94021.md)
 - **Size:** 662,182 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 94021-04-001, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px)
+- **Ink extent:** 53–848 mm across, 14–520 mm up
+- **Outlines:** line 668 rings, 4,504 straight (27,809 mm) / 1,100 curved (3,791 mm); text 299 rings, 1,862 straight (3,608 mm) / 566 curved (1,426 mm); tb 16 rings, 133 straight (331 mm) / 27 curved (58.7 mm)
+- **Circles and arcs:** 40 circles, 0 arcs; largest r 9.1 @ (259.2, 382.6), r 9.1 @ (115.6, 382.1), r 9.1 @ (294.8, 382.7), r 9.1 @ (330.4, 382.8)
+- **Closed boxes:** 60 (5 in the title block); named: HEADPHCNES TALKBACK; TALKBACK ACDRESS TAkBACK SPEAKER HEADPHO; HEADPHONE CUT; FEADPHONE; HEADPHONE CUT; FEADPHONE; GLEN GOULD STUDIO TURRET LAYOUTS; SC4F; DISC NO;; 04-001 94021; IssF; NTS [cope: 94021L01
+- **Dots (junctions):** 1
+- **Words (OCR):** 44 in 36 lines: TALKBACK ACDRESS · TAkBACK · SPEAKER · Vic ON · HEADPHOVES · USE · HEADPHCNES · TAIKPACK · MONITOR · Mic Cff · TALKBACK · MICR OPHONE
+- **Title block:** (691, 45)–(859, 86) mm: ISSUE: DATE · WBS · WARD BECK SYSTEMS · GLEN GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - 94021-04-001 - GLEN GOULD STUDIO TURRET LAYOUTS - DRN DRG - ISS 1 (traced).json](1994%20-%2094021-04-001%20-%20GLEN%20GOULD%20STUDIO%20TURRET%20LAYOUTS%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94021-04-001 - GLEN GOULD STUDIO TURRET LAYOUTS - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

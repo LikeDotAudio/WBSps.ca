@@ -22,6 +22,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 443,559 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-048, size D 864 × 554 mm, 2000 × 1282 px traced (0.432 mm/px)
+- **Ink extent:** 2–863 mm across, 13–554 mm up
+- **Outlines:** line 704 rings, 5,395 straight (28,286 mm) / 883 curved (2,169 mm); text 217 rings, 1,245 straight (2,398 mm) / 424 curved (1,101 mm); tb 31 rings, 202 straight (440 mm) / 44 curved (106 mm)
+- **Centre lines:** 6,416 paths (178 closed); straight 17,733 mm, curved 106 mm; horizontal 8,708 mm, vertical 4,658 mm, diagonal 4,367 mm
+- **Circles and arcs:** 2 circles, 11 arcs; largest r 3.6 @ (332.2, 500.1), r 2.9 @ (313.3, 500.3)
+- **Closed boxes:** 57 (3 in the title block); named: SAS APC-88 BRACE; 900-03-048
+- **Words (OCR):** 24 in 22 lines: 0740 · NEEDCL · 4ATCRUL · (2:1) · DAT · DATUU · CNSTALL · DAUU · MATERIAL: SEE · BODY OF DRAVANG. · FINISH: · SAND 120 CRIT AND PAINT
+- **Title block:** (681, 62)–(848, 95) mm: WARD-BECK   SYSTEMS · WBS · SAS
+
+Every curve, box, word and wire group: [1996 - 900-03-048 - SAS APC-88 BRACE - DRN DRG - ISS 1 (traced).json](1996%20-%20900-03-048%20-%20SAS%20APC-88%20BRACE%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 900-03-048 - SAS APC-88 BRACE - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

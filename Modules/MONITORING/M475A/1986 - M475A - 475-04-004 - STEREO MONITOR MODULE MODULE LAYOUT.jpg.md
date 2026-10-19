@@ -11,6 +11,18 @@ Wiki page: [M475A](../../../PAGES/M475A.md)
 - **Size:** 542,217 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 475-04-004, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 0–345 mm up
+- **Outlines:** line 27 rings, 710 straight (2,462 mm) / 82 curved (198 mm); text 120 rings, 1,032 straight (1,320 mm) / 288 curved (449 mm); tb 87 rings, 1,150 straight (2,867 mm) / 181 curved (356 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.0 @ (29.7, 185.2), r 5.0 @ (29.6, 163.7), r 5.0 @ (30.1, 245.4), r 5.0 @ (29.6, 148.8)
+- **Closed boxes:** 2 (1 in the title block); named: WBS M475A SOLOI TB MON
+- **Words (OCR):** 14 in 10 lines: WBS · M475A · SOLOI TB · MON · WBS WARD-BECK SYSTEMS · M475A · STEREO MONITOR MODULE · MODULE LAYout · 475-04-004 · ISS.
+- **Title block:** (102, 46)–(333, 319) mm: WBS · M475A · SOLOI TB · MON · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1986 - M475A - 475-04-004 - STEREO MONITOR MODULE MODULE LAYOUT (traced).json](1986%20-%20M475A%20-%20475-04-004%20-%20STEREO%20MONITOR%20MODULE%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1986 - M475A - 475-04-004 - STEREO MONITOR MODULE MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

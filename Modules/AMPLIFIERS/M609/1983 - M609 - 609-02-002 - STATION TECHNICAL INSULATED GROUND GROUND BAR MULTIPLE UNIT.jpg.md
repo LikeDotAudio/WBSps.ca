@@ -11,6 +11,19 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 941,073 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 609-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–339 mm across, 26–407 mm up
+- **Outlines:** line 243 rings, 6,111 straight (15,292 mm) / 710 curved (1,236 mm); text 562 rings, 4,619 straight (5,358 mm) / 1,234 curved (1,994 mm)
+- **Centre lines:** 5,468 paths (97 closed); straight 11,698 mm, curved 430 mm; horizontal 5,596 mm, vertical 3,199 mm, diagonal 2,903 mm
+- **Circles and arcs:** 0 circles, 68 arcs
+- **Closed boxes:** 88; named: P2-16; P2-16; P2-16; P2-16; P2-16
+- **Words (OCR):** 100 in 92 lines: WIRING · uniT · WithiN MOUNT ING · FRAME · REMOTE · NC · P2-2 · CONTROL · LINEAR) · Pz-10 · P2-8 · NC
+- **Wiring (first pass):** 56 connected wire groups from 535 runs; labelled ends: 794 mm → P2-1, P29, P2-2, P2-9; 564 mm → Pz-1, P2-9, P29, P2-2; 520 mm → AI, P1-16, A3, A5; 413 mm → PI-7, P1-16, P1-7, Pl-7; 408 mm → Pz-10, P2-8, P2-16, Pz-7
+
+Every curve, box, word and wire group: [1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT (traced).json](1983%20-%20M609%20-%20609-02-002%20-%20STATION%20TECHNICAL%20INSULATED%20GROUND%20GROUND%20BAR%20MULTIPLE%20UNIT%20%28traced%29.json) (the CAD file: `1983 - M609 - 609-02-002 - STATION TECHNICAL INSULATED GROUND GROUND BAR MULTIPLE UNIT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

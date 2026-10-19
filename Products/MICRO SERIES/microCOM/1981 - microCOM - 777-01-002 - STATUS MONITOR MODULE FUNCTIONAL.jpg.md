@@ -11,6 +11,18 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,381,652 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 777-01-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–287 mm up
+- **Outlines:** line 750 rings, 7,674 straight (15,656 mm) / 1,212 curved (1,522 mm); text 182 rings, 1,220 straight (1,082 mm) / 361 curved (445 mm)
+- **Centre lines:** 7,002 paths (88 closed); straight 8,131 mm, curved 134 mm; horizontal 3,441 mm, vertical 2,604 mm, diagonal 2,086 mm
+- **Circles and arcs:** 3 circles, 39 arcs; largest r 1.3 @ (381.6, 22.1), r 1.2 @ (391.2, 22.1), r 1.2 @ (390.5, 16.8)
+- **Closed boxes:** 40
+- **Wiring (first pass):** 229 connected wire groups from 699 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 777-01-002 - STATUS MONITOR MODULE FUNCTIONAL (traced).json](1981%20-%20microCOM%20-%20777-01-002%20-%20STATUS%20MONITOR%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1981 - microCOM - 777-01-002 - STATUS MONITOR MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

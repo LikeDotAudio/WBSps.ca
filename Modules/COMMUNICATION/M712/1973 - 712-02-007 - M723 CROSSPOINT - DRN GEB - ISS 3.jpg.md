@@ -27,6 +27,19 @@ Wiki page: [M712](../../../PAGES/M712.md)
 
 - **1973** (labelled): `DATE JAN73` — …CKD USEDKOn MATLj WBS WAAD BeCK bybtemE Lto_ 95L q DRA: GEB DATE JAN73 cKD: SCALE TOLS _ T M723 FINISH CROSSPoiNT 712 02 007 ISS.…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-007, size B 432 × 141 mm, 2000 × 654 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 4–140 mm up
+- **Outlines:** line 534 rings, 3,524 straight (7,436 mm) / 542 curved (696 mm); text 335 rings, 1,702 straight (1,536 mm) / 472 curved (608 mm)
+- **Centre lines:** 3,398 paths (68 closed); straight 4,720 mm, curved 34.7 mm; horizontal 2,177 mm, vertical 1,333 mm, diagonal 1,210 mm
+- **Circles and arcs:** 1 circles, 6 arcs; largest r 2.0 @ (267.3, 62.1)
+- **Closed boxes:** 39; named: M723; WBS WAAD-DeCK BYBTEMB LTDS; MtL; WBS; CAUDQ; M72 cRosspoint; 712 202 097
+- **Words (OCR):** 59 in 50 lines: BUS · MIXER · M7i ? · M723 · COMPONENT LAYOUT · M72i · SYSTEM · Rioe · 4-0 · 27436C · APPLICATION · 22k
+- **Wiring (first pass):** 46 connected wire groups from 333 runs; labelled ends: 260 mm → CAUDQ, WBS; 236 mm → MtL, LTDS; 45 mm → Rioe, 22k, 15352; 15 mm → Rios, 2M2, 0 10+; 13 mm → Rioe, 22k
+
+Every curve, box, word and wire group: [1973 - 712-02-007 - M723 CROSSPOINT - DRN GEB - ISS 3 (traced).json](1973%20-%20712-02-007%20-%20M723%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1973 - 712-02-007 - M723 CROSSPOINT - DRN GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

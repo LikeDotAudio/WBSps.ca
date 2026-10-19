@@ -21,6 +21,19 @@ Wiki page: [Job-940184](../../../PAGES/Job-940184.md)
 - **Size:** 392,151 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940184-04-005, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 189–845 mm across, 15–396 mm up
+- **Outlines:** line 527 rings, 3,384 straight (23,793 mm) / 548 curved (1,801 mm); text 111 rings, 750 straight (1,535 mm) / 193 curved (538 mm); tb 51 rings, 362 straight (701 mm) / 86 curved (197 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 6.2 @ (290.9, 170.5), r 6.2 @ (372.3, 170.6), r 6.2 @ (533.7, 170.9), r 6.2 @ (400.8, 170.6)
+- **Closed boxes:** 81 (13 in the title block); named: 73 PORER; 73; PORER
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 10 lines: 73 · PORER · WBS · WARD-BECK SYSTEMS · GLENN GOULD STUDIO · CENTRAL ELECTRONICS · AYOUT · SCALE · CODI- 04184L05 · 940184-04-005
+- **Title block:** (680, 12)–(857, 79) mm: WBS · WARD-BECK SYSTEMS · GLENN GOULD STUDIO · CENTRAL ELECTRONICS · AYOUT · SCALE · CODI- 04184L05 · 940184-04-005
+
+Every curve, box, word and wire group: [1994 - 940184-04-005 - GLENN GOULD STUDIO CENTRAL ELECTRONICS LAYOUT #2 - DRN DRG - ISS 2 (traced).json](1994%20-%20940184-04-005%20-%20GLENN%20GOULD%20STUDIO%20CENTRAL%20ELECTRONICS%20LAYOUT%20%232%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940184-04-005 - GLENN GOULD STUDIO CENTRAL ELECTRONICS LAYOUT #2 - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

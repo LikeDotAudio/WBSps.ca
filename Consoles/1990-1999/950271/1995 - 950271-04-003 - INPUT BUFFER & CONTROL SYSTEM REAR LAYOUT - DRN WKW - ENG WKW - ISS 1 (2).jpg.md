@@ -21,6 +21,18 @@ Wiki page: [Job-950271](../../../PAGES/Job-950271.md)
 - **Size:** 957,685 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 950271-04-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 6–432 mm across, 10–299 mm up
+- **Outlines:** line 218 rings, 2,866 straight (12,401 mm) / 301 curved (428 mm); text 236 rings, 1,830 straight (2,411 mm) / 541 curved (836 mm); tb 3 rings, 79 straight (204 mm) / 2 curved (3.0 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (213.6, 123.7), r 1.6 @ (177.0, 123.7)
+- **Closed boxes:** 50 (9 in the title block); named: SCALE; 950271-04-003; ISSUE; CODE: 95271L03
+- **Words (OCR):** 36 in 31 lines: 14 · 1240 · +Z0v0 · 145240 · +J0v0 · 14-198 · CONROLLBR · BACKPLNNE · CONIROLLER · BACKPLNE · 13 · 12
+- **Title block:** (251, 12)–(422, 79) mm: SSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · CONTROL · DRN; · WKW · INPUT BUFFER · ENG_ WKW · CKD · SYSTEM REAR · LAYOUT · APP_ · SCALE DISC NO: SYSO1 · ISSUE · 950271-04-003 · CODE: 95271L03
+
+Every curve, box, word and wire group: [1995 - 950271-04-003 - INPUT BUFFER & CONTROL SYSTEM REAR LAYOUT - DRN WKW - ENG WKW - ISS 1 (2) (traced).json](1995%20-%20950271-04-003%20-%20INPUT%20BUFFER%20%26%20CONTROL%20SYSTEM%20REAR%20LAYOUT%20-%20DRN%20WKW%20-%20ENG%20WKW%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1995 - 950271-04-003 - INPUT BUFFER & CONTROL SYSTEM REAR LAYOUT - DRN WKW - ENG WKW - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

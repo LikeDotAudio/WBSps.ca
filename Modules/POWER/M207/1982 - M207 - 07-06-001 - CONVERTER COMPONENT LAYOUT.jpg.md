@@ -11,6 +11,18 @@ Wiki page: [M207](../../../PAGES/M207.md)
 - **Size:** 217,480 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 07-06-001, size B (assumed) 432 × 294 mm, 2000 × 1363 px traced (0.216 mm/px)
+- **Ink extent:** 63–432 mm across, 0–225 mm up
+- **Outlines:** line 261 rings, 3,272 straight (6,638 mm) / 703 curved (787 mm); text 406 rings, 3,098 straight (3,114 mm) / 966 curved (1,078 mm); tb 7 rings, 135 straight (248 mm) / 22 curved (25.5 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 7.9 @ (119.0, 116.7), r 5.1 @ (125.6, 143.4), r 5.1 @ (283.2, 173.9), r 5.1 @ (126.0, 175.1)
+- **Closed boxes:** 10 (7 in the title block)
+- **Words (OCR):** 31 in 26 lines: 4"2+ · RI · Llu · 2n4037 · 204037 · Znzio2 · 2n2i02 · 2n2i02 · 02 · R4 · Sk · REVISION
+- **Title block:** (276, 1)–(432, 74) mm: REVISION · APP · ISSUE |DATE · WBS WARD-BECK systeMS · DRN Seb · M207 · ENG 6e3 · 24v TO 48v · CONVERTER · CKD: · COMPONENT LAYOUT · APP · SCALE · ISSUE · 2 07-06-001
+
+Every curve, box, word and wire group: [1982 - M207 - 07-06-001 - CONVERTER COMPONENT LAYOUT (traced).json](1982%20-%20M207%20-%2007-06-001%20-%20CONVERTER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M207 - 07-06-001 - CONVERTER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

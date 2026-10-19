@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,772,688 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940184-03-007, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 3–420 mm across, 7–249 mm up
+- **Outlines:** line 280 rings, 2,895 straight (7,016 mm) / 445 curved (555 mm); text 229 rings, 1,420 straight (1,372 mm) / 481 curved (606 mm); tb 46 rings, 356 straight (328 mm) / 86 curved (96.2 mm)
+- **Centre lines:** 5,739 paths (109 closed); straight 5,451 mm, curved 13.7 mm; horizontal 1,904 mm, vertical 1,360 mm, diagonal 2,187 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 4 (1 in the title block)
+- **Words (OCR):** 24 in 20 lines: PARALLEL · 4649 · MATFRIAL LA 5 · 0.036 ihick; · RECd/BASF · MATERIAL CRS · 5.800 · MATERIAL: SEE BODY CF DRAWNG, · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BROWN (438C) · TEXCOTE MNY SE SPoT WELD · CLERANCS-
+- **Title block:** (52, 22)–(426, 62) mm: MATERIAL: SEE BODY CF DRAWNG, · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BROWN (438C) · TEXCOTE MNY SE SPoT WELD · JURR5 · DOCES · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940184 - DOC - 940184-03-007 - SEE SPOT WELD NOTE SSUEL REMSION NOTE REMOVE (traced).json](1994%20-%20940184%20-%20DOC%20-%20940184-03-007%20-%20SEE%20SPOT%20WELD%20NOTE%20SSUEL%20REMSION%20NOTE%20REMOVE%20%28traced%29.json) (the CAD file: `1994 - 940184 - DOC - 940184-03-007 - SEE SPOT WELD NOTE SSUEL REMSION NOTE REMOVE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

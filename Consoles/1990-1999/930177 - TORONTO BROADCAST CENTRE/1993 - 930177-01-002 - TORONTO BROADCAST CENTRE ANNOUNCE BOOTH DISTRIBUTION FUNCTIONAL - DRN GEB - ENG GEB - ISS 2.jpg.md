@@ -22,6 +22,20 @@ Wiki page: [Job-930177](../../../PAGES/Job-930177.md)
 - **Size:** 569,815 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 930177-01-002, size D 864 × 564 mm, 2000 × 1305 px traced (0.432 mm/px)
+- **Ink extent:** 219–857 mm across, 7–533 mm up
+- **Outlines:** line 1,054 rings, 8,625 straight (25,574 mm) / 1,479 curved (3,346 mm); text 186 rings, 1,120 straight (2,200 mm) / 366 curved (971 mm); tb 50 rings, 334 straight (643 mm) / 89 curved (220 mm)
+- **Centre lines:** 13,087 paths (289 closed); straight 18,486 mm, curved 60.4 mm; horizontal 7,622 mm, vertical 4,335 mm, diagonal 6,529 mm
+- **Circles and arcs:** 1 circles, 8 arcs; largest r 2.3 @ (394.4, 453.0)
+- **Closed boxes:** 64 (14 in the title block)
+- **Words (OCR):** 18 in 17 lines: BoOTH · 29 @ · chcoW/on · Fov Pis @ · 86654' · JaCS · WBS · WARD- · BECK  SYSTEMS · TORONTO BROADCAST CENTRE · ANNOUNCE BOOTH · DISTRIBUTION
+- **Title block:** (691, 4)–(864, 72) mm: WBS · WARD- · BECK  SYSTEMS · TORONTO BROADCAST CENTRE · ANNOUNCE BOOTH · DISTRIBUTION · FUNC TIONAL · SCALE · 950177-01 = · 002 · 03177702
+- **Wiring (first pass):** 113 connected wire groups from 1,631 runs; labelled ends: 236 mm → chcoW/on; 124 mm → JaCS, WBS; 55 mm → 29 @; 23 mm → Fov Pis @; 19 mm → 29 @
+
+Every curve, box, word and wire group: [1993 - 930177-01-002 - TORONTO BROADCAST CENTRE ANNOUNCE BOOTH DISTRIBUTION FUNCTIONAL - DRN GEB - ENG GEB - ISS 2 (traced).json](1993%20-%20930177-01-002%20-%20TORONTO%20BROADCAST%20CENTRE%20ANNOUNCE%20BOOTH%20DISTRIBUTION%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1993 - 930177-01-002 - TORONTO BROADCAST CENTRE ANNOUNCE BOOTH DISTRIBUTION FUNCTIONAL - DRN GEB - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

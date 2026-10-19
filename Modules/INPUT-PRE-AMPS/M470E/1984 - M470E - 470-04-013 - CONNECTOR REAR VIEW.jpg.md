@@ -11,6 +11,17 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 242,198 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-013, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–430 mm up
+- **Outlines:** line 181 rings, 5,124 straight (8,727 mm) / 721 curved (932 mm); text 488 rings, 5,304 straight (6,653 mm) / 1,293 curved (2,117 mm); tb 13 rings, 229 straight (440 mm) / 32 curved (59.4 mm)
+- **Closed boxes:** 56 (8 in the title block); named: 10; 12; 13; 14; S | 15; 16; 17; 18; 19; 20; 21; 22
+- **Words (OCR):** 89 in 74 lines: P2 · LINE IN · LINE in · NC · NC · D IRECT · D RECT · SHIELD · SHIELD · Att   OUt · AtT  Out · CH ON IN
+- **Title block:** (115, 13)–(334, 115) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: JP/o7/841 · M47OE · ENG. · INPUT MODULE · CKD: · CONNECTOR REAR VIEW · APP · SCALE · ISSUE · 470-04-013
+
+Every curve, box, word and wire group: [1984 - M470E - 470-04-013 - CONNECTOR REAR VIEW (traced).json](1984%20-%20M470E%20-%20470-04-013%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1984 - M470E - 470-04-013 - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

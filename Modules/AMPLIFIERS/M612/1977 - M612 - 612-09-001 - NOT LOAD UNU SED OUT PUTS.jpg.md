@@ -11,6 +11,20 @@ Wiki page: [M612](../../../PAGES/M612.md)
 - **Size:** 400,922 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring 612-09-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 0–432 mm up
+- **Outlines:** line 174 rings, 4,068 straight (10,460 mm) / 602 curved (958 mm); text 461 rings, 3,950 straight (5,507 mm) / 1,092 curved (1,906 mm); tb 4 rings, 149 straight (369 mm) / 9 curved (18.6 mm)
+- **Centre lines:** 4,614 paths (88 closed); straight 9,562 mm, curved 257 mm; horizontal 3,855 mm, vertical 2,395 mm, diagonal 3,311 mm
+- **Circles and arcs:** 1 circles, 32 arcs; largest r 1.7 @ (64.6, 176.5)
+- **Closed boxes:** 28 (14 in the title block); named: ISSUE; 612-09-001; SCALE; LB
+- **Words (OCR):** 53 in 40 lines: Goon · NOTES: · THIS POINT BONDED To MCUNTING · FRAME _ · 600n · DENOTES ELECTRICAL GND: · For MinMuM DissiPatiom ANd · 6002 · MAX MuM · HeADRoom · Do No7 · Load UNU SED OUt PUTS
+- **Title block:** (111, 8)–(329, 120) mm: 1/ 78 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNP MAHoNey · M612 · ENG. · DISTRIBUTION AMPLIFIER · CKD:SRell · WIRING DIAGRAM · APP · SCALE · ISSUE · LB · 612-09-001
+- **Wiring (first pass):** 51 connected wire groups from 205 runs; labelled ends: 307 mm → OUTPUTS, (NOTE 3), 12; 118 mm → 600n; 116 mm → 6002; 91 mm → 6002; 91 mm → Goon
+
+Every curve, box, word and wire group: [1977 - M612 - 612-09-001 - NOT LOAD UNU SED OUT PUTS (traced).json](1977%20-%20M612%20-%20612-09-001%20-%20NOT%20LOAD%20UNU%20SED%20OUT%20PUTS%20%28traced%29.json) (the CAD file: `1977 - M612 - 612-09-001 - NOT LOAD UNU SED OUT PUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

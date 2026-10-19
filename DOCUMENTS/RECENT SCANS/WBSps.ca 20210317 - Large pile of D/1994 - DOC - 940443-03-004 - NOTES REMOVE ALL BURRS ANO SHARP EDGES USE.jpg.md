@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,013,690 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940443-03-004, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 26–423 mm across, 7–254 mm up
+- **Outlines:** line 808 rings, 5,394 straight (13,139 mm) / 1,222 curved (1,398 mm); text 317 rings, 1,710 straight (1,449 mm) / 585 curved (701 mm); tb 25 rings, 213 straight (227 mm) / 45 curved (50.8 mm)
+- **Centre lines:** 7,547 paths (217 closed); straight 8,686 mm, curved 30.6 mm; horizontal 4,824 mm, vertical 1,347 mm, diagonal 2,516 mm
+- **Circles and arcs:** 1 circles, 12 arcs; largest r 0.8 @ (77.3, 53.6)
+- **Closed boxes:** 14 (4 in the title block); named: PANEL (10 POTS) IFB; 940443-03-004; SCME; CCDE; 04245404
+- **Words (OCR):** 48 in 46 lines: 16.710 · PITCHES · 1.0C0 · 0.200 · 0,080 CP OTPLRCES · SIDE · 0 2o0 · 440 · 0.492 · 1210 · 0.626 · 740441-03
+- **Title block:** (344, 23)–(428, 39) mm: WBS · WARD-BECK   SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940443-03-004 - NOTES REMOVE ALL BURRS ANO SHARP EDGES USE (traced).json](1994%20-%20DOC%20-%20940443-03-004%20-%20NOTES%20REMOVE%20ALL%20BURRS%20ANO%20SHARP%20EDGES%20USE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940443-03-004 - NOTES REMOVE ALL BURRS ANO SHARP EDGES USE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -23,6 +23,21 @@ Wiki page: [L1202A](../../../PAGES/L1202A.md)
 - **Size:** 421,287 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1202-02-013, size B 432 × 272 mm, 2000 × 1258 px traced (0.216 mm/px)
+- **Ink extent:** 21–432 mm across, 0–268 mm up
+- **Outlines:** line 249 rings, 5,354 straight (11,853 mm) / 828 curved (1,522 mm); text 571 rings, 4,103 straight (4,588 mm) / 1,248 curved (1,853 mm); tb 7 rings, 100 straight (235 mm) / 10 curved (14.4 mm)
+- **Centre lines:** 5,369 paths (89 closed); straight 9,415 mm, curved 721 mm; horizontal 4,350 mm, vertical 2,025 mm, diagonal 3,040 mm
+- **Circles and arcs:** 23 circles, 56 arcs; largest r 19.7 @ (376.8, 226.4), r 5.6 @ (296.0, 213.8), r 5.6 @ (57.4, 177.0), r 5.5 @ (170.7, 213.3)
+- **Closed boxes:** 26 (7 in the title block); named: MON 2 M4828 MONITOF MODULE; MON M482B MONITOR MODULE; 12; 19,20; 4213; 45,6; 43u4; 112; 219; 38; 21,22; 23,24
+- **Dots (junctions):** 3
+- **Words (OCR):** 115 in 102 lines: HEA DSET · 2,3 · 59 60 · DIR · 59,607 · DIR · 52,58 · To METER SEL OUTPUT · MON · 57,58 · T? METEK' SEL OUTPUT · MON 2
+- **Title block:** (287, 0)–(432, 67) mm: ISSUE DATE · REViSION · APP · WBS WARD-BECK SysTEMs · DRN. 9/82 JP · ENG Mrw · MONITOR CHANNELS · CKd · 6s1; · SCHEMATIC · APP · SCALE · 1202-02-013 · ISSUE
+- **Wiring (first pass):** 57 connected wire groups from 295 runs; labelled ends: 1956 mm → 2,3, 5556, 022, MODULE; 238 mm → 59,607; 195 mm → 23, 42, 419,20, 84e; 190 mm → M1, 25, 29, +25v; 110 mm → 419,20, 84e, 01214, 0"5
+
+Every curve, box, word and wire group: [1982 - 1202-02-013 - MONITOR CHANNELS SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).json](1982%20-%201202-02-013%20-%20MONITOR%20CHANNELS%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 1202-02-013 - MONITOR CHANNELS SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

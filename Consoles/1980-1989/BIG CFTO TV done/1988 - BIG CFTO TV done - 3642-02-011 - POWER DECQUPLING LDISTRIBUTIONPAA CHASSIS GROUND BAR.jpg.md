@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,364,362 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-011, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 595 rings, 6,357 straight (15,466 mm) / 1,073 curved (1,779 mm); text 464 rings, 2,979 straight (2,895 mm) / 1,114 curved (1,375 mm)
+- **Centre lines:** 6,355 paths (86 closed); straight 10,021 mm, curved 757 mm; horizontal 5,482 mm, vertical 1,682 mm, diagonal 2,857 mm
+- **Circles and arcs:** 40 circles, 56 arcs; largest r 3.0 @ (75.9, 158.3), r 2.9 @ (76.0, 92.7), r 2.9 @ (75.9, 105.8), r 2.6 @ (75.5, 275.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 81 in 59 lines: 1B104 · FEMALE PINS · MALE PINS · 122 AWG · PS3 +25v · 022 AWG · PS3 25V · 022 AWG · PS4 +25v · 422 AWG · PS4 25v · 422 AWG
+- **Wiring (first pass):** 110 connected wire groups from 530 runs; labelled ends: 96 mm → C1 To C4, 2600/40v; 87 mm → 1B104; 87 mm → TB1OS; 72 mm → 1B104; 54 mm → RUNI
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-011 - POWER DECQUPLING LDISTRIBUTIONPAA CHASSIS GROUND BAR (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-011%20-%20POWER%20DECQUPLING%20LDISTRIBUTIONPAA%20CHASSIS%20GROUND%20BAR%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-011 - POWER DECQUPLING LDISTRIBUTIONPAA CHASSIS GROUND BAR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

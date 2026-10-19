@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,249,970 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 7–431 mm across, 5–298 mm up
+- **Outlines:** line 139 rings, 1,979 straight (6,665 mm) / 251 curved (385 mm); text 608 rings, 3,716 straight (4,625 mm) / 1,260 curved (1,865 mm); tb 5 rings, 87 straight (221 mm) / 4 curved (7.4 mm)
+- **Centre lines:** 3,863 paths (109 closed); straight 6,768 mm, curved 120 mm; horizontal 2,688 mm, vertical 1,615 mm, diagonal 2,465 mm
+- **Circles and arcs:** 5 circles, 11 arcs; largest r 3.3 @ (192.2, 171.5), r 3.3 @ (204.1, 152.3), r 3.2 @ (215.7, 171.8), r 3.1 @ (230.4, 152.3)
+- **Closed boxes:** 15 (11 in the title block); named: 8224-03-002; SCALE 1:1; CODE: 8224M02
+- **Words (OCR):** 70 in 57 lines: 2.500 · 1.350 · 5 PLACES · 0.550 · 0.150 · 0.078 RAD · *XFOR · 0.200 · REMOVE · SECTION ` · IPH_ID) · 0.156
+- **Title block:** (252, 22)–(422, 91) mm: JAN94 · IPH-IC, · IPH-ID NOTE ADDED · DRG · ISSUE DATE · REVSION · APP · SYSTEMS · WBS · WARD-BECK · DRN. D.S: 10/88 · ENG_ · FRONT · PANEL · CKD_ · SUBPLA TE · APP · SCALE DISC NO: · 256 · 8224-03-00
+
+Every curve, box, word and wire group: [1988 - 8224-03-002 - FRONT PANEL SUBPLATE - DRN DS - ISS 4 (traced).json](1988%20-%208224-03-002%20-%20FRONT%20PANEL%20SUBPLATE%20-%20DRN%20DS%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1988 - 8224-03-002 - FRONT PANEL SUBPLATE - DRN DS - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

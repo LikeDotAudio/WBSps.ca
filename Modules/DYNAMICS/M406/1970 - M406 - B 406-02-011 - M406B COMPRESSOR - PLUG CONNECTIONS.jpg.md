@@ -15,6 +15,20 @@ Wiki page: [M406](../../../PAGES/M406.md)
 
 - **1970** (labelled): `DATE FEB 70` — …ISH WARD BECK SYSTEMS @Td M4O6B COMPRESSOR PLUG CONNECTIONS DATE FEB 70 MATERIAL CHKD SCALE FRACT * 1/64 DEC To PLACES GIVEN ANGLES…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 406-02-011, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 429 rings, 6,033 straight (7,669 mm) / 877 curved (1,286 mm); text 400 rings, 3,716 straight (4,109 mm) / 894 curved (1,352 mm); tb 7 rings, 31 straight (37.9 mm) / 6 curved (5.7 mm)
+- **Centre lines:** 7,260 paths (68 closed); straight 7,459 mm, curved 317 mm; horizontal 2,611 mm, vertical 2,071 mm, diagonal 2,777 mm
+- **Circles and arcs:** 10 circles, 30 arcs; largest r 3.1 @ (253.1, 233.5), r 3.1 @ (253.0, 225.2), r 3.1 @ (253.1, 208.7), r 3.1 @ (253.0, 217.1)
+- **Closed boxes:** 16 (10 in the title block); named: SYSTEMS BECK @Td WARD; M4O6B COMPRESSOR PLUG CONNECTIONS; Ol 1 406 -02; TOLS
+- **Words (OCR):** 56 in 39 lines: INPUT · INPUT SH · OUTPUT · METER · OUTPUT · output · Sh · (No INTERNAL CONNECTION) · SUPPLY COMM · CHASSIS GND · +24V · +48v
+- **Title block:** (176, 31)–(402, 80) mm: DRN · DIG · FINISH · WARD · BECK · SYSTEMS @Td · DATE FEB 70 · M4O6B COMPRESSOR · MATERIAL · CHKD · PLUG CONNECTIONS · SCALE · FRACT * 1/64 DEC · To PLACES GIVEN · ANGLES · 406 -02 · Ol 1 ISS,
+- **Wiring (first pass):** 48 connected wire groups from 247 runs; labelled ends: 47 mm → ANGLES, 406, -02; 43 mm → PLACES, GIVEN, MIN BEND RAD UMLESS SPECIFIED; 38 mm → -02, Ol 1, 406, ISS,; 36 mm → NOTES; 31 mm → 406, GIVEN, ANGLES, MIN BEND RAD UMLESS SPECIFIED
+
+Every curve, box, word and wire group: [1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS (traced).json](1970%20-%20M406%20-%20B%20406-02-011%20-%20M406B%20COMPRESSOR%20-%20PLUG%20CONNECTIONS%20%28traced%29.json) (the CAD file: `1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

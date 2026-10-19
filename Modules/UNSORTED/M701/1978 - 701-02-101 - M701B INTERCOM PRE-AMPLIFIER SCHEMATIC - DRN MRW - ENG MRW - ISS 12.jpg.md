@@ -24,6 +24,20 @@ Wiki page: [M701](../../../PAGES/M701.md)
 - **Size:** 1,349,788 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 701-02-101, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–560 mm up
+- **Outlines:** line 547 rings, 8,025 straight (32,424 mm) / 1,250 curved (3,220 mm); text 1,517 rings, 8,121 straight (13,113 mm) / 2,690 curved (6,237 mm); tb 15 rings, 105 straight (314 mm) / 25 curved (61.1 mm)
+- **Centre lines:** 16,618 paths (467 closed); straight 28,378 mm, curved 626 mm; horizontal 8,805 mm, vertical 8,088 mm, diagonal 11,484 mm
+- **Circles and arcs:** 7 circles, 51 arcs; largest r 6.2 @ (356.8, 330.8), r 6.1 @ (199.8, 446.1), r 5.9 @ (414.1, 215.3), r 5.8 @ (412.6, 160.4)
+- **Closed boxes:** 36 (11 in the title block); named: Wes; AL AM
+- **Words (OCR):** 371 in 322 lines: NOTES · L ALL RESISTORS ARE "aw · UNLESS SpEcified Otherwise · AND · ALL CAPAciTORS Are in · Af · 2 LAST COMPONENT DESiGnATionS · 0159 CR 109 Ds 102 , kioi; Q1o9, · Ri77, Swios, Tioi,01o4 · Pce 8-/14 · USE · 0ios
+- **Title block:** (702, 3)–(864, 81) mm: alna · 3648 · T+b · 3642 · IssUE DATE · RE VISION · APP: · WBS WARD-BECK SYSTEMS · DRN; MRW 11/78 · ENG MRW · M7oib · CKD RA; · INTERCOM PRE-AMPLIFIER · SCHEMATIC · SCALE · 701-02-101 · ISSUE
+- **Wiring (first pass):** 196 connected wire groups from 1,095 runs; labelled ends: 571 mm → rib <, IKB, Rlig, IoOK; 411 mm → ISk, Ri2g, IOK, UI04-8; 326 mm → Cio:, 1/35, RII?, 0io+; 220 mm → 282, 2/1, J8, Zio; 203 mm → RA?, 43k, 00/25
+
+Every curve, box, word and wire group: [1978 - 701-02-101 - M701B INTERCOM PRE-AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW - ISS 12 (traced).json](1978%20-%20701-02-101%20-%20M701B%20INTERCOM%20PRE-AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%2012%20%28traced%29.json) (the CAD file: `1978 - 701-02-101 - M701B INTERCOM PRE-AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW - ISS 12 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

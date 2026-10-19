@@ -15,6 +15,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 4,104,918 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 3642-04-003, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–274 mm up
+- **Outlines:** line 608 rings, 8,465 straight (19,252 mm) / 1,193 curved (1,524 mm); text 144 rings, 1,115 straight (1,007 mm) / 386 curved (501 mm); tb 19 rings, 173 straight (204 mm) / 44 curved (51.6 mm)
+- **Closed boxes:** 33 (3 in the title block); named: PROCESSIRG; 45714; 4SzO HuRO; IAPUI; Hooules; HoouLES; STERLO InpuT FADERS; STEAEO FADERS; STERCO; LoHo AASTEA CADERS; HOHO IhpuI
+- **Dots (junctions):** 1
+- **Words (OCR):** 26 in 22 lines: 45714 · PROCESSIRG · JACRFIELO · HuRO · 4SzO · IAPUI · Hooules · HoouLES · STEAEO · STERCO · AASTEA · LoHo
+- **Title block:** (359, 19)–(424, 35) mm: WBS WARD-BECK · S73642
+
+Every curve, box, word and wire group: [19xx - DOC - 3642-04-003 - SUB MSTER HASTEA FADEAS ERSTER FADERS FADERS JISSU (traced).json](19xx%20-%20DOC%20-%203642-04-003%20-%20SUB%20MSTER%20HASTEA%20FADEAS%20ERSTER%20FADERS%20FADERS%20JISSU%20%28traced%29.json) (the CAD file: `19xx - DOC - 3642-04-003 - SUB MSTER HASTEA FADEAS ERSTER FADERS FADERS JISSU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

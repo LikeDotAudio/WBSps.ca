@@ -22,6 +22,20 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 4,535,003 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 441-02-002, size B 432 × 130 mm, 2000 × 604 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 1–130 mm up
+- **Outlines:** line 2,174 rings, 15,700 straight (18,021 mm) / 3,042 curved (3,519 mm); text 346 rings, 1,758 straight (1,308 mm) / 529 curved (596 mm)
+- **Centre lines:** 12,553 paths (283 closed); straight 10,214 mm, curved 97.5 mm; horizontal 3,164 mm, vertical 2,731 mm, diagonal 4,319 mm
+- **Circles and arcs:** 1 circles, 34 arcs; largest r 0.8 @ (191.8, 54.6)
+- **Closed boxes:** 10; named: 02-002
+- **Dots (junctions):** 5
+- **Words (OCR):** 56 in 50 lines: 22r · +487 · PHASE SWITcH · 100/25 Nofes · G2Op · R7S R2zg · Groue DEIYEE · 145137 · 814461 · 643 · tw 37 · HATED
+- **Wiring (first pass):** 166 connected wire groups from 1,047 runs; labelled ends: 175 mm → 709; 104 mm → 882; 58 mm → A39, X4k7; 45 mm → PHASE SWITcH; 39 mm → 709
+
+Every curve, box, word and wire group: [1970 - 441-02-002 - M441A INPUT MODULE SCHEMATIC - DRN DJG (traced).json](1970%20-%20441-02-002%20-%20M441A%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20DJG%20%28traced%29.json) (the CAD file: `1970 - 441-02-002 - M441A INPUT MODULE SCHEMATIC - DRN DJG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

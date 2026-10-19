@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,486,208 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 777-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,103 rings, 10,249 straight (21,303 mm) / 1,643 curved (1,932 mm); text 163 rings, 1,003 straight (944 mm) / 300 curved (383 mm)
+- **Centre lines:** 11,675 paths (174 closed); straight 13,126 mm, curved 23.0 mm; horizontal 5,746 mm, vertical 4,646 mm, diagonal 2,734 mm
+- **Circles and arcs:** 1 circles, 9 arcs; largest r 0.8 @ (52.0, 177.4)
+- **Closed boxes:** 236
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 84 connected wire groups from 1,374 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 777-02-002 - STATUS INDICATOR CARD STATUS INDICATOR CARD (traced).json](1981%20-%20microCOM%20-%20777-02-002%20-%20STATUS%20INDICATOR%20CARD%20STATUS%20INDICATOR%20CARD%20%28traced%29.json) (the CAD file: `1981 - microCOM - 777-02-002 - STATUS INDICATOR CARD STATUS INDICATOR CARD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

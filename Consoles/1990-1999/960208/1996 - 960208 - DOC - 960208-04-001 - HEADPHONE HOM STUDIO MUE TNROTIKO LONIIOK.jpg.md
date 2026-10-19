@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 11,462,933 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960208-04-001, size B (assumed) 432 × 347 mm, 2000 × 1606 px traced (0.216 mm/px); scale DISC
+- **Ink extent:** 31–427 mm across, 5–321 mm up
+- **Outlines:** line 2,313 rings, 16,825 straight (41,884 mm) / 2,921 curved (3,648 mm); text 488 rings, 3,068 straight (3,067 mm) / 1,069 curved (1,402 mm); tb 19 rings, 353 straight (1,887 mm) / 14 curved (21.1 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 6.6 @ (370.4, 126.0), r 6.6 @ (370.4, 99.9), r 1.9 @ (372.6, 102.3), r 1.9 @ (372.6, 128.4)
+- **Closed boxes:** 345; named: M907; M9O5A Kocs HEADPHONE MUE Loniiok; M9OSB; M9O1C; M9O1C; M9O1C; M9O1C PRE/P CH  ON; M9O1C PRL APS; MgO1C PRE PS; MgO1C CH ON; M9O1C (ppe CH   ON; M9O1C ON
+- **Dots (junctions):** 37
+- **Words (OCR):** 96 in 74 lines: ME TER · Hici · Mic2 · UNET · UNE2 · UNES · UNE4 · LINES · LINE6 · LINE7 · VNE8 · UNE9
+- **Title block:** (297, 4)–(432, 62) mm: ISSUE · REVISION · APP · WARD-BECK SYSTEMS · WBS · DRN; DRG · CIFX · ENG_ WKW · RENAISSANCE MKII · CKD_ · CONSOLE · LA YOUT · APP · SCALE DISC · NO: SYSO1 · 960208-04-001 · ISSUE · 1:2 CODE: 96208L.01
+
+Every curve, box, word and wire group: [1996 - 960208 - DOC - 960208-04-001 - HEADPHONE HOM STUDIO MUE TNROTIKO LONIIOK (traced).json](1996%20-%20960208%20-%20DOC%20-%20960208-04-001%20-%20HEADPHONE%20HOM%20STUDIO%20MUE%20TNROTIKO%20LONIIOK%20%28traced%29.json) (the CAD file: `1996 - 960208 - DOC - 960208-04-001 - HEADPHONE HOM STUDIO MUE TNROTIKO LONIIOK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

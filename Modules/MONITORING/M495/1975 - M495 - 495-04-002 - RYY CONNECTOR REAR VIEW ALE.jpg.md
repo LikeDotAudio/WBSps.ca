@@ -11,6 +11,16 @@ Wiki page: [M495](../../../PAGES/M495.md)
 - **Size:** 2,385,975 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 495-04-002, size B (assumed) 432 × 336 mm, 2000 × 1554 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–426 mm across, 5–336 mm up
+- **Outlines:** line 229 rings, 6,033 straight (11,571 mm) / 706 curved (1,152 mm); text 624 rings, 6,616 straight (8,459 mm) / 1,342 curved (2,122 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (26.9, 83.4)
+- **Closed boxes:** 86
+
+Every curve, box, word and wire group: [1975 - M495 - 495-04-002 - RYY CONNECTOR REAR VIEW ALE (traced).json](1975%20-%20M495%20-%20495-04-002%20-%20RYY%20CONNECTOR%20REAR%20VIEW%20ALE%20%28traced%29.json) (the CAD file: `1975 - M495 - 495-04-002 - RYY CONNECTOR REAR VIEW ALE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

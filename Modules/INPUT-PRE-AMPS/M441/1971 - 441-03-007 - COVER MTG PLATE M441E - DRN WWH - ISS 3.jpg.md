@@ -28,6 +28,18 @@ Mechanical detail of a cover mounting plate.
 
 - **1971** (month): `Oct 71` — …AD Us EciFied Finish T W.WH= 120 6 RiT CLEAR ALODINE OATE 5 Oct 71 MaterIAL ALUM ALLOY CDy 062 Thick SCALE] VaRD BECK SVSTEMS…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 441-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–298 mm up
+- **Outlines:** line 582 rings, 7,717 straight (12,526 mm) / 1,123 curved (1,452 mm); text 539 rings, 3,752 straight (4,205 mm) / 1,043 curved (1,535 mm)
+- **Centre lines:** 11,556 paths (108 closed); straight 10,756 mm, curved 130 mm; horizontal 4,588 mm, vertical 2,155 mm, diagonal 4,012 mm
+- **Circles and arcs:** 2 circles, 25 arcs; largest r 5.3 @ (111.3, 189.2), r 1.5 @ (99.1, 146.6)
+- **Closed boxes:** 1
+- **Words (OCR):** 72 in 56 lines: 5.74 · HOLES 4-40 · UNC TAD · 813 · 4.50 · 3.950 · 3.42 · 29 · 72 · 350 · 39 · 1.43
+
+Every curve, box, word and wire group: [1971 - 441-03-007 - COVER MTG PLATE M441E - DRN WWH - ISS 3 (traced).json](1971%20-%20441-03-007%20-%20COVER%20MTG%20PLATE%20M441E%20-%20DRN%20WWH%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1971 - 441-03-007 - COVER MTG PLATE M441E - DRN WWH - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

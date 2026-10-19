@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **2008** (manual_issue): `ISSUE CODE: 92008` — …YSTEM STUDIO N1 FUNCTIONAL SCALE DISC ND: 408 920008-01-001 ISSUE CODE: 92008F01…
 
+## Vectors (traced)
+
+- **Sheet:** functional 920008-01-001, size B (assumed) 432 × 279 mm, 2000 × 1292 px traced (0.216 mm/px); scale DISC NO;
+- **Ink extent:** 84–420 mm across, 7–263 mm up
+- **Outlines:** line 4,024 rings, 28,111 straight (42,832 mm) / 3,758 curved (4,473 mm); text 477 rings, 3,284 straight (2,881 mm) / 998 curved (1,215 mm); tb 54 rings, 374 straight (361 mm) / 93 curved (106 mm)
+- **Centre lines:** 86,948 paths (448 closed); straight 41,514 mm, curved 180 mm; horizontal 12,983 mm, vertical 12,415 mm, diagonal 16,116 mm
+- **Circles and arcs:** 8 circles, 57 arcs; largest r 1.3 @ (340.4, 230.3), r 1.3 @ (340.4, 233.3), r 1.1 @ (340.2, 227.5), r 1.1 @ (284.9, 234.2)
+- **Closed boxes:** 952 (13 in the title block); named: ASSEUBLT DUFFERS FOR; VCNMoR
+- **Dots (junctions):** 35
+- **Words (OCR):** 60 in 54 lines: PREAUPLFERS · SOUND IHPUIS · LECEND: · crosspoi · MBSAD · A"OUIPURS) · CLUFRA · CAVERI · aloCk · VaTAX · D MMEP · RONS)
+- **Title block:** (337, 6)–(426, 39) mm: ISSULENEL · WBS · WARD-BECK SYSTEMS · TORONTO BROADCAST    CENTRE · 48x48 · STUDIO · INTERCOM SYSTEM · SCALE DISC NO; · FUNCTIONA · 920008-01 001
+- **Wiring (first pass):** 267 connected wire groups from 5,966 runs, 185 dotted junctions; labelled ends: 1953 mm → aloCk; 194 mm → Pp; 62 mm → aloCk; 62 mm → aloCk; 62 mm → aloCk
+
+Every curve, box, word and wire group: [2008 - DOC - 920008-01-001 - INTERCOM SYSTEM STUDIO (traced).json](2008%20-%20DOC%20-%20920008-01-001%20-%20INTERCOM%20SYSTEM%20STUDIO%20%28traced%29.json) (the CAD file: `2008 - DOC - 920008-01-001 - INTERCOM SYSTEM STUDIO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

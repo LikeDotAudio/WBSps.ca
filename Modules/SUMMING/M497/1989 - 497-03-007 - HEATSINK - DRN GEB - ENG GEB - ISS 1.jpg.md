@@ -27,6 +27,19 @@ Wiki page: [M497](../../../PAGES/M497.md)
 
 - **1984** (labelled): `APP 2.84` — …3 1-70 TAP 4-40 2 PLACES 50 57 1.07 700 ISSUE DATE REVISION APP 2.84 WBS WARD-BECK SYSTEMS DRN. GEB ENG. GEB?/9 CKD: APP SCALE 2…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 497-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 149 rings, 2,823 straight (9,081 mm) / 291 curved (454 mm); text 334 rings, 2,602 straight (3,394 mm) / 680 curved (1,112 mm); tb 3 rings, 82 straight (191 mm) / 3 curved (9.0 mm)
+- **Centre lines:** 2,974 paths (54 closed); straight 7,133 mm, curved 65.2 mm; horizontal 4,046 mm, vertical 1,361 mm, diagonal 1,727 mm
+- **Circles and arcs:** 1 circles, 12 arcs; largest r 1.9 @ (57.6, 116.0)
+- **Closed boxes:** 21 (10 in the title block); named: ISSUE; SCALE 2x; 497-03-007
+- **Words (OCR):** 48 in 39 lines: NOTES: · MATERIAL · 0-060 · ALUM: · ALLoY · 2 ENNSH BLACK ANoDIzE · 2-56 · 3. TeLEEAACES: · TAP · PLACES · XX · "015
+- **Title block:** (278, 14)–(432, 83) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · ENG.GEB?/9 · HEATsiNK · CKD: · APP · SCALE · ISSUE · 2x · 497-03-007
+
+Every curve, box, word and wire group: [1989 - 497-03-007 - HEATSINK - DRN GEB - ENG GEB - ISS 1 (traced).json](1989%20-%20497-03-007%20-%20HEATSINK%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1989 - 497-03-007 - HEATSINK - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

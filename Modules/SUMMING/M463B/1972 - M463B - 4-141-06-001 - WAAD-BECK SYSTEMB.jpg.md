@@ -11,6 +11,16 @@ Wiki page: [M463B](../../../PAGES/M463B.md)
 - **Size:** 6,939,581 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-141-06-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–431 mm across, 11–301 mm up
+- **Outlines:** line 1,075 rings, 10,779 straight (13,861 mm) / 3,043 curved (2,979 mm); text 356 rings, 2,854 straight (2,798 mm) / 909 curved (1,050 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.8 @ (229.8, 144.8), r 5.6 @ (231.7, 223.1), r 2.2 @ (276.1, 232.9), r 2.2 @ (183.7, 175.2)
+- **Closed boxes:** 27
+
+Every curve, box, word and wire group: [1972 - M463B - 4-141-06-001 - WAAD-BECK SYSTEMB (traced).json](1972%20-%20M463B%20-%204-141-06-001%20-%20WAAD-BECK%20SYSTEMB%20%28traced%29.json) (the CAD file: `1972 - M463B - 4-141-06-001 - WAAD-BECK SYSTEMB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

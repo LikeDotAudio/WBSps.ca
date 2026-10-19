@@ -22,6 +22,21 @@ Wiki page: [Job-940444](../../../PAGES/Job-940444.md)
 - **Size:** 982,178 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 940444-01-001, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 41–847 mm across, 13–538 mm up
+- **Outlines:** line 1,174 rings, 10,785 straight (56,274 mm) / 1,230 curved (2,915 mm); text 1,292 rings, 8,190 straight (13,205 mm) / 2,264 curved (5,300 mm); tb 59 rings, 504 straight (3,950 mm) / 67 curved (172 mm)
+- **Centre lines:** 22,844 paths (338 closed); straight 42,347 mm, curved 135 mm; horizontal 18,667 mm, vertical 11,134 mm, diagonal 12,545 mm
+- **Circles and arcs:** 3 circles, 16 arcs; largest r 4.4 @ (742.2, 232.6), r 3.5 @ (741.7, 232.7), r 3.3 @ (288.9, 221.3)
+- **Closed boxes:** 196 (2 in the title block); named: VCA; PGMI RIGHT; VCA; AMP; PG42 RIGHT; PGMI MINUS Right; VCA; AMPI; PGMZ MINUS RighT; 2200; {2 D0; 10Yt
+- **Dots (junctions):** 1
+- **Words (OCR):** 214 in 179 lines: CONSCLE SUMMINC BUSES · DIRECT · MUSIC VOICE · MNS [ · MiX CUE AUX AuX · VCA · OUT · INSERTS · qBu · LINE INPUTS · PCMI LEF T · 10/+10 dBu
+- **Title block:** (114, 10)–(863, 108) mm: STEREO2 · TELCO #4 · STEREOI · POWER · WBS · POWER · VBS · CONSOLE VODULES · STEREO2 · M909 METER /MX MINUS MODULE · SUPPLY · M924 · SUPPLY · M924 · COMMON · FoR REDUNDANT · ISSUEI · REVSION · APP. · 
+- **Wiring (first pass):** 362 connected wire groups from 2,289 runs; labelled ends: 7135 mm → MUSIC, VOICE, MiX, MNS [; 824 mm → DIRECT CUE INPUT; 309 mm → *0pi; 245 mm → RIGHT; 240 mm → 0 10
+
+Every curve, box, word and wire group: [1994 - 940444-01-001 - WBZ NEWS AIR STUDIO RENAISSANCE MK I FUNCTIONAL - DRN PAS - ENG SM - ISS 1 (traced).json](1994%20-%20940444-01-001%20-%20WBZ%20NEWS%20AIR%20STUDIO%20RENAISSANCE%20MK%20I%20FUNCTIONAL%20-%20DRN%20PAS%20-%20ENG%20SM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940444-01-001 - WBZ NEWS AIR STUDIO RENAISSANCE MK I FUNCTIONAL - DRN PAS - ENG SM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 20 words corrected)

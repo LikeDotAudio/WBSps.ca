@@ -11,6 +11,19 @@ Wiki page: [M463AB](../../../PAGES/M463AB.md)
 - **Size:** 375,849 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 463-06-027, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–418 mm up
+- **Outlines:** line 648 rings, 8,302 straight (15,776 mm) / 2,253 curved (2,376 mm); text 975 rings, 8,010 straight (7,582 mm) / 2,476 curved (2,897 mm); tb 305 rings, 1,585 straight (1,417 mm) / 586 curved (661 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 10.8 @ (277.4, 304.5), r 10.8 @ (248.6, 304.4), r 4.8 @ (242.5, 342.1), r 4.8 @ (189.4, 342.0)
+- **Closed boxes:** 9 (3 in the title block); named: ILmzoi; 2K5 wBs 10-003 R4Q R39
+- **Dots (junctions):** 3
+- **Words (OCR):** 151 in 119 lines: Pn3L45 Pn35L9 Pu3l45 21401 204+01 · 214401 · 20440 | · 0_0 · ~Azi · 08 · ~R22 · -R23 · 43 · 22k RioJek · ~R3 @K2 · 1025 Ri3
+- **Title block:** (64, 76)–(150, 291) mm: 2K5 · wBs 10-003 · R39 · R4Q · Swi · WBs · oosi · swio · WBS · Wbs · 2k5 · Wbs 10-003 · A37 R3a · Sws · WBS Il-aos · sw8 · W83 · W2 · 006 · CR3!KB ~R33 JKB · ~R36 Ke · Sk · WBS · Swi · WBS · Il-002 41
+
+Every curve, box, word and wire group: [1986 - M463AB - 463-06-027 - COMPONENT SIDE NOIES PINS (traced).json](1986%20-%20M463AB%20-%20463-06-027%20-%20COMPONENT%20SIDE%20NOIES%20PINS%20%28traced%29.json) (the CAD file: `1986 - M463AB - 463-06-027 - COMPONENT SIDE NOIES PINS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

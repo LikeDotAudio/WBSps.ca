@@ -12,6 +12,21 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 32,517,043 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 520-02-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 1,269 rings, 11,079 straight (19,054 mm) / 2,133 curved (2,532 mm); text 147 rings, 889 straight (810 mm) / 253 curved (332 mm); tb 9 rings, 57 straight (40.4 mm) / 13 curved (15.3 mm)
+- **Centre lines:** 10,783 paths (293 closed); straight 11,608 mm, curved 105 mm; horizontal 5,481 mm, vertical 2,837 mm, diagonal 3,290 mm
+- **Circles and arcs:** 3 circles, 12 arcs; largest r 3.1 @ (166.5, 65.6), r 2.6 @ (231.5, 54.1), r 2.5 @ (231.6, 66.8)
+- **Closed boxes:** 41 (2 in the title block); named: WBSS WARD-BeCK BysteMS; MszoA MoNo INPuT MoDLLE CCHEHATIC; 520-02-0o2/3
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 19 lines: @uT · Holes: · aigt · cabacitors Are · outputs · INSERT · cutputs · ECToR · 43 · Mic/LINA · 1035 · TALLY
+- **Title block:** (370, 19)–(432, 40) mm: Issu]DAte · WBSS WARD-BeCK BysteMS
+- **Wiring (first pass):** 101 connected wire groups from 769 runs, 2 dotted junctions; labelled ends: 1004 mm → Mic/LINA; 857 mm → 43; 196 mm → 43, 1035; 85 mm → WBSS, 520-02-0o2/3; 60 mm → 8289
+
+Every curve, box, word and wire group: [1988 - M520 - 520-02-002 - SOLO TALLY ATT SENSE (traced).json](1988%20-%20M520%20-%20520-02-002%20-%20SOLO%20TALLY%20ATT%20SENSE%20%28traced%29.json) (the CAD file: `1988 - M520 - 520-02-002 - SOLO TALLY ATT SENSE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

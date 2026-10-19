@@ -24,6 +24,19 @@ Sudbury MicroCOM II system functional block diagram with title block at bottom r
 - **Size:** 574,799 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 930007-01-002, size D 864 × 586 mm, 2000 × 1358 px traced (0.432 mm/px)
+- **Ink extent:** 1–863 mm across, 11–538 mm up
+- **Outlines:** line 1,145 rings, 8,995 straight (25,432 mm) / 1,695 curved (4,276 mm); text 187 rings, 1,297 straight (2,428 mm) / 406 curved (1,040 mm)
+- **Centre lines:** 15,496 paths (153 closed); straight 19,582 mm, curved 219 mm; horizontal 7,438 mm, vertical 4,440 mm, diagonal 7,704 mm
+- **Circles and arcs:** 1 circles, 31 arcs; largest r 2.3 @ (585.8, 395.5)
+- **Closed boxes:** 57
+- **Words (OCR):** 33 in 31 lines: HEADSO · CHANNEL · KRF C ACuM · (SUPPLED 01keaS) · F8183 · 878 · IPH=2 · pH" · CHANNFL · 813 · Z_MRE · F8183
+- **Wiring (first pass):** 428 connected wire groups from 1,669 runs; labelled ends: 755 mm → WARD-BECK  SYSTEMS, CICI-TV/CKNC-TV SUDBURY, FUNCTIONAL, 002; 35 mm → BE; 26 mm → 8ra; 25 mm → Cafa; 25 mm → F8183
+
+Every curve, box, word and wire group: [1993 - 930007-01-002 - CICI-TV CKNC-TV SUDBURY 48X96 MicroCOM II SYSTEM FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).json](1993%20-%20930007-01-002%20-%20CICI-TV%20CKNC-TV%20SUDBURY%2048X96%20MicroCOM%20II%20SYSTEM%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1993 - 930007-01-002 - CICI-TV CKNC-TV SUDBURY 48X96 MicroCOM II SYSTEM FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

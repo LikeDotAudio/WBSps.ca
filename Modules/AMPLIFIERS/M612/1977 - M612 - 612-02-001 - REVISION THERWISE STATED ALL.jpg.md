@@ -11,6 +11,20 @@ Wiki page: [M612](../../../PAGES/M612.md)
 - **Size:** 415,663 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 612-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px); scale LB 612-02-001
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 100 rings, 3,737 straight (10,003 mm) / 491 curved (936 mm); text 499 rings, 5,006 straight (7,012 mm) / 1,187 curved (2,141 mm); tb 23 rings, 219 straight (425 mm) / 24 curved (35.2 mm)
+- **Centre lines:** 4,230 paths (64 closed); straight 9,701 mm, curved 565 mm; horizontal 3,741 mm, vertical 2,355 mm, diagonal 3,604 mm
+- **Circles and arcs:** 20 circles, 26 arcs; largest r 12.1 @ (25.7, 181.3), r 12.0 @ (18.6, 232.9), r 8.0 @ (254.2, 337.1), r 2.6 @ (108.4, 355.5)
+- **Closed boxes:** 10 (7 in the title block); named: 612-02-001; SCALE; LB
+- **Words (OCR):** 74 in 61 lines: Ti · SW2 · 21 GN 80-11 OR · F2 · .25A · CRIHIA · SB oVaoo · MDA9AZA-4 · R85- · c 30 · 2N3569 · R83
+- **Title block:** (162, 9)–(330, 121) mm: 45 · 17 · 1/78 · REDRAWN · ISSUE DATE · REVISION · WBS WARD-BECK sys · DRN: PMAMONEY · M612 · ENG. · DISTRIBUTION · AMPLIFIE · CKD · SCHEMATIC · APP · SCALE LB 612-02-001
+- **Wiring (first pass):** 36 connected wire groups from 173 runs; labelled ends: 459 mm → MDA9AZA-4, C2s, 470, /40; 273 mm → C24, T470, J4o, 4401; 158 mm → oVaoo, SB, DSI, BN; 157 mm → 2N3569, C24, T470, J4o; 104 mm → 22G0l, FI, 0.25A
+
+Every curve, box, word and wire group: [1977 - M612 - 612-02-001 - REVISION THERWISE STATED ALL (traced).json](1977%20-%20M612%20-%20612-02-001%20-%20REVISION%20THERWISE%20STATED%20ALL%20%28traced%29.json) (the CAD file: `1977 - M612 - 612-02-001 - REVISION THERWISE STATED ALL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

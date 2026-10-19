@@ -22,6 +22,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 4,001,828 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 790236-02-014, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px)
+- **Ink extent:** 4–611 mm across, 4–864 mm up
+- **Outlines:** line 534 rings, 8,901 straight (22,334 mm) / 1,387 curved (2,982 mm); text 726 rings, 4,630 straight (9,846 mm) / 1,363 curved (3,751 mm); tb 20 rings, 202 straight (781 mm) / 17 curved (55.9 mm)
+- **Centre lines:** 25,680 paths (150 closed); straight 27,676 mm, curved 155 mm; horizontal 8,691 mm, vertical 5,728 mm, diagonal 13,257 mm
+- **Circles and arcs:** 7 circles, 10 arcs; largest r 4.1 @ (72.4, 206.8), r 2.7 @ (272.0, 292.6), r 2.7 @ (272.0, 387.3), r 2.5 @ (271.9, 496.8)
+- **Closed boxes:** 17 (12 in the title block); named: PS 4 M648
+- **Words (OCR):** 100 in 69 lines: N4t Mise MCL"LE M2 Pin <i # 2 FCRL · 20 #ZZis · #77 fnisv: · M475 Moknr | cLues · MCNzeM0n4 21142i · 22 /nG PL · 2C 22 /KE · 19 22 /a Vi · TALKBACK MODULE · Pin2i# 22 FWG RD · M451 · 2o1
+- **Title block:** (311, 11)–(607, 158) mm: ISSUE DATE · REVISION · APP · WBS WARQ-BECK SYSTEMS · DRN SRh · L3242 A CONSOLE · ENG Srh · POWER · DISTRIEUTION · CKD. · APP · SCHEMATIC · SCALE · 790236-02 -014 · ISSUE
+- **Wiring (first pass):** 60 connected wire groups from 670 runs; labelled ends: 1099 mm → Pz-124, PI, Tb14, Pz |-I2; 83 mm → PEAK, INDICATOR; 62 mm → M467; 62 mm → M475; 57 mm → INDICATOR, PRESET
+
+Every curve, box, word and wire group: [1979 - 790236-02-014 - L3242A CONSOLE POWER DISTRIBUTION SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (2) (traced).json](1979%20-%20790236-02-014%20-%20L3242A%20CONSOLE%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1979 - 790236-02-014 - L3242A CONSOLE POWER DISTRIBUTION SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

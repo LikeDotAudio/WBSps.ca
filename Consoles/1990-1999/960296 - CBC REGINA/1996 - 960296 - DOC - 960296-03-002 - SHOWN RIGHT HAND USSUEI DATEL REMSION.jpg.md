@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,309,531 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960296-03-002, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–259 mm up
+- **Outlines:** line 498 rings, 3,621 straight (10,812 mm) / 771 curved (919 mm); text 326 rings, 1,637 straight (1,537 mm) / 592 curved (747 mm); tb 12 rings, 116 straight (156 mm) / 24 curved (27.0 mm)
+- **Centre lines:** 5,386 paths (179 closed); straight 7,367 mm, curved 40.6 mm; horizontal 3,050 mm, vertical 2,416 mm, diagonal 1,901 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 1.1 @ (358.1, 115.8)
+- **Closed boxes:** 12 (2 in the title block); named: FRAME/PANEL PLATES SIDE; DISC NC;; 960296-03-002; CodE
+- **Dots (junctions):** 1
+- **Words (OCR):** 47 in 42 lines: 13.215 · Z000 · 0.130 DiA · 2.0C,2 · PLACES) · 8.i0 · 6,700 · 6 53 · 4710 4A59 · 7-0 35 · 2-605 · 0T7E
+- **Title block:** (333, 16)–(417, 33) mm: ISSUL DAIC · WBS · WARD- · BECK   SYSTEMS
+
+Every curve, box, word and wire group: [1996 - 960296 - DOC - 960296-03-002 - SHOWN RIGHT HAND USSUEI DATEL REMSION (traced).json](1996%20-%20960296%20-%20DOC%20-%20960296-03-002%20-%20SHOWN%20RIGHT%20HAND%20USSUEI%20DATEL%20REMSION%20%28traced%29.json) (the CAD file: `1996 - 960296 - DOC - 960296-03-002 - SHOWN RIGHT HAND USSUEI DATEL REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

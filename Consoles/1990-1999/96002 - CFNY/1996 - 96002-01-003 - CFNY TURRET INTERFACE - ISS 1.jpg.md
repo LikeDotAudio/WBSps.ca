@@ -22,6 +22,21 @@ CFNY turret interface switching matrix diagram.
 - **Size:** 1,075,353 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 96002-01-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 24–431 mm across, 0–298 mm up
+- **Outlines:** line 222 rings, 3,330 straight (10,497 mm) / 354 curved (431 mm); text 229 rings, 1,544 straight (1,696 mm) / 494 curved (661 mm); tb 2 rings, 32 straight (89.0 mm) / 3 curved (8.3 mm)
+- **Centre lines:** 4,688 paths (46 closed); straight 7,094 mm, curved 50.5 mm; horizontal 2,367 mm, vertical 2,455 mm, diagonal 2,272 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 1.2 @ (91.8, 66.1), r 1.2 @ (91.6, 38.2), r 1.0 @ (260.9, 37.0)
+- **Closed boxes:** 25
+- **Dots (junctions):** 1
+- **Words (OCR):** 27 in 23 lines: TURRET SELECTOR INPUTS · HOWARD · 79F L0 · SWITCHER CONTROLS · X M8O8C) · FRED · 79p · SWITCHER CONTROLS · NEWS / TRAFFIC · 79F · SWITCHER CONTROLS · M8208
+- **Title block:** (258, 40)–(407, 213) mm: HOWARD · SWITCHER CONTROLS · FRED · SWITCHER CONTROLS · NEWS / TRAFFIC · SWITCHER CONTROLS · TO · MONITOR · AMPS · WES WARD-BECK SYSTEMS · CFNY
+- **Wiring (first pass):** 99 connected wire groups from 384 runs, 1 dotted junctions; labelled ends: 56 mm → M8208
+
+Every curve, box, word and wire group: [1996 - 96002-01-003 - CFNY TURRET INTERFACE - ISS 1 (traced).json](1996%20-%2096002-01-003%20-%20CFNY%20TURRET%20INTERFACE%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 96002-01-003 - CFNY TURRET INTERFACE - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,17 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 6,039,415 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-109-06-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 16–302 mm up
+- **Outlines:** line 968 rings, 8,216 straight (14,630 mm) / 2,142 curved (2,367 mm); text 397 rings, 2,703 straight (2,702 mm) / 838 curved (990 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 9.8 @ (280.8, 140.2), r 7.4 @ (313.8, 242.8), r 4.5 @ (144.7, 283.6), r 4.5 @ (231.1, 283.5)
+- **Closed boxes:** 49
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1974 - M465 - 4-109-06-001 - BLACK OSS MOD ICKD USED (traced).json](1974%20-%20M465%20-%204-109-06-001%20-%20BLACK%20OSS%20MOD%20ICKD%20USED%20%28traced%29.json) (the CAD file: `1974 - M465 - 4-109-06-001 - BLACK OSS MOD ICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

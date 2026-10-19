@@ -22,6 +22,19 @@ Custom machine control plate drawing with title block at bottom right.
 - **Size:** 425,813 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940350-03-005, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 93–841 mm across, 16–507 mm up
+- **Outlines:** line 771 rings, 4,953 straight (23,243 mm) / 969 curved (2,260 mm); text 294 rings, 1,668 straight (3,260 mm) / 595 curved (1,487 mm); tb 24 rings, 166 straight (397 mm) / 33 curved (77.5 mm)
+- **Centre lines:** 6,746 paths (208 closed); straight 15,816 mm, curved 39.6 mm; horizontal 6,261 mm, vertical 4,338 mm, diagonal 5,217 mm
+- **Circles and arcs:** 1 circles, 8 arcs; largest r 1.9 @ (511.4, 382.7)
+- **Closed boxes:** 81 (3 in the title block); named: CUSTOM MACHINE CONTROL PLATE; 940350-03-005; CODE;
+- **Words (OCR):** 30 in 26 lines: REC D · 940350-03-005 TOP PLATE · MAIERIAL · ALLOY 0.0BO  IHICK. · REO D · 940350-03-005 · SuB PLATE · UMORial: · ALUY ALLOY 0.100 THICK- · DATU · 0,640 · MATERIAL:
+- **Title block:** (683, 48)–(851, 80) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940350-03-005 - CUSTOM MACHINE CONTROL PLATE - DRN DRG - ISS 2 (traced).json](1994%20-%20940350-03-005%20-%20CUSTOM%20MACHINE%20CONTROL%20PLATE%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940350-03-005 - CUSTOM MACHINE CONTROL PLATE - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

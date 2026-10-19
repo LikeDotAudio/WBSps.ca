@@ -23,6 +23,18 @@ Upside-down controller schematic with title block at top left.
 - **Size:** 3,064,695 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-012, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–607 mm across, 1–864 mm up
+- **Outlines:** line 1,112 rings, 11,081 straight (45,467 mm) / 2,279 curved (5,932 mm); text 340 rings, 2,356 straight (5,471 mm) / 724 curved (2,066 mm)
+- **Centre lines:** 9,182 paths (142 closed); straight 28,730 mm, curved 905 mm; horizontal 8,234 mm, vertical 13,613 mm, diagonal 6,882 mm
+- **Circles and arcs:** 14 circles, 106 arcs; largest r 3.0 @ (430.5, 39.3), r 2.7 @ (109.1, 277.2), r 2.7 @ (83.3, 277.1), r 2.4 @ (196.1, 763.8)
+- **Closed boxes:** 96
+- **Wiring (first pass):** 76 connected wire groups from 1,209 runs
+
+Every curve, box, word and wire group: [1988 - 3642-02-012 - CONTROLLER SCHEMATIC - ISS 2 (traced).json](1988%20-%203642-02-012%20-%20CONTROLLER%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 3642-02-012 - CONTROLLER SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

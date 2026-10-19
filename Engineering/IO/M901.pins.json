@@ -1,0 +1,117 @@
+{
+ "code": "M901",
+ "name": null,
+ "derived": true,
+ "variant_of": "M901D",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 46,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "35",
+   "row": 35,
+   "side": "num",
+   "signal": "MOMENTARY CLOSURE TO CONTROL COMMON VIA AN",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "08ac7a0414a4ad46dd5146e99035803f44b5ec01e0ae607d4929bdb877054324",
+    "file": "Modules/UNSORTED/M901D/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "A momentary closure to control common via an open collector transistor which follows source selection is available at module connector P2 pin 36 and P2 pin 35 for the A and B inputs respectively.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "36",
+   "row": 36,
+   "side": "num",
+   "signal": "MOMENTARY CLOSURE TO CONTROL COMMON VIA AN",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "08ac7a0414a4ad46dd5146e99035803f44b5ec01e0ae607d4929bdb877054324",
+    "file": "Modules/UNSORTED/M901D/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "A momentary closure to control common via an open collector transistor which follows source selection is available at module connector P2 pin 36 and P2 pin 35 for the A and B inputs respectively.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "41",
+   "row": 41,
+   "side": "num",
+   "signal": "CUE CHANNEL TOGGLES ON AND OFF",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "08ac7a0414a4ad46dd5146e99035803f44b5ec01e0ae607d4929bdb877054324",
+    "file": "Modules/UNSORTED/M901D/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "This alternate action can be invoked by either momentarily closing Cue switch SW1 (Q), or momentarily grounding the external Cue control input at module connector P2 pin 41.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "45",
+   "row": 45,
+   "side": "num",
+   "signal": "LAMP INTEGRAL TO THE CHANNEL OFF SWITCH",
+   "kind": "control",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "08ac7a0414a4ad46dd5146e99035803f44b5ec01e0ae607d4929bdb877054324",
+    "file": "Modules/UNSORTED/M901D/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The lamp integral to the Channel Off switch is uncommitted and available at module connector P2 pins 45 and 46.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "46",
+   "row": 46,
+   "side": "num",
+   "signal": "LAMP INTEGRAL TO THE CHANNEL OFF SWITCH",
+   "kind": "control",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "08ac7a0414a4ad46dd5146e99035803f44b5ec01e0ae607d4929bdb877054324",
+    "file": "Modules/UNSORTED/M901D/1995 - M901D - 901-01-006 - COMPONENT LAYOUT.wp",
+    "page": 1
+   },
+   "quote": "The lamp integral to the Channel Off switch is uncommitted and available at module connector P2 pins 45 and 46.",
+   "also": [],
+   "from_conf": "medium"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

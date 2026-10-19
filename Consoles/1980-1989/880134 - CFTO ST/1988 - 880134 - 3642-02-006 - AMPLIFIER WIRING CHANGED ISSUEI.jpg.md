@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,445,308 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-006, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 488 rings, 5,236 straight (12,760 mm) / 785 curved (1,149 mm); text 184 rings, 1,236 straight (1,548 mm) / 393 curved (578 mm)
+- **Centre lines:** 3,343 paths (62 closed); straight 7,764 mm, curved 212 mm; horizontal 3,484 mm, vertical 2,707 mm, diagonal 1,573 mm
+- **Circles and arcs:** 4 circles, 48 arcs; largest r 1.2 @ (133.6, 39.0), r 1.0 @ (51.9, 254.4), r 1.0 @ (217.2, 82.6), r 0.9 @ (182.0, 18.9)
+- **Closed boxes:** 45
+- **Wiring (first pass):** 45 connected wire groups from 526 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-006 - AMPLIFIER WIRING CHANGED ISSUEI (traced).json](1988%20-%20880134%20-%203642-02-006%20-%20AMPLIFIER%20WIRING%20CHANGED%20ISSUEI%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-006 - AMPLIFIER WIRING CHANGED ISSUEI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -25,6 +25,20 @@ Wiki page: [M470](../../../PAGES/M470.md)
 - **Size:** 289,187 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 470-01-001, size B 432 × 275 mm, 2000 × 1273 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–273 mm up
+- **Outlines:** line 410 rings, 5,167 straight (11,994 mm) / 664 curved (898 mm); text 641 rings, 4,390 straight (4,820 mm) / 1,329 curved (1,902 mm); tb 17 rings, 185 straight (298 mm) / 31 curved (43.7 mm)
+- **Centre lines:** 6,360 paths (107 closed); straight 9,458 mm, curved 121 mm; horizontal 3,554 mm, vertical 2,483 mm, diagonal 3,421 mm
+- **Circles and arcs:** 6 circles, 13 arcs; largest r 3.4 @ (184.4, 195.2), r 3.2 @ (224.5, 195.1), r 3.2 @ (244.5, 90.8), r 1.5 @ (304.7, 107.0)
+- **Closed boxes:** 12 (6 in the title block); named: 11/77; DC CONTROLS ADDED
+- **Words (OCR):** 103 in 89 lines: Mic/liNE · SELECTOR · DIRECT Output · mic INPUT · SUB · dBm BRIDGING · -60/-10 dBm · CTL COM · 150 OhmS · MSoR · CTL · 51
+- **Title block:** (286, 2)–(432, 76) mm: DC CONTROLS ADDED · 11/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · M47o · ENG_ RKB · INPUT MODULE · CKD Eel · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 470 - 01-00
+- **Wiring (first pass):** 188 connected wire groups from 488 runs; labelled ends: 267 mm → JACKS, 0 dBm, ON; 210 mm → B ST, PRE/Post; 98 mm → 11/77; 93 mm → ON; 63 mm → SELECTOR, Mic PAD
+
+Every curve, box, word and wire group: [1977 - 470-01-001 - INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG RKB - ISS 3 (traced).json](1977%20-%20470-01-001%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1977 - 470-01-001 - INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG RKB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

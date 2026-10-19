@@ -21,6 +21,16 @@ Assignment module layout Title block at bottom left reading sideways.
 - **Size:** 4,613,978 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 568-04-013, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 3–280 mm up
+- **Outlines:** line 345 rings, 4,529 straight (10,795 mm) / 592 curved (991 mm); text 67 rings, 515 straight (573 mm) / 131 curved (180 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 5.2 @ (410.5, 151.6), r 5.2 @ (313.0, 156.7), r 5.2 @ (313.1, 139.3), r 4.0 @ (371.9, 164.9)
+- **Closed boxes:** 26
+
+Every curve, box, word and wire group: [19xx - 568-04-013 - ASSIGNMENT MODULE LAYOUT (traced).json](19xx%20-%20568-04-013%20-%20ASSIGNMENT%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - 568-04-013 - ASSIGNMENT MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

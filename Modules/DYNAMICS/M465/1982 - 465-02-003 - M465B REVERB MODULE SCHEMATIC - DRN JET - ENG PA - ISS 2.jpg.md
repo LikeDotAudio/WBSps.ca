@@ -24,6 +24,20 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 1,309,877 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 465-02-003, size D 864 × 564 mm, 2000 × 1307 px traced (0.432 mm/px)
+- **Ink extent:** 2–864 mm across, 0–564 mm up
+- **Outlines:** line 666 rings, 8,006 straight (41,114 mm) / 1,229 curved (3,133 mm); text 892 rings, 5,059 straight (8,378 mm) / 1,544 curved (3,724 mm); tb 11 rings, 92 straight (318 mm) / 16 curved (45.1 mm)
+- **Centre lines:** 11,075 paths (315 closed); straight 28,449 mm, curved 459 mm; horizontal 12,458 mm, vertical 7,760 mm, diagonal 8,232 mm
+- **Circles and arcs:** 7 circles, 29 arcs; largest r 8.0 @ (149.8, 169.6), r 7.7 @ (173.1, 64.9), r 7.5 @ (158.8, 381.6), r 7.4 @ (175.9, 191.6)
+- **Closed boxes:** 45 (9 in the title block); named: ITEM; PT No
+- **Words (OCR):** 208 in 181 lines: ITEM PT No · DESCRIPTION · DIRECT OUT · o4B · 2iv ~2iv · LEFT OUT · Sw|4 PAN · ChON · Ri3 · P4 · AUDIO · FADER
+- **Title block:** (703, 2)–(864, 81) mm: ISSUE DATE · D22_ PEL CTL ApEr · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN , · M465B · ENG · PA · REVERB MODULE · CKD: · APP · SCHEMATIC · SCALE · 465-02-003 · ISSUE
+- **Wiring (first pass):** 198 connected wire groups from 993 runs; labelled ends: 782 mm → Post, PRE, FoSt, pre; 743 mm → 5.6, 2 /2, Post; 593 mm → 5.6, 2 /2; 416 mm → Ris, 390, Rie, Rzo; 228 mm → Ri3, 390
+
+Every curve, box, word and wire group: [1982 - 465-02-003 - M465B REVERB MODULE SCHEMATIC - DRN JET - ENG PA - ISS 2 (traced).json](1982%20-%20465-02-003%20-%20M465B%20REVERB%20MODULE%20SCHEMATIC%20-%20DRN%20JET%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1982 - 465-02-003 - M465B REVERB MODULE SCHEMATIC - DRN JET - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

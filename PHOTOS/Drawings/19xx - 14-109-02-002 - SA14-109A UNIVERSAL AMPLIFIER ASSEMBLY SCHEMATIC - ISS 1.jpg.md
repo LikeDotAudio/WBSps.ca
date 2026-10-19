@@ -20,6 +20,19 @@ SA14-109A universal amplifier assembly schematic, cropped.
 - **Size:** 924,754 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-109-02-002, size B 339 × 432 mm, 1571 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 355 rings, 4,708 straight (4,339 mm) / 971 curved (1,078 mm); text 270 rings, 2,349 straight (2,360 mm) / 707 curved (968 mm); tb 3 rings, 61 straight (159 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 17,562 paths (141 closed); straight 8,290 mm, curved 131 mm; horizontal 2,216 mm, vertical 1,739 mm, diagonal 4,335 mm
+- **Circles and arcs:** 1 circles, 28 arcs; largest r 5.1 @ (30.1, 361.8)
+- **Words (OCR):** 68 in 58 lines: +22v · CuRRENT · LimiT · 0u1 · PNJ569 · RJI · 22/25 · NQIEi · ALL · ReSISTORS · AND · TN2102
+- **Title block:** (209, 43)–(334, 67) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 21 connected wire groups from 298 runs; labelled ends: 90 mm → RJI; 57 mm → R39, 47k, R4o; 48 mm → R4o, R4z, 620, 220/10; 44 mm → R38, 6.8, Tzztzs; 38 mm → PNJ569, RJI
+
+Every curve, box, word and wire group: [19xx - 14-109-02-002 - SA14-109A UNIVERSAL AMPLIFIER ASSEMBLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-109-02-002%20-%20SA14-109A%20UNIVERSAL%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-109-02-002 - SA14-109A UNIVERSAL AMPLIFIER ASSEMBLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

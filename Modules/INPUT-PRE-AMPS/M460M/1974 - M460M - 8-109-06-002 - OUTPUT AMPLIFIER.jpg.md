@@ -11,6 +11,18 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 322,425 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 460 rings, 4,334 straight (7,752 mm) / 1,191 curved (1,102 mm); text 365 rings, 3,506 straight (4,331 mm) / 897 curved (1,085 mm); tb 15 rings, 217 straight (370 mm) / 34 curved (42.5 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.7 @ (47.4, 336.9), r 5.5 @ (47.4, 337.1), r 5.5 @ (47.1, 161.0), r 5.5 @ (47.1, 88.7)
+- **Closed boxes:** 16 (12 in the title block); named: 8-109-06-002; SCALE; ISSUE
+- **Words (OCR):** 43 in 38 lines: 23/6 · R2-4Zk · ~R6 JBk · R7410 · z2 · LF356 · ~C1o47p · -Cii7p · ~RIl JGk · ~Rir 2k · ~Ri3 390 · ~C3-
+- **Title block:** (117, 8)–(335, 110) mm: 4008 · M L · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · 8 ~ 109A · ENG.MRW · 4/78 · OlTPUT · AMPLIFIER · CKD Rr · COMPONENT LAYOUT · APP · SCALE · ISSUE · 8-109-06-002
+
+Every curve, box, word and wire group: [1974 - M460M - 8-109-06-002 - OUTPUT AMPLIFIER (traced).json](1974%20-%20M460M%20-%208-109-06-002%20-%20OUTPUT%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1974 - M460M - 8-109-06-002 - OUTPUT AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

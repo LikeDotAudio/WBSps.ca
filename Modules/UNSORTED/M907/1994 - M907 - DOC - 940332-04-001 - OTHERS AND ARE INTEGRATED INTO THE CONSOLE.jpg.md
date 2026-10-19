@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 2,903,967 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940332-04-001, size B (assumed) 432 × 344 mm, 2000 × 1591 px traced (0.216 mm/px); scale DISC NO: 473
+- **Ink extent:** 68–422 mm across, 10–344 mm up
+- **Outlines:** line 996 rings, 7,366 straight (25,238 mm) / 1,195 curved (1,628 mm); text 506 rings, 3,310 straight (3,626 mm) / 1,105 curved (1,511 mm); tb 21 rings, 344 straight (2,024 mm) / 19 curved (29.7 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 7.1 @ (299.1, 115.0), r 7.0 @ (299.0, 142.9), r 2.5 @ (328.3, 118.0), r 2.5 @ (99.5, 116.3)
+- **Closed boxes:** 153; named: APC-88RS (FUTUREJAPC_88RsL; M907; M9O5A HodE EQ WS HEADPHONE MUE MONITOR; M9OSB; M9O1A ON; M9O1A; M9O1A CH ON; M9O1A 70; M9O1A ON; M9OIA ON; M9OIA ON; M907
+- **Dots (junctions):** 24
+- **Words (OCR):** 79 in 57 lines: MON · METER · CH 1 · CH 2 CH 3 · CH 4 · CH 5 · CH · CH 7 · CH · CR MON STD · M9O5A M9OSB · M9og
+- **Title block:** (136, 10)–(430, 70) mm: ISSUE · REVISION · APP · NOIES: · WBS WARD-BECK SYSTEMS · APC-88 PANELS ARE SUPPLIED BY OTHERS · AND ARE INTEGRATED INTO THE CONSOLE BY WBS · DRN: SM · CFTR ON AIR · 2. FUTURE MODULES ARE WIRED. · ENG
+
+Every curve, box, word and wire group: [1994 - M907 - DOC - 940332-04-001 - OTHERS AND ARE INTEGRATED INTO THE CONSOLE (traced).json](1994%20-%20M907%20-%20DOC%20-%20940332-04-001%20-%20OTHERS%20AND%20ARE%20INTEGRATED%20INTO%20THE%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - M907 - DOC - 940332-04-001 - OTHERS AND ARE INTEGRATED INTO THE CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

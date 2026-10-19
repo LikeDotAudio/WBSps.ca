@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1976** (labelled): `DATE NOV 76` — …USED ON MATL WBS WAAD-BECK BysTeMS LTD 3535 FKM VDL DRM GEB DATE NOV 76 CKD SCALE TOLS_ M464 HIGH PASS Low PASS FILTER SCHEMATIC In…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 464-02-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–279 mm up
+- **Outlines:** line 1,393 rings, 12,568 straight (20,793 mm) / 2,953 curved (3,505 mm); text 677 rings, 3,832 straight (3,387 mm) / 1,322 curved (1,636 mm); tb 53 rings, 324 straight (333 mm) / 96 curved (111 mm)
+- **Centre lines:** 15,654 paths (449 closed); straight 14,897 mm, curved 369 mm; horizontal 4,628 mm, vertical 4,123 mm, diagonal 6,146 mm
+- **Circles and arcs:** 10 circles, 75 arcs; largest r 3.2 @ (361.8, 182.0), r 3.1 @ (355.3, 228.7), r 3.0 @ (369.8, 190.6), r 2.9 @ (371.1, 233.8)
+- **Closed boxes:** 19 (6 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 120 in 91 lines: FREQUENCY cut · HIGh · FREQUENCY CUT · PASS · Low PASS · Tip2se · 25y · R32 · 343569 · Resistors · 873 · Foeo
+- **Title block:** (346, 6)–(425, 34) mm: WBS WAAD-BeCK bysteMs LTD_ · Nov Tl · M484 · High PASS · PASS Filter · SCALE
+- **Wiring (first pass):** 118 connected wire groups from 926 runs; labelled ends: 291 mm → USED; 222 mm → R2e; 167 mm → DEz; 146 mm → 25; 112 mm → Riaf, Res?
+
+Every curve, box, word and wire group: [1976 - DOC - 464-02-001 - HIGH PASS LOW PASS FILTER SCHEMATIC INISH TAAHMTA (traced).json](1976%20-%20DOC%20-%20464-02-001%20-%20HIGH%20PASS%20LOW%20PASS%20FILTER%20SCHEMATIC%20INISH%20TAAHMTA%20%28traced%29.json) (the CAD file: `1976 - DOC - 464-02-001 - HIGH PASS LOW PASS FILTER SCHEMATIC INISH TAAHMTA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 2,244,959 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 3642-04-002, size B (assumed) 432 × 227 mm, 2000 × 1053 px traced (0.216 mm/px)
+- **Ink extent:** 14–425 mm across, 0–227 mm up
+- **Outlines:** line 721 rings, 8,667 straight (27,786 mm) / 1,109 curved (1,493 mm); text 117 rings, 951 straight (969 mm) / 334 curved (433 mm); tb 4 rings, 106 straight (135 mm) / 15 curved (21.1 mm)
+- **Closed boxes:** 162 (2 in the title block); named: MOOULES; STrREO INPUT SLECTORS; MODULE; OPTOHAL; MEMT; 40250; 46258; Rue-J BLANK PANO; ST3642 STEREO TELEVISION CONSOLE VEW LAY; 3642-04-002
+- **Words (OCR):** 20 in 19 lines: OPTOHAL · MEMT · INPUT SLECTORS · STrREO · MOOULES · MODULE · 2100 · 40250 · 46258 · Rue-J BLANK PANO · EXTEEHA_PORER_SUPPLIES · IDATE
+- **Title block:** (342, 25)–(430, 44) mm: IDATE · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - ST - 3642-04-002 - STEREO TELEVSION CONSOLE FRONT MEW LAYOUT (traced).json](1985%20-%20ST%20-%203642-04-002%20-%20STEREO%20TELEVSION%20CONSOLE%20FRONT%20MEW%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - ST - 3642-04-002 - STEREO TELEVSION CONSOLE FRONT MEW LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

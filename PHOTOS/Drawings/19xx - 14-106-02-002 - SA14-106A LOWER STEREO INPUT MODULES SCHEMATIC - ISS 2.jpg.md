@@ -20,6 +20,19 @@ SA14-108A lower stereo input modules schematic, title block at top right reading
 - **Size:** 5,433,646 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-106-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–416 mm across, 19–293 mm up
+- **Outlines:** line 1,342 rings, 12,568 straight (26,231 mm) / 2,078 curved (2,500 mm); text 189 rings, 1,433 straight (1,259 mm) / 391 curved (459 mm)
+- **Centre lines:** 13,789 paths (226 closed); straight 16,032 mm, curved 112 mm; horizontal 7,780 mm, vertical 4,805 mm, diagonal 3,447 mm
+- **Circles and arcs:** 11 circles, 22 arcs; largest r 1.4 @ (414.3, 57.8), r 1.2 @ (386.8, 58.1), r 1.0 @ (371.1, 40.3), r 1.0 @ (387.4, 40.2)
+- **Closed boxes:** 66
+- **Dots (junctions):** 4
+- **Wiring (first pass):** 170 connected wire groups from 1,670 runs, 6 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 14-106-02-002 - SA14-106A LOWER STEREO INPUT MODULES SCHEMATIC - ISS 2 (traced).json](19xx%20-%2014-106-02-002%20-%20SA14-106A%20LOWER%20STEREO%20INPUT%20MODULES%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 14-106-02-002 - SA14-106A LOWER STEREO INPUT MODULES SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

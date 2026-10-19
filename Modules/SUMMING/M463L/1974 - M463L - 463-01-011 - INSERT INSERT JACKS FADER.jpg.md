@@ -11,6 +11,19 @@ Wiki page: [M463L](../../../PAGES/M463L.md)
 - **Size:** 982,660 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 463-01-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 211 rings, 3,537 straight (7,110 mm) / 416 curved (583 mm); text 149 rings, 1,098 straight (1,308 mm) / 316 curved (531 mm)
+- **Centre lines:** 4,455 paths (39 closed); straight 5,234 mm, curved 34.6 mm; horizontal 2,510 mm, vertical 1,319 mm, diagonal 1,405 mm
+- **Circles and arcs:** 1 circles, 2 arcs; largest r 4.5 @ (162.4, 320.4)
+- **Closed boxes:** 28; named: 4-126; USED ON; Iss MOD   CKD_
+- **Words (OCR):** 21 in 20 lines: EQ · INSERT · INSERT JACKS · FADER · SUMMiNG · BUS INPUT · 4-141 · 4-126 · 8-1094 · -10 dBm · (-ISdb ) · SLATE
+- **Wiring (first pass):** 54 connected wire groups from 163 runs; labelled ends: 976 mm → Iss MOD   CKD_; 118 mm → INSERT JACKS, -10 dBm, FADER, (-ISdb ); 114 mm → SUMMiNG, BUS INPUT, 4-141; 88 mm → Iss MOD   CKD_; 61 mm → Iss MOD   CKD_
+
+Every curve, box, word and wire group: [1974 - M463L - 463-01-011 - INSERT INSERT JACKS FADER (traced).json](1974%20-%20M463L%20-%20463-01-011%20-%20INSERT%20INSERT%20JACKS%20FADER%20%28traced%29.json) (the CAD file: `1974 - M463L - 463-01-011 - INSERT INSERT JACKS FADER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

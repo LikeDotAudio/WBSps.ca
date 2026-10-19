@@ -11,6 +11,19 @@ Wiki page: [M482B](../../../PAGES/M482B.md)
 - **Size:** 330,064 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 482-06-002, size B (assumed) 432 × 288 mm, 2000 × 1333 px traced (0.216 mm/px)
+- **Ink extent:** 20–432 mm across, 0–252 mm up
+- **Outlines:** line 2,464 rings, 14,263 straight (17,477 mm) / 3,643 curved (3,467 mm); text 400 rings, 2,593 straight (2,067 mm) / 851 curved (882 mm); tb 23 rings, 184 straight (190 mm) / 63 curved (61.2 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 4.6 @ (225.0, 154.9), r 4.6 @ (256.4, 187.0), r 4.5 @ (256.1, 155.0), r 4.5 @ (228.9, 186.9)
+- **Closed boxes:** 11 (3 in the title block); named: 4eoi; CD40is; 0Si
+- **Dots (junctions):** 1
+- **Words (OCR):** 36 in 30 lines: C25*25 · 09 R67 20 · 40 · 64 · 24 · 883 · 48 · 94 · Rzc' 22 · 4eoi · 8 3 · SV
+- **Title block:** (352, 18)–(432, 35) mm: WBS WARO-Beck systeMS · M4828
+
+Every curve, box, word and wire group: [1982 - M482B - 482-06-002 - MONITOR MODULE COMPONENT LAYOUT (traced).json](1982%20-%20M482B%20-%20482-06-002%20-%20MONITOR%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M482B - 482-06-002 - MONITOR MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

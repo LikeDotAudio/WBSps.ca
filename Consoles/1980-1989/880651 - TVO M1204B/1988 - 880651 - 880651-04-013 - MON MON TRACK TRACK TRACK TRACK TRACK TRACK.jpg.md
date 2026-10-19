@@ -10,6 +10,19 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,614,812 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880651-04-013, size B (assumed) 432 × 279 mm, 2000 × 1292 px traced (0.216 mm/px); scale DISC NO: 250
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 421 rings, 4,298 straight (9,088 mm) / 649 curved (1,175 mm); text 282 rings, 2,004 straight (2,642 mm) / 587 curved (911 mm); tb 3 rings, 86 straight (210 mm) / 4 curved (6.8 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 4.6 @ (33.3, 209.9), r 4.6 @ (173.7, 209.3), r 4.6 @ (133.6, 209.4), r 4.6 @ (72.9, 209.7)
+- **Closed boxes:** 33 (9 in the title block); named: OD; 880651-04-013; ISSUE; CODE: 80651L13
+- **Dots (junctions):** 1
+- **Words (OCR):** 39 in 29 lines: OD · MON · MON · TRACK · TRACK · TRACK · TRACK · TRACK · TRACK · TRACK · TRACK · DIR
+- **Title block:** (250, 7)–(432, 79) mm: ISSUE| DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: PA · 10/88 · ENG. PA · MONITOR MIX PANEL LAYOUT · CKD_ · APP · SCALE DISC NO: 250 · ISSUE · CODE: 80651L13 · 880651-04-013
+
+Every curve, box, word and wire group: [1988 - 880651 - 880651-04-013 - MON MON TRACK TRACK TRACK TRACK TRACK TRACK (traced).json](1988%20-%20880651%20-%20880651-04-013%20-%20MON%20MON%20TRACK%20TRACK%20TRACK%20TRACK%20TRACK%20TRACK%20%28traced%29.json) (the CAD file: `1988 - 880651 - 880651-04-013 - MON MON TRACK TRACK TRACK TRACK TRACK TRACK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

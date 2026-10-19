@@ -21,6 +21,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 2,585,566 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1-119-02-002, size B 432 × 150 mm, 2000 × 693 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 6–146 mm up
+- **Outlines:** line 824 rings, 9,862 straight (18,008 mm) / 1,456 curved (1,746 mm); text 43 rings, 340 straight (316 mm) / 99 curved (127 mm)
+- **Centre lines:** 11,246 paths (114 closed); straight 11,303 mm, curved 66.2 mm; horizontal 5,349 mm, vertical 3,304 mm, diagonal 2,651 mm
+- **Circles and arcs:** 1 circles, 18 arcs; largest r 0.8 @ (353.2, 107.9)
+- **Closed boxes:** 88; named: WBSS LTo; SCALE
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 16 lines: RESET · Clod · 300 · OR OUT · 7495 · JUUL · EXTERNAL · DRIE · TTTTTTTTT · WBSS · LTo · M7955
+- **Wiring (first pass):** 105 connected wire groups from 991 runs, 1 dotted junctions; labelled ends: 687 mm → 7495; 186 mm → WBSS, LTo, STROBE GENERATOR; 111 mm → 300; 101 mm → 7495, TTTTTTTTT; 96 mm → TTTTTTTTT
+
+Every curve, box, word and wire group: [1979 - 1-119-02-002 - M7953-3 STROBE GENERATOR SCHEMATIC - DRN MRW - ISS 1 (traced).json](1979%20-%201-119-02-002%20-%20M7953-3%20STROBE%20GENERATOR%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 1-119-02-002 - M7953-3 STROBE GENERATOR SCHEMATIC - DRN MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

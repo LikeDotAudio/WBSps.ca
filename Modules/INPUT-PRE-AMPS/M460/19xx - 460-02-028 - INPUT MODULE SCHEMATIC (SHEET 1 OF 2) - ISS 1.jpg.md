@@ -22,6 +22,20 @@ M460M input module schematic sheet 1 of 2, cropped.
 - **Size:** 516,251 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 460-02-028/1, size B 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 0–432 mm up
+- **Outlines:** line 569 rings, 9,228 straight (15,523 mm) / 1,761 curved (2,192 mm); text 730 rings, 5,059 straight (4,662 mm) / 1,746 curved (2,222 mm); tb 2 rings, 64 straight (152 mm) / 3 curved (4.4 mm)
+- **Centre lines:** 19,259 paths (159 closed); straight 14,478 mm, curved 309 mm; horizontal 3,566 mm, vertical 5,082 mm, diagonal 5,830 mm
+- **Circles and arcs:** 13 circles, 66 arcs; largest r 3.0 @ (186.3, 124.1), r 1.6 @ (165.2, 132.1), r 1.3 @ (165.2, 138.2), r 1.3 @ (233.2, 239.5)
+- **Closed boxes:** 3; named: 54 14-054 SOUND RE INFORCEMENT AMPLIFIER
+- **Words (OCR):** 205 in 178 lines: NcY (HF ) · MId-FREQUENCY (MF ) · Low FREQUENCY (LF ) · kHz · 400 Hz 6.4 kHz · 25 Hz 400 Hz · Rib · +21V · 21v · 1OOk · 10ok · R19
+- **Title block:** (205, 45)–(332, 70) mm: WBS · WARD-BECK BYBTEMB
+- **Wiring (first pass):** 127 connected wire groups from 626 runs; labelled ends: 234 mm → R65, Kisk; 198 mm → 3E1; 185 mm → R35 _, 2E9; 173 mm → CTL, coM, P2, 18; 130 mm → {R6}
+
+Every curve, box, word and wire group: [19xx - 460-02-028 - INPUT MODULE SCHEMATIC (SHEET 1 OF 2) - ISS 1 (traced).json](19xx%20-%20460-02-028%20-%20INPUT%20MODULE%20SCHEMATIC%20%28SHEET%201%20OF%202%29%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 460-02-028 - INPUT MODULE SCHEMATIC (SHEET 1 OF 2) - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

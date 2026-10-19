@@ -24,6 +24,19 @@ Wiki page: [M420](../../../PAGES/M420.md)
 
 - **1969** (labelled): `DATE SEPT 69` — …4-001 1 . 62 $ DRN DJG FiNIS; NoTE 2 WARO BECK SYSTEMS LTd; DATE SEPT 69 42 72 CHKD K~ MateR AL 0 0 SCAIE FULL SIZE AALUM TOLs FRACT…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 420-03-004, size B 432 × 270 mm, 2000 × 1252 px traced (0.216 mm/px); scale FULL SIZE
+- **Ink extent:** 1–426 mm across, 0–270 mm up
+- **Outlines:** line 311 rings, 5,185 straight (9,361 mm) / 562 curved (946 mm); text 725 rings, 5,548 straight (6,180 mm) / 1,693 curved (2,582 mm); tb 43 rings, 311 straight (380 mm) / 43 curved (57.7 mm)
+- **Centre lines:** 8,288 paths (100 closed); straight 9,985 mm, curved 219 mm; horizontal 3,563 mm, vertical 2,314 mm, diagonal 4,107 mm
+- **Circles and arcs:** 3 circles, 18 arcs; largest r 10.3 @ (163.1, 172.9), r 1.7 @ (257.7, 175.4), r 1.2 @ (259.4, 20.1)
+- **Closed boxes:** 20
+- **Words (OCR):** 78 in 52 lines: 332 · c'BORE 32 DIA · -1.125 = · 3--45 · 1625 · 32 32 · JN ZPLACES · 25 C'BORE 8 DIA x83 DEEP · ON · UNDERSIDE · 2 HOLES 64 DIA · 3/6 DEEP
+- **Title block:** (189, 19)–(398, 62) mm: FinIS · DRN DJG · beCK SYSTEMS LTd; · NoTE 2 · DATE · SEPT 69 · CHKD · MATERAL · 0 0 · ESCUTCHEON · AALUM · SCALE FULL SIZE · M420 · TOLS FRACE 1/64 DEC PLACES GIVEN ANGLES
+
+Every curve, box, word and wire group: [19xx - 420-03-004 - ESCUTCHEON M420 - ISS 2 (traced).json](19xx%20-%20420-03-004%20-%20ESCUTCHEON%20M420%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 420-03-004 - ESCUTCHEON M420 - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

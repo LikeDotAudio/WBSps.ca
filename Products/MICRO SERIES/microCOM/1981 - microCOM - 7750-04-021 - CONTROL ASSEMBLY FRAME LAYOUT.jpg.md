@@ -11,6 +11,17 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,439,797 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 7750-04-021, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–413 mm across, 1–287 mm up
+- **Outlines:** line 998 rings, 6,649 straight (13,914 mm) / 1,387 curved (1,814 mm); text 183 rings, 1,058 straight (883 mm) / 313 curved (397 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 1.7 @ (251.1, 88.2), r 1.7 @ (305.2, 88.4), r 1.6 @ (178.7, 46.3), r 1.6 @ (251.2, 46.4)
+- **Closed boxes:** 20
+- **Dots (junctions):** 12
+
+Every curve, box, word and wire group: [1981 - microCOM - 7750-04-021 - CONTROL ASSEMBLY FRAME LAYOUT (traced).json](1981%20-%20microCOM%20-%207750-04-021%20-%20CONTROL%20ASSEMBLY%20FRAME%20LAYOUT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7750-04-021 - CONTROL ASSEMBLY FRAME LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

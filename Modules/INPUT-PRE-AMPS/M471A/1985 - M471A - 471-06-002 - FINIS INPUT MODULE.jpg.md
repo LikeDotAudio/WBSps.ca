@@ -11,6 +11,18 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 335,023 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 471-06-002, size B (assumed) 432 × 334 mm, 2000 × 1548 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–301 mm up
+- **Outlines:** line 281 rings, 2,928 straight (5,793 mm) / 815 curved (852 mm); text 758 rings, 6,174 straight (6,134 mm) / 1,910 curved (2,290 mm); tb 450 rings, 3,482 straight (4,572 mm) / 1,061 curved (1,168 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.9 @ (31.6, 34.1), r 2.8 @ (50.9, 34.1), r 2.6 @ (349.0, 271.8), r 2.1 @ (217.1, 256.9)
+- **Closed boxes:** 27 (23 in the title block); named: 21; WBS 0-005
+- **Words (OCR):** 101 in 90 lines: cc · 340 · Cbt · 17 · Icb- · Cist · 68@ · R56 · R58 · R5 | R59 Rss · 22 R78 · 49
+- **Title block:** (121, 5)–(356, 225) mm: 21 · WBS · 0-005 · Lh458 · Zei · ~264 LSk · 4BS · Ri · R3tr4 · WBS · ~Bs · 4-123 · 0-005 · Sw9 · Sw · Ll · WBS · "0z · R3 · 267 · R3 · Sw · 22/25 · 235_ 22/2;_ · 2-882 WB $ · ~002 · 22/282 · FCB · Ow 
+
+Every curve, box, word and wire group: [1985 - M471A - 471-06-002 - FINIS INPUT MODULE (traced).json](1985%20-%20M471A%20-%20471-06-002%20-%20FINIS%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1985 - M471A - 471-06-002 - FINIS INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

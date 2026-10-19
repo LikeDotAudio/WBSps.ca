@@ -24,6 +24,17 @@ Wiki page: [M632](../../../PAGES/M632.md)
 - **Size:** 516,395 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 632-06-002, size B 432 × 291 mm, 2000 × 1348 px traced (0.216 mm/px)
+- **Ink extent:** 3–431 mm across, 0–285 mm up
+- **Outlines:** line 759 rings, 8,344 straight (13,993 mm) / 1,344 curved (1,433 mm); text 137 rings, 1,110 straight (955 mm) / 377 curved (437 mm); tb 49 rings, 847 straight (1,465 mm) / 266 curved (271 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.8 @ (168.4, 197.6)
+- **Words (OCR):** 27 in 25 lines: cio1 · R1oi · Q1o1 · P2 · Tioi · 9-104 PCb · Sw101 · R9 · Dsi01 · bku · Fio1 · Issu DATE
+- **Title block:** (331, 0)–(432, 49) mm: bku · Issu DATE · REvISIOH · APP: · WBS · ENG SD · M632/M6324 · CKD · POWER SUPFLY · COMPONENT LAYOUT · SCALE · ISsu · 632-06-002
+
+Every curve, box, word and wire group: [1983 - 632-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ENG MRW - ISS 2 (traced).json](1983%20-%20632-06-002%20-%20POWER%20SUPPLY%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1983 - 632-06-002 - POWER SUPPLY COMPONENT LAYOUT - DRN P. Mahoney - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

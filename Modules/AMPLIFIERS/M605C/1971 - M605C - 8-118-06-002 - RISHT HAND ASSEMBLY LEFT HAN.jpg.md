@@ -11,6 +11,17 @@ Wiki page: [M605C](../../../PAGES/M605C.md)
 - **Size:** 1,617,159 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-118-06-002, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–424 mm across, 26–306 mm up
+- **Outlines:** line 107 rings, 2,087 straight (6,663 mm) / 217 curved (222 mm); text 351 rings, 2,452 straight (2,605 mm) / 672 curved (805 mm); tb 6 rings, 150 straight (245 mm) / 13 curved (14.7 mm)
+- **Closed boxes:** 7 (4 in the title block); named: 8-118-06-002; ISSUE
+- **Words (OCR):** 38 in 32 lines: NOTE · ALL · RESISToRS ARE · 75_ · V/2 · R2oz · Rzxe · R2o3 · R2o7 · R2o4 · Rzoe · R2os
+- **Title block:** (276, 30)–(426, 101) mm: ISSUE (DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. GEB · ENG GEB 1/79 · 8-118A · ISOLATION NETWORK · CKD Ral · COMPONENT LAYOUT · APP · SCALE · 2:1 · 8-118-06-002 · ISSUE
+
+Every curve, box, word and wire group: [1971 - M605C - 8-118-06-002 - RISHT HAND ASSEMBLY LEFT HAN (traced).json](1971%20-%20M605C%20-%208-118-06-002%20-%20RISHT%20HAND%20ASSEMBLY%20LEFT%20HAN%20%28traced%29.json) (the CAD file: `1971 - M605C - 8-118-06-002 - RISHT HAND ASSEMBLY LEFT HAN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

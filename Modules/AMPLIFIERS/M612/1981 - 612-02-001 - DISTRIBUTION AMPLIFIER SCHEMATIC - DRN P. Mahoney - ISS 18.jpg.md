@@ -22,6 +22,20 @@ Wiki page: [M612](../../../PAGES/M612.md)
 - **Size:** 524,769 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 612-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px); scale LB 612-02-001
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 156 rings, 4,170 straight (10,469 mm) / 601 curved (1,089 mm); text 471 rings, 4,721 straight (6,661 mm) / 1,145 curved (2,018 mm); tb 24 rings, 217 straight (424 mm) / 26 curved (40.3 mm)
+- **Centre lines:** 4,451 paths (68 closed); straight 9,773 mm, curved 572 mm; horizontal 3,752 mm, vertical 2,386 mm, diagonal 3,636 mm
+- **Circles and arcs:** 20 circles, 27 arcs; largest r 12.1 @ (25.7, 181.3), r 12.0 @ (18.6, 232.9), r 8.1 @ (254.2, 337.1), r 2.6 @ (95.5, 355.2)
+- **Closed boxes:** 10 (7 in the title block); named: SCALE; 612-02-001; LB
+- **Words (OCR):** 72 in 61 lines: Ti · SW2 · 21 GN 80-11 OR · F2 · .25A · CRIHIA · SB oVaoo · MDA9AZA-4 · R85 - · c 30 · 2N3569 · R83
+- **Title block:** (162, 9)–(330, 121) mm: 635 · 17 · 1/78 · REDRAWN · ISSUE DATE · REVISION · WBS WARD-BECK · sys · DRN: PMAMONEY · M612 · ENG. · DISTRIBUTION · AMPLIFIE · CKD · SCHEMATIC · APP · SCALE LB 612-02-001
+- **Wiring (first pass):** 35 connected wire groups from 210 runs; labelled ends: 459 mm → MDA9AZA-4, C2s, 470, /40; 274 mm → C24, T470, J4o, 4401; 158 mm → oVaoo, SB, DSI, BN; 156 mm → 2N3569, C24, T470, J4o; 136 mm → CRIHIA, 21 GN 80-11, MDA9AZA-4, 22G0l
+
+Every curve, box, word and wire group: [1981 - 612-02-001 - DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ISS 18 (traced).json](1981%20-%20612-02-001%20-%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ISS%2018%20%28traced%29.json) (the CAD file: `1981 - 612-02-001 - DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ISS 18 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,131,531 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93044-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px); scale Disc NO;
+- **Ink extent:** 36–432 mm across, 6–246 mm up
+- **Outlines:** line 4,225 rings, 24,901 straight (31,990 mm) / 3,455 curved (4,156 mm); text 147 rings, 937 straight (944 mm) / 246 curved (328 mm); tb 34 rings, 258 straight (266 mm) / 58 curved (65.7 mm)
+- **Centre lines:** 48,463 paths (120 closed); straight 25,038 mm, curved 48.2 mm; horizontal 8,826 mm, vertical 7,940 mm, diagonal 8,272 mm
+- **Circles and arcs:** 0 circles, 18 arcs
+- **Closed boxes:** 20 (6 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 12 in 11 lines: SELECTORS · Te · ISSUL DATF · WARD-BECK  SYSTEMS · WBS · TORONTO BROADCAST CENTRE · PROPOSED  MicroCOM · FUNCTIONAL · SCALE Disc NO; · 93044-01-001 · CCDE
+- **Title block:** (343, 4)–(431, 40) mm: ISSUL DATF · WARD-BECK  SYSTEMS · WBS · TORONTO BROADCAST CENTRE · PROPOSED  MicroCOM · FUNCTIONAL · SCALE Disc NO; · 93044-01-001 · CCDE
+- **Wiring (first pass):** 202 connected wire groups from 6,030 runs; labelled ends: 50 mm → SELECTORS; 26 mm → SELECTORS; 26 mm → SELECTORS
+
+Every curve, box, word and wire group: [1993 - microCOM - DOC - 93044-01-001 - TORONTO BROADCAST CENTRE ENG PROPOSED MICROCOM FUNCTIONAL (traced).json](1993%20-%20microCOM%20-%20DOC%20-%2093044-01-001%20-%20TORONTO%20BROADCAST%20CENTRE%20ENG%20PROPOSED%20MICROCOM%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1993 - microCOM - DOC - 93044-01-001 - TORONTO BROADCAST CENTRE ENG PROPOSED MICROCOM FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

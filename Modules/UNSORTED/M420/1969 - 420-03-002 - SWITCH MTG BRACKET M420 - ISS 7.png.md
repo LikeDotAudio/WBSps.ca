@@ -27,6 +27,19 @@ Mechanical drawing of an M420 switch mounting bracket, title block at bottom rig
 
 - **1969** (month): `SEPT 69` — …EMOVE BURRS SHARP EDGES 1 Is5 MOD CKD DRN DJG 6 6631V DPATE SEPT 69 105217 / CHKD A FinISH 126 Grit CLEAR ALoDIN E MATERIAL 16…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 420-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–299 mm up
+- **Outlines:** line 319 rings, 4,779 straight (7,464 mm) / 691 curved (875 mm); text 308 rings, 2,501 straight (2,786 mm) / 702 curved (1,055 mm); tb 120 rings, 968 straight (895 mm) / 148 curved (180 mm)
+- **Centre lines:** 8,862 paths (57 closed); straight 7,514 mm, curved 47.0 mm; horizontal 2,894 mm, vertical 1,813 mm, diagonal 2,806 mm
+- **Circles and arcs:** 0 circles, 9 arcs
+- **Closed boxes:** 7; named: MOD; 03
+- **Words (OCR):** 50 in 40 lines: i8 · 318 · (TYR) · 4567 DIA · Dt · 32 · 035 RAD: · (TYp) · miq · 2 HOLES · 12 5 DIA · 2 HoLes Dia
+- **Title block:** (165, 7)–(348, 56) mm: CKD DRN DJG · FiniSh · WARD ECK · MOD · 120 Grit · pF PATE SEPT 69 CLEAR · 03 · ALoDIN E · SwItch MtG · 4052 · CHKD · MATERIAL · T6 · ALOM · SCALE · FuL SizE · 420
+
+Every curve, box, word and wire group: [1969 - 420-03-002 - SWITCH MTG BRACKET M420 - ISS 7 (traced).json](1969%20-%20420-03-002%20-%20SWITCH%20MTG%20BRACKET%20M420%20-%20ISS%207%20%28traced%29.json) (the CAD file: `1969 - 420-03-002 - SWITCH MTG BRACKET M420 - ISS 7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

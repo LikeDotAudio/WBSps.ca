@@ -32,28 +32,3 @@ tags: ["product", "metering", "2010s"]
 |---|---|---|
 | 2018 | [2018 - MLC8D - Front.jpg](../Products/METERING/MLC8D/2018%20-%20MLC8D%20-%20Front.jpg) | [note](../Products/METERING/MLC8D/2018%20-%20MLC8D%20-%20Front.jpg.md) |
 | 2018 | [2018 - MLC8D - Rear.jpg](../Products/METERING/MLC8D/2018%20-%20MLC8D%20-%20Rear.jpg) | [note](../Products/METERING/MLC8D/2018%20-%20MLC8D%20-%20Rear.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "MLC8D",
- "name": "Multi-Channel Level Control",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/MLC8D/2018 - MLC8D - Front.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MLC8D/2018 - MLC8D - Rear.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

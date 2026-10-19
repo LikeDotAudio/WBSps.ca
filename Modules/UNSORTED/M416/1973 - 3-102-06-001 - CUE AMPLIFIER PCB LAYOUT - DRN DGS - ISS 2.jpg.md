@@ -24,6 +24,16 @@ Wiki page: [M416](../../../PAGES/M416.md)
 - **Size:** 4,642,828 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 3-102-06-001, size B 432 × 183 mm, 2000 × 846 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 1–183 mm up
+- **Outlines:** line 573 rings, 4,872 straight (9,163 mm) / 1,450 curved (1,412 mm); text 134 rings, 782 straight (683 mm) / 273 curved (303 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.2 @ (85.6, 131.2), r 5.2 @ (218.9, 138.8), r 5.2 @ (118.8, 138.2), r 5.1 @ (84.1, 119.5)
+- **Closed boxes:** 44
+
+Every curve, box, word and wire group: [1973 - 3-102-06-001 - CUE AMPLIFIER PCB LAYOUT - DRN DGS - ISS 2 (traced).json](1973%20-%203-102-06-001%20-%20CUE%20AMPLIFIER%20PCB%20LAYOUT%20-%20DRN%20DGS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1973 - 3-102-06-001 - CUE AMPLIFIER PCB LAYOUT - DRN DGS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M625B](../../../PAGES/M625B.md)
 - **Size:** 2,167,548 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 117-02-001, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–432 mm up
+- **Outlines:** line 108 rings, 4,214 straight (9,170 mm) / 536 curved (998 mm); text 328 rings, 3,071 straight (3,774 mm) / 873 curved (1,448 mm)
+- **Centre lines:** 3,112 paths (38 closed); straight 7,352 mm, curved 355 mm; horizontal 2,910 mm, vertical 1,667 mm, diagonal 2,775 mm
+- **Circles and arcs:** 20 circles, 12 arcs; largest r 19.3 @ (56.8, 170.3), r 10.0 @ (233.4, 138.8), r 9.9 @ (195.5, 120.1), r 9.8 @ (156.7, 72.4)
+- **Closed boxes:** 3
+- **Words (OCR):** 68 in 64 lines: C3 · Ri6 Ri7 · 470k 27k · 1/35 · C6 · Rib Rzo · DIFADJ- · Sk · 2kt · 10/40 · Ris · ISk
+- **Wiring (first pass):** 34 connected wire groups from 210 runs; labelled ends: 497 mm → C3, 47/63, C7, 100/40; 481 mm → Ri6, 470k, Ri7, 27k; 374 mm → C6, 10/40, cr?, in4i4b; 187 mm → Cr3, IN 5366A, 39v, C5; 168 mm → R23, 330, rig, 300
+
+Every curve, box, word and wire group: [1978 - M625B - 117-02-001 - AOV SERIES CURRENT (traced).json](1978%20-%20M625B%20-%20117-02-001%20-%20AOV%20SERIES%20CURRENT%20%28traced%29.json) (the CAD file: `1978 - M625B - 117-02-001 - AOV SERIES CURRENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -12,6 +12,20 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 204,279 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 459-02-002, size B (assumed) 432 × 135 mm, 2000 × 624 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–123 mm up
+- **Outlines:** line 356 rings, 4,441 straight (7,789 mm) / 894 curved (1,117 mm); text 481 rings, 2,393 straight (1,926 mm) / 823 curved (961 mm); tb 10 rings, 94 straight (131 mm) / 15 curved (18.4 mm)
+- **Centre lines:** 6,452 paths (138 closed); straight 6,100 mm, curved 130 mm; horizontal 2,263 mm, vertical 1,773 mm, diagonal 2,063 mm
+- **Circles and arcs:** 9 circles, 15 arcs; largest r 1.8 @ (210.8, 115.8), r 1.7 @ (89.2, 116.1), r 1.7 @ (222.4, 115.6), r 1.6 @ (237.4, 115.4)
+- **Closed boxes:** 27 (16 in the title block); named: CR ?; ERa; USED Oh Hatl ISS-HOp-cKD: LTD WBS Oyotrm; LTD WBS Oyotrmd WARD-Brck; M453A SwitcheR E FfECTS SchEMATIC MoDUle
+- **Words (OCR):** 105 in 96 lines: 1[y · 'uitc · 1'7 · 301 · 409 · criz · {reo · 2812 · cr2l · 6ri4 · Rrz · 412
+- **Title block:** (66, 6)–(411, 28) mm: LOLE · USE wBS PcB 4-140 · ISS-HOp-cKD: · USED Oh · Hatl · 3423 PB · WBS WARD-Brck · DaN: seb · M453A · D Al76 · E FfECTS · SwitcheR · CKD · OWD · MoDUle · SchEMATIC
+- **Wiring (first pass):** 46 connected wire groups from 300 runs; labelled ends: 161 mm → I dal, pe $, SCAaJow; 130 mm → ri3, cr2; 118 mm → CR ?, ERa, CRA, 44601; 117 mm → 402, 30c, EFFECTS; 108 mm → 30c, EFFECTs
+
+Every curve, box, word and wire group: [1976 - M459 - 459-02-002 - PUT OUTPJT ISS-HOPCKD USED (traced).json](1976%20-%20M459%20-%20459-02-002%20-%20PUT%20OUTPJT%20ISS-HOPCKD%20USED%20%28traced%29.json) (the CAD file: `1976 - M459 - 459-02-002 - PUT OUTPJT ISS-HOPCKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -25,6 +25,20 @@ Wiki page: [M470](../../../PAGES/M470.md)
 - **Size:** 1,085,843 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 470-01-006, size B 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 4–282 mm up
+- **Outlines:** line 405 rings, 6,682 straight (15,085 mm) / 729 curved (1,051 mm); text 518 rings, 3,546 straight (3,863 mm) / 1,234 curved (1,853 mm); tb 2 rings, 24 straight (31.3 mm) / 3 curved (2.6 mm)
+- **Centre lines:** 6,362 paths (76 closed); straight 9,803 mm, curved 103 mm; horizontal 3,795 mm, vertical 2,682 mm, diagonal 3,326 mm
+- **Circles and arcs:** 4 circles, 15 arcs; largest r 3.1 @ (227.0, 200.7), r 3.1 @ (188.0, 201.9), r 3.1 @ (243.5, 99.1), r 1.5 @ (302.3, 113.2)
+- **Closed boxes:** 10 (4 in the title block)
+- **Words (OCR):** 91 in 82 lines: Mic/LINE · mic INPUT · SELECTOR · 60/-10 dBm · DIRECT OUTPUt · 150 Ohms · CONTROL · dBm BRIDGING · CoMMON · mic · MuTE · CONTROL
+- **Title block:** (283, 8)–(432, 76) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.JR/7/84 · M47oE · ENG:ELT · CKD · INPUT MODULE · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 470_01- 006
+- **Wiring (first pass):** 215 connected wire groups from 531 runs; labelled ends: 173 mm → DIRECT OUTPUt, BRIDGING; 104 mm → PEAK, INDICATOR; 100 mm → ON, FADER, (- I5dB); 97 mm → PAN, INSERT, BST, PRE/Post; 87 mm → JACKS, dBm, ON
+
+Every curve, box, word and wire group: [1984 - 470-01-006 - M470E INPUT MODULE FUNCTIONAL DIAGRAM - DRN JP - ENG ELJ - ISS 1 (traced).json](1984%20-%20470-01-006%20-%20M470E%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20JP%20-%20ENG%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 470-01-006 - M470E INPUT MODULE FUNCTIONAL DIAGRAM - DRN JP - ENG ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

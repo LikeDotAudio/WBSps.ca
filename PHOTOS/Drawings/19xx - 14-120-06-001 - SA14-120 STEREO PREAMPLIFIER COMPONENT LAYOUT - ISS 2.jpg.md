@@ -22,6 +22,18 @@ SA14-120 stereo preamplifier PCB component layout.
 - **Size:** 345,155 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 14-120-06-001, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–322 mm across, 4–375 mm up
+- **Outlines:** line 1,446 rings, 11,428 straight (13,818 mm) / 3,419 curved (3,601 mm); text 1,050 rings, 6,873 straight (6,103 mm) / 2,545 curved (2,839 mm); tb 2 rings, 59 straight (143 mm) / 3 curved (4.4 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 4.9 @ (123.6, 152.7), r 4.9 @ (123.6, 141.9), r 4.8 @ (170.8, 152.7), r 4.8 @ (170.8, 141.8)
+- **Closed boxes:** 17; named: R49 Sk [B]; Sk (8]
+- **Words (OCR):** 147 in 129 lines: SENSSTTVITY · RICHT · SENSITIVITY · EFT · HBS 10-046 · VBS 10-046 · VBS 11-152 · R49 · Sk [B] · Sk (8] · 68/40 35/16 68/40 53/16 · J2p
+- **Title block:** (207, 45)–(328, 70) mm: WBS · WARD-BECK SYSTEMS · SA14-120
+
+Every curve, box, word and wire group: [19xx - 14-120-06-001 - SA14-120 STEREO PREAMPLIFIER COMPONENT LAYOUT - ISS 2 (traced).json](19xx%20-%2014-120-06-001%20-%20SA14-120%20STEREO%20PREAMPLIFIER%20COMPONENT%20LAYOUT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 14-120-06-001 - SA14-120 STEREO PREAMPLIFIER COMPONENT LAYOUT - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

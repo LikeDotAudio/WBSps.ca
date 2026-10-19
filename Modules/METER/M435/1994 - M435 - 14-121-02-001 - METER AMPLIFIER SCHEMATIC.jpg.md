@@ -11,6 +11,20 @@ Wiki page: [M435](../../../PAGES/M435.md)
 - **Size:** 573,845 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-121-02-001, size B (assumed) 432 × 323 mm, 2000 × 1495 px traced (0.216 mm/px)
+- **Ink extent:** 3–422 mm across, 6–316 mm up
+- **Outlines:** line 123 rings, 3,122 straight (6,919 mm) / 510 curved (740 mm); text 751 rings, 6,383 straight (7,166 mm) / 1,919 curved (2,901 mm); tb 2 rings, 49 straight (138 mm) / 2 curved (3.2 mm)
+- **Centre lines:** 6,841 paths (105 closed); straight 8,658 mm, curved 226 mm; horizontal 2,569 mm, vertical 2,213 mm, diagonal 3,876 mm
+- **Circles and arcs:** 18 circles, 26 arcs; largest r 2.0 @ (378.6, 295.0), r 2.0 @ (378.6, 283.6), r 1.7 @ (207.0, 169.8), r 1.7 @ (378.7, 294.8)
+- **Closed boxes:** 1; named: U2
+- **Words (OCR):** 162 in 136 lines: CAL · 22P · Cw · R16 · R20 · 43k · R17 · METER DRIVE · s0k · Jok U1B · P1 · R3
+- **Title block:** (291, 35)–(413, 54) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 54 connected wire groups from 260 runs; labelled ends: 247 mm → 22/25, R23, R24, 470k; 201 mm → R3, 15k, R13, sk; 190 mm → LM31ZLZ, R25, CRI, 1N4OO3; 170 mm → R5, 270k, sk, 15k; 157 mm → LM31ZLZ, R25, +22v, R26
+
+Every curve, box, word and wire group: [1994 - M435 - 14-121-02-001 - METER AMPLIFIER SCHEMATIC (traced).json](1994%20-%20M435%20-%2014-121-02-001%20-%20METER%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1994 - M435 - 14-121-02-001 - METER AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

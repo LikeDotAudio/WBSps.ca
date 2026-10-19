@@ -11,6 +11,16 @@ Wiki page: [M497D](../../../PAGES/M497D.md)
 - **Size:** 243,491 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 497-04-007, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–309 mm across, 16–425 mm up
+- **Outlines:** line 33 rings, 429 straight (1,240 mm) / 43 curved (63.8 mm); text 342 rings, 1,950 straight (2,101 mm) / 723 curved (1,052 mm); tb 190 rings, 1,429 straight (3,224 mm) / 213 curved (329 mm)
+- **Words (OCR):** 40 in 22 lines: WBS · M4970 · RIGHT CHANNEL level controi R44: · Determinos output level · Right Channel outouts_ · Space Tor · designation_ · channel   identification · LEFT CHANNEL level · control R42: · Determines output level · Left Channel outputs_
+- **Title block:** (140, 43)–(316, 321) mm: WBS · M4970 · RIGHT CHANNEL level controi R44: · Determinos output level · Right Channel outouts_ · LEFT CHANNEL level · control R42: · Determines output level · Left Channel outputs_ · WES WARD-BECK 
+
+Every curve, box, word and wire group: [1978 - M497D - 497-04-007 - SPACE FOR CHANNEL IDENTIFICATION DESIGNATION (traced).json](1978%20-%20M497D%20-%20497-04-007%20-%20SPACE%20FOR%20CHANNEL%20IDENTIFICATION%20DESIGNATION%20%28traced%29.json) (the CAD file: `1978 - M497D - 497-04-007 - SPACE FOR CHANNEL IDENTIFICATION DESIGNATION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

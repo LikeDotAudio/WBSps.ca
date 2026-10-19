@@ -11,6 +11,20 @@ Wiki page: [M463AC](../../../PAGES/M463AC.md)
 - **Size:** 798,903 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-020, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–424 mm up
+- **Outlines:** line 228 rings, 5,011 straight (10,472 mm) / 696 curved (1,022 mm); text 551 rings, 4,337 straight (4,447 mm) / 1,351 curved (2,096 mm); tb 16 rings, 192 straight (280 mm) / 39 curved (53.3 mm)
+- **Centre lines:** 5,329 paths (66 closed); straight 8,833 mm, curved 210 mm; horizontal 3,828 mm, vertical 2,158 mm, diagonal 2,847 mm
+- **Circles and arcs:** 4 circles, 61 arcs; largest r 0.9 @ (211.4, 180.5), r 0.9 @ (128.9, 191.6), r 0.9 @ (211.6, 275.0), r 0.9 @ (211.3, 155.6)
+- **Closed boxes:** 16 (6 in the title block)
+- **Words (OCR):** 116 in 97 lines: +21v ~21v · ER · Rt) 263 257 · R+5 2.2 · 252 254 · IC DIRECT · OUT · R46 2.2 · 0-I09F · +8480 C03r · BOOstER · Amplifier
+- **Title block:** (224, 1)–(335, 60) mm: Issu IDatE · REYISIOH · WES · WARD-BECK SYSTEMB · [.4M318 · Datt. · AM · M463 Ac · MASTER MODULE · CKD: · SCHEMATIC · SCAU · ISSUE · 463-02-020
+- **Wiring (first pass):** 72 connected wire groups from 262 runs; labelled ends: 458 mm → Rzc, iki, R28, 330; 363 mm → R28, 330, sw3; 242 mm → R+5 2.2, R46 2.2, 257, 254; 141 mm → 5w7, swa, SwS, R52; 104 mm → R3b, ZkS, SwS
+
+Every curve, box, word and wire group: [1986 - M463AC - 463-02-020 - MASTER MODULE SCHEMATIC FONU (traced).json](1986%20-%20M463AC%20-%20463-02-020%20-%20MASTER%20MODULE%20SCHEMATIC%20FONU%20%28traced%29.json) (the CAD file: `1986 - M463AC - 463-02-020 - MASTER MODULE SCHEMATIC FONU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

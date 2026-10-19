@@ -11,6 +11,18 @@ Wiki page: [M435](../../../PAGES/M435.md)
 - **Size:** 354,734 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-121-06-001, size B (assumed) 432 × 312 mm, 2000 × 1446 px traced (0.216 mm/px)
+- **Ink extent:** 3–425 mm across, 2–298 mm up
+- **Outlines:** line 379 rings, 4,500 straight (7,366 mm) / 1,021 curved (1,320 mm); text 438 rings, 3,880 straight (4,224 mm) / 1,164 curved (1,367 mm); tb 55 rings, 750 straight (1,037 mm) / 188 curved (227 mm)
+- **Circles and arcs:** 113 circles, 0 arcs; largest r 4.6 @ (320.7, 266.9), r 2.7 @ (314.5, 180.7), r 2.7 @ (302.9, 180.8), r 2.7 @ (297.2, 175.0)
+- **Closed boxes:** 9; named: WBS R17 CAL CANADA SW1 50k SENS 14-121 I
+- **Words (OCR):** 39 in 35 lines: SENSITMTY STRAP · 150 OHMS · 600 OHMS · WBS · R17 · CAL · CANADA · SW1 · SENS · 50k · OdBm · 14-121
+- **Title block:** (341, 30)–(432, 288) mm: WBS · R17 · CAL · CANADA · 14-121 · ISSUE 3 · P2 · 22/25 · +22/25 · C8 · 10/25 · 22228 · WES WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - M435 - 14-121-06-001 - METER AMPLIFIER COMPONENT (traced).json](1994%20-%20M435%20-%2014-121-06-001%20-%20METER%20AMPLIFIER%20COMPONENT%20%28traced%29.json) (the CAD file: `1994 - M435 - 14-121-06-001 - METER AMPLIFIER COMPONENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

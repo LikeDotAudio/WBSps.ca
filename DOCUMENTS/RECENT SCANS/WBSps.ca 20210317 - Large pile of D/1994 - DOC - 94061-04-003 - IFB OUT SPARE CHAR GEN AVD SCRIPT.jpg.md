@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,113,594 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94061-04-003, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 46–423 mm across, 7–234 mm up
+- **Outlines:** line 702 rings, 5,138 straight (16,462 mm) / 894 curved (1,376 mm); text 111 rings, 679 straight (758 mm) / 201 curved (264 mm); tb 16 rings, 133 straight (164 mm) / 46 curved (53.0 mm)
+- **Circles and arcs:** 31 circles, 0 arcs; largest r 3.4 @ (194.7, 91.6), r 3.4 @ (131.0, 91.8), r 3.4 @ (99.2, 91.8), r 3.4 @ (258.4, 91.5)
+- **Closed boxes:** 48 (3 in the title block); named: SPARE SCRIT; SPARE SCRIT; SPARE SCRIT; CBC REGIONAL ENGINEERING IFB MATRIX FRAM; 94061-04-003; NTS; ccof
+- **Words (OCR):** 11 in 9 lines: SPARE · SCRIT · WBS · WARD-BECK SYSTEMS · CBC REGIONAL ENGINEERING · IFB MATRIX FRAME · LAYOUT · NTS ccof · 94061-04-003
+- **Title block:** (344, 23)–(428, 40) mm: WBS · WARD-BECK SYSTEMS · CBC REGIONAL ENGINEERING
+
+Every curve, box, word and wire group: [1994 - DOC - 94061-04-003 - IFB OUT SPARE CHAR GEN AVD SCRIPT (traced).json](1994%20-%20DOC%20-%2094061-04-003%20-%20IFB%20OUT%20SPARE%20CHAR%20GEN%20AVD%20SCRIPT%20%28traced%29.json) (the CAD file: `1994 - DOC - 94061-04-003 - IFB OUT SPARE CHAR GEN AVD SCRIPT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

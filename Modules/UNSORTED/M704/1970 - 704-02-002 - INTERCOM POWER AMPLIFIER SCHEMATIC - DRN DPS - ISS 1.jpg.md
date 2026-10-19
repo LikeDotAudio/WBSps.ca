@@ -24,6 +24,20 @@ Wiki page: [M704](../../../PAGES/M704.md)
 - **Size:** 4,295,450 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 704-02-002, size B 432 × 137 mm, 2000 × 633 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–137 mm up
+- **Outlines:** line 1,279 rings, 9,734 straight (12,925 mm) / 1,726 curved (2,049 mm); text 59 rings, 320 straight (289 mm) / 77 curved (94.2 mm)
+- **Centre lines:** 7,448 paths (199 closed); straight 7,242 mm, curved 155 mm; horizontal 2,754 mm, vertical 2,080 mm, diagonal 2,408 mm
+- **Circles and arcs:** 6 circles, 18 arcs; largest r 3.6 @ (293.6, 97.1), r 3.5 @ (342.3, 121.7), r 3.4 @ (351.4, 111.5), r 0.9 @ (395.9, 7.7)
+- **Closed boxes:** 7
+- **Dots (junctions):** 8
+- **Words (OCR):** 15 in 15 lines: 08 · 80 · Mat ? · L46t · OuIPUT · CKN # · ONLY · CKiE · MERD · NFUT · LID · ENE
+- **Wiring (first pass):** 93 connected wire groups from 573 runs, 3 dotted junctions; labelled ends: 122 mm → CHRDI; 73 mm → 80; 66 mm → OuIPUT; 38 mm → MERD; 29 mm → CKiE, MERD
+
+Every curve, box, word and wire group: [1970 - 704-02-002 - INTERCOM POWER AMPLIFIER SCHEMATIC - DRN DPS - ISS 1 (traced).json](1970%20-%20704-02-002%20-%20INTERCOM%20POWER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1970 - 704-02-002 - INTERCOM POWER AMPLIFIER SCHEMATIC - DRN DPS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

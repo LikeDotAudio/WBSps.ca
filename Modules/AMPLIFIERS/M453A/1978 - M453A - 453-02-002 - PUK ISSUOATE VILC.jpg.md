@@ -11,6 +11,21 @@ Wiki page: [M453A](../../../PAGES/M453A.md)
 - **Size:** 379,244 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 453-02-002, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 27–432 mm across, 0–276 mm up
+- **Outlines:** line 902 rings, 8,195 straight (12,563 mm) / 1,999 curved (2,325 mm); text 301 rings, 1,871 straight (1,691 mm) / 625 curved (768 mm); tb 18 rings, 172 straight (198 mm) / 37 curved (42.4 mm)
+- **Centre lines:** 9,883 paths (248 closed); straight 8,760 mm, curved 215 mm; horizontal 3,077 mm, vertical 2,139 mm, diagonal 3,544 mm
+- **Circles and arcs:** 2 circles, 59 arcs; largest r 3.2 @ (303.6, 37.7), r 3.1 @ (324.6, 42.1)
+- **Closed boxes:** 18 (3 in the title block); named: CD 4016; L016
+- **Dots (junctions):** 2
+- **Words (OCR):** 43 in 36 lines: NOTES · ALX REsistcR: · ARE · AND ALL · CAPACiT Rs ARE · UNLESS Designated · Otherivise · LAST COMPONENiT {1E- · SignaTiON · cz,cr9 · 04,R5+,74 · Use PCB 7-09
+- **Title block:** (358, 16)–(432, 32) mm: WBS WARD-DeCK byateMS
+- **Wiring (first pass):** 89 connected wire groups from 708 runs; labelled ends: 307 mm → L016; 217 mm → Ri; 158 mm → 2N4569, 359, gi, Sins; 106 mm → 3683, WARD-DeCK byateMS; 69 mm → Iw
+
+Every curve, box, word and wire group: [1978 - M453A - 453-02-002 - PUK ISSUOATE VILC (traced).json](1978%20-%20M453A%20-%20453-02-002%20-%20PUK%20ISSUOATE%20VILC%20%28traced%29.json) (the CAD file: `1978 - M453A - 453-02-002 - PUK ISSUOATE VILC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

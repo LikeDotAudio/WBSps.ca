@@ -1,0 +1,197 @@
+{
+ "code": "M402A",
+ "name": "Spec Sheet",
+ "derived": true,
+ "variant_of": "M402B",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "EQ IN LEFT",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "EQ IN RIGHT",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "EQ IN LEFT",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "EQ OUT LEFT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "EQ OUT LEFT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "+48 V",
+   "kind": "power",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M402B/M402B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

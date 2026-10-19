@@ -22,6 +22,19 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 1,603,069 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-001, size B (assumed) 432 × 148 mm, 2000 × 683 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–144 mm up
+- **Outlines:** line 1,043 rings, 12,845 straight (16,011 mm) / 2,627 curved (3,254 mm); text 201 rings, 1,346 straight (1,125 mm) / 492 curved (592 mm)
+- **Centre lines:** 15,220 paths (151 closed); straight 11,986 mm, curved 244 mm; horizontal 4,595 mm, vertical 3,048 mm, diagonal 4,344 mm
+- **Circles and arcs:** 2 circles, 88 arcs; largest r 1.0 @ (143.7, 70.6), r 0.8 @ (423.0, 97.7)
+- **Closed boxes:** 88; named: (715)
+- **Words (OCR):** 48 in 46 lines: 0548 For · Je4I · zzh5v · Level · 40 dem · Mi_-M2 · 225v · ASm( · h6l 4o/04 · 3,r · ATt · Righ Level
+- **Wiring (first pass):** 112 connected wire groups from 1,069 runs; labelled ends: 1129 mm → 4o/04, Mi_-M2, h6l; 601 mm → RSIBUs>, Au 2 /R52, ~iodBm, FB Buss; 482 mm → 2508m1; 146 mm → ATt, ASm(, HF, 22n5v 'Ck; 54 mm → LTD
+
+Every curve, box, word and wire group: [1973 - 73050-02-001 - AUDIO CONSOLE INPUT & OUTPUT SCHEMATIC - DRN PC - ISS 1 (traced).json](1973%20-%2073050-02-001%20-%20AUDIO%20CONSOLE%20INPUT%20%26%20OUTPUT%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-001 - AUDIO CONSOLE INPUT & OUTPUT SCHEMATIC - DRN PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

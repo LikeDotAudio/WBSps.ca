@@ -23,6 +23,20 @@ Wiki page: [L1202A](../../../PAGES/L1202A.md)
 - **Size:** 359,460 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-001-02-001, size B 432 × 275 mm, 2000 × 1274 px traced (0.216 mm/px)
+- **Ink extent:** 22–432 mm across, 0–275 mm up
+- **Outlines:** line 183 rings, 4,093 straight (8,299 mm) / 649 curved (974 mm); text 401 rings, 3,093 straight (3,568 mm) / 939 curved (1,432 mm); tb 16 rings, 201 straight (323 mm) / 37 curved (52.6 mm)
+- **Centre lines:** 4,110 paths (83 closed); straight 7,048 mm, curved 310 mm; horizontal 2,532 mm, vertical 1,816 mm, diagonal 2,701 mm
+- **Circles and arcs:** 29 circles, 26 arcs; largest r 1.5 @ (153.2, 176.1), r 1.4 @ (186.4, 115.1), r 1.4 @ (254.7, 125.3), r 1.4 @ (225.5, 129.7)
+- **Closed boxes:** 9 (6 in the title block); named: WAS 7SKn Rz Ri3
+- **Words (OCR):** 70 in 62 lines: NTE?: · ALL RESISTORS Vaw · 590 · 2LAST COMPONENT DESIGNATIONS: · R19 · CINE SELECTOR · NPUTS · R14 · R15 · R16 · R17 · R1b
+- **Title block:** (286, 2)–(432, 69) mm: OUTPUT · Rz Ri3 · WAS 7SKn · ISSUE |DATE · REVISION · APP: · WARD-BECK systeMB · WBS · DRNP Mclevy · 14-001 · ENG. Mew Mr · CUE LINE · SELECTUR · CKD · SCHEMATIC · APP · SCALE · JISSUE · 14-001-02-001
+- **Wiring (first pass):** 56 connected wire groups from 281 runs; labelled ends: 158 mm → 62k, RZk; 122 mm → Rs; 106 mm → ISSUE |DATE, WARD-BECK; 92 mm → Sw6; 74 mm → NPUTS, RZk
+
+Every curve, box, word and wire group: [1980 - 14-001-02-001 - 14-001 CUE LINE SELECTOR SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 2 (traced).json](1980%20-%2014-001-02-001%20-%2014-001%20CUE%20LINE%20SELECTOR%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1980 - 14-001-02-001 - 14-001 CUE LINE SELECTOR SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -20,6 +20,18 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 361,077 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-046, size D 864 × 556 mm, 2000 × 1288 px traced (0.432 mm/px)
+- **Ink extent:** 105–861 mm across, 17–526 mm up
+- **Outlines:** line 475 rings, 3,298 straight (16,456 mm) / 704 curved (2,436 mm); text 219 rings, 1,251 straight (2,469 mm) / 411 curved (1,079 mm)
+- **Centre lines:** 5,057 paths (103 closed); straight 10,919 mm, curved 949 mm; horizontal 5,853 mm, vertical 2,146 mm, diagonal 2,920 mm
+- **Circles and arcs:** 15 circles, 22 arcs; largest r 12.8 @ (293.9, 266.4), r 12.8 @ (180.0, 264.9), r 12.8 @ (369.6, 267.7), r 12.8 @ (407.9, 267.9)
+- **Closed boxes:** 25; named: WARD-BECK SYSTEMS WB3S; TRANSFORMERS 1OX(60-3) BRACKET; 900-03-046; 9000+6
+- **Words (OCR):** 20 in 19 lines: 0.140 DA · FITCHES · CAAMFFR 0.05 · DEATL · ALUM ALLOY 080 ThiCK. · MATERIAL: · 0.25 CaloNG · FINISH: · SAND 120 GRIT AND PAINT · DETAIL · TEXCOTE VNYL. · TEXTURED BROWN (438C)
+
+Every curve, box, word and wire group: [19xx - 900-03-046 - TRANSFORMERS 10X(60-3) BRACKET - ISS 1 (traced).json](19xx%20-%20900-03-046%20-%20TRANSFORMERS%2010X%2860-3%29%20BRACKET%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-046 - TRANSFORMERS 10X(60-3) BRACKET - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

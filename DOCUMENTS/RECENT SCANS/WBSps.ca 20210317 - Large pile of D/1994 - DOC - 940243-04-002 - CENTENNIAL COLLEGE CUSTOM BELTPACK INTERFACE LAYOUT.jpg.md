@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,693,349 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940243-04-002, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 64–422 mm across, 7–217 mm up
+- **Outlines:** line 641 rings, 4,491 straight (12,369 mm) / 952 curved (1,549 mm); text 132 rings, 851 straight (901 mm) / 254 curved (339 mm); tb 17 rings, 152 straight (177 mm) / 35 curved (40.0 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 4.3 @ (212.5, 90.9), r 4.3 @ (143.3, 90.7), r 4.2 @ (240.1, 91.0), r 4.2 @ (267.8, 91.0)
+- **Closed boxes:** 36 (3 in the title block); named: CENTENNIAL COLLEGE cuSTOM BELTPACK  INTE; DSC NO; 940243-04-002; CDDE 94245102
+- **Words (OCR):** 12 in 12 lines: FRONT VEW · STSTEU · REAR VIEW · WBS · WARD- · BECK SYSTEMS · CENTENNIAL COLLEGE · cuSTOM BELTPACK  INTERFACE · LAYOUT · DSC NO · CDDE 94245102 · 940243-04-002
+- **Title block:** (344, 22)–(428, 39) mm: WBS · WARD- · BECK SYSTEMS · CENTENNIAL COLLEGE
+
+Every curve, box, word and wire group: [1994 - DOC - 940243-04-002 - CENTENNIAL COLLEGE CUSTOM BELTPACK INTERFACE LAYOUT (traced).json](1994%20-%20DOC%20-%20940243-04-002%20-%20CENTENNIAL%20COLLEGE%20CUSTOM%20BELTPACK%20INTERFACE%20LAYOUT%20%28traced%29.json) (the CAD file: `1994 - DOC - 940243-04-002 - CENTENNIAL COLLEGE CUSTOM BELTPACK INTERFACE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

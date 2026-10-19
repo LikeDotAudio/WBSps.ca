@@ -20,6 +20,19 @@ Wiki page: [Job-940184](../../../PAGES/Job-940184.md)
 - **Size:** 376,641 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940184-03-006, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 80–864 mm across, 15–471 mm up
+- **Outlines:** line 318 rings, 3,279 straight (15,849 mm) / 527 curved (1,269 mm); text 235 rings, 1,421 straight (2,728 mm) / 491 curved (1,249 mm); tb 14 rings, 137 straight (322 mm) / 24 curved (57.9 mm)
+- **Centre lines:** 5,416 paths (106 closed); straight 11,484 mm, curved 18.3 mm; horizontal 4,439 mm, vertical 2,698 mm, diagonal 4,348 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 24 (4 in the title block); named: TURRET BASE (MEDIUM)
+- **Words (OCR):** 28 in 22 lines: SUAFACES · MATERIAL CRS · THICK · MATERIAL: C,R.S 0.105 THICK . · 1007 · 0.756 · 6.2J0 · REC'D · MATERIAL: SEE BODY OF DRAWING, · FINISH: SAND · EXIURED BROWN (438C) · 120 Grit AND PAINT
+- **Title block:** (672, 37)–(851, 79) mm: REVSD · WBS WARD-BECK  SYSTEMS · DRN: · TURRET BASE · (MEDIUM)
+
+Every curve, box, word and wire group: [1994 - 940184-03-006 - TURRET BASE (MEDIUM) - DRN DRG - ISS 1 (traced).json](1994%20-%20940184-03-006%20-%20TURRET%20BASE%20%28MEDIUM%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940184-03-006 - TURRET BASE (MEDIUM) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

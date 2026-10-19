@@ -25,6 +25,19 @@ Mechanical drawing of an escutcheon drilling detail, title block at bottom right
 - **Size:** 1,480,110 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 424-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 344 rings, 6,613 straight (10,911 mm) / 1,046 curved (1,560 mm); text 497 rings, 3,823 straight (4,224 mm) / 1,090 curved (1,711 mm); tb 54 rings, 537 straight (435 mm) / 117 curved (137 mm)
+- **Centre lines:** 10,769 paths (126 closed); straight 10,272 mm, curved 302 mm; horizontal 3,806 mm, vertical 2,464 mm, diagonal 4,002 mm
+- **Circles and arcs:** 4 circles, 25 arcs; largest r 11.4 @ (136.8, 170.8), r 10.9 @ (94.7, 169.8), r 4.7 @ (136.8, 170.8), r 1.0 @ (128.6, 42.0)
+- **Closed boxes:** 3; named: TOLs
+- **Words (OCR):** 85 in 60 lines: 6.62 · 4,500 · 3.416 · TAP 8-32 UNC · DRicL $ · CsK 828 To · 250 LIA · 1,625 · 53 · HOLES · 1.062 · 3.350
+- **Title block:** (258, 22)–(377, 61) mm: MnaRd BECK · OR · ESCUTCHEON · Date · 30 OCT · DRILLING DETAIL · 0.0}
+
+Every curve, box, word and wire group: [1971 - 424-03-001 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 7 (traced).json](1971%20-%20424-03-001%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%207%20%28traced%29.json) (the CAD file: `1971 - 424-03-001 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

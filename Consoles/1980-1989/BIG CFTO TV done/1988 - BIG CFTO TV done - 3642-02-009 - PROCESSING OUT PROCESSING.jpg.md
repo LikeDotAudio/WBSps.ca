@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,135,536 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-009, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–431 mm up
+- **Outlines:** line 462 rings, 4,580 straight (10,660 mm) / 656 curved (895 mm); text 157 rings, 1,248 straight (1,418 mm) / 447 curved (612 mm)
+- **Centre lines:** 3,227 paths (58 closed); straight 6,663 mm, curved 189 mm; horizontal 3,122 mm, vertical 2,202 mm, diagonal 1,339 mm
+- **Circles and arcs:** 1 circles, 35 arcs; largest r 0.9 @ (206.9, 105.0)
+- **Closed boxes:** 9; named: PROCESSING MODULE; PROCESSING MODULE; PROCESSING MODULE #12; PROCESSING MODULE #11
+- **Words (OCR):** 29 in 24 lines: 620 · 620 · 15.16 PROCESSING · OUT · 15.16 PROCESSING · MODULE · MODULE · 1213 · (GR METER) · 12.13 · 512 · 620
+- **Wiring (first pass):** 125 connected wire groups from 483 runs; labelled ends: 2020 mm → 15.16; 1028 mm → 512, T12, 15.16; 8 mm → 620; 7 mm → 620; 7 mm → 512, 620
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-009 - PROCESSING OUT PROCESSING (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-009%20-%20PROCESSING%20OUT%20PROCESSING%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-009 - PROCESSING OUT PROCESSING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

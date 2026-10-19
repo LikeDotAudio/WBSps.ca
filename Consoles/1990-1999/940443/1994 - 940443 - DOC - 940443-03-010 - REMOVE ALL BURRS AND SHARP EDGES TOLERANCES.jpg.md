@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,004,439 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940443-03-010, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 36–424 mm across, 7–251 mm up
+- **Outlines:** line 857 rings, 6,223 straight (13,945 mm) / 1,377 curved (2,123 mm); text 310 rings, 1,629 straight (1,462 mm) / 588 curved (700 mm); tb 14 rings, 126 straight (163 mm) / 25 curved (26.1 mm)
+- **Centre lines:** 10,038 paths (238 closed); straight 9,452 mm, curved 524 mm; horizontal 4,152 mm, vertical 1,793 mm, diagonal 3,507 mm
+- **Circles and arcs:** 8 circles, 23 arcs; largest r 64.2 @ (101.3, 82.4), r 3.2 @ (177.7, 210.6), r 3.2 @ (190.4, 210.6), r 3.2 @ (177.7, 203.4)
+- **Closed boxes:** 20 (4 in the title block); named: IKR-4A PANEL; EC; 940443-03-010; CooE: 94443410
+- **Dots (junctions):** 2
+- **Words (OCR):** 43 in 40 lines: I6./I0 · PUNC 0 J80 · RREQE · 80,04 RAD · 0,200 · 0.172 DIPEMILF 04002,DP OTHER · INSERE · 0,510 · "REC D · 0.540 · 0-592 · 1.719
+- **Title block:** (344, 23)–(429, 44) mm: Sir · Issue DALE · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940443 - DOC - 940443-03-010 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20940443%20-%20DOC%20-%20940443-03-010%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - 940443 - DOC - 940443-03-010 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

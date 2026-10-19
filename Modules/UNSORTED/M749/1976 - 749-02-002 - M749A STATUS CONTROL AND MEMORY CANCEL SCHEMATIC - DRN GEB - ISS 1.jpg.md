@@ -23,6 +23,21 @@ Wiki page: [M749](../../../PAGES/M749.md)
 - **Size:** 1,438,232 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 749-02-002, size B 432 × 140 mm, 2000 × 650 px traced (0.216 mm/px)
+- **Ink extent:** 1–430 mm across, 0–138 mm up
+- **Outlines:** line 729 rings, 5,648 straight (10,487 mm) / 1,231 curved (1,540 mm); text 441 rings, 2,191 straight (1,883 mm) / 766 curved (941 mm); tb 23 rings, 177 straight (216 mm) / 40 curved (42.5 mm)
+- **Centre lines:** 7,365 paths (205 closed); straight 7,630 mm, curved 52.5 mm; horizontal 3,190 mm, vertical 1,617 mm, diagonal 2,822 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 0.9 @ (161.4, 69.4), r 0.7 @ (238.1, 110.7)
+- **Closed boxes:** 26 (9 in the title block); named: M74sk STATUS schemitic Vikory
+- **Dots (junctions):** 1
+- **Words (OCR):** 66 in 64 lines: 33 · RESISTER · status READ · StATUS · 7404 · LINE FRCM · MEMORY CARDS · READ · LINE · 459 · 3ke · REGiSTeR
+- **Title block:** (291, 11)–(385, 29) mm: MOD CKD · USED ON · WBS · DATE · CEE
+- **Wiring (first pass):** 62 connected wire groups from 483 runs; labelled ends: 176 mm → 7422; 107 mm → 459, 24 75 %; 91 mm → 7400, 7498, 7404; 87 mm → 33, MEMORY CARDS; 87 mm → CoMMon, 2242
+
+Every curve, box, word and wire group: [1976 - 749-02-002 - M749A STATUS CONTROL AND MEMORY CANCEL SCHEMATIC - DRN GEB - ISS 1 (traced).json](1976%20-%20749-02-002%20-%20M749A%20STATUS%20CONTROL%20AND%20MEMORY%20CANCEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 749-02-002 - M749A STATUS CONTROL AND MEMORY CANCEL SCHEMATIC - DRN GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

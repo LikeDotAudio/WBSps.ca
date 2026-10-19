@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,146,511 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-011, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 1–305 mm across, 0–432 mm up
+- **Outlines:** line 462 rings, 4,542 straight (10,467 mm) / 771 curved (1,094 mm); text 183 rings, 1,096 straight (1,269 mm) / 397 curved (547 mm)
+- **Centre lines:** 3,377 paths (79 closed); straight 6,447 mm, curved 225 mm; horizontal 2,188 mm, vertical 2,850 mm, diagonal 1,409 mm
+- **Circles and arcs:** 17 circles, 38 arcs; largest r 3.7 @ (4.1, 253.4), r 3.6 @ (4.4, 141.7), r 3.5 @ (3.9, 30.9), r 1.5 @ (256.5, 124.7)
+- **Closed boxes:** 23
+- **Wiring (first pass):** 34 connected wire groups from 500 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-011 - NQIES POWER SUPPLIES AND ARE WIRED IDENTICALLY (traced).json](1988%20-%20880134%20-%203642-02-011%20-%20NQIES%20POWER%20SUPPLIES%20AND%20ARE%20WIRED%20IDENTICALLY%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-011 - NQIES POWER SUPPLIES AND ARE WIRED IDENTICALLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

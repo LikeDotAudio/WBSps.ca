@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,266,779 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-013, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–302 mm up
+- **Outlines:** line 286 rings, 3,068 straight (6,853 mm) / 598 curved (915 mm); text 153 rings, 916 straight (984 mm) / 325 curved (471 mm)
+- **Centre lines:** 2,117 paths (61 closed); straight 4,270 mm, curved 304 mm; horizontal 1,898 mm, vertical 1,205 mm, diagonal 1,166 mm
+- **Circles and arcs:** 17 circles, 41 arcs; largest r 2.2 @ (373.4, 54.3), r 1.7 @ (372.9, 80.2), r 1.6 @ (341.9, 61.3), r 1.6 @ (355.7, 38.0)
+- **Closed boxes:** 18
+- **Wiring (first pass):** 36 connected wire groups from 346 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-013 - OSCILLATOR SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-013%20-%20OSCILLATOR%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-013 - OSCILLATOR SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

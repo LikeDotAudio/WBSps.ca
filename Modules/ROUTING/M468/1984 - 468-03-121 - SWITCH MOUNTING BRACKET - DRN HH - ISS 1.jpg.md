@@ -25,6 +25,19 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 1,318,780 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 468-03-121, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 193 rings, 3,160 straight (8,737 mm) / 402 curved (663 mm); text 268 rings, 2,212 straight (2,728 mm) / 640 curved (955 mm); tb 15 rings, 107 straight (244 mm) / 30 curved (37.2 mm)
+- **Centre lines:** 4,056 paths (39 closed); straight 6,806 mm, curved 116 mm; horizontal 3,553 mm, vertical 1,398 mm, diagonal 1,855 mm
+- **Circles and arcs:** 4 circles, 5 arcs; largest r 4.6 @ (145.5, 100.0), r 4.5 @ (177.7, 100.1), r 4.5 @ (111.8, 99.7), r 1.2 @ (65.8, 71.3)
+- **Closed boxes:** 9 (8 in the title block); named: ISSUE
+- **Words (OCR):** 38 in 34 lines: 960 · "2-S6 THD · 4.724 · 2 PLACES · NQTE: · REMOVE ALLBLRRS &SHARP · EDGES · MATL; 064 ALUMALLOX · 400_.675 · EIISH: SANB_RQ_SRLL · CLEARALQDLNE · 390 DIA . ~4 PLACES
+- **Title block:** (278, 13)–(432, 82) mm: ISSUE (DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: Hh · switch · ENG · Mounting · CKD ERHEY · BRAckET · APP · SCALE · ISSUE · '015 · 468-03 -12i
+
+Every curve, box, word and wire group: [1984 - 468-03-121 - SWITCH MOUNTING BRACKET - DRN HH - ISS 1 (traced).json](1984%20-%20468-03-121%20-%20SWITCH%20MOUNTING%20BRACKET%20-%20DRN%20HH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 468-03-121 - SWITCH MOUNTING BRACKET - DRN HH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -31,21 +31,3 @@ _What it is made of and what it is part of._
 | Year | File |  |
 |---|---|---|
 | 1975 | [1975 - M405PSS - file.dwg](../Modules/METER/M405PSS/1975%20-%20M405PSS%20-%20file.dwg) | [note](../Modules/METER/M405PSS/1975%20-%20M405PSS%20-%20file.dwg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "M405PSS",
- "category": "METER",
- "year": 1975,
- "documents": [
-  {
-   "file": "Modules/METER/M405PSS/1975 - M405PSS - file.dwg",
-   "year": 1975,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

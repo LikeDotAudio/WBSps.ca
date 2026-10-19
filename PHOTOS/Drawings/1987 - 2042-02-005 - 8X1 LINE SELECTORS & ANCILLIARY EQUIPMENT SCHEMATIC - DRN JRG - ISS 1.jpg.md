@@ -21,6 +21,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 3,674,720 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 2042-02-005, size B (assumed) 432 × 144 mm, 2000 × 667 px traced (0.216 mm/px)
+- **Ink extent:** 53–422 mm across, 5–129 mm up
+- **Outlines:** line 536 rings, 4,539 straight (6,625 mm) / 1,023 curved (1,215 mm); text 145 rings, 1,110 straight (1,137 mm) / 284 curved (355 mm); tb 3 rings, 40 straight (90.5 mm) / 5 curved (9.1 mm)
+- **Centre lines:** 8,973 paths (108 closed); straight 5,590 mm, curved 102 mm; horizontal 2,031 mm, vertical 1,360 mm, diagonal 2,200 mm
+- **Circles and arcs:** 0 circles, 41 arcs
+- **Closed boxes:** 14 (1 in the title block); named: 449B BXI_STEREQ SELECICR; KODULE; 35504 KODULE; BXI LINE SELECTORS ANCILLIARY EQUIPMENT ; 2042-02-005; CCOE; 20+2sn5
+- **Words (OCR):** 22 in 20 lines: UFTFR · KODULE · UNITS) · SELECICE · Mohitor · 449B · BXI_STEREQ · SELECICR · 35504 · KODULE · SETS · WBS
+- **Title block:** (344, 25)–(428, 37) mm: WBS · WARD-BECK   SYSTEMS
+- **Wiring (first pass):** 74 connected wire groups from 463 runs; labelled ends: 162 mm → WBS, SCAL, ANCILLIARY EQUIPMENT, 2042-02-005; 64 mm → WARD-BECK   SYSTEMS, WBS; 9 mm → KODULE; 9 mm → KODULE; 8 mm → KODULE
+
+Every curve, box, word and wire group: [1987 - 2042-02-005 - 8X1 LINE SELECTORS & ANCILLIARY EQUIPMENT SCHEMATIC - DRN JRG - ISS 1 (traced).json](1987%20-%202042-02-005%20-%208X1%20LINE%20SELECTORS%20%26%20ANCILLIARY%20EQUIPMENT%20SCHEMATIC%20-%20DRN%20JRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 2042-02-005 - 8X1 LINE SELECTORS & ANCILLIARY EQUIPMENT SCHEMATIC - DRN JRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

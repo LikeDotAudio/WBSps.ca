@@ -22,6 +22,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 2,971,736 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-005, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 853 rings, 7,216 straight (23,257 mm) / 1,226 curved (2,941 mm); text 254 rings, 1,852 straight (4,630 mm) / 549 curved (1,582 mm)
+- **Centre lines:** 5,913 paths (73 closed); straight 15,408 mm, curved 319 mm; horizontal 6,484 mm, vertical 4,427 mm, diagonal 4,497 mm
+- **Circles and arcs:** 4 circles, 35 arcs; largest r 2.4 @ (427.8, 40.3), r 1.9 @ (458.1, 176.4), r 1.9 @ (441.7, 176.3), r 1.8 @ (422.9, 163.4)
+- **Closed boxes:** 41
+- **Wiring (first pass):** 96 connected wire groups from 697 runs
+
+Every curve, box, word and wire group: [1988 - 3642-02-005 - AUX CHANNEL SCHEMATIC - DRN DS - ISS 4 (2) (traced).json](1988%20-%203642-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%204%20%282%29%20%28traced%29.json) (the CAD file: `1988 - 3642-02-005 - AUX CHANNEL SCHEMATIC - DRN DS - ISS 4 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

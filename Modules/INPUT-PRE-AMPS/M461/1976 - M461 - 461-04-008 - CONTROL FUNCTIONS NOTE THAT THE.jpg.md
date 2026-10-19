@@ -16,6 +16,19 @@ Wiki page: [M461](../../../PAGES/M461.md)
 
 - **1976** (labelled): `DATE Oct 76` — …ODIICKD USED ON MATL . WBS WARD-BECK BysTEMB LTD DRN:(Y ING DATE Oct 76 CKD Rus [SCALEI TOLS M M46i INPUT MODULE FRONT PANEL FFINIS…
 
+## Vectors (traced)
+
+- **Sheet:** layout 461-04-008, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 2–424 mm across, 0–287 mm up
+- **Outlines:** line 261 rings, 3,143 straight (11,218 mm) / 349 curved (474 mm); text 1,791 rings, 9,012 straight (8,013 mm) / 3,160 curved (4,103 mm); tb 411 rings, 2,519 straight (5,512 mm) / 662 curved (1,296 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.9 @ (110.6, 212.6)
+- **Closed boxes:** 43 (28 in the title block); named: Swi: INPUT  SELECTOR swi tch Se lects ch; PHA SE switch SW2 : When depressed this ; FOLDBACK switches Sw6 SwS With and switc; PAN switch Swit: When enables depressed ; SOLo/ CUE switch SW12: When depressed; P; WBS WARD-BECK bybteMB LtD_; MODULE M46l INPUT FRONT PANEL; FINISH; TOLS _; 46l 008 O4
+- **Dots (junctions):** 1
+- **Words (OCR):** 256 in 147 lines: WBS · M461 · HIGH PASS FILTER control · Rs2/s3ff Allows · INPUT  SELECTOR swi tch · Swi: Se lects che · MIC · continuous adjus tment · Poter · microphone via · gna source · microphone
+- **Title block:** (196, 10)–(389, 266) mm: WBS · M461 · HIGH PASS FILTER control · Rs2/s3ff Allows · MIC · continuous adjus tment · Poter · <PAD OFF · OFF with control fully · requencies from · 250 Hz. · 120 · 50 · 225 · SENS TiviTY control · 
+
+Every curve, box, word and wire group: [1976 - M461 - 461-04-008 - CONTROL FUNCTIONS NOTE THAT THE (traced).json](1976%20-%20M461%20-%20461-04-008%20-%20CONTROL%20FUNCTIONS%20NOTE%20THAT%20THE%20%28traced%29.json) (the CAD file: `1976 - M461 - 461-04-008 - CONTROL FUNCTIONS NOTE THAT THE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

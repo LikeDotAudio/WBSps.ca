@@ -11,6 +11,19 @@ Wiki page: [M402](../../../PAGES/M402.md)
 - **Size:** 9,720,638 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 402-02-012, size B (assumed) 432 × 264 mm, 2000 × 1222 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 8–432 mm across, 1–249 mm up
+- **Outlines:** line 443 rings, 6,511 straight (9,812 mm) / 997 curved (1,471 mm); text 278 rings, 2,030 straight (2,282 mm) / 670 curved (1,010 mm)
+- **Centre lines:** 4,681 paths (92 closed); straight 6,940 mm, curved 454 mm; horizontal 2,992 mm, vertical 1,878 mm, diagonal 2,070 mm
+- **Circles and arcs:** 32 circles, 52 arcs; largest r 3.3 @ (16.5, 223.3), r 3.2 @ (16.1, 121.0), r 3.2 @ (15.2, 19.3), r 2.1 @ (353.0, 31.4)
+- **Closed boxes:** 22
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 54 connected wire groups from 375 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1968 - M402 - 402-02-012 - LPE MIN BEND RAD UNESS SPECIFIED (traced).json](1968%20-%20M402%20-%20402-02-012%20-%20LPE%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M402 - 402-02-012 - LPE MIN BEND RAD UNESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -24,6 +24,19 @@ Wiki page: [M529](../../../PAGES/M529.md)
 - **Size:** 1,255,693 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 529-03-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 87 rings, 2,141 straight (6,376 mm) / 197 curved (293 mm); text 283 rings, 2,658 straight (3,388 mm) / 727 curved (1,249 mm); tb 32 rings, 227 straight (384 mm) / 33 curved (47.6 mm)
+- **Centre lines:** 3,703 paths (34 closed); straight 6,184 mm, curved 5.4 mm; horizontal 2,717 mm, vertical 1,506 mm, diagonal 1,962 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 13 (12 in the title block)
+- **Words (OCR):** 46 in 32 lines: NCTES: · ) MATL IOO CLEAR · ALEXIGLASS · 2 FINISH: NONE · 08l0 DIA · 4 C'BOPE .125DIA · 3 TOL : XX='015 · XXX = 005 · 2 PLACES TYP · SEE DETAICA · REMOVE ALL Bueps AND · SHAPP EOGES
+- **Title block:** (278, 4)–(432, 184) mm: REMOVE ALL Bueps AND · SHAPP EOGES · DETAIL A · 030 · CBloDA HOLES WERE IIODA · BD · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN  ED ME · ENG. MeW · CKD: · IDENT COVER · APP · SCALE · 52
+
+Every curve, box, word and wire group: [1985 - 529-03-005 - IDENT COVER - DRN BD - ENG MRW - ISS 2 (traced).json](1985%20-%20529-03-005%20-%20IDENT%20COVER%20-%20DRN%20BD%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1985 - 529-03-005 - IDENT COVER - DRN BD - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

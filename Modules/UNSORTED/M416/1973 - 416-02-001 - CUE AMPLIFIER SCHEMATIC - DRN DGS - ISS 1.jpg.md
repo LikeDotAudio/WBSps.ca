@@ -23,6 +23,20 @@ Wiki page: [M416](../../../PAGES/M416.md)
 - **Size:** 5,689,264 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 416-02-001, size B 170 × 432 mm, 786 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–168 mm across, 0–432 mm up
+- **Outlines:** line 931 rings, 7,218 straight (12,501 mm) / 1,360 curved (1,716 mm); text 418 rings, 2,148 straight (1,884 mm) / 661 curved (852 mm)
+- **Centre lines:** 5,725 paths (139 closed); straight 7,787 mm, curved 160 mm; horizontal 2,120 mm, vertical 3,126 mm, diagonal 2,541 mm
+- **Circles and arcs:** 2 circles, 51 arcs; largest r 1.0 @ (14.8, 353.3), r 0.9 @ (90.1, 234.7)
+- **Closed boxes:** 39
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 13 lines: 84 · 2<8 · 818 · 78 · 16 · 82 · 8 3 · 88 · 28 · 6 8 · 78 · lze
+- **Wiring (first pass):** 102 connected wire groups from 626 runs, 3 dotted junctions; labelled ends: 121 mm → 16; 82 mm → 88, 28; 51 mm → 8 3; 44 mm → 2<8; 34 mm → 78
+
+Every curve, box, word and wire group: [1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 1 (traced).json](1973%20-%20416-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DGS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 416-02-001 - CUE AMPLIFIER SCHEMATIC - DRN DGS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

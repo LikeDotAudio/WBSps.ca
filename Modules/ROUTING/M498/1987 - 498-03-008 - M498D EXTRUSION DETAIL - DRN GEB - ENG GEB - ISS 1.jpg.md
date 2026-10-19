@@ -23,6 +23,19 @@ Wiki page: [M498](../../../PAGES/M498.md)
 - **Size:** 1,416,597 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 498-03-008, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 190 rings, 3,099 straight (9,586 mm) / 430 curved (688 mm); text 566 rings, 3,941 straight (4,927 mm) / 1,162 curved (1,899 mm); tb 3 rings, 67 straight (195 mm) / 2 curved (4.7 mm)
+- **Centre lines:** 4,526 paths (94 closed); straight 8,753 mm, curved 63.6 mm; horizontal 4,440 mm, vertical 1,580 mm, diagonal 2,733 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 1.3 @ (71.4, 206.8)
+- **Closed boxes:** 15 (10 in the title block); named: 438-03-068; ISSUE; SCALE
+- **Words (OCR):** 63 in 54 lines: 7-000 · 6.61 · 6-312 · 3-500 · 688 · 0.195 · 0.I80 · 0-285 · REF, · 0.295 · 0.795 · 1.230
+- **Title block:** (278, 16)–(431, 84) mm: ISSUE (DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · ENG GEB 2/87 · M498D · CKD. · EXTRuSioN DETAIL · APP · SCALE · 438-03-068 · ISSUE
+
+Every curve, box, word and wire group: [1987 - 498-03-008 - M498D EXTRUSION DETAIL - DRN GEB - ENG GEB - ISS 1 (traced).json](1987%20-%20498-03-008%20-%20M498D%20EXTRUSION%20DETAIL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 498-03-008 - M498D EXTRUSION DETAIL - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

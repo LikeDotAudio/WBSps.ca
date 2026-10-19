@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,369,817 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 1490-03-025, size B (assumed) 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 2–282 mm up
+- **Outlines:** line 1,092 rings, 9,572 straight (23,212 mm) / 1,972 curved (2,478 mm); text 587 rings, 3,156 straight (2,856 mm) / 1,142 curved (1,463 mm)
+- **Centre lines:** 12,644 paths (310 closed); straight 15,368 mm, curved 192 mm; horizontal 7,988 mm, vertical 3,379 mm, diagonal 4,001 mm
+- **Circles and arcs:** 10 circles, 25 arcs; largest r 2.7 @ (29.2, 128.4), r 2.5 @ (377.6, 130.1), r 2.4 @ (317.6, 121.5), r 2.3 @ (167.5, 137.7)
+- **Closed boxes:** 38; named: FLle; 490-03-025-|; 242 127; D4 MLL ILSTALL; 490-63-025-2-14; 240 #T aLo; 493-03-025-24; 450-03*625.14; With Paper This DIMENSIOU SHOULD BE; :792; WAAD-DeCK BYSTEMS WBS; M49064 InPUT MoDULE ESCUTChEen
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 90 lines: HeL_ · HeLe · FLle · 490-03-025-| · 24e FT · 490-63-025-2-14 · D4 MLL · 242 127 · M49o4 · M4goh · ILSTALL · aLo
+
+Every curve, box, word and wire group: [19xx - M490 - DOC - 1490-03-025 - INPUT MODULE ESCUTCHEON (traced).json](19xx%20-%20M490%20-%20DOC%20-%201490-03-025%20-%20INPUT%20MODULE%20ESCUTCHEON%20%28traced%29.json) (the CAD file: `19xx - M490 - DOC - 1490-03-025 - INPUT MODULE ESCUTCHEON (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 15 words corrected)

@@ -24,6 +24,20 @@ Wiki page: [M813](../../../PAGES/M813.md)
 - **Size:** 694,561 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 813-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–427 mm across, 11–298 mm up
+- **Outlines:** line 272 rings, 3,984 straight (12,533 mm) / 467 curved (673 mm); text 440 rings, 3,042 straight (3,727 mm) / 950 curved (1,406 mm); tb 48 rings, 353 straight (570 mm) / 72 curved (102 mm)
+- **Centre lines:** 5,122 paths (62 closed); straight 9,593 mm, curved 156 mm; horizontal 4,259 mm, vertical 2,948 mm, diagonal 2,386 mm
+- **Circles and arcs:** 18 circles, 14 arcs; largest r 1.3 @ (150.3, 119.0), r 1.2 @ (150.4, 93.2), r 1.2 @ (150.4, 112.2), r 1.2 @ (150.4, 128.7)
+- **Closed boxes:** 64 (7 in the title block); named: MBoBA inPuts Ai-A8 (1-8); MBOBA inPUTS (57-64); M813 RELAY MATriX Logic CONTROL MODULE P
+- **Words (OCR):** 57 in 53 lines: MBoBA · inPuts · LEVERWHEEL_ASSEMBLY · Ai-A8 · (1-8) · WBS /1-077 · DIAL · DIAL B · 8 M8oba · A-A · 1-8 · MAX
+- **Title block:** (229, 13)–(432, 247) mm: LEVERWHEEL_ASSEMBLY · WBS /1-077 · DIAL · DIAL B · A-A · 1-8 · CARD SELEcT] RELAY SELECT · TAKE · READBACK · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: MRW · M813 · ENG.MRW 6/78 · RELA
+- **Wiring (first pass):** 67 connected wire groups from 377 runs; labelled ends: 1714 mm → MBoBA, (1-8), 8 M8oba, inPuts; 476 mm → 24v, INTERCONNECT CABLE, Pce 8-108; 135 mm → (57-64); 59 mm → Pi-3; 53 mm → MBoBA, (1-8)
+
+Every curve, box, word and wire group: [1978 - 813-02-002 - RELAY SWITCHER LOGIC CARD TYPICAL SYSTEM WIRING - DRN MRW - ENG MRW - ISS 1 (traced).json](1978%20-%20813-02-002%20-%20RELAY%20SWITCHER%20LOGIC%20CARD%20TYPICAL%20SYSTEM%20WIRING%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 813-02-002 - RELAY SWITCHER LOGIC CARD TYPICAL SYSTEM WIRING - DRN MRW - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

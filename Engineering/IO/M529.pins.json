@@ -1,0 +1,175 @@
+{
+ "code": "M529",
+ "name": "Communication Modules",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 6,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "SUPPLY VOLTAGE",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0a8ab500584ef048f9658e4ed4ae4726bbe809f5e752fd33ca12d3673e189f06",
+    "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+    "page": 24
+   },
+   "quote": "The output is coupled through C22 and C23 to assembly connector P1 pins 5 and 6 _ The supply voltage appearing at P1 pin 1 of the assembly connector is decoupled by the network R54 , C24 and C25_ . 7^ ... '' . . , . . 1-1",
+   "also": [
+    {
+     "signal": "SUPPLY VOLTAGE",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+     "page": 24
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0a8ab500584ef048f9658e4ed4ae4726bbe809f5e752fd33ca12d3673e189f06",
+    "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+    "page": 24
+   },
+   "quote": "The output is coupled through C22 and C23 to assembly connector P1 pins 5 and 6 _ The supply voltage appearing at P1 pin 1 of the assembly connector is decoupled by the network R54 , C24 and C25_ . 7^ ... '' . . , . . 1-1",
+   "also": [
+    {
+     "signal": "OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+     "page": 24
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0a8ab500584ef048f9658e4ed4ae4726bbe809f5e752fd33ca12d3673e189f06",
+    "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+    "page": 24
+   },
+   "quote": "The output is coupled through C22 and C23 to assembly connector P1 pins 5 and 6 _ The supply voltage appearing at P1 pin 1 of the assembly connector is decoupled by the network R54 , C24 and C25_ . 7^ ... '' . . , . . 1-1",
+   "also": [
+    {
+     "signal": "OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+     "page": 24
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0a8ab500584ef048f9658e4ed4ae4726bbe809f5e752fd33ca12d3673e189f06",
+    "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+    "page": 21
+   },
+   "quote": "CRI3 N4148 etcr1sWN4148 #cRiz I4148 #CR19 WN4148 R160 4KS/1/20 4KS_1/25 CI R9Z ~~R1S34OK R75 ve 4K7 Rk 10/25 sOK 4 PN PN PN C59 ~R08KZ WBS ~~R15-820 10/25 R8s 3",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0a8ab500584ef048f9658e4ed4ae4726bbe809f5e752fd33ca12d3673e189f06",
+    "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+    "page": 21
+   },
+   "quote": "CRI3 N4148 etcr1sWN4148 #cRiz I4148 #CR19 WN4148 R160 4KS/1/20 4KS_1/25 CI R9Z ~~R1S34OK R75 ve 4K7 Rk 10/25 sOK 4 PN PN PN C59 ~R08KZ WBS ~~R15-820 10/25 R8s 3",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0a8ab500584ef048f9658e4ed4ae4726bbe809f5e752fd33ca12d3673e189f06",
+    "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+    "page": 18
+   },
+   "quote": "P2-22",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/COMMUNICATION/M529/1985 - M529 - Communication Modules.pdf",
+     "page": 21
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

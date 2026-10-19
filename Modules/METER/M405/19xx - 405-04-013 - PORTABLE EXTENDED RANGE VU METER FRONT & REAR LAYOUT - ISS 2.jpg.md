@@ -22,6 +22,19 @@ Front and rear layout drawing of the portable M405 extended range VU meter.
 - **Size:** 1,341,942 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 405-04-013, size B 432 × 310 mm, 2000 × 1435 px traced (0.216 mm/px)
+- **Ink extent:** 4–430 mm across, 0–310 mm up
+- **Outlines:** line 304 rings, 3,614 straight (7,664 mm) / 706 curved (1,621 mm); text 171 rings, 1,221 straight (1,265 mm) / 379 curved (523 mm); tb 1 rings, 52 straight (103 mm) / 4 curved (6.3 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 10.1 @ (285.0, 159.0), r 6.9 @ (254.4, 159.2), r 3.9 @ (298.6, 117.1), r 3.7 @ (108.0, 69.4)
+- **Closed boxes:** 4
+- **Dots (junctions):** 2
+- **Words (OCR):** 21 in 17 lines: CHARGE · OFF TEST · Z0k · 600 · MATCH OuT · METER 2 FILTER · EXT RANGE VU · M405 · IMPUT · INPUT · HDST · WBS WAAD-BECK SYBTEMb
+- **Title block:** (333, 34)–(432, 51) mm: WBS WAAD-BECK SYBTEMb
+
+Every curve, box, word and wire group: [19xx - 405-04-013 - PORTABLE EXTENDED RANGE VU METER FRONT & REAR LAYOUT - ISS 2 (traced).json](19xx%20-%20405-04-013%20-%20PORTABLE%20EXTENDED%20RANGE%20VU%20METER%20FRONT%20%26%20REAR%20LAYOUT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 405-04-013 - PORTABLE EXTENDED RANGE VU METER FRONT & REAR LAYOUT - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

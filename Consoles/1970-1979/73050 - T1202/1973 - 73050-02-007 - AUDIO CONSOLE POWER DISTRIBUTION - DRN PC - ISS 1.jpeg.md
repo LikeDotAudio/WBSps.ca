@@ -22,6 +22,20 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 1,918,421 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-007, size B (assumed) 432 × 141 mm, 2000 × 651 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–141 mm up
+- **Outlines:** line 438 rings, 5,973 straight (8,304 mm) / 820 curved (935 mm); text 568 rings, 3,272 straight (2,755 mm) / 1,214 curved (1,443 mm); tb 6 rings, 30 straight (24.0 mm) / 4 curved (5.3 mm)
+- **Centre lines:** 9,389 paths (107 closed); straight 7,297 mm, curved 14.1 mm; horizontal 2,925 mm, vertical 1,671 mm, diagonal 2,701 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 34 (21 in the title block); named: M648 Ps; M648 Ps 2; SIGNAL GNO BAR; 73050-02.007
+- **Words (OCR):** 116 in 88 lines: MlLim · Muuim · MODULE N? 1-3 PINS · 4-6 · 22 &2 · 2242 · My#im · MouLES Pins 8 #v · SEPARATE RUDS) · MGLim Midoules Pins · 4w · P2_42 3
+- **Title block:** (279, 2)–(411, 30) mm: ISSMOD ICKD · USED ON · WBS WARD-BeCk BybTeMB LTDS · IMISH · DaX · DJE SPi-73 · BS · power Distribution · AUdio CONSOLE · CD Bc · SCALE · 73050-02.007 · TOLS _
+- **Wiring (first pass):** 48 connected wire groups from 236 runs; labelled ends: 443 mm → Ba16, Mj24, Migg, To; 340 mm → BAR, STATION GROUND; 119 mm → Ps, Ba16, P2_42 3, Pz-36; 80 mm → CHASSIS, GND; 72 mm → Pz_2,Ult
+
+Every curve, box, word and wire group: [1973 - 73050-02-007 - AUDIO CONSOLE POWER DISTRIBUTION - DRN PC - ISS 1 (traced).json](1973%20-%2073050-02-007%20-%20AUDIO%20CONSOLE%20POWER%20DISTRIBUTION%20-%20DRN%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-007 - AUDIO CONSOLE POWER DISTRIBUTION - DRN PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -11,6 +11,17 @@ Wiki page: [M5201](../../../PAGES/M5201.md)
 - **Size:** 7,614,492 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 5201-04-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–426 mm across, 0–287 mm up
+- **Outlines:** line 691 rings, 5,487 straight (14,798 mm) / 925 curved (2,012 mm); text 165 rings, 983 straight (829 mm) / 291 curved (341 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 19.9 @ (259.0, 157.8), r 19.8 @ (258.6, 223.6), r 19.8 @ (206.7, 157.5), r 19.8 @ (206.4, 223.4)
+- **Closed boxes:** 12
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1986 - M5201 - 5201-04-001 - MACHINE CONTROL MODULE MODULE LAYOUT (traced).json](1986%20-%20M5201%20-%205201-04-001%20-%20MACHINE%20CONTROL%20MODULE%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1986 - M5201 - 5201-04-001 - MACHINE CONTROL MODULE MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

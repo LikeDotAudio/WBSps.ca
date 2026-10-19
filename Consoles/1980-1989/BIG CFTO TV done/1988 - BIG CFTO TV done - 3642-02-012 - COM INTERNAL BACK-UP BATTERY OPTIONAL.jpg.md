@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,267,719 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-012, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 271 rings, 5,694 straight (16,497 mm) / 697 curved (987 mm); text 733 rings, 4,091 straight (4,303 mm) / 1,399 curved (1,772 mm)
+- **Centre lines:** 6,651 paths (111 closed); straight 11,896 mm, curved 33.9 mm; horizontal 3,137 mm, vertical 6,223 mm, diagonal 2,536 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 1.2 @ (86.8, 133.2), r 0.9 @ (243.9, 194.1)
+- **Closed boxes:** 59; named: MONITORS 1-4; p| p; 3is; 2/1; 39595313.13.03323332uuu xl slelulelslela; xl; Eueaza;;aaza;;uuuu; slel3i; 818; 36; M524A PROGRAMMER MODULE (OPTIONAL)
+- **Words (OCR):** 43 in 34 lines: SUBMASTERS 174 · MONITORS 1-4 · Eueaza;;aaza;;uuuu 2/1 · 39595313.13.03323332uuu · xl · p| p · 3is · e/5 · 2 0 · slelulelslelalelslxsl=l · 7300 · 7400
+- **Wiring (first pass):** 22 connected wire groups from 362 runs; labelled ends: 4502 mm → 39595313.13.03323332uuu, Eueaza;;aaza;;uuuu; 1556 mm → 7500, slel3i; 257 mm → P2, +12v; 66 mm → 7300; 66 mm → 36, 7500, slel3i
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-012 - COM INTERNAL BACK-UP BATTERY OPTIONAL (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20COM%20INTERNAL%20BACK-UP%20BATTERY%20OPTIONAL%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-012 - COM INTERNAL BACK-UP BATTERY OPTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

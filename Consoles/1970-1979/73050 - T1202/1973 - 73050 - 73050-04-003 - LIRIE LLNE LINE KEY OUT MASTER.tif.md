@@ -10,6 +10,17 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 3,340,952 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 73050-04-003, size B (assumed) 293 × 432 mm, 1359 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–294 mm across, 0–432 mm up
+- **Outlines:** line 871 rings, 12,684 straight (16,510 mm) / 1,703 curved (2,310 mm); text 712 rings, 5,904 straight (6,625 mm) / 1,726 curved (2,566 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.0 @ (29.7, 53.1), r 1.7 @ (28.5, 156.8)
+- **Closed boxes:** 81
+- **Words (OCR):** 115 in 86 lines: LiriE · LINE · Line KEY · ODT · MAsTeR · OUT · Mi · MASTER · OUt · 13 · M2 · M2
+
+Every curve, box, word and wire group: [1973 - 73050 - 73050-04-003 - LIRIE LLNE LINE KEY OUT MASTER (traced).json](1973%20-%2073050%20-%2073050-04-003%20-%20LIRIE%20LLNE%20LINE%20KEY%20OUT%20MASTER%20%28traced%29.json) (the CAD file: `1973 - 73050 - 73050-04-003 - LIRIE LLNE LINE KEY OUT MASTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

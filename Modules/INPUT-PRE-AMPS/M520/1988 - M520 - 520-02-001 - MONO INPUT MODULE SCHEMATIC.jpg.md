@@ -12,6 +12,21 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 6,736,164 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 520-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 18–305 mm up
+- **Outlines:** line 1,256 rings, 11,322 straight (17,150 mm) / 2,237 curved (2,632 mm); text 132 rings, 807 straight (804 mm) / 223 curved (297 mm); tb 2 rings, 46 straight (99.0 mm) / 2 curved (2.5 mm)
+- **Centre lines:** 13,734 paths (354 closed); straight 13,545 mm, curved 113 mm; horizontal 5,074 mm, vertical 3,190 mm, diagonal 5,281 mm
+- **Circles and arcs:** 3 circles, 14 arcs; largest r 3.2 @ (193.1, 78.2), r 3.2 @ (162.2, 136.0), r 3.2 @ (162.2, 78.1)
+- **Closed boxes:** 26
+- **Dots (junctions):** 2
+- **Words (OCR):** 15 in 14 lines: outruts · CJ] -7e · 2 ENSE · BL" · JOSTFACZ · 5578, · WBS WAAD-BECK SYSTEMS · RW? · M520 · MonO · INPUT MODULE · SCHEMATIC
+- **Title block:** (340, 46)–(432, 63) mm: WBS WAAD-BECK SYSTEMS
+- **Wiring (first pass):** 173 connected wire groups from 1,066 runs; labelled ends: 514 mm → JOSTFACZ; 184 mm → 5578,, RW?; 41 mm → JOSTFACZ; 37 mm → RW?; 13 mm → 2 ENSE
+
+Every curve, box, word and wire group: [1988 - M520 - 520-02-001 - MONO INPUT MODULE SCHEMATIC (traced).json](1988%20-%20M520%20-%20520-02-001%20-%20MONO%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1988 - M520 - 520-02-001 - MONO INPUT MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

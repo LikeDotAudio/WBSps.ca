@@ -11,6 +11,17 @@ Wiki page: [M481B](../../../PAGES/M481B.md)
 - **Size:** 89,943 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 481-04-002, size B (assumed) 328 × 432 mm, 1365 × 1798 px traced (0.240 mm/px)
+- **Ink extent:** 28–327 mm across, 0–432 mm up
+- **Outlines:** line 12 rings, 179 straight (841 mm) / 46 curved (111 mm); text 223 rings, 1,492 straight (1,812 mm) / 506 curved (760 mm); tb 164 rings, 1,758 straight (6,506 mm) / 406 curved (678 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 6.0 @ (35.7, 136.4), r 6.0 @ (35.0, 213.9), r 6.0 @ (34.4, 274.8), r 6.0 @ (34.3, 297.8)
+- **Words (OCR):** 34 in 27 lines: WBS · M481B · AUX · MASTER · REF OSC · SOLO · LEVEL · CUE SOLO · CUE · LEVEL · M2 To Mi · RE-ENTRY
+- **Title block:** (113, 0)–(328, 422) mm: WBS · M481B · AUX · MASTER · REF OSC · SOLO · LEVEL · CUE SOLO · CUE · LEVEL · M2 To Mi · RE-ENTRY · LEVEL · REVISION · ISSUE DATE · APP · WBS WARO-BeCk systems · DRN · M48 1B · ENG Mrw 12/79 · CUE OS
+
+Every curve, box, word and wire group: [1982 - M481B - 481-04-002 - AUX MASTER REF OSC (traced).json](1982%20-%20M481B%20-%20481-04-002%20-%20AUX%20MASTER%20REF%20OSC%20%28traced%29.json) (the CAD file: `1982 - M481B - 481-04-002 - AUX MASTER REF OSC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

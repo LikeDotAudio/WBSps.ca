@@ -22,6 +22,19 @@ Wiki page: [M7000](../../../PAGES/M7000.md)
 - **Size:** 560,894 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 7000-03-032, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px); scale 4
+- **Ink extent:** 77–848 mm across, 14–485 mm up
+- **Outlines:** line 800 rings, 5,978 straight (29,290 mm) / 1,297 curved (4,032 mm); text 262 rings, 1,387 straight (2,478 mm) / 450 curved (1,107 mm); tb 95 rings, 583 straight (1,031 mm) / 186 curved (401 mm)
+- **Centre lines:** 9,959 paths (205 closed); straight 19,639 mm, curved 1,014 mm; horizontal 9,366 mm, vertical 3,543 mm, diagonal 6,731 mm
+- **Circles and arcs:** 17 circles, 18 arcs; largest r 128.4 @ (202.6, 164.4), r 6.4 @ (406.4, 390.0), r 6.4 @ (304.5, 404.2), r 6.4 @ (330.0, 389.8)
+- **Closed boxes:** 49 (6 in the title block); named: IKR-10 PANEL
+- **Words (OCR):** 36 in 35 lines: 17.110 · PTCHES · DIPEMILF · 0nat · OTHER · REQE · (0.04 Ran · INSERT · 0.546 · 0,805 · 1.719 Oio ZU · 0.242
+- **Title block:** (172, 32)–(859, 87) mm: ISSUEDAEL · REMsiOT · WBS · WARD-BECK SYSTEMS · (SCALE 4 · DETAIL · #budt · DaN_DRG(S / 95) · IKR-10 · PANEL
+
+Every curve, box, word and wire group: [1995 - 7000-03-032 - IKR-10 PANEL - DRN DRG - ISS 1 (traced).json](1995%20-%207000-03-032%20-%20IKR-10%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 7000-03-032 - IKR-10 PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

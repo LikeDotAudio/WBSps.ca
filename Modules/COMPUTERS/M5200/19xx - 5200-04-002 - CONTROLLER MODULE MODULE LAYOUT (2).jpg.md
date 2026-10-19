@@ -21,6 +21,19 @@ M5200A controller module layout, cropped at right.
 - **Size:** 3,127,551 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 5200-04-002, size B 432 × 296 mm, 2000 × 1372 px traced (0.216 mm/px)
+- **Ink extent:** 36–432 mm across, 0–296 mm up
+- **Outlines:** line 518 rings, 5,311 straight (12,370 mm) / 738 curved (1,145 mm); text 324 rings, 2,432 straight (2,217 mm) / 704 curved (885 mm); tb 6 rings, 95 straight (218 mm) / 9 curved (20.3 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 3.5 @ (172.0, 6.9), r 3.5 @ (153.6, 6.6), r 3.5 @ (139.7, 6.5), r 3.5 @ (210.5, 7.7)
+- **Closed boxes:** 9; named: cONduCTOR CABLE RIbboN
+- **Dots (junctions):** 1
+- **Words (OCR):** 67 in 64 lines: DATA/ADORESS · Port · 7200 · Port 7100 · Port 7000 · Pio Power · J5 Port · 7400 · Port 7300 · Port · 7700 · 07Port ` 7600
+- **Title block:** (230, 29)–(432, 47) mm: WBS · WBS · WARD-BECK SYSTEN · 452004
+
+Every curve, box, word and wire group: [19xx - 5200-04-002 - CONTROLLER MODULE MODULE LAYOUT (2) (traced).json](19xx%20-%205200-04-002%20-%20CONTROLLER%20MODULE%20MODULE%20LAYOUT%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 5200-04-002 - CONTROLLER MODULE MODULE LAYOUT (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

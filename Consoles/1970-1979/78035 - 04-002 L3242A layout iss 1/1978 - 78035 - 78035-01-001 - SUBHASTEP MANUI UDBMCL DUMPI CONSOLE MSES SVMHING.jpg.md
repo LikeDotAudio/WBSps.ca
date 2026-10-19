@@ -11,6 +11,20 @@ Wiki page: [Job-78035](../../../PAGES/Job-78035.md)
 - **Size:** 38,996,710 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 78035-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 738 rings, 6,190 straight (13,738 mm) / 1,097 curved (1,366 mm); text 1,433 rings, 6,735 straight (5,242 mm) / 2,294 curved (2,657 mm); tb 47 rings, 221 straight (310 mm) / 56 curved (66.0 mm)
+- **Centre lines:** 10,813 paths (516 closed); straight 10,276 mm, curved 43.8 mm; horizontal 3,950 mm, vertical 2,727 mm, diagonal 3,598 mm
+- **Circles and arcs:** 1 circles, 9 arcs; largest r 1.9 @ (363.9, 189.7)
+- **Closed boxes:** 36 (10 in the title block); named: M472; (-15 dB /; (-15 dB ); Rdko; I5dB; MLL9 DUAL MODULE; Mi MOQULE; M49 SELECIOR; MONIIOR MODULE; Mi MQpQE; M475 MONITOR MODULE; MONILOR MODULE
+- **Words (OCR):** 297 in 231 lines: NPUT · CHANNEL · (SEE Note 1) · (SEE Note · SUBMASTER · SUBMASTER · SUMMIng · MASTER · chan · (see Note · IHGFAT · chin
+- **Title block:** (281, 0)–(432, 90) mm: Limiter compressor · Noise GATE · Mon 0u · drn · Lenie · Ap/lp FILTER · Hah ? · M462 A AND M462 EQUALIZERS · AUXILIARY AND IDENTICAL · Mon Out · (menm · 600 n · Mon OUT · edBm 600_ · ISSUE DAte · Re v
+- **Wiring (first pass):** 142 connected wire groups from 558 runs; labelled ends: 377 mm → FADER, (-15 dB ), MasTER, Imon; 332 mm → chan, FADER, (-15 dB /, M472; 113 mm → SUMMIng; 108 mm → dBm, 8d8 m C19, Imon, anF; 100 mm → adkm
+
+Every curve, box, word and wire group: [1978 - 78035 - 78035-01-001 - SUBHASTEP MANUI UDBMCL DUMPI CONSOLE MSES SVMHING (traced).json](1978%20-%2078035%20-%2078035-01-001%20-%20SUBHASTEP%20MANUI%20UDBMCL%20DUMPI%20CONSOLE%20MSES%20SVMHING%20%28traced%29.json) (the CAD file: `1978 - 78035 - 78035-01-001 - SUBHASTEP MANUI UDBMCL DUMPI CONSOLE MSES SVMHING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 16 words corrected)

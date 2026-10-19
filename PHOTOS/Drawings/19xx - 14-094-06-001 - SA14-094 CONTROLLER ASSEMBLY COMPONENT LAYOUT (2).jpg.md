@@ -21,6 +21,19 @@ SA14-094 controller assembly component layout, cropped at right.
 - **Size:** 3,823,042 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 14-094-06-001, size B 432 × 291 mm, 2000 × 1349 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–291 mm up
+- **Outlines:** line 3,422 rings, 24,081 straight (33,037 mm) / 7,039 curved (6,617 mm); text 370 rings, 2,223 straight (1,878 mm) / 671 curved (691 mm); tb 99 rings, 598 straight (845 mm) / 148 curved (144 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 1.8 @ (112.4, 266.6), r 1.6 @ (145.0, 187.1), r 1.6 @ (142.0, 53.5), r 1.4 @ (349.2, 272.9)
+- **Closed boxes:** 104; named: (Futire }; (Futire }
+- **Dots (junctions):** 5
+- **Words (OCR):** 25 in 23 lines: 4141414141414121 · 82 · 10/2+( · MM · 1cs · 815 · WES · 225 · 14-094 · CANFDA · ISSUE · Az@
+- **Title block:** (318, 31)–(432, 234) mm: 14-094 · CANFDA · ISSUE · WBS WARD-BECK SYSTEN · Pid Power
+
+Every curve, box, word and wire group: [19xx - 14-094-06-001 - SA14-094 CONTROLLER ASSEMBLY COMPONENT LAYOUT (2) (traced).json](19xx%20-%2014-094-06-001%20-%20SA14-094%20CONTROLLER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 14-094-06-001 - SA14-094 CONTROLLER ASSEMBLY COMPONENT LAYOUT (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

@@ -22,6 +22,19 @@ SA14-075 stereo preamplifier PCB component layout.
 - **Size:** 352,240 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 14-075-06-001, size B 342 × 432 mm, 1537 × 1943 px traced (0.222 mm/px)
+- **Ink extent:** 9–338 mm across, 0–383 mm up
+- **Outlines:** line 424 rings, 5,584 straight (8,703 mm) / 1,574 curved (1,664 mm); text 894 rings, 7,050 straight (6,699 mm) / 2,343 curved (2,569 mm); tb 410 rings, 4,351 straight (5,022 mm) / 1,351 curved (1,440 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 7.4 @ (80.9, 178.2), r 6.5 @ (108.2, 151.0), r 3.6 @ (32.6, 174.0), r 3.6 @ (59.4, 174.5)
+- **Closed boxes:** 13
+- **Dots (junctions):** 2
+- **Words (OCR):** 132 in 121 lines: HP FILTR · 150 HZ 75 HZ · SENSITIVITY · HCDE · S4S · 5V4 · SVI · #CF _ 4CF - · Cht_QA · HBS 11-131 · ChT-AA · R3B
+- **Title block:** (122, 45)–(342, 281) mm: RI7 · 5345 · WBS · 4-C15 · RLB · CANADA · ISSUE · RI9 · ~R46 562 · R4827K · R4gEek · 347 · R2i · c8 · czo · 358 · (C1O · 68/6 · R25 · aso · Rzs · C22 68/6 · EK32 · Jf · 88 CS · 740/25 · (C17} · 40/251
+
+Every curve, box, word and wire group: [19xx - 14-075-06-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT - ISS 1 (traced).json](19xx%20-%2014-075-06-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-075-06-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

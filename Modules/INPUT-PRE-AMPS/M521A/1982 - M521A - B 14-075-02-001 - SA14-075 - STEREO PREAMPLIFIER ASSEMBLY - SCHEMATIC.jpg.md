@@ -11,6 +11,21 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 8,285,336 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-075-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 6–286 mm up
+- **Outlines:** line 1,395 rings, 10,794 straight (12,915 mm) / 2,385 curved (2,705 mm); text 174 rings, 1,125 straight (1,094 mm) / 301 curved (384 mm); tb 2 rings, 35 straight (101 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 10,353 paths (306 closed); straight 8,380 mm, curved 38.5 mm; horizontal 2,453 mm, vertical 2,321 mm, diagonal 3,605 mm
+- **Circles and arcs:** 2 circles, 10 arcs; largest r 2.5 @ (259.6, 105.1), r 0.8 @ (247.5, 185.5)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 17 lines: PREANP · Insitivitt · aicht · PREAMP · RichT · Richt · Input · HODES · S1 AND · SPECIEIEO · 43 0.fHoo 4.5735 · WBS WARD-BECK SYSTEMS
+- **Title block:** (345, 27)–(432, 44) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 110 connected wire groups from 888 runs; labelled ends: 76 mm → 43, 0.fHoo, 4.5735; 60 mm → 43, 0.fHoo, 4.5735; 47 mm → aicht; 30 mm → 43; 19 mm → 43, 0.fHoo
+
+Every curve, box, word and wire group: [1982 - M521A - B 14-075-02-001 - SA14-075 - STEREO PREAMPLIFIER ASSEMBLY - SCHEMATIC (traced).json](1982%20-%20M521A%20-%20B%2014-075-02-001%20-%20SA14-075%20-%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1982 - M521A - B 14-075-02-001 - SA14-075 - STEREO PREAMPLIFIER ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

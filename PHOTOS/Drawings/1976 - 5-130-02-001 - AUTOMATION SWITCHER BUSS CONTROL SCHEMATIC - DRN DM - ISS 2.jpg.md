@@ -21,6 +21,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,332,799 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5-130-02-001, size B 432 × 139 mm, 2000 × 644 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–432 mm across, 0–137 mm up
+- **Outlines:** line 1,451 rings, 14,407 straight (27,682 mm) / 2,829 curved (3,241 mm); text 16 rings, 110 straight (87.5 mm) / 35 curved (42.1 mm)
+- **Centre lines:** 17,874 paths (373 closed); straight 16,837 mm, curved 100 mm; horizontal 7,805 mm, vertical 4,638 mm, diagonal 4,393 mm
+- **Circles and arcs:** 3 circles, 20 arcs; largest r 2.2 @ (66.4, 75.1), r 1.1 @ (404.7, 2.9), r 1.1 @ (398.3, 3.0)
+- **Closed boxes:** 88
+- **Dots (junctions):** 5
+- **Wiring (first pass):** 129 connected wire groups from 1,444 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1976 - 5-130-02-001 - AUTOMATION SWITCHER BUSS CONTROL SCHEMATIC - DRN DM - ISS 2 (traced).json](1976%20-%205-130-02-001%20-%20AUTOMATION%20SWITCHER%20BUSS%20CONTROL%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 5-130-02-001 - AUTOMATION SWITCHER BUSS CONTROL SCHEMATIC - DRN DM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

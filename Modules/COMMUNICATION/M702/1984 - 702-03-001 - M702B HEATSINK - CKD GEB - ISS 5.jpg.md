@@ -23,6 +23,19 @@ Wiki page: [M702](../../../PAGES/M702.md)
 - **Size:** 1,488,784 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 702-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 12–298 mm up
+- **Outlines:** line 176 rings, 2,771 straight (8,177 mm) / 330 curved (495 mm); text 364 rings, 2,730 straight (3,530 mm) / 748 curved (1,205 mm); tb 31 rings, 333 straight (444 mm) / 58 curved (73.5 mm)
+- **Centre lines:** 4,211 paths (61 closed); straight 7,127 mm, curved 49.6 mm; horizontal 3,534 mm, vertical 1,443 mm, diagonal 2,150 mm
+- **Circles and arcs:** 1 circles, 8 arcs; largest r 3.2 @ (100.7, 192.4)
+- **Closed boxes:** 15 (13 in the title block); named: ISSUE
+- **Words (OCR):** 49 in 38 lines: NOTES: · MATERIAL 060 · ALUM_ ALLOY · REMOVE BURRS ? SHARP EDGES · 130 DIA · CsK 82 To · 2/ EINSH · 23 DIA · PLACES · ANODIZE BLAcK · 3 TOLERANCES XX 015 · 42*45 TYP
+- **Title block:** (279, 13)–(432, 89) mm: 4/84 496 WAS 4.00-576 · RE-DRAWN · 35 WAS · ISSUE DATE · REVISION · APP · WBS WARD-BECK sysTEMS · DRN: 10/72 · ENG_ · M7o2B · HEATSINK · APP · SCALE · ISSUE · 1:1 · 702-03-001
+
+Every curve, box, word and wire group: [1984 - 702-03-001 - M702B HEATSINK - CKD GEB - ISS 5 (traced).json](1984%20-%20702-03-001%20-%20M702B%20HEATSINK%20-%20CKD%20GEB%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1984 - 702-03-001 - M702B HEATSINK - CKD GEB - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

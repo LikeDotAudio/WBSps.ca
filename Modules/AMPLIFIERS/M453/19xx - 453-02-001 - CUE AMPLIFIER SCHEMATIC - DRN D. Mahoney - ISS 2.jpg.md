@@ -23,6 +23,20 @@ Wiki page: [M453](../../../PAGES/M453.md)
 - **Size:** 1,811,138 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 453-02-001, size B (assumed) 432 × 140 mm, 2000 × 650 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 0–140 mm up
+- **Outlines:** line 764 rings, 7,000 straight (11,016 mm) / 1,374 curved (1,660 mm); text 269 rings, 1,671 straight (1,405 mm) / 514 curved (607 mm)
+- **Centre lines:** 12,779 paths (172 closed); straight 9,057 mm, curved 128 mm; horizontal 3,154 mm, vertical 2,174 mm, diagonal 3,729 mm
+- **Circles and arcs:** 1 circles, 29 arcs; largest r 3.6 @ (238.0, 117.6)
+- **Closed boxes:** 3
+- **Dots (junctions):** 1
+- **Words (OCR):** 62 in 57 lines: TpsoE · 0.754 · +25v · Ph3569 · 6k8 · CR7 · [N4023 · ct · 122/25v · Ice · 3*3562 · Slu
+- **Wiring (first pass):** 93 connected wire groups from 553 runs, 2 dotted junctions; labelled ends: 97 mm → 47/25 +; 82 mm → Rio, 8 8F; 80 mm → R25 <, Rzs, 5k6, ip 29B; 74 mm → Ice, FN9569, 10op5v; 64 mm → TpsoE, CR7
+
+Every curve, box, word and wire group: [19xx - 453-02-001 - CUE AMPLIFIER SCHEMATIC - DRN D. Mahoney - ISS 2 (traced).json](19xx%20-%20453-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20D.%20Mahoney%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 453-02-001 - CUE AMPLIFIER SCHEMATIC - DRN D. Mahoney - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

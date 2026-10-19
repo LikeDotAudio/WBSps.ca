@@ -12,6 +12,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 6,427,369 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 520-04-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 1,285 rings, 10,699 straight (21,702 mm) / 1,877 curved (2,716 mm); text 113 rings, 754 straight (892 mm) / 210 curved (291 mm); tb 2 rings, 40 straight (99.0 mm) / 2 curved (3.2 mm)
+- **Circles and arcs:** 32 circles, 0 arcs; largest r 3.4 @ (230.9, 219.8), r 3.4 @ (230.8, 210.3), r 3.4 @ (231.1, 150.8), r 3.4 @ (230.8, 179.5)
+- **Closed boxes:** 30
+- **Dots (junctions):** 1
+- **Words (OCR):** 11 in 10 lines: SUBASSE MAL · SENS · WBS WARD-BECK SYSTEMS · M520 · INPUT MODULE · MONO · MODULE · LAYOUT · B 520-04-001 · ISS.
+- **Title block:** (341, 48)–(432, 66) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1988 - M520 - B 520-04-001 - M520 - MONO INPUT MODULE - MODULE LAYOUT (traced).json](1988%20-%20M520%20-%20B%20520-04-001%20-%20M520%20-%20MONO%20INPUT%20MODULE%20-%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1988 - M520 - B 520-04-001 - M520 - MONO INPUT MODULE - MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

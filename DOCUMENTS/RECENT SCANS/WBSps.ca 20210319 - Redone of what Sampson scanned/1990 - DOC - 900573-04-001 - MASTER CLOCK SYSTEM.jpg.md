@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,067,384 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 900573-04-001, size B (assumed) 432 × 335 mm, 2000 × 1551 px traced (0.216 mm/px); scale DISC NO: 374
+- **Ink extent:** 58–430 mm across, 0–321 mm up
+- **Outlines:** line 469 rings, 4,586 straight (14,622 mm) / 846 curved (1,062 mm); text 1,150 rings, 7,178 straight (7,468 mm) / 2,670 curved (3,400 mm); tb 42 rings, 434 straight (1,977 mm) / 62 curved (85.0 mm)
+- **Closed boxes:** 45; named: 22 00; 22 00; 22 00; 22 00; RDAPTERC; 22 DD; 22 00; 22 DD; 22 00; 22 DD; 22 00; 22 DD
+- **Dots (junctions):** 1
+- **Words (OCR):** 129 in 104 lines: RACKMOUNTED MASTER CLOCK · 22 00 · RDAPTERC · CLK · BACKHQUNL SLAWE DRIVER CONSISTS_OE: · CLKLCONSISTSQE; · PCB ISS.1 · PCB ISS.1 · SA14-201 · ISS.- · {55.2 · R1400 RADIO CONSCLE
+- **Title block:** (296, 11)–(429, 126) mm: 5A14-207 PCB I5S.2 · CONNECTORSSUPPLIED   AND INSTALLED · BY CUSTOMER: · R1400 RADIQ CONSOLE WBS MODEL 880818 · WILL PROMDE TMRI · R1400 RADIO CONSOLE WBS MODEL 900312 · WLL PROMDE THE TIMER · WBS WLL
+
+Every curve, box, word and wire group: [1990 - DOC - 900573-04-001 - MASTER CLOCK SYSTEM (traced).json](1990%20-%20DOC%20-%20900573-04-001%20-%20MASTER%20CLOCK%20SYSTEM%20%28traced%29.json) (the CAD file: `1990 - DOC - 900573-04-001 - MASTER CLOCK SYSTEM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

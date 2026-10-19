@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 2,720,276 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940443-04-004, size B (assumed) 432 × 345 mm, 2000 × 1597 px traced (0.216 mm/px); scale DISC NO: 484
+- **Ink extent:** 28–430 mm across, 10–282 mm up
+- **Outlines:** line 1,103 rings, 7,958 straight (14,326 mm) / 2,295 curved (3,538 mm); text 695 rings, 4,202 straight (5,100 mm) / 1,228 curved (1,714 mm); tb 9 rings, 88 straight (206 mm) / 12 curved (19.1 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 0.9 @ (72.3, 149.0), r 0.9 @ (359.7, 219.1), r 0.9 @ (361.2, 131.5), r 0.8 @ (224.7, 173.3)
+- **Closed boxes:** 56 (12 in the title block)
+- **Dots (junctions):** 8
+- **Words (OCR):** 87 in 76 lines: DIODE_BQARD · DIQDE BOARD · DIODE BOARD · DLODE BOARD · DLODE BOARD · MATRIX · NFROM · MFRGIX MA · MRRHX MATRIX · NFRRHX MA · ARIX · MRRYX
+- **Title block:** (292, 9)–(432, 63) mm: SSUEI · REVSION · WBS · WARD-BECK · SYSTEMS · DRN: · WKW · CBC · TORONTO STUDIO · 26/27 · ENG; WkW · IFB   INTERCOM · CKD · DIODEBOARD · LA YOUT · APP: · SCALE DISC NO: 484 · 940443-04-004 · ISSUE · C
+
+Every curve, box, word and wire group: [1994 - 940443 - DOC - 940443-04-004 - PIN-E PIN-E DIODES ARE SCHOTTKY (traced).json](1994%20-%20940443%20-%20DOC%20-%20940443-04-004%20-%20PIN-E%20PIN-E%20DIODES%20ARE%20SCHOTTKY%20%28traced%29.json) (the CAD file: `1994 - 940443 - DOC - 940443-04-004 - PIN-E PIN-E DIODES ARE SCHOTTKY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

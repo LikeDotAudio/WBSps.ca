@@ -21,6 +21,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 5,407,950 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-103-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–407 mm across, 20–294 mm up
+- **Outlines:** line 733 rings, 5,907 straight (11,152 mm) / 1,360 curved (1,976 mm); text 556 rings, 3,612 straight (4,160 mm) / 1,118 curved (1,597 mm)
+- **Centre lines:** 6,551 paths (155 closed); straight 8,585 mm, curved 762 mm; horizontal 3,157 mm, vertical 2,234 mm, diagonal 3,194 mm
+- **Circles and arcs:** 50 circles, 113 arcs; largest r 2.4 @ (351.6, 82.0), r 1.9 @ (366.9, 63.0), r 1.7 @ (366.4, 80.8), r 1.7 @ (324.2, 83.4)
+- **Closed boxes:** 24
+- **Wiring (first pass):** 55 connected wire groups from 704 runs
+
+Every curve, box, word and wire group: [1990 - 8-103-02-001 - LOAD TRANSFER CONTROL SCHEMATIC - DRN DRG - ISS 4 (traced).json](1990%20-%208-103-02-001%20-%20LOAD%20TRANSFER%20CONTROL%20SCHEMATIC%20-%20DRN%20DRG%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1990 - 8-103-02-001 - LOAD TRANSFER CONTROL SCHEMATIC - DRN DRG - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

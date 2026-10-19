@@ -11,6 +11,17 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,557,734 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 7800-04-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,434 rings, 10,131 straight (19,609 mm) / 2,083 curved (3,323 mm); text 87 rings, 632 straight (590 mm) / 167 curved (230 mm)
+- **Circles and arcs:** 33 circles, 0 arcs; largest r 6.1 @ (313.7, 169.7), r 5.0 @ (289.7, 86.5), r 4.7 @ (110.1, 85.3), r 3.9 @ (110.0, 85.2)
+- **Closed boxes:** 38
+- **Dots (junctions):** 6
+
+Every curve, box, word and wire group: [1981 - microCOM - 7800-04-001 - COMMUNICATION TERMINAL FRONT (traced).json](1981%20-%20microCOM%20-%207800-04-001%20-%20COMMUNICATION%20TERMINAL%20FRONT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7800-04-001 - COMMUNICATION TERMINAL FRONT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

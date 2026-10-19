@@ -23,6 +23,19 @@ Wiki page: [M470](../../../PAGES/M470.md)
 - **Size:** 1,751,135 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 470-03-101, size D 648 × 864 mm, 1500 × 2000 px traced (0.432 mm/px)
+- **Ink extent:** 0–648 mm across, 1–864 mm up
+- **Outlines:** line 1,087 rings, 12,382 straight (25,339 mm) / 2,332 curved (6,089 mm); text 125 rings, 997 straight (1,910 mm) / 256 curved (703 mm); tb 11 rings, 61 straight (85.8 mm) / 17 curved (34.9 mm)
+- **Centre lines:** 19,276 paths (188 closed); straight 26,318 mm, curved 802 mm; horizontal 8,190 mm, vertical 5,893 mm, diagonal 12,236 mm
+- **Circles and arcs:** 9 circles, 33 arcs; largest r 19.1 @ (43.4, 497.2), r 18.7 @ (210.1, 496.6), r 14.2 @ (366.5, 442.0), r 13.8 @ (292.5, 442.0)
+- **Closed boxes:** 3; named: Paiut S44D
+- **Words (OCR):** 45 in 33 lines: 312 DIA: · PLACES · 545 DIA · C PLACES · MARKED · 375 DIA · 2 PLACES · MARKED · CarT | · 562 DIA. · PLACE · 375
+- **Title block:** (351, 40)–(514, 131) mm: WBS WAAD-Beck Byateme · 0o Thk DRK GEB · DATE MAR · M47o · CKD · NpuT MODULE · [SCALE · 47o 03-Ioi
+
+Every curve, box, word and wire group: [1977 - 470-03-101 - B&C INPUT MODULE ESCUTCHEON - DRN GEB - ISS 6 (traced).json](1977%20-%20470-03-101%20-%20B%26C%20INPUT%20MODULE%20ESCUTCHEON%20-%20DRN%20GEB%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1977 - 470-03-101 - B&C INPUT MODULE ESCUTCHEON - DRN GEB - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

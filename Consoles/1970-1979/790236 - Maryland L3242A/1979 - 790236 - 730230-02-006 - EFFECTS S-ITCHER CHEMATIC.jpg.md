@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 7,190,237 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 730230-02-006, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–432 mm across, 0–288 mm up
+- **Outlines:** line 564 rings, 5,391 straight (9,107 mm) / 825 curved (1,178 mm); text 167 rings, 1,061 straight (1,233 mm) / 311 curved (441 mm)
+- **Centre lines:** 3,620 paths (50 closed); straight 5,651 mm, curved 266 mm; horizontal 2,770 mm, vertical 1,451 mm, diagonal 1,430 mm
+- **Circles and arcs:** 12 circles, 44 arcs; largest r 1.5 @ (166.3, 211.1), r 1.4 @ (226.0, 104.1), r 1.3 @ (200.5, 169.2), r 1.3 @ (258.0, 109.1)
+- **Closed boxes:** 18
+- **Wiring (first pass):** 55 connected wire groups from 404 runs
+
+Every curve, box, word and wire group: [1979 - 790236 - 730230-02-006 - EFFECTS S-ITCHER CHEMATIC (traced).json](1979%20-%20790236%20-%20730230-02-006%20-%20EFFECTS%20S-ITCHER%20CHEMATIC%20%28traced%29.json) (the CAD file: `1979 - 790236 - 730230-02-006 - EFFECTS S-ITCHER CHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

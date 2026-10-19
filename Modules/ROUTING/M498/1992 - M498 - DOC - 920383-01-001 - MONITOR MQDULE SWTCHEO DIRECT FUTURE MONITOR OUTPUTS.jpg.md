@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,933,790 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920383-01-001, size B (assumed) 432 × 279 mm, 2000 × 1292 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 34–424 mm across, 5–262 mm up
+- **Outlines:** line 660 rings, 5,341 straight (13,373 mm) / 958 curved (1,227 mm); text 1,106 rings, 7,830 straight (6,676 mm) / 2,212 curved (2,588 mm); tb 28 rings, 309 straight (1,222 mm) / 27 curved (37.8 mm)
+- **Centre lines:** 19,341 paths (382 closed); straight 13,223 mm, curved 10.8 mm; horizontal 4,412 mm, vertical 3,724 mm, diagonal 5,087 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 0.8 @ (306.4, 66.9)
+- **Closed boxes:** 85 (1 in the title block); named: PGM 1-R; PGM 1-Rl; PGM; PGv 2-R; AUX; AUX; CUE; PGM I-R; PGv ?-R; PGv 2-L; PG" 2-R; AUX
+- **Dots (junctions):** 2
+- **Words (OCR):** 217 in 194 lines: CONSOLE SuMMING BUSES · PGM PGM AUX CUE · MIC_INPUL CHANNELS 1-4 · PROGRAM SIEREQ QUIPUIS · PGM · MIC INPUTS · INSERTS · PGM 1-R · INSERTS · PROGRAM · 150 OHMS · 30 dBm
+- **Title block:** (339, 4)–(432, 42) mm: SSur · REVSION · APP · WBS WARD-BECK SYSTEMS · DRN; DRG · WOWF · ENG. · R2200 RADIO CONSOLE · AUDIO FUNCTIONAL · SCALE DISC NO: · CODE: 92383F01 · 920383-01-001 · ISSUE
+- **Wiring (first pass):** 146 connected wire groups from 731 runs, 4 dotted junctions; labelled ends: 1604 mm → PGM, AUX, CUE, INSERTS; 100 mm → VoNITOR, BDC LOAD, MONITOR, BDG LOAD; 70 mm → AUX; 54 mm → PGv ?-R, Le; 53 mm → PGM 1-Rl, 4C4o
+
+Every curve, box, word and wire group: [1992 - M498 - DOC - 920383-01-001 - MONITOR MQDULE SWTCHEO DIRECT FUTURE MONITOR OUTPUTS (traced).json](1992%20-%20M498%20-%20DOC%20-%20920383-01-001%20-%20MONITOR%20MQDULE%20SWTCHEO%20DIRECT%20FUTURE%20MONITOR%20OUTPUTS%20%28traced%29.json) (the CAD file: `1992 - M498 - DOC - 920383-01-001 - MONITOR MQDULE SWTCHEO DIRECT FUTURE MONITOR OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 16 words corrected)

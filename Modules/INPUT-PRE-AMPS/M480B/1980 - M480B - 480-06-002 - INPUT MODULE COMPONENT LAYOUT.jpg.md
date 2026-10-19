@@ -11,6 +11,19 @@ Wiki page: [M480B](../../../PAGES/M480B.md)
 - **Size:** 3,479,923 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 480-06-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 3–429 mm across, 3–276 mm up
+- **Outlines:** line 2,244 rings, 14,542 straight (20,045 mm) / 3,449 curved (3,355 mm); text 446 rings, 2,425 straight (1,859 mm) / 761 curved (776 mm); tb 232 rings, 1,204 straight (1,011 mm) / 278 curved (268 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 4.0 @ (220.1, 163.1), r 4.0 @ (248.1, 132.6), r 4.0 @ (248.3, 162.9), r 3.9 @ (220.1, 132.8)
+- **Closed boxes:** 24 (5 in the title block); named: R25
+- **Dots (junctions):** 3
+- **Words (OCR):** 37 in 32 lines: 2228 · 2262 · 04 · 638 · 68 · HM · 328 · 22 · 243569 · 903 · 228 · 88 53 W851-094
+- **Title block:** (252, 18)–(432, 132) mm: Sw0 · WBS · KSv · ano · 431 400 · 3721 · WBS · RO-BeCk SYSTEMS
+
+Every curve, box, word and wire group: [1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT (traced).json](1980%20-%20M480B%20-%20480-06-002%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

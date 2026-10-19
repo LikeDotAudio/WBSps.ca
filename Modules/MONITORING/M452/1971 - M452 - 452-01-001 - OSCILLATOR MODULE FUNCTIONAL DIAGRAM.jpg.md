@@ -12,6 +12,20 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **Size:** 124,344 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 452-01-001, size B (assumed) 432 × 297 mm, 2000 × 1374 px traced (0.216 mm/px)
+- **Ink extent:** 14–432 mm across, 0–276 mm up
+- **Outlines:** line 151 rings, 2,438 straight (7,248 mm) / 249 curved (355 mm); text 437 rings, 3,034 straight (3,746 mm) / 897 curved (1,446 mm); tb 11 rings, 140 straight (330 mm) / 23 curved (35.9 mm)
+- **Centre lines:** 3,211 paths (83 closed); straight 5,590 mm, curved 17.5 mm; horizontal 1,984 mm, vertical 1,238 mm, diagonal 2,369 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 16 (10 in the title block); named: OSC; AGC; REVISFD DESIGNATIONS; 10/77; ISSUE
+- **Words (OCR):** 59 in 53 lines: HZ · 20 K · OSC · CONTROL/ TALLY · 15 K · ON · 10 K · +14 dBm Out · 5 K · 600 OHMS SWITCHED · LEVEL · OutPuts
+- **Title block:** (257, 3)–(432, 90) mm: 10/77 · REVISFD DESIGNATIONS · 10/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNPMuoney · M452 · ENG_ RKB · OSCILLATOR MODULE · cKD (Relll · FUNCTIONAL DIAGRAM · APP · SCALE 
+- **Wiring (first pass):** 54 connected wire groups from 134 runs; labelled ends: 219 mm → (-6dB), BST, +14 dBm OUT, (-84dB); 126 mm → DESIGNATIONS, 10/77; 39 mm → BST, Trim; 30 mm → +14 dBm; 21 mm → AGC, OSC
+
+Every curve, box, word and wire group: [1971 - M452 - 452-01-001 - OSCILLATOR MODULE FUNCTIONAL DIAGRAM (traced).json](1971%20-%20M452%20-%20452-01-001%20-%20OSCILLATOR%20MODULE%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1971 - M452 - 452-01-001 - OSCILLATOR MODULE FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

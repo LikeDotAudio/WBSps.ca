@@ -11,6 +11,18 @@ Wiki page: [M490J](../../../PAGES/M490J.md)
 - **Size:** 370,286 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 490-06-022, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–429 mm up
+- **Outlines:** line 1,366 rings, 11,805 straight (17,571 mm) / 3,638 curved (3,875 mm); text 432 rings, 3,384 straight (3,055 mm) / 1,183 curved (1,324 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.7 @ (201.8, 295.6), r 5.4 @ (96.4, 270.2), r 5.3 @ (248.2, 232.9), r 3.8 @ (230.7, 340.9)
+- **Closed boxes:** 27; named: WBS WAedAndr Uyuterd; M490) Mic imtui Module COMFONENT LAtouT
+- **Dots (junctions):** 7
+- **Words (OCR):** 35 in 32 lines: SAM · 47 31 · 747) · 1 830: · 44 · 34 · 08 · 3498. · 99 · 334 · 21 · Ta
+
+Every curve, box, word and wire group: [1983 - M490J - 490-06-022 - CQMPONENI SDE EALOAN (traced).json](1983%20-%20M490J%20-%20490-06-022%20-%20CQMPONENI%20SDE%20EALOAN%20%28traced%29.json) (the CAD file: `1983 - M490J - 490-06-022 - CQMPONENI SDE EALOAN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

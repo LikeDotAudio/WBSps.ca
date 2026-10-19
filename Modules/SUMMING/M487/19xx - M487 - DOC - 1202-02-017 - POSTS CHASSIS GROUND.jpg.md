@@ -15,6 +15,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 510,237 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 1202-02-017, size B (assumed) 432 × 275 mm, 2000 × 1272 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–269 mm up
+- **Outlines:** line 319 rings, 3,489 straight (8,572 mm) / 619 curved (934 mm); text 1,203 rings, 9,098 straight (10,886 mm) / 2,736 curved (4,259 mm); tb 43 rings, 212 straight (344 mm) / 58 curved (81.9 mm)
+- **Centre lines:** 8,137 paths (143 closed); straight 12,114 mm, curved 272 mm; horizontal 3,881 mm, vertical 2,634 mm, diagonal 5,600 mm
+- **Circles and arcs:** 27 circles, 22 arcs; largest r 2.1 @ (71.8, 143.7), r 2.1 @ (114.6, 51.5), r 2.1 @ (104.9, 136.9), r 2.0 @ (71.8, 163.6)
+- **Closed boxes:** 15 (6 in the title block); named: M2o7 PHANTOM POWER CONVERTER
+- **Words (OCR):** 147 in 107 lines: NQTES: · *V REFER To TIZozA MANUAL · M4856 SECTION FOR 230v SOHz · +25V · STRAPPING AND CORRECT FUSE · M2o7 · SIG_COM · PHANTOM POWER · M480c CHI TO 12 PIN Y #22 AWG OR · CONVERTER · +25v M480C INPUT MODULES Ch1 To · Pin 21 #22 AWG RD
+- **Title block:** (64, 1)–(432, 69) mm: ISSUE DATE · REVISION · APp · SYSTEMS · BINDING · Posts · GROUND · CHASSIS M4BOB 1TO 12 PIN 22 #22 AWG GN · WBS WARD-BECK SySTEMB · 6 M487 · 162 · € M481B · AC · DRN JP Sep3z · GROUND · M482B 162 · EN
+- **Wiring (first pass):** 50 connected wire groups from 304 runs; labelled ends: 177 mm → PHANTOM POWER, M480c; 144 mm → BINDING; 135 mm → 25V, M487 MASTER, SIG COM; 133 mm → #16; 116 mm → M485B, POWER, SYSTEMS
+
+Every curve, box, word and wire group: [19xx - M487 - DOC - 1202-02-017 - POSTS CHASSIS GROUND (traced).json](19xx%20-%20M487%20-%20DOC%20-%201202-02-017%20-%20POSTS%20CHASSIS%20GROUND%20%28traced%29.json) (the CAD file: `19xx - M487 - DOC - 1202-02-017 - POSTS CHASSIS GROUND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

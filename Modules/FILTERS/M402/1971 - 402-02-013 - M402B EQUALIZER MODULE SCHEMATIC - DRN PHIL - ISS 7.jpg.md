@@ -24,6 +24,20 @@ Wide equalizer module schematic strip with title block at bottom right.
 - **Size:** 4,383,691 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 402-02-013, size B 432 × 140 mm, 2000 × 646 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–140 mm up
+- **Outlines:** line 926 rings, 9,101 straight (14,154 mm) / 1,958 curved (2,422 mm); text 353 rings, 2,189 straight (1,857 mm) / 628 curved (724 mm)
+- **Centre lines:** 9,717 paths (284 closed); straight 9,500 mm, curved 346 mm; horizontal 3,111 mm, vertical 2,446 mm, diagonal 3,943 mm
+- **Circles and arcs:** 5 circles, 110 arcs; largest r 2.6 @ (312.7, 82.9), r 1.0 @ (415.9, 39.2), r 0.9 @ (117.3, 94.7), r 0.9 @ (242.2, 63.8)
+- **Closed boxes:** 7
+- **Dots (junctions):** 3
+- **Words (OCR):** 57 in 56 lines: M4028 · MAin output · COUPONENT LAYout |-(39.06-00i · OCHEHATC 42/39 · AuI Output · CoM · SAGND · 888 · Lea · 2izg · CRIOU · 330/6
+- **Wiring (first pass):** 59 connected wire groups from 491 runs, 2 dotted junctions; labelled ends: 980 mm → 330/6, CRD, CRIOU, LED; 100 mm → 2i22; 90 mm → Dp?; 81 mm → 842, EXS; 64 mm → CRIOU
+
+Every curve, box, word and wire group: [1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHIL - ISS 7 (traced).json](1971%20-%20402-02-013%20-%20M402B%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20DRN%20PHIL%20-%20ISS%207%20%28traced%29.json) (the CAD file: `1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHIL - ISS 7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

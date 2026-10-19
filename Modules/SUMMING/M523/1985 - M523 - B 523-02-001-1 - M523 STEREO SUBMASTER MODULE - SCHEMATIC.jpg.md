@@ -11,6 +11,20 @@ Wiki page: [M523](../../../PAGES/M523.md)
 - **Size:** 2,840,121 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 523-02-001, size B (assumed) 432 × 275 mm, 2000 × 1272 px traced (0.216 mm/px)
+- **Ink extent:** 17–425 mm across, 0–270 mm up
+- **Outlines:** line 879 rings, 8,774 straight (14,014 mm) / 1,530 curved (1,824 mm); text 91 rings, 765 straight (799 mm) / 191 curved (290 mm); tb 2 rings, 43 straight (107 mm) / 4 curved (7.6 mm)
+- **Centre lines:** 8,503 paths (156 closed); straight 8,583 mm, curved 77.7 mm; horizontal 3,909 mm, vertical 2,535 mm, diagonal 2,139 mm
+- **Circles and arcs:** 1 circles, 15 arcs; largest r 2.0 @ (224.8, 90.1)
+- **Closed boxes:** 44
+- **Words (OCR):** 7 in 7 lines: WBS · WARD-BECK SysteMB · M523 · stereo SUBMA STER MODULE · SCHEMATiC · B 523-02-001/1 · ISS.1
+- **Title block:** (334, 29)–(432, 46) mm: WBS · WARD-BECK SysteMB
+- **Wiring (first pass):** 91 connected wire groups from 890 runs
+
+Every curve, box, word and wire group: [1985 - M523 - B 523-02-001-1 - M523 STEREO SUBMASTER MODULE - SCHEMATIC (traced).json](1985%20-%20M523%20-%20B%20523-02-001-1%20-%20M523%20STEREO%20SUBMASTER%20MODULE%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M523 - B 523-02-001-1 - M523 STEREO SUBMASTER MODULE - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

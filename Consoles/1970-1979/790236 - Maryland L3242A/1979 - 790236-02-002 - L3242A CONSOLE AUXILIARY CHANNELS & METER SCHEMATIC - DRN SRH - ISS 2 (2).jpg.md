@@ -22,6 +22,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,065,834 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 790236-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–287 mm up
+- **Outlines:** line 549 rings, 7,504 straight (10,371 mm) / 1,032 curved (1,226 mm); text 291 rings, 1,929 straight (2,092 mm) / 628 curved (874 mm); tb 44 rings, 325 straight (506 mm) / 48 curved (75.9 mm)
+- **Centre lines:** 23,655 paths (107 closed); straight 12,194 mm, curved 146 mm; horizontal 4,016 mm, vertical 2,978 mm, diagonal 5,200 mm
+- **Circles and arcs:** 10 circles, 14 arcs; largest r 1.3 @ (108.6, 77.8), r 1.3 @ (37.1, 173.5), r 1.2 @ (58.1, 173.3), r 1.2 @ (99.9, 173.5)
+- **Closed boxes:** 36 (25 in the title block); named: WBS WARD-BECK systems LTD_; L3242A CONSOLE Me-eR CMNNELS schemat (; FINISH; 790236 - 02; ISS
+- **Words (OCR):** 41 in 31 lines: AUX · VU_SELEcToR · METER · AUX 2 · Aux4 · JkirEV EXT · AUXILiAry · VU_METER2 · FROM AUX · 3K6 9i0 · MODULE #2 · 2k2
+- **Title block:** (0, 10)–(268, 62) mm: IsS MOD [CKD_ · USED OM · MATL · WBS WARD-BECK systems LTD_ · DRN: Srh · L3242A CONSOLE · DATE AUG/79 · FINISH · CMNNELS · Me-eR · CKD · schemat ( · [SCALE · TOLS · 790236 - 02 · ISS
+- **Wiring (first pass):** 62 connected wire groups from 414 runs; labelled ends: 292 mm → ISS; 94 mm → 136,87; 65 mm → VU_METER2, AUXILiAry; 64 mm → VU_METER2, AUXILiAry; 62 mm → E20
+
+Every curve, box, word and wire group: [1979 - 790236-02-002 - L3242A CONSOLE AUXILIARY CHANNELS & METER SCHEMATIC - DRN SRH - ISS 2 (2) (traced).json](1979%20-%20790236-02-002%20-%20L3242A%20CONSOLE%20AUXILIARY%20CHANNELS%20%26%20METER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `1979 - 790236-02-002 - L3242A CONSOLE AUXILIARY CHANNELS & METER SCHEMATIC - DRN SRH - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

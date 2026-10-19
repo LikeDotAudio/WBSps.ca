@@ -9,6 +9,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,194,142 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 2–423 mm up
+- **Outlines:** line 310 rings, 7,780 straight (15,406 mm) / 688 curved (1,079 mm); text 59 rings, 343 straight (338 mm) / 103 curved (129 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.4 @ (100.7, 109.9), r 1.4 @ (100.1, 241.6)
+- **Closed boxes:** 140
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_4 - 31106-04-003 - NORMAL TIP NORMAL TIP NORMAL TIP NORMAL TIP (traced).json](1977%20-%2031106-04-003_4%20-%2031106-04-003%20-%20NORMAL%20TIP%20NORMAL%20TIP%20NORMAL%20TIP%20NORMAL%20TIP%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_4 - 31106-04-003 - NORMAL TIP NORMAL TIP NORMAL TIP NORMAL TIP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 747,821 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 456-01-003, size B (assumed) 432 × 279 mm, 2000 × 1292 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–269 mm up
+- **Outlines:** line 513 rings, 6,601 straight (14,528 mm) / 703 curved (880 mm); text 582 rings, 3,932 straight (3,846 mm) / 1,303 curved (1,753 mm); tb 26 rings, 724 straight (1,758 mm) / 71 curved (99.9 mm)
+- **Centre lines:** 8,899 paths (122 closed); straight 11,370 mm, curved 73.7 mm; horizontal 4,831 mm, vertical 3,045 mm, diagonal 3,495 mm
+- **Circles and arcs:** 2 circles, 16 arcs; largest r 2.4 @ (69.0, 98.5), r 0.8 @ (83.4, 88.6)
+- **Closed boxes:** 22
+- **Words (OCR):** 113 in 101 lines: DIRECT OUT · SeNsiTiviTy · PAN · 10 dBm · SECTION · 10dB · INSERT · NC · MON Out · PLAYBACK · INPUT · CHANNEL
+- **Title block:** (316, 0)–(432, 60) mm: 8 /78 · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: P MAxavey · M456 B · ENG RK B · DUAL MIXDOWN MODULE · CKD Kill · APP 9L1DlE · FUNCTIONAL DIAGRAM · ~SCALE · ISSUE · 456-01
+- **Wiring (first pass):** 203 connected wire groups from 676 runs; labelled ends: 222 mm → REv SEND, REV SEND; 178 mm → MON, FOLDBACK 2; 174 mm → CHANNEL, ON, FADER, (-15dB); 174 mm → CHANNEL, Oh, FADER, (-15dB); 137 mm → SOLO
+
+Every curve, box, word and wire group: [1975 - M456B - 456-01-003 - SOLO CONTROL COMMON (traced).json](1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON%20%28traced%29.json) (the CAD file: `1975 - M456B - 456-01-003 - SOLO CONTROL COMMON (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

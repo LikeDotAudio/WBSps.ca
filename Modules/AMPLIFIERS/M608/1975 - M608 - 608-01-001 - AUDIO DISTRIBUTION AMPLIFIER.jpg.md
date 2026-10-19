@@ -11,6 +11,19 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 61,054 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 608-01-001, size B (assumed) 336 × 432 mm, 850 × 1091 px traced (0.396 mm/px)
+- **Ink extent:** 0–336 mm across, 6–428 mm up
+- **Outlines:** line 148 rings, 1,607 straight (7,130 mm) / 277 curved (625 mm); text 193 rings, 1,265 straight (2,672 mm) / 363 curved (942 mm); tb 19 rings, 162 straight (441 mm) / 31 curved (71.6 mm)
+- **Centre lines:** 2,733 paths (42 closed); straight 5,922 mm, curved 0.0 mm; horizontal 2,324 mm, vertical 1,498 mm, diagonal 2,101 mm
+- **Closed boxes:** 12 (8 in the title block); named: ISSUE; 608-01-001; SCALE
+- **Words (OCR):** 22 in 20 lines: (~6dB) · outputs · +8dBm · 600 OHmS · (~6dB) · ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRNPMalty · M6o8
+- **Title block:** (113, 14)–(332, 116) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRNPMalty · M6o8 · ENG. MRH /0/? AUDIO   DISTRIBUTION AMPLIFIER · CKD_ · FUNCTIONAL · DIAGRAM · APP · SCALE · 608-01-001 · ISSUE
+- **Wiring (first pass):** 34 connected wire groups from 75 runs; labelled ends: 72 mm → outputs, 600 OHmS; 36 mm → outputs; 19 mm → (~6dB); 17 mm → (~6dB); 15 mm → (~6dB)
+
+Every curve, box, word and wire group: [1975 - M608 - 608-01-001 - AUDIO DISTRIBUTION AMPLIFIER (traced).json](1975%20-%20M608%20-%20608-01-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M608 - 608-01-001 - AUDIO DISTRIBUTION AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

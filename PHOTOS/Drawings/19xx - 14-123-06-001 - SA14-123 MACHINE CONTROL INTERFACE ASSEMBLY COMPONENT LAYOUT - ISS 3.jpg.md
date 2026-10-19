@@ -20,6 +20,17 @@ SA14-123 machine control interface assembly component layout, title block at top
 - **Size:** 3,388,777 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 14-123-06-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–424 mm across, 18–302 mm up
+- **Outlines:** line 3,131 rings, 20,150 straight (27,531 mm) / 5,967 curved (5,648 mm); text 192 rings, 1,214 straight (1,083 mm) / 379 curved (391 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.6 @ (358.1, 42.0), r 1.6 @ (358.6, 36.2), r 1.3 @ (246.1, 107.3), r 1.3 @ (34.9, 112.9)
+- **Closed boxes:** 85
+- **Dots (junctions):** 6
+
+Every curve, box, word and wire group: [19xx - 14-123-06-001 - SA14-123 MACHINE CONTROL INTERFACE ASSEMBLY COMPONENT LAYOUT - ISS 3 (traced).json](19xx%20-%2014-123-06-001%20-%20SA14-123%20MACHINE%20CONTROL%20INTERFACE%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 14-123-06-001 - SA14-123 MACHINE CONTROL INTERFACE ASSEMBLY COMPONENT LAYOUT - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

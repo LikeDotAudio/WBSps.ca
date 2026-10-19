@@ -11,6 +11,16 @@ Wiki page: [M484](../../../PAGES/M484.md)
 - **Size:** 1,442,965 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 484-04-001, size B (assumed) 432 × 342 mm, 2000 × 1586 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–423 mm across, 2–342 mm up
+- **Outlines:** line 339 rings, 7,367 straight (11,826 mm) / 901 curved (1,460 mm); text 218 rings, 2,076 straight (2,574 mm) / 516 curved (802 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (198.0, 17.6), r 2.4 @ (83.0, 83.3)
+- **Closed boxes:** 70
+
+Every curve, box, word and wire group: [1975 - M484 - 484-04-001 - DUAL SUMMING AMPLIFIER (traced).json](1975%20-%20M484%20-%20484-04-001%20-%20DUAL%20SUMMING%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M484 - 484-04-001 - DUAL SUMMING AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

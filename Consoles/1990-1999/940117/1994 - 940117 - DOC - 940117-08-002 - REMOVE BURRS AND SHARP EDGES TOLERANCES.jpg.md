@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 14,338,866 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** parts list 940117-08-002, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 58–421 mm across, 7–258 mm up
+- **Outlines:** line 736 rings, 6,387 straight (14,148 mm) / 1,007 curved (1,226 mm); text 254 rings, 1,551 straight (1,468 mm) / 488 curved (600 mm); tb 31 rings, 214 straight (215 mm) / 53 curved (62.1 mm)
+- **Closed boxes:** 62 (3 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 32 in 25 lines: ~OTCREQCCORDINGLY · RECD · DETA · 1050 · REO'D · 2.43 · MATERIAL: CR.S: 0.059 THICK · 0JoA · 0,250 · FINISH: SAND Grit AND PAINT · 0 576 · 0.752
+- **Title block:** (341, 22)–(426, 40) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940117 - DOC - 940117-08-002 - REMOVE BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20940117%20-%20DOC%20-%20940117-08-002%20-%20REMOVE%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - 940117 - DOC - 940117-08-002 - REMOVE BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

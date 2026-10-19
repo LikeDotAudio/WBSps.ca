@@ -15,6 +15,19 @@ Wiki page: [M460L](../../../PAGES/M460L.md)
 
 - **1974** (labelled): `DATE JULY 74` — …s63PM 38 BO SOCrETs ADDei WBS WAAD-Beck systems LTD_ DRN DM DATE JULY 74 CKD_ 44 SCALE TOLS _ @ FIMISH 4-126 EQUALIZER FILTER COMPON…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 432 × 354 mm, 2000 × 1639 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–350 mm up
+- **Outlines:** line 401 rings, 6,320 straight (13,194 mm) / 1,692 curved (1,741 mm); text 659 rings, 6,695 straight (6,962 mm) / 1,681 curved (2,038 mm); tb 15 rings, 157 straight (244 mm) / 36 curved (41.5 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 4.8 @ (201.6, 322.9), r 4.7 @ (307.5, 220.6), r 4.7 @ (200.5, 206.8), r 4.7 @ (201.1, 283.6)
+- **Closed boxes:** 33 (1 in the title block); named: WBS WAAD-Beck LTD: syotems; 4-126 EQUALIZER FILTER COMPONENT ASSEMBL; MINISH; TOLS; 4-126-06-001; ISS_
+- **Dots (junctions):** 1
+- **Words (OCR):** 95 in 72 lines: E5 · E3 6-8/6 · E2 · ~C9 · C7 C6 · R2o"| · Ri9cig c18 · 2S · C21R21 R1 LMi458 · R24 · Ri8 · C4
+- **Title block:** (289, 10)–(390, 52) mm: WBS WAAD-Beck syotems · DRN: · DM · DAT JULY 74 · 4-126 · EQUALIZER FILTER · CKD · [CALE · COMPONENT ASSEMBLY
+
+Every curve, box, word and wire group: [1974 - M460L - 4-126-06-001 - EQUALIZER FILTER COMPONENT ASSEMBLY (traced).json](1974%20-%20M460L%20-%204-126-06-001%20-%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20%28traced%29.json) (the CAD file: `1974 - M460L - 4-126-06-001 - EQUALIZER FILTER COMPONENT ASSEMBLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

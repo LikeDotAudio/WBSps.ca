@@ -11,6 +11,18 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 503,361 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-018, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 9–432 mm up
+- **Outlines:** line 634 rings, 7,894 straight (10,195 mm) / 1,462 curved (1,831 mm); text 452 rings, 2,943 straight (2,570 mm) / 1,045 curved (1,327 mm); tb 38 rings, 288 straight (318 mm) / 61 curved (81.7 mm)
+- **Closed boxes:** 4 (2 in the title block); named: control R25 Provi cont nuous ly range of; Shi} PROGRAH 2 switches Khen depressed m
+- **Dots (junctions):** 1
+- **Words (OCR):** 91 in 58 lines: Magoh · adjustab le Ieve contro| · control R25 Provi · range of 30 · cont nuous ly · PROGRAH 2 · switches · Shi} · Khen · depressed eed the · the · ate
+- **Title block:** (215, 10)–(300, 62) mm: IsSu · Revisiot · WBS WAAO-Beck tstens · Drw · ENG Pa · LINE · crd · FRON · SCALE · 490-04 0 8
+
+Every curve, box, word and wire group: [1978 - M490H - 490-04-018 - SWIL WHEN THE SIGNE VIA MIXING NETWORKS (traced).json](1978%20-%20M490H%20-%20490-04-018%20-%20SWIL%20WHEN%20THE%20SIGNE%20VIA%20MIXING%20NETWORKS%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-04-018 - SWIL WHEN THE SIGNE VIA MIXING NETWORKS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,670,115 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7820-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–423 mm across, 1–287 mm up
+- **Outlines:** line 1,492 rings, 12,676 straight (24,873 mm) / 1,877 curved (2,252 mm); text 222 rings, 1,439 straight (1,174 mm) / 433 curved (532 mm)
+- **Centre lines:** 11,354 paths (230 closed); straight 14,600 mm, curved 43.8 mm; horizontal 8,272 mm, vertical 3,324 mm, diagonal 3,004 mm
+- **Circles and arcs:** 2 circles, 11 arcs; largest r 1.7 @ (326.0, 260.8), r 0.7 @ (225.0, 125.6)
+- **Closed boxes:** 89
+- **Dots (junctions):** 5
+- **Wiring (first pass):** 307 connected wire groups from 1,391 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 7820-02-001 - KEY LEVER KEY ASSY MASTER (traced).json](1981%20-%20microCOM%20-%207820-02-001%20-%20KEY%20LEVER%20KEY%20ASSY%20MASTER%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7820-02-001 - KEY LEVER KEY ASSY MASTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

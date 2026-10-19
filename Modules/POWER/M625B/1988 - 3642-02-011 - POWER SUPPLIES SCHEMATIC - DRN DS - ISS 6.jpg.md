@@ -25,6 +25,18 @@ Wiki page: [M625B](../../../PAGES/M625B.md)
 - **Size:** 3,161,908 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-011, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 810 rings, 6,302 straight (19,726 mm) / 1,299 curved (3,312 mm); text 224 rings, 1,649 straight (4,074 mm) / 502 curved (1,438 mm)
+- **Centre lines:** 5,330 paths (77 closed); straight 12,987 mm, curved 972 mm; horizontal 5,817 mm, vertical 3,106 mm, diagonal 4,065 mm
+- **Circles and arcs:** 21 circles, 63 arcs; largest r 5.3 @ (22.3, 685.2), r 5.2 @ (42.8, 632.6), r 5.0 @ (64.3, 685.0), r 4.9 @ (64.5, 761.2)
+- **Closed boxes:** 37
+- **Wiring (first pass):** 72 connected wire groups from 589 runs
+
+Every curve, box, word and wire group: [1988 - 3642-02-011 - POWER SUPPLIES SCHEMATIC - DRN DS - ISS 6 (traced).json](1988%20-%203642-02-011%20-%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1988 - 3642-02-011 - POWER SUPPLIES SCHEMATIC - DRN DS - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

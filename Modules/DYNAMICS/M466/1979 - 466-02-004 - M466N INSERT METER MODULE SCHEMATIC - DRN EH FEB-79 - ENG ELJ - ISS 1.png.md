@@ -24,6 +24,20 @@ Wiki page: [M466](../../../PAGES/M466.md)
 - **Size:** 1,500,850 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 466-02-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 7–296 mm up
+- **Outlines:** line 504 rings, 6,645 straight (11,546 mm) / 1,099 curved (1,415 mm); text 390 rings, 2,478 straight (2,574 mm) / 735 curved (945 mm); tb 52 rings, 310 straight (410 mm) / 74 curved (89.6 mm)
+- **Centre lines:** 11,023 paths (147 closed); straight 9,438 mm, curved 204 mm; horizontal 3,536 mm, vertical 2,410 mm, diagonal 3,493 mm
+- **Circles and arcs:** 6 circles, 26 arcs; largest r 3.8 @ (362.6, 181.4), r 3.7 @ (339.2, 184.9), r 3.5 @ (350.9, 167.9), r 3.4 @ (362.0, 242.1)
+- **Closed boxes:** 7 (5 in the title block); named: 466-02-004
+- **Words (OCR):** 76 in 69 lines: 05 · TIp 298 · 711 25Vt · 3.3 · IN4003 · R6o 2k2 · PN3569 · (SIGNAL By-PASS) · OUtPUT · CR? · R7ok · R4A
+- **Title block:** (294, 19)–(432, 87) mm: ISSUE DATE · REVISION · WBS WARD-BECK SYSTEMS · DRN_ · Ma66N · ENG_ · INSERT METER · MODULE · CKD · 72-75 · SCHEMATIC · APP · SCALE · 466-02-004 · ISSUE
+- **Wiring (first pass):** 58 connected wire groups from 352 runs; labelled ends: 170 mm → 3.3, R7ok, PN3569, CR?; 142 mm → Rli, Cib, 610, 2702; 116 mm → 33/10, R59; 112 mm → 39/10, R5e, Iook; 109 mm → 22/25, 710, 22/151, 22/17
+
+Every curve, box, word and wire group: [1979 - 466-02-004 - M466N INSERT METER MODULE SCHEMATIC - DRN EH FEB-79 - ENG ELJ - ISS 1 (traced).json](1979%20-%20466-02-004%20-%20M466N%20INSERT%20METER%20MODULE%20SCHEMATIC%20-%20DRN%20EH%20FEB-79%20-%20ENG%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 466-02-004 - M466N INSERT METER MODULE SCHEMATIC - DRN EH FEB-79 - ENG ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

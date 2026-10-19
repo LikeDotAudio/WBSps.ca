@@ -11,6 +11,17 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,105,037 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 288 rings, 4,091 straight (10,935 mm) / 467 curved (640 mm); text 133 rings, 812 straight (760 mm) / 296 curved (387 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.6 @ (8.3, 109.8)
+- **Closed boxes:** 13; named: 5491-006 DECOUPLING PLATE ECR 425v (PS7,
+- **Words (OCR):** 17 in 16 lines: 5491-006 · DECOUPUNG · DECOUPLING · DECOUPLING · PLAIE F0R · PLAIBoR · PLATE ECR · 425v · +124 · (PS3,PS4, · (PS7,PSE) · CCs
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-004 - DECOUPLING PLAEDR PLAE FOR PLATE FOR (traced).json](1988%20-%20880134%20-%20880134-04-004%20-%20DECOUPLING%20PLAEDR%20PLAE%20FOR%20PLATE%20FOR%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-004 - DECOUPLING PLAEDR PLAE FOR PLATE FOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

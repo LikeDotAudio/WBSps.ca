@@ -21,6 +21,17 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,149,314 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 900438-04-012, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–413 mm across, 19–278 mm up
+- **Outlines:** line 574 rings, 6,527 straight (13,678 mm) / 1,121 curved (1,795 mm); text 274 rings, 1,655 straight (1,849 mm) / 519 curved (789 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 2.0 @ (97.7, 218.3), r 2.0 @ (85.3, 180.5), r 1.9 @ (64.2, 218.5), r 1.9 @ (60.8, 180.5)
+- **Closed boxes:** 46
+- **Dots (junctions):** 21
+
+Every curve, box, word and wire group: [1990 - 900438-04-012 - PADBOARD 1 LAYOUT - DRN DRG - ISS 1 (traced).json](1990%20-%20900438-04-012%20-%20PADBOARD%201%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-04-012 - PADBOARD 1 LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

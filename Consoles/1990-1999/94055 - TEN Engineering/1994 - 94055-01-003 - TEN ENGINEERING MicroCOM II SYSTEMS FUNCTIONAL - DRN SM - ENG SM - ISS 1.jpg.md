@@ -22,6 +22,20 @@ Wiki page: [Job-94055](../../../PAGES/Job-94055.md)
 - **Size:** 470,611 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 94055-01-003, size D 864 × 557 mm, 2000 × 1289 px traced (0.432 mm/px)
+- **Ink extent:** 11–859 mm across, 8–546 mm up
+- **Outlines:** line 1,129 rings, 6,584 straight (20,301 mm) / 1,547 curved (3,849 mm); text 133 rings, 878 straight (1,770 mm) / 277 curved (700 mm); tb 55 rings, 374 straight (698 mm) / 107 curved (233 mm)
+- **Centre lines:** 13,806 paths (643 closed); straight 16,097 mm, curved 100 mm; horizontal 5,321 mm, vertical 3,789 mm, diagonal 6,987 mm
+- **Circles and arcs:** 1 circles, 16 arcs; largest r 1.4 @ (135.9, 174.3)
+- **Closed boxes:** 51 (9 in the title block); named: EXTFRHAI (NOT; NTERCO4; GCI
+- **Words (OCR):** 16 in 16 lines: (Noiz · EXTFRHAI · (NOT · HtukIL · NTERCO4 · AOTE ? · KNoTE · SLoPLIC · Hod FEEM · WARD-BECK  SYSTEMS · WBS · TEN   ENGINEERING
+- **Title block:** (683, 10)–(851, 73) mm: WARD-BECK  SYSTEMS · WBS · TEN   ENGINEERING · MicroCOM · SYSTEMS FUNCTIONAL · GCI · 94055-01-003
+- **Wiring (first pass):** 110 connected wire groups from 1,776 runs; labelled ends: 6 mm → WBS; 6 mm → WBS; 6 mm → WARD-BECK  SYSTEMS; 5 mm → Hod FEEM
+
+Every curve, box, word and wire group: [1994 - 94055-01-003 - TEN ENGINEERING MicroCOM II SYSTEMS FUNCTIONAL - DRN SM - ENG SM - ISS 1 (traced).json](1994%20-%2094055-01-003%20-%20TEN%20ENGINEERING%20MicroCOM%20II%20SYSTEMS%20FUNCTIONAL%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94055-01-003 - TEN ENGINEERING MicroCOM II SYSTEMS FUNCTIONAL - DRN SM - ENG SM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

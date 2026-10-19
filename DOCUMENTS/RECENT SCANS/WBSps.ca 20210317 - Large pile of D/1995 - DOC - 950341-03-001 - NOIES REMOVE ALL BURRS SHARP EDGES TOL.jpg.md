@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,247,125 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950341-03-001, size B (assumed) 432 × 279 mm, 2000 × 1292 px traced (0.216 mm/px)
+- **Ink extent:** 20–422 mm across, 6–257 mm up
+- **Outlines:** line 1,042 rings, 6,678 straight (15,182 mm) / 1,436 curved (1,980 mm); text 281 rings, 1,669 straight (1,480 mm) / 540 curved (655 mm); tb 57 rings, 476 straight (1,376 mm) / 75 curved (84.1 mm)
+- **Centre lines:** 9,086 paths (247 closed); straight 10,524 mm, curved 224 mm; horizontal 5,518 mm, vertical 2,153 mm, diagonal 2,854 mm
+- **Circles and arcs:** 16 circles, 8 arcs; largest r 6.2 @ (196.9, 153.6), r 6.2 @ (263.7, 153.6), r 6.2 @ (241.4, 153.6), r 6.2 @ (219.1, 153.6)
+- **Closed boxes:** 2
+- **Words (OCR):** 47 in 42 lines: 0,32F · DEIALA · DETAI · 0JE 4 · PLACES · detAl · DETAIC · PITCHes 1.780 5.250 · PLOS · FLACES · 0,610 · oeno
+- **Title block:** (340, 4)–(428, 42) mm: ISSUEI DAT · WBS · WARD-BECK SYSTEMS · REAR PANEL · FOR M8220 · (MODIFIED) · SCALE · 950341-03-001 · CODZ 05341M01
+
+Every curve, box, word and wire group: [1995 - DOC - 950341-03-001 - NOIES REMOVE ALL BURRS SHARP EDGES TOL (traced).json](1995%20-%20DOC%20-%20950341-03-001%20-%20NOIES%20REMOVE%20ALL%20BURRS%20SHARP%20EDGES%20TOL%20%28traced%29.json) (the CAD file: `1995 - DOC - 950341-03-001 - NOIES REMOVE ALL BURRS SHARP EDGES TOL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

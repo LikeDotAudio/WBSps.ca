@@ -22,6 +22,20 @@ Wiki page: [M485](../../../PAGES/M485.md)
 - **Size:** 1,546,864 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 485-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 170 rings, 4,071 straight (9,525 mm) / 560 curved (866 mm); text 409 rings, 2,924 straight (3,389 mm) / 840 curved (1,263 mm); tb 34 rings, 279 straight (363 mm) / 43 curved (50.3 mm)
+- **Centre lines:** 6,626 paths (67 closed); straight 8,114 mm, curved 189 mm; horizontal 3,122 mm, vertical 2,146 mm, diagonal 2,845 mm
+- **Circles and arcs:** 7 circles, 18 arcs; largest r 7.5 @ (183.5, 250.1), r 1.5 @ (288.6, 221.9), r 1.3 @ (288.5, 159.5), r 1.3 @ (288.5, 190.8)
+- **Closed boxes:** 9 (8 in the title block)
+- **Words (OCR):** 71 in 63 lines: IN4004 · CRS · TBI · R3 · +25v · 41 · ZN 0.472 · 3772 6W · TB1 · 80-19 · Cr7 TN · 4003
+- **Title block:** (280, 12)–(432, 81) mm: APP · ISSUE DATE · REVISION · WBS WARD-BECK SYSTEMS · DRNPMAHONsY · M485 · ENG_ · +25V · POWER SUPPLY · SCHEMATIC · APP · SCALE · ISSUE · 485-02-001
+- **Wiring (first pass):** 41 connected wire groups from 215 runs; labelled ends: 182 mm → 34oouF, 75v, s,10, 340ouF; 122 mm → RA, 0.472, CRB, 4003; 119 mm → TBI; 117 mm → CRS, IN4004, 41, Fi 2.5A; 109 mm → C2, 340ouF, 75v, F2
+
+Every curve, box, word and wire group: [19xx - 485-02-001 - ±25V POWER SUPPLY SCHEMATIC - DRN P. Mahoney - ISS 1 (traced).json](19xx%20-%20485-02-001%20-%20%C2%B125V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 485-02-001 - ±25V POWER SUPPLY SCHEMATIC - DRN P. Mahoney - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

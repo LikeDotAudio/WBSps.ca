@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,530,883 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960195-04-001, size B (assumed) 432 × 277 mm, 2000 × 1282 px traced (0.216 mm/px)
+- **Ink extent:** 70–429 mm across, 7–225 mm up
+- **Outlines:** line 991 rings, 6,714 straight (19,495 mm) / 1,158 curved (1,999 mm); text 82 rings, 485 straight (495 mm) / 158 curved (213 mm); tb 10 rings, 81 straight (124 mm) / 20 curved (28.4 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 4.5 @ (135.8, 98.4), r 4.5 @ (192.5, 98.3), r 4.5 @ (154.6, 98.4), r 4.5 @ (173.6, 98.3)
+- **Closed boxes:** 87 (5 in the title block); named: CBC MF_7 FRAME; 960195-04-001; CODI- 26193101
+- **Dots (junctions):** 1
+- **Words (OCR):** 11 in 9 lines: AEMSIO" · BECK SYSTEMS · WBS WARD · DACJULS · CBC · MF_7 · FRAME · 960195-04-001 · CODI- 26193101
+- **Title block:** (340, 22)–(424, 39) mm: AEMSIO" · BECK SYSTEMS · WBS WARD · DACJULS · CBC
+
+Every curve, box, word and wire group: [1996 - DOC - 960195-04-001 - CAUTION DISCONNECT POKER BEFORE SORUCUG PCAOR (traced).json](1996%20-%20DOC%20-%20960195-04-001%20-%20CAUTION%20DISCONNECT%20POKER%20BEFORE%20SORUCUG%20PCAOR%20%28traced%29.json) (the CAD file: `1996 - DOC - 960195-04-001 - CAUTION DISCONNECT POKER BEFORE SORUCUG PCAOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

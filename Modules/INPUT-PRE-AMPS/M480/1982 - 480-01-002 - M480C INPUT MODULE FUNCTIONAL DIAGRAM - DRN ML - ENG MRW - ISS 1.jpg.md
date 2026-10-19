@@ -23,6 +23,20 @@ Wiki page: [M480](../../../PAGES/M480.md)
 - **Size:** 339,465 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 480-01-002, size B 432 × 274 mm, 2000 × 1269 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–274 mm up
+- **Outlines:** line 145 rings, 3,456 straight (8,164 mm) / 418 curved (617 mm); text 497 rings, 3,577 straight (3,924 mm) / 1,065 curved (1,518 mm); tb 6 rings, 102 straight (230 mm) / 7 curved (12.7 mm)
+- **Centre lines:** 4,814 paths (83 closed); straight 7,047 mm, curved 82.3 mm; horizontal 2,616 mm, vertical 1,748 mm, diagonal 2,682 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 4.8 @ (159.2, 120.7)
+- **Closed boxes:** 8 (6 in the title block); named: EQUALIZER
+- **Words (OCR):** 84 in 73 lines: A/8 · SELECT · PAD · mic INPuT · iN/out Mic/inE · SELECT · SENSiTiViTY · EQ · 70/-40 dBm · 30d8 · INSERT · PAD
+- **Title block:** (285, 1)–(432, 69) mm: IsSU DATE · Revision · App · WBS WARD-BECK ByBTEMB · DrN AL_eez · M48OC · ENG: MEW · INPUT MODULE · CKD: · APP · FUNCTIONAL DIAGRAM · SCALE · ISSUE · 480-01-002
+- **Wiring (first pass):** 100 connected wire groups from 263 runs; labelled ends: 301 mm → INSERT, (-1SdB), BST, CUE/; 71 mm → PEAK, PGM; 64 mm → BST, PosT; 59 mm → 31e; 54 mm → BST
+
+Every curve, box, word and wire group: [1982 - 480-01-002 - M480C INPUT MODULE FUNCTIONAL DIAGRAM - DRN ML - ENG MRW - ISS 1 (traced).json](1982%20-%20480-01-002%20-%20M480C%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20ML%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 480-01-002 - M480C INPUT MODULE FUNCTIONAL DIAGRAM - DRN ML - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

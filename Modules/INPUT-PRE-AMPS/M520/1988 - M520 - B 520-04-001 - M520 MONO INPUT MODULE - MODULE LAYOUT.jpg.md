@@ -12,6 +12,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 1,988,545 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 520-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 54–423 mm across, 9–266 mm up
+- **Outlines:** line 1,235 rings, 8,770 straight (20,703 mm) / 1,459 curved (2,280 mm); text 124 rings, 759 straight (793 mm) / 234 curved (317 mm); tb 2 rings, 35 straight (93.7 mm) / 3 curved (5.5 mm)
+- **Circles and arcs:** 33 circles, 0 arcs; largest r 3.3 @ (236.7, 45.9), r 3.3 @ (361.0, 170.3), r 3.3 @ (236.6, 158.9), r 3.3 @ (360.9, 180.2)
+- **Closed boxes:** 40; named: PGMI SENS AUX 4 AUX 3 AUX 2; PGMI SENS AUX 4 AUX 3 AUX 2
+- **Dots (junctions):** 6
+- **Words (OCR):** 14 in 12 lines: PGMI · SENS · AUX 4 · S4-J · AUX 3 · AUX 2 · WBS WARD-BECK SYSTEMS · M520 · MONO INPUT MODULE · MODULE LAYOUT · 520-04-001 · ISS.
+- **Title block:** (343, 31)–(432, 47) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1988 - M520 - B 520-04-001 - M520 MONO INPUT MODULE - MODULE LAYOUT (traced).json](1988%20-%20M520%20-%20B%20520-04-001%20-%20M520%20MONO%20INPUT%20MODULE%20-%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1988 - M520 - B 520-04-001 - M520 MONO INPUT MODULE - MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

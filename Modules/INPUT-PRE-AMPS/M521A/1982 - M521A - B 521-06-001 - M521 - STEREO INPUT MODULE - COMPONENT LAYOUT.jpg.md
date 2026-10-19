@@ -11,6 +11,17 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 7,825,020 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 521-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 3,096 rings, 19,679 straight (24,288 mm) / 5,648 curved (5,581 mm); text 437 rings, 2,513 straight (1,958 mm) / 973 curved (962 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 3.5 @ (232.7, 219.2), r 3.3 @ (246.5, 82.7), r 3.3 @ (360.6, 83.1), r 3.2 @ (58.9, 81.9)
+- **Closed boxes:** 18
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1982 - M521A - B 521-06-001 - M521 - STEREO INPUT MODULE - COMPONENT LAYOUT (traced).json](1982%20-%20M521A%20-%20B%20521-06-001%20-%20M521%20-%20STEREO%20INPUT%20MODULE%20-%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M521A - B 521-06-001 - M521 - STEREO INPUT MODULE - COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

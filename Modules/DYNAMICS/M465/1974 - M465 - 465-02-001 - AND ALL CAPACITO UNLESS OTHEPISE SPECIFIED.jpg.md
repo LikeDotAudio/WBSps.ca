@@ -11,6 +11,19 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 700,040 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 465-02-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 7–422 mm up
+- **Outlines:** line 226 rings, 4,868 straight (9,005 mm) / 772 curved (1,198 mm); text 430 rings, 3,640 straight (4,093 mm) / 1,245 curved (1,843 mm)
+- **Centre lines:** 5,759 paths (59 closed); straight 7,955 mm, curved 366 mm; horizontal 2,840 mm, vertical 1,831 mm, diagonal 3,284 mm
+- **Circles and arcs:** 10 circles, 48 arcs; largest r 4.7 @ (76.1, 309.0), r 4.6 @ (237.2, 305.1), r 4.5 @ (76.5, 214.8), r 1.5 @ (68.0, 319.9)
+- **Closed boxes:** 2
+- **Words (OCR):** 99 in 87 lines: Rii · Sw7 · R-R ON · 15 · 713 12 < · 2E2 · 5.6 · R38 · FADER · Ri3 · RETURN · IN
+- **Wiring (first pass):** 59 connected wire groups from 290 runs; labelled ends: 353 mm → MASTER, Ri, 30, 300; 338 mm → Rii, 5.6, Ri3, Sw7; 225 mm → Ri3, R12; 210 mm → R-R ON, R38, 713; 209 mm → R37, 620
+
+Every curve, box, word and wire group: [1974 - M465 - 465-02-001 - AND ALL CAPACITO UNLESS OTHEPISE SPECIFIED (traced).json](1974%20-%20M465%20-%20465-02-001%20-%20AND%20ALL%20CAPACITO%20UNLESS%20OTHEPISE%20SPECIFIED%20%28traced%29.json) (the CAD file: `1974 - M465 - 465-02-001 - AND ALL CAPACITO UNLESS OTHEPISE SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

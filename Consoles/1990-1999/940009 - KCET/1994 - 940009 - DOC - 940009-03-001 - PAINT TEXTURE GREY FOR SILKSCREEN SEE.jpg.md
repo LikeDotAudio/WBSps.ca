@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,861,722 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940009-03-001, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px)
+- **Ink extent:** 4–421 mm across, 4–277 mm up
+- **Outlines:** line 1,021 rings, 8,026 straight (15,541 mm) / 1,514 curved (2,081 mm); text 200 rings, 1,278 straight (1,194 mm) / 386 curved (477 mm); tb 6 rings, 65 straight (48.2 mm) / 25 curved (25.7 mm)
+- **Centre lines:** 8,844 paths (209 closed); straight 9,760 mm, curved 361 mm; horizontal 4,840 mm, vertical 2,030 mm, diagonal 2,889 mm
+- **Circles and arcs:** 10 circles, 24 arcs; largest r 5.1 @ (204.0, 175.8), r 5.1 @ (116.2, 179.2), r 5.1 @ (233.8, 174.9), r 5.1 @ (145.2, 178.3)
+- **Closed boxes:** 9 (1 in the title block); named: CHANNEL/2 WIRE INTERFACE REAR PANEL; 940009-03-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 32 in 30 lines: DETAL_B · detr · DEIAI · 1J7c · PITCHES · 17676 · PLACES · 7070 · PLICES · DETAU · TEXCOTE MNIL · PLCES
+- **Title block:** (353, 24)–(427, 45) mm: ISSUE]DAEL · WES) WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940009 - DOC - 940009-03-001 - PAINT TEXTURE GREY FOR SILKSCREEN SEE (traced).json](1994%20-%20940009%20-%20DOC%20-%20940009-03-001%20-%20PAINT%20TEXTURE%20GREY%20FOR%20SILKSCREEN%20SEE%20%28traced%29.json) (the CAD file: `1994 - 940009 - DOC - 940009-03-001 - PAINT TEXTURE GREY FOR SILKSCREEN SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

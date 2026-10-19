@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,350,099 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940243-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 82–422 mm across, 7–188 mm up
+- **Outlines:** line 748 rings, 6,041 straight (21,221 mm) / 717 curved (911 mm); text 102 rings, 627 straight (679 mm) / 192 curved (261 mm); tb 17 rings, 147 straight (182 mm) / 23 curved (24.7 mm)
+- **Closed boxes:** 34 (4 in the title block); named: CENTENNIAL COLLEGE 24*36 MiniCoM FRONT L; 940243-04-001; DSC ND 469
+- **Dots (junctions):** 4
+- **Words (OCR):** 8 in 8 lines: VAT ( · WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLEGE · 24*36 MiniCoM · FRONT LAYOUT · DSC ND 469 · 940243-04-001
+- **Title block:** (344, 22)–(428, 39) mm: WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLEGE
+
+Every curve, box, word and wire group: [1994 - 940243 - DOC - 940243-04-001 - ILL CAUTON DISCOUNECT POKER DEFORE IFSERTNG DTRACMAG (traced).json](1994%20-%20940243%20-%20DOC%20-%20940243-04-001%20-%20ILL%20CAUTON%20DISCOUNECT%20POKER%20DEFORE%20IFSERTNG%20DTRACMAG%20%28traced%29.json) (the CAD file: `1994 - 940243 - DOC - 940243-04-001 - ILL CAUTON DISCOUNECT POKER DEFORE IFSERTNG DTRACMAG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

@@ -22,6 +22,21 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 531,614 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-109-02-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 383 rings, 3,941 straight (11,928 mm) / 806 curved (1,122 mm); text 389 rings, 2,209 straight (1,972 mm) / 710 curved (882 mm); tb 31 rings, 271 straight (274 mm) / 75 curved (97.5 mm)
+- **Centre lines:** 5,962 paths (118 closed); straight 8,098 mm, curved 286 mm; horizontal 3,546 mm, vertical 2,262 mm, diagonal 2,291 mm
+- **Circles and arcs:** 8 circles, 44 arcs; largest r 3.9 @ (210.3, 250.5), r 3.8 @ (238.2, 244.4), r 3.8 @ (182.3, 237.0), r 3.8 @ (238.6, 194.7)
+- **Closed boxes:** 12 (9 in the title block); named: 4'7F; Riz
+- **Dots (junctions):** 1
+- **Words (OCR):** 89 in 86 lines: E3 · +21-5Y · 23 · Ri7 · Ris · 10/25 · 4K7 · 02 · Pn3C45 · 03 · 2N2102 · F3s6
+- **Title block:** (354, 5)–(432, 39) mm: DAtl · WBS · WAAD-Beck BysteMS · RuL · BOOSTER AMPLiFIER · SCHEMATIC · SCALE · 8-109-02 006
+- **Wiring (first pass):** 50 connected wire groups from 404 runs; labelled ends: 243 mm → cs, 4-7p, Gk2; 184 mm → E3, +21-5Y, Ri7, 4K7; 175 mm → 2N4037, R2s; 153 mm → Lk2, cio, 47e, 4'7F; 133 mm → R32, 64B, R35, 4'7F
+
+Every curve, box, word and wire group: [1978 - 8-109-02-006 - 8-109E BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).json](1978%20-%208-109-02-006%20-%208-109E%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 8-109-02-006 - 8-109E BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

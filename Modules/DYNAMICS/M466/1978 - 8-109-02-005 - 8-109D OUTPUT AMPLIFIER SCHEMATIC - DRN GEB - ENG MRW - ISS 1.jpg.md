@@ -24,6 +24,21 @@ Wiki page: [M466](../../../PAGES/M466.md)
 - **Size:** 304,171 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-109-02-005, size B 432 × 285 mm, 2000 × 1322 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–285 mm up
+- **Outlines:** line 356 rings, 4,269 straight (9,233 mm) / 880 curved (1,207 mm); text 365 rings, 2,100 straight (1,914 mm) / 825 curved (1,066 mm); tb 10 rings, 147 straight (176 mm) / 32 curved (35.5 mm)
+- **Centre lines:** 5,770 paths (112 closed); straight 6,617 mm, curved 273 mm; horizontal 2,681 mm, vertical 1,671 mm, diagonal 2,265 mm
+- **Circles and arcs:** 5 circles, 44 arcs; largest r 4.0 @ (239.6, 241.9), r 3.9 @ (211.3, 115.9), r 3.8 @ (240.0, 190.8), r 3.8 @ (183.6, 234.4)
+- **Closed boxes:** 11 (4 in the title block); named: Je
+- **Dots (junctions):** 1
+- **Words (OCR):** 91 in 87 lines: E3 · 390 · +2i.5v · iolzs · 23 · Ri7 · Ris · 4k7 · 02 · Pn3c45 · LF3sc · 2n2102
+- **Title block:** (357, 14)–(432, 31) mm: WBS WARD-DeCK SYSTEMS · 8 - 109D
+- **Wiring (first pass):** 54 connected wire groups from 390 runs; labelled ends: 188 mm → E3, +2i.5v, 390, Ri7; 178 mm → 348, 2N4037, R2s, 4k7; 136 mm → Rzo, 6*6, R34, 5-6; 134 mm → RB, 470, I8k, cic; 134 mm → R32, R35, Je, R33
+
+Every curve, box, word and wire group: [1978 - 8-109-02-005 - 8-109D OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).json](1978%20-%208-109-02-005%20-%208-109D%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 8-109-02-005 - 8-109D OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

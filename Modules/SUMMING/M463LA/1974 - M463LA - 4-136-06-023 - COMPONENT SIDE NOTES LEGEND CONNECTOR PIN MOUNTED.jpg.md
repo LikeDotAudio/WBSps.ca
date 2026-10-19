@@ -11,6 +11,18 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 - **Size:** 2,070,232 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-136-06-023, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–431 mm up
+- **Outlines:** line 818 rings, 6,936 straight (9,967 mm) / 2,062 curved (2,294 mm); text 772 rings, 6,413 straight (6,197 mm) / 2,008 curved (2,361 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 7.6 @ (187.1, 230.8), r 4.8 @ (75.0, 237.2), r 3.0 @ (187.0, 230.6), r 2.8 @ (55.5, 204.2)
+- **Closed boxes:** 9; named: 24; Tip 3o8; 23; V23030-A202i-Aio4; 22; Tip 29B; 21
+- **Dots (junctions):** 1
+- **Words (OCR):** 119 in 100 lines: MOUNTED ON · SOLDER SIDE · Rios · Swi3 Iswi2i · Swii · Rez "5k · RbO · 42 · ~R8147 · 00000 · ~R5oz20 · To swis
+
+Every curve, box, word and wire group: [1974 - M463LA - 4-136-06-023 - COMPONENT SIDE NOTES LEGEND CONNECTOR PIN MOUNTED (traced).json](1974%20-%20M463LA%20-%204-136-06-023%20-%20COMPONENT%20SIDE%20NOTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED%20%28traced%29.json) (the CAD file: `1974 - M463LA - 4-136-06-023 - COMPONENT SIDE NOTES LEGEND CONNECTOR PIN MOUNTED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

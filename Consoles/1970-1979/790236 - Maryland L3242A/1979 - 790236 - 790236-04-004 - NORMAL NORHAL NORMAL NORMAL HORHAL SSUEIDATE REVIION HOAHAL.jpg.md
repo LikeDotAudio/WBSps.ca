@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 34,885,449 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-004, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–280 mm up
+- **Outlines:** line 1,524 rings, 12,720 straight (30,619 mm) / 1,436 curved (1,688 mm); text 160 rings, 856 straight (768 mm) / 245 curved (298 mm); tb 26 rings, 188 straight (193 mm) / 28 curved (31.2 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.1 @ (6.1, 69.1), r 0.9 @ (391.3, 250.5), r 0.7 @ (124.2, 240.7), r 0.7 @ (410.9, 266.2)
+- **Closed boxes:** 104 (5 in the title block); named: LEGEND; JACKFIELD RowS To; 790226-04-0o+
+- **Dots (junctions):** 5
+- **Words (OCR):** 19 in 18 lines: LEGEND · ROW · UMPER · ART · Typical Audio · uput_ · 104 · CONRECTED · Norya contacts · STRAP · CONNRCTD · NOR4AL
+- **Title block:** (358, 18)–(432, 34) mm: WBS WAAD-DECK SYSTEMS
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-004 - NORMAL NORHAL NORMAL NORMAL HORHAL SSUEIDATE REVIION HOAHAL (traced).json](1979%20-%20790236%20-%20790236-04-004%20-%20NORMAL%20NORHAL%20NORMAL%20NORMAL%20HORHAL%20SSUEIDATE%20REVIION%20HOAHAL%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-004 - NORMAL NORHAL NORMAL NORMAL HORHAL SSUEIDATE REVIION HOAHAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

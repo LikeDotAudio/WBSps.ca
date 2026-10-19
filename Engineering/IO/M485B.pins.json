@@ -1,0 +1,69 @@
+{
+ "code": "M485B",
+ "name": "SERIES REG BASE",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 7,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "J8",
+   "rows": 2,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "OPERATED FROM THE OUTPUT OF 22",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6bf1d9694be4d68d6ea5eb291b1a0f6728207cbe8ba784ac46d0f387b670aaa7",
+    "file": "Modules/POWER/M485B/1982 - M485B - 25V power Supply.pdf",
+    "page": 5
+   },
+   "quote": "R18 Serves as differential control valtage while decreasing the other Adjusting Ria wil| increase one Booster transistors 04 and 05 are operated from the output of 22 (pin 7) and in [Urn drive the negativc Series regulator 02 On the main frame via pin of the edge connector.",
+   "also": [
+    {
+     "signal": "OPERATED FROM THE OUTPUT OF 22",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/POWER/M485B/1982 - M485B - 25V power Supply.pdf",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "conn": "J8",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "820c938ddfa06ba2b3a538fd4fa07efaf896de901342791b23df553894922b6b",
+    "file": "Modules/POWER/M485B/1978 - M485B - 1-117-06-001 - ADOEO KTI.jpg",
+    "page": 1
+   },
+   "quote": "# 8 9 # 0 1 1 8 1 { 1 F 1 J 8 :2 8 8 8 0 2 3 8 8 1 8 2 2 b 0 F 1 1 1 8 8 2 JAHF F 8e 1 I: 8 500 0 1 8 Prs1 8 1 0 8 2 2 8 8 { 1 2 I8 2 8 8 1 Hiz 8 8 8 8 1 83 I l",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

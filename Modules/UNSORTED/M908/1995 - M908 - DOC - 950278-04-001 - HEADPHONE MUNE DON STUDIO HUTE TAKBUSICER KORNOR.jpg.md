@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,760,801 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950278-04-001, size B (assumed) 432 × 352 mm, 2000 × 1630 px traced (0.216 mm/px); scale DISC NO: SYSQ1
+- **Ink extent:** 35–427 mm across, 0–325 mm up
+- **Outlines:** line 1,583 rings, 11,742 straight (36,363 mm) / 1,550 curved (2,020 mm); text 483 rings, 3,019 straight (3,164 mm) / 1,042 curved (1,364 mm); tb 18 rings, 377 straight (1,896 mm) / 10 curved (12.6 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 6.7 @ (380.8, 99.8), r 6.7 @ (380.5, 126.2), r 1.9 @ (382.9, 102.3), r 1.9 @ (382.7, 128.7)
+- **Closed boxes:** 186; named: M9O5B; HEADPHONES STUDIO; HEADPHORES DON Mune STUDIO; TAKbusicer
+- **Dots (junctions):** 32
+- **Words (OCR):** 88 in 73 lines: CH · CH 8 · CH9 · CH 10 CH · CH 12 · CH 13 · CH 14 · CH 15 · CH 16 · CR MON STD MON · METER · CH
+- **Title block:** (293, 0)–(431, 58) mm: ISSUE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRN: WKW · KKLZ_FM · ENG_ WKW · LAYOUT · CKD · MKII   CONSOLE · APP_ · SCALE DISC NO: SYSQ1 · 950278-04-001 · ISSUE · CODE: 95278L01
+
+Every curve, box, word and wire group: [1995 - M908 - DOC - 950278-04-001 - HEADPHONE MUNE DON STUDIO HUTE TAKBUSICER KORNOR (traced).json](1995%20-%20M908%20-%20DOC%20-%20950278-04-001%20-%20HEADPHONE%20MUNE%20DON%20STUDIO%20HUTE%20TAKBUSICER%20KORNOR%20%28traced%29.json) (the CAD file: `1995 - M908 - DOC - 950278-04-001 - HEADPHONE MUNE DON STUDIO HUTE TAKBUSICER KORNOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

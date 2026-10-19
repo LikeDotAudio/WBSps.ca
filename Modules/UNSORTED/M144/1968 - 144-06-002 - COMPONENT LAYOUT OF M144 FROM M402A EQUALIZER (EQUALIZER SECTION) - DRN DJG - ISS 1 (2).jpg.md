@@ -22,6 +22,17 @@ Wiki page: [M144](../../../PAGES/M144.md)
 - **Size:** 4,362,889 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 144-06-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 4–428 mm across, 32–305 mm up
+- **Outlines:** line 1,855 rings, 9,525 straight (11,067 mm) / 1,837 curved (1,828 mm); text 592 rings, 3,726 straight (3,303 mm) / 916 curved (1,008 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (197.4, 36.7), r 1.2 @ (108.0, 206.7)
+- **Closed boxes:** 11
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1968 - 144-06-002 - COMPONENT LAYOUT OF M144 FROM M402A EQUALIZER (EQUALIZER SECTION) - DRN DJG - ISS 1 (2) (traced).json](1968%20-%20144-06-002%20-%20COMPONENT%20LAYOUT%20OF%20M144%20FROM%20M402A%20EQUALIZER%20%28EQUALIZER%20SECTION%29%20-%20DRN%20DJG%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1968 - 144-06-002 - COMPONENT LAYOUT OF M144 FROM M402A EQUALIZER (EQUALIZER SECTION) - DRN DJG - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

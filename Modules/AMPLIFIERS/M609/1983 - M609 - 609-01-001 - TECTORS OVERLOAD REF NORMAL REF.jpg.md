@@ -11,6 +11,19 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 474,779 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 609-01-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–339 mm across, 5–396 mm up
+- **Outlines:** line 100 rings, 2,142 straight (5,550 mm) / 266 curved (505 mm); text 209 rings, 1,817 straight (2,122 mm) / 457 curved (764 mm)
+- **Centre lines:** 1,534 paths (39 closed); straight 4,039 mm, curved 210 mm; horizontal 1,659 mm, vertical 1,052 mm, diagonal 1,327 mm
+- **Circles and arcs:** 11 circles, 1 arcs; largest r 5.9 @ (285.7, 136.9), r 5.8 @ (286.0, 96.8), r 5.8 @ (286.5, 56.4), r 5.7 @ (130.8, 248.0)
+- **Closed boxes:** 2; named: M208 ATTENUATOR
+- **Words (OCR):** 30 in 25 lines: INPUT · ~22dBm · To +8dBm · PRE · M208 · 30k ohms · out · ATTENUATOR · LOC SENS · +30/-30dB · REMOTE · SENSITiViTY
+- **Wiring (first pass):** 71 connected wire groups from 124 runs; labelled ends: 266 mm → out; 164 mm → PRE, ATTENUATOR; 146 mm → 3i8, AC, Hz .; 95 mm → +8dBm, PRE; 74 mm → SENSITiViTY
+
+Every curve, box, word and wire group: [1983 - M609 - 609-01-001 - TECTORS OVERLOAD REF NORMAL REF (traced).json](1983%20-%20M609%20-%20609-01-001%20-%20TECTORS%20OVERLOAD%20REF%20NORMAL%20REF%20%28traced%29.json) (the CAD file: `1983 - M609 - 609-01-001 - TECTORS OVERLOAD REF NORMAL REF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

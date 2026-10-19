@@ -22,6 +22,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 1,098,495 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 405-03-082, size D 864 × 611 mm, 2000 × 1414 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 92–860 mm across, 7–596 mm up
+- **Outlines:** line 94 rings, 2,031 straight (16,135 mm) / 107 curved (294 mm); text 498 rings, 3,149 straight (8,068 mm) / 1,038 curved (3,091 mm); tb 5 rings, 85 straight (434 mm) / 5 curved (17.6 mm)
+- **Centre lines:** 3,303 paths (78 closed); straight 14,022 mm, curved 28.3 mm; horizontal 5,263 mm, vertical 4,898 mm, diagonal 3,861 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 19 (11 in the title block); named: SCALE 1:1; CODE: 405082
+- **Words (OCR):** 65 in 54 lines: 0.800 · 0.410 · 0.380 · 1.000 · 0.190 · 0.500 · 0.236 · 0.121 · PUNCH · 0.130 · 0.25  OBLONG · REQ'D
+- **Title block:** (502, 43)–(843, 180) mm: ISSUE] DATE · REVISION · APP · SYSTEMS · WBS · WARD-BECK · DRN. DRG · /95) · M4O5M · ENG_ · CKD · PCB · CONNECTOR · BRACKET · APP · SCALE DISC NO: · 486 · ISSUE · 1:1 CODE: 405082 · 405-03-082
+
+Every curve, box, word and wire group: [1995 - 405-03-082 - M405M PCB CONNECTOR BRACKET - DRN DRG - ISS 1 (traced).json](1995%20-%20405-03-082%20-%20M405M%20PCB%20CONNECTOR%20BRACKET%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 405-03-082 - M405M PCB CONNECTOR BRACKET - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

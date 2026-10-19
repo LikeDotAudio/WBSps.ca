@@ -26,6 +26,20 @@ Wiki page: [M473](../../../PAGES/M473.md)
 
 - **1984** (numeric): `8/7/84` — …CONTROL ISSUE |DATE REVISION APp WBS WARD-BECK SYSTEMS DRN.J8/7/84 M473B ENG. STEREO SUBMASTER MODULE CKD: APP FUNCTIONAL SCAL…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 473-01-003, size B 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 697 rings, 15,185 straight (14,146 mm) / 2,651 curved (3,227 mm); text 295 rings, 4,276 straight (3,560 mm) / 961 curved (1,163 mm); tb 123 rings, 1,165 straight (927 mm) / 238 curved (254 mm)
+- **Centre lines:** 24,892 paths (183 closed); straight 15,698 mm, curved 34.7 mm; horizontal 5,091 mm, vertical 3,974 mm, diagonal 6,633 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 15 (8 in the title block); named: 473-01-003
+- **Words (OCR):** 36 in 34 lines: CE · SUB · DIRECT · OUTPUT · +8 dBm, 600.0 · M1 ON · Mt OUTput · M1 CONTROL · M2 ON · SUMMING · M2 OUTPUT · BUS
+- **Title block:** (113, 11)–(333, 113) mm: ISSUE |DATE · REVISION · APp · WBS WARD-BECK SYSTEMS · DRN.J8/7/84 · M473B · ENG. · STEREO SUBMASTER MODULE · CKD: · FUNCTIONAL · APP · SCALE · ISSUE · 473-01-003
+- **Wiring (first pass):** 69 connected wire groups from 434 runs; labelled ends: 97 mm → SOLO; 73 mm → M1 ON; 60 mm → M2 ON; 33 mm → SUB, OUTPUT, +8 dBm, 600.0; 27 mm → M2 OUTPUT
+
+Every curve, box, word and wire group: [1984 - 473-01-003 - M473B STEREO SUBMASTER MODULE FUNCTIONAL - DRN JP - ISS 1 (traced).json](1984%20-%20473-01-003%20-%20M473B%20STEREO%20SUBMASTER%20MODULE%20FUNCTIONAL%20-%20DRN%20JP%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 473-01-003 - M473B STEREO SUBMASTER MODULE FUNCTIONAL - DRN JP - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

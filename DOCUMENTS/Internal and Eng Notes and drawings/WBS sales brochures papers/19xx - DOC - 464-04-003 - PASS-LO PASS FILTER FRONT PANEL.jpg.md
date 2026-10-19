@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 193,437 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 464-04-003, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 8–306 mm across, 19–432 mm up
+- **Outlines:** line 94 rings, 1,213 straight (5,332 mm) / 157 curved (223 mm); text 666 rings, 3,489 straight (3,233 mm) / 1,222 curved (1,699 mm); tb 245 rings, 1,790 straight (4,028 mm) / 404 curved (641 mm)
+- **Closed boxes:** 12 (10 in the title block); named: Hhen depressed High FREQUENCT CUT Filter; LOw FREQUENcY cuTINSERT Sh3 : Hhen depre
+- **Words (OCR):** 90 in 66 lines: WBS · M464 · high FREQUENCY cut switch SwZ: · eleven ciscrete cut-e · off frequen · select cne · the · high · end · Jcio · spcctrym_ · Filter Tope
+- **Title block:** (138, 24)–(305, 318) mm: WBS · M464 · high FREQUENCY cut switch SwZ: · eleven ciscrete cut-e · off frequen · select cne · the · high · end · Jcio · spcctrym_ · Filter Tope · The calibrat · defines · the · corner point- · dB{ 
+
+Every curve, box, word and wire group: [19xx - DOC - 464-04-003 - PASS-LO PASS FILTER FRONT PANEL (traced).json](19xx%20-%20DOC%20-%20464-04-003%20-%20PASS-LO%20PASS%20FILTER%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `19xx - DOC - 464-04-003 - PASS-LO PASS FILTER FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

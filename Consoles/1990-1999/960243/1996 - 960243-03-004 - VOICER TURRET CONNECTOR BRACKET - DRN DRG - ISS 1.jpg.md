@@ -20,6 +20,19 @@ Wiki page: [Job-960243](../../../PAGES/Job-960243.md)
 - **Size:** 359,273 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960243-03-004, size D 864 × 555 mm, 2000 × 1285 px traced (0.432 mm/px)
+- **Ink extent:** 63–864 mm across, 3–483 mm up
+- **Outlines:** line 445 rings, 3,022 straight (14,783 mm) / 667 curved (1,552 mm); text 288 rings, 1,690 straight (3,201 mm) / 498 curved (1,286 mm); tb 13 rings, 100 straight (278 mm) / 21 curved (53.9 mm)
+- **Centre lines:** 5,083 paths (141 closed); straight 10,972 mm, curved 66.9 mm; horizontal 4,228 mm, vertical 3,279 mm, diagonal 3,465 mm
+- **Circles and arcs:** 1 circles, 8 arcs; largest r 3.0 @ (631.0, 366.6)
+- **Closed boxes:** 41 (4 in the title block); named: VOICER TURRET CONNECTOR BRACKET; 960243-03-004; CodE9024540'
+- **Words (OCR):** 32 in 24 lines: (0 716 · PUScH (0.750 · 004 PILLAP · ALLOY 0OWEL(0.25 Dia) · 0.25) · CONNECTOR' BRACKET · 96024-0} · AUM ALLOT C-CBO · MATERIAL: · SEE Body OF DRAMNG · REWSID" · FINISH: SAND
+- **Title block:** (682, 34)–(852, 67) mm: REWSID" · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1996 - 960243-03-004 - VOICER TURRET CONNECTOR BRACKET - DRN DRG - ISS 1 (traced).json](1996%20-%20960243-03-004%20-%20VOICER%20TURRET%20CONNECTOR%20BRACKET%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960243-03-004 - VOICER TURRET CONNECTOR BRACKET - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

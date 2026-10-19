@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 410,382 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 460-02-028, size B (assumed) 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–342 mm across, 49–418 mm up
+- **Outlines:** line 794 rings, 9,527 straight (18,288 mm) / 2,133 curved (2,950 mm); text 510 rings, 3,235 straight (2,799 mm) / 1,310 curved (1,652 mm)
+- **Centre lines:** 10,378 paths (173 closed); straight 12,275 mm, curved 720 mm; horizontal 3,746 mm, vertical 4,456 mm, diagonal 4,073 mm
+- **Circles and arcs:** 38 circles, 110 arcs; largest r 5.3 @ (96.8, 76.6), r 5.3 @ (109.8, 141.1), r 5.1 @ (109.4, 96.9), r 4.9 @ (97.0, 161.2)
+- **Closed boxes:** 8
+- **Words (OCR):** 127 in 113 lines: High FREQUENcY · (AF ) Kid-FREC · Khz · 400 · Ri7 · RIB · Swi · IOOk · Line SELEcToR · IES · OFF · MIcPAD
+- **Wiring (first pass):** 150 connected wire groups from 855 runs; labelled ends: 259 mm → c15, 6.8/6; 146 mm → 04120-, oLo, To JEJ,, CRJ; 137 mm → CJS, 22/25; 136 mm → MIcPAD; 122 mm → 22/25, C32, MODULE, coMhoh
+
+Every curve, box, word and wire group: [1974 - M460M - 460-02-028 - ILTE PRE-AMPLIF IER (traced).json](1974%20-%20M460M%20-%20460-02-028%20-%20ILTE%20PRE-AMPLIF%20IER%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-02-028 - ILTE PRE-AMPLIF IER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

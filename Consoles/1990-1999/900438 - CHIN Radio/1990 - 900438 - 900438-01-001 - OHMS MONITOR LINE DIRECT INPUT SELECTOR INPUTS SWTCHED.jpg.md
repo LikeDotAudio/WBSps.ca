@@ -10,6 +10,20 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,201,282 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 900438-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–305 mm across, 0–422 mm up
+- **Outlines:** line 277 rings, 4,803 straight (12,796 mm) / 713 curved (1,016 mm); text 673 rings, 4,384 straight (5,170 mm) / 1,391 curved (2,044 mm)
+- **Centre lines:** 7,183 paths (137 closed); straight 9,789 mm, curved 141 mm; horizontal 3,439 mm, vertical 2,978 mm, diagonal 3,372 mm
+- **Circles and arcs:** 14 circles, 11 arcs; largest r 1.4 @ (105.9, 44.5), r 1.4 @ (105.8, 55.0), r 1.4 @ (276.3, 115.4), r 1.3 @ (49.3, 125.8)
+- **Closed boxes:** 30; named: PGM 1-R; PGM 2-R; AUX MODULE M4z9 DUAL; AUX; M453A CUE AMPLIFIER; M452 OSCILLATOR MODULE
+- **Dots (junctions):** 3
+- **Words (OCR):** 122 in 100 lines: MING BUSES · AUX · CUE · PROGRAM · STEREQ_QUTPUIS · 0 L | · PGM 1-L · INSERTS · (~8dB) · 0 R · PROGRAM · OUTPUTS
+- **Wiring (first pass):** 78 connected wire groups from 296 runs, 3 dotted junctions; labelled ends: 532 mm → "-8dB), 2_STEREQ_OUTPUTS, PROGRAM, 2-L; 498 mm → (~8dB), STEREQ_QUTPUIS, ~8dB); 351 mm → CUE; 319 mm → AUX; 153 mm → PROGRAM, 1-L
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-01-001 - OHMS MONITOR LINE DIRECT INPUT SELECTOR INPUTS SWTCHED (traced).json](1990%20-%20900438%20-%20900438-01-001%20-%20OHMS%20MONITOR%20LINE%20DIRECT%20INPUT%20SELECTOR%20INPUTS%20SWTCHED%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-01-001 - OHMS MONITOR LINE DIRECT INPUT SELECTOR INPUTS SWTCHED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

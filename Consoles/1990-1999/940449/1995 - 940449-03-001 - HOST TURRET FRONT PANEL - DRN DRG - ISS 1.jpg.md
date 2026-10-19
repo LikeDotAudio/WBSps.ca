@@ -21,6 +21,19 @@ Wiki page: [Job-940449](../../../PAGES/Job-940449.md)
 - **Size:** 462,624 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940449-03-001, size D 864 × 554 mm, 2000 × 1282 px traced (0.432 mm/px)
+- **Ink extent:** 68–864 mm across, 6–485 mm up
+- **Outlines:** line 678 rings, 5,261 straight (27,977 mm) / 866 curved (2,021 mm); text 255 rings, 1,555 straight (2,887 mm) / 468 curved (1,169 mm); tb 21 rings, 175 straight (382 mm) / 45 curved (96.9 mm)
+- **Centre lines:** 7,088 paths (195 closed); straight 17,892 mm, curved 31.2 mm; horizontal 8,566 mm, vertical 5,172 mm, diagonal 4,154 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 59 (3 in the title block); named: Host TURRET FRONT PANEL; DGC ND; 04449uj1
+- **Words (OCR):** 35 in 29 lines: 0o-710 · PITCHES 7.555 15 110 · PITcHES · 4050 · 0.2C0 · REC'D · 440 · 'OTPERcEIDE · D.ZUC · 0.680 · 4710 · 0.800
+- **Title block:** (682, 53)–(850, 86) mm: WARD-BECK SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1995 - 940449-03-001 - HOST TURRET FRONT PANEL - DRN DRG - ISS 1 (traced).json](1995%20-%20940449-03-001%20-%20HOST%20TURRET%20FRONT%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 940449-03-001 - HOST TURRET FRONT PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

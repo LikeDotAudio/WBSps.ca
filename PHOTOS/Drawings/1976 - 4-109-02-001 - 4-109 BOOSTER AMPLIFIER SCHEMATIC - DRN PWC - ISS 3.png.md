@@ -25,6 +25,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 
 - **1976** (labelled): `DATEJULY76` — …USED On 460 461 463 MatL WBS WAAD-BECK bybteMB LTL DRM: PWc DATEJULY76 CKD Yeelx SCALE TOLS Ta 4-109 BCOSTER AMPLIFIER SCHEMATIC 4…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-109-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–294 mm up
+- **Outlines:** line 538 rings, 5,492 straight (14,448 mm) / 970 curved (1,460 mm); text 574 rings, 3,204 straight (2,926 mm) / 993 curved (1,346 mm); tb 31 rings, 192 straight (259 mm) / 51 curved (65.4 mm)
+- **Centre lines:** 6,004 paths (94 closed); straight 9,606 mm, curved 341 mm; horizontal 3,949 mm, vertical 2,867 mm, diagonal 2,790 mm
+- **Circles and arcs:** 6 circles, 77 arcs; largest r 1.2 @ (328.8, 207.0), r 1.2 @ (234.0, 86.0), r 1.1 @ (331.5, 105.8), r 1.0 @ (251.3, 284.9)
+- **Closed boxes:** 34 (4 in the title block); named: USEDAON; 460; FINISH; 4-109-02-001
+- **Words (OCR):** 96 in 85 lines: 45k R16 · 821.5v - · Tiss Rio · 814037 · C5 · 84z569 · 015 · CRI · 'IN4/48 · ZIa · 739 · C18
+- **Title block:** (332, 24)–(408, 60) mm: WBS WAAD-BeCk bybtemB Ltc · DATE · 4-109 · CKD_ · Re · BCOSTER AMPLIFIER · SCALE · SCHEMATIC · ia · 4-109-02-001
+- **Wiring (first pass):** 77 connected wire groups from 637 runs; labelled ends: 802 mm → Mop (ckol, WBS; 194 mm → 853569, RY470, CR?, IN4148; 170 mm → 33/10, C1, [ooof; 165 mm → CRI, 'IN4/48, C18, 739; 154 mm → 821.5v -, 45k, 814037, 84z569
+
+Every curve, box, word and wire group: [1976 - 4-109-02-001 - 4-109 BOOSTER AMPLIFIER SCHEMATIC - DRN PWC - ISS 3 (traced).json](1976%20-%204-109-02-001%20-%204-109%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20PWC%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1976 - 4-109-02-001 - 4-109 BOOSTER AMPLIFIER SCHEMATIC - DRN PWC - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 19,726,451 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-011, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–432 mm across, 0–139 mm up
+- **Outlines:** line 822 rings, 6,780 straight (9,855 mm) / 1,429 curved (1,707 mm); text 48 rings, 328 straight (250 mm) / 82 curved (99.4 mm)
+- **Centre lines:** 7,060 paths (207 closed); straight 6,199 mm, curved 131 mm; horizontal 2,806 mm, vertical 1,378 mm, diagonal 2,015 mm
+- **Circles and arcs:** 0 circles, 43 arcs
+- **Closed boxes:** 16
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 77 connected wire groups from 400 runs
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-011 - JACKFIELD ROW OUTPUT TACKS OUTPUTS (traced).json](1979%20-%20790236%20-%20790236-02-011%20-%20JACKFIELD%20ROW%20OUTPUT%20TACKS%20OUTPUTS%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-011 - JACKFIELD ROW OUTPUT TACKS OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

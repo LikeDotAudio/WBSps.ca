@@ -30,27 +30,3 @@ tags: ["module", "ravenna-aes67", "2020s"]
 |---|---|---|
 | ? | [19xx - preMO-221 - +GPIO option for PreMo-221 and PreMo-222.jpg](../Products/RAVENNA%20AES67/preMO-221/19xx%20-%20preMO-221%20-%20%2BGPIO%20option%20for%20PreMo-221%20and%20PreMo-222.jpg) | [note](../Products/RAVENNA%20AES67/preMO-221/19xx%20-%20preMO-221%20-%20%2BGPIO%20option%20for%20PreMo-221%20and%20PreMo-222.jpg.md) |
 | ? | [19xx - preMO-221 - Information Sheet.jpg](../Products/RAVENNA%20AES67/preMO-221/19xx%20-%20preMO-221%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/preMO-221/19xx%20-%20preMO-221%20-%20Information%20Sheet.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "preMO-221",
- "category": "RAVENNA AES67",
- "year": 2021,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/preMO-221/19xx - preMO-221 - +GPIO option for PreMo-221 and PreMo-222.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/RAVENNA AES67/preMO-221/19xx - preMO-221 - Information Sheet.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

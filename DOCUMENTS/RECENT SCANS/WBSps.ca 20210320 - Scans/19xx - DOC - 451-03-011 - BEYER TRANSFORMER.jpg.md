@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,795,370 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 451-03-011, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 10–298 mm up
+- **Outlines:** line 141 rings, 1,854 straight (5,568 mm) / 215 curved (302 mm); text 465 rings, 3,151 straight (3,969 mm) / 927 curved (1,414 mm); tb 3 rings, 85 straight (196 mm) / 6 curved (11.0 mm)
+- **Centre lines:** 5,057 paths (99 closed); straight 6,135 mm, curved 80.6 mm; horizontal 2,613 mm, vertical 1,402 mm, diagonal 2,120 mm
+- **Circles and arcs:** 2 circles, 10 arcs; largest r 3.8 @ (123.7, 193.1), r 3.8 @ (148.8, 192.5)
+- **Closed boxes:** 18 (14 in the title block); named: SCALE 1:1; CODE: MM451-11
+- **Words (OCR):** 57 in 48 lines: 2.500 · 0.770 · 730 · NOTES: · Tolerances: · XX · /-.015 · 0.410 · 0.700 · XXX=+ · /-.005 · Material:
+- **Title block:** (245, 26)–(415, 95) mm: SSUE DATE · REVISION · APP · WARD-BECK SYSTEMS · WBS · DRN: · BD 11/87 · M451 · ENG: MRW · BE YER · TRANSFORMER · CKD · MOUNTING BRACKET · APP · SCALE · DISC NO: 4OOSER-1 · 451-03-011 · ISSUE · 1:1 CO
+
+Every curve, box, word and wire group: [19xx - DOC - 451-03-011 - BEYER TRANSFORMER (traced).json](19xx%20-%20DOC%20-%20451-03-011%20-%20BEYER%20TRANSFORMER%20%28traced%29.json) (the CAD file: `19xx - DOC - 451-03-011 - BEYER TRANSFORMER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

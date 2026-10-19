@@ -10,6 +10,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,518,944 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-106-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 1,305 rings, 10,363 straight (22,779 mm) / 1,485 curved (1,748 mm); text 132 rings, 923 straight (853 mm) / 289 curved (374 mm)
+- **Centre lines:** 9,855 paths (189 closed); straight 13,278 mm, curved 25.4 mm; horizontal 7,348 mm, vertical 3,444 mm, diagonal 2,486 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 43
+- **Words (OCR):** 17 in 15 lines: INSERT CUT · (PREFADE) · CHANNEI · OUIFUT · QUTPUT · 6 3 · 18088 · WE · WARD-BECK SYSTEMS · 3 9 ; 3 2 · 8414-106 · LOWER MONO INPUT MODULES
+- **Title block:** (354, 47)–(424, 64) mm: WARD-BECK SYSTEMS · 8414-106
+- **Wiring (first pass):** 162 connected wire groups from 1,429 runs; labelled ends: 2134 mm → 3 9 ; 3 2; 122 mm → 18088; 50 mm → 18088; 43 mm → 3 9 ; 3 2; 40 mm → 3 9 ; 3 2
+
+Every curve, box, word and wire group: [1984 - ST - 14-106-02-001 - DATA BUS LOWER MONO INPUT MODULES SCHEMATIC (traced).json](1984%20-%20ST%20-%2014-106-02-001%20-%20DATA%20BUS%20LOWER%20MONO%20INPUT%20MODULES%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1984 - ST - 14-106-02-001 - DATA BUS LOWER MONO INPUT MODULES SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

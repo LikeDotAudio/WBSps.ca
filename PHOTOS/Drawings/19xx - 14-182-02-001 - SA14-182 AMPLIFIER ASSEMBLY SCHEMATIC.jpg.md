@@ -19,6 +19,19 @@ SA14 amplifier assembly schematic, title block at bottom left reading sideways.
 - **Size:** 4,835,717 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-182-02-001, size B 303 × 432 mm, 1404 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–285 mm across, 0–430 mm up
+- **Outlines:** line 626 rings, 7,367 straight (12,936 mm) / 1,557 curved (1,908 mm); text 468 rings, 3,313 straight (3,015 mm) / 1,177 curved (1,434 mm)
+- **Centre lines:** 9,462 paths (151 closed); straight 9,624 mm, curved 262 mm; horizontal 3,158 mm, vertical 2,990 mm, diagonal 3,477 mm
+- **Circles and arcs:** 4 circles, 87 arcs; largest r 0.9 @ (163.0, 269.4), r 0.8 @ (225.5, 74.8), r 0.8 @ (167.4, 74.1), r 0.7 @ (179.4, 307.8)
+- **Closed boxes:** 30
+- **Words (OCR):** 31 in 30 lines: 80 · 3e? · 3e8 · 82 · 89 · T8 · 3e2 · 8e8 · 62 · FF · 8e · ze8
+- **Wiring (first pass):** 84 connected wire groups from 833 runs; labelled ends: 268 mm → 03; 264 mm → 58; 221 mm → 80, 3e?, 3e8, 82; 212 mm → 93; 170 mm → 80, 3e?, 3e8, 89
+
+Every curve, box, word and wire group: [19xx - 14-182-02-001 - SA14-182 AMPLIFIER ASSEMBLY SCHEMATIC (traced).json](19xx%20-%2014-182-02-001%20-%20SA14-182%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 14-182-02-001 - SA14-182 AMPLIFIER ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

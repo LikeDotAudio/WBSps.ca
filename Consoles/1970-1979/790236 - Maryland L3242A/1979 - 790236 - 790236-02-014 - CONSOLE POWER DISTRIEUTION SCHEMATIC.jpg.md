@@ -10,6 +10,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 36,086,856 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-014, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 2–431 mm across, 0–278 mm up
+- **Outlines:** line 807 rings, 7,929 straight (17,435 mm) / 1,030 curved (1,297 mm); text 1,693 rings, 9,667 straight (7,276 mm) / 2,194 curved (2,371 mm); tb 17 rings, 102 straight (143 mm) / 19 curved (23.3 mm)
+- **Centre lines:** 12,750 paths (294 closed); straight 13,378 mm, curved 62.9 mm; horizontal 5,746 mm, vertical 3,506 mm, diagonal 4,125 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 1.0 @ (136.6, 214.4), r 0.7 @ (158.3, 44.5)
+- **Closed boxes:** 22 (10 in the title block); named: 8 - 103 POwER SUPPLY CHANGE OvER Carb; Sighae
+- **Dots (junctions):** 2
+- **Words (OCR):** 320 in 230 lines: 4460 · Cio · Ak AC · Pi · T Ao · pin3 · Pinji5 F1s ANG · Hu · M47C4 NDUT · Mcdule? · Chiz · 73.?i
+- **Title block:** (355, 0)–(432, 38) mm: VISSUE |DATE · REvisioh · WBS WARD BECK SYSTEMS · DRN SRH · L32+2A CONSOLE · ENG · POWER · DISTRIEUTION · CKD · SCHEMATIC · SCALE · 7902.36 · 02 - 014 · ISSUE
+- **Wiring (first pass):** 192 connected wire groups from 887 runs; labelled ends: 324 mm → Sighae, SpolN=; 204 mm → MODULES Ch (-C44, Chs-ChB, STATION; 177 mm → (4472, nts; 83 mm → SpolN=; 82 mm → #470a, 047Z, 7147J4 SUBMASTER McElE=
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-014 - CONSOLE POWER DISTRIEUTION SCHEMATIC (traced).json](1979%20-%20790236%20-%20790236-02-014%20-%20CONSOLE%20POWER%20DISTRIEUTION%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-014 - CONSOLE POWER DISTRIEUTION SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 17 words corrected)

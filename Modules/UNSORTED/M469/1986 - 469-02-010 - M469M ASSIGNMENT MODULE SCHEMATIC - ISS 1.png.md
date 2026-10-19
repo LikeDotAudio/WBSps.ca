@@ -24,6 +24,20 @@ Wiki page: [M469](../../../PAGES/M469.md)
 - **Size:** 1,876,995 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 469-02-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 478 rings, 7,715 straight (14,038 mm) / 1,431 curved (2,020 mm); text 544 rings, 3,878 straight (4,335 mm) / 1,223 curved (1,742 mm); tb 142 rings, 675 straight (694 mm) / 176 curved (187 mm)
+- **Centre lines:** 9,851 paths (127 closed); straight 11,458 mm, curved 554 mm; horizontal 4,253 mm, vertical 3,032 mm, diagonal 4,174 mm
+- **Circles and arcs:** 50 circles, 57 arcs; largest r 1.6 @ (80.5, 230.7), r 1.5 @ (129.2, 49.4), r 1.5 @ (269.0, 130.3), r 1.5 @ (80.8, 130.1)
+- **Closed boxes:** 19 (6 in the title block)
+- **Words (OCR):** 95 in 85 lines: 154 · Input 3 · 54 · 14< · INput 1 · Sw3 R7 · Sw7 · 83k · Sok · Sw5 · rzo · RB
+- **Title block:** (280, 12)–(432, 80) mm: ISSUE |DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · M4l9M · 4e1 · ASSIGNMENT · MODULE · CKD · SCHEMATIC · APP · ScAE · ISSUE · 4l9-02-010
+- **Wiring (first pass):** 63 connected wire groups from 383 runs; labelled ends: 468 mm → Input 3, 154, 54, 83k; 370 mm → 134, Input 2, Rs, Be; 360 mm → 14<, 154, 54, Sok; 319 mm → 134, Input 2, Swz, Sw6; 300 mm → 14<, Sw5, Sw3
+
+Every curve, box, word and wire group: [1986 - 469-02-010 - M469M ASSIGNMENT MODULE SCHEMATIC - ISS 1 (traced).json](1986%20-%20469-02-010%20-%20M469M%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1986 - 469-02-010 - M469M ASSIGNMENT MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

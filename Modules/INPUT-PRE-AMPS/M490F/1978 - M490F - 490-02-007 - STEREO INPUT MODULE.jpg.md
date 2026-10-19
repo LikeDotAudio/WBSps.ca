@@ -11,6 +11,21 @@ Wiki page: [M490F](../../../PAGES/M490F.md)
 - **Size:** 649,415 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-007, size B (assumed) 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 2–275 mm up
+- **Outlines:** line 3,123 rings, 22,881 straight (33,949 mm) / 5,963 curved (7,247 mm); text 667 rings, 3,544 straight (2,913 mm) / 1,254 curved (1,508 mm); tb 8 rings, 71 straight (114 mm) / 14 curved (18.4 mm)
+- **Centre lines:** 22,872 paths (649 closed); straight 21,906 mm, curved 534 mm; horizontal 8,712 mm, vertical 5,157 mm, diagonal 8,037 mm
+- **Circles and arcs:** 10 circles, 93 arcs; largest r 3.9 @ (156.6, 58.9), r 3.9 @ (156.4, 72.0), r 3.8 @ (150.9, 186.5), r 3.8 @ (151.2, 160.8)
+- **Closed boxes:** 55; named: Fhac 7a; 64 5; 212 74c7C; 712; 2i2 71022; 007 490-07-; 2179
+- **Dots (junctions):** 10
+- **Words (OCR):** 143 in 136 lines: Tuputs · Fhac · 244 · Right · 57 2 · HSERT · R42 · 7a · 64 5 · PGk · S40 · 157
+- **Title block:** (361, 20)–(432, 36) mm: WBS · WARD-DeCK SYSTEMS · M490
+- **Wiring (first pass):** 248 connected wire groups from 2,127 runs, 4 dotted junctions; labelled ends: 779 mm → 0izs; 320 mm → Ruys, 2k2; 288 mm → Ts; 276 mm → WBS, 2022, FRCT, 2179; 244 mm → 238, 6-0/6, RA5, Jcok
+
+Every curve, box, word and wire group: [1978 - M490F - 490-02-007 - STEREO INPUT MODULE (traced).json](1978%20-%20M490F%20-%20490-02-007%20-%20STEREO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M490F - 490-02-007 - STEREO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

@@ -10,6 +10,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,419,482 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-007, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 148 rings, 3,331 straight (7,730 mm) / 375 curved (547 mm); text 276 rings, 1,939 straight (2,303 mm) / 579 curved (843 mm); tb 6 rings, 88 straight (210 mm) / 8 curved (12.3 mm)
+- **Centre lines:** 4,032 paths (57 closed); straight 6,044 mm, curved 80.3 mm; horizontal 2,831 mm, vertical 1,627 mm, diagonal 1,586 mm
+- **Circles and arcs:** 7 circles, 13 arcs; largest r 3.5 @ (8.8, 33.4), r 1.4 @ (169.9, 180.6), r 1.1 @ (232.1, 167.2), r 1.0 @ (232.0, 114.8)
+- **Closed boxes:** 12 (6 in the title block); named: E8E370 RIGLJAL TimER; SCALE; 790236-02 007
+- **Dots (junctions):** 1
+- **Words (OCR):** 39 in 29 lines: NPTES: · MOMENTARY · ARE PENDAR · Sieo- I-F4 · IN4003 · Reset · Mom · E8E370 · RIGLJAL TimER · Stop · MOM · START
+- **Title block:** (292, 8)–(432, 76) mm: ISSUE DATE · REVISION · WBS WARD-BECK SYSTEMS · DRN Srh · ENG_ Srt · TIMER CONTROL SCHEMATiC · CKD; · APP · SCALE · ISSUE · 790236-02 007
+- **Wiring (first pass):** 28 connected wire groups from 183 runs; labelled ends: 225 mm → NPTES:; 130 mm → NPTES:; 116 mm → Mom, MOM, BR, ContRol; 42 mm → NPTES:; 27 mm → E8E370, RIGLJAL, TimER
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-007 - DIGLJAL TIMER STOP MOM START MOM (traced).json](1979%20-%20790236%20-%20790236-02-007%20-%20DIGLJAL%20TIMER%20STOP%20MOM%20START%20MOM%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-007 - DIGLJAL TIMER STOP MOM START MOM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

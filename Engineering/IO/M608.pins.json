@@ -1,0 +1,1181 @@
+{
+ "code": "M608",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "J1",
+   "rows": 9,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "J2",
+   "rows": 9,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "J1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "T2Q4 70-9 J1-1",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J1-2",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J1",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J1-3",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J1",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ae731506936d8ccf329d9a37ee9dba1bb50b000e6da0f875c5084177e5f8b5ec",
+    "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+    "page": 1
+   },
+   "quote": "J1-5 041-6",
+   "also": []
+  },
+  {
+   "conn": "J1",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J1-8",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J1",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J1-9",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J2-3",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J2-4",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c8d82eb8bbd6d72ebf07e365e97a74d5f7d7f71d51e8789ae7dbfae60724b245",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (12).png",
+    "page": 1
+   },
+   "quote": "J2-5 J2-6",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c8d82eb8bbd6d72ebf07e365e97a74d5f7d7f71d51e8789ae7dbfae60724b245",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (12).png",
+    "page": 1
+   },
+   "quote": "J2-5 J2-6",
+   "also": []
+  },
+  {
+   "conn": "J2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J2-7",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J2-8",
+   "also": []
+  },
+  {
+   "conn": "J2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "J2-9",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "P1-2",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "P1-4",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "14-01 Assy'3 Rzz P1-5 z40vzw|",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "55b6d95bdc6779f86021939bfbd1ce0d89e4ac4d7ac269590fb023d65e0a062d",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR.jpg",
+    "page": 1
+   },
+   "quote": "P2-8 INPUT 5 22-16 A5 P2-7 P1-7 N/c P1-16 P2-1 P2-9 MOUNTING FRAME 8 CHASSIS TO STATION TECHNICAL GROUND",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ae731506936d8ccf329d9a37ee9dba1bb50b000e6da0f875c5084177e5f8b5ec",
+    "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+    "page": 1
+   },
+   "quote": "P1-11",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "P1-12",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "P1-13",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "55b6d95bdc6779f86021939bfbd1ce0d89e4ac4d7ac269590fb023d65e0a062d",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR.jpg",
+    "page": 1
+   },
+   "quote": "P2-8 INPUT 5 22-16 A5 P2-7 P1-7 N/c P1-16 P2-1 P2-9 MOUNTING FRAME 8 CHASSIS TO STATION TECHNICAL GROUND",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (12).png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - OVLD NORM.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "27aea06256e2a5c7abf6a79475ac1505287b9b00f13dce68853d4a506d87109f",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+    "page": 1
+   },
+   "quote": "P2-8 INPUT 5 P2-16 AS P1-Z P2-Z Nfc P1-16 P2-1 P2-9 MOUNTING FRAME CHASSIS To STATION TECHNICAL GROUND",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c8d82eb8bbd6d72ebf07e365e97a74d5f7d7f71d51e8789ae7dbfae60724b245",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (12).png",
+    "page": 1
+   },
+   "quote": "COMMON P2-1",
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - OVLD NORM.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "55b6d95bdc6779f86021939bfbd1ce0d89e4ac4d7ac269590fb023d65e0a062d",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR.jpg",
+    "page": 1
+   },
+   "quote": "P2-2 F2-16 A1 =2-7 P1-7 VC Ela CSNNEC-CR; F21 F2-3",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "a76865cdc22c2002d75f1d0c39226cc620d93eeafd0ba394b729c75bdead8310",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - OVLD NORM.jpg",
+    "page": 1
+   },
+   "quote": "P2-3",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - Audio DA.pdf",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "P2-4",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - Audio DA (2).pdf",
+     "page": 17
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "Pz-5",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "P2-6",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c8d82eb8bbd6d72ebf07e365e97a74d5f7d7f71d51e8789ae7dbfae60724b245",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (12).png",
+    "page": 1
+   },
+   "quote": "SHIELD Pz-7 (",
+   "also": [
+    {
+     "signal": "SHIELD",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - Audio DA.pdf",
+     "page": 16
+    },
+    {
+     "signal": "SHIELD",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - Audio DA (2).pdf",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "INPUT 5",
+   "kind": "in",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "27aea06256e2a5c7abf6a79475ac1505287b9b00f13dce68853d4a506d87109f",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+    "page": 1
+   },
+   "quote": "P2-8 INPUT 5 P2-16 AS P1-Z P2-Z Nfc P1-16 P2-1 P2-9 MOUNTING FRAME CHASSIS To STATION TECHNICAL GROUND",
+   "also": [
+    {
+     "signal": "INPUT 5",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR.jpg",
+     "page": 1
+    },
+    {
+     "signal": "INPUT 5",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - Audio DA.pdf",
+     "page": 18
+    },
+    {
+     "signal": "INPUT 5",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c8d82eb8bbd6d72ebf07e365e97a74d5f7d7f71d51e8789ae7dbfae60724b245",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (12).png",
+    "page": 1
+   },
+   "quote": "ChASSIS P2-9",
+   "also": [
+    {
+     "signal": "CHASSIS",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - OVLD NORM.jpg",
+     "page": 1
+    },
+    {
+     "signal": "CHASSIS",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-003 - STATION TECHNICAL GROUND INSULATED GROUND BAR.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "P2-11",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - Audio DA.pdf",
+     "page": 17
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5cd695ceb860483e705449653b522211ece677121573e63865eaba11aa9ba4fe",
+    "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+    "page": 1
+   },
+   "quote": "P2-12",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c8d82eb8bbd6d72ebf07e365e97a74d5f7d7f71d51e8789ae7dbfae60724b245",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - WBSps.ca - 20210317 11X 17 Scans (12).png",
+    "page": 1
+   },
+   "quote": "P2-13",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15e8cea2bc64b9b079cb1e84c1799f7959d41b818d441ab14a798fea74b59c6e",
+    "file": "Modules/AMPLIFIERS/M608/1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED.jpg",
+    "page": 1
+   },
+   "quote": "P2-14",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-001 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "INPUT 5",
+   "kind": "in",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "27aea06256e2a5c7abf6a79475ac1505287b9b00f13dce68853d4a506d87109f",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+    "page": 1
+   },
+   "quote": "P2-8 INPUT 5 P2-16 AS P1-Z P2-Z Nfc P1-16 P2-1 P2-9 MOUNTING FRAME CHASSIS To STATION TECHNICAL GROUND",
+   "also": [
+    {
+     "signal": "INPUT 5",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1975 - M608 - P005 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1.png",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "27aea06256e2a5c7abf6a79475ac1505287b9b00f13dce68853d4a506d87109f",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+    "page": 1
+   },
+   "quote": "P2-8 P2-16 A1 P2-Z TP1Z NO PP1-16 CONNECTION P2-1 P2-?",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1.png",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M608/1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1.png",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

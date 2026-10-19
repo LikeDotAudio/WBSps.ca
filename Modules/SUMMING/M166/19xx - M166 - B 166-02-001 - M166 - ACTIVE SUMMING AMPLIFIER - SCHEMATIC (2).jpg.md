@@ -11,6 +11,20 @@ Wiki page: [M166](../../../PAGES/M166.md)
 - **Size:** 17,697,051 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 166-02-001, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–138 mm up
+- **Outlines:** line 1,452 rings, 8,252 straight (9,881 mm) / 1,366 curved (1,536 mm); text 171 rings, 797 straight (657 mm) / 225 curved (265 mm)
+- **Centre lines:** 4,670 paths (159 closed); straight 4,914 mm, curved 23.5 mm; horizontal 1,672 mm, vertical 1,618 mm, diagonal 1,625 mm
+- **Circles and arcs:** 2 circles, 8 arcs; largest r 2.0 @ (5.3, 120.6), r 0.8 @ (55.1, 5.8)
+- **Closed boxes:** 6; named: DRS; CHKD|; ECAIE
+- **Dots (junctions):** 5
+- **Words (OCR):** 31 in 29 lines: h4€4 · Tio?5 · Notl" · Tio · stitad · Vicro FARADE · Trat · 29 @mitted) ; · Cef @T · Nota · CuiPu · ouiput
+- **Wiring (first pass):** 86 connected wire groups from 557 runs, 4 dotted junctions; labelled ends: 275 mm → Lid:, DRS, cinISH, AMPLIFIER; 34 mm → Tio?5; 26 mm → Nota; 14 mm → DRS, CHKD|; 10 mm → Trat
+
+Every curve, box, word and wire group: [19xx - M166 - B 166-02-001 - M166 - ACTIVE SUMMING AMPLIFIER - SCHEMATIC (2) (traced).json](19xx%20-%20M166%20-%20B%20166-02-001%20-%20M166%20-%20ACTIVE%20SUMMING%20AMPLIFIER%20-%20SCHEMATIC%20%282%29%20%28traced%29.json) (the CAD file: `19xx - M166 - B 166-02-001 - M166 - ACTIVE SUMMING AMPLIFIER - SCHEMATIC (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

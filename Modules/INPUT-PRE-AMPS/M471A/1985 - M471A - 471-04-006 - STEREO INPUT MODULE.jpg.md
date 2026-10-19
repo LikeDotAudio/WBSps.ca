@@ -11,6 +11,19 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 137,939 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 471-04-006, size B (assumed) 368 × 432 mm, 1424 × 1669 px traced (0.259 mm/px)
+- **Ink extent:** 23–368 mm across, 0–407 mm up
+- **Outlines:** line 109 rings, 1,827 straight (6,220 mm) / 366 curved (964 mm); text 153 rings, 1,105 straight (1,541 mm) / 332 curved (598 mm); tb 50 rings, 420 straight (848 mm) / 111 curved (303 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 11.1 @ (133.1, 188.2), r 6.2 @ (30.7, 217.0), r 6.2 @ (30.2, 246.0), r 6.2 @ (30.9, 288.9)
+- **Closed boxes:** 3 (3 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 25 in 22 lines: WbS · Mat1A · AUX · PrE PST · 10-0 · AUx · PRE · PSt · 10 · BAAL · CH ON · ISSU DATE
+- **Title block:** (93, 4)–(342, 412) mm: WbS · Mat1A · AUX · PrE PST · 10-0 · AUx · PRE · PSt · 10 · BAAL · CH ON · ISSU DATE · Revision · WBS WAAO-BECK · DRN D.N.702 · M47 1A · ENG · Ckd · STEREO InPUT MODULE · APP · 5 :ALE · 471-04-006
+
+Every curve, box, word and wire group: [1985 - M471A - 471-04-006 - STEREO INPUT MODULE (traced).json](1985%20-%20M471A%20-%20471-04-006%20-%20STEREO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1985 - M471A - 471-04-006 - STEREO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

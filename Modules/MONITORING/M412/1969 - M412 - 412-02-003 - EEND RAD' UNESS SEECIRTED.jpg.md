@@ -11,6 +11,18 @@ Wiki page: [M412](../../../PAGES/M412.md)
 - **Size:** 6,923,376 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 412-02-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 1–287 mm up
+- **Outlines:** line 355 rings, 4,637 straight (7,486 mm) / 752 curved (1,237 mm); text 229 rings, 1,975 straight (2,117 mm) / 459 curved (688 mm)
+- **Centre lines:** 3,067 paths (27 closed); straight 5,251 mm, curved 395 mm; horizontal 2,421 mm, vertical 1,194 mm, diagonal 1,636 mm
+- **Circles and arcs:** 12 circles, 43 arcs; largest r 3.4 @ (261.9, 100.0), r 3.3 @ (261.4, 189.7), r 3.3 @ (262.1, 133.2), r 3.3 @ (261.9, 230.6)
+- **Closed boxes:** 14
+- **Wiring (first pass):** 25 connected wire groups from 273 runs
+
+Every curve, box, word and wire group: [1969 - M412 - 412-02-003 - EEND RAD' UNESS SEECIRTED (traced).json](1969%20-%20M412%20-%20412-02-003%20-%20EEND%20RAD%27%20UNESS%20SEECIRTED%20%28traced%29.json) (the CAD file: `1969 - M412 - 412-02-003 - EEND RAD' UNESS SEECIRTED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

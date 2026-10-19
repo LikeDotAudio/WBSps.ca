@@ -24,6 +24,18 @@ Wiki page: [M478](../../../PAGES/M478.md)
 - **Size:** 1,491,385 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 478-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 20–300 mm up
+- **Outlines:** line 461 rings, 6,883 straight (11,370 mm) / 1,023 curved (1,479 mm); text 117 rings, 820 straight (901 mm) / 242 curved (366 mm)
+- **Centre lines:** 3,953 paths (53 closed); straight 6,899 mm, curved 349 mm; horizontal 3,367 mm, vertical 1,842 mm, diagonal 1,690 mm
+- **Circles and arcs:** 28 circles, 52 arcs; largest r 1.6 @ (369.8, 30.8), r 1.6 @ (374.0, 30.9), r 1.4 @ (377.5, 43.8), r 1.3 @ (58.3, 208.3)
+- **Closed boxes:** 43
+- **Wiring (first pass):** 63 connected wire groups from 459 runs
+
+Every curve, box, word and wire group: [1976 - 478-02-001 - M478A 8x1 SWITCHER SCHEMATIC - DRN PA - ISS 1 (traced).json](1976%20-%20478-02-001%20-%20M478A%208x1%20SWITCHER%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 478-02-001 - M478A 8x1 SWITCHER SCHEMATIC - DRN PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

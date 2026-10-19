@@ -22,6 +22,20 @@ Wiki page: [Job-77012](../../../PAGES/Job-77012.md)
 - **Size:** 397,077 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 77012-01-004, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 8–421 mm up
+- **Outlines:** line 1,109 rings, 9,968 straight (13,554 mm) / 2,197 curved (2,906 mm); text 715 rings, 3,951 straight (3,659 mm) / 1,546 curved (2,084 mm); tb 29 rings, 271 straight (311 mm) / 68 curved (87.3 mm)
+- **Centre lines:** 13,061 paths (252 closed); straight 10,955 mm, curved 303 mm; horizontal 3,972 mm, vertical 2,716 mm, diagonal 4,268 mm
+- **Circles and arcs:** 17 circles, 77 arcs; largest r 2.9 @ (226.4, 292.6), r 2.9 @ (226.5, 303.5), r 1.2 @ (183.7, 182.8), r 1.2 @ (143.4, 160.1)
+- **Closed boxes:** 25 (13 in the title block)
+- **Words (OCR):** 117 in 98 lines: (SE E Note · FaOER · OuT · (-I5 48 ) · Udbm · MaSTER · Hon · summing · inSERT · buS · 15 40 · Mon
+- **Title block:** (227, 6)–(335, 64) mm: Revision · WBS WARD-BECK ByBTeMB · WBS L2042 · CONSOLE · (STEREO VERSION B ) · CKD: · FUNCTIONAL · APP · SCALE · 77012-01-004 · ISSUE
+- **Wiring (first pass):** 110 connected wire groups from 677 runs; labelled ends: 159 mm → 0 CONT; 154 mm → buS; 133 mm → Mon, S0L0, cont; 124 mm → 'ubm CIS, Mon, MOm; 123 mm → Udbm, Hon, S0L0, comt
+
+Every curve, box, word and wire group: [1985 - 77012-01-004 - WBS L2042 CONSOLE (STEREO VERSION B) FUNCTIONAL - DRN GEB - ENG GEB - ISS 2 (traced).json](1985%20-%2077012-01-004%20-%20WBS%20L2042%20CONSOLE%20%28STEREO%20VERSION%20B%29%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1985 - 77012-01-004 - WBS L2042 CONSOLE (STEREO VERSION B) FUNCTIONAL - DRN GEB - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

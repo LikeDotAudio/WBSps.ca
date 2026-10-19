@@ -22,6 +22,19 @@ Wiki page: [M404](../../../PAGES/M404.md)
 - **Size:** 4,470,413 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring B 404-09-002, size B 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 23–307 mm up
+- **Outlines:** line 399 rings, 6,053 straight (12,294 mm) / 845 curved (1,328 mm); text 236 rings, 1,871 straight (2,140 mm) / 486 curved (718 mm)
+- **Centre lines:** 3,337 paths (41 closed); straight 7,721 mm, curved 387 mm; horizontal 3,765 mm, vertical 2,371 mm, diagonal 1,585 mm
+- **Circles and arcs:** 23 circles, 47 arcs; largest r 1.9 @ (340.9, 32.7), r 1.8 @ (382.6, 46.4), r 1.8 @ (328.7, 242.8), r 1.6 @ (23.4, 109.3)
+- **Closed boxes:** 29
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 87 connected wire groups from 514 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2) (traced).json](1968%20-%20404-09-002%20-%20M402%20AND%20M404%20SYSTEM%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1968 - 404-09-002 - M402 AND M404 SYSTEM WIRING - DRN C.S. O'CONNELL - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

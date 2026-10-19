@@ -23,6 +23,18 @@ Wiki page: [M453](../../../PAGES/M453.md)
 - **Size:** 3,880,260 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 453-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 703 rings, 6,619 straight (11,600 mm) / 866 curved (1,258 mm); text 415 rings, 2,446 straight (2,489 mm) / 748 curved (1,082 mm)
+- **Centre lines:** 3,762 paths (48 closed); straight 7,573 mm, curved 212 mm; horizontal 3,584 mm, vertical 1,756 mm, diagonal 2,234 mm
+- **Circles and arcs:** 7 circles, 39 arcs; largest r 1.7 @ (308.3, 229.5), r 1.6 @ (277.0, 228.6), r 1.4 @ (20.9, 264.6), r 1.4 @ (317.3, 166.6)
+- **Closed boxes:** 23
+- **Wiring (first pass):** 86 connected wire groups from 548 runs
+
+Every curve, box, word and wire group: [1974 - 453-02-001 - CUE AMPLIFIER SCHEMATIC - DRN B. JONES (traced).json](1974%20-%20453-02-001%20-%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20B.%20JONES%20%28traced%29.json) (the CAD file: `1974 - 453-02-001 - CUE AMPLIFIER SCHEMATIC - DRN B. JONES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

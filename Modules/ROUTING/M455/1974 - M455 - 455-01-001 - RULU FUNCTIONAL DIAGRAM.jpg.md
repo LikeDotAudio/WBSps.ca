@@ -12,6 +12,18 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 6,968,889 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 455-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–426 mm across, 0–287 mm up
+- **Outlines:** line 339 rings, 4,217 straight (9,162 mm) / 713 curved (1,004 mm); text 228 rings, 1,348 straight (1,520 mm) / 373 curved (528 mm)
+- **Centre lines:** 3,114 paths (71 closed); straight 5,384 mm, curved 208 mm; horizontal 2,404 mm, vertical 1,370 mm, diagonal 1,611 mm
+- **Circles and arcs:** 8 circles, 39 arcs; largest r 2.1 @ (380.5, 32.3), r 1.7 @ (387.6, 24.7), r 1.5 @ (285.6, 41.8), r 1.1 @ (380.3, 67.5)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 53 connected wire groups from 245 runs
+
+Every curve, box, word and wire group: [1974 - M455 - 455-01-001 - RULU FUNCTIONAL DIAGRAM (traced).json](1974%20-%20M455%20-%20455-01-001%20-%20RULU%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1974 - M455 - 455-01-001 - RULU FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

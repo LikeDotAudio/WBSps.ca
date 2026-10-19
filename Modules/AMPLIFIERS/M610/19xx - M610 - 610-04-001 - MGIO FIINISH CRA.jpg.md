@@ -11,6 +11,17 @@ Wiki page: [M610](../../../PAGES/M610.md)
 - **Size:** 3,020,369 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 610-04-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 9–432 mm up
+- **Outlines:** line 3,331 rings, 28,417 straight (21,879 mm) / 6,538 curved (6,971 mm); text 45 rings, 529 straight (538 mm) / 137 curved (188 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (180.9, 352.0)
+- **Closed boxes:** 1
+- **Words (OCR):** 12 in 12 lines: Sw1 · CRA · DSI · Wes Mbio · Trim · C30 · R23 · F2 · MaTL · USED OM · M6IO · FINISA
+
+Every curve, box, word and wire group: [19xx - M610 - 610-04-001 - MGIO FIINISH CRA (traced).json](19xx%20-%20M610%20-%20610-04-001%20-%20MGIO%20FIINISH%20CRA%20%28traced%29.json) (the CAD file: `19xx - M610 - 610-04-001 - MGIO FIINISH CRA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

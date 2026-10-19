@@ -29,6 +29,20 @@ M466M compressor meter module schematic with stereo tie switch.
 
 - **1976** (labelled): `DATE SEPT 76` — …S MODICKD USED ON MATL. WBS WARD-BECK byBTEMs LTD' DRN: GEB DATE SEPT 76 CKD RE SCALE M4GGM CCMPRESSOR METER MODULE SCHEMATIC FIMISH…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 466-02-003, size B 432 × 288 mm, 2000 × 1332 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–287 mm up
+- **Outlines:** line 148 rings, 3,843 straight (5,902 mm) / 540 curved (825 mm); text 264 rings, 2,891 straight (3,479 mm) / 704 curved (1,179 mm); tb 23 rings, 293 straight (417 mm) / 47 curved (90.3 mm)
+- **Centre lines:** 3,308 paths (57 closed); straight 6,042 mm, curved 132 mm; horizontal 2,698 mm, vertical 1,340 mm, diagonal 2,004 mm
+- **Circles and arcs:** 13 circles, 5 arcs; largest r 2.1 @ (91.6, 61.5), r 1.7 @ (213.6, 210.4), r 1.7 @ (146.8, 210.3), r 1.6 @ (133.1, 210.0)
+- **Closed boxes:** 27 (3 in the title block); named: VU METER; MATZ .
+- **Words (OCR):** 42 in 32 lines: COMPRESSOR STEREO TIE · VU · METER · Off · 13 · 10 · BuS · BUS · STEREO · TIE · NOIE · FOR COMPONENT
+- **Title block:** (231, 7)–(366, 65) mm: WBS WARD-BECK byBTEMs LTD. · DRN · GEB · M46G M · DATE SEPT 76 · CCMPRESSOR · CKD_ PR · MODULE · ISCALE
+- **Wiring (first pass):** 17 connected wire groups from 153 runs; labelled ends: 872 mm → USED ON, MIMISH; 299 mm → 13; 132 mm → 10; 53 mm → DRN, DATE SEPT 76, CKD_, MIMISH; 49 mm → MATZ ., WBS
+
+Every curve, box, word and wire group: [1976 - 466-02-003 - COMPRESSOR METER MODULE SCHEMATIC - DRN GEB - ISS 1 (traced).json](1976%20-%20466-02-003%20-%20COMPRESSOR%20METER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 466-02-003 - COMPRESSOR METER MODULE SCHEMATIC - DRN GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M562C](../../../PAGES/M562C.md)
 - **Size:** 2,314,653 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-109-02-002, size B (assumed) 339 × 432 mm, 1571 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 300 rings, 4,460 straight (4,340 mm) / 936 curved (1,051 mm); text 285 rings, 2,362 straight (2,398 mm) / 723 curved (987 mm); tb 3 rings, 53 straight (157 mm) / 1 curved (1.7 mm)
+- **Centre lines:** 16,692 paths (130 closed); straight 7,979 mm, curved 150 mm; horizontal 2,060 mm, vertical 1,717 mm, diagonal 4,203 mm
+- **Circles and arcs:** 2 circles, 28 arcs; largest r 5.1 @ (30.1, 361.8), r 4.9 @ (33.2, 64.5)
+- **Words (OCR):** 66 in 57 lines: +22v · CuRRENT · imiT · 0u1 · PNJ569 · RJi · 22/25 · NQIEi · ALL · RESISTORS · AND · Tn2102
+- **Title block:** (209, 43)–(334, 67) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 19 connected wire groups from 289 runs; labelled ends: 95 mm → RJi; 57 mm → R39, 47k, R4o; 50 mm → 220/10, 620, R39, 47k; 49 mm → R4o, R4z, 620, 220/10; 43 mm → 6.8, Tzztzs
+
+Every curve, box, word and wire group: [1985 - M562C - 14-109-02-002 - UNIVERSAL AMPLIFIER ASSEMBLY SCHEMATIC (traced).json](1985%20-%20M562C%20-%2014-109-02-002%20-%20UNIVERSAL%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M562C - 14-109-02-002 - UNIVERSAL AMPLIFIER ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

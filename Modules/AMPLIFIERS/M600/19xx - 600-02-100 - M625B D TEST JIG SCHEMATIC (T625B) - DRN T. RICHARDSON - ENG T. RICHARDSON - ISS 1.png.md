@@ -22,6 +22,21 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 1,538,018 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-100, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 168 rings, 3,865 straight (10,133 mm) / 516 curved (743 mm); text 235 rings, 2,110 straight (2,671 mm) / 604 curved (968 mm); tb 10 rings, 132 straight (256 mm) / 24 curved (40.8 mm)
+- **Centre lines:** 5,000 paths (59 closed); straight 7,650 mm, curved 260 mm; horizontal 3,281 mm, vertical 2,356 mm, diagonal 2,013 mm
+- **Circles and arcs:** 19 circles, 22 arcs; largest r 3.3 @ (109.9, 219.0), r 2.1 @ (360.8, 223.0), r 2.1 @ (360.5, 177.3), r 2.1 @ (360.1, 131.5)
+- **Closed boxes:** 19 (6 in the title block); named: M6zSBfD (UNDER TEST); 10
+- **Dots (junctions):** 1
+- **Words (OCR):** 42 in 40 lines: SWi · Sw3 · to · P1 · P2-1 · +25V · DSI · RI 10OK · 16 · M6zSBfD · (UNDER TEST) · SW2
+- **Title block:** (276, 9)–(429, 78) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN:T RICHARDSON · M625B/D TEST JIG · ENG.TRICHARDSON · CKD · SCHEMATIC · (T625B) · APP · SCALE · 600-02-100 · ISSUE
+- **Wiring (first pass):** 20 connected wire groups from 222 runs; labelled ends: 1330 mm → DSI, RI, 10OK, SW2; 289 mm → METER, INSERT; 251 mm → Sw3, to, BY, METER; 43 mm → to; 43 mm → BY
+
+Every curve, box, word and wire group: [19xx - 600-02-100 - M625B D TEST JIG SCHEMATIC (T625B) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1 (traced).json](19xx%20-%20600-02-100%20-%20M625B%20D%20TEST%20JIG%20SCHEMATIC%20%28T625B%29%20-%20DRN%20T.%20RICHARDSON%20-%20ENG%20T.%20RICHARDSON%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 600-02-100 - M625B D TEST JIG SCHEMATIC (T625B) - DRN T. RICHARDSON - ENG T. RICHARDSON - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

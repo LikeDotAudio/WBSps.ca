@@ -11,6 +11,19 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 303,308 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 445-02-001, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 2–288 mm across, 19–431 mm up
+- **Outlines:** line 729 rings, 6,204 straight (14,440 mm) / 1,127 curved (1,752 mm); text 242 rings, 1,534 straight (1,725 mm) / 473 curved (709 mm)
+- **Centre lines:** 6,233 paths (75 closed); straight 9,075 mm, curved 511 mm; horizontal 2,852 mm, vertical 3,292 mm, diagonal 2,931 mm
+- **Circles and arcs:** 13 circles, 120 arcs; largest r 1.2 @ (154.4, 245.5), r 1.2 @ (192.4, 305.4), r 1.2 @ (96.8, 44.2), r 1.2 @ (238.7, 102.6)
+- **Closed boxes:** 66
+- **Words (OCR):** 6 in 5 lines: 03 · 11 · Ntom+@ 0 = @ @ 2 0 8 · 59 · 03
+- **Wiring (first pass):** 65 connected wire groups from 767 runs; labelled ends: 835 mm → Ntom+@ 0 = @ @, 11, 59; 245 mm → 11, 2 0 8, 59; 189 mm → 11, 59; 167 mm → Ntom+@ 0 = @ @, 2 0 8; 139 mm → Ntom+@ 0 = @ @
+
+Every curve, box, word and wire group: [1996 - M445 - B 445-02-001 - M445 RACK MOUNT FRAME - SCHEMATIC (traced).json](1996%20-%20M445%20-%20B%20445-02-001%20-%20M445%20RACK%20MOUNT%20FRAME%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1996 - M445 - B 445-02-001 - M445 RACK MOUNT FRAME - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,20 @@ SA14-120 stereo preamplifier schematic, cropped.
 - **Size:** 302,907 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-120-02-001, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–416 mm up
+- **Outlines:** line 582 rings, 8,608 straight (13,303 mm) / 1,621 curved (1,956 mm); text 621 rings, 3,847 straight (3,588 mm) / 1,382 curved (1,740 mm); tb 2 rings, 54 straight (147 mm) / 4 curved (5.7 mm)
+- **Centre lines:** 12,885 paths (171 closed); straight 11,164 mm, curved 251 mm; horizontal 3,581 mm, vertical 3,373 mm, diagonal 4,210 mm
+- **Circles and arcs:** 0 circles, 85 arcs
+- **Closed boxes:** 14
+- **Words (OCR):** 122 in 111 lines: PREAMP · AUXILIARY · PREF ADE · 6.8/16 · C21 · U74 · C23 · Jjop · LEFT · Rz8 R3O · 338 LMBJJN · 7/107
+- **Title block:** (214, 45)–(335, 69) mm: WBS WARD-BECK SYSTEMB
+- **Wiring (first pass):** 81 connected wire groups from 632 runs; labelled ends: 391 mm → 6.8/16, Rz8, R29, 22k; 304 mm → 4./10; 238 mm → R67, 22k, R68, MBJJN; 225 mm → R68, 22k, 15k, C45; 200 mm → iook, C48, 4/10, U9A
+
+Every curve, box, word and wire group: [19xx - 14-120-02-001 - SA14-120 STEREO PREAMPLIFIER SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-120-02-001%20-%20SA14-120%20STEREO%20PREAMPLIFIER%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-120-02-001 - SA14-120 STEREO PREAMPLIFIER SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

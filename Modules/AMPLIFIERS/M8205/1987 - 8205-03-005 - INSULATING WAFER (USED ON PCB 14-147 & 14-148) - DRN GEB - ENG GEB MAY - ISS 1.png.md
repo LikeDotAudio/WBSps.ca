@@ -23,6 +23,19 @@ Wiki page: [M8205](../../../PAGES/M8205.md)
 - **Size:** 1,292,230 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8205-03-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–295 mm up
+- **Outlines:** line 110 rings, 2,175 straight (5,322 mm) / 214 curved (298 mm); text 333 rings, 2,535 straight (3,414 mm) / 712 curved (1,142 mm); tb 5 rings, 91 straight (212 mm) / 6 curved (6.2 mm)
+- **Centre lines:** 3,066 paths (59 closed); straight 5,272 mm, curved 10.8 mm; horizontal 2,475 mm, vertical 1,131 mm, diagonal 1,667 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 11 (7 in the title block); named: SCALE; 8205-03-005
+- **Words (OCR):** 43 in 31 lines: 2.00 · 1.75 · 1-25 · 0-75 · 0.25 · 0.125 DIA · 4 HOLES · 0 - 187 · 0.750 · NOTES; · MATERIAL DUPONT KAPTON XT · SIMILAR to BERGQUIST
+- **Title block:** (292, 26)–(432, 95) mm: ISSUE DATE · REVISION · WBS WARD-BECK SYSTEMS · DRN_ · GEB · ENG. GEB `/87 · INSULATING WAFER · CKD · (USED ON · PcB 14./47 $ /4./48 · APP · SCALE · ISSUE · 8205-03-005
+
+Every curve, box, word and wire group: [1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 & 14-148) - DRN GEB - ENG GEB MAY - ISS 1 (traced).json](1987%20-%208205-03-005%20-%20INSULATING%20WAFER%20%28USED%20ON%20PCB%2014-147%20%26%2014-148%29%20-%20DRN%20GEB%20-%20ENG%20GEB%20MAY%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 8205-03-005 - INSULATING WAFER (USED ON PCB 14-147 & 14-148) - DRN GEB - ENG GEB MAY - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

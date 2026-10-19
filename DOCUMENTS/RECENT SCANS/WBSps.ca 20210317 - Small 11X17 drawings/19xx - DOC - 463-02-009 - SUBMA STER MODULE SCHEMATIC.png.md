@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 14,045,092 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-009, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 983 rings, 9,423 straight (20,958 mm) / 2,128 curved (2,866 mm); text 904 rings, 5,111 straight (4,513 mm) / 1,870 curved (2,376 mm); tb 20 rings, 131 straight (176 mm) / 36 curved (45.4 mm)
+- **Centre lines:** 13,569 paths (275 closed); straight 15,198 mm, curved 556 mm; horizontal 6,260 mm, vertical 3,523 mm, diagonal 5,416 mm
+- **Circles and arcs:** 18 circles, 92 arcs; largest r 4.0 @ (97.2, 264.9), r 3.9 @ (97.5, 187.7), r 3.9 @ (61.5, 93.5), r 3.9 @ (112.3, 149.5)
+- **Closed boxes:** 26 (4 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 203 in 178 lines: R43 · MoniTOR · Out · Rio · Ri? · R4c · DIRECT OUT · 204401 244401 · SwS ME · 33016 · R47 i20k · FADER
+- **Title block:** (351, 8)–(397, 48) mm: b3526 · ISsuDATE · WBS · cKDPA · SCALE
+- **Wiring (first pass):** 173 connected wire groups from 1,019 runs; labelled ends: 449 mm → R27, R28, 338, S7; 291 mm → R4c, 2E7, 2E4, R3S; 283 mm → R4c, AMplifier, 2E6, R3c; 265 mm → SwS ME, SwG 42, S7, 54s; 210 mm → Swz, Letlo
+
+Every curve, box, word and wire group: [19xx - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC (traced).json](19xx%20-%20DOC%20-%20463-02-009%20-%20SUBMA%20STER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 463-02-009 - SUBMA STER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 23,509,486 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 950341-01-001, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 42–420 mm across, 4–244 mm up
+- **Outlines:** line 2,337 rings, 20,954 straight (33,271 mm) / 2,018 curved (2,673 mm); text 174 rings, 1,059 straight (1,026 mm) / 314 curved (402 mm); tb 13 rings, 123 straight (154 mm) / 26 curved (28.8 mm)
+- **Centre lines:** 111,066 paths (132 closed); straight 43,541 mm, curved 25.3 mm; horizontal 10,524 mm, vertical 12,829 mm, diagonal 20,188 mm
+- **Circles and arcs:** 198 circles, 9 arcs; largest r 3.4 @ (276.6, 183.2), r 3.4 @ (144.2, 222.1), r 3.4 @ (155.7, 104.7), r 3.4 @ (307.5, 116.1)
+- **Closed boxes:** 52 (2 in the title block); named: SONY OF CANADA LTD 24*36 MinicOM FUNCTIO; 950541-01-001; CCOE; 05341F01
+- **Words (OCR):** 24 in 21 lines: FUMAE · BUS 22 · LEGEND; · NORUALLI · (24 INPUTS Ciplts) · UaIri · JCJ Chus · INPUTS · 43512 · sctonsi · 4o51 · OUIFUTS
+- **Title block:** (341, 20)–(426, 40) mm: ISSUEI · WBS · WARD- · BECK SYSTEMS · SONY OF CANADA LTD
+- **Wiring (first pass):** 149 connected wire groups from 3,291 runs; labelled ends: 50 mm → WBS, CCOE; 05341F01; 18 mm → sctonsi; 16 mm → BUS 22; 14 mm → BUS 22; 12 mm → 43512
+
+Every curve, box, word and wire group: [1995 - DOC - 950341-01-001 - OHVS FUTURE IFB OUTPUTS (traced).json](1995%20-%20DOC%20-%20950341-01-001%20-%20OHVS%20FUTURE%20IFB%20OUTPUTS%20%28traced%29.json) (the CAD file: `1995 - DOC - 950341-01-001 - OHVS FUTURE IFB OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

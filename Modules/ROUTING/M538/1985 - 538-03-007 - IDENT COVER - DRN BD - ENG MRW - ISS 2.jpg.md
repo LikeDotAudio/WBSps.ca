@@ -23,6 +23,19 @@ Wiki page: [M538](../../../PAGES/M538.md)
 - **Size:** 1,336,124 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 538-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 12–298 mm up
+- **Outlines:** line 162 rings, 3,143 straight (9,083 mm) / 310 curved (442 mm); text 443 rings, 3,914 straight (4,899 mm) / 1,093 curved (1,849 mm); tb 9 rings, 112 straight (227 mm) / 15 curved (25.3 mm)
+- **Centre lines:** 4,113 paths (63 closed); straight 8,383 mm, curved 11.6 mm; horizontal 3,979 mm, vertical 1,593 mm, diagonal 2,811 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 14 (10 in the title block); named: Geb
+- **Words (OCR):** 65 in 55 lines: 485 · 538-03-057/1 · ~242 · 5.638 · 5.876 · -485 · o86DIA · C'PORE · 125 DIA · 2 PACES TYP · -SEE · EETAIL A
+- **Title block:** (120, 13)–(429, 83) mm: SiZE INcREASED · Geb · 2489 · TFLAE IDENT · ISSUE DATE · REVISION · APP · EDGES · Buees SHAPP · WBS WARD-BECK · SYSTEMS · DRN: BDE · M538 · Mew · ENG · IDENT COVER · CKD: · APP · SCALE · 03-007 · ISSU
+
+Every curve, box, word and wire group: [1985 - 538-03-007 - IDENT COVER - DRN BD - ENG MRW - ISS 2 (traced).json](1985%20-%20538-03-007%20-%20IDENT%20COVER%20-%20DRN%20BD%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1985 - 538-03-007 - IDENT COVER - DRN BD - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

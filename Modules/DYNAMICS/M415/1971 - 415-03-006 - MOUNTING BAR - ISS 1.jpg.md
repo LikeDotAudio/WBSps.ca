@@ -27,6 +27,19 @@ Mechanical drawing of an M415 mounting bar, title block at bottom right.
 
 - **1971** (labelled): `DATE 7.APRIL 1971` — …ArP EDGES DRN D.P s_ FINISH 120 NARD BECK SYSTEDIS LTd GRIT DATE 7.APRIL 1971 ANODIZE BLAck M 415 CrD MATEMIAL MOUNTING BAR 3 Thk AL ALLo…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 415-03-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 9–297 mm up
+- **Outlines:** line 221 rings, 5,072 straight (8,794 mm) / 714 curved (996 mm); text 238 rings, 1,887 straight (2,151 mm) / 555 curved (863 mm); tb 15 rings, 181 straight (178 mm) / 27 curved (41.2 mm)
+- **Centre lines:** 5,852 paths (50 closed); straight 6,959 mm, curved 119 mm; horizontal 3,245 mm, vertical 1,612 mm, diagonal 2,102 mm
+- **Circles and arcs:** 1 circles, 26 arcs; largest r 4.0 @ (108.9, 177.7)
+- **Closed boxes:** 2; named: DRN ChkD TOLs
+- **Words (OCR):** 38 in 26 lines: 2 holes · 32 DIA · 32 "To · 6 DiA . · 250 · 2 Holes 32 · DIA · ReMovE ALL Burrs · SHARP EDGES · DRN · D.P s_ · MARD BECK SYSTEDIS Lid
+- **Title block:** (168, 32)–(362, 61) mm: DRN · D.P s_ · MARD BECK SYSTEDIS Lid · 120 · GriT · DATEI7 APRiL 1971 ANODIZE · BLAck · M 415 · MATEMIAL · ChkD
+
+Every curve, box, word and wire group: [1971 - 415-03-006 - MOUNTING BAR - ISS 1 (traced).json](1971%20-%20415-03-006%20-%20MOUNTING%20BAR%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 415-03-006 - MOUNTING BAR - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

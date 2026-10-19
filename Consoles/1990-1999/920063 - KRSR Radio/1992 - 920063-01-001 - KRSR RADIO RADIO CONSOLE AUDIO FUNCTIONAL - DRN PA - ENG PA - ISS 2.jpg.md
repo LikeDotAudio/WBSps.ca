@@ -26,6 +26,20 @@ Wiki page: [Job-920063](../../../PAGES/Job-920063.md)
 
 - **2006** (manual_issue): `ISSUE 92006` — …SYSTEMS CHIGA MON KRSR RADIO RADIO CONSOLE AUDIO FUNCTIONAL ISSUE 920063-01 001 OUTPUTS OUTPUTS OUTPUTS…
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920063-01-001, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 58–846 mm across, 14–546 mm up
+- **Outlines:** line 1,019 rings, 6,620 straight (28,892 mm) / 1,302 curved (3,354 mm); text 1,107 rings, 8,050 straight (13,647 mm) / 2,210 curved (5,232 mm); tb 30 rings, 244 straight (2,429 mm) / 24 curved (60.6 mm)
+- **Centre lines:** 22,502 paths (406 closed); straight 28,990 mm, curved 42.8 mm; horizontal 9,801 mm, vertical 7,876 mm, diagonal 11,313 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 114 (1 in the title block); named: PROGRAM; PGK I-R; PGM; PGM; PGM 2-R; AUX; AUX; CUE; PROCRAM; PGM 1-R; PGM 2-R; PCM 2_4
+- **Words (OCR):** 230 in 210 lines: CONSCLE SUMMING BUSES · PG PGM AUX · CUE · H49QA MC_INPUI CHANNELS (2) · PROGRAM SIEREQ QUTPUIS · PGM · 60/-30 cBm · MIC INPUTS · INSERTS · PGK I-R · PCM · INSERTS
+- **Title block:** (678, 10)–(862, 88) mm: SSUE · REMSION · APP · WBS WARD-BECK SYSTEMS · IDRN: · EENG · KRSR RADIO · CKD. · AUDIO FUNCTIONAL · RADIO CONSOLE · APP; · SCALE DISC NO: · CODE: 20063F01 · 920063-01 001 · ISSUE
+- **Wiring (first pass):** 219 connected wire groups from 1,147 runs; labelled ends: 3552 mm → PG, PGM, AUX, CUE; 107 mm → PGM 2-R; 107 mm → MONO; 106 mm → PGV; 92 mm → 600 OHMS
+
+Every curve, box, word and wire group: [1992 - 920063-01-001 - KRSR RADIO RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 2 (traced).json](1992%20-%20920063-01-001%20-%20KRSR%20RADIO%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1992 - 920063-01-001 - KRSR RADIO RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 26 words corrected)

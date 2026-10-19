@@ -22,6 +22,19 @@ Auxiliary meter panel drawing with title block at bottom right.
 - **Size:** 465,737 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960366-03-001, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 32–839 mm across, 4–524 mm up
+- **Outlines:** line 682 rings, 7,609 straight (29,100 mm) / 1,066 curved (2,933 mm); text 191 rings, 1,135 straight (2,016 mm) / 360 curved (906 mm); tb 24 rings, 181 straight (391 mm) / 43 curved (93.5 mm)
+- **Centre lines:** 7,032 paths (165 closed); straight 17,879 mm, curved 326 mm; horizontal 8,382 mm, vertical 4,972 mm, diagonal 4,526 mm
+- **Circles and arcs:** 0 circles, 18 arcs
+- **Closed boxes:** 23 (3 in the title block)
+- **Words (OCR):** 32 in 32 lines: 070] · 6-400 · PLACFS · DETAI · 6 CJ0 · 2coc · 0,400 · DETAM · 1.675 · NSFRT OTHEF · PACES · 1.750
+- **Title block:** (681, 48)–(850, 88) mm: WARD-BECK  SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1996 - 960366-03-001 - AUXILIARY METER PANEL - DRN DRG - ISS 1 (traced).json](1996%20-%20960366-03-001%20-%20AUXILIARY%20METER%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960366-03-001 - AUXILIARY METER PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

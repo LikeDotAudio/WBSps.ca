@@ -11,6 +11,17 @@ Wiki page: [M473B](../../../PAGES/M473B.md)
 - **Size:** 2,305,846 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 473-04-007, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 400 rings, 8,711 straight (8,181 mm) / 1,584 curved (1,978 mm); text 316 rings, 2,957 straight (2,485 mm) / 870 curved (1,066 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 14.0 @ (205.3, 129.3), r 10.8 @ (205.1, 129.5), r 7.7 @ (205.2, 129.6), r 7.5 @ (177.7, 128.4)
+- **Closed boxes:** 2; named: BALANCED switcn tnis switch Witn BALANCE
+- **Words (OCR):** 72 in 41 lines: WBS · M47J8 · MaSTER ASSIGNMENT snitch · depressed, Ine ouiput signal · ing resistors · sumning bus · summ · M2 · the exte · MASTER ASSIGNMENT switch · depressed, the ouipul · signal
+
+Every curve, box, word and wire group: [1984 - M473B - 473-04-007 - DEPRESSED FEEDS SUBMASTER OUPUT PUIPULS SUB (traced).json](1984%20-%20M473B%20-%20473-04-007%20-%20DEPRESSED%20FEEDS%20SUBMASTER%20OUPUT%20PUIPULS%20SUB%20%28traced%29.json) (the CAD file: `1984 - M473B - 473-04-007 - DEPRESSED FEEDS SUBMASTER OUPUT PUIPULS SUB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

@@ -22,6 +22,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 3,008,685 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 880134-02-007, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 545 rings, 5,832 straight (23,433 mm) / 744 curved (1,824 mm); text 275 rings, 1,801 straight (4,126 mm) / 585 curved (1,681 mm)
+- **Centre lines:** 3,704 paths (46 closed); straight 14,866 mm, curved 141 mm; horizontal 8,539 mm, vertical 3,295 mm, diagonal 3,032 mm
+- **Circles and arcs:** 1 circles, 16 arcs; largest r 4.8 @ (462.0, 134.3)
+- **Closed boxes:** 23
+- **Wiring (first pass):** 92 connected wire groups from 510 runs
+
+Every curve, box, word and wire group: [1988 - 880134-02-007 - MONITOR SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1988%20-%20880134-02-007%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 880134-02-007 - MONITOR SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,17 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 383,058 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 456-04-006, size B (assumed) 432 × 265 mm, 2000 × 1228 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–262 mm up
+- **Outlines:** line 210 rings, 3,728 straight (5,288 mm) / 488 curved (684 mm); text 792 rings, 5,882 straight (6,275 mm) / 1,759 curved (2,501 mm); tb 13 rings, 182 straight (302 mm) / 23 curved (29.4 mm)
+- **Closed boxes:** 36 (5 in the title block); named: Mii; N/121; Rl14; s/15; 1h16; 0j17]; vhe; Xi20; 222]
+- **Words (OCR):** 166 in 114 lines: Mon Out (4) · Mon Out (4) · ChI DIR in · ChI · DIR IN · MoN Out (3) · MON Out · cki PB in Bl 2 · ChI · PB |N · MoN Out (2) · MoN Out
+- **Title block:** (284, 2)–(432, 69) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN_ · M456E · ENG AUG 78 · DUAL · Mixduwn MODULE · CONNECTOR REAR VIEW · APP · SCALE · 456-04-006 · ISSUE
+
+Every curve, box, word and wire group: [1975 - M456B - 456-04-006 - XDOWN MODULE CONNECTOR REAR VIEW (traced).json](1975%20-%20M456B%20-%20456-04-006%20-%20XDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1975 - M456B - 456-04-006 - XDOWN MODULE CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -24,6 +24,20 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 287,098 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 457-01-002, size B 432 × 297 mm, 2000 × 1377 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–297 mm up
+- **Outlines:** line 155 rings, 2,600 straight (5,841 mm) / 333 curved (443 mm); text 212 rings, 2,010 straight (2,482 mm) / 497 curved (737 mm); tb 7 rings, 115 straight (238 mm) / 11 curved (17.1 mm)
+- **Centre lines:** 3,653 paths (30 closed); straight 4,931 mm, curved 5.0 mm; horizontal 2,261 mm, vertical 916 mm, diagonal 1,755 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 9 (9 in the title block)
+- **Words (OCR):** 43 in 36 lines: SUMMING INPUT · LEVEL · BST · 15-101 · EXTERNAL INPUT · (OdB) · F10 dBm · OUTPUTS · +8 dBm · SUMMING INPUT · BST · 5-101
+- **Title block:** (274, 1)–(432, 81) mm: 10/77 · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN · DB · M457A · ENG_ · RKB · PRE - MIXER · MASTER MODULE · CKD: · FUNCTIONAL DIAGRAM · APP · 102 · SCALE · ISSUE · 457 01 
+- **Wiring (first pass):** 72 connected wire groups from 104 runs; labelled ends: 95 mm → BST; 52 mm → INPUT; 52 mm → INPUT; 51 mm → BST; 50 mm → LEVEL, (OdB), 15-101
+
+Every curve, box, word and wire group: [1977 - 457-01-002 - PRE-MIXER MASTER MODULE FUNCTIONAL DIAGRAM - DRN DB - ENG RKB - ISS 2 (traced).json](1977%20-%20457-01-002%20-%20PRE-MIXER%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20DB%20-%20ENG%20RKB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1977 - 457-01-002 - PRE-MIXER MASTER MODULE FUNCTIONAL DIAGRAM - DRN DB - ENG RKB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

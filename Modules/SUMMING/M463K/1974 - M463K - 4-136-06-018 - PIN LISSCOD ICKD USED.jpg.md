@@ -11,6 +11,18 @@ Wiki page: [M463K](../../../PAGES/M463K.md)
 - **Size:** 2,245,975 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-136-06-018, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 1,785 rings, 12,645 straight (12,738 mm) / 2,955 curved (2,638 mm); text 978 rings, 6,895 straight (6,473 mm) / 2,171 curved (2,427 mm); tb 155 rings, 600 straight (388 mm) / 75 curved (67.2 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.6 @ (73.5, 152.8), r 2.5 @ (247.4, 153.2), r 2.1 @ (124.8, 157.7), r 2.1 @ (166.8, 218.6)
+- **Closed boxes:** 33 (25 in the title block); named: Swio OTHER SIDE Swis; SwG CTHER SIDE Swig; 5w7 OTHERI SIDE Swzo; 26; 25; 28; WBS yoteMB LTD_ WAAD-BEck; M463k SUb ~ MASTER MODULe LAYOUT COMPONE
+- **Words (OCR):** 124 in 104 lines: Swio · Sws · Sw8 5w7 · SwG Sws Sw4 Sw3 · OTHER · OTHERI · CTHER · SIDE · SIDE · SIDE · CuT · PCB
+- **Title block:** (119, 5)–(298, 53) mm: @SCOOICKD] USED On · MT _ · WBS WAAD-BEck · DrR: PRM · M463k · MIMISH · DATE/3 JY7/2 · SUb ~ MASTER MODULe · CKD · COMPONENT · [SCALE · TOLS_ · 4-136-06-018
+
+Every curve, box, word and wire group: [1974 - M463K - 4-136-06-018 - PIN LISSCOD ICKD USED (traced).json](1974%20-%20M463K%20-%204-136-06-018%20-%20PIN%20LISSCOD%20ICKD%20USED%20%28traced%29.json) (the CAD file: `1974 - M463K - 4-136-06-018 - PIN LISSCOD ICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

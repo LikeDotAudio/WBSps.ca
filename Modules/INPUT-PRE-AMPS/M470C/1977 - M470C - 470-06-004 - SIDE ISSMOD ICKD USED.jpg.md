@@ -11,6 +11,19 @@ Wiki page: [M470C](../../../PAGES/M470C.md)
 - **Size:** 550,103 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 470-06-004, size B (assumed) 432 × 295 mm, 2000 × 1365 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–265 mm up
+- **Outlines:** line 3,503 rings, 20,019 straight (26,853 mm) / 5,730 curved (5,647 mm); text 907 rings, 5,409 straight (4,404 mm) / 1,895 curved (1,957 mm); tb 31 rings, 133 straight (133 mm) / 11 curved (8.8 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 4.1 @ (237.3, 153.2), r 4.0 @ (348.6, 202.1), r 4.0 @ (243.2, 163.6), r 4.0 @ (238.0, 186.2)
+- **Closed boxes:** 38 (1 in the title block); named: 35
+- **Dots (junctions):** 2
+- **Words (OCR):** 59 in 48 lines: 22 · 340 · 44 · 28 · 282 · #cRi 820 · RGo = · 48i33748 · 8 2 · 48 · 2 8 · 080
+- **Title block:** (346, 0)–(412, 30) mm: WBS WARD-Deck · M4zoc · INPUT · MODULe · SCALE · COMPONENT [Ayout · 470 - 06 - 004
+
+Every curve, box, word and wire group: [1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED (traced).json](1977%20-%20M470C%20-%20470-06-004%20-%20SIDE%20ISSMOD%20ICKD%20USED%20%28traced%29.json) (the CAD file: `1977 - M470C - 470-06-004 - SIDE ISSMOD ICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

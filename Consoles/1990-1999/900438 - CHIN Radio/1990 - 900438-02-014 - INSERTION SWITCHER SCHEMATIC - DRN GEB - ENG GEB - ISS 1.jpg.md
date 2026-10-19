@@ -23,6 +23,19 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,373,429 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-014, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 20–305 mm up
+- **Outlines:** line 700 rings, 6,939 straight (13,776 mm) / 1,750 curved (2,644 mm); text 261 rings, 1,748 straight (1,982 mm) / 588 curved (794 mm)
+- **Centre lines:** 6,554 paths (84 closed); straight 8,740 mm, curved 1,052 mm; horizontal 3,502 mm, vertical 2,558 mm, diagonal 2,680 mm
+- **Circles and arcs:** 19 circles, 186 arcs; largest r 1.7 @ (332.7, 84.2), r 1.7 @ (384.8, 81.7), r 1.7 @ (374.9, 81.7), r 1.6 @ (357.6, 39.3)
+- **Closed boxes:** 19
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 52 connected wire groups from 796 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-014 - INSERTION SWITCHER SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-014%20-%20INSERTION%20SWITCHER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-014 - INSERTION SWITCHER SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

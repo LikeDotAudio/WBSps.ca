@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,422,190 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940449-03-001, size B (assumed) 432 × 277 mm, 2000 × 1282 px traced (0.216 mm/px)
+- **Ink extent:** 34–432 mm across, 3–243 mm up
+- **Outlines:** line 684 rings, 5,403 straight (14,038 mm) / 872 curved (1,012 mm); text 251 rings, 1,520 straight (1,429 mm) / 469 curved (577 mm); tb 16 rings, 143 straight (167 mm) / 31 curved (33.7 mm)
+- **Centre lines:** 7,029 paths (196 closed); straight 8,933 mm, curved 6.9 mm; horizontal 4,283 mm, vertical 2,578 mm, diagonal 2,073 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 27 (3 in the title block); named: Host TURRET FRONT PANEL
+- **Words (OCR):** 33 in 28 lines: 16,710 · L.Odo · PITCHES 7.355 15110 · PITCHES · 4050 · 0.2C0 · REC'D · 'OTPERcEIS · SIdE · D.ZUC · 4.710 · 3750
+- **Title block:** (341, 27)–(425, 43) mm: REMS · WARD-BECK SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1994 - DOC - 940449-03-001 - ENG DETAIL HOST TURRET FRONT PANEL NOTE REVOVE (traced).json](1994%20-%20DOC%20-%20940449-03-001%20-%20ENG%20DETAIL%20HOST%20TURRET%20FRONT%20PANEL%20NOTE%20REVOVE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940449-03-001 - ENG DETAIL HOST TURRET FRONT PANEL NOTE REVOVE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

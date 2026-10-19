@@ -11,6 +11,19 @@ Wiki page: [M632](../../../PAGES/M632.md)
 - **Size:** 367,515 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 3632-06-001, size B (assumed) 432 × 287 mm, 2000 × 1328 px traced (0.216 mm/px)
+- **Ink extent:** 6–430 mm across, 1–287 mm up
+- **Outlines:** line 812 rings, 7,388 straight (12,325 mm) / 2,171 curved (2,254 mm); text 409 rings, 2,845 straight (2,228 mm) / 934 curved (1,026 mm); tb 32 rings, 235 straight (219 mm) / 76 curved (76.0 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.1 @ (103.2, 140.6), r 1.1 @ (88.0, 55.7), r 1.0 @ (81.2, 58.7)
+- **Closed boxes:** 14 (7 in the title block); named: 632-02-001
+- **Dots (junctions):** 3
+- **Words (OCR):** 62 in 52 lines: Notes; · ALL · Resistors · Y23 ARL = Cr3 92,R' · Desion · 4)Pcb 3-104 · Rioz Qioi Dsiote PE · Y For COMEONEE · AYOUT · Pcd · 5632 06-0o1 · P2
+- **Title block:** (359, 0)–(393, 34) mm: WBS · SCALE
+
+Every curve, box, word and wire group: [19xx - M632 - 632-02-001 - OVIDJ POWER SUPFLY (traced).json](19xx%20-%20M632%20-%20632-02-001%20-%20OVIDJ%20POWER%20SUPFLY%20%28traced%29.json) (the CAD file: `19xx - M632 - 632-02-001 - OVIDJ POWER SUPFLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

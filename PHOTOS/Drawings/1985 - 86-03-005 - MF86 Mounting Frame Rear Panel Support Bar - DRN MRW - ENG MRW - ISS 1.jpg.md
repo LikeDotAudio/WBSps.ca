@@ -21,6 +21,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,297,155 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 86-03-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: M8ooO
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 106 rings, 2,426 straight (8,578 mm) / 209 curved (370 mm); text 478 rings, 3,068 straight (3,690 mm) / 988 curved (1,501 mm); tb 6 rings, 92 straight (216 mm) / 10 curved (13.9 mm)
+- **Centre lines:** 4,134 paths (105 closed); straight 7,365 mm, curved 65.2 mm; horizontal 3,586 mm, vertical 1,665 mm, diagonal 2,114 mm
+- **Circles and arcs:** 0 circles, 12 arcs
+- **Closed boxes:** 17 (12 in the title block); named: SCALE 2x; CODE: MM86 005
+- **Words (OCR):** 47 in 34 lines: 16,845 · '375 · 1,34 Ref · 156 Dia. 2 Places · 17,085 · NOTES: · Tolerances: · =+/-.015 · XX · xxx=+/-.005 · ISSUE DATE · REVISION
+- **Title block:** (253, 20)–(423, 88) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRN: MRW · 11/85 MF86 Mounting Frame · ENG_ MRW · Rear · Panel Support Bar · CKD. · APP_ · ISSUE · SCALE DISC NO: M8ooO · 86-03-005 · 2x CODE:
+
+Every curve, box, word and wire group: [1985 - 86-03-005 - MF86 Mounting Frame Rear Panel Support Bar - DRN MRW - ENG MRW - ISS 1 (traced).json](1985%20-%2086-03-005%20-%20MF86%20Mounting%20Frame%20Rear%20Panel%20Support%20Bar%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1985 - 86-03-005 - MF86 Mounting Frame Rear Panel Support Bar - DRN MRW - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -21,6 +21,19 @@ Meter/VU drive module schematic Title block at top right reading downward.
 - **Size:** 5,043,905 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 940238-02-080/2, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 423 rings, 5,615 straight (8,148 mm) / 1,246 curved (1,461 mm); text 13 rings, 82 straight (73.0 mm) / 21 curved (30.0 mm)
+- **Centre lines:** 7,384 paths (85 closed); straight 5,440 mm, curved 75.7 mm; horizontal 1,785 mm, vertical 1,808 mm, diagonal 1,848 mm
+- **Circles and arcs:** 8 circles, 14 arcs; largest r 1.3 @ (372.0, 33.2), r 1.3 @ (361.2, 33.3), r 1.3 @ (350.7, 33.3), r 1.1 @ (386.6, 58.2)
+- **Closed boxes:** 19
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 70 connected wire groups from 493 runs, 3 dotted junctions
+
+Every curve, box, word and wire group: [1994 - 940238-02-080 - M909NW METER MIX-MINUS MODULE SCHEMATIC - ISS 1 (traced).json](1994%20-%20940238-02-080%20-%20M909NW%20METER%20MIX-MINUS%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940238-02-080 - M909NW METER MIX-MINUS MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

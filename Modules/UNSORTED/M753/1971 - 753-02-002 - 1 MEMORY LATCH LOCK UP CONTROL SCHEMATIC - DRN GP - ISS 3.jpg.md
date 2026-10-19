@@ -23,6 +23,20 @@ Wiki page: [M753](../../../PAGES/M753.md)
 - **Size:** 513,786 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 753-02-002, size D 864 × 530 mm, 2000 × 1228 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 2–530 mm up
+- **Outlines:** line 1,369 rings, 8,481 straight (23,866 mm) / 1,587 curved (3,747 mm); text 255 rings, 1,288 straight (2,106 mm) / 468 curved (1,136 mm)
+- **Centre lines:** 8,427 paths (152 closed); straight 15,059 mm, curved 211 mm; horizontal 6,462 mm, vertical 3,089 mm, diagonal 5,508 mm
+- **Circles and arcs:** 3 circles, 35 arcs; largest r 2.0 @ (697.4, 295.2), r 1.9 @ (735.1, 460.5), r 1.3 @ (778.0, 26.0)
+- **Closed boxes:** 19; named: Lock; 002 755-02
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 54 lines: 266tra · FZt · Cis · 2322 zi · e/v · 4400 · 68/6v · NOTES · 740@ · R40 · ATCh · 7402
+- **Wiring (first pass):** 139 connected wire groups from 1,017 runs; labelled ends: 388 mm → Ld, 3t, DATE; 138 mm → 2322 zi, Cis, e/v; 117 mm → DATE; 85 mm → 2322 zi, Cis, e/v; 25 mm → R40
+
+Every curve, box, word and wire group: [1971 - 753-02-002 - 1 MEMORY LATCH LOCK UP CONTROL SCHEMATIC - DRN GP - ISS 3 (traced).json](1971%20-%20753-02-002%20-%201%20MEMORY%20LATCH%20LOCK%20UP%20CONTROL%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1971 - 753-02-002 - 1 MEMORY LATCH LOCK UP CONTROL SCHEMATIC - DRN GP - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 19 words corrected)

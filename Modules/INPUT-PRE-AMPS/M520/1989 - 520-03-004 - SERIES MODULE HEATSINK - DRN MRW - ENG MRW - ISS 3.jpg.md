@@ -24,6 +24,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 1,279,439 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 520-03-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–299 mm up
+- **Outlines:** line 322 rings, 5,141 straight (10,540 mm) / 667 curved (890 mm); text 346 rings, 2,699 straight (3,205 mm) / 785 curved (1,197 mm); tb 25 rings, 214 straight (335 mm) / 36 curved (45.3 mm)
+- **Centre lines:** 7,650 paths (71 closed); straight 8,708 mm, curved 67.5 mm; horizontal 4,136 mm, vertical 1,821 mm, diagonal 2,752 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 1.6 @ (38.3, 114.1), r 1.4 @ (56.4, 106.4)
+- **Closed boxes:** 24 (8 in the title block); named: 070 HoLEs WERE 4-40; GEB; 6/89/2 TAP4-40 ADLED; WS
+- **Words (OCR):** 50 in 40 lines: NOTES: · 1) IOLERANCES · 015 · XXX · 005 · .070 DIA ~ · 2 PLACES · 2) REMOVE BURRS SHARP · EDGES · 50 · 2.000 · MATERIAL
+- **Title block:** (279, 4)–(432, 72) mm: 6/89/2 TAP4-40 ADLED WS · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN Mehi · M52o SerIES MODULE · ENG_ · MRw · CKD · HeATsinK · APP · SCALE · ISSUE · 2x · 520-03-004
+
+Every curve, box, word and wire group: [1989 - 520-03-004 - SERIES MODULE HEATSINK - DRN MRW - ENG MRW - ISS 3 (traced).json](1989%20-%20520-03-004%20-%20SERIES%20MODULE%20HEATSINK%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1989 - 520-03-004 - SERIES MODULE HEATSINK - DRN MRW - ENG MRW - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

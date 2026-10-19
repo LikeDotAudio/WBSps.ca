@@ -24,6 +24,16 @@ Front view layout of the ST3642 stereo television console with meter bridge, two
 - **Size:** 1,821,991 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 3642-04-002, size D 864 × 455 mm, 2000 × 1053 px traced (0.432 mm/px)
+- **Ink extent:** 28–850 mm across, 0–455 mm up
+- **Outlines:** line 756 rings, 9,232 straight (54,319 mm) / 1,209 curved (3,196 mm); text 92 rings, 929 straight (1,794 mm) / 233 curved (607 mm)
+- **Closed boxes:** 182; named: MOOULES; INPUT SECTORS; MODULE; INRUT; 40258; 51; 45z004 COTROILER; WARD-BECK SYSTEMS WES; ST3642 STEREO TELEVSION CONSOLE VEW LAYO; 3642-04-002
+- **Words (OCR):** 16 in 15 lines: INRUT · INPUT SECTORS · MOOULES · MODULE · 2100 · 40258 · 51 · 45z004 COTROILER · WES · WARD-BECK SYSTEMS · STEREO TELEVSION CONSOLE · ST3642
+
+Every curve, box, word and wire group: [1988 - 3642-04-002 - STEREO TELEVISION CONSOLE FRONT VIEW LAYOUT - DRN JRG - ISS 2 (traced).json](1988%20-%203642-04-002%20-%20STEREO%20TELEVISION%20CONSOLE%20FRONT%20VIEW%20LAYOUT%20-%20DRN%20JRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 3642-04-002 - STEREO TELEVISION CONSOLE FRONT VIEW LAYOUT - DRN JRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

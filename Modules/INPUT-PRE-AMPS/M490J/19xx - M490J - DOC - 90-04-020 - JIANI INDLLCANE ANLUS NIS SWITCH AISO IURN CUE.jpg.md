@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,672,852 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 90-04-020, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 1–430 mm across, 3–279 mm up
+- **Outlines:** line 1,130 rings, 7,812 straight (16,882 mm) / 1,877 curved (2,201 mm); text 207 rings, 1,182 straight (973 mm) / 343 curved (405 mm); tb 18 rings, 175 straight (205 mm) / 33 curved (38.5 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 3.1 @ (208.5, 51.1), r 2.0 @ (222.3, 234.3), r 0.8 @ (118.8, 72.7)
+- **Closed boxes:** 34 (5 in the title block); named: V490J PAN FB 2 OFF; V490J PAN FB 2 OFF; PhOGHAM approprialo; miring ~nppropriale Miring; FOLDUACK LEVLL; oulou; channei poulad; swioi Doun enannea; ATTENUATOA allet metien otna; Indicato; cprratlon nten RDRAY Enanns; Duatalion
+- **Dots (junctions):** 3
+- **Words (OCR):** 38 in 36 lines: V490J · PhOGHAM · approprialo · ~nppropriale · miring · Miring · PAN · FOLDUACK LEVLL · oulou · FB 2 · channei · poulad
+- **Title block:** (359, 20)–(432, 34) mm: WBS · WARD-DECk SYSTEMB
+
+Every curve, box, word and wire group: [19xx - M490J - DOC - 90-04-020 - JIANI INDLLCANE ANLUS NIS SWITCH AISO IURN CUE (traced).json](19xx%20-%20M490J%20-%20DOC%20-%2090-04-020%20-%20JIANI%20INDLLCANE%20ANLUS%20NIS%20SWITCH%20AISO%20IURN%20CUE%20%28traced%29.json) (the CAD file: `19xx - M490J - DOC - 90-04-020 - JIANI INDLLCANE ANLUS NIS SWITCH AISO IURN CUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 34 words corrected)

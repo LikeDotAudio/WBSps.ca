@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,966,802 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 405-03-100, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 160 rings, 3,327 straight (9,384 mm) / 281 curved (412 mm); text 341 rings, 2,507 straight (3,016 mm) / 812 curved (1,232 mm); tb 15 rings, 130 straight (253 mm) / 14 curved (20.8 mm)
+- **Centre lines:** 4,250 paths (58 closed); straight 7,415 mm, curved 27.8 mm; horizontal 3,211 mm, vertical 2,315 mm, diagonal 1,890 mm
+- **Circles and arcs:** 0 circles, 9 arcs
+- **Closed boxes:** 11 (7 in the title block)
+- **Words (OCR):** 45 in 41 lines: 2.750 · 2lbo · 2.375 · 375 · 150 · NOTES · MATERIAL · 20GA. (.036) CRS · ATOLERANCES XXX · 005 · 3) REMOVE ALL BURRS AND SHARP EDGES · FinISH PAINT
+- **Title block:** (278, 10)–(432, 213) mm: 3) REMOVE ALL BURRS AND SHARP EDGES · FinISH PAINT · MATTE wBS Geex · ISSUE DATE · REVISION · APP · SYSTEMS · WBS WARD-BECK · DRN_ · TR. 5/+ · M405 · ENG TR · CKD: · BATTERY BRACKET · APP · SCALE · IS
+
+Every curve, box, word and wire group: [19xx - DOC - 405-03-100 - REMOVE ALL BURRS AND SHARP EDGES (traced).json](19xx%20-%20DOC%20-%20405-03-100%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `19xx - DOC - 405-03-100 - REMOVE ALL BURRS AND SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

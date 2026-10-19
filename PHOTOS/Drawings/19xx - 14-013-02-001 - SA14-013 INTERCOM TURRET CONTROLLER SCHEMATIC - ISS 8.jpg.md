@@ -20,6 +20,18 @@ SA14 intercom turret controller schematic, title block at bottom left reading si
 - **Size:** 4,905,078 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-013-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 2,667 rings, 24,562 straight (40,662 mm) / 4,463 curved (5,451 mm); text 48 rings, 326 straight (294 mm) / 83 curved (110 mm)
+- **Centre lines:** 29,391 paths (271 closed); straight 25,292 mm, curved 225 mm; horizontal 11,507 mm, vertical 7,290 mm, diagonal 6,494 mm
+- **Circles and arcs:** 6 circles, 47 arcs; largest r 2.7 @ (265.8, 214.8), r 1.6 @ (398.8, 25.1), r 1.3 @ (398.7, 25.3), r 1.2 @ (370.0, 25.1)
+- **Closed boxes:** 37
+- **Wiring (first pass):** 230 connected wire groups from 3,590 runs
+
+Every curve, box, word and wire group: [19xx - 14-013-02-001 - SA14-013 INTERCOM TURRET CONTROLLER SCHEMATIC - ISS 8 (traced).json](19xx%20-%2014-013-02-001%20-%20SA14-013%20INTERCOM%20TURRET%20CONTROLLER%20SCHEMATIC%20-%20ISS%208%20%28traced%29.json) (the CAD file: `19xx - 14-013-02-001 - SA14-013 INTERCOM TURRET CONTROLLER SCHEMATIC - ISS 8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

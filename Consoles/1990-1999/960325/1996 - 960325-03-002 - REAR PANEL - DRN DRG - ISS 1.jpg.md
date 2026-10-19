@@ -22,6 +22,19 @@ Rear panel drawing with title block at bottom right.
 - **Size:** 464,680 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960325-03-002, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DISC NO; Stsol
+- **Ink extent:** 6–864 mm across, 17–539 mm up
+- **Outlines:** line 743 rings, 6,157 straight (25,822 mm) / 1,045 curved (2,562 mm); text 336 rings, 1,848 straight (3,321 mm) / 621 curved (1,524 mm); tb 43 rings, 287 straight (558 mm) / 78 curved (179 mm)
+- **Centre lines:** 7,199 paths (221 closed); straight 17,289 mm, curved 113 mm; horizontal 7,590 mm, vertical 4,569 mm, diagonal 5,131 mm
+- **Circles and arcs:** 7 circles, 11 arcs; largest r 2.5 @ (727.6, 383.4), r 1.9 @ (663.8, 368.0), r 1.9 @ (698.1, 324.0), r 1.8 @ (533.3, 371.5)
+- **Closed boxes:** 35 (4 in the title block)
+- **Words (OCR):** 47 in 41 lines: 9,070 · Pitches · 4.872 · 0.540 · 4195 · REC'D · 5.700 · 4500 · 1.B270 · O.6c0 · 5200 · Cluticy
+- **Title block:** (676, 18)–(854, 83) mm: WBS · WARD-BECK   SYSTEMS · REAR PANEL · SCALE DISC NO; Stsol · 960325 03-002 · 96125002
+
+Every curve, box, word and wire group: [1996 - 960325-03-002 - REAR PANEL - DRN DRG - ISS 1 (traced).json](1996%20-%20960325-03-002%20-%20REAR%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960325-03-002 - REAR PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

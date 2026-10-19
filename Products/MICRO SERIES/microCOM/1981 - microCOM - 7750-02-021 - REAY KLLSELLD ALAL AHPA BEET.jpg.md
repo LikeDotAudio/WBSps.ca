@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 8,262,321 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7750-02-021, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–288 mm up
+- **Outlines:** line 3,046 rings, 28,826 straight (50,138 mm) / 4,543 curved (5,329 mm); text 39 rings, 246 straight (262 mm) / 88 curved (130 mm)
+- **Centre lines:** 43,233 paths (243 closed); straight 32,753 mm, curved 64.6 mm; horizontal 14,482 mm, vertical 10,490 mm, diagonal 7,780 mm
+- **Circles and arcs:** 4 circles, 15 arcs; largest r 1.1 @ (399.0, 21.2), r 1.1 @ (386.0, 42.0), r 1.1 @ (394.3, 31.7), r 0.9 @ (391.6, 42.2)
+- **Closed boxes:** 27
+- **Dots (junctions):** 5
+- **Wiring (first pass):** 341 connected wire groups from 5,003 runs, 21 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 7750-02-021 - REAY KLLSELLD ALAL AHPA BEET (traced).json](1981%20-%20microCOM%20-%207750-02-021%20-%20REAY%20KLLSELLD%20ALAL%20AHPA%20BEET%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7750-02-021 - REAY KLLSELLD ALAL AHPA BEET (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

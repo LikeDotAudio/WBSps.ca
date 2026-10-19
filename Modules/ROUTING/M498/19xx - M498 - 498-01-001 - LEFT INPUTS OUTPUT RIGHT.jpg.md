@@ -11,6 +11,20 @@ Wiki page: [M498](../../../PAGES/M498.md)
 - **Size:** 204,579 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 498-01-001, size B (assumed) 432 × 293 mm, 2000 × 1357 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–293 mm up
+- **Outlines:** line 161 rings, 2,292 straight (8,898 mm) / 260 curved (338 mm); text 170 rings, 1,280 straight (1,762 mm) / 330 curved (502 mm); tb 22 rings, 244 straight (420 mm) / 54 curved (79.8 mm)
+- **Centre lines:** 2,405 paths (25 closed); straight 5,737 mm, curved 11.9 mm; horizontal 2,778 mm, vertical 1,536 mm, diagonal 1,424 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 13 (6 in the title block)
+- **Words (OCR):** 20 in 17 lines: LEFT · INPUTS · OUTPUt · Right · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M498 · ENG_ · 8X1 STEREO SWITCHER · MODULE
+- **Title block:** (276, 2)–(432, 75) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M498 · ENG_ · 8X1 STEREO SWITCHER · MODULE · FUNCTIONAL DIAGRAM · APP · FCALE · ISSUE · 498-01-001
+- **Wiring (first pass):** 70 connected wire groups from 174 runs; labelled ends: 389 mm → Right; 33 mm → LEFT, OUTPUt, Right
+
+Every curve, box, word and wire group: [19xx - M498 - 498-01-001 - LEFT INPUTS OUTPUT RIGHT (traced).json](19xx%20-%20M498%20-%20498-01-001%20-%20LEFT%20INPUTS%20OUTPUT%20RIGHT%20%28traced%29.json) (the CAD file: `19xx - M498 - 498-01-001 - LEFT INPUTS OUTPUT RIGHT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

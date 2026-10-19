@@ -27,6 +27,21 @@ Wiki page: [M448](../../../PAGES/M448.md)
 
 - **1969** (labelled): `DATE JAN-69` — …,0 CONNELL WARD BECK SYSTEMS Ltd 448 POWER SUPPLY SCHEMATIC DATE JAN-69 CHKD 7n{ MATIIRIAL SCNE TOLs Frage Le DEC TO PLACES GieA AN…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 448-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 372 rings, 7,011 straight (12,111 mm) / 982 curved (1,434 mm); text 308 rings, 2,426 straight (2,750 mm) / 668 curved (990 mm); tb 53 rings, 567 straight (596 mm) / 90 curved (112 mm)
+- **Centre lines:** 9,237 paths (81 closed); straight 9,782 mm, curved 309 mm; horizontal 3,974 mm, vertical 2,624 mm, diagonal 3,183 mm
+- **Circles and arcs:** 11 circles, 40 arcs; largest r 8.0 @ (240.8, 257.5), r 1.7 @ (70.8, 261.8), r 1.5 @ (351.7, 157.7), r 1.5 @ (69.7, 183.0)
+- **Closed boxes:** 6; named: DRN DATE CHKD SCAE; TOLs; 02 0oi 448; ISS
+- **Dots (junctions):** 1
+- **Words (OCR):** 51 in 42 lines: TBI · TBZ · +48V REG_ · 5W · 20 · 680 · 2n4347 · {i0 Sw · 30 - · RD · CRI · MDA942-4
+- **Title block:** (178, 37)–(403, 67) mm: DRN C.S,0 CONNELL · WARD BECK _ SYSTEMS · DATE JAN-69 · 448 POWER SUPPLY · CHKD · Kn{
+- **Wiring (first pass):** 86 connected wire groups from 378 runs, 1 dotted junctions; labelled ends: 268 mm → ANGLe, SCHEMATIC, 02, 0oi; 264 mm → MDA942-4, c2, [500/35; 224 mm → MDA942-4, Izsoo/io0, R3, sw; 223 mm → TBZ, 20, {i0, Sw; 178 mm → TOLs
+
+Every curve, box, word and wire group: [1969 - 448-02-001 - 448 POWER SUPPLY SCHEMATIC - DRN C.S. O'CONNELL - ISS 2 (traced).json](1969%20-%20448-02-001%20-%20448%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1969 - 448-02-001 - 448 POWER SUPPLY SCHEMATIC - DRN C.S. O'CONNELL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

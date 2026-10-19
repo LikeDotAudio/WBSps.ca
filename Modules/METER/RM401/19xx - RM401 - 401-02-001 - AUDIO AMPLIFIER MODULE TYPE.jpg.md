@@ -11,6 +11,19 @@ Wiki page: [RM401](../../../PAGES/RM401.md)
 - **Size:** 17,928,702 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 401-02-001, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 25–432 mm across, 1–139 mm up
+- **Outlines:** line 721 rings, 7,578 straight (11,821 mm) / 1,605 curved (2,003 mm); text 332 rings, 1,981 straight (1,665 mm) / 754 curved (882 mm)
+- **Centre lines:** 11,416 paths (115 closed); straight 8,840 mm, curved 303 mm; horizontal 2,866 mm, vertical 2,633 mm, diagonal 3,341 mm
+- **Circles and arcs:** 6 circles, 47 arcs; largest r 3.9 @ (305.6, 88.2), r 3.9 @ (282.4, 44.9), r 3.9 @ (123.7, 67.8), r 3.9 @ (195.7, 48.1)
+- **Closed boxes:** 2
+- **Words (OCR):** 56 in 48 lines: NOTES -(UNLESS · OtheRwise   SPECIFIED) · ALL REsISTOR VALUES ARE · ALL capaciTOR VALUES · MicROFARADS · LAST REFERENCE DESIGNATIOnS;-Ti CR4,Qi,Czo, · RZO 22 · ZN4923 · Tcox · R26 · 2N3645 · 4700
+- **Wiring (first pass):** 72 connected wire groups from 548 runs; labelled ends: 176 mm → Tcox; 162 mm → 50/251, R4O, 470; 159 mm → Tcox, 150, 76; 153 mm → 4700, 2N3569, R2e_, 2N3645; 141 mm → ionol, FDz3651
+
+Every curve, box, word and wire group: [19xx - RM401 - 401-02-001 - AUDIO AMPLIFIER MODULE TYPE (traced).json](19xx%20-%20RM401%20-%20401-02-001%20-%20AUDIO%20AMPLIFIER%20MODULE%20TYPE%20%28traced%29.json) (the CAD file: `19xx - RM401 - 401-02-001 - AUDIO AMPLIFIER MODULE TYPE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

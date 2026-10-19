@@ -10,6 +10,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 34,336,142 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 790236-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–279 mm up
+- **Outlines:** line 1,052 rings, 8,591 straight (15,881 mm) / 1,245 curved (1,493 mm); text 1,620 rings, 7,967 straight (6,330 mm) / 2,345 curved (2,692 mm); tb 20 rings, 116 straight (150 mm) / 16 curved (22.2 mm)
+- **Centre lines:** 13,121 paths (494 closed); straight 12,248 mm, curved 27.6 mm; horizontal 5,040 mm, vertical 3,166 mm, diagonal 4,041 mm
+- **Circles and arcs:** 1 circles, 9 arcs; largest r 0.7 @ (223.0, 71.6)
+- **Closed boxes:** 17 (12 in the title block); named: (-15 dB); M47 9 DMa MODULE; 45JA CUE AMP
+- **Dots (junctions):** 2
+- **Words (OCR):** 304 in 262 lines: PHANTOM · POWER · 44RM · INPUT CHANNEL · (chi Toj? identical) · SUBMASTER · SUbMASTER · (SUB 1To · IdenTical) · OUt · SUmming · AdB )
+- **Title block:** (356, 3)–(432, 41) mm: LEaT*14 Jcjor ACeAC 4 · ISSUE DATE · Revision · WBS WARD · BECk SYSTEMS · DRNgene · MARYLAND · ENG W Mc Flsen PUBLIC BROADCASTING · CKD · FUNCTIONAL DIAGRAM · SCALE · L3242A · 790236- 01 = 001 · T5Sun
+- **Wiring (first pass):** 169 connected wire groups from 842 runs; labelled ends: 290 mm → SUmming, PEL; 136 mm → Bdum, dAIm, MasTER, SumMinG; 93 mm → cont, MODULe, Mute, DIR; 78 mm → 0472; 75 mm → 50L0
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-01-001 - UJA EFFECT JAREV EXT ADU SUYKINC HOST JACRS (traced).json](1979%20-%20790236%20-%20790236-01-001%20-%20UJA%20EFFECT%20JAREV%20EXT%20ADU%20SUYKINC%20HOST%20JACRS%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-01-001 - UJA EFFECT JAREV EXT ADU SUYKINC HOST JACRS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

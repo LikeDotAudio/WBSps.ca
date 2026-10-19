@@ -11,6 +11,20 @@ Wiki page: [MP1](../../../PAGES/MP1.md)
 - **Size:** 1,177,538 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8100-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 19–406 mm up
+- **Outlines:** line 187 rings, 2,585 straight (8,411 mm) / 331 curved (613 mm); text 497 rings, 4,336 straight (5,859 mm) / 1,004 curved (1,585 mm); tb 2 rings, 49 straight (147 mm) / 1 curved (1.6 mm)
+- **Centre lines:** 3,827 paths (58 closed); straight 7,903 mm, curved 250 mm; horizontal 2,674 mm, vertical 2,594 mm, diagonal 2,634 mm
+- **Circles and arcs:** 10 circles, 16 arcs; largest r 4.5 @ (193.7, 375.2), r 4.5 @ (62.2, 375.1), r 3.9 @ (70.1, 161.3), r 3.9 @ (46.2, 161.3)
+- **Closed boxes:** 10
+- **Words (OCR):** 68 in 33 lines: M433L PPM · 543WL VU · 910 · 8K2 · 3K6 (_4dB) · P1-2 · 101 · 2K · 12 · METER #3 METER · NOTES: · METERS TO #4 ILLUSTRATE THE WIRING REQUIRED FOR THE
+- **Title block:** (202, 47)–(325, 72) mm: WARD-BECK · SYSTEMS · WBS · MP1 To MP4
+- **Wiring (first pass):** 119 connected wire groups from 244 runs; labelled ends: 525 mm → 910, 8K2, (_4dB); 306 mm → 2K, 12; 88 mm → 543WL; 49 mm → P1-2; 31 mm → METER #3, METER
+
+Every curve, box, word and wire group: [1992 - MP1 - 8100-02-001 - PPM-VU METER PANEL SCHEMA TIC (traced).json](1992%20-%20MP1%20-%208100-02-001%20-%20PPM-VU%20METER%20PANEL%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1992 - MP1 - 8100-02-001 - PPM-VU METER PANEL SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

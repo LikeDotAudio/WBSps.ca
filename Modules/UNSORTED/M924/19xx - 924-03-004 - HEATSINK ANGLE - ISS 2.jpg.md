@@ -20,6 +20,19 @@ Wiki page: [M924](../../../PAGES/M924.md)
 - **Size:** 548,104 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 924-03-004, size B 432 × 278 mm, 2000 × 1288 px traced (0.216 mm/px); scale DISC NO: 469
+- **Ink extent:** 0–415 mm across, 0–243 mm up
+- **Outlines:** line 99 rings, 1,373 straight (5,644 mm) / 156 curved (304 mm); text 391 rings, 2,517 straight (3,062 mm) / 768 curved (1,121 mm); tb 2 rings, 57 straight (188 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 2,379 paths (70 closed); straight 4,957 mm, curved 124 mm; horizontal 2,166 mm, vertical 1,359 mm, diagonal 1,432 mm
+- **Circles and arcs:** 4 circles, 6 arcs; largest r 6.5 @ (126.9, 207.3), r 6.2 @ (152.5, 207.0), r 4.4 @ (139.8, 111.2), r 1.1 @ (93.9, 114.3)
+- **Closed boxes:** 16 (10 in the title block); named: SCALE 1:1; 924-03-004; CODE: 924004
+- **Words (OCR):** 51 in 35 lines: 2.150 · 0.40 · 15 · 0.531 DIA · REQ'D · 0.40 · 0oo · 900 · 0.900 · REQ'D · 0.312 DIA · .25
+- **Title block:** (257, 15)–(422, 80) mm: SSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN; DRG · ENG_ · HEATSINK ANGLE · CKD · APP · ISSUE · SCALE DISC NO: 469 · 924-03-004 · 1:1 CODE: 924004
+
+Every curve, box, word and wire group: [19xx - 924-03-004 - HEATSINK ANGLE - ISS 2 (traced).json](19xx%20-%20924-03-004%20-%20HEATSINK%20ANGLE%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 924-03-004 - HEATSINK ANGLE - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

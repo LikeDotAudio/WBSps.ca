@@ -22,6 +22,18 @@ M771 matrix latch module functional Title block at bottom left reading sideways.
 - **Size:** 4,692,711 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 771-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–426 mm across, 0–287 mm up
+- **Outlines:** line 297 rings, 2,807 straight (5,493 mm) / 535 curved (728 mm); text 103 rings, 789 straight (764 mm) / 247 curved (339 mm)
+- **Centre lines:** 1,815 paths (29 closed); straight 2,561 mm, curved 144 mm; horizontal 1,065 mm, vertical 687 mm, diagonal 810 mm
+- **Circles and arcs:** 6 circles, 25 arcs; largest r 3.8 @ (229.4, 101.1), r 1.2 @ (372.4, 10.5), r 1.2 @ (364.1, 10.5), r 1.0 @ (244.4, 167.2)
+- **Closed boxes:** 10
+- **Wiring (first pass):** 70 connected wire groups from 169 runs
+
+Every curve, box, word and wire group: [19xx - 771-01-001 - MATRIX LATCH MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20771-01-001%20-%20MATRIX%20LATCH%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 771-01-001 - MATRIX LATCH MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

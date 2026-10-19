@@ -11,6 +11,21 @@ Wiki page: [M406](../../../PAGES/M406.md)
 - **Size:** 15,573,314 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 406-02-001, size B (assumed) 432 × 136 mm, 2000 × 629 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–135 mm up
+- **Outlines:** line 1,769 rings, 15,639 straight (20,422 mm) / 3,020 curved (3,584 mm); text 51 rings, 334 straight (308 mm) / 115 curved (146 mm); tb 2 rings, 9 straight (7.9 mm) / 1 curved (1.0 mm)
+- **Centre lines:** 13,631 paths (216 closed); straight 11,751 mm, curved 237 mm; horizontal 4,272 mm, vertical 3,390 mm, diagonal 4,089 mm
+- **Circles and arcs:** 5 circles, 47 arcs; largest r 3.9 @ (355.9, 110.1), r 3.8 @ (343.5, 125.5), r 1.1 @ (173.6, 115.6), r 1.0 @ (172.1, 111.7)
+- **Closed boxes:** 10; named: IOLS
+- **Dots (junctions):** 5
+- **Words (OCR):** 9 in 8 lines: 14746 · SELT · WARD · BECK SYSHEI · M406 COMPRESSCH · SCHEMATIC · 406 · IOLS
+- **Title block:** (367, 15)–(421, 26) mm: WARD · BECK SYSHEI
+- **Wiring (first pass):** 169 connected wire groups from 1,101 runs, 3 dotted junctions; labelled ends: 1255 mm → BECK SYSHEI; 210 mm → WARD, IOLS; 50 mm → SELT; 39 mm → 14746; 22 mm → 14746
+
+Every curve, box, word and wire group: [1968 - M406 - B 406-02-001 - M406 COMPRESSOR - SCHEMATIC (traced).json](1968%20-%20M406%20-%20B%20406-02-001%20-%20M406%20COMPRESSOR%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1968 - M406 - B 406-02-001 - M406 COMPRESSOR - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

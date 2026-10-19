@@ -22,6 +22,19 @@ Wiki page: [M171](../../../PAGES/M171.md)
 - **Size:** 1,470,464 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 171-06-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 47–432 mm up
+- **Outlines:** line 8,031 rings, 43,451 straight (26,121 mm) / 12,532 curved (11,112 mm); text 685 rings, 4,785 straight (3,480 mm) / 1,492 curved (1,424 mm); tb 132 rings, 483 straight (240 mm) / 103 curved (83.6 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 13.1 @ (138.3, 271.6), r 13.1 @ (138.3, 302.5), r 13.1 @ (138.0, 241.3), r 13.1 @ (96.0, 287.8)
+- **Closed boxes:** 3; named: r48; 2 7
+- **Dots (junctions):** 4
+- **Words (OCR):** 38 in 29 lines: Isr2h · Ir3] · TQ · 00427 · JI0p0e ZI} · r48 · R49 · 4404144 Q5 · 2 7 · J4B Q6 · C 21 · 22
+- **Title block:** (156, 74)–(235, 107) mm: WARD
+
+Every curve, box, word and wire group: [1970 - 171-06-001 - M610 10 WATT AMPLIFIER ASS'Y - DRN PS - ISS 1 (traced).json](1970%20-%20171-06-001%20-%20M610%2010%20WATT%20AMPLIFIER%20ASS%27Y%20-%20DRN%20PS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1970 - 171-06-001 - M610 10 WATT AMPLIFIER ASS'Y - DRN PS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

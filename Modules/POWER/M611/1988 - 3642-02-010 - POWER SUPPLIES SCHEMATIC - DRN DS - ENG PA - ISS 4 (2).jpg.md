@@ -26,6 +26,18 @@ Wiki page: [M611](../../../PAGES/M611.md)
 - **Size:** 3,050,661 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-010, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 984 rings, 7,192 straight (19,343 mm) / 1,421 curved (3,292 mm); text 229 rings, 1,633 straight (3,979 mm) / 520 curved (1,520 mm)
+- **Centre lines:** 5,507 paths (74 closed); straight 12,501 mm, curved 604 mm; horizontal 5,656 mm, vertical 2,638 mm, diagonal 4,207 mm
+- **Circles and arcs:** 11 circles, 45 arcs; largest r 5.1 @ (3.4, 841.4), r 5.0 @ (65.6, 685.4), r 4.9 @ (66.2, 840.7), r 4.8 @ (45.2, 840.8)
+- **Closed boxes:** 26
+- **Wiring (first pass):** 82 connected wire groups from 606 runs
+
+Every curve, box, word and wire group: [1988 - 3642-02-010 - POWER SUPPLIES SCHEMATIC - DRN DS - ENG PA - ISS 4 (2) (traced).json](1988%20-%203642-02-010%20-%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20DS%20-%20ENG%20PA%20-%20ISS%204%20%282%29%20%28traced%29.json) (the CAD file: `1988 - 3642-02-010 - POWER SUPPLIES SCHEMATIC - DRN DS - ENG PA - ISS 4 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

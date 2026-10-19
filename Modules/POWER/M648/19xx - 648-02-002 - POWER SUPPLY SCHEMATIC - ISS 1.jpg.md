@@ -22,6 +22,20 @@ M648 power supply schematic.
 - **Size:** 331,650 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 648-02-002, size B 432 × 299 mm, 2000 × 1385 px traced (0.216 mm/px)
+- **Ink extent:** 2–427 mm across, 5–268 mm up
+- **Outlines:** line 217 rings, 2,974 straight (6,949 mm) / 522 curved (812 mm); text 423 rings, 2,698 straight (2,833 mm) / 936 curved (1,314 mm); tb 2 rings, 43 straight (101 mm) / 3 curved (5.5 mm)
+- **Centre lines:** 3,669 paths (63 closed); straight 5,604 mm, curved 282 mm; horizontal 1,961 mm, vertical 1,596 mm, diagonal 2,047 mm
+- **Circles and arcs:** 7 circles, 42 arcs; largest r 8.1 @ (256.4, 246.7), r 3.4 @ (331.3, 227.0), r 1.3 @ (53.6, 178.8), r 1.3 @ (53.5, 171.7)
+- **Closed boxes:** 2; named: SA14-058 REGULATOR ASSEMBLY
+- **Words (OCR):** 62 in 53 lines: ZNL347 · +L8v · 5w · F2 · PCB 9-109 · T1 · 5w · C4 · 80-7 RD · 047 · 400 · C1
+- **Title block:** (341, 29)–(432, 46) mm: WBS WARD-BECK ByBTeMB
+- **Wiring (first pass):** 49 connected wire groups from 251 runs; labelled ends: 985 mm → C4, 047, 400, 2800/100; 259 mm → 470/40, 113,14/; 145 mm → 470/40; 73 mm → 400, 0.1/; 58 mm → 400, RD
+
+Every curve, box, word and wire group: [19xx - 648-02-002 - POWER SUPPLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%20648-02-002%20-%20POWER%20SUPPLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 648-02-002 - POWER SUPPLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -23,6 +23,19 @@ Mechanical drawing of an ident extrusion and cover.
 - **Size:** 392,988 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-104, size D 864 × 577 mm, 2000 × 1336 px traced (0.432 mm/px)
+- **Ink extent:** 107–864 mm across, 12–498 mm up
+- **Outlines:** line 446 rings, 3,477 straight (20,182 mm) / 632 curved (1,549 mm); text 354 rings, 2,142 straight (4,392 mm) / 660 curved (1,689 mm); tb 23 rings, 177 straight (406 mm) / 43 curved (97.9 mm)
+- **Centre lines:** 6,102 paths (136 closed); straight 14,732 mm, curved 101 mm; horizontal 7,438 mm, vertical 3,199 mm, diagonal 4,096 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 3.2 @ (610.2, 305.0), r 2.0 @ (609.1, 434.5)
+- **Closed boxes:** 82 (2 in the title block); named: MODULE COUNT; PART NUMBER; 12.465; 20 0 85; 900-03-104; SCa; 670'04
+- **Words (OCR):** 36 in 29 lines: (H) REo · pitchiIJod · SDE CHAR? · MATERIAL:  EXTRUSION #49916 · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BROWN (438C) · TEXCOTE VNY, · 0.500 · CHAKI · MUJUBER FOR IDENT · DATUU · MATERIAL: CLEAR RIGID
+- **Title block:** (703, 45)–(864, 80) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-104 - EXTENDED MK SERIES IDENT EXTRUSION COVER - DRN DRG - ISS 1 (traced).json](19xx%20-%20900-03-104%20-%20EXTENDED%20MK%20SERIES%20IDENT%20EXTRUSION%20COVER%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-104 - EXTENDED MK SERIES IDENT EXTRUSION COVER - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

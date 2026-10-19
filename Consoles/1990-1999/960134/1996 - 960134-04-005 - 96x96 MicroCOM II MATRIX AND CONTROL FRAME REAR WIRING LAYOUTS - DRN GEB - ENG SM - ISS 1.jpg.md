@@ -21,6 +21,17 @@ Wiki page: [Job-960134](../../../PAGES/Job-960134.md)
 - **Size:** 837,506 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 960134-04-005, size D 864 × 580 mm, 2000 × 1342 px traced (0.432 mm/px)
+- **Ink extent:** 0–859 mm across, 0–565 mm up
+- **Outlines:** line 816 rings, 6,895 straight (38,334 mm) / 1,007 curved (2,351 mm); text 125 rings, 789 straight (1,670 mm) / 241 curved (629 mm); tb 45 rings, 334 straight (648 mm) / 83 curved (189 mm)
+- **Closed boxes:** 191 (10 in the title block)
+- **Words (OCR):** 11 in 10 lines: WARD_BECK   SYSTEMS · WBS · MATRIX AND · 96*96 MicroCoM · CONTROL FRAME · REAR · WIRING LAYOUTS · SCALE · CCOE: 9015+L05 · 960134-04-005
+- **Title block:** (670, 15)–(852, 87) mm: WARD_BECK   SYSTEMS · WBS · MATRIX AND · 96*96 MicroCoM · CONTROL FRAME · REAR · WIRING LAYOUTS · SCALE · CCOE: 9015+L05 · 960134-04-005
+
+Every curve, box, word and wire group: [1996 - 960134-04-005 - 96x96 MicroCOM II MATRIX AND CONTROL FRAME REAR WIRING LAYOUTS - DRN GEB - ENG SM - ISS 1 (traced).json](1996%20-%20960134-04-005%20-%2096x96%20MicroCOM%20II%20MATRIX%20AND%20CONTROL%20FRAME%20REAR%20WIRING%20LAYOUTS%20-%20DRN%20GEB%20-%20ENG%20SM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960134-04-005 - 96x96 MicroCOM II MATRIX AND CONTROL FRAME REAR WIRING LAYOUTS - DRN GEB - ENG SM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 18 words corrected)

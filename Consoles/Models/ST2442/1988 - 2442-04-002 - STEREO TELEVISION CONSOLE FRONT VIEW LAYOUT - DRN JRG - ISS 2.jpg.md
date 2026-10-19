@@ -24,6 +24,16 @@ Front view layout of the ST2442 stereo television console showing meter bridge, 
 - **Size:** 1,576,979 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 2442-04-002, size D 864 × 479 mm, 2000 × 1109 px traced (0.432 mm/px)
+- **Ink extent:** 40–847 mm across, 0–479 mm up
+- **Outlines:** line 640 rings, 8,806 straight (41,472 mm) / 784 curved (2,114 mm); text 86 rings, 836 straight (1,805 mm) / 271 curved (764 mm)
+- **Closed boxes:** 130; named: OMD; ST2442 STEREO TELEVSION CONSOLE FRONT VE; 2442-04-002
+- **Words (OCR):** 12 in 12 lines: 4528 · STEREO · ceto · OMD · Pa · EXEERNAPQLERSUBBLEES · WARD-BECK SYSTEMS · WES · ST2442 · STEREO TELEVSION CONSOLE · FRONT VEW LAYOUT · 2442-04-002
+
+Every curve, box, word and wire group: [1988 - 2442-04-002 - STEREO TELEVISION CONSOLE FRONT VIEW LAYOUT - DRN JRG - ISS 2 (traced).json](1988%20-%202442-04-002%20-%20STEREO%20TELEVISION%20CONSOLE%20FRONT%20VIEW%20LAYOUT%20-%20DRN%20JRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 2442-04-002 - STEREO TELEVISION CONSOLE FRONT VIEW LAYOUT - DRN JRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

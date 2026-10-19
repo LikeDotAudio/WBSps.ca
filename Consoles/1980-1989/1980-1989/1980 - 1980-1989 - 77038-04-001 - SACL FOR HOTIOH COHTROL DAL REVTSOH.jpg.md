@@ -9,6 +9,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 281,315 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77038-04-001, size B (assumed) 432 × 285 mm, 2000 × 1320 px traced (0.216 mm/px)
+- **Ink extent:** 42–432 mm across, 0–234 mm up
+- **Outlines:** line 399 rings, 6,190 straight (16,688 mm) / 637 curved (847 mm); text 48 rings, 489 straight (484 mm) / 122 curved (175 mm); tb 11 rings, 176 straight (201 mm) / 27 curved (30.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.5 @ (203.5, 210.1)
+- **Closed boxes:** 42 (5 in the title block); named: HLLCTO; 25
+- **Words (OCR):** 9 in 7 lines: 25 · HLLCTO · DAT · WBS WARD-Beck bybtems · WBS L3242 CONSOLE · CONSOLE LAYOUT · 77038 04-001
+- **Title block:** (359, 8)–(432, 32) mm: DAT · WBS WARD-Beck bybtems · WBS L3242 CONSOLE · CONSOLE LAYOUT
+
+Every curve, box, word and wire group: [1980 - 1980-1989 - 77038-04-001 - SACL FOR HOTIOH COHTROL DAL REVTSOH (traced).json](1980%20-%201980-1989%20-%2077038-04-001%20-%20SACL%20FOR%20HOTIOH%20COHTROL%20DAL%20REVTSOH%20%28traced%29.json) (the CAD file: `1980 - 1980-1989 - 77038-04-001 - SACL FOR HOTIOH COHTROL DAL REVTSOH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

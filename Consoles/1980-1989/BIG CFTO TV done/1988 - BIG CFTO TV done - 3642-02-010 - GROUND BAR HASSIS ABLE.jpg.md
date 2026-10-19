@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 4,980,206 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-010, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 11–432 mm up
+- **Outlines:** line 211 rings, 2,511 straight (5,552 mm) / 338 curved (468 mm); text 169 rings, 1,260 straight (1,348 mm) / 425 curved (566 mm)
+- **Centre lines:** 2,876 paths (23 closed); straight 3,928 mm, curved 131 mm; horizontal 2,040 mm, vertical 927 mm, diagonal 961 mm
+- **Circles and arcs:** 9 circles, 2 arcs; largest r 2.6 @ (16.6, 197.9), r 2.5 @ (36.9, 275.3), r 2.5 @ (37.3, 197.6), r 2.4 @ (26.4, 275.2)
+- **Closed boxes:** 2; named: 8-103 OAD_TRANFER CONTROL EQR+12V
+- **Words (OCR):** 27 in 22 lines: 122 AWG · 022 AWG · 8-103 · OAD_TRANFER · CONTROL · 022 AWG · EQR+12V · 022 · AWG · FOR POMER · DISTRIBUTION SEE · RUNNING LIST
+- **Wiring (first pass):** 25 connected wire groups from 178 runs; labelled ends: 750 mm → 022 AWG; 210 mm → GROUND BAR, IROL; 103 mm → 022 AWG; 102 mm → 016, AWG; 57 mm → 016, AWG
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-010 - GROUND BAR HASSIS ABLE (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20GROUND%20BAR%20HASSIS%20ABLE%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-010 - GROUND BAR HASSIS ABLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

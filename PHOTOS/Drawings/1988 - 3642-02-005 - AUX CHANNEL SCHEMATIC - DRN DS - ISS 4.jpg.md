@@ -22,6 +22,21 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 10,790,290 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-005, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DISC NO: 233
+- **Ink extent:** 4–864 mm across, 0–559 mm up
+- **Outlines:** line 1,587 rings, 14,032 straight (36,820 mm) / 2,490 curved (5,359 mm); text 629 rings, 4,080 straight (6,439 mm) / 1,023 curved (2,340 mm); tb 16 rings, 128 straight (314 mm) / 28 curved (64.9 mm)
+- **Centre lines:** 25,520 paths (267 closed); straight 29,919 mm, curved 301 mm; horizontal 10,510 mm, vertical 8,079 mm, diagonal 11,330 mm
+- **Circles and arcs:** 2 circles, 57 arcs; largest r 3.7 @ (9.5, 29.4), r 1.5 @ (512.3, 240.2)
+- **Closed boxes:** 60 (16 in the title block); named: ESE 37Q DIGIL IMEB; 3/88; REDRAKN; 4788; 45294PInOuns chanGEd
+- **Dots (junctions):** 1
+- **Words (OCR):** 140 in 127 lines: AUX · CHANNELS · NQIE; · 7770 · #uX · Left OuTput · LEDS ARE Not PROMIDED Wth PPM'S · OTHER WIRING IS IDENTICAL · BUSES FROK SuBS · AUX · SUMMING · AoS
+- **Title block:** (679, 10)–(861, 87) mm: 11/85 VEMER MRIRI Ravsed · 4788 · 45294PInOuns chanGEd · ISSUE DAEE · RfMSiON · WBS · WARD-BECK SYSTEMS · DRN: D.s · 5/88 · AUX CHANNEL · CKD_ · SCHEMATIC · APP_ · SCALE DISC NO: 233 · CODE: 3642505 ·
+- **Wiring (first pass):** 164 connected wire groups from 1,829 runs; labelled ends: 1182 mm → PNS-17.18, Rs_19.20; 1153 mm → 82z, 120128, 138,131, 138340; 788 mm → 25v, SIGNAL GND, +25v, CHASSIS; 738 mm → +25v, SIGNAL; 200 mm → FROM 4529, PINS P1-53,54
+
+Every curve, box, word and wire group: [1988 - 3642-02-005 - AUX CHANNEL SCHEMATIC - DRN DS - ISS 4 (traced).json](1988%20-%203642-02-005%20-%20AUX%20CHANNEL%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1988 - 3642-02-005 - AUX CHANNEL SCHEMATIC - DRN DS - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

@@ -22,6 +22,19 @@ SA14-060 PPM amplifier assembly schematic, issue 7.
 - **Size:** 467,527 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-060-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 1–432 mm up
+- **Outlines:** line 294 rings, 4,980 straight (7,376 mm) / 868 curved (1,138 mm); text 669 rings, 5,388 straight (5,570 mm) / 1,731 curved (2,388 mm); tb 2 rings, 80 straight (136 mm) / 8 curved (13.4 mm)
+- **Centre lines:** 11,338 paths (78 closed); straight 8,700 mm, curved 421 mm; horizontal 2,103 mm, vertical 2,198 mm, diagonal 4,399 mm
+- **Circles and arcs:** 12 circles, 27 arcs; largest r 6.7 @ (64.7, 268.2), r 6.7 @ (64.7, 292.2), r 6.6 @ (64.6, 172.5), r 6.6 @ (64.6, 196.5)
+- **Words (OCR):** 138 in 125 lines: +22v · CR3 · R52 · IN4148 · 22k · R62 · R36 · 150P · 47K · 47K UIB · +11v · RSO
+- **Title block:** (199, 49)–(321, 73) mm: WBS · WARD-BECK SYSTEMS · SA14-060
+- **Wiring (first pass):** 42 connected wire groups from 276 runs; labelled ends: 260 mm → CR3, IN4148, R36, 47K; 247 mm → CR3, IN4148, R36, 47K; 232 mm → R55, 2M2, R53, 1N4148; 182 mm → R23, 20k, SET 3, R24; 110 mm → +11v, LFSSJBN, R51
+
+Every curve, box, word and wire group: [19xx - 14-060-02-001 - SA14-060 PPM AMPLIFIER ASSEMBLY SCHEMATIC - ISS 7 (2) (traced).json](19xx%20-%2014-060-02-001%20-%20SA14-060%20PPM%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%207%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 14-060-02-001 - SA14-060 PPM AMPLIFIER ASSEMBLY SCHEMATIC - ISS 7 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

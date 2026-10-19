@@ -10,6 +10,21 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,930,315 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-012, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC NC;
+- **Ink extent:** 27–424 mm across, 2–258 mm up
+- **Outlines:** line 2,252 rings, 15,333 straight (30,603 mm) / 2,596 curved (2,893 mm); text 217 rings, 1,183 straight (999 mm) / 355 curved (441 mm); tb 68 rings, 414 straight (391 mm) / 85 curved (93.8 mm)
+- **Centre lines:** 14,612 paths (459 closed); straight 17,531 mm, curved 25.6 mm; horizontal 4,302 mm, vertical 9,537 mm, diagonal 3,691 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 78 (7 in the title block); named: CHANNELS 25-J; CHANNCLS; mu
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 14 lines: CHANNELS 25-J · CHANNCLS · 77777777 · InSERTEC · PRESINT · 40+2 · mu · Reora · WBS · WARD-BECK SYSTEMS · CONTROLLER · SCHEMATIC
+- **Title block:** (341, 4)–(429, 38) mm: WBS · WARD-BECK SYSTEMS · CONTROLLER · SCHEMATIC · SCALE DISC NC; · 3642-02-012
+- **Wiring (first pass):** 103 connected wire groups from 1,507 runs; labelled ends: 1130 mm → 77777777; 50 mm → WBS, Reora, WARD-BECK SYSTEMS; 43 mm → 77777777; 35 mm → 77777777; 16 mm → 77777777
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-012 - MASTER ASTER AUX MODULESDULES MODULES (traced).json](1988%20-%20880134%20-%203642-02-012%20-%20MASTER%20ASTER%20AUX%20MODULESDULES%20MODULES%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-012 - MASTER ASTER AUX MODULESDULES MODULES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

@@ -24,6 +24,18 @@ Photo of a grounding schematic, upside-down title block at top left. Title block
 - **Size:** 2,761,915 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 860800-02-016, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–432 mm across, 43–324 mm up
+- **Outlines:** line 420 rings, 6,116 straight (13,602 mm) / 633 curved (826 mm); text 193 rings, 1,278 straight (1,474 mm) / 379 curved (555 mm)
+- **Centre lines:** 13,123 paths (49 closed); straight 10,620 mm, curved 103 mm; horizontal 3,023 mm, vertical 4,436 mm, diagonal 3,161 mm
+- **Circles and arcs:** 2 circles, 25 arcs; largest r 1.4 @ (207.9, 105.3), r 1.1 @ (137.0, 154.5)
+- **Closed boxes:** 32
+- **Wiring (first pass):** 69 connected wire groups from 436 runs
+
+Every curve, box, word and wire group: [1987 - 860800-02-016 - GROUNDING SCHEMATIC - DRN initials handwritten, - ISS 1 (traced).json](1987%20-%20860800-02-016%20-%20GROUNDING%20SCHEMATIC%20-%20DRN%20initials%20handwritten%2C%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 860800-02-016 - GROUNDING SCHEMATIC - DRN initials handwritten, - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

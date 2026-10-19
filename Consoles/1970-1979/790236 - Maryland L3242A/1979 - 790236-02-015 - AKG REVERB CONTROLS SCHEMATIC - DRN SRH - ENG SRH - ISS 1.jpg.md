@@ -23,6 +23,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 4,890,947 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 790236-02-015, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 234 rings, 4,574 straight (8,215 mm) / 649 curved (929 mm); text 244 rings, 1,646 straight (1,816 mm) / 535 curved (760 mm)
+- **Centre lines:** 7,043 paths (87 closed); straight 6,573 mm, curved 240 mm; horizontal 2,703 mm, vertical 1,727 mm, diagonal 2,143 mm
+- **Circles and arcs:** 21 circles, 19 arcs; largest r 1.4 @ (355.4, 160.9), r 1.4 @ (376.4, 160.9), r 1.4 @ (387.1, 160.8), r 1.3 @ (303.1, 161.0)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 50 connected wire groups from 265 runs
+
+Every curve, box, word and wire group: [1979 - 790236-02-015 - AKG REVERB CONTROLS SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).json](1979%20-%20790236-02-015%20-%20AKG%20REVERB%20CONTROLS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-02-015 - AKG REVERB CONTROLS SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

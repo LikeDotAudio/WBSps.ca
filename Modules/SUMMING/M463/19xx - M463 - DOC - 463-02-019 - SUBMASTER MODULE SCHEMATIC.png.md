@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,212,492 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-019, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 883 rings, 9,884 straight (19,670 mm) / 2,093 curved (2,738 mm); text 784 rings, 4,559 straight (4,012 mm) / 1,787 curved (2,290 mm); tb 5 rings, 86 straight (133 mm) / 10 curved (12.3 mm)
+- **Centre lines:** 14,994 paths (254 closed); straight 14,691 mm, curved 438 mm; horizontal 5,817 mm, vertical 3,586 mm, diagonal 5,289 mm
+- **Circles and arcs:** 10 circles, 63 arcs; largest r 3.9 @ (97.0, 185.0), r 3.9 @ (111.6, 179.2), r 3.9 @ (88.2, 51.2), r 3.9 @ (87.7, 84.1)
+- **Closed boxes:** 16 (2 in the title block); named: WBS; M463AB SUBMASTER Module SchEMATIC
+- **Dots (junctions):** 2
+- **Words (OCR):** 184 in 165 lines: R43 · MONiTOR · RetS · aio · RI? · R4s4? · ISk · DIRECT OUT · R4 42 · T848m · C0o_ · 2h4401 244401
+- **Title block:** (354, 23)–(397, 45) mm: DATE · WBS · Ha=
+- **Wiring (first pass):** 156 connected wire groups from 929 runs, 2 dotted junctions; labelled ends: 291 mm → RetS, R4s4?, R4, 42; 288 mm → R4s4?, R4, 42, R47 2'2; 240 mm → R27, IkI, 490; 189 mm → Cz0, 22/25, C22, czi; 164 mm → Bole, Sw3 R2, Swia, FBi
+
+Every curve, box, word and wire group: [19xx - M463 - DOC - 463-02-019 - SUBMASTER MODULE SCHEMATIC (traced).json](19xx%20-%20M463%20-%20DOC%20-%20463-02-019%20-%20SUBMASTER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M463 - DOC - 463-02-019 - SUBMASTER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

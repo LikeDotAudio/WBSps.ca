@@ -15,6 +15,21 @@ Wiki page: [M463L](../../../PAGES/M463L.md)
 
 - **1976** (labelled): `DATE Oct 76` — …722L es532 USED ON MATL. WBS WAAD-BeCK BYBTEMs LTD. DRN @EB DATE Oct 76 CKD 7e (SCALE TOLS @ 4-126 FINISH EQUAlIZER Filier AMPLIFIE…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 546 rings, 8,126 straight (15,095 mm) / 1,394 curved (1,797 mm); text 531 rings, 3,390 straight (3,600 mm) / 1,170 curved (1,757 mm); tb 22 rings, 251 straight (336 mm) / 43 curved (54.1 mm)
+- **Centre lines:** 13,736 paths (129 closed); straight 12,735 mm, curved 214 mm; horizontal 4,347 mm, vertical 3,417 mm, diagonal 4,971 mm
+- **Circles and arcs:** 9 circles, 46 arcs; largest r 1.6 @ (145.8, 153.3), r 1.6 @ (249.3, 224.1), r 1.5 @ (134.3, 168.6), r 1.5 @ (207.2, 337.4)
+- **Closed boxes:** 30 (28 in the title block); named: WBS LTD WAAD-BeCk bybtemb; 4-126-02-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 118 in 106 lines: MD EREQUENCY · (400 Az Gkhz ) · E5 · RI4 · ok · Riz · R2i · R23 · cio · 6k2 · C18 · 221
+- **Title block:** (116, 4)–(295, 52) mm: ISS MOD IIcKD; · USED ON · MAT · 1949 · WBS WAAD-BeCk bybtemb · 3047 · 253 · DRN: SEB · 4-126 · DATE Oct 76 · CKD · EQUAlIZER Filier · SCALE · AMPLIFIER SCHEMATXC · 4-126-02-001 · TOLS _
+- **Wiring (first pass):** 78 connected wire groups from 422 runs; labelled ends: 237 mm → R3B, iok, 345, .3/6; 159 mm → 221, 6 3/6, CCMbN, ViLLE; 151 mm → R45, 6k2, 242, 365; 142 mm → RI4, ok; 135 mm → R2i, 6k2, C18, CCMbN
+
+Every curve, box, word and wire group: [1976 - M463L - 4-126-02-001 - EQUALIZER FILIER ISCALE AMPLIFIER SCHEMATX (traced).json](1976%20-%20M463L%20-%204-126-02-001%20-%20EQUALIZER%20FILIER%20ISCALE%20AMPLIFIER%20SCHEMATX%20%28traced%29.json) (the CAD file: `1976 - M463L - 4-126-02-001 - EQUALIZER FILIER ISCALE AMPLIFIER SCHEMATX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

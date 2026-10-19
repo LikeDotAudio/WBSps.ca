@@ -21,6 +21,19 @@ Wiki page: [MF8212](../../../PAGES/MF8212.md)
 - **Size:** 570,405 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 82-03-070, size D 864 × 560 mm, 2000 × 1298 px traced (0.432 mm/px)
+- **Ink extent:** 3–864 mm across, 0–559 mm up
+- **Outlines:** line 961 rings, 7,258 straight (34,395 mm) / 1,413 curved (3,573 mm); text 242 rings, 1,394 straight (2,657 mm) / 499 curved (1,206 mm); tb 14 rings, 128 straight (321 mm) / 27 curved (59.0 mm)
+- **Centre lines:** 10,423 paths (193 closed); straight 22,394 mm, curved 280 mm; horizontal 9,727 mm, vertical 6,460 mm, diagonal 6,207 mm
+- **Circles and arcs:** 3 circles, 35 arcs; largest r 1.9 @ (499.7, 344.9), r 1.7 @ (156.2, 432.0), r 1.7 @ (610.1, 418.2)
+- **Closed boxes:** 53 (6 in the title block); named: MF8212 REAR HOUSING; 82-03-070; CODE;
+- **Words (OCR):** 39 in 29 lines: PbOD · BETAL · RIO D · 1,075 · 0350 · RFC'D · 12455 · 11.730 · REdD · MATERIAL: CR.S. 0.059 MhICK. · 009] · REQ D /S1LE
+- **Title block:** (649, 68)–(819, 110) mm: ISSUE] DATE · BECK SYSTEMS · WBS WARD
+
+Every curve, box, word and wire group: [19xx - 82-03-070 - REAR HOUSING - DRN DRG - ISS 1 (traced).json](19xx%20-%2082-03-070%20-%20REAR%20HOUSING%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 82-03-070 - REAR HOUSING - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

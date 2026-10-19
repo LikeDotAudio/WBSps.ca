@@ -21,6 +21,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 367,435 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 405-03-084, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 0–829 mm across, 0–559 mm up
+- **Outlines:** line 317 rings, 2,860 straight (17,446 mm) / 461 curved (1,115 mm); text 178 rings, 1,082 straight (2,145 mm) / 321 curved (800 mm); tb 19 rings, 159 straight (368 mm) / 28 curved (67.2 mm)
+- **Centre lines:** 3,811 paths (87 closed); straight 11,322 mm, curved 17.2 mm; horizontal 5,283 mm, vertical 2,983 mm, diagonal 3,056 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 26 (3 in the title block); named: M405s BASE; 405-03-084; code; 40548'
+- **Words (OCR):** 22 in 16 lines: 0,771 · 1850 · REQ · 0,787 · MATERIAL: CRS: 0.105 ThICK, · FINISH: SAND 120 GriT AND PAINT · TEXTURED BROWN (438C) · TEXCOTE VNY · WBS · WARD-BECK SYSTEMS · TOLER 'LES · BUkAS AND
+- **Title block:** (671, 47)–(839, 80) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 405-03-084 - M405S BASE - DRN DRG - ISS 2 (traced).json](19xx%20-%20405-03-084%20-%20M405S%20BASE%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 405-03-084 - M405S BASE - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

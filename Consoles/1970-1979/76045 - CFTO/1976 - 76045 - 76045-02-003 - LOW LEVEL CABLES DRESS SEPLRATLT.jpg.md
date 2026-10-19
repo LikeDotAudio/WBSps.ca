@@ -10,6 +10,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 5,300,471 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 76045-02-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–287 mm up
+- **Outlines:** line 370 rings, 3,202 straight (5,779 mm) / 400 curved (585 mm); text 379 rings, 1,672 straight (1,405 mm) / 290 curved (367 mm)
+- **Centre lines:** 1,889 paths (16 closed); straight 3,534 mm, curved 25.4 mm; horizontal 1,619 mm, vertical 1,151 mm, diagonal 764 mm
+- **Circles and arcs:** 1 circles, 6 arcs; largest r 1.1 @ (200.5, 128.2)
+- **Words (OCR):** 56 in 48 lines: Low LEVEL Cables · FROM M46BM · M4c3m · PiNs (6 T · SUB MODULE · LDENTICAL · To · S4B4CHANNELS ARE · INSERT · -{0ABm · iOaBm · LOoPED
+- **Wiring (first pass):** 54 connected wire groups from 265 runs; labelled ends: 44 mm → S4B4CHANNELS; 44 mm → Mt Bus, 54; 30 mm → 0"M; 30 mm → 25v; 29 mm → Mt Bus, 54, M2 8Js, 7H
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-02-003 - LOW LEVEL CABLES DRESS SEPLRATLT (traced).json](1976%20-%2076045%20-%2076045-02-003%20-%20LOW%20LEVEL%20CABLES%20DRESS%20SEPLRATLT%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-02-003 - LOW LEVEL CABLES DRESS SEPLRATLT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

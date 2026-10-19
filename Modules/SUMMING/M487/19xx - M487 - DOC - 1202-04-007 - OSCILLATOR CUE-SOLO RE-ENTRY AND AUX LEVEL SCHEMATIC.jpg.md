@@ -15,6 +15,16 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 141,223 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 1202-04-007, size B (assumed) 298 × 432 mm, 760 × 1102 px traced (0.392 mm/px)
+- **Ink extent:** 14–298 mm across, 23–432 mm up
+- **Outlines:** line 96 rings, 663 straight (3,508 mm) / 129 curved (326 mm); text 963 rings, 4,762 straight (7,567 mm) / 1,543 curved (3,667 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 110 in 70 lines: WAAD-BECK BYBTEMB LTD · TABLE · QF_CONTENTS · T1202A TRANSPORTABLE MIXING · CONSOLE · SECTION · 1202 · 00 / · Rear Connector · Layout · 1202-04-O0B · DC Controls
+
+Every curve, box, word and wire group: [19xx - M487 - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC (traced).json](19xx%20-%20M487%20-%20DOC%20-%201202-04-007%20-%20OSCILLATOR%20CUE-SOLO%20RE-ENTRY%20AND%20AUX%20LEVEL%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M487 - DOC - 1202-04-007 - OSCILLATOR CUE-SOLO RE-ENTRY AND AUX LEVEL SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

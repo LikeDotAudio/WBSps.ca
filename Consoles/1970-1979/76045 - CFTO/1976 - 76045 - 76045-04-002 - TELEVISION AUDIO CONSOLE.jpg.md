@@ -14,6 +14,16 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 
 - **1982** (numeric): `8/6/82` — …35 3NITInO L<-[=7 0x) oinv LL 839 2 31v0 310SnOO Noisin3731 8/6/82 Prtannx Nja HSInIJ 017 SWBLSAS Xj3B-Obvm SAM LLvW No aasn '…
 
+## Vectors (traced)
+
+- **Sheet:** layout 76045-04-002, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 210 rings, 2,789 straight (6,356 mm) / 310 curved (466 mm); text 113 rings, 722 straight (814 mm) / 208 curved (295 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (228.4, 25.3), r 1.5 @ (37.2, 55.7)
+- **Closed boxes:** 39
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-04-002 - TELEVISION AUDIO CONSOLE (traced).json](1976%20-%2076045%20-%2076045-04-002%20-%20TELEVISION%20AUDIO%20CONSOLE%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-04-002 - TELEVISION AUDIO CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,629,146 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 924-03-003, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 2–276 mm up
+- **Outlines:** line 865 rings, 7,004 straight (21,133 mm) / 1,119 curved (1,449 mm); text 150 rings, 842 straight (801 mm) / 293 curved (379 mm); tb 16 rings, 125 straight (168 mm) / 21 curved (24.4 mm)
+- **Centre lines:** 4,274 paths (347 closed); straight 12,046 mm, curved 47.5 mm; horizontal 7,393 mm, vertical 2,422 mm, diagonal 2,230 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 1.2 @ (375.6, 14.9), r 0.9 @ (76.6, 245.6)
+- **Closed boxes:** 27 (3 in the title block); named: M924/M924A POWER SUPPLY COVER; 924-03-003
+- **Words (OCR):** 20 in 20 lines: 0.750 - · 4.750 · 224 REO"D · RLC"D · PITCHES · WARD-BECK SYSTEMS · WBS · 6.0S0 · DR- DRC · M924/M924A · LQES; · POWER SUPPLY
+- **Title block:** (342, 27)–(426, 45) mm: WARD-BECK SYSTEMS · WBS · DR- DRC · M924/M924A
+
+Every curve, box, word and wire group: [19xx - M924 - DOC - 924-03-003 - NQIES REVOVE ALL BURRS AND SHARP EDGES TOL (traced).json](19xx%20-%20M924%20-%20DOC%20-%20924-03-003%20-%20NQIES%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOL%20%28traced%29.json) (the CAD file: `19xx - M924 - DOC - 924-03-003 - NQIES REVOVE ALL BURRS AND SHARP EDGES TOL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

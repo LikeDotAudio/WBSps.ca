@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,371,570 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 490-03-004, size B (assumed) 432 × 283 mm, 2000 × 1309 px traced (0.216 mm/px)
+- **Ink extent:** 1–430 mm across, 0–277 mm up
+- **Outlines:** line 1,210 rings, 10,851 straight (24,364 mm) / 1,995 curved (2,452 mm); text 629 rings, 3,365 straight (3,140 mm) / 1,163 curved (1,501 mm); tb 18 rings, 164 straight (183 mm) / 32 curved (39.0 mm)
+- **Centre lines:** 13,987 paths (331 closed); straight 16,174 mm, curved 213 mm; horizontal 8,384 mm, vertical 3,436 mm, diagonal 4,354 mm
+- **Circles and arcs:** 8 circles, 32 arcs; largest r 2.5 @ (27.8, 124.8), r 2.4 @ (376.9, 129.8), r 2.3 @ (307.4, 137.5), r 2.1 @ (166.3, 135.4)
+- **Closed boxes:** 36 (2 in the title block); named: 004- 2; God -; 48; GLel; M49oNc inPUT MODULE EScUIeHEeN; 490-03-004
+- **Dots (junctions):** 2
+- **Words (OCR):** 105 in 90 lines: HeLe · Filiak · 004- 2 · God - · MLeec · MecA · 48 · 490-03-084*2-14 · 03-064-24 · GLel · 76o · 12.93e
+- **Title block:** (357, 20)–(432, 36) mm: WAAD-BECK SYBTEMS · WBS · M49oNc
+
+Every curve, box, word and wire group: [19xx - M490A - DOC - 490-03-004 - WITH WHITE EPEXT (traced).json](19xx%20-%20M490A%20-%20DOC%20-%20490-03-004%20-%20WITH%20WHITE%20EPEXT%20%28traced%29.json) (the CAD file: `19xx - M490A - DOC - 490-03-004 - WITH WHITE EPEXT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 14 words corrected)

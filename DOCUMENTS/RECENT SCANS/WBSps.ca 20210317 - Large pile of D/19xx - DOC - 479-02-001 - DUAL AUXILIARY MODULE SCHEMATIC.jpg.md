@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,785,786 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 479-02-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–277 mm up
+- **Outlines:** line 1,050 rings, 10,133 straight (18,341 mm) / 2,103 curved (2,708 mm); text 1,102 rings, 6,078 straight (5,544 mm) / 1,981 curved (2,522 mm); tb 10 rings, 107 straight (142 mm) / 21 curved (22.4 mm)
+- **Centre lines:** 13,521 paths (341 closed); straight 14,120 mm, curved 589 mm; horizontal 4,704 mm, vertical 3,519 mm, diagonal 5,898 mm
+- **Circles and arcs:** 29 circles, 83 arcs; largest r 3.8 @ (306.6, 224.2), r 3.7 @ (307.4, 199.3), r 3.7 @ (308.0, 171.3), r 3.7 @ (308.6, 89.0)
+- **Closed boxes:** 18 (3 in the title block); named: Eto GEB; SCALL
+- **Dots (junctions):** 3
+- **Words (OCR):** 196 in 187 lines: R3b · I5k · R3c · CRSI · 340 · ci7 · R43 · 220/10 · AUXILIARY · C20 · R41 {RK? · CUTPUT
+- **Title block:** (359, 18)–(432, 35) mm: Alvrior · WBS · WARD-BeCK SYSTEMS · GEB · 4470
+- **Wiring (first pass):** 131 connected wire groups from 981 runs, 2 dotted junctions; labelled ends: 185 mm → ceora=, See, WBS, WARD-BeCK SYSTEMS; 134 mm → 82 P, 22k, 620; 130 mm → DSI, 0S2; 107 mm → cio, Isel6, 8z8; 94 mm → 3569, Czo
+
+Every curve, box, word and wire group: [19xx - DOC - 479-02-001 - DUAL AUXILIARY MODULE SCHEMATIC (traced).json](19xx%20-%20DOC%20-%20479-02-001%20-%20DUAL%20AUXILIARY%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 479-02-001 - DUAL AUXILIARY MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

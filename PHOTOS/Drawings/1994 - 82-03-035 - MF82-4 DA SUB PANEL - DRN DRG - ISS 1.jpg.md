@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 329,438 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 82-03-035, size D 864 × 561 mm, 2000 × 1300 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–561 mm up
+- **Outlines:** line 455 rings, 2,642 straight (13,627 mm) / 507 curved (1,181 mm); text 187 rings, 1,177 straight (2,411 mm) / 353 curved (899 mm); tb 22 rings, 173 straight (377 mm) / 42 curved (107 mm)
+- **Centre lines:** 4,361 paths (129 closed); straight 9,761 mm, curved 23.5 mm; horizontal 5,082 mm, vertical 1,984 mm, diagonal 2,695 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 1.7 @ (531.5, 323.2)
+- **Closed boxes:** 32 (2 in the title block); named: MF82-4 DA SUB PANEL; 82-03-035; CojeV48?
+- **Words (OCR):** 20 in 17 lines: Punc · FLACES · FCFRT · 0220 · MATERIAL: ALUM ALLOY 0.050 THICK: · FINISH: SAND · TEXTURED GREY TEXCOTE VNYL; · GRIT AND PAINT · (MEDIUM TEXTURE) · WBS · WARD-BECK SYSTEMS · RFVOVF
+- **Title block:** (685, 48)–(856, 81) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 82-03-035 - MF82-4 DA SUB PANEL - DRN DRG - ISS 1 (traced).json](1994%20-%2082-03-035%20-%20MF82-4%20DA%20SUB%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 82-03-035 - MF82-4 DA SUB PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -20,6 +20,19 @@ Wiki page: [Job-970029](../../../PAGES/Job-970029.md)
 - **Size:** 324,154 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 970029-03-002, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 41–831 mm across, 12–445 mm up
+- **Outlines:** line 242 rings, 2,425 straight (17,208 mm) / 360 curved (875 mm); text 220 rings, 1,311 straight (2,521 mm) / 386 curved (990 mm); tb 9 rings, 98 straight (281 mm) / 18 curved (40.4 mm)
+- **Centre lines:** 3,394 paths (93 closed); straight 11,246 mm, curved 18.6 mm; horizontal 6,250 mm, vertical 2,327 mm, diagonal 2,669 mm
+- **Circles and arcs:** 1 circles, 3 arcs; largest r 2.4 @ (579.9, 173.8)
+- **Closed boxes:** 20 (2 in the title block); named: TURRET BASE (CuSTOM); 970029-03-002; DGC ND
+- **Words (OCR):** 27 in 23 lines: RAD(J) · 200 · REOT · 4,000 · MATERIAL: CRS: 0.105 · ThiCK; · FINISH: SAND · 120 GRIT AND PAINT · REMSCN · TEXTURED BROWN (438C) · WARD- · BECK   SYSTEMS
+- **Title block:** (671, 44)–(842, 78) mm: REMSCN · WARD- · BECK   SYSTEMS · WBS · IORN: · TURRET BASE
+
+Every curve, box, word and wire group: [1997 - 970029-03-002 - TURRET BASE (CUSTOM) - DRN DRG - ISS 1 (traced).json](1997%20-%20970029-03-002%20-%20TURRET%20BASE%20%28CUSTOM%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1997 - 970029-03-002 - TURRET BASE (CUSTOM) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

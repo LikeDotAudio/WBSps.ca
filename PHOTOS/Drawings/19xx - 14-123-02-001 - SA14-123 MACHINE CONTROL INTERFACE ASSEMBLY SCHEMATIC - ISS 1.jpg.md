@@ -20,6 +20,19 @@ SA14-123 machine control interface assembly schematic, title block at top right 
 - **Size:** 3,413,068 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-123-02-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 77–421 mm across, 18–303 mm up
+- **Outlines:** line 1,801 rings, 15,919 straight (28,350 mm) / 2,134 curved (2,683 mm); text 95 rings, 670 straight (737 mm) / 179 curved (240 mm)
+- **Centre lines:** 28,913 paths (85 closed); straight 20,163 mm, curved 39.0 mm; horizontal 7,331 mm, vertical 7,921 mm, diagonal 4,911 mm
+- **Circles and arcs:** 3 circles, 7 arcs; largest r 1.2 @ (355.1, 41.2), r 1.2 @ (352.1, 41.2), r 1.1 @ (378.3, 56.1)
+- **Closed boxes:** 88
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 234 connected wire groups from 2,891 runs, 4 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 14-123-02-001 - SA14-123 MACHINE CONTROL INTERFACE ASSEMBLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-123-02-001%20-%20SA14-123%20MACHINE%20CONTROL%20INTERFACE%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-123-02-001 - SA14-123 MACHINE CONTROL INTERFACE ASSEMBLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

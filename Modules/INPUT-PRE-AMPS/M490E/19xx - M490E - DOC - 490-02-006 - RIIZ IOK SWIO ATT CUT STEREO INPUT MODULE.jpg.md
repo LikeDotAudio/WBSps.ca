@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,945,432 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-006, size B (assumed) 432 × 281 mm, 2000 × 1303 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 3–281 mm up
+- **Outlines:** line 2,574 rings, 19,594 straight (32,175 mm) / 5,168 curved (6,325 mm); text 711 rings, 3,648 straight (2,986 mm) / 1,268 curved (1,542 mm); tb 8 rings, 67 straight (112 mm) / 18 curved (26.7 mm)
+- **Centre lines:** 21,729 paths (641 closed); straight 21,107 mm, curved 470 mm; horizontal 8,388 mm, vertical 5,252 mm, diagonal 7,467 mm
+- **Circles and arcs:** 10 circles, 71 arcs; largest r 3.8 @ (156.4, 73.0), r 3.7 @ (64.6, 133.6), r 3.7 @ (152.6, 184.7), r 3.7 @ (156.5, 47.6)
+- **Closed boxes:** 57 (2 in the title block); named: Pcb 7-12; 44; 2i0; 212; 2i2; 26-64et; M490E STEREO INPUT MODULE SCHEMATIC; 02-006 490=
+- **Dots (junctions):** 11
+- **Words (OCR):** 154 in 146 lines: tiegbm · HPUT · Selecter · 5w2 · Mixing Buses · Richt · INBERT · RGht · Pcb 7-12 · 7p1-3 · 44 · Pza J
+- **Title block:** (357, 20)–(432, 35) mm: WBS · WAAD-BeCk systeMS · M490E
+- **Wiring (first pass):** 225 connected wire groups from 1,826 runs, 6 dotted junctions; labelled ends: 474 mm → 212; 422 mm → 2k2, Rzo; 360 mm → Re, Re4, 4Jlio, 10/25; 228 mm → Rizy, 212, 12/25, iok; 226 mm → R99, 4uzs], Ruie, CriS
+
+Every curve, box, word and wire group: [19xx - M490E - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE (traced).json](19xx%20-%20M490E%20-%20DOC%20-%20490-02-006%20-%20RIIZ%20IOK%20SWIO%20ATT%20CUT%20STEREO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `19xx - M490E - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

@@ -15,6 +15,20 @@ Wiki page: [M462](../../../PAGES/M462.md)
 
 - **1976** (labelled): `DATE Oct 76` — …ml USED OM MATL . WBS WARD-BeCK BYSTEMs LTD. DRN_ @EB 1-126 DATE Oct 76 EQUALIZER Filter CKD_ 6e SCALE Amplifier SCHEMATXC TOLS # 3…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–426 mm up
+- **Outlines:** line 484 rings, 6,441 straight (13,894 mm) / 1,109 curved (1,530 mm); text 504 rings, 3,500 straight (3,775 mm) / 1,167 curved (1,732 mm); tb 23 rings, 218 straight (308 mm) / 32 curved (49.7 mm)
+- **Centre lines:** 6,917 paths (99 closed); straight 10,485 mm, curved 204 mm; horizontal 3,887 mm, vertical 2,860 mm, diagonal 3,738 mm
+- **Circles and arcs:** 5 circles, 53 arcs; largest r 2.1 @ (196.8, 376.8), r 1.3 @ (277.4, 336.8), r 1.2 @ (143.5, 320.7), r 1.2 @ (131.2, 166.2)
+- **Closed boxes:** 29 (17 in the title block); named: WBS bybteMB LTD WAAD-BeCk; 1243
+- **Words (OCR):** 114 in 104 lines: E3ECUENCY (400 Hz · GkHz ) · MID · 65 · RI4 · ok · R23 · 321 · ci8 · 221 · 222 · cic
+- **Title block:** (130, 0)–(293, 48) mm: ISSMOD CKDJ · USED ON · MATL_ · 1243 · WBS WAAD-BeCk · DRN · 1-124 · ML · DATE Oct 76 · EQUALIZER Filter · cKD · Amplifier SCHEMATIC · SCALE · TOLS · 4-126-02-001
+- **Wiring (first pass):** 83 connected wire groups from 403 runs; labelled ends: 269 mm → R33, iok, 0-6, 065; 186 mm → 6k2, 0-6, 065, c47; 157 mm → RI4, ok; 138 mm → 345, Gk2, c42, 065; 138 mm → cic, ZemcinEd, VALYE, 0p
+
+Every curve, box, word and wire group: [1976 - M462 - 4-126-02-001 - ISCALE AMPLIFIER SCHEMATXC (traced).json](1976%20-%20M462%20-%204-126-02-001%20-%20ISCALE%20AMPLIFIER%20SCHEMATXC%20%28traced%29.json) (the CAD file: `1976 - M462 - 4-126-02-001 - ISCALE AMPLIFIER SCHEMATXC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

@@ -11,6 +11,21 @@ Wiki page: [M490M](../../../PAGES/M490M.md)
 - **Size:** 370,533 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-013, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 13–424 mm up
+- **Outlines:** line 1,137 rings, 12,847 straight (20,164 mm) / 3,112 curved (4,053 mm); text 248 rings, 1,891 straight (1,983 mm) / 647 curved (892 mm); tb 2 rings, 64 straight (150 mm) / 3 curved (4.5 mm)
+- **Centre lines:** 9,764 paths (168 closed); straight 12,910 mm, curved 298 mm; horizontal 5,450 mm, vertical 3,030 mm, diagonal 4,430 mm
+- **Circles and arcs:** 5 circles, 79 arcs; largest r 2.3 @ (164.6, 134.0), r 0.9 @ (30.1, 386.8), r 0.9 @ (83.0, 378.9), r 0.8 @ (135.5, 94.1)
+- **Closed boxes:** 30
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 54 lines: Lif ier · #Z0v 0.I/100 · cio · 1107 · 73 · D/io · Assich · -Z0v · Rms · Isk · Phohe · Rizo
+- **Title block:** (202, 48)–(327, 72) mm: WBS WARD-BECK BYBTEMS
+- **Wiring (first pass):** 153 connected wire groups from 1,086 runs, 1 dotted junctions; labelled ends: 266 mm → ISK; 126 mm → 1107; 109 mm → 1838; 98 mm → D/iO; 73 mm → 73, D/io
+
+Every curve, box, word and wire group: [1988 - M490M - 490-02-013 - LAST COMPONENT DESICMAT IONS (traced).json](1988%20-%20M490M%20-%20490-02-013%20-%20LAST%20COMPONENT%20DESICMAT%20IONS%20%28traced%29.json) (the CAD file: `1988 - M490M - 490-02-013 - LAST COMPONENT DESICMAT IONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M451](../../../PAGES/M451.md)
 - **Size:** 422,225 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 451-04-001, size B (assumed) 432 × 310 mm, 2000 × 1436 px traced (0.216 mm/px)
+- **Ink extent:** 50–432 mm across, 0–310 mm up
+- **Outlines:** line 759 rings, 7,935 straight (15,316 mm) / 1,664 curved (2,346 mm); text 677 rings, 4,832 straight (4,963 mm) / 1,582 curved (2,072 mm); tb 140 rings, 1,255 straight (2,500 mm) / 211 curved (296 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 6.2 @ (224.6, 150.7), r 6.1 @ (253.0, 150.6), r 5.1 @ (292.7, 247.0), r 3.8 @ (253.0, 150.5)
+- **Closed boxes:** 23 (18 in the title block); named: R45 015
+- **Words (OCR):** 105 in 94 lines: 484 9 8 · 20 · R45 · Ri2 · 22r · 015 · 242709 · LR2 #K · 1C8 · ~Ri8 · AK · +c9 22025 CZ 23
+- **Title block:** (258, 0)–(432, 198) mm: WBS · CANADA · 4-137 · INtOO} · CRS · ACR7o} · 3713 · REVERSED GEB · ISSUDATE · REvISIOH · ApP: · WBS WARD-BECk ByBTeMB · DRN PAuety · M4si · ENG_ · TALKBACK Module · CKD · COMPONENT LAYOUT · APP · SC
+
+Every curve, box, word and wire group: [1977 - M451 - 451-04-001 - WAAD-BECK BYBTEMB DRNRMUEIS ENG (traced).json](1977%20-%20M451%20-%20451-04-001%20-%20WAAD-BECK%20BYBTEMB%20DRNRMUEIS%20ENG%20%28traced%29.json) (the CAD file: `1977 - M451 - 451-04-001 - WAAD-BECK BYBTEMB DRNRMUEIS ENG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

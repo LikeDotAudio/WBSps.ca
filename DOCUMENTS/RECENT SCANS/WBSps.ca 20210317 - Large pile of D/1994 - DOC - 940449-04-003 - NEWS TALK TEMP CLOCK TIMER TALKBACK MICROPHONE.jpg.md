@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,267,083 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940449-04-003, size B (assumed) 432 × 312 mm, 2000 × 1447 px traced (0.216 mm/px); scale DISC_KD:
+- **Ink extent:** 48–426 mm across, 9–267 mm up
+- **Outlines:** line 218 rings, 2,391 straight (18,274 mm) / 185 curved (288 mm); text 221 rings, 1,458 straight (1,816 mm) / 444 curved (612 mm); tb 36 rings, 249 straight (297 mm) / 60 curved (67.8 mm)
+- **Closed boxes:** 71 (13 in the title block); named: CLOCK TEMP TIMER TALKBACK MICR OPHONE CO; TEMP; CLOCK; TIMER; TEMP; CLOCK; TIMER; COUGH; COUGH; NEWS C/R; NEWS C/R; TEMP CLOCK TIMER TALKBACK MICRCPHONE COU
+- **Words (OCR):** 31 in 30 lines: TEMP · CLOCK · TIMER · TALKBACK · MICR OPHONE · COUGH · NEWS · C/R · TEMP · CLOCK · TIMER · TALKBACK
+- **Title block:** (322, 6)–(420, 44) mm: WBS · WARD-BECK SYSTEMS · DRN: · NEWS  TURRET · WBZ · YOUT · SCALE DISC_KD: · 940449- · 04-003 · SSUE · CCDE: 94449L03
+
+Every curve, box, word and wire group: [1994 - DOC - 940449-04-003 - NEWS TALK TEMP CLOCK TIMER TALKBACK MICROPHONE (traced).json](1994%20-%20DOC%20-%20940449-04-003%20-%20NEWS%20TALK%20TEMP%20CLOCK%20TIMER%20TALKBACK%20MICROPHONE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940449-04-003 - NEWS TALK TEMP CLOCK TIMER TALKBACK MICROPHONE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

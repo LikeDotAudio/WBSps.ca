@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 13,887,580 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 813-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 773 rings, 8,163 straight (19,810 mm) / 1,792 curved (2,698 mm); text 508 rings, 2,946 straight (2,782 mm) / 1,053 curved (1,310 mm); tb 12 rings, 115 straight (193 mm) / 25 curved (31.4 mm)
+- **Centre lines:** 10,038 paths (228 closed); straight 13,115 mm, curved 714 mm; horizontal 4,738 mm, vertical 4,064 mm, diagonal 4,313 mm
+- **Circles and arcs:** 16 circles, 88 arcs; largest r 4.3 @ (316.3, 167.7), r 4.3 @ (316.5, 137.5), r 4.3 @ (316.3, 182.0), r 4.2 @ (316.6, 226.7)
+- **Closed boxes:** 25 (4 in the title block); named: 74 (42; 742174; 74042
+- **Words (OCR):** 93 in 80 lines: NOTES · ALL resistors Are Va W · AnD · 4070 · READBACK · ALL CAPACiTORS ARE · AF · UNLES? SpeciFiED · OtheRWiSE · 3569 · LAST · COMPONENT DEIGMATON?:
+- **Title block:** (332, 9)–(432, 57) mm: 4153 · 48 · ISSUE IDATE · REVISION · WBS WARD-BECK SYSTEMS · DRM: Mrw · M813 · ENG MrW · RELAY SWITCHER LOGIC CARD · SCHEMATIC · SCALE · ISSUE · 813 - 02-001
+- **Wiring (first pass):** 101 connected wire groups from 848 runs; labelled ends: 1047 mm → 0/33; 875 mm → CD 4070; 381 mm → Crig, Cris, cria, 14746 4k7; 346 mm → 74004; 170 mm → CRA, ces, CD 4070, Crs
+
+Every curve, box, word and wire group: [19xx - M813 - DOC - 813-02-001 - RELAY SWITCHER LOGIC CARD SCHEMATIC (traced).json](19xx%20-%20M813%20-%20DOC%20-%20813-02-001%20-%20RELAY%20SWITCHER%20LOGIC%20CARD%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M813 - DOC - 813-02-001 - RELAY SWITCHER LOGIC CARD SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

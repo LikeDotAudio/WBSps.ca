@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,821,560 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 970245-03-001, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 19–410 mm across, 9–248 mm up
+- **Outlines:** line 823 rings, 5,497 straight (11,068 mm) / 1,082 curved (1,606 mm); text 209 rings, 1,270 straight (1,189 mm) / 394 curved (477 mm); tb 25 rings, 159 straight (192 mm) / 33 curved (40.1 mm)
+- **Centre lines:** 6,616 paths (161 closed); straight 7,164 mm, curved 392 mm; horizontal 3,296 mm, vertical 1,754 mm, diagonal 2,114 mm
+- **Circles and arcs:** 12 circles, 21 arcs; largest r 6.2 @ (247.8, 126.4), r 6.2 @ (270.0, 126.4), r 6.2 @ (203.3, 126.3), r 6.2 @ (225.4, 126.5)
+- **Closed boxes:** 16 (4 in the title block); named: PANEL MIXER; 970245-03-001; LLUL
+- **Dots (junctions):** 1
+- **Words (OCR):** 34 in 33 lines: DELLA · DETALA · QICCP · PLACES · 04o · DEIAIL · DEINLD · DEIAL E · DETAIL · PLACES · ILODj · DUTCHES
+- **Title block:** (331, 24)–(415, 41) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1997 - DOC - 970245-03-001 - JQES REMOVE ALL BURRS AND SHARP EDGES TOL (traced).json](1997%20-%20DOC%20-%20970245-03-001%20-%20JQES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOL%20%28traced%29.json) (the CAD file: `1997 - DOC - 970245-03-001 - JQES REMOVE ALL BURRS AND SHARP EDGES TOL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

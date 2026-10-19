@@ -21,6 +21,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,801,762 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5-126-02-001, size B 432 × 213 mm, 2000 × 987 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 1–432 mm across, 0–137 mm up
+- **Outlines:** line 998 rings, 10,014 straight (16,383 mm) / 1,954 curved (2,236 mm); text 106 rings, 738 straight (606 mm) / 247 curved (287 mm)
+- **Centre lines:** 12,390 paths (294 closed); straight 10,459 mm, curved 94.4 mm; horizontal 4,444 mm, vertical 2,782 mm, diagonal 3,233 mm
+- **Circles and arcs:** 4 circles, 23 arcs; largest r 1.7 @ (254.8, 113.4), r 1.5 @ (402.1, 5.8), r 1.4 @ (408.2, 6.1), r 0.9 @ (218.5, 53.2)
+- **Closed boxes:** 58
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 75 connected wire groups from 876 runs
+
+Every curve, box, word and wire group: [1975 - 5-126-02-001 - SYNC DECODER AND SYNC GENERATOR - DRN DM - ISS 2 (traced).json](1975%20-%205-126-02-001%20-%20SYNC%20DECODER%20AND%20SYNC%20GENERATOR%20-%20DRN%20DM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1975 - 5-126-02-001 - SYNC DECODER AND SYNC GENERATOR - DRN DM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

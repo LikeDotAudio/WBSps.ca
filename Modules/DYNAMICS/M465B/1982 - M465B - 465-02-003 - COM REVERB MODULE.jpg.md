@@ -11,6 +11,19 @@ Wiki page: [M465B](../../../PAGES/M465B.md)
 - **Size:** 5,472,146 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 465-02-003, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 1–432 mm across, 19–303 mm up
+- **Outlines:** line 1,464 rings, 12,421 straight (25,133 mm) / 2,578 curved (3,264 mm); text 140 rings, 695 straight (606 mm) / 251 curved (307 mm)
+- **Centre lines:** 10,443 paths (281 closed); straight 14,621 mm, curved 263 mm; horizontal 6,438 mm, vertical 4,341 mm, diagonal 3,842 mm
+- **Circles and arcs:** 5 circles, 62 arcs; largest r 3.9 @ (85.8, 50.1), r 3.7 @ (85.7, 113.4), r 3.6 @ (73.0, 59.9), r 0.9 @ (391.4, 35.3)
+- **Closed boxes:** 55
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 167 connected wire groups from 1,184 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1982 - M465B - 465-02-003 - COM REVERB MODULE (traced).json](1982%20-%20M465B%20-%20465-02-003%20-%20COM%20REVERB%20MODULE%20%28traced%29.json) (the CAD file: `1982 - M465B - 465-02-003 - COM REVERB MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

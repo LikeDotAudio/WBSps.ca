@@ -11,6 +11,21 @@ Wiki page: [Job-77012](../../../PAGES/Job-77012.md)
 - **Size:** 37,385,460 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 77012-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 14–279 mm up
+- **Outlines:** line 909 rings, 7,732 straight (13,283 mm) / 1,438 curved (1,676 mm); text 1,263 rings, 6,041 straight (4,668 mm) / 1,911 curved (2,198 mm); tb 10 rings, 63 straight (104 mm) / 16 curved (21.5 mm)
+- **Centre lines:** 13,256 paths (375 closed); straight 10,479 mm, curved 53.0 mm; horizontal 3,906 mm, vertical 2,575 mm, diagonal 3,999 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 18 (4 in the title block); named: 44TZ; (25 dB!; (-15 d8); M4lI DUA_AUX MODuLe; W5 MODULE; Ml SELECTOR; Ml 05c HQDULE; MMk QuE LP
+- **Dots (junctions):** 2
+- **Words (OCR):** 279 in 228 lines: INPUT CHANNEL · SUBMASTER · (EEE NOTE ") · SuBMASTER · (SEE · Note · MAsTER · Summing · BuS · (5EE HOTe · IHGERT · ChaH
+- **Title block:** (354, 6)–(432, 38) mm: 222244 05 4 · 24 · Issut · DATE · REVISION · APP · WBS · WARD-BECK systeMS · DRNSER · CONSOLE · ENG. ELJ · WBS L2042 · CKD: · APR · FUNCTIONAL DIAGRAM · AsCilF · 753
+- **Wiring (first pass):** 135 connected wire groups from 577 runs, 2 dotted junctions; labelled ends: 282 mm → Summing, BuS, ChAM, FADER; 266 mm → FAOrR, (25 dB!, UdBm, Adam; 188 mm → Ml, SELECTOR, COMT; 145 mm → cdbm, KOLo, cah, Wdkm; 119 mm → MaSTER, Sumhing, BUS, cah
+
+Every curve, box, word and wire group: [1977 - 77012 - 77012-01-001 - HOHITOR HODUE COKI HUTE SUMMING (traced).json](1977%20-%2077012%20-%2077012-01-001%20-%20HOHITOR%20HODUE%20COKI%20HUTE%20SUMMING%20%28traced%29.json) (the CAD file: `1977 - 77012 - 77012-01-001 - HOHITOR HODUE COKI HUTE SUMMING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 25 words corrected)

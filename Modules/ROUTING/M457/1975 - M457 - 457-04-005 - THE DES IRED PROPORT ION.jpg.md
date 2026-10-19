@@ -11,6 +11,17 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 1,794,450 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 457-04-005, size B (assumed) 393 × 432 mm, 1822 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–393 mm across, 0–432 mm up
+- **Outlines:** line 46 rings, 1,748 straight (4,373 mm) / 193 curved (294 mm); text 770 rings, 4,820 straight (4,873 mm) / 1,772 curved (2,535 mm); tb 335 rings, 3,057 straight (6,347 mm) / 618 curved (1,158 mm)
+- **Closed boxes:** 12 (11 in the title block); named: AssiGNMENT Swi switches through Sw8 When
+- **Words (OCR):** 122 in 77 lines: WBS · M457 · SEnsitivity controis R2, R4 _ · R6 · and R8 (outer knobs) : · order · constant · MIXER · SEN-C-MiX · LEVEL contro · to · accommodate
+- **Title block:** (152, 0)–(393, 412) mm: WBS · M457 · SEnsitivity controis R2, R4 _ · R6 · and R8 (outer knobs) : · order · constant · MIXER · SEN-C-MiX · LEVEL contro · to · accommodate · settings with · ing input · leve I s _ · the SENS I 
+
+Every curve, box, word and wire group: [1975 - M457 - 457-04-005 - THE DES IRED PROPORT ION (traced).json](1975%20-%20M457%20-%20457-04-005%20-%20THE%20DES%20IRED%20PROPORT%20ION%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-04-005 - THE DES IRED PROPORT ION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

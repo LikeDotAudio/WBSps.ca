@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 132,629 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 1202-01-002, size B (assumed) 298 × 432 mm, 760 × 1102 px traced (0.392 mm/px)
+- **Ink extent:** 17–298 mm across, 2–432 mm up
+- **Outlines:** line 80 rings, 566 straight (3,431 mm) / 93 curved (244 mm); text 772 rings, 3,734 straight (6,077 mm) / 1,148 curved (2,753 mm)
+- **Centre lines:** 2,618 paths (141 closed); straight 5,737 mm, curved 20.1 mm; horizontal 1,412 mm, vertical 1,701 mm, diagonal 2,624 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 2
+- **Words (OCR):** 91 in 62 lines: WAAD-BeCK BYBTEMB LTD; · IABLE OF CONTENTS · TIZ02A TRANSPORTABLE MIXING · CONSOLE · SECTON · PAGE · Warranty · General · I-1 · 1-9 · Introduction · Facilties
+- **Wiring (first pass):** 3 connected wire groups from 45 runs; labelled ends: 132 mm → CONSOLE, TIZ02A; 66 mm → IABLE, TRANSPORTABLE, CONTENTS, MIXING
+
+Every curve, box, word and wire group: [2001 - L1202A - 1202-01-002 - TRANSPORTABLE MIXING CONSOLE SECHON PAGE WARRANTY GENERAL (traced).json](2001%20-%20L1202A%20-%201202-01-002%20-%20TRANSPORTABLE%20MIXING%20CONSOLE%20SECHON%20PAGE%20WARRANTY%20GENERAL%20%28traced%29.json) (the CAD file: `2001 - L1202A - 1202-01-002 - TRANSPORTABLE MIXING CONSOLE SECHON PAGE WARRANTY GENERAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

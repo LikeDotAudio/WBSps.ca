@@ -22,6 +22,19 @@ Interface panel (2 rack units) drawing with title block at bottom right.
 - **Size:** 472,992 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940243-03-002, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 56–864 mm across, 0–495 mm up
+- **Outlines:** line 854 rings, 6,631 straight (29,806 mm) / 1,318 curved (3,614 mm); text 196 rings, 1,151 straight (2,109 mm) / 389 curved (970 mm); tb 23 rings, 176 straight (407 mm) / 36 curved (77.6 mm)
+- **Centre lines:** 7,116 paths (192 closed); straight 18,245 mm, curved 622 mm; horizontal 10,044 mm, vertical 3,609 mm, diagonal 4,592 mm
+- **Circles and arcs:** 10 circles, 16 arcs; largest r 10.0 @ (490.5, 377.6), r 10.0 @ (560.3, 376.1), r 10.0 @ (455.3, 378.6), r 10.0 @ (525.4, 376.8)
+- **Closed boxes:** 36 (2 in the title block); named: INTERFACE PANEL RACK  UNITS); I;1
+- **Words (OCR):** 32 in 30 lines: RI · ALLD · Thic · 12] Gr · TE' TURED · PL CCS · 0.550 · DM · DFTA · PLACS · PLACES · 10 Joi
+- **Title block:** (681, 30)–(849, 64) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940243-03-002 - INTERFACE PANEL (2 RACK UNITS) - DRN DRG - ISS 1 (traced).json](1994%20-%20940243-03-002%20-%20INTERFACE%20PANEL%20%282%20RACK%20UNITS%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940243-03-002 - INTERFACE PANEL (2 RACK UNITS) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

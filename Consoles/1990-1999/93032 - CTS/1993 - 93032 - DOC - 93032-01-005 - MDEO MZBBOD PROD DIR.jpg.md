@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,582,306 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93032-01-005, size B (assumed) 432 × 278 mm, 2000 × 1289 px traced (0.216 mm/px)
+- **Ink extent:** 14–420 mm across, 2–276 mm up
+- **Outlines:** line 2,876 rings, 21,082 straight (33,200 mm) / 2,395 curved (3,212 mm); text 193 rings, 1,199 straight (1,130 mm) / 381 curved (498 mm); tb 16 rings, 157 straight (179 mm) / 33 curved (37.8 mm)
+- **Centre lines:** 81,242 paths (130 closed); straight 35,299 mm, curved 24.7 mm; horizontal 9,632 mm, vertical 10,725 mm, diagonal 14,943 mm
+- **Circles and arcs:** 127 circles, 10 arcs; largest r 3.4 @ (130.4, 183.4), r 3.4 @ (168.4, 183.0), r 3.4 @ (143.1, 183.3), r 3.4 @ (231.0, 115.5)
+- **Closed boxes:** 162 (2 in the title block); named: CTS DRAMA  STUDIO 24*36 MiniCOM INTERCOM; 93032- 005
+- **Words (OCR):** 25 in 24 lines: EGEND: · CROSSPCANT NORu · 1/2 V8220 · (24 NRUTS · L4PLIFIEF · SOARC · 000 · puTS · 0222 · GOD ChuS · FLOR · 1/7 V9720
+- **Title block:** (341, 18)–(425, 34) mm: WBS · WARD-BECK SYSTEMS · CTS DRAMA  STUDIO
+- **Wiring (first pass):** 205 connected wire groups from 4,088 runs; labelled ends: 34 mm → WBS; 22 mm → cutputs; 15 mm → FLOR; 15 mm → SOARC; 15 mm → FL007
+
+Every curve, box, word and wire group: [1993 - 93032 - DOC - 93032-01-005 - MDEO MZBBOD PROD DIR (traced).json](1993%20-%2093032%20-%20DOC%20-%2093032-01-005%20-%20MDEO%20MZBBOD%20PROD%20DIR%20%28traced%29.json) (the CAD file: `1993 - 93032 - DOC - 93032-01-005 - MDEO MZBBOD PROD DIR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

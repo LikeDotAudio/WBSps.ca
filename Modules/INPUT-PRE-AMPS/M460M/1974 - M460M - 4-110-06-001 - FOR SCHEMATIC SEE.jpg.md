@@ -11,6 +11,18 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 351,745 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-110-06-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 695 rings, 6,932 straight (10,824 mm) / 1,681 curved (1,774 mm); text 367 rings, 3,542 straight (3,605 mm) / 1,069 curved (1,279 mm); tb 47 rings, 368 straight (463 mm) / 91 curved (94.7 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 10.5 @ (141.5, 201.0), r 10.4 @ (176.1, 161.6), r 10.4 @ (141.7, 161.6), r 10.4 @ (176.1, 200.8)
+- **Closed boxes:** 20 (15 in the title block); named: FINISH; TOLS _
+- **Words (OCR):** 39 in 32 lines: 3s/0 · 28 · 38 · 332K · 249 · 88 · 9k · 41 · 47oK · 33/16 · 2 & & 8 · Ioles
+- **Title block:** (169, 16)–(336, 69) mm: ISSODIcKD · USED · ON · MATL _ · WBS · DA · EIc · DRM: · FINISH · DATEJOJUNZ4 · cKD · B699 ML · ScALE · TOLS _
+
+Every curve, box, word and wire group: [1974 - M460M - 4-110-06-001 - FOR SCHEMATIC SEE (traced).json](1974%20-%20M460M%20-%204-110-06-001%20-%20FOR%20SCHEMATIC%20SEE%20%28traced%29.json) (the CAD file: `1974 - M460M - 4-110-06-001 - FOR SCHEMATIC SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

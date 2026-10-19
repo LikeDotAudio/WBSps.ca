@@ -22,6 +22,20 @@ Wiki page: [Job-940335](../../../PAGES/Job-940335.md)
 - **Size:** 765,591 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 940335-01-001, size D 864 × 573 mm, 2000 × 1327 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 37–846 mm across, 26–560 mm up
+- **Outlines:** line 769 rings, 7,265 straight (38,010 mm) / 883 curved (2,138 mm); text 1,238 rings, 7,645 straight (12,204 mm) / 2,169 curved (5,059 mm); tb 99 rings, 774 straight (4,154 mm) / 120 curved (305 mm)
+- **Centre lines:** 17,640 paths (326 closed); straight 32,061 mm, curved 68.0 mm; horizontal 12,891 mm, vertical 9,013 mm, diagonal 10,157 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 4.5 @ (70.1, 540.9), r 1.6 @ (100.3, 262.5)
+- **Closed boxes:** 118 (11 in the title block); named: PGMI RIGHT; SEL; VINUS; Aun; I0XI SEL; 2200; 2200; CUE MUTE
+- **Words (OCR):** 190 in 164 lines: LEGEND · LEVEL · OPMCAL SHAFT ENCODER · CCNSOLE SuMving BUSES · Vusic VCICE · TMNS · MiX CUE AUX AUX · INSERTS · METER AND Mnitor CUTPUT · dbu · SOUD STATE SmTCH · PGhI Lar
+- **Title block:** (119, 23)–(861, 175) mm: MONO2 · MONOJ · MONOI · MONO? · WBS · MONOS · TELCO · SUPPLY · POWER · CONSOLE MODULES · METERING INPUTS · TELCO · 0924 · CoMMon · PHONE SEND · OUTPUTS · STEREOT · @ STEREO1 · STEREO2 · TELCO · +4 0Bu
+- **Wiring (first pass):** 238 connected wire groups from 1,393 runs; labelled ends: 839 mm → CUE, AUX AUX, MiX, TMNS; 782 mm → I0XI, SEL, AUTO, CUE; 659 mm → AUX AUX; 396 mm → VCA, VINUS, x0 P2, XO; 339 mm → I0XI, SEL
+
+Every curve, box, word and wire group: [1994 - 940335-01-001 - CHFI PRODUCTION RENAISSANCE MK II FUNCTIONAL - DRN SM - ENG SM - ISS 2 (traced).json](1994%20-%20940335-01-001%20-%20CHFI%20PRODUCTION%20RENAISSANCE%20MK%20II%20FUNCTIONAL%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940335-01-001 - CHFI PRODUCTION RENAISSANCE MK II FUNCTIONAL - DRN SM - ENG SM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 23 words corrected)

@@ -24,6 +24,18 @@ Wiki page: [M524](../../../PAGES/M524.md)
 - **Size:** 1,166,855 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 524-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 64 rings, 1,961 straight (6,167 mm) / 131 curved (189 mm); text 310 rings, 2,502 straight (3,129 mm) / 773 curved (1,143 mm); tb 7 rings, 108 straight (225 mm) / 11 curved (18.7 mm)
+- **Centre lines:** 2,644 paths (43 closed); straight 5,501 mm, curved 0.0 mm; horizontal 2,514 mm, vertical 1,388 mm, diagonal 1,598 mm
+- **Closed boxes:** 6 (5 in the title block)
+- **Words (OCR):** 35 in 32 lines: NOTES · MATERIAL · 060 RED PLEXIGLASS · TOLERANCES · XXX 005 · 2.820 · REMOVE ALL BURRS AND SHARP EDGES · 8524-03-oo8/ · SILKSCREEN · AND OTHER SILE (SHINY) To AW 8524-03-o8/2' · MATTE SIDE TO Alw · 1.720
+- **Title block:** (277, 4)–(430, 74) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN: · TR V84 · M524 · ENG · TR · CKD. · LOWER DISPLAY SCREEN · APP · SCALE · JSSUE · 524 · 03 -
+
+Every curve, box, word and wire group: [1984 - 524-03-007 - LOWER DISPLAY SCREEN - DRN TR - ENG TR - ISS 1 (traced).json](1984%20-%20524-03-007%20-%20LOWER%20DISPLAY%20SCREEN%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 524-03-007 - LOWER DISPLAY SCREEN - DRN TR - ENG TR - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

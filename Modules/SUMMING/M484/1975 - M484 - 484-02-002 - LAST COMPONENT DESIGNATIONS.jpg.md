@@ -11,6 +11,18 @@ Wiki page: [M484](../../../PAGES/M484.md)
 - **Size:** 2,183,130 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 484-02-002, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 1–432 mm up
+- **Outlines:** line 690 rings, 7,912 straight (8,590 mm) / 1,640 curved (2,063 mm); text 332 rings, 3,448 straight (4,206 mm) / 862 curved (1,371 mm)
+- **Centre lines:** 7,870 paths (71 closed); straight 8,330 mm, curved 53.8 mm; horizontal 2,410 mm, vertical 1,736 mm, diagonal 4,184 mm
+- **Circles and arcs:** 2 circles, 10 arcs; largest r 1.5 @ (144.7, 281.9), r 1.1 @ (302.9, 224.8)
+- **Words (OCR):** 65 in 57 lines: I6 · C21 · R26 · 35 · I0 · C1? · Czo · C18 · I5oP · 01 · 330/6 · 23
+- **Wiring (first pass):** 52 connected wire groups from 344 runs; labelled ends: 252 mm → I5oP, 330/6, C18, 23; 221 mm → IJK, C25, IOOP, 2 3; 141 mm → 779, C22, 2 7K, 15 K; 92 mm → R27, 47k, R29, 471; 58 mm → I6, R26, 779, Czo
+
+Every curve, box, word and wire group: [1975 - M484 - 484-02-002 - LAST COMPONENT DESIGNATIONS (traced).json](1975%20-%20M484%20-%20484-02-002%20-%20LAST%20COMPONENT%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `1975 - M484 - 484-02-002 - LAST COMPONENT DESIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

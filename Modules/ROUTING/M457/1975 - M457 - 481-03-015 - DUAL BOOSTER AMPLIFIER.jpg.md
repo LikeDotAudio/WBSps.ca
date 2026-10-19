@@ -11,6 +11,17 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 7,295,303 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 481-03-015, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–431 mm across, 0–287 mm up
+- **Outlines:** line 710 rings, 7,834 straight (14,308 mm) / 1,591 curved (2,476 mm); text 662 rings, 4,586 straight (5,198 mm) / 1,429 curved (2,052 mm)
+- **Centre lines:** 6,756 paths (125 closed); straight 11,424 mm, curved 452 mm; horizontal 4,710 mm, vertical 2,330 mm, diagonal 4,385 mm
+- **Circles and arcs:** 19 circles, 84 arcs; largest r 6.2 @ (203.8, 196.8), r 3.2 @ (304.2, 247.5), r 2.3 @ (208.8, 83.4), r 2.2 @ (304.2, 247.9)
+- **Closed boxes:** 50
+
+Every curve, box, word and wire group: [1975 - M457 - 481-03-015 - DUAL BOOSTER AMPLIFIER (traced).json](1975%20-%20M457%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M457 - 481-03-015 - DUAL BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

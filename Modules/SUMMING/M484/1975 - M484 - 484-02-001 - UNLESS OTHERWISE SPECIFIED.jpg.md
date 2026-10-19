@@ -11,6 +11,18 @@ Wiki page: [M484](../../../PAGES/M484.md)
 - **Size:** 2,608,797 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 484-02-001, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–337 mm across, 0–429 mm up
+- **Outlines:** line 2,869 rings, 25,815 straight (21,882 mm) / 6,589 curved (7,193 mm); text 329 rings, 3,836 straight (4,139 mm) / 1,015 curved (1,467 mm)
+- **Centre lines:** 37,693 paths (192 closed); straight 21,829 mm, curved 327 mm; horizontal 4,693 mm, vertical 4,481 mm, diagonal 12,655 mm
+- **Circles and arcs:** 4 circles, 80 arcs; largest r 2.0 @ (205.8, 355.8), r 1.9 @ (250.2, 349.0), r 1.6 @ (117.3, 277.7), r 1.5 @ (211.7, 356.5)
+- **Words (OCR):** 57 in 44 lines: +166 · I0 · c2 · Ci · sz0/6 · 449 · R2 · A7k · R7 c7 · 15k 27p · SUMMING AMP · INPUT
+- **Wiring (first pass):** 78 connected wire groups from 1,206 runs; labelled ends: 159 mm → 449, c7, 27p, R7; 150 mm → 188p, 21, 88, R7; 76 mm → R2, A7k; 72 mm → 449; 67 mm → L8OOP, 88, IKJ
+
+Every curve, box, word and wire group: [1975 - M484 - 484-02-001 - UNLESS OTHERWISE SPECIFIED (traced).json](1975%20-%20M484%20-%20484-02-001%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20%28traced%29.json) (the CAD file: `1975 - M484 - 484-02-001 - UNLESS OTHERWISE SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

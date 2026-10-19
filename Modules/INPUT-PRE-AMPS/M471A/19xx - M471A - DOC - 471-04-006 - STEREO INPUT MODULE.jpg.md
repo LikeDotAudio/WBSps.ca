@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,193,912 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 471-04-006, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–280 mm up
+- **Outlines:** line 120 rings, 1,487 straight (5,372 mm) / 265 curved (526 mm); text 74 rings, 637 straight (624 mm) / 139 curved (196 mm); tb 70 rings, 456 straight (494 mm) / 142 curved (205 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 4.6 @ (312.1, 94.0), r 3.1 @ (347.5, 143.5), r 3.1 @ (261.3, 142.0), r 3.1 @ (261.4, 121.0)
+- **Closed boxes:** 10 (2 in the title block); named: M47IA STEREO INPUT MODULE; 471-04-006; SCAV
+- **Dots (junctions):** 1
+- **Words (OCR):** 12 in 12 lines: DescRIPTiON · WBS · M4714 · AuX · 10 · CH ON · WBS · WARO-BeCk SYSTEMS · M47IA · STEREO INPUT MODULE · SCAV · 471-04-006
+- **Title block:** (285, 18)–(432, 205) mm: WBS · M4714 · AuX · 10 · CH ON · WBS · WARO-BeCk SYSTEMS · M47IA
+
+Every curve, box, word and wire group: [19xx - M471A - DOC - 471-04-006 - STEREO INPUT MODULE (traced).json](19xx%20-%20M471A%20-%20DOC%20-%20471-04-006%20-%20STEREO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `19xx - M471A - DOC - 471-04-006 - STEREO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

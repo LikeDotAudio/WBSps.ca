@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 3,681,083 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 880134-01-001, size B (assumed) 305 × 432 mm, 1413 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 26–417 mm up
+- **Outlines:** line 15 rings, 888 straight (3,180 mm) / 60 curved (101 mm); text 1,130 rings, 7,930 straight (8,703 mm) / 2,519 curved (3,818 mm)
+- **Centre lines:** 4,061 paths (209 closed); straight 7,337 mm, curved 0.0 mm; horizontal 1,503 mm, vertical 2,448 mm, diagonal 3,386 mm
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.1 @ (13.8, 229.1), r 5.1 @ (13.1, 387.0), r 5.0 @ (13.8, 72.8)
+- **Words (OCR):** 68 in 57 lines: WAAD-BECK · Systems LTD. · CFTO_TV · AUDIO_CONSOLE · DRAWING LIST · E 880134-01-001 · Functiona] Diagram · 880134-02-001 · Mono Input Channel · Schematic · 880134-02-002 · Stereo Input Channel Schematic
+- **Title block:** (22, 403)–(122, 427) mm: WAAD-BECK · Systems LTD.
+- **Wiring (first pass):** 3 connected wire groups from 13 runs; labelled ends: 38 mm → LIST, DRAWING
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 880134-01-001 - CFTO-TV AUDIO CONSOLE DRAWING LIST (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%20880134-01-001%20-%20CFTO-TV%20AUDIO%20CONSOLE%20DRAWING%20LIST%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 880134-01-001 - CFTO-TV AUDIO CONSOLE DRAWING LIST (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

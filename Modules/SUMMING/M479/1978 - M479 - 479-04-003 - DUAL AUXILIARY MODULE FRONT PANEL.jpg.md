@@ -11,6 +11,17 @@ Wiki page: [M479](../../../PAGES/M479.md)
 - **Size:** 95,321 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 479-04-003, size B (assumed) 324 × 432 mm, 1197 × 1593 px traced (0.271 mm/px)
+- **Ink extent:** 0–324 mm across, 0–432 mm up
+- **Outlines:** line 82 rings, 1,094 straight (5,309 mm) / 102 curved (164 mm); text 500 rings, 2,492 straight (2,637 mm) / 868 curved (1,335 mm); tb 121 rings, 955 straight (4,211 mm) / 181 curved (339 mm)
+- **Closed boxes:** 14 (12 in the title block); named: AUXILIARY tch SWZ: When depressed the ch; AUXILIARY switch Swi When depressed che 
+- **Words (OCR):** 80 in 45 lines: WBS · M479 · AUXILIARY Teve contro R22; · ows adjust Lne · outpul leve · th channe outputs · AUXILIARY · tch SWZ: When depressed the channe · signa · output5 · iMu taneous · itched and pear 5
+- **Title block:** (135, 0)–(324, 318) mm: WBS · M479 · AUXILIARY Teve contro R22; · ows adjust Lne · outpul leve · th channe outputs · Space for channe i dent · fication des i gnation. · AUXILIARY leve | contro · RI: · lows · adjus t che · ou
+
+Every curve, box, word and wire group: [1978 - M479 - 479-04-003 - DUAL AUXILIARY MODULE FRONT PANEL (traced).json](1978%20-%20M479%20-%20479-04-003%20-%20DUAL%20AUXILIARY%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1978 - M479 - 479-04-003 - DUAL AUXILIARY MODULE FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -21,6 +21,18 @@ Wiki page: [Job-940011](../../../PAGES/Job-940011.md)
 - **Size:** 953,710 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 940011-04-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 454
+- **Ink extent:** 19–432 mm across, 10–299 mm up
+- **Outlines:** line 217 rings, 3,029 straight (12,234 mm) / 272 curved (381 mm); text 253 rings, 1,860 straight (2,540 mm) / 534 curved (806 mm); tb 3 rings, 80 straight (207 mm) / 1 curved (0.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (211.3, 122.8)
+- **Closed boxes:** 52 (13 in the title block); named: SCALE
+- **Words (OCR):** 39 in 33 lines: +20v0 · -240 · +20v0 · 14-198 · 14 · CCHIROLLER · 14=240 · CONTROLLER · BUFFER AMPVNER · BACKPLANE · BACKPLANE · BACXPLANE
+- **Title block:** (250, 11)–(420, 80) mm: ISSUE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRN WS · INPUT BUFFER CONTROL · ENG: WS · REAR · CKD_ · SYSTEM · LA YOUT · APP · SCALE DISC NO: 454 · ISSUE · 940011-04-002 · CODE: 94011L02
+
+Every curve, box, word and wire group: [1994 - 940011-04-002 - INPUT BUFFER & CONTROL SYSTEM REAR LAYOUT - DRN WS - ENG WS - ISS 1 (traced).json](1994%20-%20940011-04-002%20-%20INPUT%20BUFFER%20%26%20CONTROL%20SYSTEM%20REAR%20LAYOUT%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940011-04-002 - INPUT BUFFER & CONTROL SYSTEM REAR LAYOUT - DRN WS - ENG WS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

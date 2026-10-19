@@ -11,6 +11,18 @@ Wiki page: [M416](../../../PAGES/M416.md)
 - **Size:** 5,837,680 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 412-02-003, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 17–303 mm up
+- **Outlines:** line 311 rings, 3,143 straight (5,025 mm) / 408 curved (582 mm); text 183 rings, 1,141 straight (1,164 mm) / 247 curved (347 mm)
+- **Centre lines:** 2,631 paths (38 closed); straight 3,804 mm, curved 46.6 mm; horizontal 1,664 mm, vertical 1,134 mm, diagonal 1,006 mm
+- **Circles and arcs:** 0 circles, 12 arcs
+- **Closed boxes:** 17
+- **Wiring (first pass):** 11 connected wire groups from 263 runs
+
+Every curve, box, word and wire group: [1973 - M416 - 412-02-003 - PLACES GIVEN ANGLES (traced).json](1973%20-%20M416%20-%20412-02-003%20-%20PLACES%20GIVEN%20ANGLES%20%28traced%29.json) (the CAD file: `1973 - M416 - 412-02-003 - PLACES GIVEN ANGLES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

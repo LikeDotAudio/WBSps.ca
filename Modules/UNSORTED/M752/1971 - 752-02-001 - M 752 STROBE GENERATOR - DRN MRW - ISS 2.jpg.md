@@ -23,6 +23,21 @@ Wiki page: [M752](../../../PAGES/M752.md)
 - **Size:** 1,388,227 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 752-02-001, size B 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–140 mm up
+- **Outlines:** line 582 rings, 6,406 straight (13,961 mm) / 768 curved (959 mm); text 198 rings, 1,146 straight (1,036 mm) / 361 curved (482 mm); tb 4 rings, 28 straight (33.4 mm) / 5 curved (6.4 mm)
+- **Centre lines:** 7,330 paths (126 closed); straight 8,698 mm, curved 40.7 mm; horizontal 4,522 mm, vertical 2,161 mm, diagonal 2,015 mm
+- **Circles and arcs:** 4 circles, 9 arcs; largest r 1.0 @ (152.7, 93.5), r 0.9 @ (243.4, 113.5), r 0.8 @ (148.2, 119.2), r 0.7 @ (128.5, 119.3)
+- **Closed boxes:** 30; named: 7297 COCNTFP; AB€ D 25 7442; 26 7442; 7422; JULY
+- **Dots (junctions):** 4
+- **Words (OCR):** 36 in 32 lines: {Gk2 · 25 26 · 27 23 · CsT; · cAT` · V3s · 7492 · 7297 · COUNTER · COCNTFP · Ju · 442
+- **Title block:** (372, 19)–(427, 31) mm: Ward · ~BECK  SYSTEMS · 752
+- **Wiring (first pass):** 63 connected wire groups from 715 runs, 4 dotted junctions; labelled ends: 1721 mm → COUNTER, AB€ D, 25, 7442; 281 mm → 7297, COCNTFP; 171 mm → CsT;, cAT`, 25 26, 27 23; 147 mm → 26278, 46; 103 mm → 3021224 Ra
+
+Every curve, box, word and wire group: [1971 - 752-02-001 - M 752 STROBE GENERATOR - DRN MRW - ISS 2 (traced).json](1971%20-%20752-02-001%20-%20M%20752%20STROBE%20GENERATOR%20-%20DRN%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1971 - 752-02-001 - M 752 STROBE GENERATOR - DRN MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

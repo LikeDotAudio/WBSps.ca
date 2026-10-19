@@ -29,23 +29,3 @@ tags: ["module", "ravenna-aes67", "2010s"]
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - 32ME-N - Information Sheet.jpg](../Products/RAVENNA%20AES67/32ME-N/2014%20-%2032ME-N%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/32ME-N/2014%20-%2032ME-N%20-%20Information%20Sheet.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "32ME-N",
- "category": "RAVENNA AES67",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/32ME-N/2014 - 32ME-N - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```

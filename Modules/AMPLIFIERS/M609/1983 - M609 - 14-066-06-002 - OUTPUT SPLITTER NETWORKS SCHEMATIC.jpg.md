@@ -11,6 +11,16 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 373,147 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-066-06-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 3–418 mm up
+- **Outlines:** line 84 rings, 550 straight (626 mm) / 120 curved (120 mm); text 414 rings, 3,984 straight (4,203 mm) / 1,260 curved (1,494 mm); tb 2 rings, 77 straight (149 mm) / 12 curved (10.1 mm)
+- **Words (OCR):** 36 in 25 lines: NOTES: · ALL · RESISTORS ARE · 1/2w 576 . · LAST COMPONENT · DESIGNAT ION RL. · SA1L-O66A usES COMPONENT · LAYOUT · B14-066-06-002 · SA1L-0663 USES · COMPONENT LAYOUT · 814-066-06-003.
+- **Title block:** (199, 54)–(326, 80) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1983 - M609 - 14-066-06-002 - OUTPUT SPLITTER NETWORKS SCHEMATIC (traced).json](1983%20-%20M609%20-%2014-066-06-002%20-%20OUTPUT%20SPLITTER%20NETWORKS%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1983 - M609 - 14-066-06-002 - OUTPUT SPLITTER NETWORKS SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

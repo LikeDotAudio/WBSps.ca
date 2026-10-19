@@ -11,6 +11,18 @@ Wiki page: [M538](../../../PAGES/M538.md)
 - **Size:** 6,354,787 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 538-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 600 rings, 5,549 straight (10,887 mm) / 958 curved (1,190 mm); text 113 rings, 724 straight (690 mm) / 222 curved (284 mm)
+- **Centre lines:** 5,552 paths (109 closed); straight 6,703 mm, curved 52.3 mm; horizontal 3,218 mm, vertical 1,589 mm, diagonal 1,897 mm
+- **Circles and arcs:** 4 circles, 8 arcs; largest r 1.5 @ (373.7, 12.1), r 1.1 @ (373.6, 12.3), r 1.1 @ (384.0, 12.3), r 1.1 @ (381.4, 12.3)
+- **Closed boxes:** 49
+- **Wiring (first pass):** 99 connected wire groups from 554 runs
+
+Every curve, box, word and wire group: [1985 - M538 - B 538-02-002 - 4X2 SWITCHER MODULE - SCHEMATIC (traced).json](1985%20-%20M538%20-%20B%20538-02-002%20-%204X2%20SWITCHER%20MODULE%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M538 - B 538-02-002 - 4X2 SWITCHER MODULE - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 9,435,970 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 790236-02-003, size B 432 × 148 mm, 2000 × 685 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 1–146 mm up
+- **Outlines:** line 538 rings, 6,208 straight (10,252 mm) / 1,070 curved (1,289 mm); text 483 rings, 3,188 straight (2,620 mm) / 884 curved (1,022 mm); tb 8 rings, 82 straight (141 mm) / 9 curved (10.5 mm)
+- **Centre lines:** 11,688 paths (156 closed); straight 8,693 mm, curved 85.2 mm; horizontal 3,536 mm, vertical 2,040 mm, diagonal 3,118 mm
+- **Circles and arcs:** 0 circles, 27 arcs
+- **Closed boxes:** 23 (19 in the title block); named: M498 aXLSALECTAB MopULE
+- **Dots (junctions):** 1
+- **Words (OCR):** 116 in 96 lines: Ext MoN INPUTS · tedem Gcdl · TB4 198) 2223 (29) · 787*136,137(038) _ · TBA-133,137035/4 · M498 · 55 · aXLSALECTAB · MopULE · 145 · AUX · FRom
+- **Title block:** (289, 4)–(411, 30) mm: COUTROL · ISS HOp CKD · USED ON · MATL_ · WBS WAAD-BECK bybteMB LTD · DRN · Srh · L32+2A CONEOLE · FimISH · DATE Aue 79 · CKD · MONITOR CHANNELS · SCALE · SCHEMATIC · TOLS · 790236-02 003
+- **Wiring (first pass):** 122 connected wire groups from 654 runs; labelled ends: 288 mm → aXLSALECTAB, AUX, Aux 2, AUY3; 98 mm → OM, ~Gby, 4254, +24v; 65 mm → M475, 145; 53 mm → M475; 49 mm → 198), 2223 (29), 787*136,137(038) _, TBA-133,137035/4
+
+Every curve, box, word and wire group: [1979 - 790236-02-003 - L3242A CONSOLE MONITOR CHANNELS SCHEMATIC - DRN SRH - ISS 1 (traced).json](1979%20-%20790236-02-003%20-%20L3242A%20CONSOLE%20MONITOR%20CHANNELS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-02-003 - L3242A CONSOLE MONITOR CHANNELS SCHEMATIC - DRN SRH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

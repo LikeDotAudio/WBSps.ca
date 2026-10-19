@@ -11,6 +11,16 @@ Wiki page: [M457A](../../../PAGES/M457A.md)
 - **Size:** 272,531 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 457-04-004, size B (assumed) 432 × 336 mm, 2000 × 1557 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–429 mm across, 1–336 mm up
+- **Outlines:** line 196 rings, 4,037 straight (11,063 mm) / 438 curved (723 mm); text 422 rings, 3,966 straight (5,408 mm) / 890 curved (1,486 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.4 @ (29.5, 75.3)
+- **Closed boxes:** 85
+
+Every curve, box, word and wire group: [1975 - M457A - 457-04-004 - PRE-MIXER MASTER MODULE CONNECTOR REAR VIEW CALE (traced).json](1975%20-%20M457A%20-%20457-04-004%20-%20PRE-MIXER%20MASTER%20MODULE%20CONNECTOR%20REAR%20VIEW%20CALE%20%28traced%29.json) (the CAD file: `1975 - M457A - 457-04-004 - PRE-MIXER MASTER MODULE CONNECTOR REAR VIEW CALE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

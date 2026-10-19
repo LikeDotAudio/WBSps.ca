@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 15,845,544 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950190-04-001, size B (assumed) 432 × 336 mm, 2000 × 1555 px traced (0.216 mm/px); scale DISC SYSO1
+- **Ink extent:** 38–432 mm across, 10–334 mm up
+- **Outlines:** line 2,199 rings, 15,714 straight (40,037 mm) / 2,692 curved (3,255 mm); text 628 rings, 3,848 straight (3,967 mm) / 1,334 curved (1,770 mm); tb 19 rings, 300 straight (1,833 mm) / 12 curved (17.0 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 6.4 @ (364.8, 118.0), r 6.4 @ (364.9, 143.3), r 1.9 @ (367.0, 145.6), r 1.9 @ (366.9, 120.4)
+- **Closed boxes:** 330; named: M908; M90g; M907; M907; MIOIB WeRiaes CH ON; MGO1B CH ON; M9O1B 18; M9O1C; M9O1C RafDS; M9O1C PRE PS; M9O1C IKFUTURE) (FUTURE) ((FUTURE) (FUTU; M9O1C
+- **Dots (junctions):** 23
+- **Words (OCR):** 92 in 59 lines: METER · CH · CH 2 CH 3 CH · CH · CH 9 CH 10 · CH · CH 13 · CH 14 · CH 15 CH 16 · CR MON STD MON · CH · CH 7
+- **Title block:** (292, 22)–(426, 77) mm: ISSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: · SM · CKRA-FM · ENG · SM · RENAISSANCE MKII · CKD_ · APP · CONSOLE MODULE LAYOUT · SCALE DISC SYSO1 · ISSUE · CODE: 95190L01 · NO: · 950190-04-
+
+Every curve, box, word and wire group: [1995 - M907 - DOC - 950190-04-001 - NOIE FUTURE MODULES ARE WIRED BUT NOT SUPPLIED (traced).json](1995%20-%20M907%20-%20DOC%20-%20950190-04-001%20-%20NOIE%20FUTURE%20MODULES%20ARE%20WIRED%20BUT%20NOT%20SUPPLIED%20%28traced%29.json) (the CAD file: `1995 - M907 - DOC - 950190-04-001 - NOIE FUTURE MODULES ARE WIRED BUT NOT SUPPLIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

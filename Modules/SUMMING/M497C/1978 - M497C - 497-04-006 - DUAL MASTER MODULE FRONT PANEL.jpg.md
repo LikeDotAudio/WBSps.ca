@@ -11,6 +11,16 @@ Wiki page: [M497C](../../../PAGES/M497C.md)
 - **Size:** 252,394 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 497-04-006, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–302 mm across, 20–427 mm up
+- **Outlines:** line 31 rings, 484 straight (1,412 mm) / 48 curved (67.1 mm); text 316 rings, 1,981 straight (2,119 mm) / 747 curved (1,067 mm); tb 66 rings, 1,122 straight (3,027 mm) / 109 curved (172 mm)
+- **Words (OCR):** 36 in 32 lines: WBS · M497C · RIGHT CHANNEL · level   control R44: · Determinos · output · evei · Right · Channoi  outputs_ · Space · for · channal   identification
+- **Title block:** (128, 48)–(309, 324) mm: WBS · M497C · RIGHT CHANNEL · level   control R44: · Determinos · output · evei · Right · Channoi  outputs_ · LEFT CHANNEL leval · control · R42: · Determines output level · Left Channel · outputs_ · 
+
+Every curve, box, word and wire group: [1978 - M497C - 497-04-006 - DUAL MASTER MODULE FRONT PANEL (traced).json](1978%20-%20M497C%20-%20497-04-006%20-%20DUAL%20MASTER%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-04-006 - DUAL MASTER MODULE FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

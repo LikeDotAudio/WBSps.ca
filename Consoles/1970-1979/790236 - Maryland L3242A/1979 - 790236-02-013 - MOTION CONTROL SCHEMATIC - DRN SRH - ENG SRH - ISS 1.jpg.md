@@ -22,6 +22,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,225,961 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 790236-02-013, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–287 mm up
+- **Outlines:** line 500 rings, 7,462 straight (8,304 mm) / 1,160 curved (1,368 mm); text 195 rings, 1,297 straight (1,447 mm) / 355 curved (482 mm); tb 26 rings, 280 straight (317 mm) / 49 curved (53.5 mm)
+- **Centre lines:** 17,746 paths (87 closed); straight 8,760 mm, curved 187 mm; horizontal 2,607 mm, vertical 2,524 mm, diagonal 3,628 mm
+- **Circles and arcs:** 12 circles, 21 arcs; largest r 1.4 @ (54.9, 191.0), r 1.4 @ (71.3, 191.0), r 1.3 @ (77.7, 191.0), r 1.3 @ (18.4, 233.0)
+- **Closed boxes:** 15 (10 in the title block); named: SCALE; 790236-02- 013; ISSUE
+- **Words (OCR):** 26 in 19 lines: ARE · HOHENTARY · SwITCHES · ARE PENDA? 3).F+ · 056 I50 · ISSUE |DATE · REVISION · APP · WBS WARD-BECK systeMS · DRN · ENG Srh · MOTION CONTPOL
+- **Title block:** (154, 6)–(307, 74) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK systeMS · DRN · ENG Srh · MOTION CONTPOL · SCHEMAT IC · CKD · Rc: · APP · SCALE · ISSUE · 790236-02- 013
+- **Wiring (first pass):** 36 connected wire groups from 215 runs; labelled ends: 363 mm → APP; 26 mm → 056 I50; 10 mm → 056 I50
+
+Every curve, box, word and wire group: [1979 - 790236-02-013 - MOTION CONTROL SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).json](1979%20-%20790236-02-013%20-%20MOTION%20CONTROL%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-02-013 - MOTION CONTROL SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

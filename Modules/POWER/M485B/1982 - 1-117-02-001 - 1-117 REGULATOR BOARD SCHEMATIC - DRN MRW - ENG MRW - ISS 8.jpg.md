@@ -24,6 +24,20 @@ Wiki page: [M485B](../../../PAGES/M485B.md)
 - **Size:** 757,173 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1-117-02-001, size B 432 × 140 mm, 2000 × 646 px traced (0.216 mm/px)
+- **Ink extent:** 14–432 mm across, 0–136 mm up
+- **Outlines:** line 821 rings, 6,774 straight (10,926 mm) / 1,695 curved (2,072 mm); text 227 rings, 1,246 straight (1,083 mm) / 419 curved (509 mm); tb 16 rings, 119 straight (158 mm) / 27 curved (30.8 mm)
+- **Centre lines:** 7,886 paths (236 closed); straight 7,382 mm, curved 298 mm; horizontal 2,526 mm, vertical 1,877 mm, diagonal 2,980 mm
+- **Circles and arcs:** 15 circles, 50 arcs; largest r 6.5 @ (126.5, 54.4), r 6.4 @ (87.5, 86.0), r 3.3 @ (159.4, 21.5), r 3.3 @ (343.3, 86.3)
+- **Closed boxes:** 17 (2 in the title block)
+- **Words (OCR):** 38 in 32 lines: Kote? · 20315 Tors · SQ105 · ALL Capacitors IN~F UnLESS · RES. BASE · Limit · specified Otherwise · 612 60,09,re0 · L4s7 · 2eoi · Co< · 14305
+- **Title block:** (358, 19)–(432, 34) mm: ISSUL DATE · WBS WARD-BECK systems
+- **Wiring (first pass):** 52 connected wire groups from 518 runs; labelled ends: 429 mm → 27/63, RZ5, C33, 100/40; 416 mm → Co<, 27/63; 100 mm → Iok; 90 mm → Co<, 14305; 83 mm → VADJ
+
+Every curve, box, word and wire group: [1982 - 1-117-02-001 - 1-117 REGULATOR BOARD SCHEMATIC - DRN MRW - ENG MRW - ISS 8 (traced).json](1982%20-%201-117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%208%20%28traced%29.json) (the CAD file: `1982 - 1-117-02-001 - 1-117 REGULATOR BOARD SCHEMATIC - DRN MRW - ENG MRW - ISS 8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

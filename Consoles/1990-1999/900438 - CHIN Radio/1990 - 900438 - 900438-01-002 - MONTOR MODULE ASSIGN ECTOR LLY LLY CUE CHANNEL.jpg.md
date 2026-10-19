@@ -10,6 +10,20 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,554,107 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 900438-01-002, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–305 mm across, 2–432 mm up
+- **Outlines:** line 171 rings, 2,148 straight (5,258 mm) / 321 curved (490 mm); text 240 rings, 1,937 straight (2,400 mm) / 538 curved (762 mm)
+- **Centre lines:** 3,427 paths (57 closed); straight 3,512 mm, curved 73.8 mm; horizontal 1,348 mm, vertical 805 mm, diagonal 1,359 mm
+- **Circles and arcs:** 9 circles, 1 arcs; largest r 1.4 @ (237.3, 101.0), r 1.3 @ (150.9, 111.3), r 1.3 @ (150.7, 281.5), r 1.3 @ (150.9, 201.5)
+- **Closed boxes:** 6; named: M495 MONITOR MODULE; M495 MONTOR MODULE; M495 MONITOR MODULE; M453A CUE AMPLIEIER; M451 IALKBACK MODULE; 8-103 TRANSFER CONTROL
+- **Dots (junctions):** 1
+- **Words (OCR):** 60 in 49 lines: MONTORING · YON · MUTE · M495 MONITOR MODULE · OFF · ASSIGN · ROL · RESET · ECTOR · LLY · LLY · MUTE
+- **Wiring (first pass):** 57 connected wire groups from 100 runs, 1 dotted junctions; labelled ends: 112 mm → ONTROL, FEET; 41 mm → CONSOLE, MLD, POWER; 22 mm → MLD; 18 mm → ASSIGN, CONTROL; 18 mm → CONTROL, L2
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-01-002 - MONTOR MODULE ASSIGN ECTOR LLY LLY CUE CHANNEL (traced).json](1990%20-%20900438%20-%20900438-01-002%20-%20MONTOR%20MODULE%20ASSIGN%20ECTOR%20LLY%20LLY%20CUE%20CHANNEL%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-01-002 - MONTOR MODULE ASSIGN ECTOR LLY LLY CUE CHANNEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

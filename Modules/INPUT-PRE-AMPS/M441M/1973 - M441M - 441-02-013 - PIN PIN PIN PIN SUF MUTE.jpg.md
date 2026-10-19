@@ -11,6 +11,20 @@ Wiki page: [M441M](../../../PAGES/M441M.md)
 - **Size:** 10,726,203 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 441-02-013, size B (assumed) 432 × 111 mm, 2000 × 515 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 0–93 mm up
+- **Outlines:** line 836 rings, 7,357 straight (9,081 mm) / 1,498 curved (1,676 mm); text 66 rings, 326 straight (234 mm) / 93 curved (99.8 mm)
+- **Centre lines:** 8,039 paths (307 closed); straight 5,875 mm, curved 66.2 mm; horizontal 2,338 mm, vertical 1,344 mm, diagonal 2,192 mm
+- **Circles and arcs:** 1 circles, 20 arcs; largest r 0.7 @ (256.1, 4.6)
+- **Closed boxes:** 6
+- **Dots (junctions):** 2
+- **Words (OCR):** 8 in 7 lines: 26 · 60-5 · F2 % · PC R4 · 93 25" · R3' · HOTEB
+- **Wiring (first pass):** 75 connected wire groups from 521 runs, 1 dotted junctions; labelled ends: 55 mm → R3'; 40 mm → R3'; 22 mm → 26; 16 mm → 93, 25"; 12 mm → 26
+
+Every curve, box, word and wire group: [1973 - M441M - 441-02-013 - PIN PIN PIN PIN SUF MUTE (traced).json](1973%20-%20M441M%20-%20441-02-013%20-%20PIN%20PIN%20PIN%20PIN%20SUF%20MUTE%20%28traced%29.json) (the CAD file: `1973 - M441M - 441-02-013 - PIN PIN PIN PIN SUF MUTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

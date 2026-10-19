@@ -18,6 +18,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1973** (labelled): `DATE 20 April 73` — …CK PLEXIGLASs Type P 95 WBS WARD-BECK SYSTEMS LTD DRN; DP $ DATE 20 April 73 CKD_ SCALE XX 0l,0 TOLS _ Aa 00s L0 FIMISH M416 SEE NOTEs E…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 16-03-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–299 mm up
+- **Outlines:** line 252 rings, 3,722 straight (10,024 mm) / 484 curved (755 mm); text 865 rings, 5,931 straight (6,776 mm) / 1,903 curved (2,838 mm); tb 56 rings, 360 straight (450 mm) / 46 curved (52.7 mm)
+- **Centre lines:** 10,585 paths (131 closed); straight 11,327 mm, curved 121 mm; horizontal 4,205 mm, vertical 2,464 mm, diagonal 4,658 mm
+- **Circles and arcs:** 6 circles, 12 arcs; largest r 11.5 @ (130.5, 155.6), r 5.6 @ (130.3, 155.9), r 1.6 @ (316.8, 135.6), r 1.6 @ (15.8, 163.4)
+- **Closed boxes:** 31 (28 in the title block); named: 23; WBS BYSTEMS WARD-BECK LTD:; M416 ESCUTCHEON
+- **Words (OCR):** 120 in 64 lines: 6.625 · 250 · 187 · 2 . 88 · I.06 · HOLE 4-40 UNC X * (5 DEEP · FRom BehinD · 81 · 69 · 2 HoLes "128 DIA C'SK.AT 82 To . 23 DIA · notes · 23
+- **Title block:** (136, 6)–(372, 58) mm: Iss MOD  ICKD_ · USED ON · MATL _ · B 416-03-003 24 Thick BLACK · WBS WARD-BECK · PLEXIGLASS · Type P 9s · DRN: D.P s · FINISH · DATE 20 April 73 · M416 · CKD_ · ESCUTCHEON · SEE NOTEs SCALE · TOLS · 
+
+Every curve, box, word and wire group: [1973 - M416 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE (traced).json](1973%20-%20M416%20-%20DOC%20-%2016-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE%20%28traced%29.json) (the CAD file: `1973 - M416 - DOC - 16-03-003 - THICK BLACK PLEXIGLASS TYPE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

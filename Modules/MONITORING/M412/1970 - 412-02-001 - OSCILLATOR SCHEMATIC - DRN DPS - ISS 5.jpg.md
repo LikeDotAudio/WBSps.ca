@@ -23,6 +23,19 @@ Wiki page: [M412](../../../PAGES/M412.md)
 - **Size:** 9,460,892 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 412-02-001, size B 132 × 432 mm, 611 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–132 mm across, 0–429 mm up
+- **Outlines:** line 1,878 rings, 13,420 straight (15,926 mm) / 2,568 curved (2,974 mm); text 88 rings, 459 straight (349 mm) / 113 curved (131 mm)
+- **Centre lines:** 9,990 paths (304 closed); straight 8,768 mm, curved 125 mm; horizontal 2,375 mm, vertical 3,304 mm, diagonal 3,088 mm
+- **Circles and arcs:** 4 circles, 36 arcs; largest r 1.3 @ (16.6, 12.9), r 0.9 @ (61.0, 373.2), r 0.8 @ (85.1, 391.6), r 0.8 @ (85.2, 385.7)
+- **Closed boxes:** 15
+- **Dots (junctions):** 6
+- **Wiring (first pass):** 152 connected wire groups from 944 runs, 6 dotted junctions
+
+Every curve, box, word and wire group: [1970 - 412-02-001 - OSCILLATOR SCHEMATIC - DRN DPS - ISS 5 (traced).json](1970%20-%20412-02-001%20-%20OSCILLATOR%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1970 - 412-02-001 - OSCILLATOR SCHEMATIC - DRN DPS - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

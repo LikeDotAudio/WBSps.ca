@@ -26,6 +26,19 @@ Wiki page: [M412](../../../PAGES/M412.md)
 
 - **1972** (month): `FEB.72` — …Tinisr 325 Grit 4 VapOur Da# D P 5 BLAST Top surFACE DTE 23-FEB.72 MATERIAL 25 Thk BLAc k ChD PLexiGLAs s (scalE I = WARD BECK…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 412-03-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 302 rings, 5,934 straight (10,236 mm) / 873 curved (1,411 mm); text 443 rings, 3,201 straight (3,454 mm) / 994 curved (1,501 mm); tb 48 rings, 597 straight (560 mm) / 110 curved (140 mm)
+- **Centre lines:** 8,917 paths (109 closed); straight 9,141 mm, curved 398 mm; horizontal 3,762 mm, vertical 2,141 mm, diagonal 3,237 mm
+- **Circles and arcs:** 7 circles, 26 arcs; largest r 11.5 @ (103.1, 159.7), r 11.4 @ (146.0, 160.1), r 6.6 @ (218.0, 170.7), r 6.5 @ (218.1, 149.7)
+- **Closed boxes:** 2 (1 in the title block)
+- **Words (OCR):** 61 in 46 lines: 6.225 · 2.250 · '187 · 5.(88 · 3.562 · 70 · 312 · 40 · NOTES · Holes · 8 - 32 UNC ThD; c'SK-82" To.250 Dia · opposite SIDE
+- **Title block:** (258, 4)–(410, 63) mm: LeS WaRO · BECK · SYSTEMS · D P.s · ESCUTCHEON · 23-FEB.72 · DATE · (m412 A ) · 41 2 - 03- 003 · scalE
+
+Every curve, box, word and wire group: [1972 - 412-03-003 - ESCUTCHEON (M412 A) - DRN DPS - ISS 3 (traced).json](1972%20-%20412-03-003%20-%20ESCUTCHEON%20%28M412%20A%29%20-%20DRN%20DPS%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1972 - 412-03-003 - ESCUTCHEON (M412 A) - DRN DPS - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -24,6 +24,19 @@ Wiki page: [M745](../../../PAGES/M745.md)
 - **Size:** 1,400,155 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 745-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 278 rings, 4,486 straight (10,572 mm) / 431 curved (660 mm); text 352 rings, 2,478 straight (2,978 mm) / 734 curved (1,072 mm); tb 9 rings, 103 straight (214 mm) / 5 curved (7.2 mm)
+- **Centre lines:** 5,966 paths (69 closed); straight 8,177 mm, curved 129 mm; horizontal 3,316 mm, vertical 2,520 mm, diagonal 2,341 mm
+- **Circles and arcs:** 7 circles, 2 arcs; largest r 9.4 @ (145.4, 192.1), r 3.3 @ (213.3, 195.6), r 3.2 @ (201.8, 195.2), r 3.2 @ (207.7, 177.9)
+- **Closed boxes:** 8 (7 in the title block)
+- **Words (OCR):** 47 in 45 lines: NOTES · I.REMOVE · ALL BURRS · SHARP · 430 · EDGES · '136 DIA · 75DIA · 23 DIa · 215 · MATERIAL · 125 AL ALLOY
+- **Title block:** (280, 12)–(432, 81) mm: REVISION · APP · ISSUE |DATE · WBS · WARD-BECK SYSTEMS · MW · DRN. · ENG.MRN 10/77 · M745A4B · cKo.RL · HEAT Sink DETAIL · APP · ISSUE · FULl · SCALE · 745-03-001
+
+Every curve, box, word and wire group: [1977 - 745-03-001 - A&B HEATSINK DETAIL - DRN MRW - ENG MRW - ISS 1 (traced).json](1977%20-%20745-03-001%20-%20A%26B%20HEATSINK%20DETAIL%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 745-03-001 - A&B HEATSINK DETAIL - DRN MRW - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

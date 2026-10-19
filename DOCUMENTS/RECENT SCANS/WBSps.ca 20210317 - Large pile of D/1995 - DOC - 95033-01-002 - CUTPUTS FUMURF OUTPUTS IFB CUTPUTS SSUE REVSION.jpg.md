@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,378,512 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 95033-01-002, size B (assumed) 432 × 304 mm, 2000 × 1410 px traced (0.216 mm/px); scale Idisc NDi Stsdi
+- **Ink extent:** 0–421 mm across, 15–304 mm up
+- **Outlines:** line 3,110 rings, 23,507 straight (28,276 mm) / 5,087 curved (9,097 mm); text 167 rings, 1,013 straight (1,029 mm) / 301 curved (391 mm); tb 49 rings, 295 straight (310 mm) / 70 curved (85.3 mm)
+- **Centre lines:** 34,745 paths (155 closed); straight 25,734 mm, curved 61.3 mm; horizontal 10,026 mm, vertical 10,026 mm, diagonal 5,682 mm
+- **Circles and arcs:** 1030 circles, 24 arcs; largest r 1.8 @ (141.1, 202.8), r 1.8 @ (151.2, 202.8), r 1.8 @ (110.6, 223.4), r 1.8 @ (171.3, 135.1)
+- **Closed boxes:** 149 (10 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 17 in 14 lines: 20 · UATRIX · AMPUFIER · NOTES · UODULES ARE Kot PRCMDEC · CR OcBri · WBS · WARD-BECK SYSTEMS · CBC VANCOUVER · STUDIO · INTERCOM  FUNCTIONAL · SCALE Idisc NDi Stsdi
+- **Title block:** (333, 12)–(426, 49) mm: WBS · WARD-BECK SYSTEMS · CBC VANCOUVER · STUDIO · INTERCOM  FUNCTIONAL · SCALE Idisc NDi Stsdi · CCDE_ 95053702 · 95033-01-002
+- **Wiring (first pass):** 158 connected wire groups from 5,783 runs; labelled ends: 107 mm → 20; 39 mm → 20; 12 mm → 20; 9 mm → 20; 6 mm → 20
+
+Every curve, box, word and wire group: [1995 - DOC - 95033-01-002 - CUTPUTS FUMURF OUTPUTS IFB CUTPUTS SSUE REVSION (traced).json](1995%20-%20DOC%20-%2095033-01-002%20-%20CUTPUTS%20FUMURF%20OUTPUTS%20IFB%20CUTPUTS%20SSUE%20REVSION%20%28traced%29.json) (the CAD file: `1995 - DOC - 95033-01-002 - CUTPUTS FUMURF OUTPUTS IFB CUTPUTS SSUE REVSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

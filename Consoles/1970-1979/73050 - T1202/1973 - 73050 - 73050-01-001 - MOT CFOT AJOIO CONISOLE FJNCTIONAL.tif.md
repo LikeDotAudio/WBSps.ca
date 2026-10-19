@@ -10,6 +10,20 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 10,266,592 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 73050-01-001, size B (assumed) 432 × 264 mm, 2000 × 1221 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–264 mm up
+- **Outlines:** line 1,735 rings, 20,006 straight (22,200 mm) / 3,502 curved (3,954 mm); text 1,265 rings, 8,274 straight (6,731 mm) / 2,806 curved (3,321 mm)
+- **Centre lines:** 37,829 paths (394 closed); straight 21,792 mm, curved 153 mm; horizontal 6,336 mm, vertical 4,978 mm, diagonal 10,478 mm
+- **Circles and arcs:** 0 circles, 52 arcs
+- **Closed boxes:** 30; named: CONISOLE AJdio FUNCTIONAL
+- **Dots (junctions):** 1
+- **Words (OCR):** 314 in 262 lines: VU · M166 _ · [SENS Sw · Ch 12 2 OrLy · RELAY · (-15) · (-Is) ) · dBm · 44 · dBm · 782 · Low LEVEL:
+- **Wiring (first pass):** 188 connected wire groups from 1,174 runs; labelled ends: 180 mm → M166 _; 134 mm → 0i24; 116 mm → dBm, LINE KET, LINe KEY 2; 111 mm → Mooickol, Zle; 106 mm → (-Is) ), PRE, OFF, ZOaBm,
+
+Every curve, box, word and wire group: [1973 - 73050 - 73050-01-001 - MOT CFOT AJOIO CONISOLE FJNCTIONAL (traced).json](1973%20-%2073050%20-%2073050-01-001%20-%20MOT%20CFOT%20AJOIO%20CONISOLE%20FJNCTIONAL%20%28traced%29.json) (the CAD file: `1973 - 73050 - 73050-01-001 - MOT CFOT AJOIO CONISOLE FJNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

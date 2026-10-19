@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,218,466 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-015, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 276 rings, 2,902 straight (6,848 mm) / 524 curved (820 mm); text 190 rings, 1,351 straight (1,626 mm) / 466 curved (690 mm)
+- **Centre lines:** 2,662 paths (57 closed); straight 4,676 mm, curved 309 mm; horizontal 1,867 mm, vertical 1,418 mm, diagonal 1,390 mm
+- **Circles and arcs:** 26 circles, 27 arcs; largest r 1.7 @ (373.4, 79.5), r 1.5 @ (403.6, 82.1), r 1.5 @ (373.4, 82.1), r 1.5 @ (356.9, 37.0)
+- **Closed boxes:** 18
+- **Wiring (first pass):** 32 connected wire groups from 323 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-015 - TIMER AND CLOCK SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-015%20-%20TIMER%20AND%20CLOCK%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-015 - TIMER AND CLOCK SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

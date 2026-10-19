@@ -23,6 +23,19 @@ Mechanical drawing of tub rib, divider and fish paper parts.
 - **Size:** 629,304 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-009, size D 864 × 575 mm, 2000 × 1332 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–570 mm up
+- **Outlines:** line 349 rings, 3,388 straight (18,934 mm) / 415 curved (1,022 mm); text 464 rings, 2,625 straight (5,167 mm) / 866 curved (2,248 mm); tb 24 rings, 185 straight (397 mm) / 45 curved (104 mm)
+- **Centre lines:** 5,158 paths (158 closed); straight 14,181 mm, curved 30.8 mm; horizontal 5,606 mm, vertical 4,378 mm, diagonal 4,197 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 2.5 @ (778.4, 30.5)
+- **Closed boxes:** 14 (2 in the title block)
+- **Words (OCR):** 56 in 46 lines: 15JZ0 · 900-03 009_ · FISH PAPER · 900-03-009 - · DIVIDER · 900-03-009- · MATERIAL: · ALUM · ALLOY 0.064 · ThICK · IREQQA · FINISH: TEXTURED BEIGE (452C)
+- **Title block:** (710, 55)–(864, 92) mm: 7 /94AC0ED · WARD-BECK SYSTEMS · WBS · MK SERIES
+
+Every curve, box, word and wire group: [1994 - 900-03-009 - MK SERIES TUB RIB, DIVIDER & FISH PAPER - DRN DRG (traced).json](1994%20-%20900-03-009%20-%20MK%20SERIES%20TUB%20RIB%2C%20DIVIDER%20%26%20FISH%20PAPER%20-%20DRN%20DRG%20%28traced%29.json) (the CAD file: `1994 - 900-03-009 - MK SERIES TUB RIB, DIVIDER & FISH PAPER - DRN DRG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

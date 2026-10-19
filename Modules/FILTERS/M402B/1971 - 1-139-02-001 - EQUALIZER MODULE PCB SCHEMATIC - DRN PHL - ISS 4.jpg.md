@@ -24,6 +24,20 @@ Hand-drawn schematic of the M402B equalizer module PCB, with input transformer, 
 - **Size:** 6,950,669 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1-139-02-001, size B 128 × 432 mm, 595 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–128 mm across, 6–432 mm up
+- **Outlines:** line 1,984 rings, 14,304 straight (18,430 mm) / 2,243 curved (2,646 mm); text 138 rings, 757 straight (588 mm) / 189 curved (210 mm)
+- **Centre lines:** 9,616 paths (154 closed); straight 9,427 mm, curved 63.3 mm; horizontal 3,221 mm, vertical 3,287 mm, diagonal 2,919 mm
+- **Circles and arcs:** 1 circles, 25 arcs; largest r 0.8 @ (45.6, 184.7)
+- **Closed boxes:** 10
+- **Dots (junctions):** 6
+- **Words (OCR):** 7 in 7 lines: 78" · 32 · 2838 · 8.838 · 83 · 89 · 89
+- **Wiring (first pass):** 189 connected wire groups from 1,070 runs; labelled ends: 46 mm → 32; 24 mm → 2838, 32, 8.838; 20 mm → 83, 8.838; 19 mm → 89; 18 mm → 89
+
+Every curve, box, word and wire group: [1971 - 1-139-02-001 - EQUALIZER MODULE PCB SCHEMATIC - DRN PHL - ISS 4 (traced).json](1971%20-%201-139-02-001%20-%20EQUALIZER%20MODULE%20PCB%20SCHEMATIC%20-%20DRN%20PHL%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1971 - 1-139-02-001 - EQUALIZER MODULE PCB SCHEMATIC - DRN PHL - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

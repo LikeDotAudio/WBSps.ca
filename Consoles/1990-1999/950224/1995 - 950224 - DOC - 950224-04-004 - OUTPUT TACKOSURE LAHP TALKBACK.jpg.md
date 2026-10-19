@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,737,695 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950224-04-004, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 14–432 mm across, 0–299 mm up
+- **Outlines:** line 1,374 rings, 10,279 straight (21,236 mm) / 1,270 curved (1,738 mm); text 228 rings, 1,714 straight (2,391 mm) / 507 curved (780 mm); tb 3 rings, 75 straight (204 mm) / 2 curved (3.6 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 2.1 @ (155.6, 105.5), r 1.6 @ (101.6, 147.2), r 1.6 @ (206.6, 131.2), r 1.6 @ (101.2, 124.7)
+- **Closed boxes:** 20 (8 in the title block); named: OuIPUT ouTPUT OUTpu OUIPUT; OuIPUT ouTPUT OUTpu OUIPUT; 950224-04-004; ISSUE
+- **Words (OCR):** 33 in 24 lines: EBQHLMEX · (132 mm) · 220 · OuIPUT · ouTPUT · OUTpu · OUIPUT · SSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS
+- **Title block:** (248, 13)–(419, 81) mm: SSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN; DRG · FANSHAWE COLLEGE · ENG. · SM · INTERCOM INTERFACE · CKD: · APP · LAYOUT · SCALE DISC NO: SYSO1 · ISSUE · 1:2 CODE: 95224L04 · 950224-0
+
+Every curve, box, word and wire group: [1995 - 950224 - DOC - 950224-04-004 - OUTPUT TACKOSURE LAHP TALKBACK (traced).json](1995%20-%20950224%20-%20DOC%20-%20950224-04-004%20-%20OUTPUT%20TACKOSURE%20LAHP%20TALKBACK%20%28traced%29.json) (the CAD file: `1995 - 950224 - DOC - 950224-04-004 - OUTPUT TACKOSURE LAHP TALKBACK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

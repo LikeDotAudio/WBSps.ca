@@ -23,6 +23,19 @@ Wiki page: [M101](../../../PAGES/M101.md)
 - **Size:** 498,343 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 101-03-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale [:T
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 464 rings, 4,514 straight (11,116 mm) / 661 curved (1,064 mm); text 431 rings, 2,979 straight (3,694 mm) / 851 curved (1,352 mm); tb 90 rings, 612 straight (835 mm) / 135 curved (188 mm)
+- **Centre lines:** 5,382 paths (70 closed); straight 9,048 mm, curved 227 mm; horizontal 4,840 mm, vertical 1,432 mm, diagonal 2,776 mm
+- **Circles and arcs:** 5 circles, 16 arcs; largest r 9.8 @ (176.5, 192.8), r 9.8 @ (97.9, 192.7), r 1.6 @ (52.1, 222.7), r 1.6 @ (48.4, 222.8)
+- **Closed boxes:** 11 (9 in the title block); named: 003 I01 03
+- **Words (OCR):** 56 in 41 lines: 10-500 · L:50 · PItchEs AT 5*00 · 76*00 · 615 · 230 · 456 DIA: · c'Bore · 750 DIA · I81 DIA . Ioo DEEP · PAcEs · To
+- **Title block:** (168, 17)–(432, 139) mm: MATY: WBS · ExtCusion 599'5 · FNish ALopule · 49 · (ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN. Valce · ENG- · MobuLar FZZAME Guibe · APP · SCALE [:T · ISSUE · I01 03 · 003 · Hexe
+
+Every curve, box, word and wire group: [1979 - 101-03-003 - MODULAR FRAME GUIDE - DRN VINCE - ISS 4 (traced).json](1979%20-%20101-03-003%20-%20MODULAR%20FRAME%20GUIDE%20-%20DRN%20VINCE%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1979 - 101-03-003 - MODULAR FRAME GUIDE - DRN VINCE - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

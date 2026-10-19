@@ -11,6 +11,17 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 146,570 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 066-06-001, size B (assumed) 339 × 432 mm, 850 × 1084 px traced (0.398 mm/px)
+- **Ink extent:** 0–333 mm across, 8–432 mm up
+- **Outlines:** line 67 rings, 393 straight (676 mm) / 95 curved (158 mm); text 102 rings, 620 straight (1,056 mm) / 195 curved (405 mm); tb 2 rings, 32 straight (144 mm) / 6 curved (11.5 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 6 in 5 lines: WBS WARD-BECK BySTEMB · SA14-066 · output SpLitter Network · COMPONENT LAYOUT · B14-066-06-001
+- **Title block:** (214, 42)–(339, 66) mm: WBS WARD-BECK BySTEMB
+
+Every curve, box, word and wire group: [1983 - M612A - 066-06-001 - OUTPUT SPLITTER NETWORK COMPONENT LAYOUT (traced).json](1983%20-%20M612A%20-%20066-06-001%20-%20OUTPUT%20SPLITTER%20NETWORK%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1983 - M612A - 066-06-001 - OUTPUT SPLITTER NETWORK COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

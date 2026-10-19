@@ -21,6 +21,19 @@ Wiki page: [Job-950069](../../../PAGES/Job-950069.md)
 - **Size:** 524,358 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950069-03-005, size D 864 × 569 mm, 2000 × 1317 px traced (0.432 mm/px)
+- **Ink extent:** 82–859 mm across, 20–504 mm up
+- **Outlines:** line 977 rings, 6,688 straight (32,599 mm) / 1,365 curved (3,196 mm); text 277 rings, 1,657 straight (2,840 mm) / 542 curved (1,317 mm); tb 28 rings, 202 straight (460 mm) / 46 curved (101 mm)
+- **Centre lines:** 8,903 paths (248 closed); straight 20,952 mm, curved 37.1 mm; horizontal 10,233 mm, vertical 5,106 mm, diagonal 5,613 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 88 (5 in the title block); named: CONTROL PANEL MACHINE; CCALC; 950069_03-005; CCDE: 95060405
+- **Words (OCR):** 47 in 39 lines: 0.172 Dupew Mill DCBD DEEP OIHER M0C · INSFRT · 440_| · PLACES · D-J0 · 0TJo · 2 Coc · REC D · 2100 · PUNCH · REO D · 5250
+- **Title block:** (698, 52)–(864, 85) mm: WARD-BECK SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1995 - 950069-03-005 - MACHINE CONTROL PANEL - DRN DRG - ISS 1 (traced).json](1995%20-%20950069-03-005%20-%20MACHINE%20CONTROL%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950069-03-005 - MACHINE CONTROL PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

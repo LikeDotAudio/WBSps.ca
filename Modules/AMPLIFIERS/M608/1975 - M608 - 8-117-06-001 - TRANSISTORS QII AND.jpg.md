@@ -11,6 +11,17 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 200,548 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-117-06-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–432 mm up
+- **Outlines:** line 612 rings, 4,336 straight (6,179 mm) / 1,100 curved (990 mm); text 354 rings, 3,343 straight (3,804 mm) / 840 curved (942 mm); tb 608 rings, 3,044 straight (1,978 mm) / 771 curved (696 mm)
+- **Closed boxes:** 11 (8 in the title block); named: 8-117-06-001; SCALE 2:1
+- **Words (OCR):** 32 in 29 lines: NOTES: · TRAnsiStoRS Qioi · AN · 0102 ARE · PN3645 · DIODES · CRiO5 · ARE · IN4143 · I3olsle: 4039 · ISSUE |DATE · REVISION
+- **Title block:** (116, 9)–(333, 112) mm: I3olsle: 4039 · ISSUE |DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN_ · GEB · 8-117 · ENG. GEB 1/79 · INDICATOR · DRIVER · CKD · COMPONENT · LAYOUT · APP · SCALE · ISSUE · 8-117-06-001 · 2:1
+
+Every curve, box, word and wire group: [1975 - M608 - 8-117-06-001 - TRANSISTORS QII AND (traced).json](1975%20-%20M608%20-%208-117-06-001%20-%20TRANSISTORS%20QII%20AND%20%28traced%29.json) (the CAD file: `1975 - M608 - 8-117-06-001 - TRANSISTORS QII AND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -23,6 +23,17 @@ Audio console layout drawing of the WBS L2042 console with title block at bottom
 - **Size:** 166,990 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 77012-04-002, size B 432 × 302 mm, 1866 × 1304 px traced (0.231 mm/px)
+- **Ink extent:** 14–431 mm across, 0–274 mm up
+- **Outlines:** line 370 rings, 4,982 straight (15,828 mm) / 634 curved (904 mm); text 144 rings, 1,152 straight (1,138 mm) / 377 curved (531 mm); tb 26 rings, 231 straight (307 mm) / 37 curved (60.1 mm)
+- **Closed boxes:** 65 (3 in the title block); named: Optiohal JacKFIELD LOUALIIERS JaCKS SELE; LOUALIIERS; Optiohal SELECTORS; JacKFIELD JaCKS; JacKFIELD JaCKS; Optiohal PATCHADLE ANCILLARY EQ/FLTR; 4478 Input HOOULES; 4477 HASTLR #OOULES; BLANK; Honitor MOOULES; HODULES; spacE Hotion For
+- **Words (OCR):** 36 in 30 lines: Optiohal · JacKFIELD · LOUALIIERS · JaCKS · SELECTORS · 4477 · ANCILLARY · Optiohal PATCHADLE · #OOULES · HASTLR · EQ/FLTR · 4478 Input HOOULES
+- **Title block:** (328, 5)–(432, 36) mm: WBS WAAD-Arck · LTD: · DTE · WBS L2042 CONSOLE · cKD. · AUdIO CONSOLE
+
+Every curve, box, word and wire group: [1977 - 77012-04-002 - WBS L2042 CONSOLE AUDIO CONSOLE LAYOUT - DRN DNW - ISS 3 (traced).json](1977%20-%2077012-04-002%20-%20WBS%20L2042%20CONSOLE%20AUDIO%20CONSOLE%20LAYOUT%20-%20DRN%20DNW%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1977 - 77012-04-002 - WBS L2042 CONSOLE AUDIO CONSOLE LAYOUT - DRN DNW - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

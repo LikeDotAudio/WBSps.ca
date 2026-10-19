@@ -22,6 +22,19 @@ Timer panels drawing with three panels and details, title block at bottom right.
 - **Size:** 451,291 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940114-03-001, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px)
+- **Ink extent:** 0–842 mm across, 2–524 mm up
+- **Outlines:** line 801 rings, 6,565 straight (28,687 mm) / 1,210 curved (2,817 mm); text 309 rings, 1,784 straight (3,397 mm) / 525 curved (1,303 mm)
+- **Centre lines:** 7,033 paths (184 closed); straight 18,242 mm, curved 126 mm; horizontal 9,380 mm, vertical 4,227 mm, diagonal 4,634 mm
+- **Circles and arcs:** 1 circles, 18 arcs; largest r 5.5 @ (743.0, 261.3)
+- **Closed boxes:** 44
+- **Dots (junctions):** 2
+- **Words (OCR):** 42 in 33 lines: 'DETAIL · 940114-05 00t · TLYER PNL(1 · TMR) · 7.075 · DETAIL · 0,S00 · FLACES · 940114 · TimeR · PNL(T MR, · DETAIL
+
+Every curve, box, word and wire group: [1994 - 940114-03-001 - TIMER PANELS (3 TYPES) - DRN DRG - ISS 1 (traced).json](1994%20-%20940114-03-001%20-%20TIMER%20PANELS%20%283%20TYPES%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940114-03-001 - TIMER PANELS (3 TYPES) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

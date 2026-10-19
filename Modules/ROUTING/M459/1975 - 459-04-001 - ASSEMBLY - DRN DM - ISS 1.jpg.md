@@ -24,6 +24,17 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 3,426,017 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 459-04-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 17–303 mm up
+- **Outlines:** line 325 rings, 5,957 straight (10,873 mm) / 746 curved (1,212 mm); text 84 rings, 602 straight (694 mm) / 200 curved (296 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.0 @ (336.9, 199.6), r 2.8 @ (327.5, 274.8), r 2.8 @ (327.6, 98.7), r 2.6 @ (318.2, 171.0)
+- **Closed boxes:** 45
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1975 - 459-04-001 - ASSEMBLY - DRN DM - ISS 1 (traced).json](1975%20-%20459-04-001%20-%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1975 - 459-04-001 - ASSEMBLY - DRN DM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

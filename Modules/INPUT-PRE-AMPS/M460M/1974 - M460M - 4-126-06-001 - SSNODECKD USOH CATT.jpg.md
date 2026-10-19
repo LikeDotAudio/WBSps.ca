@@ -11,6 +11,17 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 410,218 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 695 rings, 6,738 straight (10,877 mm) / 1,674 curved (1,650 mm); text 433 rings, 4,461 straight (4,643 mm) / 1,141 curved (1,394 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 4.8 @ (240.4, 223.0), r 4.4 @ (92.7, 343.0), r 4.3 @ (91.4, 132.7)
+- **Closed boxes:** 26; named: 2i Lm2eIN; 24 Lmzoin; 22 LMzein; 26 LMzoin
+- **Words (OCR):** 63 in 48 lines: E5 · E3 68/6 · L0 -; C7 · R2o"| Ri?cig c18 · C6 · 25 · C21R2i Rr · R24 · Ri8 · t9 R7 2i · C1b · R2
+
+Every curve, box, word and wire group: [1974 - M460M - 4-126-06-001 - SSNODECKD USOH CATT (traced).json](1974%20-%20M460M%20-%204-126-06-001%20-%20SSNODECKD%20USOH%20CATT%20%28traced%29.json) (the CAD file: `1974 - M460M - 4-126-06-001 - SSNODECKD USOH CATT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

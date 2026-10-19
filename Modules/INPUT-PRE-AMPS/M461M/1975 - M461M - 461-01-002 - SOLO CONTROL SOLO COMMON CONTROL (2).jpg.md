@@ -11,6 +11,20 @@ Wiki page: [M461M](../../../PAGES/M461M.md)
 - **Size:** 6,666,661 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 461-01-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–287 mm up
+- **Outlines:** line 425 rings, 5,619 straight (11,671 mm) / 588 curved (856 mm); text 597 rings, 3,843 straight (4,322 mm) / 1,159 curved (1,641 mm); tb 51 rings, 442 straight (838 mm) / 51 curved (79.3 mm)
+- **Centre lines:** 4,525 paths (63 closed); straight 9,195 mm, curved 53.8 mm; horizontal 4,260 mm, vertical 2,197 mm, diagonal 2,738 mm
+- **Circles and arcs:** 4 circles, 8 arcs; largest r 1.5 @ (206.6, 218.5), r 1.3 @ (227.4, 230.2), r 1.0 @ (67.3, 162.1), r 1.0 @ (67.1, 168.4)
+- **Closed boxes:** 36 (27 in the title block); named: WBS WARD-BECK BysTEMS LTD:; Ma61M INPUT MODULE DIAGRAM FUNCTIONAL; 461 002 01; IsS.; TOLS
+- **Words (OCR):** 88 in 78 lines: M481M iNPUT · MobULE · AUDlo · NPUTS · CHAN · LINe · LINE · 5i018 · OfF · 4-II0 · 8-109A · FADER
+- **Title block:** (145, 11)–(382, 62) mm: IsS MOD  [CKD · USED ON · MATL · 3/29 · WBS WARD-BECK BysTEMS LTD: · 4-109g 44.109A · Fo B1ogABLsc · charce · DRN; ELJ · Ma61M · FINISH · DATE 8SePT 76 · CKD · FUNCTIONAL · SCALE · TOLS · 461 01
+- **Wiring (first pass):** 136 connected wire groups from 348 runs; labelled ends: 109 mm → PRE, Post; 91 mm → PRE, PRE |Post; 75 mm → LTD:, WARD-BECK; 67 mm → CoMMON; 56 mm → MobULE, M481M
+
+Every curve, box, word and wire group: [1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2) (traced).json](1975%20-%20M461M%20-%20461-01-002%20-%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%282%29%20%28traced%29.json) (the CAD file: `1975 - M461M - 461-01-002 - SOLO CONTROL SOLO COMMON CONTROL (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

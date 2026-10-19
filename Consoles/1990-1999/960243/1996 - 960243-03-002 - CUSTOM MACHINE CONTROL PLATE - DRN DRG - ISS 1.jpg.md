@@ -22,6 +22,19 @@ Custom machine control plate drawing with title block at bottom right.
 - **Size:** 613,370 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960243-03-002, size D 864 × 554 mm, 2000 × 1283 px traced (0.432 mm/px)
+- **Ink extent:** 52–864 mm across, 1–489 mm up
+- **Outlines:** line 1,235 rings, 8,138 straight (35,648 mm) / 1,802 curved (4,188 mm); text 544 rings, 2,965 straight (5,321 mm) / 992 curved (2,397 mm); tb 17 rings, 127 straight (310 mm) / 32 curved (82.7 mm)
+- **Centre lines:** 11,404 paths (401 closed); straight 24,728 mm, curved 118 mm; horizontal 10,600 mm, vertical 6,181 mm, diagonal 7,947 mm
+- **Circles and arcs:** 3 circles, 16 arcs; largest r 5.5 @ (692.2, 364.5), r 1.8 @ (472.8, 85.3), r 1.6 @ (649.4, 198.9)
+- **Closed boxes:** 110 (6 in the title block); named: CuSTOM CONTROL PLATE MACHINE; 960243-03-002; Cooe 02LWuoc
+- **Words (OCR):** 50 in 42 lines: FITCH(I_COD) · 04-40 UNC REO D 28 · 83 · DATU · PLATE · 5,0n0 · 1.850 · MATERIAL ExTRUSOY #49916 · 960741 · 03-002-5 IDENT EXTRUSION · 96024-03-007-4 SVAPLATE · MATERIAL: ALUM
+- **Title block:** (676, 33)–(845, 66) mm: HEHSC · WBS · WARD-BECK   SYSTEMS
+
+Every curve, box, word and wire group: [1996 - 960243-03-002 - CUSTOM MACHINE CONTROL PLATE - DRN DRG - ISS 1 (traced).json](1996%20-%20960243-03-002%20-%20CUSTOM%20MACHINE%20CONTROL%20PLATE%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960243-03-002 - CUSTOM MACHINE CONTROL PLATE - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M490D](../../../PAGES/M490D.md)
 - **Size:** 3,763,881 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-012, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–288 mm up
+- **Outlines:** line 986 rings, 6,336 straight (13,493 mm) / 1,261 curved (1,451 mm); text 289 rings, 1,414 straight (1,074 mm) / 445 curved (514 mm); tb 843 rings, 4,523 straight (5,947 mm) / 1,127 curved (1,357 mm)
+- **Closed boxes:** 16 (4 in the title block); named: WBS SENS PAN; WBS SENS PAN; GMAL"T atch sionu|; inite Operation channt; Ftch" oper_ chinoe
+- **Dots (junctions):** 1
+- **Words (OCR):** 39 in 35 lines: WBS · trozs · udluatob Ie Icve| · SENS · Cepressed: · netrorka · dcpretied; · An · ~necoi · buset · PRL} Fds · PAN
+- **Title block:** (208, 24)–(401, 274) mm: WBS · trozs · udluatob Ie Icve| · SENS · netrorka · dcpretied; · buset · PAN · rloht · contro · outout · Controle · channe · shitcheo · Novcd · 78 · Kcnannefy · Bsuoatf
+
+Every curve, box, word and wire group: [1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL (traced).json](1978%20-%20M490D%20-%20490-04-012%20-%20LINE%20INPUT%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1978 - M490D - 490-04-012 - LINE INPUT MODULE FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 23 words corrected)

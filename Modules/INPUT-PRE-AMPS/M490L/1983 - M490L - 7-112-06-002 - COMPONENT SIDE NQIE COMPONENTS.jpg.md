@@ -11,6 +11,18 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 290,840 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 7-112-06-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 2–421 mm up
+- **Outlines:** line 609 rings, 6,823 straight (9,534 mm) / 2,250 curved (2,400 mm); text 507 rings, 4,782 straight (4,741 mm) / 1,445 curved (1,681 mm); tb 2 rings, 32 straight (28.0 mm) / 8 curved (8.5 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.5 @ (187.5, 331.0), r 3.5 @ (156.9, 331.1), r 3.5 @ (145.0, 120.0), r 3.5 @ (187.9, 269.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 90 in 76 lines: 8 8888887-112 · VEZ 01 · CaNADA · 0 e3 0ei? · Rti · Ahe ick- · 817: · no · R42 · ~ca? · Oop · 23
+- **Title block:** (305, 0)–(338, 47) mm: DRN TR · ENG Tr_ · CKD K U · App · SCALE
+
+Every curve, box, word and wire group: [1983 - M490L - 7-112-06-002 - COMPONENT SIDE NQIE COMPONENTS (traced).json](1983%20-%20M490L%20-%207-112-06-002%20-%20COMPONENT%20SIDE%20NQIE%20COMPONENTS%20%28traced%29.json) (the CAD file: `1983 - M490L - 7-112-06-002 - COMPONENT SIDE NQIE COMPONENTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

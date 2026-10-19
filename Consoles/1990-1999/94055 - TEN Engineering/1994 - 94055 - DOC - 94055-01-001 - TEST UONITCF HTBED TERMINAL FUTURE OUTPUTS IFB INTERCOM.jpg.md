@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,469,284 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 94055-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 8–277 mm up
+- **Outlines:** line 1,212 rings, 7,857 straight (15,889 mm) / 1,195 curved (1,521 mm); text 435 rings, 2,664 straight (2,700 mm) / 737 curved (961 mm); tb 18 rings, 142 straight (170 mm) / 33 curved (37.7 mm)
+- **Centre lines:** 11,404 paths (118 closed); straight 10,899 mm, curved 67.7 mm; horizontal 4,774 mm, vertical 3,166 mm, diagonal 2,959 mm
+- **Circles and arcs:** 1 circles, 23 arcs; largest r 1.1 @ (398.5, 12.2)
+- **Closed boxes:** 46 (2 in the title block); named: CONIROL_ERANE M8504Fi; MAIRIX_BLOCK 435481 Vaso1); MAIRIX BLOCK Ma501); AUDIO BUSING; AUDIO BUSING; M2548); MAIEIX BLOCK MB501); BLOCK 4asoi; MATEX BLOCK M8501); 48748 MARRIX_HLOC4 M8548); 28748 V8548); 40740 V8548)
+- **Dots (junctions):** 2
+- **Words (OCR):** 52 in 51 lines: CONIROL_ERANE · M8504Fi · MicrocQM_cONTROL_BUs _ · MAIRIX BLOCK · AUDIO · MAIRIX_BLOCK · (FUTURE) · (FUTURE) · INPUIS · BUSING · 435481 · Ma501)
+- **Title block:** (344, 24)–(428, 41) mm: WBS · WARD-BECK SYSTEMS · TEN  ENGINEERINC
+- **Wiring (first pass):** 65 connected wire groups from 1,181 runs; labelled ends: 240 mm → FUTURE, OUTFUTS; 117 mm → I68 169; 74 mm → WBS, SCAF, Idisc NO;, MAIN; 47 mm → MR 517; 47 mm → MLJIZ
+
+Every curve, box, word and wire group: [1994 - 94055 - DOC - 94055-01-001 - TEST UONITCF HTBED TERMINAL FUTURE OUTPUTS IFB INTERCOM (traced).json](1994%20-%2094055%20-%20DOC%20-%2094055-01-001%20-%20TEST%20UONITCF%20HTBED%20TERMINAL%20FUTURE%20OUTPUTS%20IFB%20INTERCOM%20%28traced%29.json) (the CAD file: `1994 - 94055 - DOC - 94055-01-001 - TEST UONITCF HTBED TERMINAL FUTURE OUTPUTS IFB INTERCOM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -23,6 +23,18 @@ Wiki page: [M181](../../../PAGES/M181.md)
 - **Size:** 5,117,255 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 181-06-003, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–286 mm across, 0–430 mm up
+- **Outlines:** line 3,267 rings, 25,470 straight (25,393 mm) / 7,016 curved (6,668 mm); text 352 rings, 2,930 straight (2,497 mm) / 881 curved (928 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 9.0 @ (165.6, 300.5), r 8.5 @ (213.5, 270.1), r 8.4 @ (234.6, 270.3), r 8.3 @ (232.4, 301.1)
+- **Closed boxes:** 23; named: Eeled:
+- **Dots (junctions):** 1
+- **Words (OCR):** 12 in 11 lines: 8128 · Jebe · EEB · EBE · Eeled: 5v2c · E4 · Sw ZA| · Swzc · 83 · Swza · e3
+
+Every curve, box, word and wire group: [1970 - 181-06-003 - PC181 COMPONENT LAYOUT - DRN DJG - ISS 2 (traced).json](1970%20-%20181-06-003%20-%20PC181%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1970 - 181-06-003 - PC181 COMPONENT LAYOUT - DRN DJG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

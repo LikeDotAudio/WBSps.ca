@@ -11,6 +11,19 @@ Wiki page: [Job-78035](../../../PAGES/Job-78035.md)
 - **Size:** 38,298,572 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 78035-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–279 mm up
+- **Outlines:** line 514 rings, 6,280 straight (22,366 mm) / 702 curved (901 mm); text 75 rings, 556 straight (517 mm) / 167 curved (223 mm); tb 28 rings, 224 straight (234 mm) / 51 curved (56.8 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (128.6, 92.2)
+- **Closed boxes:** 67 (6 in the title block); named: JacREIILD JacKs) BLAHR Hotioh cohtaol; JacREIILD JacKs); JacREIILD JacKs); BLAHR; Hotioh cohtaol; 78035 002; 1:4
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 11 lines: JacREIILD · JacKs) · BLAHR · Hotioh cohtaol · WBS WARO-BeCk systems · WBS · L3242A CONSOLE · iudio CONSOLE · 1:4 · 78035 · 002
+- **Title block:** (357, 10)–(432, 34) mm: WBS WARO-BeCk systems · WBS · L3242A CONSOLE · iudio CONSOLE
+
+Every curve, box, word and wire group: [1978 - 78035 - 78035-04-002 - KOUALAHA UME JACKS SEAECTORS OPTIOHAL PATCHAALE CASTER RLAA (traced).json](1978%20-%2078035%20-%2078035-04-002%20-%20KOUALAHA%20UME%20JACKS%20SEAECTORS%20OPTIOHAL%20PATCHAALE%20CASTER%20RLAA%20%28traced%29.json) (the CAD file: `1978 - 78035 - 78035-04-002 - KOUALAHA UME JACKS SEAECTORS OPTIOHAL PATCHAALE CASTER RLAA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

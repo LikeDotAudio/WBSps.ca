@@ -11,6 +11,19 @@ Wiki page: [M490A](../../../PAGES/M490A.md)
 - **Size:** 2,806,489 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-009, size B (assumed) 432 × 276 mm, 2000 × 1280 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–276 mm up
+- **Outlines:** line 501 rings, 3,569 straight (8,283 mm) / 883 curved (1,031 mm); text 325 rings, 1,818 straight (1,404 mm) / 632 curved (735 mm); tb 441 rings, 3,031 straight (4,741 mm) / 878 curved (1,087 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.7 @ (99.9, 72.3)
+- **Closed boxes:** 14 (5 in the title block); named: oheratedteh po Itlon Ehe CUE [ernjpe cha; luzinted ehltched; operj; opcrathon channe atatus Tiant; 490- 009
+- **Dots (junctions):** 1
+- **Words (OCR):** 51 in 45 lines: WBS · 04904 · #ICROPACYL · SELECTC? sitche: · 0fw2e · interlocked · Gcurcus · scIcction · 315; · chjnnc) · Steach mizin · Mixina
+- **Title block:** (197, 17)–(432, 274) mm: WBS · 04904 · 315; · Mixina · ethorks · SLIDE · Channi · Infinite positien · aetenu · moyed · chunne| · saltched · opens · lccutior Feuceo · ybe · chennal. · REVIsIOH · DATE · WBS · WARO-BeCk SYSTEN
+
+Every curve, box, word and wire group: [1978 - M490A - 490-04-009 - IGNA PURPOSES FROM REMOTE EMFOCST ION' RELATED (traced).json](1978%20-%20M490A%20-%20490-04-009%20-%20IGNA%20PURPOSES%20FROM%20REMOTE%20EMFOCST%20ION%27%20RELATED%20%28traced%29.json) (the CAD file: `1978 - M490A - 490-04-009 - IGNA PURPOSES FROM REMOTE EMFOCST ION' RELATED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 13 words corrected)

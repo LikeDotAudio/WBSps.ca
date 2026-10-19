@@ -11,6 +11,18 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 1,614,987 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 490-06-019, size B (assumed) 432 × 269 mm, 2000 × 1247 px traced (0.216 mm/px)
+- **Ink extent:** 0–377 mm across, 0–269 mm up
+- **Outlines:** line 2,338 rings, 16,263 straight (21,899 mm) / 5,079 curved (4,955 mm); text 167 rings, 1,168 straight (991 mm) / 424 curved (439 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 3.4 @ (326.0, 142.8), r 3.2 @ (232.0, 189.4), r 2.9 @ (74.6, 121.1), r 2.4 @ (139.2, 212.0)
+- **Closed boxes:** 35
+- **Dots (junctions):** 10
+- **Words (OCR):** 11 in 9 lines: Mis · Ja · 13 · COMPONENT SIDE · WBS WARO-Deck bybtemB · LINE INPUT MODULE · M49oh · COMPONENT LAYQUT · Aon
+
+Every curve, box, word and wire group: [1978 - M490H - 490-06-019 - LINE INPUT MODULE (traced).json](1978%20-%20M490H%20-%20490-06-019%20-%20LINE%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-06-019 - LINE INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

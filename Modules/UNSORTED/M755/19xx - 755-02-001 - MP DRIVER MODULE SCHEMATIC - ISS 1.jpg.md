@@ -21,6 +21,17 @@ Low driver module schematic with notes, title block at right reading sideways.
 - **Size:** 1,809,775 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 755-02-001, size B (assumed) 303 × 432 mm, 1404 × 2000 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–303 mm across, 70–351 mm up
+- **Outlines:** line 815 rings, 8,724 straight (10,660 mm) / 1,623 curved (2,472 mm); text 260 rings, 2,079 straight (2,338 mm) / 596 curved (934 mm)
+- **Centre lines:** 7,603 paths (84 closed); straight 7,343 mm, curved 912 mm; horizontal 2,554 mm, vertical 1,523 mm, diagonal 3,266 mm
+- **Circles and arcs:** 36 circles, 85 arcs; largest r 7.5 @ (112.8, 271.3), r 7.4 @ (84.4, 323.9), r 7.4 @ (84.5, 270.9), r 7.3 @ (112.8, 158.7)
+- **Wiring (first pass):** 89 connected wire groups from 684 runs
+
+Every curve, box, word and wire group: [19xx - 755-02-001 - MP DRIVER MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20755-02-001%20-%20MP%20DRIVER%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 755-02-001 - MP DRIVER MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

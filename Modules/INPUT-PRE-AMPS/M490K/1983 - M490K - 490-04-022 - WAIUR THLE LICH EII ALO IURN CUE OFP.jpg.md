@@ -11,6 +11,18 @@ Wiki page: [M490K](../../../PAGES/M490K.md)
 - **Size:** 242,345 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-022, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 3–428 mm up
+- **Outlines:** line 760 rings, 7,461 straight (14,640 mm) / 1,754 curved (2,444 mm); text 184 rings, 1,030 straight (919 mm) / 454 curved (616 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 4.9 @ (227.1, 361.2), r 4.6 @ (209.9, 80.4), r 4.6 @ (227.9, 299.4), r 2.2 @ (209.6, 94.1)
+- **Closed boxes:** 17; named: Dgnal Jed F04 andi; Iich cue optraled acIlon Ihe bryond Iht ; cul IUrn
+- **Dots (junctions):** 3
+- **Words (OCR):** 46 in 43 lines: WBS · nulai · end · Dgnal · Jed · andi · F04 · con_ · Pah Itch · PAN · FOLDBAck LEVEL · ouidui
+
+Every curve, box, word and wire group: [1983 - M490K - 490-04-022 - WAIUR THLE LICH EII ALO IURN CUE OFP (traced).json](1983%20-%20M490K%20-%20490-04-022%20-%20WAIUR%20THLE%20LICH%20EII%20ALO%20IURN%20CUE%20OFP%20%28traced%29.json) (the CAD file: `1983 - M490K - 490-04-022 - WAIUR THLE LICH EII ALO IURN CUE OFP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 15 words corrected)

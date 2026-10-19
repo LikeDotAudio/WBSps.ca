@@ -11,6 +11,21 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 2,483,595 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 457-02-001, size B (assumed) 432 × 141 mm, 2000 × 654 px traced (0.216 mm/px)
+- **Ink extent:** 2–430 mm across, 0–141 mm up
+- **Outlines:** line 1,372 rings, 15,896 straight (21,071 mm) / 3,698 curved (4,164 mm); text 156 rings, 1,022 straight (856 mm) / 317 curved (360 mm); tb 22 rings, 133 straight (167 mm) / 36 curved (39.1 mm)
+- **Centre lines:** 23,185 paths (372 closed); straight 15,348 mm, curved 245 mm; horizontal 5,782 mm, vertical 3,825 mm, diagonal 5,741 mm
+- **Circles and arcs:** 8 circles, 50 arcs; largest r 2.5 @ (44.9, 76.3), r 2.5 @ (213.7, 76.3), r 1.9 @ (246.1, 121.0), r 1.9 @ (189.5, 120.4)
+- **Closed boxes:** 31 (10 in the title block); named: Booster AHPLIFIER; LBI; 457-02-001
+- **Dots (junctions):** 2
+- **Words (OCR):** 32 in 31 lines: NOTES: · 6-106 · CAPACITOA · SPECIFIED · J6,98 · (0-16; · {0-30; · {0-301 · Booster · 10j2s · AHPLIFIER · Ri0? _
+- **Title block:** (307, 6)–(432, 30) mm: WBS WAAD-Beck Bybteme · REDRAWN · 4457 · 4*2 · ~MixeR · SCALE · SCHEMAIC · ToLs · LBI · 457-02-001
+- **Wiring (first pass):** 176 connected wire groups from 1,143 runs, 2 dotted junctions; labelled ends: 106 mm → 28, 848, Tvs; 90 mm → 10j2s, Ri0? _; 89 mm → R8; 52 mm → 28; 47 mm → 34
+
+Every curve, box, word and wire group: [1975 - M457 - 457-02-001 - JIO EXTERNAL SUMMNG INOU RIS (2) (traced).json](1975%20-%20M457%20-%20457-02-001%20-%20JIO%20EXTERNAL%20SUMMNG%20INOU%20RIS%20%282%29%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-02-001 - JIO EXTERNAL SUMMNG INOU RIS (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

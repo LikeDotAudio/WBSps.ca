@@ -28,6 +28,20 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1970** (month): `Oct 70` — …H WARD BECK SYSTEIS LTd. M462 8 WAY RELAY SwATCHER SCHEMTiC Oct 70 Ra| MATERIAL FRACT 4 1764 DEC TO PLACES GIVEN ANGLES Ana MI…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-002, size B 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–426 mm up
+- **Outlines:** line 440 rings, 5,867 straight (5,474 mm) / 1,130 curved (1,293 mm); text 340 rings, 3,355 straight (3,459 mm) / 854 curved (1,216 mm); tb 3 rings, 33 straight (25.7 mm) / 3 curved (4.1 mm)
+- **Centre lines:** 12,423 paths (92 closed); straight 8,080 mm, curved 5.9 mm; horizontal 2,357 mm, vertical 1,481 mm, diagonal 4,242 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 2; named: SYSTEIS BECK LTd. WARD; M462 8 WAY RELAY SwATCHER SCHEMTiC
+- **Words (OCR):** 64 in 43 lines: AUpIO · OUTPUT · -22abm INTO 600 _ · NOIE · WHEN · MODLE 15 · JSed IN · SYstemS WheRE No Loss · 1S · Required · REPLACE Ri 45 · Ris
+- **Title block:** (173, 49)–(250, 268) mm: WHEN · 1S · Required · Jumpers · Wth · ShORTing JUMPERS · RELAYS. · BECK · WARD
+- **Wiring (first pass):** 26 connected wire groups from 208 runs; labelled ends: 131 mm → DJG, Oct, MATERIAL; 96 mm → FINISH, WARD; 72 mm → BECK, SYSTEIS, LTd.; 64 mm → RELAY, ANGLES; 55 mm → Oct, Ra|, MATERIAL
+
+Every curve, box, word and wire group: [1970 - 468-02-002 - 8 WAY RELAY SWITCHER SCHEMATIC - DRN DJG - ISS 3 (traced).json](1970%20-%20468-02-002%20-%208%20WAY%20RELAY%20SWITCHER%20SCHEMATIC%20-%20DRN%20DJG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1970 - 468-02-002 - 8 WAY RELAY SWITCHER SCHEMATIC - DRN DJG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

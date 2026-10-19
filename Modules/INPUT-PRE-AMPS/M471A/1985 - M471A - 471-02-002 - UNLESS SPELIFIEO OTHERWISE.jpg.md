@@ -11,6 +11,20 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 418,336 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 471-02-002, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 1–273 mm up
+- **Outlines:** line 825 rings, 8,066 straight (15,554 mm) / 1,914 curved (2,465 mm); text 795 rings, 4,896 straight (4,810 mm) / 1,696 curved (2,219 mm); tb 9 rings, 121 straight (143 mm) / 34 curved (39.3 mm)
+- **Centre lines:** 12,299 paths (203 closed); straight 12,568 mm, curved 341 mm; horizontal 4,443 mm, vertical 2,856 mm, diagonal 5,269 mm
+- **Circles and arcs:** 7 circles, 74 arcs; largest r 3.7 @ (45.6, 29.4), r 3.6 @ (53.8, 83.6), r 2.6 @ (73.8, 139.5), r 2.5 @ (134.3, 138.9)
+- **Closed boxes:** 21 (4 in the title block); named: 471-02-002
+- **Words (OCR):** 166 in 160 lines: Sw · Ch · 107 · 2E7 · BALANCE · OjB~ · 2E2 · ZE4 · 256 · 33k · R10 · 390
+- **Title block:** (361, 18)–(432, 33) mm: WBS · WAAD-BeCk aybtemb · M47 1A
+- **Wiring (first pass):** 163 connected wire groups from 871 runs; labelled ends: 213 mm → POST, 33/10, 3/0; 197 mm → Ci2, 3//0; 182 mm → cio, 33/0; 150 mm → NSERT, R6z, 390, R58; 128 mm → 23, 22/25, 20, 470k
+
+Every curve, box, word and wire group: [1985 - M471A - 471-02-002 - UNLESS SPELIFIEO OTHERWISE (traced).json](1985%20-%20M471A%20-%20471-02-002%20-%20UNLESS%20SPELIFIEO%20OTHERWISE%20%28traced%29.json) (the CAD file: `1985 - M471A - 471-02-002 - UNLESS SPELIFIEO OTHERWISE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

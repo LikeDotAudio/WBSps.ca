@@ -11,6 +11,19 @@ Wiki page: [M605C](../../../PAGES/M605C.md)
 - **Size:** 1,735,180 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-117-06-003, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–427 mm across, 18–316 mm up
+- **Outlines:** line 274 rings, 3,387 straight (7,635 mm) / 528 curved (551 mm); text 624 rings, 4,384 straight (4,518 mm) / 1,242 curved (1,451 mm); tb 36 rings, 246 straight (312 mm) / 46 curved (44.9 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.2 @ (130.0, 122.6), r 3.3 @ (119.5, 253.8), r 3.3 @ (119.0, 109.7)
+- **Closed boxes:** 10 (8 in the title block); named: uioI M/458; ISSUE
+- **Dots (junctions):** 2
+- **Words (OCR):** 77 in 65 lines: NOTES: · TRAnSISTORS · Qio1 AND · 0102 ARE · Pn3645_ · cRio2to CRios · DIoDE S · ARE · IN4 148 · RiO| · IK 3w · 8 -117
+- **Title block:** (273, 26)–(429, 98) mm: 4039 · Ece 219 · ISSUE DATE · REVISION · APP · WBS WARD-BECK SySTEMS · DRN. P MaHoNzy · 8-117 B · ENG · INDICATOR · DRIVER · CKDRcc( · COMPONENT LAYOUT · APP · SCALE · ISSUE · 8-117-06-003 · 2:1
+
+Every curve, box, word and wire group: [1971 - M605C - 8-117-06-003 - INDICATOR DRIVER COMPONENT LAYOUT (traced).json](1971%20-%20M605C%20-%208-117-06-003%20-%20INDICATOR%20DRIVER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1971 - M605C - 8-117-06-003 - INDICATOR DRIVER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

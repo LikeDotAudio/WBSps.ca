@@ -11,6 +11,20 @@ Wiki page: [M490J](../../../PAGES/M490J.md)
 - **Size:** 371,476 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-012, size B (assumed) 336 × 432 mm, 1555 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–336 mm across, 2–429 mm up
+- **Outlines:** line 1,042 rings, 12,064 straight (18,914 mm) / 3,026 curved (4,633 mm); text 469 rings, 3,136 straight (3,024 mm) / 1,181 curved (1,711 mm)
+- **Centre lines:** 9,459 paths (138 closed); straight 12,609 mm, curved 773 mm; horizontal 5,429 mm, vertical 2,429 mm, diagonal 4,751 mm
+- **Circles and arcs:** 15 circles, 134 arcs; largest r 5.7 @ (189.6, 387.7), r 5.7 @ (215.4, 396.7), r 5.7 @ (230.6, 252.2), r 5.7 @ (231.1, 213.4)
+- **Closed boxes:** 7; named: 20; 20
+- **Dots (junctions):** 1
+- **Words (OCR):** 138 in 129 lines: 92i · 4put Selectoa · Ri7 · 4.7/25 · Riz · 572 · 24401 · 24440] · WBs · 60 - 12 · P?-3 € · 2u2i02
+- **Wiring (first pass):** 170 connected wire groups from 951 runs; labelled ends: 144 mm → P2-V; 143 mm → Pz - 17; 142 mm → Oh; 130 mm → p2-15, Pz - $; 104 mm → 92i, Riz
+
+Every curve, box, word and wire group: [1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT (traced).json](1983%20-%20M490J%20-%20490-02-012%20-%20LAST%20COMPOHEUT%20CESIGUIT%20%28traced%29.json) (the CAD file: `1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

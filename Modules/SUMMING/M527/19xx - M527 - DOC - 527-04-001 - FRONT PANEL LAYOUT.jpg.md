@@ -15,6 +15,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 1,238,747 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 527-04-001, size B (assumed) 219 × 432 mm, 1016 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–219 mm across, 1–424 mm up
+- **Outlines:** line 52 rings, 1,982 straight (4,946 mm) / 175 curved (281 mm); text 138 rings, 1,258 straight (1,599 mm) / 349 curved (544 mm); tb 10 rings, 149 straight (309 mm) / 15 curved (23.4 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.1 @ (30.9, 415.9), r 2.9 @ (31.3, 37.3)
+- **Closed boxes:** 6 (5 in the title block); named: REVISION
+- **Words (OCR):** 17 in 14 lines: issue |DATE · REVISION · WBS WARD-BECK SYSTEME · DRN.BD 83 · M527 · ENG · Mru · MASTER MODULE · CKD: · FRONT PANEL LAYOUT · APR_EA · SCALE
+- **Title block:** (77, 1)–(194, 77) mm: issue |DATE · REVISION · WBS WARD-BECK SYSTEME · DRN.BD 83 · M527 · ENG · Mru · MASTER MODULE · CKD: · FRONT PANEL LAYOUT · APR_EA · SCALE · 527-04-001
+
+Every curve, box, word and wire group: [19xx - M527 - DOC - 527-04-001 - FRONT PANEL LAYOUT (traced).json](19xx%20-%20M527%20-%20DOC%20-%20527-04-001%20-%20FRONT%20PANEL%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M527 - DOC - 527-04-001 - FRONT PANEL LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

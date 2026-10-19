@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,267,786 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 285
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 95 rings, 1,914 straight (7,214 mm) / 179 curved (263 mm); text 454 rings, 3,233 straight (3,922 mm) / 1,006 curved (1,469 mm); tb 3 rings, 81 straight (209 mm) / 4 curved (6.2 mm)
+- **Centre lines:** 3,575 paths (69 closed); straight 6,520 mm, curved 64.7 mm; horizontal 3,250 mm, vertical 1,305 mm, diagonal 1,964 mm
+- **Circles and arcs:** 0 circles, 15 arcs
+- **Closed boxes:** 16 (12 in the title block); named: SCALE 1:1; CODE: 8224M11
+- **Words (OCR):** 52 in 40 lines: 7.600 · 6.860 · 0.371 · 0.130 · & CSK To 0.240 · PLACES · 0.224 · 750 1.302 · 0.10 RAD · TYP (TO MATCH END CAPS · 8224-03-004) · 0.184 TYP
+- **Title block:** (252, 21)–(422, 89) mm: FINISH REVSED WAS MATTE GREY · REVSION · APP · ISSUE · WBS · WARD-BECK · SYSTEMS · DRN: D.SCOTT · ISP-6 · ENG. · CKD_ · REAR PANEL · APP_ · SCALE DISC NO: 285 · ISSUE · 8224-03-011 · 1:1 CODE: 8224M11
+
+Every curve, box, word and wire group: [19xx - 8224-03-011 - ISP-6 REAR PANEL - DRN D.SCOTT - ISS 2 (traced).json](19xx%20-%208224-03-011%20-%20ISP-6%20REAR%20PANEL%20-%20DRN%20D.SCOTT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 8224-03-011 - ISP-6 REAR PANEL - DRN D.SCOTT - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

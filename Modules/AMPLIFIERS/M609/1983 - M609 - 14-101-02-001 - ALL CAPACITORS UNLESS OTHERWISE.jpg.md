@@ -11,6 +11,19 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 610,723 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-101-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 4–412 mm up
+- **Outlines:** line 326 rings, 5,519 straight (10,254 mm) / 1,072 curved (1,460 mm); text 292 rings, 2,186 straight (1,896 mm) / 771 curved (1,013 mm)
+- **Centre lines:** 5,662 paths (71 closed); straight 7,068 mm, curved 220 mm; horizontal 2,683 mm, vertical 2,143 mm, diagonal 2,242 mm
+- **Circles and arcs:** 0 circles, 67 arcs
+- **Closed boxes:** 6; named: LMJizZ; LmjjzlZ
+- **Words (OCR):** 92 in 86 lines: 220/10 · NESSIAN · 220/10 · 220/10 · CRI · 0if · ZKAJ · 10/25 · IMPUT · RIS · DIF 2-180 · BIA5
+- **Wiring (first pass):** 56 connected wire groups from 480 runs; labelled ends: 574 mm → I8V, C36, 22/35, C3Z; 521 mm → 367, CJ, 10/35, IOOK; 396 mm → 10/25, 2-180, 910, 220/10; 300 mm → IOOK, CJI, 470/40, a65; 178 mm → 10/35
+
+Every curve, box, word and wire group: [1983 - M609 - 14-101-02-001 - ALL CAPACITORS UNLESS OTHERWISE (traced).json](1983%20-%20M609%20-%2014-101-02-001%20-%20ALL%20CAPACITORS%20UNLESS%20OTHERWISE%20%28traced%29.json) (the CAD file: `1983 - M609 - 14-101-02-001 - ALL CAPACITORS UNLESS OTHERWISE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

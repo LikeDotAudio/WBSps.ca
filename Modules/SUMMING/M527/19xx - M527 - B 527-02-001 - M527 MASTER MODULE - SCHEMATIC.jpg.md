@@ -11,6 +11,21 @@ Wiki page: [M527](../../../PAGES/M527.md)
 - **Size:** 3,695,883 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 527-02-001, size B (assumed) 432 × 340 mm, 2000 × 1574 px traced (0.216 mm/px)
+- **Ink extent:** 8–424 mm across, 3–340 mm up
+- **Outlines:** line 1,927 rings, 15,938 straight (20,701 mm) / 3,341 curved (3,863 mm); text 100 rings, 713 straight (821 mm) / 182 curved (269 mm); tb 2 rings, 56 straight (121 mm) / 2 curved (5.5 mm)
+- **Centre lines:** 12,449 paths (392 closed); straight 12,142 mm, curved 196 mm; horizontal 4,174 mm, vertical 3,670 mm, diagonal 4,298 mm
+- **Circles and arcs:** 1 circles, 29 arcs; largest r 2.8 @ (276.7, 190.4)
+- **Closed boxes:** 8
+- **Dots (junctions):** 4
+- **Words (OCR):** 11 in 11 lines: ie · 057 · Ts · WBS · WARD-BECK BYSTEMS · M527 · MASTER · MODULE · SCHEMATIC · B 527-02-001 · ISS.
+- **Title block:** (324, 38)–(432, 58) mm: WBS · WARD-BECK BYSTEMS
+- **Wiring (first pass):** 165 connected wire groups from 1,311 runs; labelled ends: 163 mm → Ts; 118 mm → Ts; 85 mm → Ts; 78 mm → ie; 35 mm → 057
+
+Every curve, box, word and wire group: [19xx - M527 - B 527-02-001 - M527 MASTER MODULE - SCHEMATIC (traced).json](19xx%20-%20M527%20-%20B%20527-02-001%20-%20M527%20MASTER%20MODULE%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M527 - B 527-02-001 - M527 MASTER MODULE - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 14 words corrected)

@@ -22,6 +22,19 @@ M778 relay module schematic Title block at bottom left reading sideways.
 - **Size:** 4,855,917 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 778-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 1,075 rings, 11,140 straight (20,034 mm) / 1,819 curved (2,145 mm); text 34 rings, 410 straight (429 mm) / 96 curved (136 mm)
+- **Centre lines:** 11,081 paths (90 closed); straight 11,696 mm, curved 58.4 mm; horizontal 5,396 mm, vertical 3,854 mm, diagonal 2,446 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 1.1 @ (376.6, 9.9)
+- **Closed boxes:** 151
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 212 connected wire groups from 1,414 runs
+
+Every curve, box, word and wire group: [19xx - 778-02-001 - RELAY MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20778-02-001%20-%20RELAY%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 778-02-001 - RELAY MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

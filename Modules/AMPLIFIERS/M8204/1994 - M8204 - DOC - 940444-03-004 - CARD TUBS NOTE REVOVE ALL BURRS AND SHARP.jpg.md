@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,010,897 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940444-03-004, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–423 mm across, 7–280 mm up
+- **Outlines:** line 714 rings, 5,515 straight (15,318 mm) / 1,161 curved (1,415 mm); text 368 rings, 1,964 straight (1,791 mm) / 634 curved (779 mm); tb 25 rings, 165 straight (196 mm) / 38 curved (46.1 mm)
+- **Centre lines:** 8,437 paths (280 closed); straight 10,263 mm, curved 41.6 mm; horizontal 3,303 mm, vertical 4,342 mm, diagonal 2,618 mm
+- **Circles and arcs:** 0 circles, 15 arcs
+- **Closed boxes:** 20 (3 in the title block); named: CARD TUBS
+- **Dots (junctions):** 2
+- **Words (OCR):** 42 in 31 lines: 40+0 · 0,470 · 0.JCJ · 0 701 · 04-40 UYC REOT · 0 202 · 03-004= CORNECTOR · BSCO · 0,410 · 0,+06 Tip · 2.700 · 004=
+- **Title block:** (344, 22)–(429, 39) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - M8204 - DOC - 940444-03-004 - CARD TUBS NOTE REVOVE ALL BURRS AND SHARP (traced).json](1994%20-%20M8204%20-%20DOC%20-%20940444-03-004%20-%20CARD%20TUBS%20NOTE%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20%28traced%29.json) (the CAD file: `1994 - M8204 - DOC - 940444-03-004 - CARD TUBS NOTE REVOVE ALL BURRS AND SHARP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

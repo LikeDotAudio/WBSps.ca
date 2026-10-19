@@ -30,6 +30,19 @@ Mechanical detail of a tray and cover mounting bracket for the MF6 frame.
 - **1972** (labelled): `DATe APR 72` — …iT & 92 / D.K BRiGHT CAD PLATE Nk [oded)oNet 'i5b DIA' HOLE DATe APR 72 W-4- 71 W OIM: * 22 AddeD L,H:Side ELEVATION ATERIAL Chro 0…
 - **1972** (month): `APR.72` — …71 W OIM: * 22 AddeD L,H:Side ELEVATION ATERIAL Chro 00}19 APR.72 eolihbl NF 2663/M ADDED I4 GA (.075 Thk) C.R.s SLME I: WaRD…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 101-03-014, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 9–298 mm up
+- **Outlines:** line 377 rings, 7,191 straight (11,282 mm) / 952 curved (1,250 mm); text 470 rings, 3,943 straight (4,336 mm) / 1,093 curved (1,656 mm); tb 96 rings, 1,013 straight (935 mm) / 263 curved (339 mm)
+- **Centre lines:** 11,141 paths (120 closed); straight 11,017 mm, curved 44.1 mm; horizontal 3,988 mm, vertical 2,886 mm, diagonal 4,143 mm
+- **Circles and arcs:** 0 circles, 12 arcs
+- **Closed boxes:** 13 (8 in the title block); named: YK; NF
+- **Words (OCR):** 77 in 61 lines: DIA · HOLES "156 · 2 HOLES · 6-32 UNC THD. · 3.12 · 2.66 · 46 · 1.468 · HOLE *218 DIA . · 22 · 2*718 · 31
+- **Title block:** (117, 27)–(378, 67) mm: TOLS · FA · MaRD · BECK · IsS Moplckd · USED ON · o92/4 MF · Finish · VIBRATE 120 GRIT · DrN · GP · 132 · PLATE DATE · APR 72 · TrAY 4 Cover · YK Koded ONE · BRIGHT · CAD · MF 6 · M-4 - 77 · DIM: "22 
+
+Every curve, box, word and wire group: [1972 - 101-03-014 - TRAY & COVER MTG BRACKET MF6 & MF6A - DRN GP - ISS 6 (traced).json](1972%20-%20101-03-014%20-%20TRAY%20%26%20COVER%20MTG%20BRACKET%20MF6%20%26%20MF6A%20-%20DRN%20GP%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1972 - 101-03-014 - TRAY & COVER MTG BRACKET MF6 & MF6A - DRN GP - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

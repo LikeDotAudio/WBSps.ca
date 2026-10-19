@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,521,735 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 2–289 mm up
+- **Outlines:** line 829 rings, 7,560 straight (11,542 mm) / 1,392 curved (1,986 mm); text 762 rings, 4,991 straight (5,478 mm) / 1,499 curved (2,024 mm)
+- **Centre lines:** 10,789 paths (133 closed); straight 10,519 mm, curved 408 mm; horizontal 3,717 mm, vertical 2,281 mm, diagonal 4,521 mm
+- **Circles and arcs:** 5 circles, 90 arcs; largest r 1.4 @ (81.8, 214.8), r 1.3 @ (78.2, 231.3), r 1.2 @ (81.7, 208.3), r 1.2 @ (347.0, 82.2)
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 78 lines: PHANTOM INPUL CHANNEL · SUBMASTER_CHAANEL · POwER · SuE · (Ch| To Ch32 ARE · IDENTICAL) · SUE · To SUB 4 ARE · VU · 7e ( · MIC 'A' · MizOA
+- **Wiring (first pass):** 117 connected wire groups from 647 runs; labelled ends: 228 mm → &aza, COM, 22, Pz: 21; 94 mm → Fin ^, 50 4, 10 PFL], Sozo Dc; 90 mm → 404], '704, 58570 @, Solo; 64 mm → 14f0 2; 63 mm → SUBMASTER_CHAANEL, BABr1, SUBMASTER, NeI
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-001 - PHANTOM INPUIL CHANNEL SUBMASTER CHAANEL POWER (traced).json](1979%20-%20790236%20-%20790236-02-001%20-%20PHANTOM%20INPUIL%20CHANNEL%20SUBMASTER%20CHAANEL%20POWER%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-001 - PHANTOM INPUIL CHANNEL SUBMASTER CHAANEL POWER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

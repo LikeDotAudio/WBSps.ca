@@ -24,6 +24,20 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 326,673 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-109-02-002, size B 432 × 320 mm, 2000 × 1482 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–317 mm up
+- **Outlines:** line 324 rings, 4,537 straight (9,996 mm) / 885 curved (1,240 mm); text 477 rings, 2,941 straight (2,768 mm) / 1,005 curved (1,274 mm); tb 54 rings, 355 straight (332 mm) / 79 curved (93.5 mm)
+- **Centre lines:** 6,993 paths (108 closed); straight 7,714 mm, curved 383 mm; horizontal 3,078 mm, vertical 1,847 mm, diagonal 2,788 mm
+- **Circles and arcs:** 7 circles, 64 arcs; largest r 4.4 @ (216.7, 124.0), r 4.4 @ (216.5, 271.4), r 4.4 @ (184.7, 278.3), r 4.4 @ (152.9, 115.4)
+- **Closed boxes:** 7 (3 in the title block); named: Jp
+- **Words (OCR):** 109 in 103 lines: Ri3 · E3 · +2i.5Y · C3 · 390 · Iolzs · Ri7 · Ris · 4k7 · 22 · 22 · Pn3c45
+- **Title block:** (350, 0)–(432, 36) mm: WBS WARD-BECK bybteMB · 109 · OVtput AMPLIFIER · SCHEMATIC · SCALE · 8-109-02-002
+- **Wiring (first pass):** 55 connected wire groups from 368 runs; labelled ends: 202 mm → 4j0, R2s, 4k7; 184 mm → 470, 4-Tp, 620k; 167 mm → 396, I8K, cio, 4.7p; 153 mm → R3o, V2 w, R34, 5-6; 153 mm → R32, 08, Y2 w, R35
+
+Every curve, box, word and wire group: [1978 - 8-109-02-002 - 8-109A OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).json](1978%20-%208-109-02-002%20-%208-109A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 8-109-02-002 - 8-109A OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

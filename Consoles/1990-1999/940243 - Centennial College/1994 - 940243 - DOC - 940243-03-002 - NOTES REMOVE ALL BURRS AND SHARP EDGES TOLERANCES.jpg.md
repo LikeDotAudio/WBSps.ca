@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,246,467 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940243-03-002, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 28–432 mm across, 0–247 mm up
+- **Outlines:** line 859 rings, 6,595 straight (14,849 mm) / 1,331 curved (1,842 mm); text 196 rings, 1,176 straight (1,072 mm) / 368 curved (457 mm); tb 23 rings, 177 straight (204 mm) / 36 curved (38.9 mm)
+- **Centre lines:** 7,055 paths (193 closed); straight 9,105 mm, curved 308 mm; horizontal 5,022 mm, vertical 1,807 mm, diagonal 2,277 mm
+- **Circles and arcs:** 9 circles, 16 arcs; largest r 5.0 @ (280.2, 188.1), r 5.0 @ (245.3, 188.8), r 5.0 @ (227.6, 189.3), r 5.0 @ (114.7, 191.3)
+- **Closed boxes:** 6 (2 in the title block); named: INTERFACE PANEL RACK  UNITS); CCALE I;1
+- **Dots (junctions):** 1
+- **Words (OCR):** 31 in 29 lines: ERI · ~002- · Thic · 14-Jon · 12] Gr · TE' TURED · PLACES · 0.550 · DFTAM · PLACES · PLACES · PLACES
+- **Title block:** (340, 15)–(424, 32) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940243 - DOC - 940243-03-002 - NOTES REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20940243%20-%20DOC%20-%20940243-03-002%20-%20NOTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - 940243 - DOC - 940243-03-002 - NOTES REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

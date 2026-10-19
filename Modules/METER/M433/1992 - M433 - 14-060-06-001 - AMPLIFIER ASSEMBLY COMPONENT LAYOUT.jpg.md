@@ -11,6 +11,18 @@ Wiki page: [M433](../../../PAGES/M433.md)
 - **Size:** 304,583 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-060-06-001, size B (assumed) 432 × 310 mm, 1875 × 1344 px traced (0.230 mm/px)
+- **Ink extent:** 10–422 mm across, 16–278 mm up
+- **Outlines:** line 997 rings, 8,652 straight (11,658 mm) / 2,573 curved (3,197 mm); text 428 rings, 3,438 straight (3,681 mm) / 1,179 curved (1,465 mm); tb 9 rings, 101 straight (199 mm) / 30 curved (35.1 mm)
+- **Circles and arcs:** 108 circles, 0 arcs; largest r 11.6 @ (361.1, 188.9), r 11.6 @ (296.1, 189.2), r 5.3 @ (402.5, 149.4), r 4.7 @ (361.1, 188.8)
+- **Closed boxes:** 15; named: SET 2k SET 3k Sv8 THLD * SET 4* SET 5 * 
+- **Words (OCR):** 54 in 40 lines: SENSITIVITY · STRAP · 150 OHMS · 600_QHMS · Sv8 THLD * · SET 2k SET 3k SET 4* SET 5 * SET SET · OdBm · STRAP 0 · E3 Ed8 Ex · 80329 · +4dBm · II
+- **Title block:** (276, 51)–(420, 148) mm: 14-060 · ISSUE · 47/16 · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1992 - M433 - 14-060-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](1992%20-%20M433%20-%2014-060-06-001%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1992 - M433 - 14-060-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

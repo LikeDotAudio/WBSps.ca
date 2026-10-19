@@ -20,6 +20,19 @@ SA14-107A upper stereo input modules schematic, title block at top right reading
 - **Size:** 5,349,992 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-107-02-002, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 24–287 mm across, 0–432 mm up
+- **Outlines:** line 1,585 rings, 11,418 straight (21,261 mm) / 2,039 curved (2,408 mm); text 227 rings, 1,389 straight (1,139 mm) / 453 curved (536 mm)
+- **Centre lines:** 11,299 paths (226 closed); straight 12,768 mm, curved 87.4 mm; horizontal 3,562 mm, vertical 6,072 mm, diagonal 3,135 mm
+- **Circles and arcs:** 1 circles, 31 arcs; largest r 1.2 @ (247.3, 392.7)
+- **Closed boxes:** 30
+- **Words (OCR):** 27 in 26 lines: 0705 · Xnv Iczi · 6201 · 92'G2 · 0n5 · e63 · ens · 86 Sc · 883 · Dz'61 · 81*LL · 91"S1
+- **Wiring (first pass):** 191 connected wire groups from 1,555 runs; labelled ends: 1018 mm → 66; 344 mm → Iczi; 281 mm → 6201; 87 mm → Iczi; 69 mm → 17'
+
+Every curve, box, word and wire group: [19xx - 14-107-02-002 - SA14-107A UPPER STEREO INPUT MODULES SCHEMATIC - ISS 2 (traced).json](19xx%20-%2014-107-02-002%20-%20SA14-107A%20UPPER%20STEREO%20INPUT%20MODULES%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 14-107-02-002 - SA14-107A UPPER STEREO INPUT MODULES SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

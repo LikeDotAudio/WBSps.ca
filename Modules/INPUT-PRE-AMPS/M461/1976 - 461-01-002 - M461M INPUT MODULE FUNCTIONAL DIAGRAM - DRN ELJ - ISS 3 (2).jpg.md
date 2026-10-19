@@ -23,6 +23,20 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 4,208,940 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 461-01-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–287 mm up
+- **Outlines:** line 413 rings, 6,089 straight (12,190 mm) / 597 curved (876 mm); text 585 rings, 3,717 straight (4,281 mm) / 1,219 curved (1,745 mm); tb 38 rings, 448 straight (849 mm) / 51 curved (76.6 mm)
+- **Centre lines:** 4,739 paths (73 closed); straight 9,347 mm, curved 58.8 mm; horizontal 4,210 mm, vertical 2,267 mm, diagonal 2,870 mm
+- **Circles and arcs:** 5 circles, 7 arcs; largest r 1.6 @ (206.6, 218.7), r 1.3 @ (227.4, 230.2), r 1.0 @ (67.3, 162.1), r 1.0 @ (67.1, 168.4)
+- **Closed boxes:** 32 (23 in the title block); named: WBS WARD-BECK BysTEMS LTD-; Ma61M INPUT MODULE DIAGRAM FUNCTIONAL; 461 002 01; IsS.; TOLS
+- **Words (OCR):** 88 in 76 lines: M481M iNPUT · MobULE · AuDlQ · NPUTS · CHAN; · LINe · LINE · f0187 · {FF · 4-II0 · 8-109A · FADER
+- **Title block:** (145, 11)–(382, 62) mm: IsS MOD  CKD · USED ON · MATL · 3/29 · WBS WARD-BECK BysTEMS LTD- · Zurer 4-109 44.109A · Fo B1ogABLYsc · DRN; ELJ · Ma61M · FINISH · DATE 8sePT 76 · CKD_ · FUNCTIONAL · SCALE · TOLS · 461 01
+- **Wiring (first pass):** 135 connected wire groups from 345 runs; labelled ends: 128 mm → CoMMON, USED, ON; 123 mm → PRE, Post; 92 mm → PRE, PRE |Post; 56 mm → MobULE, M481M; 50 mm → 8 - 1o9
+
+Every curve, box, word and wire group: [1976 - 461-01-002 - M461M INPUT MODULE FUNCTIONAL DIAGRAM - DRN ELJ - ISS 3 (2) (traced).json](1976%20-%20461-01-002%20-%20M461M%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20ELJ%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1976 - 461-01-002 - M461M INPUT MODULE FUNCTIONAL DIAGRAM - DRN ELJ - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

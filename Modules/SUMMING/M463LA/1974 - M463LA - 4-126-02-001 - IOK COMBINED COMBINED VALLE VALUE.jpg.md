@@ -11,6 +11,18 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 - **Size:** 1,199,070 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–426 mm up
+- **Outlines:** line 197 rings, 2,909 straight (6,514 mm) / 497 curved (730 mm); text 456 rings, 3,198 straight (3,699 mm) / 1,065 curved (1,611 mm)
+- **Centre lines:** 3,668 paths (61 closed); straight 5,978 mm, curved 136 mm; horizontal 2,138 mm, vertical 1,304 mm, diagonal 2,535 mm
+- **Circles and arcs:** 2 circles, 39 arcs; largest r 2.1 @ (30.5, 206.7), r 1.2 @ (163.7, 369.8)
+- **Words (OCR):** 84 in 73 lines: HIGh · EREQUENCY · (16 kHz 25kAz. ) · E3 · Ok · RB · 6k2 · 36 · Tcsl · C9 · cio · Iooop
+- **Wiring (first pass):** 40 connected wire groups from 214 runs; labelled ends: 267 mm → Ok, cio, Ooop, ci; 212 mm → C9, Tcsl, 36, Iooop; 168 mm → RB, 6k2, 620, R7; 130 mm → Ok, iok, 620, ~2iv; 110 mm → iok, R7, R9, IM
+
+Every curve, box, word and wire group: [1974 - M463LA - 4-126-02-001 - IOK COMBINED COMBINED VALLE VALUE (traced).json](1974%20-%20M463LA%20-%204-126-02-001%20-%20IOK%20COMBINED%20COMBINED%20VALLE%20VALUE%20%28traced%29.json) (the CAD file: `1974 - M463LA - 4-126-02-001 - IOK COMBINED COMBINED VALLE VALUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

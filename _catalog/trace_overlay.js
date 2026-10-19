@@ -3,7 +3,11 @@
  *
  *   traceLookup(path)        → Promise<[sha16, "svg dxf kicad_sch …"] | null>   (_catalog/traces/xx.json, 1-in-256 slices)
  *   traceOverlay(pg, path, bar)   puts the traced SVG over the picture inside `pg` (position:relative, the picture upright)
- *                                 and its controls in `bar`: show / hide, how strongly, which layers, the CAD downloads
+ *                                 and its controls in `bar`: show / hide, how strongly, which layers, the CAD downloads.
+ *                                 Called again (the next page) it replaces the last one, keeping the fader and layers.
+ * A PDF is traced page by page: path "<file>.pdf#p3" is its page 3, drawn into a canvas in `pg` (the viewer, with pdf.js):
+ *   tracePages(path)         → Promise<[pages, [traced page numbers]] | null>   ("<file>.pdf#pages")
+ *   tracePdfJs()             → Promise<pdfjsLib>   pdf.js, from _catalog/pdfjs/ (copied there by trace_drawings.py)
  * A fader runs from the scan as it is to the vector drawing: the traced ink comes in, then the old lettering is covered
  * and the words read on it are typed in its place.
  * The website keeps the traces gzipped (name.gz); they are unpacked here, in the browser. The CAD files are made here
@@ -24,6 +28,13 @@
     shards[s] = shards[s] || fetch(cat + 'traces/' + s + '.json').then(r => (r.ok ? r.json() : {})).catch(() => ({}));
     return shards[s].then(m => m[path] || null);
   };
+  window.tracePages = path => window.traceLookup(path + '#pages');
+  let pdfjs = null;
+  window.tracePdfJs = () => pdfjs = pdfjs || import(cat + 'pdfjs/pdf.min.mjs').then(lib => {
+    lib.GlobalWorkerOptions.workerSrc = cat + 'pdfjs/pdf.worker.min.mjs';
+    return lib;
+  });
+  const keep = { fade: 45, off: new Set(['cl']), hide: false };   // the controls as last set, for the next page
   const unzip = r => new Response(r.body.pipeThrough(new DecompressionStream('gzip')));
   // the file as it is (the local archive), else its .gz (the website)
   const getFile = name => fetch(root + '_traces/' + name).then(r => r.ok ? r
@@ -47,16 +58,18 @@
   const loadCad = () => cad = cad || new Promise((ok, bad) => window.TraceCad ? ok(window.TraceCad)
     : document.head.appendChild(Object.assign(document.createElement('script'), { src: cat + 'trace_cad.js', onload: () => ok(window.TraceCad), onerror: bad })));
 
-  window.traceOverlay = (pg, path, bar) => window.traceLookup(path).then(t => {
+  window.traceOverlay = (pg, path, bar) => (pg.dataset.trace = path, window.traceLookup(path)).then(t => {
     if (!t) return false;
     const [tag, made] = t;
     return getFile(tag + '.svg').then(r => r && r.text()).then(svg => {
-      if (!svg) return false;
+      if (!svg || pg.dataset.trace !== path) return false;   // none, or the viewer has moved on to another page
+      pg.querySelectorAll(':scope > .trace').forEach(o => o.remove());
       if (!document.getElementById('trace-css')) document.head.insertAdjacentHTML('beforeend', `<style id="trace-css">${css}</style>`);
       const box = document.createElement('div');
       box.innerHTML = svg;
       const el = box.firstElementChild;
-      el.classList.add('trace', 'l-line', 'l-text', 'l-tb', 'l-block', 'l-ocr');
+      el.classList.add('trace', ...LAYERS.map(([c]) => 'l-' + c).filter(c => !keep.off.has(c.slice(2))));
+      if (keep.hide) el.style.display = 'none';
       el.setAttribute('preserveAspectRatio', 'none');
       // behind every word read, a paper patch: as the fader moves to "vector" it covers the scan's own lettering
       el.querySelectorAll('text.ocr').forEach(w => {
@@ -68,14 +81,15 @@
       pg.appendChild(el);
       const scan = () => pg.querySelector('img, canvas');
       const has = c => el.querySelector('.' + c);
-      const name = path.split('/').pop().replace(/\.[^.]+$/, '');
+      const pn = (path.match(/#p(\d+)$/) || [])[1];   // a PDF's page
+      const name = path.replace(/#p\d+$/, '').split('/').pop().replace(/\.[^.]+$/, '') + (pn ? ' p' + pn : '');
       const kicad = made.split(' ').includes('kicad_sch');
-      bar.innerHTML = `<b>Traced drawing:</b>
-        <label><input type="checkbox" data-a="show" checked> show</label>
+      bar.innerHTML = `<b>Traced ${pn ? 'page ' + pn : 'drawing'}:</b>
+        <label><input type="checkbox" data-a="show"${keep.hide ? '' : ' checked'}> show</label>
         <label class="fader" title="Slide from the scan as it is to the vector drawing: the old lettering is covered and typed again">scan
-          <input type="range" min="0" max="100" value="45" data-a="fade"> vector</label>
+          <input type="range" min="0" max="100" value="${keep.fade}" data-a="fade"> vector</label>
         ${LAYERS.filter(([c]) => has(c)).map(([c, n, col]) =>
-          `<label><input type="checkbox" data-l="${c}"${c === 'cl' ? '' : ' checked'}><span class="sw" style="background:${col}"></span>${n}</label>`).join('')}
+          `<label><input type="checkbox" data-l="${c}"${keep.off.has(c) ? '' : ' checked'}><span class="sw" style="background:${col}"></span>${n}</label>`).join('')}
         <span>Save: <a href="#" data-s="svg">SVG</a> · <a href="#" data-s="dxf">DXF (CAD)</a>${kicad ? ' · <a href="#" data-s="kicad_sch">KiCad schematic</a>' : ''}
           · <a href="#" data-s="pdf">PDF (vector)</a> · <a href="#" data-s="pptx">PowerPoint</a></span>`;
       bar.hidden = false;
@@ -88,14 +102,16 @@
         el.style.setProperty('--new', Math.max(0, (v - .45) * 1.9));
         el.style.setProperty('--mask', Math.max(0, Math.min(1, (v - .4) * 2.5)));
       };
-      fade(.45);
-      bar.addEventListener('input', e => {
+      if (keep.hide) { if (scan()) scan().style.opacity = 1; } else fade(keep.fade / 100);
+      // handlers set, not added: a PDF's next page takes the bar over
+      bar.oninput = e => {
         const a = e.target.dataset.a, l = e.target.dataset.l;
-        if (a === 'show') { el.style.display = e.target.checked ? '' : 'none'; if (scan()) scan().style.opacity = e.target.checked ? '' : 1; }
-        if (a === 'fade') fade(e.target.value / 100);
-        if (l) el.classList.toggle('l-' + l, e.target.checked);
-      });
-      bar.addEventListener('click', e => {
+        if (a === 'show') { keep.hide = !e.target.checked; el.style.display = e.target.checked ? '' : 'none';
+          if (scan()) scan().style.opacity = e.target.checked ? '' : 1; if (e.target.checked) fade(keep.fade / 100); }
+        if (a === 'fade') { keep.fade = +e.target.value; fade(e.target.value / 100); }
+        if (l) { el.classList.toggle('l-' + l, e.target.checked); keep.off[e.target.checked ? 'delete' : 'add'](l); }
+      };
+      bar.onclick = e => {
         const s = e.target.dataset.s;
         if (!s) return;
         e.preventDefault();
@@ -111,7 +127,7 @@
           if (s === 'pdf') return done(new Blob([C.toPdf(t)], { type: 'application/pdf' }));
           if (s === 'pptx') return done(await C.toPptx(t, await inkPng(svg, t), path));
         }).catch(err => alert('The converter (trace_cad.js) did not work: ' + err));
-      });
+      };
       return true;
     });
   });

@@ -11,6 +11,21 @@ Wiki page: [M463J](../../../PAGES/M463J.md)
 - **Size:** 2,245,553 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-009, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 488 rings, 7,657 straight (17,577 mm) / 1,144 curved (1,525 mm); text 927 rings, 6,329 straight (6,818 mm) / 2,147 curved (3,133 mm); tb 2 rings, 51 straight (140 mm) / 3 curved (5.1 mm)
+- **Centre lines:** 9,783 paths (142 closed); straight 14,413 mm, curved 335 mm; horizontal 6,095 mm, vertical 3,108 mm, diagonal 5,210 mm
+- **Circles and arcs:** 19 circles, 72 arcs; largest r 1.3 @ (245.0, 311.6), r 1.0 @ (245.0, 315.6), r 1.0 @ (224.8, 316.5), r 1.0 @ (142.4, 133.3)
+- **Closed boxes:** 30 (8 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 190 in 151 lines: R43 75 · 717 · MONTOR · R44 75 · OuT · R4s 2.2 · IG DIRECT OUT · R46 2.2 · +84Bm Goon= · SwS Mi · +2iv ~Z2iv · R47 i2ok
+- **Title block:** (237, 0)–(328, 59) mm: ISSUE DATE · REVISION · WBS · WARD-BECK SySTEL · DRN; GEB · M463 ] · ENG.GEB 4/78 · SUBMASTER MODULE · CKD a / · APP · SCHEMATIC · SCALE · 463-02-009
+- **Wiring (first pass):** 123 connected wire groups from 570 runs, 3 dotted junctions; labelled ends: 496 mm → R27, Iki, R28, 390; 490 mm → 390, FB, PA, 014; 449 mm → R46 2.2, AMpLifiER, 2E6, R3o; 448 mm → R4s 2.2, R46 2.2, 2E7, 2E4; 415 mm → SwS, SWG, Sw7, SoLO
+
+Every curve, box, word and wire group: [1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED (traced).json](1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -27,6 +27,19 @@ Wiki page: [M450](../../../PAGES/M450.md)
 
 - **1975** (labelled): `DATE APR 75` — …ATL _ I6 GA. ALUM, WBS WARD-BECK BybTEMs LTD_ DRN Dm FINISH DATE APR 75 CKD_M ANODIZE BLAcK SCALE FULL 4.0i5 TOLS _ T Oos COVEZ PLA…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 450-03-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 8–298 mm up
+- **Outlines:** line 384 rings, 5,411 straight (11,050 mm) / 646 curved (860 mm); text 241 rings, 1,787 straight (2,075 mm) / 549 curved (835 mm); tb 53 rings, 350 straight (473 mm) / 96 curved (127 mm)
+- **Centre lines:** 6,151 paths (60 closed); straight 8,216 mm, curved 32.7 mm; horizontal 3,834 mm, vertical 2,144 mm, diagonal 2,238 mm
+- **Circles and arcs:** 1 circles, 6 arcs; largest r 2.1 @ (88.2, 221.4)
+- **Closed boxes:** 31 (28 in the title block); named: WBS WARD-BECK LTD.; PLate COVEZ
+- **Words (OCR):** 43 in 38 lines: 6,250 · 45 · TYp · 25 · 545 · 1.470 · 2.94 · 1.850 · 125 · 159DIA: · 25 · 2 HOLES
+- **Title block:** (140, 10)–(376, 61) mm: Iss MOD [CKD · USED ON · MATL _ · [824 · WBS WARD-BECK · I6 GA; ALUM; · 288310 · DRN_ · Do · DATE APR 75 · COVEZ · 1 Dec AF · FINISH · 14474 Ale · "220 Dim · E76. · CKD · ANODIZE BLACK SCALE · FLLL · 
+
+Every curve, box, word and wire group: [1975 - 450-03-006 - COVER PLATE - DRN DM - ISS 6 (traced).json](1975%20-%20450-03-006%20-%20COVER%20PLATE%20-%20DRN%20DM%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1975 - 450-03-006 - COVER PLATE - DRN DM - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

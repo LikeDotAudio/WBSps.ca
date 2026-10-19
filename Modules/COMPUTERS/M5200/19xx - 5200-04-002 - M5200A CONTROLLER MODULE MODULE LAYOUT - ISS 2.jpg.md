@@ -22,6 +22,17 @@ M5200A controller module layout, title block at top right reading downward.
 - **Size:** 3,479,982 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 5200-04-002, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 18–303 mm up
+- **Outlines:** line 758 rings, 6,343 straight (14,364 mm) / 1,175 curved (1,645 mm); text 73 rings, 493 straight (457 mm) / 149 curved (192 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 3.4 @ (182.8, 30.7), r 3.4 @ (165.3, 30.5), r 3.4 @ (218.6, 31.1), r 3.3 @ (209.0, 31.1)
+- **Closed boxes:** 19
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [19xx - 5200-04-002 - M5200A CONTROLLER MODULE MODULE LAYOUT - ISS 2 (traced).json](19xx%20-%205200-04-002%20-%20M5200A%20CONTROLLER%20MODULE%20MODULE%20LAYOUT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 5200-04-002 - M5200A CONTROLLER MODULE MODULE LAYOUT - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

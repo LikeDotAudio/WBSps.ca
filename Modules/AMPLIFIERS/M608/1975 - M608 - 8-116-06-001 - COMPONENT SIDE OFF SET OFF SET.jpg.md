@@ -11,6 +11,18 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 278,007 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-116-06-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 4–424 mm up
+- **Outlines:** line 772 rings, 7,712 straight (10,230 mm) / 2,213 curved (2,206 mm); text 604 rings, 6,651 straight (7,213 mm) / 1,837 curved (2,189 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 12.5 @ (321.8, 211.3), r 12.5 @ (321.5, 298.4), r 11.3 @ (321.1, 242.7), r 11.3 @ (321.1, 329.1)
+- **Closed boxes:** 8; named: R4i Sok; 323 5ox; Riz SX; 03 Lm2oi; 04 Lm2oi; 02 LF3578; Lmzoi
+- **Dots (junctions):** 1
+- **Words (OCR):** 80 in 62 lines: HF · LF · Off Set OfF · set · 2n3569 · Riz SX · 323 5ox · R4i Sok · +-c322/25 · ~R+54*8 · 1377 ~ci3tp7 R44 22k · AM7
+
+Every curve, box, word and wire group: [1975 - M608 - 8-116-06-001 - COMPONENT SIDE OFF SET OFF SET (traced).json](1975%20-%20M608%20-%208-116-06-001%20-%20COMPONENT%20SIDE%20OFF%20SET%20OFF%20SET%20%28traced%29.json) (the CAD file: `1975 - M608 - 8-116-06-001 - COMPONENT SIDE OFF SET OFF SET (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

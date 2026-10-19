@@ -22,6 +22,20 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 2,529,991 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-002, size B (assumed) 432 × 134 mm, 2000 × 621 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–134 mm up
+- **Outlines:** line 1,148 rings, 10,459 straight (9,412 mm) / 2,129 curved (2,287 mm); text 229 rings, 1,804 straight (1,515 mm) / 574 curved (685 mm)
+- **Centre lines:** 16,129 paths (84 closed); straight 8,261 mm, curved 122 mm; horizontal 2,524 mm, vertical 1,804 mm, diagonal 3,933 mm
+- **Circles and arcs:** 0 circles, 46 arcs
+- **Closed boxes:** 28
+- **Dots (junctions):** 2
+- **Words (OCR):** 47 in 38 lines: Aux' / Rs · LEVEL · ALX IJRR · Joo< · LeveL(r) · Frol ASM · ALx'/Ri OUTPUTT AUX !/ · OUTPUT · 18 Jbm · RR · 48 dBm · irs
+- **Wiring (first pass):** 65 connected wire groups from 494 runs, 2 dotted junctions; labelled ends: 239 mm → 2k4, (-24}; 80 mm → ALX IJRR, LeveL(r), (-I8}; 75 mm → Tzz/i3v; 65 mm → Lto_, WARO-BECK; 63 mm → Tzz/i3v, iCK, Iok
+
+Every curve, box, word and wire group: [1973 - 73050-02-002 - AUDIO CONSOLE AUX REV SCHEMATIC - DRN PC - ISS 1 (traced).json](1973%20-%2073050-02-002%20-%20AUDIO%20CONSOLE%20AUX%20REV%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-002 - AUDIO CONSOLE AUX REV SCHEMATIC - DRN PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

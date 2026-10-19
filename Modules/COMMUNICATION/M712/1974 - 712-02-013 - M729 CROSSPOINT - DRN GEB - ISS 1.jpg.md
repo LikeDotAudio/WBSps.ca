@@ -25,6 +25,21 @@ Crosspoint schematic, component layout and system application sheet, title block
 - **Size:** 1,573,950 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-013, size B 432 × 141 mm, 2000 × 652 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–141 mm up
+- **Outlines:** line 677 rings, 5,315 straight (8,731 mm) / 997 curved (1,323 mm); text 385 rings, 2,009 straight (1,794 mm) / 709 curved (890 mm); tb 11 rings, 91 straight (135 mm) / 17 curved (22.0 mm)
+- **Centre lines:** 7,261 paths (159 closed); straight 6,603 mm, curved 168 mm; horizontal 2,468 mm, vertical 1,677 mm, diagonal 2,457 mm
+- **Circles and arcs:** 4 circles, 32 arcs; largest r 3.0 @ (302.6, 92.3), r 2.0 @ (268.2, 66.2), r 1.7 @ (274.0, 94.3), r 0.9 @ (192.7, 97.6)
+- **Closed boxes:** 23; named: m72i; lot; M729
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 59 lines: SUMMING · BuS5 · M729 COMPONENT LAYOUT · RioI · ci02 · 0103 · 22k · ZN4460 · m72i · SySTEM · Rio6 · APPLICATION
+- **Title block:** (352, 20)–(400, 31) mm: WBS WARD
+- **Wiring (first pass):** 55 connected wire groups from 411 runs; labelled ends: 572 mm → Moplicko; 154 mm → CTD, WBS; 50 mm → 22k, RioI, INJSZ, cRioi; 42 mm → P MC, 22k; 35 mm → BuS5, 0103, ZN4460
+
+Every curve, box, word and wire group: [1974 - 712-02-013 - M729 CROSSPOINT - DRN GEB - ISS 1 (traced).json](1974%20-%20712-02-013%20-%20M729%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1974 - 712-02-013 - M729 CROSSPOINT - DRN GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

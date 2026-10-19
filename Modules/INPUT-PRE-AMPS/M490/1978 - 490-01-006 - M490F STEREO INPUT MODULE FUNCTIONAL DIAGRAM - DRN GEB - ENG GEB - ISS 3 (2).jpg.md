@@ -26,6 +26,20 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 448,124 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 490-01-006, size B 432 × 269 mm, 2000 × 1246 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–255 mm up
+- **Outlines:** line 604 rings, 5,802 straight (11,790 mm) / 860 curved (1,162 mm); text 561 rings, 4,016 straight (4,618 mm) / 1,123 curved (1,664 mm); tb 11 rings, 128 straight (242 mm) / 26 curved (34.5 mm)
+- **Centre lines:** 6,284 paths (86 closed); straight 8,982 mm, curved 111 mm; horizontal 3,404 mm, vertical 2,219 mm, diagonal 3,360 mm
+- **Circles and arcs:** 6 circles, 16 arcs; largest r 3.3 @ (171.0, 95.3), r 3.0 @ (144.2, 95.1), r 1.5 @ (10.2, 100.5), r 1.1 @ (249.6, 201.2)
+- **Closed boxes:** 20 (11 in the title block); named: PGmi CUE CTL LoGic
+- **Words (OCR):** 80 in 75 lines: FADER · BAL · INSERT · (_I5dB) CH ON · INSERT · BAL · P1 LEFT · LEFT · P2 LEFT · LEFT · SENSITIVITY · AUX
+- **Title block:** (286, 1)–(432, 81) mm: XB · REDRAWN · 2/78 MACHINE CONTROLS REVISED · 4B · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN GEB · M49oF · ENG.GEB 2/78 · STEREO INPUT MODULE · cKD Qsl · FUNCTIONAL DIAGRAM · APP · SC
+- **Wiring (first pass):** 185 connected wire groups from 564 runs; labelled ends: 150 mm → (_I5dB), PRE /post, CUE; 142 mm → CUE; 92 mm → PGmi, CUE, CTL, LoGic; 80 mm → LEFT, RIGHT, INPUT; 75 mm → ASSIGN
+
+Every curve, box, word and wire group: [1978 - 490-01-006 - M490F STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (2) (traced).json](1978%20-%20490-01-006%20-%20M490F%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1978 - 490-01-006 - M490F STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -21,6 +21,20 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 443,159 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-315, size D 864 × 535 mm, 2000 × 1240 px traced (0.432 mm/px)
+- **Ink extent:** 0–828 mm across, 1–519 mm up
+- **Outlines:** line 684 rings, 4,901 straight (22,718 mm) / 834 curved (1,898 mm); text 239 rings, 1,442 straight (2,827 mm) / 461 curved (1,145 mm); tb 14 rings, 116 straight (296 mm) / 29 curved (60.2 mm)
+- **Centre lines:** 6,751 paths (189 closed); straight 15,069 mm, curved 33.7 mm; horizontal 7,039 mm, vertical 4,086 mm, diagonal 3,944 mm
+- **Circles and arcs:** 1 circles, 6 arcs; largest r 2.8 @ (152.1, 322.9)
+- **Closed boxes:** 58 (4 in the title block); named: DETA; DETAIL; Tv SERIES METER PANELS (STANDARD); 1.2; 900-03-315; CCDL:
+- **Dots (junctions):** 1
+- **Words (OCR):** 27 in 22 lines: DATUL · DETA · 440C12 · FUNcK · W8 · DETAIL · MATERIAL: ALUM ALLOY 0.080 THICK · FINISH; SAND · GRIT AND PAINT · TEXTURED   BEICE (452C) · Sse DATE · TEXCOTE MNY.
+- **Title block:** (616, 59)–(778, 98) mm: Sse DATE · WBS · WARD-BECK   SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-315 - TV SERIES METER PANELS (STANDARD) - DRN DRG - ISS 1 (traced).json](19xx%20-%20900-03-315%20-%20TV%20SERIES%20METER%20PANELS%20%28STANDARD%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-315 - TV SERIES METER PANELS (STANDARD) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

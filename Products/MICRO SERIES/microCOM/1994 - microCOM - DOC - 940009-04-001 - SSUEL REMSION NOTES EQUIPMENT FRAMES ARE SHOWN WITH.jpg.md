@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,108,471 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940009-04-001, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px)
+- **Ink extent:** 5–421 mm across, 8–279 mm up
+- **Outlines:** line 1,850 rings, 11,731 straight (32,730 mm) / 1,622 curved (2,250 mm); text 119 rings, 727 straight (761 mm) / 206 curved (269 mm); tb 8 rings, 59 straight (48.3 mm) / 13 curved (14.6 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 2.1 @ (360.7, 131.1), r 2.0 @ (361.1, 191.7), r 2.0 @ (360.9, 160.0), r 2.0 @ (360.8, 153.7)
+- **Closed boxes:** 51 (2 in the title block); named: BECK  SYSTEMS WBSS WARD-; KCET MicroCOM MATRIX FRONT LAYOUT; Idisc NO;; 940009- 001
+- **Words (OCR):** 16 in 13 lines: holis · WBSS WARD- · BECK  SYSTEMS · EQUIRHENMT TRAVES · SlavNLTURE · CCORE · KCET · MicroCOM MATRIX · FRONT LAYOUT · Idisc NO; · 12 · 940009-
+- **Title block:** (366, 24)–(427, 40) mm: WBSS WARD- · BECK  SYSTEMS · KCET
+
+Every curve, box, word and wire group: [1994 - microCOM - DOC - 940009-04-001 - SSUEL REMSION NOTES EQUIPMENT FRAMES ARE SHOWN WITH (traced).json](1994%20-%20microCOM%20-%20DOC%20-%20940009-04-001%20-%20SSUEL%20REMSION%20NOTES%20EQUIPMENT%20FRAMES%20ARE%20SHOWN%20WITH%20%28traced%29.json) (the CAD file: `1994 - microCOM - DOC - 940009-04-001 - SSUEL REMSION NOTES EQUIPMENT FRAMES ARE SHOWN WITH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

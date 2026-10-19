@@ -29,6 +29,19 @@ Mechanical detail of an aluminum heat sink.
 
 - **1972** (labelled): `DATE Nov 72` — …EMB LtD_ 2 214 M845 (2-43) 86A. (.128 ThK) AL ALLOY DRN: GP DATE Nov 72 HEAT SINK FINISH CKD_ VIBRATE 20 GRit Q ANODIZEISCALE I: BL…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 845-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 6–298 mm up
+- **Outlines:** line 463 rings, 7,483 straight (13,528 mm) / 829 curved (1,152 mm); text 371 rings, 2,822 straight (3,101 mm) / 772 curved (1,174 mm); tb 8 rings, 39 straight (37.8 mm) / 10 curved (12.1 mm)
+- **Centre lines:** 11,860 paths (81 closed); straight 11,089 mm, curved 157 mm; horizontal 4,982 mm, vertical 2,564 mm, diagonal 3,544 mm
+- **Circles and arcs:** 8 circles, 17 arcs; largest r 9.4 @ (211.5, 173.2), r 2.0 @ (369.0, 179.2), r 1.6 @ (272.6, 157.5), r 1.6 @ (356.2, 179.4)
+- **Closed boxes:** 24 (16 in the title block); named: SINK HEAT; ISS_
+- **Words (OCR):** 55 in 46 lines: 2 HOLEs · '187 DIA · HOLES "128 DIA · 44 · HOLES · .128 DIA _ · HOLe "75 · DIA · '22 · 1.31 · 20 · 3.62
+- **Title block:** (141, 22)–(377, 66) mm: Iss MOD  CKD · USED ON · MATL · WBS · WARD-BECK · 214 · M845 (-43) 86A _ · (.128 Thk) · Al · ALLoY · DRN GP · HEAT · SINK · FINISH · DATE · Nov 72 · VIBRATE 120 · CKD · ANODIzEECLE · Grit
+
+Every curve, box, word and wire group: [1972 - 845-03-001 - HEAT SINK - DRN GP - ISS 2 (traced).json](1972%20-%20845-03-001%20-%20HEAT%20SINK%20-%20DRN%20GP%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1972 - 845-03-001 - HEAT SINK - DRN GP - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

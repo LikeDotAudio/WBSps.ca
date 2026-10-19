@@ -22,6 +22,19 @@ Card cage wiring diagram with left and right audio cards, title block at bottom 
 - **Size:** 3,648,817 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 808-02-003, size B (assumed) 432 × 140 mm, 2000 × 648 px traced (0.216 mm/px)
+- **Ink extent:** 0–417 mm across, 14–137 mm up
+- **Outlines:** line 464 rings, 3,870 straight (6,092 mm) / 750 curved (971 mm); text 107 rings, 674 straight (542 mm) / 195 curved (231 mm)
+- **Centre lines:** 5,314 paths (81 closed); straight 4,224 mm, curved 32.0 mm; horizontal 1,594 mm, vertical 1,109 mm, diagonal 1,521 mm
+- **Circles and arcs:** 0 circles, 13 arcs
+- **Dots (junctions):** 1
+- **Words (OCR):** 14 in 13 lines: KVCIC · Richt · M808 CARD (LEFT) · M8o8 CARD (RICHT) · 4uc ^ · RichT · VFT Muob CaRD · cako · CANCEL · SPARATC · PoKEF DISTRIEUTCN · BECK SYSTEMS
+- **Wiring (first pass):** 30 connected wire groups from 472 runs, 2 dotted junctions; labelled ends: 517 mm → cako; 418 mm → VFT Muob CaRD; 101 mm → CANCEL; 50 mm → BECK SYSTEMS; 40 mm → Richt
+
+Every curve, box, word and wire group: [19xx - 808-02-003 - M808B 8x1 STEREO SWITCHER MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20808-02-003%20-%20M808B%208x1%20STEREO%20SWITCHER%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 808-02-003 - M808B 8x1 STEREO SWITCHER MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

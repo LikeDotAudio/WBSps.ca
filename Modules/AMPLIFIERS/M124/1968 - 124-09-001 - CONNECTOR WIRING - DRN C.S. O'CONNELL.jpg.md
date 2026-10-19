@@ -22,6 +22,18 @@ Wiki page: [M124](../../../PAGES/M124.md)
 - **Size:** 4,576,969 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring B 124-09-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–286 mm up
+- **Outlines:** line 838 rings, 6,006 straight (7,728 mm) / 827 curved (1,128 mm); text 252 rings, 1,597 straight (1,486 mm) / 396 curved (496 mm)
+- **Centre lines:** 3,229 paths (23 closed); straight 4,680 mm, curved 129 mm; horizontal 1,664 mm, vertical 1,586 mm, diagonal 1,430 mm
+- **Circles and arcs:** 4 circles, 27 arcs; largest r 1.7 @ (268.7, 13.0), r 1.1 @ (339.2, 12.2), r 0.9 @ (263.5, 49.8), r 0.8 @ (206.4, 48.5)
+- **Closed boxes:** 14
+- **Wiring (first pass):** 72 connected wire groups from 542 runs
+
+Every curve, box, word and wire group: [1968 - 124-09-001 - CONNECTOR WIRING - DRN C.S. O'CONNELL (traced).json](1968%20-%20124-09-001%20-%20CONNECTOR%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20%28traced%29.json) (the CAD file: `1968 - 124-09-001 - CONNECTOR WIRING - DRN C.S. O'CONNELL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

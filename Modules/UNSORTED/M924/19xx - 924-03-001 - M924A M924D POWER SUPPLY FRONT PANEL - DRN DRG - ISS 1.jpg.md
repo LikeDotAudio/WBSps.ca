@@ -21,6 +21,19 @@ Wiki page: [M924](../../../PAGES/M924.md)
 - **Size:** 377,073 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 924-03-001, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px); scale DISC NO; Sysoi
+- **Ink extent:** 1–864 mm across, 9–557 mm up
+- **Outlines:** line 190 rings, 1,983 straight (13,522 mm) / 270 curved (760 mm); text 540 rings, 3,040 straight (4,954 mm) / 972 curved (2,292 mm); tb 27 rings, 289 straight (2,433 mm) / 14 curved (39.9 mm)
+- **Centre lines:** 5,479 paths (159 closed); straight 12,321 mm, curved 179 mm; horizontal 5,795 mm, vertical 2,922 mm, diagonal 3,604 mm
+- **Circles and arcs:** 1 circles, 21 arcs; largest r 4.4 @ (481.2, 303.7)
+- **Closed boxes:** 11
+- **Words (OCR):** 80 in 65 lines: 0.250 DIA · REQ"D · 17.110 · 0.172 · [DVPEMILL 0.o800 D5EP %JHEASIDE · 0.200 · 16.710 · INSERT · 440 1 · 10 PLACES · ud · PITCHES 7.555
+- **Title block:** (677, 12)–(861, 88) mm: SSUE] · REMSION · APP · WBS · WARD-BECK SYSTEMS · DRN; DRG · ENG, · M924/M924A /M924D · POWER SUPPLY · FRONT PANEL · APP · SCALE DISC NO; Sysoi · IISSUE · CODE: 92400 · 924-03-001
+
+Every curve, box, word and wire group: [19xx - 924-03-001 - M924A M924D POWER SUPPLY FRONT PANEL - DRN DRG - ISS 1 (traced).json](19xx%20-%20924-03-001%20-%20M924A%20M924D%20POWER%20SUPPLY%20FRONT%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 924-03-001 - M924A M924D POWER SUPPLY FRONT PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,265,431 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 7830-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 629 rings, 6,500 straight (10,478 mm) / 1,291 curved (1,546 mm); text 156 rings, 1,275 straight (1,199 mm) / 364 curved (458 mm)
+- **Centre lines:** 7,843 paths (104 closed); straight 7,071 mm, curved 78.7 mm; horizontal 2,686 mm, vertical 2,105 mm, diagonal 2,280 mm
+- **Circles and arcs:** 2 circles, 20 arcs; largest r 2.7 @ (120.8, 226.2), r 1.2 @ (366.9, 11.7)
+- **Closed boxes:** 4
+- **Wiring (first pass):** 173 connected wire groups from 655 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 7830-01-001 - SECONDARY TERMINAL FUNCTIONAL (traced).json](1981%20-%20microCOM%20-%207830-01-001%20-%20SECONDARY%20TERMINAL%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7830-01-001 - SECONDARY TERMINAL FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

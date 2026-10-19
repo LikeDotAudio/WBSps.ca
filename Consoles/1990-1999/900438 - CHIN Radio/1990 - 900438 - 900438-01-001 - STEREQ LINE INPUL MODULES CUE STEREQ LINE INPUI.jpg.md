@@ -10,6 +10,20 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,815,386 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 900438-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–416 mm up
+- **Outlines:** line 253 rings, 4,315 straight (13,183 mm) / 498 curved (744 mm); text 591 rings, 4,396 straight (5,417 mm) / 1,342 curved (1,887 mm)
+- **Centre lines:** 7,145 paths (105 closed); straight 10,518 mm, curved 143 mm; horizontal 3,910 mm, vertical 3,743 mm, diagonal 2,865 mm
+- **Circles and arcs:** 13 circles, 13 arcs; largest r 1.4 @ (111.4, 177.4), r 1.4 @ (195.5, 55.1), r 1.4 @ (195.5, 65.6), r 1.4 @ (110.8, 279.6)
+- **Closed boxes:** 84; named: PGM 1-R; PGM 2-L; PGM 2-R; AUX; AUX; CUE; PGM 1-R; PGM 2-L; PGM 2-R; AUX; AUX; CUE
+- **Dots (junctions):** 1
+- **Words (OCR):** 112 in 79 lines: CONSOLE · SUMMING BUSES · PGM PGM · AUX · CUE · MC_INPUL CHANNELS (1_3) · PGM 1-L · INSERTS · MIC INPUTS · LA · PGM 1-R · 60/-30 dBm
+- **Wiring (first pass):** 42 connected wire groups from 449 runs, 1 dotted junctions; labelled ends: 3572 mm → PGM, MC_INPUL CHANNELS (1_3), INSERTS, SWR; 274 mm → STEREQ, LINE_INPUT_CHANNELS (6_142; 248 mm → MC_INPUL CHANNELS (1_3), LA, FA; 76 mm → LINE_INPUT_CHANNELS (6_142, INS, M49QEA, STEREO; 41 mm → STEREQ_LINE_INPUI_CHANNELS_(4_5), PGM, INSERTS
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-01-001 - STEREQ LINE INPUL MODULES CUE STEREQ LINE INPUI (traced).json](1990%20-%20900438%20-%20900438-01-001%20-%20STEREQ%20LINE%20INPUL%20MODULES%20CUE%20STEREQ%20LINE%20INPUI%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-01-001 - STEREQ LINE INPUL MODULES CUE STEREQ LINE INPUI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

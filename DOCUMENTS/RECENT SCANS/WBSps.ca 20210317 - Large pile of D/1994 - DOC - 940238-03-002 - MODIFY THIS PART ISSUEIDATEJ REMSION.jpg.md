@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 15,498,786 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940238-03-002, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 30–422 mm across, 8–229 mm up
+- **Outlines:** line 457 rings, 3,407 straight (8,498 mm) / 464 curved (643 mm); text 282 rings, 1,620 straight (1,746 mm) / 492 curved (668 mm); tb 7 rings, 40 straight (35.0 mm) / 12 curved (14.1 mm)
+- **Centre lines:** 4,512 paths (93 closed); straight 5,902 mm, curved 41.8 mm; horizontal 2,573 mm, vertical 1,671 mm, diagonal 1,659 mm
+- **Circles and arcs:** 1 circles, 6 arcs; largest r 6.9 @ (184.0, 179.1)
+- **Closed boxes:** 32 (2 in the title block); named: PART NUMBER; MODULE COUNT; BECK   SYSTEMS WARD WBSS; #MODIFIED+ MK SERIES METER HOUSING; 940238 03-002; Disc N;
+- **Dots (junctions):** 2
+- **Words (OCR):** 25 in 18 lines: 5.,35 · 7B55 · MODIFICATION: ADD · DIMENSIONED HOLES TO EXISTING PART. · MATERIAL: SEE BODY OF DRAMNG · FINISH: SAND 120 Grit AND PAINT · TEXTURED BROVN (4J8C) · TEXCOTE VNYL · PART NUMBER MODULE COUNT · REMSION · WBSS · WARD
+- **Title block:** (366, 24)–(428, 40) mm: REMSION · WARD · BECK   SYSTEMS · #MODIFIED+
+
+Every curve, box, word and wire group: [1994 - DOC - 940238-03-002 - MODIFY THIS PART ISSUEIDATEJ REMSION (traced).json](1994%20-%20DOC%20-%20940238-03-002%20-%20MODIFY%20THIS%20PART%20ISSUEIDATEJ%20REMSION%20%28traced%29.json) (the CAD file: `1994 - DOC - 940238-03-002 - MODIFY THIS PART ISSUEIDATEJ REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M475A](../../../PAGES/M475A.md)
 - **Size:** 624,083 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-140-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 14–400 mm up
+- **Outlines:** line 107 rings, 1,873 straight (4,496 mm) / 347 curved (495 mm); text 481 rings, 3,492 straight (3,744 mm) / 1,175 curved (1,628 mm); tb 2 rings, 69 straight (151 mm) / 4 curved (10.6 mm)
+- **Centre lines:** 3,974 paths (58 closed); straight 5,100 mm, curved 60.0 mm; horizontal 1,504 mm, vertical 1,352 mm, diagonal 2,243 mm
+- **Circles and arcs:** 2 circles, 16 arcs; largest r 1.1 @ (93.5, 335.4), r 0.8 @ (140.5, 217.8)
+- **Words (OCR):** 83 in 76 lines: 22P · NESSJ4N · +18V · C12 · U4 · 220/10 · ~18V · 47K · R24 · 4P7 · R23 · LEFT
+- **Title block:** (208, 49)–(337, 74) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 39 connected wire groups from 217 runs; labelled ends: 127 mm → 68/10, R20, 15k; 115 mm → R28, 10k, C16, 4P7; 115 mm → R22, 10k, R21, 82k; 101 mm → C19, 220/10, R29, 10k; 100 mm → NESSSAN, R29, 10k, R28
+
+Every curve, box, word and wire group: [1986 - M475A - 14-140-02-001 - NOTES ALL RESISTORS ARE (traced).json](1986%20-%20M475A%20-%2014-140-02-001%20-%20NOTES%20ALL%20RESISTORS%20ARE%20%28traced%29.json) (the CAD file: `1986 - M475A - 14-140-02-001 - NOTES ALL RESISTORS ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

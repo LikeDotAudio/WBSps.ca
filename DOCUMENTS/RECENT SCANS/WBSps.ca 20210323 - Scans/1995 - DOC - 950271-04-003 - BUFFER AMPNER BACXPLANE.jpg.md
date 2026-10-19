@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,383,090 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950271-04-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 7–432 mm across, 10–299 mm up
+- **Outlines:** line 222 rings, 2,863 straight (12,364 mm) / 325 curved (463 mm); text 230 rings, 1,833 straight (2,451 mm) / 541 curved (835 mm); tb 3 rings, 94 straight (195 mm) / 5 curved (13.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (213.4, 123.6), r 1.6 @ (176.8, 123.7)
+- **Closed boxes:** 52 (10 in the title block); named: SCALE; 950271-04-003; ISSUE; CODE: 95271L03
+- **Words (OCR):** 38 in 31 lines: 14 · 14240 · +20 · 1424 · CONIROLLBR · BACXPLANE · BACKPLNE · BUFER AUPUFER · BACXPUNE · 13 · 12 · TT
+- **Title block:** (251, 12)–(421, 79) mm: ISSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · CONTROL · DRN; · WkW · INPUT BUFFER · ENG. WKW · CKD · SYSTEM REAR · LAYOUT · APP · SCALE DISC NO: SYSO1 · ISSUE · 950271-04-003 · CODE: 95271L03
+
+Every curve, box, word and wire group: [1995 - DOC - 950271-04-003 - BUFFER AMPNER BACXPLANE (traced).json](1995%20-%20DOC%20-%20950271-04-003%20-%20BUFFER%20AMPNER%20BACXPLANE%20%28traced%29.json) (the CAD file: `1995 - DOC - 950271-04-003 - BUFFER AMPNER BACXPLANE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

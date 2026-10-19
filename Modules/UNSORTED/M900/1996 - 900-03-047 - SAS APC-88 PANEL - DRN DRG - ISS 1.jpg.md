@@ -22,6 +22,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 437,493 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-047, size D 864 × 568 mm, 2000 × 1315 px traced (0.432 mm/px)
+- **Ink extent:** 0–859 mm across, 19–568 mm up
+- **Outlines:** line 678 rings, 4,672 straight (17,884 mm) / 879 curved (2,745 mm); text 417 rings, 2,220 straight (4,138 mm) / 774 curved (1,945 mm); tb 17 rings, 115 straight (313 mm) / 26 curved (61.4 mm)
+- **Centre lines:** 7,361 paths (229 closed); straight 14,021 mm, curved 261 mm; horizontal 4,549 mm, vertical 4,099 mm, diagonal 5,373 mm
+- **Circles and arcs:** 9 circles, 10 arcs; largest r 6.9 @ (397.1, 154.8), r 6.9 @ (399.9, 346.5), r 3.4 @ (409.7, 510.5), r 3.4 @ (403.5, 103.8)
+- **Closed boxes:** 65 (4 in the title block); named: SAS APC-88 PANEL; 900-03-047
+- **Words (OCR):** 53 in 39 lines: 883 33 3 3 · REC D · 0,250 · O.8c0 · Aitch(o 425} (7) · 900-03-047-1 APC 881C PANEL · (Omit   CONTENTS OF  ELLIPSE) · 900 05 _ · 047-2 APC BBRS PANEL · (AS  SHOWN) · 0.00 · 0,250
+- **Title block:** (697, 67)–(864, 108) mm: ISSVEI DATE · RIHSDY · WARD-BECK SYSTEMS · WBS · SAS
+
+Every curve, box, word and wire group: [1996 - 900-03-047 - SAS APC-88 PANEL - DRN DRG - ISS 1 (traced).json](1996%20-%20900-03-047%20-%20SAS%20APC-88%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 900-03-047 - SAS APC-88 PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

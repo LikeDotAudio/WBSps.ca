@@ -11,6 +11,21 @@ Wiki page: [RM401](../../../PAGES/RM401.md)
 - **Size:** 23,755,151 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 401-02-002, size B (assumed) 432 × 99 mm, 2000 × 458 px traced (0.216 mm/px)
+- **Ink extent:** 50–429 mm across, 1–99 mm up
+- **Outlines:** line 833 rings, 9,665 straight (13,012 mm) / 1,775 curved (2,095 mm); text 590 rings, 3,468 straight (2,382 mm) / 841 curved (873 mm); tb 5 rings, 27 straight (81.5 mm) / 4 curved (5.0 mm)
+- **Centre lines:** 14,828 paths (246 closed); straight 9,711 mm, curved 129 mm; horizontal 3,484 mm, vertical 2,628 mm, diagonal 3,598 mm
+- **Circles and arcs:** 2 circles, 22 arcs; largest r 3.4 @ (194.0, 75.7), r 2.7 @ (272.4, 73.9)
+- **Closed boxes:** 10; named: RS7 35 68< -; Ezk ZR6 ;
+- **Dots (junctions):** 1
+- **Words (OCR):** 147 in 122 lines: ZN492 4 R69 · R63 · 12 sw · RS7 · 68< - · 35 6533 4700 · 354 c22 7 · E8 · cOrzs · CFII CRZZ · 2715163 · 248
+- **Title block:** (391, 10)–(429, 16) mm: WARD · BECK SYSIEHS
+- **Wiring (first pass):** 114 connected wire groups from 714 runs; labelled ends: 241 mm → 20369, Jooize, 2n516, CRiOI; 135 mm → cOrzs, f6, AZ} Vzs 2821, Ezk ZR6 ;; 122 mm → <RIZ, F02365, VECU, 0C8T28; 89 mm → Ck36ie; 76 mm → 4375
+
+Every curve, box, word and wire group: [19xx - RM401 - 401-02-002 - PACITOR VALUES ARE MICROFARADS LAST REFERENCE DESIGNATIONS (traced).json](19xx%20-%20RM401%20-%20401-02-002%20-%20PACITOR%20VALUES%20ARE%20MICROFARADS%20LAST%20REFERENCE%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `19xx - RM401 - 401-02-002 - PACITOR VALUES ARE MICROFARADS LAST REFERENCE DESIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

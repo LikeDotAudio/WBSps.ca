@@ -16,6 +16,18 @@ Wiki page: [M463](../../../PAGES/M463.md)
 
 - **1974** (month): `DEC 74` — …+ E9 O - ON MATL . WBS WAAD-BECK ByBTEMs LTD; DRN: DM DA TE DEC 74 CKD:: SCALE 2 XX TOLS _ "NG 4-141 SUMMING AMPLIFIER COMPONE…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-141-06-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 678 rings, 8,031 straight (11,658 mm) / 2,085 curved (2,079 mm); text 492 rings, 5,134 straight (5,774 mm) / 1,292 curved (1,540 mm); tb 33 rings, 310 straight (516 mm) / 28 curved (31.3 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 13.8 @ (47.0, 259.4), r 8.7 @ (45.0, 317.6), r 8.3 @ (44.7, 199.8), r 5.2 @ (46.8, 259.3)
+- **Closed boxes:** 14 (4 in the title block); named: 21 739PC; WBS WAAD-BECK BYBTEMB LTD_; MATL _; 4-141 SUMMING AMPLIFIER COMPONENT LAYOUT; FIINISH; 4-141-06-001; ISS.; XX TOLS _
+- **Words (OCR):** 78 in 61 lines: E8 · E30 · R14'5K · R2 · 47K · ~C22-2p7 Ge Iczo · 22 · M2oin · Pu3569 · 3k · RiO_Io · k3
+- **Title block:** (101, 16)–(252, 86) mm: WBS WAAD-BECK BYBTEMB LTD_ · DRN: · DM · 4-141 · DATE DEC · 74 · CKD:7a / · SUMMING AMPLIFIER · COMPONENT LAYOUT · SCALE · TOLS _ · XX
+
+Every curve, box, word and wire group: [1974 - M463 - 4-141-06-001 - SUMMING AMPLIFIER (traced).json](1974%20-%20M463%20-%204-141-06-001%20-%20SUMMING%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1974 - M463 - 4-141-06-001 - SUMMING AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

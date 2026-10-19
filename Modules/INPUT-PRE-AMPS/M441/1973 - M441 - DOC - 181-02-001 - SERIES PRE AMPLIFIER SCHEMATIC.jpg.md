@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1973** (labelled): `DATE APR 73` — …DESIGNATIONS ARE AS FOLLOWS C45 CR 7,L2 012 R77 23 DRN: GP DATE APR 73 CKD_ TtL SCALE TOLS 1 M441 SERIEs PRE AMPLIFIER SCHEMATIC F…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 181-02-001, size B (assumed) 432 × 141 mm, 2000 × 652 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–140 mm up
+- **Outlines:** line 968 rings, 9,280 straight (16,850 mm) / 2,111 curved (2,671 mm); text 751 rings, 4,318 straight (3,730 mm) / 1,598 curved (2,023 mm); tb 35 rings, 228 straight (254 mm) / 73 curved (86.3 mm)
+- **Centre lines:** 14,077 paths (315 closed); straight 12,969 mm, curved 432 mm; horizontal 4,912 mm, vertical 2,961 mm, diagonal 5,096 mm
+- **Circles and arcs:** 9 circles, 99 arcs; largest r 3.9 @ (357.2, 127.0), r 3.8 @ (215.3, 88.4), r 3.7 @ (215.2, 63.4), r 3.7 @ (215.1, 32.8)
+- **Closed boxes:** 41 (3 in the title block); named: WBS WAAD-BeCK ByeteMB LTD; WSEDror; MatL; M44i Series SCHEMATIC; 181-02 001
+- **Dots (junctions):** 4
+- **Words (OCR):** 119 in 97 lines: calo? · 244923 · +4ev · Coves · 83 · 22k · INPUT · NCTE · COMPONENT LATCUT · SeE · Sop · ZN2io
+- **Title block:** (350, 8)–(411, 31) mm: WBS WAAD-BeCK ByeteMB LTD · M44i Series · SCHEMATIC · SCALE
+- **Wiring (first pass):** 113 connected wire groups from 861 runs; labelled ends: 310 mm → Rag}, 2N4037, R4o, 4k7; 285 mm → WSEDror; 131 mm → (BOOSTER, FOLCAACk, Leve, REVERB Switch; 124 mm → (BOOSTER, FOLCAACk, Leve, REVERB Switch; 88 mm → Ras} %3, 832
+
+Every curve, box, word and wire group: [1973 - M441 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC (traced).json](1973%20-%20M441%20-%20DOC%20-%20181-02-001%20-%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1973 - M441 - DOC - 181-02-001 - SERIES PRE AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

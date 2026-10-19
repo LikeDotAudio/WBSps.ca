@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 13,971,288 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 465-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 735 rings, 8,104 straight (20,171 mm) / 1,418 curved (1,893 mm); text 823 rings, 5,170 straight (5,139 mm) / 2,034 curved (2,554 mm); tb 12 rings, 101 straight (176 mm) / 18 curved (22.5 mm)
+- **Centre lines:** 13,377 paths (181 closed); straight 15,539 mm, curved 310 mm; horizontal 6,594 mm, vertical 3,537 mm, diagonal 5,409 mm
+- **Circles and arcs:** 6 circles, 64 arcs; largest r 3.0 @ (150.8, 203.1), r 2.9 @ (44.1, 205.5), r 2.9 @ (91.5, 129.3), r 2.8 @ (36.4, 196.6)
+- **Closed boxes:** 27 (7 in the title block); named: WBS WAAD-beCk byatemb LTD_; M4654 REvERB MODulE SCHEMATIC
+- **Words (OCR):** 185 in 165 lines: RET · OUT #2v 21v · To MD IN · LEFT · SW · Sw3 · Rti · Mix DOWN · Sw7 · R-R ON · 513 12 < · 263
+- **Title block:** (286, 19)–(408, 38) mm: HOD CKD · USED OH · WBS WAAD-beCk byatemb LTD_ · M4654
+- **Wiring (first pass):** 152 connected wire groups from 819 runs; labelled ends: 411 mm → 2E4, BORMFER, R5, Sw3; 355 mm → BORMFER, 266, R8, R5; 342 mm → Ri3, R12, 5.6; 255 mm → INSERT, MASTER, 300, REv; 217 mm → 300-, R2
+
+Every curve, box, word and wire group: [19xx - M465A - DOC - 465-02-002 - FIMISH REVERB MODULE SCHEMATIC IOLS (traced).json](19xx%20-%20M465A%20-%20DOC%20-%20465-02-002%20-%20FIMISH%20REVERB%20MODULE%20SCHEMATIC%20IOLS%20%28traced%29.json) (the CAD file: `19xx - M465A - DOC - 465-02-002 - FIMISH REVERB MODULE SCHEMATIC IOLS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

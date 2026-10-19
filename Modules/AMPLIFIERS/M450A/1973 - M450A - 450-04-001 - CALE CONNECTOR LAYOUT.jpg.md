@@ -11,6 +11,16 @@ Wiki page: [M450A](../../../PAGES/M450A.md)
 - **Size:** 74,069 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 450-04-001, size B (assumed) 432 × 331 mm, 956 × 732 px traced (0.452 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 1–323 mm up
+- **Outlines:** line 230 rings, 2,032 straight (9,615 mm) / 439 curved (1,243 mm); text 266 rings, 1,700 straight (3,859 mm) / 561 curved (1,636 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 3.3 @ (320.4, 8.4), r 2.6 @ (208.8, 9.3), r 2.6 @ (237.1, 205.2)
+- **Closed boxes:** 37
+
+Every curve, box, word and wire group: [1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT (traced).json](1973%20-%20M450A%20-%20450-04-001%20-%20CALE%20CONNECTOR%20LAYOUT%20%28traced%29.json) (the CAD file: `1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

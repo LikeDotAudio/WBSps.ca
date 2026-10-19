@@ -23,6 +23,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 1,353,855 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 405-03-034, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–299 mm up
+- **Outlines:** line 306 rings, 3,851 straight (8,189 mm) / 511 curved (691 mm); text 395 rings, 2,758 straight (3,446 mm) / 771 curved (1,134 mm); tb 31 rings, 255 straight (378 mm) / 44 curved (53.2 mm)
+- **Centre lines:** 8,627 paths (64 closed); straight 7,841 mm, curved 51.7 mm; horizontal 3,253 mm, vertical 1,720 mm, diagonal 2,868 mm
+- **Circles and arcs:** 0 circles, 12 arcs
+- **Closed boxes:** 15 (10 in the title block); named: DIA "/36 DIA Wae; AF
+- **Words (OCR):** 45 in 36 lines: 3.375 · 4.627 · 2.975 · 4.487 · SOe · 487 4 PLACES · DIA: · 187 DIA. CSK AT 820 To.330_ DIA . · 1.312 · 2 PLACES · 1.125 · 2.625
+- **Title block:** (279, 2)–(432, 70) mm: DIA Wae · "/36 DIA · AF · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: RMAHoNeY] · ENG. · ATTENUATOR MoUNTING · PLATE · APP · SCALE · ISSUE · 405-03-034
+
+Every curve, box, word and wire group: [1981 - 405-03-034 - ATTENUATOR MOUNTING PLATE - DRN P. Mahoney - ISS 3 (traced).json](1981%20-%20405-03-034%20-%20ATTENUATOR%20MOUNTING%20PLATE%20-%20DRN%20P.%20Mahoney%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1981 - 405-03-034 - ATTENUATOR MOUNTING PLATE - DRN P. Mahoney - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

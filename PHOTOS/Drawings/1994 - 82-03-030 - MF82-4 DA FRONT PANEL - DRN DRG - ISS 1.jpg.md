@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 349,242 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 82-03-030, size D 864 × 562 mm, 2000 × 1301 px traced (0.432 mm/px)
+- **Ink extent:** 71–856 mm across, 0–434 mm up
+- **Outlines:** line 448 rings, 2,811 straight (14,942 mm) / 549 curved (1,349 mm); text 231 rings, 1,391 straight (2,726 mm) / 410 curved (1,022 mm); tb 11 rings, 112 straight (310 mm) / 22 curved (47.5 mm)
+- **Centre lines:** 4,933 paths (121 closed); straight 10,792 mm, curved 31.1 mm; horizontal 5,767 mm, vertical 1,967 mm, diagonal 3,058 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 29 (3 in the title block); named: MF82 _ FRONT PANEL; 82-03-030; NTS; DISC NO:
+- **Words (OCR):** 25 in 22 lines: PUNC" · REQ 350 · (7883)+.720 · 963 · 0.278 · 0733 · MATERIAL: ALUM ALLOY 0.050 THICK: · FINISH: SAND · 120 GRiT AND PAINT · WBS · WARD-BECK SYSTEMS · (MEdiUM  TEXTURE )
+- **Title block:** (688, 46)–(858, 80) mm: WBS · WARD-BECK SYSTEMS · CANDAc {CEC34
+
+Every curve, box, word and wire group: [1994 - 82-03-030 - MF82-4 DA FRONT PANEL - DRN DRG - ISS 1 (traced).json](1994%20-%2082-03-030%20-%20MF82-4%20DA%20FRONT%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 82-03-030 - MF82-4 DA FRONT PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

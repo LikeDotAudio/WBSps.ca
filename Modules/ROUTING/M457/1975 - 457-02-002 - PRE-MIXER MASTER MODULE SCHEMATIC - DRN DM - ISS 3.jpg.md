@@ -27,6 +27,20 @@ Wiki page: [M457](../../../PAGES/M457.md)
 
 - **1975** (labelled): `DATE MAR 75` — …4 22125 WBS WAAD-BECK BYSTEMs LTD_ CR2 ~25v 19 ~i8v DRN. DM DATE MAR 75 CKD_ Relu SCALE TOLS IG. IN40O3 RI2 Ik M457A PRE-MIXER MAST…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 457-02-002, size B 432 × 285 mm, 2000 × 1322 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–283 mm up
+- **Outlines:** line 262 rings, 5,905 straight (12,277 mm) / 780 curved (1,092 mm); text 984 rings, 6,953 straight (7,405 mm) / 2,377 curved (3,345 mm); tb 27 rings, 260 straight (355 mm) / 39 curved (48.5 mm)
+- **Centre lines:** 9,878 paths (130 closed); straight 12,446 mm, curved 110 mm; horizontal 4,288 mm, vertical 2,924 mm, diagonal 5,234 mm
+- **Circles and arcs:** 6 circles, 26 arcs; largest r 1.0 @ (96.2, 147.2), r 0.9 @ (96.4, 254.6), r 0.9 @ (96.3, 127.6), r 0.9 @ (96.3, 246.4)
+- **Closed boxes:** 33 (27 in the title block); named: Eg Eli E3 Ei E2 E4 5-I01B DUAL BOOSTER A
+- **Words (OCR):** 188 in 161 lines: IOp · R97 · 620 · Sw9 Mix · C45 · EXT · 25 · MIX · 150l6 · LmzoI · R95 · Ak7
+- **Title block:** (136, 5)–(382, 59) mm: ISS MOD. CKD_ · USED ON · MATL . · '2133 · WBS WAAD-BECK BYSTEMs LTD_ · 3143 · DRN. · DM · DATE MAR 75 PRE-MIXER MASTER · M457A · FINISH · CKD_ Relu · SCALE · SCHEMATIC · TOLS · IG.
+- **Wiring (first pass):** 113 connected wire groups from 408 runs; labelled ends: 177 mm → E4; 149 mm → RioT<, IS, 4k7, C51; 126 mm → R99, Isk, 26, C46; 114 mm → InaOo3, 22/25, 20_, 04; 88 mm → WAAD-BECK, LTD_
+
+Every curve, box, word and wire group: [1975 - 457-02-002 - PRE-MIXER MASTER MODULE SCHEMATIC - DRN DM - ISS 3 (traced).json](1975%20-%20457-02-002%20-%20PRE-MIXER%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1975 - 457-02-002 - PRE-MIXER MASTER MODULE SCHEMATIC - DRN DM - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

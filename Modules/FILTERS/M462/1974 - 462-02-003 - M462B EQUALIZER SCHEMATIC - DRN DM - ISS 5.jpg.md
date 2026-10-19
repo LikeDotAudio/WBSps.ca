@@ -25,6 +25,19 @@ Photo of the M462B equalizer schematic with title block at bottom right.
 - **Size:** 2,062,583 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 462-02-003, size D 864 × 645 mm, 2000 × 1494 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–645 mm up
+- **Outlines:** line 380 rings, 9,779 straight (23,963 mm) / 1,137 curved (3,072 mm); text 475 rings, 5,031 straight (11,239 mm) / 1,232 curved (3,616 mm); tb 21 rings, 267 straight (939 mm) / 23 curved (100 mm)
+- **Centre lines:** 9,608 paths (110 closed); straight 23,604 mm, curved 148 mm; horizontal 5,798 mm, vertical 2,852 mm, diagonal 14,955 mm
+- **Circles and arcs:** 0 circles, 15 arcs
+- **Words (OCR):** 72 in 56 lines: 8-01 · 025 · P5v+ · 28/6 · C29 · RsO · 76 · 4k7 Vw · 46/2 · 21V+ 21 V- · BoOST · Sw3
+- **Title block:** (348, 163)–(653, 287) mm: WBS WARD-BECK BYSTEMs LtD · DRN: Pm · DATE 9MAZ · M462B · CKD. · R2l · SCALE · EQUALIZER_SCHEMATIC · TOLS,
+- **Wiring (first pass):** 110 connected wire groups from 572 runs; labelled ends: 353 mm → WARD-BECK, BYSTEMs, M462B, LtD; 342 mm → EQUALIZER_SCHEMATIC, 482-02023; 220 mm → WBS; 146 mm → M462B, EQUALIZER_SCHEMATIC, 482-02023; 144 mm → BYSTEMs, M462B, EQUALIZER_SCHEMATIC, 482-02023
+
+Every curve, box, word and wire group: [1974 - 462-02-003 - M462B EQUALIZER SCHEMATIC - DRN DM - ISS 5 (traced).json](1974%20-%20462-02-003%20-%20M462B%20EQUALIZER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1974 - 462-02-003 - M462B EQUALIZER SCHEMATIC - DRN DM - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

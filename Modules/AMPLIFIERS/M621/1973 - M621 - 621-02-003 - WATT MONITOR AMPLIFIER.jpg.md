@@ -15,6 +15,20 @@ Wiki page: [M621](../../../PAGES/M621.md)
 
 - **1973** (labelled): `DATE SEPT 73` — …V AC 60 HZ 16 ON MATL. WBS WAAD-BeCK SYSTEMS LTD; DRN: DPs DATE SEPT 73 CKD Rk SCALE XX TOLS Ena M 621 FINiSH 20 WATT MONITOR AMPLI…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 173-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 173 rings, 4,243 straight (6,593 mm) / 611 curved (897 mm); text 558 rings, 5,651 straight (6,480 mm) / 1,438 curved (2,270 mm); tb 22 rings, 371 straight (481 mm) / 68 curved (107 mm)
+- **Centre lines:** 4,296 paths (84 closed); straight 8,357 mm, curved 67.6 mm; horizontal 3,107 mm, vertical 2,012 mm, diagonal 3,239 mm
+- **Circles and arcs:** 7 circles, 2 arcs; largest r 1.9 @ (54.2, 253.4), r 1.9 @ (102.1, 246.2), r 1.8 @ (102.0, 177.0), r 1.8 @ (43.8, 246.6)
+- **Closed boxes:** 13 (4 in the title block); named: MATL .; WBS WARD-BECK BYSTEMS LTD; M 621 20 WATT MONITOR AMPLIFIER; FINISH; 621-02-003; ISS.; XX TOLS _
+- **Words (OCR):** 61 in 41 lines: NOTES · I.FOR SCHEMATIC OF PCB 173 SEE · 17 3-06-001 · 2 FOR COMPONENT LAYOUT OF PC B 173 · SEE B 173-02-001 · 3. UNLESS SPECIFIED ALL RESISTORS · WATT TOLERANCE :590 · ARE 1/4 · VA LUES ARE OHMS.(n) · iN · CA PACITOR VA LUES · IN MIC ROFARADS_ (UF)
+- **Title block:** (99, 17)–(249, 87) mm: WBS WARD-BECK BYSTEMS LTD · DRN: · DPs · M 621 · DATE · SEPT 73 · CKD R1 · 20 WATT MONITOR AMPLIFIER · SCALE · TOLS _ · XX
+- **Wiring (first pass):** 19 connected wire groups from 91 runs; labelled ends: 234 mm → ON; 191 mm → DRN:, DATE, CKD; 157 mm → LTD, WBS, WARD-BECK, 20 WATT MONITOR AMPLIFIER; 99 mm → 16; 58 mm → BYSTEMS, LTD
+
+Every curve, box, word and wire group: [1973 - M621 - 621-02-003 - WATT MONITOR AMPLIFIER (traced).json](1973%20-%20M621%20-%20621-02-003%20-%20WATT%20MONITOR%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1973 - M621 - 621-02-003 - WATT MONITOR AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -10,6 +10,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,445,427 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-013, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 739 rings, 9,236 straight (11,403 mm) / 1,564 curved (2,019 mm); text 259 rings, 1,518 straight (1,570 mm) / 417 curved (531 mm); tb 9 rings, 131 straight (243 mm) / 23 curved (31.4 mm)
+- **Centre lines:** 11,212 paths (134 closed); straight 8,318 mm, curved 590 mm; horizontal 2,307 mm, vertical 3,153 mm, diagonal 2,857 mm
+- **Circles and arcs:** 50 circles, 46 arcs; largest r 1.4 @ (243.3, 190.6), r 1.4 @ (39.7, 190.6), r 1.4 @ (7.1, 130.8), r 1.3 @ (62.8, 190.6)
+- **Closed boxes:** 8 (6 in the title block); named: SCALE
+- **Dots (junctions):** 3
+- **Words (OCR):** 37 in 31 lines: Stop · PLAY · PARE · PUShBUTTONs · aLo · HOHENTARY SwITCRES · Ten1 433 /39 · ARE · PENDAR · Stop · Play · Te /
+- **Title block:** (336, 6)–(432, 74) mm: ISSUE DATE · WBS WARD-BEC · DRN · ENG S34 · MoTiON · CON · SCHEMATIC · CKD: · Rc: · APP · SCALE · 790236-02-0
+- **Wiring (first pass):** 80 connected wire groups from 336 runs, 3 dotted junctions; labelled ends: 64 mm → PLAY, aLo; 45 mm → 433 /39; 30 mm → 433 /39; 29 mm → 433 /39; 27 mm → 164
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-013 - STOP PLAY SPARE PUSHBUTTONS (traced).json](1979%20-%20790236%20-%20790236-02-013%20-%20STOP%20PLAY%20SPARE%20PUSHBUTTONS%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-013 - STOP PLAY SPARE PUSHBUTTONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

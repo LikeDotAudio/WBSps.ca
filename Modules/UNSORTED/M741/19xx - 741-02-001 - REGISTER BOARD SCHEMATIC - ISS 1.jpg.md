@@ -22,6 +22,19 @@ Wide digital logic schematic strip with registers, title block at bottom right.
 - **Size:** 1,880,276 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 741-02-001, size B 131 × 432 mm, 607 × 2000 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–128 mm across, 0–432 mm up
+- **Outlines:** line 961 rings, 8,095 straight (16,419 mm) / 1,179 curved (1,371 mm); text 217 rings, 1,091 straight (910 mm) / 349 curved (421 mm)
+- **Centre lines:** 6,981 paths (172 closed); straight 9,479 mm, curved 49.8 mm; horizontal 3,247 mm, vertical 3,914 mm, diagonal 2,319 mm
+- **Circles and arcs:** 2 circles, 19 arcs; largest r 1.0 @ (6.5, 35.8), r 0.8 @ (1.0, 418.7)
+- **Closed boxes:** 50
+- **Dots (junctions):** 4
+- **Wiring (first pass):** 42 connected wire groups from 706 runs
+
+Every curve, box, word and wire group: [19xx - 741-02-001 - REGISTER BOARD SCHEMATIC - ISS 1 (traced).json](19xx%20-%20741-02-001%20-%20REGISTER%20BOARD%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 741-02-001 - REGISTER BOARD SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

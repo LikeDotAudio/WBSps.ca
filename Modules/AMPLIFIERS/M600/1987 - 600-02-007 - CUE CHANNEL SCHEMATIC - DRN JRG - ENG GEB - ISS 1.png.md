@@ -23,6 +23,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 2,811,185 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 0–427 mm across, 22–278 mm up
+- **Outlines:** line 113 rings, 1,577 straight (5,073 mm) / 212 curved (334 mm); text 478 rings, 3,196 straight (3,985 mm) / 991 curved (1,429 mm); tb 3 rings, 82 straight (202 mm) / 3 curved (5.0 mm)
+- **Centre lines:** 3,101 paths (71 closed); straight 5,345 mm, curved 161 mm; horizontal 2,238 mm, vertical 1,395 mm, diagonal 1,712 mm
+- **Circles and arcs:** 9 circles, 19 arcs; largest r 1.4 @ (110.6, 223.8), r 1.4 @ (299.5, 266.2), r 1.3 @ (110.7, 146.9), r 1.3 @ (110.8, 156.7)
+- **Closed boxes:** 19 (11 in the title block); named: M453A CUE AMPLFIER; 21; SCALE; 600-02-007; ISSUE; CODE: 600S07
+- **Words (OCR):** 71 in 59 lines: TB2 · 14R · LINE OUTPUT · 121,122 +8 dBm, 600 OHMS · FROM CUE · (123) · MIXING · BUS · TB1 · BELDEN · #8451 · To
+- **Title block:** (264, 37)–(432, 104) mm: IISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: JRG 02/87 · ENG Gzg · CUE CHANNEL · CKD. · SCHEMA TIC · APP · SCALE DISC NO: 130 · 600-02-007 · ISSUE · CODE: 600S07
+- **Wiring (first pass):** 40 connected wire groups from 141 runs; labelled ends: 570 mm → CUE, BELDEN, #8451, 22; 95 mm → +25v, 20, 22; 73 mm → 14R, TB2, 121,122; 51 mm → 2B; 34 mm → BELDEN, #8451, To, CUE
+
+Every curve, box, word and wire group: [1987 - 600-02-007 - CUE CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 1 (traced).json](1987%20-%20600-02-007%20-%20CUE%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 600-02-007 - CUE CHANNEL SCHEMATIC - DRN JRG - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

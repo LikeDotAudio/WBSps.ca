@@ -24,6 +24,18 @@ Wiki page: [M478](../../../PAGES/M478.md)
 - **Size:** 4,319,175 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 478-02-009, size B (assumed) 140 × 432 mm, 648 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–139 mm across, 0–429 mm up
+- **Outlines:** line 610 rings, 5,699 straight (12,094 mm) / 1,170 curved (1,330 mm); text 43 rings, 449 straight (419 mm) / 121 curved (160 mm)
+- **Centre lines:** 6,343 paths (138 closed); straight 7,362 mm, curved 42.5 mm; horizontal 1,893 mm, vertical 3,550 mm, diagonal 1,919 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 0.8 @ (113.2, 225.7), r 0.8 @ (58.6, 267.3)
+- **Closed boxes:** 20
+- **Wiring (first pass):** 62 connected wire groups from 523 runs
+
+Every curve, box, word and wire group: [1984 - 478-02-009 - M478H SLATE ASSIGN MODULE SCHEMATIC - DRN HH - ENG PA - ISS 1 (traced).json](1984%20-%20478-02-009%20-%20M478H%20SLATE%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20HH%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 478-02-009 - M478H SLATE ASSIGN MODULE SCHEMATIC - DRN HH - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

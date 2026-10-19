@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,040,476 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940449-03-002, size B (assumed) 432 × 278 mm, 2000 × 1290 px traced (0.216 mm/px)
+- **Ink extent:** 30–421 mm across, 6–274 mm up
+- **Outlines:** line 556 rings, 4,038 straight (11,035 mm) / 756 curved (853 mm); text 256 rings, 1,491 straight (1,452 mm) / 498 curved (623 mm); tb 23 rings, 170 straight (192 mm) / 37 curved (44.4 mm)
+- **Centre lines:** 5,793 paths (158 closed); straight 7,317 mm, curved 28.1 mm; horizontal 3,596 mm, vertical 1,924 mm, diagonal 1,797 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 26 (4 in the title block); named: GUEST HOST/NEWS TURRET FRONT PANEL; 940449-03-002
+- **Dots (junctions):** 2
+- **Words (OCR):** 30 in 26 lines: 16 F10 · PITCHES 7.555 · 0,200 · RFC'D · 0172 · INSERT · 440 · 38"FERcEDE · 02c0 · 0.680 · 5.i0 · 410
+- **Title block:** (342, 22)–(427, 39) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940449 - DOC - 940449-03-002 - GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL (traced).json](1994%20-%20940449%20-%20DOC%20-%20940449-03-002%20-%20GRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL%20%28traced%29.json) (the CAD file: `1994 - 940449 - DOC - 940449-03-002 - GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

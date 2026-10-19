@@ -22,6 +22,17 @@ Wiki page: [M605](../../../PAGES/M605.md)
 - **Size:** 478,043 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 605-06-006, size B 432 × 281 mm, 2000 × 1303 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–281 mm up
+- **Outlines:** line 545 rings, 7,852 straight (12,008 mm) / 955 curved (950 mm); text 227 rings, 2,054 straight (2,164 mm) / 556 curved (660 mm); tb 27 rings, 255 straight (319 mm) / 48 curved (53.1 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 33 in 27 lines: Rs · R1z · R2s · PCB 8-116 · R4i · C2b · Tp · PCB 8-117 · R2o1 · F201 · PCB 8-118 · Tzo1
+- **Title block:** (285, 1)–(432, 71) mm: Issu DATE · REVISION · App · WBS WARD-BECK SYSTEMB · M6oSA · ENG_ · AUDIO DISTRIBUTION AMPLIFIER · COMPONENT LAYOUT · APP · SCALE · ISSUE · 605-06-006
+
+Every curve, box, word and wire group: [19xx - 605-06-006 - AUDIO DISTRIBUTION AMPLIFIER COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (traced).json](19xx%20-%20605-06-006%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 605-06-006 - AUDIO DISTRIBUTION AMPLIFIER COMPONENT LAYOUT - DRN P. Mahoney - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

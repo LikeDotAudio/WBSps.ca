@@ -29,6 +29,20 @@ Diagram showing connection of M712 modules for more than 12 inputs to one output
 
 - **1973** (labelled): `DATE JAN 73` — …2 1432 0k USED ON MATL WBS WARD-BECK SYSTEMS LTD_ DRN: GEB DATE JAN 73 CKD. RLL SCALE TOLS AG M7i 2 CASCADE CONFIGURATION FINISH 7…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 7–297 mm up
+- **Outlines:** line 695 rings, 8,086 straight (13,372 mm) / 1,226 curved (1,733 mm); text 390 rings, 3,071 straight (3,507 mm) / 921 curved (1,394 mm); tb 11 rings, 53 straight (58.2 mm) / 17 curved (21.6 mm)
+- **Centre lines:** 12,666 paths (88 closed); straight 11,345 mm, curved 321 mm; horizontal 4,088 mm, vertical 2,799 mm, diagonal 4,457 mm
+- **Circles and arcs:** 1 circles, 66 arcs; largest r 1.5 @ (353.0, 203.5)
+- **Closed boxes:** 30 (24 in the title block); named: LTD WARD-BECK BySTEMS WBS
+- **Words (OCR):** 64 in 53 lines: M7i2'$ FoR · MoR E · CONNEcTIoN 0F · THAN · 12 · NPUTS, FOR ONE · output · N-12 · NOTE · 0F ALL · MoDULE $ COUPLE · THROUGh two
+- **Title block:** (143, 27)–(378, 77) mm: 2X 27k · ISS MOD [CKD. · USED · ON · MATL · WBS · WARD-BECK BySTEMS · [1432 · DRN · GEB · DATE JAN73 · M7i 2 · FINISH · CASCADE · CKD_ · R2 · SCALE · TOLS · 712 -02
+- **Wiring (first pass):** 103 connected wire groups from 380 runs; labelled ends: 135 mm → 2X 27k, 2x27k; 54 mm → 2,B; 50 mm → 2,B; 46 mm → TOLS; 42 mm → 2,B, 2X 27k
+
+Every curve, box, word and wire group: [1973 - 712-02-004 - CASCADE CONFIGURATION - DRN GEB - ISS 2 (traced).json](1973%20-%20712-02-004%20-%20CASCADE%20CONFIGURATION%20-%20DRN%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1973 - 712-02-004 - CASCADE CONFIGURATION - DRN GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

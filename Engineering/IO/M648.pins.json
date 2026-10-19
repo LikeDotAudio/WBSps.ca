@@ -1,0 +1,61 @@
+{
+ "code": "M648",
+ "name": "Power Supply",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 7,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 10,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e6bf151285571b88f8b9d4555fdb53692d5d63d53b094ef2540101b4cdcab549",
+    "file": "Modules/POWER/M648/1970 - M648 - WBS test procedures 1.jpeg",
+    "page": 1
+   },
+   "quote": "Check that the \"high\" side of the AC Iine input is connected between P1-7 and the end terminal of F1 (not the front ring)",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "a93a24c818f3f914d05e94803a40807a50a74b1fc3feff71030036786e82255d",
+    "file": "Modules/POWER/M648/1970 - M648 - P006 - 3-2.jpg",
+    "page": 1
+   },
+   "quote": "The remote sense lines should not be less than #22 SAI gauge wire shielded cable such as BeI den 8451 2-4 #omg recommended (connect shield P2-10 the M648 connec",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

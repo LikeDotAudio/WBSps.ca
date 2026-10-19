@@ -11,6 +11,18 @@ Wiki page: [M494](../../../PAGES/M494.md)
 - **Size:** 2,036,404 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 494-04-003, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–432 mm up
+- **Outlines:** line 121 rings, 1,705 straight (3,946 mm) / 221 curved (306 mm); text 440 rings, 3,194 straight (3,115 mm) / 1,183 curved (1,696 mm); tb 94 rings, 2,089 straight (4,360 mm) / 283 curved (444 mm)
+- **Closed boxes:** 14 (11 in the title block); named: DeS ignation StRiP indicating remote Tin; Red LED DSI Indicates ON-AIR status LIST; Listen/cUE suitch Swio: Hhen shitch inef
+- **Dots (junctions):** 1
+- **Words (OCR):** 72 in 49 lines: WBS · M494 · DeS ignation StRiP indicating remote · relote · SELECTOR shitch assembIY Swi · i{lestion of ay' oe of · Tine sources · Red LED DSI Indicates ON-AIR status · Yellox LED DS2 : · Indicates module · remote · LISTEN and TALK -
+- **Title block:** (140, 0)–(331, 321) mm: WBS · M494 · relote · SELECTOR shitch assembIY Swi · i{lestion of ay' oe of · Yellox LED DS2 : · Indicates module · the TALKBACK mode. · are disab led: · cu · and · facilities · ISSU DATE · REvISION ·
+
+Every curve, box, word and wire group: [19xx - M494 - 494-04-003 - CONNECTED ACROSS BRCHEEM REMOTE INE AND THE GREEN (traced).json](19xx%20-%20M494%20-%20494-04-003%20-%20CONNECTED%20ACROSS%20BRCHEEM%20REMOTE%20INE%20AND%20THE%20GREEN%20%28traced%29.json) (the CAD file: `19xx - M494 - 494-04-003 - CONNECTED ACROSS BRCHEEM REMOTE INE AND THE GREEN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M402A](../../../PAGES/M402A.md)
 - **Size:** 16,564,428 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 402-02-010, size B (assumed) 432 × 106 mm, 2000 × 489 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–102 mm up
+- **Outlines:** line 1,681 rings, 16,949 straight (18,618 mm) / 3,414 curved (3,916 mm); text 40 rings, 236 straight (177 mm) / 52 curved (54.2 mm)
+- **Centre lines:** 22,326 paths (237 closed); straight 13,112 mm, curved 128 mm; horizontal 4,241 mm, vertical 3,519 mm, diagonal 5,352 mm
+- **Circles and arcs:** 2 circles, 39 arcs; largest r 2.0 @ (383.4, 99.7), r 0.9 @ (254.9, 48.8)
+- **Closed boxes:** 8
+- **Dots (junctions):** 4
+- **Words (OCR):** 9 in 9 lines: ME,21 · F0444 · Fd44 · JtG · S2 · leocur · BECKESYSIES · TFRHINALS · LLST 'R'106
+- **Wiring (first pass):** 162 connected wire groups from 1,057 runs, 3 dotted junctions; labelled ends: 137 mm → F0444, JtG, S2; 80 mm → BECKESYSIES; 30 mm → S2; 28 mm → S2; 25 mm → S2
+
+Every curve, box, word and wire group: [1968 - M402A - B 402-02-010 - M402A EFFECTS - EQUALIZER SCHEMATIC (traced).json](1968%20-%20M402A%20-%20B%20402-02-010%20-%20M402A%20EFFECTS%20-%20EQUALIZER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1968 - M402A - B 402-02-010 - M402A EFFECTS - EQUALIZER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

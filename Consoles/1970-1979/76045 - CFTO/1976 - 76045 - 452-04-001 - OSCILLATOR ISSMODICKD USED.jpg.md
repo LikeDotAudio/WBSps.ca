@@ -15,6 +15,17 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 
 - **1974** (labelled): `DATESEPT 74` — …KD: Ilo R UsEDN MatL- WBS WAAD-BeCK bybtemb LTo_ DRMBUJOLES DATESEPT 74 M452 LAtout CKD OSCILLATOR ASSEMBLY (ScALE Tols ia 7 C 452…
 
+## Vectors (traced)
+
+- **Sheet:** layout 452-04-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 173 rings, 3,230 straight (5,498 mm) / 417 curved (549 mm); text 230 rings, 1,446 straight (1,430 mm) / 528 curved (711 mm); tb 317 rings, 2,376 straight (3,818 mm) / 296 curved (431 mm)
+- **Closed boxes:** 37 (34 in the title block); named: WAAD-BeCK WBS bybtemb LTD_; M452 LAtout ASSEMBLY OSCILLATOR; 452 04 001
+- **Words (OCR):** 48 in 41 lines: WBS · M452 · Zok 0 · Swio · ISk 0 · Sw 9 · iok 0 · SW 8 · sk0 · Sw7 · IK0 · SW6
+- **Title block:** (170, 24)–(398, 233) mm: WBS · M452 · Zok 0 · Swio · ISk 0 · Sw 9 · iok 0 · SW 8 · sk0 · Sw7 · IK0 · SW6 · 400 0 · SwS · i00 · Sw 4 · 50 · Sw 3 · 30 · Sw 2 · 20 · Sw · M 452 OSCILLATOR · DSSMODJICKD: · UsEDoN · MatL- · Ilo · 
+
+Every curve, box, word and wire group: [1976 - 76045 - 452-04-001 - OSCILLATOR ISSMODICKD USED (traced).json](1976%20-%2076045%20-%20452-04-001%20-%20OSCILLATOR%20ISSMODICKD%20USED%20%28traced%29.json) (the CAD file: `1976 - 76045 - 452-04-001 - OSCILLATOR ISSMODICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

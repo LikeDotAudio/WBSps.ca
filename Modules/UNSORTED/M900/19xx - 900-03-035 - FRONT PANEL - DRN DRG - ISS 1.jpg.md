@@ -21,6 +21,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 350,422 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-035, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 1–864 mm across, 0–527 mm up
+- **Outlines:** line 347 rings, 2,984 straight (16,470 mm) / 470 curved (1,161 mm); text 193 rings, 1,202 straight (2,437 mm) / 333 curved (865 mm); tb 15 rings, 120 straight (315 mm) / 17 curved (38.1 mm)
+- **Centre lines:** 3,711 paths (94 closed); straight 10,886 mm, curved 49.9 mm; horizontal 4,332 mm, vertical 3,518 mm, diagonal 3,036 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 1.7 @ (187.8, 49.0)
+- **Closed boxes:** 28 (2 in the title block); named: PART NUMBER; MODULE COUNT; FRONT PANEL
+- **Words (OCR):** 19 in 14 lines: 6 E00 · MATERIAL: ALUM ALLOY 0.064 MHICK · PART NUMBER MODULE COUNT · FINISH: · SAND 120 GRIT AND PAINT · TEXTURED BROWN (438C) · TEXCOTE VINYL. · REVSIS · WBS · WARD-BECK SYSTEMS · TOLERA "cES · FRONT PANEL
+- **Title block:** (685, 47)–(853, 80) mm: REVSIS · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-035 - FRONT PANEL - DRN DRG - ISS 1 (traced).json](19xx%20-%20900-03-035%20-%20FRONT%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-035 - FRONT PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

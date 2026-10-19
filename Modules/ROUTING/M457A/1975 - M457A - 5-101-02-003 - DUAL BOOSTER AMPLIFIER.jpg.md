@@ -15,6 +15,20 @@ Wiki page: [M457A](../../../PAGES/M457A.md)
 
 - **1975** (month): `JAN 75` — …ON MATL WBS WARD-BECK ByBTEMB LTD C16 22/25 R48 DRN: DM DAT JAN 75 CKD. RLll SCALE TOLS 5-101B DUAL BOOSTE R AMPLIFIER SCHEMAT…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 5_101-02-003, size B (assumed) 432 × 150 mm, 2000 × 695 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–150 mm up
+- **Outlines:** line 862 rings, 6,759 straight (10,776 mm) / 1,423 curved (1,826 mm); text 723 rings, 4,189 straight (4,062 mm) / 1,569 curved (1,922 mm); tb 12 rings, 123 straight (182 mm) / 14 curved (19.3 mm)
+- **Centre lines:** 10,287 paths (201 closed); straight 9,137 mm, curved 491 mm; horizontal 2,884 mm, vertical 1,882 mm, diagonal 4,370 mm
+- **Circles and arcs:** 16 circles, 84 arcs; largest r 3.2 @ (131.9, 101.3), r 3.2 @ (359.3, 73.6), r 3.1 @ (131.6, 40.7), r 3.1 @ (359.0, 134.4)
+- **Closed boxes:** 17 (1 in the title block)
+- **Words (OCR):** 135 in 119 lines: R35 · R12 · I5k · Pn3569 · Pn3569 · 05 · R31 · CRS R39 · CRI · Ri6 · +i8v (8k · +18v I8k
+- **Title block:** (342, 5)–(409, 28) mm: WBS WARD-BeCK · DM · MN · 5-10IB · DATE · CKD · DUAL BOOSTER MPLIFIER · SCHEMATIC · SCALR
+- **Wiring (first pass):** 69 connected wire groups from 558 runs; labelled ends: 338 mm → WBS, DATE, CKD; 69 mm → R14, ISk, Pn3569, CR3; 67 mm → R54, ISk, 18v R32, 75k; 59 mm → Ci5, 22/25, E10, coM; 57 mm → R52, ISk, 75k
+
+Every curve, box, word and wire group: [1975 - M457A - 5-101-02-003 - DUAL BOOSTER AMPLIFIER (traced).json](1975%20-%20M457A%20-%205-101-02-003%20-%20DUAL%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M457A - 5-101-02-003 - DUAL BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

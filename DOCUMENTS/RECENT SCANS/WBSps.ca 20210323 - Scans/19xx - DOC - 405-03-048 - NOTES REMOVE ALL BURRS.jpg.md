@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,829,575 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 405-03-048, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–299 mm up
+- **Outlines:** line 247 rings, 3,305 straight (7,086 mm) / 487 curved (676 mm); text 356 rings, 2,896 straight (3,791 mm) / 836 curved (1,406 mm); tb 33 rings, 283 straight (413 mm) / 56 curved (88.8 mm)
+- **Centre lines:** 9,372 paths (67 closed); straight 7,965 mm, curved 92.5 mm; horizontal 3,026 mm, vertical 1,881 mm, diagonal 3,058 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 5.7 @ (149.1, 181.0), r 5.7 @ (148.1, 162.3)
+- **Closed boxes:** 12 (8 in the title block)
+- **Words (OCR):** 56 in 37 lines: NOTES: · REMOVE ALL BURRS SHARP EDGES · TOLERANCES XX 015 · 1.000 · XXX 005 · 468 DIA · PLACES · 600 · 375 · 125 · 575 · 1.325
+- **Title block:** (277, 4)–(430, 72) mm: (issUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: 2/83 · MOUNTING BL OcK · ENG · Mew · FOR JAcks · CKD WL · USED ON · M405D · APP: · SCALE · ISSUE · 405-03-048
+
+Every curve, box, word and wire group: [19xx - DOC - 405-03-048 - NOTES REMOVE ALL BURRS (traced).json](19xx%20-%20DOC%20-%20405-03-048%20-%20NOTES%20REMOVE%20ALL%20BURRS%20%28traced%29.json) (the CAD file: `19xx - DOC - 405-03-048 - NOTES REMOVE ALL BURRS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

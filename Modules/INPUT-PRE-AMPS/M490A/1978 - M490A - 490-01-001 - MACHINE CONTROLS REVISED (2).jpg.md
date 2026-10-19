@@ -15,6 +15,20 @@ Wiki page: [M490A](../../../PAGES/M490A.md)
 
 - **1978** (labelled): `DRAWN 2/78` — …ON TALLY ASSIGN Ch ON Ch OFF On /START TIMER RESET 2/ 78 REDRAWN 2/78 MACHINE CONTROLS REVISED 42 ISSUE |DATE REVISION APP OFF TA…
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-001, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 452 rings, 4,236 straight (10,051 mm) / 542 curved (772 mm); text 445 rings, 3,052 straight (3,589 mm) / 890 curved (1,346 mm); tb 29 rings, 169 straight (174 mm) / 59 curved (85.8 mm)
+- **Centre lines:** 4,417 paths (72 closed); straight 7,137 mm, curved 79.3 mm; horizontal 3,220 mm, vertical 1,496 mm, diagonal 2,420 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 3.3 @ (169.7, 102.8), r 3.0 @ (142.4, 102.9)
+- **Closed boxes:** 17 (11 in the title block); named: PGMI CUE CTL Logic; SCALE; 490-01-001
+- **Words (OCR):** 65 in 57 lines: P1 LEFT · FADER · P2 LEFT · INSERT · (-15dB) Ch ON · Mic INPUTS · 60 /-30 dBm · 150 ohm · SENSITiviTY · Right · (30dB ) · INPUT
+- **Title block:** (286, 6)–(432, 88) mm: 2/ 78 · REDRAWN · 2/78 MACHINE · (ISSUE |DATE · REVISION · APF · WBS WARD-BECK · SYSTEMS · DRN GEB · ENG.GEB 2/78 · M49OA · MIc INPUT MODULE · CKD. Reb · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 490
+- **Wiring (first pass):** 169 connected wire groups from 407 runs; labelled ends: 99 mm → INSERT, (-15dB); 26 mm → SENSITiviTY; 22 mm → TALLY; 19 mm → ON, EXTERNAL, CONTROLS, CUE; 19 mm → Ch ON
+
+Every curve, box, word and wire group: [1978 - M490A - 490-01-001 - MACHINE CONTROLS REVISED (2) (traced).json](1978%20-%20M490A%20-%20490-01-001%20-%20MACHINE%20CONTROLS%20REVISED%20%282%29%20%28traced%29.json) (the CAD file: `1978 - M490A - 490-01-001 - MACHINE CONTROLS REVISED (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

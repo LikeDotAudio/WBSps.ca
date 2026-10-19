@@ -14,6 +14,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 
 - **1979** (labelled): `DATE AUg 79` — …D ICKD: USED ON MATL . WBS WAAD-BECK systeMs LTD- DRN: Srh [DATE AUg 79 CKD Rc SCALE TCLS { L3242A CoNSOLE FIMISH Bx | LINE SELECTO…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-005, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 3–371 mm across, 0–287 mm up
+- **Outlines:** line 248 rings, 5,680 straight (7,916 mm) / 787 curved (876 mm); text 238 rings, 1,776 straight (1,934 mm) / 536 curved (776 mm); tb 17 rings, 207 straight (391 mm) / 22 curved (30.9 mm)
+- **Centre lines:** 15,043 paths (89 closed); straight 8,608 mm, curved 33.1 mm; horizontal 3,080 mm, vertical 2,199 mm, diagonal 3,329 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 30 (26 in the title block); named: WBS WAAD-BECK systeMs LTD-; L3242A CoNSOLE Bx | LINE SELECTORS $ ANO; 790236- 02 005
+- **Words (OCR):** 37 in 28 lines: M462B · E8 · [5,16 · EQUALIZER · 20 · 20 · CoM · -25v · t2Sv · CONSOLE WiRED · UniTS · FoP Two
+- **Title block:** (6, 7)–(280, 59) mm: DSS MOD ICKD: · USED ON · MATL . · WBS WAAD-BECK systeMs LTD- · DRN: Srh · L3242A CoNSOLE · FIMISH · [DATE AUg 79 · CKD · Rc · Bx | LINE SELECTORS $ ANOLUAR { EqUIPMENT · SCALE · scheMaTIC · TCLS · 79
+- **Wiring (first pass):** 18 connected wire groups from 180 runs; labelled ends: 126 mm → [5,16, 20, CoM, t2Sv; 23 mm → [5,16; 10 mm → Bx | LINE SELECTORS $ ANOLUAR { EqUIPMENT, ISS_; 8 mm → E8; 6 mm → CoM
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-005 - CONSOLE WIRED FOR TWO UNITS SSMODICKD USED (traced).json](1979%20-%20790236%20-%20790236-02-005%20-%20CONSOLE%20WIRED%20FOR%20TWO%20UNITS%20SSMODICKD%20USED%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-005 - CONSOLE WIRED FOR TWO UNITS SSMODICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

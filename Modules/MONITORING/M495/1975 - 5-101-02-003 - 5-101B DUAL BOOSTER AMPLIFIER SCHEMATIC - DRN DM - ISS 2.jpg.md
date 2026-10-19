@@ -29,6 +29,21 @@ Wiki page: [M495](../../../PAGES/M495.md)
 
 - **1975** (labelled): `DATE JAN 75` — …3645 R38 ISk RED ON MATL WBS WARD-BECK SySTEMs LTD: DRN_ DM DATE JAN 75 CKD. Rk SCALE XX TOLS _ Ag 5-101B DUAL BOOSTER AMPLIFIER SC…
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 5-101-02-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 299 rings, 7,076 straight (12,927 mm) / 887 curved (1,437 mm); text 511 rings, 5,282 straight (7,120 mm) / 1,425 curved (2,515 mm); tb 18 rings, 265 straight (516 mm) / 16 curved (32.5 mm)
+- **Centre lines:** 6,055 paths (66 closed); straight 12,031 mm, curved 430 mm; horizontal 4,155 mm, vertical 2,866 mm, diagonal 5,010 mm
+- **Circles and arcs:** 10 circles, 9 arcs; largest r 8.9 @ (130.3, 125.1), r 8.9 @ (133.0, 378.0), r 8.7 @ (131.7, 211.9), r 8.5 @ (132.4, 290.1)
+- **Closed boxes:** 13 (4 in the title block); named: RED; MATL _; WBS BYSTEMS WARD-BECK LTD:; 5-101B DUAL BOOSTE R AMPLIFIER SCHEMATIC; FINISH; XX Za TOLS _; LB; 5 _ 101-02 003; IsS.
+- **Dots (junctions):** 1
+- **Words (OCR):** 93 in 75 lines: ExtErNAL · connEction · R35 · I5k · Q5 · Pn35G9 · R31 · CRS R39 · H18v {8k · 33 · C13 · R45 E7
+- **Title block:** (98, 16)–(249, 86) mm: WBS WARD-BECK · DRN: DM · 5-101B · DATE JAN 75 · Rek · DUAL BOOSTE R AMPLIFIER · CKD_ · SCALE · TOLS _
+- **Wiring (first pass):** 60 connected wire groups from 339 runs; labelled ends: 232 mm → ON, WBS; 184 mm → DRN:, DATE, CKD_; 176 mm → I5k, CRS, CRG, 33; 143 mm → R31, H18v {8k, CRS, R39; 130 mm → RED, WARD-BECK, BYSTEMS, LTD:
+
+Every curve, box, word and wire group: [1975 - 5-101-02-003 - 5-101B DUAL BOOSTER AMPLIFIER SCHEMATIC - DRN DM - ISS 2 (traced).json](1975%20-%205-101-02-003%20-%205-101B%20DUAL%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1975 - 5-101-02-003 - 5-101B DUAL BOOSTER AMPLIFIER SCHEMATIC - DRN DM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

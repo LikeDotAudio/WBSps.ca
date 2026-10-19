@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,859,165 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950278-03-001, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 2–424 mm across, 5–266 mm up
+- **Outlines:** line 239 rings, 1,680 straight (3,636 mm) / 372 curved (443 mm); text 380 rings, 2,130 straight (2,101 mm) / 777 curved (1,008 mm); tb 23 rings, 160 straight (192 mm) / 40 curved (50.3 mm)
+- **Centre lines:** 4,684 paths (125 closed); straight 3,941 mm, curved 15.2 mm; horizontal 1,113 mm, vertical 1,134 mm, diagonal 1,694 mm
+- **Circles and arcs:** 1 circles, 5 arcs; largest r 1.8 @ (157.8, 242.4)
+- **Closed boxes:** 12 (3 in the title block); named: TALKBACK    PANEL MOD Width); 950278-03-001
+- **Dots (junctions):** 3
+- **Words (OCR):** 36 in 26 lines: 85 · 950278-03- 001 _ · PUSHBUTTON ENGRAVINC · LENSE TYPE 1/27 DIALCO (325-0075 WHITE) · 950278-03-001-1 PANEL · ENCRAMNG · GORTON CONDENSED · WBS SPEC 412006 AND · MATERIAL: ALUM ALLOY 0.125 THICK · FILL BLACK: · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BEIGE (452C)
+- **Title block:** (273, 22)–(430, 120) mm: LENSE TYPE 1/27 DIALCO (325-0075 WHITE) · GORTON CONDENSED · WBS SPEC 412006 AND · FILL BLACK: · REY SOt · WARD-BECK SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1995 - 950278 - DOC - 950278-03-001 - TALKBACK PANEL MOD WIDTH (traced).json](1995%20-%20950278%20-%20DOC%20-%20950278-03-001%20-%20TALKBACK%20PANEL%20MOD%20WIDTH%20%28traced%29.json) (the CAD file: `1995 - 950278 - DOC - 950278-03-001 - TALKBACK PANEL MOD WIDTH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

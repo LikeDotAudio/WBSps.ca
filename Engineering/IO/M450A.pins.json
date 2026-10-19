@@ -1,0 +1,240 @@
+{
+ "code": "M450A",
+ "name": "Program Amplifer",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 18,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "B",
+   "row": 2,
+   "side": "letter",
+   "signal": "TYPE ELCO OO -6007-015-940-002",
+   "kind": "other",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5db06d774ccb3a266b5942371a2f43bb53884be88d50546f33911e4ede8cd37a",
+    "file": "Modules/AMPLIFIERS/M450A/1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "AHEN",
+   "kind": "other",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5db06d774ccb3a266b5942371a2f43bb53884be88d50546f33911e4ede8cd37a",
+    "file": "Modules/AMPLIFIERS/M450A/1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "INPUT WHEN",
+   "kind": "in",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5db06d774ccb3a266b5942371a2f43bb53884be88d50546f33911e4ede8cd37a",
+    "file": "Modules/AMPLIFIERS/M450A/1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "USED AS",
+   "kind": "other",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5db06d774ccb3a266b5942371a2f43bb53884be88d50546f33911e4ede8cd37a",
+    "file": "Modules/AMPLIFIERS/M450A/1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "INPUT SHIELD",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5db06d774ccb3a266b5942371a2f43bb53884be88d50546f33911e4ede8cd37a",
+    "file": "Modules/AMPLIFIERS/M450A/1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "GAIN SET",
+   "kind": "other",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5db06d774ccb3a266b5942371a2f43bb53884be88d50546f33911e4ede8cd37a",
+    "file": "Modules/AMPLIFIERS/M450A/1973 - M450A - 450-04-001 - CALE CONNECTOR LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "row 18 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450A/M450A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450A/M450A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450A/M450A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M450A/M450A.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450A/M450A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M450A/M450A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

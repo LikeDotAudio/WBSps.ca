@@ -11,6 +11,21 @@ Wiki page: [M201](../../../PAGES/M201.md)
 - **Size:** 401,466 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 201-02-001, size B (assumed) 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–282 mm up
+- **Outlines:** line 1,074 rings, 9,375 straight (15,240 mm) / 2,322 curved (2,823 mm); text 460 rings, 2,582 straight (2,266 mm) / 974 curved (1,201 mm); tb 14 rings, 157 straight (185 mm) / 39 curved (48.3 mm)
+- **Centre lines:** 12,197 paths (311 closed); straight 11,119 mm, curved 133 mm; horizontal 3,868 mm, vertical 2,784 mm, diagonal 4,468 mm
+- **Circles and arcs:** 3 circles, 36 arcs; largest r 3.3 @ (161.6, 105.3), r 3.1 @ (320.6, 105.8), r 1.0 @ (318.6, 25.5)
+- **Closed boxes:** 49 (2 in the title block); named: R2a; Mzoi; ALDIC; Shoat; OPEH; Mzoic; 5k; CkB; DELT puxPEr OFLAT StoRT short OPEN OPEH; DELT; OFLAT; 5/84
+- **Dots (junctions):** 1
+- **Words (OCR):** 90 in 72 lines: LEGFND · R2a · Mzoi ALDIC · Shoat · OPEH Sabrt · RELAT · Mzoic · 5k 50 · ShoRT · MzoID · CkB 510 · Sunu
+- **Title block:** (359, 16)–(432, 32) mm: WBS WVARO-Beck sybtens
+- **Wiring (first pass):** 121 connected wire groups from 850 runs; labelled ends: 297 mm → StoRT, puxPEr, short, OPEN; 255 mm → R13<; 232 mm → <rls; 218 mm → Mzoi, ALDIC, Sabrt, RELAT; 93 mm → cry, CONTROL Cohvon
+
+Every curve, box, word and wire group: [1979 - M201 - 201-02-001 - SEC SHORT SHORT OPEN SHORT OPEN OPEN (traced).json](1979%20-%20M201%20-%20201-02-001%20-%20SEC%20SHORT%20SHORT%20OPEN%20SHORT%20OPEN%20OPEN%20%28traced%29.json) (the CAD file: `1979 - M201 - 201-02-001 - SEC SHORT SHORT OPEN SHORT OPEN OPEN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

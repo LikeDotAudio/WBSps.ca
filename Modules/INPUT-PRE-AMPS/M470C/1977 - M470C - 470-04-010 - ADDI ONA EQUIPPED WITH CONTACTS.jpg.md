@@ -11,6 +11,19 @@ Wiki page: [M470C](../../../PAGES/M470C.md)
 - **Size:** 445,179 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-010, size B (assumed) 432 × 314 mm, 2000 × 1455 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–306 mm up
+- **Outlines:** line 1,003 rings, 5,830 straight (12,413 mm) / 1,609 curved (1,866 mm); text 699 rings, 3,403 straight (2,767 mm) / 1,252 curved (1,490 mm); tb 1,397 rings, 7,376 straight (11,275 mm) / 2,160 curved (2,944 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 0.7 @ (82.8, 54.0), r 0.7 @ (44.5, 76.8), r 0.7 @ (27.9, 227.3), r 0.7 @ (70.6, 143.1)
+- **Closed boxes:** 4 (1 in the title block); named: SELEcTOR ImpuT en conctc [ 5; DS?; Indicie; shio switcher Sel (Pre) outpuls ther cha
+- **Dots (junctions):** 10
+- **Words (OCR):** 112 in 96 lines: WBS · Matoc · PASTER · Khcn · LLF T · Swz : · decressed RighT · MSTER sunnina · output 4ASTER iuMing · resistors · ou put · Swie
+- **Title block:** (164, 0)–(432, 310) mm: WBS · Matoc · Swz : · decressed RighT · output 4ASTER iuMing · resistors · Swilcnes · Sw1B · 57?o · citernj| · unming · into · #igh-Pass · Pass deoreated · er · his · Ieve| ccntrol rarde · conirol · P
+
+Every curve, box, word and wire group: [1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS (traced).json](1977%20-%20M470C%20-%20470-04-010%20-%20ADDI%20ONA%20EQUIPPED%20WITH%20CONTACTS%20%28traced%29.json) (the CAD file: `1977 - M470C - 470-04-010 - ADDI ONA EQUIPPED WITH CONTACTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 15 words corrected)

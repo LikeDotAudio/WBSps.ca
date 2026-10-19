@@ -11,6 +11,21 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 8,714,368 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 457-02-001, size B (assumed) 432 × 141 mm, 2000 × 654 px traced (0.216 mm/px)
+- **Ink extent:** 2–430 mm across, 0–141 mm up
+- **Outlines:** line 1,337 rings, 15,815 straight (21,080 mm) / 3,642 curved (4,108 mm); text 158 rings, 996 straight (831 mm) / 313 curved (353 mm); tb 21 rings, 127 straight (166 mm) / 27 curved (28.6 mm)
+- **Centre lines:** 23,008 paths (352 closed); straight 15,299 mm, curved 236 mm; horizontal 5,767 mm, vertical 3,798 mm, diagonal 5,733 mm
+- **Circles and arcs:** 8 circles, 49 arcs; largest r 2.5 @ (44.9, 76.3), r 2.5 @ (213.7, 76.3), r 1.9 @ (246.1, 121.0), r 1.9 @ (189.5, 120.4)
+- **Closed boxes:** 30 (9 in the title block); named: LBI; 457-02-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 32 in 31 lines: NOTES: · 6-106 · CAPACITOA · SPECIFIED · Rz % · Rs 5 · J6,08 · (0-16; · {0-301 · Caz · cmea · Rio? _
+- **Title block:** (307, 6)–(432, 30) mm: WBS WAAD-Beck Bybteme · REDRAWN · 44st · 4*2 · ~MixeR · SCALE · SCHEMAIC · ToLs · LBI · 457-02-001
+- **Wiring (first pass):** 182 connected wire groups from 1,137 runs; labelled ends: 106 mm → cmea, 29, 848, Tvs; 91 mm → R8; 65 mm → Rio? _; 51 mm → 29; 44 mm → 79, 34
+
+Every curve, box, word and wire group: [1975 - M457 - 457-02-001 - JIO EXTERNAL SUMMNG INOU RIS (3) (traced).json](1975%20-%20M457%20-%20457-02-001%20-%20JIO%20EXTERNAL%20SUMMNG%20INOU%20RIS%20%283%29%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-02-001 - JIO EXTERNAL SUMMNG INOU RIS (3) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

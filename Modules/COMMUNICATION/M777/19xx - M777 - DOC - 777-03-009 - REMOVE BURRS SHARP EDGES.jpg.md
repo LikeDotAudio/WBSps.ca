@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,894,800 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 777-03-009, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 154 rings, 2,591 straight (7,089 mm) / 291 curved (397 mm); text 288 rings, 2,109 straight (2,626 mm) / 605 curved (902 mm); tb 9 rings, 143 straight (255 mm) / 13 curved (16.9 mm)
+- **Centre lines:** 3,736 paths (61 closed); straight 5,837 mm, curved 39.1 mm; horizontal 3,028 mm, vertical 1,233 mm, diagonal 1,576 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 1.8 @ (57.8, 123.3), r 1.4 @ (239.4, 169.1)
+- **Closed boxes:** 12 (9 in the title block)
+- **Words (OCR):** 44 in 38 lines: NQIES: · MATERIAL · 048 Thk ALUM: ALLOY · FINISH · BLACK ANODIZE · 4*00 · Z.00 · 187 · TOLERANCES · XX · 015 · XXX
+- **Title block:** (278, 3)–(431, 71) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK sysTEMS · DRN: · MPW 2/82 · ENG · Mrw · M777 HEATSinK · CKD · For · SA 14-035 ) · APP · SCALE · ISSUE · 777 -03-009
+
+Every curve, box, word and wire group: [19xx - M777 - DOC - 777-03-009 - REMOVE BURRS SHARP EDGES (traced).json](19xx%20-%20M777%20-%20DOC%20-%20777-03-009%20-%20REMOVE%20BURRS%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `19xx - M777 - DOC - 777-03-009 - REMOVE BURRS SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

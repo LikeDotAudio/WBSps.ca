@@ -11,6 +11,16 @@ Wiki page: [M467](../../../PAGES/M467.md)
 - **Size:** 496,585 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 467-04-001, size B (assumed) 432 × 335 mm, 2000 × 1552 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–427 mm across, 5–333 mm up
+- **Outlines:** line 221 rings, 4,500 straight (11,738 mm) / 500 curved (846 mm); text 258 rings, 2,239 straight (2,994 mm) / 604 curved (1,011 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (25.7, 79.2), r 2.4 @ (93.9, 79.1)
+- **Closed boxes:** 88
+
+Every curve, box, word and wire group: [1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW (traced).json](1976%20-%20M467%20-%20467-04-001%20-%20METER%20MODULE%20ALE%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

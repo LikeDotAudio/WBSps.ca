@@ -12,6 +12,18 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 490,284 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-020, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 796 rings, 7,852 straight (20,567 mm) / 1,672 curved (2,751 mm); text 2,028 rings, 10,617 straight (9,260 mm) / 4,149 curved (5,238 mm)
+- **Circles and arcs:** 31 circles, 0 arcs; largest r 8.9 @ (255.2, 321.4), r 7.2 @ (255.1, 268.3), r 5.3 @ (254.7, 80.8), r 5.3 @ (254.9, 200.7)
+- **Closed boxes:** 12; named: MASTER: Sw22 SW23 : When tches and LEFT ; REV SEND switches Sw7 SW9 and Swio: with; MODE SELECTOR SwI: High FREQUENCY sectio; Mid FREQUENCY section; FREQUE NcY ADJUST; FREQUENCY LOw section; FREQUE NcY ADJUST; EQUALIZER INSERT switch Sw13: this When ; SOLO Sw16 When the switch depressed igna
+- **Dots (junctions):** 2
+- **Words (OCR):** 293 in 156 lines: WBS · M463 · MASTER: · tches · Sw22 and · SW23 : When · depressed; · istors to external master · LEFT output signa · suming buses and/or · fed via · sunming
+
+Every curve, box, word and wire group: [1972 - M463 - 463-04-020 - WHEN DEPRESSED THIS SWITCH INSERTS THE EQUALIZER SECTION (traced).json](1972%20-%20M463%20-%20463-04-020%20-%20WHEN%20DEPRESSED%20THIS%20SWITCH%20INSERTS%20THE%20EQUALIZER%20SECTION%20%28traced%29.json) (the CAD file: `1972 - M463 - 463-04-020 - WHEN DEPRESSED THIS SWITCH INSERTS THE EQUALIZER SECTION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

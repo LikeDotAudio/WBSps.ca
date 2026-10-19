@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,397,653 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 471-02-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 2–279 mm up
+- **Outlines:** line 930 rings, 8,945 straight (19,221 mm) / 1,580 curved (2,024 mm); text 856 rings, 5,314 straight (5,229 mm) / 1,524 curved (1,933 mm); tb 20 rings, 206 straight (212 mm) / 37 curved (45.8 mm)
+- **Centre lines:** 12,641 paths (232 closed); straight 14,417 mm, curved 263 mm; horizontal 5,249 mm, vertical 3,608 mm, diagonal 5,560 mm
+- **Circles and arcs:** 4 circles, 48 arcs; largest r 3.9 @ (60.4, 86.0), r 3.7 @ (51.8, 34.4), r 2.6 @ (139.2, 139.0), r 1.0 @ (46.4, 80.8)
+- **Closed boxes:** 24 (7 in the title block); named: 471-02-001
+- **Words (OCR):** 161 in 153 lines: Sw · CH · 163 · 267 · BALANZE · 2E2 · 2E4 · R5G · RGD · 8-109B · 33k · 390
+- **Title block:** (353, 7)–(432, 34) mm: WBS WARD-BECK SYSteMS · M471 · ckd BL · STEREO INPUT MODULE · SCHEMATIC
+- **Wiring (first pass):** 162 connected wire groups from 906 runs; labelled ends: 160 mm → POST; 152 mm → swio; 142 mm → R5G, 33k, R5B, CIs; 128 mm → 22/25, 20, 470k, iN4003; 118 mm → SWS, swio
+
+Every curve, box, word and wire group: [19xx - M471 - DOC - 471-02-001 - UNLESS SPECIFIED OTHERWISE USE PCE (traced).json](19xx%20-%20M471%20-%20DOC%20-%20471-02-001%20-%20UNLESS%20SPECIFIED%20OTHERWISE%20USE%20PCE%20%28traced%29.json) (the CAD file: `19xx - M471 - DOC - 471-02-001 - UNLESS SPECIFIED OTHERWISE USE PCE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

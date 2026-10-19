@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,024,810 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 462-02-001, size B (assumed) 432 × 279 mm, 2000 × 1291 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–278 mm up
+- **Outlines:** line 1,124 rings, 10,904 straight (23,692 mm) / 2,240 curved (2,792 mm); text 982 rings, 5,643 straight (5,246 mm) / 1,878 curved (2,389 mm); tb 10 rings, 83 straight (140 mm) / 16 curved (16.7 mm)
+- **Centre lines:** 14,166 paths (264 closed); straight 17,089 mm, curved 302 mm; horizontal 5,716 mm, vertical 5,230 mm, diagonal 6,143 mm
+- **Circles and arcs:** 9 circles, 62 arcs; largest r 3.0 @ (370.9, 232.3), r 3.0 @ (354.8, 228.0), r 3.0 @ (363.1, 242.1), r 2.9 @ (361.9, 181.2)
+- **Closed boxes:** 28 (1 in the title block); named: FILTER AMPLIFIER 4-126 E12; M462 EQUALIZER SCHEMATIC; OCT 76; SCALL; Tols; 462-02-00
+- **Dots (junctions):** 1
+- **Words (OCR):** 191 in 175 lines: hich · FREQENCY · MId FREQUENCY · Low FREQUENCY · #.Gkhz-25k42 · 25Hz-400 Hz: · DO · 03 tipz9b · 2Sv+ · Pn35c9 · FILTER AMPLIFIER · 4-126
+- **Title block:** (350, 18)–(426, 33) mm: WBS WAAD-BeCk Bystems LTC · M462
+- **Wiring (first pass):** 180 connected wire groups from 1,199 runs, 3 dotted junctions; labelled ends: 298 mm → WBS; 284 mm → INSERT, R4, Gk2, R47; 258 mm → RI2; 190 mm → 2+3; 142 mm → C45, 6.8/6
+
+Every curve, box, word and wire group: [19xx - DOC - 462-02-001 - IMOD ICKD ENZMB KAETM (traced).json](19xx%20-%20DOC%20-%20462-02-001%20-%20IMOD%20ICKD%20ENZMB%20KAETM%20%28traced%29.json) (the CAD file: `19xx - DOC - 462-02-001 - IMOD ICKD ENZMB KAETM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

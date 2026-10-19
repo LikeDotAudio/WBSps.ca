@@ -24,6 +24,19 @@ Wide tube-era amplifier/compressor schematic strip with small title block at bot
 - **Size:** 3,068,237 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 406-02-013, size B 432 × 100 mm, 2000 × 461 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–100 mm up
+- **Outlines:** line 1,339 rings, 13,863 straight (19,780 mm) / 2,790 curved (3,204 mm); text 93 rings, 569 straight (456 mm) / 178 curved (213 mm)
+- **Centre lines:** 17,479 paths (410 closed); straight 12,944 mm, curved 179 mm; horizontal 5,513 mm, vertical 2,806 mm, diagonal 4,624 mm
+- **Circles and arcs:** 7 circles, 36 arcs; largest r 3.8 @ (307.1, 82.2), r 3.8 @ (307.2, 63.3), r 3.7 @ (119.6, 30.6), r 3.2 @ (211.9, 68.5)
+- **Closed boxes:** 7
+- **Words (OCR):** 13 in 11 lines: AEsISTCAS · OTHERMISE · Van 3* VALUE Cus · Cancitok · RI2S · UJoNeNT · SAES · 8 S · M4OSB COMPRESSCR · ScHEMATIC · CONTRCL odisin
+- **Wiring (first pass):** 117 connected wire groups from 826 runs; labelled ends: 95 mm → 8 S; 28 mm → M4OSB COMPRESSCR; 13 mm → 8 S; 7 mm → SAES, M4OSB COMPRESSCR; 6 mm → SAES, M4OSB COMPRESSCR
+
+Every curve, box, word and wire group: [1969 - 406-02-013 - M406B COMPRESSOR SCHEMATIC CEILING CONTROL MODIFIED - DRN DJG - ISS 2 (traced).json](1969%20-%20406-02-013%20-%20M406B%20COMPRESSOR%20SCHEMATIC%20CEILING%20CONTROL%20MODIFIED%20-%20DRN%20DJG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1969 - 406-02-013 - M406B COMPRESSOR SCHEMATIC CEILING CONTROL MODIFIED - DRN DJG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

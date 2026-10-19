@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 261,149 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 462-04-006, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 3–305 mm across, 20–432 mm up
+- **Outlines:** line 318 rings, 2,809 straight (9,634 mm) / 527 curved (760 mm); text 1,176 rings, 5,793 straight (5,386 mm) / 2,076 curved (2,868 mm); tb 352 rings, 1,964 straight (3,514 mm) / 565 curved (948 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 0.9 @ (96.4, 189.0), r 0.9 @ (266.8, 171.6), r 0.9 @ (109.1, 189.1), r 0.8 @ (269.5, 264.2)
+- **Closed boxes:** 16 (6 in the title block); named: high FREQUENCY section_ contro to 25 kHz; FREQUE NCY BoosT/cUT R13: section +15 db; FREQuEncY ADJUSTHENT hid Frequency contr; Hid FREQUENCY section_ AdjusthenT R6 low; Ril: hid FRequEncY contro able dB to -15; ADJUS THENT Lod FREQUENCY section. Frequ; Low FREQUENCY boosticut RI6 : section co; EQUALIZER IMSERT thi: switch 9ign2 the t; 462-04-006
+- **Dots (junctions):** 3
+- **Words (OCR):** 164 in 108 lines: WBS · M4624 · 6.412 8 · high FREQUENCY section_ · to 25 kHz. The · contro · calbration cfines · Cont nuous · shetbinc corner of 15 dB. · variab · from · 1.6
+- **Title block:** (139, 24)–(262, 318) mm: WBS · M4624 · 6.412 8 · FREQUE NCY section · BoosT/cUT · Cont · nuousiY · able · gain Ios: · terial xith rcference · of high frequency content · MF · RH · hid FRequEncY · Continuous · Jos$ · Vri · abl
+
+Every curve, box, word and wire group: [19xx - M462A - DOC - 462-04-006 - EQUALIZER MODULE FRONT PANEL ISSU (traced).json](19xx%20-%20M462A%20-%20DOC%20-%20462-04-006%20-%20EQUALIZER%20MODULE%20FRONT%20PANEL%20ISSU%20%28traced%29.json) (the CAD file: `19xx - M462A - DOC - 462-04-006 - EQUALIZER MODULE FRONT PANEL ISSU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

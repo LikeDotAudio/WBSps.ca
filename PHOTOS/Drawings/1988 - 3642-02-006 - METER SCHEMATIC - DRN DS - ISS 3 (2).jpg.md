@@ -22,6 +22,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 3,191,304 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-006, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 270°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 2,041 rings, 18,364 straight (41,183 mm) / 3,696 curved (7,811 mm); text 194 rings, 1,354 straight (3,332 mm) / 428 curved (1,279 mm)
+- **Centre lines:** 30,925 paths (132 closed); straight 33,654 mm, curved 425 mm; horizontal 10,347 mm, vertical 9,166 mm, diagonal 14,142 mm
+- **Circles and arcs:** 3 circles, 48 arcs; largest r 2.5 @ (143.7, 410.7), r 2.0 @ (103.7, 508.8), r 2.0 @ (354.0, 468.6)
+- **Closed boxes:** 51
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 141 connected wire groups from 1,946 runs
+
+Every curve, box, word and wire group: [1988 - 3642-02-006 - METER SCHEMATIC - DRN DS - ISS 3 (2) (traced).json](1988%20-%203642-02-006%20-%20METER%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1988 - 3642-02-006 - METER SCHEMATIC - DRN DS - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

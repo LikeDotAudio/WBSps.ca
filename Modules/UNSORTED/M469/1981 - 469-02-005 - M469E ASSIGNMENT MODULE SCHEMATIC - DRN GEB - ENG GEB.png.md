@@ -22,6 +22,20 @@ Wiki page: [M469](../../../PAGES/M469.md)
 - **Size:** 1,435,441 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 469-02-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–427 mm across, 11–298 mm up
+- **Outlines:** line 244 rings, 4,223 straight (7,543 mm) / 661 curved (814 mm); text 198 rings, 1,654 straight (1,906 mm) / 496 curved (740 mm); tb 34 rings, 331 straight (396 mm) / 66 curved (77.5 mm)
+- **Centre lines:** 8,029 paths (50 closed); straight 6,779 mm, curved 149 mm; horizontal 2,826 mm, vertical 1,459 mm, diagonal 2,494 mm
+- **Circles and arcs:** 13 circles, 18 arcs; largest r 1.5 @ (186.5, 135.1), r 1.5 @ (186.3, 235.4), r 1.3 @ (186.5, 115.8), r 1.2 @ (186.5, 109.1)
+- **Closed boxes:** 8 (7 in the title block); named: SCALE
+- **Words (OCR):** 39 in 37 lines: INPUT · 14 · Swi · 30k · R2 · Sk · MN · OUT · 13 · INPUT 2 · SWz · 30K
+- **Title block:** (290, 17)–(432, 85) mm: ISSUE |DATE · REVISION · APF · WBS WARD-BECK SYSTEMS · DRN, GEB · M469E · ENG GEB4/81 · ASSIGNMENT MODULE · CKD; · SCHEMATIC · APP · SCALE · ISSUE
+- **Wiring (first pass):** 26 connected wire groups from 196 runs; labelled ends: 116 mm → 13, R4, 30K, R5; 103 mm → 14; 96 mm → 14, Swi; 95 mm → 13, SWz; 44 mm → R2, Sk, OUT
+
+Every curve, box, word and wire group: [1981 - 469-02-005 - M469E ASSIGNMENT MODULE SCHEMATIC - DRN GEB - ENG GEB (traced).json](1981%20-%20469-02-005%20-%20M469E%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20%28traced%29.json) (the CAD file: `1981 - 469-02-005 - M469E ASSIGNMENT MODULE SCHEMATIC - DRN GEB - ENG GEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

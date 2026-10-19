@@ -11,6 +11,18 @@ Wiki page: [M703](../../../PAGES/M703.md)
 - **Size:** 4,871,816 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 703-06-001, size B (assumed) 142 × 432 mm, 657 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–140 mm across, 10–432 mm up
+- **Outlines:** line 3,587 rings, 19,672 straight (19,504 mm) / 4,809 curved (4,599 mm); text 219 rings, 1,182 straight (889 mm) / 349 curved (357 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 0.9 @ (37.3, 211.0), r 0.8 @ (102.9, 237.8), r 0.8 @ (111.1, 119.9), r 0.7 @ (108.1, 201.6)
+- **Closed boxes:** 16; named: 28
+- **Dots (junctions):** 10
+- **Words (OCR):** 4 in 4 lines: 6 2 · 67 · 28 · 29
+
+Every curve, box, word and wire group: [1977 - M703 - LB 703-06-001 - M703 - I-C PRE & OUTPUT AMPLIFIER - LAYOUT (traced).json](1977%20-%20M703%20-%20LB%20703-06-001%20-%20M703%20-%20I-C%20PRE%20%26%20OUTPUT%20AMPLIFIER%20-%20LAYOUT%20%28traced%29.json) (the CAD file: `1977 - M703 - LB 703-06-001 - M703 - I-C PRE & OUTPUT AMPLIFIER - LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

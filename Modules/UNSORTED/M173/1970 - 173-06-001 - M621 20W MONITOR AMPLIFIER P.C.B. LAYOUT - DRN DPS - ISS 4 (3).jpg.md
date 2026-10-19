@@ -23,6 +23,18 @@ Wiki page: [M173](../../../PAGES/M173.md)
 - **Size:** 672,929 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 173-06-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 2,570 rings, 21,106 straight (18,224 mm) / 6,252 curved (5,950 mm); text 526 rings, 5,450 straight (4,761 mm) / 1,728 curved (1,835 mm); tb 32 rings, 101 straight (54.5 mm) / 23 curved (20.6 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 15.3 @ (160.5, 271.6), r 15.1 @ (210.4, 331.0), r 14.9 @ (289.0, 297.0), r 12.5 @ (160.6, 271.6)
+- **Closed boxes:** 25 (1 in the title block); named: rsi; Ir48; r44; R4?; [g2; Ilcra; Rae; Reeh0; To; Rrsi; ~22; HR43
+- **Words (OCR):** 68 in 60 lines: Holes FoR · TRANSFER OF · TrAck OnLY · R53 · rsi · 95 · 232 · r44 · Ir48 · Q3 · 247 · R4?
+- **Title block:** (87, 32)–(253, 92) mm: CNGLES WARD · BECK · DRn · Pp5 · M 62 | · 27july 70 · 20W · DATE
+
+Every curve, box, word and wire group: [1970 - 173-06-001 - M621 20W MONITOR AMPLIFIER P.C.B. LAYOUT - DRN DPS - ISS 4 (3) (traced).json](1970%20-%20173-06-001%20-%20M621%2020W%20MONITOR%20AMPLIFIER%20P.C.B.%20LAYOUT%20-%20DRN%20DPS%20-%20ISS%204%20%283%29%20%28traced%29.json) (the CAD file: `1970 - 173-06-001 - M621 20W MONITOR AMPLIFIER P.C.B. LAYOUT - DRN DPS - ISS 4 (3) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

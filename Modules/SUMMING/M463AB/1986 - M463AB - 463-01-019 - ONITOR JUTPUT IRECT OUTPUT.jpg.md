@@ -11,6 +11,20 @@ Wiki page: [M463AB](../../../PAGES/M463AB.md)
 - **Size:** 239,362 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 463-01-019, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 1–420 mm up
+- **Outlines:** line 100 rings, 4,453 straight (9,106 mm) / 582 curved (861 mm); text 362 rings, 3,306 straight (4,115 mm) / 911 curved (1,493 mm); tb 14 rings, 216 straight (377 mm) / 27 curved (40.6 mm)
+- **Centre lines:** 3,089 paths (53 closed); straight 7,777 mm, curved 56.6 mm; horizontal 3,537 mm, vertical 1,814 mm, diagonal 2,426 mm
+- **Circles and arcs:** 2 circles, 4 arcs; largest r 1.8 @ (181.3, 221.6), r 1.3 @ (209.1, 221.2)
+- **Closed boxes:** 4 (4 in the title block)
+- **Words (OCR):** 47 in 45 lines: MoniToR · OUTPUt · DIRECT OUTPUt · +8dBm 600__ · n iNSERT · PAN · -18dB) · SOLO · SOLO · SOLO · CONTROL · COMMON
+- **Title block:** (114, 7)–(330, 109) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.HH, Deces · M463AB · ENG · SUBMASTER · MODULE · CKD · DIAGRAM · FUNCTIONAL · AP? · SCALE · ISSUE · 463-01-019
+- **Wiring (first pass):** 70 connected wire groups from 130 runs; labelled ends: 108 mm → n iNSERT; 103 mm → SOLO; 79 mm → n iNSERT; 77 mm → SOLO; 72 mm → 'RE[Post, LEVEL
+
+Every curve, box, word and wire group: [1986 - M463AB - 463-01-019 - ONITOR JUTPUT IRECT OUTPUT (traced).json](1986%20-%20M463AB%20-%20463-01-019%20-%20ONITOR%20JUTPUT%20IRECT%20OUTPUT%20%28traced%29.json) (the CAD file: `1986 - M463AB - 463-01-019 - ONITOR JUTPUT IRECT OUTPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

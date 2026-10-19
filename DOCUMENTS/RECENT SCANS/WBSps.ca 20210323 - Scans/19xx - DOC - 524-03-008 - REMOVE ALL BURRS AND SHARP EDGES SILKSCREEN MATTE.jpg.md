@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,666,092 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 524-03-008, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 65 rings, 1,945 straight (6,157 mm) / 134 curved (198 mm); text 312 rings, 2,513 straight (3,128 mm) / 773 curved (1,149 mm); tb 7 rings, 111 straight (226 mm) / 10 curved (17.8 mm)
+- **Centre lines:** 2,656 paths (40 closed); straight 5,492 mm, curved 0.0 mm; horizontal 2,516 mm, vertical 1,382 mm, diagonal 1,595 mm
+- **Closed boxes:** 7 (6 in the title block)
+- **Words (OCR):** 35 in 32 lines: NOTES · MATERIAL · 060 RED PLEXIGLASS · TOLERANCES · XXX 005 · 2.820 · REMOVE ALL BURRS AND SHARP EDGES · 8524-03-oo8/ · SILKSCREEN · AND OTHER SILE (SHINY) To AW 8524-03-o8/2' · MATTE SIDE TO Alw · 1.720
+- **Title block:** (277, 4)–(430, 74) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN: · TR V84 · M524 · ENG · TR · CKD. · LOWER DISPLAY SCREEN · APP · SCALE · JSSUE · 524 _ · 03 -
+
+Every curve, box, word and wire group: [19xx - DOC - 524-03-008 - REMOVE ALL BURRS AND SHARP EDGES SILKSCREEN MATTE (traced).json](19xx%20-%20DOC%20-%20524-03-008%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20SILKSCREEN%20MATTE%20%28traced%29.json) (the CAD file: `19xx - DOC - 524-03-008 - REMOVE ALL BURRS AND SHARP EDGES SILKSCREEN MATTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

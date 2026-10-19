@@ -11,6 +11,20 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 396,093 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 460-02-028, size B (assumed) 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 0–426 mm up
+- **Outlines:** line 509 rings, 7,645 straight (15,090 mm) / 1,446 curved (1,866 mm); text 767 rings, 5,047 straight (4,719 mm) / 1,800 curved (2,288 mm); tb 2 rings, 62 straight (154 mm) / 2 curved (2.1 mm)
+- **Centre lines:** 12,814 paths (155 closed); straight 12,504 mm, curved 309 mm; horizontal 3,146 mm, vertical 4,767 mm, diagonal 4,590 mm
+- **Circles and arcs:** 11 circles, 75 arcs; largest r 3.0 @ (186.3, 124.1), r 1.2 @ (102.7, 321.0), r 1.2 @ (165.2, 132.1), r 1.2 @ (102.5, 284.7)
+- **Closed boxes:** 2; named: 54 14-054 SOUND RE INFORCEMENT AMPLIFIER
+- **Words (OCR):** 201 in 178 lines: NcY (HF ) · MId-FREQUENCY (MF ) · Low FREQUENCY (LF ) · kHz · 400 Hz · 6.4 KHz · Hz 400 Hz · RIb · +21V · 21v · 1OOk · 10ok
+- **Title block:** (205, 45)–(332, 70) mm: WBS · WARD-BECK BYBTEMB
+- **Wiring (first pass):** 134 connected wire groups from 578 runs; labelled ends: 374 mm → R65, Kisk; 198 mm → 3E 1; 186 mm → R5 =; 173 mm → CTL, com, P2, 18; 149 mm → 3E4
+
+Every curve, box, word and wire group: [1974 - M460M - 460-02-028 - IER INSERT OUTPUT ABM REF (traced).json](1974%20-%20M460M%20-%20460-02-028%20-%20IER%20INSERT%20OUTPUT%20ABM%20REF%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-02-028 - IER INSERT OUTPUT ABM REF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

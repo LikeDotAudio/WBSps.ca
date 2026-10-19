@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 13,805,215 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 816-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 432 rings, 4,812 straight (11,510 mm) / 964 curved (1,296 mm); text 507 rings, 3,226 straight (3,006 mm) / 1,195 curved (1,562 mm); tb 13 rings, 126 straight (160 mm) / 31 curved (38.4 mm)
+- **Centre lines:** 7,625 paths (150 closed); straight 8,791 mm, curved 229 mm; horizontal 3,356 mm, vertical 2,415 mm, diagonal 3,021 mm
+- **Circles and arcs:** 5 circles, 65 arcs; largest r 3.9 @ (273.9, 82.3), r 3.9 @ (273.5, 261.4), r 1.1 @ (17.1, 181.2), r 0.8 @ (17.3, 171.0)
+- **Closed boxes:** 9 (4 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 89 lines: E4zio2 · +25v · c28 · SUM · 47/25 · 25v · 10/25 · C35 · INPUT · +18V · CR 7 · 0/35
+- **Title block:** (355, 24)–(432, 46) mm: DATE · Klvbioh · WBS WARD-BECK SYSTEMS · Mb16
+- **Wiring (first pass):** 69 connected wire groups from 475 runs; labelled ends: 166 mm → M3bi, Ri7, Mok, 22; 159 mm → 818, Cab, 04I48, 2R4037; 138 mm → +18V, 47/25, Ibk; 137 mm → 523k, 8k8, Bue, 47/24; 110 mm → EMSTE
+
+Every curve, box, word and wire group: [19xx - DOC - 816-02-001 - LAST COMPONENT DESIGNATIONS ARE (traced).json](19xx%20-%20DOC%20-%20816-02-001%20-%20LAST%20COMPONENT%20DESIGNATIONS%20ARE%20%28traced%29.json) (the CAD file: `19xx - DOC - 816-02-001 - LAST COMPONENT DESIGNATIONS ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

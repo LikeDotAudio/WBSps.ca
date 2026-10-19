@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,394,216 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8212-02-002, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 36–425 mm across, 5–273 mm up
+- **Outlines:** line 2,096 rings, 17,060 straight (38,326 mm) / 3,298 curved (4,120 mm); text 218 rings, 1,407 straight (1,305 mm) / 390 curved (487 mm); tb 33 rings, 221 straight (236 mm) / 60 curved (65.3 mm)
+- **Centre lines:** 19,754 paths (371 closed); straight 23,713 mm, curved 146 mm; horizontal 8,357 mm, vertical 9,587 mm, diagonal 5,769 mm
+- **Circles and arcs:** 0 circles, 65 arcs
+- **Closed boxes:** 193 (1 in the title block); named: VBZDC; WBS D8212VU/5 STEREO METERING AND TEST P; 8212-02-002
+- **Words (OCR):** 31 in 29 lines: HIs UNIT · PRORSRLT IER MINATED · 516_019 · SADOX · RCHT · CUL · SCHADD · Posinot · ANTFRLOC-ING · ALTCRNATE Acnox · LENS FAII · CUTPUM
+- **Title block:** (346, 16)–(431, 39) mm: WARD-BECK   SYSTEMS · WBS · WBS D8212VU/5 · STEREO METERING AND · TEST PANEL
+- **Wiring (first pass):** 154 connected wire groups from 2,222 runs; labelled ends: 3301 mm → BL NEl; 442 mm → PI-9; 266 mm → T0 LAMPS; 54 mm → 8212-02-002; 32 mm → METER, PI-9
+
+Every curve, box, word and wire group: [19xx - DOC - 8212-02-002 - TEST LEVEL RIGHT RICHT SHADOW (traced).json](19xx%20-%20DOC%20-%208212-02-002%20-%20TEST%20LEVEL%20RIGHT%20RICHT%20SHADOW%20%28traced%29.json) (the CAD file: `19xx - DOC - 8212-02-002 - TEST LEVEL RIGHT RICHT SHADOW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

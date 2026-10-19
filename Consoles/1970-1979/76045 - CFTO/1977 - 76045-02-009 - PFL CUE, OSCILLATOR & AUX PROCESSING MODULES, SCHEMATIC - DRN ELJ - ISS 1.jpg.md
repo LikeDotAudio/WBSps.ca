@@ -22,6 +22,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 3,624,296 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 76045-02-009, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 552 rings, 4,941 straight (9,334 mm) / 673 curved (954 mm); text 301 rings, 1,665 straight (1,600 mm) / 406 curved (572 mm)
+- **Centre lines:** 2,628 paths (23 closed); straight 5,654 mm, curved 132 mm; horizontal 3,002 mm, vertical 1,358 mm, diagonal 1,294 mm
+- **Circles and arcs:** 4 circles, 28 arcs; largest r 1.2 @ (283.6, 40.1), r 1.2 @ (209.5, 74.4), r 1.1 @ (283.8, 32.1), r 1.1 @ (1.7, 180.9)
+- **Closed boxes:** 38
+- **Wiring (first pass):** 41 connected wire groups from 361 runs
+
+Every curve, box, word and wire group: [1977 - 76045-02-009 - PFL CUE, OSCILLATOR & AUX PROCESSING MODULES, SCHEMATIC - DRN ELJ - ISS 1 (traced).json](1977%20-%2076045-02-009%20-%20PFL%20CUE%2C%20OSCILLATOR%20%26%20AUX%20PROCESSING%20MODULES%2C%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 76045-02-009 - PFL CUE, OSCILLATOR & AUX PROCESSING MODULES, SCHEMATIC - DRN ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,16 @@ Wiki page: [Job-77024](../../../PAGES/Job-77024.md)
 - **Size:** 2,839,242 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 77024-04-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 10–432 mm across, 0–288 mm up
+- **Outlines:** line 393 rings, 4,241 straight (9,975 mm) / 657 curved (1,009 mm); text 211 rings, 1,656 straight (2,135 mm) / 409 curved (680 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.5 @ (407.7, 43.3), r 2.5 @ (402.5, 43.3), r 2.4 @ (378.2, 43.1), r 2.1 @ (397.2, 36.2)
+- **Closed boxes:** 9
+
+Every curve, box, word and wire group: [1978 - 77024-04-003 - RADIO CONSOLE DESK CUTOUT DETAIL - DRN GEB - ISS 1 (traced).json](1978%20-%2077024-04-003%20-%20RADIO%20CONSOLE%20DESK%20CUTOUT%20DETAIL%20-%20DRN%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 77024-04-003 - RADIO CONSOLE DESK CUTOUT DETAIL - DRN GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

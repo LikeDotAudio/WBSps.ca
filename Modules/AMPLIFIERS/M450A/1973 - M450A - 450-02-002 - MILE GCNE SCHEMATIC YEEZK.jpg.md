@@ -11,6 +11,20 @@ Wiki page: [M450A](../../../PAGES/M450A.md)
 - **Size:** 733,416 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 450-02-002, size B (assumed) 432 × 290 mm, 2000 × 1343 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–289 mm up
+- **Outlines:** line 625 rings, 7,778 straight (13,897 mm) / 1,689 curved (2,264 mm); text 936 rings, 6,061 straight (5,836 mm) / 2,402 curved (2,940 mm); tb 11 rings, 73 straight (91.1 mm) / 8 curved (11.6 mm)
+- **Centre lines:** 14,789 paths (195 closed); straight 12,899 mm, curved 531 mm; horizontal 3,713 mm, vertical 3,116 mm, diagonal 6,070 mm
+- **Circles and arcs:** 14 circles, 84 arcs; largest r 3.8 @ (188.8, 103.7), r 3.7 @ (330.4, 65.4), r 3.6 @ (303.2, 125.7), r 3.5 @ (304.7, 201.2)
+- **Closed boxes:** 9
+- **Words (OCR):** 199 in 179 lines: C36 · R38 · 027 · 06 · Tipbo8 · PN3569 · 227 · I6v · CRS · R39 · 680P · -I6v
+- **Title block:** (351, 14)–(402, 30) mm: WBS WARD-[
+- **Wiring (first pass):** 133 connected wire groups from 761 runs; labelled ends: 295 mm → C22, (OOOP, R29, C18; 162 mm → 227, g3o/6, R37, 156; 154 mm → boL; 126 mm → Igv, RI5, 3*3, C14; 118 mm → R35, ISk
+
+Every curve, box, word and wire group: [1973 - M450A - 450-02-002 - MILE GCNE SCHEMATIC YEEZK (traced).json](1973%20-%20M450A%20-%20450-02-002%20-%20MILE%20GCNE%20SCHEMATIC%20YEEZK%20%28traced%29.json) (the CAD file: `1973 - M450A - 450-02-002 - MILE GCNE SCHEMATIC YEEZK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

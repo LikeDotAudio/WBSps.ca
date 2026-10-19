@@ -19,6 +19,18 @@ SA91-030 mono attenuator assembly schematic Title block at top right reading dow
 - **Size:** 5,188,588 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 91-030-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–429 mm across, 20–304 mm up
+- **Outlines:** line 362 rings, 2,553 straight (4,144 mm) / 613 curved (902 mm); text 160 rings, 1,062 straight (1,129 mm) / 342 curved (468 mm)
+- **Centre lines:** 2,007 paths (47 closed); straight 2,803 mm, curved 332 mm; horizontal 880 mm, vertical 811 mm, diagonal 1,112 mm
+- **Circles and arcs:** 26 circles, 40 arcs; largest r 6.0 @ (99.0, 204.7), r 4.3 @ (98.1, 135.5), r 3.2 @ (98.9, 204.7), r 3.0 @ (98.1, 135.5)
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 47 connected wire groups from 256 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 91-030-02-001 - SA91-030 MONO ATTENUATOR ASSEMBLY SCHEMATIC (traced).json](19xx%20-%2091-030-02-001%20-%20SA91-030%20MONO%20ATTENUATOR%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 91-030-02-001 - SA91-030 MONO ATTENUATOR ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

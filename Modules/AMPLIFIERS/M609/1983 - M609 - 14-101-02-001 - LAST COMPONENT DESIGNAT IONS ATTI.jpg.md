@@ -11,6 +11,20 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 631,287 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-101-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 16–416 mm up
+- **Outlines:** line 255 rings, 4,799 straight (8,978 mm) / 967 curved (1,423 mm); text 460 rings, 3,564 straight (3,428 mm) / 1,253 curved (1,675 mm); tb 2 rings, 67 straight (149 mm) / 5 curved (9.1 mm)
+- **Centre lines:** 6,358 paths (84 closed); straight 7,517 mm, curved 335 mm; horizontal 2,555 mm, vertical 2,129 mm, diagonal 2,832 mm
+- **Circles and arcs:** 4 circles, 59 arcs; largest r 5.0 @ (183.6, 311.0), r 5.0 @ (158.3, 207.2), r 4.9 @ (179.8, 217.1), r 1.2 @ (277.0, 251.7)
+- **Closed boxes:** 3
+- **Words (OCR):** 125 in 118 lines: 1Zp · Rs4 · Rs} · IOM · CZJ · TN40j6 · 620 · R47 · PNJ56? · IPz98 · LMzOIAN · Cz5
+- **Title block:** (206, 50)–(332, 75) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 61 connected wire groups from 396 runs; labelled ends: 490 mm → Czz, Jy/1O, RJZ, J9K; 301 mm → CZJ, Cz5, Cz6, I50; 279 mm → IOOo, Rz6, ISk, c16; 177 mm → R61, I50, Rso, CjO; 124 mm → 22K, Czo, 220, Rj9
+
+Every curve, box, word and wire group: [1983 - M609 - 14-101-02-001 - LAST COMPONENT DESIGNAT IONS ATTI (traced).json](1983%20-%20M609%20-%2014-101-02-001%20-%20LAST%20COMPONENT%20DESIGNAT%20IONS%20ATTI%20%28traced%29.json) (the CAD file: `1983 - M609 - 14-101-02-001 - LAST COMPONENT DESIGNAT IONS ATTI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

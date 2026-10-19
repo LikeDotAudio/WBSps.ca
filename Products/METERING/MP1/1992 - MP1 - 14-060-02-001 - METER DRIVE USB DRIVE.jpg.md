@@ -11,6 +11,19 @@ Wiki page: [MP1](../../../PAGES/MP1.md)
 - **Size:** 1,325,369 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-060-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 21–370 mm up
+- **Outlines:** line 164 rings, 2,927 straight (6,280 mm) / 497 curved (782 mm); text 751 rings, 5,452 straight (5,797 mm) / 1,784 curved (2,507 mm); tb 2 rings, 52 straight (139 mm) / 4 curved (9.2 mm)
+- **Centre lines:** 6,888 paths (78 closed); straight 7,346 mm, curved 428 mm; horizontal 1,799 mm, vertical 1,933 mm, diagonal 3,614 mm
+- **Circles and arcs:** 11 circles, 31 arcs; largest r 6.7 @ (64.6, 172.4), r 6.7 @ (64.5, 196.3), r 6.7 @ (64.7, 292.1), r 6.6 @ (64.7, 268.3)
+- **Words (OCR):** 141 in 126 lines: +22v · CRS · R52 · IN4148 · 22k · R62 · R36 · 1S0P · 47K · 47K UIB · +11v · RSO
+- **Title block:** (199, 49)–(321, 73) mm: WBS WARD-BECK · SYSTEMS · SA14-060
+- **Wiring (first pass):** 45 connected wire groups from 252 runs; labelled ends: 537 mm → R62, 47K, R36, IN4148; 180 mm → R23, 20k, SET 3, R24; 113 mm → R51; 110 mm → R55, 2M2, R53, CRS; 78 mm → R55, 2M2, R56, 3k3
+
+Every curve, box, word and wire group: [1992 - MP1 - 14-060-02-001 - METER DRIVE USB DRIVE (traced).json](1992%20-%20MP1%20-%2014-060-02-001%20-%20METER%20DRIVE%20USB%20DRIVE%20%28traced%29.json) (the CAD file: `1992 - MP1 - 14-060-02-001 - METER DRIVE USB DRIVE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

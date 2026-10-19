@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 1,314,411 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 529-04-002, size B (assumed) 224 × 432 mm, 1036 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–224 mm across, 0–429 mm up
+- **Outlines:** line 255 rings, 3,713 straight (7,256 mm) / 573 curved (1,057 mm); text 171 rings, 1,526 straight (1,862 mm) / 409 curved (649 mm); tb 10 rings, 132 straight (247 mm) / 19 curved (30.2 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 6.2 @ (40.1, 89.9), r 6.1 @ (40.5, 115.8), r 5.3 @ (39.8, 64.5), r 5.2 @ (40.8, 191.8)
+- **Closed boxes:** 10 (9 in the title block)
+- **Words (OCR):** 21 in 19 lines: Utilite · Heter · AUI · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN · BD8 · M529A · ENG · AUXILIARY MASTER MODULE
+- **Title block:** (74, 1)–(224, 77) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN · BD8 · M529A · ENG · AUXILIARY MASTER MODULE · CKD · FRONT PANEL LAYOUT · APP · Ka · SCALE · 529-04-002 · ISSUE
+
+Every curve, box, word and wire group: [1985 - ST - 529-04-002 - UTILITY METER AUX AUX AUX (traced).json](1985%20-%20ST%20-%20529-04-002%20-%20UTILITY%20METER%20AUX%20AUX%20AUX%20%28traced%29.json) (the CAD file: `1985 - ST - 529-04-002 - UTILITY METER AUX AUX AUX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,173,410 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950069-03-005, size B (assumed) 432 × 284 mm, 2000 × 1317 px traced (0.216 mm/px)
+- **Ink extent:** 41–429 mm across, 10–252 mm up
+- **Outlines:** line 993 rings, 6,908 straight (16,410 mm) / 1,410 curved (1,643 mm); text 250 rings, 1,502 straight (1,300 mm) / 492 curved (601 mm); tb 27 rings, 204 straight (232 mm) / 42 curved (47.3 mm)
+- **Centre lines:** 8,971 paths (245 closed); straight 10,477 mm, curved 26.2 mm; horizontal 5,116 mm, vertical 2,557 mm, diagonal 2,804 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 32 (4 in the title block); named: MACHINE CONTROL PANEL; CCALC; 950069_03-005; CODE 95060405
+- **Dots (junctions):** 3
+- **Words (OCR):** 42 in 35 lines: INSFRT · Dupew Mill DCBD DEEP PLACES · D-J00 · 0 630 · 0TJo · 2 Coc · REO D · PUNCH · REOTD · PUNCH · 0,575 · 0,579
+- **Title block:** (349, 26)–(432, 43) mm: WARD-BECK SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1995 - 950069 - DOC - 950069-03-005 - NQIES REMOVE ALL BURRS AND SHARP EDGES TOL (traced).json](1995%20-%20950069%20-%20DOC%20-%20950069-03-005%20-%20NQIES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOL%20%28traced%29.json) (the CAD file: `1995 - 950069 - DOC - 950069-03-005 - NQIES REMOVE ALL BURRS AND SHARP EDGES TOL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

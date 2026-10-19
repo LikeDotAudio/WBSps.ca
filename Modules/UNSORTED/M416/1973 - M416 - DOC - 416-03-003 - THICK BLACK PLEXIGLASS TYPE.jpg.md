@@ -18,6 +18,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1973** (labelled): `DATE 20 April 73` — …LASs Type P 95 FINISH WBS WARD-BECK BYSTEMS LTD: DRN: D.P s DATE 20 April 73 CKD SCALE 0i0 TOLS 8 -0925 M416 9E6 NOTEs ESCUTCHEON 5 ISS.…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 416-03-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 212 rings, 2,843 straight (7,778 mm) / 273 curved (498 mm); text 832 rings, 5,627 straight (6,354 mm) / 1,691 curved (2,547 mm); tb 41 rings, 253 straight (454 mm) / 46 curved (71.5 mm)
+- **Centre lines:** 5,341 paths (114 closed); straight 8,778 mm, curved 86.8 mm; horizontal 3,633 mm, vertical 1,728 mm, diagonal 3,416 mm
+- **Circles and arcs:** 5 circles, 7 arcs; largest r 11.6 @ (135.3, 160.2), r 5.6 @ (135.2, 160.2), r 3.4 @ (64.6, 160.7), r 1.8 @ (64.7, 160.6)
+- **Closed boxes:** 31 (16 in the title block); named: Iss MOD; WBS BySTEMS WARD-BECK LTD:; M416 ESCUTCHEON
+- **Words (OCR):** 114 in 59 lines: 6.625 · 250 · 187 · 2.88 · Hole 4-40 UNC X' (5 Deep FRom BehinD · 69 · HoLes 128 DIA _ c'SK.AT 82" To 23 DIA · netes · ReMove ALL Burrs AnD · SHARP Edges · ENGRAVE Lines AND · CHARAC Ters 49
+- **Title block:** (163, 10)–(377, 62) mm: Iss MOD CKD · USED ON · MATL_ · B 416-03-003 24 Thick BLACK · WBS WARD-BECK · PLEXIGLASs · Type P95 · DRN: · FINISH · DATE 20 April 73 · M416 · CKD. · ESCUTCHEON · SEE · NoTEs SCALE · 0i · TOLS_
+
+Every curve, box, word and wire group: [1973 - M416 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE (traced).json](1973%20-%20M416%20-%20DOC%20-%20416-03-003%20-%20THICK%20BLACK%20PLEXIGLASS%20TYPE%20%28traced%29.json) (the CAD file: `1973 - M416 - DOC - 416-03-003 - THICK BLACK PLEXIGLASS TYPE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M605C](../../../PAGES/M605C.md)
 - **Size:** 2,675,378 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 605-02-013, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 30–296 mm up
+- **Outlines:** line 416 rings, 3,454 straight (10,183 mm) / 264 curved (416 mm); text 422 rings, 2,287 straight (2,574 mm) / 602 curved (916 mm); tb 18 rings, 200 straight (292 mm) / 35 curved (46.6 mm)
+- **Centre lines:** 2,854 paths (28 closed); straight 6,642 mm, curved 29.5 mm; horizontal 3,172 mm, vertical 2,050 mm, diagonal 1,421 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 10 (5 in the title block)
+- **Words (OCR):** 49 in 47 lines: LoAD · 150_ · SYSIEM · WIRING · FRAME · 150_ · LCAD · OuT · LOAD · 150_ · TEEMiNATION · LoAD
+- **Title block:** (296, 37)–(432, 104) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN.PMAo M · M6osc · ENG_ · AUDIO DISTRIBUTION AMPLIFIER · SYSTEM WIRING SCHEMATIC · APP · ISSUE · SCALE · 605-02 - 013
+- **Wiring (first pass):** 113 connected wire groups from 443 runs; labelled ends: 40 mm → II5VAC; 28 mm → OUT 10; 27 mm → OUT 10; 25 mm → OUT; 25 mm → MI5v AC, GoAz
+
+Every curve, box, word and wire group: [1971 - M605C - 605-02-013 - SYSIEM WIRING FRAME LCAD (traced).json](1971%20-%20M605C%20-%20605-02-013%20-%20SYSIEM%20WIRING%20FRAME%20LCAD%20%28traced%29.json) (the CAD file: `1971 - M605C - 605-02-013 - SYSIEM WIRING FRAME LCAD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -31,22 +31,3 @@ tags: ["product", "metering", "2010s"]
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - AMS8-2AAE - Rear.jpg](../Products/METERING/AMS8-2AAE/2014%20-%20AMS8-2AAE%20-%20Rear.jpg) | [note](../Products/METERING/AMS8-2AAE/2014%20-%20AMS8-2AAE%20-%20Rear.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "AMS8-2AAE",
- "name": "Mkiii 8 Channel Audio Monitoring System",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/AMS8-2AAE/2014 - AMS8-2AAE - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

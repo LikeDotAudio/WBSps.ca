@@ -12,6 +12,18 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 257,854 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 455-04-003, size B (assumed) 395 × 432 mm, 1511 × 1651 px traced (0.262 mm/px)
+- **Ink extent:** 5–395 mm across, 0–411 mm up
+- **Outlines:** line 38 rings, 1,704 straight (4,314 mm) / 165 curved (304 mm); text 471 rings, 3,300 straight (3,679 mm) / 1,075 curved (1,654 mm); tb 128 rings, 2,257 straight (4,350 mm) / 339 curved (610 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.3 @ (171.5, 278.6)
+- **Closed boxes:** 5 (4 in the title block); named: WBS M455 WBS AUX EXt AUX ON
+- **Words (OCR):** 84 in 50 lines: WBS · M455 · WBS · AUXILIARY MASTER LEVEL control · RI/2: · Controls gna · leve · of both outputs_ · VU Meter · Indicates · leve | of modu le · AUX
+- **Title block:** (154, 0)–(395, 415) mm: WBS · M455 · WBS · AUXILIARY MASTER LEVEL control · RI/2: · Controls gna · leve · of both outputs_ · AUX · EXt · RzA · AUX · On switcn · Sw7 : When depressed, · ON · feeds output gna to · SwitCHED out
+
+Every curve, box, word and wire group: [1974 - M455 - 455-04-003 - AUX LIARY MASTER LEVEL CONTROL (traced).json](1974%20-%20M455%20-%20455-04-003%20-%20AUX%20LIARY%20MASTER%20LEVEL%20CONTROL%20%28traced%29.json) (the CAD file: `1974 - M455 - 455-04-003 - AUX LIARY MASTER LEVEL CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -11,6 +11,17 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,396,266 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-012-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–430 mm across, 0–288 mm up
+- **Outlines:** line 2,852 rings, 15,839 straight (16,620 mm) / 5,052 curved (4,894 mm); text 327 rings, 2,033 straight (1,648 mm) / 622 curved (619 mm)
+- **Circles and arcs:** 20 circles, 0 arcs; largest r 4.6 @ (238.5, 223.4), r 3.5 @ (254.4, 193.0), r 3.5 @ (240.8, 88.0), r 3.5 @ (240.9, 77.4)
+- **Closed boxes:** 10
+- **Dots (junctions):** 5
+
+Every curve, box, word and wire group: [1981 - microCOM - 14-012-06-001 - INTERCOM TURRET AUDIO AMPLIFIER COMPONENT LAYOUT (traced).json](1981%20-%20microCOM%20-%2014-012-06-001%20-%20INTERCOM%20TURRET%20AUDIO%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 14-012-06-001 - INTERCOM TURRET AUDIO AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

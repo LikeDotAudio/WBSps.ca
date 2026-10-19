@@ -11,6 +11,20 @@ Wiki page: [M473B](../../../PAGES/M473B.md)
 - **Size:** 2,241,374 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 473-02-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–431 mm up
+- **Outlines:** line 214 rings, 5,245 straight (6,453 mm) / 751 curved (1,000 mm); text 355 rings, 5,217 straight (5,520 mm) / 1,166 curved (1,645 mm); tb 27 rings, 324 straight (362 mm) / 43 curved (60.2 mm)
+- **Centre lines:** 8,168 paths (77 closed); straight 8,484 mm, curved 61.7 mm; horizontal 3,013 mm, vertical 1,904 mm, diagonal 3,567 mm
+- **Circles and arcs:** 2 circles, 8 arcs; largest r 1.9 @ (70.9, 374.1), r 1.8 @ (75.9, 374.1)
+- **Closed boxes:** 6 (3 in the title block); named: 473-02-003; SCALE
+- **Words (OCR):** 40 in 34 lines: SUB · DIRECT · 35 · OUTPUTS · M1 OUTPUT · MI · CONTROL · SUMMING · BUS · OUTPUTS · M2 · OUTPUT
+- **Title block:** (122, 9)–(336, 112) mm: Io/e4 PINS · {EANDZ CHANGED · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: J/67/34 · M473B · ENG · STEREO SUBMASTER MODULE · CKD · SCHEMATIC · APP · SCALE · ISSUE · LB · 473-02-003
+- **Wiring (first pass):** 10 connected wire groups from 107 runs; labelled ends: 48 mm → SUB, 35; 33 mm → SolO; 30 mm → SolO, SoLO; 6 mm → me; 6 mm → SoLO
+
+Every curve, box, word and wire group: [1984 - M473B - 473-02-003 - ENG STEREO SUBMASTER MODULE SOLO CONTROL (traced).json](1984%20-%20M473B%20-%20473-02-003%20-%20ENG%20STEREO%20SUBMASTER%20MODULE%20SOLO%20CONTROL%20%28traced%29.json) (the CAD file: `1984 - M473B - 473-02-003 - ENG STEREO SUBMASTER MODULE SOLO CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

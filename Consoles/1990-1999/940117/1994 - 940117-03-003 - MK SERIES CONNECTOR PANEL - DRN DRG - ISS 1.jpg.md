@@ -20,6 +20,19 @@ Wiki page: [Job-940117](../../../PAGES/Job-940117.md)
 - **Size:** 413,501 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940117-03-003, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 2–843 mm across, 13–560 mm up
+- **Outlines:** line 602 rings, 4,756 straight (23,407 mm) / 730 curved (1,727 mm); text 264 rings, 1,564 straight (3,010 mm) / 504 curved (1,263 mm); tb 9 rings, 83 straight (241 mm) / 17 curved (54.2 mm)
+- **Centre lines:** 6,618 paths (177 closed); straight 15,602 mm, curved 66.3 mm; horizontal 5,855 mm, vertical 5,808 mm, diagonal 3,939 mm
+- **Circles and arcs:** 0 circles, 9 arcs
+- **Closed boxes:** 107 (3 in the title block); named: MK SERIES CONNECTOR PANEL; 940117-03-003; 94117407
+- **Words (OCR):** 33 in 29 lines: CETAIL · J 9E0 · DETAIL · DETAL · REC D · REOOCORDNGLY · DUTCHE' · MATERIAL: CR.S: 0.059 ThICK · 0.386 · 0 JEO · FINISH: · SAND 120 Grit AND PAINT
+- **Title block:** (685, 46)–(854, 79) mm: salct · REYSOY · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940117-03-003 - MK SERIES CONNECTOR PANEL - DRN DRG - ISS 1 (traced).json](1994%20-%20940117-03-003%20-%20MK%20SERIES%20CONNECTOR%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940117-03-003 - MK SERIES CONNECTOR PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

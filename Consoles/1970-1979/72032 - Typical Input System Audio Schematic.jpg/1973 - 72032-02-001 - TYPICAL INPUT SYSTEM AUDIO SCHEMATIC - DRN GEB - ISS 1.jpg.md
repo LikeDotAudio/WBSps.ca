@@ -22,6 +22,21 @@ Wiki page: [Job-72032](../../../PAGES/Job-72032.md)
 - **Size:** 915,720 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 72032-02-001, size B 432 × 138 mm, 2000 × 640 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–138 mm up
+- **Outlines:** line 1,065 rings, 10,233 straight (19,331 mm) / 1,950 curved (2,339 mm); text 289 rings, 1,554 straight (1,365 mm) / 575 curved (732 mm); tb 34 rings, 194 straight (224 mm) / 54 curved (70.8 mm)
+- **Centre lines:** 11,094 paths (193 closed); straight 12,496 mm, curved 99.2 mm; horizontal 5,055 mm, vertical 3,910 mm, diagonal 3,531 mm
+- **Circles and arcs:** 2 circles, 36 arcs; largest r 1.0 @ (293.3, 65.4), r 0.8 @ (175.1, 30.9)
+- **Closed boxes:** 71 (5 in the title block); named: 600_ -646~; ASm; 720 32 00
+- **Dots (junctions):** 4
+- **Words (OCR):** 53 in 44 lines: SLB+ · Sczo · 62o · M4ti · CHANNEL · Co0n · ShoWVN · -646~ · 600_ · FBC · IJAL · iok
+- **Title block:** (350, 4)–(431, 27) mm: WBS WARD-BeCK bybtmd LTo, · Auoio · INPUT system · SchEMATIC · ESCALE
+- **Wiring (first pass):** 182 connected wire groups from 1,220 runs, 1 dotted junctions; labelled ends: 509 mm → M4ti, I50n; 359 mm → M4ti, PRE, LISTEN; 217 mm → Sczo; 200 mm → Sczo; 109 mm → ShoWVN, GoLc, 8055
+
+Every curve, box, word and wire group: [1973 - 72032-02-001 - TYPICAL INPUT SYSTEM AUDIO SCHEMATIC - DRN GEB - ISS 1 (traced).json](1973%20-%2072032-02-001%20-%20TYPICAL%20INPUT%20SYSTEM%20AUDIO%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 72032-02-001 - TYPICAL INPUT SYSTEM AUDIO SCHEMATIC - DRN GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

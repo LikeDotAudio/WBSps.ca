@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,042,337 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940444-03-005, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 27–423 mm across, 7–264 mm up
+- **Outlines:** line 450 rings, 3,650 straight (13,322 mm) / 700 curved (822 mm); text 357 rings, 1,914 straight (1,832 mm) / 652 curved (813 mm); tb 13 rings, 115 straight (152 mm) / 21 curved (23.6 mm)
+- **Centre lines:** 5,158 paths (174 closed); straight 8,568 mm, curved 32.5 mm; horizontal 4,539 mm, vertical 2,174 mm, diagonal 1,855 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 14 (3 in the title block); named: SMART MINUS CTL UNIT Mix FRONT PANEL & C
+- **Words (OCR):** 40 in 31 lines: 17.10 · 16,710 · PITCHES OF 7.555 151+0 · 0.200 · PLACES · 58TPER CEGE · 0 200 · 06 8C · 5.110 · 040444-0> · 005 FRCNT PANEL · 4700
+- **Title block:** (344, 22)–(429, 39) mm: WBS · WARD-BECK SYSTEMS · DR LDac (AN95
+
+Every curve, box, word and wire group: [1994 - 940444 - DOC - 940444-03-005 - GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL (traced).json](1994%20-%20940444%20-%20DOC%20-%20940444-03-005%20-%20GRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL%20%28traced%29.json) (the CAD file: `1994 - 940444 - DOC - 940444-03-005 - GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

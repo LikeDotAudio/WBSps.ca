@@ -27,6 +27,21 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1978** (labelled): `DATE oct 78` — …sS MOD ICKD USED ON MATL. WBS WAAD-BECK BYSTEMB LtD DRN Mew DATE oct 78 CKD: SCALE TOLS { M468v REVERB Assigu MODULe SchEMATIC 3 46…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-033, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 12–298 mm up
+- **Outlines:** line 984 rings, 10,153 straight (13,817 mm) / 1,964 curved (2,403 mm); text 450 rings, 2,805 straight (2,798 mm) / 843 curved (1,136 mm); tb 67 rings, 410 straight (434 mm) / 73 curved (93.0 mm)
+- **Centre lines:** 13,625 paths (91 closed); straight 11,834 mm, curved 108 mm; horizontal 4,828 mm, vertical 2,454 mm, diagonal 4,552 mm
+- **Circles and arcs:** 3 circles, 31 arcs; largest r 1.0 @ (196.0, 150.8), r 0.9 @ (307.0, 202.2), r 0.9 @ (304.9, 133.5)
+- **Closed boxes:** 24 (21 in the title block)
+- **Dots (junctions):** 3
+- **Words (OCR):** 73 in 63 lines: 125v COMMON · CHASSiS · 25v · Swi · RR ON · Sw3 · MI · Ri? ISk · RR LEVEL · RR ON LAMP · Mi OUTPUT · LEFT
+- **Title block:** (152, 20)–(378, 71) mm: Iss · MOD IcKD: · USEDON · MATL. · WBS WAAD-BECK · DRN: · Mew · DATE OcT 78 · M468v · FFINISH · REVERB · SCALE · SCHEMATIC · TOLst · 468-02-033
+- **Wiring (first pass):** 141 connected wire groups from 736 runs; labelled ends: 51 mm → Iss; 39 mm → LtD; 30 mm → LAMP; 25 mm → M3 OutpUT, M4 output; 24 mm → 125v COMMON
+
+Every curve, box, word and wire group: [1978 - 468-02-033 - M468V REVERB ASSIGN MODULE SCHEMATIC - DRN MRW - ISS 1 (traced).json](1978%20-%20468-02-033%20-%20M468V%20REVERB%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 468-02-033 - M468V REVERB ASSIGN MODULE SCHEMATIC - DRN MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

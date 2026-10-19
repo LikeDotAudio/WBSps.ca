@@ -11,6 +11,16 @@ Wiki page: [M463K](../../../PAGES/M463K.md)
 - **Size:** 2,160,208 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-016, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–431 mm up
+- **Outlines:** line 460 rings, 5,658 straight (5,544 mm) / 906 curved (1,011 mm); text 459 rings, 4,011 straight (4,730 mm) / 1,090 curved (1,641 mm)
+- **Closed boxes:** 44; named: HI; Ji8; Ki9; L/1o; PII 3; R/1; 5/15; Tig; Uli7/; vh18; Wli9; Xl2o
+- **Words (OCR):** 95 in 49 lines: PI · SUMM /NG INPUT · SUMM | NG INPUT · NC B | 2 · SHIELD · PA · PA · SA2 · SA2 · SAI E|5 SAI · FB4 · FBL
+
+Every curve, box, word and wire group: [1974 - M463K - 463-04-016 - OUTPUT AMP UPPER LEGEND (traced).json](1974%20-%20M463K%20-%20463-04-016%20-%20OUTPUT%20AMP%20UPPER%20LEGEND%20%28traced%29.json) (the CAD file: `1974 - M463K - 463-04-016 - OUTPUT AMP UPPER LEGEND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

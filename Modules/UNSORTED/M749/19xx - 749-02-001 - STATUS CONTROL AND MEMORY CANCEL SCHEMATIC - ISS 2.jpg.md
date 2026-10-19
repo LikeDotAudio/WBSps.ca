@@ -26,6 +26,20 @@ Wide digital logic schematic strip with title block at bottom right.
 
 - **1970** (month): `Nov 1970` — …0/6 +5V Ra 3k3 Register COMMON 2117 7404 25 Z6 DRM P 5 E 14.Nov 1970 WaRD BBECK VSTEMS LTO_ M 749 StATUS Control AND MEMORY CANC…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 749-02-001, size B 432 × 133 mm, 2000 × 614 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–132 mm up
+- **Outlines:** line 832 rings, 6,240 straight (9,866 mm) / 1,311 curved (1,610 mm); text 192 rings, 930 straight (793 mm) / 309 curved (372 mm)
+- **Centre lines:** 6,449 paths (193 closed); straight 6,308 mm, curved 65.0 mm; horizontal 2,768 mm, vertical 1,295 mm, diagonal 2,245 mm
+- **Circles and arcs:** 2 circles, 16 arcs; largest r 0.8 @ (262.4, 52.2), r 0.7 @ (246.9, 98.5)
+- **Closed boxes:** 5
+- **Dots (junctions):** 2
+- **Words (OCR):** 31 in 29 lines: DecisteR · 7404 · DNTEOL · LNE · REGSTER · LINE FROK · XTATus REA D · ceutol · LINE · FROM · T4OC · READOUT
+- **Wiring (first pass):** 57 connected wire groups from 431 runs, 2 dotted junctions; labelled ends: 259 mm → READOUT; 129 mm → MAAD, STATUS; 101 mm → 27 23, Ie; 101 mm → 7404; 24 mm → SIUS
+
+Every curve, box, word and wire group: [19xx - 749-02-001 - STATUS CONTROL AND MEMORY CANCEL SCHEMATIC - ISS 2 (traced).json](19xx%20-%20749-02-001%20-%20STATUS%20CONTROL%20AND%20MEMORY%20CANCEL%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 749-02-001 - STATUS CONTROL AND MEMORY CANCEL SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

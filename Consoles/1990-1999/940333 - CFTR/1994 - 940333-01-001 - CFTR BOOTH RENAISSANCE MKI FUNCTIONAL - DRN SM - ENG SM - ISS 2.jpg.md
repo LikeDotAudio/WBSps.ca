@@ -22,6 +22,20 @@ Wiki page: [Job-940333](../../../PAGES/Job-940333.md)
 - **Size:** 802,029 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 940333-01-001, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px); scale DISC NO; 473
+- **Ink extent:** 35–846 mm across, 13–544 mm up
+- **Outlines:** line 814 rings, 7,426 straight (39,167 mm) / 993 curved (2,410 mm); text 1,099 rings, 7,283 straight (11,771 mm) / 2,090 curved (4,869 mm); tb 25 rings, 258 straight (2,448 mm) / 13 curved (36.0 mm)
+- **Centre lines:** 18,761 paths (298 closed); straight 31,862 mm, curved 114 mm; horizontal 12,624 mm, vertical 8,953 mm, diagonal 10,284 mm
+- **Circles and arcs:** 3 circles, 14 arcs; largest r 4.5 @ (67.8, 524.7), r 3.6 @ (286.9, 296.8), r 3.5 @ (67.4, 524.9)
+- **Closed boxes:** 144 (1 in the title block); named: PGM? LFFT; PGM2RIGHI; SEL; Mix_MINUS; VCA; MXMINUS; AMP; ioXI; 2200; 2200; CUE MUIE; SEL
+- **Words (OCR):** 185 in 160 lines: LEGEND · CONSOLE   SUMVING BUSES · LEVEL · OPTICAL SHAFT ENCCDER · MuSIC VC · IMNS · Mix CUE AUX AUX · METER AND MONIToR OUTPUT · INSERTS · PCHI LEFT · SS SW · SOLID STATE SwTCH
+- **Title block:** (139, 9)–(862, 86) mm: CONSOLE FRAME IS WIRED FOR M9OSB STUDIO MONITOR · METER · CONSOLE FRAME IS NoT WRED FOR M9ob STEREO LINE SELECTOR: · SIERRA AUTOMATED SYSTEMS APC-88 ROUTING SWTCHER (x1) · ISSUEI · REMSION · APP · AND
+- **Wiring (first pass):** 281 connected wire groups from 1,573 runs; labelled ends: 1378 mm → ioXI, Auto, CUE, INPUR; 538 mm → Mix, IMNS, X0P2i; 398 mm → VCA, MXMINUS; 358 mm → MuSIC; 329 mm → MuSIC, AUX AUX
+
+Every curve, box, word and wire group: [1994 - 940333-01-001 - CFTR BOOTH RENAISSANCE MKI FUNCTIONAL - DRN SM - ENG SM - ISS 2 (traced).json](1994%20-%20940333-01-001%20-%20CFTR%20BOOTH%20RENAISSANCE%20MKI%20FUNCTIONAL%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940333-01-001 - CFTR BOOTH RENAISSANCE MKI FUNCTIONAL - DRN SM - ENG SM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 22 words corrected)

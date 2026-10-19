@@ -11,6 +11,18 @@ Wiki page: [M497C](../../../PAGES/M497C.md)
 - **Size:** 227,716 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 497-01-004, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 40–338 mm across, 34–301 mm up
+- **Outlines:** line 108 rings, 1,082 straight (2,825 mm) / 128 curved (184 mm); text 128 rings, 1,000 straight (1,144 mm) / 267 curved (372 mm)
+- **Centre lines:** 1,054 paths (19 closed); straight 2,133 mm, curved 14.8 mm; horizontal 865 mm, vertical 561 mm, diagonal 707 mm
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.2 @ (40.6, 161.5), r 1.2 @ (41.1, 239.8)
+- **Words (OCR):** 15 in 15 lines: LEFT · LEVEL · SUMMING INPUT · PRE · INSERT · EXTERNAL INPUT · dBm · 600 OHMS · RIGHT · LEvEL · SUMMING INPUT · INSERT
+- **Wiring (first pass):** 68 connected wire groups from 97 runs; labelled ends: 68 mm → PRE; 37 mm → dBm 600 OHMS; 34 mm → LEvEL; 34 mm → LEVEL; 29 mm → 600 OHMS
+
+Every curve, box, word and wire group: [1978 - M497C - 497-01-004 - OHMS LEFT LEVEL INSERT (traced).json](1978%20-%20M497C%20-%20497-01-004%20-%20OHMS%20LEFT%20LEVEL%20INSERT%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-01-004 - OHMS LEFT LEVEL INSERT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

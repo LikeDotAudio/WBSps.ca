@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,868,130 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-014, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 0–432 mm up
+- **Outlines:** line 398 rings, 5,648 straight (10,932 mm) / 634 curved (908 mm); text 1,230 rings, 7,581 straight (7,418 mm) / 2,284 curved (2,971 mm)
+- **Centre lines:** 8,069 paths (73 closed); straight 10,588 mm, curved 73.8 mm; horizontal 4,007 mm, vertical 2,348 mm, diagonal 4,234 mm
+- **Circles and arcs:** 3 circles, 5 arcs; largest r 2.5 @ (3.2, 221.0), r 2.2 @ (3.6, 318.9), r 2.1 @ (3.4, 300.7)
+- **Closed boxes:** 1
+- **Words (OCR):** 168 in 111 lines: M47CA iNPUT MODULE? · chi-Chiz Pin] · P2-2i 4/6 AwG · RD · 92.5 · KNG · Pe - /9 · FNG Vi · M4toa iNput VobULES · Chi3-Chig 90 ; Ce-?1 · Ane 50 · Fz-?C
+- **Wiring (first pass):** 76 connected wire groups from 313 runs; labelled ends: 342 mm → LL; 328 mm → TBI2; 265 mm → LL; 232 mm → M473A SUBMASTER MODULE S; 42 mm → M479
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-014 - SUB MASTER MODULES SIESZ PIN (traced).json](1979%20-%20790236%20-%20790236-02-014%20-%20SUB%20MASTER%20MODULES%20SIESZ%20PIN%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-014 - SUB MASTER MODULES SIESZ PIN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

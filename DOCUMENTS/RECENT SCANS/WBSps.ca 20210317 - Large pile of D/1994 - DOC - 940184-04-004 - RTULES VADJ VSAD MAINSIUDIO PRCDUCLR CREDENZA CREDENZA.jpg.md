@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,181,046 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940184-04-004, size B (assumed) 432 × 276 mm, 2000 × 1278 px traced (0.216 mm/px)
+- **Ink extent:** 91–427 mm across, 4–192 mm up
+- **Outlines:** line 906 rings, 5,795 straight (15,413 mm) / 934 curved (1,450 mm); text 116 rings, 657 straight (693 mm) / 236 curved (323 mm); tb 17 rings, 122 straight (151 mm) / 32 curved (36.3 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 3.1 @ (164.5, 80.0), r 3.1 @ (196.1, 80.3), r 3.1 @ (261.7, 80.8), r 3.1 @ (233.6, 80.6)
+- **Closed boxes:** 68 (5 in the title block); named: PHANTOU POKER; GLENN GOULD STUDIO CENTRAL ELECTRONICS L; 940184-04-004; 94144L04
+- **Dots (junctions):** 3
+- **Words (OCR):** 11 in 9 lines: PHANTOU POKER · ESULDA · WBS · WARD-BECK SYSTEMS · CENTRAL ELECTRONICS · GLENN GOULD STUDIO · LAYOUT · 94144L04 · 940184-04-004
+- **Title block:** (338, 20)–(421, 37) mm: ESULDA · WBS · WARD-BECK SYSTEMS · GLENN GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - DOC - 940184-04-004 - RTULES VADJ VSAD MAINSIUDIO PRCDUCLR CREDENZA CREDENZA (traced).json](1994%20-%20DOC%20-%20940184-04-004%20-%20RTULES%20VADJ%20VSAD%20MAINSIUDIO%20PRCDUCLR%20CREDENZA%20CREDENZA%20%28traced%29.json) (the CAD file: `1994 - DOC - 940184-04-004 - RTULES VADJ VSAD MAINSIUDIO PRCDUCLR CREDENZA CREDENZA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

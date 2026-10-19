@@ -27,6 +27,19 @@ Wiki page: [M421](../../../PAGES/M421.md)
 
 - **1969** (labelled): `DATE Sept 69` — …L ABout L's ONLESS STATED 4.75 5.75 DRN DJG FimISH 120 Grit DATE Sept 69 6 BLack Anoize CHXD MATERMAL Lx Cu; SCALE Fu 16 ALoh TOLS F…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 421-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale Ful
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 255 rings, 5,831 straight (9,811 mm) / 697 curved (978 mm); text 401 rings, 3,422 straight (4,060 mm) / 992 curved (1,604 mm); tb 68 rings, 706 straight (1,177 mm) / 89 curved (128 mm)
+- **Centre lines:** 8,727 paths (70 closed); straight 9,804 mm, curved 81.0 mm; horizontal 4,218 mm, vertical 2,128 mm, diagonal 3,458 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 1.6 @ (33.6, 192.7), r 1.4 @ (189.7, 22.3)
+- **Closed boxes:** 7 (3 in the title block); named: ISSUE; ISS:
+- **Words (OCR):** 59 in 46 lines: ISSUE · 2-S6UNC · Holes · Now 4ore · DJG · 0c169 · 174 · 2.438 · 1HOLE · SQUAre · CORNers · DIA
+- **Title block:** (175, 22)–(409, 284) mm: ISSUE · 2-S6UNC · Holes · DJG · 2.438 · 1HOLE · DIA · 32 · 2HoLEs DIA · 32 · HOLES DRILL 8 TAP ?-S56UNC(2EACH Sipe) · 3/8 · Note · DIMENSIoNS · SYMMETR ICAL ABout · L's UNLESS STATED · DRN · DJG · FIN
+
+Every curve, box, word and wire group: [1969 - 421-03-002 - SWITCH MTG BRKT M421 - DRN DJG - ISS 3 (traced).json](1969%20-%20421-03-002%20-%20SWITCH%20MTG%20BRKT%20M421%20-%20DRN%20DJG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1969 - 421-03-002 - SWITCH MTG BRKT M421 - DRN DJG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

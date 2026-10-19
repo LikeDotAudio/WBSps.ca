@@ -22,6 +22,19 @@ Communication terminal schematic Title block at bottom left reading sideways.
 - **Size:** 5,034,742 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 7800-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 1,914 rings, 15,656 straight (22,460 mm) / 3,293 curved (3,791 mm); text 281 rings, 1,677 straight (1,412 mm) / 535 curved (650 mm)
+- **Centre lines:** 19,799 paths (381 closed); straight 15,060 mm, curved 52.7 mm; horizontal 6,288 mm, vertical 3,754 mm, diagonal 5,018 mm
+- **Circles and arcs:** 3 circles, 19 arcs; largest r 0.8 @ (52.1, 154.1), r 0.8 @ (338.6, 233.4), r 0.7 @ (266.2, 204.2)
+- **Closed boxes:** 13
+- **Dots (junctions):** 4
+- **Wiring (first pass):** 150 connected wire groups from 1,674 runs, 4 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 7800-02-001 - M7800A COMMUNICATION TERMINAL SCHEMATIC - ISS 2 (traced).json](19xx%20-%207800-02-001%20-%20M7800A%20COMMUNICATION%20TERMINAL%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 7800-02-001 - M7800A COMMUNICATION TERMINAL SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

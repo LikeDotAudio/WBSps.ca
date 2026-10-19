@@ -21,6 +21,19 @@ Wiki page: [Job-940449](../../../PAGES/Job-940449.md)
 - **Size:** 413,544 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940449-03-002, size D 864 × 557 mm, 2000 × 1290 px traced (0.432 mm/px)
+- **Ink extent:** 60–843 mm across, 13–548 mm up
+- **Outlines:** line 559 rings, 3,974 straight (22,148 mm) / 753 curved (1,698 mm); text 248 rings, 1,513 straight (2,928 mm) / 471 curved (1,177 mm); tb 23 rings, 168 straight (387 mm) / 39 curved (86.7 mm)
+- **Centre lines:** 5,853 paths (152 closed); straight 14,661 mm, curved 56.3 mm; horizontal 7,222 mm, vertical 3,854 mm, diagonal 3,586 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 2.0 @ (528.0, 318.8)
+- **Closed boxes:** 71 (4 in the title block); named: GUEST HOST/NEWS TURRET FRONT PANEL; 940449-03-002
+- **Words (OCR):** 29 in 27 lines: 16 F10 · PITCHES · '555 · 0.200 · RFC'D · 0172 · INSERT · SIQE · 02c · 0.680 · 5.1i0 · 3750
+- **Title block:** (685, 44)–(854, 78) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1995 - 940449-03-002 - GUEST HOST NEWS TURRET FRONT PANEL - DRN DRG - ISS 1 (traced).json](1995%20-%20940449-03-002%20-%20GUEST%20HOST%20NEWS%20TURRET%20FRONT%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 940449-03-002 - GUEST HOST NEWS TURRET FRONT PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

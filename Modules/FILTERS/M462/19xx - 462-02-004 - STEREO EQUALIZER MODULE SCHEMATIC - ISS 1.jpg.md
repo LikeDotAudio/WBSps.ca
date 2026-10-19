@@ -22,6 +22,20 @@ M462C stereo equalizer module schematic, cropped.
 - **Size:** 959,868 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 462-02-004, size B 319 × 432 mm, 1478 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–316 mm across, 0–415 mm up
+- **Outlines:** line 684 rings, 8,671 straight (11,842 mm) / 1,678 curved (1,981 mm); text 360 rings, 3,008 straight (2,828 mm) / 867 curved (1,112 mm); tb 2 rings, 53 straight (148 mm) / 1 curved (1.4 mm)
+- **Centre lines:** 15,179 paths (127 closed); straight 10,513 mm, curved 41.5 mm; horizontal 3,715 mm, vertical 2,600 mm, diagonal 4,198 mm
+- **Circles and arcs:** 0 circles, 14 arcs
+- **Closed boxes:** 3; named: 5414-1094 OuTPUt]_AMPUNer; SA14-1094 OuipuT_AVPUFER
+- **Words (OCR):** 150 in 135 lines: R25 · 109 · C15 · Oo · 1-102 · 27P LhajW · 22P · +i0v · [ykz pho · R20 · 470p · cut
+- **Title block:** (204, 38)–(319, 62) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 63 connected wire groups from 755 runs; labelled ends: 340 mm → 22, Lhajw, Jia, Rot; 288 mm → (~TT, ~22v; 214 mm → pho, Oo, R20, [ykz; 191 mm → Swac, 2200p, LJsJN, Upb; 165 mm → Oo
+
+Every curve, box, word and wire group: [19xx - 462-02-004 - STEREO EQUALIZER MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20462-02-004%20-%20STEREO%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 462-02-004 - STEREO EQUALIZER MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

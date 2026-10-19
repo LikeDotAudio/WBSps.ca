@@ -20,6 +20,19 @@ Wiki page: [Job-940117](../../../PAGES/Job-940117.md)
 - **Size:** 438,253 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940117-03-002, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 115–842 mm across, 14–516 mm up
+- **Outlines:** line 753 rings, 6,481 straight (28,496 mm) / 1,036 curved (2,544 mm); text 251 rings, 1,474 straight (2,859 mm) / 474 curved (1,151 mm); tb 20 rings, 152 straight (346 mm) / 36 curved (79.5 mm)
+- **Centre lines:** 6,986 paths (241 closed); straight 18,217 mm, curved 42.2 mm; horizontal 6,632 mm, vertical 6,812 mm, diagonal 4,773 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 97 (3 in the title block)
+- **Words (OCR):** 33 in 27 lines: dETAIL · RECCCORDINGLY · Racm · DETAI · REC D · ulall · DETAIL · MATERIAL: CRS: 0.059 ThHiCK · 0,150 · 0+55 · 0,270 · FINISH: SAND
+- **Title block:** (683, 46)–(852, 79) mm: ISSUFIDrTC · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940117-03-002 - MK SERIES CONNECTOR PANEL - DRN DRG - ISS 2 (traced).json](1994%20-%20940117-03-002%20-%20MK%20SERIES%20CONNECTOR%20PANEL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940117-03-002 - MK SERIES CONNECTOR PANEL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

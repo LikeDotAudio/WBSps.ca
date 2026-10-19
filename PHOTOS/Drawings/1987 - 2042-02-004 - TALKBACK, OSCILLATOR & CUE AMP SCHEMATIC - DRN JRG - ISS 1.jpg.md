@@ -21,6 +21,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 3,499,652 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 2042-02-004, size B (assumed) 432 × 134 mm, 2000 × 620 px traced (0.216 mm/px)
+- **Ink extent:** 32–422 mm across, 0–121 mm up
+- **Outlines:** line 500 rings, 4,289 straight (6,350 mm) / 946 curved (1,106 mm); text 194 rings, 1,317 straight (1,347 mm) / 380 curved (478 mm); tb 10 rings, 104 straight (145 mm) / 18 curved (21.4 mm)
+- **Centre lines:** 7,962 paths (131 closed); straight 5,367 mm, curved 81.1 mm; horizontal 1,961 mm, vertical 1,284 mm, diagonal 2,122 mm
+- **Circles and arcs:** 0 circles, 32 arcs
+- **Closed boxes:** 18 (4 in the title block); named: CUE MPLFER; IALKBACK MODULE; 4452 OSCILLATOR MODULE; OSCILLATOR TALKBACK; SCHEMATIC AMP CUE; 2042-02-004
+- **Words (OCR):** 31 in 31 lines: ELATE · (RichT SIDE) · EXT CUL · CUE · (4479 42) · MPLFER · EXT UC · Mo · IALKBACK · MODULE · 18js · (LEFT SDE)
+- **Title block:** (338, 14)–(428, 33) mm: ISSUD DATE · WBS · WARD-BECK SYSTEMS · DRN;-RC 12/B · TALKBACK; · OSCILLATOR
+- **Wiring (first pass):** 55 connected wire groups from 412 runs; labelled ends: 160 mm → IALKBACK, MODULE; 34 mm → 18js; 34 mm → OSCILLATOR; 27 mm → (RichT SIDE); 26 mm → 18js
+
+Every curve, box, word and wire group: [1987 - 2042-02-004 - TALKBACK, OSCILLATOR & CUE AMP SCHEMATIC - DRN JRG - ISS 1 (traced).json](1987%20-%202042-02-004%20-%20TALKBACK%2C%20OSCILLATOR%20%26%20CUE%20AMP%20SCHEMATIC%20-%20DRN%20JRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 2042-02-004 - TALKBACK, OSCILLATOR & CUE AMP SCHEMATIC - DRN JRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

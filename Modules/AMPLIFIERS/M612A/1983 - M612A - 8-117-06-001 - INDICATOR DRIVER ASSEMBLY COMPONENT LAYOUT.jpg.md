@@ -11,6 +11,16 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 697,771 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-117-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 1–430 mm up
+- **Outlines:** line 118 rings, 1,011 straight (1,270 mm) / 278 curved (255 mm); text 313 rings, 2,786 straight (2,895 mm) / 806 curved (940 mm); tb 3 rings, 60 straight (143 mm) / 15 curved (14.3 mm)
+- **Words (OCR):** 42 in 32 lines: NOTES: · TRANSISTORS 0101 AND · OC · 0102 ARE · PN3646 _ · KJW · DIODES CR102 · To CR1OS · LJw OE · ARE IN4148 . · Q101 · 7 7KS
+- **Title block:** (214, 42)–(338, 67) mm: WARD-BECK ByBTeMB · WBS
+
+Every curve, box, word and wire group: [1983 - M612A - 8-117-06-001 - INDICATOR DRIVER ASSEMBLY COMPONENT LAYOUT (traced).json](1983%20-%20M612A%20-%208-117-06-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1983 - M612A - 8-117-06-001 - INDICATOR DRIVER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

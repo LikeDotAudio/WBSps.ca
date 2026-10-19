@@ -23,6 +23,20 @@ Wiki page: [M473](../../../PAGES/M473.md)
 - **Size:** 950,125 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 473-02-003, size B 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px); scale LB
+- **Ink extent:** 0–335 mm across, 0–431 mm up
+- **Outlines:** line 304 rings, 6,319 straight (6,705 mm) / 842 curved (1,081 mm); text 377 rings, 5,821 straight (5,761 mm) / 1,303 curved (1,806 mm); tb 55 rings, 536 straight (526 mm) / 86 curved (95.3 mm)
+- **Centre lines:** 11,591 paths (95 closed); straight 9,626 mm, curved 16.9 mm; horizontal 3,222 mm, vertical 2,163 mm, diagonal 4,242 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 6 (2 in the title block); named: {8AND Z CHANGED PINS; 473-02-003; SCALE
+- **Words (OCR):** 42 in 36 lines: 74 · Sub · DIRECT · 75 OUTPUTS · +8dBm, 6002 · M1 OUTPUT · MI · CONTROL · SUMMING · BUS · OUTPUTS · Me
+- **Title block:** (123, 9)–(336, 112) mm: vo/e4 PINS · {8AND Z CHANGED · REVISION · APP · ISSUE DATE · WBS · WARD-BECK · SYSTEMS · DRN: J/7ke4 · M473B · ENG · STEREO SUBMASTER MODULE · CKD · SCHEMATIC · APP · SCALE LB · ISSUE · 473-02-003
+- **Wiring (first pass):** 9 connected wire groups from 120 runs; labelled ends: 143 mm → {8AND Z CHANGED, vo/e4, ISSUE, DATE; 48 mm → 74, Sub, 75, +8dBm, 6002; 33 mm → SoLO; 30 mm → SoLO; 6 mm → Me
+
+Every curve, box, word and wire group: [1984 - 473-02-003 - M473B STEREO SUBMASTER MODULE SCHEMATIC - DRN JP - ISS 2 (traced).json](1984%20-%20473-02-003%20-%20M473B%20STEREO%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1984 - 473-02-003 - M473B STEREO SUBMASTER MODULE SCHEMATIC - DRN JP - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

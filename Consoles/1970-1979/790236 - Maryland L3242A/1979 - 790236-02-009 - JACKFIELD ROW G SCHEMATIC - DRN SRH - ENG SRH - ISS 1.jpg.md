@@ -22,6 +22,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,102,606 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 790236-02-009, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 6–360 mm across, 0–287 mm up
+- **Outlines:** line 415 rings, 7,382 straight (9,192 mm) / 1,140 curved (1,341 mm); text 294 rings, 1,890 straight (2,080 mm) / 563 curved (790 mm); tb 9 rings, 103 straight (229 mm) / 16 curved (25.1 mm)
+- **Centre lines:** 19,769 paths (176 closed); straight 10,356 mm, curved 314 mm; horizontal 3,336 mm, vertical 2,678 mm, diagonal 4,341 mm
+- **Circles and arcs:** 23 circles, 30 arcs; largest r 1.3 @ (27.0, 83.0), r 1.3 @ (27.0, 125.0), r 1.3 @ (27.0, 41.3), r 1.3 @ (27.1, 133.2)
+- **Closed boxes:** 13 (9 in the title block); named: ISSUE; SCALE; 790236-02 009
+- **Words (OCR):** 44 in 35 lines: TB · 78eo · 83 · 25 · 91,92 · 97,98 TB4 -/,2 (3) · 02,104 · 4,5 (c) · 107 · 7,8(9) 8*1 · Froh · LINE
+- **Title block:** (160, 6)–(312, 75) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN SRH · ENG_ SRh · JACKFIELD Row · CKD: · SCHEHATIC · APP · SCALE · 790236-02 009 · ISSUE
+- **Wiring (first pass):** 56 connected wire groups from 422 runs; labelled ends: 113 mm → TB4 -/,2 (3), 16,(7((8); 22 mm → 91,92; 21 mm → 02,104; 21 mm → 78eo; 20 mm → 25
+
+Every curve, box, word and wire group: [1979 - 790236-02-009 - JACKFIELD ROW G SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).json](1979%20-%20790236-02-009%20-%20JACKFIELD%20ROW%20G%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-02-009 - JACKFIELD ROW G SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

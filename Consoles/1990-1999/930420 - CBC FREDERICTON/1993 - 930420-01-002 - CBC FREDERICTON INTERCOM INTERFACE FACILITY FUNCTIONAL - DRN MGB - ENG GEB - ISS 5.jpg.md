@@ -22,6 +22,20 @@ Wiki page: [Job-930420](../../../PAGES/Job-930420.md)
 - **Size:** 491,999 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 930420-01-002, size D 864 × 555 mm, 2000 × 1285 px traced (0.432 mm/px)
+- **Ink extent:** 50–858 mm across, 6–518 mm up
+- **Outlines:** line 1,096 rings, 7,805 straight (34,155 mm) / 1,220 curved (2,776 mm); text 231 rings, 1,490 straight (2,678 mm) / 450 curved (1,136 mm); tb 17 rings, 143 straight (338 mm) / 41 curved (95.1 mm)
+- **Centre lines:** 10,582 paths (181 closed); straight 20,615 mm, curved 52.6 mm; horizontal 10,708 mm, vertical 4,285 mm, diagonal 5,623 mm
+- **Circles and arcs:** 0 circles, 9 arcs
+- **Closed boxes:** 71 (4 in the title block); named: 482038; 48; Mezit DEGOUPLER; CBC  FREDERICTON INTERCOM INTERFACE  FAC; 002 930420-01-; disc No;; CODE: 91+20602
+- **Words (OCR):** 27 in 26 lines: CAUFRA · er_ · JRS-F · KAFLT PAC · 482038 · DEGOUPLER · Mezit · PESQYONA · V97?1 · 48 · Vuz80 · MLZCSE
+- **Title block:** (684, 37)–(852, 70) mm: VPOATED · WARD-BECK SYSTEMS · WBS · CBC  FREDERICTON
+- **Wiring (first pass):** 142 connected wire groups from 1,288 runs; labelled ends: 504 mm → Vuz80; 475 mm → MLZCSE; 314 mm → er_; 304 mm → Vuz80; 249 mm → WBS
+
+Every curve, box, word and wire group: [1993 - 930420-01-002 - CBC FREDERICTON INTERCOM INTERFACE FACILITY FUNCTIONAL - DRN MGB - ENG GEB - ISS 5 (traced).json](1993%20-%20930420-01-002%20-%20CBC%20FREDERICTON%20INTERCOM%20INTERFACE%20FACILITY%20FUNCTIONAL%20-%20DRN%20MGB%20-%20ENG%20GEB%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1993 - 930420-01-002 - CBC FREDERICTON INTERCOM INTERFACE FACILITY FUNCTIONAL - DRN MGB - ENG GEB - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

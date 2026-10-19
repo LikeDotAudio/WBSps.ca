@@ -15,6 +15,20 @@ Wiki page: [M495](../../../PAGES/M495.md)
 
 - **1975** (labelled): `DATE JAN 75` — …5 R38 ISk RED ON MATL -_ WBS WARD-BECK BySTEMs LTDZ DRN_ DM DATE JAN 75 CKD. Rk SCALE XX TOLS _ Aa 5-101B DUAL BOOSTER AMPLIFIER SC…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 5_101-02-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–429 mm up
+- **Outlines:** line 257 rings, 6,529 straight (12,870 mm) / 815 curved (1,384 mm); text 492 rings, 5,083 straight (6,945 mm) / 1,368 curved (2,415 mm); tb 18 rings, 273 straight (552 mm) / 15 curved (23.5 mm)
+- **Centre lines:** 4,915 paths (62 closed); straight 11,635 mm, curved 468 mm; horizontal 4,120 mm, vertical 2,773 mm, diagonal 4,741 mm
+- **Circles and arcs:** 11 circles, 13 arcs; largest r 8.9 @ (130.3, 125.1), r 8.9 @ (133.0, 378.0), r 8.7 @ (131.7, 211.9), r 8.4 @ (132.5, 290.1)
+- **Closed boxes:** 14 (4 in the title block); named: RED; MATL _; WBS BYSTEMS WARD-BECK LTD:; 5-101B DUAL BOOSTE R AMPLIFIER SCHEMATIC; FINISH; XX TOLS _; LB; 5 _ 101-02 -003; IsS.
+- **Words (OCR):** 89 in 71 lines: ExtErNAL connEction · R35 · I5k · Q5 · Pn35G9 · R31 · CRS R39 · 33 · C13 R45 E7 · 2zo/1o_ · 33 · 23
+- **Title block:** (99, 16)–(249, 86) mm: WBS WARD-BECK · DRN: DM · 5-101B · DATE JAN 75 · Rek · DUAL BOOSTE R AMPLIFIER · CKD: · SCALE · TOLS _ · XX
+- **Wiring (first pass):** 60 connected wire groups from 338 runs; labelled ends: 231 mm → ON, WBS; 186 mm → DRN:, DATE, CKD:; 143 mm → R31, CRS, R39, 33; 123 mm → I5k, CRS, CRG, R36; 106 mm → I5k, CR7, CR8
+
+Every curve, box, word and wire group: [1975 - M495 - 5_101-02-003 - DUAL BOOSTER AMPLIFIER (traced).json](1975%20-%20M495%20-%205_101-02-003%20-%20DUAL%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M495 - 5_101-02-003 - DUAL BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

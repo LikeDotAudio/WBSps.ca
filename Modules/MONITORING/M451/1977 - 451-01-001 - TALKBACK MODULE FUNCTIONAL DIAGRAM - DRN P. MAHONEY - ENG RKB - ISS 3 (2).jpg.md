@@ -29,6 +29,20 @@ Wiki page: [M451](../../../PAGES/M451.md)
 
 - **1977** (labelled): `REVISION 9/77` — …JUMPER 25 Hz OSC OSC CTL 10/77 REVISED DESIGNATIONS REDRAWN REVISION 9/77 ISSUE DATE ^r APP WBS WARD-BECK sySTEMS DRN PMMONEY ENG. RK…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 451-01-001, size B 432 × 296 mm, 2000 × 1370 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–235 mm up
+- **Outlines:** line 172 rings, 2,333 straight (7,187 mm) / 280 curved (424 mm); text 431 rings, 3,174 straight (3,756 mm) / 909 curved (1,371 mm); tb 15 rings, 172 straight (328 mm) / 28 curved (43.7 mm)
+- **Centre lines:** 3,680 paths (72 closed); straight 6,334 mm, curved 62.8 mm; horizontal 2,401 mm, vertical 1,639 mm, diagonal 2,293 mm
+- **Circles and arcs:** 0 circles, 8 arcs
+- **Closed boxes:** 14 (9 in the title block); named: COMP; 25 Hz OSC; 10/77; DESIGNATIONS REVISED
+- **Words (OCR):** 62 in 58 lines: AUDIO · Mic INPUT · CONTROL · 70 dBm · PRE · 150 OHMS · TB · AUDIO · LEVEL · CONTROL_ · outputs · Mic CONTROL
+- **Title block:** (274, 0)–(432, 81) mm: 10/77 · REVISED · DESIGNATIONS · 9/77 · REDRAWN · Lr · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNPMHO · M451 · ENG_ RKB · CKD Rul · TALKBACK MODULE · FUNCTIONAL DIAGRAM · APP · SCALE ·
+- **Wiring (first pass):** 111 connected wire groups from 231 runs; labelled ends: 150 mm → INSERT, 8 dBm; 98 mm → 10/77, Lr; 86 mm → COMP; 72 mm → 25 Hz, OSC; 53 mm → LEVEL, BST
+
+Every curve, box, word and wire group: [1977 - 451-01-001 - TALKBACK MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (2) (traced).json](1977%20-%20451-01-001%20-%20TALKBACK%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1977 - 451-01-001 - TALKBACK MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

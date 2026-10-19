@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,443,582 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-005, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 260 rings, 4,382 straight (9,796 mm) / 722 curved (1,175 mm); text 702 rings, 4,252 straight (4,430 mm) / 1,264 curved (1,692 mm)
+- **Centre lines:** 5,948 paths (103 closed); straight 8,113 mm, curved 621 mm; horizontal 3,053 mm, vertical 2,517 mm, diagonal 2,544 mm
+- **Circles and arcs:** 21 circles, 84 arcs; largest r 1.4 @ (200.5, 135.2), r 1.4 @ (217.2, 345.8), r 1.4 @ (217.2, 356.4), r 1.4 @ (217.2, 364.1)
+- **Closed boxes:** 1; named: 25,26
+- **Words (OCR):** 134 in 124 lines: AUX · CHANNELS · W19 · X19 · TB2 · 1,2 · 27.28 · AUX LEFT OUTPUT · 55,56 · +8dBm , 600n · (57) · 35,36
+- **Wiring (first pass):** 57 connected wire groups from 366 runs; labelled ends: 1268 mm → 29,30, TB1, 121,122, (123); 229 mm → 4529, 53,54, 43 .; 165 mm → 29,30; 140 mm → 46; 137 mm → 37,38
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-005 - AUX OVERLOAD MODULE (2) (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-005%20-%20AUX%20OVERLOAD%20MODULE%20%282%29%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-005 - AUX OVERLOAD MODULE (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

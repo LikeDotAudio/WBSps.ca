@@ -21,6 +21,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,694,935 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-141-02-001, size B 303 × 432 mm, 1404 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–285 mm across, 2–432 mm up
+- **Outlines:** line 871 rings, 12,784 straight (17,799 mm) / 2,272 curved (3,277 mm); text 523 rings, 4,086 straight (4,639 mm) / 1,129 curved (1,722 mm)
+- **Centre lines:** 9,469 paths (104 closed); straight 13,304 mm, curved 605 mm; horizontal 3,017 mm, vertical 4,514 mm, diagonal 5,773 mm
+- **Circles and arcs:** 20 circles, 86 arcs; largest r 6.3 @ (144.7, 216.2), r 6.3 @ (105.2, 139.3), r 6.1 @ (47.1, 139.1), r 1.9 @ (82.4, 207.6)
+- **Closed boxes:** 36
+- **Words (OCR):** 15 in 15 lines: 60 · 33 · 253 · j 3 · 82 · 18 · AR · 823 · SL · 82 · 8g8 · 8s8
+- **Wiring (first pass):** 89 connected wire groups from 843 runs; labelled ends: 261 mm → 18, AR, SL, 823; 115 mm → 82, 18; 50 mm → 60, 33; 49 mm → 82, 18, AR; 42 mm → 8g8, 88
+
+Every curve, box, word and wire group: [1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 6 (traced).json](1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

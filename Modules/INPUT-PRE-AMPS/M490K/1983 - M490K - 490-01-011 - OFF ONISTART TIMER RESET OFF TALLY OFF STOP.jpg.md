@@ -11,6 +11,19 @@ Wiki page: [M490K](../../../PAGES/M490K.md)
 - **Size:** 205,839 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 6–429 mm up
+- **Outlines:** line 361 rings, 4,209 straight (9,048 mm) / 663 curved (1,041 mm); text 212 rings, 1,719 straight (2,130 mm) / 548 curved (890 mm)
+- **Centre lines:** 2,280 paths (33 closed); straight 5,645 mm, curved 137 mm; horizontal 2,465 mm, vertical 1,449 mm, diagonal 1,730 mm
+- **Circles and arcs:** 5 circles, 12 arcs; largest r 4.5 @ (208.2, 155.8), r 2.3 @ (19.5, 84.3), r 2.3 @ (43.5, 84.5), r 1.6 @ (43.4, 84.7)
+- **Closed boxes:** 4; named: CUE CTL LoGic
+- **Words (OCR):** 38 in 34 lines: FADER · (-10dB) Ch ON · PAN · 3I8 · INSERT · INSERT · LINE INPUTS · ~30/0 dBm · 600 ohm · TRIM · (3odB) · INPUT
+- **Wiring (first pass):** 177 connected wire groups from 346 runs; labelled ends: 206 mm → INSERT, (-10dB), CUE; 106 mm → CUE, CTL, LoGic; 105 mm → CUE, CTL, LoGic; 58 mm → 3I8; 41 mm → 3I8
+
+Every curve, box, word and wire group: [1983 - M490K - 490-01-011 - OFF ONISTART TIMER RESET OFF TALLY OFF STOP (traced).json](1983%20-%20M490K%20-%20490-01-011%20-%20OFF%20ONISTART%20TIMER%20RESET%20OFF%20TALLY%20OFF%20STOP%20%28traced%29.json) (the CAD file: `1983 - M490K - 490-01-011 - OFF ONISTART TIMER RESET OFF TALLY OFF STOP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

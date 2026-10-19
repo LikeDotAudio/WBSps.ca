@@ -11,6 +11,20 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 413,601 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-110-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 445 rings, 8,533 straight (12,938 mm) / 1,642 curved (2,058 mm); text 416 rings, 4,758 straight (6,499 mm) / 1,185 curved (2,029 mm); tb 113 rings, 725 straight (865 mm) / 142 curved (164 mm)
+- **Centre lines:** 14,983 paths (84 closed); straight 14,580 mm, curved 165 mm; horizontal 5,279 mm, vertical 2,875 mm, diagonal 6,426 mm
+- **Circles and arcs:** 0 circles, 38 arcs
+- **Closed boxes:** 5 (1 in the title block); named: MATL; FINISH; 4-110-02-001
+- **Words (OCR):** 69 in 61 lines: HIGH · PASS FILTER · E4 · +21v · R5 · C12 · 18 · 33/10 · Q4 · E5 · BYPASS · 2N4403
+- **Title block:** (114, 17)–(320, 87) mm: WBS WARD-BECK SYSTEMS LTD · DRN: · 4-110 · DATE 8 MAR74 · PRE-AMPIHP FILTER · CKD · SCALE · SCHEMATIC · TOLS _ · 4-110-02-001 · I5S,
+- **Wiring (first pass):** 36 connected wire groups from 279 runs; labelled ends: 443 mm → E4, +21v, R5, *C9; 425 mm → *C1O, 33pF, Ris, 470k; 351 mm → E9, 6-21v, COMPONENT; 301 mm → DEsICN-, RI6,Ci6,05,21, WBS, COMPONENT; 237 mm → DRN:, DATE 8 MAR74, CKD
+
+Every curve, box, word and wire group: [1974 - M460M - 4-110-02-001 - COMPONENT DESICN (traced).json](1974%20-%20M460M%20-%204-110-02-001%20-%20COMPONENT%20DESICN%20%28traced%29.json) (the CAD file: `1974 - M460M - 4-110-02-001 - COMPONENT DESICN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

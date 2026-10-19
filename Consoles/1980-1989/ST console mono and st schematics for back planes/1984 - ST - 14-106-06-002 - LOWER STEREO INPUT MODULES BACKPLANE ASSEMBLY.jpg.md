@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,797,894 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-106-06-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 633 rings, 3,990 straight (8,549 mm) / 892 curved (944 mm); text 45 rings, 317 straight (277 mm) / 103 curved (116 mm)
+- **Circles and arcs:** 28 circles, 0 arcs; largest r 2.0 @ (372.1, 120.5), r 1.6 @ (61.7, 110.0), r 1.6 @ (72.7, 109.8), r 1.6 @ (50.7, 110.2)
+- **Closed boxes:** 18
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1984 - ST - 14-106-06-002 - LOWER STEREO INPUT MODULES BACKPLANE ASSEMBLY (traced).json](1984%20-%20ST%20-%2014-106-06-002%20-%20LOWER%20STEREO%20INPUT%20MODULES%20BACKPLANE%20ASSEMBLY%20%28traced%29.json) (the CAD file: `1984 - ST - 14-106-06-002 - LOWER STEREO INPUT MODULES BACKPLANE ASSEMBLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

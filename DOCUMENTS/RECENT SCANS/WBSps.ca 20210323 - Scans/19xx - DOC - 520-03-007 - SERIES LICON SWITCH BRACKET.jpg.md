@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,995,038 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 520-03-007, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 182 rings, 2,963 straight (6,736 mm) / 379 curved (564 mm); text 429 rings, 3,466 straight (4,036 mm) / 1,087 curved (1,656 mm); tb 34 rings, 307 straight (455 mm) / 77 curved (116 mm)
+- **Centre lines:** 6,147 paths (79 closed); straight 7,301 mm, curved 10.5 mm; horizontal 3,063 mm, vertical 1,451 mm, diagonal 2,787 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 14 (9 in the title block)
+- **Words (OCR):** 56 in 50 lines: '050 · 225 · -187 · 850 · 400 · NOTES: · TOLERANCES · XX · 015 · XXX · 005 · REMOVE BURRS SHARP
+- **Title block:** (278, 7)–(431, 75) mm: (ISSUE DATE · REVISION · APP · WBS WAAD-BECK SYSTEMS · DRN_ · BD 23 · ENG · Mew · M520 SERIES · LICON · SWITCH BRACKET · CKD: · APP · SCALE · 520-03-007 · ISSUE · 2X
+
+Every curve, box, word and wire group: [19xx - DOC - 520-03-007 - SERIES LICON SWITCH BRACKET (traced).json](19xx%20-%20DOC%20-%20520-03-007%20-%20SERIES%20LICON%20SWITCH%20BRACKET%20%28traced%29.json) (the CAD file: `19xx - DOC - 520-03-007 - SERIES LICON SWITCH BRACKET (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

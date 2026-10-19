@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,556,154 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94063-04-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 38–424 mm across, 8–257 mm up
+- **Outlines:** line 835 rings, 4,996 straight (15,664 mm) / 1,098 curved (1,554 mm); text 236 rings, 1,435 straight (1,514 mm) / 454 curved (596 mm); tb 95 rings, 778 straight (2,888 mm) / 136 curved (183 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 4.2 @ (153.2, 117.7), r 4.1 @ (130.3, 172.3), r 2.0 @ (119.8, 46.9)
+- **Closed boxes:** 50 (2 in the title block); named: ALKJACK HEADSET; NTS; 94063-04-001; COCE;
+- **Dots (junctions):** 39
+- **Words (OCR):** 32 in 26 lines: LSTEL · ALKJACK · HEADSET · SFEAXER · LEVEL · HEADSET · WBS · TOP MEW · FRONT · FRONT · TaRF · TYPICAL SIDE MEW
+- **Title block:** (151, 24)–(430, 159) mm: WBS · FRONT · TYPICAL SIDE MEW · FCR Both TURRETS · RFAR MER · ISSUE DATL · WBS · WARD-BECK SYSTEMS · CBC REGINA
+
+Every curve, box, word and wire group: [1994 - 94063 - DOC - 94063-04-001 - REGINA REAR VIEW EDAC MULTI-PIN CONNECTOR TYPICAL SIDE (traced).json](1994%20-%2094063%20-%20DOC%20-%2094063-04-001%20-%20REGINA%20REAR%20VIEW%20EDAC%20MULTI-PIN%20CONNECTOR%20TYPICAL%20SIDE%20%28traced%29.json) (the CAD file: `1994 - 94063 - DOC - 94063-04-001 - REGINA REAR VIEW EDAC MULTI-PIN CONNECTOR TYPICAL SIDE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

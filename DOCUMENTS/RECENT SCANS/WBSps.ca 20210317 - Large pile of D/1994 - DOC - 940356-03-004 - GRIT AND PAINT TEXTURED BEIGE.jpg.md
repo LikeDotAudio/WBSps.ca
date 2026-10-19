@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,613,006 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940356-03-004, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 54–421 mm across, 8–254 mm up
+- **Outlines:** line 754 rings, 5,322 straight (11,793 mm) / 1,011 curved (1,173 mm); text 291 rings, 1,654 straight (1,570 mm) / 563 curved (705 mm); tb 15 rings, 122 straight (157 mm) / 26 curved (31.5 mm)
+- **Centre lines:** 6,690 paths (214 closed); straight 7,933 mm, curved 35.3 mm; horizontal 3,228 mm, vertical 1,908 mm, diagonal 2,796 mm
+- **Circles and arcs:** 0 circles, 15 arcs
+- **Closed boxes:** 49 (3 in the title block); named: CUSTOM MACHINE CONTROL PLATE; 940356-03-004
+- **Dots (junctions):** 1
+- **Words (OCR):** 31 in 26 lines: 2790 · 940356-03-004- · DATUM · 02C · Ro'D · ALOO · PITCH(SCOO} · 940556 · SUB FLATE · In 447 · DATC · PUNCH 0,640 5C RCO D
+- **Title block:** (341, 24)–(427, 44) mm: ISSLELDATEL · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940356-03-004 - GRIT AND PAINT TEXTURED BEIGE (traced).json](1994%20-%20DOC%20-%20940356-03-004%20-%20GRIT%20AND%20PAINT%20TEXTURED%20BEIGE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940356-03-004 - GRIT AND PAINT TEXTURED BEIGE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

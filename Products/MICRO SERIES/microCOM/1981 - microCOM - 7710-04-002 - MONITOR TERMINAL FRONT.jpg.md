@@ -11,6 +11,17 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,548,029 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 7710-04-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,174 rings, 8,563 straight (17,686 mm) / 1,793 curved (2,884 mm); text 81 rings, 497 straight (507 mm) / 163 curved (235 mm)
+- **Circles and arcs:** 32 circles, 0 arcs; largest r 6.0 @ (281.5, 171.1), r 5.1 @ (257.1, 89.3), r 3.4 @ (233.6, 52.2), r 3.4 @ (315.9, 189.2)
+- **Closed boxes:** 36
+- **Dots (junctions):** 6
+
+Every curve, box, word and wire group: [1981 - microCOM - 7710-04-002 - MONITOR TERMINAL FRONT (traced).json](1981%20-%20microCOM%20-%207710-04-002%20-%20MONITOR%20TERMINAL%20FRONT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7710-04-002 - MONITOR TERMINAL FRONT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

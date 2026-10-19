@@ -24,6 +24,20 @@ Wiki page: [M478](../../../PAGES/M478.md)
 - **Size:** 493,561 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 478-02-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 187 rings, 3,141 straight (8,554 mm) / 481 curved (699 mm); text 178 rings, 1,301 straight (1,688 mm) / 397 curved (602 mm); tb 11 rings, 110 straight (259 mm) / 7 curved (12.8 mm)
+- **Centre lines:** 2,324 paths (45 closed); straight 5,740 mm, curved 153 mm; horizontal 2,662 mm, vertical 1,787 mm, diagonal 1,291 mm
+- **Circles and arcs:** 10 circles, 31 arcs; largest r 1.1 @ (237.4, 135.6), r 0.9 @ (261.7, 210.3), r 0.9 @ (120.3, 205.1), r 0.9 @ (260.0, 218.7)
+- **Closed boxes:** 22 (9 in the title block)
+- **Words (OCR):** 30 in 24 lines: 721 · OUTPUt · 75e]common · CTL$ · CTL3 · CTLZ · CTL| · ISSUE DATE · REVISION · APP · WBS WARD-BECK systEMS · DRN_
+- **Title block:** (279, 8)–(432, 76) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK systEMS · DRN_ · PA · M478E · ENG PA · 4X1 MONO SWITCHER · MODULE · CKD · JC · SCHEMATIC · APP · SCALE · ISSUE · 478-02-006
+- **Wiring (first pass):** 35 connected wire groups from 191 runs; labelled ends: 234 mm → 721; 225 mm → 721; 190 mm → 75e]common; 14 mm → CTL|; 13 mm → CTL3
+
+Every curve, box, word and wire group: [19xx - 478-02-006 - M478E 4X1 MONO SWITCHER MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](19xx%20-%20478-02-006%20-%20M478E%204X1%20MONO%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 478-02-006 - M478E 4X1 MONO SWITCHER MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

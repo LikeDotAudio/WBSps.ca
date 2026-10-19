@@ -15,6 +15,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 642,533 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77012-04-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 9–422 mm up
+- **Outlines:** line 657 rings, 7,876 straight (16,719 mm) / 1,220 curved (1,583 mm); text 225 rings, 1,122 straight (994 mm) / 446 curved (582 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.1 @ (283.2, 225.0), r 1.1 @ (235.7, 225.2)
+- **Closed boxes:** 25; named: Optiomal LINE SELECToRS; Jackfield 100 JacKS; Out SEL; 4471 HaSTER HOOULES; optional PaTcHABLE ANCILLARY Lcnc; BL ANK; AdERS; TADERS; SPACE For Motion
+- **Words (OCR):** 34 in 27 lines: Optiomal · Jackfield · 472 · EQUALIIERS · LINE SELECToRS · 100 JacKS · optional PaTcHABLE · HaSTER · 4471 · ANCILLARY · Out HOOULES · Lcnc
+
+Every curve, box, word and wire group: [19xx - M472A - DOC - STEREO L SERIES - P009 - B77012-04-011 L (traced).json](19xx%20-%20M472A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P009%20-%20B77012-04-011%20L%20%28traced%29.json) (the CAD file: `19xx - M472A - DOC - STEREO L SERIES - P009 - B77012-04-011 L (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

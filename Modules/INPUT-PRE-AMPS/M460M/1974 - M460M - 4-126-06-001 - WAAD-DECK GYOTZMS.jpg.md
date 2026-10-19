@@ -15,6 +15,18 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 
 - **1974** (labelled): `DATE JUL74` — …2 BS69PM USOH Dant_ WBS WAAD-Deck syotems LtD. DRN Dm 4-126 DATE JUL74 CKD 44Z EQUALIZER FILTER [SCALE COMPONENT ASSEMBLY TOLS _ #…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 432 × 361 mm, 2000 × 1671 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–361 mm up
+- **Outlines:** line 644 rings, 6,903 straight (12,449 mm) / 1,791 curved (1,792 mm); text 634 rings, 5,981 straight (5,735 mm) / 1,705 curved (2,006 mm); tb 35 rings, 287 straight (334 mm) / 69 curved (68.0 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 4.4 @ (313.7, 205.7), r 4.4 @ (80.9, 299.8), r 4.4 @ (216.4, 216.9), r 4.4 @ (216.2, 192.2)
+- **Closed boxes:** 34 (1 in the title block); named: 25 Lmi4sb; 21 LM2eIN; 24 LMZoin; 22 LMzoiN; 27 Lmi458; 23 LMzPIN; WBS LTD:; 4-126 EQUALIZER FILTER COMPONENT A SSEMB; TOLS_; 4-126-06-001; ISS-
+- **Words (OCR):** 79 in 69 lines: E5 · E2 · 6-8l6 · R2o | Ri?cig Zt8 · C6 · c2i R2i Rn Lmi4sb · 25 · R24 Ri8 · t0 R7 21 · R3 · C1b · R2
+- **Title block:** (298, 4)–(349, 49) mm: WBS · DRM · Dm · CKD.444 · SCALE · TOLS_
+
+Every curve, box, word and wire group: [1974 - M460M - 4-126-06-001 - WAAD-DECK GYOTZMS (traced).json](1974%20-%20M460M%20-%204-126-06-001%20-%20WAAD-DECK%20GYOTZMS%20%28traced%29.json) (the CAD file: `1974 - M460M - 4-126-06-001 - WAAD-DECK GYOTZMS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

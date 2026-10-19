@@ -10,6 +10,21 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 31,081,717 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–430 mm across, 0–279 mm up
+- **Outlines:** line 1,172 rings, 8,777 straight (14,861 mm) / 1,301 curved (1,617 mm); text 600 rings, 3,822 straight (2,931 mm) / 922 curved (1,055 mm); tb 16 rings, 89 straight (141 mm) / 19 curved (21.9 mm)
+- **Centre lines:** 10,818 paths (224 closed); straight 9,834 mm, curved 72.0 mm; horizontal 4,251 mm, vertical 2,781 mm, diagonal 2,802 mm
+- **Circles and arcs:** 5 circles, 21 arcs; largest r 2.0 @ (2.2, 68.5), r 1.8 @ (1.9, 14.4), r 0.8 @ (152.7, 195.0), r 0.8 @ (152.3, 214.3)
+- **Closed boxes:** 18 (4 in the title block); named: 4592a SIEREQ EQUALIZER VODULE; SIEREQ CHANNEL EADER 1S0B); V82o0 MC_PREAMBS (12)
+- **Dots (junctions):** 4
+- **Words (OCR):** 122 in 116 lines: BACKPLANE CONNECTONS · STEREO INPUT · BACKPLANE CONNECTONS · CHANNELS · JumpeR · FRO · Rib3 CRBLE · MnEe · 519i-025 · Mabct · TMSTED · 43444
+- **Title block:** (341, 6)–(432, 41) mm: REMSION · SSUEDAIE · WARD-BECK · SYSTEMS · WBS · DRN: PA 08/88 STEREO INPUT CHANNEL · ENC · CADE · SCHEMATIC · SCALE DISC NO: · 880134-02-002 · ISSUE · CODE: 80134502
+- **Wiring (first pass):** 106 connected wire groups from 1,032 runs, 2 dotted junctions; labelled ends: 1639 mm → 43444, 51,52, 16,73, 18.19.34; 281 mm → +25,; 124 mm → Fana, CCNN, 1213; 121 mm → CAOLE; 60 mm → TXSTED, Hat
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-002 - NATOL QVUNC BUSES PAL MKI FEBCU CABU SIEREO (traced).json](1988%20-%20880134%20-%20880134-02-002%20-%20NATOL%20QVUNC%20BUSES%20PAL%20MKI%20FEBCU%20CABU%20SIEREO%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-002 - NATOL QVUNC BUSES PAL MKI FEBCU CABU SIEREO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

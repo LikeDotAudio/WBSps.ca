@@ -12,6 +12,17 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 392,041 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-141-06-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 458 rings, 4,451 straight (7,156 mm) / 1,154 curved (1,146 mm); text 246 rings, 2,820 straight (2,916 mm) / 789 curved (906 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.3 @ (265.0, 244.3)
+- **Closed boxes:** 30; named: 22 LM 2oin; USED ON; ISS MOD  CKD_; 230; 5 3203; GEB; 3512
+- **Words (OCR):** 40 in 33 lines: C2 · 22 · LM 2oin · 33o/ · Ph · 'eCi5_ · ~R20-52o · Cl6 ~R18-2k+ · ~C12"p · 3y11 · E1 · ~RIg
+
+Every curve, box, word and wire group: [1972 - M463 - 4-141-06-001 - ARE FACTORY SELECTED (traced).json](1972%20-%20M463%20-%204-141-06-001%20-%20ARE%20FACTORY%20SELECTED%20%28traced%29.json) (the CAD file: `1972 - M463 - 4-141-06-001 - ARE FACTORY SELECTED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

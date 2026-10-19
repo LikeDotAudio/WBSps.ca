@@ -11,6 +11,16 @@ Wiki page: [M166](../../../PAGES/M166.md)
 - **Size:** 6,438,457 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 166-06-001, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–431 mm across, 19–307 mm up
+- **Outlines:** line 1,054 rings, 8,980 straight (12,476 mm) / 2,334 curved (2,358 mm); text 220 rings, 1,597 straight (1,528 mm) / 485 curved (534 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (193.3, 31.9), r 1.5 @ (5.7, 261.2)
+- **Closed boxes:** 27
+
+Every curve, box, word and wire group: [19xx - M166 - B 166-06-001 - M166 - ACTIVE SUMMING AMPLIFIER - LAYOUT (traced).json](19xx%20-%20M166%20-%20B%20166-06-001%20-%20M166%20-%20ACTIVE%20SUMMING%20AMPLIFIER%20-%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M166 - B 166-06-001 - M166 - ACTIVE SUMMING AMPLIFIER - LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

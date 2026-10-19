@@ -9,6 +9,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,553,241 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 0–432 mm up
+- **Outlines:** line 143 rings, 3,002 straight (5,332 mm) / 303 curved (428 mm); text 239 rings, 1,575 straight (1,592 mm) / 493 curved (672 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (209.5, 402.9)
+- **Closed boxes:** 10; named: LEGEND
+- **Words (OCR):** 30 in 19 lines: LEGEND · NO CONNECTION · STRAP OR JUMPER · CONNECTiON · AA · TB4/21,22 · TYPicAL AUDIO PAIR · CONNECTION To · TERMINAL BLOCK · PINS 21 · ANO 22 · BB
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_4 - 31106-04-003 - TYPICAL AUDIO PAIR CONNECTION (traced).json](1977%20-%2031106-04-003_4%20-%2031106-04-003%20-%20TYPICAL%20AUDIO%20PAIR%20CONNECTION%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_4 - 31106-04-003 - TYPICAL AUDIO PAIR CONNECTION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

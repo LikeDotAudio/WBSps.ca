@@ -20,6 +20,19 @@ Wiki page: [Job-960296](../../../PAGES/Job-960296.md)
 - **Size:** 530,466 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960296-03-005, size D 864 × 556 mm, 2000 × 1287 px traced (0.432 mm/px); scale DISC NO
+- **Ink extent:** 75–864 mm across, 0–492 mm up
+- **Outlines:** line 953 rings, 7,067 straight (32,188 mm) / 1,524 curved (3,545 mm); text 264 rings, 1,538 straight (2,643 mm) / 490 curved (1,185 mm); tb 48 rings, 406 straight (2,620 mm) / 77 curved (188 mm)
+- **Centre lines:** 9,518 paths (284 closed); straight 22,048 mm, curved 77.8 mm; horizontal 11,568 mm, vertical 5,022 mm, diagonal 5,458 mm
+- **Circles and arcs:** 1 circles, 12 arcs; largest r 1.6 @ (449.7, 70.2)
+- **Closed boxes:** 68
+- **Words (OCR):** 42 in 39 lines: 17.10 · 0,173 · OTHFR <JF · INSERT · "PEV" 440-| · PCHES · 0,690 · 03p · 1194 · 1 194 · 2.767 · JANE
+- **Title block:** (661, 0)–(836, 73) mm: ISSUE DALEL · REASC · WBS · WARD-BECK   SYSTEMS · PROGRAM  SELECTOR · PANEL · SCALE DISC NO · 960296-03-005
+
+Every curve, box, word and wire group: [1996 - 960296-03-005 - PROGRAM SELECTOR PANEL - DRN DRG - ISS 1 (traced).json](1996%20-%20960296-03-005%20-%20PROGRAM%20SELECTOR%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960296-03-005 - PROGRAM SELECTOR PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

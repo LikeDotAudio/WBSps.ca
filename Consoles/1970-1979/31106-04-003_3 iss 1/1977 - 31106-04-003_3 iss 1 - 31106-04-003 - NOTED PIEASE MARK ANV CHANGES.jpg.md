@@ -9,6 +9,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,169,506 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–431 mm up
+- **Outlines:** line 232 rings, 4,029 straight (6,278 mm) / 468 curved (653 mm); text 311 rings, 2,250 straight (2,163 mm) / 747 curved (982 mm)
+- **Closed boxes:** 22
+- **Words (OCR):** 35 in 24 lines: LEGEND · NO CONNECTION · STRAP OR JumpER · CONNECTION · TB4/21,22 · TYPical AUDIO PAIR · conNECTION To · TERMINAL BLOCK · PINS 21 AND 22 · STRAP OR · Jumper · CONNECTED To JACK
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_3 iss 1 - 31106-04-003 - NOTED PIEASE MARK ANV CHANGES (traced).json](1977%20-%2031106-04-003_3%20iss%201%20-%2031106-04-003%20-%20NOTED%20PIEASE%20MARK%20ANV%20CHANGES%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_3 iss 1 - 31106-04-003 - NOTED PIEASE MARK ANV CHANGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

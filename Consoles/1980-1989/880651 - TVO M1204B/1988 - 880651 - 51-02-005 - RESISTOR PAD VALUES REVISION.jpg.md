@@ -10,6 +10,17 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 6,743,073 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 51-02-005, size B (assumed) 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–324 mm across, 0–288 mm up
+- **Outlines:** line 210 rings, 1,037 straight (2,063 mm) / 98 curved (167 mm); text 73 rings, 474 straight (646 mm) / 81 curved (141 mm)
+- **Centre lines:** 517 paths (1 closed); straight 1,164 mm, curved 11.4 mm; horizontal 352 mm, vertical 518 mm, diagonal 295 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Wiring (first pass):** 18 connected wire groups from 130 runs
+
+Every curve, box, word and wire group: [1988 - 880651 - 51-02-005 - RESISTOR PAD VALUES REVISION (traced).json](1988%20-%20880651%20-%2051-02-005%20-%20RESISTOR%20PAD%20VALUES%20REVISION%20%28traced%29.json) (the CAD file: `1988 - 880651 - 51-02-005 - RESISTOR PAD VALUES REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

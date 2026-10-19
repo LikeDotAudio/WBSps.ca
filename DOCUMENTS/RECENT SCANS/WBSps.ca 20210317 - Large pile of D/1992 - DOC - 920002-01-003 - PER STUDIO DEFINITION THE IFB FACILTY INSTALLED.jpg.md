@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,376,023 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920002-01-003, size B (assumed) 432 × 282 mm, 2000 × 1308 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–282 mm up
+- **Outlines:** line 1,091 rings, 8,901 straight (13,157 mm) / 1,549 curved (1,852 mm); text 163 rings, 1,090 straight (1,043 mm) / 332 curved (433 mm); tb 19 rings, 148 straight (177 mm) / 27 curved (36.0 mm)
+- **Centre lines:** 11,532 paths (281 closed); straight 8,815 mm, curved 276 mm; horizontal 3,168 mm, vertical 2,262 mm, diagonal 3,385 mm
+- **Circles and arcs:** 21 circles, 16 arcs; largest r 2.0 @ (132.3, 163.2), r 2.0 @ (131.7, 142.9), r 2.0 @ (378.9, 146.5), r 2.0 @ (381.1, 217.7)
+- **Closed boxes:** 5 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 23 in 20 lines: INPUTS · IF0 CuTPUTS · 07) · eut · 26"94 · (+20 · EPARE · Npica · UATRIX · CINNECICRS · AMPUMERS · ISSUE]DATEL
+- **Title block:** (341, 26)–(426, 48) mm: ISSUE]DATEL · WBS · WARD-BECK SYSTEMS · STUDIO A/B1
+- **Wiring (first pass):** 163 connected wire groups from 679 runs; labelled ends: 174 mm → WARD-BECK SYSTEMS, 920002-01-003; 65 mm → eut; 23 mm → eut; 21 mm → eut; 11 mm → 07)
+
+Every curve, box, word and wire group: [1992 - DOC - 920002-01-003 - PER STUDIO DEFINITION THE IFB FACILTY INSTALLED (traced).json](1992%20-%20DOC%20-%20920002-01-003%20-%20PER%20STUDIO%20DEFINITION%20THE%20IFB%20FACILTY%20INSTALLED%20%28traced%29.json) (the CAD file: `1992 - DOC - 920002-01-003 - PER STUDIO DEFINITION THE IFB FACILTY INSTALLED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

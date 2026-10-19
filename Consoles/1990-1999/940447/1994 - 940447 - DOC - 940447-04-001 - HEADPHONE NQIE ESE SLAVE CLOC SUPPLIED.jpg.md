@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,754,095 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940447-04-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 76–409 mm across, 7–184 mm up
+- **Outlines:** line 195 rings, 1,737 straight (12,137 mm) / 124 curved (177 mm); text 115 rings, 742 straight (795 mm) / 198 curved (254 mm); tb 66 rings, 450 straight (450 mm) / 123 curved (144 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (314.4, 97.7)
+- **Closed boxes:** 37 (12 in the title block); named: 2200 Mk M; 2200
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 11 lines: 2200 · Mk M · FACPHCNE · SLAVE OCck Suppued CUSTCMER; · WBS · WARD-BECK SYSTEMS · WBZuB?SvON · RENAI · MkiI · SCALE · 940447-04-001
+- **Title block:** (326, 5)–(415, 39) mm: WBS · WARD-BECK SYSTEMS · WBZuB?SvON · RENAI · MkiI · SCALE · 940447-04-001
+
+Every curve, box, word and wire group: [1994 - 940447 - DOC - 940447-04-001 - HEADPHONE NQIE ESE SLAVE CLOC SUPPLIED (traced).json](1994%20-%20940447%20-%20DOC%20-%20940447-04-001%20-%20HEADPHONE%20NQIE%20ESE%20SLAVE%20CLOC%20SUPPLIED%20%28traced%29.json) (the CAD file: `1994 - 940447 - DOC - 940447-04-001 - HEADPHONE NQIE ESE SLAVE CLOC SUPPLIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

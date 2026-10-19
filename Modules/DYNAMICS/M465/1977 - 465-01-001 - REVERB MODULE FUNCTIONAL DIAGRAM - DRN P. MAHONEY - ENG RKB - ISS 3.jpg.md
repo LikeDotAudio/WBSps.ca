@@ -29,6 +29,20 @@ Wiki page: [M465](../../../PAGES/M465.md)
 
 - **1975** (labelled): `APP 75` — …N APP WBS WARD-BECK SYSTEMS DRN: PMAKOXEY ENG. RKB CKD: Ryl APP 75 70-2177 SCALE B M465 REVERB MODULE FUNCTIONAL DIAGRAM ISSUE…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 465-01-001, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 7–431 mm up
+- **Outlines:** line 169 rings, 5,178 straight (10,729 mm) / 585 curved (892 mm); text 413 rings, 3,672 straight (4,440 mm) / 1,006 curved (1,655 mm); tb 12 rings, 190 straight (334 mm) / 28 curved (43.2 mm)
+- **Centre lines:** 3,662 paths (56 closed); straight 8,461 mm, curved 32.7 mm; horizontal 3,672 mm, vertical 2,114 mm, diagonal 2,674 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 21 (11 in the title block); named: 4-109(C) 8-109 (C) WAS; 7/78; ISSUE; 465-01-00 1; SCALE
+- **Words (OCR):** 60 in 51 lines: REV RETuRN (RR) SECTion · RR · DIRECT Out · PAN · ~10 dBm · INSERT · RR ON · RR · FADER · LEFT Out · (-15dB) · 8 - 109
+- **Title block:** (117, 15)–(334, 125) mm: 7/78 · 8-109 (C) WAS · 4-109(C) · 10/77 · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN: PMAKOXEY · M465 · ENG RKB · REVERB · MODULE · Ryl · CKD · FUNCTIONAL DIAGRAM · APP · S
+- **Wiring (first pass):** 63 connected wire groups from 127 runs; labelled ends: 214 mm → (-15dB); 200 mm → RS, Solo; 179 mm → SOLO; 118 mm → 7/78; 106 mm → DIRECT Out, PAN, INSERT
+
+Every curve, box, word and wire group: [1977 - 465-01-001 - REVERB MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).json](1977%20-%20465-01-001%20-%20REVERB%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1977 - 465-01-001 - REVERB MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

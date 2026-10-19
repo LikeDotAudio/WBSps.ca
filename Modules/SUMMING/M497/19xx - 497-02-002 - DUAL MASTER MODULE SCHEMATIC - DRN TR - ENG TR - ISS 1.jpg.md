@@ -23,6 +23,20 @@ Wiki page: [M497](../../../PAGES/M497.md)
 - **Size:** 375,275 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 497-02-002, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–432 mm up
+- **Outlines:** line 516 rings, 6,794 straight (10,500 mm) / 1,292 curved (1,746 mm); text 398 rings, 3,275 straight (3,267 mm) / 1,163 curved (1,614 mm); tb 17 rings, 214 straight (263 mm) / 45 curved (60.6 mm)
+- **Centre lines:** 8,288 paths (85 closed); straight 8,779 mm, curved 246 mm; horizontal 2,752 mm, vertical 2,331 mm, diagonal 3,696 mm
+- **Circles and arcs:** 3 circles, 71 arcs; largest r 1.1 @ (198.5, 262.7), r 0.9 @ (317.9, 359.3), r 0.9 @ (272.0, 359.2)
+- **Closed boxes:** 15 (3 in the title block); named: SO Cx)
+- **Words (OCR):** 85 in 78 lines: NOTES · LALL · Resistors 'KN,5 % · AND · ALL CAPACiToRS · UHLESS · Otherwise · Specified: · 2.LAST · DesiehatiON · (R4,06,R19 26 · PcB 7-113
+- **Title block:** (224, 16)–(309, 54) mm: WBS · WARD-Beck · Da TR · M4978 · ENG · TR · DUAL MASTER MOdule · SchEMATIC
+- **Wiring (first pass):** 75 connected wire groups from 373 runs; labelled ends: 159 mm → 2E6, Rsa, 45; 149 mm → RS~Z6K, 45; 123 mm → Rsi, RS~Z6K; 105 mm → DUAL MASTER MOdule, SchEMATIC, Cx); 88 mm → 22089, Rao, Ik, 2K
+
+Every curve, box, word and wire group: [19xx - 497-02-002 - DUAL MASTER MODULE SCHEMATIC - DRN TR - ENG TR - ISS 1 (traced).json](19xx%20-%20497-02-002%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 497-02-002 - DUAL MASTER MODULE SCHEMATIC - DRN TR - ENG TR - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

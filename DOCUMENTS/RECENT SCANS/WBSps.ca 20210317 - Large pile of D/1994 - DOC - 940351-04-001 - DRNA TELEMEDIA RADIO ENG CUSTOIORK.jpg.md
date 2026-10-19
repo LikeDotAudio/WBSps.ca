@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,451,818 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940351-04-001, size B (assumed) 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 83–410 mm across, 17–246 mm up
+- **Outlines:** line 1,366 rings, 9,211 straight (21,114 mm) / 1,421 curved (1,695 mm); text 105 rings, 610 straight (719 mm) / 195 curved (268 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 4.2 @ (294.0, 121.8), r 4.2 @ (293.8, 105.3), r 1.6 @ (243.7, 155.7), r 1.6 @ (268.1, 155.4)
+- **Closed boxes:** 162; named: WARD-BECK SYSTEMS WBSS; AcSTOORK RADIO TELEMEDIA RENAISSYOCF MKI; 940351-04-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 6 in 6 lines: WBSS · WARD-BECK SYSTEMS · TELEMEDIA · AcSTOORK RADIO · RENAISSYOCF MKII · 940351-04-001
+
+Every curve, box, word and wire group: [1994 - DOC - 940351-04-001 - DRNA TELEMEDIA RADIO ENG CUSTOIORK (traced).json](1994%20-%20DOC%20-%20940351-04-001%20-%20DRNA%20TELEMEDIA%20RADIO%20ENG%20CUSTOIORK%20%28traced%29.json) (the CAD file: `1994 - DOC - 940351-04-001 - DRNA TELEMEDIA RADIO ENG CUSTOIORK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

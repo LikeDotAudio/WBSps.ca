@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,860,352 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940177-01-001, size B (assumed) 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 110–429 mm across, 4–266 mm up
+- **Outlines:** line 1,048 rings, 8,573 straight (12,744 mm) / 1,512 curved (1,724 mm); text 182 rings, 1,089 straight (1,066 mm) / 358 curved (476 mm); tb 48 rings, 342 straight (322 mm) / 91 curved (108 mm)
+- **Centre lines:** 12,883 paths (282 closed); straight 9,181 mm, curved 41.9 mm; horizontal 3,809 mm, vertical 2,138 mm, diagonal 3,234 mm
+- **Circles and arcs:** 2 circles, 10 arcs; largest r 1.3 @ (126.8, 238.8), r 1.1 @ (197.2, 226.5)
+- **Closed boxes:** 30 (14 in the title block)
+- **Words (OCR):** 19 in 18 lines: BoOTH · "2,97 · UC > TC · 96544' · 254 · U | FiD · udu · WBS · WARD- · BECK  SYSTEMS · TORONTO BROADCAST CENTRE · ANNOUNCE BOOTH
+- **Title block:** (345, 2)–(432, 36) mm: WBS · WARD- · BECK  SYSTEMS · TORONTO BROADCAST CENTRE · ANNOUNCE BOOTH · DISTRIBUTION · FUNC TIONAL · SCALE · 950177-01 = · 002 · 03177702
+- **Wiring (first pass):** 67 connected wire groups from 843 runs; labelled ends: 80 mm → 254; 74 mm → "2,97; 62 mm → WBS; 43 mm → 254; 28 mm → 254
+
+Every curve, box, word and wire group: [1993 - 940177 - DOC - 940177-01-001 - TORONTO BROADCAST CENTRE ANNOUNCE BOOTH DISTRIBUTION FUNCTIONAL (traced).json](1993%20-%20940177%20-%20DOC%20-%20940177-01-001%20-%20TORONTO%20BROADCAST%20CENTRE%20ANNOUNCE%20BOOTH%20DISTRIBUTION%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1993 - 940177 - DOC - 940177-01-001 - TORONTO BROADCAST CENTRE ANNOUNCE BOOTH DISTRIBUTION FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

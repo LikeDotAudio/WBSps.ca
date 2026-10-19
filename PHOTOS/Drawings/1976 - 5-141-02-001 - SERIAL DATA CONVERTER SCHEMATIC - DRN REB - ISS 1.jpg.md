@@ -21,6 +21,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 3,097,147 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5-141-02-001, size B 432 × 360 mm, 2000 × 1669 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 35–269 mm up
+- **Outlines:** line 1,089 rings, 12,428 straight (29,595 mm) / 2,136 curved (2,814 mm); text 276 rings, 1,930 straight (1,859 mm) / 594 curved (788 mm)
+- **Centre lines:** 12,448 paths (169 closed); straight 18,052 mm, curved 220 mm; horizontal 9,115 mm, vertical 4,615 mm, diagonal 4,322 mm
+- **Circles and arcs:** 9 circles, 59 arcs; largest r 1.3 @ (187.1, 82.1), r 1.1 @ (57.3, 184.6), r 0.9 @ (315.0, 70.1), r 0.9 @ (191.9, 173.1)
+- **Closed boxes:** 97
+- **Dots (junctions):** 7
+- **Wiring (first pass):** 175 connected wire groups from 1,397 runs, 6 dotted junctions
+
+Every curve, box, word and wire group: [1976 - 5-141-02-001 - SERIAL DATA CONVERTER SCHEMATIC - DRN REB - ISS 1 (traced).json](1976%20-%205-141-02-001%20-%20SERIAL%20DATA%20CONVERTER%20SCHEMATIC%20-%20DRN%20REB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 5-141-02-001 - SERIAL DATA CONVERTER SCHEMATIC - DRN REB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

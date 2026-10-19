@@ -16,6 +16,19 @@ Wiki page: [M452](../../../PAGES/M452.md)
 
 - **1974** (labelled): `DATE MAR 74` — …d HAaEs 5 43432 Lo 5 MATL. WBS WARD-BeCK BybTeMB LTD DRN 20 DATE MAR 74 CKD_ RCL SCALE M452 Finish OSCILLATOR MODULE COMPONENT LAYO…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-127-06-001, size B (assumed) 432 × 306 mm, 2000 × 1415 px traced (0.216 mm/px)
+- **Ink extent:** 64–432 mm across, 0–306 mm up
+- **Outlines:** line 567 rings, 5,317 straight (10,501 mm) / 1,461 curved (1,498 mm); text 1,051 rings, 7,375 straight (6,628 mm) / 2,452 curved (2,671 mm); tb 81 rings, 520 straight (687 mm) / 150 curved (144 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 7.6 @ (198.7, 213.2), r 7.3 @ (198.3, 242.2), r 7.2 @ (197.9, 271.6), r 7.2 @ (310.0, 248.0)
+- **Closed boxes:** 45 (27 in the title block); named: Swi-Swio WeS /-05o; 21; 22; 24; 42; c3; 23 L4z
+- **Dots (junctions):** 2
+- **Words (OCR):** 148 in 135 lines: -R7643 · R25 · R37 · ~R77 · F244*7 · -R20230 · Swi-Swio · C5 · Rig · 20 · AGC · WeS /-05o
+- **Title block:** (128, 1)–(399, 80) mm: Swii · WBS _ 1-092 · COMPONENT SIDE · LSS MOD CKD: · USED ON · MAT' · I724 · WBS WAAD-BECk bybtemb LTD · ZE9 · DRN 2m · M452 · LODEC · DATE · MAR · OSCILLATOR MODULE · FinISH · CKD · RC · SCALE · COMP
+
+Every curve, box, word and wire group: [1974 - M452 - 4-127-06-001 - COMPONENT SIDE NOTE FACTORY SELECTED VALUE (traced).json](1974%20-%20M452%20-%204-127-06-001%20-%20COMPONENT%20SIDE%20NOTE%20FACTORY%20SELECTED%20VALUE%20%28traced%29.json) (the CAD file: `1974 - M452 - 4-127-06-001 - COMPONENT SIDE NOTE FACTORY SELECTED VALUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

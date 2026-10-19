@@ -20,6 +20,20 @@ Wiki page: [Job-940444](../../../PAGES/Job-940444.md)
 - **Size:** 448,265 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940444-03-001, size D 864 × 560 mm, 2000 × 1298 px traced (0.432 mm/px)
+- **Ink extent:** 92–846 mm across, 14–502 mm up
+- **Outlines:** line 721 rings, 5,341 straight (26,468 mm) / 975 curved (2,440 mm); text 314 rings, 1,834 straight (3,629 mm) / 580 curved (1,484 mm); tb 16 rings, 77 straight (126 mm) / 33 curved (74.8 mm)
+- **Centre lines:** 7,644 paths (226 closed); straight 17,789 mm, curved 116 mm; horizontal 6,252 mm, vertical 6,471 mm, diagonal 5,065 mm
+- **Circles and arcs:** 1 circles, 16 arcs; largest r 1.5 @ (282.4, 222.7)
+- **Closed boxes:** 97 (4 in the title block); named: MK SERIES CONNECTOR PANEL (REAR RAS_; 940444-03-001; CCDE: 944440J1
+- **Dots (junctions):** 1
+- **Words (OCR):** 38 in 32 lines: RECOCCRDGLY · REQ'D · DETAI · HEDD · RCo"d · CCTAL · 3 8 · GC · 0.6IC · 0.3oz · 0sceto · 0,750
+- **Title block:** (687, 46)–(857, 79) mm: PEot · WBS) · WARD-BECK SYSTEMS · MK SERIES
+
+Every curve, box, word and wire group: [1994 - 940444-03-001 - MK SERIES CONNECTOR PANEL (REAR R.H.S.) - DRN DRG - ISS 1 (traced).json](1994%20-%20940444-03-001%20-%20MK%20SERIES%20CONNECTOR%20PANEL%20%28REAR%20R.H.S.%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940444-03-001 - MK SERIES CONNECTOR PANEL (REAR R.H.S.) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

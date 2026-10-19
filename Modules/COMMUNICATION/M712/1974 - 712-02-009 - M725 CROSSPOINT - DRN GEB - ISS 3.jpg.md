@@ -27,6 +27,20 @@ Wiki page: [M712](../../../PAGES/M712.md)
 
 - **1974** (labelled): `DATE APR74` — …atL WBS WARD-BeCK BybteMB LTD_ CROSSPOINT SCHEMATIC DRA GEB DATE APR74 CKD SCALE TOLS _ ina M725 FINISH cRosspoint 712:0 2 009…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-009, size B 432 × 141 mm, 2000 × 652 px traced (0.216 mm/px)
+- **Ink extent:** 1–431 mm across, 0–138 mm up
+- **Outlines:** line 669 rings, 4,335 straight (8,635 mm) / 796 curved (1,051 mm); text 283 rings, 1,413 straight (1,188 mm) / 356 curved (438 mm)
+- **Centre lines:** 4,018 paths (83 closed); straight 5,240 mm, curved 91.8 mm; horizontal 2,428 mm, vertical 1,411 mm, diagonal 1,401 mm
+- **Circles and arcs:** 10 circles, 15 arcs; largest r 3.2 @ (299.9, 88.0), r 3.0 @ (300.2, 79.3), r 2.0 @ (266.7, 60.6), r 1.6 @ (271.3, 88.9)
+- **Closed boxes:** 36; named: M725; WBSs; WBSs; M725; DATE; 7/2 - 02.009
+- **Dots (junctions):** 1
+- **Words (OCR):** 50 in 47 lines: Suppi · SUMMING · ME · M729 · COMPONEnT LAYOUT · SYSTEM · APPLICATION · Pioi · R0z · Ros · Lo · 242
+- **Wiring (first pass):** 51 connected wire groups from 410 runs; labelled ends: 568 mm → DATE; 67 mm → Ros, 242; 33 mm → 5.Gv, 14752, Rios; 27 mm → Ros, Rio7, 22k; 27 mm → Pioi
+
+Every curve, box, word and wire group: [1974 - 712-02-009 - M725 CROSSPOINT - DRN GEB - ISS 3 (traced).json](1974%20-%20712-02-009%20-%20M725%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1974 - 712-02-009 - M725 CROSSPOINT - DRN GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

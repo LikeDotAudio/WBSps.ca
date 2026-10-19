@@ -11,6 +11,17 @@ Wiki page: [Job-77012](../../../PAGES/Job-77012.md)
 - **Size:** 35,959,703 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77012-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 534 rings, 4,845 straight (11,871 mm) / 423 curved (570 mm); text 67 rings, 514 straight (498 mm) / 146 curved (198 mm); tb 20 rings, 168 straight (186 mm) / 32 curved (33.6 mm)
+- **Closed boxes:** 44 (4 in the title block); named: 77012 - 04 001
+- **Words (OCR):** 12 in 9 lines: RLYEOR · WBS · WAAD-DeCk SysteMS · DRN Beu L · WBS L2042 · CONSOLE · AuDIO CONSOLE · OUTLINE · 77012 - 04 001
+- **Title block:** (354, 7)–(432, 32) mm: RLYEOR · WBS · WAAD-DeCk SysteMS · DRN Beu L · WBS L2042 · CONSOLE · AuDIO CONSOLE · OUTLINE
+
+Every curve, box, word and wire group: [1977 - 77012 - 77012-04-001 - CONSOLE CKOTOIJ AUDIO CONSOLE OUTLINE (traced).json](1977%20-%2077012%20-%2077012-04-001%20-%20CONSOLE%20CKOTOIJ%20AUDIO%20CONSOLE%20OUTLINE%20%28traced%29.json) (the CAD file: `1977 - 77012 - 77012-04-001 - CONSOLE CKOTOIJ AUDIO CONSOLE OUTLINE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

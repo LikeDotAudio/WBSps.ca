@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,241,263 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-026, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 443
+- **Ink extent:** 42–431 mm across, 14–298 mm up
+- **Outlines:** line 127 rings, 1,842 straight (6,218 mm) / 216 curved (355 mm); text 946 rings, 5,814 straight (7,003 mm) / 1,948 curved (2,867 mm); tb 5 rings, 86 straight (220 mm) / 3 curved (3.4 mm)
+- **Centre lines:** 5,407 paths (143 closed); straight 8,152 mm, curved 146 mm; horizontal 2,973 mm, vertical 1,827 mm, diagonal 3,352 mm
+- **Circles and arcs:** 3 circles, 21 arcs; largest r 5.6 @ (174.8, 173.2), r 5.5 @ (227.3, 173.2), r 1.5 @ (245.3, 145.5)
+- **Closed boxes:** 14 (9 in the title block); named: SCALE; 8224-03-026; CODE: 8224M26
+- **Words (OCR):** 93 in 65 lines: 3.750 · 0.110 DIA · C'SK 82 · 0.257 · 5.236 · To 0.175 · PLACES · 2.618 · 0.175 · TYP · 0.618 · 12 REF
+- **Title block:** (252, 16)–(422, 84) mm: ISSUE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRG · DRN; · ENG_ · FRONT PANEL · CKD: · FOR IPH-4C, IPH-4D, IPH-4E · APP. · SCALE DISC NO: 443 · ISSUE · 8224-03-026 · CODE: 8224M26
+
+Every curve, box, word and wire group: [19xx - 8224-03-026 - FRONT PANEL FOR IPH-4C, IPH-4D, IPH-4E - DRN DRG - ISS 1 (traced).json](19xx%20-%208224-03-026%20-%20FRONT%20PANEL%20FOR%20IPH-4C%2C%20IPH-4D%2C%20IPH-4E%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-026 - FRONT PANEL FOR IPH-4C, IPH-4D, IPH-4E - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -23,6 +23,19 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 1,489,635 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 461-03-033, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 4–298 mm up
+- **Outlines:** line 839 rings, 11,032 straight (19,469 mm) / 1,255 curved (1,616 mm); text 414 rings, 3,092 straight (3,665 mm) / 875 curved (1,385 mm); tb 25 rings, 243 straight (492 mm) / 28 curved (46.8 mm)
+- **Centre lines:** 12,739 paths (118 closed); straight 14,242 mm, curved 86.0 mm; horizontal 5,645 mm, vertical 4,311 mm, diagonal 4,286 mm
+- **Circles and arcs:** 0 circles, 25 arcs
+- **Closed boxes:** 58 (30 in the title block); named: SW,CAP; DIM A; D(M.B; WBS WARD-BeCK LTD; FM Fe Fek; SCHADOW SERIES 'F' PCB MTG_ L NORMAL MTG; FINISH; TOLS; Bl46l-03-033; IsS_
+- **Words (OCR):** 56 in 49 lines: 28 TYp · SW: CAPS · 594 DIA · 562 DIA · 500 DIA · EXTRUSION · ESCUTCHEON · EXTRUSION · [CJ ESCUTCHEON · 683 DIA_ · 236 · 99 REF
+- **Title block:** (140, 16)–(376, 67) mm: MATL _ · Iss MOD  CKD_ · USED ON · WBS WARD-BeCK · DRN · SCHADOW SERIES 'F' PCB MTG_ · FINISH · DATE OCT75 · CKD · (ILLUMINATED · SCALE · TOLS · Bl46l-03-033
+
+Every curve, box, word and wire group: [1975 - 461-03-033 - SCHADOW SERIES 'F' PCB MTG. (ILLUMINATED & NORMAL MTG.) - DRN DM - ISS 1 (2) (traced).json](1975%20-%20461-03-033%20-%20SCHADOW%20SERIES%20%27F%27%20PCB%20MTG.%20%28ILLUMINATED%20%26%20NORMAL%20MTG.%29%20-%20DRN%20DM%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1975 - 461-03-033 - SCHADOW SERIES 'F' PCB MTG. (ILLUMINATED & NORMAL MTG.) - DRN DM - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

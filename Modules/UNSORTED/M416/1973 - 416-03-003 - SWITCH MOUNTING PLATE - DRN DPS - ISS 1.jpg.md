@@ -23,6 +23,19 @@ Wiki page: [M416](../../../PAGES/M416.md)
 - **Size:** 621,510 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 416-03-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–426 mm across, 1–282 mm up
+- **Outlines:** line 291 rings, 3,015 straight (9,097 mm) / 264 curved (428 mm); text 372 rings, 2,298 straight (2,583 mm) / 585 curved (869 mm); tb 51 rings, 368 straight (588 mm) / 109 curved (142 mm)
+- **Centre lines:** 2,803 paths (29 closed); straight 6,660 mm, curved 21.0 mm; horizontal 3,801 mm, vertical 1,468 mm, diagonal 1,391 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 41 (15 in the title block); named: Iss; MOD_; WBS WARD-BECK SYSTEMS LTD:; MOuNTING SWiTch PLATE; HINISH VIBRATE 420 Gpit Clear ALODINE; 416-03-003; ISS_; TOLS 005
+- **Words (OCR):** 54 in 39 lines: 5.75 · 88 · 38 · 244 · HOLE 41 DIA- · HoLE · Notes: · 13 · DIa: · INSIDE BEnD · RAOI To Le · KoLes
+- **Title block:** (163, 6)–(413, 57) mm: Iss MOD_ CKD: · (064) · WBS WARD-BECK SYSTEMS LTD: · 00 | · Al ALLOY · DRN · DR? · HINISH · DATE 23.Apeil: 73 · SWiTch · MOuNTING PLATE · CKD_ · VIBRATE 420 · Gpit Clear ALODINE · SCALE · TOLS · 416-0
+
+Every curve, box, word and wire group: [1973 - 416-03-003 - SWITCH MOUNTING PLATE - DRN DPS - ISS 1 (traced).json](1973%20-%20416-03-003%20-%20SWITCH%20MOUNTING%20PLATE%20-%20DRN%20DPS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 416-03-003 - SWITCH MOUNTING PLATE - DRN DPS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,865,098 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960296-04-004, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 48–424 mm across, 7–220 mm up
+- **Outlines:** line 588 rings, 3,982 straight (11,858 mm) / 841 curved (1,247 mm); text 152 rings, 913 straight (945 mm) / 299 curved (385 mm); tb 114 rings, 799 straight (1,636 mm) / 183 curved (237 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.6 @ (134.6, 118.2), r 4.4 @ (137.7, 50.4), r 4.2 @ (91.3, 118.5), r 4.1 @ (91.5, 163.3)
+- **Closed boxes:** 49; named: ALKEACR SPEAKER HEADSET; ALKEACR SPEAKER HEADSET; HEADSET
+- **Dots (junctions):** 19
+- **Words (OCR):** 20 in 17 lines: ALKEACR · SPEAKER HEADSET · TURRET_PROTILE · TOP MEW · FRONT · CONNECTDX · HEADSET · ISSVELDATE · END · WBS · WARD-BECK SYSTEMS · REAR VIEW
+- **Title block:** (343, 6)–(431, 44) mm: ISSVELDATE · WBS · WARD-BECK SYSTEMS · AQUIS · NTS · SCALE · 960296 · 004
+
+Every curve, box, word and wire group: [1996 - 960296 - DOC - 960296-04-004 - OFF OFF OFF OFF OFF OFF OFF EDAC (traced).json](1996%20-%20960296%20-%20DOC%20-%20960296-04-004%20-%20OFF%20OFF%20OFF%20OFF%20OFF%20OFF%20OFF%20EDAC%20%28traced%29.json) (the CAD file: `1996 - 960296 - DOC - 960296-04-004 - OFF OFF OFF OFF OFF OFF OFF EDAC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

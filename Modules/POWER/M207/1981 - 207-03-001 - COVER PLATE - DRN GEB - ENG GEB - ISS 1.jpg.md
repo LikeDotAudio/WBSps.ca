@@ -23,6 +23,20 @@ Wiki page: [M207](../../../PAGES/M207.md)
 - **Size:** 1,044,818 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 207-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 214 rings, 2,938 straight (7,533 mm) / 385 curved (510 mm); text 286 rings, 2,053 straight (2,468 mm) / 594 curved (918 mm); tb 16 rings, 139 straight (260 mm) / 19 curved (29.2 mm)
+- **Centre lines:** 2,724 paths (44 closed); straight 5,706 mm, curved 20.5 mm; horizontal 2,776 mm, vertical 1,437 mm, diagonal 1,494 mm
+- **Circles and arcs:** 1 circles, 3 arcs; largest r 1.6 @ (131.1, 183.1)
+- **Closed boxes:** 11 (10 in the title block); named: MAT'L ALUM 16 GA:
+- **Dots (junctions):** 1
+- **Words (OCR):** 46 in 36 lines: 6.15O · 457 · Ttp · 20 · 25 · 570 · 1.470 · 1.407 · 2.94 · 125 · 2 HOLES · 125 DIA
+- **Title block:** (279, 11)–(432, 79) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN_ · GEB · ENG.GEB"%1 · COVER PLATE · CKD. · SCALE · 207-03 · ISSUE · 5.01s
+
+Every curve, box, word and wire group: [1981 - 207-03-001 - COVER PLATE - DRN GEB - ENG GEB - ISS 1 (traced).json](1981%20-%20207-03-001%20-%20COVER%20PLATE%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1981 - 207-03-001 - COVER PLATE - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

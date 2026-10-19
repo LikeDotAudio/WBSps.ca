@@ -15,6 +15,18 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 
 - **1977** (labelled): `DATE JAN 77` — …_ LEGEND NC IC: NOt CONNECTED INTERNALLY CONNECTED DRN: E6. DATE JAN 77 CKD Reull SCALE TOLS JG. M46oB NPUT MODULE CONNECTOR REAR V…
 
+## Vectors (traced)
+
+- **Sheet:** layout 460-04-007, size B (assumed) 432 × 284 mm, 2000 × 1315 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–275 mm up
+- **Outlines:** line 243 rings, 2,993 straight (6,614 mm) / 374 curved (524 mm); text 859 rings, 5,723 straight (6,523 mm) / 1,694 curved (2,431 mm); tb 25 rings, 269 straight (501 mm) / 65 curved (95.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (317.1, 213.2)
+- **Closed boxes:** 44 (4 in the title block); named: s /15; 18; w /1g; USED ON; MATL .; MOD ICXD_
+- **Words (OCR):** 161 in 112 lines: MiC · MIc · NC · NC · NC B 2 · Mic Shielo · GND · GND · PA C 3 PA · Left Out · OUt · D 4 RS2
+- **Title block:** (270, 5)–(420, 53) mm: WBS WARD-BECK SySTEMS LTD · DRN_ · M460B · DATE · INPUT MODULE · CONNECTOR REAR VIEW · CKD · [SCALE · Is: · TOLS
+
+Every curve, box, word and wire group: [1977 - M460B - 460-04-007 - LUL CONNECTOR REAR VEW (traced).json](1977%20-%20M460B%20-%20460-04-007%20-%20LUL%20CONNECTOR%20REAR%20VEW%20%28traced%29.json) (the CAD file: `1977 - M460B - 460-04-007 - LUL CONNECTOR REAR VEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

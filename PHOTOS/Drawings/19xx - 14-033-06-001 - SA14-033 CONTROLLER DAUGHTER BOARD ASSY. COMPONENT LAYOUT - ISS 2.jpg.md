@@ -20,6 +20,16 @@ SA14 controller daughter board assembly component layout, title block at bottom 
 - **Size:** 4,850,116 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 14-033-06-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,351 rings, 10,569 straight (25,089 mm) / 3,331 curved (3,097 mm); text 169 rings, 1,188 straight (1,033 mm) / 364 curved (391 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 1.8 @ (265.7, 207.2), r 1.8 @ (187.4, 207.2), r 1.7 @ (343.0, 144.9), r 1.7 @ (108.5, 207.1)
+- **Closed boxes:** 20
+
+Every curve, box, word and wire group: [19xx - 14-033-06-001 - SA14-033 CONTROLLER DAUGHTER BOARD ASSY. COMPONENT LAYOUT - ISS 2 (traced).json](19xx%20-%2014-033-06-001%20-%20SA14-033%20CONTROLLER%20DAUGHTER%20BOARD%20ASSY.%20COMPONENT%20LAYOUT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 14-033-06-001 - SA14-033 CONTROLLER DAUGHTER BOARD ASSY. COMPONENT LAYOUT - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

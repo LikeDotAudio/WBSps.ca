@@ -1,0 +1,303 @@
+{
+ "code": "M605A",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 19,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "AUD J0 INPUT A PPEARS AT PINS",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "75a5e4d8fb80e538fa9614d93edcd64821dae5abb2af1b5e2200d3784e5673e6",
+    "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+    "page": 1
+   },
+   "quote": "Input The aud j0 input a ppears at Pins 1 and 9 0 f the modu ]e connector a nd enters the 8-116 amp] ifier card at pins 1 and 2 .",
+   "also": [
+    {
+     "signal": "AUD J0 INPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "AUD J0 INPUT A PPEARS AT PINS",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "75a5e4d8fb80e538fa9614d93edcd64821dae5abb2af1b5e2200d3784e5673e6",
+    "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+    "page": 1
+   },
+   "quote": "Input The aud j0 input a ppears at Pins 1 and 9 0 f the modu ]e connector a nd enters the 8-116 amp] ifier card at pins 1 and 2 .",
+   "also": [
+    {
+     "signal": "AUD J0 INPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "75a5e4d8fb80e538fa9614d93edcd64821dae5abb2af1b5e2200d3784e5673e6",
+    "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+    "page": 1
+   },
+   "quote": "The amp]ifier output originat ing from pins 18 and 19 0 f the amp] ifier card 8 - 116 is connected to the DIRECT output a t pins 6 and 14 0 f the modu ]e connector a $ we]1 as to a resistive network providing four mutua ]y isolated 600 ohm outputs This network is accommoda ted on two printed boards ",
+   "also": [
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINAT ING FROM PINS 18",
+     "how": "prose",
+     "conf": "medium",
+     "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+     "page": 1
+    },
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINATING FROM PINS 18 AND",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - Audio DA.pdf",
+     "page": 7
+    },
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINATING FROM PINS 18 AND",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - Audio DA.pdf",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "THREE LED INDICATOR CIRCUITS",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "f45ece97e709a94d0f358fee92c375e356a666ea462a0aa5af307c4537370ee6",
+    "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 19.jpg",
+    "page": 1
+   },
+   "quote": "WAAD-BECK SysteMs LTD_ CIRCUIT DESCRIPTION M605A AUDI0 DISTRIBUTION AMPLIFIER The three LED indicator circuits are packaged separately on a printed card , type 8 -117 _ Power Supply 115 volts , 60 Hz power is aPpl ied to the unit via module connector pins 7 and 16 .",
+   "also": [
+    {
+     "signal": "THREE LED INDICATOR CIRCUITS",
+     "how": "prose",
+     "conf": "medium",
+     "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 19.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "75a5e4d8fb80e538fa9614d93edcd64821dae5abb2af1b5e2200d3784e5673e6",
+    "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+    "page": 1
+   },
+   "quote": "The amp]ifier output originat ing from pins 18 and 19 0 f the amp] ifier card 8 - 116 is connected to the DIRECT output a t pins 6 and 14 0 f the modu ]e connector a $ we]1 as to a resistive network providing four mutua ]y isolated 600 ohm outputs This network is accommoda ted on two printed boards ",
+   "also": [
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINAT ING FROM PINS 18",
+     "how": "prose",
+     "conf": "medium",
+     "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+     "page": 1
+    },
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINATING FROM PINS 18 AND",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - Audio DA.pdf",
+     "page": 7
+    },
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINATING FROM PINS 18 AND",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - Audio DA.pdf",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "THREE LED INDICATOR CIRCUITS",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "f45ece97e709a94d0f358fee92c375e356a666ea462a0aa5af307c4537370ee6",
+    "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 19.jpg",
+    "page": 1
+   },
+   "quote": "WAAD-BECK SysteMs LTD_ CIRCUIT DESCRIPTION M605A AUDI0 DISTRIBUTION AMPLIFIER The three LED indicator circuits are packaged separately on a printed card , type 8 -117 _ Power Supply 115 volts , 60 Hz power is aPpl ied to the unit via module connector pins 7 and 16 .",
+   "also": [
+    {
+     "signal": "THREE LED INDICATOR CIRCUITS",
+     "how": "prose",
+     "conf": "medium",
+     "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 19.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "AMPIFIER OUTPUT ORIGINAT ING",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "75a5e4d8fb80e538fa9614d93edcd64821dae5abb2af1b5e2200d3784e5673e6",
+    "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+    "page": 1
+   },
+   "quote": "The amp]ifier output originat ing from pins 18 and 19 0 f the amp] ifier card 8 - 116 is connected to the DIRECT output a t pins 6 and 14 0 f the modu ]e connector a $ we]1 as to a resistive network providing four mutua ]y isolated 600 ohm outputs This network is accommoda ted on two printed boards ",
+   "also": [
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINAT ING",
+     "how": "prose",
+     "conf": "medium",
+     "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+     "page": 1
+    },
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINATING",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - 007.jpg",
+     "page": 1
+    },
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINATING",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - 007.jpg",
+     "page": 1
+    },
+    {
+     "signal": "ACTIVELY BALANCED OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - Audio DA.pdf",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "AMPIFIER OUTPUT ORIGINAT ING",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "75a5e4d8fb80e538fa9614d93edcd64821dae5abb2af1b5e2200d3784e5673e6",
+    "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+    "page": 1
+   },
+   "quote": "The amp]ifier output originat ing from pins 18 and 19 0 f the amp] ifier card 8 - 116 is connected to the DIRECT output a t pins 6 and 14 0 f the modu ]e connector a $ we]1 as to a resistive network providing four mutua ]y isolated 600 ohm outputs This network is accommoda ted on two printed boards ",
+   "also": [
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINAT ING",
+     "how": "prose",
+     "conf": "medium",
+     "file": "DOCUMENTS/Internal and Eng Notes and drawings/Quotations brochures and misc papers/19xx - DOC - US Sales Brochure pg 17.jpg",
+     "page": 1
+    },
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINATING",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - 007.jpg",
+     "page": 1
+    },
+    {
+     "signal": "AMPLIFIER OUTPUT ORIGINATING",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - 007.jpg",
+     "page": 1
+    },
+    {
+     "signal": "ACTIVELY BALANCED OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M605A/1987 - M605A - Audio DA.pdf",
+     "page": 7
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

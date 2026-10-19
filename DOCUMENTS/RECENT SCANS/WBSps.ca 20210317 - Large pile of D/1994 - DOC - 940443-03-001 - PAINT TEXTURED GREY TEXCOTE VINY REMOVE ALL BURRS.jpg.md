@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,180,248 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940443-03-001, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 46–432 mm across, 6–212 mm up
+- **Outlines:** line 274 rings, 2,090 straight (5,535 mm) / 387 curved (454 mm); text 294 rings, 1,491 straight (1,589 mm) / 451 curved (606 mm); tb 21 rings, 165 straight (194 mm) / 37 curved (41.2 mm)
+- **Centre lines:** 4,211 paths (119 closed); straight 4,543 mm, curved 20.0 mm; horizontal 2,006 mm, vertical 996 mm, diagonal 1,541 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 10 (2 in the title block); named: MODIFIED: MF_7J SIDE PLATE; 940443-03-001; CDDE 9444Ju01
+- **Words (OCR):** 28 in 26 lines: 1.200 - · R ooo · 0.780 · 0.165 DIA · Rec d · 6,240 · 2RE88 · 0.6C · DIMENSIONED HOLES TO EXISTING PART; · MODIFICATION: ADD · 7-03-243-1 · ~PART
+- **Title block:** (336, 22)–(421, 39) mm: WARD- · BECK SYSTEMS · WBS · MODIFIED:
+
+Every curve, box, word and wire group: [1994 - DOC - 940443-03-001 - PAINT TEXTURED GREY TEXCOTE VINY REMOVE ALL BURRS (traced).json](1994%20-%20DOC%20-%20940443-03-001%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINY%20REMOVE%20ALL%20BURRS%20%28traced%29.json) (the CAD file: `1994 - DOC - 940443-03-001 - PAINT TEXTURED GREY TEXCOTE VINY REMOVE ALL BURRS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

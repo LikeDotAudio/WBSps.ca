@@ -11,6 +11,19 @@ Wiki page: [M604](../../../PAGES/M604.md)
 - **Size:** 701,178 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 1-129-02-001, size B (assumed) 333 × 432 mm, 840 × 1089 px traced (0.397 mm/px)
+- **Ink extent:** 0–332 mm across, 5–431 mm up
+- **Outlines:** line 914 rings, 9,211 straight (16,080 mm) / 1,874 curved (3,936 mm); text 101 rings, 747 straight (1,251 mm) / 213 curved (485 mm)
+- **Centre lines:** 11,056 paths (61 closed); straight 12,374 mm, curved 130 mm; horizontal 3,298 mm, vertical 3,166 mm, diagonal 5,910 mm
+- **Circles and arcs:** 1 circles, 22 arcs; largest r 2.8 @ (305.8, 81.7)
+- **Closed boxes:** 1
+- **Words (OCR):** 32 in 31 lines: Iev · R2i · C2i · Ioo · S5v · R29 · 3ok · 237 · 2312 · kis · 709 · 18/25v
+- **Wiring (first pass):** 88 connected wire groups from 476 runs; labelled ends: 162 mm → 237, 2312, zz3e; 157 mm → C2i; 157 mm → 237, 2312; 116 mm → 10/25v; 110 mm → RiB, 22k, 28
+
+Every curve, box, word and wire group: [1967 - M604 - 1-129-02-001 - TRIM LONTROL OUTPUT OUT IOMTBDBM (traced).json](1967%20-%20M604%20-%201-129-02-001%20-%20TRIM%20LONTROL%20OUTPUT%20OUT%20IOMTBDBM%20%28traced%29.json) (the CAD file: `1967 - M604 - 1-129-02-001 - TRIM LONTROL OUTPUT OUT IOMTBDBM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

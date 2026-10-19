@@ -11,6 +11,17 @@ Wiki page: [M464](../../../PAGES/M464.md)
 - **Size:** 124,741 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 464-04-003, size B (assumed) 328 × 432 mm, 1518 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–328 mm across, 5–422 mm up
+- **Outlines:** line 83 rings, 1,598 straight (5,960 mm) / 206 curved (289 mm); text 672 rings, 3,841 straight (3,391 mm) / 1,492 curved (1,882 mm); tb 212 rings, 1,939 straight (4,117 mm) / 462 curved (632 mm)
+- **Closed boxes:** 29 (13 in the title block); named: CUT high FREQUENCY INSERTshitch Sm4: Hhe; Low FREQUE NCY CUT TNSERT Sh3 : Hhen dep
+- **Words (OCR):** 101 in 53 lines: WBS · M46 4 · of eleven discrete cul-off Frequencles the high · AToxs · select one · end of the audio · The calibration defines · thc · corner poinE · Tope · dB / octave · 500
+- **Title block:** (147, 6)–(328, 315) mm: WBS · M46 4 · of eleven discrete cul-off Frequencles the high · AToxs · select one · end of the audio · The calibration defines · thc · corner poinE · Tope · dB / octave · 500 · 150 220 330 · 500 · Lo
+
+Every curve, box, word and wire group: [1976 - M464 - 464-04-003 - PASS-LO PASS FILTER (traced).json](1976%20-%20M464%20-%20464-04-003%20-%20PASS-LO%20PASS%20FILTER%20%28traced%29.json) (the CAD file: `1976 - M464 - 464-04-003 - PASS-LO PASS FILTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

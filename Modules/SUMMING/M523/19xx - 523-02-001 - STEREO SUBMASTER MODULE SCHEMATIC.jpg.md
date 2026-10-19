@@ -21,6 +21,18 @@ M523 stereo submaster module schematic, title block at bottom left reading sidew
 - **Size:** 4,749,554 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 523-02-001/1, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 1–285 mm up
+- **Outlines:** line 787 rings, 8,489 straight (13,240 mm) / 1,536 curved (1,883 mm); text 40 rings, 314 straight (324 mm) / 108 curved (152 mm)
+- **Centre lines:** 6,466 paths (96 closed); straight 7,465 mm, curved 163 mm; horizontal 3,585 mm, vertical 2,096 mm, diagonal 1,784 mm
+- **Circles and arcs:** 7 circles, 33 arcs; largest r 3.6 @ (6.8, 252.1), r 3.6 @ (7.3, 27.8), r 3.4 @ (6.8, 139.9), r 1.7 @ (115.0, 77.0)
+- **Closed boxes:** 30
+- **Wiring (first pass):** 105 connected wire groups from 875 runs
+
+Every curve, box, word and wire group: [19xx - 523-02-001 - STEREO SUBMASTER MODULE SCHEMATIC (traced).json](19xx%20-%20523-02-001%20-%20STEREO%20SUBMASTER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 523-02-001 - STEREO SUBMASTER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

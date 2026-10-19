@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,857,294 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940294-03-001, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px); scale DISC No;
+- **Ink extent:** 37–422 mm across, 8–226 mm up
+- **Outlines:** line 1,070 rings, 6,763 straight (14,100 mm) / 1,427 curved (2,127 mm); text 208 rings, 1,234 straight (1,141 mm) / 397 curved (474 mm); tb 52 rings, 330 straight (321 mm) / 95 curved (113 mm)
+- **Centre lines:** 8,061 paths (227 closed); straight 8,929 mm, curved 447 mm; horizontal 4,545 mm, vertical 1,828 mm, diagonal 2,556 mm
+- **Circles and arcs:** 20 circles, 11 arcs; largest r 6.2 @ (235.0, 119.6), r 6.2 @ (207.2, 119.8), r 6.2 @ (179.7, 119.7), r 6.1 @ (262.6, 119.6)
+- **Closed boxes:** 14 (11 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 32 in 29 lines: 0.125 · DEIALB · 0.50 Ma · DEIALLD · PITCHES · DETAI · PLACES · DETA · PLACES · DETNL · PLAEG · 0,450
+- **Title block:** (340, 7)–(428, 40) mm: WBS5 · WARD-BECK SYSTEMS · BELTPACK  INTERFACE · REAR COVER · SCALE DISC No; · 940294-05 0o1
+
+Every curve, box, word and wire group: [1994 - DOC - 940294-03-001 - NOEES REMOVE ALL BURRS AND SHARP EDGES (traced).json](1994%20-%20DOC%20-%20940294-03-001%20-%20NOEES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940294-03-001 - NOEES REMOVE ALL BURRS AND SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

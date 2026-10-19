@@ -22,6 +22,19 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,587,306 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 880651-02-016, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–288 mm up
+- **Outlines:** line 519 rings, 7,741 straight (14,048 mm) / 1,548 curved (2,255 mm); text 268 rings, 1,903 straight (2,205 mm) / 622 curved (908 mm)
+- **Centre lines:** 4,823 paths (93 closed); straight 8,961 mm, curved 647 mm; horizontal 3,828 mm, vertical 2,454 mm, diagonal 2,679 mm
+- **Circles and arcs:** 55 circles, 80 arcs; largest r 3.5 @ (8.1, 255.5), r 3.5 @ (8.3, 143.6), r 1.6 @ (92.9, 225.4), r 1.5 @ (244.8, 175.7)
+- **Closed boxes:** 23
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 82 connected wire groups from 512 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-016 - ASSIGNMENT MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1988%20-%20880651-02-016%20-%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 880651-02-016 - ASSIGNMENT MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 33,741,428 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 3642-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 1,335 rings, 7,769 straight (10,482 mm) / 1,200 curved (1,325 mm); text 52 rings, 384 straight (314 mm) / 93 curved (115 mm); tb 23 rings, 189 straight (189 mm) / 29 curved (34.7 mm)
+- **Closed boxes:** 9 (5 in the title block); named: SCAE
+- **Words (OCR):** 12 in 11 lines: EpALIZERS · STEREO · ZEAS · SUBUAsTER · FaDEAS · WBS WARD-Deck systeMS · ST3642 · STEREO TELEVISION CONSOLE · TOR MIEW LAYOUT · SCAE · 3842-04-003
+- **Title block:** (360, 18)–(432, 33) mm: WBS WARD-Deck systeMS · ST3642
+
+Every curve, box, word and wire group: [19xx - M520 - DOC - 3642-04-003 - ADERS STEREO MASTER FADERS MONO INPUT FADERS (traced).json](19xx%20-%20M520%20-%20DOC%20-%203642-04-003%20-%20ADERS%20STEREO%20MASTER%20FADERS%20MONO%20INPUT%20FADERS%20%28traced%29.json) (the CAD file: `19xx - M520 - DOC - 3642-04-003 - ADERS STEREO MASTER FADERS MONO INPUT FADERS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

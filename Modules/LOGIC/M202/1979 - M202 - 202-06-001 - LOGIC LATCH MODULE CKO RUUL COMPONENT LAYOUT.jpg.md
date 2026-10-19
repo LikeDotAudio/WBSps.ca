@@ -11,6 +11,17 @@ Wiki page: [M202](../../../PAGES/M202.md)
 - **Size:** 6,383,369 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 202-06-001, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–429 mm across, 17–307 mm up
+- **Outlines:** line 919 rings, 6,409 straight (10,645 mm) / 1,623 curved (1,622 mm); text 81 rings, 510 straight (383 mm) / 165 curved (159 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 4.3 @ (230.3, 141.1), r 4.1 @ (216.5, 172.5), r 4.1 @ (230.0, 156.8), r 4.1 @ (216.9, 141.1)
+- **Closed boxes:** 13
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1979 - M202 - 202-06-001 - LOGIC LATCH MODULE CKO RUUL COMPONENT LAYOUT (traced).json](1979%20-%20M202%20-%20202-06-001%20-%20LOGIC%20LATCH%20MODULE%20CKO%20RUUL%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1979 - M202 - 202-06-001 - LOGIC LATCH MODULE CKO RUUL COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

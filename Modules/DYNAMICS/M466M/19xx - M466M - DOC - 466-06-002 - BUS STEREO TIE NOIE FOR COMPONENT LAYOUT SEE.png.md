@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 12,514,688 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 466-06-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 13–298 mm up
+- **Outlines:** line 134 rings, 1,701 straight (5,281 mm) / 434 curved (446 mm); text 243 rings, 2,201 straight (2,386 mm) / 615 curved (747 mm); tb 21 rings, 199 straight (276 mm) / 41 curved (40.4 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.7 @ (277.4, 222.0), r 1.4 @ (276.3, 200.9)
+- **Closed boxes:** 9 (8 in the title block); named: VU METER
+- **Dots (junctions):** 1
+- **Words (OCR):** 34 in 27 lines: COMPRESSOR STEREO TIE · VU · METER · 12 · 10 · PuS · BuS STEREO · TIE · NQIE: · FOR · CoMPONENT LAYout · 002
+- **Title block:** (281, 14)–(432, 83) mm: ISSUE |DATE · REVISION · ApP · WBS WARD-BECK SYSTEMS · DRN: GEB · M466M · ENG · COMPRESSOR METER · CKD · APP · MODULE SCHEMATIC · SCALE · ISSUE · 466-02-003
+
+Every curve, box, word and wire group: [19xx - M466M - DOC - 466-06-002 - BUS STEREO TIE NOIE FOR COMPONENT LAYOUT SEE (traced).json](19xx%20-%20M466M%20-%20DOC%20-%20466-06-002%20-%20BUS%20STEREO%20TIE%20NOIE%20FOR%20COMPONENT%20LAYOUT%20SEE%20%28traced%29.json) (the CAD file: `19xx - M466M - DOC - 466-06-002 - BUS STEREO TIE NOIE FOR COMPONENT LAYOUT SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

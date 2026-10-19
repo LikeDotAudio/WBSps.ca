@@ -11,6 +11,18 @@ Wiki page: [M451](../../../PAGES/M451.md)
 - **Size:** 6,677,581 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 451-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–428 mm across, 0–286 mm up
+- **Outlines:** line 383 rings, 4,099 straight (11,012 mm) / 669 curved (965 mm); text 293 rings, 1,960 straight (2,335 mm) / 546 curved (802 mm)
+- **Centre lines:** 4,355 paths (81 closed); straight 6,969 mm, curved 244 mm; horizontal 2,954 mm, vertical 1,986 mm, diagonal 2,029 mm
+- **Circles and arcs:** 14 circles, 37 arcs; largest r 2.1 @ (380.1, 30.9), r 1.7 @ (383.8, 23.8), r 1.5 @ (69.4, 154.6), r 1.5 @ (71.6, 140.1)
+- **Closed boxes:** 22
+- **Wiring (first pass):** 118 connected wire groups from 407 runs
+
+Every curve, box, word and wire group: [1977 - M451 - 451-01-001 - FUNCTIONAL DIAGRAM MEA-DJ (traced).json](1977%20-%20M451%20-%20451-01-001%20-%20FUNCTIONAL%20DIAGRAM%20MEA-DJ%20%28traced%29.json) (the CAD file: `1977 - M451 - 451-01-001 - FUNCTIONAL DIAGRAM MEA-DJ (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

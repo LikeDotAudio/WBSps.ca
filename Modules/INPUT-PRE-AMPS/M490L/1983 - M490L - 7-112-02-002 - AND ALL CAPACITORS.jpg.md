@@ -11,6 +11,20 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 203,322 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7-112-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–339 mm across, 25–385 mm up
+- **Outlines:** line 471 rings, 4,763 straight (7,102 mm) / 1,119 curved (1,584 mm); text 405 rings, 2,533 straight (2,477 mm) / 898 curved (1,265 mm)
+- **Centre lines:** 4,737 paths (80 closed); straight 5,450 mm, curved 347 mm; horizontal 1,744 mm, vertical 1,240 mm, diagonal 2,465 mm
+- **Circles and arcs:** 5 circles, 78 arcs; largest r 5.7 @ (179.5, 206.0), r 5.6 @ (179.8, 245.5), r 1.4 @ (8.2, 269.6), r 0.9 @ (193.8, 247.5)
+- **Closed boxes:** 3
+- **Dots (junctions):** 2
+- **Words (OCR):** 93 in 79 lines: Channel on 0 5 · cr2 · Coutrol · cri · E6 · CUT Coutrol · ri · Czo R34 · boosTeR · NPUT · 31/10 · Zok
+- **Wiring (first pass):** 74 connected wire groups from 410 runs, 2 dotted junctions; labelled ends: 234 mm → sole, AAhe; 112 mm → Rsc, 820, CRa, R1; 100 mm → R8, Jok; 94 mm → AAhe, ioop; 56 mm → 243563, crs, 22125
+
+Every curve, box, word and wire group: [1983 - M490L - 7-112-02-002 - AND ALL CAPACITORS (traced).json](1983%20-%20M490L%20-%207-112-02-002%20-%20AND%20ALL%20CAPACITORS%20%28traced%29.json) (the CAD file: `1983 - M490L - 7-112-02-002 - AND ALL CAPACITORS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -16,6 +16,20 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1976** (month): `OCt 76` — …ISH WARD BECK SYSTEMS LTD M462 8 WAY RELAY S TCHER SCHEMTIC OCt 76 Ra | MATERIAL FRACT 4 1/64 DEC TO PLACES GIVEN ANGLES 47e M…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 468-02-002, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–426 mm up
+- **Outlines:** line 325 rings, 4,500 straight (4,792 mm) / 877 curved (1,026 mm); text 348 rings, 3,211 straight (3,439 mm) / 829 curved (1,199 mm); tb 4 rings, 22 straight (19.3 mm) / 9 curved (11.7 mm)
+- **Centre lines:** 9,647 paths (67 closed); straight 7,008 mm, curved 5.5 mm; horizontal 2,090 mm, vertical 1,319 mm, diagonal 3,599 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 3; named: FINISH; SYSTEMS LTD BECK WARD; M462 8 WAY RELAY S TCHER SCHEMTIC
+- **Words (OCR):** 62 in 43 lines: AUDIO · OUTPUt · -22 abm} INTO 6c0 _ · NOIE · WHEN · MODULE 15 · JSed IN · Systems · WheRE No Loss · 1S · Required · REPLACE Ri - Ris
+- **Title block:** (173, 49)–(300, 268) mm: WHEN · MODULE 15 · Systems · WheRE No Loss · 1S · Required · REPLACE Ri - Ris · Jumpers · ANO · With · ShORTing JUMPERS · RELAYS. · BECK · SYSTEMS LTD · WARD
+- **Wiring (first pass):** 18 connected wire groups from 151 runs; labelled ends: 314 mm → DJG, WARD, OCt, Ra |; 136 mm → MATERIAL, ANGLES; 74 mm → ANGLES, SCHEMTIC, 4008, 12; 32 mm → SCHEMTIC, 12, 062; 23 mm → SYSTEMS, LTD
+
+Every curve, box, word and wire group: [1976 - M468 - 468-02-002 - PLACES GIVEN ANGLES IEEMIMBEND RAD UMLESS SPEC (traced).json](1976%20-%20M468%20-%20468-02-002%20-%20PLACES%20GIVEN%20ANGLES%20IEEMIMBEND%20RAD%20UMLESS%20SPEC%20%28traced%29.json) (the CAD file: `1976 - M468 - 468-02-002 - PLACES GIVEN ANGLES IEEMIMBEND RAD UMLESS SPEC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

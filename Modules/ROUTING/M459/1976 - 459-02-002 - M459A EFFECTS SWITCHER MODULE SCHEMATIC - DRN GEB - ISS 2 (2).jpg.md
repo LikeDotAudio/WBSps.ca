@@ -28,6 +28,20 @@ Wiki page: [M459](../../../PAGES/M459.md)
 
 - **1976** (labelled): `DATE AuG76` — …3423 PB USED ON MATL . WBS WARD-BECK systeMs LtD; DRN: GEB DATE AuG76 CKD: Rc [SCALE TOLS _ M M459A EFFECTS SWItChER MoDULE SCHEM…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 459-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–287 mm up
+- **Outlines:** line 653 rings, 9,768 straight (11,846 mm) / 1,627 curved (1,901 mm); text 315 rings, 2,511 straight (2,766 mm) / 647 curved (969 mm); tb 25 rings, 214 straight (297 mm) / 30 curved (49.8 mm)
+- **Centre lines:** 23,058 paths (110 closed); straight 12,625 mm, curved 134 mm; horizontal 4,120 mm, vertical 3,217 mm, diagonal 5,288 mm
+- **Circles and arcs:** 2 circles, 24 arcs; largest r 1.5 @ (85.2, 118.5), r 1.2 @ (5.1, 234.4)
+- **Closed boxes:** 40 (31 in the title block); named: WBS WARD-BECK systeMs LTD.; M453A EFFECTS SwitchER SChEMATIC MoDULE; FINISH; 459 02.-002
+- **Words (OCR):** 50 in 41 lines: Ri6 · Cpo2-YtS-/762 · DUAL 3001 · Leg Pot · Ri7 · UT · 75_ · Vzw · ZUEE Fe · Blk · 305 · 300
+- **Title block:** (4, 13)–(278, 64) mm: IsS MOD [CKD · USED ON · MATL · WBS WARD-BECK systeMs LTD. · 3423 PB · DRN: GEB · M453A · DATE AL76 · FINISH · EFFECTS SwitchER · CKD: · RS · SChEMATIC · SCALE · MoDULE · TOLs · Za · 459 02.-002
+- **Wiring (first pass):** 43 connected wire groups from 354 runs; labelled ends: 197 mm → 300, EFFECTS; 185 mm → EFFEcTS; 76 mm → 75_, Vzw, EFFEcTS; 72 mm → 305, 300; 42 mm → 305
+
+Every curve, box, word and wire group: [1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (2) (traced).json](1976%20-%20459-02-002%20-%20M459A%20EFFECTS%20SWITCHER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `1976 - 459-02-002 - M459A EFFECTS SWITCHER MODULE SCHEMATIC - DRN GEB - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

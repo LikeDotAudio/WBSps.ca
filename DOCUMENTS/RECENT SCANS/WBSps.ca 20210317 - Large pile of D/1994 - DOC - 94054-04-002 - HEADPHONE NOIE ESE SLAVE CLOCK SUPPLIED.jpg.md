@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,296,988 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94054-04-002, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 76–409 mm across, 7–186 mm up
+- **Outlines:** line 258 rings, 2,347 straight (12,764 mm) / 205 curved (293 mm); text 137 rings, 850 straight (950 mm) / 256 curved (335 mm); tb 14 rings, 129 straight (166 mm) / 26 curved (29.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.9 @ (314.3, 98.5)
+- **Closed boxes:** 47 (5 in the title block); named: 2200; 2200; cUETOORK TELEMEDIA RADIO SoNCE RENA MkiI; 94054-04-002
+- **Words (OCR):** 14 in 11 lines: 2200 · HELOPHOYE · Hom · ESE SLAVE CLOC SUPFLIED · WBS · WARD-BECK   SYSTEMS · TELEMEDIA · cUETOORK RADIO · RENA · SoNCE MkiI · 94054-04-002
+- **Title block:** (330, 23)–(414, 40) mm: WBS · WARD-BECK   SYSTEMS · TELEMEDIA · cUETOORK RADIO
+
+Every curve, box, word and wire group: [1994 - DOC - 94054-04-002 - HEADPHONE NOIE ESE SLAVE CLOCK SUPPLIED (traced).json](1994%20-%20DOC%20-%2094054-04-002%20-%20HEADPHONE%20NOIE%20ESE%20SLAVE%20CLOCK%20SUPPLIED%20%28traced%29.json) (the CAD file: `1994 - DOC - 94054-04-002 - HEADPHONE NOIE ESE SLAVE CLOCK SUPPLIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

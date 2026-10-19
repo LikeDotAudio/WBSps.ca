@@ -11,6 +11,17 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 803,195 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 465-04-004, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–431 mm up
+- **Outlines:** line 57 rings, 2,559 straight (6,000 mm) / 247 curved (376 mm); text 774 rings, 4,745 straight (4,322 mm) / 1,870 curved (2,339 mm); tb 303 rings, 3,417 straight (6,624 mm) / 577 curved (888 mm)
+- **Closed boxes:** 14 (10 in the title block); named: VU Heter: Indicates Jeve | REV SEND sect; Hhen  depressed, FOLDBACK shitch ShZ : t; Hhen depressed, Pan Shitch Sw3 : enab le; feeds pre- faoe SOLO shitch When depress
+- **Words (OCR):** 135 in 68 lines: WBS · M465 · REVERB SEND HSTER Ieve control RI/z: Controls Ieve · REV SEND sec[iOn_ · VU Heter: Indicates output · Jeve | REV SEND section. · Mstr · feeds Pre" · faoe REV · SOLO shitch SwS; Hhen depressed, · SEND signa · to SOLO output bus
+- **Title block:** (145, 0)–(335, 319) mm: WBS · M465 · REVERB SEND HSTER Ieve control RI/z: Controls Ieve · REV SEND sec[iOn_ · Mstr · feeds Pre" · faoe REV · SOLO shitch SwS; Hhen depressed, · SEND signa · to SOLO output bus · LEVEL control 
+
+Every curve, box, word and wire group: [1974 - M465 - 465-04-004 - SOLO OUTPUT BUS NOTE THAT THE (traced).json](1974%20-%20M465%20-%20465-04-004%20-%20SOLO%20OUTPUT%20BUS%20NOTE%20THAT%20THE%20%28traced%29.json) (the CAD file: `1974 - M465 - 465-04-004 - SOLO OUTPUT BUS NOTE THAT THE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

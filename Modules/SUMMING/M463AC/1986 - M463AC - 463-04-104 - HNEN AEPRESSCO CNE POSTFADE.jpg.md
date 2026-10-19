@@ -11,6 +11,18 @@ Wiki page: [M463AC](../../../PAGES/M463AC.md)
 - **Size:** 566,443 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-104, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–330 mm across, 0–426 mm up
+- **Outlines:** line 189 rings, 2,991 straight (5,310 mm) / 554 curved (762 mm); text 455 rings, 2,708 straight (2,486 mm) / 1,054 curved (1,396 mm); tb 302 rings, 3,302 straight (5,179 mm) / 729 curved (1,079 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Dots (junctions):** 3
+- **Words (OCR):** 83 in 68 lines: WBS · MA6ZACI · controi · R39/L0: Controis · Jeve | · [0 fE · puses _ · FB · Pre/Post FOLOBACK · ShZ · cnoice · FOLDBACX shitcnes Shio ana
+- **Title block:** (140, 3)–(332, 322) mm: WBS · MA6ZACI · controi · R39/L0: Controis · Jeve | · [0 fE · puses _ · FB · Pre/Post FOLOBACK · ShZ · cnoice · Ene · ickoff · for Ene · OLDBACK ouiou · Eher · PRE · ior · 0 ( Pre) · {Post) · controi 
+
+Every curve, box, word and wire group: [1986 - M463AC - 463-04-104 - HNEN AEPRESSCO CNE POSTFADE (traced).json](1986%20-%20M463AC%20-%20463-04-104%20-%20HNEN%20AEPRESSCO%20CNE%20POSTFADE%20%28traced%29.json) (the CAD file: `1986 - M463AC - 463-04-104 - HNEN AEPRESSCO CNE POSTFADE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

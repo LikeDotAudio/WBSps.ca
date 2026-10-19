@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,598,289 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940356-03-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px); scale disc No
+- **Ink extent:** 29–423 mm across, 7–189 mm up
+- **Outlines:** line 367 rings, 2,501 straight (5,848 mm) / 426 curved (489 mm); text 266 rings, 1,518 straight (1,422 mm) / 489 curved (609 mm); tb 48 rings, 441 straight (1,336 mm) / 71 curved (86.2 mm)
+- **Centre lines:** 4,416 paths (126 closed); straight 5,048 mm, curved 10.5 mm; horizontal 2,627 mm, vertical 992 mm, diagonal 1,429 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 8; named: DETAL; DETAL; DETAIL
+- **Words (OCR):** 34 in 29 lines: 33 · REC D · 0 500 · DETAL · PuNcH 1770 · REC D · 0e97 · 0 9 95 · DETAIL · 0J0 · REC D · MATERIAL:
+- **Title block:** (340, 6)–(428, 43) mm: ISSUEI DATE · WBS · WARD-BECK   SYSTEMS · METER PANEL · SCALE disc No · 1:2 CCDE: · 940356-03-001
+
+Every curve, box, word and wire group: [1994 - 940356 - DOC - 940356-03-001 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20940356%20-%20DOC%20-%20940356-03-001%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - 940356 - DOC - 940356-03-001 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

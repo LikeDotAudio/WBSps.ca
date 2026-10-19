@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,283,436 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940145-03-001, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 25–416 mm across, 8–230 mm up
+- **Outlines:** line 732 rings, 4,528 straight (9,213 mm) / 861 curved (1,225 mm); text 125 rings, 771 straight (760 mm) / 235 curved (304 mm); tb 55 rings, 385 straight (355 mm) / 103 curved (116 mm)
+- **Centre lines:** 5,180 paths (129 closed); straight 5,852 mm, curved 264 mm; horizontal 2,806 mm, vertical 1,321 mm, diagonal 1,725 mm
+- **Circles and arcs:** 10 circles, 15 arcs; largest r 6.2 @ (191.3, 126.9), r 6.2 @ (213.6, 126.7), r 6.2 @ (235.8, 126.5), r 3.2 @ (59.0, 115.8)
+- **Closed boxes:** 14 (13 in the title block)
+- **Words (OCR):** 17 in 16 lines: 0. 328 · DEIAIL · DEIA · 0,602 · PLACES · PLACES · FLACCS · {0,015 · FCR SILKSCREEY SEE 940145 · WBS · WARD-BECK  SYSTEMS · REAR PANEL
+- **Title block:** (334, 7)–(422, 41) mm: WBS · WARD-BECK  SYSTEMS · REAR PANEL · FOR M8212 · (MODIFIED) · SCALE · 940145-03-001
+
+Every curve, box, word and wire group: [1994 - 940145 - DOC - 940145-03-001 - GRIT AND PAINT TEX TURED GREY TEXCOTE MNIL (traced).json](1994%20-%20940145%20-%20DOC%20-%20940145-03-001%20-%20GRIT%20AND%20PAINT%20TEX%20TURED%20GREY%20TEXCOTE%20MNIL%20%28traced%29.json) (the CAD file: `1994 - 940145 - DOC - 940145-03-001 - GRIT AND PAINT TEX TURED GREY TEXCOTE MNIL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

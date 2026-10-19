@@ -11,6 +11,16 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,269,509 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 013-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,315 rings, 9,537 straight (15,269 mm) / 2,915 curved (2,762 mm); text 163 rings, 1,019 straight (876 mm) / 394 curved (421 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.6 @ (396.5, 23.9), r 1.5 @ (115.8, 44.3), r 1.5 @ (305.4, 45.0)
+- **Closed boxes:** 20
+
+Every curve, box, word and wire group: [1981 - microCOM - 013-06-001 - INTERCOM TURRET CONTROLLER COMPONENT LAYOUT (traced).json](1981%20-%20microCOM%20-%20013-06-001%20-%20INTERCOM%20TURRET%20CONTROLLER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 013-06-001 - INTERCOM TURRET CONTROLLER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -1,0 +1,260 @@
+{
+ "code": "POD10A",
+ "name": "AES Switcher",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 9,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "ST BYTE",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "ST BYTE",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "ND BYTE",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "ND BYTE",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "V P-P",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "V P-P",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "INPUT 4",
+   "kind": "in",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "INPUT 4",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "INPUT 5",
+   "kind": "in",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "INPUT 5",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "INPUT 6",
+   "kind": "in",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "INPUT 6",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "INPUT 7",
+   "kind": "in",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "INPUT 7",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "INPUT 8",
+   "kind": "in",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "INPUT 8",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "GND",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "81543164348f3bd7fd75d48fe8f57f662dbf9ae0e456353aced513f82ebdede0",
+    "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "GND",
+     "how": "table",
+     "conf": "high",
+     "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

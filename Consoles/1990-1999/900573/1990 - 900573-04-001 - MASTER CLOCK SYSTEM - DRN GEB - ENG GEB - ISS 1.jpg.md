@@ -22,6 +22,18 @@ Wiki page: [Job-900573](../../../PAGES/Job-900573.md)
 - **Size:** 1,496,185 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout C 900573-04-001, size C 559 × 433 mm, 2000 × 1551 px traced (0.279 mm/px); scale DISC NO: 374
+- **Ink extent:** 76–557 mm across, 1–415 mm up
+- **Outlines:** line 469 rings, 4,766 straight (19,199 mm) / 877 curved (1,426 mm); text 1,156 rings, 7,106 straight (9,481 mm) / 2,638 curved (4,310 mm); tb 41 rings, 419 straight (2,528 mm) / 57 curved (105 mm)
+- **Closed boxes:** 44; named: 22 00; 22 00; 22 00; 22 00; AC /Dc ADAPTER; 22 DD; 22 10; 22 DD; 22 10; 22 DD; 22 10; 22 DD
+- **Dots (junctions):** 1
+- **Words (OCR):** 144 in 111 lines: RACKMOUNTED MASTER CLOCK · 22 00 · ADAPTER · AC /Dc · CLK · RACKHQUNL SLAWE DRIVER CONSISTS_OE: · CLK1 CONSISISQEi · PCB ISS.1 · PCB ISS.1 · SA14-201 · P8 ISS.- ISS.2 · SAI4 -
+- **Title block:** (384, 14)–(556, 163) mm: 5A14-207 PCB ISS.2 · CONNECTORSSUPPLIED AND INSTALLED · CUSTOMER: · R1400 RADIQ CONSOLE WBS MODEL 880818 · WILL PROVDE TMRI. · R1400 RADIO CONSOLE WBS MODEL 900312 · WILL · ROMDE THE TIMER · WBS WLL ·
+
+Every curve, box, word and wire group: [1990 - 900573-04-001 - MASTER CLOCK SYSTEM - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900573-04-001%20-%20MASTER%20CLOCK%20SYSTEM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900573-04-001 - MASTER CLOCK SYSTEM - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

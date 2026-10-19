@@ -15,6 +15,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 602,344 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 522-04-001, size B (assumed) 200 × 432 mm, 926 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 22–200 mm across, 0–415 mm up
+- **Outlines:** line 11 rings, 1,207 straight (2,028 mm) / 121 curved (207 mm); text 130 rings, 1,553 straight (2,038 mm) / 384 curved (653 mm); tb 282 rings, 2,906 straight (4,318 mm) / 605 curved (1,003 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 18 in 16 lines: WBS · Msz2 · KHI · 200 · ISSU |DATE · REVision · WBS WAAD-BECK bYBTE · DRN · M522 · ENG · MONO EQUALIZER · CKd
+- **Title block:** (20, 2)–(177, 419) mm: WBS · Msz2 · KHI · 200 · ISSU |DATE · REVision · WBS WAAD-BECK bYBTE · DRN · M522 · ENG · MONO EQUALIZER · CKd · FRONT PANEL LAYOU · App: K · SCALE · 522-04-001
+
+Every curve, box, word and wire group: [19xx - M522 - DOC - 522-04-001 - FRONT PANEL LAYOU (traced).json](19xx%20-%20M522%20-%20DOC%20-%20522-04-001%20-%20FRONT%20PANEL%20LAYOU%20%28traced%29.json) (the CAD file: `19xx - M522 - DOC - 522-04-001 - FRONT PANEL LAYOU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

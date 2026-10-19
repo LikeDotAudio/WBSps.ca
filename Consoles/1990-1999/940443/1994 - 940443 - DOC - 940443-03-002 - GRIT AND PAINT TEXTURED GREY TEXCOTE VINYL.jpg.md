@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,550,223 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940443-03-002, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 44–431 mm across, 5–239 mm up
+- **Outlines:** line 374 rings, 3,173 straight (8,291 mm) / 519 curved (665 mm); text 284 rings, 1,676 straight (1,575 mm) / 562 curved (711 mm)
+- **Centre lines:** 4,130 paths (133 closed); straight 5,720 mm, curved 31.6 mm; horizontal 2,479 mm, vertical 1,688 mm, diagonal 1,554 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 6
+- **Words (OCR):** 34 in 31 lines: REQ'D · 1,255 · UNC · 2-S50 · 1326 · 0.130 TYP · 0.250 · PITCHES · PUNCH 0.125 · 2.930 · NOTCH FLACES · 02-56 UNC
+
+Every curve, box, word and wire group: [1994 - 940443 - DOC - 940443-03-002 - GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL (traced).json](1994%20-%20940443%20-%20DOC%20-%20940443-03-002%20-%20GRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL%20%28traced%29.json) (the CAD file: `1994 - 940443 - DOC - 940443-03-002 - GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

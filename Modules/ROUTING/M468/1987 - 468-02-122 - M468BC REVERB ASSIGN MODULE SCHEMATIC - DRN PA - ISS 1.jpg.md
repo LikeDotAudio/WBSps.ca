@@ -27,6 +27,20 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1987** (labelled): `DATE jul 87` — …OD ICKD] USED ON MATL: WBS WAAD-BECK SYSTEMB Lts 3 DRL ' EA DATE jul 87 CKD: 'SCAL Feztia M468 Bc REVeRg Assigu Modute SCHEMATIC 31…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-122, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 1,759 rings, 14,127 straight (17,856 mm) / 3,428 curved (3,970 mm); text 389 rings, 2,673 straight (2,645 mm) / 923 curved (1,258 mm); tb 328 rings, 1,339 straight (1,164 mm) / 404 curved (436 mm)
+- **Centre lines:** 15,409 paths (123 closed); straight 13,433 mm, curved 324 mm; horizontal 5,452 mm, vertical 2,418 mm, diagonal 5,564 mm
+- **Circles and arcs:** 8 circles, 83 arcs; largest r 1.6 @ (358.6, 49.4), r 1.4 @ (360.1, 13.4), r 1.1 @ (257.4, 158.2), r 1.0 @ (55.5, 112.2)
+- **Closed boxes:** 23 (17 in the title block)
+- **Words (OCR):** 64 in 53 lines: 225v CJMMON · 17 I0 · CHASSiS · Swi · RR ON · 5w3 · Mi · Ri? · RR ON LAP · Mi OUTput · 7A · Left
+- **Title block:** (140, 17)–(324, 61) mm: ISS MOD  ICKD] · USED ON · MATL · WBS · DRM ' FA · [INSH · DATE Jul 87 · CKD:
+- **Wiring (first pass):** 101 connected wire groups from 716 runs; labelled ends: 141 mm → M4, Sw6; 118 mm → Sk, 2k, Rio; 99 mm → 5w3, Mi; 94 mm → WBS; 75 mm → WBS
+
+Every curve, box, word and wire group: [1987 - 468-02-122 - M468BC REVERB ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (traced).json](1987%20-%20468-02-122%20-%20M468BC%20REVERB%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 468-02-122 - M468BC REVERB ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

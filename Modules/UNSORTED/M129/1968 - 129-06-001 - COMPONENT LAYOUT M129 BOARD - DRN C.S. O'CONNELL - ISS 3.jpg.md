@@ -23,6 +23,17 @@ Wiki page: [M129](../../../PAGES/M129.md)
 - **Size:** 4,808,759 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 129-06-001, size B 432 × 307 mm, 2000 × 1423 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 26–307 mm up
+- **Outlines:** line 750 rings, 9,860 straight (14,795 mm) / 3,096 curved (3,102 mm); text 300 rings, 2,424 straight (2,300 mm) / 796 curved (898 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 9.9 @ (87.5, 250.2), r 9.9 @ (254.3, 251.2), r 9.9 @ (131.0, 249.8), r 9.8 @ (326.3, 251.2)
+- **Closed boxes:** 44
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1968 - 129-06-001 - COMPONENT LAYOUT M129 BOARD - DRN C.S. O'CONNELL - ISS 3 (traced).json](1968%20-%20129-06-001%20-%20COMPONENT%20LAYOUT%20M129%20BOARD%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1968 - 129-06-001 - COMPONENT LAYOUT M129 BOARD - DRN C.S. O'CONNELL - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

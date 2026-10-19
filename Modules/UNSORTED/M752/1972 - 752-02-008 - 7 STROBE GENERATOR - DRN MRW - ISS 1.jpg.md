@@ -23,6 +23,18 @@ Wiki page: [M752](../../../PAGES/M752.md)
 - **Size:** 2,830,673 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 752-02-008, size B 432 × 252 mm, 2000 × 1168 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 29–252 mm up
+- **Outlines:** line 785 rings, 9,228 straight (16,494 mm) / 1,505 curved (1,936 mm); text 309 rings, 1,989 straight (2,020 mm) / 678 curved (908 mm)
+- **Centre lines:** 8,746 paths (160 closed); straight 10,737 mm, curved 246 mm; horizontal 4,737 mm, vertical 2,839 mm, diagonal 3,161 mm
+- **Circles and arcs:** 7 circles, 60 arcs; largest r 2.1 @ (413.3, 54.7), r 1.8 @ (368.3, 54.1), r 1.2 @ (378.2, 138.2), r 1.1 @ (147.7, 81.2)
+- **Closed boxes:** 36
+- **Wiring (first pass):** 99 connected wire groups from 842 runs
+
+Every curve, box, word and wire group: [1972 - 752-02-008 - 7 STROBE GENERATOR - DRN MRW - ISS 1 (traced).json](1972%20-%20752-02-008%20-%207%20STROBE%20GENERATOR%20-%20DRN%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1972 - 752-02-008 - 7 STROBE GENERATOR - DRN MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

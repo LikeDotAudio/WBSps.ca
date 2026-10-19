@@ -10,6 +10,19 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 7,902,080 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 773050-02-001, size B (assumed) 432 × 148 mm, 2000 × 683 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–144 mm up
+- **Outlines:** line 1,024 rings, 12,757 straight (16,038 mm) / 2,567 curved (3,178 mm); text 200 rings, 1,319 straight (1,105 mm) / 508 curved (621 mm)
+- **Centre lines:** 14,864 paths (142 closed); straight 11,876 mm, curved 252 mm; horizontal 4,573 mm, vertical 3,008 mm, diagonal 4,295 mm
+- **Circles and arcs:** 2 circles, 91 arcs; largest r 1.0 @ (143.7, 70.6), r 0.8 @ (423.0, 97.7)
+- **Closed boxes:** 92; named: dbm-; (715); Audio CONSOLE Output SCHEMATIC
+- **Words (OCR):** 48 in 47 lines: 1548For · 4641 · zzh5v · DUTPUT · Level · 40 dem · dbm- · Mi_-M2 · 225v · ASm( · h6l 4o/04 · Level
+- **Wiring (first pass):** 107 connected wire groups from 1,062 runs; labelled ends: 980 mm → 4o/04, h6l; 623 mm → RSIBUs>, Aux 2 /R52, 052 8u93, FB Buss; 146 mm → ASm(, HF, HF^, 22n5v 'Ck; 122 mm → 4o/04, h6l; 66 mm → LTD
+
+Every curve, box, word and wire group: [1973 - 73050 - 73050-02-001 - MOR SEL' JEM JOD AUXI-RSI UBM (traced).json](1973%20-%2073050%20-%2073050-02-001%20-%20MOR%20SEL%27%20JEM%20JOD%20AUXI-RSI%20UBM%20%28traced%29.json) (the CAD file: `1973 - 73050 - 73050-02-001 - MOR SEL' JEM JOD AUXI-RSI UBM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

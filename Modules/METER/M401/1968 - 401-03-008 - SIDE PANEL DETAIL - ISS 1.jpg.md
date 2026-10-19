@@ -23,6 +23,18 @@ Mechanical detail of a side panel with hole dimensions.
 - **Size:** 1,157,806 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 401-03-008, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale FULL SIZE
+- **Ink extent:** 0–432 mm across, 11–299 mm up
+- **Outlines:** line 176 rings, 2,857 straight (6,256 mm) / 323 curved (452 mm); text 269 rings, 2,190 straight (2,449 mm) / 611 curved (940 mm); tb 46 rings, 982 straight (1,170 mm) / 119 curved (176 mm)
+- **Centre lines:** 5,783 paths (54 closed); straight 6,348 mm, curved 19.4 mm; horizontal 2,625 mm, vertical 1,708 mm, diagonal 2,015 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 1.3 @ (251.4, 217.2)
+- **Words (OCR):** 38 in 31 lines: 35 · HOLES 64 DIA · 458 · 1+37 · 216 2-65 · i3 · 187 · ROUND OFF CORNERS · 5.03 · 1.50 · BECK SVSTEMS · Lt;
+- **Title block:** (180, 10)–(374, 59) mm: BECK SVSTEMS · DRN · DJG · FinISH · ARD · 120 GRIT & BLACK ANODIZE · DATE · 28THCCT 68 · SIDE PANEL DETAIL · 71( · MAT ERIAL · CHKD · 090 AL · SCALE FULL SIZE · RACT · DEC · CES   GIVEN · ANGLES · G1$
+
+Every curve, box, word and wire group: [1968 - 401-03-008 - SIDE PANEL DETAIL - ISS 1 (traced).json](1968%20-%20401-03-008%20-%20SIDE%20PANEL%20DETAIL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1968 - 401-03-008 - SIDE PANEL DETAIL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

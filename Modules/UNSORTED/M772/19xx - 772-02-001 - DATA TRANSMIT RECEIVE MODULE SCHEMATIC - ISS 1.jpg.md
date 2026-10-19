@@ -22,6 +22,19 @@ M772 data transmit/receive module schematic Title block at bottom left reading s
 - **Size:** 5,260,833 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 772-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–427 mm across, 0–287 mm up
+- **Outlines:** line 2,288 rings, 23,831 straight (44,554 mm) / 4,004 curved (4,838 mm); text 68 rings, 394 straight (442 mm) / 117 curved (149 mm)
+- **Centre lines:** 24,031 paths (168 closed); straight 26,439 mm, curved 114 mm; horizontal 9,824 mm, vertical 10,712 mm, diagonal 5,903 mm
+- **Circles and arcs:** 6 circles, 28 arcs; largest r 1.4 @ (365.7, 9.5), r 1.4 @ (376.8, 9.8), r 1.2 @ (377.8, 17.8), r 1.2 @ (397.8, 17.9)
+- **Closed boxes:** 74
+- **Dots (junctions):** 4
+- **Wiring (first pass):** 184 connected wire groups from 3,336 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 772-02-001 - DATA TRANSMIT RECEIVE MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20772-02-001%20-%20DATA%20TRANSMIT%20RECEIVE%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 772-02-001 - DATA TRANSMIT RECEIVE MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

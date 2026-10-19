@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,655,046 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 600-02-008, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC 130
+- **Ink extent:** 0–428 mm across, 23–305 mm up
+- **Outlines:** line 204 rings, 2,858 straight (7,659 mm) / 337 curved (515 mm); text 548 rings, 3,492 straight (4,240 mm) / 1,019 curved (1,500 mm); tb 4 rings, 90 straight (203 mm) / 5 curved (7.4 mm)
+- **Centre lines:** 3,773 paths (89 closed); straight 6,765 mm, curved 296 mm; horizontal 2,920 mm, vertical 1,782 mm, diagonal 2,062 mm
+- **Circles and arcs:** 22 circles, 28 arcs; largest r 1.4 @ (113.3, 271.6), r 1.4 @ (302.3, 274.3), r 1.4 @ (300.6, 132.8), r 1.4 @ (301.7, 220.8)
+- **Closed boxes:** 18 (11 in the title block); named: M451 IALKBACK MODULE; 10L; 600-02-008; ISSUE
+- **Words (OCR):** 74 in 65 lines: TB2 · TB1 · 124.,125 · DIRECT OUTPUT · MIC 151,152 · 10L · dBm, BDG. · TALKBACK · (126) · MIC · (153) · 14R
+- **Title block:** (264, 36)–(432, 105) mm: ISSUE] DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: JRG 02/87 · ENG_ · TALKBACK · CKD_ · SCHEMATIC · APP _ · SCALE DISC 130 · NO: · 600-02-008 · ISSUE · CODE: 600508
+- **Wiring (first pass):** 67 connected wire groups from 271 runs; labelled ends: 834 mm → TB2, 124.,125, TB1, 151,152; 87 mm → ISSUE, 600-02-008; 82 mm → 25v, +25v; 75 mm → (111), 112,113, 455; 65 mm → 154.155
+
+Every curve, box, word and wire group: [19xx - M451 - DOC - 600-02-008 - TALKBACK SCHEMATIC (traced).json](19xx%20-%20M451%20-%20DOC%20-%20600-02-008%20-%20TALKBACK%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M451 - DOC - 600-02-008 - TALKBACK SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

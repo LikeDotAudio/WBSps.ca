@@ -11,6 +11,18 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 362,356 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 470-01-006, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 6–424 mm up
+- **Outlines:** line 334 rings, 4,155 straight (7,197 mm) / 724 curved (1,024 mm); text 237 rings, 2,200 straight (2,461 mm) / 643 curved (1,022 mm)
+- **Centre lines:** 3,060 paths (37 closed); straight 5,272 mm, curved 76.5 mm; horizontal 1,921 mm, vertical 1,470 mm, diagonal 1,881 mm
+- **Circles and arcs:** 3 circles, 4 arcs; largest r 4.9 @ (319.2, 301.1), r 4.6 @ (259.8, 301.0), r 1.5 @ (198.1, 349.4)
+- **Words (OCR):** 42 in 35 lines: miciline · SELECTOR · mic input · 60/-10 dBm · 150 Ohms · Mic · MVte · Mic PAD · inseRT CHAN · mic 2 input · INSERT · PHASE
+- **Wiring (first pass):** 141 connected wire groups from 287 runs; labelled ends: 70 mm → miciline, SELECTOR; 67 mm → BST, 100 Hz, (150 Hz ), 70 Hz; 50 mm → SENSitivity, (150 Hz ), Hp; 35 mm → Pre; 25 mm → miciline, SELECTOR, input, 60/-10 dBm
+
+Every curve, box, word and wire group: [1984 - M470E - 470-01-006 - INSERT CHAN INSERT PHASE JACKS (traced).json](1984%20-%20M470E%20-%20470-01-006%20-%20INSERT%20CHAN%20INSERT%20PHASE%20JACKS%20%28traced%29.json) (the CAD file: `1984 - M470E - 470-01-006 - INSERT CHAN INSERT PHASE JACKS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

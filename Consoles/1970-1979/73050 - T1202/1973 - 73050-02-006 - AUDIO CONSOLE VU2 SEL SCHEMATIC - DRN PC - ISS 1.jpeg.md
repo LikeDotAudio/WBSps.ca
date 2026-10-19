@@ -24,6 +24,19 @@ Schematic of VU2 selector switching for an audio console.
 - **Size:** 4,759,724 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-006, size B (assumed) 432 × 263 mm, 2000 × 1217 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–263 mm up
+- **Outlines:** line 1,479 rings, 15,539 straight (13,549 mm) / 2,747 curved (3,129 mm); text 240 rings, 2,591 straight (2,211 mm) / 593 curved (718 mm)
+- **Centre lines:** 16,189 paths (91 closed); straight 10,922 mm, curved 181 mm; horizontal 3,669 mm, vertical 3,111 mm, diagonal 4,142 mm
+- **Circles and arcs:** 10 circles, 26 arcs; largest r 1.6 @ (76.7, 236.1), r 1.6 @ (62.8, 236.2), r 1.5 @ (28.5, 236.2), r 1.5 @ (178.4, 137.4)
+- **Closed boxes:** 33; named: AuDiO. CONSOLE SchemATIC Vu2 Sel
+- **Words (OCR):** 37 in 27 lines: Extz EXT | Air FB M2 · Tb / · 620 · 620 · VU · Meter · Sk 910 9to · <8kz · Vu 2 · SeLECTOR · Extz Ext · AIR
+- **Wiring (first pass):** 81 connected wire groups from 645 runs; labelled ends: 260 mm → EXT |, M2, Ext; 219 mm → 620, Extz; 198 mm → FB, AIR, MoNitor SEL; 171 mm → Air, 620, Extz; 159 mm → Extz, EXT |, Ext, MoNitor SEL
+
+Every curve, box, word and wire group: [1973 - 73050-02-006 - AUDIO CONSOLE VU2 SEL SCHEMATIC - DRN PC - ISS 1 (traced).json](1973%20-%2073050-02-006%20-%20AUDIO%20CONSOLE%20VU2%20SEL%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-006 - AUDIO CONSOLE VU2 SEL SCHEMATIC - DRN PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

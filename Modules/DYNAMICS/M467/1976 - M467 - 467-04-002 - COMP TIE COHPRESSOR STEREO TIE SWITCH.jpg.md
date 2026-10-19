@@ -11,6 +11,18 @@ Wiki page: [M467](../../../PAGES/M467.md)
 - **Size:** 547,819 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 467-04-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 1–428 mm up
+- **Outlines:** line 238 rings, 3,577 straight (7,742 mm) / 647 curved (936 mm); text 553 rings, 3,961 straight (3,604 mm) / 1,487 curved (2,013 mm); tb 206 rings, 1,876 straight (3,550 mm) / 477 curved (795 mm)
+- **Closed boxes:** 18 (1 in the title block); named: For Rarpose COAPRESSOR STEREO TIE suitch; VU Meter: Des igned Gain Reduction to be; Attenuatiom controi R46 Determins igna m; ON Uhen GATE indicator DSI; Green Led in; THRESHOLD noise gate operating control R; RELEASE contrel Determines rato Tign dro; suitch SwI: Hhen depressed; No| SE GATE ; WBS; M467 Fronit]_PANIEL; 467-04-002
+- **Dots (junctions):** 1
+- **Words (OCR):** 123 in 78 lines: WBS · M467 · COAPRESSOR STEREO TIE suitch · multi-channe · tion_ · For Rarpose · the · VU Meter: Des igned to be operated #5 · Gain Reduction · connection of · Mor · cone ressors
+- **Title block:** (142, 26)–(265, 319) mm: WBS · M467 · COAPRESSOR STEREO TIE suitch · multi-channe · connection of · Mor · control buses · compressor · controe · connected · the · che · reduction · bus · Attenuatiom controi R46 Determins max 
+
+Every curve, box, word and wire group: [1976 - M467 - 467-04-002 - COMP TIE COHPRESSOR STEREO TIE SWITCH (traced).json](1976%20-%20M467%20-%20467-04-002%20-%20COMP%20TIE%20COHPRESSOR%20STEREO%20TIE%20SWITCH%20%28traced%29.json) (the CAD file: `1976 - M467 - 467-04-002 - COMP TIE COHPRESSOR STEREO TIE SWITCH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

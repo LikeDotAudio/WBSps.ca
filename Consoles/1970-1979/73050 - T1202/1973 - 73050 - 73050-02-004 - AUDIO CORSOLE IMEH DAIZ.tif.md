@@ -10,6 +10,21 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 7,165,836 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-004, size B (assumed) 432 × 136 mm, 2000 × 630 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–136 mm up
+- **Outlines:** line 975 rings, 9,100 straight (13,764 mm) / 1,686 curved (2,098 mm); text 214 rings, 1,302 straight (1,081 mm) / 379 curved (454 mm); tb 37 rings, 228 straight (251 mm) / 54 curved (71.8 mm)
+- **Centre lines:** 7,915 paths (151 closed); straight 8,854 mm, curved 149 mm; horizontal 3,413 mm, vertical 2,636 mm, diagonal 2,804 mm
+- **Circles and arcs:** 4 circles, 53 arcs; largest r 0.9 @ (195.9, 115.9), r 0.9 @ (195.7, 63.2), r 0.8 @ (332.6, 46.5), r 0.7 @ (266.1, 40.9)
+- **Closed boxes:** 71 (4 in the title block); named: SELECTDR; WBSS WARD-BECK LTD; MONITOR SCHEHATIC; 73050-02.004
+- **Dots (junctions):** 2
+- **Words (OCR):** 41 in 34 lines: Xhematic · 762 · 3,5846 · TurRET · Host · TZ · Zok/600 · 510 Mohitor LJkR · Bs · 61 207 · Mutiric · MON
+- **Title block:** (349, 3)–(412, 26) mm: WBSS WARD-BECK · IDRA: · MONITOR SCHEHATIC · ISCALE
+- **Wiring (first pass):** 115 connected wire groups from 800 runs; labelled ends: 268 mm → NR; 117 mm → Zok/600; 113 mm → 842; 96 mm → M2; 79 mm → NR, (s2e, JEL)
+
+Every curve, box, word and wire group: [1973 - 73050 - 73050-02-004 - AUDIO CORSOLE IMEH DAIZ (traced).json](1973%20-%2073050%20-%2073050-02-004%20-%20AUDIO%20CORSOLE%20IMEH%20DAIZ%20%28traced%29.json) (the CAD file: `1973 - 73050 - 73050-02-004 - AUDIO CORSOLE IMEH DAIZ (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

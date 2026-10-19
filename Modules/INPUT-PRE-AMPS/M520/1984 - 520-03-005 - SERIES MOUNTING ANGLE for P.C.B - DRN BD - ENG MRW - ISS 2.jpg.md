@@ -24,6 +24,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 1,346,888 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 520-03-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–298 mm up
+- **Outlines:** line 235 rings, 3,407 straight (8,104 mm) / 430 curved (642 mm); text 356 rings, 2,853 straight (3,248 mm) / 878 curved (1,339 mm); tb 17 rings, 246 straight (401 mm) / 48 curved (67.7 mm)
+- **Centre lines:** 8,362 paths (64 closed); straight 7,912 mm, curved 129 mm; horizontal 3,242 mm, vertical 1,876 mm, diagonal 2,795 mm
+- **Circles and arcs:** 3 circles, 18 arcs; largest r 1.8 @ (222.6, 197.9), r 1.5 @ (222.4, 198.0), r 1.3 @ (194.3, 175.4)
+- **Closed boxes:** 13 (9 in the title block)
+- **Words (OCR):** 59 in 46 lines: NOTES: · A0O DIA 2 PLACES · A00 DIA · TOLERANCES · csk 829 TO · XX · 015 · 44472 DIA · XXX · 005 · 2 PLACES · REMOVE BURRS 6 SHARP EDGES
+- **Title block:** (279, 11)–(432, 79) mm: 2501 · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: · BD 83 · ENG_ MPw · M520 series · Pc B. · CKD: · MOUNTING ANGLE For · APP · SCALE · 520-05-005 · ISSUE · 242X
+
+Every curve, box, word and wire group: [1984 - 520-03-005 - SERIES MOUNTING ANGLE for P.C.B - DRN BD - ENG MRW - ISS 2 (traced).json](1984%20-%20520-03-005%20-%20SERIES%20MOUNTING%20ANGLE%20for%20P.C.B%20-%20DRN%20BD%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1984 - 520-03-005 - SERIES MOUNTING ANGLE for P.C.B - DRN BD - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

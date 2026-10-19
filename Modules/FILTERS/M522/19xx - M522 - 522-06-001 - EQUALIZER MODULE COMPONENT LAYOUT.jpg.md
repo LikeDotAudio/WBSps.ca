@@ -11,6 +11,17 @@ Wiki page: [M522](../../../PAGES/M522.md)
 - **Size:** 666,425 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 522-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 44–322 mm across, 19–361 mm up
+- **Outlines:** line 147 rings, 1,841 straight (4,483 mm) / 422 curved (414 mm); text 746 rings, 4,691 straight (4,420 mm) / 1,855 curved (2,133 mm); tb 572 rings, 5,299 straight (7,017 mm) / 1,513 curved (1,628 mm)
+- **Closed boxes:** 20 (15 in the title block)
+- **Words (OCR):** 120 in 105 lines: 68/6 · 68/6 55410 · R422k · 100 · C1o · RL I5K · 4.7/10 · 47/55 · VBS · 220 · ISK · L1o-052
+- **Title block:** (65, 46)–(329, 350) mm: C1o · 4.7/10 · 47/55 · VBS · 220 · ISK · L1o-052 · WBS · R40; · 14-110 CANADA 680P · 220p · 855 · 853 · J0K · R32 · ISSUE · R46 · R39390 · RSO: · RSI · R45 · 7435 10/25 · R3Z · R34 EN · 55/10 · 7/55 ·
+
+Every curve, box, word and wire group: [19xx - M522 - 522-06-001 - EQUALIZER MODULE COMPONENT LAYOUT (traced).json](19xx%20-%20M522%20-%20522-06-001%20-%20EQUALIZER%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M522 - 522-06-001 - EQUALIZER MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

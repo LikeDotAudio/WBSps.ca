@@ -18,6 +18,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **2002** (manual_issue): `ISSUE CODE: 92002` — …S B2 & C1 IFB BUFFER FACILITY APP_ FUNCTIONAL SCALE DISC NO ISSUE CODE: 92002F02 920002-01-002 "Pacaui/2) Icorh…
 
+## Vectors (traced)
+
+- **Sheet:** functional 920002-01-002, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 0–415 mm across, 7–280 mm up
+- **Outlines:** line 996 rings, 8,327 straight (12,395 mm) / 1,470 curved (1,697 mm); text 145 rings, 943 straight (910 mm) / 236 curved (314 mm); tb 16 rings, 115 straight (165 mm) / 21 curved (22.3 mm)
+- **Centre lines:** 12,080 paths (239 closed); straight 8,240 mm, curved 184 mm; horizontal 2,881 mm, vertical 1,954 mm, diagonal 3,404 mm
+- **Circles and arcs:** 10 circles, 23 arcs; largest r 2.0 @ (333.1, 183.1), r 2.0 @ (333.1, 223.8), r 1.8 @ (86.1, 202.3), r 1.8 @ (86.2, 181.8)
+- **Closed boxes:** 14 (6 in the title block); named: STUDIOS 82 & C1 IFB   BUFFER FACILITY FU; SCF; 920002-01-002
+- **Words (OCR):** 20 in 18 lines: Faccr · ouTPVTS · 470 · 1492) · SPAHE · 07) · 37 · SPARZ · NOTES · afcuirFd · ReMsION · WBS
+- **Title block:** (337, 23)–(421, 39) mm: ReMsION · WBS · WARD BECK   SYSTEMS · STUDIOS 82 & C1
+- **Wiring (first pass):** 160 connected wire groups from 545 runs; labelled ends: 40 mm → 37; 24 mm → SCF; 19 mm → 37; 19 mm → 37; 15 mm → 07)
+
+Every curve, box, word and wire group: [2002 - 920002 - DOC - 920002-01-002 - THE IFB FACILITY INSTALLED (traced).json](2002%20-%20920002%20-%20DOC%20-%20920002-01-002%20-%20THE%20IFB%20FACILITY%20INSTALLED%20%28traced%29.json) (the CAD file: `2002 - 920002 - DOC - 920002-01-002 - THE IFB FACILITY INSTALLED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

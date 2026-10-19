@@ -11,6 +11,18 @@ Wiki page: [M703B](../../../PAGES/M703B.md)
 - **Size:** 5,748,797 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 701-01-011, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–428 mm across, 17–303 mm up
+- **Outlines:** line 565 rings, 5,075 straight (12,700 mm) / 841 curved (1,288 mm); text 309 rings, 1,722 straight (1,968 mm) / 617 curved (879 mm)
+- **Centre lines:** 4,252 paths (107 closed); straight 7,164 mm, curved 435 mm; horizontal 3,091 mm, vertical 1,899 mm, diagonal 2,174 mm
+- **Circles and arcs:** 37 circles, 52 arcs; largest r 3.9 @ (315.0, 154.6), r 3.9 @ (341.2, 154.6), r 2.1 @ (363.4, 43.3), r 1.8 @ (360.9, 51.2)
+- **Closed boxes:** 25
+- **Wiring (first pass):** 125 connected wire groups from 592 runs
+
+Every curve, box, word and wire group: [1980 - M703B - B 701-01-011 - M701B - INTERCOM PREAMPLIFIER - FUNCTIONAL DIAGRAM (traced).json](1980%20-%20M703B%20-%20B%20701-01-011%20-%20M701B%20-%20INTERCOM%20PREAMPLIFIER%20-%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1980 - M703B - B 701-01-011 - M701B - INTERCOM PREAMPLIFIER - FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

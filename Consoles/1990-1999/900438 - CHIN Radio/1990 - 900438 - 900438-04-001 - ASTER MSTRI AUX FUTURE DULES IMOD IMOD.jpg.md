@@ -10,6 +10,16 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,725,735 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 900438-04-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–305 mm across, 0–432 mm up
+- **Outlines:** line 266 rings, 3,734 straight (13,008 mm) / 335 curved (458 mm); text 208 rings, 1,437 straight (1,695 mm) / 509 curved (703 mm)
+- **Closed boxes:** 13; named: 1m4974M479 MSTRI AUX DULES |MOD MoD; PSI M625B; M495 MONITOR MODULES; M451M453A TB MOD; CUE AMP
+- **Words (OCR):** 42 in 31 lines: 19.00 in_ · MONO AUX · 1497 · 1m4974M479 · ASTER MSTRI AUX · FUTURE · DULES |MOD MoD · PSI · PS2 · M625B · M625B · EXTERNAL_POWER_SUPPLY_ERAME
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-04-001 - ASTER MSTRI AUX FUTURE DULES IMOD IMOD (traced).json](1990%20-%20900438%20-%20900438-04-001%20-%20ASTER%20MSTRI%20AUX%20FUTURE%20DULES%20IMOD%20IMOD%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-04-001 - ASTER MSTRI AUX FUTURE DULES IMOD IMOD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,15 @@ Wiki page: [M497A](../../../PAGES/M497A.md)
 - **Size:** 2,386,381 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 497-04-002, size B (assumed) 432 × 336 mm, 2000 × 1557 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 11–428 mm across, 2–336 mm up
+- **Outlines:** line 262 rings, 6,188 straight (11,340 mm) / 711 curved (1,108 mm); text 608 rings, 6,143 straight (7,801 mm) / 1,259 curved (2,068 mm)
+- **Closed boxes:** 57
+
+Every curve, box, word and wire group: [1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW (traced).json](1978%20-%20M497A%20-%20497-04-002%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1978 - M497A - 497-04-002 - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -20,6 +20,20 @@ SA14-108 lower mono input modules schematic, title block at top right reading do
 - **Size:** 5,332,248 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-106-02-001, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–288 mm across, 0–432 mm up
+- **Outlines:** line 1,314 rings, 10,550 straight (22,616 mm) / 1,560 curved (1,845 mm); text 131 rings, 785 straight (717 mm) / 270 curved (341 mm)
+- **Centre lines:** 9,747 paths (180 closed); straight 13,026 mm, curved 85.1 mm; horizontal 3,421 mm, vertical 7,200 mm, diagonal 2,405 mm
+- **Circles and arcs:** 6 circles, 20 arcs; largest r 1.2 @ (249.4, 385.9), r 1.1 @ (267.3, 386.4), r 1.0 @ (267.1, 370.0), r 1.0 @ (262.0, 372.5)
+- **Closed boxes:** 39
+- **Dots (junctions):** 1
+- **Words (OCR):** 11 in 10 lines: ace2 · E8 · 91"91 · 01"6 · Ya · Ie 56 · 02*64 · 21" · 01*6 · SESO
+- **Wiring (first pass):** 147 connected wire groups from 1,453 runs, 2 dotted junctions; labelled ends: 1637 mm → 56, Ie; 618 mm → Ya; 148 mm → Ya; 74 mm → ace2; 42 mm → Ya
+
+Every curve, box, word and wire group: [19xx - 14-106-02-001 - SA14-106 LOWER MONO INPUT MODULES SCHEMATIC - ISS 2 (2) (traced).json](19xx%20-%2014-106-02-001%20-%20SA14-106%20LOWER%20MONO%20INPUT%20MODULES%20SCHEMATIC%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 14-106-02-001 - SA14-106 LOWER MONO INPUT MODULES SCHEMATIC - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

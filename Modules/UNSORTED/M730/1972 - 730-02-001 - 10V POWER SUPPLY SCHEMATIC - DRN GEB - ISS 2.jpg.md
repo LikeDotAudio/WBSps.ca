@@ -23,6 +23,20 @@ Wiki page: [M730](../../../PAGES/M730.md)
 - **Size:** 1,633,182 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 730-02-001, size B 432 × 141 mm, 2000 × 652 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–141 mm up
+- **Outlines:** line 439 rings, 3,955 straight (6,872 mm) / 823 curved (1,027 mm); text 184 rings, 897 straight (808 mm) / 344 curved (405 mm)
+- **Centre lines:** 4,275 paths (98 closed); straight 4,544 mm, curved 120 mm; horizontal 2,000 mm, vertical 1,095 mm, diagonal 1,449 mm
+- **Circles and arcs:** 3 circles, 33 arcs; largest r 2.6 @ (279.8, 68.4), r 1.8 @ (128.0, 86.9), r 0.9 @ (375.9, 86.5)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 26 in 22 lines: NOTE 5 · INII83 · OThERwisc Specified, · Toleranc · VALUE KR E · ALL Resistors · 05 VAC · 20 AMPs · ARE · HM · VALUE · MIcRoFARADS
+- **Wiring (first pass):** 37 connected wire groups from 266 runs; labelled ends: 159 mm → 4400; 85 mm → 7 U; 44 mm → INII83; 38 mm → pOFR; 37 mm → INII83
+
+Every curve, box, word and wire group: [1972 - 730-02-001 - 10V POWER SUPPLY SCHEMATIC - DRN GEB - ISS 2 (traced).json](1972%20-%20730-02-001%20-%2010V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1972 - 730-02-001 - 10V POWER SUPPLY SCHEMATIC - DRN GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

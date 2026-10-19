@@ -23,6 +23,19 @@ Wiki page: [M805](../../../PAGES/M805.md)
 - **Size:** 1,428,299 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 805-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 12–298 mm up
+- **Outlines:** line 163 rings, 3,121 straight (9,548 mm) / 306 curved (475 mm); text 432 rings, 3,470 straight (4,332 mm) / 952 curved (1,528 mm); tb 22 rings, 295 straight (470 mm) / 43 curved (68.3 mm)
+- **Centre lines:** 4,352 paths (68 closed); straight 8,319 mm, curved 91.1 mm; horizontal 4,517 mm, vertical 1,448 mm, diagonal 2,354 mm
+- **Circles and arcs:** 0 circles, 20 arcs
+- **Closed boxes:** 22 (9 in the title block); named: WAS 9.380 OA PIM; 25; WAS Finish ALOIhe; Geb; ISSUE
+- **Words (OCR):** 61 in 47 lines: 2.400 · 2-156 · DRILL : I6k DIA. AND · MounT PEM SELF- · STAND- · Clinching · 50440-66 · FROM · REAR · 250 · PLACES · "625
+- **Title block:** (145, 13)–(431, 81) mm: 064 ALUM- · ALLoY · Finish · WAS ALOIhe · Geb · ISSUE DATE · REVISION · APP · Wbs TEXTURED GRET · TEXCOTE VINYL · WBS · WARD-BECK SYSTEMS · EDGes · DRN: GEB · GEB783 · M8osp/E · ENG · CKD: · CARD · Mo
+
+Every curve, box, word and wire group: [1983 - 805-03-001 - M805D E & M806D E CARD MOUNTING PLATE - DRN GEB - ENG GEB - ISS 3 (traced).json](1983%20-%20805-03-001%20-%20M805D%20E%20%26%20M806D%20E%20CARD%20MOUNTING%20PLATE%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1983 - 805-03-001 - M805D E & M806D E CARD MOUNTING PLATE - DRN GEB - ENG GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

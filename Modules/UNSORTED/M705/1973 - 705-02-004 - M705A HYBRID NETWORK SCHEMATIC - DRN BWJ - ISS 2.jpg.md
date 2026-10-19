@@ -23,6 +23,20 @@ Wiki page: [M705](../../../PAGES/M705.md)
 - **Size:** 3,878,787 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 705-02-004, size B 432 × 141 mm, 2000 × 651 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–141 mm up
+- **Outlines:** line 298 rings, 2,994 straight (8,435 mm) / 573 curved (692 mm); text 238 rings, 1,265 straight (1,133 mm) / 409 curved (498 mm); tb 6 rings, 66 straight (118 mm) / 8 curved (8.9 mm)
+- **Centre lines:** 4,130 paths (102 closed); straight 5,579 mm, curved 65.2 mm; horizontal 3,003 mm, vertical 994 mm, diagonal 1,582 mm
+- **Circles and arcs:** 2 circles, 20 arcs; largest r 1.0 @ (324.6, 20.4), r 0.7 @ (87.0, 106.8)
+- **Closed boxes:** 16; named: USED ON; WBS WAAD-BeCK BysteMB LTD; 4705 A; M7o5 HybRID; 705 -02 -00-
+- **Words (OCR):** 39 in 31 lines: ALA · 1/4 · STATED IN OHNS: · TOLERANC E 5 7 VALUES · COMFONENT dEsieNATIONS · ARE · FoLLOL 5 · Riq C4 T2 · S82 · op · DiG · ~/0i-06 002
+- **Title block:** (352, 19)–(428, 29) mm: WBS WAAD-BeCK BysteMB LTD
+- **Wiring (first pass):** 32 connected wire groups from 228 runs; labelled ends: 255 mm → WBS, DA; 88 mm → 220/204; 84 mm → 220/20 [pi; 53 mm → 220/20 [pi, 20 / 20v; 46 mm → J06 €
+
+Every curve, box, word and wire group: [1973 - 705-02-004 - M705A HYBRID NETWORK SCHEMATIC - DRN BWJ - ISS 2 (traced).json](1973%20-%20705-02-004%20-%20M705A%20HYBRID%20NETWORK%20SCHEMATIC%20-%20DRN%20BWJ%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1973 - 705-02-004 - M705A HYBRID NETWORK SCHEMATIC - DRN BWJ - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

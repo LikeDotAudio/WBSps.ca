@@ -9,6 +9,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,188,197 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 279 rings, 8,409 straight (15,222 mm) / 971 curved (1,419 mm); text 126 rings, 863 straight (840 mm) / 282 curved (367 mm)
+- **Closed boxes:** 81; named: 22; 2 0
+- **Words (OCR):** 28 in 23 lines: ROW · INPuT MODULE · INPUT MODULE INSE · PHASE REVERSE · EXT EXE · CUE · SOURCE · SOuF · PADS · 6dB · 1OdB · 2OdB
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_3 wsvn jack - 31106-04-003 - TIP NORMAL TIP NORMAL TIP NORMAL TIP NORMAL (traced).json](1977%20-%2031106-04-003_3%20wsvn%20jack%20-%2031106-04-003%20-%20TIP%20NORMAL%20TIP%20NORMAL%20TIP%20NORMAL%20TIP%20NORMAL%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_3 wsvn jack - 31106-04-003 - TIP NORMAL TIP NORMAL TIP NORMAL TIP NORMAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

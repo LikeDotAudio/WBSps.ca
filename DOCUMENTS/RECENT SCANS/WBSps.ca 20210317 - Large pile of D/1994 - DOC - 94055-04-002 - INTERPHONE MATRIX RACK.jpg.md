@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,898,075 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94055-04-002, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 93–421 mm across, 7–180 mm up
+- **Outlines:** line 1,562 rings, 7,938 straight (19,037 mm) / 1,533 curved (1,988 mm); text 114 rings, 697 straight (727 mm) / 194 curved (266 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 1.6 @ (287.0, 152.3), r 1.6 @ (287.0, 124.5), r 1.6 @ (287.0, 165.7), r 1.6 @ (287.0, 129.3)
+- **Closed boxes:** 30; named: WARD-BECK SYSTEMS; TEN ENGINEERING 96x96 INTERPHONE MATRIX ; IDSC NC; 94055-04-002; 94055102
+- **Words (OCR):** 7 in 7 lines: WARD-BECK SYSTEMS · TEN ENGINEERING · 96x96 INTERPHONE MATRIX · RACK LAYOUT · IDSC NC · 94055-04-002 · 94055102
+
+Every curve, box, word and wire group: [1994 - DOC - 94055-04-002 - INTERPHONE MATRIX RACK (traced).json](1994%20-%20DOC%20-%2094055-04-002%20-%20INTERPHONE%20MATRIX%20RACK%20%28traced%29.json) (the CAD file: `1994 - DOC - 94055-04-002 - INTERPHONE MATRIX RACK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

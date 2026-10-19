@@ -28,6 +28,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 
 - **1976** (labelled): `DATE Oct 76` — …136531PM USED OM MATL _ WBS WARD-BeCK ByBTEMs LTD DRN: @EB DATE Oct 76 CKD Ke SCALE TOLS M B 4-126 FINISH EQUALIZER FILTER AmPLIFI…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-126-02-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 608 rings, 8,214 straight (15,389 mm) / 1,473 curved (1,836 mm); text 604 rings, 4,095 straight (4,355 mm) / 1,272 curved (1,856 mm); tb 6 rings, 105 straight (184 mm) / 9 curved (15.7 mm)
+- **Centre lines:** 14,352 paths (121 closed); straight 13,363 mm, curved 142 mm; horizontal 4,507 mm, vertical 3,544 mm, diagonal 5,311 mm
+- **Circles and arcs:** 4 circles, 37 arcs; largest r 1.5 @ (146.4, 325.6), r 1.3 @ (278.1, 173.3), r 1.3 @ (279.3, 342.5), r 0.8 @ (122.0, 306.7)
+- **Closed boxes:** 32 (3 in the title block); named: WBS LTD: WARD-BeCK bybteMB; MATL; 948; Bo41/04; 4-126 EQUALIZER FIlTER AMPliFIER SCHEMAT; FIMISH; 4-126-02-001; ISS.
+- **Words (OCR):** 127 in 115 lines: EREQUENY (400 Hz Gkhz ) · MID · 65 · RI4 · ok · R12 · R2i · R23 · kz cio · 6k2 · C18 · c2i
+- **Title block:** (215, 7)–(296, 52) mm: WBS WARD-BeCK bybteMB · DRN · 2EB · DATE OcT 76 · 4-126 · CKD · Be · EQUALIZER FIlTER · SCALE · AMPliFIER SCHEMATIC · TOLS · 4-126-02-001
+- **Wiring (first pass):** 65 connected wire groups from 547 runs; labelled ends: 513 mm → 948, USED ON, Bo41/04, 365320; 258 mm → RI4, ok, R23, 28k2; 216 mm → R33, iok, Ci, 065; 209 mm → R33, iok, R39, Ok; 151 mm → cio, ooop, COMBinED, VALUE
+
+Every curve, box, word and wire group: [1976 - 4-126-02-001 - 4-126 EQUALIZER FILTER AMPLIFIER SCHEMATIC - DRN GEB - ISS 4 (traced).json](1976%20-%204-126-02-001%20-%204-126%20EQUALIZER%20FILTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1976 - 4-126-02-001 - 4-126 EQUALIZER FILTER AMPLIFIER SCHEMATIC - DRN GEB - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

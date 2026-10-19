@@ -22,6 +22,19 @@ M772 data transmit/receive module functional Title block at bottom left reading 
 - **Size:** 4,759,989 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 772-01-001, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–287 mm across, 2–428 mm up
+- **Outlines:** line 442 rings, 4,258 straight (9,320 mm) / 727 curved (896 mm); text 99 rings, 835 straight (808 mm) / 227 curved (290 mm)
+- **Centre lines:** 3,814 paths (49 closed); straight 5,325 mm, curved 29.1 mm; horizontal 1,787 mm, vertical 2,302 mm, diagonal 1,237 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 29
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 75 connected wire groups from 410 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 772-01-001 - DATA TRANSMIT RECEIVE MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20772-01-001%20-%20DATA%20TRANSMIT%20RECEIVE%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 772-01-001 - DATA TRANSMIT RECEIVE MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

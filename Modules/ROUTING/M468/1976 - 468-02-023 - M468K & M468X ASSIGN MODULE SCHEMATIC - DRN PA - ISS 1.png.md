@@ -28,6 +28,21 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1976** (labelled): `DATEJuLy 76` — …SSMODIICKD USED ON MaTL . WBS WARD-BECK BybteMB LTD: DRA PA DATEJuLy 76 CKD: C (SCALE TOLs . E M463ke MA63X Assign MODULE SCHEMATIC…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-023, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 530 rings, 9,160 straight (14,677 mm) / 1,749 curved (2,369 mm); text 220 rings, 1,601 straight (1,752 mm) / 566 curved (827 mm); tb 7 rings, 140 straight (261 mm) / 32 curved (52.6 mm)
+- **Centre lines:** 7,851 paths (61 closed); straight 10,285 mm, curved 276 mm; horizontal 4,584 mm, vertical 2,594 mm, diagonal 3,106 mm
+- **Circles and arcs:** 11 circles, 73 arcs; largest r 1.2 @ (321.5, 139.4), r 1.1 @ (166.5, 60.8), r 1.0 @ (66.6, 129.7), r 1.0 @ (59.9, 113.8)
+- **Closed boxes:** 41 (2 in the title block); named: WARD-BECK WBS bybtemB LTD.; MatL.; SEDON; M468k € M462X Assign SCHEMATIC MODULE; 468-02-023; IsS_; TOLs
+- **Dots (junctions):** 1
+- **Words (OCR):** 54 in 45 lines: Input · Sws Ris · Swis Ris · R2o · RIs · R2i · OUT · ouT · OUt 5 · Out 9 · input · Js
+- **Title block:** (269, 24)–(377, 66) mm: WBS · WARD-BECK bybtemB LTD. · DRA PA · M468k € M462X · DATEJuly 76 · Assign MODULE · cKD RC
+- **Wiring (first pass):** 92 connected wire groups from 569 runs, 4 dotted junctions; labelled ends: 825 mm → SEDON, cKD, TOLs; 431 mm → input, swG, SwZ, Sw4; 268 mm → Input, Sws; 196 mm → MODULE, SCHEMATIC, 468-02-023, Assign; 116 mm → Js
+
+Every curve, box, word and wire group: [1976 - 468-02-023 - M468K & M468X ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (traced).json](1976%20-%20468-02-023%20-%20M468K%20%26%20M468X%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 468-02-023 - M468K & M468X ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

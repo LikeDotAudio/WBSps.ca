@@ -11,6 +11,16 @@ Wiki page: [M441M](../../../PAGES/M441M.md)
 - **Size:** 6,709,565 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 441-04-013, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–287 mm up
+- **Outlines:** line 876 rings, 9,212 straight (13,744 mm) / 1,285 curved (1,840 mm); text 169 rings, 993 straight (1,036 mm) / 257 curved (356 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.5 @ (338.1, 172.6), r 5.5 @ (338.2, 215.1), r 1.5 @ (280.7, 2.5)
+- **Closed boxes:** 28
+
+Every curve, box, word and wire group: [1973 - M441M - 441-04-013 - WAAD-BECK BYSTEMS (traced).json](1973%20-%20M441M%20-%20441-04-013%20-%20WAAD-BECK%20BYSTEMS%20%28traced%29.json) (the CAD file: `1973 - M441M - 441-04-013 - WAAD-BECK BYSTEMS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

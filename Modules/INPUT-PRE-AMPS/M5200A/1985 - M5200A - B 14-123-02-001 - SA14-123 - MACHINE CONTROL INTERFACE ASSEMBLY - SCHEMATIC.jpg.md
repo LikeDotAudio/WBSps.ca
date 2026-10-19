@@ -11,6 +11,20 @@ Wiki page: [M5200A](../../../PAGES/M5200A.md)
 - **Size:** 5,456,795 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-123-02-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px)
+- **Ink extent:** 77–421 mm across, 18–303 mm up
+- **Outlines:** line 1,800 rings, 16,034 straight (28,013 mm) / 2,171 curved (2,631 mm); text 113 rings, 782 straight (863 mm) / 217 curved (297 mm); tb 2 rings, 42 straight (101 mm) / 1 curved (2.4 mm)
+- **Centre lines:** 27,092 paths (104 closed); straight 19,410 mm, curved 12.5 mm; horizontal 7,325 mm, vertical 7,501 mm, diagonal 4,584 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 73
+- **Words (OCR):** 7 in 7 lines: WBS · WARD-BECK SYSTEMS · SA14-123 · MACHINE CONTROL INTERFACE ASSEMBLY · SCHEMATIC · B 14-123-02-001 · ISS.
+- **Title block:** (330, 48)–(423, 65) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 254 connected wire groups from 2,938 runs
+
+Every curve, box, word and wire group: [1985 - M5200A - B 14-123-02-001 - SA14-123 - MACHINE CONTROL INTERFACE ASSEMBLY - SCHEMATIC (traced).json](1985%20-%20M5200A%20-%20B%2014-123-02-001%20-%20SA14-123%20-%20MACHINE%20CONTROL%20INTERFACE%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200A - B 14-123-02-001 - SA14-123 - MACHINE CONTROL INTERFACE ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

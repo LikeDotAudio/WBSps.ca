@@ -31,28 +31,3 @@ tags: ["product", "pods", "2010s"]
 |---|---|---|
 | ? | [19xx - POD32 - Front.jpg](../Products/PODS/POD32/19xx%20-%20POD32%20-%20Front.jpg) | [note](../Products/PODS/POD32/19xx%20-%20POD32%20-%20Front.jpg.md) |
 | ? | [19xx - POD32 - Rear.jpg](../Products/PODS/POD32/19xx%20-%20POD32%20-%20Rear.jpg) | [note](../Products/PODS/POD32/19xx%20-%20POD32%20-%20Rear.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "POD32",
- "name": "MD-SDI AES Muxer",
- "category": "PODS",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/PODS/POD32/19xx - POD32 - Front.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD32/19xx - POD32 - Rear.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,688,295 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940449-04-004, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 65–424 mm across, 7–198 mm up
+- **Outlines:** line 124 rings, 1,090 straight (7,717 mm) / 157 curved (204 mm); text 109 rings, 672 straight (904 mm) / 215 curved (306 mm); tb 17 rings, 158 straight (185 mm) / 30 curved (33.2 mm)
+- **Closed boxes:** 25 (4 in the title block); named: TIMER CLOCK TIMER UP {Dow; TIMER UP {Dow; CLOCK; TIMER; TIMER; TIMER; CLOCK; UP {Dow; WBZ CONTROL ROOM TURRET AYOUT; 940449- 04-004
+- **Words (OCR):** 12 in 11 lines: TIMER · CLOCK · TIMER · UP {Dow · SUPPLILD · WBS · WARD-BECK SYSTEMS · WBZ · CONTROL ROOM TURRET · AYOUT · 940449- 04-004
+- **Title block:** (345, 23)–(429, 40) mm: WBS · WARD-BECK SYSTEMS · WBZ
+
+Every curve, box, word and wire group: [1994 - 940449 - DOC - 940449-04-004 - NOTE ALL ESE COMPONENTS ARE SUPPLIED (traced).json](1994%20-%20940449%20-%20DOC%20-%20940449-04-004%20-%20NOTE%20ALL%20ESE%20COMPONENTS%20ARE%20SUPPLIED%20%28traced%29.json) (the CAD file: `1994 - 940449 - DOC - 940449-04-004 - NOTE ALL ESE COMPONENTS ARE SUPPLIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

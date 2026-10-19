@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,923,699 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950224-04-001, size B (assumed) 432 × 353 mm, 2000 × 1635 px traced (0.216 mm/px)
+- **Ink extent:** 39–432 mm across, 13–339 mm up
+- **Outlines:** line 1,244 rings, 10,141 straight (33,292 mm) / 1,712 curved (2,271 mm); text 463 rings, 2,985 straight (3,194 mm) / 1,093 curved (1,440 mm); tb 20 rings, 348 straight (1,934 mm) / 16 curved (27.2 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 6.8 @ (383.1, 139.1), r 6.8 @ (383.0, 112.5), r 1.9 @ (385.2, 115.0), r 1.9 @ (394.6, 160.5)
+- **Closed boxes:** 208; named: m90g; M908; M907; M9o7; MGO1A CH ON; M9OIA CH ON; MIO1A CH OM; M9O1A ON; M9O1A CH ON; M9OIA CH ON; M9O1A CH ON; M9OIA CH ON
+- **Dots (junctions):** 41
+- **Words (OCR):** 88 in 54 lines: METER · CH 1 · CH 2 · CH 3 · CH · CH 5 CH · CH 7 · CH 8 CH 9 CH 10 CH 11 · CH 12 CH 13 CH 14 CH 15 CH 16 · CR MON STD MON · m90g M908 M907 M9o7 MGO1A M9OIA · MIO1A M9O1A M9O1A M9OIA M9O1A M9OIA
+- **Title block:** (293, 12)–(432, 70) mm: IISSUE · REVSION · APP · WBS WARD-BECK SYSTEMS · DRN · WKW · ENG. WKW · FANSHAWE COLLEGE · CKD: · MKII CONSOLE LA YOUT · APP · SCALE · DISC NO: SYSO1 · ISSUE · CODE: 95224L01 · 950224-04-001
+
+Every curve, box, word and wire group: [1995 - M908 - DOC - 950224-04-001 - OPTIONAL IISSUE REVSION (traced).json](1995%20-%20M908%20-%20DOC%20-%20950224-04-001%20-%20OPTIONAL%20IISSUE%20REVSION%20%28traced%29.json) (the CAD file: `1995 - M908 - DOC - 950224-04-001 - OPTIONAL IISSUE REVSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

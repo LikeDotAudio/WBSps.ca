@@ -1,0 +1,188 @@
+{
+ "code": "M703B",
+ "name": "Intercom Pre And Output Amplifier",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "B",
+   "row": 2,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 5 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, left of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "dc42540c89a75f591988d47ccfed421c2cb8a8183ff75e0fda7ea8fe7752f231",
+    "file": "Modules/COMMUNICATION/M703B/1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 21 of the drawing, right of the pin column",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

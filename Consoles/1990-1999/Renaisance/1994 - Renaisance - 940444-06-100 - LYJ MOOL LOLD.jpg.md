@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,956,049 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 940444-06-100, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–288 mm across, 0–432 mm up
+- **Outlines:** line 3,845 rings, 27,601 straight (31,137 mm) / 8,628 curved (8,972 mm); text 804 rings, 4,820 straight (3,835 mm) / 1,869 curved (1,964 mm)
+- **Circles and arcs:** 45 circles, 0 arcs; largest r 3.5 @ (161.1, 401.5), r 3.1 @ (138.8, 387.0), r 3.1 @ (138.8, 394.2), r 3.0 @ (179.1, 233.9)
+- **Closed boxes:** 65
+- **Dots (junctions):** 18
+- **Words (OCR):** 85 in 82 lines: 908f88 · NOOJmL · NcziphtL · 28 82yj · BI+NI · Isg · zel8 · ztza · cted · 6443 · NszijttL · 9048
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940444-06-100 - LYJ MOOL LOLD (traced).json](1994%20-%20Renaisance%20-%20940444-06-100%20-%20LYJ%20MOOL%20LOLD%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940444-06-100 - LYJ MOOL LOLD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

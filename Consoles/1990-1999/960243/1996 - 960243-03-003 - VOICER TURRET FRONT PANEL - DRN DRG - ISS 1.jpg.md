@@ -20,6 +20,19 @@ Wiki page: [Job-960243](../../../PAGES/Job-960243.md)
 - **Size:** 410,137 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960243-03-003, size D 864 × 554 mm, 2000 × 1283 px traced (0.432 mm/px)
+- **Ink extent:** 67–864 mm across, 8–518 mm up
+- **Outlines:** line 490 rings, 3,591 straight (22,005 mm) / 644 curved (1,483 mm); text 420 rings, 2,269 straight (4,156 mm) / 745 curved (1,806 mm); tb 19 rings, 147 straight (349 mm) / 37 curved (80.7 mm)
+- **Centre lines:** 5,597 paths (187 closed); straight 15,152 mm, curved 45.6 mm; horizontal 7,171 mm, vertical 3,997 mm, diagonal 3,984 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 41 (3 in the title block); named: VOICER TURRET FRONT PANEL; 960243-03-003
+- **Words (OCR):** 53 in 42 lines: 16./10 · 4-Cdo · 7,555 · 15.110 · 0.1M1 +0.00} DiA INSERT FROM THIS · 6,055 · PEV' STUD F4F40 · REQ'0 · 0.2C0 · 8THERcSIDE · DERAM · 0.200
+- **Title block:** (683, 39)–(851, 72) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1996 - 960243-03-003 - VOICER TURRET FRONT PANEL - DRN DRG - ISS 1 (traced).json](1996%20-%20960243-03-003%20-%20VOICER%20TURRET%20FRONT%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960243-03-003 - VOICER TURRET FRONT PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

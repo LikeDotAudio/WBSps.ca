@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,931,856 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 90-04-017, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 438 rings, 4,186 straight (9,952 mm) / 1,009 curved (1,184 mm); text 208 rings, 1,440 straight (1,203 mm) / 427 curved (518 mm); tb 361 rings, 3,035 straight (4,350 mm) / 782 curved (928 mm)
+- **Closed boxes:** 17 (5 in the title block); named: WBS; Irput  SELECTCR Are mutually Keclocked g; mixing nethomkg; Frey 56 chonnt {; Ched channi; Ma9oh LINE INPUT MODULE FRONT PANEL; 490 017
+- **Dots (junctions):** 2
+- **Words (OCR):** 40 in 34 lines: WBS · Irput  SELECTCR · Keclocked · gelectlon 0f elther · Are mutually · Gources · mixing nethomkg · cepresged_ · spprooriate · mizin busas, · nethorks · ATTERUATOF
+- **Title block:** (195, 20)–(432, 270) mm: WBS · cepresged_ · spprooriate · mizin busas, · nethorks · ATTERUATOF · uctlvated · chenrala buing · moved onto · Cpcue · Ell · iitch · 'oshe · shltch · related · ISSUL Date · WBS WVARD-Beck systems ·
+
+Every curve, box, word and wire group: [19xx - DOC - 90-04-017 - PROGRAA CHUNNE THE BUILT-IN DAY LAMP (traced).json](19xx%20-%20DOC%20-%2090-04-017%20-%20PROGRAA%20CHUNNE%20THE%20BUILT-IN%20DAY%20LAMP%20%28traced%29.json) (the CAD file: `19xx - DOC - 90-04-017 - PROGRAA CHUNNE THE BUILT-IN DAY LAMP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 17 words corrected)

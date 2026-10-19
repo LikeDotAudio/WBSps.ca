@@ -11,6 +11,18 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 867,141 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 12-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 6–429 mm up
+- **Outlines:** line 201 rings, 2,790 straight (4,995 mm) / 385 curved (516 mm); text 270 rings, 1,782 straight (1,784 mm) / 624 curved (859 mm)
+- **Centre lines:** 2,423 paths (67 closed); straight 3,834 mm, curved 57.6 mm; horizontal 903 mm, vertical 1,651 mm, diagonal 1,280 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 1.2 @ (281.0, 54.4), r 0.9 @ (15.5, 98.4)
+- **Words (OCR):** 43 in 43 lines: Pi-i · P1-2 · 5A1L-066 · PI-J · SPLiTteR · NETwoRK · PI-5 · P1-6 · Pz-1 · P2-2 · 541L-066 · Pz-J
+- **Wiring (first pass):** 33 connected wire groups from 102 runs; labelled ends: 57 mm → P2-6; 41 mm → PI-8; 34 mm → P1-6; 34 mm → P2-14; 34 mm → Pz-1
+
+Every curve, box, word and wire group: [1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC (traced).json](1983%20-%20M612A%20-%2012-02-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

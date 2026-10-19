@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 38,183,581 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 2,003 rings, 16,827 straight (35,692 mm) / 2,379 curved (2,849 mm); text 106 rings, 682 straight (590 mm) / 196 curved (234 mm); tb 28 rings, 193 straight (203 mm) / 34 curved (40.2 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 0.7 @ (55.3, 106.6), r 0.7 @ (385.6, 266.0), r 0.7 @ (383.1, 54.2)
+- **Closed boxes:** 352 (4 in the title block); named: 31106-04-003/3
+- **Dots (junctions):** 4
+- **Words (OCR):** 14 in 13 lines: LEGEND · ROW · FicaL · STRAP · L/cs · ALHLRSE · SOUACE · hor4al · HORMAL · CLIENI · Iil · WBS WARD-BeCk syeteMS
+- **Title block:** (359, 19)–(432, 34) mm: WBS WARD-BeCk syeteMS
+
+Every curve, box, word and wire group: [1977 - WSVN - 31106-04-003 - RED RESUBMITTAL FEQUIRED RESUBMITTAL NOTREQUIRED CLIENT (traced).json](1977%20-%20WSVN%20-%2031106-04-003%20-%20RED%20RESUBMITTAL%20FEQUIRED%20RESUBMITTAL%20NOTREQUIRED%20CLIENT%20%28traced%29.json) (the CAD file: `1977 - WSVN - 31106-04-003 - RED RESUBMITTAL FEQUIRED RESUBMITTAL NOTREQUIRED CLIENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

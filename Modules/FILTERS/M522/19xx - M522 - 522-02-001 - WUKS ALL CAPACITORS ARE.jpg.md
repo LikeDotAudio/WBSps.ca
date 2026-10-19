@@ -11,6 +11,19 @@ Wiki page: [M522](../../../PAGES/M522.md)
 - **Size:** 417,131 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 522-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 12–364 mm up
+- **Outlines:** line 411 rings, 3,920 straight (6,203 mm) / 1,066 curved (1,237 mm); text 185 rings, 1,344 straight (1,468 mm) / 423 curved (582 mm); tb 2 rings, 58 straight (145 mm) / 6 curved (9.1 mm)
+- **Centre lines:** 4,552 paths (81 closed); straight 4,703 mm, curved 78.6 mm; horizontal 1,636 mm, vertical 1,135 mm, diagonal 1,932 mm
+- **Circles and arcs:** 2 circles, 24 arcs; largest r 2.4 @ (197.8, 204.5), r 0.7 @ (152.0, 278.1)
+- **Words (OCR):** 26 in 25 lines: OUTPUT · enoo] · cUT BOOST · cut/boost · 1/J5 · SHELF · LhajIh · 504"8 · 0_012 · 0047 · 0.7 khz-15 · FLU-IIO
+- **Title block:** (212, 45)–(338, 70) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 45 connected wire groups from 334 runs; labelled ends: 124 mm → cut/boost, enoo]; 112 mm → enoo]; 84 mm → enoo]; 83 mm → cUT BOOST; 64 mm → LhajIh
+
+Every curve, box, word and wire group: [19xx - M522 - 522-02-001 - WUKS ALL CAPACITORS ARE (traced).json](19xx%20-%20M522%20-%20522-02-001%20-%20WUKS%20ALL%20CAPACITORS%20ARE%20%28traced%29.json) (the CAD file: `19xx - M522 - 522-02-001 - WUKS ALL CAPACITORS ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M568N](../../../PAGES/M568N.md)
 - **Size:** 7,055,632 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 568-01-013, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 3–286 mm up
+- **Outlines:** line 184 rings, 1,534 straight (2,947 mm) / 362 curved (476 mm); text 45 rings, 261 straight (253 mm) / 99 curved (128 mm)
+- **Centre lines:** 1,400 paths (35 closed); straight 1,655 mm, curved 102 mm; horizontal 643 mm, vertical 417 mm, diagonal 595 mm
+- **Circles and arcs:** 4 circles, 26 arcs; largest r 1.2 @ (409.5, 30.7), r 1.1 @ (398.3, 12.6), r 1.0 @ (404.6, 12.6), r 0.8 @ (286.2, 169.4)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 28 connected wire groups from 117 runs
+
+Every curve, box, word and wire group: [19xx - M568N - 568-01-013 - ASSIGNMENT MODULE FUNCTIONAL (traced).json](19xx%20-%20M568N%20-%20568-01-013%20-%20ASSIGNMENT%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - M568N - 568-01-013 - ASSIGNMENT MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

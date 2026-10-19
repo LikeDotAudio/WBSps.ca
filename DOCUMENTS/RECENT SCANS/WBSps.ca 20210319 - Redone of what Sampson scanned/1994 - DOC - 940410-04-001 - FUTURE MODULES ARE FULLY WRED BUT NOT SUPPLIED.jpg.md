@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,210,615 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940410-04-001, size B (assumed) 432 × 345 mm, 2000 × 1597 px traced (0.216 mm/px); scale DISC NO: 475
+- **Ink extent:** 12–423 mm across, 3–345 mm up
+- **Outlines:** line 1,644 rings, 12,278 straight (37,437 mm) / 1,618 curved (2,177 mm); text 621 rings, 3,970 straight (4,335 mm) / 1,311 curved (1,752 mm); tb 18 rings, 400 straight (2,018 mm) / 5 curved (8.9 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 7.1 @ (369.9, 112.9), r 7.0 @ (370.5, 140.9), r 2.1 @ (372.8, 143.5), r 2.0 @ (372.4, 115.5)
+- **Closed boxes:** 191; named: M9OSB; HEADPHONES GueS Mue STUDIO; HEADPHONES MON MUE STUDIO; TNKBUrcjo IFUTURE)
+- **Dots (junctions):** 33
+- **Words (OCR):** 111 in 74 lines: METER · CH · CH · CH 3 · CH 4 · CH 5 · CH 6 · CH 7 CH · CH · CH 10 CH 11 CH 12 CH 13 CH 14 · CH 15 CH 16 · CR MONSTD MON
+- **Title block:** (285, 7)–(430, 68) mm: lISSUE · REVISION · APP · WBS WARD-BECK  SYSTEMS · DRN: SM · CJIB · ENG. SM · RENAISSANCE MKII · CKD: · APP · CONSOLE LAYOUT · SCALE DISC NO: 475 · 940410-04-001 · ISSUE · CODE: 94410L.01
+
+Every curve, box, word and wire group: [1994 - DOC - 940410-04-001 - FUTURE MODULES ARE FULLY WRED BUT NOT SUPPLIED (traced).json](1994%20-%20DOC%20-%20940410-04-001%20-%20FUTURE%20MODULES%20ARE%20FULLY%20WRED%20BUT%20NOT%20SUPPLIED%20%28traced%29.json) (the CAD file: `1994 - DOC - 940410-04-001 - FUTURE MODULES ARE FULLY WRED BUT NOT SUPPLIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

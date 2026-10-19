@@ -11,6 +11,17 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 546,279 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-017, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 297 rings, 5,593 straight (8,916 mm) / 889 curved (1,021 mm); text 405 rings, 3,735 straight (4,894 mm) / 857 curved (1,364 mm); tb 32 rings, 306 straight (455 mm) / 39 curved (49.7 mm)
+- **Closed boxes:** 53 (6 in the title block); named: 0/4; F16; Ki9; 10; Ni2; Pl13; R/14; sh15; T/16; U/17; vl18; wlig
+- **Words (OCR):** 86 in 60 lines: P2 · Al 1 LINE in · B| 2 · NC · c|3 LINE · IN · 0/4 NC · El5 · INSERT · F16 INSERT · NSERT · INSERT
+- **Title block:** (120, 10)–(336, 112) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN. PA 82 · M4goh · ENG PA · LINE INPUT MODULE · CONNECTOR REAR VIEW · CKD · APP · SCALE · ISSUE · 490-04-017
+
+Every curve, box, word and wire group: [1978 - M490H - 490-04-017 - LINE INPUT MODULE (traced).json](1978%20-%20M490H%20-%20490-04-017%20-%20LINE%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-04-017 - LINE INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

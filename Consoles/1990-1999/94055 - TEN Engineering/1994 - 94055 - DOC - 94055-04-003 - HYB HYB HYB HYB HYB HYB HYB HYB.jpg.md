@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,140,438 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94055-04-003, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 62–422 mm across, 6–230 mm up
+- **Outlines:** line 1,818 rings, 9,173 straight (20,075 mm) / 1,421 curved (2,124 mm); text 94 rings, 578 straight (665 mm) / 190 curved (260 mm); tb 20 rings, 164 straight (182 mm) / 30 curved (33.9 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 2.2 @ (181.3, 210.1), r 2.2 @ (258.6, 219.4), r 2.2 @ (224.3, 210.5), r 2.2 @ (233.6, 98.9)
+- **Closed boxes:** 269 (3 in the title block); named: TEN   ENGINEERING ASSIGNMENT CONTROL PAN; 94055-04-003
+- **Dots (junctions):** 15
+- **Words (OCR):** 7 in 7 lines: 12.25 · WBS · WARD-BECK SYSTEMS · TEN   ENGINEERING · ASSIGNMENT CONTROL PANEL · AYOUT · 94055-04-003
+- **Title block:** (344, 22)–(428, 39) mm: WBS · WARD-BECK SYSTEMS · TEN   ENGINEERING
+
+Every curve, box, word and wire group: [1994 - 94055 - DOC - 94055-04-003 - HYB HYB HYB HYB HYB HYB HYB HYB (traced).json](1994%20-%2094055%20-%20DOC%20-%2094055-04-003%20-%20HYB%20HYB%20HYB%20HYB%20HYB%20HYB%20HYB%20HYB%20%28traced%29.json) (the CAD file: `1994 - 94055 - DOC - 94055-04-003 - HYB HYB HYB HYB HYB HYB HYB HYB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

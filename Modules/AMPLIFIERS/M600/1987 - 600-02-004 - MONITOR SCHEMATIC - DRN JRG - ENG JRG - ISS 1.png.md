@@ -23,6 +23,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 3,094,398 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 3–432 mm across, 0–285 mm up
+- **Outlines:** line 169 rings, 2,967 straight (7,995 mm) / 381 curved (615 mm); text 749 rings, 4,716 straight (5,587 mm) / 1,436 curved (2,107 mm); tb 3 rings, 97 straight (204 mm) / 2 curved (3.2 mm)
+- **Centre lines:** 5,417 paths (134 closed); straight 7,984 mm, curved 349 mm; horizontal 3,227 mm, vertical 2,080 mm, diagonal 2,676 mm
+- **Circles and arcs:** 14 circles, 46 arcs; largest r 1.4 @ (254.8, 148.2), r 1.4 @ (255.2, 115.6), r 1.4 @ (255.1, 122.2), r 1.4 @ (95.6, 108.6)
+- **Closed boxes:** 11 (8 in the title block); named: M495 MONITOR MODULE; SCALE; CODE: 600S04
+- **Words (OCR):** 120 in 96 lines: JUMPER · To · MONITOR · 2 (SEE NOTE 2) · MONITOR CHANNEL · TB1 · R 130,131 · EXT MON (132) · 2,8 · 28 · 3,C · L127,128
+- **Title block:** (270, 16)–(432, 85) mm: APP · ISSUE DATE · REVISION · WBS · WARD-BECK · SYSTEMS · DRN.JRG 02/87 · MONITOR · ENG La · SCHEMATIC · CKD · APP_ · ISSUE · SCALE DISC NO: 130 · 600-02-004 · CODE: 600S04
+- **Wiring (first pass):** 40 connected wire groups from 250 runs; labelled ends: 841 mm → MONITOR CHANNEL, TB2, 88,89 R, 94,95; 205 mm → MONITOR CHANNEL, MONITOR, 8J, 10; 136 mm → 600-02-004; 80 mm → 3.C, L127,128, (129), MONO; 68 mm → MONO
+
+Every curve, box, word and wire group: [1987 - 600-02-004 - MONITOR SCHEMATIC - DRN JRG - ENG JRG - ISS 1 (traced).json](1987%20-%20600-02-004%20-%20MONITOR%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 600-02-004 - MONITOR SCHEMATIC - DRN JRG - ENG JRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

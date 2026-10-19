@@ -23,6 +23,19 @@ Tall digital schematic with title block at right reading sideways.
 - **Size:** 5,140,268 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5-140-02-001, size B 432 × 203 mm, 2000 × 940 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–432 mm across, 22–164 mm up
+- **Outlines:** line 1,608 rings, 16,601 straight (28,148 mm) / 3,373 curved (3,774 mm); text 71 rings, 519 straight (403 mm) / 152 curved (169 mm)
+- **Centre lines:** 21,508 paths (405 closed); straight 17,755 mm, curved 106 mm; horizontal 7,452 mm, vertical 5,076 mm, diagonal 5,227 mm
+- **Circles and arcs:** 2 circles, 28 arcs; largest r 1.3 @ (398.2, 29.4), r 0.7 @ (40.8, 82.3)
+- **Closed boxes:** 124
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 141 connected wire groups from 1,746 runs
+
+Every curve, box, word and wire group: [1976 - 5-140-02-001 - REMOTE TURRET MUX SCHEMATIC - DRN DM - ISS 1 (traced).json](1976%20-%205-140-02-001%20-%20REMOTE%20TURRET%20MUX%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 5-140-02-001 - REMOTE TURRET MUX SCHEMATIC - DRN DM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

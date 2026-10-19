@@ -22,6 +22,20 @@ Wiki page: [Job-920306](../../../PAGES/Job-920306.md)
 - **Size:** 715,965 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920306-01-001, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 0–863 mm across, 1–545 mm up
+- **Outlines:** line 711 rings, 5,354 straight (27,683 mm) / 954 curved (2,414 mm); text 1,109 rings, 8,217 straight (13,966 mm) / 2,313 curved (5,461 mm); tb 28 rings, 281 straight (2,425 mm) / 19 curved (46.4 mm)
+- **Centre lines:** 20,500 paths (410 closed); straight 27,432 mm, curved 53.1 mm; horizontal 9,372 mm, vertical 7,545 mm, diagonal 10,515 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 136 (1 in the title block); named: PGM; PCM; PGM; PGM; AUX; AUX; CUE; PGM 1-R; PGH; PGM; PGK 2 R; AUX
+- **Words (OCR):** 218 in 199 lines: CONSOLE SUMMING BUSES · PCM PGM · AUX CUE · MC_INPUL CHANNELS · PROGRAM STREQ_QUTPUIS · PCM · MIC INPUTS · INSERTS · PGM · PGM · INSERTS · PROGRAM
+- **Title block:** (676, 11)–(861, 88) mm: SSUEI · REYSIY · APP. · WBS WARD-BECK SYSTEMS · DRN: · ENG. · RADIO CONSOLE · CJMJ_FM · CKD_ · AUDIO_FUNCTIONAL · APP_ · SCALE DISC NO: · ISSUE · CODE: 92306F01 · 920306-01-001
+- **Wiring (first pass):** 220 connected wire groups from 891 runs; labelled ends: 3744 mm → PCM, PGM, AUX, CUE; 191 mm → INSERTS; 107 mm → MONQ; 81 mm → METER INPUTS +8 dBm; 600 OhMS; 42 mm → INSERTS
+
+Every curve, box, word and wire group: [1992 - 920306-01-001 - CJMJ-FM RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).json](1992%20-%20920306-01-001%20-%20CJMJ-FM%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1992 - 920306-01-001 - CJMJ-FM RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 19 words corrected)

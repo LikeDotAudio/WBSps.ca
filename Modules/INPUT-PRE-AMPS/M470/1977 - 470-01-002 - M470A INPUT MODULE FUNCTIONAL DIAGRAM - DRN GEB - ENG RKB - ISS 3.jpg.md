@@ -29,6 +29,20 @@ Wiki page: [M470](../../../PAGES/M470.md)
 
 - **1977** (labelled): `REVISION 10/77` — …IBRATION PEAK indicAToR PFL 11/17 DC CONTROLS ADDED REDRAWN REVISION 10/77 JISSUE |DATE WBS WARD-BECK SYSTEMS DRN: GEB ENG RKB CKD "Ji…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 470-01-002, size B 432 × 284 mm, 1609 × 1057 px traced (0.268 mm/px)
+- **Ink extent:** 0–432 mm across, 1–284 mm up
+- **Outlines:** line 415 rings, 4,871 straight (14,251 mm) / 622 curved (938 mm); text 642 rings, 3,891 straight (4,845 mm) / 1,324 curved (2,209 mm); tb 20 rings, 172 straight (367 mm) / 32 curved (58.0 mm)
+- **Centre lines:** 6,882 paths (126 closed); straight 10,756 mm, curved 103 mm; horizontal 4,264 mm, vertical 2,664 mm, diagonal 3,829 mm
+- **Circles and arcs:** 4 circles, 11 arcs; largest r 3.4 @ (220.1, 199.2), r 3.3 @ (179.6, 198.8), r 3.2 @ (241.9, 93.1), r 1.1 @ (388.9, 271.6)
+- **Closed boxes:** 21 (8 in the title block); named: 11/77; 470-01-002; SCALE
+- **Words (OCR):** 104 in 98 lines: SELECTOR · Mic/liNe · Mic · input · SUB · dBm BRIDGING · 60/-10 dBm · CTL Com · 150 Ohms · MSTR · 51 · CTL Com
+- **Title block:** (287, 4)–(432, 79) mm: 11/77 · DC · 10/77 · REDRAWN · ISSUE |DATE · REVISION · APF · WBS · WARD-BECK SYSTEMS · DRN: GEB · M4zOA · ENG RKB · INPUT MODULE · FUNCTIONAL · DIAGRAM · APP · SCALE · ISSUE · 470-01-002
+- **Wiring (first pass):** 221 connected wire groups from 535 runs; labelled ends: 279 mm → BST; 164 mm → CONTROL; 89 mm → INSERT; 58 mm → PAN; 57 mm → CONTROLS ADDED, DC
+
+Every curve, box, word and wire group: [1977 - 470-01-002 - M470A INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG RKB - ISS 3 (traced).json](1977%20-%20470-01-002%20-%20M470A%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1977 - 470-01-002 - M470A INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG RKB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

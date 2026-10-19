@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,300,069 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960296-03-006, size B (assumed) 432 × 281 mm, 2000 × 1303 px traced (0.216 mm/px)
+- **Ink extent:** 31–418 mm across, 4–253 mm up
+- **Outlines:** line 1,298 rings, 8,716 straight (18,874 mm) / 1,911 curved (2,346 mm); text 305 rings, 1,729 straight (1,466 mm) / 514 curved (627 mm); tb 51 rings, 393 straight (357 mm) / 81 curved (94.1 mm)
+- **Centre lines:** 10,773 paths (393 closed); straight 12,159 mm, curved 152 mm; horizontal 6,032 mm, vertical 2,602 mm, diagonal 3,524 mm
+- **Circles and arcs:** 5 circles, 18 arcs; largest r 6.3 @ (102.0, 212.7), r 5.1 @ (235.0, 195.7), r 4.9 @ (100.1, 114.5), r 2.8 @ (256.9, 215.3)
+- **Closed boxes:** 35 (11 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 44 in 41 lines: DETAIL · ACOD · Djoc · 7.050 · 0 s0l · 950255-0X-036-I PANEI · PITCEC · DETAL · UATERAL · 17 Crit · 10,350 · 822888
+- **Title block:** (335, 2)–(423, 37) mm: WB3S · WARD-BECK SYSTEMS · TECH /PROD · PANEL · SCALE · 960296-03-006
+
+Every curve, box, word and wire group: [1996 - 960296 - DOC - 960296-03-006 - NOTES RENOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1996%20-%20960296%20-%20DOC%20-%20960296-03-006%20-%20NOTES%20RENOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1996 - 960296 - DOC - 960296-03-006 - NOTES RENOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

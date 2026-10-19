@@ -22,6 +22,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,595,012 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 790236-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 1,059 rings, 11,930 straight (17,190 mm) / 1,654 curved (2,243 mm); text 940 rings, 5,793 straight (5,906 mm) / 1,620 curved (2,144 mm); tb 28 rings, 218 straight (336 mm) / 11 curved (18.8 mm)
+- **Centre lines:** 16,294 paths (122 closed); straight 14,219 mm, curved 483 mm; horizontal 5,563 mm, vertical 3,394 mm, diagonal 5,262 mm
+- **Circles and arcs:** 12 circles, 73 arcs; largest r 4.2 @ (340.2, 170.5), r 4.1 @ (233.3, 186.3), r 1.3 @ (256.1, 203.2), r 1.3 @ (308.6, 88.7)
+- **Closed boxes:** 43 (29 in the title block); named: WBS LTD WAAD-BECK sysTeMs; CONSCLE L3242A iNPUT Sub E TAStER CHANNE; FIMISH; 790236 02-001; ISS_
+- **Dots (junctions):** 1
+- **Words (OCR):** 155 in 126 lines: (~vc 1 4-33 ) LINE Key · Mz · 4+24v · Pke · Te4 · RD · (~Erm) · OFF · 36 · MASTER CHANNEL · (Mi) · 784
+- **Title block:** (141, 29)–(415, 81) mm: ISS MOD ICKD. · USED ON · MATL . · WBS WAAD-BECK sysTeMs · DRN · Srh · L3242A · CONSCLE · FIMISH · DATE 4va.4/79 · iNPUT Sub E TAStER CHANNELS · CKD · KC · SCALE · SCHEMATIC · TOLS · 790236 02-001 · I
+- **Wiring (first pass):** 129 connected wire groups from 711 runs; labelled ends: 159 mm → TOLS; 154 mm → TOLS; 96 mm → MASTER, 18, FADER, (~-iSdB); 85 mm → 20, Com; 64 mm → edE ra, (2O
+
+Every curve, box, word and wire group: [1979 - 790236-02-001 - L3242A CONSOLE INPUT, SUB & MASTER CHANNELS SCHEMATIC - DRN SRH - ISS 2 (2) (traced).json](1979%20-%20790236-02-001%20-%20L3242A%20CONSOLE%20INPUT%2C%20SUB%20%26%20MASTER%20CHANNELS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `1979 - 790236-02-001 - L3242A CONSOLE INPUT, SUB & MASTER CHANNELS SCHEMATIC - DRN SRH - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

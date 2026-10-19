@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,876,593 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 2442-02-013, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 5–432 mm across, 13–286 mm up
+- **Outlines:** line 342 rings, 2,788 straight (6,057 mm) / 513 curved (768 mm); text 153 rings, 935 straight (1,154 mm) / 268 curved (396 mm)
+- **Centre lines:** 2,075 paths (40 closed); straight 3,891 mm, curved 129 mm; horizontal 1,858 mm, vertical 902 mm, diagonal 1,130 mm
+- **Circles and arcs:** 7 circles, 25 arcs; largest r 3.5 @ (9.5, 142.5), r 3.5 @ (9.3, 32.4), r 1.3 @ (107.4, 159.6), r 1.3 @ (97.5, 164.3)
+- **Closed boxes:** 11
+- **Wiring (first pass):** 39 connected wire groups from 307 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 2442-02-013 - OVERLOAD SCHEMA TIC (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-02-013%20-%20OVERLOAD%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 2442-02-013 - OVERLOAD SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

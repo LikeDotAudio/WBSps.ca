@@ -20,6 +20,19 @@ SA14-096 display assembly schematic, title block at bottom left reading sideways
 - **Size:** 4,713,689 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-089-02-001, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–264 mm across, 7–429 mm up
+- **Outlines:** line 421 rings, 3,772 straight (9,779 mm) / 762 curved (973 mm); text 302 rings, 1,718 straight (1,802 mm) / 596 curved (824 mm)
+- **Centre lines:** 3,621 paths (90 closed); straight 6,439 mm, curved 136 mm; horizontal 1,536 mm, vertical 3,356 mm, diagonal 1,547 mm
+- **Circles and arcs:** 6 circles, 31 arcs; largest r 1.2 @ (73.5, 387.1), r 1.2 @ (92.4, 256.5), r 1.2 @ (119.8, 388.7), r 1.1 @ (119.8, 379.0)
+- **Closed boxes:** 20; named: 4,5 8,9 10,11; 8,9 10,11; 10,11
+- **Words (OCR):** 14 in 14 lines: U N · 22,23 · 88 · 10.11 · 22,23 · 4,5 · 52 · 8,9 · 10,11 · 22,23 · 8,9 · 10,11
+- **Wiring (first pass):** 8 connected wire groups from 370 runs; labelled ends: 3073 mm → 10.11; 66 mm → 88; 64 mm → 88; 23 mm → U N; 10 mm → 52
+
+Every curve, box, word and wire group: [19xx - 14-089-02-001 - SA14-089 DISPLAY READOUT ASSEMBLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-089-02-001%20-%20SA14-089%20DISPLAY%20READOUT%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-089-02-001 - SA14-089 DISPLAY READOUT ASSEMBLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

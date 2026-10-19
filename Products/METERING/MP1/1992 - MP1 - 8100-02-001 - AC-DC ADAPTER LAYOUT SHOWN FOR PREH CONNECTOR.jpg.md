@@ -11,6 +11,19 @@ Wiki page: [MP1](../../../PAGES/MP1.md)
 - **Size:** 1,239,561 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8100-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–339 mm across, 39–407 mm up
+- **Outlines:** line 278 rings, 4,263 straight (12,928 mm) / 523 curved (1,189 mm); text 204 rings, 1,628 straight (2,152 mm) / 462 curved (719 mm)
+- **Centre lines:** 3,011 paths (40 closed); straight 7,851 mm, curved 694 mm; horizontal 3,374 mm, vertical 2,769 mm, diagonal 1,709 mm
+- **Circles and arcs:** 24 circles, 28 arcs; largest r 15.9 @ (137.4, 56.5), r 12.9 @ (137.5, 56.4), r 10.8 @ (137.3, 56.6), r 9.3 @ (137.5, 56.3)
+- **Closed boxes:** 22; named: AC/Dc ADAPTER
+- **Words (OCR):** 28 in 20 lines: M433 PPM · M435 VU · M433L · P1-1 · 10 · P1-2 · 10 · P1-2 · +24v · COMMON · 0.75A · FB
+- **Wiring (first pass):** 134 connected wire groups from 394 runs; labelled ends: 523 mm → P1-2; 195 mm → AC/Dc; 68 mm → FOR, PREH; 59 mm → P1-2; 50 mm → PREH
+
+Every curve, box, word and wire group: [1992 - MP1 - 8100-02-001 - AC-DC ADAPTER LAYOUT SHOWN FOR PREH CONNECTOR (traced).json](1992%20-%20MP1%20-%208100-02-001%20-%20AC-DC%20ADAPTER%20LAYOUT%20SHOWN%20FOR%20PREH%20CONNECTOR%20%28traced%29.json) (the CAD file: `1992 - MP1 - 8100-02-001 - AC-DC ADAPTER LAYOUT SHOWN FOR PREH CONNECTOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

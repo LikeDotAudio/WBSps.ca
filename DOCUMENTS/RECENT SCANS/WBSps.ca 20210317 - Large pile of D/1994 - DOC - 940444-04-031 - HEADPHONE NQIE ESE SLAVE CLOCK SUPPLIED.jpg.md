@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,459,498 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940444-04-031, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 114–409 mm across, 7–185 mm up
+- **Outlines:** line 215 rings, 1,756 straight (9,434 mm) / 213 curved (250 mm); text 101 rings, 643 straight (726 mm) / 184 curved (244 mm); tb 18 rings, 157 straight (177 mm) / 32 curved (38.6 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (276.3, 98.2)
+- **Closed boxes:** 33 (2 in the title block); named: 2200 444; 2200; WBZUBOSTON PSSFNCE RENAL MKI; 940444 031
+- **Words (OCR):** 12 in 10 lines: 2200 · 444 · cloc; · WBS WARD- · BECK   SYSTEMS · WBZUBOSTON · RENAL · PSSFNCE MKI · 940444 · 031
+- **Title block:** (330, 23)–(415, 39) mm: WBS WARD- · BECK   SYSTEMS · WBZUBOSTON
+
+Every curve, box, word and wire group: [1994 - DOC - 940444-04-031 - HEADPHONE NQIE ESE SLAVE CLOCK SUPPLIED (traced).json](1994%20-%20DOC%20-%20940444-04-031%20-%20HEADPHONE%20NQIE%20ESE%20SLAVE%20CLOCK%20SUPPLIED%20%28traced%29.json) (the CAD file: `1994 - DOC - 940444-04-031 - HEADPHONE NQIE ESE SLAVE CLOCK SUPPLIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

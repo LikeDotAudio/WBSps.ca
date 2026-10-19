@@ -23,6 +23,20 @@ Front panel and cutout drawing of the controller monitor module.
 - **Size:** 550,480 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 905-03-001, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 0–863 mm across, 0–560 mm up
+- **Outlines:** line 820 rings, 7,033 straight (26,477 mm) / 1,320 curved (4,666 mm); text 364 rings, 2,139 straight (4,040 mm) / 657 curved (1,673 mm); tb 98 rings, 608 straight (1,096 mm) / 193 curved (468 mm)
+- **Centre lines:** 13,104 paths (258 closed); straight 20,200 mm, curved 1,546 mm; horizontal 5,182 mm, vertical 6,413 mm, diagonal 8,606 mm
+- **Circles and arcs:** 25 circles, 13 arcs; largest r 128.3 @ (712.2, 379.5), r 14.8 @ (418.7, 200.7), r 14.7 @ (416.3, 135.4), r 6.4 @ (225.2, 439.8)
+- **Closed boxes:** 55 (2 in the title block)
+- **Dots (junctions):** 2
+- **Words (OCR):** 43 in 38 lines: 5 3 3 · 900,1 · REO D · DAM · PUNCT · (002 RAD · 7014 · "0236 · 0,070 · 0.07) · 6 010 · 4647
+- **Title block:** (676, 46)–(852, 274) mm: TSCALE · DETAIL · MATERIAL: ALUM ALLOY 0.125 THICK · FINISH: SAND 120 GRIT AND PAINT · TEXTURED   BEICE (452C) · TEXCOTE MNYL · (EXTRA  FINE   TEXTURE) · MOLRASCLS · WESI WARD-BECK SYSTEMS · M9O5A
+
+Every curve, box, word and wire group: [19xx - 905-03-001 - CONTROLLER MONITOR MODULE - DRN DRG - ISS 6 (traced).json](19xx%20-%20905-03-001%20-%20CONTROLLER%20MONITOR%20MODULE%20-%20DRN%20DRG%20-%20ISS%206%20%28traced%29.json) (the CAD file: `19xx - 905-03-001 - CONTROLLER MONITOR MODULE - DRN DRG - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

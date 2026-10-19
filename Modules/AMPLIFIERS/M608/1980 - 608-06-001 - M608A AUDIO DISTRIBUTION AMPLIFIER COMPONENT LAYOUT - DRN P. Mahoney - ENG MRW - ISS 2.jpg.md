@@ -25,6 +25,17 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 2,407,115 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 608-06-001, size B 432 × 279 mm, 2000 × 1292 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–278 mm up
+- **Outlines:** line 1,111 rings, 9,254 straight (17,326 mm) / 1,640 curved (1,597 mm); text 201 rings, 1,343 straight (1,208 mm) / 416 curved (471 mm); tb 50 rings, 326 straight (326 mm) / 105 curved (108 mm)
+- **Closed boxes:** 17 (17 in the title block)
+- **Words (OCR):** 31 in 27 lines: 14-017A - · T2o3 · 204 · T201 · T202 · R12 · R23 · R41 · 8-116 · R2o1 · TP · 10/80
+- **Title block:** (334, 1)–(432, 47) mm: 10/80 · 3725 · ISSUE DATE · WBS WAAD · BECk systeMS · DRNRE · M608A · AUDIO   DISTRIBUTION AMPLIFIER · COMPONENT LAYOUT · SCALE · ISSUE · 608-06 001
+
+Every curve, box, word and wire group: [1980 - 608-06-001 - M608A AUDIO DISTRIBUTION AMPLIFIER COMPONENT LAYOUT - DRN P. Mahoney - ENG MRW - ISS 2 (traced).json](1980%20-%20608-06-001%20-%20M608A%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1980 - 608-06-001 - M608A AUDIO DISTRIBUTION AMPLIFIER COMPONENT LAYOUT - DRN P. Mahoney - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

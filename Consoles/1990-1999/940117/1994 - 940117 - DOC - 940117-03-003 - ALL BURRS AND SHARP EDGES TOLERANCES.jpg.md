@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,869,548 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940117-03-003, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 1–422 mm across, 7–279 mm up
+- **Outlines:** line 597 rings, 4,709 straight (11,667 mm) / 712 curved (839 mm); text 257 rings, 1,504 straight (1,452 mm) / 495 curved (623 mm); tb 21 rings, 176 straight (194 mm) / 34 curved (46.4 mm)
+- **Centre lines:** 6,550 paths (175 closed); straight 7,774 mm, curved 35.7 mm; horizontal 2,901 mm, vertical 2,891 mm, diagonal 1,982 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 85 (4 in the title block); named: MK SERIES CONNECTOR PANEL; 940117-03-003
+- **Words (OCR):** 29 in 24 lines: CETAIL · DETAIL · DETAL · RECTD · 0125RE80-Full · REOOCORDNGLY · PITCHES OF 1.,750 · MATERIAL: CR.S: 0.059 ThiCK · 0.36 · 0 JEO · FINISH: SAND 120 Grit AND PAINT · TEXTURED BROWN (438C)
+- **Title block:** (342, 23)–(427, 39) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940117 - DOC - 940117-03-003 - ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20940117%20-%20DOC%20-%20940117-03-003%20-%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - 940117 - DOC - 940117-03-003 - ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

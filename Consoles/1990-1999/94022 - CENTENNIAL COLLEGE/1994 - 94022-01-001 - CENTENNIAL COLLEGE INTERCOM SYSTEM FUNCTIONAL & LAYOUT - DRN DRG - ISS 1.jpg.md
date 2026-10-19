@@ -22,6 +22,20 @@ Wiki page: [Job-94022](../../../PAGES/Job-94022.md)
 - **Size:** 644,102 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 94022-01-001, size D 864 × 555 mm, 2000 × 1285 px traced (0.432 mm/px)
+- **Ink extent:** 65–860 mm across, 13–443 mm up
+- **Outlines:** line 842 rings, 5,966 straight (27,312 mm) / 876 curved (2,182 mm); text 118 rings, 883 straight (2,065 mm) / 237 curved (631 mm); tb 14 rings, 153 straight (348 mm) / 33 curved (69.5 mm)
+- **Centre lines:** 12,893 paths (140 closed); straight 18,897 mm, curved 304 mm; horizontal 6,518 mm, vertical 6,903 mm, diagonal 5,476 mm
+- **Circles and arcs:** 0 circles, 36 arcs
+- **Closed boxes:** 55 (3 in the title block); named: COLLEGE CENTENNIAL SYSTEM INTERCOM LAYOU; 001 94022-01
+- **Words (OCR):** 15 in 15 lines: SYSIM LAYQUI · IPH4D · NQIES; · cuppi · SYSTEM_EUNCTIONAL · WARD-BECK SYSTEMS · WBS) · CENTENNIAL · COLLEGE · INTERCOM · SYSTEM · FUNCTIONAL
+- **Title block:** (683, 44)–(851, 80) mm: WARD-BECK SYSTEMS · WBS) · CENTENNIAL · COLLEGE
+- **Wiring (first pass):** 278 connected wire groups from 1,496 runs; labelled ends: 106 mm → LAYOUT, 001, FUNCTIONAL, 94022-01; 32 mm → FUNCTIONAL; 15 mm → WBS); 8 mm → NQIES;; 5 mm → IPH4D
+
+Every curve, box, word and wire group: [1994 - 94022-01-001 - CENTENNIAL COLLEGE INTERCOM SYSTEM FUNCTIONAL & LAYOUT - DRN DRG - ISS 1 (traced).json](1994%20-%2094022-01-001%20-%20CENTENNIAL%20COLLEGE%20INTERCOM%20SYSTEM%20FUNCTIONAL%20%26%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94022-01-001 - CENTENNIAL COLLEGE INTERCOM SYSTEM FUNCTIONAL & LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -10,6 +10,16 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 5,989,155 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 76045-04-002, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 350 rings, 2,439 straight (3,749 mm) / 268 curved (364 mm); text 335 rings, 1,898 straight (1,948 mm) / 644 curved (875 mm)
+- **Dots (junctions):** 3
+- **Words (OCR):** 47 in 26 lines: 4 -LINE PRESELECTORS M478A · 4-L/c AND GR · METERS · M466 M466M · 6 - EQUALIZERS OR FILTERS · JACKFIELD (5 * 24) · MODULES M455 · 2 - AUX · PFL/CUE AMPLIFIER M453 · Monitor PANEL · OSCILLATOR M452 · OPTioNAL MACHINE CONTROL PANEL
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-04-002 - OPTIONAL MACHINE CONTROL PANEL (traced).json](1976%20-%2076045%20-%2076045-04-002%20-%20OPTIONAL%20MACHINE%20CONTROL%20PANEL%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-04-002 - OPTIONAL MACHINE CONTROL PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

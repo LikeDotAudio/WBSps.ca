@@ -22,6 +22,20 @@ Wiki page: [Job-950272](../../../PAGES/Job-950272.md)
 - **Size:** 396,940 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 950272-01-001, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 38–845 mm across, 16–559 mm up
+- **Outlines:** line 392 rings, 4,549 straight (23,437 mm) / 611 curved (1,497 mm); text 145 rings, 954 straight (1,858 mm) / 275 curved (704 mm); tb 47 rings, 351 straight (672 mm) / 86 curved (194 mm)
+- **Centre lines:** 6,922 paths (82 closed); straight 13,997 mm, curved 104 mm; horizontal 5,913 mm, vertical 4,195 mm, diagonal 3,888 mm
+- **Circles and arcs:** 2 circles, 11 arcs; largest r 6.7 @ (182.4, 494.4), r 1.6 @ (184.8, 238.1)
+- **Closed boxes:** 48 (12 in the title block); named: BASECNEATION; PLATUR
+- **Words (OCR):** 18 in 16 lines: BASECNEATION · SMIAL · PLATUR · Coxweu · EXCHANC? · DINLANDS · CASTE · TD'CE · WBS · WARD-BECK SYSTEMS · TTC DISPATCH · JACKFIELD POSITION
+- **Title block:** (679, 13)–(856, 80) mm: WBS · WARD-BECK SYSTEMS · TTC DISPATCH · JACKFIELD POSITION · FUNCTIONAL · SCALE · CCDE; 0527001 · 950272 01-001
+- **Wiring (first pass):** 186 connected wire groups from 944 runs; labelled ends: 81 mm → BASECNEATION; 71 mm → EXCHANC?; 34 mm → CASTE; 34 mm → CASTE; 32 mm → PLATUR
+
+Every curve, box, word and wire group: [1995 - 950272-01-001 - TTC DISPATCH -D- JACKFIELD POSITION FUNCTIONAL - DRN WKW - ENG WKW - ISS 2 (traced).json](1995%20-%20950272-01-001%20-%20TTC%20DISPATCH%20-D-%20JACKFIELD%20POSITION%20FUNCTIONAL%20-%20DRN%20WKW%20-%20ENG%20WKW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1995 - 950272-01-001 - TTC DISPATCH -D- JACKFIELD POSITION FUNCTIONAL - DRN WKW - ENG WKW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

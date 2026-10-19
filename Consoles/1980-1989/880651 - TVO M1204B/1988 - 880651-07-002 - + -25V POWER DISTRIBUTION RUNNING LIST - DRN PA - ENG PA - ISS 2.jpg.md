@@ -23,6 +23,16 @@ Hand-filled power distribution wiring list table, title block at right reading s
 - **Size:** 3,766,425 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** artwork B 880651-07-002, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 2–291 mm up
+- **Outlines:** line 1,061 rings, 16,546 straight (35,203 mm) / 4,488 curved (4,494 mm); text 490 rings, 4,171 straight (3,879 mm) / 1,297 curved (1,438 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.3 @ (407.1, 58.0), r 1.1 @ (394.4, 202.5)
+- **Closed boxes:** 231
+
+Every curve, box, word and wire group: [1988 - 880651-07-002 - + -25V POWER DISTRIBUTION RUNNING LIST - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%20880651-07-002%20-%20%2B%20-25V%20POWER%20DISTRIBUTION%20RUNNING%20LIST%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-07-002 - + -25V POWER DISTRIBUTION RUNNING LIST - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

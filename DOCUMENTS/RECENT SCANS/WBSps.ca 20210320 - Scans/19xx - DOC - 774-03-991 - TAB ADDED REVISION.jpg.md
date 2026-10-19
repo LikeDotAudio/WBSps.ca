@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,207,941 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 774-03-991, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale 1: 1
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 370 rings, 5,896 straight (12,905 mm) / 809 curved (1,171 mm); text 519 rings, 3,821 straight (4,568 mm) / 1,083 curved (1,668 mm); tb 23 rings, 268 straight (417 mm) / 45 curved (54.6 mm)
+- **Centre lines:** 10,185 paths (106 closed); straight 11,392 mm, curved 42.3 mm; horizontal 5,076 mm, vertical 2,252 mm, diagonal 4,063 mm
+- **Circles and arcs:** 1 circles, 9 arcs; largest r 1.5 @ (208.8, 51.6)
+- **Closed boxes:** 20 (8 in the title block); named: 2/3; As indicated; 4/81; 102 ADDED TAB
+- **Words (OCR):** 79 in 64 lines: 250 · E1.100 · DIA · 800 · 4130 · ExTRuDE HOLE TAP · 187 · 14-40 UNC ~2PLACES · 500 · 710 · 4.00 · 1.00
+- **Title block:** (278, 11)–(430, 78) mm: 4/81 · 102 TAB · ADDED · ISSUE DATE · REVISION · APP: · WBS WARD-BECK SYSTEMS · DRN: · ENG · Mru 4181 · M774 · HEATSINK · APP · Rai · SCALE 1: 1 · 774-03-001 · ISSUE · I.015 · XXX 1.005
+
+Every curve, box, word and wire group: [19xx - DOC - 774-03-991 - TAB ADDED REVISION (traced).json](19xx%20-%20DOC%20-%20774-03-991%20-%20TAB%20ADDED%20REVISION%20%28traced%29.json) (the CAD file: `19xx - DOC - 774-03-991 - TAB ADDED REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

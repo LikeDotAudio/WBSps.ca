@@ -1,0 +1,571 @@
+{
+ "code": "M456B",
+ "name": "Dual Mixdown Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 21,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "Ri77 isk M Pi-6 Ri7bISk M >Pi-F Ri7s 43v5K >P1-5 Riboisk W >PI-Ej Ribi JBMsk Pi-8 Ri82 'RzAsK Pi-J Ri83 245k _ >PI-7 Ri84 ISk >pi-H Rib5 30k M 7Pi.3 Rie6jok M>P",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "32f97cbd68a057e437164528c6f6991bd2e2683299b29580471cd68098c247e5",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - P006 - 2-2.jpg",
+    "page": 1
+   },
+   "quote": "Fader Pins Pl-21/Y feed the input 0 f balanced fader The fader output is returned to the module at pins P1-18/V A console may be equipped with two single slide ",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7a7a5ef12fffad3e78b41bf0867972dbfa92b921a3a9dfc3735bcc42773711c0",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - P005 - 2-1.jpg",
+    "page": 1
+   },
+   "quote": "From here , the signa ] is routed through the CHANNEL on switch Sw1 and appears at pins P1-21/Y 0 f the modu]e connector",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P6.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+    "page": 26
+   },
+   "quote": "VU 2         P2-1'34++1------'==\"'--= =-'-- - - - - - - - --                                                   -    -    ---'",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "C24 RII3 C32 Rizi +I8v I5k 47/i0 i5k I5k SF880473/0 P2-5 HF 620 Swi3 Rii7 {Rx5| Qi6 R142 Ri46 3k3 4k7 Ch ON Sf88041 47k ISk +24v Rii8 >Pi-22 DiR PI-19< E5 E8 R1",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "C24 RII3 C32 Rizi +I8v I5k 47/i0 i5k I5k SF880473/0 P2-5 HF 620 Swi3 Rii7 {Rx5| Qi6 R142 Ri46 3k3 4k7 Ch ON Sf88041 47k ISk +24v Rii8 >Pi-22 DiR PI-19< E5 E8 R1",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+    "page": 5
+   },
+   "quote": "output a p pea rs at P2-9/K for HI.",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P005 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P6.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "074c563cdd860e1b221bea1767b745a7e4e8229ff707efd74c1c66b6abf8f2df",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+    "page": 26
+   },
+   "quote": "Pz-i0 M2 >P2-L",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+    "page": 6
+   },
+   "quote": "co ntrol COllllon potentia l at P2-P o r sel ectively via op e r a t i o n",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P7.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "vu 2 SynC P2-14 VU 2 P2-13- SELECT",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "R",
+   "row": 14,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+    "page": 6
+   },
+   "quote": "of t he SYNC swftc h SWB a t P2- R.",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P006 - 2-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P7.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "vu 2 SynC P2-14 VU 2 P2-13- SELECT",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "C24 RII3 C32 Rizi +I8v I5k 47/i0 i5k I5k SF880473/0 P2-5 HF 620 Swi3 Rii7 {Rx5| Qi6 R142 Ri46 3k3 4k7 Ch ON Sf88041 47k ISk +24v Rii8 >Pi-22 DiR PI-19< E5 E8 R1",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+    "page": 5
+   },
+   "quote": "'nor.al' Ilode of ope ra t io n , r. e . with p t n P2 -T of t he Ilod ul e",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+     "page": 5
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P005 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P005 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P6.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "074c563cdd860e1b221bea1767b745a7e4e8229ff707efd74c1c66b6abf8f2df",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+    "page": 26
+   },
+   "quote": "DiR { Pz- [ 270//O 3k Ri6z crig Ris3 1 P26 Ri4b Ris Ri27 920 2m2 3k3 Ri32 |sF83p41 242 C3c Rizo 47p KRA92- 2n3645 ICw SENS- Ri23Q'7 043 C37 24v 28k 4k7 5F38041 ",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+    "page": 5
+   },
+   "quote": "perllit t ing e x ter na l l ogi c c on t r ol via pin P2- U, i s part of SIIB.",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P005 - 2-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - P6.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "CTL",
+   "kind": "control",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "C24 RII3 C32 Rizi +I8v I5k 47/i0 i5k I5k SF880473/0 P2-5 HF 620 Swi3 Rii7 {Rx5| Qi6 R142 Ri46 3k3 4k7 Ch ON Sf88041 47k ISk +24v Rii8 >Pi-22 DiR PI-19< E5 E8 R1",
+   "also": [
+    {
+     "signal": "CTL",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "SOLO",
+   "kind": "audio",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7ca8c0133308190656ab7297abf51754f42bd5e786c5bd27b59f4187a7f949ac",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+    "page": 26
+   },
+   "quote": "~ P2-V SOLO en,",
+   "also": [
+    {
+     "signal": "SOLO CTL",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "Ctl com (P2-18}",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module (2).pdf",
+     "page": 26
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21401f59bda35c3c3363e0a5509b436c6a0fbba75c7025008d7153ff1b8d1347",
+    "file": "Modules/ROUTING/M456B/1975 - M456B - 456-02-003 - PI-H SWIA RIES.jpg",
+    "page": 1
+   },
+   "quote": "+24v ( Pz-Y)",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/ROUTING/M456B/1975 - M456B - Dual Mixdown Module.pdf",
+     "page": 26
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

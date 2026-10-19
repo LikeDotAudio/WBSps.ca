@@ -11,6 +11,20 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 - **Size:** 1,063,687 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 460-02-003, size B (assumed) 432 × 139 mm, 2000 × 645 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–138 mm up
+- **Outlines:** line 1,412 rings, 15,997 straight (21,896 mm) / 3,320 curved (3,632 mm); text 27 rings, 232 straight (182 mm) / 61 curved (63.2 mm)
+- **Centre lines:** 20,999 paths (423 closed); straight 14,394 mm, curved 123 mm; horizontal 5,383 mm, vertical 4,184 mm, diagonal 4,827 mm
+- **Circles and arcs:** 1 circles, 36 arcs; largest r 1.3 @ (308.1, 90.5)
+- **Closed boxes:** 35
+- **Dots (junctions):** 2
+- **Words (OCR):** 2 in 2 lines: Dleec · NOTE
+- **Wiring (first pass):** 172 connected wire groups from 1,216 runs
+
+Every curve, box, word and wire group: [1976 - M460B - 460-02-003 - DIL NOL INPUT MODULE CKDE SCHRMATC (traced).json](1976%20-%20M460B%20-%20460-02-003%20-%20DIL%20NOL%20INPUT%20MODULE%20CKDE%20SCHRMATC%20%28traced%29.json) (the CAD file: `1976 - M460B - 460-02-003 - DIL NOL INPUT MODULE CKDE SCHRMATC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

@@ -1,0 +1,319 @@
+{
+ "code": "M522B",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "J3",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 2,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P3",
+   "rows": 5,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P5",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "LEFT(MONO) IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M522B/M522B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "LEFT(MONO) IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M522B/M522B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "LEFT(MONO) OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M522B/M522B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "LEFT(MONO) OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M522B/M522B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M522B/M522B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M522B/M522B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M522B/M522B.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M522B/M522B.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "+/-25 VOL SUPPLY VOLTAGE",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "1772ffb130a7d6e0dfc8b1e1b502fd2beb574cd3b08b10a151e6c99cd3d9a8f7",
+    "file": "Modules/FILTERS/M522B/19xx - M522B - P05.jpg",
+    "page": 1
+   },
+   "quote": "ciRcUiT DESCRIPTION vezzB 3522C ECUAL Z53 Mopule: Power Suppl Deccus Xina The 1/-25 volt Supply [age decoup ed Jy The series decoup ers through 0l _ Divider ne work R8z , R8 and 385 Sets the aecoud utput voltage 7/-18 vot:s The +/-25 vol supply voltage appears at pins module connector and the common",
+   "also": [
+    {
+     "signal": "AT PINS MOCULE CONNECTOR AND THE COMMON",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/FILTERS/M522B/19xx - M522B - P05.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J3",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "3391be8705e96cfe936b0e9607481c39463e65093fee000ce870e15043e10986",
+    "file": "Modules/FILTERS/M522B/19xx - M522B - wbsps - module - m522b equlizer 004.jpg",
+    "page": 1
+   },
+   "quote": "J3-1",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7d8e35d6ef4c02c765799d927de645e098bae1267995d66d56130da35c770427",
+    "file": "Modules/FILTERS/M522B/19xx - M522B - M522C Equalizer.pdf",
+    "page": 15
+   },
+   "quote": "The ~iter input is applied 4t P1-1 and the filter output appears at P1-2 .",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bd5a3796ce1e08fe0b5641ed6cada896a0cdfd5dfb05f1ec7b49f81b25572f47",
+    "file": "Modules/FILTERS/M522B/19xx - M522B - M522C Equalizer (2).pdf",
+    "page": 15
+   },
+   "quote": "P 1- 2 .",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/FILTERS/M522B/19xx - M522B - M522C Equalizer.pdf",
+     "page": 15
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/FILTERS/M522B/19xx - M522B - P15.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P3",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2723f3fdad978b7b5c0c2219c351f844c3c95bbfbd95f161359a965d7717d71f",
+    "file": "PHOTOS/Drawings/19xx - 14-152-02-002 - SA14-152A MONO FILTER ASSEMBLY SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P3-5.6",
+   "also": []
+  },
+  {
+   "conn": "P5",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5a6919ef3550cd0810e4ed96a3016610ca6ce2bce00ee7c4355cb387d38cc3ea",
+    "file": "Modules/FILTERS/M522B/19xx - M522B - wbsps - module - m522b equlizer 005.jpg",
+    "page": 1
+   },
+   "quote": "P5-1",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

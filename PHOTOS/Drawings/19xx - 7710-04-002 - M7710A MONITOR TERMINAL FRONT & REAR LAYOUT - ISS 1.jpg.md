@@ -20,6 +20,17 @@ Monitor terminal front and rear layout Title block at bottom left reading sidewa
 - **Size:** 4,949,890 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 7710-04-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–288 mm up
+- **Outlines:** line 1,193 rings, 8,793 straight (17,772 mm) / 1,801 curved (2,890 mm); text 60 rings, 401 straight (400 mm) / 119 curved (167 mm)
+- **Circles and arcs:** 31 circles, 0 arcs; largest r 6.0 @ (281.5, 171.1), r 5.1 @ (257.1, 89.3), r 3.4 @ (233.6, 52.2), r 3.4 @ (315.9, 189.2)
+- **Closed boxes:** 35
+- **Dots (junctions):** 6
+
+Every curve, box, word and wire group: [19xx - 7710-04-002 - M7710A MONITOR TERMINAL FRONT & REAR LAYOUT - ISS 1 (traced).json](19xx%20-%207710-04-002%20-%20M7710A%20MONITOR%20TERMINAL%20FRONT%20%26%20REAR%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 7710-04-002 - M7710A MONITOR TERMINAL FRONT & REAR LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

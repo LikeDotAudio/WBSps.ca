@@ -15,6 +15,19 @@ Wiki page: [M621](../../../PAGES/M621.md)
 
 - **1973** (labelled): `DATE SEPT 73` — …: 2 2307 Ru USED ON MATL . WBS WARD-BECK SYSTEMS LTD DRN BZ DATE SEPT 73 CKD_ 00. SCALE NTS_ TOLS M M62/ FINISH 20 WATT MONITOR AMPL…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 621-06-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale NIS
+- **Ink extent:** 0–429 mm across, 0–287 mm up
+- **Outlines:** line 1,016 rings, 9,094 straight (15,268 mm) / 2,589 curved (2,373 mm); text 384 rings, 2,879 straight (2,782 mm) / 930 curved (1,058 mm); tb 47 rings, 350 straight (505 mm) / 70 curved (77.2 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 7.5 @ (267.2, 130.3), r 5.0 @ (251.9, 149.3), r 5.0 @ (252.1, 129.8), r 2.6 @ (252.0, 149.6)
+- **Closed boxes:** 53 (36 in the title block); named: FRONT PANEL RG4 R23; WBS WARD-BECK SYSTEMS LTD; M62i 20 WATT MONITOR AMPLIFIER COMPONENT; FINISH; ISS_; 621- 06 002; TOLS
+- **Dots (junctions):** 3
+- **Words (OCR):** 55 in 39 lines: NOTES · COVER NOT SHOWN. · HEAT Sink AND FRONT PANEL · SHOWN SEPARATE · FOR · CLARiTY · ALL · VIEwS · FROM INSIDE · HEAT SINk · Crs Ca6 · CR7
+- **Title block:** (137, 10)–(410, 62) mm: IsS MOD CKD: · USED Ov · MATL. · 2307 · WBS WARD-BECK SYSTEMS LTD · DRN BZ · M62i · DATE · SEPT 73 · FINISH · CKD · 027 · 20 WATT MONITOR AMPLIFIER · SCALE NIS · COMPONENT LAYQUT · TOLS · ISS_ · 621- 
+
+Every curve, box, word and wire group: [1973 - M621 - 621-06-002 - WATT MONITOR AMPLIFIER (traced).json](1973%20-%20M621%20-%20621-06-002%20-%20WATT%20MONITOR%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1973 - M621 - 621-06-002 - WATT MONITOR AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

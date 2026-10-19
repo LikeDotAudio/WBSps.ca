@@ -21,6 +21,20 @@ Wiki page: [Job-93032](../../../PAGES/Job-93032.md)
 - **Size:** 401,058 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 93032-01-002, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 224–864 mm across, 9–521 mm up
+- **Outlines:** line 678 rings, 4,901 straight (17,678 mm) / 1,059 curved (2,590 mm); text 200 rings, 1,355 straight (2,520 mm) / 416 curved (1,010 mm); tb 17 rings, 126 straight (332 mm) / 26 curved (56.3 mm)
+- **Centre lines:** 10,004 paths (117 closed); straight 12,573 mm, curved 182 mm; horizontal 4,976 mm, vertical 2,618 mm, diagonal 4,980 mm
+- **Circles and arcs:** 1 circles, 26 arcs; largest r 1.8 @ (588.2, 287.2)
+- **Closed boxes:** 64 (4 in the title block); named: Floor; INTERFACE; NEWS CENTER CTS 48x48 MicroCOM FUNCTIONA; 93032-01-002; DSC ND; Cor
+- **Words (OCR):** 32 in 28 lines: PRCCRAU · CLUFRLS · FLoDA · CKANNEL ~WirE · (SUPZLIED · OTHERS) · INTERFACE · Floor · SPAKE · KQLES; · DRANNG ARE SUPPUED OTHERS · CAALES DFNOTED
+- **Title block:** (688, 41)–(857, 74) mm: sqe · WBS · WARD- · BECK SYSTEMS · CTS · NEWS CENTER
+- **Wiring (first pass):** 168 connected wire groups from 1,078 runs; labelled ends: 164 mm → FT; 102 mm → WBS, DSC ND; 95 mm → INTERFACE; 42 mm → OTHERS); 25 mm → TONELCO
+
+Every curve, box, word and wire group: [1993 - 93032-01-002 - CTS NEWS CENTER 48x48 MicroCOM II SYSTEM FUNCTIONAL - DRN DRG - ISS 2 (traced).json](1993%20-%2093032-01-002%20-%20CTS%20NEWS%20CENTER%2048x48%20MicroCOM%20II%20SYSTEM%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1993 - 93032-01-002 - CTS NEWS CENTER 48x48 MicroCOM II SYSTEM FUNCTIONAL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

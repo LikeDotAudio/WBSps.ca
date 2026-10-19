@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 372,449 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 77024-02-009, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 0–305 mm across, 14–431 mm up
+- **Outlines:** line 145 rings, 2,017 straight (5,436 mm) / 174 curved (306 mm); text 1,884 rings, 13,246 straight (15,251 mm) / 4,111 curved (6,616 mm); tb 1 rings, 4 straight (3.3 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 8,585 paths (305 closed); straight 12,970 mm, curved 0.0 mm; horizontal 3,223 mm, vertical 3,562 mm, diagonal 6,185 mm
+- **Closed boxes:** 9
+- **Words (OCR):** 231 in 115 lines: WARD-BECK SYSTEMS LTD_ · INSIALLATION · R1200/R2000 AUDIO · CONSOLES · Unpacking · After · remova ] a 71 · 0 f · packing materia] · inspect a ] 1 assemblies · for any · outward
+- **Title block:** (20, 249)–(157, 418) mm: WARD-BECK SYSTEMS LTD_ · INSIALLATION · R1200/R2000 AUDIO · Unpacking · After · remova ] a 71 · 0 f · packing materia] · for any · outward · physical damages · supp]ies (M625A ) and monitor amp · Insp
+- **Wiring (first pass):** 6 connected wire groups from 65 runs; labelled ends: 51 mm → Supply, Installation, Equipment, supp]ied:; 30 mm → Supply, Equipment, supp]ied:, Power
+
+Every curve, box, word and wire group: [1990 - R series installation ma - 77024-02-009 - ASSEMBLIES FOR ANY OUTWARD PHYSICAL DAMAGES PARTICULARLY THE (traced).json](1990%20-%20R%20series%20installation%20ma%20-%2077024-02-009%20-%20ASSEMBLIES%20FOR%20ANY%20OUTWARD%20PHYSICAL%20DAMAGES%20PARTICULARLY%20THE%20%28traced%29.json) (the CAD file: `1990 - R series installation ma - 77024-02-009 - ASSEMBLIES FOR ANY OUTWARD PHYSICAL DAMAGES PARTICULARLY THE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 22 words corrected)

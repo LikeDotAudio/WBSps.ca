@@ -23,6 +23,16 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 4,309,649 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 441-04-013, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–287 mm up
+- **Outlines:** line 934 rings, 10,228 straight (14,650 mm) / 1,438 curved (2,062 mm); text 184 rings, 1,131 straight (1,168 mm) / 272 curved (373 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.6 @ (338.1, 172.5), r 5.6 @ (338.2, 215.0), r 2.9 @ (75.1, 110.9), r 2.9 @ (110.1, 233.0)
+- **Closed boxes:** 30
+
+Every curve, box, word and wire group: [1973 - 441-04-013 - M441M CHANNEL AMPLIFIER MODULE LAYOUT - DRN BWJ - ISS 1 (traced).json](1973%20-%20441-04-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20MODULE%20LAYOUT%20-%20DRN%20BWJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 441-04-013 - M441M CHANNEL AMPLIFIER MODULE LAYOUT - DRN BWJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

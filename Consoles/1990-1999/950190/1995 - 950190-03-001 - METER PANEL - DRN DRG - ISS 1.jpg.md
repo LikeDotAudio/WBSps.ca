@@ -21,6 +21,19 @@ Wiki page: [Job-950190](../../../PAGES/Job-950190.md)
 - **Size:** 399,590 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950190-03-001, size D 864 × 556 mm, 2000 × 1288 px traced (0.432 mm/px)
+- **Ink extent:** 95–864 mm across, 7–408 mm up
+- **Outlines:** line 636 rings, 4,307 straight (17,944 mm) / 885 curved (2,070 mm); text 294 rings, 1,643 straight (3,104 mm) / 518 curved (1,319 mm); tb 21 rings, 155 straight (361 mm) / 42 curved (100 mm)
+- **Centre lines:** 6,649 paths (204 closed); straight 13,019 mm, curved 20.7 mm; horizontal 6,024 mm, vertical 2,740 mm, diagonal 4,255 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 1.5 @ (186.1, 366.1)
+- **Closed boxes:** 60 (5 in the title block); named: DETAIL; DETAIL; METER PANEL; DISC NO;; 950190-03-001; core-
+- **Words (OCR):** 32 in 28 lines: Ract · 0,500 · DATUM · 5.14z · DUNCE · PUNC J,720 · 2.Oc0 · DETAIL · DETAIL · JNSERT · RECD · ~SERT
+- **Title block:** (677, 38)–(848, 72) mm: RCMSICH · WARD-BECK  SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1995 - 950190-03-001 - METER PANEL - DRN DRG - ISS 1 (traced).json](1995%20-%20950190-03-001%20-%20METER%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950190-03-001 - METER PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

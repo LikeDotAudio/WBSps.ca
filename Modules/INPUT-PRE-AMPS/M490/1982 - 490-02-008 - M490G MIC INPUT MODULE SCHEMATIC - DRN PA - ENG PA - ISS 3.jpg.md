@@ -25,6 +25,21 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 443,969 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 490-02-008, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–429 mm up
+- **Outlines:** line 612 rings, 9,746 straight (18,260 mm) / 2,022 curved (2,890 mm); text 1,021 rings, 6,785 straight (6,696 mm) / 2,402 curved (3,322 mm); tb 17 rings, 143 straight (224 mm) / 29 curved (36.4 mm)
+- **Centre lines:** 11,627 paths (197 closed); straight 14,976 mm, curved 431 mm; horizontal 5,379 mm, vertical 3,878 mm, diagonal 5,718 mm
+- **Circles and arcs:** 15 circles, 62 arcs; largest r 5.9 @ (270.5, 134.5), r 5.8 @ (231.5, 120.7), r 5.7 @ (184.5, 100.7), r 5.6 @ (270.4, 105.9)
+- **Closed boxes:** 31 (2 in the title block); named: 22; 25; 28 74C76; Rizs 47k
+- **Dots (junctions):** 2
+- **Words (OCR):** 253 in 223 lines: 47/25 · cz · OutputS · To · R5+ · Sw4 · Mixing BUSES · 220 · Assign · Rcg · 2.2 · ISk
+- **Title block:** (180, 0)–(338, 49) mm: WBS WARD-BeCk bybtemS · DRN · M49oG · ENG. PA · Mic INPUT MODULE · CKD · SCHEMATIC · Ece 29U · 4L ApP · 4e3 Q134014 REVERSED PA · SCALI · 490-02-008 · REvision · APP
+- **Wiring (first pass):** 148 connected wire groups from 850 runs, 1 dotted junctions; labelled ends: 549 mm → 242, CRZ, CRK, R134; 424 mm → 23, 8 /6, R94, RSo; 309 mm → Cri, Ri3c, Iok, 09; 295 mm → 0/25, R4C, 17k, R47; 244 mm → R1tO, IoK, iok, 012
+
+Every curve, box, word and wire group: [1982 - 490-02-008 - M490G MIC INPUT MODULE SCHEMATIC - DRN PA - ENG PA - ISS 3 (traced).json](1982%20-%20490-02-008%20-%20M490G%20MIC%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1982 - 490-02-008 - M490G MIC INPUT MODULE SCHEMATIC - DRN PA - ENG PA - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

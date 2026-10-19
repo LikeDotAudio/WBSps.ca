@@ -21,6 +21,19 @@ SA14-152A mono filter assembly schematic.
 - **Size:** 262,984 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-152-02-002, size B 432 × 241 mm, 2000 × 1116 px traced (0.216 mm/px)
+- **Ink extent:** 4–428 mm across, 8–212 mm up
+- **Outlines:** line 633 rings, 6,557 straight (9,709 mm) / 1,626 curved (1,964 mm); text 108 rings, 906 straight (913 mm) / 253 curved (337 mm); tb 2 rings, 42 straight (107 mm) / 1 curved (1.8 mm)
+- **Centre lines:** 7,365 paths (88 closed); straight 6,695 mm, curved 154 mm; horizontal 2,121 mm, vertical 1,888 mm, diagonal 2,685 mm
+- **Circles and arcs:** 2 circles, 53 arcs; largest r 0.8 @ (343.2, 211.3), r 0.7 @ (88.7, 118.8)
+- **Words (OCR):** 19 in 18 lines: 24 · 01 P1 ? · VSa · 05a · Aca · LbI · ro · 10/2 · PJ-5.6 · ~8v · cou · SELECT
+- **Title block:** (342, 32)–(432, 47) mm: WBS WARD-BECK SYSTEMs
+- **Wiring (first pass):** 86 connected wire groups from 618 runs; labelled ends: 75 mm → LbI; 69 mm → 05a; 62 mm → VSa; 62 mm → ro; 62 mm → ro
+
+Every curve, box, word and wire group: [19xx - 14-152-02-002 - SA14-152A MONO FILTER ASSEMBLY SCHEMATIC (traced).json](19xx%20-%2014-152-02-002%20-%20SA14-152A%20MONO%20FILTER%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 14-152-02-002 - SA14-152A MONO FILTER ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -10,6 +10,16 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,217,867 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 343 rings, 4,706 straight (7,379 mm) / 600 curved (723 mm); text 327 rings, 2,357 straight (2,466 mm) / 795 curved (1,099 mm)
+- **Closed boxes:** 7; named: LEGEND; m470 #2 Pz/8,J; M467#1 4542(20); M467+1 7,2.(3)
+- **Words (OCR):** 44 in 28 lines: LEGEND · NoCONNECT ION · STRAP · OR JUMPER · CONNECTiON · TB4/21,22 TYPIcAL Adio PAIR · connECTioN To · TERMINAL BLOCK 4 · Pins2i AND 22 · STRAP OR JUMPER · CONNECTED to JacK · NORMAL' Contacts
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-003 - TYPICAL AUDIO PAIR CONNECTION (2) (traced).json](1979%20-%20790236%20-%20790236-04-003%20-%20TYPICAL%20AUDIO%20PAIR%20CONNECTION%20%282%29%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-003 - TYPICAL AUDIO PAIR CONNECTION (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

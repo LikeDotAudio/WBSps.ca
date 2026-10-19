@@ -11,6 +11,19 @@ Wiki page: [M490F](../../../PAGES/M490F.md)
 - **Size:** 3,384,301 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 90-04-014, size B (assumed) 432 × 308 mm, 2000 × 1427 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–306 mm up
+- **Outlines:** line 671 rings, 5,048 straight (11,039 mm) / 1,332 curved (1,576 mm); text 513 rings, 2,770 straight (2,305 mm) / 1,094 curved (1,306 mm); tb 675 rings, 4,618 straight (8,199 mm) / 1,380 curved (1,756 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 0.8 @ (39.8, 210.8), r 0.7 @ (57.9, 273.1), r 0.7 @ (58.1, 86.7)
+- **Closed boxes:** 17 (4 in the title block); named: iapuT Sicc se lection eitner nou; paograh Hhen channe "FGk Tont Gikino net; RALANCC Rhen JLACE concrol; PaePost AurLRY Ihi s shitch Eha pick cho; Hhen output; This Smh1 monntary cperatec novino beyon; indicjlom 052. Huminated; shiz; cperation Jternately; CHAHHEL Progra4 Tight indicace; 90-04 -014
+- **Dots (junctions):** 7
+- **Words (OCR):** 95 in 72 lines: WBS · 4490F · cont nuou: · eve | contrc · 10   dB · iapuT · Sicc se lection eitner · nou · semsitivity control conttoi runge · paograh · Tont · channe
+- **Title block:** (168, 22)–(432, 308) mm: WBS · 4490F · cont nuou: · eve | contrc · 10   dB · semsitivity control conttoi runge · riont channe| · switcn · nizing · Lpprooriata · PGh tereo · BALARCE control · rtereo channa · R56/57 : Control ·
+
+Every curve, box, word and wire group: [1978 - M490F - 90-04-014 - STEREO INPUT MODULE FRONT PANEL (traced).json](1978%20-%20M490F%20-%2090-04-014%20-%20STEREO%20INPUT%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1978 - M490F - 90-04-014 - STEREO INPUT MODULE FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 40 words corrected)

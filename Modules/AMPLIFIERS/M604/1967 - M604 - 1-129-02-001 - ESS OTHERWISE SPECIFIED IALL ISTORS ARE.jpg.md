@@ -11,6 +11,16 @@ Wiki page: [M604](../../../PAGES/M604.md)
 - **Size:** 676,879 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** assembly 29-05-001, size B (assumed) 333 × 432 mm, 840 × 1090 px traced (0.396 mm/px)
+- **Ink extent:** 0–314 mm across, 16–432 mm up
+- **Outlines:** line 780 rings, 7,267 straight (10,832 mm) / 1,739 curved (3,489 mm); text 255 rings, 2,326 straight (4,275 mm) / 668 curved (1,684 mm)
+- **Closed boxes:** 3; named: ADe
+- **Words (OCR):** 39 in 27 lines: NQTES: · FOR COMPONJENT LAYOUT · B/-/29-05-001 · SEE · UNLESS OthERwisE · 1/4 WATT: TOLERANCE · RESISTORS ARE · VALUES IN · OHMS. (n) · CAPACITOR · VALUES IN · MICRO FARA
+
+Every curve, box, word and wire group: [1967 - M604 - 1-129-02-001 - ESS OTHERWISE SPECIFIED IALL ISTORS ARE (traced).json](1967%20-%20M604%20-%201-129-02-001%20-%20ESS%20OTHERWISE%20SPECIFIED%20IALL%20ISTORS%20ARE%20%28traced%29.json) (the CAD file: `1967 - M604 - 1-129-02-001 - ESS OTHERWISE SPECIFIED IALL ISTORS ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

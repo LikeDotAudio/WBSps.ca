@@ -11,6 +11,18 @@ Wiki page: [M463K](../../../PAGES/M463K.md)
 - **Size:** 2,318,453 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 840 rings, 6,714 straight (9,927 mm) / 1,477 curved (2,091 mm); text 904 rings, 5,990 straight (6,566 mm) / 2,017 curved (2,919 mm)
+- **Centre lines:** 10,768 paths (229 closed); straight 10,520 mm, curved 456 mm; horizontal 3,171 mm, vertical 2,325 mm, diagonal 5,024 mm
+- **Circles and arcs:** 26 circles, 59 arcs; largest r 7.7 @ (194.9, 232.6), r 4.8 @ (83.2, 253.8), r 3.1 @ (63.8, 228.0), r 2.9 @ (194.9, 232.5)
+- **Closed boxes:** 7; named: 24; Tip 30B; 23; Ki V23030-A202/-Aio4; 22; Tip 29B
+- **Words (OCR):** 135 in 111 lines: MOUNTED ON · SOLDER SIDE · Rios · Swia · Swi3 · Rez IEk · 42 · RBo · 47 · 000 · R3| · Ree 5 6
+
+Every curve, box, word and wire group: [1974 - M463K - 461-03-015 - NOTES LEGEND CONNECTOR PIN MOUNTED (traced).json](1974%20-%20M463K%20-%20461-03-015%20-%20NOTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED%20%28traced%29.json) (the CAD file: `1974 - M463K - 461-03-015 - NOTES LEGEND CONNECTOR PIN MOUNTED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -24,6 +24,20 @@ Dark, damaged copy of the M484 dual summing amplifier schematic, cropped.
 - **Size:** 1,101,692 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 484-02-001, size B 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 29–431 mm up
+- **Outlines:** line 1,947 rings, 21,735 straight (19,257 mm) / 5,290 curved (5,934 mm); text 260 rings, 2,551 straight (2,881 mm) / 673 curved (1,006 mm); tb 177 rings, 1,340 straight (1,042 mm) / 354 curved (368 mm)
+- **Centre lines:** 35,753 paths (152 closed); straight 20,943 mm, curved 404 mm; horizontal 4,663 mm, vertical 4,244 mm, diagonal 12,036 mm
+- **Circles and arcs:** 2 circles, 66 arcs; largest r 1.4 @ (86.4, 341.6), r 1.4 @ (28.7, 157.3)
+- **Closed boxes:** 1; named: MatI .
+- **Words (OCR):** 57 in 53 lines: Ras +I6 · +22 · 620 · C52 · 10 · Q7 · 24 · 2n7569 · LMsol · 2 46 · 46 · ik5
+- **Title block:** (99, 22)–(251, 84) mm: WES WARD-DECK · DRNEREU · 45484 · DUAL · CKD:
+- **Wiring (first pass):** 64 connected wire groups from 1,021 runs; labelled ends: 167 mm → C52, 24, LMsol, R44; 136 mm → C7o, 220/10, Rai, R4o; 104 mm → 247, 22, 249, C34; 94 mm → 2 46, 46, ik5, 2n7645; 86 mm → on, Fwish
+
+Every curve, box, word and wire group: [1975 - 484-02-001 - DUAL SUMMING AMPLIFIER SCHEMATIC (traced).json](1975%20-%20484-02-001%20-%20DUAL%20SUMMING%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1975 - 484-02-001 - DUAL SUMMING AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

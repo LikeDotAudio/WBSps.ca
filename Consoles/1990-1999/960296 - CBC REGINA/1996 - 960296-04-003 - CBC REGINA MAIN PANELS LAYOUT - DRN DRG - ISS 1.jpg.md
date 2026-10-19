@@ -21,6 +21,19 @@ Wiki page: [Job-960296](../../../PAGES/Job-960296.md)
 - **Size:** 665,035 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 960296-04-003, size D 864 × 570 mm, 2000 × 1321 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 22–570 mm up
+- **Outlines:** line 1,196 rings, 8,038 straight (47,631 mm) / 1,530 curved (4,606 mm); text 206 rings, 1,242 straight (2,431 mm) / 397 curved (1,009 mm); tb 13 rings, 104 straight (295 mm) / 21 curved (46.4 mm)
+- **Circles and arcs:** 25 circles, 0 arcs; largest r 8.6 @ (447.2, 402.7), r 8.6 @ (447.0, 225.5), r 8.5 @ (389.0, 114.5), r 8.4 @ (434.1, 266.8)
+- **Closed boxes:** 104 (2 in the title block); named: USTER; USTER; SPEAKER HEADSET HEADSET; CBC REGINA YOWELS MAIN; 960296-04-003; NTS; CCOE
+- **Dots (junctions):** 2
+- **Words (OCR):** 23 in 20 lines: BE REMCVED) · USTER · SPEAKER · HEADSET · PROD PANEL · SPEAKER · HEADSET · HEADSET · TECH PANEL · HEHSDY · WBS) · WARD-BECK SYSTEMS
+- **Title block:** (649, 54)–(822, 89) mm: HEHSDY · WBS) · WARD-BECK SYSTEMS · CBC REGINA
+
+Every curve, box, word and wire group: [1996 - 960296-04-003 - CBC REGINA MAIN PANELS LAYOUT - DRN DRG - ISS 1 (traced).json](1996%20-%20960296-04-003%20-%20CBC%20REGINA%20MAIN%20PANELS%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960296-04-003 - CBC REGINA MAIN PANELS LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

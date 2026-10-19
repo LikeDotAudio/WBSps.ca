@@ -11,6 +11,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,181,013 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-002, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 367 rings, 4,107 straight (9,034 mm) / 626 curved (851 mm); text 365 rings, 2,189 straight (2,305 mm) / 664 curved (893 mm)
+- **Centre lines:** 4,234 paths (53 closed); straight 6,269 mm, curved 246 mm; horizontal 2,883 mm, vertical 1,551 mm, diagonal 1,836 mm
+- **Circles and arcs:** 5 circles, 46 arcs; largest r 1.3 @ (132.8, 353.6), r 1.3 @ (132.8, 364.1), r 1.3 @ (132.9, 343.1), r 1.2 @ (132.8, 374.4)
+- **Closed boxes:** 12; named: M522A STEREQ EQUALIZER MODULE
+- **Words (OCR):** 53 in 49 lines: BACKPLANE  CONNECTIONS · PART Of · TMSTED · SA91-025 · TWSTED · RibBON CABLE · RIBBON CAB · 7B- · LINE · LINE · INPUTS · -15/+15
+- **Wiring (first pass):** 83 connected wire groups from 357 runs; labelled ends: 478 mm → +25v, 25v, 20, 22; 208 mm → CONN, 9,10, 12,13; 62 mm → RibBON CABLE; 38 mm → BACKPLANE  CONNECTIONS; 30 mm → R2
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-002 - INSERT TWSTED OABM RIBBON CAE PART (traced).json](1988%20-%20880134%20-%20880134-02-002%20-%20INSERT%20TWSTED%20OABM%20RIBBON%20CAE%20PART%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-002 - INSERT TWSTED OABM RIBBON CAE PART (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

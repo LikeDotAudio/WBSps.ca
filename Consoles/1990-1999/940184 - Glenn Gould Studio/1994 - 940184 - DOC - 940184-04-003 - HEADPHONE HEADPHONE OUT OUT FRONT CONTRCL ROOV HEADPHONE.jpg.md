@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,053,382 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940184-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–424 mm across, 7–277 mm up
+- **Outlines:** line 361 rings, 3,325 straight (11,317 mm) / 576 curved (895 mm); text 186 rings, 1,070 straight (1,194 mm) / 357 curved (457 mm); tb 24 rings, 177 straight (208 mm) / 28 curved (33.7 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 4.2 @ (137.8, 114.1), r 4.2 @ (226.5, 113.9), r 4.1 @ (241.9, 214.3), r 4.1 @ (206.8, 188.3)
+- **Closed boxes:** 29 (4 in the title block); named: DD HEADPHONE SOURCE SELECT; HEADPHONE HEADPHONE; HEADPHONE HEADPHONE; GLENN GOULD STUDIO TURRET LAYOUT; NTS; DISC NO;; 940184-04 003; 04184L0]
+- **Dots (junctions):** 1
+- **Words (OCR):** 24 in 21 lines: DD · HEADPHONE SOURCE SELECT · TCP · TURRET) · HEADPHONE · HEADPHONE · FRONT · WBS · WARD- · BECK  SYSTEMS · GLENN GOULD STUDIO · REAR
+- **Title block:** (345, 22)–(429, 39) mm: WBS · WARD- · BECK  SYSTEMS · GLENN GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - 940184 - DOC - 940184-04-003 - HEADPHONE HEADPHONE OUT OUT FRONT CONTRCL ROOV HEADPHONE (traced).json](1994%20-%20940184%20-%20DOC%20-%20940184-04-003%20-%20HEADPHONE%20HEADPHONE%20OUT%20OUT%20FRONT%20CONTRCL%20ROOV%20HEADPHONE%20%28traced%29.json) (the CAD file: `1994 - 940184 - DOC - 940184-04-003 - HEADPHONE HEADPHONE OUT OUT FRONT CONTRCL ROOV HEADPHONE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,736,327 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960191-03-001, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px)
+- **Ink extent:** 29–423 mm across, 6–254 mm up
+- **Outlines:** line 1,375 rings, 9,499 straight (20,723 mm) / 1,869 curved (2,226 mm); text 321 rings, 1,623 straight (1,363 mm) / 513 curved (627 mm); tb 14 rings, 138 straight (169 mm) / 29 curved (28.6 mm)
+- **Centre lines:** 11,890 paths (373 closed); straight 13,166 mm, curved 77.9 mm; horizontal 5,799 mm, vertical 3,518 mm, diagonal 3,849 mm
+- **Circles and arcs:** 6 circles, 23 arcs; largest r 3.1 @ (171.8, 151.8), r 1.9 @ (171.2, 93.7), r 1.9 @ (158.6, 189.2), r 0.8 @ (203.1, 105.4)
+- **Closed boxes:** 35 (3 in the title block); named: REAR PANEL; 960191 03-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 50 in 47 lines: E 800 · 10-600 · REC'D · PMCHES · REO D · 0.750 · 2,000 · PTCHES · DETAIL · CETAL · RFC'D: · DCTAL
+- **Title block:** (345, 22)–(429, 39) mm: WBS · WARD-BECK SYSTEMS · dRC ULSD)
+
+Every curve, box, word and wire group: [1996 - 960191 - DOC - 960191-03-001 - DETAIL DETAIL DETAIL DETAIL REAR PANEL (traced).json](1996%20-%20960191%20-%20DOC%20-%20960191-03-001%20-%20DETAIL%20DETAIL%20DETAIL%20DETAIL%20REAR%20PANEL%20%28traced%29.json) (the CAD file: `1996 - 960191 - DOC - 960191-03-001 - DETAIL DETAIL DETAIL DETAIL REAR PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

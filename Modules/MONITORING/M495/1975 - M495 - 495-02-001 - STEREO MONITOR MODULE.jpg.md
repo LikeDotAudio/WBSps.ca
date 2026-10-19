@@ -11,6 +11,20 @@ Wiki page: [M495](../../../PAGES/M495.md)
 - **Size:** 2,303,367 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 495-02-001, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–427 mm up
+- **Outlines:** line 511 rings, 6,913 straight (11,800 mm) / 1,259 curved (1,658 mm); text 437 rings, 3,641 straight (3,490 mm) / 1,247 curved (1,722 mm); tb 28 rings, 218 straight (292 mm) / 48 curved (60.1 mm)
+- **Centre lines:** 12,090 paths (118 closed); straight 10,443 mm, curved 296 mm; horizontal 3,587 mm, vertical 2,637 mm, diagonal 4,219 mm
+- **Circles and arcs:** 9 circles, 54 arcs; largest r 4.7 @ (55.7, 85.9), r 4.7 @ (136.0, 58.8), r 3.0 @ (178.5, 91.2), r 1.1 @ (235.1, 237.7)
+- **Closed boxes:** 10 (6 in the title block); named: 5-IOIB DUAL BOOSTER AMPLIFIER
+- **Words (OCR):** 106 in 91 lines: NoTes · RESiSToRS V+w, 5 % AND · I.ALL · ALL CAPACiTORS IN AF UnLESS · Otherwise SpEcified. · 2. LAST ComponEnT DESignaTIONS · Czi, CR6,0si_ R54 Swg · 05_ · 3. USE PcB 7-114 · Rzo · 30 · IOK
+- **Title block:** (229, 0)–(319, 56) mm: He 3694- · 2uz8 · Issuedate · REVISION · WBS WARO-BECK · Drm: Mrw · M49s · ENG Maw_10i7t STEREO · MOnITOR Module · CKD: · SCHEMATIC · ScALE · 495- 02-001
+- **Wiring (first pass):** 64 connected wire groups from 336 runs; labelled ends: 252 mm → R37; 244 mm → Mute, R45, Z2k, Czi; 210 mm → R54, IOk, Crs, Ds; 161 mm → 300; 154 mm → R40
+
+Every curve, box, word and wire group: [1975 - M495 - 495-02-001 - STEREO MONITOR MODULE (traced).json](1975%20-%20M495%20-%20495-02-001%20-%20STEREO%20MONITOR%20MODULE%20%28traced%29.json) (the CAD file: `1975 - M495 - 495-02-001 - STEREO MONITOR MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

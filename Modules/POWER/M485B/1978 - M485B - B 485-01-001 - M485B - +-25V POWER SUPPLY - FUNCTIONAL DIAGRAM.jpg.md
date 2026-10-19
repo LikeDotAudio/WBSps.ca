@@ -11,6 +11,18 @@ Wiki page: [M485B](../../../PAGES/M485B.md)
 - **Size:** 5,740,785 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 485-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–287 mm up
+- **Outlines:** line 415 rings, 6,217 straight (13,068 mm) / 811 curved (1,295 mm); text 186 rings, 1,134 straight (1,332 mm) / 391 curved (571 mm)
+- **Centre lines:** 3,495 paths (55 closed); straight 7,636 mm, curved 328 mm; horizontal 3,837 mm, vertical 2,169 mm, diagonal 1,630 mm
+- **Circles and arcs:** 12 circles, 27 arcs; largest r 7.8 @ (138.5, 238.1), r 7.8 @ (139.0, 128.9), r 4.0 @ (268.9, 199.0), r 2.1 @ (368.5, 33.1)
+- **Closed boxes:** 20
+- **Wiring (first pass):** 140 connected wire groups from 451 runs
+
+Every curve, box, word and wire group: [1978 - M485B - B 485-01-001 - M485B - +-25V POWER SUPPLY - FUNCTIONAL DIAGRAM (traced).json](1978%20-%20M485B%20-%20B%20485-01-001%20-%20M485B%20-%20%2B-25V%20POWER%20SUPPLY%20-%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1978 - M485B - B 485-01-001 - M485B - +-25V POWER SUPPLY - FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,21 @@ Wiki page: [M487](../../../PAGES/M487.md)
 - **Size:** 346,829 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 487-02-001, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px)
+- **Ink extent:** 24–432 mm across, 0–278 mm up
+- **Outlines:** line 379 rings, 5,536 straight (10,947 mm) / 939 curved (1,189 mm); text 1,030 rings, 6,351 straight (5,433 mm) / 2,084 curved (2,569 mm); tb 12 rings, 111 straight (149 mm) / 29 curved (38.9 mm)
+- **Centre lines:** 12,444 paths (259 closed); straight 10,539 mm, curved 152 mm; horizontal 3,368 mm, vertical 2,481 mm, diagonal 4,689 mm
+- **Circles and arcs:** 3 circles, 33 arcs; largest r 3.1 @ (111.0, 39.5), r 1.0 @ (205.1, 153.6), r 0.9 @ (109.7, 233.0)
+- **Closed boxes:** 12 (7 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 283 in 252 lines: NTE; ; · ResSt2R5 · 'I4w · URLESS OTHERWISE · CAPACiTOFS · Specified · 2.24> ICMAP Nelt DeSSNiTISN: · Cso ZR4 · 72.R73.+23 · 5.-93 P28 3-1/3 · 620 · 4-7e
+- **Title block:** (356, 0)–(432, 37) mm: 9181 · ELL · K4l42.4842 W4r 3000 · Eco " 1q · ISsue Date · REvISION · WBS WARD-BeCK ybteme · DRNPAISY · M487 · ENG · O1LI · DUAL MASTER MODULE · CKD,Pal · SCHEMATIC · SCALE · 487-02-001 · ISSUe
+- **Wiring (first pass):** 106 connected wire groups from 548 runs, 2 dotted junctions; labelled ends: 175 mm → 025, 22/25, C27, 20; 108 mm → Rzo<, MkS, 312, 15k-; 103 mm → czz, 68/10, R25, 5k; 98 mm → R1os, 15k<, c2, 352/6; 89 mm → 2e6, 246, 300, R48
+
+Every curve, box, word and wire group: [1982 - M487 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC (traced).json](1982%20-%20M487%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1982 - M487 - 487-02-001 - DUAL MASTER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

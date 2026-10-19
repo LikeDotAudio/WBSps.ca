@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,585,035 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 034-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–432 mm across, 0–288 mm up
+- **Outlines:** line 1,316 rings, 13,532 straight (25,639 mm) / 2,736 curved (3,318 mm); text 179 rings, 1,062 straight (878 mm) / 330 curved (410 mm)
+- **Centre lines:** 14,361 paths (250 closed); straight 15,564 mm, curved 151 mm; horizontal 6,367 mm, vertical 5,177 mm, diagonal 4,020 mm
+- **Circles and arcs:** 1 circles, 39 arcs; largest r 1.5 @ (373.3, 9.9)
+- **Closed boxes:** 137
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 158 connected wire groups from 1,565 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 034-02-002 - STATUS SELECTOR ASSEMBLY SCHEMATIC (traced).json](1981%20-%20microCOM%20-%20034-02-002%20-%20STATUS%20SELECTOR%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1981 - microCOM - 034-02-002 - STATUS SELECTOR ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

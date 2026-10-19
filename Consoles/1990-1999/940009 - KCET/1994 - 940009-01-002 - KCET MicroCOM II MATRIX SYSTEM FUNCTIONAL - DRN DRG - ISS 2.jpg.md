@@ -22,6 +22,20 @@ Wiki page: [Job-940009](../../../PAGES/Job-940009.md)
 - **Size:** 378,586 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 940009-01-002, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px); scale Idisc NO:
+- **Ink extent:** 0–862 mm across, 12–539 mm up
+- **Outlines:** line 502 rings, 3,705 straight (11,531 mm) / 741 curved (1,861 mm); text 194 rings, 1,423 straight (2,568 mm) / 387 curved (975 mm); tb 76 rings, 695 straight (2,922 mm) / 112 curved (262 mm)
+- **Centre lines:** 10,425 paths (91 closed); straight 12,471 mm, curved 118 mm; horizontal 4,583 mm, vertical 3,150 mm, diagonal 4,738 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Closed boxes:** 29; named: PARIN; DaR
+- **Words (OCR):** 27 in 25 lines: PRCGRAU · MNMARI · SoUND · INPUTS · PARIN · TCiRcUITS · TciRcUITS · DaR · NQIES; · MNTERCONNECTING · CALES dENOTEC · SUFPL
+- **Title block:** (678, 8)–(854, 95) mm: UPDATED 45 PER · CUSTOVER RECUEST; · WBS · WARD-BECK SYSTEMS · KCET · SYSTEM FUNCTIONAL · MicroCoM · MATRIX · SCALE Idisc NO: · 940009 · 002
+- **Wiring (first pass):** 110 connected wire groups from 975 runs; labelled ends: 21 mm → TCiRcUITS; 18 mm → TciRcUITS; 6 mm → TciRcUITS; 6 mm → TciRcUITS; 6 mm → MNTERCONNECTING
+
+Every curve, box, word and wire group: [1994 - 940009-01-002 - KCET MicroCOM II MATRIX SYSTEM FUNCTIONAL - DRN DRG - ISS 2 (traced).json](1994%20-%20940009-01-002%20-%20KCET%20MicroCOM%20II%20MATRIX%20SYSTEM%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940009-01-002 - KCET MicroCOM II MATRIX SYSTEM FUNCTIONAL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

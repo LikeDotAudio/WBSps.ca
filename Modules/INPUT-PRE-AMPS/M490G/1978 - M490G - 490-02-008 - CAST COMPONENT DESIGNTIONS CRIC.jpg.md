@@ -11,6 +11,20 @@ Wiki page: [M490G](../../../PAGES/M490G.md)
 - **Size:** 380,101 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-008, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 2–429 mm up
+- **Outlines:** line 846 rings, 9,541 straight (18,657 mm) / 2,277 curved (3,320 mm); text 1,142 rings, 6,658 straight (6,471 mm) / 2,537 curved (3,462 mm)
+- **Centre lines:** 10,728 paths (215 closed); straight 14,392 mm, curved 824 mm; horizontal 5,417 mm, vertical 3,240 mm, diagonal 5,735 mm
+- **Circles and arcs:** 24 circles, 115 arcs; largest r 6.0 @ (95.7, 186.8), r 6.0 @ (294.0, 88.0), r 6.0 @ (293.9, 68.1), r 6.0 @ (231.3, 251.6)
+- **Closed boxes:** 7; named: zio; zio
+- **Dots (junctions):** 3
+- **Words (OCR):** 262 in 230 lines: R2i · input · c5 · RI7 · 4.7/23 · Riz · 22 · Sw | · Sw2 · I5k · wBS Co - 12 · 24440
+- **Wiring (first pass):** 164 connected wire groups from 861 runs, 3 dotted junctions; labelled ends: 197 mm → R23, 22, cio, R2L; 178 mm → P2-7; 145 mm → Ch, ON; 122 mm → Ch OFF; 120 mm → R/43, 820, 144742, 314
+
+Every curve, box, word and wire group: [1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC (traced).json](1978%20-%20M490G%20-%20490-02-008%20-%20CAST%20COMPONENT%20DESIGNTIONS%20CRIC%20%28traced%29.json) (the CAD file: `1978 - M490G - 490-02-008 - CAST COMPONENT DESIGNTIONS CRIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -15,6 +15,20 @@ Wiki page: [M462B](../../../PAGES/M462B.md)
 
 - **1974** (labelled): `DATE SEP 74` — …52BML 3698 USED ON MaTL ~ WBS WAAD-beCK BybTeMB LTD DRN. Dm DATE SEP 74 CKD [Sepl SCALE TOLS _ # M4628 EQUALIZER MODULE COMPONENT L…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 462-02-003, size B (assumed) 432 × 373 mm, 2000 × 1728 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–373 mm up
+- **Outlines:** line 1,076 rings, 9,425 straight (17,286 mm) / 1,919 curved (2,803 mm); text 1,277 rings, 8,631 straight (9,691 mm) / 2,804 curved (3,976 mm); tb 17 rings, 211 straight (418 mm) / 36 curved (56.0 mm)
+- **Centre lines:** 11,679 paths (270 closed); straight 16,422 mm, curved 501 mm; horizontal 5,665 mm, vertical 3,436 mm, diagonal 7,322 mm
+- **Circles and arcs:** 14 circles, 90 arcs; largest r 8.0 @ (247.0, 144.4), r 5.6 @ (185.7, 112.1), r 5.3 @ (253.2, 111.5), r 3.0 @ (300.6, 331.3)
+- **Closed boxes:** 46 (13 in the title block); named: 29 MZe|; z1 Moi; 27 M2pi; 25 MiO; 23 42o; 22 422; 21 V2e; ISS IMOD_; WBS WAAD-BECK BYBTEMB LTD_; 3193; M4628 EQUALIZER MODULE COMPONENT LAYOUT; 3536
+- **Words (OCR):** 201 in 151 lines: O15 · iE2 · -R754* 7 6-8/6 · 6.3/6 · 9371 · c32 (29_ 6816 C2G · R67 · -R6tEK · ~R587sk · 629 Fo8 · 5 E · 5p 236 731 228 225
+- **Title block:** (203, 4)–(390, 53) mm: ISS IMOD_ CKD · USED ON · MATL_ · Jcceuy · WBS WAAD-BECK BYBTEMB LTD_ · 3193 MB · 3536 · DRN · M4628 · DATE SEC · Z59BI · FIniSh · [Seps · EQUALIZER MODULE · 3698 · CKD · COMPONENT LAYOUT · 468 · SCAL
+- **Wiring (first pass):** 107 connected wire groups from 752 runs; labelled ends: 200 mm → iE2, 6.3/6; 162 mm → COHPONENT, 2E2; 105 mm → ISS IMOD_, Jcceuy; 86 mm → COHPONENT; 72 mm → COHPONENT, SIDE
+
+Every curve, box, word and wire group: [1974 - M462B - 462-02-003 - EQUALIZER MODULE COMPONENT LAYOUT (traced).json](1974%20-%20M462B%20-%20462-02-003%20-%20EQUALIZER%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1974 - M462B - 462-02-003 - EQUALIZER MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

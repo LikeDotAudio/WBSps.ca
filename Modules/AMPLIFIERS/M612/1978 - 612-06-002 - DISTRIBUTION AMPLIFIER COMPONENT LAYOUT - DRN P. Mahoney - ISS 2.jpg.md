@@ -23,6 +23,17 @@ Wiki page: [M612](../../../PAGES/M612.md)
 - **Size:** 515,097 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 612-06-002, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 843 rings, 9,726 straight (13,153 mm) / 1,853 curved (1,762 mm); text 187 rings, 2,155 straight (2,689 mm) / 594 curved (720 mm); tb 37 rings, 468 straight (630 mm) / 89 curved (105 mm)
+- **Closed boxes:** 16 (12 in the title block); named: ISSUE; 612-06-002; SCALE
+- **Words (OCR):** 25 in 22 lines: Sw2 · DSI · SwI · Fi · FZ · R35 · C1s · 1/78 · REDRAWN · ISSUE |DATE · REVISION · APP
+- **Title block:** (116, 9)–(334, 121) mm: 1/78 · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M612 · ENG. · DISTRIBUTION AMPLIFIER · COMPONENT · LAYOUT · APP · SCALE · ISSUE · 612-06-002
+
+Every curve, box, word and wire group: [1978 - 612-06-002 - DISTRIBUTION AMPLIFIER COMPONENT LAYOUT - DRN P. Mahoney - ISS 2 (traced).json](1978%20-%20612-06-002%20-%20DISTRIBUTION%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1978 - 612-06-002 - DISTRIBUTION AMPLIFIER COMPONENT LAYOUT - DRN P. Mahoney - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

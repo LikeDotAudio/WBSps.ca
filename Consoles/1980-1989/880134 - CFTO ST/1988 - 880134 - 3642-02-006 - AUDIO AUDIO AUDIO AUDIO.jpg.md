@@ -10,6 +10,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,444,870 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-006, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 2–432 mm up
+- **Outlines:** line 721 rings, 7,981 straight (20,176 mm) / 872 curved (1,284 mm); text 288 rings, 1,658 straight (1,723 mm) / 531 curved (735 mm)
+- **Centre lines:** 4,716 paths (81 closed); straight 11,733 mm, curved 177 mm; horizontal 6,115 mm, vertical 3,529 mm, diagonal 2,089 mm
+- **Circles and arcs:** 0 circles, 40 arcs
+- **Closed boxes:** 33; named: 10
+- **Words (OCR):** 52 in 47 lines: SUB 1-R · SUB 2-L · SUB · 2-R · M1-L · M435 · M435 · 435 · M435 · P2 · P2 · P2
+- **Wiring (first pass):** 65 connected wire groups from 882 runs; labelled ends: 1207 mm → P1, 7,8, AUDIO; 1197 mm → P1, 7,8, AUDIO; 251 mm → P2, P1, 7,8; 247 mm → 10, P1, 7,8; 239 mm → P1, 7,8
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-006 - AUDIO AUDIO AUDIO AUDIO (traced).json](1988%20-%20880134%20-%203642-02-006%20-%20AUDIO%20AUDIO%20AUDIO%20AUDIO%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-006 - AUDIO AUDIO AUDIO AUDIO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

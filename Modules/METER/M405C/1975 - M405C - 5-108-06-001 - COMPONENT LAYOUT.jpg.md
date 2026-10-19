@@ -11,6 +11,15 @@ Wiki page: [M405C](../../../PAGES/M405C.md)
 - **Size:** 5,371,417 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 5-108-06-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–428 mm across, 16–303 mm up
+- **Outlines:** line 1,257 rings, 8,255 straight (12,779 mm) / 1,859 curved (1,790 mm); text 174 rings, 982 straight (918 mm) / 308 curved (344 mm)
+- **Closed boxes:** 36
+
+Every curve, box, word and wire group: [1975 - M405C - 5-108-06-001 - COMPONENT LAYOUT (traced).json](1975%20-%20M405C%20-%205-108-06-001%20-%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1975 - M405C - 5-108-06-001 - COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

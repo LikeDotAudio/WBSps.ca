@@ -11,6 +11,20 @@ Wiki page: [M490N](../../../PAGES/M490N.md)
 - **Size:** 178,263 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-014, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 11–431 mm up
+- **Outlines:** line 270 rings, 3,624 straight (7,762 mm) / 548 curved (761 mm); text 250 rings, 2,091 straight (2,634 mm) / 503 curved (817 mm); tb 2 rings, 55 straight (150 mm) / 1 curved (1.4 mm)
+- **Centre lines:** 2,533 paths (27 closed); straight 5,538 mm, curved 44.1 mm; horizontal 2,258 mm, vertical 1,447 mm, diagonal 1,834 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 4
+- **Words (OCR):** 44 in 34 lines: FADER · (-15 dB ) CH · ON · P1 LEFT · P2 LEFT · AuX · AuX · ON · PRE/POST · Aux · LEFT · CUE
+- **Title block:** (215, 45)–(335, 70) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 122 connected wire groups from 290 runs; labelled ends: 180 mm → PRE/POST; 147 mm → CUE; 139 mm → PRE/POST, CUE; 114 mm → ASSIGN; 58 mm → PRE/POST, AuX
+
+Every curve, box, word and wire group: [1985 - M490N - 490-01-014 - STEREO INPUT MODULE FUNC TIONAL (traced).json](1985%20-%20M490N%20-%20490-01-014%20-%20STEREO%20INPUT%20MODULE%20FUNC%20TIONAL%20%28traced%29.json) (the CAD file: `1985 - M490N - 490-01-014 - STEREO INPUT MODULE FUNC TIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

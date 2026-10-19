@@ -28,6 +28,20 @@ Wiki page: [M813](../../../PAGES/M813.md)
 
 - **1974** (labelled): `iss 74` — …41-43) cris rzo 24 R35 72 (49-56) Qio 2n +0j7 H (57-64) 04 Tiss 74(42 crio 027 DIAL F< C6 IN4746 4k7 740174 ry 22 (7 5 3569 Rb…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 813-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 763 rings, 7,864 straight (19,738 mm) / 1,791 curved (2,722 mm); text 506 rings, 2,970 straight (2,800 mm) / 1,046 curved (1,309 mm); tb 12 rings, 123 straight (197 mm) / 21 curved (26.1 mm)
+- **Centre lines:** 9,919 paths (223 closed); straight 13,100 mm, curved 711 mm; horizontal 4,736 mm, vertical 4,048 mm, diagonal 4,316 mm
+- **Circles and arcs:** 15 circles, 92 arcs; largest r 4.3 @ (316.3, 167.7), r 4.3 @ (316.5, 137.5), r 4.3 @ (316.3, 182.0), r 4.2 @ (316.6, 226.7)
+- **Closed boxes:** 23 (4 in the title block); named: 74 (42; 742174; 74642
+- **Words (OCR):** 93 in 79 lines: NoTES · ALL resistors Are Va W · AND · 4070 · READBACK · ALL CAPACiTORS ARE · AF · crs · UNLES? SpeciFIED · OtheRWiSE · 3569 · LAST
+- **Title block:** (332, 9)–(432, 57) mm: 4153 · 48 · ISSUE IDATE · REVISION · WBS WARD-BECK SYSTEMS · DRM: Mrw · M813 · ENG MrW · RELAY SWITCHER LOGIC CARD · SCHEMATIC · SCALE · ISSUE · 813 - 02-001
+- **Wiring (first pass):** 107 connected wire groups from 833 runs; labelled ends: 1047 mm → 0/33; 874 mm → CD 40701; 327 mm → Cris, crio, 14746 4k7; 251 mm → 74204; 169 mm → crs, CRA, ces, CD 40701
+
+Every curve, box, word and wire group: [1978 - 813-02-001 - RELAY SWITCHER LOGIC CARD SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (traced).json](1978%20-%20813-02-001%20-%20RELAY%20SWITCHER%20LOGIC%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1978 - 813-02-001 - RELAY SWITCHER LOGIC CARD SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -22,6 +22,17 @@ Rotated manual page showing M405 VU meter front and rear layout.
 - **Size:** 2,823,774 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 405-04-013, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 6–430 mm across, 0–287 mm up
+- **Outlines:** line 378 rings, 3,745 straight (7,453 mm) / 771 curved (1,594 mm); text 121 rings, 893 straight (913 mm) / 238 curved (310 mm)
+- **Circles and arcs:** 25 circles, 0 arcs; largest r 9.1 @ (299.7, 143.1), r 6.3 @ (272.1, 143.0), r 3.5 @ (311.9, 105.4), r 3.3 @ (140.3, 62.5)
+- **Closed boxes:** 5
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [19xx - 405-04-013 - PORTABLE EXTENDED RANGE VU METER FRONT & REAR LAYOUT - ISS 2 (2) (traced).json](19xx%20-%20405-04-013%20-%20PORTABLE%20EXTENDED%20RANGE%20VU%20METER%20FRONT%20%26%20REAR%20LAYOUT%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 405-04-013 - PORTABLE EXTENDED RANGE VU METER FRONT & REAR LAYOUT - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

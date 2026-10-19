@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,082,292 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-107-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–278 mm up
+- **Outlines:** line 1,613 rings, 10,938 straight (20,722 mm) / 1,952 curved (2,319 mm); text 260 rings, 1,660 straight (1,364 mm) / 465 curved (542 mm)
+- **Centre lines:** 10,883 paths (227 closed); straight 12,498 mm, curved 105 mm; horizontal 6,242 mm, vertical 3,226 mm, diagonal 3,030 mm
+- **Circles and arcs:** 11 circles, 21 arcs; largest r 1.5 @ (386.4, 57.8), r 1.3 @ (373.0, 33.2), r 1.3 @ (370.6, 33.2), r 1.2 @ (392.5, 58.0)
+- **Closed boxes:** 36
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 193 connected wire groups from 1,513 runs
+
+Every curve, box, word and wire group: [1984 - ST - 14-107-02-002 - UPPER STEREO INPUT MODULES SCHEMA TIC (traced).json](1984%20-%20ST%20-%2014-107-02-002%20-%20UPPER%20STEREO%20INPUT%20MODULES%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1984 - ST - 14-107-02-002 - UPPER STEREO INPUT MODULES SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

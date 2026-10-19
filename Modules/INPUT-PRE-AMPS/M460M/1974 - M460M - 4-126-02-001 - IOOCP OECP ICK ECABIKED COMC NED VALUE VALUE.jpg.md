@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 84,010 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 336 × 432 mm, 850 × 1091 px traced (0.396 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 263 rings, 2,352 straight (7,680 mm) / 529 curved (1,178 mm); text 239 rings, 1,392 straight (2,302 mm) / 410 curved (962 mm)
+- **Centre lines:** 3,496 paths (70 closed); straight 6,063 mm, curved 77.5 mm; horizontal 2,183 mm, vertical 1,428 mm, diagonal 2,452 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Closed boxes:** 4
+- **Words (OCR):** 43 in 39 lines: EREQUENLY · 25khz. · 23 · cio · 68p · 6zo · 620 · Rio · 7i3 · 22p · 620 · 22
+- **Wiring (first pass):** 43 connected wire groups from 308 runs; labelled ends: 263 mm → cio; 122 mm → 23; 112 mm → cio; 93 mm → Rio, 620; 79 mm → 04
+
+Every curve, box, word and wire group: [1974 - M460M - 4-126-02-001 - IOOCP OECP ICK ECABIKED COMC NED VALUE VALUE (traced).json](1974%20-%20M460M%20-%204-126-02-001%20-%20IOOCP%20OECP%20ICK%20ECABIKED%20COMC%20NED%20VALUE%20VALUE%20%28traced%29.json) (the CAD file: `1974 - M460M - 4-126-02-001 - IOOCP OECP ICK ECABIKED COMC NED VALUE VALUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

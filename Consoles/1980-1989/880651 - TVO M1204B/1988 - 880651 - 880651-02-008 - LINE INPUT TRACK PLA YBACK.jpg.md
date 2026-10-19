@@ -10,6 +10,19 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 5,203,005 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880651-02-008, size B (assumed) 306 × 432 mm, 1418 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–306 mm across, 0–414 mm up
+- **Outlines:** line 483 rings, 6,816 straight (19,962 mm) / 811 curved (1,319 mm); text 430 rings, 2,539 straight (2,800 mm) / 733 curved (1,016 mm)
+- **Centre lines:** 6,201 paths (61 closed); straight 12,420 mm, curved 496 mm; horizontal 6,122 mm, vertical 4,239 mm, diagonal 2,059 mm
+- **Circles and arcs:** 16 circles, 72 arcs; largest r 3.5 @ (14.1, 107.4), r 1.4 @ (248.2, 354.0), r 1.4 @ (249.6, 359.2), r 1.4 @ (196.9, 359.2)
+- **Closed boxes:** 117
+- **Words (OCR):** 56 in 42 lines: +25v LED · FLV 110 · 1/2 · 1k2 · 1/2 · CONTROL · COMMON · dBm · TRACK PLA YBACK · CH1 LINE INPUT · TRACK PLA YBACK · CH2 LINE INPUT
+- **Wiring (first pass):** 106 connected wire groups from 750 runs; labelled ends: 215 mm → PLA YBACK, INPUT; 208 mm → PLA YBACK, CH2 LINE INPUT; 195 mm → 19,22; 137 mm → CONTROL, COMMON; 134 mm → +25v, LED, FLV 110
+
+Every curve, box, word and wire group: [1988 - 880651 - 880651-02-008 - LINE INPUT TRACK PLA YBACK (traced).json](1988%20-%20880651%20-%20880651-02-008%20-%20LINE%20INPUT%20TRACK%20PLA%20YBACK%20%28traced%29.json) (the CAD file: `1988 - 880651 - 880651-02-008 - LINE INPUT TRACK PLA YBACK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

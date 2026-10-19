@@ -23,6 +23,20 @@ Wiki page: [T1202A](../../../PAGES/T1202A.md)
 - **Size:** 376,808 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1202-02-011, size B 432 × 284 mm, 2000 × 1314 px traced (0.216 mm/px)
+- **Ink extent:** 15–432 mm across, 0–268 mm up
+- **Outlines:** line 100 rings, 2,870 straight (6,632 mm) / 359 curved (600 mm); text 737 rings, 5,556 straight (6,638 mm) / 1,595 curved (2,473 mm); tb 8 rings, 113 straight (261 mm) / 9 curved (13.4 mm)
+- **Centre lines:** 5,333 paths (76 closed); straight 8,100 mm, curved 243 mm; horizontal 2,979 mm, vertical 1,874 mm, diagonal 3,247 mm
+- **Circles and arcs:** 7 circles, 26 arcs; largest r 5.5 @ (55.8, 239.0), r 5.5 @ (55.6, 200.9), r 1.4 @ (53.9, 240.2), r 1.3 @ (55.5, 198.4)
+- **Closed boxes:** 12 (10 in the title block); named: INPUT CHANNEL M480C INPUt MODULE; (-15dB)[3Je
+- **Words (OCR):** 123 in 103 lines: ALL INPUT CHANNELS · ARE · WIREC · IDENTICAL · MIXING · Busses · 23 · M1 · M1 MASTER · 2B · INPUT · 6F
+- **Title block:** (283, 1)–(432, 77) mm: SEP32 REDRAWN · FOR T1202A JP · (ISSUE |DATE · REVISION · APP · WBS WARD-BECK sYSTEMS · DRN. JP SEP82 · ENG . · Mew · INPUT CHANNEL · CKD Uv · SCHEMATIC · APP · SCALE · ISSUE · 1202- 02 - 011
+- **Wiring (first pass):** 31 connected wire groups from 205 runs; labelled ends: 645 mm → ARE, 6F, CHANNEL, ZH; 410 mm → ARE, 2B, 3,C, 1A; 63 mm → #22 RD, #22BLK, PIN4,5, 20; 57 mm → MIXING, Busses, 6F, M1 MASTER; 53 mm → CHANNEL, FADER, (-15dB)[3Je, 18
+
+Every curve, box, word and wire group: [1982 - 1202-02-011 - INPUT CHANNEL SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).json](1982%20-%201202-02-011%20-%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 1202-02-011 - INPUT CHANNEL SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

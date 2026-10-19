@@ -11,6 +11,21 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 249,615 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 608-02-003, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 236 rings, 3,229 straight (6,602 mm) / 493 curved (708 mm); text 645 rings, 6,364 straight (8,574 mm) / 1,413 curved (2,453 mm); tb 122 rings, 770 straight (960 mm) / 171 curved (217 mm)
+- **Centre lines:** 5,345 paths (79 closed); straight 9,275 mm, curved 205 mm; horizontal 3,560 mm, vertical 2,031 mm, diagonal 3,685 mm
+- **Circles and arcs:** 16 circles, 11 arcs; largest r 1.9 @ (19.8, 251.5), r 1.9 @ (19.8, 199.4), r 1.9 @ (19.8, 182.6), r 1.9 @ (19.8, 191.7)
+- **Closed boxes:** 14 (7 in the title block); named: ISSUE; 608-02-003; SCALE
+- **Dots (junctions):** 1
+- **Words (OCR):** 69 in 47 lines: NOTES: · V /77 DENOTES CHASSIS · ME · DENOTES ELECTRICAL · A1 OUTPUTS · GROUND CR COMMON · (1 CF 2) · 3/ FCR MAXMUM OUTPUT · CAPA · EILITES DC · NCT LOAD NUSED · OLTFUTS_
+- **Title block:** (110, 10)–(327, 112) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M608 _ M6o8A · ENG. MeW 1/2= · AUDIO DISTRIBUTION AMPLIrIER · CKD: · SYSTEM ~WIRING · SCHEMAriC · APP · SCALE · ISSUE · 608-02-003
+- **Wiring (first pass):** 23 connected wire groups from 76 runs; labelled ends: 84 mm → NOTES:, V /77, 4 FHASING ;, TERMINAL; 17 mm → A4 OUTPUTS; 16 mm → A1 OUTPUTS, (1 CF 2); 12 mm → M15VAC, 60 Hz; 12 mm → M15VAC
+
+Every curve, box, word and wire group: [1975 - M608 - 608-02-003 - AUDIO DISTRIBUTION AMPLIFIER (traced).json](1975%20-%20M608%20-%20608-02-003%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M608 - 608-02-003 - AUDIO DISTRIBUTION AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

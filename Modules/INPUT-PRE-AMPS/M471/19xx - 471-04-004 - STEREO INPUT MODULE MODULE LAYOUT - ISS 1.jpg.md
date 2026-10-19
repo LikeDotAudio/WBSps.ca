@@ -22,6 +22,19 @@ M471C stereo input module layout with PCB side view and front panel callouts.
 - **Size:** 547,806 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 471-04-004, size B 432 × 315 mm, 2000 × 1459 px traced (0.216 mm/px)
+- **Ink extent:** 16–429 mm across, 4–305 mm up
+- **Outlines:** line 823 rings, 7,330 straight (17,870 mm) / 1,012 curved (1,695 mm); text 282 rings, 2,022 straight (1,899 mm) / 583 curved (744 mm); tb 340 rings, 2,156 straight (3,614 mm) / 501 curved (882 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 7.0 @ (285.9, 32.3), r 6.2 @ (286.0, 32.3), r 4.3 @ (285.8, 32.3), r 3.8 @ (206.8, 253.0)
+- **Closed boxes:** 21; named: 5w2
+- **Dots (junctions):** 1
+- **Words (OCR):** 60 in 55 lines: WBS · Matic · SwS · Swi 5w2.DSI,O5Z · MOUNTEO ON · 5414-075 · PREAMPLIFiER · Stereo · SUBASSEMBLY · MODE · PI-22 · 12
+- **Title block:** (256, 31)–(432, 307) mm: WBS · Matic · MODE · 12 · 13 · PGw · PEAK · SENS · PRE · PST · AUX · PRE · AUX · PrE · PST · AUX · PrE · PST · 15 · AUX · 16 · BAL · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 471-04-004 - STEREO INPUT MODULE MODULE LAYOUT - ISS 1 (traced).json](19xx%20-%20471-04-004%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 471-04-004 - STEREO INPUT MODULE MODULE LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

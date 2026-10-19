@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,571,079 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94031-04-002, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px)
+- **Ink extent:** 94–421 mm across, 7–197 mm up
+- **Outlines:** line 450 rings, 3,134 straight (9,003 mm) / 466 curved (616 mm); text 115 rings, 734 straight (805 mm) / 222 curved (304 mm); tb 19 rings, 159 straight (188 mm) / 34 curved (39.4 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.8 @ (231.0, 177.7), r 1.3 @ (192.3, 189.6), r 1.2 @ (131.1, 166.2), r 1.1 @ (260.0, 188.1)
+- **Closed boxes:** 38 (4 in the title block); named: DESTNATON VASTER; DESTNATON VASTER; VASTER; COLLEGE CENTENNIAL CENTRAL ELECTRONICS T; 94031-04 002
+- **Words (OCR):** 11 in 10 lines: DESTNATON · VASTER · WBS · WARD-BECK SYSTEMS · CENTENNIAL · COLLEGE · TURRET · TYPICAL LAYOUT · CENTRAL ELECTRONICS · 94031-04 002
+- **Title block:** (342, 23)–(427, 39) mm: WBS · WARD-BECK SYSTEMS · CENTENNIAL · COLLEGE
+
+Every curve, box, word and wire group: [1994 - DOC - 94031-04-002 - DESTINATION MIC VOV MIC VON MIC VCY MASTER (traced).json](1994%20-%20DOC%20-%2094031-04-002%20-%20DESTINATION%20MIC%20VOV%20MIC%20VON%20MIC%20VCY%20MASTER%20%28traced%29.json) (the CAD file: `1994 - DOC - 94031-04-002 - DESTINATION MIC VOV MIC VON MIC VCY MASTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

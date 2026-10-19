@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,192,326 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–304 mm across, 0–432 mm up
+- **Outlines:** line 753 rings, 10,934 straight (18,625 mm) / 1,499 curved (1,852 mm); text 212 rings, 1,179 straight (1,172 mm) / 293 curved (383 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.8 @ (3.8, 142.9), r 0.7 @ (234.9, 244.0)
+- **Closed boxes:** 85; named: 20; 424251474302); Tbio 029 440(132; Bi0; 20; 23
+- **Dots (junctions):** 4
+- **Words (OCR):** 33 in 33 lines: 22 · 20 · Tip · 9986 · T 39 · NORMAL · 45441 · 129 '30030) · 442(43) · Tip · Tbio · 912809 2
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-004 - TIP NORMAL TIP NORMAL TIP NORMAL TIP NORMAL (traced).json](1979%20-%20790236%20-%20790236-04-004%20-%20TIP%20NORMAL%20TIP%20NORMAL%20TIP%20NORMAL%20TIP%20NORMAL%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-004 - TIP NORMAL TIP NORMAL TIP NORMAL TIP NORMAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

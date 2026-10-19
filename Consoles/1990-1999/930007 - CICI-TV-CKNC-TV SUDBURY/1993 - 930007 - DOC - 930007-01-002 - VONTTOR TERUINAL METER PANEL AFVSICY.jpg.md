@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,745,883 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 930007-01-002, size B (assumed) 432 × 293 mm, 2000 × 1358 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 5–269 mm up
+- **Outlines:** line 1,115 rings, 8,692 straight (12,441 mm) / 1,656 curved (2,078 mm); text 202 rings, 1,369 straight (1,264 mm) / 445 curved (569 mm); tb 17 rings, 142 straight (164 mm) / 36 curved (41.9 mm)
+- **Centre lines:** 15,381 paths (154 closed); straight 9,766 mm, curved 105 mm; horizontal 3,715 mm, vertical 2,215 mm, diagonal 3,836 mm
+- **Circles and arcs:** 0 circles, 31 arcs
+- **Closed boxes:** 19 (2 in the title block)
+- **Words (OCR):** 34 in 32 lines: HELDSO · CHANNEL · KRF C ACuM · (SUPPUED · 878 · IPH=2 · pH" · CHANNFL · IPHS · CARE · F8183 · ra
+- **Title block:** (347, 21)–(432, 40) mm: WARD-BECK SYSTEMS · WBS · CICI-TV/CKNC-TV SUDBURY
+- **Wiring (first pass):** 90 connected wire groups from 913 runs; labelled ends: 128 mm → WBS, CICI-TV/CKNC-TV SUDBURY, FUNCTIONAL, 002; 18 mm → BE; 13 mm → ra; 12 mm → Cafa; 12 mm → F8183
+
+Every curve, box, word and wire group: [1993 - 930007 - DOC - 930007-01-002 - VONTTOR TERUINAL METER PANEL AFVSICY (traced).json](1993%20-%20930007%20-%20DOC%20-%20930007-01-002%20-%20VONTTOR%20TERUINAL%20METER%20PANEL%20AFVSICY%20%28traced%29.json) (the CAD file: `1993 - 930007 - DOC - 930007-01-002 - VONTTOR TERUINAL METER PANEL AFVSICY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

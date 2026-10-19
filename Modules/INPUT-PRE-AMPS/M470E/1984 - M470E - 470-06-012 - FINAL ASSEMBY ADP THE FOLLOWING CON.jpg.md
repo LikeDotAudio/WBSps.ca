@@ -11,6 +11,18 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 359,864 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 470-06-012, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 1–422 mm up
+- **Outlines:** line 1,775 rings, 15,212 straight (20,416 mm) / 4,719 curved (4,800 mm); text 631 rings, 5,313 straight (4,753 mm) / 1,821 curved (2,004 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.5 @ (328.2, 225.8), r 5.5 @ (328.8, 273.8), r 3.8 @ (54.0, 345.3), r 3.8 @ (227.5, 347.2)
+- **Closed boxes:** 34
+- **Dots (junctions):** 4
+- **Words (OCR):** 41 in 28 lines: 944 · 40 @ · 184 · 140 · 18 · Jg · a*84 · 498 49 · 38& · 80 · 82 · #8qa
+
+Every curve, box, word and wire group: [1984 - M470E - 470-06-012 - FINAL ASSEMBY ADP THE FOLLOWING CON (traced).json](1984%20-%20M470E%20-%20470-06-012%20-%20FINAL%20ASSEMBY%20ADP%20THE%20FOLLOWING%20CON%20%28traced%29.json) (the CAD file: `1984 - M470E - 470-06-012 - FINAL ASSEMBY ADP THE FOLLOWING CON (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

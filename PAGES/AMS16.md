@@ -31,29 +31,3 @@ tags: ["product", "metering", "2010s"]
 |---|---|---|
 | 2014 | [2014 - AMS16 - Information Sheet.jpg](../Products/METERING/AMS16/2014%20-%20AMS16%20-%20Information%20Sheet.jpg) | [note](../Products/METERING/AMS16/2014%20-%20AMS16%20-%20Information%20Sheet.jpg.md) |
 | 2014 | [2014 - AMS16 - Series Front.jpg](../Products/METERING/AMS16/2014%20-%20AMS16%20-%20Series%20Front.jpg) | [note](../Products/METERING/AMS16/2014%20-%20AMS16%20-%20Series%20Front.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "AMS16",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/AMS16/2014 - AMS16 - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/METERING/AMS16/2014 - AMS16 - Series Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

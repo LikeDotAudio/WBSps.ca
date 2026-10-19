@@ -11,6 +11,20 @@ Wiki page: [M484](../../../PAGES/M484.md)
 - **Size:** 2,485,565 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 484-02-001, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 24–431 mm up
+- **Outlines:** line 1,387 rings, 17,300 straight (17,609 mm) / 3,898 curved (4,701 mm); text 298 rings, 2,913 straight (3,532 mm) / 830 curved (1,313 mm); tb 101 rings, 409 straight (285 mm) / 117 curved (114 mm)
+- **Centre lines:** 25,779 paths (143 closed); straight 18,036 mm, curved 352 mm; horizontal 4,687 mm, vertical 4,209 mm, diagonal 9,141 mm
+- **Circles and arcs:** 6 circles, 48 arcs; largest r 9.7 @ (183.2, 208.0), r 9.7 @ (182.8, 128.6), r 2.2 @ (230.1, 361.6), r 1.9 @ (45.5, 355.4)
+- **Closed boxes:** 4 (2 in the title block)
+- **Words (OCR):** 75 in 71 lines: +16 · c2i · R26 · Ra5 +I6 · [35 · I0 · 620 · Ci9 · Cz0 · 18 · I0 · 0i
+- **Title block:** (80, 56)–(337, 91) mm: ISSMODIcKD- · USEDON · MATL. · WBS · J962
+- **Wiring (first pass):** 98 connected wire groups from 929 runs; labelled ends: 229 mm → 24, r44, Fk, 188p; 170 mm → 739, C 22, R28, I5k; 153 mm → 278, Sik5, 22, C7o; 149 mm → 16, I5k, C29, 47P; 85 mm → +16, R26, c2i, [35
+
+Every curve, box, word and wire group: [1975 - M484 - 484-02-001 - ISSMOD ICKD USEDON (traced).json](1975%20-%20M484%20-%20484-02-001%20-%20ISSMOD%20ICKD%20USEDON%20%28traced%29.json) (the CAD file: `1975 - M484 - 484-02-001 - ISSMOD ICKD USEDON (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

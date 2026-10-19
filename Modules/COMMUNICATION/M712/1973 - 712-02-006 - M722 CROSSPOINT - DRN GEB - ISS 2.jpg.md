@@ -23,6 +23,20 @@ Wiki page: [M712](../../../PAGES/M712.md)
 - **Size:** 1,392,684 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-006, size B 432 × 138 mm, 2000 × 641 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 0–138 mm up
+- **Outlines:** line 348 rings, 2,530 straight (6,044 mm) / 499 curved (612 mm); text 126 rings, 680 straight (609 mm) / 242 curved (306 mm); tb 26 rings, 171 straight (204 mm) / 33 curved (39.6 mm)
+- **Centre lines:** 3,228 paths (82 closed); straight 4,009 mm, curved 49.1 mm; horizontal 1,955 mm, vertical 1,017 mm, diagonal 1,037 mm
+- **Circles and arcs:** 13 circles, 9 arcs; largest r 1.9 @ (264.5, 59.9), r 1.6 @ (269.8, 73.0), r 1.1 @ (300.2, 72.8), r 0.9 @ (289.9, 72.9)
+- **Closed boxes:** 35 (3 in the title block); named: WARD BeCk BYBTEME WBS LTD; M722 CRoSS Point
+- **Words (OCR):** 23 in 19 lines: 617i 2 · N722 · COMPONENT · RiO · 276 · ERMANEHTLT · '/35 · PCB- · McDELS · AUDIC · KNPUI · TAN73 R107 4
+- **Title block:** (345, 6)–(423, 28) mm: WBS · WARD BeCk BYBTEME LTD · M722 · CRoSS Point · SCaLE
+- **Wiring (first pass):** 17 connected wire groups from 173 runs; labelled ends: 305 mm → USED, WBS; 35 mm → USED, WBS; 11 mm → RiO; 11 mm → '/35; 11 mm → RiO, 276
+
+Every curve, box, word and wire group: [1973 - 712-02-006 - M722 CROSSPOINT - DRN GEB - ISS 2 (traced).json](1973%20-%20712-02-006%20-%20M722%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1973 - 712-02-006 - M722 CROSSPOINT - DRN GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

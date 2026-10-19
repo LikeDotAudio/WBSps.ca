@@ -21,6 +21,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 746,043 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8000-03-015, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 256
+- **Ink extent:** 1–432 mm across, 7–300 mm up
+- **Outlines:** line 84 rings, 1,389 straight (5,213 mm) / 119 curved (171 mm); text 404 rings, 2,493 straight (3,301 mm) / 853 curved (1,282 mm); tb 4 rings, 98 straight (216 mm) / 3 curved (5.0 mm)
+- **Centre lines:** 2,351 paths (65 closed); straight 5,030 mm, curved 17.1 mm; horizontal 2,282 mm, vertical 1,214 mm, diagonal 1,533 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 19 (12 in the title block); named: 8000-03-015; ISSUE
+- **Words (OCR):** 46 in 32 lines: 0.200 · 0.200 · 0.350 · 0.175 · 0.175 · TAP 4-40, · 2 PLC'S, · 0.500 · 1.160 · NOTES: · REMOVE ALL BURRS AND SHARP EDGES · 2.0 TOLERANCES: XXX
+- **Title block:** (259, 25)–(430, 94) mm: ISSUEI DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: WS 11/90 · ENG_ WS 11/90 · MOUNTING BRACKET · CKD_ · FOR MASTER CLOCK PCB · APP · SCALE DISC NO: 256 · ISSUE · CODE: 800OM15 · 8000-03-015
+
+Every curve, box, word and wire group: [1990 - 8000-03-015 - MOUNTING BRACKET FOR MASTER CLOCK PCB - DRN WS - ENG WS - ISS 1 (traced).json](1990%20-%208000-03-015%20-%20MOUNTING%20BRACKET%20FOR%20MASTER%20CLOCK%20PCB%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 8000-03-015 - MOUNTING BRACKET FOR MASTER CLOCK PCB - DRN WS - ENG WS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -15,6 +15,19 @@ Wiki page: [M495](../../../PAGES/M495.md)
 
 - **1975** (labelled): `DATE FEB 75` — …461-03-015. RED ON MATL. WBS WARD-BECK SYSTEMS LTD; DRN: DM DATE FEB 75 CKD Rnl SCALE 2 : 1 XX TOLS . Te 5_101B DUAL BOOSTER AMPLIF…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px); scale 2 :1
+- **Ink extent:** 0–336 mm across, 2–431 mm up
+- **Outlines:** line 286 rings, 6,423 straight (10,114 mm) / 1,014 curved (1,464 mm); text 557 rings, 5,400 straight (7,139 mm) / 1,326 curved (2,309 mm); tb 24 rings, 303 straight (616 mm) / 36 curved (54.8 mm)
+- **Centre lines:** 11,760 paths (112 closed); straight 12,288 mm, curved 94.5 mm; horizontal 4,469 mm, vertical 2,511 mm, diagonal 5,308 mm
+- **Circles and arcs:** 2 circles, 14 arcs; largest r 4.1 @ (149.8, 120.5), r 3.3 @ (149.7, 120.4)
+- **Closed boxes:** 10 (3 in the title block); named: 22 Lm3e; 2i Lm3oi; RED; MATL .; WBS WARD-BECK BYSTEMS LTD _; 5-101B BOOSTER DUAL AMPLIFIER LAYOUT; IsS.
+- **Words (OCR):** 85 in 71 lines: 0E3 · E4 0 · 23 · R22 23 · ~R23 22 · 4k7 · R2o4k7 · ~R21 4k7 · C6 · 220/18 · 220/10 · Q4
+- **Title block:** (100, 9)–(251, 80) mm: WBS WARD-BECK BYSTEMS LTD _ · DRN DM · 5-101B · DATE FEB 75 · DUAL · CKD · Rl · SCALE 2 :1 · TOLS
+
+Every curve, box, word and wire group: [1975 - M495 - 461-03-015 - DUAL BOOSTER AMPLIFIER (traced).json](1975%20-%20M495%20-%20461-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M495 - 461-03-015 - DUAL BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

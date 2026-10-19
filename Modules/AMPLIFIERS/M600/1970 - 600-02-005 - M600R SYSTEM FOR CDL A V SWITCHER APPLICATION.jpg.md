@@ -27,6 +27,20 @@ Faint block diagram with specification notes, title block at lower right illegib
 
 - **1970** (labelled): `DATE Oct 70` — …R SYSTE M FOP CDL Aiv Switche? APPLICAT/O N 600-02 0o5 DRN DATE Oct 70 AATERIAL n ' 6a ( Ce…
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 600-02-005, size D 864 × 522 mm, 2000 × 1209 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–522 mm up
+- **Outlines:** line 1,010 rings, 7,614 straight (20,524 mm) / 1,228 curved (2,818 mm); text 173 rings, 1,005 straight (1,629 mm) / 254 curved (585 mm)
+- **Centre lines:** 6,289 paths (182 closed); straight 12,352 mm, curved 80.8 mm; horizontal 5,463 mm, vertical 2,282 mm, diagonal 4,607 mm
+- **Circles and arcs:** 3 circles, 13 arcs; largest r 1.6 @ (659.8, 409.9), r 1.6 @ (500.8, 255.0), r 1.6 @ (577.1, 463.1)
+- **Closed boxes:** 16
+- **Dots (junctions):** 1
+- **Words (OCR):** 28 in 27 lines: (19) · PRE · SPL"TTEP · SYSTEM Gain · smown · 48 48 · (TRAWS DUCER) · 7ru 2407 · 4v0'o · HAHE · (TRANEDUCEP) · 10 * 4
+- **Wiring (first pass):** 78 connected wire groups from 672 runs; labelled ends: 78 mm → BECK, FOA, 600; 54 mm → SUSIEL, SYSTEM, BECK; 48 mm → 600; 42 mm → 0c7; 38 mm → BECK, SUSIEL, SYSTEM
+
+Every curve, box, word and wire group: [1970 - 600-02-005 - M600R SYSTEM FOR CDL A V SWITCHER APPLICATION (traced).json](1970%20-%20600-02-005%20-%20M600R%20SYSTEM%20FOR%20CDL%20A%20V%20SWITCHER%20APPLICATION%20%28traced%29.json) (the CAD file: `1970 - 600-02-005 - M600R SYSTEM FOR CDL A V SWITCHER APPLICATION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

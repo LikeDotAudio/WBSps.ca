@@ -25,6 +25,19 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 1,318,077 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 468-03-115, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 189 rings, 3,107 straight (8,500 mm) / 385 curved (657 mm); text 313 rings, 2,280 straight (2,767 mm) / 651 curved (1,060 mm); tb 16 rings, 154 straight (284 mm) / 30 curved (45.2 mm)
+- **Centre lines:** 3,133 paths (46 closed); straight 6,556 mm, curved 144 mm; horizontal 3,476 mm, vertical 1,423 mm, diagonal 1,656 mm
+- **Circles and arcs:** 2 circles, 19 arcs; largest r 3.4 @ (63.6, 104.8), r 2.0 @ (138.0, 74.1)
+- **Closed boxes:** 11 (7 in the title block)
+- **Words (OCR):** 44 in 37 lines: 5.846 · 5.610 · 4-40 THD · .18 · 2 PLACES · NOTE · REMOVE ALL BURRS? SHARP · 315 · EDCES · MATL 064 · ALUM ALLOY · 1.0
+- **Title block:** (274, 12)–(427, 81) mm: (ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN 42 · Switch · ENG · MounTinG · 22 · BRACKET · APP · SCALE · ISSUE · 468 -03 15
+
+Every curve, box, word and wire group: [1982 - 468-03-115 - SWITCH MOUNTING BRACKET - DRN Jo - ISS 1 (traced).json](1982%20-%20468-03-115%20-%20SWITCH%20MOUNTING%20BRACKET%20-%20DRN%20Jo%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 468-03-115 - SWITCH MOUNTING BRACKET - DRN Jo - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

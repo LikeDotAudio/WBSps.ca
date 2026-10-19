@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 851,181 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 8224-04-003, size D 864 × 580 mm, 2000 × 1344 px traced (0.432 mm/px)
+- **Ink extent:** 93–841 mm across, 16–370 mm up
+- **Outlines:** line 397 rings, 2,819 straight (13,513 mm) / 434 curved (1,304 mm); text 130 rings, 781 straight (1,556 mm) / 264 curved (688 mm); tb 19 rings, 165 straight (365 mm) / 30 curved (69.3 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 7.8 @ (234.2, 314.4), r 7.2 @ (637.4, 302.0), r 7.0 @ (606.0, 302.7), r 6.3 @ (234.2, 314.2)
+- **Closed boxes:** 21 (1 in the title block); named: Mic SCLLCT: 30 IPA-3 HLADSET; SCA
+- **Dots (junctions):** 1
+- **Words (OCR):** 17 in 17 lines: (1789 · (110 mm) · Mic SCLLCT: · 30 · IPA-3 · HLADSET · INPUT · WBS · WARD-BECK SYSTEMS · SCoTT · IpH-3 · DESKMOUNT
+- **Title block:** (683, 48)–(851, 82) mm: WBS · WARD-BECK SYSTEMS · SCoTT · IpH-3
+
+Every curve, box, word and wire group: [19xx - 8224-04-003 - IPH-3 DESKMOUNT INTERPHONE PACK - DRN D. SCOTT - ISS 1 (traced).json](19xx%20-%208224-04-003%20-%20IPH-3%20DESKMOUNT%20INTERPHONE%20PACK%20-%20DRN%20D.%20SCOTT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-04-003 - IPH-3 DESKMOUNT INTERPHONE PACK - DRN D. SCOTT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

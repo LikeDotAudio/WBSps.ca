@@ -11,6 +11,19 @@ Wiki page: [M490G](../../../PAGES/M490G.md)
 - **Size:** 189,671 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-008, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–422 mm up
+- **Outlines:** line 326 rings, 3,812 straight (8,228 mm) / 525 curved (815 mm); text 236 rings, 1,905 straight (2,326 mm) / 619 curved (1,032 mm)
+- **Centre lines:** 2,147 paths (32 closed); straight 5,306 mm, curved 86.9 mm; horizontal 2,410 mm, vertical 1,226 mm, diagonal 1,671 mm
+- **Circles and arcs:** 1 circles, 5 arcs; largest r 4.5 @ (214.9, 148.1)
+- **Closed boxes:** 3; named: Pgmi CUE CTL LOGIC
+- **Words (OCR):** 37 in 34 lines: FADER · (-15dB) CH ON · INSERT · 3I€ · Mic INPUTS · ~60 /-30 dBm · 150 ohm · SENSITIvITY · INPUT · (30dB) · SELECTOR · CONTROL
+- **Wiring (first pass):** 178 connected wire groups from 304 runs; labelled ends: 150 mm → INSERT, (-15dB); 60 mm → CUE; 53 mm → 3I€; 41 mm → 3I€; 38 mm → 3I€
+
+Every curve, box, word and wire group: [1978 - M490G - 490-01-008 - OFF ONISTART TIMER RESET OFF TALLY OFF ISTOP (traced).json](1978%20-%20M490G%20-%20490-01-008%20-%20OFF%20ONISTART%20TIMER%20RESET%20OFF%20TALLY%20OFF%20ISTOP%20%28traced%29.json) (the CAD file: `1978 - M490G - 490-01-008 - OFF ONISTART TIMER RESET OFF TALLY OFF ISTOP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

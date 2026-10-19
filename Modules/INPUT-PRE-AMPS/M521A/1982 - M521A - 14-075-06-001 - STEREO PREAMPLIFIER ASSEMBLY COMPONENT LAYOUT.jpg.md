@@ -15,6 +15,17 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 
 - **1982** (month): `DEC 82` — …IR @2 8283 1 0 45 2 % Tininir IT 882 38 8832 N 85 1g1g1914 DEC 82 IH J 856 "88 8222222222 15z18 198141319131418121 % 77tam 88…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-075-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–432 mm across, 0–287 mm up
+- **Outlines:** line 1,550 rings, 10,245 straight (11,288 mm) / 3,152 curved (3,171 mm); text 114 rings, 634 straight (477 mm) / 226 curved (239 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 4.4 @ (277.7, 109.0), r 3.9 @ (293.5, 92.6), r 2.1 @ (376.3, 134.5), r 2.1 @ (264.9, 107.1)
+- **Closed boxes:** 17
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1982 - M521A - 14-075-06-001 - STEREO PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](1982%20-%20M521A%20-%2014-075-06-001%20-%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M521A - 14-075-06-001 - STEREO PREAMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [M462B](../../../PAGES/M462B.md)
 - **Size:** 105,918 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 462-01-003, size B (assumed) 432 × 334 mm, 1351 × 1045 px traced (0.320 mm/px)
+- **Ink extent:** 0–432 mm across, 0–334 mm up
+- **Outlines:** line 106 rings, 1,716 straight (9,004 mm) / 231 curved (443 mm); text 320 rings, 1,876 straight (2,914 mm) / 571 curved (1,099 mm); tb 11 rings, 131 straight (501 mm) / 14 curved (31.4 mm)
+- **Centre lines:** 2,782 paths (53 closed); straight 6,576 mm, curved 82.6 mm; horizontal 3,283 mm, vertical 1,450 mm, diagonal 1,842 mm
+- **Circles and arcs:** 5 circles, 9 arcs; largest r 4.6 @ (294.0, 226.6), r 1.9 @ (230.3, 150.6), r 1.9 @ (119.2, 151.1), r 1.4 @ (78.6, 172.0)
+- **Closed boxes:** 40 (31 in the title block); named: WBS WARD-BeCK BysTEMs LTD; M462 B E QUALIZER MODULE FUnCTIoNAL DIAG; Za TOLS; 462 - 01-003; ISS_
+- **Words (OCR):** 52 in 43 lines: LF · MF 2 · MF 1 · HF · Boost/ · FREQ · Boost/ · FREQ · Boosti · Boost/ · E0 · cut
+- **Title block:** (88, 8)–(370, 70) mm: IsS MOD ICKD · USED ON · MATL. · WBS WARD-BeCK BysTEMs LTD · 3536 IPKM · DRN. GE B · M462 B · FINISH · DATE oct · E QUALIZER MODULE · CKD eul · SCALE · FUnCTIoNAL DIAG RA M · TOLS · 462 - 01-003
+- **Wiring (first pass):** 19 connected wire groups from 105 runs; labelled ends: 51 mm → Boost/, FREQ; 51 mm → Boost/, FREQ; 48 mm → Boosti, FREQ; 40 mm → FREQ, Boost/; 29 mm → LTD, BysTEMs
+
+Every curve, box, word and wire group: [1974 - M462B - 462-01-003 - BOOST- CUT BOOST- CUT BOOSTI CUT BOOST- CUT (traced).json](1974%20-%20M462B%20-%20462-01-003%20-%20BOOST-%20CUT%20BOOST-%20CUT%20BOOSTI%20CUT%20BOOST-%20CUT%20%28traced%29.json) (the CAD file: `1974 - M462B - 462-01-003 - BOOST- CUT BOOST- CUT BOOSTI CUT BOOST- CUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,16 @@ Wiki page: [M202](../../../PAGES/M202.md)
 - **Size:** 464,779 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 202-04-001, size B (assumed) 432 × 330 mm, 2000 × 1526 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 0–330 mm up
+- **Outlines:** line 296 rings, 4,918 straight (10,247 mm) / 644 curved (1,018 mm); text 312 rings, 2,735 straight (3,509 mm) / 722 curved (1,165 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (22.8, 74.4), r 2.5 @ (93.3, 74.7)
+- **Closed boxes:** 64
+
+Every curve, box, word and wire group: [1979 - M202 - 202-04-001 - LOGIC LATCH MODULE (traced).json](1979%20-%20M202%20-%20202-04-001%20-%20LOGIC%20LATCH%20MODULE%20%28traced%29.json) (the CAD file: `1979 - M202 - 202-04-001 - LOGIC LATCH MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

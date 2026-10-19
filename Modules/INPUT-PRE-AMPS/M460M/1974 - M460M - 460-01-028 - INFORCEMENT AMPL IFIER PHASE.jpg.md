@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 313,289 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 460-01-028, size B (assumed) 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–342 mm across, 2–432 mm up
+- **Outlines:** line 334 rings, 2,691 straight (4,709 mm) / 492 curved (647 mm); text 224 rings, 1,412 straight (1,288 mm) / 505 curved (629 mm)
+- **Centre lines:** 2,739 paths (48 closed); straight 3,273 mm, curved 120 mm; horizontal 1,330 mm, vertical 803 mm, diagonal 1,141 mm
+- **Circles and arcs:** 7 circles, 22 arcs; largest r 3.1 @ (220.1, 288.6), r 1.0 @ (114.5, 246.7), r 0.9 @ (101.2, 249.5), r 0.9 @ (104.5, 236.1)
+- **Closed boxes:** 1; named: 1126
+- **Words (OCR):** 40 in 36 lines: SOUND RE INFORCEMENT · AMPLFIER · PHASE · SOUND · RE INFORCEMENT · PRE. AMPLIFIER · dBm , · 150 OhMS · INE · SENSTTiViTY · INSERT · 14/+16 dam
+- **Wiring (first pass):** 121 connected wire groups from 238 runs; labelled ends: 96 mm → SOUND, RE INFORCEMENT, AMPLFIER, INSERT; 69 mm → INSERT, output, AMPL IF IER, 8- 1094; 37 mm → RE INFORCEMENT; 32 mm → Jok; 21 mm → LINE
+
+Every curve, box, word and wire group: [1974 - M460M - 460-01-028 - INFORCEMENT AMPL IFIER PHASE (traced).json](1974%20-%20M460M%20-%20460-01-028%20-%20INFORCEMENT%20AMPL%20IFIER%20PHASE%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-01-028 - INFORCEMENT AMPL IFIER PHASE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

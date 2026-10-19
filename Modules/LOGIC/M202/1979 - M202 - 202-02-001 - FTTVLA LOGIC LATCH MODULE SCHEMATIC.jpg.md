@@ -11,6 +11,19 @@ Wiki page: [M202](../../../PAGES/M202.md)
 - **Size:** 400,485 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 202-02-001, size B (assumed) 432 × 295 mm, 2000 × 1367 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–292 mm up
+- **Outlines:** line 561 rings, 8,553 straight (12,586 mm) / 2,069 curved (2,656 mm); text 227 rings, 1,815 straight (1,650 mm) / 654 curved (840 mm)
+- **Centre lines:** 13,076 paths (130 closed); straight 9,750 mm, curved 293 mm; horizontal 3,095 mm, vertical 2,449 mm, diagonal 4,205 mm
+- **Circles and arcs:** 5 circles, 69 arcs; largest r 3.5 @ (240.8, 259.6), r 3.3 @ (240.3, 196.9), r 3.3 @ (240.3, 280.4), r 0.9 @ (98.6, 255.1)
+- **Closed boxes:** 16
+- **Words (OCR):** 52 in 46 lines: NOTEs · ACL · Resistors ARE · specifieD Otherwise · LAST · Are · Cio · USE · PCB 9-102 · CRI · CRS · 74c4
+- **Wiring (first pass):** 119 connected wire groups from 784 runs; labelled ends: 154 mm → WBS; 144 mm → WBS; 68 mm → 74c00; 61 mm → 412, CRI}; 53 mm → 74c4, 435
+
+Every curve, box, word and wire group: [1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC (traced).json](1979%20-%20M202%20-%20202-02-001%20-%20FTTVLA%20LOGIC%20LATCH%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1979 - M202 - 202-02-001 - FTTVLA LOGIC LATCH MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

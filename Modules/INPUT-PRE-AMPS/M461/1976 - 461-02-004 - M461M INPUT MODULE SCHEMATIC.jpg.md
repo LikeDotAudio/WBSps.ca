@@ -21,6 +21,19 @@ Close-up photo of the title block of an M461M input module schematic held in a h
 - **Size:** 1,967,304 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 461-02-004, size B (assumed) 432 × 243 mm, 2000 × 1125 px traced (0.216 mm/px)
+- **Ink extent:** 0–394 mm across, 38–243 mm up
+- **Outlines:** line 116 rings, 1,926 straight (2,871 mm) / 267 curved (328 mm); text 214 rings, 1,515 straight (1,604 mm) / 369 curved (480 mm); tb 30 rings, 168 straight (151 mm) / 34 curved (37.1 mm)
+- **Centre lines:** 4,671 paths (31 closed); straight 3,358 mm, curved 16.8 mm; horizontal 852 mm, vertical 671 mm, diagonal 1,835 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Words (OCR):** 21 in 13 lines: conTRol · com1 · 82 · MaTL; · WARD-beCK BYBTEMS LTD; · Finisk · DEN · M461 M · GKD: TA · [NPUT MODULE · SCALE · SCHEMATIC
+- **Title block:** (69, 79)–(266, 142) mm: DEN · M461 M · GKD: TA · [NPUT MODULE · SCALE
+- **Wiring (first pass):** 32 connected wire groups from 119 runs; labelled ends: 111 mm → LTD;; 63 mm → "AnG, PlAer-oa; 36 mm → WARD-beCK, BYBTEMS, M461 M, MODULE; 33 mm → MODULE, SCHEMATIC, ISS.; 23 mm → BYBTEMS, LTD;
+
+Every curve, box, word and wire group: [1976 - 461-02-004 - M461M INPUT MODULE SCHEMATIC (traced).json](1976%20-%20461-02-004%20-%20M461M%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1976 - 461-02-004 - M461M INPUT MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

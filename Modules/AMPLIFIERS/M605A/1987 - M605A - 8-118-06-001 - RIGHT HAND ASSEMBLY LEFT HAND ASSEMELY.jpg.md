@@ -11,6 +11,17 @@ Wiki page: [M605A](../../../PAGES/M605A.md)
 - **Size:** 199,239 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-118-06-001, size B (assumed) 262 × 432 mm, 1214 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–262 mm across, 0–413 mm up
+- **Outlines:** line 84 rings, 1,869 straight (5,009 mm) / 450 curved (449 mm); text 322 rings, 3,894 straight (4,730 mm) / 949 curved (1,122 mm); tb 8 rings, 236 straight (373 mm) / 29 curved (34.3 mm)
+- **Closed boxes:** 7 (7 in the title block)
+- **Words (OCR):** 41 in 31 lines: NOTE · RESISTOR? ARE · ALL · 300_ '2 W · CR2oz · R2o3 · R2o7 · R2o4 · R2o8 · R2os · R2os · RiGht HAND
+- **Title block:** (41, 0)–(262, 107) mm: ISSUE · DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. GEB · 8-118 · ENG.GEB 1/79 · ISOLATION NETWORK · CKD Lll · COMPONENT LAYOUT · APP · SCALE · ISSUE · 8-118-06-001 · 2:1
+
+Every curve, box, word and wire group: [1987 - M605A - 8-118-06-001 - RIGHT HAND ASSEMBLY LEFT HAND ASSEMELY (traced).json](1987%20-%20M605A%20-%208-118-06-001%20-%20RIGHT%20HAND%20ASSEMBLY%20LEFT%20HAND%20ASSEMELY%20%28traced%29.json) (the CAD file: `1987 - M605A - 8-118-06-001 - RIGHT HAND ASSEMBLY LEFT HAND ASSEMELY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

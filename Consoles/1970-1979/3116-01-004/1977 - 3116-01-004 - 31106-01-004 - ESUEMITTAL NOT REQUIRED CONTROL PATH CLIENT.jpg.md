@@ -9,6 +9,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,637,860 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 31106-01-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 827 rings, 8,533 straight (13,023 mm) / 1,610 curved (2,250 mm); text 953 rings, 5,909 straight (5,996 mm) / 1,961 curved (2,715 mm)
+- **Centre lines:** 11,031 paths (213 closed); straight 11,007 mm, curved 542 mm; horizontal 3,632 mm, vertical 2,920 mm, diagonal 4,454 mm
+- **Circles and arcs:** 31 circles, 110 arcs; largest r 2.0 @ (252.8, 4.4), r 1.9 @ (256.8, 4.3), r 1.8 @ (114.9, 429.7), r 1.8 @ (114.3, 379.7)
+- **Closed boxes:** 28
+- **Wiring (first pass):** 106 connected wire groups from 702 runs
+
+Every curve, box, word and wire group: [1977 - 3116-01-004 - 31106-01-004 - ESUEMITTAL NOT REQUIRED CONTROL PATH CLIENT (traced).json](1977%20-%203116-01-004%20-%2031106-01-004%20-%20ESUEMITTAL%20NOT%20REQUIRED%20CONTROL%20PATH%20CLIENT%20%28traced%29.json) (the CAD file: `1977 - 3116-01-004 - 31106-01-004 - ESUEMITTAL NOT REQUIRED CONTROL PATH CLIENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

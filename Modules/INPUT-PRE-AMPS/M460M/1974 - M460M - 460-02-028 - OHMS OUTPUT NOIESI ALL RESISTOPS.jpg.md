@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 427,738 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 460-02-028, size B (assumed) 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–342 mm across, 0–432 mm up
+- **Outlines:** line 665 rings, 8,006 straight (13,176 mm) / 1,801 curved (2,294 mm); text 347 rings, 2,226 straight (2,258 mm) / 701 curved (941 mm)
+- **Centre lines:** 9,641 paths (122 closed); straight 9,378 mm, curved 592 mm; horizontal 3,841 mm, vertical 2,077 mm, diagonal 3,459 mm
+- **Circles and arcs:** 38 circles, 97 arcs; largest r 1.4 @ (280.6, 57.8), r 1.3 @ (88.9, 326.0), r 1.3 @ (88.9, 370.4), r 1.3 @ (50.7, 270.4)
+- **Closed boxes:** 8
+- **Words (OCR):** 58 in 50 lines: Dipect Outplt · aBm, · 367 150 O-MS · Left Output · R81 · NQIESL · CAPAciTORS ARE · Resistops · AND · Right output · ALL · UNLESS Otherwise SpECIFIED.
+- **Wiring (first pass):** 102 connected wire groups from 477 runs; labelled ends: 110 mm → R81; 97 mm → Re6, Pan INSERT; 77 mm → RS 1/2; 60 mm → LEVEL; 60 mm → FB 1/2
+
+Every curve, box, word and wire group: [1974 - M460M - 460-02-028 - OHMS OUTPUT NOIESI ALL RESISTOPS (traced).json](1974%20-%20M460M%20-%20460-02-028%20-%20OHMS%20OUTPUT%20NOIESI%20ALL%20RESISTOPS%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-02-028 - OHMS OUTPUT NOIESI ALL RESISTOPS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

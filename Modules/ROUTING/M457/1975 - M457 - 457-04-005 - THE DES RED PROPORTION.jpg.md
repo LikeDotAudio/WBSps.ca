@@ -11,6 +11,17 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 1,149,597 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 457-04-005, size B (assumed) 322 × 432 mm, 1489 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–322 mm across, 1–430 mm up
+- **Outlines:** line 55 rings, 1,347 straight (3,790 mm) / 127 curved (176 mm); text 655 rings, 3,726 straight (3,424 mm) / 1,476 curved (1,914 mm); tb 384 rings, 2,563 straight (5,135 mm) / 620 curved (975 mm)
+- **Closed boxes:** 13 (12 in the title block); named: ASSIGMHENT switches through Swi Swb When
+- **Words (OCR):** 99 in 68 lines: WBS · M457 · SEnS iTivity controls R2 , · and R8 (outer knobs) : · order · SEN-C-MiX · LEVEL contro · accommodate constant · settings · AIXER · ing nput · leve I $
+- **Title block:** (126, 0)–(318, 328) mm: WBS · M457 · SEnS iTivity controls R2 , · and R8 (outer knobs) : · order · SEN-C-MiX · LEVEL contro · accommodate constant · settings · AIXER · ing nput · leve I $ · the SENS | = · control: · rovide ·
+
+Every curve, box, word and wire group: [1975 - M457 - 457-04-005 - THE DES RED PROPORTION (traced).json](1975%20-%20M457%20-%20457-04-005%20-%20THE%20DES%20RED%20PROPORTION%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-04-005 - THE DES RED PROPORTION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

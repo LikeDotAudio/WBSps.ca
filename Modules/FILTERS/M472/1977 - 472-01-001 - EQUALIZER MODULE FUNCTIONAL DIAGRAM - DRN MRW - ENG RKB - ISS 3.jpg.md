@@ -29,6 +29,20 @@ Wiki page: [M472](../../../PAGES/M472.md)
 
 - **1977** (labelled): `DRAWN 9/77` — …Ut FREQ_ Hi LO Boosti CUt LF SHELF MF PEAK HF SHELF 10/77 REDRAWN 9/77 TERMINOLOGY UPDATED REVISION AAS ISSUE |DATE APP WBS WARD-B…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 472-01-001, size B 432 × 323 mm, 2000 × 1494 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–302 mm up
+- **Outlines:** line 170 rings, 2,519 straight (7,267 mm) / 261 curved (401 mm); text 318 rings, 2,338 straight (3,029 mm) / 572 curved (915 mm); tb 15 rings, 181 straight (370 mm) / 33 curved (48.8 mm)
+- **Centre lines:** 2,557 paths (43 closed); straight 5,611 mm, curved 36.0 mm; horizontal 2,521 mm, vertical 1,391 mm, diagonal 1,699 mm
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.4 @ (226.7, 193.3), r 1.2 @ (184.1, 104.5)
+- **Closed boxes:** 13 (11 in the title block)
+- **Words (OCR):** 46 in 39 lines: EQ · INSERT · output · INPUT · BST · BST · ~8dBm · ~8 dBm · BoOST / · BooSTI · Boosti · FREQ.
+- **Title block:** (263, 2)–(432, 97) mm: 10/77 · REDRAWN · 9/77 TERMINOLOGY UPDATED · AAS · ISSUE |DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN MrW · M472 · ENG RKB · EQUALIZER MODULE · CKD Rell · FUNCTIONAL DIAGRAM · APP · ~SCALE ·
+- **Wiring (first pass):** 94 connected wire groups from 185 runs; labelled ends: 482 mm → INPUT, ~8dBm, BST; 121 mm → output, ~8 dBm; 87 mm → HF SHELF; 57 mm → CUt; 40 mm → BST
+
+Every curve, box, word and wire group: [1977 - 472-01-001 - EQUALIZER MODULE FUNCTIONAL DIAGRAM - DRN MRW - ENG RKB - ISS 3 (traced).json](1977%20-%20472-01-001%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20MRW%20-%20ENG%20RKB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1977 - 472-01-001 - EQUALIZER MODULE FUNCTIONAL DIAGRAM - DRN MRW - ENG RKB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

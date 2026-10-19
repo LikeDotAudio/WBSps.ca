@@ -15,6 +15,18 @@ Wiki page: [M413](../../../PAGES/M413.md)
 
 - **1978** (month): `FEB. 1978` — …r23 JQ 20 C 23 R3i [r23 22 DRN D,P $ FINISH clean DATE 2.7. FEB. 1978 MATERIAL CHKD WARD BECK SYSTEMS LT M 413 TALK BACK AMPLIFIE…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 168-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–287 mm up
+- **Outlines:** line 2,468 rings, 15,180 straight (14,722 mm) / 3,692 curved (3,413 mm); text 359 rings, 2,818 straight (2,714 mm) / 942 curved (989 mm); tb 34 rings, 157 straight (137 mm) / 37 curved (39.8 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.3 @ (304.3, 220.3), r 3.6 @ (300.7, 250.1), r 3.6 @ (99.6, 249.7), r 2.0 @ (219.9, 180.2)
+- **Closed boxes:** 34 (9 in the title block); named: ~Lee ]; 15; BECK WARD SYSTEMS LTD;; M413 AMPLIFIER TALK BACK; SVEMHEONGLES MNGBERECRAEO JACIS; 06 168; ISS_; TOLS
+- **Words (OCR):** 54 in 47 lines: 22 · C5 · Eie · c19 · CJce · 2 6 · ~Lee ] · LR26 · R4 · Oa 22 · 21 · R22
+- **Title block:** (181, 13)–(407, 61) mm: FINISH · WARD · BECK SYSTEMS LTD; · DRN · D.p ; · clean · DATE 2 T FEB 970 · MATERIAL · M413 · CHKD · TALK BACK · AMPLIFIER · SCALE · SVEMHEONGLES · TOLS · MNGBERECRAEO JACIS · 06
+
+Every curve, box, word and wire group: [1978 - M413 - 168-06-001 - TALK BACK AMPLIFIER LAYCUT RACT (traced).json](1978%20-%20M413%20-%20168-06-001%20-%20TALK%20BACK%20AMPLIFIER%20LAYCUT%20RACT%20%28traced%29.json) (the CAD file: `1978 - M413 - 168-06-001 - TALK BACK AMPLIFIER LAYCUT RACT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

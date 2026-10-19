@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,023,383 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940249-01-001, size B (assumed) 432 × 274 mm, 2000 × 1268 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 23–413 mm across, 4–256 mm up
+- **Outlines:** line 2,041 rings, 10,806 straight (20,303 mm) / 1,264 curved (1,869 mm); text 504 rings, 3,038 straight (3,469 mm) / 854 curved (1,194 mm); tb 11 rings, 113 straight (158 mm) / 21 curved (20.8 mm)
+- **Centre lines:** 21,936 paths (123 closed); straight 15,620 mm, curved 218 mm; horizontal 4,500 mm, vertical 4,206 mm, diagonal 6,915 mm
+- **Circles and arcs:** 23 circles, 26 arcs; largest r 6.7 @ (210.3, 237.3), r 6.7 @ (185.3, 162.5), r 6.6 @ (147.9, 150.1), r 2.7 @ (309.2, 218.9)
+- **Closed boxes:** 21 (13 in the title block); named: AMPUFIERS MATRIX ilelelalell Eeblekchlel; AMPUFIERS ilelelalell; MATRIX Eeblekchlel; M6S2 BLANK; M6S2; BLANK
+- **Dots (junctions):** 2
+- **Words (OCR):** 58 in 48 lines: MZO1B · LEGEND · MCR · PROGRAM SOUND · INPUT · CROSSPOINT NORMALLY ON · SWITCHED OFF · A10 · CROSSPOINT · NORMALLY OFF SWITCHED ON · PROD · PROGRAM SOUND
+- **Title block:** (331, 3)–(418, 36) mm: SSUE · REMSION · WARD-BECK SYSTEMS · WBS · DRN. · CENTENNIAL COLLEGE · ENG. · RADIO INTERCOM · CKD; · FUNCTIONAL · SCALE DISC NO: · 940249-01-001 · SSUE · CODE: 94249F01
+- **Wiring (first pass):** 357 connected wire groups from 1,576 runs, 2 dotted junctions; labelled ends: 84 mm → MZO1B; 83 mm → A10; 71 mm → 188; 62 mm → 188, FUNCTIONAL, DIAGRAM; 58 mm → M6S2
+
+Every curve, box, word and wire group: [1994 - DOC - 940249-01-001 - CENTENNIAL COLLEGE RADIO INTERCOM FUNCTIONAL (traced).json](1994%20-%20DOC%20-%20940249-01-001%20-%20CENTENNIAL%20COLLEGE%20RADIO%20INTERCOM%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1994 - DOC - 940249-01-001 - CENTENNIAL COLLEGE RADIO INTERCOM FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

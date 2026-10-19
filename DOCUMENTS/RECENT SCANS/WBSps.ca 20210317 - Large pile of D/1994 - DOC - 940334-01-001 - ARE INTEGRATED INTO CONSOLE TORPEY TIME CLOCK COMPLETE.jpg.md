@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,839,630 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940334-01-001, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 18–424 mm across, 6–272 mm up
+- **Outlines:** line 1,862 rings, 14,908 straight (29,000 mm) / 2,612 curved (3,044 mm); text 421 rings, 2,506 straight (2,139 mm) / 755 curved (908 mm); tb 21 rings, 159 straight (199 mm) / 39 curved (42.3 mm)
+- **Centre lines:** 19,602 paths (339 closed); straight 18,363 mm, curved 77.8 mm; horizontal 7,534 mm, vertical 5,200 mm, diagonal 5,629 mm
+- **Circles and arcs:** 1 circles, 26 arcs; largest r 2.2 @ (34.4, 262.5)
+- **Closed boxes:** 88 (5 in the title block); named: AIR CHFI RENAISSANCE MK FUNCTIONAL; 001 940334-; Cu=
+- **Dots (junctions):** 2
+- **Words (OCR):** 56 in 53 lines: LEGEND · CCNSOE · Mcnitor · STATE · OuTUTS · UuS ^ Richt · VOICC LEFT · -I0/-I0 · PDKER · Ohus · R]cRCUD TIcR · Uo
+- **Title block:** (345, 22)–(430, 39) mm: WBS · WARD-BECK SYSTEMS · CHFI · AIR
+- **Wiring (first pass):** 311 connected wire groups from 1,869 runs, 6 dotted junctions; labelled ends: 935 mm → R]cRCUD TIcR; 293 mm → UuS ^ Richt; 151 mm → RIC T; 124 mm → WBS, 001, 940334-; 78 mm → STEREOE
+
+Every curve, box, word and wire group: [1994 - DOC - 940334-01-001 - ARE INTEGRATED INTO CONSOLE TORPEY TIME CLOCK COMPLETE (traced).json](1994%20-%20DOC%20-%20940334-01-001%20-%20ARE%20INTEGRATED%20INTO%20CONSOLE%20TORPEY%20TIME%20CLOCK%20COMPLETE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940334-01-001 - ARE INTEGRATED INTO CONSOLE TORPEY TIME CLOCK COMPLETE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 17 words corrected)

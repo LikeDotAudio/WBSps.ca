@@ -10,6 +10,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,232,968 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-005, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–304 mm across, 1–432 mm up
+- **Outlines:** line 300 rings, 3,217 straight (7,345 mm) / 414 curved (576 mm); text 271 rings, 1,817 straight (1,997 mm) / 582 curved (804 mm)
+- **Centre lines:** 3,232 paths (50 closed); straight 5,374 mm, curved 58.1 mm; horizontal 1,998 mm, vertical 1,930 mm, diagonal 1,447 mm
+- **Circles and arcs:** 0 circles, 12 arcs
+- **Closed boxes:** 17; named: 10; ESE 370 DIGIIAL IMER
+- **Words (OCR):** 52 in 40 lines: NQIE; · LEDS · ARE NOT PROVIDED WITH PPM'S · ALL · OTHER WIRING IS IDENTICAL · WHEN PPM'S · ARE SUPPLIED · UTILITY · UTILITY · RIGHT · LEFT · M435
+- **Wiring (first pass):** 49 connected wire groups from 374 runs; labelled ends: 1364 mm → +25v, SIGNAL, -25v, 20; 184 mm → P2, P1, 7,8; 179 mm → P2, 10; 53 mm → -25v, +25v; 40 mm → 10
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT (traced).json](1988%20-%20880134%20-%203642-02-005%20-%20DENTICAL%20PLIED%20UTILITY%20RIGHT%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-005 - DENTICAL PLIED UTILITY RIGHT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

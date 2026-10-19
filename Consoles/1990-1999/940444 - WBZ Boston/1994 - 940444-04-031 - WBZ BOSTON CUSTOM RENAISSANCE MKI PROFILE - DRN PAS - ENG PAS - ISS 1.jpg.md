@@ -22,6 +22,18 @@ Wiki page: [Job-940444](../../../PAGES/Job-940444.md)
 - **Size:** 344,983 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940444-04-031, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 228–818 mm across, 14–369 mm up
+- **Outlines:** line 203 rings, 1,657 straight (18,774 mm) / 206 curved (502 mm); text 111 rings, 698 straight (1,527 mm) / 210 curved (556 mm); tb 18 rings, 162 straight (358 mm) / 31 curved (73.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.6 @ (552.6, 196.3)
+- **Closed boxes:** 37 (2 in the title block); named: 2200; 2200; WBZUBOSTON PSSFNCE RENAL MKI; 940444 031
+- **Words (OCR):** 12 in 11 lines: 2200 · HEALPHGNE · CLOC < SUPFUED · WBS · WARD · BECK   SYSTEMS · WBZUBOSTON · RENAL · PSSFNCE MKI · 940444 · 031
+- **Title block:** (660, 46)–(830, 79) mm: WBS · WARD · BECK   SYSTEMS · WBZUBOSTON
+
+Every curve, box, word and wire group: [1994 - 940444-04-031 - WBZ BOSTON CUSTOM RENAISSANCE MKI PROFILE - DRN PAS - ENG PAS - ISS 1 (traced).json](1994%20-%20940444-04-031%20-%20WBZ%20BOSTON%20CUSTOM%20RENAISSANCE%20MKI%20PROFILE%20-%20DRN%20PAS%20-%20ENG%20PAS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940444-04-031 - WBZ BOSTON CUSTOM RENAISSANCE MKI PROFILE - DRN PAS - ENG PAS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

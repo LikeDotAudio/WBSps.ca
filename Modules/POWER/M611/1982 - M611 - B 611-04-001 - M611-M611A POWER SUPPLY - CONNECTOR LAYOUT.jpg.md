@@ -11,6 +11,19 @@ Wiki page: [M611](../../../PAGES/M611.md)
 - **Size:** 2,206,487 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 611-04-001, size B (assumed) 432 × 272 mm, 2000 × 1258 px traced (0.216 mm/px)
+- **Ink extent:** 11–429 mm across, 4–272 mm up
+- **Outlines:** line 153 rings, 1,844 straight (3,466 mm) / 350 curved (572 mm); text 555 rings, 3,473 straight (3,744 mm) / 987 curved (1,393 mm); tb 2 rings, 41 straight (97.3 mm) / 6 curved (9.4 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (168.4, 161.3), r 1.6 @ (106.7, 117.2)
+- **Closed boxes:** 1
+- **Dots (junctions):** 8
+- **Words (OCR):** 88 in 54 lines: NOTES: · CONDitiONAL STRAP FOR M611 : · 125V · INPuT STRAP PIN To PIN · I5V INPUT STRAP PIN To PIN · STRAP Pin To Pin · 2S0v INPUT STRAP PIN · CONDITIONAL STRAP FOR M6I1A: · To PIN · 230v INPuT STRAP PIN · To Pin · 210v
+- **Title block:** (342, 28)–(432, 44) mm: WBS WARD-BECK Systemb
+
+Every curve, box, word and wire group: [1982 - M611 - B 611-04-001 - M611-M611A POWER SUPPLY - CONNECTOR LAYOUT (traced).json](1982%20-%20M611%20-%20B%20611-04-001%20-%20M611-M611A%20POWER%20SUPPLY%20-%20CONNECTOR%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M611 - B 611-04-001 - M611-M611A POWER SUPPLY - CONNECTOR LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

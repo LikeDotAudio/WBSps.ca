@@ -11,6 +11,20 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 522,573 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 813 rings, 14,304 straight (16,642 mm) / 2,739 curved (3,735 mm); text 393 rings, 4,292 straight (4,694 mm) / 1,056 curved (1,485 mm); tb 8 rings, 36 straight (30.9 mm) / 7 curved (7.1 mm)
+- **Centre lines:** 13,544 paths (106 closed); straight 14,317 mm, curved 655 mm; horizontal 5,548 mm, vertical 3,026 mm, diagonal 5,743 mm
+- **Circles and arcs:** 16 circles, 28 arcs; largest r 15.3 @ (160.5, 271.6), r 15.2 @ (210.5, 330.9), r 15.0 @ (289.0, 297.1), r 12.5 @ (160.6, 320.9)
+- **Closed boxes:** 21 (2 in the title block); named: r44; R42; Ilcra; R4Z; HR43; R34; [2z; c 27; r28; M 6 2 | MONITOR AMPLIFIER 20W LA (OUT; 2'1
+- **Words (OCR):** 67 in 60 lines: Holes FoR · TRANSFER OF · TrAck ONLY · R53 · rsi · Q5 · 232 · r44 · Tr48 · 43 · 247 · R42
+- **Title block:** (87, 32)–(253, 92) mm: CNGLES · WARD · BECK · DRN · Pp5 · M 6 2 | · 27 July 70 · 20W · DATE
+- **Wiring (first pass):** 138 connected wire groups from 697 runs; labelled ends: 142 mm → 22; 101 mm → TRANSFER; 96 mm → MONITOR AMPLIFIER, LA (OUT, ISS:, 173; 85 mm → DATE, AL; 82 mm → SCNE, 2'1
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-001 - DOTTED FOR MINUS TZEKE (traced).json](1970%20-%20M621%20-%20621-02-001%20-%20DOTTED%20FOR%20MINUS%20TZEKE%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-001 - DOTTED FOR MINUS TZEKE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

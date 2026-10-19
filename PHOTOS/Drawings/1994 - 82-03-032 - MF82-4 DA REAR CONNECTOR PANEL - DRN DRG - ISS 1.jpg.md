@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 517,907 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 82-03-032, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 69–848 mm across, 0–492 mm up
+- **Outlines:** line 834 rings, 5,847 straight (28,430 mm) / 1,179 curved (2,899 mm); text 258 rings, 1,405 straight (2,633 mm) / 503 curved (1,268 mm); tb 23 rings, 184 straight (411 mm) / 37 curved (77.5 mm)
+- **Centre lines:** 7,810 paths (199 closed); straight 18,429 mm, curved 212 mm; horizontal 9,962 mm, vertical 3,512 mm, diagonal 4,956 mm
+- **Circles and arcs:** 2 circles, 26 arcs; largest r 2.0 @ (120.2, 73.2), r 1.8 @ (675.3, 393.4)
+- **Closed boxes:** 52 (4 in the title block); named: MF82-4 DA REAR CONNECTOR PANEL; 03-032; DSC NO
+- **Words (OCR):** 36 in 32 lines: 0.750 · CETAL · 0400 · 005e · Tara · RTA · REO D · PITCHES · 16,603 · nrn · REC D /FOLC · 2,700
+- **Title block:** (689, 47)–(859, 80) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 82-03-032 - MF82-4 DA REAR CONNECTOR PANEL - DRN DRG - ISS 1 (traced).json](1994%20-%2082-03-032%20-%20MF82-4%20DA%20REAR%20CONNECTOR%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 82-03-032 - MF82-4 DA REAR CONNECTOR PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

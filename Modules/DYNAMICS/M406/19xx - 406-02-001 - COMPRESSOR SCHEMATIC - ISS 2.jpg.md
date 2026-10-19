@@ -26,6 +26,20 @@ Wide schematic of a compressor module, title block at lower right too small to r
 
 - **1969** (labelled): `daTE MAR 69` — …L 7k DA DJG Mard BECK S"STEMS Ltd MAOS COMPRESSOR SCHEMATIC daTE MAR 69 CHKD SCAE TOLs F 7e @iEcRAD PLAC 406- 02- 0oi 220p…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 406-02-001, size B 432 × 132 mm, 2000 × 610 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 0–132 mm up
+- **Outlines:** line 1,185 rings, 11,735 straight (17,764 mm) / 2,563 curved (3,127 mm); text 189 rings, 1,118 straight (1,008 mm) / 370 curved (466 mm)
+- **Centre lines:** 13,993 paths (199 closed); straight 11,718 mm, curved 229 mm; horizontal 4,292 mm, vertical 3,005 mm, diagonal 4,421 mm
+- **Circles and arcs:** 6 circles, 50 arcs; largest r 4.4 @ (213.3, 92.9), r 4.4 @ (184.0, 60.0), r 4.4 @ (213.7, 113.6), r 4.3 @ (89.8, 52.9)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Words (OCR):** 21 in 17 lines: 50/35 · ThAESHOLD · NOTES · UNLESS · OTHFRWSE STATED · RESISTORS Vaw VALUE IN Ohms · CAPACITCR VALUES MICROFARADS · F02IAE · ZNZIDZ · LasT COMPCNENT DESIGNATIONS · RBO (40 Qii CriI · am
+- **Wiring (first pass):** 104 connected wire groups from 850 runs, 2 dotted junctions; labelled ends: 1097 mm → BECM; 110 mm → 2H4275; 85 mm → am; 78 mm → ZNZIDZ; 74 mm → F02IAE
+
+Every curve, box, word and wire group: [19xx - 406-02-001 - COMPRESSOR SCHEMATIC - ISS 2 (traced).json](19xx%20-%20406-02-001%20-%20COMPRESSOR%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 406-02-001 - COMPRESSOR SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -25,6 +25,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 
 - **1977** (labelled): `DATE MAY 77` — …MODICKD USED ON MATL . WBS WAAD-BECK BYSTEMB LTD. DRN: MRW DATE MAY 77 CKD.Ro SCALE TOLS _ { 7-107 FINISH DYNAMIC MIC PRE-AMP SCHE…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 7-107-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 170 rings, 3,458 straight (10,401 mm) / 489 curved (884 mm); text 355 rings, 2,492 straight (2,841 mm) / 736 curved (1,113 mm); tb 14 rings, 119 straight (269 mm) / 24 curved (41.2 mm)
+- **Centre lines:** 4,019 paths (85 closed); straight 7,596 mm, curved 400 mm; horizontal 3,638 mm, vertical 1,842 mm, diagonal 2,116 mm
+- **Circles and arcs:** 26 circles, 18 arcs; largest r 6.6 @ (193.3, 170.2), r 6.5 @ (269.5, 208.2), r 6.3 @ (219.4, 183.3), r 2.0 @ (345.0, 198.9)
+- **Closed boxes:** 35 (27 in the title block); named: 7-107 PRE-AMP DYNAMIC MIC SCHEMATIC; 7-107-02-001; IsS_; ToLs.  IG
+- **Words (OCR):** 66 in 60 lines: 2n4401 · R3 · R6 · IsOK · 4k7 · Rio · 02 · 2n · iO6E · 4403 · 4k7 · PRE AMP
+- **Title block:** (141, 18)–(376, 68) mm: IsS MOD [cKD · USED ON · MATL . · WBS WAAD-BeCK · DRN · MRW · 7-107 · DATE MAY 77 · MFINISH · [KDRc( · DYNAMIC MIC · SCHEMATIC · [SCALE
+- **Wiring (first pass):** 40 connected wire groups from 173 runs; labelled ends: 419 mm → Ri, c4, 4710, C3; 187 mm → PRE-AMP, SCHEMATIC, 7-107-02-001, IsS_; 169 mm → 2n4401, R3, IsOK, 02; 88 mm → 2n4401, Rio, 4k7; 75 mm → IsOK, 4.7/10, R2, 56k
+
+Every curve, box, word and wire group: [1977 - 7-107-02-001 - 7-107 DYNAMIC MIC PRE-AMP SCHEMATIC - DRN MRW - ISS 1 (traced).json](1977%20-%207-107-02-001%20-%207-107%20DYNAMIC%20MIC%20PRE-AMP%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 7-107-02-001 - 7-107 DYNAMIC MIC PRE-AMP SCHEMATIC - DRN MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

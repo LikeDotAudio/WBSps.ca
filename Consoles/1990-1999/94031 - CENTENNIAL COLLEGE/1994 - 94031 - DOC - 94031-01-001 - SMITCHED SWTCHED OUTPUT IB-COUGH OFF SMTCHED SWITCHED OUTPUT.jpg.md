@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,855,534 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 94031-01-001, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px)
+- **Ink extent:** 62–421 mm across, 7–232 mm up
+- **Outlines:** line 619 rings, 5,100 straight (12,546 mm) / 780 curved (1,104 mm); text 224 rings, 1,523 straight (1,405 mm) / 444 curved (559 mm); tb 15 rings, 126 straight (160 mm) / 20 curved (22.8 mm)
+- **Centre lines:** 6,839 paths (104 closed); straight 7,936 mm, curved 211 mm; horizontal 3,568 mm, vertical 2,191 mm, diagonal 2,177 mm
+- **Circles and arcs:** 5 circles, 25 arcs; largest r 3.7 @ (87.0, 194.2), r 3.7 @ (86.6, 161.1), r 3.7 @ (86.1, 128.1), r 3.7 @ (85.6, 95.1)
+- **Closed boxes:** 19 (3 in the title block); named: CENTENNIAL COLLEGE TURRET ELECTRONIC FUN; SQALE ppIsc ko;; 94031- 01-001
+- **Dots (junctions):** 2
+- **Words (OCR):** 33 in 31 lines: PCTER · HC OPHD'= · TURRET · WuTPUT · CONNECTOR · PHNTOU · Vbzdi · OUTTT · WNsWTCHED · SMTCHED · INPUT · DUTPUT
+- **Title block:** (342, 23)–(426, 39) mm: WBS · WARD-BECK   SYSTEMS · CENTENNIAL COLLEGE
+- **Wiring (first pass):** 56 connected wire groups from 626 runs, 2 dotted junctions; labelled ends: 185 mm → WNsWTCHED, SMTCHED, DUTPUT, "SMITCHED; 175 mm → Vbzdi; 132 mm → WuTPUT; 132 mm → WuTPUT; 132 mm → WuTPUT
+
+Every curve, box, word and wire group: [1994 - 94031 - DOC - 94031-01-001 - SMITCHED SWTCHED OUTPUT IB-COUGH OFF SMTCHED SWITCHED OUTPUT (traced).json](1994%20-%2094031%20-%20DOC%20-%2094031-01-001%20-%20SMITCHED%20SWTCHED%20OUTPUT%20IB-COUGH%20OFF%20SMTCHED%20SWITCHED%20OUTPUT%20%28traced%29.json) (the CAD file: `1994 - 94031 - DOC - 94031-01-001 - SMITCHED SWTCHED OUTPUT IB-COUGH OFF SMTCHED SWITCHED OUTPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

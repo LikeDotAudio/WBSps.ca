@@ -21,6 +21,18 @@ Wiki page: [Job-940356](../../../PAGES/Job-940356.md)
 - **Size:** 329,503 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940356-04-002, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 118–864 mm across, 29–528 mm up
+- **Outlines:** line 189 rings, 1,605 straight (12,722 mm) / 329 curved (1,259 mm); text 177 rings, 1,075 straight (2,244 mm) / 337 curved (847 mm); tb 36 rings, 295 straight (564 mm) / 73 curved (165 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 11.8 @ (357.9, 414.3), r 9.1 @ (357.9, 352.4), r 9.0 @ (426.3, 352.7), r 9.0 @ (426.3, 388.6)
+- **Closed boxes:** 32 (12 in the title block); named: MCnitor HEADPHONES MICROPHONE MCROPHONE; MCnitor HEADPHONES MICROPHONE MCROPHONE; HFAnPHONF; HFAnPHONF
+- **Words (OCR):** 23 in 21 lines: MCnitor · HEADPHONES · MICROPHONE · MCROPHONE · TOP · VieW · HFAnPHONF · FRONT · ISSUEI DATE · WARD-BECK SYSTEMS · WBS · CBC
+- **Title block:** (680, 30)–(859, 102) mm: ISSUEI DATE · WARD-BECK SYSTEMS · WBS · CBC · ANNOUNCE · TURRET · APP. · LAYOUT · 940356-04-002 · NTS LCOL · 041561n2
+
+Every curve, box, word and wire group: [1994 - 940356-04-002 - CBC ANNOUNCE TURRET LAYOUT - DRN DRG - ISS 1 (traced).json](1994%20-%20940356-04-002%20-%20CBC%20ANNOUNCE%20TURRET%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940356-04-002 - CBC ANNOUNCE TURRET LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -24,6 +24,20 @@ Wiki page: [M482B](../../../PAGES/M482B.md)
 - **Size:** 285,519 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 482-01-001, size B 432 × 273 mm, 2000 × 1265 px traced (0.216 mm/px)
+- **Ink extent:** 17–432 mm across, 0–267 mm up
+- **Outlines:** line 223 rings, 2,911 straight (6,890 mm) / 394 curved (555 mm); text 325 rings, 2,435 straight (2,803 mm) / 744 curved (1,110 mm); tb 4 rings, 107 straight (214 mm) / 9 curved (16.9 mm)
+- **Centre lines:** 3,680 paths (53 closed); straight 5,557 mm, curved 59.6 mm; horizontal 2,260 mm, vertical 1,289 mm, diagonal 2,008 mm
+- **Circles and arcs:** 3 circles, 4 arcs; largest r 4.1 @ (185.7, 116.8), r 1.3 @ (226.7, 144.0), r 1.3 @ (237.3, 144.1)
+- **Closed boxes:** 7 (6 in the title block)
+- **Words (OCR):** 50 in 46 lines: Utility · CUE _ · LINE · INPUTS · (-6dB) · METER · (-6 dB) · Monitor Outputs · (-10dB) · DIRECT · dBm · +8dBm
+- **Title block:** (287, 0)–(432, 68) mm: ISSUE DATE · REVISION · App · WBS · WARD-BECK systeM8 · DRN:R MAHove · M4828 · ENG. MRN Il/79 · MONITOR MODULE · CKD: by · DIAGRAM · APP · FUNCTIONAL · SCALE · 482-01-001 · ISSUE
+- **Wiring (first pass):** 76 connected wire groups from 212 runs; labelled ends: 116 mm → (-6dB), (-6 dB); 84 mm → SOLO, INPUT; 57 mm → LINE, INPUTS, +8dBm; 38 mm → 600 OHMS, AUXILIARY <; 36 mm → METER, Monitor Outputs, DIRECT, MUTED
+
+Every curve, box, word and wire group: [1979 - 482-01-001 - MONITOR MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).json](1979%20-%20482-01-001%20-%20MONITOR%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 482-01-001 - MONITOR MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

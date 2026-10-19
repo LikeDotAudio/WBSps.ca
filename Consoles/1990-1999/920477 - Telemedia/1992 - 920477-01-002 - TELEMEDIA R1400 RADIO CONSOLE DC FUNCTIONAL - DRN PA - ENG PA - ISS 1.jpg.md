@@ -23,6 +23,21 @@ Wiki page: [Job-920477](../../../PAGES/Job-920477.md)
 - **Size:** 493,186 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920477-01-002, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px)
+- **Ink extent:** 0–844 mm across, 13–540 mm up
+- **Outlines:** line 838 rings, 6,210 straight (19,969 mm) / 1,409 curved (3,550 mm); text 223 rings, 1,636 straight (3,141 mm) / 447 curved (1,136 mm); tb 14 rings, 132 straight (318 mm) / 33 curved (82.5 mm)
+- **Centre lines:** 11,672 paths (207 closed); straight 14,304 mm, curved 354 mm; horizontal 4,764 mm, vertical 3,340 mm, diagonal 6,200 mm
+- **Circles and arcs:** 7 circles, 33 arcs; largest r 2.8 @ (775.5, 146.6), r 2.8 @ (745.4, 199.1), r 2.8 @ (731.3, 300.9), r 2.8 @ (622.8, 200.2)
+- **Closed boxes:** 35 (4 in the title block); named: IAScK; TELEMEDIA R1400 RADIO CONSOLE FUNCTIONAL; SCALF; 920477-01- 002
+- **Dots (junctions):** 1
+- **Words (OCR):** 35 in 33 lines: TIEF · EXTERNAS · Comroi · WKEACK · SELECTCC · JFSET · SIEBEO · INeWCHANNELS · CO TROLS · SLFCTO? · WKEICK · ocok
+- **Title block:** (686, 46)–(854, 78) mm: WBS · WARD-BECK SYSTEMS · TELEMEDIA
+- **Wiring (first pass):** 136 connected wire groups from 1,081 runs, 1 dotted junctions; labelled ends: 252 mm → WBS, SCALF, 920477-01-, 002; 74 mm → POWER CABLE; 73 mm → MACHINE, CONIROLS; 73 mm → MACHINE, CONIROLS; 46 mm → POWER CABLE
+
+Every curve, box, word and wire group: [1992 - 920477-01-002 - TELEMEDIA R1400 RADIO CONSOLE DC FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).json](1992%20-%20920477-01-002%20-%20TELEMEDIA%20R1400%20RADIO%20CONSOLE%20DC%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1992 - 920477-01-002 - TELEMEDIA R1400 RADIO CONSOLE DC FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

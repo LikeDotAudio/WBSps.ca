@@ -23,6 +23,21 @@ Wiki page: [M469](../../../PAGES/M469.md)
 - **Size:** 1,524,280 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 469-02-009, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 12–298 mm up
+- **Outlines:** line 292 rings, 4,905 straight (9,616 mm) / 803 curved (1,098 mm); text 319 rings, 2,583 straight (2,804 mm) / 805 curved (1,136 mm); tb 14 rings, 151 straight (254 mm) / 10 curved (9.8 mm)
+- **Centre lines:** 5,932 paths (73 closed); straight 7,563 mm, curved 214 mm; horizontal 3,334 mm, vertical 1,790 mm, diagonal 2,439 mm
+- **Circles and arcs:** 15 circles, 50 arcs; largest r 1.6 @ (324.1, 189.4), r 1.0 @ (227.3, 188.4), r 1.0 @ (184.3, 223.3), r 1.0 @ (184.9, 182.6)
+- **Closed boxes:** 28 (9 in the title block); named: 469-02-009
+- **Dots (junctions):** 1
+- **Words (OCR):** 73 in 63 lines: PRE Ipost · 35 · PRE · 36 · Ri7 · ISK · inPuTS · R5.6 · Sw · Sw6 Ri Isk · AuX 8 · ~OdBm
+- **Title block:** (278, 14)–(430, 82) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN_ PA · M469H · ENG_ PA · SUB ASSIGN MODULE · CKD · SCHEMATIC · APP · SCALE · 469-02-009 · ISSUE
+- **Wiring (first pass):** 65 connected wire groups from 325 runs, 1 dotted junctions; labelled ends: 351 mm → Ri7, 2ks< Rib, Rig, Swg; 194 mm → PRE Ipost, 35, 36, R5.6; 151 mm → R5.6, RR59; 125 mm → R5.6, RR59; 118 mm → SCALE
+
+Every curve, box, word and wire group: [1985 - 469-02-009 - M469H SUB ASSIGN MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1985%20-%20469-02-009%20-%20M469H%20SUB%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1985 - 469-02-009 - M469H SUB ASSIGN MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

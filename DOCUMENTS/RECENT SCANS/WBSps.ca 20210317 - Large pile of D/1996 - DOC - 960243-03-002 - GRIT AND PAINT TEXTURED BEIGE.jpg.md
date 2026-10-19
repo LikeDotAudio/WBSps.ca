@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,074,763 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960243-03-002, size B (assumed) 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px)
+- **Ink extent:** 26–432 mm across, 1–245 mm up
+- **Outlines:** line 1,259 rings, 8,433 straight (17,959 mm) / 1,903 curved (2,206 mm); text 513 rings, 2,702 straight (2,439 mm) / 903 curved (1,104 mm); tb 23 rings, 165 straight (185 mm) / 42 curved (52.5 mm)
+- **Centre lines:** 11,300 paths (397 closed); straight 12,318 mm, curved 72.0 mm; horizontal 5,296 mm, vertical 3,094 mm, diagonal 3,928 mm
+- **Circles and arcs:** 2 circles, 22 arcs; largest r 2.5 @ (345.9, 182.4), r 0.7 @ (355.6, 162.3)
+- **Closed boxes:** 54 (6 in the title block); named: CuSTOM CONTROL PLATE MACHINE; 960243-03-002
+- **Words (OCR):** 50 in 42 lines: 04-40 UNC REO D 28 · 83 · 9,130,200 · DATU · ALUK ALLOY 0,080 ThICK, · 5,0n0 · 1.850 · 0,67 Ref · MATERIAL EXTRUSOY #49916 · 960741 · 002=5 · IDENT EXTRUSION
+- **Title block:** (338, 16)–(422, 33) mm: WBS · WARD-BECK   SYSTEMS
+
+Every curve, box, word and wire group: [1996 - DOC - 960243-03-002 - GRIT AND PAINT TEXTURED BEIGE (traced).json](1996%20-%20DOC%20-%20960243-03-002%20-%20GRIT%20AND%20PAINT%20TEXTURED%20BEIGE%20%28traced%29.json) (the CAD file: `1996 - DOC - 960243-03-002 - GRIT AND PAINT TEXTURED BEIGE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

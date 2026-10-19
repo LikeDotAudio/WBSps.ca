@@ -11,6 +11,20 @@ Wiki page: [M463J](../../../PAGES/M463J.md)
 - **Size:** 2,141,072 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 463-01-009, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 211 rings, 6,879 straight (11,788 mm) / 950 curved (1,177 mm); text 417 rings, 3,317 straight (4,713 mm) / 872 curved (1,543 mm); tb 12 rings, 184 straight (368 mm) / 13 curved (19.6 mm)
+- **Centre lines:** 10,297 paths (92 closed); straight 10,500 mm, curved 11.5 mm; horizontal 4,013 mm, vertical 2,496 mm, diagonal 3,991 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 15 (10 in the title block); named: SCALE; 463-01-009
+- **Words (OCR):** 71 in 64 lines: MOnITOR · OUtput · DIRECT OUTPut · 600_ · PAN INSERT · +8dBm · M1 · M1 · M1 · PAN · CTL · M2
+- **Title block:** (119, 8)–(336, 110) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. GEB · M463] · ENG.GEB 4/78 · SUBMASTER MODULE · CKD: · Kell · FUNCTIONAL · DIAGRAM · APP · SCALE · ISSUE · 463-01-009
+- **Wiring (first pass):** 101 connected wire groups from 204 runs; labelled ends: 105 mm → SUMMING, OUTPUTS; 101 mm → SOLO, SUMMING, OUTPUTS; 98 mm → M1 /mz; 80 mm → PAN, INSERT; 78 mm → SOLO
+
+Every curve, box, word and wire group: [1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT (traced).json](1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

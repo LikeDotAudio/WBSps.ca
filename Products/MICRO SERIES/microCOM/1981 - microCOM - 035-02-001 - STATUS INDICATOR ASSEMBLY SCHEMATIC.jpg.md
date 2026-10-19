@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,532,330 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 035-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–429 mm across, 0–288 mm up
+- **Outlines:** line 1,592 rings, 15,974 straight (28,350 mm) / 2,751 curved (3,305 mm); text 82 rings, 518 straight (536 mm) / 152 curved (222 mm)
+- **Centre lines:** 20,157 paths (203 closed); straight 17,991 mm, curved 258 mm; horizontal 6,268 mm, vertical 6,242 mm, diagonal 5,482 mm
+- **Circles and arcs:** 0 circles, 83 arcs
+- **Closed boxes:** 257
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 180 connected wire groups from 2,143 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 035-02-001 - STATUS INDICATOR ASSEMBLY SCHEMATIC (traced).json](1981%20-%20microCOM%20-%20035-02-001%20-%20STATUS%20INDICATOR%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1981 - microCOM - 035-02-001 - STATUS INDICATOR ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

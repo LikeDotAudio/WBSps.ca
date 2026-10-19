@@ -11,6 +11,19 @@ Wiki page: [M523](../../../PAGES/M523.md)
 - **Size:** 5,792,636 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 523-06-001, size B (assumed) 432 × 285 mm, 2000 × 1319 px traced (0.216 mm/px)
+- **Ink extent:** 7–427 mm across, 0–285 mm up
+- **Outlines:** line 2,089 rings, 15,153 straight (20,097 mm) / 4,588 curved (4,680 mm); text 733 rings, 4,402 straight (3,746 mm) / 1,526 curved (1,651 mm); tb 211 rings, 1,408 straight (1,606 mm) / 507 curved (606 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 3.8 @ (217.6, 235.0), r 3.6 @ (232.5, 86.1), r 3.5 @ (28.6, 85.6), r 3.5 @ (152.9, 85.9)
+- **Closed boxes:** 23 (2 in the title block); named: C4 4o; S9; 88
+- **Dots (junctions):** 13
+- **Words (OCR):** 81 in 75 lines: STEREO ASSICY · ASSICY · PRE/RoST · Aux · PRE/POST · AUX · oN/OFF · R0iZk5 · R6 Ike · R78 = · R79ZK5 · RazZk5
+- **Title block:** (255, 31)–(432, 142) mm: WBS · 88 · 14-085 · CANADA · ISSUE · OOO00 · 45480 · P2-22 · WBS · WARD-BECK BysTeMS
+
+Every curve, box, word and wire group: [1985 - M523 - B 523-06-001 - M523 STEREO SUBMASTER MODULE - COMPONENT LAYOUT (traced).json](1985%20-%20M523%20-%20B%20523-06-001%20-%20M523%20STEREO%20SUBMASTER%20MODULE%20-%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M523 - B 523-06-001 - M523 STEREO SUBMASTER MODULE - COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

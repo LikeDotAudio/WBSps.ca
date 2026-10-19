@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 38,390,494 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–279 mm up
+- **Outlines:** line 1,671 rings, 15,474 straight (34,122 mm) / 2,077 curved (2,539 mm); text 112 rings, 771 straight (710 mm) / 225 curved (275 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.7 @ (57.6, 69.5), r 0.7 @ (57.8, 82.0)
+- **Closed boxes:** 366; named: 31106-04-003/3
+- **Dots (junctions):** 2
+- **Words (OCR):** 18 in 16 lines: LEGEND · ROW · STRAE · TUPIcal AudIQ · MCOULE · COYTACTS · RTION · Licqutpyj · SCnce · PATCHAALE · outputy · NoRMal
+
+Every curve, box, word and wire group: [1977 - WSVN - 31106-04-003 - JACKFIELD ENG (traced).json](1977%20-%20WSVN%20-%2031106-04-003%20-%20JACKFIELD%20ENG%20%28traced%29.json) (the CAD file: `1977 - WSVN - 31106-04-003 - JACKFIELD ENG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

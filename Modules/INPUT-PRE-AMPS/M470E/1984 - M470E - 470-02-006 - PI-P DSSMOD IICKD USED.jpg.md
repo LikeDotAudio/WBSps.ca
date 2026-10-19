@@ -11,6 +11,21 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 506,043 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 470-02-006, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–428 mm up
+- **Outlines:** line 520 rings, 9,236 straight (22,443 mm) / 1,575 curved (2,142 mm); text 1,118 rings, 7,142 straight (7,431 mm) / 2,479 curved (3,528 mm); tb 19 rings, 193 straight (270 mm) / 30 curved (38.0 mm)
+- **Centre lines:** 11,645 paths (194 closed); straight 17,754 mm, curved 495 mm; horizontal 6,974 mm, vertical 4,478 mm, diagonal 6,302 mm
+- **Circles and arcs:** 19 circles, 119 arcs; largest r 1.0 @ (167.6, 161.4), r 0.9 @ (168.4, 285.6), r 0.9 @ (166.9, 99.3), r 0.9 @ (166.7, 60.7)
+- **Closed boxes:** 103 (19 in the title block); named: WBS WAAD-Beck bybteMB LTD:; Mazoe MODULE INPUT SCHEMATIC; 02 - 006 470-; ISS_
+- **Dots (junctions):** 1
+- **Words (OCR):** 199 in 171 lines: Rio4 75 · P2-3 · DIRECT · Rio5 75 · P2-C · (BRIDGE LOAD) · SwI3 · Swi8 Riog Isk · PAN · Pi-8 · Rio7 Isk · R8b
+- **Title block:** (126, 6)–(288, 53) mm: CKD · USED ON · MatL · WBS WAAD-Beck bybteMB LTD: · DRN · JR · Mazoe · DATE 6JULY/84 · INPUT · CKD · SCHEMATIC · SCALE · TOLS _ · LBI 470- · 02 - 006
+- **Wiring (first pass):** 153 connected wire groups from 820 runs, 1 dotted junctions; labelled ends: 633 mm → R8b, IkB, Swi9, R9o; 605 mm → R89, IkB, 68/6, Lm3oi; 577 mm → PAN, R8b, IkB, R84; 354 mm → IN4ooa, aa; 339 mm → WAAD-Beck, bybteMB, ISS_
+
+Every curve, box, word and wire group: [1984 - M470E - 470-02-006 - PI-P DSSMOD IICKD USED (traced).json](1984%20-%20M470E%20-%20470-02-006%20-%20PI-P%20DSSMOD%20IICKD%20USED%20%28traced%29.json) (the CAD file: `1984 - M470E - 470-02-006 - PI-P DSSMOD IICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

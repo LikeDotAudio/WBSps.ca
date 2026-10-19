@@ -21,6 +21,20 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 711,614 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-015, size D 864 × 550 mm, 2000 × 1274 px traced (0.432 mm/px)
+- **Ink extent:** 0–850 mm across, 2–548 mm up
+- **Outlines:** line 1,144 rings, 7,790 straight (34,570 mm) / 1,457 curved (3,443 mm); text 398 rings, 2,187 straight (4,140 mm) / 725 curved (1,861 mm); tb 20 rings, 160 straight (380 mm) / 37 curved (83.2 mm)
+- **Centre lines:** 10,031 paths (314 closed); straight 22,862 mm, curved 70.0 mm; horizontal 11,988 mm, vertical 4,614 mm, diagonal 6,260 mm
+- **Circles and arcs:** 0 circles, 14 arcs
+- **Closed boxes:** 81 (4 in the title block); named: DETAIL; DETAL; DETAL; DETAIL; CET L; CET L; MK SERIES METER PANELS (STANDARD); 1;2; 900-03-015
+- **Dots (junctions):** 1
+- **Words (OCR):** 41 in 32 lines: REC D · Fosz RAOS) · DETAIL · RECD · DaTM · "REQD · DETAL · 900 · 015-1 (16 MODULES) · (FoR 5/5 · 0.90S · ALOD
+- **Title block:** (674, 47)–(842, 78) mm: WBS · WARD-BECK  SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-015 - MK SERIES METER PANELS (STANDARD) - DRN DRG - ISS 2 (traced).json](19xx%20-%20900-03-015%20-%20MK%20SERIES%20METER%20PANELS%20%28STANDARD%29%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 900-03-015 - MK SERIES METER PANELS (STANDARD) - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M472](../../../PAGES/M472.md)
 - **Size:** 323,319 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 472-02-001, size B (assumed) 432 × 350 mm, 2000 × 1621 px traced (0.216 mm/px)
+- **Ink extent:** 18–432 mm across, 0–343 mm up
+- **Outlines:** line 383 rings, 5,742 straight (14,672 mm) / 1,145 curved (1,616 mm); text 840 rings, 5,446 straight (5,778 mm) / 2,017 curved (2,776 mm); tb 22 rings, 160 straight (302 mm) / 42 curved (66.3 mm)
+- **Centre lines:** 9,306 paths (126 closed); straight 12,540 mm, curved 228 mm; horizontal 4,465 mm, vertical 3,017 mm, diagonal 5,058 mm
+- **Circles and arcs:** 16 circles, 38 arcs; largest r 3.6 @ (305.0, 226.9), r 1.4 @ (366.0, 258.4), r 1.4 @ (69.3, 88.2), r 1.3 @ (73.8, 93.9)
+- **Closed boxes:** 32 (19 in the title block); named: 2 3474; 3 /2549PM; 3605; 1664; TOLs
+- **Words (OCR):** 171 in 146 lines: C2e · 220P · Ri6 · R23 · ISk · 33k · R3o · LM301 · Iok · EQ input · Ibv · LM301
+- **Title block:** (195, 3)–(390, 53) mm: CKD] · USED ON · MATL . · WBS WAAD-beCK bybteMB LTD_ · 3 /2549PM · DRM · MRW · DATL JUNE ZZ · M472 · 3605 · FiniSH · CKDPCLA · EQUALIZER · 1664 · ML · SCHEMATIC · SCALE · TOLs · 472 - 02-0o1
+- **Wiring (first pass):** 82 connected wire groups from 516 runs; labelled ends: 264 mm → Iok, SwiA; 248 mm → 6KB, Sk6; 222 mm → R36, Ci3, 33/1ov, R26; 215 mm → ~r8v, MF cuT/BCOST, Sk, Rzz; 155 mm → 4-7/i0v, R4, 22k
+
+Every curve, box, word and wire group: [1977 - M472 - 472-02-001 - LAST COMPONENT DESIGNATIONS CZI (traced).json](1977%20-%20M472%20-%20472-02-001%20-%20LAST%20COMPONENT%20DESIGNATIONS%20CZI%20%28traced%29.json) (the CAD file: `1977 - M472 - 472-02-001 - LAST COMPONENT DESIGNATIONS CZI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

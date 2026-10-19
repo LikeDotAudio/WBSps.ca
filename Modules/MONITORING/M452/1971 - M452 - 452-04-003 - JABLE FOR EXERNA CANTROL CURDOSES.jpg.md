@@ -12,6 +12,19 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **Size:** 231,165 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 452-04-003, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 1–299 mm across, 22–425 mm up
+- **Outlines:** line 262 rings, 2,891 straight (7,780 mm) / 424 curved (794 mm); text 440 rings, 2,241 straight (2,113 mm) / 784 curved (1,072 mm); tb 25 rings, 227 straight (299 mm) / 56 curved (80.2 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 3.5 @ (159.6, 192.5), r 3.1 @ (159.4, 222.9), r 3.1 @ (159.5, 233.1), r 3.1 @ (159.5, 243.3)
+- **Closed boxes:** 20 (15 in the title block); named: WB S M452 20k I5k 400; WB S M452 20k I5k 400; On contro Level CaLibra T R37: Screwdriv; SELEcTiON swiich asserby Shi Swio osc i ; INSERT switch Shi; When gna cepressed ~c
+- **Dots (junctions):** 1
+- **Words (OCR):** 62 in 41 lines: WB S · M452 · On contro R37: Screwdriver aoju5 tment · Level CaLibra T · Permi[s cuicut · eve · bra · {ron · Front of uni · 20k · I5k · SELEcTiON swiich asserby Shi
+- **Title block:** (197, 24)–(301, 80) mm: Revision · WBS WARO-BECK SYSTEMS · M452 · ENG · OSCILLATOR MODULE · APP; · FRONT PANEL · scALe · ISSUE · 452-04-003
+
+Every curve, box, word and wire group: [1971 - M452 - 452-04-003 - JABLE FOR EXERNA CANTROL CURDOSES (traced).json](1971%20-%20M452%20-%20452-04-003%20-%20JABLE%20FOR%20EXERNA%20CANTROL%20CURDOSES%20%28traced%29.json) (the CAD file: `1971 - M452 - 452-04-003 - JABLE FOR EXERNA CANTROL CURDOSES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

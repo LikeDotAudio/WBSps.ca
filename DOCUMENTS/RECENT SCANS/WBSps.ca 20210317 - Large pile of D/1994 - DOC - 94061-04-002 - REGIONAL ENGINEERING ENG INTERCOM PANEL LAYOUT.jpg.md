@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,304,269 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94061-04-002, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 68–432 mm across, 5–183 mm up
+- **Outlines:** line 122 rings, 1,400 straight (5,718 mm) / 123 curved (170 mm); text 99 rings, 595 straight (674 mm) / 189 curved (268 mm); tb 52 rings, 338 straight (324 mm) / 91 curved (104 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.7 @ (159.6, 167.1), r 0.7 @ (261.5, 169.0)
+- **Closed boxes:** 29 (7 in the title block)
+- **Words (OCR):** 8 in 8 lines: WARD-BECK SYSTEMS · WBS · CBC REGIONAL ENGINEERING · INTERCOM PANEL · LAYOUT · ScALE · 94061-04-002 · CODE;
+- **Title block:** (340, 4)–(428, 39) mm: WARD-BECK SYSTEMS · WBS · CBC REGIONAL ENGINEERING · INTERCOM PANEL · LAYOUT · ScALE · 94061-04-002 · CODE;
+
+Every curve, box, word and wire group: [1994 - DOC - 94061-04-002 - REGIONAL ENGINEERING ENG INTERCOM PANEL LAYOUT (traced).json](1994%20-%20DOC%20-%2094061-04-002%20-%20REGIONAL%20ENGINEERING%20ENG%20INTERCOM%20PANEL%20LAYOUT%20%28traced%29.json) (the CAD file: `1994 - DOC - 94061-04-002 - REGIONAL ENGINEERING ENG INTERCOM PANEL LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

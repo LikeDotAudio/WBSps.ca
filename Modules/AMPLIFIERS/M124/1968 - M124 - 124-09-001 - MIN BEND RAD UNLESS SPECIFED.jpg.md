@@ -15,6 +15,21 @@ Wiki page: [M124](../../../PAGES/M124.md)
 
 - **1968** (labelled): `DATE Aug 68` — …Com output +48v C S,OCONNELL FINISH DRN WARD BECKSSTEK @id DATE Aug 68 MATERIAL M124 CONNECTOR CHKD WIRING SCALE TOLs FFRTCT 5W DE…
 
+## Vectors (traced)
+
+- **Sheet:** wiring 124-09-001, size B (assumed) 432 × 285 mm, 2000 × 1320 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–283 mm up
+- **Outlines:** line 1,445 rings, 15,633 straight (14,590 mm) / 2,809 curved (3,352 mm); text 341 rings, 2,762 straight (2,748 mm) / 816 curved (1,101 mm); tb 47 rings, 252 straight (204 mm) / 48 curved (54.1 mm)
+- **Centre lines:** 27,222 paths (176 closed); straight 14,134 mm, curved 591 mm; horizontal 3,414 mm, vertical 4,108 mm, diagonal 6,612 mm
+- **Circles and arcs:** 18 circles, 41 arcs; largest r 4.1 @ (170.9, 215.5), r 4.0 @ (48.7, 242.1), r 4.0 @ (171.0, 241.9), r 4.0 @ (48.7, 54.7)
+- **Closed boxes:** 2 (1 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 56 in 34 lines: INPUT IS0R · INPUT 37.5 n · INPUT 600n · Jsee note · INPUT  SHIELD · GAIN SET RESISTCR · NOIE? · CUE To · TRANSFORMER PHAse reversal · on 600 f · StrApPinG Pin 19 · considered
+- **Title block:** (179, 8)–(353, 56) mm: FINISH · WARD · DRN C.5,OCONNELL · DATE Aug · 68 · M124 · CHKD · MATERIAL · SCALE · TOLS
+- **Wiring (first pass):** 104 connected wire groups from 539 runs; labelled ends: 92 mm → INPUT 600n, Jsee; 47 mm → +48v; 28 mm → DRN; 26 mm → NOIE?, CUE, To, TRANSFORMER; 23 mm → CONNECTOR
+
+Every curve, box, word and wire group: [1968 - M124 - 124-09-001 - MIN BEND RAD UNLESS SPECIFED (traced).json](1968%20-%20M124%20-%20124-09-001%20-%20MIN%20BEND%20RAD%20UNLESS%20SPECIFED%20%28traced%29.json) (the CAD file: `1968 - M124 - 124-09-001 - MIN BEND RAD UNLESS SPECIFED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

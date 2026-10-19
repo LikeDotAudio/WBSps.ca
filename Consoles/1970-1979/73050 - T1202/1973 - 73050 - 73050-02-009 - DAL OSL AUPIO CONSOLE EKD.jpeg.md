@@ -10,6 +10,20 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 2,272,601 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-009, size B (assumed) 432 × 138 mm, 2000 × 638 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–138 mm up
+- **Outlines:** line 615 rings, 6,360 straight (9,059 mm) / 1,310 curved (1,633 mm); text 187 rings, 1,054 straight (856 mm) / 380 curved (446 mm); tb 29 rings, 157 straight (154 mm) / 54 curved (63.6 mm)
+- **Centre lines:** 7,852 paths (169 closed); straight 6,528 mm, curved 238 mm; horizontal 2,267 mm, vertical 1,981 mm, diagonal 2,281 mm
+- **Circles and arcs:** 12 circles, 31 arcs; largest r 2.5 @ (382.1, 117.6), r 2.5 @ (308.9, 68.3), r 2.5 @ (347.9, 118.0), r 2.5 @ (269.8, 118.2)
+- **Closed boxes:** 29; named: WAAD-BeCk WBS LTD; DC CONTrD_ SHEMATIC; 73050.02.009
+- **Words (OCR):** 45 in 38 lines: START · MLLim · St0p · 762 Dioy · 817 · 0iz6 · 732 · 091030 · 061 065 · 064062 TBz · CWNNEL Ori DC CIL · D( (T
+- **Title block:** (349, 6)–(412, 26) mm: WBS · WAAD-BeCk · DATE · CKd_ · DC CONTrD_ SHEMATIC
+- **Wiring (first pass):** 97 connected wire groups from 401 runs; labelled ends: 244 mm → WBS, HO0  CRD, US ED; 88 mm → 0iz6, Ori DC CIL; 82 mm → 817; 50 mm → MLLim, 0iz6; 40 mm → 762, Dioy
+
+Every curve, box, word and wire group: [1973 - 73050 - 73050-02-009 - DAL OSL AUPIO CONSOLE EKD (traced).json](1973%20-%2073050%20-%2073050-02-009%20-%20DAL%20OSL%20AUPIO%20CONSOLE%20EKD%20%28traced%29.json) (the CAD file: `1973 - 73050 - 73050-02-009 - DAL OSL AUPIO CONSOLE EKD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

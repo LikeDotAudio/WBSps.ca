@@ -11,6 +11,19 @@ Wiki page: [M405C](../../../PAGES/M405C.md)
 - **Size:** 17,199,555 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 405-02-005, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–138 mm up
+- **Outlines:** line 988 rings, 8,957 straight (15,150 mm) / 1,549 curved (1,970 mm); text 377 rings, 1,979 straight (1,633 mm) / 532 curved (639 mm)
+- **Centre lines:** 9,786 paths (130 closed); straight 9,828 mm, curved 196 mm; horizontal 4,007 mm, vertical 2,697 mm, diagonal 3,125 mm
+- **Circles and arcs:** 4 circles, 56 arcs; largest r 0.9 @ (377.2, 119.2), r 0.9 @ (167.6, 111.9), r 0.9 @ (345.0, 102.3), r 0.7 @ (68.9, 93.1)
+- **Closed boxes:** 52
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 123 connected wire groups from 762 runs, 3 dotted junctions
+
+Every curve, box, word and wire group: [1975 - M405C - 405-02-005 - EXTERNAL JACKS ARE NOT USED CONNECT (traced).json](1975%20-%20M405C%20-%20405-02-005%20-%20EXTERNAL%20JACKS%20ARE%20NOT%20USED%20CONNECT%20%28traced%29.json) (the CAD file: `1975 - M405C - 405-02-005 - EXTERNAL JACKS ARE NOT USED CONNECT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

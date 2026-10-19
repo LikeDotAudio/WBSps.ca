@@ -23,6 +23,19 @@ Wiki page: [M485](../../../PAGES/M485.md)
 - **Size:** 1,505,558 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 485-03-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale 1:1
+- **Ink extent:** 30–432 mm across, 9–298 mm up
+- **Outlines:** line 308 rings, 4,409 straight (10,469 mm) / 510 curved (701 mm); text 326 rings, 2,472 straight (2,958 mm) / 697 curved (1,072 mm); tb 5 rings, 90 straight (200 mm) / 5 curved (7.6 mm)
+- **Centre lines:** 6,184 paths (53 closed); straight 8,304 mm, curved 23.3 mm; horizontal 4,286 mm, vertical 1,642 mm, diagonal 2,377 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 16 (8 in the title block); named: ISSUE; 485-03-006; SCALE 1:1 XX 1.015 XxxI.Oos
+- **Words (OCR):** 46 in 37 lines: 4.53 · 130 DIA= · CSK 828 TO · 25DIA  ~ 2PLACES · 70 · 450 · 250 - · 4.030 · #4-40 UNC ~ZPLACES · 390 · "375 · 187
+- **Title block:** (278, 16)–(431, 83) mm: ISSUE DATE · REVISION · APP: · WBS WARD-BECK systeMS · ENG_ · EDGE · CONNECTOR · CKD E Tho · MTG: · BRKT · APP · SCALE 1:1 · 485-03-006 · ISSUE · XX 1.015 · XxxI.Oos
+
+Every curve, box, word and wire group: [1979 - 485-03-006 - EDGE CONNECTOR MTG. BRKT - DRN P. Mahoney - ISS 1 (traced).json](1979%20-%20485-03-006%20-%20EDGE%20CONNECTOR%20MTG.%20BRKT%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 485-03-006 - EDGE CONNECTOR MTG. BRKT - DRN P. Mahoney - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

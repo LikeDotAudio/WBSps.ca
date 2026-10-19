@@ -24,6 +24,18 @@ Mechanical drawing of an M415 sub chassis detail, title block at bottom right.
 - **Size:** 1,343,386 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 415-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 288 rings, 5,953 straight (11,168 mm) / 761 curved (1,033 mm); text 221 rings, 1,655 straight (1,982 mm) / 490 curved (798 mm)
+- **Centre lines:** 7,755 paths (56 closed); straight 8,727 mm, curved 40.3 mm; horizontal 4,474 mm, vertical 1,813 mm, diagonal 2,440 mm
+- **Circles and arcs:** 0 circles, 12 arcs
+- **Closed boxes:** 4; named: Firiish GRIT 120 BLAck ANoDiZE; 08x
+- **Words (OCR):** 46 in 34 lines: 2 HOLEs · DIA - · 7S · ~Ic · 5.062 · 16 · 33 · 16 · 8HoLes DLA · mi0 · Dw · I6
+
+Every curve, box, word and wire group: [1971 - 415-03-002 - SUB CHASSIS DETAIL - DRN DPS - ISS 3 (traced).json](1971%20-%20415-03-002%20-%20SUB%20CHASSIS%20DETAIL%20-%20DRN%20DPS%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1971 - 415-03-002 - SUB CHASSIS DETAIL - DRN DPS - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

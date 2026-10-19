@@ -21,6 +21,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,767,152 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5-127-02-001, size B 203 × 432 mm, 940 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 42–187 mm across, 0–432 mm up
+- **Outlines:** line 1,403 rings, 13,745 straight (25,959 mm) / 2,257 curved (2,632 mm); text 18 rings, 91 straight (79.0 mm) / 29 curved (33.9 mm)
+- **Centre lines:** 16,281 paths (254 closed); straight 15,602 mm, curved 109 mm; horizontal 4,050 mm, vertical 7,715 mm, diagonal 3,837 mm
+- **Circles and arcs:** 3 circles, 29 arcs; largest r 0.8 @ (115.8, 67.0), r 0.7 @ (173.3, 406.3), r 0.7 @ (153.0, 255.4)
+- **Closed boxes:** 197
+- **Dots (junctions):** 6
+- **Wiring (first pass):** 136 connected wire groups from 1,761 runs, 4 dotted junctions
+
+Every curve, box, word and wire group: [1976 - 5-127-02-001 - STATUS INPUTS SELECTOR SCHEMATIC - DRN AF - ISS 2 (traced).json](1976%20-%205-127-02-001%20-%20STATUS%20INPUTS%20SELECTOR%20SCHEMATIC%20-%20DRN%20AF%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 5-127-02-001 - STATUS INPUTS SELECTOR SCHEMATIC - DRN AF - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

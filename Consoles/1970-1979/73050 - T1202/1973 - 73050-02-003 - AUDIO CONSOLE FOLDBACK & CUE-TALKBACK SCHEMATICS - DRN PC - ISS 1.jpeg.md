@@ -22,6 +22,19 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 1,887,381 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-003, size B (assumed) 432 × 138 mm, 2000 × 637 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–138 mm up
+- **Outlines:** line 744 rings, 8,099 straight (10,331 mm) / 1,668 curved (2,017 mm); text 348 rings, 2,206 straight (1,858 mm) / 808 curved (974 mm)
+- **Centre lines:** 11,295 paths (136 closed); straight 8,330 mm, curved 190 mm; horizontal 2,862 mm, vertical 2,051 mm, diagonal 3,417 mm
+- **Circles and arcs:** 4 circles, 56 arcs; largest r 1.0 @ (226.9, 62.3), r 0.9 @ (283.6, 111.0), r 0.7 @ (179.7, 105.7), r 0.7 @ (264.0, 60.0)
+- **Closed boxes:** 38; named: M+i6; US{D; 73050-02-003
+- **Words (OCR):** 73 in 65 lines: KOSt · Pgm Level · FOLDEKk · 50. sw · 7/3 · dBm · 300_ · AAD · HDST · LDc · 620 · dBm
+- **Wiring (first pass):** 78 connected wire groups from 627 runs; labelled ends: 214 mm → AAD, M+i6, 240, ez/sv; 139 mm → '54}, Sw, 7/3, M+i6; 114 mm → PG, WBS, LTo_, Sel; 101 mm → S62p, 8t20; 93 mm → S62p, 8t20
+
+Every curve, box, word and wire group: [1973 - 73050-02-003 - AUDIO CONSOLE FOLDBACK & CUE-TALKBACK SCHEMATICS - DRN PC - ISS 1 (traced).json](1973%20-%2073050-02-003%20-%20AUDIO%20CONSOLE%20FOLDBACK%20%26%20CUE-TALKBACK%20SCHEMATICS%20-%20DRN%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-003 - AUDIO CONSOLE FOLDBACK & CUE-TALKBACK SCHEMATICS - DRN PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,373,383 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 95014-01-002, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 2–422 mm across, 7–280 mm up
+- **Outlines:** line 3,101 rings, 22,229 straight (33,628 mm) / 2,911 curved (4,053 mm); text 198 rings, 1,232 straight (1,155 mm) / 343 curved (431 mm); tb 54 rings, 362 straight (318 mm) / 113 curved (139 mm)
+- **Centre lines:** 84,035 paths (203 closed); straight 36,490 mm, curved 37.9 mm; horizontal 9,722 mm, vertical 10,927 mm, diagonal 15,840 mm
+- **Circles and arcs:** 169 circles, 15 arcs; largest r 3.4 @ (149.6, 188.3), r 3.4 @ (194.3, 193.6), r 3.4 @ (181.2, 181.1), r 3.4 @ (276.7, 178.5)
+- **Closed boxes:** 189 (3 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 18 lines: FUURF · LEGETD · crosspor · INPUTS · INPUTS · 9000 · Doolc · CRAPh · 48512 · CGAUF · OUTRVTS · WBSI
+- **Title block:** (339, 8)–(428, 40) mm: WBSI · WARD-BECK   SYSTEMS · MONTREAL FORUM · MATRIX FUNCTIONAL · 24X36 MiniCOM · SCALE · 95014-01-002
+- **Wiring (first pass):** 189 connected wire groups from 3,866 runs, 2 dotted junctions; labelled ends: 12 mm → 9000; 10 mm → Doolc, CRAPh; 10 mm → CRAPh; 10 mm → Doolc; 10 mm → Doolc
+
+Every curve, box, word and wire group: [1995 - M7880G - DOC - 95014-01-002 - FUTURC IFB OUTPUTS (traced).json](1995%20-%20M7880G%20-%20DOC%20-%2095014-01-002%20-%20FUTURC%20IFB%20OUTPUTS%20%28traced%29.json) (the CAD file: `1995 - M7880G - DOC - 95014-01-002 - FUTURC IFB OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

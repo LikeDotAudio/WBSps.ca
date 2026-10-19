@@ -25,6 +25,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 
 - **1974** (labelled): `DATENOV 74` — …6 M JauS? WBS WARD-BeCK ByBTEMB LTD_ 3615316 4 2361 DRN: DM DATENOV 74 4-141 5 3u54 FINISH CKD. R: SUMMinG AMPLIFIER 6 3292163 SCA…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-141-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 213 rings, 5,046 straight (13,544 mm) / 673 curved (1,150 mm); text 798 rings, 6,255 straight (7,547 mm) / 1,865 curved (2,972 mm); tb 83 rings, 655 straight (946 mm) / 149 curved (226 mm)
+- **Centre lines:** 7,705 paths (124 closed); straight 13,237 mm, curved 152 mm; horizontal 4,701 mm, vertical 2,947 mm, diagonal 5,588 mm
+- **Circles and arcs:** 2 circles, 22 arcs; largest r 6.3 @ (139.8, 183.9), r 6.1 @ (140.0, 241.3)
+- **Closed boxes:** 52 (29 in the title block); named: WBS WARD-BECK ByBTEMB LTD; 4-141 SUMMING AMPLIFIER SCHEMATIC; b31; 3i15; FINISH; 3202; TOLS _; 4-141-02-001; ISS_; 4645; ML
+- **Words (OCR):** 170 in 134 lines: R3 · i0 · c3 · G800p +ISV · E3 · Q1 · NOTES · 21 · 330/6 5/739_ · ZN3904 · zi · Is FACTORY SELECTED
+- **Title block:** (162, 18)–(376, 233) mm: VALUE 33opf · NOMINAL · ON · previous isSues R9 WAS 7ks · 6k3 · WAS · Not INCLUDED · C23 · LAsT · CoMPOnENTS · R2G · 220p · c 23 04 · r26 22 · 1k · DiF · Q2 Rio_ 10 · C7 · C6 · Gboop +ISV · Ito · Q3 ·
+- **Wiring (first pass):** 35 connected wire groups from 230 runs; labelled ends: 369 mm → ISSMOD, 3l53, b31, 3i15; 218 mm → I00, 1k, DiF, Q2; 99 mm → 330/6, 21, 5/739_, +ISV_Ji c24; 62 mm → 13, R8, +ISV_Ji c24, Ra; 52 mm → 241, R5, +ISV_Ji c24, Ik8
+
+Every curve, box, word and wire group: [1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 9 (traced).json](1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%209%20%28traced%29.json) (the CAD file: `1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 9 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

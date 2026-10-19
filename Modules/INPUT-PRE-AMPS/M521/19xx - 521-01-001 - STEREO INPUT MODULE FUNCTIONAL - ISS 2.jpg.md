@@ -23,6 +23,19 @@ M521 stereo input module functional diagram, title block at bottom left reading 
 - **Size:** 4,720,348 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 521-01-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–430 mm across, 1–285 mm up
+- **Outlines:** line 1,118 rings, 9,338 straight (14,946 mm) / 1,524 curved (1,908 mm); text 89 rings, 542 straight (516 mm) / 175 curved (243 mm)
+- **Centre lines:** 8,338 paths (126 closed); straight 8,459 mm, curved 159 mm; horizontal 3,288 mm, vertical 2,345 mm, diagonal 2,827 mm
+- **Circles and arcs:** 4 circles, 31 arcs; largest r 2.3 @ (70.7, 190.3), r 1.9 @ (129.0, 108.3), r 1.3 @ (393.9, 10.9), r 1.2 @ (404.6, 15.9)
+- **Closed boxes:** 23
+- **Dots (junctions):** 3
+- **Wiring (first pass):** 222 connected wire groups from 892 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 521-01-001 - STEREO INPUT MODULE FUNCTIONAL - ISS 2 (traced).json](19xx%20-%20521-01-001%20-%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 521-01-001 - STEREO INPUT MODULE FUNCTIONAL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

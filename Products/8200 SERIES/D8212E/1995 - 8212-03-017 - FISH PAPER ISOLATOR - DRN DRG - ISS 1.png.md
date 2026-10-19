@@ -22,6 +22,19 @@ Wiki page: [D8212E](../../../PAGES/D8212E.md)
 - **Size:** 1,125,435 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8212-03-017, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 0–428 mm across, 7–300 mm up
+- **Outlines:** line 53 rings, 1,800 straight (9,082 mm) / 150 curved (221 mm); text 405 rings, 2,541 straight (3,018 mm) / 822 curved (1,175 mm); tb 13 rings, 94 straight (202 mm) / 20 curved (25.9 mm)
+- **Centre lines:** 2,335 paths (65 closed); straight 6,774 mm, curved 14.0 mm; horizontal 3,440 mm, vertical 1,714 mm, diagonal 1,619 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 16 (11 in the title block); named: REMSION; SSUE|
+- **Words (OCR):** 52 in 35 lines: 12.80 · 0.175 · 12.450 · 2 PITCHES OF 4.000 8.000 · 3.220 · 0.965 · TYP · 0.540 · 1.625 · 3.20 · 2.120 · 0.187 DIA
+- **Title block:** (303, 31)–(432, 78) mm: SSUE| · REMSION · WBS · WARD-BECK SYSTEMS · DRN:  DRG(9 95) · D8212E · ENG. · FISH PAPER · CKD · APP · ISOLATOR · SCALE DISC NO: SYSO1 · ISSUE · 8212017 · 8212-03-017 · CODE:
+
+Every curve, box, word and wire group: [1995 - 8212-03-017 - FISH PAPER ISOLATOR - DRN DRG - ISS 1 (traced).json](1995%20-%208212-03-017%20-%20FISH%20PAPER%20ISOLATOR%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 8212-03-017 - FISH PAPER ISOLATOR - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

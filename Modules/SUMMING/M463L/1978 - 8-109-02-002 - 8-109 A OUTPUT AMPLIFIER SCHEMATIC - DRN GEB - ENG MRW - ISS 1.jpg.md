@@ -24,6 +24,20 @@ Wiki page: [M463L](../../../PAGES/M463L.md)
 - **Size:** 434,714 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-109-02-002, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 326 rings, 5,232 straight (8,915 mm) / 1,073 curved (1,392 mm); text 378 rings, 2,768 straight (2,849 mm) / 922 curved (1,302 mm); tb 76 rings, 425 straight (408 mm) / 96 curved (103 mm)
+- **Centre lines:** 10,106 paths (76 closed); straight 8,409 mm, curved 267 mm; horizontal 3,247 mm, vertical 1,740 mm, diagonal 3,421 mm
+- **Circles and arcs:** 5 circles, 28 arcs; largest r 5.8 @ (50.9, 91.8), r 5.8 @ (50.4, 167.4), r 5.8 @ (49.8, 362.7), r 5.7 @ (50.4, 287.2)
+- **Closed boxes:** 7 (5 in the title block)
+- **Words (OCR):** 90 in 84 lines: E3 · +21.5Y · Ris · 22 · 32 · Pn3C45 · 03 · 2n2102 · R3o · 6*B · E4 · 20
+- **Title block:** (226, 0)–(336, 59) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK ByBteMB · DrN: Geb · 8 - 109 · ENG MRW 4178 · Output AMPLIFIER · APR · SCHEMATIC · SCALE · ISSUE · 8-109-02-002
+- **Wiring (first pass):** 30 connected wire groups from 197 runs; labelled ends: 197 mm → 4k7, E7; 192 mm → E3, Ris, 2n2102; 148 mm → R37, 4K7, cig, 22o/10; 133 mm → Cis, 22o/10, E4, R3c; 107 mm → R34, MV, 5-6, Cis
+
+Every curve, box, word and wire group: [1978 - 8-109-02-002 - 8-109 A OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).json](1978%20-%208-109-02-002%20-%208-109%20A%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 8-109-02-002 - 8-109 A OUTPUT AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

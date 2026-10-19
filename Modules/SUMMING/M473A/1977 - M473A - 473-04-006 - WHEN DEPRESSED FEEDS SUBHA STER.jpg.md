@@ -11,6 +11,19 @@ Wiki page: [M473A](../../../PAGES/M473A.md)
 - **Size:** 435,024 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 473-04-006, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 2–432 mm up
+- **Outlines:** line 195 rings, 3,268 straight (8,854 mm) / 545 curved (736 mm); text 736 rings, 5,092 straight (4,698 mm) / 1,810 curved (2,334 mm); tb 226 rings, 2,382 straight (5,326 mm) / 477 curved (774 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (114.1, 283.5)
+- **Closed boxes:** 23 (11 in the title block); named: HASTER shitch Hhen depressed, Is fed res; PRE/ Post Auxiliary 573 : Tors choose th; Hith ther shitch AUxiLiART sitches and S; PREPOST AUxILIARY Ehe choose ther for UX; Hith shitches either shitch to Auxiliary; SOLO Shio: Hhen depressed_ the post" fad
+- **Dots (junctions):** 2
+- **Words (OCR):** 140 in 88 lines: WBS · HASTER · shitch · Hhen depressed, · MASTER · shItch · Hhen Ocpressed, the · output igna · Is fed via SuM · ing · resistors · the
+- **Title block:** (140, 0)–(330, 318) mm: WBS · MASTER · shItch · Hhen Ocpressed, the · 42 · output gna · fed · sum|ng res |stors · the · externa master · suming bus H2 . · PRE · Auxiliary LEVEL contro| · Controls Jeve | · Auxiliary Output bu
+
+Every curve, box, word and wire group: [1977 - M473A - 473-04-006 - WHEN DEPRESSED FEEDS SUBHA STER (traced).json](1977%20-%20M473A%20-%20473-04-006%20-%20WHEN%20DEPRESSED%20FEEDS%20SUBHA%20STER%20%28traced%29.json) (the CAD file: `1977 - M473A - 473-04-006 - WHEN DEPRESSED FEEDS SUBHA STER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

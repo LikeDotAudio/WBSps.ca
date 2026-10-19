@@ -24,6 +24,20 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **Size:** 744,830 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 452-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 11–298 mm up
+- **Outlines:** line 1,195 rings, 10,282 straight (17,729 mm) / 2,506 curved (3,076 mm); text 333 rings, 1,810 straight (1,518 mm) / 648 curved (783 mm)
+- **Centre lines:** 12,519 paths (258 closed); straight 11,858 mm, curved 275 mm; horizontal 3,844 mm, vertical 3,417 mm, diagonal 4,598 mm
+- **Circles and arcs:** 8 circles, 67 arcs; largest r 4.0 @ (293.1, 235.1), r 3.8 @ (293.4, 209.3), r 3.5 @ (110.2, 90.8), r 1.0 @ (77.0, 203.1)
+- **Closed boxes:** 10
+- **Dots (junctions):** 3
+- **Words (OCR):** 65 in 62 lines: chassis · R4s · Cis · ZSv · 22/25 · CR: · 1n4003 · Pn3s6 $ · R5s · Rso · 22/25- · 2R8
+- **Wiring (first pass):** 126 connected wire groups from 887 runs, 1 dotted junctions; labelled ends: 258 mm → R76, 463; 158 mm → Kelil; 142 mm → RSZ; 110 mm → R5s; 109 mm → LTD., WBS
+
+Every curve, box, word and wire group: [1974 - 452-02-001 - OSCILLATOR MODULE SCHEMATIC - DRN BJ - ISS 6 (traced).json](1974%20-%20452-02-001%20-%20OSCILLATOR%20MODULE%20SCHEMATIC%20-%20DRN%20BJ%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1974 - 452-02-001 - OSCILLATOR MODULE SCHEMATIC - DRN BJ - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

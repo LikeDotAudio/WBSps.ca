@@ -11,6 +11,20 @@ Wiki page: [M490K](../../../PAGES/M490K.md)
 - **Size:** 411,244 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 3–425 mm up
+- **Outlines:** line 1,076 rings, 13,720 straight (24,007 mm) / 3,192 curved (4,612 mm); text 526 rings, 3,345 straight (3,306 mm) / 1,216 curved (1,720 mm)
+- **Centre lines:** 10,938 paths (145 closed); straight 15,499 mm, curved 630 mm; horizontal 5,762 mm, vertical 4,623 mm, diagonal 5,114 mm
+- **Circles and arcs:** 16 circles, 134 arcs; largest r 5.7 @ (176.2, 103.6), r 5.6 @ (222.2, 122.5), r 5.5 @ (259.2, 135.1), r 5.4 @ (258.7, 106.9)
+- **Closed boxes:** 44; named: 12 cotoic; 13; z0 7act; WBS; Maqok LInE INpUT Module schematiC; 490-02-011
+- **Dots (junctions):** 3
+- **Words (OCR):** 132 in 126 lines: Ah · c2 · OUTPUtS To · 10 · Assich · Mixing · R52 · LITT · 040 · ci7 · 6t0 · Iok
+- **Wiring (first pass):** 187 connected wire groups from 1,217 runs, 2 dotted junctions; labelled ends: 504 mm → WBS, TR; 301 mm → cri, 4741, 049; 297 mm → CI4, Ris?, 2k3, Riso; 181 mm → ci7, 10/25, R46, R47; 180 mm → ss/
+
+Every curve, box, word and wire group: [1983 - M490K - 490-02-011 - ASSIGH HIZLD SSIIO CZO RCE (traced).json](1983%20-%20M490K%20-%20490-02-011%20-%20ASSIGH%20HIZLD%20SSIIO%20CZO%20RCE%20%28traced%29.json) (the CAD file: `1983 - M490K - 490-02-011 - ASSIGH HIZLD SSIIO CZO RCE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

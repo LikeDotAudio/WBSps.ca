@@ -11,6 +11,20 @@ Wiki page: [M625B](../../../PAGES/M625B.md)
 - **Size:** 2,179,814 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 1-117-02-001, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–431 mm up
+- **Outlines:** line 84 rings, 2,882 straight (7,889 mm) / 314 curved (540 mm); text 523 rings, 4,701 straight (6,164 mm) / 1,206 curved (2,067 mm); tb 17 rings, 199 straight (379 mm) / 36 curved (47.9 mm)
+- **Centre lines:** 3,381 paths (60 closed); straight 8,244 mm, curved 185 mm; horizontal 3,370 mm, vertical 1,802 mm, diagonal 3,072 mm
+- **Circles and arcs:** 5 circles, 3 arcs; largest r 10.1 @ (57.8, 187.3), r 9.9 @ (72.8, 267.9), r 5.8 @ (124.5, 185.8), r 1.6 @ (242.9, 132.9)
+- **Closed boxes:** 21 (9 in the title block); named: 4036; 0182; CR ADDED; 10/78; 1-117 - 02 - 001_; SCALE; LB
+- **Words (OCR):** 75 in 59 lines: NQTES · ALL RESISTORS ARE IN V4 W · 59/ · AND ALL CAPACiTors MF UNLESS · in · SPECIFIED OTHERWISE · LAST · coPonEnT DESIGNATIONS · C12 · Cr8, Q9 , Rs0 422 · R47 · Ci2
+- **Title block:** (125, 13)–(329, 125) mm: 10/78 CR ADDED · 6/78 · REDRAWN _ · Scr Circuit ADDED · ISSUE DATE · REVISION · WBS WARD-BECK · SYSTEME · DRN: MRW 6/78 · 1-117 · ENG_ MRW · REGULATOR BOARD · CKD: Rm · SCHEMATIC · APP · SCALE · ISSUE
+- **Wiring (first pass):** 15 connected wire groups from 98 runs; labelled ends: 303 mm → R47, 22/25, Q8, Zn4037; 177 mm → R47, Ik, R48, iok; 132 mm → R4g, 4k7; 121 mm → Q8, Zn4037, 07, 2n4o37; 84 mm → 0182, 10/78
+
+Every curve, box, word and wire group: [1978 - M625B - 1-117-02-001 - NOTES ALL RESISTORS ARE (traced).json](1978%20-%20M625B%20-%201-117-02-001%20-%20NOTES%20ALL%20RESISTORS%20ARE%20%28traced%29.json) (the CAD file: `1978 - M625B - 1-117-02-001 - NOTES ALL RESISTORS ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

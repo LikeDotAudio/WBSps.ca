@@ -1,0 +1,237 @@
+{
+ "code": "M464",
+ "name": "HP LP Filter",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "FILTER IN LEFT",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M464/M464.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "FILTER IN LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M464/M464.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "FILTER IN LEFT",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M464/M464.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "FILTER IN LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M464/M464.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "FILTER OUT RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M464/M464.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "FILTER OUT RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M464/M464.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "ACTIVELY BA LANEED OUTPUT 0 F THE",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/FILTERS/M464/1976 - M464 - 07 - 2-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "ACTIVELY BA LANCED OUTPUT OF THE 4-1091",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/FILTERS/M464/1976 - M464 - 07 - 2-2.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "FILTER OUT RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M464/M464.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "FILTER OUT RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M464/M464.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "ACTIVELY BA LANEED OUTPUT 0 F THE",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/FILTERS/M464/1976 - M464 - 07 - 2-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "ACTIVELY BA LANCED OUTPUT OF THE 4-1091",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/FILTERS/M464/1976 - M464 - 07 - 2-2.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M464/M464.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M464/M464.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M464/M464.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M464/M464.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M464/M464.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

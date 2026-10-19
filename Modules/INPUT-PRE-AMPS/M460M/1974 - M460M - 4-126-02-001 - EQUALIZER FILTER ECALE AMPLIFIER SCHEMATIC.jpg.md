@@ -11,6 +11,21 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 102,131 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 336 × 432 mm, 850 × 1091 px traced (0.396 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 449 rings, 4,918 straight (15,876 mm) / 891 curved (1,923 mm); text 266 rings, 1,525 straight (2,278 mm) / 444 curved (992 mm); tb 19 rings, 117 straight (257 mm) / 19 curved (39.9 mm)
+- **Centre lines:** 9,252 paths (114 closed); straight 12,600 mm, curved 84.7 mm; horizontal 4,249 mm, vertical 3,568 mm, diagonal 4,783 mm
+- **Circles and arcs:** 5 circles, 13 arcs; largest r 2.3 @ (201.9, 379.2), r 1.8 @ (205.2, 351.9), r 1.8 @ (247.1, 225.3), r 1.7 @ (251.2, 225.2)
+- **Closed boxes:** 24; named: 4-126 02-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 72 in 68 lines: MD · (400 Hz · Gk4z ) · 65 · R23 · cio · 215 · 6k2 · 6.3f6 · 221 · 222 · VALUE
+- **Title block:** (214, 13)–(324, 49) mm: WBS WAAD-Beck Byatemb LTD · DATE · CEO · 4-126 · SCAL · AMPLIFIER SCHEMATIC · EQUAlIZER Filter
+- **Wiring (first pass):** 78 connected wire groups from 532 runs; labelled ends: 373 mm → Ka; 270 mm → R23, 222, VALUE, 223; 260 mm → R33, 6<2, 2245JED; 198 mm → 215, 620, 718; 191 mm → R39, 620, R4 |, 22k
+
+Every curve, box, word and wire group: [1974 - M460M - 4-126-02-001 - EQUALIZER FILTER ECALE AMPLIFIER SCHEMATIC (traced).json](1974%20-%20M460M%20-%204-126-02-001%20-%20EQUALIZER%20FILTER%20ECALE%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1974 - M460M - 4-126-02-001 - EQUALIZER FILTER ECALE AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

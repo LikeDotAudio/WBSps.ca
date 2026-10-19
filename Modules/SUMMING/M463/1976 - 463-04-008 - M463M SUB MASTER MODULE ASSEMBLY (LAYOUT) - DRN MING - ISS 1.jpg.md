@@ -24,6 +24,17 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 7,904,360 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout C 463-04-008, size C 559 × 395 mm, 2000 × 1414 px traced (0.279 mm/px), turned 180°
+- **Ink extent:** 0–554 mm across, 0–395 mm up
+- **Outlines:** line 1,453 rings, 14,650 straight (25,398 mm) / 2,206 curved (3,490 mm); text 146 rings, 1,116 straight (1,522 mm) / 301 curved (535 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 4.4 @ (283.7, 227.3), r 4.2 @ (265.4, 179.9), r 4.1 @ (264.9, 249.6), r 3.7 @ (265.4, 220.0)
+- **Closed boxes:** 44
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1976 - 463-04-008 - M463M SUB MASTER MODULE ASSEMBLY (LAYOUT) - DRN MING - ISS 1 (traced).json](1976%20-%20463-04-008%20-%20M463M%20SUB%20MASTER%20MODULE%20ASSEMBLY%20%28LAYOUT%29%20-%20DRN%20MING%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 463-04-008 - M463M SUB MASTER MODULE ASSEMBLY (LAYOUT) - DRN MING - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

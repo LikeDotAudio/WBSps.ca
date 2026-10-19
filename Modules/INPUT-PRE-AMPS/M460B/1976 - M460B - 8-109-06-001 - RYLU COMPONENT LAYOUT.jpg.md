@@ -11,6 +11,18 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 - **Size:** 307,672 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-001, size B (assumed) 432 × 288 mm, 2000 × 1335 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–273 mm up
+- **Outlines:** line 263 rings, 3,282 straight (7,431 mm) / 769 curved (900 mm); text 767 rings, 6,604 straight (7,264 mm) / 1,898 curved (2,288 mm); tb 29 rings, 372 straight (647 mm) / 61 curved (72.2 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 9.0 @ (75.8, 207.9), r 8.9 @ (24.7, 207.7), r 8.5 @ (76.3, 106.9), r 8.5 @ (25.1, 106.9)
+- **Closed boxes:** 8 (7 in the title block); named: E2 ~CI33/10 ~c8ap RI6 22k LRi R4 Lk? 22k
+- **Words (OCR):** 101 in 91 lines: E2 · ~CI33/10 · ~c8ap RI6 22k · LRi · 22k · 6*2 · R4 Lk? · ~Ri8 · 4K7 · R5 · ~R2z · 4K7
+- **Title block:** (134, 3)–(432, 130) mm: ES · WBS · 8-109 · ~CI5-?2o/i0 · z2o/iec16 + · Jlu 84 · Ecel93_ 4017 · 4008 · ~R36 #K7_ · ~R37 4K7 · ISSUE IDATE · REVISION · APP · E6 · WBS WARD-BECK · SYSTEMS · DRN: GEB · 8 = 109 · ENG MRW 4/78 · B
+
+Every curve, box, word and wire group: [1976 - M460B - 8-109-06-001 - RYLU COMPONENT LAYOUT (traced).json](1976%20-%20M460B%20-%208-109-06-001%20-%20RYLU%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1976 - M460B - 8-109-06-001 - RYLU COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

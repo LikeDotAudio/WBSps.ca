@@ -12,6 +12,17 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 6,744,404 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 461-04-008, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–424 mm across, 0–287 mm up
+- **Outlines:** line 1,305 rings, 8,757 straight (19,517 mm) / 2,192 curved (3,321 mm); text 1,166 rings, 5,823 straight (5,174 mm) / 1,925 curved (2,541 mm)
+- **Circles and arcs:** 34 circles, 0 arcs; largest r 8.2 @ (234.6, 89.1), r 6.2 @ (234.5, 110.8), r 5.2 @ (213.5, 89.3), r 4.5 @ (213.7, 111.1)
+- **Closed boxes:** 50
+- **Dots (junctions):** 9
+
+Every curve, box, word and wire group: [1975 - M461 - 461-04-008 - CONTROL FUNCTIONS NOTE THAT THE (traced).json](1975%20-%20M461%20-%20461-04-008%20-%20CONTROL%20FUNCTIONS%20NOTE%20THAT%20THE%20%28traced%29.json) (the CAD file: `1975 - M461 - 461-04-008 - CONTROL FUNCTIONS NOTE THAT THE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

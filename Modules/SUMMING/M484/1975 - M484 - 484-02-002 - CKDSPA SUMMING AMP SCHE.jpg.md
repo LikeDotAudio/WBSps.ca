@@ -15,6 +15,20 @@ Wiki page: [M484](../../../PAGES/M484.md)
 
 - **1975** (labelled): `DATE 27 MAY 75` — …(76 22 /25 715 -25 ON MATL. WBS WARD-BEcK OyotemD DrN: REI DATE 27 MAY 75 CKD: RAL SCALE X TOLS _ T4 M 484A SUMMING AMP SCHECTI; FINI…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 484-02-002, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–337 mm across, 18–432 mm up
+- **Outlines:** line 1,131 rings, 12,754 straight (12,199 mm) / 3,094 curved (3,481 mm); text 167 rings, 1,805 straight (2,100 mm) / 500 curved (750 mm); tb 122 rings, 631 straight (494 mm) / 152 curved (155 mm)
+- **Centre lines:** 20,935 paths (85 closed); straight 13,925 mm, curved 135 mm; horizontal 3,919 mm, vertical 2,650 mm, diagonal 7,356 mm
+- **Circles and arcs:** 2 circles, 31 arcs; largest r 2.2 @ (83.8, 200.2), r 1.9 @ (256.4, 40.3)
+- **Closed boxes:** 1; named: MATL .
+- **Words (OCR):** 34 in 29 lines: Cri · In · 4007 · 052 180 I W · +22 · +25 · R54 820 · Ib · (35 · 22/25 · + COM; · 075.820
+- **Title block:** (98, 15)–(250, 87) mm: WBS WAAD-BecK · DRM REB · M 484A · DATE 27 MAY75 · SUMMING · CKD<PAL · SCALE · 484 02 002
+- **Wiring (first pass):** 58 connected wire groups from 721 runs; labelled ends: 192 mm → MATL .; 108 mm → 180 I W, 820, 4007, (35; 67 mm → (35, 22/25, c76, 22 /25; 57 mm → ON; 56 mm → MATL .
+
+Every curve, box, word and wire group: [1975 - M484 - 484-02-002 - CKDSPA SUMMING AMP SCHE (traced).json](1975%20-%20M484%20-%20484-02-002%20-%20CKDSPA%20SUMMING%20AMP%20SCHE%20%28traced%29.json) (the CAD file: `1975 - M484 - 484-02-002 - CKDSPA SUMMING AMP SCHE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

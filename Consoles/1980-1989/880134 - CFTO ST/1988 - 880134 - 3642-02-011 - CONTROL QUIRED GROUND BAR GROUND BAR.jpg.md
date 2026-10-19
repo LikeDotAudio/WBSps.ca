@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,452,741 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-011, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 13–432 mm up
+- **Outlines:** line 363 rings, 3,946 straight (8,414 mm) / 756 curved (1,114 mm); text 255 rings, 1,799 straight (2,235 mm) / 545 curved (797 mm)
+- **Centre lines:** 3,672 paths (75 closed); straight 5,915 mm, curved 425 mm; horizontal 2,792 mm, vertical 1,434 mm, diagonal 1,690 mm
+- **Circles and arcs:** 20 circles, 44 arcs; largest r 2.5 @ (32.2, 342.5), r 2.5 @ (32.2, 380.6), r 2.5 @ (11.3, 342.5), r 2.5 @ (32.3, 407.0)
+- **Closed boxes:** 36
+- **Wiring (first pass):** 20 connected wire groups from 339 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-011 - CONTROL QUIRED GROUND BAR GROUND BAR (traced).json](1988%20-%20880134%20-%203642-02-011%20-%20CONTROL%20QUIRED%20GROUND%20BAR%20GROUND%20BAR%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-011 - CONTROL QUIRED GROUND BAR GROUND BAR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

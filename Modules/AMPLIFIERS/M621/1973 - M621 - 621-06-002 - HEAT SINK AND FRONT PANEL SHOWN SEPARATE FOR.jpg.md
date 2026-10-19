@@ -15,6 +15,18 @@ Wiki page: [M621](../../../PAGES/M621.md)
 
 - **1973** (labelled): `DATE SEPT 73` — …W RG4 DS F2 R23 ON MATL. WBS WARD-BECK SYSTEMS LTD. DRN: BT DATE SEPT 73 CKD 0 SCALE NIS_ XX TOLS _ NG M62/ FINISH 20 WATT MoNItoR A…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 621-06-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px); scale NIS_
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 832 rings, 7,490 straight (9,674 mm) / 1,976 curved (1,804 mm); text 331 rings, 3,599 straight (3,783 mm) / 981 curved (1,118 mm); tb 116 rings, 631 straight (614 mm) / 120 curved (114 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 11.4 @ (97.9, 195.1), r 7.7 @ (74.3, 223.6), r 7.4 @ (74.8, 194.1), r 3.8 @ (74.5, 224.0)
+- **Closed boxes:** 11; named: FRonT PANEL Sw Rg4 DS / R23; MAT' .; M62/ AMPLIFIER 20 WATT MONItoR COMPONENT; FINISH; ISS_; XX TOLS _
+- **Words (OCR):** 47 in 39 lines: NOTES · NOT · SHOWN · COVER · HEAT SINK · AND · FRONT · PANEL · SHOWN SEPARATE · FOR · CLARITY · ALL
+- **Title block:** (104, 14)–(310, 86) mm: WBS WARD-BECK · SYSTEMS · DRN: · BZ · M62/ · DATE SEPT 73 20 WATT MONItoR · AMPLIFIER · CKD · 0 /4. · SCALE NIS_ · COMPONENT LAYOUT · XX · ISS_ · TOLS _ · 621- 06- 002
+
+Every curve, box, word and wire group: [1973 - M621 - 621-06-002 - HEAT SINK AND FRONT PANEL SHOWN SEPARATE FOR (traced).json](1973%20-%20M621%20-%20621-06-002%20-%20HEAT%20SINK%20AND%20FRONT%20PANEL%20SHOWN%20SEPARATE%20FOR%20%28traced%29.json) (the CAD file: `1973 - M621 - 621-06-002 - HEAT SINK AND FRONT PANEL SHOWN SEPARATE FOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

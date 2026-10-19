@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,366,629 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-006, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 4–432 mm up
+- **Outlines:** line 516 rings, 5,194 straight (12,312 mm) / 634 curved (921 mm); text 162 rings, 931 straight (954 mm) / 335 curved (442 mm)
+- **Centre lines:** 3,424 paths (60 closed); straight 7,254 mm, curved 117 mm; horizontal 3,029 mm, vertical 2,780 mm, diagonal 1,446 mm
+- **Circles and arcs:** 0 circles, 25 arcs
+- **Closed boxes:** 29
+- **Words (OCR):** 33 in 30 lines: M1-R · MI-MONO · M436 · M436 · M435 · P2 · P2 · 10 · 7,8 · 7,8 · P1 · P1
+- **Wiring (first pass):** 53 connected wire groups from 593 runs; labelled ends: 1092 mm → P1, 7,8, AUDIO; 733 mm → AUDIO; 246 mm → P2, 10, P1, 7,8; 229 mm → 10, P1, 7,8; 139 mm → P2
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-006 - AUDIO AUDIO MI-MONO (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20AUDIO%20AUDIO%20MI-MONO%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-006 - AUDIO AUDIO MI-MONO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

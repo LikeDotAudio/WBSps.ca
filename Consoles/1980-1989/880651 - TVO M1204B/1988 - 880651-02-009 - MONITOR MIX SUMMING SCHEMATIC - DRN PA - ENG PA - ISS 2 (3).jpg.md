@@ -22,6 +22,20 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 4,149,395 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 880651-02-009, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 9–432 mm across, 18–284 mm up
+- **Outlines:** line 231 rings, 2,903 straight (7,342 mm) / 433 curved (663 mm); text 638 rings, 3,822 straight (4,498 mm) / 1,084 curved (1,606 mm); tb 37 rings, 236 straight (382 mm) / 21 curved (26.1 mm)
+- **Centre lines:** 4,329 paths (55 closed); straight 6,810 mm, curved 221 mm; horizontal 2,333 mm, vertical 1,955 mm, diagonal 2,522 mm
+- **Circles and arcs:** 9 circles, 32 arcs; largest r 1.4 @ (143.7, 217.8), r 1.4 @ (145.4, 105.9), r 1.4 @ (205.1, 105.9), r 1.3 @ (203.5, 217.8)
+- **Closed boxes:** 11 (5 in the title block); named: ISSUE DISC 255 NO: 880651-02-009 Bl CODE
+- **Words (OCR):** 94 in 77 lines: 100 · TRACK · VU · METER · 2K4 · S( d8) · (0 dB) · 2k · +25v · MON-L · MON-R · TRACK
+- **Title block:** (90, 33)–(423, 102) mm: #2/88 CHANGED POTS To 2k LIN · ISSUE DATE · REVISION · APP · (0 dB) · WBS · WARD-BECK SYSTEMS · DRN_ PA · 10 88 · ENG_ PA · MONITOR MIX · SUMMING · SCHEMA TIC · CKD · APP · CW · WBS · 10-023 · SCALE D
+- **Wiring (first pass):** 40 connected wire groups from 232 runs; labelled ends: 195 mm → 2X15K, M450B, 2x15kk, 3,5; 150 mm → 2X15k, 2x15k; 127 mm → TRACK; 108 mm → M45OB; 89 mm → Bl, 880651-02-009
+
+Every curve, box, word and wire group: [1988 - 880651-02-009 - MONITOR MIX SUMMING SCHEMATIC - DRN PA - ENG PA - ISS 2 (3) (traced).json](1988%20-%20880651-02-009%20-%20MONITOR%20MIX%20SUMMING%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%283%29%20%28traced%29.json) (the CAD file: `1988 - 880651-02-009 - MONITOR MIX SUMMING SCHEMATIC - DRN PA - ENG PA - ISS 2 (3) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

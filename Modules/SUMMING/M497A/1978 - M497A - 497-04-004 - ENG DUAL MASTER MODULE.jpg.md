@@ -11,6 +11,17 @@ Wiki page: [M497A](../../../PAGES/M497A.md)
 - **Size:** 2,146,772 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 497-04-004, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–333 mm across, 0–432 mm up
+- **Outlines:** line 35 rings, 633 straight (1,789 mm) / 43 curved (58.8 mm); text 253 rings, 1,878 straight (1,802 mm) / 634 curved (846 mm); tb 120 rings, 2,023 straight (5,033 mm) / 255 curved (406 mm)
+- **Closed boxes:** 1; named: Space for identification channe | design
+- **Words (OCR):** 41 in 25 lines: WBS · M497A · RIGHT CHANNEL leve control R44 : Determines · of a] RIght Channe outputs. · output leve | · Space for channe | · identification designation. · EHAevef ofexi} control R42: Determines · LEFT · output · LEFT Channe ou tputs. · ISSUE |DATE
+- **Title block:** (146, 0)–(336, 314) mm: WBS · M497A · RIGHT CHANNEL leve control R44 : Determines · of a] RIght Channe outputs. · output leve | · EHAevef ofexi} control R42: Determines · LEFT · output · LEFT Channe ou tputs. · ISSUE |DATE ·
+
+Every curve, box, word and wire group: [1978 - M497A - 497-04-004 - ENG DUAL MASTER MODULE (traced).json](1978%20-%20M497A%20-%20497-04-004%20-%20ENG%20DUAL%20MASTER%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M497A - 497-04-004 - ENG DUAL MASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

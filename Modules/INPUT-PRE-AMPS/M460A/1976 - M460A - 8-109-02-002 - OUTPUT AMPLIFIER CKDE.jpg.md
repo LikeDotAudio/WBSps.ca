@@ -11,6 +11,20 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 367,194 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8-109-02-002, size B (assumed) 432 × 320 mm, 2000 × 1482 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–307 mm up
+- **Outlines:** line 295 rings, 3,515 straight (9,045 mm) / 748 curved (1,088 mm); text 484 rings, 2,863 straight (2,710 mm) / 1,043 curved (1,328 mm); tb 40 rings, 631 straight (1,162 mm) / 116 curved (149 mm)
+- **Centre lines:** 6,172 paths (109 closed); straight 7,489 mm, curved 390 mm; horizontal 3,052 mm, vertical 1,840 mm, diagonal 2,596 mm
+- **Circles and arcs:** 10 circles, 61 arcs; largest r 4.4 @ (216.7, 124.0), r 4.4 @ (216.5, 271.4), r 4.4 @ (152.9, 115.4), r 4.4 @ (184.8, 278.4)
+- **Closed boxes:** 5; named: I7p
+- **Words (OCR):** 111 in 105 lines: E3 · +18 · Rs · +2i.5Y · C3 · 390 · Iolz5 · Rit · Ris · 4k · 22 · 32
+- **Title block:** (346, 0)–(432, 42) mm: DATE · WBS WARD-BeCK BybTeB · 109 · ENG Mrw4/79 · OUtput AMPLIFIER · SCHEMATIC · SCALE · 8-109-02-002
+- **Wiring (first pass):** 53 connected wire groups from 371 runs; labelled ends: 200 mm → 2N4037, R2s, 4k7; 168 mm → 396, cio, 4.7p, I7p; 154 mm → R3o, V2 w, R34, R3i; 152 mm → R32, Y2 w, R35, I7p; 146 mm → IBv, 10/25
+
+Every curve, box, word and wire group: [1976 - M460A - 8-109-02-002 - OUTPUT AMPLIFIER CKDE (traced).json](1976%20-%20M460A%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20CKDE%20%28traced%29.json) (the CAD file: `1976 - M460A - 8-109-02-002 - OUTPUT AMPLIFIER CKDE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

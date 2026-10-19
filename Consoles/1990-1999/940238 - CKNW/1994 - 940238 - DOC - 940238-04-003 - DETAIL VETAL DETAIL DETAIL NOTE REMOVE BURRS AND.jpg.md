@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,098,854 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940238-04-003, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 41–432 mm across, 0–279 mm up
+- **Outlines:** line 887 rings, 6,936 straight (15,539 mm) / 1,246 curved (1,526 mm); text 292 rings, 1,605 straight (1,535 mm) / 517 curved (644 mm); tb 13 rings, 99 straight (140 mm) / 19 curved (24.4 mm)
+- **Closed boxes:** 74 (3 in the title block); named: CONNECTOR PANEL (REAR L.AS:); 940238-04-003; 1:1
+- **Dots (junctions):** 5
+- **Words (OCR):** 39 in 36 lines: OCTAL · 0iso Dia · deTA · REc 0 · 3050 · DETA · DETAIL · OCTAL · 0,280 · DAnY · 0.Szo · 0.,707
+- **Title block:** (344, 22)–(428, 43) mm: SSLCIDATE · R4SCN · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940238 - DOC - 940238-04-003 - DETAIL VETAL DETAIL DETAIL NOTE REMOVE BURRS AND (traced).json](1994%20-%20940238%20-%20DOC%20-%20940238-04-003%20-%20DETAIL%20VETAL%20DETAIL%20DETAIL%20NOTE%20REMOVE%20BURRS%20AND%20%28traced%29.json) (the CAD file: `1994 - 940238 - DOC - 940238-04-003 - DETAIL VETAL DETAIL DETAIL NOTE REMOVE BURRS AND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

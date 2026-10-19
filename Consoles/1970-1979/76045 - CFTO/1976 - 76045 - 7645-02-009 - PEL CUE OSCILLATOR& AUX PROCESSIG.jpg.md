@@ -10,6 +10,19 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 16,697,859 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7645-02-009, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–431 mm across, 0–139 mm up
+- **Outlines:** line 678 rings, 3,692 straight (6,431 mm) / 482 curved (565 mm); text 46 rings, 197 straight (158 mm) / 49 curved (60.4 mm)
+- **Centre lines:** 1,831 paths (55 closed); straight 3,147 mm, curved 21.5 mm; horizontal 1,934 mm, vertical 681 mm, diagonal 533 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 0.8 @ (361.0, 15.4), r 0.8 @ (362.6, 6.0)
+- **Closed boxes:** 30
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 22 connected wire groups from 240 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 7645-02-009 - PEL CUE OSCILLATOR& AUX PROCESSIG (traced).json](1976%20-%2076045%20-%207645-02-009%20-%20PEL%20CUE%20OSCILLATOR%26%20AUX%20PROCESSIG%20%28traced%29.json) (the CAD file: `1976 - 76045 - 7645-02-009 - PEL CUE OSCILLATOR& AUX PROCESSIG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

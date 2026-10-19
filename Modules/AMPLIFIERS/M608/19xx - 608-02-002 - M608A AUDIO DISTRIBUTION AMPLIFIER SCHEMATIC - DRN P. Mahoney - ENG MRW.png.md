@@ -22,6 +22,20 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 927,546 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 608-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 7–295 mm up
+- **Outlines:** line 1,773 rings, 16,055 straight (27,866 mm) / 3,626 curved (4,584 mm); text 229 rings, 1,464 straight (1,227 mm) / 467 curved (555 mm)
+- **Centre lines:** 19,690 paths (357 closed); straight 17,942 mm, curved 456 mm; horizontal 6,806 mm, vertical 4,930 mm, diagonal 6,205 mm
+- **Circles and arcs:** 8 circles, 117 arcs; largest r 3.2 @ (176.9, 51.5), r 3.2 @ (146.8, 86.5), r 3.2 @ (285.7, 176.2), r 3.1 @ (274.3, 170.9)
+- **Closed boxes:** 13; named: CR3; 608-02-002
+- **Dots (junctions):** 1
+- **Words (OCR):** 68 in 65 lines: UNLEGS · BAle · czol · BllZ · Ria 01ci · T2o' 60-13 · 1491ZB · EAILEBALL · A2o1 · CR3 · 33' Vzw · OfE
+- **Wiring (first pass):** 200 connected wire groups from 1,778 runs; labelled ends: 533 mm → WBS); 262 mm → .022], 13/35; 238 mm → 574, 45; 138 mm → czol; 136 mm → C3z
+
+Every curve, box, word and wire group: [19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW (traced).json](19xx%20-%20608-02-002%20-%20M608A%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20%28traced%29.json) (the CAD file: `19xx - 608-02-002 - M608A AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. Mahoney - ENG MRW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

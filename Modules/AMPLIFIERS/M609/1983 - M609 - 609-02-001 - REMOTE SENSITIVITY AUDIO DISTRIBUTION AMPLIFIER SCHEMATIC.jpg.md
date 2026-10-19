@@ -11,6 +11,20 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 421,250 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 609-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–317 mm across, 5–407 mm up
+- **Outlines:** line 89 rings, 1,674 straight (4,162 mm) / 214 curved (307 mm); text 256 rings, 2,229 straight (2,377 mm) / 687 curved (977 mm); tb 2 rings, 59 straight (150 mm) / 2 curved (4.5 mm)
+- **Centre lines:** 2,213 paths (42 closed); straight 3,807 mm, curved 36.7 mm; horizontal 1,080 mm, vertical 1,546 mm, diagonal 1,182 mm
+- **Circles and arcs:** 3 circles, 5 arcs; largest r 0.9 @ (36.7, 97.0), r 0.9 @ (36.7, 76.8), r 0.9 @ (138.7, 267.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 40 in 36 lines: > Pi-5 · 541L 0664 · P1-4 · > Pi-] · Network · P1-2 · Pz-J · 5414-0664 · Splitter · Network > Pz-5 · Pz-6 · outputs
+- **Title block:** (197, 46)–(324, 71) mm: WBS · WARD-BECK SYSTEMS · M609
+- **Wiring (first pass):** 29 connected wire groups from 86 runs; labelled ends: 51 mm → P1-2; 51 mm → Pz-6; 50 mm → Pz-9 CHAssIS; 34 mm → > PI-IJ; 5 mm → PI-I0
+
+Every curve, box, word and wire group: [1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC (traced).json](1983%20-%20M609%20-%20609-02-001%20-%20REMOTE%20SENSITIVITY%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1983 - M609 - 609-02-001 - REMOTE SENSITIVITY AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

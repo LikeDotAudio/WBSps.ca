@@ -20,6 +20,20 @@ Schematic of a stereo attenuator assembly with connector layout.
 - **Size:** 314,549 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 91-034-02-001, size B 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 4–430 mm across, 2–270 mm up
+- **Outlines:** line 156 rings, 2,402 straight (4,569 mm) / 407 curved (617 mm); text 410 rings, 3,033 straight (3,326 mm) / 876 curved (1,250 mm); tb 2 rings, 43 straight (114 mm) / 1 curved (2.7 mm)
+- **Centre lines:** 3,023 paths (59 closed); straight 4,592 mm, curved 195 mm; horizontal 1,517 mm, vertical 1,181 mm, diagonal 1,894 mm
+- **Circles and arcs:** 14 circles, 19 arcs; largest r 6.7 @ (54.7, 202.5), r 4.9 @ (55.2, 122.9), r 3.7 @ (54.8, 202.5), r 3.4 @ (55.1, 122.8)
+- **Dots (junctions):** 2
+- **Words (OCR):** 63 in 59 lines: PENNY GILES · 030573 · 4252) · RD · BL · LEFT · com · output · LEFT · INPuT · OR · 10
+- **Title block:** (336, 28)–(432, 45) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 49 connected wire groups from 198 runs, 1 dotted junctions; labelled ends: 114 mm → 11 .; 94 mm → RGHI com, LEFT, output, Sw Com; 86 mm → RGHI com; 76 mm → Right, INPUT, NC, NO; 55 mm → 14
+
+Every curve, box, word and wire group: [19xx - 91-034-02-001 - SA91-034 STEREO ATTENUATOR ASSEMBLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%2091-034-02-001%20-%20SA91-034%20STEREO%20ATTENUATOR%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 91-034-02-001 - SA91-034 STEREO ATTENUATOR ASSEMBLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

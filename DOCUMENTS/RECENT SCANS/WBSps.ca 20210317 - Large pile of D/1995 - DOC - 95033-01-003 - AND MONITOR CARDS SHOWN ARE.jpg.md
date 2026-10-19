@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 25,331,046 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 95033-01-003, size B (assumed) 432 × 284 mm, 2000 × 1316 px traced (0.216 mm/px)
+- **Ink extent:** 26–422 mm across, 12–265 mm up
+- **Outlines:** line 5,600 rings, 35,836 straight (46,725 mm) / 10,067 curved (17,465 mm); text 177 rings, 1,073 straight (1,016 mm) / 319 curved (402 mm); tb 29 rings, 185 straight (203 mm) / 48 curved (59.0 mm)
+- **Centre lines:** 60,586 paths (167 closed); straight 43,875 mm, curved 48.2 mm; horizontal 17,866 mm, vertical 17,249 mm, diagonal 8,760 mm
+- **Circles and arcs:** 818 circles, 16 arcs; largest r 1.7 @ (353.8, 188.8), r 1.7 @ (290.2, 189.0), r 1.7 @ (169.9, 189.5), r 1.7 @ (87.3, 189.9)
+- **Closed boxes:** 673 (3 in the title block); named: CBC VANCOUVER STUDIO 42 INTERCOM FUNCTIO; ScALF; DISC NO 5t501; 95033 003
+- **Dots (junctions):** 1327
+- **Words (OCR):** 21 in 17 lines: CROSCDOINT · SMTCHED · MATRK · KupLeR · WBS · WARD · BECK SYSTEMS · UCDULES · SPIRES ARE proxidfd · '890 RND MONITOR · CaarATFD · CBC VANCOUVER
+- **Title block:** (344, 28)–(428, 45) mm: WBS · WARD · BECK SYSTEMS · CBC VANCOUVER
+- **Wiring (first pass):** 159 connected wire groups from 10,767 runs, 2013 dotted junctions; labelled ends: 108 mm → WBS, ScALF, DISC NO; 54 mm → 95033, 003; 5 mm → KupLeR
+
+Every curve, box, word and wire group: [1995 - DOC - 95033-01-003 - AND MONITOR CARDS SHOWN ARE (traced).json](1995%20-%20DOC%20-%2095033-01-003%20-%20AND%20MONITOR%20CARDS%20SHOWN%20ARE%20%28traced%29.json) (the CAD file: `1995 - DOC - 95033-01-003 - AND MONITOR CARDS SHOWN ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

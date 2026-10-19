@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 4,077,904 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 750-02-091, size B (assumed) 432 × 144 mm, 2000 × 668 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 1–139 mm up
+- **Outlines:** line 1,310 rings, 7,268 straight (10,034 mm) / 1,203 curved (1,506 mm); text 227 rings, 1,116 straight (986 mm) / 255 curved (333 mm)
+- **Centre lines:** 4,351 paths (39 closed); straight 5,192 mm, curved 87.7 mm; horizontal 2,282 mm, vertical 1,368 mm, diagonal 1,542 mm
+- **Circles and arcs:** 2 circles, 29 arcs; largest r 0.9 @ (149.2, 106.2), r 0.8 @ (149.3, 58.8)
+- **Closed boxes:** 18; named: M750 M750 UNE RECEIVER Dener; DATE; AAT FKLAL; 750-02-001
+- **Dots (junctions):** 6
+- **Words (OCR):** 50 in 39 lines: 12 · 2/114, · 77_00 · 445o CAR · Eskstoes · To H & fETC · DES SNATE · SR5 · FOR · ZEE DRG · 06 · FoR M7so NON-INVERTING
+- **Wiring (first pass):** 56 connected wire groups from 556 runs, 2 dotted junctions; labelled ends: 179 mm → DATE, AAT FKLAL; 78 mm → Liv, UNE; 46 mm → Dener; 36 mm → CRI4; 23 mm → SR5
+
+Every curve, box, word and wire group: [19xx - M750 - DOC - 750-02-091 - LINE RECEIVER DEIVER (traced).json](19xx%20-%20M750%20-%20DOC%20-%20750-02-091%20-%20LINE%20RECEIVER%20DEIVER%20%28traced%29.json) (the CAD file: `19xx - M750 - DOC - 750-02-091 - LINE RECEIVER DEIVER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

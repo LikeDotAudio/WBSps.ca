@@ -21,6 +21,20 @@ M538C 8x1 stereo switcher schematic with show-through from the reverse page.
 - **Size:** 2,518,808 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 538-02-004, size B 432 × 237 mm, 2000 × 1099 px traced (0.216 mm/px)
+- **Ink extent:** 16–429 mm across, 0–237 mm up
+- **Outlines:** line 564 rings, 6,500 straight (9,432 mm) / 1,132 curved (1,386 mm); text 169 rings, 1,280 straight (1,210 mm) / 320 curved (421 mm); tb 2 rings, 48 straight (102 mm) / 5 curved (10.8 mm)
+- **Centre lines:** 10,772 paths (108 closed); straight 7,760 mm, curved 34.1 mm; horizontal 2,877 mm, vertical 2,100 mm, diagonal 2,782 mm
+- **Circles and arcs:** 0 circles, 14 arcs
+- **Closed boxes:** 58
+- **Words (OCR):** 32 in 26 lines: Switcher INFUTS · CHAsSUS · COMMON · Left · Switcher · output · 620 · Right · NOTEi · ALL · ReSiSTORS I/4 53 _ · USE   Pcb 14-127 .
+- **Title block:** (338, 38)–(432, 52) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 135 connected wire groups from 710 runs; labelled ends: 26 mm → 620; 26 mm → 620; 10 mm → COMPONENT Designations:; 6 mm → CHAsSUS
+
+Every curve, box, word and wire group: [19xx - 538-02-004 - 8x1 STEREO SWITCHER MODULE SCHEMATIC (left side cut off; number reads - ISS 1 (traced).json](19xx%20-%20538-02-004%20-%208x1%20STEREO%20SWITCHER%20MODULE%20SCHEMATIC%20%28left%20side%20cut%20off%3B%20number%20reads%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 538-02-004 - 8x1 STEREO SWITCHER MODULE SCHEMATIC (left side cut off; number reads - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

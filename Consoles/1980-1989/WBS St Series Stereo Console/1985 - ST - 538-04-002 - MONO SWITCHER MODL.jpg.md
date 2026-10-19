@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 664,534 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 538-04-002, size B (assumed) 193 × 432 mm, 893 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 13–193 mm across, 0–405 mm up
+- **Outlines:** line 12 rings, 778 straight (1,984 mm) / 56 curved (93.1 mm); text 139 rings, 1,514 straight (2,046 mm) / 457 curved (810 mm); tb 88 rings, 2,296 straight (4,248 mm) / 190 curved (324 mm)
+- **Closed boxes:** 6 (6 in the title block)
+- **Words (OCR):** 19 in 16 lines: WBS · Ms384 · ISSUE |DATE · RE VISION · WBS WARD-BECK sybten · DRN FDTE · M538A · ENG. · MeiJ 4x2 MONO SWITCHER MODL · CKD. · E54 ` · FRONT PANEL LAYOUT
+- **Title block:** (22, 2)–(157, 407) mm: WBS · Ms384 · ISSUE |DATE · RE VISION · WBS WARD-BECK sybten · DRN FDTE · M538A · ENG. · MeiJ 4x2 MONO SWITCHER MODL · CKD. · E54 ` · FRONT PANEL LAYOUT · APP · SCALE · 538-04-002
+
+Every curve, box, word and wire group: [1985 - ST - 538-04-002 - MONO SWITCHER MODL (traced).json](1985%20-%20ST%20-%20538-04-002%20-%20MONO%20SWITCHER%20MODL%20%28traced%29.json) (the CAD file: `1985 - ST - 538-04-002 - MONO SWITCHER MODL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

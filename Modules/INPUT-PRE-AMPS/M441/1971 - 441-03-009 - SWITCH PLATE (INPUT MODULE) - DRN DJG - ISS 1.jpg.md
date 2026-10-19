@@ -26,6 +26,19 @@ Wiki page: [M441](../../../PAGES/M441.md)
 
 - **1971** (month): `APRIL 71` — …S Kik eao Rad Ss Firish DRN DJG 120 GRIT CLEAR ALODINE Oate APRIL 71 MATOkL Ca 064 ALUM SCAE FULL WARd BECK SYSTENIS LTD SWITCH…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 441-03-009, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 395 rings, 7,520 straight (11,425 mm) / 915 curved (1,313 mm); text 278 rings, 2,253 straight (2,683 mm) / 610 curved (984 mm); tb 1 rings, 12 straight (8.5 mm) / 4 curved (4.0 mm)
+- **Centre lines:** 9,359 paths (76 closed); straight 9,274 mm, curved 143 mm; horizontal 4,132 mm, vertical 2,125 mm, diagonal 3,016 mm
+- **Circles and arcs:** 2 circles, 25 arcs; largest r 5.0 @ (190.9, 192.0), r 1.2 @ (138.6, 193.9)
+- **Closed boxes:** 4
+- **Words (OCR):** 43 in 37 lines: 4500 · -2.875 · 2.062 · 432 · 106z · HOLES · 093DIA · 1.435 · 120 · 1.05 · '810 · 592 _
+- **Title block:** (317, 48)–(377, 70) mm: WARd · BECK
+
+Every curve, box, word and wire group: [1971 - 441-03-009 - SWITCH PLATE (INPUT MODULE) - DRN DJG - ISS 1 (traced).json](1971%20-%20441-03-009%20-%20SWITCH%20PLATE%20%28INPUT%20MODULE%29%20-%20DRN%20DJG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 441-03-009 - SWITCH PLATE (INPUT MODULE) - DRN DJG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -23,6 +23,21 @@ Wiki page: [M816](../../../PAGES/M816.md)
 - **Size:** 658,963 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 816-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 432 rings, 4,707 straight (11,547 mm) / 936 curved (1,239 mm); text 521 rings, 3,276 straight (3,056 mm) / 1,199 curved (1,565 mm); tb 10 rings, 94 straight (135 mm) / 21 curved (25.3 mm)
+- **Centre lines:** 7,703 paths (151 closed); straight 8,818 mm, curved 213 mm; horizontal 3,373 mm, vertical 2,431 mm, diagonal 3,014 mm
+- **Circles and arcs:** 5 circles, 60 arcs; largest r 3.9 @ (273.9, 82.3), r 3.9 @ (273.5, 261.4), r 1.1 @ (17.1, 181.2), r 1.0 @ (216.5, 177.8)
+- **Closed boxes:** 9 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 101 in 88 lines: E42io2 · +25v · C28 · SUM · 47/25 · 25v · 10/25 · C35 · INPUT · +18V · CR 7 · 0/35
+- **Title block:** (355, 24)–(432, 40) mm: Klvrioh · WBS WARO-BECK SYSTEMS · Mb16
+- **Wiring (first pass):** 70 connected wire groups from 470 runs; labelled ends: 166 mm → M3bi, Ri7, Mok, Fo8; 159 mm → LM3OI, cab, 0I48, 2R4037; 138 mm → +18V, 47/25, Ibk, 51; 137 mm → 823k, 8k8; 110 mm → RTROL
+
+Every curve, box, word and wire group: [19xx - 816-02-001 - DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).json](19xx%20-%20816-02-001%20-%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 816-02-001 - DISTRIBUTION AMPLIFIER SCHEMATIC - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

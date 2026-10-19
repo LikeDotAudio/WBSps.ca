@@ -15,6 +15,19 @@ Wiki page: [M497A](../../../PAGES/M497A.md)
 
 - **1978** (labelled): `REVISiON 2 7/78` — …PUts +8 dBm 600 ohm RIGHT MONITOR OUTPUT 3 1/81 DESIGNATiON REVISiON 2 7/78 8-109E WAS 4.109E ISSUE DATE REVISION GEB APP WBS WARD-BECK…
 
+## Vectors (traced)
+
+- **Sheet:** functional 497-01-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–431 mm up
+- **Outlines:** line 199 rings, 4,974 straight (8,751 mm) / 690 curved (834 mm); text 365 rings, 3,151 straight (4,378 mm) / 851 curved (1,446 mm); tb 15 rings, 194 straight (389 mm) / 21 curved (36.4 mm)
+- **Centre lines:** 8,970 paths (73 closed); straight 8,775 mm, curved 0.0 mm; horizontal 3,355 mm, vertical 2,073 mm, diagonal 3,348 mm
+- **Closed boxes:** 19 (16 in the title block); named: ISSUE; 497-01-002; SCALE
+- **Words (OCR):** 44 in 32 lines: PROGRAM OUTPUTS · +8dBm · 600 ohm · LEFT · MONITOR OUTPUT · MONO SUMMING OUTPUT · PROGRAM · OUTPUts · +8 dBm 600 ohm · RIGHT · MOnITOR OUTPUt · 1/81
+- **Title block:** (117, 8)–(335, 129) mm: 1/81 · DESIGNATiOU REVISiON · GEB · 7/78| 8-109E WAS · 4.109E · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · MRW · DRN. · M497A · ENG RKB · DUAL · MASTER MODULE · CKD_ Lu · FUNCTIONAL DIAGRAM
+- **Wiring (first pass):** 31 connected wire groups from 71 runs; labelled ends: 32 mm → OUTPUts, OUTPUt; 16 mm → OUTPUTS, LEFT; 16 mm → PROGRAM, +8dBm; 15 mm → PROGRAM, +8 dBm; 13 mm → LEFT, OUTPUT
+
+Every curve, box, word and wire group: [1978 - M497A - 497-01-002 - DESIGNATION REVISION GEB (traced).json](1978%20-%20M497A%20-%20497-01-002%20-%20DESIGNATION%20REVISION%20GEB%20%28traced%29.json) (the CAD file: `1978 - M497A - 497-01-002 - DESIGNATION REVISION GEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -15,6 +15,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,360,100 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 2442-04-002, size B (assumed) 432 × 273 mm, 2000 × 1263 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–273 mm up
+- **Outlines:** line 594 rings, 7,892 straight (17,786 mm) / 917 curved (1,231 mm); text 112 rings, 934 straight (943 mm) / 267 curved (366 mm); tb 19 rings, 164 straight (214 mm) / 21 curved (25.8 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (189.2, 153.0)
+- **Closed boxes:** 102; named: 4528 hoouLES; cohtrollap
+- **Words (OCR):** 14 in 13 lines: OPMONAL · 4528 · input SELectors · STEREO · hoouLES · cohtrollap · WBS WARD-BECk ByBTEN · ST2442 · STEREO TELEVISION CONSC · FRONT VIEW LAYOUT · Arn ( · ScALE
+- **Title block:** (352, 0)–(432, 36) mm: WBS WARD-BECk ByBTEN · ST2442 · STEREO TELEVISION CONSC · FRONT VIEW LAYOUT · Arn ( · ScALE · 2442-04-002
+
+Every curve, box, word and wire group: [19xx - DOC - 2442-04-002 - MIC-LINE TEREO LIHE JLANR UHPUT SELECTORS LZI INPUT (traced).json](19xx%20-%20DOC%20-%202442-04-002%20-%20MIC-LINE%20TEREO%20LIHE%20JLANR%20UHPUT%20SELECTORS%20LZI%20INPUT%20%28traced%29.json) (the CAD file: `19xx - DOC - 2442-04-002 - MIC-LINE TEREO LIHE JLANR UHPUT SELECTORS LZI INPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

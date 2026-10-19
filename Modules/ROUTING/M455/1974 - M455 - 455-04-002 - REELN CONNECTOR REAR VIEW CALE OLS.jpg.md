@@ -12,6 +12,16 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 67,763 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 455-04-002, size B (assumed) 432 × 326 mm, 909 × 687 px traced (0.475 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 0–317 mm up
+- **Outlines:** line 265 rings, 2,074 straight (10,032 mm) / 420 curved (1,197 mm); text 282 rings, 1,646 straight (3,575 mm) / 589 curved (1,581 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.7 @ (21.7, 72.8)
+- **Closed boxes:** 66
+
+Every curve, box, word and wire group: [1974 - M455 - 455-04-002 - REELN CONNECTOR REAR VIEW CALE OLS (traced).json](1974%20-%20M455%20-%20455-04-002%20-%20REELN%20CONNECTOR%20REAR%20VIEW%20CALE%20OLS%20%28traced%29.json) (the CAD file: `1974 - M455 - 455-04-002 - REELN CONNECTOR REAR VIEW CALE OLS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

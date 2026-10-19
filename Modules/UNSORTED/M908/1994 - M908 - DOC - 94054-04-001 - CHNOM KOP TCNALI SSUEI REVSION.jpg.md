@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,672,604 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94054-04-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 83–408 mm across, 7–235 mm up
+- **Outlines:** line 1,275 rings, 8,692 straight (20,634 mm) / 1,313 curved (1,579 mm); text 150 rings, 925 straight (955 mm) / 263 curved (344 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.2 @ (293.0, 95.5), r 4.2 @ (293.2, 111.8), r 1.6 @ (262.3, 145.3), r 1.6 @ (128.7, 146.4)
+- **Closed boxes:** 150; named: UETER 00 8 %9 9 e2 9; 8 %9 9 e2 9; WARD-BECK SYSTEMS WB3S; AcUSTOORK TELEMEDIA RADIO RENAISSYOC CE ; DISC_NO:; 94054-04-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 11 lines: UETER · 00 · 8 %9 9 · e2 9 · WB3S · WARD-BECK SYSTEMS · AcUSTOORK RADIO · TELEMEDIA · RENAISSYOC CE MkII · DISC_NO: · 94054-04-001
+
+Every curve, box, word and wire group: [1994 - M908 - DOC - 94054-04-001 - CHNOM KOP TCNALI SSUEI REVSION (traced).json](1994%20-%20M908%20-%20DOC%20-%2094054-04-001%20-%20CHNOM%20KOP%20TCNALI%20SSUEI%20REVSION%20%28traced%29.json) (the CAD file: `1994 - M908 - DOC - 94054-04-001 - CHNOM KOP TCNALI SSUEI REVSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,123,019 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 790236-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 385 rings, 5,230 straight (11,479 mm) / 685 curved (1,013 mm); text 731 rings, 4,442 straight (4,953 mm) / 1,388 curved (1,945 mm)
+- **Centre lines:** 7,102 paths (125 closed); straight 9,267 mm, curved 221 mm; horizontal 3,736 mm, vertical 2,591 mm, diagonal 2,941 mm
+- **Circles and arcs:** 15 circles, 28 arcs; largest r 2.2 @ (75.0, 33.9), r 1.3 @ (192.0, 45.7), r 1.3 @ (11.7, 79.2), r 1.3 @ (18.7, 79.2)
+- **Closed boxes:** 2; named: M472 EQ; (-15 dB)
+- **Words (OCR):** 116 in 99 lines: PHANTOM · POWER · INPUT CHANNEL - | · +48v · (Ch1 To32 IDENTICAL) · CHAN · CHAN · INSERT · FADER · 0 dBm · S1 · Mic
+- **Wiring (first pass):** 110 connected wire groups from 449 runs; labelled ends: 304 mm → PEL, SOLO, SOLO_, CONT; 185 mm → iks; 140 mm → M464, FILTER, MODULE; 127 mm → FAI,A2, A3,A4, (INTERCOM FEED); 112 mm → E21, FAI,A2
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-01-001 - IDENTICAL CHAN CHAN INSERT FADER (traced).json](1979%20-%20790236%20-%20790236-01-001%20-%20IDENTICAL%20CHAN%20CHAN%20INSERT%20FADER%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-01-001 - IDENTICAL CHAN CHAN INSERT FADER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

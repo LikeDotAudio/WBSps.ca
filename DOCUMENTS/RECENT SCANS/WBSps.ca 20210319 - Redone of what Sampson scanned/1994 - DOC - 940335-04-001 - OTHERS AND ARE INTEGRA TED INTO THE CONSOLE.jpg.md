@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,161,725 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940335-04-001, size B (assumed) 432 × 341 mm, 2000 × 1581 px traced (0.216 mm/px); scale DISC NO: 473
+- **Ink extent:** 9–432 mm across, 10–341 mm up
+- **Outlines:** line 1,600 rings, 11,511 straight (37,630 mm) / 1,753 curved (2,318 mm); text 657 rings, 4,286 straight (4,529 mm) / 1,344 curved (1,794 mm); tb 15 rings, 300 straight (1,886 mm) / 14 curved (21.9 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 7.0 @ (371.0, 114.9), r 7.0 @ (370.9, 142.9), r 2.5 @ (400.3, 117.9), r 2.5 @ (40.4, 206.0)
+- **Closed boxes:** 234; named: M9o7; M9OSA HODE 94ai EQ INS HEADPHONE MuE HON; M9OSB; APC_88IC; M9O1A CH ON; M9O1A 70 ON; M9O1A 70; M9O1A j0 CH ON; M9OIA; M9OIA ON; M9O1A 70 ON; M9OIA CH ON
+- **Dots (junctions):** 31
+- **Words (OCR):** 122 in 85 lines: METER · CH · CH · CH · CH · CH · CH · CH 7 · CH · CH · CH 10 CH 11 · CH 12 CH 13 CH 14 CH 15 CH 16
+- **Title block:** (297, 9)–(432, 69) mm: ISSUE · REVISION · APP · SYSTEMS · WBS · WARD-BECK · DRN SM · CHFI · PRODUCTION · ENG. SM · RENAISSANCE MK · CKD · APP · LA YOUT · SCALE DISC NO: 473 · ISSUE · 940335-04-001 · CODE: 94335L01
+
+Every curve, box, word and wire group: [1994 - DOC - 940335-04-001 - OTHERS AND ARE INTEGRA TED INTO THE CONSOLE (traced).json](1994%20-%20DOC%20-%20940335-04-001%20-%20OTHERS%20AND%20ARE%20INTEGRA%20TED%20INTO%20THE%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940335-04-001 - OTHERS AND ARE INTEGRA TED INTO THE CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

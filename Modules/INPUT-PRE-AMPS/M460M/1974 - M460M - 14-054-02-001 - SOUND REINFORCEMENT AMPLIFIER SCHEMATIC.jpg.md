@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 317,444 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-054-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–320 mm across, 0–432 mm up
+- **Outlines:** line 282 rings, 3,222 straight (2,719 mm) / 798 curved (812 mm); text 112 rings, 1,039 straight (1,236 mm) / 228 curved (384 mm); tb 2 rings, 63 straight (144 mm) / 5 curved (10.6 mm)
+- **Centre lines:** 10,869 paths (31 closed); straight 4,821 mm, curved 45.6 mm; horizontal 1,162 mm, vertical 955 mm, diagonal 2,704 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Words (OCR):** 13 in 11 lines: 68/6 · 22k · 22k · 68/6 _ · WBS · WARD-BECK SyBTEMB · SA14-054 · SOUND REINFORCEMENT AmpLifier · SCHEMATIC · B 14-054-02-001 · ISS.1
+- **Title block:** (199, 38)–(324, 62) mm: WBS · WARD-BECK SyBTEMB
+- **Wiring (first pass):** 5 connected wire groups from 144 runs; labelled ends: 55 mm → 68/6; 52 mm → 22k, 68/6 _; 51 mm → 22k
+
+Every curve, box, word and wire group: [1974 - M460M - 14-054-02-001 - SOUND REINFORCEMENT AMPLIFIER SCHEMATIC (traced).json](1974%20-%20M460M%20-%2014-054-02-001%20-%20SOUND%20REINFORCEMENT%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1974 - M460M - 14-054-02-001 - SOUND REINFORCEMENT AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

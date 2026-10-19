@@ -24,6 +24,20 @@ Wiki page: [M469](../../../PAGES/M469.md)
 - **Size:** 1,773,069 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 469-02-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 304 rings, 4,884 straight (9,441 mm) / 849 curved (1,155 mm); text 461 rings, 3,331 straight (3,814 mm) / 1,040 curved (1,453 mm); tb 133 rings, 645 straight (594 mm) / 148 curved (145 mm)
+- **Centre lines:** 8,147 paths (109 closed); straight 8,554 mm, curved 326 mm; horizontal 3,003 mm, vertical 2,210 mm, diagonal 3,341 mm
+- **Circles and arcs:** 30 circles, 33 arcs; largest r 1.5 @ (88.7, 228.9), r 1.4 @ (89.9, 109.1), r 1.3 @ (150.5, 216.6), r 1.3 @ (71.0, 56.3)
+- **Closed boxes:** 7 (5 in the title block)
+- **Words (OCR):** 76 in 59 lines: INPut 3; I5 · NoTE? · THE · FoLLowiny MoiFicATions To · Be Douz To · Pce #3-1ol: · 13 · 'INPUT · Cut TrAckS 0f · Bus · boinb · To Sw;
+- **Title block:** (289, 12)–(432, 82) mm: ISSUE DATE · REVISICN · APP · WBS · WARD-BECK · SYSTEMS · DRN_ · M469N · ENG · ASSIGNMENT · MODULE · CKD: · SCHEMATIC · APP · SCALE · ISSUE · 469-02-01
+- **Wiring (first pass):** 34 connected wire groups from 210 runs; labelled ends: 359 mm → INPut 3; I5, RR3k; 210 mm → Sw7, RR3k, Swe; 119 mm → INPut 3; I5, 13, Rek; 95 mm → 12 <, INPUT 2, Sw6; 95 mm → 12 <, INPUT 2
+
+Every curve, box, word and wire group: [1986 - 469-02-011 - M469N ASSIGNMENT MODULE SCHEMATIC - ISS 1 (traced).json](1986%20-%20469-02-011%20-%20M469N%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1986 - 469-02-011 - M469N ASSIGNMENT MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

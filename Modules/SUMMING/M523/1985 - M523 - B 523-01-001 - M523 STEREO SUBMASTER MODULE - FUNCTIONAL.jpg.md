@@ -11,6 +11,20 @@ Wiki page: [M523](../../../PAGES/M523.md)
 - **Size:** 3,077,583 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 523-01-001, size B (assumed) 432 × 301 mm, 2000 × 1395 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–301 mm up
+- **Outlines:** line 830 rings, 7,798 straight (14,980 mm) / 1,045 curved (1,278 mm); text 246 rings, 1,527 straight (1,424 mm) / 471 curved (609 mm); tb 2 rings, 51 straight (113 mm) / 2 curved (4.1 mm)
+- **Centre lines:** 6,854 paths (77 closed); straight 8,852 mm, curved 120 mm; horizontal 3,852 mm, vertical 2,259 mm, diagonal 2,740 mm
+- **Circles and arcs:** 1 circles, 30 arcs; largest r 2.0 @ (103.5, 90.1)
+- **Closed boxes:** 18
+- **Words (OCR):** 37 in 37 lines: EE T · DIACCT · 5412-097 · outpmt · BALARCE · LecT · LFF T · RIcHT · STFAEO · JACKS · FADEF · Right
+- **Title block:** (330, 31)–(432, 50) mm: WARD-BECK SysTeMB · WBS
+- **Wiring (first pass):** 200 connected wire groups from 775 runs; labelled ends: 331 mm → PrE /Post; 320 mm → JRE 'Pos; 271 mm → Pre /Post; 103 mm → EE T; 74 mm → Pre /Post
+
+Every curve, box, word and wire group: [1985 - M523 - B 523-01-001 - M523 STEREO SUBMASTER MODULE - FUNCTIONAL (traced).json](1985%20-%20M523%20-%20B%20523-01-001%20-%20M523%20STEREO%20SUBMASTER%20MODULE%20-%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1985 - M523 - B 523-01-001 - M523 STEREO SUBMASTER MODULE - FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

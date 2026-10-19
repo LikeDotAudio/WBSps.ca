@@ -1,0 +1,152 @@
+{
+ "code": "M475A",
+ "name": "Stereo Monitor Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "J1",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "J2",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "MUTE CO N T ...OL",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cfeb881b570129b5b597d53f684ced8d290638c9b2d07b736f6cc5eff0e8d93",
+    "file": "Modules/MONITORING/M475A/1986 - M475A - Stereo Monitor Module (2).pdf",
+    "page": 8
+   },
+   "quote": "Mut e co n t ...ol may b e from a n ex t e rn a l so urce , wll h a closu re of connector p in X to pin Z by a n e x te r n a l SOurce or o n th e module by ope ra t ing alternat e \" c t lo n s wllch SW7.",
+   "also": []
+  },
+  {
+   "conn": "J1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "3226dc819153aec08fbe0d78cbfa3bb893ba5070cde443917d43ec7f55bffb9c",
+    "file": "Modules/MONITORING/M475A/1986 - M475A - 475-02-002 - STEREO MONITOR MODULE SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "J1-1,2 3,4,10",
+   "also": []
+  },
+  {
+   "conn": "J2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9d510917d725cb8b2ee2ccc1c791cf71799faca11d34a6d102c2100952aff5c4",
+    "file": "Modules/MONITORING/M475A/1986 - M475A - 475-04-004.jpg",
+    "page": 1
+   },
+   "quote": "8 JZ-1",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/MONITORING/M475A/1986 - M475A - 475-06-002 - STEREO MONITOR MODULE COMPONENT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e0c60fff898916d8ef40175e3d7a9a4757393035007f4e4925c4ca25ba4402ad",
+    "file": "Modules/MONITORING/M475A/1986 - M475A - 14-140-06-001 - DUAL BOOSTER AMPLIFIER COMPONENT LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "@   4 @zl 84 1 8 2 8e8 2 8 82 8 1 4016 4016 4016 HA Ai3i3i*1 6161314 0 g2 2982 2229 M U 8 Rzo !5K 68/10 68/10 Tt R26 !SK 4 C9 4P7 C7 C14 (C1D) 4PZ R2i B2K WBS R",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e0c60fff898916d8ef40175e3d7a9a4757393035007f4e4925c4ca25ba4402ad",
+    "file": "Modules/MONITORING/M475A/1986 - M475A - 14-140-06-001 - DUAL BOOSTER AMPLIFIER COMPONENT LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "@   4 @zl 84 1 8 2 8e8 2 8 82 8 1 4016 4016 4016 HA Ai3i3i*1 6161314 0 g2 2982 2229 M U 8 Rzo !5K 68/10 68/10 Tt R26 !SK 4 C9 4P7 C7 C14 (C1D) 4PZ R2i B2K WBS R",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/MONITORING/M475A/1986 - M475A - Stereo Monitor Module.pdf",
+     "page": 31
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

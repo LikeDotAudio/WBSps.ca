@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,676,017 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 608-02-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 9–298 mm up
+- **Outlines:** line 423 rings, 5,939 straight (12,430 mm) / 801 curved (1,130 mm); text 762 rings, 5,825 straight (6,981 mm) / 1,529 curved (2,362 mm); tb 30 rings, 232 straight (351 mm) / 43 curved (58.0 mm)
+- **Centre lines:** 12,728 paths (141 closed); straight 12,712 mm, curved 231 mm; horizontal 4,859 mm, vertical 2,785 mm, diagonal 5,068 mm
+- **Circles and arcs:** 10 circles, 28 arcs; largest r 1.3 @ (227.3, 169.3), r 1.3 @ (227.6, 85.6), r 1.3 @ (227.6, 90.8), r 1.3 @ (227.5, 129.9)
+- **Closed boxes:** 83 (6 in the title block); named: P2-16; P2-16
+- **Dots (junctions):** 2
+- **Words (OCR):** 100 in 80 lines: NOTES: · v/77 DENOTES CHASSIS · MTIPLE · UNIT_WIRING · WLTHNAMOUNTING EBAAE · DENOTES ELECTRICAL · LO A1 OUTPUTS · GROUND OR COMMON · FOR · MAXIMUM OUTPUT CAPA · P2-8 · (1OF 8)
+- **Title block:** (283, 10)–(432, 78) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · M6o8 · M6o8A · ENG. MeW 1/8 AUDIO   DISTRIBUTION AMPLIFIER · CKD: · SYSTEM · WIRING SCHEMAIIC · APP · SCALE · 608-02-003 · ISSUE
+- **Wiring (first pass):** 35 connected wire groups from 449 runs, 2 dotted junctions; labelled ends: 534 mm → IP1-7, P1-1S, PZ-1, P2; 496 mm → TERMINAL; 450 mm → IP1-7, P1-1S, PZ-1, P2; 320 mm → A5, Pt-Z, P1-16, P2-1; 166 mm → P2
+
+Every curve, box, word and wire group: [19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR (traced).json](19xx%20-%20DOC%20-%20608-02-003%20-%20TECHNICAL%20GROUND%20INSULATED%20GROUND%20BAR%20%28traced%29.json) (the CAD file: `19xx - DOC - 608-02-003 - TECHNICAL GROUND INSULATED GROUND BAR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

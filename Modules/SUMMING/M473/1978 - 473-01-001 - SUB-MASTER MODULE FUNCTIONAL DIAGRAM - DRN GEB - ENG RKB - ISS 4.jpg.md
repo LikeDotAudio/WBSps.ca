@@ -25,6 +25,20 @@ Wiki page: [M473](../../../PAGES/M473.md)
 - **Size:** 226,060 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 473-01-001, size B 432 × 285 mm, 2000 × 1319 px traced (0.216 mm/px)
+- **Ink extent:** 21–432 mm across, 0–281 mm up
+- **Outlines:** line 285 rings, 3,472 straight (9,055 mm) / 420 curved (593 mm); text 494 rings, 3,208 straight (3,728 mm) / 972 curved (1,413 mm); tb 20 rings, 181 straight (334 mm) / 25 curved (30.4 mm)
+- **Centre lines:** 3,835 paths (82 closed); straight 6,602 mm, curved 64.3 mm; horizontal 2,626 mm, vertical 1,666 mm, diagonal 2,310 mm
+- **Circles and arcs:** 4 circles, 8 arcs; largest r 3.5 @ (118.3, 199.1), r 1.1 @ (255.9, 96.5), r 1.1 @ (245.3, 96.5), r 1.1 @ (334.4, 261.0)
+- **Closed boxes:** 21 (11 in the title block); named: 1/78; 109A(G) 8 . 109A(G) WAS; CONTROLS MODIFIED; 10 /77; PB.
+- **Words (OCR):** 75 in 65 lines: Monitor · DIRECT OUTPut · +8dBm 600 _ · MASTER · SUB · FADER · TRim · SUmMinG · ON · BUS · SUM · 109A
+- **Title block:** (280, 2)–(432, 79) mm: 10 /77 · CONTROLS MODIFIED · PB. · 10 / 77 · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK sysTEMS · DRN; GEB · M473 · ENG RKB · MODULE · SUB-MASTER · CKD: · FUNCTIONAL DIAGRAM · APP · SCALE 
+- **Wiring (first pass):** 119 connected wire groups from 276 runs; labelled ends: 342 mm → DIRECT OUTPut, +8dBm, TRim, 1096; 169 mm → ConTROl, 1/78, 109A(G), PB.; 110 mm → SOLo; 89 mm → SOLO; 69 mm → TRim
+
+Every curve, box, word and wire group: [1978 - 473-01-001 - SUB-MASTER MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG RKB - ISS 4 (traced).json](1978%20-%20473-01-001%20-%20SUB-MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20RKB%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1978 - 473-01-001 - SUB-MASTER MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG RKB - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

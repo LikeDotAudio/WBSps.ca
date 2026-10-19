@@ -26,6 +26,21 @@ Wiki page: [M117](../../../PAGES/M117.md)
 
 - **1987** (month): `DEC 87` — …S (12 Cr8 05 Rso 22 Transistors 62 _ 73 AUDQ6 Were 2n 3645 (DEC 87 I8s) Transistor Qi REPLACED 3y 2n649o TEAnsistor 04 REPLACE…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 117-02-001, size B (assumed) 432 × 142 mm, 2000 × 659 px traced (0.216 mm/px)
+- **Ink extent:** 4–430 mm across, 2–142 mm up
+- **Outlines:** line 892 rings, 7,536 straight (11,754 mm) / 1,913 curved (2,438 mm); text 425 rings, 2,341 straight (2,003 mm) / 831 curved (1,029 mm); tb 32 rings, 218 straight (231 mm) / 60 curved (73.2 mm)
+- **Centre lines:** 9,698 paths (293 closed); straight 8,670 mm, curved 366 mm; horizontal 2,863 mm, vertical 2,176 mm, diagonal 3,630 mm
+- **Circles and arcs:** 12 circles, 75 arcs; largest r 6.7 @ (118.4, 54.1), r 6.5 @ (79.0, 86.7), r 3.5 @ (337.2, 89.3), r 3.4 @ (53.6, 58.8)
+- **Closed boxes:** 22 (3 in the title block); named: G2; 438
+- **Dots (junctions):** 1
+- **Words (OCR):** 61 in 56 lines: Al resisturs Are · ALL · Specifiec · OthErwise · RES. BASE · CURRENt · +25v · Ozsignitions · 612 · Teansistors 02 Audoc · Were 2N 3L45 · EETLACED
+- **Title block:** (349, 0)–(432, 31) mm: WBS WARO-BECK systeMs · -117 · REGULATOR BOARD · CKD · chemATIC · Scale · ISSUE
+- **Wiring (first pass):** 63 connected wire groups from 550 runs; labelled ends: 463 mm → 744037; 281 mm → 8860; 275 mm → 0872, R49; 228 mm → WARO-BECK systeMs, WBS; 131 mm → 8860, 8k, I83k
+
+Every curve, box, word and wire group: [1978 - 117-02-001 - 1-117 REGULATOR BOARD SCHEMATIC - DRN MRW - ENG MRW (traced).json](1978%20-%20117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20%28traced%29.json) (the CAD file: `1978 - 117-02-001 - 1-117 REGULATOR BOARD SCHEMATIC - DRN MRW - ENG MRW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

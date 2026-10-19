@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,070,653 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920477-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 27–425 mm across, 3–266 mm up
+- **Outlines:** line 1,948 rings, 16,283 straight (25,143 mm) / 3,641 curved (4,391 mm); text 482 rings, 3,316 straight (2,947 mm) / 953 curved (1,145 mm); tb 14 rings, 132 straight (158 mm) / 36 curved (46.0 mm)
+- **Centre lines:** 29,906 paths (494 closed); straight 19,785 mm, curved 70.0 mm; horizontal 6,714 mm, vertical 5,651 mm, diagonal 7,420 mm
+- **Circles and arcs:** 0 circles, 31 arcs
+- **Closed boxes:** 81 (2 in the title block); named: BSERI; SCAE
+- **Words (OCR):** 87 in 85 lines: AUSES · PcU | PGU · PROGBAM · SIEREO_QUIPUIS · METERING · MC_NNPUI CHAKNELS (18J) · NSGRTS · INSERTS · quTFUTS · (-4 dB) · (-4 CB) · MONQCUIEUIS
+- **Title block:** (346, 22)–(430, 40) mm: WBS · WARD-BECK SYSTEMS · TELEMEDIA
+- **Wiring (first pass):** 154 connected wire groups from 1,694 runs; labelled ends: 2374 mm → PcU | PGU, MC_NNPUI CHAKNELS (18J), PROGBAM, CSOLLAToR; 337 mm → UNE_SELECIORS; 170 mm → uohitor; 164 mm → DIRECT, IALKBACK; 122 mm → (-4 CB)
+
+Every curve, box, word and wire group: [1992 - M498 - DOC - 920477-01-001 - OHMS SWTCHED SSUE REMSION FUTURE FUTURE (traced).json](1992%20-%20M498%20-%20DOC%20-%20920477-01-001%20-%20OHMS%20SWTCHED%20SSUE%20REMSION%20FUTURE%20FUTURE%20%28traced%29.json) (the CAD file: `1992 - M498 - DOC - 920477-01-001 - OHMS SWTCHED SSUE REMSION FUTURE FUTURE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 24 words corrected)

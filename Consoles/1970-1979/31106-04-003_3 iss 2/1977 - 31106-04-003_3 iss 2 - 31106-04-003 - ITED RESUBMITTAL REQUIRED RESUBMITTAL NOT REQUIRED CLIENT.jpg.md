@@ -9,6 +9,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,482,348 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 407 rings, 6,970 straight (10,674 mm) / 993 curved (1,398 mm); text 212 rings, 1,520 straight (1,639 mm) / 459 curved (630 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (184.2, 174.3)
+- **Closed boxes:** 35
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_3 iss 2 - 31106-04-003 - ITED RESUBMITTAL REQUIRED RESUBMITTAL NOT REQUIRED CLIENT (traced).json](1977%20-%2031106-04-003_3%20iss%202%20-%2031106-04-003%20-%20ITED%20RESUBMITTAL%20REQUIRED%20RESUBMITTAL%20NOT%20REQUIRED%20CLIENT%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_3 iss 2 - 31106-04-003 - ITED RESUBMITTAL REQUIRED RESUBMITTAL NOT REQUIRED CLIENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,16 @@ Wiki page: [M402B](../../../PAGES/M402B.md)
 - **Size:** 6,928,974 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 139-06-001, size B (assumed) 432 × 307 mm, 2000 × 1423 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–307 mm up
+- **Outlines:** line 1,638 rings, 16,332 straight (20,436 mm) / 4,541 curved (4,492 mm); text 286 rings, 2,157 straight (1,902 mm) / 686 curved (735 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 8.2 @ (238.3, 124.6), r 8.2 @ (238.0, 188.6), r 8.0 @ (237.2, 215.5), r 7.9 @ (238.3, 146.5)
+- **Closed boxes:** 24
+
+Every curve, box, word and wire group: [1970 - M402B - 139-06-001 - MIM'BEND RAD UNLESS SPECIFED (traced).json](1970%20-%20M402B%20-%20139-06-001%20-%20MIM%27BEND%20RAD%20UNLESS%20SPECIFED%20%28traced%29.json) (the CAD file: `1970 - M402B - 139-06-001 - MIM'BEND RAD UNLESS SPECIFED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

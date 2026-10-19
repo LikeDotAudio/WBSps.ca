@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,570,783 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** artwork 3642-07-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–430 mm across, 9–287 mm up
+- **Outlines:** line 2,650 rings, 23,309 straight (50,138 mm) / 6,630 curved (6,739 mm); text 467 rings, 2,947 straight (2,906 mm) / 832 curved (944 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 3.6 @ (7.5, 141.7), r 3.5 @ (6.2, 252.9), r 3.5 @ (8.1, 31.8), r 1.3 @ (196.1, 266.5)
+- **Closed boxes:** 184
+- **Dots (junctions):** 8
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-07-002 - POWER DISTRIBU TION (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-07-002%20-%20POWER%20DISTRIBU%20TION%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-07-002 - POWER DISTRIBU TION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

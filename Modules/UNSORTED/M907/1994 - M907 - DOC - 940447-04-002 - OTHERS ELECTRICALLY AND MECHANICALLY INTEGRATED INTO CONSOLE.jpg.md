@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,072,863 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940447-04-002, size B (assumed) 432 × 345 mm, 2000 × 1597 px traced (0.216 mm/px); scale DISC NO: 487
+- **Ink extent:** 12–428 mm across, 9–345 mm up
+- **Outlines:** line 1,684 rings, 12,161 straight (39,092 mm) / 1,789 curved (2,317 mm); text 765 rings, 4,762 straight (5,191 mm) / 1,519 curved (2,061 mm); tb 19 rings, 360 straight (2,013 mm) / 14 curved (21.6 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 7.1 @ (374.1, 142.8), r 7.0 @ (374.4, 114.9), r 2.5 @ (272.3, 204.9), r 2.5 @ (273.0, 116.1)
+- **Closed boxes:** 250; named: M9OSB; M908 FUTURE; M907; M9O5A KCde EQ INS HEXOPHONE MUTE Vohmor; Mgoicy 70; Mgo1cy ON; Mgo1cy 70 CH ON; Mgoicy 70 CH ON; APC-88 APC-88; M9O1CY ON; M9O1CY 70 ON; M9O1CY 70
+- **Dots (junctions):** 43
+- **Words (OCR):** 120 in 85 lines: METER · Mic · MIc 2 MIc · MIC · MIC · MIc · LINE · LINE · LINE · PHONE PHONE LINE · LINE · LINE
+- **Title block:** (118, 9)–(432, 70) mm: REVISION · APP · ISSUE · NOTES: · WBS · WARD-BECK · SYSTEMS · 1. FU TURE MODULES ARE · WIRED BUT NOT SUPPLIED INITIALLY. · 2. SAS APC-88RS IS SUPPLIED BY OTHERS, · ELECTRICALLY · AND MECHANICALLY INTE
+
+Every curve, box, word and wire group: [1994 - M907 - DOC - 940447-04-002 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE (traced).json](1994%20-%20M907%20-%20DOC%20-%20940447-04-002%20-%20OTHERS%20ELECTRICALLY%20AND%20MECHANICALLY%20INTEGRATED%20INTO%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - M907 - DOC - 940447-04-002 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

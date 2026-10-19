@@ -11,6 +11,20 @@ Wiki page: [M415](../../../PAGES/M415.md)
 - **Size:** 44,837,981 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 415-02-002, size B (assumed) 432 × 168 mm, 2000 × 778 px traced (0.216 mm/px)
+- **Ink extent:** 1–428 mm across, 0–167 mm up
+- **Outlines:** line 2,418 rings, 16,939 straight (14,615 mm) / 3,123 curved (3,284 mm); text 14 rings, 106 straight (85.6 mm) / 28 curved (34.0 mm)
+- **Centre lines:** 16,483 paths (160 closed); straight 9,098 mm, curved 51.3 mm; horizontal 2,770 mm, vertical 1,981 mm, diagonal 4,347 mm
+- **Circles and arcs:** 1 circles, 15 arcs; largest r 0.7 @ (84.0, 112.6)
+- **Closed boxes:** 6
+- **Dots (junctions):** 3
+- **Words (OCR):** 4 in 4 lines: 39on · 1502 · WARD · TOLS
+- **Wiring (first pass):** 107 connected wire groups from 1,073 runs; labelled ends: 34 mm → TOLS; 24 mm → TOLS; 11 mm → WARD
+
+Every curve, box, word and wire group: [1971 - M415 - 415-02-002 - MUSEEDECRAE BIGE SVEHEONGLES (traced).json](1971%20-%20M415%20-%20415-02-002%20-%20MUSEEDECRAE%20BIGE%20SVEHEONGLES%20%28traced%29.json) (the CAD file: `1971 - M415 - 415-02-002 - MUSEEDECRAE BIGE SVEHEONGLES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

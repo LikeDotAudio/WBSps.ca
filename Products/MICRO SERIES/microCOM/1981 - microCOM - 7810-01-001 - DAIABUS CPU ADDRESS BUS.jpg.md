@@ -11,6 +11,18 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,571,413 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 7810-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 950 rings, 10,497 straight (17,820 mm) / 1,742 curved (2,061 mm); text 122 rings, 920 straight (878 mm) / 274 curved (354 mm)
+- **Centre lines:** 10,556 paths (115 closed); straight 10,557 mm, curved 86.3 mm; horizontal 4,504 mm, vertical 3,148 mm, diagonal 2,906 mm
+- **Circles and arcs:** 1 circles, 27 arcs; largest r 2.3 @ (173.4, 256.2)
+- **Closed boxes:** 31
+- **Wiring (first pass):** 225 connected wire groups from 1,087 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 7810-01-001 - DAIABUS CPU ADDRESS BUS (traced).json](1981%20-%20microCOM%20-%207810-01-001%20-%20DAIABUS%20CPU%20ADDRESS%20BUS%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7810-01-001 - DAIABUS CPU ADDRESS BUS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

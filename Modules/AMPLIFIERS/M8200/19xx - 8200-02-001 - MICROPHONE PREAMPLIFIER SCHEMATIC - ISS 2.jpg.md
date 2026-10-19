@@ -22,6 +22,20 @@ M8200 microphone preamplifier schematic, cropped.
 - **Size:** 612,638 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8200-02-001, size B 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–431 mm up
+- **Outlines:** line 483 rings, 6,086 straight (7,312 mm) / 1,231 curved (1,452 mm); text 358 rings, 3,549 straight (3,518 mm) / 1,068 curved (1,480 mm)
+- **Centre lines:** 13,791 paths (90 closed); straight 8,433 mm, curved 64.3 mm; horizontal 2,263 mm, vertical 1,938 mm, diagonal 4,232 mm
+- **Circles and arcs:** 3 circles, 18 arcs; largest r 1.1 @ (15.1, 290.3), r 0.9 @ (14.0, 284.9), r 0.8 @ (107.1, 329.5)
+- **Closed boxes:** 7
+- **Words (OCR):** 86 in 71 lines: OFFSET · R38 · 22v [716* · +22v · +20 · 0.47/oo · R22 · UJA · OUTPUT · C38 · C25 · NESSJJN
+- **Title block:** (229, 45)–(320, 69) mm: WARD-BECK SYSTEMS · M82oo
+- **Wiring (first pass):** 51 connected wire groups from 358 runs; labelled ends: 187 mm → 100, C57, 27P, 56k; 181 mm → +22v, CJJ, 150/10, CSI; 115 mm → NESSJJN, C38, 27P; 103 mm → O7, 22*, 2K2, UJB; 92 mm → R22, C25, 5k38, NESSJJN
+
+Every curve, box, word and wire group: [19xx - 8200-02-001 - MICROPHONE PREAMPLIFIER SCHEMATIC - ISS 2 (traced).json](19xx%20-%208200-02-001%20-%20MICROPHONE%20PREAMPLIFIER%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 8200-02-001 - MICROPHONE PREAMPLIFIER SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

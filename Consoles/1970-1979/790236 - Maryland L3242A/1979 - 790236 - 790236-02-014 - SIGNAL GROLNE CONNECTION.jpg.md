@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,871,650 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-014, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 532 rings, 8,339 straight (13,912 mm) / 1,326 curved (1,842 mm); text 287 rings, 2,435 straight (2,781 mm) / 776 curved (1,132 mm)
+- **Centre lines:** 10,905 paths (93 closed); straight 10,964 mm, curved 268 mm; horizontal 3,832 mm, vertical 3,151 mm, diagonal 3,981 mm
+- **Circles and arcs:** 13 circles, 49 arcs; largest r 2.5 @ (130.6, 133.0), r 2.4 @ (158.5, 89.5), r 2.3 @ (276.6, 221.3), r 2.2 @ (277.2, 319.4)
+- **Closed boxes:** 18
+- **Wiring (first pass):** 75 connected wire groups from 505 runs
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-014 - SIGNAL GROLNE CONNECTION (traced).json](1979%20-%20790236%20-%20790236-02-014%20-%20SIGNAL%20GROLNE%20CONNECTION%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-014 - SIGNAL GROLNE CONNECTION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

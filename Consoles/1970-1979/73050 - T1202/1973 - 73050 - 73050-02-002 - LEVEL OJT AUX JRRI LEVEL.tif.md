@@ -10,6 +10,20 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 7,268,004 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-002, size B (assumed) 432 × 134 mm, 2000 × 621 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–134 mm up
+- **Outlines:** line 1,141 rings, 10,465 straight (9,405 mm) / 2,101 curved (2,268 mm); text 222 rings, 1,782 straight (1,498 mm) / 556 curved (664 mm)
+- **Centre lines:** 15,953 paths (83 closed); straight 8,204 mm, curved 123 mm; horizontal 2,516 mm, vertical 1,802 mm, diagonal 3,886 mm
+- **Circles and arcs:** 0 circles, 46 arcs
+- **Closed boxes:** 25
+- **Dots (junctions):** 2
+- **Words (OCR):** 46 in 37 lines: LEVEL · (CUT) · ALX IJRR · Joo< · LeveL(r) · Frol ASM · AUx'/Rsi OUTPUTT AUX !/ · OUTPUT · 18 Jbm · RR · 48 dBm · irs
+- **Wiring (first pass):** 63 connected wire groups from 492 runs, 2 dotted junctions; labelled ends: 239 mm → 2k4, (-24}; 80 mm → ALX IJRR, LeveL(r), (-I8}; 74 mm → Tzz/i8v; 65 mm → Lto_, WARD-AACK; 63 mm → Tzz/i8v, iCK
+
+Every curve, box, word and wire group: [1973 - 73050 - 73050-02-002 - LEVEL OJT AUX JRRI LEVEL (traced).json](1973%20-%2073050%20-%2073050-02-002%20-%20LEVEL%20OJT%20AUX%20JRRI%20LEVEL%20%28traced%29.json) (the CAD file: `1973 - 73050 - 73050-02-002 - LEVEL OJT AUX JRRI LEVEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

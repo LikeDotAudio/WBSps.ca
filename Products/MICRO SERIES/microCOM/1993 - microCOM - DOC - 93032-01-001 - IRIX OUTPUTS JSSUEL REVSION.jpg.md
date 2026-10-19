@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,007,684 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93032-01-001, size B (assumed) 432 × 274 mm, 2000 × 1271 px traced (0.216 mm/px); scale NSC NO;
+- **Ink extent:** 34–414 mm across, 0–213 mm up
+- **Outlines:** line 3,267 rings, 20,277 straight (25,080 mm) / 6,414 curved (10,923 mm); text 208 rings, 1,301 straight (1,174 mm) / 398 curved (503 mm); tb 52 rings, 333 straight (316 mm) / 84 curved (95.3 mm)
+- **Centre lines:** 37,915 paths (193 closed); straight 25,277 mm, curved 70.1 mm; horizontal 9,607 mm, vertical 9,331 mm, diagonal 6,339 mm
+- **Circles and arcs:** 39 circles, 25 arcs; largest r 1.7 @ (220.7, 180.1), r 1.6 @ (183.3, 179.0), r 1.6 @ (173.9, 178.7), r 1.6 @ (117.8, 180.2)
+- **Closed boxes:** 349 (2 in the title block)
+- **Dots (junctions):** 829
+- **Words (OCR):** 28 in 27 lines: LECEYU: · crossFCiNT · SAnCHLL · utubjg · FLCCR · V9z20 · FLOcR · PHOYE · PHONc · 3ctions; · CAVERA · Cions
+- **Title block:** (333, 0)–(420, 31) mm: WBS) · WARD-BECK SYSTEMS · NEWS CENTER · CTS · 48X48 MicroCom · INTERCOM · FUNCTIONAL · SCALE NSC NO; · 93032- · 001
+- **Wiring (first pass):** 100 connected wire groups from 5,714 runs, 1133 dotted junctions; labelled ends: 30 mm → CAVERA, 4tbeos; 15 mm → UCHTNC; 11 mm → utubjg, V9z20, PHOYE; 10 mm → CAVERA; 10 mm → UCHTNC
+
+Every curve, box, word and wire group: [1993 - microCOM - DOC - 93032-01-001 - IRIX OUTPUTS JSSUEL REVSION (traced).json](1993%20-%20microCOM%20-%20DOC%20-%2093032-01-001%20-%20IRIX%20OUTPUTS%20JSSUEL%20REVSION%20%28traced%29.json) (the CAD file: `1993 - microCOM - DOC - 93032-01-001 - IRIX OUTPUTS JSSUEL REVSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

@@ -23,6 +23,19 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 405,372 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 463-06-028, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 1–420 mm up
+- **Outlines:** line 659 rings, 7,743 straight (13,804 mm) / 2,205 curved (2,295 mm); text 639 rings, 5,368 straight (5,238 mm) / 1,687 curved (1,928 mm); tb 13 rings, 158 straight (266 mm) / 27 curved (30.5 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 10.8 @ (83.4, 306.6), r 10.6 @ (54.3, 306.8), r 4.8 @ (134.8, 104.5), r 4.8 @ (134.9, 323.1)
+- **Closed boxes:** 51 (11 in the title block); named: Lmzoi
+- **Dots (junctions):** 1
+- **Words (OCR):** 101 in 86 lines: Pn35L9 · 214401 · 214401 · 714401 · CRiiJsK RS · 22k · ~Rio-e* · ~R3 @K2 · Ri3 · 22 · ~Ri?-22 · 4e9
+- **Title block:** (190, 3)–(332, 74) mm: ISSUE · DATE · REVISION · APP · WARD-BECX SYSTEMB · WBS · Drn. HM · M463AC · MASTER · MODULE · CKD: · COMPONENT LAYOUT · APP · SCALE · ISSUE · 463-06-028
+
+Every curve, box, word and wire group: [19xx - 463-06-028 - M463AC MASTER MODULE COMPONENT LAYOUT - DRN HM - ISS 1 (traced).json](19xx%20-%20463-06-028%20-%20M463AC%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20HM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 463-06-028 - M463AC MASTER MODULE COMPONENT LAYOUT - DRN HM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -29,6 +29,20 @@ Wiki page: [M463L](../../../PAGES/M463L.md)
 
 - **1974** (labelled): `DATE NOV 74` — …4 IOOOP Sk ~ISv ON MATL_ WBS WARD-BECK BYSTEMB LTD_ DRN: DM DATE NOV 74 CKD Ro SCALE XX TOLS _ xe 4-141 SUMMing AMPLIFIER SCHEMATIC…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-141-02-001, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 2–428 mm up
+- **Outlines:** line 125 rings, 4,301 straight (8,696 mm) / 512 curved (797 mm); text 452 rings, 4,661 straight (6,434 mm) / 1,230 curved (2,204 mm); tb 49 rings, 542 straight (849 mm) / 118 curved (200 mm)
+- **Centre lines:** 5,167 paths (66 closed); straight 9,630 mm, curved 113 mm; horizontal 3,470 mm, vertical 2,141 mm, diagonal 4,019 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 9.6 @ (13.5, 207.1)
+- **Closed boxes:** 13 (4 in the title block); named: WBS WARD-BECK BYBTEMB LTD_; MATL; 4-141 AMPLIFIER SUMMinG SCHEMATIC; FIINISH; 4-141-02-001; ISS.; TOLS .
+- **Words (OCR):** 82 in 67 lines: NOTES · zi IS · FAcTORy · SELECTED · VALUE 33opF · Cl NOMINAL · ON · Previous ISSUES · R9 WAs 7k5 · Rzl WAS NoT · INCLUDED · 8p
+- **Title block:** (99, 16)–(249, 341) mm: VALUE 33opF · Cl NOMINAL · ON · Previous ISSUES · R9 WAs 7k5 · Rzl WAS NoT · INCLUDED · LAsT · C 23 · Q4 r26 22 · R2O 620 · C14 · R18 · 22 · 2k4 C12 · LMzOL_ · Rig · 47p · cii · ISk · See · ~21v · NoT
+- **Wiring (first pass):** 21 connected wire groups from 81 runs; labelled ends: 234 mm → Sk, ON, {OOOp, WBS; 190 mm → DRN:, DATE NOV; 150 mm → LTD_, WBS, WARD-BECK; 97 mm → AMPLIFIER, SCHEMATIC, 4-141-02-001, ISS.; 76 mm → C16, 32/10, 22, LMzOL_
+
+Every curve, box, word and wire group: [1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 8 (traced).json](1974%20-%204-141-02-001%20-%204-141%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%208%20%28traced%29.json) (the CAD file: `1974 - 4-141-02-001 - 4-141 SUMMING AMPLIFIER SCHEMATIC - DRN DM - ISS 8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

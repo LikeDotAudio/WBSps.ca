@@ -22,6 +22,20 @@ Wiki page: [Job-920063](../../../PAGES/Job-920063.md)
 - **Size:** 426,715 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920063-01-002, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px); scale DISC NO: 410
+- **Ink extent:** 0–864 mm across, 16–543 mm up
+- **Outlines:** line 530 rings, 3,362 straight (11,609 mm) / 663 curved (1,767 mm); text 559 rings, 4,246 straight (7,386 mm) / 1,161 curved (2,778 mm); tb 27 rings, 301 straight (2,442 mm) / 17 curved (44.7 mm)
+- **Centre lines:** 11,868 paths (210 closed); straight 14,188 mm, curved 68.4 mm; horizontal 4,749 mm, vertical 3,406 mm, diagonal 6,032 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 2.2 @ (182.2, 221.9), r 2.1 @ (160.4, 222.4)
+- **Closed boxes:** 11; named: H495_VONIQR_MODULE; M495_MONIIOR MODULE; M453ACUE_AMPLIFIER; M451 IALKRACK HQDULE; PSI M6258
+- **Words (OCR):** 126 in 113 lines: M49QA_MC_NPUI CHANNELS · CH ON · STARI/ON · MONITORING · TIMER · EXTERNAL · Ch OFF · CONTROL · MUTE · CONTROLS · STOP OFF · CONTROL
+- **Title block:** (677, 12)–(862, 90) mm: ISSuE · REVSION · APP · WBS · WARD-BECK  SYSTEMS · DRN: · ENG: · KRSR RADIO · CONSOLE · CKD_ · RADIO · DC_FUNCTIONAL · APP · SCALE DISC NO: 410 · CODE: 20063F02 · 920063-01-002 ISSUE
+- **Wiring (first pass):** 123 connected wire groups from 473 runs; labelled ends: 161 mm → M49QA_MC_NPUI, M49OA_MCRQPHONE_INPUL_MQDULE; 160 mm → M49OEA_SIFREQ; 153 mm → M49QA_MC_NPUI; 94 mm → STEREQ_INPULMQDULE, M49OEA_SIFREQ; 92 mm → STEREQ_INPULMQDULE
+
+Every curve, box, word and wire group: [1992 - 920063-01-002 - KRSR RADIO RADIO CONSOLE DC FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).json](1992%20-%20920063-01-002%20-%20KRSR%20RADIO%20RADIO%20CONSOLE%20DC%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1992 - 920063-01-002 - KRSR RADIO RADIO CONSOLE DC FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,469,050 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940246-03-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 59–423 mm across, 7–262 mm up
+- **Outlines:** line 310 rings, 2,445 straight (5,839 mm) / 443 curved (546 mm); text 232 rings, 1,414 straight (1,385 mm) / 457 curved (589 mm); tb 20 rings, 165 straight (193 mm) / 24 curved (27.0 mm)
+- **Centre lines:** 4,927 paths (130 closed); straight 4,700 mm, curved 14.0 mm; horizontal 1,382 mm, vertical 1,773 mm, diagonal 1,546 mm
+- **Circles and arcs:** 3 circles, 4 arcs; largest r 1.8 @ (209.3, 238.1), r 1.8 @ (103.9, 37.8), r 1.4 @ (209.3, 230.5)
+- **Closed boxes:** 32 (4 in the title block); named: INTERCOM PANEL MOD WIDTH); 940246 03-001; 1:1; DISC NO
+- **Dots (junctions):** 1
+- **Words (OCR):** 28 in 22 lines: RLQD · UNC-CS · Toco, · MATERIAL: ALUK ALLOY 0.125 THICK · AINISH: SAND 120 GRIT AND PAINT · TEXTURED BEIGE (452C) · TEXCOTE VNYL, · (EXTRA · TEXTURE) · REVDM · JURAS · JCLEKAYCES-
+- **Title block:** (344, 22)–(428, 39) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940246 - DOC - 940246-03-001 - INTERCOM PANEL MOD WIDTH (traced).json](1994%20-%20940246%20-%20DOC%20-%20940246-03-001%20-%20INTERCOM%20PANEL%20MOD%20WIDTH%20%28traced%29.json) (the CAD file: `1994 - 940246 - DOC - 940246-03-001 - INTERCOM PANEL MOD WIDTH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

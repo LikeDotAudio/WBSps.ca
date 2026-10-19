@@ -11,6 +11,19 @@ Wiki page: [M450A](../../../PAGES/M450A.md)
 - **Size:** 591,739 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 450-02-002, size B (assumed) 432 × 283 mm, 2000 × 1310 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–271 mm up
+- **Outlines:** line 601 rings, 5,613 straight (11,173 mm) / 1,134 curved (1,856 mm); text 836 rings, 5,727 straight (5,897 mm) / 2,148 curved (2,763 mm)
+- **Centre lines:** 10,524 paths (142 closed); straight 10,820 mm, curved 474 mm; horizontal 3,937 mm, vertical 2,033 mm, diagonal 4,850 mm
+- **Circles and arcs:** 21 circles, 47 arcs; largest r 4.9 @ (170.1, 156.6), r 4.9 @ (138.1, 184.5), r 3.6 @ (352.1, 168.7), r 3.4 @ (16.9, 120.6)
+- **Closed boxes:** 21; named: TiP 298 Tip $B 20 247 } 75w Qio Tip %8 r; WBS
+- **Words (OCR):** 158 in 135 lines: ISOOP · 2*2 · C16 · R3 · R5? · 620 · R5 · AK · R4 2K1 · c28 · C27 · R38-IK
+- **Wiring (first pass):** 110 connected wire groups from 545 runs; labelled ends: 154 mm → 247, 20, } 75w, 770; 136 mm → WBS, MR75; 115 mm → 739(SELECTID); 76 mm → WBS, MR75; 74 mm → 22, 739
+
+Every curve, box, word and wire group: [1973 - M450A - 450-02-002 - IFIO NENTS MARKED SPECIFIED MPONENT ASSEMBLY FOR SCHEMATIC (traced).json](1973%20-%20M450A%20-%20450-02-002%20-%20IFIO%20NENTS%20MARKED%20SPECIFIED%20MPONENT%20ASSEMBLY%20FOR%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1973 - M450A - 450-02-002 - IFIO NENTS MARKED SPECIFIED MPONENT ASSEMBLY FOR SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 450,215 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 460-06-028, size B (assumed) 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–342 mm across, 4–415 mm up
+- **Outlines:** line 8,762 rings, 35,690 straight (35,441 mm) / 10,480 curved (9,023 mm); text 27 rings, 103 straight (71.0 mm) / 38 curved (36.8 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (232.6, 145.5), r 0.8 @ (125.3, 164.2)
+- **Closed boxes:** 37
+- **Dots (junctions):** 4
+- **Words (OCR):** 3 in 2 lines: FR · R6 % 2 ? ? 2
+
+Every curve, box, word and wire group: [1974 - M460M - 460-06-028 - OUNI RLNOPCIMNT INATX AMI'I (traced).json](1974%20-%20M460M%20-%20460-06-028%20-%20OUNI%20RLNOPCIMNT%20INATX%20AMI%27I%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-06-028 - OUNI RLNOPCIMNT INATX AMI'I (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

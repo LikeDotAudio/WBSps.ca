@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,757,546 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-295-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–296 mm up
+- **Outlines:** line 397 rings, 3,869 straight (6,843 mm) / 992 curved (1,356 mm); text 334 rings, 2,093 straight (1,878 mm) / 729 curved (890 mm)
+- **Centre lines:** 5,903 paths (73 closed); straight 5,344 mm, curved 330 mm; horizontal 1,962 mm, vertical 1,282 mm, diagonal 2,100 mm
+- **Circles and arcs:** 10 circles, 37 arcs; largest r 4.7 @ (358.3, 234.9), r 4.7 @ (185.0, 234.8), r 4.6 @ (358.4, 209.2), r 4.6 @ (185.1, 209.2)
+- **Closed boxes:** 4
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 58 connected wire groups from 378 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1994 - Renaisance - 14-295-02-001 - OPTO-ISOLATOR ASSEMBLY SCHEMA TIC (traced).json](1994%20-%20Renaisance%20-%2014-295-02-001%20-%20OPTO-ISOLATOR%20ASSEMBLY%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 14-295-02-001 - OPTO-ISOLATOR ASSEMBLY SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

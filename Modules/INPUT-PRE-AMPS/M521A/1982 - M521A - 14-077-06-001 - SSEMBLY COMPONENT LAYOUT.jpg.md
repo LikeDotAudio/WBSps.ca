@@ -11,6 +11,17 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 7,339,394 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-077-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 849 rings, 5,213 straight (7,060 mm) / 1,640 curved (1,702 mm); text 286 rings, 1,732 straight (1,465 mm) / 619 curved (650 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (360.6, 186.3)
+- **Closed boxes:** 32
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1982 - M521A - 14-077-06-001 - SSEMBLY COMPONENT LAYOUT (traced).json](1982%20-%20M521A%20-%2014-077-06-001%20-%20SSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M521A - 14-077-06-001 - SSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

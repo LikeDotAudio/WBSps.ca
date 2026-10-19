@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 839,450 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-019, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 27–430 mm across, 5–298 mm up
+- **Outlines:** line 154 rings, 2,490 straight (8,105 mm) / 323 curved (741 mm); text 680 rings, 4,188 straight (5,048 mm) / 1,380 curved (1,970 mm); tb 5 rings, 81 straight (210 mm) / 2 curved (2.4 mm)
+- **Centre lines:** 6,133 paths (105 closed); straight 8,000 mm, curved 406 mm; horizontal 3,256 mm, vertical 1,872 mm, diagonal 2,872 mm
+- **Circles and arcs:** 5 circles, 14 arcs; largest r 12.6 @ (234.9, 172.3), r 12.3 @ (76.1, 118.7), r 10.3 @ (183.7, 171.5), r 10.0 @ (62.4, 222.5)
+- **Closed boxes:** 13 (12 in the title block); named: SCALE 1:1
+- **Words (OCR):** 81 in 66 lines: #4-40 UNC PLACES · 0.130 · CSK TO 0.240 · PLACES · 0.531 · 4.000 · 1.062 · DETAIL · 0.780 DIA: · 0.371 · 258 · 0.224
+- **Title block:** (248, 21)–(418, 91) mm: REVSION · APP · ISSUE · SYSTEMS · WBS · WARD-BECK · DRN · WS · REAR · PANEL · ENG. W.S · CKD: · FOR IPH-1 · APP_ · SCALE DISC NO: · 256 · ISSUE · 1:1 CODE: 8224M19 · 8224-03-019
+
+Every curve, box, word and wire group: [19xx - 8224-03-019 - REAR PANEL FOR IPH-1 - DRN WS - ENG WS - ISS 1 (traced).json](19xx%20-%208224-03-019%20-%20REAR%20PANEL%20FOR%20IPH-1%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-019 - REAR PANEL FOR IPH-1 - DRN WS - ENG WS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

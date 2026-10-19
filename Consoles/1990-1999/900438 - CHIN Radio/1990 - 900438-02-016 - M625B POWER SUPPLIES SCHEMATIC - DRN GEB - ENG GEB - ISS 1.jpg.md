@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,515,569 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-016, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 1,321 rings, 12,132 straight (23,994 mm) / 2,462 curved (3,597 mm); text 327 rings, 2,057 straight (2,463 mm) / 705 curved (1,001 mm)
+- **Centre lines:** 11,285 paths (212 closed); straight 14,864 mm, curved 1,114 mm; horizontal 7,274 mm, vertical 3,609 mm, diagonal 3,981 mm
+- **Circles and arcs:** 78 circles, 115 arcs; largest r 3.4 @ (206.1, 71.0), r 3.3 @ (205.9, 63.3), r 3.3 @ (206.1, 47.4), r 3.3 @ (205.9, 55.5)
+- **Closed boxes:** 65
+- **Wiring (first pass):** 127 connected wire groups from 1,442 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-016 - M625B POWER SUPPLIES SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-016%20-%20M625B%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-016 - M625B POWER SUPPLIES SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

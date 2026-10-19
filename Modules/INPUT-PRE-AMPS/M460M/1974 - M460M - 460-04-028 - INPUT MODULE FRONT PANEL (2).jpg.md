@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 252,551 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 460-04-028, size B (assumed) 314 × 432 mm, 782 × 1074 px traced (0.402 mm/px)
+- **Ink extent:** 20–309 mm across, 15–420 mm up
+- **Outlines:** line 549 rings, 3,576 straight (12,920 mm) / 923 curved (2,709 mm); text 76 rings, 561 straight (999 mm) / 132 curved (315 mm); tb 2 rings, 38 straight (149 mm) / 1 curved (6.4 mm)
+- **Circles and arcs:** 49 circles, 0 arcs; largest r 8.4 @ (133.7, 51.3), r 5.2 @ (26.4, 137.2), r 5.2 @ (26.6, 327.1), r 5.2 @ (26.7, 197.8)
+- **Closed boxes:** 11
+- **Dots (junctions):** 1
+- **Words (OCR):** 11 in 10 lines: #BS · 250| · RS &PA · 34+V2 · WBS WAAD-BeCK ByBTeMB · M46om · INPUT MODULE · FRONT PANEL · 460-04-028 · ISS.
+- **Title block:** (189, 50)–(314, 74) mm: WBS WAAD-BeCK ByBTeMB
+
+Every curve, box, word and wire group: [1974 - M460M - 460-04-028 - INPUT MODULE FRONT PANEL (2) (traced).json](1974%20-%20M460M%20-%20460-04-028%20-%20INPUT%20MODULE%20FRONT%20PANEL%20%282%29%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-04-028 - INPUT MODULE FRONT PANEL (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

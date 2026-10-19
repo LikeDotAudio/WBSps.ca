@@ -11,6 +11,19 @@ Wiki page: [M462C](../../../PAGES/M462C.md)
 - **Size:** 2,430,421 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 462-06-009, size B (assumed) 337 × 432 mm, 1562 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–327 mm across, 7–403 mm up
+- **Outlines:** line 2,399 rings, 18,621 straight (21,509 mm) / 5,545 curved (5,976 mm); text 847 rings, 6,155 straight (5,557 mm) / 2,056 curved (2,315 mm); tb 2 rings, 88 straight (145 mm) / 15 curved (13.9 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 6.3 @ (260.4, 153.5), r 6.3 @ (158.2, 150.8), r 6.3 @ (185.6, 160.2), r 5.9 @ (233.0, 160.1)
+- **Closed boxes:** 26; named: 82
+- **Dots (junctions):** 12
+- **Words (OCR):** 87 in 70 lines: R6B RbC R6D R6A · "Isok*0-| · 44 · LFSSSN · LFSSSN · U1A · rio · Mhel · 474940 RBI- · 4.7/10 · R62 620 · 824
+- **Title block:** (206, 43)–(333, 68) mm: WBS · WAAD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1985 - M462C - 462-06-009 - STEREO EQUALIZER MODULE COMPONENT LAYOUT (traced).json](1985%20-%20M462C%20-%20462-06-009%20-%20STEREO%20EQUALIZER%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M462C - 462-06-009 - STEREO EQUALIZER MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,17 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 528,994 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-101-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 3–419 mm up
+- **Outlines:** line 237 rings, 2,667 straight (4,573 mm) / 718 curved (777 mm); text 459 rings, 3,675 straight (3,599 mm) / 1,273 curved (1,485 mm); tb 186 rings, 1,762 straight (2,014 mm) / 490 curved (562 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.6 @ (185.6, 264.6), r 4.6 @ (185.8, 204.4), r 2.5 @ (159.7, 263.3), r 2.4 @ (75.2, 262.5)
+- **Words (OCR):** 63 in 52 lines: TPI · PN356? · 22 R59 Vz" · 3536k8 · 22 R60 4z" · Isp__354 · Rs89k 22 · Tn403s · Vzw · 22p_ · I5k · CSI
+- **Title block:** (6, 54)–(333, 242) mm: 332- · 0. 022 · 470/40 · 470/40 · JSK PN356? · 010 · R46@0 · (C28)22/35 4r44 · 7623 · 22 · WBS · R47 620 · Z2p · CANADA · I2p_ 22p" · C22)53/10 · C2i · 0. 022 · 334828 · 2 2 R41 · 201 · 337 Kz 22 R45 
+
+Every curve, box, word and wire group: [1983 - M609 - 14-101-06-001 - AUDIO AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](1983%20-%20M609%20-%2014-101-06-001%20-%20AUDIO%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1983 - M609 - 14-101-06-001 - AUDIO AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

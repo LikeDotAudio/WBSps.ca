@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1977** (labelled): `DATE JUNE 77` — …2/25v R3s Cz0 22/25v WBS WAAD-BECK ByBTeMB LTD: Crz DRN MRW DATE JUNE 77 CKD PGLA SCALE TOLS _ { 25v I8V M472 IN4003 470 Iw 324v FIN…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 472-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 627 rings, 6,827 straight (14,536 mm) / 1,468 curved (1,797 mm); text 391 rings, 2,534 straight (2,306 mm) / 946 curved (1,164 mm); tb 14 rings, 109 straight (190 mm) / 18 curved (23.7 mm)
+- **Centre lines:** 9,907 paths (144 closed); straight 10,297 mm, curved 223 mm; horizontal 4,363 mm, vertical 2,486 mm, diagonal 3,448 mm
+- **Circles and arcs:** 6 circles, 63 arcs; largest r 2.5 @ (335.4, 173.7), r 0.8 @ (174.0, 80.8), r 0.8 @ (372.6, 195.9), r 0.8 @ (377.2, 195.8)
+- **Closed boxes:** 30 (4 in the title block); named: WBS WAAD-Beck Byatemb LTD; USEDLON; 3471; M472 EQUALIZER MODULE SCHEMATIC; FINISH; 4030; 472 - 02-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 92 in 79 lines: 220P · R2} · L43oi · EQ InPUT · L43oi · inserT · 33k · 22k · Tav · 33/10v · Swia · dBm Noh
+- **Title block:** (324, 17)–(398, 52) mm: WBS WAAD-Beck Byatemb LTD · DRM: MRW · M472 · DATE JUNE · EQUALIZER MODULE · SCALE · SCHEMATIC · TOLS_ · 472 - 02-001
+- **Wiring (first pass):** 83 connected wire groups from 635 runs; labelled ends: 724 mm → 3471, PM, soiL, 3664; 148 mm → Rzz, HF Cut/Boost, 4E, CUTIBOOST; 138 mm → 33/10v, inserT, Swia, R26 -; 112 mm → 22k, 4E; 91 mm → ue
+
+Every curve, box, word and wire group: [1977 - M472 - DOC - 472-02-001 - WAAD-BECK BYBTEMB (traced).json](1977%20-%20M472%20-%20DOC%20-%20472-02-001%20-%20WAAD-BECK%20BYBTEMB%20%28traced%29.json) (the CAD file: `1977 - M472 - DOC - 472-02-001 - WAAD-BECK BYBTEMB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

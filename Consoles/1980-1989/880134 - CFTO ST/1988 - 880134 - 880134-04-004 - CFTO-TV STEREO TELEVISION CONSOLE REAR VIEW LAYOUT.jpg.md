@@ -11,6 +11,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,353,951 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-004, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–279 mm up
+- **Outlines:** line 454 rings, 4,620 straight (13,887 mm) / 559 curved (675 mm); text 108 rings, 598 straight (665 mm) / 197 curved (272 mm); tb 37 rings, 204 straight (295 mm) / 33 curved (42.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (3.6, 15.3)
+- **Closed boxes:** 22 (1 in the title block); named: CFTO-TV CONSOLE STEREO TELEVISION REAR V; 880134 04-004; ScF 1:4
+- **Words (OCR):** 12 in 9 lines: WBS) · WARD-BECK SYSTEMS · CFTO-TV · CONSOLE · STEREO TELEVISION · REAR VIEW LAYOUT · ScF · 1:4 · 880134 04-004
+- **Title block:** (342, 23)–(427, 40) mm: WBS) · WARD-BECK SYSTEMS · CFTO-TV
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-004 - CFTO-TV STEREO TELEVISION CONSOLE REAR VIEW LAYOUT (traced).json](1988%20-%20880134%20-%20880134-04-004%20-%20CFTO-TV%20STEREO%20TELEVISION%20CONSOLE%20REAR%20VIEW%20LAYOUT%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-004 - CFTO-TV STEREO TELEVISION CONSOLE REAR VIEW LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

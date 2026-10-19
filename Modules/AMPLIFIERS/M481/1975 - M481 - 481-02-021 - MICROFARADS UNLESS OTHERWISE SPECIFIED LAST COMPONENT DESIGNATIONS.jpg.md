@@ -15,6 +15,21 @@ Wiki page: [M481](../../../PAGES/M481.md)
 
 - **1975** (labelled): `DATE MAy 75` — …: IG( USED ON MATL _ WBS WARD-BeCK ByBteMB LTD DRN 21L M481 DATE MAy 75 OSCILLATOR CUE AM"-LIFIER CKD_AL SCHEI 'ITIC Ecae ISS_ Tols…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 481-02-021, size B (assumed) 432 × 174 mm, 2000 × 808 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–163 mm up
+- **Outlines:** line 1,053 rings, 9,432 straight (12,544 mm) / 2,326 curved (2,596 mm); text 212 rings, 1,329 straight (1,256 mm) / 411 curved (521 mm); tb 27 rings, 197 straight (270 mm) / 30 curved (35.2 mm)
+- **Centre lines:** 11,319 paths (244 closed); straight 8,922 mm, curved 64.7 mm; horizontal 2,995 mm, vertical 2,028 mm, diagonal 3,899 mm
+- **Circles and arcs:** 2 circles, 23 arcs; largest r 0.9 @ (416.2, 99.9), r 0.8 @ (35.2, 56.1)
+- **Closed boxes:** 18
+- **Dots (junctions):** 1
+- **Words (OCR):** 36 in 34 lines: RE-CutRT · LeveL · RIs} · Cue AMP · S25 · R54 · 778 · R4t · 82 · 020 · Ras · 7075
+- **Title block:** (332, 4)–(406, 35) mm: WBS · WARD-BECK · DRN: · OSCILLATORICUE A"-LIFIER · M4si · CKD · SCHEN 'MTIC · SCALE · 481-02-021 · TOLS _
+- **Wiring (first pass):** 114 connected wire groups from 614 runs, 1 dotted junctions; labelled ends: 277 mm → DRN:, CKD; 130 mm → MAT; 57 mm → S25, R54; 56 mm → CR3; 51 mm → 82, 778
+
+Every curve, box, word and wire group: [1975 - M481 - 481-02-021 - MICROFARADS UNLESS OTHERWISE SPECIFIED LAST COMPONENT DESIGNATIONS (traced).json](1975%20-%20M481%20-%20481-02-021%20-%20MICROFARADS%20UNLESS%20OTHERWISE%20SPECIFIED%20LAST%20COMPONENT%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `1975 - M481 - 481-02-021 - MICROFARADS UNLESS OTHERWISE SPECIFIED LAST COMPONENT DESIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

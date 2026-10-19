@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,250,665 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960134-04-005, size B (assumed) 432 × 290 mm, 2000 × 1342 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 0–283 mm up
+- **Outlines:** line 805 rings, 6,673 straight (18,974 mm) / 994 curved (1,160 mm); text 133 rings, 899 straight (910 mm) / 278 curved (354 mm); tb 44 rings, 322 straight (315 mm) / 90 curved (102 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.1 @ (157.9, 176.8), r 1.1 @ (178.0, 115.8)
+- **Closed boxes:** 139 (11 in the title block); named: 42; 42
+- **Words (OCR):** 13 in 12 lines: 42 · WARD_BECK   SYSTEMS · WBS · JDNED · MATRIX AND · 96*96 MicroCoM · CONTROL FRAME · REAR · WIRING LAYOUTS · SCALE · CCOC; 90154L05 · 960134-04-005
+- **Title block:** (335, 8)–(426, 44) mm: WARD_BECK   SYSTEMS · WBS · MATRIX AND · 96*96 MicroCoM · CONTROL FRAME · REAR · WIRING LAYOUTS · SCALE · CCOC; 90154L05 · 960134-04-005
+
+Every curve, box, word and wire group: [1996 - microCOM - DOC - 960134-04-005 - INSIDE TPCESSLVBLY SHORN NNSDE OFASSDMBLY (traced).json](1996%20-%20microCOM%20-%20DOC%20-%20960134-04-005%20-%20INSIDE%20TPCESSLVBLY%20SHORN%20NNSDE%20OFASSDMBLY%20%28traced%29.json) (the CAD file: `1996 - microCOM - DOC - 960134-04-005 - INSIDE TPCESSLVBLY SHORN NNSDE OFASSDMBLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

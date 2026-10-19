@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,888,050 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93032-01-004, size B (assumed) 432 × 277 mm, 2000 × 1281 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 3–255 mm up
+- **Outlines:** line 496 rings, 3,868 straight (6,802 mm) / 784 curved (931 mm); text 138 rings, 996 straight (964 mm) / 275 curved (364 mm); tb 49 rings, 345 straight (320 mm) / 98 curved (111 mm)
+- **Centre lines:** 7,854 paths (88 closed); straight 5,327 mm, curved 49.4 mm; horizontal 1,960 mm, vertical 1,404 mm, diagonal 1,963 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Closed boxes:** 20 (13 in the title block); named: IERCOV MairIX
+- **Words (OCR):** 21 in 16 lines: PACCRA4 · LuTs · FLCCP · CHANNEL · IPH · CHANNEL CMAE CikcuM · IERCOV MairIX · NQIES; · OTHER} · WBS · WARD-BECK SYSTEMS · CTS VARIETY STUDIO
+- **Title block:** (335, 4)–(422, 37) mm: WBS · WARD-BECK SYSTEMS · CTS VARIETY STUDIO · 24*36 Minicom · SYSTEM FUNCTIONAL · SCALE · 93032-01-004
+- **Wiring (first pass):** 41 connected wire groups from 399 runs
+
+Every curve, box, word and wire group: [1993 - 93032 - DOC - 93032-01-004 - OTHERS TOTELCO LINE TELFBKONE ASSIG COENECCOMPUTER (traced).json](1993%20-%2093032%20-%20DOC%20-%2093032-01-004%20-%20OTHERS%20TOTELCO%20LINE%20TELFBKONE%20ASSIG%20COENECCOMPUTER%20%28traced%29.json) (the CAD file: `1993 - 93032 - DOC - 93032-01-004 - OTHERS TOTELCO LINE TELFBKONE ASSIG COENECCOMPUTER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

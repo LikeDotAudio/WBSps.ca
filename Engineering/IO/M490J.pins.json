@@ -1,0 +1,507 @@
+{
+ "code": "M490J",
+ "name": "Mic Input Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 13,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "LEFT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "LEFT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "RIGHT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "RIGHT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b9a7dcb79ff0e19020a500ddca92466958dd88fd43c09858bb7951271d1293ba",
+    "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - P006 - 2-3.jpg",
+    "page": 1
+   },
+   "quote": "The FOLDBACK outputs like the POST DIRECT output are [aken from the booster amplifier output level control= RISO-R15I (FBI and R152-R153 (FB2)_ FBI and FB2 appe",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "MIC IN A",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "MIC IN A",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "MIC IN B",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "MIC IN B",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "04ccab194edc42feb3803bd1210af7aebe4a5b07a7540ba11661e50fdc3e0144",
+    "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+    "page": 1
+   },
+   "quote": "2d0 22 Pz-6 Pz = P2-5 Pz-7",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "INSERT SEND",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "INSERT SEND",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "04ccab194edc42feb3803bd1210af7aebe4a5b07a7540ba11661e50fdc3e0144",
+    "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+    "page": 1
+   },
+   "quote": "Pz -L <",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "21f95cf30da15bc60c1c9e24c64004a0be4de9a6822b7089a990ccfca2237157",
+    "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - MIC INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-P Ch B Ou",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "04ccab194edc42feb3803bd1210af7aebe4a5b07a7540ba11661e50fdc3e0144",
+    "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+    "page": 1
+   },
+   "quote": "2r7 25v P2-13,# { Jutco3 Assis Pi - 22",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "CTL",
+   "kind": "control",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "04ccab194edc42feb3803bd1210af7aebe4a5b07a7540ba11661e50fdc3e0144",
+    "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+    "page": 1
+   },
+   "quote": "on Pz -15 Ctl (pz - $",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "04ccab194edc42feb3803bd1210af7aebe4a5b07a7540ba11661e50fdc3e0144",
+    "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+    "page": 1
+   },
+   "quote": "Pz - 17",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "04ccab194edc42feb3803bd1210af7aebe4a5b07a7540ba11661e50fdc3e0144",
+    "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+    "page": 1
+   },
+   "quote": "P2-V 6",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490J/M490J.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490J/1983 - M490J - 490-02-012 - LAST COMPOHEUT CESIGUIT.jpg",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

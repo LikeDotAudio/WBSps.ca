@@ -11,6 +11,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,305,103 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-007, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 673 rings, 7,595 straight (18,310 mm) / 1,164 curved (1,646 mm); text 363 rings, 2,063 straight (2,179 mm) / 673 curved (896 mm)
+- **Centre lines:** 5,246 paths (97 closed); straight 11,100 mm, curved 353 mm; horizontal 6,980 mm, vertical 1,953 mm, diagonal 2,167 mm
+- **Circles and arcs:** 20 circles, 67 arcs; largest r 3.7 @ (4.0, 253.3), r 3.6 @ (4.4, 141.5), r 3.6 @ (4.1, 30.8), r 1.4 @ (67.4, 30.6)
+- **Closed boxes:** 21
+- **Wiring (first pass):** 191 connected wire groups from 683 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-007 - SEE POWER DISTRIBUTION CHASSIS LISTS (traced).json](1988%20-%20880134%20-%20880134-02-007%20-%20SEE%20POWER%20DISTRIBUTION%20CHASSIS%20LISTS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-007 - SEE POWER DISTRIBUTION CHASSIS LISTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

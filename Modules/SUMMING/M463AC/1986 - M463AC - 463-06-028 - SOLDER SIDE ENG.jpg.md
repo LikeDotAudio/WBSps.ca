@@ -11,6 +11,18 @@ Wiki page: [M463AC](../../../PAGES/M463AC.md)
 - **Size:** 900,806 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 463-06-028, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 2–420 mm up
+- **Outlines:** line 518 rings, 6,446 straight (13,318 mm) / 1,860 curved (1,960 mm); text 664 rings, 5,640 straight (5,464 mm) / 1,720 curved (1,986 mm); tb 14 rings, 213 straight (319 mm) / 42 curved (48.2 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 10.8 @ (83.4, 306.6), r 10.7 @ (54.3, 306.7), r 4.8 @ (134.8, 104.5), r 4.8 @ (134.9, 323.1)
+- **Closed boxes:** 51 (11 in the title block); named: Lmzoi
+- **Words (OCR):** 105 in 86 lines: Pn35L9 · 214401 204401 · 214401 · 714401 · RiiJSK RS · 22k · ~R3 K2 · Ri3 · 22 · ~Ri?-22 · 499 · RA
+- **Title block:** (190, 3)–(332, 74) mm: ISSUE · DATE · REVISION · APP · WARD-BECK SYSTEMB · WBS · Drn HM · M463AC · MASTER · MODULE · CKD: · COMPONENT LAYOUT · APP · SCALE · ISSUE · 463-06- 028
+
+Every curve, box, word and wire group: [1986 - M463AC - 463-06-028 - SOLDER SIDE ENG (traced).json](1986%20-%20M463AC%20-%20463-06-028%20-%20SOLDER%20SIDE%20ENG%20%28traced%29.json) (the CAD file: `1986 - M463AC - 463-06-028 - SOLDER SIDE ENG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

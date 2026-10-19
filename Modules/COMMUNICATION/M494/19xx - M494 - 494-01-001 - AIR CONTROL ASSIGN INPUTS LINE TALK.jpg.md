@@ -11,6 +11,19 @@ Wiki page: [M494](../../../PAGES/M494.md)
 - **Size:** 1,733,010 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 494-01-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–432 mm up
+- **Outlines:** line 220 rings, 3,191 straight (6,895 mm) / 444 curved (670 mm); text 62 rings, 500 straight (669 mm) / 169 curved (274 mm)
+- **Centre lines:** 1,600 paths (10 closed); straight 3,861 mm, curved 154 mm; horizontal 1,912 mm, vertical 932 mm, diagonal 1,016 mm
+- **Circles and arcs:** 6 circles, 14 arcs; largest r 1.9 @ (275.2, 195.3), r 1.7 @ (230.5, 195.6), r 1.7 @ (214.8, 195.7), r 1.7 @ (290.5, 195.0)
+- **Closed boxes:** 2
+- **Words (OCR):** 14 in 12 lines: LINE · INPUTS · CUE · OFF · K1 · K2 · K3 · ON AIR · CONTROL · ASSIGN · INPUTS · LINE TALK
+- **Wiring (first pass):** 108 connected wire groups from 222 runs; labelled ends: 146 mm → LINE, INPUTS; 66 mm → CUE; 42 mm → CUE; 27 mm → CUE; 18 mm → CONTROL, INPUTS, LINE
+
+Every curve, box, word and wire group: [19xx - M494 - 494-01-001 - AIR CONTROL ASSIGN INPUTS LINE TALK (traced).json](19xx%20-%20M494%20-%20494-01-001%20-%20AIR%20CONTROL%20ASSIGN%20INPUTS%20LINE%20TALK%20%28traced%29.json) (the CAD file: `19xx - M494 - 494-01-001 - AIR CONTROL ASSIGN INPUTS LINE TALK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

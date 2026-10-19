@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,173,978 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-012, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 285
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 119 rings, 1,994 straight (6,998 mm) / 201 curved (271 mm); text 384 rings, 2,565 straight (3,129 mm) / 823 curved (1,189 mm); tb 5 rings, 86 straight (208 mm) / 6 curved (7.8 mm)
+- **Centre lines:** 2,813 paths (56 closed); straight 5,815 mm, curved 17.8 mm; horizontal 2,896 mm, vertical 1,302 mm, diagonal 1,616 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 17 (14 in the title block)
+- **Words (OCR):** 53 in 39 lines: 3.000 · 0.186 · 0.375 · 2.250 · 0.376 · 0.344 TYP · 0.224 · 0.875 · 1.750 · 1.302 · 0.140 · PLACES
+- **Title block:** (249, 19)–(420, 86) mm: ISSUE · REVSION · APP · WBS · WARD-BECK · SYSTEMS · DRN D.SCOTT · ISP_6 · ENG · END · CAP · CKD: · APP_ · SCALE DISC NO: 285 · 8224-03-012 · ISSUE · 1:1 CODE: 8224M12
+
+Every curve, box, word and wire group: [19xx - 8224-03-012 - ISP-6 END CAP - DRN D.SCOTT - ISS 1 (traced).json](19xx%20-%208224-03-012%20-%20ISP-6%20END%20CAP%20-%20DRN%20D.SCOTT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-012 - ISP-6 END CAP - DRN D.SCOTT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

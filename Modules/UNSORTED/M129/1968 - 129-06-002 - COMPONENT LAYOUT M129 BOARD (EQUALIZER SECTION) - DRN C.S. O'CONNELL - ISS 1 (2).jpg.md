@@ -23,6 +23,17 @@ Wiki page: [M129](../../../PAGES/M129.md)
 - **Size:** 4,780,302 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 129-06-002, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–286 mm up
+- **Outlines:** line 2,095 rings, 17,495 straight (17,597 mm) / 5,046 curved (4,661 mm); text 313 rings, 2,220 straight (1,680 mm) / 668 curved (692 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 9.9 @ (255.7, 221.4), r 9.9 @ (132.2, 222.0), r 8.9 @ (327.7, 220.4), r 8.0 @ (256.2, 221.8)
+- **Closed boxes:** 31
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1968 - 129-06-002 - COMPONENT LAYOUT M129 BOARD (EQUALIZER SECTION) - DRN C.S. O'CONNELL - ISS 1 (2) (traced).json](1968%20-%20129-06-002%20-%20COMPONENT%20LAYOUT%20M129%20BOARD%20%28EQUALIZER%20SECTION%29%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1968 - 129-06-002 - COMPONENT LAYOUT M129 BOARD (EQUALIZER SECTION) - DRN C.S. O'CONNELL - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

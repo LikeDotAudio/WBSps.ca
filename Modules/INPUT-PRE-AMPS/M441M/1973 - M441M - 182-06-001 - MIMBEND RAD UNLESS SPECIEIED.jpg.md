@@ -11,6 +11,17 @@ Wiki page: [M441M](../../../PAGES/M441M.md)
 - **Size:** 7,054,282 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 182-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–286 mm up
+- **Outlines:** line 2,009 rings, 13,472 straight (12,723 mm) / 3,437 curved (3,189 mm); text 250 rings, 1,631 straight (1,418 mm) / 464 curved (478 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.8 @ (215.3, 35.2)
+- **Closed boxes:** 16
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1973 - M441M - 182-06-001 - MIMBEND RAD UNLESS SPECIEIED (traced).json](1973%20-%20M441M%20-%20182-06-001%20-%20MIMBEND%20RAD%20UNLESS%20SPECIEIED%20%28traced%29.json) (the CAD file: `1973 - M441M - 182-06-001 - MIMBEND RAD UNLESS SPECIEIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

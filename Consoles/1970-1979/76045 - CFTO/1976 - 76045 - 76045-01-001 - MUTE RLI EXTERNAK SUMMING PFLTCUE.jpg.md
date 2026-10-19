@@ -10,6 +10,19 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,128,884 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 76045-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 0–424 mm up
+- **Outlines:** line 448 rings, 4,734 straight (8,734 mm) / 479 curved (722 mm); text 1,206 rings, 6,717 straight (6,338 mm) / 1,758 curved (2,231 mm)
+- **Centre lines:** 5,720 paths (64 closed); straight 8,085 mm, curved 78.8 mm; horizontal 2,893 mm, vertical 2,012 mm, diagonal 3,180 mm
+- **Circles and arcs:** 3 circles, 14 arcs; largest r 1.2 @ (118.3, 269.5), r 1.0 @ (171.1, 365.0), r 0.9 @ (302.2, 211.8)
+- **Closed boxes:** 3
+- **Words (OCR):** 187 in 157 lines: SUB-MAeTER · CHANNEL · 5ub-| · Bus · INseRT · SUB · iaBm · M468m SuB-i · FADER · ASSIGN · PS · Sub Master -i
+- **Wiring (first pass):** 113 connected wire groups from 392 runs; labelled ends: 154 mm → 5ub-|, Bus, M463m, Sub; 99 mm → ASSIGN, MODULE, 5uB-2; 78 mm → M-2; 77 mm → fo dem; 76 mm → M4e3m
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-01-001 - MUTE RLI EXTERNAK SUMMING PFLTCUE (traced).json](1976%20-%2076045%20-%2076045-01-001%20-%20MUTE%20RLI%20EXTERNAK%20SUMMING%20PFLTCUE%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-01-001 - MUTE RLI EXTERNAK SUMMING PFLTCUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

@@ -15,6 +15,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 576,238 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77012-04-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 9–422 mm up
+- **Outlines:** line 474 rings, 5,464 straight (12,150 mm) / 912 curved (1,158 mm); text 322 rings, 1,987 straight (1,975 mm) / 680 curved (920 mm); tb 12 rings, 95 straight (171 mm) / 21 curved (33.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (123.4, 152.9)
+- **Closed boxes:** 35 (13 in the title block); named: Optional 4i Line SELECTorS; 100 JacKS; optional PatchABLE ANcIllary Lc/NG Eo/fL; OuT SEL; HOOULES; BLANK; SU 8 ADERS
+- **Dots (junctions):** 3
+- **Words (OCR):** 48 in 39 lines: 4194 · Optional · 4i · EQUALIIERS · Line SELECTorS · 100 JacKS · optional PatchABLE · ANcIllary · OuT HOOULES · Lc/NG · Eo/fLtr · SEL
+- **Title block:** (226, 6)–(335, 65) mm: ISSUIDATE · REVISION · APP · WBS WAAD-BECK bybteMB · DRH · 248 WBS L2042 · CONSOLE · ENG_GEBc%/s · (STEREO VERSION · LAYOUT · APP · SCALE · 77012-04-011 · ISSUE
+
+Every curve, box, word and wire group: [1977 - DOC - 77012-04-011 - FADERS SPACE FOR MOTION CONTROL ISSU (traced).json](1977%20-%20DOC%20-%2077012-04-011%20-%20FADERS%20SPACE%20FOR%20MOTION%20CONTROL%20ISSU%20%28traced%29.json) (the CAD file: `1977 - DOC - 77012-04-011 - FADERS SPACE FOR MOTION CONTROL ISSU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

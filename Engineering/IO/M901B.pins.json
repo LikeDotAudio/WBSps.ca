@@ -1,0 +1,112 @@
+{
+ "code": "M901B",
+ "name": "Mic Input Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 46,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "35",
+   "row": 35,
+   "side": "num",
+   "signal": "MOMENTARY CLOSURE TO CONTROL COMMON VIA AN",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bbe0deba00ccbcee9517f9e50d1131e1de3d2631e314a66a628f6c67f66659bb",
+    "file": "Modules/UNSORTED/M901B/1995 - M901B - 14-280-02-001 - SA14-280 - INPUT AMPLIFIER - ASSEMBLY.wp",
+    "page": 1
+   },
+   "quote": "A momentary closure to control common via an open collector transistor which follows input source selection is available at module connector P2 pin 36 and P2 pin 35 for the A and B inputs respectively.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "36",
+   "row": 36,
+   "side": "num",
+   "signal": "MOMENTARY CLOSURE TO CONTROL COMMON VIA AN",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bbe0deba00ccbcee9517f9e50d1131e1de3d2631e314a66a628f6c67f66659bb",
+    "file": "Modules/UNSORTED/M901B/1995 - M901B - 14-280-02-001 - SA14-280 - INPUT AMPLIFIER - ASSEMBLY.wp",
+    "page": 1
+   },
+   "quote": "A momentary closure to control common via an open collector transistor which follows input source selection is available at module connector P2 pin 36 and P2 pin 35 for the A and B inputs respectively.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "41",
+   "row": 41,
+   "side": "num",
+   "signal": "CUE CHANNEL TOGGLES ON AND OFF",
+   "kind": "audio",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bbe0deba00ccbcee9517f9e50d1131e1de3d2631e314a66a628f6c67f66659bb",
+    "file": "Modules/UNSORTED/M901B/1995 - M901B - 14-280-02-001 - SA14-280 - INPUT AMPLIFIER - ASSEMBLY.wp",
+    "page": 1
+   },
+   "quote": "This alternate action can be invoked by either momentarily closing Cue switch SW5 (Q), or momentarily grounding of the external Cue control input at module connector P2 pin 41.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "45",
+   "row": 45,
+   "side": "num",
+   "signal": "LAMP INTEGRAL TO THE CHANNEL OFF SWITCH",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bbe0deba00ccbcee9517f9e50d1131e1de3d2631e314a66a628f6c67f66659bb",
+    "file": "Modules/UNSORTED/M901B/1995 - M901B - 14-280-02-001 - SA14-280 - INPUT AMPLIFIER - ASSEMBLY.wp",
+    "page": 1
+   },
+   "quote": "The lamp integral to the Channel Off switch is uncommitted and available at module connector P2 pins 45 and 46.",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "46",
+   "row": 46,
+   "side": "num",
+   "signal": "LAMP INTEGRAL TO THE CHANNEL OFF SWITCH",
+   "kind": "control",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "bbe0deba00ccbcee9517f9e50d1131e1de3d2631e314a66a628f6c67f66659bb",
+    "file": "Modules/UNSORTED/M901B/1995 - M901B - 14-280-02-001 - SA14-280 - INPUT AMPLIFIER - ASSEMBLY.wp",
+    "page": 1
+   },
+   "quote": "The lamp integral to the Channel Off switch is uncommitted and available at module connector P2 pins 45 and 46.",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

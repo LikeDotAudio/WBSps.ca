@@ -11,6 +11,17 @@ Wiki page: [M453A](../../../PAGES/M453A.md)
 - **Size:** 352,541 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 453-04-006, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–432 mm up
+- **Outlines:** line 74 rings, 1,826 straight (5,018 mm) / 203 curved (297 mm); text 138 rings, 1,104 straight (1,062 mm) / 357 curved (462 mm); tb 91 rings, 1,404 straight (2,774 mm) / 249 curved (361 mm)
+- **Closed boxes:** 11 (9 in the title block); named: Huting Switch SwI: Vhen depressed Ine Op
+- **Words (OCR):** 30 in 24 lines: WBS · M4534 · Huting Switch SwI: Vhen depressed · mutes · Ine · Ope - · LEVEL control R26 · rates · the assoc lated · DSI. · output · Ieve | of
+- **Title block:** (141, 0)–(331, 319) mm: WBS · M4534 · LEVEL control R26 · output · Ieve | of · MUTE · CUE · WBS · DRNRE · M4534 · ENG, LL · CKD · CUE AMpLifIER · FRONT PANEL · App · 453-04-006 · ISSUE
+
+Every curve, box, word and wire group: [1978 - M453A - 453-04-006 - OPE- RATES THE ASSOC IATED DSI (traced).json](1978%20-%20M453A%20-%20453-04-006%20-%20OPE-%20RATES%20THE%20ASSOC%20IATED%20DSI%20%28traced%29.json) (the CAD file: `1978 - M453A - 453-04-006 - OPE- RATES THE ASSOC IATED DSI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 35,842,130 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–277 mm up
+- **Outlines:** line 2,090 rings, 16,370 straight (34,540 mm) / 2,381 curved (2,843 mm); text 122 rings, 698 straight (613 mm) / 177 curved (216 mm); tb 38 rings, 223 straight (212 mm) / 57 curved (66.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.7 @ (56.4, 69.7), r 0.7 @ (388.2, 265.3)
+- **Closed boxes:** 258 (3 in the title block); named: 4a; 31106-04-003/3
+- **Dots (junctions):** 4
+- **Words (OCR):** 17 in 15 lines: LEGEND · ROW · STRAP · JumpER · FIns H · 4a · Normal · HOMp (Pletie · Rleudyittal Not nECUIeo · cueR · 3/44 · WBS WARD-BECK SYSTEMS
+- **Title block:** (358, 19)–(432, 34) mm: WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1977 - WSVN - 31106-04-003 - LLIENT APPAU EEVISEDI (traced).json](1977%20-%20WSVN%20-%2031106-04-003%20-%20LLIENT%20APPAU%20EEVISEDI%20%28traced%29.json) (the CAD file: `1977 - WSVN - 31106-04-003 - LLIENT APPAU EEVISEDI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 14 words corrected)

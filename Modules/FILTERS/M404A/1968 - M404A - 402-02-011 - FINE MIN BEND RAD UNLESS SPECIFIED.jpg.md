@@ -11,6 +11,18 @@ Wiki page: [M404A](../../../PAGES/M404A.md)
 - **Size:** 6,577,584 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 402-02-011, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–285 mm up
+- **Outlines:** line 793 rings, 5,932 straight (7,624 mm) / 958 curved (1,367 mm); text 308 rings, 2,638 straight (3,042 mm) / 644 curved (928 mm)
+- **Centre lines:** 4,117 paths (59 closed); straight 5,760 mm, curved 345 mm; horizontal 2,341 mm, vertical 1,172 mm, diagonal 2,247 mm
+- **Circles and arcs:** 15 circles, 56 arcs; largest r 2.3 @ (349.5, 34.8), r 2.2 @ (388.3, 10.1), r 2.0 @ (352.1, 9.9), r 1.7 @ (388.3, 10.3)
+- **Closed boxes:** 13
+- **Wiring (first pass):** 45 connected wire groups from 498 runs
+
+Every curve, box, word and wire group: [1968 - M404A - 402-02-011 - FINE MIN BEND RAD UNLESS SPECIFIED (traced).json](1968%20-%20M404A%20-%20402-02-011%20-%20FINE%20MIN%20BEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M404A - 402-02-011 - FINE MIN BEND RAD UNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

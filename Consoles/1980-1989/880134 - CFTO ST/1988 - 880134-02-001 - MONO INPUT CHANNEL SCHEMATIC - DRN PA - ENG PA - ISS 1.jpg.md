@@ -22,6 +22,20 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 11,043,709 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 880134-02-001, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 1–864 mm across, 0–558 mm up
+- **Outlines:** line 1,494 rings, 11,149 straight (29,580 mm) / 1,808 curved (4,082 mm); text 509 rings, 3,127 straight (4,998 mm) / 794 curved (1,801 mm); tb 21 rings, 270 straight (2,101 mm) / 20 curved (56.7 mm)
+- **Centre lines:** 16,496 paths (228 closed); straight 22,458 mm, curved 226 mm; horizontal 8,784 mm, vertical 6,086 mm, diagonal 7,588 mm
+- **Circles and arcs:** 2 circles, 34 arcs; largest r 3.8 @ (7.1, 138.7), r 1.7 @ (466.3, 243.7)
+- **Closed boxes:** 32; named: H522 EQUALIZER MODULE; CHANNEL EADER (-I5d8)
+- **Words (OCR):** 106 in 103 lines: MONO INPUT · AACRP · ANE · TICN' · CHANNELS · BACKPLANE CONNECTICN' · MICROPHONE · 60/0d8m. i500 · INPUTS · LINE INPUTS · UNE · Eae
+- **Title block:** (678, 10)–(862, 86) mm: LSSUE · DAIBL · REVSION · APP. · WBS WARD-BECK · SYSTEMS · DRN: PA 08/88 · ENG. · MONO INPUT CHANNEL · Ckd; · SCHEMA TIC · APP · SCALE DISC NO: · CODE: 80134501 · 880134-02-001 · ISSUE
+- **Wiring (first pass):** 264 connected wire groups from 1,629 runs; labelled ends: 1188 mm → Eae, 10.29; 959 mm → CONTROL, 2Sv, SIGNAL GND, +25v; 564 mm → "RibSoR? &R; 469 mm → LJ5v; 173 mm → cl
+
+Every curve, box, word and wire group: [1988 - 880134-02-001 - MONO INPUT CHANNEL SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1988%20-%20880134-02-001%20-%20MONO%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 880134-02-001 - MONO INPUT CHANNEL SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

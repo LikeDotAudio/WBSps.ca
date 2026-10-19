@@ -22,6 +22,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,773,790 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 880134-02-015, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–420 mm across, 0–139 mm up
+- **Outlines:** line 1,024 rings, 8,133 straight (10,394 mm) / 1,479 curved (1,783 mm); text 124 rings, 698 straight (699 mm) / 176 curved (227 mm)
+- **Centre lines:** 11,237 paths (106 closed); straight 7,329 mm, curved 60.8 mm; horizontal 2,422 mm, vertical 2,348 mm, diagonal 2,558 mm
+- **Circles and arcs:** 1 circles, 22 arcs; largest r 0.8 @ (391.3, 107.0)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 106 connected wire groups from 951 runs
+
+Every curve, box, word and wire group: [1988 - 880134-02-015 - INTERCOM SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1988%20-%20880134-02-015%20-%20INTERCOM%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 880134-02-015 - INTERCOM SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

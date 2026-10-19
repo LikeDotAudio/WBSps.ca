@@ -11,6 +11,20 @@ Wiki page: [M463J](../../../PAGES/M463J.md)
 - **Size:** 2,073,639 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8-109-02-002, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 299 rings, 5,803 straight (9,751 mm) / 870 curved (1,111 mm); text 411 rings, 2,774 straight (2,939 mm) / 981 curved (1,398 mm); tb 37 rings, 228 straight (299 mm) / 22 curved (26.4 mm)
+- **Centre lines:** 14,400 paths (139 closed); straight 10,212 mm, curved 253 mm; horizontal 3,736 mm, vertical 2,421 mm, diagonal 4,055 mm
+- **Circles and arcs:** 4 circles, 26 arcs; largest r 5.8 @ (47.1, 91.2), r 5.8 @ (46.4, 286.9), r 5.8 @ (46.6, 167.0), r 5.8 @ (45.9, 362.5)
+- **Closed boxes:** 13 (11 in the title block)
+- **Words (OCR):** 87 in 81 lines: E3 · +21.5Y · Ris · 22 · 32 · Pn3645 · 03 · 2n2102 · Rzo · 6*B · E4 · Y2W
+- **Title block:** (222, 0)–(336, 59) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK BYSTEMS · DRN: GEB · 8 - 109A · ENG.MRW 4/78 · AMPLIFIER · APP · SCHEMATIC · SCALE · ISSUE · 8-109-02-002
+- **Wiring (first pass):** 24 connected wire groups from 296 runs; labelled ends: 198 mm → 2N4037, E7, 4K7; 196 mm → E3; 150 mm → R37, 4K7, Ci6, 22o/10; 148 mm → E4, 15, 220/10, R3c; 105 mm → R34, 5-6, 15, 220/10
+
+Every curve, box, word and wire group: [1972 - M463J - 8-109-02-002 - OUTPUT AMPLIFIER CKDEAL SCHEMATIC (traced).json](1972%20-%20M463J%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20CKDEAL%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1972 - M463J - 8-109-02-002 - OUTPUT AMPLIFIER CKDEAL SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

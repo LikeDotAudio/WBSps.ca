@@ -11,6 +11,18 @@ Wiki page: [M463J](../../../PAGES/M463J.md)
 - **Size:** 2,170,278 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 463-06-001, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 664 rings, 7,398 straight (13,338 mm) / 1,780 curved (1,667 mm); text 985 rings, 7,297 straight (7,339 mm) / 2,308 curved (2,655 mm); tb 8 rings, 154 straight (222 mm) / 21 curved (18.3 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 10.8 @ (54.8, 308.4), r 10.2 @ (84.0, 308.9), r 4.8 @ (136.6, 106.5), r 4.8 @ (135.5, 325.4)
+- **Closed boxes:** 44 (11 in the title block); named: LM3oI; Qii Tipz9b
+- **Words (OCR):** 140 in 113 lines: Pn3569 Pn3LA5 2m4401 · 2n4401 · Pn3645 2N44O1 2N4401 · RIIJEK Rs · 22k · ~Rio-EEK CR3 · Bkz · ~Clolo/r5 22 · ~Ri?-22 -C5-op · Ri3 · c6jop · ~C82 3p -C3-
+- **Title block:** (192, 6)–(334, 77) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN_ GEB · M463] · ENG.GEB 4/78 · SUBMASTER · MODULE · CKDT · APP · COMPONENT · LAYOUT · SCALE · 463-06-001 · ISSUE
+
+Every curve, box, word and wire group: [1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT (traced).json](1972%20-%20M463J%20-%20463-06-001%20-%20SUBMASTER%20MODULE%20UNT%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

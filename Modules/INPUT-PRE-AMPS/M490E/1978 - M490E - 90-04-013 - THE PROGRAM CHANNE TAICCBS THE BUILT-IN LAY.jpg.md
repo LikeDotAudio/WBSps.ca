@@ -11,6 +11,19 @@ Wiki page: [M490E](../../../PAGES/M490E.md)
 - **Size:** 3,385,459 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 90-04-013, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–288 mm up
+- **Outlines:** line 1,184 rings, 7,420 straight (16,181 mm) / 1,976 curved (2,337 mm); text 209 rings, 1,124 straight (907 mm) / 376 curved (444 mm); tb 19 rings, 171 straight (187 mm) / 37 curved (43.0 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 3.2 @ (219.8, 55.7), r 2.0 @ (231.8, 238.0), r 1.9 @ (231.7, 250.3)
+- **Closed boxes:** 29 (3 in the title block); named: MISOE OFF; MISOE OFF; control Providt chenae; channu; SLIDE Control; etununtor Shio cpens chann; 5na uction erated movina posirion ernare; 052 : CHAYNE Indleater boin tchec; ch" Ef2 ltch; channe iahi indicute; 90-04
+- **Dots (junctions):** 3
+- **Words (OCR):** 36 in 33 lines: MISOE · cninne · control · Providt · chenae · channu · PROG RAA · riaht · SLIDE · Control · 5na · etununtor
+- **Title block:** (366, 24)–(432, 40) mm: WBS WARD-BeCK byateN
+
+Every curve, box, word and wire group: [1978 - M490E - 90-04-013 - THE PROGRAM CHANNE TAICCBS THE BUILT-IN LAY (traced).json](1978%20-%20M490E%20-%2090-04-013%20-%20THE%20PROGRAM%20CHANNE%20TAICCBS%20THE%20BUILT-IN%20LAY%20%28traced%29.json) (the CAD file: `1978 - M490E - 90-04-013 - THE PROGRAM CHANNE TAICCBS THE BUILT-IN LAY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 26 words corrected)

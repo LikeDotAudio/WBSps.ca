@@ -11,6 +11,18 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 201,570 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 457-04-005, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 0–302 mm across, 19–426 mm up
+- **Outlines:** line 85 rings, 1,011 straight (4,205 mm) / 114 curved (183 mm); text 600 rings, 3,036 straight (2,850 mm) / 815 curved (1,166 mm); tb 476 rings, 2,459 straight (5,292 mm) / 585 curved (1,038 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (78.6, 230.3)
+- **Closed boxes:** 15 (14 in the title block); named: ASS GNMERT switches Shi througn SwB = Wh
+- **Words (OCR):** 83 in 53 lines: WbS · M457 · Sensitivity contfols · (outer knobs) : · Jno · acconioate · canstant MXER · ord · SEN €mix · LEVEL coniri · inoct · level 5 the
+- **Title block:** (126, 19)–(303, 325) mm: WbS · M457 · Sensitivity contfols · (outer knobs) : · Jno · acconioate · canstant MXER · ord · SEN €mix · LEVEL coniri · inoct · level 5 the · control5 · con · of 30 for each · Tevel con · dividua cna
+
+Every curve, box, word and wire group: [1975 - M457 - 457-04-005 - CHANNE CHE DES IRED PROPORTION FORM TNE UUTPU (traced).json](1975%20-%20M457%20-%20457-04-005%20-%20CHANNE%20CHE%20DES%20IRED%20PROPORTION%20FORM%20TNE%20UUTPU%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-04-005 - CHANNE CHE DES IRED PROPORTION FORM TNE UUTPU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

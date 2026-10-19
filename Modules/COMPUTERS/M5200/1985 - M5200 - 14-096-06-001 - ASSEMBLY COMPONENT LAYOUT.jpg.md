@@ -11,6 +11,16 @@ Wiki page: [M5200](../../../PAGES/M5200.md)
 - **Size:** 7,329,721 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-096-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 2–286 mm up
+- **Outlines:** line 403 rings, 2,297 straight (3,360 mm) / 560 curved (600 mm); text 101 rings, 656 straight (621 mm) / 207 curved (225 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 3.3 @ (275.6, 150.5), r 2.2 @ (362.5, 150.8), r 2.0 @ (275.6, 150.5), r 2.0 @ (334.9, 150.7)
+- **Closed boxes:** 7
+
+Every curve, box, word and wire group: [1985 - M5200 - 14-096-06-001 - ASSEMBLY COMPONENT LAYOUT (traced).json](1985%20-%20M5200%20-%2014-096-06-001%20-%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M5200 - 14-096-06-001 - ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

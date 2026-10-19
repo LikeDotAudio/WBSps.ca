@@ -26,6 +26,20 @@ Wiki page: [M706](../../../PAGES/M706.md)
 
 - **1973** (labelled): `DATE Nov 73` — …S MOD CKD: USED ON MATL . WBS WARD-BECK SYSTEMS LT DRN: GEB DATE Nov 73 CKD_ Geb SCALE TOLS Te M7o6 FIMISH TRANSFORMER MODULE SCAEM…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 706-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 7–294 mm up
+- **Outlines:** line 293 rings, 4,701 straight (10,545 mm) / 662 curved (943 mm); text 314 rings, 2,466 straight (2,895 mm) / 636 curved (1,002 mm); tb 22 rings, 172 straight (326 mm) / 22 curved (34.2 mm)
+- **Centre lines:** 5,172 paths (62 closed); straight 8,015 mm, curved 192 mm; horizontal 3,607 mm, vertical 2,096 mm, diagonal 2,312 mm
+- **Circles and arcs:** 2 circles, 38 arcs; largest r 1.8 @ (335.3, 84.9), r 1.5 @ (335.2, 85.0)
+- **Closed boxes:** 38 (31 in the title block); named: FINISH; 706 - 02 00|
+- **Words (OCR):** 47 in 35 lines: M7o6 · T2 · T3 · T4 · I6 19 · 18 · NOIES' · TRANSFORME R · TYPE HAMMOND iOG E · 2.TRANSFORMERS SUPPLIED · ONLY As · REQUIRED
+- **Title block:** (165, 26)–(392, 77) mm: Iss MOD  ICKD_ · USED ON · MATL. · WBS WARD-BECK · DRN: · GEB · M7og · DATE · Nov73 · FINISH · TRANSFORMER MODULE · CKD. GEB · SCHEMATiC · SCALE · TOLS · 706 - 02 00|
+- **Wiring (first pass):** 67 connected wire groups from 229 runs; labelled ends: 391 mm → Iss; 74 mm → M7o6; 71 mm → M7o6; 71 mm → T3; 58 mm → T3
+
+Every curve, box, word and wire group: [1973 - 706-02-001 - TRANSFORMER MODULE SCHEMATIC - DRN GEB (traced).json](1973%20-%20706-02-001%20-%20TRANSFORMER%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20%28traced%29.json) (the CAD file: `1973 - 706-02-001 - TRANSFORMER MODULE SCHEMATIC - DRN GEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

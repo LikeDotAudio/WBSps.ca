@@ -11,6 +11,17 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,586,157 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 453-04-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 81–432 mm across, 19–305 mm up
+- **Outlines:** line 1,007 rings, 6,347 straight (11,409 mm) / 857 curved (1,317 mm); text 84 rings, 523 straight (580 mm) / 133 curved (166 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.4 @ (137.1, 271.1), r 2.0 @ (137.0, 271.2), r 1.7 @ (219.4, 81.6), r 0.9 @ (291.2, 55.4)
+- **Closed boxes:** 16
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1976 - 76045 - 453-04-001 - MATT WAAD-BECK BYBTEMB (traced).json](1976%20-%2076045%20-%20453-04-001%20-%20MATT%20WAAD-BECK%20BYBTEMB%20%28traced%29.json) (the CAD file: `1976 - 76045 - 453-04-001 - MATT WAAD-BECK BYBTEMB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,18 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 - **Size:** 1,465,180 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 413 rings, 6,408 straight (12,563 mm) / 1,612 curved (1,607 mm); text 488 rings, 4,750 straight (4,946 mm) / 1,368 curved (1,698 mm); tb 11 rings, 28 straight (11.6 mm) / 8 curved (7.4 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 4.8 @ (218.3, 299.0), r 4.8 @ (217.0, 129.8), r 4.8 @ (217.5, 220.5), r 4.8 @ (218.1, 247.8)
+- **Closed boxes:** 29; named: 21 LM2oin; 24 Lmzoin; WSOH; 2uB563PM; FIMISA
+- **Words (OCR):** 78 in 62 lines: t8 6-8l6 · E3 · ~c9- · Ri9cig C18 · C6 · 25 · R2o · C21 R2i R1 LMi458 · R24 · Ri8 · E4 · R7
+- **Title block:** (309, 13)–(335, 46) mm: DRM · DATE JU · CKD_ Ta · SCALE · TOLS
+
+Every curve, box, word and wire group: [1974 - M463LA - 4-126-06-001 - ISSMOD ICKD USED (traced).json](1974%20-%20M463LA%20-%204-126-06-001%20-%20ISSMOD%20ICKD%20USED%20%28traced%29.json) (the CAD file: `1974 - M463LA - 4-126-06-001 - ISSMOD ICKD USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

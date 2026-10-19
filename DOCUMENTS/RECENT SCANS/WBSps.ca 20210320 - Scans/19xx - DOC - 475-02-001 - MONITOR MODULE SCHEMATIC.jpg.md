@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,988,134 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 475-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 1,134 rings, 10,513 straight (20,110 mm) / 2,202 curved (2,807 mm); text 926 rings, 5,109 straight (4,560 mm) / 1,791 curved (2,271 mm)
+- **Centre lines:** 14,218 paths (273 closed); straight 14,774 mm, curved 489 mm; horizontal 5,057 mm, vertical 3,939 mm, diagonal 5,778 mm
+- **Circles and arcs:** 16 circles, 118 arcs; largest r 3.9 @ (338.0, 71.3), r 3.8 @ (314.7, 71.4), r 3.8 @ (314.2, 240.9), r 3.7 @ (314.1, 208.5)
+- **Closed boxes:** 23; named: Cp4olk; WBSS WAAD; DRH:; M475 MonitOR MODULE SCHEMATIC
+- **Dots (junctions):** 1
+- **Words (OCR):** 202 in 173 lines: R6B · 2n2102 · R63 · 320 · 820 · Rcs · R67 · R72 zzo/i0 · C22 · 542 · MonIToR · 2n4037
+- **Wiring (first pass):** 143 connected wire groups from 1,026 runs, 2 dotted junctions; labelled ends: 318 mm → MM, R32, 55}, 2.2125; 255 mm → CR4, 1n4148, C25, 10l25; 234 mm → HooCKD, EJEM, 1362L; 215 mm → RB?, R83, 4*7; 180 mm → 22k, 42, 4lio
+
+Every curve, box, word and wire group: [19xx - DOC - 475-02-001 - MONITOR MODULE SCHEMATIC (traced).json](19xx%20-%20DOC%20-%20475-02-001%20-%20MONITOR%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 475-02-001 - MONITOR MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

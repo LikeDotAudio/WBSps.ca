@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 9,078,164 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 940446-06-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 25–287 mm across, 0–428 mm up
+- **Outlines:** line 4,497 rings, 32,532 straight (36,200 mm) / 10,567 curved (11,065 mm); text 782 rings, 4,750 straight (3,797 mm) / 1,770 curved (1,852 mm)
+- **Circles and arcs:** 79 circles, 0 arcs; largest r 9.2 @ (79.4, 59.4), r 9.1 @ (108.5, 59.3), r 7.7 @ (79.4, 59.4), r 4.3 @ (111.5, 32.7)
+- **Closed boxes:** 168; named: Ci
+- **Dots (junctions):** 32
+- **Words (OCR):** 85 in 80 lines: 918 · S88 · 23 398 · @4p · 9524 · 8435 · io2 · 1930) · 8LJ · 9542 · 838 · LSJ 653#5) 953
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940446-06-001 - COSIX SZ-OL ZSZU (traced).json](1994%20-%20Renaisance%20-%20940446-06-001%20-%20COSIX%20SZ-OL%20ZSZU%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940446-06-001 - COSIX SZ-OL ZSZU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

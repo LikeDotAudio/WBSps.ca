@@ -11,6 +11,19 @@ Wiki page: [M5201](../../../PAGES/M5201.md)
 - **Size:** 7,866,417 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-161-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–428 mm across, 0–286 mm up
+- **Outlines:** line 1,476 rings, 13,737 straight (23,613 mm) / 2,751 curved (3,174 mm); text 93 rings, 542 straight (523 mm) / 160 curved (208 mm)
+- **Centre lines:** 15,477 paths (327 closed); straight 14,458 mm, curved 63.8 mm; horizontal 5,281 mm, vertical 5,598 mm, diagonal 3,580 mm
+- **Circles and arcs:** 7 circles, 11 arcs; largest r 1.6 @ (379.1, 22.9), r 1.6 @ (391.8, 22.8), r 1.2 @ (391.7, 23.0), r 1.2 @ (378.9, 23.0)
+- **Closed boxes:** 179
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 37 connected wire groups from 1,593 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1986 - M5201 - 14-161-02-001 - MACHINE' CONTROL ASSEMBLY SCHEMATIC (traced).json](1986%20-%20M5201%20-%2014-161-02-001%20-%20MACHINE%27%20CONTROL%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1986 - M5201 - 14-161-02-001 - MACHINE' CONTROL ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

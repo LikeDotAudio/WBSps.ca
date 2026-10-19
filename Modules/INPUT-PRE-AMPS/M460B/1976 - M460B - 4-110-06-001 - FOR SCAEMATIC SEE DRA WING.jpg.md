@@ -11,6 +11,18 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 - **Size:** 243,892 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-110-06-001, size B (assumed) 432 × 382 mm, 2000 × 1771 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–329 mm up
+- **Outlines:** line 398 rings, 5,934 straight (10,312 mm) / 1,380 curved (1,513 mm); text 502 rings, 4,956 straight (5,222 mm) / 1,319 curved (1,529 mm); tb 36 rings, 263 straight (339 mm) / 44 curved (48.2 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 10.5 @ (173.9, 149.6), r 10.5 @ (174.5, 189.2), r 10.5 @ (139.6, 189.9), r 10.5 @ (270.6, 176.2)
+- **Closed boxes:** 20 (1 in the title block); named: Av; USED OH; AL
+- **Words (OCR):** 45 in 35 lines: 2 8 · 38 · 332k · 28 · 8393 · 9k · Dz! 22/@ · aj Av · 47ok · 33/12 · Itd · Ioles
+- **Title block:** (286, 7)–(389, 50) mm: WBS WARD-BECK · DDQ · Drn_ · 4-110 · DATEJOJUN74 · PRE-AMP/HP FILTER · cKD · EZ · COMPONENT LAYOUT
+
+Every curve, box, word and wire group: [1976 - M460B - 4-110-06-001 - FOR SCAEMATIC SEE DRA WING (traced).json](1976%20-%20M460B%20-%204-110-06-001%20-%20FOR%20SCAEMATIC%20SEE%20DRA%20WING%20%28traced%29.json) (the CAD file: `1976 - M460B - 4-110-06-001 - FOR SCAEMATIC SEE DRA WING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

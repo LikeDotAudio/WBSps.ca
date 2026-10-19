@@ -11,6 +11,19 @@ Wiki page: [M490K](../../../PAGES/M490K.md)
 - **Size:** 227,743 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-022, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–429 mm up
+- **Outlines:** line 613 rings, 6,584 straight (12,677 mm) / 1,538 curved (2,133 mm); text 305 rings, 1,887 straight (1,792 mm) / 804 curved (1,081 mm); tb 17 rings, 198 straight (278 mm) / 58 curved (74.9 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.7 @ (13.2, 361.2), r 4.4 @ (14.0, 299.4)
+- **Closed boxes:** 20 (6 in the title block); named: AssiChment Paocaah channe elpnale tha ml; Pah Pornone conro rlghl End pned; R152 (RI5J: Centrole FOLDBACK coniroi; cUT moved onI0 Wde rrtulllng potlllon _ ; Procaam channele DSI Joranen Jurn channe; 490 - 04-022; CALE
+- **Dots (junctions):** 2
+- **Words (OCR):** 64 in 51 lines: conlno · Paocaah · AssiChment · channe elpnale · mlIng · tha · Pah conro · Pornone · End · rlghl · pned · PAN
+- **Title block:** (222, 12)–(332, 58) mm: BSUIDATI · WAAD-BeCK bybtenB · WBS · B0 · Mipok · ENa_ · LINE inFuT Module · cKD_ · FRONT PANEL · APP · CALE · 490 - 04-022
+
+Every curve, box, word and wire group: [1983 - M490K - 490-04-022 - CHANNEI ELONALE EIRORKE IHE APOROORLALE POM PURE (traced).json](1983%20-%20M490K%20-%20490-04-022%20-%20CHANNEI%20ELONALE%20EIRORKE%20IHE%20APOROORLALE%20POM%20PURE%20%28traced%29.json) (the CAD file: `1983 - M490K - 490-04-022 - CHANNEI ELONALE EIRORKE IHE APOROORLALE POM PURE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 23 words corrected)

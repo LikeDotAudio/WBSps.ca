@@ -22,6 +22,17 @@ Perspective layout drawing of the M405D meter chassis.
 - **Size:** 1,294,534 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 405-06-011, size B 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 8–425 mm across, 0–279 mm up
+- **Outlines:** line 683 rings, 10,789 straight (13,259 mm) / 1,307 curved (1,469 mm); text 392 rings, 2,526 straight (2,465 mm) / 764 curved (851 mm); tb 28 rings, 641 straight (705 mm) / 70 curved (91.1 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.2 @ (248.0, 142.1)
+- **Words (OCR):** 43 in 40 lines: SA14-055 · M78OE · YMiJ · EXTENDED · RANGE AMPLIFIER · POWER SUPPLY · ASSEMBLY · TB1 · 344 · Toa · 8,7,8,7 , 7_ · RANGE
+- **Title block:** (195, 29)–(432, 144) mm: HDst · WBS · T1 · M40sd · J1,J2 · WBS · WARD-BECK SYSTEMB
+
+Every curve, box, word and wire group: [19xx - 405-06-011 - EXTENDED RANGE METER PERSPECTIVE LAYOUT - ISS 1 (2) (traced).json](19xx%20-%20405-06-011%20-%20EXTENDED%20RANGE%20METER%20PERSPECTIVE%20LAYOUT%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 405-06-011 - EXTENDED RANGE METER PERSPECTIVE LAYOUT - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

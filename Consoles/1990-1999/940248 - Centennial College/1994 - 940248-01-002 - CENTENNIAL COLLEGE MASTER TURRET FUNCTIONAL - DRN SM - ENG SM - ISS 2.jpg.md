@@ -22,6 +22,20 @@ Wiki page: [Job-940248](../../../PAGES/Job-940248.md)
 - **Size:** 329,470 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 940248-01-002, size D 864 × 560 mm, 2000 × 1298 px traced (0.432 mm/px)
+- **Ink extent:** 192–863 mm across, 14–531 mm up
+- **Outlines:** line 262 rings, 1,986 straight (9,840 mm) / 311 curved (848 mm); text 289 rings, 1,767 straight (3,395 mm) / 533 curved (1,353 mm); tb 14 rings, 101 straight (286 mm) / 22 curved (51.3 mm)
+- **Centre lines:** 3,689 paths (73 closed); straight 7,844 mm, curved 223 mm; horizontal 3,098 mm, vertical 2,213 mm, diagonal 2,533 mm
+- **Circles and arcs:** 5 circles, 13 arcs; largest r 4.5 @ (261.8, 159.2), r 4.5 @ (223.4, 158.8), r 4.5 @ (249.0, 159.2), r 4.5 @ (274.5, 159.4)
+- **Closed boxes:** 21 (3 in the title block); named: CENTENNIAL COLLECE MASTER TURRET FUNCTIO; 002 940248-; CCOE: 54240F02
+- **Words (OCR):** 38 in 36 lines: FDE_9S · TURRET · TURRET · AUDIQ AND CONTRCL · SMAL · Tippft · INPUTS · TURRET · CONTRCL · FdE_ · P2 | TALLY · EJAC
+- **Title block:** (689, 46)–(858, 80) mm: RCHSC · WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLECE
+- **Wiring (first pass):** 109 connected wire groups from 324 runs; labelled ends: 1055 mm → FDE_9S, SPEAKER, HEADPHIONE; 298 mm → WBS, 002, 940248-, CCF; 51 mm → SPEAKER; 40 mm → TURRET; 21 mm → SPEAKER
+
+Every curve, box, word and wire group: [1994 - 940248-01-002 - CENTENNIAL COLLEGE MASTER TURRET FUNCTIONAL - DRN SM - ENG SM - ISS 2 (traced).json](1994%20-%20940248-01-002%20-%20CENTENNIAL%20COLLEGE%20MASTER%20TURRET%20FUNCTIONAL%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940248-01-002 - CENTENNIAL COLLEGE MASTER TURRET FUNCTIONAL - DRN SM - ENG SM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

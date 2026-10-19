@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,843,170 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960077-03-006, size B (assumed) 432 × 272 mm, 2000 × 1259 px traced (0.216 mm/px); scale disC HC
+- **Ink extent:** 40–432 mm across, 2–252 mm up
+- **Outlines:** line 567 rings, 4,122 straight (11,294 mm) / 857 curved (985 mm); text 152 rings, 919 straight (880 mm) / 290 curved (376 mm); tb 48 rings, 338 straight (321 mm) / 81 curved (89.7 mm)
+- **Centre lines:** 4,877 paths (183 closed); straight 7,106 mm, curved 13.3 mm; horizontal 3,980 mm, vertical 1,403 mm, diagonal 1,723 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 28 (14 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 17 in 16 lines: 10,072 · 0.205 · 0 835 · 0.900 · PICH · PuNcH · SDUARC · EXRUSO · WARD-BECK SYSTEMS · ShAR? EDCES; · WBSJ · (CUSTOMER  SUPPLIED PANEL)
+- **Title block:** (331, 1)–(417, 34) mm: WARD-BECK SYSTEMS · WBSJ · (CUSTOMER  SUPPLIED PANEL) · CUSTOM · PUNCHING · ScALE disC HC · 960077-03-006
+
+Every curve, box, word and wire group: [1996 - 960077 - DOC - 960077-03-006 - DIA ISSUEL REVSICN NOTEMOVE BURRS (traced).json](1996%20-%20960077%20-%20DOC%20-%20960077-03-006%20-%20DIA%20ISSUEL%20REVSICN%20NOTEMOVE%20BURRS%20%28traced%29.json) (the CAD file: `1996 - 960077 - DOC - 960077-03-006 - DIA ISSUEL REVSICN NOTEMOVE BURRS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

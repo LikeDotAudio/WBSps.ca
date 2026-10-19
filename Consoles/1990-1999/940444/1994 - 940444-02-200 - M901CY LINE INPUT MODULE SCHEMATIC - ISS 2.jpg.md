@@ -21,6 +21,18 @@ Line input module schematic. Title block at top right reading downward.
 - **Size:** 5,357,493 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 940444-02-200/1, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–415 mm across, 18–303 mm up
+- **Outlines:** line 824 rings, 11,326 straight (16,583 mm) / 2,544 curved (2,986 mm); text 18 rings, 211 straight (177 mm) / 61 curved (80.0 mm)
+- **Centre lines:** 16,722 paths (202 closed); straight 11,513 mm, curved 204 mm; horizontal 4,363 mm, vertical 3,070 mm, diagonal 4,081 mm
+- **Circles and arcs:** 6 circles, 43 arcs; largest r 3.0 @ (125.9, 176.2), r 3.0 @ (126.1, 238.4), r 1.2 @ (386.0, 61.2), r 1.0 @ (368.9, 36.4)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 151 connected wire groups from 1,139 runs
+
+Every curve, box, word and wire group: [1994 - 940444-02-200 - M901CY LINE INPUT MODULE SCHEMATIC - ISS 2 (traced).json](1994%20-%20940444-02-200%20-%20M901CY%20LINE%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940444-02-200 - M901CY LINE INPUT MODULE SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

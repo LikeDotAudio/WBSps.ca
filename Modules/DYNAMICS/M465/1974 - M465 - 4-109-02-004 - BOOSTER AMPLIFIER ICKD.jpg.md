@@ -11,6 +11,18 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 5,967,629 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-109-02-004, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 17–303 mm up
+- **Outlines:** line 936 rings, 8,536 straight (15,722 mm) / 1,419 curved (1,990 mm); text 361 rings, 2,018 straight (1,870 mm) / 532 curved (731 mm)
+- **Centre lines:** 5,702 paths (90 closed); straight 9,060 mm, curved 470 mm; horizontal 3,813 mm, vertical 2,623 mm, diagonal 2,624 mm
+- **Circles and arcs:** 9 circles, 120 arcs; largest r 1.6 @ (373.6, 37.6), r 1.5 @ (404.8, 59.4), r 1.5 @ (233.9, 286.8), r 1.3 @ (415.4, 59.6)
+- **Closed boxes:** 39
+- **Wiring (first pass):** 99 connected wire groups from 830 runs
+
+Every curve, box, word and wire group: [1974 - M465 - 4-109-02-004 - BOOSTER AMPLIFIER ICKD (traced).json](1974%20-%20M465%20-%204-109-02-004%20-%20BOOSTER%20AMPLIFIER%20ICKD%20%28traced%29.json) (the CAD file: `1974 - M465 - 4-109-02-004 - BOOSTER AMPLIFIER ICKD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

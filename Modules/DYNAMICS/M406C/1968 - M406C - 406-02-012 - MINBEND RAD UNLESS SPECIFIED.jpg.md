@@ -11,6 +11,18 @@ Wiki page: [M406C](../../../PAGES/M406C.md)
 - **Size:** 6,864,232 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 406-02-012, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–425 mm across, 30–305 mm up
+- **Outlines:** line 444 rings, 5,661 straight (9,991 mm) / 726 curved (1,125 mm); text 278 rings, 2,060 straight (2,381 mm) / 570 curved (906 mm)
+- **Centre lines:** 2,879 paths (54 closed); straight 6,597 mm, curved 393 mm; horizontal 3,016 mm, vertical 1,919 mm, diagonal 1,661 mm
+- **Circles and arcs:** 16 circles, 48 arcs; largest r 2.6 @ (336.9, 65.0), r 2.5 @ (401.6, 65.7), r 2.3 @ (361.4, 65.3), r 2.0 @ (395.6, 65.0)
+- **Closed boxes:** 20
+- **Wiring (first pass):** 70 connected wire groups from 477 runs
+
+Every curve, box, word and wire group: [1968 - M406C - 406-02-012 - MINBEND RAD UNLESS SPECIFIED (traced).json](1968%20-%20M406C%20-%20406-02-012%20-%20MINBEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M406C - 406-02-012 - MINBEND RAD UNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

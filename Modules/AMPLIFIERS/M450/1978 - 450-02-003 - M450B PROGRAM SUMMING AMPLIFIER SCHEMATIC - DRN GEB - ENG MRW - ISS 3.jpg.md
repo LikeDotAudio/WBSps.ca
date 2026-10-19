@@ -24,6 +24,21 @@ Wiki page: [M450](../../../PAGES/M450.md)
 - **Size:** 1,324,877 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 450-02-003, size B 432 × 278 mm, 2000 × 1290 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–278 mm up
+- **Outlines:** line 913 rings, 8,208 straight (16,984 mm) / 1,787 curved (2,333 mm); text 539 rings, 2,977 straight (2,575 mm) / 1,022 curved (1,264 mm); tb 24 rings, 190 straight (209 mm) / 41 curved (44.8 mm)
+- **Centre lines:** 9,861 paths (284 closed); straight 11,383 mm, curved 480 mm; horizontal 4,470 mm, vertical 3,105 mm, diagonal 3,808 mm
+- **Circles and arcs:** 22 circles, 40 arcs; largest r 3.8 @ (104.6, 137.1), r 3.7 @ (318.7, 79.0), r 3.7 @ (319.5, 189.5), r 3.7 @ (143.6, 248.9)
+- **Closed boxes:** 14 (2 in the title block); named: 4038; 364; PROGRAMISUMMING Amplifier SCHEMATI; 02-003
+- **Dots (junctions):** 4
+- **Words (OCR):** 102 in 99 lines: R33 · R40 · PN3C45 · cid · 2N3.+5 · 330/6 · 3.30 · C20 · LF3s6 · 03 · Tip2sb · P43563
+- **Title block:** (357, 20)–(432, 35) mm: WBS · WARD-BeCK systeMs
+- **Wiring (first pass):** 90 connected wire groups from 770 runs; labelled ends: 353 mm → 735; 165 mm → C25, 22/25, C?3, 10/25; 141 mm → PN3C45, 3.30; 133 mm → C23, 220/i0, Ja2c; 132 mm → R32, R33
+
+Every curve, box, word and wire group: [1978 - 450-02-003 - M450B PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 3 (traced).json](1978%20-%20450-02-003%20-%20M450B%20PROGRAM%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1978 - 450-02-003 - M450B PROGRAM SUMMING AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

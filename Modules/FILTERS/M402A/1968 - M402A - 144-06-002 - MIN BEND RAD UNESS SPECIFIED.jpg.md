@@ -11,6 +11,17 @@ Wiki page: [M402A](../../../PAGES/M402A.md)
 - **Size:** 6,757,808 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 144-06-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 4–428 mm across, 32–305 mm up
+- **Outlines:** line 1,855 rings, 9,193 straight (10,627 mm) / 1,669 curved (1,681 mm); text 555 rings, 3,302 straight (2,886 mm) / 838 curved (902 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (197.4, 36.7), r 1.2 @ (108.0, 206.7), r 0.9 @ (308.4, 198.4)
+- **Closed boxes:** 12
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1968 - M402A - 144-06-002 - MIN BEND RAD UNESS SPECIFIED (traced).json](1968%20-%20M402A%20-%20144-06-002%20-%20MIN%20BEND%20RAD%20UNESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M402A - 144-06-002 - MIN BEND RAD UNESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

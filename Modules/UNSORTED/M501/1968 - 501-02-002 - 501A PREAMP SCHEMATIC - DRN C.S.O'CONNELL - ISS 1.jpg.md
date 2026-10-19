@@ -26,6 +26,20 @@ Wiki page: [M501](../../../PAGES/M501.md)
 
 - **1968** (labelled): `DATE 24 May 68` — …BOARD NO 0/38 DRN CASOCONNELL FIMISH WARD BECK SYSTEMS Lid DATE 24 May 68 CHKD MATERIAL 501A PREAMP SCHEMATIC SCALE TOLS FREI MK6BENE…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 501-02-002, size B 432 × 324 mm, 1536 × 1152 px traced (0.281 mm/px)
+- **Ink extent:** 0–350 mm across, 0–324 mm up
+- **Outlines:** line 566 rings, 4,948 straight (8,173 mm) / 894 curved (1,450 mm); text 174 rings, 905 straight (1,046 mm) / 302 curved (481 mm); tb 41 rings, 194 straight (247 mm) / 67 curved (110 mm)
+- **Centre lines:** 8,772 paths (45 closed); straight 7,267 mm, curved 200 mm; horizontal 2,438 mm, vertical 1,565 mm, diagonal 3,264 mm
+- **Circles and arcs:** 3 circles, 23 arcs; largest r 6.9 @ (273.0, 216.8), r 6.5 @ (270.5, 149.4), r 1.0 @ (285.0, 197.4)
+- **Closed boxes:** 5 (4 in the title block); named: TOLS
+- **Words (OCR):** 63 in 49 lines: IN4 · eke · RI? · 470 · CRZ · <RI · R3 · INzOTO · 69k · IOK · <12 · 2N3645
+- **Title block:** (188, 56)–(385, 99) mm: DRN CASOCONNELL · FIMISH · WARD BECK · SYSTEMS Lid · DATE 24 May 68 · CHKD · MATERIAL · 501A PREAMP SCHEMATIC · SCALE · TOLS · GIVEN
+- **Wiring (first pass):** 79 connected wire groups from 493 runs; labelled ends: 141 mm → 2N4037; 120 mm → TOLS, 501A, SPECIHEDNGLES; 102 mm → Koz; 47 mm → WARD, BECK; 37 mm → 60-3
+
+Every curve, box, word and wire group: [1968 - 501-02-002 - 501A PREAMP SCHEMATIC - DRN C.S.O'CONNELL - ISS 1 (traced).json](1968%20-%20501-02-002%20-%20501A%20PREAMP%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1968 - 501-02-002 - 501A PREAMP SCHEMATIC - DRN C.S.O'CONNELL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

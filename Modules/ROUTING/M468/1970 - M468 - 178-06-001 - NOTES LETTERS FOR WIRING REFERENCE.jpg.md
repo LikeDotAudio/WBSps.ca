@@ -12,6 +12,19 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 2,155,321 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 178-06-001, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 1,290 rings, 11,825 straight (11,971 mm) / 3,556 curved (3,388 mm); text 357 rings, 4,605 straight (4,634 mm) / 1,446 curved (1,548 mm); tb 16 rings, 43 straight (17.8 mm) / 5 curved (3.3 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.0 @ (114.4, 368.8), r 4.9 @ (147.2, 172.0)
+- **Closed boxes:** 3 (3 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 47 in 35 lines: DSI SwINo) · DSg Sw3 · 'CRKI · cRTZ K3 · cR · SLEEVED WIRE ` · BUsS · 0se · Sw2 · CR · CRK2 · CR
+- **Title block:** (294, 20)–(328, 88) mm: DRN · DATE · CHKD · SCALE
+
+Every curve, box, word and wire group: [1970 - M468 - 178-06-001 - NOTES LETTERS FOR WIRING REFERENCE (traced).json](1970%20-%20M468%20-%20178-06-001%20-%20NOTES%20LETTERS%20FOR%20WIRING%20REFERENCE%20%28traced%29.json) (the CAD file: `1970 - M468 - 178-06-001 - NOTES LETTERS FOR WIRING REFERENCE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

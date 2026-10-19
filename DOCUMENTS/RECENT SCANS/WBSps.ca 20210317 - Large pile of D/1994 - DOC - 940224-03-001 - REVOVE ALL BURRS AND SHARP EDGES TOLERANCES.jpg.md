@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 15,443,273 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940224-03-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 25–422 mm across, 6–260 mm up
+- **Outlines:** line 1,093 rings, 8,365 straight (20,759 mm) / 1,743 curved (2,317 mm); text 450 rings, 2,485 straight (2,180 mm) / 796 curved (949 mm); tb 18 rings, 152 straight (180 mm) / 29 curved (33.9 mm)
+- **Centre lines:** 11,437 paths (315 closed); straight 13,446 mm, curved 247 mm; horizontal 6,872 mm, vertical 2,831 mm, diagonal 3,743 mm
+- **Circles and arcs:** 2 circles, 41 arcs; largest r 5.0 @ (234.5, 101.3), r 4.8 @ (247.1, 31.6)
+- **Closed boxes:** 22 (3 in the title block); named: STV INTERCOM PANEL; CSC ND; 940224-03-001; CoJf 0477401
+- **Words (OCR):** 61 in 54 lines: "PEV" · OTHER S0E · FLACES · MITCHFS · 0.031 · RAD CORNERS(8) · 1160 2.050 · 7371 · DETUL · REC'D · INTERCOU PANEL · 0.390 DA REC D
+- **Title block:** (344, 23)–(428, 39) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940224-03-001 - REVOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20DOC%20-%20940224-03-001%20-%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940224-03-001 - REVOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

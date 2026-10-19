@@ -11,6 +11,17 @@ Wiki page: [Job-78035](../../../PAGES/Job-78035.md)
 - **Size:** 37,330,219 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 78035-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 583 rings, 5,620 straight (14,738 mm) / 492 curved (714 mm); text 69 rings, 454 straight (438 mm) / 134 curved (184 mm); tb 9 rings, 98 straight (136 mm) / 16 curved (17.1 mm)
+- **Closed boxes:** 35 (4 in the title block); named: 78035-04-001
+- **Words (OCR):** 9 in 8 lines: D4TL · Klvrion · WBS · WARD-BECk SYSTEMS · L3242A CONSOLE · ADO · CONSOLE · 78035-04-001
+- **Title block:** (360, 16)–(432, 32) mm: D4TL · Klvrion · WBS · WARD-BECk SYSTEMS · L3242A CONSOLE
+
+Every curve, box, word and wire group: [1978 - 78035 - 78035-04-001 - CONSOLE AMDIO CONSOLE OUTLINE (traced).json](1978%20-%2078035%20-%2078035-04-001%20-%20CONSOLE%20AMDIO%20CONSOLE%20OUTLINE%20%28traced%29.json) (the CAD file: `1978 - 78035 - 78035-04-001 - CONSOLE AMDIO CONSOLE OUTLINE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

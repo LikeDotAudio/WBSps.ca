@@ -11,6 +11,19 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 403,911 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-305-02-001, size B (assumed) 432 × 305 mm, 1753 × 1240 px traced (0.246 mm/px), turned 270°
+- **Ink extent:** 19–431 mm across, 0–303 mm up
+- **Outlines:** line 2,192 rings, 20,569 straight (31,741 mm) / 4,076 curved (5,345 mm); text 194 rings, 1,113 straight (1,054 mm) / 353 curved (465 mm)
+- **Centre lines:** 20,378 paths (575 closed); straight 19,371 mm, curved 287 mm; horizontal 6,197 mm, vertical 6,697 mm, diagonal 6,477 mm
+- **Circles and arcs:** 1 circles, 44 arcs; largest r 3.3 @ (350.9, 145.5)
+- **Closed boxes:** 43
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 221 connected wire groups from 1,903 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1996 - M445 - B 14-305-02-001-1 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC (traced).json](1996%20-%20M445%20-%20B%2014-305-02-001-1%20-%20SA14-305%20STEREO%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1996 - M445 - B 14-305-02-001-1 - SA14-305 STEREO EXTENDED RANGE METER - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

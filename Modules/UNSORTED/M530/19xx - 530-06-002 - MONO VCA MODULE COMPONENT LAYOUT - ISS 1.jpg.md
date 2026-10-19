@@ -22,6 +22,19 @@ Photo of the M530A mono VCA module component layout. Title block at bottom right
 - **Size:** 963,587 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 530-06-002, size B 432 × 432 mm, 2000 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 75–423 mm across, 0–416 mm up
+- **Outlines:** line 4,764 rings, 24,743 straight (21,016 mm) / 6,444 curved (5,902 mm); text 991 rings, 7,438 straight (6,424 mm) / 2,794 curved (3,085 mm); tb 1,032 rings, 5,699 straight (5,020 mm) / 1,487 curved (1,514 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 5.8 @ (207.7, 376.3), r 5.8 @ (207.9, 362.5), r 5.5 @ (221.8, 376.5), r 5.4 @ (222.0, 362.7)
+- **Closed boxes:** 24; named: BBB
+- **Dots (junctions):** 1
+- **Words (OCR):** 158 in 133 lines: FadeR · MASTER · GROUP · OFF · Gh}-AA S4z · 2CF_ · 2CF-GhT-AA · SWS · VBS 11-166 · EXT · 47/25 · 22/25
+- **Title block:** (194, 44)–(414, 335) mm: WBS · CANADA · 2 2/35 · 2.2/35 · IN4148 R62 #50 · C4B) · -R6s Ex R68 · 15k · R78 62x · Sk · 40K · TN4036 JOOK · 02 · 3904 · Reg · ISSUE · 353N · R87 · 2N3906 · 22k · R54 · R64 35k R92 · Zzk · R8S · R8
+
+Every curve, box, word and wire group: [19xx - 530-06-002 - MONO VCA MODULE COMPONENT LAYOUT - ISS 1 (traced).json](19xx%20-%20530-06-002%20-%20MONO%20VCA%20MODULE%20COMPONENT%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 530-06-002 - MONO VCA MODULE COMPONENT LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

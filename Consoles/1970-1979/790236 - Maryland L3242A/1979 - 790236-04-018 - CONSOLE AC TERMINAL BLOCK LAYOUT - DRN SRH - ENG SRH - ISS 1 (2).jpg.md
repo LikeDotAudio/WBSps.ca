@@ -21,6 +21,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,612,360 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 790236-04-018, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 1–289 mm up
+- **Outlines:** line 74 rings, 1,820 straight (5,048 mm) / 150 curved (212 mm); text 823 rings, 6,562 straight (8,029 mm) / 1,889 curved (3,005 mm); tb 196 rings, 3,364 straight (7,278 mm) / 502 curved (1,011 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.4 @ (9.2, 255.2)
+- **Closed boxes:** 7 (5 in the title block); named: 790236-04-018; SCALE
+- **Words (OCR):** 102 in 84 lines: INTERNAL CONSOLE · CUSTOMER · EXTERNAL · NeIES: · WBS · COnnEctions · connEctions · To ConSOLe · REFER · POwER · DistRibUTiON · DIAGRAM
+- **Title block:** (43, 10)–(432, 278) mm: INTERNAL CONSOLE · CUSTOMER · EXTERNAL · NeIES: · WBS · COnnEctions · connEctions · To ConSOLe · REFER · POwER · DistRibUTiON · DIAGRAM · FoR · TECHNICAL · GROUND" · connection inFoRMATioN · 2) CONSOL
+
+Every curve, box, word and wire group: [1979 - 790236-04-018 - CONSOLE AC TERMINAL BLOCK LAYOUT - DRN SRH - ENG SRH - ISS 1 (2) (traced).json](1979%20-%20790236-04-018%20-%20CONSOLE%20AC%20TERMINAL%20BLOCK%20LAYOUT%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1979 - 790236-04-018 - CONSOLE AC TERMINAL BLOCK LAYOUT - DRN SRH - ENG SRH - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

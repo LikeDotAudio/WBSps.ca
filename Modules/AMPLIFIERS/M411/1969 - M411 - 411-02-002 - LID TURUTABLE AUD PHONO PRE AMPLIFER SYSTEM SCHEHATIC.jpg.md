@@ -11,6 +11,18 @@ Wiki page: [M411](../../../PAGES/M411.md)
 - **Size:** 8,254,246 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 411-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–324 mm across, 0–287 mm up
+- **Outlines:** line 482 rings, 3,372 straight (6,202 mm) / 386 curved (564 mm); text 199 rings, 1,180 straight (1,161 mm) / 247 curved (340 mm)
+- **Centre lines:** 1,915 paths (15 closed); straight 3,722 mm, curved 70.7 mm; horizontal 1,670 mm, vertical 1,223 mm, diagonal 829 mm
+- **Circles and arcs:** 0 circles, 19 arcs
+- **Closed boxes:** 18
+- **Wiring (first pass):** 36 connected wire groups from 308 runs
+
+Every curve, box, word and wire group: [1969 - M411 - 411-02-002 - LID TURUTABLE AUD PHONO PRE AMPLIFER SYSTEM SCHEHATIC (traced).json](1969%20-%20M411%20-%20411-02-002%20-%20LID%20TURUTABLE%20AUD%20PHONO%20PRE%20AMPLIFER%20SYSTEM%20SCHEHATIC%20%28traced%29.json) (the CAD file: `1969 - M411 - 411-02-002 - LID TURUTABLE AUD PHONO PRE AMPLIFER SYSTEM SCHEHATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

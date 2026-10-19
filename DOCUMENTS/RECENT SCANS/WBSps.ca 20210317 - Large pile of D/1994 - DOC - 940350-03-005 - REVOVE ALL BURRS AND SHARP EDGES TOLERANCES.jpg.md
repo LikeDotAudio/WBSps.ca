@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,817,316 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940350-03-005, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 47–420 mm across, 8–254 mm up
+- **Outlines:** line 797 rings, 5,249 straight (11,796 mm) / 1,008 curved (1,159 mm); text 266 rings, 1,482 straight (1,472 mm) / 529 curved (673 mm); tb 23 rings, 168 straight (202 mm) / 30 curved (33.8 mm)
+- **Centre lines:** 6,700 paths (210 closed); straight 7,894 mm, curved 22.2 mm; horizontal 3,130 mm, vertical 2,167 mm, diagonal 2,597 mm
+- **Circles and arcs:** 0 circles, 9 arcs
+- **Closed boxes:** 51 (3 in the title block); named: CUSTOM MACHINE CONTROL PLATE; 940350-03-005
+- **Words (OCR):** 30 in 24 lines: 7-760 · 940550 · 03-005 · ALUM ALLUT · 0,080 THICK , · PLATE · OAuv · Ducs · 03-005 SuB PLATE · ALUM ALLOY 0.100 ThiCK · REO D · MATERIAL: SEE BODY OF DRAMNG:
+- **Title block:** (341, 24)–(426, 40) mm: WBS · WARD · BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940350-03-005 - REVOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20DOC%20-%20940350-03-005%20-%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940350-03-005 - REVOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -22,6 +22,20 @@ Wide amplifier schematic strip with title block at bottom right.
 - **Size:** 4,185,041 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 414-02-001, size B 432 × 133 mm, 2000 × 614 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–133 mm up
+- **Outlines:** line 1,350 rings, 10,418 straight (17,038 mm) / 1,963 curved (2,284 mm); text 118 rings, 584 straight (461 mm) / 152 curved (172 mm)
+- **Centre lines:** 7,650 paths (360 closed); straight 9,444 mm, curved 185 mm; horizontal 3,548 mm, vertical 2,838 mm, diagonal 3,058 mm
+- **Circles and arcs:** 4 circles, 30 arcs; largest r 3.5 @ (237.4, 83.4), r 3.0 @ (295.5, 86.2), r 2.2 @ (370.6, 78.4), r 1.4 @ (295.7, 84.3)
+- **Closed boxes:** 2
+- **Dots (junctions):** 7
+- **Words (OCR):** 19 in 19 lines: 742io? · For · 40 · 0+76141 · STLTED · capacmcr · Liat · 0076 · Ga · 31 JB · 37dB · Te (=
+- **Wiring (first pass):** 112 connected wire groups from 762 runs; labelled ends: 433 mm → 18885; 82 mm → 18885; 82 mm → 40, 0+76141; 48 mm → USTEMS, 414; 34 mm → 40
+
+Every curve, box, word and wire group: [19xx - 414-02-001 - 6 WATT UTILITY AMPLIFIER - ISS 2 (traced).json](19xx%20-%20414-02-001%20-%206%20WATT%20UTILITY%20AMPLIFIER%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 414-02-001 - 6 WATT UTILITY AMPLIFIER - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

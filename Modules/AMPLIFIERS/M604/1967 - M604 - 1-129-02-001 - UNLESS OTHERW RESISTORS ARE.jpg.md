@@ -11,6 +11,20 @@ Wiki page: [M604](../../../PAGES/M604.md)
 - **Size:** 656,584 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 1-129-02-001, size B (assumed) 334 × 432 mm, 840 × 1086 px traced (0.398 mm/px)
+- **Ink extent:** 0–334 mm across, 12–430 mm up
+- **Outlines:** line 753 rings, 7,318 straight (11,458 mm) / 1,525 curved (3,112 mm); text 192 rings, 1,688 straight (2,969 mm) / 503 curved (1,313 mm); tb 10 rings, 39 straight (44.4 mm) / 5 curved (8.0 mm)
+- **Centre lines:** 14,359 paths (72 closed); straight 13,452 mm, curved 204 mm; horizontal 3,511 mm, vertical 2,637 mm, diagonal 7,303 mm
+- **Circles and arcs:** 0 circles, 21 arcs
+- **Closed boxes:** 3
+- **Words (OCR):** 44 in 34 lines: 2n2102 · CR? · @4V · DC · RS INAOO3 · NOTES · FOR COMPONEN · 03 · see 81-/29-05 · 2. UNLESS OTHEPw · RESISTORS ARE · 205137
+- **Title block:** (216, 30)–(249, 71) mm: DRN · DATE
+- **Wiring (first pass):** 74 connected wire groups from 589 runs; labelled ends: 133 mm → liss ookko, TOLS, Ea7; 83 mm → 205137, 02; 82 mm → QM, MRW; 76 mm → liss ookko, TOLS; 51 mm → 02
+
+Every curve, box, word and wire group: [1967 - M604 - 1-129-02-001 - UNLESS OTHERW RESISTORS ARE (traced).json](1967%20-%20M604%20-%201-129-02-001%20-%20UNLESS%20OTHERW%20RESISTORS%20ARE%20%28traced%29.json) (the CAD file: `1967 - M604 - 1-129-02-001 - UNLESS OTHERW RESISTORS ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

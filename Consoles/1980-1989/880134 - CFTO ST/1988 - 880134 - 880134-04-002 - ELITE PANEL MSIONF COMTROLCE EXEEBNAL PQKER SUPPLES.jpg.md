@@ -11,6 +11,17 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,669,159 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC_NO; 241
+- **Ink extent:** 3–432 mm across, 0–279 mm up
+- **Outlines:** line 808 rings, 8,379 straight (26,582 mm) / 701 curved (892 mm); text 342 rings, 1,910 straight (1,658 mm) / 504 curved (620 mm); tb 34 rings, 327 straight (1,115 mm) / 31 curved (43.1 mm)
+- **Closed boxes:** 104; named: L7 _ed; L7 _ed; 0107,04; 46258; M6258; PSI PS2 M611 M611; Ps9 M648; RBP-} BLANK PANEL; BLANK PANEL RBP;
+- **Words (OCR):** 51 in 44 lines: L7 _ed · M528 · M6253 · PSS · Mb258 · PS+ · MODULES · 0107,04 · M6258 · PsS · Mb258 · PS6
+- **Title block:** (337, 0)–(428, 35) mm: SSUELDAS · REMSION · WBS · WARD-BECK  SYSTEMS · DRN: PA 08/88 · ST3642 STEREO TV CONSOLE · CFTO-TV · CKD_ · APP_ · SCALE DISC_NO; 241 · FRONT VIEW LAYOUT · 1:4 CODE: 80134L02 · 880134-04-002 · ISSUE
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-002 - ELITE PANEL MSIONF COMTROLCE EXEEBNAL PQKER SUPPLES (traced).json](1988%20-%20880134%20-%20880134-04-002%20-%20ELITE%20PANEL%20MSIONF%20COMTROLCE%20EXEEBNAL%20PQKER%20SUPPLES%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-002 - ELITE PANEL MSIONF COMTROLCE EXEEBNAL PQKER SUPPLES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

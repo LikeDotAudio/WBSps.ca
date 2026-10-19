@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,640,603 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 96019-01-001, size B (assumed) 432 × 276 mm, 2000 × 1278 px traced (0.216 mm/px)
+- **Ink extent:** 53–416 mm across, 4–232 mm up
+- **Outlines:** line 3,193 rings, 19,254 straight (20,308 mm) / 8,212 curved (14,554 mm); text 118 rings, 754 straight (750 mm) / 214 curved (290 mm); tb 20 rings, 148 straight (178 mm) / 23 curved (29.6 mm)
+- **Centre lines:** 37,254 paths (170 closed); straight 24,704 mm, curved 43.4 mm; horizontal 9,498 mm, vertical 9,378 mm, diagonal 5,828 mm
+- **Circles and arcs:** 78 circles, 15 arcs; largest r 1.7 @ (128.7, 180.7), r 1.7 @ (210.3, 180.7), r 1.7 @ (244.9, 180.7), r 1.7 @ (216.6, 180.7)
+- **Closed boxes:** 14 (4 in the title block); named: ONTARIO JOCKEY CLUB INTERCOM FUNCTIONAL; 96019-01-001
+- **Dots (junctions):** 1110
+- **Words (OCR):** 12 in 12 lines: SWMCHEC · NORUALLI · PACCCC' · MATRO · ouIPUTS) · CAUMAE · WBS · WARD-BECK  SYSTEMS · ONTARIO JOCKEY CLUB · INTERCOM · FUNCTIONAL · 96019-01-001
+- **Title block:** (338, 19)–(421, 36) mm: WBS · WARD-BECK  SYSTEMS · ONTARIO JOCKEY CLUB
+- **Wiring (first pass):** 112 connected wire groups from 5,745 runs, 1722 dotted junctions; labelled ends: 6 mm → INTERCOM, FUNCTIONAL, 96019-01-001; 6 mm → 96019-01-001; 5 mm → PACCCC'; 5 mm → PACCCC'
+
+Every curve, box, word and wire group: [1996 - DOC - 96019-01-001 - FUTURE SSUE REVISION (traced).json](1996%20-%20DOC%20-%2096019-01-001%20-%20FUTURE%20SSUE%20REVISION%20%28traced%29.json) (the CAD file: `1996 - DOC - 96019-01-001 - FUTURE SSUE REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

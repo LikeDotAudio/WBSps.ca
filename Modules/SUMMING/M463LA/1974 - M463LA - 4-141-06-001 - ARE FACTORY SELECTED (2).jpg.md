@@ -11,6 +11,17 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 - **Size:** 1,298,585 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-141-06-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 1–426 mm up
+- **Outlines:** line 250 rings, 4,229 straight (8,482 mm) / 1,123 curved (1,183 mm); text 223 rings, 2,734 straight (2,844 mm) / 793 curved (957 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.2 @ (326.6, 258.2), r 3.3 @ (255.4, 242.9), r 2.5 @ (216.8, 79.5), r 2.2 @ (166.8, 79.6)
+- **Closed boxes:** 53; named: 22 LM 2oin; USED ON; 4245; M.L; Rn; 12; 171; 230; 513203; GEB; 3512; ML
+- **Words (OCR):** 47 in 37 lines: p4sibe · C2 · 22 · LM 2oin · s3o/ · 'PCis_ · k3 · S2o · ~C12"p DIF · 351 · ~Rig_Isk r2g · ~~R2s-2k2 Pn256"
+
+Every curve, box, word and wire group: [1974 - M463LA - 4-141-06-001 - ARE FACTORY SELECTED (2) (traced).json](1974%20-%20M463LA%20-%204-141-06-001%20-%20ARE%20FACTORY%20SELECTED%20%282%29%20%28traced%29.json) (the CAD file: `1974 - M463LA - 4-141-06-001 - ARE FACTORY SELECTED (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -24,6 +24,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 3,915,462 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 463-02-015, size B (assumed) 432 × 140 mm, 2000 × 648 px traced (0.216 mm/px)
+- **Ink extent:** 2–431 mm across, 1–138 mm up
+- **Outlines:** line 728 rings, 6,705 straight (12,847 mm) / 1,570 curved (1,921 mm); text 132 rings, 1,059 straight (948 mm) / 296 curved (361 mm); tb 2 rings, 34 straight (87.4 mm) / 2 curved (5.4 mm)
+- **Centre lines:** 9,755 paths (188 closed); straight 8,789 mm, curved 89.3 mm; horizontal 4,095 mm, vertical 1,957 mm, diagonal 2,737 mm
+- **Circles and arcs:** 2 circles, 25 arcs; largest r 2.0 @ (348.8, 104.2), r 0.7 @ (69.1, 110.3)
+- **Closed boxes:** 21 (1 in the title block); named: M463R MASTER MODULE SCHEMATIC; 63-02-015
+- **Words (OCR):** 26 in 26 lines: PRFFADE · INPUT · {aean · GM4IR · Post · FADC · Risht · Out · Rez3e0n · GMesw7 · 22 · GM 2L
+- **Title block:** (358, 23)–(432, 33) mm: WBS · WALRO-BeCk SYSTEMS
+- **Wiring (first pass):** 75 connected wire groups from 591 runs; labelled ends: 180 mm → GM4IR; 173 mm → {aean, GMesw7; 155 mm → GM4IR, GMesw7, BCLO, BIGNAL; 147 mm → 22, alin; 145 mm → BCLO
+
+Every curve, box, word and wire group: [1982 - 463-02-015 - M463R MASTER MODULE SCHEMATIC - DRN JP - ENG ELJ (traced).json](1982%20-%20463-02-015%20-%20M463R%20MASTER%20MODULE%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20ELJ%20%28traced%29.json) (the CAD file: `1982 - 463-02-015 - M463R MASTER MODULE SCHEMATIC - DRN JP - ENG ELJ (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

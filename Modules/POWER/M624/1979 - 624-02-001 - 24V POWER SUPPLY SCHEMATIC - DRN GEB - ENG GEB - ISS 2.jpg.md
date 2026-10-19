@@ -24,6 +24,20 @@ Wiki page: [M624](../../../PAGES/M624.md)
 - **Size:** 417,546 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 624-02-001, size B (assumed) 432 × 177 mm, 2000 × 819 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–151 mm up
+- **Outlines:** line 280 rings, 2,430 straight (4,570 mm) / 654 curved (961 mm); text 368 rings, 2,214 straight (2,300 mm) / 796 curved (1,068 mm); tb 28 rings, 328 straight (1,340 mm) / 36 curved (48.0 mm)
+- **Centre lines:** 3,655 paths (124 closed); straight 4,750 mm, curved 401 mm; horizontal 1,798 mm, vertical 1,169 mm, diagonal 1,784 mm
+- **Circles and arcs:** 36 circles, 50 arcs; largest r 2.6 @ (256.3, 65.9), r 1.3 @ (31.2, 82.0), r 1.3 @ (69.3, 102.4), r 1.3 @ (69.3, 110.1)
+- **Closed boxes:** 3; named: 5.10
+- **Words (OCR):** 54 in 40 lines: PowERSuPPLY · MOUNTING · IRAY · VSVAC · GN · 24v (F2) · PBco · CRI · 24v · +2+v (F3) · 37 · 24 v
+- **Title block:** (334, 0)–(432, 49) mm: 2/73 REDRAWN · GEB · REVISION · ISSUE DATE · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · ENG_ GEB 9/791 · M624 · Ckd · 24 POWER SUPPLY · SCHEMATIC · SCALE · ISSUE · 624 02 - · 001
+- **Wiring (first pass):** 48 connected wire groups from 206 runs; labelled ends: 118 mm → 5.10; 61 mm → 37; 41 mm → PowERSuPPLY, MOUNTING, IRAY; 36 mm → PowERSuPPLY, MOUNTING, IRAY; 35 mm → +2+v (F3), comMon
+
+Every curve, box, word and wire group: [1979 - 624-02-001 - 24V POWER SUPPLY SCHEMATIC - DRN GEB - ENG GEB - ISS 2 (traced).json](1979%20-%20624-02-001%20-%2024V%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1979 - 624-02-001 - 24V POWER SUPPLY SCHEMATIC - DRN GEB - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

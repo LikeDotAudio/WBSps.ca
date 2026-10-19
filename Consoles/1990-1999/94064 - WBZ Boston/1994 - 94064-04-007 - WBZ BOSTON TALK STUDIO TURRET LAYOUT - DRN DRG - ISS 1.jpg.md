@@ -21,6 +21,18 @@ Wiki page: [Job-94064](../../../PAGES/Job-94064.md)
 - **Size:** 459,990 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 94064-04-007, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 57–848 mm across, 14–530 mm up
+- **Outlines:** line 425 rings, 3,302 straight (25,308 mm) / 796 curved (2,915 mm); text 199 rings, 1,312 straight (2,820 mm) / 350 curved (913 mm); tb 19 rings, 176 straight (385 mm) / 35 curved (82.5 mm)
+- **Circles and arcs:** 37 circles, 0 arcs; largest r 9.2 @ (426.7, 378.4), r 9.2 @ (390.9, 378.4), r 9.0 @ (427.0, 500.5), r 9.0 @ (426.7, 342.6)
+- **Closed boxes:** 46 (4 in the title block); named: GUEST GUEST CuEST GUEST; WBZ BOSTON TALK   STUDIO TURRET LAYOUT; 94064-04-007
+- **Words (OCR):** 19 in 15 lines: CuEST · GUEST · GUEST · GUEST · WBS · WARD-BECK SYSTEMS · WBZ BOSTON · REAR VieW · CARIE · CONNECTOR · SIDE MEW · TALK   STUDIO TURRET
+- **Title block:** (690, 46)–(859, 79) mm: WBS · WARD-BECK SYSTEMS · WBZ BOSTON
+
+Every curve, box, word and wire group: [1994 - 94064-04-007 - WBZ BOSTON TALK STUDIO TURRET LAYOUT - DRN DRG - ISS 1 (traced).json](1994%20-%2094064-04-007%20-%20WBZ%20BOSTON%20TALK%20STUDIO%20TURRET%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94064-04-007 - WBZ BOSTON TALK STUDIO TURRET LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

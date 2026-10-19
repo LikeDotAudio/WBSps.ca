@@ -24,6 +24,20 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 323,210 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-109-02-001, size B 432 × 309 mm, 2000 × 1431 px traced (0.216 mm/px)
+- **Ink extent:** 13–432 mm across, 0–299 mm up
+- **Outlines:** line 301 rings, 4,099 straight (10,124 mm) / 811 curved (1,144 mm); text 470 rings, 2,689 straight (2,455 mm) / 1,016 curved (1,296 mm); tb 26 rings, 271 straight (278 mm) / 69 curved (78.3 mm)
+- **Centre lines:** 6,172 paths (112 closed); straight 7,472 mm, curved 354 mm; horizontal 2,974 mm, vertical 1,967 mm, diagonal 2,530 mm
+- **Circles and arcs:** 8 circles, 59 arcs; largest r 4.3 @ (223.4, 121.5), r 4.3 @ (193.3, 271.2), r 4.3 @ (224.2, 264.4), r 4.3 @ (224.1, 209.3)
+- **Closed boxes:** 8 (4 in the title block)
+- **Words (OCR):** 107 in 101 lines: E3 · +21-5Y · C3 · 10lz25 · Ri7 · Ris · 4k7 · 22 · 32 · PN3c45 · 2N2102 · 03
+- **Title block:** (348, 0)–(432, 35) mm: DAE · WBS WAAD-BECK BybtenB · 8 ~ 109 · CKD: Rul · BOOSTER AMPLiFIER · SCHEMATIC · SCALE · 109-02-001
+- **Wiring (first pass):** 57 connected wire groups from 390 runs; labelled ends: 205 mm → E3, Ri7, 4k7, Ris; 193 mm → 2N4037, R2s, 4K7, 390; 189 mm → R32, 6.8, R35, 22o/10; 162 mm → R3, 6k2, RB, i8k; 149 mm → R3o, R34, 5-6, R3i
+
+Every curve, box, word and wire group: [1978 - 8-109-02-001 - BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).json](1978%20-%208-109-02-001%20-%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 8-109-02-001 - BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

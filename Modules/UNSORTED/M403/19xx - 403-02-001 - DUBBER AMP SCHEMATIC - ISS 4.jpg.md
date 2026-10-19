@@ -22,6 +22,18 @@ Wide amplifier schematic strip with title block at bottom right.
 - **Size:** 3,563,216 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 403-02-001, size B 432 × 155 mm, 2000 × 719 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–155 mm up
+- **Outlines:** line 1,129 rings, 9,526 straight (14,924 mm) / 2,047 curved (2,623 mm); text 215 rings, 1,222 straight (1,060 mm) / 372 curved (435 mm)
+- **Centre lines:** 8,005 paths (181 closed); straight 9,010 mm, curved 444 mm; horizontal 3,398 mm, vertical 2,647 mm, diagonal 2,965 mm
+- **Circles and arcs:** 14 circles, 74 arcs; largest r 4.3 @ (241.3, 54.8), r 4.2 @ (391.9, 115.7), r 4.2 @ (304.1, 63.7), r 4.2 @ (287.4, 114.3)
+- **Words (OCR):** 33 in 33 lines: 1n2070 · Lnregu_ated · 30,25 · 50/70 · lioo/70 · F04zA · 162 · 10/25 · 290/33 · AQDEBT-5 · 475 · IN?O70
+- **Wiring (first pass):** 91 connected wire groups from 703 runs; labelled ends: 591 mm → Ezk /I0/25, <R3, AQDEBT-5, MT; 192 mm → 50/70; 100 mm → 30,25; 99 mm → 162; 98 mm → 394
+
+Every curve, box, word and wire group: [19xx - 403-02-001 - DUBBER AMP SCHEMATIC - ISS 4 (traced).json](19xx%20-%20403-02-001%20-%20DUBBER%20AMP%20SCHEMATIC%20-%20ISS%204%20%28traced%29.json) (the CAD file: `19xx - 403-02-001 - DUBBER AMP SCHEMATIC - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

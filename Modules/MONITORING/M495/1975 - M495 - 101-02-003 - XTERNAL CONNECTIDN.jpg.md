@@ -11,6 +11,18 @@ Wiki page: [M495](../../../PAGES/M495.md)
 - **Size:** 2,092,534 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 101-02-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 286 rings, 5,414 straight (8,743 mm) / 738 curved (1,310 mm); text 291 rings, 3,186 straight (4,331 mm) / 904 curved (1,559 mm)
+- **Centre lines:** 4,552 paths (52 closed); straight 7,556 mm, curved 557 mm; horizontal 2,529 mm, vertical 1,422 mm, diagonal 3,605 mm
+- **Circles and arcs:** 11 circles, 20 arcs; largest r 8.8 @ (64.5, 125.3), r 8.7 @ (64.7, 379.1), r 8.6 @ (65.7, 290.6), r 8.6 @ (64.7, 213.0)
+- **Words (OCR):** 60 in 52 lines: External · Connectidn · R12 · I5k · Q1 · Pn3569 · CRI Ri6 · 33 · C6 R22 · E3 · 33 · CR2 33
+- **Wiring (first pass):** 40 connected wire groups from 274 runs; labelled ends: 173 mm → C15, 22/25, C16, 22125; 143 mm → R12, I5k, CRI, Q1; 121 mm → Ri6, 33, C6, RI7; 120 mm → R18, 33, C7, ezo/10_; 89 mm → E3, BOOSTER 1
+
+Every curve, box, word and wire group: [1975 - M495 - 101-02-003 - XTERNAL CONNECTIDN (traced).json](1975%20-%20M495%20-%20101-02-003%20-%20XTERNAL%20CONNECTIDN%20%28traced%29.json) (the CAD file: `1975 - M495 - 101-02-003 - XTERNAL CONNECTIDN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -15,6 +15,18 @@ Wiki page: [M462](../../../PAGES/M462.md)
 
 - **1974** (labelled): `DATE SEP 74` — …ML 8 782 J USED ON MATL. WBS WARD-BECK BySTEMs LTD: DRN_ Dm DATE SEP 74 CKD Re SCALE TOLS _ @ M462 EQUALIZER MODULF COMPONENT LAYOU…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-111-06-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–422 mm up
+- **Outlines:** line 966 rings, 9,209 straight (15,295 mm) / 2,728 curved (2,846 mm); text 921 rings, 8,097 straight (8,023 mm) / 2,347 curved (2,768 mm); tb 35 rings, 398 straight (531 mm) / 100 curved (118 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 9.6 @ (120.3, 164.8), r 6.6 @ (146.1, 127.1), r 6.6 @ (69.2, 127.3), r 6.6 @ (50.8, 127.3)
+- **Closed boxes:** 41 (16 in the title block); named: 27; 28; 24 LMJoi; 21 LM2el; WBS BYSTEMs WARD-BECK LTD; ISS MOD; bi93/0GB; M462 EQUALIZER MODULF COMPONENT LAYOUi; FINISH; 3698; 4e01; 4-111-06-001
+- **Words (OCR):** 147 in 116 lines: 0155 · 162 · IE2 · R7a · 37 - · S26 3/6 · 0164 · ~R58 · 3R56228 · Sp · 26 · Isp 228 225
+- **Title block:** (74, 5)–(280, 60) mm: ISS MOD CKD_ · USED ON · MATL_ · WBS WARD-BECK · bi93/0GB · DRN · Dm · M462 · E2ND · DATE SEC 74 · FINISH · CKD · EQUALIZER MODULF · COMPONENT LAYOUi · SCALE · 4e01 · ToLs · 4-111-06-001
+
+Every curve, box, word and wire group: [1974 - M462 - 4-111-06-001 - COMPONENT SIDE LDER SIDE (traced).json](1974%20-%20M462%20-%204-111-06-001%20-%20COMPONENT%20SIDE%20LDER%20SIDE%20%28traced%29.json) (the CAD file: `1974 - M462 - 4-111-06-001 - COMPONENT SIDE LDER SIDE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -12,6 +12,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 6,443,709 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 520-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 6–431 mm across, 18–305 mm up
+- **Outlines:** line 1,255 rings, 9,271 straight (15,188 mm) / 2,039 curved (2,457 mm); text 144 rings, 881 straight (837 mm) / 230 curved (299 mm)
+- **Centre lines:** 7,178 paths (276 closed); straight 8,954 mm, curved 141 mm; horizontal 4,004 mm, vertical 2,162 mm, diagonal 2,788 mm
+- **Circles and arcs:** 7 circles, 17 arcs; largest r 2.6 @ (231.5, 86.3), r 2.6 @ (231.5, 73.1), r 1.5 @ (370.3, 41.4), r 1.1 @ (360.5, 28.7)
+- **Closed boxes:** 11
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 96 connected wire groups from 640 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1988 - M520 - B 520-02-001-3 - M520 - MONO INPUT MODULE - SCHEMATIC (traced).json](1988%20-%20M520%20-%20B%20520-02-001-3%20-%20M520%20-%20MONO%20INPUT%20MODULE%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1988 - M520 - B 520-02-001-3 - M520 - MONO INPUT MODULE - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -23,6 +23,20 @@ Wiki page: [ST3642](../../../PAGES/ST3642.md)
 - **Size:** 4,300,076 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 3642-02-101, size B (assumed) 432 × 184 mm, 2000 × 851 px traced (0.216 mm/px)
+- **Ink extent:** 20–423 mm across, 3–130 mm up
+- **Outlines:** line 549 rings, 4,632 straight (9,016 mm) / 1,025 curved (1,180 mm); text 140 rings, 1,184 straight (1,286 mm) / 315 curved (462 mm); tb 9 rings, 92 straight (135 mm) / 18 curved (21.0 mm)
+- **Centre lines:** 6,979 paths (138 closed); straight 6,594 mm, curved 31.7 mm; horizontal 2,971 mm, vertical 1,429 mm, diagonal 2,194 mm
+- **Circles and arcs:** 0 circles, 14 arcs
+- **Closed boxes:** 11 (2 in the title block); named: SI2442 /3642 LOAD IRANSEER SCHEMATIC; 3642-02-101; Codf; 50425101
+- **Words (OCR):** 24 in 21 lines: FOR ST3642 CNLY · HELAT CI · 62 · PHANOK · POMER · RELALcL · NOlES · COUPONENT LAtout · LOGic · 425v · ISSUCIDATE · WBS
+- **Title block:** (344, 24)–(428, 41) mm: ISSUCIDATE · WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 89 connected wire groups from 423 runs; labelled ends: 354 mm → USE, TKIS; 151 mm → WBS, 3642-02-101, SCHEMATIC, Codf; 50425101; 70 mm → 425v; 64 mm → RELALcL; 52 mm → 62
+
+Every curve, box, word and wire group: [1987 - 3642-02-101 - ST2442 3642 LOAD TRANSFER SCHEMATIC - DRN Steve Gray - ISS 1 (traced).json](1987%20-%203642-02-101%20-%20ST2442%203642%20LOAD%20TRANSFER%20SCHEMATIC%20-%20DRN%20Steve%20Gray%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 3642-02-101 - ST2442 3642 LOAD TRANSFER SCHEMATIC - DRN Steve Gray - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

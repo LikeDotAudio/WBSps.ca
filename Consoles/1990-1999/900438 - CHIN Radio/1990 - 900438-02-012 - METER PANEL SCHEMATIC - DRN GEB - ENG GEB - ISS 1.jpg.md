@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,365,301 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-012, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–414 mm across, 19–295 mm up
+- **Outlines:** line 639 rings, 7,234 straight (15,443 mm) / 1,512 curved (2,301 mm); text 249 rings, 1,669 straight (1,931 mm) / 538 curved (798 mm)
+- **Centre lines:** 6,247 paths (103 closed); straight 9,591 mm, curved 956 mm; horizontal 4,171 mm, vertical 2,554 mm, diagonal 2,867 mm
+- **Circles and arcs:** 59 circles, 117 arcs; largest r 1.6 @ (157.5, 121.7), r 1.6 @ (157.6, 137.5), r 1.5 @ (203.7, 267.6), r 1.4 @ (98.1, 216.9)
+- **Closed boxes:** 29
+- **Wiring (first pass):** 100 connected wire groups from 726 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-012 - METER PANEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-012%20-%20METER%20PANEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-012 - METER PANEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

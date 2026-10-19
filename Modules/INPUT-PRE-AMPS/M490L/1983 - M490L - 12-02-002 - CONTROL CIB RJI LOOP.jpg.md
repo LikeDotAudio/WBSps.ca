@@ -11,6 +11,21 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 219,106 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 12-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–428 mm up
+- **Outlines:** line 484 rings, 6,320 straight (10,289 mm) / 1,450 curved (2,113 mm); text 435 rings, 2,848 straight (2,895 mm) / 1,049 curved (1,475 mm); tb 5 rings, 118 straight (188 mm) / 9 curved (14.3 mm)
+- **Centre lines:** 5,992 paths (74 closed); straight 7,856 mm, curved 267 mm; horizontal 3,136 mm, vertical 1,786 mm, diagonal 2,934 mm
+- **Circles and arcs:** 2 circles, 82 arcs; largest r 1.4 @ (270.6, 160.1), r 0.9 @ (214.7, 304.4)
+- **Closed boxes:** 11 (1 in the title block); named: 25
+- **Dots (junctions):** 2
+- **Words (OCR):** 110 in 102 lines: Channel on E 5 · crz · iook · 2K2 · (ri · E6 · R+0 · CUT Control · 704 · 620 · Rs4 · c3i
+- **Title block:** (231, 0)–(289, 55) mm: Essu DATE · WBS · Tr; 9/83 · IR · CKD · SCALE
+- **Wiring (first pass):** 97 connected wire groups from 564 runs; labelled ends: 298 mm → 612; 187 mm → R23, 22k, R2s, Rze; 118 mm → R23, 22k, R24, 22K; 104 mm → R3?, 2-2/25; 86 mm → R 37, 25
+
+Every curve, box, word and wire group: [1983 - M490L - 12-02-002 - CONTROL CIB RJI LOOP (traced).json](1983%20-%20M490L%20-%2012-02-002%20-%20CONTROL%20CIB%20RJI%20LOOP%20%28traced%29.json) (the CAD file: `1983 - M490L - 12-02-002 - CONTROL CIB RJI LOOP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

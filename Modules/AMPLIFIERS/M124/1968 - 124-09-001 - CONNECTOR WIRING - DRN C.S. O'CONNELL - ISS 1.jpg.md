@@ -27,6 +27,20 @@ Wiki page: [M124](../../../PAGES/M124.md)
 
 - **1968** (labelled): `DATE Aug 68` — …om loutput +48v C.5,0COnNELL FINISH DRN WARD BECKSYSTES LiD DATE Aug 68 MATERIAL M124 CONNECTOR CHKD WIRING SCALE ToLs FRTCT {1 DEC…
 
+## Vectors (traced)
+
+- **Sheet:** wiring B 124-09-001, size B 432 × 285 mm, 2000 × 1320 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–281 mm up
+- **Outlines:** line 1,816 rings, 18,334 straight (16,129 mm) / 3,269 curved (3,749 mm); text 332 rings, 2,788 straight (2,710 mm) / 785 curved (1,046 mm); tb 65 rings, 384 straight (288 mm) / 63 curved (65.0 mm)
+- **Centre lines:** 33,034 paths (205 closed); straight 15,982 mm, curved 595 mm; horizontal 3,692 mm, vertical 4,460 mm, diagonal 7,830 mm
+- **Circles and arcs:** 19 circles, 38 arcs; largest r 4.1 @ (171.0, 241.9), r 4.0 @ (48.7, 242.1), r 4.0 @ (48.7, 54.7), r 4.0 @ (48.5, 68.0)
+- **Closed boxes:** 2 (1 in the title block)
+- **Words (OCR):** 57 in 35 lines: INPUT i50n · INPUT 37.5 n · IINPUT 600n · Jsee note · INPUT SHIELD · GAIN SET RESISTOR · NOIE? · CUE To · TRANSFORMER PHAse reverSal · on 600 f · StrApPinG Pin 19 · considered
+- **Title block:** (179, 8)–(353, 56) mm: FINISH · WARD · DRN C.5,OCONNELL · DATE Aug · 68 · M124 · CHKD · MATERIAL · SCALE · TOLS
+- **Wiring (first pass):** 100 connected wire groups from 608 runs; labelled ends: 94 mm → IINPUT 600n, Jsee; 47 mm → +48v; 26 mm → NOIE?, CUE, To, TRANSFORMER; 26 mm → INPUT i50n; 23 mm → CONNECTOR, WIRING, ISS_
+
+Every curve, box, word and wire group: [1968 - 124-09-001 - CONNECTOR WIRING - DRN C.S. O'CONNELL - ISS 1 (traced).json](1968%20-%20124-09-001%20-%20CONNECTOR%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1968 - 124-09-001 - CONNECTOR WIRING - DRN C.S. O'CONNELL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

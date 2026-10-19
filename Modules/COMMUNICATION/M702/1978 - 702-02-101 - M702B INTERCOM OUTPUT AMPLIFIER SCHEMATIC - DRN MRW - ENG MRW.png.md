@@ -23,6 +23,20 @@ Wiki page: [M702](../../../PAGES/M702.md)
 - **Size:** 697,897 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 702-02-101, size D 864 × 611 mm, 2000 × 1414 px traced (0.432 mm/px)
+- **Ink extent:** 7–864 mm across, 15–589 mm up
+- **Outlines:** line 820 rings, 7,847 straight (28,855 mm) / 1,740 curved (4,075 mm); text 405 rings, 2,523 straight (4,257 mm) / 814 curved (1,910 mm); tb 15 rings, 140 straight (333 mm) / 35 curved (93.9 mm)
+- **Centre lines:** 10,979 paths (295 closed); straight 20,202 mm, curved 455 mm; horizontal 7,227 mm, vertical 5,656 mm, diagonal 7,318 mm
+- **Circles and arcs:** 5 circles, 69 arcs; largest r 4.1 @ (786.0, 44.3), r 3.7 @ (503.9, 450.5), r 2.1 @ (327.2, 134.5), r 1.7 @ (808.8, 64.1)
+- **Closed boxes:** 31 (5 in the title block); named: 702-02-I01
+- **Words (OCR):** 80 in 74 lines: LOTES · ALL Resistors ARE · CAPACiTORS · Unless · DesisnaTed OtheR · 6223,CR2o7 · Ds 201 · deSIhAT · R 235, 02o4 · LSE · 3-114 · R22z
+- **Title block:** (739, 69)–(864, 113) mm: 4/o · DaTE · WBS · WARO-Beck Syst · M7028
+- **Wiring (first pass):** 128 connected wire groups from 1,258 runs; labelled ends: 1090 mm → WBS, SCHEMATiIC; 343 mm → 22/25; 342 mm → Urol-e, R?ia; 327 mm → nok; 276 mm → R2s2, C1os, 22/25
+
+Every curve, box, word and wire group: [1978 - 702-02-101 - M702B INTERCOM OUTPUT AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW (traced).json](1978%20-%20702-02-101%20-%20M702B%20INTERCOM%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20%28traced%29.json) (the CAD file: `1978 - 702-02-101 - M702B INTERCOM OUTPUT AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

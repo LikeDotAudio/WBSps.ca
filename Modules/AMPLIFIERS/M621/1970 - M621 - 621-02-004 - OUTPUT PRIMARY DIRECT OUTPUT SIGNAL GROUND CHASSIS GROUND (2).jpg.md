@@ -11,6 +11,21 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 17,930,449 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-004, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 0–138 mm up
+- **Outlines:** line 948 rings, 7,233 straight (11,980 mm) / 1,379 curved (1,811 mm); text 192 rings, 1,060 straight (916 mm) / 327 curved (413 mm); tb 9 rings, 97 straight (128 mm) / 21 curved (25.8 mm)
+- **Centre lines:** 7,726 paths (132 closed); straight 7,668 mm, curved 237 mm; horizontal 3,116 mm, vertical 2,286 mm, diagonal 2,266 mm
+- **Circles and arcs:** 20 circles, 43 arcs; largest r 1.2 @ (381.8, 77.0), r 1.2 @ (311.6, 81.6), r 1.2 @ (391.3, 77.3), r 1.2 @ (348.2, 87.2)
+- **Closed boxes:** 38 (1 in the title block); named: WSED ON
+- **Dots (junctions):** 5
+- **Words (OCR):** 26 in 22 lines: OUTPUT TRANSFORMER CONNEC IONS · OHM · OHM · 600 OfM · OHM · OHM · 163 · inpuc · TCGETHLF · STRAP TOGETNER · JIRFCT · Gacuyn
+- **Title block:** (345, 17)–(420, 27) mm: WBS · WAAD-beck byeteme LTD
+- **Wiring (first pass):** 91 connected wire groups from 597 runs, 5 dotted junctions; labelled ends: 51 mm → IONS; 47 mm → inpuc; 36 mm → OHM; 32 mm → 163; 24 mm → WBS
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND (2) (traced).json](1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND%20%282%29%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

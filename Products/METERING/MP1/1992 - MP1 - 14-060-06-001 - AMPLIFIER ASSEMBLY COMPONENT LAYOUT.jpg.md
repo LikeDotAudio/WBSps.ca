@@ -11,6 +11,18 @@ Wiki page: [MP1](../../../PAGES/MP1.md)
 - **Size:** 986,130 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-060-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–314 mm across, 20–366 mm up
+- **Outlines:** line 757 rings, 5,753 straight (7,225 mm) / 1,806 curved (1,967 mm); text 462 rings, 3,214 straight (3,067 mm) / 1,168 curved (1,333 mm); tb 26 rings, 225 straight (326 mm) / 72 curved (86.2 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 10.0 @ (58.5, 228.2), r 10.0 @ (114.4, 228.1), r 4.6 @ (150.3, 194.1), r 4.0 @ (114.5, 228.0)
+- **Closed boxes:** 16 (2 in the title block); named: SET 2% THLD * SET 3* S"8 SET SET SET SET
+- **Words (OCR):** 42 in 29 lines: S"8 · THLD * · SET 2% SET 3* SET SET SET SET · STRAP · 132141 · 22228 · 824222229 · 814134861 · 3 8 [Lejsen · LFSSSBN · II · 2N3906
+- **Title block:** (63, 48)–(321, 196) mm: 14-060 · 47/16 · ISSUE · WBS WARD-BECK SYSTEMS · SA14-060
+
+Every curve, box, word and wire group: [1992 - MP1 - 14-060-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).json](1992%20-%20MP1%20-%2014-060-06-001%20-%20AMPLIFIER%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1992 - MP1 - 14-060-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

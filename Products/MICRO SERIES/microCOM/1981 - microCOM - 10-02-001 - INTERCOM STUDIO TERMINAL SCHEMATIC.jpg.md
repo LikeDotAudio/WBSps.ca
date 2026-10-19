@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,750,791 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 10-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–427 mm across, 0–287 mm up
+- **Outlines:** line 1,428 rings, 11,752 straight (17,289 mm) / 2,389 curved (2,893 mm); text 314 rings, 2,044 straight (1,680 mm) / 595 curved (724 mm)
+- **Centre lines:** 15,181 paths (237 closed); straight 11,939 mm, curved 85.1 mm; horizontal 4,690 mm, vertical 3,218 mm, diagonal 4,032 mm
+- **Circles and arcs:** 3 circles, 24 arcs; largest r 2.2 @ (238.6, 244.5), r 1.2 @ (395.7, 23.8), r 1.1 @ (400.0, 18.1)
+- **Closed boxes:** 10
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 167 connected wire groups from 1,267 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 10-02-001 - INTERCOM STUDIO TERMINAL SCHEMATIC (traced).json](1981%20-%20microCOM%20-%2010-02-001%20-%20INTERCOM%20STUDIO%20TERMINAL%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1981 - microCOM - 10-02-001 - INTERCOM STUDIO TERMINAL SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M610](../../../PAGES/M610.md)
 - **Size:** 699,657 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 610-02-004, size B (assumed) 432 × 338 mm, 2000 × 1568 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–424 mm across, 3–338 mm up
+- **Outlines:** line 741 rings, 6,626 straight (9,841 mm) / 1,278 curved (1,832 mm); text 170 rings, 1,730 straight (2,184 mm) / 421 curved (743 mm)
+- **Centre lines:** 3,151 paths (74 closed); straight 6,354 mm, curved 380 mm; horizontal 2,528 mm, vertical 1,476 mm, diagonal 2,349 mm
+- **Circles and arcs:** 20 circles, 30 arcs; largest r 2.9 @ (111.1, 176.2), r 2.9 @ (79.7, 136.4), r 2.9 @ (110.8, 106.4), r 2.9 @ (111.3, 156.4)
+- **Closed boxes:** 1
+- **Wiring (first pass):** 47 connected wire groups from 350 runs
+
+Every curve, box, word and wire group: [19xx - M610 - 610-02-004 - MEIO EXT MUTE CONTROL (traced).json](19xx%20-%20M610%20-%20610-02-004%20-%20MEIO%20EXT%20MUTE%20CONTROL%20%28traced%29.json) (the CAD file: `19xx - M610 - 610-02-004 - MEIO EXT MUTE CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

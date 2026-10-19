@@ -21,6 +21,19 @@ Wiki page: [Job-940449](../../../PAGES/Job-940449.md)
 - **Size:** 347,304 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940449-03-005, size D 864 × 557 mm, 2000 × 1290 px traced (0.432 mm/px)
+- **Ink extent:** 69–862 mm across, 12–551 mm up
+- **Outlines:** line 373 rings, 2,725 straight (14,851 mm) / 470 curved (1,084 mm); text 224 rings, 1,366 straight (2,645 mm) / 424 curved (1,073 mm); tb 15 rings, 125 straight (318 mm) / 26 curved (55.7 mm)
+- **Centre lines:** 4,600 paths (124 closed); straight 10,453 mm, curved 20.4 mm; horizontal 5,372 mm, vertical 2,366 mm, diagonal 2,715 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 38 (2 in the title block); named: CONTROL RoOM  TURRET FRONT PANEL; 940449-03-005
+- **Words (OCR):** 28 in 25 lines: INS4T · OTHFR SDE · 16710 · PITCHES · 7.505 15 |10 · Rzo d · 0j00 · 0,680 · 3760 · 2303 · MATERIAL: · ALUM ALLOY 0.125 THICK:
+- **Title block:** (687, 43)–(856, 76) mm: WBS · WARD-BECK SYSTEMS · CrC ?/95)
+
+Every curve, box, word and wire group: [1995 - 940449-03-005 - CONTROL ROOM TURRET FRONT PANEL - DRN DRG - ISS 1 (traced).json](1995%20-%20940449-03-005%20-%20CONTROL%20ROOM%20TURRET%20FRONT%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 940449-03-005 - CONTROL ROOM TURRET FRONT PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -11,6 +11,21 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 41,113,884 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-020, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 12–279 mm up
+- **Outlines:** line 1,619 rings, 14,375 straight (23,944 mm) / 2,671 curved (3,112 mm); text 658 rings, 4,304 straight (3,150 mm) / 1,042 curved (1,162 mm); tb 2 rings, 40 straight (96.2 mm) / 1 curved (0.9 mm)
+- **Centre lines:** 15,901 paths (533 closed); straight 15,567 mm, curved 151 mm; horizontal 6,324 mm, vertical 4,316 mm, diagonal 4,926 mm
+- **Circles and arcs:** 4 circles, 19 arcs; largest r 2.6 @ (153.9, 82.5), r 1.9 @ (6.8, 68.7), r 1.6 @ (302.2, 90.3), r 1.1 @ (78.2, 89.6)
+- **Closed boxes:** 40; named: Coc9"g; Cdzoie; TLCtt; 7CRI= T47/25; ICOK; 74czin; 7LCIA4
+- **Dots (junctions):** 2
+- **Words (OCR):** 154 in 135 lines: WPMT SelecboR · NSCA · EaiEiaa · RICAT · Steafo PAEiHPI · CHANREL · CHARNEL · hputs · R88 · ioo · Kxing Buses · outpute
+- **Title block:** (342, 34)–(431, 50) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 192 connected wire groups from 1,429 runs; labelled ends: 225 mm → "4074, ILCICR, 1882, 74w 7; 191 mm → J2, Trzi02, J0/25, FlUNO; 121 mm → 1CR3Us, 22/25, Rok, 77/25; 99 mm → ALSAN, 4s5iC; 92 mm → 18, JJ/I6
+
+Every curve, box, word and wire group: [1990 - 900438 - 490-02-020 - SPECIF IED LAST COMPC NENT DESIGNAT IONS ATTI (traced).json](1990%20-%20900438%20-%20490-02-020%20-%20SPECIF%20IED%20LAST%20COMPC%20NENT%20DESIGNAT%20IONS%20ATTI%20%28traced%29.json) (the CAD file: `1990 - 900438 - 490-02-020 - SPECIF IED LAST COMPC NENT DESIGNAT IONS ATTI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

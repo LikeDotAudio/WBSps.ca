@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,547,923 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940443-03-010, size B (assumed) 432 × 281 mm, 2000 × 1301 px traced (0.216 mm/px)
+- **Ink extent:** 14–424 mm across, 7–280 mm up
+- **Outlines:** line 776 rings, 5,695 straight (13,450 mm) / 1,175 curved (1,881 mm); text 339 rings, 1,986 straight (1,651 mm) / 673 curved (817 mm); tb 16 rings, 141 straight (172 mm) / 24 curved (24.2 mm)
+- **Centre lines:** 9,999 paths (234 closed); straight 9,306 mm, curved 484 mm; horizontal 4,140 mm, vertical 1,840 mm, diagonal 3,326 mm
+- **Circles and arcs:** 7 circles, 13 arcs; largest r 64.3 @ (101.3, 81.5), r 3.2 @ (177.3, 210.2), r 3.2 @ (190.1, 210.2), r 3.2 @ (202.8, 203.2)
+- **Closed boxes:** 15 (3 in the title block); named: IKR-4A PANEL; Stsd1
+- **Dots (junctions):** 2
+- **Words (OCR):** 53 in 49 lines: 16.710 · PTCHEC · PUNCH · 856 · CCRPEREL · 0.Z00 · OTHER · RREOE · 0.548 · 0,6nj · 1.719 · 0.626
+- **Title block:** (345, 23)–(430, 43) mm: DATE · WBS · WARD-BECK   SYSTEMS · DRC(5/95)
+
+Every curve, box, word and wire group: [1994 - 940443 - DOC - 940443-03-010 - REMOVE ALL BURRS AND SHARP EOGES TOLERANCES (traced).json](1994%20-%20940443%20-%20DOC%20-%20940443-03-010%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EOGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - 940443 - DOC - 940443-03-010 - REMOVE ALL BURRS AND SHARP EOGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -23,6 +23,19 @@ Mechanical drawing of a removable bottom pan with vent slots.
 - **Size:** 494,248 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-212, size D 864 × 558 mm, 2000 × 1292 px traced (0.432 mm/px); scale DISC ND
+- **Ink extent:** 38–862 mm across, 1–522 mm up
+- **Outlines:** line 763 rings, 5,923 straight (35,778 mm) / 1,052 curved (2,836 mm); text 316 rings, 1,813 straight (3,473 mm) / 537 curved (1,361 mm); tb 42 rings, 298 straight (597 mm) / 82 curved (192 mm)
+- **Centre lines:** 6,579 paths (247 closed); straight 22,389 mm, curved 247 mm; horizontal 8,921 mm, vertical 8,234 mm, diagonal 5,234 mm
+- **Circles and arcs:** 1 circles, 30 arcs; largest r 1.8 @ (707.3, 189.0)
+- **Closed boxes:** 154 (10 in the title block); named: VODULE COUNT; 7554; 13,973; 76.017; 41075
+- **Words (OCR):** 34 in 27 lines: (D) RLQ · HOTC · REQCCORDNGLY · DATL · TOTAL CACUP' · REC D · MATERIAL: ALUK ALLOY · ThICK · PART NuMBER VODULE COUNT · 7554 · 13,973 · FINISH: SAND 120 GRIT AND PAINT
+- **Title block:** (664, 12)–(840, 80) mm: WBS · WARD-BECK SYSTEMS · EQUALIZER MK SERIES · BOTTOM · PAN (REMOVABLE) · SCALE DISC ND · COLC: · 900-03-212
+
+Every curve, box, word and wire group: [19xx - 900-03-212 - EQUALIZER MK SERIES BOTTOM PAN (REMOVABLE) - DRN DRG - ISS 1 (traced).json](19xx%20-%20900-03-212%20-%20EQUALIZER%20MK%20SERIES%20BOTTOM%20PAN%20%28REMOVABLE%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-212 - EQUALIZER MK SERIES BOTTOM PAN (REMOVABLE) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

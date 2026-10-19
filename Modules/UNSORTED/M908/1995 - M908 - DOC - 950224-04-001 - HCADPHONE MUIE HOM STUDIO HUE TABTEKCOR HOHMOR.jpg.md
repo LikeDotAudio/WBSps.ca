@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,912,383 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950224-04-001, size B (assumed) 432 × 354 mm, 2000 × 1639 px traced (0.216 mm/px); scale DISC NO: SYSQ1
+- **Ink extent:** 35–429 mm across, 4–331 mm up
+- **Outlines:** line 1,636 rings, 12,805 straight (38,080 mm) / 1,575 curved (2,029 mm); text 497 rings, 3,184 straight (3,371 mm) / 1,052 curved (1,400 mm); tb 19 rings, 410 straight (1,936 mm) / 10 curved (15.3 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 6.8 @ (382.6, 131.9), r 6.7 @ (383.0, 105.2), r 1.9 @ (384.8, 134.4), r 1.8 @ (393.6, 153.6)
+- **Closed boxes:** 202; named: M9OSB; HEADPHONES HON CunnT STUDIO; HEopHONES HOM MUIE STUDIO; TAbtekcor?
+- **Dots (junctions):** 37
+- **Words (OCR):** 89 in 75 lines: CH · CH · CH · 10 CH 11 · CH 12 · CH 13 CH 14 · CH 15 · CH 16 · CR MON STD MON · METER · CH · CH
+- **Title block:** (295, 4)–(432, 64) mm: IISSUE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRN: WKW · FANSHAWE COLLEGE · ENG · WKW · CKD_ · MKII · CONSOLE · LA YOUT · APP · ISSUE · SCALE DISC NO: SYSQ1 · 950224-04-001 · CODE: 95224L01
+
+Every curve, box, word and wire group: [1995 - M908 - DOC - 950224-04-001 - HCADPHONE MUIE HOM STUDIO HUE TABTEKCOR HOHMOR (traced).json](1995%20-%20M908%20-%20DOC%20-%20950224-04-001%20-%20HCADPHONE%20MUIE%20HOM%20STUDIO%20HUE%20TABTEKCOR%20HOHMOR%20%28traced%29.json) (the CAD file: `1995 - M908 - DOC - 950224-04-001 - HCADPHONE MUIE HOM STUDIO HUE TABTEKCOR HOHMOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -24,6 +24,19 @@ Wiki page: [M526](../../../PAGES/M526.md)
 - **Size:** 1,292,255 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 526-03-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: M5oo-1
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 173 rings, 2,286 straight (6,748 mm) / 222 curved (298 mm); text 655 rings, 3,855 straight (4,423 mm) / 1,367 curved (1,976 mm); tb 5 rings, 128 straight (213 mm) / 14 curved (25.0 mm)
+- **Centre lines:** 3,908 paths (136 closed); straight 6,812 mm, curved 19.7 mm; horizontal 3,049 mm, vertical 1,522 mm, diagonal 2,242 mm
+- **Circles and arcs:** 1 circles, 3 arcs; largest r 1.0 @ (141.3, 71.2)
+- **Closed boxes:** 16 (11 in the title block); named: 526-03-006; ISSUE; SCALE 1/1; CODE: Mm526-6
+- **Words (OCR):** 57 in 45 lines: 4957 · +0,000 · 0.005 · +0.009 · 2.246 · 2.360 · NOTES: · Tolerances: · =+/-.015 · xxx=+/-.005 · 0.057 · TYP
+- **Title block:** (254, 32)–(425, 100) mm: ISSUE DATE · REVISION · APP · WARD-BECK SYSTEMS · WBSS · DRN: · BD   2 /87 · ENG. MRW 2/87 · M526 · Front Panel Display Screens · CKD: · APP. · SCALE DISC NO: M5oo-1 · 526-03-006 · ISSUE · 1/1 CODE: M
+
+Every curve, box, word and wire group: [1987 - 526-03-006 - Front Panel Display Screens - DRN BD - ENG MRW - ISS 1 (traced).json](1987%20-%20526-03-006%20-%20Front%20Panel%20Display%20Screens%20-%20DRN%20BD%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 526-03-006 - Front Panel Display Screens - DRN BD - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

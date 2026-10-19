@@ -11,6 +11,16 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,099,259 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 81 rings, 3,548 straight (12,200 mm) / 293 curved (452 mm); text 143 rings, 1,033 straight (975 mm) / 322 curved (412 mm)
+- **Closed boxes:** 4
+- **Words (OCR):** 30 in 30 lines: TB3 · 1BA · IB5 · T86 · 787 · TB8 · 189 · SPARE JF · UINE · INPUTS · LINE · INPUTS
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-004 - UNE LINE MIC MIC SPARE SPARE INPUTS INPUTS (traced).json](1988%20-%20880134%20-%20880134-04-004%20-%20UNE%20LINE%20MIC%20MIC%20SPARE%20SPARE%20INPUTS%20INPUTS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-004 - UNE LINE MIC MIC SPARE SPARE INPUTS INPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

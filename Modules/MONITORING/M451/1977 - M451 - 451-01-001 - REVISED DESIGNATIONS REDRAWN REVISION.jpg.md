@@ -15,6 +15,20 @@ Wiki page: [M451](../../../PAGES/M451.md)
 
 - **1977** (labelled): `REVISION 9/77` — …JUMPER 25 Hz OSC OSC CTL 10/77 REVISED DESIGNATIONS REDRAWN REVISION 9/77 Lr APP ISSUE DATE WBS WARD-BECK SYSTEMs DRN PMMONEY ENG . R…
 
+## Vectors (traced)
+
+- **Sheet:** functional 451-01-001, size B (assumed) 432 × 296 mm, 2000 × 1370 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–235 mm up
+- **Outlines:** line 172 rings, 2,059 straight (7,122 mm) / 279 curved (444 mm); text 444 rings, 3,089 straight (3,750 mm) / 898 curved (1,358 mm); tb 16 rings, 164 straight (328 mm) / 38 curved (58.7 mm)
+- **Centre lines:** 3,564 paths (78 closed); straight 6,321 mm, curved 59.2 mm; horizontal 2,417 mm, vertical 1,648 mm, diagonal 2,256 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 13 (9 in the title block); named: COMP; 25 Hz OSC; 10/77
+- **Words (OCR):** 65 in 62 lines: AUDIO · Mic INPUT · CONTROL · 70 dBm · PRE · 150 OHMS · TB · AUDIO · LEVEL · CONTROL · OUtPuts · Mic
+- **Title block:** (274, 0)–(432, 81) mm: 10/77 · REVISED · DESIGNATIONS · 9/77 · REDRAWN · Lr · ISSUE |DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRNPMAL · M451 · ENG_ RKB · Rul · TALKBACK MODULE · CKD · FUNCTIONAL DIAGRAM · APP · SCA
+- **Wiring (first pass):** 109 connected wire groups from 231 runs; labelled ends: 156 mm → LEVEL; 151 mm → INSERT, +8 dBm; 98 mm → 10/77, Lr; 52 mm → BST, LEVEL; 44 mm → 25 Hz, OSC
+
+Every curve, box, word and wire group: [1977 - M451 - 451-01-001 - REVISED DESIGNATIONS REDRAWN REVISION (traced).json](1977%20-%20M451%20-%20451-01-001%20-%20REVISED%20DESIGNATIONS%20REDRAWN%20REVISION%20%28traced%29.json) (the CAD file: `1977 - M451 - 451-01-001 - REVISED DESIGNATIONS REDRAWN REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

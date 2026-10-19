@@ -22,6 +22,20 @@ PPM/VU meter panel wiring schematic, cropped.
 - **Size:** 450,172 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8100-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 3–432 mm up
+- **Outlines:** line 311 rings, 4,158 straight (9,170 mm) / 603 curved (876 mm); text 483 rings, 4,461 straight (5,837 mm) / 999 curved (1,574 mm); tb 2 rings, 52 straight (141 mm) / 3 curved (7.6 mm)
+- **Centre lines:** 6,189 paths (65 closed); straight 8,665 mm, curved 250 mm; horizontal 2,804 mm, vertical 2,780 mm, diagonal 3,081 mm
+- **Circles and arcs:** 10 circles, 19 arcs; largest r 4.4 @ (62.1, 375.1), r 3.9 @ (46.2, 161.3), r 3.9 @ (34.3, 161.2), r 3.8 @ (58.0, 161.2)
+- **Closed boxes:** 10
+- **Words (OCR):** 69 in 34 lines: M433L PPM · 543WL VU · 910 · 8K2 · 3k6 (_4dB) · P1-2 · 101 · 2K · 12 · METER #3 METER · NQTES: · METERS #1 TO #4 ILLUSTRATE THE WIRING REQUIRED FOR THE
+- **Title block:** (202, 47)–(325, 72) mm: WARD-BECK · SYSTEMS · WBS · MP1 To MP4
+- **Wiring (first pass):** 119 connected wire groups from 254 runs; labelled ends: 825 mm → 910, 8K2, (_4dB), 2K; 49 mm → P1-2; 32 mm → METER #3, METER; 31 mm → METER #3, METER; 31 mm → 101
+
+Every curve, box, word and wire group: [19xx - 8100-02-001 - TO MP4 PPM VU METER PANEL SCHEMATIC - ISS 2 (traced).json](19xx%20-%208100-02-001%20-%20TO%20MP4%20PPM%20VU%20METER%20PANEL%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 8100-02-001 - TO MP4 PPM VU METER PANEL SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

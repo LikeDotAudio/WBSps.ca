@@ -21,6 +21,19 @@ Wiki page: [M901A](../../../PAGES/M901A.md)
 - **Size:** 586,320 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 901-03-004, size D 864 × 569 mm, 2000 × 1317 px traced (0.432 mm/px)
+- **Ink extent:** 108–858 mm across, 7–540 mm up
+- **Outlines:** line 726 rings, 4,925 straight (23,774 mm) / 1,058 curved (3,670 mm); text 385 rings, 2,318 straight (4,358 mm) / 741 curved (1,841 mm); tb 14 rings, 133 straight (338 mm) / 21 curved (45.2 mm)
+- **Centre lines:** 10,290 paths (221 closed); straight 17,789 mm, curved 1,111 mm; horizontal 5,062 mm, vertical 5,829 mm, diagonal 6,898 mm
+- **Circles and arcs:** 15 circles, 16 arcs; largest r 130.3 @ (715.0, 387.5), r 3.8 @ (424.8, 491.9), r 3.7 @ (424.2, 85.6), r 3.7 @ (209.8, 85.3)
+- **Closed boxes:** 63 (4 in the title block); named: M9O1A UNIVERSAL INPUT MODULE; 901-03-004
+- **Words (OCR):** 58 in 48 lines: 933 · REC D · (00+ Rad CorpEREL · DUNCH 0 JE D · 0.50d · 2452 · 2.,242 · APPROC · 2002 · 0.203 DA REC D · P1+ · GHCEWTATION
+- **Title block:** (698, 53)–(864, 96) mm: ISSuEDAI · WBS) · WARD-BECK SYSTEMS · M9O1A
+
+Every curve, box, word and wire group: [19xx - 901-03-004 - UNIVERSAL INPUT MODULE - DRN DRG - ISS 3 (traced).json](19xx%20-%20901-03-004%20-%20UNIVERSAL%20INPUT%20MODULE%20-%20DRN%20DRG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 901-03-004 - UNIVERSAL INPUT MODULE - DRN DRG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

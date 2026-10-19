@@ -14,6 +14,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 
 - **1979** (labelled): `DATE AUg 79` — …UNiTS ISS MOD ICKD: USED ON MATL . WBS WAAD-BECK 8 DRN: Srh DATE AUg 79 CKD: Rc SCALE TCLS { L3242A Co Bx / LINE SELECTORS & A SCHE…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-005, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–289 mm up
+- **Outlines:** line 502 rings, 7,317 straight (9,662 mm) / 1,021 curved (1,207 mm); text 268 rings, 1,867 straight (2,023 mm) / 642 curved (895 mm); tb 16 rings, 155 straight (294 mm) / 20 curved (32.6 mm)
+- **Centre lines:** 11,900 paths (77 closed); straight 8,427 mm, curved 92.4 mm; horizontal 3,514 mm, vertical 1,814 mm, diagonal 3,100 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 31 (27 in the title block); named: FINISH
+- **Words (OCR):** 49 in 42 lines: M467 · M462B · E8 · NoISE GATE · I5u6 · EQUALIZER · (5.16 · 20 · 20 · 620 · 20 · 19
+- **Title block:** (194, 9)–(431, 60) mm: ISS MOD CKD: · USED ON · MATL . · WBS WAAD-BECK · DRN: Srh · L3242A Co · DATE AUg 79 · FINISH · Bx / LINE SELECTORS & A · CKD. · Rc · SCHEMA · SCALE · TCLS · 790236- 02
+- **Wiring (first pass):** 24 connected wire groups from 252 runs; labelled ends: 239 mm → 20, Coh, +25v, -25v; 150 mm → (5.16, 20, 19, 26; 41 mm → EQUALIZER, 19; 36 mm → EQUALIZER; 31 mm → I5u6
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-005 - CONSOLE WIRED CONSOLE WIRED FOR THREE UNITS FOR (traced).json](1979%20-%20790236%20-%20790236-02-005%20-%20CONSOLE%20WIRED%20CONSOLE%20WIRED%20FOR%20THREE%20UNITS%20FOR%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-005 - CONSOLE WIRED CONSOLE WIRED FOR THREE UNITS FOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

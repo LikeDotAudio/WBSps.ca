@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,734,652 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 940238-02-080, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–414 mm across, 19–303 mm up
+- **Outlines:** line 645 rings, 6,720 straight (12,517 mm) / 1,551 curved (1,910 mm); text 150 rings, 867 straight (713 mm) / 332 curved (403 mm)
+- **Centre lines:** 8,062 paths (102 closed); straight 8,008 mm, curved 241 mm; horizontal 2,939 mm, vertical 2,697 mm, diagonal 2,371 mm
+- **Circles and arcs:** 6 circles, 39 arcs; largest r 3.9 @ (96.7, 194.2), r 3.9 @ (91.7, 203.4), r 1.2 @ (385.4, 57.7), r 1.0 @ (386.1, 39.7)
+- **Closed boxes:** 51
+- **Wiring (first pass):** 57 connected wire groups from 781 runs
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940238-02-080 - MIOINW METER-MIX-MINUS MODULE SCHEMATIC (traced).json](1994%20-%20Renaisance%20-%20940238-02-080%20-%20MIOINW%20METER-MIX-MINUS%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940238-02-080 - MIOINW METER-MIX-MINUS MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

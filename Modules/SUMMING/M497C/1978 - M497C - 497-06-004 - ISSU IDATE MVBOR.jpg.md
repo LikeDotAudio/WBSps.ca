@@ -11,6 +11,19 @@ Wiki page: [M497C](../../../PAGES/M497C.md)
 - **Size:** 843,111 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 497-06-004, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 1–432 mm up
+- **Outlines:** line 427 rings, 6,576 straight (11,671 mm) / 2,026 curved (2,058 mm); text 405 rings, 3,706 straight (3,537 mm) / 1,185 curved (1,351 mm); tb 36 rings, 538 straight (737 mm) / 128 curved (144 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.5 @ (37.3, 311.6), r 6.2 @ (130.5, 337.8), r 3.2 @ (59.3, 122.2), r 3.0 @ (58.5, 274.9)
+- **Closed boxes:** 25 (5 in the title block); named: 24 LboI; 25 LASI; Z6 Lmsoi; WBS; M497C Module DUAL MASTER COMPONENT LAYOU; 497-06-004
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 58 lines: LR7E · ~cs230/6 · 339/6 (29 · Riijs · ~C626 · R22 920 R28-420 · Zp · ~Ci842p · 24 · Rig · 25 · Z6
+- **Title block:** (71, 16)–(241, 158) mm: WBS · CANADA · 7-113 · Pn3ska · Qi · WBS · Drn: 03 · 06., PA · CKD
+
+Every curve, box, word and wire group: [1978 - M497C - 497-06-004 - ISSU IDATE MVBOR (traced).json](1978%20-%20M497C%20-%20497-06-004%20-%20ISSU%20IDATE%20MVBOR%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-06-004 - ISSU IDATE MVBOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

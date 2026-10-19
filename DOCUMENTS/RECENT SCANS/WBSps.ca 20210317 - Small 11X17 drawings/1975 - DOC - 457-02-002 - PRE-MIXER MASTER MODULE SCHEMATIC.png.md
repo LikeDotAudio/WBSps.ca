@@ -18,6 +18,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1975** (labelled): `DATE MAR 75` — …ON MATL . WBS WARD-BECK BYSTEMS LTD. C4 22/25 ~18v DRN: DM DATE MAR 75 CKD Relu SCALE TOLS T M457A PRE-MIXER MASTER MODULE SCHEMAT…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 457-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–298 mm up
+- **Outlines:** line 483 rings, 8,029 straight (15,679 mm) / 1,097 curved (1,419 mm); text 954 rings, 5,983 straight (6,320 mm) / 2,105 curved (2,832 mm); tb 35 rings, 277 straight (429 mm) / 52 curved (74.7 mm)
+- **Centre lines:** 11,174 paths (156 closed); straight 13,709 mm, curved 156 mm; horizontal 4,979 mm, vertical 3,353 mm, diagonal 5,377 mm
+- **Circles and arcs:** 2 circles, 51 arcs; largest r 0.9 @ (94.8, 118.9), r 0.9 @ (102.6, 108.4)
+- **Closed boxes:** 27 (19 in the title block); named: E9 5-1018 DUAL BOOSTER AMpLiFiER E5 E8 E; FINISH; TOLS
+- **Words (OCR):** 163 in 148 lines: dHce · R97 · C45 · 620 · Swg · Aix · 25 · EXT · LM:oi · MiX · R95 · 4k7
+- **Title block:** (151, 18)–(377, 67) mm: USED ON · MATL_ · ISS. MOD: CKD · WBS · WARD-BECK · 31431 Xk · DRN_ · DM · M457A · DATE MAR · 75 PRE-MIXER · FINISH · CKD · Rell · SCHEMATIC · SCALE · 457-02-002 · TOLS
+- **Wiring (first pass):** 115 connected wire groups from 492 runs; labelled ends: 255 mm → dHce; 205 mm → PRE-MIXER, SCHEMATIC, 457-02-002, TOLS; 169 mm → E8; 113 mm → Riotg, IHoe, tI8v, 28; 112 mm → R99g, ISk, IHor, +I8v
+
+Every curve, box, word and wire group: [1975 - DOC - 457-02-002 - PRE-MIXER MASTER MODULE SCHEMATIC (traced).json](1975%20-%20DOC%20-%20457-02-002%20-%20PRE-MIXER%20MASTER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1975 - DOC - 457-02-002 - PRE-MIXER MASTER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

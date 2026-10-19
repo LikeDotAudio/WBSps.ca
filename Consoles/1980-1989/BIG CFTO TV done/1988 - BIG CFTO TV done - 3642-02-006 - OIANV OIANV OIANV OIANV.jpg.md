@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,316,203 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-006, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–305 mm across, 0–432 mm up
+- **Outlines:** line 562 rings, 6,161 straight (16,006 mm) / 819 curved (1,206 mm); text 127 rings, 736 straight (808 mm) / 257 curved (366 mm)
+- **Centre lines:** 3,230 paths (63 closed); straight 8,971 mm, curved 208 mm; horizontal 4,789 mm, vertical 2,726 mm, diagonal 1,456 mm
+- **Circles and arcs:** 1 circles, 49 arcs; largest r 0.9 @ (88.7, 2.1)
+- **Closed boxes:** 35
+- **Words (OCR):** 16 in 14 lines: oianv · oianv · oianv · oianv · 8'L · SE+n · 9E7n · 4-E gns · gns · ONOw- Zw · oianv · oianv
+- **Wiring (first pass):** 49 connected wire groups from 523 runs; labelled ends: 1155 mm → oianv; 1144 mm → oianv; 166 mm → 8'L; 17 mm → oianv; 17 mm → oianv
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-006 - OIANV OIANV OIANV OIANV (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20OIANV%20OIANV%20OIANV%20OIANV%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-006 - OIANV OIANV OIANV OIANV (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [M456](../../../PAGES/M456.md)
 - **Size:** 6,732,165 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 456-02-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 17–303 mm up
+- **Outlines:** line 1,747 rings, 18,100 straight (31,890 mm) / 3,639 curved (4,778 mm); text 1,738 rings, 9,265 straight (8,240 mm) / 2,866 curved (3,569 mm); tb 30 rings, 176 straight (152 mm) / 35 curved (39.9 mm)
+- **Centre lines:** 21,280 paths (413 closed); straight 23,598 mm, curved 806 mm; horizontal 8,185 mm, vertical 5,593 mm, diagonal 9,820 mm
+- **Circles and arcs:** 26 circles, 151 arcs; largest r 3.3 @ (160.8, 130.4), r 3.2 @ (161.6, 240.9), r 3.2 @ (161.2, 174.7), r 3.2 @ (160.6, 104.0)
+- **Closed boxes:** 14 (5 in the title block)
+- **Words (OCR):** 328 in 281 lines: Q-Q6 ana · afe Icknne · 410 · Ciz · 03 · DIR · OUT · Rat · Sw6 · 4t · R63 · IOp
+- **Title block:** (369, 32)–(432, 55) mm: ESSUDATE · WAAD-BECK systeMS · M456
+- **Wiring (first pass):** 287 connected wire groups from 1,648 runs; labelled ends: 266 mm → Ris, Rite, IRI7,, Ri73; 264 mm → 390; 222 mm → Ch ON, 2k5; 201 mm → 2k5_, 2k5, R4; 194 mm → Ch ON
+
+Every curve, box, word and wire group: [1975 - M456 - 456-02-001 - DUAL CKO MIXDOWN MODULE SCHEMATIC SCALF (traced).json](1975%20-%20M456%20-%20456-02-001%20-%20DUAL%20CKO%20MIXDOWN%20MODULE%20SCHEMATIC%20SCALF%20%28traced%29.json) (the CAD file: `1975 - M456 - 456-02-001 - DUAL CKO MIXDOWN MODULE SCHEMATIC SCALF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

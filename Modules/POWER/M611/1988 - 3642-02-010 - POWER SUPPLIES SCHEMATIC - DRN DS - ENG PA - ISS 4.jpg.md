@@ -26,6 +26,20 @@ Wiki page: [M611](../../../PAGES/M611.md)
 - **Size:** 10,934,679 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-010, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–558 mm up
+- **Outlines:** line 2,185 rings, 16,410 straight (45,140 mm) / 2,823 curved (6,343 mm); text 96 rings, 590 straight (1,245 mm) / 194 curved (515 mm); tb 83 rings, 590 straight (970 mm) / 136 curved (293 mm)
+- **Centre lines:** 27,871 paths (307 closed); straight 33,166 mm, curved 514 mm; horizontal 13,158 mm, vertical 8,374 mm, diagonal 11,634 mm
+- **Circles and arcs:** 19 circles, 29 arcs; largest r 3.6 @ (9.6, 25.9), r 3.6 @ (501.2, 163.2), r 3.3 @ (508.6, 179.0), r 3.3 @ (508.7, 163.7)
+- **Closed boxes:** 67 (16 in the title block)
+- **Words (OCR):** 11 in 11 lines: 0-0 · SABI-CA · LOAD TRAUSFER · ISSUEIDAIE · WBS · WARD-BECK SYSTEMS · M611 · POWER   SUPPLIES · SCHEMATIC · SCALE · 3642-02-010
+- **Title block:** (680, 8)–(857, 83) mm: ISSUEIDAIE · WBS · WARD-BECK SYSTEMS · M611 · POWER   SUPPLIES · SCHEMATIC · SCALE · 3642-02-010
+- **Wiring (first pass):** 221 connected wire groups from 2,697 runs; labelled ends: 30 mm → 0-0; 23 mm → 0-0; 21 mm → LOAD TRAUSFER; 20 mm → 0-0; 11 mm → LOAD TRAUSFER
+
+Every curve, box, word and wire group: [1988 - 3642-02-010 - POWER SUPPLIES SCHEMATIC - DRN DS - ENG PA - ISS 4 (traced).json](1988%20-%203642-02-010%20-%20POWER%20SUPPLIES%20SCHEMATIC%20-%20DRN%20DS%20-%20ENG%20PA%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1988 - 3642-02-010 - POWER SUPPLIES SCHEMATIC - DRN DS - ENG PA - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

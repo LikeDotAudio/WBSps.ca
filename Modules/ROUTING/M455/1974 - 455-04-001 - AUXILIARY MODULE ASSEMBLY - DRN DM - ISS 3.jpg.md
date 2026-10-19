@@ -30,6 +30,17 @@ M455 auxiliary module assembly drawing, title block at bottom right.
 
 - **1974** (labelled): `DATE DEC 74` — …io91 3 12o6 USEDION MATL WBS WARD-BECK sysTEMs LTD: DRN: Dm DATE DEC 74 cKDRc SCALE FULL TOLS E M455 AUXILIARY MODULE ASSEMBLY B 45…
 
+## Vectors (traced)
+
+- **Sheet:** layout B 455-04-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 20–305 mm up
+- **Outlines:** line 137 rings, 2,725 straight (5,577 mm) / 253 curved (363 mm); text 258 rings, 1,975 straight (2,302 mm) / 568 curved (810 mm); tb 402 rings, 4,579 straight (7,958 mm) / 492 curved (867 mm)
+- **Closed boxes:** 41 (23 in the title block); named: WBS WARD-BECK systeMs LTD:; M455 MODULE AUXILIARY ASSEMBLY; FINISH; 455-04-001; ISS_; TOLS
+- **Words (OCR):** 38 in 32 lines: WBS · M45S · RI,R2 · VU · Aux · Swi · Aux · Swz · AUX · Sw7 · ON · 4-109C
+- **Title block:** (106, 42)–(414, 289) mm: WBS · M45S · RI,R2 · Aux · Aux · AUX · Sw7 · ON · 4-109C · (opposite) · ISS · MOD.ICKD · USED ON · MATL. · Zi8o9 · WBS WARD-BECK systeMs LTD: · 2o6 · Dm · DRN: · M455 · FINISH · DATE DEC 74 AUXILIARY 
+
+Every curve, box, word and wire group: [1974 - 455-04-001 - AUXILIARY MODULE ASSEMBLY - DRN DM - ISS 3 (traced).json](1974%20-%20455-04-001%20-%20AUXILIARY%20MODULE%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1974 - 455-04-001 - AUXILIARY MODULE ASSEMBLY - DRN DM - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

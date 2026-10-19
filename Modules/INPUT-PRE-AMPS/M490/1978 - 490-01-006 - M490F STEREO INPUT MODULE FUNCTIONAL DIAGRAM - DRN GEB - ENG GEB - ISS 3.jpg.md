@@ -30,6 +30,20 @@ Wiki page: [M490](../../../PAGES/M490.md)
 
 - **1978** (labelled): `DRAWN 2/78` — …oGic ASSIGN CUE Ch On ON TALLY ASSIGN Ch Onx Ch OFFX 2/78 REDRAWN 2/78 MACHINE CONTROLS REVISED ISSUE DATE REVISION ON IsTART TIME…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 490-01-006, size B 432 × 265 mm, 2000 × 1226 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–265 mm up
+- **Outlines:** line 656 rings, 6,865 straight (13,514 mm) / 1,011 curved (1,393 mm); text 527 rings, 3,824 straight (4,305 mm) / 1,027 curved (1,544 mm); tb 25 rings, 162 straight (199 mm) / 51 curved (74.1 mm)
+- **Centre lines:** 6,599 paths (83 closed); straight 9,566 mm, curved 114 mm; horizontal 3,706 mm, vertical 2,478 mm, diagonal 3,382 mm
+- **Circles and arcs:** 10 circles, 10 arcs; largest r 3.3 @ (172.2, 103.9), r 3.1 @ (145.1, 103.7), r 1.6 @ (253.1, 210.5), r 1.5 @ (21.5, 109.1)
+- **Closed boxes:** 21 (11 in the title block); named: PGmi CUE CTL Logic; 490-01-006; SCALE
+- **Words (OCR):** 78 in 72 lines: FADER · (_I5dB) · Ch ON · BAL · INSERT · INSERT · BAL · P1 LEFT · LEFT · P2 LEFT · LEFT · SENSITIVITY
+- **Title block:** (289, 9)–(432, 90) mm: 2/78 · REDRAWN · 2/78 MACHINE CONTROLS REVISED · ISSUE DATE · REVISION · WBS WARD-BECK SYSTEMS · DRN_ GEB · M490F · ENG GEB 2 /78 · STEREO INPUT MODULE · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 490
+- **Wiring (first pass):** 197 connected wire groups from 618 runs; labelled ends: 143 mm → CUE; 95 mm → PRE /post, CUE; 81 mm → INPUT; 81 mm → PGmi, CUE, CTL, Logic; 80 mm → BAL
+
+Every curve, box, word and wire group: [1978 - 490-01-006 - M490F STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (traced).json](1978%20-%20490-01-006%20-%20M490F%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1978 - 490-01-006 - M490F STEREO INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

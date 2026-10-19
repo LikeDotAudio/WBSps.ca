@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,083,988 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 940444-02-100, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–419 mm across, 19–304 mm up
+- **Outlines:** line 1,035 rings, 12,309 straight (18,387 mm) / 2,766 curved (3,242 mm); text 77 rings, 642 straight (538 mm) / 186 curved (228 mm)
+- **Centre lines:** 17,951 paths (313 closed); straight 12,716 mm, curved 186 mm; horizontal 4,830 mm, vertical 3,389 mm, diagonal 4,497 mm
+- **Circles and arcs:** 7 circles, 34 arcs; largest r 3.3 @ (125.3, 212.9), r 3.2 @ (125.3, 147.9), r 3.2 @ (125.5, 233.1), r 3.1 @ (125.5, 167.9)
+- **Closed boxes:** 28
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 130 connected wire groups from 1,171 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940444-02-100 - FROU DRAMNG MIC INPUT MODULE (traced).json](1994%20-%20Renaisance%20-%20940444-02-100%20-%20FROU%20DRAMNG%20MIC%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940444-02-100 - FROU DRAMNG MIC INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

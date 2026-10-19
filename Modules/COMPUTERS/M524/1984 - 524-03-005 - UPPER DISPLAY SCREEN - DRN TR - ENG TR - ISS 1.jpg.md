@@ -24,6 +24,19 @@ Wiki page: [M524](../../../PAGES/M524.md)
 - **Size:** 1,270,707 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 524-03-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 87 rings, 2,052 straight (7,009 mm) / 214 curved (324 mm); text 292 rings, 2,480 straight (2,976 mm) / 748 curved (1,151 mm); tb 7 rings, 114 straight (216 mm) / 9 curved (13.5 mm)
+- **Centre lines:** 2,819 paths (45 closed); straight 5,905 mm, curved 12.8 mm; horizontal 2,885 mm, vertical 1,418 mm, diagonal 1,602 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 11 (10 in the title block)
+- **Words (OCR):** 37 in 30 lines: 4,720 · NOTES · MATERIAL · 060 RED PLEXIGLASS · 2) TOLERANCES XXX 005 · 3) REMOVE ALL BURRS AND SHARP EDGES · SILKSCREEN · MATTE SILE T0 · 2.320 · 03-00b/1 AND OTHER SIbE (SHINY) · B524 · TO AfW B524 -
+- **Title block:** (278, 5)–(432, 73) mm: ISSUE DATE · REVISION · APP · WBS WAAD-BECK SYSTEMS · DRN: · Tr 1/84 · ENG TR · M524 · CKD: · UPPER DISPLAY SCREEN · APP · SCALE · ISSUE · 524-03-005
+
+Every curve, box, word and wire group: [1984 - 524-03-005 - UPPER DISPLAY SCREEN - DRN TR - ENG TR - ISS 1 (traced).json](1984%20-%20524-03-005%20-%20UPPER%20DISPLAY%20SCREEN%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 524-03-005 - UPPER DISPLAY SCREEN - DRN TR - ENG TR - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

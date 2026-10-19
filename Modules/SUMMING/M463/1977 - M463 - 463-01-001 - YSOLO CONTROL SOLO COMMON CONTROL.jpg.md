@@ -16,6 +16,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 
 - **1977** (labelled): `DATE 22 APR 77` — …ON SOLO CONTROL ON MATL WBS WAAD-BECK BYBTEMB LTD. DRN, PKM DATE 22 APR 77 CKD_ Plk SCALE XX TOLS _ ANG . M463 SUBMASTER MODULE FUNCTI…
 
+## Vectors (traced)
+
+- **Sheet:** functional 463-01-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 295 rings, 6,876 straight (13,445 mm) / 1,017 curved (1,346 mm); text 454 rings, 3,485 straight (4,519 mm) / 1,079 curved (1,807 mm); tb 17 rings, 236 straight (552 mm) / 20 curved (41.6 mm)
+- **Centre lines:** 7,654 paths (73 closed); straight 10,470 mm, curved 84.7 mm; horizontal 3,882 mm, vertical 2,708 mm, diagonal 3,880 mm
+- **Circles and arcs:** 10 circles, 6 arcs; largest r 2.2 @ (249.1, 350.4), r 2.1 @ (240.0, 157.9), r 2.0 @ (55.8, 333.1), r 2.0 @ (74.5, 341.3)
+- **Closed boxes:** 16 (3 in the title block); named: MATL _; WBS WAAD-BECK BySTEMs LTD_; M463 SUBMASTER MODULE FUNCTIONAL DIAGRAM; XX TOLS ANG; 463-01-001
+- **Words (OCR):** 79 in 69 lines: DIRECT OUT · PAN · +8 dBm · INSERT · ER · M1= · 7m1 · LEFT · db) · M3X · 4.109F · PAN
+- **Title block:** (96, 16)–(247, 85) mm: WBS WAAD-BECK BySTEMs LTD_ · DRN PKM · M463 · DATE 22 APR 77 · SUBMASTER MODULE · CKD_ · SCALE · XX
+- **Wiring (first pass):** 109 connected wire groups from 275 runs; labelled ends: 305 mm → PRE/Post, FOLDBACK; 115 mm → DIRECT OUT, +8 dBm, 7m1, PAN; 103 mm → RS1, RS2, REV SEND, RS3; 86 mm → WAAD-BECK, BySTEMs, M463, SUBMASTER; 84 mm → FINISH
+
+Every curve, box, word and wire group: [1977 - M463 - 463-01-001 - YSOLO CONTROL SOLO COMMON CONTROL (traced).json](1977%20-%20M463%20-%20463-01-001%20-%20YSOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%28traced%29.json) (the CAD file: `1977 - M463 - 463-01-001 - YSOLO CONTROL SOLO COMMON CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

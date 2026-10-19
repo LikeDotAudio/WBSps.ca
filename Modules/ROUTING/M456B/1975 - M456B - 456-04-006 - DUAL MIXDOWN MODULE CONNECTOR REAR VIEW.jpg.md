@@ -11,6 +11,15 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 6,703,215 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 456-04-006, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–429 mm across, 0–288 mm up
+- **Outlines:** line 453 rings, 3,670 straight (6,310 mm) / 526 curved (767 mm); text 668 rings, 3,258 straight (3,314 mm) / 711 curved (1,029 mm)
+- **Closed boxes:** 13
+
+Every curve, box, word and wire group: [1975 - M456B - 456-04-006 - DUAL MIXDOWN MODULE CONNECTOR REAR VIEW (traced).json](1975%20-%20M456B%20-%20456-04-006%20-%20DUAL%20MIXDOWN%20MODULE%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1975 - M456B - 456-04-006 - DUAL MIXDOWN MODULE CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

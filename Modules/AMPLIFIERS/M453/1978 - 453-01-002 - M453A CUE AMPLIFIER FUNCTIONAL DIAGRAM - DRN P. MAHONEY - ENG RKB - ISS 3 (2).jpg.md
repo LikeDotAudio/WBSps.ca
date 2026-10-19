@@ -26,6 +26,20 @@ Wiki page: [M453](../../../PAGES/M453.md)
 - **Size:** 162,435 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 453-01-002, size B 432 × 220 mm, 2000 × 1021 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–212 mm up
+- **Outlines:** line 187 rings, 2,099 straight (6,040 mm) / 239 curved (374 mm); text 337 rings, 2,503 straight (2,934 mm) / 680 curved (994 mm); tb 5 rings, 92 straight (230 mm) / 13 curved (18.2 mm)
+- **Centre lines:** 2,969 paths (49 closed); straight 4,882 mm, curved 56.1 mm; horizontal 2,073 mm, vertical 1,050 mm, diagonal 1,758 mm
+- **Circles and arcs:** 5 circles, 1 arcs; largest r 3.9 @ (236.1, 85.0), r 1.3 @ (238.8, 152.0), r 1.3 @ (162.6, 93.6), r 1.3 @ (166.8, 87.7)
+- **Closed boxes:** 16 (9 in the title block); named: SCALE; 453-01-002; ISSUE
+- **Words (OCR):** 48 in 39 lines: CUE · LEVEL · LINE Output · SUMMING INPUT · SUM · INSERT · PWR · +8 dBm 600 OHMS · DIRECT INPUT · 10 / · 0 dBm · SPEAKER outputs
+- **Title block:** (282, 4)–(432, 76) mm: 4 / 78 · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · PMAHONsY · DRN_ · M453A · ENG RKB · CUE AMPLIFIER · CKD RxUL · APP · FUNCTIONAL DIAGRAM · 3uiy-8 · SCALE · ISSUE · 453-01-002
+- **Wiring (first pass):** 78 connected wire groups from 168 runs; labelled ends: 169 mm → SUM, INPUT; 76 mm → PWR; 40 mm → CTL, SWITCHEd INPUTS, MUTE ASSIGN; 40 mm → +8 dBm, PWR; 28 mm → PWR, INSERT
+
+Every curve, box, word and wire group: [1978 - 453-01-002 - M453A CUE AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (2) (traced).json](1978%20-%20453-01-002%20-%20M453A%20CUE%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1978 - 453-01-002 - M453A CUE AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

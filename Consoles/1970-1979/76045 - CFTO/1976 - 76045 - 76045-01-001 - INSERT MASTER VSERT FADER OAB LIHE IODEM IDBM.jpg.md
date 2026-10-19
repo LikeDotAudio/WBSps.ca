@@ -10,6 +10,19 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,178,569 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 76045-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 0–427 mm up
+- **Outlines:** line 716 rings, 7,336 straight (11,866 mm) / 948 curved (1,280 mm); text 1,497 rings, 8,146 straight (7,621 mm) / 2,034 curved (2,650 mm)
+- **Centre lines:** 8,415 paths (97 closed); straight 10,452 mm, curved 95.4 mm; horizontal 3,494 mm, vertical 2,511 mm, diagonal 4,446 mm
+- **Circles and arcs:** 2 circles, 22 arcs; largest r 1.1 @ (136.0, 112.9), r 1.0 @ (9.6, 163.0)
+- **Closed boxes:** 3
+- **Words (OCR):** 231 in 199 lines: VU · OUTPUT · JAcKs · +BaBm · PROGRAM QuTPUTS · Cis · Dis · Te3 +843 · GooJ · 843m1 · 152() · SUB
+- **Wiring (first pass):** 147 connected wire groups from 612 runs; labelled ends: 140 mm → M4ee, Dm |coMP, Te3, MaceM; 129 mm → Aux ILiARY, MoBOce, SeLect; 112 mm → 3004 | w, 764, 5253(500- €, 49,50(50); 44 mm → M453, Aux ILiARY, MoBOce, 723; 43 mm → Te 2 0 28,29, Te?
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-01-001 - INSERT MASTER VSERT FADER OAB LIHE IODEM IDBM (traced).json](1976%20-%2076045%20-%2076045-01-001%20-%20INSERT%20MASTER%20VSERT%20FADER%20OAB%20LIHE%20IODEM%20IDBM%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-01-001 - INSERT MASTER VSERT FADER OAB LIHE IODEM IDBM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

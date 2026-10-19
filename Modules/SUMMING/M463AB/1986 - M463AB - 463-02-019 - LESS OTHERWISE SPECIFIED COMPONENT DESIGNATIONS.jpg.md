@@ -11,6 +11,20 @@ Wiki page: [M463AB](../../../PAGES/M463AB.md)
 - **Size:** 301,944 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-019, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 1–432 mm up
+- **Outlines:** line 308 rings, 6,458 straight (14,434 mm) / 1,118 curved (1,636 mm); text 655 rings, 4,947 straight (5,186 mm) / 1,469 curved (2,198 mm); tb 22 rings, 165 straight (264 mm) / 43 curved (58.3 mm)
+- **Centre lines:** 7,091 paths (90 closed); straight 11,637 mm, curved 279 mm; horizontal 5,004 mm, vertical 2,740 mm, diagonal 3,894 mm
+- **Circles and arcs:** 6 circles, 76 arcs; largest r 1.0 @ (208.8, 148.5), r 0.9 @ (208.4, 210.8), r 0.9 @ (208.2, 287.6), r 0.9 @ (208.8, 143.8)
+- **Closed boxes:** 15 (3 in the title block)
+- **Words (OCR):** 142 in 124 lines: LW · 5/7 MONTOR · auT · R+s 2.2 · I6 DIRECT · OuT · R46 2.2 · +848m C00_ · R47 2'2 · 21v · 21v · R4e 2'2
+- **Title block:** (222, 0)–(335, 59) mm: IssuiDate · Revisioh · WBS · WARD-BECK 8ySTEMS · M463AB · SUBMASTER Module · CKd · SCHEMATIC · Apr · SCALE · ISSUE · 463-02-019
+- **Wiring (first pass):** 104 connected wire groups from 437 runs; labelled ends: 467 mm → R28, 396, PAL, Sw3; 446 mm → R+s 2.2, R46 2.2, R3s, R3i; 441 mm → R46 2.2, Amplifier, 2EC, R32; 290 mm → 396; 244 mm → Sw7, 5wB, Sws, Rs2
+
+Every curve, box, word and wire group: [1986 - M463AB - 463-02-019 - LESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS (traced).json](1986%20-%20M463AB%20-%20463-02-019%20-%20LESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `1986 - M463AB - 463-02-019 - LESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

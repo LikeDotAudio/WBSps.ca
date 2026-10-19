@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,790,963 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 940444-06-001, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 16–423 mm across, 7–251 mm up
+- **Outlines:** line 906 rings, 6,116 straight (13,359 mm) / 1,654 curved (1,570 mm); text 314 rings, 2,036 straight (1,816 mm) / 561 curved (607 mm); tb 29 rings, 137 straight (101 mm) / 59 curved (54.3 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 0.8 @ (215.1, 45.2), r 0.8 @ (141.2, 111.4), r 0.8 @ (141.3, 145.8)
+- **Closed boxes:** 64 (4 in the title block); named: MK SERIES CONNECTOR PANEL (REAR RA.S_; 940444-03-001; CCDE 944440J1
+- **Dots (junctions):** 1
+- **Words (OCR):** 33 in 25 lines: REQ'D · DETAI 4 - HEDD · RCo"d · Pitoc · O.6IC · 0.Xoz 0scto · 0JoD · 0,37E · MATERIAL: CRS: 059 THICK · FINISH: SAND 120 GRIT AND PAINT · TEXTURED BROVN (438C) · 'Glle
+- **Title block:** (344, 23)–(428, 39) mm: WBS) · WARD-BECK SYSTEMS · MK SERIES
+
+Every curve, box, word and wire group: [1994 - 940444 - DOC - 940444-06-001 - CODE DETAIL DETAIL DETAIL DETAIL GIK (traced).json](1994%20-%20940444%20-%20DOC%20-%20940444-06-001%20-%20CODE%20DETAIL%20DETAIL%20DETAIL%20DETAIL%20GIK%20%28traced%29.json) (the CAD file: `1994 - 940444 - DOC - 940444-06-001 - CODE DETAIL DETAIL DETAIL DETAIL GIK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,084,691 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940351-03-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px); scale DISC No:
+- **Ink extent:** 30–423 mm across, 7–190 mm up
+- **Outlines:** line 591 rings, 3,877 straight (9,358 mm) / 782 curved (920 mm); text 361 rings, 2,033 straight (1,850 mm) / 691 curved (851 mm); tb 34 rings, 248 straight (257 mm) / 57 curved (65.4 mm)
+- **Centre lines:** 6,232 paths (200 closed); straight 6,833 mm, curved 14.6 mm; horizontal 3,254 mm, vertical 1,528 mm, diagonal 2,050 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 25 (13 in the title block); named: DETAIL; DETAIL
+- **Words (OCR):** 47 in 39 lines: 3 3 · REC D · 0.310 · 0650 · 1058 · INSIRT FRouTHIs_ · Onh-40-12 · REQ D8O · 4175 · 2.062 · 3,S0 · 1.875
+- **Title block:** (341, 6)–(429, 40) mm: ISSE DAE · WBS · WARD-BECK   SYSTEMS · METER PANEL · ScALE DISC No: · CODE: 9+J51V01 · 940351-03-001
+
+Every curve, box, word and wire group: [1994 - 940351 - DOC - 940351-03-001 - NOTE REMOVE ALL BURRS AND SHARP EDGES TCLERANCES (traced).json](1994%20-%20940351%20-%20DOC%20-%20940351-03-001%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TCLERANCES%20%28traced%29.json) (the CAD file: `1994 - 940351 - DOC - 940351-03-001 - NOTE REMOVE ALL BURRS AND SHARP EDGES TCLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -22,6 +22,20 @@ Functional block diagram of the M405D extended range meter.
 - **Size:** 1,282,920 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 405-01-011, size B 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 10–423 mm across, 0–279 mm up
+- **Outlines:** line 489 rings, 4,773 straight (8,940 mm) / 801 curved (1,034 mm); text 164 rings, 1,083 straight (1,092 mm) / 260 curved (347 mm); tb 2 rings, 44 straight (111 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 4,523 paths (80 closed); straight 5,414 mm, curved 156 mm; horizontal 2,240 mm, vertical 1,507 mm, diagonal 1,668 mm
+- **Circles and arcs:** 2 circles, 31 arcs; largest r 3.4 @ (230.6, 88.3), r 3.3 @ (230.6, 108.0)
+- **Closed boxes:** 9; named: pre cisios
+- **Words (OCR):** 18 in 18 lines: AANGE · HEADSET · outpui · IRFCT · outpui · inputs · BOOSTER · BACAR-Poit · pre cisios · EXTERDED · Amolicile · WBS
+- **Title block:** (334, 36)–(432, 52) mm: WBS · WARD-BECK BybtemB
+- **Wiring (first pass):** 169 connected wire groups from 436 runs; labelled ends: 87 mm → IRFCT; 34 mm → EXTERDED, Amolicile; 33 mm → IRFCT; 21 mm → HEADSET, outpui; 16 mm → HEADSET, outpui
+
+Every curve, box, word and wire group: [19xx - 405-01-011 - EXTENDED RANGE METER FUNTIONAL DIAGRAM - ISS 1 (2) (traced).json](19xx%20-%20405-01-011%20-%20EXTENDED%20RANGE%20METER%20FUNTIONAL%20DIAGRAM%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 405-01-011 - EXTENDED RANGE METER FUNTIONAL DIAGRAM - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

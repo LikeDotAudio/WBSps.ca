@@ -23,6 +23,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 2,867,329 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–429 mm across, 21–305 mm up
+- **Outlines:** line 126 rings, 2,405 straight (6,997 mm) / 265 curved (424 mm); text 655 rings, 4,324 straight (5,319 mm) / 1,346 curved (1,955 mm); tb 3 rings, 83 straight (198 mm) / 6 curved (10.4 mm)
+- **Centre lines:** 4,537 paths (98 closed); straight 7,317 mm, curved 180 mm; horizontal 3,042 mm, vertical 1,848 mm, diagonal 2,427 mm
+- **Circles and arcs:** 9 circles, 22 arcs; largest r 1.4 @ (276.0, 256.0), r 1.4 @ (276.0, 246.9), r 1.4 @ (275.8, 240.3), r 1.4 @ (276.2, 271.6)
+- **Closed boxes:** 20 (11 in the title block); named: M49Z(42 MASTER MODULE; 600-02-002; ISSUE
+- **Words (OCR):** 98 in 70 lines: PROGRAM · QUTPUT CHANNEL · PGM 1-L · 12N · TB2 · FROM · INPUT MODULE · 49,50 · SUMMING BUSES · (51) · PINS · 1,2 & 3,4
+- **Title block:** (265, 35)–(432, 104) mm: [11/87 MODIFIED PROGRAMOUTPUTS · ISSUE] DATE · REVISION · APP · WARD-BECK SYSTEMS · WBS · DRN. JRG 02/87 · ENG, · STEREO OUTPUT · CHANNEL · CKD: · SCHEMATIC · APP · SCALE DISC NO: · 130 · 600-02-002 ·
+- **Wiring (first pass):** 27 connected wire groups from 194 runs; labelled ends: 520 mm → QUTPUT CHANNEL, 12N, (51), 52,53 R; 382 mm → 1-L, PROGRAM, INSERT, RIGHT; 114 mm → [11/87 MODIFIED, ISSUE] DATE; 76 mm → PROGRAM, QUTPUT CHANNEL; 72 mm → QUTPUT CHANNEL, 12N, TB2, 49,50
+
+Every curve, box, word and wire group: [1987 - 600-02-002 - STEREO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 2 (traced).json](1987%20-%20600-02-002%20-%20STEREO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1987 - 600-02-002 - STEREO OUTPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

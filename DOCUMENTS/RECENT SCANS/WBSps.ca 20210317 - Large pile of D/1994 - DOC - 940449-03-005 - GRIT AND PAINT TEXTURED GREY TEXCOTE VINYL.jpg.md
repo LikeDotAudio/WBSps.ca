@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,509,813 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940449-03-005, size B (assumed) 432 × 278 mm, 2000 × 1290 px traced (0.216 mm/px)
+- **Ink extent:** 34–430 mm across, 6–272 mm up
+- **Outlines:** line 371 rings, 2,794 straight (7,416 mm) / 489 curved (554 mm); text 221 rings, 1,341 straight (1,318 mm) / 416 curved (522 mm); tb 14 rings, 125 straight (157 mm) / 27 curved (30.2 mm)
+- **Centre lines:** 4,561 paths (123 closed); straight 5,207 mm, curved 12.9 mm; horizontal 2,685 mm, vertical 1,171 mm, diagonal 1,352 mm
+- **Circles and arcs:** 1 circles, 3 arcs; largest r 1.2 @ (376.4, 9.5)
+- **Closed boxes:** 16 (2 in the title block); named: CONTROL RoOM  TURRET FRONT PANEL; 940449-03-005
+- **Words (OCR):** 27 in 23 lines: 0,OBO · 440_1 · OTHFR SDE · PITCHES 7.505 15 |10 · Rzo d · 0z00 · 0,680 · PITCHES · MATERIAL: · ALUM ALLOY 0.125 THICK · WBS · WARD-BECK SYSTEMS
+- **Title block:** (344, 22)–(428, 38) mm: WBS · WARD-BECK SYSTEMS · CaC ?/95)
+
+Every curve, box, word and wire group: [1994 - DOC - 940449-03-005 - GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL (traced).json](1994%20-%20DOC%20-%20940449-03-005%20-%20GRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL%20%28traced%29.json) (the CAD file: `1994 - DOC - 940449-03-005 - GRIT AND PAINT TEXTURED GREY TEXCOTE VINYL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

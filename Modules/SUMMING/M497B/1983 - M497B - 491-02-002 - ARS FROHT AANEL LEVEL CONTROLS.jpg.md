@@ -11,6 +11,20 @@ Wiki page: [M497B](../../../PAGES/M497B.md)
 - **Size:** 832,746 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 491-02-002, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 1–424 mm up
+- **Outlines:** line 270 rings, 4,386 straight (8,863 mm) / 699 curved (964 mm); text 562 rings, 4,487 straight (4,463 mm) / 1,607 curved (2,200 mm); tb 38 rings, 237 straight (307 mm) / 53 curved (69.5 mm)
+- **Centre lines:** 7,377 paths (81 closed); straight 8,549 mm, curved 146 mm; horizontal 2,738 mm, vertical 2,268 mm, diagonal 3,543 mm
+- **Circles and arcs:** 0 circles, 43 arcs
+- **Closed boxes:** 13 (6 in the title block)
+- **Words (OCR):** 131 in 117 lines: NQTES · L.ALL Resistors 'Kw,5 % AND · ALL · CAPACiToRS · in AF UNLESS · Otherwise Specified. · 2.LST COMPONENT · DesienaTiON · 234 , · cR41 96,R79 · Z6. · 3.USE PcB 7-113
+- **Title block:** (224, 3)–(335, 62) mm: Issu DATE · Revisrn · WARD-Beck Eyolme · WBS · Drm · TR · M4978 · ENG · TR · CKD: Rd_ · DUAL MASTER MOdule · ScHEmATiC · NrP · Cx) · SCALE · 491-02-002
+- **Wiring (first pass):** 67 connected wire groups from 241 runs; labelled ends: 183 mm → 052, 36k, Rs}, R56K]; 157 mm → R45, 75, X3; 149 mm → R56K], Rs6, 75, 254; 138 mm → 75, R4e, X3, Rso; 87 mm → C3l, 220p, Rao, 2K
+
+Every curve, box, word and wire group: [1983 - M497B - 491-02-002 - ARS FROHT AANEL LEVEL CONTROLS (traced).json](1983%20-%20M497B%20-%20491-02-002%20-%20ARS%20FROHT%20AANEL%20LEVEL%20CONTROLS%20%28traced%29.json) (the CAD file: `1983 - M497B - 491-02-002 - ARS FROHT AANEL LEVEL CONTROLS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

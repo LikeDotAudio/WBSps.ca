@@ -12,6 +12,18 @@ Wiki page: [M452](../../../PAGES/M452.md)
 - **Size:** 375,697 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 452-04-003, size B (assumed) 331 × 432 mm, 1534 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–331 mm across, 1–432 mm up
+- **Outlines:** line 210 rings, 3,401 straight (8,410 mm) / 564 curved (814 mm); text 466 rings, 2,807 straight (2,701 mm) / 960 curved (1,306 mm); tb 15 rings, 147 straight (218 mm) / 44 curved (60.2 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.1 @ (154.0, 281.8), r 2.4 @ (175.6, 144.7), r 1.9 @ (164.3, 309.6), r 1.9 @ (164.4, 125.0)
+- **Closed boxes:** 18 (13 in the title block); named: WB $ M452 20k 156 100; WB $ M452 20k 156 100; LEVEL Calibration contro] Screndr ver ad; SELEcTiOA shitch assembly ShI Frequene o; igna INSERT switch Swi: Hhen depressed, 
+- **Words (OCR):** 66 in 40 lines: WB $ · M452 · LEVEL Calibration contro] · Screndr ver adjustment · 20k · permits output · dr · from front unit_ · 156 · SELEcTiOA shitch assembly ShI · Frequene · osc | |ator
+- **Title block:** (216, 0)–(331, 60) mm: REvISION · APP · WBS WARD-BECK SYSTEMS · M452 · ENG · OSCILLATOR MODULE · CKD Pla · APP · FRONT PANEL · SCALE · ISSue · 452-04-003
+
+Every curve, box, word and wire group: [1971 - M452 - 452-04-003 - NON- COMITTED NORMA Y-OPEN CONTACT (traced).json](1971%20-%20M452%20-%20452-04-003%20-%20NON-%20COMITTED%20NORMA%20Y-OPEN%20CONTACT%20%28traced%29.json) (the CAD file: `1971 - M452 - 452-04-003 - NON- COMITTED NORMA Y-OPEN CONTACT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

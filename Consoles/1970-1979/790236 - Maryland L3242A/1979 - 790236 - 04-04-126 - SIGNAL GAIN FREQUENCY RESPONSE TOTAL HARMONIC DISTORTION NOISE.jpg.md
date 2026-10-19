@@ -10,6 +10,17 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 1,133,976 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 04-04-126, size B (assumed) 334 × 432 mm, 1270 × 1640 px traced (0.263 mm/px)
+- **Ink extent:** 6–333 mm across, 0–422 mm up
+- **Outlines:** line 556 rings, 11,014 straight (26,304 mm) / 1,413 curved (2,807 mm); text 997 rings, 6,780 straight (9,809 mm) / 2,167 curved (4,152 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.4 @ (11.2, 47.1), r 5.3 @ (12.3, 383.5), r 5.3 @ (12.0, 216.1)
+- **Closed boxes:** 271; named: GAIN in dB; SIGNAL PATH MEASURED; FREQUENCY RESPONSE dB reference 1 kHz in; HARMONIC DISTORTION TOTAL in percent; NOISE; 30; 50; 15k; z0k; 50; 1k; 15k
+- **Words (OCR):** 168 in 133 lines: TEST REPORT · 23023 6 · Page · of · Tested By _ ZEQNG · Date · 2JAN9B0 · SIGNAL · GAIN · FREQUENCY RESPONSE · TOTAL · HARMONIC DISTORTION NOISE
+
+Every curve, box, word and wire group: [1979 - 790236 - 04-04-126 - SIGNAL GAIN FREQUENCY RESPONSE TOTAL HARMONIC DISTORTION NOISE (traced).json](1979%20-%20790236%20-%2004-04-126%20-%20SIGNAL%20GAIN%20FREQUENCY%20RESPONSE%20TOTAL%20HARMONIC%20DISTORTION%20NOISE%20%28traced%29.json) (the CAD file: `1979 - 790236 - 04-04-126 - SIGNAL GAIN FREQUENCY RESPONSE TOTAL HARMONIC DISTORTION NOISE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -21,6 +21,17 @@ Wiki page: [Job-950125](../../../PAGES/Job-950125.md)
 - **Size:** 504,863 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950125-03-001, size D 864 × 539 mm, 2000 × 1249 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–864 mm across, 11–504 mm up
+- **Outlines:** line 1,029 rings, 7,504 straight (34,774 mm) / 1,472 curved (3,694 mm); text 100 rings, 528 straight (937 mm) / 180 curved (443 mm)
+- **Centre lines:** 8,882 paths (239 closed); straight 20,710 mm, curved 386 mm; horizontal 10,121 mm, vertical 5,123 mm, diagonal 5,466 mm
+- **Circles and arcs:** 4 circles, 26 arcs; largest r 12.0 @ (699.1, 347.6), r 12.0 @ (699.3, 396.2), r 6.0 @ (363.9, 326.4), r 2.5 @ (320.8, 418.9)
+- **Closed boxes:** 81
+
+Every curve, box, word and wire group: [1995 - 950125-03-001 - REAR PLATE - DRN DRG - ISS 1 (traced).json](1995%20-%20950125-03-001%20-%20REAR%20PLATE%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950125-03-001 - REAR PLATE - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 7,219,516 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-005, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–371 mm across, 0–287 mm up
+- **Outlines:** line 318 rings, 4,330 straight (7,917 mm) / 626 curved (861 mm); text 123 rings, 910 straight (998 mm) / 250 curved (373 mm)
+- **Centre lines:** 4,442 paths (39 closed); straight 5,374 mm, curved 110 mm; horizontal 2,545 mm, vertical 1,389 mm, diagonal 1,440 mm
+- **Circles and arcs:** 3 circles, 21 arcs; largest r 1.4 @ (251.6, 17.2), r 1.2 @ (7.6, 111.1), r 0.9 @ (42.3, 162.7)
+- **Closed boxes:** 38
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 25 connected wire groups from 277 runs
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-005 - ANOLUAR EQUIPMENT SCHEMATIC (traced).json](1979%20-%20790236%20-%20790236-02-005%20-%20ANOLUAR%20EQUIPMENT%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-005 - ANOLUAR EQUIPMENT SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

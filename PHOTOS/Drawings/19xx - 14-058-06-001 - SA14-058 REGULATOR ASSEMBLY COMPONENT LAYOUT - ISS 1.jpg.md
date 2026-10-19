@@ -22,6 +22,19 @@ SA14-058 regulator assembly PCB component layout.
 - **Size:** 260,415 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 14-058-06-001, size B 432 × 261 mm, 2000 × 1208 px traced (0.216 mm/px)
+- **Ink extent:** 2–422 mm across, 6–261 mm up
+- **Outlines:** line 132 rings, 2,015 straight (4,506 mm) / 514 curved (532 mm); text 512 rings, 4,033 straight (4,211 mm) / 1,248 curved (1,473 mm); tb 28 rings, 449 straight (751 mm) / 52 curved (59.8 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 8.5 @ (32.6, 218.1), r 7.6 @ (32.4, 236.4), r 5.0 @ (76.7, 208.7)
+- **Closed boxes:** 2; named: CR4 2N6395
+- **Dots (junctions):** 1
+- **Words (OCR):** 76 in 71 lines: 620 · 12K 4/2w · R1o Gk8 WBS · 01 · TNZi02 · 03 · RS · R7 · 6k8 · TN2102 · 820 1/2w · RII
+- **Title block:** (258, 36)–(431, 247) mm: R1o Gk8 WBS · 150 CANADA · 14-058 · #CR3_4N47588 · 270 · JK · R16 150 · R1b · 1K8 · 500 · WARD-BECK BYBTEMB · WBS
+
+Every curve, box, word and wire group: [19xx - 14-058-06-001 - SA14-058 REGULATOR ASSEMBLY COMPONENT LAYOUT - ISS 1 (traced).json](19xx%20-%2014-058-06-001%20-%20SA14-058%20REGULATOR%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-058-06-001 - SA14-058 REGULATOR ASSEMBLY COMPONENT LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

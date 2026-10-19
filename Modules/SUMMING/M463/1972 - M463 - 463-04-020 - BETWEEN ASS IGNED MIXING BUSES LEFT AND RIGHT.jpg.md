@@ -12,6 +12,18 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 456,974 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-020, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 763 rings, 8,860 straight (18,532 mm) / 1,740 curved (2,201 mm); text 1,610 rings, 8,643 straight (7,833 mm) / 3,411 curved (4,345 mm); tb 32 rings, 237 straight (340 mm) / 43 curved (48.9 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 5.2 @ (17.3, 270.6), r 5.1 @ (16.9, 203.0), r 5.0 @ (16.2, 82.9), r 4.8 @ (16.9, 158.1)
+- **Closed boxes:** 28 (12 in the title block); named: MASTER ASSIGNMENT SW24 switches SW25: Wh; PUbLiC ADDRESS LEVEL control R13/i4: Con; FOLDBACK LEVEL control R15/ 16 : Control; PRE/PosT FOLDBACK switch Allows choose t; REV SEND LEVEL control R17 18 : Controls; PRE/POST REV SEND switch Swi9: ATlows ch; high FREQUENCY section ADJUSTMENT R3: To; FREQUENCY High section_ BoosT/cUT R2| co; FREQUENCY Mid ADJUSTMENT R6 ; Aows 5ecti; FREQUENCY MID section BoosT/CUT controe ; FREQUENCY LOW section AdJUSTMENT Allows ; FREQUENCY LOW section AdJUSTMENT Allows 
+- **Words (OCR):** 225 in 119 lines: M463 · MASTER ASSIGNMENT switches · depressed; · RIGHT output signa · SW24 ang · fed · SW25: When · ing · istors to externa master · buses · summ · and/or
+- **Title block:** (223, 2)–(336, 67) mm: 1/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECk SYSTEMS · M463 · ENG_ · SUB-MASTER MODULE · FRONT · PANEL · APP · SCALE · 463-04-020 · ISSUE
+
+Every curve, box, word and wire group: [1972 - M463 - 463-04-020 - BETWEEN ASS IGNED MIXING BUSES LEFT AND RIGHT (traced).json](1972%20-%20M463%20-%20463-04-020%20-%20BETWEEN%20ASS%20IGNED%20MIXING%20BUSES%20LEFT%20AND%20RIGHT%20%28traced%29.json) (the CAD file: `1972 - M463 - 463-04-020 - BETWEEN ASS IGNED MIXING BUSES LEFT AND RIGHT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

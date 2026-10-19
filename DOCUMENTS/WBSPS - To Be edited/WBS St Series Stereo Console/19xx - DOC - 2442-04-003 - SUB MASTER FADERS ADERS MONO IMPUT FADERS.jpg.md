@@ -15,6 +15,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,938,774 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 2442-04-003, size B (assumed) 432 × 314 mm, 2000 × 1456 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–289 mm up
+- **Outlines:** line 395 rings, 7,215 straight (16,772 mm) / 851 curved (1,090 mm); text 189 rings, 1,494 straight (1,360 mm) / 492 curved (618 mm); tb 11 rings, 155 straight (208 mm) / 36 curved (44.7 mm)
+- **Closed boxes:** 22 (2 in the title block); named: processinc HOOULES; 45124 TAAEO FOUAL; 4527; CHARHELS SILAEO; CHANHELS Mono; FADCAS; STEAEO; STEREO FaDers (41; FADEAS STEREO; 2442-04-003; sc
+- **Dots (junctions):** 1
+- **Words (OCR):** 38 in 33 lines: 4527 · 45124 · processinc HOOULES · TAAEO FOUAL · INsERT · output · JACKFIELD · 4527 · 4525 · future · Hohito 4ohiTOF · 4525
+- **Title block:** (351, 10)–(432, 49) mm: DATE · RLVEIOH · WBS WARD- BECk ByBTe · Jk · ST2442 · STEREO TELEVISKON CON · CKD · TOP VIEW LAYOUT · sc
+
+Every curve, box, word and wire group: [19xx - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS (traced).json](19xx%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS%20%28traced%29.json) (the CAD file: `19xx - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

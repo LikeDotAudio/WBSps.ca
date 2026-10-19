@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,300,299 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950351-04-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 133–432 mm across, 0–298 mm up
+- **Outlines:** line 112 rings, 1,505 straight (4,795 mm) / 240 curved (418 mm); text 374 rings, 2,424 straight (3,169 mm) / 770 curved (1,195 mm); tb 3 rings, 74 straight (188 mm) / 5 curved (10.1 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.9 @ (245.3, 112.8), r 1.6 @ (208.0, 107.1), r 1.2 @ (214.3, 182.5)
+- **Closed boxes:** 27 (11 in the title block); named: D2 D3 D5; D2; D3; SCALE; 950351-04-003; ISSUE; CODE: 95351L03
+- **Dots (junctions):** 12
+- **Words (OCR):** 55 in 40 lines: DIODE BOARD · IN4003 · DIODE · FROM M8201B PIN · TO SA14-283 · RELAY ASSEMBLY · CONN · PIN · To SA14-283 · P1 PIN 13 · D2 · RELAY
+- **Title block:** (231, 16)–(402, 84) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · WKW · DRN · M15o · ENG. WKW · DIODE BOARD · CKD: · LAYOUT · APP · SCALE DISC NO: · ISSUE · SYSO1 · 950351-04-003 · CODE: 95351L03
+
+Every curve, box, word and wire group: [1995 - 950351 - DOC - 950351-04-003 - RELAY ASSEMBLY CONN PIN (traced).json](1995%20-%20950351%20-%20DOC%20-%20950351-04-003%20-%20RELAY%20ASSEMBLY%20CONN%20PIN%20%28traced%29.json) (the CAD file: `1995 - 950351 - DOC - 950351-04-003 - RELAY ASSEMBLY CONN PIN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

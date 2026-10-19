@@ -11,6 +11,19 @@ Wiki page: [M703](../../../PAGES/M703.md)
 - **Size:** 4,258,963 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 701-02-001, size B (assumed) 432 × 142 mm, 2000 × 657 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–431 mm across, 0–139 mm up
+- **Outlines:** line 1,530 rings, 11,601 straight (17,594 mm) / 2,741 curved (3,339 mm); text 442 rings, 2,234 straight (1,930 mm) / 653 curved (797 mm)
+- **Centre lines:** 10,920 paths (353 closed); straight 11,420 mm, curved 332 mm; horizontal 4,205 mm, vertical 2,788 mm, diagonal 4,426 mm
+- **Circles and arcs:** 10 circles, 81 arcs; largest r 3.2 @ (252.7, 117.8), r 3.1 @ (100.8, 96.4), r 3.1 @ (101.1, 57.7), r 2.9 @ (65.3, 39.4)
+- **Closed boxes:** 26
+- **Dots (junctions):** 5
+- **Wiring (first pass):** 89 connected wire groups from 953 runs, 5 dotted junctions
+
+Every curve, box, word and wire group: [1977 - M703 - 701-02-001 - AND REMOVE STRAP BETWEEN PINS AND (traced).json](1977%20-%20M703%20-%20701-02-001%20-%20AND%20REMOVE%20STRAP%20BETWEEN%20PINS%20AND%20%28traced%29.json) (the CAD file: `1977 - M703 - 701-02-001 - AND REMOVE STRAP BETWEEN PINS AND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

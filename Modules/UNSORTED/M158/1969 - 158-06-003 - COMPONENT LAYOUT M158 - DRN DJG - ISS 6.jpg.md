@@ -23,6 +23,17 @@ Wiki page: [M158](../../../PAGES/M158.md)
 - **Size:** 4,029,101 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 158-06-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–286 mm up
+- **Outlines:** line 2,092 rings, 11,520 straight (12,807 mm) / 2,494 curved (2,441 mm); text 229 rings, 1,552 straight (1,578 mm) / 433 curved (471 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (230.7, 7.7)
+- **Closed boxes:** 10
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1969 - 158-06-003 - COMPONENT LAYOUT M158 - DRN DJG - ISS 6 (traced).json](1969%20-%20158-06-003%20-%20COMPONENT%20LAYOUT%20M158%20-%20DRN%20DJG%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1969 - 158-06-003 - COMPONENT LAYOUT M158 - DRN DJG - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

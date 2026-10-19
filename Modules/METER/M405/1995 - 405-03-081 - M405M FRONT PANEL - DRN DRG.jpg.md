@@ -23,6 +23,17 @@ Front panel machining drawing, upside down, title block at top left.
 - **Size:** 535,443 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 405-03-081, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 2–864 mm across, 16–560 mm up
+- **Outlines:** line 1,098 rings, 7,608 straight (30,681 mm) / 1,745 curved (4,374 mm); text 160 rings, 930 straight (1,788 mm) / 305 curved (729 mm)
+- **Centre lines:** 9,404 paths (233 closed); straight 19,343 mm, curved 363 mm; horizontal 8,445 mm, vertical 4,639 mm, diagonal 6,259 mm
+- **Circles and arcs:** 6 circles, 40 arcs; largest r 2.4 @ (357.7, 383.2), r 1.9 @ (116.6, 94.2), r 1.8 @ (148.8, 94.1), r 1.8 @ (123.2, 113.8)
+- **Closed boxes:** 62
+
+Every curve, box, word and wire group: [1995 - 405-03-081 - M405M FRONT PANEL - DRN DRG (traced).json](1995%20-%20405-03-081%20-%20M405M%20FRONT%20PANEL%20-%20DRN%20DRG%20%28traced%29.json) (the CAD file: `1995 - 405-03-081 - M405M FRONT PANEL - DRN DRG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

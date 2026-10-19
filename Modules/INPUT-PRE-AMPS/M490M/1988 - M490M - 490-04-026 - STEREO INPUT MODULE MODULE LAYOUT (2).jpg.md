@@ -11,6 +11,17 @@ Wiki page: [M490M](../../../PAGES/M490M.md)
 - **Size:** 157,841 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-026, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–330 mm across, 10–417 mm up
+- **Outlines:** line 35 rings, 1,258 straight (4,461 mm) / 180 curved (451 mm); text 148 rings, 1,209 straight (1,431 mm) / 357 curved (536 mm); tb 170 rings, 1,727 straight (3,778 mm) / 373 curved (781 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 5.1 @ (57.8, 55.5), r 5.1 @ (57.9, 79.4), r 5.0 @ (56.7, 302.8), r 5.0 @ (57.7, 121.4)
+- **Words (OCR):** 24 in 21 lines: WBS · M4gom · MODE · 12 · 15 · 20 · 20 · 30 · 30 · 50 · 60 · 13
+- **Title block:** (130, 44)–(336, 422) mm: WBS · M4gom · MODE · 12 · 15 · 20 · 20 · 30 · 30 · 50 · 60 · 13 · OFF · WBS · WARD-BECK SySTEMs
+
+Every curve, box, word and wire group: [1988 - M490M - 490-04-026 - STEREO INPUT MODULE MODULE LAYOUT (2) (traced).json](1988%20-%20M490M%20-%20490-04-026%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT%20%282%29%20%28traced%29.json) (the CAD file: `1988 - M490M - 490-04-026 - STEREO INPUT MODULE MODULE LAYOUT (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

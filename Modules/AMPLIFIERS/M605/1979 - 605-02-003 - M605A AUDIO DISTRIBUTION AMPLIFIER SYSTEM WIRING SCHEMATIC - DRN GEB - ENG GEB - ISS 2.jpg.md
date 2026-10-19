@@ -24,6 +24,21 @@ Wiki page: [M605](../../../PAGES/M605.md)
 - **Size:** 4,004,796 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 605-02-003, size B (assumed) 432 × 138 mm, 2000 × 639 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–136 mm up
+- **Outlines:** line 1,054 rings, 7,781 straight (14,265 mm) / 1,594 curved (1,973 mm); text 199 rings, 1,023 straight (936 mm) / 358 curved (427 mm); tb 2 rings, 35 straight (90.5 mm) / 1 curved (1.4 mm)
+- **Centre lines:** 8,358 paths (210 closed); straight 9,116 mm, curved 116 mm; horizontal 3,865 mm, vertical 2,374 mm, diagonal 2,876 mm
+- **Circles and arcs:** 4 circles, 39 arcs; largest r 0.8 @ (399.2, 98.9), r 0.8 @ (369.3, 16.6), r 0.8 @ (72.8, 117.9), r 0.7 @ (227.2, 55.1)
+- **Closed boxes:** 39
+- **Dots (junctions):** 4
+- **Words (OCR):** 27 in 26 lines: Loor · ERLYE · RELR VeX · WtKi · LOLC · CoD · outpu · Mcosa · optiohal · 0994 · Output · CoK2
+- **Title block:** (359, 20)–(432, 31) mm: WARD-BECK SYSTEMB · WBS
+- **Wiring (first pass):** 84 connected wire groups from 891 runs, 2 dotted junctions; labelled ends: 265 mm → 0994; 226 mm → Output; 142 mm → TEChNICAL, Etation CND; 116 mm → UDD, WARD-BECK SYSTEMB, WBS; 83 mm → iput
+
+Every curve, box, word and wire group: [1979 - 605-02-003 - M605A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN GEB - ENG GEB - ISS 2 (traced).json](1979%20-%20605-02-003%20-%20M605A%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SYSTEM%20WIRING%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1979 - 605-02-003 - M605A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN GEB - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

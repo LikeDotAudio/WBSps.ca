@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 417,332 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 460-06-028, size B (assumed) 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 0–431 mm up
+- **Outlines:** line 5,419 rings, 24,654 straight (25,131 mm) / 6,266 curved (5,585 mm); text 129 rings, 1,028 straight (1,135 mm) / 289 curved (327 mm); tb 2 rings, 63 straight (149 mm) / 7 curved (8.0 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (292.3, 200.9)
+- **Closed boxes:** 16
+- **Dots (junctions):** 6
+- **Words (OCR):** 13 in 12 lines: Side · 620 · 10-011 · AL4 620 · WBS WARD-BECK SYBTEMs · Mabom · INPUT · MODULE · COMPONENT · LAYOUT · 460-06-028 · ISS.1
+- **Title block:** (213, 46)–(340, 71) mm: WBS WARD-BECK SYBTEMs
+
+Every curve, box, word and wire group: [1974 - M460M - 460-06-028 - HORT MZOIAN UIAII MZOR (traced).json](1974%20-%20M460M%20-%20460-06-028%20-%20HORT%20MZOIAN%20UIAII%20MZOR%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-06-028 - HORT MZOIAN UIAII MZOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -12,6 +12,21 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 6,158,947 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-077-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 1,418 rings, 11,284 straight (21,302 mm) / 2,062 curved (2,411 mm); text 195 rings, 1,176 straight (1,079 mm) / 357 curved (456 mm); tb 2 rings, 33 straight (101 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 9,420 paths (311 closed); straight 12,451 mm, curved 47.1 mm; horizontal 5,324 mm, vertical 4,080 mm, diagonal 3,046 mm
+- **Circles and arcs:** 0 circles, 14 arcs
+- **Closed boxes:** 63; named: 74C7e4
+- **Dots (junctions):** 1
+- **Words (OCR):** 25 in 22 lines: 74i4n · CHINNEL 5E4 · othermise · othearise · SENSE · CoupoNent desichations_ · 14 · Xok · KDNAR · Ln1o · SENSE · 74C7e4
+- **Title block:** (339, 46)–(431, 63) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 105 connected wire groups from 1,109 runs, 3 dotted junctions; labelled ends: 2592 mm → io0; 400 mm → 74i4n, Xok; 249 mm → 0 |6; 249 mm → 0 |6; 102 mm → 14, Ln1o
+
+Every curve, box, word and wire group: [1988 - M520 - B 14-077-02-001 - SA14-077 - CONTROL ASSEMBLY - SCHEMATIC (2) (traced).json](1988%20-%20M520%20-%20B%2014-077-02-001%20-%20SA14-077%20-%20CONTROL%20ASSEMBLY%20-%20SCHEMATIC%20%282%29%20%28traced%29.json) (the CAD file: `1988 - M520 - B 14-077-02-001 - SA14-077 - CONTROL ASSEMBLY - SCHEMATIC (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

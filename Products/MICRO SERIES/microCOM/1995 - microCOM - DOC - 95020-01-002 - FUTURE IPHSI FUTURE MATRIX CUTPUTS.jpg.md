@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,856,262 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 95020-01-002, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 45–420 mm across, 9–222 mm up
+- **Outlines:** line 3,399 rings, 21,406 straight (22,700 mm) / 8,080 curved (14,219 mm); text 244 rings, 1,504 straight (1,371 mm) / 499 curved (607 mm); tb 16 rings, 128 straight (162 mm) / 23 curved (26.0 mm)
+- **Centre lines:** 39,277 paths (204 closed); straight 26,368 mm, curved 84.5 mm; horizontal 10,068 mm, vertical 9,774 mm, diagonal 6,526 mm
+- **Circles and arcs:** 517 circles, 31 arcs; largest r 1.7 @ (212.7, 184.9), r 1.7 @ (136.2, 185.0), r 1.7 @ (171.2, 185.0), r 1.7 @ (174.4, 185.0)
+- **Closed boxes:** 15 (4 in the title block); named: TCN 9 STUDIO MICROCOM INTERCOM_FUNCTIONA; SCALF; 95020-01 002; 9520F02
+- **Dots (junctions):** 846
+- **Words (OCR):** 31 in 27 lines: LEGEND; · CROSSPOU NORUALLI · SMCAED · 2 outpots) · 40512 · "SECTUONSR · FLooR · As9st · 4loio · ASSiST 27 · CfFD · LICHMNC
+- **Title block:** (341, 24)–(426, 41) mm: ISSVE · WBS · WARD-BECK SYSTEMS · TCN 9 STUDIO
+- **Wiring (first pass):** 101 connected wire groups from 5,938 runs, 1291 dotted junctions; labelled ends: 12736 mm → 00; 268 mm → 00, 38, 97, 3 3 3 3 3 &; 84 mm → WBS, SCALF, INTERCOM_FUNCTIONAL, 95020-01; 36 mm → 3 3 3 3 3 &; 28 mm → 38, 97
+
+Every curve, box, word and wire group: [1995 - microCOM - DOC - 95020-01-002 - FUTURE IPHSI FUTURE MATRIX CUTPUTS (traced).json](1995%20-%20microCOM%20-%20DOC%20-%2095020-01-002%20-%20FUTURE%20IPHSI%20FUTURE%20MATRIX%20CUTPUTS%20%28traced%29.json) (the CAD file: `1995 - microCOM - DOC - 95020-01-002 - FUTURE IPHSI FUTURE MATRIX CUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,584,108 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 01450-02-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 922 rings, 8,736 straight (16,003 mm) / 1,572 curved (2,056 mm); text 913 rings, 5,067 straight (4,482 mm) / 1,415 curved (1,753 mm); tb 41 rings, 263 straight (274 mm) / 59 curved (73.7 mm)
+- **Centre lines:** 11,278 paths (173 closed); straight 11,753 mm, curved 414 mm; horizontal 3,970 mm, vertical 3,189 mm, diagonal 4,594 mm
+- **Circles and arcs:** 9 circles, 71 arcs; largest r 3.6 @ (331.7, 128.9), r 3.5 @ (307.1, 121.8), r 3.5 @ (307.1, 73.1), r 3.4 @ (331.6, 66.2)
+- **Closed boxes:** 24 (3 in the title block)
+- **Dots (junctions):** 2
+- **Words (OCR):** 187 in 165 lines: C25 · C24 · R38 · ioop · 0/5 · 05 · Tipsob · C27 · C9 · 6800p · #I6v · CRS
+- **Title block:** (346, 6)–(408, 33) mm: WBSS · WAAD Beck ayatame LTo · M450 · SCALE · SCHEMATIC · 450-02
+- **Wiring (first pass):** 128 connected wire groups from 792 runs, 4 dotted junctions; labelled ends: 259 mm → WBSS, H4so; 150 mm → C27, C28, 220n10, R37; 128 mm → Qio, C22, icoop, 470; 112 mm → 23016, R8, Cio, Toup; 80 mm → C25, ioop, ~I6v, R37
+
+Every curve, box, word and wire group: [19xx - DOC - 01450-02-001 - USE THESE COHPONENTS ONLY WHEN SPECIFIED (traced).json](19xx%20-%20DOC%20-%2001450-02-001%20-%20USE%20THESE%20COHPONENTS%20ONLY%20WHEN%20SPECIFIED%20%28traced%29.json) (the CAD file: `19xx - DOC - 01450-02-001 - USE THESE COHPONENTS ONLY WHEN SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

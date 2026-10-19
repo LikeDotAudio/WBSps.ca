@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,112,099 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920306-01-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–422 mm across, 7–257 mm up
+- **Outlines:** line 943 rings, 7,276 straight (10,806 mm) / 1,599 curved (1,946 mm); text 218 rings, 1,652 straight (1,557 mm) / 487 curved (603 mm); tb 17 rings, 137 straight (169 mm) / 30 curved (36.8 mm)
+- **Centre lines:** 13,405 paths (239 closed); straight 8,081 mm, curved 121 mm; horizontal 2,657 mm, vertical 1,964 mm, diagonal 3,460 mm
+- **Circles and arcs:** 6 circles, 26 arcs; largest r 1.4 @ (217.2, 25.8), r 1.4 @ (230.2, 51.0), r 1.4 @ (242.9, 50.9), r 1.4 @ (268.1, 25.3)
+- **Closed boxes:** 23 (4 in the title block); named: VCDULE; M625E; CJMJ-FM RADIO CONSOLE DC FUNCTIONAL
+- **Words (OCR):** 41 in 39 lines: 88 · MONIOBING · MYEB · RESET · Tal · TALLY · VCDULE · RLSCI · OFF 0 · RESET · VODULE · selectoR
+- **Title block:** (344, 23)–(428, 40) mm: WBS · WARD-BECK SYSTEMS · CJMJ-FM
+- **Wiring (first pass):** 55 connected wire groups from 725 runs; labelled ends: 132 mm → WBS, DGC NC, DC FUNCTIONAL, 920306-01-; 51 mm → TRAYSFER CONTRCL; 36 mm → Powek_CABLE, LENGT; 25 mm → Powek_CABLE; 20 mm → RLSCI
+
+Every curve, box, word and wire group: [1992 - 920306 - DOC - 920306-01-002 - TAPE START STOP REC STOP REC SSUE REMSION (traced).json](1992%20-%20920306%20-%20DOC%20-%20920306-01-002%20-%20TAPE%20START%20STOP%20REC%20STOP%20REC%20SSUE%20REMSION%20%28traced%29.json) (the CAD file: `1992 - 920306 - DOC - 920306-01-002 - TAPE START STOP REC STOP REC SSUE REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

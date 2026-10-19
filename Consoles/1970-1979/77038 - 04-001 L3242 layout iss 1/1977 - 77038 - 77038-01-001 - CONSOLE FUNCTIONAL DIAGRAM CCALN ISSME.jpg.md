@@ -11,6 +11,21 @@ Wiki page: [Job-77038](../../../PAGES/Job-77038.md)
 - **Size:** 37,056,729 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 77038-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–277 mm up
+- **Outlines:** line 704 rings, 6,332 straight (14,452 mm) / 1,069 curved (1,327 mm); text 1,261 rings, 6,575 straight (5,077 mm) / 2,238 curved (2,595 mm); tb 22 rings, 126 straight (176 mm) / 33 curved (35.0 mm)
+- **Centre lines:** 11,997 paths (452 closed); straight 10,833 mm, curved 53.3 mm; horizontal 4,182 mm, vertical 2,918 mm, diagonal 3,734 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 0.8 @ (227.9, 80.0)
+- **Closed boxes:** 36 (9 in the title block); named: 0472; (-I5 dB); (FI5 dB; AdRmn; ISdB ); MI DUAL_AUX MODULE; MIiL MOQULE; Ma9 SELECTOR]; MONIIOR_MODULE; MHE Qsc MQDu; Mui MONIIOR MODULE; MQDULE MONIOR
+- **Dots (junctions):** 3
+- **Words (OCR):** 293 in 227 lines: INPUT CHANNEL · (SEE NOte · SUBMASTER · SuBMASTer · SUmming · (SEE NOTE · BUS · MASTER · "nseRt · CHAH · FADER · CHAH
+- **Title block:** (356, 0)–(432, 36) mm: Lav 7a DumutLN4MLAA · 564v04e · Vir 9e Mae · 4472 · ISSUE DATE · REVISION · WBS WARD-BECK SYSTEMS · DRN ELJMARLE WBS L3242 · ENG · CONSOLE · CKD: · FUNCTIONAL DIAGRAM · SCALE · 77038 01 001 · ISSME
+- **Wiring (first pass):** 153 connected wire groups from 578 runs, 1 dotted junctions; labelled ends: 472 mm → SUmming, BUS, ChAN, FADER; 234 mm → CHAH, FADER, Mic, mic; 159 mm → SELECTOR], CONT_, DIR; 114 mm → dbm, Mon, 8dBm C19; 92 mm → {8849
+
+Every curve, box, word and wire group: [1977 - 77038 - 77038-01-001 - CONSOLE FUNCTIONAL DIAGRAM CCALN ISSME (traced).json](1977%20-%2077038%20-%2077038-01-001%20-%20CONSOLE%20FUNCTIONAL%20DIAGRAM%20CCALN%20ISSME%20%28traced%29.json) (the CAD file: `1977 - 77038 - 77038-01-001 - CONSOLE FUNCTIONAL DIAGRAM CCALN ISSME (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 17 words corrected)

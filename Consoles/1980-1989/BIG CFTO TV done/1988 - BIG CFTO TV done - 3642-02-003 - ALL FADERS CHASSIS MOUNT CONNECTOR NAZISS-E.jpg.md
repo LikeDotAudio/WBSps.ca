@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,580,641 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 981 rings, 9,383 straight (18,491 mm) / 1,698 curved (2,390 mm); text 564 rings, 3,523 straight (3,561 mm) / 1,197 curved (1,590 mm)
+- **Centre lines:** 8,335 paths (153 closed); straight 12,435 mm, curved 559 mm; horizontal 5,671 mm, vertical 3,103 mm, diagonal 3,662 mm
+- **Circles and arcs:** 19 circles, 102 arcs; largest r 1.4 @ (254.4, 351.0), r 1.4 @ (254.3, 335.1), r 1.2 @ (192.2, 42.1), r 1.2 @ (242.0, 419.3)
+- **Closed boxes:** 21
+- **Wiring (first pass):** 263 connected wire groups from 899 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-003 - ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-003 - ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

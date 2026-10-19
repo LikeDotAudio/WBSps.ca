@@ -12,6 +12,19 @@ Wiki page: [M480C](../../../PAGES/M480C.md)
 - **Size:** 347,670 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 480-06-004, size B (assumed) 432 × 310 mm, 2000 × 1436 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–278 mm up
+- **Outlines:** line 2,326 rings, 15,611 straight (21,679 mm) / 4,491 curved (4,311 mm); text 520 rings, 3,245 straight (2,578 mm) / 1,183 curved (1,202 mm); tb 103 rings, 846 straight (1,574 mm) / 270 curved (265 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 3.6 @ (106.3, 111.3), r 3.2 @ (66.3, 103.9), r 2.6 @ (165.4, 199.0), r 0.9 @ (195.8, 177.7)
+- **Closed boxes:** 10; named: IC-015; 10-029
+- **Dots (junctions):** 1
+- **Words (OCR):** 46 in 39 lines: IC-015 · 10-040 · 9333 99 · 82 · 1111 · L4js] · 10-029 · AN4 · 534 · 03 · 31 · 8 83
+- **Title block:** (191, 0)–(432, 131) mm: LFjs · WBS #awem · 393 8 CANADA · 38 · IssuDAl · WBS WARD-BeCk Bybtenb · DRN 11/82 Je · ENG · Mew · INPUT MODULE · COMPONENT LAYOUT · SCALI · ISSUE · 480-06 004
+
+Every curve, box, word and wire group: [1982 - M480C - 480-06-004 - INPUT MODULE COMPONENT LAYOUT (traced).json](1982%20-%20M480C%20-%20480-06-004%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M480C - 480-06-004 - INPUT MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,18 @@ Wiki page: [M5200A](../../../PAGES/M5200A.md)
 - **Size:** 6,206,637 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-094-02-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–425 mm across, 18–301 mm up
+- **Outlines:** line 3,562 rings, 26,664 straight (50,737 mm) / 4,781 curved (6,071 mm); text 161 rings, 1,219 straight (1,332 mm) / 305 curved (422 mm)
+- **Centre lines:** 49,496 paths (244 closed); straight 36,049 mm, curved 157 mm; horizontal 16,071 mm, vertical 11,373 mm, diagonal 8,605 mm
+- **Circles and arcs:** 3 circles, 29 arcs; largest r 2.1 @ (61.9, 287.8), r 2.1 @ (69.2, 290.5), r 2.0 @ (82.9, 292.5)
+- **Closed boxes:** 81
+- **Wiring (first pass):** 541 connected wire groups from 3,761 runs
+
+Every curve, box, word and wire group: [1985 - M5200A - 14-094-02-001 - TAACIJIH PORT CIL UJJ RIOZ RIOJ (traced).json](1985%20-%20M5200A%20-%2014-094-02-001%20-%20TAACIJIH%20PORT%20CIL%20UJJ%20RIOZ%20RIOJ%20%28traced%29.json) (the CAD file: `1985 - M5200A - 14-094-02-001 - TAACIJIH PORT CIL UJJ RIOZ RIOJ (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

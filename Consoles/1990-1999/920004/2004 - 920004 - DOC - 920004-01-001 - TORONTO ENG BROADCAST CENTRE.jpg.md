@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **2004** (manual_issue): `ISSUE CODE: 92004` — …: 48x48 INTERCOM SYSTEM STUDIO B2 FUNCTIONAL SCALE DISC NO: ISSUE CODE: 92004F01 920004-01-001…
 
+## Vectors (traced)
+
+- **Sheet:** functional 920004-01-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px); scale disc No:
+- **Ink extent:** 0–420 mm across, 6–280 mm up
+- **Outlines:** line 4,303 rings, 29,981 straight (43,352 mm) / 4,312 curved (5,073 mm); text 360 rings, 2,387 straight (2,116 mm) / 663 curved (820 mm); tb 67 rings, 525 straight (1,416 mm) / 96 curved (114 mm)
+- **Centre lines:** 87,521 paths (510 closed); straight 41,893 mm, curved 175 mm; horizontal 13,049 mm, vertical 12,425 mm, diagonal 16,420 mm
+- **Circles and arcs:** 8 circles, 60 arcs; largest r 1.3 @ (339.3, 232.2), r 1.1 @ (339.2, 229.5), r 1.0 @ (283.8, 236.1), r 1.0 @ (300.0, 232.8)
+- **Closed boxes:** 900; named: OC925002-01-001 IN/CUT ASSEMALY
+- **Dots (junctions):** 33
+- **Words (OCR):** 49 in 44 lines: SoUND INPUTS · PREAUPUFIERS · LEGEND · c Lola · 6920 · CAUER · C1U6RL · REMOTE · CAUERL · RFVOF · EYC (PL) · MTR (PL)
+- **Title block:** (336, 4)–(425, 43) mm: ISSUE DATEL · WBS WARD- · BECK SYSTEMS · TORONTO  BROADCAST CENTRE · 48x48  INTERCOM SYSTEM · STUDIO · FUNCTIONAL · SCALE disc No: · 920004-01 001
+- **Wiring (first pass):** 266 connected wire groups from 5,988 runs, 155 dotted junctions; labelled ends: 210 mm → 6920, c Lola; 42 mm → DIRECTOR; 34 mm → WouT  ASSEMBLY; 30 mm → DIRECTOR; 19 mm → c Lola
+
+Every curve, box, word and wire group: [2004 - 920004 - DOC - 920004-01-001 - TORONTO ENG BROADCAST CENTRE (traced).json](2004%20-%20920004%20-%20DOC%20-%20920004-01-001%20-%20TORONTO%20ENG%20BROADCAST%20CENTRE%20%28traced%29.json) (the CAD file: `2004 - 920004 - DOC - 920004-01-001 - TORONTO ENG BROADCAST CENTRE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

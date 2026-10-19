@@ -1,0 +1,186 @@
+{
+ "code": "M610",
+ "name": "10 Watt Monitor Amplifier",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 13,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "G A IN OF T HES E",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5976e852e640a2d964c50c7de80a36ee7088521a86d47f0bf1dce9da8045547c",
+    "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 10W Monitor Amp (2).pdf",
+    "page": 3
+   },
+   "quote": "The g a in of t hes e two ampli fiers is lower ed by 20eE when the rnodu Le connector P2 pins 6 ane 14 as wel l a s pins 7 and 15 are strapped together .",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "G A IN OF T HES E",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5976e852e640a2d964c50c7de80a36ee7088521a86d47f0bf1dce9da8045547c",
+    "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 10W Monitor Amp (2).pdf",
+    "page": 3
+   },
+   "quote": "The g a in of t hes e two ampli fiers is lower ed by 20eE when the rnodu Le connector P2 pins 6 ane 14 as wel l a s pins 7 and 15 are strapped together .",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "G A IN OF T HES E",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "5976e852e640a2d964c50c7de80a36ee7088521a86d47f0bf1dce9da8045547c",
+    "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 10W Monitor Amp (2).pdf",
+    "page": 3
+   },
+   "quote": "The g a in of t hes e two ampli fiers is lower ed by 20eE when the rnodu Le connector P2 pins 6 ane 14 as wel l a s pins 7 and 15 are strapped together .",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c50e8589c87fc1f64f5f02fa5c353f64f136bf2eb4508d8927afcc7e21e82d5b",
+    "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 10W Monitor Amp.pdf",
+    "page": 20
+   },
+   "quote": "ARM Low SIDE P2-5 HIGH SIDE Pl-9 P2-13",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 610-02-003 - EXTERNAL VOLUME CONTROL VOLUME CONTROL MGIO REMOTE VOLUME.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e75fb352cbd9c97bafdf63a4cba3056fd82741c4aafc1080948d99a21c884a71",
+    "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 610-02-003 - EXTERNAL VOLUME CONTROL VOLUME CONTROL MGIO REMOTE VOLUME.jpg",
+    "page": 1
+   },
+   "quote": "HIGH SIDE Low SIDE P2-7 PI-9 REAR VIEW OF Sk LOG A TTENUATOR (USED As INTERNAL VOLUME CONTROL )",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "428e08e7c1e8966cf3378377e5f8c484f24e5c85a009e1296155a02decbbed42",
+    "file": "Modules/AMPLIFIERS/M610/19xx - M610 - P012 - B610-002-002 004.jpg",
+    "page": 1
+   },
+   "quote": "NoTes LMelo GAIN ShowN 60 JB FOR 4odB GAIN STRAP P2 6 To Pz-J+ e P2= 7 Tope-15",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c50e8589c87fc1f64f5f02fa5c353f64f136bf2eb4508d8927afcc7e21e82d5b",
+    "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 10W Monitor Amp.pdf",
+    "page": 20
+   },
+   "quote": "ARM Low SIDE P2-5 HIGH SIDE Pl-9 P2-13",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 10W Monitor Amp.pdf",
+     "page": 20
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 610-02-003 - EXTERNAL VOLUME CONTROL VOLUME CONTROL MGIO REMOTE VOLUME.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M610/19xx - M610 - 610-02-003 - EXTERNAL VOLUME CONTROL VOLUME CONTROL MGIO REMOTE VOLUME.jpg",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

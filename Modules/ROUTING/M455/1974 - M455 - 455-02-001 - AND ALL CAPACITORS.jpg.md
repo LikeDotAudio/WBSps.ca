@@ -12,6 +12,20 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 691,975 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 455-02-001, size B (assumed) 432 × 330 mm, 2000 × 1528 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–324 mm up
+- **Outlines:** line 267 rings, 5,995 straight (12,223 mm) / 868 curved (1,356 mm); text 892 rings, 6,590 straight (7,621 mm) / 2,172 curved (3,197 mm); tb 16 rings, 206 straight (333 mm) / 36 curved (59.2 mm)
+- **Centre lines:** 7,990 paths (147 closed); straight 12,117 mm, curved 398 mm; horizontal 4,460 mm, vertical 2,264 mm, diagonal 5,392 mm
+- **Circles and arcs:** 18 circles, 41 arcs; largest r 5.0 @ (289.2, 134.7), r 4.9 @ (112.9, 49.5), r 4.6 @ (87.4, 111.5), r 4.5 @ (100.3, 127.2)
+- **Closed boxes:** 23 (17 in the title block); named: ISS MOD; 3533
+- **Words (OCR):** 161 in 144 lines: SW1 · Sw2 Jio · R36 R35 R3? · EXTERNAL · METER · 5k · 910 · 910 · INPUT · vu · R34 8k2 · +8dBm NOM
+- **Title block:** (228, 1)–(398, 45) mm: ISS MOD CKD: · USED ON · MATL · [ss1 · WBS WAAD-BeCK BYBTEMB LtD · Dm · 2251 · DRA: · M455 · 3462 · FINISH · DATE OCI /u4 · AUXILIARY MODULE · 3533 · CKD_ · SCHEMATIC · SCALE · TOLS _ · 455-02-001
+- **Wiring (first pass):** 106 connected wire groups from 351 runs; labelled ends: 266 mm → Rg, Ik2, 6*0, 620; 156 mm → Ik2, 620, Rio, R28; 133 mm → c3, 22/25, C4, 20<; 127 mm → R42, 5.6, R43, PN3569; 121 mm → 22/25, C4, CRA, 1n400?
+
+Every curve, box, word and wire group: [1974 - M455 - 455-02-001 - AND ALL CAPACITORS (traced).json](1974%20-%20M455%20-%20455-02-001%20-%20AND%20ALL%20CAPACITORS%20%28traced%29.json) (the CAD file: `1974 - M455 - 455-02-001 - AND ALL CAPACITORS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -21,6 +21,18 @@ Front panel layout drawing of a rack-mount assignment terminal with keypad.
 - **Size:** 1,120,539 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 960196-04-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 21–432 mm across, 11–299 mm up
+- **Outlines:** line 98 rings, 1,740 straight (6,490 mm) / 209 curved (338 mm); text 167 rings, 1,330 straight (1,272 mm) / 337 curved (436 mm); tb 81 rings, 817 straight (1,820 mm) / 80 curved (112 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 2.9 @ (261.9, 204.9), r 2.9 @ (174.4, 89.2), r 2.9 @ (333.9, 204.9), r 2.9 @ (174.2, 204.9)
+- **Closed boxes:** 8 (2 in the title block); named: HF93 7IF!   1pz}   IFB? SOURCE DESTINATI; HF93 7IF!   1pz}   IFB? SOURCE DESTINATI
+- **Words (OCR):** 32 in 25 lines: WBS VCI M78854 · IFOI · IF02 · IFO3 · IF04 · FFO5 · IFO6 · HF93 IF08 IF09 · 7IF!   1pz}   IFB? SOURCE DESTINATION · IF1S · IF14 · IF15
+- **Title block:** (280, 29)–(424, 176) mm: WBS VCI M78854 · SRC · WES WARD-BECK SYSTEMS · M7885A
+
+Every curve, box, word and wire group: [1996 - 960196-04-004 - M7885A ASSIGNMENT TERMINAL FRONT PANEL LAYOUT - ISS 1 (traced).json](1996%20-%20960196-04-004%20-%20M7885A%20ASSIGNMENT%20TERMINAL%20FRONT%20PANEL%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960196-04-004 - M7885A ASSIGNMENT TERMINAL FRONT PANEL LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

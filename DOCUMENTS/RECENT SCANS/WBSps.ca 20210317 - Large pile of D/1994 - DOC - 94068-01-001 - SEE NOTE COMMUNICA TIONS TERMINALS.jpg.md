@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,012,545 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 94068-01-001, size B (assumed) 432 × 278 mm, 2000 × 1289 px traced (0.216 mm/px); scale DISC ND: 483
+- **Ink extent:** 26–430 mm across, 7–262 mm up
+- **Outlines:** line 2,784 rings, 17,169 straight (31,306 mm) / 1,795 curved (2,303 mm); text 625 rings, 4,166 straight (3,322 mm) / 1,181 curved (1,405 mm); tb 21 rings, 189 straight (1,174 mm) / 15 curved (22.3 mm)
+- **Centre lines:** 50,848 paths (130 closed); straight 27,918 mm, curved 15.3 mm; horizontal 8,706 mm, vertical 9,704 mm, diagonal 9,508 mm
+- **Circles and arcs:** 64 circles, 6 arcs; largest r 3.4 @ (283.3, 122.8), r 3.4 @ (156.5, 177.2), r 3.4 @ (131.1, 122.8), r 3.4 @ (277.0, 190.2)
+- **Closed boxes:** 232 (1 in the title block)
+- **Words (OCR):** 70 in 61 lines: UNIARY PROGRAM_SQUND_INPUIS · FUTURE · LEGEND: · CROSSPOINT NORMALLY OFF , SWITCHED · CROSSPOINT NORMALLY ON, SWITCHED  OFF · CROSSPOINT FORCED ON BY ELECTRONIC PEGBOARD · M8512 (FUT} · M8524 MATRIX AMPLIFIER · (24 INPUTS · OUTPUTS) · PGv SND · PGM
+- **Title block:** (338, 5)–(428, 43) mm: ISSUE · REMSION · WES · WARD-BECK SYSTEMS · DRN: DRG · BBS NORTH BAY · ENG_ · MiniCOM · CKD_ · FUNCTIONAL · APP · SCALE DISC ND: 483 · SSUE · CODE: 94068F01 · 94068-01-001
+- **Wiring (first pass):** 226 connected wire groups from 3,920 runs; labelled ends: 149 mm → COMMUNICA TIONS   TERMINALS; 49 mm → UNIARY PROGRAM_SQUND_INPUIS; 36 mm → CAMERA, CTV MASTER; 23 mm → IFB   OUTPUTS; 18 mm → CTV, [e512
+
+Every curve, box, word and wire group: [1994 - DOC - 94068-01-001 - SEE NOTE COMMUNICA TIONS TERMINALS (traced).json](1994%20-%20DOC%20-%2094068-01-001%20-%20SEE%20NOTE%20COMMUNICA%20TIONS%20TERMINALS%20%28traced%29.json) (the CAD file: `1994 - DOC - 94068-01-001 - SEE NOTE COMMUNICA TIONS TERMINALS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

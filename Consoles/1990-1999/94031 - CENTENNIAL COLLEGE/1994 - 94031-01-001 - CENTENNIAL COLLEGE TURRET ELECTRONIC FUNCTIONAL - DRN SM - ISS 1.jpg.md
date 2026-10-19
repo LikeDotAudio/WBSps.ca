@@ -22,6 +22,21 @@ Wiki page: [Job-94031](../../../PAGES/Job-94031.md)
 - **Size:** 482,158 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 94031-01-001, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px); scale DISC
+- **Ink extent:** 124–841 mm across, 14–463 mm up
+- **Outlines:** line 452 rings, 3,899 straight (23,360 mm) / 460 curved (1,417 mm); text 395 rings, 2,691 straight (4,623 mm) / 755 curved (1,872 mm); tb 15 rings, 111 straight (288 mm) / 31 curved (84.3 mm)
+- **Centre lines:** 6,830 paths (106 closed); straight 15,942 mm, curved 362 mm; horizontal 7,145 mm, vertical 4,409 mm, diagonal 4,389 mm
+- **Circles and arcs:** 5 circles, 16 arcs; largest r 7.4 @ (174.0, 388.4), r 7.4 @ (173.1, 322.3), r 7.4 @ (171.3, 190.2), r 7.4 @ (172.2, 256.3)
+- **Closed boxes:** 26 (11 in the title block); named: LCUFL
+- **Dots (junctions):** 1
+- **Words (OCR):** 67 in 62 lines: AMPUFER · POWER · HEADPHONE · JURREM · CUTPUTS · HEADSET INPUT · TURRET SPEAKER OUTPUT · MB2058 · MASTER OUTPUT · CONNECTOR · CRI · PHANTOM POWER INPUT
+- **Title block:** (673, 11)–(852, 78) mm: SSUEL · REVSICN · WBS WARD-BECK SYSTEMS · DRN: · ENG: · CENTENNIAL · TURRET ELECTRONIC · COLLEGE · FUNCTIONAL · APP . · SCALE DISC · CODE: 94031F01 · 94031-01-001 · SSUE
+- **Wiring (first pass):** 319 connected wire groups from 614 runs; labelled ends: 690 mm → PHANTOM POWER INPUT, M8200; 384 mm → UNSMIC HED, SWTCHED, OuTPUT, CUTPUT; 351 mm → Mbzo1; 264 mm → MB2058, SPEAKER OUTPUT; 264 mm → POWER, AMPUFER
+
+Every curve, box, word and wire group: [1994 - 94031-01-001 - CENTENNIAL COLLEGE TURRET ELECTRONIC FUNCTIONAL - DRN SM - ISS 1 (traced).json](1994%20-%2094031-01-001%20-%20CENTENNIAL%20COLLEGE%20TURRET%20ELECTRONIC%20FUNCTIONAL%20-%20DRN%20SM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94031-01-001 - CENTENNIAL COLLEGE TURRET ELECTRONIC FUNCTIONAL - DRN SM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

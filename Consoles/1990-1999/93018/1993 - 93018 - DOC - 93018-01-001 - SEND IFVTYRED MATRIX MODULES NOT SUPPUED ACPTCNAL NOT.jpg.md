@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,081,994 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93018-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 43–422 mm across, 7–259 mm up
+- **Outlines:** line 3,627 rings, 23,384 straight (27,772 mm) / 8,411 curved (14,668 mm); text 257 rings, 1,627 straight (1,489 mm) / 464 curved (581 mm); tb 15 rings, 107 straight (147 mm) / 22 curved (28.4 mm)
+- **Centre lines:** 40,817 paths (275 closed); straight 28,642 mm, curved 127 mm; horizontal 11,226 mm, vertical 10,440 mm, diagonal 6,976 mm
+- **Circles and arcs:** 377 circles, 51 arcs; largest r 1.7 @ (265.8, 183.9), r 1.7 @ (265.7, 167.9), r 1.7 @ (205.1, 183.9), r 1.7 @ (192.3, 167.9)
+- **Closed boxes:** 47 (4 in the title block); named: Vaede; DDOD; CHCH TV 11 PROPOSED MICROCOM MATRIX FUNC; NSC ND 441; 93018 001
+- **Dots (junctions):** 788
+- **Words (OCR):** 35 in 33 lines: LEGEKDE · FunURE · CRDSSPCINT · 2 "OUTPURS) · PUSHETTC · PANELS · (48 INPUTS · Vaede · FCOR · DDOD · 4BSIZ · LUPLIFIEF
+- **Title block:** (342, 23)–(427, 40) mm: RLVSON · WBS WARD- · BECK   SYSTEMS · CHCH TV 11
+- **Wiring (first pass):** 144 connected wire groups from 6,119 runs, 1267 dotted junctions; labelled ends: 89 mm → WBS, MATRIX FUNCTIONAL; 80 mm → Cacuit; 54 mm → DDOD; 54 mm → MATRIX FUNCTIONAL, 93018, 001; 50 mm → CacuiT
+
+Every curve, box, word and wire group: [1993 - 93018 - DOC - 93018-01-001 - SEND IFVTYRED MATRIX MODULES NOT SUPPUED ACPTCNAL NOT (traced).json](1993%20-%2093018%20-%20DOC%20-%2093018-01-001%20-%20SEND%20IFVTYRED%20MATRIX%20MODULES%20NOT%20SUPPUED%20ACPTCNAL%20NOT%20%28traced%29.json) (the CAD file: `1993 - 93018 - DOC - 93018-01-001 - SEND IFVTYRED MATRIX MODULES NOT SUPPUED ACPTCNAL NOT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

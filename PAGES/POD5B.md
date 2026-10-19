@@ -37,24 +37,3 @@ tags: ["product", "pods", "1990s"]
 | Year | File |  |
 |---|---|---|
 | 1995 | [1995 - POD5B - POD5B - POD5B - SCHEMATIC (ORCAD).dsn](../Products/PODS/POD5B/1995%20-%20POD5B%20-%20POD5B%20-%20POD5B%20-%20SCHEMATIC%20%28ORCAD%29.dsn) | [note](../Products/PODS/POD5B/1995%20-%20POD5B%20-%20POD5B%20-%20POD5B%20-%20SCHEMATIC%20%28ORCAD%29.dsn.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "POD5B",
- "name": "Dual Headset Amplifier",
- "category": "PODS",
- "year": 1995,
- "documents": [
-  {
-   "file": "Products/PODS/POD5B/1995 - POD5B - POD5B - POD5B - SCHEMATIC (ORCAD).dsn",
-   "year": 1995,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```

@@ -11,6 +11,18 @@ Wiki page: [M462](../../../PAGES/M462.md)
 - **Size:** 2,056,234 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 462-02-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–426 mm up
+- **Outlines:** line 403 rings, 7,140 straight (15,498 mm) / 1,121 curved (1,552 mm); text 816 rings, 5,548 straight (6,186 mm) / 1,864 curved (2,762 mm)
+- **Centre lines:** 6,917 paths (100 closed); straight 12,350 mm, curved 241 mm; horizontal 3,854 mm, vertical 3,639 mm, diagonal 4,857 mm
+- **Circles and arcs:** 3 circles, 64 arcs; largest r 1.0 @ (169.7, 395.5), r 1.0 @ (253.7, 86.3), r 0.8 @ (172.3, 292.8)
+- **Words (OCR):** 176 in 162 lines: high FREQEnCY · Mid · =RECUEnCY · Loohz-6.4khz · 72 · 24 · RS · cok · cek · cCk · ^P ^ c · FILTER
+- **Wiring (first pass):** 146 connected wire groups from 615 runs; labelled ends: 194 mm → ^P ^ c; 175 mm → 242, 6.3/6; 162 mm → c5, 220p, 21v+, R2z; 132 mm → 646, 6*316; 124 mm → 2+3, 6 8/6
+
+Every curve, box, word and wire group: [1974 - M462 - 462-02-001 - ISOP HIGH FREQENCY MID FREQUENCY (traced).json](1974%20-%20M462%20-%20462-02-001%20-%20ISOP%20HIGH%20FREQENCY%20MID%20FREQUENCY%20%28traced%29.json) (the CAD file: `1974 - M462 - 462-02-001 - ISOP HIGH FREQENCY MID FREQUENCY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

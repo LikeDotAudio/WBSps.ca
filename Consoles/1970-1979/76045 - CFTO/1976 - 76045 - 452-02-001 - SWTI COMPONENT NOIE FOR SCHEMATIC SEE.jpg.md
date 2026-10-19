@@ -10,6 +10,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 7,065,186 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 452-02-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 2,166 rings, 20,599 straight (17,966 mm) / 3,504 curved (3,749 mm); text 241 rings, 1,945 straight (2,240 mm) / 521 curved (770 mm)
+- **Centre lines:** 49,653 paths (183 closed); straight 20,545 mm, curved 200 mm; horizontal 5,790 mm, vertical 4,346 mm, diagonal 10,408 mm
+- **Circles and arcs:** 5 circles, 30 arcs; largest r 8.3 @ (276.3, 246.3), r 8.2 @ (275.8, 162.3), r 8.0 @ (276.0, 188.7), r 1.3 @ (217.4, 115.7)
+- **Closed boxes:** 10
+- **Wiring (first pass):** 72 connected wire groups from 749 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 452-02-001 - SWTI COMPONENT NOIE FOR SCHEMATIC SEE (traced).json](1976%20-%2076045%20-%20452-02-001%20-%20SWTI%20COMPONENT%20NOIE%20FOR%20SCHEMATIC%20SEE%20%28traced%29.json) (the CAD file: `1976 - 76045 - 452-02-001 - SWTI COMPONENT NOIE FOR SCHEMATIC SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M5200](../../../PAGES/M5200.md)
 - **Size:** 7,508,221 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-096-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 172 rings, 1,653 straight (4,730 mm) / 308 curved (402 mm); text 233 rings, 1,436 straight (1,460 mm) / 488 curved (637 mm); tb 2 rings, 46 straight (103 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 2,354 paths (51 closed); straight 3,524 mm, curved 96.7 mm; horizontal 1,693 mm, vertical 834 mm, diagonal 997 mm
+- **Circles and arcs:** 5 circles, 14 arcs; largest r 3.3 @ (252.9, 148.6), r 3.3 @ (292.5, 148.9), r 1.0 @ (83.8, 103.1), r 0.9 @ (81.8, 103.1)
+- **Closed boxes:** 2; named: SEGMENT DISPLAY 5082 7650
+- **Words (OCR):** 26 in 25 lines: SEGMENT · DISPLAY · 5082 7650 · MOTHERBOARD · DST · DAUGHTERBOARD · DS2 · PoweR · POWER · MOTHERBOARD · +Sv · DAUGHTERBOARD
+- **Title block:** (344, 31)–(432, 48) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 9 connected wire groups from 101 runs; labelled ends: 293 mm → DAUGHTERBOARD; 98 mm → DAUGHTERBOARD; 6 mm → MANUAL, RESET, Sw
+
+Every curve, box, word and wire group: [1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (traced).json](1985%20-%20M5200%20-%20B%2014-096-02-001%20-%20SA14-096%20-%20DISPLAY%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200 - B 14-096-02-001 - SA14-096 - DISPLAY ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

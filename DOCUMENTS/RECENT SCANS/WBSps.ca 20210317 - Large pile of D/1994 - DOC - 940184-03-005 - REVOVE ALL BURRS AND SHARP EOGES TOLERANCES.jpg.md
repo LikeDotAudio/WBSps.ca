@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 13,507,351 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940184-03-005, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 42–431 mm across, 7–230 mm up
+- **Outlines:** line 356 rings, 3,273 straight (9,195 mm) / 594 curved (717 mm); text 206 rings, 1,241 straight (1,220 mm) / 384 curved (494 mm); tb 16 rings, 150 straight (183 mm) / 27 curved (31.7 mm)
+- **Centre lines:** 5,270 paths (110 closed); straight 6,269 mm, curved 9.3 mm; horizontal 2,690 mm, vertical 1,349 mm, diagonal 2,231 mm
+- **Circles and arcs:** 1 circles, 3 arcs; largest r 0.8 @ (214.4, 195.7)
+- **Closed boxes:** 11 (4 in the title block); named: TURRET BASE (LARGE); 940184-03-005
+- **Words (OCR):** 21 in 18 lines: CR,S: 0036 · THICK · KATERIAL: · 0105 · ThICK · 0,250 · Djco · MATERIAL: SEE BODY OF DRAMNG: · FINISH:  SAND 120 GRIT AND PAINT · TEXTURED BROHN (438C) · TEXCOTE MNY: · WBS
+- **Title block:** (343, 22)–(427, 39) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940184-03-005 - REVOVE ALL BURRS AND SHARP EOGES TOLERANCES (traced).json](1994%20-%20DOC%20-%20940184-03-005%20-%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20EOGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940184-03-005 - REVOVE ALL BURRS AND SHARP EOGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

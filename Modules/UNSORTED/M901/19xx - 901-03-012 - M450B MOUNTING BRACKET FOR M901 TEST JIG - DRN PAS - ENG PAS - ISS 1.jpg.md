@@ -22,6 +22,19 @@ Wiki page: [M901](../../../PAGES/M901.md)
 - **Size:** 888,262 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 901-03-012, size B 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px); scale DISC NO: MA93OO2
+- **Ink extent:** 40–414 mm across, 13–264 mm up
+- **Outlines:** line 101 rings, 2,300 straight (7,797 mm) / 199 curved (268 mm); text 559 rings, 3,454 straight (3,835 mm) / 1,189 curved (1,634 mm); tb 19 rings, 366 straight (1,644 mm) / 15 curved (23.4 mm)
+- **Centre lines:** 4,997 paths (96 closed); straight 7,815 mm, curved 3.5 mm; horizontal 2,915 mm, vertical 2,816 mm, diagonal 2,084 mm
+- **Circles and arcs:** 0 circles, 1 arcs
+- **Closed boxes:** 4
+- **Words (OCR):** 80 in 64 lines: 901-03-012-1 · 901-03-012-2 · 2.000 · 0.375 · 1.500 · 2.125 · 2.125 · 0.750 · 0.500 · 1.750 · 0.400 · 1.900
+- **Title block:** (300, 12)–(421, 62) mm: ISSUE · REVSION · APP · WBS · WARD-BECK · SYSTEMS · DRN; · PAS · M45OB MOUNTING · ENG_ · PAS · BRACKET FOR M9O1 · CKD: · APP. · TEST JIG · SCALE DISC NO: MA93OO2 · 901-03-012 · ISSUE · 1:1 CODE: MM901
+
+Every curve, box, word and wire group: [19xx - 901-03-012 - M450B MOUNTING BRACKET FOR M901 TEST JIG - DRN PAS - ENG PAS - ISS 1 (traced).json](19xx%20-%20901-03-012%20-%20M450B%20MOUNTING%20BRACKET%20FOR%20M901%20TEST%20JIG%20-%20DRN%20PAS%20-%20ENG%20PAS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 901-03-012 - M450B MOUNTING BRACKET FOR M901 TEST JIG - DRN PAS - ENG PAS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

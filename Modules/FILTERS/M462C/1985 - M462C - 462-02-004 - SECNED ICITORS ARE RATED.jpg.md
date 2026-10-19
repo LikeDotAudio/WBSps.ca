@@ -11,6 +11,20 @@ Wiki page: [M462C](../../../PAGES/M462C.md)
 - **Size:** 2,340,051 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 462-02-004, size B (assumed) 319 × 432 mm, 1478 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–316 mm across, 0–415 mm up
+- **Outlines:** line 910 rings, 10,393 straight (13,349 mm) / 2,267 curved (2,716 mm); text 128 rings, 1,005 straight (1,208 mm) / 277 curved (423 mm); tb 2 rings, 57 straight (148 mm) / 1 curved (1.6 mm)
+- **Centre lines:** 14,290 paths (118 closed); straight 10,111 mm, curved 93.6 mm; horizontal 3,606 mm, vertical 2,560 mm, diagonal 3,944 mm
+- **Circles and arcs:** 0 circles, 34 arcs
+- **Closed boxes:** 2
+- **Words (OCR):** 18 in 16 lines: Lino · 4no · Jno · Lino · 12002 · Jno 6z0 · +72v · SECNed · Ioov: · WBS WARD-BECK SYSTEMS · M462C · STEREO EQUALIZER
+- **Title block:** (203, 38)–(319, 63) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 63 connected wire groups from 887 runs; labelled ends: 128 mm → 12002; 126 mm → 12002; 68 mm → Lino; 61 mm → Lino; 39 mm → Lino
+
+Every curve, box, word and wire group: [1985 - M462C - 462-02-004 - SECNED ICITORS ARE RATED (traced).json](1985%20-%20M462C%20-%20462-02-004%20-%20SECNED%20ICITORS%20ARE%20RATED%20%28traced%29.json) (the CAD file: `1985 - M462C - 462-02-004 - SECNED ICITORS ARE RATED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

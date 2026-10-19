@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,465,618 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960296-03-004, size B (assumed) 432 × 276 mm, 2000 × 1279 px traced (0.216 mm/px)
+- **Ink extent:** 28–432 mm across, 5–262 mm up
+- **Outlines:** line 923 rings, 6,903 straight (16,296 mm) / 1,336 curved (2,325 mm); text 287 rings, 1,516 straight (1,385 mm) / 516 curved (652 mm); tb 56 rings, 405 straight (371 mm) / 87 curved (95.2 mm)
+- **Centre lines:** 7,708 paths (260 closed); straight 9,813 mm, curved 867 mm; horizontal 3,933 mm, vertical 3,406 mm, diagonal 2,474 mm
+- **Circles and arcs:** 22 circles, 33 arcs; largest r 6.2 @ (175.9, 177.6), r 6.2 @ (159.4, 177.9), r 6.2 @ (296.8, 169.7), r 6.2 @ (280.4, 169.9)
+- **Closed boxes:** 32 (13 in the title block)
+- **Dots (junctions):** 5
+- **Words (OCR):** 40 in 36 lines: 17.100 · PMCHE' · I.JCO · DETAI · 0,700 · 3.s0 · REC'D · DFTA · 0.468 · 025t · PLACEC · 4UUKG
+- **Title block:** (335, 4)–(423, 37) mm: WBS · WARD-BECK SYSTEMS · REAR PANEL · SCALE · 960296-03-004
+
+Every curve, box, word and wire group: [1996 - 960296 - DOC - 960296-03-004 - NOTE REMOVE ALL BURRS AVD SHARP EDGES TOLERANCES (traced).json](1996%20-%20960296%20-%20DOC%20-%20960296-03-004%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AVD%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1996 - 960296 - DOC - 960296-03-004 - NOTE REMOVE ALL BURRS AVD SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

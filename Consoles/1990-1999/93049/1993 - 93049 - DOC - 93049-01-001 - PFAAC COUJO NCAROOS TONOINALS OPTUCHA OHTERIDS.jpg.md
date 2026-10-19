@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,495,022 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93049-01-001, size B (assumed) 432 × 281 mm, 2000 × 1303 px traced (0.216 mm/px); scale |DSC NO;
+- **Ink extent:** 0–421 mm across, 7–277 mm up
+- **Outlines:** line 3,617 rings, 30,717 straight (39,398 mm) / 5,899 curved (10,464 mm); text 234 rings, 1,385 straight (1,318 mm) / 412 curved (528 mm); tb 37 rings, 265 straight (268 mm) / 52 curved (65.9 mm)
+- **Centre lines:** 48,843 paths (393 closed); straight 34,242 mm, curved 22.7 mm; horizontal 13,778 mm, vertical 12,044 mm, diagonal 8,419 mm
+- **Circles and arcs:** 827 circles, 9 arcs; largest r 2.0 @ (195.4, 186.4), r 2.0 @ (195.4, 212.3), r 2.0 @ (195.4, 208.6), r 1.9 @ (169.7, 193.9)
+- **Closed boxes:** 193 (14 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 17 lines: LEGEND: · CROSSPOINT · CROSSPOINT NORMALLY 0  SWITCHED · (48 INPUTS · QUTPUTS) · 4a5i? · BUNTER AMPUFIER · (12 SECTIONS) · 33 · WARD-BECK   SYSTEMS · WBS · CBC FREDERICTON
+- **Title block:** (338, 4)–(426, 39) mm: WARD-BECK   SYSTEMS · WBS · CBC FREDERICTON · 48x48 MicroCOM · INTERCOM FUNCTIONAL · SCALE |DSC NO; · 93049-01-001 · CODE: 9304oF01
+- **Wiring (first pass):** 317 connected wire groups from 6,614 runs; labelled ends: 46 mm → 33; 9 mm → 33; 9 mm → (12 SECTIONS); 7 mm → BUNTER AMPUFIER
+
+Every curve, box, word and wire group: [1993 - 93049 - DOC - 93049-01-001 - PFAAC COUJO NCAROOS TONOINALS OPTUCHA OHTERIDS (traced).json](1993%20-%2093049%20-%20DOC%20-%2093049-01-001%20-%20PFAAC%20COUJO%20NCAROOS%20TONOINALS%20OPTUCHA%20OHTERIDS%20%28traced%29.json) (the CAD file: `1993 - 93049 - DOC - 93049-01-001 - PFAAC COUJO NCAROOS TONOINALS OPTUCHA OHTERIDS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

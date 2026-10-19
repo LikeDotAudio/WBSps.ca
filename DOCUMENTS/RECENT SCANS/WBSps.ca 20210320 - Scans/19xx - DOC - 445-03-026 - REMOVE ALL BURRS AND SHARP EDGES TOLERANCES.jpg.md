@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,867,494 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 445-03-026, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 38–431 mm across, 2–298 mm up
+- **Outlines:** line 235 rings, 3,617 straight (12,664 mm) / 421 curved (733 mm); text 901 rings, 5,507 straight (6,396 mm) / 1,786 curved (2,491 mm); tb 1 rings, 9 straight (11.4 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 6,127 paths (143 closed); straight 10,878 mm, curved 237 mm; horizontal 5,139 mm, vertical 2,501 mm, diagonal 3,238 mm
+- **Circles and arcs:** 7 circles, 25 arcs; largest r 1.6 @ (201.4, 221.0), r 1.6 @ (163.1, 220.8), r 1.2 @ (163.1, 220.9), r 1.2 @ (249.8, 71.7)
+- **Closed boxes:** 17 (6 in the title block); named: REVSION; M445A AND PPM BRACKET FISH PAPER LIGHT B; 445-03-026; SSUE
+- **Words (OCR):** 108 in 88 lines: 7.076 · 6.518 · 4.268 · 445_03_026/2 · 2.808 · 0.558 · LIGHT BAR FISH · PAPER · 2 REQUIRED /UNIT · 0.430 · MATL: 0.019 THK. FISH · PAPER
+- **Title block:** (274, 22)–(328, 66) mm: ISSUE · DRN. WS · ENG. WS · CKD: · APP · SCALE · DISC NOM: ]4445 · CODE: MM445-26
+
+Every curve, box, word and wire group: [19xx - DOC - 445-03-026 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](19xx%20-%20DOC%20-%20445-03-026%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `19xx - DOC - 445-03-026 - REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

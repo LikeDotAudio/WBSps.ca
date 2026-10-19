@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,018,551 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 774-03-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale 1:1
+- **Ink extent:** 0–431 mm across, 9–299 mm up
+- **Outlines:** line 359 rings, 5,515 straight (11,350 mm) / 769 curved (1,026 mm); text 499 rings, 3,566 straight (4,336 mm) / 1,023 curved (1,552 mm); tb 12 rings, 185 straight (373 mm) / 34 curved (48.8 mm)
+- **Centre lines:** 11,031 paths (94 closed); straight 10,614 mm, curved 35.9 mm; horizontal 4,765 mm, vertical 2,053 mm, diagonal 3,796 mm
+- **Circles and arcs:** 2 circles, 5 arcs; largest r 1.5 @ (7.6, 215.0), r 1.5 @ (11.7, 215.0)
+- **Closed boxes:** 17 (8 in the title block); named: CHAHPHER 062; 7/e31; '128 DiA NK_SSK_Holis; Jne8i
+- **Words (OCR):** 61 in 50 lines: 4.00 · 1.45 · F.OO · ~128 DIA. ~ 2PLACES · 1.45 · 1.100- · .128 DIA.~2 PLACES · OO · 1.00 · 2.00 · 062 · TyP
+- **Title block:** (278, 5)–(431, 72) mm: Jne8i · '128 DiA NK_SSK_Holis 61 · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: / Madons_ · ENG. MpW · M774 · CKD · HEATSINKS · APP Qml · SCALE 1:1 · ISSUE · 015 · 774-03-002 · AX 1.005
+
+Every curve, box, word and wire group: [19xx - DOC - 774-03-002 - REMOVE BURRS (traced).json](19xx%20-%20DOC%20-%20774-03-002%20-%20REMOVE%20BURRS%20%28traced%29.json) (the CAD file: `19xx - DOC - 774-03-002 - REMOVE BURRS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

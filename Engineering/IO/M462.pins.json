@@ -1,0 +1,259 @@
+{
+ "code": "M462",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "J4",
+   "rows": 8,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "OUTPUT OF T HL 8-109A 1 ACTHELY",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "a53853d6c6893adca67e0135c7055ce990076166d974ae5ed1d92f7fc4a83005",
+    "file": "Modules/FILTERS/M462/1978 - M462 - M562 - Equalizer.pdf",
+    "page": 6
+   },
+   "quote": "Trans ient frte operation of the fnsert l onpushbutton Is ensured by e_ployf nll a _ate -befo re _b reak switch co n f i gu r a t i o n _ The output of t hl 8-109A 1$ acthely balanced and Is b rought out at pins 15 a nd 16 o f the edge c on ne c t or.",
+   "also": []
+  },
+  {
+   "conn": "J4",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "e8827c8d0673a378ae866ad146b82e4300b454a3132861e99e698c0a0c946e18",
+    "file": "PHOTOS/Drawings/1976 - EQUALIZER MODULE SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "0 8 4 J# E I 4 01 4 2 J' 0 J 4 :8 2 # 42 3 6 5",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "EQ IN LEFT",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462/M462.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "EQ IN RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M462/M462.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "EQ IN LEFT",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462/M462.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "EQ IN RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M462/M462.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "EQ OUT LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462/M462.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "EQ OUT RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M462/M462.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "EQ OUT LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462/M462.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "EQ OUT RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M462/M462.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462/M462.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462/M462.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M462/M462.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462/M462.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M462/M462.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

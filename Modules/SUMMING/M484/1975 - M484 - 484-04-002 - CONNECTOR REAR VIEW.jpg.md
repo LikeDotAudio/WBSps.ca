@@ -11,6 +11,16 @@ Wiki page: [M484](../../../PAGES/M484.md)
 - **Size:** 2,203,614 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 484-04-002, size B (assumed) 432 × 342 mm, 2000 × 1586 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–422 mm across, 0–342 mm up
+- **Outlines:** line 239 rings, 6,802 straight (11,267 mm) / 778 curved (1,258 mm); text 236 rings, 2,060 straight (2,454 mm) / 566 curved (874 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.5 @ (83.4, 81.7)
+- **Closed boxes:** 65
+
+Every curve, box, word and wire group: [1975 - M484 - 484-04-002 - CONNECTOR REAR VIEW (traced).json](1975%20-%20M484%20-%20484-04-002%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1975 - M484 - 484-04-002 - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

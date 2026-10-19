@@ -11,6 +11,17 @@ Wiki page: [M522](../../../PAGES/M522.md)
 - **Size:** 425,529 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 522-04-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–339 mm across, 10–317 mm up
+- **Outlines:** line 217 rings, 3,332 straight (9,037 mm) / 330 curved (600 mm); text 74 rings, 413 straight (400 mm) / 174 curved (226 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.1 @ (288.6, 145.8), r 5.0 @ (289.3, 186.9), r 5.0 @ (290.4, 290.0), r 5.0 @ (289.7, 237.7)
+- **Closed boxes:** 11; named: R44; R43; R16; R18; R17; R1S; R27; R2B
+- **Words (OCR):** 16 in 10 lines: R44 · R43 · R16 R18 R17 · R1S · Sw2 · R2B R27 · WBS 14-110 · CANADA · NQIEi · Not SUPPL IED M522
+
+Every curve, box, word and wire group: [19xx - M522 - 522-04-001 - NQTE NOT SUPPL IED (traced).json](19xx%20-%20M522%20-%20522-04-001%20-%20NQTE%20NOT%20SUPPL%20IED%20%28traced%29.json) (the CAD file: `19xx - M522 - 522-04-001 - NQTE NOT SUPPL IED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

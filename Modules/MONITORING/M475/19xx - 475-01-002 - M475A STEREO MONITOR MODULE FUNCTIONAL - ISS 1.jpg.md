@@ -22,6 +22,19 @@ M475A stereo monitor module functional diagram, cropped.
 - **Size:** 199,004 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 475-01-002, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–325 mm across, 2–432 mm up
+- **Outlines:** line 381 rings, 4,575 straight (5,082 mm) / 761 curved (874 mm); text 207 rings, 1,515 straight (1,694 mm) / 421 curved (601 mm); tb 2 rings, 73 straight (152 mm) / 2 curved (3.2 mm)
+- **Centre lines:** 13,597 paths (60 closed); straight 6,349 mm, curved 88.7 mm; horizontal 1,615 mm, vertical 1,537 mm, diagonal 3,197 mm
+- **Circles and arcs:** 5 circles, 6 arcs; largest r 2.9 @ (63.0, 111.7), r 2.9 @ (139.1, 208.3), r 2.8 @ (52.3, 182.1), r 1.0 @ (119.7, 289.8)
+- **Words (OCR):** 28 in 27 lines: BOOSTER · AMPL IF IER · 0iRECT · LEFT · output · dBm · Muted · DIRECT · RIGhT · output · dBm · Muted
+- **Title block:** (206, 50)–(331, 74) mm: WBS · WARD-BECK BYSTEMB
+- **Wiring (first pass):** 41 connected wire groups from 193 runs; labelled ends: 109 mm → 0iRECT; 100 mm → DIRECT; 68 mm → BOOSTER, AMPL IF IER; 24 mm → DIRECT, Muted; 24 mm → 0iRECT, Muted
+
+Every curve, box, word and wire group: [19xx - 475-01-002 - M475A STEREO MONITOR MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20475-01-002%20-%20M475A%20STEREO%20MONITOR%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 475-01-002 - M475A STEREO MONITOR MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -23,6 +23,19 @@ Wide schematic of a relay switcher module with many relays, title block small at
 - **Size:** 1,615,263 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 711-02-001, size B 432 × 204 mm, 2000 × 944 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 65–204 mm up
+- **Outlines:** line 882 rings, 8,703 straight (15,419 mm) / 1,808 curved (2,235 mm); text 476 rings, 2,448 straight (2,255 mm) / 920 curved (1,159 mm)
+- **Centre lines:** 10,622 paths (201 closed); straight 10,778 mm, curved 292 mm; horizontal 4,052 mm, vertical 2,930 mm, diagonal 3,796 mm
+- **Circles and arcs:** 3 circles, 80 arcs; largest r 3.8 @ (19.8, 96.7), r 3.6 @ (192.8, 96.0), r 0.9 @ (178.9, 164.3)
+- **Closed boxes:** 10
+- **Words (OCR):** 46 in 45 lines: NOTES: · NOTE · NOTE · UNLESS SPECIFIED · VELUE ND DIODES ARE IN4OO} · RIS <r14 · RI7 <RI8 · Rzi <r22 · REFER · DwG · 1-127O · FOR
+- **Wiring (first pass):** 83 connected wire groups from 871 runs; labelled ends: 1151 mm → CR3A, CR39, CR3;, Ez8; 722 mm → PELAY SWITCHER MODULE, SCHEMATIC, 02-001; 200 mm → RIS <r14, Rzi <r22, RI7 <RI8; 155 mm → RIS <r14, RI7 <RI8, Rzi <r22; 113 mm → CRis, CRZO, CRI6
+
+Every curve, box, word and wire group: [1971 - 711-02-001 - RELAY SWITCHER MODULE SCHEMATIC - ISS 4 (traced).json](1971%20-%20711-02-001%20-%20RELAY%20SWITCHER%20MODULE%20SCHEMATIC%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1971 - 711-02-001 - RELAY SWITCHER MODULE SCHEMATIC - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

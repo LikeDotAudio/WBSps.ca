@@ -11,6 +11,18 @@ Wiki page: [M528](../../../PAGES/M528.md)
 - **Size:** 3,552,854 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 528-06-001, size B (assumed) 378 × 432 mm, 1753 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–366 mm across, 0–432 mm up
+- **Outlines:** line 913 rings, 11,011 straight (17,199 mm) / 3,114 curved (3,348 mm); text 1,009 rings, 7,929 straight (7,654 mm) / 2,895 curved (3,319 mm); tb 149 rings, 1,528 straight (1,888 mm) / 454 curved (503 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 5.7 @ (49.7, 382.8), r 5.7 @ (49.5, 181.9), r 5.7 @ (69.9, 188.8), r 5.7 @ (128.8, 188.7)
+- **Closed boxes:** 21; named: SSDZOSPP DC12; SSDZOSPP DC12; K2 SSDZOSPP DC12; K2 SSDZOSPP DC12; TIP29B; TIPSOB
+- **Words (OCR):** 109 in 101 lines: 191 · 228710 · NESS3N · NESSS4N · 23 · R8x · WBS · 84 · CANADA · 228710 82 US · C1O · 14-111
+- **Title block:** (228, 57)–(374, 395) mm: WBS · CANADA · C1O · 14-111 · 220 · n1o · ISSUE · 1-J29 · R2z 2k2 · 9K1 · CRS !N4148 · R71 · 1/35 · R29 · R3? · R69 · CR6 IN4148 · RZ0 · TN2102 · 2-J29 · 31 · 09 · PN3645 · PN3569 · WBS WARD-BECK sysT
+
+Every curve, box, word and wire group: [19xx - M528 - B 528-06-001 - M528 DUAL AUXILIARY MODULE - COMPONENT LAYOUT (traced).json](19xx%20-%20M528%20-%20B%20528-06-001%20-%20M528%20DUAL%20AUXILIARY%20MODULE%20-%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M528 - B 528-06-001 - M528 DUAL AUXILIARY MODULE - COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

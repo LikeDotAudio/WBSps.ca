@@ -25,6 +25,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 
 - **1990** (month): `Nov 90` — …TOLERANCES: XX=+/-0.015 XXX=+/-0.005 DRN. DRG ENG. CKD. G* Nov 90 APP. SCALE DISC NO: 381 4:1 CODE: 800oM12 RETAINING CLIP IS…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8000-03-012, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 381
+- **Ink extent:** 0–432 mm across, 7–297 mm up
+- **Outlines:** line 212 rings, 2,903 straight (5,697 mm) / 484 curved (556 mm); text 327 rings, 2,258 straight (2,806 mm) / 726 curved (1,089 mm); tb 19 rings, 162 straight (290 mm) / 28 curved (40.8 mm)
+- **Centre lines:** 6,407 paths (68 closed); straight 5,710 mm, curved 97.7 mm; horizontal 2,222 mm, vertical 1,208 mm, diagonal 2,279 mm
+- **Circles and arcs:** 1 circles, 6 arcs; largest r 4.3 @ (211.6, 207.0)
+- **Closed boxes:** 15 (10 in the title block); named: ISSUE; 8000-03-012; SCALE 4:1; CODE:
+- **Words (OCR):** 43 in 32 lines: 0.561 · 0.155 · 0.093 DIA · 0.468 · APPROX 0.125 · APPROX · IISSUE DATE · REVSION · APP · WBS · WARD-BECK · SYSTEMS
+- **Title block:** (262, 29)–(432, 97) mm: IISSUE DATE · REVSION · APP · WBS · WARD-BECK · SYSTEMS · DRN; · DRG · ENG · RETAINING CLIP · Gr · CKD: · APP · SCALE DISC NO: 381 · ISSUE · 8000-03-012 · 4:1 CODE:
+
+Every curve, box, word and wire group: [1990 - 8000-03-012 - RETAINING CLIP - DRN DRG - ISS 1 (traced).json](1990%20-%208000-03-012%20-%20RETAINING%20CLIP%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 8000-03-012 - RETAINING CLIP - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

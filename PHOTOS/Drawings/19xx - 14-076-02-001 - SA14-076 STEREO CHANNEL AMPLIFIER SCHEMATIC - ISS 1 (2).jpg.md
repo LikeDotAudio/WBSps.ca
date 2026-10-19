@@ -23,6 +23,20 @@ SA14-076 stereo channel amplifier schematic on a spiral-bound manual page.
 - **Size:** 3,399,494 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-076-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–289 mm up
+- **Outlines:** line 890 rings, 8,755 straight (11,665 mm) / 2,004 curved (2,376 mm); text 141 rings, 1,021 straight (990 mm) / 304 curved (389 mm); tb 2 rings, 36 straight (97.8 mm) / 2 curved (3.1 mm)
+- **Centre lines:** 12,060 paths (252 closed); straight 8,613 mm, curved 120 mm; horizontal 2,855 mm, vertical 2,215 mm, diagonal 3,543 mm
+- **Circles and arcs:** 2 circles, 24 arcs; largest r 3.2 @ (135.8, 221.5), r 3.0 @ (136.5, 134.9)
+- **Closed boxes:** 1
+- **Words (OCR):** 20 in 20 lines: DUIPUT · 120/10 · 1{10 · 170/10 · INPut · 270/10 · 220/10 · ContaOL · 43 · CAPACITCAS · caz, P1 , · compoteht
+- **Title block:** (351, 31)–(432, 48) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 93 connected wire groups from 789 runs; labelled ends: 104 mm → 43, 0.fiico; 67 mm → 43; 64 mm → 0.fiico; 42 mm → 270/10; 36 mm → 220/10
+
+Every curve, box, word and wire group: [19xx - 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER SCHEMATIC - ISS 1 (2) (traced).json](19xx%20-%2014-076-02-001%20-%20SA14-076%20STEREO%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER SCHEMATIC - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

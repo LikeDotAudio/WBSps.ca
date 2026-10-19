@@ -23,6 +23,20 @@ CBC Regina central electronics functional matrix diagram with title block at bot
 - **Size:** 826,452 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 960296-01-001, size D 864 × 550 mm, 2000 × 1274 px traced (0.432 mm/px)
+- **Ink extent:** 73–833 mm across, 8–496 mm up
+- **Outlines:** line 1,090 rings, 9,082 straight (33,240 mm) / 1,186 curved (2,935 mm); text 572 rings, 3,319 straight (6,260 mm) / 1,016 curved (2,549 mm); tb 24 rings, 323 straight (2,369 mm) / 16 curved (42.5 mm)
+- **Centre lines:** 15,425 paths (203 closed); straight 25,745 mm, curved 286 mm; horizontal 7,274 mm, vertical 9,371 mm, diagonal 9,100 mm
+- **Circles and arcs:** 7 circles, 31 arcs; largest r 4.1 @ (659.0, 412.0), r 4.1 @ (658.7, 430.0), r 2.7 @ (122.9, 385.6), r 2.5 @ (540.4, 77.1)
+- **Closed boxes:** 28
+- **Words (OCR):** 79 in 75 lines: PROGRAM MUTE (R) · Mb2O0 Mbzoi · CIHSCLE · LECEND · CROSSPOINT NORMALLY ON · SWITCHED   OFF · CROSSPOINT NORMALLY · OFF · SWITCHED ON · NQIE: · M82O1 OFF /ON CONTROLS OPERATED BY REVOTE TURRET · OR AUXILARY ON AR CONTROL UNIT:
+- **Title block:** (667, 5)–(849, 82) mm: APP . · SSUEJ · REVSION · SYSTEMS · WBS · WARD-BECK · DENG DRC · CBC REGINA · ENG. · CENTRAL ELECTRONICS · FUNCTIONAL · APP_ · SCALE · DISC NO: SYS01 · 960296-01-001 · SSUE · CODE: 96296F01
+- **Wiring (first pass):** 216 connected wire groups from 1,559 runs; labelled ends: 512 mm → PROCRAM, LRy, HDST, SPKR; 202 mm → CCNTRILS; 140 mm → IL R, HDST, SPKR; 118 mm → MZO1D; 117 mm → CCNTRILS, M8208
+
+Every curve, box, word and wire group: [1996 - 960296-01-001 - CBC REGINA CENTRAL ELECTRONICS FUNCTIONAL - DRN DRG - ISS 1 (traced).json](1996%20-%20960296-01-001%20-%20CBC%20REGINA%20CENTRAL%20ELECTRONICS%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960296-01-001 - CBC REGINA CENTRAL ELECTRONICS FUNCTIONAL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

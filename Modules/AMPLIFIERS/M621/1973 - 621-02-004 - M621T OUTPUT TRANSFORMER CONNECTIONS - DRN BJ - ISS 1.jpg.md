@@ -29,6 +29,20 @@ Output transformer connection diagram for M621T.
 
 - **1973** (labelled): `DATE SEPT 73` — …2 IOO 0 A B B D ON MATL. WBS WARD-BECK BYSTEMs LTD; DRN: BJ DATE SEPT 73 CKD_ Rc SCALE XX TOLS _ ERa M 62it OUTPUT TRANSFORMER CONNE…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 621-02-004, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 274 rings, 8,762 straight (11,892 mm) / 1,254 curved (1,969 mm); text 274 rings, 3,175 straight (3,818 mm) / 718 curved (1,215 mm); tb 31 rings, 450 straight (541 mm) / 72 curved (93.0 mm)
+- **Centre lines:** 4,656 paths (85 closed); straight 9,849 mm, curved 277 mm; horizontal 4,021 mm, vertical 2,626 mm, diagonal 3,202 mm
+- **Circles and arcs:** 27 circles, 17 arcs; largest r 3.2 @ (206.5, 276.3), r 3.1 @ (237.5, 219.6), r 3.1 @ (102.0, 266.9), r 3.1 @ (132.4, 218.6)
+- **Closed boxes:** 13 (3 in the title block); named: MATL.; WBS WAAD-BECK BYSTEMS LTD.; M 62it OUTPUT TRANSFORME R CONNECT IONS; FINISH; TOLS _; ISS.; 621-02-004
+- **Words (OCR):** 39 in 35 lines: R CONNECT IONS · 150 OHM · 600 OHM · OHM · Pi · 160 · 160 · 160 · 150 · 15 · 140 · 14
+- **Title block:** (99, 16)–(250, 87) mm: WBS WAAD-BECK BYSTEMS LTD. · DRN BJ · M 62it · DATE SEPT 73 · OUTPUT TRANSFORME R · Rc · CKD. · SCALE · TOLS _ · 621-02-004
+- **Wiring (first pass):** 72 connected wire groups from 297 runs; labelled ends: 346 mm → ON; 178 mm → R CONNECT IONS; 114 mm → WAAD-BECK, LTD.; 91 mm → 160; 90 mm → 160
+
+Every curve, box, word and wire group: [1973 - 621-02-004 - M621T OUTPUT TRANSFORMER CONNECTIONS - DRN BJ - ISS 1 (traced).json](1973%20-%20621-02-004%20-%20M621T%20OUTPUT%20TRANSFORMER%20CONNECTIONS%20-%20DRN%20BJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 621-02-004 - M621T OUTPUT TRANSFORMER CONNECTIONS - DRN BJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

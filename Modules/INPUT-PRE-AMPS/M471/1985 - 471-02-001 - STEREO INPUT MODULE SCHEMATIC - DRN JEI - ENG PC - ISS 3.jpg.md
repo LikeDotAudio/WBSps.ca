@@ -24,6 +24,20 @@ Wiki page: [M471](../../../PAGES/M471.md)
 - **Size:** 807,087 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 471-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 914 rings, 8,756 straight (19,397 mm) / 1,702 curved (2,164 mm); text 780 rings, 4,802 straight (4,659 mm) / 1,474 curved (1,885 mm); tb 9 rings, 128 straight (156 mm) / 16 curved (17.6 mm)
+- **Centre lines:** 12,806 paths (222 closed); straight 14,306 mm, curved 275 mm; horizontal 5,372 mm, vertical 3,624 mm, diagonal 5,310 mm
+- **Circles and arcs:** 8 circles, 46 arcs; largest r 3.7 @ (61.6, 30.6), r 3.6 @ (53.5, 39.4), r 3.5 @ (60.7, 90.4), r 3.4 @ (68.4, 76.1)
+- **Closed boxes:** 20 (2 in the title block); named: M471 STEREO INPUT MODULE SCHEMATIC; SCAL
+- **Words (OCR):** 157 in 149 lines: Ch on · Sw3 · 2E3 · BALANCE · 2E2 · 2E4 · R56 · 33k · 390 · RLD · 22k · 8-109B
+- **Title block:** (353, 30)–(428, 47) mm: WBS · WAAD-BeCk BysteMS · M471
+- **Wiring (first pass):** 159 connected wire groups from 935 runs; labelled ends: 194 mm → WBS, STEREO INPUT MODULE, SCAL; 147 mm → Swio; 136 mm → POST, 33/i0; 116 mm → SWS, SwA, Swio; 114 mm → 22k, R43
+
+Every curve, box, word and wire group: [1985 - 471-02-001 - STEREO INPUT MODULE SCHEMATIC - DRN JEI - ENG PC - ISS 3 (traced).json](1985%20-%20471-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20JEI%20-%20ENG%20PC%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1985 - 471-02-001 - STEREO INPUT MODULE SCHEMATIC - DRN JEI - ENG PC - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

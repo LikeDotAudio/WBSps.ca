@@ -10,6 +10,20 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 38,935,225 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 900438-01-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC NC;
+- **Ink extent:** 0–428 mm across, 0–271 mm up
+- **Outlines:** line 294 rings, 2,839 straight (5,981 mm) / 482 curved (638 mm); text 484 rings, 3,797 straight (3,323 mm) / 1,066 curved (1,258 mm); tb 25 rings, 336 straight (1,194 mm) / 36 curved (49.5 mm)
+- **Centre lines:** 9,976 paths (151 closed); straight 6,543 mm, curved 48.5 mm; horizontal 2,197 mm, vertical 1,763 mm, diagonal 2,583 mm
+- **Circles and arcs:** 5 circles, 6 arcs; largest r 1.1 @ (86.4, 96.8), r 1.1 @ (70.4, 96.7), r 1.0 @ (102.2, 97.0), r 1.0 @ (115.2, 86.3)
+- **Closed boxes:** 9; named: M495 MONIIOR MODULE; WES_MBL_TLEB; Mi95 YONITOR_MODULE; Ni95NONITOR_MQDNLE; MISIACUE_APLIEIEB; CiSIL IAKBACK MODULE; M625B
+- **Words (OCR):** 106 in 95 lines: MC NPUL_CHANNELS (133 · MONITORING · MMER · START/ON · CH ON · CONTROL · MUTE · M495 MONIIOR MODULE · WES_MBL_TLEB · CONTROLS · EXTERNAL · STOP /OFF
+- **Title block:** (336, 4)–(425, 43) mm: ISSUE DATEL · REMSION · WEIS · WARD-BECK SYSTEMS · DRN: GEB · CHIN RADIO R1400 · ENG; GEB  8/90 · CKD: · RADIO · CONSOLE · DC   FUNCTIONAL · SCALE DISC NC; · 900438-01-002 · SSUE · CODE: 00438F02
+- **Wiring (first pass):** 46 connected wire groups from 310 runs; labelled ends: 124 mm → NPUL_MQDU FS (_14, SIEREO, MAQQEASIEREQ_LNE_INPULMQQuL $; 84 mm → M49OB_MC_INPUI_MODULES; 54 mm → TRANSFER_CONIROL, LENGTH 10 FEET; 48 mm → EuuRE; 48 mm → NPUL_MQDU FS (_14, MAQQEASIEREQ_LNE_INPULMQQuL $
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-01-002 - WER CABLE KLEPOL QUIPUT LENCTIE IRANSFER CONIROL TRANSFER (traced).json](1990%20-%20900438%20-%20900438-01-002%20-%20WER%20CABLE%20KLEPOL%20QUIPUT%20LENCTIE%20IRANSFER%20CONIROL%20TRANSFER%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-01-002 - WER CABLE KLEPOL QUIPUT LENCTIE IRANSFER CONIROL TRANSFER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

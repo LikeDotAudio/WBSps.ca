@@ -20,6 +20,19 @@ Wiki page: [Job-940351](../../../PAGES/Job-940351.md)
 - **Size:** 406,352 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940351-03-001, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px); scale DISC No:
+- **Ink extent:** 60–846 mm across, 14–379 mm up
+- **Outlines:** line 625 rings, 4,032 straight (19,041 mm) / 820 curved (1,940 mm); text 312 rings, 1,808 straight (3,342 mm) / 598 curved (1,496 mm); tb 48 rings, 316 straight (629 mm) / 87 curved (198 mm)
+- **Centre lines:** 6,316 paths (200 closed); straight 13,715 mm, curved 24.6 mm; horizontal 6,529 mm, vertical 3,067 mm, diagonal 4,120 mm
+- **Circles and arcs:** 1 circles, 5 arcs; largest r 2.1 @ (485.1, 144.8)
+- **Closed boxes:** 49 (14 in the title block); named: DETAIL; DETAIL
+- **Words (OCR):** 43 in 37 lines: 3 3 · REC D · 0.310 · 0650 · 1058 · INSIRT FRouTHIS_ · 140_12 · PIcH · 4175 · 2.062 · 3,S0 · 1.875
+- **Title block:** (681, 11)–(858, 79) mm: EVSIdy · WBS · WARD-BECK   SYSTEMS · METER PANEL · ScALE DISC No: · 940351-03-001
+
+Every curve, box, word and wire group: [1994 - 940351-03-001 - METER PANEL - DRN DRG - ISS 1 (traced).json](1994%20-%20940351-03-001%20-%20METER%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940351-03-001 - METER PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

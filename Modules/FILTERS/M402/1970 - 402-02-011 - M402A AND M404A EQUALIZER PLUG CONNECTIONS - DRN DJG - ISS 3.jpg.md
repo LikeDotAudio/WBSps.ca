@@ -22,6 +22,18 @@ Wiki page: [M402](../../../PAGES/M402.md)
 - **Size:** 4,238,593 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 402-02-011, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–285 mm up
+- **Outlines:** line 874 rings, 6,944 straight (8,535 mm) / 1,135 curved (1,601 mm); text 310 rings, 2,702 straight (3,064 mm) / 670 curved (998 mm)
+- **Centre lines:** 4,971 paths (68 closed); straight 6,443 mm, curved 337 mm; horizontal 2,594 mm, vertical 1,347 mm, diagonal 2,502 mm
+- **Circles and arcs:** 14 circles, 55 arcs; largest r 2.3 @ (349.5, 34.8), r 2.3 @ (388.3, 10.2), r 2.1 @ (352.1, 10.0), r 2.0 @ (353.2, 22.0)
+- **Closed boxes:** 13
+- **Wiring (first pass):** 53 connected wire groups from 520 runs
+
+Every curve, box, word and wire group: [1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3 (traced).json](1970%20-%20402-02-011%20-%20M402A%20AND%20M404A%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20DJG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M473B](../../../PAGES/M473B.md)
 - **Size:** 2,175,180 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 473-01-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 815 rings, 9,509 straight (7,661 mm) / 1,832 curved (1,939 mm); text 141 rings, 1,818 straight (1,617 mm) / 452 curved (566 mm)
+- **Centre lines:** 22,873 paths (127 closed); straight 10,484 mm, curved 124 mm; horizontal 2,725 mm, vertical 2,198 mm, diagonal 5,561 mm
+- **Circles and arcs:** 1 circles, 17 arcs; largest r 5.9 @ (82.8, 266.8)
+- **Words (OCR):** 26 in 26 lines: BALANCE · INSERT · SUB ON · To · FROM · INPUTS · BOOSTER · FADER · BALANCE · dBm; 800 · dBm · AMPLIFIER
+- **Wiring (first pass):** 37 connected wire groups from 304 runs; labelled ends: 48 mm → BALANCE, INSERT; 35 mm → BOOSTER, AMPLIFIER, +8 dBm; 35 mm → To; 30 mm → INSERT; 29 mm → SUB ON
+
+Every curve, box, word and wire group: [1984 - M473B - 473-01-003 - BALANCE INSERT FROM BOOSTER BALANCE AMPLIFIER (traced).json](1984%20-%20M473B%20-%20473-01-003%20-%20BALANCE%20INSERT%20FROM%20BOOSTER%20BALANCE%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1984 - M473B - 473-01-003 - BALANCE INSERT FROM BOOSTER BALANCE AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 2,912,114 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940444-04-001, size B (assumed) 432 × 341 mm, 2000 × 1581 px traced (0.216 mm/px); scale DISC NO: 464
+- **Ink extent:** 4–426 mm across, 0–341 mm up
+- **Outlines:** line 1,106 rings, 7,655 straight (26,968 mm) / 1,157 curved (1,584 mm); text 532 rings, 3,263 straight (3,758 mm) / 1,119 curved (1,540 mm); tb 19 rings, 336 straight (2,014 mm) / 15 curved (20.9 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 7.1 @ (332.2, 143.3), r 7.1 @ (332.1, 115.3), r 2.5 @ (231.0, 206.5), r 2.4 @ (230.8, 117.7)
+- **Closed boxes:** 179; named: M90g; M9O1BY 70 ON; M9O1BY 70; M907; Mgo1cy 70 ON; M9o1CY ON; M901CY ON; M9O1CY 70 ON; M9O1CY 70 CH ON; APC-88 APC_88; M9o1cy ON; Mgo1CY CH ON
+- **Dots (junctions):** 33
+- **Words (OCR):** 82 in 56 lines: METER MIc · MIC · LINE · LINE 2 LINE 3 LINE 4 LINE 5 · LINE · SEL: · SEL: · CR MON · M90g M9O1BY M9O1BY M907 Mgo1cy M9o1CY · M901CY M9O1CY M9O1CY · M9o1cy Mgo1CY · M9O1CY M907 M908 M9O5A
+- **Title block:** (130, 9)–(432, 70) mm: ISSUE · REVISION · APP · NQTE: SAS APC-88RS IS SUPPLIED BY OTHERS · AND MECHANICALLY INTEGRATED · WARD-BECK SYSTEMS · ELECTRICALLY · INTO CONSOLE BY WBS. · WBS · DRN. SM · WBZ · BOSTON · ENG_ SM · NEW
+
+Every curve, box, word and wire group: [1994 - M901CY - DOC - 940444-04-001 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE (traced).json](1994%20-%20M901CY%20-%20DOC%20-%20940444-04-001%20-%20OTHERS%20ELECTRICALLY%20AND%20MECHANICALLY%20INTEGRATED%20INTO%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - M901CY - DOC - 940444-04-001 - OTHERS ELECTRICALLY AND MECHANICALLY INTEGRATED INTO CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

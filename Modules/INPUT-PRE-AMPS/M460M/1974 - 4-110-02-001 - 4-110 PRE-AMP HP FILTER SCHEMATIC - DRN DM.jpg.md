@@ -24,6 +24,20 @@ Hand-drawn high pass filter schematic for the 4-110 pre-amp/HP filter, cropped.
 - **Size:** 545,619 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-110-02-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 591 rings, 10,082 straight (13,495 mm) / 1,954 curved (2,398 mm); text 428 rings, 4,994 straight (6,546 mm) / 1,196 curved (2,020 mm); tb 59 rings, 444 straight (627 mm) / 90 curved (124 mm)
+- **Centre lines:** 16,726 paths (85 closed); straight 15,210 mm, curved 169 mm; horizontal 5,391 mm, vertical 3,010 mm, diagonal 6,808 mm
+- **Circles and arcs:** 0 circles, 38 arcs
+- **Closed boxes:** 3; named: MATL; FINISH; 4-110-02-001
+- **Words (OCR):** 70 in 63 lines: HIGH · PASS FILTER · E4 · +21v · R5 · C12 · 18 · 33/10 · Q4 · E5 · BYPASS · 2N4403
+- **Title block:** (114, 17)–(265, 87) mm: WBS WARD-BECK · DRN: · Ro · 4-110 · DATE 8 MAR74 · PRE-AMPIHP FILTER · CKD · SCALE · SCHEMATIC · TOLS _ · 4-110-02-001
+- **Wiring (first pass):** 40 connected wire groups from 369 runs; labelled ends: 444 mm → E4, +21v, R5, C9; 438 mm → *C1O, 33pF, Ris, 470k; 351 mm → E9, 0-21v, COMPONENT; 238 mm → COMPONENT, SED, On, 10; 237 mm → DRN:, DATE 8 MAR74, CKD
+
+Every curve, box, word and wire group: [1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM (traced).json](1974%20-%204-110-02-001%20-%204-110%20PRE-AMP%20HP%20FILTER%20SCHEMATIC%20-%20DRN%20DM%20%28traced%29.json) (the CAD file: `1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

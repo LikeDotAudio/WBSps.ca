@@ -21,6 +21,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 4,204,311 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-036, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 0–844 mm across, 16–560 mm up
+- **Outlines:** line 274 rings, 2,377 straight (15,820 mm) / 345 curved (898 mm); text 240 rings, 1,356 straight (2,606 mm) / 478 curved (1,222 mm); tb 21 rings, 169 straight (372 mm) / 45 curved (108 mm)
+- **Centre lines:** 3,727 paths (95 closed); straight 10,831 mm, curved 26.6 mm; horizontal 4,326 mm, vertical 3,450 mm, diagonal 3,055 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 33 (5 in the title block); named: PART NUMBER; MODULE COUNT; 26.50; 4460; 950-0}; REAR PANEL; DISC ND; 900-03-036
+- **Words (OCR):** 28 in 22 lines: PcH · 0.405 · REC D · 0IS Dp · 1.20 IP_ · PART NUMBER MODULE COUNT · MATERIAL: ALUK ALLOY 0.064 ThICK · 26.50 · FINISH: SAND 120 GRIT AND PAINT · 4460 · TEXTURED BROWN (438C) · 950-0}
+- **Title block:** (675, 37)–(854, 80) mm: WBS · WARD-BECK  SYSTEMS · IDRN: · REAR PANEL
+
+Every curve, box, word and wire group: [19xx - 900-03-036 - REAR PANEL - DRN DRG - ISS 1 (traced).json](19xx%20-%20900-03-036%20-%20REAR%20PANEL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-036 - REAR PANEL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

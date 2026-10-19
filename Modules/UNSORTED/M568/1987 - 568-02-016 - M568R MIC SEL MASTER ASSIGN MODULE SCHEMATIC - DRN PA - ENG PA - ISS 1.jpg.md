@@ -23,6 +23,18 @@ Wiki page: [M568](../../../PAGES/M568.md)
 - **Size:** 3,889,595 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 568-02-016, size B (assumed) 432 × 164 mm, 2000 × 761 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–156 mm up
+- **Outlines:** line 624 rings, 5,590 straight (11,218 mm) / 1,149 curved (1,421 mm); text 132 rings, 862 straight (699 mm) / 244 curved (294 mm)
+- **Centre lines:** 6,806 paths (101 closed); straight 7,158 mm, curved 83.5 mm; horizontal 2,923 mm, vertical 2,179 mm, diagonal 2,057 mm
+- **Circles and arcs:** 1 circles, 28 arcs; largest r 1.3 @ (401.2, 33.4)
+- **Closed boxes:** 31
+- **Wiring (first pass):** 85 connected wire groups from 682 runs
+
+Every curve, box, word and wire group: [1987 - 568-02-016 - M568R MIC SEL MASTER ASSIGN MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1987%20-%20568-02-016%20-%20M568R%20MIC%20SEL%20MASTER%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 568-02-016 - M568R MIC SEL MASTER ASSIGN MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

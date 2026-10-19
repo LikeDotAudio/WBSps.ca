@@ -20,6 +20,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 371,651 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-025, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 115–864 mm across, 0–559 mm up
+- **Outlines:** line 392 rings, 3,028 straight (14,774 mm) / 600 curved (1,430 mm); text 226 rings, 1,280 straight (2,580 mm) / 392 curved (1,011 mm); tb 17 rings, 145 straight (344 mm) / 25 curved (54.3 mm)
+- **Centre lines:** 4,363 paths (136 closed); straight 10,406 mm, curved 20.4 mm; horizontal 5,015 mm, vertical 2,476 mm, diagonal 2,915 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 26 (5 in the title block); named: POWER   DISTRIBUTION BRACKET; 900-03-025; Code;
+- **Words (OCR):** 27 in 24 lines: Red"d · 44.250 · 5F · CEINL · psod · CHAUFER · REC D · KATERIAL: ALUM · ALLOY 080 THICK. · 0,9Je · 0.250 · FINISH:
+- **Title block:** (683, 46)–(852, 79) mm: AEHSCN · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-025 - POWER DISTRIBUTION BRACKET - ISS 3 (traced).json](19xx%20-%20900-03-025%20-%20POWER%20DISTRIBUTION%20BRACKET%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 900-03-025 - POWER DISTRIBUTION BRACKET - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

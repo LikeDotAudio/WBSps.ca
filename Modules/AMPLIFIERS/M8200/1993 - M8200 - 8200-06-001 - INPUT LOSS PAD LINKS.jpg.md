@@ -11,6 +11,18 @@ Wiki page: [M8200](../../../PAGES/M8200.md)
 - **Size:** 1,697,850 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8200-06-001, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–313 mm across, 2–429 mm up
+- **Outlines:** line 790 rings, 6,814 straight (7,926 mm) / 1,810 curved (1,869 mm); text 737 rings, 5,755 straight (5,501 mm) / 1,791 curved (2,027 mm); tb 94 rings, 973 straight (1,137 mm) / 252 curved (297 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 7.8 @ (128.4, 290.9), r 6.4 @ (127.3, 269.0), r 6.4 @ (127.2, 254.1), r 6.3 @ (141.7, 254.1)
+- **Closed boxes:** 7 (1 in the title block); named: LoRI VILSC4; LoRI VILSC4
+- **Words (OCR):** 113 in 92 lines: 814409 S6P · DIF · 590 RI _R · I5K · C14 · WBS · 885 · SOT · C22) 56P · LKI · NOTE · CrI IN7S6A
+- **Title block:** (137, 48)–(320, 306) mm: 590 RI _R · WBS · 885 · LKI · NOTE · CANADA · 4-212 · 34 R42 · R44 · 524 R45 · 32 4 R45 · 17/50 · 452 R6 4 · 6xe · R2 # · '00 LKz · 750 · NOTE · 75 %5 · LkS · 862 @ · C46 C47 · 862-@ · 22/35 22/35 · P
+
+Every curve, box, word and wire group: [1993 - M8200 - 8200-06-001 - INPUT LOSS PAD LINKS (traced).json](1993%20-%20M8200%20-%208200-06-001%20-%20INPUT%20LOSS%20PAD%20LINKS%20%28traced%29.json) (the CAD file: `1993 - M8200 - 8200-06-001 - INPUT LOSS PAD LINKS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

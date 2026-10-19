@@ -24,6 +24,18 @@ Outline drawing of a compressor module package, title block running vertically a
 - **Size:** 307,335 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring C 406-09-001, size C 559 × 395 mm, 1753 × 1240 px traced (0.319 mm/px), turned 270°
+- **Ink extent:** 16–558 mm across, 0–395 mm up
+- **Outlines:** line 1,042 rings, 8,169 straight (18,267 mm) / 1,535 curved (3,180 mm); text 167 rings, 1,089 straight (1,581 mm) / 282 curved (527 mm)
+- **Centre lines:** 5,483 paths (98 closed); straight 10,471 mm, curved 798 mm; horizontal 4,498 mm, vertical 3,208 mm, diagonal 2,765 mm
+- **Circles and arcs:** 24 circles, 38 arcs; largest r 14.6 @ (162.5, 332.7), r 13.7 @ (253.8, 333.5), r 13.7 @ (207.7, 333.3), r 11.4 @ (254.0, 333.2)
+- **Closed boxes:** 18
+- **Wiring (first pass):** 114 connected wire groups from 647 runs
+
+Every curve, box, word and wire group: [1968 - 406-09-001 - COMPRESSOR PACKAGE OUTLINE - DRN C.S. O'CONNELL (traced).json](1968%20-%20406-09-001%20-%20COMPRESSOR%20PACKAGE%20OUTLINE%20-%20DRN%20C.S.%20O%27CONNELL%20%28traced%29.json) (the CAD file: `1968 - 406-09-001 - COMPRESSOR PACKAGE OUTLINE - DRN C.S. O'CONNELL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

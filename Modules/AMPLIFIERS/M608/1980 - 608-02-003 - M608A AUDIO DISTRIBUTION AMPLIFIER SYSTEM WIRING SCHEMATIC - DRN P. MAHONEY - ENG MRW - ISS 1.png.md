@@ -24,6 +24,21 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 1,583,296 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 608-02-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 9–298 mm up
+- **Outlines:** line 416 rings, 5,848 straight (12,412 mm) / 738 curved (1,053 mm); text 757 rings, 5,818 straight (6,944 mm) / 1,496 curved (2,319 mm); tb 29 rings, 238 straight (348 mm) / 45 curved (60.4 mm)
+- **Centre lines:** 12,314 paths (141 closed); straight 12,558 mm, curved 219 mm; horizontal 4,832 mm, vertical 2,784 mm, diagonal 4,942 mm
+- **Circles and arcs:** 10 circles, 25 arcs; largest r 1.3 @ (227.3, 169.3), r 1.3 @ (227.6, 85.6), r 1.3 @ (227.6, 90.8), r 1.3 @ (227.5, 129.9)
+- **Closed boxes:** 79 (6 in the title block); named: P2-16; P2-16
+- **Dots (junctions):** 2
+- **Words (OCR):** 102 in 82 lines: NOTES: · MLTIPLEL · UNIT_WIRING · v /77 DENOTES CHASSIS · WLTHNAMOUNTING EBAAE · DENOTES ELECTRICAL · 0A1 OUTPUTs · GROUND OR COMMON · FOR · MAXIMUM OUTPUT CAPA · P2-8 · (1OF 8)
+- **Title block:** (283, 10)–(432, 78) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · M6o8 · M6o8A · ENG. MeW 1/28 · AUDIO DISTRIBUTION · AMPLIFIER · CKD: · SYSTEM · WIRING  SCHEMAIIC · APP · SCALE · 608-02-003 · ISSUE
+- **Wiring (first pass):** 35 connected wire groups from 449 runs, 2 dotted junctions; labelled ends: 587 mm → IP1-7, P1-1S, PZ-1, P2; 497 mm → TERMINAL; 450 mm → IP1-7, P1-1S, PZ-1, P2; 322 mm → A5, Pt-Z, P1-16, 115VAC; 166 mm → P2
+
+Every curve, box, word and wire group: [1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).json](1980%20-%20608-02-003%20-%20M608A%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SYSTEM%20WIRING%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1980 - 608-02-003 - M608A AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

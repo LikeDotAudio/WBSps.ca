@@ -23,6 +23,21 @@ Wiki page: [M703](../../../PAGES/M703.md)
 - **Size:** 4,290,394 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 703-02-001, size B (assumed) 432 × 176 mm, 2000 × 817 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 0–136 mm up
+- **Outlines:** line 680 rings, 6,889 straight (13,091 mm) / 1,531 curved (1,904 mm); text 208 rings, 1,254 straight (1,127 mm) / 449 curved (557 mm); tb 2 rings, 36 straight (88.3 mm) / 2 curved (4.2 mm)
+- **Centre lines:** 8,976 paths (190 closed); straight 8,769 mm, curved 187 mm; horizontal 3,691 mm, vertical 2,386 mm, diagonal 2,693 mm
+- **Circles and arcs:** 4 circles, 59 arcs; largest r 1.9 @ (207.7, 45.8), r 1.8 @ (225.1, 46.1), r 1.0 @ (326.5, 82.3), r 0.8 @ (319.9, 103.0)
+- **Closed boxes:** 14; named: ISSUD4T; 703-02-00
+- **Dots (junctions):** 1
+- **Words (OCR):** 32 in 31 lines: M63z Power Supply CONNECTORS · AYNAHIC · Loon · Ison · Cioae) · I561 · 92612 · unRegulATED · +324 · P642o5 · 80,3wi MaX · INPUT
+- **Title block:** (358, 20)–(432, 32) mm: ISSUD4T · WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 91 connected wire groups from 617 runs, 2 dotted junctions; labelled ends: 171 mm → DIALICHT; 106 mm → +324; 99 mm → View OF; 74 mm → 526i3; 64 mm → WBS, LBI
+
+Every curve, box, word and wire group: [19xx - 703-02-001 - M703B T TEST FIXTURE SCHEMATIC - DRN HM - ENG HM - ISS 1 (traced).json](19xx%20-%20703-02-001%20-%20M703B%20T%20TEST%20FIXTURE%20SCHEMATIC%20-%20DRN%20HM%20-%20ENG%20HM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 703-02-001 - M703B T TEST FIXTURE SCHEMATIC - DRN HM - ENG HM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

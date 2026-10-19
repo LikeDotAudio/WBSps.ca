@@ -1,0 +1,664 @@
+{
+ "code": "M490E",
+ "name": "Stereo Input Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 4,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 21,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "LEFT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "LEFT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "RIGHT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "PGM",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "RIGHT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "MIC IN A",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "MIC IN A",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-2 \u20ac",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "MIC IN B",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "MIC IN B",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-17 < P2-D",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "ChaNNEL inputs -10 To +icjbm coo_ NoMinal Right ChANNEL P2 -4",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-E",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-5",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "INSERT SEND",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "INSERT SEND",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-J",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-8",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "INPUT",
+   "kind": "in",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "input Pz - 9,k < Shield",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "Pz-M",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "Ext P2-N ON",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "R92 EXt 3k3 Ch P2-12 \u20ac DfF C33",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "> P2-P Ch",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-13 Ch Aon",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2-17 < P2-D",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "01cd23bdee859edcf72def0e4f32cfbf5746c8c90150e3bd33114258c2e6de57",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "Pz-V",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Large pile of D/19xx - DOC - 490-02-006 - RIIZ IOK SWIO ATT CUT STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490E/M490E.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

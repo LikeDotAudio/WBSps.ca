@@ -11,6 +11,16 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,408,941 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 7810-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–426 mm across, 0–287 mm up
+- **Outlines:** line 962 rings, 11,861 straight (16,129 mm) / 1,337 curved (1,431 mm); text 194 rings, 1,189 straight (1,102 mm) / 411 curved (471 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (407.7, 18.0), r 1.4 @ (213.2, 238.5)
+- **Closed boxes:** 3
+
+Every curve, box, word and wire group: [1981 - microCOM - 7810-06-001 - INTERCOM STUDIO TERMINAL PERSPECTIVE LAYOUT (traced).json](1981%20-%20microCOM%20-%207810-06-001%20-%20INTERCOM%20STUDIO%20TERMINAL%20PERSPECTIVE%20LAYOUT%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7810-06-001 - INTERCOM STUDIO TERMINAL PERSPECTIVE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

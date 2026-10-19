@@ -25,6 +25,16 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 3,503,001 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 790236-04-001, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 1,111 rings, 11,369 straight (27,085 mm) / 1,822 curved (4,100 mm); text 91 rings, 625 straight (1,720 mm) / 243 curved (724 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.9 @ (492.5, 58.3), r 4.2 @ (525.6, 44.6)
+- **Closed boxes:** 14
+
+Every curve, box, word and wire group: [1979 - 790236-04-001 - MARYLAND PUBLIC BROADCASTING L3242A CONSOLE OUTLINE - DRN gene 4'79 - ENG WMcF - ISS 1 (traced).json](1979%20-%20790236-04-001%20-%20MARYLAND%20PUBLIC%20BROADCASTING%20L3242A%20CONSOLE%20OUTLINE%20-%20DRN%20gene%204%2779%20-%20ENG%20WMcF%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-04-001 - MARYLAND PUBLIC BROADCASTING L3242A CONSOLE OUTLINE - DRN gene 4'79 - ENG WMcF - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

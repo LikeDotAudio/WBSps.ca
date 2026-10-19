@@ -23,6 +23,20 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 - **Size:** 686,677 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-110-02-001, size B 432 × 284 mm, 2000 × 1316 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–273 mm up
+- **Outlines:** line 324 rings, 6,196 straight (12,658 mm) / 823 curved (1,244 mm); text 800 rings, 6,911 straight (8,560 mm) / 1,916 curved (3,110 mm); tb 129 rings, 753 straight (896 mm) / 182 curved (245 mm)
+- **Centre lines:** 9,038 paths (115 closed); straight 13,352 mm, curved 262 mm; horizontal 4,804 mm, vertical 2,706 mm, diagonal 5,842 mm
+- **Circles and arcs:** 5 circles, 21 arcs; largest r 6.8 @ (195.2, 232.9), r 6.6 @ (151.9, 222.5), r 6.3 @ (84.4, 191.4), r 6.3 @ (119.2, 191.1)
+- **Closed boxes:** 25 (25 in the title block)
+- **Words (OCR):** 132 in 117 lines: PRE · AMPLIEIER · HIGH · PASS FILTER · E4 · +21v · R4 · R5 · C12 · C6 · 22k · 18
+- **Title block:** (138, 5)–(420, 58) mm: ISS MOD ICKD: · USED ON · MATL - · WBS · WARD-BECK SYSTEMS LTD_ · 3 Ieodk · DRN Do · 4-110 · DATE8MARZ4 · FINISH · PRE-AMP/HP FILTER · ZIRc · CKD: L4 · [SCALE · SCHEMATIC · I391PKM
+- **Wiring (first pass):** 56 connected wire groups from 279 runs; labelled ends: 482 mm → C6, R2, ISk, AMPLIEIER; 351 mm → C4, Jsoho, E3, SENSITIVITYO; 342 mm → C12, 22/10, 94, 2N4403; 308 mm → #C9, 063, Ixcio, 33 pF; 202 mm → COMPONENT, E9, 0-21v
+
+Every curve, box, word and wire group: [1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM - ISS 8 (traced).json](1974%20-%204-110-02-001%20-%204-110%20PRE-AMP%20HP%20FILTER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%208%20%28traced%29.json) (the CAD file: `1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM - ISS 8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

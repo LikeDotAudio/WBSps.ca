@@ -25,6 +25,18 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 4,137,813 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 490-04-011, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–288 mm across, 0–419 mm up
+- **Outlines:** line 927 rings, 7,100 straight (14,355 mm) / 1,626 curved (1,884 mm); text 475 rings, 2,501 straight (1,863 mm) / 836 curved (967 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 3.2 @ (49.8, 213.1), r 2.1 @ (238.3, 199.8), r 1.6 @ (59.2, 213.0), r 0.7 @ (242.9, 320.4)
+- **Closed boxes:** 21; named: 53; MU 12
+- **Dots (junctions):** 5
+- **Words (OCR):** 6 in 6 lines: MU · 12 · 53 · 083 8 8 · 083 8 8 · Iku
+
+Every curve, box, word and wire group: [1978 - 490-04-011 - M490C LINE INPUT MODULE FRONT PANEL - DRN GEB - ENG GEB (traced).json](1978%20-%20490-04-011%20-%20M490C%20LINE%20INPUT%20MODULE%20FRONT%20PANEL%20-%20DRN%20GEB%20-%20ENG%20GEB%20%28traced%29.json) (the CAD file: `1978 - 490-04-011 - M490C LINE INPUT MODULE FRONT PANEL - DRN GEB - ENG GEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

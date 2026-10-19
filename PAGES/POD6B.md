@@ -31,28 +31,3 @@ tags: ["product", "pods", "1990s"]
 |---|---|---|
 | 1997 | [1997 - POD6B - Front.jpg](../Products/PODS/POD6B/1997%20-%20POD6B%20-%20Front.jpg) | [note](../Products/PODS/POD6B/1997%20-%20POD6B%20-%20Front.jpg.md) |
 | 1997 | [1997 - POD6B - Rear.jpg](../Products/PODS/POD6B/1997%20-%20POD6B%20-%20Rear.jpg) | [note](../Products/PODS/POD6B/1997%20-%20POD6B%20-%20Rear.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "POD6B",
- "name": "Miniature Stereo Headphone Module",
- "category": "PODS",
- "year": 1997,
- "documents": [
-  {
-   "file": "Products/PODS/POD6B/1997 - POD6B - Front.jpg",
-   "year": 1997,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD6B/1997 - POD6B - Rear.jpg",
-   "year": 1997,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

@@ -22,6 +22,17 @@ M7820 secondary terminal front and rear layout Title block at bottom left readin
 - **Size:** 4,715,810 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 7820-04-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–287 mm up
+- **Outlines:** line 1,294 rings, 8,363 straight (17,128 mm) / 2,075 curved (2,950 mm); text 88 rings, 582 straight (620 mm) / 177 curved (249 mm)
+- **Circles and arcs:** 48 circles, 0 arcs; largest r 3.2 @ (336.2, 173.2), r 3.2 @ (97.9, 187.6), r 3.2 @ (230.0, 73.7), r 3.2 @ (272.0, 134.9)
+- **Closed boxes:** 18
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [19xx - 7820-04-001 - SECONDARY TERMINAL FRONT & REAR LAYOUT - ISS 1 (traced).json](19xx%20-%207820-04-001%20-%20SECONDARY%20TERMINAL%20FRONT%20%26%20REAR%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 7820-04-001 - SECONDARY TERMINAL FRONT & REAR LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

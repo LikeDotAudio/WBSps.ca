@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 14,708,060 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940114-03-001, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px)
+- **Ink extent:** 0–421 mm across, 1–262 mm up
+- **Outlines:** line 802 rings, 6,597 straight (14,355 mm) / 1,220 curved (1,414 mm); text 307 rings, 1,759 straight (1,669 mm) / 517 curved (648 mm)
+- **Centre lines:** 7,062 paths (183 closed); straight 9,123 mm, curved 59.7 mm; horizontal 4,686 mm, vertical 2,106 mm, diagonal 2,331 mm
+- **Circles and arcs:** 1 circles, 17 arcs; largest r 2.8 @ (371.5, 130.7)
+- **Closed boxes:** 4
+- **Dots (junctions):** 3
+- **Words (OCR):** 41 in 32 lines: 0.0840 DEEP · 'DETAL · 940114-05 00t · TLYER PNL(1 · TMR) · 7.075 · DETAIL · 0,S00 · FLACES · 940114 · TimeR · PNL(T MMR,
+
+Every curve, box, word and wire group: [1994 - DOC - 940114-03-001 - CRIT AND PAINT TEXTURED GREY TEXCOTE MNYL SSUE (traced).json](1994%20-%20DOC%20-%20940114-03-001%20-%20CRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20MNYL%20SSUE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940114-03-001 - CRIT AND PAINT TEXTURED GREY TEXCOTE MNYL SSUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

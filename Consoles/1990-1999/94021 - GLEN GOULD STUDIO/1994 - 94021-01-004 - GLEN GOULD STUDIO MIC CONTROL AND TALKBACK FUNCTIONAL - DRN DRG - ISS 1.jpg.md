@@ -24,6 +24,20 @@ Glen Gould Studio mic control and talkback functional diagram with title block a
 - **Size:** 533,072 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 94021-01-004, size D 864 × 550 mm, 2000 × 1273 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 90–856 mm across, 11–487 mm up
+- **Outlines:** line 311 rings, 3,343 straight (18,896 mm) / 326 curved (816 mm); text 741 rings, 5,203 straight (8,548 mm) / 1,407 curved (3,280 mm); tb 28 rings, 313 straight (2,398 mm) / 17 curved (49.7 mm)
+- **Centre lines:** 10,017 paths (157 closed); straight 17,989 mm, curved 0.0 mm; horizontal 7,334 mm, vertical 4,656 mm, diagonal 5,999 mm
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (208.8, 373.8)
+- **Closed boxes:** 7; named: 12 TALKBACK ADDRESS SMTCHES TALLIES; TALKBACK CONTROLLER; MonitoR HUIE CONTROLLER
+- **Words (OCR):** 115 in 103 lines: 12 TALKBACK · SMTCHES · ADDRESS · M7O3C · TALLIES · TALKBACK TO CapRiCORY · HEADPHONE · XLR-3-32 · MUTE · XLR-3-32 · OUTPUTS · NjJFPGC
+- **Title block:** (661, 8)–(844, 83) mm: SSu= · REMSION · APP; · WBS · WARD-BECK   SYSTEMS · DRN; DRG · ENG; · GLEN GOULD STUDIO · CKD; · MIC CONTROL AND  TALKBACK · APP. · FUNCTIONAL · SCALE DISC NO: · CODE; · 94021F04 · 94021-01-004 · ISSU
+- **Wiring (first pass):** 189 connected wire groups from 481 runs; labelled ends: 431 mm → BRYSTON HEADPHONE  AUDIO; 295 mm → NOTE, CUEST; 285 mm → XLR-3-32; 255 mm → LEVEL, NOTE; 241 mm → NjJFPGC, ANNQUNCER_TURRET
+
+Every curve, box, word and wire group: [1994 - 94021-01-004 - GLEN GOULD STUDIO MIC CONTROL AND TALKBACK FUNCTIONAL - DRN DRG - ISS 1 (traced).json](1994%20-%2094021-01-004%20-%20GLEN%20GOULD%20STUDIO%20MIC%20CONTROL%20AND%20TALKBACK%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94021-01-004 - GLEN GOULD STUDIO MIC CONTROL AND TALKBACK FUNCTIONAL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

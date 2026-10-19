@@ -21,6 +21,19 @@ Wiki page: [M999](../../../PAGES/M999.md)
 - **Size:** 1,154,419 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 999-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 36–432 mm across, 0–298 mm up
+- **Outlines:** line 206 rings, 3,322 straight (9,889 mm) / 410 curved (776 mm); text 744 rings, 4,483 straight (5,269 mm) / 1,527 curved (2,244 mm); tb 31 rings, 471 straight (1,778 mm) / 44 curved (56.9 mm)
+- **Centre lines:** 5,506 paths (140 closed); straight 9,690 mm, curved 365 mm; horizontal 4,208 mm, vertical 2,483 mm, diagonal 3,000 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 48.9 @ (358.3, 128.5), r 1.2 @ (305.6, 182.0)
+- **Closed boxes:** 5
+- **Words (OCR):** 94 in 72 lines: 0.750 · 5.500 · 3.312 · NOTCH ACCORDINGL · 4 REQ [ · 0.245 · TYP · 0.625 · 0.185 · TYP · 0.101 DIA · REQ'D
+- **Title block:** (295, 8)–(419, 59) mm: ISSUEL · REMSION · WES WARD-BECK SYSTEMS · IDRN: · DRG · ENG. · CUSTOM · SUBPANEL · APP · SCALE DISC NO: · 460 · 999-03-001 · ISSUE · COOE: 999MOI
+
+Every curve, box, word and wire group: [19xx - 999-03-001 - CUSTOM SUBPANEL - DRN DRG - ISS 2 (traced).json](19xx%20-%20999-03-001%20-%20CUSTOM%20SUBPANEL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 999-03-001 - CUSTOM SUBPANEL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

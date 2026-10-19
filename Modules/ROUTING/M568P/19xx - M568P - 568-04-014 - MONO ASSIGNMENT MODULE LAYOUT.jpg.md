@@ -11,6 +11,18 @@ Wiki page: [M568P](../../../PAGES/M568P.md)
 - **Size:** 6,289,763 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 568-04-014, size B (assumed) 432 × 284 mm, 2000 × 1315 px traced (0.216 mm/px)
+- **Ink extent:** 12–432 mm across, 0–284 mm up
+- **Outlines:** line 466 rings, 5,993 straight (13,007 mm) / 856 curved (1,478 mm); text 236 rings, 1,723 straight (2,015 mm) / 448 curved (612 mm); tb 236 rings, 2,840 straight (5,900 mm) / 463 curved (850 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 5.7 @ (301.5, 213.0), r 5.7 @ (302.1, 97.8), r 5.7 @ (301.6, 199.7), r 5.7 @ (301.2, 242.1)
+- **Closed boxes:** 15
+- **Words (OCR):** 32 in 30 lines: WBS · 4568P · PAN LV · 181J1 · MON · FE · SAI+-182 · PST · TRACK · AMPUFIER · PRE · ASSEMBLY
+- **Title block:** (330, 24)–(418, 275) mm: WBS · 4568P · PAN LV · MON · PST · TRACK · PRE · AUX · PST · 10 · PRE · PST · AUX · WBS · WARD-BECK SYSTEM · MsO8P
+
+Every curve, box, word and wire group: [19xx - M568P - 568-04-014 - MONO ASSIGNMENT MODULE LAYOUT (traced).json](19xx%20-%20M568P%20-%20568-04-014%20-%20MONO%20ASSIGNMENT%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M568P - 568-04-014 - MONO ASSIGNMENT MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

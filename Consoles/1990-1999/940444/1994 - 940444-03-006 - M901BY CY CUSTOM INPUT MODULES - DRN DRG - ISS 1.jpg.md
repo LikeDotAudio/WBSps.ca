@@ -20,6 +20,19 @@ Wiki page: [Job-940444](../../../PAGES/Job-940444.md)
 - **Size:** 622,895 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940444-03-006, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px); scale *1)
+- **Ink extent:** 43–843 mm across, 12–522 mm up
+- **Outlines:** line 660 rings, 4,463 straight (27,929 mm) / 760 curved (2,985 mm); text 846 rings, 4,802 straight (8,232 mm) / 1,525 curved (3,654 mm); tb 46 rings, 392 straight (2,637 mm) / 42 curved (108 mm)
+- **Centre lines:** 14,317 paths (335 closed); straight 24,542 mm, curved 1,226 mm; horizontal 6,322 mm, vertical 9,141 mm, diagonal 9,078 mm
+- **Circles and arcs:** 31 circles, 20 arcs; largest r 128.4 @ (712.8, 373.8), r 6.5 @ (263.1, 371.1), r 6.4 @ (248.6, 443.1), r 6.4 @ (248.6, 418.1)
+- **Closed boxes:** 50; named: ugo1CY; H901BY
+- **Words (OCR):** 122 in 106 lines: 9 3 3 · f8-825ONO1AC"Sk · REC'D · To 0.180DIA · Oa · c'Sk · REO"D · DATUM · DATUM · 0.200 · H901BY · 4adiby
+- **Title block:** (675, 8)–(854, 268) mm: DETAIL · (SCALE *1) · MATERIAL: ALUM ALLOY 0.125 THICK · FINISH: · SAND 120 GRIT AND PAINT · TEXTURED BEIGE (452C) · TEXCOTE VINYL · (EXTRA · FINE TEXTURE) · NOTE. · REMOVE · BURRS AND SHARP EDGES: · 
+
+Every curve, box, word and wire group: [1994 - 940444-03-006 - M901BY CY CUSTOM INPUT MODULES - DRN DRG - ISS 1 (traced).json](1994%20-%20940444-03-006%20-%20M901BY%20CY%20CUSTOM%20INPUT%20MODULES%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940444-03-006 - M901BY CY CUSTOM INPUT MODULES - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

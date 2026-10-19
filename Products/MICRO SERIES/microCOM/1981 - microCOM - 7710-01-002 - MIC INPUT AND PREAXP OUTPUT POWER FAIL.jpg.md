@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,559,798 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 7710-01-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,038 rings, 11,317 straight (19,132 mm) / 1,929 curved (2,301 mm); text 94 rings, 716 straight (675 mm) / 214 curved (286 mm)
+- **Centre lines:** 11,796 paths (183 closed); straight 11,206 mm, curved 66.6 mm; horizontal 4,789 mm, vertical 3,173 mm, diagonal 3,244 mm
+- **Circles and arcs:** 2 circles, 21 arcs; largest r 1.5 @ (78.1, 211.6), r 0.9 @ (78.0, 211.5)
+- **Closed boxes:** 40
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 263 connected wire groups from 1,282 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1981 - microCOM - 7710-01-002 - MIC INPUT AND PREAXP OUTPUT POWER FAIL (traced).json](1981%20-%20microCOM%20-%207710-01-002%20-%20MIC%20INPUT%20AND%20PREAXP%20OUTPUT%20POWER%20FAIL%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7710-01-002 - MIC INPUT AND PREAXP OUTPUT POWER FAIL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M490J](../../../PAGES/M490J.md)
 - **Size:** 198,378 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-010, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–420 mm up
+- **Outlines:** line 136 rings, 3,385 straight (8,939 mm) / 434 curved (685 mm); text 213 rings, 2,115 straight (2,884 mm) / 604 curved (1,056 mm); tb 9 rings, 182 straight (373 mm) / 25 curved (46.9 mm)
+- **Centre lines:** 2,805 paths (34 closed); straight 6,978 mm, curved 41.7 mm; horizontal 3,365 mm, vertical 1,640 mm, diagonal 1,973 mm
+- **Circles and arcs:** 1 circles, 9 arcs; largest r 1.0 @ (86.5, 336.8)
+- **Closed boxes:** 17 (8 in the title block); named: ISSUE
+- **Words (OCR):** 38 in 33 lines: P1 EEFT · Pz LEFT · PAN · INSERT · PAN · P1 · Right · P2 Right · POST DIRECT · FB · FB · FB
+- **Title block:** (118, 4)–(337, 106) mm: REVISION · Issu DATE · App · WBS · WARD-BECK BYBTEMB · DRN: B0 85 · M49oj · ENG Scttlai · Mic INPUT MODULE · CKD: · FUNCTIONAL DIAGRAM · APP: · St · ISSUE · 490-01-010
+- **Wiring (first pass):** 69 connected wire groups from 151 runs; labelled ends: 132 mm → POST; 66 mm → FB; 61 mm → PAN, INSERT; 57 mm → FB; 47 mm → FB
+
+Every curve, box, word and wire group: [1983 - M490J - 490-01-010 - ENG SCTTLAT MIC INPUT MODULE (traced).json](1983%20-%20M490J%20-%20490-01-010%20-%20ENG%20SCTTLAT%20MIC%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1983 - M490J - 490-01-010 - ENG SCTTLAT MIC INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

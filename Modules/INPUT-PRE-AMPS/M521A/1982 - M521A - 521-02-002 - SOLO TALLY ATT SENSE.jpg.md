@@ -11,6 +11,20 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 31,141,877 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 521-02-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–279 mm up
+- **Outlines:** line 1,794 rings, 14,882 straight (25,764 mm) / 2,667 curved (3,114 mm); text 110 rings, 640 straight (584 mm) / 149 curved (185 mm)
+- **Centre lines:** 12,425 paths (380 closed); straight 14,736 mm, curved 68.4 mm; horizontal 6,682 mm, vertical 4,208 mm, diagonal 3,846 mm
+- **Circles and arcs:** 0 circles, 13 arcs
+- **Closed boxes:** 64; named: 521 02.602/2
+- **Dots (junctions):** 2
+- **Words (OCR):** 16 in 13 lines: Dutput · LOIES · Kich · RiGHT · 91 · 4.7/10 · TALLY · TALLT · SENSE · WBSS WARO-BeCk bybtems · STEREc INPLT MOLUE · SCHCMATic
+- **Wiring (first pass):** 181 connected wire groups from 1,324 runs; labelled ends: 572 mm → 91; 282 mm → WARO-BeCk bybtems; 125 mm → 91; 59 mm → 4.7/10; 51 mm → 91, 4.7/10
+
+Every curve, box, word and wire group: [1982 - M521A - 521-02-002 - SOLO TALLY ATT SENSE (traced).json](1982%20-%20M521A%20-%20521-02-002%20-%20SOLO%20TALLY%20ATT%20SENSE%20%28traced%29.json) (the CAD file: `1982 - M521A - 521-02-002 - SOLO TALLY ATT SENSE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

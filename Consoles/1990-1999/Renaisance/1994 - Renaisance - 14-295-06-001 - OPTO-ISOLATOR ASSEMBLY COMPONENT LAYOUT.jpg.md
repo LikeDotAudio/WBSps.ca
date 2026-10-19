@@ -10,6 +10,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,770,088 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-295-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 554 rings, 4,814 straight (8,128 mm) / 1,056 curved (1,165 mm); text 252 rings, 1,772 straight (1,575 mm) / 540 curved (607 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 4.4 @ (289.9, 249.3), r 4.4 @ (290.0, 209.9), r 4.4 @ (218.7, 261.1), r 4.4 @ (218.8, 181.1)
+- **Closed boxes:** 65
+
+Every curve, box, word and wire group: [1994 - Renaisance - 14-295-06-001 - OPTO-ISOLATOR ASSEMBLY COMPONENT LAYOUT (traced).json](1994%20-%20Renaisance%20-%2014-295-06-001%20-%20OPTO-ISOLATOR%20ASSEMBLY%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 14-295-06-001 - OPTO-ISOLATOR ASSEMBLY COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

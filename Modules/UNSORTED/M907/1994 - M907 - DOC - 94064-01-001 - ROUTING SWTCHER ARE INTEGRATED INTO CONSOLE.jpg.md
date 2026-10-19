@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,458,779 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 94064-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 18–423 mm across, 2–267 mm up
+- **Outlines:** line 2,088 rings, 16,493 straight (33,961 mm) / 2,722 curved (3,210 mm); text 447 rings, 2,924 straight (2,529 mm) / 812 curved (976 mm); tb 44 rings, 300 straight (290 mm) / 78 curved (91.7 mm)
+- **Centre lines:** 24,055 paths (368 closed); straight 21,808 mm, curved 80.8 mm; horizontal 9,593 mm, vertical 5,888 mm, diagonal 6,327 mm
+- **Circles and arcs:** 2 circles, 26 arcs; largest r 2.2 @ (370.4, 115.5), r 1.8 @ (370.2, 115.6)
+- **Closed boxes:** 99 (13 in the title block); named: VINuS
+- **Dots (junctions):** 1
+- **Words (OCR):** 64 in 56 lines: SU4VING BUSES · DIRECT · NSERTS · GuTPUTS · Right · UINUS · ExTFROLS · Vdoict · UT MODULE · #]cxcuonitor · CIRECT · VINUS
+- **Title block:** (341, 5)–(429, 39) mm: ReMSC · WARD-BECK SYSTEMS · WBS · WBZ NEWS AIR STUDIO · RENAISSANCE · MK · FUNCTIONAL · SCALE · 94064-01-001 · CODE;
+- **Wiring (first pass):** 332 connected wire groups from 2,328 runs, 2 dotted junctions; labelled ends: 3572 mm → #]cxcuonitor; 110 mm → RIC T; 88 mm → Right; 70 mm → RIC T; 39 mm → ExT QUC
+
+Every curve, box, word and wire group: [1994 - M907 - DOC - 94064-01-001 - ROUTING SWTCHER ARE INTEGRATED INTO CONSOLE (traced).json](1994%20-%20M907%20-%20DOC%20-%2094064-01-001%20-%20ROUTING%20SWTCHER%20ARE%20INTEGRATED%20INTO%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - M907 - DOC - 94064-01-001 - ROUTING SWTCHER ARE INTEGRATED INTO CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 26 words corrected)

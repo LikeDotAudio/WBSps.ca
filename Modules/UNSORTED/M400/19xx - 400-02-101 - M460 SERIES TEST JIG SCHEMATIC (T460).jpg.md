@@ -22,6 +22,17 @@ Photo of an M460 series test jig schematic, title block at bottom left reading s
 - **Size:** 1,961,671 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic C 400-02-101, size C 417 × 559 mm, 1494 × 2000 px traced (0.279 mm/px), turned 90°
+- **Ink extent:** 0–418 mm across, 53–559 mm up
+- **Outlines:** line 1,076 rings, 9,505 straight (10,234 mm) / 1,454 curved (1,958 mm); text 105 rings, 750 straight (810 mm) / 154 curved (246 mm)
+- **Centre lines:** 24,229 paths (118 closed); straight 12,501 mm, curved 57.5 mm; horizontal 2,700 mm, vertical 3,358 mm, diagonal 6,444 mm
+- **Circles and arcs:** 4 circles, 6 arcs; largest r 1.7 @ (52.1, 204.3), r 1.6 @ (182.7, 300.6), r 1.5 @ (269.4, 324.5), r 1.2 @ (187.6, 294.8)
+- **Wiring (first pass):** 45 connected wire groups from 501 runs
+
+Every curve, box, word and wire group: [19xx - 400-02-101 - M460 SERIES TEST JIG SCHEMATIC (T460) (traced).json](19xx%20-%20400-02-101%20-%20M460%20SERIES%20TEST%20JIG%20SCHEMATIC%20%28T460%29%20%28traced%29.json) (the CAD file: `19xx - 400-02-101 - M460 SERIES TEST JIG SCHEMATIC (T460) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

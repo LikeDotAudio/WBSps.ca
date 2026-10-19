@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,452,973 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940334-04-002, size B (assumed) 432 × 277 mm, 2000 × 1281 px traced (0.216 mm/px)
+- **Ink extent:** 43–427 mm across, 14–259 mm up
+- **Outlines:** line 560 rings, 4,756 straight (16,814 mm) / 474 curved (614 mm); text 177 rings, 1,180 straight (1,402 mm) / 300 curved (409 mm); tb 15 rings, 118 straight (155 mm) / 17 curved (19.4 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (116.3, 192.5)
+- **Closed boxes:** 125 (4 in the title block); named: 2200 112200 Uk |; 2200 112200 Uk |; 2200; 112200; 2200 W2z00; 2200 W2z00; 2200; W2z00; CHFI /CFTR TYPICAL RENAISSANCE AYOUTS; 940334-04-002
+- **Words (OCR):** 24 in 23 lines: 2200 · 112200 · Uk | · MEIER_BRIDGE · 2200 · W2z00 · NETER_BRIDGE · AND_NKI · CONSQLE · SIDE_PRQEILE · PNELS · HeMyON
+- **Title block:** (337, 30)–(421, 46) mm: HeMyON · WBS · WARD · BECK   SYSTEMS · CHFI /CFTR
+
+Every curve, box, word and wire group: [1994 - DOC - 940334-04-002 - AND MKIL METER BRIDGE TABLE CONSOLE SIDE PROFILE (traced).json](1994%20-%20DOC%20-%20940334-04-002%20-%20AND%20MKIL%20METER%20BRIDGE%20TABLE%20CONSOLE%20SIDE%20PROFILE%20%28traced%29.json) (the CAD file: `1994 - DOC - 940334-04-002 - AND MKIL METER BRIDGE TABLE CONSOLE SIDE PROFILE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

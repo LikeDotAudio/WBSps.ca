@@ -1,0 +1,283 @@
+{
+ "code": "M625B",
+ "name": "Power Supply",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 21,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "J2",
+   "rows": 9,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 16,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 5,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "OUTPUT CONTROLS THE BASE CURRENT TURN DRIVES",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b78c9462c03cac3edf600c635c2d19d53f0a2ba04d5373e12eccb10a6c00c5d9",
+    "file": "Modules/POWER/M625B/1978 - M625B - P010 - 1-117-1-1.jpg",
+    "page": 1
+   },
+   "quote": "The output controls the base current turn, drives the positive series regulator the main frame by way edge connector pin 21 .",
+   "also": [
+    {
+     "signal": "OUTPUT CONTROLS THE BASE CURRENT TURN DRIVES",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/POWER/M625B/1978 - M625B - P010 - 1-117-1-1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "+25 OUTPUT",
+   "kind": "out",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "973c9782eb31909fa201411f8abc3cba751fc3b1ee78981ab9273e3d92b51167",
+    "file": "Modules/POWER/M625B/1978 - M625B - P004 - 3-1.jpg",
+    "page": 1
+   },
+   "quote": "~Install temporary jumper across R11 1-117 disable the complementary \"loss voltage\" detector 7612 'Ssrino? Dn8 00: ~Install 1-117 card _ Tm| ~n9ed0 onn clada Iw",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - P005 - 3-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - P005 - 3-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - WBS test procedures 1.jpeg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - WBS test procedures 2.jpeg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "973c9782eb31909fa201411f8abc3cba751fc3b1ee78981ab9273e3d92b51167",
+    "file": "Modules/POWER/M625B/1978 - M625B - P004 - 3-1.jpg",
+    "page": 1
+   },
+   "quote": "~Install temporary jumper across R11 1-117 disable the complementary \"loss voltage\" detector 7612 'Ssrino? Dn8 00: ~Install 1-117 card _ Tm| ~n9ed0 onn clada Iw",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - P004 - 3-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - P005 - 3-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - WBS test procedures 1.jpeg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - WBS test procedures 1.jpeg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "973c9782eb31909fa201411f8abc3cba751fc3b1ee78981ab9273e3d92b51167",
+    "file": "Modules/POWER/M625B/1978 - M625B - P004 - 3-1.jpg",
+    "page": 1
+   },
+   "quote": "~Remove power and install and 04. (Right side heat sink when  facing power supply) _ otino3 Golienclila? 9n) Zuio4- ~Monitor the output J2-9 and J2-5 . The -25 ",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - P005 - 3-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - WBS test procedures 1.jpeg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625B/1978 - M625B - WBS test procedures 2.jpeg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "efa7b63f43809f21e59d4f5419919d454cefcbee7c09cbf424969569d53b5ac3",
+    "file": "Modules/POWER/M625B/1978 - M625B - WBS test procedures 1.jpeg",
+    "page": 1
+   },
+   "quote": "Check that the \"high\" side of the AC Iine voltage is connected between P1-7 and the \"Line\" side of the circuit breaker Sw1",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "8233d9d3768f9aa852809c2db5c76c41f9b5e62a297963e3b0b75b25e5ca4c96",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC.png",
+    "page": 1
+   },
+   "quote": "P1-16 P1-15",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "8233d9d3768f9aa852809c2db5c76c41f9b5e62a297963e3b0b75b25e5ca4c96",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC.png",
+    "page": 1
+   },
+   "quote": "P1-16 P1-15",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "8233d9d3768f9aa852809c2db5c76c41f9b5e62a297963e3b0b75b25e5ca4c96",
+    "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC.png",
+    "page": 1
+   },
+   "quote": "P2-5,6",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "DOCUMENTS/RECENT SCANS/WBSps.ca 20210317 - Small 11X17 drawings/19xx - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC.png",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

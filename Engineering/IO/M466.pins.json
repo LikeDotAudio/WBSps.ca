@@ -1,0 +1,429 @@
+{
+ "code": "M466",
+ "name": "Compressor - Limiter",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "INPUT",
+   "kind": "in",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "DYNAMICS IN LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "DYNAMICS IN RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "INPUT",
+   "kind": "in",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "DYNAMICS IN LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "DYNAMICS IN RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "SHIELD GND",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "COMP TIE   1",
+   "kind": "control",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M466/M466.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMP TIE   2",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "STEREO TIE",
+   "kind": "control",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMP TIE   1",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "STEREO TIE BUS",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "EXTERNAL",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMP TIE   2",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "EXTERNAL",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "VU METER",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "VU METER",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "VU METER",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "DYNAMICS OUT LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "DYNAMICS OUT IN",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "DYNAMICS OUT LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "DYNAMICS OUT IN",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "-25 V",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "\u00b1COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "+25 V",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS GND",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2cae4ab06a2ffc4119b3bac19dca826453054a2953b157cc3565d18c81091ed5",
+    "file": "Modules/DYNAMICS/M466/1976 - M466 - Compressor - Limiter (2).pdf",
+    "page": 50
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "CHASSIS",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M466/M466.rto144.json",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

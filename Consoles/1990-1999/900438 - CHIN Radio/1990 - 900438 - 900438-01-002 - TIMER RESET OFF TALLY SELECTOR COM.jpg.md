@@ -10,6 +10,19 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,622,316 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 900438-01-002, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 240 rings, 3,221 straight (7,907 mm) / 541 curved (925 mm); text 360 rings, 2,651 straight (3,306 mm) / 836 curved (1,220 mm)
+- **Centre lines:** 5,179 paths (93 closed); straight 6,513 mm, curved 376 mm; horizontal 2,560 mm, vertical 1,929 mm, diagonal 2,024 mm
+- **Circles and arcs:** 32 circles, 17 arcs; largest r 2.5 @ (164.9, 75.1), r 2.5 @ (154.4, 75.0), r 2.5 @ (219.7, 75.3), r 2.4 @ (209.3, 75.4)
+- **Closed boxes:** 6; named: PS1 M625B
+- **Words (OCR):** 70 in 49 lines: MC INPUL · CHANNELS (1-31 · CH ON · START/ON · CONTROL · EXTERNAL CH OFF · CONTROLS · STOP /OFF · CONTROL · CUE ON · TIMER RESET · SELECTOR
+- **Wiring (first pass):** 106 connected wire groups from 294 runs; labelled ends: 270 mm → MQDULS; 199 mm → LOAD_TRANSEER; 125 mm → CHANNELS (1-31, MC, INPUL; 120 mm → CHANNELS (1-31; 112 mm → MODULES _(=14)
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-01-002 - TIMER RESET OFF TALLY SELECTOR COM (traced).json](1990%20-%20900438%20-%20900438-01-002%20-%20TIMER%20RESET%20OFF%20TALLY%20SELECTOR%20COM%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-01-002 - TIMER RESET OFF TALLY SELECTOR COM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

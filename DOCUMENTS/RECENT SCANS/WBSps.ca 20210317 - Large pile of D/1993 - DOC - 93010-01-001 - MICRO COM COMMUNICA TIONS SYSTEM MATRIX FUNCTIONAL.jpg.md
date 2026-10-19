@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,255,711 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93010-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 51–420 mm across, 7–262 mm up
+- **Outlines:** line 4,067 rings, 23,851 straight (30,806 mm) / 6,144 curved (9,778 mm); text 257 rings, 1,804 straight (1,630 mm) / 522 curved (631 mm); tb 15 rings, 116 straight (162 mm) / 12 curved (12.2 mm)
+- **Centre lines:** 42,040 paths (261 closed); straight 27,629 mm, curved 88.3 mm; horizontal 10,322 mm, vertical 9,956 mm, diagonal 7,350 mm
+- **Circles and arcs:** 254 circles, 37 arcs; largest r 1.7 @ (160.7, 187.8), r 1.7 @ (135.1, 184.7), r 1.7 @ (220.4, 107.9), r 1.7 @ (144.6, 184.6)
+- **Closed boxes:** 513 (4 in the title block); named: CTV Micro CoM COMMUNICA TIONS SYSTEM MAT; 93010-01 001
+- **Dots (junctions):** 372
+- **Words (OCR):** 37 in 33 lines: nputs 49- · OuTPUTS 1-40 · CFF TUBZ · HOCKET · Dltupic Paric · LucE · LEGEND: · sunched · CrosspdT · CXICHED · FUTURI · 04544
+- **Title block:** (340, 23)–(425, 39) mm: REVSIDS · WBS · WARD-BECK SYSTEMS · CTV Micro CoM
+- **Wiring (first pass):** 122 connected wire groups from 6,318 runs, 537 dotted junctions; labelled ends: 94 mm → WBS, COMMUNICA TIONS, MATRIX FUNCTIONAL; 72 mm → WARD-BECK SYSTEMS, MATRIX FUNCTIONAL, 93010-01, 001; 18 mm → cenou; 13 mm → LucE; 13 mm → CFF TUBZ, HOCKET
+
+Every curve, box, word and wire group: [1993 - DOC - 93010-01-001 - MICRO COM COMMUNICA TIONS SYSTEM MATRIX FUNCTIONAL (traced).json](1993%20-%20DOC%20-%2093010-01-001%20-%20MICRO%20COM%20COMMUNICA%20TIONS%20SYSTEM%20MATRIX%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1993 - DOC - 93010-01-001 - MICRO COM COMMUNICA TIONS SYSTEM MATRIX FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

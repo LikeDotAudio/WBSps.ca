@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,313,666 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-010, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 745 rings, 6,949 straight (13,073 mm) / 1,519 curved (2,374 mm); text 298 rings, 1,764 straight (1,801 mm) / 670 curved (869 mm)
+- **Centre lines:** 6,612 paths (138 closed); straight 8,286 mm, curved 942 mm; horizontal 3,613 mm, vertical 1,888 mm, diagonal 2,785 mm
+- **Circles and arcs:** 50 circles, 85 arcs; largest r 3.4 @ (213.3, 155.2), r 3.4 @ (205.5, 186.8), r 3.3 @ (213.5, 178.7), r 3.3 @ (205.5, 155.2)
+- **Closed boxes:** 8
+- **Wiring (first pass):** 92 connected wire groups from 579 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-010 - POWER LOAD TRANSFER CONTROL (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20POWER%20LOAD%20TRANSFER%20CONTROL%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-010 - POWER LOAD TRANSFER CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

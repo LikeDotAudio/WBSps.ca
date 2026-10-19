@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 1,007,950 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 790236-01-001, size B (assumed) 334 × 432 mm, 1270 × 1640 px traced (0.263 mm/px)
+- **Ink extent:** 7–334 mm across, 0–418 mm up
+- **Outlines:** line 23 rings, 1,239 straight (2,933 mm) / 118 curved (228 mm); text 1,187 rings, 8,235 straight (10,670 mm) / 2,615 curved (4,685 mm); tb 2 rings, 6 straight (5.0 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 4,314 paths (220 closed); straight 8,545 mm, curved 7.1 mm; horizontal 1,778 mm, vertical 2,422 mm, diagonal 4,346 mm
+- **Circles and arcs:** 3 circles, 2 arcs; largest r 5.4 @ (12.5, 48.9), r 5.4 @ (13.3, 386.7), r 5.3 @ (12.4, 217.5)
+- **Words (OCR):** 107 in 73 lines: WAAD-BECK · Systems LTD_ · MCPB_ L32424 · MANUAL · NDEX · Console Test ResuIts · Rep laceable Parts · List · System · Drawings · DRAWING · NDEX
+- **Title block:** (22, 403)–(131, 428) mm: WAAD-BECK · Systems LTD_
+- **Wiring (first pass):** 5 connected wire groups from 22 runs; labelled ends: 53 mm → NDEX, Functional Diagram, DRAWING, 790236-01-001; 48 mm → L32424, NDEX, MANUAL, ResuIts; 26 mm → MCPB_, L32424, MANUAL, NDEX
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-01-001 - AKG REVERB CONTROLS SCHEMATIC TIARY IARY ROW ROW (traced).json](1979%20-%20790236%20-%20790236-01-001%20-%20AKG%20REVERB%20CONTROLS%20SCHEMATIC%20TIARY%20IARY%20ROW%20ROW%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-01-001 - AKG REVERB CONTROLS SCHEMATIC TIARY IARY ROW ROW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

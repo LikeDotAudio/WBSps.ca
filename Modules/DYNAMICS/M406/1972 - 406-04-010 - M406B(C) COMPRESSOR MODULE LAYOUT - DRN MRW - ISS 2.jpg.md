@@ -23,6 +23,17 @@ Wiki page: [M406](../../../PAGES/M406.md)
 - **Size:** 4,892,554 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 406-04-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–428 mm across, 18–305 mm up
+- **Outlines:** line 738 rings, 11,705 straight (16,782 mm) / 1,783 curved (2,829 mm); text 326 rings, 3,063 straight (3,241 mm) / 854 curved (1,240 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 6.7 @ (393.3, 243.6), r 6.7 @ (333.8, 204.8), r 6.1 @ (334.0, 165.3), r 5.9 @ (344.1, 125.6)
+- **Closed boxes:** 20
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1972 - 406-04-010 - M406B(C) COMPRESSOR MODULE LAYOUT - DRN MRW - ISS 2 (traced).json](1972%20-%20406-04-010%20-%20M406B%28C%29%20COMPRESSOR%20MODULE%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1972 - 406-04-010 - M406B(C) COMPRESSOR MODULE LAYOUT - DRN MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

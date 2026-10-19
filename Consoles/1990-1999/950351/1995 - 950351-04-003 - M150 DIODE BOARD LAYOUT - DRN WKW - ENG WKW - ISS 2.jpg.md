@@ -21,6 +21,19 @@ Wiki page: [Job-950351](../../../PAGES/Job-950351.md)
 - **Size:** 831,112 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 950351-04-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC SYSO1
+- **Ink extent:** 133–432 mm across, 0–298 mm up
+- **Outlines:** line 107 rings, 1,466 straight (4,757 mm) / 233 curved (407 mm); text 381 rings, 2,453 straight (3,175 mm) / 789 curved (1,237 mm); tb 3 rings, 78 straight (187 mm) / 6 curved (11.4 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.9 @ (245.3, 112.8), r 1.0 @ (239.0, 124.5)
+- **Closed boxes:** 25 (11 in the title block); named: D1 D2 D3 D4 D5; D1; D2; D3; D4; SCALE; 950351-04-003; ISSUE; CODE: 95351L03
+- **Dots (junctions):** 11
+- **Words (OCR):** 56 in 43 lines: DIODE · BOARD · IN4003 · DIODE · FROM M8201B PIN · D1 · TO SA14-283 · RELAY   ASSEMBLY · CONN · PIN · TO SA14-283 · P1 PIN 13
+- **Title block:** (231, 16)–(402, 84) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · WKW · DRN · M15o · ENG. WKW · DIODE BOARD · CKD. · LAYOUT · APP · SCALE DISC SYSO1 · ISSUE · NO: · 950351-04-003 · CODE: 95351L03
+
+Every curve, box, word and wire group: [1995 - 950351-04-003 - M150 DIODE BOARD LAYOUT - DRN WKW - ENG WKW - ISS 2 (traced).json](1995%20-%20950351-04-003%20-%20M150%20DIODE%20BOARD%20LAYOUT%20-%20DRN%20WKW%20-%20ENG%20WKW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1995 - 950351-04-003 - M150 DIODE BOARD LAYOUT - DRN WKW - ENG WKW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

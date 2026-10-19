@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,644,309 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-268-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–414 mm across, 20–304 mm up
+- **Outlines:** line 186 rings, 2,046 straight (4,487 mm) / 317 curved (458 mm); text 275 rings, 1,781 straight (2,203 mm) / 478 curved (650 mm)
+- **Centre lines:** 2,576 paths (48 closed); straight 3,724 mm, curved 154 mm; horizontal 1,373 mm, vertical 1,093 mm, diagonal 1,257 mm
+- **Circles and arcs:** 10 circles, 21 arcs; largest r 2.7 @ (125.7, 193.0), r 2.5 @ (125.5, 144.2), r 2.0 @ (125.9, 192.9), r 1.4 @ (125.8, 193.0)
+- **Closed boxes:** 2
+- **Wiring (first pass):** 51 connected wire groups from 220 runs
+
+Every curve, box, word and wire group: [1994 - Renaisance - 14-268-02-001 - METERILLUMINA TION ASSEMBLY SCHEMATIC (traced).json](1994%20-%20Renaisance%20-%2014-268-02-001%20-%20METERILLUMINA%20TION%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 14-268-02-001 - METERILLUMINA TION ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,21 @@ M522B mono equalizer module schematic.
 - **Size:** 298,605 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 522-02-003, size B 432 × 272 mm, 2000 × 1261 px traced (0.216 mm/px)
+- **Ink extent:** 5–429 mm across, 6–250 mm up
+- **Outlines:** line 426 rings, 5,461 straight (9,750 mm) / 1,246 curved (1,544 mm); text 406 rings, 3,316 straight (2,935 mm) / 944 curved (1,172 mm); tb 2 rings, 45 straight (110 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 8,168 paths (119 closed); straight 7,954 mm, curved 154 mm; horizontal 3,260 mm, vertical 1,799 mm, diagonal 2,896 mm
+- **Circles and arcs:** 1 circles, 33 arcs; largest r 3.6 @ (69.7, 58.8)
+- **Closed boxes:** 4; named: 5414-1524 JLB? ASSIVBLY; I04 Reo
+- **Dots (junctions):** 1
+- **Words (OCR):** 123 in 115 lines: ~bv Joo? · 10/-5 · LbJI · LuBJIV · R28 · I6o · LvBJIN · RJ4 · Voro · VCno · INput · UIa
+- **Title block:** (340, 30)–(432, 46) mm: WBS · WARD-BECK BYSTEMS
+- **Wiring (first pass):** 95 connected wire groups from 634 runs; labelled ends: 611 mm → Tet, 3-58, RS, 27; 173 mm → affioo, C4, 10/23, 2/5; 153 mm → LbJI, Rib, 33, LvBJIN; 150 mm → 68/10 =, 69/10; 120 mm → J0x, Res, 03, Cu
+
+Every curve, box, word and wire group: [19xx - 522-02-003 - MONO EQUALIZER MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20522-02-003%20-%20MONO%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 522-02-003 - MONO EQUALIZER MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

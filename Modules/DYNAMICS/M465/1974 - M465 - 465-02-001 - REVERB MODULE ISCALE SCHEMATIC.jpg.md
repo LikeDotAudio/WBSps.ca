@@ -11,6 +11,20 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 1,038,085 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 465-02-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 7–424 mm up
+- **Outlines:** line 388 rings, 7,788 straight (17,072 mm) / 1,079 curved (1,610 mm); text 548 rings, 4,245 straight (4,831 mm) / 1,434 curved (2,109 mm); tb 16 rings, 170 straight (227 mm) / 36 curved (49.1 mm)
+- **Centre lines:** 7,260 paths (82 closed); straight 13,037 mm, curved 285 mm; horizontal 5,806 mm, vertical 3,086 mm, diagonal 4,146 mm
+- **Circles and arcs:** 16 circles, 62 arcs; largest r 1.1 @ (146.1, 165.8), r 1.0 @ (173.3, 261.3), r 1.0 @ (173.0, 78.9), r 1.0 @ (95.2, 191.9)
+- **Closed boxes:** 27 (2 in the title block); named: 300 J4 R28; WBS; 4755]; M465 REVERB MODule SCHEMATIC; 465-02-001
+- **Words (OCR):** 125 in 120 lines: 716 · ~21v · LEFT · 7t · 2E3 · 25 · Sw? · 92E2 · 2E4 · REVERB · Rts · R2i
+- **Title block:** (214, 8)–(257, 52) mm: WBS · DRM PM · DATE 21 OCLLII · CKD · SCALE · TOLS _
+- **Wiring (first pass):** 120 connected wire groups from 508 runs; labelled ends: 546 mm → 4755], 34, 3522; 523 mm → Rg, Ik, 37, R8; 390 mm → R2i, 390, 2E4, 37; 336 mm → R3O 300, R27, 75, 300; 209 mm → 711, Sw6
+
+Every curve, box, word and wire group: [1974 - M465 - 465-02-001 - REVERB MODULE ISCALE SCHEMATIC (traced).json](1974%20-%20M465%20-%20465-02-001%20-%20REVERB%20MODULE%20ISCALE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1974 - M465 - 465-02-001 - REVERB MODULE ISCALE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

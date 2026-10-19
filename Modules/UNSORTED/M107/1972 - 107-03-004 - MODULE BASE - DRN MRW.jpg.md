@@ -26,6 +26,19 @@ Wiki page: [M107](../../../PAGES/M107.md)
 
 - **1972** (month): `JAN.72` — …x Lud Cio7-03-002 Fimish DZN MRW Cio7-03-003 CLEAR AnobIZ D JAN.72 #NTERAAL C UulL WBS ExtRUSiON SEE DWG-N? Ci02-03-006/3 FULd…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 107-03-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–427 mm across, 12–298 mm up
+- **Outlines:** line 418 rings, 7,438 straight (14,095 mm) / 1,133 curved (1,624 mm); text 380 rings, 3,620 straight (3,951 mm) / 954 curved (1,496 mm); tb 102 rings, 1,088 straight (1,000 mm) / 273 curved (342 mm)
+- **Centre lines:** 9,832 paths (79 closed); straight 11,886 mm, curved 246 mm; horizontal 6,181 mm, vertical 1,766 mm, diagonal 3,939 mm
+- **Circles and arcs:** 4 circles, 18 arcs; largest r 9.8 @ (310.2, 159.9), r 9.5 @ (154.2, 158.5), r 1.7 @ (96.1, 70.8), r 1.3 @ (95.9, 70.9)
+- **Closed boxes:** 8 (1 in the title block); named: Cio7-03-002; Cio7-03-003
+- **Words (OCR):** 56 in 42 lines: I+500 · 9.37 · 637 · 375 · 337 · 825 · 437 · 1650 · 875 · REF · 4HOLES · .25 DIA e CSk AT
+- **Title block:** (189, 10)–(381, 61) mm: TOLS · ARGLES WARD BECK · CLEAR ANobIZc Cate · MRW · MODULE · JAN.72 · WBS ExtRUSION · SEE · DWG N? Ci02-03-006/3 · FULD · 107-03-004
+
+Every curve, box, word and wire group: [1972 - 107-03-004 - MODULE BASE - DRN MRW (traced).json](1972%20-%20107-03-004%20-%20MODULE%20BASE%20-%20DRN%20MRW%20%28traced%29.json) (the CAD file: `1972 - 107-03-004 - MODULE BASE - DRN MRW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

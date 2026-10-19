@@ -22,6 +22,20 @@ Wiki page: [Job-940376](../../../PAGES/Job-940376.md)
 - **Size:** 866,908 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 940376-01-001, size D 864 × 582 mm, 2000 × 1347 px traced (0.432 mm/px); scale DISC NO: 476
+- **Ink extent:** 40–848 mm across, 35–569 mm up
+- **Outlines:** line 919 rings, 8,436 straight (44,191 mm) / 1,091 curved (2,592 mm); text 1,092 rings, 7,205 straight (11,511 mm) / 1,995 curved (4,655 mm); tb 218 rings, 1,453 straight (7,259 mm) / 238 curved (598 mm)
+- **Centre lines:** 19,925 paths (331 closed); straight 36,428 mm, curved 76.3 mm; horizontal 14,986 mm, vertical 10,467 mm, diagonal 10,975 mm
+- **Circles and arcs:** 2 circles, 8 arcs; largest r 4.5 @ (72.8, 549.0), r 3.6 @ (72.5, 549.1)
+- **Closed boxes:** 163 (11 in the title block); named: PGMI RIGHT; PCH2 LEET; SEL; VCA; MX MNUS; 2200; 12 00; AUTO CUE; SEL; CUE; 1x1 SEL
+- **Words (OCR):** 191 in 175 lines: LEGEND · CONSOLE SUMMING BUSES · LEVEL · OPTICAL SHAFT ENCCDER · MUSIC · Mix · MNS · AUX · INSERTS · METER AND MONITCR OUTPUT · aBu · SS Sw
+- **Title block:** (97, 31)–(861, 199) mm: POWER · WBS · POWER · WBS · CONSOLE MODULES · SUPPLY · 0924 · SUPPLY · 0924 · COVMON · LINE · OHIPCTOR #1 · FOR FUTURE · REDUNDANT USE · NQIFS; · Ko · CONSOLE FRAME IS WIRED FOR M9O5B STUDIO MONITOR: 
+- **Wiring (first pass):** 282 connected wire groups from 1,709 runs; labelled ends: 1366 mm → XO, 70, 78 10, AUTO; 806 mm → PGM2 RIGHT; 646 mm → MUSIC, Mix, MNS, AUX; 522 mm → Mix, MNS; 497 mm → VCA, MX MNUS
+
+Every curve, box, word and wire group: [1994 - 940376-01-001 - CKWX RADIO RENAISSANCE MK II FUNCTIONAL - DRN SM - ENG SM - ISS 2 (traced).json](1994%20-%20940376-01-001%20-%20CKWX%20RADIO%20RENAISSANCE%20MK%20II%20FUNCTIONAL%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940376-01-001 - CKWX RADIO RENAISSANCE MK II FUNCTIONAL - DRN SM - ENG SM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 19 words corrected)

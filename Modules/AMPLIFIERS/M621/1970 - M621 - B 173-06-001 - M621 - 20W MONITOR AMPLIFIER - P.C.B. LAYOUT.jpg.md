@@ -11,6 +11,18 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 7,140,513 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 173-06-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–286 mm across, 0–425 mm up
+- **Outlines:** line 1,441 rings, 15,031 straight (20,325 mm) / 4,380 curved (4,345 mm); text 187 rings, 1,725 straight (1,615 mm) / 544 curved (616 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 10.0 @ (217.8, 79.6), r 10.0 @ (195.2, 27.6), r 8.3 @ (211.3, 112.8), r 8.2 @ (185.5, 49.7)
+- **Closed boxes:** 44; named: r 54
+- **Dots (junctions):** 3
+- **Words (OCR):** 7 in 7 lines: HRA · ~R3 · ER · p3 · 38 · ji · r 54
+
+Every curve, box, word and wire group: [1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (traced).json](1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT%20%28traced%29.json) (the CAD file: `1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

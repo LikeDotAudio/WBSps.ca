@@ -11,6 +11,18 @@ Wiki page: [M462](../../../PAGES/M462.md)
 - **Size:** 1,855,292 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–432 mm up
+- **Outlines:** line 238 rings, 2,780 straight (6,120 mm) / 576 curved (835 mm); text 409 rings, 3,078 straight (3,538 mm) / 886 curved (1,343 mm)
+- **Centre lines:** 3,299 paths (50 closed); straight 5,513 mm, curved 163 mm; horizontal 1,875 mm, vertical 1,269 mm, diagonal 2,369 mm
+- **Circles and arcs:** 8 circles, 35 arcs; largest r 2.1 @ (172.5, 233.6), r 1.9 @ (149.9, 111.1), r 1.4 @ (176.9, 111.8), r 1.4 @ (278.1, 335.9)
+- **Words (OCR):** 75 in 68 lines: 25k Az. ) · Hah · (16 khz · 23 · R3 · Sskz ciC · 312 · Gk2 · C6 · 33 · 6a16 · Ooop
+- **Wiring (first pass):** 41 connected wire groups from 255 runs; labelled ends: 255 mm → Sskz, ciC, Ooop, I0 ?; 118 mm → 312, Sskz, ciC, Ooop; 111 mm → 22, 22k; 110 mm → 33, Ok, 39; 100 mm → 6a16, C6, combiwedi, VALLE
+
+Every curve, box, word and wire group: [1974 - M462 - 4-126-02-001 - BOOP COMBINED CAMBINED VALUE VALUE (traced).json](1974%20-%20M462%20-%204-126-02-001%20-%20BOOP%20COMBINED%20CAMBINED%20VALUE%20VALUE%20%28traced%29.json) (the CAD file: `1974 - M462 - 4-126-02-001 - BOOP COMBINED CAMBINED VALUE VALUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

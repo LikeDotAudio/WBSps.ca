@@ -11,6 +11,18 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 883,079 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 600-02-010, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 16–339 mm across, 6–394 mm up
+- **Outlines:** line 128 rings, 2,114 straight (4,136 mm) / 327 curved (508 mm); text 79 rings, 560 straight (542 mm) / 176 curved (263 mm)
+- **Centre lines:** 1,096 paths (19 closed); straight 2,509 mm, curved 96.1 mm; horizontal 1,267 mm, vertical 709 mm, diagonal 534 mm
+- **Circles and arcs:** 0 circles, 21 arcs
+- **Words (OCR):** 17 in 16 lines: BN · 60- · RO · 5A2Z · AUDI0 · 150/600 · INpUT · GN · ShIELO · SET · GaIN · Cw
+- **Wiring (first pass):** 61 connected wire groups from 160 runs; labelled ends: 419 mm → 60-, RO, GN; 214 mm → R10i, Sk, LOG; 51 mm → 60-; 43 mm → BN, 60-; 20 mm → 60-
+
+Every curve, box, word and wire group: [1970 - M600 - 600-02-010 - LOG SENSITIVITY CONTROL (traced).json](1970%20-%20M600%20-%20600-02-010%20-%20LOG%20SENSITIVITY%20CONTROL%20%28traced%29.json) (the CAD file: `1970 - M600 - 600-02-010 - LOG SENSITIVITY CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

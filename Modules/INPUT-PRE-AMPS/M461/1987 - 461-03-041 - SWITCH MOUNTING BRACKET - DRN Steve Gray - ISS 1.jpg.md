@@ -25,6 +25,19 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 1,309,327 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 461-03-041, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 200
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 120 rings, 2,633 straight (6,606 mm) / 355 curved (533 mm); text 321 rings, 2,343 straight (2,920 mm) / 750 curved (1,139 mm); tb 5 rings, 183 straight (430 mm) / 10 curved (14.5 mm)
+- **Centre lines:** 4,727 paths (73 closed); straight 6,217 mm, curved 58.8 mm; horizontal 2,452 mm, vertical 1,777 mm, diagonal 1,987 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 3.8 @ (118.0, 207.9), r 1.0 @ (430.0, 154.0)
+- **Closed boxes:** 16 (11 in the title block); named: 461-03-041; ISSUE
+- **Words (OCR):** 47 in 35 lines: 0.24 0.551 · 0.29 · 0.35 · 0.26 · 0.54 · 0.130 DIA: · 2 PLACES · #4-40 UNC · 0.60 · NQTES; · SSUE] DATE · REVISION
+- **Title block:** (246, 19)–(416, 87) mm: SSUE] DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN; · DEC · 987 · M461 · ENG_ · SWTCH · MOUNTING BRACKEI · CKD · APP. · SCALE DISC NO: 200 · 461-03-041 · ISSUE · 2:1 CODE: 461M41
+
+Every curve, box, word and wire group: [1987 - 461-03-041 - SWITCH MOUNTING BRACKET - DRN Steve Gray - ISS 1 (traced).json](1987%20-%20461-03-041%20-%20SWITCH%20MOUNTING%20BRACKET%20-%20DRN%20Steve%20Gray%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 461-03-041 - SWITCH MOUNTING BRACKET - DRN Steve Gray - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

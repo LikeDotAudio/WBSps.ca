@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 15,728,083 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 95015-04-002, size B (assumed) 432 × 336 mm, 2000 × 1555 px traced (0.216 mm/px)
+- **Ink extent:** 3–431 mm across, 26–336 mm up
+- **Outlines:** line 1,704 rings, 14,121 straight (32,855 mm) / 1,424 curved (1,944 mm); text 447 rings, 2,684 straight (2,890 mm) / 968 curved (1,299 mm); tb 20 rings, 563 straight (1,862 mm) / 3 curved (3.2 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 6.4 @ (369.3, 128.3), r 6.4 @ (368.4, 153.6), r 1.8 @ (370.4, 156.0), r 1.8 @ (371.4, 130.8)
+- **Closed boxes:** 159
+- **Dots (junctions):** 16
+- **Words (OCR):** 79 in 74 lines: CR · MON · CH · CH 10 · CH 11 · CH 12 · CH 13 · CH 14 · CH 15 CH 16 · CH · CH 2 · CH
+- **Title block:** (292, 31)–(424, 90) mm: APP · SSUE · REVISION · WARD-BECK SYSTEMS · WBS · DRN: DRG(6_ '95) · CANADIAN  CHINESE RADIO · RENAISSANCE MKII · ENG · CKD · CONSOLE · LAYOUT · APP_ · ISSUE · SCALE · DISC NO:_SYSO1 · 95015-04-002 · 
+
+Every curve, box, word and wire group: [1995 - 95015 - DOC - 95015-04-002 - CANADIAN CHINESE RADIO ENG RENAISSANCE MKII (traced).json](1995%20-%2095015%20-%20DOC%20-%2095015-04-002%20-%20CANADIAN%20CHINESE%20RADIO%20ENG%20RENAISSANCE%20MKII%20%28traced%29.json) (the CAD file: `1995 - 95015 - DOC - 95015-04-002 - CANADIAN CHINESE RADIO ENG RENAISSANCE MKII (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

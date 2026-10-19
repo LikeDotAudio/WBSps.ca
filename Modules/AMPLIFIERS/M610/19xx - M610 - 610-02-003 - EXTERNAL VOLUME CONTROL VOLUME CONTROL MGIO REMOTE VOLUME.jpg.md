@@ -11,6 +11,20 @@ Wiki page: [M610](../../../PAGES/M610.md)
 - **Size:** 639,947 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 610-02-003, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–431 mm up
+- **Outlines:** line 562 rings, 5,562 straight (7,100 mm) / 947 curved (1,352 mm); text 339 rings, 3,593 straight (4,783 mm) / 814 curved (1,467 mm)
+- **Centre lines:** 3,217 paths (62 closed); straight 6,426 mm, curved 360 mm; horizontal 2,046 mm, vertical 1,805 mm, diagonal 2,576 mm
+- **Circles and arcs:** 11 circles, 5 arcs; largest r 21.2 @ (84.1, 159.9), r 20.6 @ (200.7, 160.1), r 2.8 @ (170.2, 289.7), r 2.8 @ (169.7, 260.0)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 53 in 38 lines: MGIO · Pz · Cw · 13 · CW · PI · INTERNAL CONTROL · EXT CONTROL · ARM · ARM · Low SIDE P2-5 · HIGH
+- **Wiring (first pass):** 34 connected wire groups from 179 runs; labelled ends: 89 mm → PI, INTERNAL CONTROL; 67 mm → INTERNAL CONTROL; 56 mm → INTERNAL CONTROL, PI; 48 mm → 13; 43 mm → MGIO
+
+Every curve, box, word and wire group: [19xx - M610 - 610-02-003 - EXTERNAL VOLUME CONTROL VOLUME CONTROL MGIO REMOTE VOLUME (traced).json](19xx%20-%20M610%20-%20610-02-003%20-%20EXTERNAL%20VOLUME%20CONTROL%20VOLUME%20CONTROL%20MGIO%20REMOTE%20VOLUME%20%28traced%29.json) (the CAD file: `19xx - M610 - 610-02-003 - EXTERNAL VOLUME CONTROL VOLUME CONTROL MGIO REMOTE VOLUME (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

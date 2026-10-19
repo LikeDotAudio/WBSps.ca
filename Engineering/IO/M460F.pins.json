@@ -1,0 +1,1543 @@
+{
+ "code": "M460F",
+ "name": "Input Module Schematic",
+ "derived": true,
+ "variant_of": "M460A",
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "MIC IN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "MIC IN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "RS2",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "RS2",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "K",
+   "row": 9,
+   "side": "letter",
+   "signal": "RS1",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "RS1",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "PFL",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "PFL",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "SOLO",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "SOLO",
+   "kind": "audio",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "R",
+   "row": 14,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "ATT. TN SHIELD TIE",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "ATT . IN SHIELD TIE",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "ATT OUT SHIELD TIE",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 18 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "ATT",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 18 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P1",
+   "pin": "W",
+   "row": 19,
+   "side": "letter",
+   "signal": "FADER RETURN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "FADER RETURN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "CH ON SWITCH OUT",
+   "kind": "control",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "CH ON SWITCH OUT",
+   "kind": "control",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "INSERT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P1",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "INSERT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 1 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 1 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "B",
+   "row": 2,
+   "side": "letter",
+   "signal": "GND",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "GND",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "LEFT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 3 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "LEFT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 3 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 4 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 4 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "BUS RIGHT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "BUS RIGHT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 6 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 6 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "GND",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 7 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "GND",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 7 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "K",
+   "row": 9,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "R",
+   "row": 14,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "PA CONTROL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "PFL CONTROL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "MUTE CONTROL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "MUTE CONTROL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "SOLO CONTROL",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 18 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "W",
+   "row": 19,
+   "side": "letter",
+   "signal": "CH ON",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 19 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "CONTROL COM",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 20 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  },
+  {
+   "conn": "P2",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "CH. ON LAMP",
+   "kind": "control",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "001093652baf72513846d3df8d310d1bf92996f81fb55376c6415a20b430e7ee",
+    "file": "Modules/INPUT-PRE-AMPS/M460A/1977 - M460A - 460-04-004 - KYYS CONNECTOR REAR VIEW.jpg",
+    "page": 1
+   },
+   "quote": "row 22 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M460A/M460A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [],
+   "from_conf": "high"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

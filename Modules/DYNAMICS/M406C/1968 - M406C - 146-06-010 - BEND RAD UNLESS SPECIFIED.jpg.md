@@ -11,6 +11,17 @@ Wiki page: [M406C](../../../PAGES/M406C.md)
 - **Size:** 6,939,853 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 146-06-010, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–429 mm across, 20–305 mm up
+- **Outlines:** line 883 rings, 10,783 straight (14,336 mm) / 2,656 curved (2,715 mm); text 253 rings, 2,444 straight (2,568 mm) / 659 curved (765 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 10.1 @ (57.5, 157.8), r 7.8 @ (145.3, 200.0), r 7.6 @ (86.7, 208.8), r 7.6 @ (87.1, 189.5)
+- **Closed boxes:** 29
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1968 - M406C - 146-06-010 - BEND RAD UNLESS SPECIFIED (traced).json](1968%20-%20M406C%20-%20146-06-010%20-%20BEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M406C - 146-06-010 - BEND RAD UNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

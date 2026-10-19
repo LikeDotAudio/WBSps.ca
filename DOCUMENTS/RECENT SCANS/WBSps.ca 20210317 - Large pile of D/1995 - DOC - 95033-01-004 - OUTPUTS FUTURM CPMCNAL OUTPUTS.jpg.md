@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,694,302 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 95033-01-004, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 74–421 mm across, 8–223 mm up
+- **Outlines:** line 3,009 rings, 19,733 straight (25,098 mm) / 5,383 curved (9,282 mm); text 201 rings, 1,302 straight (1,196 mm) / 373 curved (458 mm); tb 25 rings, 183 straight (199 mm) / 44 curved (55.4 mm)
+- **Centre lines:** 34,166 paths (143 closed); straight 23,981 mm, curved 71.3 mm; horizontal 9,405 mm, vertical 9,164 mm, diagonal 5,411 mm
+- **Circles and arcs:** 257 circles, 28 arcs; largest r 1.7 @ (121.4, 190.3), r 1.7 @ (168.8, 167.5), r 1.7 @ (166.0, 199.5), r 1.7 @ (156.3, 183.5)
+- **Closed boxes:** 362 (2 in the title block); named: CBC VANCOUVER STUDIO INTERCOM FUNCTIONAL; SCALC; 57501; 95033-01-004; CODE 9509304
+- **Dots (junctions):** 721
+- **Words (OCR):** 26 in 24 lines: LEGEND; · crosspo" · SWTCHED CFF · 4b5,48 · ihpuTS · NOTES · uuRI · slots · ARE PROMCED · ARE Not PROMDED · CPFRATF · CR Ouf
+- **Title block:** (341, 24)–(426, 40) mm: WBS · WARD-BECK SYSTEMS · CBC VANCOUVER
+- **Wiring (first pass):** 77 connected wire groups from 5,645 runs, 1034 dotted junctions; labelled ends: 73 mm → WBS, SCALC, CODE, INTERCOM FUNCTIONAL; 54 mm → INTERCOM FUNCTIONAL, 95033-01-004; 28 mm → (OTOL; 9 mm → LEGEND;
+
+Every curve, box, word and wire group: [1995 - DOC - 95033-01-004 - OUTPUTS FUTURM CPMCNAL OUTPUTS (traced).json](1995%20-%20DOC%20-%2095033-01-004%20-%20OUTPUTS%20FUTURM%20CPMCNAL%20OUTPUTS%20%28traced%29.json) (the CAD file: `1995 - DOC - 95033-01-004 - OUTPUTS FUTURM CPMCNAL OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

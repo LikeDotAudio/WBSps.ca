@@ -22,6 +22,21 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,897,931 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 1-117-02-001, size B (assumed) 432 × 142 mm, 2000 × 658 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 4–138 mm up
+- **Outlines:** line 1,084 rings, 8,433 straight (14,332 mm) / 1,915 curved (2,372 mm); text 224 rings, 1,275 straight (1,104 mm) / 374 curved (456 mm); tb 29 rings, 183 straight (142 mm) / 50 curved (58.4 mm)
+- **Centre lines:** 8,747 paths (277 closed); straight 9,096 mm, curved 283 mm; horizontal 3,610 mm, vertical 2,175 mm, diagonal 3,310 mm
+- **Circles and arcs:** 11 circles, 58 arcs; largest r 6.2 @ (135.7, 55.6), r 6.1 @ (98.5, 85.7), r 3.2 @ (339.4, 61.9), r 3.1 @ (56.1, 106.1)
+- **Closed boxes:** 28 (5 in the title block); named: 4130; T-117 - 02 001; SCALE
+- **Dots (junctions):** 1
+- **Words (OCR):** 35 in 31 lines: NOlE? · ALL · Specifhed · BASE · CURREHT · Weze · 01 KETLACED · Peb Tracking · 24L+87 · Are requiree · 438 · L4305
+- **Title block:** (359, 6)–(432, 33) mm: WBS WAAD-DeCK SysteMS · REGULATOR BoARD · SCHEMATIC · SCALE · T-117 - 02 001
+- **Wiring (first pass):** 67 connected wire groups from 553 runs, 1 dotted junctions; labelled ends: 433 mm → 246s; 203 mm → 00/45; 173 mm → El, WBS; 172 mm → 00/45; 66 mm → 24+0s7
+
+Every curve, box, word and wire group: [1978 - 1-117-02-001 - 1-117 REGULATOR BOARD SCHEMATIC - DRN MRW - ENG MRW - ISS 11 (traced).json](1978%20-%201-117-02-001%20-%201-117%20REGULATOR%20BOARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%2011%20%28traced%29.json) (the CAD file: `1978 - 1-117-02-001 - 1-117 REGULATOR BOARD SCHEMATIC - DRN MRW - ENG MRW - ISS 11 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

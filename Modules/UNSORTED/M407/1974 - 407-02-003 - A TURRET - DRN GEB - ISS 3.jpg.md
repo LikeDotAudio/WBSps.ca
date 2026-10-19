@@ -23,6 +23,20 @@ Wiki page: [M407](../../../PAGES/M407.md)
 - **Size:** 1,864,551 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 407-02-003, size B 432 × 138 mm, 2000 × 638 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–138 mm up
+- **Outlines:** line 737 rings, 6,078 straight (14,974 mm) / 883 curved (1,192 mm); text 878 rings, 4,466 straight (3,638 mm) / 1,462 curved (1,735 mm); tb 17 rings, 130 straight (164 mm) / 16 curved (21.3 mm)
+- **Centre lines:** 9,101 paths (280 closed); straight 10,900 mm, curved 129 mm; horizontal 5,628 mm, vertical 2,104 mm, diagonal 3,168 mm
+- **Circles and arcs:** 6 circles, 17 arcs; largest r 2.0 @ (59.8, 118.8), r 2.0 @ (269.0, 40.0), r 2.0 @ (59.8, 104.6), r 1.9 @ (252.7, 39.8)
+- **Closed boxes:** 38 (9 in the title block); named: M44IM; 4N4003; +8bm RED; BLACK; IsS_; Zia TOLS_
+- **Words (OCR):** 164 in 142 lines: 25 FT CABLE · TNs8HE · ORANGF · Red · BLOcK · +2+v · 220 /4ov · M44IM · (RED) ON LAMP · IN540+ · MIc ON · 7513w
+- **Title block:** (299, 8)–(412, 32) mm: DSSMOD: · CKD · USED ON · WBS WARD-BECK · Ei9Rc · BlG4 · DRM: · DATE · SEB · oCt · M407 · FIMSA · CKD · PC: · TURRET · SCALE · Zia · 407 · 02 003 · TOLS_
+- **Wiring (first pass):** 74 connected wire groups from 739 runs; labelled ends: 557 mm → 220 /4ov, 131, M44IM, Ch ON; 273 mm → XLR-7-14, 2k5 LoC; 219 mm → TALKBACK; 179 mm → Ch ON; 169 mm → T/b, T/g CPMMon, 4N4003
+
+Every curve, box, word and wire group: [1974 - 407-02-003 - A TURRET - DRN GEB - ISS 3 (traced).json](1974%20-%20407-02-003%20-%20A%20TURRET%20-%20DRN%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1974 - 407-02-003 - A TURRET - DRN GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

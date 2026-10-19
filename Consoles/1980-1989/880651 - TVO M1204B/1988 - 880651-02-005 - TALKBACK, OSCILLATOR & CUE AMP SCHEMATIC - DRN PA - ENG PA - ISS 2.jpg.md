@@ -22,6 +22,17 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 4,294,511 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 880651-02-005, size B (assumed) 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–324 mm across, 0–288 mm up
+- **Outlines:** line 221 rings, 1,094 straight (2,153 mm) / 109 curved (183 mm); text 71 rings, 473 straight (655 mm) / 66 curved (116 mm)
+- **Centre lines:** 542 paths (1 closed); straight 1,204 mm, curved 20.1 mm; horizontal 369 mm, vertical 522 mm, diagonal 314 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Wiring (first pass):** 21 connected wire groups from 135 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-005 - TALKBACK, OSCILLATOR & CUE AMP SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%20880651-02-005%20-%20TALKBACK%2C%20OSCILLATOR%20%26%20CUE%20AMP%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-005 - TALKBACK, OSCILLATOR & CUE AMP SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -23,6 +23,20 @@ Wiki page: [M413](../../../PAGES/M413.md)
 - **Size:** 3,860,334 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 413-02-001, size B 432 × 142 mm, 2000 × 660 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–137 mm up
+- **Outlines:** line 1,013 rings, 9,371 straight (14,926 mm) / 1,761 curved (2,113 mm); text 111 rings, 703 straight (601 mm) / 213 curved (253 mm)
+- **Centre lines:** 7,968 paths (256 closed); straight 8,923 mm, curved 91.2 mm; horizontal 3,312 mm, vertical 2,825 mm, diagonal 2,786 mm
+- **Circles and arcs:** 0 circles, 21 arcs
+- **Closed boxes:** 12
+- **Dots (junctions):** 7
+- **Words (OCR):** 20 in 18 lines: OTHERWISE STATEC · ALL ReSistoRS · UNLESS · MICRc FARADE · R42 · CAPACTOR · C2C · LOT · 14788 · DUTPT · OUT_ · MaRO
+- **Wiring (first pass):** 103 connected wire groups from 702 runs, 4 dotted junctions; labelled ends: 118 mm → 23 FEE; 62 mm → OUT_; 51 mm → MaRO; 50 mm → MaRO; 46 mm → OUT_
+
+Every curve, box, word and wire group: [1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4 (traced).json](1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

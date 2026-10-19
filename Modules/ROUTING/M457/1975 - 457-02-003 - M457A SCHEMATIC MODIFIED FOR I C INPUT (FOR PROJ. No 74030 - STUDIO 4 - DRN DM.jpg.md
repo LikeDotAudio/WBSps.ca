@@ -23,6 +23,20 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 4,000,054 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 457-02-003, size B 432 × 142 mm, 2000 × 656 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–142 mm up
+- **Outlines:** line 834 rings, 7,630 straight (11,920 mm) / 1,540 curved (1,705 mm); text 130 rings, 788 straight (714 mm) / 241 curved (294 mm); tb 36 rings, 250 straight (285 mm) / 70 curved (81.6 mm)
+- **Centre lines:** 9,516 paths (231 closed); straight 7,991 mm, curved 48.9 mm; horizontal 3,304 mm, vertical 1,970 mm, diagonal 2,717 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 2.5 @ (198.2, 80.8), r 0.7 @ (201.3, 84.5)
+- **Closed boxes:** 30 (2 in the title block); named: USLDTOM; ToLs
+- **Words (OCR):** 20 in 18 lines: Ric7 · Rics · NOTES · CAPLCMCRS · 825 · Jak 57 · 502 · Giles · USLDTOM · WES WAAD-BeCK · BYBTEME · To Ei
+- **Title block:** (352, 8)–(414, 30) mm: WES WAAD-BeCK · M457A SCHEMATIC · MODIFIED FCR I/C INPUT · SCALE · ToLs
+- **Wiring (first pass):** 87 connected wire groups from 540 runs; labelled ends: 121 mm → Ric7, Rics; 93 mm → BYBTEME; 63 mm → Ric7, Rics; 43 mm → 825, Giles; 41 mm → 825, Giles
+
+Every curve, box, word and wire group: [1975 - 457-02-003 - M457A SCHEMATIC MODIFIED FOR I C INPUT (FOR PROJ. No 74030 - STUDIO 4 - DRN DM (traced).json](1975%20-%20457-02-003%20-%20M457A%20SCHEMATIC%20MODIFIED%20FOR%20I%20C%20INPUT%20%28FOR%20PROJ.%20No%2074030%20-%20STUDIO%204%20-%20DRN%20DM%20%28traced%29.json) (the CAD file: `1975 - 457-02-003 - M457A SCHEMATIC MODIFIED FOR I C INPUT (FOR PROJ. No 74030 - STUDIO 4 - DRN DM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -21,6 +21,17 @@ Wiki page: [Job-940184](../../../PAGES/Job-940184.md)
 - **Size:** 544,510 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940184-04-001, size D 864 × 558 mm, 2000 × 1292 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 1–863 mm across, 1–558 mm up
+- **Outlines:** line 882 rings, 6,195 straight (30,808 mm) / 1,458 curved (4,731 mm); text 184 rings, 1,108 straight (2,079 mm) / 357 curved (896 mm)
+- **Circles and arcs:** 52 circles, 0 arcs; largest r 9.1 @ (151.8, 335.3), r 9.1 @ (116.3, 335.7), r 9.1 @ (474.1, 424.5), r 9.0 @ (116.7, 371.2)
+- **Closed boxes:** 63
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1994 - 940184-04-001 - GLENN GOULD STUDIO TURRET LAYOUTS - DRN DRG - ISS 2 (traced).json](1994%20-%20940184-04-001%20-%20GLENN%20GOULD%20STUDIO%20TURRET%20LAYOUTS%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940184-04-001 - GLENN GOULD STUDIO TURRET LAYOUTS - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

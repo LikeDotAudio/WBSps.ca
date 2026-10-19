@@ -11,6 +11,17 @@ Wiki page: [M463J](../../../PAGES/M463J.md)
 - **Size:** 2,409,192 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-009, size B (assumed) 432 × 336 mm, 2000 × 1554 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–426 mm across, 5–333 mm up
+- **Outlines:** line 208 rings, 6,950 straight (11,120 mm) / 763 curved (1,234 mm); text 577 rings, 5,587 straight (6,995 mm) / 1,157 curved (1,901 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.4 @ (26.1, 83.5), r 2.4 @ (94.3, 83.4)
+- **Closed boxes:** 80
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE (traced).json](1972%20-%20M463J%20-%20463-04-009%20-%20CONNECTOR%20REAR%20VIEW%20HALE%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

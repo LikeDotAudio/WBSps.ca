@@ -22,6 +22,20 @@ M471C stereo input module functional diagram.
 - **Size:** 419,527 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 471-01-004, size B 432 × 273 mm, 2000 × 1265 px traced (0.216 mm/px)
+- **Ink extent:** 8–424 mm across, 4–257 mm up
+- **Outlines:** line 455 rings, 5,014 straight (9,972 mm) / 683 curved (843 mm); text 444 rings, 2,897 straight (2,394 mm) / 855 curved (1,024 mm); tb 2 rings, 47 straight (104 mm) / 3 curved (5.7 mm)
+- **Centre lines:** 6,488 paths (105 closed); straight 6,580 mm, curved 102 mm; horizontal 2,473 mm, vertical 1,813 mm, diagonal 2,294 mm
+- **Circles and arcs:** 5 circles, 17 arcs; largest r 2.8 @ (199.8, 90.8), r 2.2 @ (168.4, 139.2), r 2.1 @ (52.3, 176.1), r 2.0 @ (90.4, 176.1)
+- **Closed boxes:** 13
+- **Words (OCR):** 100 in 90 lines: SuB · PreexMPi" 079 IER · cOnTROL · TER SeLeC · MODE · AMPLifier · CHANNEL · AMPL IFiER · BooStER · {u3 · LEGT · CHANNEL
+- **Title block:** (336, 28)–(432, 44) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 191 connected wire groups from 539 runs; labelled ends: 272 mm → Preipost, PreiPost, Pre/post; 93 mm → BALANCE, INsERT; 79 mm → BALANCE, INsERT; 72 mm → INSERT, Left, Out, CHANNEL; 57 mm → WhcEPT, Richt, Out
+
+Every curve, box, word and wire group: [19xx - 471-01-004 - STEREO INPUT MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20471-01-004%20-%20STEREO%20INPUT%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 471-01-004 - STEREO INPUT MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

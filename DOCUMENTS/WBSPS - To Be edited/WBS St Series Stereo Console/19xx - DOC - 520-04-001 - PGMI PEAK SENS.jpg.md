@@ -15,6 +15,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 1,150,750 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 520-04-001, size B (assumed) 213 × 432 mm, 987 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–213 mm across, 0–429 mm up
+- **Outlines:** line 45 rings, 2,155 straight (4,869 mm) / 176 curved (288 mm); text 191 rings, 1,757 straight (2,105 mm) / 495 curved (760 mm); tb 309 rings, 2,495 straight (3,811 mm) / 437 curved (662 mm)
+- **Closed boxes:** 5 (5 in the title block)
+- **Words (OCR):** 35 in 32 lines: WBS · PAN · PGMi · PEAK · SENS · AUX · PRE · PST · AUX 3 · PRE · PST · AUX 2
+- **Title block:** (15, 0)–(186, 429) mm: WBS · PAN · PGMi · PEAK · SENS · AUX · PRE · PST · AUX 3 · PRE · PST · AUX 2 · PRE · PST · AUX · PRE PST · ISSUE DATE · RE VISION · WBS WAAD-BECK sybter · ch · ON · DRN: LP · M520 · ENG · Mrwj · MONO 
+
+Every curve, box, word and wire group: [19xx - DOC - 520-04-001 - PGMI PEAK SENS (traced).json](19xx%20-%20DOC%20-%20520-04-001%20-%20PGMI%20PEAK%20SENS%20%28traced%29.json) (the CAD file: `19xx - DOC - 520-04-001 - PGMI PEAK SENS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

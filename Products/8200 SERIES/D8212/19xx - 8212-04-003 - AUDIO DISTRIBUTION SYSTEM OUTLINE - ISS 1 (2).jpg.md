@@ -22,6 +22,15 @@ Audio distribution system outline drawing. Title block at bottom left reading si
 - **Size:** 3,977,283 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 8212-04-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 6–432 mm across, 1–289 mm up
+- **Outlines:** line 332 rings, 4,670 straight (17,850 mm) / 435 curved (638 mm); text 105 rings, 634 straight (666 mm) / 193 curved (266 mm)
+- **Closed boxes:** 27
+
+Every curve, box, word and wire group: [19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1 (2) (traced).json](19xx%20-%208212-04-003%20-%20AUDIO%20DISTRIBUTION%20SYSTEM%20OUTLINE%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 8212-04-003 - AUDIO DISTRIBUTION SYSTEM OUTLINE - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

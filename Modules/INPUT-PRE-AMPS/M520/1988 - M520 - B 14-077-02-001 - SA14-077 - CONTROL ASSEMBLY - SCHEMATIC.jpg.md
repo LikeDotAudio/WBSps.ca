@@ -12,6 +12,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 6,087,807 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-077-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 1,448 rings, 11,525 straight (21,611 mm) / 2,137 curved (2,496 mm); text 166 rings, 956 straight (896 mm) / 271 curved (349 mm)
+- **Centre lines:** 9,426 paths (310 closed); straight 12,438 mm, curved 67.0 mm; horizontal 5,323 mm, vertical 4,076 mm, diagonal 3,039 mm
+- **Circles and arcs:** 1 circles, 17 arcs; largest r 1.2 @ (359.7, 26.1)
+- **Closed boxes:** 64
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 106 connected wire groups from 1,117 runs, 3 dotted junctions
+
+Every curve, box, word and wire group: [1988 - M520 - B 14-077-02-001 - SA14-077 - CONTROL ASSEMBLY - SCHEMATIC (traced).json](1988%20-%20M520%20-%20B%2014-077-02-001%20-%20SA14-077%20-%20CONTROL%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1988 - M520 - B 14-077-02-001 - SA14-077 - CONTROL ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

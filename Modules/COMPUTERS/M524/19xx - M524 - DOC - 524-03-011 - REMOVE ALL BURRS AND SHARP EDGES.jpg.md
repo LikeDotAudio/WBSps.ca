@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,953,240 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 524-03-011, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 184 rings, 3,464 straight (10,569 mm) / 327 curved (546 mm); text 359 rings, 2,496 straight (2,936 mm) / 878 curved (1,345 mm); tb 7 rings, 104 straight (222 mm) / 7 curved (12.7 mm)
+- **Centre lines:** 3,079 paths (56 closed); straight 7,765 mm, curved 63.0 mm; horizontal 3,849 mm, vertical 2,062 mm, diagonal 1,855 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 10 (10 in the title block)
+- **Words (OCR):** 48 in 43 lines: NOTES · MATERIAL-.040 ALUM: ALLOY · 2) TOLERANCES XXX 005 · 3) REMOVE ALL BURRS AND SHARP EDGES · FiniSH CLEAR ALODINE · 300 · 645 · 1,660 · 150 · 275 · 2 PLACES · 45'TYR
+- **Title block:** (278, 4)–(432, 72) mm: 4l84 BOARD MTG TABS ADDED · (ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: · TR 4/84 · M524 · ENG · Tr · CKD: · PCB SUPPORT BRKT: · APP · SCALE · ISSUE · 524-03-011 · 2X
+
+Every curve, box, word and wire group: [19xx - M524 - DOC - 524-03-011 - REMOVE ALL BURRS AND SHARP EDGES (traced).json](19xx%20-%20M524%20-%20DOC%20-%20524-03-011%20-%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `19xx - M524 - DOC - 524-03-011 - REMOVE ALL BURRS AND SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,837,076 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 490-03-033, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–277 mm up
+- **Outlines:** line 1,011 rings, 8,601 straight (22,056 mm) / 1,423 curved (1,937 mm); text 543 rings, 2,998 straight (2,822 mm) / 951 curved (1,235 mm); tb 11 rings, 143 straight (162 mm) / 25 curved (32.6 mm)
+- **Centre lines:** 10,746 paths (193 closed); straight 14,333 mm, curved 292 mm; horizontal 7,797 mm, vertical 3,030 mm, diagonal 3,506 mm
+- **Circles and arcs:** 12 circles, 30 arcs; largest r 5.9 @ (128.6, 137.7), r 5.7 @ (329.5, 119.8), r 3.2 @ (153.5, 138.2), r 2.7 @ (29.1, 127.6)
+- **Closed boxes:** 22 (6 in the title block); named: DETALA; M49ok InPUT MODULE ESCUTCHEON; SCEL; 490.03 033
+- **Dots (junctions):** 1
+- **Words (OCR):** 103 in 84 lines: 124SC · 76e · 12.938 · 12 .Oce · 5.203 · 5.025 · 5-066 · 5.5C · 06@ · W72DIA.MILL · 700 · Sz2 note
+- **Title block:** (355, 19)–(432, 34) mm: WBS WAAD-DeCK SySteMS · M49ok
+
+Every curve, box, word and wire group: [19xx - DOC - 490-03-033 - SCRATCHES LSE SELF-CLINCHING PEM FASTERNER (traced).json](19xx%20-%20DOC%20-%20490-03-033%20-%20SCRATCHES%20LSE%20SELF-CLINCHING%20PEM%20FASTERNER%20%28traced%29.json) (the CAD file: `19xx - DOC - 490-03-033 - SCRATCHES LSE SELF-CLINCHING PEM FASTERNER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

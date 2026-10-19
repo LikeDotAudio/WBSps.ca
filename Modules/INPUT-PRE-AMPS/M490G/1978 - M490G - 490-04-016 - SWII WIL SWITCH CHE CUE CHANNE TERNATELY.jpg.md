@@ -11,6 +11,17 @@ Wiki page: [M490G](../../../PAGES/M490G.md)
 - **Size:** 201,508 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-016, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 4–420 mm up
+- **Outlines:** line 258 rings, 3,774 straight (11,484 mm) / 597 curved (889 mm); text 655 rings, 3,614 straight (3,164 mm) / 1,475 curved (1,889 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.0 @ (233.3, 79.6), r 2.7 @ (253.7, 368.5), r 2.4 @ (233.4, 93.9), r 1.9 @ (243.2, 26.6)
+- **Closed boxes:** 21; named: shitches Swi and Sw2 : Are mutually inte; PROGRAH switches Shl 3 Assignhent Nhen f; CUE CHANNEL luminated Hi be indicator DS; shitch Shiz: Homentary operat ion Shi2 h; Om shitch CHANNEL Mochanney_ 579 ef 519 
+- **Words (OCR):** 108 in 62 lines: WBS · M490 G · shitches Swi and Sw2 : Are mutually · interlocked and · se lection · either one of two · mic input sourccs · PROGRAH · feed · 3 Assignhent · switches Shl · Nhen
+
+Every curve, box, word and wire group: [1978 - M490G - 490-04-016 - SWII WIL SWITCH CHE CUE CHANNE TERNATELY (traced).json](1978%20-%20M490G%20-%20490-04-016%20-%20SWII%20WIL%20SWITCH%20CHE%20CUE%20CHANNE%20TERNATELY%20%28traced%29.json) (the CAD file: `1978 - M490G - 490-04-016 - SWII WIL SWITCH CHE CUE CHANNE TERNATELY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

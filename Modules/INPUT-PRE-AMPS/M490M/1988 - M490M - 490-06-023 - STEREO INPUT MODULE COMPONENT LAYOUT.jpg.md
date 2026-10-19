@@ -11,6 +11,18 @@ Wiki page: [M490M](../../../PAGES/M490M.md)
 - **Size:** 325,034 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 490-06-023, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 18–278 mm up
+- **Outlines:** line 1,083 rings, 9,487 straight (13,123 mm) / 2,986 curved (3,201 mm); text 820 rings, 5,519 straight (4,942 mm) / 2,055 curved (2,291 mm); tb 45 rings, 422 straight (527 mm) / 105 curved (117 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.9 @ (244.3, 248.9), r 3.2 @ (52.8, 209.8)
+- **Closed boxes:** 6; named: e/e
+- **Words (OCR):** 54 in 40 lines: 3 28 828 22 81 · 81 · e/e · 491 · 44 · 83 2280 · 38 · Ig · 828 · 58 · Oz8 · TN4036 T2402
+- **Title block:** (8, 46)–(317, 141) mm: 8 :8 ? · PN3569 · 119 ISSUE · II · WES WARD-BECK SYSTEMS · Magom
+
+Every curve, box, word and wire group: [1988 - M490M - 490-06-023 - STEREO INPUT MODULE COMPONENT LAYOUT (traced).json](1988%20-%20M490M%20-%20490-06-023%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1988 - M490M - 490-06-023 - STEREO INPUT MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

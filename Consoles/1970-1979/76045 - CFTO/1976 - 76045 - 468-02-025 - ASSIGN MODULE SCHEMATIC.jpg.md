@@ -11,6 +11,19 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 7,649,152 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 468-02-025, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 518 rings, 8,184 straight (12,569 mm) / 1,394 curved (1,902 mm); text 127 rings, 831 straight (892 mm) / 256 curved (377 mm)
+- **Centre lines:** 4,737 paths (56 closed); straight 7,713 mm, curved 300 mm; horizontal 3,608 mm, vertical 2,091 mm, diagonal 2,014 mm
+- **Circles and arcs:** 17 circles, 63 arcs; largest r 1.5 @ (329.6, 31.6), r 1.5 @ (417.9, 45.4), r 1.3 @ (225.8, 106.2), r 1.1 @ (197.6, 73.3)
+- **Closed boxes:** 41
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 66 connected wire groups from 515 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1976 - 76045 - 468-02-025 - ASSIGN MODULE SCHEMATIC (traced).json](1976%20-%2076045%20-%20468-02-025%20-%20ASSIGN%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1976 - 76045 - 468-02-025 - ASSIGN MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

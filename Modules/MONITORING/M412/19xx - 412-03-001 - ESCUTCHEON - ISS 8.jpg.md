@@ -26,6 +26,19 @@ Mechanical drawing of an escutcheon marked OBSOLETE, redrawn on C size, title bl
 
 - **1969** (labelled): `DATE: Nov.-69` — …OCDNNELL Fnsh 325 GRiT 8 Ward BECK SHSTEMS VAPOUR BLaST Top DATE: Nov.-69 SURFACE CHKD MMTERiAl ESCUTCHEON 25 Thk BLAci SCAIE PLEXIGL…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 412-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–298 mm up
+- **Outlines:** line 669 rings, 10,557 straight (13,190 mm) / 1,769 curved (2,196 mm); text 367 rings, 2,884 straight (3,098 mm) / 775 curved (1,194 mm); tb 64 rings, 649 straight (631 mm) / 105 curved (126 mm)
+- **Centre lines:** 23,255 paths (157 closed); straight 14,267 mm, curved 263 mm; horizontal 4,613 mm, vertical 3,169 mm, diagonal 6,484 mm
+- **Circles and arcs:** 6 circles, 28 arcs; largest r 11.5 @ (145.7, 157.5), r 5.0 @ (145.1, 157.6), r 3.4 @ (238.6, 157.5), r 2.0 @ (211.3, 26.3)
+- **Closed boxes:** 2
+- **Words (OCR):** 56 in 39 lines: 187 · 6.250 · 106 · 4.50 · 1.62 · HOLE · 390 DIA, · 500 DIA: · CBORE AT .87 · DIA: X · 412 DEER · 79
+- **Title block:** (181, 26)–(374, 56) mm: 325 CRIT · BECK SHSTEMS · DRN C,S,OCDNNELL VAPOUR BL4ST ToD · DATE; Nov -69 · SURFACE · CHKD · ESCUTCHEON
+
+Every curve, box, word and wire group: [19xx - 412-03-001 - ESCUTCHEON - ISS 8 (traced).json](19xx%20-%20412-03-001%20-%20ESCUTCHEON%20-%20ISS%208%20%28traced%29.json) (the CAD file: `19xx - 412-03-001 - ESCUTCHEON - ISS 8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -21,6 +21,19 @@ Rotated faint copy of a channel amplifier schematic with title block at right.
 - **Size:** 4,713,939 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 441-02-013, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 0–334 mm up
+- **Outlines:** line 654 rings, 9,835 straight (13,898 mm) / 1,716 curved (2,500 mm); text 458 rings, 3,386 straight (3,602 mm) / 933 curved (1,390 mm)
+- **Centre lines:** 6,137 paths (122 closed); straight 9,878 mm, curved 729 mm; horizontal 4,079 mm, vertical 2,241 mm, diagonal 3,557 mm
+- **Circles and arcs:** 45 circles, 93 arcs; largest r 5.3 @ (284.0, 113.2), r 1.7 @ (41.0, 212.1), r 1.7 @ (199.4, 239.1), r 1.7 @ (39.9, 120.3)
+- **Closed boxes:** 21
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 88 connected wire groups from 650 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [19xx - 441-02-013 - EL AMPLIFIER ...EMATIC (partial; model text ...411M) - ISS 3 (traced).json](19xx%20-%20441-02-013%20-%20EL%20AMPLIFIER%20...EMATIC%20%28partial%3B%20model%20text%20...411M%29%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 441-02-013 - EL AMPLIFIER ...EMATIC (partial; model text ...411M) - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

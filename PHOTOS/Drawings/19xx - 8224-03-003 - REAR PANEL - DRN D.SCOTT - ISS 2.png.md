@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,440,647 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 204 rings, 2,687 straight (8,296 mm) / 405 curved (805 mm); text 643 rings, 4,311 straight (5,126 mm) / 1,386 curved (2,007 mm); tb 4 rings, 83 straight (218 mm) / 6 curved (10.1 mm)
+- **Centre lines:** 7,019 paths (119 closed); straight 8,363 mm, curved 362 mm; horizontal 3,294 mm, vertical 1,884 mm, diagonal 3,185 mm
+- **Circles and arcs:** 5 circles, 14 arcs; largest r 12.5 @ (240.8, 176.1), r 12.5 @ (189.8, 176.0), r 10.0 @ (69.4, 228.7), r 10.0 @ (215.3, 176.1)
+- **Closed boxes:** 16 (10 in the title block); named: FINISH REVISED WAS MATTE GREY; 8224-03-003; CODE: 8224M03
+- **Words (OCR):** 77 in 56 lines: #4-40 UNC 2 PLACES · 0.130 & CSK To 0.240 · PLACES · 0.531 · 1.062 · DETAIL A · 4.000 · 0.780 DIA_ · 0.371 · 3.258 · 0.224 · 0.875
+- **Title block:** (252, 25)–(422, 92) mm: FINISH REVISED WAS MATTE GREY · ISSUE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN: D.SCOTT · ENG_ · PANEL · REAR · CKD: · APP · SCALE DISC NO: · ISSUE · 256 · 8224-03-003 · CODE: 8224M03
+
+Every curve, box, word and wire group: [19xx - 8224-03-003 - REAR PANEL - DRN D.SCOTT - ISS 2 (traced).json](19xx%20-%208224-03-003%20-%20REAR%20PANEL%20-%20DRN%20D.SCOTT%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 8224-03-003 - REAR PANEL - DRN D.SCOTT - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

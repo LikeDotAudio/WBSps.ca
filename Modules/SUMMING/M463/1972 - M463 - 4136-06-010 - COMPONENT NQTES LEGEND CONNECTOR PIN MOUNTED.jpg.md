@@ -12,6 +12,17 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 438,275 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4136-06-010, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 1,044 rings, 7,783 straight (10,453 mm) / 2,219 curved (2,321 mm); text 932 rings, 7,477 straight (7,172 mm) / 2,343 curved (2,667 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 7.6 @ (198.4, 233.9), r 3.0 @ (198.3, 233.7), r 2.8 @ (66.7, 208.3), r 2.7 @ (85.6, 155.0)
+- **Closed boxes:** 9; named: 24; Tip 3OB; 23; ki V23030-A202i-A1o4; 22; Tip 29B
+- **Words (OCR):** 124 in 103 lines: MOUNTED ON · SOLDER SIDE · Rios · Iswi2 · Swi3; · Swii · Re2 IEk · ~R8o42 · ~R8ie? · 00000 · R9o 220 · To swis
+
+Every curve, box, word and wire group: [1972 - M463 - 4136-06-010 - COMPONENT NQTES LEGEND CONNECTOR PIN MOUNTED (traced).json](1972%20-%20M463%20-%204136-06-010%20-%20COMPONENT%20NQTES%20LEGEND%20CONNECTOR%20PIN%20MOUNTED%20%28traced%29.json) (the CAD file: `1972 - M463 - 4136-06-010 - COMPONENT NQTES LEGEND CONNECTOR PIN MOUNTED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

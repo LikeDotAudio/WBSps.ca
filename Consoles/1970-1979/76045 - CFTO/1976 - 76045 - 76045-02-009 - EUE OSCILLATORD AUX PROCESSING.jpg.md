@@ -10,6 +10,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 5,984,673 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 76045-02-009, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–302 mm up
+- **Outlines:** line 493 rings, 4,285 straight (8,743 mm) / 539 curved (774 mm); text 299 rings, 1,516 straight (1,463 mm) / 375 curved (516 mm)
+- **Centre lines:** 2,261 paths (23 closed); straight 5,235 mm, curved 83.8 mm; horizontal 2,878 mm, vertical 1,250 mm, diagonal 1,107 mm
+- **Circles and arcs:** 5 circles, 16 arcs; largest r 1.5 @ (209.6, 74.1), r 1.3 @ (1.8, 187.5), r 1.3 @ (357.2, 31.1), r 1.2 @ (1.8, 180.7)
+- **Closed boxes:** 40
+- **Wiring (first pass):** 31 connected wire groups from 314 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-02-009 - EUE OSCILLATORD AUX PROCESSING (traced).json](1976%20-%2076045%20-%2076045-02-009%20-%20EUE%20OSCILLATORD%20AUX%20PROCESSING%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-02-009 - EUE OSCILLATORD AUX PROCESSING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

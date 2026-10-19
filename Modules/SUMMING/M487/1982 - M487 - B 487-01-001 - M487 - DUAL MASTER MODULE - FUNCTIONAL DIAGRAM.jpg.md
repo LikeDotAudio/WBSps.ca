@@ -11,6 +11,18 @@ Wiki page: [M487](../../../PAGES/M487.md)
 - **Size:** 6,054,385 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 487-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–287 mm up
+- **Outlines:** line 268 rings, 2,994 straight (9,035 mm) / 420 curved (588 mm); text 298 rings, 1,774 straight (2,062 mm) / 569 curved (806 mm)
+- **Centre lines:** 3,346 paths (74 closed); straight 5,818 mm, curved 138 mm; horizontal 2,706 mm, vertical 1,476 mm, diagonal 1,636 mm
+- **Circles and arcs:** 6 circles, 26 arcs; largest r 2.1 @ (393.8, 32.7), r 1.8 @ (393.7, 32.9), r 1.7 @ (395.0, 26.0), r 1.5 @ (365.5, 25.7)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 72 connected wire groups from 260 runs
+
+Every curve, box, word and wire group: [1982 - M487 - B 487-01-001 - M487 - DUAL MASTER MODULE - FUNCTIONAL DIAGRAM (traced).json](1982%20-%20M487%20-%20B%20487-01-001%20-%20M487%20-%20DUAL%20MASTER%20MODULE%20-%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1982 - M487 - B 487-01-001 - M487 - DUAL MASTER MODULE - FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

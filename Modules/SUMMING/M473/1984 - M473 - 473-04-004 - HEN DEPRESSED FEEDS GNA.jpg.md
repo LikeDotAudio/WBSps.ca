@@ -11,6 +11,19 @@ Wiki page: [M473](../../../PAGES/M473.md)
 - **Size:** 130,169 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 473-04-004, size B (assumed) 331 × 432 mm, 1265 × 1648 px traced (0.262 mm/px)
+- **Ink extent:** 0–331 mm across, 1–423 mm up
+- **Outlines:** line 337 rings, 2,855 straight (12,917 mm) / 568 curved (1,044 mm); text 829 rings, 4,135 straight (4,272 mm) / 1,520 curved (2,204 mm); tb 15 rings, 101 straight (214 mm) / 24 curved (43.4 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 8.4 @ (175.6, 152.7), r 7.0 @ (175.6, 152.6), r 4.9 @ (176.1, 193.5), r 4.9 @ (176.3, 234.5)
+- **Closed boxes:** 27 (13 in the title block); named: W BS M47] PRE AUX PRE AUX SUB ON; W BS M47] PRE AUX PRE AUX SUB ON; MASTER When depressed switch SWS: che ig; Sh4 ; the When depressed, switch HASTER ; PRE/POST Auxiliary 1ows choose che AUxil; AUxHEHARY LEVEL control RL 2 : Control s; Ruxilitsh AUXILIARY Sh8 Hhen depn essed,; PRE/POST AUxiLiARY tch ShZ lows choose c; When depressed; Ene gna auxiliary output; post- fade SOLO switch Khen depressed, S; switch When SUBHA STER depressed, feeds 
+- **Dots (junctions):** 1
+- **Words (OCR):** 135 in 82 lines: W BS · M47] · MASTER · HASTER · output gna · fed · switch · suning resistors · Sh4 ; When depressed, · the · che · output
+- **Title block:** (216, 6)–(326, 68) mm: 9/77 · REDRAWN · ISSUE IDATE · REVISION · WBS WAAD-BECK systeMS · ENG; · M473 · CKD · SUBMA STER MODULE · ApP · FRONT · PANEL · SCALE · ISSUE · 473-04-004
+
+Every curve, box, word and wire group: [1984 - M473 - 473-04-004 - HEN DEPRESSED FEEDS GNA (traced).json](1984%20-%20M473%20-%20473-04-004%20-%20HEN%20DEPRESSED%20FEEDS%20GNA%20%28traced%29.json) (the CAD file: `1984 - M473 - 473-04-004 - HEN DEPRESSED FEEDS GNA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

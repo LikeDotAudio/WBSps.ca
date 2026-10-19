@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,952,319 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 88000-03-004, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 148 rings, 2,180 straight (5,040 mm) / 290 curved (350 mm); text 608 rings, 4,104 straight (4,816 mm) / 1,326 curved (1,905 mm); tb 4 rings, 93 straight (214 mm) / 12 curved (17.0 mm)
+- **Centre lines:** 7,667 paths (110 closed); straight 6,950 mm, curved 37.5 mm; horizontal 2,480 mm, vertical 1,439 mm, diagonal 3,032 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 1.6 @ (109.8, 67.4)
+- **Closed boxes:** 16 (11 in the title block); named: 1/89; 8000-03-004; ISSUE
+- **Words (OCR):** 58 in 38 lines: 3.220 · 1.270 · CHiAMFER 1/8 x 45" · PLACES · Oks 03 Gcl . · 6*1 F01 0 · NJou · NOTES: · UNLESS OTHERWISE   SPECIFIED · 68000 · REMOVE ALL BURRS · AND SHARP EDGES
+- **Title block:** (250, 22)–(421, 91) mm: 1/89 ADDED NOTES · (IsSUE] DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN_ D.S: 11/88 · ENG · LENSE · CKD: · APP · SCALE DISC NO: · 256 · ISSUE · 1:1 CODE: 8000M04 · 8000-03-004
+
+Every curve, box, word and wire group: [1988 - DOC - 88000-03-004 - NOTES UNLESS OTHERWISE SPECIFIED REMOVE ALL BURRS AND (traced).json](1988%20-%20DOC%20-%2088000-03-004%20-%20NOTES%20UNLESS%20OTHERWISE%20SPECIFIED%20REMOVE%20ALL%20BURRS%20AND%20%28traced%29.json) (the CAD file: `1988 - DOC - 88000-03-004 - NOTES UNLESS OTHERWISE SPECIFIED REMOVE ALL BURRS AND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

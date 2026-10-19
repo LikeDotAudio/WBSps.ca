@@ -12,6 +12,20 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 1,462,583 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 459-02-001, size B (assumed) 432 × 375 mm, 2000 × 1738 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–375 mm up
+- **Outlines:** line 1,366 rings, 20,957 straight (21,010 mm) / 3,418 curved (3,863 mm); text 446 rings, 3,397 straight (3,490 mm) / 957 curved (1,261 mm); tb 32 rings, 349 straight (410 mm) / 48 curved (68.6 mm)
+- **Centre lines:** 52,880 paths (274 closed); straight 25,345 mm, curved 334 mm; horizontal 7,832 mm, vertical 5,706 mm, diagonal 11,806 mm
+- **Circles and arcs:** 22 circles, 42 arcs; largest r 4.0 @ (144.5, 120.9), r 4.0 @ (189.0, 194.6), r 3.8 @ (212.4, 126.8), r 1.1 @ (91.1, 159.3)
+- **Closed boxes:** 35 (1 in the title block); named: WARD-BeCK WBS systeM? LTD.; MATL; 3067; M459 VIDEO FOLLOW FILTER SELECTOP ScheMA; FFINISH; cl4z9 02-001
+- **Words (OCR):** 74 in 66 lines: FILTER 2 · FILTER · OUT · IN · Out · A OUT · IN · B IN · OUT · Kz · Ri · Ik 'zw
+- **Title block:** (288, 4)–(386, 52) mm: WBS · WARD-BeCK systeM? LTD. · DRN · M459 · VIDEO FOLLOW FILTER · cKd · SELECTOP ScheMATIC · SCALE · cl4z9 02-001 · ToLs ANG
+- **Wiring (first pass):** 126 connected wire groups from 1,095 runs; labelled ends: 342 mm → WBS, 3067, USED; 328 mm → 3067, USED; 189 mm → Ri, Ik 'zw, Kz; 139 mm → Ri, Ik 'zw, CRI, IN4o3; 123 mm → Kz
+
+Every curve, box, word and wire group: [1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOP SCHEMATIC (traced).json](1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOP%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOP SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

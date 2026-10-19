@@ -12,6 +12,18 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 7,398,692 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 459-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 613 rings, 6,784 straight (11,271 mm) / 1,087 curved (1,517 mm); text 208 rings, 1,383 straight (1,438 mm) / 356 curved (518 mm)
+- **Centre lines:** 4,965 paths (55 closed); straight 7,161 mm, curved 238 mm; horizontal 3,244 mm, vertical 1,890 mm, diagonal 2,027 mm
+- **Circles and arcs:** 6 circles, 48 arcs; largest r 1.7 @ (264.1, 23.6), r 1.5 @ (85.3, 118.4), r 1.4 @ (235.5, 23.8), r 1.3 @ (206.2, 23.7)
+- **Closed boxes:** 41
+- **Wiring (first pass):** 45 connected wire groups from 460 runs
+
+Every curve, box, word and wire group: [1976 - M459 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC (traced).json](1976%20-%20M459%20-%20459-02-002%20-%20FECTS%20SWITCHER%20DULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1976 - M459 - 459-02-002 - FECTS SWITCHER DULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

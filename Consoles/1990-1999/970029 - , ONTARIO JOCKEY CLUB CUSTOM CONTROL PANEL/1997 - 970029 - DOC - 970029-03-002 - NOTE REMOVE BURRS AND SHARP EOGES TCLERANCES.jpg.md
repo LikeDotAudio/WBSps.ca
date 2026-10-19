@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 15,707,417 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 970029-03-002, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 20–416 mm across, 6–223 mm up
+- **Outlines:** line 247 rings, 2,482 straight (8,604 mm) / 356 curved (434 mm); text 213 rings, 1,314 straight (1,270 mm) / 382 curved (482 mm); tb 9 rings, 93 straight (137 mm) / 19 curved (22.2 mm)
+- **Centre lines:** 3,388 paths (91 closed); straight 5,619 mm, curved 9.8 mm; horizontal 3,120 mm, vertical 1,164 mm, diagonal 1,335 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 11 (2 in the title block); named: TURRET BASE (CuSTOM); 970029-03-002; DSC ND
+- **Dots (junctions):** 1
+- **Words (OCR):** 26 in 22 lines: 0.200 · 4,000 · MATERIAL: CRS: 0.105 · ThiCK; · FINISH: SAND · 120 GRIT AND PAINT · REMSCN · TEXTURED BROWN (438C) · WARD- · BECK   SYSTEMS · TEXCOTE MNYLS · KELD NOTE
+- **Title block:** (335, 22)–(421, 39) mm: REMSCN · WARD- · BECK   SYSTEMS · WBS) · IORN: · TURRET BASE
+
+Every curve, box, word and wire group: [1997 - 970029 - DOC - 970029-03-002 - NOTE REMOVE BURRS AND SHARP EOGES TCLERANCES (traced).json](1997%20-%20970029%20-%20DOC%20-%20970029-03-002%20-%20NOTE%20REMOVE%20BURRS%20AND%20SHARP%20EOGES%20TCLERANCES%20%28traced%29.json) (the CAD file: `1997 - 970029 - DOC - 970029-03-002 - NOTE REMOVE BURRS AND SHARP EOGES TCLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

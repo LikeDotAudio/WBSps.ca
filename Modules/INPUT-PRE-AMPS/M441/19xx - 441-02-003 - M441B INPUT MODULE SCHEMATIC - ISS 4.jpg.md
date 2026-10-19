@@ -21,6 +21,20 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 4,927,416 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 441-02-003, size B 432 × 135 mm, 2000 × 627 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–123 mm up
+- **Outlines:** line 1,466 rings, 12,603 straight (16,185 mm) / 2,500 curved (2,938 mm); text 114 rings, 608 straight (484 mm) / 186 curved (222 mm)
+- **Centre lines:** 11,237 paths (324 closed); straight 9,666 mm, curved 146 mm; horizontal 3,185 mm, vertical 2,694 mm, diagonal 3,787 mm
+- **Circles and arcs:** 3 circles, 43 arcs; largest r 0.8 @ (257.9, 75.0), r 0.8 @ (257.6, 50.0), r 0.7 @ (362.6, 65.2)
+- **Closed boxes:** 2; named: 02-009 44
+- **Dots (junctions):** 2
+- **Words (OCR):** 20 in 18 lines: 8144c1 · 13 · 2335 · 4997 · JEVERE · Swza · 3*22 · Z1B · 67, · ~8p · R219 · SMTCFEF
+- **Wiring (first pass):** 159 connected wire groups from 921 runs; labelled ends: 108 mm → 13; 79 mm → 13, 4997; 64 mm → 13; 64 mm → 8144c1; 46 mm → Swza
+
+Every curve, box, word and wire group: [19xx - 441-02-003 - M441B INPUT MODULE SCHEMATIC - ISS 4 (traced).json](19xx%20-%20441-02-003%20-%20M441B%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%204%20%28traced%29.json) (the CAD file: `19xx - 441-02-003 - M441B INPUT MODULE SCHEMATIC - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

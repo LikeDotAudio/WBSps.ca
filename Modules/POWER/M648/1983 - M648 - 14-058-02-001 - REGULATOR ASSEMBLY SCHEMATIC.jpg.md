@@ -15,6 +15,20 @@ Wiki page: [M648](../../../PAGES/M648.md)
 
 - **1983** (month): `JANUARY 1983` — …. WHEN USED FOR REPLACEMENT IN M648 POWER SUPPLIES PRIOR To JANUARY 1983 ADD 0.047 UF CAPACITOR To SERIES PASS TRANSISTOR ON MA IN F…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-058-02-001, size B (assumed) 432 × 292 mm, 2000 × 1350 px traced (0.216 mm/px)
+- **Ink extent:** 3–430 mm across, 2–258 mm up
+- **Outlines:** line 144 rings, 3,070 straight (8,002 mm) / 499 curved (795 mm); text 826 rings, 5,222 straight (5,508 mm) / 1,662 curved (2,249 mm); tb 2 rings, 34 straight (100 mm) / 1 curved (4.4 mm)
+- **Centre lines:** 5,727 paths (121 closed); straight 7,869 mm, curved 324 mm; horizontal 2,635 mm, vertical 2,255 mm, diagonal 2,980 mm
+- **Circles and arcs:** 6 circles, 30 arcs; largest r 8.2 @ (83.8, 211.3), r 7.9 @ (104.3, 136.2), r 7.8 @ (140.9, 244.7), r 7.5 @ (146.0, 176.0)
+- **Closed boxes:** 9; named: u1 LM376N; 2200p
+- **Words (OCR):** 125 in 101 lines: UNREGULATED · To SERIES · VOLTAGE · 713 TRANSiSTOR · PASS · 03 · BASE · CRI · TN2102 · (01 · IN746B · 3.3V
+- **Title block:** (346, 25)–(432, 42) mm: WBS · WARD-BECK ByBteMB
+- **Wiring (first pass):** 25 connected wire groups from 251 runs; labelled ends: 689 mm → Ek, 1/2w, N4oo3, CR2; 464 mm → 2N6395, c8, 4.7/35, 2k2; 258 mm → IN746B, R2, 3K3, 3.3V; 258 mm → 71, Ek, 8k8, R38; 204 mm → 8k8, 6k8
+
+Every curve, box, word and wire group: [1983 - M648 - 14-058-02-001 - REGULATOR ASSEMBLY SCHEMATIC (traced).json](1983%20-%20M648%20-%2014-058-02-001%20-%20REGULATOR%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1983 - M648 - 14-058-02-001 - REGULATOR ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

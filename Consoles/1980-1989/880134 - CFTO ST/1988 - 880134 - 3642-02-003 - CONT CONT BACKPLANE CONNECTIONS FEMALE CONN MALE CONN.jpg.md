@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,387,512 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 239 rings, 2,663 straight (5,598 mm) / 392 curved (558 mm); text 357 rings, 2,283 straight (2,296 mm) / 788 curved (1,018 mm)
+- **Centre lines:** 3,368 paths (41 closed); straight 4,528 mm, curved 81.9 mm; horizontal 1,776 mm, vertical 1,159 mm, diagonal 1,592 mm
+- **Circles and arcs:** 2 circles, 14 arcs; largest r 1.3 @ (299.5, 342.0), r 1.0 @ (287.3, 214.4)
+- **Words (OCR):** 64 in 58 lines: BACKPLANE   CONNECTIONS · FEMALE CONN: · MALE CONN: · #FdC-37P · #609-375 · S1-L · S1-R · 2,21 · S2-L · 3,22 · S2-R · 4,23
+- **Wiring (first pass):** 64 connected wire groups from 248 runs; labelled ends: 363 mm → FADER, CONN, 9.,10, 1213; 59 mm → S2-L, 54-R, AUX 1-L; 44 mm → 17,36, 18,19,37; 44 mm → 15,34, 16,35, SOLO-R; 44 mm → 9,28, 15,34, SOLO-L
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-003 - CONT CONT BACKPLANE CONNECTIONS FEMALE CONN MALE CONN (traced).json](1988%20-%20880134%20-%203642-02-003%20-%20CONT%20CONT%20BACKPLANE%20CONNECTIONS%20FEMALE%20CONN%20MALE%20CONN%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-003 - CONT CONT BACKPLANE CONNECTIONS FEMALE CONN MALE CONN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

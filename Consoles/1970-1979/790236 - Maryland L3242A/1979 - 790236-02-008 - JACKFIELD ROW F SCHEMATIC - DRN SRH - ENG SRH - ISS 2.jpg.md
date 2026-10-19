@@ -22,6 +22,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 4,700,689 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 790236-02-008, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–351 mm across, 0–287 mm up
+- **Outlines:** line 680 rings, 6,996 straight (9,694 mm) / 1,281 curved (1,697 mm); text 194 rings, 1,242 straight (1,365 mm) / 407 curved (579 mm)
+- **Centre lines:** 7,894 paths (138 closed); straight 6,899 mm, curved 420 mm; horizontal 2,617 mm, vertical 1,799 mm, diagonal 2,483 mm
+- **Circles and arcs:** 28 circles, 54 arcs; largest r 1.8 @ (228.1, 13.5), r 1.6 @ (217.9, 67.8), r 1.3 @ (28.7, 260.4), r 1.3 @ (29.3, 93.2)
+- **Closed boxes:** 14
+- **Wiring (first pass):** 51 connected wire groups from 404 runs
+
+Every curve, box, word and wire group: [1979 - 790236-02-008 - JACKFIELD ROW F SCHEMATIC - DRN SRH - ENG SRH - ISS 2 (traced).json](1979%20-%20790236-02-008%20-%20JACKFIELD%20ROW%20F%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1979 - 790236-02-008 - JACKFIELD ROW F SCHEMATIC - DRN SRH - ENG SRH - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

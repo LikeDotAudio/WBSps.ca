@@ -11,6 +11,20 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 509,300 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-009, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–432 mm up
+- **Outlines:** line 255 rings, 4,460 straight (7,912 mm) / 731 curved (926 mm); text 194 rings, 2,168 straight (2,860 mm) / 565 curved (945 mm); tb 31 rings, 264 straight (413 mm) / 38 curved (52.2 mm)
+- **Centre lines:** 6,652 paths (59 closed); straight 7,132 mm, curved 44.1 mm; horizontal 2,705 mm, vertical 1,901 mm, diagonal 2,526 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 11 (8 in the title block); named: SCALE; 490-01-009
+- **Words (OCR):** 31 in 25 lines: P1 · P2 · P3 · P3 · P4 · CUE · AsSIGN · ON · ASSIGN · TALLY · ISSUE DATE · REVISION
+- **Title block:** (112, 8)–(329, 110) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. PA · "8zY · M49OH · ENG_ PA · LINE INPUT MODULE · CKD · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 490-01-009
+- **Wiring (first pass):** 55 connected wire groups from 176 runs; labelled ends: 171 mm → P3; 30 mm → P3; 22 mm → ASSIGN; 15 mm → P3; 14 mm → P2
+
+Every curve, box, word and wire group: [1978 - M490H - 490-01-009 - LINE INPUT MODULE FUNCTIONAL DIAGRAM (traced).json](1978%20-%20M490H%20-%20490-01-009%20-%20LINE%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-01-009 - LINE INPUT MODULE FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

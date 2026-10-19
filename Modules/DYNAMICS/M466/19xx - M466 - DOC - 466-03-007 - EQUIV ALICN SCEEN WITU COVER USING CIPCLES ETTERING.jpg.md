@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,896,479 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 466-03-007, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale TULL
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 214 rings, 3,718 straight (8,400 mm) / 480 curved (654 mm); text 286 rings, 2,141 straight (2,500 mm) / 623 curved (995 mm); tb 52 rings, 461 straight (743 mm) / 84 curved (154 mm)
+- **Centre lines:** 6,271 paths (84 closed); straight 7,368 mm, curved 110 mm; horizontal 3,273 mm, vertical 1,747 mm, diagonal 2,349 mm
+- **Circles and arcs:** 10 circles, 14 arcs; largest r 2.3 @ (197.5, 216.6), r 2.3 @ (100.6, 113.9), r 1.5 @ (115.7, 115.2), r 1.5 @ (100.4, 114.1)
+- **Closed boxes:** 34 (25 in the title block); named: WBS WARD-BECK systeMS LTD; M466 COMPEESSOR; 466 03 007; ISS_; TOLS _
+- **Words (OCR):** 33 in 23 lines: SILKSCREEN · CONsISTS OF cincLes AND · Lettering · (OUTEE PEZIMETEE @F coVee · TA · DC · EQUIV , · COVER USING CircLes · 4Lign SCrEEN Witu · Letterint Pt: GROTESQUE · s/own FULL · Iss MMOD. CKD:
+- **Title block:** (140, 18)–(411, 68) mm: Iss MMOD. CKD: · USED ON · MATL . · WBS WARD-BECK systeMS LTD · DRN · FIMISH · M466 COMPEESSOR · CKD. Po ( · SCALE TULL · 466 03 007 · ISS_ · TOLS _
+
+Every curve, box, word and wire group: [19xx - M466 - DOC - 466-03-007 - EQUIV ALICN SCEEN WITU COVER USING CIPCLES ETTERING (traced).json](19xx%20-%20M466%20-%20DOC%20-%20466-03-007%20-%20EQUIV%20ALICN%20SCEEN%20WITU%20COVER%20USING%20CIPCLES%20ETTERING%20%28traced%29.json) (the CAD file: `19xx - M466 - DOC - 466-03-007 - EQUIV ALICN SCEEN WITU COVER USING CIPCLES ETTERING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

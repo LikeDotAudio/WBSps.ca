@@ -26,6 +26,20 @@ Schematic of the M485B reverb module.
 - **Size:** 783,994 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 465-02-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 634 rings, 7,135 straight (21,017 mm) / 1,226 curved (1,612 mm); text 801 rings, 4,442 straight (3,668 mm) / 1,505 curved (1,780 mm); tb 7 rings, 74 straight (140 mm) / 9 curved (12.9 mm)
+- **Centre lines:** 10,084 paths (259 closed); straight 14,020 mm, curved 242 mm; horizontal 6,491 mm, vertical 3,823 mm, diagonal 3,707 mm
+- **Circles and arcs:** 4 circles, 47 arcs; largest r 3.8 @ (77.7, 190.6), r 3.8 @ (89.2, 34.7), r 3.7 @ (76.1, 86.5), r 3.6 @ (88.7, 97.5)
+- **Closed boxes:** 45 (13 in the title block); named: DescRiPTiOn; QTy; PT: Ng; Item
+- **Words (OCR):** 209 in 186 lines: Item PT: Ng · DescRiPTiOn · QTy · Direct OUT · JBm · 3i0 · 2iv · ziv · LEFT OuT · Sw|4 · PAN · sw15
+- **Title block:** (352, 11)–(432, 50) mm: IssuDAtd · REVISION · APP: · WBS WARO-BeCk BysteMS · DRN IE32 · M465B · ENG; PA · REVERB MODULE · cKD_JUC · SCHEMATIC · SCALE · 465-02-003 · ISSUE
+- **Wiring (first pass):** 153 connected wire groups from 825 runs; labelled ends: 578 mm → 2i2, Post; 400 mm → QTy, PT: Ng; 387 mm → NEAR, (Sw |0, Post, PRE; 357 mm → RI, 5.6, ris, 390; 295 mm → 5.6, 2i2
+
+Every curve, box, word and wire group: [1982 - 465-02-003 - M465B REVERB MODULE SCHEMATIC - DRN JEI - ENG PA - ISS 2 (traced).json](1982%20-%20465-02-003%20-%20M465B%20REVERB%20MODULE%20SCHEMATIC%20-%20DRN%20JEI%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1982 - 465-02-003 - M465B REVERB MODULE SCHEMATIC - DRN JEI - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

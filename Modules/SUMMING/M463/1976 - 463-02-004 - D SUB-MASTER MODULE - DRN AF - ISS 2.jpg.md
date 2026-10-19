@@ -25,6 +25,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 4,161,856 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 463-02-004, size B 432 × 140 mm, 2000 × 649 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–140 mm up
+- **Outlines:** line 1,090 rings, 9,775 straight (14,968 mm) / 1,956 curved (2,167 mm); text 62 rings, 387 straight (356 mm) / 122 curved (156 mm); tb 29 rings, 184 straight (218 mm) / 37 curved (43.6 mm)
+- **Centre lines:** 11,652 paths (324 closed); straight 9,570 mm, curved 41.3 mm; horizontal 4,443 mm, vertical 2,271 mm, diagonal 2,856 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 0.7 @ (223.5, 117.2)
+- **Closed boxes:** 25 (2 in the title block); named: 463 02.004
+- **Words (OCR):** 12 in 6 lines: COLC · WBS WAADS Beck BybtemB LTD · M 463-D · Su3 MASTER MODULE · SCALE · 463 02.004
+- **Title block:** (349, 7)–(428, 30) mm: WBS WAADS Beck BybtemB LTD · M 463-D · Su3 MASTER MODULE · SCALE · 463 02.004
+- **Wiring (first pass):** 131 connected wire groups from 848 runs; labelled ends: 20 mm → WBS, SCALE; 19 mm → WBS; 14 mm → COLC
+
+Every curve, box, word and wire group: [1976 - 463-02-004 - D SUB-MASTER MODULE - DRN AF - ISS 2 (traced).json](1976%20-%20463-02-004%20-%20D%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 463-02-004 - D SUB-MASTER MODULE - DRN AF - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

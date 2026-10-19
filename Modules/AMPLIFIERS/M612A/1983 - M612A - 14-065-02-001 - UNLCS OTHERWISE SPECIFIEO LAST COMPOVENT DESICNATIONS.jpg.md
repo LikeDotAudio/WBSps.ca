@@ -11,6 +11,20 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 289,078 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-065-02-001, size B (assumed) 339 × 432 mm, 850 × 1084 px traced (0.398 mm/px)
+- **Ink extent:** 0–334 mm across, 3–397 mm up
+- **Outlines:** line 485 rings, 4,783 straight (11,990 mm) / 937 curved (2,057 mm); text 83 rings, 536 straight (894 mm) / 161 curved (390 mm); tb 2 rings, 32 straight (147 mm) / 2 curved (7.9 mm)
+- **Centre lines:** 5,732 paths (132 closed); straight 7,991 mm, curved 245 mm; horizontal 2,684 mm, vertical 2,344 mm, diagonal 2,964 mm
+- **Circles and arcs:** 4 circles, 11 arcs; largest r 5.8 @ (171.5, 120.2), r 5.7 @ (145.5, 189.0), r 5.6 @ (165.9, 370.3), r 1.7 @ (243.5, 26.3)
+- **Closed boxes:** 15
+- **Words (OCR):** 14 in 13 lines: 04017 · 0.022 · out?ut · "Pzs2 · Lmzoina · Sf · 0822 · NOnes · WBS WAAD-BECK ByBTeMB · SA14-065 · SCHEMATiC · B14-065-02-001
+- **Title block:** (214, 38)–(339, 62) mm: WBS WAAD-BECK ByBTeMB
+- **Wiring (first pass):** 53 connected wire groups from 479 runs; labelled ends: 489 mm → 0822; 201 mm → 0.022; 116 mm → 04017; 100 mm → "Pzs2; 50 mm → Lmzoina
+
+Every curve, box, word and wire group: [1983 - M612A - 14-065-02-001 - UNLCS OTHERWISE SPECIFIEO LAST COMPOVENT DESICNATIONS (traced).json](1983%20-%20M612A%20-%2014-065-02-001%20-%20UNLCS%20OTHERWISE%20SPECIFIEO%20LAST%20COMPOVENT%20DESICNATIONS%20%28traced%29.json) (the CAD file: `1983 - M612A - 14-065-02-001 - UNLCS OTHERWISE SPECIFIEO LAST COMPOVENT DESICNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

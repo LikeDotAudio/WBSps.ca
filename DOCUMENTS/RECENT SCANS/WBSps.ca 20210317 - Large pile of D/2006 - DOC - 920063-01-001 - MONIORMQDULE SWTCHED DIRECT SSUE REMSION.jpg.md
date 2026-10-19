@@ -18,6 +18,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **2006** (manual_issue): `ISSUE 92006` — …ENG CKD. RADIO CONSOLE APP; AUDIO FUNCTIONAL SCALE DISC NO: ISSUE 920063-01-001 CODE: 20063f01 CHI6A MON OUTPUTS OUTPUTS OUTPUTS…
 
+## Vectors (traced)
+
+- **Sheet:** functional 920063-01-001, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 29–423 mm across, 7–273 mm up
+- **Outlines:** line 1,013 rings, 6,548 straight (14,312 mm) / 1,313 curved (1,690 mm); text 1,109 rings, 8,010 straight (6,802 mm) / 2,260 curved (2,682 mm); tb 29 rings, 241 straight (1,214 mm) / 21 curved (26.0 mm)
+- **Centre lines:** 22,454 paths (402 closed); straight 14,465 mm, curved 19.2 mm; horizontal 4,919 mm, vertical 3,917 mm, diagonal 5,629 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 74 (1 in the title block); named: PGK I-R; PGM; PGV 2-L; PGM 2-R; AUX; AUX; CUE; PGM 1-R; PGM 2-R; PCM 2_4; PGM LE6; AUX
+- **Words (OCR):** 226 in 212 lines: CONSCLE SUMMING BUSES · PGM PGM · AUX CUE · H49QA · MC_NNPUI CHANNELS (2) · PROGRAM SIEREQ QUTPUIS · PGM · 60/-30 cBm · MIC INPUTS · INSERTS · PGK I-R · PCM
+- **Title block:** (339, 5)–(431, 44) mm: SSUE · REMSION · APP · WBS WARD-BECK SYSTEMS · DRN: · EENG · KRSR RADIO · CKD. · AUDIO FUNCTIONAL · RADIO CONSOLE · APP; · SCALE DISC NO: · CODE: 20063f01 · 920063-01-001 · ISSUE
+- **Wiring (first pass):** 185 connected wire groups from 988 runs; labelled ends: 1777 mm → PGM, AUX, CUE, INSERTS; 149 mm → MONITOR, BDg LOAD; 54 mm → PGM 2-R, MOKO; 53 mm → PGM, MONO; 53 mm → PG
+
+Every curve, box, word and wire group: [2006 - DOC - 920063-01-001 - MONIORMQDULE SWTCHED DIRECT SSUE REMSION (traced).json](2006%20-%20DOC%20-%20920063-01-001%20-%20MONIORMQDULE%20SWTCHED%20DIRECT%20SSUE%20REMSION%20%28traced%29.json) (the CAD file: `2006 - DOC - 920063-01-001 - MONIORMQDULE SWTCHED DIRECT SSUE REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 25 words corrected)

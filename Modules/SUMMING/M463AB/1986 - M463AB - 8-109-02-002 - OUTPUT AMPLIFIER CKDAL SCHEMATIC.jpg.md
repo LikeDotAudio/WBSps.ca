@@ -11,6 +11,20 @@ Wiki page: [M463AB](../../../PAGES/M463AB.md)
 - **Size:** 456,752 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8-109-02-002, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 282 rings, 5,168 straight (9,605 mm) / 876 curved (1,129 mm); text 411 rings, 2,861 straight (3,009 mm) / 965 curved (1,353 mm); tb 42 rings, 220 straight (304 mm) / 23 curved (30.2 mm)
+- **Centre lines:** 12,052 paths (97 closed); straight 9,691 mm, curved 270 mm; horizontal 3,613 mm, vertical 2,302 mm, diagonal 3,776 mm
+- **Circles and arcs:** 4 circles, 30 arcs; largest r 5.9 @ (45.7, 362.5), r 5.8 @ (47.1, 91.2), r 5.8 @ (46.5, 166.9), r 5.8 @ (46.4, 286.9)
+- **Closed boxes:** 13 (11 in the title block)
+- **Words (OCR):** 87 in 81 lines: E3 · +21.5Y · Ris · 22 · 32 · Pn3645 · 03 · 2n2102 · Rzo · 6*B · E4 · Y2W
+- **Title block:** (222, 0)–(336, 59) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK BYSTEMS · DRN: GEB · 8 - 109A · ENG.MRW 4/78 · AMPLIFIER · APP · SCHEMATIC · SCALE · ISSUE · 8-109-02-002
+- **Wiring (first pass):** 25 connected wire groups from 316 runs; labelled ends: 197 mm → 2N4037, E7, 4K7; 196 mm → E3; 149 mm → R37, 4K7, EG, Ci6; 148 mm → E4, 15, 220/10, R3c; 104 mm → R34, 5-6, 15, 220/10
+
+Every curve, box, word and wire group: [1986 - M463AB - 8-109-02-002 - OUTPUT AMPLIFIER CKDAL SCHEMATIC (traced).json](1986%20-%20M463AB%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20CKDAL%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1986 - M463AB - 8-109-02-002 - OUTPUT AMPLIFIER CKDAL SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

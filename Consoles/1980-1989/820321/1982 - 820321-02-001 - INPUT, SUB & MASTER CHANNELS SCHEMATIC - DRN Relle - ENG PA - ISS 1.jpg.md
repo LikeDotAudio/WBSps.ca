@@ -22,6 +22,21 @@ Wiki page: [Job-820321](../../../PAGES/Job-820321.md)
 - **Size:** 986,976 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 820321-02-001, size B (assumed) 432 × 136 mm, 2000 × 632 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–131 mm up
+- **Outlines:** line 801 rings, 8,259 straight (12,315 mm) / 1,987 curved (2,469 mm); text 1,053 rings, 6,523 straight (5,196 mm) / 2,028 curved (2,346 mm); tb 54 rings, 312 straight (309 mm) / 80 curved (89.9 mm)
+- **Centre lines:** 18,890 paths (391 closed); straight 12,268 mm, curved 231 mm; horizontal 3,825 mm, vertical 3,130 mm, diagonal 5,313 mm
+- **Circles and arcs:** 1 circles, 71 arcs; largest r 2.0 @ (223.5, 83.7)
+- **Closed boxes:** 21 (11 in the title block); named: ALl4 WeJI MQdLE; M47RA euBNsTe8 LQpWILE; SuB GADE; D6c54 NLLA 2al; 74628; E?QPl BLLAY Mobuly;; chahhE FaDER (-I5d
+- **Dots (junctions):** 3
+- **Words (OCR):** 270 in 218 lines: MIc Souaces · 60480/-10464 · (b92032i-0 009 · PhaATOR PoteR · ANPUL CHAMNEL · SNBMASTER GHANNEL L · ARE Idertiga · 9Ue · Is0n · (ChI · chZo ARE_IDENTICAQ · Lovt LEVEL
+- **Title block:** (208, 1)–(432, 48) mm: From · CTL · wBs · 297 Nt77 · LQLZ · SubMaSTER · OliUles · cor · For INTERLOCK · Se5 Owg · 0B2032/-01-002 · CONTROLS · IsSUE DATE · REVISION · APP · 424V · (OM · WBS WARD-BECK SySTEMB · (-1548) 820 · 
+- **Wiring (first pass):** 127 connected wire groups from 789 runs, 1 dotted junctions; labelled ends: 129 mm → SNBMASTER GHANNEL L, ARE, Idertiga, M47RA; 117 mm → SNBMASTER GHANNEL L, ARE, Idertiga, M47RA; 91 mm → Note); 79 mm → 70", Ei, 770*, 70*; 77 mm → MASTER ^HANNEL, (Hi AND, H1, NasLER
+
+Every curve, box, word and wire group: [1982 - 820321-02-001 - INPUT, SUB & MASTER CHANNELS SCHEMATIC - DRN Relle - ENG PA - ISS 1 (traced).json](1982%20-%20820321-02-001%20-%20INPUT%2C%20SUB%20%26%20MASTER%20CHANNELS%20SCHEMATIC%20-%20DRN%20Relle%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 820321-02-001 - INPUT, SUB & MASTER CHANNELS SCHEMATIC - DRN Relle - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 14 words corrected)

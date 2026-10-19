@@ -10,6 +10,21 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,942,211 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-006, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 2–432 mm across, 0–279 mm up
+- **Outlines:** line 1,426 rings, 8,702 straight (19,450 mm) / 1,008 curved (1,260 mm); text 478 rings, 2,807 straight (2,181 mm) / 718 curved (827 mm); tb 21 rings, 128 straight (160 mm) / 29 curved (32.8 mm)
+- **Centre lines:** 9,184 paths (189 closed); straight 11,729 mm, curved 41.1 mm; horizontal 5,669 mm, vertical 3,471 mm, diagonal 2,589 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 1.8 @ (4.5, 15.9), r 1.5 @ (93.4, 172.9)
+- **Closed boxes:** 68 (8 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 86 in 75 lines: SUB 1-L · SUB 1-R · SUB 2-L · SUB 2-R · MI-L · MI-R · MONO · 4AIS · M435 · M4SS · Me · Cg
+- **Title block:** (339, 6)–(429, 44) mm: 0I185 AUPUNer · RepRAT · MRING CWCED · ISSUEDATE · REVISICN · APP_ · WBS WARD-BECK SYSTEMS · ENc · DRN: · 5/88 · METER · CKD; · SCHEMATIC · APP, · SCALE DISC NO: · CODE: 5642506 · 3642-02-006 · SSUE
+- **Wiring (first pass):** 156 connected wire groups from 1,453 runs; labelled ends: 856 mm → AUDII, AUDIO; 661 mm → AUDIO; 385 mm → AudIO; 277 mm → AUDIO; 271 mm → AUDIO, PAE, ArD
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-006 - AMPLIFIER WIRING CHANGED (traced).json](1988%20-%20880134%20-%203642-02-006%20-%20AMPLIFIER%20WIRING%20CHANGED%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-006 - AMPLIFIER WIRING CHANGED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

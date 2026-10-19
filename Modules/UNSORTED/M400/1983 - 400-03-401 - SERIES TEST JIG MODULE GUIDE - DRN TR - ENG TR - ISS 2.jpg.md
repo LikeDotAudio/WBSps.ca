@@ -29,6 +29,19 @@ Wiki page: [M400](../../../PAGES/M400.md)
 
 - **1972** (labelled): `DATE 72` — …D GREY TEXCOTE VINYL 232 438 2.00 1.625 2 MARBIL SEE ISSUE |DATE 72. APP REVISION WBS WARD-BECK SYSTEMS DRN: TR ENG. TR. CKD: A…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 400-03-401, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–298 mm up
+- **Outlines:** line 199 rings, 2,958 straight (6,369 mm) / 367 curved (471 mm); text 284 rings, 2,352 straight (2,888 mm) / 701 curved (1,038 mm); tb 18 rings, 183 straight (284 mm) / 25 curved (40.3 mm)
+- **Centre lines:** 9,241 paths (48 closed); straight 6,982 mm, curved 37.1 mm; horizontal 2,734 mm, vertical 1,643 mm, diagonal 2,605 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 1.7 @ (231.0, 231.5)
+- **Closed boxes:** 12 (9 in the title block)
+- **Words (OCR):** 46 in 36 lines: NQIES:: · TOLERANCES · 128 DIA. & CSK 82" To 24 DIA · XX · 015 · 2 PLACES · XXX · 005 · 2) REMOVE BURRS SHARP · EDGES · 3) MATERIAL · .064 ALUM_ ALLOY
+- **Title block:** (278, 4)–(432, 72) mm: SEE · Je; · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: T.R · ENG_ TR · M4OO SERIES TEST JIG · CKD: · MODULE GUIDE · APP · SCALE · ISSUE · 400-03- 401 · 1:1
+
+Every curve, box, word and wire group: [1983 - 400-03-401 - SERIES TEST JIG MODULE GUIDE - DRN TR - ENG TR - ISS 2 (traced).json](1983%20-%20400-03-401%20-%20SERIES%20TEST%20JIG%20MODULE%20GUIDE%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1983 - 400-03-401 - SERIES TEST JIG MODULE GUIDE - DRN TR - ENG TR - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -21,6 +21,18 @@ Studio monitor module schematic. Title block at top right reading downward.
 - **Size:** 5,711,824 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 940444-02-022/1, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–414 mm across, 18–305 mm up
+- **Outlines:** line 1,359 rings, 16,114 straight (21,934 mm) / 3,634 curved (4,255 mm); text 69 rings, 701 straight (600 mm) / 182 curved (233 mm)
+- **Centre lines:** 21,469 paths (337 closed); straight 15,084 mm, curved 140 mm; horizontal 4,823 mm, vertical 4,368 mm, diagonal 5,894 mm
+- **Circles and arcs:** 3 circles, 47 arcs; largest r 1.4 @ (380.2, 46.5), r 1.0 @ (380.0, 46.7), r 1.0 @ (371.5, 46.7)
+- **Closed boxes:** 16
+- **Wiring (first pass):** 256 connected wire groups from 1,541 runs
+
+Every curve, box, word and wire group: [1994 - 940444-02-022 - M905B STUDIO MONITOR MODULE SCHEMATIC - ISS 1 (traced).json](1994%20-%20940444-02-022%20-%20M905B%20STUDIO%20MONITOR%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940444-02-022 - M905B STUDIO MONITOR MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

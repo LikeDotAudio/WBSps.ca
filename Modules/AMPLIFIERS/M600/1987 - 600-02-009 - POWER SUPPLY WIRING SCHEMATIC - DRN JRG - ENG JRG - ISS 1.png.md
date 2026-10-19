@@ -23,6 +23,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 3,038,526 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-009, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 0–428 mm across, 24–305 mm up
+- **Outlines:** line 118 rings, 2,456 straight (7,916 mm) / 351 curved (578 mm); text 417 rings, 2,823 straight (3,556 mm) / 864 curved (1,290 mm); tb 3 rings, 82 straight (202 mm) / 4 curved (5.4 mm)
+- **Centre lines:** 3,021 paths (84 closed); straight 6,584 mm, curved 203 mm; horizontal 2,867 mm, vertical 1,882 mm, diagonal 1,835 mm
+- **Circles and arcs:** 9 circles, 32 arcs; largest r 1.4 @ (176.0, 185.9), r 1.4 @ (176.1, 196.3), r 1.4 @ (176.3, 239.9), r 1.3 @ (176.4, 271.3)
+- **Closed boxes:** 24 (12 in the title block); named: M625B POWER SUPPLY; P1-15; 600-02-009; ISSUE; CODE: 600s09
+- **Words (OCR):** 68 in 52 lines: #16 · AWG WIRES · 10 FT · TB9 · P2-123 · +25V · RD · P2-5,6 · COM · P2-91011 · 25V · M625B
+- **Title block:** (265, 40)–(432, 107) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN · JRG 02/87 · ENG ea · POWER SUPPLY WIRING · CKD: · SCHEMA TIC · APP · SCALE DISC NO: 130 · ISSUE · CODE: 600s09 · 600-02-009
+- **Wiring (first pass):** 28 connected wire groups from 169 runs; labelled ends: 780 mm → P2-123, P2-91011, P2-L23, CHASSIS; 333 mm → (WIRED; 152 mm → SCALE; 67 mm → P2-123, TB9; 67 mm → P2-L23
+
+Every curve, box, word and wire group: [1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1 (traced).json](1987%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 600-02-009 - POWER SUPPLY WIRING SCHEMATIC - DRN JRG - ENG JRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

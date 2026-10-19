@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,468,445 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 95024-04-002, size B (assumed) 432 × 350 mm, 2000 × 1622 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 29–350 mm up
+- **Outlines:** line 411 rings, 3,327 straight (9,658 mm) / 614 curved (852 mm); text 190 rings, 1,319 straight (1,695 mm) / 408 curved (577 mm); tb 21 rings, 393 straight (1,813 mm) / 18 curved (27.3 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 3.7 @ (92.8, 208.0), r 3.7 @ (61.4, 207.5), r 3.7 @ (124.2, 208.4), r 2.9 @ (32.2, 202.3)
+- **Closed boxes:** 17; named: 22DD "ENVECR; 22DD "ENVECR; 22DD
+- **Dots (junctions):** 21
+- **Words (OCR):** 22 in 20 lines: CONTROL SURFACE · 22DD · "ENVECR · SSUEI · REVISION · WARD-BECK · SYSTEMS · WBS · DRN. DRG 10/95 · CFNY · ENG. · HUMBLE /NEWS   TURRET
+- **Title block:** (305, 28)–(432, 86) mm: SSUEI · REVISION · WARD-BECK · SYSTEMS · WBS · DRN. DRG 10/95 · CFNY · ENG. · HUMBLE /NEWS   TURRET · CKD: · LAYOUT · APP · SCALE · DISC NO: SYSOi · 95024-04-002 · ISSUE · 1:2 CODE: 95024L02
+
+Every curve, box, word and wire group: [1995 - 95024 - DOC - 95024-04-002 - PUO TALKBACK SPEAKER NUGO CMO MONITOR LEVEL HEADSET (traced).json](1995%20-%2095024%20-%20DOC%20-%2095024-04-002%20-%20PUO%20TALKBACK%20SPEAKER%20NUGO%20CMO%20MONITOR%20LEVEL%20HEADSET%20%28traced%29.json) (the CAD file: `1995 - 95024 - DOC - 95024-04-002 - PUO TALKBACK SPEAKER NUGO CMO MONITOR LEVEL HEADSET (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

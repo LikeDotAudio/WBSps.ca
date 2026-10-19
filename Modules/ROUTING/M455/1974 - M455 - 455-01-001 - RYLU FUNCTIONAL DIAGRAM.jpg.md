@@ -12,6 +12,20 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 352,655 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 455-01-001, size B (assumed) 432 × 276 mm, 2000 × 1278 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–262 mm up
+- **Outlines:** line 97 rings, 2,463 straight (5,974 mm) / 279 curved (430 mm); text 417 rings, 3,112 straight (3,890 mm) / 819 curved (1,294 mm); tb 6 rings, 116 straight (257 mm) / 11 curved (17.4 mm)
+- **Centre lines:** 3,074 paths (65 closed); straight 5,584 mm, curved 61.5 mm; horizontal 2,164 mm, vertical 1,235 mm, diagonal 2,186 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 1.9 @ (278.3, 124.3), r 1.4 @ (278.2, 124.5)
+- **Closed boxes:** 10 (6 in the title block); named: 8-109C 4-109C WAS; 7/78
+- **Words (OCR):** 53 in 45 lines: EXT · METeR INPUT · EXT · +8 dBm · 600 OhM · AUX · AUX · AUXILIARY · INPut · ON · SWITCHED OUtPut · -10 dBm
+- **Title block:** (245, 3)–(432, 96) mm: W/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN;PMAHoNsy · M455 · ENG_ · AUXILIARY · MODULE · CKD Rll · FUNCTIONAL DIAGRAM · APP · ~SCALE · ISSUE · 455-01-001
+- **Wiring (first pass):** 37 connected wire groups from 93 runs; labelled ends: 135 mm → 7/78, W/77; 120 mm → EXT, AUX, METeR INPUT; 120 mm → (-15dB), (-33dB); 102 mm → 8-109C, ON, (-6dB); 56 mm → EXT, AUX
+
+Every curve, box, word and wire group: [1974 - M455 - 455-01-001 - RYLU FUNCTIONAL DIAGRAM (traced).json](1974%20-%20M455%20-%20455-01-001%20-%20RYLU%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1974 - M455 - 455-01-001 - RYLU FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

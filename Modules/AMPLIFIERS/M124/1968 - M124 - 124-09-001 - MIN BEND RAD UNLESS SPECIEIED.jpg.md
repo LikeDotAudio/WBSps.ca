@@ -11,6 +11,18 @@ Wiki page: [M124](../../../PAGES/M124.md)
 - **Size:** 6,946,067 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring 124-09-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–432 mm across, 0–286 mm up
+- **Outlines:** line 667 rings, 4,308 straight (5,903 mm) / 565 curved (782 mm); text 284 rings, 1,869 straight (1,843 mm) / 456 curved (602 mm)
+- **Centre lines:** 2,591 paths (17 closed); straight 3,948 mm, curved 78.6 mm; horizontal 1,489 mm, vertical 1,284 mm, diagonal 1,175 mm
+- **Circles and arcs:** 4 circles, 15 arcs; largest r 1.7 @ (268.7, 13.0), r 1.1 @ (339.4, 10.2), r 1.1 @ (339.2, 12.2), r 0.9 @ (263.5, 49.8)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 50 connected wire groups from 405 runs
+
+Every curve, box, word and wire group: [1968 - M124 - 124-09-001 - MIN BEND RAD UNLESS SPECIEIED (traced).json](1968%20-%20M124%20-%20124-09-001%20-%20MIN%20BEND%20RAD%20UNLESS%20SPECIEIED%20%28traced%29.json) (the CAD file: `1968 - M124 - 124-09-001 - MIN BEND RAD UNLESS SPECIEIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

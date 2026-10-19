@@ -23,6 +23,19 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 1,519,091 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 441-03-015, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 335 rings, 5,340 straight (13,065 mm) / 612 curved (878 mm); text 493 rings, 3,385 straight (3,971 mm) / 1,083 curved (1,649 mm); tb 40 rings, 264 straight (412 mm) / 64 curved (89.7 mm)
+- **Centre lines:** 8,138 paths (101 closed); straight 10,689 mm, curved 107 mm; horizontal 5,169 mm, vertical 2,377 mm, diagonal 3,143 mm
+- **Circles and arcs:** 3 circles, 18 arcs; largest r 6.0 @ (177.4, 166.1), r 1.7 @ (240.8, 175.4), r 1.4 @ (223.0, 171.3)
+- **Closed boxes:** 45 (31 in the title block); named: 441 213; WBS WARD-BECK systeMs LTD; ESCUTCHEON MTG PLATE (m441 A); FINISH cLEAr ALoine; 0i5 TOLS _ oos; 441-03-015; ISS_
+- **Words (OCR):** 76 in 53 lines: 5.74 · NoTes · 58 · REMOve ALL · SHARP Edees · 29 · PART Ne 441 ois To Be · permanentLy · MARKED · Aproximate · Position Shown · IN . (2 Hich
+- **Title block:** (148, 16)–(411, 67) mm: ISS · MOD  CKD · USED ON · MATL · B441-03 614 · AL. ALLOY; Ilco-4i4 · WBS WARD-BECK systeMs LTD · M44 · 14 GA (. 064) · DRN: · D-RS · FINISH · DATE 12.MAE: 74 · ESCUTCHEON MTG PLATE · 74 · (m441 A) · 
+
+Every curve, box, word and wire group: [1974 - 441-03-015 - ESCUTCHEON MTG PLATE (M441 H) - DRN DPS - ISS 1 (traced).json](1974%20-%20441-03-015%20-%20ESCUTCHEON%20MTG%20PLATE%20%28M441%20H%29%20-%20DRN%20DPS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1974 - 441-03-015 - ESCUTCHEON MTG PLATE (M441 H) - DRN DPS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

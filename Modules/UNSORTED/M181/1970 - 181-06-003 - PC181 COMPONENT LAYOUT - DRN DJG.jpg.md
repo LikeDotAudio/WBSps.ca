@@ -21,6 +21,17 @@ Wiki page: [M181](../../../PAGES/M181.md)
 - **Size:** 4,883,878 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 181-06-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–432 mm across, 0–278 mm up
+- **Outlines:** line 2,617 rings, 21,421 straight (24,876 mm) / 5,511 curved (5,460 mm); text 242 rings, 2,050 straight (1,876 mm) / 590 curved (646 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 8.4 @ (178.5, 207.9), r 8.4 @ (115.4, 229.4), r 8.4 @ (178.4, 228.9), r 3.2 @ (126.0, 112.1)
+- **Closed boxes:** 24
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [1970 - 181-06-003 - PC181 COMPONENT LAYOUT - DRN DJG (traced).json](1970%20-%20181-06-003%20-%20PC181%20COMPONENT%20LAYOUT%20-%20DRN%20DJG%20%28traced%29.json) (the CAD file: `1970 - 181-06-003 - PC181 COMPONENT LAYOUT - DRN DJG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

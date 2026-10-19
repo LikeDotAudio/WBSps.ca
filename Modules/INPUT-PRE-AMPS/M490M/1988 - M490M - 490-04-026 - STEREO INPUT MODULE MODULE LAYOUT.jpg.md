@@ -11,6 +11,19 @@ Wiki page: [M490M](../../../PAGES/M490M.md)
 - **Size:** 2,668,341 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-026, size B (assumed) 432 × 300 mm, 2000 × 1390 px traced (0.216 mm/px)
+- **Ink extent:** 29–432 mm across, 0–300 mm up
+- **Outlines:** line 619 rings, 5,101 straight (13,562 mm) / 823 curved (1,317 mm); text 98 rings, 689 straight (740 mm) / 171 curved (248 mm); tb 169 rings, 1,181 straight (2,577 mm) / 284 curved (551 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 3.6 @ (243.6, 35.9), r 3.6 @ (242.4, 211.3), r 3.6 @ (242.3, 262.7), r 3.6 @ (243.6, 52.9)
+- **Closed boxes:** 13
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 11 lines: WBS · HOUYTLD · MODE · 50 · OFF · WBS WARD-BECK SYBTEME · M490m · MODULE · MODULE LAYOUT · 490-04-026 · ISS
+- **Title block:** (290, 28)–(432, 296) mm: WBS · MODE · 50 · OFF · WBS WARD-BECK SYBTEME
+
+Every curve, box, word and wire group: [1988 - M490M - 490-04-026 - STEREO INPUT MODULE MODULE LAYOUT (traced).json](1988%20-%20M490M%20-%20490-04-026%20-%20STEREO%20INPUT%20MODULE%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `1988 - M490M - 490-04-026 - STEREO INPUT MODULE MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

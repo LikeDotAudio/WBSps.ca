@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,821,960 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94031-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 26–424 mm across, 7–260 mm up
+- **Outlines:** line 503 rings, 3,501 straight (10,280 mm) / 890 curved (1,372 mm); text 272 rings, 1,596 straight (1,604 mm) / 532 curved (677 mm); tb 18 rings, 170 straight (191 mm) / 33 curved (36.9 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 4.5 @ (75.8, 173.5), r 4.5 @ (229.8, 174.0), r 4.5 @ (58.0, 173.4), r 4.5 @ (229.7, 192.0)
+- **Closed boxes:** 25 (3 in the title block); named: HEAOPROVES MiC CfF TALKBACK / CCUGF; HEADPHONES SPEAKER MIC OFF TALKBACK / CC; HEAOPROVES MiC CfF TALKBACK / CCUGF; HEADPHONES SPEAKER MIC OFF TALKBACK / CC; HEAOPHONE; HEAODHONE; HEAOPHONE; HEAODHONE; CENTENNIAL COLLEGE TURRET LAYOUTS; 94031-04-001
+- **Dots (junctions):** 25
+- **Words (OCR):** 37 in 30 lines: HEADPHONES · HEAOPROVES · MIC OFF TALKBACK / · SPEAKER · MiC CfF · TALKBACK / · CCUGH · CCUGF · TOP MEW · TOP MEW · JURAET · (GUEST TlareT)
+- **Title block:** (345, 23)–(429, 39) mm: WBS · WARD-BECK SYSTEMS · CENTENNIAL COLLEGE
+
+Every curve, box, word and wire group: [1994 - DOC - 94031-04-001 - VIEW IDENTICAL FOR BOTH UNITS THREE METER CONTROL (traced).json](1994%20-%20DOC%20-%2094031-04-001%20-%20VIEW%20IDENTICAL%20FOR%20BOTH%20UNITS%20THREE%20METER%20CONTROL%20%28traced%29.json) (the CAD file: `1994 - DOC - 94031-04-001 - VIEW IDENTICAL FOR BOTH UNITS THREE METER CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

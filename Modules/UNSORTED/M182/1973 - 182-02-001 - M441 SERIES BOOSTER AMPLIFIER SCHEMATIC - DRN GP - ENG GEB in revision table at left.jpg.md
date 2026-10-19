@@ -29,6 +29,20 @@ Booster amplifier schematic strip with title block at bottom right.
 
 - **1973** (month): `APR 73` — …254 USED ON Ma To PC I8i WBS WARD-BECK BYBTEMB DRM GP DAIE APR 73 CKD SCALE TOLS {a M441 SERIES BOOSTER AMPLIFIER SCHEMATIC F…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 182-02-001, size B 432 × 139 mm, 2000 × 645 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–139 mm up
+- **Outlines:** line 189 rings, 3,084 straight (7,668 mm) / 422 curved (563 mm); text 807 rings, 4,185 straight (3,607 mm) / 1,570 curved (2,018 mm); tb 13 rings, 104 straight (151 mm) / 20 curved (26.4 mm)
+- **Centre lines:** 7,494 paths (177 closed); straight 7,217 mm, curved 142 mm; horizontal 2,874 mm, vertical 1,596 mm, diagonal 2,747 mm
+- **Circles and arcs:** 4 circles, 19 arcs; largest r 3.9 @ (245.5, 86.0), r 3.7 @ (245.2, 61.1), r 3.7 @ (244.4, 30.6), r 3.7 @ (246.3, 116.3)
+- **Closed boxes:** 28 (19 in the title block); named: Finish; TOLS
+- **Words (OCR):** 155 in 131 lines: To PC 18i} · 36v · 3130 · Rizo · 620 · Sk · Znzi02 · qioi · NOTES : · RM · C104 · 015
+- **Title block:** (284, 5)–(428, 30) mm: [SS MOp ICKD] · USED ON · Ma · WARD-BECK BYBTEMB · 302 · 780 618 · WBS · 254 · DRM GP · M441 · SERIES · Finish · DAIE APR 73 · CKD · BOOSTER · SCHEMATIC · AMPLIFIER · SCALE · TOLS · 182-02-0o1
+- **Wiring (first pass):** 40 connected wire groups from 212 runs; labelled ends: 138 mm → zioi, 317, Ri23, I5k; 88 mm → Rio3, 3k3, Rio8, RIIO; 69 mm → 3130, 620, RM, zioi; 66 mm → 3185, Rio4, 3k3, Ri07-; 58 mm → PIN I5, Pc 181
+
+Every curve, box, word and wire group: [1973 - 182-02-001 - M441 SERIES BOOSTER AMPLIFIER SCHEMATIC - DRN GP - ENG GEB in revision table at left (traced).json](1973%20-%20182-02-001%20-%20M441%20SERIES%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ENG%20GEB%20in%20revision%20table%20at%20left%20%28traced%29.json) (the CAD file: `1973 - 182-02-001 - M441 SERIES BOOSTER AMPLIFIER SCHEMATIC - DRN GP - ENG GEB in revision table at left (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

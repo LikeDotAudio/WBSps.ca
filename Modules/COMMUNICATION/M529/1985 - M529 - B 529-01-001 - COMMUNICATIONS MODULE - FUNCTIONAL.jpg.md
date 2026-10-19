@@ -11,6 +11,18 @@ Wiki page: [M529](../../../PAGES/M529.md)
 - **Size:** 6,025,573 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 529-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–431 mm across, 1–287 mm up
+- **Outlines:** line 706 rings, 5,486 straight (9,230 mm) / 914 curved (1,127 mm); text 177 rings, 1,190 straight (1,025 mm) / 366 curved (464 mm)
+- **Centre lines:** 7,011 paths (85 closed); straight 5,971 mm, curved 117 mm; horizontal 2,630 mm, vertical 1,175 mm, diagonal 2,166 mm
+- **Circles and arcs:** 5 circles, 24 arcs; largest r 1.2 @ (387.9, 25.6), r 1.2 @ (376.9, 25.6), r 1.2 @ (355.1, 25.9), r 1.2 @ (358.4, 25.8)
+- **Closed boxes:** 6
+- **Wiring (first pass):** 92 connected wire groups from 585 runs
+
+Every curve, box, word and wire group: [1985 - M529 - B 529-01-001 - COMMUNICATIONS MODULE - FUNCTIONAL (traced).json](1985%20-%20M529%20-%20B%20529-01-001%20-%20COMMUNICATIONS%20MODULE%20-%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1985 - M529 - B 529-01-001 - COMMUNICATIONS MODULE - FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

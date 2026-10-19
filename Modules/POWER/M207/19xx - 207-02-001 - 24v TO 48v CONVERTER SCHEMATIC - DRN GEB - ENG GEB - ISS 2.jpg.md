@@ -22,6 +22,20 @@ Wiki page: [M207](../../../PAGES/M207.md)
 - **Size:** 326,784 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 207-02-001, size B 432 × 276 mm, 2000 × 1277 px traced (0.216 mm/px)
+- **Ink extent:** 29–432 mm across, 0–276 mm up
+- **Outlines:** line 243 rings, 3,548 straight (7,390 mm) / 757 curved (1,051 mm); text 424 rings, 3,089 straight (3,278 mm) / 913 curved (1,287 mm); tb 6 rings, 115 straight (232 mm) / 12 curved (22.1 mm)
+- **Centre lines:** 5,971 paths (74 closed); straight 6,702 mm, curved 142 mm; horizontal 2,496 mm, vertical 1,397 mm, diagonal 2,809 mm
+- **Circles and arcs:** 4 circles, 30 arcs; largest r 1.1 @ (391.3, 106.5), r 0.9 @ (252.1, 146.8), r 0.9 @ (323.6, 242.2), r 0.7 @ (236.1, 111.0)
+- **Closed boxes:** 10 (6 in the title block)
+- **Words (OCR):** 80 in 67 lines: 'ws7 AND ALL CafaciTors · ALL · REsiStors ARE · UULESS · Specified · OtherWiSE · cic cRS_ · FI 05 · RI2 · USE · PcB 14-032 · 4 |EPRITE BEADS
+- **Title block:** (285, 1)–(432, 69) mm: (ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN 6eb · M207 · ENG 668 · 24v TO 48v CONVERTER · CKD_ · SC HEMATIC · APP · SCALE · ISSUE · 207-02-001
+- **Wiring (first pass):** 28 connected wire groups from 313 runs; labelled ends: 350 mm → 204037, 33k, 3k, 2202p; 245 mm → 84, 2-2/01, c8, Cs; 172 mm → cic; 97 mm → 2-2/01, 84, 22/13-; 67 mm → C3, 1N4003, RII, Riz
+
+Every curve, box, word and wire group: [19xx - 207-02-001 - 24v TO 48v CONVERTER SCHEMATIC - DRN GEB - ENG GEB - ISS 2 (traced).json](19xx%20-%20207-02-001%20-%2024v%20TO%2048v%20CONVERTER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 207-02-001 - 24v TO 48v CONVERTER SCHEMATIC - DRN GEB - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

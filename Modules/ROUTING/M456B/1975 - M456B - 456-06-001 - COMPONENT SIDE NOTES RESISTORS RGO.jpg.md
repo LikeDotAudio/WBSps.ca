@@ -11,6 +11,17 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 7,127,827 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 456-06-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 18–305 mm across, 1–429 mm up
+- **Outlines:** line 4,670 rings, 25,924 straight (30,120 mm) / 6,021 curved (5,869 mm); text 983 rings, 4,845 straight (3,491 mm) / 1,309 curved (1,311 mm)
+- **Circles and arcs:** 22 circles, 0 arcs; largest r 5.5 @ (207.2, 282.8), r 5.4 @ (207.2, 186.3), r 2.5 @ (227.0, 170.1), r 2.5 @ (227.1, 55.1)
+- **Closed boxes:** 42
+- **Dots (junctions):** 13
+
+Every curve, box, word and wire group: [1975 - M456B - 456-06-001 - COMPONENT SIDE NOTES RESISTORS RGO (traced).json](1975%20-%20M456B%20-%20456-06-001%20-%20COMPONENT%20SIDE%20NOTES%20RESISTORS%20RGO%20%28traced%29.json) (the CAD file: `1975 - M456B - 456-06-001 - COMPONENT SIDE NOTES RESISTORS RGO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

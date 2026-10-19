@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,411,881 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 900438-04-011, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–432 mm across, 7–296 mm up
+- **Outlines:** line 257 rings, 4,078 straight (12,453 mm) / 421 curved (532 mm); text 356 rings, 2,609 straight (3,414 mm) / 705 curved (1,097 mm); tb 8 rings, 103 straight (257 mm) / 15 curved (22.0 mm)
+- **Closed boxes:** 42 (12 in the title block); named: METER PANEL; TB4; TB3; TB2; TB1; TB6; TB5; FUTURE; MBSSB; SCALE; CODE: 00438L11
+- **Words (OCR):** 48 in 43 lines: R1400_RADIQ_CONSQLE · ERONL_VEW · METER PANEL · TB1 · TB2 · TB3 · TB4 · 7.00 in · 10 FT CABLE · TB5 · TB6 · 7.00
+- **Title block:** (264, 25)–(432, 94) mm: REVISION · APP · ISSUE DATE · WBS · WARD-BECK · SYSTEMS · DRN · GEB · CHIN · RADIO R1400 · ENG. · GEB 90 · CKD · EQUIPMENT LAYOUT · APP · SCALE DISC NO: · ISSUE · 371 · 900438-04-011 · CODE: 00438L11
+
+Every curve, box, word and wire group: [1990 - 900438 - DOC - 900438-04-011 - RADIQ CONSOLE ERONT VEW (traced).json](1990%20-%20900438%20-%20DOC%20-%20900438-04-011%20-%20RADIQ%20CONSOLE%20ERONT%20VEW%20%28traced%29.json) (the CAD file: `1990 - 900438 - DOC - 900438-04-011 - RADIQ CONSOLE ERONT VEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

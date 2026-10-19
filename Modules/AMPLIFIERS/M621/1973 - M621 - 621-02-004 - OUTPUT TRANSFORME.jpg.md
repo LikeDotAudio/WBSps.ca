@@ -15,6 +15,20 @@ Wiki page: [M621](../../../PAGES/M621.md)
 
 - **1973** (labelled): `DATE SEPT 73` — …IOO 0 A B B D ON MATLL. WBS WARD-BECK BYSTEMs LTD'; DRN: BJ DATE SEPT 73 CKD_ Rc SCALE XX TOLS _ GRa M 62it OUTPUT TRANSFORME R CONN…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-004, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 222 rings, 7,355 straight (11,656 mm) / 1,018 curved (1,680 mm); text 278 rings, 3,114 straight (3,918 mm) / 699 curved (1,224 mm); tb 29 rings, 409 straight (542 mm) / 57 curved (76.9 mm)
+- **Centre lines:** 3,752 paths (80 closed); straight 9,514 mm, curved 274 mm; horizontal 3,965 mm, vertical 2,574 mm, diagonal 2,975 mm
+- **Circles and arcs:** 27 circles, 15 arcs; largest r 3.2 @ (206.4, 276.5), r 3.1 @ (237.5, 219.6), r 3.1 @ (102.0, 266.9), r 3.1 @ (132.4, 218.6)
+- **Closed boxes:** 13 (3 in the title block); named: MAT .; WBS WAAD-BECK BYSTEMS LTD.; M 62it OUTPUT TRANSFORME R CONNECT IONS; FINISH; TOLS _; 621-02-004; ISS.
+- **Words (OCR):** 39 in 33 lines: R CONNECT IONS · 150 OHM · 600 OHM · OHM · 160 · 160 · 160 · 150 · 15 · 140 · 14 · 14
+- **Title block:** (99, 16)–(250, 87) mm: WBS WAAD-BECK BYSTEMS LTD. · DRN BJ · M 62it · DATE SEPT 73 · OUTPUT TRANSFORME R · CKD · Rc · SCALE · TOLS _ · 621-02-004
+- **Wiring (first pass):** 81 connected wire groups from 258 runs; labelled ends: 228 mm → ON, WBS; 181 mm → DATE SEPT; 178 mm → R CONNECT IONS; 114 mm → WAAD-BECK, LTD.; 92 mm → 160
+
+Every curve, box, word and wire group: [1973 - M621 - 621-02-004 - OUTPUT TRANSFORME (traced).json](1973%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20TRANSFORME%20%28traced%29.json) (the CAD file: `1973 - M621 - 621-02-004 - OUTPUT TRANSFORME (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M497B](../../../PAGES/M497B.md)
 - **Size:** 2,006,217 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-004, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 1,088 rings, 8,275 straight (8,527 mm) / 2,290 curved (1,978 mm); text 347 rings, 3,448 straight (4,094 mm) / 896 curved (1,075 mm); tb 34 rings, 322 straight (459 mm) / 46 curved (55.5 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 5.4 @ (44.7, 164.1), r 5.4 @ (45.1, 91.9)
+- **Closed boxes:** 14 (10 in the title block); named: ISSUE; 8-109-06-004; SCALE
+- **Dots (junctions):** 1
+- **Words (OCR):** 47 in 43 lines: E20 · Fc2= 47k · 33/1' · R2 · RA · 6k2 · R6 · Gk2 · I8k · R7 · 22 · LF356
+- **Title block:** (114, 12)–(332, 114) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK · sysTEMS · DRN: GEB · 8 _ 109€ · ENG.MRW 4/78 · AMPLIFIER · BOOSTER · CKD · Ruk · COMPONENT LAYOUT · APP · SCALE · ISSUE · 8-109-06-004
+
+Every curve, box, word and wire group: [1983 - M497B - 8-109-06-004 - BOOSTER AMPLIFIER (traced).json](1983%20-%20M497B%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1983 - M497B - 8-109-06-004 - BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

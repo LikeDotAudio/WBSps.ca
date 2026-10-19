@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **2017** (manual_issue): `ISSUE 92017` — …KD: CHYM /CKGL RADIO CONSOLE AUDIO FUNCTIONAL SCALE DISC N: ISSUE 920170-01-001 CODE: 92170F01 LSSUE…
 
+## Vectors (traced)
+
+- **Sheet:** functional 920170-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 33–424 mm across, 7–259 mm up
+- **Outlines:** line 1,232 rings, 9,686 straight (17,839 mm) / 2,204 curved (2,642 mm); text 377 rings, 2,589 straight (2,290 mm) / 713 curved (873 mm); tb 22 rings, 150 straight (179 mm) / 40 curved (44.4 mm)
+- **Centre lines:** 18,676 paths (361 closed); straight 12,538 mm, curved 40.1 mm; horizontal 4,159 mm, vertical 3,562 mm, diagonal 4,817 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 96 (4 in the title block); named: Pcv ?-6; 6 8; MOCULE (Cr UchitoR); STEREC ~LECTOR; (Ci KEADSET; VONTCR HEAOSETS) Kbootk; CHYM /CKGL RADIO CONSOLE AUDIO FUNCTIONA; 920170-01-001; SCAF; DISC NO;; 02170501
+- **Dots (junctions):** 2
+- **Words (OCR):** 66 in 63 lines: EROCRAM · STEREQ_QUIPUTS · INSERTS · PRDCRAU · cumpVTS · b0/-JO · VIMTCR · MONQ_QUPUIS · DRCCRAM · INSORTS · UCNO Cutputs · STEREQ_QuPUIS
+- **Title block:** (345, 22)–(429, 40) mm: WBS · WARD- · BECK   SYSTEMS · CHYM /CKGL
+- **Wiring (first pass):** 127 connected wire groups from 915 runs, 2 dotted junctions; labelled ends: 133 mm → WBS, SCAF, DISC NO;, 920170-01-001; 99 mm → uonitor, @OG LOAD; 65 mm → (Ci KEADSET; 65 mm → 6 8; 54 mm → Pcv ?-6, UCHO
+
+Every curve, box, word and wire group: [2017 - M495 - DOC - 920170-01-001 - SWTCHED DIRECT MONITOR OUTPUTS DDZME (traced).json](2017%20-%20M495%20-%20DOC%20-%20920170-01-001%20-%20SWTCHED%20DIRECT%20MONITOR%20OUTPUTS%20DDZME%20%28traced%29.json) (the CAD file: `2017 - M495 - DOC - 920170-01-001 - SWTCHED DIRECT MONITOR OUTPUTS DDZME (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 23 words corrected)

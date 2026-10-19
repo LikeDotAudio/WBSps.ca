@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,607,596 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 950226-01-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 0–421 mm across, 8–279 mm up
+- **Outlines:** line 4,102 rings, 27,702 straight (42,978 mm) / 3,663 curved (4,219 mm); text 247 rings, 1,616 straight (1,448 mm) / 469 curved (580 mm); tb 16 rings, 125 straight (167 mm) / 29 curved (35.0 mm)
+- **Centre lines:** 79,947 paths (492 closed); straight 39,222 mm, curved 37.8 mm; horizontal 12,388 mm, vertical 12,407 mm, diagonal 14,427 mm
+- **Circles and arcs:** 4 circles, 9 arcs; largest r 1.6 @ (169.2, 115.3), r 1.3 @ (339.5, 256.6), r 1.1 @ (339.3, 250.8), r 1.1 @ (339.3, 247.8)
+- **Closed boxes:** 931 (3 in the title block); named: MOTOROLA CANADA 48X48    MICROCOM SYSTEM; S4F; 950226 001
+- **Dots (junctions):** 21
+- **Words (OCR):** 29 in 28 lines: LEGENO: · Crcsspoint · crosspoint · CrosspoinI · QueTs) · BUIUN · CCNSOLES · MCUS · KOTES: · FULLT · CONSCLES · crosspoint
+- **Title block:** (342, 23)–(427, 40) mm: #4904 · WBS · WARD-BECK SYSTEMS · MOTOROLA CANADA
+- **Wiring (first pass):** 300 connected wire groups from 5,820 runs, 78 dotted junctions; labelled ends: 133 mm → WBS, 48X48    MICROCOM SYSTEM, S4F, 001; 26 mm → CoNsoles; 6 mm → CMPUS
+
+Every curve, box, word and wire group: [1995 - 950226 - DOC - 950226-01-001 - MATRIX OUTPUTS DBU IHUAUAAWA (traced).json](1995%20-%20950226%20-%20DOC%20-%20950226-01-001%20-%20MATRIX%20OUTPUTS%20DBU%20IHUAUAAWA%20%28traced%29.json) (the CAD file: `1995 - 950226 - DOC - 950226-01-001 - MATRIX OUTPUTS DBU IHUAUAAWA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

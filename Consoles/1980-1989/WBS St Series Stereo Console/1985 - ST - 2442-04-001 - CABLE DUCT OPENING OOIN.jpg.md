@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 4,286,237 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 2442-04-001, size B (assumed) 432 × 314 mm, 2000 × 1456 px traced (0.216 mm/px)
+- **Ink extent:** 9–432 mm across, 0–312 mm up
+- **Outlines:** line 685 rings, 7,857 straight (20,580 mm) / 672 curved (1,002 mm); text 203 rings, 1,197 straight (1,144 mm) / 422 curved (583 mm); tb 26 rings, 202 straight (233 mm) / 67 curved (83.5 mm)
+- **Closed boxes:** 217 (8 in the title block)
+- **Words (OCR):** 27 in 25 lines: ooin.480 · ooin:-70.20mmi1422.40Mm · 45.6Oln. · 160.24mm · 860. · oomm · soln · 1166.7omm · caBLE Duct Opening doin · 1473.20mm · 50.0oin · 70.20nm
+- **Title block:** (353, 0)–(432, 36) mm: WBS WARD-BECk SYBTE · DRREP · ST2442 · ENG; · STEREO TELEVISKON CONS · OUTLINE · SCALE · 2442 · 04-001 · 7:1
+
+Every curve, box, word and wire group: [1985 - ST - 2442-04-001 - CABLE DUCT OPENING OOIN (traced).json](1985%20-%20ST%20-%202442-04-001%20-%20CABLE%20DUCT%20OPENING%20OOIN%20%28traced%29.json) (the CAD file: `1985 - ST - 2442-04-001 - CABLE DUCT OPENING OOIN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

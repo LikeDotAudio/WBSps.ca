@@ -11,6 +11,19 @@ Wiki page: [M473A](../../../PAGES/M473A.md)
 - **Size:** 366,498 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8-109-02-002, size B (assumed) 432 × 292 mm, 2000 × 1354 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–292 mm up
+- **Outlines:** line 462 rings, 5,446 straight (12,434 mm) / 1,049 curved (1,372 mm); text 331 rings, 1,935 straight (1,714 mm) / 644 curved (798 mm)
+- **Centre lines:** 6,511 paths (107 closed); straight 8,051 mm, curved 318 mm; horizontal 3,746 mm, vertical 1,961 mm, diagonal 2,343 mm
+- **Circles and arcs:** 7 circles, 55 arcs; largest r 4.0 @ (236.9, 113.9), r 3.9 @ (181.6, 239.0), r 3.9 @ (237.9, 246.1), r 3.9 @ (180.5, 106.8)
+- **Closed boxes:** 18; named: DA; WBS; 8 =109 OUIPUT Amplifier SCHEMATIC; 002 8-109
+- **Words (OCR):** 81 in 80 lines: 21.5Y · 477 · Ris · Pn3c45 · 02 · 03 · 356 · 33710 · Jok · PN3542 · 4.7p · Ric
+- **Wiring (first pass):** 57 connected wire groups from 473 runs; labelled ends: 289 mm → DA; 174 mm → 2N4037; 148 mm → 19k, 4.7p, TCk; 135 mm → R32, 6.9, R35, R33; 135 mm → Rzo, R34, 5.6, R28
+
+Every curve, box, word and wire group: [1977 - M473A - 8-109-02-002 - OUTPUT AMPLIFIER SCHEMATIC (traced).json](1977%20-%20M473A%20-%208-109-02-002%20-%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1977 - M473A - 8-109-02-002 - OUTPUT AMPLIFIER SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,643,689 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920005-01-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 83–421 mm across, 7–261 mm up
+- **Outlines:** line 4,307 rings, 29,764 straight (44,399 mm) / 4,279 curved (5,025 mm); text 351 rings, 2,336 straight (2,051 mm) / 710 curved (870 mm); tb 76 rings, 452 straight (428 mm) / 129 curved (152 mm)
+- **Centre lines:** 87,641 paths (502 closed); straight 41,792 mm, curved 209 mm; horizontal 12,990 mm, vertical 12,393 mm, diagonal 16,408 mm
+- **Circles and arcs:** 12 circles, 62 arcs; largest r 1.3 @ (338.6, 229.6), r 1.3 @ (338.6, 226.6), r 1.1 @ (283.2, 232.9), r 1.0 @ (292.6, 232.9)
+- **Closed boxes:** 735 (11 in the title block)
+- **Dots (junctions):** 32
+- **Words (OCR):** 53 in 50 lines: MpIME · ICEND · Cumputs) · CAMERA · CAMERA · AMPLFER · CAMERA · CaMZ · 48512 · KEMOIE · REMOTE · RFUOTE
+- **Title block:** (337, 6)–(426, 39) mm: WBS · WARD-BECK SYSTEMS · TORONTO BROADCAST  CENTRE · 48x48   INTERCOM SYSTEM · STUDIO · FUNCTIONAL · SCALE · 920005 · 001
+- **Wiring (first pass):** 280 connected wire groups from 6,027 runs, 161 dotted junctions; labelled ends: 17 mm → LTGS, LTG4; 16 mm → MpIME; 9 mm → ICEND; 7 mm → LtG?; 7 mm → LtG?
+
+Every curve, box, word and wire group: [1992 - 920005 - DOC - 920005-01-001 - SSUEI DAE REMSION APPE (traced).json](1992%20-%20920005%20-%20DOC%20-%20920005-01-001%20-%20SSUEI%20DAE%20REMSION%20APPE%20%28traced%29.json) (the CAD file: `1992 - 920005 - DOC - 920005-01-001 - SSUEI DAE REMSION APPE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

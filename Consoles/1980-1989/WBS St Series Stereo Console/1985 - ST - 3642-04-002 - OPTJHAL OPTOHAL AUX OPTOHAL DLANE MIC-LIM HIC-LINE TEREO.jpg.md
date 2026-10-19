@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 3,950,341 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 3642-04-002, size B (assumed) 432 × 254 mm, 2000 × 1174 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–247 mm up
+- **Outlines:** line 571 rings, 8,377 straight (20,034 mm) / 897 curved (1,183 mm); text 88 rings, 760 straight (770 mm) / 223 curved (305 mm); tb 23 rings, 189 straight (218 mm) / 56 curved (62.0 mm)
+- **Closed boxes:** 139 (5 in the title block); named: OPTCAA; OATE
+- **Dots (junctions):** 1
+- **Words (OCR):** 12 in 11 lines: OPTCAA · Inpui · CO4TAOLLER · OATE · WBS WARD-BECK BybtE · ST3642 · cKD · STEREO TELEVISION CONS · FROMT VIEW LAYOUT · SCALE · 3642-04-002
+- **Title block:** (355, 4)–(432, 39) mm: OATE · WBS WARD-BECK BybtE · ST3642 · cKD · STEREO TELEVISION CONS · FROMT VIEW LAYOUT · SCALE · 3642-04-002
+
+Every curve, box, word and wire group: [1985 - ST - 3642-04-002 - OPTJHAL OPTOHAL AUX OPTOHAL DLANE MIC-LIM HIC-LINE TEREO (traced).json](1985%20-%20ST%20-%203642-04-002%20-%20OPTJHAL%20OPTOHAL%20AUX%20OPTOHAL%20DLANE%20MIC-LIM%20HIC-LINE%20TEREO%20%28traced%29.json) (the CAD file: `1985 - ST - 3642-04-002 - OPTJHAL OPTOHAL AUX OPTOHAL DLANE MIC-LIM HIC-LINE TEREO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

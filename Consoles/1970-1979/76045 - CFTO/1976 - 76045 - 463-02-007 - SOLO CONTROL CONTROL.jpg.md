@@ -11,6 +11,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,405,211 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-007, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 5–432 mm up
+- **Outlines:** line 579 rings, 6,194 straight (12,251 mm) / 773 curved (1,125 mm); text 329 rings, 1,963 straight (2,017 mm) / 421 curved (604 mm)
+- **Centre lines:** 3,342 paths (21 closed); straight 7,417 mm, curved 138 mm; horizontal 3,402 mm, vertical 2,141 mm, diagonal 1,874 mm
+- **Circles and arcs:** 7 circles, 23 arcs; largest r 1.5 @ (167.4, 31.6), r 1.4 @ (241.7, 369.1), r 1.2 @ (220.2, 23.2), r 1.2 @ (82.5, 54.3)
+- **Closed boxes:** 46
+- **Wiring (first pass):** 85 connected wire groups from 490 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 463-02-007 - SOLO CONTROL CONTROL (traced).json](1976%20-%2076045%20-%20463-02-007%20-%20SOLO%20CONTROL%20CONTROL%20%28traced%29.json) (the CAD file: `1976 - 76045 - 463-02-007 - SOLO CONTROL CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

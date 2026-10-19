@@ -20,6 +20,20 @@ Wiki page: [M122](../../../PAGES/M122.md)
 - **Size:** 251,902 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 122-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–318 mm across, 4–423 mm up
+- **Outlines:** line 228 rings, 4,370 straight (9,065 mm) / 695 curved (1,093 mm); text 380 rings, 2,915 straight (2,936 mm) / 928 curved (1,267 mm); tb 2 rings, 89 straight (153 mm) / 5 curved (9.3 mm)
+- **Centre lines:** 4,472 paths (62 closed); straight 6,752 mm, curved 522 mm; horizontal 2,035 mm, vertical 2,551 mm, diagonal 2,166 mm
+- **Circles and arcs:** 12 circles, 59 arcs; largest r 6.3 @ (254.6, 147.2), r 6.2 @ (208.1, 276.5), r 6.2 @ (208.2, 163.8), r 6.1 @ (163.9, 281.7)
+- **Dots (junctions):** 1
+- **Words (OCR):** 78 in 77 lines: R34 · CRJ · +LBV · INGOOJ · 100/63 · C12 · C15 · C16 · 47/63 · 0.01 · R24 · Siook
+- **Title block:** (194, 54)–(322, 79) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 32 connected wire groups from 241 runs; labelled ends: 484 mm → R34, T42102, 47/63, CRJ; 403 mm → R29, 6K8, R3J, ISk; 323 mm → R24, Siook, 22/35, Pn9569; 304 mm → 828, 100/63, R24, Siook; 242 mm → R37, 27 1/2w, R39, R3O
+
+Every curve, box, word and wire group: [19xx - 122-02-001 - SA122 AMPLIFIER ASSEMBLY SCHEMATIC - ISS 5 (traced).json](19xx%20-%20122-02-001%20-%20SA122%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%205%20%28traced%29.json) (the CAD file: `19xx - 122-02-001 - SA122 AMPLIFIER ASSEMBLY SCHEMATIC - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

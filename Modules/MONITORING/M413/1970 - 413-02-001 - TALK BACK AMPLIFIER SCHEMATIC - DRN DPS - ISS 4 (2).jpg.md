@@ -22,6 +22,20 @@ Wiki page: [M413](../../../PAGES/M413.md)
 - **Size:** 11,653,957 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 413-02-001, size B 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–138 mm up
+- **Outlines:** line 1,796 rings, 15,241 straight (15,503 mm) / 2,718 curved (3,066 mm); text 72 rings, 388 straight (321 mm) / 124 curved (147 mm)
+- **Centre lines:** 12,631 paths (198 closed); straight 9,338 mm, curved 68.0 mm; horizontal 3,097 mm, vertical 2,748 mm, diagonal 3,494 mm
+- **Circles and arcs:** 1 circles, 15 arcs; largest r 2.9 @ (57.3, 36.9)
+- **Closed boxes:** 12; named: DP?; DATE; Q24
+- **Dots (junctions):** 2
+- **Words (OCR):** 13 in 11 lines: Re33tons · Valjes · Miero FARADE · RL YGTOR Rert · LAST CAPACTOR · DUIPUT · DP? · 43 · DATE · TAER · Q24
+- **Wiring (first pass):** 141 connected wire groups from 858 runs, 2 dotted junctions; labelled ends: 116 mm → DATE; 26 mm → 43, DP?; 23 mm → DUIPUT; 22 mm → DUIPUT; 17 mm → DP?
+
+Every curve, box, word and wire group: [1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4 (2) (traced).json](1970%20-%20413-02-001%20-%20TALK%20BACK%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DPS%20-%20ISS%204%20%282%29%20%28traced%29.json) (the CAD file: `1970 - 413-02-001 - TALK BACK AMPLIFIER SCHEMATIC - DRN DPS - ISS 4 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

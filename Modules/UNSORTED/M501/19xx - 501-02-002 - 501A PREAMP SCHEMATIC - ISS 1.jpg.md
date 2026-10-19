@@ -20,6 +20,20 @@ Wiki page: [M501](../../../PAGES/M501.md)
 - **Size:** 162,202 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 501-02-002, size B 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 25–430 mm across, 15–321 mm up
+- **Outlines:** line 527 rings, 4,591 straight (7,556 mm) / 506 curved (713 mm); text 267 rings, 2,023 straight (2,257 mm) / 554 curved (791 mm); tb 27 rings, 189 straight (280 mm) / 31 curved (43.5 mm)
+- **Centre lines:** 2,460 paths (27 closed); straight 5,395 mm, curved 85.9 mm; horizontal 2,262 mm, vertical 1,531 mm, diagonal 1,603 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 4 (3 in the title block); named: TOLS
+- **Words (OCR):** 48 in 45 lines: RIS · 470 · Gan · 42 · 2niti · ~N'o5 · FR · C7 · 2203 · 470 · 220p · 50
+- **Title block:** (176, 35)–(423, 93) mm: WARD_ · BECK   SYSTEMS UD · DRN · FINISH · DATE 4MM- · SCHEMATIC · 501A   PREAMP · CHKD · MATERIAL · SCALE · ISS · 11/64 DEC · GIVEN ' ANGLES · 501 · 402 · TOLS · To PLACES
+- **Wiring (first pass):** 73 connected wire groups from 299 runs; labelled ends: 97 mm → GIVEN ' ANGLES, UNLESS SPECIFIED, 11/64, MN BEND RAD; 46 mm → 6o=; 45 mm → SCALE, TOLS, 11/64, MN BEND RAD; 40 mm → 501, 402, GIVEN ' ANGLES; 34 mm → 2n4037
+
+Every curve, box, word and wire group: [19xx - 501-02-002 - 501A PREAMP SCHEMATIC - ISS 1 (traced).json](19xx%20-%20501-02-002%20-%20501A%20PREAMP%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 501-02-002 - 501A PREAMP SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

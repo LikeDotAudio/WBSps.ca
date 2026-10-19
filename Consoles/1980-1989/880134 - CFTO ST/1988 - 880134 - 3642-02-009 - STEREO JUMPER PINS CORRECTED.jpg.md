@@ -10,6 +10,20 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,726,477 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-009, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–279 mm up
+- **Outlines:** line 1,633 rings, 10,582 straight (19,270 mm) / 1,587 curved (1,813 mm); text 129 rings, 841 straight (822 mm) / 240 curved (302 mm); tb 94 rings, 545 straight (584 mm) / 98 curved (106 mm)
+- **Centre lines:** 10,117 paths (214 closed); straight 11,286 mm, curved 118 mm; horizontal 5,692 mm, vertical 3,088 mm, diagonal 2,506 mm
+- **Circles and arcs:** 2 circles, 46 arcs; largest r 1.9 @ (8.1, 121.3), r 0.7 @ (153.7, 107.3)
+- **Closed boxes:** 46 (1 in the title block); named: UCQULE; PRDcess; EACCESSING Yc; SSUE: DATE WARD-BECK SYSTEMS WBS PROCESS; PROCESSING MODULES SCHEMATIC; Idisc No; 3642-02-009
+- **Words (OCR):** 14 in 14 lines: UCQULE · PRDcess · EACCESSING · Yc · CHASSS · NQIE: · SSUE: DATE · FMETER · WARD-BECK SYSTEMS · WBS · PROCESSING MODULES · SCHEMATIC
+- **Title block:** (345, 21)–(429, 42) mm: SSUE: DATE · WARD-BECK SYSTEMS · WBS
+- **Wiring (first pass):** 69 connected wire groups from 1,445 runs; labelled ends: 37 mm → Idisc No;; 5 mm → Idisc No;; 5 mm → PROCESSING MODULES, SCHEMATIC, 3642-02-009
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-009 - STEREO JUMPER PINS CORRECTED (traced).json](1988%20-%20880134%20-%203642-02-009%20-%20STEREO%20JUMPER%20PINS%20CORRECTED%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-009 - STEREO JUMPER PINS CORRECTED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 14 words corrected)

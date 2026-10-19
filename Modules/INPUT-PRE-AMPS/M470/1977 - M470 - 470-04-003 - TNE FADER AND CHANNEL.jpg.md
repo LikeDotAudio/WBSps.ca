@@ -11,6 +11,19 @@ Wiki page: [M470](../../../PAGES/M470.md)
 - **Size:** 358,698 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-003, size B (assumed) 432 × 292 mm, 2000 × 1350 px traced (0.216 mm/px)
+- **Ink extent:** 28–432 mm across, 0–291 mm up
+- **Outlines:** line 1,908 rings, 10,812 straight (19,447 mm) / 3,043 curved (3,740 mm); text 345 rings, 1,807 straight (1,469 mm) / 666 curved (778 mm); tb 23 rings, 195 straight (216 mm) / 46 curved (53.0 mm)
+- **Circles and arcs:** 25 circles, 0 arcs; largest r 6.3 @ (213.4, 33.6), r 6.2 @ (214.0, 72.9), r 6.1 @ (214.3, 115.3), r 5.3 @ (213.5, 33.6)
+- **Closed boxes:** 20 (10 in the title block); named: swiech; cutput coerate; ojeput output
+- **Dots (junctions):** 19
+- **Words (OCR):** 61 in 54 lines: swiech · TSTER · dapreseed · Ses"579 · 5ELecTCA Shitch · Gource · inout · Tiana pitn. · db/ac a · unit. · eultinc · frcotcy
+- **Title block:** (357, 0)–(432, 33) mm: DAT · WBS WARO-BECK bybteMB · Dan MGB · M47o · INPUT · MODUle · FRONT PANEL · SCALE · 470-04-003
+
+Every curve, box, word and wire group: [1977 - M470 - 470-04-003 - TNE FADER AND CHANNEL (traced).json](1977%20-%20M470%20-%20470-04-003%20-%20TNE%20FADER%20AND%20CHANNEL%20%28traced%29.json) (the CAD file: `1977 - M470 - 470-04-003 - TNE FADER AND CHANNEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 31 words corrected)

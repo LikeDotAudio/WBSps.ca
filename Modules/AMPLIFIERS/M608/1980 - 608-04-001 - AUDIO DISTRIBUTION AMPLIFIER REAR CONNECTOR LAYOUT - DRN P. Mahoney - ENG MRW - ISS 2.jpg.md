@@ -24,6 +24,18 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 300,304 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 608-04-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 4–424 mm up
+- **Outlines:** line 265 rings, 4,553 straight (9,830 mm) / 638 curved (976 mm); text 451 rings, 4,283 straight (5,922 mm) / 992 curved (1,810 mm); tb 26 rings, 245 straight (420 mm) / 37 curved (44.9 mm)
+- **Closed boxes:** 21 (8 in the title block); named: PM_; 1O/80; 608-04-001; SCALE
+- **Dots (junctions):** 6
+- **Words (OCR):** 54 in 46 lines: MODULE · COMMON MAY BE · USED To CONNECT · OUTPUT · CAELE SHIELDS · CHASSIS · MODULE · CCMCN TC · SYSTes · 010 20 · GROUND · Q11 30
+- **Title block:** (115, 11)–(332, 114) mm: 3723 · PM_ · 1O/80 · ISSUE |DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN R Mloney · M6o8/M6o8A · ENG. MEW 4go · AUDIO · DISTRIBUTION AMPLIFIER · CKD · LAYOUT · REAR CONNECTOR · APP · SCALE · 
+
+Every curve, box, word and wire group: [1980 - 608-04-001 - AUDIO DISTRIBUTION AMPLIFIER REAR CONNECTOR LAYOUT - DRN P. Mahoney - ENG MRW - ISS 2 (traced).json](1980%20-%20608-04-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20REAR%20CONNECTOR%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1980 - 608-04-001 - AUDIO DISTRIBUTION AMPLIFIER REAR CONNECTOR LAYOUT - DRN P. Mahoney - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

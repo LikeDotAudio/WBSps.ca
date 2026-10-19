@@ -10,6 +10,18 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 6,180,836 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880651-02-015, size B (assumed) 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–431 mm across, 18–305 mm up
+- **Outlines:** line 636 rings, 7,581 straight (14,890 mm) / 1,435 curved (1,896 mm); text 114 rings, 755 straight (780 mm) / 277 curved (378 mm)
+- **Centre lines:** 4,407 paths (68 closed); straight 8,687 mm, curved 278 mm; horizontal 3,690 mm, vertical 2,772 mm, diagonal 2,225 mm
+- **Circles and arcs:** 2 circles, 92 arcs; largest r 1.2 @ (410.0, 199.0), r 0.8 @ (32.4, 244.4)
+- **Closed boxes:** 16
+- **Wiring (first pass):** 167 connected wire groups from 636 runs
+
+Every curve, box, word and wire group: [1988 - 880651 - 880651-02-015 - WAPD-DECK BYBTEMS DNPA EPA TRACK ASSIGN MODULE (traced).json](1988%20-%20880651%20-%20880651-02-015%20-%20WAPD-DECK%20BYBTEMS%20DNPA%20EPA%20TRACK%20ASSIGN%20MODULE%20%28traced%29.json) (the CAD file: `1988 - 880651 - 880651-02-015 - WAPD-DECK BYBTEMS DNPA EPA TRACK ASSIGN MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

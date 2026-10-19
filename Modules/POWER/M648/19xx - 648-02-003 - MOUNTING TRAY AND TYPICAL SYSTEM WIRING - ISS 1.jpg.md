@@ -22,6 +22,21 @@ M648 mounting tray and typical system wiring drawing.
 - **Size:** 275,724 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 648-02-003, size B 432 × 268 mm, 2000 × 1243 px traced (0.216 mm/px)
+- **Ink extent:** 4–423 mm across, 5–253 mm up
+- **Outlines:** line 154 rings, 2,204 straight (5,191 mm) / 373 curved (650 mm); text 415 rings, 2,788 straight (3,031 mm) / 865 curved (1,260 mm); tb 2 rings, 38 straight (109 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 3,216 paths (94 closed); straight 4,792 mm, curved 257 mm; horizontal 1,808 mm, vertical 1,209 mm, diagonal 1,774 mm
+- **Circles and arcs:** 23 circles, 16 arcs; largest r 2.1 @ (246.6, 179.2), r 2.0 @ (260.9, 146.5), r 1.9 @ (246.6, 146.3), r 1.7 @ (260.8, 146.6)
+- **Closed boxes:** 9; named: M648; LOAD; M648; ~SENSE; LOAD
+- **Dots (junctions):** 2
+- **Words (OCR):** 62 in 49 lines: POWER SUPPLY · MOUNTING_TRAY · TYPICALSYSTEM WIRING · 115V · AC · 60 Hz · AC 16 · M648 · ~SENSE · LOAD · 16 · +SENSE
+- **Title block:** (334, 31)–(431, 47) mm: WBS WARD-BECK BYSTEMB
+- **Wiring (first pass):** 46 connected wire groups from 198 runs, 1 dotted junctions; labelled ends: 325 mm → +4BV, #SENSE, P2, 12; 293 mm → AC, 16, LOAD, 10,11; 148 mm → uFd/, LOAD, minimum, 2000; 94 mm → +4BV, #SENSE, 2000, minimum; 74 mm → POWER, AC, MOUNTING_TRAY
+
+Every curve, box, word and wire group: [19xx - 648-02-003 - MOUNTING TRAY AND TYPICAL SYSTEM WIRING - ISS 1 (traced).json](19xx%20-%20648-02-003%20-%20MOUNTING%20TRAY%20AND%20TYPICAL%20SYSTEM%20WIRING%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 648-02-003 - MOUNTING TRAY AND TYPICAL SYSTEM WIRING - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

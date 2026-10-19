@@ -22,6 +22,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 3,918,316 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 790236-02-014, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 1–611 mm across, 2–864 mm up
+- **Outlines:** line 815 rings, 9,324 straight (25,538 mm) / 1,609 curved (3,973 mm); text 404 rings, 2,665 straight (5,799 mm) / 787 curved (2,201 mm)
+- **Centre lines:** 13,241 paths (109 closed); straight 20,186 mm, curved 608 mm; horizontal 7,352 mm, vertical 4,329 mm, diagonal 8,505 mm
+- **Circles and arcs:** 17 circles, 52 arcs; largest r 4.1 @ (72.4, 206.8), r 4.0 @ (500.3, 25.1), r 3.4 @ (526.1, 47.4), r 3.2 @ (500.0, 25.3)
+- **Closed boxes:** 18
+- **Wiring (first pass):** 82 connected wire groups from 656 runs
+
+Every curve, box, word and wire group: [1979 - 790236-02-014 - L3242A CONSOLE POWER DISTRIBUTION SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).json](1979%20-%20790236-02-014%20-%20L3242A%20CONSOLE%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-02-014 - L3242A CONSOLE POWER DISTRIBUTION SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

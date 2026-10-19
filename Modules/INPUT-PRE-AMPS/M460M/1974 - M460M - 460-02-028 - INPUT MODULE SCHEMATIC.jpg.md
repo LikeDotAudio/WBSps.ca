@@ -11,6 +11,21 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 1,528,771 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 460-02-028, size B (assumed) 432 × 288 mm, 2000 × 1335 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–288 mm up
+- **Outlines:** line 1,248 rings, 10,966 straight (17,301 mm) / 2,382 curved (2,791 mm); text 127 rings, 817 straight (813 mm) / 231 curved (319 mm); tb 11 rings, 82 straight (116 mm) / 16 curved (21.9 mm)
+- **Centre lines:** 11,920 paths (257 closed); straight 11,086 mm, curved 200 mm; horizontal 4,639 mm, vertical 2,836 mm, diagonal 3,610 mm
+- **Circles and arcs:** 6 circles, 64 arcs; largest r 2.1 @ (57.8, 202.2), r 0.9 @ (237.1, 59.8), r 0.8 @ (145.2, 240.6), r 0.8 @ (386.0, 222.7)
+- **Closed boxes:** 31
+- **Dots (junctions):** 2
+- **Words (OCR):** 16 in 15 lines: CONIROL · BOOSTCA · 404 P2 · POSI · SELECTCA · FROR · LCVEL · SHEET 2 OF 2 · WBS · WARD-BeCK bybtemB · M4om · INPUT MODULE
+- **Title block:** (341, 30)–(432, 46) mm: WBS · WARD-BeCK bybtemB
+- **Wiring (first pass):** 147 connected wire groups from 808 runs, 2 dotted junctions; labelled ends: 430 mm → POSI; 157 mm → POSI; 76 mm → SELECTCA; 56 mm → LCVEL; 50 mm → LCVEL
+
+Every curve, box, word and wire group: [1974 - M460M - 460-02-028 - INPUT MODULE SCHEMATIC (traced).json](1974%20-%20M460M%20-%20460-02-028%20-%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-02-028 - INPUT MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

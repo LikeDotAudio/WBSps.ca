@@ -11,6 +11,20 @@ Wiki page: [M470C](../../../PAGES/M470C.md)
 - **Size:** 889,844 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 470-02-004, size B (assumed) 432 × 146 mm, 2000 × 676 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–138 mm up
+- **Outlines:** line 1,978 rings, 17,164 straight (20,679 mm) / 3,552 curved (3,905 mm); text 29 rings, 140 straight (105 mm) / 42 curved (42.6 mm)
+- **Centre lines:** 18,584 paths (606 closed); straight 12,910 mm, curved 121 mm; horizontal 5,116 mm, vertical 3,342 mm, diagonal 4,452 mm
+- **Circles and arcs:** 1 circles, 32 arcs; largest r 1.4 @ (72.2, 35.9)
+- **Closed boxes:** 46
+- **Dots (junctions):** 2
+- **Words (OCR):** 5 in 5 lines: ddu- · ShELO · JAL · 3P · 77-ict
+- **Wiring (first pass):** 154 connected wire groups from 1,188 runs; labelled ends: 12 mm → ShELO
+
+Every curve, box, word and wire group: [1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC (traced).json](1977%20-%20M470C%20-%20470-02-004%20-%20INPUT%20MODULE%20SSCAL%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1977 - M470C - 470-02-004 - INPUT MODULE SSCAL SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

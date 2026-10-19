@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,155,049 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–302 mm up
+- **Outlines:** line 420 rings, 4,265 straight (9,079 mm) / 826 curved (1,210 mm); text 398 rings, 2,693 straight (3,311 mm) / 848 curved (1,258 mm)
+- **Centre lines:** 4,336 paths (101 closed); straight 6,885 mm, curved 496 mm; horizontal 2,723 mm, vertical 1,946 mm, diagonal 2,216 mm
+- **Circles and arcs:** 31 circles, 64 arcs; largest r 1.5 @ (318.7, 62.9), r 1.5 @ (163.2, 190.9), r 1.5 @ (188.3, 278.8), r 1.4 @ (268.2, 228.3)
+- **Closed boxes:** 20
+- **Wiring (first pass):** 50 connected wire groups from 448 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-004 - STEREO OUTPUT CHANNEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-004%20-%20STEREO%20OUTPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-004 - STEREO OUTPUT CHANNEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

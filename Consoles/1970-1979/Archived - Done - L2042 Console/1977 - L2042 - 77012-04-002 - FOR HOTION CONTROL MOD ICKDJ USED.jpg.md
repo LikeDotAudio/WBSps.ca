@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 141,218 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77012-04-002, size B (assumed) 432 × 302 mm, 1866 × 1304 px traced (0.231 mm/px)
+- **Ink extent:** 14–431 mm across, 0–274 mm up
+- **Outlines:** line 399 rings, 4,751 straight (15,902 mm) / 581 curved (800 mm); text 166 rings, 1,157 straight (1,138 mm) / 420 curved (599 mm); tb 26 rings, 219 straight (304 mm) / 44 curved (63.8 mm)
+- **Closed boxes:** 63 (4 in the title block); named: Optiohal JAcKFIELD LOUALITERS JaCKS SELE; LOUALITERS; Optiohal SELECTORS; JAcKFIELD JaCKS; JAcKFIELD JaCKS; optiohal PATCHADLE ANCILLARY Hooules (O); Input HOOULES (Z0); 4477 AASTLR; BLAHK; Hohitor MODULES; HODULES; Hotion SpacE For
+- **Words (OCR):** 36 in 29 lines: Optiohal · JAcKFIELD · LOUALITERS · JaCKS · SELECTORS · 4477 · ANCILLARY Hooules (O) · optiohal PATCHADLE · AASTLR · EQ/FLTR · Input HOOULES (Z0) · Hohitor
+- **Title block:** (328, 5)–(432, 36) mm: WBS WAAD-Drck · LTD · DATE · WBS L2042 CONSOLE · cKD. DAL · AUDIO CONSOLE · scLE
+
+Every curve, box, word and wire group: [1977 - L2042 - 77012-04-002 - FOR HOTION CONTROL MOD ICKDJ USED (traced).json](1977%20-%20L2042%20-%2077012-04-002%20-%20FOR%20HOTION%20CONTROL%20MOD%20ICKDJ%20USED%20%28traced%29.json) (the CAD file: `1977 - L2042 - 77012-04-002 - FOR HOTION CONTROL MOD ICKDJ USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,173,444 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 3642-04-008, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 712 rings, 6,228 straight (17,436 mm) / 592 curved (898 mm); text 660 rings, 4,226 straight (5,041 mm) / 1,239 curved (1,820 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 3.6 @ (8.7, 141.4), r 3.5 @ (8.6, 31.4), r 3.5 @ (7.9, 252.7)
+- **Closed boxes:** 86
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-04-008 - REDRAWN ISSUEI (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-04-008%20-%20REDRAWN%20ISSUEI%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-04-008 - REDRAWN ISSUEI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

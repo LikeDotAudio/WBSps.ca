@@ -11,6 +11,20 @@ Wiki page: [M451](../../../PAGES/M451.md)
 - **Size:** 409,810 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 451-02-001, size B (assumed) 432 × 276 mm, 2000 × 1277 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–271 mm up
+- **Outlines:** line 1,075 rings, 10,116 straight (17,529 mm) / 2,145 curved (2,698 mm); text 684 rings, 3,666 straight (3,126 mm) / 1,276 curved (1,551 mm)
+- **Centre lines:** 11,671 paths (263 closed); straight 12,148 mm, curved 423 mm; horizontal 3,497 mm, vertical 3,582 mm, diagonal 5,069 mm
+- **Circles and arcs:** 6 circles, 104 arcs; largest r 3.9 @ (290.3, 134.8), r 3.8 @ (289.8, 213.4), r 0.9 @ (115.1, 169.6), r 0.9 @ (293.5, 199.7)
+- **Closed boxes:** 23; named: USED 04; WBS; ISCALL
+- **Dots (junctions):** 1
+- **Words (OCR):** 147 in 136 lines: PN3569 · CR2 · Cz3 · Rso · 33 24 · 41/25 · {R4k · 22 k · RI · CR3 · C 27 · CONTROL
+- **Wiring (first pass):** 158 connected wire groups from 959 runs; labelled ends: 343 mm → LTO, USED 04, 2e4, WBS; 314 mm → Sw4, snz, Sw3; 209 mm → R73; 175 mm → R3I, 262 K, 33k, R24; 153 mm → <R9, RIs, 33k, 618
+
+Every curve, box, word and wire group: [1977 - M451 - 451-02-001 - TALKBACK MODULE SCHEMATIC (traced).json](1977%20-%20M451%20-%20451-02-001%20-%20TALKBACK%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1977 - M451 - 451-02-001 - TALKBACK MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

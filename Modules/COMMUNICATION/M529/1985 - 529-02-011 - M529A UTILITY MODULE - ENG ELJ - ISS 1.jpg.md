@@ -24,6 +24,18 @@ Wiki page: [M529](../../../PAGES/M529.md)
 - **Size:** 4,956,101 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 529-02-011, size D 864 × 611 mm, 2000 × 1414 px traced (0.432 mm/px), turned 270°
+- **Ink extent:** 0–864 mm across, 36–611 mm up
+- **Outlines:** line 796 rings, 9,276 straight (40,099 mm) / 1,583 curved (4,152 mm); text 91 rings, 863 straight (1,681 mm) / 253 curved (638 mm)
+- **Centre lines:** 8,969 paths (119 closed); straight 24,556 mm, curved 395 mm; horizontal 13,199 mm, vertical 5,910 mm, diagonal 5,448 mm
+- **Circles and arcs:** 4 circles, 63 arcs; largest r 2.3 @ (625.7, 484.4), r 2.2 @ (78.9, 474.5), r 2.1 @ (79.6, 297.9), r 2.0 @ (52.9, 245.9)
+- **Closed boxes:** 106
+- **Wiring (first pass):** 276 connected wire groups from 1,260 runs
+
+Every curve, box, word and wire group: [1985 - 529-02-011 - M529A UTILITY MODULE - ENG ELJ - ISS 1 (traced).json](1985%20-%20529-02-011%20-%20M529A%20UTILITY%20MODULE%20-%20ENG%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1985 - 529-02-011 - M529A UTILITY MODULE - ENG ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

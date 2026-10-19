@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,078,058 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960191-04-001, size B (assumed) 432 × 271 mm, 2000 × 1257 px traced (0.216 mm/px)
+- **Ink extent:** 69–411 mm across, 11–224 mm up
+- **Outlines:** line 1,715 rings, 9,235 straight (24,156 mm) / 1,846 curved (2,470 mm); text 128 rings, 730 straight (726 mm) / 232 curved (314 mm); tb 15 rings, 165 straight (179 mm) / 18 curved (19.0 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 3.1 @ (274.5, 191.6), r 2.5 @ (274.5, 191.6), r 1.6 @ (106.6, 213.1), r 1.5 @ (158.4, 213.1)
+- **Closed boxes:** 123 (3 in the title block); named: LCCC DECCDER CuIPUTS; LCCC DECCDER CuIPUTS; LCCC DECCDER CuIPUTS; LCCC DECCDER CuIPUTS; CBC TORONTO_ GOULD STUDIO_ GLEN 12X12 MA; 960191 04-001
+- **Words (OCR):** 10 in 9 lines: LCCC DECCDER CuIPUTS · REMSID · WARD-BECK SYSTEMS · WBS · CBC TORONTO_ · GLEN · GOULD STUDIO_ · 12X12 MATRIX LAYOUT · 960191 04-001
+- **Title block:** (334, 26)–(417, 42) mm: REMSID · WARD-BECK SYSTEMS · WBS · CBC TORONTO_
+
+Every curve, box, word and wire group: [1996 - DOC - 960191-04-001 - INT LOGIC DECOOER OUTPUTS CAUMON DISCCNNECT POKEF BEFCRE (traced).json](1996%20-%20DOC%20-%20960191-04-001%20-%20INT%20LOGIC%20DECOOER%20OUTPUTS%20CAUMON%20DISCCNNECT%20POKEF%20BEFCRE%20%28traced%29.json) (the CAD file: `1996 - DOC - 960191-04-001 - INT LOGIC DECOOER OUTPUTS CAUMON DISCCNNECT POKEF BEFCRE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

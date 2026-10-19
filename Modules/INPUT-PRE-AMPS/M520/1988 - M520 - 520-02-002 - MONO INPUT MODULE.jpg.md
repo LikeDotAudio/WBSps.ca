@@ -12,6 +12,21 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 32,346,836 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 520-02-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 1,493 rings, 12,030 straight (18,196 mm) / 2,415 curved (2,893 mm); text 104 rings, 657 straight (630 mm) / 185 curved (247 mm); tb 25 rings, 186 straight (201 mm) / 37 curved (42.6 mm)
+- **Centre lines:** 11,502 paths (337 closed); straight 11,122 mm, curved 158 mm; horizontal 4,344 mm, vertical 3,229 mm, diagonal 3,548 mm
+- **Circles and arcs:** 5 circles, 17 arcs; largest r 3.1 @ (287.6, 215.3), r 3.1 @ (72.8, 35.1), r 2.6 @ (216.1, 240.7), r 0.8 @ (392.1, 201.9)
+- **Closed boxes:** 14 (4 in the title block); named: M5zoA MONO INPUT MODULe SCHEMATIC; 520-02 OO21
+- **Dots (junctions):** 3
+- **Words (OCR):** 15 in 11 lines: EQualizep · Dov · Lno · 33 · 25725 · 16725 · WBS WARD-BECK Sybtems · MONO INPUT MODULe · M5zoA · SCHEMATIC · 520-02 OO21
+- **Title block:** (359, 20)–(432, 35) mm: WBS WARD-BECK Sybtems · M5zoA
+- **Wiring (first pass):** 137 connected wire groups from 998 runs, 2 dotted junctions; labelled ends: 59 mm → WBS, MONO; 57 mm → 25725; 48 mm → 25725; 42 mm → Dov; 34 mm → 16725
+
+Every curve, box, word and wire group: [1988 - M520 - 520-02-002 - MONO INPUT MODULE (traced).json](1988%20-%20M520%20-%20520-02-002%20-%20MONO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1988 - M520 - 520-02-002 - MONO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

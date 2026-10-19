@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 287,022 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 466-04-002, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 4–306 mm across, 18–431 mm up
+- **Outlines:** line 142 rings, 1,694 straight (8,499 mm) / 211 curved (314 mm); text 1,846 rings, 9,149 straight (8,145 mm) / 2,974 curved (4,065 mm); tb 852 rings, 4,902 straight (7,976 mm) / 1,443 curved (2,122 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (37.2, 236.4)
+- **Closed boxes:** 21 (14 in the title block); named: Green LED ndicates Likit LED dB peak ndi; LimIT THRESHOLD ShS = swiEch Sets refere; INSERT switch Sw3: Activates Timis assoc; switch 5k6 Frequency DE-ESS nserts filte; switch ither reading Jeve GAIN tandaro R; Sets Shitcn with refererce compressor Se; INSERT switch SH7 : Khen this depresse 0
+- **Words (OCR):** 274 in 188 lines: Likit · dB peak · Green LED ndicates · LED ndicates · Peak Timiting (12 · Ovei · Icad) · WBS · M466 · LimIT THRESHOLD swiEch · reference · ShS = Sets
+- **Title block:** (46, 22)–(305, 318) mm: dB peak · Green LED ndicates · LED ndicates · Peak Timiting (12 · Ovei · Icad) · WBS · M466 · LimIT THRESHOLD swiEch · reference · ShS = Sets · SENSITivity switch Shi Allows sclection · [hreshold with
+
+Every curve, box, word and wire group: [19xx - M466 - DOC - 466-04-002 - ARE SAD LED NER ENE AKN INSERT SWITCN (traced).json](19xx%20-%20M466%20-%20DOC%20-%20466-04-002%20-%20ARE%20SAD%20LED%20NER%20ENE%20AKN%20INSERT%20SWITCN%20%28traced%29.json) (the CAD file: `19xx - M466 - DOC - 466-04-002 - ARE SAD LED NER ENE AKN INSERT SWITCN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 33 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 318,388 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 608-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 3–429 mm up
+- **Outlines:** line 915 rings, 11,567 straight (21,032 mm) / 2,332 curved (3,257 mm); text 703 rings, 5,406 straight (5,113 mm) / 1,741 curved (2,361 mm); tb 7 rings, 108 straight (164 mm) / 20 curved (26.7 mm)
+- **Centre lines:** 14,590 paths (145 closed); straight 15,890 mm, curved 648 mm; horizontal 5,482 mm, vertical 4,448 mm, diagonal 5,959 mm
+- **Circles and arcs:** 19 circles, 121 arcs; largest r 5.0 @ (96.9, 241.7), r 4.9 @ (78.7, 377.3), r 4.8 @ (100.5, 319.6), r 4.8 @ (79.6, 233.6)
+- **Closed boxes:** 14 (1 in the title block); named: M608 SCHEMATIC; CXD:
+- **Words (OCR):** 184 in 180 lines: NOTESi · VJALL · ResistoRS V/4w 51 · CAPACITORSARE INAF · +S2v · UNLESS STheRWSE SPECIFIED_ · C21 · 2)LAST COMPONENT DESIGNATIONS · Bez · R45 · R46 · Qio R56
+- **Title block:** (246, 22)–(300, 44) mm: WBS WARD · M608
+- **Wiring (first pass):** 241 connected wire groups from 1,071 runs; labelled ends: 366 mm → Rzi2w, Sp, 27k, C18; 122 mm → 70-9; 110 mm → R53, (2w, Sp, 742; 96 mm → 2N4037, RZ6, R3i, Sk6; 80 mm → 32v, R27, 6k6, 2N4037
+
+Every curve, box, word and wire group: [1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED (traced).json](1975%20-%20M608%20-%20608-02-001%20-%20ALL%20CAPACITCRSARE%20INAF%20UNLESS%20CTHERWSE%20SPECIFIED%20%28traced%29.json) (the CAD file: `1975 - M608 - 608-02-001 - ALL CAPACITCRSARE INAF UNLESS CTHERWSE SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

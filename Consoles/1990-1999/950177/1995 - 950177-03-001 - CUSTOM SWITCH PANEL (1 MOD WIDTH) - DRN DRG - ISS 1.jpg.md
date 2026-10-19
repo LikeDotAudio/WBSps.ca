@@ -23,6 +23,20 @@ Custom switch panel (1 module width) drawing with title block at bottom right.
 - **Size:** 408,078 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950177-03-001, size D 864 × 554 mm, 2000 × 1282 px traced (0.432 mm/px)
+- **Ink extent:** 105–864 mm across, 12–551 mm up
+- **Outlines:** line 647 rings, 4,317 straight (20,527 mm) / 1,035 curved (2,450 mm); text 214 rings, 1,255 straight (2,380 mm) / 387 curved (1,020 mm); tb 20 rings, 160 straight (360 mm) / 35 curved (81.6 mm)
+- **Centre lines:** 6,770 paths (203 closed); straight 14,182 mm, curved 49.7 mm; horizontal 3,668 mm, vertical 6,101 mm, diagonal 4,412 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 3.6 @ (206.4, 471.0), r 2.7 @ (194.6, 89.9), r 1.6 @ (478.0, 175.5)
+- **Closed boxes:** 64 (3 in the title block); named: CUSTOM SWITCH PANEL MOD WIDTH); 950177-03-001; CozE: 95177u01
+- **Dots (junctions):** 1
+- **Words (OCR):** 29 in 25 lines: 9 3 · 3 3 · VNc_Csk · 488 8 · ck · DAn · 41-72 · 7-697 · PMCH(0.762) (19) · 0455 · 17,775 · DAnJiN 4
+- **Title block:** (681, 43)–(849, 76) mm: WBS · WARD-BECK SYSTEMS · DRT6/95)
+
+Every curve, box, word and wire group: [1995 - 950177-03-001 - CUSTOM SWITCH PANEL (1 MOD WIDTH) - DRN DRG - ISS 1 (traced).json](1995%20-%20950177-03-001%20-%20CUSTOM%20SWITCH%20PANEL%20%281%20MOD%20WIDTH%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950177-03-001 - CUSTOM SWITCH PANEL (1 MOD WIDTH) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

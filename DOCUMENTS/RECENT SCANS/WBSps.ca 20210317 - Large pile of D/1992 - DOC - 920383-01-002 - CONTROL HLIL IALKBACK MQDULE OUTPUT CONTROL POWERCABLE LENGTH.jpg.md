@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,426,554 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920383-01-002, size B (assumed) 432 × 279 mm, 2000 × 1291 px traced (0.216 mm/px)
+- **Ink extent:** 39–424 mm across, 7–254 mm up
+- **Outlines:** line 528 rings, 4,111 straight (6,031 mm) / 925 curved (1,120 mm); text 186 rings, 1,467 straight (1,354 mm) / 429 curved (532 mm); tb 55 rings, 462 straight (1,361 mm) / 77 curved (92.1 mm)
+- **Centre lines:** 9,725 paths (143 closed); straight 5,799 mm, curved 27.8 mm; horizontal 1,978 mm, vertical 1,378 mm, diagonal 2,442 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 5; named: Vodim; adunigp
+- **Dots (junctions):** 1
+- **Words (OCR):** 36 in 33 lines: Neu · MQNIORIG · INER · Vodim · stop /OFF · CONROL · CUSTOER) · RESET · Solnctor · OCCV · RESOT · PFSET
+- **Title block:** (341, 5)–(429, 43) mm: ISSUE · WBS · WARD-BECK SYSTEMS · WOWF · R22OO RADIO CONSOLE · FUNCTIONAL · SCALE · CCDE 92303F02 · 920383-01-002
+- **Wiring (first pass):** 35 connected wire groups from 415 runs; labelled ends: 37 mm → LERGTH; 20 mm → PFSET; 19 mm → CONSOLE, JJJJJ, POwER; 17 mm → CONROL; 13 mm → PFSET
+
+Every curve, box, word and wire group: [1992 - DOC - 920383-01-002 - CONTROL HLIL IALKBACK MQDULE OUTPUT CONTROL POWERCABLE LENGTH (traced).json](1992%20-%20DOC%20-%20920383-01-002%20-%20CONTROL%20HLIL%20IALKBACK%20MQDULE%20OUTPUT%20CONTROL%20POWERCABLE%20LENGTH%20%28traced%29.json) (the CAD file: `1992 - DOC - 920383-01-002 - CONTROL HLIL IALKBACK MQDULE OUTPUT CONTROL POWERCABLE LENGTH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

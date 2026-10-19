@@ -23,6 +23,20 @@ Wiki page: [M487](../../../PAGES/M487.md)
 - **Size:** 234,088 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 487-01-001, size B 432 × 286 mm, 2000 × 1327 px traced (0.216 mm/px)
+- **Ink extent:** 17–432 mm across, 0–229 mm up
+- **Outlines:** line 80 rings, 1,576 straight (4,594 mm) / 180 curved (253 mm); text 364 rings, 2,659 straight (3,140 mm) / 795 curved (1,193 mm); tb 4 rings, 108 straight (238 mm) / 3 curved (6.0 mm)
+- **Centre lines:** 3,157 paths (67 closed); straight 4,589 mm, curved 23.4 mm; horizontal 1,727 mm, vertical 1,065 mm, diagonal 1,796 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 6 (6 in the title block)
+- **Words (OCR):** 51 in 41 lines: FADER · SUMMING INPUT · PRE · 8.109C · 7PGM · (-15dB) · SECTION · 7PGM2 +8dBm · OUTPuts · EXTERNAL inPut · +8dBm · 600 OHMS
+- **Title block:** (281, 1)–(432, 72) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN P MaloNey] · M487 · ENG_ RKB · CKD. U · DUAL MASTER MODULE · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 487 -01-001
+- **Wiring (first pass):** 60 connected wire groups from 101 runs; labelled ends: 79 mm → 8.109C; 63 mm → FADER, (-15 dB); 62 mm → FADER, (-15dB), 8.109C; 42 mm → PRE; 41 mm → PRE
+
+Every curve, box, word and wire group: [19xx - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - DRN P. Mahoney - ENG RKB - ISS 1 (2) (traced).json](19xx%20-%20487-01-001%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ENG%20RKB%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 487-01-001 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM - DRN P. Mahoney - ENG RKB - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

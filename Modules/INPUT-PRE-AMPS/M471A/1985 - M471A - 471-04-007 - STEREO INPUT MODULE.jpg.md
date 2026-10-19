@@ -11,6 +11,17 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 300,152 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 471-04-007, size B (assumed) 432 × 343 mm, 2000 × 1587 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–289 mm up
+- **Outlines:** line 235 rings, 2,658 straight (6,082 mm) / 360 curved (488 mm); text 253 rings, 1,796 straight (2,126 mm) / 555 curved (826 mm); tb 391 rings, 4,517 straight (10,264 mm) / 727 curved (1,201 mm)
+- **Closed boxes:** 3
+- **Words (OCR):** 38 in 36 lines: WBS · 4.123 · Ds · sw 2 · 21,R2 · 8-109 · Sw 4 · AUX2 · sw 3 · 8.109 · R3, R 4 · SW 6
+- **Title block:** (186, 0)–(432, 292) mm: WBS · 4.123 · 21,R2 · 8-109 · AUX2 · sw 3 · R3, R 4 · sw 9 · Rs,R 6 · R7, R8 · 3 + +C ~ · Sw 3 · BoostEr · AMP (LEFt)- · ISSU DATE · APp · WARO-BECK SySTEMS · WBS · ENG · M47 1A · STEREO INPUT MODULE 
+
+Every curve, box, word and wire group: [1985 - M471A - 471-04-007 - STEREO INPUT MODULE (traced).json](1985%20-%20M471A%20-%20471-04-007%20-%20STEREO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1985 - M471A - 471-04-007 - STEREO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

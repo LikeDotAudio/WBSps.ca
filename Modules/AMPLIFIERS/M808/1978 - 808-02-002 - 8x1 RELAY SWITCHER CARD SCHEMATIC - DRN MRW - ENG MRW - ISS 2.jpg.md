@@ -25,6 +25,19 @@ Upside-down photo of the M808A 8x1 relay switcher card schematic title block. Ti
 - **Size:** 1,061,512 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 808-02-002, size B (assumed) 432 × 323 mm, 2000 × 1494 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–398 mm across, 21–289 mm up
+- **Outlines:** line 369 rings, 5,883 straight (8,153 mm) / 824 curved (994 mm); text 32 rings, 467 straight (585 mm) / 77 curved (130 mm); tb 229 rings, 2,753 straight (3,980 mm) / 534 curved (923 mm)
+- **Centre lines:** 18,912 paths (106 closed); straight 11,343 mm, curved 51.3 mm; horizontal 4,154 mm, vertical 2,255 mm, diagonal 4,934 mm
+- **Circles and arcs:** 4 circles, 1 arcs; largest r 2.6 @ (217.2, 74.0), r 2.6 @ (233.1, 74.2), r 2.4 @ (217.2, 78.3), r 2.4 @ (233.0, 78.6)
+- **Closed boxes:** 11 (9 in the title block)
+- **Title block:** (18, 89)–(389, 248) mm
+- **Wiring (first pass):** 19 connected wire groups from 117 runs
+
+Every curve, box, word and wire group: [1978 - 808-02-002 - 8x1 RELAY SWITCHER CARD SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (traced).json](1978%20-%20808-02-002%20-%208x1%20RELAY%20SWITCHER%20CARD%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1978 - 808-02-002 - 8x1 RELAY SWITCHER CARD SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

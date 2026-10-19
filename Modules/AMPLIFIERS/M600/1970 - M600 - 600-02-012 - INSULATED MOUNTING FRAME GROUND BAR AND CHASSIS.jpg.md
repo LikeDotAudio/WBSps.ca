@@ -11,6 +11,19 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 846,513 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 600-02-012, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 11–336 mm across, 34–430 mm up
+- **Outlines:** line 133 rings, 2,775 straight (5,886 mm) / 398 curved (597 mm); text 147 rings, 1,011 straight (1,002 mm) / 323 curved (462 mm)
+- **Centre lines:** 1,871 paths (38 closed); straight 3,864 mm, curved 79.1 mm; horizontal 1,536 mm, vertical 1,485 mm, diagonal 843 mm
+- **Circles and arcs:** 1 circles, 19 arcs; largest r 1.0 @ (220.4, 314.1)
+- **Closed boxes:** 10; named: M468 PSI; INSULATED GROUND BAR
+- **Words (OCR):** 24 in 22 lines: output · inPuT · +48V · M468 · PSI · 50/60 · INpUT · INPUT · INPUT · INPUT · INPUT · INPUT
+- **Wiring (first pass):** 26 connected wire groups from 213 runs; labelled ends: 272 mm → output; 46 mm → Mounting FRAME
+
+Every curve, box, word and wire group: [1970 - M600 - 600-02-012 - INSULATED MOUNTING FRAME GROUND BAR AND CHASSIS (traced).json](1970%20-%20M600%20-%20600-02-012%20-%20INSULATED%20MOUNTING%20FRAME%20GROUND%20BAR%20AND%20CHASSIS%20%28traced%29.json) (the CAD file: `1970 - M600 - 600-02-012 - INSULATED MOUNTING FRAME GROUND BAR AND CHASSIS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

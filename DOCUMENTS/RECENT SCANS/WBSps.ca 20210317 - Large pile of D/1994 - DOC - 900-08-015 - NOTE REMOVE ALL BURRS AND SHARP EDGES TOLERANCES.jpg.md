@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,532,560 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** parts list 900-08-015, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 51–425 mm across, 6–186 mm up
+- **Outlines:** line 510 rings, 3,899 straight (7,930 mm) / 755 curved (903 mm); text 329 rings, 1,840 straight (1,727 mm) / 596 curved (739 mm); tb 22 rings, 166 straight (191 mm) / 42 curved (49.5 mm)
+- **Closed boxes:** 15 (2 in the title block); named: DETAILIB; DITAL; DETAIL; DETAIL; METER PANEL; 001 940446-03-; 1:2
+- **Words (OCR):** 41 in 38 lines: 83 · DITAL · DETAILIB · 1J45 · Funch · REC D · 4175 · 202 · J,750 · 1875 · DETAIL · DETAIL
+- **Title block:** (346, 21)–(430, 39) mm: WARD-BECK SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1994 - DOC - 900-08-015 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20DOC%20-%20900-08-015%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - DOC - 900-08-015 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

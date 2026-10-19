@@ -12,6 +12,18 @@ Wiki page: [M480C](../../../PAGES/M480C.md)
 - **Size:** 152,356 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 480-04-006, size B (assumed) 300 × 432 mm, 1365 × 1968 px traced (0.219 mm/px)
+- **Ink extent:** 37–300 mm across, 0–386 mm up
+- **Outlines:** line 43 rings, 1,189 straight (2,345 mm) / 176 curved (355 mm); text 208 rings, 1,558 straight (1,689 mm) / 525 curved (716 mm); tb 394 rings, 3,904 straight (8,523 mm) / 884 curved (1,482 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 5.4 @ (43.9, 96.2), r 5.4 @ (44.1, 136.8), r 5.3 @ (43.9, 291.1), r 5.3 @ (44.1, 160.2)
+- **Dots (junctions):** 1
+- **Words (OCR):** 47 in 41 lines: WBS · M4b0C · 13 · OFF 48v · OUT PAD · 14 · SENS · MIC · LINE · PEAK · IPGM · 15
+- **Title block:** (114, 0)–(300, 388) mm: WBS · M4b0C · 13 · OFF 48v · OUT PAD · 14 · SENS · MIC · LINE · PEAK · IPGM · 15 · PRE · PSI · AUX · 16 · 8 1.6 32 · 48 · 6.4 · MF · kHz · 18 · 19 · Q20 · PAN · M1 M2 · Issue DATE · Revision · WBS WAR
+
+Every curve, box, word and wire group: [1982 - M480C - 480-04-006 - MABOC INPUT MODULE FRONT PANEL ISSE (traced).json](1982%20-%20M480C%20-%20480-04-006%20-%20MABOC%20INPUT%20MODULE%20FRONT%20PANEL%20ISSE%20%28traced%29.json) (the CAD file: `1982 - M480C - 480-04-006 - MABOC INPUT MODULE FRONT PANEL ISSE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

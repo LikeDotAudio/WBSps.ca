@@ -20,6 +20,19 @@ Wiki page: [Job-940350](../../../PAGES/Job-940350.md)
 - **Size:** 333,217 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940350-03-002, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 146–845 mm across, 14–526 mm up
+- **Outlines:** line 139 rings, 1,081 straight (7,120 mm) / 208 curved (586 mm); text 415 rings, 2,461 straight (4,477 mm) / 768 curved (1,884 mm); tb 29 rings, 202 straight (2,440 mm) / 22 curved (53.3 mm)
+- **Centre lines:** 5,060 paths (116 closed); straight 9,068 mm, curved 52.3 mm; horizontal 2,356 mm, vertical 3,302 mm, diagonal 3,410 mm
+- **Circles and arcs:** 4 circles, 6 arcs; largest r 3.8 @ (238.8, 78.5), r 3.7 @ (414.5, 478.7), r 3.7 @ (412.5, 77.9), r 2.7 @ (239.2, 122.2)
+- **Closed boxes:** 9
+- **Words (OCR):** 62 in 51 lines: 0250 · REQ D · DATUM · 0.200 · WB8 · M907 · 0.100 DiA-c'Sk · 0.180.DIA · REQ"D · 1.925 · 05T · #2-56 UNC
+- **Title block:** (677, 10)–(862, 87) mm: SSUE] DATE · REVISION · APP; · WBS · WARD-BECK SYSTEMS · DRN · DRG · M9o7 · CKD; · CUSTOM MODULE · APP: · TOP PLATE · SCALE DISC NO: · CCDE: 9435quo) · 940350-03-002 · ISSUE
+
+Every curve, box, word and wire group: [1994 - 940350-03-002 - M907 CUSTOM MODULE TOP PLATE - DRN DRG - ISS 1 (traced).json](1994%20-%20940350-03-002%20-%20M907%20CUSTOM%20MODULE%20TOP%20PLATE%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940350-03-002 - M907 CUSTOM MODULE TOP PLATE - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

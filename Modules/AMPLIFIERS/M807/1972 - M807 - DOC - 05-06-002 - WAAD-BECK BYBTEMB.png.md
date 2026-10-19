@@ -18,6 +18,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1972** (labelled): `DATE DEC 72` — …eMB LtD: 3 Iioo5 GEB M8o7 1261 GEB 74057 DR GP M 807 FIMISH DATE DEC 72 FADE GENERATOR CKD. Tt SCHEMATIC [SCALE TOLS _ M 807 02-00|…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 05-06-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 12–298 mm up
+- **Outlines:** line 295 rings, 6,095 straight (12,579 mm) / 1,541 curved (1,575 mm); text 1,080 rings, 9,213 straight (9,322 mm) / 2,674 curved (3,192 mm); tb 36 rings, 293 straight (380 mm) / 67 curved (88.2 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.8 @ (85.9, 166.1), r 1.6 @ (225.0, 173.0), r 1.5 @ (94.3, 72.0), r 1.5 @ (98.4, 72.1)
+- **Closed boxes:** 32 (29 in the title block)
+- **Words (OCR):** 192 in 156 lines: +ISv · 2N3645 · +ISv · SR2z · S4k7 · CRS · RI6 · IN9I4 · 33k · FADE VOLTAGE SEt · +ISv · 3k3
+- **Title block:** (144, 17)–(381, 69) mm: 2N3645 · ~ISV IN749A ISSMODIICKD @SEDAON MAtL . · WBS WARD-Beck · 83O1GEB B72025-06- 992 · M8o7 · RGIGEB 74057 · DRN: GP · M 807 · FINISH · DATE DEC 72 · FADE GENERATOR · CKD · SCALE · SCHEMATIC · TOL
+
+Every curve, box, word and wire group: [1972 - M807 - DOC - 05-06-002 - WAAD-BECK BYBTEMB (traced).json](1972%20-%20M807%20-%20DOC%20-%2005-06-002%20-%20WAAD-BECK%20BYBTEMB%20%28traced%29.json) (the CAD file: `1972 - M807 - DOC - 05-06-002 - WAAD-BECK BYBTEMB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

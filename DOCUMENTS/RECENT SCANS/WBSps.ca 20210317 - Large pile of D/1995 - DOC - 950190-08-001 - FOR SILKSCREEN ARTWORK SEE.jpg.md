@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,465,370 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** parts list 950190-08-001, size B (assumed) 432 × 278 mm, 2000 × 1288 px traced (0.216 mm/px)
+- **Ink extent:** 48–432 mm across, 4–204 mm up
+- **Outlines:** line 612 rings, 4,188 straight (8,798 mm) / 825 curved (977 mm); text 321 rings, 1,803 straight (1,693 mm) / 560 curved (704 mm); tb 21 rings, 158 straight (180 mm) / 42 curved (50.1 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 0.8 @ (93.1, 183.0)
+- **Closed boxes:** 23 (5 in the title block); named: DEREM; DEREM; DETAIL; DETAIL; METER PANEL; DISC NO; 950190-03-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 34 in 33 lines: Ract · 0,500 · DATUM · DAMUU · DEREM · 5.14z · Sieoj · PUNCE · PUNC · DETAIL · F40sz RAOS) · DETAIL
+- **Title block:** (339, 19)–(424, 36) mm: RCMSICH · WARD-BECK  SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1995 - DOC - 950190-08-001 - FOR SILKSCREEN ARTWORK SEE (traced).json](1995%20-%20DOC%20-%20950190-08-001%20-%20FOR%20SILKSCREEN%20ARTWORK%20SEE%20%28traced%29.json) (the CAD file: `1995 - DOC - 950190-08-001 - FOR SILKSCREEN ARTWORK SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

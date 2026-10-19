@@ -10,6 +10,20 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,742,593 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 2442-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 0–432 mm up
+- **Outlines:** line 534 rings, 8,756 straight (21,871 mm) / 933 curved (1,379 mm); text 461 rings, 3,006 straight (3,445 mm) / 853 curved (1,210 mm)
+- **Centre lines:** 7,916 paths (72 closed); straight 13,138 mm, curved 144 mm; horizontal 3,917 mm, vertical 6,195 mm, diagonal 3,025 mm
+- **Circles and arcs:** 0 circles, 25 arcs
+- **Closed boxes:** 141; named: (OdB); (~1OdB) dBm
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 42 lines: MASTER · MASIER CHANNEL1 · LEFT RIGHT MOE · INSERTS · OMONO · (OdB) · OLEFT · MASTER · dBm 600n · ORIGHT · MONITOR · MONITOR
+- **Wiring (first pass):** 123 connected wire groups from 712 runs, 1 dotted junctions; labelled ends: 126 mm → MODULE; 126 mm → MASTER_MODULE; 115 mm → M528_DUAL; 84 mm → MASTER_MODULE; 65 mm → MOE
+
+Every curve, box, word and wire group: [1988 - 880134 - 2442-01-001 - STEREQ MASTER MODULE MONITOR MONITOR AUXILIARY CHANNEL INSERTS (traced).json](1988%20-%20880134%20-%202442-01-001%20-%20STEREQ%20MASTER%20MODULE%20MONITOR%20MONITOR%20AUXILIARY%20CHANNEL%20INSERTS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 2442-01-001 - STEREQ MASTER MODULE MONITOR MONITOR AUXILIARY CHANNEL INSERTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

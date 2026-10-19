@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,302,566 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-013, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 285
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 166 rings, 2,269 straight (8,124 mm) / 217 curved (306 mm); text 557 rings, 3,774 straight (4,501 mm) / 1,194 curved (1,754 mm); tb 3 rings, 76 straight (200 mm) / 5 curved (8.7 mm)
+- **Centre lines:** 4,048 paths (95 closed); straight 7,414 mm, curved 48.9 mm; horizontal 3,401 mm, vertical 1,816 mm, diagonal 2,198 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 1.6 @ (133.7, 199.6), r 1.4 @ (140.6, 205.1)
+- **Closed boxes:** 13 (10 in the title block); named: 8224-03-013; CODE: 8224M13
+- **Words (OCR):** 65 in 50 lines: 0.50 · 5.48 NTS · 0.1660 +0.003 & INSERT FROM THIS SIDE · "PEM' · NUT S-256-2 · PLACES · 8224-03-013-1 BOTTOM COVER · 8224-03-013-2 TOP COVER · Omit FOUR · HOLES) · 0.500 · 2.000
+- **Title block:** (250, 22)–(420, 90) mm: ISSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: · D.SCOTT · ISP_6 · ENG- · CKD: · COVERS · APP. · SCALE DISC NO: 285 · ISSUE · 1:1 CODE: 8224M13 · 8224-03-013
+
+Every curve, box, word and wire group: [19xx - 8224-03-013 - ISP-6 COVERS - DRN D.SCOTT - ISS 1 (traced).json](19xx%20-%208224-03-013%20-%20ISP-6%20COVERS%20-%20DRN%20D.SCOTT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-013 - ISP-6 COVERS - DRN D.SCOTT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

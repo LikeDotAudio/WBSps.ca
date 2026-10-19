@@ -11,6 +11,18 @@ Wiki page: [M404](../../../PAGES/M404.md)
 - **Size:** 10,396,024 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring 404-09-002, size B (assumed) 432 × 264 mm, 2000 × 1222 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–425 mm across, 0–256 mm up
+- **Outlines:** line 392 rings, 6,427 straight (11,511 mm) / 973 curved (1,440 mm); text 206 rings, 1,491 straight (1,618 mm) / 439 curved (630 mm)
+- **Centre lines:** 4,430 paths (72 closed); straight 7,350 mm, curved 417 mm; horizontal 3,287 mm, vertical 2,248 mm, diagonal 1,814 mm
+- **Circles and arcs:** 30 circles, 49 arcs; largest r 1.7 @ (209.6, 201.1), r 1.6 @ (386.1, 19.2), r 1.5 @ (337.7, 206.5), r 1.4 @ (337.7, 197.8)
+- **Closed boxes:** 31
+- **Wiring (first pass):** 69 connected wire groups from 428 runs
+
+Every curve, box, word and wire group: [1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED (traced).json](1968%20-%20M404%20-%20404-09-002%20-%20IIPE%20MIM%20BEND%20RADUNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M404 - 404-09-002 - IIPE MIM BEND RADUNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

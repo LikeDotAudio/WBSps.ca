@@ -1,0 +1,323 @@
+{
+ "code": "M523",
+ "name": "Stereo Submaster Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 20,
+   "letters": false,
+   "size": {
+    "count": 20,
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 012.jpg",
+    "page": 1,
+    "quote": "Connector, 20 Pin"
+   }
+  },
+  {
+   "name": "P1",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "52f2857c2818c6b5f648604b3274272f11d494e597ad96c00721f842669dd69e",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+    "page": 1
+   },
+   "quote": "L1, R37 L2 and R4O form a low pass filter network which isolates the amplifier output from capacitive loads _ Right Output Amplifier This amplifier operates in a similar manner to that described for the left output amplifier_ ts input appears at P2 pins 9 and 10 of the assemb ly connector, while the",
+   "also": [
+    {
+     "signal": "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "52f2857c2818c6b5f648604b3274272f11d494e597ad96c00721f842669dd69e",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+    "page": 1
+   },
+   "quote": "L1, R37 L2 and R4O form a low pass filter network which isolates the amplifier output from capacitive loads _ Right Output Amplifier This amplifier operates in a similar manner to that described for the left output amplifier_ ts input appears at P2 pins 9 and 10 of the assemb ly connector, while the",
+   "also": [
+    {
+     "signal": "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "MONO CONNECTOR  OUTPUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "52f2857c2818c6b5f648604b3274272f11d494e597ad96c00721f842669dd69e",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+    "page": 1
+   },
+   "quote": "Mono Output Amplifier The mono ou tput amplifier is comprised cf U4A 034 _ U4B and 025 through ULB combines or mixes the outputs from the left and right channel amplifiers through C39, C40 R82 and R83 _ The mono connector _ output appears at P1 pins 7 and 8 of the assembly 1-1",
+   "also": [
+    {
+     "signal": "MONO CONNECTOR  OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "MONO CONNECTOR  OUTPUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "52f2857c2818c6b5f648604b3274272f11d494e597ad96c00721f842669dd69e",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+    "page": 1
+   },
+   "quote": "Mono Output Amplifier The mono ou tput amplifier is comprised cf U4A 034 _ U4B and 025 through ULB combines or mixes the outputs from the left and right channel amplifiers through C39, C40 R82 and R83 _ The mono connector _ output appears at P1 pins 7 and 8 of the assembly 1-1",
+   "also": [
+    {
+     "signal": "MONO CONNECTOR  OUTPUT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "52f2857c2818c6b5f648604b3274272f11d494e597ad96c00721f842669dd69e",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+    "page": 1
+   },
+   "quote": "L1, R37 L2 and R4O form a low pass filter network which isolates the amplifier output from capacitive loads _ Right Output Amplifier This amplifier operates in a similar manner to that described for the left output amplifier_ ts input appears at P2 pins 9 and 10 of the assemb ly connector, while the",
+   "also": [
+    {
+     "signal": "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "52f2857c2818c6b5f648604b3274272f11d494e597ad96c00721f842669dd69e",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+    "page": 1
+   },
+   "quote": "L1, R37 L2 and R4O form a low pass filter network which isolates the amplifier output from capacitive loads _ Right Output Amplifier This amplifier operates in a similar manner to that described for the left output amplifier_ ts input appears at P2 pins 9 and 10 of the assemb ly connector, while the",
+   "also": [
+    {
+     "signal": "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "INPUT TO THIS AMPLIFIER",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "52f2857c2818c6b5f648604b3274272f11d494e597ad96c00721f842669dd69e",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+    "page": 1
+   },
+   "quote": "CIRCUIT DESCR PTION SA14-087 OUTPUT AMPL IFIER ASSEMBLY Three one watt (+30 dBm) amplifiers are located on this assembly One each for the left and right channel outputs of the M523 and a mono output amplifier _ Left Output Amplifier The input to this amplifier appears at P2 pins 11 and 12 of the ass",
+   "also": [
+    {
+     "signal": "INPUT TO THIS AMPLIFIER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "INPUT TO THIS AMPLIFIER",
+   "kind": "in",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "52f2857c2818c6b5f648604b3274272f11d494e597ad96c00721f842669dd69e",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+    "page": 1
+   },
+   "quote": "CIRCUIT DESCR PTION SA14-087 OUTPUT AMPL IFIER ASSEMBLY Three one watt (+30 dBm) amplifiers are located on this assembly One each for the left and right channel outputs of the M523 and a mono output amplifier _ Left Output Amplifier The input to this amplifier appears at P2 pins 11 and 12 of the ass",
+   "also": [
+    {
+     "signal": "INPUT TO THIS AMPLIFIER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 035 - SA14-087 Output Amp.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "69326034047b6958b33c281427411be06e9050f830c7ed7d9745abd0f4550fbf",
+    "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 026 - SA14-077 Control Assembly - Component Layout.jpg",
+    "page": 1
+   },
+   "quote": "PN356 P2-1 @ooo000000000 0 P5383 PQL 424?_ 8 0008 1018 aal 8428 9 4 2222 2 9994944444 2282222222 TNzioz & 2 2288 IO: 4888 88 82822 8 6@ : 1 3 8 4 Q 2 33 1 1 9 5",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7508d7355b1b67b994b589990dad22e0cea2472115f0561a4452ac763c14ccad",
+    "file": "Modules/SUMMING/M523/1985 - M523 - B 523-06-001 - M523 STEREO SUBMASTER MODULE - COMPONENT LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "Pz-1",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M523/1985 - M523 - ST Series - Stereo Submaster Module - 026 - SA14-077 Control Assembly - Component Layout.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "3e2f965461c97f878853dcf701d55639fe8827acf40c3840e7390e24c65e5d96",
+    "file": "Modules/SUMMING/M523/1985 - M523 - 523-06-001 - STEREO SUBMASTER MODULE COMPONENT LAYOUT.jpg",
+    "page": 1
+   },
+   "quote": "c4 T340 22/25_ Iat#toas 3142550 DOCOooooooo0o0 } 45i90 3 Eiaizttois 9 0 4100 P2-22",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M523/1985 - M523 - B 523-06-001 - M523 STEREO SUBMASTER MODULE - COMPONENT LAYOUT.jpg",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

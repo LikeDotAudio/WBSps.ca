@@ -22,6 +22,18 @@ M521 stereo input module schematic, title block at bottom left reading sideways.
 - **Size:** 4,835,402 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 521-02-001/1, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–285 mm up
+- **Outlines:** line 1,404 rings, 12,321 straight (18,370 mm) / 2,115 curved (2,514 mm); text 49 rings, 381 straight (412 mm) / 87 curved (119 mm)
+- **Centre lines:** 8,149 paths (216 closed); straight 10,048 mm, curved 183 mm; horizontal 4,377 mm, vertical 3,072 mm, diagonal 2,599 mm
+- **Circles and arcs:** 5 circles, 25 arcs; largest r 2.4 @ (263.6, 144.8), r 2.2 @ (238.8, 146.1), r 1.5 @ (383.3, 3.0), r 1.1 @ (380.3, 3.2)
+- **Closed boxes:** 36
+- **Wiring (first pass):** 177 connected wire groups from 1,065 runs
+
+Every curve, box, word and wire group: [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).json](19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

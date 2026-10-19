@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,647,291 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 498-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–427 mm across, 11–297 mm up
+- **Outlines:** line 585 rings, 6,612 straight (15,937 mm) / 1,128 curved (1,528 mm); text 103 rings, 674 straight (658 mm) / 194 curved (251 mm); tb 5 rings, 59 straight (107 mm) / 7 curved (9.4 mm)
+- **Centre lines:** 6,151 paths (72 closed); straight 9,534 mm, curved 238 mm; horizontal 3,845 mm, vertical 3,217 mm, diagonal 2,472 mm
+- **Circles and arcs:** 17 circles, 59 arcs; largest r 1.3 @ (33.8, 198.7), r 1.2 @ (408.2, 172.0), r 1.1 @ (46.9, 95.4), r 1.1 @ (173.7, 99.7)
+- **Closed boxes:** 8 (1 in the title block)
+- **Dots (junctions):** 3
+- **Words (OCR):** 28 in 25 lines: 749 · 750 · 751 · OUTPUT · 21.23.2224 · 39 3132 · TOL IOR · 8R · BR · 6R · SR · 4L
+- **Title block:** (354, 27)–(432, 44) mm: DAIL · WBS WARD-BeCK Bybtems · M498A
+- **Wiring (first pass):** 156 connected wire groups from 667 runs, 3 dotted junctions; labelled ends: 172 mm → 6R, APUTS, TOL; 94 mm → 39 3132; 94 mm → 21.23.2224; 76 mm → 39 3132, GR; 63 mm → 21.23.2224
+
+Every curve, box, word and wire group: [19xx - DOC - 498-02-002 - STEREO SWITCHER MODULE SCHEMATIC (traced).json](19xx%20-%20DOC%20-%20498-02-002%20-%20STEREO%20SWITCHER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 498-02-002 - STEREO SWITCHER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

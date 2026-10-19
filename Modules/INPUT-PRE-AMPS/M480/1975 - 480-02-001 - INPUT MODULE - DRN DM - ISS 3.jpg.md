@@ -27,6 +27,20 @@ Wiki page: [M480](../../../PAGES/M480.md)
 
 - **1975** (month): `APR 75` — …D] 1932 2224 USED ON WBS WAAD-BECk BYBTEMB LtD_ DRA: D DAIL APR 75 CKD: SCALE TOLS _ i IniSF M480 INPUT MODULE 480-02-001 ISS_…
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 480-02-001, size D 864 × 561 mm, 2000 × 1300 px traced (0.432 mm/px)
+- **Ink extent:** 0–861 mm across, 1–561 mm up
+- **Outlines:** line 1,461 rings, 15,369 straight (48,341 mm) / 3,473 curved (8,066 mm); text 1,052 rings, 6,574 straight (12,014 mm) / 2,433 curved (5,901 mm); tb 15 rings, 112 straight (288 mm) / 28 curved (72.4 mm)
+- **Centre lines:** 23,526 paths (347 closed); straight 38,984 mm, curved 837 mm; horizontal 12,975 mm, vertical 9,313 mm, diagonal 16,696 mm
+- **Circles and arcs:** 11 circles, 107 arcs; largest r 6.2 @ (549.5, 410.1), r 6.0 @ (548.7, 463.9), r 4.6 @ (145.7, 252.8), r 3.2 @ (815.7, 15.7)
+- **Closed boxes:** 47 (2 in the title block); named: M430 INPUT MODULE
+- **Words (OCR):** 219 in 188 lines: R?0 · MIC B · R28 · R34 · -70 10 -40dBm · R3I · Ison NOMINAL · ISk · 620 · IOjBm MAX · Ci6 · Mic
+- **Title block:** (699, 36)–(852, 68) mm: WBS WARD BeCK BybtemB · M430
+- **Wiring (first pass):** 229 connected wire groups from 1,813 runs; labelled ends: 799 mm → WBS, INPUT MODULE; 710 mm → C26, 028; 309 mm → 22/25, C3, Rmt, Ri3; 305 mm → C2i, 33/1, PPESENCE; 272 mm → C37, 10120, CR5, R7o
+
+Every curve, box, word and wire group: [1975 - 480-02-001 - INPUT MODULE - DRN DM - ISS 3 (traced).json](1975%20-%20480-02-001%20-%20INPUT%20MODULE%20-%20DRN%20DM%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1975 - 480-02-001 - INPUT MODULE - DRN DM - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

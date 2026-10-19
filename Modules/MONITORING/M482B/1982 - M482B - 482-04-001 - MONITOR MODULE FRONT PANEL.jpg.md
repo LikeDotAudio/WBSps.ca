@@ -11,6 +11,17 @@ Wiki page: [M482B](../../../PAGES/M482B.md)
 - **Size:** 107,227 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 482-04-001, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 35–336 mm across, 0–360 mm up
+- **Outlines:** line 24 rings, 415 straight (1,233 mm) / 107 curved (230 mm); text 146 rings, 1,054 straight (1,106 mm) / 354 curved (470 mm); tb 199 rings, 2,069 straight (5,397 mm) / 410 curved (718 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.2 @ (84.0, 182.7), r 5.2 @ (84.3, 117.0), r 5.2 @ (83.9, 201.2), r 5.1 @ (84.1, 165.7)
+- **Words (OCR):** 26 in 22 lines: WBS · M4828 · CUE · SEL · AUX · M2 · OFF · SOLO · MONiTOR · LEVEL · ISSUE DATE · REvision
+- **Title block:** (152, 0)–(336, 365) mm: WBS · M4828 · CUE · SEL · AUX · M2 · OFF · SOLO · MONiTOR · LEVEL · ISSUE DATE · REvision · WBS WARD-BECK systems · DRN · M4828 · MONITOR MODULE · CKD · APP · FRONT PANEL · SCALE · ISSUE · 482-04-001
+
+Every curve, box, word and wire group: [1982 - M482B - 482-04-001 - MONITOR MODULE FRONT PANEL (traced).json](1982%20-%20M482B%20-%20482-04-001%20-%20MONITOR%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1982 - M482B - 482-04-001 - MONITOR MODULE FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

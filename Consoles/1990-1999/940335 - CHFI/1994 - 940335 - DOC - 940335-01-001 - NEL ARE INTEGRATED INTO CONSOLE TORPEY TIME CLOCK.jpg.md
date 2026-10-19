@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,790,845 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940335-01-001, size B (assumed) 432 × 287 mm, 2000 × 1328 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 19–423 mm across, 13–280 mm up
+- **Outlines:** line 773 rings, 7,471 straight (19,006 mm) / 896 curved (1,074 mm); text 1,229 rings, 7,511 straight (6,040 mm) / 2,175 curved (2,548 mm); tb 100 rings, 743 straight (2,075 mm) / 135 curved (162 mm)
+- **Centre lines:** 17,579 paths (315 closed); straight 16,126 mm, curved 45.5 mm; horizontal 6,524 mm, vertical 4,520 mm, diagonal 5,082 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 2.2 @ (35.0, 270.7), r 1.6 @ (35.0, 270.5), r 0.8 @ (49.9, 143.6)
+- **Closed boxes:** 67 (6 in the title block); named: PGMI RIGHT; VCA; VINUS; Aun; IOXI SEL; AUTO CUE; 2200; 2200
+- **Dots (junctions):** 2
+- **Words (OCR):** 189 in 165 lines: LEGEND · LEVEL · OPMCAL SHAFT ENCODER · CONSOLE SuMving BUSES · Sic WCICE · TMNS · MiX CUE AUX AUX · INSERTS · METER AND Mnitor CUTPUT · dbu · SOUD STATE SmTCH · PGMI Lae
+- **Title block:** (60, 11)–(430, 88) mm: MONO2 · MONOJ · MONOI · MONO? · WBS · MONO} · TELCO · SUPPLY · POWER · CONSOLE MODULES · METERING INPUTS · TELCO · 0924 · COMMON · PHONE SEND · OUTPUTS · STEREOT · @' STEREO2 · STEREOI · TELCO · 74 dB
+- **Wiring (first pass):** 221 connected wire groups from 1,180 runs; labelled ends: 226 mm → MiX, CUE, TMNS, MIX-MINUS; 206 mm → Sic, WCICE; 183 mm → MiX, CUE, TMNS, CR MONITOR; 179 mm → PCM2 RIGHT; 178 mm → WCICE, Laft
+
+Every curve, box, word and wire group: [1994 - 940335 - DOC - 940335-01-001 - NEL ARE INTEGRATED INTO CONSOLE TORPEY TIME CLOCK (traced).json](1994%20-%20940335%20-%20DOC%20-%20940335-01-001%20-%20NEL%20ARE%20INTEGRATED%20INTO%20CONSOLE%20TORPEY%20TIME%20CLOCK%20%28traced%29.json) (the CAD file: `1994 - 940335 - DOC - 940335-01-001 - NEL ARE INTEGRATED INTO CONSOLE TORPEY TIME CLOCK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 18 words corrected)

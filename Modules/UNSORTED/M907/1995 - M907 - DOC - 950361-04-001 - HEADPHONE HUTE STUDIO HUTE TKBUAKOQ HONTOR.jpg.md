@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,518,310 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950361-04-001, size B (assumed) 432 × 353 mm, 2000 × 1635 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 8–325 mm up
+- **Outlines:** line 1,102 rings, 10,792 straight (24,368 mm) / 1,165 curved (1,640 mm); text 382 rings, 2,611 straight (2,446 mm) / 876 curved (1,158 mm); tb 19 rings, 495 straight (1,288 mm) / 20 curved (34.7 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 6.8 @ (319.4, 124.4), r 6.7 @ (320.6, 97.8), r 1.9 @ (322.7, 100.4), r 1.9 @ (321.5, 127.0)
+- **Closed boxes:** 110
+- **Dots (junctions):** 31
+- **Words (OCR):** 71 in 67 lines: CR MON · STD MON · CH 4 · CH 5 · CH · CH · CH · METER · CH 1 · CH 2 · CH 3 · MGO1D
+- **Title block:** (338, 5)–(432, 51) mm: REVSION · ISSUE · WARD-BECK  SYSTEMS · WBS · ROGERS BROADCASTING LTD_ · DRN: · WkW · RENAISSANCE · Mki · ENG: WkW · CONSOLE_LAYOUT ISSUE · CKD: · APP . · SCALE · DISC_NO: SYSO1 · 950361-04-001 · CODE:
+
+Every curve, box, word and wire group: [1995 - M907 - DOC - 950361-04-001 - HEADPHONE HUTE STUDIO HUTE TKBUAKOQ HONTOR (traced).json](1995%20-%20M907%20-%20DOC%20-%20950361-04-001%20-%20HEADPHONE%20HUTE%20STUDIO%20HUTE%20TKBUAKOQ%20HONTOR%20%28traced%29.json) (the CAD file: `1995 - M907 - DOC - 950361-04-001 - HEADPHONE HUTE STUDIO HUTE TKBUAKOQ HONTOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

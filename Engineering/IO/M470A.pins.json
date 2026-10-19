@@ -1,0 +1,877 @@
+{
+ "code": "M470A",
+ "name": "Input Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "M2 OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "M2 OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "W",
+   "row": 19,
+   "side": "letter",
+   "signal": "MIC IN 1",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "MIC IN 1",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+    "page": 19
+   },
+   "quote": "EQUALIZER INSERT P1-22",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "LINE IN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+    "page": 19
+   },
+   "quote": "8yon 124v P2.Y A 223 220 Yaw 1+022 ChoN AMP P2-2 CRi 144002 P2-X R5S Zzok P?_ 24V",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+     "page": 19
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "FADER RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+     "page": 19
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "FADER RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "CH ON SWITCH OUT",
+   "kind": "control",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "CH ON SWITCH OUT",
+   "kind": "control",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "INSERT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "INSERT OUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0c81ae696da10d55997c874f4c6f6625ac1798cf34acbfc556f9a87ff476d774",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+    "page": 19
+   },
+   "quote": "2 N 40 3 7                                                                                                                                                      ",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "df9db2c0e05387e003157fe1b45af78766638bc20140fbd5e76d65e3023b836e",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - P19 - Schematic.jpg",
+    "page": 1
+   },
+   "quote": "P2-11",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+    "page": 19
+   },
+   "quote": "CR9 P2-N N4oo?",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0c81ae696da10d55997c874f4c6f6625ac1798cf34acbfc556f9a87ff476d774",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+    "page": 19
+   },
+   "quote": "P2 - 12       }        CONTROL",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+    "page": 19
+   },
+   "quote": "ACRBX Pz-P ivis RiC?,SK_IN4Qo3",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0c81ae696da10d55997c874f4c6f6625ac1798cf34acbfc556f9a87ff476d774",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+    "page": 19
+   },
+   "quote": "P2- 13                 CONTROL",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "R",
+   "row": 14,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+    "page": 19
+   },
+   "quote": "Ry CrI3 P2.i0 N4no3 P2-R",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+    "page": 19
+   },
+   "quote": "P2-14+",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0c81ae696da10d55997c874f4c6f6625ac1798cf34acbfc556f9a87ff476d774",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+    "page": 19
+   },
+   "quote": "e<c                                                                                                                                                             ",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0c81ae696da10d55997c874f4c6f6625ac1798cf34acbfc556f9a87ff476d774",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1979 - M470A - Input Module.pdf",
+    "page": 19
+   },
+   "quote": "MU T E CON TRo L             [ P2 - T             (   o",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+    "page": 19
+   },
+   "quote": "P2-17",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "de789b0c76b01252c60c952d3881a4f52b0cb969c522552a75d5b57ec345ddf2",
+    "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+    "page": 19
+   },
+   "quote": "8yon 124v P2.Y A 223 220 Yaw 1+022 ChoN AMP P2-2 CRi 144002 P2-X R5S Zzok P?_ 24V",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "+24 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M470A/M470A.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module (2).pdf",
+     "page": 19
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M470A/1977 - M470A - Input Module.pdf",
+     "page": 19
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

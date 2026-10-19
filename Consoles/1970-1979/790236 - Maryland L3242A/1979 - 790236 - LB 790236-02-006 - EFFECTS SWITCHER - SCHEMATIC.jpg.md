@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 18,832,901 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-006, size B (assumed) 140 × 432 mm, 647 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–137 mm across, 2–432 mm up
+- **Outlines:** line 701 rings, 5,526 straight (7,988 mm) / 947 curved (1,126 mm); text 45 rings, 221 straight (206 mm) / 71 curved (92.7 mm)
+- **Centre lines:** 5,711 paths (76 closed); straight 4,909 mm, curved 22.8 mm; horizontal 1,252 mm, vertical 2,268 mm, diagonal 1,389 mm
+- **Circles and arcs:** 2 circles, 8 arcs; largest r 1.8 @ (14.1, 428.6), r 0.8 @ (51.8, 24.5)
+- **Closed boxes:** 15
+- **Dots (junctions):** 3
+- **Wiring (first pass):** 56 connected wire groups from 410 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1979 - 790236 - LB 790236-02-006 - EFFECTS SWITCHER - SCHEMATIC (traced).json](1979%20-%20790236%20-%20LB%20790236-02-006%20-%20EFFECTS%20SWITCHER%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1979 - 790236 - LB 790236-02-006 - EFFECTS SWITCHER - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

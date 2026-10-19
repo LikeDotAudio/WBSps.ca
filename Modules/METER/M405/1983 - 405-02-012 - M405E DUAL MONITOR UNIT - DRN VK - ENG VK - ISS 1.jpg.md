@@ -24,6 +24,21 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 451,487 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 405-02-012, size B 432 × 140 mm, 2000 × 648 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 1–140 mm up
+- **Outlines:** line 859 rings, 5,707 straight (8,517 mm) / 1,103 curved (1,335 mm); text 201 rings, 1,028 straight (872 mm) / 299 curved (362 mm); tb 2 rings, 37 straight (91.0 mm) / 1 curved (1.6 mm)
+- **Centre lines:** 5,064 paths (117 closed); straight 5,143 mm, curved 54.5 mm; horizontal 2,245 mm, vertical 1,225 mm, diagonal 1,673 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 9 (1 in the title block)
+- **Dots (junctions):** 2
+- **Words (OCR):** 35 in 34 lines: 012 · 03+ · 012,43 · 81415 · Psws · cswe · Rswe · PART HUtE · HUTE · 128" · 14848 · PINS 14p424,2
+- **Title block:** (358, 22)–(432, 32) mm: WBS · WAAD-BECK BYBTEMS
+- **Wiring (first pass):** 59 connected wire groups from 449 runs; labelled ends: 78 mm → WBS, LB/405-02-012; 77 mm → WAAD-BECK BYBTEMS; 71 mm → WBS, WAAD-BECK BYBTEMS; 68 mm → 14848; 22 mm → 012
+
+Every curve, box, word and wire group: [1983 - 405-02-012 - M405E DUAL MONITOR UNIT - DRN VK - ENG VK - ISS 1 (traced).json](1983%20-%20405-02-012%20-%20M405E%20DUAL%20MONITOR%20UNIT%20-%20DRN%20VK%20-%20ENG%20VK%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1983 - 405-02-012 - M405E DUAL MONITOR UNIT - DRN VK - ENG VK - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

@@ -23,6 +23,19 @@ Wiki page: [M805](../../../PAGES/M805.md)
 - **Size:** 1,339,761 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 805-03-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale I:
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 223 rings, 3,384 straight (8,572 mm) / 446 curved (651 mm); text 353 rings, 2,669 straight (3,285 mm) / 780 curved (1,245 mm); tb 19 rings, 143 straight (250 mm) / 31 curved (41.2 mm)
+- **Centre lines:** 4,646 paths (83 closed); straight 7,290 mm, curved 47.9 mm; horizontal 3,465 mm, vertical 1,593 mm, diagonal 2,231 mm
+- **Circles and arcs:** 0 circles, 12 arcs
+- **Closed boxes:** 16 (10 in the title block); named: ISSUE; SCALE I: Xy 015 005; 805-02-003
+- **Words (OCR):** 49 in 42 lines: I.910 · 2 HOlEs '31DIA · 1.608 · 908 + · HOLES 413 · DIA · 2.20 · 2.500 · 2-0o0 · 1.500 · I-ooo · 500
+- **Title block:** (278, 14)–(431, 83) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN: GEB · ENG.GER%/z · M8osplE · CKD: · AEATSiNK · APP · SCALE I: · 805-02-003 · ISSUE · Xy · 015 · 005
+
+Every curve, box, word and wire group: [1983 - 805-03-003 - M805D E HEATSINK - DRN GEB - ENG GEB - ISS 1 (traced).json](1983%20-%20805-03-003%20-%20M805D%20E%20HEATSINK%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1983 - 805-03-003 - M805D E HEATSINK - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

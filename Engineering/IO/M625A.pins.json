@@ -1,0 +1,180 @@
+{
+ "code": "M625A",
+ "name": "Power Supply",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 21,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "J2",
+   "rows": 9,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "WITH THE SUPPLY OUTPUT SHORTED THE CURRENT",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "940d90b0b21aa761335771b68267644e8043efd7541514fa53686543b2ae4d94",
+    "file": "Modules/POWER/M625A/1978 - M625A - P010 - 1-117-1-1.jpg",
+    "page": 1
+   },
+   "quote": "With the supply output shorted the current imited approximately 75 amperes Feedback sensing the +25 V is brought back from the main frame via PCB connector pin and coupled pin 21 via the voltage divider consisting R17 , R18 and R1S.",
+   "also": [
+    {
+     "signal": "WITH THE SUPPLY OUTPUT SHORTED THE CURRENT",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/POWER/M625A/1978 - M625A - P010 - 1-117-1-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "IN T URN 0 1 DRI",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/POWER/M625A/1978 - M625A - Power Supply (2).pdf",
+     "page": 10
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "+25 OUTPUT",
+   "kind": "out",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b35898b3216a17934d9a01d833d2fdac583a35ddcc57d258ac2f92a6fbb10032",
+    "file": "Modules/POWER/M625A/1978 - M625A - P004 - 3-1.jpg",
+    "page": 1
+   },
+   "quote": "~Monitor the +25 output J2-1 and J2-5 Apply primary ac power slowly using variac. the output should not go into regulation by the time reaches +27 adjust R1a (o",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - P005 - 3-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - P005 - 3-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - Power Supply (2).pdf",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b35898b3216a17934d9a01d833d2fdac583a35ddcc57d258ac2f92a6fbb10032",
+    "file": "Modules/POWER/M625A/1978 - M625A - P004 - 3-1.jpg",
+    "page": 1
+   },
+   "quote": "~Monitor the +25 output J2-1 and J2-5 Apply primary ac power slowly using variac. the output should not go into regulation by the time reaches +27 adjust R1a (o",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - P004 - 3-1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - P005 - 3-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - Power Supply (2).pdf",
+     "page": 4
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - Power Supply (2).pdf",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b35898b3216a17934d9a01d833d2fdac583a35ddcc57d258ac2f92a6fbb10032",
+    "file": "Modules/POWER/M625A/1978 - M625A - P004 - 3-1.jpg",
+    "page": 1
+   },
+   "quote": "~Mon tor the output J2-9 and J2-5 _ The -25 output should g0 into regulation before the voltage reaches -27",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - P005 - 3-2.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/POWER/M625A/1978 - M625A - Power Supply (2).pdf",
+     "page": 5
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

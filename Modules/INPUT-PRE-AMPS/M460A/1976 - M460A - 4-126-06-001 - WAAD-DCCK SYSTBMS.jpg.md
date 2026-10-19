@@ -11,6 +11,18 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 346,880 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-126-06-001, size B (assumed) 432 × 359 mm, 2000 × 1664 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–341 mm up
+- **Outlines:** line 350 rings, 5,321 straight (12,573 mm) / 1,344 curved (1,412 mm); text 679 rings, 6,782 straight (7,168 mm) / 1,894 curved (2,294 mm); tb 28 rings, 292 straight (407 mm) / 57 curved (59.3 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 4.7 @ (305.0, 221.2), r 4.7 @ (50.6, 114.8), r 4.6 @ (197.0, 206.0), r 4.6 @ (196.6, 284.1)
+- **Closed boxes:** 31 (19 in the title block)
+- **Words (OCR):** 90 in 80 lines: E3 68l6 · E2 · C6 · 25 · R2o · R1?_ C1g C18 · 46 · C21 R2i R14 Lmi453 · R24 · R18 · E4 · R3
+- **Title block:** (171, 7)–(343, 53) mm: [SNOCKD · USED ON · B563PM · WBS · BD · SOCKETS ACCEI · DRM · Dm · 4288 · DA JULY 74 · CKD · ECALE
+
+Every curve, box, word and wire group: [1976 - M460A - 4-126-06-001 - WAAD-DCCK SYSTBMS (traced).json](1976%20-%20M460A%20-%204-126-06-001%20-%20WAAD-DCCK%20SYSTBMS%20%28traced%29.json) (the CAD file: `1976 - M460A - 4-126-06-001 - WAAD-DCCK SYSTBMS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

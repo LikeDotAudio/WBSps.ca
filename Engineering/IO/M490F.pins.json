@@ -1,0 +1,1553 @@
+{
+ "code": "M490F",
+ "name": "Stereo Input Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "J2",
+   "rows": 4,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 4,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  },
+  {
+   "name": "P7",
+   "rows": 13,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "PGM",
+   "kind": "audio",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "PGM",
+   "kind": "audio",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "INPUT",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "PGM",
+   "kind": "audio",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "OUT , INPUT RIGHT INPUT RIGHT",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "PGM 2 OUT , LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "PGM 2OUT, LEFT INSERT, LEFT INSERT, LEFT",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "PGM 2 OUT, LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "PGM 2 OU T, RIGHT",
+   "kind": "audio",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "PGM OUT, RIGHT INSERT, LEFT INSERT, LEFT",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "PGM 2 OUT, RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "SHIELD SHIELD KL 9 SHIELD",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "NC INPUT B CTL L/1O INPUT A CTL",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "AUX OU T, LEFT",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "AUX OUT, LEFT INPUT CTL COM MMTT EXT CUE",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "AUX OUT, LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "AUX OUT, LEFT EXT CH ON N/12 EXT CH OFF",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "AUX OUT, RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "AUX OUT, RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "AUX OUT, RIGHT TIMER RESET R/14 NC",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "CUE OUT, LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "CUE OUT, LEFT ON CTL SH15 ON CTL",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "CUE OUT, LEFT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "CUE OU, LEFT IC T/16 IC",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "CUE OUT, RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "RIGHT OFF CTL UL17 OFF CTL",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "CUE OUT, RIGHT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "CUE OUT , RIGHT OFF TALLY VL18 OFF TALLY",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "NC 25V WLIG 25V",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "NC 25V COM XI2O 25V COM",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "NC +25V YL21 +25V",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0f6a896200e6d01db68813660b1beec3793c566bf1d01f13bb79d7c3bf131d07",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1983 - M490F - Stereo Input Module.pdf",
+    "page": 32
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "CHASSIS CTL COM CTL COM",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "J2",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d14c6ee45a2cdb77fa656ce7c6a7d1ebe6143db00413807b69e3d2e7a63269ea",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - Stereo Input Module.pdf",
+    "page": 30
+   },
+   "quote": "J2 -D",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "LEFT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "LEFT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "RIGHT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "RIGHT PGRM 1",
+   "kind": "audio",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A4",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "MIC IN A",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "MIC IN A",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "8ec1ed04f39a0a797cf02e4b0be5db2a5293522668fcec668fcc2bf8bcb4705a",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 023.jpg",
+    "page": 1
+   },
+   "quote": "2n3569 Rii7 22k 880 Rue 22k WX 2ii 2i2 740221 C44 74c00 {2 F; pn3L+5 B0of Ltite ~cri} Rioo!} H ~Riic Jeok auhs\"-c42\"92+348/25 O\"/\"sRg 7C]7- K12 Rig 1K (26 c33\" ",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "MIC IN B",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "MIC IN B",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "A2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "7453c84de06e46cbc43228cb534148f8b75e756cd5e4e5f6cf7c75f972b7de30",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+    "page": 1
+   },
+   "quote": "P2 -D",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "8ec1ed04f39a0a797cf02e4b0be5db2a5293522668fcec668fcc2bf8bcb4705a",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 023.jpg",
+    "page": 1
+   },
+   "quote": "P2-4",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "P2- E",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "P2-5",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - Stereo Input Module.pdf",
+     "page": 30
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "INSERT SEND",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "INSERT SEND",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B1",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "INSERT RETURN",
+   "kind": "in",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "+",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "9E2 P2-J",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "Pz- 8",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "PuT Pz - 9,K \u20ac Shield",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "Pz- L",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "Pz-M",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "ExT P2-11 CLE +24",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "Rioo Ext CRC 2k2 Ro'_ P2-N \u20ac On C3s 41/35 3ok",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "R92 3k3 P2-12 \u20ac Ltaenn C33",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "Pz-13 Ch",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "R",
+   "row": 14,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "P2- R",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - Stereo Input Module.pdf",
+     "page": 30
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "P2-U",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "P2 - 17",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - Stereo Input Module.pdf",
+     "page": 30
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "P2-V",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "P2-18",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "cOM To Pz-X",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M490F/M490F.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - STEREO INPUT MODULE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "abf14de226831c5399248822f183b6f7cda3507e5a43990563864703fe5fb5f5",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - 490-02-007 - RIIE IOOK.jpg",
+    "page": 1
+   },
+   "quote": "P2-22, Z 1N4003",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - Stereo Input Module.pdf",
+     "page": 30
+    }
+   ]
+  },
+  {
+   "conn": "P7",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "d14c6ee45a2cdb77fa656ce7c6a7d1ebe6143db00413807b69e3d2e7a63269ea",
+    "file": "Modules/INPUT-PRE-AMPS/M490F/1978 - M490F - Stereo Input Module.pdf",
+    "page": 30
+   },
+   "quote": "P7-13",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

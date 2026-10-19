@@ -18,6 +18,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1971** (labelled): `DATE 7.APRIL 1971` — …EMIAL WNARD BECK SYSTERIS LTd M 415 MOUNTING BAR GRIT BLAck DATE 7.APRIL 1971 CrD 3 Thk AL: ALLoY SCMlE N-T.S TOLs FrstIe DEC T0 PLACES G…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 415-03-006, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 9–297 mm up
+- **Outlines:** line 231 rings, 5,225 straight (8,917 mm) / 748 curved (1,042 mm); text 232 rings, 1,763 straight (2,033 mm) / 542 curved (845 mm); tb 13 rings, 162 straight (170 mm) / 21 curved (30.0 mm)
+- **Centre lines:** 5,751 paths (47 closed); straight 6,917 mm, curved 133 mm; horizontal 3,230 mm, vertical 1,586 mm, diagonal 2,102 mm
+- **Circles and arcs:** 2 circles, 28 arcs; largest r 4.0 @ (108.9, 177.7), r 1.3 @ (244.1, 15.4)
+- **Closed boxes:** 1; named: DRN CrD
+- **Words (OCR):** 36 in 24 lines: 2 holes 3 2 DIA · 82 "To · 6 DiA . · 4.250 · 2 Holes 32 · DIA · ReMovE ALL Burrs · SHARP EDGES · DRN · D.P s_ · FIMISH · BECK SYSTEDIS Lid
+- **Title block:** (168, 32)–(362, 61) mm: DRN · D.P s_ · FIMISH · 120 · GriT · DATEI7 APRiL 1971 ANODIZE · BLAck · M 415 · MATERIAL · CrD
+
+Every curve, box, word and wire group: [1971 - M415 - DOC - 415-03-006 - REMOVE ALL BURRS SHARP EDGES (traced).json](1971%20-%20M415%20-%20DOC%20-%20415-03-006%20-%20REMOVE%20ALL%20BURRS%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `1971 - M415 - DOC - 415-03-006 - REMOVE ALL BURRS SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

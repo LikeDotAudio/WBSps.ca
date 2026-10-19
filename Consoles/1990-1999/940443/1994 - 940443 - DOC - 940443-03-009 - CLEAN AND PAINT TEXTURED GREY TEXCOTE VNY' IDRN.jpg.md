@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,680,290 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940443-03-009, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 28–424 mm across, 8–246 mm up
+- **Outlines:** line 760 rings, 4,291 straight (11,134 mm) / 668 curved (814 mm); text 282 rings, 1,558 straight (1,408 mm) / 522 curved (649 mm); tb 22 rings, 174 straight (195 mm) / 39 curved (42.6 mm)
+- **Centre lines:** 5,684 paths (130 closed); straight 7,259 mm, curved 50.7 mm; horizontal 3,640 mm, vertical 1,833 mm, diagonal 1,786 mm
+- **Circles and arcs:** 0 circles, 18 arcs
+- **Closed boxes:** 15 (3 in the title block); named: IKR-4A REAR HOUSING; 940443-03-009
+- **Dots (junctions):** 1
+- **Words (OCR):** 36 in 33 lines: 0.5 DiA · REC'D /SICE · 0.790 · 1,283 · 5.283 · GRINL · CORNERS TYP, · 0.330 · 166 +0.003 DiA UNSTALL · INSTOE · REQ D · FROU
+- **Title block:** (345, 24)–(429, 40) mm: WBS · WARD-BECK SYSTEMS · (3/95}
+
+Every curve, box, word and wire group: [1994 - 940443 - DOC - 940443-03-009 - CLEAN AND PAINT TEXTURED GREY TEXCOTE VNY' IDRN (traced).json](1994%20-%20940443%20-%20DOC%20-%20940443-03-009%20-%20CLEAN%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VNY%27%20IDRN%20%28traced%29.json) (the CAD file: `1994 - 940443 - DOC - 940443-03-009 - CLEAN AND PAINT TEXTURED GREY TEXCOTE VNY' IDRN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

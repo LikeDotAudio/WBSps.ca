@@ -23,6 +23,20 @@ Schematic of an assignment module with channel amplifier and switching matrix.
 - **Size:** 2,974,017 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 568-02-019, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–297 mm up
+- **Outlines:** line 517 rings, 6,126 straight (13,337 mm) / 1,234 curved (1,511 mm); text 292 rings, 2,263 straight (2,070 mm) / 769 curved (922 mm); tb 35 rings, 300 straight (296 mm) / 60 curved (75.6 mm)
+- **Centre lines:** 10,658 paths (124 closed); straight 9,887 mm, curved 155 mm; horizontal 4,545 mm, vertical 2,415 mm, diagonal 2,927 mm
+- **Circles and arcs:** 4 circles, 29 arcs; largest r 3.6 @ (144.8, 169.3), r 3.6 @ (124.0, 119.0), r 3.5 @ (128.8, 160.4), r 3.4 @ (139.8, 110.0)
+- **Closed boxes:** 39 (8 in the title block); named: SAIA-16J4 STEREO CHANNEL AUPUFIER
+- **Words (OCR):** 46 in 43 lines: LEFT · SAIA-16J4 · MONO · OdBm 600 OhMS RICHT · STEREO CHANNEL · AUPUFIER · RIGHI · 33.34 · MONO · OUIPUTS · TO MASTER · MIX BUSES
+- **Title block:** (347, 21)–(432, 56) mm: WES · WARD-BECK SYSTEMS · M568U · ASSIGNMENT MODULE · SCHEMATC · SCALE · 568- 02-019
+- **Wiring (first pass):** 69 connected wire groups from 659 runs; labelled ends: 845 mm → 33.34; 436 mm → SIBRO; 196 mm → 22/25, 4 71c, 2725, 22/28; 89 mm → 22/23, 01/10o; 81 mm → 22/25, 4 71c
+
+Every curve, box, word and wire group: [19xx - 568-02-019 - M568U ASSIGNMENT MODULE SCHEMATIC - DRN GEB - ISS 1 (traced).json](19xx%20-%20568-02-019%20-%20M568U%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 568-02-019 - M568U ASSIGNMENT MODULE SCHEMATIC - DRN GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

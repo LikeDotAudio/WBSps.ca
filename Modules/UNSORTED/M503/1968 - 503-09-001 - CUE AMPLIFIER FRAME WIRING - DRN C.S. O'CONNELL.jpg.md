@@ -22,6 +22,19 @@ Wiki page: [M503](../../../PAGES/M503.md)
 - **Size:** 3,983,212 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring B 503-09-001, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 24–303 mm up
+- **Outlines:** line 489 rings, 6,289 straight (9,885 mm) / 1,019 curved (1,425 mm); text 217 rings, 1,651 straight (1,861 mm) / 412 curved (615 mm)
+- **Centre lines:** 5,017 paths (43 closed); straight 6,830 mm, curved 270 mm; horizontal 2,583 mm, vertical 2,205 mm, diagonal 2,043 mm
+- **Circles and arcs:** 6 circles, 54 arcs; largest r 1.7 @ (167.8, 296.3), r 1.6 @ (73.8, 101.0), r 1.4 @ (92.1, 187.5), r 1.3 @ (172.0, 208.0)
+- **Closed boxes:** 14
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 82 connected wire groups from 558 runs, 4 dotted junctions
+
+Every curve, box, word and wire group: [1968 - 503-09-001 - CUE AMPLIFIER FRAME WIRING - DRN C.S. O'CONNELL (traced).json](1968%20-%20503-09-001%20-%20CUE%20AMPLIFIER%20FRAME%20WIRING%20-%20DRN%20C.S.%20O%27CONNELL%20%28traced%29.json) (the CAD file: `1968 - 503-09-001 - CUE AMPLIFIER FRAME WIRING - DRN C.S. O'CONNELL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

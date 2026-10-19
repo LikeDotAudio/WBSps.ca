@@ -11,6 +11,19 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 391,039 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-014, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 684 rings, 7,525 straight (11,440 mm) / 1,523 curved (1,966 mm); text 829 rings, 5,909 straight (5,062 mm) / 2,034 curved (2,536 mm); tb 39 rings, 701 straight (1,463 mm) / 104 curved (150 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 6.1 @ (16.9, 47.1), r 5.2 @ (16.4, 199.6), r 5.1 @ (17.0, 106.3), r 5.1 @ (16.8, 168.6)
+- **Closed boxes:** 12; named: High PASS filter switch Hnen inserts d8 ; filter swi tch SwS Hhen inserts High-PAS; PHASE switch Sw7 : When depressed_ this ; continuous SEnsiTivity control R26 Provi; AUX ILIARY LEVEL controls Rioz _ R10} Co; channe Pan control R84 RB7 : Positions i
+- **Dots (junctions):** 2
+- **Words (OCR):** 150 in 94 lines: 4atoe · Pigkt Outdut 5!gna · Is fed $ imu [taneous · S018 to 54zi: · resistors [0 · tereo SUBHASTER · nq buses 51.52.5} · Indror · 54 resdectively- · High PASS filter switch · d8 /octave High-Pass · Hnen
+- **Title block:** (229, 0)–(336, 57) mm: LISSUE DATE · REVISION · WBS · WARD-BECK SYSTEMS · INPUT MODule · ENG · CKD · FRONT PANEL · 4PP · SCALE · ISSUE · 470-04-014
+
+Every curve, box, word and wire group: [1984 - M470E - 470-04-014 - SWZI NHEN DEPRESSED NDPIGHT OUTPUT FED TANEOUS VID (traced).json](1984%20-%20M470E%20-%20470-04-014%20-%20SWZI%20NHEN%20DEPRESSED%20NDPIGHT%20OUTPUT%20FED%20TANEOUS%20VID%20%28traced%29.json) (the CAD file: `1984 - M470E - 470-04-014 - SWZI NHEN DEPRESSED NDPIGHT OUTPUT FED TANEOUS VID (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

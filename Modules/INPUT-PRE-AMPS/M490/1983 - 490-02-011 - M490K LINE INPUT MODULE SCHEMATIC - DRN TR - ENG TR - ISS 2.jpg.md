@@ -25,6 +25,20 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 500,680 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 490-02-011, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 3–432 mm up
+- **Outlines:** line 1,108 rings, 15,261 straight (24,249 mm) / 3,489 curved (5,022 mm); text 486 rings, 3,187 straight (3,192 mm) / 1,116 curved (1,559 mm)
+- **Centre lines:** 11,757 paths (143 closed); straight 15,777 mm, curved 614 mm; horizontal 5,803 mm, vertical 4,707 mm, diagonal 5,268 mm
+- **Circles and arcs:** 11 circles, 141 arcs; largest r 5.8 @ (176.0, 103.7), r 5.8 @ (259.4, 135.4), r 5.5 @ (222.2, 122.5), r 5.4 @ (258.7, 107.0)
+- **Closed boxes:** 48; named: 12 cotoic; z0 74ct; WBS; Maqok LInE INpUT Module schematiC; TR; 490-02-011
+- **Dots (junctions):** 10
+- **Words (OCR):** 126 in 120 lines: c2 · OUTPUtS To · 10 · Assich · Mixing · R52 · LITT · 040 · ci7 · 610 · 0p · 771-
+- **Wiring (first pass):** 193 connected wire groups from 1,259 runs, 4 dotted junctions; labelled ends: 502 mm → WBS, TR; 318 mm → Rc4, Cio, 049; 308 mm → Cr4, Ri5?, Riso, 2k5; 172 mm → Iox, cR; 172 mm → ci7, 10/25, R46, R47
+
+Every curve, box, word and wire group: [1983 - 490-02-011 - M490K LINE INPUT MODULE SCHEMATIC - DRN TR - ENG TR - ISS 2 (traced).json](1983%20-%20490-02-011%20-%20M490K%20LINE%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1983 - 490-02-011 - M490K LINE INPUT MODULE SCHEMATIC - DRN TR - ENG TR - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

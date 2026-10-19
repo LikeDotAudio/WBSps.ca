@@ -11,6 +11,20 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 224,282 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-012, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 8–429 mm up
+- **Outlines:** line 176 rings, 3,898 straight (8,962 mm) / 505 curved (743 mm); text 272 rings, 2,677 straight (3,471 mm) / 752 curved (1,288 mm); tb 24 rings, 335 straight (556 mm) / 64 curved (110 mm)
+- **Centre lines:** 3,382 paths (43 closed); straight 7,391 mm, curved 34.4 mm; horizontal 3,308 mm, vertical 1,682 mm, diagonal 2,401 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 1.0 @ (192.0, 116.9)
+- **Closed boxes:** 14 (6 in the title block); named: 490-01-012; ISSUE
+- **Words (OCR):** 44 in 35 lines: JAL · BAL · SERT · P1 Left · P2 LEfT · Post DIRECT · (MONO) · FB 1 · FB 1 (MONO) · CUE LEFT · P1 Right · P2 Right
+- **Title block:** (114, 14)–(333, 116) mm: REVISED Fb DIRECT OltpLTS · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN · BD 83 · M49OL · ENG · STEREO INPUT MODULE · CKD · FUNCTIONAL DIAGRAM · APp · "SCALE · ISSUE · 490-01-012
+- **Wiring (first pass):** 78 connected wire groups from 173 runs; labelled ends: 176 mm → REVISED; 124 mm → BAL; 103 mm → REVISED, DIRECT OltpLTS, APP; 103 mm → FB 1, Post DIRECT; 101 mm → AsiGN
+
+Every curve, box, word and wire group: [1983 - M490L - 490-01-012 - ENG SCRTLBERT STEREO INPUT MODULE (traced).json](1983%20-%20M490L%20-%20490-01-012%20-%20ENG%20SCRTLBERT%20STEREO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1983 - M490L - 490-01-012 - ENG SCRTLBERT STEREO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

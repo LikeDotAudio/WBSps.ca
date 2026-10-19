@@ -15,6 +15,20 @@ Wiki page: [M402](../../../PAGES/M402.md)
 
 - **1968** (labelled): `DATE AUg 68` — …FACILITY NTERNAL Switch SW 6 MUST BE TURNED TO 'iN POSITION DATE AUg 68 MATERIAL CHKD SCALE TOLS FRACT = 1/64_ DEC TO PLACES GIVEM…
 
+## Vectors (traced)
+
+- **Sheet:** wiring 402-09-001, size B (assumed) 432 × 307 mm, 2000 × 1423 px traced (0.216 mm/px)
+- **Ink extent:** 7–431 mm across, 26–307 mm up
+- **Outlines:** line 359 rings, 4,819 straight (9,700 mm) / 709 curved (1,379 mm); text 476 rings, 2,902 straight (3,136 mm) / 712 curved (1,014 mm); tb 33 rings, 203 straight (264 mm) / 65 curved (95.1 mm)
+- **Centre lines:** 3,407 paths (35 closed); straight 6,719 mm, curved 650 mm; horizontal 2,714 mm, vertical 2,223 mm, diagonal 1,782 mm
+- **Circles and arcs:** 27 circles, 29 arcs; largest r 9.1 @ (105.2, 249.1), r 9.0 @ (106.4, 145.8), r 8.9 @ (265.7, 249.7), r 3.9 @ (105.3, 249.2)
+- **Closed boxes:** 21 (9 in the title block); named: SYSHEIS @id FINISH BECK WARD DRN C.$ OCO; SYSHEIS @id BECK WARD; EQUALIZER M402 & 404 CONNECTIONS PLUG; FRZI ANGLES; TOLS; 402 -09 0oi; ISS_
+- **Words (OCR):** 62 in 44 lines: Is0n · S00a · IVPUT · INPUT · OPTIONAL EXTERNAL · com · +48V · COM · 48V · INSERT · SWITCH · CHASSIS
+- **Title block:** (180, 36)–(375, 85) mm: DRN C.$ OCONNELL · FINISH · WARD · BECK · DATE AUG 68 · M402 & 404 · MATERIAL · CHKD · PLUG · SCALE · FRZI · TOLS · ANGLES · 402 -09 0oi
+- **Wiring (first pass):** 83 connected wire groups from 373 runs; labelled ends: 315 mm → CONNECTIONS, 402 -09, 0oi, PLUG; 82 mm → 60on, OUTPUT; 57 mm → FRZI; 40 mm → +48V; 39 mm → COM
+
+Every curve, box, word and wire group: [1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED (traced).json](1968%20-%20M402%20-%20402-09-001%20-%20BEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1968 - M402 - 402-09-001 - BEND RAD UNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

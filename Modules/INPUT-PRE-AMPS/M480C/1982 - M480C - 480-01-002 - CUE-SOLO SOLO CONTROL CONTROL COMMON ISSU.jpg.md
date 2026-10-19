@@ -12,6 +12,20 @@ Wiki page: [M480C](../../../PAGES/M480C.md)
 - **Size:** 276,411 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 480-01-002, size B (assumed) 432 × 274 mm, 2000 × 1269 px traced (0.216 mm/px)
+- **Ink extent:** 11–432 mm across, 0–274 mm up
+- **Outlines:** line 153 rings, 3,172 straight (8,344 mm) / 381 curved (564 mm); text 485 rings, 3,325 straight (3,660 mm) / 1,011 curved (1,458 mm); tb 25 rings, 214 straight (363 mm) / 52 curved (73.7 mm)
+- **Centre lines:** 4,590 paths (83 closed); straight 6,807 mm, curved 133 mm; horizontal 2,443 mm, vertical 1,757 mm, diagonal 2,608 mm
+- **Circles and arcs:** 1 circles, 25 arcs; largest r 4.8 @ (159.2, 120.7)
+- **Closed boxes:** 9 (6 in the title block); named: EQUAL IZER
+- **Words (OCR):** 79 in 71 lines: A/8 · SELECT · PAD · Mic INPUT · IN/OUT Mic/LINE · SENSiTiViTY · EQ · 70/-40 dBm · SELECT · 30d8 · INSERT · PAD 50/-2OdBm]
+- **Title block:** (286, 1)–(432, 69) mm: IssU DATE · App · WBS WARO-BECK bybteMB · DRn: · ENG · Mew · INPUT MODULE · CKD. · APP · FUNCTIONAL DIAGRAM · SCALE · ISSUE · 480-01-002
+- **Wiring (first pass):** 101 connected wire groups from 265 runs; labelled ends: 301 mm → -ISdB), BST, CUE /, SOLO; 72 mm → PEAK, PGM; 64 mm → BST, PRE/, POST; 58 mm → PRE; 52 mm → Mic/LINE, SELECT
+
+Every curve, box, word and wire group: [1982 - M480C - 480-01-002 - CUE-SOLO SOLO CONTROL CONTROL COMMON ISSU (traced).json](1982%20-%20M480C%20-%20480-01-002%20-%20CUE-SOLO%20SOLO%20CONTROL%20CONTROL%20COMMON%20ISSU%20%28traced%29.json) (the CAD file: `1982 - M480C - 480-01-002 - CUE-SOLO SOLO CONTROL CONTROL COMMON ISSU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

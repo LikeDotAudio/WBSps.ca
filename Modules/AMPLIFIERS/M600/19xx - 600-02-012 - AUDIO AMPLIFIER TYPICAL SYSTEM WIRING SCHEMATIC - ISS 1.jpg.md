@@ -22,6 +22,20 @@ M600 audio amplifier typical system wiring schematic, cropped.
 - **Size:** 276,702 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-012, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–428 mm up
+- **Outlines:** line 295 rings, 4,136 straight (3,712 mm) / 738 curved (744 mm); text 127 rings, 1,101 straight (1,331 mm) / 293 curved (446 mm); tb 3 rings, 80 straight (154 mm) / 5 curved (9.6 mm)
+- **Centre lines:** 11,096 paths (58 closed); straight 5,029 mm, curved 16.3 mm; horizontal 1,265 mm, vertical 1,336 mm, diagonal 2,428 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 3; named: M46b PST
+- **Words (OCR):** 15 in 11 lines: M46b · PST · 50/60 · ITED · BAR · WBS WARD-BECK SYSTEMS · M600 · AUDiO AMPLIFIER · TYPICAL SYSTEM WIRING SCHEMATIC · 600-02-012 · ISS.1
+- **Title block:** (205, 48)–(332, 73) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 3 connected wire groups from 115 runs; labelled ends: 534 mm → ITED, BAR
+
+Every curve, box, word and wire group: [19xx - 600-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC - ISS 1 (traced).json](19xx%20-%20600-02-012%20-%20AUDIO%20AMPLIFIER%20TYPICAL%20SYSTEM%20WIRING%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 600-02-012 - AUDIO AMPLIFIER TYPICAL SYSTEM WIRING SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

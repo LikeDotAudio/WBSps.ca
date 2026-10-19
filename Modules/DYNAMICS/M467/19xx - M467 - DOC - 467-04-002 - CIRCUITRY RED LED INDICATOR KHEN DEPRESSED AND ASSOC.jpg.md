@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 224,836 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 467-04-002, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 14–306 mm across, 18–431 mm up
+- **Outlines:** line 174 rings, 2,443 straight (7,574 mm) / 376 curved (578 mm); text 803 rings, 3,977 straight (3,593 mm) / 1,373 curved (1,904 mm); tb 366 rings, 2,603 straight (4,558 mm) / 632 curved (998 mm)
+- **Closed boxes:** 8 (3 in the title block); named: RELEASE contro] R3Z: Determines Ceca y F; 467-04-002
+- **Words (OCR):** 110 in 72 lines: WbS · M467 · YBS · COMP · TIE switch Sw2: For · Rorsose · connection · mone · 4L65 · odere · compressors · VU Keter; Designed_ [0 be operated
+- **Title block:** (94, 47)–(291, 316) mm: WbS · M467 · YBS · COMP · TIE switch Sw2: For · Rorsose · connection · mone · 4L65 · odere · compressors · WBS · Gaim Reouction · H466 · Lwo contro · buses · The 4166 · overrice · highes compressor co
+
+Every curve, box, word and wire group: [19xx - M467 - DOC - 467-04-002 - CIRCUITRY RED LED INDICATOR KHEN DEPRESSED AND ASSOC (traced).json](19xx%20-%20M467%20-%20DOC%20-%20467-04-002%20-%20CIRCUITRY%20RED%20LED%20INDICATOR%20KHEN%20DEPRESSED%20AND%20ASSOC%20%28traced%29.json) (the CAD file: `19xx - M467 - DOC - 467-04-002 - CIRCUITRY RED LED INDICATOR KHEN DEPRESSED AND ASSOC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 19 words corrected)

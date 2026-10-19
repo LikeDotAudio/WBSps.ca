@@ -10,6 +10,17 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,051,609 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 76045-04-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 608 rings, 5,904 straight (10,178 mm) / 969 curved (1,347 mm); text 203 rings, 1,239 straight (1,369 mm) / 426 curved (587 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (29.3, 406.7), r 1.7 @ (19.4, 406.6), r 1.7 @ (24.4, 396.9)
+- **Closed boxes:** 42
+- **Dots (junctions):** 6
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-04-001 - MDEN SRIE JAMGDW REHONED MOTION (traced).json](1976%20-%2076045%20-%2076045-04-001%20-%20MDEN%20SRIE%20JAMGDW%20REHONED%20MOTION%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-04-001 - MDEN SRIE JAMGDW REHONED MOTION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -27,6 +27,18 @@ Wiki page: [M152](../../../PAGES/M152.md)
 
 - **1987** (labelled): `REVISION 87` — …5} !50 C24 C25 R 24 Cis IB RSI R76 1/78 ISSUE |DATE REDRAWN REVISION 87 APP WBS WARD-BECK SYSTEMS DRN PMatoxey ENG. CKD: @ll APP SC…
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 152-06-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 797 rings, 9,456 straight (14,612 mm) / 2,389 curved (2,319 mm); text 279 rings, 2,393 straight (2,713 mm) / 607 curved (694 mm); tb 27 rings, 275 straight (358 mm) / 67 curved (77.3 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 11.7 @ (72.2, 216.0), r 9.4 @ (17.4, 280.3), r 9.1 @ (17.8, 226.2), r 7.1 @ (193.9, 281.7)
+- **Closed boxes:** 28 (15 in the title block); named: 18 LR48 31 49; C24; R43; R44; RSI; R7s; SCALE
+- **Words (OCR):** 34 in 30 lines: 23 · Q2 · 18 Ci8 · R43 · LR48 · C24 · C25 · R44 · Q3 · 24 · 31 · 49
+- **Title block:** (164, 6)–(335, 96) mm: REDRAWN · 87 · ISSUE (DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M152 · ENG · AMPLIFIER BOARD · COMPONENT · LAYOUT · APP · SCALE · ISSUE · 152-06-001
+
+Every curve, box, word and wire group: [1978 - 152-06-001 - AMPLIFIER BOARD COMPONENT LAYOUT - DRN P. Mahoney - ISS 6 (traced).json](1978%20-%20152-06-001%20-%20AMPLIFIER%20BOARD%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20Mahoney%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1978 - 152-06-001 - AMPLIFIER BOARD COMPONENT LAYOUT - DRN P. Mahoney - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

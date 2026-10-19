@@ -25,6 +25,19 @@ Wide schematic strip of several small transistor switching circuits on grid pape
 - **Size:** 4,125,465 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 174-02-001, size B 432 × 141 mm, 2000 × 651 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–141 mm up
+- **Outlines:** line 732 rings, 6,687 straight (9,823 mm) / 1,429 curved (1,958 mm); text 240 rings, 1,446 straight (1,285 mm) / 474 curved (599 mm)
+- **Centre lines:** 6,897 paths (133 closed); straight 6,610 mm, curved 337 mm; horizontal 2,335 mm, vertical 1,621 mm, diagonal 2,654 mm
+- **Circles and arcs:** 11 circles, 64 arcs; largest r 3.9 @ (105.0, 53.1), r 3.7 @ (187.6, 85.0), r 3.7 @ (371.1, 70.9), r 3.7 @ (390.1, 71.7)
+- **Closed boxes:** 4
+- **Words (OCR):** 47 in 44 lines: "/35 · Rio · 472s · 47k · DOr · 725 · NORMALLY · M727 · ook · PART · (FOLL · BITCNED
+- **Wiring (first pass):** 69 connected wire groups from 510 runs; labelled ends: 56 mm → Sot; 27 mm → 47k, ook; 26 mm → Rio; 22 mm → 47k; 16 mm → Sot
+
+Every curve, box, word and wire group: [1970 - 174-02-001 - M721 TO M727 I C CROSSPOINTS SCHEMATIC - DRN DJG - ISS 1 (traced).json](1970%20-%20174-02-001%20-%20M721%20TO%20M727%20I%20C%20CROSSPOINTS%20SCHEMATIC%20-%20DRN%20DJG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1970 - 174-02-001 - M721 TO M727 I C CROSSPOINTS SCHEMATIC - DRN DJG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

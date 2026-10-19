@@ -22,6 +22,19 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,356,382 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 880651-02-004, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 9–432 mm across, 19–285 mm up
+- **Outlines:** line 518 rings, 4,609 straight (8,882 mm) / 886 curved (1,424 mm); text 511 rings, 3,137 straight (3,606 mm) / 798 curved (1,180 mm)
+- **Centre lines:** 3,971 paths (53 closed); straight 6,565 mm, curved 406 mm; horizontal 2,650 mm, vertical 1,554 mm, diagonal 2,360 mm
+- **Circles and arcs:** 5 circles, 74 arcs; largest r 6.6 @ (278.0, 240.2), r 2.4 @ (365.6, 62.7), r 2.2 @ (389.0, 63.0), r 1.2 @ (155.5, 54.8)
+- **Closed boxes:** 4
+- **Dots (junctions):** 3
+- **Wiring (first pass):** 75 connected wire groups from 533 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-004 - REV SEND & FOLDBACK SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%20880651-02-004%20-%20REV%20SEND%20%26%20FOLDBACK%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-004 - REV SEND & FOLDBACK SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

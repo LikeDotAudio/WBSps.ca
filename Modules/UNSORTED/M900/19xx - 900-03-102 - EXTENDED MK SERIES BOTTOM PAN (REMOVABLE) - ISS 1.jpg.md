@@ -20,6 +20,18 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 821,469 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-102, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px)
+- **Ink extent:** 1–864 mm across, 0–558 mm up
+- **Outlines:** line 777 rings, 6,870 straight (38,245 mm) / 1,049 curved (2,813 mm); text 299 rings, 1,768 straight (3,422 mm) / 568 curved (1,426 mm)
+- **Centre lines:** 6,854 paths (246 closed); straight 23,431 mm, curved 268 mm; horizontal 9,165 mm, vertical 8,591 mm, diagonal 5,675 mm
+- **Circles and arcs:** 0 circles, 37 arcs
+- **Closed boxes:** 114; named: PART NUMBER; MODULE COUNT; 19,975; 39.9s; 31,975; 41,975; WARD-BECK SYSTEMS WB3S; EXTENDED MK   SERIES BOTTOM PAN (REMOVAB; 900-03-102
+- **Words (OCR):** 34 in 26 lines: 0.23 CALOY? · 0.62 DIA · Notcr ACCCRMNGLY · DATUL · TOTAL croupe · Pitc- 7,175] · PART NUMBER MODULE COUNT · 19,975 · 39.9s · 31,975 · 10275 · 41,975
+
+Every curve, box, word and wire group: [19xx - 900-03-102 - EXTENDED MK SERIES BOTTOM PAN (REMOVABLE) - ISS 1 (traced).json](19xx%20-%20900-03-102%20-%20EXTENDED%20MK%20SERIES%20BOTTOM%20PAN%20%28REMOVABLE%29%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-102 - EXTENDED MK SERIES BOTTOM PAN (REMOVABLE) - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

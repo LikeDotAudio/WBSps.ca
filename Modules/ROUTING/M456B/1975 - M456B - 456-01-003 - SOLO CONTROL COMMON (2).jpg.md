@@ -11,6 +11,18 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 6,847,143 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 456-01-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–431 mm across, 0–289 mm up
+- **Outlines:** line 1,261 rings, 8,680 straight (17,805 mm) / 1,315 curved (1,708 mm); text 345 rings, 1,826 straight (1,822 mm) / 644 curved (838 mm)
+- **Centre lines:** 6,643 paths (140 closed); straight 10,224 mm, curved 223 mm; horizontal 4,751 mm, vertical 2,800 mm, diagonal 2,674 mm
+- **Circles and arcs:** 15 circles, 53 arcs; largest r 2.6 @ (67.8, 100.9), r 1.4 @ (385.2, 27.6), r 1.4 @ (377.9, 21.6), r 1.1 @ (36.1, 82.4)
+- **Closed boxes:** 14
+- **Wiring (first pass):** 246 connected wire groups from 928 runs
+
+Every curve, box, word and wire group: [1975 - M456B - 456-01-003 - SOLO CONTROL COMMON (2) (traced).json](1975%20-%20M456B%20-%20456-01-003%20-%20SOLO%20CONTROL%20COMMON%20%282%29%20%28traced%29.json) (the CAD file: `1975 - M456B - 456-01-003 - SOLO CONTROL COMMON (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

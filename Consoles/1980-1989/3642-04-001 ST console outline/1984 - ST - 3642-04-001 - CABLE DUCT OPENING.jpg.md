@@ -9,6 +9,15 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,523,320 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 3642-04-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 592 rings, 8,186 straight (10,346 mm) / 1,366 curved (1,550 mm); text 108 rings, 801 straight (855 mm) / 181 curved (249 mm)
+- **Closed boxes:** 11
+
+Every curve, box, word and wire group: [1984 - ST - 3642-04-001 - CABLE DUCT OPENING (traced).json](1984%20-%20ST%20-%203642-04-001%20-%20CABLE%20DUCT%20OPENING%20%28traced%29.json) (the CAD file: `1984 - ST - 3642-04-001 - CABLE DUCT OPENING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

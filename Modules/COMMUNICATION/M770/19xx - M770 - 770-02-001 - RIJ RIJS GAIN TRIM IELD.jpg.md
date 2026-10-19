@@ -11,6 +11,19 @@ Wiki page: [M770](../../../PAGES/M770.md)
 - **Size:** 7,807,399 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 770-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–428 mm across, 0–287 mm up
+- **Outlines:** line 1,762 rings, 18,835 straight (24,458 mm) / 4,412 curved (5,094 mm); text 214 rings, 1,384 straight (1,271 mm) / 381 curved (488 mm)
+- **Centre lines:** 19,762 paths (335 closed); straight 15,943 mm, curved 218 mm; horizontal 5,279 mm, vertical 3,976 mm, diagonal 6,688 mm
+- **Circles and arcs:** 5 circles, 68 arcs; largest r 2.9 @ (323.9, 170.9), r 1.2 @ (364.1, 9.0), r 1.1 @ (397.7, 39.2), r 1.1 @ (358.9, 8.9)
+- **Closed boxes:** 34
+- **Dots (junctions):** 5
+- **Wiring (first pass):** 204 connected wire groups from 1,708 runs, 7 dotted junctions
+
+Every curve, box, word and wire group: [19xx - M770 - 770-02-001 - RIJ RIJS GAIN TRIM IELD (traced).json](19xx%20-%20M770%20-%20770-02-001%20-%20RIJ%20RIJS%20GAIN%20TRIM%20IELD%20%28traced%29.json) (the CAD file: `19xx - M770 - 770-02-001 - RIJ RIJS GAIN TRIM IELD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

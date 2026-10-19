@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 23,622,528 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 95033-01-001, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 74–421 mm across, 8–223 mm up
+- **Outlines:** line 3,050 rings, 20,305 straight (23,614 mm) / 6,242 curved (10,834 mm); text 121 rings, 747 straight (778 mm) / 238 curved (314 mm); tb 61 rings, 370 straight (348 mm) / 111 curved (134 mm)
+- **Centre lines:** 34,666 paths (140 closed); straight 24,132 mm, curved 59.6 mm; horizontal 9,376 mm, vertical 9,210 mm, diagonal 5,546 mm
+- **Circles and arcs:** 193 circles, 23 arcs; largest r 1.7 @ (184.2, 126.1), r 1.7 @ (139.5, 113.8), r 1.7 @ (132.6, 66.3), r 1.7 @ (184.8, 180.1)
+- **Closed boxes:** 201 (14 in the title block)
+- **Dots (junctions):** 820
+- **Words (OCR):** 13 in 12 lines: Qupots) · SLoTS · VSOULLS AR · OR Ojlm · WBS · WARD-BECK SYSTEMS · CBC VANCOUVER · INTERCOM FUNCTIONAL · STUDIO · SCALE · CoDE · 95033-01-001
+- **Title block:** (338, 7)–(426, 41) mm: WBS · WARD-BECK SYSTEMS · CBC VANCOUVER · INTERCOM FUNCTIONAL · STUDIO · SCALE · CoDE · 95033-01-001
+- **Wiring (first pass):** 89 connected wire groups from 5,633 runs, 1180 dotted junctions
+
+Every curve, box, word and wire group: [1995 - 95033 - DOC - 95033-01-001 - VAIRX DUTPUTS HAYM TERUNA QUMURI (traced).json](1995%20-%2095033%20-%20DOC%20-%2095033-01-001%20-%20VAIRX%20DUTPUTS%20HAYM%20TERUNA%20QUMURI%20%28traced%29.json) (the CAD file: `1995 - 95033 - DOC - 95033-01-001 - VAIRX DUTPUTS HAYM TERUNA QUMURI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

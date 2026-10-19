@@ -28,6 +28,21 @@ Schematic of the M481 oscillator/cue amplifier module: 1458 op-amp oscillator wi
 
 - **1975** (labelled): `DATE MAy 75` — …D: IG( USED ON MATL _ WBS WARD-BECK ByBTeMB LTD DRM 21 M481 DATE MAy 75 OSCILLATOR CUE AMX-LIFIER CKD4L SCHEM'ITIC Ecae ISS_ Tols _…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 481-02-001, size B 432 × 174 mm, 2000 × 808 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–163 mm up
+- **Outlines:** line 965 rings, 9,182 straight (12,282 mm) / 2,208 curved (2,476 mm); text 264 rings, 1,650 straight (1,513 mm) / 559 curved (682 mm); tb 33 rings, 216 straight (280 mm) / 44 curved (51.7 mm)
+- **Centre lines:** 11,711 paths (250 closed); straight 9,037 mm, curved 66.9 mm; horizontal 3,016 mm, vertical 2,059 mm, diagonal 3,963 mm
+- **Circles and arcs:** 2 circles, 23 arcs; largest r 0.9 @ (416.2, 99.9), r 0.8 @ (35.2, 56.1)
+- **Closed boxes:** 18
+- **Dots (junctions):** 1
+- **Words (OCR):** 47 in 44 lines: RE-CutRT · LeveL · (-12) · RIs} · WPUT · Cue AMP · INPUT · R54 · Snzs 778 · R4t · 82 · PGLcalo
+- **Title block:** (332, 4)–(429, 36) mm: WBS · WARD-BeCK BybteMB · LTD · DRN: · OSCILLATORICUE AM-LIFIER · M4si · CKD · SCHEM'MTIC · SCALE · 481-02-021 · TOLS _
+- **Wiring (first pass):** 114 connected wire groups from 618 runs, 1 dotted junctions; labelled ends: 130 mm → MAT; 103 mm → {RZ; 57 mm → CRA; 47 mm → Snzs, 778, 82; 42 mm → R4t
+
+Every curve, box, word and wire group: [1975 - 481-02-001 - OSCILLATOR CUE AMPLIFIER SCHEMATIC - DRN DM - ISS 2 (traced).json](1975%20-%20481-02-001%20-%20OSCILLATOR%20CUE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1975 - 481-02-001 - OSCILLATOR CUE AMPLIFIER SCHEMATIC - DRN DM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

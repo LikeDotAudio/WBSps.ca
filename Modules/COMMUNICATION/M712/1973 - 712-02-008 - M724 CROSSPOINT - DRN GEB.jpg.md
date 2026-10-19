@@ -26,6 +26,21 @@ Wiki page: [M712](../../../PAGES/M712.md)
 
 - **1973** (labelled): `DATE JAN73` — …OM MAtL CROssPOINT SCHEMATIC WBS WAAD-BeCK byeteMB DRA: GEB DATE JAN73 M72+ CKD CROSSPOiNT SCALE FINISH TOLS 712 0 2 008 IS $ Hldn…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-008, size B 432 × 143 mm, 2000 × 663 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 4–142 mm up
+- **Outlines:** line 221 rings, 1,852 straight (5,797 mm) / 186 curved (234 mm); text 415 rings, 1,907 straight (1,581 mm) / 566 curved (691 mm); tb 19 rings, 136 straight (169 mm) / 18 curved (22.4 mm)
+- **Centre lines:** 2,412 paths (60 closed); straight 3,928 mm, curved 6.7 mm; horizontal 2,111 mm, vertical 978 mm, diagonal 840 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 30 (18 in the title block); named: M724; FINISH; TOLS; 0 2 008 712
+- **Dots (junctions):** 2
+- **Words (OCR):** 109 in 86 lines: 22 DC · SupPLY BUs · MIXER BUS$ · M7i2 SUMMING · M724 · COMPONENT LAYoUT · 61o2 · Rio3 · Riii · 2N+360 · 2N+360 · 310 -
+- **Title block:** (302, 7)–(418, 32) mm: TSSMOD CKD] · USEDAOM · MAtL · 735 · WBS WAAD-BeCK byeteMB · 1395LRc · DRA: · GEB · FINISH · DATE JAN73 · M72+ · CKD · SCALE · CROSSPOiNT · TOLS · 712
+- **Wiring (first pass):** 36 connected wire groups from 138 runs, 2 dotted junctions; labelled ends: 36 mm → TSSMOD, 735, 1395LRc; 34 mm → 61o2, 2N+360; 32 mm → Rioi, 22k; 15 mm → 09, TV; 12 mm → CLO SURE To
+
+Every curve, box, word and wire group: [1973 - 712-02-008 - M724 CROSSPOINT - DRN GEB (traced).json](1973%20-%20712-02-008%20-%20M724%20CROSSPOINT%20-%20DRN%20GEB%20%28traced%29.json) (the CAD file: `1973 - 712-02-008 - M724 CROSSPOINT - DRN GEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

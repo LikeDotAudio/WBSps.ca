@@ -44,48 +44,12 @@ tags: ["product", "pods", "1990s"]
 
 ## Drawings (1)
 
+_Each scan with its trace laid over it: the slider runs from the scan to the vector drawing. Click one to see it large and save it as SVG, DXF, KiCad, PDF or PowerPoint._
+
+<div class="wbs-dw" data-n="1" data-traced="1"><figure class="dw" data-f="Products/PODS/POD6/19xx - POD6 - DOC - 405-03-084 - REMOVE ALL BURRS AND GHARP EDGES TOLERANCES.jpg" data-t="0cf9f884636da35d" data-made="svg dxf" data-cl="1" data-dxf="Products/PODS/POD6/19xx - POD6 - DOC - 405-03-084 - REMOVE ALL BURRS AND GHARP EDGES TOLERANCES (traced).dxf" style="--ar:1.5444"><a class="pg" href="../Products/PODS/POD6/19xx%20-%20POD6%20-%20DOC%20-%20405-03-084%20-%20REMOVE%20ALL%20BURRS%20AND%20GHARP%20EDGES%20TOLERANCES.jpg" title="19xx - POD6 - DOC - 405-03-084 - REMOVE ALL BURRS AND GHARP EDGES TOLERANCES.jpg"></a><figcaption><b>405-03-084</b> · mechanical<br><span class="tt">Remove All Burrs And Gharp Edges Tolerances</span><span class="cad"><a href="../Products/PODS/POD6/19xx%20-%20POD6%20-%20DOC%20-%20405-03-084%20-%20REMOVE%20ALL%20BURRS%20AND%20GHARP%20EDGES%20TOLERANCES.jpg">viewer</a></span></figcaption></figure></div>
+
 _Read from the drawing title blocks._
 
 | Drawing | Title | Date | [Drawn by](People.md#drawing-staff) | [Checked by](People.md#drawing-staff) | Iss. | Source |
 |---|---|---|---|---|---|---|
 | 405-03-084 | Remove All Burrs And Gharp Edges Tolerances |  | [DRG](Person-DRG.md) |  |  | [file](../Products/PODS/POD6/19xx%20-%20POD6%20-%20DOC%20-%20405-03-084%20-%20REMOVE%20ALL%20BURRS%20AND%20GHARP%20EDGES%20TOLERANCES.jpg) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "POD6",
- "name": "Miniature Stereo Headphone Module",
- "category": "PODS",
- "year": 1997,
- "documents": [
-  {
-   "file": "Products/PODS/POD6/1997 - POD6 - Front.jpg",
-   "year": 1997,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD6/1997 - POD6 - POD6 - POD6MAN - DOCUMENT.cdr",
-   "year": 1997,
-   "pages": null,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD6/1997 - POD6 - Rear.jpg",
-   "year": 1997,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD6/19xx - POD6 - DOC - 405-03-084 - REMOVE ALL BURRS AND GHARP EDGES TOLERANCES.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "drawing",
-    "title_block"
-   ]
-  }
- ]
-}
-```

@@ -22,6 +22,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,750,200 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1021-02-001, size B 432 × 154 mm, 2000 × 715 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 24–154 mm up
+- **Outlines:** line 946 rings, 6,737 straight (11,204 mm) / 1,448 curved (1,671 mm); text 113 rings, 766 straight (647 mm) / 238 curved (296 mm)
+- **Centre lines:** 6,750 paths (254 closed); straight 6,915 mm, curved 44.7 mm; horizontal 3,255 mm, vertical 1,640 mm, diagonal 2,020 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Closed boxes:** 21; named: Ps-2 [624
+- **Dots (junctions):** 2
+- **Words (OCR):** 15 in 12 lines: Contaol · LBOVE · ADLC( · Chassis · [624 · Ps-2 · 3R · BUFLEX DUTLETS · WAAD BECK_SYSIEWS · POWER  SUPPLY   DISTRIBUTION · SCHEMATIC · II021-02 CC)
+- **Wiring (first pass):** 41 connected wire groups from 554 runs; labelled ends: 478 mm → [624, DUTLETS; 455 mm → SCHEMATIC; 261 mm → Chassis; 124 mm → DUTLETS; 56 mm → WAAD, BECK_SYSIEWS
+
+Every curve, box, word and wire group: [1970 - 1021-02-001 - POWER SUPPLY DISTRIBUTION SCHEMATIC - DRN GP - ISS 2 (traced).json](1970%20-%201021-02-001%20-%20POWER%20SUPPLY%20DISTRIBUTION%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1970 - 1021-02-001 - POWER SUPPLY DISTRIBUTION SCHEMATIC - DRN GP - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

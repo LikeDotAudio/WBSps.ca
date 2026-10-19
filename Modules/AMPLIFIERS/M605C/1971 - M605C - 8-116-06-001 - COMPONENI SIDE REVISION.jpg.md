@@ -11,6 +11,18 @@ Wiki page: [M605C](../../../PAGES/M605C.md)
 - **Size:** 2,033,945 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-116-06-001, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–423 mm across, 24–300 mm up
+- **Outlines:** line 621 rings, 6,257 straight (14,071 mm) / 1,067 curved (1,109 mm); text 1,326 rings, 9,346 straight (9,072 mm) / 2,817 curved (3,230 mm); tb 8 rings, 179 straight (264 mm) / 25 curved (29.7 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 7.9 @ (226.5, 215.3), r 7.9 @ (226.8, 160.6), r 2.7 @ (358.9, 241.9), r 2.6 @ (44.1, 239.3)
+- **Closed boxes:** 20 (7 in the title block); named: R4| 5ok; R23 5ok; IRI2 Sk; R9 20k; 03 Lm2oi; 04 Lm2oi; 02 LF3578; Lmzoi; CRS 255B4; 2/80; PM; 2/80
+- **Words (OCR):** 169 in 135 lines: OUTLINE OF · AEAT · SinK FOR Q4,05,094Qi0_ · HF · LF · Off SET · OFF SET · 2n3569 · Tp · R9 20k · IRI2 Sk · R23 5ok
+- **Title block:** (280, 31)–(424, 100) mm: 2/80 · 3670 · PM · REVISION · APP · ISSUE DATE · WBS WARD-BECK SYSTEMS · DRN: GEB · 8-116 · ENG.GEB 2/79 · DA · AMPLIFIER · CKD Kel_ · COMPONENT LAYOUT · APP · SCALE · 8-116-06-001 · ISSUE · 2:1
+
+Every curve, box, word and wire group: [1971 - M605C - 8-116-06-001 - COMPONENI SIDE REVISION (traced).json](1971%20-%20M605C%20-%208-116-06-001%20-%20COMPONENI%20SIDE%20REVISION%20%28traced%29.json) (the CAD file: `1971 - M605C - 8-116-06-001 - COMPONENI SIDE REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

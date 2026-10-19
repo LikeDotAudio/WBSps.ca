@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,641,341 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940294-01-001, size B (assumed) 432 × 282 mm, 2000 × 1308 px traced (0.216 mm/px)
+- **Ink extent:** 29–425 mm across, 7–263 mm up
+- **Outlines:** line 3,351 rings, 26,021 straight (35,336 mm) / 3,742 curved (5,250 mm); text 222 rings, 1,473 straight (1,322 mm) / 420 curved (531 mm); tb 18 rings, 146 straight (177 mm) / 26 curved (29.0 mm)
+- **Centre lines:** 112,877 paths (269 closed); straight 44,456 mm, curved 153 mm; horizontal 10,776 mm, vertical 12,366 mm, diagonal 21,313 mm
+- **Circles and arcs:** 181 circles, 56 arcs; largest r 3.5 @ (210.5, 186.5), r 3.4 @ (120.7, 188.5), r 3.4 @ (133.4, 188.2), r 3.4 @ (183.9, 151.0)
+- **Closed boxes:** 22 (1 in the title block); named: CBC OTTAWA 24x36  MiniCOM FUNCTIONAL
+- **Words (OCR):** 32 in 30 lines: PROCAAK · INPUTS · M2 > · LEGEND; · CROSSPONT · SaicheD · 48524 · (2 4 InPUTS · MAIKI · 000 · Q000 · PLTAU
+- **Title block:** (345, 23)–(430, 40) mm: PER CUSTCMER · WARD-BECK SYSTEMS · WBS · CBC OTTAWA
+- **Wiring (first pass):** 228 connected wire groups from 4,235 runs; labelled ends: 134 mm → WBS, CODE 94294F01, FUNCTIONAL, 940294-01-; 48 mm → INPUTS; 22 mm → PROCAAK, INPUTS; 21 mm → JEAUSATEUR; 18 mm → SECTC5"
+
+Every curve, box, word and wire group: [1994 - 940294 - DOC - 940294-01-001 - SION IFBOUTPUTS IFB OUTPUTS (traced).json](1994%20-%20940294%20-%20DOC%20-%20940294-01-001%20-%20SION%20IFBOUTPUTS%20IFB%20OUTPUTS%20%28traced%29.json) (the CAD file: `1994 - 940294 - DOC - 940294-01-001 - SION IFBOUTPUTS IFB OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

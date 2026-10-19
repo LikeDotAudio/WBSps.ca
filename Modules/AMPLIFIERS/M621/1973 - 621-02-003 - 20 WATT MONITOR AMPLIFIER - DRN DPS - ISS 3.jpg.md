@@ -23,6 +23,21 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 5,274,806 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 621-02-003, size B 432 × 139 mm, 2000 × 642 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–139 mm up
+- **Outlines:** line 995 rings, 7,679 straight (12,513 mm) / 1,572 curved (1,866 mm); text 127 rings, 669 straight (546 mm) / 224 curved (273 mm); tb 12 rings, 82 straight (143 mm) / 7 curved (7.8 mm)
+- **Centre lines:** 6,459 paths (168 closed); straight 7,496 mm, curved 124 mm; horizontal 3,335 mm, vertical 1,913 mm, diagonal 2,248 mm
+- **Circles and arcs:** 4 circles, 31 arcs; largest r 3.7 @ (162.8, 37.2), r 1.0 @ (382.8, 13.2), r 1.0 @ (172.0, 120.9), r 0.8 @ (385.9, 102.2)
+- **Closed boxes:** 36 (1 in the title block); named: 621; 621-02-003
+- **Dots (junctions):** 1
+- **Words (OCR):** 16 in 15 lines: NOTES · 17 $ SEE · specified ALL Resistcr $ · 2*3791 · cR9 05 · 021 02 002 · Gy · quIQUI · 47 Sa · Jaolp · T420/40 · CCTRCL
+- **Title block:** (352, 19)–(428, 30) mm: WBS WAAD-Beck Bybtemb
+- **Wiring (first pass):** 80 connected wire groups from 579 runs; labelled ends: 118 mm → 2*3791; 102 mm → T420/40; 93 mm → WBS; 77 mm → quIQUI; 68 mm → T420/40
+
+Every curve, box, word and wire group: [1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (traced).json](1973%20-%20621-02-003%20-%2020%20WATT%20MONITOR%20AMPLIFIER%20-%20DRN%20DPS%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1973 - 621-02-003 - 20 WATT MONITOR AMPLIFIER - DRN DPS - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

@@ -11,6 +11,15 @@ Wiki page: [M462](../../../PAGES/M462.md)
 - **Size:** 1,851,913 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 462-04-004, size B (assumed) 432 × 331 mm, 2000 × 1533 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 4–425 mm across, 7–331 mm up
+- **Outlines:** line 228 rings, 4,833 straight (9,149 mm) / 670 curved (1,019 mm); text 251 rings, 2,119 straight (2,766 mm) / 565 curved (863 mm)
+- **Closed boxes:** 13
+
+Every curve, box, word and wire group: [1974 - M462 - 462-04-004 - CONNECTOR REAR VIEW (traced).json](1974%20-%20M462%20-%20462-04-004%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1974 - M462 - 462-04-004 - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

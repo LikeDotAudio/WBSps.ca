@@ -11,6 +11,19 @@ Wiki page: [M610](../../../PAGES/M610.md)
 - **Size:** 3,100,541 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 171-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 47–432 mm up
+- **Outlines:** line 7,075 rings, 40,976 straight (25,720 mm) / 11,992 curved (10,753 mm); text 289 rings, 1,630 straight (1,142 mm) / 477 curved (451 mm); tb 94 rings, 395 straight (202 mm) / 88 curved (75.5 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 13.1 @ (138.3, 271.6), r 13.1 @ (138.3, 302.5), r 13.1 @ (138.0, 241.3), r 13.1 @ (96.0, 287.8)
+- **Closed boxes:** 3; named: r48; 2 7
+- **Dots (junctions):** 3
+- **Words (OCR):** 22 in 22 lines: Le_ · 01Z2F · r48 · R49 · Q5 · Q7 · 2 7 · C 21 · Q6 · 22 · BECK · SYSHS
+- **Title block:** (157, 73)–(236, 106) mm: BECK · WARD
+
+Every curve, box, word and wire group: [19xx - M610 - 171-06-001 - WATT AMPLIPIER ASS (traced).json](19xx%20-%20M610%20-%20171-06-001%20-%20WATT%20AMPLIPIER%20ASS%20%28traced%29.json) (the CAD file: `19xx - M610 - 171-06-001 - WATT AMPLIPIER ASS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

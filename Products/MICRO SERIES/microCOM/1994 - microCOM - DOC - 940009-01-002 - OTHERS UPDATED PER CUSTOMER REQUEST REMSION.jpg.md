@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,806,119 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940009-01-002, size B (assumed) 432 × 279 mm, 2000 × 1293 px traced (0.216 mm/px); scale Idisc NO:
+- **Ink extent:** 0–431 mm across, 6–270 mm up
+- **Outlines:** line 478 rings, 3,482 straight (5,579 mm) / 714 curved (905 mm); text 215 rings, 1,590 straight (1,410 mm) / 426 curved (533 mm); tb 78 rings, 703 straight (1,466 mm) / 115 curved (136 mm)
+- **Centre lines:** 10,371 paths (89 closed); straight 6,214 mm, curved 63.0 mm; horizontal 2,286 mm, vertical 1,560 mm, diagonal 2,369 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Closed boxes:** 13; named: PART; DaR
+- **Words (OCR):** 26 in 24 lines: PACGRAU · MNMARI · SoUND · INPUTS · PART · TCiRcUITS · WiRE"CiRcunTS · DaR · NQIES; · INTEACONNECTING CALES DENOTED Drhors · SUFPLED · 9*s)
+- **Title block:** (339, 4)–(427, 47) mm: UPDATED · FER CUSTOWER RECUEST, · WBS · WARD-BECK SYSTEMS · KCET · SYSTEM FUNCTIONAL · MicroCoM · MATRIX · SCALE Idisc NO: · 940009 · 002
+- **Wiring (first pass):** 37 connected wire groups from 405 runs; labelled ends: 20 mm → MNMARI; 11 mm → TCiRcUITS; 9 mm → WiRE"CiRcunTS; 7 mm → 9*s)
+
+Every curve, box, word and wire group: [1994 - microCOM - DOC - 940009-01-002 - OTHERS UPDATED PER CUSTOMER REQUEST REMSION (traced).json](1994%20-%20microCOM%20-%20DOC%20-%20940009-01-002%20-%20OTHERS%20UPDATED%20PER%20CUSTOMER%20REQUEST%20REMSION%20%28traced%29.json) (the CAD file: `1994 - microCOM - DOC - 940009-01-002 - OTHERS UPDATED PER CUSTOMER REQUEST REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

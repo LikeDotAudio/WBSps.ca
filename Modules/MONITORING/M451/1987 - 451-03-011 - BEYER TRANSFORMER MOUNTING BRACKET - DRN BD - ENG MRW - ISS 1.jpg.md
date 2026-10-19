@@ -23,6 +23,19 @@ Wiki page: [M451](../../../PAGES/M451.md)
 - **Size:** 1,252,091 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 451-03-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 4OOSER-1
+- **Ink extent:** 0–430 mm across, 10–298 mm up
+- **Outlines:** line 136 rings, 1,891 straight (5,584 mm) / 222 curved (314 mm); text 465 rings, 3,143 straight (3,956 mm) / 935 curved (1,425 mm); tb 3 rings, 83 straight (200 mm) / 5 curved (7.2 mm)
+- **Centre lines:** 4,889 paths (102 closed); straight 6,106 mm, curved 68.3 mm; horizontal 2,597 mm, vertical 1,394 mm, diagonal 2,115 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 18 (14 in the title block); named: SCALE 1:1; CODE: MM451-11
+- **Words (OCR):** 56 in 47 lines: 2.500 · 0.770 · 730 · NOTES: · Tolerances: · XX · /-.015 · 0.410 · 0.700 · XxX=+ · /-.005 · Material:
+- **Title block:** (245, 26)–(415, 95) mm: SSUE DATE · REVISION · APP · WARD-BECK SYSTEMS · WBS · DRN: · BD 11/87 · M451 · ENG. MRW · BE YER · TRANSFORMER · CKD · MOUNTING BRACKET · APP · SCALE DISC NO: 4OOSER-1 · 451-03-011 · ISSUE · 1:1 CODE
+
+Every curve, box, word and wire group: [1987 - 451-03-011 - BEYER TRANSFORMER MOUNTING BRACKET - DRN BD - ENG MRW - ISS 1 (traced).json](1987%20-%20451-03-011%20-%20BEYER%20TRANSFORMER%20MOUNTING%20BRACKET%20-%20DRN%20BD%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 451-03-011 - BEYER TRANSFORMER MOUNTING BRACKET - DRN BD - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

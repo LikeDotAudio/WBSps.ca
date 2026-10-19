@@ -24,6 +24,20 @@ Wiki page: [M458](../../../PAGES/M458.md)
 - **Size:** 1,041,130 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 458-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 12–298 mm up
+- **Outlines:** line 286 rings, 5,591 straight (12,691 mm) / 1,073 curved (1,520 mm); text 1,122 rings, 7,642 straight (7,963 mm) / 2,764 curved (3,521 mm); tb 32 rings, 256 straight (381 mm) / 81 curved (108 mm)
+- **Centre lines:** 12,795 paths (151 closed); straight 13,191 mm, curved 384 mm; horizontal 4,236 mm, vertical 2,842 mm, diagonal 6,113 mm
+- **Circles and arcs:** 13 circles, 42 arcs; largest r 5.4 @ (172.5, 235.2), r 5.4 @ (173.3, 136.7), r 5.2 @ (383.9, 235.9), r 4.8 @ (385.0, 138.0)
+- **Closed boxes:** 10 (10 in the title block)
+- **Words (OCR):** 236 in 216 lines: TALLY #( · TALLY #2 · 424v · R2s · t24v · Rr · CIRCUII 2 · C8 +24v · CIRCUILL · ezOpf · [00 'w · DsI
+- **Title block:** (280, 13)–(432, 82) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.ELJ IV7z · M458 · ENG.E [ J · QUAD PEAK OVERLOAD INDICATOR · CKD: R ( / · SCHEMATIC · APP · SCALE · ISSUE · 458-02-001
+- **Wiring (first pass):** 117 connected wire groups from 456 runs; labelled ends: 118 mm → 22, Iok, R/8, IOK; 110 mm → Xzkz, 23, R3i, lok; 81 mm → Gkz, In4148, Rzt, R34; 80 mm → 24k, 47K, 1n4148, Iok; 76 mm → iook, R46, R4z, CKz
+
+Every curve, box, word and wire group: [1977 - 458-02-001 - QUAD PEAK OVERLOAD INDICATOR SCHEMATIC - DRN ELJ - ENG ELJ - ISS 2 (traced).json](1977%20-%20458-02-001%20-%20QUAD%20PEAK%20OVERLOAD%20INDICATOR%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ENG%20ELJ%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1977 - 458-02-001 - QUAD PEAK OVERLOAD INDICATOR SCHEMATIC - DRN ELJ - ENG ELJ - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

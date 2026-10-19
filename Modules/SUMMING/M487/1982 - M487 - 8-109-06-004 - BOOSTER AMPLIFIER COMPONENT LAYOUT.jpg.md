@@ -11,6 +11,18 @@ Wiki page: [M487](../../../PAGES/M487.md)
 - **Size:** 279,604 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-004, size B (assumed) 432 × 350 mm, 2000 × 1622 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–345 mm up
+- **Outlines:** line 221 rings, 2,969 straight (7,840 mm) / 678 curved (721 mm); text 812 rings, 7,590 straight (8,322 mm) / 2,102 curved (2,467 mm); tb 61 rings, 682 straight (1,041 mm) / 140 curved (154 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 9.7 @ (87.4, 225.9), r 9.6 @ (87.5, 116.8), r 9.2 @ (32.3, 117.4), r 9.2 @ (31.9, 226.2)
+- **Closed boxes:** 17 (15 in the title block); named: E7 E2 -CI 33/1@ 23/ RI6 22k 47k R2 LRi 2
+- **Words (OCR):** 122 in 114 lines: E7 · E2 · -CI 33/1@ · 23/ · RI6 22k · 47k · 22k · LRi · R2 · CR18 · RS · 6k2
+- **Title block:** (150, 2)–(432, 142) mm: ES · WBS · 8-109 · 22o/iec16- · ECo493 · 494 · ML · ~R37 4k7 · ML · R36 · 4k7 · (ISSUE |DATE · REVISION · APP · E6 · WBS WARD-BECK SYSTEMS · DRN GEB · 8 ~ 109€ · ENG.MRW 4/78 · BOOSTER AMPLIFIER · CKD
+
+Every curve, box, word and wire group: [1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER COMPONENT LAYOUT (traced).json](1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

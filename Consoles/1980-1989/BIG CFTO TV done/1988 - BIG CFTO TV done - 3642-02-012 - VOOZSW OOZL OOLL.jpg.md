@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,522,674 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-012, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–305 mm across, 0–432 mm up
+- **Outlines:** line 1,049 rings, 11,205 straight (24,474 mm) / 2,318 curved (3,118 mm); text 149 rings, 1,029 straight (1,073 mm) / 325 curved (426 mm)
+- **Centre lines:** 7,887 paths (173 closed); straight 14,000 mm, curved 718 mm; horizontal 2,798 mm, vertical 8,482 mm, diagonal 2,720 mm
+- **Circles and arcs:** 45 circles, 130 arcs; largest r 1.4 @ (210.5, 231.5), r 1.4 @ (289.3, 232.2), r 1.4 @ (158.1, 231.1), r 1.4 @ (184.4, 231.3)
+- **Closed boxes:** 22; named: sls
+- **Words (OCR):** 20 in 17 lines: don s37ndw · JaLSVW · LzSw · 13383 · 03 · 03 +3 4? ~3 · 73 8 · OOLL · 4377O4NOJ · Voozsw · OOZL · 0 p
+- **Wiring (first pass):** 36 connected wire groups from 722 runs; labelled ends: 3258 mm → 73 8; 189 mm → 13383; 79 mm → OOLL; 79 mm → OOLL; 66 mm → OOZL
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-012 - VOOZSW OOZL OOLL (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-012%20-%20VOOZSW%20OOZL%20OOLL%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-012 - VOOZSW OOZL OOLL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

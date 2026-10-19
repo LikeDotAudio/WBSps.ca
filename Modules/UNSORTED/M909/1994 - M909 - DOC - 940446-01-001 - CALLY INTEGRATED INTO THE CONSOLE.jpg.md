@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,731,398 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940446-01-001, size B (assumed) 432 × 285 mm, 2000 × 1320 px traced (0.216 mm/px); scale DISC ND:
+- **Ink extent:** 19–424 mm across, 11–277 mm up
+- **Outlines:** line 917 rings, 8,432 straight (21,702 mm) / 1,170 curved (1,410 mm); text 1,292 rings, 8,348 straight (6,750 mm) / 2,284 curved (2,686 mm); tb 225 rings, 1,529 straight (3,648 mm) / 215 curved (272 mm)
+- **Centre lines:** 20,917 paths (378 closed); straight 19,144 mm, curved 50.5 mm; horizontal 7,839 mm, vertical 5,405 mm, diagonal 5,900 mm
+- **Circles and arcs:** 2 circles, 11 arcs; largest r 2.3 @ (34.7, 267.3), r 1.8 @ (34.5, 267.4)
+- **Closed boxes:** 56 (1 in the title block); named: PGMI RIGHT; SEL; MX MINUS; HX HNUS; 2200; 12 00; SEL; SEL; 6X1 SEL; 10X1 SEL
+- **Dots (junctions):** 1
+- **Words (OCR):** 208 in 185 lines: LEGEND · CCNSOLE SUMMING BUSES · LEVEL · OPTCAL SHAFT ENCODER · MuSI · VCICE · MNS I · Mix CUE · AUX AUX · INSERTS · METER AND MONITOR OUTPUT · dBu
+- **Title block:** (48, 9)–(429, 92) mm: POWER · WBS · POWER · WBS · To CONSOLE MODULES · K8 · SUPPLY · M924 · SUPPLY · V924 · COVMON · LINE SELECICR #1 · OUTPUTS · REDUNDANT USE · FOR FUTURE · NQIES: · CONSOLE FRAME IS WRED FOR FUTURE M90s8
+- **Wiring (first pass):** 253 connected wire groups from 1,415 runs, 2 dotted junctions; labelled ends: 484 mm → MuSI, VCICE, PGM2 LEFT; 432 mm → SEL; 327 mm → CUE, AUX AUX, MNS I, R]cRCUONTOR; 255 mm → 10X1, SEL; 243 mm → VCA, HX HNUS, XCP2, X0
+
+Every curve, box, word and wire group: [1994 - M909 - DOC - 940446-01-001 - CALLY INTEGRATED INTO THE CONSOLE (traced).json](1994%20-%20M909%20-%20DOC%20-%20940446-01-001%20-%20CALLY%20INTEGRATED%20INTO%20THE%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - M909 - DOC - 940446-01-001 - CALLY INTEGRATED INTO THE CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 21 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 783,616 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 600-02-011, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 10–381 mm up
+- **Outlines:** line 145 rings, 2,144 straight (3,867 mm) / 407 curved (549 mm); text 348 rings, 2,299 straight (2,456 mm) / 783 curved (1,166 mm); tb 2 rings, 84 straight (152 mm) / 4 curved (7.0 mm)
+- **Centre lines:** 2,874 paths (86 closed); straight 3,896 mm, curved 244 mm; horizontal 1,125 mm, vertical 1,184 mm, diagonal 1,587 mm
+- **Circles and arcs:** 18 circles, 34 arcs; largest r 1.3 @ (21.3, 135.1), r 1.3 @ (21.1, 151.2), r 1.3 @ (20.9, 198.9), r 1.3 @ (21.3, 167.1)
+- **Closed boxes:** 3; named: M6oo I2d8 HANO SETTING
+- **Words (OCR):** 55 in 48 lines: Ard ASSY · oO · oo · 48dB · LaBm · 28d8m · 300 · JOO · +8dBm · 300 · 600n · Joo
+- **Title block:** (210, 45)–(336, 70) mm: WBS WARD-BECK SYSTEMB
+- **Wiring (first pass):** 51 connected wire groups from 117 runs; labelled ends: 211 mm → 28d8m, 3k9, SETTING; 181 mm → 300, I2d8, HANO, SETTING; 126 mm → 300; 16 mm → M6oo; 14 mm → 300
+
+Every curve, box, word and wire group: [1970 - M600 - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC (traced).json](1970%20-%20M600%20-%20600-02-011%20-%20AUDIO%20AMPLIFIER%20OUTPUT%20STRAPPING%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1970 - M600 - 600-02-011 - AUDIO AMPLIFIER OUTPUT STRAPPING SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

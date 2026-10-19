@@ -27,6 +27,20 @@ Wiki page: [M807](../../../PAGES/M807.md)
 
 - **1972** (labelled): `DATE DEC 72` — …MB LtD: 3 Iioo5 GEB M8o7 4 I2i GEB 74057 DRA GP M807 FIMISH DATE DEC 72 FADE GENERATOR CKD. T SCHEMATIC [SCALE TOLS _ M 807 02-00|…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 807-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 12–298 mm up
+- **Outlines:** line 276 rings, 5,299 straight (12,826 mm) / 790 curved (1,361 mm); text 1,037 rings, 7,454 straight (8,591 mm) / 2,267 curved (3,544 mm); tb 20 rings, 169 straight (317 mm) / 31 curved (43.9 mm)
+- **Centre lines:** 7,076 paths (137 closed); straight 12,639 mm, curved 533 mm; horizontal 4,956 mm, vertical 2,399 mm, diagonal 5,285 mm
+- **Circles and arcs:** 18 circles, 36 arcs; largest r 7.9 @ (225.0, 135.1), r 7.8 @ (137.8, 147.6), r 7.8 @ (174.8, 189.4), r 7.7 @ (245.2, 261.2)
+- **Closed boxes:** 31 (28 in the title block)
+- **Words (OCR):** 192 in 151 lines: +ISv · 2N3645 · +ISv · SR2z · S4k7 · CRS · Ri6 · IN9I4 · 33k · FADE VOLTAGE Set · +ISv · 3k3
+- **Title block:** (144, 17)–(381, 69) mm: 2N3645 · ~ISV IN749A ISSMODIICKD @SEDAON MAtL . · WBS WAAD-Beck · 83O1GEB B72025-06- 992 · B 1oo5 GEB M8o7 · RGIGEB 74057 · DRN: GP · M 807 · FINISH · DATE DEC 72 · FADE GENERATOR · CKD · SCALE · SCHE
+- **Wiring (first pass):** 75 connected wire groups from 340 runs; labelled ends: 297 mm → 2N3645, CRS, IN9I4, 63; 119 mm → 10/2o, TALLY, ~ISv, 20; 113 mm → CRS, IN9I4, 63, C6; 100 mm → CRA, IN9I4; 86 mm → BOTTOM, FADE, TALLY, R27
+
+Every curve, box, word and wire group: [1972 - 807-02-001 - FADE GENERATOR SCHEMATIC - DRN GP - ISS 4 (traced).json](1972%20-%20807-02-001%20-%20FADE%20GENERATOR%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1972 - 807-02-001 - FADE GENERATOR SCHEMATIC - DRN GP - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

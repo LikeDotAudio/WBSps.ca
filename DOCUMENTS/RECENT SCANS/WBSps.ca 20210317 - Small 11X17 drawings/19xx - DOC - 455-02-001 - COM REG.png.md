@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 13,758,058 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 455-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 350 rings, 4,867 straight (13,432 mm) / 763 curved (1,151 mm); text 782 rings, 5,148 straight (5,662 mm) / 1,839 curved (2,500 mm); tb 24 rings, 158 straight (241 mm) / 38 curved (49.2 mm)
+- **Centre lines:** 8,058 paths (146 closed); straight 11,394 mm, curved 390 mm; horizontal 4,737 mm, vertical 2,261 mm, diagonal 4,396 mm
+- **Circles and arcs:** 11 circles, 67 arcs; largest r 4.1 @ (304.6, 123.8), r 3.9 @ (137.2, 103.9), r 3.8 @ (147.2, 116.6), r 3.7 @ (137.2, 47.3)
+- **Closed boxes:** 28 (4 in the title block); named: WBS WAAD-Beck bybtemb LTD; MATL; M455 AUXILIARY MODULE SCHEMATIC; 3538; 455-02-001
+- **Words (OCR):** 147 in 131 lines: Sw1 · Sw2 Jio · R36 R35 R3? · EXTERNAL · METER · 5k · 9i0 · 910 · vu · INPUT · Jii · R34< 8k2
+- **Title block:** (322, 13)–(398, 48) mm: WBS WAAD-Beck bybtemb LTD · PM · M455 · AUXILIARY MODULE · CKD_ 444 · SCHEMATIC · SCALE · it · TOLS_ · 455-02-001
+- **Wiring (first pass):** 101 connected wire groups from 398 runs; labelled ends: 432 mm → MATL, 055, zep, 225L; 230 mm → 88, R28, 300, IE6; 119 mm → 88, 1E4; 107 mm → Tip298R42, 5.6, R43, PN3569; 98 mm → C4, 22/25, CRA, 1n4003
+
+Every curve, box, word and wire group: [19xx - DOC - 455-02-001 - COM REG (traced).json](19xx%20-%20DOC%20-%20455-02-001%20-%20COM%20REG%20%28traced%29.json) (the CAD file: `19xx - DOC - 455-02-001 - COM REG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

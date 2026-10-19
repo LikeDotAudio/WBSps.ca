@@ -23,6 +23,18 @@ Wiki page: [Job-940009](../../../PAGES/Job-940009.md)
 - **Size:** 668,583 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940009-04-002, size D 864 × 558 mm, 2000 × 1292 px traced (0.432 mm/px)
+- **Ink extent:** 100–863 mm across, 15–516 mm up
+- **Outlines:** line 1,023 rings, 8,708 straight (50,814 mm) / 1,124 curved (2,967 mm); text 227 rings, 1,479 straight (3,279 mm) / 395 curved (1,001 mm); tb 17 rings, 155 straight (362 mm) / 29 curved (60.9 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 4.7 @ (457.5, 294.0), r 4.6 @ (457.0, 264.2), r 4.6 @ (459.7, 386.1), r 4.6 @ (501.6, 263.4)
+- **Closed boxes:** 126 (2 in the title block); named: 04-002 940009-
+- **Words (OCR):** 14 in 9 lines: il · 2034 · 88' 666 · WBS WARD BECK SYSTEMS · KCET · MicroCoM MATRIX · REAR LAYOUT · 940009- · 04-002
+- **Title block:** (682, 48)–(850, 80) mm: WBS WARD BECK SYSTEMS · KCET
+
+Every curve, box, word and wire group: [1994 - 940009-04-002 - KCET MicroCOM II MATRIX REAR LAYOUT - DRN WS - ENG WS - ISS 2 (traced).json](1994%20-%20940009-04-002%20-%20KCET%20MicroCOM%20II%20MATRIX%20REAR%20LAYOUT%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940009-04-002 - KCET MicroCOM II MATRIX REAR LAYOUT - DRN WS - ENG WS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

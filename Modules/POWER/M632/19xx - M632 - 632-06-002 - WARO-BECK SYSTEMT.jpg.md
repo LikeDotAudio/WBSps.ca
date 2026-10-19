@@ -11,6 +11,18 @@ Wiki page: [M632](../../../PAGES/M632.md)
 - **Size:** 436,498 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 632-06-002, size B (assumed) 432 × 291 mm, 2000 × 1348 px traced (0.216 mm/px)
+- **Ink extent:** 3–431 mm across, 0–285 mm up
+- **Outlines:** line 767 rings, 8,245 straight (14,090 mm) / 1,282 curved (1,398 mm); text 137 rings, 1,054 straight (918 mm) / 362 curved (430 mm); tb 51 rings, 883 straight (1,515 mm) / 267 curved (269 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.8 @ (168.4, 197.6)
+- **Dots (junctions):** 1
+- **Words (OCR):** 24 in 23 lines: cio1 · R1oi · Q1o1 · P2 · Tioi · 9-104 PCb · Sw101 · R9 · Dsi01 · Fio1 · ISSUIDATE · APP:
+- **Title block:** (331, 0)–(432, 49) mm: ISSUIDATE · APP: · WBS · ENG · M632/M6324 · CKD · POWER SUPFLY · COMPONENT LAYOUT · SCALE · ISsu · 632-06-002
+
+Every curve, box, word and wire group: [19xx - M632 - 632-06-002 - WARO-BECK SYSTEMT (traced).json](19xx%20-%20M632%20-%20632-06-002%20-%20WARO-BECK%20SYSTEMT%20%28traced%29.json) (the CAD file: `19xx - M632 - 632-06-002 - WARO-BECK SYSTEMT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

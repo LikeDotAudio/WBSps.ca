@@ -23,6 +23,19 @@ CBC Regina turret layout drawing with top, front, rear and side views, title blo
 - **Size:** 484,991 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 960296-04-004, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 95–848 mm across, 15–441 mm up
+- **Outlines:** line 665 rings, 4,549 straight (26,598 mm) / 937 curved (2,729 mm); text 159 rings, 934 straight (1,948 mm) / 304 curved (772 mm); tb 29 rings, 199 straight (457 mm) / 53 curved (139 mm)
+- **Circles and arcs:** 23 circles, 0 arcs; largest r 9.1 @ (269.3, 236.3), r 8.8 @ (275.4, 100.9), r 8.4 @ (182.7, 236.9), r 7.5 @ (269.3, 236.1)
+- **Closed boxes:** 70 (2 in the title block); named: TALKBACR SPEAKER HEADSET; TALKBACR SPEAKER HEADSET; HEADSET; 960296- 004
+- **Dots (junctions):** 2
+- **Words (OCR):** 20 in 17 lines: TALKBACR · SPEAKER HEADSET · TURRET_PROTILE · TOP MEW · FRONT · CONNEcTDX · HEADSET · ISSVELDATE · END · WBS · WARD-BECK SYSTEMS · REAR VIEW
+- **Title block:** (693, 46)–(862, 87) mm: ISSVELDATE · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1996 - 960296-04-004 - CBC REGINA REMOTE TURRET AUX ON-AIR CONTROL LAYOUTS - DRN DRG - ISS 1 (traced).json](1996%20-%20960296-04-004%20-%20CBC%20REGINA%20REMOTE%20TURRET%20AUX%20ON-AIR%20CONTROL%20LAYOUTS%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960296-04-004 - CBC REGINA REMOTE TURRET AUX ON-AIR CONTROL LAYOUTS - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

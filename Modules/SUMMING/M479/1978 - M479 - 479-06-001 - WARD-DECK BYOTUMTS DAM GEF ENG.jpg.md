@@ -11,6 +11,19 @@ Wiki page: [M479](../../../PAGES/M479.md)
 - **Size:** 312,385 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 479-06-001, size B (assumed) 432 × 342 mm, 2000 × 1585 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–328 mm up
+- **Outlines:** line 313 rings, 3,897 straight (10,659 mm) / 1,024 curved (1,059 mm); text 706 rings, 5,364 straight (5,007 mm) / 1,760 curved (2,024 mm); tb 639 rings, 4,746 straight (5,773 mm) / 1,495 curved (1,646 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 9.1 @ (132.8, 279.4), r 3.9 @ (274.9, 273.5), r 1.3 @ (83.9, 292.1), r 1.1 @ (234.8, 283.9)
+- **Closed boxes:** 21 (9 in the title block); named: R2z 5 k WBS 10-015; 5/82; Pr M; GEB; [0/77; WBS; M479 MODULE Auxiliary DUAL LAYOUT
+- **Dots (junctions):** 2
+- **Words (OCR):** 136 in 131 lines: R76 e29 · R78 92 · R4 22* · R3 22* · CRis 22k · R7 · Rib · Sk · 82 ~cio_ · Sk · Ris _2k · Riogek
+- **Title block:** (50, 0)–(362, 258) mm: R2z · 5 k · 2241 22 · 23 · 22p1 · WBS · C27 · C28 · 24 · 10-015 · Lm3oi · Lm3oi · M30i · Lmzoi · {lie · ~C6 · Dsz · FLvI7 · R2 z04 · ~R4B Jek · ~R4S · ek2 · 2n3645 · 203545 · 08 · 03 · R43 %5 · Rs7 $7
+
+Every curve, box, word and wire group: [1978 - M479 - 479-06-001 - WARD-DECK BYOTUMTS DAM GEF ENG (traced).json](1978%20-%20M479%20-%20479-06-001%20-%20WARD-DECK%20BYOTUMTS%20DAM%20GEF%20ENG%20%28traced%29.json) (the CAD file: `1978 - M479 - 479-06-001 - WARD-DECK BYOTUMTS DAM GEF ENG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

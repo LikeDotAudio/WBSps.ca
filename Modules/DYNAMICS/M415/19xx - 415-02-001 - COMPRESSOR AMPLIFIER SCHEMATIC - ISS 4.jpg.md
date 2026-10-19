@@ -22,6 +22,20 @@ Wide amplifier schematic strip with title block at bottom right.
 - **Size:** 5,250,722 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 415-02-001, size B 432 × 137 mm, 2000 × 636 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–118 mm up
+- **Outlines:** line 1,630 rings, 12,518 straight (17,490 mm) / 2,779 curved (3,374 mm); text 141 rings, 683 straight (536 mm) / 194 curved (230 mm)
+- **Centre lines:** 10,894 paths (398 closed); straight 10,452 mm, curved 241 mm; horizontal 3,636 mm, vertical 2,879 mm, diagonal 3,937 mm
+- **Circles and arcs:** 3 circles, 41 arcs; largest r 3.5 @ (264.5, 32.7), r 3.3 @ (33.0, 51.0), r 0.7 @ (180.8, 5.7)
+- **Closed boxes:** 4
+- **Dots (junctions):** 10
+- **Words (OCR):** 26 in 24 lines: EXTECNA C ONTAOL · CiRSUIT · 4*7 · 01594 · (-66 · D 547 · CUTPUT · Toc · T4 · ILEYEL · Le · Ico*L
+- **Wiring (first pass):** 128 connected wire groups from 961 runs, 2 dotted junctions; labelled ends: 176 mm → 4*7; 116 mm → Le; 115 mm → R8; 80 mm → Toc, Crs; 68 mm → 244037
+
+Every curve, box, word and wire group: [19xx - 415-02-001 - COMPRESSOR AMPLIFIER SCHEMATIC - ISS 4 (traced).json](19xx%20-%20415-02-001%20-%20COMPRESSOR%20AMPLIFIER%20SCHEMATIC%20-%20ISS%204%20%28traced%29.json) (the CAD file: `19xx - 415-02-001 - COMPRESSOR AMPLIFIER SCHEMATIC - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

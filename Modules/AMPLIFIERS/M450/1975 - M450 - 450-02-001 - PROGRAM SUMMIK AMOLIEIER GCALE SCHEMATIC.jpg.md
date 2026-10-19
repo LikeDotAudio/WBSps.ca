@@ -11,6 +11,20 @@ Wiki page: [M450](../../../PAGES/M450.md)
 - **Size:** 7,017,255 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 450-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–287 mm up
+- **Outlines:** line 687 rings, 8,436 straight (16,403 mm) / 1,648 curved (2,157 mm); text 804 rings, 4,711 straight (4,458 mm) / 1,746 curved (2,118 mm); tb 35 rings, 263 straight (277 mm) / 69 curved (88.5 mm)
+- **Centre lines:** 12,905 paths (219 closed); straight 12,968 mm, curved 428 mm; horizontal 4,503 mm, vertical 3,274 mm, diagonal 5,192 mm
+- **Circles and arcs:** 15 circles, 55 arcs; largest r 3.6 @ (201.0, 105.3), r 3.5 @ (332.9, 188.5), r 3.4 @ (332.6, 132.6), r 3.3 @ (139.1, 178.5)
+- **Closed boxes:** 20 (2 in the title block); named: H4so; M450 AweLiEiR; 2g1k!; D50-02-0
+- **Words (OCR):** 170 in 152 lines: R36 · C24 · R38 · Tip3o8 · 6800p · +I6v · CRS · <RS9 · -{6v · 3669 · I2yo · C28
+- **Title block:** (348, 8)–(400, 36) mm: WARD- · SCALE · D50-02-0
+- **Wiring (first pass):** 127 connected wire groups from 737 runs; labelled ends: 274 mm → 24v, c22, IcoOp, C18; 196 mm → Ri8, Rzo, 1k8, 10; 163 mm → H4so, 3L752L, pszo, 2g1k!; 163 mm → C28, 22on10, R37, C26; 148 mm → 330/6, RI5, 3k2, C14
+
+Every curve, box, word and wire group: [1975 - M450 - 450-02-001 - PROGRAM SUMMIK AMOLIEIER GCALE SCHEMATIC (traced).json](1975%20-%20M450%20-%20450-02-001%20-%20PROGRAM%20SUMMIK%20AMOLIEIER%20GCALE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1975 - M450 - 450-02-001 - PROGRAM SUMMIK AMOLIEIER GCALE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -11,6 +11,21 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 5,512,167 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 452-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 20–305 mm up
+- **Outlines:** line 1,136 rings, 8,853 straight (12,589 mm) / 1,415 curved (1,745 mm); text 869 rings, 4,345 straight (3,333 mm) / 1,345 curved (1,554 mm); tb 14 rings, 106 straight (146 mm) / 18 curved (22.9 mm)
+- **Centre lines:** 6,661 paths (174 closed); straight 8,299 mm, curved 100 mm; horizontal 2,856 mm, vertical 2,346 mm, diagonal 3,097 mm
+- **Circles and arcs:** 0 circles, 23 arcs
+- **Closed boxes:** 26 (4 in the title block); named: 452 02 ool
+- **Dots (junctions):** 2
+- **Words (OCR):** 186 in 158 lines: Chassis · 22 · 820 · R4s · JSa · ci5 · CR · 25V · 22/25 · 1n4003 · 2n3563 · 02
+- **Title block:** (343, 24)–(405, 54) mm: WBS WAD-Beck byetami} LTO · DrIA Ho4s · M 452 · DAIE JLL1L OSCILLATOR SCHEMATIC · cKD · ScALE · LC · ToLs · 452 02 ool
+- **Wiring (first pass):** 122 connected wire groups from 689 runs; labelled ends: 684 mm → Mop [cko, zoge, Ral, WBS; 111 mm → 88288, 7164, 624, 6i0; 62 mm → 09 7cia, P52; 55 mm → CR 2; 48 mm → CR 2, C7 149iq
+
+Every curve, box, word and wire group: [1976 - 76045 - 452-02-001 - WAAD-BECK BYATAMR LTO (traced).json](1976%20-%2076045%20-%20452-02-001%20-%20WAAD-BECK%20BYATAMR%20LTO%20%28traced%29.json) (the CAD file: `1976 - 76045 - 452-02-001 - WAAD-BECK BYATAMR LTO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

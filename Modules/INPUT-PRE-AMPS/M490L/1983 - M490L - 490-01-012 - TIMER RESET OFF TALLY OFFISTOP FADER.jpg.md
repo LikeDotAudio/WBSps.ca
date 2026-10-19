@@ -11,6 +11,19 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 225,744 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-012, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 9–426 mm up
+- **Outlines:** line 434 rings, 5,295 straight (10,074 mm) / 862 curved (1,312 mm); text 261 rings, 2,273 straight (2,690 mm) / 734 curved (1,208 mm)
+- **Centre lines:** 2,927 paths (32 closed); straight 6,625 mm, curved 134 mm; horizontal 2,484 mm, vertical 2,030 mm, diagonal 2,111 mm
+- **Circles and arcs:** 6 circles, 9 arcs; largest r 4.9 @ (259.0, 156.8), r 4.5 @ (218.6, 156.6), r 2.3 @ (15.9, 165.0), r 1.6 @ (32.7, 164.9)
+- **Closed boxes:** 7; named: Pgmi CUE CTL Logic
+- **Words (OCR):** 46 in 43 lines: FADER · (-10db) Ch OM · BAL · inseRT · insER · LEfT · B LEFT · SENSitivity · (z0db) · LINe · inputs · CUE
+- **Wiring (first pass):** 192 connected wire groups from 447 runs; labelled ends: 130 mm → (-10db), CUE; 121 mm → LEfT, B Right, Input; 120 mm → Pgmi, CUE, CTL, Logic; 104 mm → Pgmi, CTL, Logic; 92 mm → insER
+
+Every curve, box, word and wire group: [1983 - M490L - 490-01-012 - TIMER RESET OFF TALLY OFFISTOP FADER (traced).json](1983%20-%20M490L%20-%20490-01-012%20-%20TIMER%20RESET%20OFF%20TALLY%20OFFISTOP%20FADER%20%28traced%29.json) (the CAD file: `1983 - M490L - 490-01-012 - TIMER RESET OFF TALLY OFFISTOP FADER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

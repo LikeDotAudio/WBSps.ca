@@ -25,6 +25,19 @@ Wiki page: [Job-940145](../../../PAGES/Job-940145.md)
 
 - **1972** (labelled): `DATE 01-72` — …SANDBLAST Mth #13 MEDIA REQ'D 0.50 REF CLEAN REVSICN ISSUE DATE 01-72 UNF 0.159 DIA c'Sk 82 DEG 0.25 DIA PLACES; WBS APp WARD-BEC…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940145-03-002, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 102–846 mm across, 0–514 mm up
+- **Outlines:** line 1,201 rings, 9,456 straight (43,774 mm) / 2,011 curved (5,417 mm); text 267 rings, 1,620 straight (2,776 mm) / 539 curved (1,293 mm); tb 60 rings, 407 straight (733 mm) / 123 curved (288 mm)
+- **Centre lines:** 13,643 paths (282 closed); straight 28,145 mm, curved 920 mm; horizontal 15,371 mm, vertical 5,413 mm, diagonal 7,361 mm
+- **Circles and arcs:** 16 circles, 26 arcs; largest r 10.1 @ (298.1, 410.6), r 10.1 @ (329.6, 411.3), r 10.1 @ (229.2, 410.2), r 10.1 @ (461.8, 412.7)
+- **Closed boxes:** 64 (12 in the title block)
+- **Words (OCR):** 46 in 46 lines: FACFS · 94145402 · DETI · SAND 120 · TEXCOTE · 0,550 · 7.630 · 1,052 · 050 Ma · DETAIL · DFTUL · 0.106 +0C01 diA
+- **Title block:** (681, 11)–(857, 79) mm: WBS · WARD-BECK   SYSTEMS · XLR PANEL · RACK   UNITS) · SCALE · 940145-03-002
+
+Every curve, box, word and wire group: [1994 - 940145-03-002 - XLR PANEL (3 RACK UNITS) - DRN WS - ENG WS - ISS 1 (traced).json](1994%20-%20940145-03-002%20-%20XLR%20PANEL%20%283%20RACK%20UNITS%29%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940145-03-002 - XLR PANEL (3 RACK UNITS) - DRN WS - ENG WS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

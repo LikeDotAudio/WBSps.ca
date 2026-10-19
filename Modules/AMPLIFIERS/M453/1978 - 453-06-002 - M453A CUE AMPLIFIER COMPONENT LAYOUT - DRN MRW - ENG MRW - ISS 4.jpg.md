@@ -24,6 +24,17 @@ Wiki page: [M453](../../../PAGES/M453.md)
 - **Size:** 4,477,434 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 453-06-002, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–287 mm across, 4–428 mm up
+- **Outlines:** line 978 rings, 7,281 straight (15,943 mm) / 2,022 curved (1,950 mm); text 543 rings, 3,260 straight (2,856 mm) / 1,180 curved (1,227 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 4.2 @ (225.0, 121.8), r 4.2 @ (81.2, 122.5), r 3.8 @ (74.8, 164.4), r 3.4 @ (116.2, 231.0)
+- **Closed boxes:** 40
+- **Words (OCR):** 4 in 4 lines: 18 · FFk · 50 · 18
+
+Every curve, box, word and wire group: [1978 - 453-06-002 - M453A CUE AMPLIFIER COMPONENT LAYOUT - DRN MRW - ENG MRW - ISS 4 (traced).json](1978%20-%20453-06-002%20-%20M453A%20CUE%20AMPLIFIER%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1978 - 453-06-002 - M453A CUE AMPLIFIER COMPONENT LAYOUT - DRN MRW - ENG MRW - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

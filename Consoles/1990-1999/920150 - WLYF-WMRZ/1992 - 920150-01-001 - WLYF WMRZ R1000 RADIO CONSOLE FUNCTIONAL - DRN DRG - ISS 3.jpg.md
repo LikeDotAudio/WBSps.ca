@@ -28,6 +28,20 @@ Radio console functional block diagram with title block at bottom right.
 
 - **2015** (manual_issue): `ISSUE CODE: 92150F01 92015` — …G; R1Ooo RADIO CONSOLE CKDBLt APP FUNCTIONAL SCALE DISC NO; ISSUE CODE: 92150F01 920150-01 001…
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920150-01-001, size D 864 × 558 mm, 2000 × 1293 px traced (0.432 mm/px); scale DISC NO;
+- **Ink extent:** 47–843 mm across, 13–533 mm up
+- **Outlines:** line 652 rings, 5,450 straight (30,859 mm) / 969 curved (2,454 mm); text 1,109 rings, 8,168 straight (13,520 mm) / 2,247 curved (5,266 mm); tb 12 rings, 94 straight (271 mm) / 21 curved (55.4 mm)
+- **Centre lines:** 19,860 paths (376 closed); straight 26,943 mm, curved 16.8 mm; horizontal 8,753 mm, vertical 7,998 mm, diagonal 10,192 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 115 (14 in the title block); named: Right INSERT; PGM 1 R; PGM; RIGHL INSERI; PGH 2-L; PCM 2-R; METERSELECICR; AUX-L; RUXCR; CUE; PGM; RIGHI INSERT
+- **Words (OCR):** 242 in 216 lines: MCROPHONE_INPUI CHANNELS CH9 CHQ · PGH · PGM · CUE · VICROPHONE · @EF · INSERT · PROGRAM SIEREQ · QUIPUIS · METRS · 60/- 30 @Bm NOT · INPUTS
+- **Title block:** (675, 10)–(856, 78) mm: SSUE] DAIE · Ravsiom · WBS · WARD-BECK SYSTEMS · DRN; · ENG; · DRG · WL YF /WMRZ · CKDBLt · R1Ooo RADIO CONSOLE · FUNCTIONAL · APP · SCALE DISC NO; · CODE: · 92150F01 · 920150-01 001 · ISSUE
+- **Wiring (first pass):** 228 connected wire groups from 781 runs; labelled ends: 3273 mm → CUE, PGH, INSERT, SIEREQ_INPUL CHANNELS_CHL_CHR; 431 mm → PROGRAM; 247 mm → SIEREQ, QUIPUIS, LEFT INSERT; 191 mm → SIEREQ, QUIPUIS, LEFT INSERT; 97 mm → EXTRNAPOKER, POWER_SUPELX
+
+Every curve, box, word and wire group: [1992 - 920150-01-001 - WLYF WMRZ R1000 RADIO CONSOLE FUNCTIONAL - DRN DRG - ISS 3 (traced).json](1992%20-%20920150-01-001%20-%20WLYF%20WMRZ%20R1000%20RADIO%20CONSOLE%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1992 - 920150-01-001 - WLYF WMRZ R1000 RADIO CONSOLE FUNCTIONAL - DRN DRG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 24 words corrected)

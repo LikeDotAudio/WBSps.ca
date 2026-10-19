@@ -16,6 +16,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 
 - **1974** (labelled): `DATE NOV 74` — …{OOOp Sk ~I5v ON MATL . WBS WARD-BECK BYSTEMB LTD' DRN: DM DATE NOV 74 CKD Rxxf SCALE XX TOLs . "ANG 4-141 SUMMinG AMPLIFIER SCHEM…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-141-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 205 rings, 5,421 straight (9,534 mm) / 874 curved (1,200 mm); text 461 rings, 4,823 straight (6,649 mm) / 1,176 curved (2,112 mm); tb 40 rings, 394 straight (660 mm) / 69 curved (128 mm)
+- **Centre lines:** 9,027 paths (62 closed); straight 11,009 mm, curved 99.4 mm; horizontal 3,653 mm, vertical 2,391 mm, diagonal 4,965 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 12 (3 in the title block); named: WBS LTD_ BySTEMB WAAD-BECK; MATL; 4-141 AMPLIFIER SUMMING SCHEMATIC; FINISH; ISS.; 4-141-02-001; TOLS _
+- **Words (OCR):** 81 in 69 lines: NOTES · SELECTED · zi IS · FACTORY · CI · NOMINAL · VALUE 330pF · R9 WAS 7K5 | · ON · Previous isSuEs · R2u WAS · Not INCLUDED
+- **Title block:** (100, 16)–(251, 343) mm: CI · NOMINAL · VALUE 330pF · R9 WAS 7K5 | · ON · Previous isSuEs · R2u WAS · Not INCLUDED · LAsT COMPONENTS · C 23 04 · 026 22 · R2O 620 · C14 · R18 · 22 · 2k4 C12 · LMzOL · Rig · 47p · ci · SEe · ISk
+- **Wiring (first pass):** 25 connected wire groups from 134 runs; labelled ends: 206 mm → IOOOP, Sk, ON; 173 mm → DRN:, DATE NOV, CKD; 87 mm → LTD_, WAAD-BECK, BySTEMB; 83 mm → SUMMING, SCHEMATIC, 4-141-02-001, ISS.; 78 mm → LTD_, WAAD-BECK, BySTEMB, 4-141
+
+Every curve, box, word and wire group: [1974 - M463 - 4-141-02-001 - TORY SELECTED IAL VALUE (traced).json](1974%20-%20M463%20-%204-141-02-001%20-%20TORY%20SELECTED%20IAL%20VALUE%20%28traced%29.json) (the CAD file: `1974 - M463 - 4-141-02-001 - TORY SELECTED IAL VALUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

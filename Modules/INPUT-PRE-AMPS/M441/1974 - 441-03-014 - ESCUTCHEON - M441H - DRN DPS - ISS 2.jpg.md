@@ -23,6 +23,19 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 1,468,551 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 441-03-014, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 8–298 mm up
+- **Outlines:** line 398 rings, 5,911 straight (13,104 mm) / 725 curved (1,005 mm); text 572 rings, 3,861 straight (4,372 mm) / 1,256 curved (1,838 mm); tb 58 rings, 428 straight (579 mm) / 101 curved (138 mm)
+- **Centre lines:** 8,324 paths (116 closed); straight 10,920 mm, curved 127 mm; horizontal 4,783 mm, vertical 2,605 mm, diagonal 3,533 mm
+- **Circles and arcs:** 2 circles, 21 arcs; largest r 6.6 @ (192.5, 161.1), r 1.0 @ (271.9, 172.0)
+- **Closed boxes:** 38 (25 in the title block); named: ESCUTCHEON -M44lH; FINISH AloTes SEE; ISS_; 441-03-014; 0i5 TOLS _
+- **Words (OCR):** 86 in 63 lines: 53 · 6.625 · 4-s0 · 26 · Holes .(56 DiA · 18 Deep · From Opp SidE · 50 DIA · 2 HoLes 8-32 ThD · c'sk 32 70 · "23DIA · See
+- **Title block:** (61, 17)–(413, 67) mm: Sc raTChES. · showN · 09 High · ISS MOD IcKD · USED ON · p9s · WBS WARD-BECK · SYSTEMS LtD · SpEc · (2006 · 963 · Maalh · WBs · 2 45 · Thick · BLACK · DRN DP9 · FINISH · [DATE 9 MAZ 74 · ESCUTCHEON -M
+
+Every curve, box, word and wire group: [1974 - 441-03-014 - ESCUTCHEON - M441H - DRN DPS - ISS 2 (traced).json](1974%20-%20441-03-014%20-%20ESCUTCHEON%20-%20M441H%20-%20DRN%20DPS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1974 - 441-03-014 - ESCUTCHEON - M441H - DRN DPS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

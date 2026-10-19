@@ -20,6 +20,21 @@ SA14-107 upper mono input modules schematic with title block at bottom right.
 - **Size:** 293,351 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-107-02-001, size B 432 × 305 mm, 2000 × 1413 px traced (0.216 mm/px)
+- **Ink extent:** 0–416 mm across, 19–280 mm up
+- **Outlines:** line 1,457 rings, 9,275 straight (16,518 mm) / 1,711 curved (1,968 mm); text 189 rings, 1,128 straight (1,012 mm) / 342 curved (430 mm); tb 2 rings, 35 straight (93.6 mm) / 2 curved (3.5 mm)
+- **Centre lines:** 7,654 paths (151 closed); straight 9,740 mm, curved 45.7 mm; horizontal 5,801 mm, vertical 1,668 mm, diagonal 2,272 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 21
+- **Dots (junctions):** 2
+- **Words (OCR):** 26 in 22 lines: MX BUSES · BUSES · CHANKEL · EQ INSERT · INSERT · CoM · CoM · CoV · CCV · ccu · CcM · CCV
+- **Title block:** (336, 49)–(426, 66) mm: WBS WARD-BECK SYSTEMS · SA14-107
+- **Wiring (first pass):** 188 connected wire groups from 1,172 runs, 8 dotted junctions; labelled ends: 11 mm → S4 ELD; 8 mm → CoM; 7 mm → CcM; 7 mm → EQ INSERT; 7 mm → CoM
+
+Every curve, box, word and wire group: [19xx - 14-107-02-001 - SA14-107 UPPER MONO INPUT MODULES SCHEMATIC - ISS 2 (traced).json](19xx%20-%2014-107-02-001%20-%20SA14-107%20UPPER%20MONO%20INPUT%20MODULES%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 14-107-02-001 - SA14-107 UPPER MONO INPUT MODULES SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -22,6 +22,18 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,320,550 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 880651-02-009, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 9–432 mm across, 18–284 mm up
+- **Outlines:** line 542 rings, 4,627 straight (9,259 mm) / 957 curved (1,381 mm); text 377 rings, 2,395 straight (2,823 mm) / 544 curved (822 mm)
+- **Centre lines:** 4,185 paths (52 closed); straight 6,325 mm, curved 502 mm; horizontal 2,246 mm, vertical 1,876 mm, diagonal 2,203 mm
+- **Circles and arcs:** 22 circles, 88 arcs; largest r 1.4 @ (205.1, 105.9), r 1.4 @ (145.4, 105.9), r 1.4 @ (203.7, 100.7), r 1.3 @ (144.0, 100.7)
+- **Closed boxes:** 9
+- **Wiring (first pass):** 53 connected wire groups from 504 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-009 - MONITOR MIX SUMMING SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%20880651-02-009%20-%20MONITOR%20MIX%20SUMMING%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-009 - MONITOR MIX SUMMING SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -21,6 +21,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,558,675 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-110-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 12–298 mm up
+- **Outlines:** line 402 rings, 8,182 straight (15,697 mm) / 1,064 curved (1,551 mm); text 755 rings, 6,143 straight (7,623 mm) / 1,861 curved (2,885 mm); tb 58 rings, 509 straight (711 mm) / 105 curved (156 mm)
+- **Centre lines:** 14,086 paths (143 closed); straight 15,838 mm, curved 257 mm; horizontal 5,876 mm, vertical 3,363 mm, diagonal 6,598 mm
+- **Circles and arcs:** 5 circles, 20 arcs; largest r 6.5 @ (193.0, 236.6), r 6.5 @ (151.7, 226.3), r 6.2 @ (87.1, 196.3), r 6.1 @ (120.7, 196.2)
+- **Closed boxes:** 28 (21 in the title block); named: FINISH; 4-110-02-001; 3690; ML
+- **Words (OCR):** 132 in 123 lines: PRE · AMPLIFIER · HIGH · PASS FILTER · E4 · +21v · R4 · RS · C6 · 22k · 18 · C12
+- **Title block:** (149, 19)–(375, 70) mm: Iss · MOD CCKD · USED ON · MATL _ · WBS WARD-BECK · pcl · DRN: · Do · 4-110 · pez · FINISH · CKD · PRE-AMP/HP FILTER · Jiuv · Rc · SCHEMATIC · SCALE · 3591 PKM · TOLS _ · 4-110-02-001
+- **Wiring (first pass):** 68 connected wire groups from 448 runs; labelled ends: 607 mm → E4, +21v, RS, 18; 416 mm → 1k5, RI2, 150, E9; 335 mm → C12, 33/10, Q4, 2N4403; 276 mm → 063, *Cio, 33 pF, Ris; 148 mm → Itzi, IOpF, 2N5209, R6
+
+Every curve, box, word and wire group: [1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM - ISS 8 (traced).json](1974%20-%204-110-02-001%20-%204-110%20PRE-AMP%20HP%20FILTER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%208%20%28traced%29.json) (the CAD file: `1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM - ISS 8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -9,6 +9,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,184,277 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–430 mm up
+- **Outlines:** line 727 rings, 15,693 straight (29,206 mm) / 1,855 curved (2,686 mm); text 552 rings, 4,216 straight (3,934 mm) / 1,227 curved (1,615 mm)
+- **Closed boxes:** 176; named: 20; 21; 22; 20; 21 22; 23; 2 4; 15
+- **Words (OCR):** 110 in 58 lines: 20 · 21 · 22 · iNPUT MODULE · INSERTION SEND · 23 · INPUT MODULE INSERTION RETURN · INPuT MODULE INSERT ION SEND · INSERTION RETURN · DULE INSERT ION'SEND · output INSERTIONS · L/ci
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_3 iss 1 - 31106-04-003 - SEND OUT SEND OUT SEND OUT SEND OUT (traced).json](1977%20-%2031106-04-003_3%20iss%201%20-%2031106-04-003%20-%20SEND%20OUT%20SEND%20OUT%20SEND%20OUT%20SEND%20OUT%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_3 iss 1 - 31106-04-003 - SEND OUT SEND OUT SEND OUT SEND OUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

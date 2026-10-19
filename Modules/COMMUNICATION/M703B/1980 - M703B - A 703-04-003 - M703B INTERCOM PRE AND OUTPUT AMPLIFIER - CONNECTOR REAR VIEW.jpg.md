@@ -11,6 +11,17 @@ Wiki page: [M703B](../../../PAGES/M703B.md)
 - **Size:** 314,510 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 703-04-003, size B (assumed) 432 × 305 mm, 1753 × 1240 px traced (0.246 mm/px), turned 270°
+- **Ink extent:** 18–432 mm across, 0–302 mm up
+- **Outlines:** line 407 rings, 5,785 straight (14,094 mm) / 721 curved (1,194 mm); text 488 rings, 3,713 straight (4,918 mm) / 869 curved (1,443 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.2 @ (47.2, 69.0), r 2.2 @ (216.5, 10.8)
+- **Closed boxes:** 89
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW (traced).json](1980%20-%20M703B%20-%20A%20703-04-003%20-%20M703B%20INTERCOM%20PRE%20AND%20OUTPUT%20AMPLIFIER%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

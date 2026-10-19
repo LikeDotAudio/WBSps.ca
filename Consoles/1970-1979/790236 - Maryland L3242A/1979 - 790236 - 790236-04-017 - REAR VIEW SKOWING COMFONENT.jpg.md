@@ -10,6 +10,17 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 19,907,566 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-017, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–139 mm up
+- **Outlines:** line 363 rings, 4,115 straight (9,197 mm) / 552 curved (666 mm); text 26 rings, 209 straight (173 mm) / 62 curved (79.6 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 1.7 @ (4.6, 69.2), r 1.2 @ (99.0, 81.7), r 1.0 @ (407.8, 5.6)
+- **Closed boxes:** 61
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-017 - REAR VIEW SKOWING COMFONENT (traced).json](1979%20-%20790236%20-%20790236-04-017%20-%20REAR%20VIEW%20SKOWING%20COMFONENT%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-017 - REAR VIEW SKOWING COMFONENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

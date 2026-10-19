@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,339,431 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 445-03-007, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NOM: |M445
+- **Ink extent:** 47–432 mm across, 0–298 mm up
+- **Outlines:** line 78 rings, 882 straight (2,497 mm) / 138 curved (243 mm); text 374 rings, 2,309 straight (2,658 mm) / 791 curved (1,092 mm); tb 17 rings, 359 straight (1,567 mm) / 30 curved (43.4 mm)
+- **Centre lines:** 2,763 paths (65 closed); straight 3,999 mm, curved 92.4 mm; horizontal 1,510 mm, vertical 1,037 mm, diagonal 1,452 mm
+- **Circles and arcs:** 4 circles, 3 arcs; largest r 6.2 @ (167.7, 136.0), r 6.2 @ (167.7, 155.5), r 2.0 @ (167.8, 122.7), r 1.2 @ (171.5, 99.5)
+- **Words (OCR):** 52 in 40 lines: 0.468 DIA; · 0.775 · 2 PLC'S. · 0.400 . · TAP · 6-32 THR' · 2 PLC'S · 1.750 · 2.150 · 0.750 · 775 · 0.700
+- **Title block:** (262, 20)–(408, 64) mm: ISSUE · REVISION · ApP · DRN: WS · M445 · ENG. WS · EXTENDED RANGE METER · CKD: · APP_ · JACK · STRIP · SCALE DISC NOM: |M445 · 1:1 CODE: MM445-7 · 445-03-007 · ISSUE
+
+Every curve, box, word and wire group: [19xx - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES (traced).json](19xx%20-%20DOC%20-%20445-03-007%20-%20NQTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `19xx - DOC - 445-03-007 - NQTES REMOVE ALL BURRS AND SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

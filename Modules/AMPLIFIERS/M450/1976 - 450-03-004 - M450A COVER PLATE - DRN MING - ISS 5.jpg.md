@@ -27,6 +27,19 @@ Wiki page: [M450](../../../PAGES/M450.md)
 
 - **1976** (labelled): `DATE 2 MAR . 76` — …. WBS WARD-BECK SYSTEMS LTD. ALIM AlLOY. ( 16 GK) DRN: Ming DATE 2 MAR . 76 FINISH CKD. Oh: AODIZE BLACK _ SCALE 1,015 TOLS _ T 095 1 3…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 450-03-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 2–298 mm up
+- **Outlines:** line 538 rings, 6,819 straight (13,110 mm) / 903 curved (1,064 mm); text 289 rings, 2,009 straight (2,273 mm) / 622 curved (926 mm); tb 44 rings, 302 straight (468 mm) / 57 curved (82.0 mm)
+- **Centre lines:** 10,462 paths (65 closed); straight 10,052 mm, curved 48.1 mm; horizontal 4,416 mm, vertical 2,644 mm, diagonal 2,992 mm
+- **Circles and arcs:** 0 circles, 13 arcs
+- **Closed boxes:** 43 (28 in the title block); named: WBS WARD-BECK SYSTEMS LTD_; PL Lte M4 504 COVER; FINISH AHODIZE BLACK; A5o - 03 O04; ISS_; 1,015 TOLS _
+- **Words (OCR):** 46 in 36 lines: "25 · 45 · 77 TYE · 1.470 · 2.,940 · 2.480 · 425 · 380 · FULL RAD . · .250 · 5.A0O · .30 DIA ~ 2 FLACES
+- **Title block:** (140, 15)–(412, 66) mm: Ilss MOD  CKD: · USED ON · MATL · 2654 · WBS WARD-BECK SYSTEMS LTD_ · ALIM . MLOY . ( I6 GAJ) · DRN: Ming · FINISH · DATE 2 ,MAR · PL Lte · CKD · M4 504 COVER · AHODIZE BLACK · SCALE · TOLS _ · 1,015 
+
+Every curve, box, word and wire group: [1976 - 450-03-004 - M450A COVER PLATE - DRN MING - ISS 5 (traced).json](1976%20-%20450-03-004%20-%20M450A%20COVER%20PLATE%20-%20DRN%20MING%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1976 - 450-03-004 - M450A COVER PLATE - DRN MING - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

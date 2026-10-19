@@ -24,6 +24,18 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 4,045,274 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 490-06-004, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–286 mm across, 0–428 mm up
+- **Outlines:** line 3,034 rings, 19,241 straight (25,727 mm) / 5,147 curved (4,929 mm); text 401 rings, 2,254 straight (1,736 mm) / 717 curved (724 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 3.6 @ (151.8, 52.1), r 3.3 @ (131.3, 318.6), r 2.5 @ (143.6, 50.3), r 2.5 @ (226.8, 249.5)
+- **Closed boxes:** 43; named: Lh1oi; Dulight
+- **Dots (junctions):** 6
+- **Words (OCR):** 42 in 39 lines: R9 4o · R3 "52 · R4 5 · R52 &78 · R7o # · R4|23 · R43 414 · czo* r · Lh1oi · 24 · Ri9 L · c2i 42
+
+Every curve, box, word and wire group: [1978 - 490-06-004 - M490C LINE INPUT MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB (traced).json](1978%20-%20490-06-004%20-%20M490C%20LINE%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20%28traced%29.json) (the CAD file: `1978 - 490-06-004 - M490C LINE INPUT MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

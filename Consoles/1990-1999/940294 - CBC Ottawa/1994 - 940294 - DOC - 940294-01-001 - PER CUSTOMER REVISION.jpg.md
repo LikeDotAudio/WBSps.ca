@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,342,083 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940294-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 468
+- **Ink extent:** 0–428 mm across, 0–298 mm up
+- **Outlines:** line 154 rings, 1,740 straight (5,846 mm) / 166 curved (239 mm); text 1,103 rings, 7,083 straight (8,798 mm) / 1,993 curved (2,897 mm); tb 4 rings, 91 straight (229 mm) / 3 curved (3.9 mm)
+- **Centre lines:** 7,010 paths (148 closed); straight 8,341 mm, curved 40.6 mm; horizontal 2,591 mm, vertical 2,183 mm, diagonal 3,567 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 1.0 @ (250.7, 210.7)
+- **Closed boxes:** 32 (9 in the title block); named: AJE TECH SAVE TV4 PAGE REAL GRP CMA CNF ; SAVE PAGE; AJE; TECH; TV4; SAVE PAGE; REAL; GRP; CLR; CLR; SCALE; 940294_04-002
+- **Words (OCR):** 134 in 77 lines: BUS NUMBER · STATION NAME · CODE · TERMNA_IYPE · AJE · AJE · M7880D · TECHNIQUE · TECH · M7880H · MZ880D · TV4
+- **Title block:** (245, 11)–(415, 84) mm: UPDATED AS PER CUSTOMER · ISSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN. · W.S · CBC OTTAWA · ENG SM · MNEMONIC AND CODE · CKD: · APP_ · LA YOUT · SCALE DISC NO: 468 · ISSUE · CODE: 94294L02 
+- **Wiring (first pass):** 73 connected wire groups from 121 runs; labelled ends: 62 mm → KEYPAD, AJE, PAGE, GRP; 48 mm → CNF; 46 mm → KEYPAD, LAYOUI, SAVE; 35 mm → CLR; 24 mm → KEYPAD, AJE, REAL
+
+Every curve, box, word and wire group: [1994 - 940294 - DOC - 940294-01-001 - PER CUSTOMER REVISION (traced).json](1994%20-%20940294%20-%20DOC%20-%20940294-01-001%20-%20PER%20CUSTOMER%20REVISION%20%28traced%29.json) (the CAD file: `1994 - 940294 - DOC - 940294-01-001 - PER CUSTOMER REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

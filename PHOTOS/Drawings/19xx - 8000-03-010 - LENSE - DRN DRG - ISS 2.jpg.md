@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 754,067 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8000-03-010, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 381
+- **Ink extent:** 46–427 mm across, 0–298 mm up
+- **Outlines:** line 89 rings, 841 straight (4,168 mm) / 108 curved (142 mm); text 516 rings, 3,296 straight (4,074 mm) / 1,035 curved (1,548 mm); tb 2 rings, 73 straight (188 mm) / 5 curved (7.9 mm)
+- **Centre lines:** 3,036 paths (79 closed); straight 5,044 mm, curved 6.3 mm; horizontal 2,267 mm, vertical 1,060 mm, diagonal 1,718 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 16 (11 in the title block); named: 8000-03-010; SCALE 1:1; ISSUE; CODE: 800m1o
+- **Words (OCR):** 58 in 37 lines: 0.020 · 3.430 · 0.020 · *CAN · USE 900-03-019_1 · 1.480 · (SEE NOTES · NOTES: · REMOVE ALL · BURRS AND · SHARP   EDGES · MATERIAL: RED
+- **Title block:** (246, 17)–(416, 84) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: · DRG · ENG_ · LENSE · CKD · APP_ · SCALE DISC NO: 381 · ISSUE · 1:1 CODE: 800m1o · 8000-03-010
+
+Every curve, box, word and wire group: [19xx - 8000-03-010 - LENSE - DRN DRG - ISS 2 (traced).json](19xx%20-%208000-03-010%20-%20LENSE%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 8000-03-010 - LENSE - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

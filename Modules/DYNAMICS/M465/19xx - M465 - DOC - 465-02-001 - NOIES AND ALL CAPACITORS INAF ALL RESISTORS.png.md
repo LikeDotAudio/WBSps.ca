@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 13,946,197 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 465-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 11–298 mm up
+- **Outlines:** line 643 rings, 8,433 straight (18,894 mm) / 1,319 curved (1,718 mm); text 683 rings, 4,406 straight (4,305 mm) / 1,772 curved (2,244 mm); tb 20 rings, 126 straight (152 mm) / 31 curved (39.2 mm)
+- **Centre lines:** 11,996 paths (152 closed); straight 14,191 mm, curved 295 mm; horizontal 6,122 mm, vertical 3,146 mm, diagonal 4,923 mm
+- **Circles and arcs:** 4 circles, 72 arcs; largest r 3.0 @ (44.1, 202.3), r 3.0 @ (150.6, 203.3), r 1.4 @ (31.9, 196.5), r 0.7 @ (172.4, 25.2)
+- **Closed boxes:** 22 (1 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 156 in 150 lines: 21v · LEFT · Sw3 · REVERB · 828253 · 2224 · RETURN · Sw7 · R-R ON · 713 · 12 < · Ris
+- **Title block:** (351, 21)–(387, 43) mm: WBS · WAAD · DRN · ECLE
+- **Wiring (first pass):** 143 connected wire groups from 804 runs, 3 dotted junctions; labelled ends: 412 mm → 2224, R5, R22, 390; 379 mm → BuZ, ECLE; 331 mm → R13, Ri2; 285 mm → REV: SEND, MASTER, 300; 193 mm → 18CONTROL CoMMON, R29, R3O 300, 300
+
+Every curve, box, word and wire group: [19xx - M465 - DOC - 465-02-001 - NOIES AND ALL CAPACITORS INAF ALL RESISTORS (traced).json](19xx%20-%20M465%20-%20DOC%20-%20465-02-001%20-%20NOIES%20AND%20ALL%20CAPACITORS%20INAF%20ALL%20RESISTORS%20%28traced%29.json) (the CAD file: `19xx - M465 - DOC - 465-02-001 - NOIES AND ALL CAPACITORS INAF ALL RESISTORS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

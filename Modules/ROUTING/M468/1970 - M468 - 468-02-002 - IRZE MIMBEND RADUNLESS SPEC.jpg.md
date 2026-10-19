@@ -12,6 +12,20 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 2,068,944 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 468-02-002, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 14–430 mm up
+- **Outlines:** line 349 rings, 4,575 straight (4,855 mm) / 780 curved (967 mm); text 304 rings, 2,428 straight (2,666 mm) / 598 curved (870 mm); tb 41 rings, 222 straight (173 mm) / 35 curved (35.8 mm)
+- **Centre lines:** 6,545 paths (46 closed); straight 5,440 mm, curved 117 mm; horizontal 1,796 mm, vertical 1,068 mm, diagonal 2,576 mm
+- **Circles and arcs:** 7 circles, 5 arcs; largest r 2.6 @ (70.7, 346.1), r 2.5 @ (70.9, 338.6), r 2.5 @ (70.8, 400.1), r 1.9 @ (51.1, 384.7)
+- **Closed boxes:** 4 (4 in the title block)
+- **Words (OCR):** 61 in 47 lines: NOTE · NOTE · N? 8 · R/6 · 1Ok · AUDIO · RTe' · oUtPUT · -22 dDm INTO 600 _ · 10 k · NOIE · WHEN MOE
+- **Title block:** (61, 9)–(336, 81) mm: FINISH · WARD · BECK · DRN DJG · DATE Oet J0 · M462 · MATERIAL · RELAY · Swi · CHKD ReL · SCHEM+Ti · SCALE · FRACT : 1/64 DEC TO · PLACES · GIVEN ANGLES · 408
+- **Wiring (first pass):** 9 connected wire groups from 144 runs; labelled ends: 106 mm → 1Ok; 11 mm → NOTE; 10 mm → N? 8
+
+Every curve, box, word and wire group: [1970 - M468 - 468-02-002 - IRZE MIMBEND RADUNLESS SPEC (traced).json](1970%20-%20M468%20-%20468-02-002%20-%20IRZE%20MIMBEND%20RADUNLESS%20SPEC%20%28traced%29.json) (the CAD file: `1970 - M468 - 468-02-002 - IRZE MIMBEND RADUNLESS SPEC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -10,6 +10,16 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 7,079,850 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 76045-04-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–432 mm across, 0–287 mm up
+- **Outlines:** line 870 rings, 11,531 straight (24,700 mm) / 2,387 curved (6,828 mm); text 372 rings, 2,470 straight (2,708 mm) / 814 curved (1,184 mm)
+- **Circles and arcs:** 118 circles, 0 arcs; largest r 6.7 @ (34.7, 180.0), r 6.7 @ (51.1, 180.0), r 6.7 @ (296.4, 144.6), r 6.7 @ (395.2, 144.7)
+- **Closed boxes:** 43
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-04-003 - MODULES EXT INPUTS OLSC (traced).json](1976%20-%2076045%20-%2076045-04-003%20-%20MODULES%20EXT%20INPUTS%20OLSC%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-04-003 - MODULES EXT INPUTS OLSC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

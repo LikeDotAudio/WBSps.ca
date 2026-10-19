@@ -11,6 +11,20 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 33,836,529 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-007, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 1–279 mm up
+- **Outlines:** line 1,080 rings, 6,328 straight (11,146 mm) / 699 curved (834 mm); text 229 rings, 1,038 straight (828 mm) / 199 curved (234 mm); tb 90 rings, 473 straight (452 mm) / 76 curved (92.2 mm)
+- **Centre lines:** 3,375 paths (26 closed); straight 5,758 mm, curved 16.1 mm; horizontal 2,758 mm, vertical 1,925 mm, diagonal 1,076 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 38 (9 in the title block)
+- **Words (OCR):** 48 in 44 lines: 2ev+ Zev- · 22 /- · 22/- · 'E4 · ZE3 · 362 · 540 · BUMMING · OUT PUT · NPJt · AmPL Fiep · ER
+- **Title block:** (349, 4)–(428, 33) mm: WBS WARD · BeCK BysTeMS LTD · 11433M · cD · MODULE · SCALE
+- **Wiring (first pass):** 103 connected wire groups from 607 runs; labelled ends: 351 mm → WBS, cD; 31 mm → 362; 30 mm → 22,/25; 27 mm → AmPL Fiep, IE6; 26 mm → OUT PUT
+
+Every curve, box, word and wire group: [1976 - 76045 - 463-02-007 - UJIJLESS OTHERWISE EPECIFIED SOLO CONTROL CONTROL (traced).json](1976%20-%2076045%20-%20463-02-007%20-%20UJIJLESS%20OTHERWISE%20EPECIFIED%20SOLO%20CONTROL%20CONTROL%20%28traced%29.json) (the CAD file: `1976 - 76045 - 463-02-007 - UJIJLESS OTHERWISE EPECIFIED SOLO CONTROL CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

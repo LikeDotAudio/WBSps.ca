@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,681,164 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 94055-01-003, size B (assumed) 432 × 278 mm, 2000 × 1289 px traced (0.216 mm/px)
+- **Ink extent:** 6–429 mm across, 4–273 mm up
+- **Outlines:** line 1,123 rings, 6,595 straight (10,116 mm) / 1,516 curved (1,893 mm); text 131 rings, 868 straight (886 mm) / 265 curved (339 mm); tb 58 rings, 405 straight (372 mm) / 115 curved (124 mm)
+- **Centre lines:** 13,588 paths (641 closed); straight 8,002 mm, curved 36.3 mm; horizontal 2,629 mm, vertical 1,893 mm, diagonal 3,479 mm
+- **Circles and arcs:** 0 circles, 14 arcs
+- **Closed boxes:** 31 (9 in the title block); named: EXTFRHAI
+- **Words (OCR):** 13 in 13 lines: (Noiz · EXTFRHAI · HTukIL · KNoTE · LOIESL · SLoPLIC · INCH Trs Jacks For ILLUSTRATMC · WARD-BECK  SYSTEMS · WBS · TEN   ENGINEERING · MicroCOM · SYSTEMS FUNCTIONAL
+- **Title block:** (341, 5)–(426, 36) mm: WARD-BECK  SYSTEMS · WBS · TEN   ENGINEERING · MicroCOM · SYSTEMS FUNCTIONAL · 94055-01-003
+- **Wiring (first pass):** 62 connected wire groups from 541 runs
+
+Every curve, box, word and wire group: [1994 - microCOM - DOC - 94055-01-003 - IRS JACKS FOR ILLUSTRATIVE PURPOSES MAXIMUM DISTANCE FROM (traced).json](1994%20-%20microCOM%20-%20DOC%20-%2094055-01-003%20-%20IRS%20JACKS%20FOR%20ILLUSTRATIVE%20PURPOSES%20MAXIMUM%20DISTANCE%20FROM%20%28traced%29.json) (the CAD file: `1994 - microCOM - DOC - 94055-01-003 - IRS JACKS FOR ILLUSTRATIVE PURPOSES MAXIMUM DISTANCE FROM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

@@ -21,6 +21,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,715,599 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 5-137-02-001, size B 203 × 432 mm, 941 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 42–184 mm across, 2–432 mm up
+- **Outlines:** line 842 rings, 8,974 straight (15,602 mm) / 1,781 curved (2,034 mm); text 85 rings, 569 straight (470 mm) / 177 curved (214 mm)
+- **Centre lines:** 12,068 paths (208 closed); straight 9,990 mm, curved 91.3 mm; horizontal 2,594 mm, vertical 4,360 mm, diagonal 3,037 mm
+- **Circles and arcs:** 0 circles, 28 arcs
+- **Closed boxes:** 57
+- **Dots (junctions):** 2
+- **Words (OCR):** 2 in 2 lines: 84 · 854
+- **Wiring (first pass):** 78 connected wire groups from 849 runs, 3 dotted junctions; labelled ends: 44 mm → 854; 18 mm → 854; 16 mm → 854
+
+Every curve, box, word and wire group: [1976 - 5-137-02-001 - KEYBOARD & PUSHBUTTON ENCODER SCHEMATIC - DRN DM - ISS 2 (traced).json](1976%20-%205-137-02-001%20-%20KEYBOARD%20%26%20PUSHBUTTON%20ENCODER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 5-137-02-001 - KEYBOARD & PUSHBUTTON ENCODER SCHEMATIC - DRN DM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

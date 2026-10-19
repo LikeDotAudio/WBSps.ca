@@ -12,6 +12,19 @@ Wiki page: [M521](../../../PAGES/M521.md)
 - **Size:** 7,462,680 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 521-02-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–427 mm across, 2–284 mm up
+- **Outlines:** line 1,456 rings, 13,742 straight (23,560 mm) / 2,667 curved (3,216 mm); text 154 rings, 961 straight (837 mm) / 331 curved (392 mm)
+- **Centre lines:** 12,258 paths (300 closed); straight 14,066 mm, curved 170 mm; horizontal 6,156 mm, vertical 3,763 mm, diagonal 4,147 mm
+- **Circles and arcs:** 3 circles, 31 arcs; largest r 2.6 @ (229.7, 46.5), r 2.6 @ (229.6, 33.0), r 1.2 @ (379.4, 17.1)
+- **Closed boxes:** 84
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 154 connected wire groups from 1,175 runs
+
+Every curve, box, word and wire group: [1985 - M521 - 521-02-001 - SYSTEMB TALLY ATT SENSE (traced).json](1985%20-%20M521%20-%20521-02-001%20-%20SYSTEMB%20TALLY%20ATT%20SENSE%20%28traced%29.json) (the CAD file: `1985 - M521 - 521-02-001 - SYSTEMB TALLY ATT SENSE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

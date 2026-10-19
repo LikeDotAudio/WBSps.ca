@@ -21,6 +21,18 @@ Wiki page: [Job-95023](../../../PAGES/Job-95023.md)
 - **Size:** 819,650 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 95023-04-008, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSOI
+- **Ink extent:** 0–432 mm across, 13–299 mm up
+- **Outlines:** line 90 rings, 1,010 straight (4,026 mm) / 218 curved (558 mm); text 195 rings, 1,322 straight (1,610 mm) / 410 curved (569 mm); tb 23 rings, 461 straight (1,822 mm) / 28 curved (47.3 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.2 @ (188.5, 172.5), r 9.2 @ (188.6, 117.6), r 6.7 @ (149.2, 167.2), r 5.7 @ (188.5, 142.4)
+- **Closed boxes:** 2; named: HEADSET LEVEL MIC ON
+- **Words (OCR):** 26 in 21 lines: 3.40 · 4.10 · HEADSET · LEVEL · MIC ON · SSUE · REVSION · APP · WBS · WARD-BECK   SYSTEMS · DRN: DRG · CJAD /MIX 96
+- **Title block:** (286, 13)–(418, 67) mm: SSUE · REVSION · APP · WBS · WARD-BECK   SYSTEMS · DRN: DRG · CJAD /MIX 96 · ENG. · GUEST TURRET · CKD: · APP. · LAYOUT · SCALE DISC NO: SYSOI · SSUE · 95023-04-008 · CODE: 95023L08
+
+Every curve, box, word and wire group: [1995 - 95023-04-008 - CJAD MIX 96 GUEST TURRET LAYOUT - DRN DRG - ISS 1 (traced).json](1995%20-%2095023-04-008%20-%20CJAD%20MIX%2096%20GUEST%20TURRET%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 95023-04-008 - CJAD MIX 96 GUEST TURRET LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

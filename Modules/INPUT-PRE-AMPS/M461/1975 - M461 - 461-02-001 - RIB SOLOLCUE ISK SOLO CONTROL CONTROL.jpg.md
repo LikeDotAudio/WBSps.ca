@@ -12,6 +12,20 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 7,420,019 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 461-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–287 mm up
+- **Outlines:** line 912 rings, 11,436 straight (19,784 mm) / 1,960 curved (2,605 mm); text 884 rings, 5,542 straight (5,300 mm) / 2,082 curved (2,575 mm); tb 17 rings, 121 straight (152 mm) / 26 curved (32.6 mm)
+- **Centre lines:** 12,584 paths (216 closed); straight 15,113 mm, curved 307 mm; horizontal 5,763 mm, vertical 3,764 mm, diagonal 5,585 mm
+- **Circles and arcs:** 4 circles, 70 arcs; largest r 3.0 @ (223.3, 221.8), r 2.9 @ (74.0, 54.5), r 1.3 @ (41.8, 76.3), r 0.7 @ (151.5, 241.1)
+- **Closed boxes:** 22; named: BE3 307 4-109 362 304 JOOSTER AMPLIFIER ; (2e3 2E7 2E1 4-1094 254 OUTPUT AMPLIFIER; Bla6k-02-OOL; Tols
+- **Words (OCR):** 191 in 177 lines: 21V+ 21V · 21Vt · Z1V- · SwI · PASS · High · R2O · R24 INPUT selecTOR · IE9 · (2e3 2E7 · Sw3 · BE3 307
+- **Title block:** (356, 17)–(404, 33) mm: WBS WARD-
+- **Wiring (first pass):** 196 connected wire groups from 982 runs; labelled ends: 491 mm → 30?; 223 mm → R37, I50, REV SEND, FRE; 221 mm → SwS, Swi?; 176 mm → 834, Swio, REV SEND, FRE; 158 mm → PAN, Rjo, 304, JOOSTER
+
+Every curve, box, word and wire group: [1975 - M461 - 461-02-001 - RIB SOLOLCUE ISK SOLO CONTROL CONTROL (traced).json](1975%20-%20M461%20-%20461-02-001%20-%20RIB%20SOLOLCUE%20ISK%20SOLO%20CONTROL%20CONTROL%20%28traced%29.json) (the CAD file: `1975 - M461 - 461-02-001 - RIB SOLOLCUE ISK SOLO CONTROL CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

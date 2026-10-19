@@ -24,6 +24,18 @@ Wiki page: [M480](../../../PAGES/M480.md)
 - **Size:** 3,781,520 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 480-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 490 rings, 6,936 straight (11,694 mm) / 1,077 curved (1,470 mm); text 215 rings, 1,385 straight (1,508 mm) / 426 curved (591 mm)
+- **Centre lines:** 5,351 paths (61 closed); straight 7,177 mm, curved 268 mm; horizontal 3,159 mm, vertical 1,847 mm, diagonal 2,171 mm
+- **Circles and arcs:** 15 circles, 44 arcs; largest r 4.1 @ (186.7, 218.1), r 3.9 @ (245.3, 159.1), r 2.1 @ (361.1, 46.5), r 1.8 @ (377.3, 54.2)
+- **Closed boxes:** 20
+- **Wiring (first pass):** 112 connected wire groups from 453 runs
+
+Every curve, box, word and wire group: [1979 - 480-01-001 - M480B INPUT MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).json](1979%20-%20480-01-001%20-%20M480B%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 480-01-001 - M480B INPUT MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

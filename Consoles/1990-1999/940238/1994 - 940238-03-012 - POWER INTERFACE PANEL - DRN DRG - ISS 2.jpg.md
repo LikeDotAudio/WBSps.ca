@@ -20,6 +20,19 @@ Wiki page: [Job-940238](../../../PAGES/Job-940238.md)
 - **Size:** 297,604 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940238-03-012, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 0–847 mm across, 15–514 mm up
+- **Outlines:** line 259 rings, 1,773 straight (11,186 mm) / 343 curved (811 mm); text 168 rings, 1,053 straight (2,148 mm) / 330 curved (839 mm); tb 12 rings, 112 straight (289 mm) / 27 curved (65.7 mm)
+- **Centre lines:** 3,145 paths (83 closed); straight 8,004 mm, curved 14.7 mm; horizontal 4,101 mm, vertical 1,838 mm, diagonal 2,064 mm
+- **Circles and arcs:** 1 circles, 2 arcs; largest r 2.5 @ (558.3, 329.5)
+- **Closed boxes:** 29 (3 in the title block); named: POWER INTERFACE PANEL; 940238-03-012
+- **Words (OCR):** 16 in 13 lines: REO D · MATERIAL: CRS 0.059 THICK. · REYSID" · FINISH: · SAND 120 CRIT AND PAINT · WBS · WARD-BECK SYSTEMS · TEXTURED GREY TEXCOTE VINYL. · POWER INTERFACE · TOLERANCZS · PANEL · Cd1E494718412
+- **Title block:** (688, 47)–(858, 80) mm: REYSID" · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940238-03-012 - POWER INTERFACE PANEL - DRN DRG - ISS 2 (traced).json](1994%20-%20940238-03-012%20-%20POWER%20INTERFACE%20PANEL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 940238-03-012 - POWER INTERFACE PANEL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

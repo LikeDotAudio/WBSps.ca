@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,109,737 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-027, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 443
+- **Ink extent:** 80–431 mm across, 5–298 mm up
+- **Outlines:** line 137 rings, 1,787 straight (6,841 mm) / 271 curved (457 mm); text 756 rings, 4,710 straight (5,586 mm) / 1,465 curved (2,120 mm); tb 6 rings, 108 straight (226 mm) / 10 curved (17.2 mm)
+- **Centre lines:** 4,604 paths (119 closed); straight 7,456 mm, curved 154 mm; horizontal 3,000 mm, vertical 1,680 mm, diagonal 2,776 mm
+- **Circles and arcs:** 3 circles, 17 arcs; largest r 5.6 @ (187.9, 163.6), r 4.7 @ (240.3, 183.3), r 1.2 @ (258.2, 136.5)
+- **Closed boxes:** 16 (10 in the title block); named: JACK HOLES ADDED; 8224-03-027; ISSUE; SCALE 1:1; CODE: 8224M27
+- **Words (OCR):** 85 in 60 lines: 3.750 · 0.110 DIA · & C'SK 82 · 0.257 · 3.236 · TO 0.175 · PLACES · 2.618 · 0.175 TYP · 0.618 · 0.375 DIA · 2 PLACES
+- **Title block:** (251, 21)–(421, 89) mm: JACK HOLES ADDED · DRG · REVISION · APP · ISSUE · WBS · WARD-BECK SYSTEMS · DRN. DRG · FRONT PANEL · ENG_ · CKD_ · (IPH-1C) · APP_ · SCALE DISC NO: 443 · ISSUE · 1:1 CODE: 8224M27 · 8224-03-027
+
+Every curve, box, word and wire group: [19xx - 8224-03-027 - FRONT PANEL (IPH-1C) - DRN DRG - ISS 2 (traced).json](19xx%20-%208224-03-027%20-%20FRONT%20PANEL%20%28IPH-1C%29%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 8224-03-027 - FRONT PANEL (IPH-1C) - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

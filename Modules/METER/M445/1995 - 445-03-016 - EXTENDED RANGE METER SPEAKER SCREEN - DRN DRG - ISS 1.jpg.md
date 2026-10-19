@@ -22,6 +22,19 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 538,372 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 445-03-016, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 38–431 mm across, 2–298 mm up
+- **Outlines:** line 61 rings, 1,036 straight (4,234 mm) / 134 curved (200 mm); text 477 rings, 2,937 straight (3,319 mm) / 981 curved (1,359 mm); tb 61 rings, 662 straight (1,917 mm) / 117 curved (150 mm)
+- **Centre lines:** 3,592 paths (78 closed); straight 5,621 mm, curved 6.2 mm; horizontal 2,269 mm, vertical 1,600 mm, diagonal 1,752 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 1
+- **Words (OCR):** 50 in 41 lines: 2.220 · 2.060 · 080 · 0.215 · 0.335 · 1.550 · 070 · 0.130 DIA · 4 REQ'D · 0.358 · 2.620  2.300 2.062 · 0.093 RAD
+- **Title block:** (290, 19)–(422, 58) mm: REMSION · APP · WES · WARD-BECK · SYSTEMS · DRN: DRC(AuG95) · M445 · ENC: · EXTENDED RANGE METER · SPEAKERSCREEN · ISSUE · CODE: · 445-03-016
+
+Every curve, box, word and wire group: [1995 - 445-03-016 - EXTENDED RANGE METER SPEAKER SCREEN - DRN DRG - ISS 1 (traced).json](1995%20-%20445-03-016%20-%20EXTENDED%20RANGE%20METER%20SPEAKER%20SCREEN%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 445-03-016 - EXTENDED RANGE METER SPEAKER SCREEN - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [M523](../../../PAGES/M523.md)
 - **Size:** 3,370,582 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-086-02-001, size B (assumed) 432 × 282 mm, 2000 × 1307 px traced (0.216 mm/px)
+- **Ink extent:** 8–428 mm across, 0–269 mm up
+- **Outlines:** line 894 rings, 8,694 straight (13,193 mm) / 2,131 curved (2,580 mm); text 215 rings, 1,468 straight (1,360 mm) / 425 curved (553 mm); tb 2 rings, 45 straight (108 mm) / 2 curved (3.2 mm)
+- **Centre lines:** 9,564 paths (247 closed); straight 8,903 mm, curved 152 mm; horizontal 3,267 mm, vertical 2,434 mm, diagonal 3,202 mm
+- **Circles and arcs:** 2 circles, 33 arcs; largest r 3.3 @ (64.1, 75.9), r 3.2 @ (197.2, 201.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 33 in 31 lines: 170/I0 · HESSIA · 985 · 220}I0 · LEFT · outpuT · IHSERT · 210/I0 · 210/10 · S82 · output · 47/IC
+- **Title block:** (338, 28)–(432, 44) mm: WBS WARD-Beck BystemB
+- **Wiring (first pass):** 122 connected wire groups from 892 runs; labelled ends: 161 mm → JJi0; 132 mm → 220}I0; 93 mm → 10/zy; 90 mm → Thzi0Z; 82 mm → 210/I0
+
+Every curve, box, word and wire group: [1985 - M523 - B 14-086-02-001 - SA14-086 SUMMING AMPLIFIER ASSEMBLY - SCHEMATIC (traced).json](1985%20-%20M523%20-%20B%2014-086-02-001%20-%20SA14-086%20SUMMING%20AMPLIFIER%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M523 - B 14-086-02-001 - SA14-086 SUMMING AMPLIFIER ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -1,14 +1,434 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="folder_index.py">
-<title>M525 · WBSps.ca Archive</title><link rel="icon" href="../../../WBS_Logo.svg">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap">
-<style>:root{--desk:#2b2a27;--paper:#fbfaf4;--ink:#1f1e1c;--faint:#6d6a63;--rule:#cfcabc;--link:#1f3f6b;--hl:#efe9d2}*{box-sizing:border-box}
-html{background:var(--desk)}body{margin:0;padding:28px 16px 60px;color:var(--ink);font:15px/1.55 "Courier Prime","Courier New",Courier,monospace}
-.sheet{position:relative;max-width:8.5in;margin:0 auto;background:var(--paper);padding:clamp(20px,6vw,64px) clamp(16px,6vw,72px) 48px;box-shadow:0 1px 0 #d8d4c6,0 18px 40px rgba(0,0,0,.5)}
-a{color:var(--link);text-underline-offset:3px}a:hover{background:var(--hl)}.crumbs{display:flex;flex-wrap:wrap;gap:4px 10px;margin-bottom:18px}
-.crumbs a+a::before{content:"/ ";color:var(--faint)}h1{font-size:20px;margin:0 0 14px;text-transform:uppercase;text-decoration:underline;text-underline-offset:5px}
-h2{font-size:15px;margin:22px 0 6px;text-transform:uppercase;text-decoration:underline}ul{list-style:none;margin:0;padding:0}li{padding:2px 0;border-bottom:1px dotted var(--rule);word-break:break-word}
-small{color:var(--faint)}.foot{margin-top:30px;text-align:center;color:var(--faint);font-size:13px}</style></head><body><article class="sheet">
-<div class="crumbs"><a href="../../../index.html">Index</a><a href="../../../Modules/">Modules</a><a href="../../../Modules/MONITORING/">MONITORING</a><a href="../../../Modules/MONITORING/M525/">M525</a></div><h1>M525</h1>
-<h2>Files (10)</h2><ul><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201.jpg">1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1.jpg</a> <small>1988|21</small></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M525 - AD - WBSPS - AD - LS series 003.jpg</a></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20021.jpg">19xx - M525 - DOC - 021.jpg</a></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20032.jpg">19xx - M525 - DOC - 032.jpg</a></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg">19xx - M525 - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg</a></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg">19xx - M525 - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX.jpg</a></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20P1.pdf">19xx - M525 - P1.pdf</a></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20P2.pdf">19xx - M525 - P2.pdf</a></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20connectors.pdf">19xx - M525 - connectors.pdf</a></li><li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20file.dwg">19xx - M525 - file.dwg</a></li></ul>
-<div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a></div>
-</article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>M525</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../../../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../../../index.html">Index</a><a href="../../../Home.html">Wiki home</a><a href="../../../PAGES/Timeline.html">Timeline</a><a href="../../../search.html">Search</a><a href="../../../status.html">Status</a></div><h1>M525</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>module</td>
+</tr>
+<tr>
+<td>Category</td>
+<td><a href="../../../PAGES/Category-MONITORING.html">MONITORING</a></td>
+</tr>
+<tr>
+<td>Try it</td>
+<td><a href="../../../simulator.html?m=M525">simulator &amp; front panel</a> · <a href="../../../_packages/M525.zip">download package (zip)</a></td>
+</tr>
+<tr>
+<td>Earliest dated evidence</td>
+<td><a href="../../../PAGES/Year-1985.html">1985|18</a> — named in document</td>
+</tr>
+<tr>
+<td>Evidence</td>
+<td>named in 1985 - M5200A - 002.pdf</td>
+</tr>
+<tr>
+<td>Confidence</td>
+<td>low (named by)</td>
+</tr>
+<tr>
+<td>All years found</td>
+<td><a href="../../../PAGES/Year-1985.html">1985|18</a>, <a href="../../../PAGES/Year-1988.html">1988|21</a>, <a href="../../../PAGES/Year-1995.html">1995|28</a></td>
+</tr>
+<tr>
+<td>Used in jobs</td>
+<td><a href="../../../PAGES/Job-880134.html">880134</a> (1988|21), 1989-1999, 2442-04-003ST2442topview, 3642-04-003ST3642TopViewLayout, BIGCFTOTVdone, RedDeerWBS, WBS880134-STConsole, WBSStSeriesStereoConsole</td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../../../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/index.html">DOCUMENTS/WBSPS - To Be edited/WBS St Series Stereo Console</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../../COMMUNICATION/M529/index.html">Modules/COMMUNICATION/M529</a></td>
+</tr>
+<tr>
+<td>Folder</td>
+<td><a href="../../COMPUTERS/M5200/index.html">Modules/COMPUTERS/M5200</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Connections and circuit (ideal SPICE model)</h2>
+<p><em>Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU.</em></p>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M525" data-n="" data-cat="MONITORING"></div><svg class="wbs-panel" data-m="M525" data-n="" data-cat="MONITORING" role="img" aria-label="M525 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M525","title":"","rto":{"code":"M525","series":null,"type":"M525","impedance":{},"audio":[{"port":"I1","signal":"Input 15 Right","dir":"in","pos":"I1P","neg":"I1N","src_page":1},{"port":"I2","signal":"Input 14","dir":"in","pos":"I2P","neg":"I2N","src_page":1},{"port":"I3","signal":"Input 11 Right","dir":"in","pos":"I3P","neg":"I3N","src_page":1},{"port":"I4","signal":"Input 10","dir":"in","pos":"I4P","neg":"I4N","src_page":1},{"port":"I5","signal":"Input 9 Right","dir":"in","pos":"I5P","neg":"I5N","src_page":1},{"port":"I6","signal":"Input 8","dir":"in","pos":"I6P","neg":"I6N","src_page":1},{"port":"I7","signal":"Input 6","dir":"in","pos":"I7P","neg":"I7N","src_page":1},{"port":"I8","signal":"Input 5","dir":"in","pos":"I8P","neg":"I8N","src_page":1},{"port":"I9","signal":"Input 4 Right","dir":"in","pos":"I9P","neg":"I9N","src_page":1},{"port":"I10","signal":"Input 3","dir":"in","pos":"I10P","neg":"I10N","src_page":1},{"port":"I11","signal":"Input 2","dir":"in","pos":"I11P","neg":"I11N","src_page":1},{"port":"I12","signal":"Input 1 Right","dir":"in","pos":"I12P","neg":"I12N","src_page":1},{"port":"O1","signal":"Output 1 Left","dir":"out","pos":"O1P","neg":"O1N","src_page":1},{"port":"O2","signal":"Output 2 Left","dir":"out","pos":"O2P","neg":"O2N","src_page":1},{"port":"O3","signal":"Output 2 Right","dir":"out","pos":"O3P","neg":"O3N","src_page":1}],"power":[{"rail":"+12V","volts":12.0,"supply":"+12V","ground":"CHASSIS","max_a":null}],"logic":[{"signal":"Solo Left","pin":""},{"signal":"Solo Right Shield Shield","pin":""}],"ground":["CHASSIS"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["6daebee634766045c9425726bee2e58a4a022f88d6b8cd4d9e7adacdfc9d8459","f9e611d105458401e5d9a9c8d8725fc4232558aa8a57cdcb1ae6531d61fb3b69"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[],"parents":[{"label":"880134","href":"Job-880134.html","note":"CFTO ST"},{"label":"1989-1999","href":"#","note":"console / job"},{"label":"2442-04-003ST2442topview","href":"#","note":"console / job"},{"label":"3642-04-003ST3642TopViewLayout","href":"#","note":"console / job"},{"label":"BIGCFTOTVdone","href":"#","note":"console / job"},{"label":"RedDeerWBS","href":"#","note":"console / job"},{"label":"WBS880134-STConsole","href":"#","note":"console / job"},{"label":"WBSStSeriesStereoConsole","href":"#","note":"console / job"},{"label":"M521","href":"M521.html","note":"on 23 drawings with it: Sterio Input Module Conn"},{"label":"M523","href":"M523.html","note":"on 19 drawings with it: Stereo Submaster Module"},{"label":"M520","href":"M520.html","note":"on 19 drawings with it: Mono Input Module"},{"label":"M5201","href":"M5201.html","note":"on 13 drawings with it: Machine CoNTROL Module"},{"label":"M5200","href":"M5200.html","note":"on 13 drawings with it: Controller Module"},{"label":"M522","href":"M522.html","note":"on 13 drawings with it: Input Module"},{"label":"M528","href":"M528.html","note":"on 13 drawings with it: Dual Auxiliary Module"},{"label":"M524","href":"M524.html","note":"on 13 drawings with it: 24 Volt dc Dual Lamp/Rel"}]}</script></div></div>
+<script src="wbs_spice.js"></script><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Engineering/IO/M525.connections.svg"><img loading="lazy" src="../../../Engineering/IO/M525.connections.svg" alt="" data-f="Engineering/IO/M525.connections.svg" data-size="320" onerror="wbsOff(this)">M525.connections.svg</a><a href="../../../viewer.html?f=Modules/COMPUTERS/M5200/19xx%20-%20M5200%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg"><img loading="lazy" src="../../../Modules/COMPUTERS/M5200/19xx%20-%20M5200%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg" alt="" data-f="Modules/COMPUTERS/M5200/19xx - M5200 - AD - WBSPS - AD - LS series 003.jpg" data-size="320" onerror="wbsOff(this)">19xx - M5200 - AD - WBSPS - AD - LS series 003.jpg</a><a href="../../../viewer.html?f=Modules/MONITORING/M525/1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201.jpg"><img loading="lazy" src="../../../Modules/MONITORING/M525/1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201.jpg" alt="" data-f="Modules/MONITORING/M525/1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1.jpg" data-size="320" onerror="wbsOff(this)">1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20021.jpg"><img loading="lazy" src="../../../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20021.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/WBS St Series Stereo Console/19xx - DOC - 021.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 021.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20032.jpg"><img loading="lazy" src="../../../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20032.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/WBS St Series Stereo Console/19xx - DOC - 032.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 032.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg"><img loading="lazy" src="../../../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/WBS St Series Stereo Console/19xx - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg</a><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg"><img loading="lazy" src="../../../DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg" alt="" data-f="DOCUMENTS/WBSPS - To Be edited/WBS St Series Stereo Console/19xx - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX.jpg" data-size="320" onerror="wbsOff(this)">19xx - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg" alt="" data-f="Consoles/1980-1989/880134 - CFTO ST/1988 - 880134 - 880134-02-007 - CORRELA TION CORRELATION METER SELECTOR SELECTOR.jpg" data-size="320" onerror="wbsOff(this)">1988 - 880134 - 880134-02-007 - CORRELA TION CORRELATION METER SELECTOR SELECTOR.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/1989-1999/1989%20-%201989-1999%20-%20IMG_6588.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/1989-1999/1989%20-%201989-1999%20-%20IMG_6588.jpg" alt="" data-f="Consoles/1980-1989/1989-1999/1989 - 1989-1999 - IMG_6588.jpg" data-size="320" onerror="wbsOff(this)">1989 - 1989-1999 - IMG_6588.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/2442-04-003%20ST2442%20top%20view/1984%20-%20ST2442%20-%202442b.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/2442-04-003%20ST2442%20top%20view/1984%20-%20ST2442%20-%202442b.jpg" alt="" data-f="Consoles/1980-1989/2442-04-003 ST2442 top view/1984 - ST2442 - 2442b.jpg" data-size="320" onerror="wbsOff(this)">1984 - ST2442 - 2442b.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/3642-04-003%20ST3642%20Top%20View%20Layout/1984%20-%20ST3642%20-%203642a.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/3642-04-003%20ST3642%20Top%20View%20Layout/1984%20-%20ST3642%20-%203642a.jpg" alt="" data-f="Consoles/1980-1989/3642-04-003 ST3642 Top View Layout/1984 - ST3642 - 3642a.jpg" data-size="320" onerror="wbsOff(this)">1984 - ST3642 - 3642a.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20List%20of%20Product%20Manuals.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20List%20of%20Product%20Manuals.jpg" alt="" data-f="Consoles/1980-1989/BIG CFTO TV done/1988 - BIG CFTO TV done - CFTO TV List of Product Manuals.jpg" data-size="320" onerror="wbsOff(this)">1988 - BIG CFTO TV done - CFTO TV List of Product Manuals.jpg</a><a href="../../../viewer.html?f=Consoles/1980-1989/WBS880134%20-%20ST%20Console/1988%20-%20ST%20-%20005.jpg"><img loading="lazy" src="../../../Consoles/1980-1989/WBS880134%20-%20ST%20Console/1988%20-%20ST%20-%20005.jpg" alt="" data-f="Consoles/1980-1989/WBS880134 - ST Console/1988 - ST - 005.jpg" data-size="320" onerror="wbsOff(this)">1988 - ST - 005.jpg</a><a href="../../../viewer.html?f=Modules/COMPUTERS/M5200/1985%20-%20M5200%20-%20p7.jpg"><img loading="lazy" src="../../../Modules/COMPUTERS/M5200/1985%20-%20M5200%20-%20p7.jpg" alt="" data-f="Modules/COMPUTERS/M5200/1985 - M5200 - p7.jpg" data-size="320" onerror="wbsOff(this)">1985 - M5200 - p7.jpg</a><a href="../../../viewer.html?f=Modules/COMPUTERS/M5200/1985%20-%20M5200%20-%20p8.jpg"><img loading="lazy" src="../../../Modules/COMPUTERS/M5200/1985%20-%20M5200%20-%20p8.jpg" alt="" data-f="Modules/COMPUTERS/M5200/1985 - M5200 - p8.jpg" data-size="320" onerror="wbsOff(this)">1985 - M5200 - p8.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20005%20%282%29.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20005%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M5200A/1985 - M5200A - 005 (2).jpg" data-size="320" onerror="wbsOff(this)">1985 - M5200A - 005 (2).jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20005.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20005.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M5200A/1985 - M5200A - 005.jpg" data-size="320" onerror="wbsOff(this)">1985 - M5200A - 005.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20006%20%282%29.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20006%20%282%29.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M5200A/1985 - M5200A - 006 (2).jpg" data-size="320" onerror="wbsOff(this)">1985 - M5200A - 006 (2).jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20006.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20006.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M5200A/1985 - M5200A - 006.jpg" data-size="320" onerror="wbsOff(this)">1985 - M5200A - 006.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20WBS%20M5200A_Page_06.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20WBS%20M5200A_Page_06.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M5200A/1985 - M5200A - WBS M5200A_Page_06.jpg" data-size="320" onerror="wbsOff(this)">1985 - M5200A - WBS M5200A_Page_06.jpg</a><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20WBS%20M5200A_Page_07.jpg"><img loading="lazy" src="../../../Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20WBS%20M5200A_Page_07.jpg" alt="" data-f="Modules/INPUT-PRE-AMPS/M5200A/1985 - M5200A - WBS M5200A_Page_07.jpg" data-size="320" onerror="wbsOff(this)">1985 - M5200A - WBS M5200A_Page_07.jpg</a></div>
+
+<h2>Pinout &amp; connections</h2>
+<div class="wbs-pinconn" style="margin:6px 0 10px"><svg class="wp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 576" width="400" height="576" role="img" aria-label="M525 connections" style="width:100%;max-width:500px;height:auto;background:#fbfaf4"><style>.wp text{font-family:"Courier Prime","Courier New",Courier,monospace;fill:#1f1e1c;font-size:12px} .wp .f{fill:#6d6a63;font-size:10.5px} .wp .h{font-size:12.5px;font-weight:700;letter-spacing:.04em} .wp .b{font-size:17px;font-weight:700} .wp a text{fill:#1f3f6b;text-decoration:underline} .wp a:hover rect{fill:#efe9d2}</style><text x="4" y="18" class="h">M525</text><rect x="136" y="44" width="128" height="130" fill="#f4ecd2" stroke="#1f1e1c" stroke-width="1.6"/><text x="200.0" y="70" class="b" text-anchor="middle">M525</text><text x="200.0" y="162" class="f" text-anchor="middle">no pins read yet</text><text x="4" y="206" class="h">CONNECTED TO · CONSOLES &amp; JOBS (8)</text><a href="../../../PAGES/Job-880134.html"><rect x="4" y="214" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="228">880134</text><text x="10" y="242" class="f">CFTO ST · 1988|21</text></a><rect x="202" y="214" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="228">1989-1999</text><text x="208" y="242" class="f">console / job</text><rect x="4" y="254" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="268">2442-04-003ST2442topview</text><text x="10" y="282" class="f">console / job</text><rect x="202" y="254" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="268">3642-04-003ST3642TopVie…</text><text x="208" y="282" class="f">console / job</text><rect x="4" y="294" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="308">BIGCFTOTVdone</text><text x="10" y="322" class="f">console / job</text><rect x="202" y="294" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="308">RedDeerWBS</text><text x="208" y="322" class="f">console / job</text><rect x="4" y="334" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="348">WBS880134-STConsole</text><text x="10" y="362" class="f">console / job</text><rect x="202" y="334" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="348">WBSStSeriesStereoConsole</text><text x="208" y="362" class="f">console / job</text><text x="4" y="400" class="h">DRAWN WITH · MODULES (8)</text><a href="../../../PAGES/M521.html"><rect x="4" y="408" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="422">M521</text><text x="10" y="436" class="f">on 23 drawings with it</text></a><a href="../../../PAGES/M523.html"><rect x="202" y="408" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="422">M523</text><text x="208" y="436" class="f">on 19 drawings with it</text></a><a href="../../../PAGES/M520.html"><rect x="4" y="448" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="462">M520</text><text x="10" y="476" class="f">on 19 drawings with it</text></a><a href="../../../PAGES/M5201.html"><rect x="202" y="448" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="462">M5201</text><text x="208" y="476" class="f">on 13 drawings with it</text></a><a href="../../../PAGES/M5200.html"><rect x="4" y="488" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="502">M5200</text><text x="10" y="516" class="f">on 13 drawings with it</text></a><a href="../../../PAGES/M522.html"><rect x="202" y="488" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="502">M522</text><text x="208" y="516" class="f">on 13 drawings with it</text></a><a href="../../../PAGES/M528.html"><rect x="4" y="528" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="542">M528</text><text x="10" y="556" class="f">on 13 drawings with it</text></a><a href="../../../PAGES/M524.html"><rect x="202" y="528" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="542">M524</text><text x="208" y="556" class="f">on 13 drawings with it</text></a></svg></div>
+
+<p><a href="../../../viewer.html?f=Engineering/IO/M525.connections.svg">connections (SVG)</a></p>
+<h2>Ads &amp; brochures</h2>
+<ul>
+<li><a href="../../../viewer.html?f=Modules/COMPUTERS/M5200/19xx%20-%20M5200%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M5200 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/COMPUTERS/M5201/19xx%20-%20M5201%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M5201 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/COMPUTERS/M524/19xx%20-%20M524%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M524 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/COMPUTERS/M526/19xx%20-%20M526%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M526 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/FILTERS/M522/19xx%20-%20M522%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M522 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M520/19xx%20-%20M520%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M520 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M521/19xx%20-%20M521%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M521 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M525 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/SUMMING/M523/19xx%20-%20M523%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M523 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/SUMMING/M527/19xx%20-%20M527%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M527 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+<li><a href="../../../viewer.html?f=Modules/SUMMING/M528/19xx%20-%20M528%20-%20AD%20-%20WBSPS%20-%20AD%20-%20LS%20series%20003.jpg">19xx - M528 - AD - WBSPS - AD - LS series 003.jpg</a></li>
+</ul>
+<h2>Documents (3)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20P1.pdf">19xx - M525 - P1.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20P1.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20P2.pdf">19xx - M525 - P2.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20P2.pdf.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20connectors.pdf">19xx - M525 - connectors.pdf</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20connectors.pdf.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Photos &amp; scans (14)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201.jpg">1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20021.jpg">19xx - DOC - 021.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20021.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20032.jpg">19xx - DOC - 032.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20032.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg">19xx - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg">19xx - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX.jpg</a></td>
+<td><a href="../../../viewer.html?f=DOCUMENTS/WBSPS%20-%20To%20Be%20edited/WBS%20St%20Series%20Stereo%20Console/19xx%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M529/19xx%20-%20M529%20-%20DOC%20-%20021.jpg">19xx - M529 - DOC - 021.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/COMMUNICATION/M529/19xx%20-%20M529%20-%20DOC%20-%20021.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M520/19xx%20-%20M520%20-%20DOC%20-%20032.jpg">19xx - M520 - DOC - 032.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M520/19xx%20-%20M520%20-%20DOC%20-%20032.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M521/19xx%20-%20M521%20-%20DOC%20-%20032.jpg">19xx - M521 - DOC - 032.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M521/19xx%20-%20M521%20-%20DOC%20-%20032.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M521/19xx%20-%20M521%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg">19xx - M521 - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M521/19xx%20-%20M521%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20021.jpg">19xx - M525 - DOC - 021.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20021.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20032.jpg">19xx - M525 - DOC - 032.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20032.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg">19xx - M525 - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg">19xx - M525 - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg.md">note</a></td>
+</tr>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M523/19xx%20-%20M523%20-%20DOC%20-%20032.jpg">19xx - M523 - DOC - 032.jpg</a></td>
+<td><a href="../../../viewer.html?f=Modules/SUMMING/M523/19xx%20-%20M523%20-%20DOC%20-%20032.jpg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings &amp; design files (1)</h2>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>File</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>?</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20file.dwg">19xx - M525 - file.dwg</a></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20file.dwg.md">note</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Consoles &amp; jobs it is connected to (8)</h2>
+<p><em>Their own drawings name this module.</em></p>
+<table>
+<thead>
+<tr>
+<th>Job</th>
+<th>Year</th>
+<th>Drawing</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../PAGES/Job-880134.html">880134</a></td>
+<td>1988|21</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/880134%20-%20CFTO%20ST/1988%20-%20880134%20-%20880134-02-007%20-%20CORRELA%20TION%20CORRELATION%20METER%20SELECTOR%20SELECTOR.jpg">1988 - 880134 - 880134-02-007 - CORRELA TION CORRELATION METER SELECTOR SELECTOR.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>1989-1999</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/1989-1999/1989%20-%201989-1999%20-%20IMG_6588.jpg">1989 - 1989-1999 - IMG_6588.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>2442-04-003ST2442topview</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/2442-04-003%20ST2442%20top%20view/1984%20-%20ST2442%20-%202442b.jpg">1984 - ST2442 - 2442b.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>3642-04-003ST3642TopViewLayout</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/3642-04-003%20ST3642%20Top%20View%20Layout/1984%20-%20ST3642%20-%203642a.jpg">1984 - ST3642 - 3642a.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>BIGCFTOTVdone</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/BIG%20CFTO%20TV%20done/1988%20-%20BIG%20CFTO%20TV%20done%20-%20CFTO%20TV%20List%20of%20Product%20Manuals.jpg">1988 - BIG CFTO TV done - CFTO TV List of Product Manuals.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>RedDeerWBS</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/Red%20Deer%20WBS/1985%20-%20Red%20Deer%20WBS%20-%20IMG_6588.jpg">1985 - Red Deer WBS - IMG_6588.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>WBS880134-STConsole</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/WBS880134%20-%20ST%20Console/1988%20-%20ST%20-%20005.jpg">1988 - ST - 005.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>WBSStSeriesStereoConsole</td>
+<td></td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/WBS%20St%20Series%20Stereo%20Console/1985%20-%20ST%20-%20Binder1.pdf">1985 - ST - Binder1.pdf</a></td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<h2>Named in other drawings &amp; documents (13)</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/COMPUTERS/M5200/1985%20-%20M5200%20-%20p7.jpg">1985 - M5200 - p7.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/COMPUTERS/M5200/1985%20-%20M5200%20-%20p8.jpg">1985 - M5200 - p8.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20002.pdf">1985 - M5200A - 002.pdf</a></td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20002.pdf">1985 - M5200A - 002.pdf</a></td>
+<td>7</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20005%20%282%29.jpg">1985 - M5200A - 005 (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20005.jpg">1985 - M5200A - 005.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20006%20%282%29.jpg">1985 - M5200A - 006 (2).jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20006.jpg">1985 - M5200A - 006.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20WBS%20M5200A_Page_06.jpg">1985 - M5200A - WBS M5200A_Page_06.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/INPUT-PRE-AMPS/M5200A/1985%20-%20M5200A%20-%20WBS%20M5200A_Page_07.jpg">1985 - M5200A - WBS M5200A_Page_07.jpg</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT%20%282%29.docx">1995 - M405P - ITEMIMP(1).TXT (2).docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP%281%29.TXT.docx">1995 - M405P - ITEMIMP(1).TXT.docx</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../../../viewer.html?f=Modules/METER/M405P/1995%20-%20M405P%20-%20ITEMIMP.TXT.docx">1995 - M405P - ITEMIMP.TXT.docx</a></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2>Drawings (5)</h2>
+<p><em>Each scan with its trace laid over it: the slider runs from the scan to the vector drawing. Click one to see it large and save it as SVG, DXF, KiCad, PDF or PowerPoint.</em></p>
+<div class="wbs-dw" data-n="3" data-traced="3"><figure class="dw" data-f="Modules/MONITORING/M525/19xx - M525 - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg" data-t="261577856cf5ddba" data-made="svg" data-dxf="Modules/MONITORING/M525/19xx - M525 - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS (traced).dxf" style="--ar:1.3736"><a class="pg" href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg" title="19xx - M525 - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg"></a><figcaption><b>2442-04-003</b> · connector layout<br><span class="tt">Sub Master Faders Aders Mono Imput Faders</span><span class="cad"><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg">viewer</a></span></figcaption></figure><figure class="dw" data-f="Modules/MONITORING/M525/19xx - M525 - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX.jpg" data-t="50be39cfbd8a82ab" data-made="svg" data-dxf="Modules/MONITORING/M525/19xx - M525 - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX (traced).dxf" style="--ar:0.5140"><a class="pg" href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg" title="19xx - M525 - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX.jpg"></a><figcaption><b>525-04-001</b> · connector layout<br><span class="tt">Ext Ext Ext Ext Aux Aux Aux</span><span class="cad"><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg">viewer</a></span></figcaption></figure><figure class="dw" data-f="Modules/MONITORING/M525/1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1.jpg" data-t="b297dc3dbf047175" data-made="svg dxf" data-cl="1" data-dxf="Modules/MONITORING/M525/1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1 (traced).dxf" style="--ar:1.4144"><a class="pg" href="../../../viewer.html?f=Modules/MONITORING/M525/1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201.jpg" title="1988 - 525-03-009 - IDENT EXTRUSION AND COVER FOR M525A - DRN BD -88 - ENG WS-88 - ISS 1.jpg"></a><figcaption><b>B 525-03-009</b> · mechanical · 1988|21<br><span class="tt">IDENT EXTRUSION AND COVER FOR M525A</span><span class="cad"><a href="../../../viewer.html?f=Modules/MONITORING/M525/1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201.jpg">viewer</a></span></figcaption></figure></div>
+
+<p><em>Read from the drawing title blocks.</em></p>
+<table>
+<thead>
+<tr>
+<th>Drawing</th>
+<th>Title</th>
+<th>Date</th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Drawn by</a></th>
+<th><a href="../../../PAGES/People.html#drawing-staff">Checked by</a></th>
+<th>Iss.</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B 525-03-009</td>
+<td>IDENT EXTRUSION AND COVER FOR M525A</td>
+<td><a href="../../../PAGES/Year-1988.html">1988|21</a></td>
+<td><a href="../../../PAGES/Person-BD.html">BD</a></td>
+<td></td>
+<td>1</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/1988%20-%20525-03-009%20-%20IDENT%20EXTRUSION%20AND%20COVER%20FOR%20M525A%20-%20DRN%20BD%20-88%20-%20ENG%20WS-88%20-%20ISS%201.jpg">file</a></td>
+</tr>
+<tr>
+<td>2442-04-003</td>
+<td>Sub Master Faders Aders Mono Imput Faders</td>
+<td></td>
+<td></td>
+<td><a href="../../../PAGES/Person-TOP.html">TOP</a></td>
+<td></td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS.jpg">file</a></td>
+</tr>
+<tr>
+<td>525-04-001</td>
+<td>Ext Ext Ext Ext Aux Aux Aux</td>
+<td></td>
+<td><a href="../../../PAGES/Person-BD.html">BD</a></td>
+<td></td>
+<td>U</td>
+<td><a href="../../../viewer.html?f=Modules/MONITORING/M525/19xx%20-%20M525%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX.jpg">file</a></td>
+</tr>
+<tr>
+<td>525-04-001</td>
+<td>Ext Aux Aux</td>
+<td></td>
+<td><a href="../../../PAGES/Person-BD.html">BD</a></td>
+<td><a href="../../../PAGES/Person-LN.html">LN</a></td>
+<td>U</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/WBS%20St%20Series%20Stereo%20Console/1985%20-%20ST%20-%20Binder1.pdf">file</a> p.50</td>
+</tr>
+<tr>
+<td>525-04-001</td>
+<td>Stereo Monitor Modul Front Panel Layout Issu</td>
+<td></td>
+<td><a href="../../../PAGES/Person-B-DEP.html">B DEP</a></td>
+<td><a href="../../../PAGES/Person-LN.html">LN</a></td>
+<td>U</td>
+<td><a href="../../../viewer.html?f=Consoles/1980-1989/WBS%20St%20Series%20Stereo%20Console/1985%20-%20ST%20-%20Series%20Stereo%20Console.pdf">file</a> p.50</td>
+</tr>
+</tbody>
+</table><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/trace_overlay.js" defer></script><script src="../../../_catalog/wbs_drawings.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../../../_catalog/libcontrol/libcontrol.css"><script src="../../../_catalog/libcontrol/react.js"></script><script src="../../../_catalog/libcontrol/react-dom.js"></script><script src="../../../_catalog/libcontrol/libcontrol.js"></script><script src="../../../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M525.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

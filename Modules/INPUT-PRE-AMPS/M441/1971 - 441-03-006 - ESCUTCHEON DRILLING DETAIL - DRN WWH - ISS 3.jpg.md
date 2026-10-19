@@ -24,6 +24,18 @@ Drilling detail of an escutcheon plate.
 - **Size:** 1,429,787 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 441-03-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 482 rings, 6,795 straight (11,116 mm) / 1,037 curved (1,405 mm); text 591 rings, 4,163 straight (4,572 mm) / 1,201 curved (1,821 mm)
+- **Centre lines:** 8,625 paths (129 closed); straight 9,565 mm, curved 224 mm; horizontal 3,530 mm, vertical 2,272 mm, diagonal 3,763 mm
+- **Circles and arcs:** 2 circles, 26 arcs; largest r 11.1 @ (93.5, 179.5), r 4.9 @ (93.6, 179.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 86 in 62 lines: 6.62 · 4500 · DRILL · 4 TAP · 8-32 UNC · c'sk 820 To ,250 DIA · 3.416 · 531 · Holes · 1.062 · 265 · 350
+
+Every curve, box, word and wire group: [1971 - 441-03-006 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 3 (traced).json](1971%20-%20441-03-006%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1971 - 441-03-006 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

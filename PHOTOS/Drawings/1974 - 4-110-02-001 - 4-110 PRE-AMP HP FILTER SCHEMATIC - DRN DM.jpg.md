@@ -20,6 +20,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,313,810 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 4-110-02-001, size B 432 × 323 mm, 2000 × 1494 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 40–292 mm up
+- **Outlines:** line 891 rings, 9,505 straight (15,440 mm) / 1,593 curved (2,225 mm); text 762 rings, 5,706 straight (6,959 mm) / 1,704 curved (2,555 mm); tb 44 rings, 561 straight (825 mm) / 103 curved (153 mm)
+- **Centre lines:** 17,392 paths (131 closed); straight 17,506 mm, curved 235 mm; horizontal 5,828 mm, vertical 2,675 mm, diagonal 9,002 mm
+- **Circles and arcs:** 2 circles, 42 arcs; largest r 1.6 @ (240.5, 111.7), r 1.0 @ (291.6, 171.7)
+- **Closed boxes:** 24 (21 in the title block); named: ML; 2690
+- **Words (OCR):** 126 in 115 lines: PRE_AMPLIFIER · HIGH · PASS FILTER · C6 · RA · RS · E4 · 0+21v · 10/25 · R2 · 22k · 18
+- **Title block:** (171, 56)–(415, 110) mm: As · ISS MOD  CKD_ · USED ON · MATL- · Woskks · A-o · WBS · WARD-BeCk · leodku · Ra ( · DRN: · Do · 4-110 · DATE 8MAR74 · PRE-AMP/HP FILT · FINISH · CKD. · SCALE · 4-110-02-001
+- **Wiring (first pass):** 119 connected wire groups from 942 runs; labelled ends: 344 mm → ML, 2690, ToLS; 267 mm → PRE_AMPLIFIER; 209 mm → 4-110-02-001; 105 mm → *c8; 101 mm → 4-110-02-001, ToLS
+
+Every curve, box, word and wire group: [1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM (traced).json](1974%20-%204-110-02-001%20-%204-110%20PRE-AMP%20HP%20FILTER%20SCHEMATIC%20-%20DRN%20DM%20%28traced%29.json) (the CAD file: `1974 - 4-110-02-001 - 4-110 PRE-AMP HP FILTER SCHEMATIC - DRN DM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

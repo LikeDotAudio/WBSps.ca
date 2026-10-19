@@ -23,6 +23,21 @@ Wiki page: [M460](../../../PAGES/M460.md)
 - **Size:** 940,925 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 460-01-010, size B 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 343 rings, 5,399 straight (12,067 mm) / 705 curved (998 mm); text 519 rings, 3,622 straight (3,872 mm) / 1,169 curved (1,763 mm); tb 37 rings, 274 straight (570 mm) / 51 curved (75.0 mm)
+- **Centre lines:** 7,624 paths (117 closed); straight 9,561 mm, curved 179 mm; horizontal 3,810 mm, vertical 2,372 mm, diagonal 3,378 mm
+- **Circles and arcs:** 10 circles, 22 arcs; largest r 3.3 @ (153.6, 188.9), r 3.1 @ (229.8, 186.6), r 1.6 @ (238.5, 149.9), r 1.5 @ (248.6, 149.9)
+- **Closed boxes:** 42 (32 in the title block); named: -126
+- **Dots (junctions):** 1
+- **Words (OCR):** 92 in 79 lines: sensitivity · DIRECT Output · E Q · 10 dBm · LINE · 30 dB · INSERT · INSERT · PAN · LINE IN · 20/+ 10 dBm · LEFT Output
+- **Title block:** (139, 5)–(420, 57) mm: IsS MOD  CKD_ · USED ON · MATL · WBS WARD BECK systeMs LTD · DRNVINCE · M46OL · DATE · FIMISH · INPUT MODULE · CKD: Ay · FUNCTIONAL DIAGRAM · [SCALE · TOLS · 460 01 - 010 · ISS_
+- **Wiring (first pass):** 164 connected wire groups from 381 runs; labelled ends: 248 mm → 8-109, ON, FADER, (-I5d8); 127 mm → Right Output, CONTROL; 61 mm → DIRECT Output, 10 dBm, INSERT; 50 mm → INSERT, 8*109A; 49 mm → PHASE, ON
+
+Every curve, box, word and wire group: [1980 - 460-01-010 - INPUT MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1 (traced).json](1980%20-%20460-01-010%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1980 - 460-01-010 - INPUT MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -29,6 +29,18 @@ Photo of a Schadow series F PCB mounting drawing with title block at bottom righ
 
 - **1975** (labelled): `DATE Oct 75` — …350 810 MATL. WBS WARD-BECK BYSTEMB LTD. DRN: Do DATE Oct 75 CKD_ SCALE 2 XX TOLS_ "Ane SCHADOW SERIES F PCB MTG. (ILLUM…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 461-03-033, size B 432 × 323 mm, 2000 × 1494 px traced (0.216 mm/px); scale 2 : 1
+- **Ink extent:** 0–432 mm across, 44–323 mm up
+- **Outlines:** line 523 rings, 6,378 straight (7,106 mm) / 827 curved (942 mm); text 305 rings, 2,864 straight (3,220 mm) / 608 curved (886 mm); tb 7 rings, 295 straight (718 mm) / 27 curved (53.3 mm)
+- **Centre lines:** 12,336 paths (54 closed); straight 8,272 mm, curved 10.1 mm; horizontal 3,253 mm, vertical 1,183 mm, diagonal 3,836 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Words (OCR):** 25 in 18 lines: 350 · 810 · MATL. · WBS WARD-BECK BYSTEMB LTD. · DRN: · Do · SCHADOW SERIES PCB · MTG- · DATE · OCT 75 · TINISH · (ILLUMINATED & NORMAL MTG,)
+- **Title block:** (89, 141)–(290, 214) mm: WBS WARD-BECK BYSTEMB LTD. · DRN: · Do · SCHADOW SERIES PCB · DATE · OCT 75 · CKD_ · SCALE 2 : 1 · XX
+
+Every curve, box, word and wire group: [1975 - 461-03-033 - SCHADOW SERIES 'F' PCB MTG. (ILLUMINATED & NORMAL MTG.) - DRN DM - ISS 1 (traced).json](1975%20-%20461-03-033%20-%20SCHADOW%20SERIES%20%27F%27%20PCB%20MTG.%20%28ILLUMINATED%20%26%20NORMAL%20MTG.%29%20-%20DRN%20DM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1975 - 461-03-033 - SCHADOW SERIES 'F' PCB MTG. (ILLUMINATED & NORMAL MTG.) - DRN DM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

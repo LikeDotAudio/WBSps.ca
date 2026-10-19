@@ -22,6 +22,18 @@ M612A audio distribution amplifier schematic, cropped.
 - **Size:** 434,531 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 612-02-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 288 rings, 5,187 straight (6,298 mm) / 793 curved (903 mm); text 229 rings, 1,813 straight (1,776 mm) / 634 curved (856 mm)
+- **Centre lines:** 8,772 paths (82 closed); straight 5,860 mm, curved 102 mm; horizontal 1,362 mm, vertical 2,052 mm, diagonal 2,446 mm
+- **Circles and arcs:** 4 circles, 21 arcs; largest r 1.0 @ (115.4, 196.2), r 0.9 @ (15.5, 98.5), r 0.9 @ (114.0, 340.7), r 0.8 @ (114.9, 267.9)
+- **Words (OCR):** 44 in 44 lines: Pi-i · P1-2 · 5414-066 · Pi-J · SpLiTter · NETwoRK · P1-5 · P1-6 · Pz-1 · P2-2 · 541L-066 · Pz-}
+- **Wiring (first pass):** 37 connected wire groups from 143 runs; labelled ends: 52 mm → SpLitter; 40 mm → PI-8; 34 mm → P2-9; 34 mm → P1-9; 34 mm → P1-6
+
+Every curve, box, word and wire group: [19xx - 612-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1 (traced).json](19xx%20-%20612-02-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 612-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

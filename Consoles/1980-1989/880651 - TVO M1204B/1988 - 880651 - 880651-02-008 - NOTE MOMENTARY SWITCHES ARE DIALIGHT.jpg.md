@@ -10,6 +10,18 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 6,131,517 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880651-02-008, size B (assumed) 306 × 432 mm, 1418 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–306 mm across, 1–432 mm up
+- **Outlines:** line 403 rings, 3,430 straight (6,160 mm) / 606 curved (859 mm); text 256 rings, 1,948 straight (2,479 mm) / 596 curved (887 mm)
+- **Centre lines:** 2,919 paths (59 closed); straight 4,713 mm, curved 346 mm; horizontal 2,012 mm, vertical 1,176 mm, diagonal 1,525 mm
+- **Circles and arcs:** 13 circles, 54 arcs; largest r 1.4 @ (192.6, 427.4), r 1.3 @ (55.1, 427.6), r 1.3 @ (181.6, 152.8), r 1.3 @ (214.0, 152.6)
+- **Closed boxes:** 14
+- **Wiring (first pass):** 66 connected wire groups from 305 runs
+
+Every curve, box, word and wire group: [1988 - 880651 - 880651-02-008 - NOTE MOMENTARY SWITCHES ARE DIALIGHT (traced).json](1988%20-%20880651%20-%20880651-02-008%20-%20NOTE%20MOMENTARY%20SWITCHES%20ARE%20DIALIGHT%20%28traced%29.json) (the CAD file: `1988 - 880651 - 880651-02-008 - NOTE MOMENTARY SWITCHES ARE DIALIGHT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

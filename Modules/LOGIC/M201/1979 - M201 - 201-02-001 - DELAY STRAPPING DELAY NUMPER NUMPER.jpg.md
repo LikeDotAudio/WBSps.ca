@@ -11,6 +11,21 @@ Wiki page: [M201](../../../PAGES/M201.md)
 - **Size:** 6,846,060 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 201-02-001, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–307 mm up
+- **Outlines:** line 1,081 rings, 9,162 straight (16,425 mm) / 2,032 curved (2,510 mm); text 458 rings, 2,491 straight (2,059 mm) / 843 curved (1,021 mm); tb 46 rings, 360 straight (370 mm) / 77 curved (88.6 mm)
+- **Centre lines:** 10,094 paths (296 closed); straight 11,160 mm, curved 172 mm; horizontal 4,402 mm, vertical 2,803 mm, diagonal 3,956 mm
+- **Circles and arcs:** 3 circles, 53 arcs; largest r 3.3 @ (318.8, 128.1), r 3.3 @ (159.3, 126.9), r 1.0 @ (11.0, 126.2)
+- **Closed boxes:** 38 (7 in the title block); named: Rzz; OpEh; Dhor; Mzoi; short; DELA Stoppiha delat scC ShorI 0-25 sec S; DELA Stoppiha; delat; scC; ShobT; OpeH; 0-25 sec
+- **Dots (junctions):** 1
+- **Words (OCR):** 79 in 66 lines: VariATiON LEGEND · Rio/Rzu Rzz · Mzoi · short · OpEh Dhor · short · INPUT · OFF · OUTPUT · RR · La · ENERGiZed' INPUT
+- **Title block:** (358, 20)–(432, 60) mm: DATE · WBS · WAAD-Beck BybtemB · M201 · Ryl · RELAY · MODULE · SCALE · 201-02-001
+- **Wiring (first pass):** 122 connected wire groups from 815 runs, 2 dotted junctions; labelled ends: 332 mm → 088, 4k; 252 mm → DELA, delat, scC, Stoppiha; 191 mm → Dhor, short; 138 mm → La, Iao, DC CcntROL; 95 mm → R2s
+
+Every curve, box, word and wire group: [1979 - M201 - 201-02-001 - DELAY STRAPPING DELAY NUMPER NUMPER (traced).json](1979%20-%20M201%20-%20201-02-001%20-%20DELAY%20STRAPPING%20DELAY%20NUMPER%20NUMPER%20%28traced%29.json) (the CAD file: `1979 - M201 - 201-02-001 - DELAY STRAPPING DELAY NUMPER NUMPER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

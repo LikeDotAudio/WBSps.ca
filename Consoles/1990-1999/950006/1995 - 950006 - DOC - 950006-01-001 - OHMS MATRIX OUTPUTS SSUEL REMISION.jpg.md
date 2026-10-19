@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,313,181 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 950006-01-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 0–415 mm across, 8–190 mm up
+- **Outlines:** line 837 rings, 6,184 straight (9,555 mm) / 873 curved (1,082 mm); text 195 rings, 1,237 straight (1,130 mm) / 361 curved (456 mm); tb 13 rings, 111 straight (152 mm) / 25 curved (29.0 mm)
+- **Centre lines:** 22,966 paths (105 closed); straight 10,363 mm, curved 18.7 mm; horizontal 2,957 mm, vertical 2,659 mm, diagonal 4,747 mm
+- **Circles and arcs:** 34 circles, 7 arcs; largest r 3.4 @ (225.4, 160.0), r 3.4 @ (225.2, 115.5), r 3.3 @ (193.5, 141.0), r 3.3 @ (161.5, 109.2)
+- **Closed boxes:** 15 (5 in the title block); named: BBS NORTH BAY MinicOM FUNCTIONAL; DSC NoStsd1; 950006-01-001; COCE: 930001
+- **Words (OCR):** 27 in 26 lines: EGEND: · CROSSPCINT · CROSSPCINT · SNMCHED · 48524 · IhpUTS · Aupunep · 90 · 4nnt · MICE · 8000 · MBs12
+- **Title block:** (336, 23)–(421, 44) mm: ISSUEL · WBS · WARD-BECK SYSTEMS · BBS NORTH BAY
+- **Wiring (first pass):** 68 connected wire groups from 905 runs; labelled ends: 43 mm → DSC NoStsd1; 29 mm → ProupT, Lud D; 20 mm → MICE; 18 mm → MICE; 16 mm → AMPLIFIEF, (12 SECTCYS)
+
+Every curve, box, word and wire group: [1995 - 950006 - DOC - 950006-01-001 - OHMS MATRIX OUTPUTS SSUEL REMISION (traced).json](1995%20-%20950006%20-%20DOC%20-%20950006-01-001%20-%20OHMS%20MATRIX%20OUTPUTS%20SSUEL%20REMISION%20%28traced%29.json) (the CAD file: `1995 - 950006 - DOC - 950006-01-001 - OHMS MATRIX OUTPUTS SSUEL REMISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

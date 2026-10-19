@@ -11,6 +11,20 @@ Wiki page: [M605A](../../../PAGES/M605A.md)
 - **Size:** 976,426 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 605-02-003, size B (assumed) 432 × 148 mm, 2000 × 687 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–144 mm up
+- **Outlines:** line 831 rings, 6,836 straight (13,182 mm) / 1,477 curved (1,957 mm); text 346 rings, 2,091 straight (1,930 mm) / 783 curved (1,015 mm); tb 19 rings, 196 straight (225 mm) / 51 curved (58.1 mm)
+- **Centre lines:** 9,250 paths (199 closed); straight 9,674 mm, curved 138 mm; horizontal 3,850 mm, vertical 2,496 mm, diagonal 3,328 mm
+- **Circles and arcs:** 0 circles, 48 arcs
+- **Closed boxes:** 46 (3 in the title block); named: 5/73
+- **Words (OCR):** 59 in 55 lines: MRING · JPLE · BYEIEM · LDd · RELR Ve · WITAIN · WRIN · DuT · LCRD · 6034 · Ghaesis · DUT
+- **Title block:** (353, 0)–(432, 31) mm: WBS · WARD-BeCk systenS · M6OSA · AUDIO DISTRIBUTION · AMPLIFIER · SYSTEM WiriNg SCHEMATIC · Scale · 605-02-003
+- **Wiring (first pass):** 100 connected wire groups from 893 runs; labelled ends: 295 mm → Aen, 36517, OPTcHAL; 262 mm → TEChhiCAL, BAR; 189 mm → 6034; 124 mm → Dutput4; 90 mm → PUT
+
+Every curve, box, word and wire group: [1987 - M605A - 605-02-003 - MGOSA AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC (traced).json](1987%20-%20M605A%20-%20605-02-003%20-%20MGOSA%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20SYSTEM%20WIRING%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1987 - M605A - 605-02-003 - MGOSA AUDIO DISTRIBUTION AMPLIFIER SYSTEM WIRING SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

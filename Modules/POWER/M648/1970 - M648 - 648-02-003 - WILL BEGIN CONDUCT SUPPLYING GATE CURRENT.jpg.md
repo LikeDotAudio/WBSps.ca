@@ -11,6 +11,20 @@ Wiki page: [M648](../../../PAGES/M648.md)
 - **Size:** 236,744 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 648-02-003, size B (assumed) 329 × 432 mm, 832 × 1092 px traced (0.395 mm/px)
+- **Ink extent:** 4–302 mm across, 21–424 mm up
+- **Outlines:** line 77 rings, 494 straight (3,011 mm) / 97 curved (233 mm); text 2,790 rings, 13,235 straight (19,597 mm) / 5,354 curved (12,392 mm); tb 27 rings, 126 straight (182 mm) / 40 curved (90.0 mm)
+- **Centre lines:** 13,481 paths (761 closed); straight 17,260 mm, curved 11.6 mm; horizontal 2,832 mm, vertical 4,458 mm, diagonal 9,970 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 1
+- **Words (OCR):** 184 in 98 lines: WAAD-BECK BYBTEMB LTD: · CIRCUIT DESCRIPIIQN · SA44-058 REGULATOR ASSEMBLY · The constant current source · Q2 isolates the incremental changes of the unregulated · dc input · voltage from the control current leaving the collector of Q4 and entering · the basc of Q3. · Q3 · the main frame assembly of
+- **Title block:** (22, 57)–(151, 426) mm: WAAD-BECK BYBTEMB LTD: · The constant current source · dc input · the basc of Q3. · Q3 · the main frame assembly of the M648 or M648A_ · 04 is · +24 volts to +48 volts_ · UI contains · comparison volt
+- **Wiring (first pass):** 1 connected wire groups from 37 runs
+
+Every curve, box, word and wire group: [1970 - M648 - 648-02-003 - WILL BEGIN CONDUCT SUPPLYING GATE CURRENT (traced).json](1970%20-%20M648%20-%20648-02-003%20-%20WILL%20BEGIN%20CONDUCT%20SUPPLYING%20GATE%20CURRENT%20%28traced%29.json) (the CAD file: `1970 - M648 - 648-02-003 - WILL BEGIN CONDUCT SUPPLYING GATE CURRENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

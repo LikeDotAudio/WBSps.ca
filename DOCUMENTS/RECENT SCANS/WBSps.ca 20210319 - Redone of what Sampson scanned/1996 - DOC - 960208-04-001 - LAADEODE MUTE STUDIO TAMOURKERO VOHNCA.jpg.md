@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 12,010,187 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960208-04-001, size B (assumed) 432 × 319 mm, 2000 × 1479 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 30–392 mm across, 5–297 mm up
+- **Outlines:** line 2,145 rings, 15,415 straight (37,731 mm) / 2,411 curved (2,985 mm); text 467 rings, 3,006 straight (2,864 mm) / 990 curved (1,275 mm); tb 19 rings, 342 straight (1,736 mm) / 16 curved (23.3 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 6.1 @ (340.9, 116.7), r 6.1 @ (340.7, 92.6), r 2.2 @ (359.3, 145.4), r 2.2 @ (359.0, 112.1)
+- **Closed boxes:** 327; named: M9og; M908; M907; M907; M9O1B PRE {PST; M9O1B; M9O1C CH ON; M9O1c; M9O1C CHOM; MIO1C CHON; MIO1C 15 CH ON; Mgo1c 19 CH ON
+- **Dots (junctions):** 10
+- **Words (OCR):** 92 in 62 lines: METER · Micz · LINEI · LINE? · UNES · VNE4 · VNES · WINEE · LNE? · UNE8 · VNE9 · UNEIO
+- **Title block:** (272, 5)–(400, 57) mm: ISSUE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN: · DRG · CIFX · ENG_ WKW · CKD_ · RENAISSANCE MKII · APP · CONSOLE LA YOUT · SCALE DISC NO: · 1:2 CODE: 96208L.01 · SYSO1 · 960208-04-001 · ISSUE
+
+Every curve, box, word and wire group: [1996 - DOC - 960208-04-001 - LAADEODE MUTE STUDIO TAMOURKERO VOHNCA (traced).json](1996%20-%20DOC%20-%20960208-04-001%20-%20LAADEODE%20MUTE%20STUDIO%20TAMOURKERO%20VOHNCA%20%28traced%29.json) (the CAD file: `1996 - DOC - 960208-04-001 - LAADEODE MUTE STUDIO TAMOURKERO VOHNCA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

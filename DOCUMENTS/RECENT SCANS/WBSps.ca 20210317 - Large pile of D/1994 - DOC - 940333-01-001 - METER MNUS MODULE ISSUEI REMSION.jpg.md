@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,385,681 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940333-01-001, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px); scale disc NO;
+- **Ink extent:** 18–423 mm across, 6–272 mm up
+- **Outlines:** line 1,523 rings, 12,280 straight (24,160 mm) / 2,266 curved (2,635 mm); text 393 rings, 2,506 straight (2,184 mm) / 785 curved (952 mm); tb 37 rings, 318 straight (308 mm) / 69 curved (76.9 mm)
+- **Centre lines:** 18,825 paths (294 closed); straight 16,205 mm, curved 109 mm; horizontal 6,563 mm, vertical 4,472 mm, diagonal 5,170 mm
+- **Circles and arcs:** 5 circles, 33 arcs; largest r 2.3 @ (33.9, 262.1), r 1.8 @ (143.5, 128.9), r 1.8 @ (33.7, 262.2), r 1.8 @ (143.4, 148.2)
+- **Closed boxes:** 66 (13 in the title block); named: RichT
+- **Words (OCR):** 51 in 46 lines: LEGEND · MUSC · QUE_AUX · VETEP · CUTPUT · INSERTS · CCNNECTDO · RicHT · INSERTS · MCNQ GuTPUTS · RichT · R]cRCVCNITOR
+- **Title block:** (340, 5)–(428, 39) mm: WARD-BECK SYSTEMS · WBS · CFTR BOOTH · RENAISSANCE · MkI · FUNCTIONAL · SCALE disc NO; · 940333-01-001 · CODE:
+- **Wiring (first pass):** 255 connected wire groups from 1,593 runs; labelled ends: 283 mm → QUE_AUX; 179 mm → RichT; 179 mm → MUSC; 179 mm → MUSC, RicHT; 159 mm → QUE_AUX, R]cRCVCNITOR
+
+Every curve, box, word and wire group: [1994 - DOC - 940333-01-001 - METER MNUS MODULE ISSUEI REMSION (traced).json](1994%20-%20DOC%20-%20940333-01-001%20-%20METER%20MNUS%20MODULE%20ISSUEI%20REMSION%20%28traced%29.json) (the CAD file: `1994 - DOC - 940333-01-001 - METER MNUS MODULE ISSUEI REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 19 words corrected)

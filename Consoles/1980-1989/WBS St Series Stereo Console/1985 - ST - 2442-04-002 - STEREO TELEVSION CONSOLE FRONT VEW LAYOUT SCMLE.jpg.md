@@ -10,6 +10,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 2,001,949 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 2442-04-002, size B (assumed) 432 × 239 mm, 2000 × 1109 px traced (0.216 mm/px)
+- **Ink extent:** 20–423 mm across, 1–239 mm up
+- **Outlines:** line 707 rings, 8,772 straight (21,744 mm) / 800 curved (1,068 mm); text 77 rings, 775 straight (829 mm) / 239 curved (336 mm)
+- **Closed boxes:** 128; named: OMD; ST2442 STEREO TELEVSION CONSOLE FRONT VE; 2442-04-002
+- **Words (OCR):** 11 in 11 lines: 4528 · STEREO · OMD · Pa · WARD-BECK SYSTEMS · WES · ST2442 · STEREO TELEVSION CONSOLE · FRONT VEW LAYOUT · 14 · 2442-04-002
+
+Every curve, box, word and wire group: [1985 - ST - 2442-04-002 - STEREO TELEVSION CONSOLE FRONT VEW LAYOUT SCMLE (traced).json](1985%20-%20ST%20-%202442-04-002%20-%20STEREO%20TELEVSION%20CONSOLE%20FRONT%20VEW%20LAYOUT%20SCMLE%20%28traced%29.json) (the CAD file: `1985 - ST - 2442-04-002 - STEREO TELEVSION CONSOLE FRONT VEW LAYOUT SCMLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

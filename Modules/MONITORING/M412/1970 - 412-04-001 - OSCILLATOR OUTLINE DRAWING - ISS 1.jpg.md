@@ -27,6 +27,17 @@ Outline drawing of the M412 oscillator package with panel cutout.
 
 - **1970** (month): `FeB 1970` — …G CONNECTOR ELco PTNe00-6007-022 940-002 OR SIMILAR DJG D4z FeB 1970 77 M+l2 OSCI_LATOR OUTLINE DRAWING ALUMINUAA PACKAGE 412-04…
 
+## Vectors (traced)
+
+- **Sheet:** layout A 412-04-001, size A 279 × 198 mm, 1753 × 1240 px traced (0.159 mm/px)
+- **Ink extent:** 0–279 mm across, 0–198 mm up
+- **Outlines:** line 786 rings, 7,853 straight (7,313 mm) / 1,160 curved (1,110 mm); text 280 rings, 2,100 straight (1,346 mm) / 634 curved (580 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 2.8 @ (105.4, 147.1), r 2.3 @ (136.8, 151.2), r 1.1 @ (144.7, 146.8), r 1.1 @ (136.3, 101.1)
+- **Closed boxes:** 4
+- **Words (OCR):** 40 in 31 lines: FANEL FINISH · ANODIZE With Photo ETCHED · '250 · CHARACTERS · 5.0 · CN · LAMP · PANEL cutcut · 4-40 THD · ThK RC CONNECTOR · PIN / · PIN2Z
+
+Every curve, box, word and wire group: [1970 - 412-04-001 - OSCILLATOR OUTLINE DRAWING - ISS 1 (traced).json](1970%20-%20412-04-001%20-%20OSCILLATOR%20OUTLINE%20DRAWING%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1970 - 412-04-001 - OSCILLATOR OUTLINE DRAWING - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

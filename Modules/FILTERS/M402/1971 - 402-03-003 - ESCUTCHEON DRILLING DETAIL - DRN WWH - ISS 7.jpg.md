@@ -25,6 +25,19 @@ Mechanical drilling detail of an escutcheon plate with holes.
 - **Size:** 1,451,882 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 402-03-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 12–299 mm up
+- **Outlines:** line 201 rings, 3,667 straight (8,094 mm) / 513 curved (1,058 mm); text 647 rings, 5,004 straight (5,652 mm) / 1,373 curved (2,093 mm); tb 197 rings, 2,372 straight (1,952 mm) / 435 curved (532 mm)
+- **Centre lines:** 9,948 paths (125 closed); straight 9,888 mm, curved 536 mm; horizontal 3,332 mm, vertical 2,103 mm, diagonal 4,453 mm
+- **Circles and arcs:** 4 circles, 17 arcs; largest r 39.6 @ (367.5, 130.5), r 11.7 @ (199.1, 161.9), r 5.5 @ (199.0, 162.0), r 5.3 @ (156.5, 162.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 97 in 66 lines: DRILL TAP · 8-32 UNC · 500 DIA · AT 820 To,250 DIA · 4 Csk · HOLE · HOLES · 4.06 · 4.50 · 3.25 · 1.62 · 79
+- **Title block:** (130, 11)–(410, 55) mm: RZ · BECK _ SVSTENS LiD · WaRd · Finish VIBRATE · 325 Grit Drm · W,W H; · VAPOUR BLAST Top · EScUTcHEON · SURFACE ONLY · DATE · 15 Oct 71 · DRILLING · DETAIL · Chd
+
+Every curve, box, word and wire group: [1971 - 402-03-003 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 7 (traced).json](1971%20-%20402-03-003%20-%20ESCUTCHEON%20DRILLING%20DETAIL%20-%20DRN%20WWH%20-%20ISS%207%20%28traced%29.json) (the CAD file: `1971 - 402-03-003 - ESCUTCHEON DRILLING DETAIL - DRN WWH - ISS 7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

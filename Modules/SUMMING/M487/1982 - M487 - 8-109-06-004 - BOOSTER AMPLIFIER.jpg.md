@@ -11,6 +11,17 @@ Wiki page: [M487](../../../PAGES/M487.md)
 - **Size:** 5,906,684 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-004, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–428 mm across, 0–288 mm up
+- **Outlines:** line 677 rings, 5,376 straight (11,611 mm) / 1,383 curved (1,509 mm); text 560 rings, 4,019 straight (4,332 mm) / 1,245 curved (1,428 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 7.4 @ (124.1, 179.1), r 7.4 @ (124.7, 95.6), r 7.4 @ (82.1, 178.9), r 7.1 @ (82.5, 95.8)
+- **Closed boxes:** 15
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER (traced).json](1982%20-%20M487%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1982 - M487 - 8-109-06-004 - BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

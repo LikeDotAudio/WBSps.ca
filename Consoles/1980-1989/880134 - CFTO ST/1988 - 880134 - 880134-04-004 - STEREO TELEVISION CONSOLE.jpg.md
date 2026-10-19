@@ -11,6 +11,15 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,043,542 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–423 mm up
+- **Outlines:** line 129 rings, 2,170 straight (7,160 mm) / 243 curved (354 mm); text 181 rings, 1,296 straight (1,809 mm) / 387 curved (636 mm)
+- **Closed boxes:** 15
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-004 - STEREO TELEVISION CONSOLE (traced).json](1988%20-%20880134%20-%20880134-04-004%20-%20STEREO%20TELEVISION%20CONSOLE%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-004 - STEREO TELEVISION CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

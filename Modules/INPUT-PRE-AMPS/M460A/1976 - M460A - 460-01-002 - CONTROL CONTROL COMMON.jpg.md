@@ -15,6 +15,20 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 
 - **1976** (labelled): `DATE 8 DEC 76` — …OD CKD 3540 USED ON MATL WBS WARD-BECK BYSTEMS LTD DRN. DnM DATE 8 DEC 76 CKD Reel ISCALE TOLS # M46O A INPUT MODULE FUNCTIONAL DIAGR…
 
+## Vectors (traced)
+
+- **Sheet:** functional 460-01-002, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–258 mm up
+- **Outlines:** line 255 rings, 4,486 straight (10,920 mm) / 537 curved (826 mm); text 633 rings, 4,178 straight (4,546 mm) / 1,228 curved (1,769 mm); tb 11 rings, 235 straight (602 mm) / 19 curved (29.8 mm)
+- **Centre lines:** 5,601 paths (121 closed); straight 8,885 mm, curved 173 mm; horizontal 3,686 mm, vertical 2,320 mm, diagonal 2,879 mm
+- **Circles and arcs:** 11 circles, 13 arcs; largest r 3.3 @ (157.9, 187.7), r 3.0 @ (234.0, 185.0), r 1.5 @ (71.6, 163.9), r 1.5 @ (72.3, 207.8)
+- **Closed boxes:** 36 (29 in the title block); named: 4-126
+- **Words (OCR):** 99 in 88 lines: SENSITiVITY · DIRECT OUTput · LINE · 30 dB · EQ · PAN · 10 dBm · LINE IN · INSERT · INSERT · -20/+10 dBm · CHAN
+- **Title block:** (143, 5)–(384, 57) mm: ISS MOD   CKD · USED ON · MATL · WBS WARD-BECK BYSTEMS LTD · 3540 · DRN. DnM · M46O A · FINISH · DATE 8 DEC 76 · INPUT · CKD · Reel · ISCALE · FUNCTIONAL DIAGRAM · TOLS · 460 = 01-002
+- **Wiring (first pass):** 175 connected wire groups from 372 runs; labelled ends: 162 mm → PFL; 154 mm → PRE /Post, PRE, PosT; 119 mm → CONTROL; 77 mm → PHASE, ON; 53 mm → 8-109, PRE /Post
+
+Every curve, box, word and wire group: [1976 - M460A - 460-01-002 - CONTROL CONTROL COMMON (traced).json](1976%20-%20M460A%20-%20460-01-002%20-%20CONTROL%20CONTROL%20COMMON%20%28traced%29.json) (the CAD file: `1976 - M460A - 460-01-002 - CONTROL CONTROL COMMON (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

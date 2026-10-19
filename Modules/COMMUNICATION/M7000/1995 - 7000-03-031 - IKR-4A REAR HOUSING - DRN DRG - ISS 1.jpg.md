@@ -22,6 +22,19 @@ Wiki page: [M7000](../../../PAGES/M7000.md)
 - **Size:** 397,689 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 7000-03-031, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 57–848 mm across, 13–491 mm up
+- **Outlines:** line 756 rings, 4,235 straight (22,090 mm) / 655 curved (1,592 mm); text 253 rings, 1,425 straight (2,613 mm) / 420 curved (1,052 mm); tb 8 rings, 87 straight (269 mm) / 10 curved (22.1 mm)
+- **Centre lines:** 5,442 paths (127 closed); straight 14,074 mm, curved 52.6 mm; horizontal 7,158 mm, vertical 3,662 mm, diagonal 3,254 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 2.7 @ (386.8, 185.0)
+- **Closed boxes:** 27 (3 in the title block); named: IKR-4A REAR HOUSING
+- **Words (OCR):** 31 in 28 lines: 0,2p0 · 0.245 · REQO /SIDE · 0.290 · 0,2E0 · 1-285 · 5,263 · 6.113 · WELD AND GRIND ShooTh MATED CCRNERS · 5440= · INSIAL · REO'D
+- **Title block:** (689, 45)–(860, 86) mm: ISSUCI DATE · WBS · WARD-BECK SYSTEMS · Idrx; cacis/5
+
+Every curve, box, word and wire group: [1995 - 7000-03-031 - IKR-4A REAR HOUSING - DRN DRG - ISS 1 (traced).json](1995%20-%207000-03-031%20-%20IKR-4A%20REAR%20HOUSING%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 7000-03-031 - IKR-4A REAR HOUSING - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

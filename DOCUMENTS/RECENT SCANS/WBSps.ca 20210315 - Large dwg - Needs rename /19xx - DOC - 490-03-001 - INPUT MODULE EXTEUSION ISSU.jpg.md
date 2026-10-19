@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 12,317,219 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 490-03-001, size B (assumed) 432 × 281 mm, 2000 × 1303 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 2–281 mm up
+- **Outlines:** line 2,237 rings, 18,123 straight (24,541 mm) / 3,485 curved (4,407 mm); text 265 rings, 1,407 straight (1,318 mm) / 511 curved (682 mm); tb 6 rings, 21 straight (15.1 mm) / 1 curved (0.7 mm)
+- **Centre lines:** 28,147 paths (217 closed); straight 18,970 mm, curved 386 mm; horizontal 7,919 mm, vertical 3,865 mm, diagonal 7,185 mm
+- **Circles and arcs:** 14 circles, 54 arcs; largest r 6.4 @ (113.6, 92.5), r 4.8 @ (113.7, 111.0), r 3.3 @ (26.4, 85.8), r 3.1 @ (26.7, 116.9)
+- **Closed boxes:** 14; named: 2'2022; 2'2022; M490 DulE INPUT 0o Exteusion
+- **Words (OCR):** 61 in 52 lines: 31 · 2'2022 · I50 · 760 · 12.076 · 375 · JOC · 076 · 2.400 · 7S0 · Holes - · Placcs
+- **Title block:** (355, 21)–(414, 36) mm: WBS · WARD-DECK · GEE · M490
+
+Every curve, box, word and wire group: [19xx - DOC - 490-03-001 - INPUT MODULE EXTEUSION ISSU (traced).json](19xx%20-%20DOC%20-%20490-03-001%20-%20INPUT%20MODULE%20EXTEUSION%20ISSU%20%28traced%29.json) (the CAD file: `19xx - DOC - 490-03-001 - INPUT MODULE EXTEUSION ISSU (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 3,168,020 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 5-101-02-002, size B (assumed) 432 × 153 mm, 2000 × 708 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–152 mm up
+- **Outlines:** line 889 rings, 8,288 straight (12,127 mm) / 1,730 curved (2,163 mm); text 639 rings, 3,578 straight (3,384 mm) / 1,459 curved (1,809 mm)
+- **Centre lines:** 13,959 paths (220 closed); straight 10,560 mm, curved 477 mm; horizontal 3,254 mm, vertical 2,383 mm, diagonal 4,923 mm
+- **Circles and arcs:** 13 circles, 84 arcs; largest r 3.1 @ (364.0, 45.3), r 3.1 @ (140.4, 104.4), r 3.0 @ (140.2, 76.5), r 2.9 @ (140.3, 44.9)
+- **Closed boxes:** 22; named: MatL; LB; -101-02 - 002
+- **Words (OCR):** 132 in 117 lines: Riz · R3 · Pn3S6? · 05 · R31 · Pn3SG9 · CRi Ri6 · CRS R39 · +18v (8k · C6 R2? · HBv (8k · Ci3
+- **Wiring (first pass):** 99 connected wire groups from 759 runs; labelled ends: 88 mm → MatL; 79 mm → NBS, DEL, AmPLIFIER, LB; 70 mm → ISk, NBS; 70 mm → R14, CR3, 03, Pn3569; 60 mm → 215, 22/25, XCom, Ci6
+
+Every curve, box, word and wire group: [1975 - M457 - 5-101-02-002 - SPECIFIED LAST COMPONENT DESICNATIONS (traced).json](1975%20-%20M457%20-%205-101-02-002%20-%20SPECIFIED%20LAST%20COMPONENT%20DESICNATIONS%20%28traced%29.json) (the CAD file: `1975 - M457 - 5-101-02-002 - SPECIFIED LAST COMPONENT DESICNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

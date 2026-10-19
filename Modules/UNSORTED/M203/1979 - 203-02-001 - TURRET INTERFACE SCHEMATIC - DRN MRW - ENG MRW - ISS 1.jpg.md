@@ -23,6 +23,20 @@ Wiki page: [M203](../../../PAGES/M203.md)
 - **Size:** 1,164,030 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 203-02-001, size D 864 × 554 mm, 2000 × 1283 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–554 mm up
+- **Outlines:** line 590 rings, 5,826 straight (23,881 mm) / 1,318 curved (3,198 mm); text 112 rings, 834 straight (1,476 mm) / 276 curved (653 mm); tb 17 rings, 188 straight (392 mm) / 45 curved (100 mm)
+- **Centre lines:** 7,578 paths (141 closed); straight 15,546 mm, curved 207 mm; horizontal 6,633 mm, vertical 3,969 mm, diagonal 4,944 mm
+- **Circles and arcs:** 3 circles, 29 arcs; largest r 1.8 @ (420.0, 109.7), r 1.8 @ (185.8, 432.4), r 1.4 @ (433.2, 24.2)
+- **Closed boxes:** 28 (4 in the title block); named: M2os NTERFACE turret SchemATIC; 2o3
+- **Words (OCR):** 23 in 22 lines: Rk · 74014 · 74coo · TALLT · TBACK · Push Bttoh · COHTROl · 95 · ReMOTE · nth · 16888 Sis · REMOTE OFF
+- **Title block:** (716, 36)–(864, 67) mm: WBS · WARD-BeCk SYSTEMS · M2os
+- **Wiring (first pass):** 111 connected wire groups from 908 runs; labelled ends: 223 mm → 95; 215 mm → 74coo, 74014; 123 mm → 22k; 112 mm → 16888, Sis; 86 mm → Rk
+
+Every curve, box, word and wire group: [1979 - 203-02-001 - TURRET INTERFACE SCHEMATIC - DRN MRW - ENG MRW - ISS 1 (traced).json](1979%20-%20203-02-001%20-%20TURRET%20INTERFACE%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 203-02-001 - TURRET INTERFACE SCHEMATIC - DRN MRW - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

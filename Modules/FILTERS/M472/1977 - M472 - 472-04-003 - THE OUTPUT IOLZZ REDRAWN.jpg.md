@@ -11,6 +11,18 @@ Wiki page: [M472](../../../PAGES/M472.md)
 - **Size:** 277,054 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 472-04-003, size B (assumed) 324 × 432 mm, 1503 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–324 mm across, 0–317 mm up
+- **Outlines:** line 133 rings, 962 straight (2,674 mm) / 272 curved (358 mm); text 1,079 rings, 6,326 straight (5,804 mm) / 2,371 curved (3,075 mm); tb 387 rings, 2,576 straight (6,862 mm) / 716 curved (1,128 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.1 @ (13.1, 211.0), r 1.1 @ (63.6, 211.0), r 1.0 @ (84.3, 180.4), r 1.0 @ (96.2, 238.7)
+- **Closed boxes:** 4; named: ADJUSTMENT Aid FREQUENCY section, FREQUE; id FREQUE NCY SELECTOR sect ion, switch ; LON FREQUENCY sect ion FREQUENCY ADJUSTH; When depressed, EQUALIZER INSERT Shi thi
+- **Words (OCR):** 169 in 96 lines: WBS · M472 · HF · HIGH FREQUENCY sect · BoOST/CUT control R22 : · Cont nuous · iable · From · +15 dB. Sets · os · 05 high frequency content · the program
+- **Title block:** (135, 0)–(324, 321) mm: WBS · M472 · HF · HIGH FREQUENCY sect · BoOST/CUT control R22 : · Cont nuous · iable · From · +15 dB. Sets · os · 05 high frequency content · the program · material with reference che · nomina | leve 
+
+Every curve, box, word and wire group: [1977 - M472 - 472-04-003 - THE OUTPUT IOLZZ REDRAWN (traced).json](1977%20-%20M472%20-%20472-04-003%20-%20THE%20OUTPUT%20IOLZZ%20REDRAWN%20%28traced%29.json) (the CAD file: `1977 - M472 - 472-04-003 - THE OUTPUT IOLZZ REDRAWN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

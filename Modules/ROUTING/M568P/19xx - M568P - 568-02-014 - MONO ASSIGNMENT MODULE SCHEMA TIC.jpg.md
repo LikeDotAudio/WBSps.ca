@@ -11,6 +11,21 @@ Wiki page: [M568P](../../../PAGES/M568P.md)
 - **Size:** 6,504,853 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 568-02-014, size B (assumed) 432 × 309 mm, 2000 × 1433 px traced (0.216 mm/px)
+- **Ink extent:** 17–432 mm across, 5–309 mm up
+- **Outlines:** line 868 rings, 13,230 straight (20,458 mm) / 2,548 curved (3,135 mm); text 78 rings, 639 straight (668 mm) / 191 curved (277 mm); tb 2 rings, 44 straight (112 mm) / 1 curved (1.6 mm)
+- **Centre lines:** 12,592 paths (98 closed); straight 12,700 mm, curved 72.1 mm; horizontal 5,024 mm, vertical 4,036 mm, diagonal 3,640 mm
+- **Circles and arcs:** 0 circles, 21 arcs
+- **Closed boxes:** 50; named: uEE
+- **Dots (junctions):** 2
+- **Words (OCR):** 9 in 8 lines: uEE · WBS WARD-BECK SYSTEN · MSB8P · MONO · ASSIGNMENT MODULE · SCHEMATIC · B588-02-014 · 1SS_
+- **Title block:** (344, 27)–(432, 45) mm: WBS WARD-BECK SYSTEN · MSB8P
+- **Wiring (first pass):** 161 connected wire groups from 1,324 runs
+
+Every curve, box, word and wire group: [19xx - M568P - 568-02-014 - MONO ASSIGNMENT MODULE SCHEMA TIC (traced).json](19xx%20-%20M568P%20-%20568-02-014%20-%20MONO%20ASSIGNMENT%20MODULE%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `19xx - M568P - 568-02-014 - MONO ASSIGNMENT MODULE SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M522](../../../PAGES/M522.md)
 - **Size:** 630,409 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 522-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 13–408 mm up
+- **Outlines:** line 817 rings, 7,383 straight (11,396 mm) / 1,731 curved (2,018 mm); text 235 rings, 1,612 straight (1,700 mm) / 497 curved (671 mm); tb 2 rings, 67 straight (154 mm) / 1 curved (2.2 mm)
+- **Centre lines:** 7,225 paths (134 closed); straight 7,739 mm, curved 117 mm; horizontal 2,629 mm, vertical 2,156 mm, diagonal 2,954 mm
+- **Circles and arcs:** 2 circles, 41 arcs; largest r 2.4 @ (170.8, 148.2), r 0.7 @ (42.6, 77.3)
+- **Dots (junctions):** 1
+- **Words (OCR):** 40 in 37 lines: RJ9 < · LEFT outpuT · Sc1g · Lva]JN · 44/10 · cigv · Knio · SHELF · HI-200 · 27000 · Lum · c1z
+- **Title block:** (209, 47)–(334, 71) mm: WBS WARD-BECK BYBTEMB
+- **Wiring (first pass):** 108 connected wire groups from 661 runs; labelled ends: 124 mm → 44/10; 116 mm → Leop; 89 mm → R7Z, 6a /6; 62 mm → Sc1g; 60 mm → 27000
+
+Every curve, box, word and wire group: [19xx - M522 - 522-02-002 - UNLESS OTHERWISE SPEC IFIED LAST COMPONENT DESIGNATIONS (traced).json](19xx%20-%20M522%20-%20522-02-002%20-%20UNLESS%20OTHERWISE%20SPEC%20IFIED%20LAST%20COMPONENT%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `19xx - M522 - 522-02-002 - UNLESS OTHERWISE SPEC IFIED LAST COMPONENT DESIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

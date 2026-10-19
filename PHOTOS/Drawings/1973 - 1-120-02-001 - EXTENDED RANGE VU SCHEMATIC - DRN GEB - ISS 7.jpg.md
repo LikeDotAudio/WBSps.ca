@@ -22,6 +22,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,283,955 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1-120-02-001, size B 432 × 145 mm, 2000 × 672 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–142 mm up
+- **Outlines:** line 619 rings, 5,458 straight (11,442 mm) / 1,229 curved (1,564 mm); text 430 rings, 2,205 straight (1,925 mm) / 777 curved (964 mm); tb 20 rings, 180 straight (213 mm) / 49 curved (52.7 mm)
+- **Centre lines:** 7,916 paths (167 closed); straight 8,183 mm, curved 272 mm; horizontal 3,245 mm, vertical 2,232 mm, diagonal 2,706 mm
+- **Circles and arcs:** 6 circles, 52 arcs; largest r 3.8 @ (207.7, 100.1), r 3.6 @ (220.7, 52.9), r 3.6 @ (188.5, 95.3), r 3.6 @ (93.6, 88.4)
+- **Closed boxes:** 21 (3 in the title block); named: 376; WBS WAAD DCK BYBTEM8 LTD; EXTENDED RANGE SChEMATIC; (-120-02 ~06
+- **Words (OCR):** 75 in 60 lines: 75 · 4K7 Ick · 376 · To AC · (Ti) · 508/35" · 1N4603 · 2 &es · RI5 · 2N4401 · noteS: · IOpF
+- **Title block:** (348, 6)–(385, 29) mm: ISCALE
+- **Wiring (first pass):** 43 connected wire groups from 532 runs; labelled ends: 708 mm → 508/35", Rzo, 823, L7copl; 344 mm → 4K7, Ick, 75, 2N4401; 263 mm → WBS; 100 mm → 4K7, Ick, OpF, 22m; 91 mm → LTD
+
+Every curve, box, word and wire group: [1973 - 1-120-02-001 - EXTENDED RANGE VU SCHEMATIC - DRN GEB - ISS 7 (traced).json](1973%20-%201-120-02-001%20-%20EXTENDED%20RANGE%20VU%20SCHEMATIC%20-%20DRN%20GEB%20-%20ISS%207%20%28traced%29.json) (the CAD file: `1973 - 1-120-02-001 - EXTENDED RANGE VU SCHEMATIC - DRN GEB - ISS 7 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

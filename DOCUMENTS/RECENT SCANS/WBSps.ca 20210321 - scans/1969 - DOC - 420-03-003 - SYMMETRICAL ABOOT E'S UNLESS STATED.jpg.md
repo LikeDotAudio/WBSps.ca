@@ -19,6 +19,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **1969** (labelled): `DATE SEPT 69` — …ED 4.75 5.75 DRN DJG FiNISH INARD BECK SYSTEMS LTd i20 grit DATE SEPT 69 BLACK ANobize SWITCH MTG Bekt MATERIAL CHKD Kn' 6,0 M 420 1…
 - **1969** (month): `Oct 69` — …iSsue 44 3.36 2-5gunC 2 Hoces Nou 4oFf PJ6 Oct 69 2 32 3-1125 1.625 32 2HOLES 83 DiA NTS: 1.435 1-05 .80 #O 7…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 420-03-003, size B (assumed) 432 × 264 mm, 2000 × 1222 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–264 mm up
+- **Outlines:** line 356 rings, 5,430 straight (9,917 mm) / 673 curved (991 mm); text 524 rings, 4,182 straight (4,585 mm) / 1,221 curved (1,850 mm); tb 48 rings, 400 straight (452 mm) / 57 curved (80.0 mm)
+- **Centre lines:** 7,380 paths (96 closed); straight 9,310 mm, curved 166 mm; horizontal 3,798 mm, vertical 2,194 mm, diagonal 3,318 mm
+- **Circles and arcs:** 6 circles, 19 arcs; largest r 4.5 @ (204.1, 167.3), r 4.3 @ (139.4, 166.8), r 1.8 @ (190.5, 167.7), r 1.7 @ (178.5, 167.7)
+- **Closed boxes:** 8; named: Ssue; 2-SGUnC Ha €s Nal} 40FF 0c769 DJG; DRN DATE CHKDE SCALEF TOLs; ISS
+- **Words (OCR):** 74 in 65 lines: Ssue · 44 · 2-SGUnC · 3.36 · Ha €s Nal} 40FF · DJG · 0c769 · 1+625 · 2HOLES · DIA · NTS · 1.435
+- **Title block:** (198, 13)–(375, 58) mm: FiNSH · UNARD · BECK SVSTEMS · DRN DJG · 120 Ggrit · DATE SEPT 69 · BLACK · ANoDIze · SwITCHI · MTG · MATERIAL · CHKDE · M 420 · 76 ALoM · SCALEF · FLL · FFRACT 1/64 · DEC · PLACES GIVE · ANGLES · 420
+
+Every curve, box, word and wire group: [1969 - DOC - 420-03-003 - SYMMETRICAL ABOOT E'S UNLESS STATED (traced).json](1969%20-%20DOC%20-%20420-03-003%20-%20SYMMETRICAL%20ABOOT%20E%27S%20UNLESS%20STATED%20%28traced%29.json) (the CAD file: `1969 - DOC - 420-03-003 - SYMMETRICAL ABOOT E'S UNLESS STATED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

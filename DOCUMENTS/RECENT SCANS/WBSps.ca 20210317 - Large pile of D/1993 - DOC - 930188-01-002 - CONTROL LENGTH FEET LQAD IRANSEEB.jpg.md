@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,080,858 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 930188-01-002, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 31–426 mm across, 2–260 mm up
+- **Outlines:** line 224 rings, 2,240 straight (4,440 mm) / 379 curved (507 mm); text 380 rings, 3,214 straight (2,842 mm) / 923 curved (1,105 mm); tb 32 rings, 372 straight (1,241 mm) / 23 curved (28.7 mm)
+- **Centre lines:** 10,098 paths (100 closed); straight 6,198 mm, curved 38.9 mm; horizontal 2,310 mm, vertical 1,441 mm, diagonal 2,447 mm
+- **Circles and arcs:** 2 circles, 9 arcs; largest r 1.1 @ (119.8, 83.7), r 1.1 @ (79.6, 93.1)
+- **Closed boxes:** 10; named: NBS_IMR-L IMER; MBS_CLK_LCLOCK; M45l IAKBACK MODULE; 8-103 TRANSFER CONTROL; PS2 MG258; H6258
+- **Words (OCR):** 91 in 87 lines: MONITORING · IMER · M49QFA_STEREQ · LINE_INPUT_CHANNELS (14) · START / ON · MUTE · M4ZSA_MONIQR_MQDULE · NBS_IMR-L IMER · CH ON 0 · STOP /OFF · CONTROL · TALKDACK
+- **Title block:** (342, 0)–(432, 39) mm: ISSUEL · REVSION · WBS · WARD-BECK SYSTEMS · DRN: · ST, OLAF COLLEGE · CONSOLE · ENG: · CKD: · RADIO · APP. · DC · FUNCTIONAL · ISSUE · SCALE DISC NO: · CODE: 93188F02 · 442 · 930188-01-002
+- **Wiring (first pass):** 40 connected wire groups from 240 runs; labelled ends: 137 mm → SUPPUES ARE LOCATED IN AN EXTERNAL MF-6C FRAME); 45 mm → M49QFA_STEREQ, LINE_INPUT_CHANNELS (14), M49QEA_STEREQ_LINE_INBUI_MQQULE; 45 mm → LINE_INPUT_CHANNELS (14), M49QEA_STEREQ_LINE_INBUI_MQQULE; 43 mm → IALKBACK; 41 mm → M49QEA_STEREQ_LINE_INBUI_MQQULE
+
+Every curve, box, word and wire group: [1993 - DOC - 930188-01-002 - CONTROL LENGTH FEET LQAD IRANSEEB (traced).json](1993%20-%20DOC%20-%20930188-01-002%20-%20CONTROL%20LENGTH%20FEET%20LQAD%20IRANSEEB%20%28traced%29.json) (the CAD file: `1993 - DOC - 930188-01-002 - CONTROL LENGTH FEET LQAD IRANSEEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

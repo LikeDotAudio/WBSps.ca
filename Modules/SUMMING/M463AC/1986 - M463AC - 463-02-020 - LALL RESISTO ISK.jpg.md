@@ -11,6 +11,18 @@ Wiki page: [M463AC](../../../PAGES/M463AC.md)
 - **Size:** 896,166 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-020, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–425 mm up
+- **Outlines:** line 355 rings, 6,506 straight (11,995 mm) / 1,198 curved (1,963 mm); text 524 rings, 4,090 straight (4,171 mm) / 1,354 curved (2,091 mm)
+- **Centre lines:** 6,741 paths (72 closed); straight 9,218 mm, curved 739 mm; horizontal 3,380 mm, vertical 2,260 mm, diagonal 3,579 mm
+- **Circles and arcs:** 18 circles, 82 arcs; largest r 6.0 @ (99.3, 130.6), r 5.9 @ (139.7, 70.4), r 5.9 @ (94.0, 264.0), r 5.8 @ (176.2, 215.7)
+- **Words (OCR):** 146 in 141 lines: Rio · RIz · ISk · 22 · 9i · 02 · 93 · Pn3c+5 · Se · 33016 · 21v · 9-3p
+- **Wiring (first pass):** 99 connected wire groups from 491 runs; labelled ends: 202 mm → ISp, 230/6, ICp, GkZ; 173 mm → Ris, Ioo, 05, Rii; 172 mm → Pn3c+5, Se, 9-3p, R3 Bk2; 134 mm → Rcb, 2-2, +21-, Pn35c9; 133 mm → Pn3C45, RS, 22k, -18v
+
+Every curve, box, word and wire group: [1986 - M463AC - 463-02-020 - LALL RESISTO ISK (traced).json](1986%20-%20M463AC%20-%20463-02-020%20-%20LALL%20RESISTO%20ISK%20%28traced%29.json) (the CAD file: `1986 - M463AC - 463-02-020 - LALL RESISTO ISK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

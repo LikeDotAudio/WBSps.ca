@@ -23,6 +23,19 @@ Wiki page: [M702](../../../PAGES/M702.md)
 - **Size:** 951,300 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 702-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: MA89001
+- **Ink extent:** 0–432 mm across, 3–298 mm up
+- **Outlines:** line 121 rings, 2,143 straight (8,056 mm) / 240 curved (387 mm); text 477 rings, 2,978 straight (3,741 mm) / 982 curved (1,472 mm); tb 5 rings, 89 straight (249 mm) / 3 curved (5.2 mm)
+- **Centre lines:** 3,350 paths (74 closed); straight 6,955 mm, curved 51.5 mm; horizontal 3,404 mm, vertical 1,493 mm, diagonal 2,059 mm
+- **Circles and arcs:** 1 circles, 8 arcs; largest r 4.4 @ (167.8, 124.8)
+- **Closed boxes:** 15 (11 in the title block); named: 702-03-002; CODE: MM702C1
+- **Words (OCR):** 61 in 45 lines: 5.660 · 5.535 · 4.450 · .12 X 45 DEG_ · 450 · TRP 4-40 · (2 PLACES) · 1.500 · 1.000 · 0.970 · 0.750 · 0.530
+- **Title block:** (248, 20)–(418, 88) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN; BD/88 · M7O2C · ENG- WS · HEATSINK · CKD · APP · ISSUE · SCALE DISC NO: MA89001 · 702-03-002 · 1:1 CODE: MM702C1
+
+Every curve, box, word and wire group: [1988 - 702-03-002 - M702C HEATSINK - DRN BD -88 - ENG WS - ISS 1 (traced).json](1988%20-%20702-03-002%20-%20M702C%20HEATSINK%20-%20DRN%20BD%20-88%20-%20ENG%20WS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 702-03-002 - M702C HEATSINK - DRN BD -88 - ENG WS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

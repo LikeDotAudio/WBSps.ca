@@ -23,6 +23,19 @@ Wiki page: [M402](../../../PAGES/M402.md)
 - **Size:** 4,382,128 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 402-02-012, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–285 mm up
+- **Outlines:** line 374 rings, 7,623 straight (12,945 mm) / 1,000 curved (1,532 mm); text 356 rings, 2,809 straight (3,053 mm) / 743 curved (1,105 mm)
+- **Centre lines:** 4,506 paths (87 closed); straight 9,010 mm, curved 445 mm; horizontal 4,710 mm, vertical 1,955 mm, diagonal 2,346 mm
+- **Circles and arcs:** 25 circles, 50 arcs; largest r 2.0 @ (217.5, 232.3), r 1.9 @ (392.2, 232.8), r 1.8 @ (65.5, 228.3), r 1.8 @ (170.0, 225.2)
+- **Closed boxes:** 43
+- **Dots (junctions):** 4
+- **Wiring (first pass):** 56 connected wire groups from 428 runs, 5 dotted junctions
+
+Every curve, box, word and wire group: [1970 - 402-02-012 - M402A(B) & M404A SYSTEM WIRING - DRN DJG - ISS 5 (traced).json](1970%20-%20402-02-012%20-%20M402A%28B%29%20%26%20M404A%20SYSTEM%20WIRING%20-%20DRN%20DJG%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1970 - 402-02-012 - M402A(B) & M404A SYSTEM WIRING - DRN DJG - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

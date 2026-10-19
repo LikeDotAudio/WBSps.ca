@@ -11,6 +11,18 @@ Wiki page: [M490M](../../../PAGES/M490M.md)
 - **Size:** 288,785 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-120-06-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–322 mm across, 18–352 mm up
+- **Outlines:** line 1,055 rings, 9,200 straight (12,565 mm) / 2,674 curved (2,903 mm); text 1,149 rings, 7,633 straight (6,962 mm) / 2,823 curved (3,161 mm); tb 2 rings, 65 straight (148 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 4.9 @ (123.6, 141.9), r 4.9 @ (123.6, 152.7), r 4.8 @ (170.9, 152.7), r 4.8 @ (170.8, 141.8)
+- **Closed boxes:** 14; named: R49 Sk [B]; Sk (8]
+- **Words (OCR):** 156 in 135 lines: SENSSTIVITY · RICHT · SENSITIVITY · EFT · HBS 10-046 · VBS 10-046 · VBS 11-152 · R49 · Sk [B] · Sk (8] · 68/40 33/16 68/40 33/16 · J2P
+- **Title block:** (207, 45)–(328, 70) mm: WBS · WARD-BECK SYSTEMS · SA14-120
+
+Every curve, box, word and wire group: [1988 - M490M - 14-120-06-001 - STEREO PREAMPLIFIER COMPONENT LAYOUT (traced).json](1988%20-%20M490M%20-%2014-120-06-001%20-%20STEREO%20PREAMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1988 - M490M - 14-120-06-001 - STEREO PREAMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

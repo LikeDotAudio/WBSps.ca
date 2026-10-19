@@ -25,6 +25,18 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 4,518,043 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 455-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–426 mm across, 0–287 mm up
+- **Outlines:** line 316 rings, 4,239 straight (8,742 mm) / 658 curved (893 mm); text 256 rings, 1,646 straight (1,930 mm) / 470 curved (690 mm)
+- **Centre lines:** 3,448 paths (74 closed); straight 5,499 mm, curved 169 mm; horizontal 2,422 mm, vertical 1,370 mm, diagonal 1,708 mm
+- **Circles and arcs:** 5 circles, 36 arcs; largest r 2.1 @ (380.5, 32.3), r 1.7 @ (387.6, 24.7), r 1.1 @ (380.3, 67.5), r 1.1 @ (302.2, 91.3)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 45 connected wire groups from 206 runs
+
+Every curve, box, word and wire group: [1978 - 455-01-001 - AUXILIARY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ISS 3 (traced).json](1978%20-%20455-01-001%20-%20AUXILIARY%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1978 - 455-01-001 - AUXILIARY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

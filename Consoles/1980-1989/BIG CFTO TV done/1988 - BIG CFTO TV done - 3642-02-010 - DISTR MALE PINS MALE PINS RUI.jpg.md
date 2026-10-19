@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,460,194 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-010, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–431 mm up
+- **Outlines:** line 597 rings, 6,783 straight (16,628 mm) / 1,058 curved (1,853 mm); text 775 rings, 4,774 straight (4,768 mm) / 1,610 curved (2,084 mm)
+- **Centre lines:** 8,868 paths (167 closed); straight 12,171 mm, curved 793 mm; horizontal 5,800 mm, vertical 2,387 mm, diagonal 3,985 mm
+- **Circles and arcs:** 36 circles, 51 arcs; largest r 3.4 @ (239.9, 26.0), r 3.3 @ (239.8, 34.1), r 3.3 @ (231.9, 26.1), r 3.3 @ (247.6, 26.2)
+- **Closed boxes:** 6; named: 016 AWG; M648 PS1Q
+- **Words (OCR):** 107 in 93 lines: FEMALE PINS · MALE PINS · TB102 · #22 AWG · PSI · +12v · #22 AWG · PS2 +12v · #22 AWG · PST   TRANSFER CTL · #22 AWG · PS2  TRANSFER CT
+- **Wiring (first pass):** 127 connected wire groups from 618 runs; labelled ends: 174 mm → 9,10,11; 172 mm → 022, AWG, 16; 90 mm → TB101; 87 mm → TB102; 87 mm → 10
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-010 - DISTR MALE PINS MALE PINS RUI (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-010%20-%20DISTR%20MALE%20PINS%20MALE%20PINS%20RUI%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-010 - DISTR MALE PINS MALE PINS RUI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

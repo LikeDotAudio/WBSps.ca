@@ -11,6 +11,21 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 32,694,228 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-014, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 4–278 mm up
+- **Outlines:** line 5,525 rings, 37,235 straight (62,231 mm) / 4,211 curved (5,068 mm); text 123 rings, 593 straight (564 mm) / 138 curved (180 mm); tb 12 rings, 77 straight (123 mm) / 5 curved (6.3 mm)
+- **Centre lines:** 32,336 paths (312 closed); straight 34,044 mm, curved 24.3 mm; horizontal 7,233 mm, vertical 21,566 mm, diagonal 5,245 mm
+- **Circles and arcs:** 5 circles, 6 arcs; largest r 1.9 @ (2.7, 14.3), r 1.2 @ (75.4, 33.2), r 1.2 @ (123.8, 33.1), r 0.8 @ (285.6, 172.4)
+- **Closed boxes:** 609 (1 in the title block); named: JACKFIELD WRING DRAMING; 380134-02 01 4
+- **Dots (junctions):** 7
+- **Words (OCR):** 9 in 7 lines: LEGEND · I"/7177 · ALI · WBS · WARD-BECK SYSTEMS · JACKFIELD WRING DRAMING · 380134-02 01 4
+- **Title block:** (347, 20)–(431, 36) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 294 connected wire groups from 6,987 runs; labelled ends: 18 mm → WBS; 7 mm → JACKFIELD
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-014 - CCR'ECTIC TRAE NVET CCHNECTIO' (traced).json](1988%20-%20880134%20-%20880134-02-014%20-%20CCR%27ECTIC%20TRAE%20NVET%20CCHNECTIO%27%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-014 - CCR'ECTIC TRAE NVET CCHNECTIO' (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

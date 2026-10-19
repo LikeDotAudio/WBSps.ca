@@ -12,6 +12,20 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 17,785,040 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 459-02-001, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–324 mm up
+- **Outlines:** line 615 rings, 9,421 straight (16,025 mm) / 1,515 curved (1,991 mm); text 373 rings, 2,541 straight (2,684 mm) / 800 curved (1,116 mm); tb 16 rings, 125 straight (141 mm) / 21 curved (20.7 mm)
+- **Centre lines:** 10,212 paths (101 closed); straight 11,727 mm, curved 237 mm; horizontal 4,963 mm, vertical 2,920 mm, diagonal 3,844 mm
+- **Circles and arcs:** 7 circles, 48 arcs; largest r 3.3 @ (189.8, 101.4), r 3.3 @ (226.5, 162.8), r 3.2 @ (246.1, 106.4), r 0.9 @ (189.6, 119.1)
+- **Closed boxes:** 42 (15 in the title block); named: IsS MMOD; WBS WAAD-BeCK bybtemB LTD; M459 VIDEO FOLLOW FILTER SELECTOR ScheMA; C459-02-001
+- **Words (OCR):** 65 in 54 lines: FILTER 2 · FILTER | · OUT · OuT · A IN · A OUT · B IN · OUT · KZ · Ri · Ik Yzw · CRoo?
+- **Title block:** (228, 5)–(393, 47) mm: MATL . · IsS MMOD cKD] · USED ON · WBS WAAD-BeCK bybtemB LTD · Dm · DRN: · DATE A4S75 VIDEO FOLLOW FILTER · M459 · FINISH · CKD · SELECTOR ScheMATIC · SCALE · C459-02-001 ISS- · TOLS ANG
+- **Wiring (first pass):** 85 connected wire groups from 442 runs; labelled ends: 293 mm → KZ, CRoo?, R4, 180,'2W; 125 mm → OFF, ON, 2k2,'nW; 102 mm → KZ; 95 mm → IsS MMOD; 58 mm → KZ
+
+Every curve, box, word and wire group: [1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC (traced).json](1976%20-%20M459%20-%20459-02-001%20-%20VIDEO%20FOLLOW%20FILTER%20SELECTOR%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1976 - M459 - 459-02-001 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

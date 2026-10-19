@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,429,424 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-010, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–286 mm up
+- **Outlines:** line 402 rings, 5,129 straight (8,093 mm) / 950 curved (1,454 mm); text 379 rings, 2,343 straight (2,330 mm) / 753 curved (1,044 mm)
+- **Centre lines:** 4,486 paths (100 closed); straight 5,951 mm, curved 570 mm; horizontal 2,426 mm, vertical 1,380 mm, diagonal 2,145 mm
+- **Circles and arcs:** 41 circles, 54 arcs; largest r 1.5 @ (200.6, 219.9), r 1.3 @ (188.5, 260.7), r 1.3 @ (269.4, 72.4), r 1.3 @ (188.5, 176.8)
+- **Words (OCR):** 53 in 46 lines: JACKFIELD Row · TB · TB · TB7 34(5) · Tb2 1,2 (3) · 4,5 (6) · 9,(u) · 15,6(7) · 7,8(9) · 21,22(23) · 21,22 · 19,20
+- **Wiring (first pass):** 65 connected wire groups from 266 runs; labelled ends: 48 mm → Tb7; 40 mm → 19,20; 39 mm → 45,4; 37 mm → 25,26; 36 mm → 3940
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-010 - LINE INPUT CONSOLE INPUT JACKS CHIANNELS (traced).json](1979%20-%20790236%20-%20790236-02-010%20-%20LINE%20INPUT%20CONSOLE%20INPUT%20JACKS%20CHIANNELS%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-010 - LINE INPUT CONSOLE INPUT JACKS CHIANNELS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

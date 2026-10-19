@@ -21,6 +21,20 @@ Wiki page: [M755](../../../PAGES/M755.md)
 - **Size:** 5,146,409 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 755-02-002, size B 131 × 432 mm, 608 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–131 mm across, 0–432 mm up
+- **Outlines:** line 1,577 rings, 13,903 straight (17,695 mm) / 2,768 curved (3,776 mm); text 180 rings, 865 straight (659 mm) / 225 curved (256 mm)
+- **Centre lines:** 10,849 paths (174 closed); straight 10,357 mm, curved 589 mm; horizontal 2,317 mm, vertical 4,056 mm, diagonal 3,984 mm
+- **Circles and arcs:** 9 circles, 97 arcs; largest r 3.5 @ (95.8, 184.6), r 3.4 @ (70.6, 184.0), r 3.4 @ (18.5, 124.3), r 3.3 @ (69.0, 255.5)
+- **Closed boxes:** 9
+- **Dots (junctions):** 1
+- **Words (OCR):** 7 in 5 lines: 28 83 · Jaa8 · 23} · 28 · 285 WAHI
+- **Wiring (first pass):** 139 connected wire groups from 1,174 runs; labelled ends: 28 mm → 285, WAHI; 24 mm → 28; 15 mm → 28; 8 mm → 28; 7 mm → 23}
+
+Every curve, box, word and wire group: [1971 - 755-02-002 - 1 LAMP DRIVER MODULE SCHEMATIC - DRN PHIL (traced).json](1971%20-%20755-02-002%20-%201%20LAMP%20DRIVER%20MODULE%20SCHEMATIC%20-%20DRN%20PHIL%20%28traced%29.json) (the CAD file: `1971 - 755-02-002 - 1 LAMP DRIVER MODULE SCHEMATIC - DRN PHIL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

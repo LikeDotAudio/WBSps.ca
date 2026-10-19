@@ -22,6 +22,21 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 10,412,930 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 880134-02-004, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DISc
+- **Ink extent:** 9–864 mm across, 0–559 mm up
+- **Outlines:** line 1,244 rings, 10,674 straight (23,979 mm) / 1,915 curved (4,056 mm); text 542 rings, 3,163 straight (4,952 mm) / 808 curved (1,894 mm); tb 31 rings, 312 straight (2,451 mm) / 24 curved (73.7 mm)
+- **Centre lines:** 18,952 paths (194 closed); straight 21,279 mm, curved 131 mm; horizontal 6,725 mm, vertical 6,010 mm, diagonal 8,544 mm
+- **Circles and arcs:** 1 circles, 25 arcs; largest r 3.8 @ (17.1, 28.5)
+- **Closed boxes:** 18; named: HQNQ MASTER EADER 5491; SIEREQ MASIER EAQEE 5A9i=031
+- **Dots (junctions):** 1
+- **Words (OCR):** 103 in 93 lines: MASTER CHANNEL · (Mi · k M2 CHANNELS ARE IDENTICAL) · Mo4c · 4057 · MCNo · SUMMING · MASTER · Ln · 37 Je · dBm; · rouboyTShms
+- **Title block:** (679, 10)–(857, 86) mm: ISSUEI DAIE · REVSION · APP_ · WBS · WARD-BECK SYSTEMS · DRNPA_0B/88 · MASTER CHANNEL · ENG: · CKD: · SCHEMATIC · SCALE DISc · 880134-02-004 · SSUE · CCDE 80134504_
+- **Wiring (first pass):** 115 connected wire groups from 1,180 runs; labelled ends: 1545 mm → steREO, 25v, SIGNAL GND, +25v; 212 mm → Couk; 168 mm → rouboyTShms, dBm;; 85 mm → rouboyTShms, dBm;; 60 mm → 37 Je
+
+Every curve, box, word and wire group: [1988 - 880134-02-004 - MASTER CHANNEL SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1988%20-%20880134-02-004%20-%20MASTER%20CHANNEL%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 880134-02-004 - MASTER CHANNEL SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

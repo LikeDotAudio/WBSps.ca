@@ -22,6 +22,19 @@ Wiki page: [M7000](../../../PAGES/M7000.md)
 - **Size:** 483,954 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 7000-03-036, size D 864 × 611 mm, 2000 × 1415 px traced (0.432 mm/px)
+- **Ink extent:** 53–832 mm across, 47–509 mm up
+- **Outlines:** line 802 rings, 6,325 straight (30,353 mm) / 1,246 curved (3,908 mm); text 295 rings, 1,623 straight (2,808 mm) / 510 curved (1,223 mm); tb 64 rings, 429 straight (779 mm) / 111 curved (256 mm)
+- **Centre lines:** 9,989 paths (233 closed); straight 20,088 mm, curved 1,033 mm; horizontal 8,570 mm, vertical 4,746 mm, diagonal 6,771 mm
+- **Circles and arcs:** 14 circles, 21 arcs; largest r 128.3 @ (693.2, 268.8), r 6.6 @ (364.7, 409.7), r 6.6 @ (339.3, 409.4), r 6.5 @ (288.4, 408.6)
+- **Closed boxes:** 56 (11 in the title block); named: DC AIC
+- **Words (OCR):** 43 in 40 lines: 17110 · 16 Ti0 · PMCHES · Djad SQ · {0,04 R40 CORRERS] · 0.200 · 74t0 · 0.725 · DeTAL · 0 747 · 2.000 · 0.554
+- **Title block:** (667, 43)–(844, 114) mm: WBS · WARD-BECK SYSTEMS · IKR-10A · PANEL(2RU) · SCALE · 7000-03-036
+
+Every curve, box, word and wire group: [1997 - 7000-03-036 - IKR-10A PANEL(2RU) - DRN DRG - ISS 1 (traced).json](1997%20-%207000-03-036%20-%20IKR-10A%20PANEL%282RU%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1997 - 7000-03-036 - IKR-10A PANEL(2RU) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

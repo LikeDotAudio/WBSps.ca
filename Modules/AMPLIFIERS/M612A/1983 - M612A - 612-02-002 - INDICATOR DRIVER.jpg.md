@@ -11,6 +11,19 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 884,556 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 612-02-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 8–338 mm across, 68–367 mm up
+- **Outlines:** line 150 rings, 2,923 straight (6,662 mm) / 430 curved (608 mm); text 155 rings, 829 straight (731 mm) / 339 curved (431 mm)
+- **Centre lines:** 1,830 paths (44 closed); straight 4,047 mm, curved 127 mm; horizontal 1,820 mm, vertical 1,448 mm, diagonal 778 mm
+- **Circles and arcs:** 4 circles, 28 arcs; largest r 0.9 @ (167.1, 98.3), r 0.9 @ (167.3, 88.0), r 0.8 @ (167.5, 78.2), r 0.8 @ (165.4, 90.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 30 in 29 lines: P2-8 · Nput · dBm · dBm · Jok onms · P2-16 · P2-15 · TrIm · Rzoi · CONTROL · R20z · CONTROL
+- **Wiring (first pass):** 47 connected wire groups from 160 runs; labelled ends: 278 mm → P2-8, P2-16; 132 mm → P2-7; 109 mm → R20z, Rz0}; 81 mm → R20z; 60 mm → Rz0}
+
+Every curve, box, word and wire group: [1983 - M612A - 612-02-002 - INDICATOR DRIVER (traced).json](1983%20-%20M612A%20-%20612-02-002%20-%20INDICATOR%20DRIVER%20%28traced%29.json) (the CAD file: `1983 - M612A - 612-02-002 - INDICATOR DRIVER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

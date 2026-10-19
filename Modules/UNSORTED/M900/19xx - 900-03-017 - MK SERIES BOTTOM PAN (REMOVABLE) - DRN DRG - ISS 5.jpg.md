@@ -23,6 +23,19 @@ Mechanical drawing of a removable bottom pan with vent slots.
 - **Size:** 991,972 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-017, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 49–847 mm across, 0–494 mm up
+- **Outlines:** line 771 rings, 6,402 straight (36,684 mm) / 1,011 curved (2,680 mm); text 323 rings, 1,759 straight (3,356 mm) / 560 curved (1,418 mm); tb 20 rings, 175 straight (374 mm) / 43 curved (97.7 mm)
+- **Centre lines:** 6,507 paths (252 closed); straight 22,667 mm, curved 197 mm; horizontal 9,155 mm, vertical 8,269 mm, diagonal 5,243 mm
+- **Circles and arcs:** 0 circles, 25 arcs
+- **Closed boxes:** 137 (3 in the title block); named: PART NUMBER; MODULE COUNT; 1-000; 16.550; 98o-0}-017-; 0_-0i7; MK    SERIES BOTTOM PAN (REMOVABLE); 900-03-017; COD-
+- **Words (OCR):** 37 in 29 lines: (D) REcD · 419 KEF · 0.62 DIA · Noict · OEJD · TDTAL groupS · PITC{0.250)(24}e(G.0J0) · RFC D · PART NUMBER MODULE COUNT · MATERIAL: ALUK ALLOY 0.06 THICK · 1-000 · 16.550
+- **Title block:** (687, 46)–(858, 79) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-017 - MK SERIES BOTTOM PAN (REMOVABLE) - DRN DRG - ISS 5 (traced).json](19xx%20-%20900-03-017%20-%20MK%20SERIES%20BOTTOM%20PAN%20%28REMOVABLE%29%20-%20DRN%20DRG%20-%20ISS%205%20%28traced%29.json) (the CAD file: `19xx - 900-03-017 - MK SERIES BOTTOM PAN (REMOVABLE) - DRN DRG - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

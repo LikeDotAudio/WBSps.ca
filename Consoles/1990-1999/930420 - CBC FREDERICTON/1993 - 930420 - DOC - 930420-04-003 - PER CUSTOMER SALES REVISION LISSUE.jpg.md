@@ -14,6 +14,17 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,642,717 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 930420-04-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 452
+- **Ink extent:** 5–430 mm across, 0–299 mm up
+- **Outlines:** line 158 rings, 1,465 straight (6,009 mm) / 178 curved (248 mm); text 1,676 rings, 10,284 straight (12,542 mm) / 3,309 curved (4,755 mm); tb 4 rings, 86 straight (212 mm) / 4 curved (6.3 mm)
+- **Closed boxes:** 28 (9 in the title block); named: DIR SCPT SWR SAVE LMS CER PAGE EDT AUD C; DIR LMS; SWR EDT; SAVE PAGE; GRP; CGEN LEG; AUD VTR; CAM REM;; MTCE ANN; CMA; FLR NWS; CMA
+- **Words (OCR):** 230 in 166 lines: STATION NAME · IERMNAL IYPE · M7880D KEYPAD LA YOUT · BUS · NUMBER · CODE · DIRECTOR · DIR · M7880D · DIR SCPT SWR SAVE · SCRIPT · SCPT
+- **Title block:** (247, 10)–(416, 77) mm: REVISED AS PER CUSTOMER SALES · lISSUE · REVISION · APP_ · WARD-BECK SYSTEMS · WBS · DRN · DRG · CBC · FREDERICTON · ENG · 48X48 · MicroCOM Il · CKD · APP · MNEMONIC AND · CODE LA YOUT · SCALE DISC NO
+
+Every curve, box, word and wire group: [1993 - 930420 - DOC - 930420-04-003 - PER CUSTOMER SALES REVISION LISSUE (traced).json](1993%20-%20930420%20-%20DOC%20-%20930420-04-003%20-%20PER%20CUSTOMER%20SALES%20REVISION%20LISSUE%20%28traced%29.json) (the CAD file: `1993 - 930420 - DOC - 930420-04-003 - PER CUSTOMER SALES REVISION LISSUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,406,260 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–301 mm across, 0–432 mm up
+- **Outlines:** line 569 rings, 6,343 straight (14,328 mm) / 793 curved (1,181 mm); text 701 rings, 4,194 straight (4,157 mm) / 1,359 curved (1,781 mm)
+- **Centre lines:** 6,963 paths (102 closed); straight 10,148 mm, curved 435 mm; horizontal 4,394 mm, vertical 2,849 mm, diagonal 2,905 mm
+- **Circles and arcs:** 14 circles, 45 arcs; largest r 1.6 @ (43.1, 235.8), r 1.6 @ (43.1, 246.4), r 1.6 @ (43.3, 217.4), r 1.6 @ (43.8, 80.9)
+- **Closed boxes:** 3
+- **Words (OCR):** 127 in 119 lines: MONO INPUT · BACKPLANE ( " `  TIONS · CHANNELS · CONNECTIONS · 1,2 · S1-L · P1 · '20 · 51,52 · S1-R · 2,21 · 53
+- **Wiring (first pass):** 201 connected wire groups from 704 runs; labelled ends: 2709 mm → '20, 2,21, 3,22, 4,23; 53 mm → 1,2; 40 mm → 1,2, INSERT; 39 mm → OUT, 1,2; 38 mm → OdBm
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-001 - TWSTED PAIR SUMMING BUSES RIBBON CABLE (traced).json](1988%20-%20880134%20-%20880134-02-001%20-%20TWSTED%20PAIR%20SUMMING%20BUSES%20RIBBON%20CABLE%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-001 - TWSTED PAIR SUMMING BUSES RIBBON CABLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

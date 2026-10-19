@@ -24,6 +24,18 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 3,197,724 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 463-01-003, size B 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 17–303 mm up
+- **Outlines:** line 413 rings, 6,262 straight (14,499 mm) / 910 curved (1,296 mm); text 386 rings, 2,317 straight (2,538 mm) / 807 curved (1,158 mm)
+- **Centre lines:** 5,302 paths (98 closed); straight 9,238 mm, curved 248 mm; horizontal 4,133 mm, vertical 2,542 mm, diagonal 2,563 mm
+- **Circles and arcs:** 17 circles, 37 arcs; largest r 3.0 @ (107.2, 233.0), r 1.5 @ (304.0, 174.9), r 1.5 @ (371.8, 244.0), r 1.5 @ (300.7, 113.4)
+- **Closed boxes:** 48
+- **Wiring (first pass):** 136 connected wire groups from 523 runs
+
+Every curve, box, word and wire group: [1977 - 463-01-003 - M463B SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2 (traced).json](1977%20-%20463-01-003%20-%20M463B%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20PKM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1977 - 463-01-003 - M463B SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN PKM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

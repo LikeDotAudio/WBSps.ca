@@ -24,6 +24,18 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 4,863,182 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 457-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–431 mm across, 0–287 mm up
+- **Outlines:** line 1,088 rings, 10,798 straight (13,556 mm) / 1,641 curved (2,125 mm); text 289 rings, 2,169 straight (2,301 mm) / 572 curved (788 mm)
+- **Centre lines:** 7,203 paths (80 closed); straight 8,403 mm, curved 203 mm; horizontal 3,591 mm, vertical 2,032 mm, diagonal 2,780 mm
+- **Circles and arcs:** 3 circles, 53 arcs; largest r 2.1 @ (384.0, 33.4), r 1.8 @ (383.8, 33.6), r 1.7 @ (385.8, 26.0)
+- **Closed boxes:** 16
+- **Wiring (first pass):** 191 connected wire groups from 630 runs
+
+Every curve, box, word and wire group: [1977 - 457-01-001 - 4x2 PRE-MIXER MODULE FUNCTIONAL DIAGRAM - DRN DB - ENG RKB - ISS 2 (traced).json](1977%20-%20457-01-001%20-%204x2%20PRE-MIXER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20DB%20-%20ENG%20RKB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1977 - 457-01-001 - 4x2 PRE-MIXER MODULE FUNCTIONAL DIAGRAM - DRN DB - ENG RKB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

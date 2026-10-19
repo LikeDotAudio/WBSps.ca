@@ -1,0 +1,63 @@
+{
+ "code": "M5201",
+ "name": "Machine CoNTROL Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 37,
+   "letters": true,
+   "size": {
+    "count": 37,
+    "file": "Modules/COMPUTERS/M5201/1986 - M5201 - p30.jpg",
+    "page": 1,
+    "quote": "Connector, 37 Pin"
+   }
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "OUTPUTS FOR THESE PORTS",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "cac96b29548f79c737f0cb0646f0d4344348e0d793bf0f859ec132629b1a8b62",
+    "file": "Modules/COMPUTERS/M5201/1986 - M5201 - p8.jpg",
+    "page": 1
+   },
+   "quote": "The outputs for these ports are isolated with dry contact relay closures Input and Output data ports are on 37 pin D ' fema connectors The M5200 interface connector and the input channel phanumeric displays (associated with the R58024 Routing Switcher) connector are 37 pin D ' male.",
+   "also": [
+    {
+     "signal": "OUTPUTS FOR THESE PORTS",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/COMPUTERS/M5201/1986 - M5201 - p8.jpg",
+     "page": 1
+    },
+    {
+     "signal": "OUTPUTS FOR THESE PORTS",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/COMPUTERS/M5201/1986 - M5201 - p8.jpg",
+     "page": 1
+    },
+    {
+     "signal": "OUTPUTS FOR THESE PORTS",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/COMPUTERS/M5201/1986 - M5201 - p8.jpg",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

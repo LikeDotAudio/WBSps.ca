@@ -11,6 +11,19 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 359,442 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-054-06-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–336 mm across, 0–432 mm up
+- **Outlines:** line 880 rings, 4,481 straight (5,077 mm) / 1,052 curved (961 mm); text 322 rings, 2,900 straight (3,165 mm) / 954 curved (1,148 mm); tb 3 rings, 84 straight (145 mm) / 12 curved (11.8 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.3 @ (289.9, 21.8), r 2.3 @ (236.3, 20.5), r 2.3 @ (250.7, 20.8)
+- **Closed boxes:** 3; named: 22/25 22/25 c8 C7 TNL037 TN2102 P1 10 02
+- **Dots (junctions):** 2
+- **Words (OCR):** 51 in 50 lines: 22/25 · 22/25 · c8 · C7 · TN2102 · TNL037 · P1 · 10 · 02 · 10K · C5 · R1o
+- **Title block:** (205, 39)–(330, 67) mm: WBS · WARD-BECK BYSTEMB
+
+Every curve, box, word and wire group: [1974 - M460M - 14-054-06-001 - SOUND REINFORCEMENT AMPLIFIER COMPONENT LAYOUT (traced).json](1974%20-%20M460M%20-%2014-054-06-001%20-%20SOUND%20REINFORCEMENT%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1974 - M460M - 14-054-06-001 - SOUND REINFORCEMENT AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

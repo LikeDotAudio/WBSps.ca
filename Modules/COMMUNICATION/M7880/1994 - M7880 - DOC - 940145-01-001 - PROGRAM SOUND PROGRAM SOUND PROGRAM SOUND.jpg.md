@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,043,482 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940145-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 460
+- **Ink extent:** 53–431 mm across, 8–298 mm up
+- **Outlines:** line 502 rings, 4,103 straight (9,884 mm) / 794 curved (1,113 mm); text 1,571 rings, 9,689 straight (12,070 mm) / 2,976 curved (4,318 mm); tb 4 rings, 78 straight (253 mm) / 7 curved (13.3 mm)
+- **Centre lines:** 12,115 paths (269 closed); straight 13,237 mm, curved 292 mm; horizontal 3,923 mm, vertical 3,541 mm, diagonal 5,774 mm
+- **Circles and arcs:** 9 circles, 69 arcs; largest r 1.5 @ (169.3, 222.5), r 1.3 @ (163.8, 222.7), r 1.2 @ (96.2, 148.5), r 1.2 @ (117.7, 148.5)
+- **Closed boxes:** 52 (8 in the title block); named: DIR SAVE LG PROD PRM GRP ROBO FEED ROLL ; DIR LG; SAVE; GRP; PROD; ROBO; FEED; ROBO; ROLL; CLR; DIR TRK PROD AUD PRMT DIAL Robo FEED ROL; TRK
+- **Words (OCR):** 154 in 111 lines: BUS_NUMBER · STATION_NAME · CODE · IERMNA_IYPE · TECHDIRECTOR · M7880D · DIRECTOR · DIR · M7880 /M7881 · M7880, · M7880D · SCRIPT ASST_
+- **Title block:** (248, 11)–(419, 77) mm: ISSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN WS · BCTV BURNABY · ENG WS · MNEMONIC AND CODE · CKD · APP_ · LA YOUT · SCALE DISC NO: 460 · ISSUE · CODE: 94145L04 · 940145-04-004
+- **Wiring (first pass):** 180 connected wire groups from 443 runs; labelled ends: 47 mm → TRK, PROD, Robo, M7840; 46 mm → KEYPAD, LAYOUT; 46 mm → M7880,, KEYPAD, M7880D, LAYOUT; 44 mm → M7880,, KEYPAD, M7880D, LAYOUT; 25 mm → M7880,, KEYPAD, DIR, LG
+
+Every curve, box, word and wire group: [1994 - M7880 - DOC - 940145-01-001 - PROGRAM SOUND PROGRAM SOUND PROGRAM SOUND (traced).json](1994%20-%20M7880%20-%20DOC%20-%20940145-01-001%20-%20PROGRAM%20SOUND%20PROGRAM%20SOUND%20PROGRAM%20SOUND%20%28traced%29.json) (the CAD file: `1994 - M7880 - DOC - 940145-01-001 - PROGRAM SOUND PROGRAM SOUND PROGRAM SOUND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

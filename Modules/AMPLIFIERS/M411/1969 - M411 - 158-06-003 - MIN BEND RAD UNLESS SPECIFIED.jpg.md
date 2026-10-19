@@ -11,6 +11,17 @@ Wiki page: [M411](../../../PAGES/M411.md)
 - **Size:** 6,391,014 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 158-06-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–286 mm up
+- **Outlines:** line 1,935 rings, 9,941 straight (11,102 mm) / 2,013 curved (2,032 mm); text 179 rings, 1,309 straight (1,334 mm) / 332 curved (374 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (146.0, 201.2)
+- **Closed boxes:** 10
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1969 - M411 - 158-06-003 - MIN BEND RAD UNLESS SPECIFIED (traced).json](1969%20-%20M411%20-%20158-06-003%20-%20MIN%20BEND%20RAD%20UNLESS%20SPECIFIED%20%28traced%29.json) (the CAD file: `1969 - M411 - 158-06-003 - MIN BEND RAD UNLESS SPECIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

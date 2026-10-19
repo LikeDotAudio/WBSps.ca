@@ -28,6 +28,21 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1990** (labelled): `DATE Aug 90` — …S MOD. CKD: USED ON MATL . WBS WAAD-BECK SYSTEMS LTD DRN PA DATE Aug 90 CKD SCALE XX TOLS_ TNa M468 MA AssIGN MoDULE SCHEMATIC FINI…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-123, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 415 rings, 5,817 straight (13,571 mm) / 1,027 curved (1,346 mm); text 388 rings, 2,465 straight (2,609 mm) / 921 curved (1,291 mm); tb 19 rings, 180 straight (380 mm) / 25 curved (37.3 mm)
+- **Centre lines:** 5,659 paths (73 closed); straight 9,432 mm, curved 259 mm; horizontal 4,123 mm, vertical 2,668 mm, diagonal 2,641 mm
+- **Circles and arcs:** 16 circles, 56 arcs; largest r 1.3 @ (39.6, 274.9), r 1.2 @ (56.3, 251.7), r 1.0 @ (102.4, 139.4), r 1.0 @ (55.8, 139.3)
+- **Closed boxes:** 48 (32 in the title block); named: WBS SYSTEMS LTD_ WAAD-BeCK; M468 MA AssIGN SCHEMATIC MoDULE
+- **Dots (junctions):** 2
+- **Words (OCR):** 78 in 65 lines: INPUT · Sw1 · Sw3 · Sw7 Ri9 · Sw8 RZS · 30k · 30k · 30k · Rzc · ISk · ISk · R21
+- **Title block:** (137, 16)–(413, 68) mm: Iss MMOD  CKD: · USED ON · MATL _ · WBS WAAD-BeCK · SYSTEMS LTD_ · DRN_ · PA · M468 MA · FINISH · DATE Aug 90 · CKD · AssIGN MoDULE · SCHEMATIC · ISCALE · TOLS _ · IsS
+- **Wiring (first pass):** 65 connected wire groups from 388 runs, 5 dotted junctions; labelled ends: 400 mm → INPUT, Sw1, Sw3, Sw8; 368 mm → RZS, 30k, Rzc, Ri9; 348 mm → InPUT, 3k, Rio, 38K; 323 mm → Pl-R, Sw, InPUT, SwZ; 84 mm → R28, Bok, R29, Pz-k
+
+Every curve, box, word and wire group: [1990 - 468-02-123 - M468MA ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (traced).json](1990%20-%20468-02-123%20-%20M468MA%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 468-02-123 - M468MA ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

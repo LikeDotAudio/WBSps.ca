@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,309,377 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 461-02-004, size B (assumed) 432 × 278 mm, 2000 × 1286 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–278 mm up
+- **Outlines:** line 884 rings, 8,551 straight (19,206 mm) / 1,644 curved (2,029 mm); text 674 rings, 3,973 straight (3,512 mm) / 1,401 curved (1,668 mm); tb 11 rings, 87 straight (144 mm) / 17 curved (19.1 mm)
+- **Centre lines:** 12,129 paths (247 closed); straight 13,608 mm, curved 255 mm; horizontal 5,272 mm, vertical 3,696 mm, diagonal 4,640 mm
+- **Circles and arcs:** 6 circles, 56 arcs; largest r 2.9 @ (75.8, 54.9), r 2.7 @ (250.7, 189.3), r 2.7 @ (225.1, 214.4), r 1.1 @ (379.5, 105.5)
+- **Closed boxes:** 52 (1 in the title block); named: (E9 /E5 IE7 PRE AMP Hp Filter (E6 1E8; 2E3 227 2E ( (094 242; ez 32 7 8-/09 3e4 362 boosTeR 3E6 381; WSED; WBS WARD Beck BYBTEME LTD; 461-02-004
+- **Words (OCR):** 143 in 127 lines: 22V · 22v+ 22v- · 22y - · Rzo · R24 · DiT · SELECT · (E9 · 2E3 227 · Sw3 · ez 32 7 · WEc
+- **Title block:** (350, 14)–(408, 30) mm: WBS WARD Beck BYBTEME LTD · M461 · Datl = SEPT76
+- **Wiring (first pass):** 130 connected wire groups from 799 runs; labelled ends: 263 mm → PHASE, Sw |1; 244 mm → WSED, WBS, Datl = SEPT76; 226 mm → AUA, PoSt, AUX, PRE; 182 mm → 712, R37, 150, S {0; 167 mm → AUX |, Auxz, Sw 5, PfL
+
+Every curve, box, word and wire group: [19xx - DOC - 461-02-004 - UNLESS OTHERWISE SPECIFIED USE (traced).json](19xx%20-%20DOC%20-%20461-02-004%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20USE%20%28traced%29.json) (the CAD file: `19xx - DOC - 461-02-004 - UNLESS OTHERWISE SPECIFIED USE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

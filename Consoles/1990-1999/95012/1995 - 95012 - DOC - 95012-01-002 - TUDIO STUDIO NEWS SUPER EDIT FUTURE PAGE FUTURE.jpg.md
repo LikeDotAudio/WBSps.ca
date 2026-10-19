@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,831,613 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 95012-01-002, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px); scale DISC NO; 5150"
+- **Ink extent:** 46–420 mm across, 7–219 mm up
+- **Outlines:** line 3,168 rings, 20,442 straight (21,942 mm) / 7,576 curved (13,505 mm); text 198 rings, 1,209 straight (1,193 mm) / 373 curved (486 mm); tb 34 rings, 265 straight (274 mm) / 46 curved (49.9 mm)
+- **Centre lines:** 37,177 paths (167 closed); straight 25,500 mm, curved 72.5 mm; horizontal 9,877 mm, vertical 9,570 mm, diagonal 6,053 mm
+- **Circles and arcs:** 252 circles, 28 arcs; largest r 1.7 @ (120.0, 185.3), r 1.7 @ (221.9, 185.8), r 1.7 @ (136.1, 179.0), r 1.7 @ (155.3, 93.3)
+- **Closed boxes:** 17 (13 in the title block)
+- **Dots (junctions):** 1191
+- **Words (OCR):** 21 in 18 lines: CROSSPOSTT · TELCD · uS · (12 secmc S) · CUPEF · Roos · Smoio · WBS · WARD-BECK SYSTEMS · SIUMo · PACE FUTURE · ALGONQUIN COLLEGE
+- **Title block:** (337, 5)–(426, 40) mm: WBS · WARD-BECK SYSTEMS · ALGONQUIN COLLEGE · INTEGRATED  MEDIA · CENTRE · 48x48 INTERCOM FUNCTIONAL · SCALE DISC NO; 5150" · COLE; 9512F02 · 95012-01-002
+- **Wiring (first pass):** 102 connected wire groups from 5,762 runs, 1654 dotted junctions; labelled ends: 151 mm → FUTURE; 27 mm → Roos; 12 mm → PACE, FUTURE; 11 mm → FUTURE, PACE; 9 mm → CROSSPOSTT
+
+Every curve, box, word and wire group: [1995 - 95012 - DOC - 95012-01-002 - TUDIO STUDIO NEWS SUPER EDIT FUTURE PAGE FUTURE (traced).json](1995%20-%2095012%20-%20DOC%20-%2095012-01-002%20-%20TUDIO%20STUDIO%20NEWS%20SUPER%20EDIT%20FUTURE%20PAGE%20FUTURE%20%28traced%29.json) (the CAD file: `1995 - 95012 - DOC - 95012-01-002 - TUDIO STUDIO NEWS SUPER EDIT FUTURE PAGE FUTURE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

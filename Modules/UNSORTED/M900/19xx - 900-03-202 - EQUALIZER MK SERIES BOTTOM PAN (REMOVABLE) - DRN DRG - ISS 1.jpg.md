@@ -23,6 +23,19 @@ Mechanical drawing of a removable bottom pan with vent slots.
 - **Size:** 641,527 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-202, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px)
+- **Ink extent:** 49–847 mm across, 10–531 mm up
+- **Outlines:** line 920 rings, 7,329 straight (44,804 mm) / 1,255 curved (3,348 mm); text 292 rings, 1,721 straight (3,346 mm) / 495 curved (1,300 mm); tb 14 rings, 122 straight (316 mm) / 23 curved (55.9 mm)
+- **Centre lines:** 7,575 paths (273 closed); straight 27,242 mm, curved 286 mm; horizontal 8,681 mm, vertical 11,853 mm, diagonal 6,708 mm
+- **Circles and arcs:** 0 circles, 37 arcs
+- **Closed boxes:** 219 (4 in the title block); named: MODULE COUNT; PART NUMBER; 18-075; 39.978; 45.972; Mk EQUALIZER SERIES PAN (REMOVABLE) BOTT; 900-03- 202; CCOE
+- **Words (OCR):** 36 in 29 lines: (D) REo · ODLCNG · 20 0+ · PITCN{7.J75} (H) · PART NUMBER · MODULE COUNT · 75.59 · 18-075 · MATERIAL: ALUM · ALLOY 0.06 THICK · 39.978 · 45.972
+- **Title block:** (689, 42)–(858, 84) mm: ISSUE DATE · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-202 - EQUALIZER MK SERIES BOTTOM PAN (REMOVABLE) - DRN DRG - ISS 1 (traced).json](19xx%20-%20900-03-202%20-%20EQUALIZER%20MK%20SERIES%20BOTTOM%20PAN%20%28REMOVABLE%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 900-03-202 - EQUALIZER MK SERIES BOTTOM PAN (REMOVABLE) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

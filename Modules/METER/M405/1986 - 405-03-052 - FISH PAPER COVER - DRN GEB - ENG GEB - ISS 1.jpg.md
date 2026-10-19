@@ -23,6 +23,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 1,453,060 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 405-03-052, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–299 mm up
+- **Outlines:** line 171 rings, 2,520 straight (6,540 mm) / 307 curved (462 mm); text 219 rings, 1,726 straight (2,268 mm) / 483 curved (780 mm); tb 7 rings, 98 straight (218 mm) / 14 curved (20.8 mm)
+- **Centre lines:** 5,169 paths (45 closed); straight 5,822 mm, curved 78.6 mm; horizontal 2,554 mm, vertical 1,511 mm, diagonal 1,758 mm
+- **Circles and arcs:** 3 circles, 10 arcs; largest r 3.2 @ (195.8, 125.8), r 1.7 @ (107.2, 165.7), r 1.4 @ (103.4, 165.9)
+- **Closed boxes:** 10 (9 in the title block)
+- **Words (OCR):** 37 in 31 lines: NoTES · MAIERIAL · PAPER · Fish · 032 Thick · CLEAN · 281 DIA · TOLERANCES · Xx · 015 · XXX · 0o5
+- **Title block:** (278, 5)–(430, 73) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN GEB · ENG_ GEB · Fish PAPER · CKD_ · COVER · APP · SCALE · ISSUE · 405-03 · 052
+
+Every curve, box, word and wire group: [1986 - 405-03-052 - FISH PAPER COVER - DRN GEB - ENG GEB - ISS 1 (traced).json](1986%20-%20405-03-052%20-%20FISH%20PAPER%20COVER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1986 - 405-03-052 - FISH PAPER COVER - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

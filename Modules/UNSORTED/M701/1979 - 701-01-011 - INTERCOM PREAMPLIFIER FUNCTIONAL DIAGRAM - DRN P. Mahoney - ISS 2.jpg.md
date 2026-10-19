@@ -24,6 +24,18 @@ Wiki page: [M701](../../../PAGES/M701.md)
 - **Size:** 3,660,695 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 701-01-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–432 mm across, 0–288 mm up
+- **Outlines:** line 437 rings, 5,069 straight (11,924 mm) / 708 curved (1,070 mm); text 404 rings, 2,490 straight (2,865 mm) / 741 curved (1,107 mm)
+- **Centre lines:** 4,834 paths (105 closed); straight 7,905 mm, curved 277 mm; horizontal 3,598 mm, vertical 1,965 mm, diagonal 2,342 mm
+- **Circles and arcs:** 20 circles, 36 arcs; largest r 3.9 @ (351.0, 132.5), r 3.8 @ (324.8, 133.0), r 1.5 @ (279.6, 230.6), r 1.5 @ (48.0, 239.7)
+- **Closed boxes:** 15
+- **Wiring (first pass):** 128 connected wire groups from 484 runs
+
+Every curve, box, word and wire group: [1979 - 701-01-011 - INTERCOM PREAMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2 (traced).json](1979%20-%20701-01-011%20-%20INTERCOM%20PREAMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1979 - 701-01-011 - INTERCOM PREAMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,449,108 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-002, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 632 rings, 7,871 straight (16,604 mm) / 898 curved (1,312 mm); text 716 rings, 4,385 straight (4,253 mm) / 1,496 curved (1,946 mm)
+- **Centre lines:** 7,636 paths (99 closed); straight 11,402 mm, curved 480 mm; horizontal 5,075 mm, vertical 3,041 mm, diagonal 3,286 mm
+- **Circles and arcs:** 14 circles, 53 arcs; largest r 1.6 @ (42.1, 19.6), r 1.6 @ (40.8, 93.2), r 1.6 @ (37.4, 265.3), r 1.5 @ (41.4, 61.6)
+- **Closed boxes:** 4
+- **Words (OCR):** 126 in 118 lines: BACKPLANE CONNECTIONS · STEREO INPUT · JUMPER · FROM · CHANNELS · CH13-24 · ECTIONS · 1,2 · S1-L · TWSTED · 1,20 · RIBBON CABLE
+- **Wiring (first pass):** 220 connected wire groups from 817 runs; labelled ends: 1277 mm → 1,20, 2,21, 3,22, 4,23; 902 mm → 3,4, 1,2; 702 mm → 10,29, 9,28, 15,34, 16,35; 77 mm → BACKPLANE CONNECTIONS; 41 mm → 1,2
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-002 - BACKPLANE CONNECTIONS STEREO INPUT JUMPER FROM CHANNELS (traced).json](1988%20-%20880134%20-%20880134-02-002%20-%20BACKPLANE%20CONNECTIONS%20STEREO%20INPUT%20JUMPER%20FROM%20CHANNELS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-002 - BACKPLANE CONNECTIONS STEREO INPUT JUMPER FROM CHANNELS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

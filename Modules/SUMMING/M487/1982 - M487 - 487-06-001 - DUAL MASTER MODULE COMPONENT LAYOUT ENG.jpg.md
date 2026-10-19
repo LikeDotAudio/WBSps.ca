@@ -11,6 +11,18 @@ Wiki page: [M487](../../../PAGES/M487.md)
 - **Size:** 198,405 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 487-06-001, size B (assumed) 351 × 432 mm, 1627 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 32–351 mm across, 0–418 mm up
+- **Outlines:** line 775 rings, 7,425 straight (16,004 mm) / 2,067 curved (2,059 mm); text 734 rings, 5,315 straight (4,762 mm) / 1,889 curved (1,989 mm); tb 23 rings, 156 straight (232 mm) / 41 curved (44.0 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 5.1 @ (156.8, 43.4), r 5.1 @ (232.2, 334.7), r 5.1 @ (230.8, 89.1), r 5.0 @ (137.6, 43.7)
+- **Closed boxes:** 17 (9 in the title block); named: 03 LM2oI; 06 LMzZci; [C4 Lco
+- **Words (OCR):** 125 in 116 lines: DIF · R27 &c · 2k · 03 · 02 · UI · LM2oI · LF356 · Lmzoi · Cit · ~(iib · rzi #lok 21542
+- **Title block:** (240, 0)–(351, 57) mm: [C4 · 3184 · Lco · ISSUE OATE · REVISION · WBS WARO-BeCK systeMS · ORN Mri 01/g · M487 · ENG. Mrw · DUAL · MASTER MODULE · CKD · COMPONENT LAYOUT · APP · SCALE · ISSUE · 487-06-001
+
+Every curve, box, word and wire group: [1982 - M487 - 487-06-001 - DUAL MASTER MODULE COMPONENT LAYOUT ENG (traced).json](1982%20-%20M487%20-%20487-06-001%20-%20DUAL%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20ENG%20%28traced%29.json) (the CAD file: `1982 - M487 - 487-06-001 - DUAL MASTER MODULE COMPONENT LAYOUT ENG (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

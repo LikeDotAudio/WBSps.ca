@@ -22,6 +22,20 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 2,581,774 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 880651-02-001, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px); scale DISC NC:]
+- **Ink extent:** 1–432 mm across, 0–139 mm up
+- **Outlines:** line 664 rings, 5,343 straight (9,756 mm) / 1,020 curved (1,268 mm); text 610 rings, 3,454 straight (2,806 mm) / 932 curved (1,086 mm); tb 15 rings, 108 straight (142 mm) / 30 curved (36.5 mm)
+- **Centre lines:** 8,436 paths (225 closed); straight 7,702 mm, curved 151 mm; horizontal 2,839 mm, vertical 1,980 mm, diagonal 2,883 mm
+- **Circles and arcs:** 3 circles, 46 arcs; largest r 3.1 @ (68.2, 97.0), r 3.1 @ (68.2, 109.8), r 1.9 @ (3.4, 69.7)
+- **Closed boxes:** 26 (13 in the title block); named: 646" NuL MOquir; ASSIGNMENT MODULE CHI; OuipuT-R ddrm; 05d2 JQUALIZER; CHFNNE_ ACER i5d6}; 880651-02-001; SSUE
+- **Words (OCR):** 93 in 82 lines: INPUI_CHANNELS 1_12_ARE_IDENTICAL · PhanToM PORER Laol · OUTPUT-] · Tvdbm · 2*6<8 · OuipuT-R · ddrm · ASSIGNMENT MODULE CHI · 6C3m_ · Vic InPut · 150 OhMs · M450B
+- **Title block:** (339, 8)–(428, 40) mm: CHANGED PoTS_1o 2k Lin · ISSUEIDATE · REMSION · WBS · WARD-BECK · SYSTEMS · DRNPA1o/88 · ENG · INPUT CHANNELS SCHEMATIC · SCALE DISC NC:] · 254 LB 880651-02-001 · SSUE · CODE: B0651501
+- **Wiring (first pass):** 82 connected wire groups from 599 runs; labelled ends: 326 mm → INPUI_CHANNELS, Laol, 2*6<8, MCv Mix; 299 mm → 1_12_ARE_IDENTICAL, OUTPUT-], SOL0, soco; 191 mm → To ALL; 140 mm → 14R, CNANNLL, NSIRTS, JQUALIZER; 105 mm → To ALL
+
+Every curve, box, word and wire group: [1988 - 880651-02-001 - INPUT CHANNELS SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%20880651-02-001%20-%20INPUT%20CHANNELS%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-001 - INPUT CHANNELS SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

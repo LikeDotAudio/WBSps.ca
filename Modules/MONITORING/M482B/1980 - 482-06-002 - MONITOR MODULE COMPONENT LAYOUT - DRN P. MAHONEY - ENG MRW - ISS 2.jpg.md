@@ -23,6 +23,19 @@ Wiki page: [M482B](../../../PAGES/M482B.md)
 - **Size:** 434,264 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 482-06-002, size B 432 × 288 mm, 2000 × 1333 px traced (0.216 mm/px)
+- **Ink extent:** 20–432 mm across, 0–277 mm up
+- **Outlines:** line 2,404 rings, 14,990 straight (17,808 mm) / 4,007 curved (3,804 mm); text 364 rings, 2,543 straight (2,011 mm) / 812 curved (834 mm); tb 15 rings, 145 straight (164 mm) / 46 curved (46.3 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 4.6 @ (225.0, 154.9), r 4.5 @ (256.4, 187.0), r 4.5 @ (256.1, 155.0), r 4.5 @ (228.9, 186.9)
+- **Closed boxes:** 10 (1 in the title block); named: Hio; U5; CD40is; NES10-015-
+- **Dots (junctions):** 2
+- **Words (OCR):** 35 in 33 lines: C25*25 · VCRS · 869220 · 4 2 · 40 · 18 · 44 · 883 · 22 · 22 · Hio · U5
+- **Title block:** (352, 18)–(432, 41) mm: Issu Date · Wa · WBS WARD-BeCk systeMS · M4828
+
+Every curve, box, word and wire group: [1980 - 482-06-002 - MONITOR MODULE COMPONENT LAYOUT - DRN P. MAHONEY - ENG MRW - ISS 2 (traced).json](1980%20-%20482-06-002%20-%20MONITOR%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1980 - 482-06-002 - MONITOR MODULE COMPONENT LAYOUT - DRN P. MAHONEY - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -20,6 +20,19 @@ Wiki page: [Job-950341](../../../PAGES/Job-950341.md)
 - **Size:** 799,325 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950341-03-001, size D 864 × 558 mm, 2000 × 1292 px traced (0.432 mm/px)
+- **Ink extent:** 40–845 mm across, 11–514 mm up
+- **Outlines:** line 1,047 rings, 6,640 straight (30,399 mm) / 1,460 curved (3,992 mm); text 276 rings, 1,698 straight (2,963 mm) / 526 curved (1,278 mm); tb 57 rings, 459 straight (2,726 mm) / 86 curved (197 mm)
+- **Centre lines:** 9,069 paths (244 closed); straight 21,048 mm, curved 449 mm; horizontal 11,031 mm, vertical 4,311 mm, diagonal 5,706 mm
+- **Circles and arcs:** 17 circles, 7 arcs; largest r 12.5 @ (527.1, 307.5), r 12.4 @ (393.7, 307.2), r 12.4 @ (482.8, 307.2), r 12.4 @ (438.0, 307.5)
+- **Closed boxes:** 47
+- **Words (OCR):** 48 in 42 lines: DFTAI F · QEIAIL · 0JE 4 · PLACES · detal · DETAI · 0"50 DACES · PITCHES · 1.760 5.250 · PLOS · FLACES · detai
+- **Title block:** (680, 8)–(856, 84) mm: ISSUEI DAT · WBS · WARD-BECK SYSTEMS · REAR PANEL · FOR M8220 · (MODIFIED) · SCALE · 950341-03-001 · CODZ; 05341M01
+
+Every curve, box, word and wire group: [1995 - 950341-03-001 - REAR PANEL FOR M8220 (MODIFIED) - DRN DRG - ISS 1 (traced).json](1995%20-%20950341-03-001%20-%20REAR%20PANEL%20FOR%20M8220%20%28MODIFIED%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950341-03-001 - REAR PANEL FOR M8220 (MODIFIED) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

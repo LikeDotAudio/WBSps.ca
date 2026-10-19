@@ -1,0 +1,157 @@
+{
+ "code": "M520",
+ "name": "Mono Input Module",
+ "derived": true,
+ "variant_of": "M520A",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 34,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "48 VOLT MICROPHONE PHANTOM POWER",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c4ee0070fa193ff1152230d06b4ac4cd263fa553ff10d8f161235016e99ad351",
+    "file": "Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_16.jpg",
+    "page": 1
+   },
+   "quote": "The 48 volt microphone phantom power is applied to pin P2 pin 2 of the module connector; 4-4",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "V",
+   "row": 18,
+   "side": "letter",
+   "signal": "LOGIC CONTROL COMMON",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c4ee0070fa193ff1152230d06b4ac4cd263fa553ff10d8f161235016e99ad351",
+    "file": "Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_16.jpg",
+    "page": 1
+   },
+   "quote": "The logic control common connects to P2 pin V of the module connector_ Power_Supply_Decoupling The +/-25 volts applied to P2 pins 21 and 19 is regulated down to +/-18 volts by an active decoupler consisting of Q12 through Q17 With their associated components Q14 and Q15 are current limit sensors for",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "X",
+   "row": 20,
+   "side": "letter",
+   "signal": "COMMON RETURN FOR THE +/-25 VOLT SUPPLIES",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c4ee0070fa193ff1152230d06b4ac4cd263fa553ff10d8f161235016e99ad351",
+    "file": "Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_16.jpg",
+    "page": 1
+   },
+   "quote": "The common return for the +/-25 volt supplies is at P2 pins 20 and X while the main frame chassis connection is at P2 pin 22.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "COMMON RETURN FOR THE +/-25 VOLT SUPPLIES",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c4ee0070fa193ff1152230d06b4ac4cd263fa553ff10d8f161235016e99ad351",
+    "file": "Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_16.jpg",
+    "page": 1
+   },
+   "quote": "The common return for the +/-25 volt supplies is at P2 pins 20 and X while the main frame chassis connection is at P2 pin 22.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "COMMON RETURN FOR THE +/-25 VOLT SUPPLIES",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c4ee0070fa193ff1152230d06b4ac4cd263fa553ff10d8f161235016e99ad351",
+    "file": "Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - M520A_Page_16.jpg",
+    "page": 1
+   },
+   "quote": "The common return for the +/-25 volt supplies is at P2 pins 20 and X while the main frame chassis connection is at P2 pin 22.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "33",
+   "row": 33,
+   "side": "num",
+   "signal": "OUTPUT FROM THIS AMPLIFIER",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c0fcea23ae436fb8715a6e97359dcc5fdf63c9eff61c2d5d9a2816de97419faf",
+    "file": "Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - file.pdf",
+    "page": 14
+   },
+   "quote": "The output from this amplifier is fed through mixiDg resistorsRl82 and R183, which feeds the prefade listen signal to the mixing bus via module connectorPl pins 33 and 34.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "34",
+   "row": 34,
+   "side": "num",
+   "signal": "OUTPUT FROM THIS AMPLIFIER",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c0fcea23ae436fb8715a6e97359dcc5fdf63c9eff61c2d5d9a2816de97419faf",
+    "file": "Modules/INPUT-PRE-AMPS/M520A/1988 - M520A - file.pdf",
+    "page": 14
+   },
+   "quote": "The output from this amplifier is fed through mixiDg resistorsRl82 and R183, which feeds the prefade listen signal to the mixing bus via module connectorPl pins 33 and 34.",
+   "also": [],
+   "from_conf": "medium"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

@@ -24,6 +24,18 @@ Faint schematic with transistor stages and latch matrix, title block at lower ri
 - **Size:** 2,029,611 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 753-02-001, size D 524 × 864 mm, 1213 × 2000 px traced (0.432 mm/px), turned 90°
+- **Ink extent:** 0–524 mm across, 0–864 mm up
+- **Outlines:** line 1,348 rings, 12,014 straight (43,665 mm) / 1,982 curved (5,080 mm); text 298 rings, 1,563 straight (2,771 mm) / 453 curved (1,103 mm)
+- **Centre lines:** 10,409 paths (256 closed); straight 25,897 mm, curved 471 mm; horizontal 7,308 mm, vertical 11,012 mm, diagonal 7,577 mm
+- **Circles and arcs:** 6 circles, 42 arcs; largest r 7.1 @ (254.8, 222.6), r 6.9 @ (363.7, 224.6), r 6.4 @ (151.7, 221.5), r 2.0 @ (355.6, 234.3)
+- **Closed boxes:** 100
+- **Wiring (first pass):** 153 connected wire groups from 1,582 runs
+
+Every curve, box, word and wire group: [1971 - 753-02-001 - MEMORY LATCH LOCK UP CONTROL SCHEMATIC - DRN GP - ISS 2 (traced).json](1971%20-%20753-02-001%20-%20MEMORY%20LATCH%20LOCK%20UP%20CONTROL%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1971 - 753-02-001 - MEMORY LATCH LOCK UP CONTROL SCHEMATIC - DRN GP - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

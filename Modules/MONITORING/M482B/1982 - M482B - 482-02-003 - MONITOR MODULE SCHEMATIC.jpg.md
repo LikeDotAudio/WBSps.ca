@@ -11,6 +11,20 @@ Wiki page: [M482B](../../../PAGES/M482B.md)
 - **Size:** 379,131 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 482-02-003, size B (assumed) 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px)
+- **Ink extent:** 7–431 mm across, 0–277 mm up
+- **Outlines:** line 1,455 rings, 11,887 straight (17,702 mm) / 2,656 curved (3,306 mm); text 442 rings, 2,547 straight (2,184 mm) / 783 curved (956 mm)
+- **Centre lines:** 11,485 paths (356 closed); straight 11,622 mm, curved 408 mm; horizontal 3,676 mm, vertical 3,008 mm, diagonal 4,937 mm
+- **Circles and arcs:** 9 circles, 112 arcs; largest r 3.8 @ (272.7, 201.7), r 3.8 @ (272.9, 172.2), r 3.7 @ (272.5, 89.5), r 1.9 @ (229.6, 56.4)
+- **Closed boxes:** 28; named: WBS; M4828 MONITOR MODULE SCHEMATIC
+- **Dots (junctions):** 7
+- **Words (OCR):** 87 in 82 lines: Zaem · E5- · CCNPONE~T SCSIGNA · SPECIFIED · C~5 · 41,64 · ~SE P23 · Sw2 · Cio · 40 · M2 · 514
+- **Wiring (first pass):** 168 connected wire groups from 1,038 runs, 2 dotted junctions; labelled ends: 393 mm → Swi; 239 mm → WBS; 120 mm → Iae; 100 mm → z3c/10, D6; 78 mm → p62
+
+Every curve, box, word and wire group: [1982 - M482B - 482-02-003 - MONITOR MODULE SCHEMATIC (traced).json](1982%20-%20M482B%20-%20482-02-003%20-%20MONITOR%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1982 - M482B - 482-02-003 - MONITOR MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

@@ -11,6 +11,17 @@ Wiki page: [M490T](../../../PAGES/M490T.md)
 - **Size:** 7,530,187 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-026, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–302 mm up
+- **Outlines:** line 718 rings, 6,259 straight (11,714 mm) / 1,481 curved (1,818 mm); text 177 rings, 1,149 straight (932 mm) / 375 curved (451 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.2 @ (201.1, 72.2), r 2.1 @ (212.8, 260.9)
+- **Closed boxes:** 22
+- **Dots (junctions):** 6
+
+Every curve, box, word and wire group: [1978 - M490T - 490-04-026 - DSI MAY USED FOR IGNA PURPOSES FROM CMOTE (traced).json](1978%20-%20M490T%20-%20490-04-026%20-%20DSI%20MAY%20USED%20FOR%20IGNA%20PURPOSES%20FROM%20CMOTE%20%28traced%29.json) (the CAD file: `1978 - M490T - 490-04-026 - DSI MAY USED FOR IGNA PURPOSES FROM CMOTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

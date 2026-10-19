@@ -27,6 +27,20 @@ Wiki page: [M712](../../../PAGES/M712.md)
 
 - **1973** (labelled): `DATE JAN73` — …AT CRosspoiNT SCHEMATIC WBS WAAD-BeCK BybteMB LTD- DRM: SeB DATE JAN73 CKD Ra,f SCALE TOLS _ H M726 FINISH CROSSPOiNT 712 "02 0i0…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 712-02-010, size B 432 × 141 mm, 2000 × 651 px traced (0.216 mm/px)
+- **Ink extent:** 1–430 mm across, 1–138 mm up
+- **Outlines:** line 435 rings, 2,817 straight (6,794 mm) / 325 curved (389 mm); text 351 rings, 1,669 straight (1,438 mm) / 436 curved (538 mm); tb 30 rings, 166 straight (192 mm) / 26 curved (36.0 mm)
+- **Centre lines:** 2,827 paths (52 closed); straight 4,194 mm, curved 12.3 mm; horizontal 2,098 mm, vertical 1,218 mm, diagonal 878 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 34 (4 in the title block); named: WBS WAAD- Beck bybtema LTD; @Fc; M72g CROSSPOINT; 0io
+- **Words (OCR):** 55 in 47 lines: SUPpL · 'SUMMING · BUss · APplicatiON · 772g COMOONENT · Y CUT · 3de · 2M2 · 710 3 · Riot · 7107 · 227
+- **Title block:** (348, 7)–(428, 30) mm: WBS WAAD- Beck bybtema LTD · M72g · ma JAN 5 · CROSSPOINT · ISCALE · 0io
+- **Wiring (first pass):** 33 connected wire groups from 255 runs; labelled ends: 333 mm → WBS, @Fc, ma, ISCALE; 83 mm → M726; 30 mm → 2M2, Riot; 16 mm → 7107, 227; 15 mm → 22k
+
+Every curve, box, word and wire group: [1973 - 712-02-010 - M726 CROSSPOINT - DRN GEB - ISS 3 (traced).json](1973%20-%20712-02-010%20-%20M726%20CROSSPOINT%20-%20DRN%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1973 - 712-02-010 - M726 CROSSPOINT - DRN GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

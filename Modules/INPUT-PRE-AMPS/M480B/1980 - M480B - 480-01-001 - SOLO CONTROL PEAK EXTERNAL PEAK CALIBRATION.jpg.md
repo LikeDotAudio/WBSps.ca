@@ -11,6 +11,20 @@ Wiki page: [M480B](../../../PAGES/M480B.md)
 - **Size:** 2,704,292 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 480-01-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 3–429 mm across, 3–276 mm up
+- **Outlines:** line 226 rings, 4,237 straight (8,607 mm) / 439 curved (631 mm); text 368 rings, 2,458 straight (2,802 mm) / 751 curved (1,075 mm); tb 15 rings, 145 straight (257 mm) / 16 curved (24.4 mm)
+- **Centre lines:** 3,515 paths (55 closed); straight 6,053 mm, curved 71.3 mm; horizontal 2,543 mm, vertical 1,656 mm, diagonal 1,855 mm
+- **Circles and arcs:** 3 circles, 6 arcs; largest r 4.0 @ (193.6, 193.9), r 3.7 @ (250.2, 136.3), r 1.0 @ (179.6, 189.0)
+- **Closed boxes:** 16 (10 in the title block); named: EQUALIZER; 480-01-001; ISSUE
+- **Words (OCR):** 47 in 42 lines: Mic/LINE · SELECT · AIB 31e EQUALIZER · SELECT · Mi · FAS &B) · ER · Mic · PRE · 70/-49 dBm; · 150 OHMS · SENSiTiviTY
+- **Title block:** (282, 10)–(431, 76) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN PMaJevsxl · M48oB · ENG MRW Wli] · INPUT MODULE · CKD: · APP · FUNCTIONAL DIAGRAM · SCALE · 480-01-001 · ISSUE
+- **Wiring (first pass):** 81 connected wire groups from 166 runs; labelled ends: 194 mm → FAS &B), CUE; 87 mm → FAS &B), ER, PRE / POST; 50 mm → 31e; 37 mm → EXTERNAL, CALIBRATION; 31 mm → 31e
+
+Every curve, box, word and wire group: [1980 - M480B - 480-01-001 - SOLO CONTROL PEAK EXTERNAL PEAK CALIBRATION (traced).json](1980%20-%20M480B%20-%20480-01-001%20-%20SOLO%20CONTROL%20PEAK%20EXTERNAL%20PEAK%20CALIBRATION%20%28traced%29.json) (the CAD file: `1980 - M480B - 480-01-001 - SOLO CONTROL PEAK EXTERNAL PEAK CALIBRATION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

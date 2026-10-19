@@ -22,6 +22,20 @@ Wiki page: [M121](../../../PAGES/M121.md)
 - **Size:** 4,535,058 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 121-02-003, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 2–140 mm up
+- **Outlines:** line 744 rings, 7,987 straight (13,481 mm) / 1,752 curved (2,220 mm); text 541 rings, 3,099 straight (2,702 mm) / 1,087 curved (1,320 mm); tb 2 rings, 33 straight (88.5 mm) / 2 curved (4.2 mm)
+- **Centre lines:** 10,399 paths (180 closed); straight 9,859 mm, curved 431 mm; horizontal 3,529 mm, vertical 2,517 mm, diagonal 3,813 mm
+- **Circles and arcs:** 9 circles, 74 arcs; largest r 3.9 @ (98.0, 31.8), r 3.8 @ (80.0, 40.6), r 3.7 @ (211.8, 84.4), r 3.7 @ (123.6, 110.6)
+- **Closed boxes:** 8; named: DJG; REMOSEHENATIAMPLIFIER; NoNe; I21-02-003
+- **Words (OCR):** 90 in 76 lines: zvzioz · CRI6 , · +48v · Bok · FD444 · UNBAL: · 22/35] CRII · 22/351 Srio · cris CIqL · FD444 · M7SIA · 12205
+- **Title block:** (356, 22)–(432, 32) mm: WBS WARO-DCCK SYSTEMS · DJG
+- **Wiring (first pass):** 83 connected wire groups from 672 runs; labelled ends: 228 mm → R3S, 823, Sika, 441cis; 154 mm → CRZIFDA444, 436, Ro<, SE5; 154 mm → CRIJ, IN4750, Rio7, 8k2; 117 mm → 22/35], 552, 412A122/s5; 113 mm → 827, 4401, 22/351, SER
+
+Every curve, box, word and wire group: [19xx - 121-02-003 - REMOTE GAIN AMPLIFIER SCHEMATIC - DRN DJG - ISS 1 (traced).json](19xx%20-%20121-02-003%20-%20REMOTE%20GAIN%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20DJG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 121-02-003 - REMOTE GAIN AMPLIFIER SCHEMATIC - DRN DJG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

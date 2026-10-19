@@ -1,0 +1,36 @@
+{
+ "code": "M621",
+ "name": "20 Watt Monitor Amplifier",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 1,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "OUTPUT SIGNAL",
+   "kind": "out",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "9a804e9031fd3bec9f3e100364e971e03692ba591bd1fbae74e38d4a9d2aee16",
+    "file": "Modules/AMPLIFIERS/M621/1970 - M621 - M621T vint p4.jpg",
+    "page": 1
+   },
+   "quote": "The output signal is taken from the junction of R60 and R61 and routed via Ll to the module connector Pl pin 1 The feedback loop for the output stage connects to the same junction.",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

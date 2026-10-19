@@ -22,6 +22,17 @@ Wiki page: [M402](../../../PAGES/M402.md)
 - **Size:** 4,236,702 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 402-04-005, size B 432 × 307 mm, 2000 × 1423 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 20–307 mm up
+- **Outlines:** line 501 rings, 9,886 straight (15,932 mm) / 1,334 curved (2,324 mm); text 173 rings, 1,347 straight (1,545 mm) / 369 curved (564 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 9.0 @ (338.3, 205.1), r 8.1 @ (338.7, 161.6), r 8.1 @ (338.3, 248.0), r 7.3 @ (338.3, 205.2)
+- **Closed boxes:** 52
+- **Dots (junctions):** 2
+
+Every curve, box, word and wire group: [1971 - 402-04-005 - M402B EQUALIZER MODULE LAYOUT - DRN PHL - ISS 1 (traced).json](1971%20-%20402-04-005%20-%20M402B%20EQUALIZER%20MODULE%20LAYOUT%20-%20DRN%20PHL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 402-04-005 - M402B EQUALIZER MODULE LAYOUT - DRN PHL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

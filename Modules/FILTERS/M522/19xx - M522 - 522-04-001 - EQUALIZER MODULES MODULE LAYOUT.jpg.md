@@ -11,6 +11,18 @@ Wiki page: [M522](../../../PAGES/M522.md)
 - **Size:** 406,229 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 522-04-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 38–332 mm across, 14–315 mm up
+- **Outlines:** line 23 rings, 591 straight (2,572 mm) / 92 curved (260 mm); text 121 rings, 1,028 straight (1,277 mm) / 281 curved (427 mm); tb 224 rings, 1,589 straight (2,356 mm) / 512 curved (933 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 5.1 @ (43.4, 146.1), r 5.1 @ (44.8, 290.2), r 5.1 @ (44.0, 187.2), r 5.0 @ (44.3, 238.0)
+- **Closed boxes:** 2; named: WBS M522A KHz 46 3.2 3.8 KHz; WBS M522A KHz 46 3.2 3.8 KHz
+- **Words (OCR):** 13 in 11 lines: WBS · M522A · KHz · 46 3.2 3.8 · KHz · WBS WARD-BECK SYSTEMS · M522/mM522A · EQUALIZER MODULES · MODULE LAYOUT · B 522-04-001 · ISS.
+- **Title block:** (120, 49)–(338, 320) mm: WBS · M522A · KHz · 46 3.2 3.8 · KHz · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - M522 - 522-04-001 - EQUALIZER MODULES MODULE LAYOUT (traced).json](19xx%20-%20M522%20-%20522-04-001%20-%20EQUALIZER%20MODULES%20MODULE%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M522 - 522-04-001 - EQUALIZER MODULES MODULE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

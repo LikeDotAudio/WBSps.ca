@@ -10,6 +10,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,221,382 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-006, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 579 rings, 7,815 straight (10,218 mm) / 1,156 curved (1,374 mm); text 378 rings, 2,324 straight (2,511 mm) / 661 curved (905 mm); tb 2 rings, 79 straight (183 mm) / 5 curved (10.2 mm)
+- **Centre lines:** 15,749 paths (98 closed); straight 9,628 mm, curved 144 mm; horizontal 3,499 mm, vertical 2,449 mm, diagonal 3,680 mm
+- **Circles and arcs:** 7 circles, 19 arcs; largest r 1.3 @ (200.5, 169.2), r 1.3 @ (201.2, 212.7), r 1.3 @ (81.1, 129.8), r 1.3 @ (201.1, 204.5)
+- **Closed boxes:** 17 (10 in the title block); named: AdditionAL WP 2P APEP; Nov 8 8; LB; 730232-02-306; ISSUE
+- **Words (OCR):** 57 in 41 lines: M450 · 044 · 3548) · Qwue · Tb6 · -O4Bm · 427,128 Ch ( · 914 · (131) · EFFECTS SWITCHER · Outputs · JOdB~
+- **Title block:** (157, 6)–(310, 74) mm: Nov AdditionAL WP 2P APEP · 8 8 · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN ERh · ENG SRt · EFFECTS SWITCHER · SCHEMATIC · CKD · APP · SCALE · ISSUE · LB · 730232-02-306
+- **Wiring (first pass):** 59 connected wire groups from 406 runs; labelled ends: 141 mm → 044, Qwue, 412; 60 mm → Ch (, Ch2; 52 mm → 135,0; 37 mm → Tb6, 427,128, -O4Bm; 37 mm → 044, Qwue, -O4Bm
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-006 - EFFECTS SVITCHER OUTPUTS IODB (traced).json](1979%20-%20790236%20-%20790236-02-006%20-%20EFFECTS%20SVITCHER%20OUTPUTS%20IODB%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-006 - EFFECTS SVITCHER OUTPUTS IODB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

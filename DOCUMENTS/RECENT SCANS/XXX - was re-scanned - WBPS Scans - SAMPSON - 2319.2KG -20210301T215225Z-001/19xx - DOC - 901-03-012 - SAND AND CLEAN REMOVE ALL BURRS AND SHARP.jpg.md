@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 629,458 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 901-03-012, size B (assumed) 432 × 288 mm, 2000 × 1333 px traced (0.216 mm/px)
+- **Ink extent:** 34–422 mm across, 13–280 mm up
+- **Outlines:** line 262 rings, 3,526 straight (9,218 mm) / 421 curved (580 mm); text 570 rings, 3,478 straight (3,555 mm) / 1,036 curved (1,453 mm); tb 30 rings, 264 straight (674 mm) / 34 curved (46.4 mm)
+- **Centre lines:** 4,300 paths (68 closed); straight 7,484 mm, curved 27.4 mm; horizontal 2,718 mm, vertical 2,763 mm, diagonal 2,004 mm
+- **Circles and arcs:** 0 circles, 10 arcs
+- **Closed boxes:** 3
+- **Words (OCR):** 63 in 60 lines: 901-03-012-1 · 901-03-012_2 · 2,000 · 1,500 · 2.125 · 0.375 · 2.125 · 0,790 · 0.500 · 1,760 · 0,400 · "4-40 UNC
+- **Title block:** (303, 23)–(425, 59) mm: ISSVE · WBSs · WARD-BECK SYSTEMS · DRN. · PAS · M450B MOUNTING · ENG · PAS · BRACKET FOR M9O1 · CKD: · TEST JIG · #PP
+
+Every curve, box, word and wire group: [19xx - DOC - 901-03-012 - SAND AND CLEAN REMOVE ALL BURRS AND SHARP (traced).json](19xx%20-%20DOC%20-%20901-03-012%20-%20SAND%20AND%20CLEAN%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20%28traced%29.json) (the CAD file: `19xx - DOC - 901-03-012 - SAND AND CLEAN REMOVE ALL BURRS AND SHARP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

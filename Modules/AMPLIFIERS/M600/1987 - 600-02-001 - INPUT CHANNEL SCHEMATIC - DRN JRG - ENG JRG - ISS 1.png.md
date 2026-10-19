@@ -23,6 +23,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 3,072,224 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 51–432 mm across, 23–293 mm up
+- **Outlines:** line 244 rings, 3,018 straight (8,218 mm) / 435 curved (669 mm); text 1,097 rings, 6,969 straight (8,115 mm) / 2,040 curved (2,888 mm); tb 3 rings, 89 straight (200 mm) / 2 curved (6.3 mm)
+- **Centre lines:** 6,988 paths (170 closed); straight 9,739 mm, curved 232 mm; horizontal 3,638 mm, vertical 2,459 mm, diagonal 3,642 mm
+- **Circles and arcs:** 14 circles, 27 arcs; largest r 1.4 @ (90.9, 254.2), r 1.3 @ (96.7, 134.3), r 1.3 @ (96.7, 126.5), r 1.3 @ (96.5, 165.5)
+- **Closed boxes:** 17 (10 in the title block); named: M490SERIES INPUT MODULE; ZH; 600-02-001; SCALE; CODE: 600S01
+- **Words (OCR):** 150 in 121 lines: INPUT CHANNEL · SUMMING · Low LEVEL CABLES · TB" · BUSES · DRESS SEPARATELY · LEFT · P2_3C_ · P1-1,2 · PGM · PIN 1,A(3) M497 · INPUT
+- **Title block:** (266, 40)–(432, 108) mm: DISTRIBUTION · (ISSUEI DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN. JRG 02/87 · ENG. Re · INPUT · CHANNEL · CKD: · SCHEMA TIC · APP_ · SCALE DISC NO: 130 · ISSUE · CODE: 600S01 · 600-02-001
+- **Wiring (first pass):** 93 connected wire groups from 304 runs; labelled ends: 591 mm → INPUT CHANNEL, P2_3C_, TB", P2-1A; 583 mm → SUMMING, BUSES, P1-1,2, INPUT CHANNEL; 58 mm → PINS 9-10, PINS 11-12; 44 mm → INPUT CHANNEL, P1-1,2, P2_3C_; 44 mm → INPUT CHANNEL, P2_3C_, P1-1,2
+
+Every curve, box, word and wire group: [1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1 (traced).json](1987%20-%20600-02-001%20-%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 600-02-001 - INPUT CHANNEL SCHEMATIC - DRN JRG - ENG JRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -25,6 +25,18 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 790,105 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 463-06-001, size B 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 1,473 rings, 11,394 straight (15,260 mm) / 2,690 curved (2,496 mm); text 828 rings, 6,453 straight (6,397 mm) / 2,002 curved (2,290 mm); tb 20 rings, 156 straight (241 mm) / 27 curved (27.9 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 10.8 @ (54.8, 308.4), r 10.2 @ (84.0, 308.8), r 4.8 @ (136.6, 106.5), r 4.8 @ (135.5, 325.4)
+- **Closed boxes:** 44 (11 in the title block); named: LM3oi; Tipz98
+- **Words (OCR):** 121 in 101 lines: Pn3569 Pn3L45 214401 2n4401 · pn3L45 2N4401 · 244401 · RIlJEK Rs · 22k · RioJeK · ciol0/25 22 · ~Ri?-22 · Ri3 · C6 · Jop · ce 2 3p -c3
+- **Title block:** (192, 5)–(334, 77) mm: ISSUE (DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN: GEB · M463] · ENG.GEB 4/78 · SUBMASTER · MODULE · CKDT ^ · LAYOUT · APP · COMPONENT · SCALE · 463-06-001 · ISSUE
+
+Every curve, box, word and wire group: [1978 - 463-06-001 - M463J SUBMASTER MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB - ISS 1 (traced).json](1978%20-%20463-06-001%20-%20M463J%20SUBMASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 463-06-001 - M463J SUBMASTER MODULE COMPONENT LAYOUT - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

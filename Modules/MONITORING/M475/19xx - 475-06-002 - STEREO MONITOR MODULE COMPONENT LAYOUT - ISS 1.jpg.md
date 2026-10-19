@@ -22,6 +22,19 @@ M475A stereo monitor module PCB component layout.
 - **Size:** 448,435 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 475-06-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 5–329 mm across, 11–416 mm up
+- **Outlines:** line 494 rings, 5,645 straight (10,228 mm) / 1,359 curved (1,358 mm); text 1,214 rings, 8,584 straight (7,654 mm) / 3,085 curved (3,445 mm); tb 312 rings, 2,801 straight (4,049 mm) / 771 curved (805 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 4.9 @ (272.4, 326.2), r 2.0 @ (142.5, 338.3), r 2.0 @ (250.0, 338.2)
+- **Closed boxes:** 9
+- **Dots (junctions):** 2
+- **Words (OCR):** 196 in 160 lines: Sh5 · 4.7/10 · 4.7/10 · R39 !SK · R3822k · R8 · RI · R9 · Rz · 0 1/1O0058) (C1B) 22P · 4.7/10 (CB R1322k · 7/10
+- **Title block:** (98, 45)–(335, 250) mm: PN?Ss9 02 · TN2ioz · B2' · R2z · ~R3z · ISSUE · 22/25 · Sk · R48 · NOK + C2z · R46 · K7 · SV1 · CR4 I4oos · R18 !K · R4s !OK · K2 · R26 · R2s · R4z · 22k · RZ-245-C · R1z !K R3o · 8 8 · a4s 44oo3 · 'R
+
+Every curve, box, word and wire group: [19xx - 475-06-002 - STEREO MONITOR MODULE COMPONENT LAYOUT - ISS 1 (traced).json](19xx%20-%20475-06-002%20-%20STEREO%20MONITOR%20MODULE%20COMPONENT%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 475-06-002 - STEREO MONITOR MODULE COMPONENT LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

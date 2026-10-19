@@ -10,6 +10,19 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,772,096 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-014, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 319 rings, 6,243 straight (12,135 mm) / 835 curved (1,198 mm); text 434 rings, 3,358 straight (3,977 mm) / 1,172 curved (1,727 mm)
+- **Centre lines:** 8,279 paths (69 closed); straight 10,148 mm, curved 169 mm; horizontal 3,628 mm, vertical 2,937 mm, diagonal 3,584 mm
+- **Circles and arcs:** 8 circles, 26 arcs; largest r 2.3 @ (276.6, 221.3), r 2.2 @ (277.2, 319.4), r 2.2 @ (276.9, 301.3), r 1.2 @ (239.3, 239.1)
+- **Closed boxes:** 18; named: M 8 - 103 SUPPLY POwER CHANGE OVER Carb
+- **Words (OCR):** 69 in 48 lines: TBI2 · M 8 - 103 · POwER · SUPPLY · 7-/2 · CHANGE OVER · P4 B · Carb · Ki · KRP IlDG 24v · 7B13 · I- 6
+- **Wiring (first pass):** 73 connected wire groups from 370 runs; labelled ends: 754 mm → CHANGE OVER, Carb, PS; 427 mm → P2, PS, Pe, Ps2; 322 mm → Carb, Pe; 193 mm → GROLNI, STATION GROUND, #6AWG, MA7OAINPUT; 146 mm → STATION GROUND, #6AWG, MA7OAINPUT, CONNECTION
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-02-014 - GOLLZ SIGNAL GROLN CONNECTION (traced).json](1979%20-%20790236%20-%20790236-02-014%20-%20GOLLZ%20SIGNAL%20GROLN%20CONNECTION%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-02-014 - GOLLZ SIGNAL GROLN CONNECTION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

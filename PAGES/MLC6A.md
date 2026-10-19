@@ -30,27 +30,3 @@ tags: ["product", "metering", "2010s"]
 |---|---|---|
 | ? | [19xx - MLC6A - Front.jpg](../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Front.jpg) | [note](../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Front.jpg.md) |
 | ? | [19xx - MLC6A - Rear.jpg](../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Rear.jpg) | [note](../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Rear.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "MLC6A",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/MLC8D/2018 - MLC8D - Rear.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MLC6A/19xx - MLC6A - Front.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

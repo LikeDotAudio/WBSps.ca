@@ -24,6 +24,20 @@ Wiki page: [M498](../../../PAGES/M498.md)
 - **Size:** 236,067 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 498-01-001, size B 432 × 293 mm, 2000 × 1357 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–293 mm up
+- **Outlines:** line 162 rings, 2,596 straight (8,829 mm) / 326 curved (431 mm); text 167 rings, 1,254 straight (1,697 mm) / 343 curved (528 mm); tb 25 rings, 268 straight (458 mm) / 56 curved (84.8 mm)
+- **Centre lines:** 2,403 paths (25 closed); straight 5,740 mm, curved 11.2 mm; horizontal 2,779 mm, vertical 1,529 mm, diagonal 1,432 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 13 (6 in the title block)
+- **Words (OCR):** 20 in 17 lines: LEFT · INPUTS · OUTPUt · RighT · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M498 · ENG_ · 8X1 STEREO SWITCHER · MODULE
+- **Title block:** (276, 2)–(432, 75) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M498 · ENG_ · 8X1 STEREO SWITCHER · MODULE · FUNCTIONAL DIAGRAM · APP · FCALE · ISSUE · 498-01-001
+- **Wiring (first pass):** 70 connected wire groups from 172 runs; labelled ends: 388 mm → RighT; 33 mm → LEFT, OUTPUt, RighT
+
+Every curve, box, word and wire group: [1978 - 498-01-001 - 8X1 STEREO SWITCHER MODULE FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 1 (traced).json](1978%20-%20498-01-001%20-%208X1%20STEREO%20SWITCHER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 498-01-001 - 8X1 STEREO SWITCHER MODULE FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

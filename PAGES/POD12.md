@@ -33,34 +33,3 @@ tags: ["product", "pods", "2010s"]
 | 2014 | [2014 - POD12 - Front.jpg](../Products/PODS/POD12/2014%20-%20POD12%20-%20Front.jpg) | [note](../Products/PODS/POD12/2014%20-%20POD12%20-%20Front.jpg.md) |
 | 2014 | [2014 - POD12 - Rear 110.jpg](../Products/PODS/POD12/2014%20-%20POD12%20-%20Rear%20110.jpg) | [note](../Products/PODS/POD12/2014%20-%20POD12%20-%20Rear%20110.jpg.md) |
 | 2014 | [2014 - POD12 - Rear 75.jpg](../Products/PODS/POD12/2014%20-%20POD12%20-%20Rear%2075.jpg) | [note](../Products/PODS/POD12/2014%20-%20POD12%20-%20Rear%2075.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "POD12",
- "name": "Digital Audio Distribution Amplifier",
- "category": "PODS",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/PODS/POD12/2014 - POD12 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD12/2014 - POD12 - Rear 110.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD12/2014 - POD12 - Rear 75.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

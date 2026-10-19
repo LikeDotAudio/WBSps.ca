@@ -11,6 +11,20 @@ Wiki page: [M463K](../../../PAGES/M463K.md)
 - **Size:** 2,361,495 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-010, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–432 mm up
+- **Outlines:** line 532 rings, 10,362 straight (20,951 mm) / 1,576 curved (2,257 mm); text 913 rings, 6,292 straight (7,020 mm) / 2,211 curved (3,244 mm); tb 32 rings, 273 straight (334 mm) / 69 curved (91.5 mm)
+- **Centre lines:** 10,199 paths (160 closed); straight 16,785 mm, curved 452 mm; horizontal 6,906 mm, vertical 3,981 mm, diagonal 5,898 mm
+- **Circles and arcs:** 16 circles, 116 arcs; largest r 1.6 @ (233.5, 280.3), r 1.6 @ (315.0, 36.9), r 1.0 @ (135.5, 194.0), r 1.0 @ (135.4, 88.6)
+- **Closed boxes:** 52 (12 in the title block); named: WBS LTo; Module SUb - MASTER SCHEMATIC; LB
+- **Words (OCR):** 190 in 150 lines: DIRECT · ~P2-12 OUTPUT · +2iv · P2-N · 10 JBm · NOMINAL · Ri3o · 15k · P2-3 · 4E3 · 4E7 · Sw2z Ri3i
+- **Title block:** (134, 4)–(258, 50) mm: ISS Nop CKD · WBS · PKU · CKd · SCALE · TOls _
+- **Wiring (first pass):** 157 connected wire groups from 698 runs; labelled ends: 478 mm → PsT, PRE, Swi, FB; 440 mm → R88, 5.6, Swig, PsT; 381 mm → ~P2-12, P2-N, Swia PAN, 4E4; 377 mm → PRE, PsT, PST, Pst; 249 mm → 4EG, R88, R27-, R25-
+
+Every curve, box, word and wire group: [1974 - M463K - 463-02-010 - SUB MASTER MODULE EKO (traced).json](1974%20-%20M463K%20-%20463-02-010%20-%20SUB%20MASTER%20MODULE%20EKO%20%28traced%29.json) (the CAD file: `1974 - M463K - 463-02-010 - SUB MASTER MODULE EKO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -20,6 +20,21 @@ Wiki page: [Job-93039](../../../PAGES/Job-93039.md)
 - **Size:** 869,183 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 93039-01-001, size D 864 × 557 mm, 2000 × 1289 px traced (0.432 mm/px)
+- **Ink extent:** 136–863 mm across, 0–439 mm up
+- **Outlines:** line 1,117 rings, 9,946 straight (27,560 mm) / 1,604 curved (3,870 mm); text 137 rings, 860 straight (1,692 mm) / 224 curved (580 mm); tb 23 rings, 164 straight (380 mm) / 45 curved (106 mm)
+- **Centre lines:** 12,771 paths (212 closed); straight 18,421 mm, curved 419 mm; horizontal 7,616 mm, vertical 4,266 mm, diagonal 6,539 mm
+- **Circles and arcs:** 10 circles, 32 arcs; largest r 3.9 @ (413.4, 325.0), r 3.9 @ (411.5, 427.7), r 3.8 @ (151.0, 381.4), r 3.6 @ (152.0, 347.9)
+- **Closed boxes:** 47 (3 in the title block); named: CBC SR-398 COMMENTATOR UNIT FUNCTIONAL
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 17 lines: Nois · EMS · TELLAPHCNF · RAck · UhIT OH · KDGHT · NTERFACE · MMZFD · BECK SYSTEMS · WBS · WARD- · CBC SR-398
+- **Title block:** (687, 29)–(856, 64) mm: BECK SYSTEMS · WBS · WARD- · CBC SR-398
+- **Wiring (first pass):** 176 connected wire groups from 1,718 runs, 2 dotted junctions; labelled ends: 16 mm → WBS, DGC_NC; 12 mm → UNIT, 001; 10 mm → COMMENTATOR, FUNCTIONAL, 93039-01; 10 mm → COMMENTATOR; 6 mm → WARD-
+
+Every curve, box, word and wire group: [1993 - 93039-01-001 - CBC SR-398 COMMENTATOR UNIT FUNCTIONAL - ISS 1 (traced).json](1993%20-%2093039-01-001%20-%20CBC%20SR-398%20COMMENTATOR%20UNIT%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1993 - 93039-01-001 - CBC SR-398 COMMENTATOR UNIT FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

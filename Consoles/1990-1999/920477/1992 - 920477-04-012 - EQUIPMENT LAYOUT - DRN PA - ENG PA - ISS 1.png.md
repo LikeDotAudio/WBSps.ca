@@ -22,6 +22,17 @@ Wiki page: [Job-920477](../../../PAGES/Job-920477.md)
 - **Size:** 527,271 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 920477-04-012, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–295 mm up
+- **Outlines:** line 178 rings, 3,679 straight (11,609 mm) / 384 curved (591 mm); text 191 rings, 1,543 straight (1,934 mm) / 466 curved (752 mm); tb 9 rings, 125 straight (276 mm) / 12 curved (19.4 mm)
+- **Closed boxes:** 20 (7 in the title block); named: TB TB; M2o7 TB CArD; TB; TB; TB; M2o7 CArD; 920477-04-012
+- **Words (OCR):** 31 in 22 lines: EQUiPMENT · LAYe4T · TB TB · TB · M2o7 · CArD · CenseLe · TERMiNAL · Bleck Reer LAxeut · ISSUE DATE · NoTe Deors FACE REAC OF · REVISION
+- **Title block:** (293, 16)–(432, 85) mm: ISSUE DATE · REVISION · WBS WARD-BECK SYBTEME · DRN, · PA · ENG_ PA · CKD. · Equipment LAYOUT · APP: · SCALE · ISSUE · 920477-04-012
+
+Every curve, box, word and wire group: [1992 - 920477-04-012 - EQUIPMENT LAYOUT - DRN PA - ENG PA - ISS 1 (traced).json](1992%20-%20920477-04-012%20-%20EQUIPMENT%20LAYOUT%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1992 - 920477-04-012 - EQUIPMENT LAYOUT - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

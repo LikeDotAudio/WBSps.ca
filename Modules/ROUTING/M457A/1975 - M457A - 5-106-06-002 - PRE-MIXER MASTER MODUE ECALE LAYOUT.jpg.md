@@ -11,6 +11,19 @@ Wiki page: [M457A](../../../PAGES/M457A.md)
 - **Size:** 347,305 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 5-106-06-002, size B (assumed) 432 × 365 mm, 2000 × 1690 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–356 mm up
+- **Outlines:** line 446 rings, 4,971 straight (9,170 mm) / 1,295 curved (1,390 mm); text 546 rings, 5,157 straight (4,825 mm) / 1,544 curved (1,828 mm); tb 10 rings, 184 straight (248 mm) / 42 curved (41.3 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 2.5 @ (11.1, 51.2), r 2.4 @ (180.9, 267.3), r 2.3 @ (180.8, 247.8), r 2.3 @ (326.9, 246.4)
+- **Closed boxes:** 28 (20 in the title block); named: 26; 27 LMzeL; 25 LM3e
+- **Dots (junctions):** 2
+- **Words (OCR):** 103 in 83 lines: Ris JeK · Swio QeT · R3b-IEK · Eio · Swg · 06 · E5 · Q0 · Pine Pin 6 · Swio · Swg · FI_
+- **Title block:** (174, 8)–(344, 54) mm: @SSMOD [cKD: · USED ON · MatL. · e265 · WBS · DRC · DM · FINISH · CKD · RZ · Ec
+
+Every curve, box, word and wire group: [1975 - M457A - 5-106-06-002 - PRE-MIXER MASTER MODUE ECALE LAYOUT (traced).json](1975%20-%20M457A%20-%205-106-06-002%20-%20PRE-MIXER%20MASTER%20MODUE%20ECALE%20LAYOUT%20%28traced%29.json) (the CAD file: `1975 - M457A - 5-106-06-002 - PRE-MIXER MASTER MODUE ECALE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

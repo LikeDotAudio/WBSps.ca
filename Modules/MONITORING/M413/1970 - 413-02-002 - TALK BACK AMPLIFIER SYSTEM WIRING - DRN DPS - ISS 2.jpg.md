@@ -22,6 +22,18 @@ Wiki page: [M413](../../../PAGES/M413.md)
 - **Size:** 4,657,368 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 413-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 3–432 mm across, 0–287 mm up
+- **Outlines:** line 539 rings, 8,705 straight (13,756 mm) / 1,282 curved (1,885 mm); text 432 rings, 3,277 straight (3,421 mm) / 970 curved (1,380 mm)
+- **Centre lines:** 5,772 paths (132 closed); straight 9,719 mm, curved 528 mm; horizontal 4,606 mm, vertical 2,315 mm, diagonal 2,798 mm
+- **Circles and arcs:** 27 circles, 65 arcs; largest r 3.9 @ (401.2, 132.9), r 3.1 @ (401.5, 117.6), r 1.8 @ (173.0, 200.9), r 1.8 @ (200.1, 201.1)
+- **Closed boxes:** 27
+- **Wiring (first pass):** 57 connected wire groups from 438 runs
+
+Every curve, box, word and wire group: [1970 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING - DRN DPS - ISS 2 (traced).json](1970%20-%20413-02-002%20-%20TALK%20BACK%20AMPLIFIER%20SYSTEM%20WIRING%20-%20DRN%20DPS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1970 - 413-02-002 - TALK BACK AMPLIFIER SYSTEM WIRING - DRN DPS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

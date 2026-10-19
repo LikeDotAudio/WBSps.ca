@@ -21,6 +21,18 @@ Line input module component layout. Title block at top right reading downward.
 - **Size:** 5,938,282 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 940444-06-100, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–288 mm across, 0–432 mm up
+- **Outlines:** line 3,841 rings, 27,916 straight (31,224 mm) / 8,715 curved (9,022 mm); text 787 rings, 4,622 straight (3,667 mm) / 1,794 curved (1,881 mm)
+- **Circles and arcs:** 44 circles, 0 arcs; largest r 3.5 @ (161.1, 401.5), r 3.1 @ (138.8, 387.0), r 3.1 @ (138.8, 394.2), r 3.0 @ (179.1, 233.9)
+- **Closed boxes:** 60
+- **Dots (junctions):** 21
+- **Words (OCR):** 75 in 72 lines: 0282 · 28 82y3 · Isg · zel8 · cted · 6443 · NszijtL · SMS · 8ala · 8928 · L614 · 88
+
+Every curve, box, word and wire group: [1994 - 940444-06-100 - M901BY LINE INPUT MODULE COMPONENT LAYOUT - ISS 3 (traced).json](1994%20-%20940444-06-100%20-%20M901BY%20LINE%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1994 - 940444-06-100 - M901BY LINE INPUT MODULE COMPONENT LAYOUT - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

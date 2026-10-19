@@ -22,6 +22,19 @@ SA14-054 sound reinforcement amplifier schematic, mostly cropped.
 - **Size:** 427,935 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-054-02-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 297 rings, 3,550 straight (2,848 mm) / 911 curved (937 mm); text 109 rings, 1,311 straight (1,290 mm) / 278 curved (393 mm); tb 2 rings, 90 straight (153 mm) / 2 curved (2.7 mm)
+- **Centre lines:** 14,107 paths (59 closed); straight 6,560 mm, curved 59.5 mm; horizontal 1,704 mm, vertical 1,152 mm, diagonal 3,704 mm
+- **Circles and arcs:** 0 circles, 19 arcs
+- **Words (OCR):** 15 in 13 lines: R6 · 68/6.3 · 22k · RB · 22k · 68/6.3 · WBS · WARD-BECK ByBTEMB · SA14-054 · SOUND REINFORCEMENT AmpLifier · SCHEMATIC · B 14-054-02-001
+- **Title block:** (199, 38)–(324, 62) mm: WBS · WARD-BECK ByBTEMB
+- **Wiring (first pass):** 8 connected wire groups from 275 runs; labelled ends: 53 mm → R6, 68/6.3, 22k; 51 mm → RB, 22k, 68/6.3; 48 mm → 22k, RB; 27 mm → R6
+
+Every curve, box, word and wire group: [19xx - 14-054-02-001 - SA14-054 SOUND REINFORCEMENT AMPLIFIER SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-054-02-001%20-%20SA14-054%20SOUND%20REINFORCEMENT%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-054-02-001 - SA14-054 SOUND REINFORCEMENT AMPLIFIER SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

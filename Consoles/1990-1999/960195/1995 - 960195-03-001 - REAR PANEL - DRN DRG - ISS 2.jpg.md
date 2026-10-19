@@ -21,6 +21,20 @@ Wiki page: [Job-960195](../../../PAGES/Job-960195.md)
 - **Size:** 474,475 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960195-03-001, size D 864 × 556 mm, 2000 × 1287 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 9–518 mm up
+- **Outlines:** line 721 rings, 5,614 straight (26,004 mm) / 1,000 curved (2,972 mm); text 253 rings, 1,389 straight (2,624 mm) / 450 curved (1,140 mm); tb 16 rings, 183 straight (397 mm) / 34 curved (76.5 mm)
+- **Centre lines:** 6,842 paths (212 closed); straight 16,577 mm, curved 581 mm; horizontal 7,574 mm, vertical 4,544 mm, diagonal 4,458 mm
+- **Circles and arcs:** 7 circles, 13 arcs; largest r 12.4 @ (392.1, 343.9), r 12.3 @ (467.7, 342.7), r 12.3 @ (466.7, 292.5), r 12.3 @ (504.9, 342.6)
+- **Closed boxes:** 39 (2 in the title block); named: REAR PANEL; 960195-03-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 33 in 30 lines: 4500 · pitctes · 0is DA · 04C0 · 2102 · 2.010 · DETA · DETAI · 0254 · PLICES · Dtin · 0.844
+- **Title block:** (663, 41)–(831, 74) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1995 - 960195-03-001 - REAR PANEL - DRN DRG - ISS 2 (traced).json](1995%20-%20960195-03-001%20-%20REAR%20PANEL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1995 - 960195-03-001 - REAR PANEL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

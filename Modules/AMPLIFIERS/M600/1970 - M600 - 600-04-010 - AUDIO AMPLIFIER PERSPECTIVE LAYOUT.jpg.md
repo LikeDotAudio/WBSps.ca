@@ -11,6 +11,16 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 724,664 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 600-04-010, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–328 mm across, 11–414 mm up
+- **Outlines:** line 58 rings, 761 straight (1,787 mm) / 153 curved (262 mm); text 108 rings, 832 straight (1,105 mm) / 213 curved (342 mm); tb 2 rings, 53 straight (156 mm) / 1 curved (2.1 mm)
+- **Words (OCR):** 9 in 8 lines: 7600 · WBS · WARD-BECK SYSTEMS · M600 · AUDiO AMPLIFIER · PERSPECTIVE LAYOUT · 6 0 0-04-0 10 · ISS.1
+- **Title block:** (207, 44)–(333, 69) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1970 - M600 - 600-04-010 - AUDIO AMPLIFIER PERSPECTIVE LAYOUT (traced).json](1970%20-%20M600%20-%20600-04-010%20-%20AUDIO%20AMPLIFIER%20PERSPECTIVE%20LAYOUT%20%28traced%29.json) (the CAD file: `1970 - M600 - 600-04-010 - AUDIO AMPLIFIER PERSPECTIVE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

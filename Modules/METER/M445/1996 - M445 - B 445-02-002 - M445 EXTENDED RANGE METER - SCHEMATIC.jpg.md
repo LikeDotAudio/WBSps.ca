@@ -11,6 +11,19 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 293,192 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 445-02-002, size B (assumed) 305 × 432 mm, 1240 × 1753 px traced (0.246 mm/px)
+- **Ink extent:** 0–305 mm across, 18–431 mm up
+- **Outlines:** line 714 rings, 6,818 straight (14,976 mm) / 1,374 curved (1,928 mm); text 357 rings, 2,213 straight (2,477 mm) / 644 curved (905 mm)
+- **Centre lines:** 6,943 paths (120 closed); straight 9,829 mm, curved 278 mm; horizontal 3,022 mm, vertical 3,779 mm, diagonal 3,028 mm
+- **Circles and arcs:** 16 circles, 59 arcs; largest r 1.4 @ (239.9, 224.8), r 1.3 @ (195.7, 186.8), r 1.3 @ (239.7, 227.9), r 1.2 @ (244.3, 221.8)
+- **Closed boxes:** 9; named: 72 2 55 Sissvh) Sissvh? 72 + JC J0 D0 No
+- **Words (OCR):** 23 in 22 lines: ui · 72 · 2 55 · Sissvh) · Sissvh? · 72 + · JC · J0 · D0 · Nowrioj · Norinioj · IhjIJ
+- **Wiring (first pass):** 101 connected wire groups from 714 runs; labelled ends: 493 mm → 2 55, 72, Nowrioj, aND; 260 mm → 00, 57; 242 mm → 00, 57; 127 mm → 00, 33; 95 mm → 00
+
+Every curve, box, word and wire group: [1996 - M445 - B 445-02-002 - M445 EXTENDED RANGE METER - SCHEMATIC (traced).json](1996%20-%20M445%20-%20B%20445-02-002%20-%20M445%20EXTENDED%20RANGE%20METER%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1996 - M445 - B 445-02-002 - M445 EXTENDED RANGE METER - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

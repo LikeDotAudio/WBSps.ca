@@ -1,0 +1,171 @@
+{
+ "code": "M522",
+ "name": "Input Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 25,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P1",
+   "rows": 2,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c04b95b56e0221c57edcaec5d38afa940d1101ab0970f38b6b91fbe849470ed0",
+    "file": "Modules/FILTERS/M522/19xx - M522 - 522A - Equalizer (2).pdf",
+    "page": 22
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c04b95b56e0221c57edcaec5d38afa940d1101ab0970f38b6b91fbe849470ed0",
+    "file": "Modules/FILTERS/M522/19xx - M522 - 522A - Equalizer (2).pdf",
+    "page": 22
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c04b95b56e0221c57edcaec5d38afa940d1101ab0970f38b6b91fbe849470ed0",
+    "file": "Modules/FILTERS/M522/19xx - M522 - 522A - Equalizer (2).pdf",
+    "page": 22
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25V",
+   "kind": "power",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c04b95b56e0221c57edcaec5d38afa940d1101ab0970f38b6b91fbe849470ed0",
+    "file": "Modules/FILTERS/M522/19xx - M522 - 522A - Equalizer (2).pdf",
+    "page": 22
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c04b95b56e0221c57edcaec5d38afa940d1101ab0970f38b6b91fbe849470ed0",
+    "file": "Modules/FILTERS/M522/19xx - M522 - 522A - Equalizer (2).pdf",
+    "page": 22
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "+/-25 VOL SUPPLY VOLTAGE",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/FILTERS/M522/19xx - M522 - A B - P05.jpg",
+     "page": 1
+    },
+    {
+     "signal": "AT PINS MOCULE CONNECTOR AND THE COMMON",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/FILTERS/M522/19xx - M522 - A B - P05.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "25",
+   "row": 25,
+   "side": "num",
+   "signal": "V COM",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "c04b95b56e0221c57edcaec5d38afa940d1101ab0970f38b6b91fbe849470ed0",
+    "file": "Modules/FILTERS/M522/19xx - M522 - 522A - Equalizer (2).pdf",
+    "page": 22
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "732acf110715a90528a1ef1a8b729e44b9e5e1ec657ecff75801da1646b90504",
+    "file": "Modules/FILTERS/M522/19xx - M522 - A B - P15.jpg",
+    "page": 1
+   },
+   "quote": "The Mter input is applied P1-2",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

@@ -11,6 +11,19 @@ Wiki page: [M808B](../../../PAGES/M808B.md)
 - **Size:** 18,784,613 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 808-02-003, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–432 mm across, 14–139 mm up
+- **Outlines:** line 510 rings, 3,965 straight (6,527 mm) / 872 curved (1,082 mm); text 81 rings, 455 straight (360 mm) / 134 curved (159 mm)
+- **Centre lines:** 5,409 paths (81 closed); straight 4,392 mm, curved 19.0 mm; horizontal 1,743 mm, vertical 1,168 mm, diagonal 1,481 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 7
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 30 connected wire groups from 493 runs, 4 dotted junctions
+
+Every curve, box, word and wire group: [1994 - M808B - 808-02-003 - MODULE SCHEMA TIC (traced).json](1994%20-%20M808B%20-%20808-02-003%20-%20MODULE%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1994 - M808B - 808-02-003 - MODULE SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

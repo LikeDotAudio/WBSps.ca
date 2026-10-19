@@ -10,6 +10,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,581,191 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 900438-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–303 mm across, 0–432 mm up
+- **Outlines:** line 393 rings, 5,525 straight (11,973 mm) / 976 curved (1,390 mm); text 448 rings, 3,379 straight (3,996 mm) / 969 curved (1,374 mm)
+- **Centre lines:** 7,427 paths (115 closed); straight 8,017 mm, curved 461 mm; horizontal 3,030 mm, vertical 2,089 mm, diagonal 2,898 mm
+- **Circles and arcs:** 33 circles, 60 arcs; largest r 1.5 @ (213.6, 162.3), r 1.4 @ (66.0, 359.3), r 1.4 @ (296.1, 191.1), r 1.4 @ (283.3, 191.0)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 121 connected wire groups from 534 runs
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-01-001 - INSERT INSERT NSERION SENDS SWTCHER RETURNS SENDS SWTCHER (traced).json](1990%20-%20900438%20-%20900438-01-001%20-%20INSERT%20INSERT%20NSERION%20SENDS%20SWTCHER%20RETURNS%20SENDS%20SWTCHER%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-01-001 - INSERT INSERT NSERION SENDS SWTCHER RETURNS SENDS SWTCHER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

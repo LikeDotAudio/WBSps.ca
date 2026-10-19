@@ -11,6 +11,17 @@ Wiki page: [M494](../../../PAGES/M494.md)
 - **Size:** 2,064,926 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 494-04-002, size B (assumed) 432 × 331 mm, 2000 × 1533 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–429 mm across, 0–331 mm up
+- **Outlines:** line 338 rings, 7,774 straight (12,168 mm) / 1,008 curved (1,670 mm); text 335 rings, 3,567 straight (4,450 mm) / 882 curved (1,375 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.5 @ (22.2, 78.4), r 2.4 @ (207.1, 14.1), r 2.4 @ (91.8, 78.8)
+- **Closed boxes:** 76
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [19xx - M494 - 494-04-002 - RSLKY CONNECTOR REAR VIEW ALE (traced).json](19xx%20-%20M494%20-%20494-04-002%20-%20RSLKY%20CONNECTOR%20REAR%20VIEW%20ALE%20%28traced%29.json) (the CAD file: `19xx - M494 - 494-04-002 - RSLKY CONNECTOR REAR VIEW ALE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

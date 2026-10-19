@@ -24,6 +24,20 @@ Wiki page: [M481](../../../PAGES/M481.md)
 - **Size:** 314,753 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 481-01-001, size B 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–270 mm up
+- **Outlines:** line 133 rings, 2,491 straight (7,042 mm) / 295 curved (393 mm); text 510 rings, 3,884 straight (4,326 mm) / 1,177 curved (1,719 mm); tb 6 rings, 98 straight (244 mm) / 3 curved (3.9 mm)
+- **Centre lines:** 4,526 paths (71 closed); straight 6,655 mm, curved 36.6 mm; horizontal 2,700 mm, vertical 1,380 mm, diagonal 2,574 mm
+- **Circles and arcs:** 1 circles, 7 arcs; largest r 1.6 @ (178.8, 117.6)
+- **Closed boxes:** 8 (6 in the title block); named: 1000 Hz OSC
+- **Words (OCR):** 88 in 81 lines: FROM · (-10dB) · To · AUX MASTER · AUX MASTER · INSERT · INSERT · Out · AUX' MsTR · IN · LEVEL · (OdB)
+- **Title block:** (283, 1)–(432, 71) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNP; · 'MaeNsy · M481B · ENG. MRN I1/19 · CUE, OSC, RE-ENTRY · CKD hw · MODULE · FUNCTIONAL DIAGRAM · APP · SCALE · 48 1-01-001 · ISSUE
+- **Wiring (first pass):** 86 connected wire groups from 159 runs; labelled ends: 115 mm → (-10dB), SOLO, SOLO To, MoniTor; 103 mm → M2; 102 mm → OSC, M1; 86 mm → (-10dB), AUX' MsTR, AUX MASTER; 80 mm → CUE /SOLO, ASSIGN, CUE, INPUT
+
+Every curve, box, word and wire group: [1979 - 481-01-001 - M481B CUE, OSC, RE-ENTRY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).json](1979%20-%20481-01-001%20-%20M481B%20CUE%2C%20OSC%2C%20RE-ENTRY%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 481-01-001 - M481B CUE, OSC, RE-ENTRY MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

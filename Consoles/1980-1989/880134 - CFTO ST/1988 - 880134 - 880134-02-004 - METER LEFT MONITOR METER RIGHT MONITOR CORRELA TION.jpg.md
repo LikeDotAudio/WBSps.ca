@@ -11,6 +11,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,206,820 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 171 rings, 2,529 straight (6,506 mm) / 374 curved (581 mm); text 386 rings, 2,436 straight (2,504 mm) / 785 curved (1,082 mm)
+- **Centre lines:** 3,813 paths (62 closed); straight 5,270 mm, curved 249 mm; horizontal 2,013 mm, vertical 1,685 mm, diagonal 1,573 mm
+- **Circles and arcs:** 7 circles, 39 arcs; largest r 1.4 @ (244.5, 312.2), r 1.4 @ (244.2, 354.3), r 1.3 @ (244.4, 320.0), r 1.3 @ (244.2, 362.1)
+- **Words (OCR):** 73 in 66 lines: MASTER CHANNEL · (M1 M2 CHANNELS · ARE IDENTICAL) · P1 · P2 · 10,L · W15 X15 · TB2 · MONO · 9,10 · 49,50 MONO · (51)
+- **Wiring (first pass):** 34 connected wire groups from 217 runs; labelled ends: 764 mm → M2 CHANNELS, P1, 9,10, 1,2; 474 mm → W15, M2 CHANNELS, P1, 9,10; 231 mm → 8,J; 148 mm → METER, 8,J; 144 mm → 11,M, MONITOR, METER, 8,J
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-004 - METER LEFT MONITOR METER RIGHT MONITOR CORRELA TION (traced).json](1988%20-%20880134%20-%20880134-02-004%20-%20METER%20LEFT%20MONITOR%20METER%20RIGHT%20MONITOR%20CORRELA%20TION%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-004 - METER LEFT MONITOR METER RIGHT MONITOR CORRELA TION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

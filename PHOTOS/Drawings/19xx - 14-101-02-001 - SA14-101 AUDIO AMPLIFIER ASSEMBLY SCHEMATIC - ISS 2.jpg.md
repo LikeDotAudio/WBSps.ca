@@ -22,6 +22,20 @@ SA14-101 audio amplifier assembly schematic.
 - **Size:** 310,732 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-101-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 16–416 mm up
+- **Outlines:** line 283 rings, 5,332 straight (9,138 mm) / 1,061 curved (1,562 mm); text 402 rings, 3,275 straight (3,221 mm) / 1,065 curved (1,436 mm); tb 2 rings, 81 straight (155 mm) / 2 curved (3.6 mm)
+- **Centre lines:** 6,462 paths (65 closed); straight 7,510 mm, curved 364 mm; horizontal 2,564 mm, vertical 2,124 mm, diagonal 2,822 mm
+- **Circles and arcs:** 3 circles, 72 arcs; largest r 5.1 @ (183.7, 311.0), r 4.9 @ (179.8, 217.0), r 1.2 @ (25.0, 100.7)
+- **Closed boxes:** 2
+- **Words (OCR):** 116 in 109 lines: Rs} · 6k8 · IOM · TN40j6 · 620 · R47 · IPz98 · LMZOIAN · Cz5 · 22X · 147 · R49
+- **Title block:** (205, 50)–(332, 75) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 63 connected wire groups from 428 runs; labelled ends: 490 mm → Czz, Jy/1O, RJZ, J9K; 291 mm → Cz5, Cz6, I50, Rso; 194 mm → Rz6, ISk, c16, 4p7; 177 mm → R61, I50, Rso, Cjo; 127 mm → 22X, Rs7, JkG, PNJ569
+
+Every curve, box, word and wire group: [19xx - 14-101-02-001 - SA14-101 AUDIO AMPLIFIER ASSEMBLY SCHEMATIC - ISS 2 (traced).json](19xx%20-%2014-101-02-001%20-%20SA14-101%20AUDIO%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 14-101-02-001 - SA14-101 AUDIO AMPLIFIER ASSEMBLY SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

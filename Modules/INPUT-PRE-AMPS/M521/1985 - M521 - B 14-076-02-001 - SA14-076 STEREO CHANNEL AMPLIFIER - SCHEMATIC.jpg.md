@@ -12,6 +12,19 @@ Wiki page: [M521](../../../PAGES/M521.md)
 - **Size:** 5,267,084 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-076-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–432 mm across, 0–289 mm up
+- **Outlines:** line 943 rings, 8,549 straight (11,865 mm) / 1,916 curved (2,258 mm); text 169 rings, 1,045 straight (995 mm) / 344 curved (437 mm)
+- **Centre lines:** 9,326 paths (234 closed); straight 7,832 mm, curved 106 mm; horizontal 2,680 mm, vertical 2,095 mm, diagonal 3,057 mm
+- **Circles and arcs:** 2 circles, 18 arcs; largest r 3.2 @ (135.8, 221.5), r 3.1 @ (136.4, 134.8)
+- **Closed boxes:** 1
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 94 connected wire groups from 731 runs
+
+Every curve, box, word and wire group: [1985 - M521 - B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC (traced).json](1985%20-%20M521%20-%20B%2014-076-02-001%20-%20SA14-076%20STEREO%20CHANNEL%20AMPLIFIER%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M521 - B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

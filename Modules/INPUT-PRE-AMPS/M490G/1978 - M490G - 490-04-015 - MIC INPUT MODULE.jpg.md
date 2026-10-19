@@ -11,6 +11,17 @@ Wiki page: [M490G](../../../PAGES/M490G.md)
 - **Size:** 210,802 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-015, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 2–425 mm up
+- **Outlines:** line 71 rings, 2,343 straight (7,139 mm) / 206 curved (342 mm); text 435 rings, 3,936 straight (5,264 mm) / 964 curved (1,596 mm); tb 20 rings, 216 straight (381 mm) / 28 curved (38.2 mm)
+- **Closed boxes:** 56 (8 in the title block); named: Al 1; ci 3; Dl 4; El 5; Fl 6; HI 7; Llio; M/11; n/12; Pl13; R/14; s/15
+- **Words (OCR):** 94 in 62 lines: P2 · Al 1 MiC B · NC · NC · ci 3 · Mlc A · NC Dl 4 NC · RT · El 5 INSERT · RT · Fl 6 INSERT · RT
+- **Title block:** (122, 8)–(338, 110) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN: PA · M49oG · ENG. PA · MiC INPUT · MODULE · CKD · CONNECTOR REAR VIEW · APP · SCALE · ISSUE · 490-04-015
+
+Every curve, box, word and wire group: [1978 - M490G - 490-04-015 - MIC INPUT MODULE (traced).json](1978%20-%20M490G%20-%20490-04-015%20-%20MIC%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1978 - M490G - 490-04-015 - MIC INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

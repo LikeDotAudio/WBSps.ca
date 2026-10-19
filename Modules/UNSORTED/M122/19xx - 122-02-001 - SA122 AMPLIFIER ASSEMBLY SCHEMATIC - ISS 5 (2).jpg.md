@@ -22,6 +22,21 @@ SA122 amplifier assembly schematic.
 - **Size:** 355,455 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 122-02-001, size B 432 × 240 mm, 2000 × 1112 px traced (0.216 mm/px)
+- **Ink extent:** 5–332 mm across, 7–219 mm up
+- **Outlines:** line 485 rings, 5,439 straight (10,121 mm) / 1,148 curved (1,429 mm); text 124 rings, 814 straight (758 mm) / 246 curved (302 mm); tb 2 rings, 41 straight (87.2 mm) / 2 curved (2.3 mm)
+- **Centre lines:** 5,742 paths (123 closed); straight 6,321 mm, curved 242 mm; horizontal 1,919 mm, vertical 2,569 mm, diagonal 1,833 mm
+- **Circles and arcs:** 5 circles, 28 arcs; largest r 3.5 @ (69.6, 151.7), r 3.5 @ (271.0, 91.2), r 3.5 @ (270.7, 153.8), r 3.3 @ (296.4, 136.5)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 20 in 19 lines: 21/0] · 74zioz · 2N2i0z · 348819 · 1107 · Vzw · aPUT · [70/1 · cutput · 7L0J7 · 77/61 · ShIFLO
+- **Title block:** (258, 30)–(340, 44) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 50 connected wire groups from 430 runs; labelled ends: 273 mm → 74zioz; 246 mm → 7L0J7; 132 mm → [70/1; 129 mm → 348819; 123 mm → 21/0]
+
+Every curve, box, word and wire group: [19xx - 122-02-001 - SA122 AMPLIFIER ASSEMBLY SCHEMATIC - ISS 5 (2) (traced).json](19xx%20-%20122-02-001%20-%20SA122%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%205%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 122-02-001 - SA122 AMPLIFIER ASSEMBLY SCHEMATIC - ISS 5 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

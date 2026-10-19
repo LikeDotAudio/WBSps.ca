@@ -11,6 +11,18 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 558,417 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 456-04-009, size B (assumed) 425 × 432 mm, 1970 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 12–425 mm across, 2–418 mm up
+- **Outlines:** line 310 rings, 3,389 straight (10,091 mm) / 570 curved (759 mm); text 1,407 rings, 7,520 straight (6,829 mm) / 3,080 curved (4,054 mm); tb 306 rings, 3,171 straight (6,968 mm) / 510 curved (877 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 1.0 @ (68.1, 130.1), r 1.0 @ (92.3, 233.6), r 1.0 @ (92.2, 154.4), r 1.0 @ (68.0, 209.5)
+- **Closed boxes:** 9; named: MonITOR ASS IGNMENT swi tches 5w9 Swio, ; Sw7 : REV SEND with Sw i tch depressed t; REV SEND LEVEL control R68 Control RS1 p; REV SEND switch Sk6 with depressed switc; FOLDBACK LEVEL R7 1 Controls ade leve ch; FOLDBACK tch SL With switch depressed i5; PAN controi RBL R87 Pos tions channe as$; depressed_ PAN tch Sw} When enab les PAN; SOLO tch SwZ: with Ech depressed Swi fed
+- **Words (OCR):** 226 in 128 lines: WBS · M4sob · MonITOR ASS IGNMENT swi tches 5w9 Swio, Swi · and Swi2 Wnen dep esse0 · fed · summing · resistors · che output gna · externa · MOm · buses · SYNC Switch
+- **Title block:** (213, 0)–(425, 422) mm: WBS · M4sob · RS2 · Channe · sect · ion: · controls operate · anner · cent ical channe · ISSUE DATE · REVISION · WBS · WARD-BECk SySTEMS · ChON Ch ON · M4568 · ENG_ · DUAL MIXDOWN MODULE · CKD · RL · 
+
+Every curve, box, word and wire group: [1975 - M456B - 456-04-009 - SWITCH SWI WHEN DEPRESSED ACTIVATES CHANNE OUTPUT CIRCUITS (traced).json](1975%20-%20M456B%20-%20456-04-009%20-%20SWITCH%20SWI%20WHEN%20DEPRESSED%20ACTIVATES%20CHANNE%20OUTPUT%20CIRCUITS%20%28traced%29.json) (the CAD file: `1975 - M456B - 456-04-009 - SWITCH SWI WHEN DEPRESSED ACTIVATES CHANNE OUTPUT CIRCUITS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

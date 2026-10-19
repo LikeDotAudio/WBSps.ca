@@ -23,6 +23,19 @@ Field communications system turret layouts with title block at bottom right.
 - **Size:** 572,054 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 94063-04-001, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 76–848 mm across, 15–514 mm up
+- **Outlines:** line 796 rings, 4,649 straight (30,826 mm) / 1,052 curved (3,015 mm); text 273 rings, 1,664 straight (3,502 mm) / 486 curved (1,251 mm); tb 108 rings, 856 straight (5,875 mm) / 170 curved (460 mm)
+- **Circles and arcs:** 42 circles, 0 arcs; largest r 8.4 @ (306.3, 235.4), r 8.3 @ (260.5, 344.6), r 8.2 @ (511.4, 447.8), r 3.9 @ (239.7, 94.0)
+- **Closed boxes:** 56 (2 in the title block); named: speveeR TALKJACK HEADSET; NTS; pISc No:; 94063-04-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 36 in 28 lines: speveeR · TALKJACK · HEADSET · TOPVIEW · SPEAKER · LEVEL · HEAOSET · WBS · TOP MEW · FRONT · FRONT · LARGE TURRET M0Co
+- **Title block:** (303, 47)–(861, 318) mm: WBS · FRONT · TXPICAL SIDE MIEW · TURRETI · ISSUL DaTC · WBS · WARD-BECK  SYSTEMS · CBC REGINA
+
+Every curve, box, word and wire group: [1994 - 94063-04-001 - CBC REGINA FIELD COMMUNICATIONS SYSTEM TURRET LAYOUTS - DRN DRG - ISS 2 (traced).json](1994%20-%2094063-04-001%20-%20CBC%20REGINA%20FIELD%20COMMUNICATIONS%20SYSTEM%20TURRET%20LAYOUTS%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1994 - 94063-04-001 - CBC REGINA FIELD COMMUNICATIONS SYSTEM TURRET LAYOUTS - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

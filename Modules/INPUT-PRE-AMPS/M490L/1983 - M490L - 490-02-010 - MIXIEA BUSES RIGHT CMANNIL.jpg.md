@@ -11,6 +11,20 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 452,663 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-010, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–426 mm up
+- **Outlines:** line 974 rings, 16,402 straight (25,330 mm) / 3,388 curved (5,057 mm); text 352 rings, 2,570 straight (2,502 mm) / 938 curved (1,305 mm)
+- **Centre lines:** 11,553 paths (95 closed); straight 16,529 mm, curved 507 mm; horizontal 6,980 mm, vertical 4,436 mm, diagonal 5,113 mm
+- **Circles and arcs:** 11 circles, 97 arcs; largest r 5.7 @ (188.5, 91.0), r 5.7 @ (266.8, 135.4), r 5.6 @ (267.1, 107.3), r 1.8 @ (160.7, 288.1)
+- **Closed boxes:** 31; named: Cdoic; Zio 74676; WbS; M490l Stereo iNFut Module schematic; Issu; 490-02-010
+- **Dots (junctions):** 3
+- **Words (OCR):** 94 in 83 lines: 5w3 · BALANCE · OUTPUT} To · Mixia · Right · 842 · 7p1-3 · Pi-1 · Pem 2 · F8z · crZ · ioor
+- **Wiring (first pass):** 235 connected wire groups from 1,338 runs, 2 dotted junctions; labelled ends: 224 mm → 3125, Ae, 0/25; 222 mm → 15; 220 mm → WbS; 202 mm → 299/83, WbS, Czo cha~Ger; 174 mm → 55
+
+Every curve, box, word and wire group: [1983 - M490L - 490-02-010 - MIXIEA BUSES RIGHT CMANNIL (traced).json](1983%20-%20M490L%20-%20490-02-010%20-%20MIXIEA%20BUSES%20RIGHT%20CMANNIL%20%28traced%29.json) (the CAD file: `1983 - M490L - 490-02-010 - MIXIEA BUSES RIGHT CMANNIL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

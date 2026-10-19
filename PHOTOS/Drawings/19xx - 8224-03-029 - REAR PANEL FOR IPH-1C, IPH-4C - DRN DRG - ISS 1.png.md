@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,078,149 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-029, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 443
+- **Ink extent:** 64–431 mm across, 3–298 mm up
+- **Outlines:** line 128 rings, 1,574 straight (6,112 mm) / 213 curved (450 mm); text 631 rings, 3,962 straight (4,784 mm) / 1,336 curved (1,937 mm); tb 4 rings, 97 straight (212 mm) / 6 curved (10.5 mm)
+- **Centre lines:** 4,215 paths (96 closed); straight 6,580 mm, curved 196 mm; horizontal 2,671 mm, vertical 1,530 mm, diagonal 2,379 mm
+- **Circles and arcs:** 3 circles, 7 arcs; largest r 9.9 @ (188.4, 168.0), r 9.9 @ (239.4, 167.9), r 9.8 @ (99.2, 95.6)
+- **Closed boxes:** 14 (10 in the title block); named: SCALE; 8224-03-029; ISSUE; CODE: 8224M29
+- **Words (OCR):** 75 in 50 lines: 3.750 · 0.257 · 3.236 · 0.110 DIA & C'SK 82" · To 0.175 DIA · 4 PLACES · 0.375 · 0.825 · 0.900 · 1.650 · 0.10 RAD · TYP (TO MATCH END CAPS
+- **Title block:** (250, 16)–(420, 83) mm: ISSUE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN_ DRG · REAR PANEL · ENG · FOR IPH-1C, IPH-4C · CKD: · APP_ · SCALE DISC NO: 443 · ISSUE · 8224-03-029 · CODE: 8224M29
+
+Every curve, box, word and wire group: [19xx - 8224-03-029 - REAR PANEL FOR IPH-1C, IPH-4C - DRN DRG - ISS 1 (traced).json](19xx%20-%208224-03-029%20-%20REAR%20PANEL%20FOR%20IPH-1C%2C%20IPH-4C%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 8224-03-029 - REAR PANEL FOR IPH-1C, IPH-4C - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

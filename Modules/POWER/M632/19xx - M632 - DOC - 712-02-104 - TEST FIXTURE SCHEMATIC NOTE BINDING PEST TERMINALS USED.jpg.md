@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,851,159 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 712-02-104, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 2–136 mm up
+- **Outlines:** line 548 rings, 5,344 straight (11,022 mm) / 1,210 curved (1,512 mm); text 196 rings, 1,172 straight (1,078 mm) / 380 curved (480 mm); tb 2 rings, 31 straight (93.4 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 7,089 paths (161 closed); straight 7,445 mm, curved 102 mm; horizontal 3,510 mm, vertical 1,672 mm, diagonal 2,262 mm
+- **Circles and arcs:** 2 circles, 28 arcs; largest r 2.0 @ (279.6, 109.1), r 0.8 @ (342.1, 116.9)
+- **Closed boxes:** 14; named: MuZB; Ktiza/t Test FIXTuRE SCHEMATIC; 7/2-02-104
+- **Dots (junctions):** 1
+- **Words (OCR):** 28 in 27 lines: H63z POWER SUPPLY CONNECTORS · o"' *0 · +8 d37 · TALLY · 238 · 01240 · 48 4-432 · 813 79 · REGLLATES · 31 · MuZB · CCARLG
+- **Title block:** (356, 22)–(432, 31) mm: WBS · WARD-BeCK sYsTEMS
+- **Wiring (first pass):** 74 connected wire groups from 463 runs; labelled ends: 283 mm → L k k; 226 mm → o"' *0, 238, 813 79, Hyer; 97 mm → 238, 813 79; 77 mm → WBS; 57 mm → WBS, WARD-BeCK sYsTEMS
+
+Every curve, box, word and wire group: [19xx - M632 - DOC - 712-02-104 - TEST FIXTURE SCHEMATIC NOTE BINDING PEST TERMINALS USED (traced).json](19xx%20-%20M632%20-%20DOC%20-%20712-02-104%20-%20TEST%20FIXTURE%20SCHEMATIC%20NOTE%20BINDING%20PEST%20TERMINALS%20USED%20%28traced%29.json) (the CAD file: `19xx - M632 - DOC - 712-02-104 - TEST FIXTURE SCHEMATIC NOTE BINDING PEST TERMINALS USED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

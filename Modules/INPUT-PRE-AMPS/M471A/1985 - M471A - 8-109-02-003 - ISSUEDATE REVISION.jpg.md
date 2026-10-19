@@ -11,6 +11,21 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 282,298 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8-109-02-003, size B (assumed) 432 × 319 mm, 2000 × 1479 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–301 mm up
+- **Outlines:** line 305 rings, 4,020 straight (10,501 mm) / 771 curved (1,109 mm); text 446 rings, 2,786 straight (2,604 mm) / 964 curved (1,254 mm); tb 23 rings, 219 straight (244 mm) / 63 curved (75.1 mm)
+- **Centre lines:** 6,172 paths (99 closed); straight 7,638 mm, curved 362 mm; horizontal 2,991 mm, vertical 2,104 mm, diagonal 2,544 mm
+- **Circles and arcs:** 7 circles, 62 arcs; largest r 4.3 @ (220.7, 265.9), r 4.3 @ (159.0, 257.7), r 4.2 @ (190.3, 272.9), r 4.2 @ (221.2, 210.2)
+- **Closed boxes:** 8 (4 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 103 in 102 lines: E3 · +2i.5Y · C3 · olzs · Ri7 · Ris · 4k7 · 22 · 02 · Pn3C+5 · 2n2i02 · 03
+- **Title block:** (347, 0)–(432, 36) mm: REviSIOM · WBS WARD-Beck syBtenS · 8 - 109 8 · ENG MrW · booster AMPLIFIER · SCHEMATIC · SCALE · 8-109 - · 02-003
+- **Wiring (first pass):** 53 connected wire groups from 391 runs; labelled ends: 205 mm → E3, Ris, 22, Ri7; 197 mm → R2s, 4k7; 161 mm → Lk2; 147 mm → R32, 6.8, R35, R33; 147 mm → Rzo, 6*8, R34, R3i
+
+Every curve, box, word and wire group: [1985 - M471A - 8-109-02-003 - ISSUEDATE REVISION (traced).json](1985%20-%20M471A%20-%208-109-02-003%20-%20ISSUEDATE%20REVISION%20%28traced%29.json) (the CAD file: `1985 - M471A - 8-109-02-003 - ISSUEDATE REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

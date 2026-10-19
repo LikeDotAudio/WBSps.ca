@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,260,323 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940184-03-006, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 40–420 mm across, 7–236 mm up
+- **Outlines:** line 308 rings, 3,165 straight (7,880 mm) / 539 curved (648 mm); text 244 rings, 1,407 straight (1,359 mm) / 480 curved (614 mm); tb 15 rings, 141 straight (165 mm) / 33 curved (39.8 mm)
+- **Centre lines:** 5,447 paths (102 closed); straight 5,735 mm, curved 4.2 mm; horizontal 2,223 mm, vertical 1,343 mm, diagonal 2,168 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 8 (2 in the title block); named: TURRET BASE (MEDIUM)
+- **Words (OCR):** 27 in 23 lines: MATERIAL · CR,S; UOSE · THIC * · 0.153 · RAD(S) · MATERIAL: CRS 0.10s Thick; · 200] · REC D · 0.560 · 0,500 · MATERIAL: SEE BODY OF DRAWING. · FINISH: SAND 120 Grit AND PAINT
+- **Title block:** (341, 23)–(426, 40) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940184-03-006 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20DOC%20-%20940184-03-006%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940184-03-006 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

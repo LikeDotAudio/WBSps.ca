@@ -12,6 +12,20 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 31,874,295 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 520-01-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 2–279 mm up
+- **Outlines:** line 942 rings, 8,018 straight (14,791 mm) / 1,161 curved (1,361 mm); text 122 rings, 927 straight (814 mm) / 217 curved (276 mm); tb 43 rings, 310 straight (314 mm) / 83 curved (108 mm)
+- **Centre lines:** 7,904 paths (115 closed); straight 8,497 mm, curved 104 mm; horizontal 3,789 mm, vertical 2,324 mm, diagonal 2,384 mm
+- **Circles and arcs:** 4 circles, 18 arcs; largest r 1.9 @ (93.9, 88.8), r 0.7 @ (132.1, 107.5), r 0.7 @ (344.8, 128.9), r 0.7 @ (101.9, 83.9)
+- **Closed boxes:** 24 (13 in the title block); named: contrOL
+- **Words (OCR):** 21 in 19 lines: POmEA · dct · JACES · WSERT · ABPLSTEER · RchT · Ec0 ChMS · prefade · HIGhT · richT · contrOL · ight
+- **Title block:** (356, 1)–(432, 40) mm: DATE · WBS WARD-BECK SySteMB · MFR?" MODULE · MONO · FUNCTIOUA DUAGEAM · SCALE
+- **Wiring (first pass):** 152 connected wire groups from 753 runs; labelled ends: 166 mm → ABPLSTEER; 36 mm → prefade; 12 mm → ABPLSTEER; 9 mm → RchT; 8 mm → richT
+
+Every curve, box, word and wire group: [1988 - M520 - 520-01-002 - AUX AUX PRE-POST AUX AUX (traced).json](1988%20-%20M520%20-%20520-01-002%20-%20AUX%20AUX%20PRE-POST%20AUX%20AUX%20%28traced%29.json) (the CAD file: `1988 - M520 - 520-01-002 - AUX AUX PRE-POST AUX AUX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

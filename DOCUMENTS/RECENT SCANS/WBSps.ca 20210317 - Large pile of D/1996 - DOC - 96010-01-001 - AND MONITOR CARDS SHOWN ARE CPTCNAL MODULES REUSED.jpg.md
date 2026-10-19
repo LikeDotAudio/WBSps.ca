@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 26,825,256 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 96010-01-001, size B (assumed) 432 × 275 mm, 2000 × 1273 px traced (0.216 mm/px); scale DSC ' 0
+- **Ink extent:** 23–416 mm across, 2–250 mm up
+- **Outlines:** line 6,068 rings, 40,350 straight (51,786 mm) / 11,134 curved (19,094 mm); text 201 rings, 1,186 straight (1,082 mm) / 338 curved (428 mm); tb 49 rings, 312 straight (300 mm) / 76 curved (84.0 mm)
+- **Centre lines:** 66,090 paths (362 closed); straight 46,713 mm, curved 157 mm; horizontal 18,088 mm, vertical 17,508 mm, diagonal 11,117 mm
+- **Circles and arcs:** 184 circles, 57 arcs; largest r 1.7 @ (113.6, 182.7), r 1.7 @ (76.0, 182.6), r 1.7 @ (119.8, 182.8), r 1.7 @ (166.9, 133.0)
+- **Closed boxes:** 776 (12 in the title block)
+- **Dots (junctions):** 1170
+- **Words (OCR):** 26 in 24 lines: LEIND · HORUALLI · 2 PUTPURS) · Tb · Dp · SECTUNSR · Tp · Tn · Frco> Ll · Mottn · NOTE · RESC
+- **Title block:** (335, 1)–(421, 34) mm: RESC · WBS · WARD-BECK SYSTEMS · CBC OTTAWA · SYSTEM · INTERCOM FUNCTIONAL · SCALE DSC ' 0 · CODE · 96010-01-001
+- **Wiring (first pass):** 147 connected wire groups from 11,106 runs, 1869 dotted junctions; labelled ends: 22144 mm → Tb, Tp, Tn; 348 mm → Tb, Tn; 198 mm → Tb; 157 mm → Tb; 16 mm → Mottn
+
+Every curve, box, word and wire group: [1996 - DOC - 96010-01-001 - AND MONITOR CARDS SHOWN ARE CPTCNAL MODULES REUSED (traced).json](1996%20-%20DOC%20-%2096010-01-001%20-%20AND%20MONITOR%20CARDS%20SHOWN%20ARE%20CPTCNAL%20MODULES%20REUSED%20%28traced%29.json) (the CAD file: `1996 - DOC - 96010-01-001 - AND MONITOR CARDS SHOWN ARE CPTCNAL MODULES REUSED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

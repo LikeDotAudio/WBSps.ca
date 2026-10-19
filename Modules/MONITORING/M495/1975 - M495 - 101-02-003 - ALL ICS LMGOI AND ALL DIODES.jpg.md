@@ -11,6 +11,18 @@ Wiki page: [M495](../../../PAGES/M495.md)
 - **Size:** 2,160,094 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 101-02-003, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 383 rings, 5,932 straight (8,202 mm) / 902 curved (1,146 mm); text 355 rings, 4,022 straight (5,568 mm) / 981 curved (1,711 mm)
+- **Centre lines:** 9,511 paths (74 closed); straight 9,232 mm, curved 65.9 mm; horizontal 2,628 mm, vertical 1,702 mm, diagonal 4,902 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 1.6 @ (279.8, 305.4)
+- **Words (OCR):** 55 in 47 lines: R8 · +18v I8k · R5I · 33/10 · 18k · 21 · R1O · 620 · 18v · Ri · RG · C4
+- **Wiring (first pass):** 42 connected wire groups from 184 runs; labelled ends: 170 mm → R8, +18v I8k, 21, R5I; 158 mm → R7, 620, +18vl, 22; 99 mm → C2, R52, Isk, 33/10; 92 mm → R2, 47k, C2, 33/10; 92 mm → 33/10, Ri, 47k
+
+Every curve, box, word and wire group: [1975 - M495 - 101-02-003 - ALL ICS LMGOI AND ALL DIODES (traced).json](1975%20-%20M495%20-%20101-02-003%20-%20ALL%20ICS%20LMGOI%20AND%20ALL%20DIODES%20%28traced%29.json) (the CAD file: `1975 - M495 - 101-02-003 - ALL ICS LMGOI AND ALL DIODES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

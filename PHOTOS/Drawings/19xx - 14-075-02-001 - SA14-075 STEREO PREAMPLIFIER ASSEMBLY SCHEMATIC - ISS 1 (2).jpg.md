@@ -22,6 +22,19 @@ SA14-075 stereo preamplifier assembly schematic.
 - **Size:** 476,833 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-075-02-001, size B 432 × 310 mm, 2000 × 1434 px traced (0.216 mm/px)
+- **Ink extent:** 14–430 mm across, 4–295 mm up
+- **Outlines:** line 1,261 rings, 11,283 straight (13,611 mm) / 2,883 curved (3,369 mm); text 264 rings, 1,893 straight (1,749 mm) / 566 curved (735 mm); tb 2 rings, 52 straight (121 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 11,969 paths (223 closed); straight 9,643 mm, curved 202 mm; horizontal 2,894 mm, vertical 2,441 mm, diagonal 4,308 mm
+- **Circles and arcs:** 3 circles, 73 arcs; largest r 3.1 @ (227.7, 122.2), r 1.0 @ (212.7, 217.9), r 0.7 @ (71.5, 50.5)
+- **Words (OCR):** 40 in 40 lines: Filter · Sni · 1ojk · 15j/6 · 10/25 · Leet · 6204 · 1J3/10 · I02 · PREARP · I0/75 · sensitivity
+- **Title block:** (330, 31)–(432, 49) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 126 connected wire groups from 954 runs; labelled ends: 170 mm → 1J3/10; 117 mm → Sni, 1J3/10; 104 mm → L7/15, 0.iCo, 0.!/100; 98 mm → 47/25; 95 mm → 38, 10/25
+
+Every curve, box, word and wire group: [19xx - 14-075-02-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY SCHEMATIC - ISS 1 (2) (traced).json](19xx%20-%2014-075-02-001%20-%20SA14-075%20STEREO%20PREAMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `19xx - 14-075-02-001 - SA14-075 STEREO PREAMPLIFIER ASSEMBLY SCHEMATIC - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

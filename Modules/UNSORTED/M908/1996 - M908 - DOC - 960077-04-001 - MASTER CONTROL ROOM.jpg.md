@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,006,650 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960077-04-001, size B (assumed) 432 × 334 mm, 2000 × 1547 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 28–415 mm across, 13–321 mm up
+- **Outlines:** line 1,473 rings, 10,762 straight (33,686 mm) / 1,442 curved (1,888 mm); text 385 rings, 2,400 straight (2,513 mm) / 795 curved (1,056 mm); tb 19 rings, 366 straight (1,832 mm) / 5 curved (7.8 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 6.4 @ (355.7, 105.0), r 6.4 @ (355.6, 130.3), r 1.8 @ (357.7, 132.7), r 1.8 @ (357.8, 107.2)
+- **Closed boxes:** 225; named: M908; M9o7; M9OSA Cl HeADphoNE HCHMOR; M9O1C CH ON; MGO1A CH ON; M9OIA; M9O1C; M9OIA; M9O1A 70; M9O1A 50; M9O1A 79 CH ON; MGOIA 70
+- **Dots (junctions):** 15
+- **Words (OCR):** 71 in 59 lines: CD2 · GG · HQ · HUY · FRE · IRAA · NEWS · TAPE · TAPE 2 · HL2 · CR MON · METER
+- **Title block:** (285, 12)–(418, 68) mm: ISSUE · REVSION · APP · WBS · WARD-BECK · SYSTEMS · DRN · DRG · CFNY · ENG_ · WKW · MASTER CONTROL · ROOM · CKD. · CONSOLE · LAYOUT · APP_ · SCALE DISC NO: SYSO1 · 960077-04-001 · ISSUE · 13 CODE: 960
+
+Every curve, box, word and wire group: [1996 - M908 - DOC - 960077-04-001 - MASTER CONTROL ROOM (traced).json](1996%20-%20M908%20-%20DOC%20-%20960077-04-001%20-%20MASTER%20CONTROL%20ROOM%20%28traced%29.json) (the CAD file: `1996 - M908 - DOC - 960077-04-001 - MASTER CONTROL ROOM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

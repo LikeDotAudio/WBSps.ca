@@ -30,6 +30,20 @@ Wiki page: [M490](../../../PAGES/M490.md)
 
 - **1978** (labelled): `DRAWN 2/78` — …ON TALLY ASSIGN Ch ON ch OFF ON /START TIMER RESET 2/ 78 REDRAWN 2/78 MACHINE CONTROls REVISEDA &/g ISSUE |DATE REVISION APP OFF…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 490-01-001, size B 432 × 258 mm, 2000 × 1194 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–248 mm up
+- **Outlines:** line 408 rings, 3,821 straight (8,590 mm) / 455 curved (629 mm); text 480 rings, 3,188 straight (3,788 mm) / 952 curved (1,419 mm); tb 7 rings, 104 straight (238 mm) / 13 curved (17.7 mm)
+- **Centre lines:** 4,273 paths (67 closed); straight 6,772 mm, curved 67.7 mm; horizontal 2,776 mm, vertical 1,593 mm, diagonal 2,403 mm
+- **Circles and arcs:** 2 circles, 7 arcs; largest r 3.3 @ (173.3, 99.9), r 3.0 @ (146.5, 99.7)
+- **Closed boxes:** 16 (10 in the title block); named: PGMI CUE CTL LOGIc; SCALE
+- **Words (OCR):** 71 in 61 lines: P1 LEFT · FADER · P2 LEFT · (-15dB) Ch ON · 38 · INSERT · Mic INPUTS · ~60/-30 dBm · 150 ohm · P1 · Right · SENSITIVITY
+- **Title block:** (286, 2)–(432, 83) mm: 2/ 78 · REDRAWN · 2/78 · MACHINE CONTROls REVISEDA &/g · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. GEB · M49OA · ENG.GEB 2/78 · cKD. Rxlh · Mic INPUT MODULE · APP 2n5-t · FUNCTIONAL 
+- **Wiring (first pass):** 145 connected wire groups from 391 runs; labelled ends: 163 mm → PGMI, CUE, CTL, LOGIc; 98 mm → INSERT, (-15dB); 38 mm → 38; 37 mm → CUE; 26 mm → 38, SENSITIVITY
+
+Every curve, box, word and wire group: [1978 - 490-01-001 - M490A MIC INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (2) (traced).json](1978%20-%20490-01-001%20-%20M490A%20MIC%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1978 - 490-01-001 - M490A MIC INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

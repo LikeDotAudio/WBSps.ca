@@ -11,6 +11,17 @@ Wiki page: [Job-77038](../../../PAGES/Job-77038.md)
 - **Size:** 36,733,452 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 77038-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–279 mm up
+- **Outlines:** line 508 rings, 5,304 straight (14,835 mm) / 456 curved (662 mm); text 45 rings, 438 straight (428 mm) / 124 curved (176 mm); tb 23 rings, 213 straight (228 mm) / 42 curved (43.7 mm)
+- **Closed boxes:** 41 (8 in the title block); named: 77038-04-002
+- **Words (OCR):** 5 in 4 lines: WBS WAAD-DeCK systeMS · WBS L3242  CONSOLE · AUDIO CONSOLE OUTLINE · 77038-04-002
+- **Title block:** (358, 7)–(432, 32) mm: WBS WAAD-DeCK systeMS · WBS L3242  CONSOLE · AUDIO CONSOLE OUTLINE
+
+Every curve, box, word and wire group: [1977 - 77038 - 77038-04-002 - CONSOLE AUDIO CONSOLE OUTLINE (traced).json](1977%20-%2077038%20-%2077038-04-002%20-%20CONSOLE%20AUDIO%20CONSOLE%20OUTLINE%20%28traced%29.json) (the CAD file: `1977 - 77038 - 77038-04-002 - CONSOLE AUDIO CONSOLE OUTLINE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

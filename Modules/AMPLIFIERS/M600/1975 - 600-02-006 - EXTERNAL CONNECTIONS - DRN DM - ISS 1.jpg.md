@@ -23,6 +23,21 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 3,845,567 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-006, size B 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–137 mm up
+- **Outlines:** line 807 rings, 6,321 straight (12,329 mm) / 1,182 curved (1,448 mm); text 561 rings, 3,008 straight (2,962 mm) / 1,025 curved (1,304 mm); tb 35 rings, 253 straight (325 mm) / 60 curved (72.1 mm)
+- **Centre lines:** 9,601 paths (254 closed); straight 9,621 mm, curved 121 mm; horizontal 3,296 mm, vertical 2,727 mm, diagonal 3,599 mm
+- **Circles and arcs:** 4 circles, 33 arcs; largest r 1.6 @ (202.4, 58.8), r 1.4 @ (202.0, 87.7), r 1.3 @ (386.4, 43.5), r 1.1 @ (213.4, 62.4)
+- **Closed boxes:** 44 (21 in the title block); named: Is0n CUTPUT Soon OUT PUT From G4in Frch ; CuT OUT . W2 Out 4 7600 CONNECTOR Mis7 L; Soo-O2-006
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 55 lines: 54J8 · JNEUT · TeRMinATiON · Coon · CuT · Soon OUT PUT · Is0n CUTPUT · OUT . · MGOO · W2 · Out 4 · LINE
+- **Title block:** (291, 6)–(428, 30) mm: MOD CKD · WBS WARD-BECK BysTEME LTD_ · Meoo · EXTERNAL CONNECTIONS · SCALE · Soo-O2-006
+- **Wiring (first pass):** 85 connected wire groups from 539 runs; labelled ends: 206 mm → MGOO, Mi57 N? 2; 84 mm → Is0n CUTPUT; 54 mm → 54J8, MGOO, (-2848); 51 mm → MGOO; 50 mm → M6OO
+
+Every curve, box, word and wire group: [1975 - 600-02-006 - EXTERNAL CONNECTIONS - DRN DM - ISS 1 (traced).json](1975%20-%20600-02-006%20-%20EXTERNAL%20CONNECTIONS%20-%20DRN%20DM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1975 - 600-02-006 - EXTERNAL CONNECTIONS - DRN DM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

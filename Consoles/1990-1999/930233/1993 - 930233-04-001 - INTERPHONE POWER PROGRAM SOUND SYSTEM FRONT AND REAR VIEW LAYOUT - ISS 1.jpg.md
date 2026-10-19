@@ -21,6 +21,19 @@ Front and rear view layout of a rack-mount interphone power/program sound system
 - **Size:** 1,231,938 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 930233-04-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–299 mm up
+- **Outlines:** line 619 rings, 5,549 straight (16,457 mm) / 1,043 curved (2,164 mm); text 347 rings, 2,449 straight (2,369 mm) / 869 curved (1,101 mm); tb 2 rings, 36 straight (97.0 mm) / 0 curved (0.0 mm)
+- **Circles and arcs:** 31 circles, 0 arcs; largest r 6.6 @ (261.7, 72.3), r 6.5 @ (117.2, 72.0), r 6.5 @ (333.7, 72.4), r 6.5 @ (189.1, 72.2)
+- **Closed boxes:** 29; named: PS2 CAUTION DISCONNECT POrER BEFORE INSE; PUSHJ
+- **Dots (junctions):** 5
+- **Words (OCR):** 51 in 47 lines: FRONT VIEW · PS2 · CAUTION · DISCONNECT POrER BEFORE INSERTINS · OR EXTRACTING · SUPPLY MODULES · V-ADJ · V-ADJ · POWER  SUPPLIES · REAR VIEW · CAUTION · AC POWER
+- **Title block:** (334, 26)–(423, 43) mm: WBS WARD-BECK SYSTEMS · INTERPHONE
+
+Every curve, box, word and wire group: [1993 - 930233-04-001 - INTERPHONE POWER PROGRAM SOUND SYSTEM FRONT AND REAR VIEW LAYOUT - ISS 1 (traced).json](1993%20-%20930233-04-001%20-%20INTERPHONE%20POWER%20PROGRAM%20SOUND%20SYSTEM%20FRONT%20AND%20REAR%20VIEW%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1993 - 930233-04-001 - INTERPHONE POWER PROGRAM SOUND SYSTEM FRONT AND REAR VIEW LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

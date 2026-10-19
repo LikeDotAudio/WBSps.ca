@@ -15,6 +15,21 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 
 - **1976** (month): `Oct 76` — …SED ON MatL . WBS WAAD-BeCK ByBtEMB LTD DRM: SEB 4-124 DaIe Oct 76 EQUALIZER Filter CKD [e SCALE AmpLiFIER SCHEMATH ToLS 4-126…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–286 mm up
+- **Outlines:** line 773 rings, 6,844 straight (12,644 mm) / 1,479 curved (1,855 mm); text 633 rings, 3,716 straight (3,659 mm) / 1,304 curved (1,745 mm); tb 24 rings, 206 straight (247 mm) / 50 curved (63.3 mm)
+- **Centre lines:** 8,771 paths (125 closed); straight 9,800 mm, curved 256 mm; horizontal 3,373 mm, vertical 2,426 mm, diagonal 4,001 mm
+- **Circles and arcs:** 10 circles, 72 arcs; largest r 1.6 @ (137.7, 169.9), r 1.5 @ (276.5, 43.1), r 1.3 @ (305.5, 282.3), r 1.2 @ (349.2, 282.3)
+- **Closed boxes:** 17 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 124 in 107 lines: (16<he, 25<42, · 6<72 · 33 · akz · 23 · Cs · 442 · 321 · Cie · 22 · :22 · caic
+- **Title block:** (343, 0)–(382, 32) mm: WBS WAAD- · DATE Pct 76 · SSCALE
+- **Wiring (first pass):** 105 connected wire groups from 707 runs; labelled ends: 393 mm → LTD, WBS, DATE; 197 mm → 233, Ok, 6<2, ed; 157 mm → 743, 6<2, R49; 149 mm → 233, Ok, R39, 620; 106 mm → 345, 2k2, 242, '065
+
+Every curve, box, word and wire group: [1976 - M460B - 4-126-02-001 - GCALE AMPLIFIER SCHEMATH (traced).json](1976%20-%20M460B%20-%204-126-02-001%20-%20GCALE%20AMPLIFIER%20SCHEMATH%20%28traced%29.json) (the CAD file: `1976 - M460B - 4-126-02-001 - GCALE AMPLIFIER SCHEMATH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

@@ -15,6 +15,19 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 
 - **1975** (labelled): `DATE FEB 75` — …3142 GEB USED ON MATL . WBS WARD-BECK SYSTEMS LTD. DRN. DM DATE FEB 75 CKD RiLL SCALE 2:1 XX TOLS_ 'XXX 5-101 DUAL BOOSTER AMPAIFI…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 432 × 335 mm, 2000 × 1552 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–326 mm up
+- **Outlines:** line 311 rings, 7,073 straight (11,533 mm) / 984 curved (1,740 mm); text 989 rings, 9,419 straight (11,087 mm) / 2,454 curved (3,963 mm); tb 50 rings, 499 straight (630 mm) / 85 curved (120 mm)
+- **Centre lines:** 10,271 paths (118 closed); straight 14,633 mm, curved 251 mm; horizontal 5,095 mm, vertical 2,762 mm, diagonal 6,776 mm
+- **Circles and arcs:** 14 circles, 25 arcs; largest r 8.4 @ (144.7, 249.8), r 8.2 @ (82.2, 250.2), r 8.1 @ (180.9, 250.3), r 5.1 @ (276.5, 101.5)
+- **Closed boxes:** 33 (29 in the title block); named: 23,; 34 LM; 2i Lm30i
+- **Words (OCR):** 132 in 106 lines: @EM 0E7 · E8 · 0E3 · E4 · R4s 23 · R22 23 · ~R23 23 · R434k7 · R444k7 · R2o4k7 · R21 4k7 · RSO
+- **Title block:** (60, 6)–(368, 71) mm: ISSMODICKD · USED ON · MATL. · WBS WAAD-BECK · DRN · DM · 5-101 · FINISH · DATEFEB · 75 · DUAL · CKD · LAYOUT · SCALE
+
+Every curve, box, word and wire group: [1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER (traced).json](1975%20-%20M456B%20-%20481-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M456B - 481-03-015 - DUAL BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

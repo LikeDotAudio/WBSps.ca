@@ -11,6 +11,19 @@ Wiki page: [M503](../../../PAGES/M503.md)
 - **Size:** 6,282,581 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring 503-09-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 24–303 mm up
+- **Outlines:** line 470 rings, 5,720 straight (9,565 mm) / 951 curved (1,339 mm); text 228 rings, 1,699 straight (1,922 mm) / 407 curved (586 mm)
+- **Centre lines:** 4,572 paths (31 closed); straight 6,602 mm, curved 238 mm; horizontal 2,522 mm, vertical 2,163 mm, diagonal 1,917 mm
+- **Circles and arcs:** 4 circles, 48 arcs; largest r 1.8 @ (59.4, 101.3), r 1.7 @ (167.8, 296.2), r 1.7 @ (73.7, 101.0), r 1.3 @ (141.7, 227.4)
+- **Closed boxes:** 16
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 83 connected wire groups from 543 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [19xx - M503 - 503-09-001 - PLACES GIVEM ANGLES (traced).json](19xx%20-%20M503%20-%20503-09-001%20-%20PLACES%20GIVEM%20ANGLES%20%28traced%29.json) (the CAD file: `19xx - M503 - 503-09-001 - PLACES GIVEM ANGLES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

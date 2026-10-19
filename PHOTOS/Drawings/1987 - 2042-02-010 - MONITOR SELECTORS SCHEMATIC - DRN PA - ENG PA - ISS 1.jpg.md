@@ -21,6 +21,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,004,418 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 2042-02-010, size B (assumed) 432 × 39 mm, 2000 × 180 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 128–422 mm across, 7–39 mm up
+- **Outlines:** line 122 rings, 946 straight (2,006 mm) / 226 curved (272 mm); text 39 rings, 240 straight (292 mm) / 87 curved (118 mm)
+- **Centre lines:** 1,361 paths (27 closed); straight 1,407 mm, curved 23.2 mm; horizontal 652 mm, vertical 323 mm, diagonal 432 mm
+- **Circles and arcs:** 1 circles, 5 arcs; largest r 1.1 @ (378.1, 22.1)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 3 connected wire groups from 88 runs
+
+Every curve, box, word and wire group: [1987 - 2042-02-010 - MONITOR SELECTORS SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](1987%20-%202042-02-010%20-%20MONITOR%20SELECTORS%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 2042-02-010 - MONITOR SELECTORS SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

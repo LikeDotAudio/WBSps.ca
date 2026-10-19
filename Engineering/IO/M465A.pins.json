@@ -1,0 +1,637 @@
+{
+ "code": "M465A",
+ "name": "Reverb Module",
+ "derived": true,
+ "variant_of": "M465",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 17,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "A",
+   "row": 1,
+   "side": "letter",
+   "signal": "DIRECT",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 1 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "B",
+   "row": 2,
+   "side": "letter",
+   "signal": "FADER",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "C",
+   "row": 3,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 3 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 3 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 4 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "IC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 4 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "REV SEND OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 5 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "REV SEND",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 5 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "REV SEND OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 6 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "REV SEND",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 6 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "H",
+   "row": 7,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 7 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 7 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "FB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "FB OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "K",
+   "row": 9,
+   "side": "letter",
+   "signal": "SOLO OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "SOLO OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "L",
+   "row": 10,
+   "side": "letter",
+   "signal": "RR OUT, DIRECT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "RR OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "FROM RR FADER",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "FROM RR",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "N",
+   "row": 12,
+   "side": "letter",
+   "signal": "FADER",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "TO RR FADER",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 12 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "RETURN IN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "RETURN IN",
+   "kind": "in",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "R",
+   "row": 14,
+   "side": "letter",
+   "signal": "RR OUT, LEFT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "RR OUT, LEFT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "OUT",
+   "kind": "out",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "NC",
+   "kind": "nc",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "25V",
+   "kind": "other",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "U",
+   "row": 17,
+   "side": "letter",
+   "signal": "24V COM",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, left of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "25V COM",
+   "kind": "ground",
+   "conf": "variant",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "b21d23a2b87d3b8af2710d3a41061269faf7ca6f357542691b36b833026b499d",
+    "file": "Modules/DYNAMICS/M465/1974 - M465 - 465-04-003 - CONNECTOR REAR VIEW CALE.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, right of the pin column",
+   "also": [],
+   "from_conf": "medium"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

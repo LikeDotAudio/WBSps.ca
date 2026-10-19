@@ -22,6 +22,19 @@ Wiki page: [M7000](../../../PAGES/M7000.md)
 - **Size:** 1,174,872 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 7000-03-035, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 0–431 mm across, 6–298 mm up
+- **Outlines:** line 102 rings, 1,961 straight (7,384 mm) / 157 curved (212 mm); text 497 rings, 3,190 straight (4,090 mm) / 1,065 curved (1,598 mm); tb 3 rings, 87 straight (206 mm) / 2 curved (2.7 mm)
+- **Centre lines:** 3,158 paths (86 closed); straight 6,689 mm, curved 38.5 mm; horizontal 3,327 mm, vertical 1,470 mm, diagonal 1,891 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 14 (10 in the title block); named: 7000-03-035; ISSUE; CODE: 7000-035
+- **Words (OCR):** 57 in 37 lines: 6.00 · 0.50 · 5.000 · 0.167 DIA · INSERT FROM OTHER · SIDE PEM S-440-2 · 2 REQ,D · 0.50 · 0.250 · 0.48 · 0.230 · #4-40 UNC 4 REQ'D
+- **Title block:** (248, 22)–(419, 90) mm: ISSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: DRG(5/95) · ENG · COVER SUPPORT · CKD · APP · SCALE DISC NO: SYSO1 · ISSUE · 1:1 CODE: 7000-035 · 7000-03-035
+
+Every curve, box, word and wire group: [1995 - 7000-03-035 - COVER SUPPORT - DRN DRG - ISS 1 (traced).json](1995%20-%207000-03-035%20-%20COVER%20SUPPORT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 7000-03-035 - COVER SUPPORT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

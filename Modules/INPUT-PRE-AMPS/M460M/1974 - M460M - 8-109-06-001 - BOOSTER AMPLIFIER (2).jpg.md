@@ -11,6 +11,18 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 1,030,024 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-001, size B (assumed) 432 × 345 mm, 2000 × 1597 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–342 mm up
+- **Outlines:** line 278 rings, 3,509 straight (9,016 mm) / 870 curved (886 mm); text 823 rings, 7,186 straight (7,798 mm) / 1,901 curved (2,267 mm); tb 108 rings, 735 straight (984 mm) / 144 curved (155 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 8.9 @ (68.2, 114.3), r 8.5 @ (67.5, 215.4), r 8.3 @ (17.1, 114.8), r 8.3 @ (16.5, 215.4)
+- **Closed boxes:** 16 (11 in the title block); named: 0E7 E26 ~CI33/10 33/ +C2 E10 341k ~c8Gep; SCALE; 8-109-06-001; ISSUE
+- **Words (OCR):** 112 in 104 lines: 0E7 · E26 · ~CI33/10 +C2 47k · 33/ · E10 · ~c8Gep · R16 22k · 341k · R2_ · 22k · 6k2 · R4 Lk?
+- **Title block:** (127, 8)–(432, 138) mm: WBS · 8-109 · z2o/i2c16 + · Ilul 84 · Ecol93 · 4017 · 4928 · ~R36 4k7_ · ~R374k7 · IISSUE DATE · REVISION · APP · E6 · WBS WARD-BECK SYSTEMS · DRN: GEB · 8 ~ 109 · ENG.MRW · 4/78 · BOOSTER · AMPLIFIER
+
+Every curve, box, word and wire group: [1974 - M460M - 8-109-06-001 - BOOSTER AMPLIFIER (2) (traced).json](1974%20-%20M460M%20-%208-109-06-001%20-%20BOOSTER%20AMPLIFIER%20%282%29%20%28traced%29.json) (the CAD file: `1974 - M460M - 8-109-06-001 - BOOSTER AMPLIFIER (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

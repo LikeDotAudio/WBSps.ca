@@ -27,6 +27,21 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1976** (labelled): `DATE Nov 76` — …OD ICKD_ USED ON MATL . WBS WARD-BECK SySTEMS LTD- DRN: ELJ DATE Nov 76 CKD SCALE TOLS T M468N Assisn MODULE SchEMaTIC FINISH B 468…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-026, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 346 rings, 5,001 straight (10,224 mm) / 903 curved (1,117 mm); text 281 rings, 1,784 straight (1,967 mm) / 604 curved (828 mm); tb 19 rings, 182 straight (410 mm) / 21 curved (26.4 mm)
+- **Centre lines:** 9,739 paths (98 closed); straight 8,640 mm, curved 202 mm; horizontal 3,611 mm, vertical 2,061 mm, diagonal 2,967 mm
+- **Circles and arcs:** 16 circles, 35 arcs; largest r 1.3 @ (115.6, 139.5), r 1.2 @ (161.8, 244.5), r 1.1 @ (122.9, 241.8), r 1.1 @ (115.8, 220.9)
+- **Closed boxes:** 37 (29 in the title block); named: WBS WARD-BECK systeMs LTD; FINISH; 468 -0z-026
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 43 lines: INPUT · Swli · Sw3 · 302 · Pz · Ek · 52 · P3 · Rs · Tv Vi · RV · OUT 1
+- **Title block:** (148, 18)–(411, 70) mm: IDss_ MODICKD · USED ON · MATL _ · WBS WARD-BECK systeMs LTD · DRN ELJ · DATE Nov 76 · M468N · FINISH · AssIGN MODULE ScheMaTIC · CKD · SCALE · TOLS · 468 -0z-026 · ISS_
+- **Wiring (first pass):** 39 connected wire groups from 245 runs; labelled ends: 237 mm → TOLS; 186 mm → Rlo, INPUT, R4, RB; 158 mm → Sw4, INPUT; 152 mm → Sw3, Swli; 139 mm → INPUT, 302
+
+Every curve, box, word and wire group: [1976 - 468-02-026 - M468N ASSIGN MODULE SCHEMATIC - DRN ELJ - ISS 1 (traced).json](1976%20-%20468-02-026%20-%20M468N%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 468-02-026 - M468N ASSIGN MODULE SCHEMATIC - DRN ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

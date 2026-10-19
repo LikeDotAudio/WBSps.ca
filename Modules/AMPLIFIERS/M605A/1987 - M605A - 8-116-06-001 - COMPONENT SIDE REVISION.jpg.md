@@ -11,6 +11,18 @@ Wiki page: [M605A](../../../PAGES/M605A.md)
 - **Size:** 627,756 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-116-06-001, size B (assumed) 432 × 272 mm, 2000 × 1260 px traced (0.216 mm/px)
+- **Ink extent:** 15–432 mm across, 0–260 mm up
+- **Outlines:** line 716 rings, 6,815 straight (12,172 mm) / 1,811 curved (1,833 mm); text 1,146 rings, 9,603 straight (9,625 mm) / 2,702 curved (3,190 mm); tb 8 rings, 119 straight (244 mm) / 22 curved (27.4 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 8.6 @ (225.7, 139.6), r 8.5 @ (225.9, 199.1), r 7.9 @ (225.8, 220.3), r 2.9 @ (372.7, 227.2)
+- **Closed boxes:** 22 (7 in the title block); named: R4i 5ok; R9 z0k; IRiz Sk; R23 Sok; Ui Lmzoi; 02 L73572; 03 Lm2oi; 04 Lm2oi; CRS 255B4; ual; 403; 367
+- **Words (OCR):** 163 in 136 lines: OUTLINE OF · HEAT · sink FOR Q4,05,0s4qi0_ · Hf · LF · OfF set Off · set · 2n3569 · Tp · R9 z0k · IRiz Sk · R23 Sok
+- **Title block:** (282, 2)–(432, 70) mm: 2/80 · 3670 · PM · IssU |DATE · REVISION · APP · WBS WARD-BECK SYBTEMS · DRN: GEB · 8-116 · ENG.GEB 2/79 · DA_ · AMPLIFIER · CKD Kel · COMPONENT LAYOUT · APP · SCALE · ISSUE · 2:1 · 8-116-06-001
+
+Every curve, box, word and wire group: [1987 - M605A - 8-116-06-001 - COMPONENT SIDE REVISION (traced).json](1987%20-%20M605A%20-%208-116-06-001%20-%20COMPONENT%20SIDE%20REVISION%20%28traced%29.json) (the CAD file: `1987 - M605A - 8-116-06-001 - COMPONENT SIDE REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -18,6 +18,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1969** (labelled): `DATE SEPT 69` — …4-001 1. 62 $- DRN DJG FinIS; NoTE 2 WARO BECK SYSTEMS LTd, DATE SEPT 69 CHKD K~ MATER AL 0 0 SCALE FULL SIZE AALUM TOLS FRACT - 176…
 
+## Vectors (traced)
+
+- **Sheet:** layout 420-04-001, size B (assumed) 432 × 270 mm, 2000 × 1252 px traced (0.216 mm/px); scale FULL SIZE
+- **Ink extent:** 1–426 mm across, 0–270 mm up
+- **Outlines:** line 320 rings, 5,211 straight (9,367 mm) / 577 curved (989 mm); text 723 rings, 5,579 straight (6,206 mm) / 1,667 curved (2,542 mm); tb 48 rings, 324 straight (382 mm) / 47 curved (60.9 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.7 @ (257.8, 175.2)
+- **Closed boxes:** 20
+- **Words (OCR):** 79 in 52 lines: 332 · c'BORE 32 DIA · -1.125 = · 1625 · 32 · JN ZPLACES · 32 · 25 C'BORE 8 DIA x 83 DEEP · ON · UNDERSIDE · 2 HOLES 64 DIA · 3/6 DEEP
+- **Title block:** (189, 19)–(398, 62) mm: FinIS · DRN DJG · beCK SYSTEMS LTd; · NoTE 2 · DATE · SEPT 69 · CHKD · MATERAL · 0 0 · ESCUTCHEON · AALUM · SCALE FULL SIZE · M420
+
+Every curve, box, word and wire group: [1969 - DOC - 420-04-001 - GIVEN ANGLES MIN BEND RAD (traced).json](1969%20-%20DOC%20-%20420-04-001%20-%20GIVEN%20ANGLES%20MIN%20BEND%20RAD%20%28traced%29.json) (the CAD file: `1969 - DOC - 420-04-001 - GIVEN ANGLES MIN BEND RAD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

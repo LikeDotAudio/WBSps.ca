@@ -11,6 +11,19 @@ Wiki page: [M490G](../../../PAGES/M490G.md)
 - **Size:** 344,598 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 490-06-018, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–429 mm up
+- **Outlines:** line 1,402 rings, 11,630 straight (18,833 mm) / 3,652 curved (3,839 mm); text 740 rings, 5,196 straight (4,643 mm) / 2,021 curved (2,235 mm); tb 16 rings, 203 straight (244 mm) / 45 curved (47.1 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 5.4 @ (254.2, 233.1), r 3.8 @ (61.9, 340.8), r 3.8 @ (236.0, 341.4), r 3.8 @ (257.4, 221.1)
+- **Closed boxes:** 38 (1 in the title block); named: PA
+- **Dots (junctions):** 4
+- **Words (OCR):** 35 in 33 lines: (SAM · 4& 44 · 18 · 44443 · 84 · 048 · 17 · 08 · 344 · Im · 444 · 56
+- **Title block:** (230, 6)–(274, 48) mm: WBS · DaN · CKD
+
+Every curve, box, word and wire group: [1978 - M490G - 490-06-018 - ISSUR CSUCDITF OCISION ADO (traced).json](1978%20-%20M490G%20-%20490-06-018%20-%20ISSUR%20CSUCDITF%20OCISION%20ADO%20%28traced%29.json) (the CAD file: `1978 - M490G - 490-06-018 - ISSUR CSUCDITF OCISION ADO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,20 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 434,787 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 470-01-006, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 2–432 mm up
+- **Outlines:** line 382 rings, 8,271 straight (15,451 mm) / 1,306 curved (1,892 mm); text 357 rings, 3,419 straight (4,256 mm) / 972 curved (1,569 mm); tb 15 rings, 223 straight (479 mm) / 28 curved (48.3 mm)
+- **Centre lines:** 6,948 paths (74 closed); straight 11,426 mm, curved 80.2 mm; horizontal 4,381 mm, vertical 3,154 mm, diagonal 3,890 mm
+- **Circles and arcs:** 2 circles, 8 arcs; largest r 4.7 @ (44.0, 145.7), r 1.6 @ (30.2, 390.5)
+- **Closed boxes:** 26 (7 in the title block); named: ISSUE; 470-01-006; SCALE
+- **Words (OCR):** 53 in 48 lines: DIRECT output · BRIDGING · dBm · COnTROL · ommon · CONTROL · PAN · INSERT · CHAN · CoNTROL · on · FADER
+- **Title block:** (116, 14)–(333, 116) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.JR/o7/84 · ENG ELJ · INPUT · MODULE · CKD: · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 470-01-006
+- **Wiring (first pass):** 137 connected wire groups from 365 runs; labelled ends: 272 mm → output, BRIDGING; 261 mm → BST; 161 mm → PEAK, INDICATOR; 101 mm → PEAK, INDICATOR; 40 mm → BST, FADER, ~I5dB)
+
+Every curve, box, word and wire group: [1984 - M470E - 470-01-006 - CONTROL SUMMING BUS (traced).json](1984%20-%20M470E%20-%20470-01-006%20-%20CONTROL%20SUMMING%20BUS%20%28traced%29.json) (the CAD file: `1984 - M470E - 470-01-006 - CONTROL SUMMING BUS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

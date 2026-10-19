@@ -20,6 +20,21 @@ Wiki page: [M110](../../../PAGES/M110.md)
 - **Size:** 1,865,109 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 110-02-001, size B (assumed) 432 × 137 mm, 2000 × 636 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 1–135 mm up
+- **Outlines:** line 435 rings, 4,855 straight (9,698 mm) / 1,181 curved (1,480 mm); text 350 rings, 2,432 straight (2,063 mm) / 891 curved (1,042 mm); tb 2 rings, 28 straight (82.0 mm) / 4 curved (10.3 mm)
+- **Centre lines:** 9,041 paths (88 closed); straight 7,542 mm, curved 314 mm; horizontal 2,848 mm, vertical 1,871 mm, diagonal 2,823 mm
+- **Circles and arcs:** 9 circles, 39 arcs; largest r 3.2 @ (129.9, 102.5), r 3.1 @ (208.9, 55.1), r 3.1 @ (197.0, 105.1), r 3.0 @ (123.7, 45.5)
+- **Closed boxes:** 12 (1 in the title block); named: Miio UNIYERSAL Amplifier SCHE MATIC; M10 - 02 001
+- **Dots (junctions):** 2
+- **Words (OCR):** 67 in 56 lines: CRZ · Notes:-(UnLESS otherwise Specified) · INZO7O · ALL Resistor · Zock · E8k 220 · Fox Isoto 220 · ALL CapaciToR VALUES ARE In MicROFARADS: · 00/35 Sok · 6ec01 · Transistors designated ARE HEAT SinKED · ZN3645
+- **Title block:** (359, 20)–(432, 30) mm: WBS · WARD-BeCk SYSTEMS
+- **Wiring (first pass):** 57 connected wire groups from 393 runs; labelled ends: 210 mm → 6520, {38k, {R8k, Is0k; 157 mm → IC15, 3826; 128 mm → R22 _, S6k, 500/35, ZN4037; 84 mm → 2N3645, ZN3569, CRZ, INZO7O; 67 mm → 00/35, Sok, Isoto, Fox
+
+Every curve, box, word and wire group: [19xx - 110-02-001 - UNIVERSAL AMPLIFIER SCHEMATIC - ISS 2 (traced).json](19xx%20-%20110-02-001%20-%20UNIVERSAL%20AMPLIFIER%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 110-02-001 - UNIVERSAL AMPLIFIER SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

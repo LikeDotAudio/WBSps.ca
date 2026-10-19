@@ -15,6 +15,19 @@ Wiki page: [M463LA](../../../PAGES/M463LA.md)
 
 - **1974** (labelled): `DATE DEC 74` — …a3/0 E4 0 + E90 ON MATL WBS WARD-BECK BySTEMs LTD_ DRN: DM DATE DEC 74 CKD:: SCALE 2 : XX TOLS _ NG 4-141 SUMMING AMPLIFIER COMPON…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-141-06-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 4–432 mm up
+- **Outlines:** line 298 rings, 5,339 straight (9,897 mm) / 1,413 curved (1,443 mm); text 515 rings, 5,434 straight (6,130 mm) / 1,467 curved (1,788 mm); tb 35 rings, 362 straight (556 mm) / 58 curved (65.3 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 13.8 @ (43.2, 257.4), r 8.8 @ (41.0, 198.1), r 8.7 @ (41.5, 315.5), r 5.2 @ (43.1, 257.4)
+- **Closed boxes:** 14 (4 in the title block); named: 21 739Pc; MATL; WBS WAAD-BECK BYSTEMB LTD_; 4-141 SUMMING AMPLIFIER COMPONENT LAYOUT; FIMISH; TOLS _; 4-141-06-001; ISS
+- **Dots (junctions):** 2
+- **Words (OCR):** 81 in 57 lines: E30 · E8 0 · R14'K ~C2?-4p7 e Iczo Zoo · R2 #7K · Ips1' R22 · 04 · 72 · R(3 IKe ~C7_loop"o4 RlI 'R24 · Pu3569 · 3k 51 · CI4op · RIs-
+- **Title block:** (98, 15)–(248, 84) mm: WBS WAAD-BECK BYSTEMB LTD_ · DRN: · DM · 4-141 · DATE · DEC 74 · SUMMING AMPLIFIER · COMPONENT LAYOUT · SCALE · TOLS _
+
+Every curve, box, word and wire group: [1974 - M463LA - 4-141-06-001 - WAAD-BECK BYSTEMB (traced).json](1974%20-%20M463LA%20-%204-141-06-001%20-%20WAAD-BECK%20BYSTEMB%20%28traced%29.json) (the CAD file: `1974 - M463LA - 4-141-06-001 - WAAD-BECK BYSTEMB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

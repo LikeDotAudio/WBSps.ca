@@ -15,6 +15,16 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 1,177,267 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 525-04-001, size B (assumed) 222 × 432 mm, 1028 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–222 mm across, 0–432 mm up
+- **Outlines:** line 24 rings, 1,273 straight (3,253 mm) / 90 curved (155 mm); text 248 rings, 2,164 straight (2,605 mm) / 580 curved (893 mm); tb 257 rings, 3,440 straight (6,112 mm) / 397 curved (678 mm)
+- **Words (OCR):** 34 in 33 lines: WBS · 4525 · EXT · EXT · EXT 2 · EXT · AuX · Aux · Aux · AuX · H2 · Hz
+- **Title block:** (20, 0)–(222, 430) mm: WBS · 4525 · EXT · EXT · EXT 2 · EXT · AuX · Aux · Aux · AuX · H2 · Hz · SuB · SuB · SUB 2 · SUB · solo/T8 · MONO · mute · LEVEL- · ISSUE DATE · REVISION · WBS · WARD-BECK SYSTEM · DRNB DEP · M525 · E
+
+Every curve, box, word and wire group: [19xx - M525 - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX (traced).json](19xx%20-%20M525%20-%20DOC%20-%20525-04-001%20-%20EXT%20EXT%20EXT%20EXT%20AUX%20AUX%20AUX%20%28traced%29.json) (the CAD file: `19xx - M525 - DOC - 525-04-001 - EXT EXT EXT EXT AUX AUX AUX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

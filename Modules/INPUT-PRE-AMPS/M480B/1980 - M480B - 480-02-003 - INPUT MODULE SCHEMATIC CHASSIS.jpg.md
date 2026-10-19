@@ -11,6 +11,21 @@ Wiki page: [M480B](../../../PAGES/M480B.md)
 - **Size:** 4,129,163 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 480-02-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 3–429 mm across, 3–276 mm up
+- **Outlines:** line 1,918 rings, 15,667 straight (24,216 mm) / 3,514 curved (4,353 mm); text 596 rings, 3,512 straight (3,042 mm) / 1,063 curved (1,333 mm); tb 21 rings, 161 straight (181 mm) / 33 curved (36.8 mm)
+- **Centre lines:** 16,917 paths (465 closed); straight 16,306 mm, curved 572 mm; horizontal 5,409 mm, vertical 4,094 mm, diagonal 6,804 mm
+- **Circles and arcs:** 25 circles, 141 arcs; largest r 3.8 @ (220.8, 135.4), r 3.8 @ (221.0, 165.6), r 3.7 @ (258.4, 239.5), r 3.6 @ (258.1, 209.4)
+- **Closed boxes:** 12 (3 in the title block); named: M480B INPUT MODULE SCHEMATIC
+- **Dots (junctions):** 5
+- **Words (OCR):** 113 in 103 lines: NoTESi · C3a 632 052 · Re · StoRs · 576 AND · AOdt · 31 · 310 · Iab~MAX · RONRA · "2/23 · C15
+- **Title block:** (358, 19)–(432, 34) mm: WBS WAAO-BeCK SYSTEMS · M480B
+- **Wiring (first pass):** 179 connected wire groups from 1,449 runs, 2 dotted junctions; labelled ends: 362 mm → 624, Sw9; 179 mm → 322; 150 mm → 23.-; 133 mm → 3,2; 118 mm → Iye
+
+Every curve, box, word and wire group: [1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS (traced).json](1980%20-%20M480B%20-%20480-02-003%20-%20INPUT%20MODULE%20SCHEMATIC%20CHASSIS%20%28traced%29.json) (the CAD file: `1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

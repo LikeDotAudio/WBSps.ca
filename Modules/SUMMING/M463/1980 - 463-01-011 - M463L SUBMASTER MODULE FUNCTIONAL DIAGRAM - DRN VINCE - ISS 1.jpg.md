@@ -24,6 +24,21 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 491,932 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 463-01-011, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 0–432 mm up
+- **Outlines:** line 446 rings, 8,446 straight (14,376 mm) / 1,188 curved (1,415 mm); text 493 rings, 3,551 straight (4,663 mm) / 1,115 curved (1,854 mm); tb 10 rings, 256 straight (605 mm) / 18 curved (31.6 mm)
+- **Centre lines:** 14,374 paths (111 closed); straight 12,592 mm, curved 42.3 mm; horizontal 4,342 mm, vertical 3,217 mm, diagonal 5,033 mm
+- **Circles and arcs:** 3 circles, 4 arcs; largest r 1.9 @ (74.7, 341.3), r 1.7 @ (56.4, 332.8), r 1.7 @ (57.2, 348.8)
+- **Closed boxes:** 17 (3 in the title block); named: WBS WAAD-BeCK bybtemb LTD_; MATL; M4631 MODULE SUBMASTER FUNCTIONAL DIAGRA; 463-01-011; ISS; XX TOLS_
+- **Dots (junctions):** 2
+- **Words (OCR):** 79 in 74 lines: DIRECT Out · PAN · 8 dBm · INSERT · Mix · 7m1 · LEFT · OUT · db ) · MX · 7m3 · 8.109F
+- **Title block:** (100, 17)–(250, 88) mm: WBS WAAD-BeCK bybtemb LTD_ · DRN VINJCE · DATE 80/1/ 2 ( · SUBMASTER · CKD · SCALE · TOLS_ · XX
+- **Wiring (first pass):** 121 connected wire groups from 325 runs; labelled ends: 145 mm → PRE/Post; 134 mm → LTD_, WAAD-BeCK; 114 mm → DIRECT Out, PAN, INSERT; 113 mm → DRN, DATE, CKD; 78 mm → MATL, WBS
+
+Every curve, box, word and wire group: [1980 - 463-01-011 - M463L SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1 (traced).json](1980%20-%20463-01-011%20-%20M463L%20SUBMASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1980 - 463-01-011 - M463L SUBMASTER MODULE FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

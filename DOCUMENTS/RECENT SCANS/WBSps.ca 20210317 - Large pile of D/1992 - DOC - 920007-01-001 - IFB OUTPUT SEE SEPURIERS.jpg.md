@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,421,753 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920007-01-001, size B (assumed) 432 × 278 mm, 2000 × 1289 px traced (0.216 mm/px)
+- **Ink extent:** 86–422 mm across, 6–258 mm up
+- **Outlines:** line 4,110 rings, 29,153 straight (42,896 mm) / 4,157 curved (5,077 mm); text 449 rings, 2,989 straight (2,593 mm) / 887 curved (1,090 mm); tb 18 rings, 164 straight (178 mm) / 51 curved (61.1 mm)
+- **Centre lines:** 87,044 paths (468 closed); straight 41,434 mm, curved 206 mm; horizontal 12,948 mm, vertical 12,366 mm, diagonal 16,121 mm
+- **Circles and arcs:** 7 circles, 68 arcs; largest r 1.3 @ (336.4, 230.5), r 1.1 @ (336.4, 224.9), r 1.0 @ (287.6, 230.0), r 1.0 @ (268.5, 229.6)
+- **Closed boxes:** 1168 (1 in the title block); named: IN/CU ASSEMBLY SEE DaG 40970002 BUFFERS ; BROADCAST   CENTRE TORONTO 48x48   INTER; 001 920007-01-; SCH
+- **Dots (junctions):** 15
+- **Words (OCR):** 60 in 57 lines: KPUIS · PROGRAN · LEGENDE · FER UANEHMLT · SNICHED · MATRK · 3 puiputs) · SECTIONSR · BLOCK · Rows} · TlEPhONE · STAGING
+- **Title block:** (343, 21)–(428, 39) mm: WBS · WARD-BECK SYSTEMS · TORONTO · BROADCAST   CENTRE
+- **Wiring (first pass):** 257 connected wire groups from 5,900 runs, 72 dotted junctions; labelled ends: 1309 mm → BLOCK; 115 mm → LTCz; 62 mm → BLOCK; 62 mm → BLOCK; 62 mm → BLOCK
+
+Every curve, box, word and wire group: [1992 - DOC - 920007-01-001 - IFB OUTPUT SEE SEPURIERS (traced).json](1992%20-%20DOC%20-%20920007-01-001%20-%20IFB%20OUTPUT%20SEE%20SEPURIERS%20%28traced%29.json) (the CAD file: `1992 - DOC - 920007-01-001 - IFB OUTPUT SEE SEPURIERS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

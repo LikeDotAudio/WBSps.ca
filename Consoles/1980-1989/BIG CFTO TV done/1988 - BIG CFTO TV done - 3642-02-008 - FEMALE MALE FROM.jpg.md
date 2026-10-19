@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,027,845 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-008, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–305 mm across, 0–430 mm up
+- **Outlines:** line 116 rings, 755 straight (1,400 mm) / 161 curved (236 mm); text 163 rings, 1,052 straight (1,058 mm) / 303 curved (423 mm)
+- **Centre lines:** 1,186 paths (28 closed); straight 1,428 mm, curved 91.8 mm; horizontal 600 mm, vertical 266 mm, diagonal 561 mm
+- **Circles and arcs:** 8 circles, 6 arcs; largest r 1.4 @ (255.8, 329.9), r 1.4 @ (255.8, 353.6), r 1.3 @ (255.6, 337.8), r 1.3 @ (255.8, 268.1)
+- **Words (OCR):** 25 in 25 lines: 609-37S · FDC-37P · (FEMALE) · (MALE) · FROM PFL · BUS · DIR · 127,128 · (129) · CUE · 133.134 · INPUTS
+- **Wiring (first pass):** 26 connected wire groups from 83 runs; labelled ends: 48 mm → (129), 133.134; 48 mm → 127,128; 47 mm → (135), 136,137; 17 mm → 136,137, (138); 17 mm → 133.134, (135)
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-008 - FEMALE MALE FROM (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-008%20-%20FEMALE%20MALE%20FROM%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-008 - FEMALE MALE FROM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

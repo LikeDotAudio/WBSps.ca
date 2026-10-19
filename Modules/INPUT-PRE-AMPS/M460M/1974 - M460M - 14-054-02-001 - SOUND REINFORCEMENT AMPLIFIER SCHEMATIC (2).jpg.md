@@ -11,6 +11,20 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 982,177 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-054-02-001, size B (assumed) 432 × 344 mm, 2000 × 1591 px traced (0.216 mm/px)
+- **Ink extent:** 0–419 mm across, 0–343 mm up
+- **Outlines:** line 382 rings, 3,702 straight (5,019 mm) / 825 curved (965 mm); text 170 rings, 1,156 straight (1,222 mm) / 368 curved (528 mm); tb 2 rings, 49 straight (117 mm) / 3 curved (5.9 mm)
+- **Centre lines:** 4,577 paths (44 closed); straight 3,853 mm, curved 157 mm; horizontal 1,315 mm, vertical 852 mm, diagonal 1,687 mm
+- **Circles and arcs:** 3 circles, 29 arcs; largest r 5.1 @ (97.3, 113.7), r 5.0 @ (97.7, 62.9), r 0.9 @ (72.1, 105.8)
+- **Closed boxes:** 1
+- **Words (OCR):** 22 in 22 lines: NE5538 · 10/25 · 68/6 . · NESS38 · IBV · Tnzioz · +21v · 22/25 · 75k · com · 5,6 · com
+- **Title block:** (319, 30)–(426, 50) mm: WBS · WARD-BECk BYBTEMB
+- **Wiring (first pass):** 28 connected wire groups from 202 runs; labelled ends: 98 mm → 75k, 22/25, com; 84 mm → NE5538, 10/25; 78 mm → 10/25; 74 mm → 5,6; 67 mm → 22/25
+
+Every curve, box, word and wire group: [1974 - M460M - 14-054-02-001 - SOUND REINFORCEMENT AMPLIFIER SCHEMATIC (2) (traced).json](1974%20-%20M460M%20-%2014-054-02-001%20-%20SOUND%20REINFORCEMENT%20AMPLIFIER%20SCHEMATIC%20%282%29%20%28traced%29.json) (the CAD file: `1974 - M460M - 14-054-02-001 - SOUND REINFORCEMENT AMPLIFIER SCHEMATIC (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

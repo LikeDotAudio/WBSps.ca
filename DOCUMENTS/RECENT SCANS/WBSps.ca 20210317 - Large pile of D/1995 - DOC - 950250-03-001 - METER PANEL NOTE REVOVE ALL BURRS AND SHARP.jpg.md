@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,155,037 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950250-03-001, size B (assumed) 432 × 277 mm, 2000 × 1284 px traced (0.216 mm/px)
+- **Ink extent:** 49–432 mm across, 2–263 mm up
+- **Outlines:** line 556 rings, 4,115 straight (8,338 mm) / 817 curved (952 mm); text 220 rings, 1,229 straight (1,201 mm) / 408 curved (524 mm); tb 28 rings, 200 straight (208 mm) / 45 curved (58.3 mm)
+- **Centre lines:** 5,387 paths (176 closed); straight 5,808 mm, curved 21.2 mm; horizontal 2,821 mm, vertical 1,179 mm, diagonal 1,808 mm
+- **Circles and arcs:** 0 circles, 8 arcs
+- **Closed boxes:** 20 (3 in the title block); named: DETAIL; DETAIL; METER PANEL; 950250-03-001
+- **Words (OCR):** 22 in 22 lines: 0 50d · DATUU · RFOD · 0,305 · 0,985 · DETAIL · DETAIL · PITC-(0.7C0) (J) = · 0.875 · ALUM ALLOY 0.080 Thick · MATERIAL: · WARD-BECK   SYSTEMS
+- **Title block:** (342, 18)–(427, 35) mm: WARD-BECK   SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1995 - DOC - 950250-03-001 - METER PANEL NOTE REVOVE ALL BURRS AND SHARP (traced).json](1995%20-%20DOC%20-%20950250-03-001%20-%20METER%20PANEL%20NOTE%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20%28traced%29.json) (the CAD file: `1995 - DOC - 950250-03-001 - METER PANEL NOTE REVOVE ALL BURRS AND SHARP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

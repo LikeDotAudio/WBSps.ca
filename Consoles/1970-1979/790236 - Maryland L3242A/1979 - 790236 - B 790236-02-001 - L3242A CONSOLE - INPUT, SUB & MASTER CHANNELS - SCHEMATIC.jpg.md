@@ -10,6 +10,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 8,206,904 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 790236-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 18–305 mm up
+- **Outlines:** line 808 rings, 9,268 straight (15,557 mm) / 1,268 curved (1,811 mm); text 919 rings, 5,645 straight (5,767 mm) / 1,529 curved (2,050 mm); tb 41 rings, 298 straight (403 mm) / 25 curved (34.8 mm)
+- **Centre lines:** 10,561 paths (102 closed); straight 12,273 mm, curved 458 mm; horizontal 5,235 mm, vertical 2,846 mm, diagonal 4,191 mm
+- **Circles and arcs:** 13 circles, 63 arcs; largest r 4.1 @ (233.3, 186.2), r 4.0 @ (340.2, 170.5), r 1.3 @ (256.1, 203.2), r 1.3 @ (208.4, 143.0)
+- **Closed boxes:** 44 (30 in the title block); named: WBS WAAD-BECK sysTeMs LTD; CONSCLE L3242A iNPUT Slb ETaStER CAANNEL; FIMISH; 790236 02-001; ISS_
+- **Words (OCR):** 150 in 121 lines: (~vc 1 4-31 ) LINE · Key · Mz · 4+24v · Te4 · RD · (~Erm) · OFF · 36 · MASTER CHANNEL · (Mi) · 784
+- **Title block:** (141, 29)–(415, 80) mm: USED ON · MATL . · IsS MOD.ICKD: · WBS WAAD-BECK sysTeMs LTD · DRN SRh · L3242A · CONSCLE · FIMISH · DATE 4va.4/79 · iNPUT Slb ETaStER CAANNELS · CKD · KC · SCALE · SCHEMATIC · TOLS · 790236 02-001 · 
+- **Wiring (first pass):** 131 connected wire groups from 692 runs; labelled ends: 155 mm → TOLS; 154 mm → TOLS; 121 mm → IOo0, 'Izw, +24v, I0o n; 94 mm → MASTER, 68, FADER, (~-iSdB); 85 mm → 20, Com
+
+Every curve, box, word and wire group: [1979 - 790236 - B 790236-02-001 - L3242A CONSOLE - INPUT, SUB & MASTER CHANNELS - SCHEMATIC (traced).json](1979%20-%20790236%20-%20B%20790236-02-001%20-%20L3242A%20CONSOLE%20-%20INPUT%2C%20SUB%20%26%20MASTER%20CHANNELS%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1979 - 790236 - B 790236-02-001 - L3242A CONSOLE - INPUT, SUB & MASTER CHANNELS - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

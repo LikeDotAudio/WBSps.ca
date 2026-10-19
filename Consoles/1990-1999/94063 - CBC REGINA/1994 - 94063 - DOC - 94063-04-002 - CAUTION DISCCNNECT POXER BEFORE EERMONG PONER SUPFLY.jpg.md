@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,488,661 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94063-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC NO: 480
+- **Ink extent:** 46–422 mm across, 7–232 mm up
+- **Outlines:** line 1,038 rings, 6,655 straight (20,209 mm) / 1,270 curved (2,571 mm); text 217 rings, 1,641 straight (1,528 mm) / 450 curved (549 mm); tb 23 rings, 198 straight (1,182 mm) / 17 curved (24.1 mm)
+- **Circles and arcs:** 91 circles, 0 arcs; largest r 4.6 @ (119.7, 118.0), r 4.6 @ (196.0, 118.2), r 4.6 @ (215.2, 118.2), r 4.6 @ (138.8, 118.1)
+- **Closed boxes:** 64; named: CAUTION DISCCNNECT PoxeR BEFORE PONER SU; CAUTION DISCCNNECT PoxeR BEFORE PONER SU; (8BBuSH @push PUSH Fish PuSH PUSH PlS TE; (8BBuSH @push PUSH Fish PuSH PUSH PlS TE; @push; PlS; Fish; PuSH; (8BBuSH; PUSH; PUSH; TECH PROD
+- **Words (OCR):** 43 in 39 lines: DISCCNNECT PoxeR BEFORE · CAUTION · EERMONG · PONER SUPFLY · M712B1 · M7OSB · (8BBuSH · PUSH · @push · PlS · Fish · PuSH
+- **Title block:** (338, 6)–(430, 44) mm: USSUEJ · REVSICN · APP. · WBS · WARD-BECK · SYSTEMS · DRN: DRG · ENG: · COMMUNICATIONS SYSTEM · CBC REGINA · CKD; · FIELD · LAYOUT · SCALE DISC NO: 480 · ISSUE · NTS CODE: 94063L02 · 94063-04-002
+
+Every curve, box, word and wire group: [1994 - 94063 - DOC - 94063-04-002 - CAUTION DISCCNNECT POXER BEFORE EERMONG PONER SUPFLY (traced).json](1994%20-%2094063%20-%20DOC%20-%2094063-04-002%20-%20CAUTION%20DISCCNNECT%20POXER%20BEFORE%20EERMONG%20PONER%20SUPFLY%20%28traced%29.json) (the CAD file: `1994 - 94063 - DOC - 94063-04-002 - CAUTION DISCCNNECT POXER BEFORE EERMONG PONER SUPFLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

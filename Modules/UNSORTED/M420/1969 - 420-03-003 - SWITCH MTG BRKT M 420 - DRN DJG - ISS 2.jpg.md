@@ -28,6 +28,19 @@ Wiki page: [M420](../../../PAGES/M420.md)
 - **1969** (labelled): `DATE SEPT 69` — …ED 4.75 5.75 DRN DJG FiNISH INARD BECK SYSTEMS LTd 120 Grit DATE SEPT 69 BLACK ANobize SWITCHI MTG Bert MATERIAL CHKD Rn 6,0 M 420 1…
 - **1969** (month): `Oct 69` — …iSsue 44 3' 36 2-5gunC 2 Hoces Nou 4oFf PJ6 Oct 69 2 32 3-1125 1.625 32 2HOLES 83 DiA NTS: 1.435 1-05 .80 #O 7…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 420-03-003, size B 432 × 264 mm, 2000 × 1222 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–264 mm up
+- **Outlines:** line 355 rings, 5,597 straight (10,079 mm) / 713 curved (1,057 mm); text 524 rings, 4,158 straight (4,557 mm) / 1,196 curved (1,818 mm); tb 41 rings, 308 straight (326 mm) / 40 curved (54.6 mm)
+- **Centre lines:** 7,510 paths (90 closed); straight 9,347 mm, curved 170 mm; horizontal 3,803 mm, vertical 2,160 mm, diagonal 3,384 mm
+- **Circles and arcs:** 5 circles, 21 arcs; largest r 4.5 @ (204.1, 167.3), r 4.3 @ (139.4, 166.8), r 1.8 @ (190.5, 167.7), r 1.7 @ (178.5, 167.4)
+- **Closed boxes:** 8; named: Ssue; 2-SGUnC Ha €s Nal} 40FF DJG oct 69; DRN DATE CHKD SCALEF TOLs
+- **Words (OCR):** 76 in 65 lines: Ssue · 44 · 2-SGUnC · 3.36 · Ha €s Nal} 40FF · DJG oct 69 · 1+625 · 2HOLES · DIA · NTS · 1.435 · 1-05 .80
+- **Title block:** (198, 13)–(375, 58) mm: FiNSH · INARD · BECK SVSTEMS · DRN DJG · 120 Grit · DATE SEPT 69 · BLACK · ANoDIze · SwITCHI · MTG · An · MATERIAL · CHKD · M 420 · 76 ALoM · SCALEF · FLL · FRACT 1/64 TO · DEC · PLACES GIVE · ANGLES 
+
+Every curve, box, word and wire group: [1969 - 420-03-003 - SWITCH MTG BRKT M 420 - DRN DJG - ISS 2 (traced).json](1969%20-%20420-03-003%20-%20SWITCH%20MTG%20BRKT%20M%20420%20-%20DRN%20DJG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1969 - 420-03-003 - SWITCH MTG BRKT M 420 - DRN DJG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

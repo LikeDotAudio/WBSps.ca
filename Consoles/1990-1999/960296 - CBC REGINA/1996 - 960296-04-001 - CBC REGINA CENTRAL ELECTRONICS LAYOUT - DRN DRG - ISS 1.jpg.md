@@ -21,6 +21,18 @@ Wiki page: [Job-960296](../../../PAGES/Job-960296.md)
 - **Size:** 864,773 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 960296-04-001, size D 864 × 548 mm, 2000 × 1270 px traced (0.432 mm/px); scale DISC NO:  SysQ1
+- **Ink extent:** 139–864 mm across, 26–537 mm up
+- **Outlines:** line 833 rings, 6,709 straight (53,889 mm) / 711 curved (2,654 mm); text 334 rings, 2,313 straight (3,900 mm) / 635 curved (1,544 mm); tb 303 rings, 1,855 straight (7,183 mm) / 426 curved (1,445 mm)
+- **Circles and arcs:** 57 circles, 0 arcs; largest r 5.5 @ (492.9, 406.5), r 5.5 @ (510.5, 406.6), r 5.5 @ (194.5, 400.5), r 5.5 @ (176.9, 327.1)
+- **Closed boxes:** 137 (43 in the title block); named: PROGRAM PROGRAM MUTE PROD TECH RICHT LeF; PROGRAM PROGRAM MUTE PROD TECH RICHT LeF; PROGRAM MUTE PROD TECH; TALKBAC K BUS_ASSIGN; REMOTE TALKBACK MUTE; +28v +20 , POWER SUPPLY STATUS WBS OFF M
+- **Words (OCR):** 60 in 50 lines: PROGRAM MUTE · PROD TECH · PROGRAM · LeFT · RICHT · REMOTE TALKBACK MUTE · TALKBAC K BUS_ASSIGN · H44+ (10 X M712B) · MZO3D) · MZOZD) · +20 , · +28v
+- **Title block:** (167, 22)–(842, 280) mm: WBS · POWER SUPPLY STATUS · OFF · M924D · +20/ · +28V · 4281 · 128 · ON E · PSI · DiscceNoct PcrdR begore inseRMKT · CAUTCN · EXTRACTKG POKER · Vdoulls · V-ADJ · V-ADJ · DISCCNNECT POKER DEFORE · CAUT
+
+Every curve, box, word and wire group: [1996 - 960296-04-001 - CBC REGINA CENTRAL ELECTRONICS LAYOUT - DRN DRG - ISS 1 (traced).json](1996%20-%20960296-04-001%20-%20CBC%20REGINA%20CENTRAL%20ELECTRONICS%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960296-04-001 - CBC REGINA CENTRAL ELECTRONICS LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

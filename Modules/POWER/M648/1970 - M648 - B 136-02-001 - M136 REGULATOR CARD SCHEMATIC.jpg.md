@@ -11,6 +11,18 @@ Wiki page: [M648](../../../PAGES/M648.md)
 - **Size:** 8,516,630 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 136-02-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 1–279 mm up
+- **Outlines:** line 722 rings, 8,696 straight (13,383 mm) / 1,408 curved (2,001 mm); text 321 rings, 2,238 straight (2,315 mm) / 656 curved (944 mm)
+- **Centre lines:** 6,675 paths (71 closed); straight 9,088 mm, curved 483 mm; horizontal 3,554 mm, vertical 2,514 mm, diagonal 3,019 mm
+- **Circles and arcs:** 28 circles, 68 arcs; largest r 1.6 @ (411.4, 178.5), r 1.6 @ (110.0, 127.3), r 1.6 @ (408.8, 182.8), r 1.5 @ (354.9, 11.8)
+- **Closed boxes:** 15
+- **Wiring (first pass):** 78 connected wire groups from 594 runs
+
+Every curve, box, word and wire group: [1970 - M648 - B 136-02-001 - M136 REGULATOR CARD SCHEMATIC (traced).json](1970%20-%20M648%20-%20B%20136-02-001%20-%20M136%20REGULATOR%20CARD%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1970 - M648 - B 136-02-001 - M136 REGULATOR CARD SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,17 @@ Wiki page: [M462](../../../PAGES/M462.md)
 - **Size:** 2,130,599 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-111-06-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 1–422 mm up
+- **Outlines:** line 858 rings, 8,384 straight (13,612 mm) / 2,379 curved (2,568 mm); text 1,084 rings, 10,111 straight (10,234 mm) / 2,823 curved (3,415 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.5 @ (314.9, 164.4), r 6.6 @ (245.8, 126.7), r 6.5 @ (322.5, 126.8), r 3.5 @ (218.9, 267.9)
+- **Closed boxes:** 32; named: 27; 28 LmZel; 28 LmZel; 26 LM2ei; 24 Lmpel; USED ON; ISS MOD ICKD]; MGB; 3193; 3698; Al; ML
+- **Words (OCR):** 167 in 121 lines: ME5 · IE2 · R752*7 6.3/6 · 6316 · 537 - · 68l6 <29_7 · 6164 · 7517367_ · 75k · .29_R59 7R56220 · ~R58 · 620 R68
+
+Every curve, box, word and wire group: [1974 - M462 - 4-111-06-001 - COHPONENT SIDE FOR SCHEMATIC SEE (traced).json](1974%20-%20M462%20-%204-111-06-001%20-%20COHPONENT%20SIDE%20FOR%20SCHEMATIC%20SEE%20%28traced%29.json) (the CAD file: `1974 - M462 - 4-111-06-001 - COHPONENT SIDE FOR SCHEMATIC SEE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

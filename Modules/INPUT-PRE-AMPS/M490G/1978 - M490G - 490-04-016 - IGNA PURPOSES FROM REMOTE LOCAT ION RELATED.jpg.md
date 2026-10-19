@@ -11,6 +11,19 @@ Wiki page: [M490G](../../../PAGES/M490G.md)
 - **Size:** 183,073 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-016, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 3–431 mm up
+- **Outlines:** line 214 rings, 3,209 straight (9,066 mm) / 482 curved (688 mm); text 616 rings, 3,473 straight (3,221 mm) / 1,420 curved (1,837 mm); tb 12 rings, 135 straight (220 mm) / 24 curved (35.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.9 @ (6.8, 368.7)
+- **Closed boxes:** 18 (12 in the title block); named: PROGRAM 2 6 4 ASS IGMMENT switches Sh14 ; Controls SLIDE ATTENUATOR ATTI: PROGRAH ; CUT shitch Swio: Thi $ switch activated 
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 58 lines: M49og · SENS iTivity controi R25 Provides con · adjustabIe Ieve contro ange · nuous |y · PROGRAM 2 6 4 ASS IGMMENT switches · Sh14 Khen · depressede · feed che · PGhZ · mixing nethorks · the appropriate · buses.
+- **Title block:** (221, 1)–(335, 61) mm: ISSUE DATE · REVISION · WBS · WARO-BECk SYSTEMS · Mi90 G · ENG PA · Mic · INPUT MODUle · CKD: · LC · FRONT PANEL · APP · SCALE · ISSue · 490-04 -0 16
+
+Every curve, box, word and wire group: [1978 - M490G - 490-04-016 - IGNA PURPOSES FROM REMOTE LOCAT ION RELATED (traced).json](1978%20-%20M490G%20-%20490-04-016%20-%20IGNA%20PURPOSES%20FROM%20REMOTE%20LOCAT%20ION%20RELATED%20%28traced%29.json) (the CAD file: `1978 - M490G - 490-04-016 - IGNA PURPOSES FROM REMOTE LOCAT ION RELATED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

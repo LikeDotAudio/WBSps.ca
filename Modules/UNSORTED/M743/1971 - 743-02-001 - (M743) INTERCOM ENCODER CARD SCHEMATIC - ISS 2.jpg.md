@@ -23,6 +23,20 @@ Wide digital logic schematic strip with title block at bottom right.
 - **Size:** 2,022,361 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 743-02-001, size B 432 × 132 mm, 2000 × 610 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–132 mm up
+- **Outlines:** line 1,022 rings, 9,035 straight (15,397 mm) / 1,496 curved (1,951 mm); text 173 rings, 779 straight (675 mm) / 260 curved (315 mm)
+- **Centre lines:** 9,190 paths (186 closed); straight 9,561 mm, curved 71.7 mm; horizontal 4,172 mm, vertical 2,463 mm, diagonal 2,926 mm
+- **Circles and arcs:** 1 circles, 27 arcs; largest r 0.7 @ (399.1, 18.4)
+- **Closed boxes:** 74
+- **Dots (junctions):** 1
+- **Words (OCR):** 25 in 24 lines: R344 · SOATROL · 740@ · LINE · ONTIOL · 740S · OFF · JASC · READ · NF · DatA LINE? · On StATUS
+- **Wiring (first pass):** 86 connected wire groups from 978 runs; labelled ends: 1692 mm → R344, JASC; 84 mm → 77404; 70 mm → R344; 66 mm → 740@, 740S; 53 mm → 04743, ENcoDER
+
+Every curve, box, word and wire group: [1971 - 743-02-001 - (M743) INTERCOM ENCODER CARD SCHEMATIC - ISS 2 (traced).json](1971%20-%20743-02-001%20-%20%28M743%29%20INTERCOM%20ENCODER%20CARD%20SCHEMATIC%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1971 - 743-02-001 - (M743) INTERCOM ENCODER CARD SCHEMATIC - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

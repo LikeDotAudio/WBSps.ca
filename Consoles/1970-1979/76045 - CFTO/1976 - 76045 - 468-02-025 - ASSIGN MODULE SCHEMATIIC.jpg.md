@@ -11,6 +11,20 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,178,476 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 468-02-025, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 262 rings, 6,881 straight (10,760 mm) / 943 curved (1,329 mm); text 368 rings, 2,504 straight (2,533 mm) / 804 curved (1,090 mm); tb 24 rings, 214 straight (271 mm) / 29 curved (46.7 mm)
+- **Centre lines:** 5,329 paths (61 closed); straight 8,101 mm, curved 152 mm; horizontal 3,715 mm, vertical 2,167 mm, diagonal 2,220 mm
+- **Circles and arcs:** 13 circles, 26 arcs; largest r 1.0 @ (62.8, 140.0), r 1.0 @ (200.7, 251.3), r 1.0 @ (69.6, 265.7), r 1.0 @ (109.2, 144.9)
+- **Closed boxes:** 37 (23 in the title block); named: WBS WAAD-BECK sySTEMs LTD:; M468 M AssiGN SCHEMATIC MoDuLE; 468-02-025; TOLS; ISS.
+- **Words (OCR):** 89 in 77 lines: 20 · InpuT · Sw Rt · Sw3 R7 · Swi7 Rig · 30k · 3Ok · 3ok · AN · R2 · RB · R2O
+- **Title block:** (143, 30)–(417, 82) mm: ISS MOD ICKD: · USED ON · MATL. · WBS WAAD-BECK sySTEMs LTD: · DRA PA · DATE SePt 7e · M468 M · FINISH · CKD: · AssiGN MoDuLE · SCHEMATIC · (SCALE · TOLS · ISS.
+- **Wiring (first pass):** 54 connected wire groups from 281 runs; labelled ends: 352 mm → 20, InpuT, Rt, 30k; 316 mm → InPUT, Sw2, Sw4, Rex; 238 mm → Sw, Sw3, Swi7, Vig; 178 mm → Rio, Rex, R1i; 71 mm → 468-02-025
+
+Every curve, box, word and wire group: [1976 - 76045 - 468-02-025 - ASSIGN MODULE SCHEMATIIC (traced).json](1976%20-%2076045%20-%20468-02-025%20-%20ASSIGN%20MODULE%20SCHEMATIIC%20%28traced%29.json) (the CAD file: `1976 - 76045 - 468-02-025 - ASSIGN MODULE SCHEMATIIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

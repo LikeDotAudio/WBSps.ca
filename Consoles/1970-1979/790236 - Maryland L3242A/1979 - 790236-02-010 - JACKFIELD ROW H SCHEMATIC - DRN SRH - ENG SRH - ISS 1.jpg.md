@@ -22,6 +22,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,329,853 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 790236-02-010, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–286 mm up
+- **Outlines:** line 400 rings, 6,276 straight (7,909 mm) / 996 curved (1,209 mm); text 378 rings, 2,446 straight (2,646 mm) / 799 curved (1,128 mm); tb 8 rings, 114 straight (263 mm) / 13 curved (15.6 mm)
+- **Centre lines:** 15,925 paths (114 closed); straight 8,772 mm, curved 267 mm; horizontal 2,865 mm, vertical 2,086 mm, diagonal 3,821 mm
+- **Circles and arcs:** 21 circles, 23 arcs; largest r 1.3 @ (27.8, 191.1), r 1.3 @ (27.6, 149.1), r 1.3 @ (27.5, 94.7), r 1.3 @ (27.6, 136.3)
+- **Closed boxes:** 14 (10 in the title block); named: Oio 790236-02; SCALE; ISSUE
+- **Dots (junctions):** 1
+- **Words (OCR):** 49 in 47 lines: Tb8 · 37,38(39) · Tbz · 40,41(42) · 85 · -43,44(45) · -46,47(48) · 97,98 · 49,so(51) · To · CONSOLE INput · ChaNNELS
+- **Title block:** (160, 8)–(313, 76) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK · SYSTEMS · DRN SrH · JACKFIELD Row · ENG_ · Srh · CKD; · Pc · SCHEMATIC · APP · SCALE · ISSUE · 790236-02 · Oio
+- **Wiring (first pass):** 40 connected wire groups from 253 runs, 1 dotted junctions; labelled ends: 317 mm → APP; 24 mm → 103,104; 22 mm → Tb8; 22 mm → 85; 22 mm → IORIC
+
+Every curve, box, word and wire group: [1979 - 790236-02-010 - JACKFIELD ROW H SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).json](1979%20-%20790236-02-010%20-%20JACKFIELD%20ROW%20H%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 790236-02-010 - JACKFIELD ROW H SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

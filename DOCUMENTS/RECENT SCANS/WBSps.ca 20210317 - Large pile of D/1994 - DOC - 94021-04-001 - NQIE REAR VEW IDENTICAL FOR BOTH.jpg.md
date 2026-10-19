@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,880,519 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94021-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 26–424 mm across, 7–260 mm up
+- **Outlines:** line 674 rings, 4,586 straight (13,882 mm) / 1,158 curved (1,956 mm); text 292 rings, 1,762 straight (1,738 mm) / 523 curved (660 mm); tb 16 rings, 130 straight (170 mm) / 21 curved (24.3 mm)
+- **Circles and arcs:** 28 circles, 0 arcs; largest r 4.6 @ (57.8, 191.2), r 4.6 @ (129.6, 191.4), r 4.6 @ (147.4, 191.5), r 4.6 @ (165.2, 191.6)
+- **Closed boxes:** 47 (4 in the title block); named: HEADPHCNES TALKBACK; TALKBACK ACDRESS SPEAKER HEADPHOVES Vic ; HEADPHONE QUT; FEADPHONE; HEADPHONE QUT; FEADPHONE; GLEN GOULD STUDIO TURRET LAYOUTS; SCAF NTS; DISC NO;456; 04-001 94021; copi
+- **Dots (junctions):** 16
+- **Words (OCR):** 43 in 35 lines: TALKBACK ACDRESS · SPEAKER · Vic ON · HEADPHOVES · USE · HEADPHCNES · TAIKPACK · MONITOR · MIC CFF · TALKBACK · MICR OPHONE · CVEST
+- **Title block:** (346, 22)–(429, 43) mm: ISSUE: DATF · WBS · WARD BECK SYSTEMS · GLEN GOULD STUDIO
+
+Every curve, box, word and wire group: [1994 - DOC - 94021-04-001 - NQIE REAR VEW IDENTICAL FOR BOTH (traced).json](1994%20-%20DOC%20-%2094021-04-001%20-%20NQIE%20REAR%20VEW%20IDENTICAL%20FOR%20BOTH%20%28traced%29.json) (the CAD file: `1994 - DOC - 94021-04-001 - NQIE REAR VEW IDENTICAL FOR BOTH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

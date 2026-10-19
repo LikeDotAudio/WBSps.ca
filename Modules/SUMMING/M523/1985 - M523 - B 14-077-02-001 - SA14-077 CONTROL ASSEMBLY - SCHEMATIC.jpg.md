@@ -11,6 +11,20 @@ Wiki page: [M523](../../../PAGES/M523.md)
 - **Size:** 4,135,569 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-077-02-001, size B (assumed) 432 × 283 mm, 2000 × 1309 px traced (0.216 mm/px)
+- **Ink extent:** 5–424 mm across, 0–281 mm up
+- **Outlines:** line 1,521 rings, 12,203 straight (21,999 mm) / 2,308 curved (2,800 mm); text 178 rings, 1,091 straight (987 mm) / 313 curved (392 mm)
+- **Centre lines:** 10,200 paths (296 closed); straight 12,974 mm, curved 91.9 mm; horizontal 5,138 mm, vertical 4,422 mm, diagonal 3,414 mm
+- **Circles and arcs:** 3 circles, 19 arcs; largest r 1.3 @ (382.0, 36.3), r 1.2 @ (394.2, 36.3), r 0.8 @ (402.3, 36.6)
+- **Closed boxes:** 102
+- **Dots (junctions):** 1
+- **Words (OCR):** 25 in 23 lines: CHANREL SENSE · ResIsToAS · spfcifiec · SENSE · DICDES ARE · UNLESS Oiheamise · SPFCIFIFD · GEHSE · IC LINF · OVLO · 1/35 · 74hi4n
+- **Wiring (first pass):** 88 connected wire groups from 1,129 runs; labelled ends: 3549 mm → 74hi4n, Jicj; 51 mm → 74hi4n, 01#00; 40 mm → Jicj; 37 mm → 1/J5; 36 mm → 74hi4n
+
+Every curve, box, word and wire group: [1985 - M523 - B 14-077-02-001 - SA14-077 CONTROL ASSEMBLY - SCHEMATIC (traced).json](1985%20-%20M523%20-%20B%2014-077-02-001%20-%20SA14-077%20CONTROL%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M523 - B 14-077-02-001 - SA14-077 CONTROL ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

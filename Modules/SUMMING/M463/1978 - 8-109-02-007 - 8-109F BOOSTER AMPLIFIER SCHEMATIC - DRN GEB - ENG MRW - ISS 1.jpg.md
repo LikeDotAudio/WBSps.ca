@@ -25,6 +25,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 471,449 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-109-02-007, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 262 rings, 5,463 straight (9,709 mm) / 1,025 curved (1,318 mm); text 430 rings, 2,910 straight (3,046 mm) / 1,016 curved (1,392 mm); tb 7 rings, 70 straight (151 mm) / 9 curved (12.0 mm)
+- **Centre lines:** 15,873 paths (86 closed); straight 10,707 mm, curved 225 mm; horizontal 3,822 mm, vertical 2,326 mm, diagonal 4,558 mm
+- **Circles and arcs:** 3 circles, 21 arcs; largest r 6.0 @ (50.3, 362.8), r 5.7 @ (50.8, 287.2), r 5.6 @ (50.6, 167.4)
+- **Closed boxes:** 15 (13 in the title block)
+- **Words (OCR):** 93 in 90 lines: E3 · +21-5v · Ris · 22 · 32 · Pn3645 · c7 · 03 · Zn2102 · Op · R3o · 6*8
+- **Title block:** (226, 0)–(336, 59) mm: IssuE]DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN GEB · 8 -109F · ENG MRW 4178 · BOOSTER AMPLiFIER · CKD · APP · SCHEMATIC · SCALE · ISSUE · 8-109-02-00 /
+- **Wiring (first pass):** 24 connected wire groups from 281 runs; labelled ends: 202 mm → E7; 202 mm → E3; 150 mm → R37, 4K7, 16, 22o/10; 148 mm → 15, 22o/10, E4, R3c; 107 mm → R34, MVv, 5-6, 15
+
+Every curve, box, word and wire group: [1978 - 8-109-02-007 - 8-109F BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).json](1978%20-%208-109-02-007%20-%208-109F%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 8-109-02-007 - 8-109F BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

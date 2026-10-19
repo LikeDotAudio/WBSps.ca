@@ -24,6 +24,17 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 1,005,337 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout C 461-04-008, size C 559 × 377 mm, 2000 × 1348 px traced (0.279 mm/px)
+- **Ink extent:** 0–559 mm across, 0–377 mm up
+- **Outlines:** line 622 rings, 10,122 straight (17,144 mm) / 1,519 curved (2,382 mm); text 267 rings, 1,941 straight (2,481 mm) / 544 curved (950 mm); tb 1,092 rings, 9,527 straight (13,130 mm) / 1,669 curved (2,686 mm)
+- **Closed boxes:** 34 (26 in the title block); named: WBS WARD-BECK BYBTEMG LTD_; In 101 inFUT AssEMBLY IMODULE; FiniSH; 008 01 461; ISS_
+- **Words (OCR):** 50 in 41 lines: Z2E ~AM? · 3ooster · WBS · Sw | · WESJ · 10 · 77 4 SEN ) · 5w/2 · SW/5 · 0-109 · 248 · SW9
+- **Title block:** (67, 4)–(546, 349) mm: 3ooster · WBS · Sw | · 77 4 SEN ) · 5w/2 · SW/5 · 0-109 · 248 · SW9 · WBS ) · WBs] · AUX · 4.03 · Sw7 · C:s · SW 10 · AUX · Swii · Ch On · SW? · Qutput AM? · Iv 461 M INPUT MODULE · OSSMODJICKD · USED
+
+Every curve, box, word and wire group: [1976 - 461-04-008 - M461M INPUT MODULE ASSEMBLY - DRN MING - ISS 2 (traced).json](1976%20-%20461-04-008%20-%20M461M%20INPUT%20MODULE%20ASSEMBLY%20-%20DRN%20MING%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 461-04-008 - M461M INPUT MODULE ASSEMBLY - DRN MING - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

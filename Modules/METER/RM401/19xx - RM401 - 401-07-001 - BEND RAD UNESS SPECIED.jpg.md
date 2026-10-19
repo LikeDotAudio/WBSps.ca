@@ -11,6 +11,16 @@ Wiki page: [RM401](../../../PAGES/RM401.md)
 - **Size:** 6,743,856 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** artwork 401-07-001, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–430 mm across, 17–307 mm up
+- **Outlines:** line 683 rings, 5,210 straight (9,279 mm) / 1,346 curved (1,339 mm); text 172 rings, 1,440 straight (1,505 mm) / 383 curved (441 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 3.2 @ (224.6, 186.0), r 3.2 @ (82.4, 173.1), r 3.1 @ (119.5, 172.9), r 3.1 @ (93.2, 173.1)
+- **Closed boxes:** 22
+
+Every curve, box, word and wire group: [19xx - RM401 - 401-07-001 - BEND RAD UNESS SPECIED (traced).json](19xx%20-%20RM401%20-%20401-07-001%20-%20BEND%20RAD%20UNESS%20SPECIED%20%28traced%29.json) (the CAD file: `19xx - RM401 - 401-07-001 - BEND RAD UNESS SPECIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

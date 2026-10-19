@@ -27,6 +27,21 @@ Wiki page: [M827](../../../PAGES/M827.md)
 
 - **1972** (labelled): `DATE NOV 72` — …S MOD CKD_ USED ON MATL . WBS WARD-BECK sysTEMS LTD- DRN Gp DATE NOV 72 CKD_ Ro SCALE TOLS_ M1 M827 POWER SUPPL SCHEMATIC B 827-02-…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 827-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–298 mm up
+- **Outlines:** line 462 rings, 7,768 straight (13,175 mm) / 1,156 curved (1,459 mm); text 420 rings, 3,334 straight (3,840 mm) / 925 curved (1,487 mm); tb 30 rings, 225 straight (344 mm) / 34 curved (45.6 mm)
+- **Centre lines:** 10,554 paths (113 closed); straight 11,205 mm, curved 123 mm; horizontal 4,625 mm, vertical 2,602 mm, diagonal 3,978 mm
+- **Circles and arcs:** 6 circles, 13 arcs; largest r 5.1 @ (350.0, 165.4), r 1.8 @ (306.2, 192.2), r 1.8 @ (379.1, 183.6), r 1.5 @ (237.6, 237.1)
+- **Closed boxes:** 37 (30 in the title block); named: FINISH; TOLS
+- **Dots (junctions):** 1
+- **Words (OCR):** 77 in 62 lines: RI · iOK sw · FI · SW | · IA SB · 167 Ls5 · 1,2 · C,D · 5,6 · F2 · c2 · 2A
+- **Title block:** (142, 18)–(413, 69) mm: ISS MMOD  [CKD: · USEDON · MATL · WBS · WARD-BECK SYSTEMS LTD:. · DRN SP · DATE · noV 72 · M827 · FINISH · POWER SUPPLX · CKD · SCHEMATIC · SCALE · 827-02 001 · ISS_ · TOLS
+- **Wiring (first pass):** 115 connected wire groups from 317 runs, 2 dotted junctions; labelled ends: 200 mm → iOK sw, C4, 9300, 40v; 194 mm → 1,2, 033, 400v; 175 mm → C3, 9300, 990-5, C4; 117 mm → iOK sw, 2A, C3, 9300; 63 mm → c2, 2oov, A;J
+
+Every curve, box, word and wire group: [1972 - 827-02-001 - POWER SUPPLY SCHEMATIC - DRN GP - ISS 1 (traced).json](1972%20-%20827-02-001%20-%20POWER%20SUPPLY%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1972 - 827-02-001 - POWER SUPPLY SCHEMATIC - DRN GP - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

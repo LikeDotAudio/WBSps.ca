@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 538,709 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 901-03-011, size B (assumed) 432 × 288 mm, 2000 × 1333 px traced (0.216 mm/px); scale DISC HO: MA93002
+- **Ink extent:** 45–422 mm across, 12–193 mm up
+- **Outlines:** line 265 rings, 2,572 straight (5,666 mm) / 462 curved (594 mm); text 146 rings, 911 straight (1,084 mm) / 353 curved (489 mm); tb 19 rings, 153 straight (221 mm) / 27 curved (36.6 mm)
+- **Centre lines:** 2,573 paths (45 closed); straight 4,073 mm, curved 26.4 mm; horizontal 2,140 mm, vertical 970 mm, diagonal 963 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 14 (12 in the title block); named: SSUEL; RESION
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 16 lines: 10 · Rod · SSUEL · RESION · WARD-BECK  SYSTEMS · WBS5 · IDRN; PAS · BOTTOM FOR · ENG; PAS · CKD_ · M901 TEST JIG · APP:
+- **Title block:** (304, 13)–(426, 58) mm: SSUEL · RESION · WARD-BECK  SYSTEMS · WBS5 · IDRN; PAS · BOTTOM FOR · ENG; PAS · CKD_ · M901 TEST JIG · APP: · SCALE DISC HO: MA93002 · 1;2 CODE: · 901-03-011 · SSUE
+
+Every curve, box, word and wire group: [19xx - M901 - DOC - 901-03-011 - SQES TDURCE FICTS (traced).json](19xx%20-%20M901%20-%20DOC%20-%20901-03-011%20-%20SQES%20TDURCE%20FICTS%20%28traced%29.json) (the CAD file: `19xx - M901 - DOC - 901-03-011 - SQES TDURCE FICTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

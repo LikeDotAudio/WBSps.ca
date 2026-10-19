@@ -10,6 +10,19 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,130,182 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 76045-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 645 rings, 4,601 straight (8,297 mm) / 496 curved (688 mm); text 1,329 rings, 6,515 straight (5,812 mm) / 1,450 curved (1,791 mm)
+- **Centre lines:** 4,884 paths (52 closed); straight 7,002 mm, curved 62.4 mm; horizontal 2,820 mm, vertical 1,758 mm, diagonal 2,424 mm
+- **Circles and arcs:** 2 circles, 14 arcs; largest r 1.2 @ (200.3, 51.7), r 0.8 @ (270.3, 23.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 206 in 187 lines: 20d6 Paey · Alud · INPJT · CHIANNEL-L · mG_ 4r · cla' #4+IL (m4 · 8o) · INSeRt · CHANNEL · i0dBm · 78 | · Mic
+- **Wiring (first pass):** 108 connected wire groups from 457 runs, 2 dotted junctions; labelled ends: 122 mm → PESELEGIORS, M4-3A, A1; 99 mm → M47eA, DUT, Te3, 124, 25; 62 mm → PFL, Bus; 53 mm → 3X1, LINE, Swr, 05 16 (47); 45 mm → 27,128(129) 6, J4).131 (132)
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-01-001 - SUMMING TES MICA DCSIL AMES (traced).json](1976%20-%2076045%20-%2076045-01-001%20-%20SUMMING%20TES%20MICA%20DCSIL%20AMES%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-01-001 - SUMMING TES MICA DCSIL AMES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

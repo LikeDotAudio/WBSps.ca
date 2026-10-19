@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,815,736 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960077-03-005, size B (assumed) 432 × 283 mm, 2000 × 1311 px traced (0.216 mm/px)
+- **Ink extent:** 26–424 mm across, 1–251 mm up
+- **Outlines:** line 955 rings, 6,548 straight (15,733 mm) / 1,227 curved (1,493 mm); text 266 rings, 1,493 straight (1,320 mm) / 503 curved (624 mm); tb 14 rings, 121 straight (157 mm) / 30 curved (34.7 mm)
+- **Centre lines:** 7,781 paths (224 closed); straight 9,876 mm, curved 112 mm; horizontal 5,396 mm, vertical 2,041 mm, diagonal 2,439 mm
+- **Circles and arcs:** 5 circles, 19 arcs; largest r 3.2 @ (62.0, 154.1), r 3.2 @ (61.9, 143.2), r 3.2 @ (72.3, 143.1), r 3.2 @ (72.3, 154.2)
+- **Closed boxes:** 25 (5 in the title block); named: REAR PANEL FOR MF82 (MODIFIED); DSC NO: S5M1; 960077-03-005
+- **Words (OCR):** 41 in 40 lines: 0 225 · 0750 · 0125 · DEIAL_A · DEIAI · 0,50 D · PLACES · 2000 · OLACES · 7975 · 0,en0 · Dgod
+- **Title block:** (344, 17)–(429, 39) mm: ISSUE DATE · WBS · WARD-BECK SYSTEMS · REAR PANEL
+
+Every curve, box, word and wire group: [1996 - DOC - 960077-03-005 - NOIES REMOVE ALL BURRS AND SHARP EDGES TOL (traced).json](1996%20-%20DOC%20-%20960077-03-005%20-%20NOIES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOL%20%28traced%29.json) (the CAD file: `1996 - DOC - 960077-03-005 - NOIES REMOVE ALL BURRS AND SHARP EDGES TOL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -1,0 +1,715 @@
+{
+ "code": "M612A",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": {
+    "count": 22,
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA (2).pdf",
+    "page": 9,
+    "quote": "Connector , 22 Pin"
+   }
+  },
+  {
+   "name": "P1",
+   "rows": 16,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "OUTPUT CAPABILITY THIS POWER AMPLIFIER EXCESS 2",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "172f01629d04c24f8b3e4073b4da8c742d124d02d3efbe7da0ff7f53dfd0ba1a",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - P017 - SA14-065 - 1-1.jpg",
+    "page": 1
+   },
+   "quote": "Integrated' circuit U4 along with through 05 make UP the lower half the power output amplifier while u5 along with 06 through 010 make UP the upper half_ The output capability this power amplifier excess 2 1/2 watts and appears at pins 18 and the assembly connector _ The output from this amplifier d",
+   "also": [
+    {
+     "signal": "OUTPUT CAPABILITY THIS POWER AMPLIFIER EXCESS 2",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - P017 - SA14-065 - 1-1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P1-2",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P1-8",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P1-9",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P1-12",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P1-13",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "2fd36edbc211f57725bf1f2e91ca6ca7181176aaee577bc1aa85cae4a0148e4d",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-003 - BYBTEMD TECHNICAL GROUND.jpg",
+    "page": 1
+   },
+   "quote": "PL-Z P1-16",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-003 - BYBTEMD TECHNICAL GROUND.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-1",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-2",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-4",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-5",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA.pdf",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-6",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6a65600e217a1114e9677b2e3fbe0ccebdd78233aebeebb7e8175378265c7ed9",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-002 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "P2-7",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "J",
+   "row": 8,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-J",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA (2).pdf",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6a65600e217a1114e9677b2e3fbe0ccebdd78233aebeebb7e8175378265c7ed9",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-002 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "P2-8",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-9",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-10",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-11",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA (2).pdf",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-12",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-13",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "403d9d0a6790dc3f098abfc7b593e55cfd25bedcac4d50650784c116c02c8580",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 12-02-002 - AUDIO DISTRIBUTION AMPLIFIER SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P2-14",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "f46b038736afa8ab652609698c4b2652c6d6a4cbb3d4d8450ab773ce4bfa811c",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA (2).pdf",
+    "page": 14
+   },
+   "quote": "> P2- S",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6a65600e217a1114e9677b2e3fbe0ccebdd78233aebeebb7e8175378265c7ed9",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-002 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "P2-15",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "6a65600e217a1114e9677b2e3fbe0ccebdd78233aebeebb7e8175378265c7ed9",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-002 - INDICATOR DRIVER.jpg",
+    "page": 1
+   },
+   "quote": "P2-16",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Z",
+   "row": 22,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "0bf55fbb1d9ce569a8de93e03b76c2a93a5850fe5383c3d44d8dddcc424fcf0b",
+    "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - 612-02-003 - STAT ION TECHNICAL GROUND INSULATED GROUND BAR TIPLE.jpg",
+    "page": 1
+   },
+   "quote": "P2-8 P2-16 A1 P2-Z",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA (2).pdf",
+     "page": 14
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA.pdf",
+     "page": 17
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA.pdf",
+     "page": 17
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/AMPLIFIERS/M612A/1983 - M612A - Audio DA.pdf",
+     "page": 17
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

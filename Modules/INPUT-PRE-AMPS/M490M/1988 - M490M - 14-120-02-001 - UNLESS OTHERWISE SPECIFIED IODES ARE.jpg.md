@@ -11,6 +11,20 @@ Wiki page: [M490M](../../../PAGES/M490M.md)
 - **Size:** 244,606 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-120-02-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 12–402 mm up
+- **Outlines:** line 660 rings, 7,083 straight (12,714 mm) / 1,457 curved (1,806 mm); text 586 rings, 3,459 straight (3,295 mm) / 1,233 curved (1,585 mm); tb 2 rings, 55 straight (151 mm) / 1 curved (1.4 mm)
+- **Centre lines:** 7,183 paths (154 closed); straight 9,289 mm, curved 252 mm; horizontal 3,184 mm, vertical 2,933 mm, diagonal 3,171 mm
+- **Circles and arcs:** 0 circles, 84 arcs
+- **Closed boxes:** 13
+- **Words (OCR):** 107 in 97 lines: PREAMP · Aix IL · PREFADE · 6.8/16 · C21 · U74 · Jjop · LEF · 328 R3O · 338 · 7/10 · CHANNEL
+- **Title block:** (214, 45)–(335, 69) mm: WBS · WARD-BECK SYSTEMB
+- **Wiring (first pass):** 89 connected wire groups from 627 runs; labelled ends: 317 mm → R68, 22k, C45, ,8/16; 309 mm → L7/10; 189 mm → 6.8/16, 328, R29, 22k; 179 mm → R67, 22k, R68, MBJJN; 133 mm → R65
+
+Every curve, box, word and wire group: [1988 - M490M - 14-120-02-001 - UNLESS OTHERWISE SPECIFIED IODES ARE (traced).json](1988%20-%20M490M%20-%2014-120-02-001%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20IODES%20ARE%20%28traced%29.json) (the CAD file: `1988 - M490M - 14-120-02-001 - UNLESS OTHERWISE SPECIFIED IODES ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

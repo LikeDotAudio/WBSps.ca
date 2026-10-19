@@ -31,22 +31,3 @@ tags: ["product", "pods", "2010s"]
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - POD22 - pod22_front.jpg](../Products/PODS/POD22/2014%20-%20POD22%20-%20pod22_front.jpg) | [note](../Products/PODS/POD22/2014%20-%20POD22%20-%20pod22_front.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "POD22",
- "name": "Stereo Loudness Meter",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD22/2014 - POD22 - pod22_front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

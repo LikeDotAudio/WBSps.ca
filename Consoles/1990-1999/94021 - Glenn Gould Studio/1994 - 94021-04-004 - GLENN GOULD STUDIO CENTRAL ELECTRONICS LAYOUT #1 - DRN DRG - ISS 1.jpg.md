@@ -22,6 +22,19 @@ Wiki page: [Job-94021](../../../PAGES/Job-94021.md)
 - **Size:** 398,021 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 94021-04-004, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 186–844 mm across, 14–395 mm up
+- **Outlines:** line 638 rings, 4,040 straight (27,429 mm) / 696 curved (2,138 mm); text 105 rings, 616 straight (1,366 mm) / 204 curved (560 mm); tb 13 rings, 117 straight (295 mm) / 34 curved (84.2 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 6.3 @ (531.6, 169.6), r 6.2 @ (427.0, 169.3), r 6.2 @ (398.5, 169.3), r 6.2 @ (474.5, 169.5)
+- **Closed boxes:** 105 (6 in the title block); named: RLOUNDAYT; RLOUNDAYT; GLEN NGOULD   STUDIO CENTRAL ELECTRONICS; 94021- 04-004
+- **Dots (junctions):** 1
+- **Words (OCR):** 9 in 8 lines: RLOUNDAYT · ISSUE DATE] · WBS · WARD-BECK SYSTEMS · GLEN NGOULD   STUDIO · CENTRAL ELECTRONICS · LAYOUT · 94021- 04-004
+- **Title block:** (686, 46)–(854, 88) mm: ISSUE DATE] · WBS · WARD-BECK SYSTEMS · GLEN NGOULD   STUDIO
+
+Every curve, box, word and wire group: [1994 - 94021-04-004 - GLENN GOULD STUDIO CENTRAL ELECTRONICS LAYOUT #1 - DRN DRG - ISS 1 (traced).json](1994%20-%2094021-04-004%20-%20GLENN%20GOULD%20STUDIO%20CENTRAL%20ELECTRONICS%20LAYOUT%20%231%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94021-04-004 - GLENN GOULD STUDIO CENTRAL ELECTRONICS LAYOUT #1 - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

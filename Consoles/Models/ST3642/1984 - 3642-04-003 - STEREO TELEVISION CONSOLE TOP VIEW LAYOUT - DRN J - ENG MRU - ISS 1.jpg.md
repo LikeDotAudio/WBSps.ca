@@ -24,6 +24,17 @@ Wiki page: [ST3642](../../../PAGES/ST3642.md)
 - **Size:** 3,908,790 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 3642-04-003, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 1,902 rings, 15,680 straight (34,199 mm) / 3,290 curved (7,644 mm); text 139 rings, 913 straight (2,016 mm) / 314 curved (852 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 2.4 @ (244.1, 657.0), r 2.3 @ (229.8, 644.9), r 2.3 @ (201.2, 645.0), r 2.3 @ (176.4, 549.1)
+- **Closed boxes:** 42
+- **Dots (junctions):** 21
+
+Every curve, box, word and wire group: [1984 - 3642-04-003 - STEREO TELEVISION CONSOLE TOP VIEW LAYOUT - DRN J - ENG MRU - ISS 1 (traced).json](1984%20-%203642-04-003%20-%20STEREO%20TELEVISION%20CONSOLE%20TOP%20VIEW%20LAYOUT%20-%20DRN%20J%20-%20ENG%20MRU%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1984 - 3642-04-003 - STEREO TELEVISION CONSOLE TOP VIEW LAYOUT - DRN J - ENG MRU - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

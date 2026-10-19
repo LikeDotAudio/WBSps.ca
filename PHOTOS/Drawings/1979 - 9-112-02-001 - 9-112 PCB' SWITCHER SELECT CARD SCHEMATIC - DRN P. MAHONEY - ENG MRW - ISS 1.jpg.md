@@ -22,6 +22,21 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 4,804,996 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 9-112-02-001, size B (assumed) 432 × 203 mm, 2000 × 940 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 18–162 mm up
+- **Outlines:** line 868 rings, 8,415 straight (15,193 mm) / 1,647 curved (2,002 mm); text 187 rings, 1,197 straight (1,070 mm) / 346 curved (445 mm); tb 6 rings, 61 straight (116 mm) / 7 curved (8.8 mm)
+- **Centre lines:** 11,214 paths (219 closed); straight 10,136 mm, curved 76.2 mm; horizontal 4,541 mm, vertical 2,403 mm, diagonal 3,192 mm
+- **Circles and arcs:** 1 circles, 29 arcs; largest r 0.8 @ (101.6, 58.7)
+- **Closed boxes:** 50 (3 in the title block); named: FEO; 74L75; 213; Ua 5447; U2; 9i3s; PcB 8-2 SWITCHER SELECT CARD SCHEMATIC; 9-112-02 0o1
+- **Dots (junctions):** 1
+- **Words (OCR):** 34 in 32 lines: LNITS · '8 4 & · Izy · FEO · 26 27 · Tz · EB2 · 213 · 74L75 · BECRENT · U2 · Ua
+- **Title block:** (358, 42)–(432, 59) mm: ESLEIDATE · REVIO" · WBS · WARD-BeCK SYSTEMS
+- **Wiring (first pass):** 106 connected wire groups from 940 runs, 3 dotted junctions; labelled ends: 577 mm → WBS, SWITCHER SELECT CARD; 331 mm → Tz, 26 27; 244 mm → 74L75; 212 mm → '8 4 &, U2; 133 mm → 213, EB2
+
+Every curve, box, word and wire group: [1979 - 9-112-02-001 - 9-112 PCB' SWITCHER SELECT CARD SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).json](1979%20-%209-112-02-001%20-%209-112%20PCB%27%20SWITCHER%20SELECT%20CARD%20SCHEMATIC%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 9-112-02-001 - 9-112 PCB' SWITCHER SELECT CARD SCHEMATIC - DRN P. MAHONEY - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -24,6 +24,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 1,379,131 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 520-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 178 rings, 2,930 straight (6,731 mm) / 373 curved (556 mm); text 454 rings, 3,671 straight (4,277 mm) / 1,152 curved (1,732 mm); tb 8 rings, 135 straight (262 mm) / 9 curved (13.3 mm)
+- **Centre lines:** 6,181 paths (74 closed); straight 7,319 mm, curved 5.1 mm; horizontal 3,056 mm, vertical 1,445 mm, diagonal 2,818 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 13 (9 in the title block)
+- **Words (OCR):** 57 in 49 lines: '050 · 225 · -187 · 850 · 400 · NOTES: · TOLERANCES · XX · 015 · XXX · 005 · REMOVE BURRS SHARP
+- **Title block:** (278, 7)–(431, 75) mm: Jedeszo-oz-007/2 BAAL7 · (ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN BD 23 · ENG. Mrw · M520 SERIES · LICON · SWITCH BRACKET · CKD: · APP · SCALE · 520-03-007 · ISSUE · 2X
+
+Every curve, box, word and wire group: [1983 - 520-03-007 - SERIES LICON SWITCH BRACKET - DRN BD - ENG MRW - ISS 2 (traced).json](1983%20-%20520-03-007%20-%20SERIES%20LICON%20SWITCH%20BRACKET%20-%20DRN%20BD%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1983 - 520-03-007 - SERIES LICON SWITCH BRACKET - DRN BD - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

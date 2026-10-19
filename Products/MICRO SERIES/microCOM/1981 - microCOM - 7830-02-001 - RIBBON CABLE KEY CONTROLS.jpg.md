@@ -11,6 +11,19 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,256,255 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7830-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–431 mm across, 0–287 mm up
+- **Outlines:** line 751 rings, 6,366 straight (9,165 mm) / 1,506 curved (1,765 mm); text 153 rings, 1,078 straight (924 mm) / 371 curved (459 mm)
+- **Centre lines:** 7,299 paths (121 closed); straight 6,152 mm, curved 71.0 mm; horizontal 2,418 mm, vertical 1,522 mm, diagonal 2,212 mm
+- **Circles and arcs:** 3 circles, 19 arcs; largest r 1.7 @ (161.4, 228.0), r 1.2 @ (394.6, 20.3), r 1.1 @ (398.2, 30.7)
+- **Closed boxes:** 15
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 82 connected wire groups from 585 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 7830-02-001 - RIBBON CABLE KEY CONTROLS (traced).json](1981%20-%20microCOM%20-%207830-02-001%20-%20RIBBON%20CABLE%20KEY%20CONTROLS%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7830-02-001 - RIBBON CABLE KEY CONTROLS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

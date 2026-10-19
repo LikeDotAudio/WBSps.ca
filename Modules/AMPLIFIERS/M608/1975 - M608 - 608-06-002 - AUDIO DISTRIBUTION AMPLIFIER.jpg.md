@@ -11,6 +11,17 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 162,922 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 608-06-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 1–431 mm up
+- **Outlines:** line 690 rings, 6,348 straight (8,165 mm) / 1,507 curved (1,410 mm); text 150 rings, 1,548 straight (1,593 mm) / 432 curved (508 mm); tb 145 rings, 758 straight (592 mm) / 161 curved (148 mm)
+- **Closed boxes:** 11 (11 in the title block)
+- **Words (OCR):** 21 in 20 lines: 7204 · T201 · T202 · R2o1 · F201 · APP · Iissue DATE · REVISION · WARD-BECK SYSTEMS · WBS · M608 · ENG: Mav 6/8
+- **Title block:** (193, 2)–(336, 76) mm: APP · Iissue DATE · REVISION · WARD-BECK SYSTEMS · WBS · M608 · ENG: Mav 6/8 · AUDIO · DISTRIBUTION AMPLIFIER · COMPONENT · LAYOUT · App: · ScALE · ISSUE · 608-06-002
+
+Every curve, box, word and wire group: [1975 - M608 - 608-06-002 - AUDIO DISTRIBUTION AMPLIFIER (traced).json](1975%20-%20M608%20-%20608-06-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M608 - 608-06-002 - AUDIO DISTRIBUTION AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

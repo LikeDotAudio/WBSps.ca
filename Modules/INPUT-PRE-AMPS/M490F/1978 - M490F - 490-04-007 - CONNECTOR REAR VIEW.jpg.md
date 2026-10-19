@@ -11,6 +11,17 @@ Wiki page: [M490F](../../../PAGES/M490F.md)
 - **Size:** 294,131 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-007, size B (assumed) 432 × 271 mm, 2000 × 1254 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–261 mm up
+- **Outlines:** line 172 rings, 1,695 straight (4,770 mm) / 237 curved (352 mm); text 920 rings, 6,629 straight (7,584 mm) / 1,768 curved (2,519 mm); tb 11 rings, 123 straight (283 mm) / 10 curved (13.7 mm)
+- **Closed boxes:** 59 (7 in the title block); named: 10 13 14 15 16 17 18 119 20 121 122; Kl 9; MMTT; N/12; 13; R/14; 15; 16; T/16; 17; ul17; 18
+- **Words (OCR):** 166 in 112 lines: PGM OUT, · LEFT · INPUT · LEFT · INPUT · LEFT · PGM · Out , LEFT · INPUT Right · RIGHT · PGM · OUT , RiGHT
+- **Title block:** (286, 0)–(432, 69) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN_ · ENG_ · (78 · M90F · STEREO · inPut MODULE · CKD · Rul · CONNECTOR · REAR VIEW · APP · SCALE · 490-04-007 · ISSUE
+
+Every curve, box, word and wire group: [1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW (traced).json](1978%20-%20M490F%20-%20490-04-007%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1978 - M490F - 490-04-007 - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

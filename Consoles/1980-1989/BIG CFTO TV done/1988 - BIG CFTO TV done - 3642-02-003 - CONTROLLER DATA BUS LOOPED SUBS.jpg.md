@@ -10,6 +10,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 31,083,297 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC NO: 227
+- **Ink extent:** 1–431 mm across, 0–278 mm up
+- **Outlines:** line 1,092 rings, 7,245 straight (11,743 mm) / 1,159 curved (1,402 mm); text 654 rings, 4,159 straight (3,127 mm) / 1,052 curved (1,201 mm); tb 21 rings, 247 straight (1,009 mm) / 15 curved (21.7 mm)
+- **Centre lines:** 10,698 paths (257 closed); straight 9,215 mm, curved 78.3 mm; horizontal 4,051 mm, vertical 2,290 mm, diagonal 2,874 mm
+- **Circles and arcs:** 2 circles, 29 arcs; largest r 1.8 @ (3.8, 14.3), r 1.8 @ (3.9, 68.2)
+- **Closed boxes:** 13; named: Z7; 51.52
+- **Words (OCR):** 136 in 125 lines: FEMALE Conn: · BACKPLANE CONNECTIORS · SUBMASTER · Croo_J7S · FC-J7P · Ele · CHANNELS · HOHO · TO MASTER · MCDULE M527 · MI=R · M2 Vono
+- **Title block:** (340, 1)–(431, 35) mm: SSUE DAW · REMSION · WBS · WARD-BECK SYSTEMS · IRN; D.s 5/88 · ENG_ · SUBMASTER CHANNEL · cd. · SCHEMATIC · ApP · SCALE DISC NO: 227 · ISSUE · CODE: 3642S03 · 3642-02-003
+- **Wiring (first pass):** 102 connected wire groups from 927 runs; labelled ends: 506 mm → DUSEDTO, 5253,54, 25v, CND; 496 mm → MODULE M528, To AuXJ_, LCOPED, SLBUASIER MCDulES; 338 mm → HuSAD, 57e54, 17.56, 18.,19,37; 308 mm → AJ, 4p, CONR, ~ibdbr; 131 mm → 4p, CONR
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-003 - CONTROLLER DATA BUS LOOPED SUBS (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-003%20-%20CONTROLLER%20DATA%20BUS%20LOOPED%20SUBS%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-003 - CONTROLLER DATA BUS LOOPED SUBS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

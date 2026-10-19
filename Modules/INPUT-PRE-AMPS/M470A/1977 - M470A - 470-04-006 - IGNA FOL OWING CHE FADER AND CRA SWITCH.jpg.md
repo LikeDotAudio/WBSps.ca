@@ -11,6 +11,19 @@ Wiki page: [M470A](../../../PAGES/M470A.md)
 - **Size:** 333,703 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-006, size B (assumed) 432 × 307 mm, 2000 × 1421 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–304 mm up
+- **Outlines:** line 215 rings, 2,011 straight (10,213 mm) / 221 curved (277 mm); text 2,305 rings, 11,040 straight (8,601 mm) / 3,727 curved (4,319 mm); tb 463 rings, 2,924 straight (7,595 mm) / 653 curved (1,097 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.7 @ (30.2, 224.9), r 0.7 @ (85.6, 52.0)
+- **Closed boxes:** 2 (1 in the title block); named: nnER SOLO switch Sh2z: When the Fe3 igna
+- **Dots (junctions):** 1
+- **Words (OCR):** 355 in 211 lines: WBS · M470a · MASTER ASSiGNMENT switch SWI7: When depressed · LEFT · MASTER · output · Ass IGNMENT Sitch · T9AsTER Fed M2 . · Sw2I · via · Whendepressed RIGHT · summing resistors
+- **Title block:** (165, 0)–(432, 307) mm: WBS · M470a · MASTER · output · Ass IGNMENT Sitch · T9AsTER Fed M2 . · Sw2I · via · Whendepressed RIGHT · summing resistors · externa · 5 Uring bus · SUBMA STER · ASS IGNMENT switches · ShIB and Sw19 
+
+Every curve, box, word and wire group: [1977 - M470A - 470-04-006 - IGNA FOL OWING CHE FADER AND CRA SWITCH (traced).json](1977%20-%20M470A%20-%20470-04-006%20-%20IGNA%20FOL%20OWING%20CHE%20FADER%20AND%20CRA%20SWITCH%20%28traced%29.json) (the CAD file: `1977 - M470A - 470-04-006 - IGNA FOL OWING CHE FADER AND CRA SWITCH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 25 words corrected)

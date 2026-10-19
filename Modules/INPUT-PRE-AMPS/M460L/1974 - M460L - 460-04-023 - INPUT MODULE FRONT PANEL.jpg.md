@@ -11,6 +11,18 @@ Wiki page: [M460L](../../../PAGES/M460L.md)
 - **Size:** 437,615 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 460-04-023, size B (assumed) 274 × 432 mm, 1271 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 10–274 mm across, 0–426 mm up
+- **Outlines:** line 67 rings, 1,302 straight (6,376 mm) / 292 curved (888 mm); text 279 rings, 1,810 straight (2,011 mm) / 618 curved (892 mm); tb 731 rings, 4,230 straight (7,647 mm) / 1,464 curved (3,034 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 5.3 @ (15.5, 197.7), r 5.3 @ (15.7, 310.8), r 5.2 @ (15.6, 228.8), r 5.2 @ (15.4, 67.2)
+- **Dots (junctions):** 1
+- **Words (OCR):** 56 in 51 lines: WBS · M460L · Mic · PAD OFF · 100 · 50 150 · 19 · 25 2501 · HP SEN · PA · 22 · PRE
+- **Title block:** (88, 0)–(274, 431) mm: WBS · M460L · Mic · PAD OFF · 100 · 50 150 · 19 · 25 2501 · HP SEN · PA · 22 · PRE · RS-€-PA · RS · 23) · PRE · 24 · PRE · 25 · 3/4-€-V/2 · 26 · PRE · RHz · 28 · MF · KHI · 29 · 100 180 220 · 260 · 30
+
+Every curve, box, word and wire group: [1974 - M460L - 460-04-023 - INPUT MODULE FRONT PANEL (traced).json](1974%20-%20M460L%20-%20460-04-023%20-%20INPUT%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1974 - M460L - 460-04-023 - INPUT MODULE FRONT PANEL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

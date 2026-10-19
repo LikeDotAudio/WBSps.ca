@@ -22,6 +22,20 @@ M472A equalizer module schematic, cropped.
 - **Size:** 173,430 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 472-02-002, size B 334 × 432 mm, 1264 × 1634 px traced (0.264 mm/px)
+- **Ink extent:** 0–324 mm across, 14–418 mm up
+- **Outlines:** line 724 rings, 5,208 straight (8,786 mm) / 1,010 curved (1,420 mm); text 292 rings, 1,884 straight (2,070 mm) / 497 curved (775 mm); tb 2 rings, 50 straight (150 mm) / 2 curved (6.1 mm)
+- **Centre lines:** 4,867 paths (153 closed); straight 6,119 mm, curved 17.4 mm; horizontal 2,311 mm, vertical 1,454 mm, diagonal 2,354 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 1
+- **Words (OCR):** 47 in 45 lines: Iksea" · Yintn · 5414 · Left Qutpvt · 380 _ · Care · 6G2 · Cut/boust · 37007 · LhalIN · LheJM · khr -1
+- **Title block:** (204, 46)–(330, 72) mm: WBS · WAAD-BECK BYSTEMB
+- **Wiring (first pass):** 113 connected wire groups from 417 runs; labelled ends: 123 mm → avin, Cut/BOOst; 73 mm → Cut/boust; 71 mm → 6G2; 63 mm → nhdo; 60 mm → Dop
+
+Every curve, box, word and wire group: [19xx - 472-02-002 - EQUALIZER MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20472-02-002%20-%20EQUALIZER%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 472-02-002 - EQUALIZER MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

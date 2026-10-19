@@ -23,6 +23,19 @@ Wiki page: [M524](../../../PAGES/M524.md)
 - **Size:** 1,417,781 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 524-03-103, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: M5OO-1
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 98 rings, 2,318 straight (9,323 mm) / 214 curved (293 mm); text 868 rings, 5,153 straight (5,754 mm) / 1,848 curved (2,633 mm); tb 3 rings, 76 straight (185 mm) / 10 curved (20.9 mm)
+- **Centre lines:** 4,611 paths (171 closed); straight 8,994 mm, curved 6.1 mm; horizontal 4,071 mm, vertical 2,175 mm, diagonal 2,748 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 17 (12 in the title block); named: SCALE 1/1; CODE: MM524-3
+- **Words (OCR):** 87 in 68 lines: 889 · +.000 · 7.008 · 005 · 1.108 · +.000 · .003 · +.000 · 2.074 · +.000 · 2.188 005 · +.000
+- **Title block:** (245, 22)–(416, 90) mm: IISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN: MRW 5//86 · M524A · ENG MRW 5/86 · CKD: · Front Panel Display Screens · APP · SCALE DISC NO: M5OO-1 · ISSUE · 1/1 CODE: MM524-3 · 524-03-1
+
+Every curve, box, word and wire group: [1986 - 524-03-103 - M524A Front Panel Display Screens - DRN MRW - ENG MRW - ISS 1 (traced).json](1986%20-%20524-03-103%20-%20M524A%20Front%20Panel%20Display%20Screens%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1986 - 524-03-103 - M524A Front Panel Display Screens - DRN MRW - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

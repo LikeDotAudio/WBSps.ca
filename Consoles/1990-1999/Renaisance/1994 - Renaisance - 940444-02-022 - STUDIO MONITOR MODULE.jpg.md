@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,577,519 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 940444-02-022, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–414 mm across, 18–305 mm up
+- **Outlines:** line 1,364 rings, 15,894 straight (21,814 mm) / 3,583 curved (4,160 mm); text 103 rings, 860 straight (774 mm) / 247 curved (314 mm)
+- **Centre lines:** 21,354 paths (361 closed); straight 15,076 mm, curved 116 mm; horizontal 4,823 mm, vertical 4,371 mm, diagonal 5,881 mm
+- **Circles and arcs:** 2 circles, 41 arcs; largest r 0.7 @ (66.6, 207.1), r 0.7 @ (138.5, 269.5)
+- **Closed boxes:** 21
+- **Wiring (first pass):** 243 connected wire groups from 1,547 runs
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940444-02-022 - STUDIO MONITOR MODULE (traced).json](1994%20-%20Renaisance%20-%20940444-02-022%20-%20STUDIO%20MONITOR%20MODULE%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940444-02-022 - STUDIO MONITOR MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

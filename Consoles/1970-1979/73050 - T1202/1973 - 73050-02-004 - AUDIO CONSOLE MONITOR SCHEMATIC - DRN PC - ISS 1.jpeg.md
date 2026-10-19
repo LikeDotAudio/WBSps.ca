@@ -22,6 +22,21 @@ Wiki page: [Job-73050](../../../PAGES/Job-73050.md)
 - **Size:** 1,540,232 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 73050-02-004, size B (assumed) 432 × 136 mm, 2000 × 630 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–136 mm up
+- **Outlines:** line 670 rings, 7,330 straight (12,370 mm) / 1,089 curved (1,387 mm); text 550 rings, 3,200 straight (2,606 mm) / 1,008 curved (1,210 mm); tb 12 rings, 98 straight (136 mm) / 12 curved (16.6 mm)
+- **Centre lines:** 7,873 paths (149 closed); straight 8,923 mm, curved 75.5 mm; horizontal 3,412 mm, vertical 2,657 mm, diagonal 2,855 mm
+- **Circles and arcs:** 2 circles, 28 arcs; largest r 0.9 @ (195.9, 115.9), r 0.9 @ (195.7, 63.2)
+- **Closed boxes:** 74 (25 in the title block); named: TuRRET; SELECTOR Air; WBS WAAD-beck BybteMB LtD_; AUDiO CONSOLE MONITCR SCHEMATIC; IMISH; 73050-02_004; ISS; TOLS
+- **Dots (junctions):** 2
+- **Words (OCR):** 114 in 96 lines: Set · SEL · XHEMATK · STo MOh · Selestor_ · 073 0X72 · EXT | · F52 · SEL · 782 · TB2 · 2.5846
+- **Title block:** (285, 3)–(412, 28) mm: PGM HDSILEVEL · DSS MODAICKD: · USED ON · WBS WAAD-beck BybteMB LtD_ · IMISH · DRA: · DatE €epT 773 · RC · AUDiO CONSOLE · CKD · MONITCR SCHEMATIC · SCALE · TOLS · 73050-02_004
+- **Wiring (first pass):** 113 connected wire groups from 664 runs; labelled ends: 268 mm → Selestor_, Air; 126 mm → T2, (-18); 117 mm → Zok/600, 842; 113 mm → Z0k, 600J, 842; 96 mm → M2
+
+Every curve, box, word and wire group: [1973 - 73050-02-004 - AUDIO CONSOLE MONITOR SCHEMATIC - DRN PC - ISS 1 (traced).json](1973%20-%2073050-02-004%20-%20AUDIO%20CONSOLE%20MONITOR%20SCHEMATIC%20-%20DRN%20PC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 73050-02-004 - AUDIO CONSOLE MONITOR SCHEMATIC - DRN PC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

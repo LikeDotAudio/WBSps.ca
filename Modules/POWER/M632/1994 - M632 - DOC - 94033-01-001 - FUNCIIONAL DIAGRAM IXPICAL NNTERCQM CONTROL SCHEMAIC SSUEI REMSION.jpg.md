@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,317,579 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 94033-01-001, size B (assumed) 432 × 278 mm, 2000 × 1289 px traced (0.216 mm/px)
+- **Ink extent:** 74–431 mm across, 4–239 mm up
+- **Outlines:** line 820 rings, 7,243 straight (12,669 mm) / 971 curved (1,200 mm); text 152 rings, 966 straight (1,023 mm) / 298 curved (390 mm); tb 19 rings, 145 straight (176 mm) / 36 curved (39.1 mm)
+- **Centre lines:** 24,490 paths (100 closed); straight 11,836 mm, curved 48.9 mm; horizontal 3,648 mm, vertical 3,162 mm, diagonal 5,027 mm
+- **Circles and arcs:** 38 circles, 16 arcs; largest r 3.3 @ (142.3, 122.1), r 3.3 @ (142.3, 103.1), r 3.3 @ (148.6, 122.2), r 3.3 @ (129.6, 109.5)
+- **Closed boxes:** 26 (4 in the title block); named: VarI}; VarI}; 4652; 4652; COLLEGE CENTENNIAL RADIO INTERCOM; ZCALE; 94033-01-001
+- **Words (OCR):** 19 in 16 lines: VarI} · 5.25 · 3,50" · 4652 · LATCU · FUTURE · QUIURL · EUNCTIONALDIAGRAM · IXPICAL_NNIERCOM CONTROL SCHEMATIC · WBS · WARD-BECK SYSTEMS · CENTENNIAL
+- **Title block:** (340, 20)–(424, 36) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 97 connected wire groups from 924 runs; labelled ends: 59 mm → 4652; 54 mm → 4652; 22 mm → ZCALE; 19 mm → WBS, DISc NO: 450; 18 mm → WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - M632 - DOC - 94033-01-001 - FUNCIIONAL DIAGRAM IXPICAL NNTERCQM CONTROL SCHEMAIC SSUEI REMSION (traced).json](1994%20-%20M632%20-%20DOC%20-%2094033-01-001%20-%20FUNCIIONAL%20DIAGRAM%20IXPICAL%20NNTERCQM%20CONTROL%20SCHEMAIC%20SSUEI%20REMSION%20%28traced%29.json) (the CAD file: `1994 - M632 - DOC - 94033-01-001 - FUNCIIONAL DIAGRAM IXPICAL NNTERCQM CONTROL SCHEMAIC SSUEI REMSION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

@@ -24,6 +24,20 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 742,001 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 455-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 324 rings, 4,522 straight (13,352 mm) / 752 curved (1,156 mm); text 793 rings, 5,136 straight (5,636 mm) / 1,891 curved (2,568 mm); tb 25 rings, 171 straight (250 mm) / 36 curved (49.2 mm)
+- **Centre lines:** 8,031 paths (144 closed); straight 11,415 mm, curved 367 mm; horizontal 4,748 mm, vertical 2,266 mm, diagonal 4,401 mm
+- **Circles and arcs:** 12 circles, 59 arcs; largest r 4.1 @ (304.6, 123.8), r 3.9 @ (137.2, 103.9), r 3.8 @ (147.2, 116.6), r 3.7 @ (137.2, 47.3)
+- **Closed boxes:** 31 (4 in the title block); named: WBS WAAD-Beck LTD; MATL,; ISSMopCcKol; M455 AUXILIARY MODULE SCHEMATIC; 3538; 455-02-001
+- **Words (OCR):** 150 in 136 lines: Sw1 · Sw2 Jio · R?6 R35 R3? · EXTERNAL · METER · 9i0 · 910 · vu · INPUT · Jii · R34< 8k2 · +8dBm NOM
+- **Title block:** (322, 13)–(398, 48) mm: WBS WAAD-Beck · Pm · M455 · AUXILIARY MODULE · CKD_ 444 · SCHEMATIC · SCALE · it · TOLS · 455-02-001
+- **Wiring (first pass):** 100 connected wire groups from 389 runs; labelled ends: 321 mm → ISSMopCcKol, [755, zep, 225L; 230 mm → 12}, 88, R28, 300; 119 mm → 12}, 88, 1E4; 107 mm → Tip298R42, 5.6, R43, PN3569; 97 mm → C4, 22/25, CRA, 1n4003
+
+Every curve, box, word and wire group: [1974 - 455-02-001 - AUXILIARY MODULE SCHEMATIC - DRN DM - ISS 6 (traced).json](1974%20-%20455-02-001%20-%20AUXILIARY%20MODULE%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1974 - 455-02-001 - AUXILIARY MODULE SCHEMATIC - DRN DM - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [M521A](../../../PAGES/M521A.md)
 - **Size:** 63,684,913 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 521-02-002, size B (assumed) 432 × 334 mm, 2000 × 1545 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–334 mm up
+- **Outlines:** line 1,970 rings, 16,938 straight (24,198 mm) / 2,635 curved (2,975 mm); text 28 rings, 192 straight (175 mm) / 57 curved (71.3 mm)
+- **Centre lines:** 15,173 paths (412 closed); straight 13,693 mm, curved 82.3 mm; horizontal 5,623 mm, vertical 4,386 mm, diagonal 3,684 mm
+- **Circles and arcs:** 1 circles, 18 arcs; largest r 0.9 @ (218.7, 331.6)
+- **Closed boxes:** 22; named: STEREO
+- **Dots (junctions):** 1
+- **Words (OCR):** 4 in 4 lines: 250 · WBS · STEREO · 521-02-002/1
+- **Wiring (first pass):** 223 connected wire groups from 1,416 runs; labelled ends: 129 mm → WBS; 47 mm → 521-02-002/1; 10 mm → WBS; 8 mm → WBS, STEREO
+
+Every curve, box, word and wire group: [1982 - M521A - 521-02-002 - STEREO INPT MOPULE (traced).json](1982%20-%20M521A%20-%20521-02-002%20-%20STEREO%20INPT%20MOPULE%20%28traced%29.json) (the CAD file: `1982 - M521A - 521-02-002 - STEREO INPT MOPULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 13 words corrected)

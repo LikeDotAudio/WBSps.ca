@@ -11,6 +11,17 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,295,593 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 9–432 mm up
+- **Outlines:** line 1,036 rings, 9,184 straight (17,181 mm) / 2,070 curved (2,936 mm); text 90 rings, 621 straight (657 mm) / 168 curved (240 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.0 @ (70.0, 87.8)
+- **Closed boxes:** 34; named: D00; D00; M525 MONITOR MODULES
+- **Words (OCR):** 13 in 12 lines: JULES · D00 · INPUT; · INSERT AND · QUTPUT JACKFIELD · M525 · MONITOR · MODULES · MON · LON · TER · ERS
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-003 - INPUT INSERT AND OUTPUT JACKFIELD (traced).json](1988%20-%20880134%20-%20880134-04-003%20-%20INPUT%20INSERT%20AND%20OUTPUT%20JACKFIELD%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-003 - INPUT INSERT AND OUTPUT JACKFIELD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

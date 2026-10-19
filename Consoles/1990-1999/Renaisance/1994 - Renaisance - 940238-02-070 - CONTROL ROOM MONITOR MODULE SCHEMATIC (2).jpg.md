@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,841,562 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 940238-02-070, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–416 mm across, 19–305 mm up
+- **Outlines:** line 1,133 rings, 10,643 straight (14,074 mm) / 2,386 curved (2,755 mm); text 165 rings, 1,120 straight (968 mm) / 324 curved (399 mm)
+- **Centre lines:** 13,127 paths (325 closed); straight 9,559 mm, curved 131 mm; horizontal 3,057 mm, vertical 2,748 mm, diagonal 3,754 mm
+- **Circles and arcs:** 15 circles, 26 arcs; largest r 1.4 @ (382.4, 45.7), r 1.4 @ (359.8, 45.7), r 1.4 @ (350.1, 45.8), r 1.3 @ (377.2, 51.0)
+- **Closed boxes:** 8
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 150 connected wire groups from 998 runs, 1 dotted junctions
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940238-02-070 - CONTROL ROOM MONITOR MODULE SCHEMATIC (2) (traced).json](1994%20-%20Renaisance%20-%20940238-02-070%20-%20CONTROL%20ROOM%20MONITOR%20MODULE%20SCHEMATIC%20%282%29%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940238-02-070 - CONTROL ROOM MONITOR MODULE SCHEMATIC (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

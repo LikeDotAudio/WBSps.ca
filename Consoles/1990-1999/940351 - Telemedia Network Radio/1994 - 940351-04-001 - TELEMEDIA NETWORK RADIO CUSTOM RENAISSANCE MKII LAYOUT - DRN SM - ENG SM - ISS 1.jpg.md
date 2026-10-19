@@ -22,6 +22,18 @@ Wiki page: [Job-940351](../../../PAGES/Job-940351.md)
 - **Size:** 676,806 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 940351-04-001, size D 864 × 564 mm, 2000 × 1305 px traced (0.432 mm/px); scale DISC ND: 486
+- **Ink extent:** 165–820 mm across, 33–493 mm up
+- **Outlines:** line 1,231 rings, 8,249 straight (38,754 mm) / 1,221 curved (2,919 mm); text 214 rings, 1,313 straight (2,461 mm) / 386 curved (970 mm); tb 30 rings, 277 straight (2,465 mm) / 22 curved (59.4 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 8.5 @ (588.1, 243.6), r 8.4 @ (587.6, 210.7), r 3.2 @ (343.9, 312.8), r 3.2 @ (487.3, 311.3)
+- **Closed boxes:** 186; named: METER SELECTOR CR HON STD VON M907 M909 ; M9058; STUDID; Sud; OPTIONALI
+- **Words (OCR):** 39 in 25 lines: METER SELECTOR · M907 M9o7 · CR HON STD VON · M909 M908 · V907 M9OSA · M9058 · STUDID · Sud · ChDa · chnOm · Ch OM · OPTIONALI
+- **Title block:** (650, 30)–(834, 107) mm: ISSUEL · REVISION · WBS WARD-BECK SYSTEMS · DRNA · TELEMEDIA cUSTOIORK RADIO · ENG · CKD; · RENAISS OSE MKII · LA · SCALE DISC ND: 486 · 1:2 CODE: 9-S5iidi · 940351-04-001 · ISSUE
+
+Every curve, box, word and wire group: [1994 - 940351-04-001 - TELEMEDIA NETWORK RADIO CUSTOM RENAISSANCE MKII LAYOUT - DRN SM - ENG SM - ISS 1 (traced).json](1994%20-%20940351-04-001%20-%20TELEMEDIA%20NETWORK%20RADIO%20CUSTOM%20RENAISSANCE%20MKII%20LAYOUT%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940351-04-001 - TELEMEDIA NETWORK RADIO CUSTOM RENAISSANCE MKII LAYOUT - DRN SM - ENG SM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

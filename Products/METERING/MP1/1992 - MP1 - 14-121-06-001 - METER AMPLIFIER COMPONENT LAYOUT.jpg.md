@@ -11,6 +11,18 @@ Wiki page: [MP1](../../../PAGES/MP1.md)
 - **Size:** 955,023 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 14-121-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–314 mm across, 19–372 mm up
+- **Outlines:** line 363 rings, 2,856 straight (3,788 mm) / 827 curved (935 mm); text 290 rings, 2,278 straight (2,244 mm) / 642 curved (741 mm); tb 40 rings, 398 straight (562 mm) / 102 curved (123 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 10.0 @ (58.7, 224.3), r 10.0 @ (114.5, 224.4), r 4.0 @ (114.5, 224.4), r 4.0 @ (58.6, 224.3)
+- **Closed boxes:** 5; named: SVI WBS RIZ Sak SENS CANADA STRAP 14-121
+- **Words (OCR):** 31 in 26 lines: SVI · RIZ Sak · WBS · SENS · CANADA · STRAP · 14-121 · 8a · 148 · ISSUE · 24 · hlo
+- **Title block:** (124, 47)–(322, 287) mm: WBS · CANADA · 14-121 · ISSUE · 22/25 · 22/25 · 22422 · WBS WARD-BECK SYSTEMS · SA14-121
+
+Every curve, box, word and wire group: [1992 - MP1 - 14-121-06-001 - METER AMPLIFIER COMPONENT LAYOUT (traced).json](1992%20-%20MP1%20-%2014-121-06-001%20-%20METER%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1992 - MP1 - 14-121-06-001 - METER AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

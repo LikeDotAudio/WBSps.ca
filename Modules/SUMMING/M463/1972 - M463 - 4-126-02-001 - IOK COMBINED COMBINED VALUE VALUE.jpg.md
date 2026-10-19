@@ -12,6 +12,18 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 382,133 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 4-126-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 293 rings, 3,418 straight (6,973 mm) / 657 curved (878 mm); text 464 rings, 3,291 straight (3,793 mm) / 1,035 curved (1,548 mm)
+- **Centre lines:** 5,146 paths (72 closed); straight 6,610 mm, curved 133 mm; horizontal 2,251 mm, vertical 1,429 mm, diagonal 2,930 mm
+- **Circles and arcs:** 5 circles, 32 arcs; largest r 1.5 @ (225.0, 301.2), r 1.4 @ (159.7, 338.3), r 1.2 @ (253.3, 297.4), r 1.1 @ (230.7, 340.1)
+- **Words (OCR):** 83 in 72 lines: HGH · EREQUENGY (16kHz. 25kAz. ) · ok · RB · X6kz cio · Ri2 · 6k2 · CG · c3 · 6816 · ~A8RED · VALDE
+- **Wiring (first pass):** 38 connected wire groups from 232 runs; labelled ends: 212 mm → c3, 6816, CG, VALDE; 165 mm → RB, 6k2, 620, R7; 163 mm → cio, ~A8RED, VALUE, Ci; 150 mm → Ri2, X6kz, ~A8RED, cio; 123 mm → Ri2, X6kz, ok
+
+Every curve, box, word and wire group: [1972 - M463 - 4-126-02-001 - IOK COMBINED COMBINED VALUE VALUE (traced).json](1972%20-%20M463%20-%204-126-02-001%20-%20IOK%20COMBINED%20COMBINED%20VALUE%20VALUE%20%28traced%29.json) (the CAD file: `1972 - M463 - 4-126-02-001 - IOK COMBINED COMBINED VALUE VALUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

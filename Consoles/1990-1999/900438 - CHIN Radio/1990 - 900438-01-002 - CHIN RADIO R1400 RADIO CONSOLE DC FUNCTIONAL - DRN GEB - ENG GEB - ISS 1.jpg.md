@@ -24,6 +24,20 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 21,325,305 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 900438-01-002, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DISC NGi
+- **Ink extent:** 0–857 mm across, 0–542 mm up
+- **Outlines:** line 324 rings, 3,094 straight (12,378 mm) / 533 curved (1,370 mm); text 463 rings, 3,767 straight (6,588 mm) / 1,029 curved (2,438 mm); tb 26 rings, 361 straight (2,384 mm) / 39 curved (105 mm)
+- **Centre lines:** 10,696 paths (152 closed); straight 13,592 mm, curved 103 mm; horizontal 4,662 mm, vertical 3,530 mm, diagonal 5,400 mm
+- **Circles and arcs:** 5 circles, 7 arcs; largest r 2.2 @ (172.9, 193.5), r 2.2 @ (140.9, 193.4), r 2.1 @ (204.3, 193.9), r 2.0 @ (230.4, 172.6)
+- **Closed boxes:** 11; named: M495_MONIIQRMODULE; WES_MBL_EEB; Mi95 NONITORMODULE; Mi95_NONITORMQDVLE; MISIACUE_APLIEEB; LiSIL IAKBACK MODULE; 8-103 TRANSFER CONTROL; M6258
+- **Words (OCR):** 105 in 93 lines: MC NPUL CHANNELS (33 · MONITORING · MMER · START/ON · CH ON · CONTROL · MUTE · M495_MONIIQRMODULE · WES_MBL_EEB · CONTROLS · EXTERNAL · STOP /OFF
+- **Title block:** (672, 9)–(854, 85) mm: ISSUE DATE · REMSION · WBS · WARD-BECK SYSTEMS · DRN: GEB · CHIN RADIO R1400 · ENG: GEB 8/90 · CKD: · RADIO CONSOLE · DC   FUNCTIONAL · SCALE DISC NGi · 900438-01-002 · ISSUE · CODE: 00438F02
+- **Wiring (first pass):** 103 connected wire groups from 439 runs; labelled ends: 332 mm → NPUL MQDUL ES (-14, MA9QEA_SIEREQ_UNE_INPUL_MQQUL $; 95 mm → NPUL MQDUL ES (-14; 84 mm → TRANSFER_CONIROL; 71 mm → POWER_CABLE, LENGTH 10 FEET; 44 mm → NPUL CHANNELS
+
+Every curve, box, word and wire group: [1990 - 900438-01-002 - CHIN RADIO R1400 RADIO CONSOLE DC FUNCTIONAL - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-01-002%20-%20CHIN%20RADIO%20R1400%20RADIO%20CONSOLE%20DC%20FUNCTIONAL%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-01-002 - CHIN RADIO R1400 RADIO CONSOLE DC FUNCTIONAL - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

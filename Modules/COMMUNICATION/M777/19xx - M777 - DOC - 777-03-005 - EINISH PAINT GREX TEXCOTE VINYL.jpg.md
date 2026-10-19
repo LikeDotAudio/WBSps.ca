@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,880,319 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 777-03-005, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale 1:1
+- **Ink extent:** 0–432 mm across, 10–299 mm up
+- **Outlines:** line 341 rings, 5,017 straight (11,212 mm) / 707 curved (932 mm); text 387 rings, 2,961 straight (3,712 mm) / 825 curved (1,260 mm); tb 18 rings, 199 straight (331 mm) / 27 curved (37.2 mm)
+- **Centre lines:** 9,937 paths (73 closed); straight 9,941 mm, curved 57.6 mm; horizontal 4,726 mm, vertical 1,957 mm, diagonal 3,259 mm
+- **Circles and arcs:** 1 circles, 12 arcs; largest r 1.3 @ (352.9, 122.8)
+- **Closed boxes:** 19 (9 in the title block); named: 8/32; 950 WAS; 6/81; WAS ADDED
+- **Words (OCR):** 54 in 46 lines: #4-40 UNC ~ 2 PLACES · #4-AOUNC 2 PLACES · .990 · 1.03 · 220 · 20 · 3.600 · 25 · 4.00 · 2.50 · 220 · #4-40 UNC-2 PLACES
+- **Title block:** (278, 3)–(431, 71) mm: 6/81 · WAS ADDED · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN RMAHONE y · ENG MA 6/34 · M777 · CKD: · BACK PLANE · MTG ANGLES · APP · SCALE 1:1 · ISSUE · 777-03-005 · 015 · 005
+
+Every curve, box, word and wire group: [19xx - M777 - DOC - 777-03-005 - EINISH PAINT GREX TEXCOTE VINYL (traced).json](19xx%20-%20M777%20-%20DOC%20-%20777-03-005%20-%20EINISH%20PAINT%20GREX%20TEXCOTE%20VINYL%20%28traced%29.json) (the CAD file: `19xx - M777 - DOC - 777-03-005 - EINISH PAINT GREX TEXCOTE VINYL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -10,6 +10,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 6,173,556 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 76045-01-010, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–302 mm across, 0–423 mm up
+- **Outlines:** line 292 rings, 2,112 straight (3,141 mm) / 369 curved (490 mm); text 845 rings, 5,417 straight (5,559 mm) / 1,571 curved (2,286 mm)
+- **Centre lines:** 3,589 paths (88 closed); straight 5,031 mm, curved 55.6 mm; horizontal 1,125 mm, vertical 862 mm, diagonal 3,044 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Words (OCR):** 128 in 85 lines: INPUT · MoPULEs 3-16 · PiN · 16 · RED · 20 · eze Gc BLK (SEpAAATE RUNS) · 19 · Ge · vio · NPUT Mobules (7-20 · PIN
+- **Wiring (first pass):** 7 connected wire groups from 74 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-01-010 - VIO MINAL BLOCKS SHIELDS ETC REQUIRED (traced).json](1976%20-%2076045%20-%2076045-01-010%20-%20VIO%20MINAL%20BLOCKS%20SHIELDS%20ETC%20REQUIRED%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-01-010 - VIO MINAL BLOCKS SHIELDS ETC REQUIRED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

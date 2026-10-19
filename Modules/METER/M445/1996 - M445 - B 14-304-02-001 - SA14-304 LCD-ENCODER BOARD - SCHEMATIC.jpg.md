@@ -11,6 +11,18 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 254,367 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-304-02-001, size B (assumed) 432 × 305 mm, 1753 × 1240 px traced (0.246 mm/px), turned 270°
+- **Ink extent:** 16–430 mm across, 18–305 mm up
+- **Outlines:** line 381 rings, 3,644 straight (9,584 mm) / 731 curved (1,068 mm); text 219 rings, 1,218 straight (1,306 mm) / 434 curved (614 mm)
+- **Centre lines:** 2,853 paths (78 closed); straight 6,084 mm, curved 136 mm; horizontal 2,640 mm, vertical 1,761 mm, diagonal 1,683 mm
+- **Circles and arcs:** 5 circles, 32 arcs; largest r 1.2 @ (353.0, 19.2), r 1.2 @ (218.0, 26.2), r 1.0 @ (359.0, 19.5), r 0.9 @ (112.2, 191.4)
+- **Closed boxes:** 32
+- **Wiring (first pass):** 12 connected wire groups from 311 runs
+
+Every curve, box, word and wire group: [1996 - M445 - B 14-304-02-001 - SA14-304 LCD-ENCODER BOARD - SCHEMATIC (traced).json](1996%20-%20M445%20-%20B%2014-304-02-001%20-%20SA14-304%20LCD-ENCODER%20BOARD%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1996 - M445 - B 14-304-02-001 - SA14-304 LCD-ENCODER BOARD - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

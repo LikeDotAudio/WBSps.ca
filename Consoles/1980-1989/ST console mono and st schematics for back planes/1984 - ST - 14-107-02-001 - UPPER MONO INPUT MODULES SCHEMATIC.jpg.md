@@ -10,6 +10,21 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,510,367 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-107-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–416 mm across, 19–293 mm up
+- **Outlines:** line 1,530 rings, 9,676 straight (17,877 mm) / 1,583 curved (1,836 mm); text 259 rings, 1,461 straight (1,345 mm) / 433 curved (556 mm); tb 2 rings, 34 straight (93.8 mm) / 1 curved (3.3 mm)
+- **Centre lines:** 8,434 paths (180 closed); straight 10,636 mm, curved 63.9 mm; horizontal 5,906 mm, vertical 2,315 mm, diagonal 2,414 mm
+- **Circles and arcs:** 0 circles, 25 arcs
+- **Closed boxes:** 25
+- **Dots (junctions):** 1
+- **Words (OCR):** 33 in 28 lines: Mix BUSES · BUSES · CHANNEL · CHANNEL · chAKNEL · EO INSERT · INSERT · EC INSERT · SERT · E7 INSERT · INsERT · com
+- **Title block:** (336, 50)–(426, 66) mm: WBS WARD-BECK SYSTEMS · SA14-107
+- **Wiring (first pass):** 186 connected wire groups from 1,347 runs, 4 dotted junctions; labelled ends: 57 mm → SHIELD; 50 mm → EO INSERT, com; 11 mm → ShIELD; 9 mm → EC INSERT; 8 mm → INPUTS, SHIELD
+
+Every curve, box, word and wire group: [1984 - ST - 14-107-02-001 - UPPER MONO INPUT MODULES SCHEMATIC (traced).json](1984%20-%20ST%20-%2014-107-02-001%20-%20UPPER%20MONO%20INPUT%20MODULES%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1984 - ST - 14-107-02-001 - UPPER MONO INPUT MODULES SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

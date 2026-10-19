@@ -20,6 +20,19 @@ Wiki page: [M924](../../../PAGES/M924.md)
 - **Size:** 701,562 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 924-03-003, size D 864 × 555 mm, 2000 × 1285 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 0–861 mm across, 3–552 mm up
+- **Outlines:** line 526 rings, 4,831 straight (34,512 mm) / 576 curved (1,622 mm); text 488 rings, 2,924 straight (7,416 mm) / 819 curved (2,003 mm); tb 27 rings, 334 straight (2,432 mm) / 22 curved (57.3 mm)
+- **Centre lines:** 4,347 paths (346 closed); straight 24,222 mm, curved 37.8 mm; horizontal 14,840 mm, vertical 4,859 mm, diagonal 4,523 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Closed boxes:** 21
+- **Words (OCR):** 61 in 57 lines: 17,24 · 0.750- · 0.150 · 5.000 · 5100 · 2.250 REF · 12.500 · 3.250TCHES750 · 4.750 REF · 13.770 · 14.000 · 224
+- **Title block:** (675, 19)–(857, 98) mm: SSUE DATZ · REMSION · APP; · WARD-BECK · SYSTEMS · WBS · DRN: DRG · M924/M924A · ENG_ · POWER SUPPLY · CKD_ · COVER · SCALE DISC NO: · 924-03-003 · ISSUE · CODE: 924003
+
+Every curve, box, word and wire group: [19xx - 924-03-003 - M924A POWER SUPPLY COVER - ISS 1 (traced).json](19xx%20-%20924-03-003%20-%20M924A%20POWER%20SUPPLY%20COVER%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 924-03-003 - M924A POWER SUPPLY COVER - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,875,163 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 950272-01-002, size B (assumed) 432 × 272 mm, 2000 × 1259 px traced (0.216 mm/px)
+- **Ink extent:** 62–422 mm across, 0–243 mm up
+- **Outlines:** line 982 rings, 7,694 straight (13,931 mm) / 1,697 curved (1,958 mm); text 265 rings, 1,763 straight (1,604 mm) / 513 curved (630 mm); tb 20 rings, 155 straight (179 mm) / 37 curved (41.4 mm)
+- **Centre lines:** 11,694 paths (336 closed); straight 9,852 mm, curved 108 mm; horizontal 4,163 mm, vertical 2,202 mm, diagonal 3,487 mm
+- **Circles and arcs:** 1 circles, 38 arcs; largest r 0.8 @ (210.3, 242.3)
+- **Closed boxes:** 32 (4 in the title block); named: MEZLS UCOULE; UcouLC; 432050; Votule; UCOULE; 4CDULC; 487058; UCOUM; TTC  DISPATCH SYSTEM   SIMULATION FUNC T; 950272 01-002
+- **Words (OCR):** 36 in 34 lines: WAYSIDE · cpur · cuiput · UCOULE · MEZLS · CuTUT · UcouLC · REPLACEMFNT · PA SYSTEM - · PAGEPARPUFIER · DiSUPDADON · oudputs
+- **Title block:** (343, 16)–(427, 32) mm: WBS · WARD-BECK SYSTEMS · TTC  DISPATCH
+- **Wiring (first pass):** 61 connected wire groups from 491 runs; labelled ends: 880 mm → IPM, DIGITALKER, 40, CASTLE; 139 mm → WAYSIDE; 116 mm → PA SYSTEM -; 114 mm → PA SYSTEM -; 88 mm → cpur
+
+Every curve, box, word and wire group: [1995 - M8205 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE (traced).json](1995%20-%20M8205%20-%20DOC%20-%20950272-01-002%20-%20IERN%20MULT%20MULT%20BROADVEW%20CASTLE%20FRANK%20SHERBOURNE%20YCNGE%20%28traced%29.json) (the CAD file: `1995 - M8205 - DOC - 950272-01-002 - IERN MULT MULT BROADVEW CASTLE FRANK SHERBOURNE YCNGE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 22 words corrected)

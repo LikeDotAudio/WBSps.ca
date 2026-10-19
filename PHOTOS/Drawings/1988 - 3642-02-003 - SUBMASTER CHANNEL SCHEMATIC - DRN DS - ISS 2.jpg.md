@@ -23,6 +23,21 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 10,854,990 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 3642-02-003, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DISC NO: 227
+- **Ink extent:** 0–863 mm across, 0–557 mm up
+- **Outlines:** line 1,814 rings, 15,283 straight (35,696 mm) / 2,672 curved (5,740 mm); text 544 rings, 3,597 straight (5,492 mm) / 955 curved (2,202 mm); tb 10 rings, 78 straight (296 mm) / 13 curved (38.0 mm)
+- **Centre lines:** 26,111 paths (308 closed); straight 28,871 mm, curved 155 mm; horizontal 10,288 mm, vertical 7,106 mm, diagonal 11,477 mm
+- **Circles and arcs:** 1 circles, 29 arcs; largest r 3.6 @ (7.7, 136.4)
+- **Closed boxes:** 36 (3 in the title block); named: M523 SUEMASIER MODULE (SUB; Z77; Helnd; 29,30; JLJZ; HuSAD 57e54; 51.52; STEBEQ SUBMA SIER EADER (~ISdB)
+- **Dots (junctions):** 1
+- **Words (OCR):** 137 in 128 lines: FD4ALE Conn: · BACKPLANE CONNECTIORS · SUBMASTER · Lrco_37S · EC_J7P · Edy · CHANNELS · MCHO · TO MASTER · MCDULE M527 · MI-R · VoKo
+- **Title block:** (680, 3)–(862, 71) mm: SSUEI DALE · REVSION · WBS · WARD-BECK SYSTEMS · IRN: D.s 5/88 · ENG_ · SUBMASTER CHANNEL · Crd. · SCHEMATIC · APP · SCALE DISC NO: 227 · ISSUE · CODE: 3642S03 · 3642-02-003
+- **Wiring (first pass):** 251 connected wire groups from 2,006 runs; labelled ends: 1429 mm → 57e54, 17.56, 18.,19,37, INSERT; 949 mm → 25v, CND, CHASSIS; 708 mm → 2127, 19.20, Lcopan, SLBUASIER Vcoules; 265 mm → CoHr; 155 mm → INSERT
+
+Every curve, box, word and wire group: [1988 - 3642-02-003 - SUBMASTER CHANNEL SCHEMATIC - DRN DS - ISS 2 (traced).json](1988%20-%203642-02-003%20-%20SUBMASTER%20CHANNEL%20SCHEMATIC%20-%20DRN%20DS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 3642-02-003 - SUBMASTER CHANNEL SCHEMATIC - DRN DS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

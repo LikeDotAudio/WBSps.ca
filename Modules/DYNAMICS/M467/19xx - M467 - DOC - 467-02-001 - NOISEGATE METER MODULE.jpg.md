@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,777,136 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 467-02-001, size B (assumed) 432 × 278 mm, 2000 × 1288 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–278 mm up
+- **Outlines:** line 1,372 rings, 12,905 straight (19,678 mm) / 2,652 curved (3,210 mm); text 249 rings, 1,462 straight (1,281 mm) / 452 curved (556 mm); tb 43 rings, 301 straight (320 mm) / 97 curved (113 mm)
+- **Centre lines:** 12,963 paths (402 closed); straight 12,615 mm, curved 310 mm; horizontal 3,756 mm, vertical 3,794 mm, diagonal 5,066 mm
+- **Circles and arcs:** 9 circles, 57 arcs; largest r 3.1 @ (356.5, 177.8), r 3.1 @ (363.0, 229.7), r 3.1 @ (354.7, 238.5), r 3.0 @ (347.4, 224.3)
+- **Closed boxes:** 8 (4 in the title block)
+- **Dots (junctions):** 5
+- **Words (OCR):** 48 in 46 lines: P03645 · 25Y+ · S2kz · CLTE · 44+40 · 4nz203 · 21/ · 024 · R3c · R7o · P3445 · 25v-
+- **Title block:** (292, 8)–(428, 32) mm: PM · WARD-BECK BYBTEMB LTD · MOD-CKD · WBS · 446 · IDATE · NOISEGATE · SCHEMATIC · MODUle
+- **Wiring (first pass):** 142 connected wire groups from 922 runs, 2 dotted junctions; labelled ends: 76 mm → tlo <, Lufei; 75 mm → 4G iNSERT; 59 mm → 024; 56 mm → 266, 12/25; 54 mm → P3445, In4203, cio, TIP 306
+
+Every curve, box, word and wire group: [19xx - M467 - DOC - 467-02-001 - NOISEGATE METER MODULE (traced).json](19xx%20-%20M467%20-%20DOC%20-%20467-02-001%20-%20NOISEGATE%20METER%20MODULE%20%28traced%29.json) (the CAD file: `19xx - M467 - DOC - 467-02-001 - NOISEGATE METER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

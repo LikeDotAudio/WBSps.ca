@@ -12,6 +12,21 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 10,837,712 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-025, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 2,553 rings, 19,802 straight (29,031 mm) / 4,958 curved (6,186 mm); text 448 rings, 2,268 straight (1,851 mm) / 832 curved (1,013 mm); tb 15 rings, 134 straight (168 mm) / 26 curved (39.2 mm)
+- **Centre lines:** 16,488 paths (530 closed); straight 17,798 mm, curved 535 mm; horizontal 6,934 mm, vertical 4,563 mm, diagonal 6,302 mm
+- **Circles and arcs:** 15 circles, 77 arcs; largest r 3.9 @ (182.5, 55.8), r 3.9 @ (52.8, 134.3), r 3.8 @ (324.2, 75.7), r 3.8 @ (149.5, 231.0)
+- **Closed boxes:** 31; named: 74072; R125; WBS; 20; Marot Kic INput MODULE SchemaTIC
+- **Dots (junctions):** 9
+- **Words (OCR):** 100 in 92 lines: 4-23 · outputs · 485 · 544 · Buse · 242102 · CEET · 2z0 F · 244401 · R23 · 7pi-2 · 442
+- **Title block:** (354, 8)–(388, 42) mm: WBS · SCALE
+- **Wiring (first pass):** 215 connected wire groups from 1,683 runs, 7 dotted junctions; labelled ends: 481 mm → 442, 042, R46, R5a; 263 mm → 640; 200 mm → 0/25; 199 mm → 013 247162, 0/25, 7p2; 143 mm → 314, 2.2/25
+
+Every curve, box, word and wire group: [1978 - M490 - 490-02-025 - MIC INPUT MODULE SCHEMATIC CUT (traced).json](1978%20-%20M490%20-%20490-02-025%20-%20MIC%20INPUT%20MODULE%20SCHEMATIC%20CUT%20%28traced%29.json) (the CAD file: `1978 - M490 - 490-02-025 - MIC INPUT MODULE SCHEMATIC CUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

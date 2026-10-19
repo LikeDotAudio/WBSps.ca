@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,377,400 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 2442-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 4–304 mm across, 4–432 mm up
+- **Outlines:** line 755 rings, 9,756 straight (19,262 mm) / 1,456 curved (2,160 mm); text 319 rings, 1,934 straight (2,169 mm) / 595 curved (857 mm)
+- **Centre lines:** 7,699 paths (131 closed); straight 11,082 mm, curved 843 mm; horizontal 5,075 mm, vertical 3,394 mm, diagonal 2,613 mm
+- **Circles and arcs:** 69 circles, 86 arcs; largest r 1.5 @ (171.7, 408.7), r 1.5 @ (140.4, 285.8), r 1.5 @ (167.2, 16.4), r 1.4 @ (96.2, 209.2)
+- **Closed boxes:** 84
+- **Wiring (first pass):** 203 connected wire groups from 986 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 2442-01-001 - SWICHER MODULES MONO LIVE INPUTS (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20SWICHER%20MODULES%20MONO%20LIVE%20INPUTS%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 2442-01-001 - SWICHER MODULES MONO LIVE INPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -23,6 +23,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,232,726 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 790236-02-006, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 2–429 mm across, 0–288 mm up
+- **Outlines:** line 586 rings, 8,521 straight (10,475 mm) / 1,245 curved (1,485 mm); text 381 rings, 2,386 straight (2,571 mm) / 701 curved (956 mm); tb 3 rings, 89 straight (187 mm) / 6 curved (9.3 mm)
+- **Centre lines:** 22,637 paths (115 closed); straight 11,677 mm, curved 144 mm; horizontal 3,841 mm, vertical 3,006 mm, diagonal 4,830 mm
+- **Circles and arcs:** 8 circles, 18 arcs; largest r 1.3 @ (200.5, 160.7), r 1.3 @ (201.2, 212.7), r 1.3 @ (81.1, 129.8), r 1.3 @ (201.1, 204.5)
+- **Closed boxes:** 16 (9 in the title block); named: AdditionaL WP 2P APEP; Nov 38; LB; 730232-02-306; ISSUE
+- **Words (OCR):** 58 in 41 lines: M450 · 0"2 · 4548) · Qws · Tb6 · -IOAB · 81341 · 127128 Ch ( · (131) · EFFECTS SWITCHER · Outputs · JodB~
+- **Title block:** (157, 6)–(310, 74) mm: Nov AdditionaL WP 2P APEP · 38 · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN ERh · ENG sRti · EFFECTS SWITCHER · CKD Cc · SCHEMATIC · APP · SCALE · ISSUE · LB · 730232-02-306
+- **Wiring (first pass):** 66 connected wire groups from 467 runs; labelled ends: 141 mm → 0"2, Qws, '1l2; 75 mm → '1l2; 60 mm → Ch (, Ch2; 50 mm → 135,0, JodB~; 37 mm → -IOAB, Tb6, 127128
+
+Every curve, box, word and wire group: [1979 - 790236-02-006 - EFFECTS SWITCHER SCHEMATIC - DRN SRH - ENG SRH - ISS 2 (3) (traced).json](1979%20-%20790236-02-006%20-%20EFFECTS%20SWITCHER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202%20%283%29%20%28traced%29.json) (the CAD file: `1979 - 790236-02-006 - EFFECTS SWITCHER SCHEMATIC - DRN SRH - ENG SRH - ISS 2 (3) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [M528](../../../PAGES/M528.md)
 - **Size:** 3,294,893 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 528-02-001, size B (assumed) 432 × 288 mm, 2000 × 1335 px traced (0.216 mm/px)
+- **Ink extent:** 7–427 mm across, 3–288 mm up
+- **Outlines:** line 1,738 rings, 12,757 straight (15,763 mm) / 2,583 curved (2,867 mm); text 133 rings, 816 straight (833 mm) / 237 curved (324 mm); tb 3 rings, 41 straight (109 mm) / 4 curved (5.8 mm)
+- **Centre lines:** 9,854 paths (434 closed); straight 9,246 mm, curved 49.0 mm; horizontal 3,205 mm, vertical 2,646 mm, diagonal 3,395 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 2
+- **Words (OCR):** 11 in 11 lines: Jimlc' · Wamca · E FLD · 4 LLO · WBS · WARD-BECK SYSTEMS · M528 · DUAL AUXiLiARY MODULE · SCHEMATIC · B 528-02-001 · ISS.
+- **Title block:** (336, 27)–(432, 45) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 162 connected wire groups from 995 runs; labelled ends: 16 mm → Jimlc', Wamca; 11 mm → 4 LLO
+
+Every curve, box, word and wire group: [19xx - M528 - B 528-02-001 - M528 DUAL AUXILIARY MODULE - SCHEMATIC (traced).json](19xx%20-%20M528%20-%20B%20528-02-001%20-%20M528%20DUAL%20AUXILIARY%20MODULE%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M528 - B 528-02-001 - M528 DUAL AUXILIARY MODULE - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

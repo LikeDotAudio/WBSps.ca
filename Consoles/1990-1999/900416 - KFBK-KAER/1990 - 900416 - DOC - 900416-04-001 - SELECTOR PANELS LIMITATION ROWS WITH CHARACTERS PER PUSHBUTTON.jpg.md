@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,912,271 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 900416-04-001, size B (assumed) 432 × 333 mm, 2000 × 1544 px traced (0.216 mm/px)
+- **Ink extent:** 35–416 mm across, 19–297 mm up
+- **Outlines:** line 1,519 rings, 11,413 straight (34,704 mm) / 1,584 curved (2,156 mm); text 955 rings, 5,978 straight (6,917 mm) / 1,760 curved (2,420 mm); tb 8 rings, 80 straight (168 mm) / 21 curved (34.3 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 0.9 @ (277.2, 232.9), r 0.9 @ (289.7, 281.3), r 0.9 @ (289.7, 284.3), r 0.9 @ (160.7, 238.8)
+- **Closed boxes:** 142 (11 in the title block); named: PS2; AMPS M8205 DISTRIBUTION FRAME; M8205 DISTRIBUTION AMPS FRAME; M8205 DISTRIBUTION  AMPS FRAME; M8205 DISTRIBUTION  AMPS FRAME; AMPS M8205 DISTRIBUTION FRAME "H"; M8205   DISTRIBUTION AMPS FRAME; DISTRIBUTION AMPS M8z05 FRAME; M8205 DISTRIBUTION AMPS FRAME; M8205 DISTRIBUJION AMPS FRAME; M8205 DISTRIBUTION AMPS FRAME "€"; Ou7 RIchT
+- **Dots (junctions):** 3
+- **Words (OCR):** 87 in 74 lines: PS2 · M8205 DISTRIBUTION AMPS · M8205 DISTRIBUTION · AMPS · FRAME · FRAME · M8205 DISTRIBUTION  AMPS · M8205 DISTRIBUTION  AMPS · FRAME · FRAME · M8205 DISTRIBUTION · AMPS
+- **Title block:** (291, 18)–(422, 67) mm: SSUE] · REVSION · WARD-BECK · SYSTEMS · WBS · DRN: WS 08/90 · KFBK /KAER · RADIO · ENG. · DISTRIBUTION · SYSTEM · CKD: · APP · RACK · LAYOUT · 900416-04-001 · ISSUE · SCALE · NTS CODE: 00416L01 · DISC
+
+Every curve, box, word and wire group: [1990 - 900416 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON (traced).json](1990%20-%20900416%20-%20DOC%20-%20900416-04-001%20-%20SELECTOR%20PANELS%20LIMITATION%20ROWS%20WITH%20CHARACTERS%20PER%20PUSHBUTTON%20%28traced%29.json) (the CAD file: `1990 - 900416 - DOC - 900416-04-001 - SELECTOR PANELS LIMITATION ROWS WITH CHARACTERS PER PUSHBUTTON (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

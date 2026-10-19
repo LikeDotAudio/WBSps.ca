@@ -11,6 +11,20 @@ Wiki page: [M462B](../../../PAGES/M462B.md)
 - **Size:** 942,757 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 462-02-003, size B (assumed) 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–277 mm up
+- **Outlines:** line 1,221 rings, 15,743 straight (27,514 mm) / 3,339 curved (4,200 mm); text 769 rings, 5,110 straight (4,799 mm) / 1,916 curved (2,353 mm)
+- **Centre lines:** 21,772 paths (267 closed); straight 20,240 mm, curved 528 mm; horizontal 6,354 mm, vertical 5,798 mm, diagonal 8,088 mm
+- **Circles and arcs:** 9 circles, 131 arcs; largest r 3.1 @ (331.1, 81.8), r 3.0 @ (368.4, 189.3), r 3.0 @ (353.0, 193.0), r 1.3 @ (221.3, 197.5)
+- **Closed boxes:** 25; named: Filter AMPLIFIER -112 E12; WBS; WBS; M46 28 SchEMATIC; 003
+- **Dots (junctions):** 1
+- **Words (OCR):** 182 in 166 lines: High FREQUENCY NiD FREQUENCKN' · MID FREQUENCY · LoN · FREQUENCY · 800112-12.8khz · OOHz · Tip29b · CRI · 25v+ · 5.6 · R72 · PN3569
+- **Wiring (first pass):** 227 connected wire groups from 1,274 runs; labelled ends: 250 mm → Filter AMPLIFIER; 248 mm → WBS; 189 mm → C43, 6.8/6; 112 mm → Ris, LF cutiboOST, R47, Isk; 112 mm → c42, 6.6/6
+
+Every curve, box, word and wire group: [1974 - M462B - 462-02-003 - EQUAI IZER MODULE SCHEMATIC (traced).json](1974%20-%20M462B%20-%20462-02-003%20-%20EQUAI%20IZER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1974 - M462B - 462-02-003 - EQUAI IZER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M497C](../../../PAGES/M497C.md)
 - **Size:** 282,660 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 497-01-004, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–314 mm across, 18–302 mm up
+- **Outlines:** line 128 rings, 994 straight (2,244 mm) / 120 curved (142 mm); text 263 rings, 1,767 straight (2,053 mm) / 542 curved (813 mm); tb 2 rings, 45 straight (143 mm) / 2 curved (4.2 mm)
+- **Centre lines:** 1,484 paths (38 closed); straight 2,524 mm, curved 5.5 mm; horizontal 1,168 mm, vertical 424 mm, diagonal 932 mm
+- **Circles and arcs:** 0 circles, 2 arcs
+- **Words (OCR):** 24 in 18 lines: 2_*295 · FROGRAM OUTPUTS · dBm 600 CHMS · LEfT · MONITOR OUTPUT · MonO SummiNG OUTPUT · 025 · PROGRAM OUTPUTS · dBm 600 OHMS · RIGHT · MONITOR OUTPUT · WBS WARD-BECK
+- **Title block:** (198, 45)–(321, 70) mm: WBS WARD-BECK · SYSTEMS · M497C
+- **Wiring (first pass):** 50 connected wire groups from 90 runs; labelled ends: 28 mm → 2_*295; 6 mm → PROGRAM OUTPUTS; 6 mm → PROGRAM OUTPUTS; 5 mm → PROGRAM OUTPUTS; 5 mm → FROGRAM OUTPUTS
+
+Every curve, box, word and wire group: [1978 - M497C - 497-01-004 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM (traced).json](1978%20-%20M497C%20-%20497-01-004%20-%20DUAL%20MASTER%20MODULE%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-01-004 - DUAL MASTER MODULE FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,355,087 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 940248-01-003, size B (assumed) 432 × 269 mm, 2000 × 1245 px traced (0.216 mm/px)
+- **Ink extent:** 0–415 mm across, 7–269 mm up
+- **Outlines:** line 254 rings, 2,025 straight (4,587 mm) / 588 curved (1,814 mm); text 307 rings, 1,823 straight (1,961 mm) / 518 curved (729 mm); tb 250 rings, 1,583 straight (1,234 mm) / 381 curved (429 mm)
+- **Centre lines:** 6,177 paths (133 closed); straight 4,719 mm, curved 621 mm; horizontal 1,165 mm, vertical 979 mm, diagonal 2,574 mm
+- **Circles and arcs:** 19 circles, 4 arcs; largest r 18.8 @ (188.2, 154.5), r 18.8 @ (96.4, 154.4), r 18.8 @ (279.5, 154.6), r 18.8 @ (96.3, 89.5)
+- **Closed boxes:** 14 (5 in the title block); named: CENTENNIAL COLLEGE RADIO STUDIO FUNCTION; 940248 003
+- **Dots (junctions):** 1
+- **Words (OCR):** 40 in 39 lines: TURRET · TURRE T · TURRET · TURRET · MCR · WBS · PRODUCTION · RENAISSANCE · V7012 · RENAISSANCE · MKI · INTERCOM
+- **Title block:** (176, 22)–(410, 166) mm: WBS · PRODUCTION · V7012 · RENAISSANCE · INTERCOM · MATRIX · Mki · MASTER · PACGAAU · TURRET · BE FED · TURRET · (STUDIO 2) · TURRET · Stfrfc · EFR T · TURRET · TURRE [ · WBS · WARD-BECK SYSTEMS · CEN
+- **Wiring (first pass):** 8 connected wire groups from 86 runs, 3 dotted junctions; labelled ends: 163 mm → WARD-BECK SYSTEMS, WBS, 940248, 003; 57 mm → RENAISSANCE, INTERCOM; 16 mm → MURRET
+
+Every curve, box, word and wire group: [1994 - DOC - 940248-01-003 - MIC TURRET MIC TURRET MIC TURRET MIC TURRET (traced).json](1994%20-%20DOC%20-%20940248-01-003%20-%20MIC%20TURRET%20MIC%20TURRET%20MIC%20TURRET%20MIC%20TURRET%20%28traced%29.json) (the CAD file: `1994 - DOC - 940248-01-003 - MIC TURRET MIC TURRET MIC TURRET MIC TURRET (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

@@ -1,0 +1,692 @@
+{
+ "code": "M467",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "CD",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "DYNAMICS IN LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "DYNAMICS IN RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "INPUT",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "INPUT",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "CD",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "DYNAMICS IN LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "DYNAMICS IN RIGHT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "SHIELD GN D",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "SHIELD GND",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "SHIELD GND",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "CONTROL",
+   "kind": "control",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "KEY GATE INPUT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "CONTROL",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "CONTROL",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "CONTROL",
+   "kind": "control",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "KEY GATE INPUT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "COMP TIE   1",
+   "kind": "control",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B3",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M467/M467.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMP TIE   2",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "STEREO TIE BUS 1",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "BUS",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "BUS",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "ZI- OCT",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMP TIE   1",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "COMMON",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "COMMON",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "ZI- OCT",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMP TIE   2",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "BUS",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "BUS",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "VU METER",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "VU METER",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "VU METER",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "VU METER",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    },
+    {
+     "signal": "EDGEWISE VU METER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 567 - P007 - 3-3.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "VU METER",
+   "kind": "out",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": "B2",
+   "pol": "-",
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M467/M467.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "EDGEWISE VU METER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 567 - P007 - 3-3.jpg",
+     "page": 1
+    },
+    {
+     "signal": "EDGEWISE VU METER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 567 - P007 - 3-3.jpg",
+     "page": 1
+    },
+    {
+     "signal": "EDGEWISE VU METER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - M567 - Noise Gate and Meter Module.pdf",
+     "page": 7
+    },
+    {
+     "signal": "EDGEWISE VU METER",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - M567 - Noise Gate and Meter Module.pdf",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "DYNAMICS OUT LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "DYNAMICS OUT IN",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "OUTPUT",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "OUTPUT",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "DYNAMICS OUT LEFT",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "DYNAMICS OUT IN",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "CT",
+   "kind": "other",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "-25 V",
+   "kind": "power",
+   "conf": "high",
+   "how": "rto-144",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": null,
+    "file": "Engineering/RTO-144/M467/M467.rto144.json",
+    "page": 1
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "25V",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "25V",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "T COMMON",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "COMMON",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "\u00b1COMMON",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "\u00b1COMMON",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25V",
+   "kind": "power",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "+25 V",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "+25V",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "+25V",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS GND",
+   "kind": "ground",
+   "conf": "high",
+   "how": "table",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ad2d5e7571b38c8836204130a1e3f853a31d3bd7ff1a2f111199dda9d01be323",
+    "file": "Modules/DYNAMICS/M467/1985 - M467 - M567 - Noise Gate and Meter Module.pdf",
+    "page": 28
+   },
+   "quote": null,
+   "also": [
+    {
+     "signal": "CHASSIS",
+     "how": "rto-144",
+     "conf": "high",
+     "file": "Engineering/RTO-144/M467/M467.rto144.json",
+     "page": 1
+    },
+    {
+     "signal": "CHASS/S GND",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/1976 - M467 - 467-04-001 - METER MODULE ALE CONNECTOR REAR VIEW.jpg",
+     "page": 1
+    },
+    {
+     "signal": "CHASS/S GND",
+     "how": "drawing rows",
+     "conf": "medium",
+     "file": "Modules/DYNAMICS/M467/19xx - 467-04-001 - NOISE GATE & COMPRESSOR METER MODULE CONNECTOR REAR VIEW - ISS 1.jpg",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

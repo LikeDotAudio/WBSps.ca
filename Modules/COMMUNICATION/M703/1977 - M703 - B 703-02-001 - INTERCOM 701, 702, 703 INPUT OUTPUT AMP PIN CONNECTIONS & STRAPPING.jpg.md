@@ -11,6 +11,19 @@ Wiki page: [M703](../../../PAGES/M703.md)
 - **Size:** 7,271,598 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 703-02-001, size B (assumed) 303 × 432 mm, 1404 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–284 mm across, 0–432 mm up
+- **Outlines:** line 1,065 rings, 8,766 straight (12,450 mm) / 1,543 curved (2,229 mm); text 470 rings, 3,009 straight (3,175 mm) / 849 curved (1,191 mm)
+- **Centre lines:** 5,780 paths (89 closed); straight 8,282 mm, curved 668 mm; horizontal 2,039 mm, vertical 3,232 mm, diagonal 3,010 mm
+- **Circles and arcs:** 34 circles, 86 arcs; largest r 2.2 @ (63.7, 27.4), r 2.0 @ (215.4, 38.3), r 2.0 @ (205.1, 27.4), r 2.0 @ (204.9, 38.2)
+- **Closed boxes:** 17; named: duwee; duwee
+- **Words (OCR):** 8 in 8 lines: We · 9E4 · 03 · 923 · duwee · 0 2 · 813 · Ju
+- **Wiring (first pass):** 115 connected wire groups from 730 runs; labelled ends: 1090 mm → duwee; 109 mm → 03, 923; 57 mm → 03, 923; 27 mm → We, 03, 923; 26 mm → 9E4
+
+Every curve, box, word and wire group: [1977 - M703 - B 703-02-001 - INTERCOM 701, 702, 703 INPUT OUTPUT AMP PIN CONNECTIONS & STRAPPING (traced).json](1977%20-%20M703%20-%20B%20703-02-001%20-%20INTERCOM%20701%2C%20702%2C%20703%20INPUT%20OUTPUT%20AMP%20PIN%20CONNECTIONS%20%26%20STRAPPING%20%28traced%29.json) (the CAD file: `1977 - M703 - B 703-02-001 - INTERCOM 701, 702, 703 INPUT OUTPUT AMP PIN CONNECTIONS & STRAPPING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

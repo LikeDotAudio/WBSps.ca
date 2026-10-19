@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,569,181 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 499-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 11–298 mm up
+- **Outlines:** line 655 rings, 6,865 straight (17,460 mm) / 925 curved (1,167 mm); text 91 rings, 641 straight (609 mm) / 240 curved (297 mm); tb 13 rings, 153 straight (175 mm) / 28 curved (32.6 mm)
+- **Centre lines:** 7,370 paths (110 closed); straight 10,558 mm, curved 26.3 mm; horizontal 4,307 mm, vertical 4,042 mm, diagonal 2,209 mm
+- **Circles and arcs:** 1 circles, 5 arcs; largest r 1.1 @ (79.8, 171.8)
+- **Closed boxes:** 77 (1 in the title block)
+- **Words (OCR):** 12 in 10 lines: INPUTS · Sk TIE Points · PROCESSUR · FroM PRUCESSOR OLtput · S4 Tie · outputs · WBS WARD-BECK SYSTEMS · M499 · INSERTION SWITCHER MODULE · SCHEMATIC
+- **Title block:** (351, 22)–(431, 38) mm: WBS WARD-BECK SYSTEMS · M499
+- **Wiring (first pass):** 95 connected wire groups from 918 runs; labelled ends: 154 mm → INPUTS; 152 mm → outputs; 152 mm → outputs; 96 mm → WBS, INSERTION SWITCHER MODULE, SCHEMATIC; 20 mm → INPUTS
+
+Every curve, box, word and wire group: [19xx - M499 - DOC - 499-02-001 - PROCESSOR INPUT FROM PROCESSOR OLTPUT (traced).json](19xx%20-%20M499%20-%20DOC%20-%20499-02-001%20-%20PROCESSOR%20INPUT%20FROM%20PROCESSOR%20OLTPUT%20%28traced%29.json) (the CAD file: `19xx - M499 - DOC - 499-02-001 - PROCESSOR INPUT FROM PROCESSOR OLTPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

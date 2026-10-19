@@ -10,6 +10,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 8,216,673 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 76045-02-021, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 443 rings, 7,353 straight (9,927 mm) / 1,058 curved (1,471 mm); text 177 rings, 1,344 straight (1,428 mm) / 368 curved (536 mm)
+- **Centre lines:** 5,115 paths (44 closed); straight 6,723 mm, curved 232 mm; horizontal 3,219 mm, vertical 1,464 mm, diagonal 2,040 mm
+- **Circles and arcs:** 6 circles, 34 arcs; largest r 7.7 @ (272.8, 139.3), r 1.9 @ (353.1, 31.6), r 1.6 @ (209.6, 73.9), r 1.5 @ (352.8, 31.7)
+- **Closed boxes:** 32
+- **Wiring (first pass):** 25 connected wire groups from 364 runs
+
+Every curve, box, word and wire group: [1976 - 76045 - 76045-02-021 - RELAY MODULE SCHEMATIC (traced).json](1976%20-%2076045%20-%2076045-02-021%20-%20RELAY%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1976 - 76045 - 76045-02-021 - RELAY MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

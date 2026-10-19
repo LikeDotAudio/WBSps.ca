@@ -24,6 +24,18 @@ Wiki page: [M702](../../../PAGES/M702.md)
 - **Size:** 3,526,144 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 702-01-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 5–432 mm across, 0–288 mm up
+- **Outlines:** line 462 rings, 4,401 straight (10,754 mm) / 729 curved (1,059 mm); text 267 rings, 1,726 straight (2,000 mm) / 509 curved (751 mm)
+- **Centre lines:** 4,039 paths (76 closed); straight 6,189 mm, curved 250 mm; horizontal 2,888 mm, vertical 1,382 mm, diagonal 1,918 mm
+- **Circles and arcs:** 17 circles, 37 arcs; largest r 3.8 @ (263.3, 142.8), r 2.1 @ (376.6, 30.8), r 1.8 @ (375.1, 23.3), r 1.8 @ (376.5, 30.9)
+- **Closed boxes:** 15
+- **Wiring (first pass):** 126 connected wire groups from 357 runs
+
+Every curve, box, word and wire group: [1982 - 702-01-011 - INTERCOM OUTPUT AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2 (traced).json](1982%20-%20702-01-011%20-%20INTERCOM%20OUTPUT%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20Mahoney%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1982 - 702-01-011 - INTERCOM OUTPUT AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. Mahoney - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

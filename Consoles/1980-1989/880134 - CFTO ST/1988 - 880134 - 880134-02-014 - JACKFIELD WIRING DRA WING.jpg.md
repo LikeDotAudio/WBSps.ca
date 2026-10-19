@@ -11,6 +11,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,316,069 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-014, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 800 rings, 9,274 straight (22,291 mm) / 1,242 curved (1,685 mm); text 623 rings, 3,339 straight (3,372 mm) / 1,097 curved (1,463 mm)
+- **Centre lines:** 8,221 paths (124 closed); straight 14,381 mm, curved 253 mm; horizontal 3,594 mm, vertical 7,937 mm, diagonal 2,850 mm
+- **Circles and arcs:** 14 circles, 47 arcs; largest r 2.2 @ (190.3, 34.0), r 1.6 @ (4.2, 374.2), r 1.4 @ (4.1, 392.8), r 1.4 @ (4.1, 356.0)
+- **Closed boxes:** 215
+- **Wiring (first pass):** 60 connected wire groups from 996 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-014 - JACKFIELD WIRING DRA WING (traced).json](1988%20-%20880134%20-%20880134-02-014%20-%20JACKFIELD%20WIRING%20DRA%20WING%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-014 - JACKFIELD WIRING DRA WING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

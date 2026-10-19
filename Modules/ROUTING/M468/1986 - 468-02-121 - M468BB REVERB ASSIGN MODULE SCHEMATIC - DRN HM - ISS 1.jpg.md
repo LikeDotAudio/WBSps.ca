@@ -24,6 +24,21 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 2,095,159 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-121, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 9–298 mm up
+- **Outlines:** line 2,034 rings, 16,617 straight (19,543 mm) / 3,811 curved (4,473 mm); text 415 rings, 3,112 straight (3,190 mm) / 1,079 curved (1,514 mm); tb 68 rings, 375 straight (420 mm) / 66 curved (76.1 mm)
+- **Centre lines:** 18,602 paths (128 closed); straight 15,015 mm, curved 336 mm; horizontal 6,284 mm, vertical 2,670 mm, diagonal 6,061 mm
+- **Circles and arcs:** 21 circles, 73 arcs; largest r 4.1 @ (177.2, 204.4), r 1.4 @ (195.6, 148.9), r 1.1 @ (380.0, 113.8), r 1.0 @ (259.9, 164.8)
+- **Closed boxes:** 24 (20 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 67 in 58 lines: 125v COMMON · ChASSiS · +25v · Swi · RR ON · Sw3 · 51 · RR LEVEL · ISk · RR ON LAMP · Si OUTPUT · 7A
+- **Title block:** (141, 23)–(431, 69) mm: ISS MOD CKD] · USED ON · MatL · WBS · WARD-BECKBYSTEME [TD · DRLHM · M463BB · DATE.APRIL/86 · Assign MoDULE · FIMISH · REvERB · CKD: · SCHEMATIC · IScA
+- **Wiring (first pass):** 93 connected wire groups from 785 runs, 2 dotted junctions; labelled ends: 194 mm → RR, ez8; 185 mm → Sololcue; 134 mm → 5w6; 132 mm → Sk, Rio, 2k; 106 mm → 51
+
+Every curve, box, word and wire group: [1986 - 468-02-121 - M468BB REVERB ASSIGN MODULE SCHEMATIC - DRN HM - ISS 1 (traced).json](1986%20-%20468-02-121%20-%20M468BB%20REVERB%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1986 - 468-02-121 - M468BB REVERB ASSIGN MODULE SCHEMATIC - DRN HM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

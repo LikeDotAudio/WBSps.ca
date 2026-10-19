@@ -11,6 +11,20 @@ Wiki page: [M605C](../../../PAGES/M605C.md)
 - **Size:** 1,945,569 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 605-02-014, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 4–421 mm across, 30–306 mm up
+- **Outlines:** line 2,307 rings, 11,470 straight (15,576 mm) / 1,899 curved (2,260 mm); text 644 rings, 2,916 straight (2,244 mm) / 828 curved (974 mm)
+- **Centre lines:** 5,725 paths (177 closed); straight 7,719 mm, curved 53.8 mm; horizontal 3,247 mm, vertical 2,088 mm, diagonal 2,385 mm
+- **Circles and arcs:** 4 circles, 20 arcs; largest r 0.9 @ (343.4, 51.6), r 0.8 @ (242.1, 164.7), r 0.8 @ (174.9, 87.9), r 0.7 @ (338.2, 212.9)
+- **Closed boxes:** 9
+- **Dots (junctions):** 9
+- **Words (OCR):** 118 in 117 lines: 436 · R45 · CkB · 620 · L4zoi · 244037 · 2k2 · 2735 · 735 · 33k · C22 · 7ip293
+- **Wiring (first pass):** 123 connected wire groups from 1,073 runs, 4 dotted junctions; labelled ends: 740 mm → ~DECK SYSTEMS; 28 mm → IN4/4B; 23 mm → R1o3, OEM; 20 mm → IN4/4B, 22k; 17 mm → Ri3
+
+Every curve, box, word and wire group: [1971 - M605C - 605-02-014 - ORN PA-EE MGOSC AUDIO DISTRIBUTION AMPLIFIER (traced).json](1971%20-%20M605C%20-%20605-02-014%20-%20ORN%20PA-EE%20MGOSC%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1971 - M605C - 605-02-014 - ORN PA-EE MGOSC AUDIO DISTRIBUTION AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

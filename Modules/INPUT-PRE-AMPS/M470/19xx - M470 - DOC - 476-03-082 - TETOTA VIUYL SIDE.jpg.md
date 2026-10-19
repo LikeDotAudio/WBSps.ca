@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,362,080 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 476-03-082, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–280 mm up
+- **Outlines:** line 877 rings, 7,719 straight (18,158 mm) / 1,144 curved (1,886 mm); text 419 rings, 2,234 straight (2,066 mm) / 771 curved (1,020 mm)
+- **Centre lines:** 8,456 paths (139 closed); straight 11,378 mm, curved 485 mm; horizontal 6,426 mm, vertical 2,385 mm, diagonal 2,568 mm
+- **Circles and arcs:** 19 circles, 11 arcs; largest r 6.4 @ (246.7, 150.1), r 4.7 @ (356.1, 133.2), r 4.1 @ (158.5, 130.3), r 4.1 @ (148.7, 130.2)
+- **Closed boxes:** 18; named: 248 47 Set; 410*23-Bo2-4
+- **Words (OCR):** 73 in 63 lines: 312 DiA: · 12 PLACES · 970 · 545 DiA · 3 PLACES · 8.746 · 7.065 · 6.522 · 5.697 · 303 · 903 · 4.515
+
+Every curve, box, word and wire group: [19xx - M470 - DOC - 476-03-082 - TETOTA VIUYL SIDE (traced).json](19xx%20-%20M470%20-%20DOC%20-%20476-03-082%20-%20TETOTA%20VIUYL%20SIDE%20%28traced%29.json) (the CAD file: `19xx - M470 - DOC - 476-03-082 - TETOTA VIUYL SIDE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

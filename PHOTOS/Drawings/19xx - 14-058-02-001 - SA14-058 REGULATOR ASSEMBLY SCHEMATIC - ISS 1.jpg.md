@@ -26,6 +26,20 @@ SA14-058 regulator assembly schematic.
 
 - **1983** (month): `JANUARY 1983` — …. WHEN USED FOR REPLACEMENT IN M648 POWER SUPPLIES PRIOR To JANUARY 1983 ADD 0.047 UF CAPACITOR To SERIES PASS TRANSISTOR ON MA IN F…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-058-02-001, size B 432 × 292 mm, 2000 × 1350 px traced (0.216 mm/px)
+- **Ink extent:** 3–430 mm across, 2–258 mm up
+- **Outlines:** line 76 rings, 2,903 straight (7,613 mm) / 345 curved (608 mm); text 895 rings, 5,595 straight (5,836 mm) / 1,852 curved (2,520 mm); tb 2 rings, 37 straight (100 mm) / 1 curved (4.4 mm)
+- **Centre lines:** 5,726 paths (123 closed); straight 7,965 mm, curved 238 mm; horizontal 2,642 mm, vertical 2,268 mm, diagonal 3,055 mm
+- **Circles and arcs:** 5 circles, 7 arcs; largest r 8.0 @ (84.0, 211.3), r 7.9 @ (104.3, 136.2), r 7.8 @ (140.9, 244.7), r 7.5 @ (146.0, 176.0)
+- **Closed boxes:** 9; named: U1 LM376N; C2 2200p
+- **Words (OCR):** 153 in 127 lines: UNREGULATED · R5 · To SERIES · VOLTAGE · 15 · 620 · 713 TRANSiSTOR · PASS · 03 · BASE · In7L6B · CRI
+- **Title block:** (345, 25)–(432, 42) mm: WBS · WARD-BECK BYBTEMB
+- **Wiring (first pass):** 28 connected wire groups from 234 runs; labelled ends: 686 mm → 820, 1/2w, INLO03, CR2; 465 mm → 2N6395, C8, 4.7/35, 2k2; 256 mm → 711, 1/2w, R1o, 6k8; 204 mm → R1o, 6k8; 188 mm → R12, 150, R13, 51k
+
+Every curve, box, word and wire group: [19xx - 14-058-02-001 - SA14-058 REGULATOR ASSEMBLY SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-058-02-001%20-%20SA14-058%20REGULATOR%20ASSEMBLY%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-058-02-001 - SA14-058 REGULATOR ASSEMBLY SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

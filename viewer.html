@@ -42,6 +42,7 @@ main.cad .img img, main.cad .img canvas { max-height:calc(100vh - 140px); user-s
 #zoom .row { grid-column:1 / -1; display:grid; grid-template-columns:34px 1fr 34px; gap:2px; border-top:1px solid var(--line); padding-top:2px; margin-top:2px }
 #zoom .nav { grid-template-columns:repeat(4, 1fr) } #zoom .count { grid-column:1 / -1; text-align:center; font-size:11px; color:var(--muted); padding:3px 0 1px }
 #zoom button:disabled { opacity:.3; cursor:default; background:transparent }
+#zoom .pages .count { grid-column:auto; padding:0; align-self:center; font-size:11px; color:var(--ink); white-space:nowrap }
 /* the rest of the folder as a strip of thumbnails along the bottom: click one to open it */
 #ribbon { grid-row:5; display:flex; align-items:stretch; gap:0; background:var(--panel); border-top:1px solid var(--line); min-width:0 }
 #ribbon[hidden] { display:none }
@@ -121,7 +122,7 @@ function show(path) {
   const url = enc(path);
   if (['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp'].includes(e))
     { view.innerHTML = `<div class="img"><div class="pg"><img src="${url}" alt="">${spotsHtml(1)}</div></div>`; setTimeout(turnImages); trace(); }
-  else if (e === '.pdf' || e === '.html') view.innerHTML = `<iframe src="${url}" title="document"></iframe>`;
+  else if (e === '.pdf' || e === '.html') { view.innerHTML = `<iframe src="${url}" title="document"></iframe>`; if (e === '.pdf') pdfTraced(path); }
   else if (e === '.txt' || e === '.md') view.innerHTML = `<iframe src="${url}" title="text"></iframe>`;
   else return false;
   return true;
@@ -166,6 +167,59 @@ function trace() {
   const pg = view.querySelector('.pg');
   if (pg && window.traceOverlay) window.traceOverlay(pg, rel, document.getElementById('tracebar'));
   if (pg) cad(pg);
+}
+// a PDF the tracer has traced, page by page: drawn here with pdf.js instead of the browser's own viewer, one page at a time,
+// its trace and hover links over it ("Original file" still opens the browser's viewer). #page=N opens at page N.
+let pdfGo = null;
+function pdfTraced(path) {
+  if (!window.tracePages || !window.tracePdfJs) return;
+  window.tracePages(path).then(tp => tp && window.tracePdfJs().then(lib => lib.getDocument({ url: new URL(enc(path), location.href).href }).promise).then(doc => pdfView(doc, path, tp[1])))
+    .catch(() => {});   // no pdf.js, or the PDF would not open in it: the browser's viewer stays
+}
+function pdfView(doc, path, traced) {
+  const N = doc.numPages, bar = document.getElementById('tracebar');
+  view.innerHTML = '<div class="img"><div class="pg"><canvas></canvas></div></div>';
+  const pg = view.querySelector('.pg'), cv = pg.querySelector('canvas');
+  let cur = 0, seq = 0, task = null;
+  pdfGo = p => {
+    p = Math.min(N, Math.max(1, p | 0));
+    if (p === cur) return;
+    cur = p;
+    const me = ++seq;
+    history.replaceState(null, '', '#page=' + p);
+    const count = document.querySelector('#zoom .pages .count');
+    if (count) count.textContent = `${p}/${N}`;
+    doc.getPage(p).then(page => {
+      if (me !== seq) return;
+      const v1 = page.getViewport({ scale: 1 }), vp = page.getViewport({ scale: Math.min(4, 2400 / Math.max(v1.width, v1.height)) });
+      if (task) task.cancel();
+      const off = Object.assign(document.createElement('canvas'), { width: Math.round(vp.width), height: Math.round(vp.height) });
+      task = page.render({ canvas: off, canvasContext: off.getContext('2d'), viewport: vp });
+      return task.promise.then(() => {
+        if (me !== seq) return;
+        cv.width = off.width; cv.height = off.height;   // drawn aside, then swapped in: no blank flash between pages
+        cv.getContext('2d').drawImage(off, 0, 0);
+        pg.querySelectorAll('.hot, .trace').forEach(a => a.remove());
+        pg.insertAdjacentHTML('beforeend', spotsHtml(p));
+        bar.hidden = true;
+        cv.style.opacity = '';
+        if (traced.includes(p)) window.traceOverlay(pg, path + '#p' + p, bar);
+        else pg.dataset.trace = '';
+      });
+    }).catch(() => {});
+  };
+  cad(pg);
+  const row = document.createElement('div');
+  row.className = 'row pages';
+  row.innerHTML = '<button data-g="-1" title="Previous page ([)">‹</button><span class="count" title="Page"></span><button data-g="1" title="Next page (])">›</button>';
+  row.addEventListener('click', e => { const b = e.target.closest('button'); if (b) pdfGo(cur + +b.dataset.g); });
+  document.getElementById('zoom').appendChild(row);
+  addEventListener('keydown', e => {
+    if (e.target.closest('input, textarea')) return;
+    if (e.key === '[') pdfGo(cur - 1); if (e.key === ']') pdfGo(cur + 1);
+  });
+  document.getElementById('meta').textContent += ` · ${traced.length} of ${N} pages traced (Original file: the browser's PDF viewer)`;
+  pdfGo(+(location.hash.match(/page=(\d+)/) || [])[1] || 1);
 }
 // CAD-style: wheel or +/− zooms at the pointer, drag pans, double-click / 0 / "fit" puts the whole sheet back
 function cad(pg) {
@@ -252,7 +306,8 @@ function spotsHtml(page) {
       if (!p) return;
       e.preventDefault();
       const f = view.querySelector('iframe');
-      if (f) f.src = enc(rel) + '#page=' + p;
+      if (pdfGo) pdfGo(+p);   // drawn here (a traced PDF), else the browser's viewer
+      else if (f) f.src = enc(rel) + '#page=' + p;
     });
   }
 }

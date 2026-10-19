@@ -11,6 +11,19 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 5,431,047 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 457-04-005, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–229 mm across, 0–432 mm up
+- **Outlines:** line 942 rings, 6,986 straight (10,054 mm) / 1,305 curved (1,528 mm); text 173 rings, 788 straight (678 mm) / 286 curved (336 mm); tb 33 rings, 233 straight (229 mm) / 39 curved (46.9 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 2.7 @ (100.4, 258.0), r 2.7 @ (100.8, 326.2), r 2.7 @ (100.6, 282.8), r 2.7 @ (100.6, 308.5)
+- **Closed boxes:** 15 (7 in the title block); named: B0 SeN-; contfoit (outer ccncro inouc runge cnjnn; 7ixina; LEMEL used corain indiviouaI Irjuc; M457 4X2 PREMixeR MODULE FRONT PANEL; 457-04-005
+- **Dots (junctions):** 1
+- **Words (OCR):** 23 in 21 lines: B0 · (outer · contfoit · ccncro · inouc · runge · cropnont · cnjnnt · 7ixina · LEMEL · indiviouaI Irjuc · used
+- **Title block:** (144, 157)–(219, 178) mm: 10/77 · WBS · WAAD-BECK SYSTEMS · M457 · 4X2 PREMixeR MODULE
+
+Every curve, box, word and wire group: [1975 - M457 - 457-04-005 - CHANNE JIN THE DESIRED PROPORTION IFORM THE OUTPUT (traced).json](1975%20-%20M457%20-%20457-04-005%20-%20CHANNE%20JIN%20THE%20DESIRED%20PROPORTION%20IFORM%20THE%20OUTPUT%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-04-005 - CHANNE JIN THE DESIRED PROPORTION IFORM THE OUTPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

@@ -24,6 +24,21 @@ Wiki page: [M166](../../../PAGES/M166.md)
 - **Size:** 4,175,208 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 166-02-005, size B 432 × 140 mm, 2000 × 649 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 2–140 mm up
+- **Outlines:** line 931 rings, 7,770 straight (13,861 mm) / 1,497 curved (1,795 mm); text 338 rings, 1,824 straight (1,550 mm) / 534 curved (653 mm); tb 37 rings, 275 straight (330 mm) / 59 curved (64.0 mm)
+- **Centre lines:** 7,951 paths (245 closed); straight 8,833 mm, curved 204 mm; horizontal 3,706 mm, vertical 2,170 mm, diagonal 2,957 mm
+- **Circles and arcs:** 4 circles, 39 arcs; largest r 3.7 @ (319.5, 119.2), r 3.6 @ (395.5, 131.4), r 0.7 @ (385.3, 57.8), r 0.7 @ (23.4, 123.8)
+- **Closed boxes:** 33 (20 in the title block); named: I66 AMPLIFIER SUMMING ECHEMAII
+- **Dots (junctions):** 5
+- **Words (OCR):** 57 in 52 lines: 47/ 09 · 22 K · VOLTAGE · CAANGRC · Cib · For Pce · Bmbonent LiYout, Sez · {00/26 · 081 · R+0 · UNLeSS · R2e
+- **Title block:** (288, 9)–(386, 33) mm: MAT L · ISS4MOD CKD · WBS WAADS · Wbs · 2-02 · DATL · ISCALE
+- **Wiring (first pass):** 70 connected wire groups from 489 runs, 7 dotted junctions; labelled ends: 198 mm → {00/26; 188 mm → 7 2 /25; 134 mm → 477, 2n3645, R/6 <, 7 2 /25; 134 mm → 4/25, CDMMOM; 80 mm → R2e, 477
+
+Every curve, box, word and wire group: [1973 - 166-02-005 - M166A SUMMING AMPLIFIER SCHEMATIC - DRN BWJ - ISS 4 (traced).json](1973%20-%20166-02-005%20-%20M166A%20SUMMING%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20BWJ%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1973 - 166-02-005 - M166A SUMMING AMPLIFIER SCHEMATIC - DRN BWJ - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

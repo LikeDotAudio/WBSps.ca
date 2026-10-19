@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,262,900 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 485-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 166 rings, 3,972 straight (9,466 mm) / 518 curved (816 mm); text 404 rings, 2,854 straight (3,353 mm) / 863 curved (1,278 mm); tb 43 rings, 337 straight (425 mm) / 49 curved (59.3 mm)
+- **Centre lines:** 6,591 paths (70 closed); straight 8,086 mm, curved 186 mm; horizontal 3,100 mm, vertical 2,154 mm, diagonal 2,832 mm
+- **Circles and arcs:** 7 circles, 17 arcs; largest r 7.5 @ (183.5, 250.1), r 1.5 @ (288.6, 221.9), r 1.3 @ (288.5, 159.5), r 1.3 @ (288.5, 190.8)
+- **Closed boxes:** 9 (8 in the title block)
+- **Words (OCR):** 72 in 64 lines: IN4004 · CRS · TBI · R3 · +25v · 41 · ZN 0.472 · 3772 6W · TB1 · 80-19 · Cr7 TN · 4003
+- **Title block:** (280, 12)–(432, 80) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNPMAHONEY · M485 · ENG_ · +25V · POWER SUPPLY · SCHEMATIC · APP · SCALE · ISSUE · 485-02-001
+- **Wiring (first pass):** 42 connected wire groups from 209 runs; labelled ends: 182 mm → 34oo4F, 75v, s,10, c2; 170 mm → CRS, IN4004, R3, 0.472; 122 mm → RA, 0.472, CRB, 4003; 119 mm → TBI; 109 mm → c2, 340ouF, 75v, F2
+
+Every curve, box, word and wire group: [19xx - DOC - 485-02-001 - POWER SUPPLY SCHEMATIC (traced).json](19xx%20-%20DOC%20-%20485-02-001%20-%20POWER%20SUPPLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 485-02-001 - POWER SUPPLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

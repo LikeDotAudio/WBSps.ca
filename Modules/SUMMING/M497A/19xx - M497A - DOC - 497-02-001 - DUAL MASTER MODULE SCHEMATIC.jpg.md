@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,087,947 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 497-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 6–298 mm up
+- **Outlines:** line 1,096 rings, 11,907 straight (18,314 mm) / 2,887 curved (3,447 mm); text 319 rings, 2,081 straight (1,809 mm) / 839 curved (1,000 mm); tb 21 rings, 194 straight (224 mm) / 42 curved (51.3 mm)
+- **Centre lines:** 15,429 paths (263 closed); straight 12,950 mm, curved 330 mm; horizontal 4,607 mm, vertical 3,103 mm, diagonal 5,240 mm
+- **Circles and arcs:** 8 circles, 92 arcs; largest r 3.3 @ (103.0, 46.1), r 3.3 @ (79.9, 78.1), r 3.2 @ (79.7, 42.1), r 3.1 @ (102.8, 73.9)
+- **Closed boxes:** 18 (4 in the title block); named: 7/18; 497_ 001
+- **Words (OCR):** 70 in 64 lines: LOTER · LALL · LAAicMtoRS · DALESS · OtherWISC · Specified · 2.LAST · 06,R194Z6- · Use Pcb · 0497 A5 · VERSOH · Insert
+- **Title block:** (359, 23)–(432, 40) mm: WBS · WARD-BECK SYBTEMS
+- **Wiring (first pass):** 138 connected wire groups from 964 runs; labelled ends: 119 mm → WBS, 7/18; 113 mm → 2415, 22/15, 1215; 109 mm → EX, 75k; 105 mm → Rto; 98 mm → 75k
+
+Every curve, box, word and wire group: [19xx - M497A - DOC - 497-02-001 - DUAL MASTER MODULE SCHEMATIC (traced).json](19xx%20-%20M497A%20-%20DOC%20-%20497-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M497A - DOC - 497-02-001 - DUAL MASTER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

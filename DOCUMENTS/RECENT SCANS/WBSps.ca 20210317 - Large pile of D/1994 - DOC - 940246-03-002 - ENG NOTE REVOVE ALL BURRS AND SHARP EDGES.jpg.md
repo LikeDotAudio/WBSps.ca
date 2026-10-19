@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,069,340 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940246-03-002, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)
+- **Ink extent:** 30–422 mm across, 7–190 mm up
+- **Outlines:** line 658 rings, 4,284 straight (8,921 mm) / 899 curved (1,048 mm); text 236 rings, 1,365 straight (1,320 mm) / 433 curved (542 mm); tb 23 rings, 204 straight (206 mm) / 41 curved (49.4 mm)
+- **Centre lines:** 6,215 paths (200 closed); straight 6,321 mm, curved 11.3 mm; horizontal 3,013 mm, vertical 1,327 mm, diagonal 1,982 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 23 (5 in the title block); named: DETAIL; DETAIL; METER PANEL; 940246 03-002; DSC NC;
+- **Words (OCR):** 29 in 24 lines: 83 · DATM · 15z8 · 1017 · 0,257 · REC D · 470012 · 0.9e5 · DETAIL · DETAIL · 5080 · MATERIAL:
+- **Title block:** (344, 23)–(428, 39) mm: WBS · WARD-BECK  SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940246-03-002 - ENG NOTE REVOVE ALL BURRS AND SHARP EDGES (traced).json](1994%20-%20DOC%20-%20940246-03-002%20-%20ENG%20NOTE%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940246-03-002 - ENG NOTE REVOVE ALL BURRS AND SHARP EDGES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

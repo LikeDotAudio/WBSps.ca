@@ -11,6 +11,20 @@ Wiki page: [M527](../../../PAGES/M527.md)
 - **Size:** 2,156,995 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-109-02-001, size B (assumed) 432 × 339 mm, 2000 × 1571 px traced (0.216 mm/px)
+- **Ink extent:** 29–425 mm across, 0–339 mm up
+- **Outlines:** line 658 rings, 6,066 straight (9,927 mm) / 1,522 curved (2,006 mm); text 276 rings, 1,729 straight (1,730 mm) / 550 curved (714 mm); tb 2 rings, 49 straight (131 mm) / 0 curved (0.0 mm)
+- **Centre lines:** 6,195 paths (152 closed); straight 6,829 mm, curved 458 mm; horizontal 1,927 mm, vertical 2,257 mm, diagonal 2,645 mm
+- **Circles and arcs:** 9 circles, 84 arcs; largest r 4.3 @ (171.9, 303.3), r 4.2 @ (110.4, 264.7), r 4.1 @ (174.9, 54.9), r 4.1 @ (137.9, 102.4)
+- **Closed boxes:** 2
+- **Words (OCR):** 38 in 35 lines: ZZV · 22/25 · Limit · CURREHT · P0JS69 · Inr · PnJ369 · ALL Resistors · CaPACTOAS · J9/10 · Ess otherwise specified_ · L4ST
+- **Title block:** (321, 36)–(432, 56) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 70 connected wire groups from 492 runs; labelled ends: 113 mm → P0JS69, Inr; 109 mm → Tzz/z5; 96 mm → 220/10; 94 mm → P43569; 93 mm → 220/10, 10/15
+
+Every curve, box, word and wire group: [19xx - M527 - B 14-109-02-001 - SA14-109 UNIVERSAL AMPLIFIER ASSEMBLY - SCHEMATIC (traced).json](19xx%20-%20M527%20-%20B%2014-109-02-001%20-%20SA14-109%20UNIVERSAL%20AMPLIFIER%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M527 - B 14-109-02-001 - SA14-109 UNIVERSAL AMPLIFIER ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

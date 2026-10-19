@@ -23,6 +23,18 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 3,206,341 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 880651-02-011, size B 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 50–432 mm across, 19–292 mm up
+- **Outlines:** line 220 rings, 2,439 straight (6,159 mm) / 436 curved (663 mm); text 251 rings, 1,723 straight (2,211 mm) / 485 curved (746 mm)
+- **Centre lines:** 2,368 paths (48 closed); straight 4,579 mm, curved 283 mm; horizontal 2,177 mm, vertical 1,042 mm, diagonal 1,360 mm
+- **Circles and arcs:** 13 circles, 41 arcs; largest r 2.5 @ (135.4, 255.2), r 1.6 @ (139.9, 256.5), r 1.4 @ (145.4, 135.7), r 1.4 @ (145.4, 188.2)
+- **Closed boxes:** 15
+- **Wiring (first pass):** 37 connected wire groups from 269 runs
+
+Every curve, box, word and wire group: [1988 - 880651-02-011 - UTILITY METER SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%20880651-02-011%20-%20UTILITY%20METER%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 880651-02-011 - UTILITY METER SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

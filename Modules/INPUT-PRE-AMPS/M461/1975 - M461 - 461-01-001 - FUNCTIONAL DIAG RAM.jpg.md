@@ -12,6 +12,19 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 6,531,221 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 461-01-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–432 mm across, 0–286 mm up
+- **Outlines:** line 596 rings, 7,450 straight (14,263 mm) / 1,211 curved (1,728 mm); text 266 rings, 1,625 straight (1,735 mm) / 528 curved (776 mm)
+- **Centre lines:** 5,189 paths (93 closed); straight 8,520 mm, curved 368 mm; horizontal 4,075 mm, vertical 2,150 mm, diagonal 2,295 mm
+- **Circles and arcs:** 33 circles, 55 arcs; largest r 3.0 @ (222.9, 203.4), r 1.8 @ (366.0, 22.0), r 1.8 @ (381.8, 28.6), r 1.5 @ (230.9, 165.8)
+- **Closed boxes:** 49
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 153 connected wire groups from 592 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1975 - M461 - 461-01-001 - FUNCTIONAL DIAG RAM (traced).json](1975%20-%20M461%20-%20461-01-001%20-%20FUNCTIONAL%20DIAG%20RAM%20%28traced%29.json) (the CAD file: `1975 - M461 - 461-01-001 - FUNCTIONAL DIAG RAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -23,6 +23,16 @@ Wiki page: [M147](../../../PAGES/M147.md)
 - **Size:** 4,661,839 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 147-06-001, size B 432 × 307 mm, 2000 × 1423 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 11–430 mm across, 25–307 mm up
+- **Outlines:** line 1,063 rings, 11,891 straight (15,968 mm) / 3,306 curved (3,367 mm); text 458 rings, 3,619 straight (3,534 mm) / 1,084 curved (1,177 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 9.8 @ (103.6, 224.8), r 9.6 @ (271.0, 211.9), r 7.9 @ (302.0, 204.0), r 6.5 @ (302.1, 186.4)
+- **Closed boxes:** 22
+
+Every curve, box, word and wire group: [1968 - 147-06-001 - COMPRESSOR BOARD M147 COMPONENT LAYOUT - DRN C.S. O'CONNELL - ISS 2 (traced).json](1968%20-%20147-06-001%20-%20COMPRESSOR%20BOARD%20M147%20COMPONENT%20LAYOUT%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1968 - 147-06-001 - COMPRESSOR BOARD M147 COMPONENT LAYOUT - DRN C.S. O'CONNELL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

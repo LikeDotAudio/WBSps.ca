@@ -11,6 +11,19 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 412,421 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-136-06-002, size B (assumed) 432 × 273 mm, 2000 × 1264 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–267 mm up
+- **Outlines:** line 1,374 rings, 9,425 straight (12,263 mm) / 2,951 curved (2,985 mm); text 909 rings, 5,854 straight (5,003 mm) / 2,158 curved (2,271 mm); tb 22 rings, 184 straight (216 mm) / 40 curved (37.0 mm)
+- **Circles and arcs:** 16 circles, 0 arcs; largest r 3.0 @ (259.9, 228.0), r 1.6 @ (204.2, 200.1), r 1.6 @ (300.4, 154.1), r 1.6 @ (107.1, 114.1)
+- **Closed boxes:** 25 (1 in the title block); named: Swo Side; SWG Side Swib
+- **Dots (junctions):** 5
+- **Words (OCR):** 122 in 102 lines: Rios · swisi iSwig Swi3 · Swo · Sw9 · SWG Sws Sw4 · Sh3 · Sw2 · Side · Side · 4K7 · Riio · Swib
+- **Title block:** (344, 3)–(411, 30) mm: WES WAAD-BeCk · M46OA · INPUT MODULE · CKD · SCAL( · MOTHERBOARD LAYout_ · TOLs
+
+Every curve, box, word and wire group: [1976 - M460A - 4-136-06-002 - MOTHERBOARD LAYOUT GCALE (traced).json](1976%20-%20M460A%20-%204-136-06-002%20-%20MOTHERBOARD%20LAYOUT%20GCALE%20%28traced%29.json) (the CAD file: `1976 - M460A - 4-136-06-002 - MOTHERBOARD LAYOUT GCALE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

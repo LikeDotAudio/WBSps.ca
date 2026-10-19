@@ -26,6 +26,21 @@ Intercom output amplifier schematic with title block at bottom right.
 - **Size:** 1,220,031 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 702-02-101, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 1–864 mm across, 0–560 mm up
+- **Outlines:** line 975 rings, 9,263 straight (30,434 mm) / 1,940 curved (4,534 mm); text 405 rings, 2,398 straight (4,038 mm) / 786 curved (1,858 mm); tb 13 rings, 139 straight (330 mm) / 33 curved (76.7 mm)
+- **Centre lines:** 11,463 paths (350 closed); straight 21,041 mm, curved 438 mm; horizontal 6,800 mm, vertical 6,120 mm, diagonal 8,122 mm
+- **Circles and arcs:** 4 circles, 60 arcs; largest r 6.2 @ (301.0, 113.7), r 5.9 @ (448.4, 418.2), r 3.7 @ (494.9, 417.7), r 1.6 @ (127.5, 148.3)
+- **Closed boxes:** 40 (2 in the title block); named: 702-02-101
+- **Dots (junctions):** 1
+- **Words (OCR):** 76 in 69 lines: Resistors · UNLESS DESIGHATEO · IN 4F · Laat LO4PONEN · C229 , · R255 V204 · SRzos · UNREGULATEC · PAAT · R933 · 477 · R235
+- **Title block:** (711, 38)–(864, 71) mm: DATL · WBS WARD-DeCk SysTEMS · M7028
+- **Wiring (first pass):** 118 connected wire groups from 1,275 runs, 1 dotted junctions; labelled ends: 477 mm → CR 204; 372 mm → R5k8<, c2i5, Roo<; 318 mm → nok; 260 mm → 3248, Rzss, 17n5, R154; 259 mm → 1cz4, R14, '950, Zok
+
+Every curve, box, word and wire group: [1978 - 702-02-101 - M702B INTERCOM OUTPUT AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW - ISS 5 (traced).json](1978%20-%20702-02-101%20-%20M702B%20INTERCOM%20OUTPUT%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1978 - 702-02-101 - M702B INTERCOM OUTPUT AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,16 @@ Wiki page: [Job-74097](../../../PAGES/Job-74097.md)
 - **Size:** 5,942,279 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 74097-04-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–284 mm up
+- **Outlines:** line 631 rings, 5,486 straight (10,710 mm) / 771 curved (1,011 mm); text 147 rings, 803 straight (718 mm) / 261 curved (324 mm)
+- **Closed boxes:** 42
+- **Dots (junctions):** 1
+
+Every curve, box, word and wire group: [1974 - 74097 - 74097-04-001 - AUDIO CONSOLE LAYOUT CAE (traced).json](1974%20-%2074097%20-%2074097-04-001%20-%20AUDIO%20CONSOLE%20LAYOUT%20CAE%20%28traced%29.json) (the CAD file: `1974 - 74097 - 74097-04-001 - AUDIO CONSOLE LAYOUT CAE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

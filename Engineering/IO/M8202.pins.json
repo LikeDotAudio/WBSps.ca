@@ -1,0 +1,237 @@
+{
+ "code": "M8202",
+ "name": null,
+ "derived": true,
+ "variant_of": "M8202A",
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "TWO DIRECT ACTIVELY BALANCED OUTPUTS",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Two direct actively balanced outputs are provided at pins 4 & D and 5 & E of the module connector.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "TWO DIRECT ACTIVELY BALANCED OUTPUTS",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Two direct actively balanced outputs are provided at pins 4 & D and 5 & E of the module connector.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "TWO DIRECT ACTIVELY BALANCED OUTPUTS",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Two direct actively balanced outputs are provided at pins 4 & D and 5 & E of the module connector.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "TWO DIRECT ACTIVELY BALANCED OUTPUTS",
+   "kind": "out",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Two direct actively balanced outputs are provided at pins 4 & D and 5 & E of the module connector.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "K",
+   "row": 9,
+   "side": "letter",
+   "signal": "REMOTE LINE INPUT",
+   "kind": "control",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Input The remote line input connects to pins 9 & K of the module connector.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "REMOTE LINE INPUT",
+   "kind": "control",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Input The remote line input connects to pins 9 & K of the module connector.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "M",
+   "row": 11,
+   "side": "letter",
+   "signal": "+1 VOLT TO -4 VOLTS",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "This control voltage should be applied to edge connector pin M with respect to ground.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "+/-22 VOLT DC SUPPLY VOLTAGE",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The +/-22 volt dc supply voltage appearing at amplifier connector pins 15 & S, and 13 & P are isolated from the amplifier cir\u00adcuitry via fusing resistors R68 and R69.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "+/-22 VOLT DC SUPPLY VOLTAGE",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The +/-22 volt dc supply voltage appearing at amplifier connector pins 15 & S, and 13 & P are isolated from the amplifier cir\u00adcuitry via fusing resistors R68 and R69.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "+/-22 VOLT DC SUPPLY VOLTAGE",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The +/-22 volt dc supply voltage appearing at amplifier connector pins 15 & S, and 13 & P are isolated from the amplifier cir\u00adcuitry via fusing resistors R68 and R69.",
+   "also": [],
+   "from_conf": "medium"
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "+/-22 VOLT DC SUPPLY VOLTAGE",
+   "kind": "power",
+   "conf": "variant",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "88396598fb6126c66f26c40d29f83944a901447c24eabc5e7dc4145a2a02f8fc",
+    "file": "Products/8200 SERIES/M8202A/1995 - M8202A - OUTPUT LEVEL 0 DBU TO +8 DBU NOMINAL - PARTS LIST.wp",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The +/-22 volt dc supply voltage appearing at amplifier connector pins 15 & S, and 13 & P are isolated from the amplifier cir\u00adcuitry via fusing resistors R68 and R69.",
+   "also": [],
+   "from_conf": "medium"
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

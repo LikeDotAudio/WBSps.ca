@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,540,502 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 600-02-009, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 0–428 mm across, 24–305 mm up
+- **Outlines:** line 148 rings, 2,547 straight (8,017 mm) / 427 curved (702 mm); text 385 rings, 2,638 straight (3,387 mm) / 811 curved (1,230 mm); tb 4 rings, 86 straight (203 mm) / 5 curved (6.4 mm)
+- **Centre lines:** 3,006 paths (84 closed); straight 6,545 mm, curved 238 mm; horizontal 2,868 mm, vertical 1,859 mm, diagonal 1,818 mm
+- **Circles and arcs:** 12 circles, 37 arcs; largest r 1.4 @ (176.0, 185.9), r 1.4 @ (176.1, 196.3), r 1.4 @ (176.3, 239.9), r 1.3 @ (176.4, 271.3)
+- **Closed boxes:** 22 (10 in the title block); named: M625B POWER SUPPLY; Pi-15; SCALE; 600-02-009; ISSUE; CODE: 600509
+- **Words (OCR):** 54 in 41 lines: #16 AWG WRES · TB9 · 10 FT · P2-123 · +25V · RD · P2-5,6 · COM · P2 _ · 25V · M625B · SEE POWER SUPPLY RUNNING LIST
+- **Title block:** (265, 40)–(432, 108) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. JRG · 02/87 · ENG_ Ka · POWER SUPPLY WIRING · CKD · SCHEMA TIC · APP_ · SCALE DISC NO: 130 · 600-02-009 · ISSUE · CODE: 600509
+- **Wiring (first pass):** 27 connected wire groups from 191 runs; labelled ends: 856 mm → P2-123, P2-_123, CHASSIS, P1-5; 333 mm → (WRED BY CUSTOMER); 67 mm → P2-123, TB9; 67 mm → P2-_123; 62 mm → TB9
+
+Every curve, box, word and wire group: [19xx - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC (traced).json](19xx%20-%20DOC%20-%20600-02-009%20-%20POWER%20SUPPLY%20WIRING%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `19xx - DOC - 600-02-009 - POWER SUPPLY WIRING SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

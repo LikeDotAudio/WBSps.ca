@@ -21,6 +21,20 @@ Wiki page: [Job-920383](../../../PAGES/Job-920383.md)
 - **Size:** 1,268,447 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920383-01-001, size D 864 × 558 mm, 2000 × 1292 px traced (0.432 mm/px); scale DISC NO:
+- **Ink extent:** 68–848 mm across, 10–525 mm up
+- **Outlines:** line 675 rings, 5,401 straight (26,982 mm) / 995 curved (2,526 mm); text 1,097 rings, 7,731 straight (13,156 mm) / 2,200 curved (5,149 mm); tb 28 rings, 307 straight (2,448 mm) / 26 curved (70.2 mm)
+- **Centre lines:** 19,468 paths (390 closed); straight 26,519 mm, curved 16.5 mm; horizontal 8,815 mm, vertical 7,496 mm, diagonal 10,208 mm
+- **Circles and arcs:** 1 circles, 4 arcs; largest r 1.5 @ (612.7, 133.8)
+- **Closed boxes:** 118 (1 in the title block); named: PGM 1-R; PGM 1-Rl; PGM; PGv 2-R; AUX; AUX; CUE; PGM I-R; PGv; PGv 2-L; PG" 2-R; AUX
+- **Words (OCR):** 219 in 195 lines: CONSOLE SUMMING BUSES · PGM PGM AUX CUE · MIC_INPUL CHANNELS 1-4 · PROGRAM SIEREQ QUIPUIS · PGM · MIC INPUTS · INSERTS · PGM 1-R · INSERTS · PROGRAM · 150 OHMS · 30 dBm
+- **Title block:** (679, 7)–(863, 85) mm: SSur · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN; DRG · WOWF · ENG. · R2200 RADIO CONSOLE · AUDIO FUNCTIONAL · SCALE DISC NO: · CODE: 9238JF01 · 920383-01-001 · ISSUE
+- **Wiring (first pass):** 220 connected wire groups from 840 runs; labelled ends: 3211 mm → PGM, AUX, CUE, INSERTS; 876 mm → PGM; 200 mm → VoNITOR, BDC LOAD, MONITOR, BOG LOAD; 107 mm → PGM 1-Rl; 81 mm → 600 OHMS, METER INPUTS +8
+
+Every curve, box, word and wire group: [1992 - 920383-01-001 - WOWF R2200 RADIO CONSOLE AUDIO FUNCTIONAL - DRN DRG - ISS 1 (traced).json](1992%20-%20920383-01-001%20-%20WOWF%20R2200%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1992 - 920383-01-001 - WOWF R2200 RADIO CONSOLE AUDIO FUNCTIONAL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 19 words corrected)

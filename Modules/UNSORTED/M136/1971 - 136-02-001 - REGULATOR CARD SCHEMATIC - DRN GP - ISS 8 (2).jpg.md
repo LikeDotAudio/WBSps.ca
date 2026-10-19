@@ -23,6 +23,20 @@ Wiki page: [M136](../../../PAGES/M136.md)
 - **Size:** 169,110 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 136-02-001, size B 432 × 334 mm, 1165 × 900 px traced (0.371 mm/px)
+- **Ink extent:** 1–427 mm across, 50–298 mm up
+- **Outlines:** line 525 rings, 6,703 straight (13,116 mm) / 1,181 curved (2,430 mm); text 275 rings, 1,910 straight (2,608 mm) / 595 curved (1,171 mm)
+- **Centre lines:** 14,933 paths (114 closed); straight 13,499 mm, curved 243 mm; horizontal 4,373 mm, vertical 3,127 mm, diagonal 5,999 mm
+- **Circles and arcs:** 3 circles, 20 arcs; largest r 7.8 @ (137.9, 265.9), r 7.3 @ (190.6, 202.9), r 6.3 @ (362.9, 198.2)
+- **Closed boxes:** 7; named: FINISH; ISS.
+- **Words (OCR):** 64 in 61 lines: SERIcS · PRANSISToR · 2N210e · BASE · UN- · REG IS · VOLTAGE · Rs · +48v · GRT" · 2k2 · 6*8
+- **Title block:** (186, 78)–(215, 108) mm: DRN · DATE · CFKD
+- **Wiring (first pass):** 74 connected wire groups from 593 runs; labelled ends: 385 mm → M136  REGULATOR, MATERIAL; 366 mm → R6, 6*8, PRANSISToR, CRS; 239 mm → R6, 6*8, 47/35, CR3; 234 mm → 2N3328, Rii, Ioo, RIJ; 215 mm → ISS.
+
+Every curve, box, word and wire group: [1971 - 136-02-001 - REGULATOR CARD SCHEMATIC - DRN GP - ISS 8 (2) (traced).json](1971%20-%20136-02-001%20-%20REGULATOR%20CARD%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%208%20%282%29%20%28traced%29.json) (the CAD file: `1971 - 136-02-001 - REGULATOR CARD SCHEMATIC - DRN GP - ISS 8 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

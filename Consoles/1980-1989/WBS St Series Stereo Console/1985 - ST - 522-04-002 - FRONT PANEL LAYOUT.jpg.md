@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 687,722 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 522-04-002, size B (assumed) 210 × 432 mm, 972 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–210 mm across, 0–430 mm up
+- **Outlines:** line 68 rings, 1,509 straight (2,705 mm) / 167 curved (263 mm); text 173 rings, 1,986 straight (2,496 mm) / 532 curved (898 mm); tb 262 rings, 2,852 straight (3,910 mm) / 509 curved (799 mm)
+- **Closed boxes:** 8 (5 in the title block); named: SCALE; 522-04-002
+- **Words (OCR):** 29 in 26 lines: WBS · 45z24 · ath · CHI · 40 · 140 · 100 · 18 · 59 · 20d · Hz · ISSUE DATE
+- **Title block:** (22, 5)–(210, 418) mm: WBS · 45z24 · ath · CHI · 40 · 140 · 100 · 18 · 59 · 20d · Hz · ISSUE DATE · REVISION · WBS WARO-BECK SYSTEM: · DRN: BD 49 · 84 · M522A · ENG · Mew · STEREO EQUALIZER · CKD: · FRONT PANEL LA YOUT · AP
+
+Every curve, box, word and wire group: [1985 - ST - 522-04-002 - FRONT PANEL LAYOUT (traced).json](1985%20-%20ST%20-%20522-04-002%20-%20FRONT%20PANEL%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - ST - 522-04-002 - FRONT PANEL LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

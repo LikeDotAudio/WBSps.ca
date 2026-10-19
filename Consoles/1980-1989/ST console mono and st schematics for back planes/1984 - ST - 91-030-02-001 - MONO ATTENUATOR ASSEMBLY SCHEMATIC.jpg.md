@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 7,837,172 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 91-030-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 2–429 mm across, 20–288 mm up
+- **Outlines:** line 389 rings, 2,749 straight (4,315 mm) / 709 curved (1,049 mm); text 118 rings, 749 straight (785 mm) / 224 curved (307 mm)
+- **Centre lines:** 1,912 paths (46 closed); straight 2,673 mm, curved 363 mm; horizontal 864 mm, vertical 734 mm, diagonal 1,075 mm
+- **Circles and arcs:** 27 circles, 48 arcs; largest r 4.3 @ (98.9, 204.7), r 4.3 @ (98.1, 135.5), r 3.0 @ (98.9, 204.7), r 3.0 @ (98.2, 135.5)
+- **Closed boxes:** 3
+- **Wiring (first pass):** 44 connected wire groups from 278 runs
+
+Every curve, box, word and wire group: [1984 - ST - 91-030-02-001 - MONO ATTENUATOR ASSEMBLY SCHEMATIC (traced).json](1984%20-%20ST%20-%2091-030-02-001%20-%20MONO%20ATTENUATOR%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1984 - ST - 91-030-02-001 - MONO ATTENUATOR ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

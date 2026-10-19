@@ -24,6 +24,20 @@ Wiki page: [M701](../../../PAGES/M701.md)
 - **Size:** 836,552 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 701-02-101, size D 864 × 611 mm, 2000 × 1414 px traced (0.432 mm/px)
+- **Ink extent:** 8–864 mm across, 15–589 mm up
+- **Outlines:** line 1,433 rings, 11,941 straight (38,478 mm) / 2,747 curved (6,756 mm); text 520 rings, 2,778 straight (4,635 mm) / 878 curved (2,092 mm); tb 19 rings, 180 straight (413 mm) / 42 curved (97.2 mm)
+- **Centre lines:** 14,244 paths (449 closed); straight 26,206 mm, curved 861 mm; horizontal 8,818 mm, vertical 6,928 mm, diagonal 10,460 mm
+- **Circles and arcs:** 7 circles, 95 arcs; largest r 6.4 @ (428.0, 181.8), r 6.4 @ (179.3, 407.0), r 6.3 @ (367.1, 357.4), r 5.9 @ (147.9, 437.5)
+- **Closed boxes:** 38 (8 in the title block)
+- **Words (OCR):** 95 in 87 lines: HoTee · ALL Resistors · ALL Capacitcrs Are · SPECIFIEC · LAST COMPCNEHT Desiua · <19 Cri07 · Ds 167 · Ki01, · Tio 0i04 · VSE Pce · 242io2 · Ticorie
+- **Title block:** (738, 29)–(864, 98) mm: DAT · WBS WARD-BeCk Syst · INTERCOM PRE-AMPLIFIER · Mzoib · ScheMATiC · SCALE · 701- · 101
+- **Wiring (first pass):** 196 connected wire groups from 1,840 runs; labelled ends: 579 mm → iol; 257 mm → Roc?; 245 mm → crio4, Zcie, I42s; 223 mm → 8802934, 74CCON; 222 mm → 27}
+
+Every curve, box, word and wire group: [1978 - 701-02-101 - M701B INTERCOM PRE-AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (traced).json](1978%20-%20701-02-101%20-%20M701B%20INTERCOM%20PRE-AMPLIFIER%20SCHEMATIC%20-%20DRN%20MRW%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1978 - 701-02-101 - M701B INTERCOM PRE-AMPLIFIER SCHEMATIC - DRN MRW - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 15 words corrected)

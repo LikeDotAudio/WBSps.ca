@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 23,264,298 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 950049-01-001, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 26–424 mm across, 8–255 mm up
+- **Outlines:** line 3,720 rings, 27,276 straight (35,882 mm) / 3,273 curved (4,182 mm); text 297 rings, 1,976 straight (1,715 mm) / 563 curved (679 mm); tb 48 rings, 323 straight (311 mm) / 103 curved (117 mm)
+- **Centre lines:** 111,569 paths (249 closed); straight 43,986 mm, curved 48.1 mm; horizontal 10,577 mm, vertical 12,186 mm, diagonal 21,222 mm
+- **Circles and arcs:** 176 circles, 21 arcs; largest r 3.4 @ (227.1, 187.7), r 3.4 @ (309.8, 101.2), r 3.4 @ (329.0, 187.9), r 3.4 @ (322.6, 101.2)
+- **Closed boxes:** 29 (11 in the title block)
+- **Words (OCR):** 31 in 29 lines: FUJURE UNMTART · SOUNL Kputs · UbRE · TrimR · LEGINDI · CROSSDOM · NoRult · ECLArage · outputs) · SECTUONSR · EXNMEEUR · audio
+- **Title block:** (341, 6)–(429, 40) mm: REvSDX · WBS · WARD-BECK SYSTEMS · 24XC8C MniCoM · FUNCTIONAL · SCALE · 950049-01-001
+- **Wiring (first pass):** 250 connected wire groups from 4,227 runs; labelled ends: 154 mm → UbRE; 150 mm → hl; 16 mm → SECTUONSR; 12 mm → hl; 11 mm → C107, 11
+
+Every curve, box, word and wire group: [1995 - 950049 - DOC - 950049-01-001 - OHMS SSUEI REMSION FUTURE IFB OUTPUTS (traced).json](1995%20-%20950049%20-%20DOC%20-%20950049-01-001%20-%20OHMS%20SSUEI%20REMSION%20FUTURE%20IFB%20OUTPUTS%20%28traced%29.json) (the CAD file: `1995 - 950049 - DOC - 950049-01-001 - OHMS SSUEI REMSION FUTURE IFB OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

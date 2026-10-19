@@ -15,6 +15,18 @@ Wiki page: [M473A](../../../PAGES/M473A.md)
 
 - **1977** (labelled): `DATE JUNE 77` — …8-109G ON coMPonEnT SIDE WBS WARD-BECK BYBTEMB LTD DRM GEB DATE JUNE 77 CKD: (SCALE TOLS M473A SUB MA STER MODULE COMPONENT LAYOUT…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 473-06-002, size B (assumed) 432 × 320 mm, 2000 × 1484 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–316 mm up
+- **Outlines:** line 585 rings, 5,427 straight (14,954 mm) / 1,082 curved (1,048 mm); text 1,385 rings, 9,366 straight (8,675 mm) / 3,250 curved (3,526 mm); tb 905 rings, 4,840 straight (5,451 mm) / 1,463 curved (1,574 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.6 @ (73.4, 287.5)
+- **Closed boxes:** 59 (56 in the title block); named: TSS
+- **Words (OCR):** 204 in 157 lines: R2i · PN3645 Pn3569 Pn3c45 244401 2n4401 PN3645 2N4401 2n4401 · sws R23 3k3 Ris_ 10/25 · 22k Rio 22 ~C5J8p · -R3 8r2 · WBS |+-036 WBS · R24 15k · RS · LOp RI2 · ci233ho cio RI3 C92 3p 6k2 ce? 3p · RI7 129 · C14 220p
+- **Title block:** (50, 1)–(397, 280) mm: sws R23 3k3 Ris_ 10/25 · 22k Rio 22 ~C5J8p · -R3 8r2 · WBS |+-036 WBS · R24 15k · RS · LOp RI2 · ci233ho cio RI3 C92 3p 6k2 ce? 3p · RI7 129 · C14 220p · K5 · R4 · C7 I5? · ~Ri3k3 · cistop R2o · RIS ·
+
+Every curve, box, word and wire group: [1977 - M473A - 473-06-002 - SOLDER SIDE COMPONENT SIDE (traced).json](1977%20-%20M473A%20-%20473-06-002%20-%20SOLDER%20SIDE%20COMPONENT%20SIDE%20%28traced%29.json) (the CAD file: `1977 - M473A - 473-06-002 - SOLDER SIDE COMPONENT SIDE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 4,877,204 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 922-03-001, size B (assumed) 432 × 312 mm, 2000 × 1446 px traced (0.216 mm/px)
+- **Ink extent:** 5–428 mm across, 5–291 mm up
+- **Outlines:** line 903 rings, 4,866 straight (7,356 mm) / 918 curved (1,231 mm); text 267 rings, 1,637 straight (1,875 mm) / 545 curved (808 mm); tb 25 rings, 163 straight (189 mm) / 40 curved (44.3 mm)
+- **Centre lines:** 3,645 paths (116 closed); straight 4,690 mm, curved 101 mm; horizontal 1,504 mm, vertical 1,178 mm, diagonal 2,008 mm
+- **Circles and arcs:** 2 circles, 19 arcs; largest r 1.7 @ (233.1, 219.7), r 1.5 @ (234.2, 119.6)
+- **Closed boxes:** 7 (2 in the title block); named: 922-03-001; CCCE
+- **Dots (junctions):** 1
+- **Words (OCR):** 21 in 19 lines: (004 Rad · 0,070 · 0 07) · DETNIL · 40 · MATERIAL; · ALUV ALLOY 0,125 ThiCK · FinISH: SAND 120Grit · AMD PAINT · TEXTURED BEICE ( 52C) · TEXCOTE   VNYL · WBS
+- **Title block:** (350, 50)–(432, 68) mm: WBS · WARD-BECK SYSTEMS · 4922,/49224
+
+Every curve, box, word and wire group: [19xx - M922 - DOC - 922-03-001 - STEREO EQUALIZER MODULE (traced).json](19xx%20-%20M922%20-%20DOC%20-%20922-03-001%20-%20STEREO%20EQUALIZER%20MODULE%20%28traced%29.json) (the CAD file: `19xx - M922 - DOC - 922-03-001 - STEREO EQUALIZER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

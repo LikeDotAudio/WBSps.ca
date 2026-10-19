@@ -22,6 +22,19 @@ Schematic of the M498D mono preselector module.
 - **Size:** 715,852 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 498-02-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 47–431 mm across, 4–298 mm up
+- **Outlines:** line 101 rings, 1,358 straight (4,027 mm) / 284 curved (392 mm); text 199 rings, 1,285 straight (1,357 mm) / 463 curved (627 mm); tb 6 rings, 59 straight (120 mm) / 7 curved (8.7 mm)
+- **Centre lines:** 1,876 paths (37 closed); straight 3,117 mm, curved 138 mm; horizontal 1,700 mm, vertical 495 mm, diagonal 922 mm
+- **Circles and arcs:** 13 circles, 13 arcs; largest r 1.2 @ (164.9, 153.6), r 1.2 @ (166.6, 166.8), r 1.2 @ (175.8, 137.4), r 1.2 @ (188.6, 133.8)
+- **Words (OCR):** 38 in 29 lines: Sp2 · SP2 20,X · SP1 · SPI · 19,W · A4 · 1,A · A3 3,C · A2 5,E · 7,h · INPUTS · M2
+- **Title block:** (342, 36)–(432, 52) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 31 connected wire groups from 67 runs; labelled ends: 85 mm → SP2; 57 mm → SP1, Sp2; 50 mm → SP1; 48 mm → 540; 40 mm → MLo, 540
+
+Every curve, box, word and wire group: [19xx - 498-02-005 - M498D MONO PRESELECTOR MODULE SCHEMATIC - ISS 1 (traced).json](19xx%20-%20498-02-005%20-%20M498D%20MONO%20PRESELECTOR%20MODULE%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 498-02-005 - M498D MONO PRESELECTOR MODULE SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

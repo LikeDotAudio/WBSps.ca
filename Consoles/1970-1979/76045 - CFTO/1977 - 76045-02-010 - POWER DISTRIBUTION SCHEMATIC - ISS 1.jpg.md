@@ -22,6 +22,18 @@ Upside-down power distribution schematic, title block at top left.
 - **Size:** 3,425,056 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 76045-02-010, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–610 mm across, 11–864 mm up
+- **Outlines:** line 390 rings, 3,647 straight (14,117 mm) / 609 curved (1,730 mm); text 432 rings, 2,939 straight (6,345 mm) / 844 curved (2,466 mm)
+- **Centre lines:** 3,502 paths (73 closed); straight 11,854 mm, curved 240 mm; horizontal 4,536 mm, vertical 2,681 mm, diagonal 4,637 mm
+- **Circles and arcs:** 5 circles, 25 arcs; largest r 3.2 @ (66.2, 108.8), r 2.4 @ (66.0, 109.1), r 2.3 @ (155.7, 109.5), r 2.0 @ (221.8, 695.0)
+- **Closed boxes:** 48
+- **Wiring (first pass):** 26 connected wire groups from 300 runs
+
+Every curve, box, word and wire group: [1977 - 76045-02-010 - POWER DISTRIBUTION SCHEMATIC - ISS 1 (traced).json](1977%20-%2076045-02-010%20-%20POWER%20DISTRIBUTION%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 76045-02-010 - POWER DISTRIBUTION SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

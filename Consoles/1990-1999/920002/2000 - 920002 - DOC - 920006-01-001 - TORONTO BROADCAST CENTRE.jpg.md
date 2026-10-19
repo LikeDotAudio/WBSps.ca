@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **2000** (manual_issue): `ISSUE 92000` — …E 48x48 INTERCOM SYSTEM STUDIO C2 FUNCTIONAL SCALE DISC ND: ISSUE 920006-01-001 CODE: 92006F01 Cr…
 
+## Vectors (traced)
+
+- **Sheet:** functional 920006-01-001, size B (assumed) 432 × 278 mm, 2000 × 1289 px traced (0.216 mm/px)
+- **Ink extent:** 84–420 mm across, 7–261 mm up
+- **Outlines:** line 3,245 rings, 22,801 straight (37,954 mm) / 2,428 curved (2,931 mm); text 386 rings, 2,533 straight (2,256 mm) / 759 curved (958 mm); tb 961 rings, 5,926 straight (5,714 mm) / 1,673 curved (1,891 mm)
+- **Centre lines:** 86,819 paths (475 closed); straight 41,358 mm, curved 118 mm; horizontal 12,914 mm, vertical 12,368 mm, diagonal 16,076 mm
+- **Circles and arcs:** 7 circles, 31 arcs; largest r 1.1 @ (338.8, 229.3), r 1.1 @ (338.8, 226.4), r 1.1 @ (296.5, 232.5), r 1.0 @ (290.3, 232.6)
+- **Closed boxes:** 707 (228 in the title block); named: ASSEMDLT DS20052-01-001 IFB BUFFERS
+- **Dots (junctions):** 30
+- **Words (OCR):** 56 in 49 lines: AS · LECENDS · CROSSPOINT · MATRK · 7 pupots) · AVPUTER · CAMERA · CaMJ · CAMERR · MATRIX ALLOCk · AUTO CUE · LTGJ
+- **Title block:** (92, 6)–(426, 138) mm: REVOIE · ASSEMDLT · ENG (PL) · VTR (PL) · DS20052-01-001 · LTG BoaRd Licz · IFB BUFFERS · Mdgo · ScriPT AssT · ScapT · Smcher · NCO · piRECTOR · NOTES: · FULY MIRED FOR · INPUTS · OUTPUTS · UATR@ KPUT
+- **Wiring (first pass):** 152 connected wire groups from 3,558 runs, 76 dotted junctions; labelled ends: 62 mm → MATRIX, ALLOCk; 62 mm → MATRIX; 62 mm → MATRIX; 62 mm → ALLOCk; 62 mm → MATRIX
+
+Every curve, box, word and wire group: [2000 - 920002 - DOC - 920006-01-001 - TORONTO BROADCAST CENTRE (traced).json](2000%20-%20920002%20-%20DOC%20-%20920006-01-001%20-%20TORONTO%20BROADCAST%20CENTRE%20%28traced%29.json) (the CAD file: `2000 - 920002 - DOC - 920006-01-001 - TORONTO BROADCAST CENTRE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

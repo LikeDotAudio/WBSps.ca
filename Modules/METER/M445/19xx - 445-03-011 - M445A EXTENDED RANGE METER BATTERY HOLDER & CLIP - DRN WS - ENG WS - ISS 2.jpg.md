@@ -22,6 +22,19 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 1,492,873 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 445-03-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DIsc
+- **Ink extent:** 0–432 mm across, 2–298 mm up
+- **Outlines:** line 359 rings, 4,591 straight (14,102 mm) / 569 curved (807 mm); text 1,088 rings, 6,324 straight (6,993 mm) / 2,140 curved (2,989 mm); tb 39 rings, 271 straight (317 mm) / 77 curved (97.8 mm)
+- **Centre lines:** 8,592 paths (200 closed); straight 12,722 mm, curved 112 mm; horizontal 5,429 mm, vertical 3,322 mm, diagonal 3,971 mm
+- **Circles and arcs:** 0 circles, 31 arcs
+- **Closed boxes:** 36 (13 in the title block)
+- **Words (OCR):** 122 in 93 lines: 3.805 · 500 · 3.500 · 3.300 · 2.500 · 2.250 · 0.200 · 0.13 · BHA & CSK 82* TO · 0.24 · 0.167 DIA · & INSTALL PEM#
+- **Title block:** (284, 18)–(415, 54) mm: HOLES_ADDED · REMSION · WVEBSS · WARD-BECK SYSTEMS · M445A · EXTENDED RANGE METER · CKD: · BATTERY HOLDER & CLIP · APR, · SCALE DIsc · ISSUE · CODEE · 445-03-011
+
+Every curve, box, word and wire group: [19xx - 445-03-011 - M445A EXTENDED RANGE METER BATTERY HOLDER & CLIP - DRN WS - ENG WS - ISS 2 (traced).json](19xx%20-%20445-03-011%20-%20M445A%20EXTENDED%20RANGE%20METER%20BATTERY%20HOLDER%20%26%20CLIP%20-%20DRN%20WS%20-%20ENG%20WS%20-%20ISS%202%20%28traced%29.json) (the CAD file: `19xx - 445-03-011 - M445A EXTENDED RANGE METER BATTERY HOLDER & CLIP - DRN WS - ENG WS - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

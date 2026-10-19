@@ -11,6 +11,18 @@ Wiki page: [M460A](../../../PAGES/M460A.md)
 - **Size:** 402,183 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-001, size B (assumed) 432 × 308 mm, 2000 × 1425 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–281 mm up
+- **Outlines:** line 221 rings, 2,987 straight (6,770 mm) / 744 curved (780 mm); text 887 rings, 7,767 straight (8,412 mm) / 2,023 curved (2,401 mm); tb 122 rings, 708 straight (790 mm) / 127 curved (131 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 9.2 @ (73.3, 111.3), r 9.1 @ (72.7, 214.8), r 9.0 @ (20.6, 214.8), r 8.5 @ (20.9, 111.9)
+- **Closed boxes:** 7 (6 in the title block); named: 0E7 E2 33/6 ~C1 33/10 +C2. E10 ~RI6 22k 
+- **Words (OCR):** 113 in 101 lines: 0E7 · E2 · ~C1 33/10 +C2. · 33/6 · E10 · -Cbep · ~RI6 22k · Ri · ~R18 2ek · RS · 6k2 · R4 Lk?
+- **Title block:** (133, 2)–(432, 135) mm: WBS · 'ES6 · 8-109 · zzoli2c16- · Ecol93 _ 4047 · ~R36 4k7 · ~R37 4K7 · 4028 · (ISSUE DATE · REVISION · APP · EG · WBS WARD-BECK · SYSTEMS · DRN: GEB · 8 = 109 · ENG MRW 4/78 · BOOSTER AMPLIFIER · CKD
+
+Every curve, box, word and wire group: [1976 - M460A - 8-109-06-001 - BOOSTER AMPLIFIER (traced).json](1976%20-%20M460A%20-%208-109-06-001%20-%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1976 - M460A - 8-109-06-001 - BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

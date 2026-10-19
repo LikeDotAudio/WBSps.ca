@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,048,986 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960243-03-001, size B (assumed) 432 × 277 mm, 2000 × 1283 px traced (0.216 mm/px)
+- **Ink extent:** 46–432 mm across, 4–259 mm up
+- **Outlines:** line 630 rings, 4,352 straight (9,431 mm) / 950 curved (1,105 mm); text 208 rings, 1,234 straight (1,229 mm) / 413 curved (518 mm); tb 15 rings, 115 straight (156 mm) / 26 curved (29.6 mm)
+- **Centre lines:** 5,925 paths (164 closed); straight 6,470 mm, curved 27.4 mm; horizontal 2,586 mm, vertical 1,649 mm, diagonal 2,235 mm
+- **Circles and arcs:** 1 circles, 6 arcs; largest r 2.5 @ (348.8, 143.2)
+- **Closed boxes:** 34 (3 in the title block); named: CUSTOM MACHINE CONTROL PLATE; DISC No;; 960243-03-001; CODE
+- **Words (OCR):** 25 in 20 lines: HED D · 0,390 · MATERIAL: ALUM · ALLOY 0.080 THICK; · SAND 120 GRIT AND PAINT · FINISH: · TEXTURED BEIGE (452C) · TEXCOTE VNYL. · ISSUELDAEEL · ERGES; · WBS · WARD-
+- **Title block:** (338, 19)–(422, 40) mm: ISSUELDAEEL · WBS · WARD- · BECK  SYSTEMS
+
+Every curve, box, word and wire group: [1996 - DOC - 960243-03-001 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1996%20-%20DOC%20-%20960243-03-001%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1996 - DOC - 960243-03-001 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

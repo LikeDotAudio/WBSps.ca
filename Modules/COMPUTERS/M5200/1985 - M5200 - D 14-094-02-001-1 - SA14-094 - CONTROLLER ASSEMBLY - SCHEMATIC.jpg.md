@@ -11,6 +11,19 @@ Wiki page: [M5200](../../../PAGES/M5200.md)
 - **Size:** 8,423,838 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-094-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–427 mm across, 4–279 mm up
+- **Outlines:** line 3,562 rings, 26,195 straight (49,696 mm) / 4,947 curved (6,316 mm); text 108 rings, 725 straight (748 mm) / 217 curved (296 mm)
+- **Centre lines:** 50,300 paths (246 closed); straight 35,523 mm, curved 163 mm; horizontal 15,826 mm, vertical 11,229 mm, diagonal 8,468 mm
+- **Circles and arcs:** 1 circles, 35 arcs; largest r 2.1 @ (70.4, 266.9)
+- **Closed boxes:** 88
+- **Dots (junctions):** 3
+- **Wiring (first pass):** 556 connected wire groups from 3,550 runs
+
+Every curve, box, word and wire group: [1985 - M5200 - D 14-094-02-001-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).json](1985%20-%20M5200%20-%20D%2014-094-02-001-1%20-%20SA14-094%20-%20CONTROLLER%20ASSEMBLY%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M5200 - D 14-094-02-001-1 - SA14-094 - CONTROLLER ASSEMBLY - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

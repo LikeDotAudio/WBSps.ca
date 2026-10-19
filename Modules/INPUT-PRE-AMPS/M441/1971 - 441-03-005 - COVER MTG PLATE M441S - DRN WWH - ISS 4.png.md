@@ -25,6 +25,19 @@ Mechanical drawing of a cover mounting plate, title block at bottom right.
 - **Size:** 1,497,261 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 441-03-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 347 rings, 6,790 straight (12,086 mm) / 914 curved (1,320 mm); text 536 rings, 4,296 straight (4,868 mm) / 1,259 curved (1,943 mm); tb 31 rings, 393 straight (349 mm) / 62 curved (77.1 mm)
+- **Centre lines:** 11,722 paths (113 closed); straight 11,517 mm, curved 116 mm; horizontal 4,692 mm, vertical 2,485 mm, diagonal 4,339 mm
+- **Circles and arcs:** 1 circles, 18 arcs; largest r 5.2 @ (156.1, 182.3)
+- **Closed boxes:** 5 (1 in the title block); named: CHKD
+- **Words (OCR):** 85 in 69 lines: 5.74 · 81 · 4.50 · 3.350 · 2 HoLes · 4-40 unc ThD; · 3.42 · 57 · 700 · 1,62 · 350- · 395
+- **Title block:** (259, 22)–(379, 62) mm: PLACES · Angles WARd · BECK SVSTEMS · DRN W.W Ha · COVER MTG · DATE 21 · SEpT · M44 = · 07 · CHKD
+
+Every curve, box, word and wire group: [1971 - 441-03-005 - COVER MTG PLATE M441S - DRN WWH - ISS 4 (traced).json](1971%20-%20441-03-005%20-%20COVER%20MTG%20PLATE%20M441S%20-%20DRN%20WWH%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1971 - 441-03-005 - COVER MTG PLATE M441S - DRN WWH - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

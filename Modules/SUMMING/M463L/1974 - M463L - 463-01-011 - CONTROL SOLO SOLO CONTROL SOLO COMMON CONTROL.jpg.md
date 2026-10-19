@@ -11,6 +11,20 @@ Wiki page: [M463L](../../../PAGES/M463L.md)
 - **Size:** 1,043,240 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 463-01-011, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–432 mm up
+- **Outlines:** line 305 rings, 6,793 straight (13,382 mm) / 856 curved (1,165 mm); text 501 rings, 3,648 straight (4,759 mm) / 1,119 curved (1,846 mm); tb 10 rings, 242 straight (604 mm) / 18 curved (32.5 mm)
+- **Centre lines:** 8,231 paths (87 closed); straight 10,514 mm, curved 44.2 mm; horizontal 3,798 mm, vertical 2,822 mm, diagonal 3,895 mm
+- **Circles and arcs:** 3 circles, 4 arcs; largest r 1.9 @ (74.7, 341.4), r 1.7 @ (56.4, 332.8), r 1.7 @ (57.2, 348.8)
+- **Closed boxes:** 16 (4 in the title block); named: WBS WAAD-BeCk bybtemb LTD_; MATL; M463L SUBMASTER MODULE FUNCTIONAL DIAGRA; 463-01-011; ISS_; XX TOLS_
+- **Words (OCR):** 80 in 75 lines: DIRECT Out · PAN · 8 dBm · INSERT · Mix · 7m1 · LEFT · OUT · db ) · M3X · 7m3 · 8.109F
+- **Title block:** (100, 17)–(250, 88) mm: WBS WAAD-BeCk bybtemb LTD_ · DRN VINJCE · DATE · 60/1 /2 ( · SUBMASTER MODULE · CKD · SCALE · TOLS_ · XX
+- **Wiring (first pass):** 120 connected wire groups from 299 runs; labelled ends: 147 mm → PRE/post, PRE/Post; 134 mm → LTD_, WAAD-BeCk; 114 mm → DIRECT Out, 7m1, PAN, INSERT; 53 mm → SOLO; 50 mm → FB, FB2, PRE/post, 'FOLDBACK
+
+Every curve, box, word and wire group: [1974 - M463L - 463-01-011 - CONTROL SOLO SOLO CONTROL SOLO COMMON CONTROL (traced).json](1974%20-%20M463L%20-%20463-01-011%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20SOLO%20COMMON%20CONTROL%20%28traced%29.json) (the CAD file: `1974 - M463L - 463-01-011 - CONTROL SOLO SOLO CONTROL SOLO COMMON CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

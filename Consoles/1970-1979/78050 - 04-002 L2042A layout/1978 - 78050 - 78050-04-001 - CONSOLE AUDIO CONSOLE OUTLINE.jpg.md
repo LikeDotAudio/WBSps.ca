@@ -11,6 +11,17 @@ Wiki page: [Job-78050](../../../PAGES/Job-78050.md)
 - **Size:** 38,027,012 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 78050-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–280 mm up
+- **Outlines:** line 661 rings, 6,245 straight (10,171 mm) / 772 curved (849 mm); text 75 rings, 514 straight (515 mm) / 144 curved (186 mm); tb 26 rings, 239 straight (221 mm) / 41 curved (43.8 mm)
+- **Closed boxes:** 9 (1 in the title block); named: 78050-04-001; 1.10
+- **Words (OCR):** 9 in 9 lines: D4TL · WBS · WARD-DeCK SYSTEMS · L2042A   CONSOLE · WBS · AuoIO · CONsOLE OuTLINE · 78050-04-001 · 1.10
+- **Title block:** (361, 11)–(432, 35) mm: D4TL · WBS · WARD-DeCK SYSTEMS · L2042A   CONSOLE · WBS · AuoIO · CONsOLE OuTLINE
+
+Every curve, box, word and wire group: [1978 - 78050 - 78050-04-001 - CONSOLE AUDIO CONSOLE OUTLINE (traced).json](1978%20-%2078050%20-%2078050-04-001%20-%20CONSOLE%20AUDIO%20CONSOLE%20OUTLINE%20%28traced%29.json) (the CAD file: `1978 - 78050 - 78050-04-001 - CONSOLE AUDIO CONSOLE OUTLINE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

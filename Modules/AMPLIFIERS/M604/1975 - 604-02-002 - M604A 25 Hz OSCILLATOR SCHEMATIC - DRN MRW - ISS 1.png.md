@@ -27,6 +27,20 @@ Wiki page: [M604](../../../PAGES/M604.md)
 
 - **1975** (labelled): `DATE JAN.75` — …MM 15 42 ISS MoDickd TOLS Ma DKEEBRsn AnaLes FINISH DRN MRW DATE JAN.75 MATERIAL Cio Ra( WL BECK SYSHES LiD M6o4A 25 Hz OSCILLATOR…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 604-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 199 rings, 2,967 straight (6,821 mm) / 475 curved (717 mm); text 228 rings, 1,773 straight (2,050 mm) / 429 curved (701 mm); tb 35 rings, 283 straight (295 mm) / 68 curved (89.5 mm)
+- **Centre lines:** 4,062 paths (28 closed); straight 5,914 mm, curved 29.0 mm; horizontal 2,806 mm, vertical 1,202 mm, diagonal 1,906 mm
+- **Circles and arcs:** 0 circles, 7 arcs
+- **Closed boxes:** 31 (22 in the title block); named: ISS; M6o4A 25 Hz OSCILLATOR SCHEMATIC
+- **Words (OCR):** 38 in 31 lines: Pi · Ri · ZAv DC UNREGUL · FROHT · PANEL · 1-129 OSCILLATOR CARD · OUTPUT | · TRIM · ~io · To t8dBm · cwt 5k · 6002
+- **Title block:** (154, 9)–(410, 68) mm: Mm BECK   SYSTEMS · ISS MOD ckd · TOLS · FINISH · DRN · MRW · M6o4A · JAN.75 · 25 Hz OSCILLATOR · DATE · MATERUAL · SCHEMATIC · co · scalE · ISS:
+- **Wiring (first pass):** 37 connected wire groups from 104 runs; labelled ends: 46 mm → outPuT 2; 38 mm → Pi; 37 mm → ISS; 21 mm → cwt, 5k; 20 mm → cwt, 5k
+
+Every curve, box, word and wire group: [1975 - 604-02-002 - M604A 25 Hz OSCILLATOR SCHEMATIC - DRN MRW - ISS 1 (traced).json](1975%20-%20604-02-002%20-%20M604A%2025%20Hz%20OSCILLATOR%20SCHEMATIC%20-%20DRN%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1975 - 604-02-002 - M604A 25 Hz OSCILLATOR SCHEMATIC - DRN MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

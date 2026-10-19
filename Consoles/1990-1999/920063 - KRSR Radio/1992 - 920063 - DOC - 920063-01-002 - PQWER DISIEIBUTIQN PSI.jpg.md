@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,467,197 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 920063-01-002, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px); scale DISC NO: 410
+- **Ink extent:** 0–432 mm across, 8–272 mm up
+- **Outlines:** line 532 rings, 3,400 straight (5,813 mm) / 666 curved (880 mm); text 551 rings, 4,243 straight (3,683 mm) / 1,137 curved (1,364 mm); tb 26 rings, 279 straight (1,212 mm) / 20 curved (29.3 mm)
+- **Centre lines:** 11,720 paths (204 closed); straight 7,055 mm, curved 31.1 mm; horizontal 2,367 mm, vertical 1,675 mm, diagonal 3,012 mm
+- **Circles and arcs:** 2 circles, 6 arcs; largest r 1.1 @ (91.1, 110.9), r 1.1 @ (80.2, 111.2)
+- **Closed boxes:** 6; named: H495_VONIOR_MODULE; M495_MONIIOR MQDULE; M45JACVE_AMPLIEIER; M451 IKBACK MQDULE; PSI M6258
+- **Words (OCR):** 127 in 113 lines: M49QA · MC_NPUI CHANNELS · CH ON · STARI/ON · MONTORING · TIMER · EXTERNAL · Ch OFF · CONTROL · MUTE · CONTROLS · STOP OFF
+- **Title block:** (339, 6)–(431, 44) mm: [LSSUE · REVSION · APP · WBS WARD-BECK   SYSTEMS · DRN: · ENG: · KRSR RADIO · CONSOLE · CKD_ · RADIO · DC_FUNCTIONAL · APP · SCALE DISC NO: 410 · CODE: 20063F02 · 920063-01-002 ISSUE
+- **Wiring (first pass):** 36 connected wire groups from 438 runs; labelled ends: 82 mm → M49QA, M49OA_MICRQPHONE_INPUI_MQDULE; 80 mm → M49OEA_SIFREQ, STEREQ_INPUIMQDULE; 77 mm → M49QA, MC_NPUI; 47 mm → STEREQ_INPUIMQDULE, M49OEA_SIFREQ; 47 mm → M49OA_MICRQPHONE_INPUI_MQDULE
+
+Every curve, box, word and wire group: [1992 - 920063 - DOC - 920063-01-002 - PQWER DISIEIBUTIQN PSI (traced).json](1992%20-%20920063%20-%20DOC%20-%20920063-01-002%20-%20PQWER%20DISIEIBUTIQN%20PSI%20%28traced%29.json) (the CAD file: `1992 - 920063 - DOC - 920063-01-002 - PQWER DISIEIBUTIQN PSI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

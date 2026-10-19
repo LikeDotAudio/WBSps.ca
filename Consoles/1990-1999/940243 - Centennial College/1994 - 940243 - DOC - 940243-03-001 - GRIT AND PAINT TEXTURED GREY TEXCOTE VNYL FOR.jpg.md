@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,917,989 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940243-03-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–279 mm up
+- **Outlines:** line 781 rings, 4,794 straight (9,743 mm) / 952 curved (1,494 mm); text 170 rings, 1,106 straight (1,044 mm) / 300 curved (371 mm); tb 23 rings, 159 straight (184 mm) / 41 curved (47.5 mm)
+- **Centre lines:** 5,670 paths (149 closed); straight 6,271 mm, curved 327 mm; horizontal 2,972 mm, vertical 1,464 mm, diagonal 1,836 mm
+- **Circles and arcs:** 11 circles, 7 arcs; largest r 6.2 @ (206.8, 121.7), r 6.2 @ (137.8, 120.9), r 6.2 @ (234.3, 122.2), r 6.1 @ (262.0, 122.3)
+- **Closed boxes:** 16 (4 in the title block); named: INTERFACE BELTPACK REAR COVER; 940243-03-001; SCF
+- **Dots (junctions):** 1
+- **Words (OCR):** 28 in 27 lines: 0656 · DEIAM · 0,780 DiA · PLACS · DETAIL · DETAL D · DETA · PLLCS · 5.420 · CETA · PLACES · 3 170
+- **Title block:** (344, 23)–(428, 40) mm: WBS · WARD-BECK SYSTEMS · INTERFACE
+
+Every curve, box, word and wire group: [1994 - 940243 - DOC - 940243-03-001 - GRIT AND PAINT TEXTURED GREY TEXCOTE VNYL FOR (traced).json](1994%20-%20940243%20-%20DOC%20-%20940243-03-001%20-%20GRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VNYL%20FOR%20%28traced%29.json) (the CAD file: `1994 - 940243 - DOC - 940243-03-001 - GRIT AND PAINT TEXTURED GREY TEXCOTE VNYL FOR (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

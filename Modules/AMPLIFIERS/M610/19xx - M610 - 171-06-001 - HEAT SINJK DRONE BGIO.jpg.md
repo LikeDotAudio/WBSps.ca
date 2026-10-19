@@ -11,6 +11,18 @@ Wiki page: [M610](../../../PAGES/M610.md)
 - **Size:** 3,449,263 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 171-06-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 12–432 mm up
+- **Outlines:** line 11,586 rings, 62,331 straight (37,476 mm) / 17,906 curved (15,913 mm); text 700 rings, 3,976 straight (2,578 mm) / 1,104 curved (1,026 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 11.2 @ (280.6, 234.9), r 11.0 @ (114.2, 229.8), r 10.3 @ (159.2, 349.9), r 5.4 @ (52.2, 339.2)
+- **Closed boxes:** 7; named: 18; 14; 2 6
+- **Dots (junctions):** 5
+- **Words (OCR):** 37 in 29 lines: z 2 · II; · 14 · 18 · 2 6 · ~E1E · 43} · 29 · 21 · alh · 16 · 443
+
+Every curve, box, word and wire group: [19xx - M610 - 171-06-001 - HEAT SINJK DRONE BGIO (traced).json](19xx%20-%20M610%20-%20171-06-001%20-%20HEAT%20SINJK%20DRONE%20BGIO%20%28traced%29.json) (the CAD file: `19xx - M610 - 171-06-001 - HEAT SINJK DRONE BGIO (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

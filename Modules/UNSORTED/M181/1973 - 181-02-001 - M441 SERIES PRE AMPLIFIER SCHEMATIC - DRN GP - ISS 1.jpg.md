@@ -27,6 +27,21 @@ Wiki page: [M181](../../../PAGES/M181.md)
 
 - **1973** (labelled): `DATE APR 73` — …DESIGNATIONS ARE AS FOLLOWS C45 CR 7,L2 012 R77 23 DRN: GP DATE APR 73 CKD_ Ttt SCALE TOLS 1 M441 SERIEs PRE AMPLIFIER SCHEMATIC F…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 181-02-001, size B 432 × 141 mm, 2000 × 652 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–140 mm up
+- **Outlines:** line 465 rings, 6,412 straight (14,397 mm) / 1,099 curved (1,417 mm); text 1,294 rings, 7,472 straight (6,374 mm) / 2,671 curved (3,334 mm); tb 10 rings, 85 straight (131 mm) / 12 curved (13.6 mm)
+- **Centre lines:** 13,872 paths (321 closed); straight 13,074 mm, curved 299 mm; horizontal 4,922 mm, vertical 2,945 mm, diagonal 5,207 mm
+- **Circles and arcs:** 6 circles, 51 arcs; largest r 3.9 @ (357.2, 127.0), r 3.8 @ (215.3, 88.4), r 3.8 @ (215.2, 63.4), r 3.7 @ (215.1, 32.8)
+- **Closed boxes:** 40 (21 in the title block); named: WBS WARD-BeCk ByBTeMB LTD; M441 SERIEs PRE AMPLIFIER SCHEMATIC; FINISH; TOLS; 181-02- 001
+- **Dots (junctions):** 2
+- **Words (OCR):** 286 in 223 lines: CR7 · RIS · S6v · 2N4923 · IN4003 · +4Bv · Rzo · 6k8 · 35o · C32 · "015 Q12 · 722
+- **Title block:** (298, 7)–(412, 32) mm: OSS MOD _ CKD: · USED OH · WBS WARD-BeCk ByBTeMB LTD · DRN: GP · DATE APR 73 · PRE AMPLIFIER · M441 SERIEs · FINISH · CKD_ Ttt · SCHEMATIC · SCALE · TOLS · 181-02- 001
+- **Wiring (first pass):** 110 connected wire groups from 604 runs; labelled ends: 295 mm → 439, 709-, RA, ISk; 165 mm → R5, ISk, Ra, CRZ; 131 mm → To PC 182, (BOOSTER AMP), FOLDBACK, LEVEL CtL; 124 mm → To PC 182, (BOOSTER AMP), FOLDBACK, LEVEL CtL; 88 mm → 709, 385, 03, 833
+
+Every curve, box, word and wire group: [1973 - 181-02-001 - M441 SERIES PRE AMPLIFIER SCHEMATIC - DRN GP - ISS 1 (traced).json](1973%20-%20181-02-001%20-%20M441%20SERIES%20PRE%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 181-02-001 - M441 SERIES PRE AMPLIFIER SCHEMATIC - DRN GP - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

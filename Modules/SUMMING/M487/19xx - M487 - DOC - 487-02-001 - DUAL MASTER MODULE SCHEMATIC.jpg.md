@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,850,689 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 487-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–428 mm across, 11–298 mm up
+- **Outlines:** line 960 rings, 9,123 straight (15,705 mm) / 2,110 curved (2,638 mm); text 470 rings, 2,791 straight (2,487 mm) / 916 curved (1,216 mm); tb 8 rings, 123 straight (159 mm) / 10 curved (13.5 mm)
+- **Centre lines:** 12,498 paths (258 closed); straight 11,350 mm, curved 334 mm; horizontal 4,164 mm, vertical 2,635 mm, diagonal 4,551 mm
+- **Circles and arcs:** 8 circles, 95 arcs; largest r 3.2 @ (79.2, 43.8), r 3.1 @ (79.5, 80.1), r 3.1 @ (102.3, 48.4), r 1.0 @ (109.9, 78.0)
+- **Closed boxes:** 12 (3 in the title block); named: M487 MASTER MODULE DUAL SCHEMATIC
+- **Dots (junctions):** 2
+- **Words (OCR):** 97 in 94 lines: 1,AL · Resisters · SFECIFIED · 2.L437 · 9.USF P2B · R35 · -IOdBm · 68/10 · M >10 · L4zoi · Pam · SECTION
+- **Title block:** (354, 24)–(432, 41) mm: WBS · WAAD-DeCk systeMS · M487
+- **Wiring (first pass):** 108 connected wire groups from 845 runs, 2 dotted junctions; labelled ends: 138 mm → R65, 470K, 22/25, C2; 120 mm → WBS, MASTER MODULE; 111 mm → R12;, 622, 03s6; 110 mm → 22/23, 027, 22/25, C2; 106 mm → 350/2, Iak, 4jok
+
+Every curve, box, word and wire group: [19xx - M487 - DOC - 487-02-001 - DUAL MASTER MODULE SCHEMATIC (traced).json](19xx%20-%20M487%20-%20DOC%20-%20487-02-001%20-%20DUAL%20MASTER%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M487 - DOC - 487-02-001 - DUAL MASTER MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

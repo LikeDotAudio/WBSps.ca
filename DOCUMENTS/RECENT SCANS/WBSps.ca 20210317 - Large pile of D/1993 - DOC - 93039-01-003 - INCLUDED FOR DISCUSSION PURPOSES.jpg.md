@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,214,589 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93039-01-003, size B (assumed) 432 × 278 mm, 2000 × 1287 px traced (0.216 mm/px)
+- **Ink extent:** 56–429 mm across, 0–266 mm up
+- **Outlines:** line 603 rings, 4,339 straight (8,412 mm) / 528 curved (652 mm); text 112 rings, 707 straight (701 mm) / 225 curved (295 mm); tb 16 rings, 125 straight (157 mm) / 30 curved (35.7 mm)
+- **Centre lines:** 5,142 paths (80 closed); straight 5,140 mm, curved 16.1 mm; horizontal 2,353 mm, vertical 1,358 mm, diagonal 1,429 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 17 (2 in the title block); named: 93039-01-003
+- **Words (OCR):** 13 in 11 lines: CBC $ PRCPEF · ciscussion · POWER SUPPLY · ISSUEDAIE · WARD-BECK SYSTEMS · WBS · CBC SR · 398 · OPTION 8.3 · FUNCTIONAL · 93039-01-003
+- **Title block:** (344, 16)–(428, 37) mm: ISSUEDAIE · WARD-BECK SYSTEMS · WBS · CBC SR · 398
+- **Wiring (first pass):** 43 connected wire groups from 574 runs; labelled ends: 421 mm → POWER SUPPLY; 39 mm → WBS; 6 mm → 93039-01-003; 6 mm → OPTION 8.3, FUNCTIONAL, 93039-01-003
+
+Every curve, box, word and wire group: [1993 - DOC - 93039-01-003 - INCLUDED FOR DISCUSSION PURPOSES (traced).json](1993%20-%20DOC%20-%2093039-01-003%20-%20INCLUDED%20FOR%20DISCUSSION%20PURPOSES%20%28traced%29.json) (the CAD file: `1993 - DOC - 93039-01-003 - INCLUDED FOR DISCUSSION PURPOSES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

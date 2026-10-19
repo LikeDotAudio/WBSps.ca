@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,400,477 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940443-04-002, size B (assumed) 432 × 278 mm, 2000 × 1289 px traced (0.216 mm/px)
+- **Ink extent:** 47–430 mm across, 11–271 mm up
+- **Outlines:** line 705 rings, 5,093 straight (16,242 mm) / 1,000 curved (1,511 mm); text 117 rings, 663 straight (724 mm) / 215 curved (290 mm); tb 19 rings, 143 straight (175 mm) / 37 curved (39.3 mm)
+- **Circles and arcs:** 30 circles, 0 arcs; largest r 3.4 @ (225.8, 93.6), r 3.4 @ (162.4, 93.3), r 3.4 @ (257.4, 93.8), r 3.4 @ (194.1, 93.5)
+- **Closed boxes:** 49 (3 in the title block); named: Co-CRD; Co-CRD; CBC TORONTO STUDIO 26/27 IFB MATRIX FRAM; 940443 04-002; SH NTS; Cooe
+- **Words (OCR):** 11 in 9 lines: Co-CRD · WBS · WARD-BECK  SYSTEMS · CBC TORONTO STUDIO 26/27 · IFB MATRIX FRAME · LAYOUT · SH · NTS Cooe · 940443 04-002
+- **Title block:** (342, 26)–(426, 43) mm: WBS · WARD-BECK  SYSTEMS · CBC TORONTO STUDIO 26/27
+
+Every curve, box, word and wire group: [1994 - M712B - DOC - 940443-04-002 - UJA CAUTION DISCCHHAE POMER UEL RDPLAGNC (traced).json](1994%20-%20M712B%20-%20DOC%20-%20940443-04-002%20-%20UJA%20CAUTION%20DISCCHHAE%20POMER%20UEL%20RDPLAGNC%20%28traced%29.json) (the CAD file: `1994 - M712B - DOC - 940443-04-002 - UJA CAUTION DISCCHHAE POMER UEL RDPLAGNC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

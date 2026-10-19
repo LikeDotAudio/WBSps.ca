@@ -26,6 +26,18 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 2,653,477 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 490-01-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 10–432 mm across, 0–288 mm up
+- **Outlines:** line 671 rings, 6,453 straight (14,014 mm) / 1,092 curved (1,569 mm); text 264 rings, 1,838 straight (2,011 mm) / 520 curved (757 mm)
+- **Centre lines:** 5,148 paths (76 closed); straight 8,233 mm, curved 268 mm; horizontal 3,520 mm, vertical 2,207 mm, diagonal 2,506 mm
+- **Circles and arcs:** 17 circles, 43 arcs; largest r 2.9 @ (157.4, 103.4), r 2.1 @ (374.0, 29.5), r 1.7 @ (396.5, 36.5), r 1.7 @ (373.9, 29.6)
+- **Closed boxes:** 22
+- **Wiring (first pass):** 195 connected wire groups from 630 runs
+
+Every curve, box, word and wire group: [1978 - 490-01-004 - M490D LINE INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (traced).json](1978%20-%20490-01-004%20-%20M490D%20LINE%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1978 - 490-01-004 - M490D LINE INPUT MODULE FUNCTIONAL DIAGRAM - DRN GEB - ENG GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

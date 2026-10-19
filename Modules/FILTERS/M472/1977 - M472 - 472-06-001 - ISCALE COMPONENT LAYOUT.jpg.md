@@ -11,6 +11,19 @@ Wiki page: [M472](../../../PAGES/M472.md)
 - **Size:** 309,165 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 472-06-001, size B (assumed) 432 × 357 mm, 2000 × 1654 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–343 mm up
+- **Outlines:** line 618 rings, 6,302 straight (14,839 mm) / 1,572 curved (1,630 mm); text 465 rings, 3,513 straight (3,361 mm) / 1,132 curved (1,303 mm); tb 163 rings, 1,374 straight (1,708 mm) / 409 curved (432 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 2.0 @ (102.5, 281.5), r 1.8 @ (102.0, 120.5), r 1.8 @ (102.3, 190.2), r 1.8 @ (102.0, 131.2)
+- **Closed boxes:** 33 (27 in the title block); named: R22 sk I0-008; 23; 24 LM/458; Rs Sk I0-008_; Rz5 Sk; ISS
+- **Dots (junctions):** 1
+- **Words (OCR):** 84 in 76 lines: WBS · CANADA · 7-110 · R22 · sk · I0-008 · R6 4K · G5_-66 · 23 · Zi · RB · R7
+- **Title block:** (199, 1)–(395, 311) mm: WBS · CANADA · 7-110 · Zi · LMsoi · Ri6 J5K · ri9 · (12 !54 · 22 · LMsoi · R23 · Rzi Ske · R36 35 · Cig 22/25v · R24- Ww · Ci7 2225 · -R33 · USED On · WBS WAAD-BeCK bybteMB · 3470 · B549PM · DRN · MRW
+
+Every curve, box, word and wire group: [1977 - M472 - 472-06-001 - ISCALE COMPONENT LAYOUT (traced).json](1977%20-%20M472%20-%20472-06-001%20-%20ISCALE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1977 - M472 - 472-06-001 - ISCALE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

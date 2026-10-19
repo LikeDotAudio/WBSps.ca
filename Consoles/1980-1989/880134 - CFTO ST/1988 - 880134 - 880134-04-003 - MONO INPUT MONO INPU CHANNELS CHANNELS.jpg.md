@@ -11,6 +11,16 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,105,775 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–305 mm across, 0–372 mm up
+- **Outlines:** line 99 rings, 3,245 straight (11,257 mm) / 264 curved (408 mm); text 163 rings, 1,025 straight (1,138 mm) / 320 curved (464 mm)
+- **Closed boxes:** 5; named: M522 MONO EQUALIZER (12); M520 MONOINPUT CHANNELS (12); MONO INPUT FADERS (12)
+- **Words (OCR):** 24 in 22 lines: M522 · M522 · MONO EQUALIZER · MONO EQUALIS · (12) · (12) · M520 · M520 · MONOINPUT · MONO-INPU · CHANNELS · CHANNELS
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-003 - MONO INPUT MONO INPU CHANNELS CHANNELS (traced).json](1988%20-%20880134%20-%20880134-04-003%20-%20MONO%20INPUT%20MONO%20INPU%20CHANNELS%20CHANNELS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-003 - MONO INPUT MONO INPU CHANNELS CHANNELS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

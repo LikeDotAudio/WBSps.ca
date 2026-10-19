@@ -11,6 +11,19 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 17,649,335 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-004, size B (assumed) 432 × 140 mm, 2000 × 647 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–429 mm across, 0–138 mm up
+- **Outlines:** line 974 rings, 7,489 straight (12,280 mm) / 1,453 curved (1,909 mm); text 176 rings, 902 straight (757 mm) / 266 curved (328 mm)
+- **Centre lines:** 7,743 paths (129 closed); straight 7,662 mm, curved 246 mm; horizontal 3,127 mm, vertical 2,277 mm, diagonal 2,258 mm
+- **Circles and arcs:** 21 circles, 41 arcs; largest r 1.2 @ (391.3, 77.3), r 1.2 @ (381.8, 77.0), r 1.2 @ (311.6, 81.6), r 1.2 @ (348.2, 87.2)
+- **Closed boxes:** 39
+- **Dots (junctions):** 5
+- **Wiring (first pass):** 92 connected wire groups from 627 runs, 7 dotted junctions
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND (traced).json](1970%20-%20M621%20-%20621-02-004%20-%20OUTPUT%20PRIMARY%20DIRECT%20OUTPUT%20SIGNAL%20GROUND%20CHASSIS%20GROUND%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-004 - OUTPUT PRIMARY DIRECT OUTPUT SIGNAL GROUND CHASSIS GROUND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,21 @@ Wiki page: [M490J](../../../PAGES/M490J.md)
 - **Size:** 439,222 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-012, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 0–429 mm up
+- **Outlines:** line 687 rings, 10,713 straight (19,330 mm) / 2,078 curved (3,087 mm); text 886 rings, 6,169 straight (6,032 mm) / 2,144 curved (3,023 mm); tb 11 rings, 90 straight (168 mm) / 14 curved (20.5 mm)
+- **Centre lines:** 11,201 paths (133 closed); straight 15,184 mm, curved 317 mm; horizontal 6,083 mm, vertical 3,724 mm, diagonal 5,377 mm
+- **Circles and arcs:** 9 circles, 42 arcs; largest r 5.7 @ (174.9, 103.4), r 5.7 @ (221.6, 123.2), r 5.5 @ (259.7, 108.0), r 5.4 @ (259.3, 137.2)
+- **Closed boxes:** 16 (1 in the title block); named: M4201 INput_Module Mic scmemaTiC
+- **Dots (junctions):** 2
+- **Words (OCR):** 279 in 261 lines: Sw3 · PAN · 22 · Rcs · outputs To · 354 · 725 · KB · Swt · Mixing Buses · 220 · Pi Assigh
+- **Title block:** (226, 28)–(332, 52) mm: WBS · WARD-Buck Oyetemd · TR
+- **Wiring (first pass):** 197 connected wire groups from 984 runs; labelled ends: 241 mm → Rit0, 104, Qi} 2n2i02, 812; 192 mm → 2420, C4e, 10/2s, 74C76; 176 mm → Res, R7, Sk, RS-; 137 mm → Isk, Rioz, I5k, 232; 128 mm → Pi Assigh, Sw5, Pz Assi6h
+
+Every curve, box, word and wire group: [1983 - M490J - 490-02-012 - MIC INPUT MODULE (traced).json](1983%20-%20M490J%20-%20490-02-012%20-%20MIC%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1983 - M490J - 490-02-012 - MIC INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

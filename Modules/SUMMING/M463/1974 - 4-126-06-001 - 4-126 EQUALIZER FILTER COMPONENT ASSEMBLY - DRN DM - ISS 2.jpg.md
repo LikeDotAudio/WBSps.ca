@@ -28,6 +28,18 @@ Wiki page: [M463](../../../PAGES/M463.md)
 
 - **1974** (labelled): `DATE JULY 74` — …2 3563 PM USED ON Mati _ WBS WAAD-DeCk syotems LTO- DRN_ 3m DATE JULY 74 CKD 447 [SCALE TOLS # 4-126 EQUALIZER FILTER COMPONENT ASSE…
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 4-126-06-001, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 734 rings, 8,122 straight (12,938 mm) / 2,202 curved (2,137 mm); text 575 rings, 5,623 straight (5,963 mm) / 1,489 curved (1,803 mm); tb 29 rings, 241 straight (332 mm) / 61 curved (63.7 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.8 @ (201.4, 239.7), r 4.8 @ (92.3, 224.7), r 4.8 @ (92.5, 252.1), r 1.5 @ (82.6, 213.3)
+- **Closed boxes:** 38 (1 in the title block); named: 21 LM2eIN; 22 LMzein; 23 LM2PIN; WBS WAAD-Beck LTD:; 4-126 EQUALIZER FILTER COMPONENT ASSEMBL; FIIMISA; TOLS _; 4-126-06-001; IsS_
+- **Words (OCR):** 78 in 63 lines: t8 6-8/6 C7 · E2 · E3 · ~c9 · C6 · R2o | Ri9cig 2t8 · R24 · Ri8 · 1458 · C4C1 · t9 R2 · R7 21
+- **Title block:** (187, 17)–(284, 67) mm: WBS WAAD-Beck · DRM · Dm · 4-126 · DAT JULY 74 · EQUALIZER FILTER · CKD · COMPONENT ASSEMBLY · [SCALE · TOLS _
+
+Every curve, box, word and wire group: [1974 - 4-126-06-001 - 4-126 EQUALIZER FILTER COMPONENT ASSEMBLY - DRN DM - ISS 2 (traced).json](1974%20-%204-126-06-001%20-%204-126%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20-%20DRN%20DM%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1974 - 4-126-06-001 - 4-126 EQUALIZER FILTER COMPONENT ASSEMBLY - DRN DM - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

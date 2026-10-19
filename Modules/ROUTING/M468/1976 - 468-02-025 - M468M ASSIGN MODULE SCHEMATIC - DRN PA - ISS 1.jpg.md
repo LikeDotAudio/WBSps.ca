@@ -24,6 +24,19 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 4,771,995 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-025, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 540 rings, 8,410 straight (12,724 mm) / 1,483 curved (2,043 mm); text 100 rings, 622 straight (684 mm) / 205 curved (308 mm)
+- **Centre lines:** 4,845 paths (56 closed); straight 7,708 mm, curved 345 mm; horizontal 3,627 mm, vertical 2,104 mm, diagonal 1,976 mm
+- **Circles and arcs:** 20 circles, 68 arcs; largest r 1.3 @ (238.1, 222.1), r 1.3 @ (225.8, 106.2), r 1.2 @ (282.4, 50.6), r 1.1 @ (197.6, 73.3)
+- **Closed boxes:** 43
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 60 connected wire groups from 531 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1976 - 468-02-025 - M468M ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (traced).json](1976%20-%20468-02-025%20-%20M468M%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 468-02-025 - M468M ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

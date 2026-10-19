@@ -11,6 +11,17 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 553,387 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-018, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 1–432 mm up
+- **Outlines:** line 719 rings, 8,688 straight (12,187 mm) / 1,472 curved (1,942 mm); text 473 rings, 2,929 straight (2,552 mm) / 1,183 curved (1,501 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 4.8 @ (234.9, 74.4), r 3.1 @ (256.6, 359.5), r 2.3 @ (235.1, 88.5), r 2.0 @ (244.2, 21.9)
+- **Closed boxes:** 12; named: imput  Selector shitches Shi and ShZ : A
+- **Words (OCR):** 90 in 47 lines: WBS · M49o H · imput  Selector shitches Shi and ShZ : Are mutuely · Inter locked and · Iok selectIon of elther one 0f tho · Input souces · PROGRAA · depressed · feed · swltches · mlxIng networks · Sws when
+
+Every curve, box, word and wire group: [1978 - M490H - 490-04-018 - MOVING THE SLIDE JTTENUATOR BEYOND THE INFINITE POSITION (traced).json](1978%20-%20M490H%20-%20490-04-018%20-%20MOVING%20THE%20SLIDE%20JTTENUATOR%20BEYOND%20THE%20INFINITE%20POSITION%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-04-018 - MOVING THE SLIDE JTTENUATOR BEYOND THE INFINITE POSITION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

@@ -22,6 +22,20 @@ M600 audio amplifier schematic, cropped.
 - **Size:** 292,726 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-010, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–430 mm up
+- **Outlines:** line 292 rings, 4,046 straight (4,786 mm) / 694 curved (831 mm); text 129 rings, 1,129 straight (1,279 mm) / 316 curved (487 mm); tb 2 rings, 61 straight (156 mm) / 1 curved (2.1 mm)
+- **Centre lines:** 5,918 paths (38 closed); straight 4,187 mm, curved 61.5 mm; horizontal 1,524 mm, vertical 1,022 mm, diagonal 1,642 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 1.0 @ (202.1, 171.0)
+- **Dots (junctions):** 1
+- **Words (OCR):** 19 in 17 lines: +L8V · T2 · 70-J · BR · RO · 122 · ASSEMBLY · 950/608 · OR · CoM · CHASSIS · WBS WARD-BECK BYSTEMB
+- **Title block:** (209, 40)–(337, 65) mm: WBS WARD-BECK BYSTEMB
+- **Wiring (first pass):** 47 connected wire groups from 157 runs; labelled ends: 383 mm → T2, 70-J, BR; 54 mm → T2, 70-J, RO; 52 mm → T2, 70-J; 8 mm → OR; 6 mm → OR
+
+Every curve, box, word and wire group: [19xx - 600-02-010 - AUDIO AMPLIFIER SCHEMATIC - ISS 1 (traced).json](19xx%20-%20600-02-010%20-%20AUDIO%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 600-02-010 - AUDIO AMPLIFIER SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -26,6 +26,21 @@ Schematic of an assign module with switch banks.
 - **Size:** 1,509,512 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-025, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 12–298 mm up
+- **Outlines:** line 334 rings, 5,749 straight (11,599 mm) / 919 curved (1,156 mm); text 388 rings, 2,503 straight (2,533 mm) / 839 curved (1,130 mm); tb 35 rings, 209 straight (350 mm) / 24 curved (26.8 mm)
+- **Centre lines:** 10,194 paths (82 closed); straight 9,644 mm, curved 129 mm; horizontal 3,802 mm, vertical 2,543 mm, diagonal 3,300 mm
+- **Circles and arcs:** 8 circles, 30 arcs; largest r 1.1 @ (196.9, 248.1), r 1.0 @ (59.8, 247.9), r 1.0 @ (197.2, 126.1), r 1.0 @ (196.6, 218.3)
+- **Closed boxes:** 35 (31 in the title block); named: WBS LTD_ SYSTEMS WARD-BECK
+- **Dots (junctions):** 1
+- **Words (OCR):** 85 in 77 lines: 20 · InpUT · Sw · Sw3 · SW 7 Ri9 · 3ok · 30k · RZ · RB · R2o · 15k · 15k
+- **Title block:** (140, 17)–(413, 68) mm: ISS MOD [CKD: · USED ON · MATL . · WBS WARD-BECK · SYSTEMS · DRN: · PA · DATE SePr 76 · M468M · FINISH · SCHEMATIC · CKD · AssiGN MoDuLE · SCALE · TOLS _ · ISS.
+- **Wiring (first pass):** 50 connected wire groups from 307 runs, 3 dotted junctions; labelled ends: 308 mm → SW 7, InpUT, Vis, Sw3; 302 mm → Sw8, inpUt, SwA, 38K; 300 mm → 20, InpUT, RB, 30k; 256 mm → R2z, 30k, R29, Bk; 64 mm → 21, inpUt, Bk
+
+Every curve, box, word and wire group: [1976 - 468-02-025 - M468M ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (3) (traced).json](1976%20-%20468-02-025%20-%20M468M%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%283%29%20%28traced%29.json) (the CAD file: `1976 - 468-02-025 - M468M ASSIGN MODULE SCHEMATIC - DRN PA - ISS 1 (3) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

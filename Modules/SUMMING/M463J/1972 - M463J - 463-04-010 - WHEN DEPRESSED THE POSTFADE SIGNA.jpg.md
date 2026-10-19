@@ -11,6 +11,17 @@ Wiki page: [M463J](../../../PAGES/M463J.md)
 - **Size:** 2,229,622 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-010, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 3–333 mm across, 0–430 mm up
+- **Outlines:** line 73 rings, 1,995 straight (7,520 mm) / 173 curved (254 mm); text 1,628 rings, 8,347 straight (7,433 mm) / 3,044 curved (3,900 mm); tb 196 rings, 2,100 straight (6,958 mm) / 406 curved (812 mm)
+- **Closed boxes:** 20 (14 in the title block); named: MASTER swi tch SWS: ASS |GNMENT depresse; PUBLIC ADDRESS choice PRE / POST switch ; FOLDBACK swi tches Sw10 swi tch and SWII; REV SEND swi tches Sw8 Sw9 : either With; PAN depressed_ PAN switch SwI When enabl; postfade SOLO depressed, switch Sw7: Whe
+- **Words (OCR):** 256 in 147 lines: WBS · M463J · MASTER ASS |GNMENT · swi tch SWS: When · depressed the · M2 · MASTER ASSIGNMENT swi tch SWb : When · fed via summ · depressed_ the · output · gna| · fed via summ
+- **Title block:** (145, 0)–(336, 320) mm: WBS · M463J · M2 · MASTER ASSIGNMENT swi tch SWb : When · fed via summ · depressed_ the · output gna · master · summ i ng bus M2 · ng resistors · the · externa · PUBLIC ADDRESS LEVEL control · R4 1/42
+
+Every curve, box, word and wire group: [1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA (traced).json](1972%20-%20M463J%20-%20463-04-010%20-%20WHEN%20DEPRESSED%20THE%20POSTFADE%20SIGNA%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

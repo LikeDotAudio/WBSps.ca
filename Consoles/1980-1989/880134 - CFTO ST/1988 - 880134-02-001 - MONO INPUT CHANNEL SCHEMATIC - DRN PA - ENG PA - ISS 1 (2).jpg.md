@@ -22,6 +22,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 2,931,383 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 880134-02-001, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 516 rings, 3,645 straight (9,851 mm) / 714 curved (1,648 mm); text 106 rings, 823 straight (2,354 mm) / 226 curved (706 mm)
+- **Centre lines:** 3,132 paths (34 closed); straight 6,827 mm, curved 200 mm; horizontal 2,978 mm, vertical 1,478 mm, diagonal 2,372 mm
+- **Circles and arcs:** 5 circles, 16 arcs; largest r 3.2 @ (421.7, 37.2), r 3.1 @ (412.8, 37.3), r 2.5 @ (356.3, 151.6), r 2.4 @ (412.8, 42.2)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 36 connected wire groups from 289 runs
+
+Every curve, box, word and wire group: [1988 - 880134-02-001 - MONO INPUT CHANNEL SCHEMATIC - DRN PA - ENG PA - ISS 1 (2) (traced).json](1988%20-%20880134-02-001%20-%20MONO%20INPUT%20CHANNEL%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1988 - 880134-02-001 - MONO INPUT CHANNEL SCHEMATIC - DRN PA - ENG PA - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

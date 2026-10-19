@@ -11,6 +11,18 @@ Wiki page: [M463K](../../../PAGES/M463K.md)
 - **Size:** 2,061,403 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-015, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–431 mm up
+- **Outlines:** line 221 rings, 4,579 straight (6,934 mm) / 803 curved (1,186 mm); text 213 rings, 1,387 straight (1,548 mm) / 463 curved (647 mm); tb 560 rings, 3,985 straight (8,979 mm) / 1,057 curved (2,171 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 5.0 @ (86.6, 300.3), r 5.0 @ (86.1, 177.5), r 5.0 @ (86.0, 132.6), r 5.0 @ (86.6, 262.8)
+- **Closed boxes:** 11 (11 in the title block)
+- **Words (OCR):** 39 in 36 lines: WBS · M463k · 13 · PRE · PA-€-SA · PRE · PRE · PRE PST · 3.2 6.4 12.8 · KHZ · 21 · MF
+- **Title block:** (153, 0)–(335, 415) mm: WBS · M463k · 13 · PRE · PA-€-SA · PRE · PRE · PRE PST · 3.2 6.4 12.8 · KHZ · 21 · MF · 22) · 50 100 200 · 300 · 23 · PAN · 25 · SUB · MISSUE DATE · REvisION · APP · ON · WBS · WARD-BECK SYSTEMS · M46
+
+Every curve, box, word and wire group: [1974 - M463K - 463-04-015 - ENG SUBMA STER MODULE (traced).json](1974%20-%20M463K%20-%20463-04-015%20-%20ENG%20SUBMA%20STER%20MODULE%20%28traced%29.json) (the CAD file: `1974 - M463K - 463-04-015 - ENG SUBMA STER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -18,6 +18,17 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 5,226,998 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 14-161-06-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–429 mm across, 0–286 mm up
+- **Outlines:** line 4,365 rings, 26,174 straight (39,154 mm) / 7,436 curved (6,940 mm); text 166 rings, 855 straight (651 mm) / 293 curved (304 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 1.6 @ (375.9, 17.0), r 1.6 @ (379.3, 22.8), r 1.6 @ (365.8, 17.0), r 1.6 @ (392.9, 22.7)
+- **Closed boxes:** 152
+- **Dots (junctions):** 10
+
+Every curve, box, word and wire group: [19xx - 14-161-06-001 - SA14-161 MACHINE CONTROL ASSEMBLY COMPONENT LAYOUT - ISS 1 (traced).json](19xx%20-%2014-161-06-001%20-%20SA14-161%20MACHINE%20CONTROL%20ASSEMBLY%20COMPONENT%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-161-06-001 - SA14-161 MACHINE CONTROL ASSEMBLY COMPONENT LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

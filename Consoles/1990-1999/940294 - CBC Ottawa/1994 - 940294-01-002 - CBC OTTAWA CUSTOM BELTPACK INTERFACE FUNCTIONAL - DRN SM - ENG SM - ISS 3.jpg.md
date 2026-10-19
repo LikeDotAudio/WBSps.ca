@@ -22,6 +22,20 @@ Wiki page: [Job-940294](../../../PAGES/Job-940294.md)
 - **Size:** 437,175 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 940294-01-002, size D 864 × 538 mm, 2000 × 1245 px traced (0.432 mm/px)
+- **Ink extent:** 89–814 mm across, 14–448 mm up
+- **Outlines:** line 600 rings, 5,297 straight (26,319 mm) / 770 curved (1,756 mm); text 181 rings, 1,200 straight (2,194 mm) / 320 curved (764 mm); tb 45 rings, 324 straight (603 mm) / 73 curved (170 mm)
+- **Centre lines:** 7,262 paths (135 closed); straight 16,374 mm, curved 24.3 mm; horizontal 8,078 mm, vertical 4,488 mm, diagonal 3,808 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 77 (12 in the title block); named: 46242 DEPO; DECOUPLER; Fro4 4aikix
+- **Words (OCR):** 23 in 21 lines: PRCCA ScuND · FCTEF · 46242 · DECOUPLER · DEPO · ATRA · Fro4 4aikix · 4aikix · VATRU · FCA Vinicou · CCNNECTCR · RFYSED 45 PER CUSICUER
+- **Title block:** (655, 9)–(825, 76) mm: REMSI" · WBS · WARD · BECK SYSTEMS · CBC OTTAWA · CUSTOM BELTPACK INTERFACE · FUNCTIONAL · SCALE · 940294-01-002
+- **Wiring (first pass):** 71 connected wire groups from 799 runs; labelled ends: 2052 mm → FCTEF; 131 mm → BECK SYSTEMS, WBS; 63 mm → FCTEF; 10 mm → WBS; 10 mm → CCNNECTCR, BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - 940294-01-002 - CBC OTTAWA CUSTOM BELTPACK INTERFACE FUNCTIONAL - DRN SM - ENG SM - ISS 3 (traced).json](1994%20-%20940294-01-002%20-%20CBC%20OTTAWA%20CUSTOM%20BELTPACK%20INTERFACE%20FUNCTIONAL%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1994 - 940294-01-002 - CBC OTTAWA CUSTOM BELTPACK INTERFACE FUNCTIONAL - DRN SM - ENG SM - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

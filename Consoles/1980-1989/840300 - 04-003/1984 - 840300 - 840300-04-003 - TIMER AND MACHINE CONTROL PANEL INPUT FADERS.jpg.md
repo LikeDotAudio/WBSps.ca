@@ -10,6 +10,18 @@ Wiki page: [Job-840300](../../../PAGES/Job-840300.md)
 - **Size:** 6,570,758 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 840300-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 4–432 mm up
+- **Outlines:** line 1,067 rings, 10,740 straight (17,459 mm) / 1,147 curved (1,661 mm); text 477 rings, 3,432 straight (3,422 mm) / 983 curved (1,378 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.8 @ (237.8, 309.0), r 1.8 @ (204.7, 302.9), r 1.8 @ (49.4, 309.1), r 1.7 @ (175.3, 303.2)
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 102 in 69 lines: ESE370 DIGitAL timer · (SUPPLIED BY Customer) · M1 · M2 · Mono · Aux1 · AUX2 · Aux3 · AUx4 · 86 · M1 · M2
+
+Every curve, box, word and wire group: [1984 - 840300 - 840300-04-003 - TIMER AND MACHINE CONTROL PANEL INPUT FADERS (traced).json](1984%20-%20840300%20-%20840300-04-003%20-%20TIMER%20AND%20MACHINE%20CONTROL%20PANEL%20INPUT%20FADERS%20%28traced%29.json) (the CAD file: `1984 - 840300 - 840300-04-003 - TIMER AND MACHINE CONTROL PANEL INPUT FADERS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

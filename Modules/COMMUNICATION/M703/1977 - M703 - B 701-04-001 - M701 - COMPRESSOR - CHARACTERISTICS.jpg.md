@@ -11,6 +11,15 @@ Wiki page: [M703](../../../PAGES/M703.md)
 - **Size:** 6,280,219 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 701-04-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–425 mm across, 19–303 mm up
+- **Outlines:** line 249 rings, 3,320 straight (7,659 mm) / 469 curved (705 mm); text 112 rings, 810 straight (976 mm) / 229 curved (360 mm)
+- **Closed boxes:** 47
+
+Every curve, box, word and wire group: [1977 - M703 - B 701-04-001 - M701 - COMPRESSOR - CHARACTERISTICS (traced).json](1977%20-%20M703%20-%20B%20701-04-001%20-%20M701%20-%20COMPRESSOR%20-%20CHARACTERISTICS%20%28traced%29.json) (the CAD file: `1977 - M703 - B 701-04-001 - M701 - COMPRESSOR - CHARACTERISTICS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

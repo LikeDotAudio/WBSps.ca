@@ -22,6 +22,20 @@ CFNY system interconnect block diagram of console, turret interface and wallplat
 - **Size:** 988,540 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 96002-01-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 13–432 mm across, 26–299 mm up
+- **Outlines:** line 53 rings, 909 straight (3,686 mm) / 52 curved (85.7 mm); text 167 rings, 1,144 straight (1,228 mm) / 330 curved (481 mm); tb 33 rings, 191 straight (370 mm) / 7 curved (8.7 mm)
+- **Centre lines:** 1,266 paths (20 closed); straight 2,164 mm, curved 2.2 mm; horizontal 972 mm, vertical 486 mm, diagonal 706 mm
+- **Circles and arcs:** 0 circles, 1 arcs
+- **Closed boxes:** 5; named: CONSOLE; TURRET INTERFACE; TURRET; TURRET 2; TURRET
+- **Words (OCR):** 17 in 17 lines: CONSOLE · BY WBS(1OFT) · (25FT) · TURRET INTERFACE · STUDIO WALLPLATE · NEWS RoOM WALLPLATE · WBS · WARD-BECK · SYSTEMS · TURRET · TURRET 2 · TURRET
+- **Title block:** (163, 45)–(409, 189) mm: BY WBS(1OFT) · (25FT) · NEWS RoOM WALLPLATE · WBS · WARD-BECK · SYSTEMS · TURRET · CFNY
+- **Wiring (first pass):** 9 connected wire groups from 57 runs; labelled ends: 83 mm → STUDIO WALLPLATE, TURRET 2; 81 mm → TURRET INTERFACE, STUDIO WALLPLATE; 48 mm → TURRET INTERFACE; 48 mm → TURRET; 23 mm → TURRET INTERFACE
+
+Every curve, box, word and wire group: [1996 - 96002-01-001 - CFNY SYSTEM INTERCONNECT - ISS 1 (traced).json](1996%20-%2096002-01-001%20-%20CFNY%20SYSTEM%20INTERCONNECT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 96002-01-001 - CFNY SYSTEM INTERCONNECT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,18 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 3,643,881 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 2442-02-013, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–432 mm across, 1–286 mm up
+- **Outlines:** line 295 rings, 2,775 straight (5,905 mm) / 500 curved (703 mm); text 168 rings, 1,121 straight (1,445 mm) / 326 curved (491 mm)
+- **Centre lines:** 2,111 paths (45 closed); straight 4,032 mm, curved 123 mm; horizontal 1,901 mm, vertical 912 mm, diagonal 1,218 mm
+- **Circles and arcs:** 10 circles, 20 arcs; largest r 3.5 @ (9.5, 142.5), r 1.3 @ (210.3, 146.6), r 1.3 @ (107.4, 159.7), r 1.3 @ (97.5, 164.3)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 38 connected wire groups from 258 runs
+
+Every curve, box, word and wire group: [1988 - 2442-02-013 - OVERLOAD SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).json](1988%20-%202442-02-013%20-%20OVERLOAD%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 2442-02-013 - OVERLOAD SCHEMATIC - DRN PA - ENG PA - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

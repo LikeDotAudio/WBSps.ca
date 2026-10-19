@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,746,820 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940145-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 49–419 mm across, 7–249 mm up
+- **Outlines:** line 1,169 rings, 8,694 straight (22,598 mm) / 1,486 curved (1,932 mm); text 160 rings, 932 straight (992 mm) / 293 curved (365 mm); tb 14 rings, 122 straight (153 mm) / 20 curved (22.7 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 2.3 @ (291.5, 182.5), r 2.3 @ (291.4, 107.4), r 2.3 @ (270.1, 163.9), r 2.3 @ (270.1, 190.9)
+- **Closed boxes:** 117 (5 in the title block); named: BCTV BURNABY 48X48 MicrocoM LAYOUT REAR; 940145-04 002; DSC 'C
+- **Words (OCR):** 11 in 9 lines: RHSCN · WBS · WARD-BECK SYSTEMS · BCTV BURNABY · 48X48 MicrocoM · REAR · LAYOUT · DSC 'C · 940145-04 002
+- **Title block:** (340, 22)–(425, 39) mm: RHSCN · WBS · WARD-BECK SYSTEMS · BCTV BURNABY
+
+Every curve, box, word and wire group: [1994 - DOC - 940145-04-002 - MICROCOM REAR LAYOUT (traced).json](1994%20-%20DOC%20-%20940145-04-002%20-%20MICROCOM%20REAR%20LAYOUT%20%28traced%29.json) (the CAD file: `1994 - DOC - 940145-04-002 - MICROCOM REAR LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

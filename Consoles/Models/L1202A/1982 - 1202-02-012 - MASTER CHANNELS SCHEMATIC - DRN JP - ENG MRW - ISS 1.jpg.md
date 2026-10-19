@@ -23,6 +23,21 @@ Wiki page: [L1202A](../../../PAGES/L1202A.md)
 - **Size:** 468,332 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 1202-02-012, size B 432 × 274 mm, 2000 × 1269 px traced (0.216 mm/px)
+- **Ink extent:** 14–432 mm across, 0–271 mm up
+- **Outlines:** line 232 rings, 4,725 straight (9,285 mm) / 824 curved (1,509 mm); text 805 rings, 5,965 straight (6,830 mm) / 1,648 curved (2,484 mm); tb 4 rings, 96 straight (202 mm) / 4 curved (5.0 mm)
+- **Centre lines:** 7,024 paths (78 closed); straight 9,756 mm, curved 494 mm; horizontal 3,724 mm, vertical 1,866 mm, diagonal 4,166 mm
+- **Circles and arcs:** 12 circles, 46 arcs; largest r 5.5 @ (68.1, 216.9), r 5.5 @ (68.4, 97.8), r 5.4 @ (238.5, 117.2), r 5.4 @ (237.3, 250.5)
+- **Closed boxes:** 11 (7 in the title block); named: Mie AUX MASTER M487 DUAL MASTERI MODULE; (-15d8); Mz & CUE MASTEF M487 MASTEF DUAL MODULE ; (-1548)
+- **Dots (junctions):** 5
+- **Words (OCR):** 150 in 125 lines: RE EATRY · FROM M4Sib) · FROM · MXiNG · MI · Mie AUX 1@T · 822 MI · BUSSES · OUT · AUX · ZA · MASTER
+- **Title block:** (286, 1)–(432, 69) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK systems · DRN 9/82 JP · ENG. · MRw · MASTER · CHANNELS · CKD: 1x · SCHEMATIC · APP · SCALE · ISSUE · 1202-02-012
+- **Wiring (first pass):** 71 connected wire groups from 356 runs, 1 dotted junctions; labelled ends: 523 mm → ZA, 1@T, To, 822; 410 mm → M2, L3S, 10, ALM; 216 mm → 17,0, To MON € METER, 70 Ma81B, 455; 74 mm → (-15d8), 248; 71 mm → 048, (-1548)
+
+Every curve, box, word and wire group: [1982 - 1202-02-012 - MASTER CHANNELS SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).json](1982%20-%201202-02-012%20-%20MASTER%20CHANNELS%20SCHEMATIC%20-%20DRN%20JP%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1982 - 1202-02-012 - MASTER CHANNELS SCHEMATIC - DRN JP - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

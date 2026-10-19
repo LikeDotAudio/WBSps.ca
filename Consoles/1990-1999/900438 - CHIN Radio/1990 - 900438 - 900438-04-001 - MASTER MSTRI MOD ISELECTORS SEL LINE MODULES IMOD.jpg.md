@@ -10,6 +10,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,650,640 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 900438-04-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 268 rings, 6,472 straight (24,416 mm) / 575 curved (850 mm); text 364 rings, 2,323 straight (2,573 mm) / 768 curved (1,071 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.1 @ (106.8, 85.6)
+- **Closed boxes:** 51; named: M497 MASTER MSTRI A MODULES; Im497AM MOD; M490B MIC iNPUT MODULES; LINE M498 LINE SEL; M498 FUT SEL; M498 MON SEL; M462A EQUALIZER MODULES; MFZ u76-R; QHFY un8-L; MHFZ PGM 1-L; MFZ; QWPS
+- **Dots (junctions):** 3
+- **Words (OCR):** 67 in 57 lines: 42.70 in. · OSC · [NS-L INS-R · SELL_SBL2 · MONQ · M452 · M499 · M498 FUT · M497 Im497AM · CSC INSERT · LINE M498 · MASTER MSTRI A
+
+Every curve, box, word and wire group: [1990 - 900438 - 900438-04-001 - MASTER MSTRI MOD ISELECTORS SEL LINE MODULES IMOD (traced).json](1990%20-%20900438%20-%20900438-04-001%20-%20MASTER%20MSTRI%20MOD%20ISELECTORS%20SEL%20LINE%20MODULES%20IMOD%20%28traced%29.json) (the CAD file: `1990 - 900438 - 900438-04-001 - MASTER MSTRI MOD ISELECTORS SEL LINE MODULES IMOD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

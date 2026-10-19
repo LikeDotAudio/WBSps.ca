@@ -11,6 +11,21 @@ Wiki page: [M461M](../../../PAGES/M461M.md)
 - **Size:** 30,598,210 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 461-02-004, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–276 mm up
+- **Outlines:** line 911 rings, 5,926 straight (9,389 mm) / 781 curved (911 mm); text 425 rings, 1,809 straight (1,378 mm) / 380 curved (434 mm); tb 31 rings, 189 straight (220 mm) / 36 curved (44.3 mm)
+- **Centre lines:** 5,887 paths (62 closed); straight 6,010 mm, curved 23.4 mm; horizontal 2,353 mm, vertical 2,005 mm, diagonal 1,652 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 25 (23 in the title block); named: WBS WAAD-BeCK SYSTEMS LTD; M461 MODULE INPUT SCHEMATIC
+- **Dots (junctions):** 1
+- **Words (OCR):** 134 in 124 lines: Jae · 23/- · 22 / · 72 ` · '23 · 2E= · /E5 · 2e · 23 · 7E4 · TOa · 3012
+- **Title block:** (291, 0)–(429, 29) mm: MOp IcKD · USED ON · MAT · WBS WAAD-BeCK SYSTEMS LTD · DRN: · M461 · FIMISA · DATE SE2LIa · INPUT · MODULE · CKD; · SCALE · SCHEMATIC · TOlS · 461 -02-004 ISS_
+- **Wiring (first pass):** 87 connected wire groups from 552 runs; labelled ends: 35 mm → 229; 34 mm → AMp_ = EF, 7E6; 20 mm → 0ylarr= #Sy; 18 mm → FE4, 20)"eF; 15 mm → 0ylarr= #Sy
+
+Every curve, box, word and wire group: [1975 - M461M - 461-02-004 - CONTRCL CONTROL (traced).json](1975%20-%20M461M%20-%20461-02-004%20-%20CONTRCL%20CONTROL%20%28traced%29.json) (the CAD file: `1975 - M461M - 461-02-004 - CONTRCL CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

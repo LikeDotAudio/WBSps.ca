@@ -11,6 +11,19 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 509,736 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-009, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–430 mm up
+- **Outlines:** line 414 rings, 4,451 straight (8,352 mm) / 775 curved (1,149 mm); text 231 rings, 1,841 straight (2,188 mm) / 607 curved (987 mm)
+- **Centre lines:** 3,800 paths (34 closed); straight 5,925 mm, curved 108 mm; horizontal 2,510 mm, vertical 1,466 mm, diagonal 1,949 mm
+- **Circles and arcs:** 1 circles, 11 arcs; largest r 4.5 @ (201.9, 149.5)
+- **Closed boxes:** 3; named: PGmi CUE CTL LoGIC
+- **Words (OCR):** 37 in 34 lines: FADER · (-15dB) Ch ON · INSERT · 3I8 · NE inputs · 10/+20dBm · 600 ohm · SENSITivITY · (30dB) · INPUT · SELECToR · CONTROL
+- **Wiring (first pass):** 174 connected wire groups from 363 runs; labelled ends: 144 mm → PGmi, CUE, CTL, LoGIC; 128 mm → (-15dB); 103 mm → PGmi, CUE, CTL, LoGIC; 59 mm → 3I8; 55 mm → CUE
+
+Every curve, box, word and wire group: [1978 - M490H - 490-01-009 - TIMER RESET OFF TALLY OFF (traced).json](1978%20-%20M490H%20-%20490-01-009%20-%20TIMER%20RESET%20OFF%20TALLY%20OFF%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-01-009 - TIMER RESET OFF TALLY OFF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

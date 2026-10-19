@@ -11,6 +11,16 @@ Wiki page: [M470E](../../../PAGES/M470E.md)
 - **Size:** 246,450 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-013, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 3–427 mm up
+- **Outlines:** line 149 rings, 2,834 straight (5,787 mm) / 295 curved (446 mm); text 726 rings, 7,382 straight (8,816 mm) / 1,736 curved (2,752 mm)
+- **Closed boxes:** 44; named: 10; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22
+- **Words (OCR):** 134 in 101 lines: Pi · SUB RIGHT Out · SUB 4 RIGHT Out · LINE in · SUB · RIGHT Out · SUB · RIGhT · Out · NC · SUB RIGHT Out · SUB
+
+Every curve, box, word and wire group: [1984 - M470E - 470-04-013 - IRECT RIGHT OUT SHELD (traced).json](1984%20-%20M470E%20-%20470-04-013%20-%20IRECT%20RIGHT%20OUT%20SHELD%20%28traced%29.json) (the CAD file: `1984 - M470E - 470-04-013 - IRECT RIGHT OUT SHELD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

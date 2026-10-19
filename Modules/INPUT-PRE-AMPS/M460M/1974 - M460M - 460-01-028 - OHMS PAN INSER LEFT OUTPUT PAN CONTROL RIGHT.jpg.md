@@ -11,6 +11,20 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 333,860 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 460-01-028, size B (assumed) 342 × 432 mm, 1583 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 357 rings, 5,129 straight (8,847 mm) / 982 curved (1,170 mm); text 310 rings, 2,108 straight (2,198 mm) / 699 curved (969 mm); tb 2 rings, 50 straight (152 mm) / 2 curved (3.5 mm)
+- **Centre lines:** 8,123 paths (68 closed); straight 6,785 mm, curved 133 mm; horizontal 2,360 mm, vertical 1,805 mm, diagonal 2,620 mm
+- **Circles and arcs:** 3 circles, 30 arcs; largest r 3.2 @ (152.8, 327.3), r 0.9 @ (151.9, 333.8), r 0.8 @ (18.4, 314.5)
+- **Closed boxes:** 9
+- **Words (OCR):** 48 in 40 lines: DIRECT output · dBm; REF 50 OHMS · Chan · PAN · INSER- · AMPLIFIER · BOOSTER · LEFT OutPut · FADER · PAN · INSERT · 8-109
+- **Title block:** (216, 49)–(342, 73) mm: WBS WAAD-BECK systemb
+- **Wiring (first pass):** 146 connected wire groups from 342 runs; labelled ends: 85 mm → DIRECT; 40 mm → FOLDBACK; 34 mm → LEFT, PAN; 32 mm → BOOSTER, AMPLIFIER; 30 mm → cONTROL
+
+Every curve, box, word and wire group: [1974 - M460M - 460-01-028 - OHMS PAN INSER LEFT OUTPUT PAN CONTROL RIGHT (traced).json](1974%20-%20M460M%20-%20460-01-028%20-%20OHMS%20PAN%20INSER%20LEFT%20OUTPUT%20PAN%20CONTROL%20RIGHT%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-01-028 - OHMS PAN INSER LEFT OUTPUT PAN CONTROL RIGHT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

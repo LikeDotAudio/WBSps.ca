@@ -23,6 +23,19 @@ Wiki page: [M7000](../../../PAGES/M7000.md)
 - **Size:** 1,110,128 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 7000-03-019, size D 864 × 538 mm, 2000 × 1247 px traced (0.432 mm/px)
+- **Ink extent:** 102–853 mm across, 0–502 mm up
+- **Outlines:** line 542 rings, 4,972 straight (29,618 mm) / 780 curved (1,896 mm); text 508 rings, 2,712 straight (5,005 mm) / 1,009 curved (2,500 mm); tb 9 rings, 47 straight (79.3 mm) / 17 curved (40.8 mm)
+- **Centre lines:** 8,893 paths (239 closed); straight 20,968 mm, curved 107 mm; horizontal 11,308 mm, vertical 4,021 mm, diagonal 5,639 mm
+- **Circles and arcs:** 1 circles, 22 arcs; largest r 2.8 @ (529.2, 414.3)
+- **Closed boxes:** 49 (2 in the title block); named: IKP_24C INTERCOM KEY PANELS; BD 8 /30
+- **Words (OCR):** 74 in 65 lines: 18.9C0 · 650 · PITCHES · 0.689 15.847 · 17584 · 0.Joo TP · 0.250 · 0,150 TP. · 0,750 · 0,560 _ · 2.969 · 5.+68
+- **Title block:** (697, 31)–(845, 71) mm: ISSUEI DAIL · WARD-BECK   SYSTEMS · WE3S · BD 8 /30 · IKP_24C
+
+Every curve, box, word and wire group: [1986 - 7000-03-019 - IKP-24C INTERCOM KEY PANELS - DRN BD - ENG GEB - ISS 1 (traced).json](1986%20-%207000-03-019%20-%20IKP-24C%20INTERCOM%20KEY%20PANELS%20-%20DRN%20BD%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1986 - 7000-03-019 - IKP-24C INTERCOM KEY PANELS - DRN BD - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

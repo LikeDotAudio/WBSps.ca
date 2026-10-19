@@ -25,6 +25,20 @@ Large crosspoint matrix functional drawing for an outside broadcast, title block
 - **Size:** 2,159,854 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 93047-01-001, size D 864 × 575 mm, 2000 × 1332 px traced (0.432 mm/px); scale DISC NO: 450
+- **Ink extent:** 0–846 mm across, 27–566 mm up
+- **Outlines:** line 2,069 rings, 21,640 straight (62,207 mm) / 2,248 curved (5,827 mm); text 1,965 rings, 12,287 straight (19,141 mm) / 3,276 curved (7,558 mm); tb 1,292 rings, 5,671 straight (16,431 mm) / 761 curved (1,963 mm)
+- **Centre lines:** 122,803 paths (483 closed); straight 101,562 mm, curved 100 mm; horizontal 24,895 mm, vertical 27,116 mm, diagonal 49,551 mm
+- **Circles and arcs:** 154 circles, 17 arcs; largest r 6.8 @ (755.7, 385.9), r 6.8 @ (499.6, 385.9), r 6.8 @ (793.7, 385.9), r 6.8 @ (448.6, 385.9)
+- **Closed boxes:** 40 (31 in the title block)
+- **Words (OCR):** 198 in 174 lines: UNITARY PROGRAYSCUND INPUTS · NORMALLED · JACKFIELD · MODULAR · 082040 · PGM} · NOTE · M8204D · PGM? · NOTE · M8204d · PGMI
+- **Title block:** (43, 23)–(861, 410) mm: INPUTS · AMP · CCOBES · CAM · NOTE · MBZO4D · CAv ENG · NOTE · M8204D · Cav PRCD · M8204D · UHF3 · NOTE · 4m8512 · UHF2 · TELEPHONE · MRE · M7840 · UHFI · LINE · TELEPHONE UNIT · FROM MaTRIX Cut · SEC
+- **Wiring (first pass):** 677 connected wire groups from 2,370 runs; labelled ends: 117 mm → M8204d; 74 mm → M8204D; 48 mm → CAM, 40/-30, INPUTS, CAV; 43 mm → CAM, INPUTS; 35 mm → M8204D
+
+Every curve, box, word and wire group: [1993 - 93047-01-001 - MOVING PICTURES TVNZ OUTSIDE BROADCAST FUNCTIONAL - DRN DRG - ISS 1 (traced).json](1993%20-%2093047-01-001%20-%20MOVING%20PICTURES%20TVNZ%20OUTSIDE%20BROADCAST%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1993 - 93047-01-001 - MOVING PICTURES TVNZ OUTSIDE BROADCAST FUNCTIONAL - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 16 words corrected)

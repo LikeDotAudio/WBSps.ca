@@ -24,6 +24,21 @@ Main matrix functional block diagram with title block at bottom right.
 - **Size:** 514,614 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 94055-01-001, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px)
+- **Ink extent:** 23–864 mm across, 16–554 mm up
+- **Outlines:** line 1,185 rings, 7,706 straight (31,550 mm) / 1,114 curved (2,835 mm); text 465 rings, 2,826 straight (5,663 mm) / 829 curved (2,151 mm); tb 18 rings, 144 straight (338 mm) / 35 curved (77.9 mm)
+- **Centre lines:** 11,414 paths (121 closed); straight 21,883 mm, curved 78.4 mm; horizontal 9,569 mm, vertical 6,331 mm, diagonal 5,984 mm
+- **Circles and arcs:** 1 circles, 13 arcs; largest r 2.3 @ (752.8, 23.8)
+- **Closed boxes:** 61 (2 in the title block); named: CONIROL_ERANE M85041; MAmRIX_BLOCK Vb5o1); Me501); AUDIO BUSING; AUDIO BUSING; 425481 Meso); 0a548; MARRIX_BLOCX M8548) Vasd1); MAIRX BLOCK 48548) Me501); 48/40 MATRIX ELOCK Vas48) Ma 501); 48748 00548); 48748 MARLBLOC <
+- **Dots (junctions):** 1
+- **Words (OCR):** 55 in 53 lines: CONIROL_ERANE · M85041 · MicrocOM_cONTROL_BUS_ · AUDIO · MAmRIX_BLOCK · (FUTURE) · (FUTURE) · puTS · BUSING · Me501) · Vb5o1) · AUDIO
+- **Title block:** (687, 48)–(856, 82) mm: WBS · WARD-BECK SYSTEMS · TEN  ENGINEERING
+- **Wiring (first pass):** 206 connected wire groups from 1,568 runs; labelled ends: 480 mm → OUTPUTS; 148 mm → WBS, MAIN MATRIX; 108 mm → 001, MAIN MATRIX, 94055_01; 102 mm → ME 51,2; 54 mm → OUTPUTS
+
+Every curve, box, word and wire group: [1994 - 94055-01-001 - TEN ENGINEERING 192x192 MicroCOM II MAIN MATRIX FUNCTIONAL - DRN SM - ENG SM - ISS 1 (traced).json](1994%20-%2094055-01-001%20-%20TEN%20ENGINEERING%20192x192%20MicroCOM%20II%20MAIN%20MATRIX%20FUNCTIONAL%20-%20DRN%20SM%20-%20ENG%20SM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94055-01-001 - TEN ENGINEERING 192x192 MicroCOM II MAIN MATRIX FUNCTIONAL - DRN SM - ENG SM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

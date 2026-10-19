@@ -11,6 +11,19 @@ Wiki page: [M612A](../../../PAGES/M612A.md)
 - **Size:** 914,943 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 12-01-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 5–395 mm up
+- **Outlines:** line 76 rings, 2,436 straight (4,458 mm) / 348 curved (530 mm); text 297 rings, 2,048 straight (2,504 mm) / 597 curved (999 mm); tb 2 rings, 76 straight (152 mm) / 2 curved (3.2 mm)
+- **Centre lines:** 1,661 paths (52 closed); straight 4,130 mm, curved 53.4 mm; horizontal 1,441 mm, vertical 1,132 mm, diagonal 1,557 mm
+- **Circles and arcs:** 1 circles, 9 arcs; largest r 0.7 @ (132.8, 219.8)
+- **Words (OCR):** 34 in 32 lines: (~6dB) · (-6dB) · MWV · (~6dB) · (~6dB) · (~6dB) · MNV · (~6dB) · outputs · dBm · 600 ohms · (~6dB)
+- **Title block:** (213, 39)–(338, 65) mm: WBS · WAAD-BECK BYBTEMB
+- **Wiring (first pass):** 44 connected wire groups from 95 runs; labelled ends: 529 mm → (-6dB), MWV, (~6dB), MNV; 229 mm → 12; 49 mm → (~6dB); 49 mm → MV, (~6dB); 49 mm → (~6dB)
+
+Every curve, box, word and wire group: [1983 - M612A - 12-01-001 - AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL DIAGRAM (traced).json](1983%20-%20M612A%20-%2012-01-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1983 - M612A - 12-01-001 - AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

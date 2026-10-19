@@ -9,6 +9,16 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,525,572 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–431 mm up
+- **Outlines:** line 346 rings, 7,369 straight (15,175 mm) / 843 curved (1,257 mm); text 206 rings, 1,482 straight (1,432 mm) / 454 curved (585 mm)
+- **Closed boxes:** 84; named: 23; 2 2; 2 0; 21
+- **Words (OCR):** 44 in 31 lines: ROW · INPUT MOdule INSE · INPUT MODULE INSER · MASTER INSERT · SENDI EXT · AIR EXT · CUE RCVR · Mi · M2 MONO · SOURCE · SOURCE · MASTER INSERT RE TURNI EXT
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_3 iss 2 - 31106-04-003 - TIP NORMAL TIP NORMAL TIP NORMAL TIP NORMAL (traced).json](1977%20-%2031106-04-003_3%20iss%202%20-%2031106-04-003%20-%20TIP%20NORMAL%20TIP%20NORMAL%20TIP%20NORMAL%20TIP%20NORMAL%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_3 iss 2 - 31106-04-003 - TIP NORMAL TIP NORMAL TIP NORMAL TIP NORMAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

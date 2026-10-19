@@ -11,6 +11,19 @@ Wiki page: [M610](../../../PAGES/M610.md)
 - **Size:** 2,742,184 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 610-04-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–432 mm up
+- **Outlines:** line 3,217 rings, 30,845 straight (24,432 mm) / 7,293 curved (7,841 mm); text 113 rings, 995 straight (912 mm) / 258 curved (331 mm); tb 192 rings, 934 straight (629 mm) / 253 curved (245 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 2.5 @ (238.8, 219.3), r 2.1 @ (226.6, 236.2)
+- **Closed boxes:** 1
+- **Dots (junctions):** 1
+- **Words (OCR):** 23 in 22 lines: PCB · P2 · CRA · PI · Pi · C28 · C30 · MaTI . · 2On · WBS WARD-BECK · LtD · DRN
+- **Title block:** (106, 16)–(258, 89) mm: WBS WARD-BECK · DRN · Dm · M6i0 · DATE · MAE7 · CKD · MODULE LAYOUT · Scale · 610-04 901 · TOLS
+
+Every curve, box, word and wire group: [19xx - M610 - 610-04-001 - WATT MONITOR AMPLIFIE (traced).json](19xx%20-%20M610%20-%20610-04-001%20-%20WATT%20MONITOR%20AMPLIFIE%20%28traced%29.json) (the CAD file: `19xx - M610 - 610-04-001 - WATT MONITOR AMPLIFIE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

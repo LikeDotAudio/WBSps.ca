@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,021,561 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 940444-02-100, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–304 mm up
+- **Outlines:** line 1,088 rings, 12,141 straight (16,912 mm) / 2,805 curved (3,370 mm); text 158 rings, 1,222 straight (1,111 mm) / 360 curved (433 mm)
+- **Centre lines:** 18,533 paths (312 closed); straight 12,198 mm, curved 393 mm; horizontal 4,310 mm, vertical 3,085 mm, diagonal 4,804 mm
+- **Circles and arcs:** 12 circles, 39 arcs; largest r 3.3 @ (221.4, 124.6), r 3.2 @ (366.6, 168.8), r 3.2 @ (221.5, 105.9), r 3.2 @ (295.9, 84.9)
+- **Closed boxes:** 18
+- **Dots (junctions):** 1
+- **Wiring (first pass):** 139 connected wire groups from 1,176 runs
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940444-02-100 - MIC INPUT MODULE SCHEMA TIC (traced).json](1994%20-%20Renaisance%20-%20940444-02-100%20-%20MIC%20INPUT%20MODULE%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940444-02-100 - MIC INPUT MODULE SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

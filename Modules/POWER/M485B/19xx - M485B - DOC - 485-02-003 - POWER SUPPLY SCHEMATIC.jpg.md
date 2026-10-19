@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,864,637 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 485-02-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–298 mm up
+- **Outlines:** line 193 rings, 4,045 straight (11,855 mm) / 497 curved (838 mm); text 556 rings, 3,781 straight (4,495 mm) / 1,148 curved (1,689 mm); tb 12 rings, 132 straight (254 mm) / 13 curved (12.6 mm)
+- **Centre lines:** 4,435 paths (83 closed); straight 9,230 mm, curved 357 mm; horizontal 4,025 mm, vertical 2,366 mm, diagonal 2,838 mm
+- **Circles and arcs:** 18 circles, 28 arcs; largest r 7.5 @ (217.9, 249.7), r 7.5 @ (218.3, 129.8), r 1.8 @ (206.3, 185.3), r 1.7 @ (176.2, 175.8)
+- **Closed boxes:** 27 (7 in the title block); named: PRIMARY CONNECT STRAP VOLTAGE POWERTO 11; PRIMARY VOLTAGE; STRAP; CONNECT POWERTO; 11Ov; 2-5,3-6; 2/6; I2ov; 1/6; 1-4 3-6; 2/6; 220v
+- **Words (OCR):** 102 in 88 lines: CRS · IN5404 · TB2 · R3 · +25v · TB1 · Ti · 80-20 · 3772 Gw · ZN 0.472 · 420v VO · MR
+- **Title block:** (278, 11)–(432, 78) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNRMAHodsy · M485B · ENG. MPW I80 · +25V POWER SUPPLY · CKD · SCHEMATIC · APP · SCALE · 485-02-003 · ISSUE
+- **Wiring (first pass):** 47 connected wire groups from 264 runs; labelled ends: 447 mm → CONNECT, POWERTO, PRIMARY, VOLTAGE; 292 mm → CHASSIS; 290 mm → TB2, +25v; 254 mm → PRIMARY, CONNECT, POWERTO, 240v; 102 mm → RA, 0.472, Gw, 7,8
+
+Every curve, box, word and wire group: [19xx - M485B - DOC - 485-02-003 - POWER SUPPLY SCHEMATIC (traced).json](19xx%20-%20M485B%20-%20DOC%20-%20485-02-003%20-%20POWER%20SUPPLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - M485B - DOC - 485-02-003 - POWER SUPPLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

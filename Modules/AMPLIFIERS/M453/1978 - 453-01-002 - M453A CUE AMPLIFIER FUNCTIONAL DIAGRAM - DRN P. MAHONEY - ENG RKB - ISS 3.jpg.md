@@ -26,6 +26,18 @@ Wiki page: [M453](../../../PAGES/M453.md)
 - **Size:** 4,280,827 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 453-01-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–431 mm across, 0–286 mm up
+- **Outlines:** line 366 rings, 4,020 straight (9,467 mm) / 663 curved (936 mm); text 216 rings, 1,469 straight (1,846 mm) / 414 curved (625 mm)
+- **Centre lines:** 4,661 paths (63 closed); straight 5,959 mm, curved 178 mm; horizontal 2,776 mm, vertical 1,263 mm, diagonal 1,920 mm
+- **Circles and arcs:** 11 circles, 29 arcs; largest r 3.9 @ (240.2, 87.8), r 3.7 @ (6.3, 30.2), r 1.5 @ (52.5, 99.8), r 1.3 @ (242.3, 153.3)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 102 connected wire groups from 331 runs
+
+Every curve, box, word and wire group: [1978 - 453-01-002 - M453A CUE AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).json](1978%20-%20453-01-002%20-%20M453A%20CUE%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1978 - 453-01-002 - M453A CUE AMPLIFIER FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

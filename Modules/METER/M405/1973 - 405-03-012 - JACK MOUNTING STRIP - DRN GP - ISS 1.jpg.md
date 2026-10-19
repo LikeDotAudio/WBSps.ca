@@ -23,6 +23,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 1,242,631 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 405-03-012, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 11–299 mm up
+- **Outlines:** line 173 rings, 3,312 straight (8,500 mm) / 365 curved (643 mm); text 294 rings, 2,130 straight (2,464 mm) / 635 curved (994 mm); tb 25 rings, 185 straight (321 mm) / 21 curved (37.5 mm)
+- **Centre lines:** 3,929 paths (58 closed); straight 6,598 mm, curved 134 mm; horizontal 3,037 mm, vertical 1,794 mm, diagonal 1,767 mm
+- **Circles and arcs:** 6 circles, 5 arcs; largest r 6.2 @ (152.8, 200.0), r 6.0 @ (153.1, 174.1), r 1.6 @ (230.0, 180.5), r 1.5 @ (204.1, 174.2)
+- **Closed boxes:** 28 (27 in the title block); named: WBS WARD-BECK sysTEMs LTD:
+- **Words (OCR):** 45 in 33 lines: I.00 · '75 · 40 · NOTES: · REMOVE ALL BURRS & SHARP EDGES · '42 · 19 · 406 · HOLES 6-32 · UNC THD, · 3 HOLEs '468 DIA · ss MOD [CKD
+- **Title block:** (148, 4)–(411, 56) mm: ss MOD [CKD · USED ON · MATL · WBS WARD-BECK sysTEMs LTD: · 0405-03-013 · BLAcK · D495-03-015 · BAKELITE · DRN: Gp · DATE · AUS: 73 · FINISH · JACK MOUNTING STRIP · NATURAL · CKD · N.p · SCALE · TOLS 
+
+Every curve, box, word and wire group: [1973 - 405-03-012 - JACK MOUNTING STRIP - DRN GP - ISS 1 (traced).json](1973%20-%20405-03-012%20-%20JACK%20MOUNTING%20STRIP%20-%20DRN%20GP%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1973 - 405-03-012 - JACK MOUNTING STRIP - DRN GP - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

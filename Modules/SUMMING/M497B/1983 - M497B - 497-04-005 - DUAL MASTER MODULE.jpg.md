@@ -11,6 +11,17 @@ Wiki page: [M497B](../../../PAGES/M497B.md)
 - **Size:** 467,088 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 497-04-005, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–330 mm across, 4–430 mm up
+- **Outlines:** line 68 rings, 1,353 straight (3,462 mm) / 134 curved (195 mm); text 223 rings, 1,642 straight (1,591 mm) / 582 curved (791 mm); tb 133 rings, 1,507 straight (3,271 mm) / 293 curved (424 mm)
+- **Closed boxes:** 9 (9 in the title block)
+- **Words (OCR):** 51 in 34 lines: WBS · M4978 · RiGhT · channa · Iave / · 94in over ronge · controi · lors · from · raferance · nonin · gain 0f +8
+- **Title block:** (142, 0)–(332, 320) mm: WBS · M4978 · RiGhT · channa · Iave / · 94in over ronge · controi · lors · from · raferance · nonin · gain 0f +8 · LEFT CHANMEL Ieve / Erim controi 842 : lors · adjutment channa 94i0 · range · from · 
+
+Every curve, box, word and wire group: [1983 - M497B - 497-04-005 - DUAL MASTER MODULE (traced).json](1983%20-%20M497B%20-%20497-04-005%20-%20DUAL%20MASTER%20MODULE%20%28traced%29.json) (the CAD file: `1983 - M497B - 497-04-005 - DUAL MASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

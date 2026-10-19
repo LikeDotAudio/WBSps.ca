@@ -20,6 +20,20 @@ Wiki page: [M901B](../../../PAGES/M901B.md)
 - **Size:** 725,880 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 901-03-005, size D 864 × 572 mm, 2000 × 1325 px traced (0.432 mm/px); scale 41)
+- **Ink extent:** 13–852 mm across, 2–541 mm up
+- **Outlines:** line 817 rings, 5,810 straight (29,392 mm) / 1,075 curved (3,752 mm); text 868 rings, 4,894 straight (8,523 mm) / 1,534 curved (3,713 mm); tb 42 rings, 389 straight (2,680 mm) / 51 curved (152 mm)
+- **Centre lines:** 17,150 paths (348 closed); straight 26,631 mm, curved 1,081 mm; horizontal 6,989 mm, vertical 9,082 mm, diagonal 10,559 mm
+- **Circles and arcs:** 21 circles, 13 arcs; largest r 131.6 @ (707.3, 388.7), r 3.7 @ (455.9, 493.2), r 3.7 @ (168.2, 492.0), r 3.7 @ (315.7, 82.6)
+- **Closed boxes:** 62; named: MBOIE BAL PRE/PST; W9018 PRE /PST AUX 80
+- **Dots (junctions):** 1
+- **Words (OCR):** 133 in 122 lines: 8 3 3 · to 0.250 Dia · -32 UNC · C'SK · 2 REQ'D · 0.100 DIA-c'SK · TO 0.180,DIA · REQ'D · DATUM · 0.200 · W9018 · Hadib
+- **Title block:** (676, 22)–(864, 281) mm: DETAIL · (SCALE 41) · MATERIAL: · ALUM ALLOY 0.125 THICK · FINISH: · TEXTURED BEIGE (452C) · SAND 120 CRIT · AND PAINT · TEXCOTE VINYL_ · (EXTRA · FINE  TEXTURE) · NOTE- · 2. TOLERANCES: Ma · REMOVE A
+
+Every curve, box, word and wire group: [19xx - 901-03-005 - M901E MIC INPUT MODULE - ISS 4 or 5 (handwritten, unclear) (traced).json](19xx%20-%20901-03-005%20-%20M901E%20MIC%20INPUT%20MODULE%20-%20ISS%204%20or%205%20%28handwritten%2C%20unclear%29%20%28traced%29.json) (the CAD file: `19xx - 901-03-005 - M901E MIC INPUT MODULE - ISS 4 or 5 (handwritten, unclear) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

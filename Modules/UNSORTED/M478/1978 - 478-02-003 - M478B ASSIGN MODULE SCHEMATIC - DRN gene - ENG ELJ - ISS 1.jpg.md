@@ -24,6 +24,20 @@ Wiki page: [M478](../../../PAGES/M478.md)
 - **Size:** 1,729,406 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 478-02-003, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–430 mm across, 10–298 mm up
+- **Outlines:** line 384 rings, 6,132 straight (13,349 mm) / 903 curved (1,254 mm); text 172 rings, 1,198 straight (1,484 mm) / 370 curved (526 mm); tb 36 rings, 280 straight (398 mm) / 47 curved (53.1 mm)
+- **Centre lines:** 6,566 paths (53 closed); straight 8,879 mm, curved 289 mm; horizontal 3,194 mm, vertical 3,456 mm, diagonal 2,230 mm
+- **Circles and arcs:** 22 circles, 36 arcs; largest r 1.4 @ (39.6, 233.0), r 1.4 @ (38.7, 197.3), r 1.3 @ (163.4, 198.2), r 1.3 @ (80.6, 197.5)
+- **Closed boxes:** 28 (8 in the title block)
+- **Words (OCR):** 28 in 24 lines: Iel · [652 · I5k · Isk · I5k < · VIZu · 18,v · Pcb 4-125 · UsE · ISSUE DATE · REVISION · APP
+- **Title block:** (279, 11)–(431, 80) mm: ISSUE DATE · REVISION · APP · SYSTEMS · WBS WARD-BECK · M478 B · ENG_ ELT · A SSIGN · MODULE · CKD: · SCHEMATIC · APP · SCALE · 478-02-003 · ISSUE
+- **Wiring (first pass):** 67 connected wire groups from 338 runs; labelled ends: 630 mm → I5k <; 119 mm → Isk, I5k <, VIZu; 105 mm → I5k; 64 mm → I5k; 62 mm → I5k <
+
+Every curve, box, word and wire group: [1978 - 478-02-003 - M478B ASSIGN MODULE SCHEMATIC - DRN gene - ENG ELJ - ISS 1 (traced).json](1978%20-%20478-02-003%20-%20M478B%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20gene%20-%20ENG%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 478-02-003 - M478B ASSIGN MODULE SCHEMATIC - DRN gene - ENG ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

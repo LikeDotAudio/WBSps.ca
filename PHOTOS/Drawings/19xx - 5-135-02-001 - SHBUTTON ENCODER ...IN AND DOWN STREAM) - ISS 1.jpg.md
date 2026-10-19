@@ -19,6 +19,18 @@ Pushbutton encoder schematic, title block at right reading sideways.
 - **Size:** 1,471,067 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 5-135-02-001, size B (assumed) 374 × 432 mm, 1733 × 2000 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–374 mm across, 52–431 mm up
+- **Outlines:** line 495 rings, 9,656 straight (21,865 mm) / 1,382 curved (2,272 mm); text 509 rings, 3,860 straight (4,574 mm) / 1,159 curved (1,774 mm)
+- **Centre lines:** 6,750 paths (95 closed); straight 14,899 mm, curved 430 mm; horizontal 6,892 mm, vertical 3,644 mm, diagonal 4,362 mm
+- **Circles and arcs:** 15 circles, 76 arcs; largest r 6.0 @ (27.1, 371.3), r 3.9 @ (307.0, 74.1), r 2.9 @ (324.4, 95.9), r 2.0 @ (182.6, 73.8)
+- **Closed boxes:** 62
+- **Wiring (first pass):** 79 connected wire groups from 680 runs
+
+Every curve, box, word and wire group: [19xx - 5-135-02-001 - SHBUTTON ENCODER ...IN AND DOWN STREAM) - ISS 1 (traced).json](19xx%20-%205-135-02-001%20-%20SHBUTTON%20ENCODER%20...IN%20AND%20DOWN%20STREAM%29%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 5-135-02-001 - SHBUTTON ENCODER ...IN AND DOWN STREAM) - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -25,6 +25,19 @@ Encoder logic schematic on grid paper, title block at right reading sideways.
 - **Size:** 2,878,710 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 757-02-001, size B 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 56–277 mm up
+- **Outlines:** line 960 rings, 11,219 straight (21,476 mm) / 2,013 curved (2,700 mm); text 145 rings, 1,015 straight (1,058 mm) / 319 curved (445 mm)
+- **Centre lines:** 11,222 paths (127 closed); straight 13,491 mm, curved 291 mm; horizontal 4,550 mm, vertical 4,728 mm, diagonal 4,214 mm
+- **Circles and arcs:** 9 circles, 67 arcs; largest r 1.6 @ (352.2, 83.8), r 1.4 @ (395.2, 77.2), r 1.4 @ (143.1, 77.8), r 1.3 @ (186.2, 105.5)
+- **Closed boxes:** 76
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 105 connected wire groups from 1,097 runs, 5 dotted junctions
+
+Every curve, box, word and wire group: [1972 - 757-02-001 - 0 TO 24 BCD ENCODER (NEGATIVE LOGIC) - DRN MRW - ISS 1 (traced).json](1972%20-%20757-02-001%20-%200%20TO%2024%20BCD%20ENCODER%20%28NEGATIVE%20LOGIC%29%20-%20DRN%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1972 - 757-02-001 - 0 TO 24 BCD ENCODER (NEGATIVE LOGIC) - DRN MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

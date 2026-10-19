@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,373,036 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 2442-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 26–305 mm across, 2–432 mm up
+- **Outlines:** line 643 rings, 6,777 straight (12,502 mm) / 1,164 curved (1,674 mm); text 320 rings, 2,018 straight (2,349 mm) / 594 curved (865 mm)
+- **Centre lines:** 5,362 paths (126 closed); straight 8,010 mm, curved 675 mm; horizontal 3,449 mm, vertical 2,354 mm, diagonal 2,208 mm
+- **Circles and arcs:** 55 circles, 72 arcs; largest r 1.5 @ (178.4, 380.0), r 1.5 @ (171.5, 105.3), r 1.5 @ (142.3, 105.3), r 1.4 @ (201.6, 278.6)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 154 connected wire groups from 680 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 2442-01-001 - OUTL OPTIONAL OUT OPTIONAL (traced).json](1988%20-%20880134%20-%202442-01-001%20-%20OUTL%20OPTIONAL%20OUT%20OPTIONAL%20%28traced%29.json) (the CAD file: `1988 - 880134 - 2442-01-001 - OUTL OPTIONAL OUT OPTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -15,6 +15,20 @@ Wiki page: [M457](../../../PAGES/M457.md)
 
 - **1975** (labelled): `DATE SEPT 75` — …1354] PKM 6 3612 ML MatL _ WBS WAAD-BECK Byotrmd LtC DRA 2n DATE SEPT 75 M 457 CKD. Ra 4 X 2 PRE-Mixer (SCALE MOIHERBOARD LAYOUT TOL…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 432 × 378 mm, 2000 × 1750 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–363 mm up
+- **Outlines:** line 948 rings, 8,731 straight (14,792 mm) / 1,993 curved (2,885 mm); text 1,130 rings, 7,860 straight (8,814 mm) / 2,786 curved (4,007 mm); tb 8 rings, 100 straight (230 mm) / 19 curved (27.1 mm)
+- **Centre lines:** 13,717 paths (206 closed); straight 15,110 mm, curved 558 mm; horizontal 5,624 mm, vertical 2,542 mm, diagonal 6,944 mm
+- **Circles and arcs:** 15 circles, 116 arcs; largest r 2.5 @ (328.7, 161.6), r 2.5 @ (328.6, 90.6), r 2.4 @ (179.0, 176.8), r 2.4 @ (178.9, 161.4)
+- **Closed boxes:** 34 (1 in the title block); named: 22; 21; 24; 23; 26; 25; MatL; FINISH; TOLs; 5-106-06-001
+- **Dots (junctions):** 2
+- **Words (OCR):** 191 in 157 lines: R29 JEK IDRI-A · SWi · SW2 · R45 J · 4JeCb - ~c8*24 R25 J · R4O 22* · R2o 28 · R3g !02 · 7i8 · R38 JSK · Rib IEK · R2738 K
+- **Title block:** (293, 11)–(393, 53) mm: WBS WAAD-Beck · DRN: · Dm · M 457 · DATE · CKD · KA( · X2 · Ecale · MOTHERBOARD LAYOUT
+
+Every curve, box, word and wire group: [1975 - M457 - 461-03-015 - ILSLL MILUE ADDED (traced).json](1975%20-%20M457%20-%20461-03-015%20-%20ILSLL%20MILUE%20ADDED%20%28traced%29.json) (the CAD file: `1975 - M457 - 461-03-015 - ILSLL MILUE ADDED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

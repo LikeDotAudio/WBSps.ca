@@ -11,6 +11,21 @@ Wiki page: [M481B](../../../PAGES/M481B.md)
 - **Size:** 380,745 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 481-02-002, size B (assumed) 432 × 291 mm, 2000 × 1347 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–291 mm up
+- **Outlines:** line 427 rings, 5,793 straight (10,813 mm) / 1,113 curved (1,362 mm); text 1,102 rings, 6,638 straight (5,886 mm) / 2,292 curved (2,925 mm); tb 28 rings, 349 straight (1,004 mm) / 58 curved (82.1 mm)
+- **Centre lines:** 13,045 paths (227 closed); straight 11,381 mm, curved 157 mm; horizontal 3,846 mm, vertical 2,404 mm, diagonal 5,132 mm
+- **Circles and arcs:** 0 circles, 56 arcs
+- **Closed boxes:** 2
+- **Dots (junctions):** 1
+- **Words (OCR):** 270 in 232 lines: NTESi · ALL RESISTORS ARE Vaw 57 · CUE AMPLEER · ALL CAPACITORS ARE INAF · C5 pele · LNLESS CTHERwISE SPECIFEED · LAST CCMPONENT DESIG~AT · 82; · CUE AMP MLTE · IONS; · 29,CRS,F 5w3.R57814 · JSE PcB 5-113
+- **Title block:** (352, 0)–(432, 39) mm: Lul · 4t2 · Issu oate · REvisION · WBS · WAAD-BECK systeMs · DRN PMaet · M48 IB · ENG_ · cKD 44 · WS · CUE, OSC, RE-ENTRY MODULE · APP · SCHEMATIC · SCALE · 481-02-002 · ISSUE
+- **Wiring (first pass):** 138 connected wire groups from 628 runs; labelled ends: 81 mm → CUe/SoLO, ASSIGN, Swz, RRA; 80 mm → Rso, Hok, Rs4, 500; 77 mm → R26, 4k7, C6, 68/6; 75 mm → C5, pele, 82;, RRR; 65 mm → Sw1, RS, 500, R49
+
+Every curve, box, word and wire group: [1982 - M481B - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC (traced).json](1982%20-%20M481B%20-%20481-02-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1982 - M481B - 481-02-002 - CUE OSC RE-ENTRY MODULE SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

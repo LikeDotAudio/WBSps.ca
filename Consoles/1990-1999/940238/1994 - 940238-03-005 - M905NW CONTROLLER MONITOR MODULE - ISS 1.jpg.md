@@ -19,6 +19,19 @@ Wiki page: [Job-940238](../../../PAGES/Job-940238.md)
 - **Size:** 556,072 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940238-03-005, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 0–844 mm across, 1–544 mm up
+- **Outlines:** line 886 rings, 6,225 straight (26,622 mm) / 1,392 curved (4,720 mm); text 332 rings, 2,036 straight (3,816 mm) / 628 curved (1,542 mm); tb 22 rings, 159 straight (380 mm) / 44 curved (94.7 mm)
+- **Centre lines:** 11,823 paths (246 closed); straight 19,185 mm, curved 1,610 mm; horizontal 5,199 mm, vertical 6,311 mm, diagonal 7,675 mm
+- **Circles and arcs:** 19 circles, 23 arcs; largest r 128.3 @ (704.9, 375.4), r 14.8 @ (417.6, 187.3), r 14.7 @ (417.2, 122.3), r 5.2 @ (423.1, 193.4)
+- **Closed boxes:** 70 (4 in the title block); named: Vonitok; Vonitok; MgO5NW CONTROLLER MONITOR MODULE; CCAF; 940238-03-005
+- **Words (OCR):** 39 in 34 lines: 5 33 · 02801 · 0200 · PUNCH 0_a0 · RCAR · 0,070 · 0,095 · 6.610 · SFCTI · DETAIL · 40 711 · MATERIAL: ALUM ALLOY 0.125 MhICK
+- **Title block:** (686, 46)–(854, 79) mm: WBS · WARD-BECK SYSTEMS · MgO5NW
+
+Every curve, box, word and wire group: [1994 - 940238-03-005 - M905NW CONTROLLER MONITOR MODULE - ISS 1 (traced).json](1994%20-%20940238-03-005%20-%20M905NW%20CONTROLLER%20MONITOR%20MODULE%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 940238-03-005 - M905NW CONTROLLER MONITOR MODULE - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

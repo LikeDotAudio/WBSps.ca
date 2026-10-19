@@ -29,6 +29,20 @@ M462 equalizer module functional diagram, cropped.
 
 - **1976** (labelled): `DATE oct 76` — …A PEAK/ SHELF ON MATL . WBS WARD-BECK BYBTEMS LTD. DRN GE B DATE oct 76 CKD_ 2 SCALE XX TOLS _ ANG M462 EQUALIZER MODULE FUNCTIONAL…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 462-01-001, size B 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–422 mm up
+- **Outlines:** line 139 rings, 4,516 straight (9,089 mm) / 652 curved (907 mm); text 221 rings, 1,881 straight (2,468 mm) / 504 curved (864 mm); tb 15 rings, 220 straight (498 mm) / 22 curved (45.6 mm)
+- **Centre lines:** 5,509 paths (49 closed); straight 6,819 mm, curved 109 mm; horizontal 2,938 mm, vertical 1,709 mm, diagonal 2,172 mm
+- **Circles and arcs:** 8 circles, 5 arcs; largest r 5.7 @ (133.5, 283.4), r 1.8 @ (102.5, 214.5), r 1.8 @ (93.0, 224.2), r 1.8 @ (93.1, 214.3)
+- **Closed boxes:** 11 (2 in the title block); named: WBS BYBTEMS WARD-BECK LTD_; MATIL _; M462 MODULE EQUALIZER FUNCTIONAL DIA GRA; FINISH; 462 -01-001; ISS.; XX TOLS_
+- **Words (OCR):** 35 in 29 lines: HF · Boost/ · FREQ · FREQ · EQ · CUt · INSERT · 26 · 8 -109A · ~10 /+8dBm · PEAK / · SHELF
+- **Title block:** (99, 10)–(250, 81) mm: WBS WARD-BECK · DRN: GE B · M462 · DATE oct 76 · EQUALIZER · CKD_ · SCALE · XX · TOLS_ · 462 -01-001
+- **Wiring (first pass):** 41 connected wire groups from 126 runs; labelled ends: 214 mm → ON, WBS; 181 mm → 26; 148 mm → 26; 137 mm → 8 -109A; 64 mm → LTD_, BYBTEMS
+
+Every curve, box, word and wire group: [1976 - 462-01-001 - EQUALIZER MODULE FUNCTIONAL DIAGRAM - DRN GEB - ISS 2 (traced).json](1976%20-%20462-01-001%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 462-01-001 - EQUALIZER MODULE FUNCTIONAL DIAGRAM - DRN GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

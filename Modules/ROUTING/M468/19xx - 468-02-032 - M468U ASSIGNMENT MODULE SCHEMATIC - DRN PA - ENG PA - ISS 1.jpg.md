@@ -23,6 +23,20 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 1,802,578 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 468-02-032, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 429 rings, 6,429 straight (12,428 mm) / 1,154 curved (1,562 mm); text 379 rings, 2,519 straight (2,854 mm) / 833 curved (1,190 mm); tb 59 rings, 393 straight (470 mm) / 70 curved (80.3 mm)
+- **Centre lines:** 9,070 paths (123 closed); straight 9,511 mm, curved 580 mm; horizontal 3,428 mm, vertical 2,733 mm, diagonal 3,350 mm
+- **Circles and arcs:** 51 circles, 63 arcs; largest r 1.5 @ (96.5, 227.4), r 1.5 @ (97.0, 136.0), r 1.5 @ (201.6, 227.7), r 1.4 @ (254.6, 136.5)
+- **Closed boxes:** 21 (6 in the title block)
+- **Words (OCR):** 57 in 48 lines: INPUT · SwI · Sw3 · SW5 · SWt Rok · Rzo · (RD) LAMP HOLDER ELDEMA#DHO-IOB · LAMP ELDEMA · #CFoz-RTs-|762 · B5 · (+24v)V444 · 2(CTL)
+- **Title block:** (279, 9)–(432, 76) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN PA · M468U · ENG PA · MODULE · CKD · ASSIGNMENT · SCHEMATIC · APP · SCALE · ISSUE · 468 - 02-032
+- **Wiring (first pass):** 57 connected wire groups from 370 runs; labelled ends: 552 mm → INPUT 2, Rie, z0k, RIO; 352 mm → Rok; 292 mm → SWt, SwI, Sw3, SW5; 290 mm → Swe, SWe, SWz, Sw4; 42 mm → Rzo, OUT
+
+Every curve, box, word and wire group: [19xx - 468-02-032 - M468U ASSIGNMENT MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).json](19xx%20-%20468-02-032%20-%20M468U%20ASSIGNMENT%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 468-02-032 - M468U ASSIGNMENT MODULE SCHEMATIC - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -12,6 +12,18 @@ Wiki page: [M455](../../../PAGES/M455.md)
 - **Size:** 550,292 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-004, size B (assumed) 432 × 282 mm, 2000 × 1305 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–275 mm up
+- **Outlines:** line 188 rings, 2,797 straight (6,181 mm) / 749 curved (781 mm); text 833 rings, 7,391 straight (7,945 mm) / 2,105 curved (2,502 mm); tb 18 rings, 402 straight (637 mm) / 70 curved (77.8 mm)
+- **Circles and arcs:** 13 circles, 0 arcs; largest r 9.1 @ (71.2, 106.8), r 8.6 @ (19.3, 107.2), r 8.6 @ (70.5, 209.3), r 8.5 @ (18.8, 209.3)
+- **Closed boxes:** 10 (7 in the title block); named: E2 E7 ~C133/10 23/ RI6 22k ~R?_47k R4 Gk; LF356; 22 LF356
+- **Words (OCR):** 111 in 104 lines: E7 · E2 · ~C133/10 · 23/ · RI6 22k · ~R?_47k · 22k · 6k2 · R4 Gk? · ~Ri8 · RS · ~R2z
+- **Title block:** (130, 1)–(432, 130) mm: WBS · 8-109 · 2zoligcl6 - · ~CI5-Z2o/o · ~R36 4k7 · ~R374k7 · ISSUE DATE · REVISION · APP · EG @ · WBS WARD-BECK SYSTEMS · DRN: GEB · 8 ~ 109€ · ENG.MRW 4/78 · BOOSTER · AMPLIFIER · CKD. · LAYOUT · CO
+
+Every curve, box, word and wire group: [1974 - M455 - 8-109-06-004 - BOOSTER AMPLIFIER (traced).json](1974%20-%20M455%20-%208-109-06-004%20-%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1974 - M455 - 8-109-06-004 - BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

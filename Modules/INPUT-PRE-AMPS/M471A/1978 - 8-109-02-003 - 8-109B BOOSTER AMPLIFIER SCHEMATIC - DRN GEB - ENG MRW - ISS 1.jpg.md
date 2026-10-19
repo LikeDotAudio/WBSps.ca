@@ -24,6 +24,21 @@ Wiki page: [M471A](../../../PAGES/M471A.md)
 - **Size:** 328,462 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 8-109-02-003, size B 432 × 319 mm, 2000 × 1479 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–301 mm up
+- **Outlines:** line 291 rings, 4,279 straight (10,395 mm) / 767 curved (1,112 mm); text 453 rings, 2,875 straight (2,681 mm) / 989 curved (1,296 mm); tb 23 rings, 217 straight (239 mm) / 58 curved (69.3 mm)
+- **Centre lines:** 6,295 paths (98 closed); straight 7,680 mm, curved 332 mm; horizontal 2,992 mm, vertical 2,090 mm, diagonal 2,597 mm
+- **Circles and arcs:** 7 circles, 51 arcs; largest r 4.3 @ (221.0, 210.1), r 4.3 @ (190.2, 272.9), r 4.3 @ (220.7, 265.9), r 4.2 @ (158.6, 257.9)
+- **Closed boxes:** 7 (5 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 107 in 106 lines: E3 · +18 · +2i.5Y · C3 · Iolzs · Ri7 · Ris · 4k7 · 22 · 02 · Pn3C+5 · 2n2i02
+- **Title block:** (347, 0)–(432, 36) mm: REviSIOM · WBS WARD-BeCk syBTeMS · 8 - 109 8 · ENG MRW · booster AMPLifieR · SCHEMATIC · SCALE · 8-109-02-003
+- **Wiring (first pass):** 51 connected wire groups from 380 runs; labelled ends: 205 mm → E3, Ris, 22, Ri7; 196 mm → R23, 4k7; 147 mm → R32, 6.8, R35, R33; 147 mm → Rzo, 6*8, R34, R3i; 142 mm → Lf3s6, IBv, c4, 10/25
+
+Every curve, box, word and wire group: [1978 - 8-109-02-003 - 8-109B BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).json](1978%20-%208-109-02-003%20-%208-109B%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20MRW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 8-109-02-003 - 8-109B BOOSTER AMPLIFIER SCHEMATIC - DRN GEB - ENG MRW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

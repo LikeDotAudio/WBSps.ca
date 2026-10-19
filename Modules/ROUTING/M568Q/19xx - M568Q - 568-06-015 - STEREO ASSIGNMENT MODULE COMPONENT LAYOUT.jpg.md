@@ -11,6 +11,17 @@ Wiki page: [M568Q](../../../PAGES/M568Q.md)
 - **Size:** 7,294,264 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 568-06-015, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–285 mm up
+- **Outlines:** line 1,732 rings, 11,126 straight (13,731 mm) / 3,256 curved (3,217 mm); text 242 rings, 1,438 straight (1,253 mm) / 516 curved (532 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 4.0 @ (363.6, 184.7), r 3.4 @ (261.3, 222.1), r 3.4 @ (261.9, 99.6), r 1.7 @ (289.4, 96.3)
+- **Closed boxes:** 18
+- **Dots (junctions):** 3
+
+Every curve, box, word and wire group: [19xx - M568Q - 568-06-015 - STEREO ASSIGNMENT MODULE COMPONENT LAYOUT (traced).json](19xx%20-%20M568Q%20-%20568-06-015%20-%20STEREO%20ASSIGNMENT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M568Q - 568-06-015 - STEREO ASSIGNMENT MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

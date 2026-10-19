@@ -23,6 +23,19 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 399,879 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 4-132-06-001, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 1–429 mm up
+- **Outlines:** line 700 rings, 8,455 straight (10,674 mm) / 2,593 curved (2,476 mm); text 466 rings, 4,913 straight (4,569 mm) / 1,545 curved (1,756 mm); tb 20 rings, 280 straight (297 mm) / 89 curved (86.3 mm)
+- **Circles and arcs:** 10 circles, 0 arcs; largest r 10.1 @ (84.3, 286.1), r 3.9 @ (30.8, 253.1), r 3.8 @ (190.9, 252.8), r 3.8 @ (190.9, 100.4)
+- **Closed boxes:** 32 (1 in the title block); named: MATL_; WBS WARD-BECK bystem8 LTD; 22; M465 REVERB MODULE LAYOUT PCB; FIMISH; 4-132-06-001; TOLS
+- **Dots (junctions):** 2
+- **Words (OCR):** 86 in 75 lines: tipz9b · Tipbob · Q3 · R4256 Q4 · A4 · R4326 · Rai · Cri · 343569 · CR2 · #CRA- · 05 -R4454
+- **Title block:** (179, 10)–(281, 62) mm: WBS WARD-BECK bystem8 LTD · Dm · M465 · DATE 210C1/77 · REVERB MODULE · cKoRaL · ISCALE · PCB · TOLS · 4-132-06-001
+
+Every curve, box, word and wire group: [1977 - 4-132-06-001 - REVERB MODULE PCB LAYOUT - DRN DM - ISS 4 (traced).json](1977%20-%204-132-06-001%20-%20REVERB%20MODULE%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1977 - 4-132-06-001 - REVERB MODULE PCB LAYOUT - DRN DM - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

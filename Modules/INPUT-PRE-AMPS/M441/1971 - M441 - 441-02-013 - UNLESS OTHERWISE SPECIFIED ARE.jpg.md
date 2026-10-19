@@ -11,6 +11,18 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 4,096,809 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 441-02-013, size B (assumed) 432 × 334 mm, 2000 × 1546 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 1–432 mm across, 0–333 mm up
+- **Outlines:** line 501 rings, 8,018 straight (11,071 mm) / 1,435 curved (2,033 mm); text 374 rings, 3,020 straight (3,252 mm) / 856 curved (1,315 mm)
+- **Centre lines:** 7,696 paths (113 closed); straight 8,847 mm, curved 514 mm; horizontal 3,284 mm, vertical 1,834 mm, diagonal 3,728 mm
+- **Circles and arcs:** 40 circles, 59 arcs; largest r 1.9 @ (249.9, 22.1), r 1.9 @ (158.9, 182.8), r 1.9 @ (157.8, 186.8), r 1.8 @ (296.7, 149.4)
+- **Closed boxes:** 3
+- **Wiring (first pass):** 53 connected wire groups from 415 runs
+
+Every curve, box, word and wire group: [1971 - M441 - 441-02-013 - UNLESS OTHERWISE SPECIFIED ARE (traced).json](1971%20-%20M441%20-%20441-02-013%20-%20UNLESS%20OTHERWISE%20SPECIFIED%20ARE%20%28traced%29.json) (the CAD file: `1971 - M441 - 441-02-013 - UNLESS OTHERWISE SPECIFIED ARE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

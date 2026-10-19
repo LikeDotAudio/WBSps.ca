@@ -20,6 +20,20 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,501,724 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 8212-02-002, size D 864 × 561 mm, 2000 × 1299 px traced (0.432 mm/px); scale DISC NO;
+- **Ink extent:** 72–850 mm across, 10–547 mm up
+- **Outlines:** line 1,583 rings, 13,803 straight (69,898 mm) / 2,335 curved (6,045 mm); text 734 rings, 4,652 straight (7,564 mm) / 1,356 curved (3,174 mm); tb 26 rings, 338 straight (2,441 mm) / 22 curved (60.5 mm)
+- **Centre lines:** 19,979 paths (374 closed); straight 47,624 mm, curved 206 mm; horizontal 16,771 mm, vertical 19,230 mm, diagonal 11,623 mm
+- **Circles and arcs:** 0 circles, 48 arcs
+- **Closed boxes:** 217; named: PI-I0j; LeE M; RIGHT; M8206 MATRIXING AVPLIFIER
+- **Words (OCR):** 110 in 102 lines: NOTE: · DA INPUT AND OUTPUT SOURCES · To THIS UNiT To BE PROPERLY TERMINATED · "#MEH · ~WAAAA · "44 · "HMENH · '#WPMAMQ · CON · CON · CON · HI 2 CON
+- **Title block:** (681, 8)–(864, 87) mm: SSUEI DAIE · 3FMsiON · APP; · WARD-BECK SYSTEMS · WBS · DRN: AvK 01 /88 · WBS D8212VU7S · STEREO METERING AND · App · CKD · TEST PANEL · SCALE DISC NO; · 8212-02-002 · ISSUE · CCDE: 0B2I2S02
+- **Wiring (first pass):** 205 connected wire groups from 2,295 runs; labelled ends: 9834 mm → IN LFFT_BUS, LEET BUS, DA IN; 6579 mm → ShaDOW Sw TYPE, 2XF17.5 6U GR FAIOI BLK /YEL; 872 mm → VU VETER, PL-9, PI-I0j, To LAMPS; 698 mm → LEFT OUTPUT, WU METER, M436 WU METER, +22v; 385 mm → "HMENH
+
+Every curve, box, word and wire group: [1988 - 8212-02-002 - WBS D8212VU S STEREO METERING AND TEST PANEL - DRN AMK - ISS 1 (traced).json](1988%20-%208212-02-002%20-%20WBS%20D8212VU%20S%20STEREO%20METERING%20AND%20TEST%20PANEL%20-%20DRN%20AMK%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1988 - 8212-02-002 - WBS D8212VU S STEREO METERING AND TEST PANEL - DRN AMK - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

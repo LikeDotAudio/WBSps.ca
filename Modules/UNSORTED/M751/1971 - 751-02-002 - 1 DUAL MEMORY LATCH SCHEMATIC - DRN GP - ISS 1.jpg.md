@@ -23,6 +23,20 @@ Wiki page: [M751](../../../PAGES/M751.md)
 - **Size:** 2,551,708 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 751-02-002, size D 864 × 537 mm, 2000 × 1243 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 0–536 mm up
+- **Outlines:** line 2,109 rings, 23,255 straight (67,711 mm) / 3,362 curved (8,693 mm); text 273 rings, 1,501 straight (2,399 mm) / 434 curved (1,034 mm)
+- **Centre lines:** 17,974 paths (209 closed); straight 40,725 mm, curved 440 mm; horizontal 18,916 mm, vertical 12,640 mm, diagonal 9,170 mm
+- **Circles and arcs:** 3 circles, 47 arcs; largest r 5.4 @ (616.4, 120.5), r 1.6 @ (302.6, 138.2), r 1.6 @ (243.8, 429.8)
+- **Closed boxes:** 158; named: M75 -i Latck DUAL ScHEMATIC
+- **Dots (junctions):** 1
+- **Words (OCR):** 53 in 46 lines: LATCH · LATch · ICATION · LAMe · LoGc READ · DEcoDER · LoGIc · SELECT · 05-96 · 49-00 · 23-26 · 03 - 24
+- **Wiring (first pass):** 411 connected wire groups from 2,907 runs; labelled ends: 649 mm → ENteR; 342 mm → 275, # Fz Ts, 9k0; 158 mm → SELECT; 128 mm → M75 -i; 116 mm → Ci
+
+Every curve, box, word and wire group: [1971 - 751-02-002 - 1 DUAL MEMORY LATCH SCHEMATIC - DRN GP - ISS 1 (traced).json](1971%20-%20751-02-002%20-%201%20DUAL%20MEMORY%20LATCH%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 751-02-002 - 1 DUAL MEMORY LATCH SCHEMATIC - DRN GP - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

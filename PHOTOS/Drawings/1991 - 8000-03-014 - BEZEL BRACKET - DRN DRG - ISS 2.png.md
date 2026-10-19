@@ -20,6 +20,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 825,806 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8000-03-014, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 381
+- **Ink extent:** 0–432 mm across, 2–298 mm up
+- **Outlines:** line 224 rings, 2,655 straight (9,232 mm) / 283 curved (386 mm); text 684 rings, 4,100 straight (4,921 mm) / 1,424 curved (2,052 mm); tb 4 rings, 94 straight (242 mm) / 5 curved (4.8 mm)
+- **Centre lines:** 4,763 paths (115 closed); straight 8,413 mm, curved 26.5 mm; horizontal 3,754 mm, vertical 1,932 mm, diagonal 2,727 mm
+- **Circles and arcs:** 0 circles, 8 arcs
+- **Closed boxes:** 21 (11 in the title block); named: 2.500, OTHER OVERALL WAS DIM DIM'S ADJUS; 4/91; GEB; 8000-03-014; CODE: 8000m14
+- **Words (OCR):** 81 in 60 lines: 2.480 · 0.365 · 1.750 · 0.365 · 750 · 0.156 · 124 · +/-0.010 · 0.507 · 0.702 · 0.358 · 0.250
+- **Title block:** (248, 18)–(419, 85) mm: 4/91 ADJUSTED ACCORDINGLY. · FINISH CHANGED · ISSUE| DATE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN. · DRG · ENG_ · BEZEL BRACKET · CKD · APP_ · SCALE DISC NO: 381 · ISSUE · 1:1 CODE: 8000m14 · 
+
+Every curve, box, word and wire group: [1991 - 8000-03-014 - BEZEL BRACKET - DRN DRG - ISS 2 (traced).json](1991%20-%208000-03-014%20-%20BEZEL%20BRACKET%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1991 - 8000-03-014 - BEZEL BRACKET - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

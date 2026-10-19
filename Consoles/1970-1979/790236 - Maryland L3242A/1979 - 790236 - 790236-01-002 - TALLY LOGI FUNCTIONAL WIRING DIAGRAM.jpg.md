@@ -10,6 +10,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 33,351,159 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 790236-01-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 3–431 mm across, 0–279 mm up
+- **Outlines:** line 1,107 rings, 8,519 straight (12,820 mm) / 1,232 curved (1,357 mm); text 114 rings, 675 straight (632 mm) / 175 curved (218 mm); tb 17 rings, 115 straight (148 mm) / 17 curved (19.6 mm)
+- **Centre lines:** 8,395 paths (100 closed); straight 7,565 mm, curved 44.8 mm; horizontal 2,968 mm, vertical 2,515 mm, diagonal 2,081 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 7 (3 in the title block); named: scae; 790236-01-002
+- **Dots (junctions):** 1
+- **Words (OCR):** 15 in 11 lines: LNE | · Conteol · 765 · uA · REVTsiON · WBS WAAD-Beck SysteMS · L3242A · DC TALLY loGiIc · FUNCTIONAL WIRING DIAGRAA · scae · 790236-01-002
+- **Title block:** (360, 18)–(432, 33) mm: uA · REVTsiON · WBS WAAD-Beck SysteMS · L3242A
+- **Wiring (first pass):** 122 connected wire groups from 598 runs; labelled ends: 40 mm → uA; 32 mm → WBS, FUNCTIONAL, scae; 12 mm → LNE |; 6 mm → loGiIc, DIAGRAA, 790236-01-002
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-01-002 - TALLY LOGI FUNCTIONAL WIRING DIAGRAM (traced).json](1979%20-%20790236%20-%20790236-01-002%20-%20TALLY%20LOGI%20FUNCTIONAL%20WIRING%20DIAGRAM%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-01-002 - TALLY LOGI FUNCTIONAL WIRING DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

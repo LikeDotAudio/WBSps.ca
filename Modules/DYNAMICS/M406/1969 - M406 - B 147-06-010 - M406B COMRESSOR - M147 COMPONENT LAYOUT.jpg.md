@@ -15,6 +15,19 @@ Wiki page: [M406](../../../PAGES/M406.md)
 
 - **1969** (labelled): `DATE DEC 69` — …ATIOU compressor BOARD) DRN DJG FINISH WARD BECK SYSTES LTd DATE DEC 69 M4O6B COMRESSOR CHKD MATERIAL M47 COMPONENT LAYOUI SCALE 4x…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 147-06-010, size B (assumed) 432 × 285 mm, 2000 × 1321 px traced (0.216 mm/px); scale 4x1
+- **Ink extent:** 0–431 mm across, 0–285 mm up
+- **Outlines:** line 1,769 rings, 16,345 straight (15,258 mm) / 4,858 curved (4,552 mm); text 382 rings, 3,856 straight (3,379 mm) / 1,238 curved (1,310 mm); tb 56 rings, 206 straight (116 mm) / 40 curved (31.6 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 8.1 @ (327.2, 197.9), r 7.6 @ (143.1, 188.0), r 7.4 @ (234.9, 188.5), r 6.1 @ (133.7, 163.4)
+- **Closed boxes:** 17 (6 in the title block); named: C38; T2; SYSTES LTd BECK WARD
+- **Dots (junctions):** 1
+- **Words (OCR):** 77 in 66 lines: C13 · Sw3 · Wiper · Ml46 · Sw3-8 · Sw2-A · CRI · GND · M146 · C3S · {R8e · Qio
+- **Title block:** (179, 4)–(372, 52) mm: compressor BOARD) · FINISH · BECK · DRN DJG · WARD · DATE DEC 69 · M4O6B COMRESSOR · CHKD · MATERIAL · M47 COMPONENT LAYOUI · SCALE 4x1 · Frngt #INEBFOECRATO · To TFPIACES SemT ANGLES · TOLS
+
+Every curve, box, word and wire group: [1969 - M406 - B 147-06-010 - M406B COMRESSOR - M147 COMPONENT LAYOUT (traced).json](1969%20-%20M406%20-%20B%20147-06-010%20-%20M406B%20COMRESSOR%20-%20M147%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1969 - M406 - B 147-06-010 - M406B COMRESSOR - M147 COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

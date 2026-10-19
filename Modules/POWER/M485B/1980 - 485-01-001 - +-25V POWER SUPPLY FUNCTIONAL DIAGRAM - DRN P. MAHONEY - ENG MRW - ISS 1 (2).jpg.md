@@ -24,6 +24,20 @@ Wiki page: [M485B](../../../PAGES/M485B.md)
 - **Size:** 281,852 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 485-01-001, size B 432 × 284 mm, 2000 × 1316 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–262 mm up
+- **Outlines:** line 179 rings, 3,988 straight (9,107 mm) / 452 curved (804 mm); text 288 rings, 1,969 straight (2,335 mm) / 616 curved (915 mm); tb 14 rings, 158 straight (313 mm) / 12 curved (19.7 mm)
+- **Centre lines:** 2,646 paths (48 closed); straight 5,780 mm, curved 297 mm; horizontal 2,516 mm, vertical 1,671 mm, diagonal 1,593 mm
+- **Circles and arcs:** 12 circles, 7 arcs; largest r 8.2 @ (130.0, 243.0), r 8.1 @ (131.8, 127.1), r 8.0 @ (157.3, 99.2), r 4.2 @ (267.4, 202.0)
+- **Closed boxes:** 11 (6 in the title block); named: DIF ADJ; OVER VOLTAGE DETECTOR; VOLTAGE LsS DE TECTOR
+- **Words (OCR):** 38 in 34 lines: 40 V · +25v · CROWBAR · SCR · DIF · OVER · 110/220 VAC · ADJ · VOLTAGE · 50 / 60 Hz · DETECTOR · VOLTAGE
+- **Title block:** (279, 1)–(432, 72) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRNPMAHoNs · M485B · ENG. MPK 1/8 · +25v POWER SUPPLY · CKD · FUNCTIONAL · DIAGRAM · APP · SCALE · ISSUE · 485-01-00 1
+- **Wiring (first pass):** 123 connected wire groups from 271 runs; labelled ends: 570 mm → SCR, DETECTOR, VOLTAGE; 175 mm → +25v; 86 mm → VOLTAGE, DE TECTOR; 68 mm → 40 V; 43 mm → 40 V
+
+Every curve, box, word and wire group: [1980 - 485-01-001 - +-25V POWER SUPPLY FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (2) (traced).json](1980%20-%20485-01-001%20-%20%2B-25V%20POWER%20SUPPLY%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MRW%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1980 - 485-01-001 - +-25V POWER SUPPLY FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG MRW - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

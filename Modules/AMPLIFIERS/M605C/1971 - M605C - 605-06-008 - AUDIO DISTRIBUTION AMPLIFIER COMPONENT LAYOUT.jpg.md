@@ -11,6 +11,18 @@ Wiki page: [M605C](../../../PAGES/M605C.md)
 - **Size:** 1,785,386 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 605-06-008, size B (assumed) 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 22–307 mm up
+- **Outlines:** line 613 rings, 9,841 straight (16,537 mm) / 893 curved (1,056 mm); text 291 rings, 2,129 straight (2,284 mm) / 610 curved (762 mm); tb 6 rings, 121 straight (226 mm) / 14 curved (13.3 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (289.5, 178.6), r 1.7 @ (289.6, 153.3)
+- **Closed boxes:** 6 (5 in the title block)
+- **Words (OCR):** 36 in 32 lines: R9 · R12 · Rz3 · PCB 8-116 · R41 · C2b · TP1 · PCB 8-1178 · R2o1 · F2o1 · PCB 8-118A · wes
+- **Title block:** (283, 32)–(428, 101) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN;P MaovEv · M6osc · ENG_ · DISTRIBUTION   AMPLIFIER · AUDIO · CKD: %.R · LAYOUT · COMPONENT · APP · ISSUE · SCALE · 605-06-008
+
+Every curve, box, word and wire group: [1971 - M605C - 605-06-008 - AUDIO DISTRIBUTION AMPLIFIER COMPONENT LAYOUT (traced).json](1971%20-%20M605C%20-%20605-06-008%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1971 - M605C - 605-06-008 - AUDIO DISTRIBUTION AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

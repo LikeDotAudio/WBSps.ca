@@ -25,6 +25,19 @@ Wiki page: [M780](../../../PAGES/M780.md)
 - **Size:** 1,261,776 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 780-03-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale 1:1
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 117 rings, 2,769 straight (7,355 mm) / 312 curved (452 mm); text 221 rings, 1,607 straight (1,938 mm) / 457 curved (703 mm); tb 20 rings, 201 straight (320 mm) / 38 curved (57.5 mm)
+- **Centre lines:** 3,166 paths (40 closed); straight 5,599 mm, curved 10.0 mm; horizontal 2,914 mm, vertical 1,224 mm, diagonal 1,462 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 13 (8 in the title block); named: ISSUE; SCALE 1:1 5.015 XX $.005; 780-03-005
+- **Words (OCR):** 30 in 22 lines: 2.500 · 1.156 · 700 · 2.843 · 2.00 · 440 DIA: 3 PLACES · 1.750 · JISSUE |DATE · REVISION · APP · WBS WARD-BECK systEMS · MATE: EISHPAPER 032THK DRN:PMAeve
+- **Title block:** (279, 15)–(431, 83) mm: JISSUE |DATE · REVISION · APP · WBS WARD-BECK systEMS · M780 , MZ8OA · CKD: · POWER SUPPLY SHIELD · APP · SCALE 1:1 · ISSUE · XX $.005 · 5.015 · 780-03-005
+
+Every curve, box, word and wire group: [1981 - 780-03-005 - , M780A POWER SUPPLY SHIELD - DRN P. MAHONEY - ENG MBW - ISS 1 (traced).json](1981%20-%20780-03-005%20-%20%2C%20M780A%20POWER%20SUPPLY%20SHIELD%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20MBW%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1981 - 780-03-005 - , M780A POWER SUPPLY SHIELD - DRN P. MAHONEY - ENG MBW - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

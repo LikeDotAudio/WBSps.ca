@@ -11,6 +11,20 @@ Wiki page: [M494](../../../PAGES/M494.md)
 - **Size:** 1,801,029 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 494-02-001, size B (assumed) 331 × 432 mm, 1533 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–331 mm across, 0–431 mm up
+- **Outlines:** line 227 rings, 3,673 straight (9,522 mm) / 592 curved (935 mm); text 550 rings, 4,152 straight (4,649 mm) / 1,298 curved (1,865 mm); tb 6 rings, 86 straight (230 mm) / 13 curved (18.3 mm)
+- **Centre lines:** 5,521 paths (85 closed); straight 8,365 mm, curved 312 mm; horizontal 3,087 mm, vertical 2,159 mm, diagonal 3,119 mm
+- **Circles and arcs:** 20 circles, 23 arcs; largest r 6.3 @ (44.2, 73.2), r 6.1 @ (98.4, 72.3), r 3.8 @ (102.7, 114.5), r 3.8 @ (123.8, 219.2)
+- **Closed boxes:** 17 (17 in the title block)
+- **Words (OCR):** 89 in 78 lines: NOTES · I.ALL Resistors · '4W, 5 % AND · ALL CAPACiTOPS IN · UNLESS · otheRWiSE SPECIFIED. · 2. LAST componEnT DESIGNATIONS: · LINE · LiSTen · Output · Swico · I6
+- **Title block:** (190, 2)–(331, 74) mm: 2 /78 · Ciwas 100/25R23 + R3I WAS 22K · (ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: MRw · M494 · Z2 CHAssIS ENG.MRW 10/77 · REMOTE LINE TB/CUE MODULE · CKD: Ra · SCHEMATIC · APP · SCA
+- **Wiring (first pass):** 38 connected wire groups from 167 runs; labelled ends: 241 mm → Mrg 3424, R29, 33k, R32; 220 mm → 2n3569, Rzb, C2, 22/25; 91 mm → Swico; 91 mm → NOTES; 57 mm → K3, R37, 2k2, Y23012
+
+Every curve, box, word and wire group: [19xx - M494 - 494-02-001 - AND ALL CAPACITORS (traced).json](19xx%20-%20M494%20-%20494-02-001%20-%20AND%20ALL%20CAPACITORS%20%28traced%29.json) (the CAD file: `19xx - M494 - 494-02-001 - AND ALL CAPACITORS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

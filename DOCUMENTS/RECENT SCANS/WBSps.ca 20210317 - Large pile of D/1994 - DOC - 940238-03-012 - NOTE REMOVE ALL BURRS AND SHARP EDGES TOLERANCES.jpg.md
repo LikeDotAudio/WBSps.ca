@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 15,581,588 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940238-03-012, size B (assumed) 432 × 280 mm, 2000 × 1296 px traced (0.216 mm/px)
+- **Ink extent:** 31–423 mm across, 8–188 mm up
+- **Outlines:** line 248 rings, 1,801 straight (5,567 mm) / 330 curved (394 mm); text 172 rings, 1,075 straight (1,087 mm) / 341 curved (433 mm); tb 12 rings, 107 straight (142 mm) / 30 curved (34.7 mm)
+- **Centre lines:** 3,127 paths (82 closed); straight 4,002 mm, curved 4.3 mm; horizontal 2,047 mm, vertical 925 mm, diagonal 1,030 mm
+- **Circles and arcs:** 1 circles, 1 arcs; largest r 1.3 @ (279.2, 164.7)
+- **Closed boxes:** 17 (3 in the title block); named: POWER INTERFACE PANEL; 940238-03-012
+- **Words (OCR):** 18 in 15 lines: REO D · MATERIAL: CRS 0.059 THICK. · REYSID" · FINISH: · SAND 120 CRIT AND PAINT · WBS · WARD-BECK SYSTEMS · TEXTURED GREY TEXCOTE VNYL. · POWER INTERFACE · REL DVE · TOLERANCZS · JuRAS
+- **Title block:** (344, 24)–(429, 40) mm: REYSID" · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1994 - DOC - 940238-03-012 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).json](1994%20-%20DOC%20-%20940238-03-012%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1994 - DOC - 940238-03-012 - NOTE REMOVE ALL BURRS AND SHARP EDGES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

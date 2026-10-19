@@ -25,6 +25,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 1,340,624 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 405-03-049, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 128 rings, 2,484 straight (7,284 mm) / 289 curved (484 mm); text 470 rings, 3,971 straight (5,300 mm) / 1,046 curved (1,699 mm); tb 10 rings, 169 straight (317 mm) / 22 curved (25.7 mm)
+- **Centre lines:** 4,898 paths (93 closed); straight 7,709 mm, curved 125 mm; horizontal 2,835 mm, vertical 1,658 mm, diagonal 3,216 mm
+- **Circles and arcs:** 1 circles, 22 arcs; largest r 1.8 @ (164.5, 217.7)
+- **Closed boxes:** 8 (8 in the title block)
+- **Words (OCR):** 67 in 46 lines: NOTES · REMOVE · ALL BURRS SHARP EDGES · 2.625 · TOLERANCES · XX = .015 · 187 DIA . CSK · 828 To · XXX =.005 · 1.312 · 330 DIA - 2 · PLACES
+- **Title block:** (278, 4)–(432, 72) mm: 4/84 1312 Was 6.3f0 · lott · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: 2/83 J · MOUNTING PLATE · ENG Mew · FOR · ATTENUATOR · CKD · lx ` · USED · ON · M4O5D · APP · SCALE · ISS · 405-
+
+Every curve, box, word and wire group: [1984 - 405-03-049 - MOUNTING PLATE FOR ATTENUATOR USED ON M405D - DRN J - ENG MRW - ISS 2 (traced).json](1984%20-%20405-03-049%20-%20MOUNTING%20PLATE%20FOR%20ATTENUATOR%20USED%20ON%20M405D%20-%20DRN%20J%20-%20ENG%20MRW%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1984 - 405-03-049 - MOUNTING PLATE FOR ATTENUATOR USED ON M405D - DRN J - ENG MRW - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,123,222 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 413 rings, 3,550 straight (7,768 mm) / 756 curved (1,130 mm); text 288 rings, 1,774 straight (1,962 mm) / 554 curved (758 mm)
+- **Centre lines:** 3,927 paths (70 closed); straight 5,382 mm, curved 431 mm; horizontal 2,328 mm, vertical 1,399 mm, diagonal 1,655 mm
+- **Circles and arcs:** 21 circles, 72 arcs; largest r 3.8 @ (4.1, 253.3), r 3.6 @ (4.9, 141.3), r 1.4 @ (210.6, 358.9), r 1.4 @ (210.6, 348.4)
+- **Closed boxes:** 2
+- **Wiring (first pass):** 67 connected wire groups from 344 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-004 - INPUTS STEI CHASSIS MOUNT CONNECTOR NAZISS-E EACH (traced).json](1988%20-%20880134%20-%20880134-02-004%20-%20INPUTS%20STEI%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20EACH%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-004 - INPUTS STEI CHASSIS MOUNT CONNECTOR NAZISS-E EACH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

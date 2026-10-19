@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,946,777 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 960077-03-003, size B (assumed) 432 × 276 mm, 2000 × 1277 px traced (0.216 mm/px)
+- **Ink extent:** 35–432 mm across, 5–245 mm up
+- **Outlines:** line 681 rings, 5,107 straight (13,153 mm) / 985 curved (1,478 mm); text 218 rings, 1,170 straight (1,020 mm) / 418 curved (519 mm); tb 17 rings, 123 straight (159 mm) / 29 curved (33.8 mm)
+- **Centre lines:** 5,441 paths (165 closed); straight 7,906 mm, curved 329 mm; horizontal 4,189 mm, vertical 1,990 mm, diagonal 1,728 mm
+- **Circles and arcs:** 8 circles, 8 arcs; largest r 6.2 @ (187.4, 188.1), r 6.2 @ (307.5, 188.9), r 6.1 @ (221.6, 188.5), r 6.1 @ (290.4, 188.9)
+- **Closed boxes:** 23 (4 in the title block); named: STUDIO INTERFACE PANEL; 960077-03-003; DSC * 51301
+- **Dots (junctions):** 2
+- **Words (OCR):** 32 in 30 lines: 16,070 · DETA · DEMA · 0463 · LCUNC · 0.252 · 0.710 · 0.844 · 2.,050 · 1681 · 0,800 · DMTCHES
+- **Title block:** (341, 21)–(424, 37) mm: WARD-BECK  SYSTEMS · REY SICA · WBS
+
+Every curve, box, word and wire group: [1996 - DOC - 960077-03-003 - GRIT AND PAINT TEXTURED GREY TEXCOTE WINL TOLERANCES (traced).json](1996%20-%20DOC%20-%20960077-03-003%20-%20GRIT%20AND%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20WINL%20TOLERANCES%20%28traced%29.json) (the CAD file: `1996 - DOC - 960077-03-003 - GRIT AND PAINT TEXTURED GREY TEXCOTE WINL TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -24,6 +24,18 @@ Wiki page: [M459](../../../PAGES/M459.md)
 - **Size:** 8,816,290 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout C 5-116-06-001, size C 559 × 430 mm, 2000 × 1540 px traced (0.279 mm/px)
+- **Ink extent:** 1–559 mm across, 3–428 mm up
+- **Outlines:** line 1,800 rings, 11,769 straight (15,057 mm) / 3,302 curved (3,817 mm); text 189 rings, 1,553 straight (1,724 mm) / 517 curved (730 mm); tb 42 rings, 149 straight (136 mm) / 16 curved (15.6 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 1.9 @ (172.4, 155.7), r 1.9 @ (178.8, 279.4), r 1.9 @ (172.3, 202.4), r 1.9 @ (179.3, 155.8)
+- **Closed boxes:** 23 (17 in the title block); named: Ki; SW2; K2; Sw?; M459 LAYOUT PCB
+- **Words (OCR):** 29 in 25 lines: Ki · To DSI · SW2 · To Sw3 · To Sw3-ARM · POS · R3 · CD · To DS2 · K2 · Sw? · R2
+- **Title block:** (273, 22)–(509, 60) mm: ISS MOD IcKD: · USEDON · MATL_ · WB3S5 WAAD-BeCK BybteMB · DRN: Pm · M459 · IMISH
+
+Every curve, box, word and wire group: [1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1 (traced).json](1975%20-%205-116-06-001%20-%20PCB%20LAYOUT%20-%20DRN%20DM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1975 - 5-116-06-001 - PCB LAYOUT - DRN DM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

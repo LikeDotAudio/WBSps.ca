@@ -11,6 +11,18 @@ Wiki page: [M460L](../../../PAGES/M460L.md)
 - **Size:** 556,223 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-110-06-001, size B (assumed) 432 × 347 mm, 2000 × 1606 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–337 mm up
+- **Outlines:** line 421 rings, 5,570 straight (10,253 mm) / 1,277 curved (1,388 mm); text 587 rings, 5,589 straight (6,056 mm) / 1,562 curved (1,852 mm); tb 40 rings, 232 straight (294 mm) / 52 curved (53.0 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 10.8 @ (135.5, 193.0), r 10.7 @ (171.1, 152.5), r 10.7 @ (135.8, 152.5), r 10.7 @ (171.1, 192.8)
+- **Closed boxes:** 25; named: USED ON; MaTL _; RIKG; FINISH; ML; ToLs .; 4-110-06-001
+- **Words (OCR):** 52 in 38 lines: 33/0 · 38 · 332K · 2L9 · 83 · 9k · 22/10 · 4k7 · aj; · 47ok · 33/12 · 40406
+- **Title block:** (282, 6)–(388, 53) mm: WBS WAAD-BeCK BysTeMB LTD: · DRN · 4-110 · DATE  IOJUN74 · PRE-AMP/HP FILTER · CKD. · FSCALE · COMPONENT LAYOUT · ToLs .
+
+Every curve, box, word and wire group: [1974 - M460L - 4-110-06-001 - PRE-AMP-HP FILTER COMPONENT LAYOUT (traced).json](1974%20-%20M460L%20-%204-110-06-001%20-%20PRE-AMP-HP%20FILTER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1974 - M460L - 4-110-06-001 - PRE-AMP-HP FILTER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

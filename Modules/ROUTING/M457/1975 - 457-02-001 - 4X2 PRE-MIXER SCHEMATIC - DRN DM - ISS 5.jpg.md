@@ -23,6 +23,21 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 2,480,872 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 457-02-001, size B (assumed) 432 × 139 mm, 2000 × 644 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–138 mm up
+- **Outlines:** line 1,237 rings, 14,029 straight (19,984 mm) / 3,517 curved (4,004 mm); text 125 rings, 741 straight (628 mm) / 284 curved (340 mm); tb 28 rings, 191 straight (244 mm) / 47 curved (52.4 mm)
+- **Centre lines:** 18,556 paths (312 closed); straight 13,651 mm, curved 234 mm; horizontal 5,291 mm, vertical 3,418 mm, diagonal 4,942 mm
+- **Circles and arcs:** 12 circles, 40 arcs; largest r 2.5 @ (158.3, 73.3), r 2.5 @ (48.3, 73.1), r 2.5 @ (213.7, 73.5), r 1.9 @ (52.8, 120.1)
+- **Closed boxes:** 35 (10 in the title block); named: 5-OIA; M457 4X 2 PRE-MixER SCHEMAIIC; 457-02-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 24 in 21 lines: NQTES; · R2 # · (0-30] · 5-OIA · 66 · 04 · Rt · R82 · 2F · RF · 24 · 4oo ICKD
+- **Title block:** (291, 14)–(429, 29) mm: 4oo ICKD · TT · [432 · REDRAWN · WBSs WAAD-BeCK BYBteme · LTD_ · M457
+- **Wiring (first pass):** 177 connected wire groups from 1,010 runs, 2 dotted junctions; labelled ends: 90 mm → Rt; 75 mm → 04; 54 mm → 04; 48 mm → R82; 42 mm → R2 #
+
+Every curve, box, word and wire group: [1975 - 457-02-001 - 4X2 PRE-MIXER SCHEMATIC - DRN DM - ISS 5 (traced).json](1975%20-%20457-02-001%20-%204X2%20PRE-MIXER%20SCHEMATIC%20-%20DRN%20DM%20-%20ISS%205%20%28traced%29.json) (the CAD file: `1975 - 457-02-001 - 4X2 PRE-MIXER SCHEMATIC - DRN DM - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

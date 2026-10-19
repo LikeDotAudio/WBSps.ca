@@ -25,6 +25,20 @@ Line receiver/driver schematic with title block at bottom right.
 - **Size:** 1,928,391 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 750-02-002, size B 432 × 132 mm, 2000 × 611 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–132 mm up
+- **Outlines:** line 1,325 rings, 11,528 straight (17,560 mm) / 2,543 curved (3,359 mm); text 425 rings, 2,368 straight (2,206 mm) / 685 curved (867 mm)
+- **Centre lines:** 12,530 paths (247 closed); straight 12,012 mm, curved 328 mm; horizontal 4,512 mm, vertical 2,510 mm, diagonal 4,990 mm
+- **Circles and arcs:** 7 circles, 86 arcs; largest r 1.3 @ (290.8, 99.5), r 1.1 @ (159.8, 89.3), r 1.0 @ (107.1, 74.8), r 0.9 @ (320.8, 93.4)
+- **Closed boxes:** 25
+- **Dots (junctions):** 1
+- **Words (OCR):** 57 in 44 lines: R6_2k2 · 74100 AND z5 Tozi? ARE 7404.AND CAR To BE DETERMINED · 8/,4,7,10,/3,16,19 Ano AFE OPT/ONAL ASC · CAR · CRIB · CRS · 89262 · FOR COMFONENT LAYOUT SZE DRG N" I26-06-col · <RB · FOR M7s0 NON-INVERTING LINE RECEIVER (DRIvER · FOR · LINKED
+- **Wiring (first pass):** 97 connected wire groups from 1,034 runs, 2 dotted junctions; labelled ends: 251 mm → Ujed; 160 mm → 23 22, JAt5, 47/20, czai; 159 mm → 47/20, czai, 23 22; 115 mm → Mard, M750, LINE rEceive?; 82 mm → SRK, CRII, CRI?, CRIT
+
+Every curve, box, word and wire group: [1971 - 750-02-002 - & M750-1 LINE RECEIVER DRIVER SCHEMATIC - DRN PHL - ISS 3 (traced).json](1971%20-%20750-02-002%20-%20%26%20M750-1%20LINE%20RECEIVER%20DRIVER%20SCHEMATIC%20-%20DRN%20PHL%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1971 - 750-02-002 - & M750-1 LINE RECEIVER DRIVER SCHEMATIC - DRN PHL - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

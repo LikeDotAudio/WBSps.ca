@@ -21,6 +21,18 @@ Wiki page: [Job-94064](../../../PAGES/Job-94064.md)
 - **Size:** 326,249 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 94064-04-008, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px)
+- **Ink extent:** 126–848 mm across, 15–393 mm up
+- **Outlines:** line 203 rings, 1,578 straight (13,880 mm) / 348 curved (1,078 mm); text 130 rings, 809 straight (1,833 mm) / 230 curved (629 mm); tb 15 rings, 127 straight (308 mm) / 31 curved (71.1 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 9.0 @ (375.3, 292.6), r 9.0 @ (339.7, 292.6), r 6.6 @ (496.1, 328.1), r 4.7 @ (496.1, 328.1)
+- **Closed boxes:** 30 (4 in the title block); named: WBZ BOSTON HOST TURRET AYOUT; SCALL NTS; 94064-04-008; COCE;
+- **Words (OCR):** 16 in 12 lines: ISSUE DATEA · WBS · WARD-BECK SYSTEMS · WBZ BOSTON · REAR MEW · CRIE · SIdE VEW · HOST TURRET · AYOUT · NTS COCE; · SCALL · 94064-04-008
+- **Title block:** (690, 47)–(859, 87) mm: ISSUE DATEA · WBS · WARD-BECK SYSTEMS · WBZ BOSTON
+
+Every curve, box, word and wire group: [1994 - 94064-04-008 - WBZ BOSTON HOST TURRET LAYOUT - DRN DRG - ISS 1 (traced).json](1994%20-%2094064-04-008%20-%20WBZ%20BOSTON%20HOST%20TURRET%20LAYOUT%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1994 - 94064-04-008 - WBZ BOSTON HOST TURRET LAYOUT - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [RM401](../../../PAGES/RM401.md)
 - **Size:** 6,907,663 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 401-02-004, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 18–430 mm across, 17–307 mm up
+- **Outlines:** line 622 rings, 9,470 straight (16,473 mm) / 1,140 curved (1,745 mm); text 166 rings, 1,257 straight (1,542 mm) / 318 curved (453 mm)
+- **Centre lines:** 3,110 paths (57 closed); straight 9,426 mm, curved 368 mm; horizontal 4,538 mm, vertical 3,391 mm, diagonal 1,498 mm
+- **Circles and arcs:** 15 circles, 53 arcs; largest r 5.7 @ (396.4, 290.5), r 5.7 @ (368.7, 290.0), r 4.0 @ (382.7, 290.3), r 1.4 @ (382.8, 289.9)
+- **Closed boxes:** 14
+- **Wiring (first pass):** 199 connected wire groups from 790 runs
+
+Every curve, box, word and wire group: [19xx - RM401 - 401-02-004 - NOISE SUPPRESSOR SYSTEM SCHEMATIC (traced).json](19xx%20-%20RM401%20-%20401-02-004%20-%20NOISE%20SUPPRESSOR%20SYSTEM%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - RM401 - 401-02-004 - NOISE SUPPRESSOR SYSTEM SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

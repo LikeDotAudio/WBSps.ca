@@ -23,6 +23,20 @@ Wiki page: [M600](../../../PAGES/M600.md)
 - **Size:** 2,889,857 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 600-02-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 3–432 mm across, 1–287 mm up
+- **Outlines:** line 350 rings, 3,386 straight (7,898 mm) / 762 curved (1,162 mm); text 326 rings, 2,121 straight (2,748 mm) / 646 curved (976 mm); tb 3 rings, 83 straight (203 mm) / 2 curved (4.8 mm)
+- **Centre lines:** 3,549 paths (91 closed); straight 5,928 mm, curved 652 mm; horizontal 2,617 mm, vertical 1,537 mm, diagonal 1,774 mm
+- **Circles and arcs:** 29 circles, 93 arcs; largest r 1.4 @ (149.0, 38.3), r 1.4 @ (158.3, 38.4), r 1.4 @ (124.1, 38.3), r 1.4 @ (84.7, 100.8)
+- **Closed boxes:** 10 (6 in the title block); named: M498 STEREQ 8X1 SELECTOR; 600-02-005; SCALE; CODE: 600505
+- **Words (OCR):** 47 in 41 lines: TB2 · 46,47 · 4D · M498 · 28,29 · 8X1 · STEREQ · SELECTOR · 25,26 · LINE · SELECTOR · 10L
+- **Title block:** (270, 16)–(432, 84) mm: IISSUE DATE · REVISION · APP · WBS · WARD-BECK · SYSTEMS · DRN. JRG 02/87 · SELECTORS · ENG. Fa · LINE · CKD: · SCHEMA TIC · APP · SCALE DISC NO: 130 · ISSUE · 600-02-005 · CODE: 600505
+- **Wiring (first pass):** 42 connected wire groups from 311 runs; labelled ends: 624 mm → 25,26; 328 mm → 15, 17,U, 18,V, TB1 (123) 121,122; 152 mm → ISSUE; 38 mm → 4D; 38 mm → 12N
+
+Every curve, box, word and wire group: [1987 - 600-02-005 - LINE SELECTORS SCHEMATIC - DRN JRG - ENG JRG - ISS 1 (traced).json](1987%20-%20600-02-005%20-%20LINE%20SELECTORS%20SCHEMATIC%20-%20DRN%20JRG%20-%20ENG%20JRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1987 - 600-02-005 - LINE SELECTORS SCHEMATIC - DRN JRG - ENG JRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

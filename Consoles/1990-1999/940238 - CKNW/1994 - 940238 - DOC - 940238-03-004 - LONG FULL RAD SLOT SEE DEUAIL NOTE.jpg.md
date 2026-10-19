@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,808,974 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 940238-03-004, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 4–419 mm across, 2–276 mm up
+- **Outlines:** line 749 rings, 6,451 straight (12,118 mm) / 1,051 curved (1,788 mm); text 301 rings, 1,801 straight (1,681 mm) / 573 curved (721 mm); tb 82 rings, 603 straight (536 mm) / 169 curved (195 mm)
+- **Centre lines:** 10,674 paths (236 closed); straight 8,940 mm, curved 536 mm; horizontal 2,446 mm, vertical 2,791 mm, diagonal 3,704 mm
+- **Circles and arcs:** 13 circles, 15 arcs; largest r 64.1 @ (355.8, 190.3), r 1.8 @ (110.6, 252.6), r 1.8 @ (215.3, 167.7), r 1.8 @ (101.0, 52.7)
+- **Closed boxes:** 19 (2 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 36 in 30 lines: 8 33 · 90100, 'REQ DIA · REC D · DATLY · Rear · RECD" · 0,257 · DETAL · KSCALE · CeT · RAD SloT) · 60
+- **Title block:** (337, 23)–(425, 138) mm: DETAL · KSCALE · MATERIAL; ALUM ALLOY 0,125 hicK · FINISH: SAND 120 CRiT AND PAINT · TEXTURED BEIGE (452C) · TEXCOTE VNYL · (EXTRA  FINE TEXTURE) · EDCES · SILKSCREEN · ISsuE DAEL · WES WARD- · BECK S
+
+Every curve, box, word and wire group: [1994 - 940238 - DOC - 940238-03-004 - LONG FULL RAD SLOT SEE DEUAIL NOTE (traced).json](1994%20-%20940238%20-%20DOC%20-%20940238-03-004%20-%20LONG%20FULL%20RAD%20SLOT%20SEE%20DEUAIL%20NOTE%20%28traced%29.json) (the CAD file: `1994 - 940238 - DOC - 940238-03-004 - LONG FULL RAD SLOT SEE DEUAIL NOTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

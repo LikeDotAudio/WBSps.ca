@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,276,817 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–414 mm across, 19–299 mm up
+- **Outlines:** line 420 rings, 4,024 straight (8,398 mm) / 779 curved (1,185 mm); text 191 rings, 1,218 straight (1,393 mm) / 399 curved (566 mm)
+- **Centre lines:** 3,261 paths (59 closed); straight 5,224 mm, curved 529 mm; horizontal 2,266 mm, vertical 1,502 mm, diagonal 1,456 mm
+- **Circles and arcs:** 24 circles, 87 arcs; largest r 2.2 @ (350.9, 61.6), r 1.6 @ (338.3, 52.5), r 1.5 @ (334.0, 39.1), r 1.4 @ (338.3, 54.8)
+- **Closed boxes:** 22
+- **Wiring (first pass):** 67 connected wire groups from 480 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-011 - CUE CHANNEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-011%20-%20CUE%20CHANNEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-011 - CUE CHANNEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

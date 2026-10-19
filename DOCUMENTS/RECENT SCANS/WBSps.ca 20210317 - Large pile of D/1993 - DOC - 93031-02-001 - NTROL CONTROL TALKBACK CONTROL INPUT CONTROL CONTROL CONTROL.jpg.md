@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,699,310 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 93031-02-001, size B (assumed) 432 × 279 mm, 2000 × 1291 px traced (0.216 mm/px)
+- **Ink extent:** 66–431 mm across, 0–248 mm up
+- **Outlines:** line 900 rings, 7,355 straight (13,413 mm) / 1,450 curved (1,706 mm); text 365 rings, 2,385 straight (1,974 mm) / 686 curved (832 mm); tb 23 rings, 157 straight (189 mm) / 37 curved (46.1 mm)
+- **Centre lines:** 12,089 paths (197 closed); straight 9,830 mm, curved 38.0 mm; horizontal 3,743 mm, vertical 2,732 mm, diagonal 3,355 mm
+- **Circles and arcs:** 0 circles, 17 arcs
+- **Closed boxes:** 38 (2 in the title block); named: V7i2E; SABC  INTERCOM   INTERFACE ASSEMBLY   FU
+- **Dots (junctions):** 2
+- **Words (OCR):** 52 in 47 lines: Foicaac · FCLDBACK · CLOCURC · CLOSURE · WKBRC · 9J0Ji-02-001) · CLDSURI · CLOSURE · CLOSURE · CUSTOYER REGUESIED · CONTACT LLCSUQE · ihpUT
+- **Title block:** (341, 12)–(425, 28) mm: WBS · WARD-BECK  SYSTEMS
+- **Wiring (first pass):** 132 connected wire groups from 776 runs, 2 dotted junctions; labelled ends: 331 mm → INPUT; 66 mm → WBS, WARD-BECK  SYSTEMS; 40 mm → INPU; 24 mm → Contaoi, coitroi; 22 mm → CLOSURE
+
+Every curve, box, word and wire group: [1993 - DOC - 93031-02-001 - NTROL CONTROL TALKBACK CONTROL INPUT CONTROL CONTROL CONTROL (traced).json](1993%20-%20DOC%20-%2093031-02-001%20-%20NTROL%20CONTROL%20TALKBACK%20CONTROL%20INPUT%20CONTROL%20CONTROL%20CONTROL%20%28traced%29.json) (the CAD file: `1993 - DOC - 93031-02-001 - NTROL CONTROL TALKBACK CONTROL INPUT CONTROL CONTROL CONTROL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

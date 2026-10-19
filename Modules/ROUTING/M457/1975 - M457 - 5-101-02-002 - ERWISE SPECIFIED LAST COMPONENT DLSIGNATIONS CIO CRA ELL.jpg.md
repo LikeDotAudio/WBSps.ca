@@ -15,6 +15,19 @@ Wiki page: [M457](../../../PAGES/M457.md)
 
 - **1975** (month): `JAN 75` — …-BeCK BybteMB LT Cig 22/25 R48 Rso 180 E11 J2W 24 DM 5-I0IA JAN 75 DUAL BOOSTER AMPLIFIER CKoL RLL ScA SCHEMATIC Ia LB 5- 101-…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 5-101-02-002, size B (assumed) 432 × 153 mm, 2000 × 708 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–152 mm up
+- **Outlines:** line 844 rings, 7,924 straight (11,839 mm) / 1,675 curved (2,101 mm); text 703 rings, 3,906 straight (3,684 mm) / 1,527 curved (1,851 mm)
+- **Centre lines:** 13,418 paths (215 closed); straight 10,422 mm, curved 500 mm; horizontal 3,188 mm, vertical 2,359 mm, diagonal 4,876 mm
+- **Circles and arcs:** 12 circles, 92 arcs; largest r 3.0 @ (140.2, 76.5), r 2.9 @ (140.3, 44.9), r 2.9 @ (364.6, 76.6), r 2.2 @ (229.7, 38.4)
+- **Closed boxes:** 23; named: MatL; ~-101-02 - 002; LB
+- **Words (OCR):** 138 in 123 lines: RraL · Riz · R3 · ISk · 05 · Pn356? · R3i · Pn3SG9 · CRi 836 · CRS R39 · +18/ · {8k
+- **Wiring (first pass):** 93 connected wire groups from 732 runs; labelled ends: 97 mm → 342, 08, R38, Pn3645; 86 mm → MatL; 80 mm → NBS, DEL, JL, AmplifieR; 71 mm → Riz, Pn356?, CRi, 836; 69 mm → R14, CR3, 03, Pn3569
+
+Every curve, box, word and wire group: [1975 - M457 - 5-101-02-002 - ERWISE SPECIFIED LAST COMPONENT DLSIGNATIONS CIO CRA ELL (traced).json](1975%20-%20M457%20-%205-101-02-002%20-%20ERWISE%20SPECIFIED%20LAST%20COMPONENT%20DLSIGNATIONS%20CIO%20CRA%20ELL%20%28traced%29.json) (the CAD file: `1975 - M457 - 5-101-02-002 - ERWISE SPECIFIED LAST COMPONENT DLSIGNATIONS CIO CRA ELL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

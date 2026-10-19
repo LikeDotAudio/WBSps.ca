@@ -23,6 +23,19 @@ Wiki page: [M805](../../../PAGES/M805.md)
 - **Size:** 1,428,419 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 805-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale I :
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 143 rings, 3,198 straight (8,858 mm) / 274 curved (406 mm); text 287 rings, 2,489 straight (3,159 mm) / 661 curved (1,085 mm); tb 19 rings, 190 straight (314 mm) / 33 curved (45.3 mm)
+- **Centre lines:** 5,187 paths (54 closed); straight 7,466 mm, curved 66.6 mm; horizontal 3,930 mm, vertical 1,508 mm, diagonal 2,028 mm
+- **Circles and arcs:** 0 circles, 18 arcs
+- **Closed boxes:** 16 (8 in the title block); named: PD; CHANGED MATERIAL; OCT; DIM WAS 9*30 aA; GEB
+- **Words (OCR):** 46 in 37 lines: HOLE 5 · 29 DIA · 2.15 · 2.40 · 25 · 62 · 4.67 · 8-67 · 3-20 · CHANGED MATERIAL PD · OCT · AUG aA
+- **Title block:** (278, 10)–(431, 78) mm: AUG aA · DIM WAS 9*30 · GEB · 33 · (IsSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: GEB · M8osd/E · ENG GEB7/ez · Fish · PAPER · CKD_ · COvER · APP · SCALE I : · ISSUE · XX = · 01s · 805-0
+
+Every curve, box, word and wire group: [1987 - 805-03-002 - M805D E FISH PAPER COVER - DRN GEB - ENG GEB - ISS 3 (traced).json](1987%20-%20805-03-002%20-%20M805D%20E%20FISH%20PAPER%20COVER%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1987 - 805-03-002 - M805D E FISH PAPER COVER - DRN GEB - ENG GEB - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

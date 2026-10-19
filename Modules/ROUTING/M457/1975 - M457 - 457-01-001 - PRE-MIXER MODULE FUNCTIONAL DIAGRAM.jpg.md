@@ -11,6 +11,20 @@ Wiki page: [M457](../../../PAGES/M457.md)
 - **Size:** 1,420,398 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 457-01-001, size B (assumed) 432 × 271 mm, 2000 × 1256 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–269 mm up
+- **Outlines:** line 252 rings, 5,505 straight (11,202 mm) / 659 curved (927 mm); text 352 rings, 2,712 straight (3,028 mm) / 759 curved (1,090 mm); tb 9 rings, 130 straight (262 mm) / 21 curved (36.0 mm)
+- **Centre lines:** 5,377 paths (65 closed); straight 8,024 mm, curved 163 mm; horizontal 3,762 mm, vertical 1,680 mm, diagonal 2,582 mm
+- **Circles and arcs:** 2 circles, 37 arcs; largest r 1.1 @ (412.4, 150.2), r 1.1 @ (406.5, 150.2)
+- **Closed boxes:** 13 (6 in the title block); named: 457-01 - 001
+- **Words (OCR):** 55 in 50 lines: LEVEL · Mic Input · PRE · 60/-30dBm · (-10dB) · LINE · INPUT · -15/+15dBm · Mic INPUT · PRE · 60/-30dBm · LINE   INPUT }
+- **Title block:** (290, 6)–(432, 80) mm: REDRAWN · 10/77 · JISSUE |DATE · REVISION · WBS · WARD-BECK SYSTEME · DRN DB · M457 · 4x2 PRE-MIXER · MODULE · ENG _ RKB · CKD. · FUNCTIONAL DIAGRAM · APP · ScALE · ISSUE · 457-01 - 001
+- **Wiring (first pass):** 131 connected wire groups from 284 runs; labelled ends: 97 mm → BST; 96 mm → BST; 77 mm → BST; 76 mm → INPUT, 60/-30dBm; 75 mm → INPUT 1, -60/-30 dBm
+
+Every curve, box, word and wire group: [1975 - M457 - 457-01-001 - PRE-MIXER MODULE FUNCTIONAL DIAGRAM (traced).json](1975%20-%20M457%20-%20457-01-001%20-%20PRE-MIXER%20MODULE%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1975 - M457 - 457-01-001 - PRE-MIXER MODULE FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

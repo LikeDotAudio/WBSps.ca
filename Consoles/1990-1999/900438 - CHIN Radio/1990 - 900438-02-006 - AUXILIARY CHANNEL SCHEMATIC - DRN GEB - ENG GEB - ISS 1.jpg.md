@@ -23,6 +23,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 5,188,933 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 900438-02-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–421 mm across, 19–304 mm up
+- **Outlines:** line 311 rings, 3,289 straight (7,378 mm) / 630 curved (947 mm); text 261 rings, 1,831 straight (2,356 mm) / 558 curved (820 mm)
+- **Centre lines:** 2,993 paths (67 closed); straight 5,314 mm, curved 385 mm; horizontal 2,345 mm, vertical 1,363 mm, diagonal 1,606 mm
+- **Circles and arcs:** 19 circles, 54 arcs; largest r 2.2 @ (350.2, 55.4), r 1.6 @ (362.2, 38.9), r 1.6 @ (345.3, 54.4), r 1.5 @ (339.6, 40.9)
+- **Closed boxes:** 17
+- **Wiring (first pass):** 35 connected wire groups from 332 runs
+
+Every curve, box, word and wire group: [1990 - 900438-02-006 - AUXILIARY CHANNEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-02-006%20-%20AUXILIARY%20CHANNEL%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-02-006 - AUXILIARY CHANNEL SCHEMATIC - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,393,149 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940145-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 52–420 mm across, 7–227 mm up
+- **Outlines:** line 1,205 rings, 8,301 straight (30,051 mm) / 1,216 curved (1,767 mm); text 231 rings, 1,279 straight (1,318 mm) / 388 curved (520 mm); tb 22 rings, 164 straight (190 mm) / 40 curved (43.4 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 2.1 @ (350.7, 93.8), r 2.1 @ (350.9, 154.4), r 2.1 @ (350.9, 132.2), r 2.1 @ (350.7, 100.1)
+- **Closed boxes:** 57 (3 in the title block); named: Op 04; BCTV BURNABY 48x48   MicroCOM FRONT LAYO; DISC NO  459; 940145-04-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 14 lines: Op · 04 · NOTES: · EQUIPMENT FRAMES ARE SHOWN · DOORS REMOVED: · CONNECTIONS To VaTRIX ARE VIA  SUBMINIATURE · 0" TYPE CONNECTORS; · WBS · WARD-BECK SYSTEMS · BCTV BURNABY · 48x48   MicroCOM · FRONT LAYOUT
+- **Title block:** (340, 23)–(425, 40) mm: WBS · WARD-BECK SYSTEMS · BCTV BURNABY
+
+Every curve, box, word and wire group: [1994 - 940145 - DOC - 940145-04-001 - NOTES EQUIPMENT FRAMES ARE SHOWN WITH DOORS REMOVED (traced).json](1994%20-%20940145%20-%20DOC%20-%20940145-04-001%20-%20NOTES%20EQUIPMENT%20FRAMES%20ARE%20SHOWN%20WITH%20DOORS%20REMOVED%20%28traced%29.json) (the CAD file: `1994 - 940145 - DOC - 940145-04-001 - NOTES EQUIPMENT FRAMES ARE SHOWN WITH DOORS REMOVED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

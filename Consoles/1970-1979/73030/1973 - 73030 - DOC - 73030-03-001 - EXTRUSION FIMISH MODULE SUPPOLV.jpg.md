@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 8,734,325 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 73030-03-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 13–298 mm up
+- **Outlines:** line 426 rings, 5,211 straight (12,417 mm) / 600 curved (882 mm); text 491 rings, 3,074 straight (3,298 mm) / 1,042 curved (1,529 mm); tb 33 rings, 214 straight (399 mm) / 52 curved (74.4 mm)
+- **Centre lines:** 5,426 paths (100 closed); straight 9,476 mm, curved 71.9 mm; horizontal 4,526 mm, vertical 2,393 mm, diagonal 2,556 mm
+- **Circles and arcs:** 3 circles, 16 arcs; largest r 1.5 @ (333.7, 113.6), r 1.4 @ (214.4, 243.5), r 1.2 @ (93.2, 71.7)
+- **Closed boxes:** 34 (29 in the title block); named: WBS WAAD-BECK LTD; Extrusion BA2 MoDule Suppolt Less Trimst
+- **Words (OCR):** 70 in 55 lines: 2.595 · 2.030 · 090 · 420 · 035 · 060 · 06o · 035 · noo · 4oo · 465 · 340
+- **Title block:** (139, 17)–(375, 69) mm: PA 075262 · Iss MOD   CKD: · USED ON · MATL · Rc Remove Fifish rote" ALum ALLoy · WBS WAAD-BECK · 6063-Ts · DRM AF · DATE 12 ACQil 77 · Extrusion · FINISH · MoDule Suppolt · CKD RAJ · SCALE · Less Tri
+
+Every curve, box, word and wire group: [1973 - 73030 - DOC - 73030-03-001 - EXTRUSION FIMISH MODULE SUPPOLV (traced).json](1973%20-%2073030%20-%20DOC%20-%2073030-03-001%20-%20EXTRUSION%20FIMISH%20MODULE%20SUPPOLV%20%28traced%29.json) (the CAD file: `1973 - 73030 - DOC - 73030-03-001 - EXTRUSION FIMISH MODULE SUPPOLV (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

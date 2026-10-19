@@ -11,6 +11,18 @@ Wiki page: [M465](../../../PAGES/M465.md)
 - **Size:** 752,374 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–423 mm up
+- **Outlines:** line 399 rings, 5,251 straight (8,672 mm) / 894 curved (1,371 mm); text 530 rings, 4,466 straight (5,302 mm) / 1,428 curved (2,175 mm)
+- **Centre lines:** 5,919 paths (96 closed); straight 8,535 mm, curved 282 mm; horizontal 3,257 mm, vertical 1,422 mm, diagonal 3,855 mm
+- **Circles and arcs:** 17 circles, 29 arcs; largest r 10.2 @ (273.8, 286.5), r 3.9 @ (220.3, 253.5), r 3.4 @ (23.7, 65.2), r 3.0 @ (241.5, 375.4)
+- **Closed boxes:** 27; named: USED OM
+- **Words (OCR):** 91 in 76 lines: tipz9b · Q3 · R4256 · Ra3zs · Cri · 343569 · #CRA= · 1n3569 · Q5 ~R4454 · ~R456 · 2125 C3 · 22/25
+
+Every curve, box, word and wire group: [1974 - M465 - 461-03-015 - MOUNTED OVER PIN ILSS (traced).json](1974%20-%20M465%20-%20461-03-015%20-%20MOUNTED%20OVER%20PIN%20ILSS%20%28traced%29.json) (the CAD file: `1974 - M465 - 461-03-015 - MOUNTED OVER PIN ILSS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

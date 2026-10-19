@@ -22,6 +22,20 @@ Photo of an M480A input module schematic drawing, title block at bottom right.
 - **Size:** 1,711,643 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic D 480-02-002, size D 648 × 864 mm, 1500 × 2000 px traced (0.432 mm/px)
+- **Ink extent:** 0–646 mm across, 0–864 mm up
+- **Outlines:** line 791 rings, 11,049 straight (29,582 mm) / 2,004 curved (5,092 mm); text 695 rings, 4,609 straight (9,922 mm) / 1,474 curved (4,250 mm); tb 32 rings, 177 straight (261 mm) / 33 curved (75.9 mm)
+- **Centre lines:** 24,992 paths (274 closed); straight 37,621 mm, curved 665 mm; horizontal 9,524 mm, vertical 8,590 mm, diagonal 19,508 mm
+- **Circles and arcs:** 6 circles, 63 arcs; largest r 3.1 @ (541.5, 105.6), r 2.5 @ (497.0, 136.7), r 1.9 @ (377.5, 251.8), r 1.8 @ (379.6, 378.7)
+- **Closed boxes:** 6 (1 in the title block)
+- **Words (OCR):** 130 in 110 lines: C38 68p · 422v · R76 · R77 · 620 · IOk · 03 · tIGv · 2n3569 · SW4 · 26 · CR? R79
+- **Title block:** (86, 46)–(368, 150) mm: IShoockd · USED OM · DRN; · Mnish · DATE · CKD · SCALL
+- **Wiring (first pass):** 275 connected wire groups from 1,375 runs; labelled ends: 386 mm → Lto:; 373 mm → 2o48m NOMINAL FROM ATTENUATOR, R87, 4k7, SWG; 308 mm → 2o48m NOMINAL FROM ATTENUATOR, R86, 4k7, SWG; 239 mm → INPUT MODULE; 193 mm → C30, Zoohi, G.4khr, 3893 c32
+
+Every curve, box, word and wire group: [19xx - 480-02-002 - INPUT MODULE - ISS 1 (traced).json](19xx%20-%20480-02-002%20-%20INPUT%20MODULE%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 480-02-002 - INPUT MODULE - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

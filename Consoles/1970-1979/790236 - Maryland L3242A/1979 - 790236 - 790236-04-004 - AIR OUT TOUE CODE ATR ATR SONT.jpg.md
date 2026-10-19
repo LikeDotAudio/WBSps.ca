@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,560,615 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 656 rings, 12,001 straight (27,005 mm) / 1,417 curved (2,040 mm); text 555 rings, 3,150 straight (2,818 mm) / 870 curved (1,146 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.2 @ (44.7, 73.1)
+- **Closed boxes:** 71; named: 23; 24; MON PGM VMPB HOUSE TIME PGM TOJE OUT COB; ATr CART 700; CIMITER TN; 20; 21; 22; 94.92(95) 3536(39; 31286); 3422(35); 2522(29)
+- **Dots (junctions):** 1
+- **Words (OCR):** 74 in 49 lines: 20 21 · 22 · 23 · 24 · CART · MULT · VMPB · MON HOUSE TIME PGM · PGM · CIMITER · OUT · LINE OUT -
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-004 - AIR OUT TOUE CODE ATR ATR SONT (traced).json](1979%20-%20790236%20-%20790236-04-004%20-%20AIR%20OUT%20TOUE%20CODE%20ATR%20ATR%20SONT%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-004 - AIR OUT TOUE CODE ATR ATR SONT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

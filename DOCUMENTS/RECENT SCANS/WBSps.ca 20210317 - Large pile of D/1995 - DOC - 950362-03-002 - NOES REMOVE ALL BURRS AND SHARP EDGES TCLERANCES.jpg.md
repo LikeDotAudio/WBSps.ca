@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,845,657 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950362-03-002, size B (assumed) 432 × 277 mm, 2000 × 1282 px traced (0.216 mm/px); scale DIsc NC
+- **Ink extent:** 36–432 mm across, 4–247 mm up
+- **Outlines:** line 540 rings, 4,565 straight (11,387 mm) / 723 curved (818 mm); text 300 rings, 1,684 straight (1,446 mm) / 542 curved (662 mm); tb 40 rings, 259 straight (268 mm) / 70 curved (77.7 mm)
+- **Centre lines:** 5,751 paths (174 closed); straight 7,488 mm, curved 13.3 mm; horizontal 4,004 mm, vertical 1,455 mm, diagonal 2,029 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 12 (11 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 39 in 36 lines: 0 PLADES · CN EACH SIDE · 0.150 · AEAR HCUSNG · 0 176 · TEX TURED · 44-40 UNC REO'D · 0 312 · 1544 · SLO M · 0.Jo · 0.160
+- **Title block:** (340, 2)–(427, 37) mm: WBS · WARD-BECK SYSTEMS · CRN; DRcNC 95) · METER PANEL · REAR HOUSING · SCALE DIsc NC · Icoce: 95362402 · 950362-03-002
+
+Every curve, box, word and wire group: [1995 - DOC - 950362-03-002 - NOES REMOVE ALL BURRS AND SHARP EDGES TCLERANCES (traced).json](1995%20-%20DOC%20-%20950362-03-002%20-%20NOES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDGES%20TCLERANCES%20%28traced%29.json) (the CAD file: `1995 - DOC - 950362-03-002 - NOES REMOVE ALL BURRS AND SHARP EDGES TCLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

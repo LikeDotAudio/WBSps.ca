@@ -11,6 +11,20 @@ Wiki page: [M456B](../../../PAGES/M456B.md)
 - **Size:** 1,611,560 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 5-101-02-001, size B (assumed) 432 × 146 mm, 2000 × 675 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–145 mm up
+- **Outlines:** line 568 rings, 6,407 straight (10,938 mm) / 1,375 curved (1,776 mm); text 749 rings, 4,547 straight (4,276 mm) / 1,657 curved (2,031 mm)
+- **Centre lines:** 11,605 paths (195 closed); straight 9,670 mm, curved 579 mm; horizontal 2,786 mm, vertical 2,311 mm, diagonal 4,573 mm
+- **Circles and arcs:** 16 circles, 118 arcs; largest r 3.1 @ (360.9, 131.4), r 3.0 @ (361.3, 40.5), r 2.2 @ (227.8, 32.3), r 2.2 @ (370.9, 142.8)
+- **Closed boxes:** 20
+- **Words (OCR):** 142 in 120 lines: R1z · R35 · pn356? · Pn3569 · CRI · CRS R39 · +18v ibk · +18v (8k · R53 · ci3 R45 · R51 · 33/10
+- **Title block:** (347, 15)–(410, 27) mm: WBS WAAD-BeCk bybteme
+- **Wiring (first pass):** 79 connected wire groups from 545 runs; labelled ends: 123 mm → 6k2, R5, R52, Gk?; 122 mm → R2g, 6k2, Sk2, R30; 122 mm → +18v (8k, R53, C1o, R2g; 115 mm → +18v ibk, R51, 2200p, 6k2; 89 mm → C1o, R2g, 220e, 6k2
+
+Every curve, box, word and wire group: [1975 - M456B - 5_101-02-001 - BLACK COM ISSMODICKD USEDON (traced).json](1975%20-%20M456B%20-%205_101-02-001%20-%20BLACK%20COM%20ISSMODICKD%20USEDON%20%28traced%29.json) (the CAD file: `1975 - M456B - 5_101-02-001 - BLACK COM ISSMODICKD USEDON (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -24,6 +24,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 366,825 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 463-02-019, size B 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–332 mm across, 1–432 mm up
+- **Outlines:** line 331 rings, 7,852 straight (14,803 mm) / 1,301 curved (1,799 mm); text 688 rings, 5,205 straight (5,372 mm) / 1,655 curved (2,458 mm); tb 12 rings, 112 straight (221 mm) / 19 curved (22.8 mm)
+- **Centre lines:** 9,437 paths (99 closed); straight 12,491 mm, curved 254 mm; horizontal 5,119 mm, vertical 2,981 mm, diagonal 4,391 mm
+- **Circles and arcs:** 5 circles, 69 arcs; largest r 0.9 @ (208.4, 210.8), r 0.9 @ (208.8, 143.8), r 0.9 @ (208.2, 267.7), r 0.9 @ (208.6, 168.6)
+- **Closed boxes:** 16 (4 in the title block)
+- **Words (OCR):** 155 in 131 lines: 57/7 MON ToR · R44 · 75 · ouT · 7U · R+5 2.2 · IG DIRECT OuT · R46 2.2 · 7T · +84Bm 60_ · R47 2'2 · +21v ~Ziv
+- **Title block:** (222, 0)–(334, 59) mm: Issu |DATE · Revisiom · WBS · WARD-BECK SY3TEMS · Drm; · 413k · M463AB · EMG. %G · SUBMASTER MODULe · CKD, · SCHEMATIC · App: · SCALE · IsSUE · 463-02-019
+- **Wiring (first pass):** 99 connected wire groups from 408 runs; labelled ends: 594 mm → R27, iki, R28, sw7; 442 mm → R+5 2.2, R46 2.2, R3s, R3i; 442 mm → R46 2.2, 2E6, R32, Sk; 246 mm → sw7, swB, SwS, Rs2; 224 mm → Sw3, FB, REFADE / 14
+
+Every curve, box, word and wire group: [19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1 (traced).json](19xx%20-%20463-02-019%20-%20M463AB%20SUBMASTER%20MODULE%20SCHEMATIC%20-%20DRN%20HM%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 463-02-019 - M463AB SUBMASTER MODULE SCHEMATIC - DRN HM - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

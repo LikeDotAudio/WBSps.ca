@@ -23,6 +23,18 @@ Wiki page: [M477](../../../PAGES/M477.md)
 - **Size:** 399,046 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout B 477-06-001, size B 432 × 332 mm, 2000 × 1539 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–328 mm up
+- **Outlines:** line 499 rings, 4,536 straight (9,193 mm) / 1,432 curved (1,357 mm); text 906 rings, 6,361 straight (5,856 mm) / 2,167 curved (2,378 mm); tb 422 rings, 2,902 straight (4,674 mm) / 881 curved (876 mm)
+- **Circles and arcs:** 7 circles, 0 arcs; largest r 8.8 @ (219.6, 259.2), r 3.8 @ (262.3, 272.4), r 2.3 @ (131.4, 185.4), r 2.3 @ (169.9, 237.8)
+- **Closed boxes:** 9 (1 in the title block); named: LM3OI
+- **Words (OCR):** 145 in 116 lines: 5oof · 4k · PN3645 · PN3645 2N4401 · PN3645 ~2n44oi 204401 · Rzi · R22 · Jumper & · R24 · rig 10o · Rii ISk · Rg 22k
+- **Title block:** (54, 0)–(432, 170) mm: R48 Gzo · WBS · R47 #20 · R46 Joe · CANADA · R44 · 200 · 7-105 · R43 300 · FIE4 · IEI · R7i 41 · 92E3 · ZE7 · 22/25 · 22/25 · 22/25 · 22/15 · (23 · C24 · 222 · 043645 3] a · PN3569 · Swio · 2/9 36|( ·
+
+Every curve, box, word and wire group: [1979 - 477-06-001 - MASTER MODULE COMPONENT LAYOUT - DRN MRW - ISS 6 (traced).json](1979%20-%20477-06-001%20-%20MASTER%20MODULE%20COMPONENT%20LAYOUT%20-%20DRN%20MRW%20-%20ISS%206%20%28traced%29.json) (the CAD file: `1979 - 477-06-001 - MASTER MODULE COMPONENT LAYOUT - DRN MRW - ISS 6 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

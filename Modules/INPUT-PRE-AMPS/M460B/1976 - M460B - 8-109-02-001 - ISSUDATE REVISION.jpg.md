@@ -11,6 +11,20 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 - **Size:** 268,699 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8-109-02-001, size B (assumed) 432 × 318 mm, 2000 × 1475 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–306 mm up
+- **Outlines:** line 316 rings, 4,253 straight (10,418 mm) / 864 curved (1,236 mm); text 436 rings, 2,662 straight (2,508 mm) / 916 curved (1,192 mm); tb 17 rings, 153 straight (194 mm) / 49 curved (61.2 mm)
+- **Centre lines:** 5,921 paths (101 closed); straight 7,513 mm, curved 364 mm; horizontal 3,036 mm, vertical 1,944 mm, diagonal 2,532 mm
+- **Circles and arcs:** 8 circles, 58 arcs; largest r 4.4 @ (216.8, 269.7), r 4.3 @ (185.6, 276.8), r 4.3 @ (217.2, 212.8), r 4.3 @ (153.8, 261.4)
+- **Closed boxes:** 11 (4 in the title block)
+- **Words (OCR):** 101 in 94 lines: 23 · -2i-5Y · 390 · Iolzs · 219 · 4k · 22 · 02 · PN3c+5 · Zn2102 · 03 · 73s6
+- **Title block:** (350, 17)–(432, 35) mm: WBS WARD-BECK BystemS · 8 - 109
+- **Wiring (first pass):** 58 connected wire groups from 409 runs; labelled ends: 215 mm → RB, cio, 4-7p; 210 mm → 390, 23, -2i-5Y, 219; 198 mm → 2N4037, R2s, 4k7, 390; 166 mm → PN3c+5, Rib, 22k, 28 p; 155 mm → Pn3c45, 42, IOp, pn3scs
+
+Every curve, box, word and wire group: [1976 - M460B - 8-109-02-001 - ISSUDATE REVISION (traced).json](1976%20-%20M460B%20-%208-109-02-001%20-%20ISSUDATE%20REVISION%20%28traced%29.json) (the CAD file: `1976 - M460B - 8-109-02-001 - ISSUDATE REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

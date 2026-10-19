@@ -24,6 +24,16 @@ Wiki page: [M461](../../../PAGES/M461.md)
 - **Size:** 4,847,848 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout C 461-04-008, size C 395 × 559 mm, 1414 × 2000 px traced (0.279 mm/px), turned 180°
+- **Ink extent:** 0–395 mm across, 0–559 mm up
+- **Outlines:** line 1,504 rings, 17,584 straight (24,078 mm) / 2,907 curved (4,688 mm); text 188 rings, 1,794 straight (2,492 mm) / 434 curved (838 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 10.8 @ (32.8, 238.5), r 6.1 @ (33.6, 301.4), r 5.5 @ (9.5, 238.6), r 5.4 @ (9.5, 264.6)
+- **Closed boxes:** 31
+
+Every curve, box, word and wire group: [1976 - 461-04-008 - M461M INPUT MODULE ASSEMBLY (LAYOUT) - DRN MING - ISS 1 (traced).json](1976%20-%20461-04-008%20-%20M461M%20INPUT%20MODULE%20ASSEMBLY%20%28LAYOUT%29%20-%20DRN%20MING%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 461-04-008 - M461M INPUT MODULE ASSEMBLY (LAYOUT) - DRN MING - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,18 @@ Wiki page: [M481B](../../../PAGES/M481B.md)
 - **Size:** 269,123 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 481-06-002, size B (assumed) 432 × 318 mm, 2000 × 1474 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–318 mm up
+- **Outlines:** line 1,065 rings, 8,736 straight (14,097 mm) / 2,116 curved (2,104 mm); text 486 rings, 3,383 straight (2,709 mm) / 1,087 curved (1,167 mm); tb 349 rings, 1,850 straight (2,406 mm) / 480 curved (466 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 3.4 @ (66.3, 212.8), r 3.3 @ (246.1, 212.0), r 1.9 @ (93.4, 135.0), r 1.2 @ (126.1, 114.0)
+- **Closed boxes:** 13 (5 in the title block); named: 03
+- **Words (OCR):** 46 in 40 lines: NOTES; · ZED · PRIOR · ISSLE · 517 ARE · NOUNTED ~EA? · R17zzo · Ri6 · 4484 · 3838 · dt · 4 4 4 9
+- **Title block:** (56, 0)–(432, 108) mm: WBS · 300 · 58o · WBS · IC-012 · 10-8,2 · OSC LEVEL · WBS 10-015 · R1c · Ib · WBS · WARD-BeCK SYSTEMs · M4818 · CUE; OSC, RE-ENTRY MODULE · COMPONENT LAYOUT · SCALE · 481-06 002
+
+Every curve, box, word and wire group: [1982 - M481B - 481-06-002 - CUE OSC RE-ENTRY MODULE COMPONENT LAYOUT (traced).json](1982%20-%20M481B%20-%20481-06-002%20-%20CUE%20OSC%20RE-ENTRY%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1982 - M481B - 481-06-002 - CUE OSC RE-ENTRY MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

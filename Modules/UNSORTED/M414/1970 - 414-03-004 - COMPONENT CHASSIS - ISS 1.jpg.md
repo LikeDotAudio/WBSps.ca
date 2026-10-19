@@ -23,6 +23,19 @@ Mechanical drawing of an M414 component chassis, title block at bottom right.
 - **Size:** 1,254,217 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 414-03-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–299 mm up
+- **Outlines:** line 742 rings, 8,129 straight (14,354 mm) / 1,124 curved (1,538 mm); text 347 rings, 2,636 straight (3,187 mm) / 706 curved (1,135 mm); tb 26 rings, 464 straight (416 mm) / 71 curved (86.3 mm)
+- **Centre lines:** 9,021 paths (89 closed); straight 10,905 mm, curved 136 mm; horizontal 5,403 mm, vertical 2,402 mm, diagonal 3,100 mm
+- **Circles and arcs:** 2 circles, 20 arcs; largest r 3.0 @ (230.8, 145.3), r 1.3 @ (241.3, 13.2)
+- **Closed boxes:** 2
+- **Words (OCR):** 47 in 34 lines: 1L · 10 . 625 · 312 · Icv · 51 · 6 4 · 1.06 2 · 437 · 2522 · 2.125 · 2 . 015 · 4.031
+- **Title block:** (180, 29)–(374, 61) mm: FINISH · Ward · BECK SUSTEMS · DRN · D P. s · cLEAR ALoPiNE · DATE /3.OCT: /970 · M 414 · COMPONENT CHASSIS
+
+Every curve, box, word and wire group: [1970 - 414-03-004 - COMPONENT CHASSIS - ISS 1 (traced).json](1970%20-%20414-03-004%20-%20COMPONENT%20CHASSIS%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1970 - 414-03-004 - COMPONENT CHASSIS - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

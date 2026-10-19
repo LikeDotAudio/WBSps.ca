@@ -1,0 +1,125 @@
+{
+ "code": "M8203",
+ "name": null,
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 15,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "P",
+   "row": 13,
+   "side": "letter",
+   "signal": "\u00b1 20 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15c17eca54d7641d7df8725cad6eb483364c5238d5bf1d029f6db52b98b5f4a4",
+    "file": "Modules/MONITORING/M8203/2015 - M8203 - Manual (2).docx",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b1 20 volt DC supply bus voltages appearing at the amplifier connector pins 15&S and 13&P are isolated from the amplifier circuitry via fusing resistors R59 and R60.",
+   "also": [
+    {
+     "signal": "\u00b1 20 VOLT DC SUPPLY BUS VOLTAGES",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/MONITORING/M8203/2015 - M8203 - Manual.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "\u00b1 20 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15c17eca54d7641d7df8725cad6eb483364c5238d5bf1d029f6db52b98b5f4a4",
+    "file": "Modules/MONITORING/M8203/2015 - M8203 - Manual (2).docx",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b1 20 volt DC supply bus voltages appearing at the amplifier connector pins 15&S and 13&P are isolated from the amplifier circuitry via fusing resistors R59 and R60.",
+   "also": [
+    {
+     "signal": "\u00b1 20 VOLT DC SUPPLY BUS VOLTAGES",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/MONITORING/M8203/2015 - M8203 - Manual.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "S",
+   "row": 15,
+   "side": "letter",
+   "signal": "\u00b1 20 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15c17eca54d7641d7df8725cad6eb483364c5238d5bf1d029f6db52b98b5f4a4",
+    "file": "Modules/MONITORING/M8203/2015 - M8203 - Manual (2).docx",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b1 20 volt DC supply bus voltages appearing at the amplifier connector pins 15&S and 13&P are isolated from the amplifier circuitry via fusing resistors R59 and R60.",
+   "also": [
+    {
+     "signal": "\u00b1 20 VOLT DC SUPPLY BUS VOLTAGES",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/MONITORING/M8203/2015 - M8203 - Manual.docx",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "\u00b1 20 VOLT DC SUPPLY BUS VOLTAGES",
+   "kind": "power",
+   "conf": "medium",
+   "how": "prose",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "15c17eca54d7641d7df8725cad6eb483364c5238d5bf1d029f6db52b98b5f4a4",
+    "file": "Modules/MONITORING/M8203/2015 - M8203 - Manual (2).docx",
+    "page": 1
+   },
+   "quote": "Power Supply Decoupling The \u00b1 20 volt DC supply bus voltages appearing at the amplifier connector pins 15&S and 13&P are isolated from the amplifier circuitry via fusing resistors R59 and R60.",
+   "also": [
+    {
+     "signal": "\u00b1 20 VOLT DC SUPPLY BUS VOLTAGES",
+     "how": "prose",
+     "conf": "medium",
+     "file": "Modules/MONITORING/M8203/2015 - M8203 - Manual.docx",
+     "page": 1
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

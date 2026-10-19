@@ -23,6 +23,20 @@ Wiki page: [Job-920477](../../../PAGES/Job-920477.md)
 - **Size:** 1,291,491 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 920477-01-001, size D 864 × 560 mm, 2000 × 1297 px traced (0.432 mm/px); scale DISC_NO:
+- **Ink extent:** 54–851 mm across, 5–532 mm up
+- **Outlines:** line 890 rings, 8,466 straight (37,739 mm) / 1,368 curved (3,596 mm); text 1,541 rings, 11,284 straight (18,656 mm) / 3,214 curved (7,447 mm); tb 15 rings, 94 straight (280 mm) / 28 curved (79.3 mm)
+- **Centre lines:** 29,994 paths (506 closed); straight 39,720 mm, curved 46.4 mm; horizontal 13,420 mm, vertical 11,390 mm, diagonal 14,910 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 132 (6 in the title block); named: PGM; CUE; 05624 MODULE; CUE; 449g NNSERI (MODULE; AUX; M499 NNSERI (MODULE; AUX; 4452 OSCILLATOR MQDULE; EIURE Mi5 IALKBACK MQDULE; M5624 MQDULE; M5624 MODULE
+- **Words (OCR):** 356 in 338 lines: CONSOLE SUMMING BUSES · PGM · PGM · AUX · CUE · PROGRAM · STEREQ_QUIPUTS · MEIERING · MIC_INPUL CHANNELS · (183) · UTILITY · PHANTOU
+- **Title block:** (682, 8)–(864, 80) mm: SSUE · REMSION · WBS · WARD-BECK SYSTEMS · DRN; · TELEMEDIA · ENG. · R1400 RADIO · CONSOLE · CKD_ · AUDIQ_FUNCTIONAL · SCALE DISC_NO: · 920477-01-001 · ISSUE · Cods: · 92477F01
+- **Wiring (first pass):** 212 connected wire groups from 1,395 runs; labelled ends: 4771 mm → CUE, AUX, PGM, MIC_INPUL CHANNELS; 677 mm → LINE_SELECTORS, STEREQ, SELECITOR; 328 mm → DIRECT OUTPUT, +8 dBm, 600 CHMS, IALKBACK, 05108; 321 mm → QSCILLATOR; 224 mm → CHI, CHJ, Ch4, CHS
+
+Every curve, box, word and wire group: [1992 - 920477-01-001 - TELEMEDIA R1400 RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).json](1992%20-%20920477-01-001%20-%20TELEMEDIA%20R1400%20RADIO%20CONSOLE%20AUDIO%20FUNCTIONAL%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1992 - 920477-01-001 - TELEMEDIA R1400 RADIO CONSOLE AUDIO FUNCTIONAL - DRN PA - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 27 words corrected)

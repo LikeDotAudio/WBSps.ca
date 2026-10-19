@@ -11,6 +11,17 @@ Wiki page: [M612](../../../PAGES/M612.md)
 - **Size:** 408,875 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 612-06-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 775 rings, 9,409 straight (12,999 mm) / 1,702 curved (1,614 mm); text 185 rings, 2,144 straight (2,706 mm) / 580 curved (699 mm); tb 35 rings, 457 straight (627 mm) / 94 curved (107 mm)
+- **Closed boxes:** 16 (12 in the title block); named: ISSUE; 612-06-002; SCALE
+- **Words (OCR):** 25 in 22 lines: Sw2 · DSI · SwI · F1 · FZ · R35 · C1s · 1/78 · REDRAWN · ISSUE |DATE · REVISION · APP
+- **Title block:** (116, 9)–(334, 121) mm: 1/78 · REDRAWN · ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · M612 · ENG. · DISTRIBUTION AMPLIFIER · COMPONENT · LAYOUT · APP · SCALE · ISSUE · 612-06-002
+
+Every curve, box, word and wire group: [1977 - M612 - 612-06-002 - DISTRIBUTION AMPLIFIER (traced).json](1977%20-%20M612%20-%20612-06-002%20-%20DISTRIBUTION%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1977 - M612 - 612-06-002 - DISTRIBUTION AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

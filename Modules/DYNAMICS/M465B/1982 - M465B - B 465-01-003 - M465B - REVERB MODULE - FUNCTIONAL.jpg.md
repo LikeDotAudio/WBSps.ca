@@ -11,6 +11,18 @@ Wiki page: [M465B](../../../PAGES/M465B.md)
 - **Size:** 5,276,956 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 465-01-003, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–424 mm across, 19–303 mm up
+- **Outlines:** line 408 rings, 5,427 straight (13,143 mm) / 807 curved (1,174 mm); text 235 rings, 1,571 straight (1,657 mm) / 544 curved (800 mm)
+- **Centre lines:** 4,094 paths (78 closed); straight 7,551 mm, curved 274 mm; horizontal 3,227 mm, vertical 2,202 mm, diagonal 2,122 mm
+- **Circles and arcs:** 25 circles, 38 arcs; largest r 2.9 @ (67.0, 233.4), r 1.8 @ (373.4, 46.9), r 1.5 @ (203.1, 104.2), r 1.5 @ (229.2, 116.5)
+- **Closed boxes:** 21
+- **Wiring (first pass):** 142 connected wire groups from 463 runs
+
+Every curve, box, word and wire group: [1982 - M465B - B 465-01-003 - M465B - REVERB MODULE - FUNCTIONAL (traced).json](1982%20-%20M465B%20-%20B%20465-01-003%20-%20M465B%20-%20REVERB%20MODULE%20-%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1982 - M465B - B 465-01-003 - M465B - REVERB MODULE - FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

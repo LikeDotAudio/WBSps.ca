@@ -12,6 +12,19 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 418,015 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 4-136-06-010, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 1,454 rings, 10,604 straight (13,972 mm) / 2,952 curved (2,944 mm); text 562 rings, 4,508 straight (4,185 mm) / 1,341 curved (1,496 mm); tb 21 rings, 211 straight (243 mm) / 51 curved (54.7 mm)
+- **Circles and arcs:** 15 circles, 0 arcs; largest r 2.6 @ (74.0, 154.1), r 2.6 @ (248.2, 153.3), r 2.2 @ (125.4, 158.7), r 2.2 @ (130.8, 219.6)
+- **Closed boxes:** 33 (2 in the title block); named: Swio OTHER Side Swis; SwG SiDE Swig; 28; 26; 25; WBS LTD:; MeBKM; M463 SUb - MASTER MODUle [AYOUT COMPONEN; 4-136-06-010
+- **Dots (junctions):** 1
+- **Words (OCR):** 94 in 78 lines: Swio · Sws Swbi 5w7 SwG · Sws · Sw4/ Sw3 · OTHER · Side · SiDE · CUT Pcb · Swis · Swig · FOR M463 · RIZ:
+- **Title block:** (216, 5)–(259, 49) mm: WBS · GEB · EANOV · CKDL · SCALE · Tols _
+
+Every curve, box, word and wire group: [1972 - M463 - 4-136-06-010 - PIN ESLOLICKD USDOJ ITI ABXEPKM (traced).json](1972%20-%20M463%20-%204-136-06-010%20-%20PIN%20ESLOLICKD%20USDOJ%20ITI%20ABXEPKM%20%28traced%29.json) (the CAD file: `1972 - M463 - 4-136-06-010 - PIN ESLOLICKD USDOJ ITI ABXEPKM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

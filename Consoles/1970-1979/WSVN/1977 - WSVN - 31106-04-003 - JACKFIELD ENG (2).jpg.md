@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 37,461,965 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–279 mm up
+- **Outlines:** line 1,299 rings, 11,708 straight (29,910 mm) / 1,252 curved (1,592 mm); text 91 rings, 549 straight (540 mm) / 159 curved (201 mm); tb 36 rings, 216 straight (219 mm) / 56 curved (69.2 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 0.7 @ (51.8, 79.2), r 0.7 @ (51.8, 40.7)
+- **Closed boxes:** 288 (2 in the title block); named: LEGEND; 003/4 31106= 04e; LC
+- **Dots (junctions):** 1
+- **Words (OCR):** 13 in 12 lines: LEGEND · ROW · LuDIO · JueeR · PRELIMINARY · Noayal · WBS · WAAO-BeCk SYSTEMS · Latout · LC · 31106= 04e · 003/4
+- **Title block:** (356, 18)–(432, 34) mm: WBS · WAAO-BeCk SYSTEMS
+
+Every curve, box, word and wire group: [1977 - WSVN - 31106-04-003 - JACKFIELD ENG (2) (traced).json](1977%20-%20WSVN%20-%2031106-04-003%20-%20JACKFIELD%20ENG%20%282%29%20%28traced%29.json) (the CAD file: `1977 - WSVN - 31106-04-003 - JACKFIELD ENG (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

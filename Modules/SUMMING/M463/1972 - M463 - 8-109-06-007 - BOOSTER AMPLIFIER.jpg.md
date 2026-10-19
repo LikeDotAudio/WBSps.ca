@@ -12,6 +12,18 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 381,925 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 8-109-06-007, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 597 rings, 5,126 straight (7,774 mm) / 1,406 curved (1,291 mm); text 346 rings, 3,403 straight (4,105 mm) / 864 curved (1,026 mm); tb 11 rings, 217 straight (396 mm) / 26 curved (26.0 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.5 @ (46.4, 161.3), r 5.4 @ (46.4, 337.6), r 5.4 @ (46.7, 88.9)
+- **Closed boxes:** 14 (10 in the title block); named: 8-109-06-007; ISSUE; SCALE
+- **Words (OCR):** 43 in 37 lines: E2 · 33/1 · 47k · R2 = · 6k2 · CRA · R6 4K? · R7JIek · z2 · LF356 · ~Clo4-p · -Cii47p
+- **Title block:** (117, 9)–(334, 111) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. GEB · 8 ~ 109F · ENG.MRW 4/78 · BOOSTER AMPLIFIER · CKD: Rak · COMPONENT LAYOUT · APP · SCALE · ISSUE · 8-109-06-007
+
+Every curve, box, word and wire group: [1972 - M463 - 8-109-06-007 - BOOSTER AMPLIFIER (traced).json](1972%20-%20M463%20-%208-109-06-007%20-%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1972 - M463 - 8-109-06-007 - BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

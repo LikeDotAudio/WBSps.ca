@@ -23,6 +23,19 @@ Mechanical drawing of an M402A switch mounting bracket, title block at bottom ri
 - **Size:** 1,465,490 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 402-03-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 9–298 mm up
+- **Outlines:** line 312 rings, 5,058 straight (8,920 mm) / 656 curved (950 mm); text 456 rings, 3,742 straight (4,447 mm) / 1,067 curved (1,697 mm); tb 159 rings, 1,837 straight (2,218 mm) / 209 curved (289 mm)
+- **Centre lines:** 8,914 paths (75 closed); straight 9,840 mm, curved 158 mm; horizontal 4,170 mm, vertical 2,010 mm, diagonal 3,660 mm
+- **Circles and arcs:** 6 circles, 8 arcs; largest r 5.0 @ (126.9, 175.7), r 4.8 @ (169.2, 175.9), r 2.4 @ (184.3, 175.6), r 2.3 @ (111.8, 175.2)
+- **Closed boxes:** 2 (1 in the title block); named: 256unC HoLes Nou 4ofe DJG oc7 69
+- **Words (OCR):** 74 in 61 lines: ISSUE · 5.75 · 256unC · 13 · HoLes Nou 4ofe · 3HOLES 32 DIA · DJG oc7 69 · 812 · 125 · 4.500 · 812 · 49 DIA
+- **Title block:** (182, 6)–(418, 265) mm: ISSUE · 256unC · 13 · HoLes Nou 4ofe · 3HOLES 32 DIA · DJG oc7 69 · 812 · 812 · HOLES · 32 DIA · 1.625 · (TYP) · 3/3 · NOTES · DIMENSIONS SYMMETRICAC ABoot · E"s · UNLESS STATED · 2-SGuNc (2EACH SIDE)
+
+Every curve, box, word and wire group: [1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4 (traced).json](1969%20-%20402-03-004%20-%20SWITCH%20MTG%20BRKT%20M402A%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1969 - 402-03-004 - SWITCH MTG BRKT M402A - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

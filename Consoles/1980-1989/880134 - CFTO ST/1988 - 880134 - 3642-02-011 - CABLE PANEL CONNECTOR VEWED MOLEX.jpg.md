@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,333,150 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-011, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–303 mm across, 0–432 mm up
+- **Outlines:** line 876 rings, 7,803 straight (14,172 mm) / 1,695 curved (2,618 mm); text 321 rings, 2,006 straight (2,026 mm) / 747 curved (950 mm)
+- **Centre lines:** 7,862 paths (135 closed); straight 9,067 mm, curved 1,080 mm; horizontal 3,782 mm, vertical 2,008 mm, diagonal 3,277 mm
+- **Circles and arcs:** 59 circles, 93 arcs; largest r 3.4 @ (161.5, 79.4), r 3.4 @ (153.3, 95.3), r 3.3 @ (161.3, 95.2), r 3.3 @ (161.2, 87.4)
+- **Closed boxes:** 7
+- **Wiring (first pass):** 87 connected wire groups from 650 runs
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-011 - CABLE PANEL CONNECTOR VEWED MOLEX (traced).json](1988%20-%20880134%20-%203642-02-011%20-%20CABLE%20PANEL%20CONNECTOR%20VEWED%20MOLEX%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-011 - CABLE PANEL CONNECTOR VEWED MOLEX (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

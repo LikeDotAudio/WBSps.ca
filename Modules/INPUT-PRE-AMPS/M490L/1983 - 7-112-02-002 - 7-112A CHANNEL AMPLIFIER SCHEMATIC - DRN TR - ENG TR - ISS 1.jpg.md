@@ -24,6 +24,21 @@ Wiki page: [M490L](../../../PAGES/M490L.md)
 - **Size:** 283,669 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 7-112-02-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–338 mm across, 0–430 mm up
+- **Outlines:** line 537 rings, 7,612 straight (9,936 mm) / 1,608 curved (2,197 mm); text 403 rings, 2,875 straight (2,914 mm) / 950 curved (1,382 mm); tb 27 rings, 873 straight (1,372 mm) / 122 curved (171 mm)
+- **Centre lines:** 9,529 paths (65 closed); straight 9,113 mm, curved 192 mm; horizontal 3,401 mm, vertical 2,022 mm, diagonal 3,690 mm
+- **Circles and arcs:** 1 circles, 62 arcs; largest r 1.1 @ (150.3, 300.4)
+- **Closed boxes:** 6; named: 25
+- **Dots (junctions):** 3
+- **Words (OCR):** 109 in 98 lines: Channel on 0 5 · crz · iook · coutrol · 2K2 · ATtenuaTOR · cri · E6 · R+O · Cut Control · 7o · 620
+- **Title block:** (231, 0)–(338, 55) mm: Issue Date · WBS WARD-Beck sybteme · Tr; 9783 · 7-M12A · IR · CHANNEL Amplifier · CKD · RZ · SCHEMATIC · SCALE · 7_12-02-002
+- **Wiring (first pass):** 95 connected wire groups from 586 runs, 2 dotted junctions; labelled ends: 281 mm → E 8, 4li; 191 mm → ES; 190 mm → R2s, R23, 22k, 2eok; 107 mm → Sk, Rzi, Rz0; 85 mm → R37, 25
+
+Every curve, box, word and wire group: [1983 - 7-112-02-002 - 7-112A CHANNEL AMPLIFIER SCHEMATIC - DRN TR - ENG TR - ISS 1 (traced).json](1983%20-%207-112-02-002%20-%207-112A%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1983 - 7-112-02-002 - 7-112A CHANNEL AMPLIFIER SCHEMATIC - DRN TR - ENG TR - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

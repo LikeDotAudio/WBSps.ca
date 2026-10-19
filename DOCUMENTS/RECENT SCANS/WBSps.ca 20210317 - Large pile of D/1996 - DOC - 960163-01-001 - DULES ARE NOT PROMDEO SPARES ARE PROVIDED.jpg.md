@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 22,221,183 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 960163-01-001, size B (assumed) 432 × 278 mm, 2000 × 1290 px traced (0.216 mm/px)
+- **Ink extent:** 23–420 mm across, 4–275 mm up
+- **Outlines:** line 6,176 rings, 39,437 straight (52,250 mm) / 10,795 curved (18,642 mm); text 173 rings, 1,026 straight (1,020 mm) / 298 curved (382 mm); tb 20 rings, 149 straight (178 mm) / 32 curved (40.0 mm)
+- **Centre lines:** 66,674 paths (366 closed); straight 47,319 mm, curved 141 mm; horizontal 18,478 mm, vertical 17,738 mm, diagonal 11,104 mm
+- **Circles and arcs:** 542 circles, 53 arcs; largest r 1.7 @ (366.4, 181.2), r 1.7 @ (80.4, 181.9), r 1.7 @ (353.7, 181.3), r 1.7 @ (102.6, 181.8)
+- **Closed boxes:** 787 (4 in the title block); named: CBC OTTAWA PARLIMENTARY BUREAU INTERCOM ; SCA; DSC * st501; 960163-01-001
+- **Dots (junctions):** 924
+- **Words (OCR):** 25 in 21 lines: LEGEND; · "3543 · OUTPUTS · JUFFER AMPLNER · 'Dl · JoT · 'TJr · 9"D · JET · PAICASU · TEr · 444
+- **Title block:** (341, 20)–(426, 36) mm: WARD-BECK SYSTEMS · WBS · CBC OTTAWA
+- **Wiring (first pass):** 168 connected wire groups from 11,229 runs, 1549 dotted junctions; labelled ends: 21758 mm → JoT, 'TJr, 9"D, JET; 63 mm → 9"D, JET; 51 mm → WBS, PARLIMENTARY BUREAU, SCA, DSC *; 19 mm → TEr; 12 mm → 'Dl
+
+Every curve, box, word and wire group: [1996 - DOC - 960163-01-001 - DULES ARE NOT PROMDEO SPARES ARE PROVIDED (traced).json](1996%20-%20DOC%20-%20960163-01-001%20-%20DULES%20ARE%20NOT%20PROMDEO%20SPARES%20ARE%20PROVIDED%20%28traced%29.json) (the CAD file: `1996 - DOC - 960163-01-001 - DULES ARE NOT PROMDEO SPARES ARE PROVIDED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 10 words corrected)

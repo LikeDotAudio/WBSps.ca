@@ -14,6 +14,18 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,362,090 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 950271-04-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 7–432 mm across, 10–299 mm up
+- **Outlines:** line 217 rings, 2,822 straight (12,360 mm) / 291 curved (415 mm); text 241 rings, 1,882 straight (2,476 mm) / 531 curved (817 mm); tb 3 rings, 78 straight (199 mm) / 3 curved (7.8 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.6 @ (213.6, 123.6), r 1.6 @ (177.0, 123.7)
+- **Closed boxes:** 52 (10 in the title block); named: SCALE; 950271-04-003; ISSUE; CODE: 95271L03
+- **Words (OCR):** 37 in 32 lines: 14 · 14240 · +Z0v0 · 145240 · +Z0v0 · 14-198 · CONROLLBR · BACKPLNNE · CONIROLLER · BACKPLNE · 13 · 12
+- **Title block:** (251, 12)–(422, 79) mm: SSUE · REVISION · APP · WBS · WARD-BECK SYSTEMS · CONTROL · DRN; · WKW · INPUT BUFFER · ENG_ WKW · CKD · SYSTEM REAR · LAYOUT · APP_ · SCALE DISC NO: SYSO1 · ISSUE · 950271-04-003 · CODE: 95271L03
+
+Every curve, box, word and wire group: [1995 - DOC - 950271-04-003 - CONTROLLBR BACXPLANE (traced).json](1995%20-%20DOC%20-%20950271-04-003%20-%20CONTROLLBR%20BACXPLANE%20%28traced%29.json) (the CAD file: `1995 - DOC - 950271-04-003 - CONTROLLBR BACXPLANE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

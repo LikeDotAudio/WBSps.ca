@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 734,462 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 538-04-003, size B (assumed) 200 × 432 mm, 927 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 21–200 mm across, 0–406 mm up
+- **Outlines:** line 58 rings, 2,736 straight (4,897 mm) / 243 curved (398 mm); text 167 rings, 1,881 straight (2,430 mm) / 488 curved (817 mm); tb 7 rings, 196 straight (328 mm) / 19 curved (33.0 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.8 @ (101.6, 154.2), r 3.8 @ (103.7, 389.8)
+- **Closed boxes:** 14 (7 in the title block); named: Msj08 WIs; Msj08 WIs
+- **Words (OCR):** 20 in 15 lines: WIs · Msj08 · ISSUE DATE · REVISION · WBS WARD-BECK SYSTEnE · ORN.BD A · 23 · M538B · ENG: HZw 4X2 MONO SWITCHER MODUL · CKd. X6 ! · FRONT PANEL LAYOUT · APP * 0
+- **Title block:** (20, 0)–(200, 92) mm: ISSUE DATE · REVISION · WBS WARD-BECK SYSTEnE · ORN.BD A · 23 · M538B · ENG: HZw 4X2 MONO SWITCHER MODUL · CKd. X6 ! · FRONT PANEL LAYOUT · APP * 0 · SCALE · 538-04-003 · ISSUE
+
+Every curve, box, word and wire group: [1985 - ST - 538-04-003 - MONO SWITCHER MODULI (traced).json](1985%20-%20ST%20-%20538-04-003%20-%20MONO%20SWITCHER%20MODULI%20%28traced%29.json) (the CAD file: `1985 - ST - 538-04-003 - MONO SWITCHER MODULI (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

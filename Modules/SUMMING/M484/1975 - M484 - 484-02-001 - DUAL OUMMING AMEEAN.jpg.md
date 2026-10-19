@@ -11,6 +11,19 @@ Wiki page: [M484](../../../PAGES/M484.md)
 - **Size:** 2,458,516 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 484-02-001, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–309 mm across, 29–431 mm up
+- **Outlines:** line 1,900 rings, 20,970 straight (19,107 mm) / 5,116 curved (5,808 mm); text 264 rings, 2,631 straight (2,979 mm) / 679 curved (1,030 mm)
+- **Centre lines:** 33,355 paths (158 closed); straight 20,043 mm, curved 428 mm; horizontal 4,568 mm, vertical 4,049 mm, diagonal 11,427 mm
+- **Circles and arcs:** 1 circles, 77 arcs; largest r 1.4 @ (28.6, 157.3)
+- **Closed boxes:** 1; named: MatI .
+- **Words (OCR):** 55 in 50 lines: Ra5 +16 · 22 · 620 · C52 · I0 · Q7 · 24 · 2n7569 · LMzol · 2 46 · 16 · Ik5
+- **Wiring (first pass):** 90 connected wire groups from 1,300 runs; labelled ends: 167 mm → C52, 24, LMzol, R44; 136 mm → Czo, 220/10, R4o, 4k7; 104 mm → P47, 22, 249, 220/10; 94 mm → 2 46, 16, Ik5, R4?; 87 mm → Fwish
+
+Every curve, box, word and wire group: [1975 - M484 - 484-02-001 - DUAL OUMMING AMEEAN (traced).json](1975%20-%20M484%20-%20484-02-001%20-%20DUAL%20OUMMING%20AMEEAN%20%28traced%29.json) (the CAD file: `1975 - M484 - 484-02-001 - DUAL OUMMING AMEEAN (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

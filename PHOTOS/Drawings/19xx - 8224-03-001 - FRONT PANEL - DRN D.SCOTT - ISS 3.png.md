@@ -19,6 +19,19 @@ Wiki page: [Consoles](../../PAGES/Consoles.md)
 - **Size:** 1,531,380 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 8224-03-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 256
+- **Ink extent:** 0–432 mm across, 10–298 mm up
+- **Outlines:** line 229 rings, 2,939 straight (8,377 mm) / 442 curved (684 mm); text 843 rings, 5,564 straight (6,505 mm) / 1,875 curved (2,701 mm); tb 6 rings, 115 straight (259 mm) / 15 curved (36.5 mm)
+- **Centre lines:** 9,984 paths (144 closed); straight 10,002 mm, curved 217 mm; horizontal 3,499 mm, vertical 2,311 mm, diagonal 4,191 mm
+- **Circles and arcs:** 5 circles, 23 arcs; largest r 8.3 @ (189.2, 163.9), r 8.2 @ (241.6, 163.9), r 4.7 @ (241.8, 183.3), r 1.2 @ (105.3, 200.8)
+- **Closed boxes:** 20 (13 in the title block); named: FINISH REVSED WAS MATTE GREY; SCALE; 8224-03-001; ISSUE; 8224M01 CODE:
+- **Words (OCR):** 87 in 64 lines: 0.3750 · 0.071 · 0.130 · & CSK TO 0.240 · 0.193 · 6 PLACES · 4.000 · 0.371 · 3.258 · DETAIL A · 2.629 · 0.484
+- **Title block:** (252, 22)–(422, 96) mm: FINISH REVSED WAS MATTE GREY · DRAWNG REVSED · ISSUE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN: D.SCOTT · ENG · FRONT PANEL · CKD: · APP_ · SCALE DISC NO: 256 · ISSUE · 8224-03-001 · CODE: · 822
+
+Every curve, box, word and wire group: [19xx - 8224-03-001 - FRONT PANEL - DRN D.SCOTT - ISS 3 (traced).json](19xx%20-%208224-03-001%20-%20FRONT%20PANEL%20-%20DRN%20D.SCOTT%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 8224-03-001 - FRONT PANEL - DRN D.SCOTT - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

@@ -24,6 +24,21 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 4,218,540 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 441-02-013, size B 432 × 140 mm, 2000 × 648 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–140 mm up
+- **Outlines:** line 909 rings, 7,658 straight (13,801 mm) / 1,726 curved (2,123 mm); text 537 rings, 3,158 straight (2,704 mm) / 1,099 curved (1,391 mm); tb 26 rings, 170 straight (205 mm) / 49 curved (57.2 mm)
+- **Centre lines:** 10,682 paths (294 closed); straight 10,420 mm, curved 180 mm; horizontal 4,104 mm, vertical 2,372 mm, diagonal 3,944 mm
+- **Circles and arcs:** 6 circles, 60 arcs; largest r 0.9 @ (375.6, 43.2), r 0.9 @ (361.2, 114.8), r 0.8 @ (380.2, 91.6), r 0.8 @ (272.3, 104.6)
+- **Closed boxes:** 47 (4 in the title block); named: WBS LTD; MAAIM AMpLiIFIER CHANNEL SCHENAATC; 441-02-013
+- **Dots (junctions):** 3
+- **Words (OCR):** 98 in 86 lines: Switch · A20s · Sw6 · BN8{ · FOLDBACK C44 R232 · Sw = · PHESE · R238 · 25 A230 · LINE INPUT · R3i22 · OUTPUT
+- **Title block:** (348, 6)–(385, 28) mm: WBS · IScALE
+- **Wiring (first pass):** 83 connected wire groups from 721 runs, 2 dotted junctions; labelled ends: 413 mm → PC I8i, LTD, IScALE; 201 mm → BN8{, 848, 290, 5428; 126 mm → 25, 290, 5428, switch; 122 mm → 75; 88 mm → 0255, 75
+
+Every curve, box, word and wire group: [1973 - 441-02-013 - M441M CHANNEL AMPLIFIER SCHEMATIC - DRN GP - ISS 4 (traced).json](1973%20-%20441-02-013%20-%20M441M%20CHANNEL%20AMPLIFIER%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%204%20%28traced%29.json) (the CAD file: `1973 - 441-02-013 - M441M CHANNEL AMPLIFIER SCHEMATIC - DRN GP - ISS 4 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

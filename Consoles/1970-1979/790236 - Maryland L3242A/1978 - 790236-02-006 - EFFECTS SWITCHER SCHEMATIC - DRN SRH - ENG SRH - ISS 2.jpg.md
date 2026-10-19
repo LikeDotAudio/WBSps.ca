@@ -24,6 +24,21 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 3,919,229 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 790236-02-006, size B (assumed) 432 × 147 mm, 2000 × 682 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–147 mm up
+- **Outlines:** line 706 rings, 8,757 straight (10,368 mm) / 1,565 curved (1,865 mm); text 116 rings, 764 straight (687 mm) / 235 curved (281 mm); tb 26 rings, 199 straight (228 mm) / 53 curved (61.3 mm)
+- **Centre lines:** 16,740 paths (192 closed); straight 10,158 mm, curved 138 mm; horizontal 3,334 mm, vertical 2,694 mm, diagonal 4,130 mm
+- **Circles and arcs:** 3 circles, 41 arcs; largest r 0.9 @ (221.7, 68.5), r 0.8 @ (221.0, 41.9), r 0.8 @ (192.1, 41.9)
+- **Closed boxes:** 10 (6 in the title block); named: H46- Filter; 44594 Effects
+- **Dots (junctions):** 1
+- **Words (OCR):** 23 in 18 lines: 401 · 2828 · H46- · Filter · InPUTS · 6840 Ch2 · C42 · 44594 Effects · Bi · RELAYS · ISSUE DALE · REVISION
+- **Title block:** (348, 5)–(432, 41) mm: ISSUE DALE · REVISION · WBS WARD-BECK systems · Erects 5 /TCHER · SCHEYATIC · SCAle · 730236-02 Oos · ISsuF
+- **Wiring (first pass):** 100 connected wire groups from 853 runs, 2 dotted junctions; labelled ends: 57 mm → ISSUE DALE; 33 mm → Ch2; 31 mm → C42; 29 mm → 44594; 21 mm → 2828
+
+Every curve, box, word and wire group: [1978 - 790236-02-006 - EFFECTS SWITCHER SCHEMATIC - DRN SRH - ENG SRH - ISS 2 (traced).json](1978%20-%20790236-02-006%20-%20EFFECTS%20SWITCHER%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1978 - 790236-02-006 - EFFECTS SWITCHER SCHEMATIC - DRN SRH - ENG SRH - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

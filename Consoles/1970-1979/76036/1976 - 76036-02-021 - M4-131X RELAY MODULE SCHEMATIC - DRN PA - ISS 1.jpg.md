@@ -22,6 +22,18 @@ Wiki page: [Job-76036](../../../PAGES/Job-76036.md)
 - **Size:** 5,529,698 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 76036-02-021, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 772 rings, 9,327 straight (10,634 mm) / 1,489 curved (1,860 mm); text 209 rings, 1,519 straight (1,616 mm) / 477 curved (690 mm)
+- **Centre lines:** 7,001 paths (61 closed); straight 7,393 mm, curved 193 mm; horizontal 3,319 mm, vertical 1,552 mm, diagonal 2,522 mm
+- **Circles and arcs:** 5 circles, 21 arcs; largest r 7.8 @ (216.6, 138.9), r 7.8 @ (272.7, 139.3), r 1.6 @ (209.5, 73.9), r 1.2 @ (210.0, 168.3)
+- **Closed boxes:** 29
+- **Wiring (first pass):** 36 connected wire groups from 428 runs
+
+Every curve, box, word and wire group: [1976 - 76036-02-021 - M4-131X RELAY MODULE SCHEMATIC - DRN PA - ISS 1 (traced).json](1976%20-%2076036-02-021%20-%20M4-131X%20RELAY%20MODULE%20SCHEMATIC%20-%20DRN%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1976 - 76036-02-021 - M4-131X RELAY MODULE SCHEMATIC - DRN PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -10,6 +10,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,110,525 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-005, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–368 mm up
+- **Outlines:** line 177 rings, 2,181 straight (5,830 mm) / 392 curved (631 mm); text 379 rings, 2,318 straight (2,415 mm) / 682 curved (911 mm)
+- **Centre lines:** 3,181 paths (59 closed); straight 4,703 mm, curved 237 mm; horizontal 2,189 mm, vertical 1,075 mm, diagonal 1,439 mm
+- **Circles and arcs:** 1 circles, 45 arcs; largest r 3.7 @ (9.0, 110.6)
+- **Words (OCR):** 78 in 66 lines: SUMMING · BUSES FROM SUBS · AUX · & 25,26 · PINS 23,24 · AUX INSERT · P2 · dBm · 9,K · LEFT · U19 · W1g
+- **Wiring (first pass):** 31 connected wire groups from 191 runs; labelled ends: 1466 mm → U20, U21, PINS, PIN-21; 64 mm → U19; 63 mm → U23; 62 mm → U2; 34 mm → U20
+
+Every curve, box, word and wire group: [1988 - 880134 - 3642-02-005 - SUMMING BUSES FROM SUBS PINS (traced).json](1988%20-%20880134%20-%203642-02-005%20-%20SUMMING%20BUSES%20FROM%20SUBS%20PINS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 3642-02-005 - SUMMING BUSES FROM SUBS PINS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

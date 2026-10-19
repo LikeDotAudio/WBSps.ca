@@ -23,6 +23,19 @@ Wiki page: [M468](../../../PAGES/M468.md)
 - **Size:** 1,258,601 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 468-03-018, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO:
+- **Ink extent:** 0–432 mm across, 9–298 mm up
+- **Outlines:** line 183 rings, 2,399 straight (5,575 mm) / 350 curved (381 mm); text 452 rings, 3,075 straight (3,787 mm) / 956 curved (1,372 mm); tb 5 rings, 95 straight (256 mm) / 8 curved (13.8 mm)
+- **Centre lines:** 7,105 paths (69 closed); straight 6,379 mm, curved 13.9 mm; horizontal 2,381 mm, vertical 1,348 mm, diagonal 2,650 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 19 (9 in the title block); named: MATERIAL WAS BACOLITE; SCALE; 468-03-018; 468M18 CODE:
+- **Words (OCR):** 48 in 34 lines: ASSEMBLY · MILL OFF   THIS SECTION · OF LEVER KEY CAP · MILLED KEY CAP · 0.250 · GLUE   TOGETHER WTH · SUPER_BONDER #495 · LOcTTE · NOTES: · MATERIAL WAS BACOLITE · REMOVE ALL BURRS AND · 7/88
+- **Title block:** (250, 19)–(420, 86) mm: MATERIAL WAS BACOLITE · 7/88 · DRG · ISSUEI DATE · REVSION · APP · WBS · WARD-BECK SYSTEMS · DRN DRG 5/88 · ENG · KEY CAP JOINER · CKD: · APP_ · SCALE DISC NO: · 178 · 468-03-018 · ISSUE · CODE: · 468
+
+Every curve, box, word and wire group: [1988 - 468-03-018 - KEY CAP JOINER - DRN DRG - ISS 2 (traced).json](1988%20-%20468-03-018%20-%20KEY%20CAP%20JOINER%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1988 - 468-03-018 - KEY CAP JOINER - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

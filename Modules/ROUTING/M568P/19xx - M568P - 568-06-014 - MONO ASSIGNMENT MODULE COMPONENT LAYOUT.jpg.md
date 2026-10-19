@@ -11,6 +11,19 @@ Wiki page: [M568P](../../../PAGES/M568P.md)
 - **Size:** 3,528,139 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 568-06-014, size B (assumed) 363 × 432 mm, 1682 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 30–363 mm across, 0–432 mm up
+- **Outlines:** line 1,785 rings, 18,724 straight (25,692 mm) / 5,689 curved (6,075 mm); text 1,052 rings, 8,155 straight (7,563 mm) / 2,913 curved (3,330 mm); tb 51 rings, 386 straight (510 mm) / 135 curved (144 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 6.8 @ (243.2, 324.3), r 5.8 @ (69.3, 176.2), r 5.8 @ (67.2, 388.0), r 3.7 @ (228.4, 341.7)
+- **Closed boxes:** 45 (4 in the title block); named: U5 LFISSSSN; kza
+- **Dots (junctions):** 5
+- **Words (OCR):** 148 in 127 lines: R67 · On · R69 · OP · 22p · R71 · or · 22p · R73 · 48238286222 220/10 · ZcF-Ght-AA · R94
+- **Title block:** (234, 43)–(333, 238) mm: A0 OB · Reszk+ · WBS · CANADA · 14-181 · R8z22k · ISSUE · WBS WARD-BECK · MS68P
+
+Every curve, box, word and wire group: [19xx - M568P - 568-06-014 - MONO ASSIGNMENT MODULE COMPONENT LAYOUT (traced).json](19xx%20-%20M568P%20-%20568-06-014%20-%20MONO%20ASSIGNMENT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `19xx - M568P - 568-06-014 - MONO ASSIGNMENT MODULE COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

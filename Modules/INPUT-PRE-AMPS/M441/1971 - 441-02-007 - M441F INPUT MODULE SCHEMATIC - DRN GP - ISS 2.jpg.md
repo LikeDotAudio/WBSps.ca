@@ -23,6 +23,20 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 4,531,728 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 441-02-007, size B 432 × 132 mm, 2000 × 609 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 1–132 mm up
+- **Outlines:** line 2,265 rings, 15,404 straight (17,736 mm) / 2,909 curved (3,315 mm); text 217 rings, 1,116 straight (853 mm) / 285 curved (325 mm)
+- **Centre lines:** 10,263 paths (213 closed); straight 9,368 mm, curved 106 mm; horizontal 3,316 mm, vertical 2,558 mm, diagonal 3,495 mm
+- **Circles and arcs:** 5 circles, 37 arcs; largest r 0.8 @ (334.0, 23.8), r 0.7 @ (189.0, 124.1), r 0.7 @ (230.5, 113.4), r 0.7 @ (384.3, 56.9)
+- **Closed boxes:** 14; named: LiD:
+- **Dots (junctions):** 13
+- **Words (OCR):** 33 in 28 lines: 244923 · +40v · SMTCH · NoTE · 182 · HTATED · Tw 57 Ohts · [ieqto T8 · Outm · 2535 · Reitt · REMOTL TURAET CONTFO
+- **Wiring (first pass):** 135 connected wire groups from 960 runs, 7 dotted junctions; labelled ends: 162 mm → Swec; 127 mm → Sw2d Re; 91 mm → SMTCH; 78 mm → T8; 71 mm → LiD:, Finish
+
+Every curve, box, word and wire group: [1971 - 441-02-007 - M441F INPUT MODULE SCHEMATIC - DRN GP - ISS 2 (traced).json](1971%20-%20441-02-007%20-%20M441F%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GP%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1971 - 441-02-007 - M441F INPUT MODULE SCHEMATIC - DRN GP - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

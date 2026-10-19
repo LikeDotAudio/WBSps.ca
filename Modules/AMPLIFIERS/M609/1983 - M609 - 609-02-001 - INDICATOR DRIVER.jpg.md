@@ -11,6 +11,19 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 415,526 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 609-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 7–338 mm across, 6–404 mm up
+- **Outlines:** line 155 rings, 3,128 straight (7,193 mm) / 473 curved (689 mm); text 174 rings, 1,230 straight (1,044 mm) / 449 curved (577 mm)
+- **Centre lines:** 2,483 paths (49 closed); straight 4,598 mm, curved 130 mm; horizontal 2,028 mm, vertical 1,568 mm, diagonal 1,001 mm
+- **Circles and arcs:** 4 circles, 28 arcs; largest r 1.2 @ (185.7, 87.6), r 1.0 @ (285.3, 96.0), r 0.9 @ (189.2, 85.7), r 0.9 @ (189.1, 96.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 42 in 38 lines: Pz-8 · InPuT · aBm To aBm · NOMiNAL · aBm MaXIMUM · Jok · Pz-16 · InPUT ShIELD Pz-7 · F201 · 0.254 · Tzo1 · Pi-7
+- **Wiring (first pass):** 53 connected wire groups from 175 runs; labelled ends: 333 mm → Pz-8, Pz-16; 159 mm → Pz-1; 149 mm → Pz-I0; 63 mm → Pi-16; 57 mm → Tzo1, J0-21-2
+
+Every curve, box, word and wire group: [1983 - M609 - 609-02-001 - INDICATOR DRIVER (traced).json](1983%20-%20M609%20-%20609-02-001%20-%20INDICATOR%20DRIVER%20%28traced%29.json) (the CAD file: `1983 - M609 - 609-02-001 - INDICATOR DRIVER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,21 @@ Wiki page: [M523](../../../PAGES/M523.md)
 - **Size:** 4,409,691 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-087-02-001, size B (assumed) 432 × 292 mm, 2000 × 1353 px traced (0.216 mm/px)
+- **Ink extent:** 1–424 mm across, 9–290 mm up
+- **Outlines:** line 1,527 rings, 14,015 straight (20,398 mm) / 2,894 curved (3,493 mm); text 85 rings, 597 straight (648 mm) / 147 curved (215 mm); tb 2 rings, 41 straight (98.8 mm) / 4 curved (6.3 mm)
+- **Centre lines:** 12,418 paths (365 closed); straight 12,047 mm, curved 451 mm; horizontal 4,500 mm, vertical 3,678 mm, diagonal 3,869 mm
+- **Circles and arcs:** 11 circles, 41 arcs; largest r 2.8 @ (346.0, 178.2), r 2.7 @ (73.1, 173.8), r 2.7 @ (228.6, 178.6), r 2.7 @ (87.4, 179.0)
+- **Closed boxes:** 13
+- **Dots (junctions):** 1
+- **Words (OCR):** 7 in 7 lines: WBS · WARD-BeCK SYSTEMS · SA 14-087 · Output AMPLIFIER · SCHEMATIC · 14-087-02-00 1 · ISS.
+- **Title block:** (339, 31)–(432, 48) mm: WBS · WARD-BeCK SYSTEMS
+- **Wiring (first pass):** 132 connected wire groups from 1,143 runs
+
+Every curve, box, word and wire group: [1985 - M523 - B 14-087-02-001 - SA14-087 OUTPUT AMPLIFIER - SCHEMATIC (traced).json](1985%20-%20M523%20-%20B%2014-087-02-001%20-%20SA14-087%20OUTPUT%20AMPLIFIER%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M523 - B 14-087-02-001 - SA14-087 OUTPUT AMPLIFIER - SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 8 words corrected)

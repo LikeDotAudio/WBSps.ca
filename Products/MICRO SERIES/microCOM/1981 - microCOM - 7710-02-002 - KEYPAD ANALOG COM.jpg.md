@@ -11,6 +11,18 @@ Wiki page: [microCOM](../../../PAGES/microCOM.md)
 - **Size:** 7,528,518 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 7710-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 2–432 mm across, 0–288 mm up
+- **Outlines:** line 1,338 rings, 10,874 straight (15,897 mm) / 2,331 curved (2,721 mm); text 339 rings, 2,197 straight (1,925 mm) / 684 curved (814 mm)
+- **Centre lines:** 14,971 paths (303 closed); straight 11,347 mm, curved 70.7 mm; horizontal 4,743 mm, vertical 2,564 mm, diagonal 4,040 mm
+- **Circles and arcs:** 3 circles, 13 arcs; largest r 2.0 @ (202.9, 227.6), r 1.3 @ (378.4, 10.7), r 1.1 @ (362.8, 10.7)
+- **Closed boxes:** 12
+- **Wiring (first pass):** 147 connected wire groups from 1,087 runs
+
+Every curve, box, word and wire group: [1981 - microCOM - 7710-02-002 - KEYPAD ANALOG COM (traced).json](1981%20-%20microCOM%20-%207710-02-002%20-%20KEYPAD%20ANALOG%20COM%20%28traced%29.json) (the CAD file: `1981 - microCOM - 7710-02-002 - KEYPAD ANALOG COM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

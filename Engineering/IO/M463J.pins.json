@@ -1,0 +1,416 @@
+{
+ "code": "M463J",
+ "name": "Submaster Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "",
+   "rows": 22,
+   "letters": false,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "INPUT",
+   "kind": "in",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 1 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "2",
+   "row": 2,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 2 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "PA OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 3 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "FB OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 4 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "5",
+   "row": 5,
+   "side": "num",
+   "signal": "FB OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 5 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "RS OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 6 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "RS OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 7 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "SOLO OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 8 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "FADER OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 9 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "10",
+   "row": 10,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 10 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "11",
+   "row": 11,
+   "side": "num",
+   "signal": "MI OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 11 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "13",
+   "row": 13,
+   "side": "num",
+   "signal": "SHIELD",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 13 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "14",
+   "row": 14,
+   "side": "num",
+   "signal": "PREFADE IN",
+   "kind": "in",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 14 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "15",
+   "row": 15,
+   "side": "num",
+   "signal": "FADER IN",
+   "kind": "in",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 15 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "16",
+   "row": 16,
+   "side": "num",
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 16 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "17",
+   "row": 17,
+   "side": "num",
+   "signal": "MONITOR OUT",
+   "kind": "out",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 17 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "CTL COM",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 18 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "25V",
+   "kind": "other",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 19 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "\u00b1COMMON",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 20 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "+25V",
+   "kind": "power",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 21 of the drawing, right of the pin column",
+   "also": []
+  },
+  {
+   "conn": "",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "CHASSIS GND",
+   "kind": "ground",
+   "conf": "medium",
+   "how": "drawing rows",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "fec7614ac0751ec5063dbaf4e2bed4328a37e82f21425db650d9f3648fa3d455",
+    "file": "Modules/SUMMING/M463J/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+    "page": 1
+   },
+   "quote": "row 22 of the drawing, right of the pin column",
+   "also": []
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

@@ -25,6 +25,20 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 1,974,842 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 463-02-005, size B 432 × 141 mm, 2000 × 653 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 1–139 mm up
+- **Outlines:** line 894 rings, 6,106 straight (9,135 mm) / 946 curved (1,046 mm); text 75 rings, 330 straight (262 mm) / 96 curved (113 mm)
+- **Centre lines:** 3,988 paths (108 closed); straight 4,813 mm, curved 19.9 mm; horizontal 2,502 mm, vertical 1,213 mm, diagonal 1,097 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 27; named: WBSs
+- **Dots (junctions):** 4
+- **Words (OCR):** 12 in 10 lines: SoL0 · EILC · Loti · WAAD · Beck BYBTEME LTO · WBSs · autpuT · M 463 · SLe-MASTER · 463-02.005
+- **Wiring (first pass):** 42 connected wire groups from 367 runs; labelled ends: 516 mm → LTO, BYBTEME; 11 mm → BYBTEME, LTO; 7 mm → SLe-MASTER
+
+Every curve, box, word and wire group: [1976 - 463-02-005 - E SUB-MASTER MODULE - DRN AF - ISS 2 (traced).json](1976%20-%20463-02-005%20-%20E%20SUB-MASTER%20MODULE%20-%20DRN%20AF%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1976 - 463-02-005 - E SUB-MASTER MODULE - DRN AF - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

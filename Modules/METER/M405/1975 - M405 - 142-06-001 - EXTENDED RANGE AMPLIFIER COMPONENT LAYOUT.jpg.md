@@ -11,6 +11,19 @@ Wiki page: [M405](../../../PAGES/M405.md)
 - **Size:** 170,144 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 142-06-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 14–319 mm across, 14–431 mm up
+- **Outlines:** line 389 rings, 3,555 straight (5,753 mm) / 1,076 curved (1,146 mm); text 723 rings, 4,928 straight (4,750 mm) / 1,759 curved (2,045 mm); tb 4 rings, 68 straight (148 mm) / 13 curved (12.4 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 5.8 @ (179.7, 303.0), r 1.5 @ (76.7, 308.4), r 1.4 @ (76.5, 277.8), r 1.4 @ (229.4, 216.6)
+- **Closed boxes:** 2; named: 44 2N3645 00 04 2 8 51 2N4LOI 2N5087 914
+- **Dots (junctions):** 2
+- **Words (OCR):** 62 in 55 lines: 44 00 · 2N3645 · 04 · 2 8 · 51 · 2N4LOI · 2N5087 · 914 · 43 2 2 · 1Op · Pi · 2NLLOI
+- **Title block:** (201, 48)–(326, 73) mm: WBS WARD-BeCk BYBTEMB
+
+Every curve, box, word and wire group: [1975 - M405 - 142-06-001 - EXTENDED RANGE AMPLIFIER COMPONENT LAYOUT (traced).json](1975%20-%20M405%20-%20142-06-001%20-%20EXTENDED%20RANGE%20AMPLIFIER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1975 - M405 - 142-06-001 - EXTENDED RANGE AMPLIFIER COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

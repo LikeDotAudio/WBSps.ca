@@ -15,6 +15,17 @@ Wiki page: [M470A](../../../PAGES/M470A.md)
 
 - **1977** (labelled): `DATE MAY 77` — …CTED TC TNTERNALLY CONNECTED WBS WARD-BECK bybtems LTD DRN: DATE MAY 77 CKD_Ais SCALE M47oA FIMISH [NPUt MODULE CONNECTOR REAR VIEW…
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-005, size B (assumed) 432 × 305 mm, 1473 × 1039 px traced (0.293 mm/px)
+- **Ink extent:** 0–432 mm across, 0–295 mm up
+- **Outlines:** line 194 rings, 2,246 straight (6,886 mm) / 322 curved (600 mm); text 914 rings, 5,571 straight (7,803 mm) / 1,664 curved (2,959 mm); tb 13 rings, 135 straight (316 mm) / 23 curved (42.0 mm)
+- **Closed boxes:** 62 (22 in the title block); named: C| 3; F| 6; K 9; K| 9; L O; N/12; 5 15; T 16; Wl1g; W 19; Xi20; Y 2 1
+- **Words (OCR):** 188 in 112 lines: MASTER 2 OuT · MASTER · LINE IN · LINE IN · TC · Ic · NC · NC · SUB OUT · SUB Out · DRECT C| 3 · DRECT
+- **Title block:** (163, 6)–(377, 62) mm: ISS MOD [CKD MATL . · WBS WARD-BECK bybtems · 2 18461 DB · DRN: · FIMISH · DATE MAY · 77 · [NPUt MODULE · M47oA · CKD_Ais · CONNECTOR REAR VIEW · SCALE · TOLS
+
+Every curve, box, word and wire group: [1977 - M470A - 470-04-005 - FIMISH NPUT MODULE CONNECTOR REAR VIEW (traced).json](1977%20-%20M470A%20-%20470-04-005%20-%20FIMISH%20NPUT%20MODULE%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1977 - M470A - 470-04-005 - FIMISH NPUT MODULE CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

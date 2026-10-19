@@ -15,6 +15,20 @@ Wiki page: [M472](../../../PAGES/M472.md)
 
 - **1977** (labelled): `DRAWN 9/77` — …Ut FREQ_ Hi LO boosti Cut LF SHELF MF PEAK HF SHELF 10/77 REDRAWN 9/77 TERMINOLOGY UPDATED REVISION AAS ISSUE DATE APP WBS WARO-BE…
 
+## Vectors (traced)
+
+- **Sheet:** functional 472-01-001, size B (assumed) 432 × 323 mm, 2000 × 1494 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–302 mm up
+- **Outlines:** line 172 rings, 2,410 straight (7,275 mm) / 238 curved (369 mm); text 321 rings, 2,295 straight (3,012 mm) / 596 curved (946 mm); tb 15 rings, 169 straight (365 mm) / 26 curved (38.0 mm)
+- **Centre lines:** 2,562 paths (44 closed); straight 5,600 mm, curved 35.2 mm; horizontal 2,518 mm, vertical 1,395 mm, diagonal 1,687 mm
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 4.4 @ (226.7, 193.3), r 1.2 @ (184.2, 104.5)
+- **Closed boxes:** 12 (10 in the title block)
+- **Words (OCR):** 46 in 39 lines: EQ · INSERT · output · INPUT · BST · BST · ~8dBm · ~8 dBm · BoOST/ · BooSTI · BoosTi · FREQ.
+- **Title block:** (263, 2)–(432, 97) mm: 10/77 · REDRAWN · 9/77 TERMINOLOGY UPDATED · AAS · ISSUE |DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN MRW · M472 · ENG_ RKB · EQUALIZER MODULE · CKD Rell · FUNCTIONAL DIAGRAM · APP · ~SCALE 
+- **Wiring (first pass):** 95 connected wire groups from 187 runs; labelled ends: 438 mm → INPUT, ~8dBm, BST; 121 mm → output, ~8 dBm; 87 mm → HF  SHELF; 57 mm → CUt; 40 mm → BST
+
+Every curve, box, word and wire group: [1977 - M472 - 472-01-001 - TERMINOLOGY UPDATED AAS (traced).json](1977%20-%20M472%20-%20472-01-001%20-%20TERMINOLOGY%20UPDATED%20AAS%20%28traced%29.json) (the CAD file: `1977 - M472 - 472-01-001 - TERMINOLOGY UPDATED AAS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

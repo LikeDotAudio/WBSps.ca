@@ -27,6 +27,20 @@ Wiki page: [M501](../../../PAGES/M501.md)
 
 - **1968** (labelled): `DATE 24 MAY-68` — …O <hJk <6.2k 25/15 PC BOARD NO M438 DRN C.S.OCONNELL FINISH DATE 24 MAY-68 CHKD MATERIAL WARD BECK_SYSTEMS Ltd, 501A PREAMP SCHEMATIC…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 501-02-002, size B 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–350 mm across, 0–324 mm up
+- **Outlines:** line 982 rings, 9,522 straight (10,854 mm) / 1,478 curved (1,808 mm); text 290 rings, 1,640 straight (1,612 mm) / 515 curved (691 mm); tb 34 rings, 187 straight (158 mm) / 42 curved (44.8 mm)
+- **Centre lines:** 19,545 paths (114 closed); straight 10,627 mm, curved 270 mm; horizontal 3,340 mm, vertical 2,363 mm, diagonal 4,925 mm
+- **Circles and arcs:** 6 circles, 35 arcs; largest r 6.9 @ (272.9, 216.8), r 6.7 @ (270.2, 149.4), r 1.4 @ (335.8, 170.5), r 1.4 @ (335.2, 148.5)
+- **Closed boxes:** 4 (3 in the title block)
+- **Words (OCR):** 67 in 53 lines: IN4 148 · ep · LMLol · (975 · 470 · RI3 · CRZ · R3 · IN2o70 · I00/ 70 · 68k · IOK
+- **Title block:** (188, 56)–(385, 98) mm: FINISH · DRN C.S.OCONNELL · WARD BECK_SYSTEMS Lid. · DATE | 24 MAY-68 · CHKD · MATERIAL · 50IA PREAMP SCHEMATIC · SCALE · TOLsEREE DEC PLACES
+- **Wiring (first pass):** 100 connected wire groups from 614 runs; labelled ends: 152 mm → 2n4037; 93 mm → 50IA, SPUEMEDNGLES, TOLsEREE; 76 mm → CRZ, IN2o70, ZN3053, Koz; 49 mm → 470, 212; 34 mm → 300, 680p <
+
+Every curve, box, word and wire group: [1968 - 501-02-002 - 501A PREAMP SCHEMATIC - DRN C.S. O'CONNELL - ISS 1 (traced).json](1968%20-%20501-02-002%20-%20501A%20PREAMP%20SCHEMATIC%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1968 - 501-02-002 - 501A PREAMP SCHEMATIC - DRN C.S. O'CONNELL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

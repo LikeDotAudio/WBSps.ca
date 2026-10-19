@@ -12,6 +12,20 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 6,086,635 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-081-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 17–305 mm up
+- **Outlines:** line 302 rings, 3,598 straight (8,780 mm) / 742 curved (1,053 mm); text 662 rings, 3,678 straight (3,656 mm) / 1,299 curved (1,677 mm); tb 2 rings, 37 straight (98.8 mm) / 1 curved (1.9 mm)
+- **Centre lines:** 4,701 paths (133 closed); straight 7,060 mm, curved 368 mm; horizontal 2,740 mm, vertical 1,834 mm, diagonal 2,486 mm
+- **Circles and arcs:** 16 circles, 61 arcs; largest r 5.8 @ (115.6, 129.6), r 5.7 @ (79.2, 129.8), r 1.3 @ (123.6, 123.6), r 1.1 @ (210.9, 206.6)
+- **Closed boxes:** 2
+- **Words (OCR):** 103 in 90 lines: FILTER · PHANTOM · 225 · AL RESISTORS 1/Lw 59 AND · POWER · Swi · 150 · ALL CAPACiToRS ARE · UF · LED · R13 · UNLESS OtheRWiSE SPECIFIED .
+- **Title block:** (339, 48)–(431, 65) mm: WBS · WAAD-BeCK BYBTEMB
+- **Wiring (first pass):** 55 connected wire groups from 390 runs; labelled ends: 278 mm → Sw3, SWZ, 33/10, R3R; 184 mm → I5k, 138, 22p, 220; 170 mm → 68/10 LF3SGN, 068, R2O, 33k; 169 mm → 68/10; 110 mm → R14, 56k, R1S, 7AA
+
+Every curve, box, word and wire group: [1988 - M520 - 14-081-02-001 - PREAMPLIFIER ASSEMBLY SCHEMATIC (traced).json](1988%20-%20M520%20-%2014-081-02-001%20-%20PREAMPLIFIER%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1988 - M520 - 14-081-02-001 - PREAMPLIFIER ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

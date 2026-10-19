@@ -21,6 +21,19 @@ Wiki page: [Job-950362](../../../PAGES/Job-950362.md)
 - **Size:** 506,347 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 950362-03-001, size D 864 × 553 mm, 2000 × 1280 px traced (0.432 mm/px)
+- **Ink extent:** 108–864 mm across, 12–439 mm up
+- **Outlines:** line 426 rings, 3,235 straight (15,949 mm) / 519 curved (1,226 mm); text 213 rings, 1,283 straight (2,561 mm) / 396 curved (1,013 mm); tb 25 rings, 185 straight (400 mm) / 51 curved (108 mm)
+- **Centre lines:** 4,230 paths (134 closed); straight 10,865 mm, curved 17.0 mm; horizontal 4,827 mm, vertical 3,246 mm, diagonal 2,792 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 38; named: METER PANEL (6 X EDGEWISE); 950362-03-001
+- **Words (OCR):** 26 in 23 lines: 17.1o · 540-1 · 7.555 15.110 · 3,555 · DETAIL · REQ'D · 0,600 · MATERIAL: · ALUM ALLOY 0.125 · ThICK: · FINISH: SAND · 120 GRIT AND
+- **Title block:** (680, 43)–(848, 77) mm: WARD-BECK SYSTEMS · WBS · METER PANEL
+
+Every curve, box, word and wire group: [1995 - 950362-03-001 - METER PANEL (6 X EDGEWISE) - DRN DRG - ISS 1 (traced).json](1995%20-%20950362-03-001%20-%20METER%20PANEL%20%286%20X%20EDGEWISE%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 950362-03-001 - METER PANEL (6 X EDGEWISE) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

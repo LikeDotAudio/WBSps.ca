@@ -15,6 +15,20 @@ Wiki page: [M490F](../../../PAGES/M490F.md)
 
 - **1978** (labelled): `DRAWN 2/78` — …oGic ASSIGN CUE Ch On ON TALLY ASSIGN Ch Onx Ch OFFX 2/78 REDRAWN 2/78 MACHINE CONTROLS REVISED ISSUE DATE REVISION ON IsTART TIME…
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-006, size B (assumed) 432 × 265 mm, 2000 × 1226 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–265 mm up
+- **Outlines:** line 642 rings, 6,384 straight (13,158 mm) / 914 curved (1,248 mm); text 542 rings, 3,875 straight (4,448 mm) / 1,066 curved (1,600 mm); tb 22 rings, 167 straight (185 mm) / 46 curved (67.1 mm)
+- **Centre lines:** 6,235 paths (82 closed); straight 9,393 mm, curved 97.8 mm; horizontal 3,703 mm, vertical 2,379 mm, diagonal 3,311 mm
+- **Circles and arcs:** 7 circles, 9 arcs; largest r 3.3 @ (172.2, 103.9), r 3.1 @ (145.1, 103.7), r 1.5 @ (21.5, 109.1), r 1.1 @ (21.4, 109.3)
+- **Closed boxes:** 20 (10 in the title block); named: PGmi CUE CTL Logic; 490-01-006; SCALE
+- **Words (OCR):** 79 in 73 lines: FADER · (_I5dB) · Ch ON · BAL · INSERT · INSERT · BAL · P1 LEFT · LEFT · P2 LEFT · LEFT · SENSITiVITY
+- **Title block:** (289, 9)–(432, 90) mm: 2/78 · REDRAWN · 2/78 MACHINE CONTROLS REVISED · ISSUE DATE · REVISION · WBS WARD-BECK SYSTEMS · DRN_ GEB · M490F · ENG GEB 2 /78 · STEREO INPUT MODULE · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 490
+- **Wiring (first pass):** 196 connected wire groups from 592 runs; labelled ends: 143 mm → CUE; 142 mm → (_I5dB), PRE /post, CUE; 87 mm → BAL; 81 mm → LEFT, RIGHT, INPUT; 81 mm → PGmi, CUE, CTL, Logic
+
+Every curve, box, word and wire group: [1978 - M490F - 490-01-006 - ISTART TIMER RESET OFF TALLY OFFISTOP (traced).json](1978%20-%20M490F%20-%20490-01-006%20-%20ISTART%20TIMER%20RESET%20OFF%20TALLY%20OFFISTOP%20%28traced%29.json) (the CAD file: `1978 - M490F - 490-01-006 - ISTART TIMER RESET OFF TALLY OFFISTOP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

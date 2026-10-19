@@ -15,6 +15,18 @@ Wiki page: [M621](../../../PAGES/M621.md)
 
 - **1970** (labelled): `DATE 27 july 70` — …Fz DK MARD " BECK SYSHENS LTD 460] FINISH DRN P.p $ M 6 2 | DATE 27 july 70 20 W MONITOR AMPLIFIER P C B LA OUT MATERIAL CHD n4 scne 2'…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 173-06-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 7–432 mm across, 0–286 mm up
+- **Outlines:** line 1,367 rings, 14,708 straight (19,276 mm) / 4,272 curved (4,169 mm); text 476 rings, 3,679 straight (3,364 mm) / 1,131 curved (1,251 mm); tb 20 rings, 247 straight (226 mm) / 65 curved (67.6 mm)
+- **Circles and arcs:** 17 circles, 0 arcs; largest r 10.0 @ (352.1, 217.8), r 9.9 @ (404.2, 195.2), r 8.3 @ (319.0, 211.3), r 8.2 @ (382.1, 185.5)
+- **Closed boxes:** 46 (4 in the title block); named: ~42; 232; ~14?; ~RA; ~RA; 1R15; el; 234; REU; Re; c 27; 2 4
+- **Words (OCR):** 78 in 65 lines: Holes For TransFer · OF · TrAcK ONLY · 2 2 · Lrbe · RII · 232 · HR44 · c12 · ~42 · 22 · ~14?
+- **Title block:** (265, 20)–(385, 60) mm: SHHEus WARD BECK · M 6 2 | · DATE · 27 JULY 70 · 20W · LA(OUT
+
+Every curve, box, word and wire group: [1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (2) (traced).json](1970%20-%20M621%20-%20B%20173-06-001%20-%20M621%20-%2020W%20MONITOR%20AMPLIFIER%20-%20P.C.B.%20LAYOUT%20%282%29%20%28traced%29.json) (the CAD file: `1970 - M621 - B 173-06-001 - M621 - 20W MONITOR AMPLIFIER - P.C.B. LAYOUT (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

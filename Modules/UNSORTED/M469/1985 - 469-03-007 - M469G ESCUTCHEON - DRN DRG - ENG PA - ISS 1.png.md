@@ -25,6 +25,20 @@ Wiki page: [M469](../../../PAGES/M469.md)
 - **Size:** 1,819,621 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 469-03-007, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 273 rings, 4,285 straight (11,764 mm) / 626 curved (977 mm); text 405 rings, 3,289 straight (4,232 mm) / 909 curved (1,520 mm); tb 40 rings, 341 straight (482 mm) / 72 curved (104 mm)
+- **Centre lines:** 5,601 paths (98 closed); straight 9,772 mm, curved 82.4 mm; horizontal 4,020 mm, vertical 2,494 mm, diagonal 3,258 mm
+- **Circles and arcs:** 0 circles, 19 arcs
+- **Closed boxes:** 18 (9 in the title block); named: 4t9-63-007; SCALE; ISSUE
+- **Dots (junctions):** 1
+- **Words (OCR):** 61 in 49 lines: HoTCS · REMcvc ACC · Zurrs · Sharp · 1.480 · USC WiTH: · Extrusion · FrAME · C469-03 Oos · For S/s ACtiokk · 3469-03-067/ai · 1.025
+- **Title block:** (277, 13)–(430, 82) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · ENG_ PA · m4t9 G · CKDS · APP · SCALE · 4t9-63-007 · ISSUE
+
+Every curve, box, word and wire group: [1985 - 469-03-007 - M469G ESCUTCHEON - DRN DRG - ENG PA - ISS 1 (traced).json](1985%20-%20469-03-007%20-%20M469G%20ESCUTCHEON%20-%20DRN%20DRG%20-%20ENG%20PA%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1985 - 469-03-007 - M469G ESCUTCHEON - DRN DRG - ENG PA - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

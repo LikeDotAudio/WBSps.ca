@@ -22,6 +22,18 @@ Wiki page: [Job-960195](../../../PAGES/Job-960195.md)
 - **Size:** 674,128 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 960195-04-001, size D 864 × 554 mm, 2000 × 1282 px traced (0.432 mm/px)
+- **Ink extent:** 141–858 mm across, 13–450 mm up
+- **Outlines:** line 973 rings, 6,506 straight (38,768 mm) / 1,117 curved (3,883 mm); text 96 rings, 574 straight (1,183 mm) / 182 curved (490 mm); tb 17 rings, 142 straight (343 mm) / 25 curved (63.6 mm)
+- **Circles and arcs:** 26 circles, 0 arcs; largest r 9.0 @ (271.5, 196.8), r 9.0 @ (309.2, 196.8), r 9.0 @ (384.9, 196.6), r 9.0 @ (347.2, 196.7)
+- **Closed boxes:** 115 (5 in the title block); named: CBC MF_7 UTILITY FRAME LAYOUT; 960195-04-001; SJJE; CODI- 96193101
+- **Words (OCR):** 11 in 9 lines: AEMsIO" · BECK SYSTEMS · WBS WARD · CBC · MF_7 UTILITY FRAME · LAYOUT · 960195-04-001 · SJJE · CODI- 96193101
+- **Title block:** (681, 44)–(849, 77) mm: AEMsIO" · BECK SYSTEMS · WBS WARD · CBC
+
+Every curve, box, word and wire group: [1996 - 960195-04-001 - CBC MF-7 UTILITY FRAME LAYOUT - DRN DRG JUL - ISS 2 (traced).json](1996%20-%20960195-04-001%20-%20CBC%20MF-7%20UTILITY%20FRAME%20LAYOUT%20-%20DRN%20DRG%20JUL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1996 - 960195-04-001 - CBC MF-7 UTILITY FRAME LAYOUT - DRN DRG JUL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

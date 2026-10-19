@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,319,041 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 94022-01-001, size B (assumed) 432 × 277 mm, 2000 × 1285 px traced (0.216 mm/px)
+- **Ink extent:** 33–430 mm across, 7–221 mm up
+- **Outlines:** line 825 rings, 5,899 straight (13,556 mm) / 825 curved (1,049 mm); text 129 rings, 957 straight (1,080 mm) / 267 curved (351 mm); tb 15 rings, 156 straight (173 mm) / 34 curved (35.5 mm)
+- **Centre lines:** 12,205 paths (139 closed); straight 9,265 mm, curved 163 mm; horizontal 3,213 mm, vertical 3,384 mm, diagonal 2,668 mm
+- **Circles and arcs:** 0 circles, 40 arcs
+- **Closed boxes:** 29 (3 in the title block); named: COLLEGE CENTENNIAL SYSTEM INTERCOM LAYOU; 001 94022-01; CODE: 94012F01
+- **Words (OCR):** 16 in 16 lines: SYSIM LAYQUI · IPH-4D · NQIES; · CLELACOU · SYSTEM_EUNCTIONAL · WARD-BECK SYSTEMS · WBS) · CENTENNIAL · COLLEGE · INTERCOM · SYSTEM · FUNCTIONAL
+- **Title block:** (341, 22)–(425, 40) mm: WARD-BECK SYSTEMS · WBS) · CENTENNIAL · COLLEGE
+- **Wiring (first pass):** 168 connected wire groups from 894 runs; labelled ends: 53 mm → LAYOUT, 001, FUNCTIONAL, 94022-01; 16 mm → CODE: 94012F01, FUNCTIONAL; 7 mm → IPH-4D; 5 mm → WBS)
+
+Every curve, box, word and wire group: [1994 - DOC - 94022-01-001 - OTHERS CEXISRCG BELTPACKS SYSTEM FUNCTIONAL SSUEI REVISION (traced).json](1994%20-%20DOC%20-%2094022-01-001%20-%20OTHERS%20CEXISRCG%20BELTPACKS%20SYSTEM%20FUNCTIONAL%20SSUEI%20REVISION%20%28traced%29.json) (the CAD file: `1994 - DOC - 94022-01-001 - OTHERS CEXISRCG BELTPACKS SYSTEM FUNCTIONAL SSUEI REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

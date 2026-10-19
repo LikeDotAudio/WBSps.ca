@@ -10,6 +10,18 @@ Wiki page: [Job-76045](../../../PAGES/Job-76045.md)
 - **Size:** 34,760,877 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 7645-04-001, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–278 mm up
+- **Outlines:** line 922 rings, 6,270 straight (12,901 mm) / 683 curved (861 mm); text 427 rings, 2,063 straight (1,520 mm) / 599 curved (682 mm); tb 29 rings, 163 straight (212 mm) / 20 curved (22.3 mm)
+- **Closed boxes:** 37 (23 in the title block); named: WBS WAAD-BeCK bybteMs LTD; 28/4/2 TELEVISION AUDIO CONSOLE LAYOUT; 76 0 4 5 0 4 - 001; ISS,
+- **Dots (junctions):** 1
+- **Words (OCR):** 71 in 57 lines: PFL/CUE · LAc | · INSERT JACKFIELD ( I20 · Ring-SLEEvE JacKS) · 46 8 R · assignment MODULES ( 28) · M4784 · 4466 · Ha6 · EQUALiZeRS · LINE · AND
+- **Title block:** (298, 3)–(411, 32) mm: ISS MOD CKD · USED · MATL · ji · WBS WAAD-BeCK bybteMs LTD · Tor'Joner aniSF · DRA: KOl_h · FINISH · DATEIAJA · 28/4/2 TELEVISION AUDIO CONSOLE · CKD · SCALE · LAYOUT · TOLS _ · 76 0 4 5 0 4 - 001
+
+Every curve, box, word and wire group: [1976 - 76045 - 7645-04-001 - ORIR JAAMADI KEOMED MCTICA (traced).json](1976%20-%2076045%20-%207645-04-001%20-%20ORIR%20JAAMADI%20KEOMED%20MCTICA%20%28traced%29.json) (the CAD file: `1976 - 76045 - 7645-04-001 - ORIR JAAMADI KEOMED MCTICA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

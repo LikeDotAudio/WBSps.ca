@@ -16,6 +16,19 @@ Wiki page: [M468](../../../PAGES/M468.md)
 
 - **1970** (month): `OCT 70` — …i Sw8 FIMISH DJ6 WARD BECK SYSHES LTd PC/78 COMPONENT LaoUT OCT 70 MATERIAL 2xFUlL FRACT: 1 1/64 DEC TO PLACES GIVEM ANGLES +…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 178-06-001, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 1,429 rings, 12,209 straight (12,302 mm) / 3,521 curved (3,316 mm); text 455 rings, 4,175 straight (3,844 mm) / 1,271 curved (1,327 mm); tb 1 rings, 13 straight (14.8 mm) / 5 curved (5.0 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 4.9 @ (207.1, 366.8), r 4.9 @ (172.2, 169.4), r 1.8 @ (150.4, 359.3), r 1.3 @ (166.1, 301.0)
+- **Closed boxes:** 10; named: DJ6; FIMISH; SYSTELS WARD BECK; OCT 70; PCI78 COMPONENT LaYoUT; MATERIAL; 2xFU_L; 178 0o1 06; ISS.
+- **Dots (junctions):** 3
+- **Words (OCR):** 63 in 46 lines: Sws(No) · '3(o) · swz(nl) · 035 · 057 · Q1 · CR · K5 13 14 CR · CR · K7 · I0 · CR
+- **Title block:** (172, 60)–(251, 91) mm: WARD BECK
+
+Every curve, box, word and wire group: [1970 - M468 - 178-06-001 - BEND RAD UNLESS SPECIFED (traced).json](1970%20-%20M468%20-%20178-06-001%20-%20BEND%20RAD%20UNLESS%20SPECIFED%20%28traced%29.json) (the CAD file: `1970 - M468 - 178-06-001 - BEND RAD UNLESS SPECIFED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

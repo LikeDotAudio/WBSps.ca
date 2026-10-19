@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 20,889,700 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 94021-04-005, size B (assumed) 432 × 270 mm, 2000 × 1250 px traced (0.216 mm/px)
+- **Ink extent:** 0–419 mm across, 12–270 mm up
+- **Outlines:** line 515 rings, 3,540 straight (12,140 mm) / 536 curved (852 mm); text 100 rings, 609 straight (656 mm) / 206 curved (279 mm); tb 56 rings, 359 straight (335 mm) / 91 curved (110 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 3.0 @ (229.5, 87.4), r 3.0 @ (206.6, 87.5), r 3.0 @ (243.3, 87.4), r 3.0 @ (192.8, 87.6)
+- **Closed boxes:** 54 (12 in the title block)
+- **Dots (junctions):** 1
+- **Words (OCR):** 10 in 9 lines: WBS · WARD-BECK SYSTEMS · CENTRAL ELECTRONICS · GLENAGOULD STUDIO · LAYOUT #2 · SCALE · 04071L05 · 94021. · 005
+- **Title block:** (327, 10)–(413, 42) mm: WBS · WARD-BECK SYSTEMS · CENTRAL ELECTRONICS · GLENAGOULD STUDIO · LAYOUT #2 · SCALE · 04071L05 · 94021. · 005
+
+Every curve, box, word and wire group: [1994 - DOC - 94021-04-005 - OHACQT AOPOR RCSOFFLY OTKES VSADJ W-ADJ MAINSTUDIO- CREDENZA (traced).json](1994%20-%20DOC%20-%2094021-04-005%20-%20OHACQT%20AOPOR%20RCSOFFLY%20OTKES%20VSADJ%20W-ADJ%20MAINSTUDIO-%20CREDENZA%20%28traced%29.json) (the CAD file: `1994 - DOC - 94021-04-005 - OHACQT AOPOR RCSOFFLY OTKES VSADJ W-ADJ MAINSTUDIO- CREDENZA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

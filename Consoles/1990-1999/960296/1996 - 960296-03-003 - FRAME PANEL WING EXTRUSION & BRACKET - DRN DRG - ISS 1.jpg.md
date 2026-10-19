@@ -20,6 +20,20 @@ Wiki page: [Job-960296](../../../PAGES/Job-960296.md)
 - **Size:** 428,004 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960296-03-003, size D 864 × 558 mm, 2000 × 1291 px traced (0.432 mm/px)
+- **Ink extent:** 175–819 mm across, 38–509 mm up
+- **Outlines:** line 594 rings, 4,112 straight (19,526 mm) / 717 curved (1,927 mm); text 420 rings, 2,197 straight (4,129 mm) / 792 curved (2,007 mm); tb 138 rings, 893 straight (1,520 mm) / 241 curved (558 mm)
+- **Centre lines:** 7,031 paths (220 closed); straight 14,986 mm, curved 342 mm; horizontal 6,355 mm, vertical 3,694 mm, diagonal 4,936 mm
+- **Circles and arcs:** 2 circles, 22 arcs; largest r 31.8 @ (593.3, 458.5), r 2.4 @ (384.2, 114.6)
+- **Closed boxes:** 27 (2 in the title block); named: FRAME /PANEL BRACKET IING EXTRUSION; 960296 003; 5t501
+- **Dots (junctions):** 1
+- **Words (OCR):** 58 in 54 lines: JaU · 0.534 · 203F · '250 · 3.OCO · 0,210 · DETAIL · 5.480 - · Scale · 44.8SS · 0.140 DIA · 0.125 DIA
+- **Title block:** (564, 69)–(831, 448) mm: DETAIL · Scale · 96296M03-1 AS SHOWN · 96296M03-2 OPP HAND · JD · TEXTURCD · texcoT? · SHART · WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [1996 - 960296-03-003 - FRAME PANEL WING EXTRUSION & BRACKET - DRN DRG - ISS 1 (traced).json](1996%20-%20960296-03-003%20-%20FRAME%20PANEL%20WING%20EXTRUSION%20%26%20BRACKET%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960296-03-003 - FRAME PANEL WING EXTRUSION & BRACKET - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

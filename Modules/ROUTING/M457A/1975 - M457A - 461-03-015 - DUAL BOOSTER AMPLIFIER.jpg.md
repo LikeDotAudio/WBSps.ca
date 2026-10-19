@@ -15,6 +15,19 @@ Wiki page: [M457A](../../../PAGES/M457A.md)
 
 - **1975** (labelled): `DATE FEB 75` — …3 3142 GEB USED O MATL . WBS WARD-BECK BYSTEMB LTD: DRN: DM DATE FEB 75 CKD R SCALE 2:1 XX TOLS _ ~Fa 5-I01B DUAL BOOSTER AMPLIFIER…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 461-03-015, size B (assumed) 432 × 342 mm, 2000 × 1586 px traced (0.216 mm/px)
+- **Ink extent:** 8–432 mm across, 0–332 mm up
+- **Outlines:** line 322 rings, 5,303 straight (11,328 mm) / 837 curved (1,591 mm); text 873 rings, 8,027 straight (10,127 mm) / 2,272 curved (3,822 mm); tb 29 rings, 240 straight (475 mm) / 36 curved (63.2 mm)
+- **Centre lines:** 8,091 paths (102 closed); straight 13,484 mm, curved 294 mm; horizontal 5,067 mm, vertical 2,541 mm, diagonal 5,876 mm
+- **Circles and arcs:** 16 circles, 33 arcs; largest r 8.4 @ (122.4, 253.6), r 7.8 @ (246.2, 251.9), r 5.3 @ (22.0, 106.2), r 4.1 @ (22.2, 106.0)
+- **Closed boxes:** 29 (3 in the title block); named: 24 Lm3o; 23 Lm3o; 22 Lmzo; 21 Lm3oi; MATL_; GEB
+- **Words (OCR):** 125 in 87 lines: @E7 · E8 0 0E3 · E4 0 · Ras 23_ · Rac -23 · R22 23 · R23 23 · R434k7 · R2o4k7 · R44 4k7 · R21 4k7 · R5O
+- **Title block:** (232, 7)–(368, 67) mm: WBS WARD-BECK BySTEMI LTD: · DRN: · DM · 5_I01B · DATE FEB 75 · DUAL BOOSTER AMPLIFIER · LAYOUT · SCALE
+
+Every curve, box, word and wire group: [1975 - M457A - 461-03-015 - DUAL BOOSTER AMPLIFIER (traced).json](1975%20-%20M457A%20-%20461-03-015%20-%20DUAL%20BOOSTER%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M457A - 461-03-015 - DUAL BOOSTER AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

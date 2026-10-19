@@ -22,6 +22,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 3,946,742 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic LB 880134-02-016, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 281 rings, 3,524 straight (5,966 mm) / 709 curved (982 mm); text 94 rings, 596 straight (726 mm) / 179 curved (257 mm)
+- **Centre lines:** 3,038 paths (42 closed); straight 3,957 mm, curved 221 mm; horizontal 1,646 mm, vertical 1,092 mm, diagonal 1,220 mm
+- **Circles and arcs:** 15 circles, 26 arcs; largest r 2.7 @ (17.4, 237.2), r 2.2 @ (339.3, 39.6), r 1.7 @ (402.8, 64.7), r 1.5 @ (335.7, 21.0)
+- **Closed boxes:** 15
+- **Wiring (first pass):** 32 connected wire groups from 251 runs
+
+Every curve, box, word and wire group: [1988 - 880134-02-016 - MACHINE CONTROLS SCHEMATIC - DRN PA - ENG PA - ISS 1 (2) (traced).json](1988%20-%20880134-02-016%20-%20MACHINE%20CONTROLS%20SCHEMATIC%20-%20DRN%20PA%20-%20ENG%20PA%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1988 - 880134-02-016 - MACHINE CONTROLS SCHEMATIC - DRN PA - ENG PA - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

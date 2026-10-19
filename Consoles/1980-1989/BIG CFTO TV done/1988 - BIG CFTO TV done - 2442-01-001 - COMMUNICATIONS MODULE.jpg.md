@@ -10,6 +10,20 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,745,626 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 2442-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–305 mm across, 0–432 mm up
+- **Outlines:** line 577 rings, 9,380 straight (24,925 mm) / 675 curved (1,080 mm); text 318 rings, 2,327 straight (2,797 mm) / 705 curved (1,024 mm)
+- **Centre lines:** 6,973 paths (58 closed); straight 13,962 mm, curved 159 mm; horizontal 5,758 mm, vertical 6,043 mm, diagonal 2,161 mm
+- **Circles and arcs:** 11 circles, 14 arcs; largest r 1.4 @ (270.6, 249.2), r 1.4 @ (270.3, 217.5), r 1.3 @ (11.9, 3.7), r 1.3 @ (12.0, 19.3)
+- **Closed boxes:** 302; named: dBm; I( -15dB); SUB MONO dBm 6000
+- **Dots (junctions):** 1
+- **Words (OCR):** 35 in 28 lines: SUB SUB 1-R · 4M435 · 48 € 8 · M523_STEREQ_SUBMASTER (4) · INSERTS · MONITOR · dBm · MONITOR · I( -15dB) · OL SUB · dBm · 6000
+- **Wiring (first pass):** 139 connected wire groups from 1,083 runs, 1 dotted junctions; labelled ends: 4560 mm → 48 € 8, COMMUNCATONS_MQDULE; 906 mm → COMMUNCATONS_MQDULE, 0T/8 DIRECT, 01/8; 397 mm → 48 € 8, M523_STEREQ_SUBMASTER (4), M523 STEREO; 261 mm → 48 € 8; 110 mm → I( -15dB)
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 2442-01-001 - COMMUNICATIONS MODULE (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%202442-01-001%20-%20COMMUNICATIONS%20MODULE%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 2442-01-001 - COMMUNICATIONS MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

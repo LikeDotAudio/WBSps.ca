@@ -10,6 +10,18 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,973,420 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 790236-01-001, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–302 mm across, 1–432 mm up
+- **Outlines:** line 422 rings, 4,831 straight (9,229 mm) / 845 curved (1,109 mm); text 470 rings, 2,783 straight (3,026 mm) / 911 curved (1,283 mm)
+- **Centre lines:** 6,204 paths (112 closed); straight 7,158 mm, curved 145 mm; horizontal 3,192 mm, vertical 1,596 mm, diagonal 2,371 mm
+- **Circles and arcs:** 11 circles, 26 arcs; largest r 1.5 @ (101.8, 260.0), r 1.4 @ (187.7, 142.2), r 1.3 @ (181.0, 210.6), r 1.3 @ (232.2, 340.6)
+- **Closed boxes:** 15
+- **Wiring (first pass):** 70 connected wire groups from 372 runs
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-01-001 - SPEAKER CUE EXT CUE AMP INPUT (traced).json](1979%20-%20790236%20-%20790236-01-001%20-%20SPEAKER%20CUE%20EXT%20CUE%20AMP%20INPUT%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-01-001 - SPEAKER CUE EXT CUE AMP INPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

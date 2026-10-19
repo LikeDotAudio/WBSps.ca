@@ -11,6 +11,20 @@ Wiki page: [M497A](../../../PAGES/M497A.md)
 - **Size:** 835,267 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 497-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 335 rings, 4,792 straight (9,431 mm) / 789 curved (1,024 mm); text 693 rings, 5,601 straight (5,485 mm) / 1,944 curved (2,689 mm); tb 20 rings, 137 straight (205 mm) / 23 curved (25.3 mm)
+- **Centre lines:** 9,262 paths (128 closed); straight 9,633 mm, curved 156 mm; horizontal 3,028 mm, vertical 2,508 mm, diagonal 4,097 mm
+- **Circles and arcs:** 0 circles, 44 arcs
+- **Closed boxes:** 14 (5 in the title block); named: 8-I09E WAS 4-ioge; 7/8]
+- **Words (OCR):** 149 in 134 lines: NOTES · ALL ReSistors 'W,5 % AND · ALL CAPACiTORS IN · Af · UNLESS · Otherwise · Specified · 2.LAST COMPONENT DESIGNATiON · C34, cR4,06,R794Z6_ · 3.USE · PCB 7-113 · +2iv
+- **Title block:** (224, 0)–(336, 60) mm: IssU |DATE · RevIsION · WBS · WARD-BECK ByBTEMB · DRN: · MRw · Ma97im4?7A · ENG.MrW Ioity · DUAL MASTER MODULE · CKD. Ra: · SCHEMATIC · ApP · SCALE · ISSUE · 497-02-001
+- **Wiring (first pass):** 75 connected wire groups from 243 runs; labelled ends: 178 mm → RA5, 300, IE6, R47; 150 mm → R54  75k, R5s, R5R 7, Rs6; 143 mm → R5s, VVC, 300, 2E61; 142 mm → 300, r48, Rso, 620; 98 mm → 7/8], 8-I09E
+
+Every curve, box, word and wire group: [1978 - M497A - 497-02-001 - VERSION RARR ARE FRONT PANEL LEVEL CONTROLS (traced).json](1978%20-%20M497A%20-%20497-02-001%20-%20VERSION%20RARR%20ARE%20FRONT%20PANEL%20LEVEL%20CONTROLS%20%28traced%29.json) (the CAD file: `1978 - M497A - 497-02-001 - VERSION RARR ARE FRONT PANEL LEVEL CONTROLS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

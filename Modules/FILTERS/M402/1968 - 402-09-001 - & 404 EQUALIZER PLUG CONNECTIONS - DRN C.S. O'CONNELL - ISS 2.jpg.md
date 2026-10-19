@@ -23,6 +23,19 @@ Wiki page: [M402](../../../PAGES/M402.md)
 - **Size:** 4,496,645 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** wiring B 402-09-001, size B 307 × 432 mm, 1423 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–281 mm across, 7–431 mm up
+- **Outlines:** line 586 rings, 6,201 straight (11,236 mm) / 1,024 curved (1,830 mm); text 305 rings, 1,842 straight (1,873 mm) / 432 curved (615 mm)
+- **Centre lines:** 3,303 paths (31 closed); straight 6,595 mm, curved 715 mm; horizontal 2,221 mm, vertical 2,625 mm, diagonal 1,749 mm
+- **Circles and arcs:** 29 circles, 46 arcs; largest r 8.9 @ (57.5, 265.7), r 8.9 @ (161.4, 106.4), r 8.9 @ (58.2, 105.1), r 4.0 @ (161.4, 106.5)
+- **Closed boxes:** 19; named: 33 40; 33 40
+- **Words (OCR):** 5 in 5 lines: 33 · 40 · 83 · le · 26
+- **Wiring (first pass):** 98 connected wire groups from 574 runs; labelled ends: 45 mm → 83; 27 mm → 83; 20 mm → le; 12 mm → 83; 11 mm → 83
+
+Every curve, box, word and wire group: [1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2 (traced).json](1968%20-%20402-09-001%20-%20%26%20404%20EQUALIZER%20PLUG%20CONNECTIONS%20-%20DRN%20C.S.%20O%27CONNELL%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1968 - 402-09-001 - & 404 EQUALIZER PLUG CONNECTIONS - DRN C.S. O'CONNELL - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

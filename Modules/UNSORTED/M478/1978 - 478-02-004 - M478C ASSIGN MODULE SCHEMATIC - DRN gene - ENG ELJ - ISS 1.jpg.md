@@ -24,6 +24,20 @@ Wiki page: [M478](../../../PAGES/M478.md)
 - **Size:** 1,688,220 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 478-02-004, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 349 rings, 6,211 straight (14,113 mm) / 1,065 curved (1,473 mm); text 253 rings, 1,983 straight (2,365 mm) / 572 curved (794 mm); tb 19 rings, 187 straight (268 mm) / 18 curved (20.7 mm)
+- **Centre lines:** 6,725 paths (74 closed); straight 9,503 mm, curved 491 mm; horizontal 3,592 mm, vertical 3,010 mm, diagonal 2,902 mm
+- **Circles and arcs:** 43 circles, 54 arcs; largest r 1.6 @ (31.3, 137.4), r 1.4 @ (41.6, 153.4), r 1.4 @ (31.0, 153.1), r 1.4 @ (67.6, 153.0)
+- **Closed boxes:** 36 (9 in the title block)
+- **Words (OCR):** 51 in 49 lines: Sw · Sn3 · Sw5 · Sw7 · SW 5 · <14 · Zlo 5 · gios · Sisk · I5k · {i5k · Sisk
+- **Title block:** (278, 13)–(432, 81) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN_ene [MMz · M478C · ENG. ElJ · ASSIGN MODULE · CKD: · SCHEMATIC · APP · SCALE · ISSUE · 478-02-004
+- **Wiring (first pass):** 72 connected wire groups from 440 runs; labelled ends: 816 mm → Sisk, I5k, {i5k, Si5k; 701 mm → Sisk, {i5k, I5k, Xi5k; 70 mm → Snz, gij; 61 mm → <14; 60 mm → Zlo 5
+
+Every curve, box, word and wire group: [1978 - 478-02-004 - M478C ASSIGN MODULE SCHEMATIC - DRN gene - ENG ELJ - ISS 1 (traced).json](1978%20-%20478-02-004%20-%20M478C%20ASSIGN%20MODULE%20SCHEMATIC%20-%20DRN%20gene%20-%20ENG%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1978 - 478-02-004 - M478C ASSIGN MODULE SCHEMATIC - DRN gene - ENG ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

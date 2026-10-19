@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 19,678,832 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950362-03-001, size B (assumed) 432 × 276 mm, 2000 × 1280 px traced (0.216 mm/px)
+- **Ink extent:** 54–432 mm across, 6–220 mm up
+- **Outlines:** line 426 rings, 3,250 straight (7,977 mm) / 523 curved (615 mm); text 211 rings, 1,270 straight (1,272 mm) / 388 curved (496 mm); tb 25 rings, 183 straight (199 mm) / 51 curved (54.0 mm)
+- **Centre lines:** 4,175 paths (138 closed); straight 5,414 mm, curved 10.2 mm; horizontal 2,403 mm, vertical 1,612 mm, diagonal 1,398 mm
+- **Circles and arcs:** 0 circles, 4 arcs
+- **Closed boxes:** 15; named: METER PANEL (6 X EDGEWISE); 950362-03-001
+- **Words (OCR):** 24 in 21 lines: 7,555 15.110 · .380 · DETAIL · REQ'D · 0,600 · MATERIAL: · ALUK ALLOY 0.125 · MhICK: · FINISH: SAND · 120 GRIT AND PAINT · VINYL. · TEXTURED CREY   TEXCOTE
+- **Title block:** (340, 22)–(424, 39) mm: WARD-BECK SYSTEMS · WBS · METER PANEL
+
+Every curve, box, word and wire group: [1995 - DOC - 950362-03-001 - NOTE REMOVE ALL BURRS AND SHARP EDCES TOLERANCES (traced).json](1995%20-%20DOC%20-%20950362-03-001%20-%20NOTE%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20EDCES%20TOLERANCES%20%28traced%29.json) (the CAD file: `1995 - DOC - 950362-03-001 - NOTE REMOVE ALL BURRS AND SHARP EDCES TOLERANCES (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

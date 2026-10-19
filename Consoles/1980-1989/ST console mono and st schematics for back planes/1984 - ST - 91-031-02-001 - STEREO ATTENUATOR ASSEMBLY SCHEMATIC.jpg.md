@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 8,312,416 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 91-031-02-001, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–426 mm across, 26–305 mm up
+- **Outlines:** line 258 rings, 2,441 straight (4,741 mm) / 456 curved (666 mm); text 356 rings, 2,221 straight (2,293 mm) / 752 curved (1,034 mm)
+- **Centre lines:** 2,932 paths (58 closed); straight 4,012 mm, curved 206 mm; horizontal 1,333 mm, vertical 1,114 mm, diagonal 1,565 mm
+- **Circles and arcs:** 10 circles, 37 arcs; largest r 6.0 @ (93.3, 135.1), r 6.0 @ (93.9, 204.5), r 3.2 @ (93.2, 135.2), r 3.2 @ (93.9, 204.5)
+- **Closed boxes:** 1
+- **Words (OCR):** 53 in 43 lines: PENNY GILE · 030573 · (4252 · E77 · Left · com · Output · INPUT · Pk · Left · INPUT · output
+- **Wiring (first pass):** 60 connected wire groups from 251 runs; labelled ends: 76 mm → output, RighT, SW, 3 8; 69 mm → 3 8; 58 mm → 3 8; 30 mm → RD; 30 mm → Pk
+
+Every curve, box, word and wire group: [1984 - ST - 91-031-02-001 - STEREO ATTENUATOR ASSEMBLY SCHEMATIC (traced).json](1984%20-%20ST%20-%2091-031-02-001%20-%20STEREO%20ATTENUATOR%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1984 - ST - 91-031-02-001 - STEREO ATTENUATOR ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

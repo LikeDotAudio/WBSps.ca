@@ -11,6 +11,18 @@ Wiki page: [M497B](../../../PAGES/M497B.md)
 - **Size:** 887,008 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 497-06-005, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 1–432 mm up
+- **Outlines:** line 451 rings, 5,692 straight (10,851 mm) / 1,627 curved (1,676 mm); text 463 rings, 4,122 straight (4,011 mm) / 1,362 curved (1,540 mm); tb 64 rings, 606 straight (780 mm) / 136 curved (150 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 9.3 @ (47.0, 295.8), r 6.1 @ (138.7, 322.1), r 3.0 @ (68.0, 259.9), r 2.6 @ (23.0, 110.3)
+- **Closed boxes:** 17 (7 in the title block); named: 45; 46; 44 Lmloiay
+- **Words (OCR):** 78 in 71 lines: RB J5 · ~C4 · 330/6 Cz9 ZuLsV · R7s LeK · Rii JsK · (62 · ~cM-047 · R22 620 R28 <29 · Clo+ · Rig · 44 · 45
+- **Title block:** (80, 0)–(334, 145) mm: WBS · CANADA · 7-113 · Pn3s9 · Pnjst9 · ai · ISSU IDATE · REVISION · WBS · WARD-BECK BYBTEMB · DRN: · TR · M497B · MRW · ENG_ · DUAL MASTER · MODULE · LAYOUT · COMPONENT · App · SCALE · ISSUE · 497-06
+
+Every curve, box, word and wire group: [1983 - M497B - 497-06-005 - DUAL MASTER MODULE (traced).json](1983%20-%20M497B%20-%20497-06-005%20-%20DUAL%20MASTER%20MODULE%20%28traced%29.json) (the CAD file: `1983 - M497B - 497-06-005 - DUAL MASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -22,6 +22,20 @@ Schematic of the SA14-121 VU meter amplifier.
 - **Size:** 550,569 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-121-02-001, size B 432 × 323 mm, 2000 × 1495 px traced (0.216 mm/px)
+- **Ink extent:** 3–422 mm across, 6–316 mm up
+- **Outlines:** line 115 rings, 3,764 straight (6,902 mm) / 516 curved (762 mm); text 703 rings, 6,699 straight (7,071 mm) / 2,009 curved (2,931 mm); tb 2 rings, 61 straight (139 mm) / 2 curved (3.2 mm)
+- **Centre lines:** 7,832 paths (92 closed); straight 8,856 mm, curved 223 mm; horizontal 2,629 mm, vertical 2,184 mm, diagonal 4,043 mm
+- **Circles and arcs:** 19 circles, 25 arcs; largest r 2.1 @ (378.6, 294.9), r 2.1 @ (378.6, 283.6), r 1.7 @ (378.7, 283.4), r 1.4 @ (175.1, 195.4)
+- **Closed boxes:** 1; named: U2
+- **Words (OCR):** 164 in 134 lines: CAL · 22P · Cw · R16 · R20 · 43k · R17 · METER DRIVE · sok · P1 · R3 · R13
+- **Title block:** (291, 35)–(378, 54) mm: WBS WARD-BECK SYSTEM8
+- **Wiring (first pass):** 60 connected wire groups from 268 runs; labelled ends: 246 mm → 22/25, R23, R27, 10/25; 190 mm → R13, sk, RI, R3; 170 mm → R5, 270k, sk, RI; 165 mm → LM31ZLZ, R25, P1, 1N4OO3; 155 mm → LM31ZLZ, +22v, R25, R26
+
+Every curve, box, word and wire group: [19xx - 14-121-02-001 - SA14-121 VU METER AMPLIFIER SCHEMATIC - ISS 5 (traced).json](19xx%20-%2014-121-02-001%20-%20SA14-121%20VU%20METER%20AMPLIFIER%20SCHEMATIC%20-%20ISS%205%20%28traced%29.json) (the CAD file: `19xx - 14-121-02-001 - SA14-121 VU METER AMPLIFIER SCHEMATIC - ISS 5 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

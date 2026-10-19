@@ -24,6 +24,19 @@ Wiki page: [M524](../../../PAGES/M524.md)
 - **Size:** 1,327,961 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 524-03-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 11–298 mm up
+- **Outlines:** line 176 rings, 3,430 straight (10,512 mm) / 323 curved (536 mm); text 367 rings, 2,570 straight (3,003 mm) / 880 curved (1,354 mm); tb 6 rings, 98 straight (219 mm) / 8 curved (12.6 mm)
+- **Centre lines:** 3,137 paths (56 closed); straight 7,780 mm, curved 63.0 mm; horizontal 3,859 mm, vertical 2,064 mm, diagonal 1,856 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 10 (10 in the title block)
+- **Words (OCR):** 50 in 44 lines: NOTES · MATERIAL 040 ALUM: ALLOY · 2) TOLERANCES XXX 005 · 3) REMOVE ALL BURRS AND SHARP EDGES · FiniSH CLEAR ALODINE · 300 · 645 · 1,660 · 150 · 4150 DIA; · 275 · 2 PLACES
+- **Title block:** (278, 4)–(432, 72) mm: 4l84 BOARD MTG TABS ADDED · (ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: · TR 4/4 · M524 · ENG · Tr · CKD: · PCB SUPPORT BRKT · APP · SCALE · ISSUE · 524-03-0H1 · 2X
+
+Every curve, box, word and wire group: [1984 - 524-03-011 - PCB SUPPORT BRKT - DRN TR - ENG TR - ISS 2 (traced).json](1984%20-%20524-03-011%20-%20PCB%20SUPPORT%20BRKT%20-%20DRN%20TR%20-%20ENG%20TR%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1984 - 524-03-011 - PCB SUPPORT BRKT - DRN TR - ENG TR - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

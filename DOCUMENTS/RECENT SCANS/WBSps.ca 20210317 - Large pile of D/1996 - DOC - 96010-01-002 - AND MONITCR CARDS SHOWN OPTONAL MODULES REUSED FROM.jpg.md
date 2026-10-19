@@ -14,6 +14,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 23,094,583 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 96010-01-002, size B (assumed) 432 × 276 mm, 2000 × 1279 px traced (0.216 mm/px)
+- **Ink extent:** 22–418 mm across, 5–254 mm up
+- **Outlines:** line 6,188 rings, 40,993 straight (52,774 mm) / 11,097 curved (19,158 mm); text 155 rings, 1,002 straight (927 mm) / 265 curved (347 mm); tb 28 rings, 201 straight (209 mm) / 36 curved (42.9 mm)
+- **Centre lines:** 66,276 paths (361 closed); straight 47,118 mm, curved 151 mm; horizontal 18,365 mm, vertical 17,634 mm, diagonal 11,120 mm
+- **Circles and arcs:** 310 circles, 48 arcs; largest r 1.7 @ (167.3, 183.8), r 1.7 @ (85.5, 183.5), r 1.7 @ (123.3, 183.7), r 1.7 @ (312.8, 184.3)
+- **Closed boxes:** 823 (4 in the title block); named: CBC OTTAWA SYSTEM INTERCOM FUNCTIONAL; DiSc NG; 96010-01-002
+- **Dots (junctions):** 1255
+- **Words (OCR):** 21 in 18 lines: Crosseoi · DuTFUIS) · Auplinap · 'DP · Tr · A44444 444 44 · Jii · SEE NCTE · WBS · WARD-BECK   SYSTEMS · CBC OTTAWA · SYSTEM
+- **Title block:** (339, 21)–(423, 37) mm: WBS · WARD-BECK   SYSTEMS · CBC OTTAWA
+- **Wiring (first pass):** 131 connected wire groups from 11,122 runs, 1916 dotted junctions; labelled ends: 162 mm → A44444, 444, 44; 113 mm → Jii; 50 mm → WBS, DiSc NG; 18 mm → WARD-BECK   SYSTEMS; 12 mm → A44444
+
+Every curve, box, word and wire group: [1996 - DOC - 96010-01-002 - AND MONITCR CARDS SHOWN OPTONAL MODULES REUSED FROM (traced).json](1996%20-%20DOC%20-%2096010-01-002%20-%20AND%20MONITCR%20CARDS%20SHOWN%20OPTONAL%20MODULES%20REUSED%20FROM%20%28traced%29.json) (the CAD file: `1996 - DOC - 96010-01-002 - AND MONITCR CARDS SHOWN OPTONAL MODULES REUSED FROM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 13 words corrected)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,734,208 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940356-04-002, size B (assumed) 432 × 280 mm, 2000 × 1297 px traced (0.216 mm/px)
+- **Ink extent:** 59–432 mm across, 14–263 mm up
+- **Outlines:** line 182 rings, 1,639 straight (6,290 mm) / 327 curved (627 mm); text 171 rings, 1,039 straight (1,096 mm) / 318 curved (406 mm); tb 48 rings, 390 straight (351 mm) / 98 curved (110 mm)
+- **Circles and arcs:** 12 circles, 0 arcs; largest r 5.9 @ (178.9, 207.2), r 4.5 @ (213.2, 176.3), r 4.5 @ (144.8, 176.0), r 4.5 @ (179.0, 176.2)
+- **Closed boxes:** 25 (14 in the title block); named: MCnitor HEADPHONES MICROPHONE TALKBACK M; MCnitor HEADPHONES MICROPHONE TALKBACK M; HFAnPHONF; HFAnPHONF
+- **Dots (junctions):** 1
+- **Words (OCR):** 22 in 20 lines: MCnitor · HEADPHONES · MICROPHONE · TALKBACK · MCROPHONE · TOP · VieW · HFAnPHONF · FRONT · WARD-BECK SYSTEMS · WBS · CBC
+- **Title block:** (340, 15)–(429, 47) mm: WARD-BECK SYSTEMS · WBS · CBC · ANNOUNCE · TURRET · APP. · LAYOUT · 940356-04-002 · NTS CCOE
+
+Every curve, box, word and wire group: [1994 - DOC - 940356-04-002 - HEADPHONES MICROPHONE TALKBACK MICROPHONE TOP VIEW HEADPHONE OUT (traced).json](1994%20-%20DOC%20-%20940356-04-002%20-%20HEADPHONES%20MICROPHONE%20TALKBACK%20MICROPHONE%20TOP%20VIEW%20HEADPHONE%20OUT%20%28traced%29.json) (the CAD file: `1994 - DOC - 940356-04-002 - HEADPHONES MICROPHONE TALKBACK MICROPHONE TOP VIEW HEADPHONE OUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

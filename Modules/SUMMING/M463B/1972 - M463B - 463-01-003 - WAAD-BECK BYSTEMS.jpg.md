@@ -11,6 +11,18 @@ Wiki page: [M463B](../../../PAGES/M463B.md)
 - **Size:** 5,290,729 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 463-01-003, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 17–303 mm up
+- **Outlines:** line 398 rings, 5,973 straight (14,412 mm) / 832 curved (1,161 mm); text 400 rings, 2,398 straight (2,618 mm) / 819 curved (1,177 mm)
+- **Centre lines:** 5,006 paths (90 closed); straight 9,132 mm, curved 237 mm; horizontal 4,074 mm, vertical 2,508 mm, diagonal 2,550 mm
+- **Circles and arcs:** 12 circles, 40 arcs; largest r 3.0 @ (107.0, 233.2), r 1.5 @ (209.5, 223.9), r 1.4 @ (240.5, 241.3), r 1.3 @ (253.0, 247.0)
+- **Closed boxes:** 52
+- **Wiring (first pass):** 136 connected wire groups from 503 runs
+
+Every curve, box, word and wire group: [1972 - M463B - 463-01-003 - WAAD-BECK BYSTEMS (traced).json](1972%20-%20M463B%20-%20463-01-003%20-%20WAAD-BECK%20BYSTEMS%20%28traced%29.json) (the CAD file: `1972 - M463B - 463-01-003 - WAAD-BECK BYSTEMS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

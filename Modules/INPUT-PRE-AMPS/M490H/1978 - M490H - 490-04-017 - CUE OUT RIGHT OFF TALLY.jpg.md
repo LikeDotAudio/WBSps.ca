@@ -11,6 +11,16 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 519,933 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 490-04-017, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–430 mm up
+- **Outlines:** line 301 rings, 3,495 straight (5,692 mm) / 567 curved (702 mm); text 404 rings, 3,904 straight (5,015 mm) / 841 curved (1,392 mm)
+- **Closed boxes:** 39; named: 16; 17; 18; 20; 21; 22
+- **Words (OCR):** 86 in 67 lines: P1 · LINE · in · PGM · Out · NC · PGM OUt · LINE In · PGM OUt · NC · PGM · Out
+
+Every curve, box, word and wire group: [1978 - M490H - 490-04-017 - CUE OUT RIGHT OFF TALLY (traced).json](1978%20-%20M490H%20-%20490-04-017%20-%20CUE%20OUT%20RIGHT%20OFF%20TALLY%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-04-017 - CUE OUT RIGHT OFF TALLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -22,6 +22,19 @@ Wiki page: [M101](../../../PAGES/M101.md)
 - **Size:** 1,490,482 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 101-03-018, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 11–298 mm up
+- **Outlines:** line 239 rings, 3,393 straight (9,497 mm) / 435 curved (623 mm); text 197 rings, 1,771 straight (2,221 mm) / 442 curved (720 mm); tb 57 rings, 313 straight (380 mm) / 83 curved (96.4 mm)
+- **Centre lines:** 3,785 paths (37 closed); straight 6,854 mm, curved 73.4 mm; horizontal 3,812 mm, vertical 1,365 mm, diagonal 1,677 mm
+- **Circles and arcs:** 7 circles, 7 arcs; largest r 1.6 @ (52.7, 135.9), r 1.4 @ (34.4, 187.0), r 1.4 @ (226.2, 110.7), r 1.4 @ (208.5, 110.8)
+- **Closed boxes:** 12 (10 in the title block)
+- **Words (OCR):** 32 in 27 lines: 8*44 · 136 DIA ~ 3FLACES · 82 · ISSUE DATE · REVISION · APP · MIL · ALUM ALOY . obuK · NQIE · ShaRP EDGES- · FISH: EACK ANODIZE · WBS WARD-BECK SYSTEMS
+- **Title block:** (281, 12)–(432, 81) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: MGR · DEESs STEIP · ENG_ · CKD · MFB6 · 5 A ) · APP · SCALE · ISSUE · 101 - 03 - 018 · 005
+
+Every curve, box, word and wire group: [19xx - 101-03-018 - DRESS STRIP (MFB6-5A) - DRN MGB - ISS 1 (traced).json](19xx%20-%20101-03-018%20-%20DRESS%20STRIP%20%28MFB6-5A%29%20-%20DRN%20MGB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 101-03-018 - DRESS STRIP (MFB6-5A) - DRN MGB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 16,576,209 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 441-03-014, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 9–298 mm up
+- **Outlines:** line 331 rings, 5,371 straight (13,066 mm) / 620 curved (922 mm); text 499 rings, 3,405 straight (3,999 mm) / 1,085 curved (1,639 mm); tb 41 rings, 265 straight (425 mm) / 61 curved (80.6 mm)
+- **Centre lines:** 8,102 paths (99 closed); straight 10,691 mm, curved 87.9 mm; horizontal 5,160 mm, vertical 2,390 mm, diagonal 3,140 mm
+- **Circles and arcs:** 4 circles, 10 arcs; largest r 6.0 @ (177.4, 166.1), r 1.7 @ (240.8, 175.4), r 1.4 @ (271.8, 172.0), r 1.4 @ (223.0, 171.3)
+- **Closed boxes:** 46 (32 in the title block); named: 441 213; WBS WARD-BECK systeMS LTD; ESCUTCHEON MTG PLATE (m441 A); FINISH cLEAr ALoDine; 441-03-015; 015 TOLS _ oos; ISS_
+- **Words (OCR):** 77 in 52 lines: 5.74 · NoTes · 58 · REMOve ALL BuRRS · SHARP Edees · 29 · PART Ne 441 ois To Be · permanentLy · MARKED · Aproximate Position Shown · IN . (2 Hich · Chazacters
+- **Title block:** (148, 16)–(411, 67) mm: ISS · MOD  CKD · USED ON · MATL · B441-03 614 · AL. ALLOY; Ilco-4i4 · WBS WARD-BECK systeMS LTD · M44 · 14 GA (. 064) · DRN: · D-RS · FINISH · DATE 12.MAE: 74 · ESCUTCHEON MTG PLATE · 74 · (m441 A) · 
+
+Every curve, box, word and wire group: [19xx - DOC - 441-03-014 - RAD TYP (traced).json](19xx%20-%20DOC%20-%20441-03-014%20-%20RAD%20TYP%20%28traced%29.json) (the CAD file: `19xx - DOC - 441-03-014 - RAD TYP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

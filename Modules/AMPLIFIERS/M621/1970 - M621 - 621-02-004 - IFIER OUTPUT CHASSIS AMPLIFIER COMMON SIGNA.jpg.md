@@ -11,6 +11,19 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 365,781 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-004, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 151 rings, 5,231 straight (9,619 mm) / 670 curved (1,122 mm); text 229 rings, 2,108 straight (2,527 mm) / 515 curved (838 mm)
+- **Centre lines:** 1,977 paths (48 closed); straight 6,663 mm, curved 280 mm; horizontal 2,752 mm, vertical 2,304 mm, diagonal 1,606 mm
+- **Circles and arcs:** 16 circles, 18 arcs; largest r 1.8 @ (90.4, 150.2), r 1.7 @ (163.2, 365.2), r 1.7 @ (198.6, 104.1), r 1.7 @ (237.3, 104.5)
+- **Closed boxes:** 8; named: 15 50 30
+- **Words (OCR):** 37 in 33 lines: I5 V AC · 60 HZ · PI · T2 · 6N · YL · P2 · OR · INPUT · Wh · INPUT SHIE LD · SL
+- **Wiring (first pass):** 61 connected wire groups from 232 runs; labelled ends: 363 mm → P2, 15; 171 mm → RD; 157 mm → BR; 142 mm → P2; 142 mm → P2
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-004 - IFIER OUTPUT CHASSIS AMPLIFIER COMMON SIGNA (traced).json](1970%20-%20M621%20-%20621-02-004%20-%20IFIER%20OUTPUT%20CHASSIS%20AMPLIFIER%20COMMON%20SIGNA%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-004 - IFIER OUTPUT CHASSIS AMPLIFIER COMMON SIGNA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,17 @@ Wiki page: [M625A](../../../PAGES/M625A.md)
 - **Size:** 634,774 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 625-06-001, size B (assumed) 432 × 309 mm, 2000 × 1433 px traced (0.216 mm/px)
+- **Ink extent:** 3–432 mm across, 0–294 mm up
+- **Outlines:** line 1,485 rings, 14,928 straight (25,445 mm) / 2,620 curved (2,884 mm); text 30 rings, 207 straight (176 mm) / 67 curved (72.8 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 3.4 @ (217.8, 112.6), r 1.2 @ (74.8, 39.6)
+- **Closed boxes:** 1
+- **Words (OCR):** 6 in 6 lines: Pce · Sw | · 051 · J2 (BLACK) · (RED) · Sw 2
+
+Every curve, box, word and wire group: [1978 - M625A - 625-06-001 - ENER POWER SURTTY (traced).json](1978%20-%20M625A%20-%20625-06-001%20-%20ENER%20POWER%20SURTTY%20%28traced%29.json) (the CAD file: `1978 - M625A - 625-06-001 - ENER POWER SURTTY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

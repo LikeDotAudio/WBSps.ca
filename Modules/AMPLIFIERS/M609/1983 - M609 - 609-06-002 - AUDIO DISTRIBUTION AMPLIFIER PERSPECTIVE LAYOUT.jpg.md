@@ -11,6 +11,17 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 502,851 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 609-06-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–319 mm across, 5–411 mm up
+- **Outlines:** line 195 rings, 3,835 straight (6,810 mm) / 686 curved (779 mm); text 215 rings, 2,068 straight (2,281 mm) / 682 curved (820 mm); tb 4 rings, 79 straight (155 mm) / 6 curved (6.2 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 5.0 @ (83.9, 130.3), r 2.4 @ (84.3, 107.6), r 1.7 @ (100.8, 107.5)
+- **Words (OCR):** 27 in 26 lines: R12 · R23 · R3I · R49 · T201 · 7609 · R201 · 'SENS · Loc _ · LoC/Rem · NORM Koc · F201
+- **Title block:** (199, 47)–(325, 72) mm: WBS · WARD-BECK SYSTEMS · M609
+
+Every curve, box, word and wire group: [1983 - M609 - 609-06-002 - AUDIO DISTRIBUTION AMPLIFIER PERSPECTIVE LAYOUT (traced).json](1983%20-%20M609%20-%20609-06-002%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20PERSPECTIVE%20LAYOUT%20%28traced%29.json) (the CAD file: `1983 - M609 - 609-06-002 - AUDIO DISTRIBUTION AMPLIFIER PERSPECTIVE LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

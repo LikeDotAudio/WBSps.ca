@@ -20,6 +20,18 @@ Wiki page: [Job-960077](../../../PAGES/Job-960077.md)
 - **Size:** 555,135 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960077-03-006, size D 864 × 544 mm, 2000 × 1259 px traced (0.432 mm/px)
+- **Ink extent:** 79–864 mm across, 4–503 mm up
+- **Outlines:** line 625 rings, 4,460 straight (23,245 mm) / 950 curved (2,190 mm); text 151 rings, 915 straight (1,763 mm) / 276 curved (732 mm)
+- **Centre lines:** 4,943 paths (183 closed); straight 14,228 mm, curved 35.1 mm; horizontal 7,983 mm, vertical 2,820 mm, diagonal 3,424 mm
+- **Circles and arcs:** 0 circles, 5 arcs
+- **Closed boxes:** 65; named: WARD-BECK SYSTEMS WBSJ; PUNCHING CUSTOM (CUSTOMER  SUPPLIED PANE; 960077-03-006; disC HC
+- **Words (OCR):** 13 in 13 lines: 10,072 · SOUARC · EKUSID" · CLE · NG SCRATCHES · WARD-BECK SYSTEMS · ShAR? EDCES · WBSJ · (CUSTOMER  SUPPLIED PANEL) · CUSTOM · PUNCHING · disC HC
+
+Every curve, box, word and wire group: [1996 - 960077-03-006 - CUSTOM PUNCHING (CUSTOMER SUPPLIED PANEL) - DRN DRG - ISS 1 (traced).json](1996%20-%20960077-03-006%20-%20CUSTOM%20PUNCHING%20%28CUSTOMER%20SUPPLIED%20PANEL%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960077-03-006 - CUSTOM PUNCHING (CUSTOMER SUPPLIED PANEL) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

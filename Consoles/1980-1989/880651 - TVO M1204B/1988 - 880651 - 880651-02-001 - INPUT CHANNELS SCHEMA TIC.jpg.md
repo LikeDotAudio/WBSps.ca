@@ -10,6 +10,18 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 5,617,760 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880651-02-001, size B (assumed) 432 × 306 mm, 2000 × 1418 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 0–429 mm across, 14–288 mm up
+- **Outlines:** line 551 rings, 5,172 straight (10,892 mm) / 993 curved (1,430 mm); text 236 rings, 1,511 straight (1,931 mm) / 444 curved (686 mm)
+- **Centre lines:** 3,885 paths (34 closed); straight 6,698 mm, curved 460 mm; horizontal 2,876 mm, vertical 1,840 mm, diagonal 1,982 mm
+- **Circles and arcs:** 13 circles, 91 arcs; largest r 2.2 @ (320.4, 40.9), r 1.7 @ (342.2, 19.0), r 1.6 @ (328.8, 18.7), r 1.5 @ (337.7, 18.8)
+- **Closed boxes:** 9
+- **Wiring (first pass):** 67 connected wire groups from 553 runs
+
+Every curve, box, word and wire group: [1988 - 880651 - 880651-02-001 - INPUT CHANNELS SCHEMA TIC (traced).json](1988%20-%20880651%20-%20880651-02-001%20-%20INPUT%20CHANNELS%20SCHEMA%20TIC%20%28traced%29.json) (the CAD file: `1988 - 880651 - 880651-02-001 - INPUT CHANNELS SCHEMA TIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

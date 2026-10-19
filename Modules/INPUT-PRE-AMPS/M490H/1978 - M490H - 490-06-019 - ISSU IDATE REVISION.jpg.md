@@ -11,6 +11,19 @@ Wiki page: [M490H](../../../PAGES/M490H.md)
 - **Size:** 655,796 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 490-06-019, size B (assumed) 329 × 432 mm, 1525 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–329 mm across, 0–432 mm up
+- **Outlines:** line 1,651 rings, 14,447 straight (19,758 mm) / 4,036 curved (4,122 mm); text 625 rings, 4,839 straight (4,283 mm) / 1,662 curved (1,830 mm); tb 67 rings, 607 straight (569 mm) / 162 curved (165 mm)
+- **Circles and arcs:** 11 circles, 0 arcs; largest r 5.8 @ (95.8, 251.2), r 5.8 @ (183.9, 301.1), r 5.7 @ (96.5, 286.9), r 5.4 @ (247.5, 230.1)
+- **Closed boxes:** 30 (3 in the title block)
+- **Dots (junctions):** 6
+- **Words (OCR):** 37 in 33 lines: (EM · 44 44 · 28 · 44444 · 18 · 81 13 · 11 · 34& · 22} · 4449 · It · 47
+- **Title block:** (220, 0)–(329, 46) mm: WBS · DRN: · M49oh · PA · LINE INPUT MODULE · CKD: · COMPONENT LAYOUT · SCALL · IssuE
+
+Every curve, box, word and wire group: [1978 - M490H - 490-06-019 - ISSU IDATE REVISION (traced).json](1978%20-%20M490H%20-%20490-06-019%20-%20ISSU%20IDATE%20REVISION%20%28traced%29.json) (the CAD file: `1978 - M490H - 490-06-019 - ISSU IDATE REVISION (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

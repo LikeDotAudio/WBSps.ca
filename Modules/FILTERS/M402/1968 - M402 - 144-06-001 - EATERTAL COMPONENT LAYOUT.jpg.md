@@ -11,6 +11,16 @@ Wiki page: [M402](../../../PAGES/M402.md)
 - **Size:** 7,181,481 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 144-06-001, size B (assumed) 432 × 307 mm, 2000 × 1424 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 36–307 mm up
+- **Outlines:** line 1,288 rings, 11,874 straight (16,451 mm) / 3,197 curved (3,304 mm); text 490 rings, 3,474 straight (3,516 mm) / 1,066 curved (1,188 mm)
+- **Circles and arcs:** 8 circles, 0 arcs; largest r 8.7 @ (159.4, 188.4), r 7.7 @ (159.2, 188.2), r 7.6 @ (346.9, 220.5), r 6.1 @ (328.5, 220.4)
+- **Closed boxes:** 26
+
+Every curve, box, word and wire group: [1968 - M402 - 144-06-001 - EATERTAL COMPONENT LAYOUT (traced).json](1968%20-%20M402%20-%20144-06-001%20-%20EATERTAL%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1968 - M402 - 144-06-001 - EATERTAL COMPONENT LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

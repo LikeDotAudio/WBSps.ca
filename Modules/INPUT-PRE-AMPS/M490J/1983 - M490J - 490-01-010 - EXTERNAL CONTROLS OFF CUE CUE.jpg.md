@@ -11,6 +11,19 @@ Wiki page: [M490J](../../../PAGES/M490J.md)
 - **Size:** 183,495 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 490-01-010, size B (assumed) 332 × 432 mm, 1536 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 2–332 mm across, 0–421 mm up
+- **Outlines:** line 347 rings, 4,471 straight (9,202 mm) / 665 curved (1,073 mm); text 154 rings, 1,409 straight (1,682 mm) / 482 curved (802 mm)
+- **Centre lines:** 2,361 paths (26 closed); straight 5,627 mm, curved 162 mm; horizontal 2,439 mm, vertical 1,663 mm, diagonal 1,524 mm
+- **Circles and arcs:** 4 circles, 14 arcs; largest r 4.4 @ (225.7, 147.2), r 1.6 @ (24.8, 155.8), r 1.5 @ (41.8, 155.7), r 1.5 @ (192.4, 137.2)
+- **Closed boxes:** 3; named: Pgmi cue CTL
+- **Words (OCR):** 31 in 28 lines: FADER · (-10dB) Ch On · Mic Inputs · -70/-40 · 150 ehm · sensitivity · INput · SELECTOR · CONTROL · Com · CUE · CUE
+- **Wiring (first pass):** 178 connected wire groups from 376 runs; labelled ends: 146 mm → (-10dB); 123 mm → Pgmi, cue, CTL; 103 mm → Pgmi, cue, CTL; 78 mm → CUE; 42 mm → sensitivity
+
+Every curve, box, word and wire group: [1983 - M490J - 490-01-010 - EXTERNAL CONTROLS OFF CUE CUE (traced).json](1983%20-%20M490J%20-%20490-01-010%20-%20EXTERNAL%20CONTROLS%20OFF%20CUE%20CUE%20%28traced%29.json) (the CAD file: `1983 - M490J - 490-01-010 - EXTERNAL CONTROLS OFF CUE CUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

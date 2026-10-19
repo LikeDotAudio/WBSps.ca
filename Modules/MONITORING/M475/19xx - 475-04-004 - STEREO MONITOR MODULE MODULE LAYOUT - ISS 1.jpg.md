@@ -22,6 +22,18 @@ M475A stereo monitor module front panel layout with callouts.
 - **Size:** 223,672 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 475-04-004, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–339 mm across, 0–376 mm up
+- **Outlines:** line 197 rings, 2,428 straight (3,414 mm) / 385 curved (482 mm); text 129 rings, 1,161 straight (1,444 mm) / 280 curved (440 mm); tb 95 rings, 1,201 straight (2,764 mm) / 151 curved (297 mm)
+- **Circles and arcs:** 4 circles, 0 arcs; largest r 5.0 @ (29.6, 163.7), r 5.0 @ (29.7, 185.2), r 5.0 @ (30.1, 245.4), r 5.0 @ (29.6, 148.8)
+- **Closed boxes:** 2 (1 in the title block); named: WBS M475A SOLO/TB MON
+- **Words (OCR):** 13 in 10 lines: WBS · M475A · SOLO/TB · MON · WBS WARD-BECK SYSTEMS · M475A · STEREO MONITOR MODULE · MODULE LAYoUt · 475-04-004 · ISS.
+- **Title block:** (102, 46)–(332, 319) mm: WBS · M475A · SOLO/TB · MON · WBS WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 475-04-004 - STEREO MONITOR MODULE MODULE LAYOUT - ISS 1 (traced).json](19xx%20-%20475-04-004%20-%20STEREO%20MONITOR%20MODULE%20MODULE%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 475-04-004 - STEREO MONITOR MODULE MODULE LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

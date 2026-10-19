@@ -9,6 +9,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 6,434,896 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 165 rings, 3,403 straight (6,310 mm) / 367 curved (554 mm); text 381 rings, 2,541 straight (2,481 mm) / 858 curved (1,170 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 1.4 @ (258.8, 371.5)
+- **Closed boxes:** 27
+- **Words (OCR):** 37 in 25 lines: LEGEND · NO · CONNECTION · STRAP OR JUMPER · CONNEcTion · TB4/21,22 · TYPicAL AUDiO PAIR · To · TERMINAL BLOCK · PINS 21 AND · STRAP OR Jumper · CONNECTED To JACK
+
+Every curve, box, word and wire group: [1977 - 31106-04-003_3 iss 2 - 31106-04-003 - RED RESUBMITTAL REQUIRED RESUBMITTAL NOT REQUIRED CLIENT DRAWING (traced).json](1977%20-%2031106-04-003_3%20iss%202%20-%2031106-04-003%20-%20RED%20RESUBMITTAL%20REQUIRED%20RESUBMITTAL%20NOT%20REQUIRED%20CLIENT%20DRAWING%20%28traced%29.json) (the CAD file: `1977 - 31106-04-003_3 iss 2 - 31106-04-003 - RED RESUBMITTAL REQUIRED RESUBMITTAL NOT REQUIRED CLIENT DRAWING (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

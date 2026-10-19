@@ -24,6 +24,17 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 20,822,380 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 900438-04-001, size D 864 × 559 mm, 2000 × 1294 px traced (0.432 mm/px); scale DISC NO: 31
+- **Ink extent:** 0–848 mm across, 0–559 mm up
+- **Outlines:** line 361 rings, 5,584 straight (35,495 mm) / 509 curved (1,448 mm); text 489 rings, 3,260 straight (5,443 mm) / 904 curved (2,171 mm); tb 19 rings, 345 straight (2,596 mm) / 22 curved (63.1 mm)
+- **Closed boxes:** 80; named: 4497474479 AJX; V497 MASTER; HSTR MODULES MOD |MCD; M490b ihpIT MODULES; M498 FUT; LINC 4498 SEL ILINE SEL; FUTURE PS2 M6258; V6258; 0498 MoN; M495 MONITOR MODULES; V462A ECUALIZER MODULES; CUE
+- **Words (OCR):** 96 in 82 lines: 42.70 · 19,00 · V497 · 4497474479 · 4454 M499 · CSC INSERT · M498 FUT · LINC 4498 · MODULES MOD |MCD · MASTER · HSTR AJX · FUTURE
+- **Title block:** (658, 11)–(834, 88) mm: REVSED AS PER CUSTOVER_APPROVAL · GEB · JISSUE · REMSION · WBS} · WARD-BECK · SYSTEMS · CHIN RADIO R1400 · DRN: GEB · ENG. GEB 8/90 · RADIO CONSOLE · CrD_ · OUTLINE & LAYOUT · SCALE DISC NO: 31 · SSUE
+
+Every curve, box, word and wire group: [1990 - 900438-04-001 - CHIN RADIO R1400 RADIO CONSOLE OUTLINE & LAYOUT - DRN GEB - ENG GEB - ISS 2 (traced).json](1990%20-%20900438-04-001%20-%20CHIN%20RADIO%20R1400%20RADIO%20CONSOLE%20OUTLINE%20%26%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1990 - 900438-04-001 - CHIN RADIO R1400 RADIO CONSOLE OUTLINE & LAYOUT - DRN GEB - ENG GEB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

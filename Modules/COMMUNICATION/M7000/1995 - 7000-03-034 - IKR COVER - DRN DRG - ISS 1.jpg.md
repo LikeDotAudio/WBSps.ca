@@ -22,6 +22,19 @@ Wiki page: [M7000](../../../PAGES/M7000.md)
 - **Size:** 296,391 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 7000-03-034, size D 864 × 611 mm, 2000 × 1415 px traced (0.432 mm/px)
+- **Ink extent:** 60–864 mm across, 36–471 mm up
+- **Outlines:** line 241 rings, 1,947 straight (12,514 mm) / 384 curved (877 mm); text 194 rings, 1,070 straight (1,900 mm) / 358 curved (896 mm); tb 24 rings, 198 straight (408 mm) / 62 curved (138 mm)
+- **Centre lines:** 3,268 paths (80 closed); straight 8,672 mm, curved 31.4 mm; horizontal 4,519 mm, vertical 1,971 mm, diagonal 2,183 mm
+- **Circles and arcs:** 0 circles, 6 arcs
+- **Closed boxes:** 20 (3 in the title block); named: IKR COVER; 7000-03-034; DGC NO
+- **Words (OCR):** 25 in 21 lines: 17.320 · 04870 - · 01830 · 1.28C · 6.110 · 0.130 · "8.384 C"Sk 02 REOEG · CHAMFER 0,12 45 DEC REC D · 0,250 · WARD-BECK SYSTEMS · WBS · AURET
+- **Title block:** (688, 67)–(860, 103) mm: WARD-BECK SYSTEMS · WBS
+
+Every curve, box, word and wire group: [1995 - 7000-03-034 - IKR COVER - DRN DRG - ISS 1 (traced).json](1995%20-%207000-03-034%20-%20IKR%20COVER%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1995 - 7000-03-034 - IKR COVER - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

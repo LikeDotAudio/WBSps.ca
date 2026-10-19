@@ -28,6 +28,19 @@ Padboard #1 layout drawing with title block at bottom right.
 
 - **1977** (labelled): `DATE JAN 77` — …MOD. CKD_ USED ON MATL WBS WARD-BeCK BYBTEMB LTD- DRN: ELJ DATE JAN 77 CKD P. € SCALE TOLS _ T FINISH PADBOArD # | LA (out B 76045…
 
+## Vectors (traced)
+
+- **Sheet:** layout B 76045-04-005, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 20–305 mm up
+- **Outlines:** line 754 rings, 8,188 straight (15,686 mm) / 1,185 curved (1,751 mm); text 400 rings, 2,507 straight (2,678 mm) / 804 curved (1,147 mm); tb 23 rings, 238 straight (421 mm) / 28 curved (45.1 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 2.0 @ (87.4, 208.8), r 2.0 @ (343.1, 170.3), r 1.8 @ (238.9, 171.2), r 1.8 @ (314.7, 207.9)
+- **Closed boxes:** 55 (17 in the title block); named: Iss MOD _; WBS WARD-BeCK ByBTEMB LTD_; PADBOACD # | LA (out; FINISH; TOLS _; 76045-04 0o5; IsS_
+- **Dots (junctions):** 3
+- **Words (OCR):** 26 in 17 lines: 8 3 · 43 Y3 · 31 · Iss MOD _ CKD · USED ON · MATL · WBS WARD-BeCK ByBTEMB LTD_ · DRN: ELJ · DATE JAn77 · PADBOACD # | · FINISH · CKD
+- **Title block:** (163, 32)–(376, 83) mm: Iss MOD _ CKD · USED ON · MATL · WBS WARD-BeCK ByBTEMB LTD_ · DRN: ELJ · DATE JAn77 · PADBOACD # | · FINISH · CKD · LA (out · SCALE · 76045-04 0o5 IsS_ · TOLS _
+
+Every curve, box, word and wire group: [1977 - 76045-04-005 - PADBOARD #1 LAYOUT - DRN ELJ - ISS 1 (traced).json](1977%20-%2076045-04-005%20-%20PADBOARD%20%231%20LAYOUT%20-%20DRN%20ELJ%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1977 - 76045-04-005 - PADBOARD #1 LAYOUT - DRN ELJ - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -32,30 +32,3 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|---|
 | 2018 | [2018 - MLC8-N - Information Sheet.jpg](../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Information%20Sheet.jpg.md) |
 | 2018 | [2018 - MLC8-N - Three Quarter.jpg](../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Three%20Quarter.jpg) | [note](../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Three%20Quarter.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "MLC8-N",
- "name": "Three Quarter",
- "category": "RAVENNA AES67",
- "year": 2017,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/MLC8-N/2018 - MLC8-N - Information Sheet.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/RAVENNA AES67/MLC8-N/2018 - MLC8-N - Three Quarter.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

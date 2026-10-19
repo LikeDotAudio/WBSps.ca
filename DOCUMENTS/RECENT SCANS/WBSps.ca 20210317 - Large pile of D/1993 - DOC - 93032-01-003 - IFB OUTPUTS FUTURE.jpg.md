@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 21,306,055 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 93032-01-003, size B (assumed) 432 × 280 mm, 2000 × 1299 px traced (0.216 mm/px)
+- **Ink extent:** 23–423 mm across, 7–249 mm up
+- **Outlines:** line 2,845 rings, 20,666 straight (33,000 mm) / 2,399 curved (3,240 mm); text 222 rings, 1,508 straight (1,396 mm) / 417 curved (512 mm); tb 20 rings, 145 straight (171 mm) / 35 curved (43.1 mm)
+- **Centre lines:** 81,049 paths (134 closed); straight 35,410 mm, curved 24.0 mm; horizontal 9,703 mm, vertical 10,781 mm, diagonal 14,926 mm
+- **Circles and arcs:** 141 circles, 10 arcs; largest r 3.4 @ (143.6, 181.4), r 3.4 @ (156.3, 181.4), r 3.4 @ (270.8, 101.0), r 3.4 @ (207.3, 200.6)
+- **Closed boxes:** 104 (3 in the title block); named: CTS VARIETY STUDIO 24x36 MinicOM INTERCO; 95052-01-003
+- **Words (OCR):** 25 in 23 lines: UNITART · SCUND · (TeLOS · DHCNE · WRELESS · 5TTC-ED · MATRD LHPLIFIER · cutpuTS) · (74 NS · 902 · CAMFRA · NOTE:
+- **Title block:** (344, 23)–(429, 40) mm: WBS · WARD-BECK SYSTEMS · CTS VARIETY STUDIO
+- **Wiring (first pass):** 225 connected wire groups from 4,122 runs; labelled ends: 94 mm → WBS, INTERCOM FUNCTIONAL; 54 mm → INTERCOM FUNCTIONAL, 95052-01-003; 29 mm → 478830; 17 mm → DHCNE; 17 mm → IECH DIR
+
+Every curve, box, word and wire group: [1993 - DOC - 93032-01-003 - IFB OUTPUTS FUTURE (traced).json](1993%20-%20DOC%20-%2093032-01-003%20-%20IFB%20OUTPUTS%20FUTURE%20%28traced%29.json) (the CAD file: `1993 - DOC - 93032-01-003 - IFB OUTPUTS FUTURE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

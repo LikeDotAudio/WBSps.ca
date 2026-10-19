@@ -24,6 +24,20 @@ Wiki page: [M456](../../../PAGES/M456.md)
 - **Size:** 683,294 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 456-01-003, size B 432 × 279 mm, 2000 × 1292 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–269 mm up
+- **Outlines:** line 587 rings, 7,603 straight (15,186 mm) / 936 curved (1,153 mm); text 543 rings, 3,686 straight (3,582 mm) / 1,183 curved (1,580 mm); tb 30 rings, 763 straight (1,764 mm) / 88 curved (126 mm)
+- **Centre lines:** 9,730 paths (120 closed); straight 11,711 mm, curved 94.4 mm; horizontal 4,924 mm, vertical 3,109 mm, diagonal 3,678 mm
+- **Circles and arcs:** 3 circles, 21 arcs; largest r 2.4 @ (69.0, 98.5), r 1.0 @ (83.2, 88.8), r 0.9 @ (103.0, 141.9)
+- **Closed boxes:** 21
+- **Words (OCR):** 97 in 88 lines: DIRECT OUt · 10 dBm · SECTION · SENsiTivITY · INSERT · PAN · 10d8 · 5-101 · MON Out · PLAYBACK · INPUT · CHANNEL
+- **Title block:** (317, 0)–(432, 60) mm: 8 / 78 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN: P MAloey · M456 B · ENG_ RKB · DUAL · MIXDOWN MODULE · APP · FUNCTIONAL DIAGRAM · SCALE · 456-01-003 · ISSUE
+- **Wiring (first pass):** 206 connected wire groups from 690 runs; labelled ends: 192 mm → REV SEND; 189 mm → MON, FOLDBACK 1; 175 mm → CHANNEL, ON, FADER, (-15dB); 174 mm → CHANNEL, FADER, (-I5dB); 143 mm → INSERT
+
+Every curve, box, word and wire group: [1978 - 456-01-003 - M456B DUAL MIXDOWN MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 2 (traced).json](1978%20-%20456-01-003%20-%20M456B%20DUAL%20MIXDOWN%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20P.%20MAHONEY%20-%20ENG%20RKB%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1978 - 456-01-003 - M456B DUAL MIXDOWN MODULE FUNCTIONAL DIAGRAM - DRN P. MAHONEY - ENG RKB - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

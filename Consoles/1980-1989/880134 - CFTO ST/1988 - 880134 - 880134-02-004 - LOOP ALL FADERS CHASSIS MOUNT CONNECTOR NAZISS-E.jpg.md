@@ -11,6 +11,19 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 5,174,035 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880134-02-004, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–305 mm across, 0–368 mm up
+- **Outlines:** line 179 rings, 2,198 straight (5,504 mm) / 309 curved (483 mm); text 361 rings, 2,202 straight (2,415 mm) / 703 curved (961 mm)
+- **Centre lines:** 2,867 paths (55 closed); straight 4,445 mm, curved 182 mm; horizontal 1,918 mm, vertical 1,143 mm, diagonal 1,384 mm
+- **Circles and arcs:** 6 circles, 27 arcs; largest r 1.4 @ (214.5, 42.5), r 1.4 @ (214.4, 204.2), r 1.4 @ (214.4, 214.6), r 1.2 @ (194.2, 178.6)
+- **Closed boxes:** 2; named: MONQ MASIER EADER (0 dB) SA91-030; STEREQ MASIER EADER (0 dB) SA91-031
+- **Words (OCR):** 52 in 51 lines: MASTER · SUMMING · BUSES · MONO INSERT · FADER · CONN · dBm · V15 · U15 · 9,10 · MONQ · MASIER
+- **Wiring (first pass):** 61 connected wire groups from 181 runs; labelled ends: 280 mm → CONN, 9,10; 231 mm → FADER, CONN, 9,10; 68 mm → V15, FADER, CONN; 67 mm → Vi4; 66 mm → V1s, CONN
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-02-004 - LOOP ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E (traced).json](1988%20-%20880134%20-%20880134-02-004%20-%20LOOP%20ALL%20FADERS%20CHASSIS%20MOUNT%20CONNECTOR%20NAZISS-E%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-02-004 - LOOP ALL FADERS CHASSIS MOUNT CONNECTOR NAZISS-E (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

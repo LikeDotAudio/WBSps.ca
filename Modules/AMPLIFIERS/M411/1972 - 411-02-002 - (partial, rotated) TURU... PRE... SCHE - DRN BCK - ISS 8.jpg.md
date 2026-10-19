@@ -22,6 +22,18 @@ Wiki page: [M411](../../../PAGES/M411.md)
 - **Size:** 5,717,455 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 411-02-002, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–324 mm across, 0–287 mm up
+- **Outlines:** line 594 rings, 4,127 straight (7,055 mm) / 441 curved (611 mm); text 318 rings, 1,816 straight (1,729 mm) / 432 curved (582 mm)
+- **Centre lines:** 2,426 paths (14 closed); straight 4,407 mm, curved 67.4 mm; horizontal 1,908 mm, vertical 1,405 mm, diagonal 1,094 mm
+- **Circles and arcs:** 0 circles, 18 arcs
+- **Closed boxes:** 17
+- **Wiring (first pass):** 51 connected wire groups from 369 runs
+
+Every curve, box, word and wire group: [1972 - 411-02-002 - (partial, rotated) TURU... PRE... SCHE - DRN BCK - ISS 8 (traced).json](1972%20-%20411-02-002%20-%20%28partial%2C%20rotated%29%20TURU...%20PRE...%20SCHE%20-%20DRN%20BCK%20-%20ISS%208%20%28traced%29.json) (the CAD file: `1972 - 411-02-002 - (partial, rotated) TURU... PRE... SCHE - DRN BCK - ISS 8 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

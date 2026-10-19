@@ -11,6 +11,18 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 397,818 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 123 rings, 4,164 straight (6,715 mm) / 582 curved (1,000 mm); text 151 rings, 1,454 straight (1,783 mm) / 392 curved (665 mm)
+- **Centre lines:** 1,332 paths (51 closed); straight 4,617 mm, curved 339 mm; horizontal 2,230 mm, vertical 1,034 mm, diagonal 1,354 mm
+- **Circles and arcs:** 23 circles, 9 arcs; largest r 2.9 @ (164.7, 154.7), r 2.9 @ (195.7, 154.9), r 2.8 @ (164.8, 164.1), r 2.8 @ (195.7, 134.5)
+- **Words (OCR):** 29 in 25 lines: FROM · connector VIEWED · REAR · FRAME · Gohz · Pi · P2 · 08 16 · 09 LO · Is 0 · 0io · 140
+- **Wiring (first pass):** 35 connected wire groups from 123 runs; labelled ends: 162 mm → Gohz, Pi, 16, Is 0; 89 mm → 09, Qus_, Qi; 72 mm → Gohz, 08; 49 mm → high, SIDE, ouTPuT; 42 mm → Qus_, Qi
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-002 - HIGH COMMON SIDE OUTPUT (traced).json](1970%20-%20M621%20-%20621-02-002%20-%20HIGH%20COMMON%20SIDE%20OUTPUT%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-002 - HIGH COMMON SIDE OUTPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

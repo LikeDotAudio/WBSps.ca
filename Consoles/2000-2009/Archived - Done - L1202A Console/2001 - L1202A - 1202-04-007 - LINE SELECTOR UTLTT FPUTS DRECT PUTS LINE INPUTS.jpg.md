@@ -10,6 +10,19 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 515,421 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 1202-04-007, size B (assumed) 432 × 260 mm, 2000 × 1202 px traced (0.216 mm/px)
+- **Ink extent:** 14–432 mm across, 0–235 mm up
+- **Outlines:** line 1,842 rings, 16,502 straight (31,190 mm) / 3,656 curved (6,484 mm); text 89 rings, 633 straight (639 mm) / 197 curved (272 mm); tb 32 rings, 330 straight (326 mm) / 75 curved (90.1 mm)
+- **Circles and arcs:** 81 circles, 0 arcs; largest r 4.4 @ (248.2, 174.3), r 4.4 @ (231.4, 123.5), r 4.4 @ (231.5, 149.9), r 4.4 @ (346.1, 122.9)
+- **Closed boxes:** 46 (3 in the title block)
+- **Dots (junctions):** 7
+- **Words (OCR):** 14 in 12 lines: IHPUT · COHTROL · LINE YELECTOR · DAECT · LINE IAPUTS · 27 4 5 · WBS · WBS T12O2A CONSOLE · CONNECTOR LAYOUT · REAR · 4:2 · 1202-04-007
+- **Title block:** (360, 7)–(432, 31) mm: WBS · WBS T12O2A CONSOLE · CONNECTOR LAYOUT · REAR
+
+Every curve, box, word and wire group: [2001 - L1202A - 1202-04-007 - LINE SELECTOR UTLTT FPUTS DRECT PUTS LINE INPUTS (traced).json](2001%20-%20L1202A%20-%201202-04-007%20-%20LINE%20SELECTOR%20UTLTT%20FPUTS%20DRECT%20PUTS%20LINE%20INPUTS%20%28traced%29.json) (the CAD file: `2001 - L1202A - 1202-04-007 - LINE SELECTOR UTLTT FPUTS DRECT PUTS LINE INPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

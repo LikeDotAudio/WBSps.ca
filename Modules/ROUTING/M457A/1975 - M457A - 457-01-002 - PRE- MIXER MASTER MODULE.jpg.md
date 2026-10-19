@@ -11,6 +11,20 @@ Wiki page: [M457A](../../../PAGES/M457A.md)
 - **Size:** 334,140 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 457-01-002, size B (assumed) 432 × 297 mm, 2000 × 1377 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–295 mm up
+- **Outlines:** line 108 rings, 1,814 straight (5,559 mm) / 205 curved (308 mm); text 231 rings, 2,062 straight (2,573 mm) / 502 curved (775 mm); tb 13 rings, 134 straight (290 mm) / 19 curved (29.9 mm)
+- **Centre lines:** 2,746 paths (26 closed); straight 4,666 mm, curved 8.8 mm; horizontal 2,207 mm, vertical 872 mm, diagonal 1,587 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 9 (9 in the title block)
+- **Words (OCR):** 39 in 33 lines: SUMMING]INPUT · LEVE · BST · 5-101 · EXTERNAL INPUT · (OdB) · 510 dBm · OUTPUTS · SUMMING]INPUT · +8 dBm · BST · =101
+- **Title block:** (274, 1)–(432, 81) mm: 10/77 · REDRAWN · (ISSUE |DATE · REVISION · APP · WES WARD-BECK SYSTEMS · DRN DB · M45ZA · ENG · RKB · PRE - MIXER MASTER · MODULE · CKD · FUNCTIONAL · DIAGRAM · APP · SCALE · ISSUE · 457 - 01 - 002
+- **Wiring (first pass):** 71 connected wire groups from 110 runs; labelled ends: 96 mm → BST; 74 mm → BST; 52 mm → SUMMING]INPUT; 52 mm → SUMMING]INPUT; 50 mm → LEVE, (OdB), 5-101
+
+Every curve, box, word and wire group: [1975 - M457A - 457-01-002 - PRE- MIXER MASTER MODULE (traced).json](1975%20-%20M457A%20-%20457-01-002%20-%20PRE-%20MIXER%20MASTER%20MODULE%20%28traced%29.json) (the CAD file: `1975 - M457A - 457-01-002 - PRE- MIXER MASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

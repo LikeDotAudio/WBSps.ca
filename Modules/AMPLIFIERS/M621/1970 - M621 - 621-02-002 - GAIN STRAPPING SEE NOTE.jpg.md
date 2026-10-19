@@ -11,6 +11,19 @@ Wiki page: [M621](../../../PAGES/M621.md)
 - **Size:** 356,560 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 621-02-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–428 mm up
+- **Outlines:** line 85 rings, 3,237 straight (5,210 mm) / 413 curved (700 mm); text 156 rings, 1,601 straight (1,916 mm) / 386 curved (624 mm)
+- **Centre lines:** 1,572 paths (26 closed); straight 4,095 mm, curved 120 mm; horizontal 2,260 mm, vertical 703 mm, diagonal 1,132 mm
+- **Circles and arcs:** 8 circles, 7 arcs; largest r 3.1 @ (2.7, 174.3), r 2.7 @ (2.4, 194.5), r 2.7 @ (2.4, 165.5), r 2.7 @ (2.5, 174.4)
+- **Closed boxes:** 9
+- **Words (OCR):** 26 in 15 lines: P2 · INPUT · See · 20 abm 6001 · Note · BALANCED · P2 · MUTE RELAY · FUTURE ReMOTE GAIN Facility · Cw · 5k Log EXTERNAL · CONTROL IF. ReQired SEE NOTE
+- **Wiring (first pass):** 31 connected wire groups from 113 runs; labelled ends: 160 mm → GAIN, input; 153 mm → GAIN; 124 mm → Note, P2; 114 mm → Note, 6001; 105 mm → 6001, P2, Note, See
+
+Every curve, box, word and wire group: [1970 - M621 - 621-02-002 - GAIN STRAPPING SEE NOTE (traced).json](1970%20-%20M621%20-%20621-02-002%20-%20GAIN%20STRAPPING%20SEE%20NOTE%20%28traced%29.json) (the CAD file: `1970 - M621 - 621-02-002 - GAIN STRAPPING SEE NOTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

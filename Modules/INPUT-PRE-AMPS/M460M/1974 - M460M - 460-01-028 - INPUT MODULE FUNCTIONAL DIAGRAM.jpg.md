@@ -11,6 +11,21 @@ Wiki page: [M460M](../../../PAGES/M460M.md)
 - **Size:** 1,178,410 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 460-01-028, size B (assumed) 432 × 288 mm, 2000 × 1333 px traced (0.216 mm/px)
+- **Ink extent:** 2–428 mm across, 0–287 mm up
+- **Outlines:** line 720 rings, 6,427 straight (9,655 mm) / 1,266 curved (1,484 mm); text 121 rings, 870 straight (830 mm) / 260 curved (359 mm); tb 2 rings, 43 straight (97.3 mm) / 4 curved (7.5 mm)
+- **Centre lines:** 7,911 paths (127 closed); straight 6,264 mm, curved 60.2 mm; horizontal 2,361 mm, vertical 1,632 mm, diagonal 2,270 mm
+- **Circles and arcs:** 2 circles, 15 arcs; largest r 2.2 @ (305.8, 217.6), r 2.1 @ (146.7, 192.4)
+- **Closed boxes:** 10
+- **Dots (junctions):** 1
+- **Words (OCR):** 18 in 17 lines: sersitivity · FADER · cohtaol · 150 ChmS · Richt · OHHS · FILTER · PRE /Po · outputs · conirol · Eghtaa · WBS WARD-BECk Systemb
+- **Title block:** (343, 32)–(432, 48) mm: WBS WARD-BECk Systemb
+- **Wiring (first pass):** 190 connected wire groups from 567 runs, 2 dotted junctions; labelled ends: 111 mm → Eghtaa; 22 mm → cohtaol; 22 mm → cohtaol, Richt; 12 mm → conirol; 10 mm → Eghtaa
+
+Every curve, box, word and wire group: [1974 - M460M - 460-01-028 - INPUT MODULE FUNCTIONAL DIAGRAM (traced).json](1974%20-%20M460M%20-%20460-01-028%20-%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20%28traced%29.json) (the CAD file: `1974 - M460M - 460-01-028 - INPUT MODULE FUNCTIONAL DIAGRAM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

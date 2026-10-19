@@ -11,6 +11,18 @@ Wiki page: [Job-880134](../../../PAGES/Job-880134.md)
 - **Size:** 30,082,445 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 880134-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px); scale DISC
+- **Ink extent:** 2–430 mm across, 0–279 mm up
+- **Outlines:** line 844 rings, 6,393 straight (16,010 mm) / 696 curved (800 mm); text 536 rings, 2,999 straight (2,368 mm) / 704 curved (835 mm); tb 41 rings, 256 straight (938 mm) / 27 curved (34.1 mm)
+- **Circles and arcs:** 2 circles, 0 arcs; largest r 1.8 @ (4.5, 14.9), r 1.2 @ (298.0, 103.5)
+- **Closed boxes:** 22; named: V522 M5224 MONO EQUALIZER STEREO EQUALIZ; FUTURE PROCESSING MODULES (12); Hnlcltlelelldt Aaet eaTet 31BDL[L771066 ; V520 0521A V5244 MCNO INPU SERC; #PVT CH; M523 JtoVeSt? MCDULES; M527 KASTER MCDULES; MoNITOR ModuES; SnEF; VoNO STEREO INPUT INPUT FAdERS FADERS (1; MONO INpuT FADERS (12); STEREO MONO STEREO SUBMASTER MASIER HAST; Be 0000
+- **Words (OCR):** 86 in 77 lines: MONO EQUALIZER · V522 · MONO EQUALIZER · V522 · STEREO EQUALIZER · M5224 · PROCESSING MODULES · FUTURE · (12) · (12) · Aaet eaTet · Hnlcltlelelldt
+- **Title block:** (338, 4)–(427, 37) mm: USSUE DAIE · REMASION · WBS WARD-BECK SYSTEMS · DRN. PA 08/88 · CFTO-TV · ENG: · ST3642 STEREO · TV CONSOLE · TOP VIEW LA YOUT · SCALE DISC · SSu: · 1: 4 CODE: 80134L03 · 880134-04-003
+
+Every curve, box, word and wire group: [1988 - 880134 - 880134-04-003 - FACMPG FADERE FACIRE FLDERS FAOERS FIDERS (traced).json](1988%20-%20880134%20-%20880134-04-003%20-%20FACMPG%20FADERE%20FACIRE%20FLDERS%20FAOERS%20FIDERS%20%28traced%29.json) (the CAD file: `1988 - 880134 - 880134-04-003 - FACMPG FADERE FACIRE FLDERS FAOERS FIDERS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 9 words corrected)

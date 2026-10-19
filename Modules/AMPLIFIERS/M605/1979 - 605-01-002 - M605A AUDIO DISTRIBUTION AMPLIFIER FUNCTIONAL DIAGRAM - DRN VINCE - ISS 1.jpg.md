@@ -28,6 +28,20 @@ Wiki page: [M605](../../../PAGES/M605.md)
 
 - **1971** (labelled): `APP 71` — …N.VINCE 72.2 M6osA ENG AUDIO DISTRIBUTION AMPLIFIER CKD Xit APP 71 FUNCTIONAL DIAGRAM 224.72 SCALE ISSUE B 605-01-002…
 
+## Vectors (traced)
+
+- **Sheet:** functional B 605-01-002, size B 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 0–279 mm up
+- **Outlines:** line 106 rings, 2,696 straight (7,347 mm) / 281 curved (435 mm); text 376 rings, 2,250 straight (2,610 mm) / 736 curved (1,056 mm); tb 10 rings, 122 straight (260 mm) / 16 curved (21.6 mm)
+- **Centre lines:** 3,022 paths (70 closed); straight 5,464 mm, curved 81.8 mm; horizontal 2,318 mm, vertical 1,513 mm, diagonal 1,633 mm
+- **Circles and arcs:** 3 circles, 1 arcs; largest r 3.9 @ (135.9, 132.0), r 3.9 @ (136.0, 80.0), r 3.9 @ (135.9, 106.1)
+- **Closed boxes:** 13 (9 in the title block); named: 605-01-002; ISSUE
+- **Words (OCR):** 49 in 40 lines: DIRECT OUTPUT · INPUT · 10 To +14 dBm · PRE · Out · (-6 dB ) · 600 ohms · OUTPUTS · (-6 dB) · +8 dBm · 600 ohms · GAIN
+- **Title block:** (279, 2)–(432, 68) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.MINEE · 75.4 · M6oSA · ENG · AUDIO DISTRIBUTION AMPLIFIER · CKD. Kvl · FUNCTIONAL DIAGRAM · APP · SCALE · 605-01-002 · ISSUE
+- **Wiring (first pass):** 69 connected wire groups from 160 runs; labelled ends: 258 mm → (-6 dB ), Out, (-6 dB); 60 mm → (-6 dB); 55 mm → PRE; 46 mm → PRE, 10 To +14 dBm; 39 mm → REF
+
+Every curve, box, word and wire group: [1979 - 605-01-002 - M605A AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1 (traced).json](1979%20-%20605-01-002%20-%20M605A%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20VINCE%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1979 - 605-01-002 - M605A AUDIO DISTRIBUTION AMPLIFIER FUNCTIONAL DIAGRAM - DRN VINCE - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

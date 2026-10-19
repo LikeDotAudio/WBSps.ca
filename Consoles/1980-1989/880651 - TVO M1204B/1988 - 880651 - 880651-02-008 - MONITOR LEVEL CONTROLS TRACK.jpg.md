@@ -10,6 +10,19 @@ Wiki page: [Job-880651](../../../PAGES/Job-880651.md)
 - **Size:** 5,515,683 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 880651-02-008, size B (assumed) 306 × 432 mm, 1418 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 1–306 mm across, 0–432 mm up
+- **Outlines:** line 468 rings, 3,446 straight (5,961 mm) / 581 curved (842 mm); text 258 rings, 1,840 straight (2,021 mm) / 573 curved (783 mm)
+- **Centre lines:** 3,235 paths (60 closed); straight 4,338 mm, curved 310 mm; horizontal 1,730 mm, vertical 1,213 mm, diagonal 1,395 mm
+- **Circles and arcs:** 18 circles, 34 arcs; largest r 1.4 @ (197.9, 340.2), r 1.4 @ (51.1, 286.5), r 1.4 @ (199.1, 286.0), r 1.4 @ (123.8, 281.0)
+- **Closed boxes:** 1
+- **Words (OCR):** 38 in 38 lines: ED · 110 · 1k2 · 1/2 · 10 · (TWISTED) · CoMM · +25v · K1o · K8 · K9 · K12
+- **Wiring (first pass):** 174 connected wire groups from 412 runs; labelled ends: 126 mm → 0 - TRACK; 34 mm → IN4OOJ; 20 mm → (TWISTED); 16 mm → 10; 14 mm → "OVERDUB"
+
+Every curve, box, word and wire group: [1988 - 880651 - 880651-02-008 - MONITOR LEVEL CONTROLS TRACK (traced).json](1988%20-%20880651%20-%20880651-02-008%20-%20MONITOR%20LEVEL%20CONTROLS%20TRACK%20%28traced%29.json) (the CAD file: `1988 - 880651 - 880651-02-008 - MONITOR LEVEL CONTROLS TRACK (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

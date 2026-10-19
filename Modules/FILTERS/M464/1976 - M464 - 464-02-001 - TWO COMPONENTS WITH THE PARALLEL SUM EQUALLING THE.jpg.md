@@ -15,6 +15,21 @@ Wiki page: [M464](../../../PAGES/M464.md)
 
 - **1976** (labelled): `DATE NOV 76` — …CKD] Bic86. LSED ON NatL WBS WAAD-beck byateMB LTo DRM GEB DATE NOV 76 CKD scale TOLS M464 High PaSS Low PASS FIlteR ScHEMATiC 464…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 464-02-001, size B (assumed) 432 × 281 mm, 2000 × 1300 px traced (0.216 mm/px)
+- **Ink extent:** 2–432 mm across, 0–258 mm up
+- **Outlines:** line 1,247 rings, 11,841 straight (18,371 mm) / 3,218 curved (3,936 mm); text 635 rings, 3,727 straight (3,287 mm) / 1,392 curved (1,738 mm); tb 20 rings, 162 straight (199 mm) / 32 curved (39.0 mm)
+- **Centre lines:** 15,173 paths (370 closed); straight 13,653 mm, curved 451 mm; horizontal 3,912 mm, vertical 3,604 mm, diagonal 6,136 mm
+- **Circles and arcs:** 7 circles, 113 arcs; largest r 3.3 @ (363.0, 184.3), r 3.2 @ (355.1, 197.9), r 3.1 @ (363.5, 248.3), r 1.9 @ (191.1, 49.0)
+- **Closed boxes:** 17 (2 in the title block)
+- **Dots (junctions):** 2
+- **Words (OCR):** 131 in 106 lines: Low · FREQUENCY Cut · CUT · PASS · High · Tip298 · Ai · Low · PASS · 25y · 14oo3 · R58 R32
+- **Title block:** (349, 0)–(387, 28) mm: WBS · Nol 76 · Eo · ESCALE
+- **Wiring (first pass):** 127 connected wire groups from 931 runs; labelled ends: 243 mm → VSED Oh; 232 mm → Rze; 203 mm → C22, RZc, Rmio, Isok; 176 mm → 022; 148 mm → 47/35
+
+Every curve, box, word and wire group: [1976 - M464 - 464-02-001 - TWO COMPONENTS WITH THE PARALLEL SUM EQUALLING THE (traced).json](1976%20-%20M464%20-%20464-02-001%20-%20TWO%20COMPONENTS%20WITH%20THE%20PARALLEL%20SUM%20EQUALLING%20THE%20%28traced%29.json) (the CAD file: `1976 - M464 - 464-02-001 - TWO COMPONENTS WITH THE PARALLEL SUM EQUALLING THE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

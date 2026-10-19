@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 36,080,275 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 31106-04-003, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 0–278 mm up
+- **Outlines:** line 2,332 rings, 14,140 straight (25,700 mm) / 1,514 curved (1,772 mm); text 92 rings, 451 straight (420 mm) / 151 curved (189 mm); tb 41 rings, 161 straight (177 mm) / 38 curved (44.1 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 0.7 @ (54.2, 80.9), r 0.7 @ (386.6, 265.9), r 0.7 @ (406.5, 231.2), r 0.7 @ (54.2, 29.6)
+- **Closed boxes:** 68; named: WBSS BeCk SysteMS WARD Viami Latout 3110
+- **Words (OCR):** 13 in 12 lines: LEGEND · ROW · linio · CONSOLE · STR AF · 2a4 · Mea · WBSS WARD · BeCk SysteMS · Viami · Latout · 31106-04-003/2
+- **Title block:** (378, 19)–(432, 34) mm: WBSS WARD · BeCk SysteMS
+
+Every curve, box, word and wire group: [1977 - WSVN - 31106-04-003 - RED RESUBMITTAL REQUIRED RESUBMITTAL NOT REQUIRED CLIENT (traced).json](1977%20-%20WSVN%20-%2031106-04-003%20-%20RED%20RESUBMITTAL%20REQUIRED%20RESUBMITTAL%20NOT%20REQUIRED%20CLIENT%20%28traced%29.json) (the CAD file: `1977 - WSVN - 31106-04-003 - RED RESUBMITTAL REQUIRED RESUBMITTAL NOT REQUIRED CLIENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 15 words corrected)

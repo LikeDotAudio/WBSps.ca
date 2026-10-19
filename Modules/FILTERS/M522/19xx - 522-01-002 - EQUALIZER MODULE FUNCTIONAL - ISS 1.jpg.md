@@ -22,6 +22,20 @@ M522A equalizer module functional diagram, cropped.
 - **Size:** 185,318 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 522-01-002, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–330 mm across, 11–376 mm up
+- **Outlines:** line 177 rings, 3,591 straight (5,285 mm) / 519 curved (628 mm); text 140 rings, 1,105 straight (1,362 mm) / 312 curved (481 mm); tb 2 rings, 66 straight (144 mm) / 6 curved (11.2 mm)
+- **Centre lines:** 5,847 paths (33 closed); straight 4,500 mm, curved 26.1 mm; horizontal 1,407 mm, vertical 1,194 mm, diagonal 1,900 mm
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 4.0 @ (134.8, 246.1)
+- **Closed boxes:** 1
+- **Words (OCR):** 17 in 15 lines: EQ · INSERT · LEFT · seL FREQ · output · cut/ FREQ · BOOST · RIGHT · WBS · WARD-BECK SYSTEMS · M522A · EQUALIZER MODULE
+- **Title block:** (212, 46)–(338, 70) mm: WBS · WARD-BECK SYSTEMS
+- **Wiring (first pass):** 66 connected wire groups from 155 runs; labelled ends: 127 mm → INSERT; 72 mm → INSERT, LEFT; 62 mm → RIGHT; 12 mm → RIGHT; 11 mm → RIGHT
+
+Every curve, box, word and wire group: [19xx - 522-01-002 - EQUALIZER MODULE FUNCTIONAL - ISS 1 (traced).json](19xx%20-%20522-01-002%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 522-01-002 - EQUALIZER MODULE FUNCTIONAL - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

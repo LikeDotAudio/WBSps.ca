@@ -21,6 +21,19 @@ Wiki page: [M901C](../../../PAGES/M901C.md)
 - **Size:** 1,301,930 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 901-03-006, size D 864 × 541 mm, 2000 × 1253 px traced (0.432 mm/px)
+- **Ink extent:** 1–842 mm across, 0–539 mm up
+- **Outlines:** line 1,056 rings, 7,970 straight (28,806 mm) / 1,581 curved (4,811 mm); text 305 rings, 1,820 straight (3,451 mm) / 578 curved (1,474 mm); tb 3 rings, 20 straight (38.0 mm) / 3 curved (5.8 mm)
+- **Centre lines:** 13,452 paths (266 closed); straight 20,799 mm, curved 1,087 mm; horizontal 5,771 mm, vertical 6,551 mm, diagonal 8,477 mm
+- **Circles and arcs:** 16 circles, 22 arcs; largest r 124.5 @ (682.6, 365.8), r 3.6 @ (206.6, 477.2), r 3.6 @ (409.8, 472.2), r 3.6 @ (400.8, 80.8)
+- **Closed boxes:** 77 (2 in the title block); named: Lsueloan; 901-03-006
+- **Words (OCR):** 32 in 28 lines: 2 RECD" · 0203 · (oi · SHONTATON · 0,07n · secnor · DETAL · (FUL Rao SloT) · MATERIAL: ALUM ALLOY 0.125 THICK · 12412 · 12272 · FINISH: SAND 120 Grit AND PAINT
+- **Title block:** (704, 40)–(823, 72) mm: Lsueloan · RESIO · WES WARD · BECK SYSTEMS · M9O1C
+
+Every curve, box, word and wire group: [19xx - 901-03-006 - LINE INPUT MODULE - DRN DRG - ISS 3 (traced).json](19xx%20-%20901-03-006%20-%20LINE%20INPUT%20MODULE%20-%20DRN%20DRG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 901-03-006 - LINE INPUT MODULE - DRN DRG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

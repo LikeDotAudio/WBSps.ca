@@ -23,6 +23,15 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 1,696,918 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 900438-04-011, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 270°
+- **Ink extent:** 0–432 mm across, 19–305 mm up
+- **Outlines:** line 389 rings, 4,512 straight (13,053 mm) / 642 curved (989 mm); text 231 rings, 1,389 straight (1,657 mm) / 460 curved (655 mm)
+- **Closed boxes:** 34
+
+Every curve, box, word and wire group: [1990 - 900438-04-011 - CHIN RADIO R1400 EQUIPMENT LAYOUT - DRN GEB - ENG GEB - ISS 1 (traced).json](1990%20-%20900438-04-011%20-%20CHIN%20RADIO%20R1400%20EQUIPMENT%20LAYOUT%20-%20DRN%20GEB%20-%20ENG%20GEB%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1990 - 900438-04-011 - CHIN RADIO R1400 EQUIPMENT LAYOUT - DRN GEB - ENG GEB - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

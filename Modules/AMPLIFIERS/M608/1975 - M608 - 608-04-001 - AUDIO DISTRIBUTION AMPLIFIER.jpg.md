@@ -11,6 +11,19 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 232,311 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 608-04-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 4–424 mm up
+- **Outlines:** line 209 rings, 3,924 straight (9,354 mm) / 528 curved (868 mm); text 448 rings, 4,207 straight (5,763 mm) / 1,005 curved (1,857 mm); tb 41 rings, 370 straight (578 mm) / 75 curved (110 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 2.2 @ (2.3, 274.1)
+- **Closed boxes:** 19 (11 in the title block); named: 608-04-001; SCALE
+- **Dots (junctions):** 7
+- **Words (OCR):** 53 in 45 lines: MODULE · COMMON MAY BE · USED To CONNECT · OUTPUT · CAELE SHIELDS · CHASSIS · MOCULE · CCMCN TC · SYSTems · 010 20 · GROUND · Q11 30
+- **Title block:** (107, 11)–(332, 296) mm: MOCULE · CCMCN TC · SYSTems · GROUND · CUTPUTs · OUTFUT 6 · OUTPUT 7 · CUTPLT8 · TNPUT · SHIELD · CONNECTION · 3723 · PM_ · 1O/80 · ISSUE |DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · DRN R Mlone
+
+Every curve, box, word and wire group: [1975 - M608 - 608-04-001 - AUDIO DISTRIBUTION AMPLIFIER (traced).json](1975%20-%20M608%20-%20608-04-001%20-%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20%28traced%29.json) (the CAD file: `1975 - M608 - 608-04-001 - AUDIO DISTRIBUTION AMPLIFIER (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

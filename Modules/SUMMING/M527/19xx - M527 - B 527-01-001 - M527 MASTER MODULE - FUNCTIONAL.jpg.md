@@ -11,6 +11,19 @@ Wiki page: [M527](../../../PAGES/M527.md)
 - **Size:** 1,502,104 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 527-01-001, size B (assumed) 432 × 304 mm, 2000 × 1409 px traced (0.216 mm/px)
+- **Ink extent:** 9–424 mm across, 0–304 mm up
+- **Outlines:** line 477 rings, 3,402 straight (6,336 mm) / 617 curved (784 mm); text 323 rings, 1,879 straight (1,811 mm) / 636 curved (828 mm); tb 2 rings, 55 straight (129 mm) / 2 curved (3.8 mm)
+- **Centre lines:** 3,733 paths (86 closed); straight 4,704 mm, curved 89.9 mm; horizontal 1,567 mm, vertical 1,435 mm, diagonal 1,702 mm
+- **Circles and arcs:** 1 circles, 24 arcs; largest r 0.7 @ (150.1, 164.9)
+- **Words (OCR):** 47 in 45 lines: VONO · AMPLITIER · OVERLOAD · HONC · BOOSTER · SumminG · Jacks · Outputs · direct · Horo · Ho4o · Tor
+- **Title block:** (319, 37)–(432, 56) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 143 connected wire groups from 347 runs; labelled ends: 77 mm → IFieR, DIRect; 72 mm → Summing; 34 mm → SumminG, CONTROL; 34 mm → SumminG, AMPLITIER; 33 mm → Suvyi G, Summing
+
+Every curve, box, word and wire group: [19xx - M527 - B 527-01-001 - M527 MASTER MODULE - FUNCTIONAL (traced).json](19xx%20-%20M527%20-%20B%20527-01-001%20-%20M527%20MASTER%20MODULE%20-%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - M527 - B 527-01-001 - M527 MASTER MODULE - FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -26,6 +26,20 @@ Wiki page: [M501](../../../PAGES/M501.md)
 
 - **1968** (labelled): `DATE 24 MAY-68` — …O <hJk <6.2k 25/15 PC BOARD NO M438 DRN C.S.OCONNELL FINISH DATE 24 MAY-68 CHKD MATERIAL WARD BECK_SYSTEMS Ltd, 501A PREAMP SCHEMATIC…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 501-02-002, size B 432 × 324 mm, 2000 × 1500 px traced (0.216 mm/px)
+- **Ink extent:** 0–351 mm across, 0–324 mm up
+- **Outlines:** line 862 rings, 7,756 straight (9,460 mm) / 1,475 curved (1,860 mm); text 246 rings, 1,436 straight (1,413 mm) / 412 curved (567 mm); tb 28 rings, 144 straight (142 mm) / 51 curved (66.9 mm)
+- **Centre lines:** 12,764 paths (66 closed); straight 8,640 mm, curved 312 mm; horizontal 2,794 mm, vertical 1,856 mm, diagonal 3,990 mm
+- **Circles and arcs:** 7 circles, 49 arcs; largest r 6.9 @ (272.9, 216.8), r 6.7 @ (270.2, 149.4), r 1.4 @ (335.2, 148.5), r 1.2 @ (335.8, 170.5)
+- **Closed boxes:** 4 (3 in the title block)
+- **Words (OCR):** 65 in 56 lines: IN4 14 8 · 2p6 · LMLol · RI3 · 470 · CRZ · <RI · Siox · IN2O70 · 68k · 212 · 2N3645
+- **Title block:** (188, 56)–(339, 98) mm: FINISH · DRN C.S OCONNELL · WARD · DATE | 24 MAY-68 · CHKD · MATERIAL · SCALE · MN6Be · DEC · PLACES
+- **Wiring (first pass):** 82 connected wire groups from 616 runs; labelled ends: 152 mm → 2n4037; 120 mm → S0IA, SPUEMEDNGLES; 76 mm → CRZ, IN2O70, ZN3053, Koa; 60 mm → RI[, 727, 250/25, RIZC; 48 mm → WARD
+
+Every curve, box, word and wire group: [1968 - 501-02-002 - 501A PREAMP SCHEMATIC - DRN C.S.O'CONNELL - ISS 1 (3) (traced).json](1968%20-%20501-02-002%20-%20501A%20PREAMP%20SCHEMATIC%20-%20DRN%20C.S.O%27CONNELL%20-%20ISS%201%20%283%29%20%28traced%29.json) (the CAD file: `1968 - 501-02-002 - 501A PREAMP SCHEMATIC - DRN C.S.O'CONNELL - ISS 1 (3) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

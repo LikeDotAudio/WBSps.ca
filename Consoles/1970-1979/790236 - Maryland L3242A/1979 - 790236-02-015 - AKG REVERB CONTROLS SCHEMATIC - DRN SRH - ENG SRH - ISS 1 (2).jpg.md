@@ -23,6 +23,20 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 5,348,624 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 790236-02-015, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–287 mm up
+- **Outlines:** line 568 rings, 7,275 straight (9,346 mm) / 1,070 curved (1,316 mm); text 287 rings, 1,928 straight (2,161 mm) / 648 curved (930 mm); tb 6 rings, 97 straight (213 mm) / 9 curved (12.6 mm)
+- **Centre lines:** 10,622 paths (109 closed); straight 7,928 mm, curved 219 mm; horizontal 2,926 mm, vertical 2,072 mm, diagonal 2,931 mm
+- **Circles and arcs:** 19 circles, 15 arcs; largest r 1.4 @ (355.4, 160.9), r 1.4 @ (387.1, 160.8), r 1.3 @ (190.2, 161.5), r 1.3 @ (303.2, 161.0)
+- **Closed boxes:** 11 (6 in the title block); named: 790236-02-015
+- **Words (OCR):** 41 in 32 lines: DECAY · TIME · PENDAR · 5b23i0 · 6K2 · I6k · 6k2 · Gk · PotentioheteR · 25k · 25k _ · ALLEN BrADLEY
+- **Title block:** (293, 6)–(432, 74) mm: ISSUE IDATE · REVISION · WBS WARD-BECK · SYSTEMS · DRN Srh · ENG. SRH · AkG REverB · ConTrolS · SCHEHATIC · CKD · APP · SCALE · 790236-02-015 · ISSUE
+- **Wiring (first pass):** 43 connected wire groups from 305 runs; labelled ends: 213 mm → 109; 124 mm → i06, 107; 106 mm → Tb2-, 103, 104; 100 mm → I6k, 25k; 41 mm → Te2- |15
+
+Every curve, box, word and wire group: [1979 - 790236-02-015 - AKG REVERB CONTROLS SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (2) (traced).json](1979%20-%20790236-02-015%20-%20AKG%20REVERB%20CONTROLS%20SCHEMATIC%20-%20DRN%20SRH%20-%20ENG%20SRH%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1979 - 790236-02-015 - AKG REVERB CONTROLS SCHEMATIC - DRN SRH - ENG SRH - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

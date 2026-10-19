@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 10,226,652 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 96002-04-004, size B (assumed) 432 × 350 mm, 2000 × 1622 px traced (0.216 mm/px); scale DISC NO: SYSO1
+- **Ink extent:** 27–432 mm across, 2–323 mm up
+- **Outlines:** line 1,482 rings, 12,100 straight (35,110 mm) / 1,382 curved (1,835 mm); text 388 rings, 2,521 straight (2,634 mm) / 797 curved (1,079 mm); tb 19 rings, 418 straight (1,799 mm) / 8 curved (10.9 mm)
+- **Circles and arcs:** 6 circles, 0 arcs; largest r 6.7 @ (371.0, 99.1), r 6.7 @ (370.6, 125.4), r 1.9 @ (373.2, 101.6), r 1.9 @ (372.8, 127.9)
+- **Closed boxes:** 203; named: TELOS
+- **Dots (junctions):** 39
+- **Words (OCR):** 75 in 69 lines: MG · H2 · HuM · FRE · TRAF · NEWS · TAPE · TAPE · HL2 · CR MON · VETER · DCSI
+- **Title block:** (306, 1)–(432, 61) mm: IISSUE · REVISION · WARD-BECK · SYSTEMS · WBS · CFNY · DRN; DRG · ENG_ · MASTER · CONTROL ROOM · CKD_ · CONSOLE · LA YOUT · APP · SCALE DISC NO: SYSO1 · 96002-04-004 · ISS · 1:2 CODE: 96002L04
+
+Every curve, box, word and wire group: [1996 - DOC - 96002-04-004 - CFNY ENG MASTER CONTROL ROOM (traced).json](1996%20-%20DOC%20-%2096002-04-004%20-%20CFNY%20ENG%20MASTER%20CONTROL%20ROOM%20%28traced%29.json) (the CAD file: `1996 - DOC - 96002-04-004 - CFNY ENG MASTER CONTROL ROOM (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

@@ -12,6 +12,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 7,337,016 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 520-02-001, size B (assumed) 432 × 303 mm, 2000 × 1404 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 1–432 mm across, 1–285 mm up
+- **Outlines:** line 1,148 rings, 9,894 straight (16,066 mm) / 2,179 curved (2,646 mm); text 209 rings, 1,212 straight (1,036 mm) / 355 curved (429 mm)
+- **Centre lines:** 8,373 paths (264 closed); straight 9,713 mm, curved 193 mm; horizontal 4,353 mm, vertical 2,119 mm, diagonal 3,241 mm
+- **Circles and arcs:** 9 circles, 32 arcs; largest r 3.4 @ (172.2, 60.6), r 2.7 @ (240.4, 62.3), r 2.7 @ (240.5, 48.6), r 1.2 @ (405.2, 10.7)
+- **Closed boxes:** 14
+- **Dots (junctions):** 2
+- **Wiring (first pass):** 108 connected wire groups from 671 runs, 2 dotted junctions
+
+Every curve, box, word and wire group: [1988 - M520 - 520-02-001 - CONTROL DATA SENSE MIC-LINE ASSEMBLY (traced).json](1988%20-%20M520%20-%20520-02-001%20-%20CONTROL%20DATA%20SENSE%20MIC-LINE%20ASSEMBLY%20%28traced%29.json) (the CAD file: `1988 - M520 - 520-02-001 - CONTROL DATA SENSE MIC-LINE ASSEMBLY (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

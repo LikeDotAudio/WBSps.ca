@@ -11,6 +11,19 @@ Wiki page: [M490M](../../../PAGES/M490M.md)
 - **Size:** 266,202 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 14-120-02-001, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 6–335 mm across, 30–398 mm up
+- **Outlines:** line 807 rings, 7,876 straight (13,405 mm) / 1,861 curved (2,340 mm); text 579 rings, 3,124 straight (2,695 mm) / 1,306 curved (1,603 mm)
+- **Centre lines:** 7,900 paths (186 closed); straight 9,490 mm, curved 318 mm; horizontal 2,772 mm, vertical 3,047 mm, diagonal 3,671 mm
+- **Circles and arcs:** 2 circles, 100 arcs; largest r 0.8 @ (217.4, 106.7), r 0.7 @ (199.9, 256.2)
+- **Closed boxes:** 4
+- **Words (OCR):** 128 in 118 lines: 608/10 · UIA · PREAMP · LEFT · Ook cri · CR2 · CMBJN · 4Bn · dum · C14 · 600 onm" · cra
+- **Wiring (first pass):** 104 connected wire groups from 797 runs; labelled ends: 235 mm → C52, 22/25, c54, C56; 198 mm → 608/10, Ook, cri, CR3; 175 mm → R50, CJ], RL9; 145 mm → CJi, 532, 68/10, MBJ JN; 140 mm → 68 1/2w, c54, 22/25, C56
+
+Every curve, box, word and wire group: [1988 - M490M - 14-120-02-001 - COMMON COMMON SPEC IFIED LAST COMPONENT DESIGNA (traced).json](1988%20-%20M490M%20-%2014-120-02-001%20-%20COMMON%20COMMON%20SPEC%20IFIED%20LAST%20COMPONENT%20DESIGNA%20%28traced%29.json) (the CAD file: `1988 - M490M - 14-120-02-001 - COMMON COMMON SPEC IFIED LAST COMPONENT DESIGNA (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

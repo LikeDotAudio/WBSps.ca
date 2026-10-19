@@ -15,6 +15,20 @@ Wiki page: [M621](../../../PAGES/M621.md)
 
 - **1973** (labelled): `DATE SEPT 1973` — …L_ WBS WAAD-BECK BySTEMs LTD. DRN: D Ps 20 WATT MONITOR AMP DATE SEPT 1973 CKD_ Rn P € B SCHEMATIC SCALE XX TOLS_ 3 173-02-001 ISS_ An…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 173-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 2–432 mm up
+- **Outlines:** line 156 rings, 3,235 straight (5,926 mm) / 479 curved (657 mm); text 433 rings, 4,471 straight (5,898 mm) / 1,063 curved (1,817 mm); tb 27 rings, 353 straight (666 mm) / 35 curved (52.5 mm)
+- **Centre lines:** 3,743 paths (57 closed); straight 7,483 mm, curved 10.0 mm; horizontal 3,097 mm, vertical 1,521 mm, diagonal 2,866 mm
+- **Circles and arcs:** 0 circles, 3 arcs
+- **Closed boxes:** 13 (4 in the title block); named: WBS WAAD-BECK BYSTEMs LTD_; MATL; 20 WATT MONITOR AMP P C B SCHEMATIC; FINISH; ISS.; 173-02-001; XX TOLS_
+- **Words (OCR):** 58 in 37 lines: NOTES · UNLEss OThErwise · STATED, ALL resistors ARE · 'aWATT, · VALUES in · OhmS · CAPAC itor VALUES · in · Micro · FARADS · COMPONENT · DEsignAtions C 33 :
+- **Title block:** (102, 17)–(253, 88) mm: WBS WAAD-BECK BYSTEMs LTD_ · DRN: · DPs 20 WATT MONITOR AMP · DATE Sept 1973 · CKD_ · Ra · P C B SCHEMATIC · SCALE · TOLS_ · XX
+- **Wiring (first pass):** 10 connected wire groups from 70 runs; labelled ends: 251 mm → WBS, ON; 202 mm → DRN:, DATE, CKD_; 60 mm → SCHEMATIC, 173-02-001, ISS.; 36 mm → NOTES, UNLEss, 'aWATT,; 29 mm → LTD_, BYSTEMs
+
+Every curve, box, word and wire group: [1973 - M621 - 173-02-001 - OHMS CAPAC ITOR VALUES SIGNATIONS (traced).json](1973%20-%20M621%20-%20173-02-001%20-%20OHMS%20CAPAC%20ITOR%20VALUES%20SIGNATIONS%20%28traced%29.json) (the CAD file: `1973 - M621 - 173-02-001 - OHMS CAPAC ITOR VALUES SIGNATIONS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

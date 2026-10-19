@@ -11,6 +11,20 @@ Wiki page: [M568P](../../../PAGES/M568P.md)
 - **Size:** 5,581,314 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 568-01-014, size B (assumed) 432 × 257 mm, 2000 × 1189 px traced (0.216 mm/px)
+- **Ink extent:** 15–432 mm across, 0–257 mm up
+- **Outlines:** line 292 rings, 3,823 straight (6,748 mm) / 720 curved (911 mm); text 167 rings, 1,618 straight (1,586 mm) / 490 curved (631 mm)
+- **Centre lines:** 5,442 paths (69 closed); straight 5,135 mm, curved 77.0 mm; horizontal 1,765 mm, vertical 1,323 mm, diagonal 2,047 mm
+- **Circles and arcs:** 1 circles, 25 arcs; largest r 0.9 @ (20.9, 65.9)
+- **Closed boxes:** 12
+- **Dots (junctions):** 1
+- **Words (OCR):** 42 in 40 lines: PRE EQ · ~6 dBm · TRACX OUT · UNBAL · +4/+8 dBm · POSTFADE · MONO · PAN · POSTFADE · CUTPUT · dBm · dBM
+- **Wiring (first pass):** 81 connected wire groups from 329 runs; labelled ends: 27 mm → TRACX OUT, +4/+8 dBm; 20 mm → WES, WARD-BECK; 20 mm → WES, WARD-BECK; 19 mm → POSTFADE; 19 mm → PLAMBACX, +4/+8 d8m
+
+Every curve, box, word and wire group: [19xx - M568P - 568-01-014 - MONO ASSIGNMENT MODULE FUNCTIONAL (traced).json](19xx%20-%20M568P%20-%20568-01-014%20-%20MONO%20ASSIGNMENT%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `19xx - M568P - 568-01-014 - MONO ASSIGNMENT MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

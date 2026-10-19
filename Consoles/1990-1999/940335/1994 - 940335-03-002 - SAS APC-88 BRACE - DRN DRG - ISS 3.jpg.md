@@ -20,6 +20,19 @@ Wiki page: [Job-940335](../../../PAGES/Job-940335.md)
 - **Size:** 418,839 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 940335-03-002, size D 864 × 559 mm, 2000 × 1295 px traced (0.432 mm/px); scale CSC *1
+- **Ink extent:** 81–864 mm across, 13–545 mm up
+- **Outlines:** line 623 rings, 4,666 straight (27,590 mm) / 816 curved (2,046 mm); text 242 rings, 1,472 straight (2,793 mm) / 447 curved (1,144 mm); tb 41 rings, 321 straight (609 mm) / 81 curved (184 mm)
+- **Centre lines:** 6,213 paths (159 closed); straight 17,613 mm, curved 127 mm; horizontal 8,775 mm, vertical 4,609 mm, diagonal 4,230 mm
+- **Circles and arcs:** 2 circles, 12 arcs; largest r 3.3 @ (308.4, 476.5), r 3.3 @ (327.2, 477.0)
+- **Closed boxes:** 57 (12 in the title block)
+- **Words (OCR):** 27 in 26 lines: DATUU · DATU · (2:1) · 0.883 TP · DATU · (NSALL · ExO PLATES) · MATERIAL: · SEE BODY OF DRAMNG. · DATI · SAND 120 CRIT AND · PAINT
+- **Title block:** (681, 10)–(860, 79) mm: WBS · WARD-BECK SYSTEMS · IDRN: · SAS · APC-88 · BRACE · SCALE CSC *1 · CCOE · 940335-03-002
+
+Every curve, box, word and wire group: [1994 - 940335-03-002 - SAS APC-88 BRACE - DRN DRG - ISS 3 (traced).json](1994%20-%20940335-03-002%20-%20SAS%20APC-88%20BRACE%20-%20DRN%20DRG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1994 - 940335-03-002 - SAS APC-88 BRACE - DRN DRG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

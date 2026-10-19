@@ -21,6 +21,19 @@ Wiki page: [M900](../../../PAGES/M900.md)
 - **Size:** 417,862 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 900-03-018, size D 864 × 560 mm, 2000 × 1296 px traced (0.432 mm/px)
+- **Ink extent:** 0–845 mm across, 0–525 mm up
+- **Outlines:** line 453 rings, 3,315 straight (17,488 mm) / 627 curved (1,515 mm); text 210 rings, 1,263 straight (2,484 mm) / 394 curved (986 mm); tb 23 rings, 165 straight (372 mm) / 38 curved (94.3 mm)
+- **Centre lines:** 4,248 paths (121 closed); straight 11,652 mm, curved 49.3 mm; horizontal 3,744 mm, vertical 4,937 mm, diagonal 2,971 mm
+- **Circles and arcs:** 0 circles, 8 arcs
+- **Closed boxes:** 41 (6 in the title block); named: MK    SERIES CONNECTOR PANEL; 900-03-018
+- **Words (OCR):** 19 in 18 lines: 2f · ~OTCRLCCCORDINGLY · DAT · MATERIAL: CRS: 0.059 · THICK. · NINISH: · SAND 120 GRIT AND PAINT · TEXTURED BROWN (438C) · TEXCOTE MNYL · TDLERANCES · SHARI · reo"d
+- **Title block:** (687, 45)–(856, 78) mm: WBS · WARD-BECK SYSTEMS
+
+Every curve, box, word and wire group: [19xx - 900-03-018 - MK SERIES CONNECTOR PANEL - DRN DRG - ISS 3 (traced).json](19xx%20-%20900-03-018%20-%20MK%20SERIES%20CONNECTOR%20PANEL%20-%20DRN%20DRG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 900-03-018 - MK SERIES CONNECTOR PANEL - DRN DRG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

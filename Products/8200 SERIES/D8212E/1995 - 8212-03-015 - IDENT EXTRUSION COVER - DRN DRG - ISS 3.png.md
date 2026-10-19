@@ -22,6 +22,19 @@ Wiki page: [D8212E](../../../PAGES/D8212E.md)
 - **Size:** 1,347,081 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 8212-03-015, size D 864 × 611 mm, 2000 × 1414 px traced (0.432 mm/px)
+- **Ink extent:** 0–851 mm across, 14–606 mm up
+- **Outlines:** line 140 rings, 2,313 straight (15,439 mm) / 346 curved (1,021 mm); text 547 rings, 3,488 straight (8,066 mm) / 1,152 curved (3,155 mm); tb 32 rings, 502 straight (3,879 mm) / 34 curved (106 mm)
+- **Centre lines:** 4,649 paths (78 closed); straight 15,885 mm, curved 180 mm; horizontal 8,147 mm, vertical 2,984 mm, diagonal 4,753 mm
+- **Circles and arcs:** 5 circles, 15 arcs; largest r 3.6 @ (484.2, 343.0), r 3.5 @ (197.2, 341.1), r 3.5 @ (594.6, 343.4), r 2.8 @ (771.1, 317.1)
+- **Closed boxes:** 3
+- **Words (OCR):** 56 in 46 lines: 12.075 · 0.575 · 10.925 · 5.462 · 2.962 · #1-72 UNF · 8212-03-015-1 IDENT EXTRUSION · 0.50 REF 0.250 · MATERIAL:    EXTRUSION #49917 · FINISH: · SAND240 GRIT AND PAINT _ · MATE
+- **Title block:** (601, 70)–(864, 176) mm: SSUE] DATE · REMSION · WBS · WARD-BECK SYSTEMS · DRN: DRC(8/95) · D8212E · ENG. · CKD · IDENT EXTRUSION/COVER · APP_ · SCALE · DISC NO: SYSO1 · ISSUE · 8212M15 · 8212-03-015 · CODE:
+
+Every curve, box, word and wire group: [1995 - 8212-03-015 - IDENT EXTRUSION COVER - DRN DRG - ISS 3 (traced).json](1995%20-%208212-03-015%20-%20IDENT%20EXTRUSION%20COVER%20-%20DRN%20DRG%20-%20ISS%203%20%28traced%29.json) (the CAD file: `1995 - 8212-03-015 - IDENT EXTRUSION COVER - DRN DRG - ISS 3 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

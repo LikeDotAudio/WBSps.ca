@@ -24,6 +24,21 @@ Wiki page: [M470](../../../PAGES/M470.md)
 - **Size:** 564,579 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional B 470-01-006, size B 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–335 mm across, 0–432 mm up
+- **Outlines:** line 423 rings, 9,798 straight (15,893 mm) / 1,645 curved (2,259 mm); text 336 rings, 3,486 straight (4,193 mm) / 955 curved (1,526 mm); tb 12 rings, 224 straight (413 mm) / 30 curved (58.4 mm)
+- **Centre lines:** 9,679 paths (85 closed); straight 12,276 mm, curved 148 mm; horizontal 4,629 mm, vertical 3,296 mm, diagonal 4,350 mm
+- **Circles and arcs:** 5 circles, 24 arcs; largest r 4.7 @ (44.0, 145.7), r 2.3 @ (134.4, 170.8), r 1.7 @ (130.1, 170.8), r 1.6 @ (134.2, 171.0)
+- **Closed boxes:** 22 (7 in the title block); named: ISSUE; 470-01-006; SCALE
+- **Dots (junctions):** 1
+- **Words (OCR):** 51 in 46 lines: DIRECT output · BRIDGING · dBm · control · Commom · CONTROL · PAN · inSERT · CHAN · CoNTROL · on · FADER
+- **Title block:** (116, 14)–(333, 116) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN.JR/o7/84 · ENG ELJ · INPUT MODULE · CKD: · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 470-01-006
+- **Wiring (first pass):** 136 connected wire groups from 405 runs; labelled ends: 272 mm → output, BRIDGING; 184 mm → BST; 160 mm → PEAK, INDICATOR; 101 mm → PEAK, INDICATOR; 29 mm → CONTROL, CoNTROL
+
+Every curve, box, word and wire group: [1984 - 470-01-006 - M470E INPUT MODULE FUNCTIONAL DIAGRAM - DRN JP - ENG ELJ - ISS 1 (2) (traced).json](1984%20-%20470-01-006%20-%20M470E%20INPUT%20MODULE%20FUNCTIONAL%20DIAGRAM%20-%20DRN%20JP%20-%20ENG%20ELJ%20-%20ISS%201%20%282%29%20%28traced%29.json) (the CAD file: `1984 - 470-01-006 - M470E INPUT MODULE FUNCTIONAL DIAGRAM - DRN JP - ENG ELJ - ISS 1 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

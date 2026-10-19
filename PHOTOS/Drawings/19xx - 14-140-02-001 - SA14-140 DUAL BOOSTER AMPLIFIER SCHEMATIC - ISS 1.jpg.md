@@ -22,6 +22,19 @@ SA14-140 dual booster amplifier schematic.
 - **Size:** 270,864 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 14-140-02-001, size B 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–331 mm across, 0–400 mm up
+- **Outlines:** line 219 rings, 2,748 straight (4,916 mm) / 479 curved (603 mm); text 419 rings, 3,541 straight (3,759 mm) / 1,058 curved (1,436 mm); tb 2 rings, 86 straight (158 mm) / 2 curved (3.6 mm)
+- **Centre lines:** 4,737 paths (62 closed); straight 5,322 mm, curved 46.2 mm; horizontal 1,522 mm, vertical 1,392 mm, diagonal 2,409 mm
+- **Circles and arcs:** 0 circles, 16 arcs
+- **Words (OCR):** 79 in 72 lines: NESSJ4N · +18V · C12 · U4 · 220/10 · ~18V · C1o · R24 · 47K · 4p7 · R23 · LEFT
+- **Title block:** (208, 49)–(337, 74) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 35 connected wire groups from 225 runs; labelled ends: 154 mm → 22P, R29, 1Ok, R28; 126 mm → 68/10, R20, 15k; 118 mm → R22, 10k, R21, 82k; 115 mm → R28, 10K, C16, 4P7; 104 mm → C12, 220/10, C1o, 4p7
+
+Every curve, box, word and wire group: [19xx - 14-140-02-001 - SA14-140 DUAL BOOSTER AMPLIFIER SCHEMATIC - ISS 1 (traced).json](19xx%20-%2014-140-02-001%20-%20SA14-140%20DUAL%20BOOSTER%20AMPLIFIER%20SCHEMATIC%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 14-140-02-001 - SA14-140 DUAL BOOSTER AMPLIFIER SCHEMATIC - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

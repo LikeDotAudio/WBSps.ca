@@ -10,6 +10,18 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 5,135,807 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 3642-02-006, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 358 rings, 3,604 straight (7,921 mm) / 596 curved (896 mm); text 222 rings, 1,316 straight (1,487 mm) / 434 curved (622 mm)
+- **Centre lines:** 3,289 paths (57 closed); straight 5,247 mm, curved 275 mm; horizontal 2,471 mm, vertical 1,350 mm, diagonal 1,427 mm
+- **Circles and arcs:** 8 circles, 54 arcs; largest r 4.0 @ (3.9, 254.9), r 3.7 @ (4.7, 142.9), r 3.6 @ (4.5, 32.3), r 1.2 @ (233.3, 81.8)
+- **Closed boxes:** 10
+- **Wiring (first pass):** 40 connected wire groups from 275 runs
+
+Every curve, box, word and wire group: [1988 - BIG CFTO TV done - 3642-02-006 - NOTE LED'S ARE NOT PROVIDED WITH (traced).json](1988%20-%20BIG%20CFTO%20TV%20done%20-%203642-02-006%20-%20NOTE%20LED%27S%20ARE%20NOT%20PROVIDED%20WITH%20%28traced%29.json) (the CAD file: `1988 - BIG CFTO TV done - 3642-02-006 - NOTE LED'S ARE NOT PROVIDED WITH (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -11,6 +11,20 @@ Wiki page: [M462C](../../../PAGES/M462C.md)
 - **Size:** 2,230,337 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 462-01-004, size B (assumed) 337 × 432 mm, 1560 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 337 rings, 4,761 straight (5,522 mm) / 788 curved (818 mm); text 123 rings, 1,066 straight (1,369 mm) / 279 curved (439 mm); tb 2 rings, 63 straight (154 mm) / 3 curved (5.4 mm)
+- **Centre lines:** 13,930 paths (79 closed); straight 6,705 mm, curved 38.2 mm; horizontal 1,919 mm, vertical 1,499 mm, diagonal 3,287 mm
+- **Circles and arcs:** 0 circles, 11 arcs
+- **Closed boxes:** 2; named: SA1+-109; SA1L-109
+- **Words (OCR):** 16 in 13 lines: INSERT · 00 Hz · SA1+-109 · FREQ · CUTPUT · RIGHT · SA1L-109 · WBS WARD-BECK SYSTEMS · M462C · STEREO EQUALIZER MODULE · FUNCTIONAL · 462-01-004
+- **Title block:** (215, 40)–(337, 64) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 68 connected wire groups from 297 runs; labelled ends: 86 mm → INSERT; 75 mm → 00 Hz; 62 mm → INSERT; 27 mm → RIGHT; 6 mm → 00 Hz
+
+Every curve, box, word and wire group: [1985 - M462C - 462-01-004 - STEREO EQUALIZER MODULE FUNCTIONAL (traced).json](1985%20-%20M462C%20-%20462-01-004%20-%20STEREO%20EQUALIZER%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1985 - M462C - 462-01-004 - STEREO EQUALIZER MODULE FUNCTIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

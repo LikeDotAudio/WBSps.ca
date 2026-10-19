@@ -11,6 +11,19 @@ Wiki page: [M475A](../../../PAGES/M475A.md)
 - **Size:** 431,751 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 475-01-002, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–327 mm across, 11–324 mm up
+- **Outlines:** line 154 rings, 1,496 straight (3,235 mm) / 243 curved (357 mm); text 197 rings, 1,454 straight (1,656 mm) / 445 curved (659 mm); tb 2 rings, 53 straight (152 mm) / 2 curved (4.5 mm)
+- **Centre lines:** 2,081 paths (32 closed); straight 2,899 mm, curved 80.1 mm; horizontal 921 mm, vertical 799 mm, diagonal 1,179 mm
+- **Circles and arcs:** 4 circles, 7 arcs; largest r 3.0 @ (62.2, 107.1), r 3.0 @ (139.3, 205.6), r 2.9 @ (51.4, 178.8), r 0.9 @ (119.6, 288.5)
+- **Words (OCR):** 28 in 25 lines: BOOSTER · AMPLIFIER · 0iRecT · Left · outPut · aBm · Muted · DiRECT · Right · output · dBm · MUTED
+- **Title block:** (207, 46)–(333, 70) mm: WBS WARD-BECK SYSTEMS
+- **Wiring (first pass):** 42 connected wire groups from 150 runs; labelled ends: 100 mm → DiRECT; 100 mm → 0iRecT; 72 mm → AMPLIFIER; 25 mm → DiRECT, MUTED; 24 mm → 0iRecT, Muted
+
+Every curve, box, word and wire group: [1986 - M475A - 475-01-002 - STEREO MONITOR MODULE FUNC TIONAL (traced).json](1986%20-%20M475A%20-%20475-01-002%20-%20STEREO%20MONITOR%20MODULE%20FUNC%20TIONAL%20%28traced%29.json) (the CAD file: `1986 - M475A - 475-01-002 - STEREO MONITOR MODULE FUNC TIONAL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

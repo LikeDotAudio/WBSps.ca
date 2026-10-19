@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 17,305,650 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 960244-04-003, size B (assumed) 432 × 276 mm, 2000 × 1276 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 5–273 mm up
+- **Outlines:** line 245 rings, 2,079 straight (8,324 mm) / 306 curved (406 mm); text 131 rings, 799 straight (919 mm) / 225 curved (332 mm); tb 18 rings, 166 straight (186 mm) / 23 curved (26.2 mm)
+- **Circles and arcs:** 1 circles, 0 arcs; largest r 3.3 @ (305.1, 146.3)
+- **Closed boxes:** 32 (4 in the title block); named: TIMER CLOCK; CLOCK; TIMER; CLOCK; TIMER; RADIO BOSTON WODS VOICER STUDIO TURRET L; 960244-04-003; COzE 96244LOJ
+- **Dots (junctions):** 1
+- **Words (OCR):** 15 in 13 lines: TIMER · CLOCK · CUSTOMFR · WBS · WARD · BECK  SYSTEMS · WODS · RADIO BOSTON · VOICER STUDIO TURRET · LAYOUT · SCALC · COzE 96244LOJ
+- **Title block:** (339, 23)–(423, 40) mm: WBS · WARD · BECK  SYSTEMS · WODS · RADIO BOSTON
+
+Every curve, box, word and wire group: [1996 - 960244 - DOC - 960244-04-003 - WODS RADIO BOSTON ENG VOICER STUDIO TURRET (traced).json](1996%20-%20960244%20-%20DOC%20-%20960244-04-003%20-%20WODS%20RADIO%20BOSTON%20ENG%20VOICER%20STUDIO%20TURRET%20%28traced%29.json) (the CAD file: `1996 - 960244 - DOC - 960244-04-003 - WODS RADIO BOSTON ENG VOICER STUDIO TURRET (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

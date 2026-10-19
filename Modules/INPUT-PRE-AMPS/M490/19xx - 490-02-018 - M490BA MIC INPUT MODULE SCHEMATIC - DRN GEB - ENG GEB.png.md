@@ -23,6 +23,21 @@ Wiki page: [M490](../../../PAGES/M490.md)
 - **Size:** 2,125,706 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 490-02-018, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 7–300 mm up
+- **Outlines:** line 2,600 rings, 22,751 straight (31,620 mm) / 5,710 curved (7,011 mm); text 576 rings, 3,083 straight (2,589 mm) / 1,150 curved (1,389 mm); tb 7 rings, 68 straight (112 mm) / 10 curved (13.9 mm)
+- **Centre lines:** 24,259 paths (567 closed); straight 20,935 mm, curved 591 mm; horizontal 8,012 mm, vertical 5,255 mm, diagonal 7,669 mm
+- **Circles and arcs:** 22 circles, 75 arcs; largest r 4.0 @ (400.3, 103.9), r 4.0 @ (158.1, 181.6), r 3.9 @ (165.0, 272.1), r 3.9 @ (147.9, 278.0)
+- **Closed boxes:** 33 (1 in the title block); named: C04016; R93, {2k; zi0 7terr; 210
+- **Dots (junctions):** 8
+- **Words (OCR):** 135 in 129 lines: Selector · 244407 · 123 · WES C6 - 12 · 242/02 · Lo To · 2z0 F · 2z0 · 24440 · 4O · 73 · IsoiL
+- **Title block:** (373, 31)–(432, 47) mm: WBS · WARD-DeCK By · MAPOBA
+- **Wiring (first pass):** 190 connected wire groups from 1,808 runs, 3 dotted junctions; labelled ends: 461 mm → 2.2/25, 242; 422 mm → C04016, Rc3, 2-2/25; 230 mm → 10/35, 7P2-22,2; 222 mm → Pi-7; 216 mm → 4-Jie
+
+Every curve, box, word and wire group: [19xx - 490-02-018 - M490BA MIC INPUT MODULE SCHEMATIC - DRN GEB - ENG GEB (traced).json](19xx%20-%20490-02-018%20-%20M490BA%20MIC%20INPUT%20MODULE%20SCHEMATIC%20-%20DRN%20GEB%20-%20ENG%20GEB%20%28traced%29.json) (the CAD file: `19xx - 490-02-018 - M490BA MIC INPUT MODULE SCHEMATIC - DRN GEB - ENG GEB (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 7 words corrected)

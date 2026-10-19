@@ -29,6 +29,19 @@ Schematic of the M626 trickle charger.
 
 - **1971** (month): `APRIL 1971` — …V7 DEC 10 ASLES TOLS ETESae a DerpiD UIES Finish Drn Ty ATE APRIL 1971 MATERAL cHDD Rfsa che Mand BLCI SYSTENS LTD M626 TRICKLE CH…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 626-02-001, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 9–298 mm up
+- **Outlines:** line 607 rings, 10,411 straight (11,822 mm) / 1,710 curved (2,094 mm); text 328 rings, 2,911 straight (3,358 mm) / 710 curved (1,093 mm)
+- **Centre lines:** 16,927 paths (132 closed); straight 10,959 mm, curved 355 mm; horizontal 3,654 mm, vertical 2,568 mm, diagonal 4,738 mm
+- **Circles and arcs:** 14 circles, 38 arcs; largest r 8.1 @ (231.0, 227.5), r 4.9 @ (92.6, 200.8), r 1.7 @ (345.4, 189.4), r 1.7 @ (344.7, 231.8)
+- **Closed boxes:** 1; named: 14.15 16
+- **Words (OCR):** 52 in 49 lines: P2 · RZ · 820 · 820wZw · Ti · ZN4920 · CRA · ~SA SB 166 C50 · CRI · R3 · IN4OO3 · IK V2w
+- **Wiring (first pass):** 64 connected wire groups from 470 runs; labelled ends: 201 mm → 820, 820wZw, R3, IK V2w; 174 mm → R4, ZW, 10o/35; 149 mm → CR6, IN5404-, BI, VBZO; 149 mm → P2; 114 mm → P2
+
+Every curve, box, word and wire group: [1971 - 626-02-001 - TRICKLE CHARGER SCHEMATIC - DRN TY - ISS 1 (traced).json](1971%20-%20626-02-001%20-%20TRICKLE%20CHARGER%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 626-02-001 - TRICKLE CHARGER SCHEMATIC - DRN TY - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

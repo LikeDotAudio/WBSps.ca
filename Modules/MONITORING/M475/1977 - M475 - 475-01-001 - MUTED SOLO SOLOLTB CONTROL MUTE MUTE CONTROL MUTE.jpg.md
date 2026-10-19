@@ -11,6 +11,20 @@ Wiki page: [M475](../../../PAGES/M475.md)
 - **Size:** 234,589 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional 475-01-001, size B (assumed) 432 × 276 mm, 2000 × 1276 px traced (0.216 mm/px)
+- **Ink extent:** 20–432 mm across, 0–276 mm up
+- **Outlines:** line 222 rings, 2,133 straight (7,007 mm) / 235 curved (353 mm); text 306 rings, 1,974 straight (2,420 mm) / 586 curved (897 mm); tb 27 rings, 201 straight (366 mm) / 18 curved (20.9 mm)
+- **Centre lines:** 2,528 paths (50 closed); straight 5,140 mm, curved 77.8 mm; horizontal 2,461 mm, vertical 1,109 mm, diagonal 1,569 mm
+- **Circles and arcs:** 4 circles, 7 arcs; largest r 3.2 @ (301.2, 122.6), r 3.1 @ (211.8, 141.3), r 1.2 @ (294.1, 156.9), r 1.1 @ (226.5, 83.7)
+- **Closed boxes:** 12 (9 in the title block)
+- **Words (OCR):** 43 in 37 lines: Monitor · inPUTS · +8dBm · monitor · BST · TALKBACK · BST · DIRECT · solo/TB · OUTPut · +8d8m · SOLO
+- **Title block:** (287, 2)–(432, 75) mm: 10/77 · REDRAWN · ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN_ GEB · ENG RKB · M475 · MONITOR MODULE · CKD · FUNCTIONAL DIAGRAM · APP · SCALE · ISSUE · 475-01-001
+- **Wiring (first pass):** 99 connected wire groups from 240 runs; labelled ends: 175 mm → BST; 110 mm → BST, DIRECT; 91 mm → BST, SOLO; 44 mm → BST; 34 mm → MUTED
+
+Every curve, box, word and wire group: [1977 - M475 - 475-01-001 - MUTED SOLO SOLOLTB CONTROL MUTE MUTE CONTROL MUTE (traced).json](1977%20-%20M475%20-%20475-01-001%20-%20MUTED%20SOLO%20SOLOLTB%20CONTROL%20MUTE%20MUTE%20CONTROL%20MUTE%20%28traced%29.json) (the CAD file: `1977 - M475 - 475-01-001 - MUTED SOLO SOLOLTB CONTROL MUTE MUTE CONTROL MUTE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

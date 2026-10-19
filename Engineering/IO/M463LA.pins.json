@@ -1,0 +1,507 @@
+{
+ "code": "M463LA",
+ "name": "Submaster Module",
+ "derived": true,
+ "variant_of": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "rows": 12,
+   "letters": false,
+   "size": null
+  },
+  {
+   "name": "P2",
+   "rows": 22,
+   "letters": true,
+   "size": null
+  }
+ ],
+ "pins": [
+  {
+   "conn": "P1",
+   "pin": "7",
+   "row": 7,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "P1-7",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 49
+    }
+   ]
+  },
+  {
+   "conn": "P1",
+   "pin": "9",
+   "row": 9,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "7 P1-9",
+   "also": []
+  },
+  {
+   "conn": "P1",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "DIRECT >P2-12 OUTPuT +8a3m P2-n NoMiNAL P2-3 mi P2-\u20ac Left P2-4 outputs m3 PZ-D P?-5 M2 Pz-E Rigkt OutPuts P2-6 M4 PZ- F ~P1-12",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "1",
+   "row": 1,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "57a35fea5c64f45e04207e9183fff4904dc3482273194dab5d27217176b36d70",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module (2).pdf",
+    "page": 45
+   },
+   "quote": "-25\\1       P2 - 1~",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "3",
+   "row": 3,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "DIRECT >P2-12 OUTPuT +8a3m P2-n NoMiNAL P2-3 mi P2-\u20ac Left P2-4 outputs m3 PZ-D P?-5 M2 Pz-E Rigkt OutPuts P2-6 M4 PZ- F ~P1-12",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "D",
+   "row": 4,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "DIRECT >P2-12 OUTPuT +8a3m P2-n NoMiNAL P2-3 mi P2-\u20ac Left P2-4 outputs m3 PZ-D P?-5 M2 Pz-E Rigkt OutPuts P2-6 M4 PZ- F ~P1-12",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 49
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "4",
+   "row": 4,
+   "side": "num",
+   "signal": "OUTPUTS",
+   "kind": "out",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "DIRECT >P2-12 OUTPuT +8a3m P2-n NoMiNAL P2-3 mi P2-\u20ac Left P2-4 outputs m3 PZ-D P?-5 M2 Pz-E Rigkt OutPuts P2-6 M4 PZ- F ~P1-12",
+   "also": [
+    {
+     "signal": "(OUTPUTS",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 49
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "E",
+   "row": 5,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "DIRECT >P2-12 OUTPuT +8a3m P2-n NoMiNAL P2-3 mi P2-\u20ac Left P2-4 outputs m3 PZ-D P?-5 M2 Pz-E Rigkt OutPuts P2-6 M4 PZ- F ~P1-12",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "F",
+   "row": 6,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "DIRECT >P2-12 OUTPuT +8a3m P2-n NoMiNAL P2-3 mi P2-\u20ac Left P2-4 outputs m3 PZ-D P?-5 M2 Pz-E Rigkt OutPuts P2-6 M4 PZ- F ~P1-12",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "6",
+   "row": 6,
+   "side": "num",
+   "signal": "OUTPUTS",
+   "kind": "out",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "DIRECT >P2-12 OUTPuT +8a3m P2-n NoMiNAL P2-3 mi P2-\u20ac Left P2-4 outputs m3 PZ-D P?-5 M2 Pz-E Rigkt OutPuts P2-6 M4 PZ- F ~P1-12",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "8",
+   "row": 8,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ca4a69928804d5b9a2ab2a25f087e3ab1b679ff0c5682f3fee1eace1d95abef8",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - P044 - LB463-02-016 003.jpg",
+    "page": 1
+   },
+   "quote": "P2 -8",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - P044 - LB463-02-016 004.jpg",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "12",
+   "row": 12,
+   "side": "num",
+   "signal": "OUTPUT",
+   "kind": "out",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "DIRECT >P2-12 OUTPuT +8a3m P2-n NoMiNAL P2-3 mi P2-\u20ac Left P2-4 outputs m3 PZ-D P?-5 M2 Pz-E Rigkt OutPuts P2-6 M4 PZ- F ~P1-12",
+   "also": [
+    {
+     "signal": "OUTPUT",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 49
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "T",
+   "row": 16,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "5 P2-T",
+   "also": []
+  },
+  {
+   "conn": "P2",
+   "pin": "18",
+   "row": 18,
+   "side": "num",
+   "signal": "CTL COM",
+   "kind": "ground",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "accc631c444c2e82cecaee7aedff6a1d292880c3c0d461d42c1d15fe5d68d61b",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - 463-02-016 - SUB-MASTER MODULE COK ROM SCHEMATIC.jpg",
+    "page": 1
+   },
+   "quote": "Pz-18 CTL Com",
+   "also": [
+    {
+     "signal": "CTL COM",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 49
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - P044 - LB463-02-016 003.jpg",
+     "page": 1
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module (2).pdf",
+     "page": 47
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 47
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "19",
+   "row": 19,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "43669460143c24740fdf330e2078dd341db08527fe9af979df5caf04d4733118",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - P044 - LB463-02-016 001.jpg",
+    "page": 1
+   },
+   "quote": "Pi22 _ C47 ISk R12s Anla 13 xk5 Q2 An34s Rirg CR? 3.3 Pz-19 inaoo} Tipsob",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 45
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "20",
+   "row": 20,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "43669460143c24740fdf330e2078dd341db08527fe9af979df5caf04d4733118",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - P044 - LB463-02-016 001.jpg",
+    "page": 1
+   },
+   "quote": "P2-20",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module (2).pdf",
+     "page": 45
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 45
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "Y",
+   "row": 21,
+   "side": "letter",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "ca4a69928804d5b9a2ab2a25f087e3ab1b679ff0c5682f3fee1eace1d95abef8",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - P044 - LB463-02-016 003.jpg",
+    "page": 1
+   },
+   "quote": "P2-Y",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module (2).pdf",
+     "page": 47
+    },
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 47
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "21",
+   "row": 21,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "43669460143c24740fdf330e2078dd341db08527fe9af979df5caf04d4733118",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - P044 - LB463-02-016 001.jpg",
+    "page": 1
+   },
+   "quote": "P2 -21",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 45
+    }
+   ]
+  },
+  {
+   "conn": "P2",
+   "pin": "22",
+   "row": 22,
+   "side": "num",
+   "signal": "",
+   "kind": "unread",
+   "conf": "low",
+   "how": "schematic",
+   "pair": null,
+   "pol": null,
+   "src": {
+    "sha": "43669460143c24740fdf330e2078dd341db08527fe9af979df5caf04d4733118",
+    "file": "Modules/SUMMING/M463LA/1974 - M463LA - P044 - LB463-02-016 001.jpg",
+    "page": 1
+   },
+   "quote": "P2-22",
+   "also": [
+    {
+     "signal": "",
+     "how": "schematic",
+     "conf": "low",
+     "file": "Modules/SUMMING/M463LA/1974 - M463LA - Submaster Module.pdf",
+     "page": 45
+    }
+   ]
+  }
+ ],
+ "note": "Each pin as a page of its own documents gives it (conf high: RTO-144 sheet or a connector-layout page; medium: rows of a rear-view drawing or a sentence of the manual; low: a schematic call-out; variant: none of its own, read from the variant named). Pins no page names are not listed."
+}

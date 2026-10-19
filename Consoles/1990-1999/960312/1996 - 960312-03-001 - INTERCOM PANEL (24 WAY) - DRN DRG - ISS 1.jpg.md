@@ -22,6 +22,19 @@ Intercom panel (24 way) machining drawing with title block at bottom right.
 - **Size:** 607,058 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical D 960312-03-001, size D 864 × 556 mm, 2000 × 1287 px traced (0.432 mm/px)
+- **Ink extent:** 57–864 mm across, 0–499 mm up
+- **Outlines:** line 995 rings, 8,389 straight (41,508 mm) / 1,351 curved (3,200 mm); text 376 rings, 1,848 straight (3,218 mm) / 635 curved (1,568 mm); tb 16 rings, 165 straight (365 mm) / 34 curved (81.6 mm)
+- **Centre lines:** 8,466 paths (340 closed); straight 25,356 mm, curved 110 mm; horizontal 12,642 mm, vertical 6,847 mm, diagonal 5,867 mm
+- **Circles and arcs:** 1 circles, 20 arcs; largest r 5.5 @ (611.5, 294.9)
+- **Closed boxes:** 97 (1 in the title block); named: DETAI; INTERCOM PANEL WAY)
+- **Words (OCR):** 52 in 49 lines: pitckes · 7.555 1510 · 0?00 · 16 710 · DETAIL · 04400 · OTHERCSIDE · REQ'0 · REC'D · 0-200 · 0.500 · 0-680
+- **Title block:** (687, 29)–(854, 63) mm: WARD-BECK   SYSTEMS · WBS · INTERCOM
+
+Every curve, box, word and wire group: [1996 - 960312-03-001 - INTERCOM PANEL (24 WAY) - DRN DRG - ISS 1 (traced).json](1996%20-%20960312-03-001%20-%20INTERCOM%20PANEL%20%2824%20WAY%29%20-%20DRN%20DRG%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1996 - 960312-03-001 - INTERCOM PANEL (24 WAY) - DRN DRG - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

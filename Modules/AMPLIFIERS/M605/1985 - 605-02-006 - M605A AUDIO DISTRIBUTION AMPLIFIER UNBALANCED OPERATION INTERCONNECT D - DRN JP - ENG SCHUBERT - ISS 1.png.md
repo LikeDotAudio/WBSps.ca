@@ -25,6 +25,20 @@ Wiki page: [M605](../../../PAGES/M605.md)
 - **Size:** 1,617,588 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 605-02-006, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 7–296 mm up
+- **Outlines:** line 157 rings, 3,801 straight (9,934 mm) / 503 curved (762 mm); text 340 rings, 2,734 straight (3,264 mm) / 756 curved (1,184 mm); tb 10 rings, 105 straight (248 mm) / 18 curved (34.2 mm)
+- **Centre lines:** 5,369 paths (91 closed); straight 8,143 mm, curved 82.4 mm; horizontal 3,604 mm, vertical 2,042 mm, diagonal 2,498 mm
+- **Circles and arcs:** 1 circles, 21 arcs; largest r 1.1 @ (144.6, 199.2)
+- **Closed boxes:** 8 (4 in the title block); named: SCALE; 605-02-006
+- **Words (OCR):** 45 in 31 lines: NOTES: · OuTPUTs To 4 IN PHASE · With InPUT. · 2. OUTPUTs 5 To 8 OUT · OF PHASE With INPUT, · INPUT · SOURCE · OUTPUTS · MGOsA · DIRECT OUT · (NOT USED) · 115 VAC
+- **Title block:** (293, 21)–(432, 89) mm: ISSUE DATE · REVISION · WBS WARD-BECK SYSTEME · DRN: UP/os/e5 · M6osA · ENG_ Dehvbert · AUDIO DISTRIBUTION AMPLIFIER · CKD; · UNBALANCED OPERATION · APP · ITERCONNECT DIAGRAM · SCALE · ISSUE · 605-02-
+- **Wiring (first pass):** 34 connected wire groups from 138 runs; labelled ends: 39 mm → 115 VAC, 60 Hz; 36 mm → INPUT, SOURCE; 30 mm → DIRECT, (NOT USED); 30 mm → (NOT USED), 115 VAC, 60 Hz; 18 mm → DIRECT, (NOT USED)
+
+Every curve, box, word and wire group: [1985 - 605-02-006 - M605A AUDIO DISTRIBUTION AMPLIFIER UNBALANCED OPERATION INTERCONNECT D - DRN JP - ENG SCHUBERT - ISS 1 (traced).json](1985%20-%20605-02-006%20-%20M605A%20AUDIO%20DISTRIBUTION%20AMPLIFIER%20UNBALANCED%20OPERATION%20INTERCONNECT%20D%20-%20DRN%20JP%20-%20ENG%20SCHUBERT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1985 - 605-02-006 - M605A AUDIO DISTRIBUTION AMPLIFIER UNBALANCED OPERATION INTERCONNECT D - DRN JP - ENG SCHUBERT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

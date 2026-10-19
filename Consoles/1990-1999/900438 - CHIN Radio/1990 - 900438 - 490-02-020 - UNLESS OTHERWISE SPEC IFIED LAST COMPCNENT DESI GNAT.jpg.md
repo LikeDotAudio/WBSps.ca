@@ -11,6 +11,18 @@ Wiki page: [Job-900438](../../../PAGES/Job-900438.md)
 - **Size:** 7,891,177 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 490-02-020, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px), turned 180°
+- **Ink extent:** 0–305 mm across, 0–432 mm up
+- **Outlines:** line 475 rings, 4,791 straight (8,519 mm) / 1,143 curved (1,623 mm); text 322 rings, 2,307 straight (2,507 mm) / 774 curved (1,142 mm)
+- **Centre lines:** 4,907 paths (107 closed); straight 6,325 mm, curved 457 mm; horizontal 2,738 mm, vertical 1,209 mm, diagonal 2,377 mm
+- **Circles and arcs:** 15 circles, 82 arcs; largest r 5.7 @ (57.7, 237.9), r 5.4 @ (92.6, 211.5), r 3.5 @ (25.5, 262.4), r 3.2 @ (38.7, 186.5)
+- **Closed boxes:** 1
+- **Wiring (first pass):** 63 connected wire groups from 394 runs
+
+Every curve, box, word and wire group: [1990 - 900438 - 490-02-020 - UNLESS OTHERWISE SPEC IFIED LAST COMPCNENT DESI GNAT (traced).json](1990%20-%20900438%20-%20490-02-020%20-%20UNLESS%20OTHERWISE%20SPEC%20IFIED%20LAST%20COMPCNENT%20DESI%20GNAT%20%28traced%29.json) (the CAD file: `1990 - 900438 - 490-02-020 - UNLESS OTHERWISE SPEC IFIED LAST COMPCNENT DESI GNAT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

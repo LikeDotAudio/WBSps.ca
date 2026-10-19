@@ -27,6 +27,21 @@ Wiki page: [M412](../../../PAGES/M412.md)
 
 - **1970** (labelled): `DATE 3.FEB 1970` — …STEMS LTd M412 VARIABLE FREQUENc ( OSCIlLAToR SYSTEM WIEING DATE 3.FEB 1970 D2/. MATERIAL CHKDF SGALE FRAC & 1/64 DEC TO PLACES GivEN;…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 412-02-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 277 rings, 4,654 straight (9,778 mm) / 612 curved (817 mm); text 837 rings, 5,699 straight (6,161 mm) / 1,619 curved (2,336 mm); tb 47 rings, 672 straight (651 mm) / 95 curved (121 mm)
+- **Centre lines:** 10,267 paths (150 closed); straight 10,553 mm, curved 219 mm; horizontal 4,212 mm, vertical 2,377 mm, diagonal 3,964 mm
+- **Circles and arcs:** 17 circles, 10 arcs; largest r 1.9 @ (246.0, 244.3), r 1.9 @ (143.7, 233.1), r 1.8 @ (275.9, 100.1), r 1.7 @ (246.1, 237.3)
+- **Closed boxes:** 7; named: 12 20 13 M 412 oscillator 14 15 18 16 Ic
+- **Dots (junctions):** 1
+- **Words (OCR):** 118 in 84 lines: OUTPUT # | 150 n 60 dBm · Osi6 · 12 · M468 · 24v · 24V · 20 · SWITChABLe · 13 · outputS · POWER SUPPLY · M 412 oscillator
+- **Title block:** (181, 38)–(406, 69) mm: FinISH · WARO · BECK · SYSTEMS LTd · DRN · P s · DATE 3.FEB 1970 · M412 · CHKDF · D2/. · MATERIAL · VARIABLE · FREQUENc ( · OSCIlLAToR
+- **Wiring (first pass):** 29 connected wire groups from 233 runs, 1 dotted junctions; labelled ends: 478 mm → 16, output, SH; 385 mm → ISS, TOLS; 224 mm → 18, SYSTEM, FRAME WoRk; 163 mm → 13, OUTPUT # 2, 600 n; 163 mm → OUTPUT # |, 150 n, 12
+
+Every curve, box, word and wire group: [1970 - 412-02-002 - VARIABLE FREQUENCY OSCILLATOR SYSTEM WIRING - DRN DPS - ISS 2 (2) (traced).json](1970%20-%20412-02-002%20-%20VARIABLE%20FREQUENCY%20OSCILLATOR%20SYSTEM%20WIRING%20-%20DRN%20DPS%20-%20ISS%202%20%282%29%20%28traced%29.json) (the CAD file: `1970 - 412-02-002 - VARIABLE FREQUENCY OSCILLATOR SYSTEM WIRING - DRN DPS - ISS 2 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

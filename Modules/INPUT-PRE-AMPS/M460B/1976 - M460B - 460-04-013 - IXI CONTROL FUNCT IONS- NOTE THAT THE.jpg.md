@@ -11,6 +11,19 @@ Wiki page: [M460B](../../../PAGES/M460B.md)
 - **Size:** 519,791 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 460-04-013, size B (assumed) 432 × 318 mm, 2000 × 1474 px traced (0.216 mm/px)
+- **Ink extent:** 4–432 mm across, 0–312 mm up
+- **Outlines:** line 1,860 rings, 12,077 straight (23,905 mm) / 3,837 curved (4,900 mm); text 1,372 rings, 7,769 straight (6,368 mm) / 3,257 curved (3,889 mm); tb 13 rings, 150 straight (187 mm) / 32 curved (42.3 mm)
+- **Circles and arcs:** 30 circles, 0 arcs; largest r 6.3 @ (187.9, 32.9), r 3.8 @ (188.4, 199.6), r 3.8 @ (172.3, 96.7), r 3.8 @ (172.3, 165.6)
+- **Closed boxes:** 31 (2 in the title block); named: SELEcTOR switch Swi: Sclects igna caurcr; 'High Pass FiLteR conero continucus adju; PHASE Ahon this signa | revere LD: icout; RIz: nuousIy contio con[ controi rande i; PUbLIC ADORESS Rich deorossed outout Tia; LEVEL PuBLIC LDCRESS 313'IL contro Lonto; PRE{Post Public Address shitch point (PR; Rev SENO LEVEL 315/16: control controu o; 5018; Chooser REV SEND sIgna point prior; REV SEMD signa | fed Joprooriate; Foldback LEVEL R17/IB : control Controi ; FOLDBACK sitches Sw7_ 519 Hith cither Sh
+- **Dots (junctions):** 13
+- **Words (OCR):** 246 in 185 lines: SELEcTOR switch Swi: Sclects igna caurcr · crconone Jirect · Jicrconont · 20 08 · M4608 · Tine TEed · 'High Pass FiLteR conero · adjustnnt of cutoff · continucus · PHASE · revere · Ahon
+- **Title block:** (345, 8)–(432, 36) mm: ISSL · WBS · WARO-BECK SYSTEMS · M46ob · ENG. · INPUT MODULE · CKo · FRONT PANEL
+
+Every curve, box, word and wire group: [1976 - M460B - 460-04-013 - IXI CONTROL FUNCT IONS- NOTE THAT THE (traced).json](1976%20-%20M460B%20-%20460-04-013%20-%20IXI%20CONTROL%20FUNCT%20IONS-%20NOTE%20THAT%20THE%20%28traced%29.json) (the CAD file: `1976 - M460B - 460-04-013 - IXI CONTROL FUNCT IONS- NOTE THAT THE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 28 words corrected)

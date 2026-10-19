@@ -22,6 +22,18 @@ Wiki page: [M441](../../../PAGES/M441.md)
 - **Size:** 5,112,082 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout B 441-04-007, size B 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–272 mm across, 16–429 mm up
+- **Outlines:** line 596 rings, 8,971 straight (13,732 mm) / 1,430 curved (2,299 mm); text 296 rings, 2,761 straight (2,985 mm) / 706 curved (1,038 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 12.2 @ (172.1, 102.9), r 6.8 @ (125.9, 102.9), r 6.7 @ (215.1, 102.8), r 6.7 @ (171.7, 102.9)
+- **Closed boxes:** 32; named: e3
+- **Dots (junctions):** 3
+- **Words (OCR):** 3 in 3 lines: 61 · 3 9 · e3
+
+Every curve, box, word and wire group: [1971 - 441-04-007 - M441F INPUT MODULE LAYOUT - DRN GP - ISS 1 (traced).json](1971%20-%20441-04-007%20-%20M441F%20INPUT%20MODULE%20LAYOUT%20-%20DRN%20GP%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 441-04-007 - M441F INPUT MODULE LAYOUT - DRN GP - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -10,6 +10,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 - **Size:** 630,214 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 538-04-001, size B (assumed) 187 × 432 mm, 866 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–187 mm across, 4–425 mm up
+- **Outlines:** line 12 rings, 1,403 straight (2,329 mm) / 159 curved (281 mm); text 145 rings, 1,767 straight (2,311 mm) / 427 curved (720 mm); tb 105 rings, 2,828 straight (4,402 mm) / 319 curved (537 mm)
+- **Closed boxes:** 6 (3 in the title block); named: 538-04-001; SCALE
+- **Words (OCR):** 18 in 14 lines: WBS · REVISION · ISSUE DATE · WBS WAAD-BECK sybten · DRN.BD · M538 · ENG_ · KICW 8X1 STEREO SWITCHER MOD · CKd · FRONT PANEL LAYOUT · App · SCALE
+- **Title block:** (5, 8)–(159, 427) mm: WBS · REVISION · ISSUE DATE · WBS WAAD-BECK sybten · DRN.BD · M538 · ENG_ · KICW 8X1 STEREO SWITCHER MOD · CKd · FRONT PANEL LAYOUT · App · SCALE · 538-04-001
+
+Every curve, box, word and wire group: [1985 - ST - 538-04-001 - STEREO SWITCHER MOC (traced).json](1985%20-%20ST%20-%20538-04-001%20-%20STEREO%20SWITCHER%20MOC%20%28traced%29.json) (the CAD file: `1985 - ST - 538-04-001 - STEREO SWITCHER MOC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

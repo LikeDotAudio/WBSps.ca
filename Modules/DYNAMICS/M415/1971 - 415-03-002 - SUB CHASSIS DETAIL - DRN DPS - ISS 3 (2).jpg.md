@@ -28,6 +28,19 @@ Mechanical drawing of an M415 sub chassis detail, title block at bottom right.
 
 - **1971** (month): `APRIL 1971` — …REE 48 cred Fiasy Data D_ P.s 120 GRIT ANoDiZE BLAck Da7e 6 APRIL 1971 MARD BECK SSTNS Lm M 415 SUB CHASsIS DETAIL REMOVE ALL BURR…
 
+## Vectors (traced)
+
+- **Sheet:** mechanical B 415-03-002, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–431 mm across, 10–298 mm up
+- **Outlines:** line 347 rings, 6,532 straight (11,385 mm) / 880 curved (1,197 mm); text 188 rings, 1,470 straight (1,785 mm) / 432 curved (732 mm); tb 1 rings, 9 straight (10.7 mm) / 2 curved (2.9 mm)
+- **Centre lines:** 8,884 paths (50 closed); straight 8,984 mm, curved 71.3 mm; horizontal 4,508 mm, vertical 1,868 mm, diagonal 2,608 mm
+- **Circles and arcs:** 1 circles, 19 arcs; largest r 1.0 @ (323.6, 145.0)
+- **Closed boxes:** 3; named: Tols; GRIT 129 ANoDizE BLAck
+- **Words (OCR):** 35 in 26 lines: HoLes · DIA · ~Icu · 5.062 · 16 · 8HoLes DIA _ · 45 · I6 · Tols · LREE Sece · Ward · BECK_SSIENS Lm
+- **Title block:** (316, 31)–(409, 53) mm: Ward · BECK_SSIENS Lm · 415
+
+Every curve, box, word and wire group: [1971 - 415-03-002 - SUB CHASSIS DETAIL - DRN DPS - ISS 3 (2) (traced).json](1971%20-%20415-03-002%20-%20SUB%20CHASSIS%20DETAIL%20-%20DRN%20DPS%20-%20ISS%203%20%282%29%20%28traced%29.json) (the CAD file: `1971 - 415-03-002 - SUB CHASSIS DETAIL - DRN DPS - ISS 3 (2) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

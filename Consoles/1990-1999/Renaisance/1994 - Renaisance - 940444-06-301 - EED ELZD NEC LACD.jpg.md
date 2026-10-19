@@ -14,6 +14,17 @@ Wiki page: [Consoles](../../../PAGES/Consoles.md)
 
 - **1988** (labelled): `iss 88` — …1zy zozd 3 83 8 8838 2 1 3 Gysc/ 8, 6 2 56 L0z8 830 1 d8lozriss 88 1 2 1 E 7Oz Ez 2 SJC 8 NESOTOH#L 6L2C 3 03 L9Ld 90 3 2 1 '8…
 
+## Vectors (traced)
+
+- **Sheet:** component layout 940444-06-301, size B (assumed) 305 × 432 mm, 1414 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 28–288 mm across, 0–432 mm up
+- **Outlines:** line 4,574 rings, 32,886 straight (37,515 mm) / 10,325 curved (10,498 mm); text 1,038 rings, 5,903 straight (4,719 mm) / 2,292 curved (2,376 mm)
+- **Circles and arcs:** 38 circles, 0 arcs; largest r 3.9 @ (163.5, 141.5), r 3.4 @ (125.2, 272.3), r 3.3 @ (92.0, 51.0), r 3.3 @ (133.9, 394.5)
+- **Closed boxes:** 68; named: no 9; ScI); deaz 6212
+- **Words (OCR):** 81 in 72 lines: 91/8*9*6 · 044 · Oizj Is · 8648 · 38 Lezd · S4n · zozy · 8828 · 66 · Ezez · 6130 · 22 :5 2
+
+Every curve, box, word and wire group: [1994 - Renaisance - 940444-06-301 - EED ELZD NEC LACD (traced).json](1994%20-%20Renaisance%20-%20940444-06-301%20-%20EED%20ELZD%20NEC%20LACD%20%28traced%29.json) (the CAD file: `1994 - Renaisance - 940444-06-301 - EED ELZD NEC LACD (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

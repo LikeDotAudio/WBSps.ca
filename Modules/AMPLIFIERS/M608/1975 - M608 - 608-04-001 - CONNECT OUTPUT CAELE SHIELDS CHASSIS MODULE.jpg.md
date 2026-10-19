@@ -11,6 +11,19 @@ Wiki page: [M608](../../../PAGES/M608.md)
 - **Size:** 236,178 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 608-04-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 4–424 mm up
+- **Outlines:** line 209 rings, 4,083 straight (9,251 mm) / 534 curved (963 mm); text 374 rings, 3,619 straight (4,709 mm) / 903 curved (1,605 mm); tb 19 rings, 254 straight (428 mm) / 29 curved (33.9 mm)
+- **Circles and arcs:** 3 circles, 0 arcs; largest r 2.2 @ (154.6, 202.4), r 2.0 @ (130.8, 201.9), r 1.6 @ (196.9, 286.5)
+- **Closed boxes:** 21 (5 in the title block); named: SCALE
+- **Dots (junctions):** 8
+- **Words (OCR):** 59 in 53 lines: MODULE COMMON MAY · BE · USED To · CONNECT · OUTPUT · CABLE · SHIELDS · CHASSIS · MOCULE · ie0 · CCMCN TC · SYSTEMs
+- **Title block:** (260, 11)–(336, 296) mm: MOCULE · CCMCN TC · SYSTEMs · GROUND · CUTFUTs · CUTPUT 6 · OUTPUT 7 · CUTPUTE · TNPUT · SHIELD · CONNECTION · ISSU · WBS · DRN,R MaoNsy · ENG. MEW 7go · CKD: · APP · SCALE
+
+Every curve, box, word and wire group: [1975 - M608 - 608-04-001 - CONNECT OUTPUT CAELE SHIELDS CHASSIS MODULE (traced).json](1975%20-%20M608%20-%20608-04-001%20-%20CONNECT%20OUTPUT%20CAELE%20SHIELDS%20CHASSIS%20MODULE%20%28traced%29.json) (the CAD file: `1975 - M608 - 608-04-001 - CONNECT OUTPUT CAELE SHIELDS CHASSIS MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 6 words corrected)

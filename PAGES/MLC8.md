@@ -31,22 +31,3 @@ tags: ["product", "metering", "2010s"]
 | Year | File |  |
 |---|---|---|
 | 2018 | [2018 - MLC8 - SLM1 Front Three Quarter.jpg](../Products/METERING/MLC8/2018%20-%20MLC8%20-%20SLM1%20Front%20Three%20Quarter.jpg) | [note](../Products/METERING/MLC8/2018%20-%20MLC8%20-%20SLM1%20Front%20Three%20Quarter.jpg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "MLC8",
- "name": "Multi-Channel Level Control",
- "category": "METERING",
- "year": 2017,
- "documents": [
-  {
-   "file": "Products/METERING/MLC8/2018 - MLC8 - SLM1 Front Three Quarter.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

@@ -11,6 +11,17 @@ Wiki page: [M470C](../../../PAGES/M470C.md)
 - **Size:** 299,379 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 470-04-008, size B (assumed) 432 × 285 mm, 2000 × 1320 px traced (0.216 mm/px)
+- **Ink extent:** 6–432 mm across, 0–268 mm up
+- **Outlines:** line 314 rings, 3,047 straight (6,307 mm) / 546 curved (765 mm); text 865 rings, 5,736 straight (6,480 mm) / 1,685 curved (2,376 mm); tb 18 rings, 203 straight (320 mm) / 24 curved (33.2 mm)
+- **Closed boxes:** 87 (5 in the title block); named: 12 R/14 sh15 th6] U 17 vh18 wl1g xbo 2 p; P/13 15 16 w/ig x/2o 421 2/22; 12; P/13; R/14; sh15; 15; th6]; 16; U 17; vh18; wl1g
+- **Words (OCR):** 172 in 115 lines: MASTER OuT · MASTER 2  OUt · LINE IN · LINE IN · SUB Out · SUB OUT · NC · NC · SUB Out · SUB ouT · D/RECT · D/RECT
+- **Title block:** (285, 2)–(432, 70) mm: ISSUE DATE · REVISION · APP · WBS · WARD-BECK SYSTEMS · 70c · ENG · NPut MODULE · CKD: · CONNECTOR REAR VIEW · APP · SCALE · ISSUE · 470-04-008
+
+Every curve, box, word and wire group: [1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW (traced).json](1977%20-%20M470C%20-%20470-04-008%20-%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1977 - M470C - 470-04-008 - CONNECTOR REAR VIEW (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

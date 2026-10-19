@@ -11,6 +11,19 @@ Wiki page: [M609](../../../PAGES/M609.md)
 - **Size:** 735,762 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 8-117-02-001, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–334 mm across, 6–370 mm up
+- **Outlines:** line 210 rings, 2,045 straight (3,055 mm) / 457 curved (609 mm); text 172 rings, 1,256 straight (1,368 mm) / 387 curved (580 mm); tb 2 rings, 73 straight (138 mm) / 4 curved (15.9 mm)
+- **Centre lines:** 2,331 paths (39 closed); straight 2,659 mm, curved 156 mm; horizontal 869 mm, vertical 666 mm, diagonal 1,124 mm
+- **Circles and arcs:** 6 circles, 27 arcs; largest r 5.8 @ (28.9, 197.8), r 3.1 @ (15.7, 250.0), r 3.1 @ (44.9, 250.0), r 0.9 @ (190.2, 215.2)
+- **Words (OCR):** 24 in 24 lines: RIIO, · R12 · Ik8 · IKB · 052 · 05] · "NorM" · RII · ok · <riyk · SR8 · R1I6
+- **Title block:** (215, 40)–(338, 65) mm: WBS · WARD-BECk BysTeMB
+- **Wiring (first pass):** 21 connected wire groups from 136 runs; labelled ends: 238 mm → <riyk, SR8, R1I6, 22k; 102 mm → RUL, 47k; 74 mm → R12, IKB; 69 mm → RIIO,, Ik8, R12, IKB; 69 mm → SR8, R1I6, 22k
+
+Every curve, box, word and wire group: [1983 - M609 - 8-117-02-001 - INDICATOR DRIVER ASSEMBLY SCHEMATIC (traced).json](1983%20-%20M609%20-%208-117-02-001%20-%20INDICATOR%20DRIVER%20ASSEMBLY%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1983 - M609 - 8-117-02-001 - INDICATOR DRIVER ASSEMBLY SCHEMATIC (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

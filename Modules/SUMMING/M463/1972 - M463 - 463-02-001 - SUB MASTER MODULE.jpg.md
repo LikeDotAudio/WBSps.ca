@@ -12,6 +12,21 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 449,124 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 463-02-001, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 3–430 mm up
+- **Outlines:** line 806 rings, 10,523 straight (21,756 mm) / 1,993 curved (2,592 mm); text 898 rings, 6,654 straight (7,512 mm) / 2,185 curved (3,356 mm); tb 15 rings, 150 straight (237 mm) / 25 curved (31.6 mm)
+- **Centre lines:** 18,522 paths (181 closed); straight 19,441 mm, curved 551 mm; horizontal 7,069 mm, vertical 4,653 mm, diagonal 7,720 mm
+- **Circles and arcs:** 37 circles, 113 arcs; largest r 1.4 @ (248.9, 382.8), r 1.0 @ (248.4, 350.6), r 1.0 @ (213.9, 256.5), r 1.0 @ (204.1, 289.4)
+- **Closed boxes:** 48 (5 in the title block); named: WBS WARD-Beck LTD_; M463 MODULE Sub ~ MASTER SCHEMATIC; FIMISH; 463-02-001; LB
+- **Dots (junctions):** 2
+- **Words (OCR):** 176 in 141 lines: DIRECT · ~P2-12 OUTPUT · t2iv · -Zlv · P2-N · +B4Bm · NOMINAL · RI3o I20k · P2-3 · 463 · 467 · Sw22
+- **Title block:** (139, 10)–(291, 50) mm: USED ON · WBS WARD-Beck · REDRAWN · DRA · DM · M463 · FIMISH · DATENOVZ · Sub ~ MASTER · CKD: · TU · SCHEMATIC · TOLS _ · LB · 463-02-001
+- **Wiring (first pass):** 146 connected wire groups from 696 runs, 1 dotted junctions; labelled ends: 569 mm → Sw23 R133, R88, IkI, R9o; 432 mm → ~P2-12, P2-N, 8-109F 4E4, 396; 328 mm → R9o, 390, Iki; 324 mm → PRE, PST, PsT; 306 mm → Swig, Swio, Swg, Swe
+
+Every curve, box, word and wire group: [1972 - M463 - 463-02-001 - SUB MASTER MODULE (traced).json](1972%20-%20M463%20-%20463-02-001%20-%20SUB%20MASTER%20MODULE%20%28traced%29.json) (the CAD file: `1972 - M463 - 463-02-001 - SUB MASTER MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

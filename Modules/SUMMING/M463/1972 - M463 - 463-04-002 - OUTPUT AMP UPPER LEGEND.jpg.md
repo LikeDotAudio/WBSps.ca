@@ -12,6 +12,16 @@ Wiki page: [M463](../../../PAGES/M463.md)
 - **Size:** 389,718 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 463-04-002, size B (assumed) 336 × 432 mm, 1557 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–432 mm up
+- **Outlines:** line 127 rings, 3,393 straight (6,636 mm) / 364 curved (542 mm); text 475 rings, 4,049 straight (5,469 mm) / 952 curved (1,590 mm)
+- **Closed boxes:** 44; named: B | 2; D}4; E|5; Ml; s/15; T/i6; 0/17; Xi2o; Y/21; 2 /22; USED ON; ISS MOD  CKD_
+- **Words (OCR):** 103 in 51 lines: PI · SUMM NG · INPUT · SUMM · NG NPUT · B | 2 SHIELD · NC · PA · PA · FB2 D}4 FB2 · FBI · E|5 FBI
+
+Every curve, box, word and wire group: [1972 - M463 - 463-04-002 - OUTPUT AMP UPPER LEGEND (traced).json](1972%20-%20M463%20-%20463-04-002%20-%20OUTPUT%20AMP%20UPPER%20LEGEND%20%28traced%29.json) (the CAD file: `1972 - M463 - 463-04-002 - OUTPUT AMP UPPER LEGEND (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

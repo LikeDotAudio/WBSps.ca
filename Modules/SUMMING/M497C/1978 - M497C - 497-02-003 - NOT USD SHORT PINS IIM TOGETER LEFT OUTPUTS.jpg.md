@@ -11,6 +11,20 @@ Wiki page: [M497C](../../../PAGES/M497C.md)
 - **Size:** 579,265 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 497-02-003, size B (assumed) 338 × 432 mm, 1568 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–333 mm across, 0–432 mm up
+- **Outlines:** line 373 rings, 5,353 straight (9,398 mm) / 1,005 curved (1,365 mm); text 409 rings, 3,022 straight (2,983 mm) / 1,074 curved (1,514 mm); tb 13 rings, 135 straight (198 mm) / 39 curved (60.1 mm)
+- **Centre lines:** 5,576 paths (98 closed); straight 7,517 mm, curved 272 mm; horizontal 2,585 mm, vertical 1,984 mm, diagonal 2,948 mm
+- **Circles and arcs:** 11 circles, 67 arcs; largest r 1.8 @ (148.8, 185.6), r 1.8 @ (148.4, 331.3), r 1.6 @ (148.6, 366.2), r 1.4 @ (147.8, 221.8)
+- **Closed boxes:** 18 (5 in the title block); named: scu; 491-02-003
+- **Words (OCR):** 72 in 63 lines: NOTES · LALL Resistors 'aw,5 % AND · ALL CAAALiTORS · Otherwise Specified. · 2.LAST componeht · C34,(R4,06,R79426 · +2iv · 2iv · 3.Use PcB 7-113 · R35 · IE7 · R45
+- **Title block:** (218, 10)–(263, 53) mm: WBS · ENG: PA · CKD: · scu
+- **Wiring (first pass):** 73 connected wire groups from 291 runs; labelled ends: 348 mm → WBS; 161 mm → R45; 142 mm → 2E61; 105 mm → R48, 30, RSO, RSiARek; 95 mm → R5B
+
+Every curve, box, word and wire group: [1978 - M497C - 497-02-003 - NOT USD SHORT PINS IIM TOGETER LEFT OUTPUTS (traced).json](1978%20-%20M497C%20-%20497-02-003%20-%20NOT%20USD%20SHORT%20PINS%20IIM%20TOGETER%20LEFT%20OUTPUTS%20%28traced%29.json) (the CAD file: `1978 - M497C - 497-02-003 - NOT USD SHORT PINS IIM TOGETER LEFT OUTPUTS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

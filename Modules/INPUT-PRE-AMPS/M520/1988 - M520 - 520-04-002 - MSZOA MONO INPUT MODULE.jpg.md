@@ -12,6 +12,19 @@ Wiki page: [M520](../../../PAGES/M520.md)
 - **Size:** 32,203,338 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 520-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)
+- **Ink extent:** 0–429 mm across, 0–279 mm up
+- **Outlines:** line 1,302 rings, 10,305 straight (24,946 mm) / 1,522 curved (2,353 mm); text 67 rings, 464 straight (461 mm) / 149 curved (199 mm); tb 62 rings, 407 straight (407 mm) / 88 curved (113 mm)
+- **Circles and arcs:** 34 circles, 0 arcs; largest r 3.3 @ (378.6, 56.2), r 3.3 @ (378.3, 171.0), r 3.3 @ (378.5, 76.0), r 3.3 @ (253.4, 45.4)
+- **Closed boxes:** 49 (13 in the title block); named: PEAR SENS AuX AUX 2
+- **Dots (junctions):** 6
+- **Words (OCR):** 12 in 11 lines: PEAR · SENS · AuX · AUX 2 · WBS · WARD-Beck systemS · MSZOA · Mone · LAScuT · SCALE · 520 C4-002
+- **Title block:** (358, 1)–(432, 34) mm: WBS · WARD-Beck systemS · MSZOA · Mone · LAScuT · SCALE · 520 C4-002
+
+Every curve, box, word and wire group: [1988 - M520 - 520-04-002 - MSZOA MONO INPUT MODULE (traced).json](1988%20-%20M520%20-%20520-04-002%20-%20MSZOA%20MONO%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1988 - M520 - 520-04-002 - MSZOA MONO INPUT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

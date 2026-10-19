@@ -11,6 +11,15 @@ Wiki page: [M454](../../../PAGES/M454.md)
 - **Size:** 147,769 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 454-04-003, size B (assumed) 432 × 331 mm, 1085 × 832 px traced (0.398 mm/px), turned 270°
+- **Ink extent:** 2–426 mm across, 2–331 mm up
+- **Outlines:** line 263 rings, 2,411 straight (10,508 mm) / 453 curved (1,165 mm); text 305 rings, 1,745 straight (3,054 mm) / 696 curved (1,671 mm)
+- **Closed boxes:** 49
+
+Every curve, box, word and wire group: [1974 - M454 - 454-04-003 - SLATE ASS IGNMENT MODULE (traced).json](1974%20-%20M454%20-%20454-04-003%20-%20SLATE%20ASS%20IGNMENT%20MODULE%20%28traced%29.json) (the CAD file: `1974 - M454 - 454-04-003 - SLATE ASS IGNMENT MODULE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 9,879,587 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 82-03-002, size B (assumed) 432 × 336 mm, 2000 × 1555 px traced (0.216 mm/px)
+- **Ink extent:** 13–432 mm across, 0–336 mm up
+- **Outlines:** line 255 rings, 3,676 straight (13,569 mm) / 341 curved (651 mm); text 777 rings, 4,350 straight (4,733 mm) / 1,397 curved (1,958 mm); tb 35 rings, 438 straight (2,099 mm) / 40 curved (53.9 mm)
+- **Centre lines:** 7,241 paths (175 closed); straight 11,726 mm, curved 264 mm; horizontal 6,106 mm, vertical 2,638 mm, diagonal 2,981 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 24.8 @ (290.2, 234.1), r 12.4 @ (257.7, 258.6), r 1.0 @ (38.3, 198.2)
+- **Closed boxes:** 12
+- **Words (OCR):** 95 in 68 lines: 0.142 1.00 · 15.120 · TAP 2-56 UNC & .31 DEEP · 2 PLACES · 8.060 · .00- · TAP 4-40 UNC · TAP · 4-40 UNC · DEEP · 0.65005 · 0.50
+- **Title block:** (275, 36)–(408, 91) mm: DEC92 · ENLARGED INFO · DRG · SSUEIDATE · REVISION · APP. · WBS WARD-BECK SYSTEMS · DRN: DRG · D8212 · ENG. · P.C. GUIDE SUPPORT BAR · CKD: · UPPER /LOWER FRONT · APP · SCALE · Syso1 · 82-03-002 · ISS
+
+Every curve, box, word and wire group: [19xx - D8212 - DOC - 82-03-002 - PAINT TEXTURED GREY TEXCOTE VINYL (traced).json](19xx%20-%20D8212%20-%20DOC%20-%2082-03-002%20-%20PAINT%20TEXTURED%20GREY%20TEXCOTE%20VINYL%20%28traced%29.json) (the CAD file: `19xx - D8212 - DOC - 82-03-002 - PAINT TEXTURED GREY TEXCOTE VINYL (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

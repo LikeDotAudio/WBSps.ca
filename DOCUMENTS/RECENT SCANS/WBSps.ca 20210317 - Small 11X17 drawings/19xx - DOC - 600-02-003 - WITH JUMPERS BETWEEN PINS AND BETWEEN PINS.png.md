@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,480,018 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic 600-02-003, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px); scale DISC NO: 130
+- **Ink extent:** 2–430 mm across, 10–287 mm up
+- **Outlines:** line 184 rings, 2,277 straight (6,654 mm) / 371 curved (566 mm); text 657 rings, 4,377 straight (5,587 mm) / 1,351 curved (1,992 mm); tb 4 rings, 77 straight (205 mm) / 8 curved (12.2 mm)
+- **Centre lines:** 5,038 paths (117 closed); straight 7,384 mm, curved 210 mm; horizontal 2,934 mm, vertical 1,824 mm, diagonal 2,626 mm
+- **Circles and arcs:** 6 circles, 37 arcs; largest r 1.4 @ (275.8, 202.5), r 1.4 @ (275.7, 249.5), r 1.4 @ (275.8, 240.3), r 1.4 @ (275.8, 233.8)
+- **Closed boxes:** 22 (10 in the title block); named: M49Z(A) MASTER MODULE; 11/87 MODIFIED PROGRAMOUTPUTS; ISSUE; 600-02-003; SCALE; CODE: 600S03
+- **Words (OCR):** 75 in 62 lines: MONQ_QUTPUI _CHANNEL · FROM · TB2 · PGM M497 · 12N · PINS 11,M · 73,74 · (75) · 13P · PGM · PGM · MONO
+- **Title block:** (267, 15)–(432, 82) mm: 11/87 MODIFIED PROGRAMOUTPUTS · ISSUE| DATE · REVSION · APP_ · WARD-BECK · SYSTEMS · WBS · DRN: JRG 02/87 · ENG. · MONO OUTPUT CHANNEL · CKD_ · SCHEMATIC · APP_ · SCALE DISC NO: 130 · 600-02-003 · ISS
+- **Wiring (first pass):** 20 connected wire groups from 206 runs; labelled ends: 634 mm → MONQ_QUTPUI _CHANNEL, TB2, 73,74, 680; 461 mm → MONQ_QUTPUI _CHANNEL, M497, 11,M, MONO; 121 mm → 11/87 MODIFIED PROGRAMOUTPUTS, ISSUE| DATE; 84 mm → 25v, +25v; 63 mm → (75)
+
+Every curve, box, word and wire group: [19xx - DOC - 600-02-003 - WITH JUMPERS BETWEEN PINS AND BETWEEN PINS (traced).json](19xx%20-%20DOC%20-%20600-02-003%20-%20WITH%20JUMPERS%20BETWEEN%20PINS%20AND%20BETWEEN%20PINS%20%28traced%29.json) (the CAD file: `19xx - DOC - 600-02-003 - WITH JUMPERS BETWEEN PINS AND BETWEEN PINS (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,19 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 3,391,566 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 940334-04-001, size B (assumed) 432 × 378 mm, 2000 × 1753 px traced (0.216 mm/px); scale DISC NO: 473
+- **Ink extent:** 13–432 mm across, 11–353 mm up
+- **Outlines:** line 1,673 rings, 13,109 straight (38,814 mm) / 1,736 curved (2,311 mm); text 646 rings, 4,098 straight (4,360 mm) / 1,339 curved (1,803 mm); tb 17 rings, 373 straight (1,842 mm) / 12 curved (14.1 mm)
+- **Circles and arcs:** 19 circles, 0 arcs; largest r 7.1 @ (376.9, 116.5), r 7.0 @ (376.5, 144.5), r 3.0 @ (406.1, 119.8), r 2.5 @ (45.3, 204.1)
+- **Closed boxes:** 204; named: M9OSB; KEADPHONES CuDST MUTE STUDIO; HEADPHONES MUE STUDIO; TANourkjo
+- **Dots (junctions):** 36
+- **Words (OCR):** 115 in 93 lines: CH 13 · CH 14 · CH 15 CH 16 · CR MON · STD MON · METER · CH 1 · CH 2 · CH · CH · CH · CH
+- **Title block:** (303, 9)–(432, 73) mm: ISSUE · REVISION · WBS · WARD-BECK · SYSTEMS · DRN · SM · CHFI · ON · AIR · ENG SM · RENAISSANCE MK · CKD: · LAYOUT · APP · SCALE DISC NO: 473 · 940334-04-001 · CODE: · 94334L01
+
+Every curve, box, word and wire group: [1994 - 940334 - DOC - 940334-04-001 - OTHERS AND ARE INTEGRATED INTO THE CONSOLE (traced).json](1994%20-%20940334%20-%20DOC%20-%20940334-04-001%20-%20OTHERS%20AND%20ARE%20INTEGRATED%20INTO%20THE%20CONSOLE%20%28traced%29.json) (the CAD file: `1994 - 940334 - DOC - 940334-04-001 - OTHERS AND ARE INTEGRATED INTO THE CONSOLE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

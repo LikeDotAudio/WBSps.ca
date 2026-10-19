@@ -11,6 +11,17 @@ Wiki page: [M445](../../../PAGES/M445.md)
 - **Size:** 283,317 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 445-04-002, size B (assumed) 432 × 305 mm, 1753 × 1240 px traced (0.246 mm/px), turned 270°
+- **Ink extent:** 20–431 mm across, 19–304 mm up
+- **Outlines:** line 728 rings, 5,655 straight (12,594 mm) / 1,304 curved (2,639 mm); text 110 rings, 712 straight (776 mm) / 232 curved (341 mm)
+- **Circles and arcs:** 35 circles, 0 arcs; largest r 5.2 @ (320.1, 210.3), r 5.2 @ (193.8, 85.6), r 5.2 @ (102.1, 209.5), r 5.2 @ (284.0, 210.1)
+- **Closed boxes:** 9
+- **Dots (junctions):** 37
+
+Every curve, box, word and wire group: [1996 - M445 - B 445-04-002 - M445 EXTENDED RANGE METER-MONITOR - FRONT PANEL LAYOUT (traced).json](1996%20-%20M445%20-%20B%20445-04-002%20-%20M445%20EXTENDED%20RANGE%20METER-MONITOR%20-%20FRONT%20PANEL%20LAYOUT%20%28traced%29.json) (the CAD file: `1996 - M445 - B 445-04-002 - M445 EXTENDED RANGE METER-MONITOR - FRONT PANEL LAYOUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

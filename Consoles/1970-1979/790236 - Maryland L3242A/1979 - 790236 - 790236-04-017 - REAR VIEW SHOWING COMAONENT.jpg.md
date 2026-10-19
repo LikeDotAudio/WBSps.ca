@@ -10,6 +10,17 @@ Wiki page: [Job-790236](../../../PAGES/Job-790236.md)
 - **Size:** 6,247,214 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout 790236-04-017, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–366 mm across, 0–287 mm up
+- **Outlines:** line 497 rings, 6,669 straight (8,075 mm) / 956 curved (1,019 mm); text 160 rings, 1,206 straight (1,437 mm) / 380 curved (559 mm); tb 23 rings, 232 straight (374 mm) / 54 curved (73.8 mm)
+- **Closed boxes:** 20 (10 in the title block); named: TBI/ MOTIoN CT; ISSUE; 790236-04-017; Bi; SCALE
+- **Words (OCR):** 27 in 21 lines: Tbio · TBI/ · MOTIoN · CT · Sep-71 · ISSUE DATE · REVISION · APP · WBS · WARD-BECK sysTEMS · DRN Srh · L3242A CONSOLE
+- **Title block:** (147, 7)–(300, 75) mm: Sep-71 · ISSUE DATE · REVISION · APP · WBS · WARD-BECK sysTEMS · DRN Srh · L3242A CONSOLE · ENG Srh · REAR View · CKD. · APP · LAYoUT · SCALE · Bi · 790236-04-017 · ISSUE
+
+Every curve, box, word and wire group: [1979 - 790236 - 790236-04-017 - REAR VIEW SHOWING COMAONENT (traced).json](1979%20-%20790236%20-%20790236-04-017%20-%20REAR%20VIEW%20SHOWING%20COMAONENT%20%28traced%29.json) (the CAD file: `1979 - 790236 - 790236-04-017 - REAR VIEW SHOWING COMAONENT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

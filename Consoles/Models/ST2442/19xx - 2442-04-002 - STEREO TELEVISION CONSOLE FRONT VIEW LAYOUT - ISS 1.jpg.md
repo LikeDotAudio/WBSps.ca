@@ -21,6 +21,15 @@ Wiki page: [ST2442](../../../PAGES/ST2442.md)
 - **Size:** 3,869,306 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** layout D 2442-04-002, size D 611 × 864 mm, 1414 × 2000 px traced (0.432 mm/px), turned 180°
+- **Ink extent:** 0–611 mm across, 0–864 mm up
+- **Outlines:** line 1,074 rings, 11,963 straight (26,408 mm) / 1,762 curved (3,720 mm); text 147 rings, 1,808 straight (3,285 mm) / 463 curved (1,153 mm)
+- **Closed boxes:** 17
+
+Every curve, box, word and wire group: [19xx - 2442-04-002 - STEREO TELEVISION CONSOLE FRONT VIEW LAYOUT - ISS 1 (traced).json](19xx%20-%202442-04-002%20-%20STEREO%20TELEVISION%20CONSOLE%20FRONT%20VIEW%20LAYOUT%20-%20ISS%201%20%28traced%29.json) (the CAD file: `19xx - 2442-04-002 - STEREO TELEVISION CONSOLE FRONT VIEW LAYOUT - ISS 1 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

@@ -11,6 +11,18 @@ Wiki page: [M490N](../../../PAGES/M490N.md)
 - **Size:** 236,060 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 490-06-024, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 4–335 mm across, 34–398 mm up
+- **Outlines:** line 1,013 rings, 9,298 straight (14,363 mm) / 2,799 curved (2,920 mm); text 364 rings, 2,217 straight (1,938 mm) / 826 curved (926 mm); tb 2 rings, 47 straight (100 mm) / 10 curved (11.4 mm)
+- **Circles and arcs:** 14 circles, 0 arcs; largest r 4.9 @ (203.3, 124.2), r 4.9 @ (30.9, 125.4), r 4.8 @ (313.2, 124.1), r 3.2 @ (316.1, 202.0)
+- **Closed boxes:** 14
+- **Words (OCR):** 29 in 26 lines: INPUT  SELECT · PrE/Pos?uX ON/OFF · 581 · VBS 11-042 · VBS 11-045 · Sh6 · SHZ · 4CF-Ght-AA · 0 0 0 · 2222 · 81 · alalaila_
+- **Title block:** (215, 111)–(309, 138) mm: WBS 14-119 ISSUE 3 · CANADA
+
+Every curve, box, word and wire group: [1985 - M490N - 490-06-024 - AUX PRE-POST ON-OFF (traced).json](1985%20-%20M490N%20-%20490-06-024%20-%20AUX%20PRE-POST%20ON-OFF%20%28traced%29.json) (the CAD file: `1985 - M490N - 490-06-024 - AUX PRE-POST ON-OFF (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)

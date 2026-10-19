@@ -11,6 +11,19 @@ Wiki page: [M495](../../../PAGES/M495.md)
 - **Size:** 2,312,093 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout 495-06-001, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)
+- **Ink extent:** 0–336 mm across, 0–431 mm up
+- **Outlines:** line 947 rings, 9,570 straight (14,767 mm) / 2,677 curved (2,630 mm); text 477 rings, 4,128 straight (4,003 mm) / 1,323 curved (1,516 mm); tb 78 rings, 399 straight (357 mm) / 110 curved (99.4 mm)
+- **Circles and arcs:** 5 circles, 0 arcs; largest r 6.2 @ (157.3, 337.4), r 6.2 @ (155.2, 120.0), r 2.1 @ (134.1, 298.7), r 2.1 @ (133.9, 207.0)
+- **Closed boxes:** 39 (17 in the title block); named: zi LMzoi; 22 LMzoI; 23 LM ?01; 24 LM2OI; B694
+- **Dots (junctions):** 3
+- **Words (OCR):** 80 in 71 lines: N? |i-046 · ~Cs#lt · RS · c4*llp · RI 22K · ~RiojK · R2I-ezo · ~C7EP · zi · 22 · LMzoi · LMzoI
+- **Title block:** (191, 1)–(334, 73) mm: 2178 R4g WAS · 2k · IssUE |DATE · REVISION · APP · WBS WARD-BECK BYBTEMB · MRw · M495 · ENG. MRW 10177 · STEREO MOniTOR MODULE · CKDRa · COMPONENT LAYOUT · APP · ISSUE · SCALE · 495-06-001
+
+Every curve, box, word and wire group: [1975 - M495 - 495-06-001 - CKDRA STEREO MONITOR MODUE (traced).json](1975%20-%20M495%20-%20495-06-001%20-%20CKDRA%20STEREO%20MONITOR%20MODUE%20%28traced%29.json) (the CAD file: `1975 - M495 - 495-06-001 - CKDRA STEREO MONITOR MODUE (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR)

@@ -14,6 +14,20 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 - **Size:** 18,107,101 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** mechanical 950271-03-002, size B (assumed) 432 × 280 mm, 2000 × 1298 px traced (0.216 mm/px)
+- **Ink extent:** 33–426 mm across, 9–250 mm up
+- **Outlines:** line 976 rings, 6,841 straight (15,731 mm) / 1,314 curved (1,537 mm); text 178 rings, 1,145 straight (1,068 mm) / 314 curved (380 mm); tb 13 rings, 131 straight (154 mm) / 32 curved (36.0 mm)
+- **Centre lines:** 8,706 paths (185 closed); straight 9,950 mm, curved 30.7 mm; horizontal 5,180 mm, vertical 2,134 mm, diagonal 2,635 mm
+- **Circles and arcs:** 3 circles, 9 arcs; largest r 0.9 @ (293.4, 194.3), r 0.8 @ (216.9, 69.4), r 0.8 @ (322.4, 87.5)
+- **Closed boxes:** 28 (1 in the title block); named: INTERFACE PANEL RACK  UNITS); 002 950271-03=
+- **Dots (junctions):** 1
+- **Words (OCR):** 25 in 24 lines: 920171-07 · ALPONEC · MATERAL · GRET TEXCOTE · FLACES · PLACES · Lo0 · FTCHFS · 10 Ico · PLACES · 93027- · DETAIL
+- **Title block:** (347, 25)–(432, 46) mm: LSSUL DATEL · WBS · WARD-BECK SYSTEMS · INTERFACE PANEL
+
+Every curve, box, word and wire group: [1995 - DOC - 950271-03-002 - RACK UNITS NOTES REMOVE ALL BURRS AND SHARP (traced).json](1995%20-%20DOC%20-%20950271-03-002%20-%20RACK%20UNITS%20NOTES%20REMOVE%20ALL%20BURRS%20AND%20SHARP%20%28traced%29.json) (the CAD file: `1995 - DOC - 950271-03-002 - RACK UNITS NOTES REMOVE ALL BURRS AND SHARP (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

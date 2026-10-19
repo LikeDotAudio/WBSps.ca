@@ -21,6 +21,20 @@ Wiki page: [Job-93032](../../../PAGES/Job-93032.md)
 - **Size:** 360,056 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional D 93032-01-004, size D 864 × 553 mm, 2000 × 1281 px traced (0.432 mm/px)
+- **Ink extent:** 0–864 mm across, 6–513 mm up
+- **Outlines:** line 503 rings, 3,905 straight (13,688 mm) / 793 curved (1,913 mm); text 148 rings, 1,016 straight (1,982 mm) / 285 curved (731 mm); tb 41 rings, 289 straight (563 mm) / 73 curved (166 mm)
+- **Centre lines:** 7,966 paths (95 closed); straight 10,719 mm, curved 91.9 mm; horizontal 3,932 mm, vertical 2,845 mm, diagonal 3,943 mm
+- **Circles and arcs:** 0 circles, 14 arcs
+- **Closed boxes:** 44 (13 in the title block)
+- **Words (OCR):** 20 in 17 lines: CHANNEL · CCUM · IPH · CHANNEL · NQIES; · SURPLED · By OTHERS. · OTHER} · UNLCo _ · WBS · WARD-BECK SYSTEMS · CTS VARIETY STUDIO
+- **Title block:** (670, 7)–(845, 75) mm: WBS · WARD-BECK SYSTEMS · CTS VARIETY STUDIO · 24*36 Minicom · SYSTEM FUNCTIONAL · SCALE · CCOE: 9J0jz704 · 93032-01-004
+- **Wiring (first pass):** 112 connected wire groups from 840 runs; labelled ends: 25 mm → UNLCo _; 8 mm → IPH; 6 mm → CHANNEL; 6 mm → CHANNEL; 6 mm → CHANNEL, CCUM
+
+Every curve, box, word and wire group: [1993 - 93032-01-004 - CTS VARIETY STUDIO 24x36 MiniCOM SYSTEM FUNCTIONAL - DRN DRG - ISS 2 (traced).json](1993%20-%2093032-01-004%20-%20CTS%20VARIETY%20STUDIO%2024x36%20MiniCOM%20SYSTEM%20FUNCTIONAL%20-%20DRN%20DRG%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1993 - 93032-01-004 - CTS VARIETY STUDIO 24x36 MiniCOM SYSTEM FUNCTIONAL - DRN DRG - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 5 words corrected)

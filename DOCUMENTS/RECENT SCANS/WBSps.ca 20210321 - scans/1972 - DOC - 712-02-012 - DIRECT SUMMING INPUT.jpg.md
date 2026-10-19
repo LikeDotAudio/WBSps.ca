@@ -18,6 +18,21 @@ Wiki page: [Documents](../../../PAGES/Documents.md)
 
 - **1972** (month): `JULY 1972` — …N5I38 OUTPUT +18 dBm 600 n MAXIMUM sorio ON MODELS PRIOR TO JULY 1972 c 3 {€ > Not INCLUDED; R3o € R3/ ADDED WHEN DIRECT inPUT iS…
 
+## Vectors (traced)
+
+- **Sheet:** schematic 712-02-012, size B (assumed) 432 × 141 mm, 2000 × 651 px traced (0.216 mm/px)
+- **Ink extent:** 1–432 mm across, 0–141 mm up
+- **Outlines:** line 1,227 rings, 9,045 straight (15,697 mm) / 1,874 curved (2,338 mm); text 527 rings, 2,690 straight (2,289 mm) / 953 curved (1,178 mm); tb 29 rings, 213 straight (262 mm) / 54 curved (60.8 mm)
+- **Centre lines:** 11,558 paths (306 closed); straight 11,176 mm, curved 162 mm; horizontal 3,926 mm, vertical 3,267 mm, diagonal 3,984 mm
+- **Circles and arcs:** 4 circles, 31 arcs; largest r 3.8 @ (253.5, 27.6), r 3.7 @ (244.6, 108.9), r 3.6 @ (253.8, 57.7), r 0.9 @ (350.0, 51.2)
+- **Closed boxes:** 57 (17 in the title block); named: WBS WAAD-; 712 MATRIX SCHEMATiC; 712-02-001
+- **Dots (junctions):** 1
+- **Words (OCR):** 71 in 60 lines: IN4oo? 22 To · Voc · REGULATED · CROSSPOINT · CROSSPOINT · MOQULE · 245i37 · Madulz · RIS; · Rzo · NOTes · iok $ 4k7
+- **Title block:** (292, 12)–(386, 31) mm: HOD CKD · WBS WAAD- · DATE DEC 73
+- **Wiring (first pass):** 124 connected wire groups from 1,224 runs; labelled ends: 259 mm → IN4oo?; 152 mm → A2ojz, sots 4k7; 140 mm → iok $, A2ojz; 84 mm → iok $, sots 4k7; 72 mm → 04,R 32, WBS
+
+Every curve, box, word and wire group: [1972 - DOC - 712-02-012 - DIRECT SUMMING INPUT (traced).json](1972%20-%20DOC%20-%20712-02-012%20-%20DIRECT%20SUMMING%20INPUT%20%28traced%29.json) (the CAD file: `1972 - DOC - 712-02-012 - DIRECT SUMMING INPUT (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)
