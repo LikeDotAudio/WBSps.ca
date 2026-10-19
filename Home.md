@@ -21,7 +21,6 @@ A wiki of the Ward-Beck Systems archive: **521** modules, products and console m
 - [Transformers](PAGES/Transformers.md) — Ward-Beck's own 60-n input, 70-n output and 80-n power transformers
 - [Boilerplate](PAGES/Boilerplate.md) — the text repeated across many manuals, kept once
 - [Registers](PAGES/Registers.md) — transformers, boards, sub-assemblies and mechanical parts, and where they are used
-- [Recordings](PAGES/Recordings.md) — audio in the archive
 - [Documents](PAGES/Documents.md) — scanned documents filed by what they mention
 - [Advertisements](PAGES/Advertisements.md)
 - [Parts](PARTS.md) — part numbers, naming convention, shelf locations

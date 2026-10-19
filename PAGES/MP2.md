@@ -26,7 +26,7 @@ tags: ["product", "metering", "1990s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="MP2" data-n="" data-cat="METERING"></div><svg class="wbs-panel" data-m="MP2" data-n="" data-cat="METERING" role="img" aria-label="MP2 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"MP2","title":"","rto":null,"parts":[],"parents":[{"label":"MP1","href":"MP1.html","note":"on 5 drawings with it: PPM/VU Meter"},{"label":"MP3","href":"MP3.html","note":"on 5 drawings with it"},{"label":"MP4","href":"MP4.html","note":"on 5 drawings with it: Classic Rackmount Analog"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="MP2" data-n="" data-cat="METERING"></div><svg class="wbs-panel" data-m="MP2" data-n="" data-cat="METERING" role="img" aria-label="MP2 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"MP2","title":"","rto":null,"parts":[],"parents":[{"label":"MP3","href":"MP3.html","note":"on 5 drawings with it"},{"label":"MP4","href":"MP4.html","note":"on 5 drawings with it: Classic Rackmount Analog"},{"label":"MP1","href":"MP1.html","note":"on 5 drawings with it: PPM/VU Meter"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 ## Photos & scans (19)
 

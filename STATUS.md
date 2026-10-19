@@ -1,6 +1,6 @@
 # Archive status
 
-_Updated 2026-10-18 19:50:03 — refreshed every minute by `timelines/stats_loop.sh`._
+_Updated 2026-10-18 19:58:11 — refreshed every minute by `timelines/stats_loop.sh`._
 
 ## Work in progress
 
@@ -10,7 +10,7 @@ _Updated 2026-10-18 19:50:03 — refreshed every minute by `timelines/stats_loop
 | Module PDFs — every page (OCR) | 2,774 / 2,774 (100%) | done |
 | Drawing title blocks (OCR) | 4,561 / 5,645 (81%) | done (the rest have no readable title block) |
 | Unsorted scans (OCR) | 1,902 / 1,931 (98%) | done (the rest are blank or unreadable) |
-| Rebuild of 2026 (run_all.sh) | — | done 2026-10-18 19:49 |
+| Rebuild of 2026 (run_all.sh) | — | done 2026-10-18 19:50 |
 | Hover links: word positions of module numbers | 1,427 / 1,427 (100%) | done |
 | Scanned parts lists re-read (word positions) | 432 / 432 (100%) | done |
 | Other session: wbsPS-NOT UPLOADED | 1047 scanned, 654 with a confident home | idle |
@@ -41,6 +41,6 @@ _Updated 2026-10-18 19:50:03 — refreshed every minute by `timelines/stats_loop
 | Parts-list rows | 4,739 |
 | Modules named in other drawings | 6,620 |
 | Console lives | 16 |
-| Wiki pages | 1,238 |
+| Wiki pages | 1,237 |
 | Browser previews | 466 |
 | Year range | 1967|0 – 2021|54 |
