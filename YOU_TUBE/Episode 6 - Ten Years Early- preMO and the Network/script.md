@@ -26,8 +26,8 @@
 - Slide 3: [NAB 2017 rack: AMS2 and PoE switch](https://drive.google.com/file/d/0B0yR0b5T78SKbXl5Q2s2RGYyS1E/view?resourcekey=0-BHZtx5HAPKJfZ07BuI98mA)
 - Slide 4: **Cross-fade: drawing to module**, preMO-A1: from the drawing to the module: [19xx - preMO-A1 - Information Sheet.jpg](https://drive.google.com/file/d/138JioiT03CR_IgG2-56mMQm1ZqOEcyUd/view) → [19xx - preMO-A1 - Issue 1 Three Quarter View.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKLXVQMWZqV3VNbTQ/view?resourcekey=0-ga41UUb-M5wE-gFsXKFdOg)
 - Slide 5: [preMO-A1](https://drive.google.com/file/d/0B0yR0b5T78SKLXVQMWZqV3VNbTQ/view?resourcekey=0-ga41UUb-M5wE-gFsXKFdOg)
-- Slide 6: [AV6201A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1q_XuuWYtZocJzRXkaO1K2h3yFw49jG_j/view) _(pulled from the archive)_
-- Slide 7: [AV6202A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKV0cyYkl3M2pvSTA/view?resourcekey=0-l9QcaktPjurs-aiozKvt5A) _(pulled from the archive)_
+- Slide 6: [AA6201A · , ISS5 resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKOGRSOU0xSXBLTEE/view?resourcekey=0-4BVgHhTJdeNYaMUnOIufPg) _(pulled from the archive)_
+- Slide 7: [AA6201A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1G_oGZPHj6U5Gx3HQkwQ9ke1pOKAmtuBB/view) _(pulled from the archive)_
 
 ### 6.2 On the network: RAVENNA and AES67
 
@@ -36,8 +36,8 @@
 - Slide 9: [AMS8-1AN, 2014](https://drive.google.com/file/d/0B0yR0b5T78SKZUNlc0lFWF9aR00/view?resourcekey=0-fEPlbt1zhw1PUgmvgT7hfA)
 - Slide 10: **Cross-fade: drawing to module**, AMS8-1AN: from the drawing to the module: [2014 - AMS8-1AN - Information Sheet.jpg](https://drive.google.com/file/d/1xWzwtDc0NpGR0jm4l2g6m50dJPyzaQ0E/view) → [2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKZUNlc0lFWF9aR00/view?resourcekey=0-fEPlbt1zhw1PUgmvgT7hfA)
 - Slide 11: [AMS2-N](https://drive.google.com/file/d/0B0yR0b5T78SKSm5MRDdHSHBoZk0/view?resourcekey=0-jxTYwMTplmpKJLn-6C0kKw)
-- Slide 12: [AV6202A · file · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKRnZqYTd0T0dpRlU/view?resourcekey=0-mtD1psvUNFW0UcYOfKFXdw) _(pulled from the archive)_
-- Slide 13: [D6201A · +RM · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKelVPcmhNMG9PZjg/view?resourcekey=0-94lQ28dLoXJS-vNvLTsiJA) _(pulled from the archive)_
+- Slide 12: [AV6201A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKNVkyNFEtRWVfVWs/view?resourcekey=0-OAYIpf2JudmujC6ihUJHgw) _(pulled from the archive)_
+- Slide 13: [AV6201A · , Iss3 resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKWHFGMHRuYVlxLWc/view?resourcekey=0-4qtTSsxMz2Hm2DLg0djfew) _(pulled from the archive)_
 
 ### 6.3 The first network products
 
@@ -49,8 +49,8 @@
 - Slide 18: [MLC8-N](https://drive.google.com/file/d/0B0yR0b5T78SKZ1FxcnRyZE5PaEk/view?resourcekey=0-JFR0l6xoQm818cabE3vaIg)
 - Slide 19: [AMS8-1AN · Information Sheet · 2014|47](https://drive.google.com/file/d/1xWzwtDc0NpGR0jm4l2g6m50dJPyzaQ0E/view) _(pulled from the archive)_
 - Slide 20: [MLC8-N · Information Sheet · 2018|51](https://drive.google.com/file/d/1nBjMYCGaahoc84zzFkafrQZIm26wdcnw/view) _(pulled from the archive)_
-- Slide 21: [D6201A · file · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKNm1VZlN4Ml9WVFk/view?resourcekey=0-9Tgb9Rjx1NHy8KODlKWOxg) _(pulled from the archive)_
-- Slide 22: [D6201B · +RM · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKNFBrMEpIY2xvam8/view?resourcekey=0-Pu57Q9Av9X913AiVw1fuxg) _(pulled from the archive)_
+- Slide 21: [AV6201A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1q_XuuWYtZocJzRXkaO1K2h3yFw49jG_j/view) _(pulled from the archive)_
+- Slide 22: [AV6202A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKV0cyYkl3M2pvSTA/view?resourcekey=0-l9QcaktPjurs-aiozKvt5A) _(pulled from the archive)_
 
 ### 6.4 preMO-A1: the microphone on the network
 
@@ -58,9 +58,9 @@
 
 - Slide 24: [preMO-A1 information sheet](https://drive.google.com/file/d/138JioiT03CR_IgG2-56mMQm1ZqOEcyUd/view)
 - Slide 25: [preMO-A1, issue 1](https://drive.google.com/file/d/0B0yR0b5T78SKLXVQMWZqV3VNbTQ/view?resourcekey=0-ga41UUb-M5wE-gFsXKFdOg)
-- Slide 26: [D6201B · file · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKSlNlNU1tZzBmR0k/view?resourcekey=0-fkg25YZ8SYNJLVhVbk8STQ) _(pulled from the archive)_
-- Slide 27: [D6202A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKMWp1OEVKcFdGTlU/view?resourcekey=0-BRPLvR_M_hsnZNWC2WNgAw) _(pulled from the archive)_
-- Slide 28: [D6202A · , Iss3 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKM2c4WUJIMTI4NW8/view?resourcekey=0-ACCX8WjHFkkCAuP4aQNuHw) _(pulled from the archive)_
+- Slide 26: [AV6202A · file · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKRnZqYTd0T0dpRlU/view?resourcekey=0-mtD1psvUNFW0UcYOfKFXdw) _(pulled from the archive)_
+- Slide 27: [D6201A · +RM · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKelVPcmhNMG9PZjg/view?resourcekey=0-94lQ28dLoXJS-vNvLTsiJA) _(pulled from the archive)_
+- Slide 28: [D6201A · file · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKNm1VZlN4Ml9WVFk/view?resourcekey=0-9Tgb9Rjx1NHy8KODlKWOxg) _(pulled from the archive)_
 
 ### 6.5 Inside the preMO-A1
 
@@ -68,64 +68,64 @@
 
 - Slide 30: [preMO-A1 specifications](https://drive.google.com/file/d/138JioiT03CR_IgG2-56mMQm1ZqOEcyUd/view)
 - Slide 31: [AES67 jack, PoE, updates port](https://drive.google.com/file/d/0B0yR0b5T78SKLXVQMWZqV3VNbTQ/view?resourcekey=0-ga41UUb-M5wE-gFsXKFdOg)
-- Slide 32: [D6202B · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1ACqAjiQZUlGT7RL_JqJiU0bQg8mUdmPD/view) _(pulled from the archive)_
-- Slide 33: [D6203A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKd3hrQTJMeHpvLVE/view?resourcekey=0-sY7D_sW6o_IlFVdtUPIx_w) _(pulled from the archive)_
-- Slide 34: [D6203A · , Iss4 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKR2oxcTZyUlBnNmM/view?resourcekey=0-DprI_N7sTLJQm6iIdUoR7A) _(pulled from the archive)_
-- Slide 35: [D6203A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1LcLNAiMe4w6UM-1C1FKsqFw6pyBYvrIM/view) _(pulled from the archive)_
+- Slide 32: [D6201B · +RM · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKNFBrMEpIY2xvam8/view?resourcekey=0-Pu57Q9Av9X913AiVw1fuxg) _(pulled from the archive)_
+- Slide 33: [D6201B · file · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKSlNlNU1tZzBmR0k/view?resourcekey=0-fkg25YZ8SYNJLVhVbk8STQ) _(pulled from the archive)_
+- Slide 34: [D6202A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKMWp1OEVKcFdGTlU/view?resourcekey=0-BRPLvR_M_hsnZNWC2WNgAw) _(pulled from the archive)_
+- Slide 35: [D6202A · , Iss3 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKM2c4WUJIMTI4NW8/view?resourcekey=0-ACCX8WjHFkkCAuP4aQNuHw) _(pulled from the archive)_
+- Slide 36: [D6202B · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1ACqAjiQZUlGT7RL_JqJiU0bQg8mUdmPD/view) _(pulled from the archive)_
 
 ### 6.6 Why the preamp belongs at the microphone
 
 **VO:** A microphone puts out a tiny signal, around a thousandth of a volt. For fifty years that signal travelled down a long copper pair, through a snake or a wall box, to a preamp in a console, picking up hum and losing level along the way. Ward-Beck spent decades building transformers, balanced inputs and careful grounding to protect it. The preMO takes the opposite approach. It raises the level and converts it to digital within a metre of the microphone, and from there the audio travels as numbers, which don't pick up hum and don't lose level over distance. The microphone is one more device on the network, with an address, a clock and a name.
 
-- Slide 37: [preMO-A1: XLR in, AES67 out](https://drive.google.com/file/d/0B0yR0b5T78SKLXVQMWZqV3VNbTQ/view?resourcekey=0-ga41UUb-M5wE-gFsXKFdOg)
-- Slide 38: [D6204A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKUThjem5RQWs4NVk/view?resourcekey=0-VSTFf2yKtxS1H1vHfIMVug) _(pulled from the archive)_
-- Slide 39: [D6204A · , Iss4 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKWklZY213UkdwTm8/view?resourcekey=0-P-8hkq64JeDcLJUa_YCGIQ) _(pulled from the archive)_
-- Slide 40: [D6204A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/158wzgtq1ryzQ0PvGcf3FJtXkaNOhZuk9/view) _(pulled from the archive)_
+- Slide 38: [preMO-A1: XLR in, AES67 out](https://drive.google.com/file/d/0B0yR0b5T78SKLXVQMWZqV3VNbTQ/view?resourcekey=0-ga41UUb-M5wE-gFsXKFdOg)
+- Slide 39: [D6203A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKd3hrQTJMeHpvLVE/view?resourcekey=0-sY7D_sW6o_IlFVdtUPIx_w) _(pulled from the archive)_
+- Slide 40: [D6203A · , Iss4 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKR2oxcTZyUlBnNmM/view?resourcekey=0-DprI_N7sTLJQm6iIdUoR7A) _(pulled from the archive)_
+- Slide 41: [D6203A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1LcLNAiMe4w6UM-1C1FKsqFw6pyBYvrIM/view) _(pulled from the archive)_
+- Slide 42: [D6204A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKUThjem5RQWs4NVk/view?resourcekey=0-VSTFf2yKtxS1H1vHfIMVug) _(pulled from the archive)_
+- Slide 43: [D6204A · , Iss4 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKWklZY213UkdwTm8/view?resourcekey=0-P-8hkq64JeDcLJUa_YCGIQ) _(pulled from the archive)_
 
 ### 6.7 preMO-221 and preMO-222
 
 **VO:** In 2021 the preMO became a pair. The preMO-221 and 222 each put two microphone preamps on the network, each with its own mute, through XLR or quarter-inch inputs. The 221 adds a stereo headset amplifier and a balanced stereo line output on pluggable terminal blocks. The 222 drives two headsets, one jack on the front and one on the back, each with its own volume control. Both are AES67 and AES70 compliant, and both speak SMPTE 2110. There's a GPIO option on two RJ45 jacks, with illuminated capacitive touch switches, red and green or red and blue, so a talent can key a mic without a click or a pop. Microphone, headset and talkback in one box on one cable. It's the commentary position, rebuilt for the network.
 
-- Slide 42: [preMO-221](https://drive.google.com/file/d/11rewSWQ1amCf0emLEtUY8i3tafDtS01u/view)
-- Slide 43: [preMO-222](https://drive.google.com/file/d/1ZkzUFD8gzSCX5gicGIcTbP52W0hpnISP/view)
-- Slide 44: [GPIO option and touch switches](https://drive.google.com/file/d/1OUfxL7PilSfpY_0VkUJJE9wKJoQ34o9I/view)
-- Slide 45: [D6207A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1Vc-Qz6cVjWTozruCPJ_MKaKO0dbBUuue/view) _(pulled from the archive)_
-- Slide 46: [M6202A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1j_jeKnYXnZkgfsd6KEDn0Ge55Khrf2tN/view) _(pulled from the archive)_
-- Slide 47: [M6203A-3G · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1TMPdWSmAqZBIxL-3nuDsXcGI4vTov1nF/view) _(pulled from the archive)_
+- Slide 45: [preMO-221](https://drive.google.com/file/d/11rewSWQ1amCf0emLEtUY8i3tafDtS01u/view)
+- Slide 46: [preMO-222](https://drive.google.com/file/d/1ZkzUFD8gzSCX5gicGIcTbP52W0hpnISP/view)
+- Slide 47: [GPIO option and touch switches](https://drive.google.com/file/d/1OUfxL7PilSfpY_0VkUJJE9wKJoQ34o9I/view)
+- Slide 48: [D6204A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/158wzgtq1ryzQ0PvGcf3FJtXkaNOhZuk9/view) _(pulled from the archive)_
+- Slide 49: [D6207A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1Vc-Qz6cVjWTozruCPJ_MKaKO0dbBUuue/view) _(pulled from the archive)_
+- Slide 50: [M6202A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1j_jeKnYXnZkgfsd6KEDn0Ge55Khrf2tN/view) _(pulled from the archive)_
 
 ### 6.8 From turret to touch switch
 
 **VO:** Look at the GPIO option again and you can see the whole history of the company in it. In 1971 the CBC job was intercom: who can talk to whom. In the eighties and nineties it was turrets, small panels of keys for announcers to talk back, cough and switch their mics on. On the preMO the same keys come back as two lit touch switches on a network cable. The talent presses one, the preMO sends that press across the network, and the plant decides what it means. The intercom, the turret and the mic preamp, which used to be three products in three racks, are one small box.
 
-- Slide 49: [+GPIO switches, red/green or red/blue](https://drive.google.com/file/d/1OUfxL7PilSfpY_0VkUJJE9wKJoQ34o9I/view)
-- Slide 50: [940449 · 940449-03-001 · Eng Detail Host Turret Front Panel Note Revove · 1994|27](https://drive.google.com/file/d/1-PyUckXAOV6276vtmrnPHYGpvmIw7f97/view) _(pulled from the archive)_ · layer lift
-- Slide 51: [940449 · 940449-03-002 · Grit And Paint Textured Grey Texcote Vinyl · 1994|27](https://drive.google.com/file/d/13OaGgKDhxH36ZuTo7yS9LKfaqtRbRfdE/view) _(pulled from the archive)_ · layer lift
-- Slide 52: [940449 · 940449-03-005 · Grit And Paint Textured Grey Texcote Vinyl · 1994|27](https://drive.google.com/file/d/1mk7_-qWDOWeCBEeU-cAzvhpVmliXzDws/view) _(pulled from the archive)_ · layer lift
-- Slide 53: [940449 · 940449-04-003 · News Talk Temp Clock Timer Talkback Microphone · 1994|27](https://drive.google.com/file/d/1Ub7QTQUs2ESg93IoUAerFXxtTIi5IC1s/view) _(pulled from the archive)_
-- Slide 54: [940449 · 940449-04-004 · Note All Ese Components Are Supplied · 1994|27](https://drive.google.com/file/d/1GSTCxBOZPGnrFZjR0krHL9q431Q3tmEu/view) _(pulled from the archive)_
-- Slide 55: [M6203A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKSHU3YUQzbjBzLW8/view?resourcekey=0-XENgY00d8dYP40YPeNjVfw) _(pulled from the archive)_
+- Slide 52: [+GPIO switches, red/green or red/blue](https://drive.google.com/file/d/1OUfxL7PilSfpY_0VkUJJE9wKJoQ34o9I/view)
+- Slide 53: [940449 · 940449-03-001 · Eng Detail Host Turret Front Panel Note Revove · 1994|27](https://drive.google.com/file/d/1-PyUckXAOV6276vtmrnPHYGpvmIw7f97/view) _(pulled from the archive)_ · layer lift
+- Slide 54: [940449 · 940449-03-002 · Grit And Paint Textured Grey Texcote Vinyl · 1994|27](https://drive.google.com/file/d/13OaGgKDhxH36ZuTo7yS9LKfaqtRbRfdE/view) _(pulled from the archive)_ · layer lift
+- Slide 55: [940449 · 940449-03-005 · Grit And Paint Textured Grey Texcote Vinyl · 1994|27](https://drive.google.com/file/d/1mk7_-qWDOWeCBEeU-cAzvhpVmliXzDws/view) _(pulled from the archive)_ · layer lift
+- Slide 56: [940449 · 940449-04-003 · News Talk Temp Clock Timer Talkback Microphone · 1994|27](https://drive.google.com/file/d/1Ub7QTQUs2ESg93IoUAerFXxtTIi5IC1s/view) _(pulled from the archive)_
+- Slide 57: [940449 · 940449-04-004 · Note All Ese Components Are Supplied · 1994|27](https://drive.google.com/file/d/1GSTCxBOZPGnrFZjR0krHL9q431Q3tmEu/view) _(pulled from the archive)_
+- Slide 58: [M6203A-3G · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1TMPdWSmAqZBIxL-3nuDsXcGI4vTov1nF/view) _(pulled from the archive)_
 
 ### 6.9 AMS222: the monitor joins them
 
 **VO:** The AMS222 is the same idea in a rack: two networked microphone preamplifiers, a headset output and a stereo line output, with a speaker system of two full-range drivers and two woofers in one rack unit. Its sheet, like the preMO's, carries the logos of the groups writing the new standards: RAVENNA, AES67, AES70, SMPTE 2110, the Media Networking Alliance and AIMS, the Alliance for IP Media Solutions, where Ward-Beck was a member. Every sheet carries the same line: «The future of audio is by design.»
 
-- Slide 57: [AMS222](https://drive.google.com/file/d/17BFKkYTP9ri5O4wcFOi3pKV6LIQbh205/view)
-- Slide 58: [M6203A · , Iss3 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKVmx3dEtMSGxVaTQ/view?resourcekey=0-jEa1NTC7wywlKTwEx4IQPw) _(pulled from the archive)_
-- Slide 59: [M6204A · , Iss3 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKQTFGSmtHSXJ5czA/view?resourcekey=0-RyGUeATJ8WfyI2ghSpKOmA) _(pulled from the archive)_
+- Slide 60: [AMS222](https://drive.google.com/file/d/17BFKkYTP9ri5O4wcFOi3pKV6LIQbh205/view)
+- Slide 61: [M6203A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKSHU3YUQzbjBzLW8/view?resourcekey=0-XENgY00d8dYP40YPeNjVfw) _(pulled from the archive)_
+- Slide 62: [M6203A · , Iss3 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKVmx3dEtMSGxVaTQ/view?resourcekey=0-jEa1NTC7wywlKTwEx4IQPw) _(pulled from the archive)_
+- Slide 63: [M6204A · , Iss3 Resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKQTFGSmtHSXJ5czA/view?resourcekey=0-RyGUeATJ8WfyI2ghSpKOmA) _(pulled from the archive)_
 
 ### 6.10 The technology: from copper to packets
 
 **VO:** Look at what the cards do now. The openGear D6201B is a dual 1×4 AES/EBU distribution amplifier with sample-rate conversion. The D6203A and D6204A convert between analog and AES. The D6207A decodes Dolby E and AC-3. The -N products put audio on the network using RAVENNA and AES67, while the 32ME packs 32 channels of metering into one rack unit. The RTO-144 sheets record how every module connects. The jobs have stayed the same: distribute the signal, measure it, route it. The wiring changed from transformers and copper pairs to packets.
 
-- Slide 61: [D6201B AES/EBU DA with SRC](https://drive.google.com/file/d/1ASxAvaKTQukKBMO1S1bBxp8xR3QrmS6k/view)
-- Slide 62: **Cross-fade: drawing to module**, D6201B: from the drawing to the module: [2015 - D6201B - Information Sheet (openGear Series).jpg](https://drive.google.com/file/d/1ASxAvaKTQukKBMO1S1bBxp8xR3QrmS6k/view) → [2015 - D6201B - +RM.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKNFBrMEpIY2xvam8/view?resourcekey=0-Pu57Q9Av9X913AiVw1fuxg)
-- Slide 63: [D6207A Dolby E / AC-3 decoder](https://drive.google.com/file/d/0B0yR0b5T78SKZXV6Sl8zeEF6N1k/view?resourcekey=0-ZkV1ZVI8UW6ssGv_G7c90g)
-- Slide 64: [RTO-144, rev 10](https://drive.google.com/file/d/1qivojQr5bN4rreEhig6ISTmbN-pv6HHC/view)
-- Slide 65: [AA6201A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKV2hiUHB2VW0xVnc/view?resourcekey=0-fGZto5R62405ZfSyZ7dQGQ) _(pulled from the archive)_
-- Slide 66: [AA6201A · , ISS5 resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKOGRSOU0xSXBLTEE/view?resourcekey=0-4BVgHhTJdeNYaMUnOIufPg) _(pulled from the archive)_
-- Slide 67: [AA6201A · Information Sheet (openGear Series) · 2015|48](https://drive.google.com/file/d/1G_oGZPHj6U5Gx3HQkwQ9ke1pOKAmtuBB/view) _(pulled from the archive)_
-- Slide 68: [AV6201A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKNVkyNFEtRWVfVWs/view?resourcekey=0-OAYIpf2JudmujC6ihUJHgw) _(pulled from the archive)_
-- Slide 69: [AV6201A · , Iss3 resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKWHFGMHRuYVlxLWc/view?resourcekey=0-4qtTSsxMz2Hm2DLg0djfew) _(pulled from the archive)_
+- Slide 65: [D6201B AES/EBU DA with SRC](https://drive.google.com/file/d/1ASxAvaKTQukKBMO1S1bBxp8xR3QrmS6k/view)
+- Slide 66: **Cross-fade: drawing to module**, D6201B: from the drawing to the module: [2015 - D6201B - Information Sheet (openGear Series).jpg](https://drive.google.com/file/d/1ASxAvaKTQukKBMO1S1bBxp8xR3QrmS6k/view) → [2015 - D6201B - +RM.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKNFBrMEpIY2xvam8/view?resourcekey=0-Pu57Q9Av9X913AiVw1fuxg)
+- Slide 67: [D6207A Dolby E / AC-3 decoder](https://drive.google.com/file/d/0B0yR0b5T78SKZXV6Sl8zeEF6N1k/view?resourcekey=0-ZkV1ZVI8UW6ssGv_G7c90g)
+- Slide 68: [RTO-144, rev 10](https://drive.google.com/file/d/1qivojQr5bN4rreEhig6ISTmbN-pv6HHC/view)
+- Slide 69: [AA6201A · +RM resize · 2015|48](https://drive.google.com/file/d/0B0yR0b5T78SKV2hiUHB2VW0xVnc/view?resourcekey=0-fGZto5R62405ZfSyZ7dQGQ) _(pulled from the archive)_
 - Slide 70: **Triple-up**, D6201B · D6207A: [2015 - D6201B - file.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKSlNlNU1tZzBmR0k/view?resourcekey=0-fkg25YZ8SYNJLVhVbk8STQ) · [2015 - D6207A - file.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKZXV6Sl8zeEF6N1k/view?resourcekey=0-ZkV1ZVI8UW6ssGv_G7c90g)
 
 ### 6.11 Ten years early
