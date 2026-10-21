@@ -29,7 +29,7 @@
 
 - Slide 3: [M466 compressor-limiter and M467 noise gate and meter, side by side, 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKdzFlUFN3ckZnRG8/view?resourcekey=0-Cg819NI17UNgfv0NZ8Q3qg)
 - Slide 4: **Cross-fade: drawing to module**, M466: from the drawing to the module: [1976 - M466 - P45 - Front Panel.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKZ3NzRW5oVV9RT0E/view?resourcekey=0-tZ0bOubKw5WgzN4_EDP2RQ) → [1976 - M466 - IMG_4628.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKck1tUWNhcGZGVjA/view?resourcekey=0--kX8JsNIAkhu-ZxJBKOjhQ)
-- Slide 5: [M466 · 466-02-003 · Compressor Meter Module Schematic · Drn Geb · Iss 1 · 1976|9](#) _(pulled from the archive)_ · layer lift
+- Slide 5: [M467 · module · m467 noise gate and meter module 003 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKNzRvVkZPNjM1cG8/view?resourcekey=0-9MUBoTDdnYVCRDojxW_O-w) _(pulled from the archive)_
 - Slide 6: **Triple-up**, M466 · M467: [1976 - M467 - wbsps - module - m467 noise gate and meter module 002.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKX0YwMzY1V3l6S2M/view?resourcekey=0-wEUu19aXlezAotFMaYP_sg) · [1976 - M467 - wbsps - module - m467 noise gate and meter module 003.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKNzRvVkZPNjM1cG8/view?resourcekey=0-9MUBoTDdnYVCRDojxW_O-w) · [1976 - M466 - wbsps - module - m466 compressor 006.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKWTJJdlhRbHF2RkU/view?resourcekey=0-K7e1tOY3R8VOWO7PbZwGzw)
 
 ### 2.3.2 Why broadcasters squeeze
@@ -39,8 +39,8 @@
 - Slide 8: [M406 manual, 1968|1: 'The object of a compressor is to reduce the dynamic range…'](https://drive.google.com/file/d/0B0yR0b5T78SKNjJicjBRUk05a2M/view?resourcekey=0-7N4k2D8cEejTdzzSSXSNYA)
 - Slide 9: [M406 · P2 · 1968|1](https://drive.google.com/file/d/0B0yR0b5T78SKMEY1SFBLd2pKY1E/view?resourcekey=0-R5NiBHA2Q2pWq_MP-kHJpg) _(pulled from the archive)_
 - Slide 10: [M406 · P3 · 1968|1](https://drive.google.com/file/d/0B0yR0b5T78SKck5vUVNfWFVZYjA/view?resourcekey=0-A0CRKSxhGQmPDOuT9WGp0Q) _(pulled from the archive)_
-- Slide 11: [M466 · 466-02-003 · M466M Compressor Meter Module Schematic · Drn Geb · Iss 1 · 1976|9](#) _(pulled from the archive)_ · layer lift
-- Slide 12: [M467 · module · m467 noise gate and meter module 004 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKM3MwZHlPUVItUlk/view?resourcekey=0-f5y1OePYjSKEhOsst921qQ) _(pulled from the archive)_
+- Slide 11: [M467 · module · m467 noise gate and meter module 006 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKMDFVd0pBbnhUZ2s/view?resourcekey=0-BlvRE7xKENfk3fONMcBkEQ) _(pulled from the archive)_
+- Slide 12: [M467 · module · m467 noise gate and meter module 007 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKMXJZSE01bDZLOUE/view?resourcekey=0-xv8Wof8cFflpn_0PwmcQsQ) _(pulled from the archive)_
 
 ### 2.3.3 1968: the M406 at CFTO
 
@@ -49,7 +49,7 @@
 - Slide 14: [M406 manual, 1968|1: 'Property of CFTO-TV Eng. Dept. Do not remove'](https://drive.google.com/file/d/0B0yR0b5T78SKQU4yeklqZ3Z5UGM/view?resourcekey=0-UyMursuF448OVkG32mPafA)
 - Slide 15: [B 406-02-001, M406 compressor schematic, July 1968|1](https://drive.google.com/file/d/0B0yR0b5T78SKR2NybmM2YVRsNGs/view?resourcekey=0-OmmOZLBmc2R61ErblmA4Bw) · layer lift
 - Slide 16: [1972|5 ad: CFTO-TV and CHAN-TV console 'with comprehensive equalizer, compressor'](https://drive.google.com/file/d/0B0yR0b5T78SKZEduSS1jQmlCb3M/view?resourcekey=0-svM5ZzEVC1DWVO94FhX0XA)
-- Slide 17: [M406 · 406-09-001 · Compressor Package Outline · Drn C.S. O'Connell · 1968|1](#) _(pulled from the archive)_
+- Slide 17: [M406 · B 406-02-014 · M406C Compressor · Schematic · 1968|1](https://drive.google.com/file/d/0B0yR0b5T78SKMzcwUEZ2SjVNeEk/view?resourcekey=0-RxAjYh7YJyzGynARQTlI1A) _(pulled from the archive)_ · layer lift
 
 ### 2.3.4 A compressor the size of a fader
 
@@ -58,7 +58,7 @@
 - Slide 19: [Rodger Beck, 'A Unique Compressor Limiter', page 6: the conclusion](https://drive.google.com/file/d/0B0yR0b5T78SKd1JlXzFsVFc4dUk/view?resourcekey=0-is_ReBVFFh18fE0KgXQQCg)
 - Slide 20: **Cross-fade: drawing to module**, M406B: from the drawing to the module: [1968 - B 406-02--13 - COMPRESSOR SCHEMATIC CEILING CONTROL MODIFIED - ISS 2.png](#) → [1969 - M406B - wbsps - promo - m406b comp - 003.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKai0xNHFHNlFsTVE/view?resourcekey=0-MfoBaFmgOh-cyP0bD6qV8g)
 - Slide 21: [Four M406B compressors in a frame](https://drive.google.com/file/d/0B0yR0b5T78SKTHJ3S3luQWhOQW8/view?resourcekey=0-4KUkQp5CMJR1jPRF5LIFTQ)
-- Slide 22: [M406B · B 406-02--13 · Compressor Schematic Ceiling Control Modified · Iss 2 · 1968|1](#) _(pulled from the archive)_
+- Slide 22: [M406A · WBSps.ca · M406A compressor · 1968|1](https://drive.google.com/file/d/1d0xtHjULo_VKEBT6IxRkQvelNtlTI3ZV/view) _(pulled from the archive)_
 - Slide 23: **Triple-up**, M406B: [Archived - wbsps - promo - m406b comp - 002.jpg](#) · [Ward Beck Systems M406B 2.jpg](#) · [wbsps - module - m406b comp - back(1).jpg](#)
 
 ### 2.3.5 Threshold, ratio, attack and release
@@ -72,7 +72,7 @@
 - Slide 29: [M406B · P7 · 1969|2](https://drive.google.com/file/d/0B0yR0b5T78SKRUhJb2Y2YzFpNUE/view?resourcekey=0-lGDFB_4M4RcRsdYTRdSZWw) _(pulled from the archive)_
 - Slide 30: [M406B · P8 · 1969|2](https://drive.google.com/file/d/0B0yR0b5T78SKVE51LTVVbko1eUE/view?resourcekey=0-WySMXw5xUnAfkwlaafiOhQ) _(pulled from the archive)_
 - Slide 31: **Triple-up**, M406B: [wbsps - module - m406b comp - back.jpg](#) · [19xx - M406B - M406B.jpg](#)
-- Slide 32: [M406B · Schematic Ceiling Control Modified · 1969|2](https://drive.google.com/file/d/1ZW7WEzyC340rOKXubBQ6AbNiBKe2PAvR/view) _(pulled from the archive)_
+- Slide 32: [M466 · 466-02-003 · Compressor Meter Module Schematic · Drn Geb · Iss 1 · 1976|9](#) _(pulled from the archive)_ · layer lift
 
 ### 2.3.6 The first de-esser
 
@@ -80,9 +80,9 @@
 
 - Slide 34: [M406B operation: the DE-ESS control, 0 to 8 dB](https://drive.google.com/file/d/0B0yR0b5T78SKSHIxNHIwNGlQSFE/view?resourcekey=0-6BwBviaoyGnekZsdsJHEmQ)
 - Slide 35: [M406 comp/lim/de-esser, a technician's redrawn schematic (W-B406), showing the de-ess switch](https://drive.google.com/file/d/0B0yR0b5T78SKTmxKNk1nZXUzR2M/view?resourcekey=0-ygkfevsXdhjpuqbaLJUFsg)
-- Slide 36: [M406 · 406-02-010 · M406B Compressor Schematic · Drn Djg · Iss 5 · 1969|2](#) _(pulled from the archive)_ · layer lift
-- Slide 37: [M406B · WBSps.ca · Part 1 · 1969|2](https://drive.google.com/file/d/1nsHBV9uRBErSeR5v8bzYFXVD01wLTRAo/view) _(pulled from the archive)_
-- Slide 38: [M406 · 406-02-013 · M406B Compressor Schematic Ceiling Control Modified · Drn Djg · Iss 2 · 1969|2](#) _(pulled from the archive)_ · layer lift
+- Slide 36: [M406B · WBSps.ca · Part 1 · 1969|2](https://drive.google.com/file/d/1nsHBV9uRBErSeR5v8bzYFXVD01wLTRAo/view) _(pulled from the archive)_
+- Slide 37: [M406B · WBSps.ca · Part 2 · 1969|2](https://drive.google.com/file/d/1jcOZ0keSdyOCeSD07nFZTRZoWowo4Of5/view) _(pulled from the archive)_
+- Slide 38: [M406 · 406-02-010 · M406B Compressor Schematic · Drn Djg · Iss 5 · 1969|2](#) _(pulled from the archive)_ · layer lift
 
 ### 2.3.7 Gain reduction you can see
 
@@ -90,10 +90,10 @@
 
 - Slide 40: [US price schedule, 1 May 1975|8: M406B $435, 'Edgewise gain reduction meter for M406B' $50](#)
 - Slide 41: [M406 · Sel Recovery Meter Cal · 1969|2](https://drive.google.com/file/d/1WQeWJqy3Av6MPYRcb6yQorE6qRbd8U-i/view) _(pulled from the archive)_
-- Slide 42: [M466M · module · m466m meter 002 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKMkNDZ0xIbWRnTmM/view?resourcekey=0-aVrhUNcwPkd_i3f7BroPVA) _(pulled from the archive)_
-- Slide 43: [M466 · 8-109-06-005 · Out Put Amplifier Component Layout · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKZC10dHU1Q1FMWW8/view?resourcekey=0-6nSN6r3IE7XIpCqO_0yPww) _(pulled from the archive)_
-- Slide 44: [M467 · module · m467 noise gate and meter module 005 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKVmFkd0NtemJBTVU/view?resourcekey=0-4vowxv6h6w16LK1UpThM3A) _(pulled from the archive)_
-- Slide 45: [M406B · Schematic and layout · 1969|2](https://drive.google.com/file/d/0B0yR0b5T78SKSGNEMjlDalBEd2M/view?resourcekey=0-dHY7HKS2j4pazqm18ZczGw) _(pulled from the archive)_
+- Slide 42: [M467 · module · m467 noise gate and meter module 008 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKYkIxNHlKYjYta0E/view?resourcekey=0-lZqltdRmrwlR3sMDvLuD2A) _(pulled from the archive)_
+- Slide 43: [M406B · B 406-02--13 · Compressor Schematic Ceiling Control Modified · Iss 2 · 1968|1](#) _(pulled from the archive)_
+- Slide 44: [M466M · module · m466m meter 002 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKMkNDZ0xIbWRnTmM/view?resourcekey=0-aVrhUNcwPkd_i3f7BroPVA) _(pulled from the archive)_
+- Slide 45: [M466 · 466-02-003 · M466M Compressor Meter Module Schematic · Drn Geb · Iss 1 · 1976|9](#) _(pulled from the archive)_ · layer lift
 
 ### 2.3.8 1976: the M466
 
@@ -113,10 +113,10 @@
 
 - Slide 55: [B 6-106-02-001, compressor control amplifier schematic, July 1976|9](#) · layer lift
 - Slide 56: [M466 compressor transfer characteristics: four slopes, make-up gain up to +16](https://drive.google.com/file/d/0B0yR0b5T78SKUFhuaWgzTEh4bk0/view?resourcekey=0-FgycX92gU8fIfrFCbk50pQ)
-- Slide 57: [M466 · 6-106-06-001 · 6-106 Compressor Control Amplifier Component Layout · Drn Mrw · Iss 5 · 1976|9](#) _(pulled from the archive)_
-- Slide 58: [M466 · 6-106-02-001 · Compressor Control Amplifier Schematic · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKMXhFMjF6NUNrdVk/view?resourcekey=0-C_MyN92ygFGQ5KBNLNQndQ) _(pulled from the archive)_ · layer lift
-- Slide 59: [M466 · 6-106-06-001 · Fimish Compressor Control Amplifier Component Layout · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKWHpSalh2N3BBRWc/view?resourcekey=0-22Q77gXJw15qOWWMdi_I6A) _(pulled from the archive)_
-- Slide 60: [M466 · 466-01-001 · M466C Limiter · Compressor Module Functional Diagram · Drn Db · Eng Rkb · Iss 2 · 1977|10](#) _(pulled from the archive)_ · layer lift
+- Slide 57: [M466 · 6-106-02-001 · Compressor Control Amplifier Schematic · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKMXhFMjF6NUNrdVk/view?resourcekey=0-C_MyN92ygFGQ5KBNLNQndQ) _(pulled from the archive)_ · layer lift
+- Slide 58: [M466 · P46 · Schematic · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKTkdNRF9LQTVfWEE/view?resourcekey=0-wsEqCFW40LwaTvokcMxNTQ) _(pulled from the archive)_
+- Slide 59: [M466 · 6-106-06-001 · 6-106 Compressor Control Amplifier Component Layout · Drn Mrw · Iss 5 · 1976|9](#) _(pulled from the archive)_
+- Slide 60: [M466 · 6-106-06-001 · Fimish Compressor Control Amplifier Component Layout · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKWHpSalh2N3BBRWc/view?resourcekey=0-22Q77gXJw15qOWWMdi_I6A) _(pulled from the archive)_
 - Slide 61: **Triple-up**, M466: [1976 - M466 - wbsps - module - m466 compressor 007.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKXzNJTkdaazV1MFk/view?resourcekey=0-E1jme89FhUSgSEc6iVE_fA) · [1976 - M466 - wbsps - module - m466 compressor 009.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKZ2FyWUJMYnRQaU0/view?resourcekey=0-Ve-xR8-IUbTyFSE4F2Jthg)
 
 ### 2.3.10 De-essing, the M466 way
@@ -138,9 +138,9 @@
 - Slide 71: **Cross-fade: drawing to module**, M466M: from the drawing to the module: [M466M - Schematic.jpg](#) → [1976 - M466M - wbsps - module - m466m meter 001.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKZUFRd0NkbjVFdk0/view?resourcekey=0-lnemeYvFcGaMUEPJNi_Gfw)
 - Slide 72: [M466M compressor meter module, 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKZUFRd0NkbjVFdk0/view?resourcekey=0-lnemeYvFcGaMUEPJNi_Gfw)
 - Slide 73: ['…a 0 VU reading on an external VU meter (approx. 0.6 V)'](https://drive.google.com/file/d/0B0yR0b5T78SKYU10c2pHYlVGSm8/view?resourcekey=0-9AByPcrB2mTFg1R5NWYZJA)
-- Slide 74: [M466M · Bus Stereo Tie Nqie For Component Layout See · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKRnFtS2JJUHdNY1k/view?resourcekey=0-wugHIviCmifLgZ09yTkQ2w) _(pulled from the archive)_
-- Slide 75: [M467 · module · m467 noise gate and meter module 003 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKNzRvVkZPNjM1cG8/view?resourcekey=0-9MUBoTDdnYVCRDojxW_O-w) _(pulled from the archive)_
-- Slide 76: [M466M · Component Layout · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKNjFWSlVON2JYaU0/view?resourcekey=0-xfZZvsKXNLVA_UbE_BD3uw) _(pulled from the archive)_
+- Slide 74: [M466M · Schematic](#) _(pulled from the archive)_
+- Slide 75: [M467 · module · m467 noise gate and meter module 004 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKM3MwZHlPUVItUlk/view?resourcekey=0-f5y1OePYjSKEhOsst921qQ) _(pulled from the archive)_
+- Slide 76: [M467 · module · m467 noise gate and meter module 005 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKVmFkd0NtemJBTVU/view?resourcekey=0-4vowxv6h6w16LK1UpThM3A) _(pulled from the archive)_
 - Slide 77: **Triple-up**, M466 · M466M · M467: [1976 - M466 - wbsps - module - m466 compressor 008.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKYm40SUd3TWpqaFk/view?resourcekey=0-T3onC3YHvmpmtZplmpdeSg) · [1976 - M466M - wbsps - module - m466m meter 002.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKMkNDZ0xIbWRnTmM/view?resourcekey=0-aVrhUNcwPkd_i3f7BroPVA) · [1976 - M467 - wbsps - module - m467 noise gate and meter module 004.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKM3MwZHlPUVItUlk/view?resourcekey=0-f5y1OePYjSKEhOsst921qQ)
 
 ### 2.3.12 The gate beside the meter
@@ -150,8 +150,8 @@
 - Slide 79: [B 467-01-001, noise gate and meter module functional diagram, Dec 1976|9](#) · layer lift
 - Slide 80: **Cross-fade: drawing to module**, M467: from the drawing to the module: [1977 - 467-02-001 - NOISEGATE & METER MODULE SCHEMATIC - DRN AF - ISS 7.jpg](#) → [1976 - M467 - wbsps - module - m467 noise gate and meter module 002.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKX0YwMzY1V3l6S2M/view?resourcekey=0-wEUu19aXlezAotFMaYP_sg)
 - Slide 81: [M467: meter, comp tie, attenuation, threshold, release](https://drive.google.com/file/d/0B0yR0b5T78SKX0YwMzY1V3l6S2M/view?resourcekey=0-wEUu19aXlezAotFMaYP_sg)
-- Slide 82: [M467 · 467-01-001 · Rzla Functional Diagram · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKMFZUa3RJS0JEaVk/view?resourcekey=0-sJu-_stefRZZ2PgZ3OXG1A) _(pulled from the archive)_ · layer lift
-- Slide 83: [M467 · 467-02-001 · Noisegate & Meter Module Schematic · Drn Af · Iss 7 · 1977|10](#) _(pulled from the archive)_ · layer lift
+- Slide 82: [M467 · 467-02-001 · Noisegate & Meter Module Schematic · Drn Af · Iss 7 · 1977|10](#) _(pulled from the archive)_ · layer lift
+- Slide 83: [M467 · 467-01-001 · Rzla Functional Diagram · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKMFZUa3RJS0JEaVk/view?resourcekey=0-sJu-_stefRZZ2PgZ3OXG1A) _(pulled from the archive)_ · layer lift
 - Slide 84: [M467 · 467-02-001 · Unles Otherwst Stid All Reldtott' · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKZnFxR2ZIMFp4bW8/view?resourcekey=0-MnFmMUh-5uI6To4jy2zQdg) _(pulled from the archive)_ · layer lift
 - Slide 85: **Triple-up**, M467: [1976 - M467 - wbsps - module - m467 noise gate and meter module 006.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKMDFVd0pBbnhUZ2s/view?resourcekey=0-BlvRE7xKENfk3fONMcBkEQ) · [1976 - M467 - wbsps - module - m467 noise gate and meter module 007.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKMXJZSE01bDZLOUE/view?resourcekey=0-xv8Wof8cFflpn_0PwmcQsQ)
 
@@ -162,7 +162,7 @@
 - Slide 87: [L3242 audio console specification: optional M466 and M467](https://drive.google.com/file/d/0B0yR0b5T78SKTUh0YVhIN2hjclE/view?resourcekey=0-5BbrKsqSG2dcdybh1CqyLg)
 - Slide 88: [ST series brochure, 1985|18: 'M466 Monaural Limiter/Compressor/De-esser'](https://drive.google.com/file/d/0B0yR0b5T78SKVlZiOU4tcXRSbjg/view?resourcekey=0-V7jb29qsiiT4vtdqhxLvAw)
 - Slide 89: [Job 93021, TTC evaluation package, 1993|26](#) · layer lift
-- Slide 90: [76045 · 452-02-001 · Swti Component Noie For Schematic See · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKdUdwSC1jc21hTjA/view?resourcekey=0-v7gcAYxhWgICthETusERbw) _(pulled from the archive)_
+- Slide 90: [77038 · a (2) · 1977|10](https://drive.google.com/file/d/0B0yR0b5T78SKMzdtV1o1WFgtNFU/view?resourcekey=0-Z1ino2vCJaZ4QjOwWKmUEw) _(pulled from the archive)_
 - Slide 91: **Triple-up**, M466: [1976 - M466 - wbsps - module - m466 compressor 012.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKcnhlVkJPQkRMeWs/view?resourcekey=0-UFHJADJr42DceEEDa5XekA) · [1976 - M466 - wbsps - module - m466 compressor 013.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKZ0Y2TXVDbzc2TW8/view?resourcekey=0-lrSiKbuVkgcllS1xCK1jZQ)
 
 ### 2.3.14 The 500-series twins: M566 and M567
@@ -171,9 +171,9 @@
 
 - Slide 93: [M467/M567 noise gate and meter module manual, issue 1, Sept 1985|18](https://drive.google.com/file/d/0B0yR0b5T78SKQXRNbVE3Rm44N1U/view?resourcekey=0-3wQ4zgj4FVKgide4PRjkAg)
 - Slide 94: ['Processing modules may be M562 EQ, M564 HP/LP filter, M566 lim/comp., M566M meter, M567 noisegate', 1988|21](https://drive.google.com/file/d/0B0yR0b5T78SKWktOR1JtZ0ItWDg/view?resourcekey=0-eGAy9j-bNDnn4whE-YvR6Q)
-- Slide 95: [M467 · 567 · P002 · 1-1 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKRW5mSjB6TGpoUTQ/view?resourcekey=0-0qWeINwL1sYdLKpVetAoFA) _(pulled from the archive)_
-- Slide 96: [BIG CFTO TV done · 3642-02-009 · Essing Out Processing Dule Module · 1988|21](https://drive.google.com/file/d/0B0yR0b5T78SKd2lUS19SemR6dEE/view?resourcekey=0-jmo__rtxQX9U92OQP6savw) _(pulled from the archive)_ · layer lift
-- Slide 97: [M467 · 567 · P003 · 1-2 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKSTVuTkJzNklRWWM/view?resourcekey=0-N1rMf69SrtWn6nk8zpKQAg) _(pulled from the archive)_
+- Slide 95: [BIG CFTO TV done · 3642-02-009 · Essing Out Processing Dule Module · 1988|21](https://drive.google.com/file/d/0B0yR0b5T78SKd2lUS19SemR6dEE/view?resourcekey=0-jmo__rtxQX9U92OQP6savw) _(pulled from the archive)_ · layer lift
+- Slide 96: [BIG CFTO TV done · 3642-02-009 · Out Processing Out Processing Out · 1988|21](https://drive.google.com/file/d/0B0yR0b5T78SKSjVIenBibUNWWmM/view?resourcekey=0-JJmCJQU9-vRjoB5uAxMwjQ) _(pulled from the archive)_ · layer lift
+- Slide 97: [BIG CFTO TV done · 3642-02-009 · Processing Out Processing · 1988|21](https://drive.google.com/file/d/0B0yR0b5T78SKdWU1dkN1UG5PYUU/view?resourcekey=0-9CumeqXj4yKuLueOkCwMPQ) _(pulled from the archive)_ · layer lift
 
 ### 2.3.15 Close: the sound of control
 
@@ -184,7 +184,7 @@
 - Slide 101: [M8207 · audio compressor · limiter 002 · 1995|28](https://drive.google.com/file/d/0B0yR0b5T78SKZUt0Wi1wU0tzNU0/view?resourcekey=0-GBTD1Q1RVWY8vaQNU2J5cw) _(pulled from the archive)_
 - Slide 102: [M8207 · audio compressor · limiter 003 · 1995|28](https://drive.google.com/file/d/0B0yR0b5T78SKMi1RWTdMbVBVZVk/view?resourcekey=0-wLOW-kmMpAZBEYEwhe-gcw) _(pulled from the archive)_
 - Slide 103: [M466M · module · m466m meter 003 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKQk15NnJrUkkyZGM/view?resourcekey=0-oPdqrJ8qWNCf6Hfprj7BjQ) _(pulled from the archive)_
-- Slide 104: [M466 · Mimisa Compressor-Limiter Component Layout · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKWkotdG5MTXNob3c/view?resourcekey=0-_dleuzJCHFExV2mvDYqmmQ) _(pulled from the archive)_
+- Slide 104: [M466 · module · m466 compressor 009 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKZ2FyWUJMYnRQaU0/view?resourcekey=0-Ve-xR8-IUbTyFSE4F2Jthg) _(pulled from the archive)_
 
 
 _Unmistakably Ward-Beck_ · Anthony Peter Kuzub · WBSps.ca · WBSps.Kuzub.com
