@@ -89,5 +89,6 @@
       "to": "P2-W"
     }
   ],
-  "logic": []
+  "logic": [],
+  "unverified": "Placeholder data: this row of the jumper calculator holds only the 44-contact P2 power and jumper template, with no audio connections. Not checked against a drawing; do not wire from it."
 }

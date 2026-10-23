@@ -1,35 +1,50 @@
 code: M166
 series: S400-LINE
-type: SUMMING
+type: M166 - Active Summing Amplifier
 row_count: 15
-impedance:
-  line_in: 600
-  out: 600
-note: 10Ω
+impedance: {}
+note: null
+connector: 15 contacts, single row
+verified: 166-02-002 iss. 2 (Feb 1970), M166 active summing amplifier plug connections
 audio:
 - port: A1
-  signal: SUMMING-IN-10kΩ
+  signal: INPUT
   dir: in
   pos: '1'
   neg: '2'
-  pad_pos: 1.A.1.P
-  pad_neg: 2.A.1.N
-- port: A2
-  signal: PREAMP-OUT-1
+  pad_pos: null
+  pad_neg: null
+  note: null
+- port: B1
+  signal: 'OUTPUT #1'
   dir: out
   pos: '10'
   neg: '11'
-  pad_pos: 10.A.2.P
-  pad_neg: 11.A.2.N
+  pad_pos: null
+  pad_neg: null
+  note: null
+- port: B2
+  signal: 'OUTPUT #2'
+  dir: out
+  pos: '13'
+  neg: '14'
+  pad_pos: null
+  pad_neg: null
+  note: null
 bus_out: []
 bus_in: []
 power:
 - rail: VCC-AUDIO
-  style: OLD
+  style: null
   volts: 48
-  max_a: 0.1
+  max_a: null
   supply: '15'
   ground: '12'
   link: null
 jumpers: []
 logic: []
+other:
+- signal: SHIELD GND
+  role: ground
+  pins:
+  - '7'

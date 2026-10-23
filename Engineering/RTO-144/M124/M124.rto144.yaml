@@ -1,35 +1,83 @@
 code: M124
 series: S400-LINE
-type: PREAMP
+type: M124 - Preamplifier
 row_count: 15
-impedance:
-  line_in: 600
-  out: 600
+impedance: {}
 note: null
+connector: 15 contacts, single row
+verified: 124-09-001 iss. 1 (Aug 1968), M124 connector wiring
 audio:
 - port: A1
-  signal: PREAMP-A
-  dir: io
+  signal: INPUT 600 Ω
+  dir: in
   pos: '4'
   neg: '5'
-  pad_pos: 4.A.1.P
-  pad_neg: 5.A.1.N
+  pad_pos: null
+  pad_neg: null
+  note: 'strap 3-6; transformer phase reversal: pin 4 is high, pin 5 low'
+- port: A2
+  signal: INPUT 150 Ω
+  dir: in
+  pos: '1'
+  neg: '4'
+  pad_pos: null
+  pad_neg: null
+  note: strap 2-3
 - port: A3
-  signal: PREAMP-OUT
+  signal: INPUT 37.5 Ω
+  dir: in
+  pos: '1'
+  neg: '4'
+  pad_pos: null
+  pad_neg: null
+  note: straps 1-2 and 3-4
+- port: B1
+  signal: OUTPUT
   dir: out
   pos: '13'
   neg: '14'
-  pad_pos: 13.A.3.P
-  pad_neg: 14.A.3.N
+  pad_pos: null
+  pad_neg: null
+  note: null
 bus_out: []
 bus_in: []
 power:
 - rail: VCC-AUDIO
-  style: OLD
+  style: null
   volts: 48
-  max_a: 0.1
+  max_a: null
   supply: '15'
   ground: '12'
   link: null
-jumpers: []
+jumpers:
+- function: 600 Ω input
+  designation: STRAP 3-6
+  from: '3'
+  to: '6'
+- function: 150 Ω input
+  designation: STRAP 2-3
+  from: '2'
+  to: '3'
+- function: 37.5 Ω input
+  designation: STRAP 1-2
+  from: '1'
+  to: '2'
+- function: 37.5 Ω input
+  designation: STRAP 3-4
+  from: '3'
+  to: '4'
 logic: []
+other:
+- signal: INPUT SHIELD
+  role: ground
+  pins:
+  - '7'
+- signal: GAIN SET RESISTOR
+  role: jumper
+  pins:
+  - '10'
+  - '11'
+- signal: COM
+  role: ground
+  pins:
+  - '12'
