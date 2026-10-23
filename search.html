@@ -72,16 +72,40 @@ mark { background: #f2d974; color: inherit; padding: 0 1px }
 <script src="_catalog/catalog.js"></script>
 <script src="_catalog/drive_lookup.js"></script>
 <script>
-const data = (window.WBS_CATALOG || { files: [] }).files;
+const CAT = window.WBS_CATALOG || { files: [] }, data = CAT.files;
 const $ = id => document.getElementById(id);
 const PAGE = 120;
 const facets = { sec: 'Section', k: 'Kind', dec: 'Decade' };
 const active = { sec: new Set(), k: new Set(), dec: new Set() };
 let shown = PAGE, hits = [];
+const hay = d => (d.n + ' ' + d.m + ' ' + (d.mn || '') + ' ' + d.cat + ' ' + d.sec + ' ' + (d.y || '') + ' ' + d.o + ' ' + d.x).toLowerCase();
 data.forEach(d => {
   d.dec = d.y ? Math.floor(d.y / 10) * 10 + 's' : 'undated';
-  d.hay = (d.n + ' ' + d.m + ' ' + (d.mn || '') + ' ' + d.cat + ' ' + d.sec + ' ' + (d.y || '') + ' ' + d.o + ' ' + d.x).toLowerCase();
+  d.x = d.x || '';
+  d.hay = hay(d);
 });
+// the search text comes in CAT.text slices (_catalog/text/NN.js), fetched only once someone types; until they are all
+// in, names, models, years and paths are searched and the status line says how much of the text is loaded
+const byPath = new Map(data.map(d => [d.p, d]));
+let textLeft = CAT.text || 0, textAsked = false;
+function loadText() {
+  if (textAsked || !textLeft) return;
+  textAsked = true;
+  for (let i = 0; i < CAT.text; i++) {
+    const id = String(i).padStart(2, '0'), s = document.createElement('script');
+    s.src = '_catalog/text/' + id + '.js?v=' + (CAT.generated || '');
+    s.onload = s.onerror = () => {
+      const sh = window['WBS_TEXT_' + id] || {};
+      delete window['WBS_TEXT_' + id];
+      for (const p in sh) { const d = byPath.get(p); if (d) { d.x = sh[p]; d.hay = hay(d); } }
+      textLeft--;
+      clearTimeout(textTimer); textTimer = setTimeout(() => run(true), textLeft ? 250 : 0);
+      s.remove();
+    };
+    document.body.appendChild(s);
+  }
+}
+let textTimer;
 const enc = p => p.split('/').map(encodeURIComponent).join('/');
 const VIEWER = true;  // viewer.html opens any file type, using its preview when there is one
 const open = d => VIEWER ? 'viewer.html?f=' + encodeURIComponent(d.p) : enc(d.p);
@@ -132,11 +156,12 @@ function card(d, terms) {
   </li>`;
 }
 
-function run() {
+function run(keep) {
   const terms = $('q').value.toLowerCase().split(/\s+/).filter(Boolean);
+  if (terms.length) loadText();
   hits = data.filter(d => terms.every(t => d.hay.includes(t)) &&
     Object.entries(active).every(([k, set]) => !set.size || set.has(d[k] || 'other')));
-  shown = PAGE;
+  if (keep !== true) shown = PAGE;
   render(terms);
 }
 
@@ -145,7 +170,8 @@ function render(terms = $('q').value.toLowerCase().split(/\s+/).filter(Boolean))
     : '<li class="empty">No cards match. Try fewer words or clear a filter.</li>';
   $('more').hidden = shown >= hits.length;
   $('status').textContent = `${hits.length.toLocaleString()} of ${data.length.toLocaleString()} files` +
-    (hits.length > shown ? ` · showing ${shown}` : '');
+    (hits.length > shown ? ` · showing ${shown}` : '') +
+    (textAsked && textLeft ? ` · loading the full text, ${CAT.text - textLeft} of ${CAT.text}` : '');
 }
 
 $('more').addEventListener('click', () => { shown += PAGE; render(); });
