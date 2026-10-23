@@ -45,7 +45,7 @@ WARD-BECK SYSTEMS LTD.
 841 Progress Avenue
 Scarborough, Ontario M1H 2X4
 Voice (416) 438-6550 Toll-Free 1-800-771-2556 Fax (416) 438-3865
-Website:  www.wbsltd.com   Email: wbsltd@istar.ca
+Website:  www.wbsltd.com   Email: [e-mail removed]
 
 
 POD 4

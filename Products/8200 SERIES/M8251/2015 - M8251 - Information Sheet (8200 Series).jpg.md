@@ -22,7 +22,7 @@ m8251 1X6 UTILITY AnaloG ViDeo DiSTrIBuTIon Amplifier NTSC & PAL
 Mb251 , ISSUE. 1
 MDEO DISTRIBUMON ANPUNER WaRD BecK Sisius
 Product Description The M8251 is one-by-eight video distribution amplifier with level trim inputs and outputs are made on BNC connectors. The input is high impedance looping input while the outputs are 75 Ohm The M8251 is housed in the Ward-Beck   8200 series frame_ the only   silent   frame in the industry, and connections are made via BNC-1 rear termination module
-Want compact; affordable and   high-quality solutions for your broadcast problems? Contact Ward-Beck Svstems nowl Email sales@ward-beck.com or call 416-335-5999 for more information;
+Want compact; affordable and   high-quality solutions for your broadcast problems? Contact Ward-Beck Svstems nowl Email [e-mail removed] or call 416-335-5999 for more information;
 ORDER INFORMATION [M8251] 1x6 Utility Analog Video Distribution Amplifier NTSC PAL [MBZSI+RM] 1x6 Utility Analog Video Distribution Amplifier NTSC PAL BNCI termination out [BNC1] Rear termination module for M8251
 BNC1
 Rear Termination Module
@@ -40,7 +40,7 @@ m8251 1X6 UTILITY AnaloG ViDeo DiSTrIBuTIon Ampuifier NTSC & PAL
 Mb251 , ISSUE. 1
 MDEO DISTRIBUMON ANPUNER WaRD BecK Sisius
 Propuct Description The M8251 is one-by-eight video distribution amplifier with level trim inputs and outputs are made on BNC connectors. The input is high impedance looping input while the outputs are 75 Ohm The M8251 is housed in the Ward-Beck   8200 series frame_ the only   silent   frame in the industry, and connections are made via BNC-1 rear termination module
-Want compact; affordable and   high-quality solutions for your broadcast problems? Contact Ward-Beck Svstems nowl Email sales@ward-beck.com or call 416-335-5999 for more information;
+Want compact; affordable and   high-quality solutions for your broadcast problems? Contact Ward-Beck Svstems nowl Email [e-mail removed] or call 416-335-5999 for more information;
 ORDER INFORMATION [M8251] 1x6 Utility Analog Video Distribution Amplifier NTSC PAL [MBZSI+RM] 1x6 Utility Analog Video Distribution Amplifier NTSC PAL BNCI termination out [BNC1] Rear termination module for M8251
 BNC1
 Rear Termination Module

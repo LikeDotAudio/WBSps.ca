@@ -379,7 +379,7 @@ In no event shall Ward-Beck Systems Ltd. be liable for consequential damages. Wa
 Ward-Beck Systems Ltd. reserves the right, at any time and without notice, to make changes in its equipment; components, specifications or designs, as may be warranted by progress in state-of-the-art technology: Ward-Beck Systems Ltd, reserves the right to make design changes, additions to, and improvements in its products, without obligation to install such revisions in products previously manufactured.
 The warranty set forth herein is in Lieu of all other warranties expressed or implied, including the warranties of merchantability and fitness
 WARD-BECK SYSTEMS LTD.
-455 Milner Avenue, Unit 10, Toronto, Ontario MIB 2K4 V416 335 5999 F 416 335 5202 Toll-Free 800 771 2556 Website: WWw ward-beck com E-Mail: sales@ward-beck.com
+455 Milner Avenue, Unit 10, Toronto, Ontario MIB 2K4 V416 335 5999 F 416 335 5202 Toll-Free 800 771 2556 Website: WWw ward-beck com E-Mail: [e-mail removed]
 ```
 
 <details><summary>As read by the OCR</summary>
@@ -399,7 +399,7 @@ In no event shall Ward-Beck Systems Ltd. be liable for consequential damages. Wa
 Ward-Beck Systems Ltd. reserves the right, at any time and without notice, to make changes in its equipment; components, specifications or designs, as may be warranted by progress in state-of-the-art technology: Ward-Beck Systems Ltd, reserves the right to make design changes, additions to, and improvements in its products, without obligation to install such revisions in products previously manufactured.
 The warranty set forth herein is in Iieu of all other warranties expressed or implied, including the warranties of merchantability and fitness
 WARD-BECK SYSTEMS LTD.
-455 Milner Avenue, Unit 10, Toronto, Ontario MIB 2K4 V416 335 5999 F 416 335 5202 Toll-Free 800 771 2556 Website: WWw ward-beck com E-Mail: sales@ward-beck.com
+455 Milner Avenue, Unit 10, Toronto, Ontario MIB 2K4 V416 335 5999 F 416 335 5202 Toll-Free 800 771 2556 Website: WWw ward-beck com E-Mail: [e-mail removed]
 ```
 
 </details>

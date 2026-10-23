@@ -29,7 +29,7 @@ Hnai
 Audio Bit Buddy ABB
 Features include: AESIEBU Digital Audio Inputs Stereo Analog Inputs Stereo Headset Output Sampling Frequency Display Stereo Nominal dB Level Meter Detailed Receive Error Indication AC or Battery Powered
 Order your ABB-1 today:
-WARD-BECK SYSTEMS LTD. 841 Progress Avenue WARD-BECK SYSTEMS LTD _ Scarborough, Ontario 841 Progress Avenue Canada M1H 2X4 Scarborough, Ontario Phone (416) 438-6550 Canada MIH 2X4 Fax: (416) 438-3865 Phone: (416) 438-6550 TOLL FREE 1-800-771-2556 Fax: (416) 438-3865 http:IIwww wbsltd.com TOLL FREE 1-800-771-2556 email: wbsltd@istar.ca http:| /www wbsltd.com BT June/1997 19 76 July/August/1996 BT
+WARD-BECK SYSTEMS LTD. 841 Progress Avenue WARD-BECK SYSTEMS LTD _ Scarborough, Ontario 841 Progress Avenue Canada M1H 2X4 Scarborough, Ontario Phone (416) 438-6550 Canada MIH 2X4 Fax: (416) 438-3865 Phone: (416) 438-6550 TOLL FREE 1-800-771-2556 Fax: (416) 438-3865 http:IIwww wbsltd.com TOLL FREE 1-800-771-2556 email: [e-mail removed] http:| /www wbsltd.com BT June/1997 19 76 July/August/1996 BT
 ```
 
 <details><summary>As read by the OCR</summary>
@@ -48,7 +48,7 @@ Hnai
 Audio Bit Buddy ABB
 Features include: AESIEBU Digital Audio Inputs Stereo Analog Inputs Stereo Headset Output Sampling Frequency Display Stereo Nominal dB Level Meter Detailed Receive Error Indication AC or Battery Powered
 Order your ABB-1 today:
-WARD-BECK SYSTEMS LTD. 841 Progress Avenue WARD-BECK SYSTEMS LTD _ Scarborough, Ontario 841 Progress Avenue Canada M1H 2X4 Scarborough, Ontario Phone (416) 438-6550 Canada MIH 2X4 Fax: (416) 438-3865 Phone: (416) 438-6550 TOLL FREE 1-800-771-2556 Fax: (416) 438-3865 http:IIwww wbsltd.com TOLL FREE 1-800-771-2556 email: wbsltd@istar.ca http:| /www wbsltd.com BT June/1997 19 76 July/August/1996 BT
+WARD-BECK SYSTEMS LTD. 841 Progress Avenue WARD-BECK SYSTEMS LTD _ Scarborough, Ontario 841 Progress Avenue Canada M1H 2X4 Scarborough, Ontario Phone (416) 438-6550 Canada MIH 2X4 Fax: (416) 438-3865 Phone: (416) 438-6550 TOLL FREE 1-800-771-2556 Fax: (416) 438-3865 http:IIwww wbsltd.com TOLL FREE 1-800-771-2556 email: [e-mail removed] http:| /www wbsltd.com BT June/1997 19 76 July/August/1996 BT
 ```
 
 </details>
@@ -1018,7 +1018,7 @@ WARD-BECK SYSTEMS LTD. 841 Progress Avenue WARD-BECK SYSTEMS LTD _ Scarborough, 
      ]
     },
     {
-     "code": "email: wbsltd@istar.ca",
+     "code": "email: [e-mail removed]",
      "box": [
       0.0615,
       0.9518,
