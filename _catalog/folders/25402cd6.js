@@ -1,1 +1,1 @@
-window.WBS_FOLDER={"d":"Consoles/1970-1979/71036 - CFTO TV, Toronto","f":[]};
+window.WBS_FOLDER={"d":"Consoles/1970-1979/71036 - CFTO TV, Toronto","f":[["1971 - 71036 - DOC - 71050 - 20170522_122029_021 - PHOTO.jpg","f821b0c974226177cbf0"]]};

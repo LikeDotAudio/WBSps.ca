@@ -1,0 +1,179 @@
+# 19xx - DOC - IMG_3381.jpg
+Wiki page: [Documents](../../PAGES/Documents.md)
+
+
+- **Year:** unknown (unknown)
+- **Type:** document scan
+- **About:** M520A
+
+## Text recovered by OCR
+
+> 8S 45204 WBS 75204 WBS M5204 WBS M5z0a Wus M520a WDS Msz0a WbS Mel PAN PAN PAN PAN PAN Pghi PEAI PGh PEAR Pean PGhI PEAK PGhi PEAK Poh PEAI SENS SENS SENS SENS PEAK PGl PEAK Ko VEar SENS SENS SENS SENS SeS AUX AUX AUX AUX PaE PAE PST AUX 3 PST AUX J AUX3 AUXJ AUXJ AUX 2 UX AUX 2 AUX AUX AUX JUX PST CH ON CH ON CH ON CH ON CH ON CH ON CH ON Ch On Ch OR G Da
+- **Original file:** `WBSps.env/wbsPS-NOT UPLOADED/IMG_3381.JPG`
+- **SHA-256:** `a993f7d137fcb6e91a7428ce84386278397d0f013e1e4a3ca6f6584ba2b2fff7`
+- **Size:** 2,356,513 bytes
+- **Pages:** 1
+
+## Full text
+
+### Page 1 (OCR, spell-checked: 2 words corrected)
+
+```text
+8S
+45204
+WBS
+75204
+WBS
+M5204
+WBS
+M5z0a
+Wus
+M520a
+WDS
+Msz0a
+WbS
+Mel
+PAN
+PAN
+PAN
+PAN
+PAN
+Pghi PEAL
+PGh PEAR
+Pean
+PGhI PEAK
+PGhi PEAK
+Poh PEAL
+SENS
+SENS
+SENS
+SENS
+PEAK
+PGl PEAK
+Ko VEar
+SENS
+SENS
+SENS
+SENS
+SeS
+AUX
+AUX
+AUX
+AUX
+PaE
+
+PAE
+PST
+AUX 3 PST
+AUX J
+AUX3
+AUXJ
+AUXJ
+AUX 2
+UX
+AUX 2
+AUX
+AUX
+AUX
+JUX
+PST
+CH ON
+CH ON
+CH ON
+CH ON
+CH ON
+CH ON
+CH ON
+Ch On
+Ch OR
+G Da
+```
+
+<details><summary>As read by the OCR</summary>
+
+```text
+8S
+45204
+WBS
+75204
+WBS
+M5204
+WBS
+M5z0a
+Wus
+M520a
+WDS
+Msz0a
+WbS
+Mel
+PAN
+PAN
+PAN
+PAN
+PAN
+Pghi PEAI
+PGh PEAR
+Pean
+PGhI PEAK
+PGhi PEAK
+Poh PEAI
+SENS
+SENS
+SENS
+SENS
+PEAK
+PGl PEAK
+Ko VEar
+SENS
+SENS
+SENS
+SENS
+SeS
+AUX
+AUX
+AUX
+AUX
+PaE
+
+PAE
+PST
+AUX 3 PST
+AUX J
+AUX3
+AUXJ
+AUXJ
+AUX 2
+UX
+AUX 2
+AUX
+AUX
+AUX
+JUX
+PST
+CH ON
+CH ON
+CH ON
+CH ON
+CH ON
+CH ON
+CH ON
+Ch On
+Ch OR
+G Da
+```
+
+</details>
+
+## Contents (JSON)
+
+```json
+{
+ "file": "DOCUMENTS/wbsPS-NOT UPLOADED/19xx - DOC - IMG_3381.jpg",
+ "sha256": "a993f7d137fcb6e91a7428ce84386278397d0f013e1e4a3ca6f6584ba2b2fff7",
+ "kind": "doc",
+ "models": [
+  "M520A"
+ ],
+ "pages": 1
+}
+```

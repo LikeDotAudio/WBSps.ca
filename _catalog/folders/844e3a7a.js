@@ -1,1 +1,1 @@
-window.WBS_FOLDER={"d":"DOCUMENTS/wbsPS-NOT UPLOADED/WBSPS PAge","f":[]};
+window.WBS_FOLDER={"d":"DOCUMENTS/wbsPS-NOT UPLOADED/WBSPS PAge","f":[["19xx - DOC - What a manual Looks like.jpg","4d3d835eb1e16bd3a44b"],["19xx - DOC - what a module looks like 2.jpg","a1469e832ede8b2cdb9c"],["19xx - DOC - what a module looks like.jpg","7e79579a95f3761bf525"],["1986 - DOC - What a manual inside looks like.jpg","d5d3cdc4382c115fc147"]]};

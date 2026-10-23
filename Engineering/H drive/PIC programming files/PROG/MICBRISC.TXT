@@ -1,0 +1,1371 @@
+
+
+                       Micro-bRISC Device Programmer 
+
+                              USER'S GUIDE
+                                 
+
+
+
+
+
+
+
+
+
+
+
+
+             Thanks for choosing the Micro-bRISC Device Programmer, one
+        of the fastest PIC programmers in its class. While its strongest
+        suit is its landmark programming times, the feature-laden
+        Micro-bRISC GUI software is easy-to-use, powerful, and very
+        intuitive -- perfect for both beginners and seasoned PIC
+        programmers alike.
+
+             The Micro-bRISC Device Programmer is written up as a
+        feature article in the January 1996 issue #66 of Circuit Cellar
+        INK. The article provides the schematic and the Circuit Cellar
+        BBS [ (860) 871-1988 ] provides the Visual Basic for DOS
+        software and the PIC firmware for downloading. 
+
+             The Micro-bRISC Device Programmer is also featured in
+        Microchip's 1995/1996 Third Party Guide (document #DS00104C) on
+        page 37.
+
+
+
+        Micro-bRISC Highlights:
+
+         Extremely fast programming times
+
+         Low-cost
+
+         Reliable, single-chip design
+
+         Single 48-pin ZIF socket supports more than 14 PIC16CXX       
+
+          devices
+
+         Supports parallel ports LPT1, LPT2, and LPT3
+
+         Detects STANDARD or BIDIRECTIONAL parallel ports
+
+         Compatible with Enhanced parallel ports (EPP)
+
+         Convenient Centronics connector (use existing printer cable)
+
+         Accepts AC (12-18V) or DC (18-24V) power supplies
+
+         Mouse or keyboard-driven GUI software (IBM PC or compatible)
+
+         Programming signals/voltages also available at RJ45 connector
+
+         Available assembled & tested or in kit form
+
+         Software upgradable for future device support
+
+
+
+
+        Micro-bRISC Overview:
+         
+        As its name implies, the Micro-bRISC Device Programmer is an
+        extremely fast programmer for Microchip's RISC-based PIC16CXX
+        midrange family of microcontrollers. Exceptional performance is
+        achieved through an efficient parallel port interface and a
+        target Microchip PIC16C57 microcontroller running at 20 MHz. 
+        True byte-wide transfers are realized when using a bidirectional
+        parallel port, offering the highest programming throughput.    
+
+        Sample programming cycle times (blank check, program and
+        verify):
+            
+            512 word device (i.e. PIC16C620):  0.5 second 
+             1K word device (i.e. PIC16C71):     1 second 
+             2K word device (i.e. PIC16C64):     2 seconds
+             4K word device (i.e. PIC16C74):     4 seconds              
+
+
+        The 48-pin ZIF socket supports over 14 PIC devices! 
+
+        The highly-functional software provides standard PROGRAM, BLANK
+        CHECK, READ, VERIFY, and EDIT functions, as well as full
+        programming/editing support for the Data memory on the
+        EEPROM-based PIC16C84. Customer ID program/edit and device
+        checksum are also supported.
+
+        The Micro-bRISC Device Programmer is unique in offering four,
+        blazing-fast bulk erase options for PIC16C8X EEPROM-based
+        microcontrollers. 
+
+        One of the quickest development-class PIC programmers available,
+        the Micro-bRISC Device Programmer provides an elegant and
+        inexpensive solution for a first or second PIC programmer for
+        the home, office, school, or lab.
+
+
+        SYSTEM REQUIREMENTS
+             
+             IBM PC/clone  (CPU: 386 or higher)
+             Parallel port (standard, bidirectional, or EPP)
+             MS-DOS 5.0 or higher
+             640K RAM
+             Mouse (highly recommended)
+             VGA video card
+             High-quality Centronics printer cable
+             Power Supply: AC (12-18V) or DC (18-24V) 
+
+
+        NOTE: Avoid using cheap printer cables. The cable must implement
+              all of the Centronics signals and be fully wired-through  
+              and well-shielded. Use a 6-foot or shorter cable for       
+              starters, then you can try longer lengths.
+
+
+
+        The Micro-bRISC Device Programmer is classified as a
+        'development' or 'prototype' programmer. What this essentially
+        means is that the programmer verifies devices only at 5 volts,
+        and not at VDD min and VDD max to ensure proper programming
+        margin needed for quality assurance during production quantity
+        programming. The Micro-bRISC Device Programmer is intended for
+        development and prototyping work and is not recommended for
+        production programming. 
+
+
+
+        CONNECTING THE HARDWARE
+
+             1) Make sure you PC is off.
+             
+             2) Connect the DB25 end of you printer cable to an unused  
+                printer port on your PC.
+             
+             3) Connect the Centronics end of your printer cable to the 
+                Micro-bRISC's Centronics connector.
+             
+             5) Plug the AC adapter connector into the Micro-bRISC power
+                connector. Power-up the AC adapter into and the green    
+                power LED should be lit.
+             
+             6) Turn on your PC.
+
+
+
+        INSTALLING THE SOFTWARE
+
+             The best way to run the Micro-bRISC software is from the
+        hard drive. To set up the Micro-bRISC software on your hard
+        drive, create a 'MICBRISC' directory on your hard drive and copy
+        all files from the Micro-bRISC diskette to it.
+
+             1) At the root directory prompt of your hard drive type:
+                
+                MD MICBRISC <RETURN>
+             
+             2) Change to the floppy drive that contains the Micro-brisc
+                diskette and type:
+                
+                COPY *.* C:\MICBRISC <RETURN> (assuming 'C' = hard      
+                drive)    
+
+
+
+
+        RUNNING THE SOFTWARE
+
+             1) From the MICBRISC directory type: MICBRISC <RETURN>
+                
+                The software will inform you of the type of parallel     
+                port detected. You are now ready to program PICs. 
+                  
+
+
+        RUNNING THE DEMO MODE
+
+             The Micro-bRISC software has a demo mode for showcasing the
+        features of the Micro-bRISC without actually having the hardware
+        at hand. If the software is invoked without hardware connected,
+        a communication error dialog box will pop up. The user enters
+        DEMO mode by clicking on the DEMO command button. All
+        programming functions are disabled in DEMO mode since no
+        hardware is connected to the Micro-bRISC.
+
+
+
+        SOME KEYBOARD NAVIGATIONAL HINTS FOR GUI BEGINNERS
+
+
+             MENUS
+             
+                  To open a menu, press the ALT key and the red letter
+             (access key) highlighted in the menu name. For example,
+             opening the File menu you would press ALT+F. Once a menu is
+             open you can invoke a menu item simply by pressing its
+             access key without pressing ALT. Arrow keys are also
+             helpful when navigating menus. You can select items with    
+             the arrow keys and then hit return to execute the menu      
+             function. The ESC key will close menus. Shortcut keys let   
+             you execute a menu item without opening a menu at all. For  
+             example, to call up the FILL BUFFER dialog box, simply      
+             press function key F9.
+
+
+
+             SCROLL BARS
+             
+                  When the scroll bar has focus, you may use several
+             keys to control the scroll bar: PAGE UP, PAGE DOWN, HOME,
+             END, and the arrow keys. 
+
+
+             DIALOG BOXES
+
+                  Within dialog boxes, the TAB key is used to cycle
+             through items in the box. SHIFT+TAB will cycle through them
+             in the opposite direction. Any controls that have an access
+             key (highlighted red character) can be executed by first            
+             pressing and holding ALT, and then pressing the access key.
+             You can close a dialog box with the ESC key.
+
+
+             TEXT BOXES
+
+                  Some useful keys (besides generic text keys) when
+             dealing with text boxes are INSERT, DELETE, HOME, END, and
+             the arrow keys.
+
+
+             OPTION BUTTONS
+                  
+                  Grouped option buttons can be selected using the arrow 
+             keys.
+             
+
+             CHECK BOXES
+             
+                  When a particular check box receives focus via the TAB 
+              key, the check box can be toggled (cyclically turned on or 
+              off) using the spacebar.
+
+
+             COMMAND BUTTONS
+                  
+                  If the command button has the focus, pressing the
+             RETURN key or SPACEBAR will generate the click event to     
+             execute its function.    
+
+
+
+        CUSTOMIZING THE MICRO-bRISC START-UP ENVIRONMENT:
+
+             The Micro-bRISC software has two means by which the user
+        can customize the working environment to suite his/her needs:
+        command line options, and an initialization file (MICBRISC.INI).
+        If command line options are not used, then the initialization
+        file (if it exists in the working directory) will be used to
+        load customized options. If command line options are used then
+        the initialization file will not be used at all, unless 'INI' is
+        typed in at the command line. In this case, the initialization
+        file will have precedence over options selected via the command
+        line. The two methods are detailed as follows:
+
+
+        COMMAND LINE INTERFACE OPTIONS
+
+             When invoking the Micro-bRISC Device Programmer by typing
+        'MICBRISC', extra command line parameters can also be entered at
+        the command line to customize the Micro-bRISC programming
+        environment. The available options are described below:
+
+        LPTx  (where x=1, 2 or 3 i.e. LPT1, LPT2, or LPT3)
+
+             Forces the Micro-bRISC software to try to connect with only
+             the LPT# the user selects. This option is normally not used
+             unless the user does not want the auto-port polling feature
+             to be invoked. If this option is not used, the Micro-bRISC 
+             will automatically poll all installed LPT ports to find the
+             one that is connected to the Micro-bRISC board. 
+
+        Px (where x=PIC part # i.e. P64, P71, P74, or P84)
+
+             Selects the device to be used upon start-up.
+
+
+        filename.HEX  (where 'filename'=valid filename)
+
+             Selects the filename to be loaded upon start-up. The   
+             filename must contain the '.HEX' extension or it will not  
+             load. If the filename is not located in the working        
+             directory then the full path (including drive letter) must 
+             be included.
+
+        OSC:x  (where x= RC, LP, XT, or HS)
+
+             Selects the oscillator configuration bit to be used upon   
+             start-up.  
+
+        WDT:x  (where x=ON or OFF)
+
+             Selects the watchdog timer configuration bit to be used    
+             upon start-up.  
+
+        PUT:x  (where x=ON or OFF)
+
+             Selects the power-up timer configuration bit to be used     
+             upon start-up.  
+
+        BOD:x  (where x=ON or OFF)
+
+             Selects the brown-put detect enable configuration bit to be
+             used upon start-up.  
+
+        ID:xxxx (where xxxx=4 hexadecimal digits)
+
+             Selects the ID to be used upon start-up.  
+
+
+        COMMAND LINE DIRECTIVES
+
+             Micro-bRISC command line directives help customize the
+        software environment. Listing these directives in the
+        command line will override their defaults. These directives may
+        be mixed with the above options in the command line. Directive
+        descriptions are as follows: 
+
+
+        STATUS    
+
+             Normally when the software loads, the VCC and VPP status
+        LEDs will flash to tell the user that a bidirectional parallel
+        port is detected. Similarly, when exiting the software, the same
+        LEDs will flash to tell the user that all I/O lines connected to
+        the printer port have entered the high-impedance state.
+
+             When including the STATUS directive in the command line,
+        these LEDs will not be used to indicate the two       
+        situations detailed above.
+
+
+        BYPASS    
+
+             When the software loads, a title screen appears for several
+        seconds indicating information such as the port type detected,
+        software version number, etc. By including the BYPASS directive
+        in the command line, this title screen will not be shown and the
+        several second delay will not be incurred.
+
+
+        SPP
+
+             When the Micro-bRISC software detects a bidirectional
+        parallel port, the default communication protocol uses special
+        routines to take advantage of the higher throughput available
+        with bidirectional parallel ports. However, the user can use the
+        SPP (standard parallel port) directive to force the
+        bidirectional parallel port to act like a standard parallel
+        port. Data read for the Micro-bRISC board will no longer be
+        byte-wide, so a performance penalty will be incurred.
+          
+
+        AUTO      
+
+             The AUTO directive applies only to the PIC16C8x family of
+        EEPROM-based PIC microcontrollers. Regarding the Data EEPROM
+        area, the programming default is to not program this area when
+        the program area is programmed. Using the AUTO directive in the
+        command line instructs the Micro-bRISC to override this default
+        and to automatically program and verify the Data EEPROM area
+        when the part is programmed. 
+
+
+        SMART     
+
+             Including the SMART directive in the command line instructs
+        the Micro-bRISC software to use the Smart-bRISC Algorithm when
+        programming devices. For more information refer to the
+        Smart-bRISC Algorithm section.
+
+
+        TRACK
+
+             The TRACK directive instructs the ID to automatically track
+        the checksum. In other words, when ID Tracking is on, the ID
+        will reflect the value of the checksum whenever the checksum
+        changes. If this directive is used, it overrides any ID value
+        entered previously via command line options or the
+        initialization file. 
+
+
+        TOP10
+
+             Normally, only the filenames for the Top 10 files will be
+        listed under the file menu. If the user includes the TOP10
+        directive in the command line, then the full path will be
+        displayed instead of just the filename.
+
+
+        INI       
+
+             When the command line options interface is used, the
+        Micro-bRISC initialization file is not used. Conversely, when
+        the command line is not used to invoke extra options, then the
+        Micro-bRISC initialization file is used if it exists in the
+        current working directory. However, there may be instances when
+        the user needs to use both methods to customize the environment.
+        This is where the INI directive comes in. 
+
+             When INI is typed in as part of the command line, the
+        Micro-bRISC software is instructed to use the options
+        available in MICBRISC.INI. However, active options in the
+        MICBRISC.INI will have precedence over the same options in
+        the command line. For example, if the HS oscillator
+        configuration bit was selected via the command line, and the XT
+        oscillator configuration bit is an active option on the
+        MICBRISC.INI file, then the XT oscillator will be selected upon
+        start-up of the software.
+
+
+        Some command line examples:
+
+        MICBRISC P71 OSC:HS PUT:ON WDT:OFF ID:6F2A
+             
+             The above example invokes the software and sets the device
+        to PIC16C71, the oscillator to HS, the power-up timer to ON, the
+        watchdog timer to OFF, and sets the ID to 6F2A (hexadecimal).
+
+
+        MICBRISC P84 AEROPX84.HEX status bypass auto smart track top10 
+
+             This example uses mostly command line directives, but
+        command line options are mixed in as well. The device chosen
+        upon start-up is the PIC16C84, the HEX file automatically loaded
+        from the working directory is AEROPX84.HEX, the status LEDs are
+        forced off, the title screen is bypassed, the DATA EEPROM area
+        is set for automatic program/verify, the Smart-bRISC Algorithm
+        is turned on, the ID will track the checksum value, and the full
+        path will be displayed for the top 10 file list.  
+
+
+
+        MICBRISC INITIALIZATION FILE (MICBRISC.INI)
+
+             The Micro-bRISC initialization file offers an easier way to
+        customize the Micro-bRISC environment. Various options can be
+        hard-coded in this text file which are read when the Micro-bRISC
+        software loads. Putting a semi-colon (;) before a line will
+        instruct the Micro-bRISC software to ignore reading that line.
+        The options used in the MICBRISC.INI file will supersede options
+        selected in the command line when the INI directive is used in
+        the command line. The Micro-bRISC initialization options are as
+        follows:
+         
+             HEX FILE=filename.HEX
+                                                    
+             DEVICE=Px      x=part# (i.e., DEVICE=P71)
+             
+             OSC=x          x=RC, LP, XT, or HS                        
+             
+             WDT=x          x=ON or OFF
+             
+             PUT=x          x=ON or OFF
+             
+             BOD=x          x=ON or OFF
+             
+             ID=xxxx        xxxx=4 digit hexadecimal value              
+
+             FORCE BIDIRECTIONAL PORT TO STANDARD MODE=x     x=ON or OFF
+
+             LED FLASH STATUS=x                 x=ON or OFF
+             
+             BYPASS TITLE SCREEN=x              x=ON or OFF    
+             
+             AUTO-PROGRAM/VERIFY EE DATA=x      x=ON or OFF
+             
+             SMART-bRISC ALGORITHM=x            x=ON or OFF
+             
+             ID TRACKS CHECKSUM=x               x=ON or OFF
+             
+             SHOW PATH FOR TOP 10 FILES=x       x=ON or OFF
+
+
+
+        NOTE: Code-protect options were purposely excluded from the
+              command line interface and the initialization file for     
+              three primary reasons. 
+             
+              First, code-protect options are not normally used during  
+              code/project development, and the whole point of
+              these customized options is to facilitate a quicker
+              code-development and prototyping cycle. 
+             
+              Second, erasing a code-protected PIC takes a lot longer   
+              than erasing a non-protected part. This can slow down the 
+              development process.
+
+              Lastly and most importantly, code protection on some      
+              windowed devices (like the PIC16C6XX family) is           
+              irreversible! Ultraviolet erasure will not reverse        
+              code-protection for these particular devices. The          
+              Micro-bRISC is set up so that the user has to manually    
+              select code-protection. Automating the process via        
+              code-protection options can lead to inadvertent           
+              code-protection of devices.
+
+
+
+        MICRO-bRISC OPERATING ENVIRONMENT
+        ---------------------------------
+
+
+        MEMORY BUFFERS
+
+             The Micro-bRISC Device Programmer displays two types of
+        memory buffers: the program memory buffer and the data memory
+        buffer. The program memory buffer displays the useable
+        programming area for PIC16CXX microcontrollers. It's the
+        intermediate area where program code is located when read from
+        or programmed into a PIC16CXX device.
+
+             The program memory buffer uses a scroll bar to scroll
+        through its contents with a mouse. Alternately, the user can use
+        the keyboard's PAGE UP/DOWN, HOME, END, and arrow keys to scroll
+        through its contents as well. 
+
+             The data EEPROM memory buffer is specific to PIC16C8X
+        devices and represents the non-program area which stores
+        byte-size data. For example, the PIC16C84 contains 64 bytes of
+        Data EEPROM memory that the user can store constants, ASCII
+        text, etc.
+
+             The data EEPROM memory buffer has a disabled scroll bar
+        since all 64 bytes fit within the buffer window. The scroll bar
+        is there to accommodate future PIC16C8X devices which may have a
+        larger data EEPROM area. 
+
+
+        NOTE:  Once you invoke the data EEPROM memory buffer window, the 
+               only way you can return to the program memory buffer is   
+               to click the EXIT BACK command button. Device selection   
+               is disabled within the data EEPROM memory buffer window. 
+
+
+            The two memory buffers are just virtual images of the
+        contents of the actual device. Any changes made to the buffer
+        will not be transferred to the actual PIC device until a program
+        is performed. Likewise, changing devices in the ZIF socket will
+        not reflect in the buffer until that device is read. 
+        The buffers, are context-sensitive; when the Data EEPROM memory
+        buffer or program memory buffer is viewed, most functions
+        invoked are acted upon the currently
+        viewed buffer.  
+
+
+        CONFIGURATION BITS
+
+             The configuration bits are what Microchip formerly called
+        'fuses'. The Micro-bRISC software's configuration bits are
+        accessible to the user in three boxes to the right of the buffer
+        memory window: OSCILLATOR TYPE, TIMERS/BOD, and CODE/DATA
+        PROTECT. You can configure the PIC as you desire by enabling the
+        various configuration bits via the check boxes and option
+        buttons.
+
+
+
+        MENU BAR
+        --------
+
+             The menu bar is located at the top of the screen and
+        provides the various pull-down menus for the Micro-bRISC
+        programming environment. The pull-down menus are described
+        below: 
+
+             
+        FILE MENU
+        ---------
+
+             The file menu contains options related to loading and
+        saving HEX files as well as other options as detailed below:  
+
+
+        NEW - CTRL+N
+
+             Selecting New will clear the current file name (if any) and
+        will clear the device workspace: the memory buffer,
+        configuration bits, ID (if ID Tracks Checksum is turned off),
+        and Data EEPROM buffer (if applicable) will all be cleared to
+        their erased state. The state of any option in the Options Menu
+        will be preserved. If the ID Tracks Checksum option is turned
+        on, then selecting new will not clear the ID, since it will
+        reflect the current value of the checksum.
+
+
+        OPEN - F3
+
+             Selecting Open lets the user select a PIC HEX file to load
+        into the Micro-bRISC's memory buffer and/or Data EEPROM buffer
+        if applicable. The Micro-bRISC recognizes INHX8M (Intel HEX
+        8-bit merged) HEX files. The user's PIC16CXX compiler must be
+        set to produce INHX8M files in order for them to be compatible
+        with the Micro-bRISC Device Programmer.
+         
+
+        SAVE - F2
+
+             Selecting Save will save the contents of the Micro-bRISC
+        memory buffer and configuration bits into an INHX8M HEX file.
+        The user ID and Data EEPROM memory will also be saved in the HEX
+        file if the currently selected device implements them. If no
+        current filename is assigned to the workspace, then the user
+        will be prompted to choose a file name. If the workspace already
+        has a name, then the old file will be automatically written over
+        with the same file name.
+
+         
+        SAVE AS - F12
+
+             Selecting Save As permits the user to save the device's
+        workspace with a different name. If the same name is chosen, the
+        user will be cautioned that the file name already exists, and
+        will be prompted to either overwrite the existing file name or
+        cancel the save operation. 
+
+
+        DOS SHELL - CTRL+D
+
+             Selecting DOS shell enables the user to shell to DOS to
+        invoke DOS commands or to run programs such as a text editor or
+        a PIC16CXX compiler. To return to the Micro-bRISC programming
+        environment, the user must type EXIT from DOS. The Micro-bRISC
+        environment workspace remains as it was at the point DOS shell
+        was invoked.
+
+
+        EXIT - ALT-X
+
+             Selecting Exit lets the user quit the Micro-bRISC program.
+        All Micro-bRISC I/O lines connected to the printer port will be
+        forced into high-impedance mode upon exiting the program. The
+        current device workspace will be lost if it is not saved before
+        quitting. 
+
+
+        Top 10 File Display
+
+             When the user loads or saves files, they are added to the
+        Top 10 file list. The Top 10 file list contains up to 10 of the
+        most frequent files accessed by the user. This quick-access file
+        list enables users to load files without using the File Open
+        dialog box. Files in the Top 10 list are loaded by simply
+        clicking on them with a mouse or by pressing their associated
+        access key number via the keyboard. The Top 10 file list is
+        saved upon exiting the Micro-bRISC program so that the integrity
+        of the list will be maintained the next time the software is
+        invoked.
+
+
+        A FEW NOTES ABOUT LOADING AND SAVING PIC16C8X HEX FILES
+
+             When the program memory buffer window is displayed for
+        PIC16C8X devices, all device information is loaded from or saved
+        to the HEX file including the Program Memory area, the Data
+        EEPROM area, the user ID, and the configuration bits.
+
+             However, when loading HEX files, sometimes it's desirable
+        to just load/save the Data EEPROM area, without worrying about
+        loading and overwriting the program memory area, user ID, and
+        the configuration bits. The Micro-bRISC software has a special
+        OPEN/SAVE HEX file provision to accommodate the PIC16C8X Data
+        EEPROM area only when the Data EEPROM buffer window is
+        displayed. 
+
+             If the Data EEPROM buffer window is currently displayed,
+        then performing a file save will create a HEX file with just the
+        Data EEPROM information. Similarly, performing a file open while
+        the Data EEPROM buffer window is displayed will load only the
+        Data EEPROM information from the HEX file into the Data EEPROM
+        buffer window.
+
+
+
+        EDIT MENU
+        ---------
+
+             The Edit Menu lets the user perform data edits on the
+        Program buffer, Data EEPROM buffer, and user ID. Various areas
+        can also be cleared to their erased stated.
+
+
+        EDIT BUFFER - F4
+
+             Selecting Edit Buffer opens an edit box that allows the
+        user to manually edit the data word found at any address within
+        the program buffer memory address range. The edit box also
+        allows manual data byte editing on any address within the
+        PIC16C8X's Data EEPROM buffer. The edit box has an address field
+        to accept a specific address from the user, and a data field
+        that displays the editable data word or byte depending on what
+        buffer area the user is altering. The edit box also contains an
+        INC (increment) an DEC (decrement) command button to allow the
+        user to increment or decrement the buffer address via the '+'
+        and '-' keys on the numeric keypad.
+
+             The mouse can also be used to enter an address by clicking
+        on a specific data location (or its ASCII representation) in the
+        buffer memory window. The address of the chosen location and its
+        associated data value will reflect in the edit box address and
+        data text boxes. The user can then type in the new value and
+        press the return key to write the new data value into the buffer
+        memory.      
+
+             There are two mode of inputting data when within the edit
+        box: ASCII or HEX. The default entry mode is hexadecimal, but is
+        the ASCII MODE check box within the edit box is checked, the
+        entry mode is forced to ASCII input.
+             
+             
+             ASCII MODE
+
+               ASCII characters can easily be entered into the program   
+               memory or data EEPROM memory by first ensuring the ASCII  
+               MODE check box in the edit box is checked. Then, any      
+               ASCII characters typed on the keyboard will be entered in 
+               the buffer memory at the starting at the address          
+               specified in the address text box.   
+                  
+                  
+             HEX MODE
+
+               Hexadecimal entry is the default mode for editing the     
+               memory buffers. When the ASCII MODE check box is          
+               unchecked, the entry mode is hexadecimal.
+
+
+        NOTE:  The buffer window will not automatically track and        
+               reflect the address in the edit box when editing memory   
+               locations, so care must be taken not to unintentionally   
+               alter buffer memory locations by not keeping an eye on    
+               the address field in the edit box. 
+
+
+
+        FILL BUFFER - F9
+
+             Selecting Fill Buffer lets the user fill all or portions of
+        a memory buffer range (program or data EEPROM) with a specific
+        data value. Data entry is accomplished with three text boxes:
+        START Address, END Address, and DATA Value. The TAB key is used
+        to toggle the focus among these text boxes and the OK and CANCEL
+        command buttons.
+
+             Clicking on the 'MAX:' label adjacent to the END Address
+        text box will automatically fill the END Address text box with
+        the highest address of the selected PIC microcontroller.
+
+             There are also two quick BULK FILL functions consisting of
+        CLEAR ALL and ZERO ALL command buttons which can be invoked by
+        the mouse or keyboard:
+             
+
+             CLEAR ALL - ALT+C
+                  
+                  Clears the entire buffer memory space to their erased
+                  values.  
+
+
+             ZERO ALL - ALT+Z
+                  
+                  Initializes the entire buffer memory space to a        
+                  hexadecimal value of zero.  
+
+
+
+        CLEAR BUFFER - CTRL+B
+
+             Selecting Clear Buffer will initialize or clear the data
+        values of the entire buffer memory contents to their erased
+        state, 0x3FFF for the program memory buffer, and 0xFF for the
+        Data EEPROM memory buffer.
+
+
+        CLEAR CONFIGURATION BITS - CTRL+L
+
+             Selecting Clear Configuration Bits will force the
+        configuration word to its erased state of 0x3FFF.
+
+
+        DATA EEPROM MEMORY - CTRL+M
+
+             Selecting Data EEPROM Memory permits the user to view and
+        edit the Data EEPROM buffer for PIC16C8X devices.
+
+        NOTE:  Once you invoke the data EEPROM memory buffer window, the 
+               only way you can return to the program memory buffer is   
+               to click the EXIT BACK command button. Device selection   
+               is disabled within the data EEPROM memory buffer window. 
+
+
+        EDIT ID - CTRL+I
+
+             Selecting Edit ID allows various editing options for the
+        ID. The ID can be edited through the text box, forced to assume
+        the checksum by clicking the CHECKSUM command button, or cleared
+        to its erased state by clicking the CLEAR ID command button.
+
+        NOTE:  An alternate way to invoke the EDIT ID dialog box with    
+               the mouse is to simply click on the actual ID label       
+               that's displayed just above the buffer window. This is a  
+               quick way to edit the ID without having to go through the 
+               menu or resorting to pressing CTRL+I on the keyboard.    
+
+
+        CLEAR ID - CTRL+R
+
+             Selecting Clear ID will force each of the four ID locations
+        to their erased state of 0x3FFF. The entire ID string will
+        actually appear as '7F7F7F7F' or 'FFFF' from the user's point of
+        view since only the first 4 or 7 bits of each 14-bit ID location
+        is usable as dictated by the particular device.   
+
+
+
+        PROGRAM MENU
+        ------------
+
+
+             The Program Menu offers flexible programming options for
+        programming PIC devices. Verify, Blank Check, and Read functions
+        can also be performed from this menu.
+
+
+        PROGRAM - F5
+             
+             Selecting Program will write the contents of the program
+        buffer memory, configuration bits, ID, and data EEPROM buffer
+        memory (if applicable) into the device in the ZIF socket.
+
+             The program cycle consists of three steps: blank check,
+        program, and verify. The Smart-bRISC Algorithm will only be used
+        if it is enabled before performing a device program. 
+
+
+
+        PROGRAM CONFIGURATION BITS - ALT-F5
+
+             Selecting Program Configuration Bits will program only the
+        buffer's configuration bits into the device in the ZIF socket.
+
+
+        PROGRAM ID ONLY - CTRL+O
+
+             Selecting Program ID Only will program only the buffer's ID
+        into the device in the ZIF socket.
+
+
+        BULK ERASE (PIC16C8X) - F10
+
+             Selecting Bulk Erase offers the user flexibility in
+        performing lightning-fast bulk erases for EEPROM-based parts.
+        The erased state for the program memory, ID locations, and
+        configuration word is 0x3FFF since these locations are 14-bit
+        words. The erased state for the Data EEPROM locations is 0xFF
+        since they are byte values. The Micro-bRISC Device Programmer
+        supports 4 bulk erase modes and are detailed as follows:
+
+
+             ENTIRE DEVICE
+             
+             Erases entire device which includes the program memory    
+             area, the data EEPROM area, and the configuration memory   
+             space which includes the ID locations and the configuration
+             bits.
+
+
+             PROGRAM AND DATA
+             
+             Erases the program memory and data EEPROM memories only.
+             The ID locations and the configuration bits are not         
+             affected by this bulk erase option and are preserved as     
+             they were.
+
+
+             PROGRAM AREA ONLY
+             
+             Erases the program memory only. The ID locations,
+             configuration bits, and the data EEPROM memory are not      
+             affected by this bulk erase option and are preserved as    
+             they were.
+
+
+             DATA AREA ONLY
+             
+             Erases the data EEPROM memory only. The ID locations,
+             configuration bits, and the program memory are not affected
+             by this bulk erase option and are preserved as they were.
+
+
+        If the device is code-protected upon invoking the Bulk Erase
+        menu item, a dialog box pop up to warn the user that the device
+        is code-protected and to unlock it will erase the entire device:
+        program/data areas, ID, and configuration bits. The user has a
+        choice to exit without erasing the device or to proceed and
+        erase the entire device.
+
+
+        VERIFY - F6
+
+             Selecting Verify will verify the contents of the entire
+        device against the program buffer memory, data EEPROM buffer
+        memory (if applicable), ID, and configuration bits and report
+        the result back to the user.
+
+
+        VERIFY CONFIGURATION BITS - ALT-F6
+
+             Selecting Verify Configuration Bits will verify the
+        contents of the device's configuration word against the settings 
+        of the software's configuration bits, and report the result back
+        to the user. No other areas will be verified.
+
+
+        VERIFY ID ONLY - CTRL+Y
+
+             Selecting Verify ID Only will verify the contents of the
+        device's ID against the value of the software's ID, and report
+        the result back to the user. No other areas will be verified.
+
+
+        BLANK CHECK - F7
+
+             Selecting Blank Check will perform a blank check on the
+        device in the ZIF socket to ensure that it is erased. The result
+        of the check will be displayed for the user to see.
+
+
+        READ - F8
+
+             Selecting Read will perform an entire device read and
+        update the software's memory buffers, ID, and configuration
+        bits.
+
+
+        READ CONFIGURATION BITS - ALT-F8
+
+             Selecting Read Configuration Bits reads the device's
+        configuration word only, and updates the settings of the
+        software's configuration bits.
+
+
+        READ ID ONLY - CTRL+E
+
+             Selecting Read ID Only reads the device's ID only and
+        updates the software's ID value.
+
+
+        DEVICE MENU
+        -----------
+
+        MICROCONTROLLERS - F1
+
+             By selecting Microcontrollers in the device menu, the user
+        chooses what PIC microcontroller he/she desires to work with. If
+        using the mouse to select devices, double clicking on the device
+        will select the device and the OK command button does not need
+        to be selected.
+
+        NOTE:  An alternate way to invoke the device selection dialog    
+               box with the mouse is to simply click on the actual       
+               device label that's displayed just above the buffer       
+               window. This is a quick way to choose devices without     
+               having to go through the menu or resorting to pressing F1 
+               on the keyboard.    
+
+
+        OPTIONS MENU
+        ------------
+
+             The Options Menu consists of various custom programming
+        environment functions that the user can toggle on or off. When a
+        function is turned ON, a bullet will precede it in the menu
+        list. When a function is turned OFF, the bullet will disappear.
+        However, a disabled (grayed out) option means that the option is
+        not available for the selected PIC device. Any enabled option
+        will appear as black text. The state (ON/OFF) of the option will
+        toggle by successively selecting that option via the mouse or
+        keyboard.
+
+
+        NOTE:  The state (ON/OFF) of the options are preserved across
+               devices, so there can be situations where an option is    
+               turned ON (preceded by a bullet) and disabled (grayed     
+               out). In such situations, the mere fact that an option is 
+               disabled dictates that this function is not applicable to 
+               the current device, and will not be performed -- even if  
+               the option state is ON.
+
+          
+        AUTO-PROGRAM/VERIFY DATA EEPROM - CTRL+A
+
+             The Auto-Program/Verify Data EEPROM option is only
+        applicable towards EEPROM-based PIC16C8X devices. If this option
+        is turned on, the Data EEPROM memory will be programmed and
+        verified in addition to the program memory area. There may be
+        instances where this may not be desirable. Turning off this
+        option will instruct the Micro-bRISC to ignore programming and
+        verifying the Data EEPROM area.
+
+
+        SMART-bRISC ALGORITHM - CRTL+G
+
+             The Smart-bRISC Algorithm option is a simple programming
+        optimization process that reduces device programming times in
+        specific situations for EPROM and EEPROM PIC devices. Normally
+        every location of the buffer memory is programmed into the
+        target PIC, which is sometimes superfluous.
+         
+             The Smart-bRISC Algorithm takes advantage of the fact that
+        sometimes valid code does not occupy the entire device address
+        range. The Smart-bRISC Algorithm first reads the entire device.
+        Then, starting from the end of memory, the algorithm determines
+        the number of contiguous 256-word blocks of device memory that
+        match the buffer memory, if any. Next, a device program is
+        performed skipping the block(s) of memory as marked out by the
+        algorithm.
+         
+             This feature is especially useful during development coding
+        that involves testing small portions of code with PIC16C8X
+        EEPROM-based devices, since they take longer to program.
+        However, programming times are only significantly reduced if the
+        code to be programmed resides below the halfway mark in the
+        device's address range.
+
+             For example, let's assume that a small portion of code is
+        being developed and tested with a PIC16C84. The PIC16C84's
+        program memory size is 1024 x 14 words. The code is loaded into
+        the Micro-bRISC's memory buffer. The code occupies addresses 000
+        to 1BA and the rest of the buffer's contents (addresses 1BB -
+        3FF) contain data values of 3FFF.  When the Smart-bRISC
+        algorithm is invoked (assuming the PIC16C84 is blank) the device
+        is read and broken up into 4, 256-word blocks. The algorithm
+        determines that the lower 2 blocks of buffer memory do not match
+        the lower 2 blocks of device memory,  but the upper 2 blocks of
+        buffer and device memory do match.  Therefore, only the lower 2
+        blocks of the device are programmed and programming time is cut
+        in half.
+             
+             Please note that this is a variable address
+        block-programming algorithm that programs only contiguous blocks
+        of mismatched data, always starting from address zero. The
+        actual low level programming still conforms to the Microchip
+        programming specifications. Also, programming throughput
+        penalties will be incurred in situations when the entire device
+        has to be programmed. This is due to the extra overhead caused
+        by first reading the device as dictated by the algorithm.
+
+
+
+        ID TRACKS CHECKSUM - CTRL+T
+
+             When the ID Tracks Checksum option is turned ON, the device
+        ID will automatically track and reflect the value of the
+        checksum whenever the checksum changes. When this option is
+        turned OFF, only manual ID changes can be made.
+
+
+        SHOW PATH FOR TOP 10 FILES - CTRL+F
+
+             When the Show Path for Top 10 Files option is turned ON,
+        the file menu will display the full file path for the Top 10
+        files. When this option is turned off, only the file names are
+        displayed in the file menu's Top 10 files. 
+
+
+
+        VIEW MENU
+        ---------
+
+             The View menu enables the user to see various system and
+        environment attributes as detailed below:
+
+
+        DEVICE VS BUFFER - F11
+
+             Selecting Device vs Buffer allows the user to view any
+        discrepancies between the Micro-bRISC buffer memory contents and
+        the actual memory contents of the device in the ZIF socket. The
+        COMPARE STATUS indicator will display the outcome of the
+        compare: EQUAL or NOT EQUAL. Any discrepancies are flagged with
+        a small red square for visual feedback.
+
+             By toggling the ERRORS ONLY check box (ALT-E), the user
+        will be shown either the discrepancies between the buffer memory
+        and the device memory only, or buffer and device memory
+        discrepancies and matches. The default value for the ERROR ONLY
+        check box is checked, which shows only errors between the buffer
+        and device memories.
+
+             The type of memory comparison, either Program Memory or
+        Data EEPROM Memory, will be denoted in the dialog box. When the
+        Device vs Buffer menu item is invoked, the device's memory
+        contents are automatically read. The READ command button is used
+        to quickly read the contents of additional parts to perform the
+        compare operation without having to invoke this dialog box for
+        each device.
+
+             The mouse or PAGE UP/PAGE DOWN and arrow keys can be used
+        to scroll through the comparison box. 
+
+               
+
+        CONFIGURATION MEMORY - CTRL+C
+
+             Selecting Configuration Memory displays the configuration
+        memory space of the currently selected device. The configuration
+        memory space extends from 0x2000-0x207F or 0x2000-0x20FF, but
+        presently only 0x2000-0x2007 is implemented for system
+        parameters. The configuration memory space is where the user ID
+        and configuration bits are stored.  In addition, three reserved
+        locations are allocated in this space. All locations are 14 bits
+        wide, and the parameter mapping is as follows:
+             
+             ADDRESS   PARAMETER
+
+             2000      ID Location
+             2001      ID Location
+             2002      ID Location
+             2003      ID Location
+             2004      Reserved
+             2005      Reserved
+             2006      Reserved
+             2007      Configuration Word (contains the configuration
+                                           bits)
+
+             Upon invoking the Configuration Memory menu option, the
+        device's configuration memory space is automatically displayed
+        on the screen. To read the configuration space of any other PIC,
+        regardless of its program memory size or package size, just
+        properly insert the device into the ZIF socket and click the
+        READ command button.
+
+
+        PARALLEL PORT INFO - CTRL+P
+
+             Selecting Parallel Port Info displays information about the
+        PC's parallel ports, such as the number of parallel ports
+        installed in the PC, their hexadecimal port address, and their
+        LPT# (LPT1, LPT2, or LPT3) as assigned by the system BIOS. In
+        addition, the user can see which LPT# is connected to the
+        Micro-bRISC, and what type of parallel port, standard or
+        bidirectional, that the Micro-bRISC detects. 
+
+             If the Micro-bRISC detects a bidirectional parallel port,
+        special firmware and software routines are called upon to take
+        advantage of the higher throughput that is available when the
+        Micro-bRISC performs read operations with bidirectional ports. 
+
+             If the software is running in demo mode, all port
+        communications are severed and thus the port connect message
+        will result in N/A (not applicable).   
+
+
+        SOFTWARE/FIRMWARE SERIAL # - CTRL+S
+
+             Selecting Software/Firmware Serial # displays the serial
+        number of the Micro-bRISC software as well as the version
+        number. If the Micro-bRISC hardware is attached and recognized
+        by the software, then the Micro-bRISC PIC16C57 firmware serial
+        number is also displayed. If the software is running in demo
+        mode, the firmware serial number cannot be polled and N/A (not
+        applicable) is displayed in the firmware serial number text box.
+
+
+        ABOUT
+
+             Selecting About displays miscellaneous information about
+        the Micro-bRISC software.
+             
+
+
+
+        COMMAND BUTTON BAR
+        ------------------
+
+             The command button bar appears at the bottom of the
+        software screen. The command buttons are buffer
+        context-sensitive. In other words, if the program memory buffer
+        is currently visible, then the command buttons will act only
+        upon the program memory buffer or device memory for most
+        functions. Similarly, if the Data EEPROM buffer is visible for
+        PIC16C8X devices, then the command button functions will only
+        act upon the Data EEPROM buffer memory or device memory.  
+
+
+        EXIT - ALT-X
+
+             Selecting Exit lets the user quit the Micro-bRISC program.
+        All Micro-bRISC I/O lines connected to the printer port will be
+        forced into high-impedance mode upon exiting the program. The
+        current device workspace will be lost if it is not saved before
+        quitting. 
+
+
+        DEVICE - F1
+
+
+             Lets the user choose various PIC microcontrollers. A fast
+        way to select a PIC part when the device selection box is open
+        is to double-click on the desired PIC part.  
+
+        NOTE:  An alternate way to invoke the device selection dialog    
+               box with the mouse is to simply click on the actual       
+               device label  that's displayed just above the buffer      
+               window. This is a quick way to choose devices without     
+               having to go through the menu or resorting to pressing F1 
+               on the keyboard.    
+
+
+        EDIT - F4
+
+             Opens the edit dialog box which allows editing of the
+        program memory or data EEPROM memory buffers. Refer to EDIT MENU
+        for more details.
+             
+
+        PROGRAM - F5
+
+             Performs a device programming cycle: blank check, program,
+        and verify. The contents of the program buffer memory,
+        configuration bits, ID, and data EEPROM buffer memory (if
+        applicable) are written into the device in the ZIF socket. The
+        Smart-bRISC Algorithm will only be used if it is enabled before
+        performing a device program. 
+
+
+        VERIFY - F6
+
+             Verifies the contents of the buffer memory against the
+        actual contents of the device in the ZIF socket.
+
+
+        BLANK - F7
+
+             Blank checks the device in the ZIF socket to ensure that it
+        is in its erased state.
+
+
+        READ - F8
+              
+             Reads the device and updates the software's buffer(s), ID,
+        and configuration bit settings.
+
+
+
+        TROUBLESHOOTING
+        ---------------
+
+             If anyone runs into any problems getting the Micro-bRISC to
+        work, I'll be available on the Circuit Cellar BBS (860)
+        871-1988. My user name is my real name: Kenneth Pergola. I also
+        frequent the Microchip BBS with the same user name. See my e-
+        mail address below if you need to contact me that way for
+        questions concerning the Micro-bRISC Device Programmer.
+
+             This is a preliminary user's guide and is not totally
+        finished. I plan to have a more detailed troubleshooting section
+        but here are some hints for starters:
+
+        1)   Make sure the Centronics cable is a high-quality type:      
+             shielded and fully wired-through (implementing all signals  
+             in the Centronics spec). Perform a continuity test if       
+             necessary or try a few other cables. Keep the cable short   
+             (around 3-6 feet) until you get it working.
+
+        2)   Make sure the power supply conforms to the following:
+             
+             AC (12-18V) or DC (18-24V)
+
+        3)   Check the voltages at the regulators.
+         
+             
+        4)   The PIC16C57 firmware must be either a windowed part or a   
+             OTP (one-time programmable) with a HS suffix on the part    
+             number. Both of these parts are tested at 20 MHz.
+             Make sure the watchdog timer configuration bit is OFF and   
+             the HS oscillator is selected.
+
+        5)   Is the 20 MHz crystal oscillating? Check your load          
+             capacitors.
+
+        6)   Try another parallel port card.
+
+
+
+
+
+
+
+        Micro-bRISC parts:
+        ------------------
+
+        The Micro-bRISC Device Programmer can be built with readily-
+        available parts. Get the January 1996 issue of Circuit Cellar
+        INK and call their BBS to download the software and target board
+        firmware HEX file. Have fun building a great PIC programmer!
+
+        For those who need to buy parts, I'm offering the following:
+
+
+        Pre-programmed OTP PIC16C57-HS firmware --- $20
+
+        Double-sided PCB -------------------------- $25
+
+        Kit (PCB, firmware, parts) ---------------- $99 *
+
+        Fully assembled/tested Micro-bRISC ------- $125 *
+
+        Registered software upgrade --------------- $15
+
+
+
+        * Includes registered software upgrade
+
+        Shipping & handling (continental U.S.) ----- $5
+
+
+
+             Ken Pergola
+             2088 Swamp Road
+             Richmond, MA 01254-9338
+             (413) 698-3167
+
+             e-mail: [e-mail removed]
+             
+             Microchip BBS user name: [removed] Pergola
+             Circuit Cellar BBS user name: [removed] Pergola
+
+
+
+
+
+        'Micro-bRISC' is an amalgamation of 'microcontroller', 'brisk',
+        and 'RISC', which conveys its blazing-fast programming ability 
+        of Microchip's RISC-based family of PIC microcontrollers.  
+
+
+
+        Micro-bRISC Device Programmer
+        (C) 1994-95  Kenneth Michael Pergola
+        ALL RIGHTS RESERVED
+
+        Hardware, software, firmware designed/developed by Ken Pergola
+
+
+
+
+
+        Micro-bRISC Device Programmer User's Guide
+        Preliminary Draft
+        December '95
+

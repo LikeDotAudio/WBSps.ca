@@ -1,0 +1,24 @@
+
+---------------------------------------
+Loading: C:\ORCADEXE\PLOTALL.EXE
+With Parameters:  .\SA14330A.SCH .PLT     /O /S.950 /X-7.000 /Y-4.500 
+---------------------------------------
+PlotAll - OrCAD/SDT 386+ v1.21 N    01-APR-95
+(C)Copyright 1991-1995 OrCAD, Inc. ALL RIGHTS RESERVED.
+Reading Configuration Data File: sdt.bcf
+Initial memory allocation: 2000K.
+OrCAD RealMode Interface Handler - Version    1.20x  02-Sep-94
+(C) Copyright 1992,1993,1994  OrCAD, Inc.  ALL RIGHTS RESERVED.
+
+
+Loading Plotter Driver: "C:\ORCADESP\DRV\HP.DRV"
+HP Plotter Driver (.00098 inch/unit) V4.21
+(C) Copyright 1987 OrCAD, Inc.  ALL RIGHTS RESERVED.
+Reading Library: .\SA14330.LIB
+Opening ".\SA14330A.SCH"
+Opening ".\SA14330A.SCH"
+Worksheet size is "B"
+Creating the DESTINATION file - "SA14330A.PLT"
+FMLLLLLLLLLLLLLLLeeeeeeeeesnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnb0LLLLLLLLLeeeeeeeeeJJJJJJJJJJJJJJJJJJJJJJsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnb0LLLLLLLLLeeeeeeeeeJJJJJJJJJJJJJJJJJJJJJsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnb0snsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnb0LLLLLLLLLeeeeeeeeeJJJJJJJJJJJLLeeJJnnnnnnnnnnnnnnnnnnnnnLLeeJJJJJJnnnnnnnnnnnnnnnnnnnnnnLLeeJJJnnnnnnnnnnnnnnnnnnnnnnnnnnMLLLeennnnnnnBBWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW1111
+
+Closing the DESTINATION file - "SA14330A.PLT"

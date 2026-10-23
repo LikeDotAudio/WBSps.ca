@@ -1,1 +1,1 @@
-window.WBS_FOLDER={"d":"Consoles/1980-1989/850450","f":[["1985 - 850450 - 850450 - B 850450-02-026 - DOCUMENT (traced).dxf",""]]};
+window.WBS_FOLDER={"d":"Consoles/1980-1989/850450","f":[["1985 - 850450 - 850450 - B 850450-02-026 - DOCUMENT (traced).dxf",""],["1985 - 850450 - 850450 - B 850450-02-026 - DOCUMENT.jpg","201382152b40a50f31ac"]]};

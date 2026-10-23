@@ -1,1 +1,1 @@
-window.WBS_FOLDER={"d":"Consoles/1970-1979/71032 - CKEY Radio, Toronto","f":[]};
+window.WBS_FOLDER={"d":"Consoles/1970-1979/71032 - CKEY Radio, Toronto","f":[["1971 - 71032 - DOC - 71050 - 20170522_122029_021 - PHOTO.jpg","31616a0113a6d0215546"]]};

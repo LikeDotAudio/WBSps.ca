@@ -12,7 +12,7 @@
 | 1969|2 | M406B, December 1969 (schematic B 406-02-010, drawn DJG). Ratios 2:1 to 10:1 plus limit, and a de-ess control giving up to 8 dB of extra high-frequency compression. | [1969 - M406B - P5.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKSHIxNHIwNGlQSFE/view?resourcekey=0-6BwBviaoyGnekZsdsJHEmQ) |
 | 1971|4 | M415 compressor amplifier: a mic/line amplifier with 5:1 compression and an optional expander, in its own case. | [1971 - M415 - p4.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKUW8yakNuX0UwMTg/view?resourcekey=0-z65K2O_U_YkuMchiqYF-ng) |
 | 1972|5 | Ad: a TV production console for CFTO-TV and CHAN-TV 'with comprehensive equalizer, compressor'. M406B(C) module layout, March 1972. | [1972 - AD - wbsps - ad - 001.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKZEduSS1jQmlCb3M/view?resourcekey=0-svM5ZzEVC1DWVO94FhX0XA) |
-| 1975|8 | US price schedule, 1 May 1975: M406B $435; 'Edgewise gain reduction meter for M406B' $50. | [1975 - M406B - PRICE LIST - PRICE LIST.jpg](#) |
+| 1975|8 | US price schedule, 1 May 1975: M406B $435; 'Edgewise gain reduction meter for M406B' $50. | [1975 - M406B - PRICE LIST - PRICE LIST.jpg](https://drive.google.com/file/d/0B9I0nu1MPkm6Z2lLNEZYQ3ZoUDQ/view?resourcekey=0-5DX4cvFxAiR-D4EmHB4zQg) |
 | 1976|9 | M466 compressor-limiter: 6-106 control amplifier, July 1976; layout, August. M466M compressor meter, September. M467 noise gate and meter, December. Job 76045 CFTO. | [1976 - M466 - IMG_4629.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKdzFlUFN3ckZnRG8/view?resourcekey=0-Cg819NI17UNgfv0NZ8Q3qg) |
 | 1977|10 | M466/M466C functional diagram (10/77, eng. RKB). M467 schematic issue 7. The L2042 and L3242 list the M466 and M467 as options. | [1977 - 466-01-001 - M466C LIMITER - COMPRESSOR MODULE FUNCTIONAL DIAGRAM - DRN DB - ENG RKB - ISS 2.jpg](#) |
 | 1979|12 | M466N insert meter module schematic, February 1979. Maryland L3242A, job 790236, with the M467. | [1979 - 466-02-004 - M466N INSERT METER MODULE SCHEMATIC - DRN EH FEB-79 - ENG ELJ - ISS 1.png](#) |
@@ -89,7 +89,7 @@
 
 **VO:** A compressor works out of sight, so it needs a meter. The M406 had a selector on its middle knob, VU or GR. In VU, an external meter showed output level. In GR it read zero when compression began and swung downward, in decibels, as the compressor worked. Ward-Beck sold the meter separately. The United States price schedule for May 1975 lists the M406B at 435 dollars, and on the next line, 'Edgewise gain reduction meter for M406B', at 50 dollars. Edgewise means a meter turned on its side, narrow enough to fit a console strip.
 
-- Slide 34: [US price schedule, 1 May 1975|8: M406B $435, 'Edgewise gain reduction meter for M406B' $50](#)
+- Slide 34: [US price schedule, 1 May 1975|8: M406B $435, 'Edgewise gain reduction meter for M406B' $50](https://drive.google.com/file/d/0B9I0nu1MPkm6Z2lLNEZYQ3ZoUDQ/view?resourcekey=0-5DX4cvFxAiR-D4EmHB4zQg)
 - Slide 35: [M406 · Sel Recovery Meter Cal · 1969|2](https://drive.google.com/file/d/1WQeWJqy3Av6MPYRcb6yQorE6qRbd8U-i/view) _(pulled from the archive)_
 - Slide 36: [M466 · module · m466 compressor 013 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKZ0Y2TXVDbzc2TW8/view?resourcekey=0-lrSiKbuVkgcllS1xCK1jZQ) _(pulled from the archive)_
 - Slide 37: [M466 · module · m466 compressor 014 · 1976|9](https://drive.google.com/file/d/0B0yR0b5T78SKYWhIZkd2UklBT0E/view?resourcekey=0-7qUrOF0mcP8CkMMVTmlOug) _(pulled from the archive)_

@@ -13,7 +13,7 @@
 | 1970|3 | January: M402A and M404A plug connections and system wiring, drawn by DJG. 22-pin connector. February: M404A outline drawing, cases designed for side-by-side mounting. | [1970 - 402-02-011 - M402A AND M404A EQUALIZER PLUG CONNECTIONS - DRN DJG - ISS 3.jpg](#) |
 | 1971|4 | M402B equalizer schematic and PCB redrawn by PHL: presence boost and cut, high-pass filter. | [1971 - 402-02-013 - M402B EQUALIZER MODULE SCHEMATIC - DRN PHIL - ISS 7.jpg](https://drive.google.com/file/d/1ustH1vIf6AUUoqD5XPZHndNQFIPzxDFX/view) |
 | 1974|7 | July: 4-126 equalizer filter board, drawn by DM. M462 state variable equalizer: continuous frequency, Q and boost-cut. September: M462B four-band layout. | [1974 - M462 - 001.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKME9KNWd3ZUFfOFE/view?resourcekey=0-8YaFqAwclzlhLJKtraBCvQ) |
-| 1975|8 | May US price list: M402B effects equalizer and M404A hi-lo pass filter, $415 each. | [1975 - PRICE LIST - PRICE LIST.jpg](#) |
+| 1975|8 | May US price list: M402B effects equalizer and M404A hi-lo pass filter, $415 each. | [1975 - PRICE LIST - PRICE LIST.jpg](https://drive.google.com/file/d/0B9I0nu1MPkm6Z2lLNEZYQ3ZoUDQ/view?resourcekey=0-5DX4cvFxAiR-D4EmHB4zQg) |
 | 1976|9 | M464 high-pass low-pass filter schematic, November. CFTO job 76045 uses M462, M462A and M464. | [1976 - M464 - wbsps - module - m464 hp lp filters 002.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKTzJWbmZTRko0Mm8/view?resourcekey=0-NJJh1LuEk3QcC0YrYOHlGw) |
 | 1977|10 | M472 equalizer for the M470 input (schematic June, layout July; DRN MRW, ENG RKB). L2042 (77012) and L3242 (77038). | [1977 - 472-01-001 - EQUALIZER MODULE FUNCTIONAL DIAGRAM - DRN MRW - ENG RKB - ISS 3.jpg](#) |
 | 1979|12 | Maryland Center for Public Broadcasting L3242A, project 790236: M462, M462B, M464, M472. | [1979 - 790236 - L3242A (2).jpg](https://drive.google.com/file/d/0B0yR0b5T78SKdGJsbUlKd2VibVE/view?resourcekey=0-aTd1YZdQSGIZQFYZktnJww) |
@@ -104,7 +104,7 @@
 - Slide 48: [A row of M402B equalizers](https://drive.google.com/file/d/0B0yR0b5T78SKNzRTQ0cxcl9tRFE/view?resourcekey=0-N898Q4fWPjxfYyPCQenDNA)
 - Slide 49: **Cross-fade: drawing to module**, M402B: from the drawing to the module: [1971 - 1-139-02-001 - EQUALIZER MODULE PCB SCHEMATIC - DRN PHL - ISS 4.jpg](#) → [1970 - M402B - wbsps - module - M402b equalizer 003.jpg](https://drive.google.com/file/d/0B0yR0b5T78SKMWV4a0VEcFBqYnM/view?resourcekey=0-E_B8npC85yjA9usUnMdY5g)
 - Slide 50: [M402B curves: fixed steps](https://drive.google.com/file/d/0B0yR0b5T78SKTDNTY2JPSEU3NWs/view?resourcekey=0-rBROt0r9Re6236swYZQhqQ)
-- Slide 51: [US price schedule, May 1975|8](#)
+- Slide 51: [US price schedule, May 1975|8](https://drive.google.com/file/d/0B9I0nu1MPkm6Z2lLNEZYQ3ZoUDQ/view?resourcekey=0-5DX4cvFxAiR-D4EmHB4zQg)
 
 ### 2.1.9 1974: the knobs start to turn
 

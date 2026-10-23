@@ -1,0 +1,21 @@
+
+---------------------------------------
+Loading: C:\ORCADEXE\INET.EXE
+With Parameters:  SA14330.SCH       
+---------------------------------------
+Incremental NetList - OrCAD/SDT 386+ v1.21 N   01-APR-95
+(C)Copyright 1991-1995 OrCAD, Inc. ALL RIGHTS RESERVED.
+
+---------------------------------------
+Loading: C:\ORCADEXE\ILINK.EXE
+With Parameters:  SA14330.INF       
+---------------------------------------
+ILink - OrCAD/SDT 386+ v1.21 N   01-APR-95
+(C)Copyright 1991-1995 OrCAD, Inc. ALL RIGHTS RESERVED.
+
+---------------------------------------
+Loading: C:\ORCADEXE\IFORM.EXE
+With Parameters:  SA14330 C:\ORCADESP\SDT\NETFORMS\FTANGO.EXE SA14330.NET   /O 
+---------------------------------------
+IForm - OrCAD/SDT 386+ v1.21 N   01-APR-95
+(C)Copyright 1991-1995 OrCAD, Inc. ALL RIGHTS RESERVED.
