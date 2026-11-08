@@ -1,0 +1,50 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M454") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M454
+  ;; Title: Slate Assign Module
+  ;; Category: ROUTING | Series: Standard | Year: 1974
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M454.html
+  ;; ====================================================================
+  (symbol "M454" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M454" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M454.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M454 - Slate Assign Module (ROUTING). VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M454" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M454 - Slate Assign Module (ROUTING). VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M454_0_1" (rectangle (start -40.64 12.70) (end 40.64 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M454_1_1"
+      (pin passive line (at -45.72 10.16 0) (length 5.08) (name "JMP.Z.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 7.62 0) (length 5.08) (name "JMP.Z.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 5.08 0) (length 5.08) (name "JMP.X.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.X.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.20.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -7.62 0) (length 5.08) (name "JMP.20.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 10.16 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 5.08 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 2.54 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 0.00 180) (length 5.08) (name "JMP.20.19 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -2.54 180) (length 5.08) (name "JMP.20.19 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.X.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.X.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 17.78 270) (length 5.08) (name "VCC-LOGIC +24V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

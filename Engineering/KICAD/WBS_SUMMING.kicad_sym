@@ -1,0 +1,1151 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - Category SUMMING") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M166
+  ;; Title: Active Summing Module
+  ;; Category: SUMMING | Series: S400-LINE | Year: 1970
+  ;; Power: VCC-AUDIO +48V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: 15 contacts, single row
+  ;; Verified: 166-02-002 iss. 2 (Feb 1970), M166 active summing amplifier plug connections
+  ;; Archive: https://wbsps.ca/PAGES/M166.html
+  ;; ====================================================================
+  (symbol "M166" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M166" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M166.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M166 - Active Summing Module (SUMMING). VCC-AUDIO +48V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING S400-LINE M166" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M166 - Active Summing Module (SUMMING). VCC-AUDIO +48V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1970" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC-AUDIO +48V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M166_0_1" (rectangle (start -25.40 10.16) (end 25.40 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M166_1_1"
+      (pin input line (at -30.48 7.62 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 7.62 180) (length 5.08) (name "OUTPUT #1 +" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT #1 -" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 0.00 180) (length 5.08) (name "OUTPUT #2 +" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 -2.54 180) (length 5.08) (name "OUTPUT #2 -" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 15.24 270) (length 5.08) (name "VCC-AUDIO +48V" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -15.24 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 2.54 -15.24 90) (length 5.08) (name "SHIELD GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1972
+  ;; Power: -25V, +25V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463.html
+  ;; ====================================================================
+  (symbol "M463" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 33.02 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463" (at 0 -33.02 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463: M463 SUBMASTER_MODULE The M463 is combination SUBMASTER/EQUALIZER modu le, des igned accept combined or mixed feeds from previously a5s igned mixing channe] inputs As may be requir..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463: M463 SUBMASTER_MODULE The M463 is combination SUBMASTER/EQUALIZER modu le, des igned accept combined or mixed feeds from previously a5s igned mixing channe] inputs As may be requir..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1972" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "-25V, +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463_0_1" (rectangle (start -25.40 27.94) (end 25.40 -27.94) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463_1_1"
+      (pin output line (at 30.48 25.40 180) (length 5.08) (name "RIGHT OUTPUTS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 22.86 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 20.32 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "F" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "C" (effects (font (size 1.27 1.27)))) (number "C" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "D" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "E" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "T" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "V" (effects (font (size 1.27 1.27)))) (number "V" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "20" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -20.32 180) (length 5.08) (name "Y" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -22.86 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 33.02 270) (length 5.08) (name "-25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 33.02 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -33.02 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463A
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1972
+  ;; Power: +25V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463A.html
+  ;; ====================================================================
+  (symbol "M463A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463A" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463A - Submaster Module (SUMMING). +25V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463A - Submaster Module (SUMMING). +25V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1972" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463A_0_1" (rectangle (start -27.94 22.86) (end 27.94 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463A_1_1"
+      (pin input line (at -33.02 20.32 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 15.24 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 12.70 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 10.16 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "PREFADE IN" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 0.00 0) (length 5.08) (name "FADER IN" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 -5.08 0) (length 5.08) (name "CTL" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 20.32 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 17.78 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 12.70 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 7.62 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 0.00 180) (length 5.08) (name "DIRECT OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 -5.08 180) (length 5.08) (name "MONITOR OUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -10.16 180) (length 5.08) (name "FB" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -12.70 180) (length 5.08) (name "RS" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -15.24 180) (length 5.08) (name "MI/M2" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -17.78 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 27.94 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -7.62 -27.94 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -27.94 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -27.94 90) (length 5.08) (name "±COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -27.94 90) (length 5.08) (name "CHASS/S GND" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463AB
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1986
+  ;; Power: +25V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463AB.html
+  ;; ====================================================================
+  (symbol "M463AB" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463AB" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463AB.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463AB: 8-409 AMPLIFIER_SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463AB" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463AB: 8-409 AMPLIFIER_SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1986" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463AB_0_1" (rectangle (start -27.94 22.86) (end 27.94 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463AB_1_1"
+      (pin input line (at -33.02 20.32 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 15.24 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 12.70 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 10.16 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "PREFADE IN" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 0.00 0) (length 5.08) (name "FADER IN" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 -5.08 0) (length 5.08) (name "CTL" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 20.32 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 17.78 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 12.70 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 7.62 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 0.00 180) (length 5.08) (name "DIRECT OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 -5.08 180) (length 5.08) (name "MONITOR OUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -10.16 180) (length 5.08) (name "FB" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -12.70 180) (length 5.08) (name "RS" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -15.24 180) (length 5.08) (name "MI/M2" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -17.78 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 27.94 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -7.62 -27.94 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -27.94 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -27.94 90) (length 5.08) (name "±COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -27.94 90) (length 5.08) (name "CHASS/S GND" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463AC
+  ;; Title: Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1986
+  ;; Power: +25V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463AC.html
+  ;; ====================================================================
+  (symbol "M463AC" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463AC" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463AC.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463AC: 8-109 AMPLIFIER SERIES The 8-109 ser ies of ampl ifiers are u til ized as an internal component w ith in v a r i ou s WBS series of audio console modules. Each 8-109 ampl ifier mou..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463AC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463AC: 8-109 AMPLIFIER SERIES The 8-109 ser ies of ampl ifiers are u til ized as an internal component w ith in v a r i ou s WBS series of audio console modules. Each 8-109 ampl ifier mou..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1986" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463AC_0_1" (rectangle (start -27.94 22.86) (end 27.94 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463AC_1_1"
+      (pin input line (at -33.02 20.32 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 15.24 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 12.70 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 10.16 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "PREFADE IN" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 0.00 0) (length 5.08) (name "FADER IN" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 -5.08 0) (length 5.08) (name "CTL" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 20.32 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 17.78 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 12.70 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 7.62 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 0.00 180) (length 5.08) (name "DIRECT OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 -5.08 180) (length 5.08) (name "MONITOR OUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -10.16 180) (length 5.08) (name "FB" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -12.70 180) (length 5.08) (name "RS" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -15.24 180) (length 5.08) (name "MI/M2" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -17.78 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 27.94 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -7.62 -27.94 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -27.94 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -27.94 90) (length 5.08) (name "±COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -27.94 90) (length 5.08) (name "CHASS/S GND" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463B
+  ;; Title: M463B
+  ;; Category: SUMMING | Series: Standard | Year: 1974
+  ;; Power: +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463B.html
+  ;; ====================================================================
+  (symbol "M463B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463B" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463B - M463B (SUMMING). +25V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463B - M463B (SUMMING). +25V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463B_0_1" (rectangle (start -27.94 22.86) (end 27.94 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463B_1_1"
+      (pin input line (at -33.02 20.32 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 15.24 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 12.70 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 10.16 0) (length 5.08) (name "IN" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "PREFADE IN" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 0.00 0) (length 5.08) (name "FADER IN" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 -5.08 0) (length 5.08) (name "CTL" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 20.32 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 17.78 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 12.70 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 7.62 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 0.00 180) (length 5.08) (name "DIRECT OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 -5.08 180) (length 5.08) (name "MONITOR OUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -10.16 180) (length 5.08) (name "FB" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -12.70 180) (length 5.08) (name "RS" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -15.24 180) (length 5.08) (name "MI/M2" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 33.02 -17.78 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 27.94 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -7.62 -27.94 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -27.94 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -27.94 90) (length 5.08) (name "±COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -27.94 90) (length 5.08) (name "CHASS/S GND" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463J
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1972
+  ;; Power: +25V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463J.html
+  ;; ====================================================================
+  (symbol "M463J" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463J" (at 0 -30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463J.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463J: 8-109 AMPLIFIER SERIES inverting amplifier with E1 exte rnally strapped to E6. The output of all models of the 8-109 series is actively balanced and is brought out at pins E4 and E..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463J" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463J: 8-109 AMPLIFIER SERIES inverting amplifier with E1 exte rnally strapped to E6. The output of all models of the 8-109 series is actively balanced and is brought out at pins E4 and E..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1972" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463J_0_1" (rectangle (start -35.56 25.40) (end 35.56 -25.40) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463J_1_1"
+      (pin input line (at -40.64 22.86 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 17.78 0) (length 5.08) (name "PREFADE IN" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 12.70 0) (length 5.08) (name "FADER IN" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 22.86 180) (length 5.08) (name "PA OUT" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 17.78 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 15.24 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 10.16 180) (length 5.08) (name "RS OUT" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 7.62 180) (length 5.08) (name "RS OUT" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "SOLO OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -2.54 180) (length 5.08) (name "FADER OUT" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -7.62 180) (length 5.08) (name "MI OUT" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -12.70 180) (length 5.08) (name "DIRECT OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -17.78 180) (length 5.08) (name "MONITOR OUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 -22.86 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 30.48 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -12.70 -30.48 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -7.62 -30.48 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -2.54 -30.48 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -30.48 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -30.48 90) (length 5.08) (name "±COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 12.70 -30.48 90) (length 5.08) (name "CHASSIS GND" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463K
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1974
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463K.html
+  ;; ====================================================================
+  (symbol "M463K" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 35.56 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463K" (at 0 -35.56 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463K.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463K: M463K SUBMASTER_MODULE Auxiliary Qutputs addition_ SOLO output available via Sw16, allow selective monitoring the particular submaster channel Other feeds origi- nating from the 8-..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463K" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463K: M463K SUBMASTER_MODULE Auxiliary Qutputs addition_ SOLO output available via Sw16, allow selective monitoring the particular submaster channel Other feeds origi- nating from the 8-..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463K_0_1" (rectangle (start -30.48 30.48) (end 30.48 -30.48) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463K_1_1"
+      (pin input line (at -35.56 27.94 0) (length 5.08) (name "SUB TALLY" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 27.94 180) (length 5.08) (name "OUTPUTS" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 25.40 180) (length 5.08) (name "RIGHT OUTPUTS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 22.86 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 20.32 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 15.24 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 12.70 180) (length 5.08) (name "06" (effects (font (size 1.27 1.27)))) (number "06" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 10.16 180) (length 5.08) (name "3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 7.62 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 5.08 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 2.54 180) (length 5.08) (name "21" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 0.00 180) (length 5.08) (name "D" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -2.54 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -5.08 180) (length 5.08) (name "F" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -7.62 180) (length 5.08) (name "13" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -10.16 180) (length 5.08) (name "T" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -12.70 180) (length 5.08) (name "W" (effects (font (size 1.27 1.27)))) (number "W" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -15.24 180) (length 5.08) (name "19" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -17.78 180) (length 5.08) (name "X" (effects (font (size 1.27 1.27)))) (number "X" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -20.32 180) (length 5.08) (name "20" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -22.86 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 35.56 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -35.56 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463L
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1974
+  ;; Power: -25V, +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463L.html
+  ;; ====================================================================
+  (symbol "M463L" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463L" (at 0 -30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463L.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463L: 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463L" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463L: 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "-25V, +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463L_0_1" (rectangle (start -25.40 25.40) (end 25.40 -25.40) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463L_1_1"
+      (pin output line (at 30.48 22.86 180) (length 5.08) (name "OUTPUTS" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 20.32 180) (length 5.08) (name "OUTPUTS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "C" (effects (font (size 1.27 1.27)))) (number "C" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "D" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "F" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "N" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "T" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "V" (effects (font (size 1.27 1.27)))) (number "V" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "20" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "Y" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 30.48 270) (length 5.08) (name "-25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 30.48 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -30.48 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463LA
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1974
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463LA.html
+  ;; ====================================================================
+  (symbol "M463LA" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463LA" (at 0 -30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463LA.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463LA: 8-109 AMPLIFIER SERIES The 8-109 ser ies of ampl ifiers are u til ized as an internal component w ith in v a r i ou s WBS series of audio console modules. Each 8-109 ampl ifier mou..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463LA" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463LA: 8-109 AMPLIFIER SERIES The 8-109 ser ies of ampl ifiers are u til ized as an internal component w ith in v a r i ou s WBS series of audio console modules. Each 8-109 ampl ifier mou..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463LA_0_1" (rectangle (start -25.40 25.40) (end 25.40 -25.40) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463LA_1_1"
+      (pin output line (at 30.48 22.86 180) (length 5.08) (name "OUTPUTS" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 20.32 180) (length 5.08) (name "OUTPUTS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 17.78 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "9" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "D" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "E" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "F" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "T" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "19" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "20" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "Y" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -20.32 180) (length 5.08) (name "21" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -22.86 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -30.48 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M473
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1984
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M473.html
+  ;; ====================================================================
+  (symbol "M473" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M473" (at 0 -25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M473.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M473 - Submaster Module (SUMMING). VEE-AUDIO -25V, VCC-AUDIO +25V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M473" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M473 - Submaster Module (SUMMING). VEE-AUDIO -25V, VCC-AUDIO +25V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1984" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M473_0_1" (rectangle (start -40.64 20.32) (end 40.64 -20.32) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M473_1_1"
+      (pin input line (at -45.72 17.78 0) (length 5.08) (name "Summing Input +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 15.24 0) (length 5.08) (name "Summing Input -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 10.16 0) (length 5.08) (name "Insert Return +" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 7.62 0) (length 5.08) (name "Insert Return -" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.20.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.20.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 17.78 180) (length 5.08) (name "Meter Out +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 15.24 180) (length 5.08) (name "Meter Out -" (effects (font (size 1.27 1.27)))) (number "P2-T" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 10.16 180) (length 5.08) (name "Direct Out +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 7.62 180) (length 5.08) (name "Direct Out -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 2.54 180) (length 5.08) (name "Insert Send +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 0.00 180) (length 5.08) (name "Insert Send -" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -10.16 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -12.70 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 25.40 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 25.40 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -25.40 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M473A
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1977
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M473A.html
+  ;; ====================================================================
+  (symbol "M473A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M473A" (at 0 -25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M473A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M473A: 8-109 AMPLIEIER_SERIES Output Level: +30 dBm maximum. Power Requirements: +/- 21.5 valts dc, MA quiescent current MA +30 dBm outpul. Ambient Temperalure: 60 degrees Celsius. 25\" 3...." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M473A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M473A: 8-109 AMPLIEIER_SERIES Output Level: +30 dBm maximum. Power Requirements: +/- 21.5 valts dc, MA quiescent current MA +30 dBm outpul. Ambient Temperalure: 60 degrees Celsius. 25\" 3...." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M473A_0_1" (rectangle (start -40.64 20.32) (end 40.64 -20.32) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M473A_1_1"
+      (pin input line (at -45.72 17.78 0) (length 5.08) (name "Summing Input +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 15.24 0) (length 5.08) (name "Summing Input -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 10.16 0) (length 5.08) (name "Insert Return +" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 7.62 0) (length 5.08) (name "Insert Return -" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.20.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.20.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 17.78 180) (length 5.08) (name "Meter Out +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 15.24 180) (length 5.08) (name "Meter Out -" (effects (font (size 1.27 1.27)))) (number "P2-T" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 10.16 180) (length 5.08) (name "Direct Out +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 7.62 180) (length 5.08) (name "Direct Out -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 2.54 180) (length 5.08) (name "Insert Send +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 0.00 180) (length 5.08) (name "Insert Send -" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -10.16 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -12.70 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 25.40 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 25.40 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -25.40 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M473B
+  ;; Title: Stereo Submaster
+  ;; Category: SUMMING | Series: Standard | Year: 1984
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M473B.html
+  ;; ====================================================================
+  (symbol "M473B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M473B" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M473B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M473B - Stereo Submaster (SUMMING). VEE-AUDIO -25V, VCC-AUDIO +25V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M473B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M473B - Stereo Submaster (SUMMING). VEE-AUDIO -25V, VCC-AUDIO +25V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1984" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M473B_0_1" (rectangle (start -40.64 7.62) (end 40.64 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M473B_1_1"
+      (pin passive line (at -45.72 5.08 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.20.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.20.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 5.08 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 2.54 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 0.00 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -2.54 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M477
+  ;; Title: Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1979
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M477.html
+  ;; ====================================================================
+  (symbol "M477" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M477" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M477.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M477: 8-109 AMPLIEIER_SERIES Output Level: +30 dBm maximum. Power Requirements: +/- 21.5 valts dc, MA quiescent current MA +30 dBm outpul. Ambient Temperalure: 60 degrees Celsius. 25\" 3...." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M477" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M477: 8-109 AMPLIEIER_SERIES Output Level: +30 dBm maximum. Power Requirements: +/- 21.5 valts dc, MA quiescent current MA +30 dBm outpul. Ambient Temperalure: 60 degrees Celsius. 25\" 3...." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1979" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M477_0_1" (rectangle (start -35.56 12.70) (end 35.56 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M477_1_1"
+      (pin input line (at -40.64 10.16 0) (length 5.08) (name "Summing Input +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 7.62 0) (length 5.08) (name "Summing Input -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 2.54 0) (length 5.08) (name "Insert Return +" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 0.00 0) (length 5.08) (name "Insert Return -" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 10.16 180) (length 5.08) (name "Meter Out +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 7.62 180) (length 5.08) (name "Meter Out -" (effects (font (size 1.27 1.27)))) (number "P2-T" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "Monitor Out +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 0.00 180) (length 5.08) (name "Monitor Out -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -5.08 180) (length 5.08) (name "Insert Send +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -7.62 180) (length 5.08) (name "Insert Send -" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M479
+  ;; Title: Dual Auxiliary Module
+  ;; Category: SUMMING | Series: Standard | Year: 1978
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M479.html
+  ;; ====================================================================
+  (symbol "M479" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M479" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M479.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M479: MFG MFG PARI_NUMBER 73 25 z5 28 Integrated Circuit Nationa LM3OIAN WBS recommends thc use replacement parts made by Ine specified manufacturers for continued opimum equipment perfo..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M479" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M479: MFG MFG PARI_NUMBER 73 25 z5 28 Integrated Circuit Nationa LM3OIAN WBS recommends thc use replacement parts made by Ine specified manufacturers for continued opimum equipment perfo..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1978" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M479_0_1" (rectangle (start -27.94 10.16) (end 27.94 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M479_1_1"
+      (pin input line (at -33.02 7.62 0) (length 5.08) (name "Summing IN 1 +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "Summing IN 1 -" (effects (font (size 1.27 1.27)))) (number "P2-2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 0.00 0) (length 5.08) (name "Summing IN 2 +" (effects (font (size 1.27 1.27)))) (number "P2-3" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 -2.54 0) (length 5.08) (name "Summing IN 2 -" (effects (font (size 1.27 1.27)))) (number "P2-4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 7.62 180) (length 5.08) (name "OUT 1 +" (effects (font (size 1.27 1.27)))) (number "P2-11" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "OUT 1 -" (effects (font (size 1.27 1.27)))) (number "P2-12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 0.00 180) (length 5.08) (name "OUT 2 +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 -2.54 180) (length 5.08) (name "OUT 2 -" (effects (font (size 1.27 1.27)))) (number "P2-16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 15.24 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 15.24 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -15.24 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M484
+  ;; Title: Dual Summing Amplifer
+  ;; Category: SUMMING | Series: Standard | Year: 1975
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M484.html
+  ;; ====================================================================
+  (symbol "M484" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M484" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M484.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M484 - Dual Summing Amplifer (SUMMING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M484" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M484 - Dual Summing Amplifer (SUMMING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M484_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M484_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M487
+  ;; Title: Dual Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1982
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M487.html
+  ;; ====================================================================
+  (symbol "M487" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M487" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M487.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M487: M487 DUAL MASTER MODULE The M487 Dual Master Module accommodates IWo seperale signal channels Tt is designed t0 receive the mixer feeds irom the summing buses of an audio mi xing c..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M487" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M487: M487 DUAL MASTER MODULE The M487 Dual Master Module accommodates IWo seperale signal channels Tt is designed t0 receive the mixer feeds irom the summing buses of an audio mi xing c..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1982" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M487_0_1" (rectangle (start -55.88 12.70) (end 55.88 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M487_1_1"
+      (pin input line (at -60.96 10.16 0) (length 5.08) (name "Section Inputs +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -60.96 7.62 0) (length 5.08) (name "Section Inputs -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -60.96 2.54 0) (length 5.08) (name "Fader Insert In Sect +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -60.96 0.00 0) (length 5.08) (name "Fader Insert In Sect -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 10.16 180) (length 5.08) (name "Out Pu Ts +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 7.62 180) (length 5.08) (name "Out Pu Ts -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 2.54 180) (length 5.08) (name "Fader Insert Out Sect 2 +" (effects (font (size 1.27 1.27)))) (number "O2P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 0.00 180) (length 5.08) (name "Fader Insert Out Sect 2 -" (effects (font (size 1.27 1.27)))) (number "O2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 -5.08 180) (length 5.08) (name "Faoer Insert Out Sect +" (effects (font (size 1.27 1.27)))) (number "O3P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 -7.62 180) (length 5.08) (name "Faoer Insert Out Sect -" (effects (font (size 1.27 1.27)))) (number "O3N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -17.78 90) (length 5.08) (name "-5V -5.0V" (effects (font (size 1.27 1.27)))) (number "-5V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "GND" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M497
+  ;; Title: Dual-Master-Module
+  ;; Category: SUMMING | Series: Standard | Year: 1978
+  ;; Power: +25V, -25 V, +25 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M497.html
+  ;; ====================================================================
+  (symbol "M497" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 48.26 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M497" (at 0 -48.26 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M497.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M497: 8-109 AMPLIFIER SERIES The 8-109 series of amplifiers are utilized as an internal component within various WBS series of audio console modules . Each 8-109 amplifier mounts as plug..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M497" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M497: 8-109 AMPLIFIER SERIES The 8-109 series of amplifiers are utilized as an internal component within various WBS series of audio console modules . Each 8-109 amplifier mounts as plug..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1978" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V, -25 V, +25 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M497_0_1" (rectangle (start -33.02 43.18) (end 33.02 -43.18) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M497_1_1"
+      (pin input line (at -38.10 40.64 0) (length 5.08) (name "LEFT SUM IN" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 38.10 0) (length 5.08) (name "LEFT SUM IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 33.02 0) (length 5.08) (name "RIGHT SUM IN" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 30.48 0) (length 5.08) (name "RIGHT SUM IN" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 25.40 0) (length 5.08) (name "LEFT LINE IN" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 22.86 0) (length 5.08) (name "LEFT LINE IN" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 17.78 0) (length 5.08) (name "RIGHT LINE IN" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 15.24 0) (length 5.08) (name "RIGHT LINE IN" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 40.64 180) (length 5.08) (name "RIGHT OUT" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 38.10 180) (length 5.08) (name "RIGHT OUT" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 33.02 180) (length 5.08) (name "OUT LEFT" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 30.48 180) (length 5.08) (name "OUT LEFT" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 25.40 180) (length 5.08) (name "VU OUT LEFT" (effects (font (size 1.27 1.27)))) (number "R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 22.86 180) (length 5.08) (name "VU OUT LEFT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 17.78 180) (length 5.08) (name "OUT RIGHT" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 15.24 180) (length 5.08) (name "OUT RIGHT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 10.16 180) (length 5.08) (name "VU OUT RIGHT" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 7.62 180) (length 5.08) (name "VU OUT RIGHT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 2.54 180) (length 5.08) (name "LEFT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 0.00 180) (length 5.08) (name "RIGHT" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -2.54 180) (length 5.08) (name "RIGHT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -5.08 180) (length 5.08) (name "LEFT" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -7.62 180) (length 5.08) (name "RIGHT" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -10.16 180) (length 5.08) (name "LEFT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -12.70 180) (length 5.08) (name "RIGHT" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -15.24 180) (length 5.08) (name "MONO" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -17.78 180) (length 5.08) (name "LEFT" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -20.32 180) (length 5.08) (name "LEFT" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -22.86 180) (length 5.08) (name "LEFT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -25.40 180) (length 5.08) (name "RIGHT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -27.94 180) (length 5.08) (name "RIGHT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -30.48 180) (length 5.08) (name "RIGHT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -33.02 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -35.56 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 38.10 -38.10 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 48.26 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 48.26 270) (length 5.08) (name "-25 V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 48.26 270) (length 5.08) (name "+25 V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -48.26 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -48.26 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -48.26 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M497A
+  ;; Title: Dual Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1978
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M497A.html
+  ;; ====================================================================
+  (symbol "M497A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M497A" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M497A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M497A: 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M497A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M497A: 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1978" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M497A_0_1" (rectangle (start -38.10 22.86) (end 38.10 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M497A_1_1"
+      (pin input line (at -43.18 20.32 0) (length 5.08) (name "Left Sum IN +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 17.78 0) (length 5.08) (name "Left Sum IN -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 12.70 0) (length 5.08) (name "Right SUM in +" (effects (font (size 1.27 1.27)))) (number "P2-2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 10.16 0) (length 5.08) (name "Right SUM in -" (effects (font (size 1.27 1.27)))) (number "P2-B" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 5.08 0) (length 5.08) (name "Left Line IN +" (effects (font (size 1.27 1.27)))) (number "P2-4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "Left Line IN -" (effects (font (size 1.27 1.27)))) (number "P2-D" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -2.54 0) (length 5.08) (name "Right Line in +" (effects (font (size 1.27 1.27)))) (number "P2-5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -5.08 0) (length 5.08) (name "Right Line in -" (effects (font (size 1.27 1.27)))) (number "P2-E" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -10.16 0) (length 5.08) (name "JMP.8.6 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -12.70 0) (length 5.08) (name "JMP.8.6 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -15.24 0) (length 5.08) (name "JMP.F.J (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -17.78 0) (length 5.08) (name "JMP.F.J (TO)" (effects (font (size 1.27 1.27)))) (number "P2-F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 20.32 180) (length 5.08) (name "OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 17.78 180) (length 5.08) (name "OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 12.70 180) (length 5.08) (name "OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 10.16 180) (length 5.08) (name "OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 5.08 180) (length 5.08) (name "VU OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 2.54 180) (length 5.08) (name "VU OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -2.54 180) (length 5.08) (name "VU OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -5.08 180) (length 5.08) (name "VU OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-U" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -10.16 180) (length 5.08) (name "JMP.7.9 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-7" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -12.70 180) (length 5.08) (name "JMP.7.9 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -15.24 180) (length 5.08) (name "JMP.H.K (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-H" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -17.78 180) (length 5.08) (name "JMP.H.K (TO)" (effects (font (size 1.27 1.27)))) (number "P2-K" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 27.94 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 27.94 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -27.94 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M497B
+  ;; Title: Dual Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1983
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M497B.html
+  ;; ====================================================================
+  (symbol "M497B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M497B" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M497B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M497B: M497B DUAL MASTER_MODULE RIGHT Channe and MONO Output . The right channel the M497B operates manner similar the eft channel as described above_ . For the MONO output, both channels..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M497B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M497B: M497B DUAL MASTER_MODULE RIGHT Channe and MONO Output . The right channel the M497B operates manner similar the eft channel as described above_ . For the MONO output, both channels..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1983" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M497B_0_1" (rectangle (start -38.10 22.86) (end 38.10 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M497B_1_1"
+      (pin input line (at -43.18 20.32 0) (length 5.08) (name "Left Sum IN +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 17.78 0) (length 5.08) (name "Left Sum IN -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 12.70 0) (length 5.08) (name "Right SUM in +" (effects (font (size 1.27 1.27)))) (number "P2-2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 10.16 0) (length 5.08) (name "Right SUM in -" (effects (font (size 1.27 1.27)))) (number "P2-B" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 5.08 0) (length 5.08) (name "Left Line IN +" (effects (font (size 1.27 1.27)))) (number "P2-4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "Left Line IN -" (effects (font (size 1.27 1.27)))) (number "P2-D" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -2.54 0) (length 5.08) (name "Right Line in +" (effects (font (size 1.27 1.27)))) (number "P2-5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -5.08 0) (length 5.08) (name "Right Line in -" (effects (font (size 1.27 1.27)))) (number "P2-E" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -10.16 0) (length 5.08) (name "JMP.8.6 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -12.70 0) (length 5.08) (name "JMP.8.6 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -15.24 0) (length 5.08) (name "JMP.F.J (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -17.78 0) (length 5.08) (name "JMP.F.J (TO)" (effects (font (size 1.27 1.27)))) (number "P2-F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 20.32 180) (length 5.08) (name "OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 17.78 180) (length 5.08) (name "OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 12.70 180) (length 5.08) (name "OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 10.16 180) (length 5.08) (name "OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 5.08 180) (length 5.08) (name "VU OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 2.54 180) (length 5.08) (name "VU OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -2.54 180) (length 5.08) (name "VU OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -5.08 180) (length 5.08) (name "VU OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-U" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -10.16 180) (length 5.08) (name "JMP.7.9 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-7" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -12.70 180) (length 5.08) (name "JMP.7.9 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -15.24 180) (length 5.08) (name "JMP.H.K (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-H" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -17.78 180) (length 5.08) (name "JMP.H.K (TO)" (effects (font (size 1.27 1.27)))) (number "P2-K" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 27.94 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 27.94 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -27.94 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M497C
+  ;; Title: Dual Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1978
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M497C.html
+  ;; ====================================================================
+  (symbol "M497C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M497C" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M497C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M497C: 8-109 AMPLIFIER SERIES The 8-109 ser ies of ampl ifiers are u til ized as an internal component w ith in v a r i ou s WBS series of audio console modules. Each 8-109 ampl ifier mou..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M497C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M497C: 8-109 AMPLIFIER SERIES The 8-109 ser ies of ampl ifiers are u til ized as an internal component w ith in v a r i ou s WBS series of audio console modules. Each 8-109 ampl ifier mou..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1978" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M497C_0_1" (rectangle (start -38.10 22.86) (end 38.10 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M497C_1_1"
+      (pin input line (at -43.18 20.32 0) (length 5.08) (name "Left Sum IN +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 17.78 0) (length 5.08) (name "Left Sum IN -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 12.70 0) (length 5.08) (name "Right SUM in +" (effects (font (size 1.27 1.27)))) (number "P2-2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 10.16 0) (length 5.08) (name "Right SUM in -" (effects (font (size 1.27 1.27)))) (number "P2-B" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 5.08 0) (length 5.08) (name "Left Line IN +" (effects (font (size 1.27 1.27)))) (number "P2-4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "Left Line IN -" (effects (font (size 1.27 1.27)))) (number "P2-D" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -2.54 0) (length 5.08) (name "Right Line in +" (effects (font (size 1.27 1.27)))) (number "P2-5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -5.08 0) (length 5.08) (name "Right Line in -" (effects (font (size 1.27 1.27)))) (number "P2-E" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -10.16 0) (length 5.08) (name "JMP.8.6 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -12.70 0) (length 5.08) (name "JMP.8.6 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -15.24 0) (length 5.08) (name "JMP.F.J (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -17.78 0) (length 5.08) (name "JMP.F.J (TO)" (effects (font (size 1.27 1.27)))) (number "P2-F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 20.32 180) (length 5.08) (name "OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 17.78 180) (length 5.08) (name "OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 12.70 180) (length 5.08) (name "OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 10.16 180) (length 5.08) (name "OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 5.08 180) (length 5.08) (name "VU OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 2.54 180) (length 5.08) (name "VU OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -2.54 180) (length 5.08) (name "VU OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -5.08 180) (length 5.08) (name "VU OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-U" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -10.16 180) (length 5.08) (name "JMP.7.9 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-7" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -12.70 180) (length 5.08) (name "JMP.7.9 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -15.24 180) (length 5.08) (name "JMP.H.K (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-H" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -17.78 180) (length 5.08) (name "JMP.H.K (TO)" (effects (font (size 1.27 1.27)))) (number "P2-K" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 27.94 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 27.94 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -27.94 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M497D
+  ;; Title: Dual Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1978
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M497D.html
+  ;; ====================================================================
+  (symbol "M497D" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M497D" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M497D.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M497D: 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M497D" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M497D: 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1978" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M497D_0_1" (rectangle (start -38.10 22.86) (end 38.10 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M497D_1_1"
+      (pin input line (at -43.18 20.32 0) (length 5.08) (name "Left Sum IN +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 17.78 0) (length 5.08) (name "Left Sum IN -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 12.70 0) (length 5.08) (name "Right SUM in +" (effects (font (size 1.27 1.27)))) (number "P2-2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 10.16 0) (length 5.08) (name "Right SUM in -" (effects (font (size 1.27 1.27)))) (number "P2-B" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 5.08 0) (length 5.08) (name "Left Line IN +" (effects (font (size 1.27 1.27)))) (number "P2-4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "Left Line IN -" (effects (font (size 1.27 1.27)))) (number "P2-D" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -2.54 0) (length 5.08) (name "Right Line in +" (effects (font (size 1.27 1.27)))) (number "P2-5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -5.08 0) (length 5.08) (name "Right Line in -" (effects (font (size 1.27 1.27)))) (number "P2-E" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -10.16 0) (length 5.08) (name "JMP.8.6 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -12.70 0) (length 5.08) (name "JMP.8.6 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -15.24 0) (length 5.08) (name "JMP.F.J (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -17.78 0) (length 5.08) (name "JMP.F.J (TO)" (effects (font (size 1.27 1.27)))) (number "P2-F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 20.32 180) (length 5.08) (name "OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 17.78 180) (length 5.08) (name "OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 12.70 180) (length 5.08) (name "OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 10.16 180) (length 5.08) (name "OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 5.08 180) (length 5.08) (name "VU OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 2.54 180) (length 5.08) (name "VU OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -2.54 180) (length 5.08) (name "VU OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -5.08 180) (length 5.08) (name "VU OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-U" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -10.16 180) (length 5.08) (name "JMP.7.9 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-7" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -12.70 180) (length 5.08) (name "JMP.7.9 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -15.24 180) (length 5.08) (name "JMP.H.K (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-H" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -17.78 180) (length 5.08) (name "JMP.H.K (TO)" (effects (font (size 1.27 1.27)))) (number "P2-K" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 27.94 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 27.94 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -27.94 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M523
+  ;; Title: Stereo Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1985
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M523.html
+  ;; ====================================================================
+  (symbol "M523" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M523" (at 0 -20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M523.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M523: M523 STEREO SUBMASTER MODULE M523 SUBMASTER MODULE MASTER Ass GN-STEREO Inputs Switcn SW2 assigns the submaster modules stereo output to the master mix bus The left and right chann..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M523" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M523: M523 STEREO SUBMASTER MODULE M523 SUBMASTER MODULE MASTER Ass GN-STEREO Inputs Switcn SW2 assigns the submaster modules stereo output to the master mix bus The left and right chann..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M523_0_1" (rectangle (start -81.28 15.24) (end 81.28 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M523_1_1"
+      (pin input line (at -86.36 12.70 0) (length 5.08) (name "INPUT TO THIS AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 10.16 0) (length 5.08) (name "INPUT TO THIS AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 12.70 180) (length 5.08) (name "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 10.16 180) (length 5.08) (name "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 5.08 180) (length 5.08) (name "MONO CONNECTOR  OUTPUT" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 2.54 180) (length 5.08) (name "MONO CONNECTOR  OUTPUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 -2.54 180) (length 5.08) (name "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 -5.08 180) (length 5.08) (name "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 86.36 -10.16 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 86.36 -12.70 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M527
+  ;; Title: Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1985
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M527.html
+  ;; ====================================================================
+  (symbol "M527" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M527" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M527.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M527 - Master Module (SUMMING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M527" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M527 - Master Module (SUMMING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M527_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M527_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M528
+  ;; Title: Dual Auxiliary Module
+  ;; Category: SUMMING | Series: Standard | Year: 1988
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M528.html
+  ;; ====================================================================
+  (symbol "M528" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M528" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M528.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M528 - Dual Auxiliary Module (SUMMING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M528" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M528 - Dual Auxiliary Module (SUMMING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1988" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M528_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M528_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

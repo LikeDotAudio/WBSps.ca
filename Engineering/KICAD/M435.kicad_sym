@@ -1,0 +1,38 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M435") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M435
+  ;; Title: M435
+  ;; Category: METER | Series: Standard | Year: 1994
+  ;; Power: +24V +24.0V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M435.html
+  ;; ====================================================================
+  (symbol "M435" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M435" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M435.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M435: M435 M436 vu METER SA14-121 AMPL IF IER_ASSEMBLY 4[Ox)-SO=i5\"-4ts 3 16 7t dropping resistor R28 included on the SA14-121 assembly limit meter lamp curren An dditional oop through c..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast METER  M435" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M435: M435 M436 vu METER SA14-121 AMPL IF IER_ASSEMBLY 4[Ox)-SO=i5\"-4ts 3 16 7t dropping resistor R28 included on the SA14-121 assembly limit meter lamp curren An dditional oop through c..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "METER" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1994" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V +24.0V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M435_0_1" (rectangle (start -33.02 10.16) (end 33.02 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M435_1_1"
+      (pin input line (at -38.10 7.62 0) (length 5.08) (name "Input R19 +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 5.08 0) (length 5.08) (name "Input R19 -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 7.62 180) (length 5.08) (name "Meter Drive +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 5.08 180) (length 5.08) (name "Meter Drive -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 0.00 180) (length 5.08) (name "R6 Drive +" (effects (font (size 1.27 1.27)))) (number "O2P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 -2.54 180) (length 5.08) (name "R6 Drive -" (effects (font (size 1.27 1.27)))) (number "O2N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 15.24 270) (length 5.08) (name "+24V +24.0V" (effects (font (size 1.27 1.27)))) (number "+24V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -15.24 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "E8 LAMP COMMON" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -15.24 90) (length 5.08) (name "+35V +35.0V" (effects (font (size 1.27 1.27)))) (number "+35V" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

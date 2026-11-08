@@ -1,0 +1,52 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M463K") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463K
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1974
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463K.html
+  ;; ====================================================================
+  (symbol "M463K" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 35.56 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463K" (at 0 -35.56 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463K.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463K: M463K SUBMASTER_MODULE Auxiliary Qutputs addition_ SOLO output available via Sw16, allow selective monitoring the particular submaster channel Other feeds origi- nating from the 8-..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463K" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463K: M463K SUBMASTER_MODULE Auxiliary Qutputs addition_ SOLO output available via Sw16, allow selective monitoring the particular submaster channel Other feeds origi- nating from the 8-..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463K_0_1" (rectangle (start -30.48 30.48) (end 30.48 -30.48) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463K_1_1"
+      (pin input line (at -35.56 27.94 0) (length 5.08) (name "SUB TALLY" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 27.94 180) (length 5.08) (name "OUTPUTS" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 25.40 180) (length 5.08) (name "RIGHT OUTPUTS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 22.86 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 20.32 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 15.24 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 12.70 180) (length 5.08) (name "06" (effects (font (size 1.27 1.27)))) (number "06" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 10.16 180) (length 5.08) (name "3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 7.62 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 5.08 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 2.54 180) (length 5.08) (name "21" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 0.00 180) (length 5.08) (name "D" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -2.54 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -5.08 180) (length 5.08) (name "F" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -7.62 180) (length 5.08) (name "13" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -10.16 180) (length 5.08) (name "T" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -12.70 180) (length 5.08) (name "W" (effects (font (size 1.27 1.27)))) (number "W" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -15.24 180) (length 5.08) (name "19" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -17.78 180) (length 5.08) (name "X" (effects (font (size 1.27 1.27)))) (number "X" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -20.32 180) (length 5.08) (name "20" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -22.86 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 35.56 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -35.56 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

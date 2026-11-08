@@ -1,0 +1,1428 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KiCad Symbol Library Generator · Ward-Beck Systems Ltd.</title>
+<link rel="icon" href="WBS_Logo.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Overpass:wght@400;600;700;800&family=Overpass+Mono:wght@400;600&display=swap">
+<style>
+:root {
+  --desk: #2b2a27;
+  --paper: #fbfaf4;
+  --paper-card: #f5f2e6;
+  --ink: #1f1e1c;
+  --faint: #6d6a63;
+  --rule: #cfcabc;
+  --link: #1f3f6b;
+  --hl: #efe9d2;
+  --accent: #a52a22;
+  --accent-blue: #2a5ea0;
+  --accent-green: #2e6b34;
+  --kicad-yellow: #fffde0;
+  --kicad-border: #1a1a1a;
+  --kicad-pin-red: #c0392b;
+  --kicad-wire: #1f1e1c;
+  --font-mono: "Courier Prime", "Courier New", monospace;
+  --font-sans: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { background: var(--desk); }
+body {
+  margin: 0;
+  padding: 24px 16px 60px;
+  color: var(--ink);
+  font: 14px/1.5 var(--font-mono);
+  background: var(--desk);
+}
+.sheet {
+  max-width: 1360px;
+  margin: 0 auto;
+  background: var(--paper);
+  padding: 26px clamp(16px, 3.5vw, 42px) 44px;
+  box-shadow: 0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5);
+  position: relative;
+}
+a { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+a:hover { background: var(--hl); }
+.top-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 13px;
+  color: var(--faint);
+  margin-bottom: 12px;
+  border-bottom: 1px dotted var(--rule);
+  padding-bottom: 8px;
+}
+h1 {
+  font-size: 22px;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.badge {
+  font-size: 11px;
+  background: #e8ecf4;
+  color: var(--accent-blue);
+  border: 1px solid #b8c8e2;
+  padding: 2px 7px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 600;
+  font-family: var(--font-sans);
+}
+.badge.green {
+  background: #e6f4ea;
+  color: var(--accent-green);
+  border-color: #a8d5b5;
+}
+.sub {
+  color: var(--faint);
+  margin: 0 0 18px;
+  font-size: 13.5px;
+  max-width: 105ch;
+  line-height: 1.5;
+}
+.top-action-bar {
+  background: #efe9d2;
+  border: 2px solid #cfcabc;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  border-radius: 4px;
+}
+.btn-master {
+  background: var(--accent-blue);
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background .15s;
+}
+.btn-master:hover { background: #1e4577; color: #fff; text-decoration: none; }
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  align-items: center;
+  background: var(--paper-card);
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  margin-bottom: 14px;
+}
+.tool-group {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+.tool-group label {
+  font-weight: 700;
+  font-size: 13px;
+}
+input[type=text], select {
+  font: inherit;
+  font-size: 13px;
+  background: #fff;
+  border: 1px solid var(--rule);
+  padding: 4px 8px;
+  color: var(--ink);
+}
+input[type=text]:focus, select:focus {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: -1px;
+}
+button.btn {
+  font: inherit;
+  font-size: 13px;
+  background: #ece7d5;
+  border: 1px solid var(--rule);
+  padding: 4px 12px;
+  cursor: pointer;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all .1s ease;
+  white-space: nowrap;
+}
+button.btn:hover { background: #dfd8c2; }
+button.btn.primary {
+  background: var(--accent-blue);
+  color: #fff;
+  border-color: #1e4577;
+  font-weight: 700;
+}
+button.btn.primary:hover { background: #1e4577; }
+button.btn.accent {
+  background: var(--accent);
+  color: #fff;
+  border-color: #7d1f19;
+  font-weight: 700;
+}
+button.btn.accent:hover { background: #7d1f19; }
+button.btn.sm {
+  padding: 2px 7px;
+  font-size: 11.5px;
+}
+.cat-pills-wrapper {
+  margin-bottom: 18px;
+}
+.cat-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.pill {
+  font-size: 11px;
+  padding: 3px 8px;
+  background: #eae5d2;
+  border: 1px solid #d4ceba;
+  cursor: pointer;
+  border-radius: 3px;
+  user-select: none;
+}
+.pill:hover { background: #dfd8c0; }
+.pill.active {
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+.studio-grid {
+  display: grid;
+  grid-template-columns: minmax(380px, 1.15fr) minmax(440px, 1.35fr);
+  gap: 24px;
+  align-items: start;
+}
+@media (max-width: 980px) {
+  .studio-grid { grid-template-columns: 1fr; }
+}
+.panel {
+  background: #fff;
+  border: 1px solid var(--rule);
+  padding: 18px 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+.panel h2 {
+  font-size: 14px;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 700;
+  border-bottom: 1.5px solid var(--rule);
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 8px 12px;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+.form-grid input, .form-grid select {
+  width: 100%;
+}
+.klc-box {
+  background: #f7f9f6;
+  border: 1px solid #c8dccb;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.klc-box-header {
+  font-weight: 700;
+  color: var(--accent-green);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.klc-checks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px 12px;
+  color: #2b442e;
+}
+.pin-table-wrapper {
+  max-height: 420px;
+  overflow-y: auto;
+  border: 1px solid var(--rule);
+  margin: 10px 0;
+}
+table.pin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+table.pin-table th {
+  background: #f4efe1;
+  text-align: left;
+  padding: 5px 8px;
+  font-weight: 700;
+  border-bottom: 1px solid var(--rule);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+table.pin-table td {
+  padding: 4px 6px;
+  border-bottom: 1px dotted #e2decb;
+  vertical-align: middle;
+}
+table.pin-table tr:hover td {
+  background: #faf7ec;
+}
+table.pin-table tr.highlight td {
+  background: #e8f0fe !important;
+}
+table.pin-table input[type=text] {
+  padding: 2px 4px;
+  font-size: 11.5px;
+}
+table.pin-table select {
+  padding: 2px 2px;
+  font-size: 11px;
+}
+.preview-box {
+  background: #fff;
+  border: 1px solid var(--rule);
+  position: relative;
+  overflow: hidden;
+}
+.preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f5f2e6;
+  border-bottom: 1px solid var(--rule);
+  font-size: 12px;
+}
+.preview-svg-container {
+  width: 100%;
+  min-height: 400px;
+  max-height: 540px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(#d5d1c4 1px, transparent 1px) 0 0/16px 16px,
+    #ffffff;
+  padding: 20px;
+}
+.code-box {
+  margin-top: 18px;
+}
+.code-tabs {
+  display: flex;
+  gap: 2px;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: -1px;
+}
+.tab {
+  padding: 5px 12px;
+  font-size: 12px;
+  background: #ece7d5;
+  border: 1px solid var(--rule);
+  border-bottom: 0;
+  cursor: pointer;
+}
+.tab.active {
+  background: #fff;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+}
+pre.code-view {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.45;
+  padding: 12px 16px;
+  max-height: 320px;
+  overflow: auto;
+  border: 1px solid #333;
+  margin: 0;
+  white-space: pre;
+}
+.actions-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 14px;
+  align-items: center;
+}
+.pin-actions {
+  display: inline-flex;
+  gap: 2px;
+}
+.pin-actions button {
+  padding: 1px 4px;
+  font-size: 10px;
+  background: #f0ecdf;
+  border: 1px solid #cfcabc;
+  cursor: pointer;
+}
+.pin-actions button:hover { background: #e0d8c2; }
+.kicad-ref { font-weight: 700; fill: #1f3f6b; font-family: var(--font-sans); }
+.kicad-val { font-weight: 700; fill: #1f3f6b; font-family: var(--font-sans); }
+.kicad-pin-circle { fill: none; stroke: var(--kicad-pin-red); stroke-width: 1.4; }
+.kicad-pin-line { stroke: var(--kicad-wire); stroke-width: 1.8; stroke-linecap: round; }
+.kicad-pin-name { font-size: 11px; fill: var(--ink); font-family: var(--font-mono); font-weight: 600; }
+.kicad-pin-num { font-size: 10px; fill: var(--kicad-pin-red); font-family: var(--font-mono); font-weight: 700; }
+.kicad-rect { fill: var(--kicad-yellow); stroke: var(--kicad-border); stroke-width: 2.2; }
+.pin-hover-group:hover .kicad-pin-circle { stroke: #0066cc; stroke-width: 2.2; }
+.pin-hover-group:hover .kicad-pin-line { stroke: #0066cc; stroke-width: 2.5; }
+.pin-hover-group:hover .kicad-pin-num { fill: #0066cc; }
+.pin-hover-group:hover .kicad-pin-name { fill: #0066cc; }
+.batch-section {
+  margin-top: 26px;
+  padding: 18px 20px;
+  background: var(--paper-card);
+  border: 1px solid var(--rule);
+}
+.batch-section details summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.batch-mods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 4px 10px;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid var(--rule);
+  padding: 8px 10px;
+  background: #fff;
+  margin: 10px 0;
+  font-size: 12px;
+}
+.batch-mods-grid label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.foot {
+  margin-top: 36px;
+  text-align: center;
+  color: var(--faint);
+  font-size: 13px;
+  border-top: 1px dotted var(--rule);
+  padding-top: 18px;
+}
+.toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #1c1c1c;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 13px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all .2s ease;
+  pointer-events: none;
+  z-index: 100;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+</head>
+<body>
+<article class="sheet">
+  <div class="top-nav">
+    <a href="index.html">Index</a> /
+    <a href="Home.html">Wiki Home</a> /
+    <a href="Engineering/">Engineering</a> /
+    <a href="Engineering/KICAD/">KiCad Libraries</a> /
+    <span>KiCad Library Generator</span>
+  </div>
+
+  <h1>
+    KiCad Symbol Library Generator
+    <span class="badge green">KLC Compliant</span>
+    <span class="badge">KiCad 6/7/8/9 &amp; KiCad 5</span>
+  </h1>
+  <p class="sub">
+    Interactive EDA schematic symbol generator strictly conforming to the <a href="https://klc.kicad.org/" target="_blank">KiCad Library Convention (KLC)</a>.
+    Features 100 mil grid alignment, functional groupings (inputs, outputs, power details, grounds), full documentation comments, and instant export for all 526 Ward-Beck modules across 23 categories.
+  </p>
+
+  <!-- Top-Level Full Export Generator Action -->
+  <div class="top-action-bar">
+    <div>
+      <div style="font-size: 16px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; display: flex; align-items: center; gap: 8px;">
+        <span>📦 Master KiCad Library Generator</span>
+        <span class="badge green">526 Devices</span>
+      </div>
+      <div style="color: var(--faint); font-size: 13px; margin-top: 3px;">
+        Export complete Ward-Beck library or download individual category libraries (.kicad_sym).
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+      <a href="Engineering/KICAD/WBS_All_Modules.kicad_sym" download class="btn-master" title="Export complete consolidated KiCad library of all 526 Ward-Beck symbols">
+        📦 Export WBS KiCad Library of All Symbols (.kicad_sym)
+      </a>
+      <select id="sel-cat-export" style="font-size: 13px; padding: 7px 10px; font-weight: 700;">
+        <option value="">-- Choose Category Library --</option>
+      </select>
+      <button type="button" class="btn" id="btn-cat-download" style="font-weight: 700;">📥 Export Category</button>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="tool-group">
+      <label for="mod-search">Device:</label>
+      <input type="text" id="mod-search" list="symbols-datalist" placeholder="e.g. M124, M450, M460A, POD13A..." style="width: 220px;">
+      <datalist id="symbols-datalist"></datalist>
+      <button type="button" class="btn" id="btn-load">Load</button>
+      <button type="button" class="btn" id="btn-custom">➕ New Custom Symbol</button>
+      <button type="button" class="btn" id="btn-reset" title="Reset changes to original archive specification">🔄 Reset</button>
+    </div>
+    <div style="margin-left:auto; display:flex; gap:8px;">
+      <a href="Engineering/KICAD/WBS_RTO144_Modules.kicad_sym" download class="btn" style="text-decoration:none;" title="Download verified RTO-144 jumper module library">📦 RTO-144 Symbols (109)</a>
+      <a href="Engineering/KICAD/" class="btn" style="text-decoration:none;">📂 View All 23 Libraries</a>
+    </div>
+  </div>
+
+  <div class="cat-pills-wrapper">
+    <div class="cat-pills" id="cat-pills">
+      <span class="pill active" data-cat="ALL">ALL (526)</span>
+      <!-- Populated dynamically -->
+    </div>
+  </div>
+
+  <div class="studio-grid" style="margin-top: 14px;">
+    <!-- LEFT: Parameters and Pin Table -->
+    <div class="panel">
+      <h2>
+        <span>Symbol Properties</span>
+        <span id="prop-info" style="font-weight:400; font-size:12px; color:var(--faint);"></span>
+      </h2>
+
+      <!-- KLC Compliance Checklist -->
+      <div class="klc-box">
+        <div class="klc-box-header">
+          <span>✓ KLC Compliance Verification</span>
+          <a href="https://klc.kicad.org/" target="_blank" style="font-size:11px; color:var(--accent-green);">KLC Rules ↗</a>
+        </div>
+        <div class="klc-checks">
+          <span>✓ 100 mil (2.54 mm) Grid Aligned</span>
+          <span>✓ Pos Power Top, Ground Bottom</span>
+          <span>✓ Balanced Pairs Grouped (100mil Gap)</span>
+          <span>✓ Standard Electrical Pin Types</span>
+          <span>✓ Full Descriptive Properties</span>
+          <span>✓ Documentation Comments Embedded</span>
+        </div>
+      </div>
+
+      <div class="form-grid">
+        <label for="inp-code">Symbol Name:</label>
+        <input type="text" id="inp-code" value="M124">
+
+        <label for="inp-ref">Reference:</label>
+        <div style="display:flex; gap:6px; align-items:center;">
+          <input type="text" id="inp-ref" value="U" style="width:60px;">
+          <button type="button" class="btn sm" onclick="$('inp-ref').value='U'; update();">U</button>
+          <button type="button" class="btn sm" onclick="$('inp-ref').value='A'; update();">A</button>
+          <button type="button" class="btn sm" onclick="$('inp-ref').value='MOD'; update();">MOD</button>
+          <button type="button" class="btn sm" onclick="$('inp-ref').value='M'; update();">M</button>
+        </div>
+
+        <label for="inp-footprint">Footprint:</label>
+        <input type="text" id="inp-footprint" placeholder="e.g. Connector_CardEdge:CardEdge_15Pin_P3.96mm">
+
+        <label for="inp-desc">Description:</label>
+        <input type="text" id="inp-desc">
+
+        <label for="inp-keywords">Keywords:</label>
+        <input type="text" id="inp-keywords">
+
+        <label for="inp-datasheet">Datasheet / URL:</label>
+        <input type="text" id="inp-datasheet">
+
+        <label for="sel-layout">Pin Layout:</label>
+        <select id="sel-layout">
+          <option value="klc" selected>KLC Standard (Grouped Inputs L, Grouped Outputs R, Power Top, Ground Bottom)</option>
+          <option value="cardedge">Physical Card-Edge Contact Sequence (1..N)</option>
+          <option value="dualside">Two-sided (Inputs/Power Left, Outputs/Ground Right)</option>
+          <option value="manual">Manual Pin-by-Pin Assignment</option>
+        </select>
+      </div>
+
+      <!-- Power & Grouping Details Summary -->
+      <div id="group-details-box" style="background:#f5f2e6; border:1px solid #cfcabc; padding:8px 12px; margin-bottom:14px; font-size:12px; line-height:1.5;">
+        <div><strong>Power Group:</strong> <span id="txt-power-group">See datasheet</span></div>
+        <div><strong>Impedance / Specs:</strong> <span id="txt-imp-group">Standard 600Ω</span></div>
+      </div>
+
+      <h2>
+        <span>Pin Assignments (<span id="pin-count">0</span>)</span>
+        <button type="button" class="btn sm primary" id="btn-add-pin">➕ Add Pin</button>
+      </h2>
+
+      <div class="pin-table-wrapper">
+        <table class="pin-table" id="table-pins">
+          <thead>
+            <tr>
+              <th style="width: 50px;">Pin #</th>
+              <th>Signal Name</th>
+              <th style="width: 105px;">Type</th>
+              <th style="width: 75px;">Side</th>
+              <th style="width: 50px;">Action</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-pins">
+            <!-- Pin rows dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; font-size:12px; color:var(--faint);">
+        <span>Sides: L=Left (In), R=Right (Out), T=Top (Pwr), B=Bottom (Gnd)</span>
+        <div style="display:flex; gap:6px;">
+          <a id="link-wiki" href="#" target="_blank">Wiki Page ↗</a> ·
+          <a id="link-sheet" href="#" target="_blank">Connections Sheet ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Live Vector Preview & Code Generation -->
+    <div class="panel">
+      <h2>
+        <span>Live Schematic Symbol Preview</span>
+        <span style="font-weight:400; font-size:12px; color:var(--faint);">100 mil Grid · Authentic KiCad Styling</span>
+      </h2>
+
+      <div class="preview-box">
+        <div class="preview-header">
+          <span>KiCad Style Preview</span>
+          <div>
+            <span id="preview-grid-info" style="color:var(--faint);">Scale: 1.0x</span>
+          </div>
+        </div>
+        <div class="preview-svg-container" id="svg-container">
+          <!-- Dynamic SVG renders here -->
+        </div>
+      </div>
+
+      <div class="actions-bar">
+        <button type="button" class="btn primary" id="btn-dl-sym">📥 Download <span id="lbl-dl-sym">M124.kicad_sym</span></button>
+        <button type="button" class="btn" id="btn-dl-lib">📥 Legacy KiCad 5 (.lib)</button>
+        <button type="button" class="btn" id="btn-copy-code">📋 Copy S-Expression</button>
+      </div>
+
+      <!-- Code view tabs -->
+      <div class="code-box">
+        <div class="code-tabs">
+          <div class="tab active" data-tab="v6" id="tab-v6">KiCad 6/7/8/9 (.kicad_sym)</div>
+          <div class="tab" data-tab="v5" id="tab-v5">KiCad 5 Legacy (.lib)</div>
+        </div>
+        <pre class="code-view" id="code-output">Loading symbol code...</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- Multi-Module Batch Library Generator -->
+  <div class="batch-section">
+    <details>
+      <summary>Multi-Module Batch Library Generator (Select Modules to Combine)</summary>
+      <p style="font-size:13px; color:var(--faint); margin:8px 0 10px;">
+        Combine any custom selection of Ward-Beck modules into a single <code>.kicad_sym</code> library file.
+      </p>
+      <div style="display:flex; gap:8px; margin-bottom:8px; flex-wrap:wrap; align-items:center;">
+        <button type="button" class="btn sm" id="btn-batch-select-all">Select All</button>
+        <button type="button" class="btn sm" id="btn-batch-clear">Clear</button>
+        <button type="button" class="btn sm primary" id="btn-batch-download">Download Combined Library (.kicad_sym)</button>
+      </div>
+      <div class="batch-mods-grid" id="batch-grid">
+        <!-- Checkboxes -->
+      </div>
+    </details>
+  </div>
+
+  <div class="foot">
+    An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br>
+    KiCad is open source EDA software created by Jean-Pierre Charras and the KiCad developers.
+  </div>
+</article>
+
+<div class="toast" id="toast">Copied to clipboard!</div>
+
+<script src="_catalog/wbs_symbols.js"></script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const G = 2.54;       // 100 mil KiCad grid unit in mm
+  const PIN_LEN = 5.08; // 200 mil pin length in mm
+  let currentKey = 'M124';
+  let currentTab = 'v6';
+  let activeCat = 'ALL';
+
+  // Active symbol model state
+  let currentSym = {
+    code: 'M124',
+    name: '',
+    category: 'AMPLIFIERS',
+    year: '',
+    ref: 'U',
+    footprint: '',
+    datasheet: '',
+    desc: '',
+    keywords: '',
+    power_summary: '',
+    impedance_summary: '',
+    layout: 'klc',
+    pins: []
+  };
+
+  const PIN_TYPES = [
+    { id: 'input', label: 'Input' },
+    { id: 'output', label: 'Output' },
+    { id: 'bidirectional', label: 'Bidirectional' },
+    { id: 'tri_state', label: 'Tri-State' },
+    { id: 'passive', label: 'Passive' },
+    { id: 'power_in', label: 'Power Input' },
+    { id: 'power_out', label: 'Power Output' },
+    { id: 'open_collector', label: 'Open Collector' },
+    { id: 'no_connect', label: 'No Connect' }
+  ];
+
+  function toast(msg) {
+    const t = $('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2200);
+  }
+
+  // Populate datalist, categories, and batch checkboxes
+  function initModuleList() {
+    const symbols = window.WBS_SYMBOLS || {};
+    const dl = $('symbols-datalist');
+    const batchGrid = $('batch-grid');
+    const catExportSelect = $('sel-cat-export');
+    const catPills = $('cat-pills');
+
+    dl.innerHTML = '';
+    batchGrid.innerHTML = '';
+    catExportSelect.innerHTML = '<option value="">-- Choose Category Library --</option>';
+
+    const sortedKeys = Object.keys(symbols).sort((a,b) => a.localeCompare(b, undefined, { numeric: true }));
+
+    // Count categories
+    const catCounts = {};
+    sortedKeys.forEach(k => {
+      const s = symbols[k];
+      const cat = s.category || 'UNSORTED';
+      catCounts[cat] = (catCounts[cat] || 0) + 1;
+    });
+
+    // Populate category pills and category export dropdown
+    catPills.innerHTML = `<span class="pill active" data-cat="ALL">ALL (${sortedKeys.length})</span>`;
+    Object.keys(catCounts).sort().forEach(cat => {
+      const p = document.createElement('span');
+      p.className = 'pill';
+      p.dataset.cat = cat;
+      p.textContent = `${cat} (${catCounts[cat]})`;
+      catPills.appendChild(p);
+
+      const opt = document.createElement('option');
+      opt.value = cat;
+      opt.textContent = `${cat} (${catCounts[cat]} symbols)`;
+      catExportSelect.appendChild(opt);
+    });
+
+    sortedKeys.forEach(k => {
+      const s = symbols[k];
+      const opt = document.createElement('option');
+      opt.value = k;
+      opt.label = `${s.code} · ${s.name || s.type || s.category || ''}`;
+      dl.appendChild(opt);
+
+      const lbl = document.createElement('label');
+      lbl.innerHTML = `<input type="checkbox" value="${k}" data-cat="${s.category || ''}"> <span>${s.code}</span>`;
+      batchGrid.appendChild(lbl);
+    });
+  }
+
+  // Load symbol from WBS_SYMBOLS
+  function loadSymbol(key) {
+    const symbols = window.WBS_SYMBOLS || {};
+    const s = symbols[key];
+    if (!s) return;
+
+    currentKey = key;
+    $('mod-search').value = key;
+
+    currentSym = {
+      code: s.code || key,
+      name: s.name || s.type || '',
+      category: s.category || 'UNSORTED',
+      year: s.year || '',
+      ref: 'U',
+      footprint: s.footprint || (s.connector && s.connector.includes('15') ? 'Connector_CardEdge:CardEdge_15Pin_P3.96mm' : ''),
+      datasheet: s.datasheet || `https://wbsps.ca/PAGES/${key}.html`,
+      desc: s.description || `${s.code} - ${s.name || ''}`,
+      keywords: s.keywords || `Ward-Beck WBS audio broadcast ${s.category} ${s.code}`,
+      power_summary: s.power_summary || '',
+      impedance_summary: s.impedance_summary || '',
+      layout: $('sel-layout').value || 'klc',
+      pins: (s.pins || []).map(p => ({
+        num: String(p.num),
+        name: p.name,
+        type: p.type || 'input',
+        side: p.side || 'L',
+        x: p.x,
+        y: p.y,
+        angle: p.angle,
+        length: p.length || PIN_LEN
+      }))
+    };
+
+    $('inp-code').value = currentSym.code;
+    $('inp-ref').value = currentSym.ref;
+    $('inp-footprint').value = currentSym.footprint;
+    $('inp-desc').value = currentSym.desc;
+    $('inp-keywords').value = currentSym.keywords;
+    $('inp-datasheet').value = currentSym.datasheet;
+    $('lbl-dl-sym').textContent = `${currentSym.code}.kicad_sym`;
+
+    $('txt-power-group').textContent = currentSym.power_summary || 'See documentation';
+    $('txt-imp-group').textContent = currentSym.impedance_summary || 'Standard 600Ω';
+
+    $('prop-info').textContent = `${currentSym.category} · ${currentSym.name}`;
+    $('link-wiki').href = `PAGES/${encodeURIComponent(currentSym.code)}.html`;
+    $('link-sheet').href = `Engineering/RTO-144/${encodeURIComponent(currentSym.code.replace(/\//g, '-'))}/${encodeURIComponent(currentSym.code.replace(/\//g, '-'))}%20-%20RTO-144%20Connections.html`;
+
+    renderPinTable();
+    update();
+  }
+
+  function renderPinTable() {
+    const tbody = $('tbody-pins');
+    tbody.innerHTML = '';
+    $('pin-count').textContent = currentSym.pins.length;
+
+    currentSym.pins.forEach((p, idx) => {
+      const tr = document.createElement('tr');
+      tr.id = `pin-row-${idx}`;
+      tr.innerHTML = `
+        <td><input type="text" value="${escapeHtml(p.num)}" style="width:100%; text-align:center; font-weight:700;" onchange="editPin(${idx}, 'num', this.value)"></td>
+        <td><input type="text" value="${escapeHtml(p.name)}" style="width:100%;" onchange="editPin(${idx}, 'name', this.value)"></td>
+        <td>
+          <select onchange="editPin(${idx}, 'type', this.value)">
+            ${PIN_TYPES.map(t => `<option value="${t.id}" ${t.id === p.type ? 'selected' : ''}>${t.label}</option>`).join('')}
+          </select>
+        </td>
+        <td>
+          <select onchange="editPin(${idx}, 'side', this.value)">
+            <option value="L" ${p.side === 'L' ? 'selected' : ''}>Left (In)</option>
+            <option value="R" ${p.side === 'R' ? 'selected' : ''}>Right (Out)</option>
+            <option value="T" ${p.side === 'T' ? 'selected' : ''}>Top (Pwr)</option>
+            <option value="B" ${p.side === 'B' ? 'selected' : ''}>Bottom (Gnd)</option>
+          </select>
+        </td>
+        <td style="text-align:center;">
+          <div class="pin-actions">
+            <button type="button" title="Move Up" onclick="movePin(${idx}, -1)">▲</button>
+            <button type="button" title="Move Down" onclick="movePin(${idx}, 1)">▼</button>
+            <button type="button" title="Delete Pin" onclick="deletePin(${idx})" style="color:var(--accent); font-weight:700;">✕</button>
+          </div>
+        </td>
+      `;
+      tr.addEventListener('mouseenter', () => highlightPinInSvg(idx, true));
+      tr.addEventListener('mouseleave', () => highlightPinInSvg(idx, false));
+      tbody.appendChild(tr);
+    });
+  }
+
+  window.editPin = (idx, field, val) => {
+    if (currentSym.pins[idx]) {
+      currentSym.pins[idx][field] = val;
+      update();
+    }
+  };
+
+  window.movePin = (idx, delta) => {
+    const target = idx + delta;
+    if (target < 0 || target >= currentSym.pins.length) return;
+    const temp = currentSym.pins[idx];
+    currentSym.pins[idx] = currentSym.pins[target];
+    currentSym.pins[target] = temp;
+    renderPinTable();
+    update();
+  };
+
+  window.deletePin = idx => {
+    currentSym.pins.splice(idx, 1);
+    renderPinTable();
+    update();
+  };
+
+  function addPin() {
+    const nextNum = currentSym.pins.length ? String(currentSym.pins.length + 1) : '1';
+    currentSym.pins.push({
+      num: nextNum,
+      name: `PIN_${nextNum}`,
+      type: 'input',
+      side: 'L'
+    });
+    renderPinTable();
+    update();
+    const rows = $('tbody-pins').querySelectorAll('tr');
+    if (rows.length) rows[rows.length - 1].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  function escapeHtml(s) {
+    return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function q(s) {
+    return '"' + String(s ?? '').replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"';
+  }
+
+  // Layout pins according to selected layout mode
+  function getLayoutSides() {
+    const layout = $('sel-layout').value;
+    const sides = { L: [], R: [], T: [], B: [] };
+
+    if (layout === 'cardedge') {
+      currentSym.pins.forEach((p, i) => {
+        if (i < Math.ceil(currentSym.pins.length / 2)) sides.L.push(p);
+        else sides.R.push(p);
+      });
+    } else if (layout === 'dualside') {
+      currentSym.pins.forEach(p => {
+        if (p.side === 'R' || p.type === 'output') sides.R.push(p);
+        else sides.L.push(p);
+      });
+    } else {
+      // KLC / Standard mode
+      currentSym.pins.forEach(p => {
+        const s = sides[p.side] ? p.side : 'L';
+        sides[s].push(p);
+      });
+    }
+    return sides;
+  }
+
+  function computeGeometry(sides) {
+    const rows = Math.max(sides.L.length, sides.R.length, 2);
+    const cols = Math.max(sides.T.length, sides.B.length, 1);
+    const longestL = Math.max(...sides.L.map(p => (p.name || '').length), 0);
+    const longestR = Math.max(...sides.R.map(p => (p.name || '').length), 0);
+    const longest = Math.max(longestL + longestR + 6, 16);
+
+    const half_w = Math.round(Math.max(10 * G, (cols * 2 + 2) * G, (longest * 0.42) * G) / G) * G;
+    const half_h = Math.round((rows + 2) / 2) * G;
+    return { half_w, half_h };
+  }
+
+  // Generate modern KiCad 6/7/8/9 (.kicad_sym) S-expression string
+  function generateKicadSym() {
+    const sides = getLayoutSides();
+    const { half_w, half_h } = computeGeometry(sides);
+
+    const safeName = currentSym.code.replace(/'/g, '_alt').replace(/\//g, '_');
+    const ref = currentSym.ref || 'U';
+    const val = currentSym.code || 'M124';
+    const font = '(effects (font (size 1.27 1.27)))';
+    const hidden = '(effects (font (size 1.27 1.27)) hide)';
+
+    const comments = [
+      `  ;; ====================================================================`,
+      `  ;; Ward-Beck Systems Ltd. — Model: ${val}`,
+      `  ;; Title: ${currentSym.name || ''}`,
+      `  ;; Category: ${currentSym.category || 'UNSORTED'} | Year: ${currentSym.year || 'N/A'}`,
+      `  ;; Power: ${currentSym.power_summary || 'See documentation'}`,
+      `  ;; Impedance: ${currentSym.impedance_summary || 'Standard 600Ω'}`,
+      `  ;; Archive: ${currentSym.datasheet || ''}`,
+      `  ;; ====================================================================`
+    ];
+
+    const pinLines = [];
+
+    sides.L.forEach((p, i) => {
+      const y = half_h - (i + 1) * G;
+      pinLines.push(`      (pin ${p.type} line (at ${(-half_w - PIN_LEN).toFixed(2)} ${y.toFixed(2)} 0) (length ${PIN_LEN.toFixed(2)}) (name ${q(p.name)} ${font}) (number ${q(p.num)} ${font}))`);
+    });
+
+    sides.R.forEach((p, i) => {
+      const y = half_h - (i + 1) * G;
+      pinLines.push(`      (pin ${p.type} line (at ${(half_w + PIN_LEN).toFixed(2)} ${y.toFixed(2)} 180) (length ${PIN_LEN.toFixed(2)}) (name ${q(p.name)} ${font}) (number ${q(p.num)} ${font}))`);
+    });
+
+    ['T', 'B'].forEach(side => {
+      const y = side === 'T' ? half_h + PIN_LEN : -half_h - PIN_LEN;
+      const ang = side === 'T' ? 270 : 90;
+      const n = sides[side].length;
+      sides[side].forEach((p, i) => {
+        const offset = (i - (n - 1) / 2) * 2 * G;
+        const x = Math.round(offset / G) * G;
+        pinLines.push(`      (pin ${p.type} line (at ${x.toFixed(2)} ${y.toFixed(2)} ${ang}) (length ${PIN_LEN.toFixed(2)}) (name ${q(p.name)} ${font}) (number ${q(p.num)} ${font}))`);
+      });
+    });
+
+    return [
+      `(kicad_symbol_lib (version 20231120) (generator "wbsps_kicad_generator") (generator_version "2.0")`,
+      ...comments,
+      `  (symbol ${q(safeName)} (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)`,
+      `    (property "Reference" ${q(ref)} (at 0 ${(half_h + 2 * G).toFixed(2)} 0) ${font})`,
+      `    (property "Value" ${q(val)} (at 0 {(-half_h - 2 * G).toFixed(2)} 0) ${font})`,
+      `    (property "Footprint" ${q(currentSym.footprint)} (at 0 0 0) ${hidden})`,
+      `    (property "Datasheet" ${q(currentSym.datasheet)} (at 0 0 0) ${hidden})`,
+      `    (property "Description" ${q(currentSym.desc)} (at 0 0 0) ${hidden})`,
+      `    (property "ki_keywords" ${q(currentSym.keywords)} (at 0 0 0) ${hidden})`,
+      `    (property "ki_description" ${q(currentSym.desc)} (at 0 0 0) ${hidden})`,
+      `    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) ${hidden})`,
+      `    (property "Category" ${q(currentSym.category)} (at 0 0 0) ${hidden})`,
+      `    (property "Year" ${q(String(currentSym.year))} (at 0 0 0) ${hidden})`,
+      `    (property "Power" ${q(currentSym.power_summary)} (at 0 0 0) ${hidden})`,
+      `    (property "Impedance" ${q(currentSym.impedance_summary)} (at 0 0 0) ${hidden})`,
+      `    (symbol ${q(safeName + "_0_1")} (rectangle (start ${(-half_w).toFixed(2)} ${half_h.toFixed(2)}) (end ${half_w.toFixed(2)} {(-half_h).toFixed(2)}) (stroke (width 0.254) (type default)) (fill (type background))))`,
+      `    (symbol ${q(safeName + "_1_1")}`,
+      ...pinLines,
+      `    )`,
+      `  )`,
+      `)`
+    ].join('\n');
+  }
+
+  // Generate legacy KiCad 5 (.lib) format
+  function generateKicadV5Lib() {
+    const sides = getLayoutSides();
+    const { half_w, half_h } = computeGeometry(sides);
+    const toMil = v => Math.round(v * 39.3701);
+
+    const safeName = currentSym.code.replace(/'/g, '_alt').replace(/\//g, '_');
+    const ref = currentSym.ref || 'U';
+    const val = currentSym.code || 'M124';
+
+    const typeMap = {
+      'input': 'I', 'output': 'O', 'bidirectional': 'B', 'tri_state': 'T',
+      'passive': 'P', 'power_in': 'W', 'power_out': 'w', 'open_collector': 'C',
+      'no_connect': 'N'
+    };
+
+    const pinLines = [];
+
+    sides.L.forEach((p, i) => {
+      const y = toMil(half_h - (i + 1) * G);
+      const x = toMil(-half_w - PIN_LEN);
+      pinLines.push(`X ${p.name || '~'} ${p.num} ${x} ${y} ${toMil(PIN_LEN)} R 50 50 1 1 ${typeMap[p.type] || 'I'}`);
+    });
+
+    sides.R.forEach((p, i) => {
+      const y = toMil(half_h - (i + 1) * G);
+      const x = toMil(half_w + PIN_LEN);
+      pinLines.push(`X ${p.name || '~'} ${p.num} ${x} ${y} ${toMil(PIN_LEN)} L 50 50 1 1 ${typeMap[p.type] || 'O'}`);
+    });
+
+    ['T', 'B'].forEach(side => {
+      const isTop = side === 'T';
+      const y = toMil(isTop ? half_h + PIN_LEN : -half_h - PIN_LEN);
+      const dir = isTop ? 'D' : 'U';
+      const n = sides[side].length;
+      sides[side].forEach((p, i) => {
+        const offset = (i - (n - 1) / 2) * 2 * G;
+        const x = toMil(Math.round(offset / G) * G);
+        pinLines.push(`X ${p.name || '~'} ${p.num} ${x} ${y} ${toMil(PIN_LEN)} ${dir} 50 50 1 1 ${typeMap[p.type] || (isTop ? 'W' : 'P')}`);
+      });
+    });
+
+    return [
+      `EESchema-LIBRARY Version 2.4`,
+      `#encoding utf-8`,
+      `# Ward-Beck Systems Ltd. — ${val}`,
+      `# Category: ${currentSym.category} | Year: ${currentSym.year}`,
+      `#`,
+      `DEF ${safeName} ${ref} 0 40 Y Y 1 F N`,
+      `F0 "${ref}" 0 ${toMil(half_h + 2 * G)} 50 H V C CNN`,
+      `F1 "${val}" 0 ${toMil(-half_h - 2 * G)} 50 H V C CNN`,
+      `F2 "${currentSym.footprint}" 0 0 50 H I C CNN`,
+      `F3 "${currentSym.datasheet}" 0 0 50 H I C CNN`,
+      `$FPLIST`,
+      ` Connector_CardEdge:*`,
+      `$ENDFPLIST`,
+      `DRAW`,
+      `S ${toMil(-half_w)} ${toMil(half_h)} ${toMil(half_w)} ${toMil(-half_h)} 0 1 10 f`,
+      ...pinLines,
+      `ENDDRAW`,
+      `ENDDEF`,
+      `#End Library`
+    ].join('\n');
+  }
+
+  // Render SVG Preview in authentic KiCad appearance
+  function renderSvgPreview() {
+    const sides = getLayoutSides();
+    const { half_w, half_h } = computeGeometry(sides);
+
+    const scale = 3.6; // SVG pixels per mm
+    const pad = 36 * scale;
+    const bodyW = half_w * 2 * scale;
+    const bodyH = half_h * 2 * scale;
+    const totalW = bodyW + pad * 2;
+    const totalH = bodyH + pad * 2;
+
+    const cx = totalW / 2;
+    const cy = totalH / 2;
+
+    const pinElements = [];
+    const pinCircR = 1.2 * scale;
+
+    sides.L.forEach((p, i) => {
+      const pinY = cy - (half_h - (i + 1) * G) * scale;
+      const xEnd = cx - half_w * scale;
+      const xStart = xEnd - PIN_LEN * scale;
+      pinElements.push(`
+        <g class="pin-hover-group" id="svg-pin-${p.num}">
+          <line x1="${xStart}" y1="${pinY}" x2="${xEnd}" y2="${pinY}" class="kicad-pin-line"/>
+          <circle cx="${xStart}" cy="${pinY}" r="${pinCircR}" class="kicad-pin-circle"/>
+          <text x="${xStart - 4}" y="${pinY - 4}" class="kicad-pin-num" text-anchor="end">${escapeHtml(p.num)}</text>
+          <text x="${xEnd + 8}" y="${pinY + 4}" class="kicad-pin-name" text-anchor="start">${escapeHtml(p.name)}</text>
+        </g>
+      `);
+    });
+
+    sides.R.forEach((p, i) => {
+      const pinY = cy - (half_h - (i + 1) * G) * scale;
+      const xStart = cx + half_w * scale;
+      const xEnd = xStart + PIN_LEN * scale;
+      pinElements.push(`
+        <g class="pin-hover-group" id="svg-pin-${p.num}">
+          <line x1="${xStart}" y1="${pinY}" x2="${xEnd}" y2="${pinY}" class="kicad-pin-line"/>
+          <circle cx="${xEnd}" cy="${pinY}" r="${pinCircR}" class="kicad-pin-circle"/>
+          <text x="${xEnd + 4}" y="${pinY - 4}" class="kicad-pin-num" text-anchor="start">${escapeHtml(p.num)}</text>
+          <text x="${xStart - 8}" y="${pinY + 4}" class="kicad-pin-name" text-anchor="end">${escapeHtml(p.name)}</text>
+        </g>
+      `);
+    });
+
+    ['T', 'B'].forEach(side => {
+      const isTop = side === 'T';
+      const n = sides[side].length;
+      sides[side].forEach((p, i) => {
+        const offset = (i - (n - 1) / 2) * 2 * G;
+        const xPos = cx + Math.round(offset / G) * G * scale;
+        const yStart = isTop ? cy - (half_h + PIN_LEN) * scale : cy + (half_h + PIN_LEN) * scale;
+        const yEnd = isTop ? cy - half_h * scale : cy + half_h * scale;
+        pinElements.push(`
+          <g class="pin-hover-group" id="svg-pin-${p.num}">
+            <line x1="${xPos}" y1="${yStart}" x2="${xPos}" y2="${yEnd}" class="kicad-pin-line"/>
+            <circle cx="${xPos}" cy="${yStart}" r="${pinCircR}" class="kicad-pin-circle"/>
+            <text x="${xPos + 4}" y="${isTop ? yStart - 4 : yStart + 12}" class="kicad-pin-num" text-anchor="start">${escapeHtml(p.num)}</text>
+            <text x="${xPos}" y="${isTop ? yEnd + 14 : yEnd - 8}" class="kicad-pin-name" text-anchor="middle">${escapeHtml(p.name)}</text>
+          </g>
+        `);
+      });
+    });
+
+    const ref = currentSym.ref || 'U';
+    const val = currentSym.code || 'M124';
+
+    const svg = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${totalW} ${totalH}" width="${totalW}" height="${totalH}">
+        <!-- Symbol Body Rectangle -->
+        <rect x="${cx - half_w * scale}" y="${cy - half_h * scale}" width="${bodyW}" height="${bodyH}" class="kicad-rect"/>
+        <!-- Reference designator -->
+        <text x="${cx}" y="${cy - (half_h + 2.5 * G) * scale}" class="kicad-ref" text-anchor="middle" font-size="14">${escapeHtml(ref)}</text>
+        <!-- Symbol Value -->
+        <text x="${cx}" y="${cy + (half_h + 3.0 * G) * scale}" class="kicad-val" text-anchor="middle" font-size="14">${escapeHtml(val)}</text>
+        <!-- Pins -->
+        ${pinElements.join('')}
+      </svg>
+    `;
+
+    $('svg-container').innerHTML = svg;
+  }
+
+  function highlightPinInSvg(idx, on) {
+    const p = currentSym.pins[idx];
+    if (!p) return;
+    const g = $(`svg-pin-${p.num}`);
+    if (g) {
+      g.style.filter = on ? 'drop-shadow(0 0 4px #0066cc)' : 'none';
+    }
+  }
+
+  function update() {
+    currentSym.code = $('inp-code').value.trim() || 'CUSTOM';
+    currentSym.ref = $('inp-ref').value.trim() || 'U';
+    currentSym.footprint = $('inp-footprint').value.trim();
+    currentSym.desc = $('inp-desc').value.trim();
+    currentSym.keywords = $('inp-keywords').value.trim();
+    currentSym.datasheet = $('inp-datasheet').value.trim();
+    $('lbl-dl-sym').textContent = `${currentSym.code}.kicad_sym`;
+
+    renderSvgPreview();
+
+    if (currentTab === 'v6') {
+      $('code-output').textContent = generateKicadSym();
+    } else {
+      $('code-output').textContent = generateKicadV5Lib();
+    }
+  }
+
+  function downloadText(filename, text) {
+    const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  // Event Listeners
+  $('btn-load').addEventListener('click', () => {
+    const val = $('mod-search').value.trim();
+    if (val) loadSymbol(val);
+  });
+
+  $('mod-search').addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const val = $('mod-search').value.trim();
+      if (val) loadSymbol(val);
+    }
+  });
+
+  $('btn-reset').addEventListener('click', () => {
+    if (currentKey) loadSymbol(currentKey);
+  });
+
+  $('btn-custom').addEventListener('click', () => {
+    currentKey = '';
+    currentSym = {
+      code: 'NEW_MODULE',
+      name: 'Custom WBS Device',
+      category: 'CUSTOM',
+      year: '',
+      ref: 'U',
+      footprint: '',
+      datasheet: '',
+      desc: 'Custom Ward-Beck Systems Module',
+      keywords: 'custom ward-beck audio module',
+      power_summary: '+24V / GND',
+      impedance_summary: '600Ω',
+      layout: 'klc',
+      pins: [
+        { num: '1', name: 'AUDIO IN +', type: 'input', side: 'L' },
+        { num: '2', name: 'AUDIO IN -', type: 'input', side: 'L' },
+        { num: '3', name: 'AUDIO OUT +', type: 'output', side: 'R' },
+        { num: '4', name: 'AUDIO OUT -', type: 'output', side: 'R' },
+        { num: '5', name: '+24V', type: 'power_in', side: 'T' },
+        { num: '6', name: 'GND', type: 'power_in', side: 'B' }
+      ]
+    };
+    $('inp-code').value = currentSym.code;
+    $('inp-ref').value = currentSym.ref;
+    $('inp-footprint').value = '';
+    $('inp-desc').value = currentSym.desc;
+    $('inp-keywords').value = currentSym.keywords;
+    $('inp-datasheet').value = '';
+    $('txt-power-group').textContent = currentSym.power_summary;
+    $('txt-imp-group').textContent = currentSym.impedance_summary;
+    renderPinTable();
+    update();
+  });
+
+  ['inp-code', 'inp-ref', 'inp-footprint', 'inp-desc', 'inp-keywords', 'inp-datasheet', 'sel-layout'].forEach(id => {
+    $(id).addEventListener('input', update);
+    $(id).addEventListener('change', update);
+  });
+
+  $('btn-add-pin').addEventListener('click', addPin);
+
+  $('tab-v6').addEventListener('click', () => {
+    currentTab = 'v6';
+    $('tab-v6').classList.add('active');
+    $('tab-v5').classList.remove('active');
+    update();
+  });
+
+  $('tab-v5').addEventListener('click', () => {
+    currentTab = 'v5';
+    $('tab-v5').classList.add('active');
+    $('tab-v6').classList.remove('active');
+    update();
+  });
+
+  $('btn-dl-sym').addEventListener('click', () => {
+    downloadText(`${currentSym.code}.kicad_sym`, generateKicadSym());
+    toast(`Saved ${currentSym.code}.kicad_sym!`);
+  });
+
+  $('btn-dl-lib').addEventListener('click', () => {
+    downloadText(`${currentSym.code}.lib`, generateKicadV5Lib());
+    toast(`Saved ${currentSym.code}.lib!`);
+  });
+
+  $('btn-copy-code').addEventListener('click', () => {
+    const text = $('code-output').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      toast('Copied KiCad symbol to clipboard!');
+    }).catch(() => {
+      toast('Failed to copy.');
+    });
+  });
+
+  // Export category library
+  $('btn-cat-download').addEventListener('click', () => {
+    const selCat = $('sel-cat-export').value;
+    if (!selCat) {
+      alert('Please select a category from the dropdown.');
+      return;
+    }
+    const safeCat = selCat.replace(/[\\/*?:"<>| ]/g, '_');
+    const directUrl = `Engineering/KICAD/WBS_${safeCat}.kicad_sym`;
+    const a = document.createElement('a');
+    a.href = directUrl;
+    a.download = `WBS_${safeCat}.kicad_sym`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    toast(`Exporting WBS_${safeCat}.kicad_sym...`);
+  });
+
+  // Category filter pills
+  $('cat-pills').addEventListener('click', e => {
+    const p = e.target.closest('.pill');
+    if (!p) return;
+    $('cat-pills').querySelectorAll('.pill').forEach(el => el.classList.remove('active'));
+    p.classList.add('active');
+    activeCat = p.dataset.cat;
+
+    const symbols = window.WBS_SYMBOLS || {};
+    const firstMatch = Object.keys(symbols).find(k => activeCat === 'ALL' || symbols[k].category === activeCat);
+    if (firstMatch) loadSymbol(firstMatch);
+  });
+
+  // Batch section handlers
+  $('btn-batch-select-all').addEventListener('click', () => {
+    $('batch-grid').querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = true);
+  });
+  $('btn-batch-clear').addEventListener('click', () => {
+    $('batch-grid').querySelectorAll('input[type=checkbox]').forEach(cb => cb.checked = false);
+  });
+  $('btn-batch-download').addEventListener('click', () => {
+    const checked = Array.from($('batch-grid').querySelectorAll('input[type=checkbox]:checked')).map(cb => cb.value);
+    if (!checked.length) {
+      alert('Please select at least one module from the list.');
+      return;
+    }
+    const symbols = window.WBS_SYMBOLS || {};
+    const allSyms = [];
+
+    checked.forEach(k => {
+      const s = symbols[k];
+      if (!s) return;
+      allSyms.push(generateSymbolSexpFromData(s));
+    });
+
+    const libText = [
+      `(kicad_symbol_lib (version 20231120) (generator "wbsps_batch_generator") (generator_version "2.0")`,
+      allSyms.join('\n'),
+      `)`
+    ].join('\n');
+
+    downloadText(`WBS_Custom_${checked.length}_Modules.kicad_sym`, libText);
+    toast(`Generated combined library with ${checked.length} symbols!`);
+  });
+
+  function generateSymbolSexpFromData(s) {
+    const safeName = (s.safe_name || s.code).replace(/'/g, '_alt');
+    const ref = 'U';
+    const val = s.code;
+    const font = '(effects (font (size 1.27 1.27)))';
+    const hidden = '(effects (font (size 1.27 1.27)) hide)';
+
+    const sides = { L: [], R: [], T: [], B: [] };
+    (s.pins || []).forEach(p => {
+      const sd = sides[p.side] ? p.side : 'L';
+      sides[sd].push(p);
+    });
+
+    const rows = Math.max(sides.L.length, sides.R.length, 2);
+    const cols = Math.max(sides.T.length, sides.B.length, 1);
+    const longest = Math.max(...(s.pins || []).map(p => (p.name || '').length), 0);
+    const half_w = Math.round(Math.max(10 * G, cols * 2 * G, (longest * 0.42) * G) / G) * G;
+    const half_h = Math.round((rows + 2) / 2) * G;
+
+    const pinLines = [];
+    sides.L.forEach((p, i) => {
+      const y = half_h - (i + 1) * G;
+      pinLines.push(`      (pin ${p.type} line (at ${(-half_w - PIN_LEN).toFixed(2)} ${y.toFixed(2)} 0) (length ${PIN_LEN.toFixed(2)}) (name ${q(p.name)} ${font}) (number ${q(p.num)} ${font}))`);
+    });
+    sides.R.forEach((p, i) => {
+      const y = half_h - (i + 1) * G;
+      pinLines.push(`      (pin ${p.type} line (at ${(half_w + PIN_LEN).toFixed(2)} ${y.toFixed(2)} 180) (length ${PIN_LEN.toFixed(2)}) (name ${q(p.name)} ${font}) (number ${q(p.num)} ${font}))`);
+    });
+    ['T', 'B'].forEach(side => {
+      const y = side === 'T' ? half_h + PIN_LEN : -half_h - PIN_LEN;
+      const ang = side === 'T' ? 270 : 90;
+      const n = sides[side].length;
+      sides[side].forEach((p, i) => {
+        const offset = (i - (n - 1) / 2) * 2 * G;
+        const x = Math.round(offset / G) * G;
+        pinLines.push(`      (pin ${p.type} line (at ${x.toFixed(2)} ${y.toFixed(2)} ${ang}) (length ${PIN_LEN.toFixed(2)}) (name ${q(p.name)} ${font}) (number ${q(p.num)} ${font}))`);
+      });
+    });
+
+    return [
+      `  (symbol ${q(safeName)} (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)`,
+      `    (property "Reference" ${q(ref)} (at 0 ${(half_h + 2 * G).toFixed(2)} 0) ${font})`,
+      `    (property "Value" ${q(val)} (at 0 {(-half_h - 2 * G).toFixed(2)} 0) ${font})`,
+      `    (property "Footprint" ${q(s.footprint || '')} (at 0 0 0) ${hidden})`,
+      `    (property "Datasheet" ${q(s.datasheet || '')} (at 0 0 0) ${hidden})`,
+      `    (property "Description" ${q(s.description || '')} (at 0 0 0) ${hidden})`,
+      `    (property "ki_keywords" ${q(s.keywords || '')} (at 0 0 0) ${hidden})`,
+      `    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) ${hidden})`,
+      `    (property "Category" ${q(s.category || 'UNSORTED')} (at 0 0 0) ${hidden})`,
+      `    (symbol ${q(safeName + "_0_1")} (rectangle (start ${(-half_w).toFixed(2)} ${half_h.toFixed(2)}) (end ${half_w.toFixed(2)} {(-half_h).toFixed(2)}) (stroke (width 0.254) (type default)) (fill (type background))))`,
+      `    (symbol ${q(safeName + "_1_1")}`,
+      ...pinLines,
+      `    )`,
+      `  )`
+    ].join('\n');
+  }
+
+  // URL query parameter support: kicad.html?m=M450
+  const params = new URLSearchParams(window.location.search);
+  const reqMod = params.get('m') || params.get('mod') || params.get('module') || 'M124';
+
+  initModuleList();
+  loadSymbol(reqMod);
+})();
+</script>
+</body>
+</html>

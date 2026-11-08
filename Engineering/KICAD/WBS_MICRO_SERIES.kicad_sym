@@ -1,0 +1,169 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - Category MICRO SERIES") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: microAMP
+  ;; Title: Miniature 30 Watt Class D Amplifier With Digital Input
+  ;; Category: MICRO SERIES | Series: Standard | Year: 2015
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/microAMP.html
+  ;; ====================================================================
+  (symbol "microAMP" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "microAMP" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/microAMP.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "microAMP - Miniature 30 Watt Class D Amplifier With Digital Input (MICRO SERIES). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MICRO SERIES  microAMP" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "microAMP - Miniature 30 Watt Class D Amplifier With Digital Input (MICRO SERIES). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MICRO SERIES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2015" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "microAMP_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "microAMP_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: microCOM
+  ;; Title: Instruct Ion
+  ;; Category: MICRO SERIES | Series: Standard | Year: 1981
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/microCOM.html
+  ;; ====================================================================
+  (symbol "microCOM" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "microCOM" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/microCOM.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "microCOM: MicroCom Communication System B ) Central Matrix Control The control system of the MicroCOM consists of processor based Input and Output Controllers Transmit/Receive and Matrix Lat..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MICRO SERIES  microCOM" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "microCOM: MicroCom Communication System B ) Central Matrix Control The control system of the MicroCOM consists of processor based Input and Output Controllers Transmit/Receive and Matrix Lat..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MICRO SERIES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1981" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "microCOM_0_1" (rectangle (start -63.50 10.16) (end 63.50 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "microCOM_1_1"
+      (pin input line (at -68.58 7.62 0) (length 5.08) (name "Dial In Diraxb Sela Gfx Engctl +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -68.58 5.08 0) (length 5.08) (name "Dial In Diraxb Sela Gfx Engctl -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 68.58 7.62 180) (length 5.08) (name "Input/Output Control +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 68.58 5.08 180) (length 5.08) (name "Input/Output Control -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 68.58 0.00 180) (length 5.08) (name "Output +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 68.58 -2.54 180) (length 5.08) (name "Output -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -15.24 90) (length 5.08) (name "-12V -12.0V" (effects (font (size 1.27 1.27)))) (number "-12V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -15.24 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "GND" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: microCOM II
+  ;; Title: II Communications System
+  ;; Category: MICRO SERIES | Series: Standard | Year: 1988
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/microCOM II.html
+  ;; ====================================================================
+  (symbol "microCOM_II" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "microCOM II" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/microCOM II.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "microCOM II - II Communications System (MICRO SERIES). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MICRO SERIES  microCOM II" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "microCOM II - II Communications System (MICRO SERIES). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MICRO SERIES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1988" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "microCOM_II_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "microCOM_II_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: microDriver
+  ;; Title: Miniature Stereo Headphone Module
+  ;; Category: MICRO SERIES | Series: Standard | Year: 2014
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/microDriver.html
+  ;; ====================================================================
+  (symbol "microDriver" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "microDriver" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/microDriver.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "microDriver - Miniature Stereo Headphone Module (MICRO SERIES). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MICRO SERIES  microDriver" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "microDriver - Miniature Stereo Headphone Module (MICRO SERIES). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MICRO SERIES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2014" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "microDriver_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "microDriver_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: microMATCH
+  ;; Title: Stand Alone Unbalanced To Balanced Converter
+  ;; Category: MICRO SERIES | Series: Standard | Year: 2015
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/microMATCH.html
+  ;; ====================================================================
+  (symbol "microMATCH" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "microMATCH" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/microMATCH.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "microMATCH - Stand Alone Unbalanced To Balanced Converter (MICRO SERIES). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MICRO SERIES  microMATCH" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "microMATCH - Stand Alone Unbalanced To Balanced Converter (MICRO SERIES). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MICRO SERIES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2015" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "microMATCH_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "microMATCH_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

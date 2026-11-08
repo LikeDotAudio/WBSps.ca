@@ -1,0 +1,565 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - Category DYNAMICS") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M406
+  ;; Title: Compressor - Limiter
+  ;; Category: DYNAMICS | Series: Standard | Year: 1968
+  ;; Power: VCC-AUDIO +48V, VCC-LAMP +24V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M406.html
+  ;; ====================================================================
+  (symbol "M406" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M406" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M406.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M406 - Compressor - Limiter (DYNAMICS). VCC-AUDIO +48V, VCC-LAMP +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M406" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M406 - Compressor - Limiter (DYNAMICS). VCC-AUDIO +48V, VCC-LAMP +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1968" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC-AUDIO +48V, VCC-LAMP +24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M406_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M406_1_1"
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "Meter OUT +" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "Meter OUT -" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "VCC-AUDIO +48V (0.1A)" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "VCC-LAMP +24V (0.1A)" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -12.70 -12.70 90) (length 5.08) (name "Compressor IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 -12.70 90) (length 5.08) (name "Compressor IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "Compressor OUt +" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "Compressor OUt -" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 12.70 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M406A
+  ;; Title: M406A
+  ;; Category: DYNAMICS | Series: Standard | Year: 1968
+  ;; Power: +24 V, +48 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M406A.html
+  ;; ====================================================================
+  (symbol "M406A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M406A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M406A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M406A - M406A (DYNAMICS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M406A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M406A - M406A (DYNAMICS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1968" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24 V, +48 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M406A_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M406A_1_1"
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "SIDE CHAIN" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "+24 V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -12.70 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 12.70 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M406B
+  ;; Title: Compressor/Limiter
+  ;; Category: DYNAMICS | Series: Standard | Year: 1969
+  ;; Power: +24 V, +48 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M406B.html
+  ;; ====================================================================
+  (symbol "M406B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M406B" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M406B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M406B: The M4O6B Compressor / Limiter is a plug-in, high performance module designed to be compatible with the Ward-Beck group of modular console components Two concentric controls, a sin..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M406B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M406B: The M4O6B Compressor / Limiter is a plug-in, high performance module designed to be compatible with the Ward-Beck group of modular console components Two concentric controls, a sin..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1969" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24 V, +48 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M406B_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M406B_1_1"
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "SIDE CHAIN" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "+24 V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -12.70 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 12.70 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M406C
+  ;; Title: M406C
+  ;; Category: DYNAMICS | Series: Standard | Year: 1968
+  ;; Power: +24 V, +48 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M406C.html
+  ;; ====================================================================
+  (symbol "M406C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M406C" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M406C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M406C - M406C (DYNAMICS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M406C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M406C - M406C (DYNAMICS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1968" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24 V, +48 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M406C_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M406C_1_1"
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "SIDE CHAIN" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "+24 V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -12.70 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 12.70 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M406M
+  ;; Title: M406M
+  ;; Category: DYNAMICS | Series: Standard | Year: 1968
+  ;; Power: +24 V, +48 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M406M.html
+  ;; ====================================================================
+  (symbol "M406M" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M406M" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M406M.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M406M - M406M (DYNAMICS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M406M" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M406M - M406M (DYNAMICS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1968" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24 V, +48 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M406M_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M406M_1_1"
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "SIDE CHAIN" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "+24 V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -12.70 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 12.70 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M415
+  ;; Title: Mic/line Amplifier with compression
+  ;; Category: DYNAMICS | Series: Standard | Year: 1971
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M415.html
+  ;; ====================================================================
+  (symbol "M415" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M415" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M415.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M415 - Mic/line Amplifier with compression (DYNAMICS). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M415" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M415 - Mic/line Amplifier with compression (DYNAMICS). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1971" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M415_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M415_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M465
+  ;; Title: Reverb Module
+  ;; Category: DYNAMICS | Series: Standard | Year: 1974
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M465.html
+  ;; ====================================================================
+  (symbol "M465" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 55.88 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M465" (at 0 -55.88 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M465.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M465: 4-109 AMPLIFIER SERIES The 4-109 series of amp] ifiers are printed circuit board units which are utilized a $ an interna ] component in certain Ward- Beck Systems modules Each 4-10..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M465" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M465: 4-109 AMPLIFIER SERIES The 4-109 series of amp] ifiers are printed circuit board units which are utilized a $ an interna ] component in certain Ward- Beck Systems modules Each 4-10..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M465_0_1" (rectangle (start -30.48 50.80) (end 30.48 -50.80) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M465_1_1"
+      (pin input line (at -35.56 48.26 0) (length 5.08) (name "RETURN IN" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 45.72 0) (length 5.08) (name "RETURN IN" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 48.26 180) (length 5.08) (name "REV SEND OUT" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 43.18 180) (length 5.08) (name "REV SEND" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 38.10 180) (length 5.08) (name "REV SEND OUT" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 33.02 180) (length 5.08) (name "REV SEND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 27.94 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 25.40 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 20.32 180) (length 5.08) (name "SOLO OUT" (effects (font (size 1.27 1.27)))) (number "K" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 17.78 180) (length 5.08) (name "SOLO OUT" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 12.70 180) (length 5.08) (name "RR OUT, DIRECT" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 7.62 180) (length 5.08) (name "RR OUT" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 2.54 180) (length 5.08) (name "RR OUT, LEFT" (effects (font (size 1.27 1.27)))) (number "R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 0.00 180) (length 5.08) (name "RR OUT, LEFT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 -5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -10.16 180) (length 5.08) (name "DIRECT" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -12.70 180) (length 5.08) (name "FADER" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -15.24 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "C" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -17.78 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -20.32 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -22.86 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -25.40 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "H" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -27.94 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -30.48 180) (length 5.08) (name "FROM RR FADER" (effects (font (size 1.27 1.27)))) (number "M" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -33.02 180) (length 5.08) (name "FROM RR" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -35.56 180) (length 5.08) (name "FADER" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -38.10 180) (length 5.08) (name "TO RR FADER" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -40.64 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -43.18 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -55.88 90) (length 5.08) (name "24V COM" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -55.88 90) (length 5.08) (name "25V COM" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M465A
+  ;; Title: Reverb Module
+  ;; Category: DYNAMICS | Series: Standard | Year: 1977
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M465A.html
+  ;; ====================================================================
+  (symbol "M465A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 55.88 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M465A" (at 0 -55.88 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M465A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M465A - Reverb Module (DYNAMICS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M465A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M465A - Reverb Module (DYNAMICS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M465A_0_1" (rectangle (start -30.48 50.80) (end 30.48 -50.80) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M465A_1_1"
+      (pin input line (at -35.56 48.26 0) (length 5.08) (name "RETURN IN" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 45.72 0) (length 5.08) (name "RETURN IN" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 48.26 180) (length 5.08) (name "REV SEND OUT" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 43.18 180) (length 5.08) (name "REV SEND" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 38.10 180) (length 5.08) (name "REV SEND OUT" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 33.02 180) (length 5.08) (name "REV SEND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 27.94 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 25.40 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 20.32 180) (length 5.08) (name "SOLO OUT" (effects (font (size 1.27 1.27)))) (number "K" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 17.78 180) (length 5.08) (name "SOLO OUT" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 12.70 180) (length 5.08) (name "RR OUT, DIRECT" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 7.62 180) (length 5.08) (name "RR OUT" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 2.54 180) (length 5.08) (name "RR OUT, LEFT" (effects (font (size 1.27 1.27)))) (number "R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 0.00 180) (length 5.08) (name "RR OUT, LEFT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 -5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -10.16 180) (length 5.08) (name "DIRECT" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -12.70 180) (length 5.08) (name "FADER" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -15.24 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "C" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -17.78 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -20.32 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -22.86 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -25.40 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "H" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -27.94 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -30.48 180) (length 5.08) (name "FROM RR FADER" (effects (font (size 1.27 1.27)))) (number "M" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -33.02 180) (length 5.08) (name "FROM RR" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -35.56 180) (length 5.08) (name "FADER" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -38.10 180) (length 5.08) (name "TO RR FADER" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -40.64 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -43.18 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -55.88 90) (length 5.08) (name "24V COM" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -55.88 90) (length 5.08) (name "25V COM" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M465B
+  ;; Title: Reverb Module
+  ;; Category: DYNAMICS | Series: Standard | Year: 1982
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M465B.html
+  ;; ====================================================================
+  (symbol "M465B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M465B" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M465B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M465B - Reverb Module (DYNAMICS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M465B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M465B - Reverb Module (DYNAMICS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1982" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M465B_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M465B_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT SIGNAL" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M466
+  ;; Title: Compressor - Limiter
+  ;; Category: DYNAMICS | Series: L-EFFECT | Year: 1976
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Line in: 600Ω, Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M466.html
+  ;; ====================================================================
+  (symbol "M466" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M466" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M466.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M466: 8-109 AMPLIFIER SERIES inverting amp]ificr with El externally s trapped to E6 . The output 0 [ a ]1 IO de 1 s 0 f the 8-109 series 15 actively ba ]anced and i$ brought out at pins ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS L-EFFECT M466" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M466: 8-109 AMPLIFIER SERIES inverting amp]ificr with El externally s trapped to E6 . The output 0 [ a ]1 IO de 1 s 0 f the 8-109 series 15 actively ba ]anced and i$ brought out at pins ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1976" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Line in: 600Ω, Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M466_0_1" (rectangle (start -45.72 12.70) (end 45.72 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M466_1_1"
+      (pin input line (at -50.80 10.16 0) (length 5.08) (name "Dynamics-IN-LEFT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 7.62 0) (length 5.08) (name "Dynamics-IN-LEFT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 2.54 0) (length 5.08) (name "Dynamics-IN-Right +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 0.00 0) (length 5.08) (name "Dynamics-IN-Right -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 10.16 180) (length 5.08) (name "Dynamics-OUT-LEFT +" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 7.62 180) (length 5.08) (name "Dynamics-OUT-LEFT -" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 2.54 180) (length 5.08) (name "Dynamics-OUT-IN +" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 0.00 180) (length 5.08) (name "Dynamics-OUT-IN -" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 50.80 -5.08 180) (length 5.08) (name "VU Meter +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 50.80 -7.62 180) (length 5.08) (name "VU Meter -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -10.16 -17.78 90) (length 5.08) (name "COMP TIE - 1 +" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "COMP TIE - 1 -" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -17.78 90) (length 5.08) (name "COMP TIE - 2 +" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "COMP TIE - 2 -" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 10.16 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M466C
+  ;; Title: M466C
+  ;; Category: DYNAMICS | Series: Standard | Year: 1976
+  ;; Power: -25 V, +25 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M466C.html
+  ;; ====================================================================
+  (symbol "M466C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M466C" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M466C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M466C - M466C (DYNAMICS). -25 V, +25 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M466C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M466C - M466C (DYNAMICS). -25 V, +25 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1976" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "-25 V, +25 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M466C_0_1" (rectangle (start -25.40 10.16) (end 25.40 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M466C_1_1"
+      (pin input line (at -30.48 7.62 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 0.00 0) (length 5.08) (name "STEREO TIE" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 7.62 180) (length 5.08) (name "VU METER" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 0.00 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "EXTERNAL" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "EXTERNAL" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 15.24 270) (length 5.08) (name "-25 V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 15.24 270) (length 5.08) (name "+25 V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -7.62 -15.24 90) (length 5.08) (name "SHIELD GND" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -15.24 90) (length 5.08) (name "COMP TIE   1" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -15.24 90) (length 5.08) (name "±COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 7.62 -15.24 90) (length 5.08) (name "CHASSIS GND" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M466M
+  ;; Title: Meter Module
+  ;; Category: DYNAMICS | Series: Standard | Year: 1976
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M466M.html
+  ;; ====================================================================
+  (symbol "M466M" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M466M" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M466M.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M466M - Meter Module (DYNAMICS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M466M" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M466M - Meter Module (DYNAMICS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1976" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M466M_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M466M_1_1"
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "VU Meter +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "VU Meter -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 -12.70 90) (length 5.08) (name "COMP TIE - 1 +" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "COMP TIE - 1 -" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "COMP TIE - 2 +" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -12.70 90) (length 5.08) (name "COMP TIE - 2 -" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M467
+  ;; Title: DYMAMICS
+  ;; Category: DYNAMICS | Series: L-EFFECT | Year: 1976
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Line in: 600Ω, Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M467.html
+  ;; ====================================================================
+  (symbol "M467" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M467" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M467.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M467: 8-109 AMPLIELER_SERLES Output Level : +30 dBm maximum Eo< - 4 Power Requirements: +/ - 21.5 volts dc, mA quiescent current. MA +30 dBm output. 07g ec' -= degrees Celsius. 002tz] me..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS L-EFFECT M467" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M467: 8-109 AMPLIELER_SERLES Output Level : +30 dBm maximum Eo< - 4 Power Requirements: +/ - 21.5 volts dc, mA quiescent current. MA +30 dBm output. 07g ec' -= degrees Celsius. 002tz] me..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1976" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Line in: 600Ω, Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M467_0_1" (rectangle (start -45.72 12.70) (end 45.72 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M467_1_1"
+      (pin input line (at -50.80 10.16 0) (length 5.08) (name "Dynamics-IN-LEFT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 7.62 0) (length 5.08) (name "Dynamics-IN-LEFT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 2.54 0) (length 5.08) (name "Dynamics-IN-Right +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 0.00 0) (length 5.08) (name "Dynamics-IN-Right -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 -5.08 0) (length 5.08) (name "Key Gate Input +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 -7.62 0) (length 5.08) (name "Key Gate Input -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 10.16 180) (length 5.08) (name "Dynamics-OUT-LEFT +" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 7.62 180) (length 5.08) (name "Dynamics-OUT-LEFT -" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 2.54 180) (length 5.08) (name "Dynamics-OUT-IN +" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 0.00 180) (length 5.08) (name "Dynamics-OUT-IN -" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 50.80 -5.08 180) (length 5.08) (name "VU Meter +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 50.80 -7.62 180) (length 5.08) (name "VU Meter -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -10.16 -17.78 90) (length 5.08) (name "COMP TIE - 1 +" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "COMP TIE - 1 -" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -17.78 90) (length 5.08) (name "COMP TIE - 2 +" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "COMP TIE - 2 -" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 10.16 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8207
+  ;; Title: M8207
+  ;; Category: DYNAMICS | Series: Standard | Year: 1995
+  ;; Power: ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8207.html
+  ;; ====================================================================
+  (symbol "M8207" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8207" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8207.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8207: MFG MFG PART­ NUMBER PCB Printed Circuit Board WBS 14-278 U1, U3-U5 8 Pin Socket Amp 640463-3 U6, U7 14 Pin Socket \" 640357-3 WBS recommends the use of replacement parts made by th..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M8207" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8207: MFG MFG PART­ NUMBER PCB Printed Circuit Board WBS 14-278 U1, U3-U5 8 Pin Socket Amp 640463-3 U6, U7 14 Pin Socket \" 640357-3 WBS recommends the use of replacement parts made by th..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8207_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8207_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT SIGNAL" (effects (font (size 1.27 1.27)))) (number "K" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT SIGNAL" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 0.00 0) (length 5.08) (name "INPUT SIGNAL" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

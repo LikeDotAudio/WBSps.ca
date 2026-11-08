@@ -1,0 +1,34 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M8207") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8207
+  ;; Title: M8207
+  ;; Category: DYNAMICS | Series: Standard | Year: 1995
+  ;; Power: ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8207.html
+  ;; ====================================================================
+  (symbol "M8207" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8207" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8207.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8207: MFG MFG PART­ NUMBER PCB Printed Circuit Board WBS 14-278 U1, U3-U5 8 Pin Socket Amp 640463-3 U6, U7 14 Pin Socket \" 640357-3 WBS recommends the use of replacement parts made by th..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M8207" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8207: MFG MFG PART­ NUMBER PCB Printed Circuit Board WBS 14-278 U1, U3-U5 8 Pin Socket Amp 640463-3 U6, U7 14 Pin Socket \" 640357-3 WBS recommends the use of replacement parts made by th..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8207_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8207_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT SIGNAL" (effects (font (size 1.27 1.27)))) (number "K" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT SIGNAL" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 0.00 0) (length 5.08) (name "INPUT SIGNAL" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

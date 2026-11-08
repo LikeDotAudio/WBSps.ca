@@ -1,0 +1,46 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M466") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M466
+  ;; Title: Compressor - Limiter
+  ;; Category: DYNAMICS | Series: L-EFFECT | Year: 1976
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Line in: 600Ω, Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M466.html
+  ;; ====================================================================
+  (symbol "M466" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M466" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M466.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M466: 8-109 AMPLIFIER SERIES inverting amp]ificr with El externally s trapped to E6 . The output 0 [ a ]1 IO de 1 s 0 f the 8-109 series 15 actively ba ]anced and i$ brought out at pins ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS L-EFFECT M466" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M466: 8-109 AMPLIFIER SERIES inverting amp]ificr with El externally s trapped to E6 . The output 0 [ a ]1 IO de 1 s 0 f the 8-109 series 15 actively ba ]anced and i$ brought out at pins ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1976" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Line in: 600Ω, Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M466_0_1" (rectangle (start -45.72 12.70) (end 45.72 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M466_1_1"
+      (pin input line (at -50.80 10.16 0) (length 5.08) (name "Dynamics-IN-LEFT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 7.62 0) (length 5.08) (name "Dynamics-IN-LEFT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 2.54 0) (length 5.08) (name "Dynamics-IN-Right +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 0.00 0) (length 5.08) (name "Dynamics-IN-Right -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 10.16 180) (length 5.08) (name "Dynamics-OUT-LEFT +" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 7.62 180) (length 5.08) (name "Dynamics-OUT-LEFT -" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 2.54 180) (length 5.08) (name "Dynamics-OUT-IN +" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 50.80 0.00 180) (length 5.08) (name "Dynamics-OUT-IN -" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 50.80 -5.08 180) (length 5.08) (name "VU Meter +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 50.80 -7.62 180) (length 5.08) (name "VU Meter -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -10.16 -17.78 90) (length 5.08) (name "COMP TIE - 1 +" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "COMP TIE - 1 -" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -17.78 90) (length 5.08) (name "COMP TIE - 2 +" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "COMP TIE - 2 -" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 10.16 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

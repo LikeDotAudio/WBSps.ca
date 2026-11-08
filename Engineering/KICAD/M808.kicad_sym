@@ -1,0 +1,33 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M808") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M808
+  ;; Title: RELAY Switcher MOPLLE SCHEMATIC
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M808.html
+  ;; ====================================================================
+  (symbol "M808" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M808" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M808.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M808 - RELAY Switcher MOPLLE SCHEMATIC (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M808" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M808 - RELAY Switcher MOPLLE SCHEMATIC (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M808_0_1" (rectangle (start -45.72 7.62) (end 45.72 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M808_1_1"
+      (pin input line (at -50.80 5.08 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 2.54 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 -2.54 0) (length 5.08) (name "BE TIED TOGETHER THEN, THE CANCEL BUSS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "ENERGIZED BY MOMENTARILY GROUNDING THE CONTROL T" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

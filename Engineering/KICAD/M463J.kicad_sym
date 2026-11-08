@@ -1,0 +1,50 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M463J") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M463J
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1972
+  ;; Power: +25V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M463J.html
+  ;; ====================================================================
+  (symbol "M463J" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M463J" (at 0 -30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M463J.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M463J: 8-109 AMPLIFIER SERIES inverting amplifier with E1 exte rnally strapped to E6. The output of all models of the 8-109 series is actively balanced and is brought out at pins E4 and E..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M463J" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M463J: 8-109 AMPLIFIER SERIES inverting amplifier with E1 exte rnally strapped to E6. The output of all models of the 8-109 series is actively balanced and is brought out at pins E4 and E..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1972" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M463J_0_1" (rectangle (start -35.56 25.40) (end 35.56 -25.40) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M463J_1_1"
+      (pin input line (at -40.64 22.86 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 17.78 0) (length 5.08) (name "PREFADE IN" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 12.70 0) (length 5.08) (name "FADER IN" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 22.86 180) (length 5.08) (name "PA OUT" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 17.78 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 15.24 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 10.16 180) (length 5.08) (name "RS OUT" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 7.62 180) (length 5.08) (name "RS OUT" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "SOLO OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -2.54 180) (length 5.08) (name "FADER OUT" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -7.62 180) (length 5.08) (name "MI OUT" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -12.70 180) (length 5.08) (name "DIRECT OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -17.78 180) (length 5.08) (name "MONITOR OUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 -22.86 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 30.48 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -12.70 -30.48 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -7.62 -30.48 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -2.54 -30.48 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -30.48 90) (length 5.08) (name "CTL COM" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -30.48 90) (length 5.08) (name "±COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 12.70 -30.48 90) (length 5.08) (name "CHASSIS GND" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

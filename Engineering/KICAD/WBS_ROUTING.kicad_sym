@@ -1,0 +1,820 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - Category ROUTING") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M126
+  ;; Title: M126
+  ;; Category: ROUTING | Series: Standard | Year: 1968
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M126.html
+  ;; ====================================================================
+  (symbol "M126" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M126" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M126.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M126 - M126 (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M126" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M126 - M126 (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1968" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M126_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M126_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M454
+  ;; Title: Slate Assign Module
+  ;; Category: ROUTING | Series: Standard | Year: 1974
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M454.html
+  ;; ====================================================================
+  (symbol "M454" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M454" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M454.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M454 - Slate Assign Module (ROUTING). VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M454" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M454 - Slate Assign Module (ROUTING). VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M454_0_1" (rectangle (start -40.64 12.70) (end 40.64 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M454_1_1"
+      (pin passive line (at -45.72 10.16 0) (length 5.08) (name "JMP.Z.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 7.62 0) (length 5.08) (name "JMP.Z.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 5.08 0) (length 5.08) (name "JMP.X.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.X.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.20.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -7.62 0) (length 5.08) (name "JMP.20.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 10.16 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 5.08 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 2.54 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 0.00 180) (length 5.08) (name "JMP.20.19 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -2.54 180) (length 5.08) (name "JMP.20.19 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.X.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.X.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 17.78 270) (length 5.08) (name "VCC-LOGIC +24V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M455
+  ;; Title: Auxiliary Module
+  ;; Category: ROUTING | Series: Standard | Year: 1974
+  ;; Power: +24V +24.0V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M455.html
+  ;; ====================================================================
+  (symbol "M455" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M455" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M455.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M455: MFG MEG_PART_NUMBER 2222-638-09478 c6 C1l Capacitor 4.3 PF Philips R15 Resistor @W 5% 2k4 WBS recommends the us e of replacement parts made by the specified manufacturers for conti..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M455" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M455: MFG MEG_PART_NUMBER 2222-638-09478 c6 C1l Capacitor 4.3 PF Philips R15 Resistor @W 5% 2k4 WBS recommends the us e of replacement parts made by the specified manufacturers for conti..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V +24.0V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M455_0_1" (rectangle (start -25.40 12.70) (end 25.40 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M455_1_1"
+      (pin input line (at -30.48 10.16 0) (length 5.08) (name "Input A +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 7.62 0) (length 5.08) (name "Input A -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "In Rib 'V'V'V ) +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 0.00 0) (length 5.08) (name "In Rib 'V'V'V ) -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 -5.08 0) (length 5.08) (name "In Terlock +" (effects (font (size 1.27 1.27)))) (number "I3P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 -7.62 0) (length 5.08) (name "In Terlock -" (effects (font (size 1.27 1.27)))) (number "I3N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 17.78 270) (length 5.08) (name "+24V +24.0V" (effects (font (size 1.27 1.27)))) (number "+24V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "GND" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -17.78 90) (length 5.08) (name "+25V +25.0V" (effects (font (size 1.27 1.27)))) (number "+25V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "-5V -5.0V" (effects (font (size 1.27 1.27)))) (number "-5V" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M456
+  ;; Title: Dual Mixdown Module
+  ;; Category: ROUTING | Series: Standard | Year: 1975
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M456.html
+  ;; ====================================================================
+  (symbol "M456" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M456" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M456.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M456 - Dual Mixdown Module (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M456" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M456 - Dual Mixdown Module (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M456_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M456_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M456B
+  ;; Title: Dual Mixdown Module
+  ;; Category: ROUTING | Series: Standard | Year: 1975
+  ;; Power: See manual
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M456B.html
+  ;; ====================================================================
+  (symbol "M456B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M456B" (at 0 -30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M456B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M456B: 5-101 AMPLIFIER_SERIES The 5-101 series 0 f amplifiers are utilized a$ plug-in units within certain Ward-Beck Systems 450 and 460 series modules There are two separate amplifiers p..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M456B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M456B: 5-101 AMPLIFIER_SERIES The 5-101 series 0 f amplifiers are utilized a$ plug-in units within certain Ward-Beck Systems 450 and 460 series modules There are two separate amplifiers p..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M456B_0_1" (rectangle (start -25.40 25.40) (end 25.40 -25.40) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M456B_1_1"
+      (pin input line (at -30.48 22.86 0) (length 5.08) (name "CTL" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 22.86 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 20.32 180) (length 5.08) (name "18" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 17.78 180) (length 5.08) (name "21" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "F" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "9" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "L" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "P" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "13" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "R" (effects (font (size 1.27 1.27)))) (number "R" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "14" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "15" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "T" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "16" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "U" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "SOLO" (effects (font (size 1.27 1.27)))) (number "V" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "Y" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M457
+  ;; Title: Pre-Mixer Module
+  ;; Category: ROUTING | Series: Standard | Year: 1975
+  ;; Power: See manual
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M457.html
+  ;; ====================================================================
+  (symbol "M457" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M457" (at 0 -30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M457.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M457: 5-101 AMPLIFIER SERIES The operation 0 f both amp] ifier sections is identica] one section will be described, Only Each section consists 0 f two individua ] inverting amp] ifiers n..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M457" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M457: 5-101 AMPLIFIER SERIES The operation 0 f both amp] ifier sections is identica] one section will be described, Only Each section consists 0 f two individua ] inverting amp] ifiers n..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M457_0_1" (rectangle (start -33.02 25.40) (end 33.02 -25.40) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M457_1_1"
+      (pin input line (at -38.10 22.86 0) (length 5.08) (name "MIC IN 1 +" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 20.32 0) (length 5.08) (name "MIC IN 1 -" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 15.24 0) (length 5.08) (name "MIC IN 2 +" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 12.70 0) (length 5.08) (name "MIC IN 2 -" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 7.62 0) (length 5.08) (name "MIC IN 3 +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 5.08 0) (length 5.08) (name "MIC IN 3 -" (effects (font (size 1.27 1.27)))) (number "C" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 0.00 0) (length 5.08) (name "MIC IN 4 +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 -2.54 0) (length 5.08) (name "MIC IN 4 -" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 -7.62 0) (length 5.08) (name "External IN A +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 -10.16 0) (length 5.08) (name "External IN A -" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 -15.24 0) (length 5.08) (name "External IN B +" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -38.10 -17.78 0) (length 5.08) (name "External IN B -" (effects (font (size 1.27 1.27)))) (number "M" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 22.86 180) (length 5.08) (name "A-Mix OUT +" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 20.32 180) (length 5.08) (name "A-Mix OUT -" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 15.24 180) (length 5.08) (name "B-Mix OUT +" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 38.10 12.70 180) (length 5.08) (name "B-Mix OUT -" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M457A
+  ;; Title: Pre Mixer Master Module
+  ;; Category: ROUTING | Series: Standard | Year: 1975
+  ;; Power: +25V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M457A.html
+  ;; ====================================================================
+  (symbol "M457A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 50.80 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M457A" (at 0 -50.80 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M457A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M457A: 5-101 AMPLLELER_SERLES The 5-101 series 0 f amp | ifiers are utilized a $ plug-in uwits within certain Ward-Beck Systems 450 and 460 series modules There are two separate amplifier..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M457A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M457A: 5-101 AMPLLELER_SERLES The 5-101 series 0 f amp | ifiers are utilized a $ plug-in uwits within certain Ward-Beck Systems 450 and 460 series modules There are two separate amplifier..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M457A_0_1" (rectangle (start -25.40 45.72) (end 25.40 -45.72) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M457A_1_1"
+      (pin input line (at -30.48 43.18 0) (length 5.08) (name "EXT B IN" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 38.10 0) (length 5.08) (name "B MIX IN" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 35.56 0) (length 5.08) (name "B MIX IN" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 30.48 0) (length 5.08) (name "A MIX IN" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 43.18 180) (length 5.08) (name "MIX B OUT" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 40.64 180) (length 5.08) (name "MIX B OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 35.56 180) (length 5.08) (name "MIX A OUT" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 33.02 180) (length 5.08) (name "MIX A OUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 27.94 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 25.40 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 22.86 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "C" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 20.32 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 17.78 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "H" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "K" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "M" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "R" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -20.32 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -22.86 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -25.40 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -27.94 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "V" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -30.48 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -33.02 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "W" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -35.56 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -38.10 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "X" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -40.64 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -43.18 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 50.80 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -50.80 90) (length 5.08) (name "COM" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 2.54 -50.80 90) (length 5.08) (name "CHASSIS" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M459
+  ;; Title: VIDEO FOLLOW FILTER SELECTOR SCHEMATIC
+  ;; Category: ROUTING | Series: Standard | Year: 1976
+  ;; Power: +15V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M459.html
+  ;; ====================================================================
+  (symbol "M459" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M459" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M459.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M459 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M459" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M459 - VIDEO FOLLOW FILTER SELECTOR SCHEMATIC (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1976" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M459_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M459_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M468
+  ;; Title: High Level Switcher
+  ;; Category: ROUTING | Series: Standard | Year: 1970
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M468.html
+  ;; ====================================================================
+  (symbol "M468" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M468" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M468.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M468 - High Level Switcher (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M468" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M468 - High Level Switcher (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1970" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M468_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M468_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M468A
+  ;; Title: M468A
+  ;; Category: ROUTING | Series: Standard | Year: 1970
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M468A.html
+  ;; ====================================================================
+  (symbol "M468A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M468A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M468A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M468A - M468A (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M468A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M468A - M468A (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1970" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M468A_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M468A_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M468AN
+  ;; Title: Routing Switcher Module
+  ;; Category: ROUTING | Series: Standard | Year: 1970
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M468AN.html
+  ;; ====================================================================
+  (symbol "M468AN" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M468AN" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M468AN.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M468AN - Routing Switcher Module (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M468AN" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M468AN - Routing Switcher Module (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1970" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M468AN_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M468AN_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M468M
+  ;; Title: M468M
+  ;; Category: ROUTING | Series: Standard | Year: 1976
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M468M.html
+  ;; ====================================================================
+  (symbol "M468M" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M468M" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M468M.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M468M - M468M (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M468M" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M468M - M468M (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1976" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M468M_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M468M_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M498
+  ;; Title: Stereo Setector
+  ;; Category: ROUTING | Series: Standard | Year: 1977
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M498.html
+  ;; ====================================================================
+  (symbol "M498" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M498" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M498.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M498 - Stereo Setector (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M498" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M498 - Stereo Setector (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M498_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M498_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M498A
+  ;; Title: 10 X 1 Selector
+  ;; Category: ROUTING | Series: Standard | Year: 1984
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M498A.html
+  ;; ====================================================================
+  (symbol "M498A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M498A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M498A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M498A - 10 X 1 Selector (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M498A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M498A - 10 X 1 Selector (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1984" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M498A_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M498A_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M538
+  ;; Title: Aicw 8x1 Stereo Switcher
+  ;; Category: ROUTING | Series: Standard | Year: 1985
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M538.html
+  ;; ====================================================================
+  (symbol "M538" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M538" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M538.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M538: M538A M538B/M538C SWITCHER MODULES DESLGNATION Switcher source selectors designation strip. The designation strip is labelled as per customers specific requirements_ 2 ) SWITCHER S..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M538" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M538: M538A M538B/M538C SWITCHER MODULES DESLGNATION Switcher source selectors designation strip. The designation strip is labelled as per customers specific requirements_ 2 ) SWITCHER S..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M538_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M538_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M538C
+  ;; Title: M538C
+  ;; Category: ROUTING | Series: Standard | Year: 1985
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M538C.html
+  ;; ====================================================================
+  (symbol "M538C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M538C" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M538C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M538C - M538C (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M538C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M538C - M538C (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M538C_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M538C_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M559A
+  ;; Title: M559A
+  ;; Category: ROUTING | Series: Standard | Year: 1995
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M559A.html
+  ;; ====================================================================
+  (symbol "M559A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M559A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M559A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M559A - M559A (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M559A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M559A - M559A (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M559A_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M559A_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M568
+  ;; Title: Assignment Module
+  ;; Category: ROUTING | Series: Standard | Year: 1985
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M568.html
+  ;; ====================================================================
+  (symbol "M568" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M568" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M568.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M568 - Assignment Module (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M568" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M568 - Assignment Module (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M568_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M568_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M568N
+  ;; Title: M568N
+  ;; Category: ROUTING | Series: Standard | Year: 1995
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M568N.html
+  ;; ====================================================================
+  (symbol "M568N" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M568N" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M568N.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M568N - M568N (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M568N" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M568N - M568N (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M568N_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M568N_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M568P
+  ;; Title: M568P
+  ;; Category: ROUTING | Series: Standard | Year: 1995
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M568P.html
+  ;; ====================================================================
+  (symbol "M568P" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M568P" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M568P.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M568P - M568P (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M568P" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M568P - M568P (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M568P_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M568P_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M568Q
+  ;; Title: Stereoassignment Module
+  ;; Category: ROUTING | Series: Standard | Year: 1995
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M568Q.html
+  ;; ====================================================================
+  (symbol "M568Q" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M568Q" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M568Q.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M568Q - Stereoassignment Module (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M568Q" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M568Q - Stereoassignment Module (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M568Q_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M568Q_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M568W
+  ;; Title: M568W
+  ;; Category: ROUTING | Series: Standard | Year: 1985
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M568W.html
+  ;; ====================================================================
+  (symbol "M568W" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M568W" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M568W.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M568W - M568W (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M568W" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M568W - M568W (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M568W_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M568W_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

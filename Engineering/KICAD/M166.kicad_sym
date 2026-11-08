@@ -1,0 +1,38 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M166") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M166
+  ;; Title: Active Summing Module
+  ;; Category: SUMMING | Series: S400-LINE | Year: 1970
+  ;; Power: VCC-AUDIO +48V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: 15 contacts, single row
+  ;; Verified: 166-02-002 iss. 2 (Feb 1970), M166 active summing amplifier plug connections
+  ;; Archive: https://wbsps.ca/PAGES/M166.html
+  ;; ====================================================================
+  (symbol "M166" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M166" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M166.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M166 - Active Summing Module (SUMMING). VCC-AUDIO +48V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING S400-LINE M166" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M166 - Active Summing Module (SUMMING). VCC-AUDIO +48V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1970" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC-AUDIO +48V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M166_0_1" (rectangle (start -25.40 10.16) (end 25.40 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M166_1_1"
+      (pin input line (at -30.48 7.62 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 7.62 180) (length 5.08) (name "OUTPUT #1 +" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT #1 -" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 0.00 180) (length 5.08) (name "OUTPUT #2 +" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 -2.54 180) (length 5.08) (name "OUTPUT #2 -" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 15.24 270) (length 5.08) (name "VCC-AUDIO +48V" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -15.24 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 2.54 -15.24 90) (length 5.08) (name "SHIELD GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

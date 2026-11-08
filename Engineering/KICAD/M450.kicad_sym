@@ -1,0 +1,45 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M450") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M450
+  ;; Title: Program Summing Amp
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: VCC-AUDIO +25V, VEE-AUDIO -25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: ELCO 00-6007-015-940-002 · 15 contacts, single row
+  ;; Verified: 450-04-001 iss. 2 (June 1976), M450 and M450A program/summing amplifier connector layout; manual p. 15 pin out
+  ;; Archive: https://wbsps.ca/PAGES/M450.html
+  ;; ====================================================================
+  (symbol "M450" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M450" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M450.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M450: M450 PROGRAM/ SUMMING AMPLIFIER The M450 is dua] purpose, high performance audio amp] ifier desi gned to function either as program amp]ifier or summ ng ampl ifier. It offers optim..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M450" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M450: M450 PROGRAM/ SUMMING AMPLIFIER The M450 is dua] purpose, high performance audio amp] ifier desi gned to function either as program amp]ifier or summ ng ampl ifier. It offers optim..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC-AUDIO +25V, VEE-AUDIO -25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M450_0_1" (rectangle (start -30.48 12.70) (end 30.48 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M450_1_1"
+      (pin input line (at -35.56 10.16 0) (length 5.08) (name "SUMMING INPUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 7.62 0) (length 5.08) (name "SUMMING INPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 2.54 0) (length 5.08) (name "PROGRAM INPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 0.00 0) (length 5.08) (name "PROGRAM INPUT -" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -35.56 -5.08 0) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -35.56 -7.62 0) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 10.16 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 7.62 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 35.56 2.54 180) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -2.54 180) (length 5.08) (name "N/C" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -5.08 180) (length 5.08) (name "N/C" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "VCC-AUDIO +25V" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "VEE-AUDIO -25V" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -17.78 90) (length 5.08) (name "INPUT SHIELD" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

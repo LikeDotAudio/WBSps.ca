@@ -1,27 +1,42 @@
-(kicad_symbol_lib (version 20231120) (generator "make_rto144") (generator_version "1.0")
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M477") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M477
+  ;; Title: Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1979
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M477.html
+  ;; ====================================================================
   (symbol "M477" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
     (property "Value" "M477" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Description" "M477 M477 Master Module: edge connector pin-out from the RTO-144 jumper calculator" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "ki_keywords" "Ward-Beck WBS module RTO-144 " (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (symbol "M477_0_1" (rectangle (start -25.40 12.70) (end 25.40 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M477.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M477: 8-109 AMPLIEIER_SERIES Output Level: +30 dBm maximum. Power Requirements: +/- 21.5 valts dc, MA quiescent current MA +30 dBm outpul. Ambient Temperalure: 60 degrees Celsius. 25\" 3...." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M477" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M477: 8-109 AMPLIEIER_SERIES Output Level: +30 dBm maximum. Power Requirements: +/- 21.5 valts dc, MA quiescent current MA +30 dBm outpul. Ambient Temperalure: 60 degrees Celsius. 25\" 3...." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1979" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M477_0_1" (rectangle (start -35.56 12.70) (end 35.56 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
     (symbol "M477_1_1"
-      (pin input line (at -30.48 10.16 0) (length 5.08) (name "Summing Input +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
-      (pin input line (at -30.48 7.62 0) (length 5.08) (name "Summing Input -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
-      (pin input line (at -30.48 5.08 0) (length 5.08) (name "Insert Return +" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
-      (pin input line (at -30.48 2.54 0) (length 5.08) (name "Insert Return -" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 30.48 10.16 180) (length 5.08) (name "Meter Out +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 30.48 7.62 180) (length 5.08) (name "Meter Out -" (effects (font (size 1.27 1.27)))) (number "P2-T" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 30.48 5.08 180) (length 5.08) (name "Monitor Out +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 30.48 2.54 180) (length 5.08) (name "Monitor Out -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 30.48 0.00 180) (length 5.08) (name "Insert Send +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 30.48 -2.54 180) (length 5.08) (name "Insert Send -" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at -5.08 17.78 270) (length 5.08) (name "VEE-AUDIO -25V" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at 5.08 17.78 270) (length 5.08) (name "VCC-AUDIO +25V" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "VEE-AUDIO GND / VCC-AUDIO GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "CHASSIS" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 10.16 0) (length 5.08) (name "Summing Input +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 7.62 0) (length 5.08) (name "Summing Input -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 2.54 0) (length 5.08) (name "Insert Return +" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 0.00 0) (length 5.08) (name "Insert Return -" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 10.16 180) (length 5.08) (name "Meter Out +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 7.62 180) (length 5.08) (name "Meter Out -" (effects (font (size 1.27 1.27)))) (number "P2-T" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "Monitor Out +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 0.00 180) (length 5.08) (name "Monitor Out -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -5.08 180) (length 5.08) (name "Insert Send +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -7.62 180) (length 5.08) (name "Insert Send -" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
     )
   )
 )

@@ -1,0 +1,35 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M471C") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M471C
+  ;; Title: Stereo Input Module
+  ;; Category: INPUT-PRE-AMPS | Series: Standard | Year: 1979
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M471C.html
+  ;; ====================================================================
+  (symbol "M471C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M471C" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M471C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M471C: M471c STEREO INPUT MODULE BuS ASSIGN The bus assign ectors permit assignment directly to Master and and Subs through For stereo operation will be necessary make assignments the lef..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast INPUT-PRE-AMPS  M471C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M471C: M471c STEREO INPUT MODULE BuS ASSIGN The bus assign ectors permit assignment directly to Master and and Subs through For stereo operation will be necessary make assignments the lef..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "INPUT-PRE-AMPS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1979" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M471C_0_1" (rectangle (start -35.56 10.16) (end 35.56 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M471C_1_1"
+      (pin output line (at 40.64 7.62 180) (length 5.08) (name "OUTPUT FROM THE PREAMPLIFIER" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 2.54 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 0.00 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 -2.54 180) (length 5.08) (name "21" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -15.24 90) (length 5.08) (name "COMMON RETURN FOR THE 1/-25 VOLT SUPPLIES" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -15.24 90) (length 5.08) (name "COMMON RETURN FOR THE 1/-25 VOLT SUPPLIES" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

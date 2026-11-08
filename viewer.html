@@ -103,7 +103,7 @@ pre { margin:0; padding:16px; white-space:pre-wrap; word-break:break-word; font:
 <script src="_catalog/trace_overlay.js"></script>
 <script>
 // viewer.html?f=<path relative to 2026, URL-encoded>  — opens any archive file with the right viewer.
-const APPS = {"pdf": {"what": "PDF document", "apps": "any browser; Document Viewer"}, "jpg": {"what": "photo / scan", "apps": "any browser; Image Viewer; GIMP"}, "jpeg": {"what": "photo / scan", "apps": "any browser; Image Viewer; GIMP"}, "png": {"what": "image", "apps": "any browser; Image Viewer; GIMP"}, "gif": {"what": "image", "apps": "any browser; Image Viewer"}, "txt": {"what": "text", "apps": "any browser; Text Editor"}, "docx": {"what": "Word document (modern manuals)", "apps": "LibreOffice Writer"}, "doc": {"what": "Word 97 document", "apps": "LibreOffice Writer"}, "wpd": {"what": "WordPerfect document (original manuals)", "apps": "LibreOffice Writer"}, "wp": {"what": "WordPerfect 5 document (original manuals)", "apps": "LibreOffice Writer (rename to .wpd if it refuses)"}, "xlsx": {"what": "Excel spreadsheet", "apps": "LibreOffice Calc"}, "xls": {"what": "Excel 97 spreadsheet", "apps": "LibreOffice Calc"}, "cdr": {"what": "CorelDRAW artwork (labels, front panels)", "apps": "LibreOffice Draw; Inkscape"}, "psd": {"what": "Photoshop image", "apps": "GIMP"}, "tif": {"what": "TIFF scan", "apps": "GIMP; Image Viewer"}, "tiff": {"what": "TIFF scan", "apps": "GIMP; Image Viewer"}, "eps": {"what": "EPS artwork / logo", "apps": "Inkscape; GIMP"}, "ai": {"what": "Illustrator artwork", "apps": "Inkscape"}, "dxf": {"what": "AutoCAD DXF drawing (footprints, panels)", "apps": "LibreOffice Draw; Inkscape; KiCad (import)"}, "dwg": {"what": "AutoCAD DWG drawing (R11/R12 mechanical)", "apps": "needs a DWG viewer \u2014 ODA File Converter or DraftSight (not installed)"}, "pcb": {"what": "Tango-PCB PLUS board layout (1980s DOS)", "apps": "browser viewer here; KiCad after conversion (Engineering/PCB/)"}, "brd": {"what": "Eagle board layout", "apps": "KiCad (File \u2192 Import \u2192 Eagle); browser viewer here"}, "dsn": {"what": "OrCAD Capture schematic (binary)", "apps": "OrCAD Capture (not installed)"}, "sch": {"what": "OrCAD SDT schematic (DOS)", "apps": "OrCAD SDT (not installed)"}, "kicad_pcb": {"what": "KiCad board", "apps": "KiCad"}, "kicad_sch": {"what": "KiCad schematic", "apps": "KiCad"}, "svg": {"what": "vector drawing (renders, previews)", "apps": "any browser; Inkscape"}, "md": {"what": "Markdown note / wiki page", "apps": "Obsidian; VS Code; any text editor"}};
+const APPS = {"pdf": {"what": "PDF document", "apps": "any browser; Document Viewer"}, "jpg": {"what": "photo / scan", "apps": "any browser; Image Viewer; GIMP"}, "jpeg": {"what": "photo / scan", "apps": "any browser; Image Viewer; GIMP"}, "png": {"what": "image", "apps": "any browser; Image Viewer; GIMP"}, "gif": {"what": "image", "apps": "any browser; Image Viewer"}, "txt": {"what": "text", "apps": "any browser; Text Editor"}, "docx": {"what": "Word document (modern manuals)", "apps": "LibreOffice Writer"}, "doc": {"what": "Word 97 document", "apps": "LibreOffice Writer"}, "wpd": {"what": "WordPerfect document (original manuals)", "apps": "LibreOffice Writer"}, "wp": {"what": "WordPerfect 5 document (original manuals)", "apps": "LibreOffice Writer (rename to .wpd if it refuses)"}, "xlsx": {"what": "Excel spreadsheet", "apps": "LibreOffice Calc"}, "xls": {"what": "Excel 97 spreadsheet", "apps": "LibreOffice Calc"}, "cdr": {"what": "CorelDRAW artwork (labels, front panels)", "apps": "LibreOffice Draw; Inkscape"}, "psd": {"what": "Photoshop image", "apps": "GIMP"}, "tif": {"what": "TIFF scan", "apps": "GIMP; Image Viewer"}, "tiff": {"what": "TIFF scan", "apps": "GIMP; Image Viewer"}, "eps": {"what": "EPS artwork / logo", "apps": "Inkscape; GIMP"}, "ai": {"what": "Illustrator artwork", "apps": "Inkscape"}, "dxf": {"what": "AutoCAD DXF drawing (footprints, panels)", "apps": "LibreOffice Draw; Inkscape; KiCad (import)"}, "dwg": {"what": "AutoCAD DWG drawing (R11/R12 mechanical)", "apps": "needs a DWG viewer \u2014 ODA File Converter or DraftSight (not installed)"}, "pcb": {"what": "Tango-PCB PLUS board layout (1980s DOS)", "apps": "browser viewer here; KiCad after conversion (Engineering/PCB/)"}, "brd": {"what": "Eagle board layout", "apps": "KiCad (File \u2192 Import \u2192 Eagle); browser viewer here"}, "dsn": {"what": "OrCAD Capture schematic (binary)", "apps": "OrCAD Capture (not installed)"}, "sch": {"what": "OrCAD SDT schematic (DOS)", "apps": "OrCAD SDT (not installed)"}, "kicad_pcb": {"what": "KiCad board", "apps": "KiCad"}, "kicad_sch": {"what": "KiCad schematic", "apps": "KiCad"}, "kicad_sym": {"what": "KiCad symbol library", "apps": "KiCad; KiCad Library Generator here"}, "svg": {"what": "vector drawing (renders, previews)", "apps": "any browser; Inkscape"}, "md": {"what": "Markdown note / wiki page", "apps": "Obsidian; VS Code; any text editor"}};
 const P = window.PREVIEWS || {};
 const rel = new URLSearchParams(location.search).get('f') || '';
 const TURN = (window.ROTATE || {})[rel] || 0;   // degrees counter-clockwise this drawing is shown turned
@@ -125,7 +125,85 @@ function show(path) {
     { view.innerHTML = `<div class="img"><div class="pg"><img src="${url}" alt="">${spotsHtml(1)}</div></div>`; setTimeout(turnImages); trace(); }
   else if (e === '.pdf' || e === '.html') { view.innerHTML = `<iframe src="${url}" title="document"></iframe>`; if (e === '.pdf') pdfTraced(path); }
   else if (e === '.txt' || e === '.md') view.innerHTML = `<iframe src="${url}" title="text"></iframe>`;
+  else if (e === '.kicad_sym') return showKicadSym(path);
   else return false;
+  return true;
+}
+
+function showKicadSym(path) {
+  fetch(enc(path)).then(r => r.ok ? r.text() : Promise.reject(r)).then(txt => {
+    const symMatch = txt.match(/\(symbol\s+"([^"]+)"/);
+    const symName = symMatch ? symMatch[1].replace(/_alt$/, "'") : path.split('/').pop().replace(/\.kicad_sym$/, '');
+    const isMulti = (txt.match(/  \(symbol\s+"[^"]+"/g) || []).length > 1;
+
+    const pins = [];
+    for (const line of txt.split('\n')) {
+      const pm = line.match(/\(pin\s+(\w+)\s+line\s+\(at\s+([-\d.]+)\s+([-\d.]+)\s+(\d+)\).*?\(name\s+"([^"]*)".*?\(number\s+"([^"]*)"/);
+      if (pm) pins.push({ type: pm[1], x: +pm[2], y: +pm[3], ang: +pm[4], name: pm[5], num: pm[6] });
+    }
+
+    const genUrl = `kicad.html?m=${encodeURIComponent(symName)}`;
+    let previewSvg = '';
+
+    if (pins.length > 0 && !isMulti) {
+      const SCALE = 4;
+      const xs = pins.map(p => p.x), ys = pins.map(p => p.y);
+      const minX = Math.min(...xs, -30), maxX = Math.max(...xs, 30);
+      const minY = Math.min(...ys, -30), maxY = Math.max(...ys, 30);
+      const half_w = Math.max(Math.abs(minX), Math.abs(maxX)) - 5.08;
+      const half_h = Math.max(Math.abs(minY), Math.abs(maxY)) - 5.08;
+      const w = Math.max(half_w * 2 * SCALE, 160);
+      const h = Math.max(half_h * 2 * SCALE, 120);
+      const pad = 70;
+      const svgW = w + pad * 2, svgH = h + pad * 2;
+      const cx = svgW / 2, cy = svgH / 2;
+      const bx1 = cx - w / 2, by1 = cy - h / 2;
+
+      const pinEls = pins.map(p => {
+        let x1 = cx + p.x * SCALE, y1 = cy - p.y * SCALE, x2, y2, tx, ty, anch;
+        if (p.ang === 0) { x2 = x1 + 20; y2 = y1; tx = x2 + 6; ty = y1 + 4; anch = 'start'; }
+        else if (p.ang === 180) { x2 = x1 - 20; y2 = y1; tx = x2 - 6; ty = y1 + 4; anch = 'end'; }
+        else if (p.ang === 270) { x2 = x1; y2 = y1 + 20; tx = x1; ty = y2 + 12; anch = 'middle'; }
+        else { x2 = x1; y2 = y1 - 20; tx = x1; ty = y2 - 6; anch = 'middle'; }
+        return `<g>
+          <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#1f1e1c" stroke-width="2"/>
+          <circle cx="${x1}" cy="${y1}" r="3" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+          <text x="${tx}" y="${ty}" text-anchor="${anch}" font-size="11" font-family="monospace" fill="#1f1e1c">${p.name}</text>
+          <text x="${(x1+x2)/2}" y="${y1-5}" text-anchor="middle" font-size="10" font-family="monospace" fill="#c0392b" font-weight="700">${p.num}</text>
+        </g>`;
+      }).join('\n');
+
+      previewSvg = `<div style="background:#fff; border:1px solid #cfcabc; margin:16px 0; display:flex; justify-content:center; padding:16px; overflow:auto;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${svgW} ${svgH}" width="${svgW}" height="${svgH}">
+          <rect x="${bx1}" y="${by1}" width="${w}" height="${h}" fill="#fffde0" stroke="#1c1c1c" stroke-width="2"/>
+          <text x="${cx}" y="${by1 - 12}" text-anchor="middle" font-size="14" font-weight="700" fill="#1f3f6b" font-family="sans-serif">U?</text>
+          <text x="${cx}" y="${by1 + h + 20}" text-anchor="middle" font-size="14" font-weight="700" fill="#1f3f6b" font-family="sans-serif">${symName}</text>
+          ${pinEls}
+        </svg>
+      </div>`;
+    }
+
+    const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    view.innerHTML = `<div style="max-width:960px; margin:20px auto; padding:20px 24px; background:#fbfaf4; border:1px solid #cfcabc; box-shadow:0 12px 30px rgba(0,0,0,.15); font-family:Courier New,monospace;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; border-bottom:1.5px solid #1c1c1c; padding-bottom:8px;">
+        <h2 style="margin:0; font-size:18px; text-transform:uppercase;">KiCad Symbol Library · ${symName}</h2>
+        <div style="display:flex; gap:8px;">
+          ${!isMulti ? `<a href="${genUrl}" style="background:#2a5ea0; color:#fff; text-decoration:none; padding:4px 12px; font-weight:700; font-size:12px; border-radius:3px;">⚡ Open in KiCad Generator</a>` : `<a href="kicad.html" style="background:#2a5ea0; color:#fff; text-decoration:none; padding:4px 12px; font-weight:700; font-size:12px; border-radius:3px;">⚡ Open KiCad Generator</a>`}
+          <a href="${enc(path)}" download style="background:#ece7d5; border:1px solid #cfcabc; color:#1c1c1c; text-decoration:none; padding:4px 10px; font-size:12px;">📥 Download</a>
+        </div>
+      </div>
+      <p style="color:#6d6a63; font-size:13px; margin:10px 0;">
+        ${isMulti ? 'Combined KiCad symbol library containing all archive symbols.' : `Schematic symbol for <b>${symName}</b> (${pins.length} pins). Compatible with KiCad 6, 7, 8, and 9.`}
+      </p>
+      ${previewSvg}
+      <details open style="margin-top:14px;">
+        <summary style="cursor:pointer; font-weight:700; font-size:13px;">KiCad S-Expression Code</summary>
+        <pre style="background:#1e1e1e; color:#d4d4d4; padding:12px; font-size:12px; max-height:360px; overflow:auto; margin-top:8px; border:1px solid #333;">${esc(txt)}</pre>
+      </details>
+    </div>`;
+  }).catch(() => {
+    view.innerHTML = `<div class="none"><p>Failed to load KiCad symbol library.</p><p><a href="${enc(path)}">Download the file</a></p></div>`;
+  });
   return true;
 }
 if (!rel) {

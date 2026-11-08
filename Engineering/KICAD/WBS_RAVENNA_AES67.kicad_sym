@@ -1,0 +1,266 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - Category RAVENNA AES67") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: 32ME-N
+  ;; Title: 32ME-N
+  ;; Category: RAVENNA AES67 | Series: Standard | Year: 2014
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/32ME-N.html
+  ;; ====================================================================
+  (symbol "32ME-N" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "32ME-N" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/32ME-N.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "32ME-N - 32ME-N (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast RAVENNA AES67  32ME-N" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "32ME-N - 32ME-N (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "RAVENNA AES67" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2014" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "32ME-N_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "32ME-N_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: AMS2-N
+  ;; Title: Stereo Audio Monitor Speaker w/ Digital & Ravenna® AES67 Inputs
+  ;; Category: RAVENNA AES67 | Series: Standard | Year: 2016
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/AMS2-N.html
+  ;; ====================================================================
+  (symbol "AMS2-N" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "AMS2-N" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/AMS2-N.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "AMS2-N - Stereo Audio Monitor Speaker w/ Digital & Ravenna® AES67 Inputs (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast RAVENNA AES67  AMS2-N" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "AMS2-N - Stereo Audio Monitor Speaker w/ Digital & Ravenna® AES67 Inputs (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "RAVENNA AES67" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2016" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "AMS2-N_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "AMS2-N_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: AMS222
+  ;; Title: AMS222
+  ;; Category: RAVENNA AES67 | Series: Standard | Year: 2021
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/AMS222.html
+  ;; ====================================================================
+  (symbol "AMS222" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "AMS222" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/AMS222.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "AMS222 - AMS222 (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast RAVENNA AES67  AMS222" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "AMS222 - AMS222 (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "RAVENNA AES67" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2021" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "AMS222_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "AMS222_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: AMS8-1AN
+  ;; Title: AMS8-1AN
+  ;; Category: RAVENNA AES67 | Series: Standard | Year: 2014
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/AMS8-1AN.html
+  ;; ====================================================================
+  (symbol "AMS8-1AN" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "AMS8-1AN" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/AMS8-1AN.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "AMS8-1AN - AMS8-1AN (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast RAVENNA AES67  AMS8-1AN" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "AMS8-1AN - AMS8-1AN (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "RAVENNA AES67" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2014" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "AMS8-1AN_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "AMS8-1AN_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: MLC8-N
+  ;; Title: Three Quarter
+  ;; Category: RAVENNA AES67 | Series: Standard | Year: 2017
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/MLC8-N.html
+  ;; ====================================================================
+  (symbol "MLC8-N" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MLC8-N" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/MLC8-N.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "MLC8-N - Three Quarter (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast RAVENNA AES67  MLC8-N" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "MLC8-N - Three Quarter (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "RAVENNA AES67" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2017" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "MLC8-N_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "MLC8-N_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: preMO-221
+  ;; Title: preMO-221
+  ;; Category: RAVENNA AES67 | Series: Standard | Year: 2021
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/preMO-221.html
+  ;; ====================================================================
+  (symbol "preMO-221" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "preMO-221" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/preMO-221.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "preMO-221 - preMO-221 (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast RAVENNA AES67  preMO-221" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "preMO-221 - preMO-221 (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "RAVENNA AES67" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2021" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "preMO-221_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "preMO-221_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: preMO-222
+  ;; Title: preMO-222
+  ;; Category: RAVENNA AES67 | Series: Standard | Year: 2021
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/preMO-222.html
+  ;; ====================================================================
+  (symbol "preMO-222" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "preMO-222" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/preMO-222.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "preMO-222 - preMO-222 (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast RAVENNA AES67  preMO-222" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "preMO-222 - preMO-222 (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "RAVENNA AES67" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2021" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "preMO-222_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "preMO-222_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: preMO-A1
+  ;; Title: preMO-A1
+  ;; Category: RAVENNA AES67 | Series: Standard | Year: 2017
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/preMO-A1.html
+  ;; ====================================================================
+  (symbol "preMO-A1" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "preMO-A1" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/preMO-A1.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "preMO-A1 - preMO-A1 (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast RAVENNA AES67  preMO-A1" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "preMO-A1 - preMO-A1 (RAVENNA AES67). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "RAVENNA AES67" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2017" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "preMO-A1_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "preMO-A1_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

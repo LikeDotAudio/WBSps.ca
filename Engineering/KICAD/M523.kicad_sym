@@ -1,0 +1,39 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M523") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M523
+  ;; Title: Stereo Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1985
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M523.html
+  ;; ====================================================================
+  (symbol "M523" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M523" (at 0 -20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M523.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M523: M523 STEREO SUBMASTER MODULE M523 SUBMASTER MODULE MASTER Ass GN-STEREO Inputs Switcn SW2 assigns the submaster modules stereo output to the master mix bus The left and right chann..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M523" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M523: M523 STEREO SUBMASTER MODULE M523 SUBMASTER MODULE MASTER Ass GN-STEREO Inputs Switcn SW2 assigns the submaster modules stereo output to the master mix bus The left and right chann..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M523_0_1" (rectangle (start -81.28 15.24) (end 81.28 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M523_1_1"
+      (pin input line (at -86.36 12.70 0) (length 5.08) (name "INPUT TO THIS AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 10.16 0) (length 5.08) (name "INPUT TO THIS AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 12.70 180) (length 5.08) (name "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 10.16 180) (length 5.08) (name "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 5.08 180) (length 5.08) (name "MONO CONNECTOR  OUTPUT" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 2.54 180) (length 5.08) (name "MONO CONNECTOR  OUTPUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 -2.54 180) (length 5.08) (name "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 -5.08 180) (length 5.08) (name "ISOLATES THE AMPLIFIER OUTPUT FROM CAPACITIVE LO" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 86.36 -10.16 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 86.36 -12.70 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

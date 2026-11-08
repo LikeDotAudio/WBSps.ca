@@ -1,0 +1,37 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M605A") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M605A
+  ;; Title: M605A
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1987
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M605A.html
+  ;; ====================================================================
+  (symbol "M605A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M605A" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M605A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M605A: MGOSA AUDIO DISTRIBUTION AMPLIFIER The DIRECT output may be utilized I0 expand the number of isolated outputs by an additional four t0 total of eight, by means of an external split..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M605A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M605A: MGOSA AUDIO DISTRIBUTION AMPLIFIER The DIRECT output may be utilized I0 expand the number of isolated outputs by an additional four t0 total of eight, by means of an external split..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1987" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M605A_0_1" (rectangle (start -81.28 10.16) (end 81.28 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M605A_1_1"
+      (pin input line (at -86.36 7.62 0) (length 5.08) (name "AUD J0 INPUT A PPEARS AT PINS" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 5.08 0) (length 5.08) (name "AUD J0 INPUT A PPEARS AT PINS" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 0.00 0) (length 5.08) (name "THREE LED INDICATOR CIRCUITS" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 -2.54 0) (length 5.08) (name "THREE LED INDICATOR CIRCUITS" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 7.62 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 5.08 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 0.00 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 -2.54 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

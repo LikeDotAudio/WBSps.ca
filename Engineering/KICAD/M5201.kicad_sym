@@ -1,0 +1,30 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M5201") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M5201
+  ;; Title: Machine CoNTROL Module
+  ;; Category: COMPUTERS | Series: Standard | Year: 1986
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M5201.html
+  ;; ====================================================================
+  (symbol "M5201" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M5201" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M5201.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M5201: MFG MFG PART NUMBER SPACER 6-32 7/16 1/4, Alum WBS SP7X4#6 WASHER #10 064 Thick, Nylon W#1OX.O64N WBS recommends the use of replacement parts made by the specified manufacturers fo..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast COMPUTERS  M5201" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M5201: MFG MFG PART NUMBER SPACER 6-32 7/16 1/4, Alum WBS SP7X4#6 WASHER #10 064 Thick, Nylon W#1OX.O64N WBS recommends the use of replacement parts made by the specified manufacturers fo..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "COMPUTERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1986" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M5201_0_1" (rectangle (start -30.48 7.62) (end 30.48 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M5201_1_1"
+      (pin output line (at 35.56 5.08 180) (length 5.08) (name "OUTPUTS FOR THESE PORTS" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

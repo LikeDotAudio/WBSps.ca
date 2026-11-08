@@ -1,0 +1,53 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M612") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M612
+  ;; Title: Audio Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1977
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M612.html
+  ;; ====================================================================
+  (symbol "M612" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 33.02 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M612" (at 0 -33.02 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M612.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M612: The M612 audio distribution amplifier operated; plug-in unit designed bridge sincle squi ce anu provide twelve unitorm highly isolated outputs for distribution throughoul audio sys..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M612" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M612: The M612 audio distribution amplifier operated; plug-in unit designed bridge sincle squi ce anu provide twelve unitorm highly isolated outputs for distribution throughoul audio sys..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M612_0_1" (rectangle (start -68.58 27.94) (end 68.58 -27.94) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M612_1_1"
+      (pin input line (at -73.66 25.40 0) (length 5.08) (name "9Vlcr R4 Zz0K Cr4757A In 01481 +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 22.86 0) (length 5.08) (name "9Vlcr R4 Zz0K Cr4757A In 01481 -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 17.78 0) (length 5.08) (name "Input 3 +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 15.24 0) (length 5.08) (name "Input 3 -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 10.16 0) (length 5.08) (name "Input 4 +" (effects (font (size 1.27 1.27)))) (number "I3P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 7.62 0) (length 5.08) (name "Input 4 -" (effects (font (size 1.27 1.27)))) (number "I3N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 2.54 0) (length 5.08) (name "Tp 0 In +" (effects (font (size 1.27 1.27)))) (number "I5P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 0.00 0) (length 5.08) (name "Tp 0 In -" (effects (font (size 1.27 1.27)))) (number "I5N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -5.08 0) (length 5.08) (name "Input 2 +" (effects (font (size 1.27 1.27)))) (number "I6P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -7.62 0) (length 5.08) (name "Input 2 -" (effects (font (size 1.27 1.27)))) (number "I6N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -12.70 0) (length 5.08) (name "Return To Ins +" (effects (font (size 1.27 1.27)))) (number "0" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -15.24 0) (length 5.08) (name "Return To Ins -" (effects (font (size 1.27 1.27)))) (number "I7N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -20.32 0) (length 5.08) (name "Input 11 +" (effects (font (size 1.27 1.27)))) (number "I8P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -22.86 0) (length 5.08) (name "Input 11 -" (effects (font (size 1.27 1.27)))) (number "I8N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 25.40 180) (length 5.08) (name "Typ Ical In Put / Out Put +" (effects (font (size 1.27 1.27)))) (number "I9P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 22.86 180) (length 5.08) (name "Typ Ical In Put / Out Put -" (effects (font (size 1.27 1.27)))) (number "I9N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 17.78 180) (length 5.08) (name "Tp Out +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 15.24 180) (length 5.08) (name "Tp Out -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 10.16 180) (length 5.08) (name "Outputs Note 3) +" (effects (font (size 1.27 1.27)))) (number "O2P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 7.62 180) (length 5.08) (name "Outputs Note 3) -" (effects (font (size 1.27 1.27)))) (number "O2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 2.54 180) (length 5.08) (name "Out I +" (effects (font (size 1.27 1.27)))) (number "O3P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 0.00 180) (length 5.08) (name "Out I -" (effects (font (size 1.27 1.27)))) (number "O3N" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -2.54 -33.02 90) (length 5.08) (name "Input Shield Buss +" (effects (font (size 1.27 1.27)))) (number "I4P" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 2.54 -33.02 90) (length 5.08) (name "Input Shield Buss -" (effects (font (size 1.27 1.27)))) (number "I4N" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

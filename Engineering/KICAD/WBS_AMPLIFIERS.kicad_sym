@@ -1,0 +1,1804 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - Category AMPLIFIERS") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M124
+  ;; Title: M124 - Preamplifier
+  ;; Category: AMPLIFIERS | Series: S400-LINE | Year: 1968
+  ;; Power: VCC-AUDIO +48V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: 15 contacts, single row
+  ;; Verified: 124-09-001 iss. 1 (Aug 1968), M124 connector wiring
+  ;; Archive: https://wbsps.ca/PAGES/M124.html
+  ;; ====================================================================
+  (symbol "M124" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M124" (at 0 -25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M124.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M124: The M124 is a high performance audio amplifier designed to offer optimum flexibility with minimum space occupancy for custom console applications in the broadcast and sound recordi..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS S400-LINE M124" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M124: The M124 is a high performance audio amplifier designed to offer optimum flexibility with minimum space occupancy for custom console applications in the broadcast and sound recordi..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1968" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC-AUDIO +48V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M124_0_1" (rectangle (start -40.64 20.32) (end 40.64 -20.32) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M124_1_1"
+      (pin input line (at -45.72 17.78 0) (length 5.08) (name "INPUT 600 Ω +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 15.24 0) (length 5.08) (name "INPUT 600 Ω -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 10.16 0) (length 5.08) (name "INPUT 150 Ω +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 7.62 0) (length 5.08) (name "INPUT 150 Ω -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 2.54 0) (length 5.08) (name "INPUT 37.5 Ω +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 0.00 0) (length 5.08) (name "INPUT 37.5 Ω -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "STRAP 3-6 (FROM)" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -7.62 0) (length 5.08) (name "STRAP 3-6 (TO)" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -10.16 0) (length 5.08) (name "STRAP 2-3 (FROM)" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -12.70 0) (length 5.08) (name "STRAP 2-3 (TO)" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -15.24 0) (length 5.08) (name "STRAP 1-2 (FROM)" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 17.78 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 15.24 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 10.16 180) (length 5.08) (name "STRAP 1-2 (TO)" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 7.62 180) (length 5.08) (name "STRAP 3-4 (FROM)" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 5.08 180) (length 5.08) (name "STRAP 3-4 (TO)" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 2.54 180) (length 5.08) (name "GAIN SET RESISTOR" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 0.00 180) (length 5.08) (name "GAIN SET RESISTOR" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 25.40 270) (length 5.08) (name "VCC-AUDIO +48V" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -25.40 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -25.40 90) (length 5.08) (name "INPUT SHIELD" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -25.40 90) (length 5.08) (name "COM" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M166A
+  ;; Title: Active Summing Module
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1973
+  ;; Power: +48 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M166A.html
+  ;; ====================================================================
+  (symbol "M166A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M166A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M166A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M166A: The M166A is a plug-in, PC card, module containing a active summing amplifier designed to combine a number of input sources to a common output while ma intaining extremely high iso..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M166A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M166A: The M166A is a plug-in, PC card, module containing a active summing amplifier designed to combine a number of input sources to a common output while ma intaining extremely high iso..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1973" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+48 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M166A_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M166A_1_1"
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "SUMMING IN 10KΩ" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 2.54 0) (length 5.08) (name "SUMMING IN 10KΩ" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "PREAMP OUT 1" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "PREAMP OUT 1" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M411
+  ;; Title: Transcription Preamplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1969
+  ;; Power: +24V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M411.html
+  ;; ====================================================================
+  (symbol "M411" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M411" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M411.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M411: The M4I TwO-channel; dc operated equalized preamplifier designed Provide high qualily disc reproduction foi broadcasi arid sound recording applicatiotts: The Unit accommodales (wn ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M411" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M411: The M4I TwO-channel; dc operated equalized preamplifier designed Provide high qualily disc reproduction foi broadcasi arid sound recording applicatiotts: The Unit accommodales (wn ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1969" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M411_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M411_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M450
+  ;; Title: Program Summing Amp
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: VCC-AUDIO +25V, VEE-AUDIO -25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: ELCO 00-6007-015-940-002 · 15 contacts, single row
+  ;; Verified: 450-04-001 iss. 2 (June 1976), M450 and M450A program/summing amplifier connector layout; manual p. 15 pin out
+  ;; Archive: https://wbsps.ca/PAGES/M450.html
+  ;; ====================================================================
+  (symbol "M450" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M450" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M450.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M450: M450 PROGRAM/ SUMMING AMPLIFIER The M450 is dua] purpose, high performance audio amp] ifier desi gned to function either as program amp]ifier or summ ng ampl ifier. It offers optim..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M450" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M450: M450 PROGRAM/ SUMMING AMPLIFIER The M450 is dua] purpose, high performance audio amp] ifier desi gned to function either as program amp]ifier or summ ng ampl ifier. It offers optim..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC-AUDIO +25V, VEE-AUDIO -25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M450_0_1" (rectangle (start -30.48 12.70) (end 30.48 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M450_1_1"
+      (pin input line (at -35.56 10.16 0) (length 5.08) (name "SUMMING INPUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 7.62 0) (length 5.08) (name "SUMMING INPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 2.54 0) (length 5.08) (name "PROGRAM INPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 0.00 0) (length 5.08) (name "PROGRAM INPUT -" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -35.56 -5.08 0) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -35.56 -7.62 0) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 10.16 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 7.62 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 35.56 2.54 180) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -2.54 180) (length 5.08) (name "N/C" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -5.08 180) (length 5.08) (name "N/C" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "VCC-AUDIO +25V" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "VEE-AUDIO -25V" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -17.78 90) (length 5.08) (name "INPUT SHIELD" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M450A
+  ;; Title: Program Amplifer
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1973
+  ;; Power: VCC-AUDIO +25V, VEE-AUDIO -25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: ELCO 00-6007-015-940-002 · 15 contacts, single row
+  ;; Verified: 450-04-001 iss. 2 (June 1976), M450 and M450A connector layout ("summing amp input N/A for M450A")
+  ;; Archive: https://wbsps.ca/PAGES/M450A.html
+  ;; ====================================================================
+  (symbol "M450A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M450A" (at 0 -20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M450A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M450A: M450A PROGRAM AMPLIFIER The H450A Program Ampl ifier is a hig h performance a ud i o am- plif ier desig ned for pr-c te s st on a t appl ications. I t i s used particula rly in app..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M450A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M450A: M450A PROGRAM AMPLIFIER The H450A Program Ampl ifier is a hig h performance a ud i o am- plif ier desig ned for pr-c te s st on a t appl ications. I t i s used particula rly in app..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1973" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC-AUDIO +25V, VEE-AUDIO -25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M450A_0_1" (rectangle (start -35.56 15.24) (end 35.56 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M450A_1_1"
+      (pin input line (at -40.64 12.70 0) (length 5.08) (name "PROGRAM INPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 10.16 0) (length 5.08) (name "PROGRAM INPUT -" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -40.64 5.08 0) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -40.64 2.54 0) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 12.70 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 10.16 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 40.64 5.08 180) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 0.00 180) (length 5.08) (name "N/C" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 -2.54 180) (length 5.08) (name "N/C" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 -5.08 180) (length 5.08) (name "N/A ON M450A" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 -7.62 180) (length 5.08) (name "N/A ON M450A" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 20.32 270) (length 5.08) (name "VCC-AUDIO +25V" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 20.32 270) (length 5.08) (name "VEE-AUDIO -25V" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -20.32 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -20.32 90) (length 5.08) (name "INPUT SHIELD" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -20.32 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M450B
+  ;; Title: Program - Summing Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1979
+  ;; Power: VCC-AUDIO +25V, VEE-AUDIO -25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: ELCO 00-6007-015-940-002 · 15 contacts, single row
+  ;; Verified: 450-04-001 iss. 2, M450, M450A, M450B connector rear view (M450B manual p. 15)
+  ;; Archive: https://wbsps.ca/PAGES/M450B.html
+  ;; ====================================================================
+  (symbol "M450B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M450B" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M450B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M450B: MLSOB PROGRAM/SUMMING AMPL IFIER The MLSOB is direct replacement for the M4so dual purpose Program/ Summing Amplifier_ When used 29 suMm ing amplifier , the balanced inpul signal i..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M450B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M450B: MLSOB PROGRAM/SUMMING AMPL IFIER The MLSOB is direct replacement for the M4so dual purpose Program/ Summing Amplifier_ When used 29 suMm ing amplifier , the balanced inpul signal i..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1979" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC-AUDIO +25V, VEE-AUDIO -25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M450B_0_1" (rectangle (start -30.48 12.70) (end 30.48 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M450B_1_1"
+      (pin input line (at -35.56 10.16 0) (length 5.08) (name "SUMMING INPUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 7.62 0) (length 5.08) (name "SUMMING INPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 2.54 0) (length 5.08) (name "PROGRAM INPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 0.00 0) (length 5.08) (name "PROGRAM INPUT -" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -35.56 -5.08 0) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -35.56 -7.62 0) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 10.16 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 7.62 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 35.56 2.54 180) (length 5.08) (name "GAIN SET" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -2.54 180) (length 5.08) (name "N/C" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -5.08 180) (length 5.08) (name "N/C" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "VCC-AUDIO +25V" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "VEE-AUDIO -25V" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -17.78 90) (length 5.08) (name "INPUT SHIELD" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M453
+  ;; Title: Cue Amplifier Designed And MANUFAcTURED
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1976
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M453.html
+  ;; ====================================================================
+  (symbol "M453" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M453" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M453.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M453 - Cue Amplifier Designed And MANUFAcTURED (AMPLIFIERS). VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M453" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M453 - Cue Amplifier Designed And MANUFAcTURED (AMPLIFIERS). VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1976" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M453_0_1" (rectangle (start -40.64 12.70) (end 40.64 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M453_1_1"
+      (pin passive line (at -45.72 10.16 0) (length 5.08) (name "JMP.Z.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 7.62 0) (length 5.08) (name "JMP.Z.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 5.08 0) (length 5.08) (name "JMP.X.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.X.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.20.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -7.62 0) (length 5.08) (name "JMP.20.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 10.16 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 5.08 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 2.54 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 0.00 180) (length 5.08) (name "JMP.20.19 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -2.54 180) (length 5.08) (name "JMP.20.19 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.X.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.X.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 17.78 270) (length 5.08) (name "VCC-LOGIC +24V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M453A
+  ;; Title: Cue Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1978
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M453A.html
+  ;; ====================================================================
+  (symbol "M453A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M453A" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M453A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M453A: MFG MFG PART NUMBER R26 Knob Cap (Black) (Black) Elma 021-3520 040-3620 Swi Button (White) Schadow FG-WH WBS recorimiends the use replacement parts made by the specified manufactur..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M453A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M453A: MFG MFG PART NUMBER R26 Knob Cap (Black) (Black) Elma 021-3520 040-3620 Swi Button (White) Schadow FG-WH WBS recorimiends the use replacement parts made by the specified manufactur..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1978" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M453A_0_1" (rectangle (start -40.64 12.70) (end 40.64 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M453A_1_1"
+      (pin passive line (at -45.72 10.16 0) (length 5.08) (name "JMP.Z.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 7.62 0) (length 5.08) (name "JMP.Z.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 5.08 0) (length 5.08) (name "JMP.X.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.X.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.20.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -7.62 0) (length 5.08) (name "JMP.20.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 10.16 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 5.08 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 2.54 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 0.00 180) (length 5.08) (name "JMP.20.19 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -2.54 180) (length 5.08) (name "JMP.20.19 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.X.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.X.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 17.78 270) (length 5.08) (name "VCC-LOGIC +24V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M481
+  ;; Title: Oscilator and Cue Amp
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: POWERSUPPLY POWER, POWERSUPPLY POWER
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M481.html
+  ;; ====================================================================
+  (symbol "M481" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M481" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M481.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M481 - Oscilator and Cue Amp (AMPLIFIERS). POWERSUPPLY POWER, POWERSUPPLY POWER." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M481" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M481 - Oscilator and Cue Amp (AMPLIFIERS). POWERSUPPLY POWER, POWERSUPPLY POWER." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "POWERSUPPLY POWER, POWERSUPPLY POWER" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M481_0_1" (rectangle (start -96.52 10.16) (end 96.52 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M481_1_1"
+      (pin input line (at -101.60 7.62 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -101.60 5.08 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -101.60 2.54 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 7.62 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 5.08 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 2.54 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 -2.54 180) (length 5.08) (name "CUE/SOLO ASSI GN SWITCH SW2 ROUTES THIE" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 15.24 270) (length 5.08) (name "POWERSUPPLY POWER" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 15.24 270) (length 5.08) (name "POWERSUPPLY POWER" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M481B
+  ;; Title: Cue OSC Re-entry Module
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1982
+  ;; Power: POWERSUPPLY POWER, POWERSUPPLY POWER
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M481B.html
+  ;; ====================================================================
+  (symbol "M481B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M481B" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M481B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M481B: MFG MFG PART NUMBER SW1 Sw2 Sw3 Button (Grey) White) Grey ) FM-GREY FM-WH FM-GREY WBS recommends the use replacerient parts made by the specitied manufaclurers for continued optimu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M481B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M481B: MFG MFG PART NUMBER SW1 Sw2 Sw3 Button (Grey) White) Grey ) FM-GREY FM-WH FM-GREY WBS recommends the use replacerient parts made by the specitied manufaclurers for continued optimu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1982" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "POWERSUPPLY POWER, POWERSUPPLY POWER" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M481B_0_1" (rectangle (start -96.52 10.16) (end 96.52 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M481B_1_1"
+      (pin input line (at -101.60 7.62 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -101.60 5.08 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -101.60 2.54 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 7.62 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 5.08 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 2.54 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 -2.54 180) (length 5.08) (name "CUE/SOLO ASSI GN SWITCH SW2 ROUTES THIE" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 15.24 270) (length 5.08) (name "POWERSUPPLY POWER" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 15.24 270) (length 5.08) (name "POWERSUPPLY POWER" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M600
+  ;; Title: Universal Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1970
+  ;; Power: +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M600.html
+  ;; ====================================================================
+  (symbol "M600" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 22.86 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M600" (at 0 -22.86 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M600.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M600: THE WARD-BECK SYSTEMS 7000 Series solid-state Intercom Systems are designed to provide inter- communication between production and technical staff within a broadcast or production ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M600" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M600: THE WARD-BECK SYSTEMS 7000 Series solid-state Intercom Systems are designed to provide inter- communication between production and technical staff within a broadcast or production ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1970" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M600_0_1" (rectangle (start -25.40 17.78) (end 25.40 -17.78) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M600_1_1"
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "11" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "13" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "15" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "16" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "17" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "10" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "19" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 22.86 270) (length 5.08) (name "+25V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M604
+  ;; Title: M604
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1967
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M604.html
+  ;; ====================================================================
+  (symbol "M604" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M604" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M604.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M604 - M604 (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M604" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M604 - M604 (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1967" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M604_0_1" (rectangle (start -40.64 7.62) (end 40.64 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M604_1_1"
+      (pin output line (at 45.72 5.08 180) (length 5.08) (name "TWO 600 OHM OUTPUTS AREPROVIDED" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 2.54 180) (length 5.08) (name "TWO 600 OHM OUTPUTS AREPROVIDED" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M605
+  ;; Title: Audio Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1971
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M605.html
+  ;; ====================================================================
+  (symbol "M605" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M605" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M605.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M605: The M6O5 audio distribution amplifier is an ac operated, plug-in unit designed to bridge a single source and provide four uniform, highly isolated outputs for distribution througho..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M605" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M605: The M6O5 audio distribution amplifier is an ac operated, plug-in unit designed to bridge a single source and provide four uniform, highly isolated outputs for distribution througho..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1971" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M605_0_1" (rectangle (start -81.28 10.16) (end 81.28 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M605_1_1"
+      (pin input line (at -86.36 7.62 0) (length 5.08) (name "AUD J0 INPUT A PPEARS AT PINS" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 5.08 0) (length 5.08) (name "AUD J0 INPUT A PPEARS AT PINS" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 0.00 0) (length 5.08) (name "THREE LED INDICATOR CIRCUITS" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 -2.54 0) (length 5.08) (name "THREE LED INDICATOR CIRCUITS" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 7.62 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 5.08 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 0.00 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 -2.54 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M605A
+  ;; Title: M605A
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1987
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M605A.html
+  ;; ====================================================================
+  (symbol "M605A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M605A" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M605A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M605A: MGOSA AUDIO DISTRIBUTION AMPLIFIER The DIRECT output may be utilized I0 expand the number of isolated outputs by an additional four t0 total of eight, by means of an external split..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M605A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M605A: MGOSA AUDIO DISTRIBUTION AMPLIFIER The DIRECT output may be utilized I0 expand the number of isolated outputs by an additional four t0 total of eight, by means of an external split..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1987" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M605A_0_1" (rectangle (start -81.28 10.16) (end 81.28 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M605A_1_1"
+      (pin input line (at -86.36 7.62 0) (length 5.08) (name "AUD J0 INPUT A PPEARS AT PINS" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 5.08 0) (length 5.08) (name "AUD J0 INPUT A PPEARS AT PINS" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 0.00 0) (length 5.08) (name "THREE LED INDICATOR CIRCUITS" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 -2.54 0) (length 5.08) (name "THREE LED INDICATOR CIRCUITS" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 7.62 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 5.08 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 0.00 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 -2.54 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M605C
+  ;; Title: Audio Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1971
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M605C.html
+  ;; ====================================================================
+  (symbol "M605C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M605C" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M605C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M605C - Audio Distribution Amplifier (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M605C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M605C - Audio Distribution Amplifier (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1971" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M605C_0_1" (rectangle (start -81.28 10.16) (end 81.28 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M605C_1_1"
+      (pin input line (at -86.36 7.62 0) (length 5.08) (name "AUD J0 INPUT A PPEARS AT PINS" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 5.08 0) (length 5.08) (name "AUD J0 INPUT A PPEARS AT PINS" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 0.00 0) (length 5.08) (name "THREE LED INDICATOR CIRCUITS" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -86.36 -2.54 0) (length 5.08) (name "THREE LED INDICATOR CIRCUITS" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 7.62 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 5.08 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING FROM PINS 18" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 0.00 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 86.36 -2.54 180) (length 5.08) (name "AMPIFIER OUTPUT ORIGINAT ING" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M606
+  ;; Title: M606
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 2008
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M606.html
+  ;; ====================================================================
+  (symbol "M606" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M606" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M606.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M606: FEATURES: The MGOG audio amplifier an aC operated , plug-in unit dasigned provide watts output power drive loudspeaker for cue, announce booth und similar utility applications: Gw ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M606" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M606: FEATURES: The MGOG audio amplifier an aC operated , plug-in unit dasigned provide watts output power drive loudspeaker for cue, announce booth und similar utility applications: Gw ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2008" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M606_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M606_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M608
+  ;; Title: M608
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M608.html
+  ;; ====================================================================
+  (symbol "M608" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M608" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M608.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M608 - M608 (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M608" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M608 - M608 (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M608_0_1" (rectangle (start -25.40 22.86) (end 25.40 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M608_1_1"
+      (pin input line (at -30.48 20.32 0) (length 5.08) (name "INPUT 5" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 17.78 0) (length 5.08) (name "INPUT 5" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 20.32 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 17.78 180) (length 5.08) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "9" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "6" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "11" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "13" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "Z" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "14" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -27.94 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -27.94 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 5.08 -27.94 90) (length 5.08) (name "CHASSIS" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M609
+  ;; Title: Remote sensitivity and DA
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1983
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M609.html
+  ;; ====================================================================
+  (symbol "M609" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M609" (at 0 -25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M609.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M609: MFG MFG PART_NUMBER Resistor 1/2w 59 300 300 300 300 Philips R2 R3 RL WBS recommends the use replacement parts made by the specified manufacturers for continued optin mum equipment..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M609" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M609: MFG MFG PART_NUMBER Resistor 1/2w 59 300 300 300 300 Philips R2 R3 RL WBS recommends the use replacement parts made by the specified manufacturers for continued optin mum equipment..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1983" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M609_0_1" (rectangle (start -25.40 20.32) (end 25.40 -20.32) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M609_1_1"
+      (pin bidirectional line (at 30.48 17.78 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "16" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "3" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "6" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "L" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "10" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "11" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "14" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "Z" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -2.54 -25.40 90) (length 5.08) (name "INPUT SHIELD" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 2.54 -25.40 90) (length 5.08) (name "CHASSIS" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M610
+  ;; Title: 10 Watt Monitor Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1970
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M610.html
+  ;; ====================================================================
+  (symbol "M610" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M610" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M610.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M610: The M610 I0 walt audio power amplifier operated, plug-in module De ned nintessione applications the hroadcast, momom picture and sound recorgio industries FEATURES: 1Ow direcl oulp..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M610" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M610: The M610 I0 walt audio power amplifier operated, plug-in module De ned nintessione applications the hroadcast, momom picture and sound recorgio industries FEATURES: 1Ow direcl oulp..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1970" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M610_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M610_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "G A IN OF T HES E" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "G A IN OF T HES E" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 0.00 0) (length 5.08) (name "G A IN OF T HES E" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "J" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "13" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M612
+  ;; Title: Audio Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1977
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M612.html
+  ;; ====================================================================
+  (symbol "M612" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 33.02 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M612" (at 0 -33.02 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M612.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M612: The M612 audio distribution amplifier operated; plug-in unit designed bridge sincle squi ce anu provide twelve unitorm highly isolated outputs for distribution throughoul audio sys..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M612" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M612: The M612 audio distribution amplifier operated; plug-in unit designed bridge sincle squi ce anu provide twelve unitorm highly isolated outputs for distribution throughoul audio sys..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M612_0_1" (rectangle (start -68.58 27.94) (end 68.58 -27.94) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M612_1_1"
+      (pin input line (at -73.66 25.40 0) (length 5.08) (name "9Vlcr R4 Zz0K Cr4757A In 01481 +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 22.86 0) (length 5.08) (name "9Vlcr R4 Zz0K Cr4757A In 01481 -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 17.78 0) (length 5.08) (name "Input 3 +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 15.24 0) (length 5.08) (name "Input 3 -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 10.16 0) (length 5.08) (name "Input 4 +" (effects (font (size 1.27 1.27)))) (number "I3P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 7.62 0) (length 5.08) (name "Input 4 -" (effects (font (size 1.27 1.27)))) (number "I3N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 2.54 0) (length 5.08) (name "Tp 0 In +" (effects (font (size 1.27 1.27)))) (number "I5P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 0.00 0) (length 5.08) (name "Tp 0 In -" (effects (font (size 1.27 1.27)))) (number "I5N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -5.08 0) (length 5.08) (name "Input 2 +" (effects (font (size 1.27 1.27)))) (number "I6P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -7.62 0) (length 5.08) (name "Input 2 -" (effects (font (size 1.27 1.27)))) (number "I6N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -12.70 0) (length 5.08) (name "Return To Ins +" (effects (font (size 1.27 1.27)))) (number "0" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -15.24 0) (length 5.08) (name "Return To Ins -" (effects (font (size 1.27 1.27)))) (number "I7N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -20.32 0) (length 5.08) (name "Input 11 +" (effects (font (size 1.27 1.27)))) (number "I8P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -73.66 -22.86 0) (length 5.08) (name "Input 11 -" (effects (font (size 1.27 1.27)))) (number "I8N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 25.40 180) (length 5.08) (name "Typ Ical In Put / Out Put +" (effects (font (size 1.27 1.27)))) (number "I9P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 22.86 180) (length 5.08) (name "Typ Ical In Put / Out Put -" (effects (font (size 1.27 1.27)))) (number "I9N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 17.78 180) (length 5.08) (name "Tp Out +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 15.24 180) (length 5.08) (name "Tp Out -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 10.16 180) (length 5.08) (name "Outputs Note 3) +" (effects (font (size 1.27 1.27)))) (number "O2P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 7.62 180) (length 5.08) (name "Outputs Note 3) -" (effects (font (size 1.27 1.27)))) (number "O2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 2.54 180) (length 5.08) (name "Out I +" (effects (font (size 1.27 1.27)))) (number "O3P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 73.66 0.00 180) (length 5.08) (name "Out I -" (effects (font (size 1.27 1.27)))) (number "O3N" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -2.54 -33.02 90) (length 5.08) (name "Input Shield Buss +" (effects (font (size 1.27 1.27)))) (number "I4P" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 2.54 -33.02 90) (length 5.08) (name "Input Shield Buss -" (effects (font (size 1.27 1.27)))) (number "I4N" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M612A
+  ;; Title: M612A
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1983
+  ;; Power: OUTPUT CAPABILITY THIS POWER AMPLIFIER EXCESS 2
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M612A.html
+  ;; ====================================================================
+  (symbol "M612A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M612A" (at 0 -30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M612A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M612A: MFG MFG PART NUMBER UI , u2,43 U4,u5 Pin Dip Socket AMP 640463-3 04 05,09, 010 Heat Sink WBS A605-03-020 Heat Sink Standoffs WBS A605-03-022 WBS recommends the use replacement part..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M612A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M612A: MFG MFG PART NUMBER UI , u2,43 U4,u5 Pin Dip Socket AMP 640463-3 04 05,09, 010 Heat Sink WBS A605-03-020 Heat Sink Standoffs WBS A605-03-022 WBS recommends the use replacement part..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1983" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "OUTPUT CAPABILITY THIS POWER AMPLIFIER EXCESS 2" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M612A_0_1" (rectangle (start -25.40 25.40) (end 25.40 -25.40) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M612A_1_1"
+      (pin bidirectional line (at 30.48 22.86 180) (length 5.08) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 20.32 180) (length 5.08) (name "8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 17.78 180) (length 5.08) (name "9" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "13" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "16" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "6" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "J" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "10" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "11" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "14" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "S" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "15" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -20.32 180) (length 5.08) (name "Z" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 30.48 270) (length 5.08) (name "OUTPUT CAPABILITY THIS POWER AMPLIFIER EXCESS 2" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M621
+  ;; Title: 20 Watt Monitor Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1970
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M621.html
+  ;; ====================================================================
+  (symbol "M621" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M621" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M621.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M621: The M621 20 watt audio power amplifier is an ac operated, plug-in module designed for professional applications in the broadcast, motion picture and sound recording industries: The..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M621" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M621: The M621 20 watt audio power amplifier is an ac operated, plug-in module designed for professional applications in the broadcast, motion picture and sound recording industries: The..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1970" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M621_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M621_1_1"
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT SIGNAL" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M626
+  ;; Title: M626
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1971
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M626.html
+  ;; ====================================================================
+  (symbol "M626" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M626" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M626.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M626 - M626 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M626" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M626 - M626 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1971" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M626_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M626_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M629
+  ;; Title: M629
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1973
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M629.html
+  ;; ====================================================================
+  (symbol "M629" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M629" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M629.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M629 - M629 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M629" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M629 - M629 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1973" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M629_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M629_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M666
+  ;; Title: M666
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M666.html
+  ;; ====================================================================
+  (symbol "M666" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M666" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M666.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M666: The M666 00 walL audio Nutfi amplitier i5 an #C operated, plug in module designen tor professiona applications the broadcast motion picture and 5 @uO recordinq industries FEATURES:..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M666" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M666: The M666 00 walL audio Nutfi amplitier i5 an #C operated, plug in module designen tor professiona applications the broadcast motion picture and 5 @uO recordinq industries FEATURES:..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M666_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M666_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M801
+  ;; Title: M801
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1971
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M801.html
+  ;; ====================================================================
+  (symbol "M801" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M801" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M801.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M801 - M801 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M801" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M801 - M801 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1971" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M801_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M801_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M802
+  ;; Title: M802
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1985
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M802.html
+  ;; ====================================================================
+  (symbol "M802" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M802" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M802.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M802 - M802 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M802" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M802 - M802 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M802_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M802_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M802C
+  ;; Title: M802C
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1996
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M802C.html
+  ;; ====================================================================
+  (symbol "M802C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M802C" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M802C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M802C - M802C (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M802C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M802C - M802C (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1996" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M802C_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M802C_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M804
+  ;; Title: M804
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1973
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M804.html
+  ;; ====================================================================
+  (symbol "M804" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M804" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M804.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M804 - M804 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M804" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M804 - M804 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1973" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M804_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M804_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M805
+  ;; Title: M805
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1983
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M805.html
+  ;; ====================================================================
+  (symbol "M805" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M805" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M805.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M805 - M805 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M805" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M805 - M805 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1983" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M805_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M805_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M806A
+  ;; Title: M806A
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 2014
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M806A.html
+  ;; ====================================================================
+  (symbol "M806A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M806A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M806A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M806A - M806A (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M806A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M806A - M806A (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2014" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M806A_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M806A_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M807
+  ;; Title: Fade Generator
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1972
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M807.html
+  ;; ====================================================================
+  (symbol "M807" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M807" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M807.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M807 - Fade Generator (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M807" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M807 - Fade Generator (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1972" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M807_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M807_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M808
+  ;; Title: RELAY Switcher MOPLLE SCHEMATIC
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M808.html
+  ;; ====================================================================
+  (symbol "M808" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M808" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M808.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M808 - RELAY Switcher MOPLLE SCHEMATIC (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M808" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M808 - RELAY Switcher MOPLLE SCHEMATIC (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M808_0_1" (rectangle (start -45.72 7.62) (end 45.72 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M808_1_1"
+      (pin input line (at -50.80 5.08 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 2.54 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 -2.54 0) (length 5.08) (name "BE TIED TOGETHER THEN, THE CANCEL BUSS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "ENERGIZED BY MOMENTARILY GROUNDING THE CONTROL T" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M808A
+  ;; Title: M808A
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1978
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M808A.html
+  ;; ====================================================================
+  (symbol "M808A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M808A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M808A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M808A - M808A (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M808A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M808A - M808A (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1978" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M808A_0_1" (rectangle (start -45.72 7.62) (end 45.72 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M808A_1_1"
+      (pin input line (at -50.80 5.08 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 2.54 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 -2.54 0) (length 5.08) (name "BE TIED TOGETHER THEN, THE CANCEL BUSS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "ENERGIZED BY MOMENTARILY GROUNDING THE CONTROL T" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M808B
+  ;; Title: M808B
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1994
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M808B.html
+  ;; ====================================================================
+  (symbol "M808B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M808B" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M808B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M808B - M808B (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M808B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M808B - M808B (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1994" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M808B_0_1" (rectangle (start -45.72 7.62) (end 45.72 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M808B_1_1"
+      (pin input line (at -50.80 5.08 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 2.54 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 -2.54 0) (length 5.08) (name "BE TIED TOGETHER THEN, THE CANCEL BUSS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "ENERGIZED BY MOMENTARILY GROUNDING THE CONTROL T" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M808C
+  ;; Title: M808C
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1994
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M808C.html
+  ;; ====================================================================
+  (symbol "M808C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M808C" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M808C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M808C - M808C (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M808C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M808C - M808C (AMPLIFIERS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1994" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M808C_0_1" (rectangle (start -45.72 7.62) (end 45.72 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M808C_1_1"
+      (pin input line (at -50.80 5.08 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 2.54 0) (length 5.08) (name "INPUT ONE" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -50.80 -2.54 0) (length 5.08) (name "BE TIED TOGETHER THEN, THE CANCEL BUSS" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "ENERGIZED BY MOMENTARILY GROUNDING THE CONTROL T" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M809C
+  ;; Title: M809C
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1996
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M809C.html
+  ;; ====================================================================
+  (symbol "M809C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M809C" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M809C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M809C - M809C (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M809C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M809C - M809C (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1996" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M809C_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M809C_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M813
+  ;; Title: Relay Switcher
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1974
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M813.html
+  ;; ====================================================================
+  (symbol "M813" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M813" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M813.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M813 - Relay Switcher (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M813" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M813 - Relay Switcher (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M813_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M813_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M815
+  ;; Title: Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M815.html
+  ;; ====================================================================
+  (symbol "M815" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M815" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M815.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M815 - Distribution Amplifier (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M815" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M815 - Distribution Amplifier (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M815_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M815_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M816
+  ;; Title: Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1975
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M816.html
+  ;; ====================================================================
+  (symbol "M816" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M816" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M816.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M816 - Distribution Amplifier (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M816" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M816 - Distribution Amplifier (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M816_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M816_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8200
+  ;; Title: Microphone Preamplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1993
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8200.html
+  ;; ====================================================================
+  (symbol "M8200" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8200" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8200.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8200: MFG MEG PARTNUMBER HANDLE Module Handle WBS B8205-004 LKI To LK3 2 Pin Jumpcr Aptronics 929955-06 PCB Printed Circuit Board WBS 14-212 UI-U3 U4 14 Pin Dip Socket 8 Pin Dip Socket A..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8200" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8200: MFG MEG PARTNUMBER HANDLE Module Handle WBS B8205-004 LKI To LK3 2 Pin Jumpcr Aptronics 929955-06 PCB Printed Circuit Board WBS 14-212 UI-U3 U4 14 Pin Dip Socket 8 Pin Dip Socket A..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1993" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8200_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8200_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "Input +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "Input -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8201
+  ;; Title: M8201
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1994
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8201.html
+  ;; ====================================================================
+  (symbol "M8201" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8201" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8201.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8201 - M8201 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8201" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8201 - M8201 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1994" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8201_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8201_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8202
+  ;; Title: M8202
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1995
+  ;; Power: +1 VOLT TO -4 VOLTS, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8202.html
+  ;; ====================================================================
+  (symbol "M8202" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8202" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8202.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8202 - M8202 (AMPLIFIERS). +1 VOLT TO -4 VOLTS, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8202" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8202 - M8202 (AMPLIFIERS). +1 VOLT TO -4 VOLTS, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+1 VOLT TO -4 VOLTS, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE, +/-22 VOLT DC SUPPLY VOLTAGE" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8202_0_1" (rectangle (start -63.50 7.62) (end 63.50 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8202_1_1"
+      (pin input line (at -68.58 5.08 0) (length 5.08) (name "REMOTE LINE INPUT" (effects (font (size 1.27 1.27)))) (number "K" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -68.58 2.54 0) (length 5.08) (name "REMOTE LINE INPUT" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 68.58 5.08 180) (length 5.08) (name "TWO DIRECT ACTIVELY BALANCED OUTPUTS" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 68.58 2.54 180) (length 5.08) (name "TWO DIRECT ACTIVELY BALANCED OUTPUTS" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 68.58 0.00 180) (length 5.08) (name "TWO DIRECT ACTIVELY BALANCED OUTPUTS" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 68.58 -2.54 180) (length 5.08) (name "TWO DIRECT ACTIVELY BALANCED OUTPUTS" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -10.16 12.70 270) (length 5.08) (name "+1 VOLT TO -4 VOLTS" (effects (font (size 1.27 1.27)))) (number "M" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 12.70 270) (length 5.08) (name "+/-22 VOLT DC SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+/-22 VOLT DC SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 12.70 270) (length 5.08) (name "+/-22 VOLT DC SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 10.16 12.70 270) (length 5.08) (name "+/-22 VOLT DC SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8204
+  ;; Title: M8204
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1993
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8204.html
+  ;; ====================================================================
+  (symbol "M8204" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8204" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8204.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8204 - M8204 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8204" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8204 - M8204 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1993" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8204_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8204_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8205
+  ;; Title: Audio Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1995
+  ;; Power: ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8205.html
+  ;; ====================================================================
+  (symbol "M8205" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8205" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8205.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8205 - Audio Distribution Amplifier (AMPLIFIERS). ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8205" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8205 - Audio Distribution Amplifier (AMPLIFIERS). ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8205_0_1" (rectangle (start -38.10 7.62) (end 38.10 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8205_1_1"
+      (pin input line (at -43.18 5.08 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 0.00 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8206
+  ;; Title: Matrixing Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1986
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8206.html
+  ;; ====================================================================
+  (symbol "M8206" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8206" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8206.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8206 - Matrixing Amplifier (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8206" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8206 - Matrixing Amplifier (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1986" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8206_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8206_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8208
+  ;; Title: Remote Level Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1995
+  ;; Power: ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8208.html
+  ;; ====================================================================
+  (symbol "M8208" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8208" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8208.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8208 - Remote Level Distribution Amplifier (AMPLIFIERS). ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8208" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8208 - Remote Level Distribution Amplifier (AMPLIFIERS). ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE, ±22 VOLT DC SUPPLY VOLTAGE" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8208_0_1" (rectangle (start -83.82 7.62) (end 83.82 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8208_1_1"
+      (pin input line (at -88.90 5.08 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -88.90 2.54 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -88.90 0.00 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 88.90 5.08 180) (length 5.08) (name "TWO DIRECT COUPLED ACTIVELY BALANCED OUTPUTS" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 88.90 2.54 180) (length 5.08) (name "TWO DIRECT COUPLED ACTIVELY BALANCED OUTPUTS" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 88.90 0.00 180) (length 5.08) (name "TWO DIRECT COUPLED ACTIVELY BALANCED OUTPUTS" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 88.90 -2.54 180) (length 5.08) (name "TWO DIRECT COUPLED ACTIVELY BALANCED OUTPUTS" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M827
+  ;; Title: M827
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1972
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M827.html
+  ;; ====================================================================
+  (symbol "M827" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M827" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M827.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M827 - M827 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M827" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M827 - M827 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1972" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M827_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M827_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M845
+  ;; Title: M845
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1972
+  ;; Power: +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M845.html
+  ;; ====================================================================
+  (symbol "M845" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M845" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M845.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M845 - M845 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M845" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M845 - M845 (AMPLIFIERS). +24V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1972" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M845_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M845_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "INPUT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUTPUT -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+24V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -5.08 -12.70 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "-24V" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

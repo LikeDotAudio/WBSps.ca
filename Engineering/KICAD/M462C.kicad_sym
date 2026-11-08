@@ -1,0 +1,37 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M462C") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M462C
+  ;; Title: M462C-M562C - Stereo Equalizer
+  ;; Category: FILTERS | Series: Standard | Year: 1985
+  ;; Power: See manual
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M462C.html
+  ;; ====================================================================
+  (symbol "M462C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M462C" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M462C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M462C: M462C STEREO EQUALIZER MODULE circuit description details wili pertain the Left Channel . The right channel circuitry operates similar manner TtfT [ naisogoid Loeul The left channe..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast FILTERS  M462C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M462C: M462C STEREO EQUALIZER MODULE circuit description details wili pertain the Left Channel . The right channel circuitry operates similar manner TtfT [ naisogoid Loeul The left channe..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "FILTERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M462C_0_1" (rectangle (start -35.56 10.16) (end 35.56 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M462C_1_1"
+      (pin input line (at -40.64 7.62 0) (length 5.08) (name "EQ IN LEFT +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "EQ IN LEFT -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 0.00 0) (length 5.08) (name "EQ IN Right +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 -2.54 0) (length 5.08) (name "EQ IN Right -" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 7.62 180) (length 5.08) (name "EQ OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "EQ OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 0.00 180) (length 5.08) (name "EQ OUT Right +" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 -2.54 180) (length 5.08) (name "EQ OUT Right -" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

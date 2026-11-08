@@ -1,0 +1,60 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M465") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M465
+  ;; Title: Reverb Module
+  ;; Category: DYNAMICS | Series: Standard | Year: 1974
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M465.html
+  ;; ====================================================================
+  (symbol "M465" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 55.88 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M465" (at 0 -55.88 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M465.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M465: 4-109 AMPLIFIER SERIES The 4-109 series of amp] ifiers are printed circuit board units which are utilized a $ an interna ] component in certain Ward- Beck Systems modules Each 4-10..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M465" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M465: 4-109 AMPLIFIER SERIES The 4-109 series of amp] ifiers are printed circuit board units which are utilized a $ an interna ] component in certain Ward- Beck Systems modules Each 4-10..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M465_0_1" (rectangle (start -30.48 50.80) (end 30.48 -50.80) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M465_1_1"
+      (pin input line (at -35.56 48.26 0) (length 5.08) (name "RETURN IN" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 45.72 0) (length 5.08) (name "RETURN IN" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 48.26 180) (length 5.08) (name "REV SEND OUT" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 43.18 180) (length 5.08) (name "REV SEND" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 38.10 180) (length 5.08) (name "REV SEND OUT" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 33.02 180) (length 5.08) (name "REV SEND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 27.94 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 25.40 180) (length 5.08) (name "FB OUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 20.32 180) (length 5.08) (name "SOLO OUT" (effects (font (size 1.27 1.27)))) (number "K" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 17.78 180) (length 5.08) (name "SOLO OUT" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 12.70 180) (length 5.08) (name "RR OUT, DIRECT" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 7.62 180) (length 5.08) (name "RR OUT" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 2.54 180) (length 5.08) (name "RR OUT, LEFT" (effects (font (size 1.27 1.27)))) (number "R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 0.00 180) (length 5.08) (name "RR OUT, LEFT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 -5.08 180) (length 5.08) (name "OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -10.16 180) (length 5.08) (name "DIRECT" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -12.70 180) (length 5.08) (name "FADER" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -15.24 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "C" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -17.78 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -20.32 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -22.86 180) (length 5.08) (name "IC" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -25.40 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "H" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -27.94 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -30.48 180) (length 5.08) (name "FROM RR FADER" (effects (font (size 1.27 1.27)))) (number "M" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -33.02 180) (length 5.08) (name "FROM RR" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -35.56 180) (length 5.08) (name "FADER" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -38.10 180) (length 5.08) (name "TO RR FADER" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -40.64 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -43.18 180) (length 5.08) (name "25V" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -55.88 90) (length 5.08) (name "24V COM" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -55.88 90) (length 5.08) (name "25V COM" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

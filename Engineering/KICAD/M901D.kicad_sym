@@ -1,0 +1,34 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M901D") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M901D
+  ;; Title: Input Module
+  ;; Category: UNSORTED | Series: Standard | Year: 1995
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M901D.html
+  ;; ====================================================================
+  (symbol "M901D" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M901D" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M901D.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M901D - Input Module (UNSORTED). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast UNSORTED  M901D" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M901D - Input Module (UNSORTED). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "UNSORTED" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M901D_0_1" (rectangle (start -48.26 7.62) (end 48.26 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M901D_1_1"
+      (pin input line (at -53.34 5.08 0) (length 5.08) (name "CUE CHANNEL TOGGLES ON AND OFF" (effects (font (size 1.27 1.27)))) (number "41" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -53.34 2.54 0) (length 5.08) (name "LAMP INTEGRAL TO THE CHANNEL OFF SWITCH" (effects (font (size 1.27 1.27)))) (number "45" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -53.34 0.00 0) (length 5.08) (name "LAMP INTEGRAL TO THE CHANNEL OFF SWITCH" (effects (font (size 1.27 1.27)))) (number "46" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "MOMENTARY CLOSURE TO CONTROL COMMON VIA AN" (effects (font (size 1.27 1.27)))) (number "35" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "MOMENTARY CLOSURE TO CONTROL COMMON VIA AN" (effects (font (size 1.27 1.27)))) (number "36" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

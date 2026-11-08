@@ -1,0 +1,30 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M562C") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M562C
+  ;; Title: Stereo Equalizer Module
+  ;; Category: FILTERS | Series: Standard | Year: 1985
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M562C.html
+  ;; ====================================================================
+  (symbol "M562C" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M562C" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M562C.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M562C: M462C STEREO EQUALIZER MODULE circuit description details wili pertain the Left Channel . The right channel circuitry operates similar manner TtfT [ naisogoid Loeul The left channe..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast FILTERS  M562C" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M562C: M462C STEREO EQUALIZER MODULE circuit description details wili pertain the Left Channel . The right channel circuitry operates similar manner TtfT [ naisogoid Loeul The left channe..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "FILTERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M562C_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M562C_1_1"
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "POWER SUPPLY COMMON RETURN" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

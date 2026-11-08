@@ -1,0 +1,33 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M8203") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8203
+  ;; Title: M8203
+  ;; Category: MONITORING | Series: Standard | Year: 2015
+  ;; Power: ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8203.html
+  ;; ====================================================================
+  (symbol "M8203" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8203" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8203.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8203 - M8203 (MONITORING). ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M8203" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8203 - M8203 (MONITORING). ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2015" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8203_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8203_1_1"
+      (pin power_in line (at -7.62 12.70 270) (length 5.08) (name "± 20 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "± 20 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "± 20 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 12.70 270) (length 5.08) (name "± 20 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

@@ -1,0 +1,35 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M524") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M524
+  ;; Title: 24 Volt dc Dual Lamp/Relay Power Supply
+  ;; Category: COMPUTERS | Series: Standard | Year: 1986
+  ;; Power: +5V +5.0V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M524.html
+  ;; ====================================================================
+  (symbol "M524" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M524" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M524.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M524: (Cont. 2 ) Chs Mluminated pushbutton changes the ch/s display column from Channel On tallies to Solo On tallies. This button is used for display purposes only and has no effect on ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast COMPUTERS  M524" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M524: (Cont. 2 ) Chs Mluminated pushbutton changes the ch/s display column from Channel On tallies to Solo On tallies. This button is used for display purposes only and has no effect on ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "COMPUTERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1986" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+5V +5.0V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M524_0_1" (rectangle (start -25.40 10.16) (end 25.40 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M524_1_1"
+      (pin output line (at 30.48 7.62 180) (length 5.08) (name "Led Display Drive +" (effects (font (size 1.27 1.27)))) (number "O2P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "Led Display Drive -" (effects (font (size 1.27 1.27)))) (number "O2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 0.00 180) (length 5.08) (name "Tally Data Drive +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 -2.54 180) (length 5.08) (name "Tally Data Drive -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 15.24 270) (length 5.08) (name "+5V +5.0V" (effects (font (size 1.27 1.27)))) (number "+5V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -15.24 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "GND" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

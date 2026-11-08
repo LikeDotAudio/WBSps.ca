@@ -1,0 +1,48 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M612A") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M612A
+  ;; Title: M612A
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1983
+  ;; Power: OUTPUT CAPABILITY THIS POWER AMPLIFIER EXCESS 2
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M612A.html
+  ;; ====================================================================
+  (symbol "M612A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M612A" (at 0 -30.48 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M612A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M612A: MFG MFG PART NUMBER UI , u2,43 U4,u5 Pin Dip Socket AMP 640463-3 04 05,09, 010 Heat Sink WBS A605-03-020 Heat Sink Standoffs WBS A605-03-022 WBS recommends the use replacement part..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M612A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M612A: MFG MFG PART NUMBER UI , u2,43 U4,u5 Pin Dip Socket AMP 640463-3 04 05,09, 010 Heat Sink WBS A605-03-020 Heat Sink Standoffs WBS A605-03-022 WBS recommends the use replacement part..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1983" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "OUTPUT CAPABILITY THIS POWER AMPLIFIER EXCESS 2" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M612A_0_1" (rectangle (start -25.40 25.40) (end 25.40 -25.40) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M612A_1_1"
+      (pin bidirectional line (at 30.48 22.86 180) (length 5.08) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 20.32 180) (length 5.08) (name "8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 17.78 180) (length 5.08) (name "9" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 15.24 180) (length 5.08) (name "12" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "13" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "16" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "6" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "J" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "10" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -10.16 180) (length 5.08) (name "11" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -12.70 180) (length 5.08) (name "14" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -15.24 180) (length 5.08) (name "S" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -17.78 180) (length 5.08) (name "15" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -20.32 180) (length 5.08) (name "Z" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 30.48 270) (length 5.08) (name "OUTPUT CAPABILITY THIS POWER AMPLIFIER EXCESS 2" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

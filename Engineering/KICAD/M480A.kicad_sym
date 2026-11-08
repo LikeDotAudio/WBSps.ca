@@ -1,0 +1,49 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M480A") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M480A
+  ;; Title: MIXER BUSSES IGV
+  ;; Category: INPUT-PRE-AMPS | Series: Standard | Year: 2020
+  ;; Power: -25 V, +48 V, +25 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M480A.html
+  ;; ====================================================================
+  (symbol "M480A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M480A" (at 0 -20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M480A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M480A - MIXER BUSSES IGV (INPUT-PRE-AMPS). -25 V, +48 V, +25 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast INPUT-PRE-AMPS  M480A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M480A - MIXER BUSSES IGV (INPUT-PRE-AMPS). -25 V, +48 V, +25 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "INPUT-PRE-AMPS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2020" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "-25 V, +48 V, +25 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M480A_0_1" (rectangle (start -30.48 15.24) (end 30.48 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M480A_1_1"
+      (pin input line (at -35.56 12.70 0) (length 5.08) (name "MIC IN B" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 10.16 0) (length 5.08) (name "MIC IN B" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 5.08 0) (length 5.08) (name "FADER RETURN" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 2.54 0) (length 5.08) (name "FADER RETURN" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 -2.54 0) (length 5.08) (name "LINE IN B" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 -5.08 0) (length 5.08) (name "LINE IN B" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 -10.16 0) (length 5.08) (name "CUE SOLO" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -35.56 -12.70 0) (length 5.08) (name "CUE SOLO" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 12.70 180) (length 5.08) (name "M1 OUT" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 10.16 180) (length 5.08) (name "M1 OUT" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 5.08 180) (length 5.08) (name "M2 OUT" (effects (font (size 1.27 1.27)))) (number "H" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 2.54 180) (length 5.08) (name "M2 OUT" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 -2.54 180) (length 5.08) (name "FADER SEND" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 35.56 -5.08 180) (length 5.08) (name "FADER SEND" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -10.16 180) (length 5.08) (name "AUX" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 35.56 -12.70 180) (length 5.08) (name "AUX" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 20.32 270) (length 5.08) (name "-25 V" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 20.32 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 20.32 270) (length 5.08) (name "+25 V" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -20.32 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

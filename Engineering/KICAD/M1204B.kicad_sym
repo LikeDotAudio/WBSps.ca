@@ -1,0 +1,37 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M1204B") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M1204B
+  ;; Title: M1204B
+  ;; Category: CONSOLE | Series: Standard | Year: 1988
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M1204B.html
+  ;; ====================================================================
+  (symbol "M1204B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M1204B" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M1204B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M1204B - M1204B (CONSOLE). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast CONSOLE  M1204B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M1204B - M1204B (CONSOLE). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "CONSOLE" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1988" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M1204B_0_1" (rectangle (start -27.94 10.16) (end 27.94 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M1204B_1_1"
+      (pin input line (at -33.02 7.62 0) (length 5.08) (name "Ext Mic In +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "Ext Mic In -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 0.00 0) (length 5.08) (name "Tb In +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 -2.54 0) (length 5.08) (name "Tb In -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 7.62 180) (length 5.08) (name "Dir Out +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "Dir Out -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 0.00 180) (length 5.08) (name "Out 3 +" (effects (font (size 1.27 1.27)))) (number "O2P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 -2.54 180) (length 5.08) (name "Out 3 -" (effects (font (size 1.27 1.27)))) (number "O2N" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

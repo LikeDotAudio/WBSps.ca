@@ -13,7 +13,7 @@ Every file can be opened in the browser with `viewer.html?f=<path>` (links in th
 | `.png` | 497 | image | any browser; Image Viewer; GIMP | native |
 | `.docx` | 209 | Word document (modern manuals) | LibreOffice Writer | PDF via LibreOffice |
 | `.dwg` | 115 | AutoCAD DWG drawing (R11/R12 mechanical) | needs a DWG viewer — ODA File Converter or DraftSight (not installed) | none yet |
-| `.kicad_sym` | 110 | — | — | none |
+| `.kicad_sym` | 550+ | KiCad symbol library | KiCad | browser preview & generator (`kicad.html`), master & category export |
 | `.yaml` | 109 | — | — | none |
 | `.jpeg` | 91 | photo / scan | any browser; Image Viewer; GIMP | native |
 | `.psd` | 75 | Photoshop image | GIMP | PNG via ImageMagick |

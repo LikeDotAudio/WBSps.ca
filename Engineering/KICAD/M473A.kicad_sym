@@ -1,0 +1,50 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M473A") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M473A
+  ;; Title: Submaster Module
+  ;; Category: SUMMING | Series: Standard | Year: 1977
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M473A.html
+  ;; ====================================================================
+  (symbol "M473A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M473A" (at 0 -25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M473A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M473A: 8-109 AMPLIEIER_SERIES Output Level: +30 dBm maximum. Power Requirements: +/- 21.5 valts dc, MA quiescent current MA +30 dBm outpul. Ambient Temperalure: 60 degrees Celsius. 25\" 3...." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M473A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M473A: 8-109 AMPLIEIER_SERIES Output Level: +30 dBm maximum. Power Requirements: +/- 21.5 valts dc, MA quiescent current MA +30 dBm outpul. Ambient Temperalure: 60 degrees Celsius. 25\" 3...." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M473A_0_1" (rectangle (start -40.64 20.32) (end 40.64 -20.32) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M473A_1_1"
+      (pin input line (at -45.72 17.78 0) (length 5.08) (name "Summing Input +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 15.24 0) (length 5.08) (name "Summing Input -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 10.16 0) (length 5.08) (name "Insert Return +" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 7.62 0) (length 5.08) (name "Insert Return -" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.20.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.20.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 17.78 180) (length 5.08) (name "Meter Out +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 15.24 180) (length 5.08) (name "Meter Out -" (effects (font (size 1.27 1.27)))) (number "P2-T" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 10.16 180) (length 5.08) (name "Direct Out +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 7.62 180) (length 5.08) (name "Direct Out -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 2.54 180) (length 5.08) (name "Insert Send +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 0.00 180) (length 5.08) (name "Insert Send -" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -10.16 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -12.70 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 25.40 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 25.40 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -25.40 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

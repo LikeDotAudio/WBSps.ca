@@ -1,13 +1,38 @@
-(kicad_symbol_lib (version 20231120) (generator "make_rto144") (generator_version "1.0")
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M481B") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M481B
+  ;; Title: Cue OSC Re-entry Module
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1982
+  ;; Power: POWERSUPPLY POWER, POWERSUPPLY POWER
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M481B.html
+  ;; ====================================================================
   (symbol "M481B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "M481B" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M481B" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Description" "M481B M481B Cue OSC Re-entry Module: edge connector pin-out from the RTO-144 jumper calculator" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "ki_keywords" "Ward-Beck WBS module RTO-144 " (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (symbol "M481B_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M481B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M481B: MFG MFG PART NUMBER SW1 Sw2 Sw3 Button (Grey) White) Grey ) FM-GREY FM-WH FM-GREY WBS recommends the use replacerient parts made by the specitied manufaclurers for continued optimu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M481B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M481B: MFG MFG PART NUMBER SW1 Sw2 Sw3 Button (Grey) White) Grey ) FM-GREY FM-WH FM-GREY WBS recommends the use replacerient parts made by the specitied manufaclurers for continued optimu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1982" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "POWERSUPPLY POWER, POWERSUPPLY POWER" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M481B_0_1" (rectangle (start -96.52 10.16) (end 96.52 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
     (symbol "M481B_1_1"
+      (pin input line (at -101.60 7.62 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -101.60 5.08 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -101.60 2.54 0) (length 5.08) (name "RE-ENTRY SELECTOR AND LEVEL CONTROL OF MASTER" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 7.62 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 5.08 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 2.54 180) (length 5.08) (name "RE-ENTRY THE M2 OUTPUT" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 101.60 -2.54 180) (length 5.08) (name "CUE/SOLO ASSI GN SWITCH SW2 ROUTES THIE" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 15.24 270) (length 5.08) (name "POWERSUPPLY POWER" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 15.24 270) (length 5.08) (name "POWERSUPPLY POWER" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
     )
   )
 )

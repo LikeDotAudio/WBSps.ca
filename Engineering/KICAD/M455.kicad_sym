@@ -1,0 +1,39 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M455") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M455
+  ;; Title: Auxiliary Module
+  ;; Category: ROUTING | Series: Standard | Year: 1974
+  ;; Power: +24V +24.0V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M455.html
+  ;; ====================================================================
+  (symbol "M455" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M455" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M455.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M455: MFG MEG_PART_NUMBER 2222-638-09478 c6 C1l Capacitor 4.3 PF Philips R15 Resistor @W 5% 2k4 WBS recommends the us e of replacement parts made by the specified manufacturers for conti..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M455" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M455: MFG MEG_PART_NUMBER 2222-638-09478 c6 C1l Capacitor 4.3 PF Philips R15 Resistor @W 5% 2k4 WBS recommends the us e of replacement parts made by the specified manufacturers for conti..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1974" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24V +24.0V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M455_0_1" (rectangle (start -25.40 12.70) (end 25.40 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M455_1_1"
+      (pin input line (at -30.48 10.16 0) (length 5.08) (name "Input A +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 7.62 0) (length 5.08) (name "Input A -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "In Rib 'V'V'V ) +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 0.00 0) (length 5.08) (name "In Rib 'V'V'V ) -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 -5.08 0) (length 5.08) (name "In Terlock +" (effects (font (size 1.27 1.27)))) (number "I3P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 -7.62 0) (length 5.08) (name "In Terlock -" (effects (font (size 1.27 1.27)))) (number "I3N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 17.78 270) (length 5.08) (name "+24V +24.0V" (effects (font (size 1.27 1.27)))) (number "+24V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "GND" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -17.78 90) (length 5.08) (name "+25V +25.0V" (effects (font (size 1.27 1.27)))) (number "+25V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "-5V -5.0V" (effects (font (size 1.27 1.27)))) (number "-5V" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

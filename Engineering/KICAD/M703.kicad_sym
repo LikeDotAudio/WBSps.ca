@@ -1,0 +1,38 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M703") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M703
+  ;; Title: Intercom Input/Output Amplifier
+  ;; Category: COMMUNICATION | Series: Standard | Year: 1977
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M703.html
+  ;; ====================================================================
+  (symbol "M703" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M703" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M703.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M703: MFG MFG PART NUMBER TI Trans former Hammond WBS 94540 21 22 23 Integrated Circuit Fairchild 44739DC uAzogHc WBS recommends the use 0 f replacement parts ma de by the specified manu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast COMMUNICATION  M703" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M703: MFG MFG PART NUMBER TI Trans former Hammond WBS 94540 21 22 23 Integrated Circuit Fairchild 44739DC uAzogHc WBS recommends the use 0 f replacement parts ma de by the specified manu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "COMMUNICATION" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M703_0_1" (rectangle (start -25.40 12.70) (end 25.40 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M703_1_1"
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 2.54 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -5.08 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -7.62 180) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -17.78 90) (length 5.08) (name "SHIELD" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

@@ -1,0 +1,56 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M497D") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M497D
+  ;; Title: Dual Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1978
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M497D.html
+  ;; ====================================================================
+  (symbol "M497D" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M497D" (at 0 -27.94 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M497D.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M497D: 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M497D" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M497D: 8-409 AMPLIFIER SERIES The 8-109 series amplifiers are utilized an internal component various WBS series audio console modules. Each 8-109 within amplifier mounts a5 Plug-in assemb..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1978" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M497D_0_1" (rectangle (start -38.10 22.86) (end 38.10 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M497D_1_1"
+      (pin input line (at -43.18 20.32 0) (length 5.08) (name "Left Sum IN +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 17.78 0) (length 5.08) (name "Left Sum IN -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 12.70 0) (length 5.08) (name "Right SUM in +" (effects (font (size 1.27 1.27)))) (number "P2-2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 10.16 0) (length 5.08) (name "Right SUM in -" (effects (font (size 1.27 1.27)))) (number "P2-B" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 5.08 0) (length 5.08) (name "Left Line IN +" (effects (font (size 1.27 1.27)))) (number "P2-4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "Left Line IN -" (effects (font (size 1.27 1.27)))) (number "P2-D" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -2.54 0) (length 5.08) (name "Right Line in +" (effects (font (size 1.27 1.27)))) (number "P2-5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -5.08 0) (length 5.08) (name "Right Line in -" (effects (font (size 1.27 1.27)))) (number "P2-E" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -10.16 0) (length 5.08) (name "JMP.8.6 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-8" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -12.70 0) (length 5.08) (name "JMP.8.6 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -15.24 0) (length 5.08) (name "JMP.F.J (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-J" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -17.78 0) (length 5.08) (name "JMP.F.J (TO)" (effects (font (size 1.27 1.27)))) (number "P2-F" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 20.32 180) (length 5.08) (name "OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-12" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 17.78 180) (length 5.08) (name "OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 12.70 180) (length 5.08) (name "OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 10.16 180) (length 5.08) (name "OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-S" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 5.08 180) (length 5.08) (name "VU OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "P2-14" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 2.54 180) (length 5.08) (name "VU OUT LEFT -" (effects (font (size 1.27 1.27)))) (number "P2-R" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -2.54 180) (length 5.08) (name "VU OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "P2-17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 -5.08 180) (length 5.08) (name "VU OUT RIGHT -" (effects (font (size 1.27 1.27)))) (number "P2-U" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -10.16 180) (length 5.08) (name "JMP.7.9 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-7" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -12.70 180) (length 5.08) (name "JMP.7.9 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -15.24 180) (length 5.08) (name "JMP.H.K (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-H" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 -17.78 180) (length 5.08) (name "JMP.H.K (TO)" (effects (font (size 1.27 1.27)))) (number "P2-K" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 27.94 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 27.94 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -27.94 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

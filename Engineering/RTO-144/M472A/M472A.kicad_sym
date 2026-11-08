@@ -1,17 +1,33 @@
-(kicad_symbol_lib (version 20231120) (generator "make_rto144") (generator_version "1.0")
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M472A") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M472A
+  ;; Title: Stereo Equalizer Module
+  ;; Category: FILTERS | Series: Standard | Year: 1986
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M472A.html
+  ;; ====================================================================
   (symbol "M472A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
     (property "Value" "M472A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Description" "M472A M472A - Stereo Equalizer: edge connector pin-out from the RTO-144 jumper calculator" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "ki_keywords" "Ward-Beck WBS module RTO-144 " (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (symbol "M472A_0_1" (rectangle (start -43.18 7.62) (end 43.18 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M472A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M472A: M47ZA STEREO EQUALIZER MODULE The left channel of the M472A Stereo Equalizer wili be described . Input The unbalanced audio input appears at pin of the module conn- ector It is rou..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast FILTERS  M472A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M472A: M47ZA STEREO EQUALIZER MODULE The left channel of the M472A Stereo Equalizer wili be described . Input The unbalanced audio input appears at pin of the module conn- ector It is rou..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "FILTERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1986" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M472A_0_1" (rectangle (start -60.96 7.62) (end 60.96 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
     (symbol "M472A_1_1"
-      (pin input line (at -48.26 5.08 0) (length 5.08) (name "EQ(unbalanced) IN LEFT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
-      (pin input line (at -48.26 2.54 0) (length 5.08) (name "EQ(unbalanced) IN RIGHT +" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 48.26 5.08 180) (length 5.08) (name "EQ(unbalanced) OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 48.26 2.54 180) (length 5.08) (name "EQ(unbalanced) OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -66.04 5.08 0) (length 5.08) (name "EQ(unbalanced) IN LEFT +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -66.04 0.00 0) (length 5.08) (name "EQ(unbalanced) IN RIGHT +" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 66.04 5.08 180) (length 5.08) (name "EQ(unbalanced) OUT LEFT +" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 66.04 0.00 180) (length 5.08) (name "EQ(unbalanced) OUT RIGHT +" (effects (font (size 1.27 1.27)))) (number "11" (effects (font (size 1.27 1.27)))))
     )
   )
 )

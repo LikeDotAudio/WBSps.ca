@@ -1,0 +1,35 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - POD2") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: POD2
+  ;; Title: Stereo Audio Switcher
+  ;; Category: PODS | Series: Standard | Year: 1997
+  ;; Power: VDD
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/POD2.html
+  ;; ====================================================================
+  (symbol "POD2" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "POD2" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/POD2.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "POD2 - Stereo Audio Switcher (PODS). VDD." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast PODS  POD2" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "POD2 - Stereo Audio Switcher (PODS). VDD." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "PODS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1997" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VDD" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "POD2_0_1" (rectangle (start -27.94 10.16) (end 27.94 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "POD2_1_1"
+      (pin input line (at -33.02 7.62 0) (length 5.08) (name "In Spare +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "In Spare -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 0.00 0) (length 5.08) (name "+ Xpt2 Xpt4 In Mix +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 -2.54 0) (length 5.08) (name "+ Xpt2 Xpt4 In Mix -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 15.24 270) (length 5.08) (name "VDD" (effects (font (size 1.27 1.27)))) (number "VDD" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -15.24 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "IN MIX GND" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

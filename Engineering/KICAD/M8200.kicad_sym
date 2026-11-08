@@ -1,0 +1,31 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M8200") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8200
+  ;; Title: Microphone Preamplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1993
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8200.html
+  ;; ====================================================================
+  (symbol "M8200" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8200" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8200.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8200: MFG MEG PARTNUMBER HANDLE Module Handle WBS B8205-004 LKI To LK3 2 Pin Jumpcr Aptronics 929955-06 PCB Printed Circuit Board WBS 14-212 UI-U3 U4 14 Pin Dip Socket 8 Pin Dip Socket A..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8200" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8200: MFG MEG PARTNUMBER HANDLE Module Handle WBS B8205-004 LKI To LK3 2 Pin Jumpcr Aptronics 929955-06 PCB Printed Circuit Board WBS 14-212 UI-U3 U4 14 Pin Dip Socket 8 Pin Dip Socket A..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1993" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8200_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8200_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "Input +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "Input -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

@@ -1,0 +1,34 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M529") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M529
+  ;; Title: Communication Modules
+  ;; Category: COMMUNICATION | Series: Standard | Year: 1985
+  ;; Power: SUPPLY VOLTAGE
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M529.html
+  ;; ====================================================================
+  (symbol "M529" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M529" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M529.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M529: M529 COMMUNICATIONS DESCRIPT ION '.. ; ' .4 7) DESIGNATION 16) TALKBACK Selectors SW8 through to SW1s feed the preamplifier output to the auxiliary master outputs, monitors two to ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast COMMUNICATION  M529" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M529: M529 COMMUNICATIONS DESCRIPT ION '.. ; ' .4 7) DESIGNATION 16) TALKBACK Selectors SW8 through to SW1s feed the preamplifier output to the auxiliary master outputs, monitors two to ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "COMMUNICATION" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "SUPPLY VOLTAGE" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M529_0_1" (rectangle (start -25.40 10.16) (end 25.40 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M529_1_1"
+      (pin output line (at 30.48 7.62 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 0.00 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 -2.54 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 15.24 270) (length 5.08) (name "SUPPLY VOLTAGE" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

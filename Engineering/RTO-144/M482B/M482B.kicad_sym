@@ -1,13 +1,31 @@
-(kicad_symbol_lib (version 20231120) (generator "make_rto144") (generator_version "1.0")
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M482B") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M482B
+  ;; Title: Monitor Module
+  ;; Category: MONITORING | Series: Standard | Year: 1982
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M482B.html
+  ;; ====================================================================
   (symbol "M482B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
     (property "Value" "M482B" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Description" "M482B M482B Monitor Module: edge connector pin-out from the RTO-144 jumper calculator" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "ki_keywords" "Ward-Beck WBS module RTO-144 " (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (symbol "M482B_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M482B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M482B: MFG MFG PARI_NUMBER R3O) Knob (Black ) Cap (Black) Elma 021-352 040-302 SWI Buttons (White) ITT FM-WH SW15 WBS recommends the use replacemient parts made by the specified manufactu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M482B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M482B: MFG MFG PARI_NUMBER R3O) Knob (Black ) Cap (Black) Elma 021-352 040-302 SWI Buttons (White) ITT FM-WH SW15 WBS recommends the use replacemient parts made by the specified manufactu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1982" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M482B_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
     (symbol "M482B_1_1"
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "INPUT SELECTORS" (effects (font (size 1.27 1.27)))) (number "25" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "DIRECT OUTPUT" (effects (font (size 1.27 1.27)))) (number "59" (effects (font (size 1.27 1.27)))))
     )
   )
 )

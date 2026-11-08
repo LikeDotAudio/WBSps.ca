@@ -1,0 +1,36 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M126") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M126
+  ;; Title: M126
+  ;; Category: ROUTING | Series: Standard | Year: 1968
+  ;; Power: +15V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M126.html
+  ;; ====================================================================
+  (symbol "M126" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M126" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M126.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M126 - M126 (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast ROUTING  M126" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M126 - M126 (ROUTING). +15V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "ROUTING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1968" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+15V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M126_0_1" (rectangle (start -27.94 7.62) (end 27.94 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M126_1_1"
+      (pin input line (at -33.02 5.08 0) (length 5.08) (name "AUDIO IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -33.02 2.54 0) (length 5.08) (name "AUDIO IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 5.08 180) (length 5.08) (name "AUDIO OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 33.02 2.54 180) (length 5.08) (name "AUDIO OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "+15V" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "-15V" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

@@ -1,0 +1,36 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M8205") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8205
+  ;; Title: Audio Distribution Amplifier
+  ;; Category: AMPLIFIERS | Series: Standard | Year: 1995
+  ;; Power: ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8205.html
+  ;; ====================================================================
+  (symbol "M8205" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8205" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8205.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8205 - Audio Distribution Amplifier (AMPLIFIERS). ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast AMPLIFIERS  M8205" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8205 - Audio Distribution Amplifier (AMPLIFIERS). ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "AMPLIFIERS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1995" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES, ±22 VOLT DC SUPPLY BUS VOLTAGES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8205_0_1" (rectangle (start -38.10 7.62) (end 38.10 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8205_1_1"
+      (pin input line (at -43.18 5.08 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 0.00 0) (length 5.08) (name "INPUT SIGNAL TO THE AMPLIFIER" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 12.70 270) (length 5.08) (name "±22 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

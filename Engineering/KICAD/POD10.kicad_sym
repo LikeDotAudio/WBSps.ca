@@ -1,0 +1,38 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - POD10") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: POD10
+  ;; Title: Digital Audio Switcher
+  ;; Category: PODS | Series: Standard | Year: 2013
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/POD10.html
+  ;; ====================================================================
+  (symbol "POD10" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "POD10" (at 0 -20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/POD10.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "POD10 - Digital Audio Switcher (PODS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast PODS  POD10" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "POD10 - Digital Audio Switcher (PODS). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "PODS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2013" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "POD10_0_1" (rectangle (start -25.40 15.24) (end 25.40 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "POD10_1_1"
+      (pin input line (at -30.48 12.70 0) (length 5.08) (name "INPUT 4" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 7.62 0) (length 5.08) (name "INPUT 5" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "INPUT 6" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 -2.54 0) (length 5.08) (name "INPUT 7" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 -7.62 0) (length 5.08) (name "INPUT 8" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 12.70 180) (length 5.08) (name "ST BYTE" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 10.16 180) (length 5.08) (name "ND BYTE" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 7.62 180) (length 5.08) (name "V P-P" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -20.32 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

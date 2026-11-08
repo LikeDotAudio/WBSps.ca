@@ -1,0 +1,48 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M490J") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M490J
+  ;; Title: Mic Input Module
+  ;; Category: INPUT-PRE-AMPS | Series: Standard | Year: 1983
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M490J.html
+  ;; ====================================================================
+  (symbol "M490J" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M490J" (at 0 -20.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M490J.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M490J: M490J Mic INPUI_MODULE This change state can be brought about Dy any one three different methods: Momentary operation the CUE switch Sw12 (0) Momentary ground losure the EXTERNAL C..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast INPUT-PRE-AMPS  M490J" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M490J: M490J Mic INPUI_MODULE This change state can be brought about Dy any one three different methods: Momentary operation the CUE switch Sw12 (0) Momentary ground losure the EXTERNAL C..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "INPUT-PRE-AMPS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1983" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M490J_0_1" (rectangle (start -38.10 15.24) (end 38.10 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M490J_1_1"
+      (pin input line (at -43.18 12.70 0) (length 5.08) (name "Mic in A +" (effects (font (size 1.27 1.27)))) (number "P2-1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 10.16 0) (length 5.08) (name "Mic in A -" (effects (font (size 1.27 1.27)))) (number "P2-A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 5.08 0) (length 5.08) (name "Mic in B +" (effects (font (size 1.27 1.27)))) (number "P2-3" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "Mic in B -" (effects (font (size 1.27 1.27)))) (number "P2-C" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -2.54 0) (length 5.08) (name "Insert Return +" (effects (font (size 1.27 1.27)))) (number "P2-7" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -5.08 0) (length 5.08) (name "Insert Return -" (effects (font (size 1.27 1.27)))) (number "P2-H" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -10.16 0) (length 5.08) (name "JMP.6.7 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-6" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -12.70 0) (length 5.08) (name "JMP.6.7 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-7" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 12.70 180) (length 5.08) (name "Insert Send +" (effects (font (size 1.27 1.27)))) (number "P2-6" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 43.18 10.16 180) (length 5.08) (name "Insert Send -" (effects (font (size 1.27 1.27)))) (number "P2-F" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 5.08 180) (length 5.08) (name "JMP.F.H (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-F" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 2.54 180) (length 5.08) (name "JMP.F.H (TO)" (effects (font (size 1.27 1.27)))) (number "P2-H" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 43.18 -2.54 180) (length 5.08) (name "Left PGRM 1 +" (effects (font (size 1.27 1.27)))) (number "P1-1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 43.18 -5.08 180) (length 5.08) (name "Left PGRM 1 -" (effects (font (size 1.27 1.27)))) (number "P1-2" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 43.18 -7.62 180) (length 5.08) (name "Right PGRM 1 +" (effects (font (size 1.27 1.27)))) (number "P1-3" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 43.18 -10.16 180) (length 5.08) (name "Right PGRM 1 -" (effects (font (size 1.27 1.27)))) (number "P1-4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 20.32 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 20.32 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -20.32 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

@@ -1,13 +1,35 @@
-(kicad_symbol_lib (version 20231120) (generator "make_rto144") (generator_version "1.0")
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M471A") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M471A
+  ;; Title: Stereo Input Module
+  ;; Category: INPUT-PRE-AMPS | Series: Standard | Year: 1985
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M471A.html
+  ;; ====================================================================
   (symbol "M471A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "M471A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M471A" (at 0 -15.24 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Description" "M471A M471A - Stereo Input Module: edge connector pin-out from the RTO-144 jumper calculator" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (property "ki_keywords" "Ward-Beck WBS module RTO-144 " (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (symbol "M471A_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M471A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M471A: MLZIA STEREO INPUT_MODULE The M471A Stereo Input Module designed accept stereo line level sources. The unit processes the input signal as required and Fou tes the appropriate point..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast INPUT-PRE-AMPS  M471A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M471A: MLZIA STEREO INPUT_MODULE The M471A Stereo Input Module designed accept stereo line level sources. The unit processes the input signal as required and Fou tes the appropriate point..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "INPUT-PRE-AMPS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M471A_0_1" (rectangle (start -35.56 10.16) (end 35.56 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
     (symbol "M471A_1_1"
+      (pin output line (at 40.64 7.62 180) (length 5.08) (name "OUTPUT FROM THE PREAMPLIFIER" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 2.54 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 0.00 180) (length 5.08) (name "22" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 40.64 -2.54 180) (length 5.08) (name "21" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -15.24 90) (length 5.08) (name "COMMON RETURN FOR THE 1/-25 VOLT SUPPLIES" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -15.24 90) (length 5.08) (name "COMMON RETURN FOR THE 1/-25 VOLT SUPPLIES" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
     )
   )
 )

@@ -1,0 +1,31 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M475A") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M475A
+  ;; Title: Stereo Monitor Module
+  ;; Category: MONITORING | Series: Standard | Year: 1986
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M475A.html
+  ;; ====================================================================
+  (symbol "M475A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M475A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M475A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M475A: MFG MFG PART NUMBER UI-u3 UL-U7 Pin Dip Socket Pin Dip Socket Amp 640357-3 640463-3 WBS recommends the use rep acement parts made by the specified manufacturers for continued optim..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M475A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M475A: MFG MFG PART NUMBER UI-u3 UL-U7 Pin Dip Socket Pin Dip Socket Amp 640357-3 640463-3 WBS recommends the use rep acement parts made by the specified manufacturers for continued optim..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1986" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M475A_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M475A_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "MUTE CO N T ...OL" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

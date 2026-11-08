@@ -1,0 +1,41 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M487") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M487
+  ;; Title: Dual Master Module
+  ;; Category: SUMMING | Series: Standard | Year: 1982
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M487.html
+  ;; ====================================================================
+  (symbol "M487" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M487" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M487.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M487: M487 DUAL MASTER MODULE The M487 Dual Master Module accommodates IWo seperale signal channels Tt is designed t0 receive the mixer feeds irom the summing buses of an audio mi xing c..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast SUMMING  M487" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M487: M487 DUAL MASTER MODULE The M487 Dual Master Module accommodates IWo seperale signal channels Tt is designed t0 receive the mixer feeds irom the summing buses of an audio mi xing c..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "SUMMING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1982" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M487_0_1" (rectangle (start -55.88 12.70) (end 55.88 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M487_1_1"
+      (pin input line (at -60.96 10.16 0) (length 5.08) (name "Section Inputs +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -60.96 7.62 0) (length 5.08) (name "Section Inputs -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -60.96 2.54 0) (length 5.08) (name "Fader Insert In Sect +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -60.96 0.00 0) (length 5.08) (name "Fader Insert In Sect -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 10.16 180) (length 5.08) (name "Out Pu Ts +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 7.62 180) (length 5.08) (name "Out Pu Ts -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 2.54 180) (length 5.08) (name "Fader Insert Out Sect 2 +" (effects (font (size 1.27 1.27)))) (number "O2P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 0.00 180) (length 5.08) (name "Fader Insert Out Sect 2 -" (effects (font (size 1.27 1.27)))) (number "O2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 -5.08 180) (length 5.08) (name "Faoer Insert Out Sect +" (effects (font (size 1.27 1.27)))) (number "O3P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 60.96 -7.62 180) (length 5.08) (name "Faoer Insert Out Sect -" (effects (font (size 1.27 1.27)))) (number "O3N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -17.78 90) (length 5.08) (name "-5V -5.0V" (effects (font (size 1.27 1.27)))) (number "-5V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "GND" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

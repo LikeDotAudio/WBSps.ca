@@ -1,0 +1,46 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M441F") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M441F
+  ;; Title: M441F
+  ;; Category: INPUT-PRE-AMPS | Series: S400 | Year: 1972
+  ;; Power: +24 V, +48 V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M441F.html
+  ;; ====================================================================
+  (symbol "M441F" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M441F" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M441F.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M441F - M441F (INPUT-PRE-AMPS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast INPUT-PRE-AMPS S400 M441F" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M441F - M441F (INPUT-PRE-AMPS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "INPUT-PRE-AMPS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1972" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24 V, +48 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M441F_0_1" (rectangle (start -40.64 12.70) (end 40.64 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M441F_1_1"
+      (pin input line (at -45.72 10.16 0) (length 5.08) (name "MIC IN" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 7.62 0) (length 5.08) (name "MIC IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 2.54 0) (length 5.08) (name "LINE IN" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 0.00 0) (length 5.08) (name "LINE IN" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -5.08 0) (length 5.08) (name "BOOSTER AMP IN" (effects (font (size 1.27 1.27)))) (number "J" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -7.62 0) (length 5.08) (name "BOOSTER AMP IN" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 10.16 180) (length 5.08) (name "PREAMP OUT" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 7.62 180) (length 5.08) (name "PREAMP OUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 2.54 180) (length 5.08) (name "FOLDBACK OUT" (effects (font (size 1.27 1.27)))) (number "L" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 0.00 180) (length 5.08) (name "FOLDBACK OUT" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 -5.08 180) (length 5.08) (name "SWITCHED CH ON OUT" (effects (font (size 1.27 1.27)))) (number "T" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 -7.62 180) (length 5.08) (name "SWITCHED CH ON OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 17.78 270) (length 5.08) (name "+24 V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 17.78 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 -17.78 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "V" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 0.00 -17.78 90) (length 5.08) (name "CHASSIS" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 -17.78 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

@@ -1,0 +1,40 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M406M") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M406M
+  ;; Title: M406M
+  ;; Category: DYNAMICS | Series: Standard | Year: 1968
+  ;; Power: +24 V, +48 V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M406M.html
+  ;; ====================================================================
+  (symbol "M406M" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M406M" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M406M.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M406M - M406M (DYNAMICS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M406M" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M406M - M406M (DYNAMICS). +24 V, +48 V." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1968" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "+24 V, +48 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M406M_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M406M_1_1"
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "SIDE CHAIN" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "+24 V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -12.70 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -7.62 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 12.70 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)

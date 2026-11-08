@@ -1,0 +1,397 @@
+(kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - Category MONITORING") (generator_version "2.0")
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M412
+  ;; Title: Multi-frequency Oscilator
+  ;; Category: MONITORING | Series: Standard | Year: 1969
+  ;; Power: VCC
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M412.html
+  ;; ====================================================================
+  (symbol "M412" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M412" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M412.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M412: The M412 multi-frequency reference oscillator is designed to be incorporated within a system and to provide selected frequencies with stable output amplitude at Iine and microphone..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M412" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M412: The M412 multi-frequency reference oscillator is designed to be incorporated within a system and to provide selected frequencies with stable output amplitude at Iine and microphone..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1969" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M412_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M412_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M413
+  ;; Title: Talkback Amplifier
+  ;; Category: MONITORING | Series: Standard | Year: 1969
+  ;; Power: VCC
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M413.html
+  ;; ====================================================================
+  (symbol "M413" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M413" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M413.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M413 - Talkback Amplifier (MONITORING). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M413" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M413 - Talkback Amplifier (MONITORING). VCC." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1969" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M413_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M413_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M451
+  ;; Title: Talkback Module
+  ;; Category: MONITORING | Series: Standard | Year: 1977
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M451.html
+  ;; ====================================================================
+  (symbol "M451" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M451" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M451.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M451: MFG MFG PART NUMBER R45 Knob Cap (Black) Black) E Ima 021-352 040-302 SWI To SWL Button (White) Schadow FGK_WH Sw5 (Red ) FGK-RED WBS recommends the use of replacement parts made b..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M451" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M451: MFG MFG PART NUMBER R45 Knob Cap (Black) Black) E Ima 021-352 040-302 SWI To SWL Button (White) Schadow FGK_WH Sw5 (Red ) FGK-RED WBS recommends the use of replacement parts made b..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M451_0_1" (rectangle (start -40.64 12.70) (end 40.64 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M451_1_1"
+      (pin passive line (at -45.72 10.16 0) (length 5.08) (name "JMP.Z.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 7.62 0) (length 5.08) (name "JMP.Z.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 5.08 0) (length 5.08) (name "JMP.X.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.X.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.3 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -7.62 0) (length 5.08) (name "JMP.3 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 10.16 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 5.08 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 2.54 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 0.00 180) (length 5.08) (name "JMP.20.19 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -2.54 180) (length 5.08) (name "JMP.20.19 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.X.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.X.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 17.78 270) (length 5.08) (name "VCC-LOGIC +24V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M452
+  ;; Title: Oscillator Module
+  ;; Category: MONITORING | Series: Standard | Year: 1971
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V
+  ;; Impedance: Out: 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M452.html
+  ;; ====================================================================
+  (symbol "M452" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M452" (at 0 -17.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M452.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M452: MFG MFG PART NUMBER SW1 Button (White} Schadow FM-WH SW1O Sw11 (Red) FGK-RED WBS recommends the use replacement parts made Dy the specified manulaciurers for continued optimum equi..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M452" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M452: MFG MFG PART NUMBER SW1 Button (White} Schadow FM-WH SW1O Sw11 (Red) FGK-RED WBS recommends the use replacement parts made Dy the specified manulaciurers for continued optimum equi..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1971" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Out: 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M452_0_1" (rectangle (start -40.64 12.70) (end 40.64 -12.70) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M452_1_1"
+      (pin passive line (at -45.72 10.16 0) (length 5.08) (name "JMP.Z.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 7.62 0) (length 5.08) (name "JMP.Z.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 5.08 0) (length 5.08) (name "JMP.X.18 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 2.54 0) (length 5.08) (name "JMP.X.18 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 0.00 0) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -2.54 0) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -5.08 0) (length 5.08) (name "JMP.3 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -45.72 -7.62 0) (length 5.08) (name "JMP.3 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 10.16 180) (length 5.08) (name "JMP.22.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-22" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 7.62 180) (length 5.08) (name "JMP.22.21 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 5.08 180) (length 5.08) (name "JMP.Z.Y (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 2.54 180) (length 5.08) (name "JMP.Z.Y (TO)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 0.00 180) (length 5.08) (name "JMP.20.19 (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -2.54 180) (length 5.08) (name "JMP.20.19 (TO)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -5.08 180) (length 5.08) (name "JMP.X.W (FROM)" (effects (font (size 1.27 1.27)))) (number "P2-X" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 45.72 -7.62 180) (length 5.08) (name "JMP.X.W (TO)" (effects (font (size 1.27 1.27)))) (number "P2-W" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 17.78 270) (length 5.08) (name "VEE-AUDIO -25V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 17.78 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "P2-21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 17.78 270) (length 5.08) (name "VCC-LOGIC +24V (0.1A)" (effects (font (size 1.27 1.27)))) (number "P2-Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "P2-18" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M475
+  ;; Title: Monitor Module
+  ;; Category: MONITORING | Series: Standard | Year: 1977
+  ;; Power: VCC
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M475.html
+  ;; ====================================================================
+  (symbol "M475" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M475" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M475.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M475: M4 75 MON I TOR MODULE The M475 is designed to allow selective acce s s t o a numbe r of s i gnal so ur ce s within a cons ol e system . Pro visi on f s made f or l e ve l cont ro ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M475" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M475: M4 75 MON I TOR MODULE The M475 is designed to allow selective acce s s t o a numbe r of s i gnal so ur ce s within a cons ol e system . Pro visi on f s made f or l e ve l cont ro ..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1977" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VCC" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M475_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M475_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "IN +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -30.48 2.54 0) (length 5.08) (name "IN -" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 5.08 180) (length 5.08) (name "OUT +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 30.48 2.54 180) (length 5.08) (name "OUT -" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 12.70 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 -12.70 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M475A
+  ;; Title: Stereo Monitor Module
+  ;; Category: MONITORING | Series: Standard | Year: 1986
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M475A.html
+  ;; ====================================================================
+  (symbol "M475A" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M475A" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M475A.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M475A: MFG MFG PART NUMBER UI-u3 UL-U7 Pin Dip Socket Pin Dip Socket Amp 640357-3 640463-3 WBS recommends the use rep acement parts made by the specified manufacturers for continued optim..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M475A" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M475A: MFG MFG PART NUMBER UI-u3 UL-U7 Pin Dip Socket Pin Dip Socket Amp 640357-3 640463-3 WBS recommends the use rep acement parts made by the specified manufacturers for continued optim..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1986" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M475A_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M475A_1_1"
+      (pin input line (at -30.48 5.08 0) (length 5.08) (name "MUTE CO N T ...OL" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+      (pin bidirectional line (at 30.48 5.08 180) (length 5.08) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M482B
+  ;; Title: Monitor Module
+  ;; Category: MONITORING | Series: Standard | Year: 1982
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M482B.html
+  ;; ====================================================================
+  (symbol "M482B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M482B" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M482B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M482B: MFG MFG PARI_NUMBER R3O) Knob (Black ) Cap (Black) Elma 021-352 040-302 SWI Buttons (White) ITT FM-WH SW15 WBS recommends the use replacemient parts made by the specified manufactu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M482B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M482B: MFG MFG PARI_NUMBER R3O) Knob (Black ) Cap (Black) Elma 021-352 040-302 SWI Buttons (White) ITT FM-WH SW15 WBS recommends the use replacemient parts made by the specified manufactu..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1982" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M482B_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M482B_1_1"
+      (pin input line (at -40.64 5.08 0) (length 5.08) (name "INPUT SELECTORS" (effects (font (size 1.27 1.27)))) (number "25" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 5.08 180) (length 5.08) (name "DIRECT OUTPUT" (effects (font (size 1.27 1.27)))) (number "59" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M495
+  ;; Title: Stereo Monitor Module
+  ;; Category: MONITORING | Series: Standard | Year: 1975
+  ;; Power: VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M495.html
+  ;; ====================================================================
+  (symbol "M495" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 40.64 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M495" (at 0 -40.64 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M495.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M495: MFG MFG PART NUMBER \":-'\" ' R25) Knob (Black) Elma 021-352 R26) Cap (Grey) 040-301 SWI To Barndoor (Black/Yellow) Schadow FA101-BLK/YEL SW5 SW6 Button (White) FG-WH a .c WBS recomm..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M495" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M495: MFG MFG PART NUMBER \":-'\" ' R25) Knob (Black) Elma 021-352 R26) Cap (Grey) 040-301 SWI To Barndoor (Black/Yellow) Schadow FA101-BLK/YEL SW5 SW6 Button (White) FG-WH a .c WBS recomm..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1975" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "VEE-AUDIO -25V, VCC-AUDIO +25V, VCC-LOGIC +24V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M495_0_1" (rectangle (start -38.10 35.56) (end 38.10 -35.56) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M495_1_1"
+      (pin input line (at -43.18 33.02 0) (length 5.08) (name "Right IN 5 +" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 30.48 0) (length 5.08) (name "Right IN 5 -" (effects (font (size 1.27 1.27)))) (number "A" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 25.40 0) (length 5.08) (name "Left IN 5 +" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 22.86 0) (length 5.08) (name "Left IN 5 -" (effects (font (size 1.27 1.27)))) (number "B" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 17.78 0) (length 5.08) (name "Right IN 4 +" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 15.24 0) (length 5.08) (name "Right IN 4 -" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 10.16 0) (length 5.08) (name "Left IN 4 +" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 7.62 0) (length 5.08) (name "Left IN 4 -" (effects (font (size 1.27 1.27)))) (number "D" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 2.54 0) (length 5.08) (name "Right IN 3 +" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 0.00 0) (length 5.08) (name "Right IN 3 -" (effects (font (size 1.27 1.27)))) (number "E" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -5.08 0) (length 5.08) (name "Left IN 3 +" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -7.62 0) (length 5.08) (name "Left IN 3 -" (effects (font (size 1.27 1.27)))) (number "F" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -12.70 0) (length 5.08) (name "Right Muted +" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -15.24 0) (length 5.08) (name "Right Muted -" (effects (font (size 1.27 1.27)))) (number "V" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -17.78 0) (length 5.08) (name "Left Muted +" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -43.18 -20.32 0) (length 5.08) (name "Left Muted -" (effects (font (size 1.27 1.27)))) (number "U" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -25.40 0) (length 5.08) (name "JMP.Z.20 (FROM)" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -43.18 -27.94 0) (length 5.08) (name "JMP.Z.20 (TO)" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 33.02 180) (length 5.08) (name "JMP.Y.21 (FROM)" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at 43.18 30.48 180) (length 5.08) (name "JMP.Y.21 (TO)" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -5.08 40.64 270) (length 5.08) (name "VEE-AUDIO -25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 0.00 40.64 270) (length 5.08) (name "VCC-AUDIO +25V (0.2A)" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 5.08 40.64 270) (length 5.08) (name "VCC-LOGIC +24V (0.2A)" (effects (font (size 1.27 1.27)))) (number "Y" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -40.64 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -40.64 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "Z" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M525
+  ;; Title: M525
+  ;; Category: MONITORING | Series: Standard | Year: 1985
+  ;; Power: See manual
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M525.html
+  ;; ====================================================================
+  (symbol "M525" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 50.80 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M525" (at 0 -50.80 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M525.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M525 - M525 (MONITORING). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M525" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M525 - M525 (MONITORING). See manual." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "1985" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "See manual" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M525_0_1" (rectangle (start -40.64 45.72) (end 40.64 -45.72) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M525_1_1"
+      (pin input line (at -45.72 43.18 0) (length 5.08) (name "Input 15 Right +" (effects (font (size 1.27 1.27)))) (number "I1P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 40.64 0) (length 5.08) (name "Input 15 Right -" (effects (font (size 1.27 1.27)))) (number "I1N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 35.56 0) (length 5.08) (name "Input 14 +" (effects (font (size 1.27 1.27)))) (number "I2P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 33.02 0) (length 5.08) (name "Input 14 -" (effects (font (size 1.27 1.27)))) (number "I2N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 27.94 0) (length 5.08) (name "Input 11 Right +" (effects (font (size 1.27 1.27)))) (number "I3P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 25.40 0) (length 5.08) (name "Input 11 Right -" (effects (font (size 1.27 1.27)))) (number "I3N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 20.32 0) (length 5.08) (name "Input 10 +" (effects (font (size 1.27 1.27)))) (number "I4P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 17.78 0) (length 5.08) (name "Input 10 -" (effects (font (size 1.27 1.27)))) (number "I4N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 12.70 0) (length 5.08) (name "Input 9 Right +" (effects (font (size 1.27 1.27)))) (number "I5P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 10.16 0) (length 5.08) (name "Input 9 Right -" (effects (font (size 1.27 1.27)))) (number "I5N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 5.08 0) (length 5.08) (name "Input 8 +" (effects (font (size 1.27 1.27)))) (number "I6P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 2.54 0) (length 5.08) (name "Input 8 -" (effects (font (size 1.27 1.27)))) (number "I6N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -2.54 0) (length 5.08) (name "Input 6 +" (effects (font (size 1.27 1.27)))) (number "I7P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -5.08 0) (length 5.08) (name "Input 6 -" (effects (font (size 1.27 1.27)))) (number "I7N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -10.16 0) (length 5.08) (name "Input 5 +" (effects (font (size 1.27 1.27)))) (number "I8P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -12.70 0) (length 5.08) (name "Input 5 -" (effects (font (size 1.27 1.27)))) (number "I8N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -17.78 0) (length 5.08) (name "Input 4 Right +" (effects (font (size 1.27 1.27)))) (number "I9P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -20.32 0) (length 5.08) (name "Input 4 Right -" (effects (font (size 1.27 1.27)))) (number "I9N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -25.40 0) (length 5.08) (name "Input 3 +" (effects (font (size 1.27 1.27)))) (number "I10P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -27.94 0) (length 5.08) (name "Input 3 -" (effects (font (size 1.27 1.27)))) (number "I10N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -33.02 0) (length 5.08) (name "Input 2 +" (effects (font (size 1.27 1.27)))) (number "I11P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -35.56 0) (length 5.08) (name "Input 2 -" (effects (font (size 1.27 1.27)))) (number "I11N" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -40.64 0) (length 5.08) (name "Input 1 Right +" (effects (font (size 1.27 1.27)))) (number "I12P" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -45.72 -43.18 0) (length 5.08) (name "Input 1 Right -" (effects (font (size 1.27 1.27)))) (number "I12N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 43.18 180) (length 5.08) (name "Output 1 Left +" (effects (font (size 1.27 1.27)))) (number "O1P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 40.64 180) (length 5.08) (name "Output 1 Left -" (effects (font (size 1.27 1.27)))) (number "O1N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 35.56 180) (length 5.08) (name "Output 2 Left +" (effects (font (size 1.27 1.27)))) (number "O2P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 33.02 180) (length 5.08) (name "Output 2 Left -" (effects (font (size 1.27 1.27)))) (number "O2N" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 27.94 180) (length 5.08) (name "Output 2 Right +" (effects (font (size 1.27 1.27)))) (number "O3P" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 45.72 25.40 180) (length 5.08) (name "Output 2 Right -" (effects (font (size 1.27 1.27)))) (number "O3N" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -50.80 90) (length 5.08) (name "+12V +12.0V" (effects (font (size 1.27 1.27)))) (number "+12V" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -50.80 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "CHASSIS" (effects (font (size 1.27 1.27)))))
+    )
+  )
+  ;; ====================================================================
+  ;; Ward-Beck Systems Ltd. — Model: M8203
+  ;; Title: M8203
+  ;; Category: MONITORING | Series: Standard | Year: 2015
+  ;; Power: ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES
+  ;; Impedance: Standard 600Ω
+  ;; Connector: Card-edge
+  ;; Verified: Archive technical documentation
+  ;; Archive: https://wbsps.ca/PAGES/M8203.html
+  ;; ====================================================================
+  (symbol "M8203" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M8203" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://wbsps.ca/PAGES/M8203.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "M8203 - M8203 (MONITORING). ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_keywords" "Ward-Beck WBS audio broadcast MONITORING  M8203" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "M8203 - M8203 (MONITORING). ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Category" "MONITORING" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Year" "2015" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Power" "± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES, ± 20 VOLT DC SUPPLY BUS VOLTAGES" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "M8203_0_1" (rectangle (start -25.40 7.62) (end 25.40 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M8203_1_1"
+      (pin power_in line (at -7.62 12.70 270) (length 5.08) (name "± 20 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "P" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "± 20 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "± 20 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "S" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 7.62 12.70 270) (length 5.08) (name "± 20 VOLT DC SUPPLY BUS VOLTAGES" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)
