@@ -26,7 +26,7 @@ function panelSVG(prefix, side, inner, label){
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.svg" width="${PW}" height="${PH}"/>`).join('')}
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
@@ -261,7 +261,7 @@ function simView(cfg){ return function(m){
   window[cfg.flag] = true;
   m.innerHTML = `<div class="grid2"><div>
       ${card(cfg.frontTitle||'Front panel at the playhead', `<div id="fp"></div>${cfg.controls()}`)}
-      ${card(cfg.rearTitle||'Rear panel — click the connectors', `<div id="rp"></div>`)}
+      ${card(cfg.rearTitle||'Rear panel — click the connectors', `<div id="rp"></div>${cfg.artNote||''}`)}
     </div><div>
       ${card('What the circuit did (last action)', `<div id="trace" class="log"></div>`)}
       ${card(cfg.nowTitle||'Outputs now', `<div id="now"></div>`)}
@@ -374,6 +374,7 @@ const CFG = {
     {title:'5 · The POD29E panel', body:'<p>Clear the short and choose POD29E: ±12 V, pin 5 not connected.</p>', check:()=>D.ver==='E'&&!overload(), hint:'Version menu.'},
     {title:'Done', body:'<p>Findings lists where the POD29L files live.</p>', check:()=>true, auto:true}],
   findings:[
+    ()=>`<b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr','POD29X-REAR-SILK(CURVE).cdr')} (MAY 19/15) and ${SIM.src('#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr','POD29-FRONT&REAR-SILK (CURVE).cdr')} (Jul.03/14).</b> The POD29L and POD29E white plates (rear) and the POD29 front GREEN + WHITE plates are cut from the CorelDRAW sheets, registered on the 617 × 116 pt panel outline (the same frame as the earlier PDF cut, so every control stays on its hole) and drawn as vector art (assets/pod29l-front-green.svg, -front-white.svg, -rear-white.svg, -rear29e-white.svg). The sheets' guide layer adds the real hole geometry: two 5-pin XLR holes with their two fixing holes each, the fuse-holder hole under the CAUTION text and the IEC cut-out. Both "(CURVE)" files still hold live Arial text, not curves, so the text is a font match. The fuse legend has no rating ("100-230 VAC, 50-60 Hz," ends in a comma), while the POD29 rear plate on the same front sheet reads "90-230 VAC 50-60 Hz, 2 A S.B.".`,
     '<b>Almost nothing is in the POD29L folder.</b> It holds one file, <span class="mono">POD 29L - Mechanical/POD 29L - PSU Bottom Plate.dwg</span>. The rear silk is in <span class="mono">POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).pdf</span>, the XLR rear drawing in <span class="mono">POD29X - XLR  Rear #Mechanical #DA #2016</span>, and the mounting plate (<span class="mono">POD29L-PLATE ISS 1</span>) in both POD29\'s mechanical folder and <span class="mono">POD PARTS - #Mechanical #DA #2016</span>.',
     '<b>“POD29X” is a panel, not a product.</b> The silk is named POD29X but carries the POD29L and POD29E legends; the drawing is titled “POD29XLR REAR PANEL” and says “SILKSCREEN TO ARTWORK (POD29X-REAR-SILK (POD29E or POD29L))”. Both are dated May 19/15.',
     '<b>The legend has one pin table for two connectors.</b> The drawing has two 5-pin holes (2.285" and 4.285"), the silk one table: the two outputs carry the same rails (inferred to be in parallel).',
@@ -412,7 +413,7 @@ function rearSVG(){ let over='';
   CFG.outs.forEach((o,i)=>{ const live=D.load[i]>0; over+=CFG.drawOut(o,i,live,D.load[i]); });
   over+=iec(...CFG.iec);
   const svg=panelSVG(PREFIX,'rear',{over},`${CFG.product} rear panel (real silkscreen)`);
-  return CFG.rearLayer? svg.replace(`${ASSET}${PREFIX}-rear-white.png`, `${ASSET}${PREFIX}-${CFG.rearLayer(D.ver)}.png`) : svg; }
+  return CFG.rearLayer? svg.replace(`${ASSET}${PREFIX}-rear-white.svg`, `${ASSET}${PREFIX}-${CFG.rearLayer(D.ver)}.svg`) : svg; }
 function bindPanel(r){ const p=r.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); CFG.outs.forEach((o,i)=>r.querySelectorAll('.o'+i).forEach(g=>g.onclick=()=>A.load(i))); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-top:8px"><label>Version <select id="vr">${CFG.vers.map(v=>`<option value="${v.id}" ${v.id===D.ver?'selected':''}>${v.label}</option>`).join('')}</select></label>
   ${CFG.outs.map((o,i)=>`<label>${o.short} <select id="ld${i}">${CFG.loads.map(([a,l])=>`<option value="${a}" ${a===D.load[i]?'selected':''}>${l}</option>`).join('')}</select></label>`).join('')}</div>
@@ -429,7 +430,7 @@ function lanes(){ const wn=SIM.css('--warn'), a=SIM.css('--accent'), b=SIM.css('
 function nowHTML(t){ return `<table class="kv">${VER().rails.map(r=>{ const I=railI(r.k); return `<tr><th>${r.name}</th><td class="mono">${railAt(r,t).toFixed(3)} V · ${I.toFixed(2)} / ${r.imax} A ${I>r.imax*1.1?'<b style="color:var(--bad)">OVER</b>':''}</td></tr>`; }).join('')}
   <tr><th>Total power</th><td class="mono">${VER().rails.reduce((s,r)=>s+Math.abs(r.v)*railI(r.k),0).toFixed(1)} W of ${V.Ptot} W ${overload()?'<b style="color:var(--bad)">HICCUP</b>':''}</td></tr></table>`; }
 function levelsHTML(){ return `<table class="kv"><tr><th>Output</th><th>Connector</th><th>Load</th><th>Rails</th></tr>${CFG.outs.map((o,i)=>`<tr><td>${o.name}</td><td class="small">${o.conn}</td><td class="mono">${D.load[i].toFixed(2)} A</td><td class="mono small">${o.rails.map(k=>{ const r=VER().rails.find(x=>x.k===k); return r?`${r.name} ${(r.v-Math.sign(r.v)*railI(k)*V.Rout).toFixed(2)} V`:''; }).join(' · ')}</td></tr>`).join('')}</table><p class="small muted">All outputs are wired in parallel to one module, so every load shares the rail ratings. Output resistance ${V.Rout} Ω and the hiccup timing are ${inf}.</p>`; }
-const viewSim=simView({flag:'__'+PREFIX+'Active',D,front:frontSVG,rear:rearSVG,bind:bindPanel,controls:controlsHTML,bindControls,now:nowHTML,levels:levelsHTML,lanes,labelW:230,nowTitle:'Rails now',levelsTitle:'Outputs and loads',rearTitle:'Rear panel — click an output to step its load',tlTitle:'Timeline — one second, zoomable. Zoom to 50 µs to see the switching ripple; change a load to see the step.',hint:'Click an output connector to load it, or flip the rocker.'});
+const viewSim=simView({flag:'__'+PREFIX+'Active',D,front:frontSVG,rear:rearSVG,bind:bindPanel,controls:controlsHTML,bindControls,now:nowHTML,levels:levelsHTML,lanes,labelW:230,nowTitle:'Rails now',levelsTitle:'Outputs and loads',rearTitle:'Rear panel — click an output to step its load',artNote:`<div class="small muted" style="margin-top:4px">Panel artwork: rear ${SIM.src('#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr','POD29X-REAR-SILK(CURVE).cdr')} (POD29L and POD29E plates, MAY 19/15), front ${SIM.src('#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr','POD29-FRONT&REAR-SILK (CURVE).cdr')} (GREEN + WHITE plates, Jul.03/14). CorelDRAW plates in their real inks; grey lines are the sheet's hole and outline guides.</div>`,tlTitle:'Timeline — one second, zoomable. Zoom to 50 µs to see the switching ripple; change a load to see the step.',hint:'Click an output connector to load it, or flip the rocker.'});
 const LESSONS=CFG.lessons(A);
 let lessonIdx=0;
 function viewTutorial(m){ window['__'+PREFIX+'Active']=true; tutorialView(m,{title:'Tutorial — powering gear from a '+CFG.product,lessons:LESSONS,D,getIdx:()=>lessonIdx,setIdx:i=>lessonIdx=i,reset:()=>A.reset(),unitHTML:()=>`${frontSVG(SIM.t)}<div style="margin-top:8px">${rearSVG()}</div>${controlsHTML()}<div style="margin-top:6px">${nowHTML(SIM.t)}</div>`,bind:r=>{bindPanel(r);bindControls(r);}}); }
@@ -449,7 +450,14 @@ const viewSoft=softView({flag:'__'+PREFIX+'Active',D,intro:`${CFG.product} has n
   buttons:[['Rocker','IEC → rocker → module','All rails'],['Load an output','parallel wiring to the module','Shares the rail rating'],['Overload','module current limit','Hiccup, LED blinks']],
   pins:CFG.pins});
 const viewNotes=notesView('__'+PREFIX+'Active',`What the ${CFG.product} archive shows — findings`,CFG.findings,CFG.assumptions,CFG.sources);
-SIM.register({ id:'pod29l', name:CFG.name, duration:1, product:CFG.product, year:CFG.year, family:'POD series', folder:CFG.folder, summary:CFG.summary, highlights:CFG.highlights, depth:'Hardware model',
+SIM.register({ footnotes:[
+  {text:'The POD29L rear plate lives on a sheet named POD29X, which also carries the POD29E plate; the POD29L folder itself holds only a bottom-plate DWG.', src:'#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr'},
+  {text:'The “(CURVE)” silk sheets still hold live Arial text rather than curves, so the panel lettering here is a font match.', src:'#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr'},
+  {text:'One pin table (1 Chassis, 2 +24V, 3 0V, 4 −24V, 5 +48V Phantom) serves two XLR-5 holes; parallel wiring is inferred.', src:'#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr'},
+  {text:'The POD29L/POD29E mains legend reads “100-230 VAC, 50-60 Hz,” with a trailing comma and no fuse rating; the POD29 rear plate reads “90-230 VAC 50-60 Hz, 2 A.S.B.”.', src:'#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr'},
+  {text:'The guide layer shows a fuse-holder hole under the CAUTION text that the earlier PDF cut left out.', src:'#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr'},
+  {text:'The front used here is POD29’s (“POD-29 REGULATED POWER SUPPLY”, Jul.03/14); no POD29L front artwork exists.', src:'#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr'}],
+  id:'pod29l', name:CFG.name, duration:1, product:CFG.product, year:CFG.year, family:'POD series', folder:CFG.folder, summary:CFG.summary, highlights:CFG.highlights, depth:'Hardware model',
   stepUnits:[{label:'1 switching cycle',period:()=>1/V.fsw},{label:'1 mains half-cycle',period:()=>1/120},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s (hiccup cycles)'],[0.1,'100 ms (start-up)'],[0.01,'10 ms'],[0.001,'1 ms (load step)'],[0.00005,'50 µs (ripple)']], defaultZoom:1, init(){},
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial',render:viewTutorial},{id:'second',label:'One second, cycle by cycle',render:viewSecond},{id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Wiring',render:viewSchem},{id:'software',label:'Power path (no firmware)',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}] });

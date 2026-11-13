@@ -1105,6 +1105,8 @@ function viewFindings(m){
 /* ---------------- register ---------------- */
 function avgPass(){ const s=sched(), P0=page0(); const ps=s.passes.filter(p=>!p.init && p.t0>=P0 && p.t0<P0+1); if (ps.length<2) return PASS_T; return (ps[ps.length-1].t0-ps[0].t0)/(ps.length-1); }
 SIM.register({
+  footnotes: [{"text": "The rear silk names the unit “AMS-81”, not AMS8-1.", "src": "AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk-CURVE.cdr"}, {"text": "AMS81-DEMUX3rearsilk-CURVE.cdr is stored three times with identical bytes (TIM/SILK and two “Older Drawings” folders).", "src": "AMS81 - #Master/AMS8 - #Engineering/SILK/Older Drawings/AMS81-DEMUX3rearsilk-CURVE.cdr"}, {"text": "The 2005 non-curve original and its Backup_of_ copy are older and smaller than the 2006 CURVE file.", "src": "AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk.cdr"}, {"text": "The rear silk carries labels only; the connector outlines come from the 2009 REARVIEW drawing, which shares the same 19 × 5 in sheet origin and registers exactly.", "src": "AMS81 - #Master/AMS8 - #Engineering/PANEL VIEWS/AMS81-DEMUX3-REARVIEW.cdr"}, {"text": "AMS81-DEMUX3-REARVIEW.cdr is stored twice, byte for byte (PANEL VIEWS and AMS8E - #PANEL VIEWS #MANUAL).", "src": "AMS81 - #Master/AMS8 - #Engineering/AMS8E - #PANEL VIEWS #MANUAL/AMS81-DEMUX3-REARVIEW.cdr"}, {"text": "The DEMUX-3’s group-2 outputs (P3/P4) have no BNC on the AMS8-1 rear; whether they reach the AUX DB-25 is not in the files read.", "src": "AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk-CURVE.cdr"}],
+  
   id:'demux3', name:'DEMUX3 · SD/HD-SDI audio de-embedder board (2005|38)', duration:1,
   product:'DEMUX3', year:2005, family:'Obsolete products',
   folder:'#DEMUX #SERIES/XXX - DEMUX3 - #Master #OBSOLETE',

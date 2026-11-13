@@ -563,7 +563,34 @@ const FINDINGS=[
 const ASSUME=['Frame references are 48 kHz DARS '+inf('not stated'),'LOCK_CONSTANT = 200 passes '+inf('value not in the v104 headers'),'MCLK = 256 fs for SR_DETECT_192 counts '+inf('FPGA source not traced'),'NE5532 stage is unity gain; H1/H2 just set the ADC scaling '+inf('functional drawing only gives “−20 / −18”')];
 const SOURCES=['#OPENGEAR #SERIES/D6203 - #Master #OPENGEAR/D6203 - #PNP #2016/D6203Aiss3-T.prg, VOID/D6203Aiss2-T.prg (this folder)',SIB+'D6203A #Software/atmel/v104/d6203_test.c, D6203A.c/.h, altera.h (firmware — sibling folder, linked)',SIB+'D6203A #Software/README.md (FPGA blocks) · D6203A #Functional/D6203A-card-edge.cdr, D6203A-FUNCTIONAL.cdr','#OPEN GEAR - #Engineering/…/openGear #Manuals #OBSOLETE/D6203A Manual.pdf'];
 function viewFindings(m){ m.innerHTML=card('What the D6203 folder and its card are up to', `<ol>${FINDINGS.map(f=>`<li style="margin-bottom:6px">${f}</li>`).join('')}</ol>`)+card('Assumptions', `<ul class="small">${ASSUME.map(a=>`<li>${a}</li>`).join('')}</ul>`)+card('Sources', `<ul class="small mono">${SOURCES.map(s=>`<li>${s}</li>`).join('')}</ul>`); }
-SIM.register({ id:'d6203', product:'D6203', name:'D6203 · D6203A stereo A-to-AES converter: pick-and-place programs (2008|41)', year:2008,
+/* footnotes (artwork pass 2026|59): one small detail per entry, with the archive file that shows it */
+const FOOTNOTES=[
+{
+"text": "The D6203A card edge has six LEDs (REF1, REF2, External, Internal, CAL, COM Activity) and no switch or Error LED.",
+"src": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203A-card-edge.cdr"
+},
+{
+"text": "The guide also offers a T6403A (dual card, 110 Ω, all Phoenix), which is not modelled.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"
+},
+{
+"text": "In the combined 2011 guide the T6403 card-1 legends are placeholders (BNC1-2, AES1-2 … AES4-2).",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - D6204A rear module options.cdr"
+},
+{
+"text": "The T6302A footer reads “Analog to DigitalAudio Converter-75 Ohm” (missing space, different wording from the other modules).",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"
+},
+{
+"text": "The 2008 T6302 label sheet labels positions 8 and 10 “N/C” and uses LEFT/RIGHT where the 2012 guide says Analog IN Left/Right.",
+"src": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203-T6302.cdr"
+},
+{
+"text": "The 2007 T6301 label sheet is titled “D6203” with only BNC 1–2 drawn and five “NOT USED” positions.",
+"src": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203-T6301.cdr"
+}
+];
+SIM.register({ footnotes:FOOTNOTES, id:'d6203', product:'D6203', name:'D6203 · D6203A stereo A-to-AES converter: pick-and-place programs (2008|41)', year:2008,
   folder:'#OPENGEAR #SERIES/D6203 - #Master #OPENGEAR', family:'openGear',
   summary:'This folder holds only the issue 2 and issue 3 pick-and-place programs for the D6203A openGear analog-to-AES converter. The plugin draws the board from those placements and runs the card itself (AK5394A, reference fallback, CAL) from the V104 firmware in the sibling D6203A folder.',
   highlights:['Board drawn from the PNP program, issue 2 vs 3 diff','Analog level → dBFS with H1/H2 headroom','Reference fallback and chirp from the real 175 µs loop','CAL self-calibration timing','DIP switch and DashBoard'],

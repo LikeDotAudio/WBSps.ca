@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: DMS](../siumulation.html?plugin=dms) · [full simulation: DMS1](../siumulation.html?plugin=dms1) · [simulator & front panel](../simulator.html?m=DMS1) · [KiCad symbol generator](../kicad.html?m=DMS1) · [download package (zip)](../_packages/DMS1.zip) |
+| Try it | [full simulation: DMS](../siumulation.html?plugin=dms) · [full simulation: DMS1](../siumulation.html?plugin=dms1) · [KiCad symbol generator](../kicad.html?m=DMS1) · [download package (zip)](../_packages/DMS1.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jan.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/DMS1 Manual(1).docx |
 | Confidence | medium |
@@ -119,53 +119,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2015 - DMS1 - Manual.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - DMS1 - Manual.docx](../Products/METERING/DMS1/2015%20-%20DMS1%20-%20Manual.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "DMS1",
- "name": "Select Series Digital Monitoring System",
- "category": "METERING",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/METERING/DMS1/2015 - DMS1 - Front.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/DMS1/2015 - DMS1 - Information Sheet.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/METERING/DMS1/2015 - DMS1 - Manual (2).docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/DMS1/2015 - DMS1 - Manual.docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/DMS1/2015 - DMS1 - Rear.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. On the rear silk the ground-screw hole is drawn through the end of the word “CAUTION”, so a printed panel would lose part of the N. — `#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-REAR-SILK (CURVE).cdr`
+2. Three small holes under the front button row have no part behind them in any drawing read. — `#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-FRONT-SILK (CURVE).cdr`
+3. The front sheet (“NOV.10/15”) and the rear sheet (“May 08/15”) were finished six months apart. — `#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-FRONT-SILK (CURVE).cdr`
+4. Both CorelDRAW sheets carry the panel geometry (holes, cut-outs) as a separate black hairline layer under the GREEN and WHITE ink plates. — `#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-FRONT-SILK (CURVE).cdr`
+5. The rear silk labels the DEMUX opening only by its neighbours; the DEMUX plate labels come from the photos, not the silk. — `#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-REAR-SILK (CURVE).cdr`
+6. The front silk meter scale reads −34 … +12, while the functional drawing says −27 … +12. — `#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-FRONT-SILK (CURVE).cdr`

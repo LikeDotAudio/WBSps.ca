@@ -1209,6 +1209,13 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes: [{"text": "Artwork 2026|59: the front and rear panels are drawn from the CorelDRAW sheets AMS82-FRONT-SILK (CURVE).cdr (OCT.20/15) and AMS82-M2 SILK (CURVE).cdr (MAY 07/15).", "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr"},
+    {"text": "The 2015 front artwork has hexagonal vent holes; the product photo shows slotted vents, so the photo is of an earlier issue.", "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2A Series Front.jpg"},
+    {"text": "The rear top row is legended SDI IN 1 / 2, SDI OUT, COMP, G/Y, B/Pr, R/Pb, but those seven holes are empty in the photo. It is an unbuilt SDI + component-video variant; the DEMUX 4 board that was built sits on the centre plate instead.", "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2AAM (Demux 4).jpg"},
+    {"text": "The 1–8 numbers under the buttons are on the GREEN plate; INPUTS, PRESETS, SELECT and VOLUME are on the WHITE plate.", "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr"},
+    {"text": "The rear sheet carries a third-party ‘Designed for’ logo box; the simulator shows it as plain text.", "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-M2 SILK (CURVE).cdr"},
+    {"text": "The rear art is stored three times: in #ARTWORK #DA #2016, in AMS82/SILK and in AMS82 #Engineering/AMS82 #SILK (the last two dated May 2015). An older 2014 sheet, AMS82-1M1-CURVE.cdr, sits beside them.", "src": "AMS82 - #Master/AMS82 #Engineering/AMS82 #SILK/AMS82-1M1-CURVE.cdr"},
+    {"text": "Older 2005|38–2006|39 sheets (AMS82-DEMUX4-*) in the TIM engineering folder show an earlier rear with the SDI IN / SDI OUT / COMP / Y / Cr / Cb top row and a four-legend SDI IN, SDI OUT, AES 1, AES2 plate, still titled AMS-81.", "src": "AMS8 #Engineering #TIM/AMS82/SILK/AMS82-DEMUX4-REARPANEL-SILK-CURVE.cdr"}],
   id:'ams82', name:'AMS8-2 · 8-channel audio monitor (2009|42)', duration:1,
   product:'AMS8-2', year:2009, family:'AMS8 audio monitors', folder:'AMS82 - #Master',
   summary:'2 RU eight-channel audio monitor: eight 46-LED VU/PPM bargraphs, three 8-character displays, Dolby E / AC-3 metadata, speaker presets. A front-panel ATmega128 runs the menus and an ASCII UART link. An ADSP-21065L SHARC meters every sample and strobes the LED bars itself.',

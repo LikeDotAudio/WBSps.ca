@@ -1291,6 +1291,11 @@ function viewNotes(m){
 /* ---------------- register ---------------- */
 loadScenario('press3');
 SIM.register({
+  footnotes:[{text:"The front legend reads \"A\\V SLAVE\" with a backslash instead of a slash.", src:"#POD #SERIES/POD9 - #Master/POD9 - #ARTWORK #DA #2016/POD9-FRONT&REAR-SILK (CURVE).cdr"},
+  {text:"The crosses at OUT 1, IN 2, IN 5 and IN 6 on the rear sheet are drill centre marks, not printed ink. <span class=\"tag-inf\">inferred</span>", src:"#POD #SERIES/POD9 - #Master/POD9 - #ARTWORK #DA #2016/POD9-FRONT&REAR-SILK (CURVE).cdr"},
+  {text:"The rear BNC holes are D-shaped (one flat side), drawn as an arc plus a straight edge.", src:"#POD #SERIES/POD9 - #Master/POD9 - #ARTWORK #DA #2016/POD9-FRONT&REAR-SILK (CURVE).cdr"},
+  {text:"POD9SILK.CDR (Aug 2007) is the earlier silk, filed under the POD9R folder.", src:"#POD #SERIES/POD9 - #Master/POD9 - #Engineering/POD9R - #SILK/POD9SILK.CDR"},
+  {text:"A separate rear-only issue 2 silk survives: POD9-REAR iss2 silk.cdr (Aug 2007).", src:"#POD #SERIES/POD9 - #Master/POD9 - #Engineering/POD9R - #SILK/POD9-REAR iss2 silk.cdr"}],
   id:'pod9', name:'POD9 · 6×1 analog video switcher with VI switching and AFV ('+Y(1998)+')', duration:1,
   product:'POD9', year:1998, family:'POD series',
   folder:'#POD #SERIES/POD9 - #Master',

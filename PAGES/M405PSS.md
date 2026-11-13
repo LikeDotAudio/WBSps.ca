@@ -13,7 +13,7 @@ tags: ["module", "meter", "1970s"]
 |---|---|
 | Type | module |
 | Category | [METER](Category-METER.md) |
-| Try it | [simulator & front panel](../simulator.html?m=M405PSS) · [KiCad symbol generator](../kicad.html?m=M405PSS) · [download package (zip)](../_packages/M405PSS.zip) |
+| Try it | [KiCad symbol generator](../kicad.html?m=M405PSS) · [download package (zip)](../_packages/M405PSS.zip) |
 | Earliest dated evidence | [1975\|8](Year-1975.md) — estimate from a dated variant |
 | Evidence | from M405 |
 | Confidence | family |
@@ -31,21 +31,3 @@ _What it is made of and what it is part of._
 | Year | File |  |
 |---|---|---|
 | 1975 | [1975 - M405PSS - file.dwg](../Modules/METER/M405PSS/1975%20-%20M405PSS%20-%20file.dwg) | [note](../Modules/METER/M405PSS/1975%20-%20M405PSS%20-%20file.dwg.md) |
-
-## Contents (JSON)
-
-```json
-{
- "device": "M405PSS",
- "category": "METER",
- "year": 1975,
- "documents": [
-  {
-   "file": "Modules/METER/M405PSS/1975 - M405PSS - file.dwg",
-   "year": 1975,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```

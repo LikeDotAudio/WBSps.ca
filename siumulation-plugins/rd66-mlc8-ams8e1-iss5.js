@@ -26,14 +26,19 @@
    - #MLC - #SERIES/MLC8N - #TESTREPORT/MLC8B-05AV0000-08APR13.pdf, MLC8A-MLC8AR-05AV0000-15DEC14.pdf
    - RD60-AMS81AUsingAMS81-iss5PCB/software/AMS81-AEM (altera vcurrent, atmel progress, ControlDescription_Jan212013.docx)
    - AMS8E - #Master/AMS8E-1 - #Master/AMS8E-1-ISS5-GERBER.zip (Ams8e-1iss5-net.ipc netlist; board art)
-   - Panels: #MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).pdf,
-       MLC8B-REAR-SILK(CURVE AMS8-M19).pdf, AMS8-M6-SILK(MLC8-M3) lens; Pics/MLC8-M11(8B).jpg (colours)
+   - Panels (artwork pass 2026|59): #MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr,
+       MLC8B-REAR-SILK(CURVE AMS8-M19).cdr, AMS8-M6-SILK(MLC8-M3) (CURVE).cdr → assets/<id>-front.svg, -rear.svg, -lens.svg
+       (Inkscape/libcdr, cut between the crop marks; replaces the earlier PNG cuts); Pics/MLC8-M11(8B).jpg (colours)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
 (function(){
 const SIM = window.SIM;
 const ID = 'rd66-mlc8-ams8e1-iss5';
 const ASSET = 'siumulation-plugins/assets/'+ID+'-';
+const ART = { FRONT:'#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr',
+  REAR:'#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr',
+  REAR2:'AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M19-REAR-SILK (CURVE) (MLC-8B).cdr',
+  LENS:'AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr' };
 const KEY = '__rd66Active';
 const inf = '<span class="tag-inf" title="Not stated in the archive; inferred">inferred</span>';
 const Y = y => SIM.year(y);
@@ -306,12 +311,11 @@ function frontSVG(t){
   let s=`<svg viewBox="0 0 3420 330" role="img" aria-label="MLC8B front panel on the real silkscreen" style="width:100%;display:block;border-radius:6px;background:#141517">
     <defs><filter id="r6g" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <radialGradient id="r6k" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#3a3d40"/><stop offset="1" stop-color="#101112"/></radialGradient></defs>
-    <rect width="3420" height="330" fill="#141517"/><rect x="183" y="4" width="600" height="322" fill="#070808"/>`;
+    <rect width="3420" height="330" fill="#141517"/><image href="${ASSET}front.svg" width="3420" height="330" preserveAspectRatio="none"/><rect x="183" y="4" width="600" height="322" fill="#070808"/>`;
   for (let c=0;c<8;c++){ const n=segs(c,t,e);
     for (let r=0;r<22;r++){ const j=21-r, on=j<n; s+=`<rect x="${MCOL[c]-11}" y="${MROW(r)-4}" width="22" height="8" rx="1.5" fill="${on?ledCol(r):ledOff(r)}"${on?' filter="url(#r6g)"':''}/>`; } }
   for (let p=0;p<4;p++){ const on=err[p]; s+=`<circle cx="${PAIRX[p]}" cy="222" r="5" fill="#2a2410"/><circle cx="${PAIRX[p]}" cy="259" r="6" fill="${on?'#ff3b2f':'#2a1513'}"${on?' filter="url(#r6g)"':''}><title>ERR pair ${p+1}: ${on?'lit — the SHARC saw “no lock” in TDM_IN_ctl+18 bit '+(24+p):'off'}</title></circle>`; }
-  s+=`<image href="${ASSET}lens-white.png" x="182.5" y="14.5" width="600" height="300"/>
-    <image href="${ASSET}front-green.png" width="3420" height="330"/><image href="${ASSET}front-white.png" width="3420" height="330"/>`;
+  s+=`<image href="${ASSET}lens.svg" x="182.5" y="14.5" width="600" height="300" preserveAspectRatio="none"/>`;
   for (let k=0;k<9;k++){ const x=KX(k), big=k===8, hole=big?94.5:66.5, kr=big?56:38, R=big?76:53, r=big?7.2:5.6, val=k<8?D.gain[k]:D.vol, lit=Math.round(val/255*24);
     s+=`<g class="r6knob" data-k="${k}" style="cursor:pointer"><circle cx="${x}" cy="${KY}" r="${hole}" fill="#060707" stroke="#2a2c2e" stroke-width="2"/>`;
     for (let i=0;i<25;i++){ const a=(-135+i*11.25)*Math.PI/180, on=i<=lit && !D.mute[k]; s+=`<circle cx="${(x+R*Math.sin(a)).toFixed(1)}" cy="${(KY-R*Math.cos(a)).toFixed(1)}" r="${r}" fill="${on?(i===12?'#ffb43a':'#7dff6a'):(i===12?'#2d2412':'#16261a')}"/>`; }
@@ -327,14 +331,14 @@ const INX = p => 2402 + 109.25*(p+0.5);
 function rearSVG(){
   const e=eff();
   let s=`<svg viewBox="0 0 3448 330" role="img" aria-label="MLC8B rear panel on the real silkscreen" style="width:100%;display:block;border-radius:6px;background:#141517">
-    <rect width="3448" height="330" fill="#141517"/><image href="${ASSET}rear-white.png" width="3448" height="330"/>`;
+    <rect width="3448" height="330" fill="#141517"/><image href="${ASSET}rear.svg" width="3448" height="330" preserveAspectRatio="none"/>`;
   for (let p=0;p<4;p++){ const x=INX(p), on=presentSinceCable(p,SIM.t), lk=!errAt(SIM.t,e)[p];
     s+=`<g class="r6jack" data-p="${p}" style="cursor:pointer">${on?`<rect x="${x-50}" y="212" width="100" height="58" rx="5" fill="#1f8a45" stroke="#9fe0b4" stroke-width="3"/><rect x="${x-12}" y="270" width="24" height="60" fill="#1f8a45"/>`:''}
       <rect x="${x-54}" y="190" width="108" height="140" fill="transparent"><title>IN ${p+1} (AES 110 Ω) — click to ${on?'unplug':'plug in'} at the playhead</title></rect>
       <circle cx="${x}" cy="180" r="10" fill="${lk?'var(--accent)':on?'var(--warn)':'#555'}"/></g>`; }
   const rx=2305.5;
   s+=`<g class="r6ref" style="cursor:pointer">${D.ref?`<rect x="${rx-50}" y="212" width="100" height="58" rx="5" fill="#2b5f9e" stroke="#9cc3f0" stroke-width="3"/>`:''}<rect x="${rx-56}" y="190" width="112" height="140" fill="transparent"><title>REF IN → U24 CS8416 (kept on iss5) — click to ${D.ref?'unplug':'plug in'}</title></rect></g>
-    <text x="10" y="322" font-size="20" fill="#9aa">MLC8B-REAR-SILK (AMS8-M19), 2015|48 drafting set — click IN 1–4 and REF IN</text></svg>`;
+    <text x="10" y="322" font-size="20" fill="#9aa">MLC8B-REAR-SILK(CURVE AMS8-M19).cdr, MAY 07/15 — click IN 1–4 and REF IN</text></svg>`;
   return s;
 }
 /* AMS8E-1 iss5 top side (Gerber GTO/GTS → 696 × 501 px at 120 dpi); part boxes from Ams8e-1iss5-net.ipc */
@@ -550,8 +554,8 @@ function viewSim(m){
   window[KEY]=true;
   m.innerHTML = `<div class="grid2"><div>
       ${card('Build under test', `<div id="cfg"></div>`)}
-      ${card('Front panel (MLC8B silkscreen) at the playhead', `<div id="fp"></div><p class="small muted">MLC-8B-FRONT-SILK (CURVE MLC-M11), 2015|48 drafting set, green and white inks. In April 2013|46 the unit had four buttons (DebugNotes.xlsx: “AES 110Ohm | Analog / SDI | Stereo 5.1”); the SDI 1 / SDI 2 column was added by RD73.</p>`)}
-      ${card('Rear panel (MLC8B silkscreen)', `<div id="rp"></div>`)}
+      ${card('Front panel (MLC8B silkscreen) at the playhead', `<div id="fp"></div><p class="small muted">Front: ${SIM.src(ART.FRONT,'MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr')} (MAY 05/15), GREEN and WHITE plates registered on the crop marks; lens print: ${SIM.src(ART.LENS,'AMS8-M6-SILK(MLC8-M3) (CURVE).cdr')} (May 08/15). CorelDRAW vector art, all curves. In April 2013|46 the unit had four buttons (DebugNotes.xlsx: “AES 110Ohm | Analog / SDI | Stereo 5.1”); the SDI 1 / SDI 2 column was added by RD73.</p>`)}
+      ${card('Rear panel (MLC8B silkscreen)', `<div id="rp"></div><p class="small muted">Rear: ${SIM.src(ART.REAR,'MLC8B-REAR-SILK(CURVE AMS8-M19).cdr')} (MAY 07/15), WHITE plate, all curves; outlines from the same sheet.</p>`)}
     </div><div>
       ${card('What the firmware did', `<div id="trace" class="log"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}
@@ -805,6 +809,7 @@ function viewFindings(m){
   window[KEY]=false;
   const li=(t,b)=>`<li style="margin-bottom:6px"><b>${t}</b> ${b}</li>`;
   m.innerHTML=card('What RD66 is up to — findings', `<ol class="small">
+    ${li(`Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART.FRONT,'MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr')} (MAY 05/15), ${SIM.src(ART.REAR,'MLC8B-REAR-SILK(CURVE AMS8-M19).cdr')} (MAY 07/15) and the lens ${SIM.src(ART.LENS,'AMS8-M6-SILK(MLC8-M3) (CURVE).cdr')} (May 08/15).`, `All three are full curves, so the fonts are the originals. The sheets are two years after RD66 (Feb 2013|46) and already carry the RD73 <b>SDI 1 / SDI 2</b> column; no 2013 MLC8B panel sheet is in the archive. The rear plate's model line reads <b>MLC-8</b>, not MLC-8B. The same M19 rear is stored again as ${SIM.src(ART.REAR2,'AMS8-M19-REAR-SILK (CURVE) (MLC-8B).cdr')} (Apr 2016): a different file (md5) with three live-text objects but the same layout. The rear also has an AUX 2 DB25, an option-card slot and two round holes with a small rectangle at the top right that this bench does not use. The lens is the shared AMS8/MLC8 M6 part; the MLC8B uses its left 3″ (CH1–CH8 scales, DD and ERR).`)}
     ${li('RD66’s result is release V050000, byte for byte.', 'The main-Atmel folder <span class="mono">v105</span> holds v106 (39/39 files identical to <span class="mono">progress/v106</span>) and is identical to <span class="mono">MLC8AM - #Software/AMS8-1/atmel/v050000</span>. The MLC8B test of 8 April '+Y(2013)+' lists main Atmel V050000, FPGA V050000, DSP V106 on AMS8E-1 issue 5. The MLC8A/MLC8AR report of 15 December '+Y(2014)+' uses the same main firmware. V050100 ('+Y(2014)+') only adds SDI56/SDI78.')}
     ${li('It is an MLC8B, not an MLC8A.', 'The front Atmel v205 is identical to <span class="mono">MLC8AM</span> v205 (66/66 files) and differs from MLC8A v205 in 49 files, including <span class="mono">v200w.c</span> (MLC8AM header “MLC8AM V2.04 … February 13, 2007”). DebugNotes.xlsx says “MLC8B version”. Its 2×2 table (AES 110Ohm | Analog / SDI | Stereo 5.1) is the four-button panel that TRANSLATE_PUSHBUTTONS reads: PRESET_PB1 → AES110, PRESET_PB2 → ANALOG, MODE1_PB → SDI12, MODE4_PB → ST/5.1. The front FPGA is MLC8A v200 (27/27), as the software listing says (“MLC8B … MLC8AV200”).')}
     ${li('The FPGA is RD60’s, unchanged, but with an old project file.', 'vcurrent matches RD60 AMS81-AEM vcurrent and the AMS8 master V050000 in 204 of 206 files. Only <span class="mono">AMS81.qpf</span> differs: RD66’s is a Quartus 4.1 header dated February 28, 2005, without the <span class="mono">ams81-ep4ce30</span> revision RD60 added on April 1, 2013. The .qsf <span class="mono">SEARCH_PATH</span> still points at <span class="mono">h:/engineering/rd/rd60-…/aesrxsrc</span>, so a rebuild in the RD66 folder uses RD60’s directory.')}
@@ -832,7 +837,7 @@ function viewFindings(m){
     <li>ENGINEERING - 2016 RD FILES/RD60-AMS81AUsingAMS81-iss5PCB/software/AMS81-AEM/** · R&amp;D_List.xls (RD66: “MLC8 implementation using ams8e-1iss5 board”, Z, peter)</li>
     <li>#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #Software/{MLC8AM, MLC8A, MLC8AM Demo} - #Software/** · MLC8N - #TESTREPORT/*.pdf · MLC8 - Front_Change #RD #RD73/software listing.xls</li>
     <li>AMS81 - #Master/…/AMS8 - #Software #Altera #V050000 · AMS8E - #Master/AMS8E-1 - #Master/AMS8E-1-ISS5-GERBER.zip, AMS8E-1 ISS5 - ALTIUM.csv</li>
-    <li>MLC6 &amp; MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).pdf, MLC8B-REAR-SILK(CURVE AMS8-M19).pdf, AMS8-M6-SILK(MLC8-M3), Pics/MLC8-M11(8B).jpg</li></ul>`);
+    <li>MLC6 &amp; MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr, MLC8B-REAR-SILK(CURVE AMS8-M19).cdr, AMS8-M6-SILK(MLC8-M3) (CURVE).cdr, Pics/MLC8-M11(8B).jpg</li></ul>`);
 }
 
 /* ---------------- register ---------------- */
@@ -845,6 +850,13 @@ SIM.register({
   family: 'R&D register',
   summary: 'April 2013|46 R&D: the MLC8B (MLC8AM front) moved from the AMS8-1 main board (four CS8416 receivers + AD1895 SRCs) to the AMS8E-1 issue 5 board, where AES receive and SRC live in a Cyclone IV copied from RD60. Only the main Atmel changed (v105 → v106 = release V050000); the simulator runs before, after and a patch-by-patch workbench side by side.',
   highlights: ['Before / after / workbench builds on one timeline','Six v106 patches you can apply one at a time','SPI and CS8416 lock reads down to the bit; AES biphase','Real MLC8B silkscreen panels; iss5 board from the Gerbers','Hash check of every RD66 folder against the masters','Netlist findings: PA4 = FPGA nCE, PA7 = regulator reset'],
+  footnotes: [
+    {"text": "The front, rear and lens sheets are from May 2015, two years after RD66, and already carry the RD73 SDI 1 / SDI 2 button column.", "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr"},
+    {"text": "The MLC8B rear plate's model line reads “MLC-8”, not MLC-8B.", "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr"},
+    {"text": "The M19 rear is stored twice as different files: the MLC copy is all curves; the AMS81 copy (Apr 2016) has three live-text objects but the same layout.", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M19-REAR-SILK (CURVE) (MLC-8B).cdr"},
+    {"text": "The rear also has an AUX 2 DB25, an option-card slot and two round holes with a small rectangle at the top right, none used by this bench.", "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr"},
+    {"text": "The lens is the shared AMS8/MLC8 M6 part; the MLC8B uses only its left 3″ (CH1–CH8 scales, DD and ERR).", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr"}
+  ],
   depth: 'Full model',
   duration: 1,
   stepUnits: [

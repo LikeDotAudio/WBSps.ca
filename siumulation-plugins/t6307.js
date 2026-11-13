@@ -1015,6 +1015,28 @@ DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from 
   "The guide labels position 2 “BNC2” although it draws (and the board fits) a + − G terminal block there: the label names the MEC1 signal (BNC2 pins of the card), not the connector. The block is drawn 0.027″ lower than the Gerber; the click target follows the drawing in this view.",
   "The grey-filled BNCs on the guide (positions 1–2 on most of these guides) mark the shell-isolated inputs <span class=\"tag-inf\">inferred</span> from the netlists, where these BNCs have their own return nets; the drawing gives no key.");
 DATA.sources.unshift("#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr (CorelDRAW rear-module guide, 2008-07-23; assets/t6307-rear.svg)");
+const FOOT = [
+{
+"text": "The guide T6307.cdr (2008-07-23) labels position 2 “BNC2” but draws a + − G terminal block there: the legend names the card’s MEC1 BNC2 pins, not the connector.",
+"src": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr"
+},
+{
+"text": "The position-2 block is drawn 0.027″ lower than in the Gerbers; the click target follows the drawing in the CorelDRAW view.",
+"src": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr"
+},
+{
+"text": "Only BNC1 is shaded grey on this guide (position 2 is a block); no key explains the shading.",
+"src": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr"
+},
+{
+"text": "M6205-T6307.cdr exists three times (ISSUE4 obsolete, M6205C100 v1002, M6205C200 V3.0.0.0), plus a Backup_of_ copy.",
+"src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr"
+},
+{
+"text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+"src": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr"
+}
+];
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
@@ -1492,6 +1514,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

@@ -924,7 +924,38 @@ function viewFindings(m){ window[KEYFLAG]=false;
 
 /* ---------------- register ---------------- */
 resetAll();
-SIM.register({
+/* footnotes (artwork pass 2026|59): one small detail per entry, with the archive file that shows it */
+const FOOTNOTES=[
+{
+"text": "The D6202A card-edge drawing is the dual card: it shows Lock2, No Lock2, EQ2 and an EQ2 switch, none of which are fitted on a D6202A.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-card-edge.cdr"
+},
+{
+"text": "The D6202A card-edge drawing is identical to the D6201B one apart from the ejector label.",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B-card-edge.cdr"
+},
+{
+"text": "The T6403A legend says “OUT 3 Card 2” twice; position 9 should be OUT 4 Card 2.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6202A - rear module options.cdr"
+},
+{
+"text": "In the 2008 label sheets the Ω was set in the “WP Greek Helve” font and converts as Σ (“110ΣAES DA”); the assets were corrected to Ω.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-T6203.cdr"
+},
+{
+"text": "The T6204 drawing is titled “DUAL 110Ω AES DA” and lists IN2 on BNC 2, although the D6202A has one input.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-T6204.cdr"
+},
+{
+"text": "The T6203 label sheet reads “1x8 110Ω AES DA … SINGLE CARD TERMINATION DFR-8310”.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-T6203.cdr"
+},
+{
+"text": "The T6204 label sheet is for the MF6220 frame, the T6203 for the DFR-8310.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-T6204.cdr"
+}
+];
+SIM.register({ footnotes:FOOTNOTES,
   id:'d6202a', name:'D6202A · openGear 1×8 110 Ω AES DA (2008|41)', duration:1, year:2008,
   product:'D6202A', family:'openGear', folder:'#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR',
   summary:'The D6202A openGear AES distribution amplifier (Ross ADA-8401-B / Cobalt 9252) modelled from its v104 firmware, ISS3 netlist and the D6201B FPGA image: transformer input with switchable cable EQ, a CS8416 receiver, an FPGA that re-times and mutes, and eight transformer-coupled 110 Ω outputs. The card is drawn from the ISS4 gerbers and driven through its EQ button, termination jumper, rear modules and a DashBoard-style window; an FPGA switch compares the Altera EP1C3 image with the two Lattice LFXP3 bitstreams.',

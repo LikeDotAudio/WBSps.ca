@@ -1066,6 +1066,9 @@ function viewNotes(m){
 /* ---------------- register plugin ---------------- */
 loadScenario('run48');
 SIM.register({
+  footnotes:[{text:"The SAMPLE RATE row is legended 32 · 44.1 · 48 · 96; the fifth LED hole is drilled (with its crosshair) but has no “192” legend, although the 2015 photo shows one.", src:"#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"The rear power legend reads “100-240 VAC, 50-60 Hz, ½ A.S.B.”, a wider range than the POD10A/POD12A “100-230 VAC”.", src:"#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"An older rear-only sheet, POD14A-SILK-RR-ISS2.cdr, dates from 2010|43.", src:"#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-SILK-RR-ISS2.cdr"}],
   id:'pod14a', name:'POD14A · dual A-D converter, AES/EBU out ('+Y(2008)+')', duration:1,
   product:'POD14A', year:2008, family:'#POD #SERIES',
   folder:'#POD #SERIES/POD14A - #Master',

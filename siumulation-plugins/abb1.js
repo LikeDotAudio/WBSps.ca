@@ -22,9 +22,12 @@
    - ABBFSLK2.cdr (front silkscreen, two separations with drill crosshairs),
      ABBFRNT.DXF (front panel drilling, 1998|31), ABB-1SLK.CDR (rear guide line),
      ABB1.cdr (functional block diagram), Bit Buddy Front.JPG / Rear.JPG (2010|43)
-   Panel artwork in assets/: abb1-front-white.png and abb1-front-green.png were
-   cut from ABBFSLK2.cdr (CorelDRAW → SVG, crosshairs removed, registered to the
-   DXF drill positions, inks recoloured from the photo). The Hobo title and the
+   Panel artwork in assets/: abb1-front.svg (2026|59 artwork pass) is ABBFSLK2.cdr
+   as vectors: both separations (GREEN: level arc + WBS logo; WHITE: every legend
+   and the LOW BATT. box) registered on the drill crosshairs to the DXF frame,
+   crosshairs and switch-slot guides removed, libcdr's text anchors corrected.
+   The older raster cuts abb1-front-white.png / -green.png are kept only for the
+   Hobo-WP title, which no installed font can draw. The Hobo title and the
    rear-panel ink are lifted from the photos after a perspective rectification
    onto the DXF/crosshair coordinates (abb1-front-photo.jpg / abb1-rear-photo.jpg).
    Anything not in those files is marked "inferred" on screen.
@@ -573,10 +576,10 @@ function frontSVG(t, opts){
   opts = opts || {};
   const P = panelAt(t, opts.eye !== undefined ? opts.eye : D.eye);
   let s = `<svg viewBox="0 0 1140 569" role="img" aria-label="ABB-1 front panel (real silkscreen)" style="width:100%;max-width:820px;display:block">
-    <defs><filter id="abbGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <defs><clipPath id="abbTitle"><rect x="80" y="500" width="370" height="64"/></clipPath><filter id="abbGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <polygon points="${OUTLINE}" fill="var(--dev)" stroke="#000" stroke-width="3"/>`;
   if (D.photo) s += `<image href="${ASSET}abb1-front-photo.jpg" width="1140" height="569" opacity=".55"/>`;
-  s += `<image href="${ASSET}abb1-front-green.png" width="1140" height="569"/><image href="${ASSET}abb1-front-white.png" width="1140" height="569"/>`;
+  s += `<image href="${ASSET}abb1-front.svg" width="1140" height="569"/><image href="${ASSET}abb1-front-green.png" width="1140" height="569" clip-path="url(#abbTitle)"/>`;
   METER_DB.forEach((db, k) => { s += ledSVG(FP.mLx, FP.mY(k), P.mL[k], k===0 ? '#ff4a3a' : 'var(--led-g)', k===0 ? '#3a1414' : '#10261a') + ledSVG(FP.mRx, FP.mY(k), P.mR[k], k===0 ? '#ff4a3a' : 'var(--led-g)', k===0 ? '#3a1414' : '#10261a'); });
   LEDN.forEach((n, k) => { s += `<g class="abbLed" data-led="${n}">${ledSVG(FP.sX, FP.sY(k), P.leds[n], '#ff3b30', '#3a1212')}<rect x="${FP.sX-200}" y="${FP.sY(k)-17}" width="420" height="34" fill="transparent"><title>${LEGEND_L[n]} / ${LEGEND_R[n]} — row ${['SEL3','SEL3','SEL2','SEL2','SEL1','SEL1','SEL0','SEL0'][k]}, column ${LED_RC[n][1]===6?'SEL4 (RC6)':'SEL5 (RC4)'}; STATERR bit ${LED_STAT_BIT[n]}</title></rect></g>`; });
   s += ledSVG(FP.lb[0], FP.lb[1], P.lb, '#ff3b30', '#3a1212');
@@ -772,8 +775,8 @@ function viewSim(m){
   window.__abb1Keys = true;
   m.innerHTML = `
   <div class="grid2">
-    <div>${card('Front panel at the playhead', `<div id="fp"></div><div class="small muted" style="margin-top:6px">Click the toggles (STATUS/ERROR; ANALOG · OFF · DIGITAL), the headset jack and the level knob. Hover a status LED for its row/column wiring.</div>`)}
-      ${card('Rear panel — click the connectors and the TERM switch', `<div id="rp"></div>`)}</div>
+    <div>${card('Front panel at the playhead', `<div id="fp"></div><div class="small muted" style="margin-top:6px">Click the toggles (STATUS/ERROR; ANALOG · OFF · DIGITAL), the headset jack and the level knob. Hover a status LED for its row/column wiring.</div><div class="small muted">Artwork: ${SIM.src('ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr','ABBFSLK2.cdr')} (2000-01-27), both CorelDRAW separations as vectors; the Hobo title is lifted from ${SIM.src('ABB1 - #Master/ABB1 - #Engineering/Bit Buddy Front.JPG','Bit Buddy Front.JPG')}.</div>`)}
+      ${card('Rear panel — click the connectors and the TERM switch', `<div id="rp"></div><div class="small muted">No rear silk artwork exists: ${SIM.src('ABB1 - #Master/ABB1 - #Engineering/ABB-1SLK.CDR','ABB-1SLK.CDR')} holds five guide lines only, so the rear legend is lifted from the photo.</div>`)}</div>
     <div>${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}
       ${card('Incoming signal and what-ifs', `<div id="ctl"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}</div>
@@ -1115,6 +1118,7 @@ function viewFindings(m){
   const poll = ver => { const A = asmFor(ver); return 'ANALOG'; };
   m.innerHTML = card('What the ABB-1 firmware is up to — findings from the source', `
   <ol>
+    <li><b>Artwork 2026|59: the front panel is now drawn from ${SIM.src('ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr','ABBFSLK2.cdr')} (2000-01-27) as vectors.</b> The sheet holds two separations of the same panel, GREEN (level arc, WBS logo, Hobo title) and WHITE (all legends and the LOW BATT. box), each with its own drill crosshairs; the crosshairs land on the ABBFRNT.DXF drill points to within 0.5 px, so every LED and control sits where it did. libcdr loses CorelDRAW's text alignment (it places right-aligned and centred lines as if the text were twice its size), so each legend was re-anchored: right-aligned meter scale, left column and STATUS/ANALOG; centred L, R, OFF; left-aligned the rest. The title is in <i>Hobo-WP</i>, which no installed font can draw, so it is still lifted from the photo. The earlier ${SIM.src('ABB1 - #Master/ABB1 - #Engineering/abbfslk.CDR','abbfslk.CDR')} (1999-09-20) is a CorelDRAW 5 file whose text libcdr reads byte-swapped. There is no rear silk artwork: ${SIM.src('ABB1 - #Master/ABB1 - #Engineering/ABB-1SLK.CDR','ABB-1SLK.CDR')} holds five guide lines only.</li>
     <li><b>The error LEDs are one place off from their legends.</b> <span class="mono">TABLE1</span> turns error code E2..E0 into one LED: 0 → NO ERROR, 1 → VALIDITY, 2 → CONFIDENCE, 3 → “CRC ERROR”, 4 → “PARITY ERROR”, 5 → “BIPHASE ERROR”, 6 → “NO LOCK”, 7 → the bottom LED (RCV ERROR row, no ERROR legend).
       The sales sheet (<span class="mono">ABB-1SLS.WPD</span>) lists the receiver's errors by priority: No Lock, Bi-Phase, Parity, CRC, <i>Slipped Sample “not implemented — future”</i>, Confidence, Validity, No Error. So code 3 is slipped sample, 4 CRC, 5 parity, 6 bi-phase and 7 no lock (Crystal numbering ${inf}).
       The firmware agrees that 7 means no lock: it blanks the display on <span class="mono">BTFSC ERR,2</span>, and only TABLE1[7] sets that bit. The panel just skipped “slipped sample”. A parity error lights BIPHASE ERROR, a bi-phase error lights NO LOCK, and a real no-lock lights the unlabelled bottom LED. Try it in the Tutorial (steps 7–9).</li>
@@ -1169,6 +1173,15 @@ SIM.register({
   zooms:[[1,'1 s (whole second)'],[0.1,'100 ms'],[0.025,'25 ms (2 analog mux periods)'],[0.008,'8 ms (2 AES blocks)'],[0.001,'1 ms'],[0.0002,'200 µs (read burst)'],[0.00004,'40 µs'],[0.00001,'10 µs (≈15 instructions)']],
   defaultZoom:3,
   init(){ RUN_KEY = ''; },
+  footnotes:[
+    {text:'The front silk ABBFSLK2.cdr has eight status rows but only seven right-hand (ERROR mode) legends: the bottom LED, which the firmware lights for a real no-lock, has no ERROR legend.', src:'ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr'},
+    {text:'The ERROR legends skip the receiver\'s “slipped sample” code, so CRC, PARITY, BIPHASE and NO LOCK each sit one LED below the code that lights them.', src:'ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr'},
+    {text:'The panel title “Audio Bit Buddy ABB-1” is set in Hobo-WP; libcdr keeps it as live text, so the simulator still uses the photo for the title.', src:'ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr'},
+    {text:'libcdr places the legends of ABBFSLK2.cdr as if they were twice their size; right-aligned and centred legends had to be re-anchored by hand.', src:'ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr'},
+    {text:'ABBFSLK2.cdr is stored twice, byte-identical, in ABB1 - #Engineering and ABB1 - #Engineering/ABB1 - #ARCHIVE.', src:'ABB1 - #Master/ABB1 - #Engineering/ABB1 - #ARCHIVE/ABBFSLK2.cdr'},
+    {text:'The earlier front silk abbfslk.CDR (1999-09-20) is a CorelDRAW 5 file whose text libcdr decodes byte-swapped (“LOCK” comes out as two CJK characters).', src:'ABB1 - #Master/ABB1 - #Engineering/abbfslk.CDR'},
+    {text:'ABB-1SLK.CDR, the only rear-panel CorelDRAW file, holds five guide lines and no legend; the rear legend in the simulator comes from the 2010 photo.', src:'ABB1 - #Master/ABB1 - #Engineering/ABB-1SLK.CDR'},
+  ],
   tabs:[
     {id:'sim', label:'Simulator', render:viewSim},
     {id:'tutorial', label:'Tutorial: using the ABB-1', render:viewTutorial},

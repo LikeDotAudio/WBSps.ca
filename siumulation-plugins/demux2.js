@@ -1003,6 +1003,8 @@ function viewFindings(m){
 /* ---------------- register ---------------- */
 loadScenario('pod');
 SIM.register({
+  footnotes: [{"text": "No silkscreen file exists for the POD 19V; its panels survive only as the manual-cover drawing.", "src": "#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr"}, {"text": "The POD 19V rear keeps the POD19 labels (OUTPUT 1, OUTPUT2, SDI OUTPUT, SDI INPUT) and never says “VIDEO”, although the DEMUX-2’s two outputs are composite video.", "src": "#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr"}, {"text": "A fit-to-path “FUSE” label in the drawing is read back by libcdr as “FUSEFUSEFUSE”; it is left out of the simulator art.", "src": "#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr"}, {"text": "The drawing spells “OUTPUT2” without the space used in “OUTPUT 1”.", "src": "#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr"}],
+  
   id:'demux2', name:'DEMUX-2 · SDI audio de-embedder with composite video out ('+Y(2001)+')', duration:1,
   product:'DEMUX-2', year:2001, family:'Obsolete products', folder:'#DEMUX #SERIES/XXX - DEMUX2 - #Master #OBSOLETE',
   summary:'Internal SD-SDI de-embedder board for POD19, XTM4, AMS4 and DMS1: a Gennum GS9023 pulls one audio group out of the HANC and hands it to the host on P5, while an ADV7171 re-codes the same SDI as composite video. A PIC16F874 sets the GS9023 DID registers, programs the encoder over bit-banged I2C and talks to the host over P4 lines or RS-485.',

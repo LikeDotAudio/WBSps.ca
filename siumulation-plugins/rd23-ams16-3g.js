@@ -1096,7 +1096,7 @@ function viewFindings(m){
    <li>${RD}Software/Atmel/main/backup1…12, v202, history.xls · Software/Atmel/front/history.xls · Software/FPGA/* · progress.xlsx (×3)</li>
    <li>${RD}Adam/AMS16/software/altera/v600/progress/Progress.txt · …/altera/v700 October 24 2012.txt · …/atmel/Main Board/v201 (v100.c, gennum.c/.h)</li>
    <li>${RD}Adam/AMS16/PCB/AMS16A-3-4/ (AMS163G-ISS7-BOM.xls, -pnp.xls, OBSOLETE/AMS16A-3iss4.pnp, ISS6/) · PCB/Schematic/July52011_irina_update/ · power.xls</li>
-   <li>ENGINEERING - 2016 RD FILES/R&amp;D_List.xls · AMS16 - #Master/AMS16 - #TESTREPORT/AMS16-2AEM-06AV0000-30OCT12.pdf · AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).pdf, Pics/AMS16-2AEM Rear.jpg</li></ul>`);
+   <li>ENGINEERING - 2016 RD FILES/R&amp;D_List.xls · AMS16 - #Master/AMS16 - #TESTREPORT/AMS16-2AEM-06AV0000-30OCT12.pdf · AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr, Pics/AMS16-2AEM Rear.jpg</li></ul>`);
 }
 
 /* ---------------- register ---------------- */
@@ -1107,6 +1107,13 @@ SIM.register({
   family: 'R&D register', folder: 'ENGINEERING - 2016 RD FILES/RD23AMS163GSDIUpgrade',
   summary: 'The R&D project that took the AMS16 audio monitor from SD/HD to 3G-SDI: GS1559 → GS2970A receiver, Cyclone II → Cyclone IV FPGA, and a new main-board start-up around Gennum SPI through the FPGA. A before/after simulator runs both builds side by side through the dated R&D stages, from first loop-through (Nov 2011) to the v700 release (Oct 2012).',
   highlights: ['Before/after boards drawn to scale from the iss4 and ISS7 pick-and-place files','14 R&D stages from the progress logs: 3G clock ÷2, VPID, top-cover CRC, Gefen start-up, level B','Main-loop and reset state machine in slow motion: why the 3G build needs ≈1.8 s to come up','md5 comparison of 13 069 RD23 files against the AMS16 master: the v700 front panel and “v600” differ','19 findings, incl. level B converted then refused, unused on-chip de-embedder, 2014 timing revisit'],
+  footnotes: [
+    {"text": "The rear sheet is dated 23 Oct 2012, the day before the v700 release, and still reads AMS-16A: the 3G upgrade changed no hole or legend.", "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr"},
+    {"text": "The same rear sheet is stored three times, byte-identical (ARTWORK “(curve)”, Engineering/SILK and AMS16A - #SILK “_final curve”).", "src": "AMS16 - #Master/AMS16 - #Engineering/SILK/AMS16AQ-3G-M2-SILK_final curve.cdr"},
+    {"text": "The sheet's assembled view uses live Arial text; only its WHITE plate is in curves.", "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr"},
+    {"text": "SDI IN1/IN2/OUT1/OUT2 are D-shaped holes with flats; the eight AES outputs and two MONITOR outputs are round Ø0.485″ BNC holes.", "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr"},
+    {"text": "The RD23 folder holds a 2008 front sheet (AMS16A2-SILK-FINALcurve.cdr); the newest front is AMS16A2-M1-FRONT-SILK (CURVE).cdr, dated OCT.27/15. RD23 did not change the front.", "src": "ENGINEERING - 2016 RD FILES/RD23AMS163GSDIUpgrade/Adam/AMS16/SILK/AMS16A2-SILK-FINALcurve.cdr"}
+  ],
   depth: 'Full model',
   duration: C.DUR,
   stepUnits: [

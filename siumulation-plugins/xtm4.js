@@ -536,6 +536,18 @@ function setBtn(btn, tr){
    Meters (580 × 256 windows), buttons (95 × 142), jacks and the display window sit on the white drill
    crosshairs; the 8 phase LEDs have no crosshair and are placed from the photo. */
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: the default faces are the CorelDRAW vector art itself, assets/xtm4-front.svg (XTM4M1-FRONT-SILK
+   (CURVE).cdr, viewBox = its panel outline 80.6,62.6, 1231.2 × 244.6 pt; GREEN plate in green with its knock-outs in the
+   panel colour, WHITE plate moved up 319.7 pt, mechanical lines grey) and assets/xtm4-rear.svg (XTM4M2-REAR-SILK
+   (CURVE).cdr, outline 71.9,237.7). Same frame as the 200 dpi PNGs, so the meters, buttons, jacks and LEDs stay on their
+   holes. Drill crosshairs (guide strokes) are left out. The PNGs stay behind the "PNG silk" toggle. */
+const ART = { png:false, DIR:'XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/', FRONT:'XTM4M1-FRONT-SILK (CURVE).cdr', REAR:'XTM4M2-REAR-SILK (CURVE).cdr' };
+const artSrc = k => SIM.src(ART.DIR+ART[k], ART[k]);
+function artNote(which){
+  const f = which==='rear'? artSrc('REAR')+' (MAY 15/15 on the sheet)' : artSrc('FRONT')+' (GREEN + WHITE plates, Nov 9 2015 file)';
+  return `<div class="small muted" style="margin-top:4px">Artwork: ${f}, CorelDRAW vector art. <label><input type="checkbox" class="artpng" ${ART.png?'checked':''}> show the earlier PNG silk (200 dpi cut of the PDF)</label></div>`;
+}
+function bindArt(m){ m.querySelectorAll('.artpng').forEach(c=> c.onchange=e=>{ ART.png=e.target.checked; m.querySelectorAll('.artpng').forEach(o=>o.checked=ART.png); SIM.refresh(); }); }
 const OX = 190, OY = 10;
 const MX = [380,1095,2325,3040], MYc = 286, MW = 580, MH = 256;
 const BX = {MODE:1507, SOURCE:1642, DOWN:1777, UP:1911}, BYc = 360;
@@ -578,8 +590,8 @@ function frontSVG(t, opts){
    <filter id="xglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
    <rect width="3800" height="700" fill="#2a2a29"/><rect x="${OX-6}" y="0" width="${3419+12}" height="700" fill="#1a1d20"/>
    ${[[68,52],[68,648],[3732,52],[3732,648]].map(([x,y])=>`<rect x="${x-42}" y="${y-20}" width="84" height="40" rx="20" fill="var(--bg)"/>`).join('')}
-   <image href="${ASSET}xtm4-front-green.png" x="${OX}" y="${OY}" width="3419" height="679"/>
-   <image href="${ASSET}xtm4-front-white.png" x="${OX}" y="${OY}" width="3419" height="679"/>`;
+   ${ART.png? `<image href="${ASSET}xtm4-front-green.png" x="${OX}" y="${OY}" width="3419" height="679"/>
+   <image href="${ASSET}xtm4-front-white.png" x="${OX}" y="${OY}" width="3419" height="679"/>` : `<image href="${ASSET}xtm4-front.svg" x="${OX}" y="${OY}" width="3419" height="679" preserveAspectRatio="none"/>`}`;
   MX.forEach((x,k)=>{ const ch=k<2?0:1, kind=k%2?'ppm':'vu'; s += meterSVG('m'+k, x+OX, MYc+OY, kind, kind==='vu'? N.vu[ch] : N.ppm[ch], on); });
   // display window
   const p = 7.6, w8 = (8*6.2-1.2)*p, dx = DISP.x+OX+(DISP.w-w8)/2, dy = DISP.y+OY+(DISP.h-6*p)/2;
@@ -633,7 +645,7 @@ function rearSVG(){
   s += bnc(806,542,'bnc','AES INPUT 75 Ω BNC') + xlr(1055,536,true,'xlr','AES INPUT 110 Ω XLR')
      + xlr(2110,536,false,null) + xlr(2388,536,false,null)
      + xlr(2686,536,true,'a1','ANALOG INPUT A (both channels toggle together)') + xlr(3089,536,true,'a1','ANALOG INPUT B (both channels toggle together)');
-  s += `<image href="${ASSET}xtm4-rear-white.png" width="3419" height="679" style="pointer-events:none"/>`;
+  s += `<image href="${ASSET}${ART.png?'xtm4-rear-white.png':'xtm4-rear.svg'}" width="3419" height="679" preserveAspectRatio="none" style="pointer-events:none"/>`;
   if (!D.power) s += `<text x="1700" y="90" font-size="40" fill="#f88" text-anchor="middle">MAINS OFF</text>`;
   return s + `</svg>`;
 }
@@ -805,9 +817,9 @@ function frameRedraw(m, fn){ let last=0; SIM.on('frame', ts=>{ if ((bootPhase() 
 function viewSim(m){
   window.__xtm4Keys = true;
   m.innerHTML = `
-  ${card('Front panel at the playhead — what the operator sees', `<div id="fp"></div>${controlsHTML()}<div id="bootmsg" class="small" style="margin-top:4px"></div>`)}
+  ${card('Front panel at the playhead — what the operator sees (real CorelDRAW artwork)', `<div id="fp"></div>${artNote('front')}${controlsHTML()}<div id="bootmsg" class="small" style="margin-top:4px"></div>`)}
   <div class="grid2">
-    <div>${card('Rear panel — click a connector to patch it', `<div id="rp"></div><div style="margin-top:8px">${genHTML()}</div>
+    <div>${card('Rear panel — click a connector to patch it', `<div id="rp"></div>${artNote('rear')}<div style="margin-top:8px">${genHTML()}</div>
       <div style="display:flex;gap:6px;margin-top:8px;flex-wrap:wrap"><button id="demo">Demo: press UP at 0.200 s</button><button id="clrev">Clear the event</button><button id="fac">Factory defaults (blank EEPROM)</button></div>`)}</div>
     <div>${card('What the software did (last action)', `<div id="trace" class="log"></div>`)}${card('State at the playhead', `<div id="insp"></div>`)}</div>
   </div>
@@ -837,7 +849,7 @@ function viewSim(m){
     m.querySelector('#log').innerHTML = D.log.map(e=>`<div><b>${e.name}</b> <span class="muted">@ ${SIM.fmtT(e.t)}</span> → “${e.disp}”</div>`).join('') || '<div class="muted">No actions yet.</div>';
     SIM.drawLanes(m.querySelector('#tl'), lanes(), {labelW:200});
   };
-  bindControls(m); bindGen(m);
+  bindControls(m); bindGen(m); bindArt(m);
   m.querySelector('#demo').onclick = ()=>{ SIM.seek(0.2); const j=D.lastJump; D.lastJump=false; A.press('UP'); D.lastJump=j; SIM.seek(0.2); };
   m.querySelector('#clrev').onclick = ()=>{ D.ev=null; SCH_KEY=''; MS_KEY=''; SIM.refresh(); };
   m.querySelector('#fac').onclick = ()=>A.factory();
@@ -1138,6 +1150,7 @@ function viewNotes(m){
   window.__xtm4Keys = false;
   m.innerHTML = card('What the XTM4 firmware is up to — findings from the source', `
   <ol>
+    <li><b>Artwork ${SIM.year(2026)}: front and rear panels now from ${artSrc('FRONT')} and ${artSrc('REAR')} (both files Nov 9 2015; the rear sheet is dated MAY 15/15).</b> (a) The front GREEN plate is a solid green field round the display, buttons and jacks with the windows knocked out, plus the two rounded CHANNEL A / CHANNEL B meter frames and the SELECT SERIES bar; the WHITE plate carries MODE / SOURCE / DOWN / UP, CHA / CHB / AES / HDST and 0° … 180°. (b) The eight phase-LED holes between 0° and 180° are drawn on the sheet, at the pitch the simulator already used from the photo. (c) The rear is legended “115 VAC, 1 A S.B” — a 115 V-only rating. (d) The rear art has only the IEC, AES INPUT 75 Ω / 110 Ω, MONITOR OUTPUT A/B and ANALOG INPUT A/B holes plus the large DEMUX-4 plate cut-out: the OUTPUT 1/2 and SDI knock-outs drawn when no DEMUX-4 is fitted come from ${SIM.src(ART.DIR+'Pics/XTM4M2 (Rear).jpg','XTM4M2 (Rear).jpg')}, so that photo shows another issue. (e) Crosshairs mark only AES 110 Ω, MONITOR A and ANALOG B.</li>
     <li><b>The button names in the code are swapped against the panel, and the routine names match the panel.</b> <span class="mono">scan</span> in 42V400C.asm reads <span class="mono">portb,7</span> as “test dn button” into <span class="mono">scan0,0</span>, and <span class="mono">scan0,0</span> runs <span class="mono">anl1up</span> (level +1). <span class="mono">portb,0</span> is commented “source” but runs <span class="mono">anl1source</span>, which changes the <i>signal type</i>: the manual's MODE. The XTM4-2 netlist puts PB1→RB0, PB2→RB1, PB3→RB6 and PB4→RB7, and the panel reads MODE SOURCE DOWN UP from left to right. That PB order is ${inf}, but every behaviour in the manual matches it. The header comment “UP=PORTC,3 … SOURCE=PORTC,0” is left over from an older board.</li>
     <li><b>Holding MODE to reach SETUP also changes the source.</b> The press is debounced (64 passes, ≈22 ms) and handled by <span class="mono">anl1source</span>/<span class="mono">aes1source</span> long before <span class="mono">remember</span> has counted its 11 776 passes. SETUP then remembers the <i>new</i> mode (<span class="mono">temp2</span>), so you come back on the next signal type. The manual says only “press and hold the MODE button”.</li>
     <li><b>SETUP freezes the front panel.</b> Once “ SETUP ” is shown, <span class="mono">remember3</span> loops on <span class="mono">clrwdt</span> until MODE is released. No UART, no phase-meter A/D and no display refresh run during that time. The meters keep moving, because they are analog.</li>
@@ -1164,12 +1177,19 @@ function viewNotes(m){
     <li>…/code/xtm41/PIC VERSIONS/41v202/41v202.asm, init41.asm · 41v204/ONLY_DMS1 · …/code/XTM4 PROTOCOL.wpd</li>
     <li>…/PCB/XTM4-1/XTM4-1iss5.net · …/PCB/XTM4-2/XTM4-2iss4.net · SA-XTM4-1ISSUE4 - BOM/sa-xtm4-1issue4.xls</li>
     <li>…/MANUAL/xtm4man.pdf, xtm4peak.pdf, xtm4sdi.pdf · XTM4 - #TESTREPORT/*.pdf</li>
-    <li>XTM4 - #ARTWORK #DA #2016/XTM4M1-FRONT-SILK (CURVE).pdf, XTM4M2-REAR-SILK (CURVE).pdf, Pics/*.jpg</li>
+    <li>XTM4 - #ARTWORK #DA #2016/${artSrc('FRONT')}, ${artSrc('REAR')} (assets/xtm4-front.svg, xtm4-rear.svg), XTM4M1-FRONT-SILK (CURVE).pdf, XTM4M2-REAR-SILK (CURVE).pdf, Pics/*.jpg</li>
     <li>SA-DEMUX4 - #Master/…/Software/Demux4/Atmel/backup6/V010000/demux4.c</li></ul>`);
 }
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes: [{"text": "Artwork 2026|59: the front and rear panels are drawn from XTM4M1-FRONT-SILK (CURVE).cdr and XTM4M2-REAR-SILK (CURVE).cdr (files Nov 9 2015).", "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M1-FRONT-SILK (CURVE).cdr"},
+    {"text": "The rear sheet is dated MAY 15/15 on its title line, six months before the file date.", "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M2-REAR-SILK (CURVE).cdr"},
+    {"text": "The rear is legended “115 VAC, 1 A S.B”, a 115 V-only rating.", "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M2-REAR-SILK (CURVE).cdr"},
+    {"text": "The rear art has no OUTPUT 1/2 or SDI holes left of the DEMUX-4 cut-out; the rear photo shows them, so the photo is of another issue.", "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/Pics/XTM4M2 (Rear).jpg"},
+    {"text": "The eight phase-LED holes between 0° and 180° are on the front sheet, at the 32-pixel pitch the simulator had already measured from the photo.", "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M1-FRONT-SILK (CURVE).cdr"},
+    {"text": "Drill crosshairs on the rear mark only AES 110 Ω, MONITOR OUTPUT A and ANALOG INPUT B.", "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M2-REAR-SILK (CURVE).cdr"},
+    {"text": "The front and rear CURVE sheets are stored twice, byte-identical, in #ARTWORK #DA #2016 and in XTM4 - #Engineering/SILK.", "src": "XTM4 - #MASTER/XTM4 - #Engineering/SILK/XTM4M1-FRONT-SILK (CURVE).cdr"}],
   id:'xtm4', name:'XTM4 · Extended Range Test Meter ('+Y(2001)+')', duration:1,
   product:'XTM4', year:2001, family:'Select Series (test & measurement)',
   folder:'XTM4 - #MASTER',

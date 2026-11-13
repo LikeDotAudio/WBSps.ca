@@ -446,13 +446,39 @@ const A={
   slot(n){ act(`Move card to slot ${n}`, tr=>{ D.slot=n; tr('Even slots only in a DFR-8320 (the card takes two)'); }); },
   reset(){ Object.assign(D,{build:'CE300',in:mk(),gpi:[false,false],dip:[0,0,0,1,1,1,1,1],gains:[0,0,0],ce400sel:1,groups:4,dialnorm:false,rear:'T6301A',slot:1,log:[],canQ:[]}); SIM.refresh(); },
 };
-const RM={ T6301A:{name:'T6301A', sub:'CE manual: 1 SDI in, 2 SDI out, 4 AES out', note:'T6301A: one SDI input, two retimed SDI outputs with two embedded groups, four AES outputs (groups 1 and 2).', cells:[[1,'SDI IN','in'],[2,'SDI OUT 1','o'],[3,'AES OUT 1',0],[4,'SDI OUT 2','o'],[5,'AES OUT 2',1],[6,'AES OUT 3',2],[7,'AES OUT 4',3],[8,'NOT USED','nc'],[9,'NOT USED','nc'],[10,'NOT USED','nc']]},
-  T6307A:{name:'T6307A', sub:'CE manual: 3 AES out + metadata', note:'T6307A: one SDI input, two SDI outputs, three AES outputs and a metadata output.', cells:[[1,'SDI IN','in'],[2,'SDI OUT 1','o'],[3,'AES OUT 1',0],[4,'SDI OUT 2','o'],[5,'AES OUT 2',1],[6,'AES OUT 3',2],[7,'NOT USED','nc'],[8,'NOT USED','nc'],[9,'NOT USED','nc'],[10,'META DATA','m']]} };
-function rearSVG(){ const r=RM[D.rear], R=route();
-  return K.rearSVG({name:r.name, sub:r.sub, id:'positions inferred (the manual gives functions only)', cells:r.cells.map(([n,l,k])=>{ if(k==='in') return {n,label:l,id:'in',conn:L(),live:L()?true:undefined}; if (k==='o') return {n,label:l,live:L()?true:'err'}; if (k==='nc') return {n,label:l,kind:'nc'}; if (k==='m') return {n,label:l,kind:'tb',live:D.in.meta&&L()?true:'off'};
-    const pr=R.pairs[k]; return {n,label:l,live:pr&&!/Mute|mute|—|0 \(/.test(pr.src)?true:'err',title:pr?pr.src:''}; })}); }
-function edgeSVG(t){ const l=ledsAt(t); const names=['SD','HD','ERR','Audio 1','Audio 2','Audio 3','Audio 4','AES 1','AES 2','META DATA'], st=[l.sd,l.hd,l.err,...l.aud,0,0,l.meta], ys=[40,70,100,150,180,210,240,290,320,360];
-  return K.edgeSVG({label:'M6205C', maxw:260, note:'CE V3.00 manual LED table (AES 1/2 “reserved”)', leds:names.map((n,i)=>({name:n,c:i===2?'r':i>=3&&i<=6?'y':'g',on:st[i],y:ys[i]}))}); }
+/* ---- Artwork 2026|59: card edge and rear module from the archive's CorelDRAW drawings (assets/*.svg, cleaned by the
+   artwork pass). Jacks and LEDs are placed on the BNC / LED centres read from those SVGs; same data-jack hooks as the kit. */
+const LIVEC={true:'#2f8f46',warn:'#d9a21b',err:'#c0392b',off:'#7d8286'};
+function artRear(a, cells, cap){ const v=a.vb, r=a.r;
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:${a.maxw||280}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${a.name} rear module (archive drawing)">
+    <image href="${a.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  cells.forEach(c=>{ const i=c.n-1, cx=a.cols[i%2], cy=a.ys? a.ys[Math.floor(i/2)] : a.y0+Math.floor(i/2)*a.dy;
+    s+=`<g ${c.id?`class="og62-hot" data-jack="${c.id}" style="cursor:pointer"`:''}><title>${c.n}: ${c.label}${c.title?' — '+c.title:''}${c.id?(c.conn?' (click to unplug)':' (click to plug in)'):''}</title>
+      ${c.conn?(c.kind==='tb'?`<rect x="${cx+r*.6}" y="${cy-r*.9}" width="${r*1.2}" height="${r*.5}" rx="${r*.15}" fill="#2b5f9e"/><rect x="${cx+r*.6}" y="${cy+r*.4}" width="${r*1.2}" height="${r*.5}" rx="${r*.15}" fill="#2b5f9e"/>`
+        :`<rect x="${cx-r*.28}" y="${cy}" width="${r*.56}" height="${r*1.9}" fill="#2b5f9e"/><circle cx="${cx}" cy="${cy}" r="${r*.78}" fill="#3a74b8" opacity=".88"/>`):''}
+      ${c.live===undefined?'':`<circle cx="${cx+r*.95}" cy="${cy+r*.95}" r="${r*.2}" fill="${LIVEC[c.live]||LIVEC.off}" stroke="#222" stroke-width="${r*.03}"/>`}
+      <rect x="${cx-r*1.15}" y="${cy-r*1.15}" width="${r*2.3}" height="${r*2.3}" fill="transparent"/></g>`; });
+  return s+`</svg><div class="small muted" style="margin-top:2px">${cap||''}</div>`; }
+function artEdge(a, leds, label, cap){ const v=a.vb, lc={g:'#5dff5a', r:'#ff4a3d', y:'#ffd23a', a:'#ffb43a', b:'#59b6ff', w:'#f4f4ea'};
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:${a.maxw||170}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${label} card edge (archive drawing)">
+    <defs><filter id="${a.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${a.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  leds.forEach(l=>{ const on=!!l.on, col=lc[l.c]||l.c; s+=`<circle cx="${l.x||a.x}" cy="${l.y}" r="4.2" fill="${on?col:'#2c332c'}" fill-opacity="${on?1:.55}" ${on?`filter="url(#${a.fid})"`:''}><title>${l.name} LED${l.title?': '+l.title:''} (${on?'lit':'off'})</title></circle>`; });
+  return s+(a.extra||'')+`<text transform="translate(238.5 554.5) rotate(-90)" text-anchor="middle" font-size="9" font-weight="700" fill="#111">${label}</text></svg><div class="small muted" style="margin-top:2px">${cap||''}</div>`; }
+const M5DIR='#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/';
+const REAR_ART={ T6301A:{name:'T6301A', href:'siumulation-plugins/assets/m6205c-rear-t6301a.svg', vb:[287,293,267.5,348], cols:[383.2,443.3], y0:365.47, dy:59.8, r:18.7, src:()=>SIM.src(M5DIR+'CUSTOM/M6205CE300/M6205CE300-IO.cdr','CUSTOM/M6205CE300/M6205CE300-IO.cdr')+' (2010-10-14)'},
+  T6307A:{name:'T6307A', href:'siumulation-plugins/assets/m6205-rear-t6307.svg', vb:[262,328,274,348], cols:[359.86,419.86], ys:[400.5,460.5,520.5,580.5,639.7], r:18.7, src:()=>SIM.src(M5DIR+'PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr','PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr')+' (2008-11-17; no CE-specific T6307 drawing)'} };
+const EDGE_ART={href:'siumulation-plugins/assets/m6205-edge.svg', vb:[58,168,204,418], x:243.8, fid:'m65cGlow', ys:[189.2,217.4,248.3,295.3,319.2,343.4,367.2,401.4,425.1,468.3], src:()=>SIM.src(M5DIR+'M6205-card-edge-v10.cdr','M6205-card-edge-v10.cdr')+' (2008-10-30)'};
+[EDGE_ART.href, ...Object.values(REAR_ART).map(a=>a.href)].forEach(u=>{ const im=new Image(); im.src=u; });   // warm the image cache: panels are redrawn every tick
+/* Positions as drawn (Artwork 2026|59): T6301A from M6205CE300-IO.cdr, T6307A from the M6205 T6307 drawing. */
+const RM={ T6301A:{name:'T6301A', sub:'M6205CE300-IO.cdr', note:'T6301A (M6205CE300-IO.cdr): SDI IN on 1, GPIO on 2, AES OUT1–4 on 3–6, 7 and 8 not used, SDI OUT1/2 on 9/10.', cells:[[1,'SDI IN','in'],[2,'GPIO','g0'],[3,'AES OUT1 (L/R or Embd PCM1)',0],[4,'AES OUT2 (C/LFE or Mute)',1],[5,'AES OUT3 (Ls/Rs or Mute)',2],[6,'AES OUT4 (StL/StR or Embd PCM1)',3],[7,'NOT USED','nc'],[8,'NOT USED','nc'],[9,'SDI OUT1','o'],[10,'SDI OUT2','o']]},
+  T6307A:{name:'T6307A', sub:'M6205-T6307.cdr', note:'T6307A (M6205-T6307.cdr): SDI IN, GPI/O1 and GPI/O2 blocks, AES OUT1 (L,R), BNC4 (C,LFE), AES OUT2 (Ls,Rs), META DATA block, AES IN1, SDI OUT1/2.', cells:[[1,'SDI IN','in'],[2,'GPI/O1','g0','tb'],[3,'AES OUT1 (L, R)',0],[4,'BNC4 (C, LFE)',1],[5,'AES OUT2 (Ls, Rs)',2],[6,'META DATA','m'],[7,'AES IN1','nc'],[8,'GPI/O2','g1','tb'],[9,'SDI OUT1','o'],[10,'SDI OUT2','o']]} };
+function rearSVG(){ const r=RM[D.rear], R=route(), a=REAR_ART[D.rear];
+  return artRear(a, r.cells.map(([n,l,k,kind])=>{ if(k==='in') return {n,label:l,id:'in',conn:L(),live:L()?true:undefined}; if (k==='o') return {n,label:l,live:L()?true:'err'}; if (k==='nc') return {n,label:l,title:'not used by the CE builds'};
+    if (k==='m') return {n,label:l,kind:'tb',live:D.in.meta&&L()?true:'off'}; if (k==='g0'||k==='g1'){ const g=+k[1]; return {n,label:l,kind:kind||'bnc',id:k,conn:D.gpi[g],title:'GPI'+(g+1)+' contact '+(D.gpi[g]?'closed':'open')}; }
+    const pr=R.pairs[k]; return {n,label:l,live:pr&&!/Mute|mute|—|0 \(/.test(pr.src)?true:'err',title:pr?pr.src:''}; }), `${a.name}: ${a.src()}`); }
+function edgeSVG(t){ const l=ledsAt(t); const names=['SD','HD','ERR','AUDIO 1','AUDIO 2','AUDIO 3','AUDIO 4','AES 1','AES 2','META DATA'], st=[l.sd,l.hd,l.err,...l.aud,0,0,l.meta];
+  return artEdge(EDGE_ART, names.map((n,i)=>({name:n,c:i===2?'r':i>=3&&i<=6?'y':'g',on:st[i],y:EDGE_ART.ys[i],title:i===7||i===8?'reserved in the CE V3.00 manual':''})), 'M6205C', 'Card edge: '+EDGE_ART.src()); }
 function dashHTML(){ const b=B[D.build], R=route(), f=D.in.fmt, l=L();
   const info={name:'Card Info',rows:[{type:'text',label:'Product',value:b.product},{type:'text',label:'Name',value:b.name},{type:'text',label:'Supplier',value:'Ward-Beck Systems'},{type:'text',label:'Software Rev',value:b.rev},{type:'text',label:'Website',value:'www.ward-beck.com'}]};
   const sdi={type:'status',label:'SDI',value:l?f:'Unlocked',level:l?'ok':'err'}, emb={type:'text',label:'Embedded Audio',value:l?chStr():'---- ---- ---- ----'};
@@ -472,7 +498,7 @@ function ctlHTML(){ const sel=(x,o,v)=>`<select data-x="${x}">${o.map(([a,b])=>`
 function dipSVG(){ let s=`<svg viewBox="0 0 560 104" style="width:100%;max-width:560px"><rect x="10" y="8" width="300" height="62" rx="4" fill="#c0392b"/><text x="16" y="21" font-size="10" fill="#fff">ON ▲  DIP (CE V3.00 manual)</text>`;
   D.dip.forEach((v,i)=>{ const x=22+i*36; s+=`<g data-dip="${i}" style="cursor:pointer"><title>SW${i+1} ${v?'OFF':'ON'}</title><rect x="${x}" y="27" width="22" height="38" rx="2" fill="#f2f2ee"/><rect x="${x+3}" y="${v?47:30}" width="16" height="15" fill="#222"/><text x="${x+11}" y="84" font-size="11" text-anchor="middle" fill="var(--ink)">${i+1}</text></g>`; });
   return s+`<text x="322" y="22" font-size="10.5" fill="var(--ink2)">1–2 groups (MSB/LSB) · 3 decoder enable</text><text x="322" y="38" font-size="10.5" fill="var(--ink2)">4 HD audio clock · 5 PCM delay · 6 dialnorm</text><text x="322" y="54" font-size="10.5" fill="var(--ink2)">7–8 reserved</text><text x="10" y="100" font-size="10.5" fill="var(--accent)">${groupsEn()} groups · decoder ${on(2)?'enabled':'disabled'} · ${on(3)?'clock phase one':'video lock'} · PCM delay ${on(4)?'on':'off'} · dialnorm ${on(5)?'on':'off'}</text></svg>`; }
-function bindAll(r){ K.bind(r,{jack:{in:()=>A.plug()}, slot:n=>A.slot(n), dash:(id,v)=>A.dash(id,v)}); r.querySelectorAll('[data-dip]').forEach(g=>g.addEventListener('click',()=>A.dip(+g.dataset.dip)));
+function bindAll(r){ K.bind(r,{jack:{in:()=>A.plug(), g0:()=>A.gpi(0), g1:()=>A.gpi(1)}, slot:n=>A.slot(n), dash:(id,v)=>A.dash(id,v)}); r.querySelectorAll('[data-dip]').forEach(g=>g.addEventListener('click',()=>A.dip(+g.dataset.dip)));
   r.querySelectorAll('[data-x]').forEach(el=>{ const x=el.dataset.x, f=()=>{ if(x==='build')A.build(el.value); else if(x==='plug')A.plug(); else if(x==='fmt')A.fmt(el.value); else if(x==='rear')A.rear(el.value); else if(x==='reset')A.reset(); else if(x==='meta')A.meta(); else if(x==='acmod')A.acmod(el.value); else if(x==='ext')A.ext(); else if(x==='loro')A.loro(); else if(x==='g0')A.gpi(0); else if(x==='g1')A.gpi(1); else if(x[0]==='p')A.pair(+x.slice(1),+el.value); }; if(el.tagName==='BUTTON') el.onclick=f; else el.onchange=f; }); }
 function lanes(){ const css=SIM.css, f=H8.F[D.in.fmt], l=L(), ls=[], R=route();
   ls.push(H8.frameLane(f,!l)); ls.push(H8.lineLane(f,!l)); ls.push(H8.hancLane(f,groupsEn(),!l));
@@ -531,18 +557,45 @@ function viewSoft(m){ m.innerHTML=`<div class="grid2"><div>${card('Active rule s
     m.querySelector('#flow').innerHTML=L()?H8.flowSVG(st,Math.max(0,R.branch)):H8.flowSVG(['SDI unlocked'],0,true); };
   SIM.on('time', draw); }
 const FINDINGS=[
+  `<b>Artwork 2026|59: rear modules and card edge now from the CorelDRAW files.</b> T6301A: ${REAR_ART.T6301A.src()}; T6307A: ${REAR_ART.T6307A.src()}; card edge: ${EDGE_ART.src()}. The CE300 drawing fixes the T6301A positions this model used to guess: SDI OUT1/2 are on 9/10 (not 2/4), GPIO is on 2, AES OUT1–4 are 3–6 and 7/8 are unused. It also spells out the per-output choices (“L/R or Embd PCM1”, “C/LFE or Mute”, “Ls/Rs or Mute”, “StL/StR or Embd PCM1”) — the same switch the rule sets make. The CE400/C500/C600 drawings in CUSTOM/ use the same T6301 grid with other labels; the C600 one (${SIM.src(M5DIR+'CUSTOM/M6205C600/V1.0.0.0/M6205C600-T6301.cdr','M6205C600-T6301.cdr')}) marks only SDI IN, AES OUT1–4 and SDI OUT1/2.`,
   `<b>Every sales screenshot shows a dead card.</b> C200, C500, C600 and CE400 were captured with “Card state: SDI Unlocked” (CE400: “Dolby Decoding Error”) and empty metadata fields; only C100 and CE300 show a locked HD 1080i/59.94 input with “PPPP PPPP PPPP PPPP”.`,
   `<b>The C200 calls itself “M6205C”.</b> Its Card Info product string is “M6205C”, software 2.04; the firmware README calls the build “M6205A-C200”. The other builds report their full build number.`,
   `<b>Name drift.</b> The CE manual gives the Card Info name as “MD-SDI Embedded Audio Processor with VANC Detection”; the CE300 screenshot says “… w/ Dolby E/AC-3 Decoding”, and CE400 “… w/ Dolby Decoding”.`,
   `<b>MetaData Delay is undocumented.</b> The CE300 Status screenshot shows “MetaData Delay 7 Frames”; the manual’s Settings list has only Dialnorm and PCM Delay.`,
   `<b>Manual LED table collides.</b> AES 1 and META DATA are both “eighth from the top”; AES 1 / AES 2 are “Reserved”.`,
   `<b>SW3 text vs tables.</b> The manual says Dolby Decoder Enable “swaps embedded channels 8–16 with Dolby decoder outputs”; its own tables show the decoder outputs on group 1 AES1/AES2 and group 2 AES1, and say groups 3 and 4 are not active.`,
-  `<b>Rear-module grammar.</b> The manual: “Two variations of the rear module are offered. The T6301A and T6307A are for use with the twenty slot DFR8320 frame. The T6301A and T6307A is for use with a single card and requires two slots” — so the card always uses even slots. Positions are not given.`,
+  `<b>Rear-module grammar.</b> The manual: “Two variations of the rear module are offered. The T6301A and T6307A are for use with the twenty slot DFR8320 frame. The T6301A and T6307A is for use with a single card and requires two slots” — so the card always uses even slots. Positions are not given in the manual; the M6205CE300-IO.cdr drawing gives them (first finding).`,
   `<b>Copied comments in the rules.</b> ControlIO.doc’s C200 metadata branch labels “AES out4 = AES in4” as “create DV” and “out6 = in6” as “Dolby E” — comments carried from the branches above.`,
   `<b>Empty DTS skeletons.</b> “M6205C400DTS” and “M6205CE300DTS” folders (names ending in spaces) hold only empty Atmel/Altera/“nab 08” folders: DTS versions were planned for NAB 2008 but nothing survives.`];
-const ASSUME=['Rear position numbers for T6301A/T6307A '+inf('the manual lists functions, not positions'),'C500: which embedded pairs the external inputs replace '+inf('screens show AES 1 / AES 2 only'),'Metadata packet one per frame '+inf('SMPTE 2020 practice'),'CE400 output mapping as CE300 '+inf('same manual family'),'C100 GPI2 “mono program on 8 to 1 and 2” read as channel 8 → channels 1 and 2 '+inf('wording')];
+const ASSUME=['C500: which embedded pairs the external inputs replace '+inf('screens show AES 1 / AES 2 only'),'Metadata packet one per frame '+inf('SMPTE 2020 practice'),'CE400 output mapping as CE300 '+inf('same manual family'),'C100 GPI2 “mono program on 8 to 1 and 2” read as channel 8 → channels 1 and 2 '+inf('wording')];
 const SOURCES=['#OPENGEAR #SERIES/M6205C - #Master #OPENGEAR/M6205CE V300 MANUAL WORKINGl  #Manual .doc','#OPENGEAR #SERIES/M6205C - #Master #OPENGEAR/M6205C100 … M6205C600, M6205CE300, M6205CE400 sales folders: 16 DashBoard JPGs (redrawn, not copied)',SWF+'README.md (build table, SYNC header, SHARC role)',SWF+'M6205c ControlIO.doc, M6205 Operational Info May20,2009.doc',SWF+'m6205c300/atmel/v200/Dashboard.c (string list)'];
-SIM.register({ id:'m6205c', product:'M6205C', name:'M6205C · customer builds of the MD-SDI embedded audio processor, openGear: sales and manual (2008|41)', year:2008,
+const FOOTNOTES = [
+ {
+  "text": "Rear and card-edge artwork (2026|59): CUSTOM/M6205CE300/M6205CE300-IO.cdr (2010-10-14) for the T6301A, the M6205 T6307 drawing for the T6307A, M6205-card-edge-v10.cdr for the edge.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205CE300/M6205CE300-IO.cdr"
+ },
+ {
+  "text": "The CE300 drawing puts SDI OUT1/2 on 9/10 and GPIO on 2; the model had guessed 2 and 4 for the SDI outputs.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205CE300/M6205CE300-IO.cdr"
+ },
+ {
+  "text": "The CE300 drawing offers “Embd PCM1” on two outputs: AES OUT1 (L/R or Embd PCM1) and AES OUT4 (StL/StR or Embd PCM1).",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205CE300/M6205CE300-IO.cdr"
+ },
+ {
+  "text": "The CE300 folder’s backup is named Backup_of_M6205C300-IO.cdr — C300, not CE300.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205CE300/Backup_of_M6205C300-IO.cdr"
+ },
+ {
+  "text": "There is no CE-specific T6307A drawing; the T6307A positions come from the generic M6205 T6307 drawing.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr"
+ },
+ {
+  "text": "The C600 drawing reuses the T6301 grid with AES OUT4 as “Lt / Rt” and BNC 2, 7, 8 not used.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205C600/V1.0.0.0/M6205C600-T6301.cdr"
+ }
+];
+SIM.register({footnotes:FOOTNOTES,  id:'m6205c', product:'M6205C', name:'M6205C · customer builds of the MD-SDI embedded audio processor, openGear: sales and manual (2008|41)', year:2008,
   folder:'#OPENGEAR #SERIES/M6205C - #Master #OPENGEAR', family:'openGear',
   summary:'The M6205C/CE builds are the M6205 SDI audio processor with one firmware per customer: metadata downmix (C100), described-video mix (C200), Dolby decoding (CE300/CE400), external AES embedding (C500) and plain re-embedding (C600). This folder holds DashBoard screenshots and the CE V3.00 manual; the model switches builds and follows their routing rules.',
   highlights:['Six builds, each with its DashBoard redrawn from the screenshots','C100 and C200 audio switching rules, live','CE300 Dolby detected / not detected tables','What the screenshots and manual give away'],

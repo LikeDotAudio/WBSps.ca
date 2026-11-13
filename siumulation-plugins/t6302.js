@@ -722,6 +722,32 @@ const ASSET = 'siumulation-plugins/assets/';
    white silk. view/plate in inches; pos = connector centres from the drawing, inches from the plate's top-left corner;
    iso = BNCs the drawing shades grey (isolated-shell positions). */
 const CDR_ART = {"iss3":{"file":"t6302-rear.svg","src":"#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302-iss2.cdr","label":"T6302-iss2.cdr","date":"5 Mar 2007","view":[2.354,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.223,0.494],"2":[0.848,0.494],"3":[0.222,1.116],"4":[0.847,1.116],"5":[0.222,1.741],"6":[0.847,1.741],"7":[0.203,2.368],"8":[0.867,2.368],"9":[0.208,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"BNC3","4":"BNC4","5":"BNC5","6":"BNC6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[1,2]},"iss2":{"file":"t6302-rear.svg","src":"#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302-iss2.cdr","label":"T6302-iss2.cdr","date":"5 Mar 2007","view":[2.354,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.223,0.494],"2":[0.848,0.494],"3":[0.222,1.116],"4":[0.847,1.116],"5":[0.222,1.741],"6":[0.847,1.741],"7":[0.203,2.368],"8":[0.867,2.368],"9":[0.208,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"BNC3","4":"BNC4","5":"BNC5","6":"BNC6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[1,2]},"iss1":{"file":"t6302-rear-iss1.svg","src":"#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302.cdr","label":"T6302.cdr","date":"15 Jan 2007","view":[2.375,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.223,0.494],"2":[0.848,0.494],"3":[0.222,1.116],"4":[0.847,1.116],"5":[0.222,1.741],"6":[0.847,1.741],"7":[0.203,2.368],"8":[0.867,2.368],"9":[0.208,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"BNC3","4":"BNC4","5":"BNC5","6":"BNC6","7":"AES4","8":"AES8","9":"BNC9","10":"BNC10"},"iso":[1,2]}};
+const FOOTNOTES = [
+{
+"text": "T6302-iss2.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+"src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302-iss2.cdr"
+},
+{
+"text": "T6302-iss2.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+"src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302-iss2.cdr"
+},
+{
+"text": "ISS3 (Gerbers Feb 2009) has no sheet of its own; the ISS2 sheet (Mar 2007) draws its rows 0.04″ lower than the ISS3 board.",
+"src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302-iss2.cdr"
+},
+{
+"text": "The ISS1 sheet puts AES4/AES8 on blocks 7/8 and BNC9/BNC10 as unbalanced pairs on blocks 9/10; ISS2 relabels the four blocks AES3/AES7 and AES4/AES8.",
+"src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302.cdr"
+},
+{
+"text": "Both sheets shade BNC1/BNC2 grey as isolated shells, matching the netlists.",
+"src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302.cdr"
+},
+{
+"text": "T6302.cdr and T6302-iss2.cdr are each stored twice: in #ENGINEERING and T6302 - #ARCHIVE.",
+"src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302 - #ARCHIVE/T6302-iss2.cdr"
+}
+];
 function cdrArt(){ return S.view==='cdr' ? (CDR_ART[S.issue]||null) : null; }
 function cdrXY(p, art){ return art && art.pos[p.n] ? art.pos[p.n] : [p.x, p.y]; }
 function cdrCaption(art){ return 'CorelDRAW art: '+SIM.src(art.src, art.label)+' ('+art.date+')'; }
@@ -1295,6 +1321,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:FOOTNOTES,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

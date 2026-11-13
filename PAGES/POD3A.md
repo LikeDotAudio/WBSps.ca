@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD3A](../siumulation.html?plugin=pod3a) · [simulator & front panel](../simulator.html?m=POD3A) · [KiCad symbol generator](../kicad.html?m=POD3A) · [download package (zip)](../_packages/POD3A.zip) |
+| Try it | [full simulation: POD3A](../siumulation.html?plugin=pod3a) · [KiCad symbol generator](../kicad.html?m=POD3A) · [download package (zip)](../_packages/POD3A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD3A MANUAL(1).docx |
 | Confidence | medium |
@@ -93,53 +93,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD3A - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD3A - MANUAL (2).docx](../Products/PODS/POD3A/2014%20-%20POD3A%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD3A",
- "name": "Analog Stereo Loudness Meter",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD3A/2014 - POD3A - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD3A/2014 - POD3A - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD3A/2014 - POD3A - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD3A/2014 - POD3A - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD3A/2014 - POD3A - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The panel artwork POD3A-FRONT&amp;REAR-SILK (CURVE).cdr is stored twice, byte for byte: in #ARTWORK #DA #2016 and in #Engineering/SILK. — `#POD #SERIES/POD3A - #Master/POD3A - #Engineering/SILK/POD3A-FRONT&REAR-SILK (CURVE).cdr`
+2. The front plates draw no outline for the LED window or the phase column; only the scale numbers place them, so the simulator takes the LED rows from the photo. — `#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3A-FRONT&REAR-SILK (CURVE).cdr`
+3. POD3-SILK-NEW.cdr (21 Sep 2006) is an older live-text version of the same POD-3A legend, eight years before the curve sheet. — `#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3-SILK-NEW.cdr`
+4. The rear "+ - G" terminal legend is printed once, rotated beside the R input; the L input has none of its own. — `#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3A-FRONT&REAR-SILK (CURVE).cdr`
+5. The sheet prints the DIP legend OFF above ON, while the switch body in the photo has its ON at the top. — `#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/Pics/POD3A Rear.jpg`

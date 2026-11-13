@@ -620,45 +620,42 @@ function cardSVG(t, opts){
   else if (sn.mode==='wdt') s+=`<text x="120" y="350" font-size="20" fill="#ff8a7a">stuck in while (error0 == YES) — watchdog about to bite</text>`;
   return s+'</svg>';
 }
-/* Card edge: M6206-card-edge.cdr (Inkscape): SD, HD, ERR · AES1–4 with Dolby 1–4 beside them · COM Activity, Voice OVER */
+/* ---- Artwork 2026|59: card edge and rear modules are the archive's CorelDRAW drawings (assets/m6206-*.svg, from the
+   CorelDRAW PDF export / LibreOffice rendering of the .cdr). LEDs and jacks sit on the lens / BNC centres read from those SVGs. */
+const ART_DIR='#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/';
+const EDGE_ART={href:ASSET+'m6206-edge.svg', vb:[86,168,324,418], x:243.8, xd:255.75, ys:{0:189.2,1:217.4,2:248.3,3:295.3,4:319.2,5:343.4,6:367.2,7:295.3,8:319.2,9:343.4,10:367.2,11:442.2,12:468.3},
+  src:()=>SIM.src(ART_DIR+'M6206-card-edge.cdr','M6206-card-edge.cdr')+' (2008-05-08)'};
+const REAR_ART={
+  T6304:{href:ASSET+'m6206-rear-t6304.svg', vb:[262,326,274,350], src:()=>SIM.src(ART_DIR+'M6206A-T6304.cdr','M6206A-T6304.cdr')+' (2007-08-21; CorelDRAW’s own PDF of it)'},
+  T6305:{href:ASSET+'m6206-rear-t6305.svg', vb:[262,328,274,348], src:()=>SIM.src(ART_DIR+'M6206A-T6305.cdr','M6206A-T6305.cdr')+' (2007-08-21)'} };
+const RCOLS=[359.86,419.86], RROWS=[400.5,460.5,520.5,580.5,640.5], RR=18.7;
+[EDGE_ART.href, ...Object.values(REAR_ART).map(a=>a.href)].forEach(u=>{ const im=new Image(); im.src=u; });   // warm the image cache: panels are redrawn every tick
 function edgeSVG(t){
-  const L=snapAt(t).leds; const rows=[[0,22],[1,44],[2,68],[3,104],[4,124],[5,144],[6,164],[11,212],[12,234]];
-  let s=`<svg viewBox="0 0 190 260" style="width:100%;max-width:190px;display:block"><rect width="190" height="260" rx="8" fill="var(--dev)"/>
-   <defs><filter id="m6Glow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-   <rect x="86" y="10" width="12" height="236" fill="#121513" stroke="#333"/>`;
-  rows.forEach(([i,y])=>{ const on=(L>>i)&1; s+=`<rect x="87" y="${y-5}" width="10" height="10" rx="2" fill="${on?LED_COL(i):'#2b2f2c'}" ${on?'filter="url(#m6Glow2)"':''}/><text x="80" y="${y+4}" font-size="11" text-anchor="end" fill="#e6e6e6">${LED_NAMES[i]}</text>`; });
-  [7,8,9,10].forEach((i,k)=>{ const y=104+k*20, on=(L>>i)&1; s+=`<rect x="103" y="${y-5}" width="10" height="10" rx="2" fill="${on?LED_COL(i):'#2b2f2c'}" ${on?'filter="url(#m6Glow2)"':''}/><text x="118" y="${y+4}" font-size="11" fill="#e6e6e6">${k+1}</text>`; });
-  s+=`<text x="134" y="138" font-size="11" fill="#e6e6e6">DOLBY</text><text x="95" y="256" font-size="8.5" text-anchor="middle" fill="#8a8f8c">card edge (M6206-card-edge.cdr)</text></svg>`;
-  return s;
+  const L=snapAt(t).leds, E=EDGE_ART, v=E.vb;
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:260px;display:block;border-radius:6px" role="img" aria-label="M6206A card edge (M6206-card-edge.cdr)">
+   <defs><filter id="m6Glow2" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+   <image href="${E.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  LED_NAMES.forEach((n,i)=>{ const on=(L>>i)&1, x=(i>=7&&i<=10)? E.xd : E.x;
+    s+=`<circle cx="${x}" cy="${E.ys[i]}" r="${i>=7&&i<=10?3.6:4.2}" fill="${on?LED_COL(i):'#2c332c'}" fill-opacity="${on?1:.55}" ${on?'filter="url(#m6Glow2)"':''}><title>${n}${on?' — on':' — off'}</title></circle>`; });
+  return s+`<text transform="translate(238.5 554.5) rotate(-90)" text-anchor="middle" font-size="9" font-weight="700" fill="#111">M6206A</text></svg><div class="small muted" style="margin-top:2px">Card edge: ${E.src()}</div>`;
 }
-/* Rear module — panel and grid as the openGear T6302 DXF (1.31 × 3.34 in) used by opengear.js; labels from the T6304/T6305 drawings */
 function rearSVG(t){
-  const w=worldAt(t), sn=snapAt(t), RM=rearDef(w), o=outLevels(t);
-  const S=100, X=x=>(x-8.047)*S+10, Y=y=>(21.063-y)*S+10, colX=[8.507,9.132], rowY=[20.569,19.944,19.319,18.695,18.070];
-  let s=`<svg viewBox="0 0 151 364" role="img" aria-label="${RM.name}" style="width:100%;max-width:240px;display:block">
-   <rect x="10" y="10" width="131" height="334" rx="3" fill="#c9ccd0" stroke="#7a7f85"/><text x="75" y="26" font-size="9" font-weight="700" text-anchor="middle" fill="#1b1d20">${w.rear}</text>`;
+  const w=worldAt(t), sn=snapAt(t), RM=rearDef(w), o=outLevels(t), R=REAR_ART[w.rear], v=R.vb, r=RR;
+  let s=`<svg viewBox="${v.join(' ')}" role="img" aria-label="${RM.name}" style="width:100%;max-width:240px;display:block;border-radius:6px">
+   <image href="${R.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
   RM.pos.forEach((p,i)=>{
-    const col=i%2, row=Math.floor(i/2), cx=X(colX[col]), cy=62+row*60; const [lab,kind,role]=p;
+    const cx=RCOLS[i%2], cy=RROWS[i>>1]; const [lab,kind,role]=p;
     const key={sdiin:'sdi',voin:'voIn',gpio1:'gpi1',gpio2:'gpi2'}[role];
     let conn = role==='sdiin'? w.sdi : role==='voin'? w.voIn : role==='gpio1'? w.gpi1 : role==='gpio2'? w.gpi2 : false;
     const out = {aes1:o.aes1L, aes2:o.aes2C, aes3:null, aes4:o.aes4A}[role];
     const live = role==='sdiout'? sn.CD : role==='meta'? (sn.dolby&&sn.a2>=2) : role.startsWith('aes')? (sn.mode==='run' && sn.ai && (out!==null && out>-100 || role==='aes3' && sn.a2>=2)) : role==='gpio1'? sn.gpo1 : role==='gpio2'? sn.gpo2 : false;
-    if (kind==='bnc'){
-      s+=`<g ${key?`class="m6-jack" data-j="${key}" style="cursor:pointer"`:''}><circle cx="${cx}" cy="${cy}" r="19" fill="#b9a160" stroke="#6b5a25"/><circle cx="${cx}" cy="${cy}" r="12" fill="#e2d39b"/><circle cx="${cx}" cy="${cy}" r="4" fill="#6b5a25"/>
-        ${conn?`<circle cx="${cx}" cy="${cy}" r="15" fill="#2b5f9e" opacity=".85"/><rect x="${cx-5}" y="${cy}" width="10" height="22" fill="#2b5f9e"/>`:''}
-        ${role!=='nc' && !key?`<circle cx="${cx+15}" cy="${cy-15}" r="3.2" fill="${live?'var(--accent)':'#888'}"/>`:''}
-        <rect x="${cx-22}" y="${cy-22}" width="44" height="44" fill="transparent"><title>${i+1} ${lab} (P1-${p[3]})${key?' — click to '+(conn?'unplug':'plug in'):''}</title></rect></g>`;
-    } else {
-      const pins=[0,1,2].map(k=>`<rect x="${cx-7}" y="${cy-21+k*14.8}" width="14" height="11" fill="#1d7a40" stroke="#0b4b26"/><circle cx="${cx}" cy="${cy-15.5+k*14.8}" r="3" fill="#0b2b16"/>`).join('');
-      s+=`<g ${key?`class="m6-jack" data-j="${key}" style="cursor:pointer"`:''}><rect x="${cx-11}" y="${cy-24}" width="22" height="48" fill="#24944d" stroke="#0b4b26"/>${pins}
-        ${conn?`<path d="M${cx+11} ${cy-15} h10 M${cx+11} ${cy+15} h10" stroke="#2b5f9e" stroke-width="4"/>`:''}
-        <circle cx="${cx-15}" cy="${cy-21}" r="3.2" fill="${live?'var(--accent)':'#888'}"/>
-        <rect x="${cx-24}" y="${cy-26}" width="48" height="52" fill="transparent"><title>${i+1} ${lab} (P1-${p[3]})${key==='gpi1'?' — click: close/open the contact':key==='gpi2'?' — click: tap the contact (250 ms)':''}</title></rect></g>`;
-    }
-    s+=`<text x="${col? cx+22 : cx-22}" y="${cy+31}" font-size="7" text-anchor="${col?'end':'start'}" fill="${role==='nc'?'#7c8186':'#1b1d20'}" font-weight="700">${i+1} ${lab}</text>`;
+    s+=`<g ${key?`class="m6-jack" data-j="${key}" style="cursor:pointer"`:''}>`;
+    if (kind==='bnc') s+= conn?`<rect x="${cx-r*.28}" y="${cy}" width="${r*.56}" height="${r*1.9}" fill="#2b5f9e"/><circle cx="${cx}" cy="${cy}" r="${r*.78}" fill="#2b5f9e" opacity=".85"/>`:'';
+    else s+= conn?`<path d="M${cx+r*.55} ${cy-r*.6} h${r*1.1} M${cx+r*.55} ${cy+r*.6} h${r*1.1}" stroke="#2b5f9e" stroke-width="${r*.3}"/>`:'';
+    if (role!=='nc' && !(key && kind==='bnc')) s+=`<circle cx="${cx+r*.95}" cy="${cy+r*.95}" r="${r*.2}" fill="${live?'var(--accent)':'#888'}" stroke="#222" stroke-width=".6"/>`;
+    s+=`<rect x="${cx-r*1.15}" y="${cy-r*1.2}" width="${r*2.3}" height="${r*2.4}" fill="transparent"><title>${i+1} ${lab} (P1-${p[3]})${key==='gpi1'?' — click: close/open the contact':key==='gpi2'?' — click: tap the contact (250 ms)':key?' — click to '+(conn?'unplug':'plug in'):''}</title></rect></g>`;
   });
-  s+=`<text x="75" y="356" font-size="6" text-anchor="middle" fill="#55595f">ID ${RM.id} · EMBEDDED AUDIO PROCESSOR</text></svg>`;
-  return s;
+  return s+`</svg><div class="small muted" style="margin-top:2px">${w.rear}: ${R.src()} · ${RM.src} · ID ${RM.id}</div>`;
 }
 /* Voice-over control panel (M6206-CONTROL PANELiss2 Model (1).pdf): 1RU, ten buttons, GPI/O 1-5 and 6-10 on DB25s */
 function panelSVG(t){
@@ -1089,6 +1086,7 @@ function fwLike(sn){ return {sdi_format:sn.fmt, aes1_lock:sn.a1, aes2_lock:sn.a2
 function viewNotes(m){
   window.__m6206Active = false;
   const F=[
+    ['Artwork 2026|59: card edge and rear modules now from the CorelDRAW files', `Card edge: ${EDGE_ART.src()}; T6304: ${REAR_ART.T6304.src()}; T6305: ${REAR_ART.T6305.src()}. Inkscape’s CDR import drops the BNC drawings of these 2007 files, so the panels use CorelDRAW’s own PDF (T6304) and the archive’s LibreOffice rendering (T6305) of the same .cdr. The edge drawing puts the four Dolby LEDs beside AES1–4 (as LED pairs), COM Activity and Voice OVER at the bottom. The two modules differ only at 8: T6304 has a GPI/O 2 terminal block there, T6305 an unused BNC — so a T6305 card cannot take the GPI2 (tap) input.`],
     ['The manual’s DIP table is not what the code reads', 'Manual p. 4: SW1 override, SW2/3 group 1, SW4/5 group 2, SW7/8 voice-over mix. <span class="mono">PROCESS_DIP_SWITCHES()</span> (M6206A.c) uses ALTERA13 bits 7/6 = <b>SW1/SW2 for the group</b>, bit 1 = <b>SW7 “Allow Parameter Adjustment”</b>, bit 0 = <b>SW8 “Save Parameter Default”</b>; the Altera bit order follows from shifter_out_48bit.vhd (LSB first) and read_data2() (MSB first).'],
     ['Mode 1 does not exist in v1.04', '<span class="mono">PROCESS_DIP_SWITCHES()</span> sets <span class="mono">pod31_mode = YES</span>, <span class="mono">auto_swap = YES</span> and <span class="mono">audio2 = audio1</span> every pass, so the card is always in “Mode 2” with both group selectors on the same group, even without a CAT552 (main() sets pod31_mode from Dolby_card_installed, then it is overwritten).'],
     ['The CAT552 always gets the second pair', '<span class="mono">ALTERA_TRANSLATE_UART0()</span> hard-codes <span class="mono">cat_input1 = NO2 − NO1</span> (= 1) and <span class="mono">pcm_mode = NO</span>; the “AES1 first, then AES2” search and the PCM fall-back rules 3 and 4 of the manual sit in a commented-out block. Which embedded pair “1” selects is '+infT('CAT552_switch.vhd truth table: sel1 = 0, sel0 = 1 → AUD1_2')+'.'],
@@ -1121,7 +1119,33 @@ if (!window.__m6206KeysBound){ window.__m6206KeysBound=true;
 
 /* ---------------- register ---------------- */
 resetAll();
-SIM.register({
+const FOOTNOTES = [
+ {
+  "text": "Card-edge and rear artwork (2026|59): M6206-card-edge.cdr (2008-05-08), M6206A-T6304.cdr and M6206A-T6305.cdr (both 2007-08-21).",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206-card-edge.cdr"
+ },
+ {
+  "text": "The card-edge drawing pairs a Dolby LED (“1–4 LED”, bracketed “Dolby”) beside each of AES1–4.",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206-card-edge.cdr"
+ },
+ {
+  "text": "T6304 and T6305 differ only at position 8: a GPI/O 2 terminal block on the T6304, an unused BNC on the T6305.",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6305.cdr"
+ },
+ {
+  "text": "Backup_of_ copies of the T6304, T6305 and card-edge drawings sit beside the originals; the T6304/T6305 backups (2007-06-27) are older than the main files.",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/Backup_of_M6206A-T6304.cdr"
+ },
+ {
+  "text": "Only the T6304 has CorelDRAW’s own PDF (2007-08-22); Inkscape’s CDR import drops the BNC drawings, so that PDF is what the T6304 panel uses.",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6304.pdf"
+ },
+ {
+  "text": "The M6206A master folder holds an “M6245A - #Engineering” subfolder, another product’s name.",
+  "src": "#OPENGEAR #SERIES/M6206A - #Master #OPENGEAR/M6245A - #Engineering"
+ }
+];
+SIM.register({footnotes:FOOTNOTES, 
   id:'m6206', name:'M6206A · SDI de-embedder with Dolby decode and voice-over mixing ('+SIM.year(2007)+')', duration:1,
   product:'M6206A', year:2007, family:'openGear', folder:'#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR',
   summary:'openGear card made for Astral Media: an EP1C12 FPGA de-embeds one SDI audio group and feeds the Dolby E/AC-3 pair to a CAT552 decoder, an ADSP-21262 SHARC mixes an announcer’s voice-over into the decoded L/R(/C) and the PCM pair while ramping the programme down, and an AT90CAN128 runs the GPI state machine, LEDs and DashBoard. Modelled pass by pass from the v1.04 AVR code, the SHARC sample interrupt and the FPGA detectors, on the real ISS1 gerber artwork.',

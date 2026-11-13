@@ -17,12 +17,12 @@
    - D8206 - #Master #MF82/…/D8206 - #cpld/d8206.rpt (EPM7128STC100-6 pin-out, MAX+plus II 9.6, 2006|39)
    - D8206 - #Master #MF82/…/D8206 - #orig/DATA/DATA*.ASM (1998–99|31–32 EPROM tone tables)
    - D8200 - #Engineering #MF82/d8200 - #PCB/d8200-1.bom, d8200 - #GERBERS/D8200-2.SLK + .TSM (board art)
-   - 8200 Series Rear Module options graphical Guides …/D8206 - rear module options.pdf (rear art)
+   - 8200 Series Rear Module options graphical Guides …/D8206 - rear module options.cdr + .pdf (rear art, assets/d8206-rear-*.svg)
    - D8206 - #Engineering/D8206-75 rev1.cdr, D8206TR3.cdr (converted with Inkscape to cross-check the rear art)
    Artwork: assets/d8206-board-silk-white.png and d8206-board-pads-tin.png are the D8200-2 Gerber top silk and top
-   solder mask rendered at 200 dpi (2129 × 561 px = 10.64″ × 2.80″); assets/d8206-rear-*-white.png are the five
-   rear modules cut from the rear-module guide PDF at 200 dpi, recoloured white for black anodised modules
-   (colour from the MF8212RM2 photo). Anything not in the sources is marked "inferred" on screen.
+   solder mask rendered at 200 dpi (2129 × 561 px = 10.64″ × 2.80″); assets/d8206-rear-*.svg (Artwork 2026|59) are the five
+   rear modules as CorelDRAW vectors of "D8206 - rear module options.cdr" (2012-01-16), taken through Corel's own PDF export
+   (libcdr mangles the terminal-block symbol font), same 200-dpi cells as before: black plate, white silk (MF8212RM2 photo). Anything not in the sources is marked "inferred" on screen.
    ===================================================================== */
 (function(){
 const SIM = window.SIM;
@@ -258,17 +258,18 @@ const A = {
   reset(){ act('Factory defaults', tr=>{ resetAll(); tr('Manual defaults: all jumpers ON except H2 (video) and H13 (48 kHz); H16 External; TERM1 75 Ω'); }); },
 };
 
-/* ---------------- rear modules (rear-module guide PDF, 2012|45) ---------------- */
+/* ---------------- rear modules (CorelDRAW rear-module guide, 2012|45) ---------------- */
+const RMG_DIR='#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/';
 const REAR = {
-  bnc1:{ name:'BNC1 (D8206/75)', img:'d8206-rear-bnc1-white.png', w:476, h:617, note:'75 Ω BNC module: AUDIO REF INPUT, DIGITAL OUT 1-1, 1-2, 2-1, 2-2, WORD CLOCK, VIDEO REF IN.', term:'75',
+  bnc1:{ name:'BNC1 (D8206/75)', img:'d8206-rear-bnc1.svg', w:476, h:617, note:'75 Ω BNC module: AUDIO REF INPUT, DIGITAL OUT 1-1, 1-2, 2-1, 2-2, WORD CLOCK, VIDEO REF IN.', term:'75',
     pts:[['aesin',215,102,'AUDIO REF INPUT'],['o11',278,166,'DIGITAL OUT 1-1'],['o12',215,230,'DIGITAL OUT 1-2'],['o21',278,294,'DIGITAL OUT 2-1'],['o22',215,358,'DIGITAL OUT 2-2'],['wc',278,422,'WORD CLOCK'],['vid',215,490,'VIDEO REF IN']] },
-  bnc3:{ name:'BNC3 (D8206/75, MF8210 only)', img:'d8206-rear-bnc3-white.png', w:487, h:617, note:'Double-width BNC module: reference loop, 4 digital outs, 3 word clocks, video ref.', term:'hiz',
+  bnc3:{ name:'BNC3 (D8206/75, MF8210 only)', img:'d8206-rear-bnc3.svg', w:487, h:617, note:'Double-width BNC module: reference loop, 4 digital outs, 3 word clocks, video ref.', term:'hiz',
     pts:[['aesin',197,197,'AUDIO REF INPUT'],['aesin',284,197,'INPUT LOOP'],['o11',197,294,'DIGITAL OUT 1-1'],['o12',284,294,'DIGITAL OUT 1-2'],['o21',197,393,'DIGITAL OUT 2-1'],['o22',284,393,'DIGITAL OUT 2-2'],['wc',197,492,'WORD CLOCK 1'],['vid',284,492,'VIDEO REF IN']] },
-  tb8205p:{ name:'TB8205P (D8206/110)', img:'d8206-rear-tb8205p-white.png', w:476, h:611, note:'Pluggable screw terminals, 110 Ω balanced: REF INPUT ± with passive loop, OUT 1-1…2-2 ±, WORD CLOCK 1–3, VIDEO REF IN ±.', term:'110',
+  tb8205p:{ name:'TB8205P (D8206/110)', img:'d8206-rear-tb8205p.svg', w:476, h:611, note:'Pluggable screw terminals, 110 Ω balanced: REF INPUT ± with passive loop, OUT 1-1…2-2 ±, WORD CLOCK 1–3, VIDEO REF IN ±.', term:'110',
     pts:[['aesin',162,132,'REF INPUT +'],['aesin',162,155,'REF INPUT −'],['o11',163,242,'DIGITAL OUT 1-1 +'],['o11',163,265,'DIGITAL OUT 1-1 −'],['o12',163,288,'DIGITAL OUT 1-2 +'],['o12',163,311,'DIGITAL OUT 1-2 −'],['o21',163,334,'DIGITAL OUT 2-1 +'],['o21',163,357,'DIGITAL OUT 2-1 −'],['o22',163,380,'DIGITAL OUT 2-2 +'],['o22',163,403,'DIGITAL OUT 2-2 −'],['wc',246,265,'WORD CLOCK 1 +'],['vid',246,311,'VIDEO REF IN +'],['wc',246,357,'WORD CLOCK 2 +'],['wc',246,403,'WORD CLOCK 3 +']] },
-  tb8205p75:{ name:'TB8205P/75 (D8206/110)', img:'d8206-rear-tb8205p75-white.png', w:487, h:611, note:'Screw terminals with an unbalanced BNC reference input.', term:'75',
+  tb8205p75:{ name:'TB8205P/75 (D8206/110)', img:'d8206-rear-tb8205p75.svg', w:487, h:611, note:'Screw terminals with an unbalanced BNC reference input.', term:'75',
     pts:[['aesin',237,140,'REF INPUT (BNC)'],['o11',178,242,'DIGITAL OUT 1-1 +'],['o12',178,288,'DIGITAL OUT 1-2 +'],['o21',178,334,'DIGITAL OUT 2-1 +'],['o22',178,380,'DIGITAL OUT 2-2 +'],['wc',261,265,'WORD CLOCK 1 +'],['vid',261,311,'VIDEO REF IN +'],['wc',261,357,'WORD CLOCK 2 +'],['wc',261,403,'WORD CLOCK 3 +']] },
-  tb8205pv:{ name:'TB8205PV (D8206/110 video)', img:'d8206-rear-tb8205pv-white.png', w:551, h:611, note:'Video BNC + audio ref screw terminals; “must be installed beside the power supply” (D8206-110_video.pdf).', term:'110',
+  tb8205pv:{ name:'TB8205PV (D8206/110 video)', img:'d8206-rear-tb8205pv.svg', w:551, h:611, note:'Video BNC + audio ref screw terminals; “must be installed beside the power supply” (D8206-110_video.pdf).', term:'110',
     pts:[['vid',167,148,'VIDEO REF INPUT'],['aesin',264,131,'AUDIO REF +'],['aesin',264,154,'AUDIO REF −'],['o11',187,242,'DIG. OUT 1-1 +'],['o12',187,287,'DIG. OUT 1-2 +'],['o21',187,333,'DIG. OUT 2-1 +'],['o22',187,379,'DIG. OUT 2-2 +'],['wc',270,402,'WORD CLK 3 +']] },
 };
 
@@ -329,7 +330,7 @@ function rearSVG(t){ const R=REAR[D.rear], sc=0.62, W=R.w*sc, H=R.h*sc; const o1
     else if (k==='wc'){ col='#c58cff'; tip+=` — ${wcFs(t)/1000} kHz square wave`; }
     else { const o=k[1]==='1'?o1:o2; col = !o.on?'#444': o.silent?'#888':'#7dff6a'; tip+=` — ${o.on?(o.silent?'digital silence':'tone'):'off'} @ ${outFs(t)/1000} kHz`; }
     s+=`<g class="${cls}" style="cursor:${cls?'pointer':'default'}"><title>${tip}</title><circle cx="${X}" cy="${Y}" r="${k==='aesin'||k==='vid'?9:6}" fill="${col}" opacity=".85" stroke="#000"/></g>`; });
-  return s+`</svg>`; }
+  return s+`</svg><div class="small muted" style="max-width:${Math.round(W+10)}px">CorelDRAW art: ${SIM.src(RMG_DIR+'D8206 - rear module options.cdr','D8206 - rear module options.cdr')} (2012|45), via its Corel PDF ${SIM.src(RMG_DIR+'D8206 - rear module options.pdf','export')}.</div>`; }
 function bindRear(m){ m.querySelectorAll('.d86aes').forEach(g=>g.onclick=()=>A.plugAes()); m.querySelectorAll('.d86vid').forEach(g=>g.onclick=()=>A.plugVid()); }
 
 /* ---------------- controls ---------------- */
@@ -585,6 +586,7 @@ function viewNotes(m){
    <li><b>Leftovers.</b> <span class="mono">MODE_d_handler</span>'s comment says “set mode 4”; the D8207-style <span class="mono">CALL delay ×3</span> is commented out (“for D8206 we have a lot of spare time”); the <span class="mono">refresh_run_stop</span> (v1.104) body is commented out; v1.105 assembles for the PIC16F73 (<span class="mono">#include "P16F73.INC"</span>) while every document says PIC16C73A.</li>
    <li><b>Documents disagree.</b> D8206MAN-rev1.rtf promises <i>four</i> DARS and lists no H4/H14 (matching the older <span class="mono">D8206TR3.cdr</span> terminal sheet with DIGITAL OUT 1–4 and an AUDIO IN); the 2003 PDF has two outputs × two copies. The functional description says AES 22–96 kHz, the manual 32–96 kHz. testing_pro.wpd step 6 says “Set H2=Off … 20 Active bits” (should be H1). <span class="mono">D8208MAN.WPD</span> filed in the D8206 folders is the D8205 manual text.</li>
    <li><b>The 1998–99 EPROM design could not hit 44.1 kHz tones exactly.</b> <span class="mono">#orig/DATA/DATA4401.ASM</span> stores 112 samples per cycle (“400 TONE, 112 SAMPLES”): 44100/112 = 393.75 Hz; <span class="mono">DATA4404.ASM</span> uses 44 samples for “1KHZ” = 1002.27 Hz. The first stored sample (0x072D51 = 0.0561 FS) confirms one cycle per table. The 48 and 32 kHz tables are exact. A separate 1999 clock CPLD (<span class="mono">D8206 - #cpld/d8206.rpt</span>) even selects between 24.576 and 33.868 MHz (24/33SEL) — the 44.1 kHz hardware path the later firmware never used.</li>
+   <li><b>Artwork 2026|59: rear modules now from ${SIM.src(RMG_DIR+'D8206 - rear module options.cdr','D8206 - rear module options.cdr')} (CorelDRAW X3, 2012-01-16).</b> BNC1, BNC3, TB8205P, TB8205P/75 and TB8205PV are its vectors (black plate, white legends) through Corel's own ${SIM.src(RMG_DIR+'D8206 - rear module options.pdf','PDF export')}, replacing the recoloured 200-dpi PNGs. The TB8205PV drawing puts the VIDEO REF. INPUT BNC half off the left edge of the plate, and only that module carries the note “This termination must be installed beside the power supply”. The engineering folder holds two generations of the same pages: ${SIM.src(E+'D8206-75 rev1.cdr','D8206-75 rev1.cdr')}, ${SIM.src(E+'D8206-110A rev1.cdr','-110A rev1')}, ${SIM.src(E+'D8206-110B rev1.cdr','-110B rev1')} and ${SIM.src(E+'D8206-110_video rev1.cdr','-110_video rev1')} (2005) over the 2000–01 originals, all stored again in D8206 - #ARCHIVE.</li>
    <li><b>Misnamed files.</b> <span class="mono">d8206.DXF</span> (1999) is a “D8205,ISSUE.1” board with LEDs AUDIO/REF/PROC/ERR and jumpers H6–H21, not the H1–H16 numbering of the manual (which matches the D8200-2 Gerbers used here). The v1.100 snapshot folder contains <span class="mono">v1.103.pjt</span>.</li>
   </ol>`)+card('Assumptions', `<ul class="small"><li>PIC pass ${SIM.fmtDur(PASS)} ${inf} from the hysteresis comment (as in the D8208 plugin); step proportions inside a pass are ${inf}.</li><li>Power-up timer 72 ms, SHARC boot ${SHARC_BOOT*1e3} ms, CS8420 lock ${LOCK_T*1e3} ms, ML6431 genlock ${VLOCK_T*1e3} ms, SHARC CLKIN 24.576 MHz, watchdog 2.3 s: ${inf}.</li><li>LED_0..3 → AUDIO1/AUDIO2/PROC/ERR silk positions ${inf} from the manual's order (green 1, green 2, yellow, red).</li><li>H1–H14 shunt position for ON/OFF ${inf} from the silk legend; H16 strap pattern ${inf} from manual Figure 1.</li><li>CS8420 #1 receiver lock (MODE1 bit 7) is modelled as always 0 ${inf}.</li><li>The board art is the 2013|46 D8200-2 re-spin (P-CAD 2002 Gerbers); the 2000–06 cards used D8200 issue 1, whose PCB is binary.</li></ul>`)
   +card('Sources', `<ul class="small mono"><li>D8206 - #Master #MF82/D8206 - #Engineering/D8206MAN.pdf · D8206MAN-rev1.rtf · testing_pro.wpd · FUNCTIONAL DESCRIPTION.WPD · Amendment … Custom 016.doc</li><li>D8200 - #Engineering #MF82/d8200 - #d820x/pic/v105/v1.105 May15,2006/*.asm, d820x.h · pic/v1.101, v1.102, v1.103-016</li><li>…/d820x/sharc/d820xcore.asm · d820xdef.h · D8206_frq.dat · D8206_vol.dat</li><li>D8206 - #Engineering/D8206 - #cpld/d8206.rpt · D8206 - #orig/DATA/DATA*.ASM · d8206.DXF</li><li>d8200 - #PCB/d8200-1.bom · d8200 - #GERBERS/D8200-2.SLK, .TSM</li><li>8200 Series Rear Module options …/D8206 - rear module options.pdf · D8206-110_video.pdf · D8206-75 rev1.cdr · D8206TR3.cdr</li></ul>`);
@@ -596,6 +598,13 @@ SIM.register({
   folder:'#MF8200 #SERIES/D8206 - #Master #MF82',
   summary:'An MF82 card that makes two AES reference outputs (tone or digital silence, two copies each) and a word clock, locked to an AES reference, NTSC black or an internal 48 kHz. It is the shared D820x platform (PIC, EPM7128S, ADSP-21061, two CS8420s, ML6431) built with #define D8206.',
   highlights:['All 14 jumpers, H16 and TERM1 live on the real D8200 board silk','Pass-by-pass PIC model: debounce, mode fallback, 85-pass output delay, SHARC handshake','SHARC sine generator with the real level and frequency tables','H13 44.1 kHz is disabled in code; Output 2 can never be muted','Five rear modules from the 2012 guide, clickable'],
+  footnotes:[
+    {text:'Rear-module art: BNC1, BNC3, TB8205P, TB8205P/75 and TB8205PV are vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the terminal-block symbol font as giant text).', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8206 - rear module options.cdr'},
+    {text:'The TB8205PV module (video + audio reference in) must be installed beside the power supply, per the note on its page; its VIDEO REF. INPUT BNC is drawn overhanging the plate edge.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8206 - rear module options.cdr'},
+    {text:'The /110 terminal page exists as two alternative pages, D8206-110A and D8206-110B (2001, rev1 2005); the 2012 guide merges them into TB8205P, TB8205P/75 and TB8205PV.', src:'#MF8200 #SERIES/D8206 - #Master #MF82/D8206 - #Engineering/D8206-110B rev1.cdr'},
+    {text:'D8206TR3.cdr (2000) is the older terminal sheet with DIGITAL OUT 1–4 and an AUDIO IN, matching the rev1 manual’s four DARS rather than the two outputs × two copies of the shipped card.', src:'#MF8200 #SERIES/D8206 - #Master #MF82/D8206 - #Engineering/D8206TR3.cdr'},
+    {text:'Every D8206 CDR in D8206 - #Engineering is stored a second time, same date and size, in D8206 - #ARCHIVE.', src:'#MF8200 #SERIES/D8206 - #Master #MF82/D8206 - #Engineering/D8206 - #ARCHIVE/D8206TR3.cdr'},
+  ],
   depth:'Full model',
   stepUnits:[{label:'1 PIC pass (inferred)',period:()=>PASS},{label:'1 SHARC sample',period:()=>1/48000},{label:'1 ms',period:()=>0.001},{label:'16 passes (1 message)',period:()=>16*PASS}],
   zooms:[[1,'1 s (whole)'],[0.25,'250 ms'],[0.05,'50 ms'],[0.016,'16 ms (4 passes)'],[0.004,'4 ms (1 pass)'],[0.0005,'500 µs'],[0.0001,'100 µs']],

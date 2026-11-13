@@ -285,7 +285,7 @@ const NETS = [
   ['OUTN7','L','H1-17'],['OUTP7','10','H1-18'],['INB_N','M','H1-19'],['INB_P','11','H1-20'],['OUTN8','N','H2-1'],['OUTP8','12','H2-2']];
 const TB8201AP = {A:'INA-2',1:'INA-1',B:'INA-3 + INB-3',2:'TB1-5 + TB2-5',D:'TB2-1',4:'TB1-1',E:'TB2-2',5:'TB1-2',F:'TB2-3',6:'TB1-3',H:'TB2-4',7:'TB1-4',J:'TB2-6',8:'TB1-6',K:'TB2-7',9:'TB1-7',L:'TB2-8',10:'TB1-8',M:'INB-2',11:'INB-1',N:'TB2-9',12:'TB1-9'};
 const EDGE = ['1','2','3','4','5','6','7','8','9','10','11','12','A','B','C','D','E','F','H','J','K','L','M','N'];   // 22-way edge naming: letters skip G and I
-const D = { srcA:true, srcB:true, h2:true, card:'dual', sel:'OUTP1', fault:null, log:[] };
+const D = { srcA:true, srcB:true, h2:true, card:'dual', sel:'OUTP1', fault:null, view:'art', art:'d8201a', log:[] };
 const FACT=JSON.parse(JSON.stringify(D));
 const CARDS = { dual:{name:'dual 1 × 4 DA (A → OUT 1–4, B → OUT 5–8)', map:k=>k<=4?'A':'B'}, single:{name:'single input, 8 outputs (A only)', map:()=>'A'} };
 const outLive = k => { const src = CARDS[D.card].map(k); if (k===8 && !D.h2) return false; if (D.fault==='swapH1') return false; return src==='A'?D.srcA:D.srcB; };
@@ -293,14 +293,31 @@ const termOf = n => NETS.find(r=>r[0]===n);
 /* ---------------- actions ---------------- */
 const act=makeActor(D, ()=>`A ${D.srcA?'on':'off'} · B ${D.srcB?'on':'off'} · H2 ${D.h2?'mated':'open'}`);
 const A={
-  pick(n){ act(`Probe ${n}`, tr=>{ D.sel=n; const r=termOf(n); tr(`${n} → net “${r[1]}” → ${r[2]}`); tr(`On the pluggable sister TB8201AP the same net goes to ${TB8201AP[r[1]]}`);
+  pick(n){ act(`Probe ${n}`, tr=>{ D.sel=n; const r=termOf(n); if (D.view==='art') tr(`Artwork legend (${ART[D.art].card} page): “${artLegend(n)}”`); tr(`${n} → net “${r[1]}” → ${r[2]}`); tr(`On the pluggable sister TB8201AP the same net goes to ${TB8201AP[r[1]]}`);
     if (r[2].startsWith('H2')) tr('Output 8 is the only pair that leaves on the separate 2-pin header H2: the 20-pin H1 is full'); if (r[1]==='B') tr('Net B = input shield common (TB8201AP joins INA-3 and INB-3 here)'); if (r[1]==='2') tr('Net 2 = output ground: S3 and S23 are both on it'); }); },
   src(w){ act(`Input ${w} ${D['src'+w]?'disconnected':'connected'}`, tr=>{ D['src'+w]=!D['src'+w]; tr(w==='A'?'INA_P → net 1 → H1-2, INA_N → net A → H1-1':'INB_P → net 11 → H1-20, INB_N → net M → H1-19'); tr(`Feeds ${CARDS[D.card].name.split('(')[1]?CARDS[D.card].name.split('(')[1].replace(')',''):'all outputs'} (${inf}: card)`); }); },
   h2(){ act(`H2 ${D.h2?'unplugged':'mated'}`, tr=>{ D.h2=!D.h2; tr(D.h2?'H2-1 (N) and H2-2 (12) carry OUT 8':'OUT 8 is dead: H2 carries the only connection for OUTP8/OUTN8'); }); },
   card(k){ act(`Card → ${CARDS[k].name}`, tr=>{ D.card=k; tr('ST8201A only routes nets; what each pin means is set by the card it mates with (TB8201AP serves D8204A, D8204C and D8201A).'); }); },
   fault(f){ act(f?'Mate H1 reversed':'Mate H1 correctly', tr=>{ D.fault=f; tr(f?'A 1 × 20 single-row header has no key: turned round, H1-1 lands on H1-20 — INA on INB, outputs on the wrong legs (inferred hazard)':'Pin 1 to pin 1'); }); },
   reset(){ Object.assign(D, JSON.parse(JSON.stringify(FACT))); SIM.refresh(); },
+  view(v){ act(v==='art'?'View: CorelDRAW artwork':'View: redrawn board', tr=>{ D.view=v; tr(v==='art'?'ST8201A page of 8200 Series - Rear module drawing Master.cdr (2011-12-22)':'Board redrawn from st8201a.net; terminal layout inferred'); }); },
+  page(k){ act(`Artwork page → ${ART[k].label}`, tr=>{ D.art=k; tr(`Same 23 terminals, legends as the ${ART[k].card} sheet prints them`); const r=termOf(D.sel); if(r) tr(`${D.sel} is labelled “${artLegend(D.sel)}” on this page`); }); },
 };
+/* ---------------- artwork (CorelDRAW): the ST8201A pages of the 2011 rear-module master ----------------
+   assets/st8201a-*.svg are cut from "8200 Series - Rear module drawing Master.cdr" (CorelDRAW X3, 2011-12-22) with Inkscape:
+   hairlines given a width, sheet titles removed, the ST8201A heading re-centred (libcdr loses alignment).
+   Hotspot centres are the terminal circles in that file (CorelDRAW points). Each position carries the
+   netlist terminal it is on, matched row by row against the D8201A page, whose legends follow the netlist polarity. */
+const ART_SRC = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr';
+const ART_PTS = {"d8201a":{"vb":[1033,-1423,227,420],"pts":[[1118.9,-1329.1,"INA_P","AIN +"],[1118.9,-1306.4,"S4","SH"],[1118.6,-1278.3,"OUTP1","AES1 ALARM / OUT A1 +"],[1118.9,-1255.6,"OUTP2","OUT A2 +"],[1118.6,-1233.1,"OUTP3","OUT A3 +"],[1118.9,-1210.5,"OUTP4","OUT A4 +"],[1118.6,-1176.8,"OUTP5","OUT B1 +"],[1118.9,-1154.1,"OUTP6","OUT B2 +"],[1118.6,-1131.6,"OUTP7","OUT B3 +"],[1118.9,-1108.9,"OUTP8","OUT B4 +"],[1119.2,-1086.5,"INB_P","BIN +"],[1171.3,-1329.1,"INA_N","AIN -"],[1171.6,-1306.4,"S3 + S23","GND"],[1171.3,-1278.3,"OUTN1","AES2 ALARM / OUT A1 -"],[1171.6,-1255.6,"OUTN2","OUT A2 -"],[1171.3,-1233.1,"OUTN3","OUT A3 -"],[1171.6,-1210.5,"OUTN4","OUT A4 -"],[1171.3,-1176.8,"OUTN5","OUT B1 -"],[1171.6,-1154.1,"OUTN6","OUT B2 -"],[1171.3,-1131.6,"OUTN7","OUT B3 -"],[1171.6,-1108.9,"OUTN8","OUT B4 -"],[1171.9,-1087.1,"INB_N","BIN -"],[1171.9,-1065.2,"S3 + S23","SH"]]},"m8204":{"vb":[1593.5,2852.8,228,420],"pts":[[1681.4,2947.0,"INA_P","AIN +"],[1681.4,2969.7,"S4","NOT USED"],[1681.1,2997.9,"OUTP1","A OUT 1 -"],[1681.4,3020.6,"OUTP2","A OUT 2 -"],[1681.1,3043.0,"OUTP3","A OUT 3 -"],[1681.4,3065.6,"OUTP4","A OUT 4 -"],[1681.1,3099.4,"OUTP5","B OUT 4 -"],[1681.4,3122.1,"OUTP6","B OUT 3 -"],[1681.1,3144.5,"OUTP7","B OUT 2 -"],[1681.4,3167.2,"OUTP8","B OUT 1 -"],[1681.7,3189.6,"INB_P","BIN -"],[1733.8,2947.0,"INA_N","AIN -"],[1734.1,2969.7,"S3 + S23","GND"],[1733.8,2997.9,"OUTN1","A OUT 1 +"],[1734.1,3020.6,"OUTN2","A OUT 2 +"],[1733.8,3043.0,"OUTN3","A OUT 3 +"],[1734.1,3065.6,"OUTN4","A OUT 4 +"],[1733.8,3099.4,"OUTN5","B OUT 4 +"],[1734.1,3122.1,"OUTN6","B OUT 3 +"],[1733.8,3144.5,"OUTN7","B OUT 2 +"],[1734.1,3167.2,"OUTN8","B OUT 1 +"],[1734.4,3189.1,"INB_N","BIN +"],[1734.4,3210.9,"S3 + S23","GND"]]},"m8209a":{"vb":[839.9,5024.4,228,420],"pts":[[927.8,5118.7,"INA_P","IN 1 +"],[927.8,5141.4,"S4","SHIELD"],[927.5,5169.5,"OUTP1","OUTPUT 1 +"],[927.8,5192.2,"OUTP2","NOT USED"],[927.5,5214.7,"OUTP3","NOT USED"],[927.8,5237.3,"OUTP4","NOT USED"],[927.5,5271.0,"OUTP5","OUTPUT 2 +"],[927.8,5293.7,"OUTP6","NOT USED"],[927.5,5316.2,"OUTP7","NOT USED"],[927.8,5338.9,"OUTP8","NOT USED"],[928.1,5361.3,"INB_P","IN 2 +"],[980.2,5118.7,"INA_N","IN 1 -"],[980.5,5141.4,"S3 + S23","GND"],[980.2,5169.5,"OUTN1","OUTPUT 1 -"],[980.5,5192.2,"OUTN2","NOT USED"],[980.2,5214.7,"OUTN3","NOT USED"],[980.5,5237.3,"OUTN4","NOT USED"],[980.2,5271.0,"OUTN5","OUTPUT 2 -"],[980.5,5293.7,"OUTN6","NOT USED"],[980.2,5316.2,"OUTN7","NOT USED"],[980.5,5338.9,"OUTN8","NOT USED"],[980.8,5360.7,"INB_N","IN 2 -"],[980.8,5382.5,"S3 + S23","SHIELD"]]}};
+const ART = { d8201a:{label:'D8201A page (ST8201A beside the ST8200)', card:'D8201A'}, m8204:{label:'M8204/A page', card:'M8204/A'}, m8209a:{label:'M8209A page', card:'M8209A'} };
+const liveOf = n => n.startsWith('IN') ? (n.startsWith('INA')?D.srcA:D.srcB) && D.fault!=='swapH1' : n.startsWith('OUT') ? outLive(+n.slice(-1)) : false;
+function artSVG(){ const k=D.art, a=ART_PTS[k], [x,y,w,h]=a.vb;
+  let s=`<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:470px;display:block;margin:auto;border-radius:4px" role="img" aria-label="ST8201A, ${ART[k].label}, from the CorelDRAW master"><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#fff"/><image href="${ASSET}st8201a-${k}.svg" x="${x}" y="${y}" width="${w}" height="${h}"/>`;
+  a.pts.forEach(p=>{ const n=p[2], r=termOf(n), on=D.sel===n, live=liveOf(n);
+    s+=`<g class="tp" data-n="${n}" style="cursor:pointer"><title>Legend “${p[3]}” · terminal ${n} → net ${r[1]} → ${r[2]} — click to probe</title><circle cx="${p[0]}" cy="${p[1]}" r="10" fill="transparent"/>${live?`<circle cx="${p[0]}" cy="${p[1]}" r="4.2" fill="#18b84a"/>`:''}${on?`<circle cx="${p[0]}" cy="${p[1]}" r="9.5" fill="none" stroke="#e0a800" stroke-width="2.6"/>`:''}</g>`; });
+  return s+'</svg>'; }
+function artLegend(n){ const p=ART_PTS[D.art].pts.find(q=>q[2]===n); return p? p[3] : '—'; }
 /* ---------------- the board (drawn: the PCB file is binary; proportions inferred) ---------------- */
 function boardSVG(){ const W=820, H=330; let s=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:900px"><rect x="20" y="20" width="${W-40}" height="${H-40}" rx="6" fill="#1d5c3a" stroke="#0e3d24" stroke-width="3"/>
    <text x="36" y="44" font-size="15" fill="#e8f5e9" font-weight="700">ST8201A ISS 1</text><text x="36" y="62" font-size="11" fill="#cfe">WARD-BECK SYSTEMS LTD. · solder terminals (layout inferred)</text>`;
@@ -321,8 +338,10 @@ function bindBoard(r){ r.querySelectorAll('.tp').forEach(g=>g.onclick=()=>A.pick
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-top:6px">
   <label><input type="checkbox" id="sa" ${D.srcA?'checked':''}> AES/audio on INA</label><label><input type="checkbox" id="sb" ${D.srcB?'checked':''}> on INB</label>
   <label>Card <select id="cd">${Object.keys(CARDS).map(k=>`<option value="${k}" ${k===D.card?'selected':''}>${CARDS[k].name}</option>`).join('')}</select></label>
-  <label><input type="checkbox" id="rv" ${D.fault?'checked':''}> H1 mated reversed</label></div>`; }
-function bindControls(r){ const g=s=>r.querySelector(s); if(!g('#sa')) return; g('#sa').onchange=()=>A.src('A'); g('#sb').onchange=()=>A.src('B'); g('#cd').onchange=e=>A.card(e.target.value); g('#rv').onchange=e=>A.fault(e.target.checked?'swapH1':null); }
+  <label><input type="checkbox" id="rv" ${D.fault?'checked':''}> H1 mated reversed</label><label><input type="checkbox" id="h2c" ${D.h2?'checked':''}> H2 mated</label>
+  <label>View <select id="vw"><option value="art" ${D.view==='art'?'selected':''}>CorelDRAW artwork (2011 guide)</option><option value="board" ${D.view==='board'?'selected':''}>redrawn board (netlist; layout inferred)</option></select></label>
+  ${D.view==='art'?`<label>Page <select id="pg">${Object.keys(ART).map(k=>`<option value="${k}" ${k===D.art?'selected':''}>${ART[k].label}</option>`).join('')}</select></label>`:''}</div>`; }
+function bindControls(r){ const g=s=>r.querySelector(s); if(!g('#sa')) return; g('#sa').onchange=()=>A.src('A'); g('#sb').onchange=()=>A.src('B'); g('#cd').onchange=e=>A.card(e.target.value); g('#rv').onchange=e=>A.fault(e.target.checked?'swapH1':null); g('#h2c').onchange=()=>A.h2(); g('#vw').onchange=e=>A.view(e.target.value); if(g('#pg')) g('#pg').onchange=e=>A.page(e.target.value); }
 bindKeys('__st8201aActive', ()=>({a:()=>A.src('A'),b:()=>A.src('B'),h:()=>A.h2()}));
 /* ---------------- timeline: what the terminals carry (an AES card assumed) ---------------- */
 function biphaseLane(label, liveFn){ return {label, h:24, draw(c,X,t0,t1,y,h){ if(!liveFn()){ c.fillStyle=SIM.css('--ink2'); c.font='11px sans-serif'; c.fillText('no signal',X(t0)+6,y+15); return; }
@@ -336,20 +355,20 @@ function lanes(){ return [
 ]; }
 /* ---------------- views ---------------- */
 function viewSim(m){ window.__st8201aActive=true;
-  m.innerHTML=`${card('The board — click a terminal to trace it, click H2 to mate/unmate it',`<div id="bd"></div>${controlsHTML()}`)}
+  m.innerHTML=`${card(D.view==='art'?'The ST8201A as the rear-module guide draws it — click a terminal to trace it':'The board — click a terminal to trace it, click H2 to mate/unmate it',`<div id="bd"></div><div class="small muted" style="text-align:center;margin-top:4px">${D.view==='art'?`CorelDRAW artwork: ${ART[D.art].label} of ${SIM.src(ART_SRC,'8200 Series - Rear module drawing Master.cdr')} (2011-12-22), converted with Inkscape; hairlines widened, heading re-centred. Green dot = signal present. The legend is the sheet's; the net behind it is from st8201a.net.`:'Redrawn from st8201a.net; terminal positions inferred.'}</div>${controlsHTML()}`)}
    <div class="grid2">${card('What the connection does (last action)',`<div id="trace" class="log"></div>`)}${card('Every terminal',`<div id="nt"></div>`)}</div>
    ${card('Timeline — zoom to 2 µs to see the AES3 biphase signal on each pair',`<canvas id="tl"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}`;
   bindControls(m);
-  const draw=()=>{ m.querySelector('#bd').innerHTML=boardSVG(); bindBoard(m.querySelector('#bd')); m.querySelector('#trace').innerHTML=traceHTML(D,'Click a terminal.');
+  const draw=()=>{ m.querySelector('#bd').innerHTML=D.view==='art'?artSVG():boardSVG(); bindBoard(m.querySelector('#bd')); m.querySelector('#trace').innerHTML=traceHTML(D,'Click a terminal.');
     m.querySelector('#nt').innerHTML=tbl(['Terminal','Net','Header','TB8201AP','Live'],NETS.map(r=>[r[0],`<span class="mono">${r[1]}</span>`,r[2],TB8201AP[r[1]],r[0].startsWith('OUT')?(outLive(+r[0].slice(-1))?'●':'○'):r[0].startsWith('IN')?((r[0].includes('A')?D.srcA:D.srcB)?'●':'○'):'—']),true);
     m.querySelector('#log').innerHTML=logHTML(D); SIM.drawLanes(m.querySelector('#tl'),lanes(),{labelW:220}); };
   SIM.on('time',draw); }
 const LESSONS=[
   {title:'What an ST8201A is', body:`<p>An MF8200-series card plugs into the frame from the front; its signals leave through a rear termination. The <b>TB</b> versions have screw terminals (TB8201A) or pluggable terminals (TB8201AP); this <b>ST</b> version has solder terminals for permanent wiring. Its netlist matches TB8201AP net for net.</p>`, check:()=>true, auto:true},
   {title:'1 · Find input A', body:`<p>Click the <b>INA +</b> terminal. It goes to net “1”, H1 pin 2; INA − goes to net “A”, H1 pin 1.</p>`, check:()=>D.sel==='INA_P', hint:'Top-left terminal.'},
-  {title:'2 · Find output 8', body:`<p>Click <b>+8</b>. It is the only output that leaves on H2, the separate 2-pin header.</p>`, check:()=>D.sel==='OUTP8', hint:'Rightmost of the top row.'},
-  {title:'3 · Forget H2', body:`<p>Click H2 to unmate it and watch OUT 8 go dead in the table and on the timeline.</p>`, check:()=>!D.h2, hint:'Click the H2 header outline.'},
-  {title:'4 · Shields and grounds', body:`<p>Click <b>S4</b> (input shield, net B) and then <b>S3/S23</b> (output ground, net 2).</p>`, check:()=>D.log.some(e=>e.name==='Probe S4')&&D.log.some(e=>e.name==='Probe S3 + S23'), hint:'S4 sits between the two INA terminals; S3/S23 at the right.'},
+  {title:'2 · Find output 8', body:`<p>Click <b>OUTP8</b> (“OUT B4 +” on the D8201A page). It is the only output that leaves on H2, the separate 2-pin header.</p>`, check:()=>D.sel==='OUTP8', hint:'On the artwork: left column, second from the bottom. On the redrawn board: rightmost of the top row.'},
+  {title:'3 · Forget H2', body:`<p>Untick <b>H2 mated</b> (or click H2 on the redrawn board) and watch OUT 8 go dead in the table and on the timeline.</p>`, check:()=>!D.h2, hint:'The H2 mated checkbox under the panel.'},
+  {title:'4 · Shields and grounds', body:`<p>Click <b>S4</b> (input shield, net B) and then <b>S3/S23</b> (output ground, net 2).</p>`, check:()=>D.log.some(e=>e.name==='Probe S4')&&D.log.some(e=>e.name==='Probe S3 + S23'), hint:'On the D8201A page S4 is “SH” under AIN +, S3/S23 is “GND” under AIN − (and the bottom-right “SH”).'},
   {title:'Done', body:`<p>The <b>Findings</b> tab explains why this folder is tagged #PROBLEM.</p>`, check:()=>true, auto:true},
 ];
 let lessonIdx=0;
@@ -369,7 +388,7 @@ const BLOCKS={
   out:{x:480,y:80,w:170,h:120,t:'OUTP/OUTN 1–8',s:['numbered = +','lettered = −'],d:'OUTP k on nets 4…10, 12; OUTN k on D…L, N.'},
 };
 const WIRES=[['ina','h1',''],['inb','h1',''],['sh','h1',''],['h1','out','via card'],['h2','out','OUT 8']];
-function viewBlock(m){ window.__st8201aActive=false; blockView(m,BLOCKS,WIRES,'h1',[670,300],card('In one sentence',`<p>A passive board: 21 solder terminals wired to a 20-pin and a 2-pin header that mate with an MF8200 card’s rear connector; no components at all.</p>`)); }
+function viewBlock(m){ window.__st8201aActive=false; blockView(m,BLOCKS,WIRES,'h1',[670,300],card('In one sentence',`<p>A passive board: 23 solder terminals wired to a 20-pin and a 2-pin header that mate with an MF8200 card’s rear connector; no components at all.</p>`)); }
 const SHEETS=[{name:'1 · Netlist as a schematic', note:'Redrawn from st8201a.net. Every net, every pin; there are no components besides the terminals and headers.', svg:()=>{
   let s=chip(300,30,120,'H1 (H1X20S)',NETS.filter(r=>r[2].startsWith('H1')).map(r=>[r[2].slice(3),r[1]]),[],'to the card')+chip(640,330,100,'H2 (H1X2)',[['1','N'],['2','12']],[],'');
   NETS.forEach(r=>{ const isH2=r[2].startsWith('H2'), p=+r[2].slice(3), y=isH2? 330+22+(p-1)*18 : 30+22+(p-1)*18, x0=isH2?470:90, x1=isH2?606:266; s+=txt(x0,y+4,r[0],10.5)+`<line x1="${x0+80}" y1="${y}" x2="${x1}" y2="${y}" stroke="var(--ink2)" stroke-dasharray="2 2"/>`; });
@@ -389,13 +408,30 @@ function viewNotes(m){ window.__st8201aActive=false;
    <li><b>The net names are edge contacts.</b> 1–12 and A–N skipping G and I, the usual card-edge lettering. C and 3 are never used.</li>
    <li><b>Shields are split.</b> S4 is the input shield common (net B); S3 and S23 both land on output ground (net 2).</li>
    <li><b>Renamed in one afternoon.</b> The ECO file shows the generic S1…S24 terminals renamed to INA/INB/OUTP/OUTN in two passes on 24 Aug 2004 (path <span class="mono">H:\\M82XX\\TERMS\\st8201a.sch</span>).</li>
-   <li><b>Unique.</b> Seven P-CAD files and no duplicates anywhere in the archive. There are no Gerbers, so it may never have been made (${inf}).</li></ol>`)
+   <li><b>Artwork ${SIM.year(2026)}: the panel now comes from ${SIM.src(ART_SRC,'8200 Series - Rear module drawing Master.cdr')} (2011-12-22).</b> The ST8201A appears on three of its pages: D8201A (beside an ST8200), M8204/A and M8209A. The first-pass search missed it because no file is named after the ST8201A. All three draw the same 23 terminals (11 + 12) and two mounting holes; only the legends change.</li>
+   <li><b>23 terminals, not 21.</b> The artwork has 23 terminal circles, and so does the netlist: INA ±, INB ±, OUTP/OUTN 1–8, plus S3, S4 and S23. The earlier text here said 21.</li>
+   <li><b>The M8204/A page swaps the output columns.</b> The left column is headed “+” and the inputs follow that (AIN + left, AIN − right). The outputs do not: “A OUT 1 −” is on the left and “A OUT 1 +” on the right. On the D8201A page every “+” is on the left. Either the M8204 drives its outputs inverted with respect to the board’s OUTP/OUTN names, or the legend is wrong <span class="tag-inf">inferred</span>.</li>
+   <li><b>The M8204/A page also numbers the B outputs bottom-up</b> (B OUT 4 at the top, B OUT 1 just above BIN), while the D8201A page runs B1 to B4 top-down.</li>
+   <li><b>One terminal, three names.</b> The bottom-right terminal is “SH” on the D8201A page, “GND” on M8204/A and “SHIELD” on M8209A. The netlist puts it (S23, by position <span class="tag-inf">inferred</span>) on output ground (net 2) with S3, not on the input shield (net B). The S4 position is “SH” on D8201A, “NOT USED” on M8204/A and “SHIELD” on M8209A.</li>
+   <li><b>On the M8209A the board is mostly idle.</b> Its page uses IN 1, IN 2 and the OUTPUT 1 and OUTPUT 2 pairs (the OUT A1 and OUT B1 positions); the other twelve terminals are marked NOT USED.</li>
+   <li><b>OUT A1 doubles as an alarm.</b> On the D8201A page OUT A1 + is “*AES1 ALARM” and OUT A1 − is “*AES2 ALARM”, with the note “*THIS OUTPUT CAN BE USED AS AN ALARM BY SETTING THE JUMPERS”.</li>
+   <li><b>Unique.</b> Seven P-CAD files and no duplicates anywhere in the archive (the drawing lives only in the shared 8200-series guide). There are no Gerbers, so it may never have been made (${inf}).</li></ol>`)
   +card('Assumptions in this simulation',`<ul class="small"><li>Board outline and terminal positions are drawn, not measured: the P-CAD 2002 PCB file is binary (${inf}).</li><li>The “card” selector only changes which input feeds which outputs (${inf}).</li><li>An unkeyed single-row header can be mated backwards (${inf}).</li></ul>`)
   +card('Sources',`<ul class="small mono"><li>XXX - st8201a - #Engineering #PROBLEM/st8201a.net · st8201a.ECO · st8201a.sch (+ .md) · st8201aiss1.pcb (+ .md)</li><li>#MF8200 #SERIES/TB8201AP - #Engineering #MF82 #TERMINATION/TB8201AP.net · TB8201AP-D8204A-WIRING.sch (+ .md)</li><li>#MF8200 #SERIES/TB8201A - #Engineering #MF82 #TERMINATION/README.md</li></ul>`); }
 SIM.register({
   id:'st8201a', name:'st8201a · ST8201A solder-terminal rear termination for MF8200 cards (2004|37)', duration:1, product:'st8201a', year:2004, family:'Obsolete products', folder:'#MF8200 #SERIES/XXX - st8201a - #Engineering #PROBLEM',
   summary:'A passive MF8200-series rear termination with solder terminals: inputs A and B, eight balanced outputs, a 20-pin and a 2-pin header to the card. Its netlist matches the TB8201AP pluggable module net for net; the schematic carries a copied TB8204P title block.',
-  highlights:['Every terminal traced to its net, header pin and TB8201AP equivalent','Output 8 on the overflow header H2','Card-edge net naming (A–N without G, I)','The #PROBLEM explained from the files'],
+  highlights:['Panel from the CorelDRAW rear-module guide (three pages)','Every terminal traced to its net, header pin and TB8201AP equivalent','Output 8 on the overflow header H2','Card-edge net naming (A–N without G, I)','The #PROBLEM explained from the files'],
+  footnotes:[
+    {text:'The ST8201A has no artwork file of its own. It is drawn on three pages of the 2011 8200-series rear-module master: D8201A, M8204/A and M8209A.', src:ART_SRC},
+    {text:'The board has 23 solder terminals, not 21. The artwork and the netlist agree: INA ±, INB ±, OUTP/OUTN 1–8, and S3, S4, S23.', src:'#MF8200 #SERIES/XXX - st8201a - #Engineering #PROBLEM/st8201a.net'},
+    {text:'On the M8204/A page the output legends are swapped: the column headed “+” reads “A OUT 1 −” … “B OUT 1 −”, while its input reads “AIN +”.', src:ART_SRC},
+    {text:'The M8204/A page lists the B outputs bottom-up (B OUT 4 at the top); the D8201A page lists them top-down.', src:ART_SRC},
+    {text:'The bottom-right terminal is “SH” on the D8201A page, “GND” on M8204/A and “SHIELD” on M8209A. The netlist ties S23 to output ground (net 2), not to the input shield.', src:ART_SRC},
+    {text:'On the D8201A page, OUT A1 + and OUT A1 − are also marked “*AES1 ALARM” and “*AES2 ALARM”: “THIS OUTPUT CAN BE USED AS AN ALARM BY SETTING THE JUMPERS”.', src:ART_SRC},
+    {text:'The M8209A uses only 11 of the 23 terminals; the other 12 legends read NOT USED.', src:ART_SRC},
+    {text:'The schematic’s title block reads “TB8204P PLUGGABLE TEMINATION” (sic): it was copied from another board.', src:'#MF8200 #SERIES/XXX - st8201a - #Engineering #PROBLEM/st8201a.sch'},
+  ],
   depth:'Hardware model',
   stepUnits:[{label:'1 AES frame',period:()=>1/48000},{label:'1 AES UI',period:()=>1/6144000},{label:'1 ms',period:()=>0.001}],
   zooms:[[1,'1 s'],[0.001,'1 ms'],[2e-5,'1 AES frame'],[2e-6,'2 µs']], defaultZoom:3,

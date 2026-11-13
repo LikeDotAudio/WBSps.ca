@@ -60,6 +60,72 @@ const A = {
   reset(){ act('Reset frame', tr=>{ F.psu=[true,true]; F.fans=[true,true,true,true,true]; F.silenced=false; F.ref=true; F.door='closed'; tr('Both PSUs on, all fans running'); }); },
 };
 
+/* ---------------- CorelDRAW silks (Artwork 2026|59) ----------------
+   Front door: SILK/MF6220-FRONT-SILK.cdr (2007-04-02), 17.21″ × 3.39″, black door, white ink (photo “DFR8320 Front.jpg”).
+   Rear: SILK/MF6220-REAR-SILK.cdr (2007-03-29): the MF6220-3 ref/comms plate and the PSU inlet plate, clear aluminium,
+   black ink (photo “DFR8320 REF close up.jpg”). Converted with Inkscape; positions below are inches read from the converted SVG. */
+const ENG = '#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/';
+const ART = {
+  front:{f:'mf6220-frame-front.svg', src:ENG+'SILK/MF6220-FRONT-SILK.cdr', x0:0.895, y0:0.055, w:17.21, h:3.393,
+    fans:[[2.932,1.919,0.86],[5.932,1.919,0.86],[8.932,1.919,0.86],[11.932,1.919,0.86],[14.852,2.120,0.66]],
+    alarm:[1.160,2.489], fan:[1.160,2.789], ps:[[14.230,0.998],[15.800,0.998]], sw1:[16.282,2.697]},
+  // rear plates: image placed at (x,y) in frame inches; crop origin cx,cy in points
+  psu:{f:'mf6220-frame-rear-psu.svg', x:0.799, y:0.024, cx:354, cy:334, w:114/72, h:248/72},
+  ref:{f:'mf6220-frame-rear-ref.svg', src:ENG+'SILK/MF6220-REAR-SILK.cdr', x:2.163, y:0.024, cx:146, cy:334, w:202/72, h:244/72},
+  bay0:4.97,
+};
+const FOOT = [
+{
+"text": "The front silk (2007-04-02) has five round fan grilles (four 2.09″ at 3.00″ pitch and a smaller 1.57″ one), ALARM and FAN LEDs, PS1/PS2 LEDs and a silence button; the photographed DFR-8320 door is fully perforated, says FAULT and FAN FAIL and has no PS1/PS2 LEDs.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-FRONT-SILK.cdr"
+},
+{
+"text": "The silk names the product “DFR-8320” (the Ross frame model) on the front, while the rear silk calls it “MF6220”.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-FRONT-SILK.cdr"
+},
+{
+"text": "The rear silk (2007-03-29) prints “WARD-BECK SYSTEMS / MF6220” on the ref/comm plate; the photographed plate says “DFR-8320”.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-REAR-SILK.cdr"
+},
+{
+"text": "The ref/comm plate has four BNC openings but only REF1 and REF2 are labelled; the two lower BNCs carry no legend.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-REAR-SILK.cdr"
+},
+{
+"text": "A CONTROL cut-out (for the RS-232 ports and DIP switch on MF6220-3) is on the silk but blanked with a plate on the photographed frame.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-REAR-SILK.cdr"
+},
+{
+"text": "The sheet places the PSU inlet plate to the right of the ref plate and has a stray third warning triangle outside both plates; the photo and the PSU1/PSU2 legends put the inlets on the left.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-REAR-SILK.cdr"
+},
+{
+"text": "Seen from behind, the inlets and ref plate are at the left and bay 1 at the right; the earlier drawing in this plugin had them mirrored.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/Opengear - #Photos/DFR8320/DFR8320 Rear.jpg"
+},
+{
+"text": "The bottom-panel silk (2008-09-30) numbers slots 1–20 over holes at exactly 0.650″/0.670″ alternating pitch, confirming the design notes.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-BOTPAN-SILK.cdr"
+},
+{
+"text": "MF6220-SILK-CURVE.cdr is the text-as-curves version of the front and rear silks on one sheet; it holds only the ink, without the grille and connector cut-outs.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-SILK-CURVE.cdr"
+},
+{
+"text": "“mf6220 front.cdr” (2007-01-16) is a green colour mock-up of the door; an identical copy sits in “#OPEN GEAR - #Engineering”.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/mf6220 front.cdr"
+},
+{
+"text": "The front, rear and bottom-panel silks each have Backup_of_ copies, plus .bak and .dwg exports, beside them in SILK/.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-FRONT-SILK.cdr"
+},
+{
+"text": "MF6220-decal and MF6220-IDENT (both 2008-09-30, with .eps exports) are thin label strips, not panels.",
+"src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-decal.cdr"
+}
+];
+const RP = (pl,xpt,ypt)=>[pl.x+(xpt-pl.cx)/72, pl.y+(ypt-pl.cy)/72];   // point on a rear plate → frame inches
+
 /* ---------------- drawings (to scale, 40 px per inch) ---------------- */
 const S = 40;
 function frontSVG(){
@@ -68,15 +134,17 @@ function frontSVG(){
    <rect x="10" y="10" width="${W}" height="${H}" rx="4" fill="#1b1d20" stroke="#000"/>
    <rect x="10" y="10" width="${0.75*S}" height="${H}" fill="#26292d"/><rect x="${10+W-0.75*S}" y="10" width="${0.75*S}" height="${H}" fill="#26292d"/>`;
   if (F.door==='closed'){
-    const fx=10+(19-16.72)/2*S, fy=10+(3.5-2.9)/2*S;
-    s+=`<rect x="${fx}" y="${fy}" width="${16.72*S}" height="${2.9*S}" rx="3" fill="#121314" stroke="#333"/>`;
-    for(let k=0;k<5;k++){ const cx=fx+(1.67+k*3.35)*S, cy=fy+1.45*S, ok=F.fans[k];
-      s+=`<g class="fan" data-n="${k}" style="cursor:pointer"><circle cx="${cx}" cy="${cy}" r="${1.18*S}" fill="#0b0c0d" stroke="${ok?'#3a3d40':'#b3261e'}" stroke-width="3"/>
-        <g ${ok?`transform="rotate(${(SIM.t*4200/60*360)%360} ${cx} ${cy})"`:''}>${[0,72,144,216,288].map(a=>`<path d="M${cx},${cy} q${18*Math.cos((a+30)*Math.PI/180)},${18*Math.sin((a+30)*Math.PI/180)} ${40*Math.cos(a*Math.PI/180)},${40*Math.sin(a*Math.PI/180)}" stroke="${ok?'#5e6366':'#7a1d12'}" stroke-width="9" fill="none" stroke-linecap="round"/>`).join('')}</g>
-        <circle cx="${cx}" cy="${cy}" r="9" fill="#2a2d30"/><text x="${cx}" y="${cy+1.18*S+14}" text-anchor="middle" font-size="10" fill="var(--ink2)">JF${k+1} ${ok?'':'STALLED'}</text></g>`; }
-    s+=`<circle cx="${10+W-0.4*S}" cy="${10+0.6*S}" r="6" fill="${b.alarm?'#ff3b2f':'#3a1010'}"/><circle cx="${10+W-0.4*S}" cy="${10+1.0*S}" r="6" fill="${b.nPsu<2?'#ffb43a':'#3a2a10'}"/><circle cx="${10+W-0.4*S}" cy="${10+1.4*S}" r="6" fill="${b.nPsu?'#7dff6a':'#163016'}"/>
-      <g class="sil" style="cursor:pointer"><rect x="${10+W-0.6*S}" y="${10+2.0*S}" width="${0.4*S}" height="${0.4*S}" rx="3" fill="#444" stroke="#888"/><title>ALARM SILENCE (SW1)</title></g>
-      <text x="${10+W/2}" y="${H+40}" text-anchor="middle" font-size="10" fill="var(--ink2)">Door closed: fan board 16.72″ × 2.90″ (FAN-PCB.dxf), five fans (photo MVC-012F); red/yellow/green LEDs and SW1</text><text x="${10+W/2}" y="${H+54}" text-anchor="middle" font-size="10" fill="var(--ink2)">from MF6220-2iss3.net — LED and button positions inferred</text>`;
+    const a=ART.front, X=x=>10+(a.x0+x)*S, Y=y=>10+(a.y0+y)*S;
+    s+=`<image href="${ASSET}${a.f}" x="${X(0)}" y="${Y(0)}" width="${a.w*S}" height="${a.h*S}" preserveAspectRatio="none"/>`;
+    a.fans.forEach(([fx,fy,fr],k)=>{ const cx=X(fx), cy=Y(fy), ok=F.fans[k], r=fr*S;
+      s+=`<g class="fan" data-n="${k}" style="cursor:pointer"><circle cx="${cx}" cy="${cy}" r="${r*1.12}" fill="transparent" stroke="${ok?'none':'#ff3b2f'}" stroke-width="3"/>
+        <g opacity=".45" ${ok?`transform="rotate(${(SIM.t*4200/60*360)%360} ${cx} ${cy})"`:''}>${[0,72,144,216,288].map(g=>`<path d="M${cx},${cy} q${r*.4*Math.cos((g+30)*Math.PI/180)},${r*.4*Math.sin((g+30)*Math.PI/180)} ${r*.85*Math.cos(g*Math.PI/180)},${r*.85*Math.sin(g*Math.PI/180)}" stroke="${ok?'#8a8f93':'#b3261e'}" stroke-width="7" fill="none" stroke-linecap="round"/>`).join('')}</g>
+        <title>Fan JF${k+1}${ok?'':' STALLED'} — click to stall/restore</title></g>`; });
+    const led=(p,on,col,t)=>`<circle cx="${X(p[0])}" cy="${Y(p[1])}" r="3.2" fill="${on?col:'#2a2b2c'}" stroke="#777" stroke-width=".5"/>${on?`<circle cx="${X(p[0])}" cy="${Y(p[1])}" r="6" fill="${col}" opacity=".35" style="filter:blur(1px)"/>`:''}<title>${t}</title>`;
+    s+=led(a.alarm,b.alarm,'#ff3b2f','ALARM LED')+led(a.fan,b.fanAlarm,'#ffb43a','FAN LED')+led(a.ps[0],F.psu[0],'#7dff6a','PS1 LED')+led(a.ps[1],F.psu[1],'#7dff6a','PS2 LED');
+    s+=`<g class="sil" style="cursor:pointer"><circle cx="${X(a.sw1[0])}" cy="${Y(a.sw1[1])}" r="8" fill="transparent"/><circle cx="${X(a.sw1[0])}" cy="${Y(a.sw1[1])}" r="3.4" fill="${F.silenced?'#ffd34d':'#555'}" stroke="#aaa" stroke-width=".6"/><title>ALARM SILENCE (SW1)</title></g>
+      <text x="${10+W/2}" y="${H+40}" text-anchor="middle" font-size="10" fill="var(--ink2)">Door closed: the CorelDRAW front silk drawn 1:1. Fans sit behind the five grilles; ALARM and FAN LEDs, PS1/PS2 LEDs and the silence button sit on the silk's holes.</text>
+      <text x="${10+W/2}" y="${H+54}" text-anchor="middle" font-size="10" fill="var(--ink2)">Fan positions follow the grilles in the silk; the fan board itself (FAN-PCB.dxf) is not dimensioned for them ${'(inferred)'}.</text>`;
   } else {
     SLOT_X.forEach((x,i)=>{ const X=10+(0.9+x)*S, k=i<20?F.slots[i]:'FINC', sel=F.sel===i;
       const fill = i===20? '#2d4f7c' : k==='empty'? '#25282b' : CARDS[k].w>12? '#7a1d12' : '#1f6b3f';
@@ -87,24 +155,28 @@ function frontSVG(){
     [0,1].forEach(n=>{ const x=px+n*1.9*S; s+=`<g class="psu" data-n="${n}" style="cursor:pointer"><rect x="${x}" y="18" width="${1.8*S}" height="${H-16}" rx="4" fill="#4a4d52" stroke="#222"/><circle cx="${x+0.9*S}" cy="${H-30}" r="${0.5*S}" fill="#2a2c2f" stroke="#666"/><circle cx="${x+0.25*S}" cy="34" r="5" fill="${F.psu[n]?'#7dff6a':'#552222'}"/><text x="${x+0.9*S}" y="44" text-anchor="middle" font-size="10" fill="#ddd">PSU${n+1}</text></g>`; });
     s+=`<text x="${10+W/2}" y="${H+40}" text-anchor="middle" font-size="10" fill="var(--ink2)">Door open, to scale: 20 slots at 0.650/0.670″ alternating pitch, FINC slot 21 at +0.820″ (design notes).</text><text x="${10+W/2}" y="${H+54}" text-anchor="middle" font-size="10" fill="var(--ink2)">PSU bay from photo MVC-011F, sizes inferred. Click a slot to select; double-click to change its card.</text>`;
   }
-  return s+'</svg>';
+  return s+'</svg>'+(F.door==='closed'?`<div class="small muted" style="text-align:center">Artwork: ${SIM.src(ART.front.src,'MF6220-FRONT-SILK.cdr')} (2007-04-02)</div>`:'');
 }
 function rearSVG(){
-  const W=19*S, H=3.5*S;
+  const W=19*S, H=3.5*S, X=x=>10+x*S, Y=y=>10+y*S, pl=ART.ref, pp=ART.psu;
   let s=`<svg viewBox="0 0 ${W+20} ${H+50}" style="width:100%;display:block" role="img" aria-label="MF6220 rear">
-   <rect x="10" y="10" width="${W}" height="${H}" rx="4" fill="#1b1d20" stroke="#000"/>`;
-  for(let k=0;k<10;k++){ const x=10+(0.9+k*1.32)*S, a=F.slots[2*k], c=F.slots[2*k+1], used=a!=='empty'||c!=='empty';
+   <rect x="10" y="10" width="${W}" height="${H}" rx="4" fill="#1b1d20" stroke="#000"/>
+   <image href="${ASSET}${pp.f}" x="${X(pp.x)}" y="${Y(pp.y)}" width="${pp.w*S}" height="${pp.h*S}" preserveAspectRatio="none"/>
+   <image href="${ASSET}${pl.f}" x="${X(pl.x)}" y="${Y(pl.y)}" width="${pl.w*S}" height="${pl.h*S}" preserveAspectRatio="none"/>`;
+  // seen from behind, bay 1 (slots 1–2) is at the right-hand end
+  for(let k=0;k<10;k++){ const x=X(ART.bay0+(9-k)*1.32), a=F.slots[2*k], c=F.slots[2*k+1], used=a!=='empty'||c!=='empty';
     s+=`<g class="bay" data-n="${2*k+1}" style="cursor:pointer"><rect x="${x}" y="16" width="${1.3*S}" height="${3.16*S}" fill="${used?'#111':'#202326'}" stroke="${(F.sel>>1)===k?'#ffd34d':'#3a3d40'}"/>`;
     if (used) for(let r=0;r<5;r++) for(let q=0;q<2;q++) s+=`<circle cx="${x+(0.38+q*0.675)*S*0.98}" cy="${16+(0.31+r*0.625)*S}" r="${0.2*S}" fill="#b8a052" stroke="#6b5a23"/>`;
     s+=`<text x="${x+0.65*S}" y="${H+26}" text-anchor="middle" font-size="9" fill="var(--ink2)">bay ${k+1}</text></g>`; }
-  const cx=10+14.3*S;
-  s+=`<rect x="${cx}" y="16" width="${2.0*S}" height="${3.16*S}" fill="#262a2e" stroke="#444"/>
-    ${[0,1,2,3].map(i=>`<g class="refb" style="cursor:pointer"><circle cx="${cx+(0.5+(i%2)*1.0)*S}" cy="${16+(0.4+Math.floor(i/2)*0.6)*S}" r="${0.2*S}" fill="#b8a052" stroke="#6b5a23"/>${i===0&&F.ref?`<circle cx="${cx+0.5*S}" cy="${16+0.4*S}" r="${0.16*S}" fill="#2d63a6"/>`:''}<text x="${cx+(0.5+(i%2)*1.0)*S}" y="${16+(0.4+Math.floor(i/2)*0.6)*S+0.36*S}" text-anchor="middle" font-size="8" fill="#ccc">REF${i+1}</text></g>`).join('')}
-    <rect x="${cx+0.2*S}" y="${16+1.75*S}" width="${0.6*S}" height="${0.5*S}" fill="#888"/><text x="${cx+0.5*S}" y="${16+2.45*S}" text-anchor="middle" font-size="8" fill="#ccc">ETH</text>
-    <rect x="${cx+1.1*S}" y="${16+1.75*S}" width="${0.6*S}" height="${0.5*S}" fill="#777"/><text x="${cx+1.4*S}" y="${16+2.45*S}" text-anchor="middle" font-size="8" fill="#ccc">RS-232 ×2</text>
-    <rect x="${cx+0.4*S}" y="${16+2.65*S}" width="${1.2*S}" height="${0.3*S}" fill="#c33"/><text x="${cx+1.0*S}" y="${16+2.86*S}" text-anchor="middle" font-size="8" fill="#fff">DIP 1–4</text>`;
-  [0,1].forEach(n=>{ const x=10+16.6*S+n*1.1*S; s+=`<g class="psu" data-n="${n}" style="cursor:pointer"><rect x="${x}" y="${16+0.8*S}" width="${0.9*S}" height="${1.3*S}" rx="3" fill="#0d0d0e" stroke="#555"/><rect x="${x+0.15*S}" y="${16+1.0*S}" width="${0.6*S}" height="${0.45*S}" fill="#2b2b2b"/><text x="${x+0.45*S}" y="${16+2.4*S}" text-anchor="middle" font-size="9" fill="#ccc">AC${n+1}</text></g>`; });
-  return s+`<text x="${10+W/2}" y="${H+34}" text-anchor="middle" font-size="10" fill="var(--ink2)">Rear, to scale: ten 1.32″ rear-module bays (two slots each); MF6220-3 ref/comm panel (4 REF BNC, MagJack, 2 RJ RS-232, DIP);</text><text x="${10+W/2}" y="${H+47}" text-anchor="middle" font-size="10" fill="var(--ink2)">AC1/AC2 inlets with fuse (ACMODULE2). Panel positions inferred from the netlists.</text></svg>`;
+  // REF BNCs in the plate's four openings (REF1, REF2 legends on the silk; the lower two unlabelled)
+  [[198.9,403.8],[243.9,403.8],[198.9,448.8],[243.9,448.8]].forEach(([px,py],i)=>{ const [x,y]=RP(pl,px,py);
+    s+=`<g class="refb" style="cursor:pointer"><circle cx="${X(x)}" cy="${Y(y)}" r="${0.2*S}" fill="#b8a052" stroke="#6b5a23"/><circle cx="${X(x)}" cy="${Y(y)}" r="${0.06*S}" fill="#e8d9a0"/>${i===0&&F.ref?`<circle cx="${X(x)}" cy="${Y(y)}" r="${0.16*S}" fill="#2d63a6" opacity=".9"/>`:''}<title>${i<2?'REF'+(i+1):'unlabelled BNC '+(i+1)+' (REF '+(i+1)+' per MF6220-3)'} — click to connect/remove the reference</title></g>`; });
+  // Ethernet MagJack in its cut-out
+  { const [x,y]=RP(pl,252,507); s+=`<rect x="${X(x)}" y="${Y(y)}" width="${0.6*S}" height="${0.6*S}" fill="#9aa0a4" stroke="#444"/><rect x="${X(x)+0.1*S}" y="${Y(y)+0.15*S}" width="${0.4*S}" height="${0.33*S}" fill="#222"/><title>10/100 Ethernet (MagJack on MF6220-3)</title>`; }
+  // PSU inlets in the inlet plate's two cut-outs
+  [[361,375.4],[361,473.3]].forEach(([px,py],n)=>{ const [x,y]=RP(pp,px,py), w=78.6/72*S, h=89.3/72*S;
+    s+=`<g class="psu" data-n="${n}" style="cursor:pointer"><rect x="${X(x)+3}" y="${Y(y)+3}" width="${w-6}" height="${h-6}" rx="3" fill="#0d0d0e" stroke="${F.psu[n]?'#7dff6a':'#b3261e'}" stroke-width="1.5"/><rect x="${X(x)+w*0.22}" y="${Y(y)+h*0.18}" width="${w*0.56}" height="${h*0.36}" fill="#2b2b2b"/><text x="${X(x)+w/2}" y="${Y(y)+h*0.8}" text-anchor="middle" font-size="8" fill="#ccc">AC${n+1} ${F.psu[n]?'on':'off'}</text><title>PSU${n+1} inlet — click to switch</title></g>`; });
+  return s+`<text x="${10+W/2}" y="${H+34}" text-anchor="middle" font-size="10" fill="var(--ink2)">Rear, seen from behind: PSU inlet plate and MF6220-3 ref/comm plate from the CorelDRAW rear silk (placed as in photo “DFR8320 Rear.jpg”), then ten 1.32″ bays, bay 1 at the right.</text><text x="${10+W/2}" y="${H+47}" text-anchor="middle" font-size="10" fill="var(--ink2)">The silk's CONTROL cut-out (RS-232 ×2 and DIP on MF6220-3) is blanked on the photographed frame.</text></svg><div class="small muted" style="text-align:center">Artwork: ${SIM.src(ART.ref.src,'MF6220-REAR-SILK.cdr')} (2007-03-29)</div>`;
 }
 function bindFrame(root){
   root.querySelectorAll('.slot').forEach(g=>{ const i=+g.dataset.n; g.onclick=()=>{ if(i<20) A.slot(i); else act('Select FINC slot 21', tr=>{ F.sel=20; tr('FINC (Ross MFC-8310) in slot 21 on P21 (MEC1). It reads AN_FRAME_ID = R24 2K21 → ADC 704 → bin 10 → frame type 11 = “WBS – MF6220-1” in the FINC addressing sheet.'); }); }; g.ondblclick=()=>{ if(i<20) A.cycle(i); }; });
@@ -280,6 +352,9 @@ getAdcBin(ch) = 32 - (getAdcValue(ch) + 16) / 32</pre></div><div><h3>Live: slot 
 }
 function viewFind(m){
   const Fd=[
+    '<b>Artwork 2026|59: the front and rear panels now come from '+SIM.src(ENG+'SILK/MF6220-FRONT-SILK.cdr','MF6220-FRONT-SILK.cdr')+' (2007-04-02) and '+SIM.src(ENG+'SILK/MF6220-REAR-SILK.cdr','MF6220-REAR-SILK.cdr')+' (2007-03-29).</b> Converted with Inkscape, coloured from the photos (black door with white ink; clear aluminium plates with black ink). The fans now sit behind the silk\'s five grilles, the LEDs and silence button on its holes, the REF BNCs, MagJack and inlets in its cut-outs; the rear is now drawn as seen from behind (inlets left, bay 1 right), matching '+SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/Opengear - #Photos/DFR8320/DFR8320 Rear.jpg','DFR8320 Rear.jpg')+'.',
+    '<b>The silks show an earlier door than the one built.</b> Five round grilles, ALARM/FAN and PS1/PS2 LEDs; the photographed door is fully perforated, says FAULT / FAN FAIL and has no PSU LEDs. The front silk says “DFR-8320”, the rear silk “MF6220” (the built plate says DFR-8320).',
+    '<b>The bottom-panel silk confirms the slot pitch.</b> '+SIM.src(ENG+'SILK/MF6220-BOTPAN-SILK.cdr','MF6220-BOTPAN-SILK.cdr')+' numbers slots 1–20 over holes at 0.650″/0.670″ alternating pitch.',
     '<b>Slot pitch alternates, and slot 20 is cramped.</b> The design notes give 0.650″/0.670″ alternating pitch and 0.820″ between slot 20 and the FINC, leaving about 0.600″ of component height at position 20. They also note the Ross DFR-8310 already breaks the 0.800″ height spec at its position 10.',
     '<b>Only one CAN terminator on the midplane.</b> CANP/CANN run to all 20 slots and the FINC with a single 121 Ω (R21). The DevGuide says the bus “is terminated on the midplane”; a CAN bus normally needs a terminator at each end, so the other one would have to be on the FINC ' + inf('ISO 11898 practice') + '.',
     '<b>The reference plan was built as written.</b> The notes propose buffering the reference and driving every slot from a back-terminated line, “maybe 150 Ω to conserve power”. MF6220-3 ISS5 does exactly that: an EL5263 drives 21 × 150 Ω arrays, and the midplane terminates every REF line with 150 Ω at the slot. Each buffer output sees 21 × 300 Ω ≈ 14 Ω.',
@@ -296,6 +371,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:'mf6220-frame', product:'MF6220 - FRAME', name:'MF6220 · Ward-Beck 20-slot openGear frame (2006|39)', year:2006, family:'openGear',
   folder:'#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE',
   summary:'Ward-Beck\'s own 2RU, 20-slot openGear frame: a midplane with a slot-ID resistor ladder and buffered 150 Ω reference to every slot, a five-fan alarm door and a rear reference/comms board. Two hot-swap supplies, a Ross FINC in slot 21. Obsolete.',

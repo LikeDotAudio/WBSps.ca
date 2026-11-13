@@ -15,7 +15,7 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [full simulation: 32ME uNet / MADI modules](../siumulation.html?plugin=32me) · [simulator & front panel](../simulator.html?m=32ME-N) · [KiCad symbol generator](../kicad.html?m=32ME-N) |
+| Try it | [full simulation: 32ME uNet / MADI modules](../siumulation.html?plugin=32me) · [KiCad symbol generator](../kicad.html?m=32ME-N) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — estimate from a dated variant |
 | Evidence | from 32ME |
 | Confidence | family |
@@ -32,22 +32,11 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|---|
 | 2014 | [2014 - 32ME-N - Information Sheet.jpg](../Products/RAVENNA%20AES67/32ME-N/2014%20-%2032ME-N%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/32ME-N/2014%20-%2032ME-N%20-%20Information%20Sheet.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "32ME-N",
- "category": "RAVENNA AES67",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/32ME-N/2014 - 32ME-N - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```
+1. The 2013 rear silk has MADI on an optical duplex cut-out and two BNCs, and no SYNC BNCs; two small holes are both labelled SYNC. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+2. The ANALOG MONITOR OUTPUT legend puts R on the left and L on the right, each as + − G, on a single 6-way Phoenix cut-out. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+3. The 2013 rear art has no RJ45 or option-card opening, so the uNet2500 of the 32ME-N had no rear port on this panel. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+4. The rear sheet holds the panel twice: a copy with hole guides placed off the page and the WHITE plate on the page. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+5. Rear mains legend: “90-230 VAC, 1A S.B. CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE” plus “PLEASE REFER TO MANUAL” beside a warning triangle. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+6. The SILK tree holds about 26 CorelDRAW files for the 32ME panels and chroma filter (2012–2013), many as Backup_of_ copies, all under OBSOLETE except ConceptFrontAll.cdr. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE`

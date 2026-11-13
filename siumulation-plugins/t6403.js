@@ -1795,6 +1795,32 @@ function pxy(p){ const a=S.view==='cdr'? artOf() : null; return (a && a.at && a.
 DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from "+SIM.src("#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403.cdr", "T6403.cdr")+" (2006-11-15) and "+SIM.src("#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403-iss2.cdr", "T6403-iss2.cdr")+" (2007-03-05).</b> It is the default View; the Gerber copper (connector face and card side) stays on the View selector. Converted with Inkscape; the hairline outlines (stroke width 0 in CorelDRAW) were given a 0.6 pt line, the multi-line “+ − G” legends were re-stacked on the pin pitch because libcdr loses line layout, and the sheet caption “GENERIC” was dropped. Every connector centre in the drawing was checked against the Gerber positions.",
   "Two guides, one per issue: T6403.cdr (2006|39) has AES1–AES4 on 1–8 and BNC9 on the blocks at 9–10; T6403-iss2.cdr moves BNC1 to the top blocks (1–2) and AES1–AES4 down, the ISS2 netlist change. ISS3 (2012|45) has no guide of its own; the ISS2 guide is shown. A third copy of the ISS2 drawing sits in “T6403 - #ISS2 #OBSOLETE”, and the sheet carries a stray “ISSUE 2” caption outside the guide.");
 DATA.sources.unshift("#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403.cdr (CorelDRAW rear-module guide, 2006-11-15; assets/t6403-rear-iss1.svg)", "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403-iss2.cdr (CorelDRAW rear-module guide, 2007-03-05; assets/t6403-rear-iss2.svg)");
+const FOOT = [
+{
+"text": "T6403.cdr (2006-11-15) puts AES1–AES4 on 1–8 and labels the blocks at 9–10 “BNC9”, the ISS1 netlist.",
+"src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403.cdr"
+},
+{
+"text": "T6403-iss2.cdr (2007-03-05) moves BNC1 to the top blocks and AES1–AES4 down, the ISS2 change; ISS3 (2012) has no guide of its own.",
+"src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403-iss2.cdr"
+},
+{
+"text": "The ISS2 sheet carries a stray “ISSUE 2” caption outside the guide frame.",
+"src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403-iss2.cdr"
+},
+{
+"text": "A third copy of the ISS2 drawing sits in “T6403 - #ISS2 #OBSOLETE”, and Backup_of_T6403.cdr / Backup_of_T6403-iss2.cdr sit beside the masters.",
+"src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403 - #ISS2 #OBSOLETE/T6403-iss2.cdr"
+},
+{
+"text": "Every position on this all-block module is labelled with a signal name, including “BNC1” and “BNC9” on 3-pin terminal blocks.",
+"src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403.cdr"
+},
+{
+"text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+"src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403.cdr"
+}
+];
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
@@ -2272,6 +2298,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

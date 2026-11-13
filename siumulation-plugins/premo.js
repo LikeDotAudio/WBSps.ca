@@ -1268,6 +1268,7 @@ function viewNotes(m){
   window.__premoActive = false;
   m.innerHTML = card('What the PREmo code is up to — findings from the source', `
   <ol>
+    <li><b>Artwork 2026|59: the panel silkscreen artwork is missing.</b> <span class="mono">PREMO222-FRONT ISS.1(PANEL)</span> calls for “SILKSCREEN TO ARTWORK #PREMO222-FRONT &amp; REAR-SILK” on 0.250 in aluminium powder-coated San Tex black, but no artwork file of that name (or any PREmo CorelDRAW, EPS or AI file) is in the archive, so the panels stay drawn from the PCB assembly drawings. Source: ${SIM.src('#PREmo #Series/RD88-MICpre/PREmo - #Mechanical #DA #2016/PREMO222-FRONT ISS.1(PANEL).pdf','PREMO222-FRONT ISS.1(PANEL).pdf')}.</li>
     <li><b>Nothing survives a power cut.</b> There is no flash or EEPROM write anywhere in <span class="mono">PreMo b0-3</span>. At boot <span class="mono">phantomInit()</span> forces phantom OFF, <span class="mono">that5171Init()</span> resets the gain chip to step 0 (5.6 dB), and <span class="mono">count</span> starts at 0. This is fault #1 in the roadmap sheet (“does not revert to previous state when powered on”). Pre-Mote makes it worse: it never reads anything back, so after a reboot the PC still shows the old slider while the unit is at 0.</li>
     <li><b>The “dB” on the OLED and in Pre-Mote is not dB.</b> Both show the THAT5171 gain register (0, 8–63). The real preamp gain is 5.6 dB at step 0 and step + 5.6 dB above that (13.6–68.6 dB; schematic S6 and the 5171 datasheet). So “Gain: 40dB” is really 45.6 dB.</li>
     <li><b>Zero-crossing mode fights the busy check.</b> <span class="mono">that5171Init()</span> selects <span class="mono">THAT5171_MODE_ZC</span>, so after each write BUSY (PB7) stays high until the next zero crossing or the 22 ms RC timeout (R55 22 MΩ, C39 1 nF). <span class="mono">that5171WriteGain()</span> and <span class="mono">that5171ReadGain()</span> silently do nothing while BUSY is high. Two results:
@@ -1309,6 +1310,10 @@ SIM.register({
   summary:'One-channel AES67/Ravenna microphone preamp: THAT1580 + THAT5171 digital gain, AK5572 ADC, Archwave uNet Mini, PoE. An STM32F070 drives an SSD1306 OLED and a push-turn encoder, and takes UDP commands from the VB.NET Pre-Mote app over the uNet\'s ARC serial link.',
   highlights:['Display and main boards from the real Altium assembly drawings','Working Pre-Mote V2 window that sends the real “Gain40” / “PHANTOM” bytes','Firmware replayed byte by byte: COBS/ARC frames, SPI to the THAT5171, OLED pixels from the firmware font','12-step tutorial including the power cycle that forgets everything','Zero-crossing gain race, phantom relay race and other bugs you can trigger'],
   depth:'Full model',
+  footnotes:[
+    {text:'The front-panel drawing says “SILKSCREEN TO ARTWORK #PREMO222-FRONT &amp; REAR-SILK”, but no such artwork file (CorelDRAW, PDF or otherwise) is in the archive, so the panels here stay drawn from the PCB assembly drawings.', src:'#PREmo #Series/RD88-MICpre/PREmo - #Mechanical #DA #2016/PREMO222-FRONT ISS.1(PANEL).pdf'},
+    {text:'The PREMO222 panels are 0.250 in aluminium, powder-coated San Tex black (Protech PX611N331), with the silkscreen applied before the powder coat.', src:'#PREmo #Series/RD88-MICpre/PREmo - #Mechanical #DA #2016/PREMO222-FRONT ISS.1(PANEL).pdf'},
+  ],
   stepUnits:[
     {label:'1 UART byte (86.8 µs)', period:()=>C.UB},
     {label:'1 AES67 packet (1 ms)', period:()=>C.PKT},

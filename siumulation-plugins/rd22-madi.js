@@ -872,6 +872,18 @@ SIM.register({
   product:'RD22 MADI', year:2012, family:'R&D register', folder:'ENGINEERING - 2016 RD FILES/RD22-MADI',
   summary:'The R&D project that brought MADI (AES10, 64 channels on one coax) into the AMS8x monitor platform and became the 32ME. A DirectOut i64 module decodes the 125 Mbit/s link; a Cyclone IV unpacks SMUX1/2/4 into I2S for the SHARC meters and reports dead channels to the ATmega128 over SPI.',
   highlights:['MADI down to 4B/5B symbols, JK syncs and NRZI cells','smux_to_i2s.v and spicontrol.v run cycle by cycle','Real Feb 2013 32ME panel artwork','ERR-LED flicker traced to a 5-bit counter compare','FPGA part history EP1C6 → EP4CE40 → EP4CE30'],
+  footnotes: [
+    {"text": "Front and rear panels are drawn from the assembled views on the 21 Feb 2013 CorelDRAW sheets (each sheet also holds separate WHITE and GREEN plates); there is no text-as-curves version of this issue.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/32ME-M1 FRONT PANEL_Feb212013.cdr"},
+    {"text": "The meters sit behind four chromatic-filter windows; the filter print gives each window four stereo pairs with one SEL and one ERR legend per pair and a shared −34 … +14 dB scale — 16 ERR legends for 32 meters.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/ChromaFilter/32ME-CHROMATFILTER_Feb192013.cdr"},
+    {"text": "The front has 16 small holes (Ø0.117″ in 0.183″ rings) beside the channel legends 1, 8, 9 … 32 and 33, 40 … 64; no LED is named for them in the code, so they are probably fixings (inferred).", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/32ME-M1 FRONT PANEL_Feb212013.cdr"},
+    {"text": "One unlegended hole sits between ADJUST and HEADSET on the front.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/32ME-M1 FRONT PANEL_Feb212013.cdr"},
+    {"text": "The prototype filter printed CH1–CH8 under every window; the 19 Feb 2013 filter drops them.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/ChromaFilter/OBSOLETE/PROTOTYPE_V1/32ME-CHROMATFILTER-FINALCURVE.cdr"},
+    {"text": "An earlier front had “1-32 / 33-64” group LEDs at the right and no display; the Feb 21 issue replaced them with the dot-matrix window, ADJUST (PUSH) and HEADSET.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/Obsolete/32ME-FRONTPANEL-FINALCURVE.cdr"},
+    {"text": "The rear has a MADI optical OUT/IN cut-out next to the coax BNCs, each with a “SYNC” hole beside it, and no SYNC BNCs.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"},
+    {"text": "libcdr lost the alignment and line breaks of the rear's “MADE IN CANADA”, caution block and “PLEASE REFER TO MANUAL”; they are re-set by hand here.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"},
+    {"text": "ConceptFrontAll.cdr (same date) holds nine alternative front layouts that move the logo and 32ME badge between windows.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/ConceptFrontAll.cdr"},
+    {"text": "The SILK/OBSOLETE folder keeps many Backup_of_ copies and three earlier front saves (FINAL, FINALCURVE, new) beside the dated sheets.", "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/Obsolete/32ME-FRONTPANEL FINAL.cdr"}
+  ],
   depth:'Full model',
   stepUnits:[
     {label:'1 MADI frame', period:()=>1/(D.frame96?2*D.fs:D.fs)},

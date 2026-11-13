@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD28](../siumulation.html?plugin=pod28) · [simulator & front panel](../simulator.html?m=POD28) · [KiCad symbol generator](../kicad.html?m=POD28) · [download package (zip)](../_packages/POD28.zip) |
+| Try it | [full simulation: POD28](../siumulation.html?plugin=pod28) · [KiCad symbol generator](../kicad.html?m=POD28) · [download package (zip)](../_packages/POD28.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct. 01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD28 MANUAL(1).docx |
 | Confidence | medium |
@@ -90,53 +90,9 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD28 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD28 - MANUAL (2).docx](../Products/PODS/POD28/2014%20-%20POD28%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD28",
- "name": "HD-SDI Distribution Amplifier",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD28/2014 - POD28 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD28/2014 - POD28 - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD28/2014 - POD28 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD28/2014 - POD28 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD28/2014 - POD28 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The front is drilled only for PWR, SDI, HD and ERROR. There is no fourth tally, unlike the four-LED POD28iss1 build seen in an M8205 error file. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr`
+2. The rear prints “100-240 VAC, 50-60 Hz, ½ A.S.B.” beside the IEC cut-out, with the CAUTION block turned on its side. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr`
+3. The small hole above the right rear fixing screw is the ground-stud insert (FH-440-5) on the POD28 ISS 1 rear drawing. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr`
+4. The silk PNGs had been cut 3 px inside the crop marks (1709 × 316 px), so the full-panel vector art sits at (−3, −3) in that frame. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr`

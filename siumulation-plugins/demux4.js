@@ -1182,6 +1182,10 @@ function viewFindings(m){
 /* ---------------- register plugin ---------------- */
 function avgPass(){ const s=sched(), P0=page0(); const ps=s.passes.filter(p=>p.t0>=P0&&p.t0<P0+1&&p.t1); if (!ps.length) return 0.03; return ps.reduce((a,p)=>a+(p.t1-p.t0),0)/ps.length; }
 SIM.register({
+  footnotes: [{"text": "Artwork 2026|59: the stand-alone DEMUX-4 has no CorelDRAW panel of its own (none in SA-DEMUX4 - #Master); the board view stays on the top silk from DEMUX4-ISS2-ASSY.PDF.", "src": "SA-DEMUX4 - #Master/DEMUX4 - #Engineering/PCB/ISS2/DEMUX4-ISS2-ASSY.PDF"},
+    {"text": "The ‘AMS82-DEMUX4’ CorelDRAW sheets are 2005|38–2006|39 AMS8-2 host panels, eight years before the RD31 board: the rear has an SDI IN 1/2, SDI OUT, COMP, Y, Cr, Cb top row and a four-legend SDI IN, SDI OUT, AES 1, AES2 plate, and is still titled AMS-81.", "src": "AMS8 #Engineering #TIM/AMS82/SILK/AMS82-DEMUX4-REARPANEL-SILK-CURVE.cdr"},
+    {"text": "Those 2005 ‘CURVE’ sheets still hold their legends as live text (41 to 74 text objects each), and Backup_of_ copies of every sheet sit beside them.", "src": "AMS8 #Engineering #TIM/AMS82/SILK/AMS82-DEMUX4-SILK-CURVE.cdr"},
+    {"text": "The board that was built fits the AMS8-2 centre plate with five BNCs (SDI IN 1, SDI IN 2, SDI OUT, AES OUT 1, AES OUT 2), the same five as BNC1–BNC5 on the board.", "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2AAM (Demux 4).jpg"}],
   id:'demux4', name:'SA-DEMUX4 · 3G/HD/SD-SDI audio de-embedder (2013|46)', duration:1,
   product:'SA-DEMUX4 / DEMUX-4', year:2013, family:'SDI audio de-embedder (RD31)',
   folder:'SA-DEMUX4 - #Master',

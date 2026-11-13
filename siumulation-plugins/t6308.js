@@ -773,6 +773,8 @@ const DATA = {
   "issueHint": "Compare the netlist issue with the as-placed one: BNC 8 gains R10 across L7 and its return loss changes."
  },
  "findings": [
+  "<b>Artwork 2026|59:</b> the connector face is now the T6308A panel cut from the CorelDRAW rear-module guide <span class=\"mono\">M6204A - rear module options.cdr</span> (2012-01-09; PDF export 2012-01-16). The Gerber render stays on the View menu.",
+  "<b>The guide is a scaled pinout, not a 1:1 template.</b> Its panel has the board's 1.335 × 3.38 in proportions, but its BNC row pitch scales to 0.641 in against 0.625 in in the Gerbers, and its columns sit at 0.231 / 0.868 in against 0.238 / 0.863 in. Its legend (1 SDI IN, 2 AES IN7, 9 SDI OUT, 10 AES IN8) agrees with the netlist routing.",
   "<b>BNC10 is an unbalanced feed into a balanced input.</b> The centre pin of BNC10 runs, with no inductor and no termination, to net AES4P (P101-51); its shell is GNDD. The matching AES4N pin 49 is left alone on a net renamed <span class=\"mono\">AESN</span>. The copper trace confirms it. The 75 Ω termination for “AES IN8” must come from the card <span class=\"tag-inf\">inferred</span>.",
   "<b>A dummy load on the card’s second SDI output.</b> R9 75R ties BNC10_SIG (P101-12) to GNDD. On the T6301 that pin is the M6204A’s SDI OUT2; here it has no connector, so the driver sees a matched load instead of an open line <span class=\"tag-inf\">inferred purpose</span>.",
   "<b>The PNP fits a resistor the netlist lacks.</b> <span class=\"mono\">T6308.pnp</span> places R10 75R next to L7 (BNC8, AES IN6); <span class=\"mono\">T6308.net</span> has no R10 and leaves L7 alone. The as-placed issue models R10 across L7.",
@@ -868,7 +870,7 @@ function freshRR(){ const o={}; SLOTS.forEach(s=>o[s]={fit1:true,fit2:true,r1:nu
 function defCards(){ const o={}; SLOTS.forEach((s,i)=>o[s]=(DATA.defaultCards&&DATA.defaultCards[s])||DATA.cards[0].id); return o; }
 const S = {
   issue: DATA.defaultIssue, cards: defCards(), sel: 1, cable:{}, load:{}, srcLvl:0, padC:0.45,
-  rr: freshRR(), idReads:0, idReadSlots:{}, idAt:null, showRL:false, view:'rear',
+  rr: freshRR(), idReads:0, idReadSlots:{}, idAt:null, showRL:false, view:'guide',
   log:[], last:null, blockSel:'p101',
 };
 function I(){ return DATA.issues[S.issue]; }
@@ -963,23 +965,29 @@ function lostOf(slot){
 
 /* ---------------- panel drawing ---------------- */
 const PX = 100; // SVG units per inch
+/* BNC centres measured in the CorelDRAW guide (M6204A - rear module options.cdr, T6308A panel 39.6 × 99.5 pt), in board inches */
+const GUIDE_SRC = '#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6204A - rear module options.cdr';
+const GUIDE_XY = (()=>{ const xs=[519.95,538.85], ys=[254.05,272.95,291.85,310.75,329.65], o={};
+  for (let n=1;n<=10;n++){ const c=(n-1)%2, r=Math.floor((n-1)/2); o[n]=[(xs[c]-513.1)/39.6*1.335, (ys[r]-239.2)/99.5*3.38]; } return o; })();
 function panelSVG(opts){
   opts=opts||{};
   const iss=I(), W=iss.w*PX, H=iss.h*PX, M=185, TOP=DUAL?38:20;
-  const img = S.view==='card' ? iss.img+'-card.png' : iss.img+'-rear.png';
+  const GV = S.view==='guide';
+  const img = S.view==='card' ? iss.img+'-card.png' : GV ? 't6308-guide.svg' : iss.img+'-rear.png';
   let s=`<svg viewBox="0 0 ${W+2*M} ${H+TOP+28}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${DATA.product} rear module drawn from ${esc(iss.art)}">
    <defs><filter id="${ID}glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs>
    <rect x="${M-4}" y="${TOP-4}" width="${W+8}" height="${H+8}" rx="5" fill="#0b0c0d"/>
-   <image href="${ASSET}${img}" x="${M}" y="${TOP}" width="${W}" height="${H}" preserveAspectRatio="none"/>`;
+   <image href="${ASSET}${img}" x="${M}" y="${TOP}" width="${W}" height="${GV?H*101/99.5:H}" preserveAspectRatio="none"/>`;
   if (S.view==='card'){
     s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">card side (${iss.cardSide}) — ${SLOTS.join(' and ')} face the card${DUAL?'s':''}</text></svg>`;
     return s;
   }
-  s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">connector face, seen from behind the frame (${iss.face})</text>`;
+  s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">connector face, seen from behind the frame (${GV?'CorelDRAW rear-module guide':iss.face})</text>`;
   if (DUAL) SLOTS.forEach((sl,i)=>{ const x = i===0? M-6 : M+W+6; s+=`<text x="${x}" y="30" text-anchor="${i===0?'end':'start'}" font-size="11" font-weight="700" fill="var(--accent)">${i===0?'◀ ':''}${sl} · ${esc(cardAt(sl).id)}${i===0?'':' ▶'}</text>`; });
   (iss.blocks||[]).forEach(b=>{ s+=`<rect x="${M+b.x*PX-15}" y="${TOP+b.y0*PX-9}" width="30" height="${(b.y1-b.y0)*PX+18}" rx="3" fill="none" stroke="#b9b9b0" stroke-width="1.2" stroke-dasharray="3 2"/><text x="${M+b.x*PX}" y="${TOP+b.y0*PX-12}" text-anchor="middle" font-size="9" fill="var(--ink2)">${b.ref}</text>`; });
   iss.pos.forEach(p=>{
-    const x=M+p.x*PX, y=TOP+p.y*PX, r=role(p.n), sel=S.sel===p.n, plug=!!S.cable[p.n], L=level(p.n);
+    const gq = GV && p.kind==='bnc' ? GUIDE_XY[p.n] : null;
+    const x=M+(gq?gq[0]:p.x)*PX, y=TOP+(gq?gq[1]:p.y)*PX, r=role(p.n), sel=S.sel===p.n, plug=!!S.cable[p.n], L=level(p.n);
     const col = r.dir==='in'? 'var(--accent2)' : r.dir==='out'||r.dir==='io'? 'var(--accent)' : '#777';
     const g=guideOf(p.n), warn = r.dir==='nc' && g && !/not connected|reserved/i.test(g);
     if (p.kind==='bnc'){
@@ -1003,7 +1011,7 @@ function panelSVG(opts){
         <text x="${tx}" y="${y+24}" text-anchor="${an}" font-size="9.5" fill="var(--ink2)">${p.ref}${p.L?' · '+p.L+(p.R?'‖'+p.R:''):''} · ${p.slot}-${sigPinTxt(p)}</text></g>`;
     }
   });
-  s+=`<text x="${M+W/2}" y="${H+TOP+22}" text-anchor="middle" font-size="10" fill="var(--ink2)">${iss.w.toFixed(3)}″ × ${iss.h.toFixed(3)}″ at 1:1 scale</text></svg><div class="small muted" style="text-align:center">Artwork: ${esc(iss.art)}</div>`;
+  s+=`<text x="${M+W/2}" y="${H+TOP+22}" text-anchor="middle" font-size="10" fill="var(--ink2)">${iss.w.toFixed(3)}″ × ${iss.h.toFixed(3)}″ ${GV?'(guide scaled to the board outline)':'at 1:1 scale'}</text></svg><div class="small muted" style="text-align:center">Artwork: ${GV? SIM.src(GUIDE_SRC,'M6204A - rear module options.cdr')+' (CorelDRAW, 2012-01-09), T6308A panel; ink and panel colour from the Gerber render '+inf('the T6308 Gerber solder-mask render; no photo of the module in the archive') : esc(iss.art)}</div>`;
   return s;
 }
 function bindPanel(root){
@@ -1031,7 +1039,7 @@ const A = {
     if (m.filter(x=>!x.startsWith(DATA.product)).length && m.some(x=>/^T6/.test(x))) tr('CLASH: another module answers with the same code; the card cannot tell them apart.');
   }); },
   setR(which,v){ const slot=idSlot(); act('Change '+slot+' '+(which===1?'AN_BMID':'AN_BMID2')+' to '+rFmt(v), tr=>{ const q=S.rr[slot]; if(which===1){q.r1=v;q.fit1=v<OPEN;} else {q.r2=v;q.fit2=v<OPEN;} const d=idOf(R1(slot),R2(slot)); tr('Code '+d.disp+' (rmId 0x'+d.rm.toString(16).padStart(4,'0')+')'); }); },
-  reset(){ act('Reset the bench', tr=>{ Object.assign(S,{issue:DATA.defaultIssue,cards:defCards(),sel:1,cable:{},load:{},srcLvl:0,rr:freshRR(),idReads:0,idReadSlots:{},idAt:null,showRL:false,view:'rear'}); tr('Default issue, default cards, no cables.'); }); },
+  reset(){ act('Reset the bench', tr=>{ Object.assign(S,{issue:DATA.defaultIssue,cards:defCards(),sel:1,cable:{},load:{},srcLvl:0,rr:freshRR(),idReads:0,idReadSlots:{},idAt:null,showRL:false,view:'guide'}); tr('Default issue, default cards, no cables.'); }); },
 };
 document.addEventListener('keydown', e=>{
   if (!window[FLAG] || (e.target.matches && e.target.matches('input,select,textarea'))) return;
@@ -1136,7 +1144,7 @@ function controlsHTML(){
   return `<div style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:6px 0">
     ${SLOTS.map(sl=>`<label class="small">${DUAL?'Card on '+sl:'Mating card'} <select data-c="card" data-slot="${sl}">${cardsForIssue().map(c=>`<option value="${c.id}" ${c.id===S.cards[sl]?'selected':''}>${esc(c.id)} — ${esc(c.short||c.label)}</option>`).join('')}</select></label>`).join('')}
     ${ks.length>1?`<label class="small">Issue <select data-c="issue">${ks.map(k=>`<option value="${k}" ${k===S.issue?'selected':''}>${esc(DATA.issues[k].label)}</option>`).join('')}</select></label>`:''}
-    <label class="small">View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>connector face</option><option value="card" ${S.view==='card'?'selected':''}>card side (${SLOTS.join('/')})</option></select></label>
+    <label class="small">View <select data-c="view"><option value="guide" ${S.view==='guide'?'selected':''}>connector face (CorelDRAW guide)</option><option value="rear" ${S.view==='rear'?'selected':''}>connector face (Gerbers 1:1)</option><option value="card" ${S.view==='card'?'selected':''}>card side (${SLOTS.join('/')})</option></select></label>
     <button data-c="plug">Plug / unplug selected (P)</button><button data-c="id">Card reads ID (R)</button><button data-c="reset">Reset</button></div>
     <div class="small muted">Click a connector to select it; double-click it (or press P) to plug a cable in. Keys 1–9, 0 select positions 1–10.${DUAL?' Each column mates with its own card: the ID read uses the slot of the selected position.':''}</div>`;
 }
@@ -1434,6 +1442,13 @@ function viewFind(m){
 SIM.register({
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
+  footnotes:[
+    {text:'The T6308A panel shown is cut from the CorelDRAW rear-module guide drawn for the M6204A muxer (2012-01-09); the same sheet also holds the T6301A.', src:GUIDE_SRC},
+    {text:'The guide is a scaled pinout drawing: its BNC row pitch works out to 0.641 in against 0.625 in in the Gerbers, so it is not a drilling template.', src:'#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION/T6308 - #ENGINEERING/T6308 - #GERBER/T6308.DRL'},
+    {text:'The guide labels BNC10 “AES IN8”; in copper that BNC drives only the + leg of the AES4 pair (P101-51), with AES4N left floating.', src:'#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION/T6308 - #ENGINEERING/T6308 - #PCB/T6308.net'},
+    {text:'The pick-and-place file fits an R10 75R across L7 (BNC8) that the netlist does not have.', src:'#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION/T6308 - #ENGINEERING/T6308 - #PCB/T6308.pnp'},
+    {text:'The folder README says “7 × 75 Ω”; one of the seven (R9) is the dummy load on the card’s unused SDI OUT2, so only six BNCs carry a termination resistor.', src:'#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION/README.md'},
+  ],
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],
   zooms:[[1,'1 s (whole second)'],[0.1,'100 ms'],[FIELD,'1 field (16.7 ms)'],[0.004,'1 AES block (4 ms)'],[0.001,'1 ms (ID read)'],[HLINE*2,'2 video lines'],[4/FS,'4 AES frames (83 µs)'],[2e-6,'2 µs (bit cells)']],
   defaultZoom:4,

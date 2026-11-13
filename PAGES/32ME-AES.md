@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: 32ME uNet / MADI modules](../siumulation.html?plugin=32me) · [simulator & front panel](../simulator.html?m=32ME-AES) · [KiCad symbol generator](../kicad.html?m=32ME-AES) · [download package (zip)](../_packages/32ME-AES.zip) |
+| Try it | [full simulation: 32ME uNet / MADI modules](../siumulation.html?plugin=32me) · [KiCad symbol generator](../kicad.html?m=32ME-AES) · [download package (zip)](../_packages/32ME-AES.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Mar.06 2015" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/32ME-AES MANUAL(1).docx |
 | Confidence | medium |
@@ -65,41 +65,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2015 - 32ME-AES - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - 32ME-AES - MANUAL.docx](../Products/METERING/32ME-AES/2015%20-%2032ME-AES%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "32ME-AES",
- "name": "High Density 32 Channel Audio Meter",
- "category": "METERING",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/METERING/32ME-AES/2015 - 32ME-AES - Information Sheet.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/METERING/32ME-AES/2015 - 32ME-AES - MANUAL (2).docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/32ME-AES/2015 - 32ME-AES - MANUAL.docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. The 2013 rear silk has MADI on an optical duplex cut-out and two BNCs, and no SYNC BNCs; two small holes are both labelled SYNC. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+2. The ANALOG MONITOR OUTPUT legend puts R on the left and L on the right, each as + − G, on a single 6-way Phoenix cut-out. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+3. The 2013 rear art has no RJ45 or option-card opening, so the uNet2500 of the 32ME-N had no rear port on this panel. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+4. The rear sheet holds the panel twice: a copy with hole guides placed off the page and the WHITE plate on the page. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+5. Rear mains legend: “90-230 VAC, 1A S.B. CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE” plus “PLEASE REFER TO MANUAL” beside a warning triangle. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr`
+6. The SILK tree holds about 26 CorelDRAW files for the 32ME panels and chroma filter (2012–2013), many as Backup_of_ copies, all under OBSOLETE except ConceptFrontAll.cdr. — `ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE`

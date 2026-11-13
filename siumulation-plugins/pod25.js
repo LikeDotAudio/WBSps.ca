@@ -974,6 +974,7 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes:[{"text": "The green plate carries the ALARM ON / OFF bars and the 9-slot vent.", "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr"}, {"text": "A small round hole at the top right of the rear has no legend (ground stud or spare, inferred).", "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr"}, {"text": "The rear terminal-block window is one long cut-out for 2 × 9-way blocks, ruled into OUTPUT 1, OUTPUT 2 and OUTPUT 1+2.", "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr"}, {"text": "POD25-FRONT&REAR.cdr (21 May 2014) is the live-text version of the same sheet; the CURVE file is dated Jul.02/14.", "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR.cdr"}, {"text": "The rear photo shows an older silk with “DISCONNECT POWER BEFORE SERVICING” across the bottom, not the Jul.02/14 artwork.", "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr"}],
   id:'pod25', name:'POD25 · Stereo silence detector ('+Y(2003)+')', duration:DUR,
   product:'POD25', year:2003, family:'POD series',
   folder:'#POD #SERIES/POD25 - #Master',

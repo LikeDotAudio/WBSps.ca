@@ -10,7 +10,7 @@
    - PCB/GERBERS/M8209_ISS1.TOP, .BOT, .TSM, .SLK (board art, incl. the "MODE JUMPERS STEREO J1 J4 / MONO J1 J3 /
        MIX J2 J3" silk legend)
    - M8209_TR3.cdr/.pdf ("M8209A TERMINAL OPTIONS", ST8201A SOLDER TERMINAL), M8209_MAN.cdr (manual cover art)
-   Assets: assets/m8209-board.png (rendered from the Gerbers, 100 dpi), assets/m8209-st8201a.png (cut from M8209_TR3.cdr).
+   Assets: assets/m8209-board.png (rendered from the Gerbers, 100 dpi), assets/m8209-rear-st8201a.svg (M8209_TR3.cdr converted to SVG, 2026|59; replaces the earlier m8209-st8201a.png cut).
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
 (function(){
@@ -167,18 +167,20 @@ function boardSVG(){
    <text x="2" y="${BH+32}" font-size="10.5" fill="var(--ink2)">Click a part to inspect it; click H1/H2 (MODE), H3/H4 (termination) to move the links; click PB1/PB2 to press. Board 10.56″ × 2.84″.</text></svg>`;
   return s;
 }
-/* ST8201A solder terminal (M8209_TR3.cdr) — 471 × 865 px art */
-const TERM = [['IN1',[183,191],[292,191],'A','in'],['OUT1',[183,296],[292,296],'A','out'],['OUT2',[183,508],[292,508],'B','out'],['IN2',[183,696],[292,696],'B','in']];
+/* ST8201A solder terminal — CorelDRAW art (2026|59): assets/m8209-rear-st8201a.svg, the panel of M8209_TR3.cdr (2005-03-21)
+   converted with Inkscape; sheet title removed, hairlines widened, legends re-anchored. Coordinates are the CDR's points.
+   Solder cups: left column x 368.9, right 421.4; rows from the cup centres in the art. */
+const TR3 = '#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr';
+const TERM = [['IN1',[368.9,183.7],[421.4,183.7],'A','in'],['OUT1',[368.9,234.8],[421.4,234.8],'A','out'],['OUT2',[368.9,336.6],[421.4,336.6],'B','out'],['IN2',[368.9,427.1],[421.4,427.1],'B','in']];
 function termSVG(){
   const M=model();
-  let s=`<svg viewBox="0 0 471 865" style="width:100%;max-width:260px;display:block;margin:auto" role="img" aria-label="ST8201A solder terminal from M8209_TR3.cdr"><rect width="471" height="865" fill="#e9e7e0"/><image href="${ASSET}m8209-st8201a.png" width="471" height="865"/>
-   <text x="235" y="70" text-anchor="middle" font-size="26" font-weight="700" fill="#222">ST8201A</text><text x="235" y="100" text-anchor="middle" font-size="18" fill="#444">SOLDER TERMINAL · + │ −</text>`;
+  let s=`<svg viewBox="282 90 226 418" style="width:100%;max-width:280px;display:block;margin:auto;border-radius:6px" role="img" aria-label="ST8201A solder terminal, CorelDRAW art from M8209_TR3.cdr"><image href="${ASSET}m8209-rear-st8201a.svg" x="282" y="90" width="226" height="418"/>`;
   TERM.forEach(([n,a,b,ch,dir])=>{ const live = dir==='in'? D['src'+ch] : D.load[ch]!=='open'; const o=M[ch];
     const col = dir==='in' ? '#2d63a6' : (o.clip?'#d33a2c':'#1f8a45');
-    s+=`<g class="mterm" data-n="${n}" style="cursor:pointer"><rect x="${a[0]-30}" y="${a[1]-22}" width="${b[0]-a[0]+60}" height="44" rx="8" fill="${live?col:'transparent'}" fill-opacity=".25" stroke="${live?col:'#999'}" stroke-width="2"/>
-      ${live?`<path d="M${a[0]},${a[1]} C ${a[0]-60},${a[1]+30} ${b[0]+60},${b[1]+30} ${b[0]},${b[1]}" fill="none" stroke="${col}" stroke-width="5" opacity=".7"/>`:''}
-      <text x="${(a[0]+b[0])/2}" y="${a[1]+38}" text-anchor="middle" font-size="17" font-weight="700" fill="#0d3a6a">${dir==='in'?(live?'source '+D.lvlIn+' dBu':'—'):(D.load[ch]==='open'?'open':D.load[ch]+' Ω · '+o.dbu.toFixed(1)+' dBu')}</text></g>`; });
-  return s+`</svg><div class="small muted" style="text-align:center">Terminal art: <span class="mono">M8209_TR3.cdr</span> (“M8209A TERMINAL OPTIONS”). Click a pair: inputs toggle the source, outputs cycle the load (600 → 10k → 150 → 60 → open).</div>`;
+    s+=`<g class="mterm" data-n="${n}" style="cursor:pointer"><title>${n} ± — click</title><rect x="${a[0]-70}" y="${a[1]-9}" width="${b[0]-a[0]+140}" height="18" rx="4" fill="${live?col:'transparent'}" fill-opacity=".22" stroke="${live?col:'#999'}" stroke-width="1.2"/>
+      ${live?`<circle cx="${a[0]}" cy="${a[1]}" r="6" fill="none" stroke="${col}" stroke-width="2.2"/><circle cx="${b[0]}" cy="${b[1]}" r="6" fill="none" stroke="${col}" stroke-width="2.2"/>`:''}
+      <text x="${(a[0]+b[0])/2}" y="${a[1]+17}" text-anchor="middle" font-size="7.5" font-weight="700" fill="#0d3a6a" paint-order="stroke" stroke="#fff" stroke-width="2.5">${dir==='in'?(live?'source '+D.lvlIn+' dBu':'—'):(D.load[ch]==='open'?'open':D.load[ch]+' Ω · '+o.dbu.toFixed(1)+' dBu')}</text></g>`; });
+  return s+`</svg><div class="small muted" style="text-align:center">Artwork: ${SIM.src(TR3,'M8209_TR3.cdr')} (2005-03-21, “M8209A TERMINAL OPTIONS”), converted from CorelDRAW. Click a pair: inputs toggle the source, outputs cycle the load (600 → 10k → 150 → 60 → open).</div>`;
 }
 function bindBoard(m){
   m.querySelectorAll('.mp').forEach(g=>g.onclick=()=>{ const p=g.dataset.p;
@@ -362,6 +364,7 @@ function viewSoft(m){
 function viewFind(m){
   window.__m8209Active=false;
   const F=[
+    `<b>Artwork 2026|59: the rear terminal now comes from ${SIM.src('#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr','M8209_TR3.cdr')} (2005-03-21), converted to SVG.</b> The sheet is titled “M8209A TERMINAL OPTIONS” although no M8209A appears in the netlist, BOM or Gerbers (all M8209 ISS1). The ST8201A has 11 cups on the left and 12 on the right: only the right column has the bottom SHIELD, and twelve of the 23 cups are marked NOT USED — the leftover outputs of the eight-output template the BOM header (“D8205”) points to.`,
     '<b>The mode jumpers are documented only on the copper.</b> No manual text survives (<span class="mono">M8209_MAN.cdr</span> is the cover and the frame power-supply art), but the top silk carries “MODE JUMPERS — STEREO J1 J4 · MONO J1 J3 · MIX J2 J3”. Tracing the netlist confirms it: H2 J1 = R53 (A unity), J2 = R52 (B summed into SWAIN); H1 J4 = R51 (B own), J3 = R50 (B from AOUT−).',
     '<b>Leave out H2 and channel A drops 6 dB; leave out H1 and channel B goes silent.</b> SWAIN always has R49 20K0 from U1-7, so with no H2 link the stage gain is −0.5. SWBIN has no default resistor at all: channel B depends entirely on H1.',
     '<b>A two-channel card built on an eight-output template.</b> The BOM header still reads “D8205” (an 8-output AES DA), and the ECO log of 22–24 Feb 2005 deletes nets 5/E, 6/F, 7/H, 9/K and 10 from P1 pins 9–14, 17, 18 and 20 — the extra output pins of the template. The ST8201A art keeps the ghosts: 13 of its 23 terminals say NOT USED.',
@@ -377,6 +380,13 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:[
+    {text:'The terminal sheet is titled “M8209A TERMINAL OPTIONS”; every other M8209 file (netlist, BOM, Gerbers) says M8209 ISS1, with no A.', src:'#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr'},
+    {text:'The ST8201A solder terminal drawn for the M8209 has 11 cups on the left and 12 on the right; the extra bottom-right cup is a second SHIELD.', src:'#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr'},
+    {text:'Twelve of the 23 ST8201A cups are labelled NOT USED: three rows after OUTPUT 1, two after OUTPUT 2 and one above IN 2, the gaps left by the eight-output layout.', src:'#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr'},
+    {text:'The sheet draws the ST8201A only; no screw (TB) or BNC option is offered for the M8209.', src:'#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr'},
+    {text:'M8209_MAN.cdr holds the manual cover (the frame drawing), not operating text.', src:'#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_MAN.cdr'},
+    {text:'The BOM header still reads “D8205” and the PB1/PB2 switch is listed twice as PHA2UEE and PHA-2UEE.', src:'#MF8200 #SERIES/M8209 - #Engineering #MF82/PCB/m8209_ISS1.bom'} ],
   id:'m8209', name:'M8209 · 2-channel balanced analog DA (2005|38)', product:'M8209', year:2005,
   family:'8200 Distribution Series', folder:'#MF8200 #SERIES/M8209 - #Engineering #MF82',
   summary:'A two-channel balanced line amplifier for the 8200 frames: NE5532 inputs with level and CMR trims, TIP29/TIP30 push-pull drivers and a 64.4 Ω build-out on each output. Silk-screened MODE links make it stereo, mono (one input to both outputs) or a mix of the two.',

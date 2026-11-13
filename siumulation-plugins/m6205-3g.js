@@ -1050,7 +1050,29 @@ function viewFindings(m){
     ${card('Artwork', `<p class="small">Card: rendered from JRTI/m6053g/Layout/RV8399R-500-02-VEN-DR1/L1-TOP.pho and ST.pho (RS-274-X, PADS 9.1) at 120 px/in, cropped to the board (x 0.95–13.80 in, y 0.95–4.03 in); the openGear logo on the silk is removed. Part positions from the IPC-D-356 netlist (offset +1.0 in, +1.0 in). Rear: ../M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-3G rear module.cdr via Inkscape. Daughter card drawn plain from the 2011|44-06-30 photo; no third-party logos.</p>`)}`;
 }
 
-SIM.register({
+const FOOTNOTES = [
+ {
+  "text": "Rear artwork (2026|59) is from M6205-3G rear module.cdr (2011-04-27); the 2012 rear-module guide draws the same T6301A-3G.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-3G rear module.cdr"
+ },
+ {
+  "text": "The rear drawing spells the AES inputs “Axillary AES Input” (for Auxiliary).",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-3G rear module.cdr"
+ },
+ {
+  "text": "BNC 2 of the T6301A-3G is drawn “NOT USED”; the drawing is captioned DFR-8320-C.",
+  "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6205A-3G - Rear Module Options.cdr"
+ },
+ {
+  "text": "There is no 3G card-edge drawing: the panel uses M6205-card-edge-v10.cdr, which has no lens for the 3G LED that leds.c drives.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-card-edge-v10.cdr"
+ },
+ {
+  "text": "M6205-3G NLC5.1 Presets.cdr has a Backup_of_ copy beside it, both dated 2011-06-02.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/Backup_of_M6205-3G NLC5.1 Presets.cdr"
+ }
+];
+SIM.register({footnotes:FOOTNOTES, 
   id:'m6205-3g', folder:'#OPENGEAR #SERIES/M6205-3G - #Master #OPENGEAR', family:'openGear',
   product:'M6205-3G', year:2010,
   name:`M6205-3G · 3G/HD/SD-SDI audio processor with DTS NLC (${Y(2010)})`,

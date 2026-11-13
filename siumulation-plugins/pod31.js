@@ -756,7 +756,8 @@ function viewNotes(m){
 }
 
 /* ---------------- register ---------------- */
-SIM.register({
+SIM.register({ footnotes:[{text:"The rear has a 22.9 × 7.1 mm window for the DIP switch above AES 2–AES 3.",src:"#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr"},{text:"Two small holes at (336, 122) and (936, 122) px between the Phoenix row and the BNC row are used by no part in the model, probably bracket screws for the Phoenix PCB (inferred).",src:"#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr"},{text:"All 14 front LED holes match the 14 tallies in the code (PWR, SD, HD, ERR, four groups, four Dolby, E and DD).",src:"#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr"},{text:"The rear has a ground-stud hole above the right fixing screw.",src:"#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr"}],
+  
   id:'pod31', name:`POD31 · SD/HD-SDI AES de-embedder with Dolby decoder option (${Y(2005)})`, duration:1,
   product:'POD31', year:2005, family:'POD series', folder:'#POD #SERIES/POD31 - #Master',
   summary:'Half-rack SD/HD-SDI de-embedder: a Cyclone FPGA pulls two DIP-selected audio groups to four AES outputs (BNC and Phoenix), spots Dolby E / AC-3, and can route one pair through a plug-in CAT No. 552 decoder. An ATmega128 bit-bangs the FPGA status every loop pass and runs the 13 status LEDs.',

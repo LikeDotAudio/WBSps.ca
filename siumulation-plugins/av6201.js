@@ -523,7 +523,7 @@ const REAR_ART = {
 function rearSVG(t, opts){
   opts=opts||{};
   const w=worldAt(t), RM=REARS[w.rear], P=rearPos(w.rear), ch=chain(w), ART=REAR_ART[w.rear];
-  const vb = opts.compact? ART.plate.join(' ') : `0 0 ${ART.w} ${ART.h}`;
+  const vb = opts.compact? (()=>{ const xs=ART.c.map(p=>p[0]), ys=ART.c.map(p=>p[1]), m=ART.r*1.5; const x0=Math.min(...xs)-m, y0=Math.min(...ys)-m*1.6; return [x0,y0,Math.max(...xs)+m-x0,Math.max(...ys)+m*1.3-y0].map(v=>v.toFixed(1)).join(' '); })() : `0 0 ${ART.w} ${ART.h}`;
   let s=`<svg viewBox="${vb}" role="img" aria-label="${RM.name} rear module (CorelDRAW art)" style="width:100%;display:block;border-radius:6px">
     <image href="${ASSET}av6201-rear-${w.rear}.svg" width="${ART.w}" height="${ART.h}"/>`;
   P.forEach((p,i)=>{ const [cx,cy]=ART.c[i], r=ART.r; const [lab,role,oi]=p;
@@ -1065,6 +1065,12 @@ function viewFindings(m){
    ===================================================================== */
 const stdNow = () => STD[worldAt(SIM.t).src.std];
 SIM.register({
+  footnotes:[
+    {text:"The 2008 sheet shades T6201 BNCs 1, 2, 9 and 10 darker than the rest; nothing in the netlist singles out 9 and 10.", src:"#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/AV6201-REAR-MODULES.cdr"},
+    {text:"The 2008 sheet labels T6201/T6301 position 2 “IN”; the 2012 guide says “Not Connected”, as the netlist and manual do.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"},
+    {text:"The 2012 guide numbers T6301A outputs OUT 1–4 down the left and OUT 5–8 down the right; the 2008 sheet and the P1 pin order alternate OUT1/OUT2 across rows.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"},
+    {text:"The card edge draws ERROR LED above SYNCH LED and push-button “Clamp Switch” / “EQ Fixed Switch”; the ISS3 board has SYNCH on top and jumpers H2/H3.", src:"#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/AV6201-card-edge.cdr"},
+    {text:"The 2012 guide offers only T6301A and T6401A; T6201 (10-slot DFR-8310 frame) is no longer shown.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"}],
   id:'av6201', product:'AV6201', name:`AV6201 · openGear analog video DA (${SIM.year(2008)})`, year:2008,
   folder:'#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR', family:'openGear',
   summary:'openGear composite-video distribution amplifier (sold as AV6201A and Cobalt 9231): differential input, GB4571 clamp, two-stage cable equaliser, eight 75 Ω outputs. An AT90CAN128 busy-waits on an LMH1981 sync separator once per field and reports to DashBoard over CAN. Modelled pass by pass from the V101 firmware and the ISS3 netlist.',

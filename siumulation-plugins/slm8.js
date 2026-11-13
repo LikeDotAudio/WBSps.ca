@@ -279,6 +279,8 @@ function pinRow(x,y,pins,pitch,lab){ let s=''; pins.forEach((p,i)=>{ const xx=x+
 /* ---------- end of kit ---------- */
 const PREFIX='slm8';
 const LW=600, LH=996, PPI=150;                             // lens 4.000 × 6.640 in
+/* Artwork 2026|59: assets/slm8-lens.svg is vector, straight from Silks/SLM8-1M3-SILK(CURVE).cdr (Jul.29/14) via Inkscape at 150 px/in,
+   registered on the old PNG by cross-correlation (0 px residual). It also keeps the four corner fixing holes with their crosshairs. */
 const BARX=[...Array(8)].map((_,k)=>49.6+71.25*k);         // pick-and-place: L1 x 0.194 in, pitch 0.475 in
 const LED0=130, PITCH=11.25;                               // +20 at the top … −52 at the bottom, 0.075 in pitch
 const LAB57=[]; for(let v=20;v>=-20;v--) LAB57.push(v); for(let v=-22;v>=-52;v-=2) LAB57.push(v);
@@ -327,7 +329,7 @@ function lensSVG(){ const t=SIM.t, br=0.45+0.55*D.gain; let u='', o='';
   PAIRX.forEach((x,i)=>{ o+=led(x,824,locked(i),'#ff3b30',6)+led(x,355,D.power&&stickyPk(i,t),'#ff3b30',5)+led(x,936,D.power&&stickyPk(i,t),'#ff3b30',5); });
   FMT.forEach((f,k)=>{ o+=led(FMTX[k],872,D.power&&D.ins.some((s,i)=>locked(i)&&s.fmt===f),'#30d158',6); });
   o+=`<text x="49.6" y="104" text-anchor="middle" font-size="11" fill="#eee" font-family="Arial">1</text>`;
-  return layered({w:LW,h:LH,bg:'#0d0e0f',under:u,layers:[PREFIX+'-lens-white.png'],over:o,label:'SLM-8 display lens (SLM8-1M3-SILK)',maxw:420,rx:6}); }
+  return layered({w:LW,h:LH,bg:'#0d0e0f',under:u,layers:[PREFIX+'-lens.svg'],over:o,label:'SLM-8 display lens (SLM8-1M3-SILK(CURVE).cdr)',maxw:420,rx:6}); }
 function sideSVG(){ // the assembled unit, from the part list (M1 enclosure, M2 rear cover, M3 lens, M7 base at 15°) — proportions inferred
   return `<svg viewBox="0 0 470 300" style="width:100%;max-width:470px"><g transform="rotate(-15 180 250)"><rect x="110" y="40" width="90" height="200" rx="4" fill="var(--panel2)" stroke="var(--ink)"/><rect x="104" y="44" width="8" height="192" fill="var(--accent)" opacity=".6"/><rect x="200" y="50" width="10" height="180" fill="var(--ink2)" opacity=".5"/></g>
     <path d="M60 270 H300 L280 255 H80 Z" fill="var(--panel2)" stroke="var(--ink)"/><text x="20" y="292" font-size="11" fill="var(--ink2)">M7 base, “15 DEGREE ANGLE”</text><text x="10" y="40" font-size="11" fill="var(--accent)">M3 lens (front)</text><text x="230" y="60" font-size="11" fill="var(--ink2)">M2 rear cover: PSU, 4 × .562 holes</text><text x="210" y="160" font-size="11" fill="var(--ink2)">M1 enclosure + M4/M10 brackets</text></svg>`; }
@@ -356,7 +358,7 @@ function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2');
   ]; }
 /* ---------------- views ---------------- */
 function viewSim(m){ window.__slm8Active=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Display lens (SLM8-1M3-SILK) with the SLM8-1 LEDs behind it',`<div id="lens"></div>`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Display lens (SLM8-1M3-SILK) with the SLM8-1 LEDs behind it',`<div id="lens"></div><div class="small muted" style="margin-top:4px">Lens artwork: ${SIM.src('#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK(CURVE).cdr','SLM8-1M3-SILK(CURVE).cdr')} (Jul.29/14), white ink; the “1” over bar 1 is redrawn.</div>`)}</div>
    <div>${card('Rear and set-up (click inputs and switches)',`<div id="rear"></div>${controlsHTML()}`)}${card('The unit (SLM8-1M1…M10)',sideSVG())}${card('What the meter did (last action)',`<div id="trace" class="log"></div>`)}</div></div>
    ${card('Timeline — one second, zoomable',`<canvas id="tl"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}`;
   bindControls(m);
@@ -418,6 +420,7 @@ function viewNotes(m){ window.__slm8Active=false;
    <li><b>The LED board is mounted upside down relative to its numbering.</b> Index 1 (the PR LED) sits 3 pitches below index 4 (−52), and index 60 is +20: the colour run read from the top is red ×12, yellow ×7, green ×3 (around 0), yellow ×4, green ×31.</li>
    <li><b>58 LEDs, 57 scale marks.</b> The lens scale (+20 … 0 … −52, 1-dB then 2-dB steps) is the SLM-1’s 57-step scale; the 58th LED is the “PR” position below it.</li>
    <li><b>Unlabelled LEDs.</b> Eight red LEDs (L119, L121–L127) have no legend on the lens; the SLM manual’s “pair of ‘sticky’ peak LEDs (for each stereo pair)” fits their count (${inf}).</li>
+   <li><b>Artwork ${SIM.year(2026)}: the lens is now drawn from ${SIM.src('#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK(CURVE).cdr','SLM8-1M3-SILK(CURVE).cdr')} (Jul.29/14).</b> It is the only SLM8 artwork for the product itself: the folder has no front/rear panel silk (the enclosure is plain metalwork), and the custom fronts ${SIM.src('#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/552728/slm8frontssV2CURVE.cdr','552728/slm8frontssV2CURVE.cdr')} belong to job 552728, not the standard unit. The lens has four corner fixing holes. The bar number “1” is absent from the curve version too (text already converted to curves), so it is either missing from the artwork or an object libcdr skips; it is redrawn.</li>
    <li><b>Lens label lost in conversion.</b> The bar number “1” does not survive the CorelDRAW conversion (libcdr text alignment); it is redrawn here.</li>
    <li><b>Rear cover facts.</b> SLM8-1M2: “WITH KLT15F/TOF15 PSU”, four .562 in holes (BNCs for the 75 Ω version, ${inf}), 11 vent slots, 44 + 24 + 84 inserts and countersinks; “BSOS-440-8 IS NOT AVAILABLE — take BSOS-440-10 and modify it”.</li>
    <li><b>A discontinued knob.</b> SLM8-REMOTE GAIN BRACKET: a modified pot “POD P/N 51CADE24B15” with the shaft cut to 0.200 in; “THIS LARGE KNOB IS NOT AVAILABLE ANYMORE”.</li>
@@ -426,6 +429,8 @@ function viewNotes(m){ window.__slm8Active=false;
   +card('Assumptions in this simulation',`<ul class="small"><li>CAL/BS switches use the SLM1/2 digital table (${inf}).</li><li>VU 300 ms; PPM per the manual; the PR LED lights while peak hold is on (${inf}).</li><li>Dolby detection blanks the bars in V104 (${inf}); detection by burst preambles / sync words (${inf}).</li><li>“Remote gain” shown as display brightness (${inf}; purpose undocumented).</li></ul>`)
   +card('Sources',`<ul class="small mono"><li>XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK(CURVE).cdr (→ assets/slm8-lens-white.png)</li><li>…/SLM8-1M2 ISS 1 (REAR COVER).dwg, SLM8-1M7 ISS 2 (BASE).dwg, SLM8-REMOTE GAIN BRACKET ISS 1.dwg, ASSEMBLY &amp; OBSOLETE/SLM8-ASSEMBLY.dwg (+ .md text), SLM8-1M9 ISS 1 (PCB SPACER).pdf</li><li>XXX - SLM8-1 - #PNP #2016 #OBSOLETE/SLM8-1iss2-T.prg, SLM8-1iss2b-B.prg</li><li>WBS - #SOFTWARE LISTINGS OFFICIAL - FULL HISTORY - #Engineering_.xlsx</li><li>#SLM #SERIES - To Delete/…/SLM-1/SLM1 MANUAL mod.pdf</li></ul>`); }
 SIM.register({
+  footnotes:[{text:"The lens silk has no bar number “1”, in the curve version too; it is redrawn.",src:"#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK(CURVE).cdr"},{text:"The lens has four corner fixing holes with crosshairs.",src:"#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK(CURVE).cdr"},{text:"Custom SLM8 fronts for job 552728 exist (slm8frontss, V2, CURVE versions and backups, Dec 2003 – Feb 2004).",src:"#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/552728/slm8frontssV2CURVE.cdr"},{text:"No SLM8 front or rear panel silk exists; the enclosure is plain metalwork.",src:"#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK.cdr"}],
+  
   id:'slm8', name:'SLM8 · SLM-8D four-input AES loudness meter, 8 bars (2006|39–2014|47)', duration:1, product:'SLM8', year:2006, family:'Obsolete products', folder:'#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete',
   summary:'A desk-top meter on a 15° stand: four AES inputs shown as eight 57-step VU + PPM bars behind a silk-screened lens, with LOCK, PCM, Dolby E and Dolby D indicators. Built from the lens silk, the 2011 LED pick-and-place data, the metalwork drawings, the software listing and the SLM manual.',
   highlights:['Real lens silkscreen with 464 LEDs placed from the pick-and-place file','VU bar + PPM dot with Type 1/2 decay and 3 s peak hold','LOCK and PCM / Dolby E / Dolby D indicators','Mechanical assembly: enclosure, rear cover, lens, 15° base'],

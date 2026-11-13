@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD34](../siumulation.html?plugin=pod34) · [simulator & front panel](../simulator.html?m=POD34) · [KiCad symbol generator](../kicad.html?m=POD34) · [download package (zip)](../_packages/POD34.zip) |
+| Try it | [full simulation: POD34](../siumulation.html?plugin=pod34) · [KiCad symbol generator](../kicad.html?m=POD34) · [download package (zip)](../_packages/POD34.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jul.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD34 MANUAL(1).docx |
 | Confidence | medium |
@@ -70,41 +70,12 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2015 - POD34 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - POD34 - MANUAL.docx](../Products/PODS/POD34/2015%20-%20POD34%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD34",
- "name": "30 Watt Class D Amplifier With Digital & Analog Input",
- "category": "PODS",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/PODS/POD34/2015 - POD34 - Information Sheet.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD34/2015 - POD34 - MANUAL (2).docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD34/2015 - POD34 - MANUAL.docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. The drawing puts the analog XLRs at x 961/1169 px and the IEC cut-out at 1357–1609 px, 60–120 px left of where the panel had been drawn; the rocker, toggle, knobs, STEREO button and trims were 3–19 px off. — `#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr`
+2. A yellow “FUSE” note sits on the IEC drawing. It is a drafting note, not ink, so the panel leaves it out. — `#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr`
+3. The STEREO button hole (Ø 7.1 mm) is wider than the knob-shaft holes (Ø 5.6 mm) and sits 1 mm lower. — `#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr`
+4. The LOCK LED hole is Ø 6.5 mm, a holder rather than a bare 3 mm LED. — `#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr`
+5. The rear prints “CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE” and a warning triangle, neither mentioned in the spec sheet. — `#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr`
+6. The ARTWORK copy (saved Oct 2015) and Engineering/SILK/POD34-FRONT&REAR(FINAL CURVE).cdr (Mar 2015) are identical inside the panel outlines. — `#POD #SERIES/POD34 - #Master/POD34 - #Engineering/SILK/POD34-FRONT&REAR(FINAL CURVE).cdr`
+7. Each XLR is drawn as a D-flange connector with two diagonal mounting holes, and the binding posts as Ø 14 mm holes in a 2 × 2 block. — `#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr`

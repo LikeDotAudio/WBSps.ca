@@ -16,7 +16,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD5](../siumulation.html?plugin=pod5) · [simulator & front panel](../simulator.html?m=POD5A) · [KiCad symbol generator](../kicad.html?m=POD5A) · [download package (zip)](../_packages/POD5A.zip) |
+| Try it | [full simulation: POD5](../siumulation.html?plugin=pod5) · [KiCad symbol generator](../kicad.html?m=POD5A) · [download package (zip)](../_packages/POD5A.zip) |
 | Earliest dated evidence | [1995\|28](Year-1995.md) — month & year |
 | Evidence | "March 8, 1995" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/ORCAD/POD5A.DSN |
 | Confidence | medium |
@@ -46,23 +46,9 @@ The POD5A is not in the engineering [software listings](Software.md) (1998|31 �
 |---|---|---|
 | 1995 | [1995 - POD5A - POD5A - POD5A - SCHEMATIC (ORCAD).dsn](../Products/PODS/POD5A/1995%20-%20POD5A%20-%20POD5A%20-%20POD5A%20-%20SCHEMATIC%20%28ORCAD%29.dsn) | [note](../Products/PODS/POD5A/1995%20-%20POD5A%20-%20POD5A%20-%20POD5A%20-%20SCHEMATIC%20%28ORCAD%29.dsn.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD5A",
- "name": "Dual Headset Amplifier",
- "category": "PODS",
- "year": 1995,
- "documents": [
-  {
-   "file": "Products/PODS/POD5A/1995 - POD5A - POD5A - POD5A - SCHEMATIC (ORCAD).dsn",
-   "year": 1995,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```
+1. The FINAL CURVE sheet carries a fourth, empty panel outline far off the page (x ≈ 2075 pt), a leftover that never appears in the PDF. — `#POD #SERIES/POD5 - #Master/POD5 - #ARTWORK #DA #2016/POD5-FRONT&REAR(FINAL CURVE).cdr`
+2. The file name says "FINAL CURVE" where every sister POD sheet says "SILK (CURVE)". — `#POD #SERIES/POD5 - #Master/POD5 - #ARTWORK #DA #2016/POD5-FRONT&REAR(FINAL CURVE).cdr`
+3. POD5SLK.CDR (18 Sep 2008) is the older silk. — `#POD #SERIES/POD5 - #Master/POD5 - #Engineering/POD5 - #ARTWORK/POD5SLK.CDR`
+4. The drill crosses in the jack and pot holes are on the sheet but not printed on the panel in the photo. inferred — `#POD #SERIES/POD5 - #Master/POD5 - #ARTWORK #DA #2016/Pics/POD5 Front.jpg`

@@ -900,7 +900,38 @@ const SOURCES = [
   '#OPENGEAR #SERIES/D6201B - #Master #OPENGEAR/D6201B - #TESTREPORT/D6201B-V103_29APR10.pdf',
   '#OPEN GEAR - #Engineering/…/openGear #Manuals #OBSOLETE/D6201B Manual.doc',
 ];
-SIM.register({
+/* footnotes (artwork pass 2026|59): one small detail per entry, with the archive file that shows it */
+const FOOTNOTES=[
+{
+"text": "CARD 1 sits on the left of the T6401A in the 2008 drawing.",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+},
+{
+"text": "The 2012 guide marks “2 CARD 1”, so CARD 1 moved to the right (even positions); the simulator follows 2012.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201B - rear module options.cdr"
+},
+{
+"text": "The D6201B card edge has 8 LEDs and two EQ switches (EQ1, EQ2).",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B-card-edge.cdr"
+},
+{
+"text": "The D6202A card-edge drawing is identical to the D6201B one apart from the ejector label.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-card-edge.cdr"
+},
+{
+"text": "The 2006 T6201/T6301 label sheets, filed as D6201A, are already labelled for the dual card (“DUAL 75Ω AES DA”, IN1/IN2).",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6201.cdr"
+},
+{
+"text": "The 2008 sheet titles the T6201 “SINGLE CARD REAR MODULE FOR DFR-8310” and the T6301A/T6401A “FOR DFR-8320”.",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+},
+{
+"text": "The 2012 guide footer reads “D6201B-1x8 / 2x4 AES DA 75 Ohm” for the T6301A.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201B - rear module options.cdr"
+}
+];
+SIM.register({ footnotes:FOOTNOTES,
   id:'d6201b', product:'D6201B', name:'D6201B · dual 75 Ω AES distribution amplifier with SRC, openGear (2008|41)', year:2008,
   folder:'#OPENGEAR #SERIES/D6201B - #Master #OPENGEAR', family:'openGear',
   summary:'Dual-input openGear AES3 DA (Cobalt 9253): 1×8, dual 1×4, or 1×8 through an AD1895 sample-rate converter locked to a reference on input 2 or the frame REF. Built on the D6201A ISS5 board; the model runs the V102/V103 firmware from the sibling D6201 engineering folder.',

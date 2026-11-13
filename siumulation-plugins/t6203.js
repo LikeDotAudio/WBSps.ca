@@ -705,6 +705,32 @@ const ASSET = 'siumulation-plugins/assets/';
    white silk. view/plate in inches; pos = connector centres from the drawing, inches from the plate's top-left corner;
    iso = BNCs the drawing shades grey (isolated-shell positions). */
 const CDR_ART = {"iss2":{"file":"t6203-rear.svg","src":"#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr","label":"T6203.cdr","date":"7 Oct 2008","view":[2.36,3.558],"plate":[0.5,0.291,1.325,3.1],"pos":{"1":[0.348,0.53],"2":[1.029,0.523],"3":[0.348,1.042],"4":[1.031,1.039],"5":[0.343,1.552],"6":[1.034,1.549],"7":[0.348,2.054],"8":[1.031,2.051],"9":[0.347,2.563],"10":[1.034,2.56]},"legend":{"1":"BNC1","2":"BNC2","3":"AES1","4":"AES5","5":"AES2","6":"AES6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[]},"iss1":{"file":"t6203-rear-iss1.svg","src":"#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/Backup_of_T6203.cdr","label":"Backup_of_T6203.cdr","date":"10 Nov 2006","view":[2.438,3.558],"plate":[0.5,0.291,1.325,3.1],"pos":{"1":[0.348,0.53],"2":[1.029,0.523],"3":[0.348,1.042],"4":[1.031,1.039],"5":[0.343,1.552],"6":[1.034,1.549],"7":[0.348,2.054],"8":[1.031,2.051],"9":[0.347,2.563],"10":[1.034,2.56]},"legend":{"1":"AES1","2":"AES5","3":"AES2","4":"AES6","5":"AES3","6":"AES7","7":"AES4","8":"AES8","9":"BNC9","10":"BNC10"},"iso":[]}};
+const FOOTNOTES = [
+{
+"text": "T6203.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+"src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+},
+{
+"text": "T6203.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+"src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+},
+{
+"text": "The only ISS1 pinout sheet is a backup: Backup_of_T6203.cdr (10 Nov 2006) has BNC9/BNC10 on blocks 9/10, while the saved T6203.cdr was overwritten in Oct 2008 with the ISS2 layout.",
+"src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/Backup_of_T6203.cdr"
+},
+{
+"text": "The 2008 sheet moves the two unbalanced pairs to blocks 1/2 (BNC1/BNC2) and AES1–AES8 down one row, matching the ISS2 netlist.",
+"src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+},
+{
+"text": "Both sheets still use the first-generation 1.325″ × 3.100″ outline; the ISS3 Gerbers are 1.265″ × 3.228″. The block rows still agree within 0.07″.",
+"src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+},
+{
+"text": "libcdr loses text alignment, so the “G-+ / +-G” polarity legends sit slightly over the terminal blocks.",
+"src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+}
+];
 function cdrArt(){ return S.view==='cdr' ? (CDR_ART[S.issue]||null) : null; }
 function cdrXY(p, art){ return art && art.pos[p.n] ? art.pos[p.n] : [p.x, p.y]; }
 function cdrCaption(art){ return 'CorelDRAW art: '+SIM.src(art.src, art.label)+' ('+art.date+')'; }
@@ -1278,6 +1304,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:FOOTNOTES,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

@@ -202,7 +202,7 @@ function frontSVG(){
   return `<svg viewBox="0 0 950 295" role="img" aria-label="microDriver front (POD6-001 bracket face, real silkscreen)" style="width:100%;max-width:760px;display:block;border-radius:6px">
    <defs><radialGradient id="mdk" cx=".4" cy=".35"><stop offset="0" stop-color="#3a3c3f"/><stop offset="1" stop-color="#0b0c0d"/></radialGradient></defs>
    <rect width="950" height="295" fill="var(--dev)"/>
-   <image href="${ASSET}microdriver-front-white.png" width="950" height="295"/>
+   <image href="${ASSET}microdriver-front-white.svg" width="950" height="295"/>
    <g class="mdj" style="cursor:pointer"><title>Headphone jack (.390 in hole) — click to plug or unplug</title>
      <circle cx="210" cy="138" r="54" fill="transparent"/>
      <polygon points="${[0,1,2,3,4,5].map(i=>{const a=Math.PI/3*i+Math.PI/6;return (210+40*Math.cos(a)).toFixed(1)+','+(138+40*Math.sin(a)).toFixed(1);}).join(' ')}" fill="#2a2c2e" stroke="#555"/>
@@ -232,7 +232,7 @@ function rearSVG(){
     <g class="mdp" style="cursor:pointer"><title>+24 VDC input — click to ${D.power?'unplug':'plug in'}</title>
       <circle cx="789" cy="70" r="40" fill="transparent"/><circle cx="789" cy="70" r="30" fill="#2a2c2e" stroke="#777" stroke-width="3"/><circle cx="789" cy="70" r="12" fill="#000"/><circle cx="789" cy="70" r="4" fill="#bbb"/>
       ${D.power?`<circle cx="789" cy="70" r="26" fill="#333" stroke="var(--accent)" stroke-width="6"/>`:''}</g>
-    <image href="${ASSET}microdriver-rear-white.png" width="877" height="282"/>
+    <image href="${ASSET}microdriver-rear-white.svg" width="877" height="282"/>
     <text x="12" y="274" font-size="14" fill="#8b8f93">POD6-002 ISS 2 (“POD 6C rear panel”) · 4.370 × 1.410 in</text>
   </svg>`;
 }
@@ -314,7 +314,7 @@ function viewSim(m){
   window.__microdriverActive=false;
   m.innerHTML = `<div class="grid2"><div>
      ${card('Front (POD6-001 under-table bracket) — click the jack and the knob', `<div id="fp"></div>`)}
-     ${card('Rear (POD6-002) — click the XLRs and the +24 VDC jack', `<div id="rp"></div>`)}
+     ${card('Rear (POD6-002) — click the XLRs and the +24 VDC jack', `<div id="rp"></div><div class="small muted" style="margin-top:4px">Panel artwork: front ${SIM.src('#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001/POD6-001-SILK (CURVE).cdr','POD6-001-SILK (CURVE).cdr')} (2016-06-09|49), rear ${SIM.src('#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr','POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr')} (DEC.18/14, file 2016-06-13|49). CorelDRAW white plates as vector art; grey lines are the sheets' hole and outline guides.</div>`)}
      ${card('Source and options', controls())}
    </div><div>
      ${card('Signal at each stage (LEFT channel; RIGHT is identical)', `<div id="st"></div>`)}
@@ -521,6 +521,7 @@ function viewFindings(m){
   window.__microdriverActive=false;
   const b=biasAt(12);
   m.innerHTML=card('What the microDriver is up to — findings from the archive', `<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001/POD6-001-SILK (CURVE).cdr','POD6-001-SILK (CURVE).cdr')} (2016-06-09|49) and ${SIM.src('#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr','POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr')} (dated DEC.18/14).</b> The POD6-001 bracket face and the POD6-002 ISS 2 rear plate are cut from the CorelDRAW sheets and registered on the same frame as the earlier PDF cuts, so the jack, knob, XLRs and DC jack stay on their holes (assets/microdriver-front-white.svg, -rear-white.svg). The guide layer shows each XLR's two fixing holes and the DC-jack hole under the “+ 24 VDC” polarity symbol. The rear says “HEADPHONE AMP”, not microDriver.</li>
    <li><b>ISS4's output transistors are bypassed as drawn.</b> In <span class="mono">POD6-ISS4-S1.pdf</span>, U1A pin 1 connects to the D1/D2 midpoint, the R29/R30 junction <i>and</i> the R11/R12 emitter node (junction dots on all four). Q1's base can then sit only V(R29‖D1) above its own emitter. At idle that is R1's ${(b.IR1*1000).toFixed(1)} mA × 110 Ω ≈ ${b.vb.toFixed(2)} V, so Q1 conducts about ${(b.ic*1e6).toFixed(1)} µA. The NE5532 drives the headphones alone and current-limits near 38 mA: about 1.2 V peak, or 23 mW, into 32 Ω. In the 1996 ISS3 drawing (<span class="mono">ISS3/POD6.pdf</span>) the op-amp drives only the bias midpoint, and feedback R10 is taken after R11/R12. That is a working class-AB booster. Whether the ISS4 copper repeats the schematic could not be checked (the PcbDoc is binary). The Simulator tab lets you switch between the two topologies.</li>
    <li><b>The README calls the 1N4003s “protection” and the 470 µF / 47 µF parts “bulk”.</b> The schematic shows D1–D4 as output-stage bias diodes, C7/C14 470 µF as output coupling capacitors, and the 47 µF parts as signal couplings. The only bulk part is C15 (22 µF on VCC_HALF).</li>
    <li><b>“PAN600” / “PAN1000” are connectors, not 600 Ω / 1 kΩ options.</b> The README infers impedance variants from these labels. In <span class="mono">parts_pod6.xls</span> they are the 6-way and 10-way locking headers MLSS-100-6 / MLSS-100-10. The names come from the Panduit-style footprint.</li>
@@ -540,6 +541,12 @@ function viewFindings(m){
 }
 
 SIM.register({
+  footnotes:[
+    {text:'The rear plate is labelled “HEADPHONE AMP” with a WBS logo; the name microDriver appears on no panel artwork.', src:'#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr'},
+    {text:'The POD6-001 bracket is drawn twice, in its own POD6-001-SILK (CURVE).cdr and again on the combined ISS.2 sheet with the rear plate.', src:'#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr'},
+    {text:'The ISS.2 sheet exists in a live-text copy and a FINAL CURVE copy saved the same day (2016-06-13).', src:'#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2.cdr'},
+    {text:'The front panel knob has no pot on the ISS4 PCB: P1 loops the receiver output out and back, so the volume control is off-board (inferred).', src:'microDriver - POD6 - #Master turned into microdriver/POD6 - #RD #RD76/SMT_Upgrade/backup12-final/POD6-ISS4/POD6-ISS4-S1.pdf'},
+    {text:'This POD-series product lives outside #POD #SERIES; its panel and bracket silks are in POD PARTS.', src:'#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001/POD6-001-SILK (CURVE).cdr'}],
   id:'microdriver', name:'microDriver · POD6 ISS4 stereo line / headphone driver (2016|49)', duration:1,
   product:'microDriver (POD6)', year:2016, family:'Monitors, meters & tools',
   folder:'microDriver - POD6 - #Master turned into microdriver',

@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD14B - UNBALANCE IN](../siumulation.html?plugin=pod14b-unbalance-in) · [simulator & front panel](../simulator.html?m=POD14B) · [KiCad symbol generator](../kicad.html?m=POD14B) · [download package (zip)](../_packages/POD14B.zip) |
+| Try it | [full simulation: POD14B - UNBALANCE IN](../siumulation.html?plugin=pod14b-unbalance-in) · [KiCad symbol generator](../kicad.html?m=POD14B) · [download package (zip)](../_packages/POD14B.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Nov.12 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD14B MANUAL(1).docx |
 | Confidence | medium |
@@ -77,41 +77,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD14B - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD14B - MANUAL.docx](../Products/PODS/POD14B/2014%20-%20POD14B%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD14B",
- "name": "Dual Analog To Digital Converter",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD14B/2014 - POD14B - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD14B/2014 - POD14B - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD14B/2014 - POD14B - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. The rear has four small round holes the legend does not name: one beside INPUT2 and one between each of REF INPUT, OUTPUT1 and OUTPUT2. — `#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr`
+2. OUTPUT1 is cut as a plain round hole, while REF INPUT and OUTPUT2 have drill crosshairs. — `#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr`
+3. Of the two INPUT 1 GAIN holes on the front, only L has a drill crosshair; R is a plain hole. — `#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr`
+4. The CDR (saved 2016-06-16) is newer than the PDF of the same sheet (2015-12-03), but the ink is identical. The sheet is dated NOV.06/14. — `#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr`
+5. The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint. — `#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr`

@@ -16,7 +16,7 @@ tags: ["product", "micro-series", "2010s"]
 |---|---|
 | Type | product |
 | Series | [MICRO SERIES](Series-MICRO-SERIES.md) |
-| Try it | [full simulation: microDriver (POD6)](../siumulation.html?plugin=microdriver) · [simulator & front panel](../simulator.html?m=microDriver) · [KiCad symbol generator](../kicad.html?m=microDriver) · [download package (zip)](../_packages/microDriver.zip) |
+| Try it | [full simulation: microDriver (POD6)](../siumulation.html?plugin=microdriver) · [KiCad symbol generator](../kicad.html?m=microDriver) · [download package (zip)](../_packages/microDriver.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/micro Series Manuals/MICRODRIVER MANUAL - OBSOLETE THRU-HOLE VERSION(1).docx |
 | Confidence | medium |
@@ -29,7 +29,7 @@ tags: ["product", "micro-series", "2010s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="microDriver" data-n="Miniature Stereo Headphone Module" data-cat="MICRO SERIES"></div><svg class="wbs-panel" data-m="microDriver" data-n="Miniature Stereo Headphone Module" data-cat="MICRO SERIES" role="img" aria-label="microDriver front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"microDriver","title":"Miniature Stereo Headphone Module","rto":null,"parts":[],"parents":[{"label":"ABS1","href":"ABS1.html","note":"on 4 drawings with it: Audio Bit Spitter Portab"},{"label":"SLM","href":"SLM.html","note":"on 4 drawings with it: Series Stereo Loudness M"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="microDriver" data-n="Miniature Stereo Headphone Module" data-cat="MICRO SERIES"></div><svg class="wbs-panel" data-m="microDriver" data-n="Miniature Stereo Headphone Module" data-cat="MICRO SERIES" role="img" aria-label="microDriver front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"microDriver","title":"Miniature Stereo Headphone Module","rto":null,"parts":[],"parents":[{"label":"SLM","href":"SLM.html","note":"on 4 drawings with it: Series Stereo Loudness M"},{"label":"ABS1","href":"ABS1.html","note":"on 4 drawings with it: Audio Bit Spitter Portab"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 <a id="software"></a>
 
@@ -86,67 +86,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - microDriver - MANUAL - OBSOLETE THRU-HOLE VERSION (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - microDriver - MANUAL - OBSOLETE THRU-HOLE VERSION (2).docx](../Products/MICRO%20SERIES/microDriver/2014%20-%20microDriver%20-%20MANUAL%20-%20OBSOLETE%20THRU-HOLE%20VERSION%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "microDriver",
- "name": "Miniature Stereo Headphone Module",
- "category": "MICRO SERIES",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/MICRO SERIES/microDriver/2014 - microDriver - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microDriver/2014 - microDriver - MANUAL - OBSOLETE THRU-HOLE VERSION (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microDriver/2014 - microDriver - MANUAL - OBSOLETE THRU-HOLE VERSION.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microDriver/2016 - microDriver - Manual (2).docx",
-   "year": 2016,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microDriver/2016 - microDriver - Manual.docx",
-   "year": 2016,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microDriver/19xx - microDriver - DOC - Commonly Requested Parts _ Accessories.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```
+1. The rear plate is labelled “HEADPHONE AMP” with a WBS logo; the name microDriver appears on no panel artwork. — `#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr`
+2. The POD6-001 bracket is drawn twice, in its own POD6-001-SILK (CURVE).cdr and again on the combined ISS.2 sheet with the rear plate. — `#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr`
+3. The ISS.2 sheet exists in a live-text copy and a FINAL CURVE copy saved the same day (2016-06-13). — `#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2.cdr`
+4. The front panel knob has no pot on the ISS4 PCB: P1 loops the receiver output out and back, so the volume control is off-board (inferred). — `microDriver - POD6 - #Master turned into microdriver/POD6 - #RD #RD76/SMT_Upgrade/backup12-final/POD6-ISS4/POD6-ISS4-S1.pdf`
+5. This POD-series product lives outside #POD #SERIES; its panel and bracket silks are in POD PARTS. — `#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001/POD6-001-SILK (CURVE).cdr`

@@ -1138,6 +1138,13 @@ SIM.register({
   zooms: [[4,'4 s (whole window)'],[1,'1 s'],[0.1,'100 ms'],[0.02,'20 ms (phase XOR)'],[0.003,'3 ms (a few passes)'],[0.0008,'0.8 ms (one pass)'],[0.0002,'200 µs (one SPI transfer)']],
   defaultZoom: 1,
   init(){ if (!D.run){ D.W=defWorld(); powerUp(); } },
+  footnotes:[
+    {text:"On the rear silk the DEMUX adaptor-plate opening and its two thumb-screw holes are the only things drawn in red: a separate part (DEMUX 4-REAR ADAPTOR PLATE), not panel silk.", src:"AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr"},
+    {text:"Off the printed page the CorelDRAW sheet keeps working copies of the rear plate and of a front plate whose title strip is only outlined.", src:"AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr"},
+    {text:"The silk only fits the PIC version (MODE / SOURCE buttons and the dot-matrix window); the AMS4N and AMS4E front layouts have no artwork in the archive.", src:"AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr"},
+    {text:"AMS4-FRONT&REAR-SILK(CURVE).cdr, AMS4-FRONT-SILK(CURVE).cdr and AMS4-REAR-SILK(CURVE).cdr are each stored three times (ARTWORK #DA #2016, #Engineering/ARTWORK, #Engineering/AMS4 - #ARTWORK).", src:"AMS4 - #Master/AMS4 - #Engineering/ARTWORK/AMS4-FRONT&REAR-SILK(CURVE).cdr"},
+    {text:"The title block of the combined silk says DEC.23/15, but the file was saved 2016-06-29, the same day as the rear-only silk.", src:"AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr"},
+  ],
   tabs: [
     {id:'sim', label:'Simulator', render:viewSim},
     {id:'tutorial', label:'Tutorial: using the AMS4', render:viewTutorial},

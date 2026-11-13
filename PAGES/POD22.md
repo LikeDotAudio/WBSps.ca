@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD22 -](../siumulation.html?plugin=pod22) · [simulator & front panel](../simulator.html?m=POD22) · [KiCad symbol generator](../kicad.html?m=POD22) · [download package (zip)](../_packages/POD22.zip) |
+| Try it | [full simulation: POD22 -](../siumulation.html?plugin=pod22) · [KiCad symbol generator](../kicad.html?m=POD22) · [download package (zip)](../_packages/POD22.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — named in document |
 | Evidence | named in 2014 - POD22A - MANUAL.docx |
 | Confidence | low (named by) |
@@ -67,21 +67,10 @@ _No change note in the listing for: POD22V102._
 |---|---|---|
 | 2014 | [2014 - POD22 - pod22_front.jpg](../Products/PODS/POD22/2014%20-%20POD22%20-%20pod22_front.jpg) | [note](../Products/PODS/POD22/2014%20-%20POD22%20-%20pod22_front.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD22",
- "name": "Stereo Loudness Meter",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD22/2014 - POD22 - pod22_front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The only curve version of the POD22 silk (Sep 2002) is a rear panel alone and names DIP levers 7–8 AUTO / MAN; the Jan 2003 silk calls them A0 / A1. — `#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-S2curve.cdr`
+2. The Jan 2003 silk keeps every label as live Arial text; libcdr loses its alignment and lays the 41 rotated scale numbers flat. — `#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-Silk.cdr`
+3. POD22-Silk-iss2.cdr (2006) already carries the 52 … +20 scale of the later POD22A. — `#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-Silk-iss2.cdr`
+4. The 2002 mechanical drawings call for silkscreen “#POD22A-FRONT&REAR-SILK”, a name from the later product. — `#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr`
+5. MANUAL/Backup_of_Pod22manu.pdf is a “POD 9 VIDEO SWITCHER” page. — `#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/MANUAL/Backup_of_Pod22manu.pdf`

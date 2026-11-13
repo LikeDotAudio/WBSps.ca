@@ -564,7 +564,29 @@ const FINDINGS=[
   `<b>Unused Dolby LEDs.</b> M6204.h defines DOLBY1–4 LEDs (PB4–PB6, PG1); the card-edge drawing and PNP show no Dolby LEDs (one yellow LED, Cascade).`];
 const ASSUME=['LED designator ↔ function: edge order of the PNP Y coordinates matched to M6204-card-edge.cdr '+inf('order'),'AVR pass ≈ '+SIM.fmtDur(PASS)+' '+inf('no timer'),'DashBoard control grouping (two pairs per group, one SRC switch per group) '+inf('Dashboard_b.c strings'),'Direct (non-SRC) input at a non-48 kHz rate modelled as slipping '+inf('embedder needs video-locked 48 kHz')];
 const SOURCES=['#OPENGEAR #SERIES/M6204A - #Master #OPENGEAR/M6204A-iss3  - #PNP #2016/M6204A-iss3-T.prg','#OPENGEAR #SERIES/M6204A - #Master #OPENGEAR/M6204A - #TESTREPORT/M6204A-V3000-21MAR12.pdf (notes page 13), V1001-30SEP09, V1002-02DEC09, C700-25NOV09',SW+'Software/atmel/v300/v100w.c, M6204A.c, M6204.h, Dashboard_b.c, Dashboard.c, V100W.mak, wbs_ztcpack.txt (firmware — sibling folder, linked)',SW+'M6204A operational  info.doc, M6204A dip switch.pdf, M6204A SOFTWARE HISTORY.xls','M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr, M6204A-T6301.cdr, M6204A-T6305.cdr'];
-SIM.register({ id:'m6204a', product:'M6204A', name:'M6204A · HD/SD-SDI AES audio embedder, openGear: test reports and PNP (2009|42)', year:2009,
+const FOOTNOTES = [
+ {
+  "text": "Card-edge and rear-module artwork (2026|59) is from the CorelDRAW files: M6204-card-edge.cdr (2009-03-02), M6204A - rear module options.cdr (2012-01-09) for the T6301A, M6204A-T6305.cdr (2007-10-11).",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr"
+ },
+ {
+  "text": "The card-edge drawing names the yellow LED “CASCADE ON LED”; the PCB silk next to it says only “ON”.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr"
+ },
+ {
+  "text": "The T6305 drawing labels both BNC 8 and terminal block 9 “AES IN8”, has no AES IN6 and no SDI output.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6305.cdr"
+ },
+ {
+  "text": "M6204A-T6301.cdr (2007-06-26) and the 2012 rear-module guide draw the same T6301 layout; the guide adds the T6308A.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6301.cdr"
+ },
+ {
+  "text": "Inkscape’s CDR import drops the BNC drawings of the 2007 rear-module files; the archive’s LibreOffice rendering (M6204A-T6305.pdf) keeps them and is what the T6305 panel uses.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6305.pdf"
+ }
+];
+SIM.register({footnotes:FOOTNOTES,  id:'m6204a', product:'M6204A', name:'M6204A · HD/SD-SDI AES audio embedder, openGear: test reports and PNP (2009|42)', year:2009,
   folder:'#OPENGEAR #SERIES/M6204A - #Master #OPENGEAR', family:'openGear',
   summary:'The M6204A embeds up to eight external AES inputs into an SD/HD-SDI signal, cascading or replacing each embedded pair, with sample-rate conversion that coded audio bypasses. This folder holds the test reports and the issue-3 pick-and-place program; the model runs firmware 3.0.0.0 from the M6204 engineering folder.',
   highlights:['Board drawn part by part from the PNP program in this folder','Per-pair cascade / external / SRC / mute, as ALTERA_SORT packs it','Dolby inputs bypass the SRC automatically','The V3000 test notes: “OK” formats, 720p failures, 21-bit HD','The group-count DIP that v3.00 ignores'],

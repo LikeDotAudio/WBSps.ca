@@ -977,6 +977,28 @@ DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from 
   "The guide's legends match the copper: BNC1–BNC8 on positions 1–8, AES4 and AES8 on the blocks at 9 and 10.",
   "The grey-filled BNCs on the guide (positions 1–2 on most of these guides) mark the shell-isolated inputs <span class=\"tag-inf\">inferred</span> from the netlists, where these BNCs have their own return nets; the drawing gives no key.");
 DATA.sources.unshift("#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr (CorelDRAW rear-module guide, 2007-06-27; assets/t6305-rear.svg)");
+const FOOT = [
+{
+"text": "The GENERIC guide T6305.cdr (2007-06-27) labels BNC1–BNC8 on 1–8 and AES4/AES8 on the blocks at 9–10, matching the netlist.",
+"src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr"
+},
+{
+"text": "T6305.cdr is kept a second time in “T6305 - #ARCHIVE”.",
+"src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305 - #ARCHIVE/T6305.cdr"
+},
+{
+"text": "Card-specific T6305 guides exist for M6204A, M6206A and D6207A (two D6207A copies, in “D6207A  #Engineering #TIM #PCB” and the D6207A master folder).",
+"src": "#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A-T6305.cdr"
+},
+{
+"text": "The guide shades BNC1 and BNC2 grey with no key; they are the shell-isolated BNCs in the netlist (inferred meaning).",
+"src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr"
+},
+{
+"text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+"src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr"
+}
+];
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
@@ -1454,6 +1476,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

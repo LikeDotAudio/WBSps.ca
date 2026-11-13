@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [simulator & front panel](../simulator.html?m=AMS8-1AE) · [KiCad symbol generator](../kicad.html?m=AMS8-1AE) |
+| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [KiCad symbol generator](../kicad.html?m=AMS8-1AE) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -40,21 +40,12 @@ The software listings name the AMS8-1AE only as part of the [AMS8-1](AMS8-1.md#s
 |---|---|---|
 | 2014 | [2014 - AMS8-1AE - Rear.jpg](../Products/METERING/AMS8-1AE/2014%20-%20AMS8-1AE%20-%20Rear.jpg) | [note](../Products/METERING/AMS8-1AE/2014%20-%20AMS8-1AE%20-%20Rear.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AMS8-1AE",
- "name": "Mkiii 8 Channel Audio Monitoring System",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/AMS8-1AE/2014 - AMS8-1AE - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. Artwork 2026|59: the front, lens and rear are drawn from AMS8-1A-FRONT-SILK (CURVES).cdr (OCT.19/15), AMS8-M6-SILK(MLC8-M3) (CURVE).cdr (May 08/15) and AMS8-M2-Rear-SILK(Curve).cdr (MAY 07/15). — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+2. The ‘CURVES’ front file is not in curves: all 46 legends are still live Arial text, and the conversion loses their alignment. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+3. The 2015 front has hexagonal vents; the AMS8-1A (AMS8-M24) photo shows slotted vents, so the photo is of another issue. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/Pics/AMS8-1A (AMS8-M24)Front.jpg`
+4. The meter lens is a shared part: the AMS8-M6 sheet is the long MLC8-M3 window with eight round holes on its right; the AMS8-1 uses only its left 216 pt. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`
+5. The front legend reads PRESET (singular), the AMS8-2 front reads PRESETS. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+6. Two AMS8-1A front sheets sit side by side with the same date: the CURVES file and AMS8-1A-FRONT-SILK (AMS8-M24).cdr. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (AMS8-M24).cdr`
+7. The 1B and 1CA fronts (Apr 2016) are separate variants that the simulator does not model. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1CA-FRONT-SILK (CURVES).cdr`

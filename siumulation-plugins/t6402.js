@@ -1550,6 +1550,28 @@ DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from 
   "The guide still says “BNC9-1/BNC9-2” on the ISS1 terminal blocks: the label names the card's MEC1 BNC9 pins, carried on a 3-pin block.",
   "The grey-filled BNCs on the guide (positions 1–2 on most of these guides) mark the shell-isolated inputs <span class=\"tag-inf\">inferred</span> from the netlists, where these BNCs have their own return nets; the drawing gives no key.");
 DATA.sources.unshift("#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402.cdr (CorelDRAW rear-module guide, 2007-01-15; assets/t6402-rear-iss1.svg)", "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402-iss2.cdr (CorelDRAW rear-module guide, 2007-04-03; assets/t6402-rear-iss2.svg)");
+const FOOT = [
+{
+"text": "T6402.cdr (2007-01-15) labels the blocks AES4-1/-2 at 7–8 and BNC9-1/-2 at 9–10, the ISS1 netlist.",
+"src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402.cdr"
+},
+{
+"text": "T6402-iss2.cdr (2007-04-03) relabels the blocks AES3 and AES4, the ISS2 netlist change; ISS3 (2012) has no guide of its own.",
+"src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402-iss2.cdr"
+},
+{
+"text": "The ISS1 guide calls two 3-pin terminal blocks “BNC9-1/BNC9-2”: the legend names the MEC1 BNC9 pins, not the connector.",
+"src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402.cdr"
+},
+{
+"text": "Both T6402 guides are kept a second time in “T6402 - #ARCHIVE”; D6203, D6204 and D6204A folders hold card-specific copies (two of them Backup_of_).",
+"src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402 - #ARCHIVE/T6402-iss2.cdr"
+},
+{
+"text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+"src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402.cdr"
+}
+];
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
@@ -2027,6 +2049,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

@@ -591,7 +591,7 @@ const REAR_ART = {
     src:()=>SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6204A - rear module options.cdr','M6204A - rear module options.cdr')+' (2012-01-09)'},
   T6305:{href:ASSET+'m6204-rear-t6305.svg', vb:[262,328,274,348], cols:[359.86,419.86], y0:400.5, dy:60, r:18.7,
     src:()=>SIM.src(ART_DIR+'M6204A-T6305.cdr','M6204A-T6305.cdr')+' (2007-10-11)'},
-  C700:{href:ASSET+'m6204-rear-c700.svg', vb:[286,293,270,348], cols:[383.2,443.3], y0:365.47, dy:59.8, r:18.7,
+  C700:{href:ASSET+'m6204-rear-c700.svg', vb:[287,293,267.5,348], cols:[383.2,443.3], y0:365.47, dy:59.8, r:18.7,
     src:()=>SIM.src(ART_DIR+'M6204A/Custom/M6204AC700/M6205C400-IO.cdr','M6204AC700/M6205C400-IO.cdr')+' (2009-11-25)'},
 };
 [EDGE_ART.href, ...Object.values(REAR_ART).map(a=>a.href)].forEach(u=>{ const im=new Image(); im.src=u; });   // warm the image cache: panels are redrawn every tick
@@ -1071,7 +1071,37 @@ function viewFindings(m){
 /* =====================================================================
    REGISTER
    ===================================================================== */
-SIM.register({
+const FOOTNOTES = [
+ {
+  "text": "Card-edge and rear-module artwork (2026|59) is from the CorelDRAW files: M6204-card-edge.cdr (2009-03-02), M6204A - rear module options.cdr (2012-01-09), M6204A-T6305.cdr (2007-10-11) and the M6204AC700 IO drawing.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr"
+ },
+ {
+  "text": "The card-edge drawing names the yellow LED “CASCADE ON LED”; the PCB silk next to it says only “ON”.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr"
+ },
+ {
+  "text": "The T6305 drawing labels both BNC 8 and terminal block 9 “AES IN8”, has no AES IN6 and no SDI output.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6305.cdr"
+ },
+ {
+  "text": "The T6308A gets AES IN8 on BNC 10 by giving up SDI OUT2; the T6301A has two SDI outputs and only seven AES inputs.",
+  "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6204A - rear module options.cdr"
+ },
+ {
+  "text": "The C700 rear drawing is filed as M6205C400-IO.cdr in the M6204AC700 folder but is titled “M6204C700”; it differs from the M6205CE400 file of the same name, and a Backup_of_ copy sits beside it.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A/Custom/M6204AC700/M6205C400-IO.cdr"
+ },
+ {
+  "text": "M6204A-T6301.cdr (2007-06-26) and the 2012 rear-module guide draw the same T6301 layout; the guide adds the T6308A.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6301.cdr"
+ },
+ {
+  "text": "Inkscape’s CDR import drops the BNC drawings of the 2007 rear-module files; the archive’s LibreOffice rendering (M6204A-T6305.pdf) keeps them and is what the T6305 panel uses.",
+  "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6305.pdf"
+ }
+];
+SIM.register({footnotes:FOOTNOTES, 
   id:'m6204', name:'M6204A · openGear HD/SD-SDI 4-group AES embedder (2009|42)', duration:1,
   product:'M6204A', year:2009, family:'openGear', folder:'#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR',
   summary:'openGear card that embeds up to four groups of audio into HD/SD-SDI: eight external AES inputs (CS8416 receivers, AD1895 rate converters) or the incoming embedded pairs, chosen per AES pair, are written into the HANC by a Cyclone II EP2C35. An AT90CAN128 running Ward-Beck’s own main loop reads the receivers and a 128-bit FPGA status word, drives twelve LEDs and talks to DashBoard; an M6204AE variant carries a CAT-559 Dolby encoder module.',

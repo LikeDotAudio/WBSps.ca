@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD31](../siumulation.html?plugin=pod31) · [simulator & front panel](../simulator.html?m=POD31) · [KiCad symbol generator](../kicad.html?m=POD31) · [download package (zip)](../_packages/POD31.zip) |
+| Try it | [full simulation: POD31](../siumulation.html?plugin=pod31) · [KiCad symbol generator](../kicad.html?m=POD31) · [download package (zip)](../_packages/POD31.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -85,51 +85,9 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 19xx - POD31 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [19xx - POD31 - MANUAL.docx](../Products/PODS/POD31/19xx%20-%20POD31%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD31",
- "name": "SD/HD-SDI AES Demuxer",
- "category": "PODS",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/PODS/POD31/19xx - POD31 - Front.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD31/19xx - POD31 - Information Sheet.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD31/19xx - POD31 - MANUAL (2).docx",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD31/19xx - POD31 - MANUAL.docx",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD31/19xx - POD31 - Rear.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The rear has a 22.9 × 7.1 mm window for the DIP switch above AES 2–AES 3. — `#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr`
+2. Two small holes at (336, 122) and (936, 122) px between the Phoenix row and the BNC row are used by no part in the model, probably bracket screws for the Phoenix PCB (inferred). — `#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr`
+3. All 14 front LED holes match the 14 tallies in the code (PWR, SD, HD, ERR, four groups, four Dolby, E and DD). — `#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr`
+4. The rear has a ground-stud hole above the right fixing screw. — `#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr`

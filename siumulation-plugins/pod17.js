@@ -1177,6 +1177,14 @@ function viewFindings(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes: [
+    { text: "The front has LED holes at SRC and CH A, although the legend has no drill crosshair for either.", src: "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "On the 75 Ω rear, a PEM-stud hole is printed over the “115 VAC, 1/2 A.S.B.” legend.", src: "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "On the 75 Ω rear, the BNC holes are D-cuts, the cord bushing is a single-D hole and the fuse holder a double-D hole.", src: "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "The 110 Ω rear plate has an unlabelled round hole at its top right corner, as on POD19.", src: "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "One sheet holds four plates: front GREEN, front WHITE, rear 75 and rear 110 (dated Jun.25/14). The separate FRONT-SILK and REAR-SILK CDRs repeat the same art.", src: "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.", src: "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr" }
+  ],
   id:'pod17', name:'POD17 · AES gain-control DA with SRC ('+Y(2000)+')', duration:1,
   product:'POD17', year:2000, family:'POD series',
   folder:'#POD #SERIES/POD17 - #Master',

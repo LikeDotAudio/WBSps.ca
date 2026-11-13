@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD33](../siumulation.html?plugin=pod33) · [simulator & front panel](../simulator.html?m=POD33) · [KiCad symbol generator](../kicad.html?m=POD33) · [download package (zip)](../_packages/POD33.zip) |
+| Try it | [full simulation: POD33](../siumulation.html?plugin=pod33) · [KiCad symbol generator](../kicad.html?m=POD33) · [download package (zip)](../_packages/POD33.zip) |
 | Earliest dated evidence | [2017\|50](Year-2017.md) — month & year |
 | Evidence | "Mar.07 2017" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD33 MANUAL(1).docx |
 | Confidence | medium |
@@ -103,59 +103,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2017 - POD33 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2017 - POD33 - MANUAL (2).docx](../Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD33",
- "name": "AES DARS Tone Generator",
- "category": "PODS",
- "year": 2017,
- "documents": [
-  {
-   "file": "Products/PODS/POD33/2017 - POD33 - Front wrd clk.jpg",
-   "year": 2017,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD33/2017 - POD33 - Front.jpg",
-   "year": 2017,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD33/2017 - POD33 - Information Sheet.jpg",
-   "year": 2017,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD33/2017 - POD33 - MANUAL (2).docx",
-   "year": 2017,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD33/2017 - POD33 - MANUAL.docx",
-   "year": 2017,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD33/2017 - POD33 - Rear.jpg",
-   "year": 2017,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The CorelDRAW outline layer shows two extra fixing holes either side of each knob (SELECT and ADJUST), which the earlier PDF cut did not show. — `#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr`
+2. The rear has fixing holes beside AES OUT and beside the IEC inlet that carry no legend. — `#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr`
+3. The REF AES 110 Phoenix and the four AES OUT Phoenix blocks share one cut-out size. — `#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr`
+4. The rear power legend reads “110-230 VAC, 50-60 Hz” and gives no fuse rating. — `#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr`
+5. POD33-SILK-ISS4.cdr in the Engineering SILK folder is an older issue (2010|43) than the 2016|49 drafting set. — `#POD #SERIES/POD33 - #Master/POD33 - #Engineering/SILK/POD33-SILK-ISS4.cdr`
+6. The drafting set holds a live-text twin, POD33-FRONT&amp;REAR-SILK.cdr, beside the CURVE version (same date). — `#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK.cdr`

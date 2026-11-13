@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [simulator & front panel](../simulator.html?m=AMS8-1BA) · [KiCad symbol generator](../kicad.html?m=AMS8-1BA) · [download package (zip)](../_packages/AMS8-1BA.zip) |
+| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [KiCad symbol generator](../kicad.html?m=AMS8-1BA) · [download package (zip)](../_packages/AMS8-1BA.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Mar.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-1BA, AMS8-1BAM _ AMS8-1BAEM Manual(1).docx |
 | Confidence | medium |
@@ -73,33 +73,12 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2015 - AMS8-1BA - , AMS8-1BAM _ AMS8-1BAEM Manual.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - AMS8-1BA - , AMS8-1BAM _ AMS8-1BAEM Manual.docx](../Products/METERING/AMS8-1BA/2015%20-%20AMS8-1BA%20-%20%2C%20AMS8-1BAM%20_%20AMS8-1BAEM%20Manual.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AMS8-1BA",
- "name": "Mkiii 8 Channel Audio Monitoring System",
- "category": "METERING",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/METERING/AMS8-1BA/2015 - AMS8-1BA - , AMS8-1BAM _ AMS8-1BAEM Manual (2).docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/AMS8-1BA/2015 - AMS8-1BA - , AMS8-1BAM _ AMS8-1BAEM Manual.docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. Artwork 2026|59: the front, lens and rear are drawn from AMS8-1A-FRONT-SILK (CURVES).cdr (OCT.19/15), AMS8-M6-SILK(MLC8-M3) (CURVE).cdr (May 08/15) and AMS8-M2-Rear-SILK(Curve).cdr (MAY 07/15). — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+2. The ‘CURVES’ front file is not in curves: all 46 legends are still live Arial text, and the conversion loses their alignment. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+3. The 2015 front has hexagonal vents; the AMS8-1A (AMS8-M24) photo shows slotted vents, so the photo is of another issue. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/Pics/AMS8-1A (AMS8-M24)Front.jpg`
+4. The meter lens is a shared part: the AMS8-M6 sheet is the long MLC8-M3 window with eight round holes on its right; the AMS8-1 uses only its left 216 pt. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`
+5. The front legend reads PRESET (singular), the AMS8-2 front reads PRESETS. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+6. Two AMS8-1A front sheets sit side by side with the same date: the CURVES file and AMS8-1A-FRONT-SILK (AMS8-M24).cdr. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (AMS8-M24).cdr`
+7. The 1B and 1CA fronts (Apr 2016) are separate variants that the simulator does not model. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1CA-FRONT-SILK (CURVES).cdr`

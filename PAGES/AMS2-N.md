@@ -16,7 +16,7 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [full simulation: AMS2](../siumulation.html?plugin=ams2) · [simulator & front panel](../simulator.html?m=AMS2-N) · [KiCad symbol generator](../kicad.html?m=AMS2-N) · [download package (zip)](../_packages/AMS2-N.zip) |
+| Try it | [full simulation: AMS2](../siumulation.html?plugin=ams2) · [KiCad symbol generator](../kicad.html?m=AMS2-N) · [download package (zip)](../_packages/AMS2-N.zip) |
 | Earliest dated evidence | [2016\|49](Year-2016.md) — month & year |
 | Evidence | "Aug.16 2016" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS2-N MANUAL(1).docx |
 | Confidence | medium |
@@ -66,47 +66,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2016 - AMS2-N - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2016 - AMS2-N - MANUAL (2).docx](../Products/RAVENNA%20AES67/AMS2-N/2016%20-%20AMS2-N%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AMS2-N",
- "name": "Stereo Audio Monitor Speaker w/ Digital & Ravenna® AES67 Inputs",
- "category": "RAVENNA AES67",
- "year": 2016,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/AMS2-N/2016 - AMS2-N - Front Three Quarter.jpg",
-   "year": 2016,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/RAVENNA AES67/AMS2-N/2016 - AMS2-N - Information Sheet.jpg",
-   "year": 2016,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/RAVENNA AES67/AMS2-N/2016 - AMS2-N - MANUAL (2).docx",
-   "year": 2016,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/RAVENNA AES67/AMS2-N/2016 - AMS2-N - MANUAL.docx",
-   "year": 2016,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. The silk sheet's title block says MAR.17/15, but the (CURVE) file itself was saved 2015-11-06; the live-text twin AMS2-FRONT & REAR PANEL SILK.cdr is dated 2015-03-20. — `AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr`
+2. Off the printed page the CorelDRAW file keeps a second, older copy of the rear legends and the “AMS2 SERIES” title (leftover working copy). — `AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr`
+3. Of the two small holes either side of the STEREO / LEFT / RIGHT selector, only the left one carries a drill crosshair on the silk sheet. — `AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr`
+4. The panel artwork (MAR.17/15) is newer than the rear drawing AMS2-REAR ISS 2 (24-02-15) by about a month. — `AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr`
+5. The rear legend gives 90-230 VAC, 1A S.B. on the IEC inlet, and the analog trims are labelled ANALOG IN ADJUST, L and R. — `AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr`

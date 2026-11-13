@@ -1097,6 +1097,13 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes: [{"text": "Artwork 2026|59: the front, lens and rear are drawn from AMS8-1A-FRONT-SILK (CURVES).cdr (OCT.19/15), AMS8-M6-SILK(MLC8-M3) (CURVE).cdr (May 08/15) and AMS8-M2-Rear-SILK(Curve).cdr (MAY 07/15).", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"},
+    {"text": "The ‘CURVES’ front file is not in curves: all 46 legends are still live Arial text, and the conversion loses their alignment.", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"},
+    {"text": "The 2015 front has hexagonal vents; the AMS8-1A (AMS8-M24) photo shows slotted vents, so the photo is of another issue.", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/Pics/AMS8-1A (AMS8-M24)Front.jpg"},
+    {"text": "The meter lens is a shared part: the AMS8-M6 sheet is the long MLC8-M3 window with eight round holes on its right; the AMS8-1 uses only its left 216 pt.", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr"},
+    {"text": "The front legend reads PRESET (singular), the AMS8-2 front reads PRESETS.", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"},
+    {"text": "Two AMS8-1A front sheets sit side by side with the same date: the CURVES file and AMS8-1A-FRONT-SILK (AMS8-M24).cdr.", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (AMS8-M24).cdr"},
+    {"text": "The 1B and 1CA fronts (Apr 2016) are separate variants that the simulator does not model.", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1CA-FRONT-SILK (CURVES).cdr"}],
   id:'ams81', name:'AMS8-1A · 8-channel audio monitor (2013|46)', duration:1,
   product:'AMS8-1 (AMS8E)', year:2013, family:'AMS8 series',
   folder:'AMS81 - #Master',

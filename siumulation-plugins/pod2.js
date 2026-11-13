@@ -1130,6 +1130,13 @@ function viewNotes(m){
 /* ---------------- register ---------------- */
 loadScenario('press3');
 SIM.register({
+  footnotes: [
+    { text: "The front WHITE plate has four filled corner triangles that are not on the photo of the panel; the simulator leaves them out.", src: "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "The rear has an unlabelled small round hole at the top right, beside the IEC inlet.", src: "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "On the rear, LEFT has a screw hole with a ring and RIGHT a plain hole, both beside the OUTPUT Phoenix cut-out.", src: "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "Three screw holes on the front sit between SUM and 1, between 2 and 3, and between 5 and 6.", src: "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.", src: "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr" }
+  ],
   id:'pod2', name:'POD2 · 6×1 stereo audio switcher with SUM and AFV ('+Y(2009)+')', duration:1,
   product:'POD2', year:2009, family:'POD series',
   folder:'#POD #SERIES/POD2 - #Master',

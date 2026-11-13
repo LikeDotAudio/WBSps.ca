@@ -9,7 +9,8 @@
    - D8204C-ASSY - #Assembly.pdf  (assembly drawing "D8204C,ISSUE.1 RELEASED 07/06" — used as the board artwork)
    - …/D8204C_FUNCTION.cdr, D8204C Jumper Settings.cdr ("H1 is selectable for no lock alarm or audio out
        of the B2+ termination"), TB8201AP-for-D8204C.cdr  (text recovered in the .md sidecars)
-   - 8200 Series Rear Module options…/D8204C - rear module options.pdf  (TB8201AP pin labels)
+   - 8200 Series Rear Module options…/D8204C - rear module options.cdr (2012) → assets/d8204c-rear-tb8201ap.svg
+       (Artwork 2026|59: vectors via its Corel PDF export; TB8201AP pin labels and terminal rows)
    - SIBLING FIRMWARE (no D8204C code exists): D8204A - #Master #MF82/…/v100/v100.asm and
        D8204B - #Master #MF82/…/v101/v200.asm — used to explain what the PIC16C54 most likely did.
    Anything not in those files is marked "inferred" on screen.
@@ -96,17 +97,33 @@ function boardSVG(t){
 // TB8201AP pluggable screw terminal, labels from TB8201AP-for-D8204C.cdr / the rear-module guide (two 12-way blocks)
 const TB_L=[['SH',''],['AES IN −','in'],['AES IN +','in'],['GND',''],['AES OUT 1 −','a1'],['AES OUT 1 +','a1'],['GND',''],['AES OUT 3 −','a3'],['AES OUT 3 +','a3'],['GND',''],['LEFT OUT 1 −','l1'],['LEFT OUT 1 +','l1'],['GND',''],['LEFT OUT 2 −','l2'],['LEFT OUT 2 +','l2'],['GND',''],['LEFT OUT 2 −','l2b'],['LEFT OUT 2 +','l2b']];
 const TB_R=[['AES OUT 2 +','a2'],['AES OUT 2 −','a2'],['GND',''],['AES OUT 4 +','a4'],['AES OUT 4 −','a4'],['GND',''],['RIGHT OUT 1 +','r1'],['RIGHT OUT 1 −','r1'],['GND',''],['RIGHT OUT 2 +','r2'],['RIGHT OUT 2 −','r2'],['GND','']];
+// Artwork 2026|59: TB8201AP from the CorelDRAW rear-module guide, cell cropped at 2.5 px per pt (450 × 577.5).
+// Terminal rows measured on its vectors: left block x 184 (18 rows), right block x 221 (12 rows).
+const RMG_DIR='#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/';
+const TB_LY=[232.0,239.8,248.0,261.0,268.5,275.8,284.5,291.3,299.3,307.8,315.1,323.6,331.0,338.8,346.7,358.6,365.9,373.9].map(y=>(y-193)*2.5);
+const TB_RY=[260.5,268.4,276.1,284.0,291.8,300.4,307.7,314.4,322.0,331.3,339.2,346.9].map(y=>(y-193)*2.5);
 function rearSVG(t){
+  if (D.rearList) return rearListSVG(t);
+  const live=k=>{ if(k==='in') return D.plugged; if(k[0]==='a') return aesOutAt(t); if(k==='r2') return D.h1==='alarm'? 'alarm' : !muteAt(t); return !muteAt(t); };
+  const term=(x,y,[l,k])=>{ const v=k?live(k):false; const col=v==='alarm'?(fwAt(t).lock?'#777':'#ff4a3a'):v?(k==='in'?'var(--accent2)':k[0]==='a'?'var(--led-g)':'#5aa9e6'):'#777';
+    return `<g class="${k==='in'?'cIn':''}" style="cursor:${k==='in'?'pointer':'default'}"><title>${l}${k==='in'?' — click to connect/disconnect':''}${k==='l2b'?' (second LEFT OUT 2 pair: netlist A2± on P1-21/22 AND P1-23/24)':''}${k==='r2'&&D.h1==='alarm'&&l.includes('+')?' — now NO LOCK ALARM (H1)':''}</title><rect x="${x-14}" y="${y-9}" width="28" height="18" fill="${k==='in'&&D.plugged?'rgba(58,116,184,.45)':'transparent'}"/>${k?`<circle cx="${x}" cy="${y}" r="5" fill="${col}" stroke="#000" stroke-width="1"/>`:''}</g>`; };
+  let s=`<svg viewBox="0 0 450 577.5" style="width:100%;max-width:340px;display:block;border-radius:6px;background:#fbfaf6" role="img" aria-label="TB8201AP rear module (CorelDRAW art)"><image href="${ASSET}d8204c-rear-tb8201ap.svg" width="450" height="577.5"/>`;
+  TB_L.forEach((r,i)=>s+=term(184,TB_LY[i],r)); TB_R.forEach((r,i)=>s+=term(221,TB_RY[i],r));
+  if (D.h1==='alarm') s+=`<text x="300" y="${TB_RY[9]-14}" font-size="11" fill="#c0392b" font-weight="700">H1: NO LOCK ALARM</text>`;
+  return s+`</svg><div class="small muted" style="max-width:340px">CorelDRAW art: ${SIM.src(RMG_DIR+'D8204C - rear module options.cdr','D8204C - rear module options.cdr')} (2012|45), via its Corel PDF ${SIM.src(RMG_DIR+'D8204C - rear module options.pdf','export')}. Dots: green = AES, blue = analog, red = alarm on. LEFT OUT 2 appears twice on the art, and the netlist agrees. <button class="cRearSrc" style="padding:1px 6px">show terminal list</button></div>`;
+}
+function rearListSVG(t){
   const live=k=>{ if(k==='in') return D.plugged; if(k[0]==='a') return aesOutAt(t); if(k==='r2') return D.h1==='alarm'? 'alarm' : !muteAt(t); return !muteAt(t); };
   const row=(x,y,[l,k])=>{ const v=k?live(k):false; const col=v==='alarm'?(fwAt(t).lock?'#555':'#ff4a3a'):v?(k==='in'?'var(--accent2)':k[0]==='a'?'var(--led-g)':'#5aa9e6'):'#555';
     return `<g class="${k==='in'?'cIn':''}" style="cursor:${k==='in'?'pointer':'default'}"><title>${l}${k==='in'?' — click to connect/disconnect':''}${k==='l2b'?' (second LEFT OUT 2 pair: netlist A2± on P1-21/22 AND P1-23/24)':''}${k==='r2'&&D.h1==='alarm'?' — now NO LOCK ALARM':''}</title><rect x="${x}" y="${y}" width="22" height="16" fill="#2b8a3e" stroke="#0b3"/><circle cx="${x+11}" cy="${y+8}" r="5" fill="#ccc"/><circle cx="${x+30}" cy="${y+8}" r="3.5" fill="${col}"/><text x="${x+38}" y="${y+12}" font-size="10.5" fill="var(--ink)">${k==='r2'&&D.h1==='alarm'&&l.includes('+')?'NO LOCK ALARM':l}</text></g>`; };
   let s=`<svg viewBox="0 0 330 ${TB_L.length*18+40}" style="width:100%;max-width:340px"><text x="0" y="14" font-size="12" font-weight="700" fill="var(--ink)">TB8201AP pluggable screw terminal</text>`;
   TB_L.forEach((r,i)=>s+=row(0,24+i*18,r)); TB_R.forEach((r,i)=>s+=row(170,24+i*18,r));
-  return s+`</svg><div class="small muted">Labels as printed on the rear-module guide and <span class="mono">TB8201AP-for-D8204C.cdr</span>. LEFT OUT 2 appears twice on both drawings, and the netlist agrees: A2+ is on P1-22 and P1-24, A2− on P1-21 and P1-23.</div>`;
+  return s+`</svg><div class="small muted">Labels as printed on the rear-module guide and <span class="mono">TB8201AP-for-D8204C.cdr</span>. LEFT OUT 2 appears twice on both drawings, and the netlist agrees: A2+ is on P1-22 and P1-24, A2− on P1-21 and P1-23. <button class="cRearSrc" style="padding:1px 6px">show CorelDRAW art</button></div>`;
 }
 function bindPanel(m){
   m.querySelectorAll('.cEq').forEach(g=>g.onclick=()=>A.eq());
   m.querySelectorAll('.cIn').forEach(g=>g.onclick=()=>A.plug());
+  m.querySelectorAll('.cRearSrc').forEach(b=>b.onclick=()=>{ D.rearList=!D.rearList; SIM.refresh(); });
   m.querySelectorAll('.cH1').forEach(g=>g.onclick=()=>A.h1(D.h1==='alarm'?'audio':'alarm'));
   m.querySelectorAll('.cTrim').forEach(g=>{ const i=+g.dataset.i; g.onclick=()=>{ D.rv[i]=(D.rv[i]+32)%256; A.rvLog(i); }; g.onwheel=e=>{ e.preventDefault(); D.rv[i]=Math.max(0,Math.min(255,D.rv[i]+(e.deltaY<0?3:-3))); SIM.refresh(); }; });
 }
@@ -223,6 +240,7 @@ function viewNotes(m){
    <li><b>The DAC can't be told anything.</b> The sibling D8204A sets reference level and L/R mix in a CS4392's registers. The D8204C's CS4390 is a hardware-mode DAC; the only control left is MUTEDAC, and level moved to the analog trims CHA/CHB.</li>
    <li><b>Sibling bug worth knowing.</b> In D8204A <span class="mono">PROCESS_SWITCHES</span>, <span class="mono">andlw 0x78</span> masks W but then <span class="mono">rrf temp0</span> ×3 rotates a different register, so <span class="mono">analog_type_table</span> indexes on stale data. If the D8204C code was derived from it, the D8204C was spared because it has no switches to read.</li>
    <li><b>H1 is documented.</b> “H1 is selectable for no lock alarm or audio out of the B2+ termination” — the only D8204C jumper.</li>
+   <li><b>Artwork 2026|59: rear module now from ${SIM.src(RMG_DIR+'D8204C - rear module options.cdr','D8204C - rear module options.cdr')} (CorelDRAW X3, 2012-01-16).</b> The TB8201AP is its vectors (black plate, white legends) through Corel's own ${SIM.src(RMG_DIR+'D8204C - rear module options.pdf','PDF export')}; every terminal dot sits on its screw. The 2006 ${SIM.src(E+'TB8201AP-for-D8204C.cdr','TB8201AP-for-D8204C.cdr')} is the same page four years earlier. The art shows three separate blocks on the left (3-way input, 12-way, 3-way) and one 12-way block on the right, and the last left block repeats GND / LEFT OUT 2 − / LEFT OUT 2 +.</li>
    <li><b>Files.</b> <span class="mono">#Manual</span> is empty; <span class="mono">#ARCHIVE</span> duplicates the three CDR files; a working ISS2 schematic/PCB exists (2006|39) with no BOM; PnP data was regenerated in 2013|46 and 2015|48.</li>
   </ol>`)+card('Assumptions', `<ul class="small"><li>Cable loss ${K.DB_PER_100M} dB/100 m, source 4 V p-p, EQ +${K.EQ_DB} dB: ${inf}.</li><li>PIC loop ${SIM.fmtDur(PASS)} and its steps: ${inf} from D8204A v100.asm.</li><li>CONF LED meaning (lit when locked but the margin is under 4 dB) ${inf}; the real code may have used CS8427 reg 16 CONF.</li><li>Trim range (0 dBFS = +12…+24 dBu) and clip at +${K.CLIP_DBU} dBu ${inf}.</li></ul>`)
   +card('Sources', `<ul class="small mono"><li>D8204C - #Engineering/D8204C - #PCB/D8204C-ISS1.net · d8204c-iss1.bom · d8204c-iss1.pnp</li><li>D8204C-ASSY - #Assembly.pdf · D8204C_FUNCTION.cdr · D8204C Jumper Settings.cdr · TB8201AP-for-D8204C.cdr</li><li>8200 Series Rear Module options…/D8204C - rear module options.pdf</li><li>D8204A…/v100/v100.asm · D8204B…/v101/v200.asm (siblings)</li></ul>`);
@@ -233,6 +251,13 @@ SIM.register({
   folder:'#MF8200 #SERIES/D8204C - #Master #MF82',
   summary:'A 110 Ω AES/EBU distribution card for the TB8201AP screw-terminal module: one input, four transformer-coupled AES outputs, and a CS4390 DAC feeding balanced left/right analog outputs. A PIC16C54 (code not archived) watches the receiver, mutes the DAC and drives the LEDs and alarm.',
   highlights:['Real assembly drawing as the board','AES and analog paths at once','Netlist-exact PIC pin map','H1 alarm on B2+','“Analog to AES” label is backwards'],
+  footnotes:[
+    {text:'Rear-module art: the TB8201AP is vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the guide’s symbol fonts badly).', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204C - rear module options.cdr'},
+    {text:'The guide titles the card “110 Ohm AES/EBU Distribution Amplifier & Analog to AES/EBU Digital Converter”, but the D8204C converts AES to analog (CS4390 DAC).', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204C - rear module options.cdr'},
+    {text:'LEFT OUT 2 ± is printed twice on the TB8201AP, on the middle and the bottom left blocks; the netlist confirms A2± on P1-21/22 and P1-23/24.', src:'#MF8200 #SERIES/D8204C - #Master #MF82/D8204C - #Engineering/TB8201AP-for-D8204C.cdr'},
+    {text:'D8204C Jumper Settings.cdr: “H1 is selectable for no lock alarm or audio out of the B2+ termination” — the only jumper on the card.', src:'#MF8200 #SERIES/D8204C - #Master #MF82/D8204C - #Engineering/D8204C Jumper Settings.cdr'},
+    {text:'The three D8204C CDRs (function diagram, jumper settings, TB8201AP page) are stored again, same dates and sizes, in D8204C - #ARCHIVE.', src:'#MF8200 #SERIES/D8204C - #Master #MF82/D8204C - #Engineering/D8204C - #ARCHIVE/D8204C_FUNCTION.cdr'},
+  ],
   depth:'Hardware model',
   stepUnits:[{label:'1 PIC poll (inferred)',period:()=>PASS},{label:'1 AES frame',period:()=>1/D.fs},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s (whole)'],[0.2,'200 ms'],[0.02,'20 ms'],[0.003,'3 ms (3 tone cycles)'],[0.0005,'500 µs'],[4/48000,'4 frames']],

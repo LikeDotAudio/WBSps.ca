@@ -58,7 +58,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../siumulation.html?plugin=abb1">full simulation: ABB1</a> · <a href="../simulator.html?m=ABB1">simulator &amp; front panel</a> · <a href="../kicad.html?m=ABB1">KiCad symbol generator</a> · <a href="../_packages/ABB1.zip">download package (zip)</a></td>
+<td><a href="../siumulation.html?plugin=abb1">full simulation: ABB1</a> · <a href="../kicad.html?m=ABB1">KiCad symbol generator</a> · <a href="../_packages/ABB1.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -242,37 +242,13 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <ul>
 <li>source: <a href="../viewer.html?f=Products/BUDDIES/ABB1/2015%20-%20ABB1%20-%20Manual.docx">2015 - ABB1 - Manual.docx</a>, p. 1</li>
 </ul>
-<details class="json"><summary>Contents (JSON)</summary><pre>{
- &quot;device&quot;: &quot;ABB1&quot;,
- &quot;name&quot;: &quot;Audio Bit Buddy Portable Digital/Analog Audio Monitor&quot;,
- &quot;category&quot;: &quot;BUDDIES&quot;,
- &quot;year&quot;: 2015,
- &quot;documents&quot;: [
-  {
-   &quot;file&quot;: &quot;Products/BUDDIES/ABB1/2015 - ABB1 - Information Sheet.jpg&quot;,
-   &quot;year&quot;: 2015,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: [
-    &quot;dates&quot;
-   ]
-  },
-  {
-   &quot;file&quot;: &quot;Products/BUDDIES/ABB1/2015 - ABB1 - Manual (2).docx&quot;,
-   &quot;year&quot;: 2015,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: [
-    &quot;dates&quot;,
-    &quot;sections&quot;
-   ]
-  },
-  {
-   &quot;file&quot;: &quot;Products/BUDDIES/ABB1/2015 - ABB1 - Manual.docx&quot;,
-   &quot;year&quot;: 2015,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: [
-    &quot;dates&quot;,
-    &quot;sections&quot;
-   ]
-  }
- ]
-}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from ABB1.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+<h2>Footnotes</h2>
+<ol>
+<li>The front silk ABBFSLK2.cdr has eight status rows but only seven right-hand (ERROR mode) legends: the bottom LED, which the firmware lights for a real no-lock, has no ERROR legend. — <code>ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr</code></li>
+<li>The ERROR legends skip the receiver's “slipped sample” code, so CRC, PARITY, BIPHASE and NO LOCK each sit one LED below the code that lights them. — <code>ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr</code></li>
+<li>The panel title “Audio Bit Buddy ABB-1” is set in Hobo-WP; libcdr keeps it as live text, so the simulator still uses the photo for the title. — <code>ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr</code></li>
+<li>libcdr places the legends of ABBFSLK2.cdr as if they were twice their size; right-aligned and centred legends had to be re-anchored by hand. — <code>ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr</code></li>
+<li>ABBFSLK2.cdr is stored twice, byte-identical, in ABB1 - #Engineering and ABB1 - #Engineering/ABB1 - #ARCHIVE. — <code>ABB1 - #Master/ABB1 - #Engineering/ABB1 - #ARCHIVE/ABBFSLK2.cdr</code></li>
+<li>The earlier front silk abbfslk.CDR (1999-09-20) is a CorelDRAW 5 file whose text libcdr decodes byte-swapped (“LOCK” comes out as two CJK characters). — <code>ABB1 - #Master/ABB1 - #Engineering/abbfslk.CDR</code></li>
+<li>ABB-1SLK.CDR, the only rear-panel CorelDRAW file, holds five guide lines and no legend; the rear legend in the simulator comes from the 2010 photo. — <code>ABB1 - #Master/ABB1 - #Engineering/ABB-1SLK.CDR</code></li>
+</ol><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from ABB1.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

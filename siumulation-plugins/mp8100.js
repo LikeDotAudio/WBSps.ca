@@ -514,6 +514,13 @@ SIM.register({
   stepUnits:[ {label:'10 ms', period:()=>0.01}, {label:'1 ms', period:()=>0.001}, {label:'1 model sample', period:()=>1/FS} ],
   zooms:[[1,'1 s (whole)'],[0.3,'300 ms (VU rise)'],[0.05,'50 ms'],[0.012,'12 ms'],[0.002,'2 ms']],
   defaultZoom:0,
+  footnotes:[
+    {text:"Despite “(CURVE)” in its name, 8100MP-FRONT-SILK keeps the title “MP SERIES by WARD-BECK SYSTEMS” as live Hobo Std text; only its CorelDRAW PDF export carries the glyph outlines.", src:"#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR"},
+    {text:"The front silk is a single line of text plus two ellipses marking the left rack slots as a reference.", src:"#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR"},
+    {text:"The rear legend states 115 VAC, 1A SB only; there is no 230 V marking.", src:"#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR"},
+    {text:"The rear silk's guides put the four rack-ear holes at 0.17 in / 16.53 in across and 0.52 in / 2.78 in up on the 16.7 in × 3.27 in plate.", src:"#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR"},
+    {text:"Both silk files are stored twice, in 8100 CHASSIS - #ARTWORK #DA #2016 and in SILKS.", src:"#MP (8100) #SERIES/SILKS/8100MP-REAR-SILK (CURVE).CDR"},
+  ],
   tabs:[ {id:'sim',label:'Simulator',render:viewSim}, {id:'tutorial',label:'Tutorial',render:viewTut}, {id:'second',label:'One second: VU vs PPM',render:viewSecond},
     {id:'block',label:'Block diagram',render:viewBlock}, {id:'schematic',label:'Schematics',render:viewSchem}, {id:'software',label:'Signal path',render:viewPath}, {id:'findings',label:'Findings',render:viewNotes} ],
 });

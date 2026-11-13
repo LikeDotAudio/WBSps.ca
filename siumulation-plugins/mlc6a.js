@@ -531,8 +531,10 @@ function tick(){
    positions blank. PRESET buttons: the MLC8A positions shifted by the same offset (centred on the PRESETS bracket).
    Meter lens: the MLC8-M3 lens placed 844 px left / 150 px above the L knob, as on the MLC8A (photo: same window). */
 const FW = 3456, FH = 338, DX = 3.3, DY = 4.4;            // offset of this frame from the mlc8.js frame
-const KX = k => k<8? 1029.8+200*k : 2729.8, KY = 168.9;
-const PBX = {p1:[3101.8,97.9], p2:[3246.8,97.9]};
+const KX = k => k<8? 1029.8+200*k : 2729.8, KY = 170;      // knob holes in MLC6A-FRONT-SILK(CURVE).cdr: x 1029…2029 / 2729, y 170
+const ARTF = '#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK(CURVE).cdr';
+const ARTR = '#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive/MLC6A (Front & Rearview).cdr';
+const PBX = {p1:[3101,99], p2:[3246,99]};                  // PRESET button cut-outs (0.34" square) in the CURVE file
 const MCOL = [224.5,295.5,365.5,435.5,535.5,605.5,675.5,745.5].map(x=>x+DX);
 const MROW = r => 29 + DY + 12*r;
 const PAIRX = [262,402,572,712].map(x=>x+DX);
@@ -544,8 +546,7 @@ function ringSVG(k, bits){
     s+=`<circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${r}" fill="${on?(i===12?'#ffb43a':'#7dff6a'):(i===12?'#2d2412':'#16261a')}"${on?' filter="url(#m6g)"':''}/>`; }
   return s;
 }
-const SCREWS = [[383.6,174.6],[383.6,246.3],[710.9,167.7],[710.9,254.1],[1116.7,174.6],[1116.7,246.3],[1177.3,174.6],[1177.3,246.3],[1271.8,174.6],[1271.8,246.3],[141.8,174.6],[141.8,246.3]]
-  .map(([x,y])=>[(x-87.16)*200/72,(y-147.99)*200/72]);   // panel screws, measured on Pics/MLC6A Front.jpg (±0.03", not in the CDR)
+const SCREWS = [[149,70],[149,270],[823,70],[823,270],[1729,50],[1729,290],[2867,70],[2867,270],[3037,70],[3037,270],[3309,70],[3309,270]];   // the twelve screw holes drawn in MLC6A-FRONT-SILK(CURVE).cdr
 function frontSVG(t, opts){
   opts=opts||{};
   const loss=lossAt(t), flash=flashOnAt(t), scan=ringScanAt(t), mux=muxPhase(t), pb=pbLeds(t);
@@ -565,7 +566,7 @@ function frontSVG(t, opts){
     const e = D.power && litNow && m.err, d = D.power && litNow && m.dd;
     s+=`<circle cx="${PAIRX[p]}" cy="${222+DY}" r="5" fill="${d?'#ffc23a':'#2a2410'}"${d?' filter="url(#m6g)"':''}/><circle cx="${PAIRX[p]}" cy="${259+DY}" r="5" fill="${e?'#ff3b2f':'#2a1513'}"${e?' filter="url(#m6g)"':''}/>`; }
   s+=`<image href="${ASSET}mlc6a-lens-white.png" x="${182.5+DX}" y="${14.5+DY}" width="600" height="300"/>
-    <image href="${ASSET}mlc6a-front-green.png" width="${FW}" height="${FH}"/><image href="${ASSET}mlc6a-front-white.png" width="${FW}" height="${FH}"/>`;
+    <image href="${ASSET}mlc6a-front.svg" width="${FW}" height="${FH}"/>`;
   // knobs and rings: only the seven fitted encoders (PANEL_K); rings 7 and 8 are still scanned by ALTERA_write
   for (const k of PANEL_K){
     const x=KX(k), big=k===8, hole=big?94.5:66.5, kr=big?56:38;
@@ -592,7 +593,7 @@ function frontSVG(t, opts){
 function rearSVG(){
   const bnc=[1183,1247,1314,1377], phx=[1282,1339,1396,1453];
   let s=`<svg viewBox="0 0 1814 176" role="img" aria-label="MLC6A rear panel (drawing from MLC6A (Front &amp; Rearview).cdr)" style="width:100%;display:block;border-radius:6px;background:#202326">
-    <rect width="1814" height="176" fill="#202326"/><image href="${ASSET}mlc6a-rear.png" width="1814" height="176"/>`;
+    <rect width="1814" height="176" fill="#202326"/><image href="${ASSET}mlc6a-rear.svg" width="1814" height="176"/>`;
   bnc.forEach((x,p)=>{ const on=D.cable75[p]; s+=`<g class="jack" data-j="cable75" data-p="${p}" style="cursor:pointer">${on?`<circle cx="${x}" cy="51" r="21" fill="#2b5f9e" stroke="#9cc3f0" stroke-width="2"/><rect x="${x-7}" y="0" width="14" height="32" fill="#2b5f9e"/>`:''}
       <circle cx="${x}" cy="51" r="28" fill="transparent"><title>IN ${p+1} 75 Ω BNC — click to ${on?'unplug':'plug in'}</title></circle>
       <circle cx="${x+22}" cy="24" r="6" fill="${locked(p)&&D.source===1?'var(--accent)':on?'var(--warn)':'#555'}"/></g>`; });
@@ -803,7 +804,7 @@ function stateTable(t){
 function viewSim(m){
   window[KEYFLAG]=true;
   m.innerHTML = `
-  ${card('Front panel at the playhead — built on the mlc6A-SILK.cdr front silk and the MLC8-M3 meter lens', `<div id="fp"></div>${controlsHTML()}`)}
+  ${card('Front panel at the playhead — built on the MLC6A-FRONT-SILK(CURVE).cdr front silk and the MLC8-M3 meter lens', `<div id="fp"></div><div class="small muted" style="margin-top:4px">Front artwork: ${SIM.src(ARTF,'MLC6A-FRONT-SILK(CURVE).cdr')} (JUN.24/16, GREEN + WHITE plates; the black outline, meter window, knob, button and screw holes shown as faint guides). Rear: the REARVIEW drawing in ${SIM.src(ARTR,'MLC6A (Front & Rearview).cdr')} (Oct 8 2010). Meter lens: MLC8-M3 lens art.</div>${controlsHTML()}`)}
   <div class="grid2">
     <div>${card('Signals, firmware builds, rear connections and main-board inputs', `<div id="sig"></div><div id="rp" style="margin-top:8px"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}</div>
@@ -1165,7 +1166,7 @@ function viewNotes(m){
   <h3>Artwork and files</h3>
   <ol start="12">
     <li><b>The rear photo is not the drawn rear.</b> <span class="mono">Pics/MLC6A Rear.jpg</span> (byte-identical to <span class="mono">AMS81 - #Master/…/Obsolete/MLC6A(AMS8-M2) Rear.jpg</span>) shows an AMS8-M2 rear with blank SDI IN/OUT, AES1/AES2 and DOLBY E METADATA holes. <span class="mono">MLC6A (Front &amp; Rearview).cdr</span> draws the clean MLC8-M6 rear (same as the MLC8A), which is what the simulator uses.</li>
-    <li><b>The silk conversion lost its text layout.</b> libcdr kept the logo and bracket paths and the label baselines, but not the alignment: “MLC-6A” and “MULTICHANNEL LEVEL CONTROL” land on top of each other, as do the WBS logo and “WARD-BECK SYSTEMS”. Labels were re-anchored on the photo. The panel spacing matches the MLC8A exactly (knobs 1.000" apart, MASTER 8.5" from L), so the meter lens and button positions were carried over.</li>
+    <li><b>The 2007 silk conversion lost its text layout</b> (superseded: the panel now uses the 2016 curve file, see Artwork below). libcdr kept the logo and bracket paths and the label baselines, but not the alignment: “MLC-6A” and “MULTICHANNEL LEVEL CONTROL” land on top of each other, as do the WBS logo and “WARD-BECK SYSTEMS”. Labels were re-anchored on the photo. The panel spacing matches the MLC8A exactly (knobs 1.000" apart, MASTER 8.5" from L), so the meter lens and button positions were carried over.</li>
     <li><b>Duplicates.</b> <span class="mono">MLC8 #Engineering #TIM/MLC6A/</span> holds the same <span class="mono">mlc6A-SILK.cdr</span>, <span class="mono">MLC6-M1.dwg</span> and <span class="mono">.bak</span>, plus a different <span class="mono">Backup_of_mlc6A-SILK.cdr</span>; <span class="mono">MLC6 &amp; MLC8 - #Mechanical #DA #2016/MLC6-M1 ISS 1 (FRONT PANEL).dwg</span> is the 2016|49 redraw. <span class="mono">analog.c</span>, <span class="mono">control.c</span> and <span class="mono">mode5.c</span> are AMS8/AMS16 leftovers listed in the project but not called.</li>
   </ol>
   <h3>Inherited from the MLC8A (same code, details in the MLC8 plugin)</h3>
@@ -1175,6 +1176,13 @@ function viewNotes(m){
     <li><b>Ring range</b>: every value from 200 to 255 shows a full ring (${fmtDb(full)} … ${fmtDb(top)}); values 1–15 show only LED 1.</li>
     <li><b>Presets</b>: an empty preset still lights its button; the store “flicker” is a ≈170 ms EEPROM stall ${inf}; the source is not stored.</li>
     <li><b>Protocol</b>: tens/ones are binary, channel 6 is letter G (F,F = mute), idle refresh every 20 polls; the main-board bootloader at 0x1F800 is linked but unreachable; 200 misaligned FPGA exchanges reboot the main board through the watchdog.</li>
+  </ul>
+  <h3>Artwork</h3>
+  <ul>
+    <li><b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ARTF,'MLC6A-FRONT-SILK(CURVE).cdr')} (JUN.24/16) and ${SIM.src(ARTR,'MLC6A (Front & Rearview).cdr')} (Oct 8 2010).</b> The 2016 curve sheet replaces the 2007 ${SIM.src('#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive/mlc6A-SILK.cdr','mlc6A-SILK.cdr')}, whose live text libcdr could not place: every legend now sits where the art puts it. It also carries a black mechanical layer the 2007 file lacks: panel outline, the 600 px (3.0") meter window, six 0.685" knob holes, a 0.935" MASTER hole, two 0.34" PRESET cut-outs and twelve screw holes. Knobs moved 1 px down and the PRESET buttons ≤1 px onto those holes; the screws, which had been measured on the photo, moved by up to 18 px (the right-hand pair) onto the drawn holes.</li>
+    <li>The art has <b>only six channel holes</b> (L R C LFE LS RS) and no 5.1/ST buttons, so encoders 7/8 and the stereo buttons that the shared MLC8A code still scans are not even drilled; the green “5.1” bracket spans all six.</li>
+    <li>The 2016 file sits in an <span class="mono">Obsolete</span> sub-folder of the shared MLC6 & MLC8 artwork folder, beside a live-text twin (MLC6A-FRONT-SILK.cdr, same date); the 2007 silk exists twice (TIM folder and this folder) plus a Backup_of_ copy.</li>
+    <li>The rear is an illustration, not a silk: it shows four 75 Ω BNC inputs, REF IN, four BNC outputs, Phoenix 110 Ω inputs/outputs, MONITOR OUTPUT, a DE-9 SERIAL COMM and a DB-25 AUX “PLEASE REFER TO MANUAL”, and its captions overlap (libcdr: “75 Ohm AES REF. INPUT” over “4 x 75 Ohm AES INPUTS”).</li>
   </ul>`) + card('Assumptions in this simulation', `<ul class="small">
     <li>Front-panel pass 0.833 ms ${inf}: the MLC8A manual's “approximately five seconds” ÷ <span class="mono">PRESET_DEBOUNCE</span> 6000. Main-board loop 5 ms ${inf}; poll cycle ≈ ${(C.POLL*1000).toFixed(1)} ms.</li>
     <li>SHARC core 61.44 MHz ${inf} (TPERIOD1 = 2.5 ms); SHARC code is MLC8Av105 per the listing, modelled with the MLC8A mlc8v106 source (not in this folder) ${inf}. One detent = 4 quadrature steps ${inf}.</li>
@@ -1192,10 +1200,18 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes: [
+    { text: "The 2016 front silk has only six channel holes (L R C LFE LS RS) and no 5.1/ST buttons, although the shared MLC8A firmware still scans encoders 7/8.", src: "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK(CURVE).cdr" },
+    { text: "The newest MLC6A silk (JUN.24/16) is filed under Obsolete in the shared MLC6 & MLC8 artwork folder, beside a live-text twin of the same date.", src: "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK.cdr" },
+    { text: "The 2007 mlc6A-SILK.cdr exists in two folders plus a Backup_of_ copy; its live text cannot be placed by libcdr.", src: "#MLC - #SERIES/MLC8 #Engineering #TIM/MLC6A/Backup_of_mlc6A-SILK.cdr" },
+    { text: "The curve sheet adds a black mechanical layer: 600 px (3.0 in) meter window, 0.685 in knob holes, 0.935 in MASTER hole, two 0.34 in PRESET cut-outs and twelve screw holes; the photo-measured screws were up to 18 px off.", src: "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK(CURVE).cdr" },
+    { text: "The 2010 front-and-rear illustration uses live text: as converted, its captions overlap (“75 Ohm AES REF. INPUT” over “4 x 75 Ohm AES INPUTS”, “MLC-6A” over “MULTICHANNEL LEVEL CONTROL”), so only the rear connector labels are used.", src: "#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive/MLC6A (Front & Rearview).cdr" },
+    { text: "The rear illustration shows a DB-25 “AUX” marked “PLEASE REFER TO MANUAL”, but there is no MLC6A manual in the archive.", src: "#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive/MLC6A (Front & Rearview).cdr" }
+  ],
   id:'mlc6a', name:'MLC6A · Multi-Channel Level Control, 6 channel (2007|40)', duration:1,
   product:'MLC6A', year:2007, family:'Obsolete products', folder:'#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive',
   summary:'1RU 5.1 meter and monitor level control: six channel encoders (L R C LFE LS RS) and a master with 25-LED rings, eight 22-LED bargraphs and two presets. Its firmware (front V205, main board V106) is the MLC8A code with the two hidden channels started at 120 and the input termination taken away from the panel.',
-  highlights:['Panel rebuilt from mlc6A-SILK.cdr (converted, labels re-anchored on the photo)','Hash + diff against the MLC8A tree: two changed lines in the front code','Termination select that leads nowhere; 110 Ω inputs locked out in the released main board','Switchable builds V204/V205 and V105/V106/working with the real differences','Every knob turn traced to the #…$ bytes, the FPGA and the SHARC; ring slots 7/8 scanned for nothing'],
+  highlights:['Vector panel from MLC6A-FRONT-SILK(CURVE).cdr (2016) with its drilled holes; rear from the 2010 CorelDRAW drawing','Hash + diff against the MLC8A tree: two changed lines in the front code','Termination select that leads nowhere; 110 Ω inputs locked out in the released main board','Switchable builds V204/V205 and V105/V106/working with the real differences','Every knob turn traced to the #…$ bytes, the FPGA and the SHARC; ring slots 7/8 scanned for nothing'],
   depth:'Full model',
   stepUnits:[
     {label:'1 front-panel pass', period:()=>C.F_LOOP},

@@ -732,46 +732,58 @@ function cardSVG(t, opts){
   return o+'</svg>';
 }
 /* Card edge as seen through the frame door: manual Fig. 3 order (LEDs top to bottom), switches beside them */
-function edgeSVG(t){
-  const {s,w}=fState(t); const L=s.leds, b=w.build;
-  const list = b==='A'? [[0,'Lock'],[1,'No Lock'],[2,'EQ'],[6,'COM Activity'],[7,'Error']] : [[0,'Lock 1'],[1,'No Lock 1'],[2,'EQ 1'],[3,'Lock 2'],[4,'No Lock 2'],[5,'EQ 2'],[6,'COM Activity'],[7,'Error']];
-  const H=40+list.length*26+30;
-  let o=`<svg viewBox="0 0 250 ${H}" style="width:100%;max-width:250px;display:block" role="img" aria-label="card edge"><rect width="250" height="${H}" rx="8" fill="var(--dev)"/>
-    <rect x="22" y="12" width="14" height="${H-34}" fill="#1d6b35" stroke="#333"/>`;
-  list.forEach(([bit,nm],i)=>{ const y=30+i*26, on=(L>>bit)&1, col=LEDS.find(l=>l[3]===bit)[4];
-    o+=`<rect x="23" y="${y-6}" width="12" height="12" rx="2" fill="${on?col:'#2b2f2c'}" ${on?'filter="url(#d61glow2)"':''}/><text x="48" y="${y+5}" font-size="13" fill="#e6e6e6">${nm}</text>`; });
-  o+=`<defs><filter id="d61glow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>`;
-  (b==='A'?[0]:[0,1]).forEach((k,i)=>{ const y= b==='A'? 70 : 56+i*78, down=w.sw[k];
-    o+=`<g class="d61-sw" data-k="${k}" style="cursor:pointer"><rect x="170" y="${y-14}" width="56" height="28" rx="5" fill="${down?'#666':'#c8c8c8'}" stroke="#444"/><text x="198" y="${y+4}" text-anchor="middle" font-size="11" fill="#111">EQ${b==='B'?k+1:''} SW${k+1}</text><title>press</title></g>`; });
-  o+=`<text x="125" y="${H-8}" font-size="9.5" text-anchor="middle" fill="#8a8f8c">manual order · COM/Error sit 0.73 in back</text></svg>`;
-  return o;
+/* ---------- panel art (CorelDRAW → Inkscape SVG; LED windows, switch buttons and BNC centres measured on the converted art) ----------
+   card edge: D6201A-card-edge.cdr / D6201B-card-edge.cdr (2007-12-19) → assets/d6201-edge-A.svg, d6201-edge-B.svg
+   T6301A / T6401A: openGear Rear Module Guides/D6201A - rear module options.cdr and D6201B - … (2012-01-16) → assets/d6201-rear-A-*.svg, d6201-rear-B-*.svg
+   T6201: D6201A/Functional/D6201B Rear Mod.cdr (2008-10-23) → assets/d6201-rear-T6201.svg (D6201A-T6201.cdr loses its BNC drawings in conversion) */
+const FUNC = ENG+'D6201A/Functional/';
+const GUIDE = '#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/';
+const EDGE_ART = {
+  A:{vb:'8 8 240 150', file:'D6201A-card-edge.cdr', led:{0:32.9,1:54.0,2:77.2,6:121.1,7:144.3}, x:125.35, sw:[[140.3,42.5,130.3,43.6]]},
+  B:{vb:'8 2 240 212', file:'D6201B-card-edge.cdr', led:{0:16.9,1:38.0,2:61.2,3:89.1,4:110.3,5:133.5,6:177.3,7:200.5}, x:127.65, sw:[[142.6,26.5,132.6,27.6],[142.6,98.7,132.6,99.8]]},
+};
+const G6301 = {w:146,h:169,r:5.85,plate:[44,34,52,115], c:[[57.2,57.2],[76.1,57.2],[57.2,76.1],[76.1,76.1],[57.2,95.0],[76.1,95.0],[57.2,113.9],[76.1,113.9],[57.2,132.8],[76.1,132.8]]};
+const G6401 = {w:146,h:169,r:5.85,plate:[45,34,52,115], c:[[58.0,57.2],[76.9,57.2],[58.0,76.1],[76.9,76.1],[58.0,95.0],[76.9,95.0],[58.0,113.9],[76.9,113.9],[58.0,132.8],[76.9,132.8]]};
+const G6201 = {w:150,h:205,r:11,plate:[36,2,82,175], c:[[62.6,25.4],[97.1,25.4],[62.6,55.5],[97.1,55.5],[63.0,86.2],[97.5,86.2],[62.6,116.2],[97.1,116.2],[63.0,145.8],[97.4,145.8]]};
+function rearArt(b, rear){
+  if (rear==='T6201') return {...G6201, img:'d6201-rear-T6201.svg', src:FUNC+'D6201B Rear Mod.cdr', label:'D6201B Rear Mod.cdr', date:'2008|41'};
+  const g = rear==='T6401'? G6401 : G6301;
+  return {...g, img:`d6201-rear-${b}-${rear}.svg`, src:GUIDE+`D6201${b} - rear module options.cdr`, label:`D6201${b} - rear module options.cdr`, date:'2012|45'};
 }
-/* Rear module: grid geometry from t6301.js / t6201.js (panel 1.34 × 3.391 in, BNC pitch 0.625 in) */
+function artSrcLine(t){ const {w}=fState(t), b=w.build, R=rearArt(b,w.rear), E=EDGE_ART[b];
+  return `Card edge: ${SIM.src(FUNC+E.file, E.file)} (CorelDRAW, 2007|40) · rear: ${SIM.src(R.src, R.label)} (CorelDRAW, ${R.date})`; }
+function edgeSVG(t){
+  const {s,w}=fState(t); const L=s.leds, b=w.build, E=EDGE_ART[b];
+  const names = b==='A'? {0:'Lock',1:'No Lock',2:'EQ',6:'COM Activity',7:'Error'} : {0:'Lock 1',1:'No Lock 1',2:'EQ 1',3:'Lock 2',4:'No Lock 2',5:'EQ 2',6:'COM Activity',7:'Error'};
+  let o=`<svg viewBox="${E.vb}" style="width:100%;max-width:300px;display:block;margin:auto;border-radius:6px" role="img" aria-label="D6201${b} card edge (CorelDRAW art)">
+    <defs><filter id="d61glow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}d6201-edge-${b}.svg" width="245" height="220"/>`;
+  Object.keys(E.led).forEach(bit=>{ const y=E.led[bit], on=(L>>bit)&1, col=LEDS.find(l=>l[3]===+bit)[4];
+    o+=`<rect x="${E.x-2.85}" y="${y-6.3}" width="5.7" height="12.6" rx="1" fill="${on?col:'#2b2f2c'}" stroke="#555" stroke-width=".3" ${on?'filter="url(#d61glow2)"':''}><title>${names[bit]} LED (${on?'lit':'off'})</title></rect>`; });
+  E.sw.forEach(([bx,by,cx,cy],k)=>{ const down=w.sw[k];
+    o+=`<g class="d61-sw" data-k="${k}" style="cursor:pointer"><rect x="${bx-2.15+(down?-1.5:0)}" y="${by-6.3}" width="4.3" height="12.6" fill="${down?'#2b5f9e':'transparent'}" opacity=".7"/><rect x="${cx-8}" y="${cy-14}" width="26" height="28" fill="transparent"><title>EQ${b==='B'?k+1:''} switch (SW${k+1}) — click to press</title></rect></g>`; });
+  return o+'</svg>';
+}
 function rearSVG(t){
-  const {s,w,f}=fState(t); const R=REARS[w.rear], b=w.build;
-  const g = w.rear==='T6201'? {W:1.325, H:3.16, cx:[0.38,1.055], y0:0.31} : {W:1.34, H:3.391, cx:[0.238,0.863], y0:0.505};
-  const S=100, X=x=>x*S+10, Y=y=>y*S+10;
-  let o=`<svg viewBox="0 0 ${g.W*S+20} ${g.H*S+44}" role="img" aria-label="${R.name}" style="width:100%;max-width:220px;display:block;margin:auto">
-    <rect x="10" y="10" width="${g.W*S}" height="${g.H*S}" rx="3" fill="#c9ccd0" stroke="#7a7f85"/>`;
+  const {s,w,f}=fState(t); const R=REARS[w.rear], b=w.build, G=rearArt(b,w.rear), r=G.r;
+  let o=`<svg viewBox="0 0 ${G.w} ${G.h}" role="img" aria-label="${R.name} (CorelDRAW art)" style="width:100%;max-width:340px;display:block;margin:auto;border-radius:6px">
+    <image href="${ASSET}${G.img}" width="${G.w}" height="${G.h}"/>`;
   for (let pos=1; pos<=10; pos++){
-    const col=(pos-1)%2, row=Math.floor((pos-1)/2), cx=X(g.cx[col]), cy=Y(g.y0+row*0.625);
+    const [cx,cy]=G.c[pos-1];
     const n=cardBncAt(w,pos); const lab=posLabel(b, w.rear, pos);
     let state='', fill='#888', click='', tip=`${pos} · ${lab}`;
-    if (!n){ tip+= R.dual? ' — the other card on this module' : ' — no card pin'; }
+    if (!n){ tip+= R.dual? ' — the other card on this module' : ' — no card pin'; state=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="#000" opacity=".13"/>`; }
     else if (BNC[n].role==='in1' || BNC[n].role==='in2'){ const k=BNC[n].role==='in1'?1:2; const inp=w['in'+k]; const used = k===1 || b==='B';
       click=`class="d61-jack" data-k="${k}"`; tip+=` — card ${BNC[n].net} (P1-${BNC[n].pin}) · ${inp.conn? 'cable '+inp.len+' m @ '+inp.fs/1000+' kHz — click to unplug':'click to plug in'}${used?'':' · D6201A: not used'}`;
-      if (inp.conn) state=`<circle cx="${cx}" cy="${cy}" r="14" fill="#2b5f9e" opacity=".9"/><rect x="${cx-5}" y="${cy}" width="10" height="24" fill="#2b5f9e"/>`;
+      if (inp.conn) state=`<circle cx="${cx}" cy="${cy}" r="${r*0.75}" fill="#2b5f9e" opacity=".9"/><rect x="${cx-r*0.28}" y="${cy}" width="${r*0.56}" height="${r*1.2}" fill="#2b5f9e"/>`;
       fill = rxAt(k-1,t)? 'var(--accent)' : inp.conn? 'var(--bad)' : '#888'; }
     else { const e=bncOut(f,w,s.word,t,n); click=`class="d61-out" data-n="${n}"`; tip+=` — ${BNC[n].net} (P1-${BNC[n].pin}) ← ${BNC[n].r} 75 Ω ← ${BNC[n].drv} ← FPGA ${BNC[n].fpga}: ${encTxt(e)} — click for the scope`;
       fill = !e||e.k==='mute'? '#666' : e.k==='AES1'? 'var(--accent)' : e.k==='AES2'? 'var(--accent2)' : e.k==='SRC'? '#a05ad8' : '#e3b23a';
-      if (D.ui.scopeOut===n) state=`<circle cx="${cx}" cy="${cy}" r="22" fill="none" stroke="var(--play)" stroke-width="2.5"/>`; }
-    o+=`<g ${click} style="${click?'cursor:pointer':''}"><circle cx="${cx}" cy="${cy}" r="19" fill="${n?'#b9a160':'#a7a9ab'}" stroke="#6b5a25"/><circle cx="${cx}" cy="${cy}" r="12" fill="${n?'#e2d39b':'#cfd1d3'}"/><circle cx="${cx}" cy="${cy}" r="4" fill="#6b5a25"/>${state}
-      <circle cx="${col? cx-17 : cx+17}" cy="${cy-17}" r="4" fill="${fill}" stroke="#333"/><rect x="${cx-22}" y="${cy-22}" width="44" height="44" fill="transparent"><title>${esc(tip)}</title></rect></g>
-      <text x="${col? cx+22 : cx-22}" y="${cy+31}" font-size="7.5" text-anchor="${col?'end':'start'}" fill="${n?'#1b1d20':'#7c8186'}" font-weight="${n?700:400}">${pos} ${esc(lab.replace(/ · .*/,''))}</text>`;
+      if (D.ui.scopeOut===n) state=`<circle cx="${cx}" cy="${cy}" r="${r+1.5}" fill="none" stroke="var(--play)" stroke-width="${r/6}"/>`; }
+    const col=(pos-1)%2;
+    o+=`<g ${click} style="${click?'cursor:pointer':''}">${state}<circle cx="${col? cx-r*0.95 : cx+r*0.95}" cy="${cy-r*0.95}" r="${Math.max(1.5,r*0.24)}" fill="${fill}" stroke="#333" stroke-width="${r/30}"/><rect x="${cx-r-1}" y="${cy-r-1}" width="${2*r+2}" height="${2*r+2}" fill="transparent"><title>${esc(tip)}</title></rect></g>`;
   }
-  o+=`<text x="${g.W*S/2+10}" y="${g.H*S+26}" font-size="9" text-anchor="middle" fill="var(--ink2)">${R.name} · ID ${R.id[0]/1000}K / ${R.id[1]/1000}K (not read)</text>
-      <text x="${g.W*S/2+10}" y="${g.H*S+38}" font-size="8" text-anchor="middle" fill="var(--ink2)">${R.dual? (w.slot%2===0?'this card: P101 · left column':'this card: P102 · right column')+' (inferred)':R.sub}</text></svg>`;
-  return o;
+  return o+'</svg>';
 }
 function frameSVG(t){
   const {s,w}=fState(t); const R=REARS[w.rear];
@@ -1049,7 +1061,7 @@ function viewSim(m){
      <div class="small muted" style="margin-top:4px">Card = D6201A ISS5 top side from the gerbers (TOP + TSM + DRL + TSS, 120 dpi; green mask from the production photo). It is the same board for both builds. Click SW1/SW2, the DIP switch SW3, jumpers H1–H4, or a chip label (opens the block diagram).</div></div>
    <div class="grid2">
      <div class="card"><h2>Frame, rear module and card edge</h2><div id="d61frame"></div>
-       <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-top:8px"><div id="d61rear"></div><div id="d61edge"></div></div>
+       <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-top:8px"><div id="d61rear"></div><div id="d61edge"></div></div><div class="small muted" id="d61art"></div>
        <p class="small muted">Rear jacks: click an input to plug/unplug; click an output to put it on the scope (One second tab). Dot colour: green AES1 · blue AES2 · purple SRC · amber tone · grey muted.</p></div>
      <div class="card"><h2>DashBoard</h2><div id="d61dash"></div></div></div>
    <div class="card"><h2>World and build</h2><div id="d61ctl"></div></div>
@@ -1060,7 +1072,7 @@ function viewSim(m){
   SIM.on('time', ()=>{
     const t=SIM.t, w=worldAt(t), b=w.build;
     q('#d61h').innerHTML = `D6201 ISS5 card running the <span style="color:var(--accent)">${BUILDS[b].label}</span> build (V${BUILDS[b].fws[w.fw].ver}, ${w.brand}) — second ${D.second}`;
-    q('#d61card').innerHTML=cardSVG(t); q('#d61frame').innerHTML=frameSVG(t); q('#d61rear').innerHTML=rearSVG(t); q('#d61edge').innerHTML=edgeSVG(t); q('#d61dash').innerHTML=dashHTML(t);
+    q('#d61card').innerHTML=cardSVG(t); q('#d61frame').innerHTML=frameSVG(t); q('#d61rear').innerHTML=rearSVG(t); q('#d61edge').innerHTML=edgeSVG(t); q('#d61art').innerHTML=artSrcLine(t); q('#d61dash').innerHTML=dashHTML(t);
     const key=JSON.stringify(w)+D.ver; if (key!==ctlKey){ ctlKey=key; q('#d61ctl').innerHTML=controlsHTML(); bindControls(q('#d61ctl')); }
     q('#d61tr').innerHTML=traceHTML(t); q('#d61insp').innerHTML=inspHTML(t);
     bindAll(m);
@@ -1347,6 +1359,7 @@ const FINDINGS = [
   ['No zeuslib', `The D6201 firmware is a Ward-Beck super-loop with its own CAN driver, like the D6203A (opengear.js). Only Ross headers, product.c, eeprom.c and the bootloader come from the OGP SDK.`],
   ['Output level and coupling', `From the netlist: FPGA 3.3 V → R 30 Ω → 374/750 Ω divider (≈ 2.2 V) → EL5263 follower → 75 Ω per BNC → ≈ 1.1 V p-p into 75 Ω (manual: 1 V p-p nominal). There is no series capacitor, so each output carries a DC offset of about half that swing (the rear modules add only 4n7 inductors).`],
   ['Configuration memory', `The README says EPCS1; the BOM and netlist fit an M25P40 (4 Mbit SPI flash) on a footprint named “EPCS1” (U11).`],
+  ['Artwork 2026|59: card edge and rear modules now from CorelDRAW', `Card edges from ${SIM.src(FUNC+'D6201A-card-edge.cdr','D6201A-card-edge.cdr')} and ${SIM.src(FUNC+'D6201B-card-edge.cdr','D6201B-card-edge.cdr')} (2007-12-19); T6301A / T6401A from ${SIM.src(GUIDE+'D6201A - rear module options.cdr','D6201A - rear module options.cdr')} and ${SIM.src(GUIDE+'D6201B - rear module options.cdr','D6201B - rear module options.cdr')} (2012-01-16), which follow the build switch; T6201 from ${SIM.src(FUNC+'D6201B Rear Mod.cdr','D6201B Rear Mod.cdr')} (2008-10-23). What the art shows: the 2008|41 sheet heads its T6401A columns “CARD 1” (left) and “CARD 2” (right), the opposite of the 2012|45 guides’ “2 CARD 1” and of the slot/P101 mapping used here; ${SIM.src(FUNC+'D6201A-T6201.cdr','D6201A-T6201.cdr')} (2006|39) is captioned “DUAL 75Ω AES DA” with IN1/IN2 and OUT1-x/OUT2-x legends although the D6201A is a 1 × 8 DA, and its BNC drawings do not survive conversion (libcdr), so it is not used; the D6201A card edge has one EQ switch and five LEDs, the B two switches and eight, matching the two builds. Guide text is live Arial: words kept, alignment approximate.`]
 ];
 const ASSUME = [
   `Loop timing: the bit-bang loops are counted exactly (14 cycles per bit); the other routines and the ISR costs are ${infT('instruction counts in the .lis files')} estimates.`,
@@ -1376,6 +1389,12 @@ function viewFindings(m){
 }
 
 SIM.register({
+  footnotes:[
+    {text:"The 2008 D6201B rear-module sheet heads T6401A’s left column “CARD 1” and the right “CARD 2”; the 2012 guides say “2 CARD 1” (card 2 on the left).", src:"#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"},
+    {text:"D6201A-T6201.cdr (2006) is captioned “DUAL 75Ω AES DA” with IN1/IN2 and OUT1-x/OUT2-x legends, although the D6201A is a 1 × 8 DA.", src:"#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6201.cdr"},
+    {text:"The BNC drawings in D6201A-T6201.cdr do not survive conversion with libcdr (only the IN1/IN2 discs remain), so the T6201 art comes from the 2008 D6201B sheet.", src:"#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6201.cdr"},
+    {text:"The D6201A and D6201B rear-module guides (2012) differ only in legends: A labels OUT 1–8 with position 2 “Not Connected”, B labels IN 2 and OUT1-x / OUT2-x.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201B - rear module options.cdr"},
+    {text:"The D6201A card edge has one EQ switch and five LEDs; the D6201B edge has two EQ switches and eight LEDs (Lock/No Lock/EQ per input).", src:"#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B-card-edge.cdr"}],
   id:'d6201', product:'D6201', name:'D6201 · openGear 75 Ω AES DA, engineering parent of the D6201A/B (2008|41)', year:2008,
   folder:'#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR', family:'openGear',
   summary:'The engineering parent of the D6201A (1×8) and D6201B (dual, 2×4 or 1×8 with SRC) openGear AES distribution amplifiers: one ISS5 board, two firmware builds. The model runs the real V1.04 / V1.02–V1.03 code paths — AT90CAN128 super-loop, bit-banged CS8416 and FPGA control, DashBoard over CAN — on the card drawn from its gerbers.',

@@ -1840,6 +1840,32 @@ const ASSET = 'siumulation-plugins/assets/';
    white silk. view/plate in inches; pos = connector centres from the drawing, inches from the plate's top-left corner;
    iso = BNCs the drawing shades grey (isolated-shell positions). */
 const CDR_ART = {"iss4":{"file":"t6303-rear.svg","src":"#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr","label":"T6303-iss2.cdr","date":"5 Mar 2007","view":[2.354,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.168,0.493],"2":[0.867,0.493],"3":[0.168,1.118],"4":[0.867,1.118],"5":[0.168,1.743],"6":[0.867,1.743],"7":[0.168,2.368],"8":[0.867,2.368],"9":[0.173,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"AES1","4":"AES5","5":"AES2","6":"AES6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[]},"iss3":{"file":"t6303-rear.svg","src":"#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr","label":"T6303-iss2.cdr","date":"5 Mar 2007","view":[2.354,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.168,0.493],"2":[0.867,0.493],"3":[0.168,1.118],"4":[0.867,1.118],"5":[0.168,1.743],"6":[0.867,1.743],"7":[0.168,2.368],"8":[0.867,2.368],"9":[0.173,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"AES1","4":"AES5","5":"AES2","6":"AES6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[]},"iss2":{"file":"t6303-rear.svg","src":"#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr","label":"T6303-iss2.cdr","date":"5 Mar 2007","view":[2.354,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.168,0.493],"2":[0.867,0.493],"3":[0.168,1.118],"4":[0.867,1.118],"5":[0.168,1.743],"6":[0.867,1.743],"7":[0.168,2.368],"8":[0.867,2.368],"9":[0.173,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"AES1","4":"AES5","5":"AES2","6":"AES6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[]},"iss1":{"file":"t6303-rear-iss1.svg","src":"#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303.cdr","label":"T6303.cdr","date":"15 Nov 2006","view":[2.375,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.168,0.493],"2":[0.867,0.493],"3":[0.168,1.118],"4":[0.867,1.118],"5":[0.168,1.743],"6":[0.867,1.743],"7":[0.168,2.368],"8":[0.867,2.368],"9":[0.173,2.993],"10":[0.867,2.993]},"legend":{"1":"AES1","2":"AES5","3":"AES2","4":"AES6","5":"AES3","6":"AES7","7":"AES4","8":"AES8","9":"BNC9","10":"BNC10"},"iso":[]}};
+const FOOTNOTES = [
+{
+"text": "T6303-iss2.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+"src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+},
+{
+"text": "T6303-iss2.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+"src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+},
+{
+"text": "The 2007 ISS2 drawing still fits the 2012 ISS4 board: outline and rows agree with the ISS4 Gerbers within 0.03″.",
+"src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+},
+{
+"text": "The ISS1 sheet labels blocks 1–8 AES1–AES8 and blocks 9/10 BNC9/BNC10; ISS2 moves BNC1/BNC2 to blocks 1/2 and shifts AES1–AES4 down.",
+"src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303.cdr"
+},
+{
+"text": "Each block carries its number above it and a “G-+-G” polarity legend between the pair; both sheets say SINGLE CARD TERMINATION.",
+"src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+},
+{
+"text": "T6303.cdr and T6303-iss2.cdr are each stored twice: in #ENGINEERING and T6303 - #ARCHIVE.",
+"src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303 - #ARCHIVE/T6303-iss2.cdr"
+}
+];
 function cdrArt(){ return S.view==='cdr' ? (CDR_ART[S.issue]||null) : null; }
 function cdrXY(p, art){ return art && art.pos[p.n] ? art.pos[p.n] : [p.x, p.y]; }
 function cdrCaption(art){ return 'CorelDRAW art: '+SIM.src(art.src, art.label)+' ('+art.date+')'; }
@@ -2483,6 +2509,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:FOOTNOTES,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

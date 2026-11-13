@@ -506,6 +506,19 @@ function tick(){
    Meter lens: AMS8-M6-SILK(MLC8-M3) (CURVE).pdf, placed so its screw and knob holes land on the front panel's
    (offset +95.5, +14.5 px). Knob centres: the drill crosshairs/circles (L at x 1026.5, pitch 200, y 164.5; MASTER 2726.5);
    button centres 3098.5/3243.5 × 93.5/233.5. LED columns and rows: the CH labels and scale rows on the lens. */
+/* Artwork 2026|59: the default face is the CorelDRAW vector art itself: assets/mlc8-front.svg from
+   MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr (viewBox = its panel outline 89.5,265.8, 1231.2 × 118.7 pt; GREEN plate in green,
+   WHITE plate moved up 249.3 pt; the panel outline, which this sheet draws in ink-black hairline, and the holes in grey)
+   and assets/mlc8-lens.svg from AMS8-M6-SILK(MLC8-M3) (CURVE).cdr (window 109.0,127.5, 216 × 108 pt). Same frame as the
+   200 dpi PNGs, so knobs, rings, buttons and LEDs stay on their holes. Drill crosshairs (0.5 pt) are left out.
+   The rear stays on the manual drawing: the only rear .cdr in the MLC8 SILK folder (mlc8-rear-silk-CURVE.cdr, 2006|39)
+   is the SDI / AES variant, not the 8A. The PNGs stay behind the "PNG silk" toggle. */
+const ART = { png:false, DIR:'#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/', FRONT:'MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr', LENS:'AMS8-M6-SILK(MLC8-M3) (CURVE).cdr' };
+const artSrc = k => SIM.src(ART.DIR+ART[k], ART[k]);
+function artNote(){
+  return `<div class="small muted" style="margin-top:4px">Artwork: ${artSrc('FRONT')} (Jan 18 2016, GREEN + WHITE plates) and the lens ${artSrc('LENS')}, CorelDRAW vector art. <label><input type="checkbox" class="artpng" ${ART.png?'checked':''}> show the earlier PNG silk (200 dpi cut of the PDFs)</label></div>`;
+}
+function bindArt(m){ m.querySelectorAll('.artpng').forEach(c=> c.onchange=e=>{ ART.png=e.target.checked; m.querySelectorAll('.artpng').forEach(o=>o.checked=ART.png); SIM.refresh(); }); }
 const KX = k => k<8? 1026.5+200*k : 2726.5, KY = 164.5;
 const PBX = {p1:[3098.5,93.5], p2:[3243.5,93.5], m51:[3098.5,233.5], mst:[3243.5,233.5]};
 const MCOL = [224.5,295.5,365.5,435.5,535.5,605.5,675.5,745.5];
@@ -536,8 +549,9 @@ function frontSVG(t, opts){
   for (let p=0;p<4;p++){ const c=2*p, m=meterAt(c,t), litNow = !opts.mux || c===mux || c===mux+4;
     const e = D.power && litNow && m.err, d = D.power && litNow && m.dd;
     s+=`<circle cx="${PAIRX[p]}" cy="222" r="5" fill="${d?'#ffc23a':'#2a2410'}"${d?' filter="url(#mg)"':''}/><circle cx="${PAIRX[p]}" cy="259" r="5" fill="${e?'#ff3b2f':'#2a1513'}"${e?' filter="url(#mg)"':''}/>`; }
-  s+=`<image href="${ASSET}mlc8-lens-white.png" x="182.5" y="14.5" width="600" height="300"/>
-    <image href="${ASSET}mlc8-front-green.png" width="3420" height="330"/><image href="${ASSET}mlc8-front-white.png" width="3420" height="330"/>`;
+  s+= ART.png? `<image href="${ASSET}mlc8-lens-white.png" x="182.5" y="14.5" width="600" height="300"/>
+    <image href="${ASSET}mlc8-front-green.png" width="3420" height="330"/><image href="${ASSET}mlc8-front-white.png" width="3420" height="330"/>`
+    : `<image href="${ASSET}mlc8-lens.svg" x="182.5" y="14.5" width="600" height="300" preserveAspectRatio="none"/><image href="${ASSET}mlc8-front.svg" width="3420" height="330" preserveAspectRatio="none"/>`;
   // knobs and rings
   for (let k=0;k<9;k++){
     const x=KX(k), big=k===8, hole=big?94.5:66.5, kr=big?56:38;
@@ -765,7 +779,7 @@ function stateTable(t){
 function viewSim(m){
   window[KEYFLAG]=true;
   m.innerHTML = `
-  ${card('Front panel at the playhead — built on the 2016|49 front silk and meter-lens artwork', `<div id="fp"></div>${controlsHTML()}`)}
+  ${card('Front panel at the playhead — built on the 2016|49 CorelDRAW front and meter-lens artwork', `<div id="fp"></div>${artNote()}${controlsHTML()}`)}
   <div class="grid2">
     <div>${card('Signals, rear connections and main-board inputs', `<div id="sig"></div><div id="rp" style="margin-top:8px"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}</div>
@@ -776,7 +790,7 @@ function viewSim(m){
     <p class="small muted">Front-panel pass ≈ 0.833 ms ${inf} (the manual's “approximately five seconds” preset hold ÷ PRESET_DEBOUNCE 6000). Main-board loop ≈ 5 ms ${inf}; the 1.82 ms gap between main-board UART bytes is from a v100w.c comment. Meter mux 2.5 ms = TPERIOD1 153600 at a 61.44 MHz SHARC clock ${inf}. PWM bit = 12.288 MHz ÷ 128 ÷ 4 = 41.67 µs (from the VHDL).</p>`)}
   ${card('Action log', `<div id="log" class="log"></div>`)}`;
   m.querySelector('#sig').innerHTML = signalsHTML(); bindSignals(m.querySelector('#sig'));
-  bindControls(m);
+  bindControls(m); bindArt(m);
   const draw=()=>{
     const t=SIM.t;
     m.querySelector('#fp').innerHTML = frontSVG(t,{mux:D.viewMux}); bindPanel(m.querySelector('#fp'));
@@ -1126,7 +1140,8 @@ function viewNotes(m){
     <li><b>The main board reboots itself on purpose.</b> After 200 misaligned register exchanges (<span class="mono">ALIGNMENT_CHECK</span>, <span class="mono">ERROR_COUNTER</span>), <span class="mono">while (error0 == 0) NOP();</span> spins without WDR until the watchdog resets it — the same trick as POD33.</li>
     <li><b>Version strings disagree.</b> The SHARC writes <span class="mono">0x56313031</span> = “V101” to the control loop-back while its header says v105/v106 and <span class="mono">#define version 'V102'</span>. The v106 source also carries an “April 24, 09” fix (mask on <span class="mono">mux_count</span>), later than the folder date. v200w.c in the v205 folder says “V2.04”, with <span class="mono">REVISION1…4</span> = 2.0.1.0.</li>
     <li><b>Front FPGA details.</b> The PWM frame has 9 zero periods (pulse_counter 64–72), not 8, with the strobe at 66: 73 × 41.67 µs = 3.04 ms. <span class="mono">data_in1…4</span> are unconnected and <span class="mono">data_out3/4, portb3, porte2/3</span> undriven in MLC8A.bdf; <span class="mono">pwm_demod</span> decodes the stream back onto test points (a loop-back for the remote's decoder).</li>
-    <li><b>Artwork.</b> The 2016|49 file <span class="mono">MLC-8A-FRONT-SILK(CURVE MLC-M1).pdf</span> prints “MLC-8B MULTICHANNEL LEVEL CONTROL” in its green separation. The lens silk prints the bottom mark as 34; <span class="mono">ams81_vu_data.dat</span> labels it −36.</li>
+    <li><b>Artwork ${SIM.year(2026)}: the front panel and meter lens now come from ${artSrc('FRONT')} (Jan 18 2016) and ${artSrc('LENS')} (May 08/15).</b> (a) The 8A sheet draws its panel outline as a black hairline in the ink colour, not on the mechanical layer, and its bracket lines (5.1, ST, PRESETS, MODE) are 1 pt strokes. (b) The lens sheet is the same file as the AMS8-1’s (byte-identical copy in the AMS81 folder). (c) The rear has no 8A CorelDRAW: ${SIM.src('#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-rear-silk-CURVE.cdr','mlc8-rear-silk-CURVE.cdr')} (Sep 2006) is an SDI IN / SDI OUT / AES1 / AES2 variant with no 75 Ω BNC legends, and ${SIM.src(ART.DIR+'MLC8B-REAR-SILK(CURVE AMS8-M19).cdr','MLC8B-REAR-SILK(CURVE AMS8-M19).cdr')} is the 8B rear, so the rear stays on the manual drawing.</li>
+    <li><b>Artwork.</b> The 2016|49 file <span class="mono">MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr</span> prints “MLC-8B MULTICHANNEL LEVEL CONTROL” in its green separation. The lens silk prints the bottom mark as 34; <span class="mono">ams81_vu_data.dat</span> labels it −36.</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
     <li>Front-panel pass 0.833 ms ${inf}: the manual's “approximately five seconds” ÷ <span class="mono">PRESET_DEBOUNCE</span> 6000. It makes the mute blink 2 Hz and the termination-select timeout ≈4.2 s.</li>
     <li>Main-board loop 5 ms ${inf} (640 bit-banged bits at 4.9152 MHz dominate). Poll cycle = 6 bytes × 1.82 ms + 5 loops, then the same for the remote ≈ ${(C.POLL*1000).toFixed(1)} ms. The ops doc's “5 minutes” for 3000 quiet loops would imply ≈100 ms loops instead.</li>
@@ -1139,11 +1154,18 @@ function viewNotes(m){
     <li>…/MLC8A - #Software/altera/v200/MLC8A.qsf, MLC8A.bdf, pwn_top.bdf, pwm_*.vhd, shift_in_out64.vhd, mclk_divider.vhd, blanking_pulse.vhd</li>
     <li>…/MLC8A - #Software/AMS8-1/atmel/v106/v100w.c, v100w.mak · …/AMS8-1/sharc/mlc8v106/ams81_main.asm, ams81_INIT.ASM, ams81_ISR_table.ASM, ams81_vu_data.dat, volume_data.dat</li>
     <li>…/MLC8 - #Archive/MLC8 COMMUNICATION PROTOCOL.doc, mlc8 operational  info #MANUAL.doc · …/MLC8 - #MANUAL/MLC-8A/Text/MLC8A(Corrected version).pdf, PDF_s/*.pdf</li>
-    <li>…/MLC8 - #PCB/OBSOLETE/MLC8-iss2.bom · MLC6 &amp; MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).pdf, AMS8-M6-SILK(MLC8-M3) (CURVE).pdf, Pics/MLC6A Front.jpg</li></ul>`);
+    <li>…/MLC8 - #PCB/OBSOLETE/MLC8-iss2.bom · MLC6 &amp; MLC8 - #ARTWORK #DA #2016/${artSrc('FRONT')}, ${artSrc('LENS')} (assets/mlc8-front.svg, mlc8-lens.svg), Pics/MLC6A Front.jpg</li></ul>`);
 }
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes: [{"text": "Artwork 2026|59: the front panel and meter lens are drawn from MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr (Jan 18 2016) and AMS8-M6-SILK(MLC8-M3) (CURVE).cdr.", "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr"},
+    {"text": "The MLC-8A front sheet prints “MLC-8B MULTICHANNEL LEVEL CONTROL” on its GREEN plate.", "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr"},
+    {"text": "The meter-lens sheet is shared with the AMS8-1: a byte-identical copy sits in the AMS81 artwork folder.", "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr"},
+    {"text": "The lens prints the bottom meter mark as 34; the meter table ams81_vu_data.dat labels it −36.", "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr"},
+    {"text": "The 8A front draws its panel outline as an ink-coloured hairline instead of on the mechanical layer.", "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr"},
+    {"text": "No 8A rear CorelDRAW exists: mlc8-rear-silk-CURVE.cdr (Sep 2006) is an SDI IN / SDI OUT / AES1 / AES2 variant with no 75 Ω BNC legends, so the rear stays on the manual drawing.", "src": "#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-rear-silk-CURVE.cdr"},
+    {"text": "The MLC8 SILK folder keeps seven 2006|39 front iterations (ver1, ver2, ver4, ver5 — no ver3 — and latest-ver1–3), and the same set of .cdr files appears again under MLC8 #Engineering #TIM/SILK.", "src": "#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-SILK-latest-ver3.cdr"}],
   id:'mlc8', name:'MLC8A · Multi-Channel Level Control (2007|40)', duration:1,
   product:'MLC8A (MLC8 / MLC6 family)', year:2007, family:'#MLC - #SERIES', folder:'#MLC - #SERIES',
   summary:'1RU 5.1+2 meter and monitor level control: eight channel encoders and a master with 25-LED rings, 22-LED bargraphs, presets, 5.1/ST and 75/110 Ω select. Front ATmega128 + Cyclone II LED glue, AMS8-1 main board (ATmega128 + ADSP-21065L SHARC).',

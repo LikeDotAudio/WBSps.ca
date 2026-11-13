@@ -7,7 +7,7 @@
    - ../8200 Series Rear Module options graphical Guides…/M8251 - rear module options.cdr — “1x6” / “1x8 Analog Utility Video Distribution Amplifier”
    - M8251 - #Engineering/PCB/M8251.BAK (Tango ASCII: COMP, PAD, LINE, ARC, TEXT), M8251.PCB, M8251.REP
    - M8251 - #Engineering/PCB/M8251.DSN (OrCAD part list), M8251-2.PCB/.BAK (M8252 working file)
-   Assets: m8251-board.png (rendered from M8251.BAK), m8251-rear-bnc.png (cut from m8251term.cdr via Inkscape)
+   Assets: m8251-board.png (rendered from M8251.BAK), m8251-rear-bnc1.svg, m8251-rear-bnc3.svg (m8251term.cdr converted to SVG, 2026|59; replace the earlier m8251-rear-bnc.png)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
 (function(){
@@ -382,13 +382,22 @@ const DATA = {
  ],
  "assets": [
   "m8251-board.png (rendered from M8251.BAK)",
-  "m8251-rear-bnc.png (cut from m8251term.cdr via Inkscape)"
+  "m8251-rear-bnc1.svg, m8251-rear-bnc3.svg (m8251term.cdr converted from CorelDRAW, 2026|59)"
  ],
  "infNote": "NTSC timing values are RS-170A; cable loss uses a typical RG-59/8281 figure (2.3 dB/100 m at 5 MHz) and is marked inferred."
 };
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
 const ID = DATA.id, FLAG = '__' + ID + 'Active';
+DATA.findings.unshift(`<b>Artwork 2026|59: rear modules now from ${SIM.src('#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr','m8251term.cdr')} (2000-05-23).</b> Both panels (BNC1, BNC3) are converted from CorelDRAW to SVG and the BNCs are clickable where the art draws them. The 2012 guide ${SIM.src('#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8251 - rear module options.cdr','M8251 - rear module options.cdr')} (2012-01-09) redraws the same two modules smaller and adds the captions “1x6” / “1x8 Analog Utility Video Distribution Amplifier”; the older sheet is used because it is the master the guide was copied from. On BNC1 the BNCs are staggered (INPUT, OUT 2, 4, 6 on the left column; OUT 1, 3, 5 on the right) and each BNC carries a small tag (INPUT, 1–6) as well as its boxed legend; on BNC3 one dotted box spans INPUT and INPUT LOOP, the two BNCs joined by a bar.`);
+const FOOT=[
+  {text:'BNC1 has seven BNCs (INPUT + OUT 1–6) although the manual calls the M8251 a one-by-eight DA; only BNC3 (MF8210 only) brings out all eight outputs.', src:'#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr'},
+  {text:'Each BNC on the terminal sheet carries two labels: a boxed legend (INPUT, OUT 1 …) and a small tag beside it (INPUT, 1–8, INPUT LOOP).', src:'#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr'},
+  {text:'BNC3 is marked “(MF8210 ONLY)”: the double-width 1×8 + loop panel does not fit the MF8212 frame.', src:'#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr'},
+  {text:'The terminal options are drawn twice: m8251term.cdr (2000) in the card folder and “M8251 - rear module options.cdr” (2012) in the rear-module guides, which adds the 1x6 / 1x8 captions.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8251 - rear module options.cdr'},
+  {text:'The rear-module guide README lists M8251 as “CDR only, no PDF”; a rendered PDF has since been added beside it.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8251 - rear module options.cdr'},
+  {text:'M8251-2.PCB/.BAK in the M8251 folder hold the M8252 board (OPA650A, LM1881, EQ), not a second M8251 issue.', src:'#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/PCB/M8251-2.PCB'},
+  {text:'The OrCAD part list places both regulators as LM317, while the board text names an LM337 for the negative rail.', src:'#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/PCB/M8251.DSN'} ];
 const inf = (why)=>`<span class="tag-inf" title="${why?('Not stated in the source; inferred from '+why):'Not stated in the source; inferred'}">inferred</span>`;
 const card = (t,b,extra)=>`<div class="card" ${extra||''}><h2>${t}</h2>${b}</div>`;
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
@@ -553,24 +562,26 @@ function boardSVG(){
       <text x="${bx(1000)+4}" y="${BH+31}" font-size="10.5" fill="var(--ink2)">Click a dashed box to inspect the part; click the HIZ link to move it. Supply ≈ ${(M.isup*1000).toFixed(0)} mA per rail (${led?'outputs live':'no terminated output'}).</text></svg>`;
   return s;
 }
-const RB = { BNC1:{x0:0,w:687,pts:[['in',316,239],['o1',388,314],['o2',316,391],['o3',388,465],['o4',316,541],['o5',388,618],['o6',316,695]]},
-             BNC3:{x0:688,w:687,pts:[['in',977,234],['loop',1079,234],['o1',977,350],['o2',1079,350],['o3',977,464],['o4',1079,464],['o5',977,582],['o6',1079,582],['o7',977,699],['o8',1079,699]]} };
+/* Rear modules — CorelDRAW art (2026|59): assets/m8251-rear-bnc1.svg / -bnc3.svg, the two panels of m8251term.cdr
+   (2000-05-23) converted with Inkscape; sheet title removed, hairlines widened. Coordinates are the CDR's points; BNC
+   centres read off the converted art. */
+const RB = { BNC1:{vb:[72,92,325,415],pts:[['in',217.6,206.4],['o1',252.1,242.8],['o2',217.6,279.3],['o3',252.1,315],['o4',217.6,351.4],['o5',252.1,388.5],['o6',217.6,424.9]]},
+             BNC3:{vb:[396,92,326,415],pts:[['in',533.8,203.8],['loop',583.3,203.8],['o1',533.8,259.1],['o2',583.3,259.1],['o3',533.8,314.4],['o4',583.3,314.4],['o5',533.8,370.3],['o6',583.3,370.3],['o7',533.8,426.9],['o8',583.3,426.9]]} };
+const TERM_CDR='#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr';
 function rearSVG(){
-  const M=model(), R=RB[D.module], x0=R.x0;
-  let s=`<svg viewBox="${x0} 0 ${R.w} 865" style="width:100%;max-width:360px;display:block;margin:auto" role="img" aria-label="${D.module} rear module, artwork ${esc(DATA.artSrc)}">
-    <rect x="${x0}" y="0" width="${R.w}" height="865" fill="#e9e7e0"/><image href="${ASSET}${ID}-rear-bnc.png" x="0" y="0" width="1375" height="865"/>
-    <text x="${x0+R.w/2}" y="80" text-anchor="middle" font-size="34" font-weight="700" fill="#222">${D.module} BNC TERMINAL</text>
-    <text x="${x0+R.w/2}" y="122" text-anchor="middle" font-size="24" fill="#444">${D.module==='BNC3'?'(MF8210 ONLY) · 1×8 + loop':'1×6 · MF8212'}</text>`;
+  const M=model(), R=RB[D.module], [vx,vy,vw,vh]=R.vb;
+  let s=`<svg viewBox="${vx} ${vy} ${vw} ${vh}" style="width:100%;max-width:360px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${D.module} rear module, CorelDRAW art from m8251term.cdr">
+    <image href="${ASSET}${ID}-rear-${D.module.toLowerCase()}.svg" x="${vx}" y="${vy}" width="${vw}" height="${vh}"/>`;
   R.pts.forEach(([k,x,y])=>{
     let fill='none', ring='#2d63a6', lab='', live=false, sel=false;
     if (k==='in'){ live=D.srcOn; lab=D.srcOn?'source':'—'; }
     else if (k==='loop'){ live=D.loop!=='open'; lab=D.loop==='open'?'open':D.loop==='term'?'75 Ω term.':'→ next DA'; }
     else { const n=+k.slice(1), o=M.out[n-1]; live=o.L!=='none'; lab=o.L==='none'?'':o.L==='open'?'open':o.L+' Ω'; sel=D.sel===n; if(live) fill=o.ok?'var(--led-g)':'var(--led-a)'; }
-    s+=`<g class="vb" data-k="${k}" style="cursor:pointer"><circle cx="${x}" cy="${y}" r="50" fill="transparent"/>${live?`<circle cx="${x}" cy="${y}" r="30" fill="${ring}" opacity=".85"/><circle cx="${x}" cy="${y}" r="9" fill="#d6e6ff"/>`:''}
-      ${sel?`<circle cx="${x}" cy="${y}" r="46" fill="none" stroke="#e0a000" stroke-width="6"/>`:''}${fill!=='none'?`<circle cx="${x+36}" cy="${y-36}" r="10" fill="${fill}" stroke="#333"/>`:''}
-      ${lab?`<text x="${x}" y="${y+64}" text-anchor="middle" font-size="22" font-weight="700" fill="#0d3a6a">${lab}</text>`:''}</g>`;
+    s+=`<g class="vb" data-k="${k}" style="cursor:pointer"><title>${k==='in'?'INPUT':k==='loop'?'INPUT LOOP':'OUT '+k.slice(1)}</title><circle cx="${x}" cy="${y}" r="23" fill="transparent"/>${live?`<circle cx="${x}" cy="${y}" r="14" fill="${ring}" opacity=".8"/><circle cx="${x}" cy="${y}" r="4" fill="#d6e6ff"/>`:''}
+      ${sel?`<circle cx="${x}" cy="${y}" r="22" fill="none" stroke="#e0a000" stroke-width="3"/>`:''}${fill!=='none'?`<circle cx="${x+17}" cy="${y-17}" r="5" fill="${fill}" stroke="#333"/>`:''}
+      ${lab?`<text x="${x}" y="${y+30}" text-anchor="middle" font-size="9.5" font-weight="700" fill="#0d3a6a" paint-order="stroke" stroke="#fff" stroke-width="2.5">${lab}</text>`:''}</g>`;
   });
-  return s+`</svg><div class="small muted" style="text-align:center">Rear artwork: <span class="mono">${esc(DATA.artSrc)}</span>${DATA.artInf?' '+inf(DATA.artInf):''}. Click INPUT to connect the source, INPUT LOOP to cycle open / terminator / next DA, an output to cycle its load (none → 75 Ω → open → 37.5 Ω).</div>`;
+  return s+`</svg><div class="small muted" style="text-align:center">Rear artwork: ${SIM.src(TERM_CDR,'m8251term.cdr')} (2000-05-23, “M8251 TERMINAL OPTIONS”), converted from CorelDRAW${DATA.artInf?' '+inf(DATA.artInf):''}. Click INPUT to connect the source, INPUT LOOP to cycle open / terminator / next DA, an output to cycle its load (none → 75 Ω → open → 37.5 Ω).</div>`;
 }
 function bindBoard(m){
   m.querySelectorAll('.vp').forEach(g=>g.onclick=()=>{ const p=g.dataset.p; if(p==='HIZ') A.hiz(); else A.part(p); });
@@ -772,6 +783,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:FOOT,
   id: DATA.id, name: DATA.name, product: DATA.product, year: DATA.year, family: DATA.family, folder: DATA.folder,
   summary: DATA.summary, highlights: DATA.highlights, depth: 'Hardware model', duration: 1,
   stepUnits: [{label:'1 line (63.56 µs)', period:()=>HL}, {label:'1 field (16.68 ms)', period:()=>FIELD}, {label:'1 subcarrier cycle', period:()=>1/FSC}, {label:'1 µs', period:()=>1e-6}],

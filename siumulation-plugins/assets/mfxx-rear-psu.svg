@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="156.6 294 298.8 237.6">
+<path d="M156.6 294H455.4V498H397.2V531.6H156.6Z" fill="#1c1d1f"/>
+<g fill="#060606" stroke="#55585c" stroke-width="0.6">
+<rect x="171.7" y="310.9" width="77.8" height="89.3"/><rect x="171.7" y="425.4" width="77.8" height="89.3"/>
+<circle cx="271.1" cy="328.2" r="11.2"/><circle cx="271.1" cy="382.2" r="11.2"/>
+<circle cx="307.4" cy="469.2" r="18"/><circle cx="361.4" cy="469.2" r="18"/>
+<circle cx="361.5" cy="313.1" r="6.1"/><circle cx="210.6" cy="412.8" r="6"/><circle cx="361.5" cy="431.7" r="6"/></g>
+<g fill="none" stroke="rgb(240,240,236)">
+<path d="M297.7,327.83 L297.7,346.38" stroke-width="1.8"/>
+<path d="M280.05,328.17 L298.6,328.17" stroke-width="1.8"/>
+<path d="M279.62,382.11 L298.17,382.11" stroke-width="1.8"/>
+<path d="M307.98,346.39 L287.47,346.39 L280.63,356.65" stroke-width="1.8"/>
+<path d="M297.7,346.39 L290.86,356.65" stroke-width="1.8"/>
+<path d="M307.27,346.6 L300.44,356.86" stroke-width="1.8"/>
+<path d="M297.71,381.2 L297.71,398.73" stroke-width="1.8"/>
+<path d="M313.4,398.76 L281.98,398.76" stroke-width="1.8"/>
+<path d="M287.27,403.95 L308.21,403.95" stroke-width="1.8"/>
+<path d="M292.45,409.2 L302.92,409.2" stroke-width="1.8"/>
+</g><g font-family="Arial,Helvetica,sans-serif" font-size="10" fill="rgb(240,240,236)">
+<text x="257.1" y="411.6" font-weight="400">PS1</text>
+<text x="256.8" y="524.4" font-weight="400">PS2</text>
+<text x="331.9" y="352.7" font-weight="700">CAUTION</text>
+<text x="331.4" y="364.0" font-weight="400">DISCONNECT BOTH</text>
+<text x="331.9" y="374.3" font-weight="400">AC POWER SOURCES</text>
+<text x="331.4" y="385.3" font-weight="400">BEFORE REPLACING</text>
+<text x="331.2" y="396.1" font-weight="400">FUSE OR SERVICING</text>
+<text x="307.4" y="512.0" font-weight="400" text-anchor="middle">REF</text>
+<text x="361.4" y="512.0" font-weight="400" text-anchor="middle">REF</text>
+<text x="307.4" y="524.5" font-weight="400" text-anchor="middle">OUT</text>
+<text x="361.4" y="524.4" font-weight="400" text-anchor="middle">IN</text>
+</g></svg>

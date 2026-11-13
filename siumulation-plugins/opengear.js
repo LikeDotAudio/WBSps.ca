@@ -786,7 +786,7 @@ const REAR_ART = {
 function rearSVG(t, opts){
   opts=opts||{};
   const w=worldAt(t), key=opts.rear||w.rear, RM=REARS[key], ART=REAR_ART[key];
-  const vb = opts.compact? ART.plate.join(' ') : '0 0 147.5 155';
+  const vb = opts.compact? (()=>{ const xs=ART.c.map(p=>p[0]), ys=ART.c.map(p=>p[1]), m=10; const x0=Math.min(...xs)-m, y0=Math.min(...ys)-m*1.6; return [x0,y0,Math.max(...xs)+m-x0,Math.max(...ys)+m*1.3-y0].map(v=>v.toFixed(1)).join(' '); })() : '0 0 147.5 155';
   let s=`<svg viewBox="${vb}" role="img" aria-label="${RM.name} (CorelDRAW art)" style="width:100%;display:block;border-radius:6px">
     <image href="${ASSET}opengear-rear-${key}.svg" width="147.5" height="155"/>`;
   RM.pos.forEach((p,i)=>{
@@ -1455,6 +1455,12 @@ function viewNotes(m){
 /* ---------------- register ---------------- */
 resetAll();
 SIM.register({
+  footnotes:[
+    {text:"The 2012 rear-module guide labels T6302A positions 8 and 10 “Not Connected”, agreeing with the manual and netlists rather than the 2007 sheet’s “AES1 / AES2”.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"},
+    {text:"On T6402A the guide shades BNC 3 (AES OUT 1 Card 2) like the two REF IN jacks; the netlist gives it no special role.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"},
+    {text:"All four D6203A rear modules carry an “A” suffix in the guide (T6302A, T6303A, T6402A, T6403A); netlists and file names use T6302 … without it.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"},
+    {text:"The card-edge drawing shows six LED windows (REF1, REF2, External, Internal, CAL, COM Activity) — no COM ERROR LED, although D6203A.h defines one.", src:"#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203A-card-edge.cdr"},
+    {text:"Backup_of_D6203A-card-edge.cdr sits beside the card-edge drawing — a CorelDRAW autosave copy.", src:"#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/Backup_of_D6203A-card-edge.cdr"}],
   id:'opengear', name:'openGear series · D6203A A→D converter (2008|41)', duration:1,
   product:'openGear cards — D6203A (Ross ADC-8432 / Cobalt 9345)', year:2008, family:'#OPENGEAR #SERIES',
   folder:'#OPENGEAR #SERIES',

@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD13A](../siumulation.html?plugin=pod13a) · [simulator & front panel](../simulator.html?m=POD13A) · [KiCad symbol generator](../kicad.html?m=POD13A) · [download package (zip)](../_packages/POD13A.zip) |
+| Try it | [full simulation: POD13A](../siumulation.html?plugin=pod13a) · [KiCad symbol generator](../kicad.html?m=POD13A) · [download package (zip)](../_packages/POD13A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD13A MANUAL(1).docx |
 | Confidence | medium |
@@ -92,53 +92,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD13A - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD13A - MANUAL.docx](../Products/PODS/POD13A/2014%20-%20POD13A%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD13A",
- "name": "Dual Digital-Analog Converter",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD13A/2014 - POD13A - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD13A/2014 - POD13A - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD13A/2014 - POD13A - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD13A/2014 - POD13A - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD13A/2014 - POD13A - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The rear plate has a small rectangular cut-out under the CAL table: the window for the 4-way CAL DIP switch. — `#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr`
+2. The CAL table printed on the rear (DN/UP for A (1,2) and B (3,4)) lists only three settings, −20, −18 and −12 dBFS; the fourth DIP combination (Up/Up) is not on the panel and mutes the output. — `#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr`
+3. The rear has four screw holes around the connector field (beside AES/EBU INPUTS and CONVERTER B) as well as the fixing holes at the panel ends. — `#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr`
+4. In this sheet the cut-out guides are drawn in the same black (#1B1918) as the ink, unlike the other 2016 POD sheets, which use pure black for the guides. — `#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr`
+5. The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint. — `#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr`

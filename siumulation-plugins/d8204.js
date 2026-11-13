@@ -11,7 +11,8 @@
        (Tango, ISSUE.2, 10.82 × 3.55 in; LED, switch, jack and P1 positions used for the drawings)
    - #MF8200 #SERIES/D8204B - #Master #MF82/D8204B - #Software/…#v101/v200.asm  (SIBLING firmware:
        MAIN, REFRESH8420_1/2, READ8420s, REFRESHSTATUS, shiftout/shiftin, cs8420reg* constants)
-   - 8200 Series Rear Module options…/D8204 - rear module options.pdf, D8204TRM.dxf  (BNC1 / BNC3)
+   - 8200 Series Rear Module options…/D8204 - rear module options.cdr (2012) → assets/d8204-rear-bnc1/bnc3.svg (Artwork 2026|59;
+       vectors via its Corel PDF export), D8204TRM.cdr/.dxf (BNC1 / BNC3)
    - M8200 Extender, handle…/M8200 - TERMINATIONS - BNC - #Engineering/BNC-XX.PCB  (BNC positions, mils)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -169,7 +170,27 @@ function frontSVG(t){
 // Rear modules drawn from BNC-XX.PCB (Tango, 1998|31) component positions in mils.
 const BNC3 = [['INPUT',4300,4525],['LOOP',4925,4525],['1',4300,3825],['2',4925,3825],['3',4300,3125],['4',4925,3125],['5',4300,2425],['6',4925,2425],['7',4300,1725],['8',4925,1725]];
 const BNC1 = [['INPUT',6850,4525],['1',7290,4065],['2',6850,3605],['3',7290,3145],['4',6850,2685],['5',7290,2225],['6',6850,1765]];
+// Artwork 2026|59: the CorelDRAW rear-module guide, cells cropped at 2.5 px per pt (180 px per inch). BNC centres measured on its vectors.
+const RMG_DIR='#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/';
+const ART = {
+  BNC1:{img:'d8204-rear-bnc1.svg', w:466.25, h:577.5, b:[['INPUT',194.75,90.5],['1',252.25,150.75],['2',194.75,211.5],['3',252.25,271.75],['4',194.5,332.5],['5',253,395],['6',194.5,456]]},
+  BNC3:{img:'d8204-rear-bnc3.svg', w:467.5, h:577.5, b:[['INPUT',184.75,86.25],['LOOP',266.75,86.25],['1',184.75,178],['2',266.75,178],['3',184.75,269.75],['4',266.75,269.75],['5',184.75,363.25],['6',266.75,363.25],['7',184.75,456.75],['8',266.75,456.75]]},
+};
 function rearSVG(t){
+  if (D.rearPcb) return rearPcbSVG(t);
+  const key = D.frame==='MF82/10'?'BNC3':'BNC1', A_=ART[key], on=outputsAt(t), inp=inputAt(t);
+  let s=`<svg viewBox="0 0 ${A_.w} ${A_.h}" style="width:100%;max-width:330px;display:block;border-radius:6px;background:#fbfaf6" role="img" aria-label="D8204 ${key} rear module (CorelDRAW art)"><image href="siumulation-plugins/assets/${A_.img}" width="${A_.w}" height="${A_.h}"/>`;
+  A_.b.forEach(([n,x,y])=>{
+    const isIn=n==='INPUT', isLoop=n==='LOOP', k=+n; const live = isIn? inp : isLoop? inp : (on && k<=nOutputs());
+    const col = isIn? (D.plugged?'var(--accent2)':'#777') : isLoop? (D.loopLoad==='75'?'var(--accent2)':'#777') : live?'var(--led-g)':'#777';
+    s+=`<g class="${isIn?'d4in':isLoop?'d4loop':''}" style="cursor:${isIn||isLoop?'pointer':'default'}"><title>${isIn?'DIGITAL INPUT — click to plug/unplug':isLoop?'INPUT LOOP — click to add/remove a terminated downstream cable':'DIGITAL OUT '+n+(live?' — carrying AES':'')}</title>
+      <circle cx="${x}" cy="${y}" r="36" fill="transparent"/><circle cx="${x}" cy="${y}" r="8" fill="${col}" stroke="#000" stroke-width="1.5"/>
+      ${(isIn&&D.plugged)||(isLoop&&D.loopLoad==='75')?`<circle cx="${x}" cy="${y}" r="22" fill="#3a74b8" opacity=".55"/><rect x="${x-9}" y="${y-62}" width="18" height="40" fill="#3a74b8" opacity=".8"/>`:''}</g>`;
+  });
+  s+=`</svg>`;
+  return s+`<div class="small muted" style="max-width:330px">${key} · ${key==='BNC3'?'10 BNC, MF8210 only':'7 BNC, MF82/12'} · dot = carrying AES. CorelDRAW art: ${SIM.src(RMG_DIR+'D8204 - rear module options.cdr','D8204 - rear module options.cdr')} (2012|45), via its Corel PDF ${SIM.src(RMG_DIR+'D8204 - rear module options.pdf','export')}. <button class="d4rearsrc" style="padding:1px 6px">show BNC-XX.PCB drawing</button></div>`;
+}
+function rearPcbSVG(t){
   const mod = D.frame==='MF82/10'? BNC3 : BNC1, S=0.07, on=outputsAt(t), inp=inputAt(t);
   const xs=mod.map(b=>b[1]), ys=mod.map(b=>b[2]); const x0=Math.min(...xs)-450, y1=Math.max(...ys)+450, y0=Math.min(...ys)-450, x1=Math.max(...xs)+450;
   const X=v=>20+(v-x0)*S, Y=v=>20+(y1-v)*S, W=(x1-x0)*S, H=(y1-y0)*S;
@@ -187,7 +208,7 @@ function rearSVG(t){
      <text x="${W+30}" y="80" font-size="10" fill="var(--ink2)">green dot = carrying AES</text>
      <text x="${W+30}" y="96" font-size="10" fill="var(--ink2)">positions: BNC-XX.PCB (mils)</text>
      <text x="${W+30}" y="112" font-size="10" fill="var(--ink2)">BNC numbering per rear-</text><text x="${W+30}" y="126" font-size="10" fill="var(--ink2)">module guide; P1 pin per</text><text x="${W+30}" y="140" font-size="10" fill="var(--ink2)">BNC not in archive ${'(inferred order)'}</text></svg>`;
-  return s;
+  return s+`<div class="small muted" style="max-width:330px">Drawn from ${SIM.src('#MF8200 #SERIES/M8200 Extender, handle  - #Master #MF82/M8200 - TERMINATIONS - BNC - #Engineering/BNC-XX.PCB','BNC-XX.PCB')} component positions. <button class="d4rearsrc" style="padding:1px 6px">show CorelDRAW art</button></div>`;
 }
 // Board top view to scale from D8204.PCB (BOARD 1795,1785 – 12615,5335 mil)
 const PARTS98 = [['U3 CS8412',6525,4725,1500,787],['U4',7175,4500,660,1557],['U5',8100,4300,534,1382],['U1 equaliser',3375,4450,1055,400],['REG1 LM2825',5725,3550,1519,670],['REG2',4000,2950,408,977],['T1',6500,5100,759,410],['T10',3325,3350,410,732],['U6',10850,4600,904,508],['DIGITAL MONITOR',2050,3100,1350,752],['L trim',9400,4100,323,409],['R trim',9400,3075,310,409],['P1 EDGE30/156',12325,5050,554,2276]];
@@ -204,6 +225,7 @@ function boardSVG(){
 function bindPanel(root){
   root.querySelectorAll('.d4eq').forEach(g=>g.onclick=()=>A.eq());
   root.querySelectorAll('.d4in').forEach(g=>g.onclick=()=>A.plug());
+  root.querySelectorAll('.d4rearsrc').forEach(b=>b.onclick=()=>{ D.rearPcb=!D.rearPcb; SIM.refresh(); });
   root.querySelectorAll('.d4loop').forEach(g=>g.onclick=()=>A.loopLoad(D.loopLoad==='75'?'open':'75'));
   root.querySelectorAll('.d4term').forEach(g=>g.onclick=()=>A.term(g.dataset.v));
 }
@@ -439,6 +461,7 @@ function viewNotes(m){
    <li><b>H1 turns an output into an alarm.</b> P1M is either the second copy of OUT2 or the NO_LOCK open collector (Q1). On BNC3 that means “output 8” can become a tally. The D8204A/C artwork says the same (“THIS OUTPUT CAN BE USED AS AN ALARM BY SETTING THE JUMPERS”).</li>
    <li><b>Spec range vs hardware.</b> The manual gives 30–50 kHz. That suits the CS8412; the CS8420 in the 2012 board would lock to 96 kHz too, and the sibling D8208 is sold as 22–96 kHz. Switch Build to compare.</li>
    <li><b>The 1998 PCB is a shared D8204/D8204A board.</b> <span class="mono">D8204.PCB</span> ISSUE.2 carries “DIGITAL AUDIO DA FOR M8204A”, analog L/R trims, a 16/18/24 dBFS jumper, AUDIO/ALARM headers and a DIGITAL MONITOR jack — the analog-output variant's parts on the same layout. (“M8204A” on a digital board is probably a slip for D8204A, ${inf}.)</li>
+   <li><b>Artwork 2026|59: rear modules now from ${SIM.src(RMG_DIR+'D8204 - rear module options.cdr','D8204 - rear module options.cdr')} (CorelDRAW X3, 2012-01-16).</b> BNC1 (“1x6”) and BNC3 (“1x8 … *MF8210 Only”) are its vectors (black plate, white legends) through Corel's own ${SIM.src(RMG_DIR+'D8204 - rear module options.pdf','PDF export')}; the old drawing from BNC-XX.PCB is kept behind a button. The two agree on the BNC order (INPUT top-left, odd outputs on the right of BNC1), but the guide is drawn at about 73 % scale: BNC pitch 0.34″ on the art against 0.46″ on the PCB. The earlier ${SIM.src(E+'D8204TRM.cdr','D8204TRM.cdr')} (2012) and its 1998 ${SIM.src(E+'Backup_of_D8204TRM.cdr','Backup_of_D8204TRM.cdr')} hold the same BNC1/BNC3 page.</li>
    <li><b>Leftovers.</b> The D8204 folder once held the D8203 firmware (moved to “WAS IN D8204 FOLDER #PROBLEM”); <span class="mono">D8204 - #ARCHIVE</span> is a byte-for-byte duplicate of <span class="mono">#Engineering</span>; the D8204A manual drafts (2005–2006|38–39) live here, not in the D8204A folder.</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
    <li>Cable loss ${K.DB_PER_100M} dB/100 m and EQ +${K.EQ_DB} dB are ${inf}, fitted to the manual's 600 m / 5000 ft figures.</li>
@@ -454,7 +477,15 @@ SIM.register({
   product:'D8204', year:1998, family:'8200 Distribution Series',
   folder:'#MF8200 #SERIES/D8204 - #Master #MF82',
   summary:'One AES/EBU input on 75 Ω coax, equalised, re-timed and fanned out to eight 75 Ω outputs on an MF82 frame card. The 2012 manual board runs the D8204B PIC firmware, which polls a CS8420 every 1.8 ms, drives the LOCK/NO LOCK LEDs and mutes the outputs on loss.',
-  highlights:['Cable length, EQ and termination model','BNC1 / BNC3 rear modules from the PCB','PIC loop timed from the crystal','Dropout traced pass by pass','2012 manual prints the D8204B schematic'],
+  highlights:['Cable length, EQ and termination model','BNC1 / BNC3 rear modules from the CorelDRAW guide (PCB drawing on a toggle)','PIC loop timed from the crystal','Dropout traced pass by pass','2012 manual prints the D8204B schematic'],
+  footnotes:[
+    {text:'Rear-module art: BNC1 and BNC3 are vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the guide’s symbol fonts badly).', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr'},
+    {text:'The guide is drawn at about 73 % scale: its BNC pitch is 0.34″ where BNC-XX.PCB places the BNCs 0.46″ apart; the order of the connectors agrees.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr'},
+    {text:'BNC3 (input + loop + 8 outputs) is marked “*MF8210 Only”; in an MF82/12 frame the BNC1 module leaves outputs 7 and 8 without a connector.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr'},
+    {text:'D8204TRM.cdr (2012) has a 1998 Backup_of_D8204TRM.cdr beside it, and both are stored again in D8204 - #ARCHIVE.', src:'#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/Backup_of_D8204TRM.cdr'},
+    {text:'The D8204 Engineering folder also holds the D8204A terminal pages (D8204AT1/AT2/AT3.CDR) and manual cover D8204AMN.CDR, filed under the wrong product.', src:'#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/D8204AT2.CDR'},
+    {text:'D8204ManualCover.cdr (2012) shows the MF82 frame with a “SERIES DISTRIBUTION SYSTEM” banner and “D8204 MANUAL”.', src:'#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/D8204ManualCover.cdr'},
+  ],
   depth:'Hardware model',
   stepUnits:[{label:'1 PIC pass', period:()=>PASS},{label:'1 AES block (192 frames)', period:()=>192/D.fs},{label:'1 AES frame', period:()=>1/D.fs},{label:'1 ms', period:()=>0.001},{label:'10 ms', period:()=>0.01}],
   zooms:[[1,'1 s (whole)'],[0.2,'200 ms'],[0.02,'20 ms'],[0.005,'5 ms (≈3 passes)'],[0.0018,'1 pass (1.8 ms)'],[0.0002,'200 µs'],[2/48000,'2 AES frames']],

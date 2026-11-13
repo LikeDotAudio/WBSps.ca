@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 55 592 135" width="592" height="135">
+<g>
+<path d="M15.09,163.14 L22.44,163.14" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M18.76,159.51 L18.76,166.93" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M594.76,159.44 L594.76,166.86" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M598.39,163.14 L591.05,163.14" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M248.6,174.52 L255.94,174.52" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M252.33,172.22 L252.33,179.64" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M385.53,172.38 L385.53,179.79" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M381.83,174.52 L389.18,174.52" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M448.31,177.9 L440.97,177.9" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M444.64,174.28 L444.64,181.7" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M522.4,170.85 L522.4,117.06" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M540.33,143.99 L504.47,143.99" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<text x="320" y="151.85" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#f0f0ec">R2K I/O</text>
+<text x="333.9" y="75.53" font-family="Arial,Helvetica,sans-serif" fill="#f0f0ec"><tspan x="333.9" dy="0" font-size="10">CAUTION</tspan><tspan x="333.9" dy="8.4" font-size="7">DISCONNECT POWER BEFORE</tspan><tspan x="333.9" dy="8.4" font-size="7">REPLACING FUSE OR SERVICING</tspan></text>
+<text x="453.14" y="84.07" font-family="Arial,Helvetica,sans-serif" font-size="7" fill="#f0f0ec">115 VAC, 1 A.S.B</text>
+<text x="411.51" y="163.26" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#f0f0ec">SETUP</text>
+<path d="M261.9,148.74 L298.37,148.74" style="stroke-width: 2.36; stroke: #f0f0ec; fill: none;"/>
+<path d="M338.47,148.74 L375.88,148.74" style="stroke-width: 2.42; stroke: #f0f0ec; fill: none;"/>
+<path d="M248.6,113.39 L255.94,113.39" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M252.33,109.72 L252.33,117.14" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M385.53,109.72 L385.53,117.14" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M381.83,113.39 L389.18,113.39" style="stroke-width: 0.5; stroke: #f0f0ec; fill: none;"/>
+<path d="M261.9,87.62 L309.7,87.62" style="stroke-width: 3.09; stroke: #f0f0ec; fill: none;"/>
+<path d="M328.3,87.62 L375.88,87.62" style="stroke-width: 3.07; stroke: #f0f0ec; fill: none;"/>
+<text x="319" y="90.72" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#f0f0ec">J1</text>
+</g>
+</svg>

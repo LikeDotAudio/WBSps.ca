@@ -7,7 +7,7 @@
    - QSP - #OBSOLETE #Archive/QSP2 - #Schematic page1.pdf, page2.PDF (QSP.DSN "QSP-2 CUE SPEAKER ISS.3 PCB", JULY 3,1998)
    - QSP - #OBSOLETE #Archive/QSP2 Front.jpg, QSP2 Rear.jpg     (panel colours, knob colour)
    - QSP & QSP-XLR - #Mechanical #DA #2016/QSP-FRONT ISS 4 (PANEL).pdf, QSP-REAR ISS.5 (PANEL).pdf (hole positions, to scale)
-   - QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-FRONT-SILK(CURVE).CDR, QSP-REAR-SILK (CURVE).CDR (converted with Inkscape → assets/qsp-*.png)
+   - QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-FRONT-SILK(CURVE).CDR, QSP-REAR-SILK (CURVE).CDR (Inkscape → tools cut, Artwork 2026|59 → assets/qsp-front.svg (GREEN + WHITE plates registered), qsp-rear.svg; the older PNG cuts qsp-front-green/-white.png, qsp-rear-white.png are no longer used)
    - QSP & QSP-XLR - #Mechanical #DA #2016/A-QSP BOM Structure.pdf; qsp6/QSP6 Manual/README.txt (QSP6 notes)
    ===================================================================== */
 (function(){
@@ -277,6 +277,19 @@ function loopSVG(steps, hot, title){
 function pinRow(x,y,pins,pitch,lab){ let s=''; pins.forEach((p,i)=>{ const xx=x+i*pitch; s+=`<rect x="${xx-7}" y="${y-7}" width="14" height="14" fill="#d4af37" stroke="#7a5f12"/><text x="${xx}" y="${y-12}" text-anchor="middle" font-size="9.5" fill="var(--ink)">${p[0]}</text><text x="${xx}" y="${y+22}" text-anchor="middle" font-size="9" fill="var(--accent2)">${p[1]||''}</text>`; }); return s+(lab?`<text x="${x-14}" y="${y+4}" text-anchor="end" font-size="11" font-weight="700" fill="var(--ink)">${lab}</text>`:''); }
 /* ---------- end of kit ---------- */
 const PREFIX='qsp';
+const ART_F='QSP  - #Master #OBSOLETE/QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-FRONT-SILK(CURVE).CDR', ART_R='QSP  - #Master #OBSOLETE/QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-REAR-SILK (CURVE).CDR';
+const QA='QSP  - #Master #OBSOLETE/QSP - #OBSOLETE #Archive/';
+/* Artwork 2026|59 footnotes: small facts the CorelDRAW files show */
+const FOOT=[
+ {text:'The front silk marks CH 1, STEREO/MONO and HEADSET holes with drilling cross-hairs, but the CH 2 pot hole is a plain circle with no cross-hair (hole E, the one enlarged from .167 in 2008).', src:ART_F},
+ {text:'STEREO/MONO is not a word pair on the panel: it is a push-button symbol, button up for STEREO and pressed for MONO, with the two words stacked beside it.', src:ART_F},
+ {text:'The rear silk prints “+ − G / INPUT” only under the CH 2 cut-out; CH 1 shares that legend, and the third cut-out (13.850 in) has no legend at all.', src:ART_R},
+ {text:'An unlabelled round hole sits beside the IEC inlet under “115 VAC, 1 A.S.B”; the silk names no fuse holder or switch for it.', src:ART_R},
+ {text:'The front sheet is dated nowhere; the rear sheet is dated MAY 13/16, five weeks before the rear drawing’s “JUN.28/16 STUD CHANGED” revision.', src:ART_R},
+ {text:'The 2016 silks (QSP-FRONT-SILK.CDR / (CURVE).CDR) are the third generation: QSPSILK.CDR (file date 2016-05-10) and QSPOUTS.CDR / QSPBACKS.CDR (May 1998) hold the same legends as loose items, not registered on a panel outline.', src:QA+'QSP - #SILK/QSPSILK.CDR'},
+ {text:'QSP6FRONTSILK.cdr is stored twice: once in qsp6/ and again in the console module folder #CONSOLES - #OBSOLETE #Archive/MODULES/R208/ beside a PDF of it, suggesting the QSP6 face was reused on the R208 console module (<span class="tag-inf">inferred</span> from the folder).', src:'#CONSOLES - #OBSOLETE #Archive/MODULES/R208/QSP6FRONTSILK.cdr'},
+ {text:'QSP6REARSILK.cdr labels a MINI DISK / PC output pair and six LEFT/RIGHT INPUTs, and its one-line caution runs past the right edge of the page (“…FUSE OR SER”).', src:QA+'qsp6/QSP6REARSILK.cdr'},
+];
 const PPI=150, W=2565, H=247;                    // face 17.100 × 1.648 in at 150 px/in
 const X = v=>Math.round(v*PPI);
 /* ---------------- circuit constants from QSP.DSN (ISS.3) ---------------- */
@@ -323,14 +336,14 @@ function frontSVG(){ const on=D.power;
     + `<g class="sm" style="cursor:pointer"><title>STEREO/MONO push switch (${D.stereo?'STEREO, up':'MONO, pressed'}) — click</title><circle cx="${X(11.25)}" cy="${X(1.165)}" r="20" fill="#0b0c0d" stroke="#333"/><circle cx="${X(11.25)}" cy="${X(1.165)}" r="${D.stereo?14:11}" fill="${D.stereo?'#26292d':'#141618'}"/></g>`
     + `<g class="hp" style="cursor:pointer"><title>HEADSET TRS jack — click to ${D.hp?'unplug':'plug'} a headset</title><circle cx="${X(12.775)}" cy="${X(0.871)}" r="30" fill="#9a9da1" stroke="#555"/><circle cx="${X(12.775)}" cy="${X(0.871)}" r="17" fill="#060606"/>${D.hp?`<circle cx="${X(12.775)}" cy="${X(0.871)}" r="24" fill="#1d1f22" stroke="#444"/><rect x="${X(12.775)-7}" y="${X(0.871)+20}" width="14" height="40" fill="#1d1f22"/>`:''}</g>`
     + (D.power?`<circle cx="${X(3.9)}" cy="${X(1.3)}" r="0" fill="none"/>`:'');
-  return layered({w:W,h:H,bg:'#151617',layers:[PREFIX+'-front-green.png',PREFIX+'-front-white.png'],under,over,label:'QSP-2 front panel (real silkscreen)'}); }
+  return layered({w:W,h:H,bg:'#151617',layers:[PREFIX+'-front.svg'],under,over,label:'QSP-2 front panel (real silkscreen)'}); }
 function rearSVG(){
   let under=''; for(let i=0;i<7;i++){ under+=`<rect x="${X(5.150+i*0.25)-7}" y="${X(0.324)}" width="14" height="${X(1.0)}" rx="7" fill="#050505"/><rect x="${X(7.150+i*0.25)-7}" y="${X(0.324)}" width="14" height="${X(1.0)}" rx="7" fill="#050505"/>`; }
   const ph=(cx,cy,on,cls,title,plug)=>`<g class="${cls}" style="cursor:pointer"><title>${title}</title><rect x="${X(cx)-X(0.264)}" y="${X(cy)-X(0.166)}" width="${X(0.528)}" height="${X(0.332)}" fill="#050505"/><rect x="${X(cx)-36}" y="${X(cy)-20}" width="72" height="40" rx="3" fill="#26a356" stroke="#0e5d2b"/>${[-22,0,22].map(d=>`<rect x="${X(cx)+d-7}" y="${X(cy)-10}" width="14" height="20" fill="#0e4d25"/>`).join('')}${plug?`<rect x="${X(cx)-34}" y="${X(cy)-18}" width="68" height="14" fill="#2b5f9e" opacity=".85"/>`:''}</g>`;
   const over = iec(X(0.84-0.54),X(0.824-0.62),X(0.84+0.54),X(0.824+0.62)) + ph(11.2,0.393,1,'pi" data-i="0','CH 1 INPUT (+ − G) — click to '+(D.plugged[0]?'unplug':'plug'),D.plugged[0]) + ph(11.2,1.093,1,'pi" data-i="1','CH 2 INPUT (+ − G) — click to '+(D.plugged[1]?'unplug':'plug'),D.plugged[1])
     + ph(13.85,0.393,1,'','3-pin header at 13.850 in (no silk legend; the schematic’s LEFT/RIGHT OUT and VU feeds — '+'inferred'+')',false)
     + [9.85,11.35,13.375,14.725].map(x=>`<circle cx="${X(x)}" cy="${X(0.743)}" r="7" fill="#777"/>`).join('');
-  return layered({w:W,h:H,bg:'#151617',layers:[PREFIX+'-rear-white.png'],under,over,label:'QSP-2 rear panel (real silkscreen)'}); }
+  return layered({w:W,h:H,bg:'#151617',layers:[PREFIX+'-rear.svg'],under,over,label:'QSP-2 rear panel (real silkscreen)'}); }
 function bindPanel(r){ r.querySelectorAll('.kn').forEach(g=>{ const i=+g.dataset.i; g.addEventListener('click',e=>{ const b=g.getBoundingClientRect(); A.pot(i,(e.clientX-b.left)/b.width<0.5?-1:1); }); g.addEventListener('wheel',e=>{ e.preventDefault(); A.pot(i,e.deltaY<0?1:-1); },{passive:false}); });
   r.querySelectorAll('.sm').forEach(g=>g.onclick=()=>A.stereo()); r.querySelectorAll('.hp').forEach(g=>g.onclick=()=>A.hp()); r.querySelectorAll('.pi').forEach(g=>g.onclick=()=>A.plug(+g.dataset.i)); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:8px;align-items:center">
@@ -363,7 +376,7 @@ function stageStats(side){ const v0=dbu2v(D.srcDbu[side]);
   ]; }
 /* ---------------- views ---------------- */
 function viewSim(m){ window.__qspActive=true;
-  m.innerHTML=`${card('Front panel (QSP-FRONT ISS 4 holes + QSP-FRONT-SILK)',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel (QSP-REAR ISS.5 + QSP-REAR-SILK)',`<div id="rp"></div>`)}
+  m.innerHTML=`${card('Front panel (QSP-FRONT ISS 4 holes + QSP-FRONT-SILK)',`<div id="fp"></div><div class="small muted" style="margin-top:3px">Artwork: GREEN + WHITE plates of ${SIM.src(ART_F,'QSP-FRONT-SILK(CURVE).CDR')} (May 2016), CorelDRAW vector, registered on one panel; faint lines = cut geometry.</div>${controlsHTML()}`)}${card('Rear panel (QSP-REAR ISS.5 + QSP-REAR-SILK)',`<div id="rp"></div><div class="small muted" style="margin-top:3px">Artwork: WHITE plate of ${SIM.src(ART_R,'QSP-REAR-SILK (CURVE).CDR')} (MAY 13/16), CorelDRAW vector.</div>`)}
    <div class="grid2">${card('What the circuit did (last action)',`<div id="trace" class="log"></div>`)}${card('Speakers and headset',`<div id="now"></div>`)}</div>
    ${card('Timeline — one second, zoomable (zoom to 2 ms to see the waveforms)',`<canvas id="tl"></canvas>`)}
    <div class="grid2">${card('Stage by stage — LEFT',`<div id="lv0"></div>`)}${card('Stage by stage — RIGHT',`<div id="lv1"></div>`)}</div>${card('Action log',`<div id="log" class="log"></div>`)}`;
@@ -435,14 +448,17 @@ function viewNotes(m){ window.__qspActive=false;
    <li><b>Drawing history.</b> QSP-REAR ISS.5: “JUN.28/16 STUD CHANGED TO FH440-5”, “SEPT.25/07 REMOVED (2) MOUNTING HOLES (K)”, “OCT.9/01 .332X.528 WAS .312X.530”, first issue “AUGUST 13th, 1999. by B.H.” QSP-FRONT ISS 4: “MARCH,24/08 (E) HOLE WAS .167 DIA.” and the same Sept 2007 mounting-hole removal.</li>
    <li><b>Two different pot holes.</b> CH 1 sits in hole C (.250 in), CH 2 in hole E (.218 in, enlarged in 2008); the STEREO/MONO switch uses D (.281 in). That fits the schematic: CH 1 is the dual-gang L\\R VOL, CH 2 the single R-VOL (${inf}).</li>
    <li><b>Variants without circuits.</b> QSP2-D (<span class="mono">QSP-2D.DSN</span>, a D-connector rear: QSP-REAR-D75), QSP-XLR (XLR front/rear drawings “Not in ERP”), and QSP6 (M1–M10 drawings, <span class="mono">QSP6ISS3.sch</span>, a 1998 manual README) are in the folder; only the QSP-2 has a readable schematic.</li>
+   <li><b>Artwork 2026|59: front/rear panels now from the CorelDRAW silks</b> ${SIM.src(ART_F,'QSP-FRONT-SILK(CURVE).CDR')} and ${SIM.src(ART_R,'QSP-REAR-SILK (CURVE).CDR')} (May 2016), replacing the PNG cuts. The front sheet holds a GREEN plate (WARD-BECK SYSTEMS, QSP-2 CUE SPEAKER, the stripe and the STEREO/MONO button symbol) and a WHITE plate (CH 1, CH 2, STEREO, MONO, HEADSET, SELECT SERIES); the rear is one WHITE plate.</li>
+   ${FOOT.map(f=>`<li>${f.text} <span class="muted small">— ${SIM.src(f.src)}</span></li>`).join('')}
    <li><b>Duplicates.</b> <span class="mono">page1.pdf</span> is byte-identical to <span class="mono">QSP2 - #Schematic page1.pdf</span>, and the photos and manual appear twice (folder root and #Photo/#Manual sub-folders).</li></ol>`)
   +card('Assumptions in this simulation',`<ul class="small"><li>TDA1521 gain 30 dB and 20 kΩ input (data sheet), 8 Ω speakers, ±16 V rails (${inf}).</li><li>Volume pots audio taper, −40 dB … 0 dB (${inf}).</li><li>MONO routes CH 2 input to the right speaker under R-VOL control (manual wording; switch wiring read from the drawing, ${inf}).</li></ul>`)
-  +card('Sources',`<ul class="small mono"><li>QSP - #OBSOLETE #Archive/QSP2.pdf · QSP2 - #Schematic page1.pdf · page2.PDF · QSP2 Front.jpg · QSP2 Rear.jpg</li><li>QSP & QSP-XLR - #Mechanical #DA #2016/QSP-FRONT ISS 4 (PANEL).pdf · QSP-REAR ISS.5 (PANEL).pdf</li><li>QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-FRONT-SILK(CURVE).CDR · QSP-REAR-SILK (CURVE).CDR (→ assets/qsp-front-green.png, qsp-front-white.png, qsp-rear-white.png)</li></ul>`); }
+  +card('Sources',`<ul class="small mono"><li>QSP - #OBSOLETE #Archive/QSP2.pdf · QSP2 - #Schematic page1.pdf · page2.PDF · QSP2 Front.jpg · QSP2 Rear.jpg</li><li>QSP & QSP-XLR - #Mechanical #DA #2016/QSP-FRONT ISS 4 (PANEL).pdf · QSP-REAR ISS.5 (PANEL).pdf</li><li>QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-FRONT-SILK(CURVE).CDR · QSP-REAR-SILK (CURVE).CDR (→ assets/qsp-front.svg, qsp-rear.svg, Artwork 2026|59)</li></ul>`); }
 SIM.register({
   id:'qsp', name:'QSP · QSP-2 dual cue speaker, 1 RU (1998|31–2016|49)', duration:1, product:'QSP', year:1998, family:'Obsolete products', folder:'XXX - QSP  - #Master #OBSOLETE',
   summary:'A 1 RU “Select Series” monitor speaker: two balanced inputs, a TDA1521 power amplifier, CH 1/CH 2 level knobs, a STEREO/MONO switch and a front headset jack that mutes the speakers. Built from the 1998 ISS.3 schematic, the manual, the 2016 panel drawings and the real silks.',
   highlights:['Real QSP-2 front and rear silkscreens on the ISS 4 / ISS.5 panel drawings','STEREO (one knob) vs MONO (two knobs) routing','Headset jack normals mute the speakers','Speaker power and TDA1521 clipping','Two schematic pages redrawn with real part names'],
   depth:'Hardware model',
+  footnotes:FOOT,
   stepUnits:[{label:'1 tone cycle',period:()=>1/D.freq[0]},{label:'1 ms',period:()=>0.001},{label:'1 mains cycle',period:()=>1/60}],
   zooms:[[1,'1 s'],[0.1,'100 ms'],[0.01,'10 ms'],[0.002,'2 ms'],[0.0002,'200 µs']], defaultZoom:3,
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial',render:viewTutorial},{id:'second',label:'One second',render:viewSecond},

@@ -473,6 +473,32 @@ const ASSET = 'siumulation-plugins/assets/';
    white silk. view/plate in inches; pos = connector centres from the drawing, inches from the plate's top-left corner;
    iso = BNCs the drawing shades grey (isolated-shell positions). */
 const CDR_ART = {"iss1":{"file":"t6201-rear.svg","src":"#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.cdr","label":"T6201.cdr","date":"10 Nov 2006","view":[2.423,3.548],"plate":[0.501,0.281,1.325,3.1],"pos":{"1":[0.38,0.31],"2":[1.052,0.31],"3":[0.38,0.896],"4":[1.052,0.896],"5":[0.387,1.494],"6":[1.059,1.494],"7":[0.38,2.08],"8":[1.052,2.08],"9":[0.386,2.658],"10":[1.058,2.658]},"legend":{"1":"BNC1","2":"BNC2","3":"BNC3","4":"BNC4","5":"BNC5","6":"BNC6","7":"BNC7","8":"BNC8","9":"BNC9","10":"BNC10"},"iso":[1,2,9,10]}};
+const FOOTNOTES = [
+{
+"text": "T6201.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+"src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.cdr"
+},
+{
+"text": "T6201.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+"src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.cdr"
+},
+{
+"text": "The sheet shades BNC1, 2, 9 and 10 grey: exactly the four isolated-shell positions (BNC1_GND, BNC2_GND, BNC9_GND, BNC10_GND) in T6201.net.",
+"src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.net"
+},
+{
+"text": "The sheet is not 1:1: its BNC rows are about 0.59″ apart, while the Gerbers and REAR-MODULE-T6201.pdf space them 0.625″ apart.",
+"src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/REAR-MODULE-T6201.pdf"
+},
+{
+"text": "The plate is drawn 1.325″ × 3.100″ plus two bottom tabs; the mechanical drawing gives 3.160″.",
+"src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.cdr"
+},
+{
+"text": "The same T6201.cdr (10 Nov 2006) is stored twice, in the master folder and in T6201 - #Archive; Backup_of_T6201.cdr (Jul 2006) is also stored twice, at the top and in #Mechanical.",
+"src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201 - #Archive/T6201.cdr"
+}
+];
 function cdrArt(){ return S.view==='cdr' ? (CDR_ART[S.issue]||null) : null; }
 function cdrXY(p, art){ return art && art.pos[p.n] ? art.pos[p.n] : [p.x, p.y]; }
 function cdrCaption(art){ return 'CorelDRAW art: '+SIM.src(art.src, art.label)+' ('+art.date+')'; }
@@ -1046,6 +1072,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:FOOTNOTES,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

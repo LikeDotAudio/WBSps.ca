@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: AMS4](../siumulation.html?plugin=ams4) · [simulator & front panel](../simulator.html?m=AMS4) · [KiCad symbol generator](../kicad.html?m=AMS4) · [download package (zip)](../_packages/AMS4.zip) |
+| Try it | [full simulation: AMS4](../siumulation.html?plugin=ams4) · [KiCad symbol generator](../kicad.html?m=AMS4) · [download package (zip)](../_packages/AMS4.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -92,65 +92,10 @@ _No change note in the listing for: AMS4NV100._
 | ? | [19xx - AMS4 - DOC - 2021-3-16-23-54-40.jpg](../Products/METERING/AMS4/19xx%20-%20AMS4%20-%20DOC%20-%202021-3-16-23-54-40.jpg) | [note](../Products/METERING/AMS4/19xx%20-%20AMS4%20-%20DOC%20-%202021-3-16-23-54-40.jpg.md) |
 | ? | [19xx - AMS4 - DOC - 2021-3-16-23-54-55.jpg](../Products/METERING/AMS4/19xx%20-%20AMS4%20-%20DOC%20-%202021-3-16-23-54-55.jpg) | [note](../Products/METERING/AMS4/19xx%20-%20AMS4%20-%20DOC%20-%202021-3-16-23-54-55.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AMS4",
- "name": "Audio Monitor System",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/AMS4/2016 - AMS4 - Front.jpg",
-   "year": 2016,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/AMS4/2016 - AMS4 - Information Sheet.jpg",
-   "year": 2016,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/METERING/AMS4/2016 - AMS4 - Rear Demux.jpg",
-   "year": 2016,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/AMS4/2016 - AMS4 - Rear.jpg",
-   "year": 2016,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/AMS4/19xx - AMS4 - DOC - 2021-3-16-23-53-33.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/AMS4/19xx - AMS4 - DOC - 2021-3-16-23-54-15.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/AMS4/19xx - AMS4 - DOC - 2021-3-16-23-54-40.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/AMS4/19xx - AMS4 - DOC - 2021-3-16-23-54-55.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. On the rear silk the DEMUX adaptor-plate opening and its two thumb-screw holes are the only things drawn in red: a separate part (DEMUX 4-REAR ADAPTOR PLATE), not panel silk. — `AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr`
+2. Off the printed page the CorelDRAW sheet keeps working copies of the rear plate and of a front plate whose title strip is only outlined. — `AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr`
+3. The silk only fits the PIC version (MODE / SOURCE buttons and the dot-matrix window); the AMS4N and AMS4E front layouts have no artwork in the archive. — `AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr`
+4. AMS4-FRONT&REAR-SILK(CURVE).cdr, AMS4-FRONT-SILK(CURVE).cdr and AMS4-REAR-SILK(CURVE).cdr are each stored three times (ARTWORK #DA #2016, #Engineering/ARTWORK, #Engineering/AMS4 - #ARTWORK). — `AMS4 - #Master/AMS4 - #Engineering/ARTWORK/AMS4-FRONT&REAR-SILK(CURVE).cdr`
+5. The title block of the combined silk says DEC.23/15, but the file was saved 2016-06-29, the same day as the rear-only silk. — `AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr`

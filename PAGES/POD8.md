@@ -16,7 +16,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD8](../siumulation.html?plugin=pod8) · [simulator & front panel](../simulator.html?m=POD8) · [KiCad symbol generator](../kicad.html?m=POD8) · [download package (zip)](../_packages/POD8.zip) |
+| Try it | [full simulation: POD8](../siumulation.html?plugin=pod8) · [KiCad symbol generator](../kicad.html?m=POD8) · [download package (zip)](../_packages/POD8.zip) |
 | Earliest dated evidence | [1995\|28](Year-1995.md) — original file date |
 | Evidence | saved 1995-09-11: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD8/ACAD/LMPOD8-1.DWG |
 | Confidence | medium |
@@ -81,71 +81,12 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD8 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD8 - MANUAL (2).docx](../Products/PODS/POD8/2014%20-%20POD8%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD8",
- "name": "Stereo Distribution Amplifier",
- "category": "PODS",
- "year": 1995,
- "documents": [
-  {
-   "file": "Products/PODS/POD8/1995 - POD8 - Front.jpg",
-   "year": 1995,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD8/1995 - POD8 - POD8 - FAPOD8 - DRAWING (AUTOCAD).dwg",
-   "year": 1995,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-1 - WIRING.dwg",
-   "year": 1995,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-2 - LAYOUT.dwg",
-   "year": 1995,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-3 - LAYOUT.dwg",
-   "year": 1995,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD8/1995 - POD8 - Rear.jpg",
-   "year": 1995,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD8/2014 - POD8 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD8/2014 - POD8 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. The issue-2 rear silk outlines the IEC inlet cut-out centred at 7.42 in, about 0.45 in left of detail D on the mirrored POD8-REAR ISS 4 drawing; the simulator follows the silk. — `#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8-rearSILK-iss2.cdr`
+2. The 1997 front silk's text is byte-swapped by libcdr; decoded, it reads “by Ward-Beck Systems”, “PODS”, “OUTPUT LEVEL ADJUST”, “POD-8 STEREO AUDIO DA”, LEFT, RIGHT, INPUT. Their positions are lost. — `#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8SILK.CDR`
+3. The 1997 silk's own rear plate converts only four crosshairs; its decoded text includes “115 VAC, 1/2 A.S.B.” and “DISCONNECT POWER / BEFORE SERVICING”. — `#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8SILK.CDR`
+4. The rear issue-2 caution text (“CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE”) is one multi-line live-text block. — `#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8-rearSILK-iss2.cdr`
+5. “POD8A-FRONT & REAR-PHX FINAL CURVE.cdr” in the POD8 SILK folder is the 16-output POD8A face, not POD8. — `#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/POD8A-FRONT & REAR-PHX FINAL CURVE.cdr`
+6. POD8A-FRONT&REAR-XLR-SILK.cdr is stored twice (ARTWORK and BLACK RACK folders). — `#POD #SERIES/POD8A - #Master/POD8A - BLACK RACK - #Mechanical #DA #2016/POD8A-FRONT&REAR-XLR-SILK.cdr`
+7. POD8-REAR ISS 4 is an inside view (IEC on the left), mirrored from the silk. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - OBSOLETE/POD8 - MECHANICAL/POD8-REAR ISS 4 (PANEL).pdf`

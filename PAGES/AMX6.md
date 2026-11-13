@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: AMX6](../siumulation.html?plugin=amx6) · [simulator & front panel](../simulator.html?m=AMX6) · [KiCad symbol generator](../kicad.html?m=AMX6) · [download package (zip)](../_packages/AMX6.zip) |
+| Try it | [full simulation: AMX6](../siumulation.html?plugin=amx6) · [KiCad symbol generator](../kicad.html?m=AMX6) · [download package (zip)](../_packages/AMX6.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jan.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMX6 Manual(1).docx |
 | Confidence | medium |
@@ -71,45 +71,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2015 - AMX6 - Manual (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - AMX6 - Manual (2).docx](../Products/METERING/AMX6/2015%20-%20AMX6%20-%20Manual%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AMX6",
- "name": "Audio Monitor System",
- "category": "METERING",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/METERING/AMX6/2015 - AMX6 - Front.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/AMX6/2015 - AMX6 - Manual (2).docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/AMX6/2015 - AMX6 - Manual.docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/AMX6/2015 - AMX6 - Rear.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. AMX6SILK.CDR is stored twice, byte for byte: in SILK/ and in AMX6 - #SILK/. — `#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/AMX6 - #SILK/AMX6SILK.CDR`
+2. One 17 × 11 in sheet holds three plates: front GREEN, front WHITE and rear WHITE, registered on drill crosshairs. — `#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR`
+3. The front crosshairs mark seven knob centres exactly 1.00 in apart, plus one at the power-LED hole and one at the HEADSET jack. — `#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR`
+4. The silk sheet has no outline for the IEC inlet, the speaker grilles or the rear terminal blocks; the simulator draws those from the photos and Amx6manu.cdr. — `#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR`
+5. The silk is dated Aug 1998|31, ten months before the Tango PCB (Jun 1999|32). — `#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR`
+6. The rear silk asks for a 1 A slow-blow fuse (“115 VAC, 1 A.S.B”) for a unit the manual rates at 25 VA (about 0.22 A). — `#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR`

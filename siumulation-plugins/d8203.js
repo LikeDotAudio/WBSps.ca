@@ -17,7 +17,7 @@
        PIC16C54A, AMP03, LF353, EL2099) and the Tango D8203.PCB (1998 LED / monitor-jack heights).
    - D8203MAN.WPD + d8203.pdf (1998 manual: 25 s / 7 s calibration, monitor jack, TERM, REF, SAMPLE and
        level jumpers), D8203MAN-1.wpd (2009|42 manual: 16 s / 2 s, H1, H2, H4), SLS8303.WPD.
-   - 8200 Series Rear Module options…/D8203 - rear module options.pdf (2012|45) → assets/d8203-rear-*.png
+   - 8200 Series Rear Module options…/D8203 - rear module options.cdr + .pdf (2012|45) → assets/d8203-rear-*.svg
        (BNC2, BNC4, TB8205P, TB8205P/75); D8203tr4.pdf (ST8200 / ST8201A pin order).
    - D8203 - #PNP #2016/D8203-ISS5-T.prg vs D8203-110R-ISS5-T.prg (75 Ω vs 110 Ω build).
    Anything not in those files is marked "inferred" on screen.
@@ -321,7 +321,7 @@ const D = {
 };
 function absNow(){ return D.sec + SIM.t; }
 function cfgAt(t){ let c=D.hist[0].c; for (const h of D.hist){ if (h.t<=t) c=h.c; else break; } return c; }
-function setCfg(changes){ const t=absNow(); D.hist = D.hist.filter(h=>h.t<t); const prev = cfgAt(t); D.hist.push({t, c:Object.assign({},prev,changes)}); TL=null; }
+function setCfg(changes){ const t=absNow(); D.hist = D.hist.filter((h,i)=>h.t<t || i===0); const prev = cfgAt(t); D.hist.push({t, c:Object.assign({},prev,changes)}); TL=null; }
 function cfg(){ return cfgAt(absNow()); }
 
 /* ---------------- reference input → receiver lock and error pins ---------------- */
@@ -537,16 +537,18 @@ function frontSVG(t){
   return s;
 }
 
-/* Rear modules: the real artwork from "D8203 - rear module options.pdf" (cells cut at 300 dpi, saved at 200 dpi).
-   Hot-spot coordinates are in the 300-dpi cell pixels of that PDF. */
+/* Rear modules: Artwork 2026|59 = the CorelDRAW vectors of "D8203 - rear module options.cdr" (2012-01-16), taken through
+   Corel's own PDF export of it (libcdr mangles the terminal-block symbol font), cropped to the same cells: plate black, silk white.
+   Hot-spot coordinates are in 300-dpi cell pixels (the SVG viewBox). */
+const RMG_DIR='#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/';
 const MODS = {
-  BNC2: {img:'d8203-rear-bnc2.png', w:776, h:980, refBal:false, variant:'D8203/75 (R7/R8/R15/R16 = 75R)', note:'BNC2: BNC and screw terminals, D8203/75. REF INPUT and DIGITAL OUT 1–4 on 75 Ω BNCs; analog L and R on screw terminals.',
+  BNC2: {img:'d8203-rear-bnc2.svg', w:776, h:980, refBal:false, variant:'D8203/75 (R7/R8/R15/R16 = 75R)', note:'BNC2: BNC and screw terminals, D8203/75. REF INPUT and DIGITAL OUT 1–4 on 75 Ω BNCs; analog L and R on screw terminals.',
     ref:[307,167], loop:null, outs:[[402,267],[307,367],[402,467],[307,569]], inL:[[270,757],[270,788]], inR:[[387,707],[387,738]]},
-  BNC4: {img:'d8203-rear-bnc4.png', w:780, h:980, refBal:false, variant:'D8203/75', note:'BNC4: BNC and pluggable screw terminals, *MF8210 only. REF INPUT with a passive loop BNC; four output BNCs.',
+  BNC4: {img:'d8203-rear-bnc4.svg', w:780, h:980, refBal:false, variant:'D8203/75', note:'BNC4: BNC and pluggable screw terminals, *MF8210 only. REF INPUT with a passive loop BNC; four output BNCs.',
     ref:[307,161], loop:[444,161], outs:[[307,314],[444,314],[307,469],[444,469]], inL:[[292,704],[292,734]], inR:[[402,704],[402,734]]},
-  TB8205P: {img:'d8203-rear-tb8205p.png', w:776, h:980, refBal:true, variant:'D8203/110 (R7/R8/R15/R16 = 110R, C62–C65 fitted — D8203-110R-ISS5-T.prg)', note:'TB8205P: pluggable screw terminals, D8203/110. Balanced REF INPUT ± with a passive input loop; DIGITAL OUT 1–4 ±.',
+  TB8205P: {img:'d8203-rear-tb8205p.svg', w:776, h:980, refBal:true, variant:'D8203/110 (R7/R8/R15/R16 = 110R, C62–C65 fitted — D8203-110R-ISS5-T.prg)', note:'TB8205P: pluggable screw terminals, D8203/110. Balanced REF INPUT ± with a passive input loop; DIGITAL OUT 1–4 ±.',
     ref:[276,209], refm:[276,246], loop:[397,209], outs:[[276,383],[276,456],[276,529],[276,601]], outsm:[[276,419],[276,492],[276,565],[276,637]], inL:[[406,456],[406,492]], inR:[[406,600],[406,636]]},
-  TB8205P75: {img:'d8203-rear-tb8205p75.png', w:780, h:980, refBal:false, variant:'D8203/110 with an unbalanced reference', note:'TB8205P/75: pluggable screw terminals with an unbalanced 75 Ω reference BNC.',
+  TB8205P75: {img:'d8203-rear-tb8205p75.svg', w:780, h:980, refBal:false, variant:'D8203/110 with an unbalanced reference', note:'TB8205P/75: pluggable screw terminals with an unbalanced 75 Ω reference BNC.',
     ref:[381,224], loop:null, outs:[[289,383],[289,456],[289,529],[289,601]], outsm:[[289,419],[289,492],[289,565],[289,637]], inL:[[419,456],[419,492]], inR:[[419,600],[419,636]]},
 };
 function rearSVG(t){
@@ -558,7 +560,7 @@ function rearSVG(t){
   s+=`<g class="d3ref" style="cursor:pointer"><title>REF INPUT — click to ${c.plugged?'unplug':'plug in'} the AES reference</title><circle cx="${m.ref[0]}" cy="${m.ref[1]}" r="44" fill="transparent"/>${dot(m.ref[0],m.ref[1],c.plugged?(lockedAt(t)&&c.h1==='ext'?'#3fbf5f':'#e8b23a'):'#999',14)}${m.refm?dot(m.refm[0],m.refm[1],c.plugged?'#3fbf5f':'#999',9):''}</g>`;
   m.outs.forEach((o,i)=>{ s+=`<g><title>DIGITAL OUT ${i+1}: ${live?(p.d1?'AES3 with audio':'AES3 frames, audio muted'):'no clock'}</title>${dot(o[0],o[1], live? (p.d1?'#3fbf5f':'#e8b23a') : '#555', 10)}${m.outsm?dot(m.outsm[i][0],m.outsm[i][1], live?(p.d1?'#3fbf5f':'#e8b23a'):'#555',7):''}</g>`; });
   [m.inL, m.inR].forEach((pp,ch)=>{ s+=`<g class="d3src" style="cursor:pointer"><title>ANALOG ${ch?'RIGHT':'LEFT'} IN ± — click to ${c.srcOn?'disconnect':'connect'} the analog source</title>${pp.map(q=>`<rect x="${q[0]-22}" y="${q[1]-16}" width="44" height="32" fill="${c.srcOn?'rgba(63,120,220,.35)':'rgba(0,0,0,.05)'}" stroke="${c.srcOn?'#2b5f9e':'#aaa'}" stroke-width="2"/>`).join('')}</g>`; });
-  s+=`</svg>`;
+  s+=`</svg><div class="small muted" style="max-width:330px">CorelDRAW art: ${SIM.src(RMG_DIR+'D8203 - rear module options.cdr','D8203 - rear module options.cdr')} (2012|45), via its Corel PDF ${SIM.src(RMG_DIR+'D8203 - rear module options.pdf','export')}.</div>`;
   return s;
 }
 
@@ -744,7 +746,7 @@ function viewSim(m){
   <div class="grid2">
     <div>
       ${card('The card — front edge and rear module at the playhead', `<div style="display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start"><div id="fp" style="flex:0 0 260px"></div><div id="rp" style="flex:1 1 240px;max-width:330px"></div></div>
-        <div class="small muted">Rear module: the real 2012|45 artwork from <span class="mono">D8203 - rear module options.pdf</span>. Click REF INPUT to plug the reference, the analog terminals to connect the source. Dots: green = carrying audio, amber = muted, grey = idle.</div><div id="d3ctl"></div>`)}
+        <div class="small muted">Rear module: the 2012|45 CorelDRAW artwork (see the link under the panel). Click REF INPUT to plug the reference, the analog terminals to connect the source. Dots: green = carrying audio, amber = muted, grey = idle.</div><div id="d3ctl"></div>`)}
       ${card('ISS5 board from the Gerbers (2012|45) — click H1, H2, H4 and the trimmers', `<div id="bp"></div><div class="small muted">Copper and silkscreen are rasterised straight from <span class="mono">D8203-ISS5.zip</span>. Hover a part for its role. The jumpers drive the same settings on both boards.</div>`)}
     </div>
     <div>
@@ -1065,6 +1067,7 @@ function viewNotes(m){
     <li><b>Eight builds in three days.</b> <span class="mono">OLD/8203V1X0…V1X8.ASM</span> (10–11 Aug ${Y(1998)}) and <span class="mono">8203TEST.ASM</span> show the tuning: initial delay 0x50 → 0x30, second pass 0x10 → 0x1C, DELVIS2 0x08 → 0x04 (“0x08 gives good consistent levels”), and <span class="mono">locked</span> learning to clear INT_R. The July <span class="mono">8203.ASM</span> calibrated once and had a jump to the wrong label (<span class="mono">goto cont_delvis</span> from DELVIS3).</li>
     <li><b>Two manuals, two boards.</b> <span class="mono">D8203MAN.WPD</span> and the font-encoded <span class="mono">d8203.pdf</span> (its text is a glyph substitution, which is why extraction fails) describe the 1998 card: EPM7064 in Fig 1.2, TERM 75/110/HiZ, REF EXT/LCL/OUT, level jumpers, a front ¼″ monitor jack, 25 s / 7 s. <span class="mono">D8203MAN-1.wpd</span> (${Y(2009)}) describes ISS5: H1 Frame/Ext, H2 32/44.1/48, H4 75/110, no monitor jack, +24 dBu only, 16 s / 2 s.</li>
     <li><b>Small loose ends.</b> H3 (PLL1700 SR0) is on the board but in no manual. P1 pin 16 (“8”) carries an alarm transistor (Q1, RB7) and <span class="mono">D8203TR4.cdr</span> names a terminal ALARM, yet <span class="mono">D8203tr4.pdf</span> shows it as NOT CONNECTED. The 75 Ω and 110 Ω cards differ only in R7/R8/R15/R16 (75R / 110R) and four select-on-test caps C62–C65 (2016 pick-and-place programs). The ISS5 ECO log flips C26/C37/C51/C53/C59 between 10\\35 and 10\\10 five times in one afternoon (8 Jul ${Y(2005)}).</li>
+    <li><b>Artwork 2026|59: rear modules now from ${SIM.src(RMG_DIR+'D8203 - rear module options.cdr','D8203 - rear module options.cdr')} (CorelDRAW X3, 2012-01-16).</b> BNC2, BNC4, TB8205P and TB8205P/75 are its vectors (black plate, white legends) through Corel's own ${SIM.src(RMG_DIR+'D8203 - rear module options.pdf','PDF export')}, since libcdr draws the screw-terminal symbol font as giant letters. Every module leaves four screw terminals marked NOT CONNECTED (BNC2/BNC4: two per block; TB8205P(/75): right-hand 1, 2, 5 and 6), so the D8203 uses only part of the shared terminal plate. The 2002 terminal pages ${SIM.src(E+'D8203tr2.cdr','D8203tr2.cdr')} / ${SIM.src(E+'D8203tr3.cdr','D8203tr3.cdr')} show the same modules ten years earlier, and ${SIM.src(E+'D8203TR1.CDR','D8203TR1.CDR')} / TR4 the older QC8200QCP, TB8205 and ST8200/ST8201A solder options.</li>
     <li><b>Duplicates.</b> <span class="mono">D8203 - WAS IN D8204 FOLDER #PROBLEM</span> is byte-identical to <span class="mono">#Engineering</span> (ASM, GDF, manual) except <span class="mono">PLD/d8203.rpt</span>, an earlier compile (Jan ${Y(2004)}) with identical equations.</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
     <li>PIC instruction time ${SIM.fmtDur(TCY)} (Fosc ≈ 3.41 MHz) from the source comment “DELAY2 = 1 will give 1.2 msec” ${inf}. Device-reset timer 18 ms ${inf}.</li>
@@ -1077,7 +1080,7 @@ function viewNotes(m){
     <li>D8203 - #Engineering/D8203 - #PLD #SOFTWARE/d8203.rpt, ISS1/d8203.rpt</li>
     <li>D8203 - #Engineering/D8203 - #PCB #SOFTWARE/D8203-ISS5.net, .bom, .pnp, .ECO, #GERBERS/D8203-ISS5.zip, #OBSOLETE/*</li>
     <li>D8203 - #Engineering/D8203MAN.WPD, d8203.pdf, D8203MAN-1.wpd, D8203tr4.pdf · D8203 - #PNP #2016/*.prg</li>
-    <li>8200 Series Rear Module options…/D8203 - rear module options.pdf</li></ul>`);
+    <li>8200 Series Rear Module options…/D8203 - rear module options.cdr, .pdf</li></ul>`);
 }
 
 /* ---------------- register ---------------- */
@@ -1087,6 +1090,13 @@ SIM.register({
   folder:'#MF8200 #SERIES/D8203 - #Master #MF82',
   summary:'Stereo analog to 24-bit AES/EBU converter card for the MF82 frame, with four outputs and an internal 48/44.1/32 kHz clock or lock to an external AES reference. The 1998 PIC firmware runs here instruction by instruction: its two-pass self-calibration takes 25 s at power-up and about 7 s at every reference change, exactly as the 1998 manual says.',
   highlights:['8203V100.ASM executed on a PIC16C5x interpreter','EPM7064 clock multiplexer from the fitted equations','ISS5 board drawn from the 2012 Gerbers','Real rear-module artwork (BNC2, BNC4, TB8205P)','The 2005 board needs firmware that is not in the archive'],
+  footnotes:[
+    {text:'Rear-module art: BNC2, BNC4, TB8205P and TB8205P/75 are the vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the terminal-block symbol font as giant text).', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8203 - rear module options.cdr'},
+    {text:'Every D8203 rear module leaves four screw terminals marked NOT CONNECTED (on the TB8205P(/75), right-hand 1, 2, 5 and 6): the card uses only part of the shared terminal plate.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8203 - rear module options.cdr'},
+    {text:'The 2002 terminal sheets D8203tr2.cdr / D8203tr3.cdr already show BNC2/BNC4 and TB8205P(/75); D8203TR1.CDR and D8203TR4.cdr show the earlier QC8200QCP, TB8205 and ST8200/ST8201A solder options.', src:'#MF8200 #SERIES/D8203 - #Master #MF82/D8203 - #Engineering/D8203tr3.cdr'},
+    {text:'The D8203 CDR set is stored three times: in D8203 - #Engineering, its #ARCHIVE folder and “D8203 - WAS IN D8204 FOLDER #PROBLEM”, with the same dates and sizes.', src:'#MF8200 #SERIES/D8203 - #Master #MF82/D8203 - #Engineering/D8203 - WAS IN D8204 FOLDER #PROBLEM/D8203tr3.cdr'},
+    {text:'D8203MAN.CDR (1998-04-16, 311 004 bytes) has the same date and size as D8204MAN.CDR and D8202 ISS2 D8202MAN.CDR: one manual-cover template copied between products.', src:'#MF8200 #SERIES/D8203 - #Master #MF82/D8203 - #Engineering/D8203MAN.CDR'},
+  ],
   depth:'Full model',
   stepUnits:[
     {label:'1 PIC instruction', period:()=>TCY},

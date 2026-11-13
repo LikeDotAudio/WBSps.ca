@@ -927,7 +927,7 @@ function viewSim(m){
   window.__m6202Active=true;
   m.innerHTML = card('M6202A ISS3 card — top side from the gerbers', `<div id="m62card"></div><div class="small" id="m62chip" style="margin-top:4px"></div>
      <div class="small muted">GERBERS/M6202A-ISS3.TOP + .TSM + .TSS rendered at 120 dpi; LEDs, SW1 and the P5 outline placed from M6202A-iss3.pnp. The photo (M6202A Color.jpg, ISS2) shows black mask and gold pads; it has no decoder module fitted.</div>`)
-   + `<div class="grid2"><div>${card('Rear module · card edge', `<div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start"><div id="m62rear" style="flex:1;min-width:180px"></div><div id="m62edge" style="flex:1;min-width:170px"></div></div><div class="small muted">Rear module from M6202AE Rear Modules.cdr; click SDI IN to plug or unplug, click an AES output to scope it.</div>`)}
+   + `<div class="grid2"><div>${card('Rear module · card edge', `<div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start"><div id="m62rearv" style="flex:1;min-width:180px"></div><div id="m62edge" style="flex:1;min-width:170px"></div></div><div class="small muted">Rear module from M6202AE Rear Modules.cdr; click SDI IN to plug or unplug, click an AES output to scope it.</div>`)}
        ${card('Source and hardware', '<div id="m62ctl"></div>')}
        ${card('AES3 output at the playhead', '<canvas id="m62scope"></canvas><div class="small" id="m62scopeTxt"></div>')}</div>
      <div>${card('DashBoard (frame controller view)', '<div id="m62dash"></div>')}
@@ -936,7 +936,7 @@ function viewSim(m){
   CTRLKEY='';
   SIM.on('time', ()=>{ const t=absT();
     m.querySelector('#m62card').innerHTML=cardSVG(t); m.querySelector('#m62chip').innerHTML=chipInfo();
-    m.querySelector('#m62rear').innerHTML=rearSVG(t); m.querySelector('#m62edge').innerHTML=edgeSVG(t);
+    m.querySelector('#m62rearv').innerHTML=rearSVG(t); m.querySelector('#m62edge').innerHTML=edgeSVG(t);
     const ck=JSON.stringify([D.base,D.ev,D.scn,D.page,D.build]); if (ck!==CTRLKEY){ CTRLKEY=ck; m.querySelector('#m62ctl').innerHTML=controlsHTML(); }
     const dk=document.activeElement && document.activeElement.closest && document.activeElement.closest('#m62dash'); if (!dk) m.querySelector('#m62dash').innerHTML=dashHTML(SIM.t);
     m.querySelector('#m62trace').innerHTML=traceHTML(); m.querySelector('#m62insp').innerHTML=inspHTML(t);
@@ -1090,6 +1090,7 @@ function viewSoft(m){
 }
 /* ---------------- findings ---------------- */
 const FINDINGS = [
+  ['Rear-module sheet leftovers', 'On the T6204/T6304 position 8 is drawn with a Phoenix block although it is labelled NOT USED; the Functional folder keeps Backup_of_ and Backup_of_Backup_of_ copies of the rear-module and functional sheets.'],
   ['Artwork '+SIM.year(2026)+': card edge and rear modules now from the CorelDRAW files', 'Card edge from '+SIM.src(M62ART.edge,'M6202-card-edge.cdr')+' (2008-02-22); T6204, T6304 and T6306 from '+SIM.src(M62ART.rear,'M6202AE Rear Modules.cdr')+' (2009-06-04). LEDs and connectors sit on the drawn boxes, circles and Phoenix blocks. The edge drawing has nine LEDs (SD, HD, ERR, AES1–4, COM Activity, Error) and no DOLBY 1–4, although the ISS3 PNP places four more yellow LEDs (LED8/7/5/2) and the firmware drives them; they are added beside AES1–4 here. The later '+SIM.src(M62ART.t6306,'M6202AE-T6306RearModule.cdr')+' (2009-05-28) relabels the T6306 as GROUP 1 OUT (3, 5), GROUP 2 OUT (7, 9) and SELECTABLE GROUP OUT (4, 6), and the 2012 '+SIM.src(M62ART.guide,'rear module guide')+' offers only the T6306A single and T6401A dual modules for the M6202AE.'],
   ['SD LED lights for HD','REFRESH_LEDS() and PROCESS_SDI_LOCK_STATUS() (v100w.c / M6202A.c) turn SD_LED_ON for any lock and add HD_LED_ON for HD, so an HD signal shows SD + HD. The manual table says SD = “valid SD-SDI signal”.'],
   ['DashBoard “Settings” are read-only; one read-write parameter does nothing','Dashboard.c: Dolby Decoding (0x0701), Decoder Input (0x0702), Group 3 Output Selector (0x0705) and Secondary Audio (0x0707) are ACCESS_READONLY; their SET branches are commented out. Dolby Decoder AES Selector (0x0706, MESSAGE_CREATOR_PARAMETER_76) is ACCESS_READWRITE but its SET is commented out too, and it is in no menu. For 0x0702 the GET leaves buffer[5] stale when dolby_enabled == NO.'],
@@ -1123,7 +1124,14 @@ function viewFindings(m){
    REGISTER
    ===================================================================== */
 SIM.register({
-  id:'m6202', folder:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR', family:'openGear', product:'M6202',
+  id:'m6202',
+  footnotes:[{text:'Card edge and rear artwork from the CorelDRAW files (2026|59): M6202-card-edge.cdr (2008-02-22) and M6202AE Rear Modules.cdr (2009-06-04: T6204, T6304, T6306).', src:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE Rear Modules.cdr'},
+    {text:'The card-edge drawing (titled M6202A, also used for the M6202AE) has nine LEDs: SD, HD, ERR, AES1–4, COM Activity and Error; the four DOLBY LEDs the firmware drives (LED8/7/5/2) are not drawn.', src:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202-card-edge.cdr'},
+    {text:'M6202AE-T6306RearModule.cdr (2009-05-28) relabels the T6306 in groups: 3/5 GROUP 1 OUT, 7/9 GROUP 2 OUT, 4/6 SELECTABLE GROUP OUT, 10 METADATA OUT.', src:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE-T6306RearModule.cdr'},
+    {text:'The 2012 guide offers only the T6306A (single) and T6401A (dual, captioned “*No MetaData Out”) for the M6202AE; the 110 Ω T6204/T6304 are gone.', src:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6202AE - rear module options.cdr'},
+    {text:'The Functional folder keeps Backup_of_ and even Backup_of_Backup_of_ copies of the rear-module sheets (M6202AE Rear Modules, -FUNCTIONAL, Rear Modules Temp, Rear Modules-PL).', src:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/Backup_of_Backup_of_M6202AE Rear Modules.cdr'},
+    {text:'On the T6204/T6304 position 8 is drawn with a Phoenix block although it is labelled NOT USED.', src:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE Rear Modules.cdr'}],
+   folder:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR', family:'openGear', product:'M6202',
   name:'M6202 · openGear HD/SD-SDI AES de-embedder with Dolby E / AC-3 decoder (2008|41)', year:2008, depth:'Full model',
   summary:'The openGear twin of the POD31: an EP1C12 de-embeds SD/HD-SDI audio groups to six AES outputs and routes one pair through a plug-in decoder module (CAT No. 552) for Dolby E or AC-3. The model runs the AT90CAN128 firmware (M6202AE v2.02, with the unreleased M6202A v1.04 for comparison) against SDI lines, HANC packets, SMPTE 337 bursts and the CAT552 reset line, on the real ISS3 gerber artwork with a DashBoard-style panel.',
   highlights:['One second down to SDI lines, HANC packets, SMPTE 337 bursts and single bits on the FPGA bus','Real ISS3 card from the gerbers, T6204/T6304/T6306 rear modules, clickable DIP and P5 module','DashBoard panel driven by the real OIDs, SET handlers and their commented-out branches','CAT552_RESET from inside the 1 ms timer interrupt, 48 ms stalls, endless resets without a module','20 findings: SD LED on HD, settings lost at reboot, DIP read before the FPGA is back'],

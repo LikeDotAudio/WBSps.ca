@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD26](../siumulation.html?plugin=pod26) · [simulator & front panel](../simulator.html?m=POD26) · [KiCad symbol generator](../kicad.html?m=POD26) · [download package (zip)](../_packages/POD26.zip) |
+| Try it | [full simulation: POD26](../siumulation.html?plugin=pod26) · [KiCad symbol generator](../kicad.html?m=POD26) · [download package (zip)](../_packages/POD26.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD26 MANUAL(1).docx |
 | Confidence | medium |
@@ -72,53 +72,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD26 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD26 - MANUAL.docx](../Products/PODS/POD26/2014%20-%20POD26%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD26",
- "name": "Audio Level Amplifier",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD26/2014 - POD26 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD26/2014 - POD26 - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD26/2014 - POD26 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD26/2014 - POD26 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD26/2014 - POD26 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. A small round hole at the top right of the rear, above the power inlet, has no legend (ground stud or spare, inferred). — `#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr`
+2. The six OUTPUT LEVEL ADJUST trims sit in holes under one long legend rule, numbered 1–6 below. — `#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr`
+3. The rear OUTPUT and INPUT terminal blocks share one window, with two fixing holes each side. — `#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr`
+4. The rear mains legend is printed sideways: “CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE”. — `#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr`
+5. POD26-FRONT&REAR.cdr (20 May 2014) is the live-text version of the same sheet; the CURVE file is dated Jul.02/14. — `#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR.cdr`

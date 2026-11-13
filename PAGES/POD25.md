@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD25](../siumulation.html?plugin=pod25) · [simulator & front panel](../simulator.html?m=POD25) · [KiCad symbol generator](../kicad.html?m=POD25) · [download package (zip)](../_packages/POD25.zip) |
+| Try it | [full simulation: POD25](../siumulation.html?plugin=pod25) · [KiCad symbol generator](../kicad.html?m=POD25) · [download package (zip)](../_packages/POD25.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD25 MANUAL(1).docx |
 | Confidence | medium |
@@ -90,53 +90,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD25 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD25 - MANUAL (2).docx](../Products/PODS/POD25/2014%20-%20POD25%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD25",
- "name": "Silence Detector",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD25/2014 - POD25 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD25/2014 - POD25 - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD25/2014 - POD25 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD25/2014 - POD25 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD25/2014 - POD25 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The green plate carries the ALARM ON / OFF bars and the 9-slot vent. — `#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr`
+2. A small round hole at the top right of the rear has no legend (ground stud or spare, inferred). — `#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr`
+3. The rear terminal-block window is one long cut-out for 2 × 9-way blocks, ruled into OUTPUT 1, OUTPUT 2 and OUTPUT 1+2. — `#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr`
+4. POD25-FRONT&REAR.cdr (21 May 2014) is the live-text version of the same sheet; the CURVE file is dated Jul.02/14. — `#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR.cdr`
+5. The rear photo shows an older silk with “DISCONNECT POWER BEFORE SERVICING” across the bottom, not the Jul.02/14 artwork. — `#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr`

@@ -903,7 +903,46 @@ const SOURCES = [
   '#OPENGEAR #SERIES/D6201B - #Master #OPENGEAR/D6201B - #Master/D6201B Photo.jpg (board photo)',
   '#OPEN GEAR - #Engineering/…/OGP_SDK - #Engineering (OGP message types), OpenGear Frame Address ID.xls (via README)',
 ];
-SIM.register({
+/* footnotes (artwork pass 2026|59): one small detail per entry, with the archive file that shows it */
+const FOOTNOTES=[
+{
+"text": "No D6201A drawing of the T6201 rear module exists; the only full T6201 panel is the D6201B one, so the simulator shows D6201B legends on it.",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+},
+{
+"text": "On the T6201 artwork position 2 reads “IN2”, but on a D6201A that BNC is unconnected (the card has one input).",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+},
+{
+"text": "The 2006 T6201 label sheet is titled “DUAL 75Ω AES DA” with IN1/IN2, i.e. drawn for the dual-channel card.",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6201.cdr"
+},
+{
+"text": "The 2006 T6301 label sheet is also labelled for the dual card (IN1/IN2, OUT1-x/OUT2-x), two years before the D6201B shipped.",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6301.cdr"
+},
+{
+"text": "The 2006 label sheets draw only BNC 1 and 2; positions 3–10 are just numbers.",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6401.cdr"
+},
+{
+"text": "CARD 1 sits on the left of the T6401A in the 2008 drawing.",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+},
+{
+"text": "The 2012 guide marks “2 CARD 1”, so CARD 1 moved to the right (even positions); the simulator follows 2012.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201A - rear module options.cdr"
+},
+{
+"text": "The guide's T6301A legend reads “Not Connected” at position 2.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201A - rear module options.cdr"
+},
+{
+"text": "CorelDRAW text came out of libcdr with a leading space in every text run, which split “T6301A” into “T630 1A”; the assets were cleaned.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201A - rear module options.cdr"
+}
+];
+SIM.register({ footnotes:FOOTNOTES,
   id:'d6201a', product:'D6201A', name:'D6201A · 1×8 75 Ω AES distribution amplifier, openGear (2008|41)', year:2008,
   folder:'#OPENGEAR #SERIES/D6201A - #Master #OBSOLETE #OPENGEAR', family:'openGear',
   summary:'openGear card that equalises and reclocks one 75 Ω AES3 input and drives eight outputs (Ross ADA-8401-A / Cobalt 9251). This folder holds only ISS5 production files; the model runs the V104 firmware and FPGA from the sibling D6201 engineering folder.',

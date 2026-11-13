@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD15A](../siumulation.html?plugin=pod15a) · [simulator & front panel](../simulator.html?m=POD15A) · [KiCad symbol generator](../kicad.html?m=POD15A) · [download package (zip)](../_packages/POD15A.zip) |
+| Try it | [full simulation: POD15A](../siumulation.html?plugin=pod15a) · [KiCad symbol generator](../kicad.html?m=POD15A) · [download package (zip)](../_packages/POD15A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD15A MANUAL(1).docx |
 | Confidence | medium |
@@ -72,53 +72,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD15A - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD15A - MANUAL.docx](../Products/PODS/POD15A/2014%20-%20POD15A%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD15A",
- "name": "Analog Video Distribution Amplifier",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD15A/2014 - POD15A - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD15A/2014 - POD15A - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD15A/2014 - POD15A - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD15A/2014 - POD15A - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD15A/2014 - POD15A - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The rear BNC holes (INPUT, loop, OUT 1–6) are D-cuts with one flat side, not round holes. — `#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr`
+2. The front VIDEO MONITOR jack hole is D-shaped too. — `#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr`
+3. The front ERROR LED has a cut hole, but its legend has no drill crosshair, unlike SYNCH, 0-300m and LEVEL. — `#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr`
+4. A short vertical white bar joins the two INPUT BNCs on the rear, marking them as a loop-through pair (inferred from the netlist loop termination). — `#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr`
+5. The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint. — `#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr`

@@ -1238,6 +1238,28 @@ const ASSET = 'siumulation-plugins/assets/';
    white silk. view/plate in inches; pos = connector centres from the drawing, inches from the plate's top-left corner;
    iso = BNCs the drawing shades grey (isolated-shell positions). */
 const CDR_ART = {"iss4":{"file":"t6301-rear.svg","src":"#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr","label":"T6301.cdr","date":"15 Nov 2006","view":[2.437,3.784],"plate":[0.563,0.324,1.31,3.293],"pos":{"1":[0.225,0.493],"2":[0.85,0.493],"3":[0.225,1.118],"4":[0.85,1.118],"5":[0.225,1.743],"6":[0.85,1.743],"7":[0.225,2.368],"8":[0.85,2.368],"9":[0.225,2.993],"10":[0.85,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"BNC3","4":"BNC4","5":"BNC5","6":"BNC6","7":"BNC7","8":"BNC8","9":"BNC9","10":"BNC10"},"iso":[1,2]},"iss3":{"file":"t6301-rear.svg","src":"#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr","label":"T6301.cdr","date":"15 Nov 2006","view":[2.437,3.784],"plate":[0.563,0.324,1.31,3.293],"pos":{"1":[0.225,0.493],"2":[0.85,0.493],"3":[0.225,1.118],"4":[0.85,1.118],"5":[0.225,1.743],"6":[0.85,1.743],"7":[0.225,2.368],"8":[0.85,2.368],"9":[0.225,2.993],"10":[0.85,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"BNC3","4":"BNC4","5":"BNC5","6":"BNC6","7":"BNC7","8":"BNC8","9":"BNC9","10":"BNC10"},"iso":[1,2]},"iss2":{"file":"t6301-rear.svg","src":"#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr","label":"T6301.cdr","date":"15 Nov 2006","view":[2.437,3.784],"plate":[0.563,0.324,1.31,3.293],"pos":{"1":[0.225,0.493],"2":[0.85,0.493],"3":[0.225,1.118],"4":[0.85,1.118],"5":[0.225,1.743],"6":[0.85,1.743],"7":[0.225,2.368],"8":[0.85,2.368],"9":[0.225,2.993],"10":[0.85,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"BNC3","4":"BNC4","5":"BNC5","6":"BNC6","7":"BNC7","8":"BNC8","9":"BNC9","10":"BNC10"},"iso":[1,2]},"iss1":{"file":"t6301-rear.svg","src":"#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr","label":"T6301.cdr","date":"15 Nov 2006","view":[2.437,3.784],"plate":[0.563,0.324,1.31,3.293],"pos":{"1":[0.225,0.493],"2":[0.85,0.493],"3":[0.225,1.118],"4":[0.85,1.118],"5":[0.225,1.743],"6":[0.85,1.743],"7":[0.225,2.368],"8":[0.85,2.368],"9":[0.225,2.993],"10":[0.85,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"BNC3","4":"BNC4","5":"BNC5","6":"BNC6","7":"BNC7","8":"BNC8","9":"BNC9","10":"BNC10"},"iso":[1,2]}};
+const FOOTNOTES = [
+{
+"text": "T6301.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+"src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr"
+},
+{
+"text": "T6301.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+"src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr"
+},
+{
+"text": "The sheet shades only BNC1 and BNC2 as isolated shells, but every netlist from T6301.net to T6301-iss4.net also puts BNC9 and BNC10 on BNC9_GND/BNC10_GND.",
+"src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301 - #PCB/T6301-iss4.net"
+},
+{
+"text": "One sheet (15 Nov 2006) serves all four issues; its 1.310″ × 3.293″ outline and 0.625″ grid match the ISS4 Gerbers within 0.02″.",
+"src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr"
+},
+{
+"text": "T6301.cdr is stored twice, in #ENGINEERING and T6301 - #ARCHIVE.",
+"src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301 - #ARCHIVE/T6301.cdr"
+}
+];
 function cdrArt(){ return S.view==='cdr' ? (CDR_ART[S.issue]||null) : null; }
 function cdrXY(p, art){ return art && art.pos[p.n] ? art.pos[p.n] : [p.x, p.y]; }
 function cdrCaption(art){ return 'CorelDRAW art: '+SIM.src(art.src, art.label)+' ('+art.date+')'; }
@@ -1811,6 +1833,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:FOOTNOTES,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

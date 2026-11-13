@@ -13,7 +13,7 @@
    - …/D8204A - #PCB/d8204A-ISS3.net, d8204A-iss3.bom, d8204A-iss3V1.bom, d8204A-iss3.pnp
        (shipping board: PIC16C54 U10, CS8427 U3, CS4390 U7, EL5263 U1/U2, NE5532 ×6, H1, SW1, RV1/RV2)
    - D8204A-ISS3-ASSY - #Assembly.pdf  → assets/d8204a-assy-white.png (component-side drawing)
-   - ../8200 Series Rear Module options…/D8204A - rear module options.pdf → assets/d8204a-rear-bnc2/bnc4-black.png
+   - ../8200 Series Rear Module options…/D8204A - rear module options.cdr (2012) → assets/d8204a-rear-bnc2/bnc4.svg (Artwork 2026|59, vectors via its Corel PDF export)
    - ../D8204 - #Master #MF82/D8204 - #Engineering/D8204AMN Issue3.doc (2006 manual, ISS3 board)
    - ../D8204 - #Master #MF82/D8204 - #Engineering/D8204AMN_UPDATE.wpd (June 14 2005 manual, DIP switch tables)
    - ../D8204 - #Master #MF82/D8204 - #Engineering/D8204AT2.CDR (rear-module text: CONFIDENCE / NO-LOCK)
@@ -338,11 +338,13 @@ function edgeSVG(t){
     <rect x="30" y="345" width="60" height="52" rx="5" fill="#2d3033"/><text x="60" y="376" fill="#ddd" font-size="11" text-anchor="middle" font-weight="700">D8204A</text>
   </svg>`;
 }
-/* Rear module: the BNC2 / BNC4 art from "D8204A - rear module options.pdf" (2012|45), cut at 220 dpi. Panel colour inferred. */
+/* Rear module: Artwork 2026|59 = the CorelDRAW vectors of "D8204A - rear module options.cdr" (2012-01-16), through Corel's own
+   PDF export of it (libcdr mangles the terminal-block symbol font); cell = 220 px per inch; plate black, silk white (MF8212 rear photo). */
+const RMG_DIR='#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/';
 const REAR = {
-  BNC2: { img:'d8204a-rear-bnc2-black.png', w:568, in:[196,95], outs:[[266,168],[196,242],[266,315],[196,389]],
+  BNC2: { img:'d8204a-rear-bnc2.svg', w:568, in:[196,95], outs:[[266,168],[196,242],[266,315],[196,389]],
           term:{L:[168,[455,478,501,525,548,572]], R:[255,[420,443,465,490,512,535]]} },
-  BNC4: { img:'d8204a-rear-bnc4-black.png', w:572, in:[195,90], loop:[296,90], outs:[[195,203],[296,203],[195,316],[296,316]],
+  BNC4: { img:'d8204a-rear-bnc4.svg', w:572, in:[195,90], loop:[296,90], outs:[[195,203],[296,203],[195,316],[296,316]],
           term:{L:[180,[403,425,447,517,540,562]], R:[262,[403,425,447,517,540,562]]} },
 };
 function rearSVG(t){
@@ -359,6 +361,7 @@ function rearSVG(t){
     let v = !live? 'silent' : c.mute? 'muted' : fmtDb(c.dBu,'dBu')+(c.clip?' CLIPS':'');
     if (k==='B2' && D.h1==='alarm') v = 'B2+ = NO-LOCK tally: '+(Lf.alarm?'pulled low':'open');
     return `<tr><td>${nm}</td><td class="mono" style="${c.clip?'color:var(--bad)':''}">${v}</td></tr>`; }).join('');
+  s += `<div class="small muted" style="max-width:440px;margin:2px auto 0">CorelDRAW art: ${SIM.src(RMG_DIR+'D8204A - rear module options.cdr','D8204A - rear module options.cdr')} (2012|45), via its Corel PDF ${SIM.src(RMG_DIR+'D8204A - rear module options.pdf','export')}.</div>`;
   return s + `<table class="kv" style="max-width:440px;margin:6px auto 0"><tr><th>Screw terminals</th><th>at the playhead</th></tr>${rows}</table>`;
 }
 function bindPanel(root){
@@ -861,6 +864,7 @@ function viewNotes(m){
     ['Rear-module labels promise two alarms', `The BNC2/BNC4 art (<span class="mono">D8204A - rear module options.pdf</span>, <span class="mono">D8204AT2.CDR</span>) labels “ANALOG R. OUT2+/CONFIDENCE” and “ANALOG R. OUT2−/NO-LOCK … by setting the jumpers”. ISS1 and ISS3 have one 3-pin jumper, H1, on pin M (R OUT2+) only, and it carries the NO-LOCK tally (ISS1 net name <span class="mono">NO_LOCK</span>). R OUT2− (pin 11) is always analog. The labels look inherited from the 1998|31 D8204A, whose drawings sit in the D8204 folder.`],
     ['Same PCB could be an 8-output DA', `U4 (a third EL5263) and resistors R18, R20, R21, R27 (750R) and R22, R24, R28, R29 (75R) are on the ISS3 board but marked “do not install”. They would drive TXN into pins K, J, L and H1-1 — the analog output pins — giving eight AES outputs (${inf}: no such build is documented).`],
     ['BOM vs netlist', `RV1/RV2 are “20K” in d8204A-iss3.bom and on the assembly drawing, but “10K” in d8204A-ISS3.net. With 10K the CHA/CHB range would be −1.8 … +2.7 dB instead of −1.8 … +12.6 dB, centred differently. The netlist (July 2005) predates the BOM (Jan 2006); the BOM value is used here.`],
+    ['Artwork 2026|59: rear modules now from the CorelDRAW guide', `BNC2 and BNC4 are the vectors of ${SIM.src(RMG_DIR+'D8204A - rear module options.cdr','D8204A - rear module options.cdr')} (CorelDRAW X3, 2012-01-16), black plate with white legends, through Corel's own ${SIM.src(RMG_DIR+'D8204A - rear module options.pdf','PDF export')} (libcdr draws the screw-terminal symbol font as giant letters). The older terminal pages for this card sit in the D8204 folder: ${SIM.src(E+'D8204AT2.CDR','D8204AT2.CDR')} (same BNC + screw layout and CONFIDENCE / NO-LOCK text, file re-saved 2016-07-06), ${SIM.src(E+'D8204AT1.CDR','D8204AT1.CDR')} and ${SIM.src(E+'D8204AT3.CDR','D8204AT3.CDR')} (1998 solder / screw-terminal pages). There is no D8204A artwork in the D8204A folder itself.`],
     ['File dates', `ISS3 netlist 2005-07-08, BOM 2006-01-13, schematic 2006-06-26, .pcb re-saved 2013-01-17 with a clean Online DRC log, Gerbers regenerated 2013, PnP program 2016. ISS4 in WORKING/ (2006) was never released.`],
   ];
   m.innerHTML = card('Findings — what the D8204A and its firmware are up to', `<ol>${F.map(f=>`<li style="margin-bottom:8px"><b>${f[0]}.</b> ${f[1]}</li>`).join('')}</ol>`) +
@@ -874,6 +878,13 @@ SIM.register({
   folder:'#MF8200 #SERIES/D8204A - #Master #MF82',
   summary:'MF82 frame card: one 75 Ω AES/EBU input, cable EQ, a CS8427 receiver that re-times it to four 75 Ω outputs, and a DAC feeding two balanced analog stereo pairs. The archived PIC firmware (v100, 2005|38) is for the ISS1 board with a DIP switch for reference level and routing; the shipping ISS3 board used a PIC16C54 whose code is lost.',
   highlights:['Board from the real ISS3 assembly drawing; ISS1 drawn from its pick-and-place file','DIP switch → computed-GOTO tables → CS4392 registers, bit by bit','Main loop timed from the code: 6303 cycles = 5.13 ms','Glitch → latched UNLOCK → TXOFF one pass later','Cable length and EQ modelled from the part values','Firmware drives a second receiver that is not on the board'],
+  footnotes:[
+    {text:'Rear-module art: BNC2 and BNC4 are vectors of the 2012 CorelDRAW guide, taken through its Corel PDF export because libcdr renders the terminal-block symbol font as giant text.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204A - rear module options.cdr'},
+    {text:'The guide labels the right-hand pair “ANALOG R. OUT2+/CONFIDENCE” and “ANALOG R. OUT2-/NO-LOCK”, but the ISS3 board has only the NO-LOCK tally.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204A - rear module options.cdr'},
+    {text:'The D8204A has no artwork folder of its own: its terminal pages D8204AT1/AT2/AT3.CDR and manual D8204AMN.CDR live in the D8204 folder (and again in D8204 - #ARCHIVE).', src:'#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/D8204AT2.CDR'},
+    {text:'D8204AT2.CDR carries a 2016-07-06 file date although it holds the same BNC + screw-terminal layout as the 1998 pages; Inkscape/libcdr drops its label text, which only the CDR text dump shows.', src:'#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/D8204AT2.CDR'},
+    {text:'Both BNC2 and BNC4 cells are captioned “D8204A-1x4 AES/EBU Distribution Amplifier & Digital to Analog Converter”; BNC4 is marked *MF8210 only.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204A - rear module options.cdr'},
+  ],
   depth:'Full model',
   stepUnits:[
     {label:'1 PIC pass (5.13 ms)', period:()=>PASS},

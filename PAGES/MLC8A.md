@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: MLC8 / MLC6 level control](../siumulation.html?plugin=mlc8) · [full simulation: RD66-MLC8UsingAMS8E-1-iss5](../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5) · [simulator & front panel](../simulator.html?m=MLC8A) · [KiCad symbol generator](../kicad.html?m=MLC8A) · [download package (zip)](../_packages/MLC8A.zip) |
+| Try it | [full simulation: MLC8 / MLC6 level control](../siumulation.html?plugin=mlc8) · [full simulation: RD66-MLC8UsingAMS8E-1-iss5](../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5) · [KiCad symbol generator](../kicad.html?m=MLC8A) · [download package (zip)](../_packages/MLC8A.zip) |
 | Earliest dated evidence | [2018\|51](Year-2018.md) — month & year |
 | Evidence | "August 13, 2018" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/MLC8A MANUAL(1).docx |
 | Confidence | medium |
@@ -230,53 +230,17 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2018 - MLC8A - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2018 - MLC8A - MANUAL.docx](../Products/METERING/MLC8A/2018%20-%20MLC8A%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "MLC8A",
- "name": "Multi-Channel Level Control",
- "category": "METERING",
- "year": 2018,
- "documents": [
-  {
-   "file": "Products/METERING/MLC8A/2018 - MLC8A - Front.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MLC8A/2018 - MLC8A - Information Sheet.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/METERING/MLC8A/2018 - MLC8A - MANUAL (2).docx",
-   "year": 2018,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/MLC8A/2018 - MLC8A - MANUAL.docx",
-   "year": 2018,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/MLC8D/2018 - MLC8D - Rear.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. **MLC8 / MLC6 level control:** Artwork 2026|59: the front panel and meter lens are drawn from MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr (Jan 18 2016) and AMS8-M6-SILK(MLC8-M3) (CURVE).cdr. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr`
+2. **MLC8 / MLC6 level control:** The MLC-8A front sheet prints “MLC-8B MULTICHANNEL LEVEL CONTROL” on its GREEN plate. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr`
+3. **MLC8 / MLC6 level control:** The meter-lens sheet is shared with the AMS8-1: a byte-identical copy sits in the AMS81 artwork folder. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`
+4. **MLC8 / MLC6 level control:** The lens prints the bottom meter mark as 34; the meter table ams81_vu_data.dat labels it −36. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`
+5. **MLC8 / MLC6 level control:** The 8A front draws its panel outline as an ink-coloured hairline instead of on the mechanical layer. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr`
+6. **MLC8 / MLC6 level control:** No 8A rear CorelDRAW exists: mlc8-rear-silk-CURVE.cdr (Sep 2006) is an SDI IN / SDI OUT / AES1 / AES2 variant with no 75 Ω BNC legends, so the rear stays on the manual drawing. — `#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-rear-silk-CURVE.cdr`
+7. **MLC8 / MLC6 level control:** The MLC8 SILK folder keeps seven 2006|39 front iterations (ver1, ver2, ver4, ver5 — no ver3 — and latest-ver1–3), and the same set of .cdr files appears again under MLC8 #Engineering #TIM/SILK. — `#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-SILK-latest-ver3.cdr`
+8. **RD66-MLC8UsingAMS8E-1-iss5:** The front, rear and lens sheets are from May 2015, two years after RD66, and already carry the RD73 SDI 1 / SDI 2 button column. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr`
+9. **RD66-MLC8UsingAMS8E-1-iss5:** The MLC8B rear plate's model line reads “MLC-8”, not MLC-8B. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr`
+10. **RD66-MLC8UsingAMS8E-1-iss5:** The M19 rear is stored twice as different files: the MLC copy is all curves; the AMS81 copy (Apr 2016) has three live-text objects but the same layout. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M19-REAR-SILK (CURVE) (MLC-8B).cdr`
+11. **RD66-MLC8UsingAMS8E-1-iss5:** The rear also has an AUX 2 DB25, an option-card slot and two round holes with a small rectangle at the top right, none used by this bench. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr`
+12. **RD66-MLC8UsingAMS8E-1-iss5:** The lens is the shared AMS8/MLC8 M6 part; the MLC8B uses only its left 3″ (CH1–CH8 scales, DD and ERR). — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`

@@ -435,6 +435,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__ams8eActive=false;
   m.innerHTML=card('What the AMS8E masters are up to: findings', `<ol>
+    <li><b>Artwork 2026|59: no panel artwork for the AMS8E boards.</b> The board set has no panel of its own; the only CorelDRAW files named AMS8E are manual covers, ${SIM.src('AMS8 #Engineering #TIM/AMS8E Manual Cover.cdr','AMS8E Manual Cover.cdr')} (2006-05-26) and its Prelim and Backup_of_ copies, which show the AMS8-1 front and rear (the AMS8-1 plugin models those panels). The boards here stay drawn from their Gerbers.</li>
    <li><b>The “ISS5 #PROBLEM” programs are the ISS5 programs.</b> Comparing <span class="mono">AMS8E-1 - #PNP #2016/ISS5</span> with <span class="mono">ISS5 #PROBLEM</span>, only the generated sidecars differ; the .prg/.mdb files match. The problem is probably inside them: in the 32ME-MADI bottom program, <span class="mono">R19</span> has the value <span class="mono">-1101/4W-1%/SM</span> and <span class="mono">R20</span> was entered as the designator <span class="mono">R20-110-1/4W-1%/SM</span> with no value. That leaves 313 placements against 314 in the standard build.</li>
    <li><b>The 32ME-MADI build of AMS8E-1.</b> The program diff is exactly R17–R20 and R50–R53, 75 Ω → 110 Ω (input terminations for balanced AES on DB25), and the 22.5792 MHz oscillator X4 removed (no 44.1 kHz family).</li>
    <li><b>AMS8E-1 programs filed under AMS8E-4.</b> <span class="mono">AMS8E-4 - #PNP #2016/AMS8E-1/ISS2…ISS5</span> holds copies of the main-board programs (110/228, 70/264, 79/285, 80/314 parts), not meter-board ones.</li>
@@ -465,6 +466,11 @@ SIM.register({
   zooms:[[1,'1 s (whole second)'],[0.25,'250 ms'],[0.05,'50 ms'],[0.0125,'12.5 ms (one AMS8-1 frame)'],[0.004,'4 ms (one 32ME frame)'],[0.0003,'300 µs'],[0.00003,'30 µs (one shift)']],
   defaultZoom:2,
   init(){ MK=''; },
+  footnotes:[
+    {text:"The only CorelDRAW files named AMS8E are manual covers; they show the AMS8-1 chassis front and rear, not the E boards.", src:"AMS8 #Engineering #TIM/AMS8E Manual Cover.cdr"},
+    {text:"The AMS8E manual cover exists as Prelim (2005-09-08), final (2006-05-26) and two Backup_of_ copies in the same folder.", src:"AMS8 #Engineering #TIM/Backup_of_AMS8E Manual Cover.cdr"},
+    {text:"The AMS8E-1B and AMS8E-1AAM manual covers are stored in both AMS8 #Engineering #TIM and AMS81 - #Master/AMS8 - #Engineering.", src:"AMS81 - #Master/AMS8 - #Engineering/AMS8-1B/AMS8E-1B Manual Cover.cdr"},
+  ],
   tabs:[
     {id:'sim',label:'Simulator (test bench)',render:viewSim},
     {id:'tutorial',label:'Tutorial: build and test',render:viewTut},

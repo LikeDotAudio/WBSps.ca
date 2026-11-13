@@ -45,6 +45,8 @@ nav.tabs{display:flex;flex-wrap:wrap;gap:4px;padding:8px 16px 0;border-bottom:1p
 nav.tabs button{border-radius:8px 8px 0 0;border-bottom:none;background:transparent}
 nav.tabs button.on{background:var(--panel);color:var(--ink);border-color:var(--line);font-weight:600;box-shadow:inset 0 3px 0 var(--accent)}
 main{padding:14px 16px 40px;max-width:1500px;margin:0 auto}
+#foot{padding:0 16px 40px;max-width:1500px;margin:-30px auto 0}
+#foot:empty{display:none}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:14px}
 .card h2{font-size:15px;margin:0 0 8px}
 .card h3{font-size:13.5px;margin:12px 0 6px}
@@ -70,6 +72,7 @@ svg text{font-family:var(--sans)}
 .empty{padding:40px;text-align:center;color:var(--ink2)}
 a.src:not([href]){color:inherit;text-decoration:underline dotted;cursor:help}
 a.src.drive::after{content:" ↗";font-size:.8em}
+.footnotes{font-size:.85em;margin-top:18px}.footnotes h3{margin:0 0 6px}.footnotes ol{margin:0;padding-left:1.6em}.footnotes li{margin:2px 0}
 </style>
 </head>
 <body>
@@ -105,6 +108,7 @@ a.src.drive::after{content:" ↗";font-size:.8em}
 
 <nav class="tabs" id="tabs"></nav>
 <main id="main"><div class="empty">Loading plugins…</div></main>
+<aside id="foot"></aside>
 <div class="footer">An archive by Anthony Peter Kuzub · WBSps.Kuzub.com · WBSps.ca — simulator core v1 (2026|59). Add products by dropping a plugin file in <span class="mono">siumulation-plugins/</span> and listing it in <span class="mono">plugins.js</span>.</div>
 
 <script>
@@ -338,7 +342,7 @@ function refreshPicker(){
 function choose(id){
   if (plugins.find(p=>p.id===id)) return activate(id);
   const e=(window.SIM_CATALOG||[]).find(x=>x.id===id); if(!e) return;
-  pendingWant=id; $('#main').innerHTML='<div class="empty">Loading '+(e.name||e.id)+'…</div>';
+  pendingWant=id; $('#foot').innerHTML=''; $('#main').innerHTML='<div class="empty">Loading '+(e.name||e.id)+'…</div>';
   loadScript('siumulation-plugins/'+e.file);
 }
 $('#pluginSel').onchange = e=> choose(e.target.value);
@@ -367,7 +371,17 @@ function openTab(id){
   const m=$('#main'); m.innerHTML='';
   try{ tb.render(m, SIM); }catch(e){ m.innerHTML='<div class="empty">This view failed to load: '+e.message+'</div>'; console.error(e); }
   nameMainCard();
+  footnotes($('#foot'));
   SIM.refresh();
+}
+/* Footnotes: the plugin's `footnotes` list ({text, src?}) — the small details the artwork and files reveal (legend typos,
+   unexplained holes, duplicate files…) — numbered at the foot of every tab. `src` is an archive path, linked Drive-first. */
+function footnotes(m){
+  m.innerHTML = '';   /* its own box under #main, so a plugin that redraws #main cannot wipe it */
+  const f = (active && active.footnotes) || []; if (!f.length) return;
+  const sec = document.createElement('section'); sec.className = 'card footnotes';
+  sec.innerHTML = '<h3>Footnotes</h3><ol>' + f.map(n => '<li>' + (typeof n === 'string' ? n : n.text + (n.src ? ' <span class="muted">— ' + SIM.src(n.src) + '</span>' : '')) + '</li>').join('') + '</ol>';
+  m.appendChild(sec);
 }
 /* The main card on a product's first tab is titled with the product's name, not "The card at the playhead":
    "M8245 · ±22 V switch-mode power supply card — component layout B 8245-06-001 (scan); click R20 …".

@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD17](../siumulation.html?plugin=pod17) · [simulator & front panel](../simulator.html?m=POD17) · [KiCad symbol generator](../kicad.html?m=POD17) · [download package (zip)](../_packages/POD17.zip) |
+| Try it | [full simulation: POD17](../siumulation.html?plugin=pod17) · [KiCad symbol generator](../kicad.html?m=POD17) · [download package (zip)](../_packages/POD17.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD17 MANUAL(1).docx |
 | Confidence | medium |
@@ -97,45 +97,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD17 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD17 - MANUAL (2).docx](../Products/PODS/POD17/2014%20-%20POD17%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD17",
- "name": "Digital Audio Distribution Amplifier",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD17/2014 - POD17 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD17/2014 - POD17 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD17/2014 - POD17 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD17/2014 - POD17 - Rear 75.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The front has LED holes at SRC and CH A, although the legend has no drill crosshair for either. — `#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr`
+2. On the 75 Ω rear, a PEM-stud hole is printed over the “115 VAC, 1/2 A.S.B.” legend. — `#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr`
+3. On the 75 Ω rear, the BNC holes are D-cuts, the cord bushing is a single-D hole and the fuse holder a double-D hole. — `#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr`
+4. The 110 Ω rear plate has an unlabelled round hole at its top right corner, as on POD19. — `#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr`
+5. One sheet holds four plates: front GREEN, front WHITE, rear 75 and rear 110 (dated Jun.25/14). The separate FRONT-SILK and REAR-SILK CDRs repeat the same art. — `#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr`
+6. The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint. — `#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr`

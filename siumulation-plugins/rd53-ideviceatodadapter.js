@@ -13,6 +13,7 @@
        via DIP switch or toggle
    - #POD #SERIES/POD14A README (dual A-to-D, AES out, 32–192 kHz, −20 dBFS = +4 dBu calibration)
    Asset: assets/rd53-concept-sketch.png — the concept PDF rendered to greyscale (Ward-Beck's own sketch).
+   Asset: assets/rd53-ideviceatodadapter-concept.svg — Portable A-to-D.cdr converted with Inkscape (2026|59 artwork pass).
    Battery, charger, ADC and AES-transmitter values not in those files are marked "inferred" on screen.
    ===================================================================== */
 (function(){
@@ -193,19 +194,31 @@ const A = {
 };
 
 /* ---------------- views ---------------- */
+const CDR_SRC = 'ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr';
+/* Device drawn on the CorelDRAW concept geometry (assets/rd53-ideviceatodadapter-concept.svg, CDR user units).
+   Body 348–672 × 232–321; TRS jack 348–414 × 243–258; LED half-dome centre (348.5, 268.85) r 6.5;
+   micro USB 349–382 × 281–316 (5 pins); output connector 672–715 × 254–299; A-to-D 445–614 × 238–274; battery 445–614 × 278–314. */
 function deviceSVG(){
   const led=ledState(), on = !led.blink || Math.floor(SIM.t*4)%2===0, c=chain();
-  let s=`<svg viewBox="0 0 640 300" style="width:100%;display:block;border-radius:8px;background:var(--lane);border:1px solid var(--line)" role="img" aria-label="RD53 adapter, redrawn from the concept sketch">
-    <text x="12" y="20" font-size="12" fill="var(--ink2)">Redrawn from “Portable A-to-D.pdf” (layout as sketched; size not given)</text>
-    <rect x="120" y="70" width="400" height="150" rx="10" fill="var(--dev)" stroke="var(--ink)" stroke-width="2"/>
-    <rect x="300" y="88" width="190" height="44" rx="4" fill="none" stroke="#9aa"/><text x="308" y="106" font-size="11" fill="#cfd3d6">High-quality A-to-D</text><text x="308" y="123" font-size="11" fill="#9fdc9f">${outRate()/1000} kHz out${D.ver===2?' (SRC)':''}</text>
-    <rect x="300" y="146" width="190" height="44" rx="4" fill="none" stroke="#9aa"/><text x="308" y="164" font-size="11" fill="#cfd3d6">Li-ion battery</text><rect x="308" y="172" width="${Math.max(1,D.soc*1.7)}" height="10" fill="${led.col}"/><text x="486" y="182" font-size="10" text-anchor="end" fill="#cfd3d6">${D.soc} %</text>`;
-  s+=`<g data-a="plug" style="cursor:pointer"><rect x="120" y="88" width="70" height="20" fill="#333" stroke="#aaa"/><circle cx="128" cy="98" r="6" fill="#111" stroke="#ccc"/>${D.plug?`<rect x="30" y="93" width="98" height="10" rx="3" fill="#bbb"/><rect x="10" y="88" width="24" height="20" rx="3" fill="#555"/>`:''}<text x="20" y="80" font-size="11" fill="var(--ink)">3.5 mm TRS ${D.plug?'(iPod)':'(open)'}</text></g>
-    <g data-a="usb" style="cursor:pointer"><rect x="120" y="160" width="26" height="30" fill="#777" stroke="#ccc"/>${D.usb?`<rect x="60" y="167" width="62" height="16" rx="3" fill="#444"/><text x="20" y="210" font-size="11" fill="var(--ink)">USB charger</text>`:''}<text x="20" y="150" font-size="11" fill="var(--ink)">Micro USB</text></g>
-    <g style="cursor:default"><circle cx="134" cy="132" r="8" fill="${on?led.col:'#222'}" stroke="#aaa"/><text x="20" y="128" font-size="11" fill="var(--ink)">LED: ${led.txt}</text></g>
-    <g data-a="out" style="cursor:pointer">${D.out==='xlr'?`<rect x="520" y="115" width="60" height="60" rx="6" fill="#999" stroke="#555"/><circle cx="550" cy="145" r="20" fill="#333"/>${[[-8,-6],[8,-6],[0,9]].map(([dx,dy])=>`<circle cx="${550+dx}" cy="${145+dy}" r="3" fill="#cc9"/>`).join('')}`:`<rect x="520" y="130" width="40" height="30" fill="#c9b469" stroke="#7a5f12"/><circle cx="572" cy="145" r="14" fill="#c9b469" stroke="#7a5f12" stroke-width="3"/><circle cx="572" cy="145" r="4" fill="#3a3220"/>`}<text x="520" y="200" font-size="11" fill="var(--ink)">${D.out==='xlr'?'XLR 110 Ω':'BNC 75 Ω'} AES out</text></g>`;
-  if (D.ver===2) s+=`<g data-a="dip" style="cursor:pointer"><rect x="210" y="225" width="70" height="26" fill="#c33" stroke="#333"/>${[0,1].map(i=>`<rect x="${222+i*26}" y="230" width="16" height="16" fill="#eee"/><rect x="${224+i*26}" y="${(D.dip>>(1-i))&1?231:239}" width="12" height="6" fill="#333"/>`).join('')}<text x="210" y="268" font-size="11" fill="var(--ink)">SRC DIP → ${outRate()} Hz</text></g>`;
-  s+=`<text x="300" y="240" font-size="11" fill="${c.clip?'var(--bad)':'var(--ink)'}">${D.plug?`${c.hp.toFixed(1)} dBu in → ${c.dbfs.toFixed(1)} dBFS out${c.clip?' (clipping)':''}`:'no input'}</text></svg>`;
+  const K=1.224, G=`transform="translate(150,62) scale(${K}) translate(-336,-226)"`;
+  let s=`<svg viewBox="0 0 640 300" style="width:100%;display:block;border-radius:8px;background:var(--lane);border:1px solid var(--line)" role="img" aria-label="RD53 adapter on the CorelDRAW concept geometry">
+    <text x="12" y="20" font-size="12" fill="var(--ink2)">Portable A-to-D.cdr geometry (concept sketch; size not given)</text>
+    <g ${G}><image href="${ASSET}rd53-ideviceatodadapter-concept.svg" x="336" y="226" width="392" height="100"/>
+    <text x="451" y="252" font-size="8.5" fill="#1b1918">High-quality A-to-D</text><text x="451" y="266" font-size="8.5" fill="#1d6b2c">${outRate()/1000} kHz out${D.ver===2?' (SRC)':' (fixed)'}</text>
+    <text x="451" y="291" font-size="8.5" fill="#1b1918">Lithium-ion battery</text><rect x="451" y="297" width="${Math.max(1,D.soc*1.2)}" height="9" fill="${led.col}" stroke="#1b1918" stroke-width=".5"/><text x="609" y="305" font-size="8" text-anchor="end" fill="#1b1918">${D.soc} %</text>
+    <g data-a="plug" style="cursor:pointer"><rect x="348.5" y="243.3" width="65.4" height="14.3" fill="transparent"/>${D.plug?`<rect x="300" y="247" width="58" height="7" rx="2" fill="#bbb" stroke="#555" stroke-width=".6"/><rect x="284" y="244" width="18" height="13" rx="2" fill="#555"/><path d="M284,250.5 C270,250 262,262 250,262" stroke="#444" stroke-width="3" fill="none"/>`:''}</g>
+    <path d="M348.48,275.38 A6.54,6.54 0 0,1 348.48,262.31 Z" fill="${on?led.col:'#222'}" stroke="#1b1918" stroke-width="1"/>
+    <g data-a="usb" style="cursor:pointer"><rect x="348.6" y="280.8" width="33.3" height="35.1" fill="transparent"/>${D.usb?`<rect x="318" y="292" width="31" height="13" rx="2" fill="#444"/><path d="M318,298.5 C300,298 290,312 276,312" stroke="#444" stroke-width="3" fill="none"/>`:''}</g>
+    <g data-a="out" style="cursor:pointer"><rect x="672" y="254.2" width="42.8" height="44.9" fill="${D.out==='xlr'?'#a9a9a4':'#c9b469'}" fill-opacity=".55" stroke="none"/><text x="693.4" y="280" font-size="9" text-anchor="middle" font-weight="bold" fill="#1b1918">${D.out==='xlr'?'XLR':'BNC'}</text></g>
+    ${D.ver===2?`<g data-a="dip" style="cursor:pointer"><rect x="626" y="296" width="36" height="17" fill="#c33" stroke="#333" stroke-width=".6"/>${[0,1].map(i=>`<rect x="${631+i*14}" y="299" width="10" height="11" fill="#eee"/><rect x="${632+i*14}" y="${(D.dip>>(1-i))&1?300:305}" width="8" height="4" fill="#333"/>`).join('')}</g>`:''}
+    </g>
+    <text x="12" y="78" font-size="11" fill="var(--ink)">3.5 mm TRS ${D.plug?'(iPod)':'(open)'}</text>
+    <text x="12" y="132" font-size="11" fill="var(--ink)">LED: ${led.txt}</text>
+    <text x="12" y="${D.usb?222:204}" font-size="11" fill="var(--ink)">Micro USB${D.usb?' (charger)':''}</text>
+    <text x="520" y="200" font-size="11" fill="var(--ink)">${D.out==='xlr'?'XLR 110 Ω':'BNC 75 Ω'} AES out</text>
+    ${D.ver===2?`<text x="400" y="216" font-size="11" fill="var(--ink)">SRC DIP → ${outRate()} Hz (position inferred)</text>`:''}`;
+  s+=`<text x="12" y="250" font-size="11" fill="${c.clip?'var(--bad)':'var(--ink)'}">${D.plug?`${c.hp.toFixed(1)} dBu in → ${c.dbfs.toFixed(1)} dBFS out${c.clip?' (clipping)':''}`:'no input'}</text>
+    <text x="12" y="288" font-size="10" fill="var(--ink2)">Click the jack, micro USB, output connector${D.ver===2?' and DIP switch':''}. Body fill colours are inferred; the sketch is line art.</text></svg>`;
   return s;
 }
 function ctlHTML(){ const c=chain();
@@ -235,7 +248,7 @@ function lanes(){ const css=SIM.css, fs=outRate(), led=ledState();
     {label:'Charger switching (NCP1851, inferred 3 MHz)', h:20, draw(c,X,t0,t1,y,h){ if (!D.usb){ laneText(c,X,t0,y,h,'USB not plugged'); return; } SIM.pulses(c,X,t0,t1,y,h,1/3e6,0,0.5/3e6,css('--warn'),'switching cycles'); }},
   ]; }
 function viewSim(m){
-  m.innerHTML = `<div class="grid2"><div>${card('The adapter (click jack, USB, connector, DIP)', `<div id="dev"></div><div id="ctl"></div>`)}${card('Level from the iPod to the AES output', `<div id="lv"></div>`)}</div>
+  m.innerHTML = `<div class="grid2"><div>${card('The adapter (click jack, USB, connector, DIP)', `<div id="dev"></div><div class="small muted" style="margin:3px 0 6px">Artwork: ${SIM.src(CDR_SRC,'Portable A-to-D.cdr')} (17 Oct 2012), CorelDRAW vector geometry; leader lines and captions dropped, labels re-set.</div><div id="ctl"></div>`)}${card('Level from the iPod to the AES output', `<div id="lv"></div>`)}</div>
     <div>${card('The original concept sketch (Oct 2012)', `<img src="${ASSET}rd53-concept-sketch.png" alt="Portable A-to-D concept sketch" style="width:100%;border-radius:6px;border:1px solid var(--line);background:#fff">`)}${card('What the model did', `<div id="trace" class="log"></div>`)}</div></div>
     ${card('One second of output', `<canvas id="tl"></canvas>`)}`;
   const draw=()=>{ const d=m.querySelector('#dev'); d.innerHTML=deviceSVG(); bindAll(d); const c=m.querySelector('#ctl'); if(!c.contains(document.activeElement)){ c.innerHTML=ctlHTML(); bindAll(c); }
@@ -295,15 +308,17 @@ function viewSoft(m){
 }
 function viewFindings(m){
   m.innerHTML = card('What RD53 decided, and what became of it', `<ol>
+    <li><b>Artwork 2026|59: the adapter drawing now comes from ${SIM.src(CDR_SRC,'Portable A-to-D.cdr')} (17 Oct 2012).</b> It is a concept sketch, not a panel: line art with no scale, colours or legends. Its geometry places the TRS jack and LED dome on the left end above the micro USB (5 pins drawn), the A-to-D and battery as two stacked blocks, and one unlabelled output connector with two tabs on the right end. No position is drawn for the V2 SRC DIP switch; the model puts it beside the battery (inferred). In libcdr the block captions overflow their boxes (“High quality A-to-D-Fixed 48Khz out”), so the labels are re-set by the plugin.</li>
     <li><b>Outcome: a one-page concept.</b> The sketch and notes date from 17–18 Oct 2012|45. The register stays at “?”; no schematic, part list or enclosure followed. The closest shipping product is <b>POD14A</b>, a mains-powered dual A-to-D with AES outputs (32–192 kHz, −20 dBFS = +4 dBu).</li>
     <li><b>Level is the real problem.</b> A phone’s headphone output is about 1 V rms at most ${inf}. Through a broadcast-calibrated A-to-D (+24 dBu = 0 dBFS) a −18 dBFS app tone arrives near −40 dBFS. The adapter needs consumer-level scaling or input gain. The sketch does not mention either.</li>
     <li><b>“Fixed 48 kHz” vs the V2 SRC.</b> V1 is fixed at 48 kHz. V2 adds a user-selectable sample-rate converter, with the control still an open question (“DIP switch or toggle?”).</li>
     <li><b>LED thresholds are partly open.</b> Green good, yellow 10 % (with a question mark), red 5 %, red flashing 1 %.</li>
     <li><b>Connector not chosen.</b> The register asks for “digital bnc/xlr”; the sketch draws a single unlabelled connector. The model lets you switch between the two.</li>
+    <li><b>Firmware was in mind.</b> The sketch labels the micro USB “Power-Charge-Firmware?”. The sketch is stored twice, as the .cdr original and its .pdf export.</li>
     <li><b>Wireless was considered.</b> Notes.txt offers Bluetooth or Wi-Fi as alternatives to the TRS lead.</li>
     <li><b>Same week, same people.</b> RD53, RD54 (switcher) and RD56 (Raspberry Pi) all date from 17–19 Oct 2012, which looks like a single product-ideas session.</li>
   </ol>`) + card('Assumptions', `<ul class="small"><li>Battery size, current draw, charge current, cell curve and charger switching frequency ${inf}.</li><li>Headphone output level and the device volume law ${inf}.</li><li>AES3 channel-status layout is from the standard, not the archive ${inf}.</li></ul>`)
-  + card('Sources', `<ul class="small mono"><li>RD53-iDeviceAtoDAdapter/Notes.txt · Portable A-to-D.pdf / .cdr</li><li>#POD #SERIES/POD14A - #Master/README.md · R&amp;D_List.xls (RD53)</li><li>assets/rd53-concept-sketch.png (rendered from Portable A-to-D.pdf)</li></ul>`);
+  + card('Sources', `<ul class="small mono"><li>RD53-iDeviceAtoDAdapter/Notes.txt · Portable A-to-D.pdf / .cdr</li><li>#POD #SERIES/POD14A - #Master/README.md · R&amp;D_List.xls (RD53)</li><li>assets/rd53-concept-sketch.png (rendered from Portable A-to-D.pdf)</li><li>assets/rd53-ideviceatodadapter-concept.svg (geometry from ${SIM.src(CDR_SRC,'Portable A-to-D.cdr')})</li></ul>`);
 }
 
 SIM.register({
@@ -312,6 +327,15 @@ SIM.register({
   summary:'Kevin’s October 2012 sketch of a pocket adapter that turns an iPod’s headphone output into AES3, modelled from the sketch. Plug, charge and run down the battery, watch the LED states, and follow a tone from the app to dBFS on the AES output.',
   highlights:['Adapter redrawn from the concept sketch, clickable','LED thresholds 10 / 5 / 1 % from the sketch','Level path from iPod to AES dBFS','AES3 subframe at the playhead','V1 fixed 48 kHz vs V2 SRC'],
   depth:'Hardware model',
+  footnotes:[
+    { text:'Portable A-to-D.cdr is a line-art concept sketch, not a panel: no scale, colours or legends are given, so the drawing’s size and body colours are not from the archive.', src:'ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr' },
+    { text:'The block captions overflow their boxes in the CDR (“High quality A-to-D-Fixed 48Khz out”, “Lithium ION Battery-Universal”); the PDF export shows them wrapped onto two lines.', src:'ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr' },
+    { text:'The sketch draws one unlabelled output connector with two tabs on the right end, while the R&amp;D register asks for “digital bnc/xlr”.', src:'ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr' },
+    { text:'V2’s user-selectable SRC has no drawn position: the note asks “SRC control VIA? DIP Switch or Toggle?”.', src:'ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr' },
+    { text:'The LED yellow threshold carries a question mark (“Yellow 10%?”); red is 5 % and red flashing 1 %.', src:'ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr' },
+    { text:'Micro USB is labelled “Power-Charge-Firmware?”, the only hint that the adapter would carry updatable firmware.', src:'ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr' },
+    { text:'The same sketch is stored twice, as the CorelDRAW original and as a PDF export of it.', src:'ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.pdf' },
+  ],
   stepUnits:[{label:'1 AES frame',period:()=>1/outRate()},{label:'1 channel-status block',period:()=>192/outRate()},{label:'0.25 s',period:()=>0.25}],
   zooms:[[1,'1 s'],[0.1,'100 ms'],[0.005,'5 ms'],[0.0002,'200 µs']],
   defaultZoom:2,

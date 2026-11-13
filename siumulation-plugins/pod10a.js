@@ -1181,6 +1181,10 @@ function viewNotes(m){
 /* ---------------- register plugin ---------------- */
 loadScenario('idle');
 SIM.register({
+  footnotes:[{text:"The rear power legend stops at “100-230 VAC, 50-60 Hz,” with a trailing comma and no fuse rating.", src:"#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr"},
+    {text:"The file name is missing its opening bracket: “POD10A-FRONT&amp;REAR-SILK CURVE).cdr”.", src:"#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr"},
+    {text:"The front 1-8 / A-B slide switch has its own rectangular cut-out beside the power LED.", src:"#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr"},
+    {text:"An older front-only sheet, POD10A-FRONT (FINAL CURVE).cdr, dates from 2014|47.", src:"#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT (FINAL CURVE).cdr"}],
   id:'pod10a', name:'POD10A · 8-input AES switcher, 8×1 or dual 4×1 ('+Y(2013)+')', duration:1,
   product:'POD10A', year:2013, family:'POD series',
   folder:'#POD #SERIES/POD10A - #Master',

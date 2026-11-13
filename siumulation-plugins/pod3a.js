@@ -766,6 +766,11 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes:[{text:"The panel artwork POD3A-FRONT&amp;REAR-SILK (CURVE).cdr is stored twice, byte for byte: in #ARTWORK #DA #2016 and in #Engineering/SILK.", src:"#POD #SERIES/POD3A - #Master/POD3A - #Engineering/SILK/POD3A-FRONT&REAR-SILK (CURVE).cdr"},
+  {text:"The front plates draw no outline for the LED window or the phase column; only the scale numbers place them, so the simulator takes the LED rows from the photo.", src:"#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3A-FRONT&REAR-SILK (CURVE).cdr"},
+  {text:"POD3-SILK-NEW.cdr (21 Sep 2006) is an older live-text version of the same POD-3A legend, eight years before the curve sheet.", src:"#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3-SILK-NEW.cdr"},
+  {text:"The rear \"+ - G\" terminal legend is printed once, rotated beside the R input; the L input has none of its own.", src:"#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3A-FRONT&REAR-SILK (CURVE).cdr"},
+  {text:"The sheet prints the DIP legend OFF above ON, while the switch body in the photo has its ON at the top.", src:"#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/Pics/POD3A Rear.jpg"}],
   id:'pod3a', name:'POD3A · Analog stereo loudness meter ('+Y(2004)+')', duration:1,
   product:'POD3A', year:2004, family:'POD series',
   folder:'#POD #SERIES/POD3A - #Master',

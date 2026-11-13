@@ -16,7 +16,7 @@ tags: ["product", "micro-series", "2010s"]
 |---|---|
 | Type | product |
 | Series | [MICRO SERIES](Series-MICRO-SERIES.md) |
-| Try it | [full simulation: microMATCH](../siumulation.html?plugin=micromatch) · [simulator & front panel](../simulator.html?m=microMATCH) · [KiCad symbol generator](../kicad.html?m=microMATCH) · [download package (zip)](../_packages/microMATCH.zip) |
+| Try it | [full simulation: microMATCH](../siumulation.html?plugin=micromatch) · [KiCad symbol generator](../kicad.html?m=microMATCH) · [download package (zip)](../_packages/microMATCH.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jul. 01 2015" in PUBLIC/Manuals + tech DOCUMENTS/micro Series Manuals/microMATCH Manual(1).docx |
 | Confidence | medium |
@@ -71,47 +71,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2015 - microMATCH - Manual.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - microMATCH - Manual.docx](../Products/MICRO%20SERIES/microMATCH/2015%20-%20microMATCH%20-%20Manual.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "microMATCH",
- "name": "Stand Alone Unbalanced To Balanced Converter",
- "category": "MICRO SERIES",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/MICRO SERIES/microMATCH/2015 - microMATCH - Information Sheet.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microMATCH/2015 - microMATCH - Manual (2).docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microMATCH/2015 - microMATCH - Manual.docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microMATCH/2015 - microMATCH - Three Quarter.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The outputs are labelled R before L, left to right. — `microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr`
+2. The IN terminals read L G R (ground in the middle), but the TRS legend beside them reads L R G. — `microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr`
+3. The silk is dated MAR.16/15, a year before the ISS.1 cover drawings (March–April 2016). — `microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr`
+4. The bottom-cover note reads “ALL BENS ARE 90 DEG.” (for BENDS). — `microMATCH - #MASTER`
+5. The two ISS.1 DWGs in the folder root duplicate those in MICRO MATCH - #MECHANICAL/. — `microMATCH - #MASTER`
+6. The silk was kept as a live-text MICROMATCH.cdr and a curve copy MICROMATCH(FINAL CURVE).cdr. — `microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH.cdr`

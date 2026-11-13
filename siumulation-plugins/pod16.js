@@ -1091,6 +1091,8 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes:[{text:"The rear silk keeps the DE-9 cut-out for the RS422 option although U1/U2 (75176) are “not installed”.",src:"#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr"},{text:"The silk puts CUT at the counter-clockwise end of FADE TIME and 2SEC clockwise; the schematic's CW mark on RV1 suggests the opposite.",src:"#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr"},{text:"The 1999 silk converts only the bars, the three fade symbols and the drill crosshairs; its text is lost.",src:"#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #Engineering/SILK/POD16SLK.CDR"},{text:"The 2014 artwork sheet is dated Jun.25/14, although the POD16 itself dates from 1998|31.",src:"#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr"}],
+  
   id:'pod16', name:'POD16 · stereo audio cross-fader ('+Y(1998)+')', duration:C.DUR,
   product:'POD16', year:1998, family:'Obsolete products',
   folder:'#POD #SERIES/XXX - POD16 - #Master #OBSOLETE',

@@ -494,6 +494,10 @@ function viewNotes(m){ window.__rd64Active=false;
   +card('Sources',`<ul class="small mono"><li>details.txt · mutant POD/mutant pod bom.xlsx · mutant POD/RPT-60-spec-32191.pdf</li><li>PCB/BLACK BOX MASTER BOM.xlsx · PCB/POD1 MASTER BOM with jumpers.xlsx</li><li>POD 1 - POD 18 POD 14- AB  #SA BALtoUNBAL - #Master/SA-BALtoUNBAL - QUOTE/SA-BALtoUNBAL - QUOTE SQ20146.pdf</li><li>../POD1 - #Master ISS3 schematics · ../POD18 - #Master/POD18 - #Engineering/PCB/OBSOLETE/POD18ISS2.net</li><li>Panels: assets/pod1-pod18-redesign-pod1-*.svg and -pod18-*.svg (POD1 and POD18 CorelDRAW silk sheets)</li></ul>`); }
 
 SIM.register({
+  footnotes:[{text:"Both the POD1 and POD18 rear plates still read “115 VAC, 1/2 A.S.B.”; no artwork exists for the redesign's universal-input supply.", src:"#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"The POD1 and POD18 fronts share one layout; only the name line and the trim sub-legends differ (UNBALANCED / BALANCED vs OUTPUT 1 / OUTPUT 2).", src:"#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"The POD18 rear labels its XLRs BALANCED OUTPUTS 2 then 1, and IN 2 / IN 1, right to left.", src:"#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"The 2013|46 POD-18 FRONT SILK (FINAL CURVE).cdr is stored in both the POD18 and the POD1 folders.", src:"#POD #SERIES/POD1 - #Master/POD-1 - ARTWORK/POD-18 FRONT SILK (FINAL CURVE).cdr"}],
   id:'pod1-pod18-redesign', name:'POD1–POD18 redesign (RD64) · one SMT board family for two products (2013|46)', duration:1,
   product:'POD1–POD18 redesign (RD64)', year:2013, family:'POD series', folder:'#POD #SERIES/POD1  - POD18 - Redesign #RD #RD64',
   summary:'R&D project that merged POD1 and POD18 onto one SMT main board with plug-in bal→unbal and unbal→bal sub-boards, and replaced their transformers with universal-input supplies. The model lets you switch build, sub-boards and supply and see levels, headroom and ripple change.',

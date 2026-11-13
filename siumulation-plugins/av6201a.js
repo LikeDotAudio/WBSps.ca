@@ -429,20 +429,58 @@ const RM = {
   T6401:{name:'T6401A', sub:'double card, DFR-8320 (2 slots)', note:'T6401A: each card gets IN + OUT 1–4; card 2 on the left column, card 1 on the right (manual figure 2).'},
   T6201:{name:'T6201A', sub:'single card, DFR-8310 only', note:'T6201A: same IN/N/C + 8 outputs layout for the 10-slot DFR-8310.'},
 };
-function rearSVG(){
-  const ok=syncOk(), live=booting(SIM.t)?'off':ok?true:'err', inConn=D.src.conn;
+/* ---------- panel art (CorelDRAW, converted with Inkscape; positions measured on the converted art) ----------
+   AV6201A: card edge AV6201-card-edge.cdr (2008-05-12); T6301A/T6401A from "AV6201A - rear module options.cdr" (2012-01-16);
+            T6201 from AV6201-REAR-MODULES.cdr (2008-08-07).
+   AV6202A: card edge AV6202A-card-edge.cdr (2008-10-21); T6301A/T6401A from "AV6202A - rear module options.cdr" (2012-01-16);
+            T6201 from AV6202-card-edge.cdr (2008-10-21), which in fact holds the T6201/T6301/T6401 sheet, not a card edge. */
+const ASSET = 'siumulation-plugins/assets/';
+const GUIDE = '#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/';
+const ARTDIR = A1? '#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/' : '#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/';
+const G_T63 = {w:146,h:169, r:5.85, plate:[44,36,52,115], c:[[56.8,58.3],[75.7,58.3],[56.8,77.2],[75.7,77.2],[56.8,96.1],[75.7,96.1],[56.8,115.0],[75.7,115.0],[56.8,133.9],[75.7,133.9]]};
+const G_T64 = {w:146,h:169, r:5.85, plate:[47,36,52,115], c:[[60.0,59.4],[78.9,59.4],[60.0,78.3],[78.9,78.3],[60.0,97.2],[78.9,97.2],[60.0,116.1],[78.9,116.1],[60.0,135.0],[78.9,135.0]]};
+const ART = A1? {
+  edge:{w:170,h:220, vb:'0 0 170 220', led:{s:[127.6,46.3], n:[127.6,25.1]}, pot:{level:[136.4,108.4], eq:[136.4,172.8]}, clamp:[135.8,78.6], eqfix:[135.8,203.9],
+        file:'AV6201-card-edge.cdr', dir:ARTDIR, date:'2008|41'},
+  rear:{T6301:{...G_T63, file:'AV6201A - rear module options.cdr', dir:GUIDE, date:'2012|45'}, T6401:{...G_T64, file:'AV6201A - rear module options.cdr', dir:GUIDE, date:'2012|45'},
+        T6201:{w:195,h:310, r:16, plate:[40,22,108,245], c:[[73.6,54.5],[121.9,54.5],[73.6,96.7],[121.9,96.7],[74.1,139.8],[122.5,139.8],[73.6,181.9],[121.9,181.9],[74.0,223.5],[122.4,223.5]], file:'AV6201-REAR-MODULES.cdr', dir:ARTDIR, date:'2008|41'}}
+} : {
+  edge:{w:170,h:220, vb:'8 8 160 100', led:{s:[127.6,65.6], n:[127.6,86.7]}, pot:{level:[136.4,33.2]},
+        file:'AV6202A-card-edge.cdr', dir:ARTDIR, date:'2008|41'},
+  rear:{T6301:{...G_T63, file:'AV6202A - rear module options.cdr', dir:GUIDE, date:'2012|45'}, T6401:{...G_T64, file:'AV6202A - rear module options.cdr', dir:GUIDE, date:'2012|45'},
+        T6201:{w:140,h:220, r:11.5, plate:[28,8,82,180], c:[[54.5,31.6],[90.2,31.6],[54.5,62.7],[90.2,62.7],[54.9,94.4],[90.6,94.4],[54.5,125.5],[90.2,125.5],[54.9,156.1],[90.5,156.1]], file:'AV6202-card-edge.cdr', dir:ARTDIR, date:'2008|41'}}
+};
+const artSrc = a => `${SIM.src(a.dir+a.file, a.file)} (CorelDRAW, ${a.date})`;
+function rearSVG(opts){
+  opts=opts||{};
+  const ok=syncOk(), live=booting(SIM.t)?'off':ok?true:'err', inConn=D.src.conn, R=ART.rear[D.rear];
   let cells;
-  if (D.rear==='T6401'){ cells=[{n:2,label:'IN (card 1)',id:'in',conn:inConn,live:inConn?(ok?true:'warn'):undefined},{n:1,label:'IN (card 2)'}]; for(let k=0;k<4;k++){ cells.push({n:4+2*k,label:'OUT '+(k+1),live}); cells.push({n:3+2*k,label:'OUT '+(k+1)+' (c2)'}); } }
+  if (D.rear==='T6401'){ cells=[{n:2,label:'IN (card 1)',id:'in',conn:inConn,live:inConn?(ok?true:'warn'):undefined},{n:1,label:'IN (card 2)',other:true}]; for(let k=0;k<4;k++){ cells.push({n:4+2*k,label:'OUT '+(k+1),live}); cells.push({n:3+2*k,label:'OUT '+(k+1)+' (c2)',other:true}); } }
   else { cells=[{n:1,label:'IN',id:'in',conn:inConn,live:inConn?(ok?true:'warn'):undefined},{n:2,label:'N/C',kind:'nc'}]; for(let k=0;k<8;k++) cells.push({n:3+k,label:'OUT '+(k+1),live}); }
-  return K.rearSVG({name:RM[D.rear].name, sub:RM[D.rear].sub, cells, split:D.rear==='T6401'?['CARD 2','CARD 1 (this card)']:null, id:'AN_BMID 3K57 + AN_BMID2 (module ID)'});
+  const vb = opts.compact? (()=>{ const xs=R.c.map(p=>p[0]), ys=R.c.map(p=>p[1]), m=R.r*1.5; const x0=Math.min(...xs)-m, y0=Math.min(...ys)-m*1.6; return [x0,y0,Math.max(...xs)+m-x0,Math.max(...ys)+m*1.3-y0].map(v=>v.toFixed(1)).join(' '); })() : `0 0 ${R.w} ${R.h}`, r=R.r;
+  let s=`<svg class="og62-rear" viewBox="${vb}" style="width:100%;max-width:${opts.compact?160:340}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${RM[D.rear].name} rear module (CorelDRAW art)">
+    <image href="${ASSET}av6201a-rear-${D.rear}.svg" width="${R.w}" height="${R.h}"/>`;
+  cells.forEach(c=>{ const [cx,cy]=R.c[c.n-1];
+    let g='';
+    if (c.conn) g+=`<circle cx="${cx}" cy="${cy}" r="${r*0.75}" fill="#2b5f9e" opacity=".88"/><rect x="${cx-r*0.28}" y="${cy}" width="${r*0.56}" height="${r*1.1}" fill="#2b5f9e" opacity=".88"/>`;
+    if (c.kind==='nc'||c.other) g+=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="#000" opacity=".13"/>`;
+    if (c.live!==undefined) g+=`<circle cx="${cx+r*0.95}" cy="${cy-r*0.95}" r="${Math.max(1.4,r*0.22)}" fill="${c.live===true?'#2f8f46':c.live==='warn'?'#d9a21b':c.live==='err'?'#c0392b':'#7d8286'}"/>`;
+    s+=`<g ${c.id?`class="og62-hot" data-jack="${c.id}"`:''}><title>${c.n}: ${c.label}${c.id?(c.conn?' (click to unplug)':' (click to plug in)'):''}</title>${g}<circle class="hl" cx="${cx}" cy="${cy}" r="${r+1}" fill="transparent" stroke="none"/></g>`; });
+  return s+'</svg>';
 }
-function potSVG(x,y,label,val,id){ const a=-135+270*val; return `<g class="og62-hot" data-pot="${id}"><title>${label}: click left half to turn down, right half to turn up</title><circle class="hl" cx="${x}" cy="${y}" r="15" fill="#2a5db0" stroke="#123"/><line x1="${x}" y1="${y}" x2="${x+12*Math.sin(a*Math.PI/180)}" y2="${y-12*Math.cos(a*Math.PI/180)}" stroke="#fff" stroke-width="3"/><line x1="${x+18}" y1="${y}" x2="${x+40}" y2="${y}" stroke="#7d8286"/><text x="${x+44}" y="${y+4}" font-size="12.5" fill="#e6e8e9">${label}</text></g>`; }
 function edgeSVG(t){
-  const L=leds(t), ex=150;
-  const extra=[potSVG(ex+40,80,`Level POT (${D.level>0?'+':''}${D.level} dB)`,(D.level+3)/6,'level')];
-  if (A1) extra.push(potSVG(ex+40,200,`EQ POT (${D.eq} m)`,D.eq/300,'eq'));
-  if (A1) extra.push(`<g class="og62-hot" data-sw="clamp"><title>Clamp switch: click to toggle</title><rect class="hl" x="${ex+24}" y="${300-12}" width="34" height="24" rx="3" fill="#333"/><rect x="${ex+(D.clamp?40:27)}" y="${300-9}" width="15" height="18" fill="#ddd"/><line x1="${ex+60}" y1="300" x2="${ex+84}" y2="300" stroke="#7d8286"/><text x="${ex+88}" y="304" font-size="12.5" fill="#e6e8e9">Clamp Switch (${D.clamp?'ON':'OFF'})</text></g>`);
-  return K.edgeSVG({label:PID, leds:[{name:'SYNCH',c:'g',on:L.s,y:40,title:'sync detected'},{name:A1?'ERROR':'NO SYNCH',c:'r',on:L.n,y:140,title:'ERROR_LED (PB2) = no sync'}], extra, note:`Drawn from ${PID}-card-edge.cdr${A1?' (“EQ Fixed Switch” on the drawing is a jumper on ISS3)':''}`});
+  const L=leds(t), E=ART.edge;
+  const led=(k,on,col,tip)=>{ const [x,y]=E.led[k]; return `<rect x="${x-2.85}" y="${y-6.3}" width="5.7" height="12.6" rx="1" fill="${on?col:'#2b2f2c'}" stroke="#555" stroke-width=".3" ${on?'filter="url(#og62glowE)"':''}><title>${tip} (${on?'lit':'off'})</title></rect>`; };
+  const pot=(id,val,lab)=>{ const [x,y]=E.pot[id], a=(-135+270*val)*Math.PI/180; return `<g class="og62-hot" data-pot="${id}" data-half="1"><title>${lab}: click left half to turn down, right half to turn up</title><circle class="hl" cx="${x}" cy="${y}" r="4.6" fill="#9a9a9a" stroke="#333" stroke-width=".4"/><line x1="${x-3.6*Math.sin(a)}" y1="${y+3.6*Math.cos(a)}" x2="${x+3.6*Math.sin(a)}" y2="${y-3.6*Math.cos(a)}" stroke="#111" stroke-width="1.3"/><rect x="${x-11}" y="${y-10}" width="22" height="20" fill="transparent"/></g><text x="${x+11}" y="${y+3}" font-size="7.5" fill="#2b5f9e" font-weight="700">${lab.replace(/^.*\((.*)\)$/,'$1')}</text>`; };
+  let s=`<svg viewBox="${E.vb}" style="width:100%;max-width:300px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${PID} card edge (CorelDRAW art)">
+    <defs><filter id="og62glowE" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}av6201a-edge.svg" width="${E.w}" height="${E.h}"/>
+    ${led('s',L.s,'#5dff5a','SYNCH: sync detected')}${led('n',L.n,'#ff4a3d',(A1?'ERROR':'NO SYNCH')+': ERROR_LED (PB2) = no sync')}
+    ${pot('level',(D.level+3)/6,`Level POT (${D.level>0?'+':''}${D.level} dB)`)}`;
+  if (A1){ s+=pot('eq',D.eq/300,`EQ POT (${D.eq} m)`);
+    const [x,y]=E.clamp; s+=`<g class="og62-hot" data-sw="clamp"><title>Clamp switch: click to toggle (${D.clamp?'ON':'OFF'})</title><circle class="hl" cx="${x}" cy="${y}" r="7.3" fill="${D.clamp?'#2b5f9e':'transparent'}" opacity=".55"/><rect x="${x-10}" y="${y-10}" width="34" height="20" fill="transparent"/></g><text x="${x+11}" y="${y+3}" font-size="7.5" font-weight="700" fill="${D.clamp?'#2b5f9e':'#777'}">${D.clamp?'ON':'OFF'}</text>`;
+    const [ex,ey]=E.eqfix; s+=`<circle cx="${ex}" cy="${ey}" r="8" fill="transparent"><title>EQ Fixed Switch on the drawing — a jumper (H3) on ISS3, not modelled here</title></circle>`; }
+  return s+'</svg>';
 }
 function jumperHTML(){
   const sel=(j,opts,cur)=>`<label>${j} <select data-j="${j}">${opts.map(o=>`<option ${o===cur?'selected':''}>${o}</option>`).join('')}</select></label>`;
@@ -466,7 +504,7 @@ function dashHTML(){
 }
 function bindAll(root){
   K.bind(root,{jack:{in:()=>A.plug()}, sw:{clamp:()=>A.jumper('CLAMP',D.clamp?'OFF':'ON')}, slot:n=>A.slot(n), dash:(id,v)=>A.dash(id,v)});
-  root.querySelectorAll('[data-pot]').forEach(g=>g.addEventListener('click',e=>{ const r=g.getBoundingClientRect(), up=(e.clientX-r.left)>r.width*0.12; const id=g.dataset.pot;
+  root.querySelectorAll('[data-pot]').forEach(g=>g.addEventListener('click',e=>{ const r=g.getBoundingClientRect(), up=(e.clientX-r.left)>r.width*(g.dataset.half?0.5:0.12); const id=g.dataset.pot;
     if (id==='level') A.level(Math.max(-3,Math.min(3,D.level+(up?1:-1)))); else A.eq(Math.max(0,Math.min(300,D.eq+(up?50:-50)))); }));
   root.querySelectorAll('[data-j]').forEach(s=>s.onchange=()=>{ if (s.dataset.j==='std') A.std(s.value); else A.jumper(s.dataset.j, s.value); });
   root.querySelectorAll('[data-x]').forEach(el=>{ const x=el.dataset.x; const f=()=>{ if(x==='plug')A.plug(); else if(x==='len')A.cable(+el.value); else if(x==='hum')A.hum(+el.value); else if(x==='loop')A.loop(el.checked); else if(x==='eq')A.eq(+el.value); else if(x==='level')A.level(+el.value); else if(x==='rear')A.rear(el.value); else if(x==='ref1')A.frameRef(1); else if(x==='ref2')A.frameRef(2); else if(x==='reset')A.reset(); };
@@ -511,7 +549,7 @@ function pathSVG(){ const f=feed(), g=gains(), fL=chromaLossDb(f.len), db=v=>20*
 function viewSim(m){
   m.innerHTML=`<div class="grid2"><div>${card('DashBoard (redrawn) — monitoring only', `<div id="dash"></div>`)}${card('Feed, jumpers and pots', `<div id="ctl"></div>`)}
     ${card('Scope: one video line at the playhead', `<canvas id="scope"></canvas>`)}</div>
-    <div><div class="grid2" style="grid-template-columns:1fr 1fr">${card('Card edge', `<div id="edge"></div>`)}${card('Rear module', `<div id="rear"></div>`)}</div>
+    <div><div class="grid2" style="grid-template-columns:1fr 1fr">${card('Card edge', `<div id="edge"></div><div class="small muted">${artSrc(ART.edge)}</div>`)}${card('Rear module', `<div id="rear"></div><div class="small muted">T6301A / T6401A: ${artSrc(ART.rear.T6301)} · T6201: ${artSrc(ART.rear.T6201)}</div>`)}</div>
     ${card('What the card did (last action)', `<div id="trace" class="log"></div>`)}${card('State at the playhead', `<div id="insp"></div>`)}</div></div>
     ${card('Frame — click a slot', `<div id="frame"></div>`)}
     ${card('Timeline — one second, zoomable', `<canvas id="tl"></canvas><p class="small muted">The AVR loop is ≈${C.LOOP_T*1e6} µs per pass ${inf('no timer paces it')} but LMH1981_VIDEO_DETECT busy-waits while VSOUT is low and then for 11 H lines, so once per field one pass stretches to ≈${((3+11)*STD[feed().std].H*1e3).toFixed(2)} ms (orange). The video itself never touches the processor: the amplifiers are purely analogue.</p>`)}
@@ -571,7 +609,7 @@ function viewSoft(m){
   SIM.on('time', draw);
 }
 const TUT={i:0};
-function tutSide(){ return card('The card', `<div class="grid2" style="grid-template-columns:1fr 1fr"><div id="te"></div><div id="tr2"></div></div><div id="ctl" style="margin:8px 0"></div><canvas id="sc"></canvas><div id="td" style="margin-top:8px"></div>`); }
+function tutSide(){ return card('The card', `<div class="grid2" style="grid-template-columns:1fr 1fr"><div id="te"></div><div id="tr2"></div></div><div class="small muted">Card edge: ${artSrc(ART.edge)} · rear: ${artSrc(ART.rear[D.rear])}</div><div id="ctl" style="margin:8px 0"></div><canvas id="sc"></canvas><div id="td" style="margin-top:8px"></div>`); }
 function tutBind(r){ r.querySelector('#te').innerHTML=edgeSVG(SIM.t); r.querySelector('#tr2').innerHTML=rearSVG(); r.querySelector('#ctl').innerHTML=jumperHTML(); r.querySelector('#td').innerHTML=dashHTML(); bindAll(r); drawLine(r.querySelector('#sc'), SIM.t); }
 function viewTut(m){ K.tutorialView(m,{D, st:TUT, title:`Tutorial — setting up the ${PID} (from the ${PID} manual)`, L:LESSONS, side:tutSide, bindSide:tutBind, reset:A.reset}); }
 function viewFindings(m){ m.innerHTML=card(`What the ${PID} is up to`, `<ol>${FINDINGS.map(f=>`<li style="margin-bottom:6px">${f}</li>`).join('')}</ol>`)+card('Assumptions in this simulation', `<ul class="small">${ASSUME.map(a=>`<li>${a}</li>`).join('')}</ul>`)+card('Sources', `<ul class="small mono">${SOURCES.map(s=>`<li>${s}</li>`).join('')}</ul>`); }
@@ -600,11 +638,17 @@ const FINDINGS=[
   `<b>LED colour mismatch.</b> The manual's LED table says NO SYNCH is green; the BOM fits a red LED (LED2) and the functional diagram says “NO SYNCH RD”. The firmware calls it ERROR_LED (PB2), and the card-edge drawing labels it “ERROR LED”.`,
   `<b>Unknown formats count as video.</b> LMH1981_VIDEO_DETECT ends with <span class="mono">else { detect = YES; }</span>: any line-count code that is not in the table still counts as “detected” and leaves <span class="mono">format</span> unchanged, so a corrupted reading never turns the ERROR LED on.`,
   `<b>Card-edge drawing vs ISS3 board.</b> AV6201-card-edge.cdr shows an “EQ Fixed Switch” and a “Clamp Switch”; the ISS3/4 BOM has jumpers (H1–H3, TERM) silkscreened TERM, BAL, CLAMP, EQ instead.`,
-  `<b>Version numbers.</b> Source is V101 (bootloader + DataSafe, 2009|42-11-10) but the Ross zeuspack config names the image adc-8432_v1_03.bin.`,
+  `<b>Version numbers.</b> Source is V101 (bootloader + DataSafe, 2009|42-11-10) but the Ross zeuspack config names the image adc-8432_v1_03.bin.`,,
+  `<b>Artwork 2026|59: card edge and rear modules now from CorelDRAW.</b> Card edge from ${artSrc(ART.edge)}; T6301A and T6401A from ${artSrc(ART.rear.T6301)}; T6201 from ${artSrc(ART.rear.T6201)} (the 2012 guide no longer shows T6201). The 2012 guide labels T6301A position 2 “Not Connected” (the 2008 sheet said “IN”) and numbers the outputs OUT 1–4 down the left column and OUT 5–8 down the right, while the 2008 sheet and this simulation alternate OUT1/OUT2 across each row. The card-edge art puts ERROR above SYNCH, the reverse of the ISS3 board, and draws Clamp and EQ Fixed as push-buttons where ISS3 has jumpers. Text in the guide is live Arial; libcdr kept the words, not their alignment.`
 ];
 const SOURCES=[`${SIB}Software/atmel/v101/AV6201A.c/.h, v100w.c, LMH1981.c/.h, Dashboard.c (firmware — sibling folder, linked)`,`${SIB}Software/AV6201A SOFTWARE HISTORY.xls`,`${SIB}PCB/AV6201-iss3.net, .bom · Functional/AV6201-card-edge.cdr, AV6201-REAR-MODULES.pdf`,
   '#OPENGEAR #SERIES/AV6201A - #Master #OPENGEAR/AV6201A - #Master/AV6201A-ISS3_ISS4-BOM Final.xlsx, ISS4 Gerbers (this folder)','#OPENGEAR #SERIES/AV6201A - #Master #OPENGEAR/AV6201A - #TESTREPORT/AV6201A-V101-04NOV09.pdf','#OPEN GEAR - #Engineering/…/openGear #Manuals #OBSOLETE/AV6201A Manual.pdf (2009|42-01-23)'];
-SIM.register({ id:'av6201a', product:'AV6201A', name:'AV6201A · analog video DA with differential input, clamp and EQ, openGear (2008|41)', year:2008,
+SIM.register({
+  footnotes:[
+    {text:"The 2012 guide labels T6301A position 2 “Not Connected”; the 2008 sheet labels it “IN”.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"},
+    {text:"The 2012 guide numbers T6301A outputs OUT 1–4 down the left column and OUT 5–8 down the right; the 2008 sheet alternates OUT1/OUT2 across each row.", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"},
+    {text:"The card edge (labelled AV6201A on the ejector) draws “Clamp Switch” and “EQ Fixed Switch” as push-buttons; the board has jumpers.", src:"#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/AV6201-card-edge.cdr"},
+    {text:"The guide shows only T6301A and T6401A; the T6201 art here comes from the 2008 AV6201-REAR-MODULES sheet.", src:"#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/AV6201-REAR-MODULES.cdr"}], id:'av6201a', product:'AV6201A', name:'AV6201A · analog video DA with differential input, clamp and EQ, openGear (2008|41)', year:2008,
   folder:'#OPENGEAR #SERIES/AV6201A - #Master #OPENGEAR', family:'openGear',
   summary:'openGear composite-video distribution amplifier: differential input, back-porch clamp, 0–300 m cable EQ, ±3 dB level, eight 75 Ω outputs (Cobalt 9231 / Ross ADC-8432). This folder holds the ISS3/ISS4 production files; the model uses the V101 firmware and P-CAD netlist from the sibling AV6201 folder.',
   highlights:['One video line in and out: cable loss, EQ, hum and clamp','Termination and level ladder','LMH1981 sync detect stalling the AVR loop once per field','Card edge pots, jumpers, rear modules and DashBoard','Firmware leftovers from the D6201A'],

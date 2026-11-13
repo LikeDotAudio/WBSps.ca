@@ -655,6 +655,28 @@ DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from 
   "The guide's legends match the copper: BNC1–BNC7 on positions 1–7, AES7 on the block at 8, AES4 and AES8 on the blocks at 9 and 10. So the GENERIC guide agrees with the board at position 7 (a BNC), where the card-specific +SIM.src('#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6304.cdr','M6206A-T6304.cdr')+ draws a VOICEOVER IN terminal block.",
   "The grey-filled BNCs on the guide (positions 1–2 on most of these guides) mark the shell-isolated inputs <span class=\"tag-inf\">inferred</span> from the netlists, where these BNCs have their own return nets; the drawing gives no key.");
 DATA.sources.unshift("#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304.cdr (CorelDRAW rear-module guide, 2007-06-27; assets/t6304-rear.svg)");
+const FOOT = [
+{
+"text": "The GENERIC guide T6304.cdr (2007-06-27) draws a BNC at position 7 (BNC7), matching the copper; the card-specific M6206A-T6304 drawing puts a VOICEOVER IN terminal block there.",
+"src": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304.cdr"
+},
+{
+"text": "M6206A-T6304.cdr shows position 7 as a + − G block labelled VOICEOVER IN, which the T6304 board never had.",
+"src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6304.cdr"
+},
+{
+"text": "T6304.cdr is stored twice: the copy in “T6304 - #ARCHIVE” is byte-identical.",
+"src": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304 - #ARCHIVE/T6304.cdr"
+},
+{
+"text": "The guide shades BNC1 and BNC2 grey with no key; they are the shell-isolated BNCs in the netlist (inferred meaning).",
+"src": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304.cdr"
+},
+{
+"text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+"src": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304.cdr"
+}
+];
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
@@ -1132,6 +1154,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

@@ -269,15 +269,20 @@ function rearSVG(t){
       <circle cx="${cx}" cy="${(1.7125-1.3)*PX}" r="2.5" fill="#666"/><circle cx="${cx}" cy="${(1.7125+1.3)*PX}" r="2.5" fill="#666"/>
       ${sl.card?Array.from({length:10},(_,k)=>`<rect x="${cx-0.12*PX}" y="${0.55*PX+k*0.23*PX}" width="${0.24*PX}" height="${0.15*PX}" fill="#2b8a3e"/>`).join(''):''}
       <text x="${cx}" y="${H+13}" text-anchor="middle" font-size="10" fill="var(--ink2)">${slot}</text></g>`; }
+  /* RM1 power-end features (hidden under the RM2 cover once it is fitted) */
+  s+=`<g><title>RM1 .437 in hole (ISS 2: “.437 DIA. WAS .218”)</title><circle cx="${1.6*PX}" cy="${1.31*PX}" r="${0.218*PX}" fill="#000" stroke="#444"/></g><rect x="${2.59*PX}" y="${0.52*PX}" width="${0.562*PX}" height="${1.312*PX}" fill="#000" stroke="#444"><title>RM1 Detail A cut-out 0.562 × 1.312 in</title></rect>`;
   if (D.built[7]){
-    [[0.19,0.33],[0.19,1.93]].forEach(([x,y],k)=>{ const q=p.ps[k];
+    /* MF8212RM2 power cover, 4.150 × 3.300 in: CorelDRAW silk MF8212RM2-SILK(CURVE).cdr at 1:1 (72 pt/in), white ink on
+       WBS black; holes and windows from its cut lines. Placed at the power end, centred vertically (inferred). */
+    const ry=(3.425-3.3)/2;
+    s+=`<image href="${ASSET}mf8212-frame-rm2.svg" x="0" y="${ry*PX}" width="${4.15*PX}" height="${3.3*PX}"><title>MF8212RM2 power cover — silk from MF8212RM2-SILK(CURVE).cdr</title></image>`;
+    [[0.21,ry+0.235],[0.21,ry+1.825]].forEach(([x,y],k)=>{ const q=p.ps[k];
       s+=`<g class="mfmains" data-k="${k}" style="cursor:pointer"><title>723W-X2/02 IEC inlet ${k+1} with ${D.fuseA} A fuse — click to ${D.mains[k]?'unplug':'plug in'} the cord</title><rect x="${x*PX}" y="${y*PX}" width="${1.08*PX}" height="${1.24*PX}" rx="4" fill="#0c0c0c" stroke="#777"/>
         <rect x="${(x+0.2)*PX}" y="${(y+0.15)*PX}" width="${0.68*PX}" height="${0.5*PX}" rx="4" fill="#1d1d1d" stroke="#555"/>
         ${D.mains[k]?`<rect x="${(x+0.12)*PX}" y="${(y+0.08)*PX}" width="${0.84*PX}" height="${0.65*PX}" rx="6" fill="#333" stroke="#000"/><path d="M${(x+0.54)*PX} ${(y+0.1)*PX} C ${(x-0.5)*PX} ${(y-0.2)*PX}, ${(x-0.3)*PX} ${(y+0.9)*PX}, -10 ${(y+1.0)*PX}" stroke="#222" stroke-width="7" fill="none"/>`:''}
         <rect x="${(x+0.25)*PX}" y="${(y+0.82)*PX}" width="${0.58*PX}" height="${0.3*PX}" fill="${q.alive&&!q.fuseOK?'#7a1d12':'#262626'}" stroke="#555"/><text x="${(x+0.54)*PX}" y="${(y+1.02)*PX}" text-anchor="middle" font-size="8" fill="#ccc">${D.fuseA} A</text></g>`; });
-    s+=`<g><title>Binding posts on fish-paper washers: black = chassis (111-0103), green = system ground (111-0104)</title><circle cx="${1.6*PX}" cy="${0.35*PX}" r="${0.12*PX}" fill="#222" stroke="#888"/><circle cx="${2.1*PX}" cy="${0.35*PX}" r="${0.12*PX}" fill="#2fa34a" stroke="#0a3"/></g>
-      <g><title>.437 in hole (ISS 2: “.437 DIA. WAS .218”) — BNC position ${'inferred'}</title><circle cx="${1.6*PX}" cy="${1.31*PX}" r="${0.218*PX}" fill="#c8cbce" stroke="#777"/><circle cx="${1.6*PX}" cy="${1.31*PX}" r="${0.1*PX}" fill="#222"/></g>
-      <rect x="${2.59*PX}" y="${0.52*PX}" width="${0.562*PX}" height="${1.312*PX}" fill="#000" stroke="#444"><title>Detail A cut-out 0.562 × 1.312 in</title></rect>`;
+    s+=`<g><title>Binding posts on fish-paper washers (Detail B .312 holes, silk earth symbols): black = chassis (111-0103), green = system ground (111-0104)</title><circle cx="${1.59*PX}" cy="${(ry+0.475)*PX}" r="${0.12*PX}" fill="#222" stroke="#999"/><circle cx="${1.59*PX}" cy="${(ry+1.225)*PX}" r="${0.12*PX}" fill="#2fa34a" stroke="#0a3"/></g>
+      ${[['REF IN',2.09],['REF OUT',2.845]].map(([n,x])=>`<g><title>${n}: BNC in a Detail C .500 hole (video / AES reference bus)</title><circle cx="${x*PX}" cy="${(ry+2.433)*PX}" r="${0.2*PX}" fill="#c8cbce" stroke="#777"/><circle cx="${x*PX}" cy="${(ry+2.433)*PX}" r="${0.09*PX}" fill="#222"/></g>`).join('')}`;
   } else s+=`<rect x="${0.19*PX}" y="${0.33*PX}" width="${1.08*PX}" height="${1.24*PX}" fill="#000"/><rect x="${0.19*PX}" y="${1.93*PX}" width="${1.08*PX}" height="${1.24*PX}" fill="#000"/><text x="${1.8*PX}" y="${H/2}" font-size="10" fill="#888">RM2 cover not fitted (step 7)</text>`;
   return s+`<line x1="${3.59*PX}" y1="${H+20}" x2="${3.59*PX}" y2="${H+28}" stroke="var(--ink2)"/><text x="${3.59*PX+4}" y="${H+28}" font-size="9" fill="var(--ink2)">3.590 power section | 13.250 card section</text></svg>`;
 }
@@ -360,7 +365,7 @@ function drawScope(cv,t){
 function viewSim(m){
   window[FLAG]=true;
   m.innerHTML = card('MF82-12 frame — front and rear to scale', `<div id="mfF"></div><div id="mfR" style="margin-top:6px"></div><div id="mfC"></div>
-    <div class="small muted">Front: rack ears and slot pitch from 82-004-1 and 82-002 (12 guide holes at 1.000 in from 0.500 in). Rear: MF8212RM1 ISS 2 dimensions. The supply modules and their V/I lamps follow the MF82XXMN.CDR manual art; card faces are schematic. Click a slot to insert the chosen card, an IEC inlet to plug its cord, a supply to pull it.</div>`)
+    <div class="small muted">Front: rack ears and slot pitch from 82-004-1 and 82-002 (12 guide holes at 1.000 in from 0.500 in). Rear: MF8212RM1 ISS 2 dimensions; the RM2 power cover is the CorelDRAW silk ${SIM.src('#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK(CURVE).cdr','MF8212RM2-SILK(CURVE).cdr')} (2016-06-22) at 1:1, white ink on black. The supply modules and their V/I lamps follow the MF82XXMN.CDR manual art; card faces are schematic. Click a slot to insert the chosen card, an IEC inlet to plug its cord, a supply to pull it.</div>`)
    + `<div class="grid2">${card('Live readings','<div id="mfRo"></div>')}${card('What just happened','<div id="mfTr" class="log small mono"></div>')}</div>`
    + card('Timeline (zoom with the transport)', '<canvas id="mfTl"></canvas>');
   SIM.on('time', t=>{
@@ -531,6 +536,7 @@ function viewDwg(m){
 function viewFind(m){
   window[FLAG]=false;
   const F=[
+   ['Artwork 2026|59: the rear power cover now comes from '+SIM.src('#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK(CURVE).cdr','MF8212RM2-SILK(CURVE).cdr')+' (2016-06-22).','The silk is converted from CorelDRAW and placed at 1:1 on the to-scale rear; it matches the MF8212RM2 ISS 1 drawing (4.150 × 3.300 in, notch 3.342 in, posts .475/.750 apart at 1.590 in, BNCs .750 apart at 2.433 in). It shows what the earlier drawing missed: <b>two</b> BNCs, REF IN and REF OUT, and the posts stacked vertically under chassis and earth symbols. The November 2015 issue '+SIM.src('#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK (CURVE).cdr','MF8212RM2-SILK (CURVE).cdr')+' has the same art with the BNC legends the other way round (REF OUT left, REF IN right). The 2016 silk carries no fuse rating; the 1999 MF82SILK.CDR did (“1.5 / 0.75 A SB”).'],
    ['The frame BOM has no power supplies.','<span class="mono">MF8212 BOM Costed.xlsx</span> lists the supply box (82-072), its door (82-077), the mounting block and two EDAC 307-024 supply sockets on MF8212BP, but no supply module. The supplies (M8245A, per the MF82E/S manual) are a separate order: a $239.51 frame is not a working frame.'],
    ['Three different fuse ratings for the same inlet.','BOM line 27 fits <b>2 A</b> 5×20 mm (218002 / S506-2-R) in the 723W-X2/02 inlet. <span class="mono">MF8212-3.DSN</span> F1/F2 and <span class="mono">MF82SILK.CDR</span> say <b>1.5 / 0.75 A SB</b>. The MF82E/S manual says <b>0.75 A (min.) slow blow #3AG</b> — a ¼ × 1¼ in fuse that does not fit a 5×20 mm holder. Try the fuse selector: with a full frame the 0.75 A fuse is marginal at 115 V.'],
    ['Two prices for the same backplane.','The frame roll-up uses MF8212BP at <b>$62.796</b> (Misys, identical to <span class="mono">MF8212BP BOM QUOTE Misys.xls</span>, which is byte-for-byte the same file as <span class="mono">MF8212BP BOM Misys.xls</span>). <span class="mono">MF8212BP BOM Costed.xlsx</span> re-prices the EDAC sockets (1.72→1.90, 2.275→2.48) to <b>$65.37</b>, so the frame should cost $242.08.'],
@@ -548,6 +554,14 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:[
+    {text:'MF8212RM2-SILK swaps its BNC legends between issues: NOV.06/15 reads REF OUT (left) / REF IN (right); JUN.22/16 reads REF IN / REF OUT.', src:'#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK (CURVE).cdr'},
+    {text:'The RM2 silk is stored three times: “MF8212RM2-SILK (CURVE).cdr” (2015-11-09), “MF8212RM2-SILK(CURVE).cdr” and the live-text “MF8212RM2-SILK.cdr” (both 2016-06-22); the two CURVE names differ only by a space.', src:'#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK.cdr'},
+    {text:'MF8212RM2-SILK(CURVE).cdr holds hidden leftover objects under the CAUTION block: two small circles joined by a line and the letters “ENCE” with no colour set; they are not printed.', src:'#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK(CURVE).cdr'},
+    {text:'The RM2 silk has no fuse rating, although the inlets take 2 A fuses per the 2013 BOM and the 1999 silk MF82SILK.CDR printed “1.5 / 0.75 A SB”.', src:'#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK(CURVE).cdr'},
+    {text:'The MF8212RM2 drawing (ISS 1, 05/08/10) is drawn 1:1 with the silk: 4.150 × 3.300 in, chassis and ground posts .750 apart, REF BNCs .750 apart.', src:'#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #Mechanical #DA #2016/MF8212RM2 ISS 1 (POWER COVER).pdf'},
+    {text:'RM2 is titled “DA REAR POWER SOURCE COVER” with “FOLDER: MFXX/MF8212/” in its title block, although it now lives in the D8210 & D8212 mechanical folder.', src:'#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #Mechanical #DA #2016/MF8212RM2 ISS 1 (POWER COVER).pdf'},
+    {text:'MF8212RM1 ISS 2 records “.437 DIA. WAS .218” on 13/01/06 but its title block is dated 09/12/10.', src:'#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #Mechanical #DA #2016/MF8212RM1 ISS 2 (REAR HOUSING).pdf'} ],
   id:'mf8212-frame', product:'MF8212 Frame', year:2013, family:'8200 Distribution Series',
   folder:'#MF8200 #SERIES/MF8212 Frame - #Master #MF82',
   name:'MF8212 Frame · 12-slot MF82-12 rack frame built from its BOM (2013|46)',

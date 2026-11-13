@@ -15,7 +15,7 @@ tags: ["product", "metering", "1970s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: MP 8100 meter panels](../siumulation.html?plugin=mp8100) · [simulator & front panel](../simulator.html?m=MP3) · [KiCad symbol generator](../kicad.html?m=MP3) · [download package (zip)](../_packages/MP3.zip) |
+| Try it | [full simulation: MP 8100 meter panels](../siumulation.html?plugin=mp8100) · [KiCad symbol generator](../kicad.html?m=MP3) · [download package (zip)](../_packages/MP3.zip) |
 | Earliest dated evidence | [1976\|9](Year-1976.md) — named in document |
 | Evidence | named in 1976 - M466 - MIMISA COMPRESSOR-LIMITER COMPONENT LAYOUT.jpg |
 | Confidence | low (named by) |
@@ -49,40 +49,10 @@ The MP3 is not in the engineering [software listings](Software.md) (1998|31 – 
 | ? | [19xx - MP3 - Rear.jpg](../Products/METERING/MP3/19xx%20-%20MP3%20-%20Rear.jpg) | [note](../Products/METERING/MP3/19xx%20-%20MP3%20-%20Rear.jpg.md) |
 | ? | [19xx - MP4 - DOC - MP Series Information Sheet.jpg](../Products/METERING/MP4/19xx%20-%20MP4%20-%20DOC%20-%20MP%20Series%20Information%20Sheet.jpg) | [note](../Products/METERING/MP4/19xx%20-%20MP4%20-%20DOC%20-%20MP%20Series%20Information%20Sheet.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "MP3",
- "category": "METERING",
- "year": 1976,
- "documents": [
-  {
-   "file": "Products/METERING/MP3/19xx - MP3 - (PPM) Front.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP3/19xx - MP3 - (VU) Front.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP3/19xx - MP3 - Rear.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/19xx - MP4 - DOC - MP Series Information Sheet.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```
+1. Despite “(CURVE)” in its name, 8100MP-FRONT-SILK keeps the title “MP SERIES by WARD-BECK SYSTEMS” as live Hobo Std text; only its CorelDRAW PDF export carries the glyph outlines. — `#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR`
+2. The front silk is a single line of text plus two ellipses marking the left rack slots as a reference. — `#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR`
+3. The rear legend states 115 VAC, 1A SB only; there is no 230 V marking. — `#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR`
+4. The rear silk's guides put the four rack-ear holes at 0.17 in / 16.53 in across and 0.52 in / 2.78 in up on the 16.7 in × 3.27 in plate. — `#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR`
+5. Both silk files are stored twice, in 8100 CHASSIS - #ARTWORK #DA #2016 and in SILKS. — `#MP (8100) #SERIES/SILKS/8100MP-REAR-SILK (CURVE).CDR`

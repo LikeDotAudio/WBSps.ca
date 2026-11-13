@@ -987,6 +987,28 @@ DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from 
   "Unlike the other T63xx/T64xx masters, the T6306 drawing is not a GENERIC guide: it carries the M6202AE functions (SDI IN/OUT, GROUP 1 OUT, GROUP 2 OUT, SELECTABLE GROUP OUT, METADATA OUT) and is a near copy of "+SIM.src('#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE-T6306RearModule.cdr','M6202AE-T6306RearModule.cdr')+" (saved a day later, 2009-05-28). It also draws two small holes, between BNC1 and BNC2 and below BNC7, that no other guide shows <span class=\"tag-inf\">inferred</span>: probably light pipes or mounting points; the netlist has nothing there.",
   "The three bracket bars were a CorelDRAW bitmap texture fill (lilac); they are drawn here as a flat fill of the texture's average colour, and the multi-line labels were re-broken by hand because libcdr loses the line layout.");
 DATA.sources.unshift("#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr (CorelDRAW rear-module guide, 2009-05-27; assets/t6306-rear.svg)");
+const FOOT = [
+{
+"text": "T6306.cdr (2009-05-27) is not a GENERIC guide like its siblings: it carries the M6202AE functions (SDI IN/OUT, GROUP 1 OUT, GROUP 2 OUT, SELECTABLE GROUP OUT, METADATA OUT).",
+"src": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr"
+},
+{
+"text": "M6202AE-T6306RearModule.cdr (2009-05-28) is a near copy of T6306.cdr saved a day later, with a Backup_of_ copy beside it.",
+"src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE-T6306RearModule.cdr"
+},
+{
+"text": "The drawing shows two small holes, between BNC1 and BNC2 and below BNC7, that no other guide has and the netlist does not explain (light pipes or fixings, inferred).",
+"src": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr"
+},
+{
+"text": "Position 8 has no legend on the drawing although BNC8 is fully wired on the board.",
+"src": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr"
+},
+{
+"text": "The bracket bars are a CorelDRAW bitmap texture fill; they are drawn as a flat lilac fill, and the run-together labels (“GROUP 1OUT”, “METADATAOUT”) were re-broken onto two lines.",
+"src": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr"
+}
+];
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
@@ -1465,6 +1487,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

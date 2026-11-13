@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD16](../siumulation.html?plugin=pod16) · [simulator & front panel](../simulator.html?m=POD16) · [KiCad symbol generator](../kicad.html?m=POD16) · [download package (zip)](../_packages/POD16.zip) |
+| Try it | [full simulation: POD16](../siumulation.html?plugin=pod16) · [KiCad symbol generator](../kicad.html?m=POD16) · [download package (zip)](../_packages/POD16.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD16 MANUAL(1).docx |
 | Confidence | medium |
@@ -89,45 +89,9 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD16 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD16 - MANUAL (2).docx](../Products/PODS/POD16/2014%20-%20POD16%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD16",
- "name": "Stereo Audio Fader",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD16/2014 - POD16 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD16/2014 - POD16 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD16/2014 - POD16 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD16/2014 - POD16 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The rear silk keeps the DE-9 cut-out for the RS422 option although U1/U2 (75176) are “not installed”. — `#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr`
+2. The silk puts CUT at the counter-clockwise end of FADE TIME and 2SEC clockwise; the schematic's CW mark on RV1 suggests the opposite. — `#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr`
+3. The 1999 silk converts only the bars, the three fade symbols and the drill crosshairs; its text is lost. — `#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #Engineering/SILK/POD16SLK.CDR`
+4. The 2014 artwork sheet is dated Jun.25/14, although the POD16 itself dates from 1998|31. — `#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr`

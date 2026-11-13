@@ -16,7 +16,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD1–POD18 redesign (RD64)](../siumulation.html?plugin=pod1-pod18-redesign) · [full simulation: POD1](../siumulation.html?plugin=pod1) · [simulator & front panel](../simulator.html?m=POD1) · [KiCad symbol generator](../kicad.html?m=POD1) · [download package (zip)](../_packages/POD1.zip) |
+| Try it | [full simulation: POD1–POD18 redesign (RD64)](../siumulation.html?plugin=pod1-pod18-redesign) · [full simulation: POD1](../siumulation.html?plugin=pod1) · [KiCad symbol generator](../kicad.html?m=POD1) · [download package (zip)](../_packages/POD1.zip) |
 | Earliest dated evidence | [1995\|28](Year-1995.md) — month & year |
 | Evidence | "December 7, 1995" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD1/INTER1.WPD |
 | Confidence | medium |
@@ -86,75 +86,14 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD1 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD1 - MANUAL.docx](../Products/PODS/POD1/2014%20-%20POD1%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD1",
- "name": "Bi-Directional Audio Interface",
- "category": "PODS",
- "year": 1995,
- "documents": [
-  {
-   "file": "Products/PODS/POD1/1995 - POD1 - Front.jpg",
-   "year": 1995,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD1/1995 - POD1 - Information Sheet.jpg",
-   "year": 1995,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD1/1995 - POD1 - POD1 - POD1MAN.wp",
-   "year": 1995,
-   "pages": 1,
-   "holds": [
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD1/1995 - POD1 - POD1 - POD1MAN1 - DRAWING (AUTOCAD).dwg",
-   "year": 1995,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD1/1995 - POD1 - Rear.jpg",
-   "year": 1995,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD1/1995 - POD1 - SCHEMATIC.wpd",
-   "year": 1995,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD1/2014 - POD1 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD1/2014 - POD1 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. **POD1–POD18 redesign (RD64):** Both the POD1 and POD18 rear plates still read “115 VAC, 1/2 A.S.B.”; no artwork exists for the redesign's universal-input supply. — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+2. **POD1–POD18 redesign (RD64):** The POD1 and POD18 fronts share one layout; only the name line and the trim sub-legends differ (UNBALANCED / BALANCED vs OUTPUT 1 / OUTPUT 2). — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+3. **POD1–POD18 redesign (RD64):** The POD18 rear labels its XLRs BALANCED OUTPUTS 2 then 1, and IN 2 / IN 1, right to left. — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+4. **POD1–POD18 redesign (RD64):** The 2013|46 POD-18 FRONT SILK (FINAL CURVE).cdr is stored in both the POD18 and the POD1 folders. — `#POD #SERIES/POD1 - #Master/POD-1 - ARTWORK/POD-18 FRONT SILK (FINAL CURVE).cdr`
+5. **POD1:** The rear still reads “115 VAC, 1/2 A.S.B.”, the transformer-era legend, though ISS2/ISS3 use a universal-input supply. — `#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr`
+6. **POD1:** On this sheet the rear plate's outline is drawn in the ink colour and sits 1.4 pt left of the front plates; it is a drawing outline, not printed. — `#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr`
+7. **POD1:** The sheet's own title reads “PO1-FRONT&amp;REAR-SILK”, missing the D of POD. — `#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr`
+8. **POD1:** The POD1 ARTWORK folder also holds a copy of the POD-18 front silk (2013|46). — `#POD #SERIES/POD1 - #Master/POD-1 - ARTWORK/POD-18 FRONT SILK (FINAL CURVE).cdr`
+9. **POD1:** Separate front-only and rear-only sheets exist: POD1-FRONT (FINAL CURVE).cdr (2015|48) and POD1-REAR (FINAL CURVE).cdr (2014|47). — `#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-REAR (FINAL CURVE).cdr`

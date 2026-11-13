@@ -879,6 +879,14 @@ function viewFindings(m){
    ===================================================================== */
 bindKeys();
 SIM.register({
+  footnotes: [
+    { text: "The newest POD12A sheet (Jun.19/14, saved Jun 17 2016) carries a pure-black mechanical layer (outline, rocker cut-out, ten LED holes, BNC/XLR rings, DIP window, IEC opening) on every plate, separate from the ink.", src: "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "Only two of the ten front LED holes, PWR and INPUT 1 LOCK, carry the ⊕ crosshair (with the mounting screws), on both front plates.", src: "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "POD12A-FRONT(FINAL CURVE).cdr is byte-identical in three folders (POD12A - Artwork, POD12A ARTWORK #DA #2016, POD12 - #SILK).", src: "#POD #SERIES/XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #SILK/POD12A-FRONT(FINAL CURVE).cdr" },
+    { text: "The 75/110 rear silk exists in three different saves: Jan 2014, May 2015 and Jun 2016.", src: "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-75-110-REAR SILK(FINAL CURVE).cdr" },
+    { text: "The rear's terminal block is legended “BALANCED IOS” and the mains line ends with a stray comma: “100-230 VAC, 50-60 Hz,”.", src: "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "The only original POD12 silk is POD12SLK.CDR (Mar 1998) in Obsolete; everything else in POD12 - #SILK is POD12A art.", src: "#POD #SERIES/XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #SILK/Obsolete/POD12SLK.CDR" }
+  ],
   id:'pod12', file:'pod12.js',
   name:'POD12 · AES/EBU reclocking distribution amplifier (1999|32)',
   product:'POD12', year:1999, family:'Obsolete products',

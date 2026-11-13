@@ -15,7 +15,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: MLC6A](../siumulation.html?plugin=mlc6a) · [simulator & front panel](../simulator.html?m=MLC6A) · [KiCad symbol generator](../kicad.html?m=MLC6A) · [download package (zip)](../_packages/MLC6A.zip) |
+| Try it | [full simulation: MLC6A](../siumulation.html?plugin=mlc6a) · [KiCad symbol generator](../kicad.html?m=MLC6A) · [download package (zip)](../_packages/MLC6A.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -122,26 +122,11 @@ _What changed, in the words of the listing, oldest first._
 | ? | [19xx - MLC6A - Front.jpg](../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Front.jpg) | [note](../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Front.jpg.md) |
 | ? | [19xx - MLC6A - Rear.jpg](../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Rear.jpg) | [note](../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Rear.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "MLC6A",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/MLC8D/2018 - MLC8D - Rear.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MLC6A/19xx - MLC6A - Front.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The 2016 front silk has only six channel holes (L R C LFE LS RS) and no 5.1/ST buttons, although the shared MLC8A firmware still scans encoders 7/8. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK(CURVE).cdr`
+2. The newest MLC6A silk (JUN.24/16) is filed under Obsolete in the shared MLC6 & MLC8 artwork folder, beside a live-text twin of the same date. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK.cdr`
+3. The 2007 mlc6A-SILK.cdr exists in two folders plus a Backup_of_ copy; its live text cannot be placed by libcdr. — `#MLC - #SERIES/MLC8 #Engineering #TIM/MLC6A/Backup_of_mlc6A-SILK.cdr`
+4. The curve sheet adds a black mechanical layer: 600 px (3.0 in) meter window, 0.685 in knob holes, 0.935 in MASTER hole, two 0.34 in PRESET cut-outs and twelve screw holes; the photo-measured screws were up to 18 px off. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK(CURVE).cdr`
+5. The 2010 front-and-rear illustration uses live text: as converted, its captions overlap (“75 Ohm AES REF. INPUT” over “4 x 75 Ohm AES INPUTS”, “MLC-6A” over “MULTICHANNEL LEVEL CONTROL”), so only the rear connector labels are used. — `#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive/MLC6A (Front & Rearview).cdr`
+6. The rear illustration shows a DB-25 “AUX” marked “PLEASE REFER TO MANUAL”, but there is no MLC6A manual in the archive. — `#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive/MLC6A (Front & Rearview).cdr`

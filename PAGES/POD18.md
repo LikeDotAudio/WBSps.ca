@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD1–POD18 redesign (RD64)](../siumulation.html?plugin=pod1-pod18-redesign) · [full simulation: POD18](../siumulation.html?plugin=pod18) · [simulator & front panel](../simulator.html?m=POD18) · [KiCad symbol generator](../kicad.html?m=POD18) · [download package (zip)](../_packages/POD18.zip) |
+| Try it | [full simulation: POD1–POD18 redesign (RD64)](../siumulation.html?plugin=pod1-pod18-redesign) · [full simulation: POD18](../siumulation.html?plugin=pod18) · [KiCad symbol generator](../kicad.html?m=POD18) · [download package (zip)](../_packages/POD18.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD18 MANUAL(1).docx |
 | Confidence | medium |
@@ -72,53 +72,13 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD18 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD18 - MANUAL (2).docx](../Products/PODS/POD18/2014%20-%20POD18%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD18",
- "name": "Quad Audio Interface",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD18/2014 - POD18 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD18/2014 - POD18 - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD18/2014 - POD18 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD18/2014 - POD18 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD18/2014 - POD18 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. **POD1–POD18 redesign (RD64):** Both the POD1 and POD18 rear plates still read “115 VAC, 1/2 A.S.B.”; no artwork exists for the redesign's universal-input supply. — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+2. **POD1–POD18 redesign (RD64):** The POD1 and POD18 fronts share one layout; only the name line and the trim sub-legends differ (UNBALANCED / BALANCED vs OUTPUT 1 / OUTPUT 2). — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+3. **POD1–POD18 redesign (RD64):** The POD18 rear labels its XLRs BALANCED OUTPUTS 2 then 1, and IN 2 / IN 1, right to left. — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+4. **POD1–POD18 redesign (RD64):** The 2013|46 POD-18 FRONT SILK (FINAL CURVE).cdr is stored in both the POD18 and the POD1 folders. — `#POD #SERIES/POD1 - #Master/POD-1 - ARTWORK/POD-18 FRONT SILK (FINAL CURVE).cdr`
+5. **POD18:** The rear plate on the sheet is drawn 1.4 pt left of the two front plates (x 114.3 pt against 115.7 pt), and its outline is drawn twice. — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+6. **POD18:** The front has four OUTPUT ADJUST holes (L and R for OUTPUT 1 and 2), but only OUTPUT 1 R has a drill crosshair on the art. — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+7. **POD18:** Each rear XLR hole has two small screw holes at opposite corners, and the four UNBALANCED RCA holes share one centre crosshair. — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`
+8. **POD18:** The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint. — `#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr`

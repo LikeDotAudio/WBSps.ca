@@ -515,6 +515,12 @@ function viewNotes(m){ window.__pod18Active=false;
   +card('Sources',`<ul class="small mono"><li>POD18 - #Engineering/MANUAL/POD 18 MANUAL.pdf · MANUAL/Older/pod18.pdf</li><li>POD18 - #Engineering/PCB/OBSOLETE/POD18ISS2.net · POD18iss2.bom · PCB/POD18ISS3.sch</li><li>POD18 - #TESTREPORT/POD18-21OCT13.pdf · ../POD1 - #Master/POD1 - #TESTREPORT/POD1-04NOV13.pdf</li><li>POD18 - #ARTWORK #DA #2016/POD18-FRONT&amp;REAR-SILK (CURVE).pdf · Pics/</li></ul>`); }
 
 SIM.register({
+  footnotes: [
+    { text: "The rear plate on the sheet is drawn 1.4 pt left of the two front plates (x 114.3 pt against 115.7 pt), and its outline is drawn twice.", src: "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "The front has four OUTPUT ADJUST holes (L and R for OUTPUT 1 and 2), but only OUTPUT 1 R has a drill crosshair on the art.", src: "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "Each rear XLR hole has two small screw holes at opposite corners, and the four UNBALANCED RCA holes share one centre crosshair.", src: "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr" },
+    { text: "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.", src: "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr" }
+  ],
   id:'pod18', name:'POD18 · quad audio interface, 4 × unbalanced → balanced (2013|46)', duration:1,
   product:'POD18', year:2013, family:'POD series', folder:'#POD #SERIES/POD18 - #Master',
   summary:'Half-rack four-channel interface. Each consumer RCA input becomes a balanced XLR output through an NE5532 gain stage and a unity inverter, with a front OUTPUT ADJUST trim per channel. The through-hole Issues 2/3 use a transformer and LM317/LM337 supply; it was later rebuilt on the RD64 SMT boards.',

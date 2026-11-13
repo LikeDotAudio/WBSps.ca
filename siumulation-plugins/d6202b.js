@@ -1008,7 +1008,34 @@ const SOURCES = [
   '#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A #Gerber #PNP/D6202A - #PNP #2016/D6202B-iss3-T.prg',
   '#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION (via t6203.js: T6203.net, T6203-iss2.net, ID 3K57/9K76)',
 ];
-SIM.register({
+/* footnotes (artwork pass 2026|59): one small detail per entry, with the archive file that shows it */
+const FOOTNOTES=[
+{
+"text": "No D6202B card-edge file exists; the D6202A card-edge drawing already shows the dual card (8 LEDs, EQ1 and EQ2).",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-card-edge.cdr"
+},
+{
+"text": "The 2012 guide lists the T6303A and T6403A for the D6202B, not the T6203 modelled here.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6202B - rear module options.cdr"
+},
+{
+"text": "The T6403A legend says “OUT 3 Card 2” twice; position 9 should be OUT 4 Card 2.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6202B - rear module options.cdr"
+},
+{
+"text": "In the 2008 T6203 drawing the Ω was set in “WP Greek Helve” and converts as Σ (“DUAL 110ΣAES DA”); the asset was corrected.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202B-T6203.cdr"
+},
+{
+"text": "The T6203 drawing carries no issue mark, so the same artwork stands for ISS1 and ISS2/3.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202B-T6203.cdr"
+},
+{
+"text": "The D6202B T6203 drawing is filed in the D6202A engineering folder.",
+"src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202B-T6203.cdr"
+}
+];
+SIM.register({ footnotes:FOOTNOTES,
   id:'d6202b', product:'D6202B', name:'D6202B · dual-input 110 Ω balanced AES distribution amplifier, openGear (2009|42)', year:2009,
   folder:'#OPENGEAR #SERIES/D6202B - #Master #OPENGEAR', family:'openGear',
   summary:'Dual-input, transformer-coupled 110 Ω AES3 DA on the D6202A ISS3/ISS4 board: 1×8, 2×4, or 1×8 through an AD1895 sample-rate converter that follows input 2 or the frame reference. The model runs the V100 firmware (a renamed copy of the D6201B V102 code) on the card drawn from its real gerbers.',

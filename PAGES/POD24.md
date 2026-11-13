@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD24](../siumulation.html?plugin=pod24) · [simulator & front panel](../simulator.html?m=POD24) · [KiCad symbol generator](../kicad.html?m=POD24) · [download package (zip)](../_packages/POD24.zip) |
+| Try it | [full simulation: POD24](../siumulation.html?plugin=pod24) · [KiCad symbol generator](../kicad.html?m=POD24) · [download package (zip)](../_packages/POD24.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD24 MANUAL(1).docx |
 | Confidence | medium |
@@ -71,45 +71,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD24 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD24 - MANUAL.docx](../Products/PODS/POD24/2014%20-%20POD24%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD24",
- "name": "Power Amplifier",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD24/2014 - POD24 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD24/2014 - POD24 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD24/2014 - POD24 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD24/2014 - POD24 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The cut-out layer shows a 9-slot speaker vent on the front, beside the rocker window. — `#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr`
+2. An 8-slot vent sits on the rear beside the mains hardware. — `#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr`
+3. A small unlabelled hole sits beside the “115 VAC, 1/2 A.S.B.” legend on the rear (fuse holder or ground stud, inferred). — `#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr`
+4. The panel says “STEREO / LEFT · RIGHT” where the manual calls the mode “MONO”. — `#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr`
+5. The rear power cut-out is a flatted round hole about 13 mm across, not an IEC inlet window. — `#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr`

@@ -608,7 +608,7 @@ function rearSVG(t, opts){
   opts=opts||{};
   const w=worldAt(t), RM=REARS[w.rear], ART=REAR_ART[w.rear];
   const sel=w.scopeOut;
-  const vb = opts.compact? ART.plate.join(' ') : `0 0 ${ART.w} ${ART.h}`;
+  const vb = opts.compact? (()=>{ const xs=ART.cx.flatMap(x=>ART.cy.map(y=>[x,y])).map(p=>p[0]), ys=ART.cx.flatMap(x=>ART.cy.map(y=>[x,y])).map(p=>p[1]), m=Math.max(ART.bw*0.75,14); const x0=Math.min(...xs)-m, y0=Math.min(...ys)-m*1.6; return [x0,y0,Math.max(...xs)+m-x0,Math.max(...ys)+m*1.3-y0].map(v=>v.toFixed(1)).join(' '); })() : `0 0 ${ART.w} ${ART.h}`;
   let s=`<svg viewBox="${vb}" role="img" aria-label="${RM.name} (CorelDRAW art)" style="width:100%;display:block;border-radius:6px">
     <image href="${ASSET}aa6201a-rear-${w.rear}.svg" width="${ART.w}" height="${ART.h}"/>`;
   const sig = role=> role==='inA'? w.A.src!=='off' : role==='inB'? w.B.src!=='off' : false;
@@ -1175,6 +1175,11 @@ function viewNotes(m){
 /* ---------------- register ---------------- */
 resetAll();
 SIM.register({
+  footnotes:[
+    {text:"T6303 position 8 is labelled “OUT1-3” on the CorelDRAW rear-module sheet (repeated in the PDF); the netlist puts OUT2-3 (AES7) there.", src:"#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201-REAR-MODULES.cdr"},
+    {text:"T6406 side labels mix “IN1#1” / “OUT1-2#2” with “IN2 #1” / “OUT1-1 #2” — the spacing was typed by hand.", src:"#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201-REAR-MODULES.cdr"},
+    {text:"Each rear module is drawn twice: on the combined AA6201-REAR-MODULES sheet (2008-08-07) and in single sheets AA6201A-T6303.cdr, AA6201-T6403.cdr, AA6201-T6406.cdr, plus Backup_of_ copies.", src:"#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201A-T6303.cdr"},
+    {text:"The card-edge drawing has three LED windows (CHA, CHB, COM Activity) and two trimmer screws (LEVEL CHA, LEVEL CHB).", src:"#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201A-card-edge.cdr"}],
   id:'aa6201a', name:'AA6201A · openGear analog audio DA with silence detection (2008|41)', duration:1,
   product:'AA6201A (Cobalt 9241 / Ross ADA-8404-C)', year:2008, family:'openGear',
   folder:'#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR',

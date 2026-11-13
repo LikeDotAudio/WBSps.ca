@@ -323,6 +323,13 @@ SIM.register({
   stepUnits:[{label:'1 PWM period (4 µs)',period:()=>1/K.FSW},{label:'1 AES frame',period:()=>1/FS},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s'],[0.01,'10 ms'],[0.002,'2 ms (two 1 kHz cycles)'],[0.0002,'200 µs'],[0.00002,'20 µs (five PWM periods)']],
   defaultZoom:2,
+  footnotes:[
+    {text:"The silk sheet's title block says MAR.17/15, but the (CURVE) file itself was saved 2015-11-06; the live-text twin AMS2-FRONT & REAR PANEL SILK.cdr is dated 2015-03-20.", src:"AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"},
+    {text:"Off the printed page the CorelDRAW file keeps a second, older copy of the rear legends and the “AMS2 SERIES” title (leftover working copy).", src:"AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"},
+    {text:"Of the two small holes either side of the STEREO / LEFT / RIGHT selector, only the left one carries a drill crosshair on the silk sheet.", src:"AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"},
+    {text:"The panel artwork (MAR.17/15) is newer than the rear drawing AMS2-REAR ISS 2 (24-02-15) by about a month.", src:"AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"},
+    {text:"The rear legend gives 90-230 VAC, 1A S.B. on the IEC inlet, and the analog trims are labelled ANALOG IN ADJUST, L and R.", src:"AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"},
+  ],
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial',render:viewTut},{id:'second',label:'One second, frame by frame',render:viewSecond},{id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Schematics',render:viewSchem},{id:'software',label:'Signal path & network config',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}],
 });
 })();

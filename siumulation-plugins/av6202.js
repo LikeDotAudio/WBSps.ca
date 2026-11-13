@@ -626,42 +626,48 @@ function bergsSVG(t){
   return s;
 }
 /* card edge, as AV6202A-card-edge.cdr: Level POT, SYNCH LED, NO SYNCH LED, ejector label */
+/* ---------- panel art (CorelDRAW → Inkscape SVG; positions measured on the converted art) ----------
+   card edge: AV6202A/Functional/AV6202A-card-edge.cdr (2008-10-21) → assets/av6202-edge.svg
+   T6301A / T6401A: openGear Rear Module Guides/AV6202A - rear module options.cdr (2012-01-16) → assets/av6202-rear-T6301/T6401.svg
+   T6201: AV6202A/Functional/AV6202-card-edge.cdr (2008-10-21) — misnamed, it holds the T6201/T6301/T6401 sheet → assets/av6202-rear-T6201.svg */
+const ARTDIR = '#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/';
+const GUIDE = '#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/';
+const REAR_ART = {
+  T6301:{w:146,h:169, r:5.85, plate:[44,36,52,115], c:[[56.8,58.3],[75.7,58.3],[56.8,77.2],[75.7,77.2],[56.8,96.1],[75.7,96.1],[56.8,115.0],[75.7,115.0],[56.8,133.9],[75.7,133.9]], dir:GUIDE, file:'AV6202A - rear module options.cdr', date:'2012|45'},
+  T6401:{w:146,h:169, r:5.85, plate:[47,36,52,115], c:[[60.0,59.4],[78.9,59.4],[60.0,78.3],[78.9,78.3],[60.0,97.2],[78.9,97.2],[60.0,116.1],[78.9,116.1],[60.0,135.0],[78.9,135.0]], dir:GUIDE, file:'AV6202A - rear module options.cdr', date:'2012|45'},
+  T6201:{w:140,h:220, r:11.5, plate:[28,8,82,180], c:[[54.5,31.6],[90.2,31.6],[54.5,62.7],[90.2,62.7],[54.9,94.4],[90.6,94.4],[54.5,125.5],[90.2,125.5],[54.9,156.1],[90.5,156.1]], dir:ARTDIR, file:'AV6202-card-edge.cdr', date:'2008|41'},
+};
+const artSrc = a => `${SIM.src(a.dir+a.file, a.file)} (CorelDRAW, ${a.date})`;
 function edgeSVG(t){
-  const w=worldAt(t), L=ledState(t), a=w.lvl*25*360;
-  return `<svg viewBox="0 0 230 400" style="width:100%;max-width:200px;display:block;margin:auto" role="img" aria-label="AV6202A card edge">
-   <defs><filter id="avGlow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-   <rect width="230" height="400" rx="8" fill="var(--dev)"/>
-   <rect x="120" y="14" width="14" height="300" fill="#2b2f2c" stroke="#555"/>
-   <g class="av-pot" style="cursor:pointer"><rect x="134" y="36" width="34" height="30" fill="#e6e6e0" stroke="#888"/><circle cx="151" cy="51" r="9" fill="#cfd2d4" stroke="#555"/>
-     <line x1="${151-8*Math.cos(a*Math.PI/180)}" y1="${51-8*Math.sin(a*Math.PI/180)}" x2="${151+8*Math.cos(a*Math.PI/180)}" y2="${51+8*Math.sin(a*Math.PI/180)}" stroke="#222" stroke-width="3"/>
-     <rect class="av-potL" x="130" y="30" width="21" height="42" fill="transparent"><title>Level POT: click left half = ½ turn CCW</title></rect><rect class="av-potR" x="151" y="30" width="21" height="42" fill="transparent"><title>Level POT: click right half = ½ turn CW</title></rect></g>
-   <text x="112" y="56" font-size="12.5" text-anchor="end" fill="#e6e6e6">Level POT</text>
-   <rect x="134" y="92" width="10" height="14" rx="2" fill="${L.s?LEDC.g:'#3b3f3c'}" ${L.s?'filter="url(#avGlow2)"':''}/><text x="112" y="104" font-size="12.5" text-anchor="end" fill="#e6e6e6">SYNCH LED</text>
-   <rect x="134" y="124" width="10" height="14" rx="2" fill="${L.n?LEDC.r:'#3b3f3c'}" ${L.n?'filter="url(#avGlow2)"':''}/><text x="112" y="136" font-size="12.5" text-anchor="end" fill="#e6e6e6">NO SYNCH LED</text>
-   <rect x="116" y="314" width="24" height="16" fill="#e9e9e2" stroke="#777"/><rect x="116" y="330" width="24" height="58" fill="#f6f6f1" stroke="#777"/>
-   <text transform="translate(133 384) rotate(-90)" font-size="13" font-weight="700" fill="#111">AV6202A</text>
-   <text x="8" y="396" font-size="9" fill="#8a8f93">AV6202A-card-edge.cdr</text></svg>`;
+  const w=worldAt(t), L=ledState(t), a=w.lvl*25*360*Math.PI/180, px=136.4, py=33.2;
+  const led=(y,on,col,tip)=>`<rect x="124.75" y="${y-6.3}" width="5.7" height="12.6" rx="1" fill="${on?col:'#2b2f2c'}" stroke="#555" stroke-width=".3" ${on?'filter="url(#avGlow2)"':''}><title>${tip} (${on?'lit':'off'})</title></rect>`;
+  return `<svg viewBox="8 8 160 100" style="width:100%;max-width:300px;display:block;margin:auto;border-radius:6px" role="img" aria-label="AV6202A card edge (CorelDRAW art)">
+   <defs><filter id="avGlow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+   <image href="${ASSET}av6202-edge.svg" width="170" height="220"/>
+   <g class="av-pot" style="cursor:pointer"><circle cx="${px}" cy="${py}" r="4.6" fill="#9a9a9a" stroke="#333" stroke-width=".4"/>
+     <line x1="${px-3.6*Math.cos(a)}" y1="${py-3.6*Math.sin(a)}" x2="${px+3.6*Math.cos(a)}" y2="${py+3.6*Math.sin(a)}" stroke="#111" stroke-width="1.3"/>
+     <rect class="av-potL" x="${px-12}" y="${py-11}" width="12" height="22" fill="transparent"><title>Level POT: click left half = ½ turn CCW</title></rect><rect class="av-potR" x="${px}" y="${py-11}" width="12" height="22" fill="transparent"><title>Level POT: click right half = ½ turn CW</title></rect></g>
+   ${led(65.6,L.s,LEDC.g,'SYNCH LED')}${led(86.7,L.n,LEDC.r,'NO SYNCH LED')}</svg>`;
 }
-/* rear module: 2 × 5 BNC grid, numbered as in the manual's Fig. 2 */
-function rearSVG(t){
-  const w=worldAt(t), RM=REARS[w.rear], c=chain(w), alive = snapAt(t).mode!=='off' && w.card;
-  const colX=[48,112], rowY=[46,108,170,232,294];
-  let s=`<svg viewBox="0 0 160 360" role="img" aria-label="${RM.name}" style="width:100%;max-width:200px;display:block;margin:auto">
-    <rect x="6" y="8" width="148" height="344" rx="3" fill="#c9ccd0" stroke="#7a7f85"/><text x="80" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#1b1d20">${w.rear}A</text>`;
+function rearSVG(t, opts){
+  opts=opts||{};
+  const w=worldAt(t), RM=REARS[w.rear], c=chain(w), alive = snapAt(t).mode!=='off' && w.card, R=REAR_ART[w.rear], r=R.r;
+  const vb = opts.compact? (()=>{ const xs=R.c.map(p=>p[0]), ys=R.c.map(p=>p[1]), m=R.r*1.5; const x0=Math.min(...xs)-m, y0=Math.min(...ys)-m*1.6; return [x0,y0,Math.max(...xs)+m-x0,Math.max(...ys)+m*1.3-y0].map(v=>v.toFixed(1)).join(' '); })() : `0 0 ${R.w} ${R.h}`;
+  let s=`<svg viewBox="${vb}" role="img" aria-label="${RM.name} (CorelDRAW art)" style="width:100%;max-width:340px;display:block;margin:auto;border-radius:6px">
+    <image href="${ASSET}av6202-rear-${w.rear}.svg" width="${R.w}" height="${R.h}"/>`;
   RM.pos.forEach(([lab,pin],i)=>{
-    const col=i%2, row=Math.floor(i/2), cx=colX[col], cy=rowY[row];
+    const [cx,cy]=R.c[i];
     const mine = !RM.dual || lab.endsWith('#'+w.pos), m=P1MAP[pin];
     const isIn = m.k==='in', oi = OUT_PINS.indexOf(pin);
     const conn = mine && (isIn? (w.src.on) : (m.k==='out' && w.loads[oi]>0));
     const lvl = mine && m.k==='out' && alive ? c.outs[oi] : null;
     const cls = mine && (isIn||m.k==='out')? `class="av-jack" data-j="${isIn?'in':oi}" style="cursor:pointer"` : '';
-    s+=`<g ${cls}><circle cx="${cx}" cy="${cy}" r="21" fill="#b9a160" stroke="#6b5a25"/><circle cx="${cx}" cy="${cy}" r="13" fill="#e2d39b"/><circle cx="${cx}" cy="${cy}" r="4" fill="#6b5a25"/>
-      ${conn? (isIn? `<circle cx="${cx}" cy="${cy}" r="16" fill="#2b5f9e" opacity=".88"/><rect x="${cx-5}" y="${cy}" width="10" height="26" fill="#2b5f9e"/>` : `<circle cx="${cx}" cy="${cy}" r="15" fill="#555c63" opacity=".9"/><text x="${cx}" y="${cy+4}" font-size="9" text-anchor="middle" fill="#fff">75Ω</text>`) : ''}
-      ${lvl!=null? `<circle cx="${cx+17}" cy="${cy-17}" r="4" fill="${lvl>0.05?'#2fbf5a':'#888'}"/>` : ''}
-      <rect x="${cx-24}" y="${cy-24}" width="48" height="48" fill="transparent"><title>${i+1} ${lab} — P1-${pin} (${m.n})${lvl!=null?': '+vpp(lvl):''}${cls?(isIn?' — click to plug/unplug the feed':' — click: 75 Ω load / open'):''}</title></rect></g>
-      <text x="${col? cx+24 : cx-24}" y="${cy+33}" font-size="8" text-anchor="${col?'end':'start'}" fill="${mine&&m.k!=='nc'?'#1b1d20':'#7c8186'}" font-weight="${mine&&m.k!=='nc'?700:400}">${i+1} ${lab}</text>`;
+    s+=`<g ${cls}>${conn? (isIn? `<circle cx="${cx}" cy="${cy}" r="${r*0.75}" fill="#2b5f9e" opacity=".88"/><rect x="${cx-r*0.28}" y="${cy}" width="${r*0.56}" height="${r*1.1}" fill="#2b5f9e" opacity=".88"/>` : `<circle cx="${cx}" cy="${cy}" r="${r*0.7}" fill="#555c63" opacity=".85"/><text x="${cx}" y="${cy+r*0.2}" font-size="${r*0.55}" text-anchor="middle" fill="#fff">75Ω</text>`) : ''}
+      ${!mine||m.k==='nc'? `<circle cx="${cx}" cy="${cy}" r="${r}" fill="#000" opacity=".13"/>` : ''}
+      ${lvl!=null? `<circle cx="${cx+r*0.95}" cy="${cy-r*0.95}" r="${Math.max(1.4,r*0.22)}" fill="${lvl>0.05?'#2fbf5a':'#888'}"/>` : ''}
+      <rect x="${cx-r-1.5}" y="${cy-r-1.5}" width="${2*r+3}" height="${2*r+3}" fill="transparent"><title>${i+1} ${lab} — P1-${pin} (${m.n})${lvl!=null?': '+vpp(lvl):''}${cls?(isIn?' — click to plug/unplug the feed':' — click: 75 Ω load / open'):''}</title></rect></g>`;
   });
-  return s+`<text x="80" y="348" font-size="7" text-anchor="middle" fill="#55595f">grid after the T6302 DXF — ${'inferred'} for T62/63/6401</text></svg>`;
+  return s+`</svg>`;
 }
 function frameSVG(t){
   const w=worldAt(t), RM=REARS[w.rear], n = w.rear==='T6201'? 10 : 20, L=ledState(t);
@@ -887,7 +893,7 @@ function viewSim(m){
    <div>${card('Parameter window (DashBoard-style, generic)', `<div id="dash"></div>`)}${card('What the card did (last action)', `<div id="trace" class="log"></div>`)}</div>
   </div>
   <div class="grid2">
-   <div>${card('Rear module and card edge — click IN to plug the feed, an OUT to terminate or open it', `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px"><div id="rear"></div><div id="edge"></div></div>`)}</div>
+   <div>${card('Rear module and card edge — click IN to plug the feed, an OUT to terminate or open it', `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px"><div id="rear"></div><div id="edge"></div></div><div class="small muted">Rear: T6301A / T6401A ${artSrc(REAR_ART.T6301)}; T6201 ${artSrc(REAR_ART.T6201)}. Card edge: ${SIM.src(ARTDIR+'AV6202A-card-edge.cdr','AV6202A-card-edge.cdr')} (CorelDRAW, 2008|41).</div>`)}</div>
    <div>${card('State at the playhead', `<div id="insp"></div>`)}</div>
   </div>
   ${card('Timeline — one second as the card and its displays see it (click to seek; zoom to “1 field”, “3 lines”, “1 line”)', `<canvas id="tl"></canvas><p class="small muted">Pass time = ${C.PASS_CYC} CPU cycles counted in the ICCAVR listings (${(C.PASS_CPU*1e6).toFixed(1)} µs at 8 MHz) stretched by the timer ISRs to ≈${(C.PASS*1e6).toFixed(1)} µs ${infT('ISR cycle counts estimated from CAN.s')}. LMH1981 output timing (HSOUT width, VSOUT window, VFOUT alignment) ${infT('the LMH1981 data sheet is not in the archive; the firmware constants imply it')}. Changes you make are events at the playhead; “Next second” carries the end state forward.</p>`)}
@@ -928,7 +934,7 @@ function viewTutorial(m){
   let wcVer=-1;
   const draw=()=>{ const t=SIM.t; finishUploadIfDone();
     if (wcVer!==D.ver){ wcVer=D.ver; m.querySelector('#wc').innerHTML=worldControlsHTML(); bindWorld(m); }
-    m.querySelector('#frm').innerHTML=frameSVG(t); m.querySelector('#crd').innerHTML=cardSVG(t,{labels:false}); m.querySelector('#bergs').innerHTML=bergsSVG(t); m.querySelector('#rear').innerHTML=rearSVG(t); m.querySelector('#edge').innerHTML=edgeSVG(t);
+    m.querySelector('#frm').innerHTML=frameSVG(t); m.querySelector('#crd').innerHTML=cardSVG(t,{labels:false}); m.querySelector('#bergs').innerHTML=bergsSVG(t); m.querySelector('#rear').innerHTML=rearSVG(t,{compact:true}); m.querySelector('#edge').innerHTML=edgeSVG(t);
     m.querySelector('#dash').innerHTML=dashHTML(t); m.querySelector('#trace').innerHTML=traceHTML();
     m.querySelector('#lessons').innerHTML=LESSONS.map((l,i)=>`<li style="cursor:pointer;${i===lessonIdx?'font-weight:700;color:var(--accent)':''}" data-i="${i}">${l.title}${i<lessonIdx?' ✓':''}</li>`).join('');
     m.querySelectorAll('#lessons li').forEach(li=>li.onclick=()=>{ lessonIdx=+li.dataset.i; draw(); });
@@ -1204,6 +1210,7 @@ const FINDINGS = [
   `<b>Manual mismatches.</b> NO SYNCH is listed as green (BOM/ECO: red). The block diagram shows COM and ERROR tallies the card does not have. DashBoard’s “Card Status: green / red dot” is really Video Status with format names, under Control. The supplier reads “Ward-Beck Systems” (the manual adds “Ltd.”). Ordering information calls the spare manual a “Universal Analog Audio Distribution Amplifier User Manual”. The rear-module drawing (AV6202-card-edge.cdr) still labels the T6401 cards “AV6201-1/-2”; the T6201 drawing shows IN on position 2 where the manual says N/C (P1-92 goes nowhere on the card).`,
   `<b>CAN macros are named backwards.</b> <span class="mono">CAN_RX</span> sets PD7 = the SN65HVD233 loop-back pin (card off the bus) and <span class="mono">CAN_TX</span> clears it. And can_rx_isr starts with <span class="mono">MOB_error = YES</span>: any interrupt that is not a clean reception makes the next pass call CANinit(), which also restarts both timers and so delays the next report. CANRX also logs every message type and source into <span class="mono">message_test_buffer[100]</span> / <span class="mono">MOB_read_buffer[100]</span> with <span class="mono">if (index &lt; sizeof(buf)) index++</span>, so the index reaches 100 and the next write lands one byte past each array.`,
   `<b>DataSafe can silence the card.</b> SET_PARAM 255.7 ≠ 0 (or 255.8 with bit 0 clear) sets <span class="mono">restore_start</span>, and CAN_TX_TIMER sends no REPORT_PARAM until it is cleared.`,
+  `<b>Artwork 2026|59: card edge and rear modules now from CorelDRAW.</b> Card edge from ${SIM.src(ARTDIR+'AV6202A-card-edge.cdr','AV6202A-card-edge.cdr')} (2008-10-21); T6301A / T6401A from ${artSrc(REAR_ART.T6301)}; T6201 from ${artSrc(REAR_ART.T6201)}. <span class="mono">AV6202-card-edge.cdr</span> is misnamed: it holds no card edge but a copy of the AV6201 rear-module sheet (T6201, T6301, T6401; the T6401 still says “AV6201-1 / AV6201-2”). The 2012|45 guide numbers T6301A outputs OUT 1–4 down the left and OUT 5–8 down the right, against the P1 pin order used here (OUT1 at position 3, OUT2 at 4 …), and labels position 2 “Not Connected”; the 2008 sheet labels it “IN”.`
 ];
 const ASSUME = [
   'LMH1981 output timing: HSOUT low ≈4.7 µs at each line start, VSOUT low for the broad-pulse window (3 H NTSC, 2.5 H PAL, 5 H 720p), VFOUT presenting the code MSB-first on the 11 lines after VSOUT. The data sheet is not archived; the firmware constants imply it.',
@@ -1230,6 +1237,12 @@ function viewFindings(m){
 resetAll();
 const curStd = () => { const w=worldAt(SIM.t), n=inputNode(w); return STD[n.on? n.std : w.src.std]; };
 SIM.register({
+  footnotes:[
+    {text:"AV6202-card-edge.cdr is misnamed: it holds no card edge but a copy of the AV6201 rear-module sheet (T6201, T6301, T6401), still captioned “AV6201-1 / AV6201-2”.", src:"#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/AV6202-card-edge.cdr"},
+    {text:"The real AV6202A card edge (AV6202A-card-edge.cdr) shows Level POT, SYNCH LED and NO SYNCH LED only — no EQ or clamp.", src:"#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/AV6202A-card-edge.cdr"},
+    {text:"The 2012 guide numbers T6301A outputs OUT 1–4 down the left and OUT 5–8 down the right, against the P1 pin order (OUT1 at position 3, OUT2 at 4).", src:"#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6202A - rear module options.cdr"},
+    {text:"AV6202A BERGS.cdr is the jumper legend set: TERM / HI Z, EXT / REF, REF 1 / 2, BAL.", src:"#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/AV6202A BERGS.cdr"},
+    {text:"Backup_of_AV6202A-card-edge.cdr sits beside the card-edge drawing — an autosave copy.", src:"#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/Backup_of_AV6202A-card-edge.cdr"}],
   id:'av6202', product:'AV6202', name:'AV6202 · utility analog video DA with frame-reference input, openGear (2009|42)', year:2009,
   folder:'#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR', family:'openGear',
   summary:'Composite-video DA (OEM Cobalt 9233): one differential input — or a frame reference for black burst — to eight 75 Ω outputs, with an LMH1981 sync separator and an AT90CAN128 reporting Video Status to DashBoard (SNMP from V200, 2012|45). Simulated from the V101/V200 firmware, the ISS1–ISS3 netlists and ECOs, and the ISS3 gerbers.',

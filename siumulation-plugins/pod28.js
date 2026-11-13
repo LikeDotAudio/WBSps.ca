@@ -919,7 +919,8 @@ function viewNotes(m){
 }
 
 /* ---------------- register plugin ---------------- */
-SIM.register({
+SIM.register({ footnotes:[{text:"The front is drilled only for PWR, SDI, HD and ERROR. There is no fourth tally, unlike the four-LED POD28iss1 build seen in an M8205 error file.",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr"},{text:"The rear prints “100-240 VAC, 50-60 Hz, ½ A.S.B.” beside the IEC cut-out, with the CAUTION block turned on its side.",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr"},{text:"The small hole above the right rear fixing screw is the ground-stud insert (FH-440-5) on the POD28 ISS 1 rear drawing.",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr"},{text:"The silk PNGs had been cut 3 px inside the crop marks (1709 × 316 px), so the full-panel vector art sits at (−3, −3) in that frame.",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr"}],
+  
   id:'pod28', name:'POD28 · SD/HD-SDI reclocking distribution amplifier ('+Y(2003)+')', duration:1,
   product:'POD28', year:2003, family:'POD series',
   folder:'#POD #SERIES/POD28 - #Master',

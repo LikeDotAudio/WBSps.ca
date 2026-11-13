@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD27](../siumulation.html?plugin=pod27) · [simulator & front panel](../simulator.html?m=POD27) · [KiCad symbol generator](../kicad.html?m=POD27) · [download package (zip)](../_packages/POD27.zip) |
+| Try it | [full simulation: POD27](../siumulation.html?plugin=pod27) · [KiCad symbol generator](../kicad.html?m=POD27) · [download package (zip)](../_packages/POD27.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD27 MANUAL(1).docx |
 | Confidence | medium |
@@ -96,45 +96,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD27 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD27 - MANUAL (2).docx](../Products/PODS/POD27/2014%20-%20POD27%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD27",
- "name": "Audio Muxer",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD27/2014 - POD27 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD27/2014 - POD27 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD27/2014 - POD27 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD27/2014 - POD27 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The rear panel has a small Ø 4.2 mm hole above the right fixing screw that no part in the model uses; the POD28 drawing calls the same hole a ground-stud insert, so it is probably the earth stud (inferred). — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr`
+2. Every front hole has a legend and a part: PWR LED, CASCADE button and LED, SELECT, GR1–4, SDI, AES1, AES2 and ERROR. Nothing is drilled without being used. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr`
+3. The FINAL CURVE rear reads “115 VAC, ½ A.S.B.”, while the 2015 PDF and SILK/POD27SLK-ISS2.cdr read “100-240 VAC, 50-60 Hz”. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr`
+4. The 2015 drawing also carries a “POD-27 SDI MUXER” front with OUTPUT LEVEL ADJUST 1–6 trimmer holes, a six-output DA layout the POD27 never had. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR.pdf`
+5. The FINAL CURVE drawing has a “SELECT” legend under the group button that the 2010 photo of the unit does not show. — `#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr`

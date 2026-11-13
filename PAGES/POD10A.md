@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD10A](../siumulation.html?plugin=pod10a) · [simulator & front panel](../simulator.html?m=POD10A) · [KiCad symbol generator](../kicad.html?m=POD10A) · [download package (zip)](../_packages/POD10A.zip) |
+| Try it | [full simulation: POD10A](../siumulation.html?plugin=pod10a) · [KiCad symbol generator](../kicad.html?m=POD10A) · [download package (zip)](../_packages/POD10A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD10A MANUAL(1).docx |
 | Confidence | medium |
@@ -121,41 +121,9 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD10A - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD10A - MANUAL (2).docx](../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD10A",
- "name": "AES Switcher",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD10A/2014 - POD10A - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD10A/2014 - POD10A - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. The rear power legend stops at “100-230 VAC, 50-60 Hz,” with a trailing comma and no fuse rating. — `#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr`
+2. The file name is missing its opening bracket: “POD10A-FRONT&amp;REAR-SILK CURVE).cdr”. — `#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr`
+3. The front 1-8 / A-B slide switch has its own rectangular cut-out beside the power LED. — `#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr`
+4. An older front-only sheet, POD10A-FRONT (FINAL CURVE).cdr, dates from 2014|47. — `#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT (FINAL CURVE).cdr`

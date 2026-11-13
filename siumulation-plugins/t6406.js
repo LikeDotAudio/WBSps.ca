@@ -1467,6 +1467,28 @@ function pxy(p){ const a=S.view==='cdr'? artOf() : null; return (a && a.at && a.
 DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from "+SIM.src("#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr", "T6406.cdr")+" (2008-06-10).</b> It is the default View; the Gerber copper (connector face and card side) stays on the View selector. Converted with Inkscape; the hairline outlines (stroke width 0 in CorelDRAW) were given a 0.6 pt line, the multi-line “+ − G” legends were re-stacked on the pin pitch because libcdr loses line layout, and the sheet caption “GENERIC” was dropped. Every connector centre in the drawing was checked against the Gerber positions.",
   "The guide draws the two 9-way blocks per column at a 0.148″ pin pitch, not the 0.1375″ (3.5 mm) of the copper, and starts the upper blocks about 0.09″ higher; the right column sits 0.036″ further out. In this view the click targets follow the drawing; switch View to the Gerber face for the real pin positions. Its footer names the MF6220 frame.");
 DATA.sources.unshift("#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr (CorelDRAW rear-module guide, 2008-06-10; assets/t6406-rear.svg)");
+const FOOT = [
+{
+"text": "The guide T6406.cdr (2008-06-10) draws the 9-way blocks at a 0.148″ pin pitch instead of the copper’s 0.1375″ (3.5 mm), starts the upper blocks about 0.09″ higher and the right column 0.036″ further out.",
+"src": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr"
+},
+{
+"text": "The guide names the left column “CARD #2” and the right “CARD #1”, the opposite of the “-1/-2” suffix order on the T6401–T6403 guides (if those suffixes are card numbers, inferred).",
+"src": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr"
+},
+{
+"text": "The guide’s footer names the MF6220 frame, the Ward-Beck frame this module was drawn for.",
+"src": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr"
+},
+{
+"text": "An AA6201-specific T6406 guide and its Backup_of_ copy sit in the AA6201A functional folder.",
+"src": "#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201-T6406.cdr"
+},
+{
+"text": "libcdr split the “+ − G” and “T6406” legends into separate text runs; they were re-joined and re-stacked on the drawn pin pitch.",
+"src": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr"
+}
+];
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
@@ -1944,6 +1966,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

@@ -220,6 +220,7 @@ function viewSoft(m){ window[KEY]=false;
 }
 function viewNotes(m){ window[KEY]=false;
   m.innerHTML=card('Findings — what the MF250 folder is up to', `<ol>
+   <li><b>Artwork ${SIM.year(2026)}: no usable panel art.</b> The frame's silks are CorelDRAW 5 files from March 1999: ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MF250/MF251S1.CDR','MF250/MF251S1.CDR')} (“MF251 CONSOLE POWER”, AC1, AC2, 115/230 VAC, caution) and ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MF250/MF250S.CDR','MF250/MF250S.CDR')}. libcdr keeps only the two earth symbols, four crosshairs and a few lines of MF251S1, and in MF250S a 1.74 × 1.59″ plate with a Ø0.75″ circle that matches neither the 17.090 × 3.425″ MF250M5 rear nor the 4.980 × 2.750″ MF250M10 blank; every text object decodes as garbled double-byte strings. So the rear stays the MF250M5 ISS 2 drawing and the CDR files are cited only. The NAB R2k sheets in the batch list are console overview art.</li>
    <li><b>MF250 is the metalwork; MF251 is the frame you buy.</b> Every drawing is numbered MF250Mx. The board, the silks (“MF251 CONSOLE POWER”) and the 1999 price list (“MF251 Power Supply Mounting Frame (essential in 12/20/28) $400”) all say MF251 ${inf('naming')}.</li>
    <li><b>The PSU board came from a DA frame.</b> MF250.BAK (1998) still has “MF8210.TOP/BOT” text layers, 1.26 in slot pitch and EDAC24 card-edge PSU sockets. The 1999 MF251.PCB moves to 1.000 in pitch and H15 PSU connectors. So the R2K power frame was adapted from the MF8210 distribution-amplifier frame. That fits the manual's “ancillary module slots” for 8200-series DAs.</li>
    <li><b>Template ghosts on every sheet.</b> Each 2012–2013 redraw (M1–M10, even the support bars) carries tiny text near (5.5, 14.5) spelling “PS1 · PS2 · 1.5/0.75 A SB · 115/230 V · REFERENCE INPUT”: the rear-panel silk of an MF8200-family frame, left in the drawing template. The 1999 originals carry a different ghost: “AMS4 REAR PANEL”, “ABB-M1”, “POD10RER”.</li>
@@ -232,6 +233,12 @@ function viewNotes(m){ window[KEY]=false;
    + card('Sources', `<ul class="small mono"><li>#CONSOLES - #OBSOLETE #Archive/XXX - MF250 - FRAME FOR R2K PSU #Mechanical #Obsolete/MF250M9 ISS 1 (OUTER BRKT).pdf/.dwg · Not in ERP/MF250M1–M10, M48 + LAYOUTs</li><li>…/#CONSOLES - #OBSOLETE #Archive/MF250/MF251.PCB, MF250.BAK, MF251.DSN, MF251W1.DSN, MF251S1.CDR · RADIO/REN2K/R2KUSPG2.HTM, RK12PWR.CDR · MODULES/MODSINFO.WPD</li><li>assets: mf250-frame-for-r2k-psu-rear.svg, mf250-frame-for-r2k-psu-m10-blank.svg</li></ul>`);
 }
 SIM.register({
+  footnotes: [
+    { text: "MF251S1.CDR (Mar 16 1999) is the rear power silk (“MF251 CONSOLE POWER”, AC1, AC2, 115/230 VAC, caution), but libcdr recovers only its earth symbols and crosshairs; the text exists only in the archive sidecar.", src: "#CONSOLES - #OBSOLETE #Archive/MF250/MF251S1.CDR" },
+    { text: "MF250S.CDR (Mar 17 1999) is a 1.74 × 1.59 in plate with a Ø0.75 in circle: the same small plate as M8246M3.CDR, not an MF250 panel.", src: "#CONSOLES - #OBSOLETE #Archive/MF250/MF250S.CDR" },
+    { text: "The silks are named MF251 while every metalwork sheet is MF250Mx: the MF251 is the assembled frame with its PCB.", src: "#CONSOLES - #OBSOLETE #Archive/MF250/MF251.PCB" },
+    { text: "MF250M5's revision table dates issue 1 “NOV. 31st 1999”, a day that does not exist.", src: "#CONSOLES - #OBSOLETE #Archive/XXX - MF250 - FRAME FOR R2K PSU #Mechanical #Obsolete/Not in ERP/MF250M5 ISS 2 (REAR HOUSING).pdf" }
+  ],
   id:'mf250-frame-for-r2k-psu', product:'MF250 - FRAME FOR R2K PSU', name:'MF250 · frame for the R2K console power supplies (1999|32)', year:1999,
   family:'Obsolete products', folder:'#CONSOLES - #OBSOLETE #Archive/XXX - MF250 - FRAME FOR R2K PSU #Mechanical #Obsolete',
   summary:'The rack frame (sold as the MF251) that holds one or two M8246 supplies for the R2K console, plus six ancillary slots for 8200-series DAs. Two AC inlets and fuses on the rear; a blank front for the empty supply bay. The archive copy is the 2012–2013 metalwork redraw set.',

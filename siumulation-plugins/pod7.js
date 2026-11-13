@@ -1046,6 +1046,11 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes:[{text:"The rear legend reads \"AUDIO I\\O\" with a backslash instead of a slash.", src:"#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr"},
+  {text:"The rear centre title \"POD 7 UNIVERSAL INTERFACE\" is set in a condensed face, unlike every other legend on the panels.", src:"#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr"},
+  {text:"A small circle sits over the slash of \"115 VAC, 1/2 A.S.B.\" It is the PEM ground stud hole. <span class=\"tag-inf\">inferred</span>", src:"#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr"},
+  {text:"The file name has a stray space: \"( CURVE)\".", src:"#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr"},
+  {text:"POD7SILK.CDR (2 Nov 1998) is the first-issue silk.", src:"#POD #SERIES/POD7 - #Master/POD7 - #Engineering/POD7 - #SILK/POD7SILK.CDR"}],
   id:'pod7', name:'POD7 · Universal GPI interface ('+Y(1997)+')', duration:1,
   product:'POD7', year:1997, family:'POD series',
   folder:'#POD #SERIES/POD7 - #Master',

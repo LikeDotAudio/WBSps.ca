@@ -281,19 +281,24 @@ function frontSVG(t, opts){
    32ME-REARPANEL_Feb212013.cdr text: MADI IN/OUT, SYNC IN/OUT, AES IN/OUT 1-4, 5-8, 9-12, 13-16,
    ANALOG MONITOR OUTPUT L/R (+ G −), 90-230 VAC 1A S.B. Positions are inferred. */
 function rearSVG(){
-  const bnc=(x,lbl,on,cls)=>`<g class="${cls||''}" style="${cls?'cursor:pointer':''}"><circle cx="${x}" cy="150" r="34" fill="#a8913f" stroke="#5e4d1c" stroke-width="3"/><circle cx="${x}" cy="150" r="20" fill="#d8c27a"/><circle cx="${x}" cy="150" r="7" fill="#7a5f12"/>${on?`<rect x="${x-14}" y="184" width="28" height="70" fill="#2b5f9e"/>`:''}<text x="${x}" y="98" text-anchor="middle" font-size="22" fill="#eee">${lbl}</text></g>`;
-  const db25=(x,lbl)=>`<rect x="${x}" y="120" width="270" height="70" rx="14" fill="#9aa0a6" stroke="#55595c" stroke-width="3"/><rect x="${x+22}" y="134" width="226" height="42" rx="10" fill="#1d1f22"/><text x="${x+135}" y="98" text-anchor="middle" font-size="22" fill="#eee">${lbl}</text>`;
-  let s=`<svg viewBox="0 0 3449 331" role="img" aria-label="32ME rear panel (legends from the 2013 rear silk, layout inferred)" style="width:100%;border-radius:6px;display:block"><rect width="3449" height="331" rx="8" fill="var(--dev)"/>
-    <rect x="60" y="70" width="300" height="190" rx="10" fill="#0a0b0c" stroke="#333"/><text x="210" y="290" text-anchor="middle" font-size="18" fill="#ccc">90-230 VAC, 1A S.B.</text>
-    ${bnc(520,'MADI IN',D.madiIn,'rmadi')}${bnc(640,'MADI OUT',false)}${bnc(800,'SYNC IN',false)}${bnc(920,'SYNC OUT',false)}
-    ${db25(1060,'AES 1-4')}${db25(1380,'AES 5-8')}${db25(1700,'AES 9-12')}${db25(2020,'AES 13-16')}
-    <text x="1700" y="300" text-anchor="middle" font-size="20" fill="#ccc">AES IN/OUT (DB25, via the 32ME-2 boards)</text>
-    <rect x="2440" y="110" width="250" height="80" rx="6" fill="#1f8a45" stroke="#0e4d25" stroke-width="3"/>${[0,1,2,3,4,5].map(i=>`<circle cx="${2465+i*40}" cy="150" r="13" fill="#0d3a1c"/>`).join('')}
-    <text x="2565" y="98" text-anchor="middle" font-size="22" fill="#eee">ANALOG MONITOR OUTPUT</text><text x="2565" y="220" text-anchor="middle" font-size="18" fill="#ccc">L: + G −   R: + G −</text>
-    <rect x="2800" y="60" width="560" height="210" rx="8" fill="${D.unet?'#123a6b':'#15171a'}" stroke="#444" stroke-dasharray="8 6"/>
-    <text x="3080" y="110" text-anchor="middle" font-size="22" fill="#eee">${D.unet?'32ME-N: uNet2500 RJ45 (Ethernet, RAVENNA/PTP)':'option slot (inside): H4 34-pin'}</text>
-    <text x="3080" y="150" text-anchor="middle" font-size="18" fill="#bbb">${D.unet?'streams 239.1.236.2 / 239.2.236.2 :5004':D.madiCard?'i64 MADI OEM module fitted':'empty'}</text>
-    <text x="3080" y="250" text-anchor="middle" font-size="16" fill="#999">network option position inferred</text></svg>`;
+  /* Geometry from the CorelDRAW rear sheet (RD22 …/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr): its off-page copy
+     carries the outline/hole guides and the WHITE legends, 1241.28 × 118.7 pt = the same 3449 × 331 frame (200 px/in) as the front.
+     Hole centres in this frame: IEC 74–290 × 43–286; MADI optical cut-out 1212–1416 × 105–190; small holes 1451,154 and 1826,154;
+     BNC OUT 1551,137 and IN 1727,137 (Ø101); Phoenix 1992–2208 × 214–281; DB25 shells at x 2379 / 2849, y 40 / 196 (329 × 94). */
+  const bnc=(x,lbl,on,cls)=>`<g class="${cls||''}" style="${cls?'cursor:pointer':''}"><title>MADI coax ${lbl} (BNC)${cls?' — click to plug or unplug':''}</title><circle cx="${x}" cy="137" r="47" fill="#a8913f" stroke="#5e4d1c" stroke-width="3"/><circle cx="${x}" cy="137" r="28" fill="#d8c27a"/><circle cx="${x}" cy="137" r="9" fill="#7a5f12"/>${on?`<circle cx="${x}" cy="137" r="40" fill="#2b5f9e" opacity=".9"/><circle cx="${x}" cy="137" r="16" fill="#3a74b8"/>`:''}</g>`;
+  const db25=(x,y)=>`<rect x="${x}" y="${y}" width="329" height="94" rx="12" fill="#9aa0a6" stroke="#55595c" stroke-width="3"/><rect x="${x+30}" y="${y+16}" width="269" height="62" rx="12" fill="#1d1f22"/>${Array.from({length:13},(_,k)=>`<circle cx="${x+48+k*19.4}" cy="${y+36}" r="4" fill="#777"/>`).join('')}${Array.from({length:12},(_,k)=>`<circle cx="${x+58+k*19.4}" cy="${y+58}" r="4" fill="#777"/>`).join('')}`;
+  const sync=D.madiCard&&D.madiIn;
+  let s=`<svg viewBox="0 0 3449 331" role="img" aria-label="32ME rear panel (CorelDRAW rear silk, Feb 21 2013)" style="width:100%;border-radius:6px;display:block"><rect width="3449" height="331" rx="8" fill="var(--dev)"/>
+    <rect x="76" y="45" width="212" height="239" rx="10" fill="#0a0b0c" stroke="#333"/><rect x="120" y="105" width="124" height="96" rx="8" fill="#151719"/>${[150,182,214].map(x=>`<rect x="${x-5}" y="135" width="10" height="34" fill="#4a4d50"/>`).join('')}
+    ${Array.from({length:9},(_,k)=>`<rect x="${526+k*40}" y="66" width="15" height="198" rx="7" fill="#0a0b0c"/>`).join('')}
+    <rect x="1214" y="107" width="200" height="81" rx="6" fill="#151719" stroke="#3a3d40" stroke-width="2"/>${[1262,1382].map(x=>`<rect x="${x-34}" y="122" width="68" height="52" rx="6" fill="#26292c"/><circle cx="${x}" cy="148" r="9" fill="#0a0b0b" stroke="#55595c" stroke-width="2"/>`).join('')}
+    ${[1451,1826].map(x=>`<circle cx="${x}" cy="154" r="11" fill="${sync?'var(--led-g)':'var(--led-off)'}" stroke="#0a0b0b" stroke-width="3"/>`).join('')}
+    ${bnc(1551,'OUT',false)}${bnc(1727,'IN',D.madiIn,'rmadi')}
+    <rect x="1994" y="216" width="212" height="63" rx="4" fill="#26a356" stroke="#0e5d2b" stroke-width="2"/>${[0,1,2,3,4,5].map(k=>`<rect x="${2010+k*33}" y="231" width="24" height="34" fill="#0e4d25"/>`).join('')}
+    ${db25(2379,40)}${db25(2849,40)}${db25(2379,196)}${db25(2849,196)}
+    <image href="${ASSET}32me-rear.svg" width="3449" height="331"/>
+    <g opacity=".9"><rect x="3228" y="40" width="200" height="250" rx="8" fill="${D.unet?'#123a6b':'none'}" stroke="#666" stroke-dasharray="8 6"/>
+    <text x="3328" y="140" text-anchor="middle" font-size="20" fill="#ddd">${D.unet?'uNet2500 RJ45':'H4 option'}</text><text x="3328" y="168" text-anchor="middle" font-size="16" fill="#aaa">${D.unet?'(no hole on the 2013 art)':D.madiCard?'i64 MADI fitted':'empty'}</text><text x="3328" y="196" text-anchor="middle" font-size="14" fill="#999">not on the silk</text></g></svg>`;
   return s;
 }
 function bindPanel(root){
@@ -382,7 +387,7 @@ function inspector(t){
 function viewSim(m){
   window.__32meActive=true;
   m.innerHTML = card('Front panel at the playhead (real 2012|45 panel artwork; meters placed from the AMS8E-4 Gerbers)', `<div id="fp"></div>${controlsHTML()}`)
-   + card('Rear panel and option module', `<div id="rp"></div><div style="margin-top:8px">${moduleCtl()}</div>`)
+   + card('Rear panel and option module', `<div id="rp"></div><div class="small muted" style="margin-top:4px">Rear artwork: ${SIM.src('ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr','32ME-REARPANEL_Feb212013.cdr')} (2013-02-21|46), WHITE legends and the sheet's hole guides (grey). Two live-text lines that libcdr set at 14 pt on top of other text (MADE IN CANADA, PLEASE REFER TO MANUAL) are re-set at 6 pt ${inf}. The front stays on the 2012|45 FINAL panel art.</div><div style="margin-top:8px">${moduleCtl()}</div>`)
    + `<div class="grid2">${card('What the firmware did (last action)', '<div id="trace" class="log"></div>')}${card('State at the playhead', '<div id="insp"></div>')}</div>`
    + card('Timeline: one second, zoomable (click to seek)', `<canvas id="tl"></canvas><p class="small muted">The meters are vumeter.asm run on every sample: VU integrates the squared input with Tvu (40 dB in ${K.tVU.toFixed(3)} s), PPM attacks 40 dB in ${(K.tA*1e3).toFixed(2)} ms and falls 40 dB in ${K.tD.toFixed(2)} s. The LED mux, i64 and FPGA clocks come from the code and the module documents. The uNet lanes appear when the 32ME-N option is fitted.</p>`)
    + card('Action log', '<div id="log" class="log"></div>');
@@ -584,6 +589,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__32meActive=false;
   m.innerHTML=card('What the 32ME is up to: findings', `<ol>
+   <li><b>Artwork 2026|59: rear panel now from ${SIM.src('ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr','32ME-REARPANEL_Feb212013.cdr')} (2013-02-21|46).</b> The sheet keeps a full off-page copy of the rear with its hole guides, so the layout is no longer inferred (assets/32me-rear.svg): IEC inlet and nine vent slots on the left, MADI as an optical duplex cut-out (OUT, IN) plus two BNCs (OUT, IN), two small holes both labelled SYNC, a 6-way Phoenix ANALOG MONITOR OUTPUT and four DB25s (AES 1-4, 5-8 over 9-12, 13-16). The earlier drawing showed four BNCs (MADI IN/OUT, SYNC IN/OUT); the art has no SYNC BNCs, and the two SYNC holes are read here as lock LEDs ${inf}. The monitor legend reads R on the left and L on the right, each “+ − G”. There is no RJ45 or option opening, so the 32ME-N network port had no place on the 2013 rear. The rear legend says “90-230 VAC, 1A S.B.”; nine other rear CDRs (2012–2013, with backups) sit in the same OBSOLETE tree.</li>
    <li><b>The 32ME-N link is confirmed, not just inferred.</b> The README calls the uNet/AMS8E-1 link a guess from the folder name. But <span class="mono">unet-standard-Parameters.xlsx</span> has a WBS column next to the defaults: <span class="mono">ModelName uNet2500 → 32ME-N</span>, <span class="mono">ManufacturerName Archwave → Ward-Beck Systems</span>, and the two analog streams renamed <span class="mono">32ME_AES_IN_1_4</span> / <span class="mono">32ME_AES_IN_5_8</span>.</li>
    <li><b>The uNet was wired as a stand-in MADI module.</b> The harness goes to <span class="mono">H4</span>, which the AMS8E-1 ISS5 BOM lists as the 2×17 PROLEX header used for the i64. Only 8 wires have colours (5V, GND, SDIN0/1, SDOUT0/1, SCLK, LRCLK). MCLK, SPI, UART and GPIO are listed but not wired, so the uNet must run on its own PTP clock and the 32ME slaves to its LRCLK. The sketch lands LRCLK and SCLK on H4 29/33 (FSYNC_IN_I64, MCLK_IN_I64 in the AMS8E-1 IPC netlist) and SDOUT0/1 on 28/26 (DATA6/5_IN_I64). The uNet’s I8S format (8 slots per line at 256FS) is the i64’s format, so its 16 inputs appear as MADI channels 33–48. The odd pins 17–27, blank on DirectOut’s sheet, are DATAn_RESERVED on the WBS board.</li>
    <li><b>“2 x 34 pin header” is 34 pins.</b> The i64 pin-out sheet and README say 2×34, but the pins stop at 34 and DirectOut’s email calls it a “2x17 pinheader”. The BOM agrees (H2X17).</li>
@@ -612,6 +618,13 @@ function viewNotes(m){
 }
 
 SIM.register({
+  footnotes:[
+    {text:'The 2013 rear silk has MADI on an optical duplex cut-out and two BNCs, and no SYNC BNCs; two small holes are both labelled SYNC.', src:'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr'},
+    {text:'The ANALOG MONITOR OUTPUT legend puts R on the left and L on the right, each as + − G, on a single 6-way Phoenix cut-out.', src:'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr'},
+    {text:'The 2013 rear art has no RJ45 or option-card opening, so the uNet2500 of the 32ME-N had no rear port on this panel.', src:'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr'},
+    {text:'The rear sheet holds the panel twice: a copy with hole guides placed off the page and the WHITE plate on the page.', src:'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr'},
+    {text:'Rear mains legend: “90-230 VAC, 1A S.B. CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE” plus “PLEASE REFER TO MANUAL” beside a warning triangle.', src:'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr'},
+    {text:'The SILK tree holds about 26 CorelDRAW files for the 32ME panels and chroma filter (2012–2013), many as Backup_of_ copies, all under OBSOLETE except ConceptFrontAll.cdr.', src:'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE'}],
   id:'32me', name:'32ME · MADI / network 32-meter audio monitor (2013|46)', duration:1,
   product:'32ME', year:2013, family:'Monitors, meters & tools', folder:'32ME-N',
   summary:'A 1RU, 32-meter audio monitor for 16 AES pairs, a 64-channel MADI stream (DirectOut i64 module, 32ME-MADI) or a RAVENNA network feed (Archwave uNet, 32ME-N). One knob drives the menus. A SHARC runs the VU and PPM ballistics and multiplexes four AMS8E-4 LED boards.',

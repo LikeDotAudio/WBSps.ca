@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD14A](../siumulation.html?plugin=pod14a) · [simulator & front panel](../simulator.html?m=POD14A) · [KiCad symbol generator](../kicad.html?m=POD14A) · [download package (zip)](../_packages/POD14A.zip) |
+| Try it | [full simulation: POD14A](../siumulation.html?plugin=pod14a) · [KiCad symbol generator](../kicad.html?m=POD14A) · [download package (zip)](../_packages/POD14A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD14A MANUAL(1).docx |
 | Confidence | medium |
@@ -91,44 +91,8 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD14A - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD14A - MANUAL.docx](../Products/PODS/POD14A/2014%20-%20POD14A%20-%20MANUAL.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD14A",
- "name": "Dual Analog To Digital Converter",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD14A/2014 - POD14A - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD14A/2014 - POD14A - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD14A/2014 - POD14A - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD14A/2014 - POD14A - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The SAMPLE RATE row is legended 32 · 44.1 · 48 · 96; the fifth LED hole is drilled (with its crosshair) but has no “192” legend, although the 2015 photo shows one. — `#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr`
+2. The rear power legend reads “100-240 VAC, 50-60 Hz, ½ A.S.B.”, a wider range than the POD10A/POD12A “100-230 VAC”. — `#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr`
+3. An older rear-only sheet, POD14A-SILK-RR-ISS2.cdr, dates from 2010|43. — `#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-SILK-RR-ISS2.cdr`

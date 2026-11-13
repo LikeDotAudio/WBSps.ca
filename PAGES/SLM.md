@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: SLM loudness meters](../siumulation.html?plugin=slm) · [simulator & front panel](../simulator.html?m=SLM) · [KiCad symbol generator](../kicad.html?m=SLM) · [download package (zip)](../_packages/SLM.zip) |
+| Try it | [full simulation: SLM loudness meters](../siumulation.html?plugin=slm) · [KiCad symbol generator](../kicad.html?m=SLM) · [download package (zip)](../_packages/SLM.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/SLM Series MANUAL_(1).docx |
 | Confidence | medium |
@@ -130,59 +130,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - SLM - Series MANUAL_ (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - SLM - Series MANUAL_ (2).docx](../Products/METERING/SLM/2014%20-%20SLM%20-%20Series%20MANUAL_%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "SLM",
- "name": "Series Stereo Loudness Meter",
- "category": "METERING",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/METERING/SLM/2014 - SLM - Series MANUAL_ (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/SLM/2014 - SLM - Series MANUAL_.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/SLM/19xx - SLM - DOC - SLM1A Rear.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/SLM/19xx - SLM - DOC - SLM1D-110 Rear.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/SLM/19xx - SLM - DOC - SLM1D-75 Rear.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/MICRO SERIES/microDriver/19xx - microDriver - DOC - Commonly Requested Parts _ Accessories.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```
+1. Artwork 2026|59: the front lens and rear panel are drawn from SLM-1M7-SILK(CURVE).cdr and SLM-1M2-SILK(CURVE).cdr (both Jun 6 2016). — `#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr`
+2. The lens sheet puts the GREEN plate (logo, WARD-BECK SYSTEMS, meter frame) and the WHITE plate (scale, ranges, LOCK / NO LOCK, PHASE, LOUDNESS METER) side by side rather than stacked. — `#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr`
+3. The rear legend names the four DIP switches BS1, BS0, CAL1, CAL0 and warns “USE AC ADAPTER PROVIDED WITH THIS PRODUCT”. — `#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M2-SILK(CURVE).cdr`
+4. SLM-1M20-SILK(CURVE).cdr is exactly the same size as its non-curve twin, and the M13 CURVE file is smaller than its twin: those two were probably never converted to curves. — `#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M20-SILK(CURVE).cdr`
+5. The artwork folder also holds SLM-1 M4, M5, M12, M13, M18 and M20 panels that the simulator does not model. — `#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M5-SILK(CURVE).cdr`
+6. The SLM-1-3 engineering folder keeps a separate earlier SLM1-3 silk and front silk in CorelDRAW. — `#SLM #SERIES - To Delete/SLM - #Engineering - To Delete/SLM-1/PCB/SLM-1-3/SILK/SLM-1-3 FRONT-SILK-CURVE.cdr`

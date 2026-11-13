@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: AMS82](../siumulation.html?plugin=ams82) · [simulator & front panel](../simulator.html?m=AMS8-2AA) · [KiCad symbol generator](../kicad.html?m=AMS8-2AA) |
+| Try it | [full simulation: AMS82](../siumulation.html?plugin=ams82) · [KiCad symbol generator](../kicad.html?m=AMS8-2AA) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -40,21 +40,12 @@ The software listings name the AMS8-2AA only as part of the [AMS8-2](AMS8-2.md#s
 |---|---|---|
 | 2014 | [2014 - AMS8-2AA - Rear.jpg](../Products/METERING/AMS8-2AA/2014%20-%20AMS8-2AA%20-%20Rear.jpg) | [note](../Products/METERING/AMS8-2AA/2014%20-%20AMS8-2AA%20-%20Rear.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AMS8-2AA",
- "name": "Mkiii 8 Channel Audio Monitoring System",
- "category": "METERING",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/METERING/AMS8-2AAE/2014 - AMS8-2AAE - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. Artwork 2026|59: the front and rear panels are drawn from the CorelDRAW sheets AMS82-FRONT-SILK (CURVE).cdr (OCT.20/15) and AMS82-M2 SILK (CURVE).cdr (MAY 07/15). — `AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr`
+2. The 2015 front artwork has hexagonal vent holes; the product photo shows slotted vents, so the photo is of an earlier issue. — `AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2A Series Front.jpg`
+3. The rear top row is legended SDI IN 1 / 2, SDI OUT, COMP, G/Y, B/Pr, R/Pb, but those seven holes are empty in the photo. It is an unbuilt SDI + component-video variant; the DEMUX 4 board that was built sits on the centre plate instead. — `AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2AAM (Demux 4).jpg`
+4. The 1–8 numbers under the buttons are on the GREEN plate; INPUTS, PRESETS, SELECT and VOLUME are on the WHITE plate. — `AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr`
+5. The rear sheet carries a third-party ‘Designed for’ logo box; the simulator shows it as plain text. — `AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-M2 SILK (CURVE).cdr`
+6. The rear art is stored three times: in #ARTWORK #DA #2016, in AMS82/SILK and in AMS82 #Engineering/AMS82 #SILK (the last two dated May 2015). An older 2014 sheet, AMS82-1M1-CURVE.cdr, sits beside them. — `AMS82 - #Master/AMS82 #Engineering/AMS82 #SILK/AMS82-1M1-CURVE.cdr`
+7. Older 2005|38–2006|39 sheets (AMS82-DEMUX4-*) in the TIM engineering folder show an earlier rear with the SDI IN / SDI OUT / COMP / Y / Cr / Cb top row and a four-legend SDI IN, SDI OUT, AES 1, AES2 plate, still titled AMS-81. — `AMS8 #Engineering #TIM/AMS82/SILK/AMS82-DEMUX4-REARPANEL-SILK-CURVE.cdr`

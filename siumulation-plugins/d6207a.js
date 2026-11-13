@@ -1037,6 +1037,7 @@ function viewSoft(m){
 /* ---- Findings ---- */
 const F_ = (t,b,src)=>`<b>${t}</b> ${b}${src?` <span class="small muted mono">${src}</span>`:''}`;
 const FINDINGS = [
+  F_('Drawings stored twice.', 'D6207A-card-edge.cdr, D6207A-T6305.cdr, D6207A.cdr and their Backup_of_ copies are byte-identical in the Master Functional folder and in “D6207A  #Engineering #TIM #PCB”.', ''),
   F_('V102 reads the DIP switch before the FPGA is configured.', 'main() pulses ALTERA_RESET (nCONFIG through Q1), then reads ALTERA1 after 8 and 20 × wait(3000) (≈25 and ≈57 ms). An EP1C12 loading ≈2.3 Mbit by Active Serial is not ready that fast '+inf('configuration time not in the archive')+', so the read sees 0xFF and every switch looks OFF. The V2001 test report says the fix was for “the FPGA would not initialize completely at startup”; v201 replaces the waits with up to five CONF_DONE polls (PINE bit 5).', 'v100w.c main(); v201/v100w.c //Ali-Add; D6207A-V2001-20JUL12.pdf'),
   F_('“Dolby installed” is the decoder’s ERR pin.', 'DOLBY_INSTALLED = PINA & BIT5. On the board PA5 is net ALTERA2 (FPGA pin 128), which AMS81.bdf drives from DOLBY_ERR (pin 237) = P3-70 ERR with R82 1K to ground. altera.c also reads the same pin as ALTERA_DATA_READ during every write; the bytes land in ALTERA_BUFFER_in and are never used.', 'dolby.h, altera.h; AMS81.bdf SOFT inst40; D6207A.net ERR'),
   F_('The compressed flag is active-high; the documents are wrong.', 'non_audio_detector sets pa1(7) <= detect_r = 1 when it finds a burst, and the V102 code tests bit 5 / bit 7 set = compressed. Both register-map documents say “0 = yes”. This settles the open question in the docs plugin.', 'non_audio_detector.vhd; D6207A.c PROCESS_AUDIO_FORMAT'),
@@ -1082,7 +1083,14 @@ function viewFindings(m){ window.__d6207aActive=false;
    Register
    --------------------------------------------------------------------- */
 SIM.register({
-  id:'d6207a', product:'D6207A', name:'D6207A · openGear Dolby E / AC-3 decoder, Ross DED-8420 ('+YR(2008)+')', year:2008,
+  id:'d6207a',
+  footnotes:[{text:'Card edge and rear panel artwork from the CorelDRAW files (2026|59): D6207A-card-edge.cdr (2008-05-08) and the openGear Rear Module Guide D6207A - Rear Module Options.cdr (2012-01-16).', src:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6207A - Rear Module Options.cdr'},
+    {text:'The card-edge drawing shows exactly seven LEDs: AES1, Dolby1, Error1, AES2, Dolby2, Error2 and COM Activity.', src:'#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-card-edge.cdr'},
+    {text:'The 2012 guide labels rear position 9 “Reserved” and 10 “Metadata OUT”; the 2007 sheet calls position 9 “GPI/O 1”.', src:'#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-T6305.cdr'},
+    {text:'The guide names the module T6305A; the 2007 sheet and the netlist say T6305.', src:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6207A - Rear Module Options.cdr'},
+    {text:'In the Inkscape conversion of the 2007 T6305 sheet only the two input BNCs are drawn; positions 3–10 carry numbers and labels only.', src:'#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-T6305.cdr'},
+    {text:'D6207A-card-edge.cdr, D6207A-T6305.cdr, D6207A.cdr and their Backup_of_ copies are stored twice, byte-identical, in the Master Functional folder and the #TIM #PCB folder.', src:'#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A-card-edge.cdr'}],
+   product:'D6207A', name:'D6207A · openGear Dolby E / AC-3 decoder, Ross DED-8420 ('+YR(2008)+')', year:2008,
   folder:'#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR', family:'openGear',
   summary:'The D6207A openGear decoder card (sold as Ross DED-8420): two AES inputs, an EP1C12 that finds SMPTE 337 bursts and routes them to a plug-in CAT552 decoder module, and an AT90CAN128 running the V102 or V201 firmware. The model runs main() pass by pass from power-up, with the real ISS2 board artwork, the DIP switch, DashBoard and the T6305 rear module.',
   highlights:['Card drawn from the ISS2 gerbers, with live LEDs, DIP switch and decoder module','Boot race: V102 reads the DIP before the FPGA is configured, V201 waits for CONF_DONE','FPGA burst detector, Reg 20 and status bytes traced from AMS81.bdf','PCM / AC-3 / Dolby E / DTS inputs, auto swap, LoRo/LtRt and decoder resets','DashBoard reports paced by CAN_TX_TIMER','24 findings, including the one-shot mapping-error watchdog and the DTS-upmix FPGA'],

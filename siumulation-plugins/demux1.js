@@ -1124,6 +1124,8 @@ function viewFindings(m){
 /* ---------------- register ---------------- */
 loadScenario('boot');
 SIM.register({
+  footnotes: [{"text": "On the POD19 rear silk only OUTPUT 1 and SDI INPUT carry a printed cross; OUTPUT 2 and SDI OUTPUT do not, and nothing says why.", "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr"}, {"text": "The panel art is a 2014|47 redraw (“Jun.25/14”), twelve years after the module’s ISS2; the 2001 original is POD19SLKv3.cdr.", "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19SLKv3.cdr"}, {"text": "The FINAL CURVE sheet has a Backup_of_ copy dated a day earlier (25 Jun 2014).", "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/Backup_of_POD19-FRONT&REAR(FINAL CURVE) .cdr"}, {"text": "One sheet holds three plates: FRONT GREEN, FRONT WHITE and REAR WHITE; only the rear shows the DEMUX-1 BNCs.", "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr"}],
+  
   id:'demux1', name:'DEMUX-1 · SDI audio de-embedder board (2001|34)', duration:1,
   product:'DEMUX-1', year:2001, family:'Obsolete products',
   folder:'#DEMUX #SERIES/XXX - DEMUX1 - #Engineering #OBSOLETE',

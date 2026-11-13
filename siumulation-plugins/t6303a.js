@@ -2001,6 +2001,7 @@ function lostOf(slot){
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
+  if (S.view==='cdr') return `<div style="max-width:${opts.max||560}px;margin:auto"><svg viewBox="0 0 470 805" style="width:100%;max-width:320px;display:block;margin:auto;background:#fff;border-radius:6px" role="img" aria-label="T6303 rear module pinout sheet (CorelDRAW, issue 2)"><image href="${ASSET}t6303a-pinout.svg" width="470" height="805"/></svg><div class="small muted" style="margin-top:4px">Pinout sheet: ${SIM.src('#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr','T6303-iss2.cdr')} (ISSUE 2, 2007-03-05|40), the generic T6303 single-card termination; a document drawing, not panel silk. Click positions in the connector-face view.</div></div>`;
   const iss=I(), W=iss.w*PX, H=iss.h*PX, M=185, TOP=DUAL?38:20;
   const img = S.view==='card' ? iss.img+'-card.png' : iss.img+'-rear.png';
   let s=`<svg viewBox="0 0 ${W+2*M} ${H+TOP+28}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${DATA.product} rear module drawn from ${esc(iss.art)}">
@@ -2172,7 +2173,7 @@ function controlsHTML(){
   return `<div style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:6px 0">
     ${SLOTS.map(sl=>`<label class="small">${DUAL?'Card on '+sl:'Mating card'} <select data-c="card" data-slot="${sl}">${cardsForIssue().map(c=>`<option value="${c.id}" ${c.id===S.cards[sl]?'selected':''}>${esc(c.id)} — ${esc(c.short||c.label)}</option>`).join('')}</select></label>`).join('')}
     ${ks.length>1?`<label class="small">Issue <select data-c="issue">${ks.map(k=>`<option value="${k}" ${k===S.issue?'selected':''}>${esc(DATA.issues[k].label)}</option>`).join('')}</select></label>`:''}
-    <label class="small">View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>connector face</option><option value="card" ${S.view==='card'?'selected':''}>card side (${SLOTS.join('/')})</option></select></label>
+    <label class="small">View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>connector face</option><option value="card" ${S.view==='card'?'selected':''}>card side (${SLOTS.join('/')})</option><option value="cdr" ${S.view==='cdr'?'selected':''}>pinout sheet (CorelDRAW)</option></select></label>
     <button data-c="plug">Plug / unplug selected (P)</button><button data-c="id">Card reads ID (R)</button><button data-c="reset">Reset</button></div>
     <div class="small muted">Click a connector to select it; double-click it (or press P) to plug a cable in. Keys 1–9, 0 select positions 1–10.${DUAL?' Each column mates with its own card: the ID read uses the slot of the selected position.':''}</div>`;
 }
@@ -2463,11 +2464,17 @@ function viewFind(m){
     `<b>The printed ID aliases (4-bit mask).</b> <span class="mono">getRearModuleName()</span> prints <span class="mono">"%d.%d"</span> of each bin masked with <span class="mono">0x0F</span>, so bins 16–31 wrap onto 0–15. ${DATA.product} (allocated ${rTxt(DATA.alloc.bmid2)}, bin ${me.b2}) prints “${me.disp}”, the same text as ${ALLOC.filter(a=>idOf(a[1],a[2]).disp===me.disp && !a[0].startsWith(DATA.product)).map(a=>a[0]).join(', ')||'no other module'}. Pairs in the WBS table that collide this way: ${aliasPairs()}. The full 16-bit rmId used to look up the name is still unique, so only a person reading the number can be fooled.`,
     `<b>Ross later reused the WBS base value.</b> openGear DevGuide Part I Appendix B gives Ross's own “10 AUD Full” module AN_BMID = 3K57 / AN_BMID2 = 3K57 and “10 AUD Split” 3K57 / 887R. Those are exactly the WBS allocations for T6303 and T6403, so a card reading either code cannot tell a WBS module from the Ross one.`,
   ];
-  m.innerHTML=card('Findings — what the '+DATA.product+' files show', `<ol>${DATA.findings.map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}${common.map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}</ol>`)+
+  const art=[`<b>Artwork 2026|59: no CorelDRAW panel exists for T6303A.</b> A rear module is a bare PCB, so the connector face stays on the ISS4 Gerber silk. The only CorelDRAW art is the sister folder's pinout sheet ${SIM.src('#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr','T6303-iss2.cdr')} (ISSUE 2, 2007-03-05|40; assets/t6303a-pinout.svg, “pinout sheet” in the View menu): ten 3-pin blocks, BNC1/BNC2 on positions 1/2, AES1–4 down the left (3, 5, 7, 9) and AES5–8 down the right (4, 6, 8, 10), titled T6303 “SINGLE CARD TERMINATION”. That order agrees with this model. Its predecessor ${SIM.src('#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303.cdr','T6303.cdr')} (2006-11-15|39) labels the first pair BNC9 and BNC10 instead of BNC1/BNC2.`];
+  m.innerHTML=card('Findings — what the '+DATA.product+' files show', `<ol>${art.map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}${DATA.findings.map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}${common.map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}</ol>`)+
     card('Sources used', `<ul class="small">${DATA.sources.map(s=>`<li class="mono">${esc(s)}</li>`).join('')}</ul>`);
 }
 
 SIM.register({
+  footnotes:[
+    {text:'The T6303 pinout sheet (ISSUE 2) puts BNC1/BNC2 on positions 1/2, AES1–4 on 3, 5, 7, 9 and AES5–8 on 4, 6, 8, 10.', src:'#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr'},
+    {text:'The issue-1 sheet labels the first pair BNC9 and BNC10; issue 2 renames them BNC1 and BNC2.', src:'#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303.cdr'},
+    {text:'Both pinout sheets are stored twice, in T6303 - #ENGINEERING and its #ARCHIVE subfolder, byte for byte.', src:'#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303 - #ARCHIVE/T6303-iss2.cdr'},
+    {text:'No CorelDRAW art exists for the T6303A itself; its face is known only from the ISS4 Gerber silk.', src:'#OPENGEAR #SERIES/T6303A - #Master #OPENGEAR #TERMINATION'}],
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

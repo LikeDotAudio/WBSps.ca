@@ -1905,6 +1905,8 @@ function viewFindings(m){
    ===================================================================== */
 window.__m445 = { D, rec, FW, A, needleAt, lcdAt, cOf };   // test hook
 SIM.register({
+  footnotes: [{"text": "M445SILK.CDR (31 May 1999) is eight months newer than 445SILK.DWG but its 103 live-text objects cannot be read by libcdr: the panel labels come out empty.", "src": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive/MECHANIC/M445SILK.CDR"}, {"text": "The readable CDR strings are byte-swapped UTF-16: “䑁啊呓…” decodes to “ADJUST TO MEASURE 10.000 INCHE[S]” and “㑍㔴…” to “M445 EXTENDED RANGE METE[R]”.", "src": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive/MECHANIC/M445SILK.CDR"}, {"text": "There is no curve copy of the M445 CorelDRAW silk, so the simulator keeps the 1998 DWG art, which has every legend.", "src": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive/MECHANIC/445SILK.DWG"}, {"text": "M445SLKR.CDR holds only a corner bracket, two large rings, one small ring and two LED marks, with no title.", "src": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive/MECHANIC/M445SLKR.CDR"}],
+  
   id: 'm445',
   product: 'M445',
   name: 'M445 · Extended range meter/monitor, 68HC11 (' + SIM.year(1996) + ')',

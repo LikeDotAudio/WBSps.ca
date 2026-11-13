@@ -15,7 +15,7 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [simulator & front panel](../simulator.html?m=AMS8-1AN) · [KiCad symbol generator](../kicad.html?m=AMS8-1AN) |
+| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [KiCad symbol generator](../kicad.html?m=AMS8-1AN) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — estimate from a dated variant |
 | Evidence | from AMS8-1 |
 | Confidence | family |
@@ -68,28 +68,12 @@ _What changed, in the words of the listing, oldest first._
 | 2014 | [2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20002%20-%20AMS8-1AN%20Three%20Quarter.jpg) | [note](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20002%20-%20AMS8-1AN%20Three%20Quarter.jpg.md) |
 | 2014 | [2014 - AMS8-1AN - Information Sheet.jpg](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AMS8-1AN",
- "category": "RAVENNA AES67",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```
+1. Artwork 2026|59: the front, lens and rear are drawn from AMS8-1A-FRONT-SILK (CURVES).cdr (OCT.19/15), AMS8-M6-SILK(MLC8-M3) (CURVE).cdr (May 08/15) and AMS8-M2-Rear-SILK(Curve).cdr (MAY 07/15). — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+2. The ‘CURVES’ front file is not in curves: all 46 legends are still live Arial text, and the conversion loses their alignment. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+3. The 2015 front has hexagonal vents; the AMS8-1A (AMS8-M24) photo shows slotted vents, so the photo is of another issue. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/Pics/AMS8-1A (AMS8-M24)Front.jpg`
+4. The meter lens is a shared part: the AMS8-M6 sheet is the long MLC8-M3 window with eight round holes on its right; the AMS8-1 uses only its left 216 pt. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`
+5. The front legend reads PRESET (singular), the AMS8-2 front reads PRESETS. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr`
+6. Two AMS8-1A front sheets sit side by side with the same date: the CURVES file and AMS8-1A-FRONT-SILK (AMS8-M24).cdr. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (AMS8-M24).cdr`
+7. The 1B and 1CA fronts (Apr 2016) are separate variants that the simulator does not model. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1CA-FRONT-SILK (CURVES).cdr`

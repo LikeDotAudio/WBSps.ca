@@ -1097,6 +1097,7 @@ function viewNotes(m){
   window.__abs1Active = false;
   const li = (h, b)=>`<li><b>${h}</b> ${b}</li>`;
   m.innerHTML = card('What the ABS-1 is up to — findings from the source', `<ol>
+    <li><b>Artwork 2026|59: the panels stay on the manual's line art.</b> The only CorelDRAW silks, ${SIM.src('ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR','ABS1SSGR.CDR')} (1998-10-14) and ${SIM.src('ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SS.CDR','ABS1SS.CDR')} (1998-01-09), are CorelDRAW 5 files that libcdr cannot place: every legend comes out byte-swapped (“LEFT” as two CJK characters), odd-length legends lose their last letter, and all text lands stacked at the page centre. Only the bars, the LOCK bracket and the drill crosshairs survive, and those agree with the manual drawing used here. ABS1SSGR repeats the front plate twice (two ink separations) where ABS1SS has it once.</li>
     ${li('The PIC never makes a sample.', 'All audio is pre-computed in the 27512. The firmware only drives eight select lines through the 74HC4094 (<span class="mono">hc4094</span>), plus RC7 for B-CYCLE. The CPLD walks the table on its own. Compare the POD33, which computes every sample live in a SHARC with ToneGen, at 1 dB steps, on four outputs. The ABS-1 has 48 fixed tables and no arithmetic at all.')}
     ${li('“Mute” on a rate change is a stopped clock.', '<span class="mono">srate</span> writes SR1 SR0 = 11 at once. Sheet 1 marks that code “spare”. In <span class="mono">|abs-1:100|</span> no 256fs term covers SR = 11 without ext_en, so 256fs is held high, the CS8402A loses MCK and the AES output stops for 255 passes (≈ 74 ms). Downstream receivers lose lock. The level returns 7 × 255 passes later (≈ 0.59 s after the press). The same happens at power-on (INIT) and while EXT is unlocked. The manual only mentions muting for the LEVEL button.')}
     ${li('44.1 kHz tones are off frequency.', 'The clear term <span class="mono">:49</span> wraps the sample counter at 44 (1 kHz) and 112 (400 Hz) samples, matching DATA44*.ASM. At 44 100 Hz that gives <b>1002.27 Hz</b> and <b>393.75 Hz (−1.6 %)</b>. The manual says the tones “will be accurate at the standard sampling rates of 48, 44.1 and 32kHz”. Only 48 and 32 kHz divide exactly.')}
@@ -1151,6 +1152,12 @@ SIM.register({
     // opening state: power-on, then AUDIO LEVEL pressed once (→ −20 dBFS), settled — so the first view has a tone
     D.start=null; D.presses=[{t:0.2, key:'lvl', hold:HOLD}]; EMU_KEY=''; emulate(); commit();
     D.log=[{ name:'Opening state', t:0, lines:[{t:0, txt:'Power-on defaults (OFF, 48 kHz, 1 kHz), then AUDIO LEVEL pressed once and settled: −20 dBFS, 1 kHz, 48 kHz. “Replay power-on” shows the real start-up.'}] }]; } },
+  footnotes:[
+    {text:"ABS1SS.CDR and ABS1SSGR.CDR are CorelDRAW 5 files whose text libcdr reads byte-swapped and stacks at the page centre, so neither can supply the panel art; the simulator uses the manual's drawing.", src:"ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR"},
+    {text:"In the libcdr reading of ABS1SSGR.CDR every odd-length legend loses its last letter (RIGHT, AES/EBU, REF INPUT, AUDIO LEVEL…).", src:"ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR"},
+    {text:"ABS1SSGR.CDR (1998-10-14) holds the front plate twice, as two ink separations, plus the rear; the earlier ABS1SS.CDR (1998-01-09) holds one front and the rear.", src:"ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SS.CDR"},
+    {text:"The drill crosshairs, bars and LOCK bracket that survive in ABS1SSGR.CDR line up with the manual's panel drawing.", src:"ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR"},
+  ],
   tabs:[
     {id:'sim', label:'Simulator', render:viewSim},
     {id:'tutorial', label:'Tutorial: using the ABS-1', render:viewTutorial},

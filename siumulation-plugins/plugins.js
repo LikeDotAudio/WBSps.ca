@@ -19,6 +19,32 @@ window.SIM_CATALOG = [
    "Self-reboot via the watchdog when the FPGA link fails",
    "AES3 frame down to the bit"
   ],
+  "footnotes": [
+   {
+    "text": "The CorelDRAW outline layer shows two extra fixing holes either side of each knob (SELECT and ADJUST), which the earlier PDF cut did not show.",
+    "src": "#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear has fixing holes beside AES OUT and beside the IEC inlet that carry no legend.",
+    "src": "#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The REF AES 110 Phoenix and the four AES OUT Phoenix blocks share one cut-out size.",
+    "src": "#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear power legend reads “110-230 VAC, 50-60 Hz” and gives no fuse rating.",
+    "src": "#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "POD33-SILK-ISS4.cdr in the Engineering SILK folder is an older issue (2010|43) than the 2016|49 drafting set.",
+    "src": "#POD #SERIES/POD33 - #Master/POD33 - #Engineering/SILK/POD33-SILK-ISS4.cdr"
+   },
+   {
+    "text": "The drafting set holds a live-text twin, POD33-FRONT&amp;REAR-SILK.cdr, beside the CURVE version (same date).",
+    "src": "#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -67,6 +93,7 @@ window.SIM_CATALOG = [
    "Ceiling-pot calibration",
    "Serial.println bottleneck: about 7 samples per frame"
   ],
+  "footnotes": [],
   "depth": "Small model",
   "tabs": [
    {
@@ -104,6 +131,36 @@ window.SIM_CATALOG = [
    "Real VU/PPM recursion and LED tables, down to the shift-register word",
    "UART0 frames byte by byte",
    "Dialnorm −1…−9 display bug in every firmware version"
+  ],
+  "footnotes": [
+   {
+    "text": "Artwork 2026|59: the front and rear panels are drawn from the CorelDRAW sheets AMS82-FRONT-SILK (CURVE).cdr (OCT.20/15) and AMS82-M2 SILK (CURVE).cdr (MAY 07/15).",
+    "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The 2015 front artwork has hexagonal vent holes; the product photo shows slotted vents, so the photo is of an earlier issue.",
+    "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2A Series Front.jpg"
+   },
+   {
+    "text": "The rear top row is legended SDI IN 1 / 2, SDI OUT, COMP, G/Y, B/Pr, R/Pb, but those seven holes are empty in the photo. It is an unbuilt SDI + component-video variant; the DEMUX 4 board that was built sits on the centre plate instead.",
+    "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2AAM (Demux 4).jpg"
+   },
+   {
+    "text": "The 1–8 numbers under the buttons are on the GREEN plate; INPUTS, PRESETS, SELECT and VOLUME are on the WHITE plate.",
+    "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear sheet carries a third-party ‘Designed for’ logo box; the simulator shows it as plain text.",
+    "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-M2 SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear art is stored three times: in #ARTWORK #DA #2016, in AMS82/SILK and in AMS82 #Engineering/AMS82 #SILK (the last two dated May 2015). An older 2014 sheet, AMS82-1M1-CURVE.cdr, sits beside them.",
+    "src": "AMS82 - #Master/AMS82 #Engineering/AMS82 #SILK/AMS82-1M1-CURVE.cdr"
+   },
+   {
+    "text": "Older 2005|38–2006|39 sheets (AMS82-DEMUX4-*) in the TIM engineering folder show an earlier rear with the SDI IN / SDI OUT / COMP / Y / Cr / Cb top row and a four-legend SDI IN, SDI OUT, AES 1, AES2 plate, still titled AMS-81.",
+    "src": "AMS8 #Engineering #TIM/AMS82/SILK/AMS82-DEMUX4-REARPANEL-SILK-CURVE.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -155,6 +212,36 @@ window.SIM_CATALOG = [
    "Real VU/PPM ballistics and the 4-phase LED multiplex",
    "“Z bootloader” that is really Out4; 247 ms SDI freeze; 78-day meter freeze fix"
   ],
+  "footnotes": [
+   {
+    "text": "Artwork 2026|59: the front, lens and rear are drawn from AMS8-1A-FRONT-SILK (CURVES).cdr (OCT.19/15), AMS8-M6-SILK(MLC8-M3) (CURVE).cdr (May 08/15) and AMS8-M2-Rear-SILK(Curve).cdr (MAY 07/15).",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"
+   },
+   {
+    "text": "The ‘CURVES’ front file is not in curves: all 46 legends are still live Arial text, and the conversion loses their alignment.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"
+   },
+   {
+    "text": "The 2015 front has hexagonal vents; the AMS8-1A (AMS8-M24) photo shows slotted vents, so the photo is of another issue.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/Pics/AMS8-1A (AMS8-M24)Front.jpg"
+   },
+   {
+    "text": "The meter lens is a shared part: the AMS8-M6 sheet is the long MLC8-M3 window with eight round holes on its right; the AMS8-1 uses only its left 216 pt.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr"
+   },
+   {
+    "text": "The front legend reads PRESET (singular), the AMS8-2 front reads PRESETS.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"
+   },
+   {
+    "text": "Two AMS8-1A front sheets sit side by side with the same date: the CURVES file and AMS8-1A-FRONT-SILK (AMS8-M24).cdr.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (AMS8-M24).cdr"
+   },
+   {
+    "text": "The 1B and 1CA fronts (Apr 2016) are separate variants that the simulator does not model.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1CA-FRONT-SILK (CURVES).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -204,6 +291,32 @@ window.SIM_CATALOG = [
    "Button → panel MCU → RS-485 frame → main MCU → FPGA → SHARC trace with timing",
    "LED multiplex, UART frames and meter ballistics in slow motion",
    "22 findings: parser bugs, dead screens, manual-vs-code mismatches"
+  ],
+  "footnotes": [
+   {
+    "text": "Artwork 2026|59: the front and rear are drawn from AMS16A2-M1-FRONT-SILK (CURVE).cdr (OCT.27/15) and AMS16AQ-3G-M2-SILK (curve).cdr.",
+    "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16A2-M1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear ‘curve’ .cdr (Oct 23 2012) still has its 22 legends as live text. It is older than the PDF beside it (Aug 7 2015), which adds MADE IN CANADA and sets AMS-16A larger in bold italic.",
+    "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).pdf"
+   },
+   {
+    "text": "AMS16AQ-3G-M2-SILK_final curve.cdr in Engineering/SILK is a byte-identical copy of the ARTWORK file.",
+    "src": "AMS16 - #Master/AMS16 - #Engineering/SILK/AMS16AQ-3G-M2-SILK_final curve.cdr"
+   },
+   {
+    "text": "AMS16A2-M2-SILK.cdr and AMS16A2-M6-SILK.cdr are the same 47 610-byte file under two part numbers.",
+    "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16A2-M6-SILK.cdr"
+   },
+   {
+    "text": "The front drill crosshairs on SOLO L/R, VOLUME and INPUT 1/2 are drawn on the mechanical layer, so they sit under the knobs and buttons.",
+    "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16A2-M1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "AUX 1 and the DOLBY E METADATA D-sub are legended on the rear but not simulated.",
+    "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -255,6 +368,24 @@ window.SIM_CATALOG = [
    "11-step stand-alone and host tutorial",
    "22 findings: watchdog reboot trap, 3G-B, ALTERA pins, dead TX insert bits"
   ],
+  "footnotes": [
+   {
+    "text": "Artwork 2026|59: the stand-alone DEMUX-4 has no CorelDRAW panel of its own (none in SA-DEMUX4 - #Master); the board view stays on the top silk from DEMUX4-ISS2-ASSY.PDF.",
+    "src": "SA-DEMUX4 - #Master/DEMUX4 - #Engineering/PCB/ISS2/DEMUX4-ISS2-ASSY.PDF"
+   },
+   {
+    "text": "The ‘AMS82-DEMUX4’ CorelDRAW sheets are 2005|38–2006|39 AMS8-2 host panels, eight years before the RD31 board: the rear has an SDI IN 1/2, SDI OUT, COMP, Y, Cr, Cb top row and a four-legend SDI IN, SDI OUT, AES 1, AES2 plate, and is still titled AMS-81.",
+    "src": "AMS8 #Engineering #TIM/AMS82/SILK/AMS82-DEMUX4-REARPANEL-SILK-CURVE.cdr"
+   },
+   {
+    "text": "Those 2005 ‘CURVE’ sheets still hold their legends as live text (41 to 74 text objects each), and Backup_of_ copies of every sheet sit beside them.",
+    "src": "AMS8 #Engineering #TIM/AMS82/SILK/AMS82-DEMUX4-SILK-CURVE.cdr"
+   },
+   {
+    "text": "The board that was built fits the AMS8-2 centre plate with five BNCs (SDI IN 1, SDI IN 2, SDI OUT, AES OUT 1, AES OUT 2), the same five as BNC1–BNC5 on the board.",
+    "src": "AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2AAM (Demux 4).jpg"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -304,6 +435,36 @@ window.SIM_CATALOG = [
    "Button → debounce → UART → CS3310 traced pass by pass",
    "14-step operator tutorial from the manual",
    "15 findings: swapped button names, the SETUP side-step, the 9 s boot, the SDI lock-out"
+  ],
+  "footnotes": [
+   {
+    "text": "Artwork 2026|59: the front and rear panels are drawn from XTM4M1-FRONT-SILK (CURVE).cdr and XTM4M2-REAR-SILK (CURVE).cdr (files Nov 9 2015).",
+    "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear sheet is dated MAY 15/15 on its title line, six months before the file date.",
+    "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M2-REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear is legended “115 VAC, 1 A S.B”, a 115 V-only rating.",
+    "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M2-REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear art has no OUTPUT 1/2 or SDI holes left of the DEMUX-4 cut-out; the rear photo shows them, so the photo is of another issue.",
+    "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/Pics/XTM4M2 (Rear).jpg"
+   },
+   {
+    "text": "The eight phase-LED holes between 0° and 180° are on the front sheet, at the 32-pixel pitch the simulator had already measured from the photo.",
+    "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Drill crosshairs on the rear mark only AES 110 Ω, MONITOR OUTPUT A and ANALOG INPUT B.",
+    "src": "XTM4 - #MASTER/XTM4 - #ARTWORK #DA #2016/XTM4M2-REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The front and rear CURVE sheets are stored twice, byte-identical, in #ARTWORK #DA #2016 and in XTM4 - #Engineering/SILK.",
+    "src": "XTM4 - #MASTER/XTM4 - #Engineering/SILK/XTM4M1-FRONT-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -355,6 +516,20 @@ window.SIM_CATALOG = [
    "Control word and FPGA clock pipeline live",
    "Reference scan, double ADC reset, EEPROM save"
   ],
+  "footnotes": [
+   {
+    "text": "The SAMPLE RATE row is legended 32 · 44.1 · 48 · 96; the fifth LED hole is drilled (with its crosshair) but has no “192” legend, although the 2015 photo shows one.",
+    "src": "#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear power legend reads “100-240 VAC, 50-60 Hz, ½ A.S.B.”, a wider range than the POD10A/POD12A “100-230 VAC”.",
+    "src": "#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "An older rear-only sheet, POD14A-SILK-RR-ISS2.cdr, dates from 2010|43.",
+    "src": "#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-SILK-RR-ISS2.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -404,6 +579,36 @@ window.SIM_CATALOG = [
    "Every knob turn traced to the #…$ bytes, the FPGA and the SHARC",
    "Ring and meter multiplexing, 48-bit and 64-bit frames, PWM link to the remote",
    "Mute counter that can wrap to 255; lock that leaves MASTER unlocked"
+  ],
+  "footnotes": [
+   {
+    "text": "Artwork 2026|59: the front panel and meter lens are drawn from MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr (Jan 18 2016) and AMS8-M6-SILK(MLC8-M3) (CURVE).cdr.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr"
+   },
+   {
+    "text": "The MLC-8A front sheet prints “MLC-8B MULTICHANNEL LEVEL CONTROL” on its GREEN plate.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr"
+   },
+   {
+    "text": "The meter-lens sheet is shared with the AMS8-1: a byte-identical copy sits in the AMS81 artwork folder.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr"
+   },
+   {
+    "text": "The lens prints the bottom meter mark as 34; the meter table ams81_vu_data.dat labels it −36.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr"
+   },
+   {
+    "text": "The 8A front draws its panel outline as an ink-coloured hairline instead of on the mechanical layer.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr"
+   },
+   {
+    "text": "No 8A rear CorelDRAW exists: mlc8-rear-silk-CURVE.cdr (Sep 2006) is an SDI IN / SDI OUT / AES1 / AES2 variant with no 75 Ω BNC legends, so the rear stays on the manual drawing.",
+    "src": "#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-rear-silk-CURVE.cdr"
+   },
+   {
+    "text": "The MLC8 SILK folder keeps seven 2006|39 front iterations (ver1, ver2, ver4, ver5 — no ver3 — and latest-ver1–3), and the same set of .cdr files appears again under MLC8 #Engineering #TIM/SILK.",
+    "src": "#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-SILK-latest-ver3.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -455,6 +660,32 @@ window.SIM_CATALOG = [
    "10-step operator tutorial from the SLM1 manual",
    "Findings: 96 kHz runs 2× fast, ~1 s “3 s” hold, vanishing hold dot"
   ],
+  "footnotes": [
+   {
+    "text": "Artwork 2026|59: the front lens and rear panel are drawn from SLM-1M7-SILK(CURVE).cdr and SLM-1M2-SILK(CURVE).cdr (both Jun 6 2016).",
+    "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The lens sheet puts the GREEN plate (logo, WARD-BECK SYSTEMS, meter frame) and the WHITE plate (scale, ranges, LOCK / NO LOCK, PHASE, LOUDNESS METER) side by side rather than stacked.",
+    "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The rear legend names the four DIP switches BS1, BS0, CAL1, CAL0 and warns “USE AC ADAPTER PROVIDED WITH THIS PRODUCT”.",
+    "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M2-SILK(CURVE).cdr"
+   },
+   {
+    "text": "SLM-1M20-SILK(CURVE).cdr is exactly the same size as its non-curve twin, and the M13 CURVE file is smaller than its twin: those two were probably never converted to curves.",
+    "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M20-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The artwork folder also holds SLM-1 M4, M5, M12, M13, M18 and M20 panels that the simulator does not model.",
+    "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M5-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The SLM-1-3 engineering folder keeps a separate earlier SLM1-3 silk and front silk in CorelDRAW.",
+    "src": "#SLM #SERIES - To Delete/SLM - #Engineering - To Delete/SLM-1/PCB/SLM-1-3/SILK/SLM-1-3 FRONT-SILK-CURVE.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -505,6 +736,28 @@ window.SIM_CATALOG = [
    "One second at 175 µs passes, 96 µs timer ticks and 1 Mbit/s CAN frames",
    "Field upgrade through the Ross bootloader",
    "Findings: 10-vs-12 OID count, 2 s “short” calibration, ignored rear-module IDs"
+  ],
+  "footnotes": [
+   {
+    "text": "The 2012 rear-module guide labels T6302A positions 8 and 10 “Not Connected”, agreeing with the manual and netlists rather than the 2007 sheet’s “AES1 / AES2”.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"
+   },
+   {
+    "text": "On T6402A the guide shades BNC 3 (AES OUT 1 Card 2) like the two REF IN jacks; the netlist gives it no special role.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"
+   },
+   {
+    "text": "All four D6203A rear modules carry an “A” suffix in the guide (T6302A, T6303A, T6402A, T6403A); netlists and file names use T6302 … without it.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"
+   },
+   {
+    "text": "The card-edge drawing shows six LED windows (REF1, REF2, External, Internal, CAL, COM Activity) — no COM ERROR LED, although D6203A.h defines one.",
+    "src": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203A-card-edge.cdr"
+   },
+   {
+    "text": "Backup_of_D6203A-card-edge.cdr sits beside the card-edge drawing — a CorelDRAW autosave copy.",
+    "src": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/Backup_of_D6203A-card-edge.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -560,6 +813,16 @@ window.SIM_CATALOG = [
    "12-step tutorial including the power cycle that forgets everything",
    "Zero-crossing gain race, phantom relay race and other bugs you can trigger"
   ],
+  "footnotes": [
+   {
+    "text": "The front-panel drawing says “SILKSCREEN TO ARTWORK #PREMO222-FRONT &amp; REAR-SILK”, but no such artwork file (CorelDRAW, PDF or otherwise) is in the archive, so the panels here stay drawn from the PCB assembly drawings.",
+    "src": "#PREmo #Series/RD88-MICpre/PREmo - #Mechanical #DA #2016/PREMO222-FRONT ISS.1(PANEL).pdf"
+   },
+   {
+    "text": "The PREMO222 panels are 0.250 in aluminium, powder-coated San Tex black (Protech PX611N331), with the silkscreen applied before the powder coat.",
+    "src": "#PREmo #Series/RD88-MICpre/PREmo - #Mechanical #DA #2016/PREMO222-FRONT ISS.1(PANEL).pdf"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -611,6 +874,36 @@ window.SIM_CATALOG = [
    "13-step operator tutorial from the manual",
    "v1.00 → v1.03 rate tables and CS8412/CS8414 mix-ups"
   ],
+  "footnotes": [
+   {
+    "text": "The front silk ABBFSLK2.cdr has eight status rows but only seven right-hand (ERROR mode) legends: the bottom LED, which the firmware lights for a real no-lock, has no ERROR legend.",
+    "src": "ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr"
+   },
+   {
+    "text": "The ERROR legends skip the receiver's “slipped sample” code, so CRC, PARITY, BIPHASE and NO LOCK each sit one LED below the code that lights them.",
+    "src": "ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr"
+   },
+   {
+    "text": "The panel title “Audio Bit Buddy ABB-1” is set in Hobo-WP; libcdr keeps it as live text, so the simulator still uses the photo for the title.",
+    "src": "ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr"
+   },
+   {
+    "text": "libcdr places the legends of ABBFSLK2.cdr as if they were twice their size; right-aligned and centred legends had to be re-anchored by hand.",
+    "src": "ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr"
+   },
+   {
+    "text": "ABBFSLK2.cdr is stored twice, byte-identical, in ABB1 - #Engineering and ABB1 - #Engineering/ABB1 - #ARCHIVE.",
+    "src": "ABB1 - #Master/ABB1 - #Engineering/ABB1 - #ARCHIVE/ABBFSLK2.cdr"
+   },
+   {
+    "text": "The earlier front silk abbfslk.CDR (1999-09-20) is a CorelDRAW 5 file whose text libcdr decodes byte-swapped (“LOCK” comes out as two CJK characters).",
+    "src": "ABB1 - #Master/ABB1 - #Engineering/abbfslk.CDR"
+   },
+   {
+    "text": "ABB-1SLK.CDR, the only rear-panel CorelDRAW file, holds five guide lines and no legend; the rear legend in the simulator comes from the 2010 photo.",
+    "src": "ABB1 - #Master/ABB1 - #Engineering/ABB-1SLK.CDR"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -660,6 +953,24 @@ window.SIM_CATALOG = [
    "Live EPROM map of all 48 tone tables",
    "12-step operator tutorial from the manual",
    "Rate change stops the clock; 44.1 kHz tones off by 1.6 %"
+  ],
+  "footnotes": [
+   {
+    "text": "ABS1SS.CDR and ABS1SSGR.CDR are CorelDRAW 5 files whose text libcdr reads byte-swapped and stacks at the page centre, so neither can supply the panel art; the simulator uses the manual's drawing.",
+    "src": "ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR"
+   },
+   {
+    "text": "In the libcdr reading of ABS1SSGR.CDR every odd-length legend loses its last letter (RIGHT, AES/EBU, REF INPUT, AUDIO LEVEL…).",
+    "src": "ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR"
+   },
+   {
+    "text": "ABS1SSGR.CDR (1998-10-14) holds the front plate twice, as two ink separations, plus the rear; the earlier ABS1SS.CDR (1998-01-09) holds one front and the rear.",
+    "src": "ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SS.CDR"
+   },
+   {
+    "text": "The drill crosshairs, bars and LOCK bracket that survive in ABS1SSGR.CDR line up with the manual's panel drawing.",
+    "src": "ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -711,6 +1022,28 @@ window.SIM_CATALOG = [
    "Burst test: what a VU misses that a PPM catches",
    "Unknown 14-268 board identified as the meter light bar"
   ],
+  "footnotes": [
+   {
+    "text": "Despite “(CURVE)” in its name, 8100MP-FRONT-SILK keeps the title “MP SERIES by WARD-BECK SYSTEMS” as live Hobo Std text; only its CorelDRAW PDF export carries the glyph outlines.",
+    "src": "#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR"
+   },
+   {
+    "text": "The front silk is a single line of text plus two ellipses marking the left rack slots as a reference.",
+    "src": "#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR"
+   },
+   {
+    "text": "The rear legend states 115 VAC, 1A SB only; there is no 230 V marking.",
+    "src": "#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR"
+   },
+   {
+    "text": "The rear silk's guides put the four rack-ear holes at 0.17 in / 16.53 in across and 0.52 in / 2.78 in up on the 16.7 in × 3.27 in plate.",
+    "src": "#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR"
+   },
+   {
+    "text": "Both silk files are stored twice, in 8100 CHASSIS - #ARTWORK #DA #2016 and in SILKS.",
+    "src": "#MP (8100) #SERIES/SILKS/8100MP-REAR-SILK (CURVE).CDR"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -761,6 +1094,7 @@ window.SIM_CATALOG = [
    "The removed DAC divider",
    "BOM vs supplier quotes"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -811,6 +1145,7 @@ window.SIM_CATALOG = [
    "Cat5 cable model for analog and AES3",
    "A shield jumper wired to nothing"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -861,6 +1196,7 @@ window.SIM_CATALOG = [
    "Log law from the ladder resistor values",
    "Four needle movements fitted to the Sifam chart"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -910,6 +1246,32 @@ window.SIM_CATALOG = [
    "ISS1 → ISS2 → ISS3: output polarity bugs and the fix",
    "Rendered ISS3 Gerbers with real pad positions",
    "RD78 THAT1512 mic-pre what-if"
+  ],
+  "footnotes": [
+   {
+    "text": "The 2015 artwork sheet carries separate GREEN and WHITE front plates and a WHITE rear plate; the simulator registers them on one panel.",
+    "src": "#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr"
+   },
+   {
+    "text": "The crosshairs over knobs 1, 5, 6, LINE and MONITOR on the sheet are drafting marks for the holes, not printed ink.",
+    "src": "#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr"
+   },
+   {
+    "text": "The 2014 “FINAL CURVE” art has horizontal slot vents behind the speakers; the 2015 art replaced them with a hexagon grill.",
+    "src": "#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/OLDER ISSUES/AMX9A-FRONT & REAR((FINAL CURVE).cdr"
+   },
+   {
+    "text": "The 2014 rear art leaves the IEC inlet box empty; the 2015 rear divides it into four.",
+    "src": "#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/OLDER ISSUES/AMX9A-FRONT & REAR((FINAL CURVE).cdr"
+   },
+   {
+    "text": "The #SILK folder holds a second copy of the Nov 2015 front-and-rear drawing, identical to the #ARTWORK one.",
+    "src": "#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #SILK/AMX9A-FRONT & REAR(CURVE).cdr"
+   },
+   {
+    "text": "The 2015 rear silk says “100-240 VAC”; the manuals say 90-230 VAC.",
+    "src": "#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -961,6 +1323,32 @@ window.SIM_CATALOG = [
    "i64 and uNet header wiring",
    "Five firmware bugs and leftovers"
   ],
+  "footnotes": [
+   {
+    "text": "The 2013 rear silk has MADI on an optical duplex cut-out and two BNCs, and no SYNC BNCs; two small holes are both labelled SYNC.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"
+   },
+   {
+    "text": "The ANALOG MONITOR OUTPUT legend puts R on the left and L on the right, each as + − G, on a single 6-way Phoenix cut-out.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"
+   },
+   {
+    "text": "The 2013 rear art has no RJ45 or option-card opening, so the uNet2500 of the 32ME-N had no rear port on this panel.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"
+   },
+   {
+    "text": "The rear sheet holds the panel twice: a copy with hole guides placed off the page and the WHITE plate on the page.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"
+   },
+   {
+    "text": "Rear mains legend: “90-230 VAC, 1A S.B. CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE” plus “PLEASE REFER TO MANUAL” beside a warning triangle.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"
+   },
+   {
+    "text": "The SILK tree holds about 26 CorelDRAW files for the 32ME panels and chroma filter (2012–2013), many as Backup_of_ copies, all under OBSOLETE except ConceptFrontAll.cdr.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -1011,6 +1399,7 @@ window.SIM_CATALOG = [
    "Switch the build between D8205, D8206, D8207 and D8208",
    "Findings: TESTING lines that stop Output 2 muting, a dead 44.1 kHz option, swapped CH names"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -1062,6 +1451,32 @@ window.SIM_CATALOG = [
    "8-step setup tutorial from the 1999 manual",
    "20 findings: dead transmitter mute, unread RERR pin, a 15-minute TRIS fix"
   ],
+  "footnotes": [
+   {
+    "text": "Rear-module art: the TB8205P and TB8205P/75 panels are vectors of the 2012 CorelDRAW guide (via its Corel PDF export, because libcdr renders the terminal-block symbol font as giant text).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8202 - rear module options.cdr"
+   },
+   {
+    "text": "The guide captions the TB8205P cell “D8202-AES/EBS Digital to Analog Converter”: EBS is a typo for EBU (the /75 cell spells it right).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8202 - rear module options.cdr"
+   },
+   {
+    "text": "The guide stars LEFT/RIGHT OUT 3 / MONO as “can be used as an alarm by setting the jumpers”; the older D8202TR1.CDR says the jumper selects a third stereo output or two mono sums, which is what the board does.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8202 - rear module options.cdr"
+   },
+   {
+    "text": "The 2010 manual page D8202tr3_1.cdr still shows the ST8200 / ST8201A solder terminals, with the ST8200 marked “no longer manufactured”.",
+    "src": "#MF8200 #SERIES/D8202 - #Master #MF82/D8202 - #Engineering/D8202tr3_1.cdr"
+   },
+   {
+    "text": "D8202TR1.CDR and D8202TR3.cdr show a QC8200QCP quick-connect option and a TB8205 screw terminal that the 2012 guide no longer offers.",
+    "src": "#MF8200 #SERIES/D8202 - #Master #MF82/D8202 - #Engineering/D8202TR1.CDR"
+   },
+   {
+    "text": "D8202TR2.CDR and D8202TR3.CDR are stored twice: once in D8202 - #Engineering and again (1998 versions) in PCB/OBSOLETE/ISS2.",
+    "src": "#MF8200 #SERIES/D8202 - #Master #MF82/D8202 - #Engineering/PCB/OBSOLETE/ISS2/D8202TR3.CDR"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -1112,6 +1527,28 @@ window.SIM_CATALOG = [
    "Real rear-module artwork (BNC2, BNC4, TB8205P)",
    "The 2005 board needs firmware that is not in the archive"
   ],
+  "footnotes": [
+   {
+    "text": "Rear-module art: BNC2, BNC4, TB8205P and TB8205P/75 are the vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the terminal-block symbol font as giant text).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8203 - rear module options.cdr"
+   },
+   {
+    "text": "Every D8203 rear module leaves four screw terminals marked NOT CONNECTED (on the TB8205P(/75), right-hand 1, 2, 5 and 6): the card uses only part of the shared terminal plate.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8203 - rear module options.cdr"
+   },
+   {
+    "text": "The 2002 terminal sheets D8203tr2.cdr / D8203tr3.cdr already show BNC2/BNC4 and TB8205P(/75); D8203TR1.CDR and D8203TR4.cdr show the earlier QC8200QCP, TB8205 and ST8200/ST8201A solder options.",
+    "src": "#MF8200 #SERIES/D8203 - #Master #MF82/D8203 - #Engineering/D8203tr3.cdr"
+   },
+   {
+    "text": "The D8203 CDR set is stored three times: in D8203 - #Engineering, its #ARCHIVE folder and “D8203 - WAS IN D8204 FOLDER #PROBLEM”, with the same dates and sizes.",
+    "src": "#MF8200 #SERIES/D8203 - #Master #MF82/D8203 - #Engineering/D8203 - WAS IN D8204 FOLDER #PROBLEM/D8203tr3.cdr"
+   },
+   {
+    "text": "D8203MAN.CDR (1998-04-16, 311 004 bytes) has the same date and size as D8204MAN.CDR and D8202 ISS2 D8202MAN.CDR: one manual-cover template copied between products.",
+    "src": "#MF8200 #SERIES/D8203 - #Master #MF82/D8203 - #Engineering/D8203MAN.CDR"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -1157,10 +1594,36 @@ window.SIM_CATALOG = [
   "summary": "One AES/EBU input on 75 Ω coax, equalised, re-timed and fanned out to eight 75 Ω outputs on an MF82 frame card. The 2012 manual board runs the D8204B PIC firmware, which polls a CS8420 every 1.8 ms, drives the LOCK/NO LOCK LEDs and mutes the outputs on loss.",
   "highlights": [
    "Cable length, EQ and termination model",
-   "BNC1 / BNC3 rear modules from the PCB",
+   "BNC1 / BNC3 rear modules from the CorelDRAW guide (PCB drawing on a toggle)",
    "PIC loop timed from the crystal",
    "Dropout traced pass by pass",
    "2012 manual prints the D8204B schematic"
+  ],
+  "footnotes": [
+   {
+    "text": "Rear-module art: BNC1 and BNC3 are vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the guide’s symbol fonts badly).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr"
+   },
+   {
+    "text": "The guide is drawn at about 73 % scale: its BNC pitch is 0.34″ where BNC-XX.PCB places the BNCs 0.46″ apart; the order of the connectors agrees.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr"
+   },
+   {
+    "text": "BNC3 (input + loop + 8 outputs) is marked “*MF8210 Only”; in an MF82/12 frame the BNC1 module leaves outputs 7 and 8 without a connector.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr"
+   },
+   {
+    "text": "D8204TRM.cdr (2012) has a 1998 Backup_of_D8204TRM.cdr beside it, and both are stored again in D8204 - #ARCHIVE.",
+    "src": "#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/Backup_of_D8204TRM.cdr"
+   },
+   {
+    "text": "The D8204 Engineering folder also holds the D8204A terminal pages (D8204AT1/AT2/AT3.CDR) and manual cover D8204AMN.CDR, filed under the wrong product.",
+    "src": "#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/D8204AT2.CDR"
+   },
+   {
+    "text": "D8204ManualCover.cdr (2012) shows the MF82 frame with a “SERIES DISTRIBUTION SYSTEM” banner and “D8204 MANUAL”.",
+    "src": "#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/D8204ManualCover.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -1213,6 +1676,28 @@ window.SIM_CATALOG = [
    "Cable length and EQ modelled from the part values",
    "Firmware drives a second receiver that is not on the board"
   ],
+  "footnotes": [
+   {
+    "text": "Rear-module art: BNC2 and BNC4 are vectors of the 2012 CorelDRAW guide, taken through its Corel PDF export because libcdr renders the terminal-block symbol font as giant text.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204A - rear module options.cdr"
+   },
+   {
+    "text": "The guide labels the right-hand pair “ANALOG R. OUT2+/CONFIDENCE” and “ANALOG R. OUT2-/NO-LOCK”, but the ISS3 board has only the NO-LOCK tally.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204A - rear module options.cdr"
+   },
+   {
+    "text": "The D8204A has no artwork folder of its own: its terminal pages D8204AT1/AT2/AT3.CDR and manual D8204AMN.CDR live in the D8204 folder (and again in D8204 - #ARCHIVE).",
+    "src": "#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/D8204AT2.CDR"
+   },
+   {
+    "text": "D8204AT2.CDR carries a 2016-07-06 file date although it holds the same BNC + screw-terminal layout as the 1998 pages; Inkscape/libcdr drops its label text, which only the CDR text dump shows.",
+    "src": "#MF8200 #SERIES/D8204 - #Master #MF82/D8204 - #Engineering/D8204AT2.CDR"
+   },
+   {
+    "text": "Both BNC2 and BNC4 cells are captioned “D8204A-1x4 AES/EBU Distribution Amplifier & Digital to Analog Converter”; BNC4 is marked *MF8210 only.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204A - rear module options.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -1264,6 +1749,7 @@ window.SIM_CATALOG = [
    "9-step tutorial from the 2012 manual",
    "Findings: a phantom second receiver, CS8420 leftovers, 20-bit output"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -1313,6 +1799,28 @@ window.SIM_CATALOG = [
    "Netlist-exact PIC pin map",
    "H1 alarm on B2+",
    "“Analog to AES” label is backwards"
+  ],
+  "footnotes": [
+   {
+    "text": "Rear-module art: the TB8201AP is vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the guide’s symbol fonts badly).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204C - rear module options.cdr"
+   },
+   {
+    "text": "The guide titles the card “110 Ohm AES/EBU Distribution Amplifier & Analog to AES/EBU Digital Converter”, but the D8204C converts AES to analog (CS4390 DAC).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204C - rear module options.cdr"
+   },
+   {
+    "text": "LEFT OUT 2 ± is printed twice on the TB8201AP, on the middle and the bottom left blocks; the netlist confirms A2± on P1-21/22 and P1-23/24.",
+    "src": "#MF8200 #SERIES/D8204C - #Master #MF82/D8204C - #Engineering/TB8201AP-for-D8204C.cdr"
+   },
+   {
+    "text": "D8204C Jumper Settings.cdr: “H1 is selectable for no lock alarm or audio out of the B2+ termination” — the only jumper on the card.",
+    "src": "#MF8200 #SERIES/D8204C - #Master #MF82/D8204C - #Engineering/D8204C Jumper Settings.cdr"
+   },
+   {
+    "text": "The three D8204C CDRs (function diagram, jumper settings, TB8201AP page) are stored again, same dates and sizes, in D8204C - #ARCHIVE.",
+    "src": "#MF8200 #SERIES/D8204C - #Master #MF82/D8204C - #Engineering/D8204C - #ARCHIVE/D8204C_FUNCTION.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -1365,6 +1873,28 @@ window.SIM_CATALOG = [
    "11-step operator tutorial from the manual",
    "Findings: TESTING lines in v1.104, CH numbering, 1999 tables"
   ],
+  "footnotes": [
+   {
+    "text": "Rear-module art: BNC1, BNC3, TB8205P and TB8205P/75 are vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the terminal-block symbol font as giant text).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8205 - rear module options.cdr"
+   },
+   {
+    "text": "On the BNC1 module the AES AUDIO INPUT is BNC 5, between DIGITAL OUT 2-2 and 2-3, not beside the AES REF INPUT.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8205 - rear module options.cdr"
+   },
+   {
+    "text": "D8205R-110.cdr and D8205R-75-2.cdr (2005) draw a “D8205/R” remote-gain build: the same terminal modules plus external level pots on the screw terminals; the 2012 guide has no /R page.",
+    "src": "#MF8200 #SERIES/D8205 - #Master #MF82/D8205 - #Engineering/D8205R-110.cdr"
+   },
+   {
+    "text": "D8205-75.cdr and D8205-110.CDR (2000) and D8205-75-2.cdr (2005) are earlier issues of the same terminal page; all five CDRs are stored again in D8205 - #ARCHIVE.",
+    "src": "#MF8200 #SERIES/D8205 - #Master #MF82/D8205 - #Engineering/D8205-75-2.cdr"
+   },
+   {
+    "text": "#OLDMANUAL holds Backup_of_ copies beside D8205TR1–TR4 and D8205MAN.CDR (1999), the CorelDRAW autosaves of the first manual.",
+    "src": "#MF8200 #SERIES/D8205 - #Master #MF82/D8205 - #Engineering/D8205 - #OLDMANUAL/D8205TR4.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -1414,6 +1944,28 @@ window.SIM_CATALOG = [
    "SHARC sine generator with the real level and frequency tables",
    "H13 44.1 kHz is disabled in code; Output 2 can never be muted",
    "Five rear modules from the 2012 guide, clickable"
+  ],
+  "footnotes": [
+   {
+    "text": "Rear-module art: BNC1, BNC3, TB8205P, TB8205P/75 and TB8205PV are vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the terminal-block symbol font as giant text).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8206 - rear module options.cdr"
+   },
+   {
+    "text": "The TB8205PV module (video + audio reference in) must be installed beside the power supply, per the note on its page; its VIDEO REF. INPUT BNC is drawn overhanging the plate edge.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8206 - rear module options.cdr"
+   },
+   {
+    "text": "The /110 terminal page exists as two alternative pages, D8206-110A and D8206-110B (2001, rev1 2005); the 2012 guide merges them into TB8205P, TB8205P/75 and TB8205PV.",
+    "src": "#MF8200 #SERIES/D8206 - #Master #MF82/D8206 - #Engineering/D8206-110B rev1.cdr"
+   },
+   {
+    "text": "D8206TR3.cdr (2000) is the older terminal sheet with DIGITAL OUT 1–4 and an AUDIO IN, matching the rev1 manual’s four DARS rather than the two outputs × two copies of the shipped card.",
+    "src": "#MF8200 #SERIES/D8206 - #Master #MF82/D8206 - #Engineering/D8206TR3.cdr"
+   },
+   {
+    "text": "Every D8206 CDR in D8206 - #Engineering is stored a second time, same date and size, in D8206 - #ARCHIVE.",
+    "src": "#MF8200 #SERIES/D8206 - #Master #MF82/D8206 - #Engineering/D8206 - #ARCHIVE/D8206TR3.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -1465,6 +2017,32 @@ window.SIM_CATALOG = [
    "48K\\44K1 jumper means 44.1 to the genlock and 48 to the C-bits",
    "AES3 subframe and I2C bit scopes"
   ],
+  "footnotes": [
+   {
+    "text": "Rear modules BNC1, BNC3 and TB8205P are drawn from the 2012 CorelDRAW guide; libcdr renders its TB8205P terminal numbers as giant glyphs, so CorelDRAW's own PDF of the same file supplies the curves.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8207 - rear module options.cdr"
+   },
+   {
+    "text": "The BNC3 module is legended “MF8210 Only”, and its positions 7 and 8 are NOT CONNECTED.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8207 - rear module options.pdf"
+   },
+   {
+    "text": "On TB8205P the AUDIO IN side carries six NOT CONNECTED terminals (3–8); only AUDIO IN +/− and GND are used.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8207 - rear module options.pdf"
+   },
+   {
+    "text": "The 1999 terminal sheets also offer ST8200 solder, QC8200 QCP, TB8205 and TB8205/75 screw modules, which the 2012 guide no longer lists (unbuilt or dropped variants).",
+    "src": "#MF8200 #SERIES/D8207 - #Engineering #MF82/D8207TR1.cdr"
+   },
+   {
+    "text": "All 11 D8207 CorelDRAW files are stored twice, byte-identical, in the folder and in D8207 - #ARCHIVE.",
+    "src": "#MF8200 #SERIES/D8207 - #Engineering #MF82/D8207 - #ARCHIVE/D8207TR3.cdr"
+   },
+   {
+    "text": "The saved CS8420 datasheet page is 0 bytes, so register names come from the code comments.",
+    "src": "#MF8200 #SERIES/D8207 - #Engineering #MF82"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -1515,6 +2093,7 @@ window.SIM_CATALOG = [
    "Stereo-control jumper polarity mismatch",
    "Archived “D8208 manual” is the D8205 text"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -1564,6 +2143,32 @@ window.SIM_CATALOG = [
    "Redundant supply failover",
    "Reference loop and termination",
    "REF IN/OUT labels swapped between issues"
+  ],
+  "footnotes": [
+   {
+    "text": "Each silk sheet holds two inks: the legend in CorelDRAW rich black (#1B1918) and the mechanical outline in pure black (#000000).",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The two rear-cover silks swap REF IN and REF OUT: NOV.06/15 reads REF OUT, REF IN; JUN.22/16 reads REF IN, REF OUT.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The PSU door has 14 vent slots (“13 PITCHES” on the drawing), and its PS2 lamp hole sits at 59 % of the width, not mirrored to PS1.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/82-077-SILK (DOOR CURVE).cdr"
+   },
+   {
+    "text": "The DA door silk carries only the WBS mark and two screw targets; the card slots have no legends.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/8212-020-SILK (CURVE) .cdr"
+   },
+   {
+    "text": "Each silk exists twice, as live text and as a (CURVE) copy; the MF8212RM2 curve version is stored under two spellings, “SILK(CURVE)” (JUN.22/16) and “SILK (CURVE)” (NOV.06/15), which are different issues.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016"
+   },
+   {
+    "text": "The same drawing numbers exist as older issues in MFXX (DA FRAME) #PROBLEM; only MF82SILK.CDR and one other file are byte-identical.",
+    "src": "#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -1615,6 +2220,7 @@ window.SIM_CATALOG = [
    "IMP1.PCB is an AES test generator",
    "Amplifier parts left in the terminal schematic"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -1665,6 +2271,7 @@ window.SIM_CATALOG = [
    "Three pin-numbering schemes",
    "Mis-named BNC panels"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -1714,6 +2321,7 @@ window.SIM_CATALOG = [
    "Intercom feed bypasses the switch",
    "“Function unknown” resolved from the title block"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -1764,6 +2372,7 @@ window.SIM_CATALOG = [
    "60 Ω vs 600 Ω (M8202B) outputs",
    "Stage-1 clipping caution"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -1813,6 +2422,28 @@ window.SIM_CATALOG = [
    "Remote pot with cable length",
    "Schematics redrawn from the R12 DWGs (opto design)",
    "Issue 5 vs Issue 6 manual differences"
+  ],
+  "footnotes": [
+   {
+    "text": "The TB8202 rear module is drawn from M8202TR2.CDR (2005), cut from CorelDRAW 10's own PDF of it.",
+    "src": "#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202TR2.CDR"
+   },
+   {
+    "text": "The M8202B's own terminal sheets (BT1: solder, QCP and screw panels; BT2: one screw panel) are CorelDRAW 5 files whose text does not convert; they show only empty label boxes.",
+    "src": "#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202BT1.CDR"
+   },
+   {
+    "text": "The M8202B artwork lives in the M8202A folder (14-212), not in the M8202B master folder.",
+    "src": "#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202BT2.CDR"
+   },
+   {
+    "text": "Backup_of_M8202TR2.CDR (1998) is an older issue of the 2005 sheet kept beside it.",
+    "src": "#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/Backup_of_M8202TR2.CDR"
+   },
+   {
+    "text": "The REM IN block (LOW / WIPER / HIGH to a 10 kΩ LINEAR pot) is on the rear module, not the card edge.",
+    "src": "#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202TR2.pdf"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -1864,6 +2495,7 @@ window.SIM_CATALOG = [
    "Shield used as the HIGH conductor",
    "Broken-wiper fault"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -1913,6 +2545,24 @@ window.SIM_CATALOG = [
    "Oscillator start-up and AGC settling over one second",
    "AGC, DIST and CAL trims, frequency and level links",
    "The “M8203osc.DSN” file is a terminal sheet"
+  ],
+  "footnotes": [
+   {
+    "text": "The TB8205P rear module is drawn from the 2012 CorelDRAW guide via CorelDRAW's own PDF (libcdr turns its terminal numbers into giant glyphs).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8203 - rear module options.cdr"
+   },
+   {
+    "text": "On the M8203's TB8205P all six input-side terminals and six of the right-hand terminals are NOT CONNECTED; only OUTPUT 1–4 ±, MIC OUT ± and GND are used.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8203 - rear module options.pdf"
+   },
+   {
+    "text": "The 2002 terminal sheets also offer ST8200 solder, QC8200 QCP and TB8205 screw modules, each printed “MIC OUT :150 Ω -60 dBm”; the 2012 guide keeps only TB8205P.",
+    "src": "#MF8200 #SERIES/M8203 - #Master #MF82/M8203 - #Engineering/M8203_1trm.cdr"
+   },
+   {
+    "text": "M8203TRM.CDR (1998) is a three-panel CorelDRAW 5 sheet whose text does not convert.",
+    "src": "#MF8200 #SERIES/M8203 - #Master #MF82/M8203 - #Engineering/M8203TRM.CDR"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -1964,6 +2614,28 @@ window.SIM_CATALOG = [
    "Netlist sheets: 79 nets, P1 pin table",
    "One PCB serves M8204, M8204A, M8205 and M8205B"
   ],
+  "footnotes": [
+   {
+    "text": "TB8204P and TB8204P/600 are drawn from the 2012 CorelDRAW guides via CorelDRAW's own PDFs.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8204 - rear module options.cdr"
+   },
+   {
+    "text": "The 2010 terminal sheet titles the screw module “TB204 & TB8204/600 SCREW TERMINAL” — TB204 is a typo for TB8204.",
+    "src": "#MF8200 #SERIES/M8204 - #Master #MF82/M8204 - #Engineering/Manual/M8204_1trm.cdr"
+   },
+   {
+    "text": "The 2010 sheet offers solder (ST8204, ST8204/600) and screw (TB8204, TB8204/600) modules that the 2012 guide no longer lists.",
+    "src": "#MF8200 #SERIES/M8204 - #Master #MF82/M8204 - #Engineering/Manual/M8204_1trm.cdr"
+   },
+   {
+    "text": "A 2004 sheet adds an ST8201A solder option for the M8204/A.",
+    "src": "#MF8200 #SERIES/M8204 - #Master #MF82/M8204 - #Engineering/Manual/M8204_2trm.cdr"
+   },
+   {
+    "text": "The TB8204P footers differ only in impedance: M8204 “Lo Z 60 Ohm”, M8204A “Hi Z 600 Ohm”.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8204A - rear module options.pdf"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2013,6 +2685,24 @@ window.SIM_CATALOG = [
    "Eight outputs, build-out power and current limit",
    "CMR trims R9 / C4 null common-mode hum",
    "Manual gain range contradicts its own spec table"
+  ],
+  "footnotes": [
+   {
+    "text": "TB8205P is drawn from the 2012 CorelDRAW guides via CorelDRAW's own PDFs; the M8205 and M8205B sheets are the same module with different footers (Hi Z 600 Ohm / Lo Z 60 Ohm).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8205B - rear module options.cdr"
+   },
+   {
+    "text": "The 1999 TB8205P.CDR in the card folder is titled “M8205/B”; CorelDRAW printed it to TB8205P.pdf in 2002.",
+    "src": "#MF8200 #SERIES/M8205 - #Engineering #MF82/TB8205P.CDR"
+   },
+   {
+    "text": "The input block is labelled “PASSIVE INPUT LOOP”: IN +/−/SHIELD appear twice, side by side.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8205 - rear module options.pdf"
+   },
+   {
+    "text": "M8205TRM.CDR (1998) also shows solder and QCP options; libcdr cannot place its text.",
+    "src": "#MF8200 #SERIES/M8205 - #Engineering #MF82/M8205TRM.CDR"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -2064,6 +2754,28 @@ window.SIM_CATALOG = [
    "The DSN thinks it is an M8204B",
    "A brochure page filed as the manual"
   ],
+  "footnotes": [
+   {
+    "text": "The TB8205 rear module is the panel from M8206TRM.CDR (1998); its CorelDRAW 5 text does not convert, so the names are re-set in the drawing's own label boxes in an inferred order.",
+    "src": "#MF8200 #SERIES/M8206 - #Engineering #MF82/M8206TRM.CDR"
+   },
+   {
+    "text": "The TB8205 label table's “−” column has 8 boxes and the “+” column 9: RIGHT SH has no partner.",
+    "src": "#MF8200 #SERIES/M8206 - #Engineering #MF82/M8206TRM.CDR"
+   },
+   {
+    "text": "LEFT IN has its own three boxes at the top of the TB8205 panel while RIGHT IN shares the output table.",
+    "src": "#MF8200 #SERIES/M8206 - #Engineering #MF82/M8206TRM.CDR"
+   },
+   {
+    "text": "TB8205P.CDR (1999, titled “M8206/B”) is a pluggable version with two NC terminals; its text converts as garbage.",
+    "src": "#MF8200 #SERIES/M8206 - #Engineering #MF82/TB8205P.CDR"
+   },
+   {
+    "text": "M8206MAN.CDR, filed as the card's manual, is a frame/power-supply brochure page.",
+    "src": "#MF8200 #SERIES/M8206 - #Engineering #MF82/M8206MAN.CDR"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2114,6 +2826,7 @@ window.SIM_CATALOG = [
    "Board drawn from the M8207 Tango placement",
    "Shares PCB 14-278 with the M8208"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2163,6 +2876,36 @@ window.SIM_CATALOG = [
    "Remote fade through a DBX 2151 VCA",
    "SYMMETRY / OFFSET trims",
    "Shares its PCB with the M8207 compressor"
+  ],
+  "footnotes": [
+   {
+    "text": "M8208TR1.CDR and M8208TR2.CDR are CorelDRAW 5 files: converted, every text lands at one x position and its bytes come out swapped, so the rear art here is taken from the 2011 master sheet instead.",
+    "src": "#MF8200 #SERIES/M8208 - #Engineering #MF82/M8208TR1.CDR"
+   },
+   {
+    "text": "The M8208 terminal pages are stored twice: once as M8208TR1/TR2.CDR (1998) and again, re-saved, inside 8200 Series - Rear module drawing Master.cdr (2011).",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr"
+   },
+   {
+    "text": "On the TB8205 page a 3-way terminal block above the two 9-way strips carries no legend for the M8208.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr"
+   },
+   {
+    "text": "On the TB8205 page the pairs are split across the two strips: OUT 1 +(DIR), OUT 2 +, INPUT +, LOW, HIGH, GND on the left; OUT 1 −(DIR), OUT 2 −, INPUT −, IN SH, WIPER, GND on the right.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr"
+   },
+   {
+    "text": "On the TB8202 page HIGH / WIPER / LOW sit on a separate bottom-left 3-way strip marked REM IN, below IN ± / SH and the eight balanced outputs.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr"
+   },
+   {
+    "text": "The remote pot on every M8208 page is drawn as 5 kΩ with its CW end on HIGH; the sheet gives no cable length.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr"
+   },
+   {
+    "text": "The same page also offers ST8200 (solder) and QC8200 (QCP) rear modules for the M8208; the simulator models only TB8205 and TB8202.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -2214,6 +2957,32 @@ window.SIM_CATALOG = [
    "ST8201A terminal art you can wire",
    "Findings: D8205 template leftovers, resistor-less LEDs, −15.6 dB push-buttons"
   ],
+  "footnotes": [
+   {
+    "text": "The terminal sheet is titled “M8209A TERMINAL OPTIONS”; every other M8209 file (netlist, BOM, Gerbers) says M8209 ISS1, with no A.",
+    "src": "#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr"
+   },
+   {
+    "text": "The ST8201A solder terminal drawn for the M8209 has 11 cups on the left and 12 on the right; the extra bottom-right cup is a second SHIELD.",
+    "src": "#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr"
+   },
+   {
+    "text": "Twelve of the 23 ST8201A cups are labelled NOT USED: three rows after OUTPUT 1, two after OUTPUT 2 and one above IN 2, the gaps left by the eight-output layout.",
+    "src": "#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr"
+   },
+   {
+    "text": "The sheet draws the ST8201A only; no screw (TB) or BNC option is offered for the M8209.",
+    "src": "#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_TR3.cdr"
+   },
+   {
+    "text": "M8209_MAN.cdr holds the manual cover (the frame drawing), not operating text.",
+    "src": "#MF8200 #SERIES/M8209 - #Engineering #MF82/M8209_MAN.cdr"
+   },
+   {
+    "text": "The BOM header still reads “D8205” and the PB1/PB2 switch is listed twice as PHA2UEE and PHA-2UEE.",
+    "src": "#MF8200 #SERIES/M8209 - #Engineering #MF82/PCB/m8209_ISS1.bom"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2263,6 +3032,36 @@ window.SIM_CATALOG = [
    "Looping input: terminate once, see double/no termination",
    "Line-by-line NTSC timing down to the 3.58 MHz subcarrier",
    "Hum and cable loss pass straight through (no clamp, no EQ)"
+  ],
+  "footnotes": [
+   {
+    "text": "BNC1 has seven BNCs (INPUT + OUT 1–6) although the manual calls the M8251 a one-by-eight DA; only BNC3 (MF8210 only) brings out all eight outputs.",
+    "src": "#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr"
+   },
+   {
+    "text": "Each BNC on the terminal sheet carries two labels: a boxed legend (INPUT, OUT 1 …) and a small tag beside it (INPUT, 1–8, INPUT LOOP).",
+    "src": "#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr"
+   },
+   {
+    "text": "BNC3 is marked “(MF8210 ONLY)”: the double-width 1×8 + loop panel does not fit the MF8212 frame.",
+    "src": "#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr"
+   },
+   {
+    "text": "The terminal options are drawn twice: m8251term.cdr (2000) in the card folder and “M8251 - rear module options.cdr” (2012) in the rear-module guides, which adds the 1x6 / 1x8 captions.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8251 - rear module options.cdr"
+   },
+   {
+    "text": "The rear-module guide README lists M8251 as “CDR only, no PDF”; a rendered PDF has since been added beside it.",
+    "src": "#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8251 - rear module options.cdr"
+   },
+   {
+    "text": "M8251-2.PCB/.BAK in the M8251 folder hold the M8252 board (OPA650A, LM1881, EQ), not a second M8251 issue.",
+    "src": "#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/PCB/M8251-2.PCB"
+   },
+   {
+    "text": "The OrCAD part list places both regulators as LM317, while the board text names an LM337 for the negative rail.",
+    "src": "#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/PCB/M8251.DSN"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -2314,6 +3113,7 @@ window.SIM_CATALOG = [
    "BNC1 / BNC3 rear modules and the looping input",
    "Findings: M8251 title block and 12 stray frame connectors left in the files"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2363,6 +3163,36 @@ window.SIM_CATALOG = [
    "Two supplies sharing ±22 V, 120 Hz ripple and dropout",
    "N+1 redundancy check against the 0.75 A supply fuses",
    "Findings: no supplies on the BOM, three fuse ratings, two backplane prices"
+  ],
+  "footnotes": [
+   {
+    "text": "MF8212RM2-SILK swaps its BNC legends between issues: NOV.06/15 reads REF OUT (left) / REF IN (right); JUN.22/16 reads REF IN / REF OUT.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The RM2 silk is stored three times: “MF8212RM2-SILK (CURVE).cdr” (2015-11-09), “MF8212RM2-SILK(CURVE).cdr” and the live-text “MF8212RM2-SILK.cdr” (both 2016-06-22); the two CURVE names differ only by a space.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK.cdr"
+   },
+   {
+    "text": "MF8212RM2-SILK(CURVE).cdr holds hidden leftover objects under the CAUTION block: two small circles joined by a line and the letters “ENCE” with no colour set; they are not printed.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The RM2 silk has no fuse rating, although the inlets take 2 A fuses per the 2013 BOM and the 1999 silk MF82SILK.CDR printed “1.5 / 0.75 A SB”.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The MF8212RM2 drawing (ISS 1, 05/08/10) is drawn 1:1 with the silk: 4.150 × 3.300 in, chassis and ground posts .750 apart, REF BNCs .750 apart.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #Mechanical #DA #2016/MF8212RM2 ISS 1 (POWER COVER).pdf"
+   },
+   {
+    "text": "RM2 is titled “DA REAR POWER SOURCE COVER” with “FOLDER: MFXX/MF8212/” in its title block, although it now lives in the D8210 & D8212 mechanical folder.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #Mechanical #DA #2016/MF8212RM2 ISS 1 (POWER COVER).pdf"
+   },
+   {
+    "text": "MF8212RM1 ISS 2 records “.437 DIA. WAS .218” on 13/01/06 but its title block is dated 09/12/10.",
+    "src": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #Mechanical #DA #2016/MF8212RM1 ISS 2 (REAR HOUSING).pdf"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -2422,6 +3252,32 @@ window.SIM_CATALOG = [
    "115/230 V strap and grounding-scheme checks",
    "Findings: one-slot vs bus reference, 1.260 in MF8210 pitch, mains on the MF8210 backplane"
   ],
+  "footnotes": [
+   {
+    "text": "PSU.cdr (2000) labels the rear BNCs REF OUT (left) and REF IN (right); MF8212RM2-SILK(CURVE).cdr (2016) swaps them to REF IN / REF OUT.",
+    "src": "#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/PSU.cdr"
+   },
+   {
+    "text": "PSU.cdr has no cut lines for the IEC windows, posts or BNC holes; only the ink and crop marks are drawn.",
+    "src": "#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/PSU.cdr"
+   },
+   {
+    "text": "PSU.cdr hides four white letters (“E N C E”) and two unfilled circles under the CAUTION block, leftovers of an older REFERENCE legend.",
+    "src": "#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/PSU.cdr"
+   },
+   {
+    "text": "Backup_of_PSU.cdr (2000-02-11) sits beside PSU.cdr (2000-04-05) as an earlier save.",
+    "src": "#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/Backup_of_PSU.cdr"
+   },
+   {
+    "text": "MF82SILK.CDR (1999) is CorelDRAW 5: on conversion its 95 text objects become symbol junk; only “1.5 / 0.75 A SB” is readable.",
+    "src": "#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/MF82SILK.CDR"
+   },
+   {
+    "text": "The PS door silk is kept four times in MFXX: 8210-8212PS.cdr (root), MF8210/8210-8212PSDOOR.cdr and MF8212/Backup_of_8210-8212PSDOOR.cdr (all 16,282 bytes, 2001-06-28), and MF8212/8210-8212PSDOOR.cdr (16,938 bytes, 2016-06-21).",
+    "src": "#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/8210-8212PSDOOR.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2472,6 +3328,7 @@ window.SIM_CATALOG = [
    "Mate with D8204C, D8201A or D8204A",
    "Ground through the hatched pour"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2522,6 +3379,7 @@ window.SIM_CATALOG = [
    "The ISS2 Gerber set also carries the RLM24-6 board",
    "Mate with D8204C, D8201A or D8204A"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2572,6 +3430,7 @@ window.SIM_CATALOG = [
    "Turn the remote pot, watch the gain",
    "TB8202 vs TB8202/600 build-outs"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2622,6 +3481,7 @@ window.SIM_CATALOG = [
    "TB8204P vs TB8204P/600",
    "Same copper idea as the TB8202"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2672,6 +3532,7 @@ window.SIM_CATALOG = [
    "Silk vs 2012 guide labels — they disagree",
    "Six mating cards from the rear-module guides"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -2723,6 +3584,24 @@ window.SIM_CATALOG = [
    "V5.1 factory calibration procedure as a step-by-step tutorial",
    "Findings: muted boot, first reading is the slot ID, “Off” is not off, report lottery"
   ],
+  "footnotes": [
+   {
+    "text": "T6303 position 8 is labelled “OUT1-3” on the CorelDRAW rear-module sheet (repeated in the PDF); the netlist puts OUT2-3 (AES7) there.",
+    "src": "#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201-REAR-MODULES.cdr"
+   },
+   {
+    "text": "T6406 side labels mix “IN1#1” / “OUT1-2#2” with “IN2 #1” / “OUT1-1 #2” — the spacing was typed by hand.",
+    "src": "#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201-REAR-MODULES.cdr"
+   },
+   {
+    "text": "Each rear module is drawn twice: on the combined AA6201-REAR-MODULES sheet (2008-08-07) and in single sheets AA6201A-T6303.cdr, AA6201-T6403.cdr, AA6201-T6406.cdr, plus Backup_of_ copies.",
+    "src": "#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201A-T6303.cdr"
+   },
+   {
+    "text": "The card-edge drawing has three LED windows (CHA, CHB, COM Activity) and two trimmer screws (LEVEL CHA, LEVEL CHB).",
+    "src": "#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201A-card-edge.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -2773,6 +3652,28 @@ window.SIM_CATALOG = [
    "PARAMETER_UPDATE, heartbeat and DashBoard messages on a 1 Mbit/s CAN timeline",
    "Findings: Cobalt build, commented-out pushbuttons, R15 vs the EQ jumper, unsaved Notify"
   ],
+  "footnotes": [
+   {
+    "text": "The 2008 sheet shades T6201 BNCs 1, 2, 9 and 10 darker than the rest; nothing in the netlist singles out 9 and 10.",
+    "src": "#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/AV6201-REAR-MODULES.cdr"
+   },
+   {
+    "text": "The 2008 sheet labels T6201/T6301 position 2 “IN”; the 2012 guide says “Not Connected”, as the netlist and manual do.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"
+   },
+   {
+    "text": "The 2012 guide numbers T6301A outputs OUT 1–4 down the left and OUT 5–8 down the right; the 2008 sheet and the P1 pin order alternate OUT1/OUT2 across rows.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"
+   },
+   {
+    "text": "The card edge draws ERROR LED above SYNCH LED and push-button “Clamp Switch” / “EQ Fixed Switch”; the ISS3 board has SYNCH on top and jumpers H2/H3.",
+    "src": "#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/AV6201-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide offers only T6301A and T6401A; T6201 (10-slot DFR-8310 frame) is no longer shown.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -2822,6 +3723,24 @@ window.SIM_CATALOG = [
    "LMH1981 sync detect stalling the AVR loop once per field",
    "Card edge pots, jumpers, rear modules and DashBoard",
    "Firmware leftovers from the D6201A"
+  ],
+  "footnotes": [
+   {
+    "text": "The 2012 guide labels T6301A position 2 “Not Connected”; the 2008 sheet labels it “IN”.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"
+   },
+   {
+    "text": "The 2012 guide numbers T6301A outputs OUT 1–4 down the left column and OUT 5–8 down the right; the 2008 sheet alternates OUT1/OUT2 across each row.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6201A - rear module options.cdr"
+   },
+   {
+    "text": "The card edge (labelled AV6201A on the ejector) draws “Clamp Switch” and “EQ Fixed Switch” as push-buttons; the board has jumpers.",
+    "src": "#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/AV6201-card-edge.cdr"
+   },
+   {
+    "text": "The guide shows only T6301A and T6401A; the T6201 art here comes from the 2008 AV6201-REAR-MODULES sheet.",
+    "src": "#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR/AV6201 - #Engineering/AV6201A/Functional/AV6201-REAR-MODULES.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -2874,6 +3793,28 @@ window.SIM_CATALOG = [
    "Black-burst distribution from the frame reference",
    "What changed from the AV6201A"
   ],
+  "footnotes": [
+   {
+    "text": "AV6202-card-edge.cdr is misnamed: it holds no card edge but a copy of the AV6201 rear-module sheet (T6201, T6301, T6401), still captioned “AV6201-1 / AV6201-2”.",
+    "src": "#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/AV6202-card-edge.cdr"
+   },
+   {
+    "text": "The real AV6202A card edge (AV6202A-card-edge.cdr) shows Level POT, SYNCH LED and NO SYNCH LED only — no EQ or clamp.",
+    "src": "#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/AV6202A-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide numbers T6301A outputs OUT 1–4 down the left and OUT 5–8 down the right, against the P1 pin order (OUT1 at position 3, OUT2 at 4).",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6202A - rear module options.cdr"
+   },
+   {
+    "text": "AV6202A BERGS.cdr is the jumper legend set: TERM / HI Z, EXT / REF, REF 1 / 2, BAL.",
+    "src": "#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/AV6202A BERGS.cdr"
+   },
+   {
+    "text": "Backup_of_AV6202A-card-edge.cdr sits beside the card-edge drawing — an autosave copy.",
+    "src": "#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/Backup_of_AV6202A-card-edge.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -2923,6 +3864,24 @@ window.SIM_CATALOG = [
    "V200 SNMP view from AV6202-CARD.mib",
    "The sticky video-format bug",
    "Video line scope and level ladder"
+  ],
+  "footnotes": [
+   {
+    "text": "AV6202-card-edge.cdr holds the AV6201 rear-module sheet, not a card edge; its T6401 is still captioned “AV6201-1 / AV6201-2”.",
+    "src": "#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/AV6202-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide numbers T6301A outputs OUT 1–4 down the left column and OUT 5–8 down the right; the 2008 sheet alternates OUT1/OUT2 across rows.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6202A - rear module options.cdr"
+   },
+   {
+    "text": "The 2012 guide labels T6301A position 2 “Not Connected”.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/AV6202A - rear module options.cdr"
+   },
+   {
+    "text": "AV6202A BERGS.cdr is the jumper legend set: TERM / HI Z, EXT / REF, REF 1 / 2, BAL.",
+    "src": "#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR/AV6202 - #Engineering/AV6202A/Functional/AV6202A BERGS.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -2975,6 +3934,28 @@ window.SIM_CATALOG = [
    "EQ, SRC and tone paths traced through D6201A.bdf",
    "Findings: a tone that does nothing, random heartbeats, unsaved EQ"
   ],
+  "footnotes": [
+   {
+    "text": "The 2008 D6201B rear-module sheet heads T6401A’s left column “CARD 1” and the right “CARD 2”; the 2012 guides say “2 CARD 1” (card 2 on the left).",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+   },
+   {
+    "text": "D6201A-T6201.cdr (2006) is captioned “DUAL 75Ω AES DA” with IN1/IN2 and OUT1-x/OUT2-x legends, although the D6201A is a 1 × 8 DA.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6201.cdr"
+   },
+   {
+    "text": "The BNC drawings in D6201A-T6201.cdr do not survive conversion with libcdr (only the IN1/IN2 discs remain), so the T6201 art comes from the 2008 D6201B sheet.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6201.cdr"
+   },
+   {
+    "text": "The D6201A and D6201B rear-module guides (2012) differ only in legends: A labels OUT 1–8 with position 2 “Not Connected”, B labels IN 2 and OUT1-x / OUT2-x.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201B - rear module options.cdr"
+   },
+   {
+    "text": "The D6201A card edge has one EQ switch and five LEDs; the D6201B edge has two EQ switches and eight LEDs (Lock/No Lock/EQ per input).",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B-card-edge.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -3025,6 +4006,44 @@ window.SIM_CATALOG = [
    "CAN timing from CAN.c (1 Mbit/s, 96 µs pacing)",
    "Same PCB as the D6201B: what the A firmware turns off"
   ],
+  "footnotes": [
+   {
+    "text": "No D6201A drawing of the T6201 rear module exists; the only full T6201 panel is the D6201B one, so the simulator shows D6201B legends on it.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+   },
+   {
+    "text": "On the T6201 artwork position 2 reads “IN2”, but on a D6201A that BNC is unconnected (the card has one input).",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+   },
+   {
+    "text": "The 2006 T6201 label sheet is titled “DUAL 75Ω AES DA” with IN1/IN2, i.e. drawn for the dual-channel card.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6201.cdr"
+   },
+   {
+    "text": "The 2006 T6301 label sheet is also labelled for the dual card (IN1/IN2, OUT1-x/OUT2-x), two years before the D6201B shipped.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6301.cdr"
+   },
+   {
+    "text": "The 2006 label sheets draw only BNC 1 and 2; positions 3–10 are just numbers.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6401.cdr"
+   },
+   {
+    "text": "CARD 1 sits on the left of the T6401A in the 2008 drawing.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+   },
+   {
+    "text": "The 2012 guide marks “2 CARD 1”, so CARD 1 moved to the right (even positions); the simulator follows 2012.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201A - rear module options.cdr"
+   },
+   {
+    "text": "The guide's T6301A legend reads “Not Connected” at position 2.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201A - rear module options.cdr"
+   },
+   {
+    "text": "CorelDRAW text came out of libcdr with a leading space in every text run, which split “T6301A” into “T630 1A”; the assets were cleaned.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201A - rear module options.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -3074,6 +4093,36 @@ window.SIM_CATALOG = [
    "SRC with rear or midplane reference (H3/H4)",
    "The DIP-switch rule the manual misses",
    "Same PCB as the D6201A"
+  ],
+  "footnotes": [
+   {
+    "text": "CARD 1 sits on the left of the T6401A in the 2008 drawing.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+   },
+   {
+    "text": "The 2012 guide marks “2 CARD 1”, so CARD 1 moved to the right (even positions); the simulator follows 2012.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201B - rear module options.cdr"
+   },
+   {
+    "text": "The D6201B card edge has 8 LEDs and two EQ switches (EQ1, EQ2).",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B-card-edge.cdr"
+   },
+   {
+    "text": "The D6202A card-edge drawing is identical to the D6201B one apart from the ejector label.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-card-edge.cdr"
+   },
+   {
+    "text": "The 2006 T6201/T6301 label sheets, filed as D6201A, are already labelled for the dual card (“DUAL 75Ω AES DA”, IN1/IN2).",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6201.cdr"
+   },
+   {
+    "text": "The 2008 sheet titles the T6201 “SINGLE CARD REAR MODULE FOR DFR-8310” and the T6301A/T6401A “FOR DFR-8320”.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B Rear Mod.cdr"
+   },
+   {
+    "text": "The 2012 guide footer reads “D6201B-1x8 / 2x4 AES DA 75 Ohm” for the T6301A.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6201B - rear module options.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -3126,6 +4175,36 @@ window.SIM_CATALOG = [
    "CAN timing: 96 µs ticks, heartbeat reports, multi-frame answers",
    "Findings: ISS2 was already Altera, Save hidden and never restored, spinning report rotation"
   ],
+  "footnotes": [
+   {
+    "text": "The D6202A card-edge drawing is the dual card: it shows Lock2, No Lock2, EQ2 and an EQ2 switch, none of which are fitted on a D6202A.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-card-edge.cdr"
+   },
+   {
+    "text": "The D6202A card-edge drawing is identical to the D6201B one apart from the ejector label.",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201B-card-edge.cdr"
+   },
+   {
+    "text": "The T6403A legend says “OUT 3 Card 2” twice; position 9 should be OUT 4 Card 2.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6202A - rear module options.cdr"
+   },
+   {
+    "text": "In the 2008 label sheets the Ω was set in the “WP Greek Helve” font and converts as Σ (“110ΣAES DA”); the assets were corrected to Ω.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-T6203.cdr"
+   },
+   {
+    "text": "The T6204 drawing is titled “DUAL 110Ω AES DA” and lists IN2 on BNC 2, although the D6202A has one input.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-T6204.cdr"
+   },
+   {
+    "text": "The T6203 label sheet reads “1x8 110Ω AES DA … SINGLE CARD TERMINATION DFR-8310”.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-T6203.cdr"
+   },
+   {
+    "text": "The T6204 label sheet is for the MF6220 frame, the T6203 for the DFR-8310.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-T6204.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -3176,6 +4255,32 @@ window.SIM_CATALOG = [
    "One-shot RESTART trap and restore_start, the V100 changes",
    "Findings: alarm off at power-up, Save ignored with SW7 OFF, mislabelled BOM and drawings"
   ],
+  "footnotes": [
+   {
+    "text": "No D6202B card-edge file exists; the D6202A card-edge drawing already shows the dual card (8 LEDs, EQ1 and EQ2).",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide lists the T6303A and T6403A for the D6202B, not the T6203 modelled here.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6202B - rear module options.cdr"
+   },
+   {
+    "text": "The T6403A legend says “OUT 3 Card 2” twice; position 9 should be OUT 4 Card 2.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6202B - rear module options.cdr"
+   },
+   {
+    "text": "In the 2008 T6203 drawing the Ω was set in “WP Greek Helve” and converts as Σ (“DUAL 110ΣAES DA”); the asset was corrected.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202B-T6203.cdr"
+   },
+   {
+    "text": "The T6203 drawing carries no issue mark, so the same artwork stands for ISS1 and ISS2/3.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202B-T6203.cdr"
+   },
+   {
+    "text": "The D6202B T6203 drawing is filed in the D6202A engineering folder.",
+    "src": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202B-T6203.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -3225,6 +4330,32 @@ window.SIM_CATALOG = [
    "Reference fallback and chirp from the real 175 µs loop",
    "CAL self-calibration timing",
    "DIP switch and DashBoard"
+  ],
+  "footnotes": [
+   {
+    "text": "The D6203A card edge has six LEDs (REF1, REF2, External, Internal, CAL, COM Activity) and no switch or Error LED.",
+    "src": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203A-card-edge.cdr"
+   },
+   {
+    "text": "The guide also offers a T6403A (dual card, 110 Ω, all Phoenix), which is not modelled.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"
+   },
+   {
+    "text": "In the combined 2011 guide the T6403 card-1 legends are placeholders (BNC1-2, AES1-2 … AES4-2).",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - D6204A rear module options.cdr"
+   },
+   {
+    "text": "The T6302A footer reads “Analog to DigitalAudio Converter-75 Ohm” (missing space, different wording from the other modules).",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr"
+   },
+   {
+    "text": "The 2008 T6302 label sheet labels positions 8 and 10 “N/C” and uses LEFT/RIGHT where the 2012 guide says Analog IN Left/Right.",
+    "src": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203-T6302.cdr"
+   },
+   {
+    "text": "The 2007 T6301 label sheet is titled “D6203” with only BNC 1–2 drawn and five “NOT USED” positions.",
+    "src": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203-T6301.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -3280,6 +4411,36 @@ window.SIM_CATALOG = [
    "V200 FPGA self-upload, step by step",
    "#PROBLEM answer: the hashtag tree is authoritative"
   ],
+  "footnotes": [
+   {
+    "text": "Position 4 of the T6302A legend reads “AES OUT34”: “AES OUT3” plus a stray “4” in a separate text run.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6204A - rear module options.cdr"
+   },
+   {
+    "text": "A T6202A “REAR MODULE For DFR8310” is drawn here but appears in neither 2012 guide (unbuilt variant).",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/T6XXX/D6204Terms.cdr"
+   },
+   {
+    "text": "The card-edge drawing's ejector always reads “D6204A”, whichever brand the card is built as.",
+    "src": "#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR/D6204/D6204 - #Engineering/D6204 - #Functional/D6204-card-edge.cdr"
+   },
+   {
+    "text": "D6204-card-edge.cdr is stored twice, byte-identical, in the D6204A/Functional and D6204 - #Functional folders.",
+    "src": "#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR/D6204/D6204 - #Engineering/D6204A/Functional/D6204-card-edge.cdr"
+   },
+   {
+    "text": "The D6201A card-edge drawing has the same LED and switch layout as the D6204 one (5 LEDs, one EQ switch).",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide puts Analog OUT Left 1 / Right 1 on positions 7/9 and Left 2 / Right 2 on 8/10.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6204A - rear module options.cdr"
+   },
+   {
+    "text": "The combined 2011 guide spells the module “T6302” (no A) and its T6302 legend also reads “AES OUT34”.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - D6204A rear module options.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -3330,6 +4491,36 @@ window.SIM_CATALOG = [
    "V200 FPGA self-programming",
    "The “#PROBLEM” duplicate-folder answer"
   ],
+  "footnotes": [
+   {
+    "text": "Position 4 of the T6302A legend reads “AES OUT34”: “AES OUT3” plus a stray “4” in a separate text run.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6204A - rear module options.cdr"
+   },
+   {
+    "text": "A T6202A “REAR MODULE For DFR8310” is drawn here but appears in neither 2012 guide (unbuilt variant).",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/T6XXX/D6204Terms.cdr"
+   },
+   {
+    "text": "The card-edge drawing's ejector always reads “D6204A”, whichever brand the card is built as.",
+    "src": "#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR/D6204/D6204 - #Engineering/D6204 - #Functional/D6204-card-edge.cdr"
+   },
+   {
+    "text": "D6204-card-edge.cdr is stored twice, byte-identical, in the D6204A/Functional and D6204 - #Functional folders.",
+    "src": "#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR/D6204/D6204 - #Engineering/D6204A/Functional/D6204-card-edge.cdr"
+   },
+   {
+    "text": "The D6201A card-edge drawing has the same LED and switch layout as the D6204 one (5 LEDs, one EQ switch).",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide puts Analog OUT Left 1 / Right 1 on positions 7/9 and Left 2 / Right 2 on 8/10.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6204A - rear module options.cdr"
+   },
+   {
+    "text": "The combined 2011 guide spells the module “T6302” (no A) and its T6302 legend also reads “AES OUT34”.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - D6204A rear module options.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -3379,6 +4570,28 @@ window.SIM_CATALOG = [
    "Format detection, routing modes and outputs",
    "Dolby E frames locked to video",
    "Where documents, MIB, manual and code disagree"
+  ],
+  "footnotes": [
+   {
+    "text": "Card edge and rear panel artwork from the CorelDRAW files (2026|59): D6207A-card-edge.cdr in this folder (2008-05-08) and the 2012 openGear Rear Module Guide.",
+    "src": "#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A-card-edge.cdr"
+   },
+   {
+    "text": "The guide puts Reserved on rear position 9 and Metadata OUT on 10; this plugin used to have them the other way round.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6207A - Rear Module Options.cdr"
+   },
+   {
+    "text": "The 2007 sheet in this folder calls position 9 “GPI/O 1” and the module “T6305” (no A).",
+    "src": "#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A-T6305.cdr"
+   },
+   {
+    "text": "This folder’s card-edge, T6305 and D6207A drawings (and their Backup_of_ copies) are byte-identical to the ones in the Master Functional folder.",
+    "src": "#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-card-edge.cdr"
+   },
+   {
+    "text": "The MIB design note names d6207xInputStatus / d6207xInputStatusEvent, but the MIB has d6207xCardStatus / d6207xCardStatusEvent, and the note spells “d6207xCardMibCompiliances”.",
+    "src": "#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/Defining a D6207A MIB.doc"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -3431,6 +4644,32 @@ window.SIM_CATALOG = [
    "DashBoard reports paced by CAN_TX_TIMER",
    "24 findings, including the one-shot mapping-error watchdog and the DTS-upmix FPGA"
   ],
+  "footnotes": [
+   {
+    "text": "Card edge and rear panel artwork from the CorelDRAW files (2026|59): D6207A-card-edge.cdr (2008-05-08) and the openGear Rear Module Guide D6207A - Rear Module Options.cdr (2012-01-16).",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6207A - Rear Module Options.cdr"
+   },
+   {
+    "text": "The card-edge drawing shows exactly seven LEDs: AES1, Dolby1, Error1, AES2, Dolby2, Error2 and COM Activity.",
+    "src": "#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide labels rear position 9 “Reserved” and 10 “Metadata OUT”; the 2007 sheet calls position 9 “GPI/O 1”.",
+    "src": "#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-T6305.cdr"
+   },
+   {
+    "text": "The guide names the module T6305A; the 2007 sheet and the netlist say T6305.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6207A - Rear Module Options.cdr"
+   },
+   {
+    "text": "In the Inkscape conversion of the 2007 T6305 sheet only the two input BNCs are drawn; positions 3–10 carry numbers and labels only.",
+    "src": "#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-T6305.cdr"
+   },
+   {
+    "text": "D6207A-card-edge.cdr, D6207A-T6305.cdr, D6207A.cdr and their Backup_of_ copies are stored twice, byte-identical, in the Master Functional folder and the #TIM #PCB folder.",
+    "src": "#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A-card-edge.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -3481,6 +4720,7 @@ window.SIM_CATALOG = [
    "What the D6208A adds over the D6207A",
    "Unconnected nets in issue 1"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -3530,6 +4770,7 @@ window.SIM_CATALOG = [
    "The three D6208A designs side by side",
    "Title block copied from the M6205"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -3579,6 +4820,7 @@ window.SIM_CATALOG = [
    "DDR video-delay capacity per format",
    "Board drawn to scale from the netlist’s parts"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -3629,6 +4871,32 @@ window.SIM_CATALOG = [
    "CAT552_RESET from inside the 1 ms timer interrupt, 48 ms stalls, endless resets without a module",
    "20 findings: SD LED on HD, settings lost at reboot, DIP read before the FPGA is back"
   ],
+  "footnotes": [
+   {
+    "text": "Card edge and rear artwork from the CorelDRAW files (2026|59): M6202-card-edge.cdr (2008-02-22) and M6202AE Rear Modules.cdr (2009-06-04: T6204, T6304, T6306).",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE Rear Modules.cdr"
+   },
+   {
+    "text": "The card-edge drawing (titled M6202A, also used for the M6202AE) has nine LEDs: SD, HD, ERR, AES1–4, COM Activity and Error; the four DOLBY LEDs the firmware drives (LED8/7/5/2) are not drawn.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202-card-edge.cdr"
+   },
+   {
+    "text": "M6202AE-T6306RearModule.cdr (2009-05-28) relabels the T6306 in groups: 3/5 GROUP 1 OUT, 7/9 GROUP 2 OUT, 4/6 SELECTABLE GROUP OUT, 10 METADATA OUT.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE-T6306RearModule.cdr"
+   },
+   {
+    "text": "The 2012 guide offers only the T6306A (single) and T6401A (dual, captioned “*No MetaData Out”) for the M6202AE; the 110 Ω T6204/T6304 are gone.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6202AE - rear module options.cdr"
+   },
+   {
+    "text": "The Functional folder keeps Backup_of_ and even Backup_of_Backup_of_ copies of the rear-module sheets (M6202AE Rear Modules, -FUNCTIONAL, Rear Modules Temp, Rear Modules-PL).",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/Backup_of_Backup_of_M6202AE Rear Modules.cdr"
+   },
+   {
+    "text": "On the T6204/T6304 position 8 is drawn with a Phoenix block although it is labelled NOT USED.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE Rear Modules.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -3677,6 +4945,32 @@ window.SIM_CATALOG = [
    "Group selection by DIP or DashBoard, latched at boot",
    "The 1.0.0.2 Dolby E / AC-3 swap, side by side",
    "Why the Dolby decoder socket does nothing in 1.0.0.3"
+  ],
+  "footnotes": [
+   {
+    "text": "Rear and card-edge artwork from the CorelDRAW files (2026|59): M6202 Rear Modules.cdr (2009-01-23: T6204, T6201, T6301, T6401) and M6202-card-edge.cdr (2008-02-22).",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202 Rear Modules.cdr"
+   },
+   {
+    "text": "The rear sheet groups outputs as “1st SEL” and “2nd SEL” on every module, the selectable groups of the later M6202AE.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202 Rear Modules.cdr"
+   },
+   {
+    "text": "The single-card drawings label positions 4 and 6 AES5/AES6 OUT, outputs only the M6202AE drives.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202A-T6301.cdr"
+   },
+   {
+    "text": "The card-edge drawing has nine LEDs and no DOLBY 1–4, although the PNP places four more yellow LEDs.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide offers only the T6301A (position 2 “Not Connected”) and T6401A for the M6202A.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6202A - rear module options.cdr"
+   },
+   {
+    "text": "In the Inkscape conversion of M6202A-T6401.cdr (2006-12-04) only the two top BNCs are drawn.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202A-T6401.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -3728,6 +5022,28 @@ window.SIM_CATALOG = [
    "Cable reach: 115 m HD against a 200 m target",
    "Why Lt/Rt reads −27 / −10 dBFS"
   ],
+  "footnotes": [
+   {
+    "text": "Rear and card-edge artwork from the CorelDRAW files (2026|59): M6202AE Rear Modules.cdr (2009-06-04) and M6202-card-edge.cdr (2008-02-22).",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE Rear Modules.cdr"
+   },
+   {
+    "text": "The card-edge drawing (titled M6202A, also used for the M6202AE) has nine LEDs: SD, HD, ERR, AES1–4, COM Activity and Error; the four DOLBY LEDs the firmware drives (LED8/7/5/2) are not drawn.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202-card-edge.cdr"
+   },
+   {
+    "text": "M6202AE-T6306RearModule.cdr (2009-05-28) relabels the T6306 in groups: 3/5 GROUP 1 OUT, 7/9 GROUP 2 OUT, 4/6 SELECTABLE GROUP OUT, 10 METADATA OUT.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE-T6306RearModule.cdr"
+   },
+   {
+    "text": "The 2012 guide offers only the T6306A (single) and T6401A (dual, captioned “*No MetaData Out”) for the M6202AE; the 110 Ω T6204/T6304 are gone.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6202AE - rear module options.cdr"
+   },
+   {
+    "text": "The Functional folder keeps Backup_of_ and even Backup_of_Backup_of_ copies of the rear-module sheets (M6202AE Rear Modules, -FUNCTIONAL, Rear Modules Temp, Rear Modules-PL).",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/Backup_of_Backup_of_M6202AE Rear Modules.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -3777,6 +5093,32 @@ window.SIM_CATALOG = [
    "SDI lines, EAV/SAV words and scrambled NRZI bits at the playhead; ASI on true vs inverted outputs",
    "DashBoard window fed by simulated CAN reports and replies, with reboot and upgrade paths",
    "Findings: unused bypass, LOS on the wrong pin, SDI Input alarm mismatch, ASI output list explained from the netlist"
+  ],
+  "footnotes": [
+   {
+    "text": "Card edge and rear artwork from the CorelDRAW files (2026|59): M6203A LED Status.cdr (2010-04-28) and the guide M6203A - rear module options.cdr (2012-01-16).",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6203A - rear module options.cdr"
+   },
+   {
+    "text": "The card-edge figure in the manual folder shows five LEDs, LOCK, 270M, 1.5G, 3G and NO LOCK, the same five as the ISS3 netlist; no COM or error LED.",
+    "src": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/MANUAL/M6203A LED Status.cdr"
+   },
+   {
+    "text": "The older M6203A-card-edge.cdr (2008-05-08) spaces the LEDs differently from the 2010 manual figure (3G and No Lock lower down).",
+    "src": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide captions the dual T6401A “M6203A-3G/HD/SD-SDI DA- NOT 3G”, while the single module is T6301A-3G.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6203A - rear module options.cdr"
+   },
+   {
+    "text": "Rear position 2 of the single module is “Not Connected” in the 2012 guide and “NOTUSED” in the 2007 sheet.",
+    "src": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-T6301.cdr"
+   },
+   {
+    "text": "In the Inkscape conversion of the 2007 T6301 and T6401 sheets only the two top BNCs are drawn; both carry the frame caption MF6220.",
+    "src": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-T6401.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -3828,6 +5170,36 @@ window.SIM_CATALOG = [
    "Why ASI passes on outputs 1, 3, 6, 7 only",
    "The unbranded S&L build"
   ],
+  "footnotes": [
+   {
+    "text": "Card edge and rear artwork from the CorelDRAW files (2026|59): M6203A LED Status.cdr (2010-04-28) and the guide M6203A - rear module options.cdr (2012-01-16).",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6203A - rear module options.cdr"
+   },
+   {
+    "text": "The card-edge figure in the manual folder shows five LEDs, LOCK, 270M, 1.5G, 3G and NO LOCK, the same five as the ISS3 netlist; no COM or error LED.",
+    "src": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/MANUAL/M6203A LED Status.cdr"
+   },
+   {
+    "text": "The older M6203A-card-edge.cdr (2008-05-08) spaces the LEDs differently from the 2010 manual figure (3G and No Lock lower down).",
+    "src": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-card-edge.cdr"
+   },
+   {
+    "text": "The 2012 guide captions the dual T6401A “M6203A-3G/HD/SD-SDI DA- NOT 3G”, while the single module is T6301A-3G.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6203A - rear module options.cdr"
+   },
+   {
+    "text": "Rear position 2 of the single module is “Not Connected” in the 2012 guide and “NOTUSED” in the 2007 sheet.",
+    "src": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-T6301.cdr"
+   },
+   {
+    "text": "In the Inkscape conversion of the 2007 T6301 and T6401 sheets only the two top BNCs are drawn; both carry the frame caption MF6220.",
+    "src": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-T6401.cdr"
+   },
+   {
+    "text": "The OEM “type A” 3G rear used in the cable tests has no Ward-Beck drawing in the archive; it stays a plain sketch.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6203A - rear module options.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -3877,6 +5249,36 @@ window.SIM_CATALOG = [
    "Firmware main loop, 128-bit FPGA exchange and CAN heartbeat emulated pass by pass",
    "DashBoard routing and SRC pages with the real OIDs, including the ghost rows",
    "22 findings: DIP-wired group count, the channel-16 test word, 2-of-4 routing choices"
+  ],
+  "footnotes": [
+   {
+    "text": "Card-edge and rear-module artwork (2026|59) is from the CorelDRAW files: M6204-card-edge.cdr (2009-03-02), M6204A - rear module options.cdr (2012-01-09), M6204A-T6305.cdr (2007-10-11) and the M6204AC700 IO drawing.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr"
+   },
+   {
+    "text": "The card-edge drawing names the yellow LED “CASCADE ON LED”; the PCB silk next to it says only “ON”.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr"
+   },
+   {
+    "text": "The T6305 drawing labels both BNC 8 and terminal block 9 “AES IN8”, has no AES IN6 and no SDI output.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6305.cdr"
+   },
+   {
+    "text": "The T6308A gets AES IN8 on BNC 10 by giving up SDI OUT2; the T6301A has two SDI outputs and only seven AES inputs.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6204A - rear module options.cdr"
+   },
+   {
+    "text": "The C700 rear drawing is filed as M6205C400-IO.cdr in the M6204AC700 folder but is titled “M6204C700”; it differs from the M6205CE400 file of the same name, and a Backup_of_ copy sits beside it.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A/Custom/M6204AC700/M6205C400-IO.cdr"
+   },
+   {
+    "text": "M6204A-T6301.cdr (2007-06-26) and the 2012 rear-module guide draw the same T6301 layout; the guide adds the T6308A.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6301.cdr"
+   },
+   {
+    "text": "Inkscape’s CDR import drops the BNC drawings of the 2007 rear-module files; the archive’s LibreOffice rendering (M6204A-T6305.pdf) keeps them and is what the T6305 panel uses.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6305.pdf"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -3928,6 +5330,28 @@ window.SIM_CATALOG = [
    "The V3000 test notes: “OK” formats, 720p failures, 21-bit HD",
    "The group-count DIP that v3.00 ignores"
   ],
+  "footnotes": [
+   {
+    "text": "Card-edge and rear-module artwork (2026|59) is from the CorelDRAW files: M6204-card-edge.cdr (2009-03-02), M6204A - rear module options.cdr (2012-01-09) for the T6301A, M6204A-T6305.cdr (2007-10-11).",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr"
+   },
+   {
+    "text": "The card-edge drawing names the yellow LED “CASCADE ON LED”; the PCB silk next to it says only “ON”.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204-card-edge.cdr"
+   },
+   {
+    "text": "The T6305 drawing labels both BNC 8 and terminal block 9 “AES IN8”, has no AES IN6 and no SDI output.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6305.cdr"
+   },
+   {
+    "text": "M6204A-T6301.cdr (2007-06-26) and the 2012 rear-module guide draw the same T6301 layout; the guide adds the T6308A.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6301.cdr"
+   },
+   {
+    "text": "Inkscape’s CDR import drops the BNC drawings of the 2007 rear-module files; the archive’s LibreOffice rendering (M6204A-T6305.pdf) keeps them and is what the T6305 panel uses.",
+    "src": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/M6204A-T6305.pdf"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -3977,6 +5401,40 @@ window.SIM_CATALOG = [
    "10 ms bit-banged control exchange with interrupts off, traced byte by byte",
    "11-step operator tutorial",
    "Super-loop vs zeuslib gearos across 14 firmware variants"
+  ],
+  "footnotes": [
+   {
+    "text": "Card-edge and T6307 artwork (2026|59) is from M6205-card-edge-v10.cdr (2008-10-30) and PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr (2008-11-17), with the C200 T6307 drawing on a toggle.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-card-edge-v10.cdr"
+   },
+   {
+    "text": "The first card-edge drawing (2008-05-08) calls the bottom LED “COM Activity LED”; v10 (2008-10-30) renames it “META DATA LED”.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-card-edge.cdr"
+   },
+   {
+    "text": "The generic T6307 drawing labels position 4 “BNC4 (C, LFE)” — a connector number where every other BNC has a function name.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr"
+   },
+   {
+    "text": "The C200 T6307 drawing marks BNC 4, 5, 7 and blocks 6 and 8 “N/A”, but the C200 SHARC code still drives C/LFE and Ls/Rs on BNC 4 and 5.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205C200/V3.0.0.0/M6205-T6307.cdr"
+   },
+   {
+    "text": "The C100 T6307 drawing labels the same positions differently again: AES OUT2 on 4, AES OUT3 on 5, block 6 and BNC 7 N/A.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205C100/v1002/M6205-T6307.cdr"
+   },
+   {
+    "text": "Both the C100 and C200 folders keep a Backup_of_M6205-T6307.cdr beside their M6205-T6307.cdr.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205C200/V3.0.0.0/Backup_of_M6205-T6307.cdr"
+   },
+   {
+    "text": "M6205-T6307.pdf was printed from H:\\OPEN GEAR\\M62XX\\M6205\\PCB\\M6205-T6307.cdr on 2008-11-17 — the copy now in PCB/OBSOLETE/ISSUE4.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-T6307.pdf"
+   },
+   {
+    "text": "The generic T6307 drawing is captioned “MF6220 FRAME”; the CE manual pairs the T6307A with the DFR-8320.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -4028,6 +5486,28 @@ window.SIM_CATALOG = [
    "DTS daughter-card protocol, 256-byte transfers and NLC loudness ballistics",
    "Firmware router codes against the archived FPGA decode"
   ],
+  "footnotes": [
+   {
+    "text": "Rear artwork (2026|59) is from M6205-3G rear module.cdr (2011-04-27); the 2012 rear-module guide draws the same T6301A-3G.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-3G rear module.cdr"
+   },
+   {
+    "text": "The rear drawing spells the AES inputs “Axillary AES Input” (for Auxiliary).",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-3G rear module.cdr"
+   },
+   {
+    "text": "BNC 2 of the T6301A-3G is drawn “NOT USED”; the drawing is captioned DFR-8320-C.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6205A-3G - Rear Module Options.cdr"
+   },
+   {
+    "text": "There is no 3G card-edge drawing: the panel uses M6205-card-edge-v10.cdr, which has no lens for the 3G LED that leds.c drives.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-card-edge-v10.cdr"
+   },
+   {
+    "text": "M6205-3G NLC5.1 Presets.cdr has a Backup_of_ copy beside it, both dated 2011-06-02.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/Backup_of_M6205-3G NLC5.1 Presets.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -4076,6 +5556,32 @@ window.SIM_CATALOG = [
    "C100 and C200 audio switching rules, live",
    "CE300 Dolby detected / not detected tables",
    "What the screenshots and manual give away"
+  ],
+  "footnotes": [
+   {
+    "text": "Rear and card-edge artwork (2026|59): CUSTOM/M6205CE300/M6205CE300-IO.cdr (2010-10-14) for the T6301A, the M6205 T6307 drawing for the T6307A, M6205-card-edge-v10.cdr for the edge.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205CE300/M6205CE300-IO.cdr"
+   },
+   {
+    "text": "The CE300 drawing puts SDI OUT1/2 on 9/10 and GPIO on 2; the model had guessed 2 and 4 for the SDI outputs.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205CE300/M6205CE300-IO.cdr"
+   },
+   {
+    "text": "The CE300 drawing offers “Embd PCM1” on two outputs: AES OUT1 (L/R or Embd PCM1) and AES OUT4 (StL/StR or Embd PCM1).",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205CE300/M6205CE300-IO.cdr"
+   },
+   {
+    "text": "The CE300 folder’s backup is named Backup_of_M6205C300-IO.cdr — C300, not CE300.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205CE300/Backup_of_M6205C300-IO.cdr"
+   },
+   {
+    "text": "There is no CE-specific T6307A drawing; the T6307A positions come from the generic M6205 T6307 drawing.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr"
+   },
+   {
+    "text": "The C600 drawing reuses the T6301 grid with AES OUT4 as “Lt / Rt” and BNC 2, 7, 8 not used.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205C600/V1.0.0.0/M6205C600-T6301.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4128,6 +5634,32 @@ window.SIM_CATALOG = [
    "AVR → FPGA → SHARC 80-byte control path with the “V201” handshake",
    "19 findings: DIP table vs code, no Mode 1, GPI-2 starts voice-over, unconnected SHARC reset"
   ],
+  "footnotes": [
+   {
+    "text": "Card-edge and rear artwork (2026|59): M6206-card-edge.cdr (2008-05-08), M6206A-T6304.cdr and M6206A-T6305.cdr (both 2007-08-21).",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206-card-edge.cdr"
+   },
+   {
+    "text": "The card-edge drawing pairs a Dolby LED (“1–4 LED”, bracketed “Dolby”) beside each of AES1–4.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206-card-edge.cdr"
+   },
+   {
+    "text": "T6304 and T6305 differ only at position 8: a GPI/O 2 terminal block on the T6304, an unused BNC on the T6305.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6305.cdr"
+   },
+   {
+    "text": "Backup_of_ copies of the T6304, T6305 and card-edge drawings sit beside the originals; the T6304/T6305 backups (2007-06-27) are older than the main files.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/Backup_of_M6206A-T6304.cdr"
+   },
+   {
+    "text": "Only the T6304 has CorelDRAW’s own PDF (2007-08-22); Inkscape’s CDR import drops the BNC drawings, so that PDF is what the T6304 panel uses.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6304.pdf"
+   },
+   {
+    "text": "The M6206A master folder holds an “M6245A - #Engineering” subfolder, another product’s name.",
+    "src": "#OPENGEAR #SERIES/M6206A - #Master #OPENGEAR/M6245A - #Engineering"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -4176,6 +5708,32 @@ window.SIM_CATALOG = [
    "Voice-over state machine from GPI-1 and GPI-2",
    "Programme dim ramp from RampAudioCalc",
    "Manual vs code: the DIP switch and GPI-2"
+  ],
+  "footnotes": [
+   {
+    "text": "Card-edge and rear artwork (2026|59): M6206-card-edge.cdr (2008-05-08), M6206A-T6304.cdr and M6206A-T6305.cdr (both 2007-08-21).",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206-card-edge.cdr"
+   },
+   {
+    "text": "The card-edge drawing pairs a Dolby LED (“1–4 LED”, bracketed “Dolby”) beside each of AES1–4.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206-card-edge.cdr"
+   },
+   {
+    "text": "T6304 and T6305 differ only at position 8: a GPI/O 2 terminal block on the T6304, an unused BNC on the T6305.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6305.cdr"
+   },
+   {
+    "text": "Backup_of_ copies of the T6304, T6305 and card-edge drawings sit beside the originals; the T6304/T6305 backups (2007-06-27) are older than the main files.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/Backup_of_M6206A-T6304.cdr"
+   },
+   {
+    "text": "Only the T6304 has CorelDRAW’s own PDF (2007-08-22); Inkscape’s CDR import drops the BNC drawings, so that PDF is what the T6304 panel uses.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6304.pdf"
+   },
+   {
+    "text": "The M6206A master folder holds an “M6245A - #Engineering” subfolder, another product’s name.",
+    "src": "#OPENGEAR #SERIES/M6206A - #Master #OPENGEAR/M6245A - #Engineering"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4227,6 +5785,7 @@ window.SIM_CATALOG = [
    "Current shunt not in the load path",
    "TC670 fan alarm with no clear line"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -4276,6 +5835,32 @@ window.SIM_CATALOG = [
    "Mate with D6201A, M6202A or AV6201",
    "Rear-module ID read, bin by bin",
    "BOM vs netlist ID swap"
+  ],
+  "footnotes": [
+   {
+    "text": "T6201.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+    "src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.cdr"
+   },
+   {
+    "text": "T6201.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+    "src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.cdr"
+   },
+   {
+    "text": "The sheet shades BNC1, 2, 9 and 10 grey: exactly the four isolated-shell positions (BNC1_GND, BNC2_GND, BNC9_GND, BNC10_GND) in T6201.net.",
+    "src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.net"
+   },
+   {
+    "text": "The sheet is not 1:1: its BNC rows are about 0.59″ apart, while the Gerbers and REAR-MODULE-T6201.pdf space them 0.625″ apart.",
+    "src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/REAR-MODULE-T6201.pdf"
+   },
+   {
+    "text": "The plate is drawn 1.325″ × 3.100″ plus two bottom tabs; the mechanical drawing gives 3.160″.",
+    "src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201.cdr"
+   },
+   {
+    "text": "The same T6201.cdr (10 Nov 2006) is stored twice, in the master folder and in T6201 - #Archive; Backup_of_T6201.cdr (Jul 2006) is also stored twice, at the top and in #Mechanical.",
+    "src": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION/T6201 - #Archive/T6201.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4327,6 +5912,40 @@ window.SIM_CATALOG = [
    "Balanced AES pairs on terminal blocks",
    "Pin-by-pin MEC1 route"
   ],
+  "footnotes": [
+   {
+    "text": "T6202-iss2.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+    "src": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION/T6202 - #ENGINEERING/T6202-iss2.cdr"
+   },
+   {
+    "text": "T6202-iss2.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+    "src": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION/T6202 - #ENGINEERING/T6202-iss2.cdr"
+   },
+   {
+    "text": "The ISS2 sheet (Feb 2008) was never redrawn for ISS4: it keeps a 1.310″ × 3.293″ outline, but the ISS4 Gerbers (Dec 2008) are 1.365″ × 3.386″ with every row about 0.07″ higher.",
+    "src": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION/T6202 - #ENGINEERING/T6202-iss2.cdr"
+   },
+   {
+    "text": "The ISS1 sheet squeezes its BNC rows to about 0.50″ apart against 0.625″ on the PCB, so it is a pinout drawing, not a template.",
+    "src": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION/T6202 - #ENGINEERING/T6202.cdr"
+   },
+   {
+    "text": "ISS1 is one column of five BNCs (1, 3, 5, 7, 9) beside five blocks (AES5–AES8, and BNC10 as an unbalanced pair on a block); ISS2 is six BNCs over four blocks (AES3/AES7, AES4/AES8).",
+    "src": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION/T6202 - #ENGINEERING/T6202.cdr"
+   },
+   {
+    "text": "The grey isolated-shell BNCs move from 1 and 9 on ISS1 to 1 and 2 on ISS2, in step with the netlists.",
+    "src": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION/T6202 - #ENGINEERING/T6202-iss2.cdr"
+   },
+   {
+    "text": "The block polarity legends read “+-G” on ISS1 but mirrored “G-+ / +-G” pairs on ISS2.",
+    "src": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION/T6202 - #ENGINEERING/T6202-iss2.cdr"
+   },
+   {
+    "text": "T6202-iss2.cdr is stored twice (#ENGINEERING and T6202 - #ISS2) and T6202.cdr twice (#ENGINEERING and T6202 - ARCHIVE).",
+    "src": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION/T6202 - #ENGINEERING/T6202 - #ISS2/T6202-iss2.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -4376,6 +5995,32 @@ window.SIM_CATALOG = [
    "ISS1 → ISS2 pinout change, same ID",
    "Balanced input on BNCx_SIG / BNCx_GND pins",
    "Card-side ID read"
+  ],
+  "footnotes": [
+   {
+    "text": "T6203.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+    "src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+   },
+   {
+    "text": "T6203.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+    "src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+   },
+   {
+    "text": "The only ISS1 pinout sheet is a backup: Backup_of_T6203.cdr (10 Nov 2006) has BNC9/BNC10 on blocks 9/10, while the saved T6203.cdr was overwritten in Oct 2008 with the ISS2 layout.",
+    "src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/Backup_of_T6203.cdr"
+   },
+   {
+    "text": "The 2008 sheet moves the two unbalanced pairs to blocks 1/2 (BNC1/BNC2) and AES1–AES8 down one row, matching the ISS2 netlist.",
+    "src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+   },
+   {
+    "text": "Both sheets still use the first-generation 1.325″ × 3.100″ outline; the ISS3 Gerbers are 1.265″ × 3.228″. The block rows still agree within 0.07″.",
+    "src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+   },
+   {
+    "text": "libcdr loses text alignment, so the “G-+ / +-G” polarity legends sit slightly over the terminal blocks.",
+    "src": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4427,6 +6072,32 @@ window.SIM_CATALOG = [
    "Isolated BNC shells",
    "Card-side ID read"
   ],
+  "footnotes": [
+   {
+    "text": "T6204.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+    "src": "#OPENGEAR #SERIES/T6204 - #Master #OPENGEAR #TERMINATION/T6204.cdr"
+   },
+   {
+    "text": "T6204.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+    "src": "#OPENGEAR #SERIES/T6204 - #Master #OPENGEAR #TERMINATION/T6204.cdr"
+   },
+   {
+    "text": "There is no ISS2 sheet: T6204.cdr (10 Nov 2006) is the only one, so ISS1 and ISS2 show the same art.",
+    "src": "#OPENGEAR #SERIES/T6204 - #Master #OPENGEAR #TERMINATION/T6204.cdr"
+   },
+   {
+    "text": "The sheet draws BNC1/BNC2 about 0.13″ lower than the ISS1 Gerbers place them.",
+    "src": "#OPENGEAR #SERIES/T6204 - #Master #OPENGEAR #TERMINATION/T6204.cdr"
+   },
+   {
+    "text": "BNC1 and BNC2 are shaded grey as the isolated-shell inputs, as in the netlists.",
+    "src": "#OPENGEAR #SERIES/T6204 - #Master #OPENGEAR #TERMINATION/T6204.cdr"
+   },
+   {
+    "text": "T6204.cdr and Backup_of_T6204.cdr (Jul 2006) are each stored twice: at the top level and in T6204 - #ARCHIVE.",
+    "src": "#OPENGEAR #SERIES/T6204 - #Master #OPENGEAR #TERMINATION/T6204 - #ARCHIVE/T6204.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -4476,6 +6147,28 @@ window.SIM_CATALOG = [
    "Return loss of the L‖R compensation",
    "Four netlist issues compared",
    "Card-side ID read"
+  ],
+  "footnotes": [
+   {
+    "text": "T6301.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+    "src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr"
+   },
+   {
+    "text": "T6301.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+    "src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr"
+   },
+   {
+    "text": "The sheet shades only BNC1 and BNC2 as isolated shells, but every netlist from T6301.net to T6301-iss4.net also puts BNC9 and BNC10 on BNC9_GND/BNC10_GND.",
+    "src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301 - #PCB/T6301-iss4.net"
+   },
+   {
+    "text": "One sheet (15 Nov 2006) serves all four issues; its 1.310″ × 3.293″ outline and 0.625″ grid match the ISS4 Gerbers within 0.02″.",
+    "src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301.cdr"
+   },
+   {
+    "text": "T6301.cdr is stored twice, in #ENGINEERING and T6301 - #ARCHIVE.",
+    "src": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION/T6301 - #ENGINEERING/T6301 - #ARCHIVE/T6301.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4527,6 +6220,32 @@ window.SIM_CATALOG = [
    "ISS1 → ISS2 terminal-block rewiring",
    "Card-side ID read"
   ],
+  "footnotes": [
+   {
+    "text": "T6302-iss2.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+    "src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302-iss2.cdr"
+   },
+   {
+    "text": "T6302-iss2.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+    "src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302-iss2.cdr"
+   },
+   {
+    "text": "ISS3 (Gerbers Feb 2009) has no sheet of its own; the ISS2 sheet (Mar 2007) draws its rows 0.04″ lower than the ISS3 board.",
+    "src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302-iss2.cdr"
+   },
+   {
+    "text": "The ISS1 sheet puts AES4/AES8 on blocks 7/8 and BNC9/BNC10 as unbalanced pairs on blocks 9/10; ISS2 relabels the four blocks AES3/AES7 and AES4/AES8.",
+    "src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302.cdr"
+   },
+   {
+    "text": "Both sheets shade BNC1/BNC2 grey as isolated shells, matching the netlists.",
+    "src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302.cdr"
+   },
+   {
+    "text": "T6302.cdr and T6302-iss2.cdr are each stored twice: in #ENGINEERING and T6302 - #ARCHIVE.",
+    "src": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION/T6302 - #ENGINEERING/T6302 - #ARCHIVE/T6302-iss2.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -4576,6 +6295,32 @@ window.SIM_CATALOG = [
    "AA6201A, D6202A/B, D6203A pin-outs",
    "ISS1 → ISS2 input move",
    "ID 3K57/3K57 clash with Ross"
+  ],
+  "footnotes": [
+   {
+    "text": "T6303-iss2.cdr is a “GENERIC … REAR MODULE PINOUTS” sheet: one plate with BNCx/AESx legends either side and arrows, not a silkscreen. The legends are generic and do not name the mating card’s signals.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+   },
+   {
+    "text": "T6303-iss2.cdr draws the BNC and terminal-block outlines as CorelDRAW hairlines (width 0). The libcdr/Inkscape export drops them, so most connectors vanish unless a line width is restored.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+   },
+   {
+    "text": "The 2007 ISS2 drawing still fits the 2012 ISS4 board: outline and rows agree with the ISS4 Gerbers within 0.03″.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+   },
+   {
+    "text": "The ISS1 sheet labels blocks 1–8 AES1–AES8 and blocks 9/10 BNC9/BNC10; ISS2 moves BNC1/BNC2 to blocks 1/2 and shifts AES1–AES4 down.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303.cdr"
+   },
+   {
+    "text": "Each block carries its number above it and a “G-+-G” polarity legend between the pair; both sheets say SINGLE CARD TERMINATION.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+   },
+   {
+    "text": "T6303.cdr and T6303-iss2.cdr are each stored twice: in #ENGINEERING and T6303 - #ARCHIVE.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303 - #ARCHIVE/T6303-iss2.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4627,6 +6372,24 @@ window.SIM_CATALOG = [
    "Same board as the T6303 ISS4",
    "AA6201A guide names the T6303A"
   ],
+  "footnotes": [
+   {
+    "text": "The T6303 pinout sheet (ISSUE 2) puts BNC1/BNC2 on positions 1/2, AES1–4 on 3, 5, 7, 9 and AES5–8 on 4, 6, 8, 10.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr"
+   },
+   {
+    "text": "The issue-1 sheet labels the first pair BNC9 and BNC10; issue 2 renames them BNC1 and BNC2.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303.cdr"
+   },
+   {
+    "text": "Both pinout sheets are stored twice, in T6303 - #ENGINEERING and its #ARCHIVE subfolder, byte for byte.",
+    "src": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303 - #ARCHIVE/T6303-iss2.cdr"
+   },
+   {
+    "text": "No CorelDRAW art exists for the T6303A itself; its face is known only from the ISS4 Gerber silk.",
+    "src": "#OPENGEAR #SERIES/T6303A - #Master #OPENGEAR #TERMINATION"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -4676,6 +6439,28 @@ window.SIM_CATALOG = [
    "M6206A pin-out",
    "Drawing vs board: voice-over input",
    "{Value} resistors"
+  ],
+  "footnotes": [
+   {
+    "text": "The GENERIC guide T6304.cdr (2007-06-27) draws a BNC at position 7 (BNC7), matching the copper; the card-specific M6206A-T6304 drawing puts a VOICEOVER IN terminal block there.",
+    "src": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304.cdr"
+   },
+   {
+    "text": "M6206A-T6304.cdr shows position 7 as a + − G block labelled VOICEOVER IN, which the T6304 board never had.",
+    "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6304.cdr"
+   },
+   {
+    "text": "T6304.cdr is stored twice: the copy in “T6304 - #ARCHIVE” is byte-identical.",
+    "src": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304 - #ARCHIVE/T6304.cdr"
+   },
+   {
+    "text": "The guide shades BNC1 and BNC2 grey with no key; they are the shell-isolated BNCs in the netlist (inferred meaning).",
+    "src": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304.cdr"
+   },
+   {
+    "text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+    "src": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION/T6304 - #ENGINEERING/T6304.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4727,6 +6512,28 @@ window.SIM_CATALOG = [
    "Netlist vs PNP inductor values",
    "BNC9 return pins on GNDD"
   ],
+  "footnotes": [
+   {
+    "text": "The GENERIC guide T6305.cdr (2007-06-27) labels BNC1–BNC8 on 1–8 and AES4/AES8 on the blocks at 9–10, matching the netlist.",
+    "src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr"
+   },
+   {
+    "text": "T6305.cdr is kept a second time in “T6305 - #ARCHIVE”.",
+    "src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305 - #ARCHIVE/T6305.cdr"
+   },
+   {
+    "text": "Card-specific T6305 guides exist for M6204A, M6206A and D6207A (two D6207A copies, in “D6207A  #Engineering #TIM #PCB” and the D6207A master folder).",
+    "src": "#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A-T6305.cdr"
+   },
+   {
+    "text": "The guide shades BNC1 and BNC2 grey with no key; they are the shell-isolated BNCs in the netlist (inferred meaning).",
+    "src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr"
+   },
+   {
+    "text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+    "src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -4776,6 +6583,28 @@ window.SIM_CATALOG = [
    "M6202AE pin-out",
    "Stale 5K36 in the netlist",
    "Clash with the T6301 ID"
+  ],
+  "footnotes": [
+   {
+    "text": "T6306.cdr (2009-05-27) is not a GENERIC guide like its siblings: it carries the M6202AE functions (SDI IN/OUT, GROUP 1 OUT, GROUP 2 OUT, SELECTABLE GROUP OUT, METADATA OUT).",
+    "src": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr"
+   },
+   {
+    "text": "M6202AE-T6306RearModule.cdr (2009-05-28) is a near copy of T6306.cdr saved a day later, with a Backup_of_ copy beside it.",
+    "src": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE-T6306RearModule.cdr"
+   },
+   {
+    "text": "The drawing shows two small holes, between BNC1 and BNC2 and below BNC7, that no other guide has and the netlist does not explain (light pipes or fixings, inferred).",
+    "src": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr"
+   },
+   {
+    "text": "Position 8 has no legend on the drawing although BNC8 is fully wired on the board.",
+    "src": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr"
+   },
+   {
+    "text": "The bracket bars are a CorelDRAW bitmap texture fill; they are drawn as a flat lilac fill, and the run-together labels (“GROUP 1OUT”, “METADATAOUT”) were re-broken onto two lines.",
+    "src": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION/T6306 - #ENGINEERING/T6306.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4827,6 +6656,28 @@ window.SIM_CATALOG = [
    "Netlist edited after production",
    "Different layout from the T6304"
   ],
+  "footnotes": [
+   {
+    "text": "The guide T6307.cdr (2008-07-23) labels position 2 “BNC2” but draws a + − G terminal block there: the legend names the card’s MEC1 BNC2 pins, not the connector.",
+    "src": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr"
+   },
+   {
+    "text": "The position-2 block is drawn 0.027″ lower than in the Gerbers; the click target follows the drawing in the CorelDRAW view.",
+    "src": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr"
+   },
+   {
+    "text": "Only BNC1 is shaded grey on this guide (position 2 is a block); no key explains the shading.",
+    "src": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr"
+   },
+   {
+    "text": "M6205-T6307.cdr exists three times (ISSUE4 obsolete, M6205C100 v1002, M6205C200 V3.0.0.0), plus a Backup_of_ copy.",
+    "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr"
+   },
+   {
+    "text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+    "src": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION/T6307 - #ENGINEERING/T6307.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -4876,6 +6727,28 @@ window.SIM_CATALOG = [
    "M6204A 8-AES-in pin-out",
    "R9 dummy load on SDI OUT2",
    "Extra R10 in the PNP"
+  ],
+  "footnotes": [
+   {
+    "text": "The T6308A panel shown is cut from the CorelDRAW rear-module guide drawn for the M6204A muxer (2012-01-09); the same sheet also holds the T6301A.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6204A - rear module options.cdr"
+   },
+   {
+    "text": "The guide is a scaled pinout drawing: its BNC row pitch works out to 0.641 in against 0.625 in in the Gerbers, so it is not a drilling template.",
+    "src": "#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION/T6308 - #ENGINEERING/T6308 - #GERBER/T6308.DRL"
+   },
+   {
+    "text": "The guide labels BNC10 “AES IN8”; in copper that BNC drives only the + leg of the AES4 pair (P101-51), with AES4N left floating.",
+    "src": "#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION/T6308 - #ENGINEERING/T6308 - #PCB/T6308.net"
+   },
+   {
+    "text": "The pick-and-place file fits an R10 75R across L7 (BNC8) that the netlist does not have.",
+    "src": "#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION/T6308 - #ENGINEERING/T6308 - #PCB/T6308.pnp"
+   },
+   {
+    "text": "The folder README says “7 × 75 Ω”; one of the seven (R9) is the dummy load on the card’s unused SDI OUT2, so only six BNCs carry a termination resistor.",
+    "src": "#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION/README.md"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -4927,6 +6800,28 @@ window.SIM_CATALOG = [
    "AES pins bused between the cards",
    "ISS1 ID 30K9 (the T6201 value)"
   ],
+  "footnotes": [
+   {
+    "text": "One guide, T6401.cdr (2006-11-15, drawn for ISS1), serves all four issues: the connector layout never changed.",
+    "src": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401.cdr"
+   },
+   {
+    "text": "The guide suffixes the left column “-1” and the right column “-2”, while the T6406 guide calls the left column “CARD #2”; if the suffix is a card number the two guides count cards in opposite directions (inferred).",
+    "src": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401.cdr"
+   },
+   {
+    "text": "T6401.cdr is kept a second time in “T6401 - #ARCHIVE”.",
+    "src": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401 - #ARCHIVE/T6401.cdr"
+   },
+   {
+    "text": "Card-specific T6401 guides exist for M6203A, M6202A, D6201A, AV6201 and M6205 (ISSUE4, obsolete).",
+    "src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6401.cdr"
+   },
+   {
+    "text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+    "src": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -4976,6 +6871,28 @@ window.SIM_CATALOG = [
    "D6203A and D6204A pin-outs",
    "ISS1 analog channel mix-up",
    "ISS1 bused AES pins"
+  ],
+  "footnotes": [
+   {
+    "text": "T6402.cdr (2007-01-15) labels the blocks AES4-1/-2 at 7–8 and BNC9-1/-2 at 9–10, the ISS1 netlist.",
+    "src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402.cdr"
+   },
+   {
+    "text": "T6402-iss2.cdr (2007-04-03) relabels the blocks AES3 and AES4, the ISS2 netlist change; ISS3 (2012) has no guide of its own.",
+    "src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402-iss2.cdr"
+   },
+   {
+    "text": "The ISS1 guide calls two 3-pin terminal blocks “BNC9-1/BNC9-2”: the legend names the MEC1 BNC9 pins, not the connector.",
+    "src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402.cdr"
+   },
+   {
+    "text": "Both T6402 guides are kept a second time in “T6402 - #ARCHIVE”; D6203, D6204 and D6204A folders hold card-specific copies (two of them Backup_of_).",
+    "src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402 - #ARCHIVE/T6402-iss2.cdr"
+   },
+   {
+    "text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+    "src": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION/T6402 - #ENGINEERING/T6402.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -5027,6 +6944,32 @@ window.SIM_CATALOG = [
    "ISS1 REF IN on an unused pin",
    "887R shared with T6406 and Ross"
   ],
+  "footnotes": [
+   {
+    "text": "T6403.cdr (2006-11-15) puts AES1–AES4 on 1–8 and labels the blocks at 9–10 “BNC9”, the ISS1 netlist.",
+    "src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403.cdr"
+   },
+   {
+    "text": "T6403-iss2.cdr (2007-03-05) moves BNC1 to the top blocks and AES1–AES4 down, the ISS2 change; ISS3 (2012) has no guide of its own.",
+    "src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403-iss2.cdr"
+   },
+   {
+    "text": "The ISS2 sheet carries a stray “ISSUE 2” caption outside the guide frame.",
+    "src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403-iss2.cdr"
+   },
+   {
+    "text": "A third copy of the ISS2 drawing sits in “T6403 - #ISS2 #OBSOLETE”, and Backup_of_T6403.cdr / Backup_of_T6403-iss2.cdr sit beside the masters.",
+    "src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403 - #ISS2 #OBSOLETE/T6403-iss2.cdr"
+   },
+   {
+    "text": "Every position on this all-block module is labelled with a signal name, including “BNC1” and “BNC9” on 3-pin terminal blocks.",
+    "src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403.cdr"
+   },
+   {
+    "text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+    "src": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION/T6403 - #ENGINEERING/T6403.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -5076,6 +7019,28 @@ window.SIM_CATALOG = [
    "AA6201A dual 2×3",
    "ID 887R duplicates the T6403",
    "Gerbers misfiled under T6403"
+  ],
+  "footnotes": [
+   {
+    "text": "The guide T6406.cdr (2008-06-10) draws the 9-way blocks at a 0.148″ pin pitch instead of the copper’s 0.1375″ (3.5 mm), starts the upper blocks about 0.09″ higher and the right column 0.036″ further out.",
+    "src": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr"
+   },
+   {
+    "text": "The guide names the left column “CARD #2” and the right “CARD #1”, the opposite of the “-1/-2” suffix order on the T6401–T6403 guides (if those suffixes are card numbers, inferred).",
+    "src": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr"
+   },
+   {
+    "text": "The guide’s footer names the MF6220 frame, the Ward-Beck frame this module was drawn for.",
+    "src": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr"
+   },
+   {
+    "text": "An AA6201-specific T6406 guide and its Backup_of_ copy sit in the AA6201A functional folder.",
+    "src": "#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/AA6201-T6406.cdr"
+   },
+   {
+    "text": "libcdr split the “+ − G” and “T6406” legends into separate text runs; they were re-joined and re-stacked on the drawn pin pitch.",
+    "src": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION/T6406 - #ENGINEERING/T6406.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -5127,6 +7092,56 @@ window.SIM_CATALOG = [
    "Reference distribution to 21 slots",
    "CAN, I²C and fan timing over one second"
   ],
+  "footnotes": [
+   {
+    "text": "The front silk (2007-04-02) has five round fan grilles (four 2.09″ at 3.00″ pitch and a smaller 1.57″ one), ALARM and FAN LEDs, PS1/PS2 LEDs and a silence button; the photographed DFR-8320 door is fully perforated, says FAULT and FAN FAIL and has no PS1/PS2 LEDs.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-FRONT-SILK.cdr"
+   },
+   {
+    "text": "The silk names the product “DFR-8320” (the Ross frame model) on the front, while the rear silk calls it “MF6220”.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-FRONT-SILK.cdr"
+   },
+   {
+    "text": "The rear silk (2007-03-29) prints “WARD-BECK SYSTEMS / MF6220” on the ref/comm plate; the photographed plate says “DFR-8320”.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-REAR-SILK.cdr"
+   },
+   {
+    "text": "The ref/comm plate has four BNC openings but only REF1 and REF2 are labelled; the two lower BNCs carry no legend.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-REAR-SILK.cdr"
+   },
+   {
+    "text": "A CONTROL cut-out (for the RS-232 ports and DIP switch on MF6220-3) is on the silk but blanked with a plate on the photographed frame.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-REAR-SILK.cdr"
+   },
+   {
+    "text": "The sheet places the PSU inlet plate to the right of the ref plate and has a stray third warning triangle outside both plates; the photo and the PSU1/PSU2 legends put the inlets on the left.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-REAR-SILK.cdr"
+   },
+   {
+    "text": "Seen from behind, the inlets and ref plate are at the left and bay 1 at the right; the earlier drawing in this plugin had them mirrored.",
+    "src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/Opengear - #Photos/DFR8320/DFR8320 Rear.jpg"
+   },
+   {
+    "text": "The bottom-panel silk (2008-09-30) numbers slots 1–20 over holes at exactly 0.650″/0.670″ alternating pitch, confirming the design notes.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-BOTPAN-SILK.cdr"
+   },
+   {
+    "text": "MF6220-SILK-CURVE.cdr is the text-as-curves version of the front and rear silks on one sheet; it holds only the ink, without the grille and connector cut-outs.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-SILK-CURVE.cdr"
+   },
+   {
+    "text": "“mf6220 front.cdr” (2007-01-16) is a green colour mock-up of the door; an identical copy sits in “#OPEN GEAR - #Engineering”.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/mf6220 front.cdr"
+   },
+   {
+    "text": "The front, rear and bottom-panel silks each have Backup_of_ copies, plus .bak and .dwg exports, beside them in SILK/.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-FRONT-SILK.cdr"
+   },
+   {
+    "text": "MF6220-decal and MF6220-IDENT (both 2008-09-30, with .eps exports) are thin label strips, not panels.",
+    "src": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE/MF6220 - #Engineering/SILK/MF6220-decal.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -5176,6 +7191,24 @@ window.SIM_CATALOG = [
    "Headroom cost of ±12 V rails",
    "Costs and the stand-alone quote",
    "BOM vs schematic mismatches"
+  ],
+  "footnotes": [
+   {
+    "text": "Both the POD1 and POD18 rear plates still read “115 VAC, 1/2 A.S.B.”; no artwork exists for the redesign's universal-input supply.",
+    "src": "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The POD1 and POD18 fronts share one layout; only the name line and the trim sub-legends differ (UNBALANCED / BALANCED vs OUTPUT 1 / OUTPUT 2).",
+    "src": "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The POD18 rear labels its XLRs BALANCED OUTPUTS 2 then 1, and IN 2 / IN 1, right to left.",
+    "src": "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The 2013|46 POD-18 FRONT SILK (FINAL CURVE).cdr is stored in both the POD18 and the POD1 folders.",
+    "src": "#POD #SERIES/POD1 - #Master/POD-1 - ARTWORK/POD-18 FRONT SILK (FINAL CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -5227,6 +7260,28 @@ window.SIM_CATALOG = [
    "ISS2 prototype faults (phase, L/R swap) you can switch on",
    "Power-up rails and the DC-DC part-number mismatch"
   ],
+  "footnotes": [
+   {
+    "text": "The rear still reads “115 VAC, 1/2 A.S.B.”, the transformer-era legend, though ISS2/ISS3 use a universal-input supply.",
+    "src": "#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr"
+   },
+   {
+    "text": "On this sheet the rear plate's outline is drawn in the ink colour and sits 1.4 pt left of the front plates; it is a drawing outline, not printed.",
+    "src": "#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr"
+   },
+   {
+    "text": "The sheet's own title reads “PO1-FRONT&amp;REAR-SILK”, missing the D of POD.",
+    "src": "#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr"
+   },
+   {
+    "text": "The POD1 ARTWORK folder also holds a copy of the POD-18 front silk (2013|46).",
+    "src": "#POD #SERIES/POD1 - #Master/POD-1 - ARTWORK/POD-18 FRONT SILK (FINAL CURVE).cdr"
+   },
+   {
+    "text": "Separate front-only and rear-only sheets exist: POD1-FRONT (FINAL CURVE).cdr (2015|48) and POD1-REAR (FINAL CURVE).cdr (2014|47).",
+    "src": "#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-REAR (FINAL CURVE).cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -5277,6 +7332,24 @@ window.SIM_CATALOG = [
    "The 2014 PC test app, decompiled and clickable",
    "8-step operator tutorial"
   ],
+  "footnotes": [
+   {
+    "text": "The rear power legend stops at “100-230 VAC, 50-60 Hz,” with a trailing comma and no fuse rating.",
+    "src": "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr"
+   },
+   {
+    "text": "The file name is missing its opening bracket: “POD10A-FRONT&amp;REAR-SILK CURVE).cdr”.",
+    "src": "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr"
+   },
+   {
+    "text": "The front 1-8 / A-B slide switch has its own rectangular cut-out beside the power LED.",
+    "src": "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr"
+   },
+   {
+    "text": "An older front-only sheet, POD10A-FRONT (FINAL CURVE).cdr, dates from 2014|47.",
+    "src": "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT (FINAL CURVE).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -5325,6 +7398,24 @@ window.SIM_CATALOG = [
    "VU 300 ms and PPM 5 ms / 1.5–3 s per 24 dB, rescaled for 32–96 kHz",
    "Rear DIP decoded as the code reads it: CAL −20…−14, peak hold, decay",
    "Manual vs code: BS0 sense, 4.17 s holds, “in phase” with no lock"
+  ],
+  "footnotes": [
+   {
+    "text": "The green plate carries no PODS mark: it prints the WBS box logo and “Ward-Beck Systems” bottom right, unlike the other PODs.",
+    "src": "#POD #SERIES/POD11A - #Master/POD11A - #ARTWORK #DA #2016/POD11A-FRONT&REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The bar-graph scale numbers on the white plate are set rotated 90°.",
+    "src": "#POD #SERIES/POD11A - #Master/POD11A - #ARTWORK #DA #2016/POD11A-FRONT&REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The rear power legend reads “90-230 VAC, 50-60 Hz, ½ A.S.B. DISCONNECT BEFORE SERVICING”, printed above the inlet rather than beside a warning triangle.",
+    "src": "#POD #SERIES/POD11A - #Master/POD11A - #ARTWORK #DA #2016/POD11A-FRONT&REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "An older silk, POD11A-Silk-iss2.cdr, dates from 2006|39 and is stored twice (here and in the obsolete POD11 folder).",
+    "src": "#POD #SERIES/POD11A - #Master/POD11A - #ARTWORK #DA #2016/POD11A-Silk-iss2.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -5376,6 +7467,20 @@ window.SIM_CATALOG = [
    "EQ as a second CS8416 input (register 04 = 0x80/0x89)",
    "V020000 vs v100 firmware differences"
   ],
+  "footnotes": [
+   {
+    "text": "The rear power legend stops at “100-230 VAC, 50-60 Hz,” with a trailing comma and no fuse rating.",
+    "src": "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear on this sheet is the 75 Ω BNC build; the 75/110 rear variants are on a separate sheet.",
+    "src": "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-75-110-REAR SILK(FINAL CURVE).cdr"
+   },
+   {
+    "text": "POD12A-FRONT(FINAL CURVE).cdr is stored twice, in “POD12A - Artwork” and in the 2016 drafting set (same size).",
+    "src": "#POD #SERIES/POD12A - #Master/POD12A - Artwork/POD12A-FRONT(FINAL CURVE).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -5425,6 +7530,28 @@ window.SIM_CATALOG = [
    "CAL decode in the FPGA (dec2_4): why Up/Up mutes",
    "Rate detection and the DEBOUNCE_fs2 / REFRESH_AK4396_2 bug",
    "Level and headroom through each stage"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear plate has a small rectangular cut-out under the CAL table: the window for the 4-way CAL DIP switch.",
+    "src": "#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The CAL table printed on the rear (DN/UP for A (1,2) and B (3,4)) lists only three settings, −20, −18 and −12 dBFS; the fourth DIP combination (Up/Up) is not on the panel and mutes the output.",
+    "src": "#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear has four screw holes around the connector field (beside AES/EBU INPUTS and CONVERTER B) as well as the fixing holes at the panel ends.",
+    "src": "#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "In this sheet the cut-out guides are drawn in the same black (#1B1918) as the ink, unlike the other 2016 POD sheets, which use pure black for the guides.",
+    "src": "#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.",
+    "src": "#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -5476,6 +7603,28 @@ window.SIM_CATALOG = [
    "EXT/INT reference handover and LED quirks",
    "AES3 output frames at the selected rate"
   ],
+  "footnotes": [
+   {
+    "text": "The rear has four small round holes the legend does not name: one beside INPUT2 and one between each of REF INPUT, OUTPUT1 and OUTPUT2.",
+    "src": "#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "OUTPUT1 is cut as a plain round hole, while REF INPUT and OUTPUT2 have drill crosshairs.",
+    "src": "#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Of the two INPUT 1 GAIN holes on the front, only L has a drill crosshair; R is a plain hole.",
+    "src": "#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The CDR (saved 2016-06-16) is newer than the PDF of the same sheet (2015-12-03), but the ink is identical. The sheet is dated NOV.06/14.",
+    "src": "#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.",
+    "src": "#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -5525,6 +7674,28 @@ window.SIM_CATALOG = [
    "NTSC/PAL lines with sync, burst and bars through each stage",
    "Outputs driven in pairs: load, open or short any BNC",
    "Four schematic sheets redrawn from pod15aiss3.net"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear BNC holes (INPUT, loop, OUT 1–6) are D-cuts with one flat side, not round holes.",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The front VIDEO MONITOR jack hole is D-shaped too.",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The front ERROR LED has a cut hole, but its legend has no drill crosshair, unlike SYNCH, 0-300m and LEVEL.",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "A short vertical white bar joins the two INPUT BNCs on the rear, marking them as a loop-through pair (inferred from the netlist loop termination).",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -5577,6 +7748,32 @@ window.SIM_CATALOG = [
    "Gain tables, channel status and AES3 bits at the playhead",
    "18 findings, incl. MONO + R/−R = L − R"
   ],
+  "footnotes": [
+   {
+    "text": "The front has LED holes at SRC and CH A, although the legend has no drill crosshair for either.",
+    "src": "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "On the 75 Ω rear, a PEM-stud hole is printed over the “115 VAC, 1/2 A.S.B.” legend.",
+    "src": "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "On the 75 Ω rear, the BNC holes are D-cuts, the cord bushing is a single-D hole and the fuse holder a double-D hole.",
+    "src": "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The 110 Ω rear plate has an unlabelled round hole at its top right corner, as on POD19.",
+    "src": "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "One sheet holds four plates: front GREEN, front WHITE, rear 75 and rear 110 (dated Jun.25/14). The separate FRONT-SILK and REAR-SILK CDRs repeat the same art.",
+    "src": "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.",
+    "src": "#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -5625,6 +7822,24 @@ window.SIM_CATALOG = [
    "Stage-by-stage levels, headroom and output-current limiting",
    "Linear supply with 120 Hz ripple, ISS2 vs ISS3 capacitors",
    "Regulator-resistor and manual/spec mismatches you can try"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear plate on the sheet is drawn 1.4 pt left of the two front plates (x 114.3 pt against 115.7 pt), and its outline is drawn twice.",
+    "src": "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The front has four OUTPUT ADJUST holes (L and R for OUTPUT 1 and 2), but only OUTPUT 1 R has a drill crosshair on the art.",
+    "src": "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Each rear XLR hole has two small screw holes at opposite corners, and the four UNBALANCED RCA holes share one centre crosshair.",
+    "src": "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.",
+    "src": "#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -5677,6 +7892,28 @@ window.SIM_CATALOG = [
    "EEPROM write-back 1.7 s after release, and the POD19-014 variant",
    "Findings: ignored signature byte, uninitialised boot delay, v1.01 port bug"
   ],
+  "footnotes": [
+   {
+    "text": "The front legend (GROUP bracket, 1–4, SDI/AES/ERROR, SELECT) sits about 19 pt right of its holes; the simulator moves it back.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr"
+   },
+   {
+    "text": "The rear has an unlabelled 8 pt hole at the top right, above the IEC inlet.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr"
+   },
+   {
+    "text": "The four rear BNC holes (OUTPUT 1, OUTPUT 2, SDI OUTPUT, SDI INPUT) are D-cuts, but only OUTPUT 1 and SDI INPUT have crosshairs.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr"
+   },
+   {
+    "text": "There is no POD19 #ARTWORK #DA #2016 folder; the only panel art is in POD PANELS…/Silks/POD19, next to a Backup_of_ copy saved a day earlier.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/Backup_of_POD19-FRONT&REAR(FINAL CURVE) .cdr"
+   },
+   {
+    "text": "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -5726,6 +7963,28 @@ window.SIM_CATALOG = [
    "RS-422 console, POD2R remote and a POD9 on the slave port",
    "10-step operator tutorial with live goals",
    "Manual-vs-code mismatch on the C0/C7 slave commands"
+  ],
+  "footnotes": [
+   {
+    "text": "The front WHITE plate has four filled corner triangles that are not on the photo of the panel; the simulator leaves them out.",
+    "src": "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear has an unlabelled small round hole at the top right, beside the IEC inlet.",
+    "src": "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "On the rear, LEFT has a screw hole with a ring and RIGHT a plain hole, both beside the OUTPUT Phoenix cut-out.",
+    "src": "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Three screw holes on the front sit between SUM and 1, between 2 and 3, and between 5 and 6.",
+    "src": "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.",
+    "src": "#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -5777,6 +8036,40 @@ window.SIM_CATALOG = [
    "Video structure (fields, lines, TRS, words, bits) on the timeline",
    "No LED for 177 Mb/s"
   ],
+  "footnotes": [
+   {
+    "text": "The panels come from a 2014 CorelDRAW redraw filed outside the product folder, under POD PANELS/POD - NOT IN ERP/Silks/POD20/: POD20 had dropped out of the ERP by then.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The redraw puts all five tally LEDs (SIGNAL, 143, 270, 360, ERROR) on one row; the earlier hand-drawn panel here had the three rate LEDs 20 px too low.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The seven rear BNC holes are D-flatted and sit 26 px higher than the earlier drawing placed them.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The mains hardware under “115 VAC, 1/2 A.S.B.” is a plain round hole (Ø ≈ 12 mm) plus a double-D hole, not an IEC inlet cut-out.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "A small round hole above the “115 VAC” legend on the rear has no label.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The front panel has no 177 Mb/s tally, although the manual lists 177 Mb/s among the rates.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The 2000 silk is live CorelDRAW text that libcdr places badly; the earlier hand-drawn panel (still on the toggle) was re-anchored from it.",
+    "src": "#POD #SERIES/POD20 - #Master/POD20 - #SILK/POD20SLK.cdr"
+   },
+   {
+    "text": "No photo of a POD20 exists in the archive, so the black panel with green and white ink is taken from the sister PODs.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -5826,6 +8119,32 @@ window.SIM_CATALOG = [
    "Timeline from SDI lines down to single SPI and UART bits, with the RP168 switching line marked",
    "The manual has F0 C0 / F0 C7 backwards; SLAVE drops after 107 ms with no audio switcher",
    "CTV 2007 mute build and the 21v102 test branch selectable"
+  ],
+  "footnotes": [
+   {
+    "text": "Pod21silk.cdr (31 Mar 2006) is the only POD21 silk: there is no 2014 “FINAL CURVE” redraw and no photo.",
+    "src": "#POD #SERIES/POD21 - #Master/POD21 - #Engineering/SILK/Pod21silk.cdr"
+   },
+   {
+    "text": "Its text is live Arial that libcdr anchors wrongly, so every label was re-centred on its button or BNC.",
+    "src": "#POD #SERIES/POD21 - #Master/POD21 - #Engineering/SILK/Pod21silk.cdr"
+   },
+   {
+    "text": "The sheet has drill cross-hairs but no cut-out layer, so no holes are drawn from it.",
+    "src": "#POD #SERIES/POD21 - #Master/POD21 - #Engineering/SILK/Pod21silk.cdr"
+   },
+   {
+    "text": "Three extra cross-hairs sit between buttons SLAVE/1, 2/3 and 5/6 at button height with no legend (switch-board standoffs, inferred).",
+    "src": "#POD #SERIES/POD21 - #Master/POD21 - #Engineering/SILK/Pod21silk.cdr"
+   },
+   {
+    "text": "POD2SILK.CDR in the POD21 SILK folder is not the POD2 audio switcher: it is an earlier POD21 silk (24 Nov 2000).",
+    "src": "#POD #SERIES/POD21 - #Master/POD21 - #Engineering/SILK/POD2SILK.CDR"
+   },
+   {
+    "text": "In that 2000 silk the rear CONTROL legend is shortened to “CTL” and the mains warning runs on one line; the 2006 silk breaks it over several lines.",
+    "src": "#POD #SERIES/POD21 - #Master/POD21 - #Engineering/SILK/POD2SILK.CDR"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -5877,6 +8196,28 @@ window.SIM_CATALOG = [
    "SLM-1 VU/PPM/peak ballistics",
    "Inverted A/D DIP and other code findings"
   ],
+  "footnotes": [
+   {
+    "text": "The front cut-out layer has two round holes with no legend, inboard of the rack screws (display-board fixings, inferred).",
+    "src": "#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear shows two D-shaped holes under “115 VAC, 1/2 A.S.B.” for the fuse holder and power inlet.",
+    "src": "#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Four vent slots sit above the CONTROL connector on the rear.",
+    "src": "#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The AES BNC positions carry centre cross-hairs drawn as separate small layers, one per hole.",
+    "src": "#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The green plate carries the Ward-Beck Systems logo bottom right instead of the “PODS” logo used on the other PODs.",
+    "src": "#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -5927,6 +8268,36 @@ window.SIM_CATALOG = [
    "A display written by decoder glitches, and seven other firmware bugs",
    "8-step operator tutorial built from the silk and the protocol document"
   ],
+  "footnotes": [
+   {
+    "text": "POD23-SilkV2.cdr draws six display windows of 25.5 × 10.3 mm and six Ø 16 mm knob holes for the POD23A.",
+    "src": "#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-SilkV2.cdr"
+   },
+   {
+    "text": "V2 also draws six 31.8 × 38.9 mm cell outlines on a 1.250 in pitch, matching “5 PITCHES @ 1.250 CENTRES”; they look like chroma-filter sections, not ink (inferred).",
+    "src": "#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-SilkV2.cdr"
+   },
+   {
+    "text": "The leftmost POD23A cell has a window and a knob hole but no legend, which fits display 1 never being driven by v100.",
+    "src": "#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-SilkV2.cdr"
+   },
+   {
+    "text": "V2 holds two identical copies of the front and only the green top bar of a third, parked below the sheet.",
+    "src": "#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-SilkV2.cdr"
+   },
+   {
+    "text": "The rear copies in POD23-Silk.cdr (2003) and POD23-SilkV2.cdr (2004) are identical.",
+    "src": "#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-Silk.cdr"
+   },
+   {
+    "text": "Both files use live Arial text that libcdr anchors wrongly; every legend was re-centred on its cell.",
+    "src": "#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-Silk.cdr"
+   },
+   {
+    "text": "On the 2003 front the green window frames leave a gap at the bottom edge where the white “CONTROL 1” / “CONTROL 2” legends sit.",
+    "src": "#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-Silk.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -5975,6 +8346,28 @@ window.SIM_CATALOG = [
    "CMOS mode switch that hands the right channel to the left knob",
    "Bridged TDA2616 outputs with power and clipping",
    "Manual spec block copied from POD26"
+  ],
+  "footnotes": [
+   {
+    "text": "The cut-out layer shows a 9-slot speaker vent on the front, beside the rocker window.",
+    "src": "#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "An 8-slot vent sits on the rear beside the mains hardware.",
+    "src": "#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "A small unlabelled hole sits beside the “115 VAC, 1/2 A.S.B.” legend on the rear (fuse holder or ground stud, inferred).",
+    "src": "#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The panel says “STEREO / LEFT · RIGHT” where the manual calls the mode “MONO”.",
+    "src": "#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear power cut-out is a flatted round hole about 13 mm across, not an IEC inlet window.",
+    "src": "#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -6026,6 +8419,28 @@ window.SIM_CATALOG = [
    "The delay is 2048-pass ticks; the “1 kHz” tone is about 2.9 kHz",
    "10-step operator tutorial from the manual"
   ],
+  "footnotes": [
+   {
+    "text": "The green plate carries the ALARM ON / OFF bars and the 9-slot vent.",
+    "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "A small round hole at the top right of the rear has no legend (ground stud or spare, inferred).",
+    "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear terminal-block window is one long cut-out for 2 × 9-way blocks, ruled into OUTPUT 1, OUTPUT 2 and OUTPUT 1+2.",
+    "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "POD25-FRONT&REAR.cdr (21 May 2014) is the live-text version of the same sheet; the CURVE file is dated Jul.02/14.",
+    "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR.cdr"
+   },
+   {
+    "text": "The rear photo shows an older silk with “DISCONNECT POWER BEFORE SERVICING” across the bottom, not the Jul.02/14 artwork.",
+    "src": "#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -6074,6 +8489,28 @@ window.SIM_CATALOG = [
    "T-network gain maths that reproduces the manual range",
    "Unregulated rails with 120 Hz ripple and clipping",
    "Manual specs copied from the POD24 sheet"
+  ],
+  "footnotes": [
+   {
+    "text": "A small round hole at the top right of the rear, above the power inlet, has no legend (ground stud or spare, inferred).",
+    "src": "#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The six OUTPUT LEVEL ADJUST trims sit in holes under one long legend rule, numbered 1–6 below.",
+    "src": "#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear OUTPUT and INPUT terminal blocks share one window, with two fixing holes each side.",
+    "src": "#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear mains legend is printed sideways: “CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE”.",
+    "src": "#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "POD26-FRONT&REAR.cdr (20 May 2014) is the live-text version of the same sheet; the CURVE file is dated Jul.02/14.",
+    "src": "#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -6124,6 +8561,28 @@ window.SIM_CATALOG = [
    "BNC/Phoenix autodetect, CS8420 SRC bypass for Dolby E, cascade and group DIDs",
    "HANC audio packets drawn word by word",
    "21 findings: V200 is 625-only, cascade-off strips anyway, dead “mute” constants"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear panel has a small Ø 4.2 mm hole above the right fixing screw that no part in the model uses; the POD28 drawing calls the same hole a ground-stud insert, so it is probably the earth stud (inferred).",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "Every front hole has a legend and a part: PWR LED, CASCADE button and LED, SELECT, GR1–4, SDI, AES1, AES2 and ERROR. Nothing is drilled without being used.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The FINAL CURVE rear reads “115 VAC, ½ A.S.B.”, while the 2015 PDF and SILK/POD27SLK-ISS2.cdr read “100-240 VAC, 50-60 Hz”.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The 2015 drawing also carries a “POD-27 SDI MUXER” front with OUTPUT LEVEL ADJUST 1–6 trimmer holes, a six-output DA layout the POD27 never had.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR.pdf"
+   },
+   {
+    "text": "The FINAL CURVE drawing has a “SELECT” legend under the group button that the 2010 photo of the unit does not show.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -6176,6 +8635,24 @@ window.SIM_CATALOG = [
    "Output eye per BNC, and the 2010|43 ASI test result",
    "11-step operator tutorial from the manual"
   ],
+  "footnotes": [
+   {
+    "text": "The front is drilled only for PWR, SDI, HD and ERROR. There is no fourth tally, unlike the four-LED POD28iss1 build seen in an M8205 error file.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The rear prints “100-240 VAC, 50-60 Hz, ½ A.S.B.” beside the IEC cut-out, with the CAUTION block turned on its side.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The small hole above the right rear fixing screw is the ground-stud insert (FH-440-5) on the POD28 ISS 1 rear drawing.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The silk PNGs had been cut 3 px inside the crop marks (1709 × 316 px), so the full-panel vector art sits at (−3, −3) in that frame.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -6225,6 +8702,32 @@ window.SIM_CATALOG = [
    "Load steps, switching ripple and hiccup on overload",
    "POD29X/L/E rear-panel family"
   ],
+  "footnotes": [
+   {
+    "text": "Despite “CURVE” in its name, the file keeps every legend (model line, OUTPUT 1–4, + − G, mains text) as live Arial text; only the PODS logo and “by Ward-Beck Systems” are curves.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "libcdr drops the live text's alignment (OUTPUT n was centred), so each line is placed on the word boxes of the file's own PDF export.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).pdf"
+   },
+   {
+    "text": "The front has a single Ø 6.5 mm power-LED hole, twice the 3.3 mm tally holes of POD27/28, probably for a panel-mount LED holder (inferred).",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Each OUTPUT cut-out (18.5 × 12.4 mm) has two flange-screw holes 25.4 mm apart. The plugin had drawn the plugs 32 px high and the IEC inlet 46 px right; both now sit on the drawing.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear has the same small hole above the right fixing screw as POD27/28, where the POD28 drawing calls it the ground-stud insert.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear mains text reads “90-230 VAC 50-60 Hz, 2 A.S.B.”, while the POD29L/E rears read “100-230 VAC, 50-60 Hz”.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -6273,6 +8776,32 @@ window.SIM_CATALOG = [
    "±24 V and +48 V phantom rails with load steps and overload",
    "Pin-out straight from the silk legend",
    "Where the POD29L files really are"
+  ],
+  "footnotes": [
+   {
+    "text": "The POD29L rear plate lives on a sheet named POD29X, which also carries the POD29E plate; the POD29L folder itself holds only a bottom-plate DWG.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The “(CURVE)” silk sheets still hold live Arial text rather than curves, so the panel lettering here is a font match.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "One pin table (1 Chassis, 2 +24V, 3 0V, 4 −24V, 5 +48V Phantom) serves two XLR-5 holes; parallel wiring is inferred.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The POD29L/POD29E mains legend reads “100-230 VAC, 50-60 Hz,” with a trailing comma and no fuse rating; the POD29 rear plate reads “90-230 VAC 50-60 Hz, 2 A.S.B.”.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The guide layer shows a fuse-holder hole under the CAUTION text that the earlier PDF cut left out.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29X-REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The front used here is POD29’s (“POD-29 REGULATED POWER SUPPLY”, Jul.03/14); no POD29L front artwork exists.",
+    "src": "#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -6325,6 +8854,24 @@ window.SIM_CATALOG = [
    "SDI/ASI bits on both outputs: why ASI only works on OUTPUT 2",
    "11-step operator tutorial"
   ],
+  "footnotes": [
+   {
+    "text": "The rear IEC cut-out is landscape (31.5 × 27.4 mm), but the plugin had drawn a portrait inlet; the flange is now widened to cover it.",
+    "src": "#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The two screw holes between the front buttons (x 861 and 1161 px) hold the button bracket; they are not fixing screws.",
+    "src": "#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The white plate numbers the four square 8.6 mm button cut-outs 1–4 underneath, with no input names.",
+    "src": "#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear has a small hole above the right fixing screw, matching the ground-stud insert of the POD28 drawing.",
+    "src": "#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -6374,6 +8921,24 @@ window.SIM_CATALOG = [
    "Live OUTPUT_SELECT, dolby_upper and reset-vector bytes",
    "Mode-3 clock bug (v102) and v400's fix side by side",
    "AES3 frames including SMPTE 337 Pa/Pb data words"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear has a 22.9 × 7.1 mm window for the DIP switch above AES 2–AES 3.",
+    "src": "#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Two small holes at (336, 122) and (936, 122) px between the Phoenix row and the BNC row are used by no part in the model, probably bracket screws for the Phoenix PCB (inferred).",
+    "src": "#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "All 14 front LED holes match the 14 tallies in the code (PWR, SD, HD, ERR, four groups, four Dolby, E and DD).",
+    "src": "#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear has a ground-stud hole above the right fixing screw.",
+    "src": "#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -6425,6 +8990,24 @@ window.SIM_CATALOG = [
    "Dolby E vs SRC, group 3/4 copies, AES OUT monitoring",
    "Findings: dead Dolby/Cascade/RS-485 hardware, LED define mismatch, power-up 0xFF reads"
   ],
+  "footnotes": [
+   {
+    "text": "All 16 front LED holes are drilled and legended, including the six DOLBY tallies and both CASCADE tallies that the v100 firmware never drives.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD32/POD32-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The rear has two DIP windows, each 22.4 × 7.1 mm, for DIP1–8 and DIP9–16.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD32/POD32-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The eight Ø 13.5 mm AES BNC holes form two 2 × 2 blocks, held by screws at x 680, 942 and 1205 px (a BNC bracket, inferred).",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD32/POD32-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The batch pointed at 2006 SILK/POD32-SILK.cdr copies, stored seven times across Engineering and RD3; the later FINAL CURVE drawing in POD PANELS is the one used.",
+    "src": "#POD #SERIES/POD32 - #Master/POD32 - #Engineering/SILK/POD32-SILK.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -6473,6 +9056,36 @@ window.SIM_CATALOG = [
    "AES3 frame scope and lock behaviour",
    "Spec-sheet gain and sensitivity → speaker power",
    "What the spec sheet left “TBA”"
+  ],
+  "footnotes": [
+   {
+    "text": "The drawing puts the analog XLRs at x 961/1169 px and the IEC cut-out at 1357–1609 px, 60–120 px left of where the panel had been drawn; the rocker, toggle, knobs, STEREO button and trims were 3–19 px off.",
+    "src": "#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr"
+   },
+   {
+    "text": "A yellow “FUSE” note sits on the IEC drawing. It is a drafting note, not ink, so the panel leaves it out.",
+    "src": "#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr"
+   },
+   {
+    "text": "The STEREO button hole (Ø 7.1 mm) is wider than the knob-shaft holes (Ø 5.6 mm) and sits 1 mm lower.",
+    "src": "#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr"
+   },
+   {
+    "text": "The LOCK LED hole is Ø 6.5 mm, a holder rather than a bare 3 mm LED.",
+    "src": "#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr"
+   },
+   {
+    "text": "The rear prints “CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE” and a warning triangle, neither mentioned in the spec sheet.",
+    "src": "#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr"
+   },
+   {
+    "text": "The ARTWORK copy (saved Oct 2015) and Engineering/SILK/POD34-FRONT&REAR(FINAL CURVE).cdr (Mar 2015) are identical inside the panel outlines.",
+    "src": "#POD #SERIES/POD34 - #Master/POD34 - #Engineering/SILK/POD34-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "Each XLR is drawn as a D-flange connector with two diagonal mounting holes, and the binding posts as Ø 14 mm holes in a 2 × 2 block.",
+    "src": "#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -6524,6 +9137,28 @@ window.SIM_CATALOG = [
    "Hold reset bug: the right channel clears both holds",
    "Identifies the SLM-1 code and ANALOG1 EPROM as POD3A's firmware"
   ],
+  "footnotes": [
+   {
+    "text": "The panel artwork POD3A-FRONT&amp;REAR-SILK (CURVE).cdr is stored twice, byte for byte: in #ARTWORK #DA #2016 and in #Engineering/SILK.",
+    "src": "#POD #SERIES/POD3A - #Master/POD3A - #Engineering/SILK/POD3A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The front plates draw no outline for the LED window or the phase column; only the scale numbers place them, so the simulator takes the LED rows from the photo.",
+    "src": "#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "POD3-SILK-NEW.cdr (21 Sep 2006) is an older live-text version of the same POD-3A legend, eight years before the curve sheet.",
+    "src": "#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3-SILK-NEW.cdr"
+   },
+   {
+    "text": "The rear \"+ - G\" terminal legend is printed once, rotated beside the R input; the L input has none of its own.",
+    "src": "#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The sheet prints the DIP legend OFF above ON, while the switch body in the photo has its ON at the top.",
+    "src": "#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/Pics/POD3A Rear.jpg"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -6574,6 +9209,24 @@ window.SIM_CATALOG = [
    "Peak comparators and rail-derived thresholds",
    "P-CAD BOM phantom regulator that only makes 2.5 V"
   ],
+  "footnotes": [
+   {
+    "text": "The silk sheet draws a drill cross in every hole and big ones through the XLRs and the Phoenix block. The photo shows none of them printed, so they are construction marks. <span class=\"tag-inf\">inferred</span>",
+    "src": "#POD #SERIES/POD4 - #Master/POD4 - #ARTWORK #DA #2016/Pics/POD4 Front.jpg"
+   },
+   {
+    "text": "POD4SLK-CURVE-ISS2.cdr (30 Apr 2014) stacks the WHITE plate above the GREEN one. Its rear CAUTION block is still live text and runs off the panel when converted.",
+    "src": "#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD4SLK-CURVE-ISS2.cdr"
+   },
+   {
+    "text": "POD4SLKS.CDR (Jan 2008) is the earlier silk set, kept beside the 2014 issue.",
+    "src": "#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD4SLKS.CDR"
+   },
+   {
+    "text": "A hooked line ties each \"48V\" legend to its phantom LED rather than to the slide switch beside it.",
+    "src": "#POD #SERIES/POD4 - #Master/POD4 - #ARTWORK #DA #2016/POD4-FRONT&REAR-SILK (CURVE).cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -6622,6 +9275,24 @@ window.SIM_CATALOG = [
    "Talkback routing through 74HC4053 switches at virtual earths",
    "Discrete TIP29C/TIP30C headset drivers with load-dependent clipping",
    "Channel A right-ear gain 6 dB low (R35 10K vs R39 20K)"
+  ],
+  "footnotes": [
+   {
+    "text": "The FINAL CURVE sheet carries a fourth, empty panel outline far off the page (x ≈ 2075 pt), a leftover that never appears in the PDF.",
+    "src": "#POD #SERIES/POD5 - #Master/POD5 - #ARTWORK #DA #2016/POD5-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The file name says \"FINAL CURVE\" where every sister POD sheet says \"SILK (CURVE)\".",
+    "src": "#POD #SERIES/POD5 - #Master/POD5 - #ARTWORK #DA #2016/POD5-FRONT&REAR(FINAL CURVE).cdr"
+   },
+   {
+    "text": "POD5SLK.CDR (18 Sep 2008) is the older silk.",
+    "src": "#POD #SERIES/POD5 - #Master/POD5 - #Engineering/POD5 - #ARTWORK/POD5SLK.CDR"
+   },
+   {
+    "text": "The drill crosses in the jack and pot holes are on the sheet but not printed on the panel in the photo. <span class=\"tag-inf\">inferred</span>",
+    "src": "#POD #SERIES/POD5 - #Master/POD5 - #ARTWORK #DA #2016/Pics/POD5 Front.jpg"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -6673,6 +9344,28 @@ window.SIM_CATALOG = [
    "Delayed-release, MIC/COUGH and 3/4/5-minute relay logic",
    "Findings: hex HOLD constant, 1.2 Hz “2 Hz” flasher, power-up blip, missing IN1 pull-up"
   ],
+  "footnotes": [
+   {
+    "text": "The rear legend reads \"AUDIO I\\O\" with a backslash instead of a slash.",
+    "src": "#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr"
+   },
+   {
+    "text": "The rear centre title \"POD 7 UNIVERSAL INTERFACE\" is set in a condensed face, unlike every other legend on the panels.",
+    "src": "#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr"
+   },
+   {
+    "text": "A small circle sits over the slash of \"115 VAC, 1/2 A.S.B.\" It is the PEM ground stud hole. <span class=\"tag-inf\">inferred</span>",
+    "src": "#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr"
+   },
+   {
+    "text": "The file name has a stray space: \"( CURVE)\".",
+    "src": "#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr"
+   },
+   {
+    "text": "POD7SILK.CDR (2 Nov 1998) is the first-issue silk.",
+    "src": "#POD #SERIES/POD7 - #Master/POD7 - #Engineering/POD7 - #SILK/POD7SILK.CDR"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -6721,6 +9414,36 @@ window.SIM_CATALOG = [
    "PHX and QTP rear silks",
    "Fan-out levels with the measured +27.5 dBu ceiling",
    "Supply quoted (IRM-15-15) vs the measured headroom"
+  ],
+  "footnotes": [
+   {
+    "text": "The XLR rear has only twelve outputs (B6…B1, A6…A1) plus INPUT A and B, so A7, A8, B7 and B8 have no connector on that version.",
+    "src": "#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-REAR-QTP & XLR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The XLR rear plate is 17.17 in wide: rack width between the ears, not a half-rack POD face.",
+    "src": "#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-REAR-QTP & XLR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "A loose \"+ - G\" legend floats between the INPUT B label and the OUTPUT bar on the Phoenix rear, a stray copy of the terminal legend. <span class=\"tag-inf\">inferred</span>",
+    "src": "#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-FRONT & REAR-PHX-SILK (CURVE).cdr"
+   },
+   {
+    "text": "In the curve front, the green top bar stops short of the INPUT section.",
+    "src": "#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-FRONT & REAR-PHX-SILK (CURVE).cdr"
+   },
+   {
+    "text": "POD8A-FRONT&amp;REAR-XLR-SILK.cdr (JAN.14/16) is a later 19-inch rack set in live text. Its CAUTION line runs off the panel when converted.",
+    "src": "#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-FRONT&REAR-XLR-SILK.cdr"
+   },
+   {
+    "text": "That Jan 2016 XLR sheet is stored twice, byte for byte, in #ARTWORK and in BLACK RACK - #Mechanical.",
+    "src": "#POD #SERIES/POD8A - #Master/POD8A - BLACK RACK - #Mechanical #DA #2016/POD8A-FRONT&REAR-XLR-SILK.cdr"
+   },
+   {
+    "text": "The QTP rear has one INPUT and four OUTPUT cut-outs; its pin table puts two A and two B outputs on each output connector.",
+    "src": "#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-REAR-QTP & XLR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -6773,6 +9496,28 @@ window.SIM_CATALOG = [
    "11-step operator tutorial with live goals",
    "V102 never reads the A/V SLAVE button; C0/C7 swapped against the manual"
   ],
+  "footnotes": [
+   {
+    "text": "The front legend reads \"A\\V SLAVE\" with a backslash instead of a slash.",
+    "src": "#POD #SERIES/POD9 - #Master/POD9 - #ARTWORK #DA #2016/POD9-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The crosses at OUT 1, IN 2, IN 5 and IN 6 on the rear sheet are drill centre marks, not printed ink. <span class=\"tag-inf\">inferred</span>",
+    "src": "#POD #SERIES/POD9 - #Master/POD9 - #ARTWORK #DA #2016/POD9-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear BNC holes are D-shaped (one flat side), drawn as an arc plus a straight edge.",
+    "src": "#POD #SERIES/POD9 - #Master/POD9 - #ARTWORK #DA #2016/POD9-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "POD9SILK.CDR (Aug 2007) is the earlier silk, filed under the POD9R folder.",
+    "src": "#POD #SERIES/POD9 - #Master/POD9 - #Engineering/POD9R - #SILK/POD9SILK.CDR"
+   },
+   {
+    "text": "A separate rear-only issue 2 silk survives: POD9-REAR iss2 silk.cdr (Aug 2007).",
+    "src": "#POD #SERIES/POD9 - #Master/POD9 - #Engineering/POD9R - #SILK/POD9-REAR iss2 silk.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -6821,6 +9566,28 @@ window.SIM_CATALOG = [
    "Level at every stage, from the schematic and the Audio Precision test",
    "Class-D PWM and output filter in slow motion",
    "AMS2-N AES67 receive configuration"
+  ],
+  "footnotes": [
+   {
+    "text": "The silk sheet's title block says MAR.17/15, but the (CURVE) file itself was saved 2015-11-06; the live-text twin AMS2-FRONT & REAR PANEL SILK.cdr is dated 2015-03-20.",
+    "src": "AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "Off the printed page the CorelDRAW file keeps a second, older copy of the rear legends and the “AMS2 SERIES” title (leftover working copy).",
+    "src": "AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "Of the two small holes either side of the STEREO / LEFT / RIGHT selector, only the left one carries a drill crosshair on the silk sheet.",
+    "src": "AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The panel artwork (MAR.17/15) is newer than the rear drawing AMS2-REAR ISS 2 (24-02-15) by about a month.",
+    "src": "AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The rear legend gives 90-230 VAC, 1A S.B. on the IEC inlet, and the analog trims are labelled ANALOG IN ADJUST, L and R.",
+    "src": "AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -6873,6 +9640,28 @@ window.SIM_CATALOG = [
    "Version selector: v2.00 … V5.00, c200, c203, AMS4N, AMS4E",
    "11-step operator tutorial from the manual"
   ],
+  "footnotes": [
+   {
+    "text": "On the rear silk the DEMUX adaptor-plate opening and its two thumb-screw holes are the only things drawn in red: a separate part (DEMUX 4-REAR ADAPTOR PLATE), not panel silk.",
+    "src": "AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "Off the printed page the CorelDRAW sheet keeps working copies of the rear plate and of a front plate whose title strip is only outlined.",
+    "src": "AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The silk only fits the PIC version (MODE / SOURCE buttons and the dot-matrix window); the AMS4N and AMS4E front layouts have no artwork in the archive.",
+    "src": "AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "AMS4-FRONT&REAR-SILK(CURVE).cdr, AMS4-FRONT-SILK(CURVE).cdr and AMS4-REAR-SILK(CURVE).cdr are each stored three times (ARTWORK #DA #2016, #Engineering/ARTWORK, #Engineering/AMS4 - #ARTWORK).",
+    "src": "AMS4 - #Master/AMS4 - #Engineering/ARTWORK/AMS4-FRONT&REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The title block of the combined silk says DEC.23/15, but the file was saved 2016-06-29, the same day as the rear-only silk.",
+    "src": "AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -6922,6 +9711,20 @@ window.SIM_CATALOG = [
    "Measured power and amplifier test sheets",
    "Pick-and-place program errors located",
    "Obsolete driver swap and BOM slips"
+  ],
+  "footnotes": [
+   {
+    "text": "The only CorelDRAW files named AMS8E are manual covers; they show the AMS8-1 chassis front and rear, not the E boards.",
+    "src": "AMS8 #Engineering #TIM/AMS8E Manual Cover.cdr"
+   },
+   {
+    "text": "The AMS8E manual cover exists as Prelim (2005-09-08), final (2006-05-26) and two Backup_of_ copies in the same folder.",
+    "src": "AMS8 #Engineering #TIM/Backup_of_AMS8E Manual Cover.cdr"
+   },
+   {
+    "text": "The AMS8E-1B and AMS8E-1AAM manual covers are stored in both AMS8 #Engineering #TIM and AMS81 - #Master/AMS8 - #Engineering.",
+    "src": "AMS81 - #Master/AMS8 - #Engineering/AMS8-1B/AMS8E-1B Manual Cover.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -6973,6 +9776,7 @@ window.SIM_CATALOG = [
    "The “24.256 MHz” typo explained",
    "Shortlist = teardown BOM finding"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7024,6 +9828,7 @@ window.SIM_CATALOG = [
    "FBGA-484 ball map from Altera’s pin tables with each product’s .qsf",
    "Cycle-by-cycle VHDL of two Cyclone IV entities"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -7074,6 +9879,7 @@ window.SIM_CATALOG = [
    "Pin Planner from top.qsf with per-ball output slack",
    "Clock trees of pod32.sdc and five later product SDC files"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -7124,6 +9930,7 @@ window.SIM_CATALOG = [
    "Stack-up and microstrip impedance",
    "Altium vs HyperLynx findings"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7174,6 +9981,7 @@ window.SIM_CATALOG = [
    "Return-loss arithmetic live",
    "Privacy-safe summary of the contact sheet"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7224,6 +10032,7 @@ window.SIM_CATALOG = [
    "Course-note errors and the shipped blocking assignment",
    "Live source with the firing lines lit"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -7274,6 +10083,7 @@ window.SIM_CATALOG = [
    "Why rows were duplicated, stale or late: two loggers, two clocks, NTP",
    "12-step tutorial and 20 findings, including what became of it"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -7323,6 +10133,48 @@ window.SIM_CATALOG = [
    "Real Feb 2013 32ME panel artwork",
    "ERR-LED flicker traced to a 5-bit counter compare",
    "FPGA part history EP1C6 → EP4CE40 → EP4CE30"
+  ],
+  "footnotes": [
+   {
+    "text": "Front and rear panels are drawn from the assembled views on the 21 Feb 2013 CorelDRAW sheets (each sheet also holds separate WHITE and GREEN plates); there is no text-as-curves version of this issue.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/32ME-M1 FRONT PANEL_Feb212013.cdr"
+   },
+   {
+    "text": "The meters sit behind four chromatic-filter windows; the filter print gives each window four stereo pairs with one SEL and one ERR legend per pair and a shared −34 … +14 dB scale — 16 ERR legends for 32 meters.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/ChromaFilter/32ME-CHROMATFILTER_Feb192013.cdr"
+   },
+   {
+    "text": "The front has 16 small holes (Ø0.117″ in 0.183″ rings) beside the channel legends 1, 8, 9 … 32 and 33, 40 … 64; no LED is named for them in the code, so they are probably fixings (inferred).",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/32ME-M1 FRONT PANEL_Feb212013.cdr"
+   },
+   {
+    "text": "One unlegended hole sits between ADJUST and HEADSET on the front.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/32ME-M1 FRONT PANEL_Feb212013.cdr"
+   },
+   {
+    "text": "The prototype filter printed CH1–CH8 under every window; the 19 Feb 2013 filter drops them.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/ChromaFilter/OBSOLETE/PROTOTYPE_V1/32ME-CHROMATFILTER-FINALCURVE.cdr"
+   },
+   {
+    "text": "An earlier front had “1-32 / 33-64” group LEDs at the right and no display; the Feb 21 issue replaced them with the dot-matrix window, ADJUST (PUSH) and HEADSET.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/Obsolete/32ME-FRONTPANEL-FINALCURVE.cdr"
+   },
+   {
+    "text": "The rear has a MADI optical OUT/IN cut-out next to the coax BNCs, each with a “SYNC” hole beside it, and no SYNC BNCs.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"
+   },
+   {
+    "text": "libcdr lost the alignment and line breaks of the rear's “MADE IN CANADA”, caution block and “PLEASE REFER TO MANUAL”; they are re-set by hand here.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr"
+   },
+   {
+    "text": "ConceptFrontAll.cdr (same date) holds nine alternative front layouts that move the logo and 32ME badge between windows.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/ConceptFrontAll.cdr"
+   },
+   {
+    "text": "The SILK/OBSOLETE folder keeps many Backup_of_ copies and three earlier front saves (FINAL, FINALCURVE, new) beside the dated sheets.",
+    "src": "ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/Obsolete/32ME-FRONTPANEL FINAL.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -7374,6 +10226,28 @@ window.SIM_CATALOG = [
    "md5 comparison of 13 069 RD23 files against the AMS16 master: the v700 front panel and “v600” differ",
    "19 findings, incl. level B converted then refused, unused on-chip de-embedder, 2014 timing revisit"
   ],
+  "footnotes": [
+   {
+    "text": "The rear sheet is dated 23 Oct 2012, the day before the v700 release, and still reads AMS-16A: the 3G upgrade changed no hole or legend.",
+    "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr"
+   },
+   {
+    "text": "The same rear sheet is stored three times, byte-identical (ARTWORK “(curve)”, Engineering/SILK and AMS16A - #SILK “_final curve”).",
+    "src": "AMS16 - #Master/AMS16 - #Engineering/SILK/AMS16AQ-3G-M2-SILK_final curve.cdr"
+   },
+   {
+    "text": "The sheet's assembled view uses live Arial text; only its WHITE plate is in curves.",
+    "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr"
+   },
+   {
+    "text": "SDI IN1/IN2/OUT1/OUT2 are D-shaped holes with flats; the eight AES outputs and two MONITOR outputs are round Ø0.485″ BNC holes.",
+    "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr"
+   },
+   {
+    "text": "The RD23 folder holds a 2008 front sheet (AMS16A2-SILK-FINALcurve.cdr); the newest front is AMS16A2-M1-FRONT-SILK (CURVE).cdr, dated OCT.27/15. RD23 did not change the front.",
+    "src": "ENGINEERING - 2016 RD FILES/RD23AMS163GSDIUpgrade/Adam/AMS16/SILK/AMS16A2-SILK-FINALcurve.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -7424,6 +10298,7 @@ window.SIM_CATALOG = [
    "M6205C200 parser readback, including its missing checksum test",
    "Serial 115 200 baud timing against video lines"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7474,6 +10349,7 @@ window.SIM_CATALOG = [
    "Real rear silkscreens where cut",
    "Sheet errors and gaps listed"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7524,6 +10400,7 @@ window.SIM_CATALOG = [
    "Document vs shipped code mismatches",
    "Clickable card DIP switches and T6307 rear"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7574,6 +10451,7 @@ window.SIM_CATALOG = [
    "v1 vs v2 spreadsheet differences",
    "Density and power comparison"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7624,6 +10502,7 @@ window.SIM_CATALOG = [
    "A/153 AudioSpecificConfig rebuilt bit by bit",
    "RTP and TS packet timing"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7674,6 +10553,7 @@ window.SIM_CATALOG = [
    "AC-3 sync frames vs video frames on one timeline",
    "Links to the D6207A and POD31 decoders"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7724,6 +10604,7 @@ window.SIM_CATALOG = [
    "TDA9955 register set-up and NDIV default",
    "$250 cost target calculator"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7774,6 +10655,7 @@ window.SIM_CATALOG = [
    "Compile-time Gantt: flat vs incremental",
    "SignalTap buffer budget from the AMS16 fit report"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -7824,6 +10706,7 @@ window.SIM_CATALOG = [
    "Class AB vs three class-D parts: heat per channel",
    "Issue-4 tweeter capacitors found in the netlist"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7873,6 +10756,36 @@ window.SIM_CATALOG = [
    "Level path from iPod to AES dBFS",
    "AES3 subframe at the playhead",
    "V1 fixed 48 kHz vs V2 SRC"
+  ],
+  "footnotes": [
+   {
+    "text": "Portable A-to-D.cdr is a line-art concept sketch, not a panel: no scale, colours or legends are given, so the drawing’s size and body colours are not from the archive.",
+    "src": "ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr"
+   },
+   {
+    "text": "The block captions overflow their boxes in the CDR (“High quality A-to-D-Fixed 48Khz out”, “Lithium ION Battery-Universal”); the PDF export shows them wrapped onto two lines.",
+    "src": "ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr"
+   },
+   {
+    "text": "The sketch draws one unlabelled output connector with two tabs on the right end, while the R&amp;D register asks for “digital bnc/xlr”.",
+    "src": "ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr"
+   },
+   {
+    "text": "V2’s user-selectable SRC has no drawn position: the note asks “SRC control VIA? DIP Switch or Toggle?”.",
+    "src": "ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr"
+   },
+   {
+    "text": "The LED yellow threshold carries a question mark (“Yellow 10%?”); red is 5 % and red flashing 1 %.",
+    "src": "ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr"
+   },
+   {
+    "text": "Micro USB is labelled “Power-Charge-Firmware?”, the only hint that the adapter would carry updatable firmware.",
+    "src": "ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.cdr"
+   },
+   {
+    "text": "The same sketch is stored twice, as the CorelDRAW original and as a PDF export of it.",
+    "src": "ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter/Portable A-to-D.pdf"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -7924,6 +10837,7 @@ window.SIM_CATALOG = [
    "Takes wait for the next frame or field",
    "What happened next: POD10A issue 3 (RD75)"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -7974,6 +10888,7 @@ window.SIM_CATALOG = [
    "Content changes wait for the next key frame",
    "Notes vs diagram disagreement"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8024,6 +10939,7 @@ window.SIM_CATALOG = [
    "T6301 rear drawn to scale, outputs clickable",
    "MADI reclocker later drawn on Demux4 Issue 2 (fitted DNI)"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8074,6 +10990,7 @@ window.SIM_CATALOG = [
    "vumeter.asm VU time constant in slow motion",
    "Shows which half of the hardware already existed"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8124,6 +11041,7 @@ window.SIM_CATALOG = [
    "H.264 waits for an I-frame; MJPEG does not",
    "Half-rack rear panel from the connector list"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8173,6 +11091,28 @@ window.SIM_CATALOG = [
    "EPCS1 in the qsf vs EPCS16 in the .cdf vs M25P16 on the BOM",
    "Power-up: nCONFIG held for 0.74 s, 9.5 Mbit load, user mode at ≈1.01 s",
    "SHA-256 comparison with the AMS81, DEMUX3 and AMS82 masters"
+  ],
+  "footnotes": [
+   {
+    "text": "No AMS8-1A panel sheet from the RD60 period (2012–13) is in the archive; the panels shown are the OCT.19/15 front and MAY 07/15 rear.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"
+   },
+   {
+    "text": "The “CURVES” front file still holds live Arial text, so the labels were re-anchored on the button and knob centres.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"
+   },
+   {
+    "text": "The source text object reads “AMS -8 SERIES” (a space before the dash); it may be a spacing artefact of the conversion rather than the printed legend.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr"
+   },
+   {
+    "text": "The rear has a second ⚠ “PLEASE REFER TO MANUAL” by the long option-card slot, as well as DOLBY E METADATA and SERIAL COMM DE9s and an AUX DB25 that RD60 does not use.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M2-Rear-SILK(Curve).cdr"
+   },
+   {
+    "text": "A sister front sheet, AMS8-1A-FRONT-SILK (AMS8-M24).cdr, sits beside the CURVES file.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (AMS8-M24).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -8224,6 +11164,7 @@ window.SIM_CATALOG = [
    "24p clip on a 60 Hz output: 3:2 cadence",
    "Why the USB end exists: power"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8274,6 +11215,7 @@ window.SIM_CATALOG = [
    "DDC licence vs XMOS reference design per unit",
    "Leads to RD79 WBS-AVB-DG and RD85 RAVENNA"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8325,6 +11267,28 @@ window.SIM_CATALOG = [
    "Hash check of every RD66 folder against the masters",
    "Netlist findings: PA4 = FPGA nCE, PA7 = regulator reset"
   ],
+  "footnotes": [
+   {
+    "text": "The front, rear and lens sheets are from May 2015, two years after RD66, and already carry the RD73 SDI 1 / SDI 2 button column.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr"
+   },
+   {
+    "text": "The MLC8B rear plate's model line reads “MLC-8”, not MLC-8B.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr"
+   },
+   {
+    "text": "The M19 rear is stored twice as different files: the MLC copy is all curves; the AMS81 copy (Apr 2016) has three live-text objects but the same layout.",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M19-REAR-SILK (CURVE) (MLC-8B).cdr"
+   },
+   {
+    "text": "The rear also has an AUX 2 DB25, an option-card slot and two round holes with a small rectangle at the top right, none used by this bench.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr"
+   },
+   {
+    "text": "The lens is the shared AMS8/MLC8 M6 part; the MLC8B uses only its left 3″ (CH1–CH8 scales, DD and ERR).",
+    "src": "AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -8375,6 +11339,7 @@ window.SIM_CATALOG = [
    "Shared RLM24 side plate = the “standard metal work”",
    "Project dates from the DWG files"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8425,6 +11390,7 @@ window.SIM_CATALOG = [
    "Signal timing: lines, HANC packets, AES frames, MCU passes",
    "Old VIDBuddy vs new Buddy comparison"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8476,6 +11442,7 @@ window.SIM_CATALOG = [
    "Why the archived demo would not blink on the Discovery",
    "Candidate sheet, quotes and the “Final Decision” tiers"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -8526,6 +11493,7 @@ window.SIM_CATALOG = [
    "The deleted-write-id bug and the 2·xPos touch scaling, with switches to expose them",
    "What was decided: HDSP-2533 dot-matrix displays instead (2015|48–2016|49)"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -8577,6 +11545,7 @@ window.SIM_CATALOG = [
    "11-step evaluation tutorial, bench to chassis",
    "Links to every CAT552/CAT559 product"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -8627,6 +11596,7 @@ window.SIM_CATALOG = [
    "3G vs HD: why only 3G suffers",
    "Rise-time and output-reach data alongside"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8678,6 +11648,7 @@ window.SIM_CATALOG = [
    "Real AMS8-1A silk with AVB metering",
    "What is WBS’s own: about 10 lines of XMOS config"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -8728,6 +11699,7 @@ window.SIM_CATALOG = [
    "Driver SPL vs the Fostex 6301N yardstick",
    "Sixteen 24 V supplies against the power budget"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8778,6 +11750,7 @@ window.SIM_CATALOG = [
    "Register 15 volume write and vol_rate ramp in slow motion",
    "Live ES9018K2M register map"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8829,6 +11802,7 @@ window.SIM_CATALOG = [
    "Front-panel “ AES67 ” relabel in v200w.c",
    "Links to MLC8N, AMS2-N, 32ME-N, PREmo and RD63"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -8879,6 +11853,7 @@ window.SIM_CATALOG = [
    "Lock LED never sent; ERROR only on the old head",
    "MM5450 frames bit by bit, both layouts"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -8929,6 +11904,7 @@ window.SIM_CATALOG = [
    "A real cascaded biquad running on the timeline",
    "EZ-KIT Lite board with FLAG buttons, IRQs and LEDs"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -8978,6 +11954,28 @@ window.SIM_CATALOG = [
    "Headroom and current limit for each load",
    "ISS4 vs ISS3 output stage: the TIP transistors never turn on in ISS4",
    "Clickable board from the assembly drawing and pick-and-place"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear plate is labelled “HEADPHONE AMP” with a WBS logo; the name microDriver appears on no panel artwork.",
+    "src": "#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The POD6-001 bracket is drawn twice, in its own POD6-001-SILK (CURVE).cdr and again on the combined ISS.2 sheet with the rear plate.",
+    "src": "#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The ISS.2 sheet exists in a live-text copy and a FINAL CURVE copy saved the same day (2016-06-13).",
+    "src": "#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001& POD6-002 ISS.2.cdr"
+   },
+   {
+    "text": "The front panel knob has no pot on the ISS4 PCB: P1 loops the receiver output out and back, so the volume control is off-board (inferred).",
+    "src": "microDriver - POD6 - #Master turned into microdriver/POD6 - #RD #RD76/SMT_Upgrade/backup12-final/POD6-ISS4/POD6-ISS4-S1.pdf"
+   },
+   {
+    "text": "This POD-series product lives outside #POD #SERIES; its panel and bracket silks are in POD PARTS.",
+    "src": "#POD #SERIES/POD PARTS - #Mechanical #DA #2016/SILKS/POD6-001/POD6-001-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -9029,6 +12027,28 @@ window.SIM_CATALOG = [
    "Pad, coax length and reflection effects (inferred)",
    "Leftover “micro AMP” logo off the page"
   ],
+  "footnotes": [
+   {
+    "text": "Both IMP4 files carry an unused “micro AMP” logo group parked off the page on the pasteboard, so the artwork was started from a microAMP sheet.",
+    "src": "microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr"
+   },
+   {
+    "text": "Channel numbers 1–4 are printed twice, upright along one long edge and upside down along the other.",
+    "src": "microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr"
+   },
+   {
+    "text": "Silks/ holds byte-identical copies of IMP4.cdr and IMP4 (FINAL CURVE).cdr.",
+    "src": "microIMP4 - #Engineering/Silks/IMP4 (FINAL CURVE).cdr"
+   },
+   {
+    "text": "No POWER legend, LED or power cut-out appears on the cover or either end, so the box is taken to be passive (inferred).",
+    "src": "microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr"
+   },
+   {
+    "text": "The green plate holds only the “micro” frame and word; WBS and IMP4 are on the white plate.",
+    "src": "microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -9077,6 +12097,32 @@ window.SIM_CATALOG = [
    "Front edge and trimmer end drawn 1:1 from the CorelDRAW views",
    "Clickable power, TRS, terminals and ADJUST trims",
    "Mono sum and polarity cancellation (inferred circuit)"
+  ],
+  "footnotes": [
+   {
+    "text": "The outputs are labelled R before L, left to right.",
+    "src": "microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The IN terminals read L G R (ground in the middle), but the TRS legend beside them reads L R G.",
+    "src": "microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The silk is dated MAR.16/15, a year before the ISS.1 cover drawings (March–April 2016).",
+    "src": "microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The bottom-cover note reads “ALL BENS ARE 90 DEG.” (for BENDS).",
+    "src": "microMATCH - #MASTER"
+   },
+   {
+    "text": "The two ISS.1 DWGs in the folder root duplicate those in MICRO MATCH - #MECHANICAL/.",
+    "src": "microMATCH - #MASTER"
+   },
+   {
+    "text": "The silk was kept as a live-text MICROMATCH.cdr and a curve copy MICROMATCH(FINAL CURVE).cdr.",
+    "src": "microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -9129,6 +12175,40 @@ window.SIM_CATALOG = [
    "Customer firmware variants and a real service report’s faults",
    "Manual-versus-code mismatches in the mode tables"
   ],
+  "footnotes": [
+   {
+    "text": "Most R2K module silks are live text in an encoding libcdr cannot read, so the simulator re-sets every module label itself.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MODULES/R201/SILK/R201SILK.CDR"
+   },
+   {
+    "text": "Only the R206 timer legends (LOAD, DOWN HR, START MIN, STOP/RESET SEC) and the meter bridge are converted to curves.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MODULES/R206/R206SILK.CDR"
+   },
+   {
+    "text": "R201SILK.CDR carries a second, drill-only copy of the panel (crosshairs, no ink) beside the artwork.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MODULES/R201/SILK/R201SILK.CDR"
+   },
+   {
+    "text": "R209SILK.CDR likewise holds a drill-only copy beside the art.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MODULES/R209/R209SILK.CDR"
+   },
+   {
+    "text": "R202MOD.cdr is not a silk: it is a white-filled outline with WBS / R202 and four holes.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MODULES/R202/R202MOD.cdr"
+   },
+   {
+    "text": "The R201 and R207 silks print the fader wedge as one solid shape (green on the console), with the 12-dB-in-hand bar across it.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MODULES/R201/SILK/R207SILK.CDR"
+   },
+   {
+    "text": "The NAB R2k bridge is a different, show-floor design: “r2k | cool grey”, one long meter window, the WBS mark, CLOCK (AM/PM) and TIMER (UP/DN) windows.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/NAB R2k Revised Curve.cdr"
+   },
+   {
+    "text": "The meter bridge REV3 (2004) labels its four meters PROGRAM, AUDITION, UTILITY and AUX/SWR, with a 36 … 0 … 14 PK scale.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/r2k20silkMeterBridgeCurveREV3.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -9180,6 +12260,7 @@ window.SIM_CATALOG = [
    "Two-hub token passing over the LINK",
    "Bugs: an assignment in every if, no real LED flash"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -9235,6 +12316,32 @@ window.SIM_CATALOG = [
    "Finds the async receiver behind the \"Synch Mode rx slave\" comment, plus the crystal mismatch",
    "10-step operator tutorial"
   ],
+  "footnotes": [
+   {
+    "text": "The April 2006 ARX422 silk is a different face: a broken black bar, “by Ward-Beck Systems”, “ARX 422” and 2 + 18 unlabelled rings.",
+    "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/ctv422rx/arx422/ARX422-silk.cdr"
+   },
+   {
+    "text": "The August 2006 silk adds CONTROL INTERFACE, the WBS mark, COM 1 2, INPUTS/OUTPUTS 1–18 and P1/P2/P3 on the rear.",
+    "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"
+   },
+   {
+    "text": "LED 18 is drawn as a drill crosshair rather than a ring.",
+    "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"
+   },
+   {
+    "text": "The rear warning reads “POWERBEFORE” with no space, in both versions of the silk.",
+    "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"
+   },
+   {
+    "text": "The silk is live text, and libcdr drops its alignment, so the simulator re-anchors the legends under the drill rings.",
+    "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"
+   },
+   {
+    "text": "The rear AC inlet / fuse cut-out is split into four in the artwork.",
+    "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -9286,6 +12393,28 @@ window.SIM_CATALOG = [
    "Copy slips in the group-2 error code",
    "All 28 Serialboxx cards catalogued"
   ],
+  "footnotes": [
+   {
+    "text": "The only front-panel CorelDRAW for the frame is a sheet of loose parts with no panel outline: the WBS mark, the “Serialboxx” wordmark and a byline.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX - #mf100_4/SILK/frontSScurve.cdr"
+   },
+   {
+    "text": "On the sheet the byline reads “By Ward-Beck Systems” on the wordmark’s baseline; on the photographed MF100 it is “By Ward-Beck”, under the wordmark.",
+    "src": "#SERIALBOX #SERIES/MF100 Front.jpg"
+   },
+   {
+    "text": "The art sheet draws three .07 × .8 in slots; the photographed frame has 13.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX - #mf100_4/SILK/frontSScurve.cdr"
+   },
+   {
+    "text": "serialboxxfront.cdr (2001) is only a photo of the open frame wrapped in a CorelDRAW file, not artwork.",
+    "src": "#SERIALBOX #SERIES/serialboxxfront.cdr"
+   },
+   {
+    "text": "The mf100_4 SILK folder keeps three versions (frontSS, frontSScurve, frontSSsamples) plus Backup_of_ copies of frontSS and frontSScurve.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX - #mf100_4/SILK/frontSScurve.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -9336,6 +12465,7 @@ window.SIM_CATALOG = [
    "Bus budget: CAN, I²C, 1-Wire over one second",
    "Findings: the BOM's MLC-8 title, dead Ethernet pins, the C6201 concept link"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -9386,6 +12516,7 @@ window.SIM_CATALOG = [
    "Return loss for every load",
    "Why the folder is #PROBLEM"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -9436,6 +12567,7 @@ window.SIM_CATALOG = [
    "RS-232 to RS-422 bit timing",
    "CS8412 adapter pin tracer"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -9484,6 +12616,32 @@ window.SIM_CATALOG = [
    "Calibration flash, CD and ERROR from the real tally code",
    "Group DIDs from the firmware’s process routine",
    "Issue 1 vs next-day netlist differences"
+  ],
+  "footnotes": [
+   {
+    "text": "The SD405 has no silk or panel art of its own; the rear module and TB102 come from the functional diagram.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Functionals/SD405_FUNCTION_CURVES.cdr"
+   },
+   {
+    "text": "The AES inputs are BNCs at rear-module positions 3 and 7; positions 1 and 5 are marked “NOT USED”.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Functionals/SD405_FUNCTION_CURVES.cdr"
+   },
+   {
+    "text": "SDI INPUT is position IN 1 and SDI OUTPUT 1–4 are positions 2, 4, 6 and 8.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Functionals/SD405_FUNCTION_CURVES.cdr"
+   },
+   {
+    "text": "TB102 has four 3-pin Phoenix blocks for analog 1A/1B/2A/2B and a fifth marked “NOT USED”.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Functionals/SD405_FUNCTION_CURVES.cdr"
+   },
+   {
+    "text": "The diagram draws one MUX fed by two A-to-D / AES selectors, matching the manual’s one group rather than the schematic’s “2 GROUP”.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Functionals/SD405_FUNCTION_CURVES.cdr"
+   },
+   {
+    "text": "A 2004 live-text copy of the same diagram sits in the shared Functionals folder; its converted labels run together.",
+    "src": "#SERIALBOX #SERIES/SERIALBOXX-Functionals/SD405.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -9535,6 +12693,32 @@ window.SIM_CATALOG = [
    "Every UART byte, EEPROM write and meter strobe on the timeline",
    "14-step operator tutorial from the 2015 manual"
   ],
+  "footnotes": [
+   {
+    "text": "ISS1 of the front silk (Nov 2006) has ST · SOURCE · MONITOR over “L/Only Phase AES SDI 1/2 3/4 5/6 7/8”.",
+    "src": "AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-CURVE.cdr"
+   },
+   {
+    "text": "ISS2 (Jan 2007) already has IN ST/DV and OUT ST/DV but still starts the button row with “L/Only”.",
+    "src": "AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS2-curve.cdr"
+   },
+   {
+    "text": "ISS3 (Feb 2007) renames L/Only to “B” and moves Phase to the first button. The firmware then reserves B (“previously L/only”).",
+    "src": "AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr"
+   },
+   {
+    "text": "The silk has only the control-area legends; the GREEN plate carries WARD-BECK SYSTEMS, AIP8-2A and the brackets over SOURCE / IN / OUT.",
+    "src": "AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr"
+   },
+   {
+    "text": "Every issue of the silk is stored twice, as a Backup_of_ copy beside the original.",
+    "src": "AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/Backup_of_AIP8-2A-FRONTSILK-ISS3-curve.cdr"
+   },
+   {
+    "text": "No AIP8-2A rear silk exists in the folder, so the rear is the AMS8-M2 silk (inferred).",
+    "src": "AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -9585,6 +12769,7 @@ window.SIM_CATALOG = [
    "The differing M1 DWG explained",
    "L/R speaker posts swapped in June 2002"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -9640,6 +12825,28 @@ window.SIM_CATALOG = [
    "M1/M2/M3 drawn to scale",
    "Two different M2 ISS 3 files found"
   ],
+  "footnotes": [
+   {
+    "text": "The front sheet has two plates. GREEN carries the wordmarks, the VU scale (-20 … 3, L, R) and a full-width stripe; WHITE carries MODE, SOURCE, 0°/180°, STEREO, LEFT, RIGHT and HEADSET.",
+    "src": "#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The green stripe along the bottom of the front breaks only where the white plate prints “SELECT SERIES”.",
+    "src": "#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear silk prints the MUTE block as “I O G” and the AES section as 1–4 across two euroblocks and two BNC pairs.",
+    "src": "#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M2-REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The rear silk (MAY 08/15) is six months older than the front (NOV.05/15), and both predate the ISS 3 rear drilling of 2016-06-24.",
+    "src": "#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M2-REAR-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The AMA-4 rear warning reads “115-230 VAC, 1 A.S.B”, unlike the AMX9A’s 100-240 VAC.",
+    "src": "#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M2-REAR-SILK(CURVE).cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -9694,6 +12901,32 @@ window.SIM_CATALOG = [
    "PCB view rendered from the 1999 Tango file",
    "Findings: a corrupted AMX9.PCB copy and two power amps where the schematic has one"
   ],
+  "footnotes": [
+   {
+    "text": "AMX6SILK.CDR is stored twice, byte for byte: in SILK/ and in AMX6 - #SILK/.",
+    "src": "#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/AMX6 - #SILK/AMX6SILK.CDR"
+   },
+   {
+    "text": "One 17 × 11 in sheet holds three plates: front GREEN, front WHITE and rear WHITE, registered on drill crosshairs.",
+    "src": "#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR"
+   },
+   {
+    "text": "The front crosshairs mark seven knob centres exactly 1.00 in apart, plus one at the power-LED hole and one at the HEADSET jack.",
+    "src": "#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR"
+   },
+   {
+    "text": "The silk sheet has no outline for the IEC inlet, the speaker grilles or the rear terminal blocks; the simulator draws those from the photos and Amx6manu.cdr.",
+    "src": "#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR"
+   },
+   {
+    "text": "The silk is dated Aug 1998|31, ten months before the Tango PCB (Jun 1999|32).",
+    "src": "#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR"
+   },
+   {
+    "text": "The rear silk asks for a 1 A slow-blow fuse (“115 VAC, 1 A.S.B”) for a unit the manual rates at 25 VA (about 0.22 A).",
+    "src": "#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -9744,6 +12977,7 @@ window.SIM_CATALOG = [
    "AVM4-1 meter table and 6-slot multiplex",
    "14-step operator tutorial"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -9794,6 +13028,7 @@ window.SIM_CATALOG = [
    "Audio bus borrowing (RX0/RX1) ported from do_audio1/2",
    "RAV24 and RA24 builds of the same board; 0xCF remote frames"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -9843,6 +13078,7 @@ window.SIM_CATALOG = [
    "The controller's second: CAN polls, 1-Wire reads, AES reference blocks",
    "Finding: the concept became the FC6221A “problem” board"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -9892,6 +13128,16 @@ window.SIM_CATALOG = [
    "Harness mismatch between M8204 and M8205",
    "Signal on the pin over one second: tone, AES bits, supplies",
    "Finding: the CDR wiring sheet swaps the edge rows against the PDF"
+  ],
+  "footnotes": [
+   {
+    "text": "No panel artwork exists for the E8200 extenders: E8200D.cdr is a DB37-to-edge wiring sheet titled “E8200D MODULE EXTENDER”.",
+    "src": "#CUSTOM #SYSTEMS/XXX - CUSTOM - E8200 - #Engineering/E8200D.cdr"
+   },
+   {
+    "text": "On the pinout sheet the D8204A tally labels “(CONF TALLY)” and “(NO LOCK TALLY)” run past their cell into the next column.",
+    "src": "#CUSTOM #SYSTEMS/XXX - CUSTOM - E8200 - #Engineering/E8200D PINOUTS.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -9944,6 +13190,24 @@ window.SIM_CATALOG = [
    "10-step tutorial with live goals",
    "18 findings: rxflags,7 lock-out, v1.02 POD bug, pin moves, BOM mismatch"
   ],
+  "footnotes": [
+   {
+    "text": "On the POD19 rear silk only OUTPUT 1 and SDI INPUT carry a printed cross; OUTPUT 2 and SDI OUTPUT do not, and nothing says why.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr"
+   },
+   {
+    "text": "The panel art is a 2014|47 redraw (“Jun.25/14”), twelve years after the module’s ISS2; the 2001 original is POD19SLKv3.cdr.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19SLKv3.cdr"
+   },
+   {
+    "text": "The FINAL CURVE sheet has a Backup_of_ copy dated a day earlier (25 Jun 2014).",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/Backup_of_POD19-FRONT&REAR(FINAL CURVE) .cdr"
+   },
+   {
+    "text": "One sheet holds three plates: FRONT GREEN, FRONT WHITE and REAR WHITE; only the rear shows the DEMUX-1 BNCs.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -9995,6 +13259,24 @@ window.SIM_CATALOG = [
    "The v1.04 overrun trap that v1.05 fixed, reproduced",
    "22 findings incl. two different v1.05s and the half-PAL 1.03B"
   ],
+  "footnotes": [
+   {
+    "text": "No silkscreen file exists for the POD 19V; its panels survive only as the manual-cover drawing.",
+    "src": "#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr"
+   },
+   {
+    "text": "The POD 19V rear keeps the POD19 labels (OUTPUT 1, OUTPUT2, SDI OUTPUT, SDI INPUT) and never says “VIDEO”, although the DEMUX-2’s two outputs are composite video.",
+    "src": "#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr"
+   },
+   {
+    "text": "A fit-to-path “FUSE” label in the drawing is read back by libcdr as “FUSEFUSEFUSE”; it is left out of the simulator art.",
+    "src": "#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr"
+   },
+   {
+    "text": "The drawing spells “OUTPUT2” without the space used in “OUTPUT 1”.",
+    "src": "#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -10044,6 +13326,32 @@ window.SIM_CATALOG = [
    "SDI fields → lines → HANC packets → FIFO counts → AES3 bits",
    "Five firmware builds: v400, v201-4, v204, v203 (AMS8), v203-POD19",
    "21 findings: v400 = 2006 source, HD outputs not muted on cable loss, cut 0xE0 reply, dead swap"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear silk names the unit “AMS-81”, not AMS8-1.",
+    "src": "AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk-CURVE.cdr"
+   },
+   {
+    "text": "AMS81-DEMUX3rearsilk-CURVE.cdr is stored three times with identical bytes (TIM/SILK and two “Older Drawings” folders).",
+    "src": "AMS81 - #Master/AMS8 - #Engineering/SILK/Older Drawings/AMS81-DEMUX3rearsilk-CURVE.cdr"
+   },
+   {
+    "text": "The 2005 non-curve original and its Backup_of_ copy are older and smaller than the 2006 CURVE file.",
+    "src": "AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk.cdr"
+   },
+   {
+    "text": "The rear silk carries labels only; the connector outlines come from the 2009 REARVIEW drawing, which shares the same 19 × 5 in sheet origin and registers exactly.",
+    "src": "AMS81 - #Master/AMS8 - #Engineering/PANEL VIEWS/AMS81-DEMUX3-REARVIEW.cdr"
+   },
+   {
+    "text": "AMS81-DEMUX3-REARVIEW.cdr is stored twice, byte for byte (PANEL VIEWS and AMS8E - #PANEL VIEWS #MANUAL).",
+    "src": "AMS81 - #Master/AMS8 - #Engineering/AMS8E - #PANEL VIEWS #MANUAL/AMS81-DEMUX3-REARVIEW.cdr"
+   },
+   {
+    "text": "The DEMUX-3’s group-2 outputs (P3/P4) have no BNC on the AMS8-1 rear; whether they reach the AUX DB-25 is not in the files read.",
+    "src": "AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk-CURVE.cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -10095,6 +13403,7 @@ window.SIM_CATALOG = [
    "Reproduces the v100 bus collision and the start-up SDI flash (uncleared disctl)",
    "Measured main-loop pass ≈100–120 µs (not 150 cycles), EEPROM save ≈20 ms stall"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -10144,6 +13453,32 @@ window.SIM_CATALOG = [
    "RS-485 frames down to the bit, alternating XTM41 / DEMUX",
    "DEMUX-1 / -3 / -4 and firmware v100 / v101 / v102 compared",
    "Findings: the plate labels the firmware's only input “NOT USED”; SWAP ignored by DEMUX-4"
+  ],
+  "footnotes": [
+   {
+    "text": "On the rear silk the ground-screw hole is drawn through the end of the word “CAUTION”, so a printed panel would lose part of the N.",
+    "src": "#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Three small holes under the front button row have no part behind them in any drawing read.",
+    "src": "#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The front sheet (“NOV.10/15”) and the rear sheet (“May 08/15”) were finished six months apart.",
+    "src": "#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Both CorelDRAW sheets carry the panel geometry (holes, cut-outs) as a separate black hairline layer under the GREEN and WHITE ink plates.",
+    "src": "#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-FRONT-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The rear silk labels the DEMUX opening only by its neighbours; the DEMUX plate labels come from the photos, not the silk.",
+    "src": "#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The front silk meter scale reads −34 … +12, while the functional drawing says −27 … +12.",
+    "src": "#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/DMS-1-FRONT-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -10195,6 +13530,7 @@ window.SIM_CATALOG = [
    "Interlocked switch banks",
    "LM317LZ drop-out finding"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -10245,6 +13581,7 @@ window.SIM_CATALOG = [
    "Light-bar current-source revision",
    "Bridged-speaker finding"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -10296,6 +13633,24 @@ window.SIM_CATALOG = [
    "Front panel to scale from MM445-1.DWG with the 445SILK artwork; dock, battery, LK2/LK3, KS0001–KS0003",
    "Finding: the manual’s LK2/LK3 instructions give +8 dBu, not 0 dBu"
   ],
+  "footnotes": [
+   {
+    "text": "M445SILK.CDR (31 May 1999) is eight months newer than 445SILK.DWG but its 103 live-text objects cannot be read by libcdr: the panel labels come out empty.",
+    "src": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive/MECHANIC/M445SILK.CDR"
+   },
+   {
+    "text": "The readable CDR strings are byte-swapped UTF-16: “䑁啊呓…” decodes to “ADJUST TO MEASURE 10.000 INCHE[S]” and “㑍㔴…” to “M445 EXTENDED RANGE METE[R]”.",
+    "src": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive/MECHANIC/M445SILK.CDR"
+   },
+   {
+    "text": "There is no curve copy of the M445 CorelDRAW silk, so the simulator keeps the 1998 DWG art, which has every legend.",
+    "src": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive/MECHANIC/445SILK.DWG"
+   },
+   {
+    "text": "M445SLKR.CDR holds only a corner bracket, two large rings, one small ring and two LED marks, with no title.",
+    "src": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive/MECHANIC/M445SLKR.CDR"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -10346,6 +13701,7 @@ window.SIM_CATALOG = [
    "Crowbar and current-limit tutorial",
    "The “Filtran” drawings are WBS originals"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -10395,6 +13751,24 @@ window.SIM_CATALOG = [
    "Diode-OR sharing and a unit failure in slow motion",
    "+VD derived through R250SA1",
    "Mechanics-only folder: what the box contained"
+  ],
+  "footnotes": [
+   {
+    "text": "M8246M3.CDR (Mar 23 1999), the silk the 2012 M8246M3 front drawing points to, holds a 1.835 × 1.68 in plate with a Ø0.79 in circle, two boxes and two earth symbols: it does not match the 4.980 × 2.200 in front it is named after.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/M8246/M8246M3.CDR"
+   },
+   {
+    "text": "All text in the 1999 CorelDRAW 5 silks (M8246M3.CDR, M82463M.CDR) is unreadable to libcdr: the words survive only in the archive sidecar (“M8246 POWER SUPPLY”, “115/230 VAC”, “AC”, “DC”, caution).",
+    "src": "#CONSOLES - #OBSOLETE #Archive/M8246/M82463M.CDR"
+   },
+   {
+    "text": "The same small plate appears a week earlier, about 5 % smaller, in the frame folder's MF250S.CDR (Mar 17 1999).",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MF250/MF250S.CDR"
+   },
+   {
+    "text": "The 2012 M8246M3 front drawing has one .250 in hole at (1.850, .410) while the 1999 silk text names both “AC” and “DC” indicators.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/XXX - M8246 - R2K CONSOLE PSU #Master #OBSOLETE/M8246 - #Mechanical #Obsolete/M8246M3 ISS 1 (POWER SUPPLY FRONT).pdf"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -10446,6 +13820,24 @@ window.SIM_CATALOG = [
    "Outer brackets (MF250M9) and blank panel",
    "Template ghosts and a wrong-part layout file"
   ],
+  "footnotes": [
+   {
+    "text": "MF251S1.CDR (Mar 16 1999) is the rear power silk (“MF251 CONSOLE POWER”, AC1, AC2, 115/230 VAC, caution), but libcdr recovers only its earth symbols and crosshairs; the text exists only in the archive sidecar.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MF250/MF251S1.CDR"
+   },
+   {
+    "text": "MF250S.CDR (Mar 17 1999) is a 1.74 × 1.59 in plate with a Ø0.75 in circle: the same small plate as M8246M3.CDR, not an MF250 panel.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MF250/MF250S.CDR"
+   },
+   {
+    "text": "The silks are named MF251 while every metalwork sheet is MF250Mx: the MF251 is the assembled frame with its PCB.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MF250/MF251.PCB"
+   },
+   {
+    "text": "MF250M5's revision table dates issue 1 “NOV. 31st 1999”, a day that does not exist.",
+    "src": "#CONSOLES - #OBSOLETE #Archive/XXX - MF250 - FRAME FOR R2K PSU #Mechanical #Obsolete/Not in ERP/MF250M5 ISS 2 (REAR HOUSING).pdf"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -10490,11 +13882,37 @@ window.SIM_CATALOG = [
   "year": 2007,
   "summary": "1RU 5.1 meter and monitor level control: six channel encoders (L R C LFE LS RS) and a master with 25-LED rings, eight 22-LED bargraphs and two presets. Its firmware (front V205, main board V106) is the MLC8A code with the two hidden channels started at 120 and the input termination taken away from the panel.",
   "highlights": [
-   "Panel rebuilt from mlc6A-SILK.cdr (converted, labels re-anchored on the photo)",
+   "Vector panel from MLC6A-FRONT-SILK(CURVE).cdr (2016) with its drilled holes; rear from the 2010 CorelDRAW drawing",
    "Hash + diff against the MLC8A tree: two changed lines in the front code",
    "Termination select that leads nowhere; 110 Ω inputs locked out in the released main board",
    "Switchable builds V204/V205 and V105/V106/working with the real differences",
    "Every knob turn traced to the #…$ bytes, the FPGA and the SHARC; ring slots 7/8 scanned for nothing"
+  ],
+  "footnotes": [
+   {
+    "text": "The 2016 front silk has only six channel holes (L R C LFE LS RS) and no 5.1/ST buttons, although the shared MLC8A firmware still scans encoders 7/8.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The newest MLC6A silk (JUN.24/16) is filed under Obsolete in the shared MLC6 & MLC8 artwork folder, beside a live-text twin of the same date.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK.cdr"
+   },
+   {
+    "text": "The 2007 mlc6A-SILK.cdr exists in two folders plus a Backup_of_ copy; its live text cannot be placed by libcdr.",
+    "src": "#MLC - #SERIES/MLC8 #Engineering #TIM/MLC6A/Backup_of_mlc6A-SILK.cdr"
+   },
+   {
+    "text": "The curve sheet adds a black mechanical layer: 600 px (3.0 in) meter window, 0.685 in knob holes, 0.935 in MASTER hole, two 0.34 in PRESET cut-outs and twelve screw holes; the photo-measured screws were up to 18 px off.",
+    "src": "#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/Obsolete/MLC6A-FRONT-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The 2010 front-and-rear illustration uses live text: as converted, its captions overlap (“75 Ohm AES REF. INPUT” over “4 x 75 Ohm AES INPUTS”, “MLC-6A” over “MULTICHANNEL LEVEL CONTROL”), so only the rear connector labels are used.",
+    "src": "#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive/MLC6A (Front & Rearview).cdr"
+   },
+   {
+    "text": "The rear illustration shows a DB-25 “AUX” marked “PLEASE REFER TO MANUAL”, but there is no MLC6A manual in the archive.",
+    "src": "#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive/MLC6A (Front & Rearview).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -10546,6 +13964,7 @@ window.SIM_CATALOG = [
    "Speaker fold-down and amplifier headroom",
    "Mis-named and duplicated drawing files"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -10596,6 +14015,32 @@ window.SIM_CATALOG = [
    "AES3 output at half-bit level, including the splice at a switch",
    "11-step operator tutorial with live goals",
    "“Audio 7” enables five receivers; F0 C0/C7 swapped against the manual"
+  ],
+  "footnotes": [
+   {
+    "text": "The 6-input POD10 front silk (AUG.13/10) is filed in the POD10A artwork folder, not with the POD10.",
+    "src": "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR"
+   },
+   {
+    "text": "Its “PODS” is a substituted sans converted to curves, 303 px wide at 200 dpi: as drawn it runs over the green bar and “by Ward-Beck Systems”, unlike the rounded logotype on the built panels.",
+    "src": "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR"
+   },
+   {
+    "text": "The sheet's title block reads “PO10-FRONT-SILK” (the D is missing).",
+    "src": "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR"
+   },
+   {
+    "text": "Every file named POD10-REAR in POD10 - #SILK and #Master/ARTWORK is the 8-input POD10A rear; the only 6-input rear silk is OLD ISSUSES/POD10SLK.CDR (live text, saved Oct 1 2015).",
+    "src": "#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10SLK.CDR"
+   },
+   {
+    "text": "POD10SLK.CDR draws no outline or connector holes on the rear: only labels and two mounting crosshairs, so the terminal strips, DE9, fuse and cord are placed from the POD10.pdf illustration.",
+    "src": "#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10.pdf"
+   },
+   {
+    "text": "The folder name “OLD ISSUSES” is misspelled.",
+    "src": "#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10SLK.CDR"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -10648,6 +14093,28 @@ window.SIM_CATALOG = [
    "Finds the swapped lamp-test labels and the CONSUMER/PRO inversion",
    "Answers where POD11A's firmware is (SLM-1D, not POD3A)"
   ],
+  "footnotes": [
+   {
+    "text": "POD11SLK.CDR (Aug 29 1997) has no panel outline or cut-outs, only hairline crosshairs at the two mounting screws and two small holes left of the bars; all 43 text objects are live Arial whose positions libcdr loses.",
+    "src": "#POD #SERIES/XXX - POD11 - #Master  #OBSOLETE/POD11 - #SILK/POD11SLK.CDR"
+   },
+   {
+    "text": "A second POD11SLK.CDR three days older (Aug 26 1997) sits with the ISS2 PCB and differs from byte 5 onwards.",
+    "src": "#POD #SERIES/XXX - POD11 - #Master  #OBSOLETE/POD11 - #PCB #OBSOLETE/ISS2/POD11SLK.CDR"
+   },
+   {
+    "text": "POD11LYO.CDR (Aug 1997) is captioned “POD-3 AES/EBU MONITOR” and has NO LOCK and OUT OF RANGE lamps: a layout copied from the POD3.",
+    "src": "#POD #SERIES/XXX - POD11 - #Master  #OBSOLETE/POD11 - #MANUAL #Obsolete/POD11LYO.CDR"
+   },
+   {
+    "text": "POD11A-Silk-iss2.cdr is stored both in the obsolete POD11 silk folder and in the POD11A artwork folder (same size and date).",
+    "src": "#POD #SERIES/XXX - POD11 - #Master  #OBSOLETE/POD11 - #SILK/POD11A-Silk-iss2.cdr"
+   },
+   {
+    "text": "No photo of the POD11 is archived; the lettering positions come from POD11MAN.CDR.",
+    "src": "#POD #SERIES/XXX - POD11 - #Master  #OBSOLETE/POD11 - #MANUAL #Obsolete/POD11MAN.CDR"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -10698,6 +14165,32 @@ window.SIM_CATALOG = [
    "SRC locks INPUT A to INPUT B’s clock; the 192 kHz failure explained",
    "The POD12A firmware the POD12A folder says does not exist"
   ],
+  "footnotes": [
+   {
+    "text": "The newest POD12A sheet (Jun.19/14, saved Jun 17 2016) carries a pure-black mechanical layer (outline, rocker cut-out, ten LED holes, BNC/XLR rings, DIP window, IEC opening) on every plate, separate from the ink.",
+    "src": "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Only two of the ten front LED holes, PWR and INPUT 1 LOCK, carry the ⊕ crosshair (with the mounting screws), on both front plates.",
+    "src": "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "POD12A-FRONT(FINAL CURVE).cdr is byte-identical in three folders (POD12A - Artwork, POD12A ARTWORK #DA #2016, POD12 - #SILK).",
+    "src": "#POD #SERIES/XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #SILK/POD12A-FRONT(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The 75/110 rear silk exists in three different saves: Jan 2014, May 2015 and Jun 2016.",
+    "src": "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-75-110-REAR SILK(FINAL CURVE).cdr"
+   },
+   {
+    "text": "The rear's terminal block is legended “BALANCED IOS” and the mains line ends with a stray comma: “100-230 VAC, 50-60 Hz,”.",
+    "src": "#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The only original POD12 silk is POD12SLK.CDR (Mar 1998) in Obsolete; everything else in POD12 - #SILK is POD12A art.",
+    "src": "#POD #SERIES/XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #SILK/Obsolete/POD12SLK.CDR"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -10747,6 +14240,28 @@ window.SIM_CATALOG = [
    "Silk panels from POD13SLK.CDR with working LVL/EQ buttons and pluggable inputs",
    "CS8412 error codes, AES3 frames with the V bit, and cable reach with and without EQ",
    "Shows that the POD13A Atmel and Lattice V100 firmware is archived in this folder"
+  ],
+  "footnotes": [
+   {
+    "text": "POD13SLK.CDR (Feb 16 1998) is the only POD13 silk; libcdr reads its 48 text objects as garbled double-byte strings stacked at one point, so all lettering here is re-set.",
+    "src": "#POD #SERIES/XXX - POD13 - #Master #OBSOLETE/POD13 - #SILK/OBSOLETE/POD13SLK.CDR"
+   },
+   {
+    "text": "The POD13 sheet sets “PODS” in live Hobo text; the logo, green bars and tagline are taken from the 2015 POD13A sheet, which registers with the POD13 green plate to within a pixel.",
+    "src": "#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "POD13 front drill crosshairs mark the PWR lamp and the four LVL/EQ buttons but none of the EQ-ON, NO LOCK and LOCK lamps.",
+    "src": "#POD #SERIES/XXX - POD13 - #Master #OBSOLETE/POD13 - #SILK/OBSOLETE/POD13SLK.CDR"
+   },
+   {
+    "text": "POD13ASLK-V10.cdr is stored twice (POD13 - #SILK and the POD13A artwork folder); POD13 - #SILK otherwise holds only POD13A art (iss2, iss2curve, iss2sticker, RR-iss3).",
+    "src": "#POD #SERIES/XXX - POD13 - #Master #OBSOLETE/POD13 - #SILK/POD13ASLK-V10.cdr"
+   },
+   {
+    "text": "The POD13 rear silk reads “115 VAC, 1/2 A S.B.” while the POD13A sheet reads “90-230 VAC, 50-60 Hz, ½ A.S.B.”.",
+    "src": "#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -10799,6 +14314,36 @@ window.SIM_CATALOG = [
    "ISS1/ISS2 board differences, incl. the crossed outputs",
    "How POD14 became POD14A"
   ],
+  "footnotes": [
+   {
+    "text": "The newest copy of the POD14 silk (2001-03-21) is filed in the POD4 folder, not the POD14 one.",
+    "src": "#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD14SLK_CURVE.cdr"
+   },
+   {
+    "text": "The POD14 folder's copy of the silk (2001-02-27) lacks the “+ - G” polarity legends over the lower input blocks, REFERENCE INPUT and both outputs; the March copy adds them.",
+    "src": "#POD #SERIES/XXX - POD14 - #Master #OBSOLETE/POD14 - #Engineering/SILK/OBSOLETE/POD14SLK_CURVE.cdr"
+   },
+   {
+    "text": "The March 2001 silk moves the INPUT1 / INPUT2 captions right by about 0.03 in and the RIGHT caption down by about 0.08 in.",
+    "src": "#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD14SLK_CURVE.cdr"
+   },
+   {
+    "text": "The trim letters R / L on the rear are live text in the CorelDRAW file; everything else is curves.",
+    "src": "#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD14SLK_CURVE.cdr"
+   },
+   {
+    "text": "The silk prints a CAL LED label, but the 2008 front drawing (issue 2) has no hole under it and adds one under SAMPLE RATE where POD14A puts 192 kHz.",
+    "src": "#POD #SERIES/XXX - POD14 - #Master #OBSOLETE/POD14 - #Engineering/POD14 - #MECHANICAL/POD14-FRT.pdf"
+   },
+   {
+    "text": "Pod14-REAR.pdf is titled POD14A-REAR but dated 16-03-01, i.e. the POD14.",
+    "src": "#POD #SERIES/XXX - POD14 - #Master #OBSOLETE/POD14 - #Engineering/POD14 - #MECHANICAL/Pod14-REAR.pdf"
+   },
+   {
+    "text": "The SILK folder's POD14A-SILK*.cdr files are POD14A artwork, filed under the obsolete POD14.",
+    "src": "#POD #SERIES/XXX - POD14 - #Master #OBSOLETE/POD14 - #Engineering/SILK/OBSOLETE/POD14A-SILK-curve.cdr"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -10849,6 +14394,28 @@ window.SIM_CATALOG = [
    "Issue 1 vs issue 3 board differences from the netlists",
    "Four redrawn schematic sheets with real net names"
   ],
+  "footnotes": [
+   {
+    "text": "The 2014 curve silk is the same face as the 2010 ISS3 file with its text converted to curves; the ISS3 file's live text comes out scrambled.",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The 2014 silk's rear power legend reads “90-230 VAC, 50-60 Hz, ½ A.S.B.”; the ISS3 file says “100-240 VAC” and the manual still says 115 V AC/60 Hz.",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "Pd15Asilk-ISS3.cdr is stored twice, in the POD15 SILK folder and in the POD15A #ARTWORK folder.",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/Pd15Asilk-ISS3.cdr"
+   },
+   {
+    "text": "The VIDEO MONITOR output is a D-shaped BNC cut-out on the front, at 7.78 in.",
+    "src": "#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "The 1999 POD15 silk converts only its green bar layer; its text does not survive.",
+    "src": "#POD #SERIES/XXX - POD15 - #Master #Obsolete/POD15 - #Engineering/SILK/OBSOLETE/PD15SILK.CDR"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -10898,6 +14465,24 @@ window.SIM_CATALOG = [
    "DAC daisy chain shifted bit by bit, VCA gains and the output waveform",
    "11-step operator tutorial from the manual",
    "18 findings: table names vs fade laws, lost timer matches, RAM in program space, bank-unsafe ISR"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear silk keeps the DE-9 cut-out for the RS422 option although U1/U2 (75176) are “not installed”.",
+    "src": "#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr"
+   },
+   {
+    "text": "The silk puts CUT at the counter-clockwise end of FADE TIME and 2SEC clockwise; the schematic's CW mark on RV1 suggests the opposite.",
+    "src": "#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr"
+   },
+   {
+    "text": "The 1999 silk converts only the bars, the three fade symbols and the drill crosshairs; its text is lost.",
+    "src": "#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #Engineering/SILK/POD16SLK.CDR"
+   },
+   {
+    "text": "The 2014 artwork sheet is dated Jun.25/14, although the POD16 itself dates from 1998|31.",
+    "src": "#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr"
+   }
   ],
   "depth": "Full model",
   "tabs": [
@@ -10950,6 +14535,28 @@ window.SIM_CATALOG = [
    "Bit-level MM5450 display frames and PIC→SHARC words",
    "Findings: inverted A/D lever, swapped address bits, the missing POD23 master"
   ],
+  "footnotes": [
+   {
+    "text": "The only curve version of the POD22 silk (Sep 2002) is a rear panel alone and names DIP levers 7–8 AUTO / MAN; the Jan 2003 silk calls them A0 / A1.",
+    "src": "#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-S2curve.cdr"
+   },
+   {
+    "text": "The Jan 2003 silk keeps every label as live Arial text; libcdr loses its alignment and lays the 41 rotated scale numbers flat.",
+    "src": "#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-Silk.cdr"
+   },
+   {
+    "text": "POD22-Silk-iss2.cdr (2006) already carries the 52 … +20 scale of the later POD22A.",
+    "src": "#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-Silk-iss2.cdr"
+   },
+   {
+    "text": "The 2002 mechanical drawings call for silkscreen “#POD22A-FRONT&REAR-SILK”, a name from the later product.",
+    "src": "#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr"
+   },
+   {
+    "text": "MANUAL/Backup_of_Pod22manu.pdf is a “POD 9 VIDEO SWITCHER” page.",
+    "src": "#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/MANUAL/Backup_of_Pod22manu.pdf"
+   }
+  ],
   "depth": "Full model",
   "tabs": [
    {
@@ -11000,6 +14607,40 @@ window.SIM_CATALOG = [
    "Speaker power and TDA1521 clipping",
    "Two schematic pages redrawn with real part names"
   ],
+  "footnotes": [
+   {
+    "text": "The front silk marks CH 1, STEREO/MONO and HEADSET holes with drilling cross-hairs, but the CH 2 pot hole is a plain circle with no cross-hair (hole E, the one enlarged from .167 in 2008).",
+    "src": "QSP  - #Master #OBSOLETE/QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-FRONT-SILK(CURVE).CDR"
+   },
+   {
+    "text": "STEREO/MONO is not a word pair on the panel: it is a push-button symbol, button up for STEREO and pressed for MONO, with the two words stacked beside it.",
+    "src": "QSP  - #Master #OBSOLETE/QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-FRONT-SILK(CURVE).CDR"
+   },
+   {
+    "text": "The rear silk prints “+ − G / INPUT” only under the CH 2 cut-out; CH 1 shares that legend, and the third cut-out (13.850 in) has no legend at all.",
+    "src": "QSP  - #Master #OBSOLETE/QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-REAR-SILK (CURVE).CDR"
+   },
+   {
+    "text": "An unlabelled round hole sits beside the IEC inlet under “115 VAC, 1 A.S.B”; the silk names no fuse holder or switch for it.",
+    "src": "QSP  - #Master #OBSOLETE/QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-REAR-SILK (CURVE).CDR"
+   },
+   {
+    "text": "The front sheet is dated nowhere; the rear sheet is dated MAY 13/16, five weeks before the rear drawing’s “JUN.28/16 STUD CHANGED” revision.",
+    "src": "QSP  - #Master #OBSOLETE/QSP & QSP-XLR - #ARTWORK #DA #2016/QSP-REAR-SILK (CURVE).CDR"
+   },
+   {
+    "text": "The 2016 silks (QSP-FRONT-SILK.CDR / (CURVE).CDR) are the third generation: QSPSILK.CDR (file date 2016-05-10) and QSPOUTS.CDR / QSPBACKS.CDR (May 1998) hold the same legends as loose items, not registered on a panel outline.",
+    "src": "QSP  - #Master #OBSOLETE/QSP - #OBSOLETE #Archive/QSP - #SILK/QSPSILK.CDR"
+   },
+   {
+    "text": "QSP6FRONTSILK.cdr is stored twice: once in qsp6/ and again in the console module folder #CONSOLES - #OBSOLETE #Archive/MODULES/R208/ beside a PDF of it, suggesting the QSP6 face was reused on the R208 console module (<span class=\"tag-inf\">inferred</span> from the folder).",
+    "src": "#CONSOLES - #OBSOLETE #Archive/MODULES/R208/QSP6FRONTSILK.cdr"
+   },
+   {
+    "text": "QSP6REARSILK.cdr labels a MINI DISK / PC output pair and six LEFT/RIGHT INPUTs, and its one-line caution runs past the right edge of the page (“…FUSE OR SER”).",
+    "src": "QSP  - #Master #OBSOLETE/QSP - #OBSOLETE #Archive/qsp6/QSP6REARSILK.cdr"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -11048,6 +14689,28 @@ window.SIM_CATALOG = [
    "Debounce and relay latch timing from the main loop",
    "The 0xCF remote protocol, including rejected frames",
    "Main loop stepped routine by routine"
+  ],
+  "footnotes": [
+   {
+    "text": "The RA24 silk has no panel outline: four separations (green logo row, green bars, white legends, rear white) placed only by crop marks.",
+    "src": "#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/RA24/RA24SILK.CDR"
+   },
+   {
+    "text": "The rear legends number inputs 1–12 and outputs 1–2 with “+ - G” under each but draw no connector outlines.",
+    "src": "#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/RA24/RA24SILK.CDR"
+   },
+   {
+    "text": "The front carries the WBS mark and the brand line “SELECT SERIES”.",
+    "src": "#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/RA24/RA24SILK.CDR"
+   },
+   {
+    "text": "The 2012 RA24 DWGs carry text from other drawings (ABB-M1, POD10-REAR, AMS8-M1, “POWDER COAT BEIGE”).",
+    "src": "#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/XXX - RA24 - #Mechanical #Obsolete/RA24-FRONT ISS 2 (PANEL).pdf"
+   },
+   {
+    "text": "The RA24 manual is kept twice as CorelDRAW (Ra24manu.cdr and an older Backup_of_Ra24manu.cdr).",
+    "src": "#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/RA24/Backup_of_Ra24manu.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -11099,6 +14762,7 @@ window.SIM_CATALOG = [
    "ASCII RS-232 console (#000H$ …)",
    "Main loop stepped routine by routine"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -11150,6 +14814,7 @@ window.SIM_CATALOG = [
    "What-ifs for the unused PEAK mode, old time constants and the bug fixes",
    "RLM24, analog RLM-12 and RLM2 rear panels from the real silks"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -11198,6 +14863,24 @@ window.SIM_CATALOG = [
    "VU bar + PPM dot with Type 1/2 decay and 3 s peak hold",
    "LOCK and PCM / Dolby E / Dolby D indicators",
    "Mechanical assembly: enclosure, rear cover, lens, 15° base"
+  ],
+  "footnotes": [
+   {
+    "text": "The lens silk has no bar number “1”, in the curve version too; it is redrawn.",
+    "src": "#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK(CURVE).cdr"
+   },
+   {
+    "text": "The lens has four corner fixing holes with crosshairs.",
+    "src": "#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK(CURVE).cdr"
+   },
+   {
+    "text": "Custom SLM8 fronts for job 552728 exist (slm8frontss, V2, CURVE versions and backups, Dec 2003 – Feb 2004).",
+    "src": "#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/552728/slm8frontssV2CURVE.cdr"
+   },
+   {
+    "text": "No SLM8 front or rear panel silk exists; the enclosure is plain metalwork.",
+    "src": "#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete/Silks/SLM8-1M3-SILK.cdr"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -11249,6 +14932,7 @@ window.SIM_CATALOG = [
    "80 Hz L/R LED multiplex and MM5450 shift frames",
    "Calibration DIP switches traced into the SHARC gain table"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -11299,6 +14983,7 @@ window.SIM_CATALOG = [
    "Firmware versions v1.00 to v103 selectable, including the LED test",
    "Findings: an address-instead-of-data sync check, table overruns, crossed comments"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -11348,6 +15033,7 @@ window.SIM_CATALOG = [
    "Card-edge net naming (A–N without G, I)",
    "The #PROBLEM explained from the files"
   ],
+  "footnotes": [],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -11399,6 +15085,7 @@ window.SIM_CATALOG = [
    "Battery and charging thresholds from adconv~3.asm",
    "Findings: stale protocol comments, mirrored button nets, WDT reset trick"
   ],
+  "footnotes": [],
   "depth": "Full model",
   "tabs": [
    {
@@ -11449,6 +15136,36 @@ window.SIM_CATALOG = [
    "Balanced hot/cold legs and 60 Ω build-outs",
    "Findings from the BOMs and the 2015 RD82 redesign"
   ],
+  "footnotes": [
+   {
+    "text": "The issue-2 rear silk outlines the IEC inlet cut-out centred at 7.42 in, about 0.45 in left of detail D on the mirrored POD8-REAR ISS 4 drawing; the simulator follows the silk.",
+    "src": "#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8-rearSILK-iss2.cdr"
+   },
+   {
+    "text": "The 1997 front silk's text is byte-swapped by libcdr; decoded, it reads “by Ward-Beck Systems”, “PODS”, “OUTPUT LEVEL ADJUST”, “POD-8  STEREO AUDIO DA”, LEFT, RIGHT, INPUT. Their positions are lost.",
+    "src": "#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8SILK.CDR"
+   },
+   {
+    "text": "The 1997 silk's own rear plate converts only four crosshairs; its decoded text includes “115 VAC, 1/2 A.S.B.” and “DISCONNECT POWER / BEFORE SERVICING”.",
+    "src": "#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8SILK.CDR"
+   },
+   {
+    "text": "The rear issue-2 caution text (“CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE”) is one multi-line live-text block.",
+    "src": "#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8-rearSILK-iss2.cdr"
+   },
+   {
+    "text": "“POD8A-FRONT & REAR-PHX FINAL CURVE.cdr” in the POD8 SILK folder is the 16-output POD8A face, not POD8.",
+    "src": "#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/POD8A-FRONT & REAR-PHX FINAL CURVE.cdr"
+   },
+   {
+    "text": "POD8A-FRONT&REAR-XLR-SILK.cdr is stored twice (ARTWORK and BLACK RACK folders).",
+    "src": "#POD #SERIES/POD8A - #Master/POD8A - BLACK RACK - #Mechanical #DA #2016/POD8A-FRONT&REAR-XLR-SILK.cdr"
+   },
+   {
+    "text": "POD8-REAR ISS 4 is an inside view (IEC on the left), mirrored from the silk.",
+    "src": "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - OBSOLETE/POD8 - MECHANICAL/POD8-REAR ISS 4 (PANEL).pdf"
+   }
+  ],
   "depth": "Hardware model",
   "tabs": [
    {
@@ -11497,6 +15214,28 @@ window.SIM_CATALOG = [
    "VU + peak bars with loss-of-signal and silence alarms",
    "GPO/alarm logic from TRANSLATE_INPUTS_ALARMS()",
    "TDM chain arithmetic (24.576 MHz) and the 102 400-baud link"
+  ],
+  "footnotes": [
+   {
+    "text": "The rear silk groups the 24 inputs in fours (0.544 in pitch, 0.77 in between groups) under two long cut-outs, one per row of 12.",
+    "src": "#RLM #SERIES/XXX - RLM  - #Master #obsolete/RLM - #OBSOLETE #Archive/SILK/RLM24REARCURVE.cdr"
+   },
+   {
+    "text": "The rear supply legend reads “90-230 VAC, 1A S.B.” with a dual-cord caution, “DISCONNECT BOTH AC POWER SOURCES”.",
+    "src": "#RLM #SERIES/XXX - RLM  - #Master #obsolete/RLM - #OBSOLETE #Archive/SILK/RLM24REARCURVE.cdr"
+   },
+   {
+    "text": "The rear silk prints “WARD-BECK SYSTEMS LTD MADE IN CANADA RLM-24” and a CE mark.",
+    "src": "#RLM #SERIES/XXX - RLM  - #Master #obsolete/RLM - #OBSOLETE #Archive/SILK/RLM24REARCURVE.cdr"
+   },
+   {
+    "text": "The netlist value of the crystal is “24.578M”; the TDM arithmetic needs 24.576 MHz.",
+    "src": "#RLM #SERIES/XXX - RLM  - #Master #obsolete/RLM - #OBSOLETE #Archive/RLM24-2/PCB/rlm24-2ISS2.net"
+   },
+   {
+    "text": "init_ADG1895() initialises the AD1895 rate converters (typo in the name).",
+    "src": "#RLM #SERIES/XXX - RLM  - #Master #obsolete/RLM - #OBSOLETE #Archive/software/Atmel/RLM24/v101/v101.c"
+   }
   ],
   "depth": "Hardware model",
   "tabs": [

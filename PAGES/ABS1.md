@@ -16,7 +16,7 @@ tags: ["product", "buddies", "2010s"]
 |---|---|
 | Type | product |
 | Series | [BUDDIES](Series-BUDDIES.md) |
-| Try it | [full simulation: ABS1](../siumulation.html?plugin=abs1) · [simulator & front panel](../simulator.html?m=ABS1) · [KiCad symbol generator](../kicad.html?m=ABS1) · [download package (zip)](../_packages/ABS1.zip) |
+| Try it | [full simulation: ABS1](../siumulation.html?plugin=abs1) · [KiCad symbol generator](../kicad.html?m=ABS1) · [download package (zip)](../_packages/ABS1.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jan.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/Buddies/ABS1 Manual(1).docx |
 | Confidence | medium |
@@ -29,7 +29,7 @@ tags: ["product", "buddies", "2010s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="ABS1" data-n="Audio Bit Spitter Portable Digital/Analog Audio Generator" data-cat="BUDDIES"></div><svg class="wbs-panel" data-m="ABS1" data-n="Audio Bit Spitter Portable Digital/Analog Audio Generator" data-cat="BUDDIES" role="img" aria-label="ABS1 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"ABS1","title":"Audio Bit Spitter Portable Digital/Analog Audio Generator","rto":null,"parts":[],"parents":[{"label":"microDriver","href":"microDriver.html","note":"on 4 drawings with it: Miniature Stereo Headpho"},{"label":"SLM","href":"SLM.html","note":"on 4 drawings with it: Series Stereo Loudness M"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="ABS1" data-n="Audio Bit Spitter Portable Digital/Analog Audio Generator" data-cat="BUDDIES"></div><svg class="wbs-panel" data-m="ABS1" data-n="Audio Bit Spitter Portable Digital/Analog Audio Generator" data-cat="BUDDIES" role="img" aria-label="ABS1 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"ABS1","title":"Audio Bit Spitter Portable Digital/Analog Audio Generator","rto":null,"parts":[],"parents":[{"label":"SLM","href":"SLM.html","note":"on 4 drawings with it: Series Stereo Loudness M"},{"label":"microDriver","href":"microDriver.html","note":"on 4 drawings with it: Miniature Stereo Headpho"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 <a id="software"></a>
 
@@ -112,59 +112,9 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2015 - ABS1 - Manual.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - ABS1 - Manual.docx](../Products/BUDDIES/ABS1/2015%20-%20ABS1%20-%20Manual.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "ABS1",
- "name": "Audio Bit Spitter Portable Digital/Analog Audio Generator",
- "category": "BUDDIES",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/BUDDIES/ABS1/2015 - ABS1 - Information Sheet.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/BUDDIES/ABS1/2015 - ABS1 - Manual (2).docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "modules",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/BUDDIES/ABS1/2015 - ABS1 - Manual.docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "modules",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/BUDDIES/ABS1/19xx - ABS1 - DOC - BitKit Marketing Sheet.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/MICRO SERIES/microDriver/19xx - microDriver - DOC - Commonly Requested Parts _ Accessories.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```
+1. ABS1SS.CDR and ABS1SSGR.CDR are CorelDRAW 5 files whose text libcdr reads byte-swapped and stacks at the page centre, so neither can supply the panel art; the simulator uses the manual's drawing. — `ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR`
+2. In the libcdr reading of ABS1SSGR.CDR every odd-length legend loses its last letter (RIGHT, AES/EBU, REF INPUT, AUDIO LEVEL…). — `ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR`
+3. ABS1SSGR.CDR (1998-10-14) holds the front plate twice, as two ink separations, plus the rear; the earlier ABS1SS.CDR (1998-01-09) holds one front and the rear. — `ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SS.CDR`
+4. The drill crosshairs, bars and LOCK bracket that survive in ABS1SSGR.CDR line up with the manual's panel drawing. — `ABS1 - #Master/ABS-1 - Bit Spitter - #Engineering/ABS1SSGR.CDR`

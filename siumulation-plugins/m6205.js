@@ -1001,7 +1001,41 @@ function viewFindings(m){
     card('Sources', `<ul class="small"><li>Software/m6205c200/atmel/v201: v100w.c, M6205A.c, altera.c/.h/.lis, CAN-05.c, Dashboard2.c, Dashboard1.h, M6205.h, common.h, gennum.c/.h, sharc.c/.h</li><li>Software/m6205c200/sharc/v104: sample.c, backgnd.c, RampAudio.c, volume_data.c, configdai.c, sample.h</li><li>Software/m6205c200/altera/v102: m6205c.qsf, m6205c.bdf, cntrl_tdm_if.vhd</li><li>Software/m6205c200: switching rules.doc, SOFTWARE HISTORY.xls; CUSTOM/M6205C200/V3.0.0.0 DipSwitchControl.doc; M6205c Dip Switch Settings.pdf; M6205-T6307.pdf; M6205-IO.pdf</li><li>PCB/GERBERS/M6205A-ISS4.TOP, .TSM, .TSS → assets/m6205-card-copper.png, m6205-card-silk.png; PCB/OBSOLETE/ISSUE4/M6205A-iss4.pnp, .net, .bom</li><li>M6205 - #TESTREPORT/M6205-C200-V3001-21MAR11.pdf; MANUAL/M6205A-3G/M6205A-3G.pdf</li><li>Software/M6205-NLC/ATMEL/v602/M6205: main.c, tasklist.c, apptask.c/.h, boardtype.h, M6205pack.txt, zeuslib/common/gearos.c</li></ul>`);
 }
 
-SIM.register({
+const FOOTNOTES = [
+ {
+  "text": "Card-edge and T6307 artwork (2026|59) is from M6205-card-edge-v10.cdr (2008-10-30) and PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr (2008-11-17), with the C200 T6307 drawing on a toggle.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-card-edge-v10.cdr"
+ },
+ {
+  "text": "The first card-edge drawing (2008-05-08) calls the bottom LED “COM Activity LED”; v10 (2008-10-30) renames it “META DATA LED”.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-card-edge.cdr"
+ },
+ {
+  "text": "The generic T6307 drawing labels position 4 “BNC4 (C, LFE)” — a connector number where every other BNC has a function name.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr"
+ },
+ {
+  "text": "The C200 T6307 drawing marks BNC 4, 5, 7 and blocks 6 and 8 “N/A”, but the C200 SHARC code still drives C/LFE and Ls/Rs on BNC 4 and 5.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205C200/V3.0.0.0/M6205-T6307.cdr"
+ },
+ {
+  "text": "The C100 T6307 drawing labels the same positions differently again: AES OUT2 on 4, AES OUT3 on 5, block 6 and BNC 7 N/A.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205C100/v1002/M6205-T6307.cdr"
+ },
+ {
+  "text": "Both the C100 and C200 folders keep a Backup_of_M6205-T6307.cdr beside their M6205-T6307.cdr.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/CUSTOM/M6205C200/V3.0.0.0/Backup_of_M6205-T6307.cdr"
+ },
+ {
+  "text": "M6205-T6307.pdf was printed from H:\\OPEN GEAR\\M62XX\\M6205\\PCB\\M6205-T6307.cdr on 2008-11-17 — the copy now in PCB/OBSOLETE/ISSUE4.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/M6205-T6307.pdf"
+ },
+ {
+  "text": "The generic T6307 drawing is captioned “MF6220 FRAME”; the CE manual pairs the T6307A with the DFR-8320.",
+  "src": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr"
+ }
+];
+SIM.register({footnotes:FOOTNOTES, 
   id:'m6205', product:'M6205', year:2008,
   name:'M6205 · openGear SDI embedded audio processor (2008|41)',
   family:'openGear', folder:'#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR',

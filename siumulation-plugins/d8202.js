@@ -14,7 +14,7 @@
    - D8202-ISS5 - #Assembly.pdf (P-CAD 2002 assembly drawing, 2010|43)
    - …/D8202MAN.WPD and d8202.pdf  (manual, 1999|32: Figs 1.1–1.3, specs, LEDs, EQ, mono jumpers)
    - …/PCB/OBSOLETE/ISS2/D8202.ASM, D8202.BOM  (1997|30 ISS2 design: CS8412, CS4329, 75176, jack)
-   - 8200 Series Rear Module options…/D8202 - rear module options.pdf  (TB8205P, TB8205P/75; 2012|45)
+   - 8200 Series Rear Module options…/D8202 - rear module options.cdr + .pdf  (TB8205P, TB8205P/75; 2012|45) → assets/d8202-rear-*.svg
        → assets/d8202-rear-tb8205p-black.png, d8202-rear-tb8205p75-black.png
    - …/D8202TR1.CDR, D8202TR3.cdr (older QC8200 / TB8205 / ST8200 / ST8201A terminal options,
        converted with Inkscape; text re-read from the converted SVG)
@@ -595,7 +595,10 @@ function frontSVG(t){
   s+=`<text x="4" y="389" font-size="9.5" fill="var(--ink2)">Edge 1.00″ × 2.75″ (manual) · heights from the Gerbers</text></svg>`;
   return s;
 }
-// TB8205P / TB8205P/75 terminals on the rear-module guide image (390 × 485, from the 2012 PDF at 150 dpi)
+// TB8205P / TB8205P/75 terminals on the CorelDRAW rear-module art (cell 390 × 485 = 150 px per inch).
+// Artwork 2026|59: assets/d8202-rear-tb8205p(75).svg = vectors of "D8202 - rear module options.cdr" (2012-01-16) taken through
+// Corel's own PDF export of it (libcdr turns the terminal-block glyphs into giant text); plate black, silk white.
+const RMG_DIR='#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/';
 const TERM_ROWS=[176.5,193,209,225.5,241.5,258,274.5,290.5,307];
 const TERMS = (function(){ const a=[];
   const L=['L1+','L1-','L2+','L2-','L3+','L3-','GND','GND','GND'], Rr=['R1+','R1-','R2+','R2-','R3+','R3-','CONF','NOLOCK','GND'];
@@ -603,7 +606,7 @@ const TERMS = (function(){ const a=[];
 function rearSVG(t){
   const p75=D.rear==='p75', xs=p75?[145.5,204.5]:[148,207], Ld=ledsAt(t), Lv=levels(), aud=audible(t);
   let s=`<svg viewBox="0 0 390 485" style="width:100%;max-width:390px;display:block;background:#fbfaf6;border-radius:6px" role="img" aria-label="Rear module">
-    <image href="${AS}d8202-rear-tb8205${p75?'p75':'p'}-black.png" x="0" y="0" width="390" height="485"/>`;
+    <image href="${AS}d8202-rear-tb8205${p75?'p75':'p'}.svg" x="0" y="0" width="390" height="485"/>`;
   const sig = sigPresent(t);
   if (p75){
     s+=`<g class="d82hot" data-act="plug" style="cursor:pointer"><title>INPUT BNC — click to plug / unplug</title><circle cx="187.5" cy="105" r="26" fill="transparent" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 3"/>${D.plugged?`<rect x="176" y="62" width="23" height="30" rx="3" fill="#3a3a3a"/><path d="M 187.5 62 C 187.5 30, 150 30, 140 4" stroke="#222" stroke-width="7" fill="none"/>`:''}<circle cx="187.5" cy="105" r="4" fill="${sig?'#3fbf5f':'#999'}"/></g>`;
@@ -620,7 +623,7 @@ function rearSVG(t){
     const sel = D.probe===T.id;
     s+=`<g class="d82hot" data-probe="${T.id}" style="cursor:pointer"><title>${tip}</title><rect x="${x-12}" y="${y-8}" width="24" height="16" fill="${sel?'rgba(31,122,77,.25)':'transparent'}" stroke="${sel?'var(--accent)':'transparent'}"/><circle cx="${x+15}" cy="${y}" r="3.2" fill="${col}"/></g>`;
   });
-  s+=`<text x="6" y="478" font-size="10" fill="#555">From “D8202 - rear module options.pdf” (2012|45). Dots: green = audio, red/amber = alarm OC on.</text></svg>`;
+  s+=`</svg><div class="small muted" style="max-width:390px">CorelDRAW art: ${SIM.src(RMG_DIR+'D8202 - rear module options.cdr','D8202 - rear module options.cdr')} (2012|45), via its Corel PDF ${SIM.src(RMG_DIR+'D8202 - rear module options.pdf','export')}. Dots: green = audio, red/amber = alarm OC on.</div>`;
   return s;
 }
 function bindPanel(root){
@@ -1195,6 +1198,7 @@ function viewFindings(m){
     ['Leftovers and copy-paste', 'INIT · read8420 s4', 'INIT loads <span class="mono">cs8420reg4def</span> twice. s4 comments address 6 as “address of receive error register”, but reg 6 is the serial output format. INIT\'s <span class="mono">CLRF PORTA</span> drops CS for one cycle with no clock (harmless). <span class="mono">stage</span> is never cleared before <span class="mono">bsf stage,0</span> (harmless: bit 0 is tested first). powerupdelay is only 256 × 3 cycles ≈ 0.77 ms; the MC34164 and the PIC\'s reset timer do the real waiting.'],
     ['Mono outputs are the same signal', 'D8202MAN.WPD “Mono Outputs” · d8202-ISS4.net NET00088 (U11-1, H3-3, H4-3)', 'The manual says the left and right trims affect mono outputs one and two respectively. In the netlist both headers take the one U11 node, (L+R)/2. Both mono outputs are identical, and each trim moves both.'],
     ['Board, manual and BOM disagree on names and colours', 'Gerber D8202-ISS5.SLK · D8202-ISS5.bom · manual “Status”', 'Silk says SIGNAL / CONF / ERROR; the manual says LOCK / CONFIDENCE / NO LOCK. The manual\'s EQ LED is green, but the BOM fits two YEL (CONF and EQ). On ISS5 the EQ LED sits beside SW1, away from the other three, not “at the bottom of the LED array”.'],
+    ['Artwork 2026|59: rear modules now from the CorelDRAW guide', SIM.src(RMG_DIR+'D8202 - rear module options.cdr','D8202 - rear module options.cdr')+' (CorelDRAW X3, 2012-01-16) · '+SIM.src(RMG_DIR+'D8202 - rear module options.pdf','its PDF export'), 'The TB8205P and TB8205P/75 panels are the vectors of the 2012 guide, black plate with white legends, replacing the 150-dpi PNG cut from the PDF; the terminals and BNC overlays sit on the same cells. The CDR itself converts badly (the screw-terminal blocks and 1–8/G numerals are a symbol font that libcdr turns into giant letters), so the vectors come from Corel\'s own PDF export of the same file. The TB8205P cell is captioned “D8202-AES/<b>EBS</b> Digital to Analog Converter” (typo for EBU). The older manual pages '+SIM.src('#MF8200 #SERIES/D8202 - #Master #MF82/D8202 - #Engineering/D8202tr3_1.cdr','D8202tr3_1.cdr')+' (2010) and D8202TR1/TR3 show the earlier ST8200 / ST8201A solder and QC8200QCP terminal options, the ST8200 marked “no longer manufactured”.'],
     ['The manual\'s figures show the 1997 board', 'd8202.pdf Fig 1.1–1.3 vs D8202-ISS5 Gerbers', 'Fig 1.2 labels R26–R48, U6/U7, C21/C22 and trims beside U6/U7. ISS5 uses RV1/RV2 beside U16 and H2/H5 headers. The 24 / 18 / 16 dBFS jumper markings are still true on ISS5 silk.'],
     ['Factory level, and a 600 Ω corner', 'manual (−20 dBFS → +4 dBu; +24 dBu max into 600 Ω) · BOM values', `With a 2.0 V rms DAC full scale ${inf}, one trim setting (×3.09) gives exactly +24 / +18 / +16 dBu at 0 dBFS in the three H2 positions, matching Fig 1.2. The two 30 Ω build-out resistors cost 0.83 dB into 600 Ω. There the trim tops out at +3.9 dBu for −20 dBFS, so the factory alignment assumes a bridging load.`],
     ['Rear-module guide footnote is wrong', '“D8202 - rear module options.pdf” (2012|45) vs D8202TR1.CDR', 'The guide stars LEFT/RIGHT OUT 3 with “this output can be used as an alarm by setting the jumpers”. The older terminal drawing says “jumper selectable for a third stereo output or two mono sum outputs”. The TB8205P caption also reads “AES/EBS”.'],
@@ -1214,7 +1218,7 @@ function viewFindings(m){
    + card('Files used', `<table class="kv small"><tr><td>Firmware</td><td class="mono">D8202 - #Engineering/Software/v100/v100.asm, V100.ERR, V100.$$$, da301.pjt</td></tr>
       <tr><td>Netlist / BOM / placement</td><td class="mono">PCB/OBSOLETE/ISS4/d8202-ISS4.net, D8202-ISS4.bom · PCB/D8202-ISS5.bom, D8202-ISS5.pnp</td></tr>
       <tr><td>Board artwork</td><td class="mono">PCB/GERBERS/D8202-ISS5.TOP, .BOT, .TSM, .SLK → assets/d8202-board-top.png · D8202-ISS5 - #Assembly.pdf</td></tr>
-      <tr><td>Rear modules</td><td class="mono">8200 Series Rear Module options…/D8202 - rear module options.pdf → assets/d8202-rear-tb8205p(-75)-black.png · D8202TR1.CDR, D8202TR3.cdr (Inkscape)</td></tr>
+      <tr><td>Rear modules</td><td class="mono">8200 Series Rear Module options…/D8202 - rear module options.cdr (via its PDF) → assets/d8202-rear-tb8205p(75).svg · D8202TR1.CDR, D8202TR3.cdr (Inkscape)</td></tr>
       <tr><td>Manual</td><td class="mono">D8202MAN.WPD, d8202.pdf (1999|32)</td></tr>
       <tr><td>History</td><td class="mono">PCB/OBSOLETE/ISS2/D8202.ASM, D8202.BOM (1997|30)</td></tr></table>`);
 }
@@ -1380,6 +1384,14 @@ SIM.register({
   folder:'#MF8200 #SERIES/D8202 - #Master #MF82',
   summary:'MF82 plug-in card that converts one AES/EBU input to three balanced analog stereo outputs, or two stereo plus two mono. A PIC16C54 running V1.00 (2005|38) configures and polls a CS8427 receiver over bit-banged SPI. A CS4390 DAC feeds jumper-ranged, trimmed OP275 line drivers.',
   highlights:['Board rendered from the ISS5 production Gerbers, every jumper and trim live','The real v100.asm assembled and executed instruction by instruction','Cable + EQ eye model drives the CONF / lock LEDs','SPI traffic to the CS8427 down to single CCLK edges','8-step setup tutorial from the 1999 manual','20 findings: dead transmitter mute, unread RERR pin, a 15-minute TRIS fix'],
+  footnotes:[
+    {text:'Rear-module art: the TB8205P and TB8205P/75 panels are vectors of the 2012 CorelDRAW guide (via its Corel PDF export, because libcdr renders the terminal-block symbol font as giant text).', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8202 - rear module options.cdr'},
+    {text:'The guide captions the TB8205P cell “D8202-AES/EBS Digital to Analog Converter”: EBS is a typo for EBU (the /75 cell spells it right).', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8202 - rear module options.cdr'},
+    {text:'The guide stars LEFT/RIGHT OUT 3 / MONO as “can be used as an alarm by setting the jumpers”; the older D8202TR1.CDR says the jumper selects a third stereo output or two mono sums, which is what the board does.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8202 - rear module options.cdr'},
+    {text:'The 2010 manual page D8202tr3_1.cdr still shows the ST8200 / ST8201A solder terminals, with the ST8200 marked “no longer manufactured”.', src:'#MF8200 #SERIES/D8202 - #Master #MF82/D8202 - #Engineering/D8202tr3_1.cdr'},
+    {text:'D8202TR1.CDR and D8202TR3.cdr show a QC8200QCP quick-connect option and a TB8205 screw terminal that the 2012 guide no longer offers.', src:'#MF8200 #SERIES/D8202 - #Master #MF82/D8202 - #Engineering/D8202TR1.CDR'},
+    {text:'D8202TR2.CDR and D8202TR3.CDR are stored twice: once in D8202 - #Engineering and again (1998 versions) in PCB/OBSOLETE/ISS2.', src:'#MF8200 #SERIES/D8202 - #Master #MF82/D8202 - #Engineering/PCB/OBSOLETE/ISS2/D8202TR3.CDR'},
+  ],
   depth:'Full model',
   stepUnits:[
     {label:'1 main-loop pass', period:()=>R_avg()*TCY(), phase:()=>{ const p=run().passes[0]; return p? cyc2t(p.c) % (R_avg()*TCY()) : 0; }},

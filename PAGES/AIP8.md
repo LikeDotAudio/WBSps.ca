@@ -15,7 +15,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: AIP8-2A](../siumulation.html?plugin=aip8-2a) · [simulator & front panel](../simulator.html?m=AIP8) · [KiCad symbol generator](../kicad.html?m=AIP8) · [download package (zip)](../_packages/AIP8.zip) |
+| Try it | [full simulation: AIP8-2A](../siumulation.html?plugin=aip8-2a) · [KiCad symbol generator](../kicad.html?m=AIP8) · [download package (zip)](../_packages/AIP8.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — similar models |
 | Evidence | filed with 19 dated models in "Metering and Monitoring Manuals" |
 | Confidence | estimate |
@@ -96,30 +96,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 19xx - AIP8 - 2A Manual Updated.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [19xx - AIP8 - 2A Manual Updated.docx](../Products/METERING/AIP8/19xx%20-%20AIP8%20-%202A%20Manual%20Updated.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AIP8",
- "category": "METERING",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/METERING/AIP8/19xx - AIP8 - 2A Manual Updated (2).docx",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/AIP8/19xx - AIP8 - 2A Manual Updated.docx",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. ISS1 of the front silk (Nov 2006) has ST · SOURCE · MONITOR over “L/Only Phase AES SDI 1/2 3/4 5/6 7/8”. — `AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-CURVE.cdr`
+2. ISS2 (Jan 2007) already has IN ST/DV and OUT ST/DV but still starts the button row with “L/Only”. — `AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS2-curve.cdr`
+3. ISS3 (Feb 2007) renames L/Only to “B” and moves Phase to the first button. The firmware then reserves B (“previously L/only”). — `AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr`
+4. The silk has only the control-area legends; the GREEN plate carries WARD-BECK SYSTEMS, AIP8-2A and the brackets over SOURCE / IN / OUT. — `AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr`
+5. Every issue of the silk is stored twice, as a Backup_of_ copy beside the original. — `AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/Backup_of_AIP8-2A-FRONTSILK-ISS3-curve.cdr`
+6. No AIP8-2A rear silk exists in the folder, so the rear is the AMS8-M2 silk (inferred). — `AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr`

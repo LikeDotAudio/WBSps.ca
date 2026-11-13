@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: AMX9A](../siumulation.html?plugin=amx9a) · [simulator & front panel](../simulator.html?m=AMX9A) · [KiCad symbol generator](../kicad.html?m=AMX9A) · [download package (zip)](../_packages/AMX9A.zip) |
+| Try it | [full simulation: AMX9A](../siumulation.html?plugin=amx9a) · [KiCad symbol generator](../kicad.html?m=AMX9A) · [download package (zip)](../_packages/AMX9A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Dec.08 2014" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMX9A Manual_(1).docx |
 | Confidence | medium |
@@ -72,53 +72,11 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - AMX9A - Manual_.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - AMX9A - Manual_.docx](../Products/METERING/AMX9A/2014%20-%20AMX9A%20-%20Manual_.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "AMX9A",
- "name": "Audio Monitor System",
- "category": "METERING",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/METERING/AMX9A/2014 - AMX9A - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/AMX9A/2014 - AMX9A - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/METERING/AMX9A/2014 - AMX9A - Manual_ (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/AMX9A/2014 - AMX9A - Manual_.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/AMX9A/2014 - AMX9A - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The 2015 artwork sheet carries separate GREEN and WHITE front plates and a WHITE rear plate; the simulator registers them on one panel. — `#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr`
+2. The crosshairs over knobs 1, 5, 6, LINE and MONITOR on the sheet are drafting marks for the holes, not printed ink. — `#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr`
+3. The 2014 “FINAL CURVE” art has horizontal slot vents behind the speakers; the 2015 art replaced them with a hexagon grill. — `#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/OLDER ISSUES/AMX9A-FRONT & REAR((FINAL CURVE).cdr`
+4. The 2014 rear art leaves the IEC inlet box empty; the 2015 rear divides it into four. — `#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/OLDER ISSUES/AMX9A-FRONT & REAR((FINAL CURVE).cdr`
+5. The #SILK folder holds a second copy of the Nov 2015 front-and-rear drawing, identical to the #ARTWORK one. — `#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #SILK/AMX9A-FRONT & REAR(CURVE).cdr`
+6. The 2015 rear silk says “100-240 VAC”; the manuals say 90-230 VAC. — `#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr`

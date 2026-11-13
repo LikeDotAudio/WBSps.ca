@@ -18,7 +18,7 @@
    - 557572/557572 Manual Appendix.pdf, temp files/557572 Project.pdf, FUNCTIONAL-557572 Model.pdf,
      557572 ( on off + tb + mon sel + dump & next event ctrls ).pdf, R203CUSTOM*.pdf, 555529 R221 Mode 7.pdf
    - 557572/557572-1/SILK.cdr, 554951-3/554951-3SLKcurve.cdr, 554951-2/554951-2m2curve.cdr
-     (converted with Inkscape → assets/55xxxx-systems-*.png)
+     (converted with Inkscape → plain SVG → cleaned with a small script → assets/55xxxx-systems-*.svg, 2026|59 artwork pass)
    - every job folder's files and their archive sidecars (*.md) for the job cards
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -430,11 +430,12 @@ function vlcGainDb(tc){ if(tc>=255) return -Infinity; return 24 - vlcDac(tc)*(10
 /* ---------------- drawing helpers ---------------- */
 function led(x,y,on,col,r){ return `<circle cx="${x}" cy="${y}" r="${r||7}" fill="${on?col:'#2b302b'}" stroke="#000" stroke-width="1"/>${on?`<circle cx="${x}" cy="${y}" r="${(r||7)*2}" fill="${col}" opacity=".18"/>`:''}`; }
 function pbtn(x,y,w,h,label,lit,col,act,tip){ return `<g class="hot" data-act="${act}" style="cursor:pointer"><title>${tip||label}</title><rect x="${x-w/2}" y="${y-h/2}" width="${w}" height="${h}" rx="5" fill="${lit?col:'#3a3e42'}" stroke="#111" stroke-width="2"/><text x="${x}" y="${y+4}" text-anchor="middle" font-size="${h>40?13:11}" fill="${lit?'#111':'#ddd'}" font-weight="600">${label}</text></g>`; }
-/* turret top: silk = 557572-1/SILK.cdr (text stripped; labels re-anchored), 2 px per pt, crop origin (30,250) pt */
+/* turret top: silk = 557572-1/SILK.cdr → assets/55xxxx-systems-turret-front.svg (vector, viewBox in CDR pt; the 1–8 and HEADSET
+   legends are the CDR's own; ON/OFF/DUMP/T/B/NEXT EVENT were dropped from the art and re-anchored under the rings), 2 px per pt, crop origin (30,250) pt */
 function turretSVG(t){
   const T=D.tur, P=(x,y)=>[(x-30)*2,(y-250)*2];
   const on=T.power, setup=T.setup0;
-  let s=`<svg viewBox="0 0 1120 990" style="width:100%;max-width:560px;background:#1c1e20;border-radius:10px"><image href="${ASSET}55xxxx-systems-turret-front.png" x="0" y="0" width="1120" height="990"/>`;
+  let s=`<svg viewBox="0 0 1120 990" style="width:100%;max-width:560px;background:#1c1e20;border-radius:10px"><image href="${ASSET}55xxxx-systems-turret-front.svg" x="0" y="0" width="1120" height="990"/>`;
   // big lit buttons inside the rings (ring centres from the silk)
   const rings=[['ON',111,297,'hostOn1'],['DUMP',219,297,'dump'],['OFF',111,378,'hostOn0'],['T/B',219,378,'tb'],['NEXT EVENT',328,378,'dump']];
   const flashOn = Math.floor(t/0.5)%2===0;   // flash routine ≈ 0.5 s toggle INFERRED
@@ -450,15 +451,15 @@ function turretSVG(t){
     let lit=false;
     if(on&&!setup) lit=T.mon===i;
     if(on&&setup){ if(T.page===1&&i<5) lit=!!((turAddr()>>(4-i))&1); if(T.page===2&&i===7) lit=!!(T.studio&0x40); }
-    s+=`<g class="hot" data-act="mon${i}" style="cursor:pointer"><title>Monitor selector ${i+1}${setup?' — setup: '+(T.page===1?(i<5?'address bit 2^'+(4-i):'unused'):(i===7?'studio 1/2':'unused')):''}</title><rect x="${X-34}" y="${Y-34}" width="68" height="68" rx="6" fill="${lit?'#7dff6a':'#34383c'}" stroke="#111" stroke-width="3"/><text x="${X}" y="${Y+7}" text-anchor="middle" font-size="22" font-weight="700" fill="${lit?'#111':'#eee'}">${i+1}</text></g><text x="${X}" y="${Y+60}" text-anchor="middle" font-size="15" fill="#efefe9">${i+1}</text>`; });
-  const [hx1,hy1]=P(530,708); s+=`<circle cx="${hx1}" cy="${hy1}" r="16" fill="#111" stroke="#999" stroke-width="3"><title>HEADSET jack</title></circle><text x="${hx1-30}" y="${hy1+50}" font-size="15" fill="#efefe9">HEADSET</text>`;
+    s+=`<g class="hot" data-act="mon${i}" style="cursor:pointer"><title>Monitor selector ${i+1}${setup?' — setup: '+(T.page===1?(i<5?'address bit 2^'+(4-i):'unused'):(i===7?'studio 1/2':'unused')):''}</title><rect x="${X-34}" y="${Y-34}" width="68" height="68" rx="6" fill="${lit?'#7dff6a':'#34383c'}" stroke="#111" stroke-width="3"/><text x="${X}" y="${Y+7}" text-anchor="middle" font-size="22" font-weight="700" fill="${lit?'#111':'#eee'}">${i+1}</text></g>`; });
+  const [hx1,hy1]=P(530,708); s+=`<circle cx="${hx1}" cy="${hy1}" r="16" fill="#111" stroke="#999" stroke-width="3"><title>HEADSET jack</title></circle>`;
   const [kx,ky]=P(533,420); s+=`<circle cx="${kx}" cy="${ky}" r="22" fill="#2a2a2a" stroke="#888" stroke-width="3"><title>Small control on the arc (headset level) — function not labelled in the silk, inferred</title></circle>`;
   s+=`<text x="20" y="975" font-size="14" fill="#9aa">${on?(setup?`SETUP — page ${T.page===1?'MIC ADDRESS ('+turAddr()+')':'STUDIO ('+(turStudio()+1)+')'}`:`mic ${turAddr()} · studio ${turStudio()+1} · ${T.on?'ON':'OFF'}${T.tb?' · T/B':''}`):'POWER OFF'}</text></svg>`;
   return s;
 }
 function turretRearSVG(){
   const T=D.tur, P=(x,y)=>[(x-10)*2,(y-55)*2];
-  let s=`<svg viewBox="0 0 1184 270" style="width:100%;max-width:560px;background:#1c1e20;border-radius:10px"><image href="${ASSET}55xxxx-systems-turret-rear.png" x="0" y="0" width="1184" height="270"/>`;
+  let s=`<svg viewBox="0 0 1184 270" style="width:100%;max-width:560px;background:#1c1e20;border-radius:10px"><image href="${ASSET}55xxxx-systems-turret-rear.svg" x="0" y="0" width="1184" height="270"/>`;
   const db=(cx,cy,l,tip)=>{const [X,Y]=P(cx,cy); return `<g><title>${tip}</title><path d="M${X-95},${Y-22} h190 l-12,44 h-166 z" fill="#c9c9c2" stroke="#222" stroke-width="2"/><text x="${X}" y="${Y+5}" text-anchor="middle" font-size="13" fill="#222">${l}</text></g>`;};
   s+=db(319,113,'DB25M J1','J1: added DB25M (557572-1 Turret.txt) — DUMP / NEXT EVENT closures (inferred)')+db(319,175,'R2K I/O','R2K I/O: RS-485 to the hub TURRET port (TX 21/22, RX 10/11, FUNCTIONAL-557572)');
   const [X,Y]=P(445,178); s+=`<g class="hot" data-act="setupsw" style="cursor:pointer"><title>SETUP switch (PORTC,0), read only at power-up</title><rect x="${X-22}" y="${Y-22}" width="44" height="44" rx="4" fill="${T.setupSw?'#ffb43a':'#555'}" stroke="#111" stroke-width="2"/><text x="${X}" y="${Y+5}" text-anchor="middle" font-size="12" fill="#111">${T.setupSw?'OUT':'IN'}</text></g>`;
@@ -468,14 +469,14 @@ function turretRearSVG(){
 /* hub front/rear: silk = 554951-3/554951-3SLKcurve.cdr, crop origins (70,430) and (70,214) pt */
 function hubSVG(t, n){
   const P=(x,y)=>[(x-70)*2,(y-430)*2]; const tt = n===2 ? null : t;
-  let s=`<svg viewBox="0 0 1250 240" style="width:100%;background:#1a1b1c;border-radius:8px"><image href="${ASSET}55xxxx-systems-hub-front.png" x="0" y="0" width="1250" height="240"/>`;
+  let s=`<svg viewBox="0 0 1250 240" style="width:100%;background:#1a1b1c;border-radius:8px"><image href="${ASSET}55xxxx-systems-hub-front.svg" x="0" y="0" width="1250" height="240"/>`;
   [['c1',307],['c2',410],['tur',513]].forEach(([k,x])=>{ const [X,Y]=P(x,490); s+=`<g><title>${{c1:'COM1 = console #1 (PORTA bit 0)',c2:'COM2 = console #2 (PORTA bit 1)',tur:'COM3 = host turret (PORTA bit 2)'}[k]}</title>${led(X,Y,tt!==null&&ledAt(k,tt),'#7dff6a',11)}</g>`; });
   const [px,py]=P(90,490); s+=`<circle cx="${px}" cy="${py}" r="10" fill="${'#ff4b3a'}"><title>power LED (554951-3 WIRING: POWER LED)</title></circle>`;
   return s+`<text x="1230" y="232" text-anchor="end" font-size="16" fill="#9aa">${n===2?'hub #2 (state not modelled)':'hub #1 · event_schedule = '+stepAt(t).cs}</text></svg>`;
 }
 function hubRearSVG(){
   const P=(x,y)=>[(x-70)*2,(y-214)*2];
-  let s=`<svg viewBox="0 0 1250 240" style="width:100%;background:#1a1b1c;border-radius:8px"><image href="${ASSET}55xxxx-systems-hub-rear.png" x="0" y="0" width="1250" height="240"/>`;
+  let s=`<svg viewBox="0 0 1250 240" style="width:100%;background:#1a1b1c;border-radius:8px"><image href="${ASSET}55xxxx-systems-hub-rear.svg" x="0" y="0" width="1250" height="240"/>`;
   const db=(cx,cy,l,k)=>{const [X,Y]=P(cx,cy); return `<g class="hot" data-act="plug_${k}" style="cursor:pointer"><title>${l}: click to plug / unplug</title><path d="M${X-95},${Y-22} h190 l-12,44 h-166 z" fill="${D.pres[k]?'#c9c9c2':'#555'}" stroke="#222" stroke-width="2"/><text x="${X}" y="${Y+5}" text-anchor="middle" font-size="13" fill="#222">${D.pres[k]?'DB25F connected':'unplugged'}</text></g>`;};
   s+=db(308,248,'TURRET','tur')+db(191,287,'R2K-1','c1')+db(425,287,'R2K-2','c2');
   s+=`<g class="hot" data-act="plug_hub2" style="cursor:pointer"><title>LINK DB9F — on FUNCTIONAL-557572 but not on the 2005 silk (position inferred)</title><path d="M1060,40 h90 l-8,32 h-74 z" fill="${D.pres.hub2?'#c9c9c2':'#555'}" stroke="#222" stroke-width="2"/><text x="1105" y="62" text-anchor="middle" font-size="12" fill="#222">LINK</text><text x="1105" y="92" text-anchor="middle" font-size="12" fill="#ffb43a">inferred</text></g>`;
@@ -483,7 +484,7 @@ function hubRearSVG(){
 }
 function vlcSVG(){
   const P=(x,y)=>[(x)*2,(y-494)*2], V=D.vlc;
-  let s=`<svg viewBox="0 0 1240 236" style="width:100%;background:#1a1b1c;border-radius:8px"><image href="${ASSET}55xxxx-systems-vlc-rear.png" x="0" y="0" width="1240" height="236"/>`;
+  let s=`<svg viewBox="0 0 1240 236" style="width:100%;background:#1a1b1c;border-radius:8px"><image href="${ASSET}55xxxx-systems-vlc-rear.svg" x="0" y="0" width="1240" height="236"/>`;
   [[94,'IN 1'],[154,'IN 2'],[246,'OUT']].forEach(([x,l])=>{ const [X,Y]=P(x,560); s+=`<rect x="${X-34}" y="${Y-14}" width="68" height="24" rx="2" fill="#2f7a3a" stroke="#111"><title>${l} terminal block (+ − G)</title></rect>`; });
   const [cx,cy]=P(381,552); s+=`<path d="M${cx-60},${cy-16} h120 l-10,32 h-100 z" fill="#c9c9c2" stroke="#222"><title>CONTROL DB25F: UP/DOWN from each R203 (pins 16/14 console 1, 15/17 console 2 — FUNCTIONAL-557572)</title></path>`;
   const g=vlcGainDb(V.table_count1);
@@ -599,10 +600,10 @@ function viewSim(m){
   m.innerHTML = `<div class="card" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center"><b>Customer job</b>${jobSelect()}<span class="small muted">${JOBS.length} jobs + ${SKELETONS.length} empty folder skeletons — every one has a card on the Jobs tab</span></div>
   <div id="jobCard">${jobInfo()}</div>
   <div class="grid2"><div>
-    ${card('557572 host turret — top (557572-1/SILK.cdr) and rear', `<div id="tur"></div><div id="turR" style="margin-top:6px"></div><p class="small muted">Labels re-anchored: libcdr put ON/OFF/DUMP/T/B/NEXT EVENT 264 pt below their rings; they keep the ring grid, so they belong under the rings ${inf('alignment')}. Click buttons; T/B toggles held/released; the rear SETUP switch is read only at power-up.</p>`)}
-    ${card('554951-3 communication hub — front and rear (554951-3SLKcurve.cdr)', `<div id="hub"></div><div id="hubR" style="margin-top:6px"></div><p class="small muted">Click a rear connector to unplug it. COM LEDs follow the real poll results at the playhead.</p>`)}
+    ${card('557572 host turret — top (557572-1/SILK.cdr) and rear', `<div id="tur"></div><div id="turR" style="margin-top:6px"></div><p class="small muted">Labels re-anchored: libcdr put ON/OFF/DUMP/T/B/NEXT EVENT 264 pt below their rings; they keep the ring grid, so they belong under the rings ${inf('alignment')}. Click buttons; T/B toggles held/released; the rear SETUP switch is read only at power-up.</p><p class="small muted">Artwork: ${SIM.src('#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/557572-1/SILK.cdr','557572-1/SILK.cdr (26 Feb 2008)')}, converted to vector; white ink on the panel colour ${inf('panel colour: no photo in the job folder')}.</p>`)}
+    ${card('554951-3 communication hub — front and rear (554951-3SLKcurve.cdr)', `<div id="hub"></div><div id="hubR" style="margin-top:6px"></div><p class="small muted">Click a rear connector to unplug it. COM LEDs follow the real poll results at the playhead.</p><p class="small muted">Artwork: ${SIM.src('#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-3/554951-3SLKcurve.cdr','554951-3SLKcurve.cdr (18 Jul 2005)')} (front and rear plates on one sheet; corner marks dropped).</p>`)}
     ${card('The two R2K consoles', `<div id="con0"></div><div id="con1" style="margin-top:6px"></div>`)}
-    ${card('554951-2 volume level controller — rear (554951-2m2curve.cdr)', `<div id="vlc"></div>`)}
+    ${card('554951-2 volume level controller — rear (554951-2m2curve.cdr)', `<div id="vlc"></div><p class="small muted">Artwork: ${SIM.src('#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-2/554951-2m2curve.cdr','554951-2m2curve.cdr (20 Jul 2005)')}. The LEFT/RIGHT crosshairs and the unlabelled pair 2 in to their right are in the art but not modelled.</p>`)}
     ${card('R221 input module, Mode 7 (cough)', `<div id="r221"></div>`)}
   </div><div>
     ${card('What the firmware did', `<div id="trace" class="log" style="max-height:340px"></div>`)}
@@ -805,6 +806,7 @@ function viewSoft(m){
 function viewFindings(m){
   window.__55xxxxActive=false;
   m.innerHTML = card('What the 557572 system is up to — findings from the source', `<ol>
+    <li><b>Artwork 2026|59:</b> turret, hub and controller panels now from ${SIM.src('#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/557572-1/SILK.cdr','557572-1/SILK.cdr')} (26 Feb 2008), ${SIM.src('#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-3/554951-3SLKcurve.cdr','554951-3SLKcurve.cdr')} (18 Jul 2005) and ${SIM.src('#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-2/554951-2m2curve.cdr','554951-2m2curve.cdr')} (20 Jul 2005), as vector SVG in place of the earlier PNG cuts. The turret’s SILK.cdr is live Arial text (no curve version); its legends render in substitute Arial. Details the art shows are in the footnotes below.</li>
     <li><b>Every “if” in the polling schedule is always true.</b> Cases 0, 2, 5, 7, 10, 12, 19 and 21 test <span class="mono">(turret_studio == STUDIO1) || (send_studio1_info = YES)</span> — an assignment, not a comparison. The default case carefully works out <span class="mono">send_studio1_info</span>/<span class="mono">send_studio2_info</span> from PINC4, and the next case overwrites it with YES. Both studios are always sent to both consoles; the “+2 skip” branches never run. (8 occurrences in 554951-3.c.)</li>
     <li><b>The front-panel “flashing” is not a flash routine.</b> The appendix says the COM LED flashes faster for worse problems. In 554951-3.c each good read does <span class="mono">CONSOLEn_LED_ON</span> and each timeout <span class="mono">CONSOLEn_LED_OFF</span>; a silent module just leaves the LED dark for one step per round. More silent modules = more dark steps. Try it on the Simulator tab.</li>
     <li><b>Two hubs share the console buses by passing a token over the LINK.</b> <span class="mono">CONSOLE1_NOT_COMM</span> (PC7) of one hub is the other’s <span class="mono">CHECK_CONSOLE1_COMM</span> (PINC5): the waiting hub needs it high for more than <span class="mono">CONSTANT</span> = 25 passes. A hub hands the bus over at case 50, before it talks to its own turret (cases 51, 25, 26) — a deliberate overlap. The folder “14 mar 08 2hubs 2 turrets 2consoles studio2 not working” is the first build with this.</li>
@@ -828,7 +830,7 @@ function viewFindings(m){
     <li>554951-2 gain ≈ +24 dB − DAC × 100/255 dB ${inf('SSM2018 law not in the archive')}; turret flash ≈ 0.5 s ${inf('')}.</li>
     <li>Turret labels re-anchored under the rings; LINK DB9 position on the hub rear ${inf('')}.</li></ul>`)
   + card(`All ${JOBS.length} jobs in the folder`, `<table class="kv small"><tr><th>Job</th><th>Year</th><th>Customer</th><th>What</th><th>Code</th></tr>${JOBS.map(j=>`<tr${j[0]==='557572'?' class="hl"':''}><td class="mono">${j[0]}</td><td>${Y(j[1])}</td><td>${j[2]||'—'}</td><td>${j[3]}</td><td class="mono">${j[5]}</td></tr>`).join('')}<tr><td colspan="5" class="muted">Empty skeletons: ${SKELETONS.join(', ')}</td></tr></table>`)
-  + card('Sources', `<ul class="small mono"><li>557572/554951-3/Software/554951-3.c, 554951-3._c, 554951-3.lis and 21 dated folders</li><li>557572/557572-1/Software/554951-1.asm, init.asm, setup.asm, EERW.ASM; 557572-1/SILK.cdr; 557572-1 Turret.txt</li><li>557572/554951-2/Software/554951-2.asm, Product Assembly.txt, 554951-2m2curve.cdr</li><li>557572/554951-3/554951-3SLKcurve.cdr; R203/encdc100.asm, Readme.txt; R221v1/r201v301.asm, r201m102.asm</li><li>557572/557572 Manual Appendix.pdf; temp files/557572 Project.pdf, FUNCTIONAL-557572 Model.pdf, R203CUSTOM.pdf, R203CUSTOM_TERMINATION.pdf, 557572 ( on off + tb + mon sel + dump &amp; next event ctrls ).pdf</li><li>every job folder and its *.md sidecars (job cards)</li><li>assets: 55xxxx-systems-turret-front.png, -turret-rear.png, -hub-front.png, -hub-rear.png, -vlc-rear.png</li></ul>`);
+  + card('Sources', `<ul class="small mono"><li>557572/554951-3/Software/554951-3.c, 554951-3._c, 554951-3.lis and 21 dated folders</li><li>557572/557572-1/Software/554951-1.asm, init.asm, setup.asm, EERW.ASM; 557572-1/SILK.cdr; 557572-1 Turret.txt</li><li>557572/554951-2/Software/554951-2.asm, Product Assembly.txt, 554951-2m2curve.cdr</li><li>557572/554951-3/554951-3SLKcurve.cdr; R203/encdc100.asm, Readme.txt; R221v1/r201v301.asm, r201m102.asm</li><li>557572/557572 Manual Appendix.pdf; temp files/557572 Project.pdf, FUNCTIONAL-557572 Model.pdf, R203CUSTOM.pdf, R203CUSTOM_TERMINATION.pdf, 557572 ( on off + tb + mon sel + dump &amp; next event ctrls ).pdf</li><li>every job folder and its *.md sidecars (job cards)</li><li>assets: 55xxxx-systems-turret-front.svg, -turret-rear.svg, -hub-front.svg, -hub-rear.svg, -vlc-rear.svg (vector, from the .cdr files)</li></ul>`);
 }
 function viewJobs(m){
   window.__55xxxxActive=false;
@@ -860,6 +862,20 @@ SIM.register({
   zooms: [[1,'1 s (whole second)'],[0.2,'200 ms (≈ 1–2 rounds)'],[0.05,'50 ms'],[0.012,'12 ms (one UART0 send)'],[0.003,'3 ms (two bytes)'],[0.0012,'1.2 ms (one byte, bits)']],
   defaultZoom: 1,
   init(){ SCHED_KEY=''; },
+  footnotes: [
+    { text: 'In the turret silk the ON, OFF, DUMP, T/B and NEXT EVENT legends sit 260 pt (3.6 in) straight below their five rings, at the same x; the simulator puts them back under the rings.', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/557572-1/SILK.cdr' },
+    { text: 'SILK.cdr also carries a second complete set of turret legends (1–8, ON, OFF, DUMP, T/B, NEXT EVENT) parked far off the page, about 730 pt right and 2450 pt above it: a leftover copy nobody would ever print.', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/557572-1/SILK.cdr' },
+    { text: 'On the turret rear the right-hand J1 legend bar runs into the CAUTION text block, which fits J1 being a late addition (“a standard with the addition of a DB25M (J1)”).', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/557572-1/557572-1 Turret.txt' },
+    { text: 'The turret top has a half-ring with a drill crosshair at the right edge and no legend at all; its function is not stated anywhere in the job.', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/557572-1/SILK.cdr' },
+    { text: 'There is no curve version of the turret silk: SILK.cdr (2008) is live text, unlike the hub and controller sheets, which were saved as “curve” copies in 2005.', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/557572-1/SILK.cdr' },
+    { text: 'The hub silk exists three times: 554951-3SLK.cdr and Backup_of_554951-3SLK.cdr (both 12 Jul 2005, live text) and 554951-3SLKcurve.cdr (18 Jul 2005, text as curves). In the live-text copy the R2K-2 legend is broken across two lines (“R2K-” / “2”).', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-3/554951-3SLK.cdr' },
+    { text: 'The hub rear caution reads “disconnect power before servicing or replacing the fuse or batteries”; no battery is named in the hub firmware or wiring files read for this model.', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-3/554951-3SLKcurve.cdr' },
+    { text: 'The hub silk has TURRET, R2K-1 and R2K-2 but no LINK connector, although FUNCTIONAL-557572 links two hubs: the 2005 art predates the two-hub system.', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-3/554951-3SLKcurve.cdr' },
+    { text: 'Three different mains legends: turret “115 VAC, 1 A.S.B”, hub “110-220 VAC 50-60 Hz, 1A S.B.”, controller “115 VAC, 1/2 A.S.B.” (slow-blow fuses).', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-2/554951-2m2curve.cdr' },
+    { text: 'The 554951-2 rear art labels LEFT and RIGHT rows with a matching unlabelled pair of crosshairs 2 in to the right, but the firmware mixes two inputs to a single output with one level (refresh_vol writes the same value to both DACs).', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-2/554951-2m2curve.cdr' },
+    { text: 'The 554951-2 rear art has a CONTROL legend with no connector outline beside it; the DB25 position comes from the functional drawing.', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/554951-2/554951-2m2curve.cdr' },
+    { text: 'R203CUSTOM.cdr (27 Mar 2008) is a terminal-block wiring sheet, not a panel; converted, its title runs together as “R2K CONSOLER203 TERMINATION” (possibly a libcdr text-placement artefact) and its AUX METER / CR MONITOR blocks are swapped against R203CUSTOM_TERMINATION.pdf.', src: '#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/557572/R203/R203CUSTOM.cdr' },
+  ],
   tabs: [
     {id:'sim', label:'Simulator', render:viewSim},
     {id:'tutorial', label:'Tutorial: the 557572 system', render:viewTutorial},

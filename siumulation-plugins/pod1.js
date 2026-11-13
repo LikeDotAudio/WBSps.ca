@@ -652,6 +652,11 @@ function viewNotes(m){
 }
 
 SIM.register({
+  footnotes:[{text:"The rear still reads “115 VAC, 1/2 A.S.B.”, the transformer-era legend, though ISS2/ISS3 use a universal-input supply.", src:"#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr"},
+    {text:"On this sheet the rear plate's outline is drawn in the ink colour and sits 1.4 pt left of the front plates; it is a drawing outline, not printed.", src:"#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr"},
+    {text:"The sheet's own title reads “PO1-FRONT&amp;REAR-SILK”, missing the D of POD.", src:"#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr"},
+    {text:"The POD1 ARTWORK folder also holds a copy of the POD-18 front silk (2013|46).", src:"#POD #SERIES/POD1 - #Master/POD-1 - ARTWORK/POD-18 FRONT SILK (FINAL CURVE).cdr"},
+    {text:"Separate front-only and rear-only sheets exist: POD1-FRONT (FINAL CURVE).cdr (2015|48) and POD1-REAR (FINAL CURVE).cdr (2014|47).", src:"#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-REAR (FINAL CURVE).cdr"}],
   id:'pod1', name:'POD1 · bi-directional balanced/unbalanced audio interface (2013|46)', duration:1,
   product:'POD1', year:2013, family:'POD series', folder:'#POD #SERIES/POD1 - #Master',
   summary:'Half-rack analog interface with two stereo paths: balanced XLR in to consumer RCA out, and RCA in to balanced XLR out, each with front OUTPUT ADJUST trims. ISS2/ISS3 is an SMT redesign on a main board plus POD1-2 (SSM2143 + NE5532) and POD1-3 (NE5532) sub-boards.',

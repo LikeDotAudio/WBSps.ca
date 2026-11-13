@@ -866,6 +866,12 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes:[{text:"The CorelDRAW outline layer shows two extra fixing holes either side of each knob (SELECT and ADJUST), which the earlier PDF cut did not show.", src:"#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"The rear has fixing holes beside AES OUT and beside the IEC inlet that carry no legend.", src:"#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"The REF AES 110 Phoenix and the four AES OUT Phoenix blocks share one cut-out size.", src:"#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"The rear power legend reads “110-230 VAC, 50-60 Hz” and gives no fuse rating.", src:"#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr"},
+    {text:"POD33-SILK-ISS4.cdr in the Engineering SILK folder is an older issue (2010|43) than the 2016|49 drafting set.", src:"#POD #SERIES/POD33 - #Master/POD33 - #Engineering/SILK/POD33-SILK-ISS4.cdr"},
+    {text:"The drafting set holds a live-text twin, POD33-FRONT&amp;REAR-SILK.cdr, beside the CURVE version (same date).", src:"#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK.cdr"}],
   id:'pod33', name:'POD33 · AES DARS generator (2007|40)', duration:1,
   product:'POD33', year:2007, family:'#POD #SERIES',
   folder:'#POD #SERIES/POD33 - #Master',

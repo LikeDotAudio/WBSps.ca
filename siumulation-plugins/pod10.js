@@ -1024,6 +1024,14 @@ function viewFindings(m){
 /* ---------------- register ---------------- */
 loadScenario('idle');
 SIM.register({
+  footnotes: [
+    { text: "The 6-input POD10 front silk (AUG.13/10) is filed in the POD10A artwork folder, not with the POD10.", src: "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR" },
+    { text: "Its “PODS” is a substituted sans converted to curves, 303 px wide at 200 dpi: as drawn it runs over the green bar and “by Ward-Beck Systems”, unlike the rounded logotype on the built panels.", src: "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR" },
+    { text: "The sheet's title block reads “PO10-FRONT-SILK” (the D is missing).", src: "#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR" },
+    { text: "Every file named POD10-REAR in POD10 - #SILK and #Master/ARTWORK is the 8-input POD10A rear; the only 6-input rear silk is OLD ISSUSES/POD10SLK.CDR (live text, saved Oct 1 2015).", src: "#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10SLK.CDR" },
+    { text: "POD10SLK.CDR draws no outline or connector holes on the rear: only labels and two mounting crosshairs, so the terminal strips, DE9, fuse and cord are placed from the POD10.pdf illustration.", src: "#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10.pdf" },
+    { text: "The folder name “OLD ISSUSES” is misspelled.", src: "#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10SLK.CDR" }
+  ],
   id:'pod10', name:'POD10 · 6×1 AES/EBU digital audio switcher ('+Y(1997)+')', duration:1,
   product:'POD10', year:1997, family:'Obsolete products',
   folder:'#POD #SERIES/XXX - POD10 - #Master #OBSOLETE',

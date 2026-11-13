@@ -855,6 +855,7 @@ function viewNotes(m){
 
 /* ---------------- register ---------------- */
 SIM.register({
+  footnotes: [{"text": "The April 2006 ARX422 silk is a different face: a broken black bar, “by Ward-Beck Systems”, “ARX 422” and 2 + 18 unlabelled rings.", "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/ctv422rx/arx422/ARX422-silk.cdr"}, {"text": "The August 2006 silk adds CONTROL INTERFACE, the WBS mark, COM 1 2, INPUTS/OUTPUTS 1–18 and P1/P2/P3 on the rear.", "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"}, {"text": "LED 18 is drawn as a drill crosshair rather than a ring.", "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"}, {"text": "The rear warning reads “POWERBEFORE” with no space, in both versions of the silk.", "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"}, {"text": "The silk is live text, and libcdr drops its alignment, so the simulator re-anchors the legends under the drill rings.", "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"}, {"text": "The rear AC inlet / fuse cut-out is split into four in the artwork.", "src": "#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr"}],
   id:'systems-94-98',
   name:'Custom systems 1994–98 · 37 custom jobs + CTV RS422 relay link (1994|27)',
   product:'Custom systems 1994–98', year:1994,

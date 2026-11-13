@@ -832,7 +832,38 @@ const ASSUME=['Main-loop pass ≈ 400 µs '+inf('bit-bang count; no timer in the
 const SOURCES=[AVR+'v100w.c, D6204A.c/.h, AK4396.c, cs84xx.c, altera.c, CAN.c, Dashboard.c, as.c, common.h, *_ztcpack.txt',FPG+'D6201A.bdf/.qsf, SR_DETECT_192.vhd, dec2_4.vhd, tone_gen1.vhd, i2s8416_aes.vhd, shift_*.vhd, lpm_constant*.vhd, *.bat, ztcpack.txt, *_fpga_v200.bin',PCB+'D6204Aiss4.net, D6204A-iss4.bom, D6204A-iss4.pnp, GERBERS/D6204A-ISS4.TOP/.TSM/.TSS',ENG+'D6204 - #Functional/ (functional, card edge, T6302/T6402, specs)',ROOT+'D6204A - #Master/D6204A - #TESTREPORT/D6204A-V200-26MAR10.pdf','#OPENGEAR #SERIES/D6204A  #Engineering #TIM #PCB/D6204A Manual.doc','XXX - ENGINEERING - 2016 RD FILES/RD80-Amplifier Project/Parts/CS8416_F3.pdf'];
 function viewFindings(m){ window.__d6204Active=false; m.innerHTML=card('What the D6204A and its folders are up to', `<ol>${FINDINGS.map(f=>`<li style="margin-bottom:7px">${f}</li>`).join('')}</ol>`)+card('Assumptions (marked inferred on screen)', `<ul class="small">${ASSUME.map(a=>`<li>${a}</li>`).join('')}</ul>`)+card('Sources', `<ul class="small mono">${SOURCES.map(s=>`<li>${s}</li>`).join('')}</ul>`); }
 
-SIM.register({ id:'d6204', product:'D6204', name:'D6204 · AES-to-analog D/A converter, openGear (2008|41)', year:2008,
+/* footnotes (artwork pass 2026|59): one small detail per entry, with the archive file that shows it */
+const FOOTNOTES=[
+{
+"text": "Position 4 of the T6302A legend reads “AES OUT34”: “AES OUT3” plus a stray “4” in a separate text run.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6204A - rear module options.cdr"
+},
+{
+"text": "A T6202A “REAR MODULE For DFR8310” is drawn here but appears in neither 2012 guide (unbuilt variant).",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/T6XXX/D6204Terms.cdr"
+},
+{
+"text": "The card-edge drawing's ejector always reads “D6204A”, whichever brand the card is built as.",
+"src": "#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR/D6204/D6204 - #Engineering/D6204 - #Functional/D6204-card-edge.cdr"
+},
+{
+"text": "D6204-card-edge.cdr is stored twice, byte-identical, in the D6204A/Functional and D6204 - #Functional folders.",
+"src": "#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR/D6204/D6204 - #Engineering/D6204A/Functional/D6204-card-edge.cdr"
+},
+{
+"text": "The D6201A card-edge drawing has the same LED and switch layout as the D6204 one (5 LEDs, one EQ switch).",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-card-edge.cdr"
+},
+{
+"text": "The 2012 guide puts Analog OUT Left 1 / Right 1 on positions 7/9 and Left 2 / Right 2 on 8/10.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6204A - rear module options.cdr"
+},
+{
+"text": "The combined 2011 guide spells the module “T6302” (no A) and its T6302 legend also reads “AES OUT34”.",
+"src": "#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - D6204A rear module options.cdr"
+}
+];
+SIM.register({ footnotes:FOOTNOTES, id:'d6204', product:'D6204', name:'D6204 · AES-to-analog D/A converter, openGear (2008|41)', year:2008,
   folder:'#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR', family:'openGear',
   summary:'The D6204A turns one 75 Ω AES3 input into two balanced stereo analog pairs and four AES outputs (Ross DAC-8416 / Cobalt 9262). This model runs the V200 AVR firmware and the D6201A-derived FPGA, on the real ISS4 board drawn from its Gerbers. It also settles which of the duplicated #PROBLEM folders is authoritative.',
   highlights:['ISS4 card from the Gerbers, with clickable EQ and DIP switches','Calibration traced to a 74HC4053 gain switch','DEBOUNCE_fs polarity bug: DAC stuck in normal speed','V200 FPGA self-upload, step by step','#PROBLEM answer: the hashtag tree is authoritative'],

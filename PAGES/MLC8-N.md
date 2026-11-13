@@ -16,7 +16,7 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [full simulation: MLC8 / MLC6 level control](../siumulation.html?plugin=mlc8) · [full simulation: RD66-MLC8UsingAMS8E-1-iss5](../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5) · [simulator & front panel](../simulator.html?m=MLC8-N) · [KiCad symbol generator](../kicad.html?m=MLC8-N) |
+| Try it | [full simulation: MLC8 / MLC6 level control](../siumulation.html?plugin=mlc8) · [full simulation: RD66-MLC8UsingAMS8E-1-iss5](../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5) · [KiCad symbol generator](../kicad.html?m=MLC8-N) |
 | Earliest dated evidence | [2017\|50](Year-2017.md) — dated folder |
 | Evidence | in "WBS.NAB - 2017 - Rack layout images" |
 | Confidence | low (named by) |
@@ -92,29 +92,17 @@ _What changed, in the words of the listing, oldest first._
 | 2018 | [2018 - MLC8-N - Information Sheet.jpg](../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Information%20Sheet.jpg.md) |
 | 2018 | [2018 - MLC8-N - Three Quarter.jpg](../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Three%20Quarter.jpg) | [note](../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Three%20Quarter.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "MLC8-N",
- "name": "Three Quarter",
- "category": "RAVENNA AES67",
- "year": 2017,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/MLC8-N/2018 - MLC8-N - Information Sheet.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/RAVENNA AES67/MLC8-N/2018 - MLC8-N - Three Quarter.jpg",
-   "year": 2018,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. **MLC8 / MLC6 level control:** Artwork 2026|59: the front panel and meter lens are drawn from MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr (Jan 18 2016) and AMS8-M6-SILK(MLC8-M3) (CURVE).cdr. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr`
+2. **MLC8 / MLC6 level control:** The MLC-8A front sheet prints “MLC-8B MULTICHANNEL LEVEL CONTROL” on its GREEN plate. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr`
+3. **MLC8 / MLC6 level control:** The meter-lens sheet is shared with the AMS8-1: a byte-identical copy sits in the AMS81 artwork folder. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`
+4. **MLC8 / MLC6 level control:** The lens prints the bottom meter mark as 34; the meter table ams81_vu_data.dat labels it −36. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`
+5. **MLC8 / MLC6 level control:** The 8A front draws its panel outline as an ink-coloured hairline instead of on the mechanical layer. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8A-FRONT-SILK(CURVE MLC-M1).cdr`
+6. **MLC8 / MLC6 level control:** No 8A rear CorelDRAW exists: mlc8-rear-silk-CURVE.cdr (Sep 2006) is an SDI IN / SDI OUT / AES1 / AES2 variant with no 75 Ω BNC legends, so the rear stays on the manual drawing. — `#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-rear-silk-CURVE.cdr`
+7. **MLC8 / MLC6 level control:** The MLC8 SILK folder keeps seven 2006|39 front iterations (ver1, ver2, ver4, ver5 — no ver3 — and latest-ver1–3), and the same set of .cdr files appears again under MLC8 #Engineering #TIM/SILK. — `#MLC - #SERIES/MLC8 - #Engineering/MLC8 - #SILK/mlc8-SILK-latest-ver3.cdr`
+8. **RD66-MLC8UsingAMS8E-1-iss5:** The front, rear and lens sheets are from May 2015, two years after RD66, and already carry the RD73 SDI 1 / SDI 2 button column. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC-8B-FRONT-SILK(CURVE MLC-M11).cdr`
+9. **RD66-MLC8UsingAMS8E-1-iss5:** The MLC8B rear plate's model line reads “MLC-8”, not MLC-8B. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr`
+10. **RD66-MLC8UsingAMS8E-1-iss5:** The M19 rear is stored twice as different files: the MLC copy is all curves; the AMS81 copy (Apr 2016) has three live-text objects but the same layout. — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M19-REAR-SILK (CURVE) (MLC-8B).cdr`
+11. **RD66-MLC8UsingAMS8E-1-iss5:** The rear also has an AUX 2 DB25, an option-card slot and two round holes with a small rectangle at the top right, none used by this bench. — `#MLC - #SERIES/MLC6 & MLC8 - #ARTWORK #DA #2016/MLC8B-REAR-SILK(CURVE AMS8-M19).cdr`
+12. **RD66-MLC8UsingAMS8E-1-iss5:** The lens is the shared AMS8/MLC8 M6 part; the MLC8B uses only its left 3″ (CH1–CH8 scales, DD and ERR). — `AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/AMS8-M6-SILK(MLC8-M3) (CURVE).cdr`

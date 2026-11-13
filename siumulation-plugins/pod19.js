@@ -952,6 +952,13 @@ function viewNotes(m){
 /* ---------------- register plugin ---------------- */
 loadScenario('step');
 SIM.register({
+  footnotes: [
+    { text: "The front legend (GROUP bracket, 1–4, SDI/AES/ERROR, SELECT) sits about 19 pt right of its holes; the simulator moves it back.", src: "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr" },
+    { text: "The rear has an unlabelled 8 pt hole at the top right, above the IEC inlet.", src: "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr" },
+    { text: "The four rear BNC holes (OUTPUT 1, OUTPUT 2, SDI OUTPUT, SDI INPUT) are D-cuts, but only OUTPUT 1 and SDI INPUT have crosshairs.", src: "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr" },
+    { text: "There is no POD19 #ARTWORK #DA #2016 folder; the only panel art is in POD PANELS…/Silks/POD19, next to a Backup_of_ copy saved a day earlier.", src: "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/Backup_of_POD19-FRONT&REAR(FINAL CURVE) .cdr" },
+    { text: "The CDR draws a drill crosshair at every hole on both the green and white plates; the real panels (Pics/ photos) carry no crosshairs, so the simulator shows them faint.", src: "#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr" }
+  ],
   id:'pod19', name:'POD19 · SDI → AES de-embedder, one group of four ('+Y(2001)+')', duration:1,
   product:'POD19', year:2001, family:'POD series',
   folder:'#POD #SERIES/POD19 - #Master',

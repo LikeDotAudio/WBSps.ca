@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD10](../siumulation.html?plugin=pod10) · [simulator & front panel](../simulator.html?m=POD10) · [KiCad symbol generator](../kicad.html?m=POD10) · [download package (zip)](../_packages/POD10.zip) |
+| Try it | [full simulation: POD10](../siumulation.html?plugin=pod10) · [KiCad symbol generator](../kicad.html?m=POD10) · [download package (zip)](../_packages/POD10.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -98,27 +98,11 @@ _No change note in the listing for: POD10V103._
 | 2014 | [2014 - POD10 - Front.jpg](../Products/PODS/POD10/2014%20-%20POD10%20-%20Front.jpg) | [note](../Products/PODS/POD10/2014%20-%20POD10%20-%20Front.jpg.md) |
 | 2014 | [2014 - POD10 - Rear.jpg](../Products/PODS/POD10/2014%20-%20POD10%20-%20Rear.jpg) | [note](../Products/PODS/POD10/2014%20-%20POD10%20-%20Rear.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD10",
- "name": "Digital Audio Switcher",
- "category": "PODS",
- "year": 2013,
- "documents": [
-  {
-   "file": "Products/PODS/POD10/2014 - POD10 - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD10/2014 - POD10 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The 6-input POD10 front silk (AUG.13/10) is filed in the POD10A artwork folder, not with the POD10. — `#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR`
+2. Its “PODS” is a substituted sans converted to curves, 303 px wide at 200 dpi: as drawn it runs over the green bar and “by Ward-Beck Systems”, unlike the rounded logotype on the built panels. — `#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR`
+3. The sheet's title block reads “PO10-FRONT-SILK” (the D is missing). — `#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR`
+4. Every file named POD10-REAR in POD10 - #SILK and #Master/ARTWORK is the 8-input POD10A rear; the only 6-input rear silk is OLD ISSUSES/POD10SLK.CDR (live text, saved Oct 1 2015). — `#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10SLK.CDR`
+5. POD10SLK.CDR draws no outline or connector holes on the rear: only labels and two mounting crosshairs, so the terminal strips, DE9, fuse and cord are placed from the POD10.pdf illustration. — `#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10.pdf`
+6. The folder name “OLD ISSUSES” is misspelled. — `#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10SLK.CDR`

@@ -1166,7 +1166,8 @@ function viewNotes(m){
 }
 
 /* ---------------- register plugin ---------------- */
-SIM.register({
+SIM.register({ footnotes:[{text:"The rear IEC cut-out is landscape (31.5 × 27.4 mm), but the plugin had drawn a portrait inlet; the flange is now widened to cover it.",src:"#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr"},{text:"The two screw holes between the front buttons (x 861 and 1161 px) hold the button bracket; they are not fixing screws.",src:"#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr"},{text:"The white plate numbers the four square 8.6 mm button cut-outs 1–4 underneath, with no input names.",src:"#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr"},{text:"The rear has a small hole above the right fixing screw, matching the ground-stud insert of the POD28 drawing.",src:"#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr"}],
+  
   id:'pod30', name:'POD30 · 4×1 HD/SD-SDI video switcher ('+Y(2003)+')', duration:1,
   product:'POD30', year:2003, family:'POD series',
   folder:'#POD #SERIES/POD30 - #Master',

@@ -158,6 +158,15 @@ function famHTML(){
   const scale = F.imgW? `${F.imgW} in wide · ` : '';
   return `<div style="position:relative;background:#0d0f10;border-radius:6px;overflow:hidden"><img src="${ASSET}${F.img}" style="width:100%;max-height:380px;object-fit:contain;display:block;${/dwg/.test(F.img)?'background:#fff':''}" alt="${esc(F.name)}">${over}</div><div class="small muted">${scale}${F.imgNote}</div>`;
 }
+/* MF8212 rear power cover — CorelDRAW silk PSU.cdr (2000-04-05), converted (2026|59) to assets/mfxx-rear-psu.svg:
+   white ink on black at 1:1 (72 pt/in, 4.150 × 3.300 in). PSU.cdr has no cut lines, so the windows and holes are placed
+   from MF8212RM2 ISS 1 (2010) — inferred for the 2000 cover; REF legends re-centred under their holes. */
+const PSU_CDR='#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/PSU.cdr';
+function psuArtSVG(){ const L=refLevel(), live=D.ref!=='none';
+  return `<svg viewBox="156.6 294 298.8 237.6" style="width:100%;max-width:520px;display:block;margin:auto" role="img" aria-label="MF8212 rear power cover silk, PSU.cdr"><image href="${ASSET}mfxx-rear-psu.svg" x="156.6" y="294" width="298.8" height="237.6"/>
+   <g class="mxref" style="cursor:pointer"><title>REF IN — click (or R) to cycle AES / video / none</title><circle cx="361.4" cy="469.2" r="19" fill="${live?'rgba(80,160,255,.35)':'transparent'}" stroke="${live?'#6fb0ff':'transparent'}" stroke-width="2"/>${live?`<text x="361.4" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">${D.ref==='aes'?'AES':'VIDEO'}</text>`:''}</g>
+   <g class="mxloop" style="cursor:pointer"><title>REF OUT (looped) — click (or L) to connect the loop cable</title><circle cx="307.4" cy="469.2" r="19" fill="${D.loop?'rgba(80,200,120,.35)':'transparent'}" stroke="${D.loop?'#6fd08f':'transparent'}" stroke-width="2"/>${D.loop?'<text x="307.4" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOOP</text>':''}</g></svg>
+   <div class="small muted" style="text-align:center">Artwork: ${SIM.src(PSU_CDR,'PSU.cdr')} (2000-04-05), CorelDRAW silk converted to SVG; holes from MF8212RM2 ISS 1 ${inf('the 2010 cover drawing, whose silk matches this one')}. Click REF IN / REF OUT.</div>`; }
 function refPanelSVG(t){
   const F=FAM[D.fam], n=F.slots, W=980, L=refLevel(), lk=locked(t);
   const x0=200, pw=(W-x0-20)/n;
@@ -256,6 +265,7 @@ function viewSim(m){
   window[FLAG]=true;
   m.innerHTML = card('Frame family in the MFXX collection — pick one', `<div id="mxCmp"></div><div id="mxFam" style="margin-top:8px"></div>`)
    + card('Frame reference (MF-REF board, mf-ref.DSN) — click the BNCs, the termination or a position', `<div class="small" style="margin-bottom:6px"><button data-all>${D.allSlots?'Feed POS.12 only (1999 rear art)':'Feed every position (MF8212-3.DSN bus)'}</button> <button data-reset>Start over</button> <span class="muted">Keys: R cycles the reference, T termination, L loop.</span></div><div id="mxRef"></div>`)
+   + card('Rear power cover silk (PSU.cdr, 2000|33) — REF OUT / REF IN', '<div id="mxPsuArt"></div>')
    + `<div class="grid2">${card('MF82-4 supply strap (14-289 / 14-319)','<div id="mxPsu"></div>')}${card('What just happened','<div id="mxTr" class="log small mono"></div>')}</div>`
    + `<div class="grid2">${card('Grounding (SM82-4GS “QUAD DA FRAME GROUNDING DIAGRAM”)','<div id="mxGnd"></div>')}${card('D8212F transition backplane (MF8212TR.NET)','<div id="mxTrm"></div>')}</div>`
    + card('Timeline', '<canvas id="mxTl"></canvas>');
@@ -263,7 +273,7 @@ function viewSim(m){
   SIM.on('time', t=>{
     m.querySelector('#mxCmp').innerHTML=compareHTML();
     if (famKey!==D.fam+D.trPos){ famKey=D.fam+D.trPos; m.querySelector('#mxFam').innerHTML=famHTML(); }
-    m.querySelector('#mxRef').innerHTML=refPanelSVG(t); m.querySelector('#mxPsu').innerHTML=psuHTML(); m.querySelector('#mxGnd').innerHTML=groundHTML(); m.querySelector('#mxTrm').innerHTML=trHTML(); m.querySelector('#mxTr').innerHTML=traceHTML();
+    m.querySelector('#mxRef').innerHTML=refPanelSVG(t); m.querySelector('#mxPsuArt').innerHTML=psuArtSVG(); m.querySelector('#mxPsu').innerHTML=psuHTML(); m.querySelector('#mxGnd').innerHTML=groundHTML(); m.querySelector('#mxTrm').innerHTML=trHTML(); m.querySelector('#mxTr').innerHTML=traceHTML();
     m.querySelector('[data-all]').textContent=D.allSlots?'Feed POS.12 only (1999 rear art)':'Feed every position (MF8212-3.DSN bus)';
     bindAll(m); SIM.drawLanes(m.querySelector('#mxTl'), lanes(), {labelW:200});
   });
@@ -361,6 +371,7 @@ function viewSoft(m){
 function viewFind(m){
   window[FLAG]=false;
   const F=[
+   ['Artwork 2026|59: the rear power cover now comes from '+SIM.src(PSU_CDR,'PSU.cdr')+' (2000-04-05).','It is the earliest issue of the cover silk later re-drawn as '+SIM.src('#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/MF8212RM2-SILK(CURVE).cdr','MF8212RM2-SILK(CURVE).cdr')+' (2016): same PS1 / PS2, chassis and earth symbols and CAUTION block, but its BNC legends read REF OUT (left) / REF IN (right), the order the 2015 issue kept and the 2016 issue reversed. Both files carry the same hidden leftovers under CAUTION — two small circles joined by a line, and here white letters “E N C E”. '+SIM.src('#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/MF82SILK.CDR','MF82SILK.CDR')+' (1999) is a CorelDRAW 5 file whose text converts to symbol junk (only “1.5 / 0.75 A SB” survives in the sidecar), so it is not used as art.'],
    ['Superseded set that the masters still point to.','The README counts 18 drawing numbers present both here and in <span class="mono">D8210 & D8212 - #Master</span>. Only two files are byte-identical across the two trees: <span class="mono">MF8212 - #Engineering/MF82SILK.CDR</span> = <span class="mono">…#Mechanical #DA #2016/OLDER ISSUES/MF82SILK.CDR</span>, and <span class="mono">D8212E/ACAD/82-008-1.dwg</span> = the master <span class="mono">82-008-1 ISS1 (MTG. BLOCK).dwg</span>. Yet the master PDFs’ title blocks still say “FOLDER: MFXX/…”.'],
    ['The reference reaches one slot, or all of them.','<span class="mono">MF82XXRR.CDR</span> (1999 rear art): “*POS.12 This position may be synchronized to the Reference Input BNCs” (and *POS.10 on the MF-82/10). <span class="mono">MF8212-3.DSN</span> and <span class="mono">MF8210.DSN</span> draw an AES REF BUS and VIDEO REFERENCE along the frame. Toggle both on the Simulator tab.'],
    ['MF8210 pitch is 1.260 in, not 1.2.','<span class="mono">MF8210RM1 ISS 2</span>: “9 PITCHES OF 1.260 = 11.340”, in the same 17.090 in housing as the MF8212 (11 × 1.000). The d8210-d8212 plugin uses 1.2 in as an inferred value.'],
@@ -379,6 +390,13 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes:[
+    {text:'PSU.cdr (2000) labels the rear BNCs REF OUT (left) and REF IN (right); MF8212RM2-SILK(CURVE).cdr (2016) swaps them to REF IN / REF OUT.', src:'#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/PSU.cdr'},
+    {text:'PSU.cdr has no cut lines for the IEC windows, posts or BNC holes; only the ink and crop marks are drawn.', src:'#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/PSU.cdr'},
+    {text:'PSU.cdr hides four white letters (“E N C E”) and two unfilled circles under the CAUTION block, leftovers of an older REFERENCE legend.', src:'#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/PSU.cdr'},
+    {text:'Backup_of_PSU.cdr (2000-02-11) sits beside PSU.cdr (2000-04-05) as an earlier save.', src:'#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/Backup_of_PSU.cdr'},
+    {text:'MF82SILK.CDR (1999) is CorelDRAW 5: on conversion its 95 text objects become symbol junk; only “1.5 / 0.75 A SB” is readable.', src:'#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/MF82SILK.CDR'},
+    {text:'The PS door silk is kept four times in MFXX: 8210-8212PS.cdr (root), MF8210/8210-8212PSDOOR.cdr and MF8212/Backup_of_8210-8212PSDOOR.cdr (all 16,282 bytes, 2001-06-28), and MF8212/8210-8212PSDOOR.cdr (16,938 bytes, 2016-06-21).', src:'#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82/MF8212 - #Engineering/8210-8212PSDOOR.cdr'} ],
   id:'mfxx', product:'MFXX DA frame', year:2000, family:'8200 Distribution Series',
   folder:'#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82',
   name:'MFXX DA frame · MF82 frame engineering collection (1994|27–2013|46)',

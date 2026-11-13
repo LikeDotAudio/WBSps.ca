@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD12A](../siumulation.html?plugin=pod12a) · [simulator & front panel](../simulator.html?m=POD12A) · [KiCad symbol generator](../kicad.html?m=POD12A) · [download package (zip)](../_packages/POD12A.zip) |
+| Try it | [full simulation: POD12A](../siumulation.html?plugin=pod12a) · [KiCad symbol generator](../kicad.html?m=POD12A) · [download package (zip)](../_packages/POD12A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD12A MANUAL(1).docx |
 | Confidence | medium |
@@ -83,41 +83,8 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD12A - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD12A - MANUAL (2).docx](../Products/PODS/POD12A/2014%20-%20POD12A%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD12A",
- "name": "Digital Audio DA",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD12A/2014 - POD12A - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD12A/2014 - POD12A - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD12A/2014 - POD12A - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. The rear power legend stops at “100-230 VAC, 50-60 Hz,” with a trailing comma and no fuse rating. — `#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr`
+2. The rear on this sheet is the 75 Ω BNC build; the 75/110 rear variants are on a separate sheet. — `#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-75-110-REAR SILK(FINAL CURVE).cdr`
+3. POD12A-FRONT(FINAL CURVE).cdr is stored twice, in “POD12A - Artwork” and in the 2016 drafting set (same size). — `#POD #SERIES/POD12A - #Master/POD12A - Artwork/POD12A-FRONT(FINAL CURVE).cdr`

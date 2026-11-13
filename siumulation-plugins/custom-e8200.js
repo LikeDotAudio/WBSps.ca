@@ -365,6 +365,8 @@ function viewNotes(m){ window.__e8200Active=false;
   +card('Assumptions',`<ul class="small"><li>Signal types per pin are read from the names; voltages (+4 dBu analog, 2.5 V / 1 V AES legs, ±12 V supplies, 5 V tallies) are ${inf}.</li><li>Connector geometry is from the D-sub and 0.156″ edge-connector standards; the module itself is not drawn anywhere.</li><li>Which drawing of E8200D is correct is not decided by the archive.</li></ul>`)
   +card('Sources',`<ul class="small mono"><li>XXX - CUSTOM - E8200 - #Engineering/E8200C.pdf · E8200D PINOUTS.pdf · E8200D.cdr · E8200D PINOUTS.cdr</li><li>siumulation-plugins/m8200-terminations.js · d8203.js · d8204.js (card context)</li></ul>`); }
 SIM.register({
+  footnotes: [{"text": "No panel artwork exists for the E8200 extenders: E8200D.cdr is a DB37-to-edge wiring sheet titled “E8200D MODULE EXTENDER”.", "src": "#CUSTOM #SYSTEMS/XXX - CUSTOM - E8200 - #Engineering/E8200D.cdr"}, {"text": "On the pinout sheet the D8204A tally labels “(CONF TALLY)” and “(NO LOCK TALLY)” run past their cell into the next column.", "src": "#CUSTOM #SYSTEMS/XXX - CUSTOM - E8200 - #Engineering/E8200D PINOUTS.cdr"}],
+  
   id:'custom-e8200', name:'E8200 · custom MF8200 card-to-D-sub extender ('+SIM.year(2004)+')', duration:1, product:'CUSTOM - E8200', year:2004,
   family:'Obsolete products', folder:'#CUSTOM #SYSTEMS/XXX - CUSTOM - E8200 - #Engineering',
   summary:'Two pinout sheets for a passive module that brings an 8200-series card\'s 30-way edge out to a D-sub: E8200C (DB25, for CBC, M8204/M8205) and E8200D (DB37, eight D82xx cards, with power). The model traces every pin and shows the signal it carries.',

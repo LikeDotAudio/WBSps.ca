@@ -16,7 +16,7 @@ tags: ["product", "buddies", "2010s"]
 |---|---|
 | Type | product |
 | Series | [BUDDIES](Series-BUDDIES.md) |
-| Try it | [full simulation: ABB1](../siumulation.html?plugin=abb1) · [simulator & front panel](../simulator.html?m=ABB1) · [KiCad symbol generator](../kicad.html?m=ABB1) · [download package (zip)](../_packages/ABB1.zip) |
+| Try it | [full simulation: ABB1](../siumulation.html?plugin=abb1) · [KiCad symbol generator](../kicad.html?m=ABB1) · [download package (zip)](../_packages/ABB1.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jan.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/Buddies/ABB1 Manual(1).docx |
 | Confidence | medium |
@@ -91,41 +91,12 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2015 - ABB1 - Manual.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - ABB1 - Manual.docx](../Products/BUDDIES/ABB1/2015%20-%20ABB1%20-%20Manual.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "ABB1",
- "name": "Audio Bit Buddy Portable Digital/Analog Audio Monitor",
- "category": "BUDDIES",
- "year": 2015,
- "documents": [
-  {
-   "file": "Products/BUDDIES/ABB1/2015 - ABB1 - Information Sheet.jpg",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/BUDDIES/ABB1/2015 - ABB1 - Manual (2).docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/BUDDIES/ABB1/2015 - ABB1 - Manual.docx",
-   "year": 2015,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  }
- ]
-}
-```
+1. The front silk ABBFSLK2.cdr has eight status rows but only seven right-hand (ERROR mode) legends: the bottom LED, which the firmware lights for a real no-lock, has no ERROR legend. — `ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr`
+2. The ERROR legends skip the receiver's “slipped sample” code, so CRC, PARITY, BIPHASE and NO LOCK each sit one LED below the code that lights them. — `ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr`
+3. The panel title “Audio Bit Buddy ABB-1” is set in Hobo-WP; libcdr keeps it as live text, so the simulator still uses the photo for the title. — `ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr`
+4. libcdr places the legends of ABBFSLK2.cdr as if they were twice their size; right-aligned and centred legends had to be re-anchored by hand. — `ABB1 - #Master/ABB1 - #Engineering/ABBFSLK2.cdr`
+5. ABBFSLK2.cdr is stored twice, byte-identical, in ABB1 - #Engineering and ABB1 - #Engineering/ABB1 - #ARCHIVE. — `ABB1 - #Master/ABB1 - #Engineering/ABB1 - #ARCHIVE/ABBFSLK2.cdr`
+6. The earlier front silk abbfslk.CDR (1999-09-20) is a CorelDRAW 5 file whose text libcdr decodes byte-swapped (“LOCK” comes out as two CJK characters). — `ABB1 - #Master/ABB1 - #Engineering/abbfslk.CDR`
+7. ABB-1SLK.CDR, the only rear-panel CorelDRAW file, holds five guide lines and no legend; the rear legend in the simulator comes from the 2010 photo. — `ABB1 - #Master/ABB1 - #Engineering/ABB-1SLK.CDR`

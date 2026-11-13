@@ -93,7 +93,7 @@ const A = {
 function topSVG(){
   return `<svg viewBox="0 0 864 512" role="img" aria-label="microMATCH top cover, real silkscreen" style="width:100%;max-width:640px;display:block;border-radius:6px">
     <rect width="864" height="512" fill="var(--dev)"/>
-    <image href="${ASSET}micromatch-top-green.png" width="864" height="512"/><image href="${ASSET}micromatch-top-white.png" width="864" height="512"/>
+    <image href="${ASSET}micromatch-top-green.svg" width="864" height="512"/><image href="${ASSET}micromatch-top-white.svg" width="864" height="512"/>
     ${[110,412].map(y=>`<circle cx="59" cy="${y}" r="9" fill="#555a5e"><title>Cover screw (“2 PLC'S (FROM OTHER SIDE)” in MICROMATCH-TOP ISS.1)</title></circle>`).join('')}
     </svg><div class="small muted">Top cover · 4.32 × 2.56 in · black (Polane T F63B120), green + white ink (real separations)</div>`;
 }
@@ -174,7 +174,7 @@ function bindControls(m){
   q('#mlv').oninput=e=>{ D.lvl=+e.target.value; up(); SIM.refresh(); }; q('#mfl').onchange=e=>{D.fL=+e.target.value; SIM.refresh();}; q('#mfr').onchange=e=>{D.fR=+e.target.value; SIM.refresh();};
   q('#mph').onchange=e=>{ D.phaseR=e.target.checked?1:0; SIM.refresh(); }; q('#msu').onchange=e=>{ D.supply=e.target.value; SIM.refresh(); }; q('#mrs').onclick=()=>A.reset(); up();
 }
-function unitHTML(){ return `<div style="display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap"><div style="flex:1;min-width:260px"><div id="tp"></div><div id="fe" style="margin-top:6px"></div></div><div id="en"></div></div>`; }
+function unitHTML(){ return `<div style="display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap"><div style="flex:1;min-width:260px"><div id="tp"></div><div id="fe" style="margin-top:6px"></div><div class="small muted" style="margin-top:4px">Top-cover artwork: ${SIM.src('microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr','MICROMATCH(FINAL CURVE).cdr')} (MAR.16/15), GREEN + WHITE plates as vector art; grey lines are the cover outline guides.</div></div><div id="en"></div></div>`; }
 function drawUnit(m){ m.querySelector('#tp').innerHTML=topSVG(); m.querySelector('#fe').innerHTML=frontSVG(); m.querySelector('#en').innerHTML=endSVG(); bind(m); }
 function viewSim(m){
   m.innerHTML=`<div class="grid2"><div>${card('microMATCH: top cover (real silk), front edge and ADJUST end, drawn to scale', unitHTML()+controls())}</div>
@@ -260,6 +260,7 @@ function viewPath(m){
 }
 function viewFindings(m){
   m.innerHTML=card('What the archive says about microMATCH', `<ol>
+   <li><b>Artwork 2026|59: top cover now from ${SIM.src('microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr','MICROMATCH(FINAL CURVE).cdr')} (MAR.16/15).</b> The GREEN and WHITE plates are drawn as vector art (assets/micromatch-top-green.svg, -top-white.svg) on the same frame as the earlier cut, so the terminals, TRS and trims stay on their legends. Two green screw marks sit at the left edge, matching the top-cover drawing's “2 PLC'S”.</li>
    <li><b>Only the outside survives.</b> The folder holds the silkscreen (2 CorelDRAW files, MAR.16/15) and the cover drawings (ISS.1, March–April 2016|49). There is no schematic, PCB, BOM or manual. A search of the whole archive's sidecars finds no other file that mentions microMATCH. Everything electrical in this plugin is ${inf}.</li>
    <li><b>The silk was drawn a year before the covers.</b> The silk is dated MAR.16/15 (2015|48). The covers are ISS.1 from 15 March 2016 (bottom) and 7 April 2016 (top and the flat layout). The artwork came first.</li>
    <li><b>The labels define the interface.</b> POWER (with a 0.33 × 0.14 in cut-out and a .130 in LED hole), a 12-way terminal block (OUT R + − G, L + − G, MONO + − G, IN L G R), a 3.5 mm TRS (T = L, R = R, S = G), and two .250 in end holes marked ADJUST R (upper) and L (lower). That is consistent with a consumer-to-professional stereo matching interface with a mono sum.</li>
@@ -271,6 +272,13 @@ function viewFindings(m){
    + card('Assumptions in this simulation', `<ul class="small"><li>Consumer −10 dBV in, +4 dBu out, L/R trims 0 to +20 dB, symmetric active balanced outputs, MONO = (L+R)/2 ${inf}.</li><li>Supply: 5 V (a micro-USB-sized cut-out) or ±15 V, selectable; outputs clip 0.2 V or 1.5 V from each rail ${inf}.</li><li>Panel drawings: positions measured from the 1:1 views in MICROMATCH(FINAL CURVE).cdr. The ink is the real separation.</li></ul>`);
 }
 SIM.register({
+  footnotes:[
+    {text:'The outputs are labelled R before L, left to right.', src:'microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr'},
+    {text:'The IN terminals read L G R (ground in the middle), but the TRS legend beside them reads L R G.', src:'microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr'},
+    {text:'The silk is dated MAR.16/15, a year before the ISS.1 cover drawings (March–April 2016).', src:'microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH(FINAL CURVE).cdr'},
+    {text:'The bottom-cover note reads “ALL BENS ARE 90 DEG.” (for BENDS).', src:'microMATCH - #MASTER'},
+    {text:'The two ISS.1 DWGs in the folder root duplicate those in MICRO MATCH - #MECHANICAL/.', src:'microMATCH - #MASTER'},
+    {text:'The silk was kept as a live-text MICROMATCH.cdr and a curve copy MICROMATCH(FINAL CURVE).cdr.', src:'microMATCH - #MASTER/MICRO MATCH - #Silks/MICROMATCH.cdr'}],
   id:'micromatch', name:'microMATCH · stereo level-matching box (2015|48)', duration:1,
   product:'microMATCH', year:2015, family:'Monitors, meters & tools', folder:'microMATCH - #MASTER',
   summary:'A small Ward-Beck “micro” box. The archive keeps only its silkscreen and cover drawings: POWER, a 3.5 mm TRS input, a 12-way terminal block (OUT R, L, MONO as + − G, IN L G R) and two ADJUST trimmers. The plugin shows the real artwork and holes to scale, and models the consumer-to-pro matching that those labels suggest.',

@@ -15,7 +15,7 @@ tags: ["module", "ravenna-aes67", "2020s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [full simulation: PREmo AES67 mic preamp (RD88)](../siumulation.html?plugin=premo) · [simulator & front panel](../simulator.html?m=preMO-222) · [KiCad symbol generator](../kicad.html?m=preMO-222) |
+| Try it | [full simulation: PREmo AES67 mic preamp (RD88)](../siumulation.html?plugin=premo) · [KiCad symbol generator](../kicad.html?m=preMO-222) |
 | Earliest dated evidence | [2021\|54](Year-2021.md) — dated folder |
 | Evidence | in "2021 Information sheets" |
 | Confidence | low (named by) |
@@ -32,20 +32,7 @@ tags: ["module", "ravenna-aes67", "2020s"]
 |---|---|---|
 | ? | [19xx - preMO-222 - Information Sheet.jpg](../Products/RAVENNA%20AES67/preMO-222/19xx%20-%20preMO-222%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/preMO-222/19xx%20-%20preMO-222%20-%20Information%20Sheet.jpg.md) |
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "preMO-222",
- "category": "RAVENNA AES67",
- "year": 2021,
- "documents": [
-  {
-   "file": "Products/RAVENNA AES67/preMO-222/19xx - preMO-222 - Information Sheet.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The front-panel drawing says “SILKSCREEN TO ARTWORK #PREMO222-FRONT &amp; REAR-SILK”, but no such artwork file (CorelDRAW, PDF or otherwise) is in the archive, so the panels here stay drawn from the PCB assembly drawings. — `#PREmo #Series/RD88-MICpre/PREmo - #Mechanical #DA #2016/PREMO222-FRONT ISS.1(PANEL).pdf`
+2. The PREMO222 panels are 0.250 in aluminium, powder-coated San Tex black (Protech PX611N331), with the silkscreen applied before the powder coat. — `#PREmo #Series/RD88-MICpre/PREmo - #Mechanical #DA #2016/PREMO222-FRONT ISS.1(PANEL).pdf`

@@ -16,7 +16,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: MP 8100 meter panels](../siumulation.html?plugin=mp8100) · [simulator & front panel](../simulator.html?m=MP4) · [KiCad symbol generator](../kicad.html?m=MP4) · [download package (zip)](../_packages/MP4.zip) |
+| Try it | [full simulation: MP 8100 meter panels](../siumulation.html?plugin=mp8100) · [KiCad symbol generator](../kicad.html?m=MP4) · [download package (zip)](../_packages/MP4.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/MP4 MANUAL(1).docx |
 | Confidence | medium |
@@ -29,7 +29,7 @@ tags: ["product", "metering", "2010s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="MP4" data-n="Classic Rackmount Analog Needle Meter" data-cat="METERING"></div><svg class="wbs-panel" data-m="MP4" data-n="Classic Rackmount Analog Needle Meter" data-cat="METERING" role="img" aria-label="MP4 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"MP4","title":"Classic Rackmount Analog Needle Meter","rto":null,"parts":[],"parents":[{"label":"MP3","href":"MP3.html","note":"on 5 drawings with it"},{"label":"MP2","href":"MP2.html","note":"on 5 drawings with it"},{"label":"MP1","href":"MP1.html","note":"on 5 drawings with it: PPM/VU Meter"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="MP4" data-n="Classic Rackmount Analog Needle Meter" data-cat="METERING"></div><svg class="wbs-panel" data-m="MP4" data-n="Classic Rackmount Analog Needle Meter" data-cat="METERING" role="img" aria-label="MP4 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"MP4","title":"Classic Rackmount Analog Needle Meter","rto":null,"parts":[],"parents":[{"label":"MP2","href":"MP2.html","note":"on 5 drawings with it"},{"label":"MP1","href":"MP1.html","note":"on 5 drawings with it: PPM/VU Meter"},{"label":"MP3","href":"MP3.html","note":"on 5 drawings with it"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 <a id="software"></a>
 
@@ -87,95 +87,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - MP4 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - MP4 - MANUAL (2).docx](../Products/METERING/MP4/2014%20-%20MP4%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "MP4",
- "name": "Classic Rackmount Analog Needle Meter",
- "category": "METERING",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - $_57-1.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - $_57-2.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - $_57-3.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - $_57-4.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - $_57.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - (2P2V) Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - (PPM) Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - (VU) Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/METERING/MP4/2014 - MP4 - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/METERING/MP4/19xx - MP4 - DOC - MP Series Information Sheet.jpg",
-   "year": null,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  }
- ]
-}
-```
+1. Despite “(CURVE)” in its name, 8100MP-FRONT-SILK keeps the title “MP SERIES by WARD-BECK SYSTEMS” as live Hobo Std text; only its CorelDRAW PDF export carries the glyph outlines. — `#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR`
+2. The front silk is a single line of text plus two ellipses marking the left rack slots as a reference. — `#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR`
+3. The rear legend states 115 VAC, 1A SB only; there is no 230 V marking. — `#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR`
+4. The rear silk's guides put the four rack-ear holes at 0.17 in / 16.53 in across and 0.52 in / 2.78 in up on the 16.7 in × 3.27 in plate. — `#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR`
+5. Both silk files are stored twice, in 8100 CHASSIS - #ARTWORK #DA #2016 and in SILKS. — `#MP (8100) #SERIES/SILKS/8100MP-REAR-SILK (CURVE).CDR`

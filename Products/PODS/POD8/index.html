@@ -58,7 +58,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../../../siumulation.html?plugin=pod8">full simulation: POD8</a> · <a href="../../../simulator.html?m=POD8">simulator &amp; front panel</a> · <a href="../../../kicad.html?m=POD8">KiCad symbol generator</a> · <a href="../../../_packages/POD8.zip">download package (zip)</a></td>
+<td><a href="../../../siumulation.html?plugin=pod8">full simulation: POD8</a> · <a href="../../../kicad.html?m=POD8">KiCad symbol generator</a> · <a href="../../../_packages/POD8.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -209,67 +209,13 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <ul>
 <li>source: <a href="../../../viewer.html?f=Products/PODS/POD8/2014%20-%20POD8%20-%20MANUAL%20%282%29.docx">2014 - POD8 - MANUAL (2).docx</a>, p. 1</li>
 </ul>
-<details class="json"><summary>Contents (JSON)</summary><pre>{
- &quot;device&quot;: &quot;POD8&quot;,
- &quot;name&quot;: &quot;Stereo Distribution Amplifier&quot;,
- &quot;category&quot;: &quot;PODS&quot;,
- &quot;year&quot;: 1995,
- &quot;documents&quot;: [
-  {
-   &quot;file&quot;: &quot;Products/PODS/POD8/1995 - POD8 - Front.jpg&quot;,
-   &quot;year&quot;: 1995,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: []
-  },
-  {
-   &quot;file&quot;: &quot;Products/PODS/POD8/1995 - POD8 - POD8 - FAPOD8 - DRAWING (AUTOCAD).dwg&quot;,
-   &quot;year&quot;: 1995,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: [
-    &quot;dates&quot;
-   ]
-  },
-  {
-   &quot;file&quot;: &quot;Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-1 - WIRING.dwg&quot;,
-   &quot;year&quot;: 1995,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: []
-  },
-  {
-   &quot;file&quot;: &quot;Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-2 - LAYOUT.dwg&quot;,
-   &quot;year&quot;: 1995,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: []
-  },
-  {
-   &quot;file&quot;: &quot;Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-3 - LAYOUT.dwg&quot;,
-   &quot;year&quot;: 1995,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: []
-  },
-  {
-   &quot;file&quot;: &quot;Products/PODS/POD8/1995 - POD8 - Rear.jpg&quot;,
-   &quot;year&quot;: 1995,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: []
-  },
-  {
-   &quot;file&quot;: &quot;Products/PODS/POD8/2014 - POD8 - MANUAL (2).docx&quot;,
-   &quot;year&quot;: 2014,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: [
-    &quot;dates&quot;,
-    &quot;sections&quot;
-   ]
-  },
-  {
-   &quot;file&quot;: &quot;Products/PODS/POD8/2014 - POD8 - MANUAL.docx&quot;,
-   &quot;year&quot;: 2014,
-   &quot;pages&quot;: 1,
-   &quot;holds&quot;: [
-    &quot;dates&quot;,
-    &quot;sections&quot;
-   ]
-  }
- ]
-}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD8.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+<h2>Footnotes</h2>
+<ol>
+<li>The issue-2 rear silk outlines the IEC inlet cut-out centred at 7.42 in, about 0.45 in left of detail D on the mirrored POD8-REAR ISS 4 drawing; the simulator follows the silk. — <code>#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8-rearSILK-iss2.cdr</code></li>
+<li>The 1997 front silk's text is byte-swapped by libcdr; decoded, it reads “by Ward-Beck Systems”, “PODS”, “OUTPUT LEVEL ADJUST”, “POD-8 STEREO AUDIO DA”, LEFT, RIGHT, INPUT. Their positions are lost. — <code>#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8SILK.CDR</code></li>
+<li>The 1997 silk's own rear plate converts only four crosshairs; its decoded text includes “115 VAC, 1/2 A.S.B.” and “DISCONNECT POWER / BEFORE SERVICING”. — <code>#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8SILK.CDR</code></li>
+<li>The rear issue-2 caution text (“CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE”) is one multi-line live-text block. — <code>#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/Obsolete/POD8-rearSILK-iss2.cdr</code></li>
+<li>“POD8A-FRONT &amp; REAR-PHX FINAL CURVE.cdr” in the POD8 SILK folder is the 16-output POD8A face, not POD8. — <code>#POD #SERIES/xxx - POD8 - #Master #OBSOLETE/POD8 - #Engineering/POD8 - #SILK/POD8A-FRONT &amp; REAR-PHX FINAL CURVE.cdr</code></li>
+<li>POD8A-FRONT&amp;REAR-XLR-SILK.cdr is stored twice (ARTWORK and BLACK RACK folders). — <code>#POD #SERIES/POD8A - #Master/POD8A - BLACK RACK - #Mechanical #DA #2016/POD8A-FRONT&amp;REAR-XLR-SILK.cdr</code></li>
+<li>POD8-REAR ISS 4 is an inside view (IEC on the left), mirrored from the silk. — <code>#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - OBSOLETE/POD8 - MECHANICAL/POD8-REAR ISS 4 (PANEL).pdf</code></li>
+</ol><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD8.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

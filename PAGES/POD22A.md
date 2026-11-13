@@ -16,7 +16,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [full simulation: POD22A](../siumulation.html?plugin=pod22a) · [simulator & front panel](../simulator.html?m=POD22A) · [KiCad symbol generator](../kicad.html?m=POD22A) · [download package (zip)](../_packages/POD22A.zip) |
+| Try it | [full simulation: POD22A](../siumulation.html?plugin=pod22a) · [KiCad symbol generator](../kicad.html?m=POD22A) · [download package (zip)](../_packages/POD22A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD22A MANUAL(1).docx |
 | Confidence | medium |
@@ -73,53 +73,10 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 <details><summary>Warranty — 0 words · 2014 - POD22A - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD22A - MANUAL (2).docx](../Products/PODS/POD22A/2014%20-%20POD22A%20-%20MANUAL%20%282%29.docx), p. 1
 
-## Contents (JSON)
+## Footnotes
 
-```json
-{
- "device": "POD22A",
- "name": "Stereo Loudness Meter",
- "category": "PODS",
- "year": 2014,
- "documents": [
-  {
-   "file": "Products/PODS/POD22A/2014 - POD22A - Front.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  },
-  {
-   "file": "Products/PODS/POD22A/2014 - POD22A - Information Sheet.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD22A/2014 - POD22A - MANUAL (2).docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD22A/2014 - POD22A - MANUAL.docx",
-   "year": 2014,
-   "pages": 1,
-   "holds": [
-    "dates",
-    "sections"
-   ]
-  },
-  {
-   "file": "Products/PODS/POD22A/2014 - POD22A - Rear.jpg",
-   "year": 2014,
-   "pages": 1,
-   "holds": []
-  }
- ]
-}
-```
+1. The front cut-out layer has two round holes with no legend, inboard of the rack screws (display-board fixings, inferred). — `#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr`
+2. The rear shows two D-shaped holes under “115 VAC, 1/2 A.S.B.” for the fuse holder and power inlet. — `#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr`
+3. Four vent slots sit above the CONTROL connector on the rear. — `#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr`
+4. The AES BNC positions carry centre cross-hairs drawn as separate small layers, one per hole. — `#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr`
+5. The green plate carries the Ward-Beck Systems logo bottom right instead of the “PODS” logo used on the other PODs. — `#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr`

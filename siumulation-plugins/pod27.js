@@ -905,7 +905,8 @@ function viewNotes(m){
 
 /* ---------------- register plugin ---------------- */
 loadScenario('run');
-SIM.register({
+SIM.register({ footnotes:[{text:"The rear panel has a small Ø 4.2 mm hole above the right fixing screw that no part in the model uses; the POD28 drawing calls the same hole a ground-stud insert, so it is probably the earth stud (inferred).",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr"},{text:"Every front hole has a legend and a part: PWR LED, CASCADE button and LED, SELECT, GR1–4, SDI, AES1, AES2 and ERROR. Nothing is drilled without being used.",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr"},{text:"The FINAL CURVE rear reads “115 VAC, ½ A.S.B.”, while the 2015 PDF and SILK/POD27SLK-ISS2.cdr read “100-240 VAC, 50-60 Hz”.",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr"},{text:"The 2015 drawing also carries a “POD-27 SDI MUXER” front with OUTPUT LEVEL ADJUST 1–6 trimmer holes, a six-output DA layout the POD27 never had.",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR.pdf"},{text:"The FINAL CURVE drawing has a “SELECT” legend under the group button that the 2010 photo of the unit does not show.",src:"#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr"}],
+  
   id:'pod27', name:'POD27 · SDI audio muxer, one AES group into SD-SDI ('+Y(2003)+')', duration:1,
   product:'POD27', year:2003, family:'POD series',
   folder:'#POD #SERIES/POD27 - #Master',

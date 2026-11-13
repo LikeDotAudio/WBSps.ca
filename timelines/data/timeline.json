@@ -21829,6 +21829,28 @@
    ]
   },
   {
+   "id": "S:avb-vid-buddy",
+   "type": "sim",
+   "label": "AVB1 VIDBuddy",
+   "name": "The 2002 \u201cAudio/Video Buddy\u201d handheld monitor: SDI or analog video on an LCD, and analog, AES or any of 8 embedded AES pairs on a 2 \u00d7 17 LED",
+   "category": "SIMULATIONS",
+   "year": 2002,
+   "confidence": "certain",
+   "source": "simulation catalogue",
+   "detail": "Obsolete products",
+   "years": [
+    2002
+   ],
+   "jobs": [],
+   "files": 0,
+   "folder": "",
+   "ads": [],
+   "page": "",
+   "sims": [
+    "avb-vid-buddy"
+   ]
+  },
+  {
    "id": "S:rlm24-2",
    "type": "sim",
    "label": "RLM24-2",
@@ -29097,12 +29119,12 @@
   },
   "pod11a": {
    "id": "pod11a",
-   "name": "POD11A \u00b7 stereo loudness meter, VU/PPM LED bars + phase (2014|47)",
+   "name": "POD11A \u00b7 digital stereo loudness meter, VU/PPM LED bars + phase (2014|47)",
    "product": "POD11A",
    "year": 2014,
    "family": "POD series",
-   "summary": "Half-rack AES-input stereo meter with two 57-segment bars (VU and peak ranges), a phase meter and LOCK/ERROR tallies, set up by a rear DIP switch. Only the panels survive, so the metering uses the SLM-1 SHARC code (VU, PPM, peak, phase) from the POD3A folder; the year comes from the 2014 silk date.",
-   "depth": "Hardware model",
+   "summary": "Half-rack AES-input stereo meter: two 41-LED bars showing VU and PPM together, a sticky peak LED, a 7-LED phase meter and LOCK/ERROR, set up by a rear DIP switch. The model follows the POD11A manual and the digital SLM-1 ADSP-21065L code (VU, PPM, peak, phase, sample-rate detection); the year comes from the 2014 silk date.",
+   "depth": "Full model",
    "tabs": [
     [
      "sim",
@@ -29122,11 +29144,11 @@
     ],
     [
      "schematic",
-     "Schematics (algorithm)"
+     "Schematics (from the code)"
     ],
     [
      "software",
-     "Software (SLM-1)"
+     "Software (digital SLM-1)"
     ],
     [
      "findings",
@@ -29141,8 +29163,8 @@
    "product": "POD12A",
    "year": 2013,
    "family": "POD series",
-   "summary": "Half-rack AES/EBU distribution amplifier: one input to eight outputs or two inputs to four each, with optional sample-rate conversion (AD1895) and cable equalisation (EL5263), in 75 \u03a9 BNC or 110 \u03a9 Phoenix versions. CS8416 receivers, an EP1C3 FPGA and an AT90CAN128 MCU.",
-   "depth": "Hardware model",
+   "summary": "Half-rack AES/EBU distribution amplifier: one input to eight outputs or two inputs to four each, with an SRC mode that puts INPUT A on INPUT B\u2019s clock (AD1895) and a cable-EQ receiver input (EL5263), in 75 \u03a9 BNC or 110 \u03a9 Phoenix versions. Modelled from the real MCU firmware (V020000) and FPGA design (D6201A), archived in the obsolete POD12 folder.",
+   "depth": "Full model",
    "tabs": [
     [
      "sim",
@@ -29166,7 +29188,7 @@
     ],
     [
      "software",
-     "Signal path"
+     "Software (V020000 + D6201A)"
     ],
     [
      "findings",
@@ -29181,8 +29203,8 @@
    "product": "POD13A",
    "year": 2008,
    "family": "POD series",
-   "summary": "Half-rack dual AES/EBU to analog converter with 75 \u03a9 BNC and 110 \u03a9 Phoenix inputs, LOCK/NO LOCK tallies and a rear CAL DIP switch (\u221220/\u221218/\u221212 dBFS = +4 dBu). CS8416 receivers, a LatticeXP FPGA and AK4396 DACs feed balanced NE5532 line drivers.",
-   "depth": "Hardware model",
+   "summary": "Half-rack dual AES/EBU to analog converter with 75 \u03a9 BNC and 110 \u03a9 Phoenix inputs, LOCK/NO LOCK tallies and a rear CAL DIP switch (\u221220/\u221218/\u221212 dBFS = +4 dBu, fourth setting mutes). Modelled from the archived ATmega128 (Atmel V100) and LatticeXP (Lattice V100) code: CS8416 receivers, input hunting, FPGA rate detection and AK4396 DACs.",
+   "depth": "Full model",
    "tabs": [
     [
      "sim",
@@ -29206,7 +29228,7 @@
     ],
     [
      "software",
-     "Signal path"
+     "Software (Atmel + Lattice V100)"
     ],
     [
      "findings",
@@ -29261,7 +29283,7 @@
    "product": "POD15A",
    "year": 2014,
    "family": "POD series",
-   "summary": "Half-rack composite video distribution amplifier: a looping Hi-Z input, a 0\u2013600 m cable equaliser, a back-porch clamp, a level trim and seven 75 \u03a9 outputs (six rear, one front monitor). Only the panels survive, so the circuit is modelled from the legends and the older POD15 manual (year from the 2014 silk date).",
+   "summary": "Half-rack composite video distribution amplifier: a differential looping input, a level trim, a back-porch clamp, a 0\u2013600 m cable equaliser and seven 75 \u03a9 outputs driven in pairs (six rear, one front monitor). The circuit is the real POD15A issue 3 netlist, archived in the obsolete POD15 folder (year from the 2014 silk date).",
    "depth": "Hardware model",
    "tabs": [
     [
@@ -29282,7 +29304,7 @@
     ],
     [
      "schematic",
-     "Schematics (inferred)"
+     "Schematics (redrawn)"
     ],
     [
      "software",
@@ -33946,6 +33968,46 @@
     ]
    ],
    "preview": "siumulation-plugins/previews/st8201a.png"
+  },
+  "avb-vid-buddy": {
+   "id": "avb-vid-buddy",
+   "name": "AVB1 VIDBuddy \u00b7 handheld audio/video monitor (2002|35)",
+   "product": "AVB1 VIDBuddy",
+   "year": 2002,
+   "family": "Obsolete products",
+   "summary": "The 2002 \u201cAudio/Video Buddy\u201d handheld monitor: SDI or analog video on an LCD, and analog, AES or any of 8 embedded AES pairs on a 2 \u00d7 17 LED meter and the headset, from a 12 V NiCd pack. Three PIC16F874s run the archived firmware cycle by cycle in this model: U200 (buttons, battery), U201 (meter) and U4 (CS8415, GS9023, ADV7171), talking over a 9600 Bd link.",
+   "depth": "Full model",
+   "tabs": [
+    [
+     "sim",
+     "Simulator"
+    ],
+    [
+     "tutorial",
+     "Tutorial: using the VIDBuddy"
+    ],
+    [
+     "second",
+     "One second, broken down"
+    ],
+    [
+     "block",
+     "Block diagram"
+    ],
+    [
+     "schematic",
+     "Schematics"
+    ],
+    [
+     "software",
+     "Software"
+    ],
+    [
+     "findings",
+     "Findings"
+    ]
+   ],
+   "preview": ""
   },
   "pod8": {
    "id": "pod8",

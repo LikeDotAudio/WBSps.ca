@@ -416,6 +416,18 @@ const A = {
 /* ================================================================
    PANELS on the real silkscreen (SLM-1M7 lens, SLM-1M2 rear), 200 dpi px
    ================================================================ */
+/* Artwork 2026|59: the default faces are the CorelDRAW vector art itself: assets/slm-front.svg from SLM-1M7-SILK(CURVE).cdr
+   (GREEN plate in green, WHITE plate moved 212.7 pt left onto it, mechanical lines grey; viewBox 148.61,163.33,
+   114.48 × 483.84 pt = the 200 dpi PNG frame, 0.6–0.7 pt inside the drawn outline) and assets/slm-rear.svg from
+   SLM-1M2-SILK(CURVE).cdr (244.98,181.09, 122.04 × 492.12 pt). LEDs, DIP switches, BNC and power jack stay on their
+   holes. Drill crosshairs (guide strokes) are left out. The PNGs stay behind the "PNG silk" toggle. */
+const ART = { png:false, DIR:'#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/', FRONT:'SLM-1M7-SILK(CURVE).cdr', REAR:'SLM-1M2-SILK(CURVE).cdr' };
+const artSrc = k => SIM.src(ART.DIR+ART[k], ART[k]);
+function artNote(){
+  return `<div class="small muted" style="margin-top:6px">Artwork: lens ${artSrc('FRONT')} (GREEN + WHITE plates) and rear ${artSrc('REAR')} (both Jun 6 2016), CorelDRAW vector art. <label><input type="checkbox" class="artpng" ${ART.png?'checked':''}> show the earlier PNG silk (200 dpi cut of the PDFs)</label></div>`;
+}
+function bindArt(m){ m.querySelectorAll('.artpng').forEach(c=> c.onchange=e=>{ ART.png=e.target.checked;
+  const f=m.querySelector('#fp'), r=m.querySelector('#rp'); if (f) f.innerHTML=frontSVG(); if (r){ r.innerHTML=rearSVG(); bindRear(r); } SIM.refresh(); }); }
 const BAR_X = [128, 189], LEDY = k => 178.5 + 15*k;
 const ZONE = k => k<=11? 0 : k<=27? 1 : 2;                  // red 20…9, amber 8…−7, green −8…−52 (measured on PICS/SLM1 (SLM-1M7).jpg)
 const ON_COL = ['#ff3b4f','#ffc23a','#b6ff3c'], OFF_COL = ['#3a1418','#3a2c10','#1d2c12'];
@@ -429,7 +441,7 @@ function frontSVG(){
   s += `<rect id="slmP0" x="${BAR_X[0]-8}" y="1061" width="16" height="11" rx="2" fill="#3a2a10"/><rect id="slmP1" x="${BAR_X[1]-8}" y="1061" width="16" height="11" rx="2" fill="#3a2a10"/>`;
   for (let q=0;q<9;q++) s += `<rect id="slmF${q}" x="${PH_X(q)-5.5}" y="${PH_Y-5}" width="11" height="10" rx="1.6" fill="${OFF_COL[2]}"/>`;
   s += `<rect id="slmNL" x="262" y="678" width="12" height="10" rx="2" fill="${OFF_COL[0]}"/><rect id="slmLK" x="262" y="786" width="12" height="10" rx="2" fill="${OFF_COL[2]}"/></g>
-    <image href="${ASSET}slm-front-green.png" width="318" height="1344"/><image href="${ASSET}slm-front-white.png" width="318" height="1344"/>
+    ${ART.png? `<image href="${ASSET}slm-front-green.png" width="318" height="1344"/><image href="${ASSET}slm-front-white.png" width="318" height="1344"/>` : `<image href="${ASSET}slm-front.svg" width="318" height="1344" preserveAspectRatio="none"/>`}
     <g class="slmHot"></g></svg>`;
   return s;
 }
@@ -461,7 +473,7 @@ function rearSVG(){
       ${D.power? `<rect x="219" y="1080" width="21" height="287" fill="#222"/><circle cx="229.5" cy="1080" r="22" fill="#2b2b2b" stroke="#111" stroke-width="3"/>` : ''}
       <rect x="190" y="1040" width="80" height="80" fill="transparent"><title>6 V adapter — click to ${D.power?'unplug (power off)':'plug in (power on)'}</title></rect></g>
     <circle cx="169.5" cy="1200" r="18" fill="#2a2b2d" stroke="#555"/><circle cx="169.5" cy="60" r="18" fill="#2a2b2d" stroke="#555"/><circle cx="169.5" cy="1308" r="18" fill="#2a2b2d" stroke="#555"/>
-    <image href="${ASSET}slm-rear-white.png" width="339" height="1367"/>
+    <image href="${ASSET}${ART.png?'slm-rear-white.png':'slm-rear.svg'}" width="339" height="1367" preserveAspectRatio="none" style="pointer-events:none"/>
   </svg>`;
 }
 function bindRear(root){
@@ -630,9 +642,9 @@ function viewSim(m){
   window.__slmKeys = true;
   m.innerHTML = `
   <div class="grid2">
-    <div>${card('SLM-1D at the playhead — front lens and rear panel (real 2016|49 silkscreens)', `
+    <div>${card('SLM-1D at the playhead — front lens and rear panel (real 2016|49 CorelDRAW artwork)', `
         <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:flex-start"><div id="fp" style="flex:1;min-width:150px;max-width:230px"></div><div id="rp" style="flex:1;min-width:150px;max-width:240px"></div>
-        <div style="flex:1.4;min-width:220px"><div id="legend" class="small"></div></div></div>
+        <div style="flex:1.4;min-width:220px"><div id="legend" class="small"></div></div></div>${artNote()}
         <div style="margin-top:10px">${sourceHTML()}</div>`)}</div>
     <div>${card('What the DSP firmware did (last action)', `<div id="trace" class="log"></div>`)}${card('State at the playhead', `<div id="insp"></div>`)}</div>
   </div>
@@ -640,7 +652,7 @@ function viewSim(m){
     <p class="small muted">Times inside one interrupt, the background pass length, the 147.456 MHz core clock (24.576 MHz crystal × 6) and the CS8416 polling period are ${inf}; the sample rate, the 10-tick mux, 2-tick blank, 3000-tick hold, 128-bit display frames and DIV4 = 183 are from the source. LED strips show what the panel shows in the selected LED view.</p>`)}
   <div class="grid2">${card('Display shift registers at the playhead (live bit map)', `<div id="bits" class="scroll"></div>`)}${card('Action log', `<div id="log" class="log"></div>`)}</div>`;
   m.querySelector('#fp').innerHTML = frontSVG();
-  bindSource(m);
+  bindSource(m); bindArt(m);
   let lastRear = '';
   const draw = ()=>{
     const t = SIM.t;
@@ -991,6 +1003,7 @@ function viewNotes(m){
   const v = 'slm1-5…/v102/', g = 'sharc/slm-1-v1.02/';
   m.innerHTML = card('What the SLM DSP code is up to — findings from the source', `
   <ol>
+    <li><b>Artwork ${SIM.year(2026)}: front lens and rear panel now from ${artSrc('FRONT')} and ${artSrc('REAR')} (both Jun 6 2016).</b> (a) The lens sheet carries the GREEN plate (WBS logo, WARD-BECK SYSTEMS, the rounded meter frame with its break marks) and the WHITE plate (the +20 … −52 scale, PEAK RANGE, VU RANGE, NO LOCK, LOCK, L / PR / R, +1 0 −1 PHASE, LOUDNESS METER, SLM1) side by side. (b) The rear prints the DIP legend BS1 / BS0 / CAL1 / CAL0 and “CAUTION: USE AC ADAPTER PROVIDED WITH THIS PRODUCT”, and is titled SLM-1 LOUDNESS METER. (c) The ARTWORK folder holds other SLM-1 panels (M4, M5, M12, M13, M18, M20) the simulator does not model; ${SIM.src(ART.DIR+'SLM-1M20-SILK(CURVE).cdr','SLM-1M20-SILK(CURVE).cdr')} is exactly the same size (27 380 bytes) as its non-curve twin and the M13 CURVE file is even 32 bytes smaller than its twin, while the M2, M4, M5, M7, M12 and M18 CURVE files grew when their text became curves; M20 and M13 were probably never converted.</li>
     <li><b>At 96 kHz the v102 meter runs twice as fast.</b> All ballistics are per-sample constants (<span class="mono">TCONST_VU</span>, <span class="mono">TCONST_PPM_ATTACK</span> in ${v}vumeter.asm; <span class="mono">peak_decay_*_48</span> in backgnd.c) and nothing re-computes them for the sample rate. The 2002 engine did: <span class="mono">sample_rate_calc</span> (${g}slm-1-main.asm) measures the EMUCLK difference between interrupts (301 / 598 / 647 counts) and loads <span class="mono">update_meter_parameters_96/48/441/32</span>. The manual promises 30–96 kHz.</li>
     <li><b>The “3 second” peak hold is probably about 1 second.</b> <span class="mono">SetTimer(GP_TIMER2,3000)</span> counts timer ticks of <span class="mono">TIMER_RATE 100000/2</span> core cycles, commented “1 msec rate based on 100MHZ system freq” (50 000 cycles is 0.5 ms at 100 MHz). The board has a 24.576 MHz crystal and v102 leaves the PLL alone; at the default ×6 (147.456 MHz) the SPORT2 divider gives exactly the commented “100 Hz FS” — and the tick becomes 0.339 ms, the hold 1.02 s and the display mux 3.4 ms ${inf}. With a true 1 ms tick each bar would refresh at only 50 Hz and flicker. Switch “GP tick” to compare.</li>
     <li><b>The peak-hold dot vanishes when the programme drops below −5.</b> In <span class="mono">refresh()</span> the hold bits are masked with <span class="mono">0xffffffc0</span> (only show holds above nominal, as the manual says) — which also clears bit 0, the MM5450 <b>start bit</b>. When the VU and PPM both sit below −5, <span class="mono">slm_4_vu_data1</span> and <span class="mono">slm_4_pk_data1</span> are <span class="mono">vu_off</span>, so <span class="mono">display_data_A[0]</span> holds only the hold bit and no start bit. U3 never latches, and keeps the blank from 2 ticks earlier ${inf} (MM5450 datasheet behaviour). Try: burst at −10 dBFS, hold on, and watch the dot after the burst.</li>
@@ -1022,11 +1035,17 @@ function viewNotes(m){
     <li>…/SLM-1/sharc/slm-1-v1.02/ — slm-1-main.asm, slm-1_INIT.ASM, vumeter.asm, phasemeter.asm, sdm_vu/pk/phase_data*.dat</li>
     <li>…/SLM-1/PCB/SLM-1-5/PCB/slm1-5iss3.net, SLM1-5iss3.bom · SLM-1-4/OBSOLETE/slm1-4iss1.net · SLM-1-4/SLM1-4iss2.bom · SLM-1-3/PCB/SLM1-3.bom</li>
     <li>…/SLM-1/SLM1 MANUAL mod.pdf, SLM1 MANUAL.pdf, SLM1 MANUAL .doc · SLM1 - #TESTREPORT/SLM1A-V101A-25JAN10.pdf</li>
-    <li>SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr, SLM-1M2-SILK(CURVE).cdr, PICS/SLM1 (SLM-1M7).jpg, SLM-1M2-75.jpg · SLM Photos/slm1.jpg</li></ul>`);
+    <li>SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/${artSrc('FRONT')}, ${artSrc('REAR')} (assets/slm-front.svg, slm-rear.svg), PICS/SLM1 (SLM-1M7).jpg, SLM-1M2-75.jpg · SLM Photos/slm1.jpg</li></ul>`);
 }
 
 /* ---------------- register plugin ---------------- */
 SIM.register({
+  footnotes: [{"text": "Artwork 2026|59: the front lens and rear panel are drawn from SLM-1M7-SILK(CURVE).cdr and SLM-1M2-SILK(CURVE).cdr (both Jun 6 2016).", "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr"},
+    {"text": "The lens sheet puts the GREEN plate (logo, WARD-BECK SYSTEMS, meter frame) and the WHITE plate (scale, ranges, LOCK / NO LOCK, PHASE, LOUDNESS METER) side by side rather than stacked.", "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr"},
+    {"text": "The rear legend names the four DIP switches BS1, BS0, CAL1, CAL0 and warns “USE AC ADAPTER PROVIDED WITH THIS PRODUCT”.", "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M2-SILK(CURVE).cdr"},
+    {"text": "SLM-1M20-SILK(CURVE).cdr is exactly the same size as its non-curve twin, and the M13 CURVE file is smaller than its twin: those two were probably never converted to curves.", "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M20-SILK(CURVE).cdr"},
+    {"text": "The artwork folder also holds SLM-1 M4, M5, M12, M13, M18 and M20 panels that the simulator does not model.", "src": "#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M5-SILK(CURVE).cdr"},
+    {"text": "The SLM-1-3 engineering folder keeps a separate earlier SLM1-3 silk and front silk in CorelDRAW.", "src": "#SLM #SERIES - To Delete/SLM - #Engineering - To Delete/SLM-1/PCB/SLM-1-3/SILK/SLM-1-3 FRONT-SILK-CURVE.cdr"}],
   id:'slm', name:'SLM-1D · stereo loudness meter (2007|40)', duration:1,
   product:'SLM-1D (SLM series)', year:2007, family:'#SLM #SERIES',
   folder:'#SLM #SERIES - To Delete',

@@ -13,7 +13,7 @@
    - …/d820x/sharc/d820xcore.asm, d820xdef.h (sample_proc_D8205, jumpers_analize_D8205, ctrl_proc)
    - …/d820x/altera/d8200_top.rpt (PIC_CLK, SHARC_CLK, JACK_OUT, OUTPUT1/2 equations)
    - D8200 - #Engineering #MF82/d8200 - #PCB/d8200-2.net + d8200 - #GERBERS/D8200-2.TOP/.SLK (board art, nets)
-   - 8200 Series Rear Module options graphical Guides…/D8205 - rear module options.pdf (BNC1, BNC3, TB8205P, TB8205P/75)
+   - 8200 Series Rear Module options graphical Guides…/D8205 - rear module options.cdr + .pdf (BNC1, BNC3, TB8205P, TB8205P/75) → assets/d8205-rear-*.svg
    - D8205 - #Engineering/D8205R-75-2.cdr (D8205/R terminal art, converted with Inkscape)
    - D8205 - #SOFTWARE/D8205 - #pic #SOFTWARE/d8205.asm (1999 V1.00), D8205 - #SHARC #SOFTWARE/*.asm, 8205CORE.MAP/.21K,
      D8205 - #lookuptb #SOFTWARE/lookup.C, aa, vol_lktb.ldb · D8205 - #BAK/D8205.NET, D8205.bom (1999 board)
@@ -424,12 +424,14 @@ function edgeSVG(t){
     <circle cx="50" cy="360" r="11" fill="#111" stroke="#9a9a9a" stroke-width="3"/><text x="64" y="364" font-size="10.5" fill="var(--ink2)">MON</text>
     <text x="60" y="16" font-size="10.5" text-anchor="middle" fill="var(--ink2)">front edge</text></svg>`;
 }
-/* rear termination module: drawing from "D8205 - rear module options.pdf" (cropped at 200 dpi) */
+/* rear termination module: Artwork 2026|59 = the CorelDRAW vectors of "D8205 - rear module options.cdr" (2012-01-16) through
+   Corel's own PDF export of it (libcdr mangles the terminal-block symbol font); cells 518 × 654 = 200 px per inch; plate black, silk white. */
+const RMG_DIR='#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/';
 const REAR = {
-  bnc1:{img:'d8205-rear-bnc1-black.png', jacks:[['in1',238,112],['o1',302,178,'OUT 1-1'],['o1',238,245,'OUT 1-2'],['o2',302,312,'OUT 2-1'],['in2',302,452],['o2',238,380,'OUT 2-2'],['o2',238,518,'OUT 2-3']]},
-  bnc3:{img:'d8205-rear-bnc3-black.png', jacks:[['in1',211,107],['loop',300,107,'REF loop'],['o1',211,210,'OUT 1-1'],['o1',300,210,'OUT 1-2'],['o2',211,312,'OUT 2-1'],['o2',300,312,'OUT 2-2'],['in2',211,415],['o2',300,415,'OUT 2-3'],['o2',211,518,'OUT 2-4'],['o2',300,518,'OUT 2-5']]},
-  tb8205p:{img:'d8205-rear-tb8205p-black.png', jacks:[['in1',180,164,null,'scr'],['in2',265,269,null,'scr']]},
-  tb8205p75:{img:'d8205-rear-tb8205p75-black.png', jacks:[['in1',253,150],['in2',277,269,null,'scr']]},
+  bnc1:{img:'d8205-rear-bnc1.svg', jacks:[['in1',238,112],['o1',302,178,'OUT 1-1'],['o1',238,245,'OUT 1-2'],['o2',302,312,'OUT 2-1'],['in2',302,452],['o2',238,380,'OUT 2-2'],['o2',238,518,'OUT 2-3']]},
+  bnc3:{img:'d8205-rear-bnc3.svg', jacks:[['in1',211,107],['loop',300,107,'REF loop'],['o1',211,210,'OUT 1-1'],['o1',300,210,'OUT 1-2'],['o2',211,312,'OUT 2-1'],['o2',300,312,'OUT 2-2'],['in2',211,415],['o2',300,415,'OUT 2-3'],['o2',211,518,'OUT 2-4'],['o2',300,518,'OUT 2-5']]},
+  tb8205p:{img:'d8205-rear-tb8205p.svg', jacks:[['in1',180,164,null,'scr'],['in2',265,269,null,'scr']]},
+  tb8205p75:{img:'d8205-rear-tb8205p75.svg', jacks:[['in1',253,150],['in2',277,269,null,'scr']]},
 };
 function rearSVG(t){
   const R = REAR[D.cfg.rear], S = stateAt(t), c = D.cfg;
@@ -443,7 +445,7 @@ function rearSVG(t){
         <circle cx="${x+30}" cy="${y-30}" r="7" fill="${on?'#2e9d5a':'#999'}"/></g>`; }
     else if (k==='o1'||k==='o2'){ const live = k==='o1'? S.tx1 : S.tx2; s += `<circle cx="${x}" cy="${y}" r="6" fill="${live?'#e0a020':'#777'}"><title>${lbl}: ${live?'AES carrier on':'transmitter off (TXOFF)'}</title></circle>`; }
   });
-  return s + `</svg>`;
+  return s + `</svg><div class="small muted" style="max-width:330px">CorelDRAW art: ${SIM.src(RMG_DIR+'D8205 - rear module options.cdr','D8205 - rear module options.cdr')} (2012|45), via its Corel PDF ${SIM.src(RMG_DIR+'D8205 - rear module options.pdf','export')}.</div>`;
 }
 function bindBoard(root){
   root.querySelectorAll('.d85j').forEach(g=> g.onclick = ()=>A.jumper(+g.dataset.j));
@@ -648,7 +650,7 @@ function viewSim(m){
     <div>
       <div style="display:grid;grid-template-columns:120px minmax(0,1fr);gap:10px">
         ${card('Edge', `<div id="edge"></div>`)}
-        ${card('Rear module (click an input)', `<div id="rp"></div><div class="small muted">From “D8205 - rear module options.pdf”. Orange dots = outputs with an AES carrier.</div>`)}
+        ${card('Rear module (click an input)', `<div id="rp"></div><div class="small muted">Orange dots = outputs with an AES carrier.</div>`)}
       </div>
       ${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}
@@ -947,6 +949,7 @@ function viewNotes(m){
     <li><b>1999 leftovers.</b> <span class="mono">otladka/8205otl.asm</span> still has the header “DFT.ASM ADSP-2106x Discrete Fourier Transform” and a <span class="mono">_mul_engine</span> matrix routine. In <span class="mono">8205indc.asm</span>, <span class="mono">phase_detector</span> reads <span class="mono">dm(phs_sum+1)</span> although phs_sum is in PM. In <span class="mono">d8205.asm</span>, <span class="mono">Link_to_SHARC</span> raises CS_SHARC after the first byte, so only the frame code is sent under chip select. The <span class="mono">delay</span> comment says 1.54 ms (true at 4 MHz); the board's 4.9152 MHz crystal makes it 1.25 ms.</li>
     <li><b>Self-reset, not watchdog.</b> If the SHARC stops echoing 0xE4 for 256 passes (≈340 ms), <span class="mono">SHARC_link_control</span> jumps to WHOLE_RESET. The 1999 code had the same idea in <span class="mono">Init_monitor</span> (≈510 passes).</li>
     <li><b>README mismatches.</b> The folder README lists <span class="mono">D8205 - #test/</span> as empty, but it holds a full PCB/SCH/netlist set, and says <span class="mono">D8205 - #PNP #2016/</span> is empty while it holds <span class="mono">d8205-75-T.mdb/.prg</span>. The 2013|46 PnP lists EL5363/EL5263 drivers where the netlist has EL2280C, and both PnP files place R15 = 75R and R16 = 110R on both the /75 and /110 builds.</li>
+    <li><b>Artwork 2026|59: rear modules now from ${SIM.src(RMG_DIR+'D8205 - rear module options.cdr','D8205 - rear module options.cdr')} (CorelDRAW X3, 2012-01-16).</b> BNC1, BNC3, TB8205P and TB8205P/75 are its vectors (black plate, white legends) through Corel's own ${SIM.src(RMG_DIR+'D8205 - rear module options.pdf','PDF export')}; libcdr draws the screw-terminal symbol font as giant letters. On BNC1 the AES AUDIO INPUT is the fifth BNC, between OUT 2-2 and OUT 2-3, not next to the reference input. The 2005 pages ${SIM.src(E+'D8205R-110.cdr','D8205R-110.cdr')} and ${SIM.src(E+'D8205R-75-2.cdr','D8205R-75-2.cdr')} are a “D8205/R” variant: the same modules plus a drawing of the remote level pots wired to the screw terminals, which the 2012 guide leaves out.</li>
     <li><b>Custom builds.</b> D8205-055 removes H3–H5 and turns H8 into a +8 dB gain jumper (SRC with dither, 16 bit). D8205-043 disables the reference input and makes RV1/RV2 per-output controls. Neither variant's firmware is identified in the tree (v1.104-055 exists for -055).</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
     <li>Loop pass ≈ 1.33 ms ${inf}: from 6.144 MHz and the SPI byte count; the step shares in the loop are estimates.</li>
@@ -960,7 +963,7 @@ function viewNotes(m){
     <li>…/D8205 - #SOFTWARE/D8205 - #pic #SOFTWARE/d8205.asm · …/D8205 - #SHARC  #SOFTWARE/8205tstn.asm, 8205indc.asm, 8205CORE.MAP, 8205CORE.21K, vol_lktb.ldb, otladka/* · …/D8205 - #lookuptb #SOFTWARE/lookup.C, aa</li>
     <li>#MF8200 #SERIES/D8200 - #Engineering #MF82/d8200 - #d820x/jumpers.txt, pic/v1.104/*.asm, d820x.h, sharc/d820xcore.asm, d820xdef.h, altera/d8200_top.rpt</li>
     <li>…/d8200 - #PCB/d8200-2.net, d8200 - #GERBERS/D8200-2.TOP, D8200-2.SLK · D8205-110 - #PNP #2016/d8205-110-T.prg, D8205 - #PNP #2016/d8205-75-T.prg</li>
-    <li>#MF8200 #SERIES/8200 Series Rear Module options graphical Guides…/D8205 - rear module options.pdf · D8200 - #Engineering #MF82/Appendix D8205-043.doc</li></ul>`);
+    <li>#MF8200 #SERIES/8200 Series Rear Module options graphical Guides…/D8205 - rear module options.cdr, .pdf · D8200 - #Engineering #MF82/Appendix D8205-043.doc</li></ul>`);
 }
 
 /* ---------------- register plugin ---------------- */
@@ -970,6 +973,13 @@ SIM.register({
   folder:'#MF8200 #SERIES/D8205 - #Master #MF82',
   summary:'MF82 plug-in card: two AES inputs, digital trim or volume on front-edge pots, mono, mix and a 1 kHz tone routed to two outputs, with sample-rate conversion to either input or an internal 48 kHz. A PIC16C73A, an EPM7128 CPLD, two CS8420s and an ADSP-21061 SHARC share the work, all set by 14 jumpers.',
   highlights:['Real D8200-2 board from the 2013 Gerbers, clickable jumpers, pots and terminations','Rear modules BNC1/BNC3/TB8205P from the rear-module guide','Lock → debounce → mode fallback → 85-pass mute on the timeline','16-nibble PIC→SHARC control frame and sample_proc_D8205 decoded live','11-step operator tutorial from the manual','Findings: TESTING lines in v1.104, CH numbering, 1999 tables'],
+  footnotes:[
+    {text:'Rear-module art: BNC1, BNC3, TB8205P and TB8205P/75 are vectors of the 2012 CorelDRAW guide, via its Corel PDF export (libcdr renders the terminal-block symbol font as giant text).', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8205 - rear module options.cdr'},
+    {text:'On the BNC1 module the AES AUDIO INPUT is BNC 5, between DIGITAL OUT 2-2 and 2-3, not beside the AES REF INPUT.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8205 - rear module options.cdr'},
+    {text:'D8205R-110.cdr and D8205R-75-2.cdr (2005) draw a “D8205/R” remote-gain build: the same terminal modules plus external level pots on the screw terminals; the 2012 guide has no /R page.', src:'#MF8200 #SERIES/D8205 - #Master #MF82/D8205 - #Engineering/D8205R-110.cdr'},
+    {text:'D8205-75.cdr and D8205-110.CDR (2000) and D8205-75-2.cdr (2005) are earlier issues of the same terminal page; all five CDRs are stored again in D8205 - #ARCHIVE.', src:'#MF8200 #SERIES/D8205 - #Master #MF82/D8205 - #Engineering/D8205-75-2.cdr'},
+    {text:'#OLDMANUAL holds Backup_of_ copies beside D8205TR1–TR4 and D8205MAN.CDR (1999), the CorelDRAW autosaves of the first manual.', src:'#MF8200 #SERIES/D8205 - #Master #MF82/D8205 - #Engineering/D8205 - #OLDMANUAL/D8205TR4.cdr'},
+  ],
   depth:'Full model',
   stepUnits:[
     {label:'1 PIC loop pass', period:()=>PASS},

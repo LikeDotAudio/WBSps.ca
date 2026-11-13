@@ -1209,6 +1209,12 @@ function viewFindings(m){
 
 /* ---------------- register ---------------- */
 SIM.register({
+  footnotes: [{"text": "Artwork 2026|59: the front and rear are drawn from AMS16A2-M1-FRONT-SILK (CURVE).cdr (OCT.27/15) and AMS16AQ-3G-M2-SILK (curve).cdr.", "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16A2-M1-FRONT-SILK (CURVE).cdr"},
+    {"text": "The rear ‘curve’ .cdr (Oct 23 2012) still has its 22 legends as live text. It is older than the PDF beside it (Aug 7 2015), which adds MADE IN CANADA and sets AMS-16A larger in bold italic.", "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).pdf"},
+    {"text": "AMS16AQ-3G-M2-SILK_final curve.cdr in Engineering/SILK is a byte-identical copy of the ARTWORK file.", "src": "AMS16 - #Master/AMS16 - #Engineering/SILK/AMS16AQ-3G-M2-SILK_final curve.cdr"},
+    {"text": "AMS16A2-M2-SILK.cdr and AMS16A2-M6-SILK.cdr are the same 47 610-byte file under two part numbers.", "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16A2-M6-SILK.cdr"},
+    {"text": "The front drill crosshairs on SOLO L/R, VOLUME and INPUT 1/2 are drawn on the mechanical layer, so they sit under the knobs and buttons.", "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16A2-M1-FRONT-SILK (CURVE).cdr"},
+    {"text": "AUX 1 and the DOLBY E METADATA D-sub are legended on the rear but not simulated.", "src": "AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr"}],
   id:'ams16', name:'AMS16 · 16-channel SDI audio monitor (2008|41)', duration:1,
   product:'AMS16', year:2008, family:'AMS16 (AMS16A1 / AMS16A2)', folder:'AMS16 - #Master',
   summary:'2RU embedded-audio monitor: de-embeds 8 AES pairs from SD/HD/3G-SDI onto 16 LED VU/PPM meters, with speakers, solo, summing, Lt/Rt downmix and Dolby E/AC-3 decoding. Four processors: front-panel ATmega128 (UI), main ATmega128 (SDI and FPGA control), Cyclone IV FPGA (de-embedding, AES out) and ADSP-21262 SHARC (metering, mixing, LED drive).',

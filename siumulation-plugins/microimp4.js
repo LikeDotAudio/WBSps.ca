@@ -92,7 +92,7 @@ function connected(i,end){ const c=D.ch[i]; const isIn=(end==='x')===(c.dir==='x
 /* ---------------- drawing ---------------- */
 function topSVG(){
   return `<svg viewBox="0 0 928 508" role="img" aria-label="microIMP4 top cover, real silkscreen" style="width:100%;display:block;border-radius:6px"><rect width="928" height="508" fill="var(--dev)"/>
-    <image href="${ASSET}microimp4-top-green.png" width="928" height="508"/><image href="${ASSET}microimp4-top-white.png" width="928" height="508"/>
+    <image href="${ASSET}microimp4-top-green.svg" width="928" height="508"/><image href="${ASSET}microimp4-top-white.svg" width="928" height="508"/>
     ${[0,1,2,3].map(i=>`<g class="msel" data-i="${i}" style="cursor:pointer"><rect x="${(G.cx[i]+0.05)*200-60}" y="0" width="120" height="508" fill="${D.sel===i?'rgba(76,195,138,.13)':'transparent'}"/><title>Channel ${i+1}: click to show it in the timeline</title></g>`).join('')}</svg>`;
 }
 function endSVG(which){
@@ -110,7 +110,7 @@ function endSVG(which){
     s+=`<text x="${cx}" y="${H-10}" text-anchor="middle" font-size="22" fill="#e8e8e2">${i+1}</text>`; });
   return s+`</svg>`;
 }
-function unitHTML(){ return `<div style="max-width:620px"><div class="small muted">End A — four .556 in round holes (75 Ω coax ${inf})</div><div id="ea"></div><div id="tp" style="margin:6px 0"></div><div id="eb"></div><div class="small muted">End B — four .937 in D-size XLR cut-outs (110 Ω AES3). Blue ring = input, green = output.</div></div>`; }
+function unitHTML(){ return `<div style="max-width:620px"><div class="small muted">End A — four .556 in round holes (75 Ω coax ${inf})</div><div id="ea"></div><div id="tp" style="margin:6px 0 0"></div><div class="small muted" style="margin-bottom:6px">Top-cover artwork: ${SIM.src('microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr','IMP4 (FINAL CURVE).cdr')} (3 Sep 2015), GREEN + WHITE plates as vector art; grey lines are the cover outline and fold guides.</div><div id="eb"></div><div class="small muted">End B — four .937 in D-size XLR cut-outs (110 Ω AES3). Blue ring = input, green = output.</div></div>`; }
 function drawUnit(m){ m.querySelector('#ea').innerHTML=endSVG('a'); m.querySelector('#tp').innerHTML=topSVG(); m.querySelector('#eb').innerHTML=endSVG('b');
   m.querySelectorAll('.mplug').forEach(g=>g.onclick=()=>A.plug(+g.dataset.i, g.dataset.e));
   m.querySelectorAll('.msel').forEach(g=>g.onclick=()=>{ D.sel=+g.dataset.i; SIM.refresh(); }); }
@@ -254,6 +254,7 @@ function viewPath(m){
 }
 function viewFindings(m){
   m.innerHTML=card('What the archive says about microIMP4', `<ol>
+    <li><b>Artwork 2026|59: top cover now from ${SIM.src('microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr','IMP4 (FINAL CURVE).cdr')} (3 Sep 2015).</b> The GREEN and WHITE plates are drawn as vector art (assets/microimp4-top-green.svg, -top-white.svg) on the same frame as the earlier cut, so the channel controls stay put. The green plate is only two objects (the “micro” frame and word); everything else is white.</li>
     <li><b>Only artwork survives.</b> The folder has two CorelDRAW files (IMP4.cdr, 19 Aug 2015; IMP4 (FINAL CURVE).cdr, 3 Sep 2015), and <span class="mono">Silks/</span> holds byte-identical copies of both. There are no cover drawings, schematic, BOM or manual, and no other file in the archive mentions IMP4. The electrical function in this plugin is ${inf}.</li>
     <li><b>It was started from a “micro AMP” artwork.</b> Both files carry a <b>“micro AMP”</b> logo group (WBS frame, “micro”, “AMP”) parked far off the page on the pasteboard, at about x = 22 in on an 11 in sheet. They also carry a date stamp <b>JUL.10/15</b>, a month before either file was saved. No microAMP artwork is in the archive. Its only trace is this leftover.</li>
     <li><b>Channel numbers are printed twice.</b> “1 2 3 4” runs upright along one long edge and upside down along the other. The numbers sit within 0.05 in of the hole centres on both ends (1.04 in pitch). So each end reads correctly from its own side.</li>
@@ -263,6 +264,12 @@ function viewFindings(m){
    + card('Assumptions in this simulation', `<ul class="small"><li>Each channel is an AES-3id-style balun: a √(110/75) transformer plus an optional pad to bring 2–7 V p-p AES3 down to 1 V p-p ${inf}.</li><li>Coax rise time grows with length (3 ns + 0.2 ns/m + 1.5 ps/m²) and the velocity factor is 0.66 ${inf}. Reflections use Γ = (ZL − Z0)/(ZL + Z0).</li><li>The AES3 stream is exact: preambles X/Y/Z, 24-bit audio (1 kHz at −20 dBFS), channel-status byte 0 (professional), even parity.</li></ul>`);
 }
 SIM.register({
+  footnotes:[
+    {text:'Both IMP4 files carry an unused “micro AMP” logo group parked off the page on the pasteboard, so the artwork was started from a microAMP sheet.', src:'microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr'},
+    {text:'Channel numbers 1–4 are printed twice, upright along one long edge and upside down along the other.', src:'microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr'},
+    {text:'Silks/ holds byte-identical copies of IMP4.cdr and IMP4 (FINAL CURVE).cdr.', src:'microIMP4 - #Engineering/Silks/IMP4 (FINAL CURVE).cdr'},
+    {text:'No POWER legend, LED or power cut-out appears on the cover or either end, so the box is taken to be passive (inferred).', src:'microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr'},
+    {text:'The green plate holds only the “micro” frame and word; WBS and IMP4 are on the white plate.', src:'microIMP4 - #Engineering/IMP4 (FINAL CURVE).cdr'}],
   id:'microimp4', name:'microIMP4 · 4-channel passive interface box (2015|48)', duration:1,
   product:'microIMP4', year:2015, family:'Monitors, meters & tools', folder:'microIMP4 - #Engineering',
   summary:'A Ward-Beck “micro” box known only from its 2015|48 silkscreen: a printed top cover numbered 1–4, four XLR cut-outs on one end, four round holes on the other, and no power. The plugin builds it from the real artwork and models the most likely use: four passive 110 Ω AES3 ↔ 75 Ω coax baluns, down to the biphase-mark bit cells.',

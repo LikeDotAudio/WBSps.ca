@@ -458,14 +458,37 @@ const A={
 function ROLE(d,v){ const R=[[/ADSP-21262/,'SHARC DSP: voice-over mix, dim and ramps (shell262.dpj, from the RLM meter code)'],[/EP1C12/,'Cyclone FPGA “pod31”: de-embed, routing, SHARC/CAT552 data paths'],[/AT90CAN/,'Control processor (v1.04)'],[/GS1574/,'SDI equaliser'],[/GS1559/,'SDI deserializer'],[/GS1528/,'SDI cable driver (reclocked output)'],[/GO1525/,'VCO for the Gennum chipset'],[/M25P40/,'Serial flash (SHARC boot, inferred)'],[/AT25F512/,'Serial flash (FPGA configuration or SHARC, inferred)'],[/PLL1705/,'Audio clock PLL'],[/SN65HDV/,'CAN transceiver'],[/ADM3485|DS75176/,'RS-485: metadata output'],[/CS8416/,'AES receiver (voice-over input)'],[/AD1895/,'Sample-rate converter for the voice-over input'],[/DIPSW/,'DIP switch SW1'],[/LM1117/,'Linear regulator'],[/EL5263/,'Video/AES line driver']];
   for (const [re,s] of R) if (re.test(d+' '+v)) return s; return /^LED/.test(d)?'Card-edge LED':''; }
 const RM_CELLS=[[1,'SDI IN','in'],[2,'SDI OUT','o'],[3,'AES1 OUT',0],[4,'AES2 OUT',1],[5,'AES3 OUT',2],[6,'AES4 OUT',3],[7,'VOICEOVER IN','vo'],[8,'GPI/O 2','g2'],[9,'GPI/O 1','g1'],[10,'METADATA OUTPUT','m']];
+/* ---- Artwork 2026|59: card edge and rear module from the archive's CorelDRAW drawings (assets/*.svg, cleaned by the
+   artwork pass). Jacks and LEDs are placed on the BNC / LED centres read from those SVGs; same data-jack hooks as the kit. */
+const LIVEC={true:'#2f8f46',warn:'#d9a21b',err:'#c0392b',off:'#7d8286'};
+function artRear(a, cells, cap){ const v=a.vb, r=a.r;
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:${a.maxw||280}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${a.name} rear module (archive drawing)">
+    <image href="${a.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  cells.forEach(c=>{ const i=c.n-1, cx=a.cols[i%2], cy=a.ys? a.ys[Math.floor(i/2)] : a.y0+Math.floor(i/2)*a.dy;
+    s+=`<g ${c.id?`class="og62-hot" data-jack="${c.id}" style="cursor:pointer"`:''}><title>${c.n}: ${c.label}${c.title?' — '+c.title:''}${c.id?(c.conn?' (click to unplug)':' (click to plug in)'):''}</title>
+      ${c.conn?(c.kind==='tb'?`<rect x="${cx+r*.6}" y="${cy-r*.9}" width="${r*1.2}" height="${r*.5}" rx="${r*.15}" fill="#2b5f9e"/><rect x="${cx+r*.6}" y="${cy+r*.4}" width="${r*1.2}" height="${r*.5}" rx="${r*.15}" fill="#2b5f9e"/>`
+        :`<rect x="${cx-r*.28}" y="${cy}" width="${r*.56}" height="${r*1.9}" fill="#2b5f9e"/><circle cx="${cx}" cy="${cy}" r="${r*.78}" fill="#3a74b8" opacity=".88"/>`):''}
+      ${c.live===undefined?'':`<circle cx="${cx+r*.95}" cy="${cy+r*.95}" r="${r*.2}" fill="${LIVEC[c.live]||LIVEC.off}" stroke="#222" stroke-width="${r*.03}"/>`}
+      <rect x="${cx-r*1.15}" y="${cy-r*1.15}" width="${r*2.3}" height="${r*2.3}" fill="transparent"/></g>`; });
+  return s+`</svg><div class="small muted" style="margin-top:2px">${cap||''}</div>`; }
+function artEdge(a, leds, label, cap){ const v=a.vb, lc={g:'#5dff5a', r:'#ff4a3d', y:'#ffd23a', a:'#ffb43a', b:'#59b6ff', w:'#f4f4ea'};
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:${a.maxw||170}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${label} card edge (archive drawing)">
+    <defs><filter id="${a.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${a.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  leds.forEach(l=>{ const on=!!l.on, col=lc[l.c]||l.c; s+=`<circle cx="${l.x||a.x}" cy="${l.y}" r="4.2" fill="${on?col:'#2c332c'}" fill-opacity="${on?1:.55}" ${on?`filter="url(#${a.fid})"`:''}><title>${l.name} LED${l.title?': '+l.title:''} (${on?'lit':'off'})</title></circle>`; });
+  return s+(a.extra||'')+`<text transform="translate(238.5 554.5) rotate(-90)" text-anchor="middle" font-size="9" font-weight="700" fill="#111">${label}</text></svg><div class="small muted" style="margin-top:2px">${cap||''}</div>`; }
+const M6DIR='#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/';
+const REAR_ART={name:'T6304', href:'siumulation-plugins/assets/m6206-rear-t6304.svg', vb:[262,326,274,350], cols:[359.86,419.86], ys:[400.5,460.5,520.5,580.5,640.5], r:18.7, src:()=>SIM.src(M6DIR+'M6206A-T6304.cdr','M6206A-T6304.cdr')+' (2007-08-21; CorelDRAW’s own PDF of it)'};
+const EDGE_ART={href:'siumulation-plugins/assets/m6206-edge.svg', vb:[86,168,324,418], x:243.8, fid:'m66aGlow', maxw:240, src:()=>SIM.src(M6DIR+'M6206-card-edge.cdr','M6206-card-edge.cdr')+' (2008-05-08)'};
+[EDGE_ART.href, REAR_ART.href].forEach(u=>{ const im=new Image(); im.src=u; });   // warm the image cache: panels are redrawn every tick
 function rearSVG(){ const o=outs(), L=D.in.conn, s=voAt(SIM.t);
-  return K.rearSVG({name:'T6304', sub:'M6206A-T6304.pdf (single card)', id:'EMBEDDED AUDIO PROCESSOR', cells:RM_CELLS.map(([n,l,k])=>{ if(k==='in') return {n,label:l,id:'in',conn:L,live:L?true:undefined}; if(k==='o') return {n,label:l,live:L?true:'err'};
+  return artRear(REAR_ART, RM_CELLS.map(([n,l,k])=>{ if(k==='in') return {n,label:l,id:'in',conn:L,live:L?true:undefined}; if(k==='o') return {n,label:l,live:L?true:'err'};
     if (k==='vo') return {n,label:l,id:'vo',conn:D.in.vo,live:D.in.vo?true:undefined}; if (k==='g1') return {n,label:l,kind:'tb',id:'g1',conn:gpiAt(1,SIM.t),live:s.t1?true:'off',title:'GPI-1 automation (sustained closure), GPO-1 tally'};
     if (k==='g2') return {n,label:l,kind:'tb',id:'g2',conn:gpiAt(2,SIM.t),live:s.t2?true:'off',title:'GPI-2 push-button (toggle), GPO-2 tally'}; if (k==='m') return {n,label:l,kind:'tb',live:decoding()&&D.in.g[grp()][decIn()]===2?true:'off'};
-    return {n,label:l,live:/silent|—|muted/.test(o[k])?'err':true,title:o[k]}; })}); }
-function edgeSVG(t){ const L=ledsAt(t); const names=['SD','HD','ERR','AES1','AES2','AES3','AES4','COM Activity','Voice OVER'], st=[L.sd,L.hd,L.err,...L.aes,L.com,L.vo], ys=[40,70,100,150,180,210,240,320,350];
-  const extra=[0,1,2,3].map(i=>`<g><title>Dolby ${i+1} LED</title><rect x="188" y="${ys[3+i]-6}" width="9" height="12" rx="2" fill="${L.dol[i]?'#ffd23a':'#3a3f3a'}" ${L.dol[i]?'filter="url(#og62glow)"':''}/><text x="202" y="${ys[3+i]+4}" font-size="10" fill="#b7bcbf">${i+1} Dolby</text></g>`);
-  return K.edgeSVG({label:'M6206A', maxw:270, note:'M6206-card-edge.cdr', extra, leds:names.map((n,i)=>({name:n,c:i===2?'r':i>=3&&i<=6?'y':'g',on:st[i],y:ys[i]}))}); }
+    return {n,label:l,live:/silent|—|muted/.test(o[k])?'err':true,title:o[k]}; }), 'T6304 · EMBEDDED AUDIO PROCESSOR: '+REAR_ART.src()); }
+function edgeSVG(t){ const L=ledsAt(t); const names=['SD','HD','ERR','AES1','AES2','AES3','AES4','COM Activity','Voice OVER'], st=[L.sd,L.hd,L.err,...L.aes,L.com,L.vo], ys=[189.2,217.4,248.3,295.3,319.2,343.4,367.2,442.2,468.3];
+  const leds=names.map((n,i)=>({name:n,c:i===2?'r':i>=3&&i<=6?'y':'g',on:st[i],y:ys[i]})).concat([0,1,2,3].map(i=>({name:'Dolby '+(i+1),c:'y',on:L.dol[i],x:255.75,y:ys[3+i]})));
+  return artEdge(EDGE_ART, leds, 'M6206A', 'Card edge: '+EDGE_ART.src()); }
 function dashHTML(){ const L=D.in.conn, s=voAt(SIM.t), g=D.in.g[grp()], ro=rawBit(1)===1;
   const lockS=v=>v===2?'Locked - Dolby E':v===3?'Locked - Dolby AC-3':v===1?'Locked - PCM':'Unlocked';
   const sig=!L?['No SDI Unlocked','err']:!g[0]?['No AES1 Unlocked','warn']:!g[1]?['No AES2 Unlocked','warn']:!D.in.vo?['No Voiceover Audio Unlocked','warn']:['OK','ok'];
@@ -548,6 +571,7 @@ function viewSoft(m){ m.innerHTML=`<div class="grid2"><div>${card('Voice-over de
     m.querySelector('#sh').innerHTML=H8.flowSVG(st,Math.floor((SIM.t*400)%st.length)); };
   SIM.on('time', draw); }
 const FINDINGS=[
+  `<b>Artwork 2026|59: card edge and rear module now from the CorelDRAW files.</b> Card edge: ${EDGE_ART.src()}; T6304: ${REAR_ART.src()}. Inkscape’s CDR import loses the BNC drawings of these 2007 files, so the panel uses CorelDRAW’s own PDF export of the same drawing. The edge drawing pairs a Dolby LED with each AES LED (Dolby 1–4 beside AES1–4) and puts COM Activity and Voice OVER at the bottom. The T6304 carries GPI/O 2 as a terminal block at 8 and GPI/O 1 at 9, with METADATA OUTPUT at 10 — the sister T6305 drawing has an unused BNC at 8 instead.`,
   `<b>The DIP switch does not match the manual.</b> The manual: SW1 override, SW2–SW3 group selector 1, SW4–SW5 group selector 2, SW7–SW8 voice-over input mode. v1.04’s PROCESS_DIP_SWITCHES reads ALTERA13 BIT7/BIT6 as one group selector (and copies it to group_sel2), BIT1 as remote_parameter_adjustment and BIT0 as parameter_save_enabled. There is no voice-over mode switch in the code.`,
   `<b>GPI-2 alone turns voice-over on.</b> The manual says GPI-2 overrides or cancels an active voice-over. ALTERA_TRANSLATE_UART0 has a branch “activate voiceover with pb control”: gpi2 without gpi1 sets voiceover = YES while reporting OVERRIDE.`,
   `<b>Ramp speed set by the packet rate.</b> backgnd.c calls RampAudioCalc once per accepted control packet (header 0x56323031, ASCII “V201”), not per sample, so RAMP_TC_LEVEL1–3 (0.002, 0.0002, 0.00002) give a ramp time that depends on how often the AVR sends packets.`,
@@ -559,7 +583,33 @@ const FINDINGS=[
   `<b>Board issue.</b> M6206.h has BOARD_ISSUE 1, matching “M6206A Iss1.jpg”; the PNP programs (2007-11-06) are the only production data in this folder.`];
 const ASSUME=['RampAudioCalc called at 48 kHz for the timeline '+inf('actual rate is per control packet'),'Raw ALTERA13 bit ↔ DIP switch order mirrored as on the M6202A '+inf('wiring'),'LED6 = Voice OVER, LED10 = COM, other LED designators as on the M6202A '+inf('PNP + m6202.js'),'Default dim 10 dB (manual factory default), ramp level 2 '+inf('default ramp'),'Bottom PNP view mirrored to line up with the top '+inf('orientation')];
 const SOURCES=['#OPENGEAR #SERIES/M6206A - #Master #OPENGEAR/M6206A - #PNP #2016/M6206A-T.prg, M6206Ab-B.prg','#OPENGEAR #SERIES/M6206A - #Master #OPENGEAR/M6245A - #Engineering/ (P-CAD power board copy)',ENG+'Software/atmel/v104/M6206A.c, v100w.c, M6206.h (firmware — sibling folder, linked)',ENG+'Software/Sharc/v102/backgnd.c, RampAudio.c, dim_data.c',ENG+'Software/M6206A SOFTWARE HISTORY.xls',ENG+'M6206 Manual & DIP SWITCHES (Preliminary) rewrite.rtf, M6206A Manual (Preliminary).doc',ENG+'M6206-card-edge.cdr, M6206A-T6304.pdf, M6206A-T6305.cdr'];
-SIM.register({ id:'m6206a', product:'M6206A', name:'M6206A · SDI audio demuxer with Dolby decoding and voice-over, openGear: production package (2007|40)', year:2007,
+const FOOTNOTES = [
+ {
+  "text": "Card-edge and rear artwork (2026|59): M6206-card-edge.cdr (2008-05-08), M6206A-T6304.cdr and M6206A-T6305.cdr (both 2007-08-21).",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206-card-edge.cdr"
+ },
+ {
+  "text": "The card-edge drawing pairs a Dolby LED (“1–4 LED”, bracketed “Dolby”) beside each of AES1–4.",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206-card-edge.cdr"
+ },
+ {
+  "text": "T6304 and T6305 differ only at position 8: a GPI/O 2 terminal block on the T6304, an unused BNC on the T6305.",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6305.cdr"
+ },
+ {
+  "text": "Backup_of_ copies of the T6304, T6305 and card-edge drawings sit beside the originals; the T6304/T6305 backups (2007-06-27) are older than the main files.",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/Backup_of_M6206A-T6304.cdr"
+ },
+ {
+  "text": "Only the T6304 has CorelDRAW’s own PDF (2007-08-22); Inkscape’s CDR import drops the BNC drawings, so that PDF is what the T6304 panel uses.",
+  "src": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/M6206A-T6304.pdf"
+ },
+ {
+  "text": "The M6206A master folder holds an “M6245A - #Engineering” subfolder, another product’s name.",
+  "src": "#OPENGEAR #SERIES/M6206A - #Master #OPENGEAR/M6245A - #Engineering"
+ }
+];
+SIM.register({footnotes:FOOTNOTES,  id:'m6206a', product:'M6206A', name:'M6206A · SDI audio demuxer with Dolby decoding and voice-over, openGear: production package (2007|40)', year:2007,
   folder:'#OPENGEAR #SERIES/M6206A - #Master #OPENGEAR', family:'openGear',
   summary:'The M6206A de-embeds an SDI audio group, decodes an embedded Dolby stream to 5.1 and mixes a voice-over into the programme with a ramped dim, under GPI control. This folder holds the pick-and-place programs (drawn here part by part) and a stray copy of the M6245A power board; the model runs the v1.04 AVR and v102 SHARC code from the M6206 engineering folder.',
   highlights:['Top and bottom board drawn from the PNP programs in this folder','Voice-over state machine from GPI-1 and GPI-2','Programme dim ramp from RampAudioCalc','Manual vs code: the DIP switch and GPI-2'],

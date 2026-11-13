@@ -2686,6 +2686,28 @@ DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from 
   "The one guide (2006|39, drawn for ISS1) still serves ISS2–ISS4: the connector layout never changed. It suffixes the left column “-1” and the right column “-2” (BNC1-1, BNC1-2 …), while the T6406 guide calls the left column “CARD #2”: if the suffix is the card number <span class=\"tag-inf\">inferred</span>, the two guides number the cards in opposite directions.",
   "The grey-filled BNCs on the guide (positions 1–2 on most of these guides) mark the shell-isolated inputs <span class=\"tag-inf\">inferred</span> from the netlists, where these BNCs have their own return nets; the drawing gives no key.");
 DATA.sources.unshift("#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401.cdr (CorelDRAW rear-module guide, 2006-11-15; assets/t6401-rear.svg)");
+const FOOT = [
+{
+"text": "One guide, T6401.cdr (2006-11-15, drawn for ISS1), serves all four issues: the connector layout never changed.",
+"src": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401.cdr"
+},
+{
+"text": "The guide suffixes the left column “-1” and the right column “-2”, while the T6406 guide calls the left column “CARD #2”; if the suffix is a card number the two guides count cards in opposite directions (inferred).",
+"src": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401.cdr"
+},
+{
+"text": "T6401.cdr is kept a second time in “T6401 - #ARCHIVE”.",
+"src": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401 - #ARCHIVE/T6401.cdr"
+},
+{
+"text": "Card-specific T6401 guides exist for M6203A, M6202A, D6201A, AV6201 and M6205 (ISSUE4, obsolete).",
+"src": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR/D6201 - #Engineering/D6201A/Functional/D6201A-T6401.cdr"
+},
+{
+"text": "CorelDRAW stores the outlines as zero-width hairlines and libcdr loses multi-line text layout, so the converted guide was given 0.6 pt lines and its “+ − G” legends re-stacked on the pin pitch.",
+"src": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION/T6401 - #ENGINEERING/T6401.cdr"
+}
+];
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
@@ -3163,6 +3185,7 @@ function viewFind(m){
 }
 
 SIM.register({
+  footnotes: FOOT,
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'1 video line',period:()=>HLINE},{label:'1 AES block (4 ms)',period:()=>192/FS},{label:'1 video field',period:()=>FIELD},{label:'1 ms',period:()=>0.001},{label:'100 ms',period:()=>0.1}],

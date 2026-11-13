@@ -31,6 +31,7 @@ const SIM = window.SIM;
 const state = { level: -20 };
 
 SIM.register({
+    // footnotes: [{ text: 'Rear legend says “AES OUT34”: a stray 4', src: '<archive-relative path>' }, …]  — small details, numbered at the foot of every tab and on the wiki page
   id: 'template',
   name: 'Template product (yyyy|n)',
   duration: 1,                                   // seconds simulated

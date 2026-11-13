@@ -3,7 +3,7 @@
    Plugin for the WBS Device Simulator (../siumulation.html). Hardware model with the real PIC firmware behaviour.
 
    Sources used:
-   - #AV #SERIES/XXX - AVS - #OBSOLETE #Archive/XXX - RAV 24 - #Mechanical #Obsolete/Silks/RAV24-FRONT&REAR-SILK (CURVE).pdf (NOV.10/15; → assets/rav-24-*.png with silk_extract.py)
+   - #AV #SERIES/XXX - AVS - #OBSOLETE #Archive/XXX - RAV 24 - #Mechanical #Obsolete/Silks/RAV24-FRONT&REAR-SILK (CURVE).pdf (NOV.10/15) and its (CURVE).CDR → Inkscape → assets/rav-24-front.svg, rav-24-rear.svg (Artwork 2026|59)
    - …/XXX - RAV 24 - #Mechanical #Obsolete/*.dwg (bottom pan ISS 2, front ISS 2, rear ISS 5, spacer strip, BNC cover plate — DWG text only)
    - #AV #SERIES/XXX - AVS - #OBSOLETE #Archive/ (the engineering for this product):
        RAV24/V101/ravv101.asm (Tim Clarke, June 23 2000; PIC16C73A): MAIN, input, debounce, led_ctrl, switch_ctrl, chirp,
@@ -290,7 +290,22 @@ const B_COUNT=3, CHIRP_PERIOD=0x17, CHIRP_DUTY=3, VID_NUM=4;
 const NTSC_FIELD = 1001/60000;
 /* ---------------- front panel geometry (silk label centres, px) ---------------- */
 const BY=112, BS=74;
-const MODEX={audio:379, video:519, av:659}, OUTX=[798,938], SRCX=[1148,1289,1429,1570,1710,1848,1989,2129,2270,2411,2547,2690];
+/* Artwork 2026|59: buttons sit on the .340 SQ. holes of RAV24-FRONT ISS 2 (2.775 … 14.325 in, 200 px/in), which the CorelDRAW
+   squares match exactly; the 2015 silk's legends are printed 0.88 in to the left of them (see footnotes). */
+const MODEX={audio:555, video:695, av:835}, OUTX=[975,1115], SRCX=[1325,1465,1605,1745,1885,2025,2165,2305,2445,2585,2725,2865];
+const SILK='#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/XXX - RAV 24 - #Mechanical #Obsolete/Silks/RAV24-FRONT&REAR-SILK (CURVE).CDR';
+const MECH='#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/XXX - RAV 24 - #Mechanical #Obsolete/Not in ERP/';
+const AVSF='#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/RAV24/';
+const FOOT=[
+ {text:'The 2015 front silk prints every button legend (AUDIO VIDEO A/V, SWR OUT 1 2, SOURCE SELECT 1–12) 0.88 in to the left of the .340 in square holes drawn on the same sheet; “AUDIO” lands under the WBS logo. The squares match RAV24-FRONT ISS 2 (2.775 in to 14.325 in), so the legends are what moved.', src:SILK},
+ {text:'The same 0.88 in shift is on the rear plate: AUDIO INPUTS 1–12 and AUDIO OUTPUTS 1–2 (+ − G) sit 0.88 in left of their terminal-block cut-outs (8.500–14.825 in and 15.525–16.600 in on RAV24-REAR ISS 5), and the BNC legends sit one BNC pitch (0.725 in) left: VIDEO OUTPUTS “1” is printed over the D-sub, and the right-most BNC column (7.725 in) has no number. The simulator keeps outputs on the first two columns and inputs 1–12 on the next six, as before.', src:SILK},
+ {text:'The MODE header bar has only its right half: the left half, which would run into the WBS logo once the legends shifted left, is missing from the GREEN plate.', src:SILK},
+ {text:'The 1999 line drawing RAV24LIN.CDR shows the intended layout: legends centred under red-LED buttons right after the logo, matching the drilling, and no “RAV24 BY WARD-BECK SYSTEMS” wordmark (added on the 2015 GREEN plate).', src:AVSF+'RAV24LIN.CDR'},
+ {text:'Both RAV24 panel drawings say “SILKSCREEN TO ARTWORK # RAV24-FRONT&REAR-SILK”, but the rear drawing’s title block still reads “AMS4 REAR PANEL / AMS4-REAR” (14 02 98), the template it was copied from.', src:MECH+'RAV24-REAR ISS 5 (PANEL).pdf'},
+ {text:'The rear silk numbers the BNC rows 1/2 for VIDEO OUTPUTS and then 1 3 5 7 9 11 over 2 4 6 8 10 12 for VIDEO INPUTS: odd inputs on the top row, even on the bottom.', src:SILK},
+ {text:'On the rear plate the caution text “115 VAC, 1/2 A.S.B. DISCONNECT POWER BEFORE SERVICING” is printed straight across the upper Detail B hole, “CONTROL” sits 0.88 in left of the DB9 cut-out it names, and the lower Detail B hole and a small round hole beside the caution have no legend at all.', src:SILK},
+ {text:'Four RAV24 silk generations are in the AVS folder: RAV24SLK.CDR and RAV24LIN.CDR (22 Feb 1999), Rav24slkWORK.cdr and Rav24slkWORKCURVE.cdr (15 Nov 2001), then the 2015 RAV24-FRONT&REAR-SILK pair; the RA24 (audio-only) silk RA24SILK.CDR (Dec 1998) predates them all.', src:AVSF+'RAV24SLK.CDR'},
+];
 /* ---------------- device + firmware state ---------------- */
 const D = { power:true, mode:'av', out:0, xpt:[{a:1,v:1},{a:1,v:1}], lock:false, proto:'ascii', addr:'001', baud:9600, ev:null, uart:[], log:[] };
 const FACT=JSON.parse(JSON.stringify(D));
@@ -352,15 +367,18 @@ function frontSVG(){ const t=SIM.t, on=D.power;
   OUTX.forEach((x,o)=>over+=pbtn(x,BY,BS,on&&D.out===o?1:0,'#ff5a3c','ot" data-o="'+o,`SWR OUT ${o+1} — click`));
   SRCX.forEach((x,i)=>over+=pbtn(x,BY,BS,srcLed(i+1,t),'#43e06a','sr" data-s="'+(i+1),`SOURCE ${i+1} — click`));
   over+=`<g class="pwr" style="cursor:pointer"><title>Power</title><circle cx="3290" cy="260" r="0"/></g>`;
-  return layered({w:RW,h:RH,bg:'#111214',layers:[PREFIX+'-front-green.png',PREFIX+'-front-white.png'],over,label:'RAV24 front panel (real silkscreen, Nov 2015)'}); }
+  return layered({w:RW,h:RH,bg:'#111214',layers:[PREFIX+'-front.svg'],over,label:'RAV24 front panel (real silkscreen, Nov 2015)'}); }
 function rearSVG(){
   const BX=[531,678,822,966,1110,1254,1401,1548];
   let over=''; BX.forEach((x,i)=>[72,210].forEach((y,r)=>{ const lab = i<2 ? `VIDEO OUTPUT ${i+1} feed ${r?'B':'A'} — switcher ${i+1}, source V${D.xpt[i].v}` : `VIDEO INPUT ${2*(i-2)+1+r}`; over+=bnc(x,y,i<2||((2*(i-2)+1+r)===D.xpt[0].v||(2*(i-2)+1+r)===D.xpt[1].v),'',lab,40); }));
   const ph=(x,y,hot,title)=>`<g><title>${title}</title><rect x="${x-46}" y="${y-24}" width="92" height="48" rx="3" fill="#26a356" stroke="#0e5d2b"/>${[-28,0,28].map(d=>`<rect x="${x+d-8}" y="${y-12}" width="16" height="24" fill="#0e4d25"/>`).join('')}${hot?`<rect x="${x-44}" y="${y-22}" width="88" height="14" fill="#2b5f9e" opacity=".85"/>`:''}</g>`;
-  for(let k=1;k<=12;k++){ const x=1600+(k-1)*106.6; over+=ph(x,95,D.xpt[0].a===k||D.xpt[1].a===k,`AUDIO INPUT ${k} LEFT (+ − G)`)+ph(x,225,D.xpt[0].a===k||D.xpt[1].a===k,`AUDIO INPUT ${k} RIGHT`); }
-  [0,1].forEach(o=>{ const x=3000+o*110; over+=ph(x,95,true,`AUDIO OUTPUT ${o+1} LEFT (source A${D.xpt[o].a})`)+ph(x,225,true,`AUDIO OUTPUT ${o+1} RIGHT`); });
-  over+=`<rect x="58" y="200" width="100" height="62" rx="10" fill="#9a9da1" stroke="#555"/><rect x="72" y="214" width="72" height="34" rx="6" fill="#111"/><text x="108" y="290" text-anchor="middle" font-size="16" fill="#eee">RS-232 (DB9)</text>`+iec(40,30,176,150);
-  return layered({w:RW,h:RH,bg:'#111214',layers:[PREFIX+'-rear-white.png'],over,label:'RAV24 rear panel (real silkscreen)'}); }
+  for(let k=1;k<=12;k++){ const x=1752.7+(k-1)*105.4; over+=ph(x,66,D.xpt[0].a===k||D.xpt[1].a===k,`AUDIO INPUT ${k} LEFT (+ − G)`)+ph(x,206,D.xpt[0].a===k||D.xpt[1].a===k,`AUDIO INPUT ${k} RIGHT`); }
+  [0,1].forEach(o=>{ const x=3158.75+o*107.5; over+=ph(x,66,true,`AUDIO OUTPUT ${o+1} LEFT (source A${D.xpt[o].a})`)+ph(x,206,true,`AUDIO OUTPUT ${o+1} RIGHT`); });
+  /* Artwork 2026|59: DB9 in the Detail C cut-out (1.607 in, 1.126 in on RAV24-REAR ISS 5); the upper Detail B double-D hole (.550, .375)
+     takes the mains cord — the silk's caution text is printed across it (inferred: no inlet part is named) */
+  over+=`<g><title>CONTROL — RS-232 DB9 in the Detail C cut-out (the silk prints “CONTROL” 0.88 in to its left)</title><rect x="271" y="198" width="100" height="56" rx="10" fill="#9a9da1" stroke="#555"/><rect x="285" y="211" width="72" height="30" rx="6" fill="#111"/></g>`
+    +`<g><title>Mains cord entry, Detail B double-D .450 × .512 hole (${'inferred'}) — the caution legend is printed over it</title><circle cx="110" cy="75" r="46" fill="#26282b" stroke="#55595e" stroke-width="3"/><circle cx="110" cy="75" r="22" fill="#111"/></g>`;
+  return layered({w:RW,h:RH,bg:'#111214',layers:[PREFIX+'-rear.svg'],over,label:'RAV24 rear panel (real silkscreen)'}); }
 function bindPanel(r){ r.querySelectorAll('.md').forEach(g=>g.onclick=()=>A.mode(g.dataset.m)); r.querySelectorAll('.ot').forEach(g=>g.onclick=()=>A.out(+g.dataset.o)); r.querySelectorAll('.sr').forEach(g=>g.onclick=()=>A.src(+g.dataset.s)); }
 function consoleHTML(){ return `<div class="small" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:6px"><label>RS-232 (${D.baud} baud) <input id="cmd" value="#001D35$" style="width:140px" class="mono"></label><button id="snd">Send</button>
   ${['#000H$','#001D3c$','#001E77$','#001J1$','#001J0$'].map(c=>`<button class="qk" data-c="${c}">${c}</button>`).join('')}</div>
@@ -386,7 +404,7 @@ function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2'), w=SIM.css
 function xptTable(){ return tbl(['Switcher','Audio source','Video source','Breakaway?'],[0,1].map(o=>[`OUT ${o+1}${o===D.out?' (selected)':''}`,`A ${D.xpt[o].a}`,`V ${D.xpt[o].v}`,D.xpt[o].a!==D.xpt[o].v?'<b>yes</b> — the other tally chirps':'no']),true); }
 function viewSim(m){ window.__rav24Active=true;
   m.innerHTML=`${card('Front panel — RAV24-FRONT&REAR-SILK (CURVE).pdf; click MODE, SWR OUT and SOURCE SELECT',`<div id="fp"></div><div class="small muted">Keys: A/V/B = AUDIO/VIDEO/A-V, [ ] = SWR OUT 1/2, 1…9 0 - = = sources 1…12. Flashing source tally = the other (breakaway) source, as the manual describes.</div>`)}
-   ${card('Rear panel',`<div id="rp"></div>`)}
+   ${card('Rear panel',`<div id="rp"></div><div class="small muted" style="margin-top:3px">Artwork: GREEN + WHITE front plates and the REAR WHITE plate of ${SIM.src(SILK,'RAV24-FRONT&REAR-SILK (CURVE).CDR')} (NOV.10/15), CorelDRAW vector, registered on one panel; faint lines = cut geometry. Controls sit on the holes of ${SIM.src(MECH+'RAV24-FRONT ISS 2 (PANEL).pdf','RAV24-FRONT ISS 2')} / ${SIM.src(MECH+'RAV24-REAR ISS 5 (PANEL).pdf','RAV24-REAR ISS 5')}; the silk legends print 0.88 in to their left, as on the sheet.</div>`)}
    <div class="grid2">${card('Firmware path of the last action',`<div id="trace" class="log"></div>`)}<div>${card('Crosspoints',`<div id="xp"></div>`)}${card('RS-232 control (ASCII protocol)',`<div id="con"></div>`)}</div></div>
    ${card('Timeline — zoom to 100 ms after a press to see debounce, ARM and the vertical-interval cut',`<canvas id="tl"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}`;
   const draw=()=>{ m.querySelector('#fp').innerHTML=frontSVG(); bindPanel(m.querySelector('#fp')); m.querySelector('#rp').innerHTML=rearSVG();
@@ -463,14 +481,17 @@ function viewNotes(m){ window.__rav24Active=false;
    <li><b>Three control protocols.</b> v101 uses a two-byte 0xCF frame; the 2001 custom build uses ASCII (#000H$…), rewritten into modules (init, startup, processing, eerw) on a PIC16F76; a 2004 Rabbit web page sets the same four sources. The ASCII spec says RAV24 #1 is serial 57101.</li>
    <li><b>Voltage mismatch.</b> The custom manual says “factory set for 240 V”; the silk says “115 VAC, 1/2 A.S.B.”</li>
    <li><b>Corrected 2026|59:</b> the CPLD is an EPM7128SLC84-6, not an EPM7256S. <span class="mono">avs24.rpt</span> (MAX+plus II) fits the design into EPM7128SLC84-6 with 90/128 logic cells; “EPM7256SQC208-7” is only the first AUTO_DEVICE in the DEFAULT_DEVICES candidate list of <span class="mono">AVS24.ACF</span>. (see avs.js)</li>
+   <li><b>Artwork 2026|59: front/rear panels now from</b> ${SIM.src(SILK,'RAV24-FRONT&REAR-SILK (CURVE).CDR')} (NOV.10/15), the CorelDRAW vector of the same sheet the PNG cuts came from. Converting it to vectors and laying it on the drilling showed the legend shift below; the buttons and terminal blocks were moved onto the holes.</li>
+   ${FOOT.map(f=>`<li>${f.text} <span class="muted small">— ${SIM.src(f.src)}</span></li>`).join('')}
    <li><b>Mechanical folder.</b> Front ISS 2, rear ISS 5, BNC cover plate and spacer strip sit in “Not in ERP”; two drawings are shared with XTM4 (same chassis).</li></ol>`)
-  +card('Assumptions in this simulation',`<ul class="small"><li>Fosc 4.9152 MHz; instruction counts per routine estimated from the listing (${inf}).</li><li>The CPLD applies a video cut at the first NTSC vertical interval after ARM rises (${inf}).</li><li>The ASCII protocol is the custom build’s; the standard v101 unit used 0xCF frames (both shown).</li><li>Button positions are the silk label centres (the silk crosshairs mark mounting points, not every switch).</li></ul>`)
-  +card('Sources',`<ul class="small mono"><li>XXX - RAV 24 - #Mechanical #Obsolete/Silks/RAV24-FRONT&amp;REAR-SILK (CURVE).pdf (→ assets/rav-24-front-white.png, rav-24-front-green.png, rav-24-rear-white.png)</li><li>XXX - AVS - #OBSOLETE #Archive/RAV24/V101/ravv101.asm, remv102.asm</li><li>…/Custom Rav24 Dec 21/RAV24MANCUSTOM.WPD, RAV24 PROTOCOL (Preliminary).pdf, working/rav24custom.asm</li><li>…/RAV24 Control Interface Feb 29 04.html, AVS24.ACF</li></ul>`); }
+  +card('Assumptions in this simulation',`<ul class="small"><li>Fosc 4.9152 MHz; instruction counts per routine estimated from the listing (${inf}).</li><li>The CPLD applies a video cut at the first NTSC vertical interval after ARM rises (${inf}).</li><li>The ASCII protocol is the custom build’s; the standard v101 unit used 0xCF frames (both shown).</li><li>Button positions are the drilled .340 in squares (RAV24-FRONT ISS 2), not the silk legends, which are printed 0.88 in to the left (Artwork 2026|59; before that the simulator used the legend centres).</li></ul>`)
+  +card('Sources',`<ul class="small mono"><li>XXX - RAV 24 - #Mechanical #Obsolete/Silks/RAV24-FRONT&amp;REAR-SILK (CURVE).pdf and its .CDR (→ assets/rav-24-front.svg, rav-24-rear.svg, Artwork 2026|59)</li><li>XXX - AVS - #OBSOLETE #Archive/RAV24/V101/ravv101.asm, remv102.asm</li><li>…/Custom Rav24 Dec 21/RAV24MANCUSTOM.WPD, RAV24 PROTOCOL (Preliminary).pdf, working/rav24custom.asm</li><li>…/RAV24 Control Interface Feb 29 04.html, AVS24.ACF</li></ul>`); }
 SIM.register({
   id:'rav-24', name:'RAV 24 · RAV24 12 × 2 audio/video switcher with breakaway (2000|33–2015|48)', duration:1, product:'RAV 24', year:2000, family:'Obsolete products', folder:'#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/XXX - RAV 24 - #Mechanical #Obsolete',
   summary:'A 1 RU “Select Series” routing switcher: 12 video + stereo audio inputs, two independent switchers with audio-follow-video or breakaway, lit pushbuttons and RS-232 control. The panel is the 2015 silk; the behaviour follows the PIC16C73A firmware ravv101.asm and the 2001 ASCII protocol.',
   highlights:['Real RAV24 silkscreen with 17 working lit pushbuttons','Breakaway “chirp” tally timing from the firmware constants','Debounce, ARM and vertical-interval video cut on the timeline','ASCII RS-232 console (#000H$ …)','Main loop stepped routine by routine'],
   depth:'Hardware model',
+  footnotes:FOOT,
   stepUnits:[{label:'1 main-loop pass',period:()=>PASS},{label:'1 field',period:()=>NTSC_FIELD},{label:'1 ms',period:()=>0.001},{label:'1 UART bit',period:()=>1/9600}],
   zooms:[[1,'1 s'],[0.25,'250 ms (chirp)'],[0.1,'100 ms (a press)'],[0.02,'20 ms'],[PASS,'1 pass'],[0.002,'2 ms']], defaultZoom:2,
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial',render:viewTutorial},{id:'second',label:'One second',render:viewSecond},
