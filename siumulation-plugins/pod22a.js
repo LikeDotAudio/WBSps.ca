@@ -4,6 +4,7 @@
 
    The POD22A folder holds only panels and photos. The related code and records are elsewhere in the archive:
    - #POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).pdf (Jun 27 2014) + Pics/POD22A Front.jpg, Rear.jpg
+   - POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr → assets/pod22a-front.svg, pod22a-rear.svg (Inkscape, plates + cut-out layer registered, 2026|59; replaces the PNG cut from the .pdf)
    - #POD #SERIES/POD23 - #Engineering/POD23 - #Software/POD23 - #SOFTWARE #working/POD23Com/POD22/pod22v2.asm, init.asm, uart.asm, modes.asm
        (POD22 v1.02 PIC16F874 controller, 17 Mar 2003: CS8420 lock, DIP switches, 75/110 Ω autodetect, POD23 serial control, SHARC link)
    - #POD #SERIES/POD23 - #Engineering/POD23 PROTOCOL.wpd (frame ff · address · command · data · aa; POD22 product ID 1000 0001)
@@ -27,16 +28,16 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
-  </svg>`;
+  </svg><div class="small muted" style="margin:2px 0 6px">Panel artwork: ${SIM.src(ART_SRC, ART_LABEL)} (CorelDRAW, curves; green and white plates registered on one panel)</div>`;
 }
+const ART_SRC = '#POD #SERIES/POD22A - #Master/POD22A - #ARTWORK #DA #2016/POD22A-FRONT&REAR-SILK (CURVE).cdr', ART_LABEL = 'POD22A-FRONT&REAR-SILK (CURVE).cdr, Jun 27 2014';
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
   return `<g class="pwr" style="cursor:pointer"><title>Power rocker: click to switch ${on?'off':'on'}</title><rect x="${x}" y="${y}" width="112" height="146" rx="10" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/>
@@ -422,7 +423,7 @@ function frontSVG(t){ let over=''; const lk=lockAt(t), br=D.dip.BRIGHT?1:0.55;
   const c=corr(t); for (let i=0;i<11;i++){ const v=1-i*0.2, on=lk&&c!==null&&Math.abs(v-c)<0.1; over+=`<circle cx="422" cy="${100+i*12}" r="4.5" fill="${on?(v>0?'#9be35a':v<-0.2?'#ff4a3a':'#ffe23a'):'#2a2f2a'}"/>`; }
   const fsLed=f=>lk&&digital()&&D.fs===f || lk&&!digital()&&f===48000;
   over+=led(742,280,lk,'var(--led-g)',8)+led(847,280,comOn(t),'#ffd23a',8)+led(943,280,fsLed(44100),'#ffd23a',8)+led(1045,280,fsLed(48000),'#ffd23a',8)+led(1149,280,fsLed(96000),'#ffd23a',8)+led(1248,280,!lk,'#ff4a3a',8);
-  return panelSVG(PREFIX,'front',{over},'POD22A front panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'front',{over},'POD22A front panel (CorelDRAW silk artwork)'); }
 function dipV(x,y,cls){ let s=`<rect x="${x-8}" y="${y-8}" width="62" height="${DIPS.length*24+10}" rx="4" fill="#3d7bc9" stroke="#1d4d8a" stroke-width="2"/>`;
   DIPS.forEach((n,i)=>{ const on=!!D.dip[n], yy=y+i*24; s+=`<g class="${cls}" data-i="${i}" style="cursor:pointer"><title>${n}: ${on?'ON':'OFF'} — click to flip</title><rect x="${x}" y="${yy}" width="46" height="18" fill="#e8ecef"/><rect x="${on?x+24:x+2}" y="${yy+2}" width="20" height="14" fill="#2a2d31"/></g>`; }); return s; }
 function rearSVG(t){ const ld=t==null?SIM.t:t;
@@ -430,7 +431,7 @@ function rearSVG(t){ const ld=t==null?SIM.t:t;
     +phx(647,95,D.in.ana,'pa','ANALOG IN L — click')+phx(797,95,false,'','ANALOG OUT L')+phx(647,195,D.in.ana,'pa','ANALOG IN R — click')+phx(797,195,false,'','ANALOG OUT R')
     +dipV(958,52,'dp')+`<g><title>CONTROL (DB9) — POD23 remote, 9600 baud</title><rect x="1110" y="175" width="132" height="62" rx="12" fill="#b9bcbf" stroke="#6b6f73" stroke-width="3"/><rect x="1128" y="187" width="96" height="38" rx="8" fill="#151617"/>${comOn(ld)?'<circle cx="1250" cy="170" r="7" fill="var(--accent)"/>':''}</g>`
     +`<circle cx="1374" cy="160" r="44" fill="#151617" stroke="#666" stroke-width="4"/><text x="1374" y="166" font-size="16" fill="#999" text-anchor="middle">FUSE</text><circle cx="1534" cy="160" r="30" fill="#0c0d0e"/><path d="M1534 160 h200" stroke="#0c0d0e" stroke-width="24"/>`;
-  return panelSVG(PREFIX,'rear',{over},'POD22A rear panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'rear',{over},'POD22A rear panel (CorelDRAW silk artwork)'); }
 function bindPanel(r){ r.querySelectorAll('.dp').forEach(g=>g.onclick=()=>A.dip(DIPS[+g.dataset.i])); r.querySelectorAll('.pb').forEach(g=>g.onclick=()=>A.plug('bnc')); r.querySelectorAll('.pp').forEach(g=>g.onclick=()=>A.plug('phx')); r.querySelectorAll('.pa').forEach(g=>g.onclick=()=>A.plug('ana')); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:8px;align-items:center">
   <label>Programme <select id="pg">${[['tone','steady tone'],['bursts','120 ms bursts'],['step','tone from 200 ms'],['speech','speech-like']].map(([v,l])=>`<option value="${v}" ${v===D.prog.type?'selected':''}>${l}</option>`).join('')}</select></label>
@@ -500,6 +501,7 @@ function viewSoft(m){ window.__pod22aActive=true;
     m.querySelector('#dp').innerHTML=levelsHTML(); };
   SIM.on('time',draw); }
 const viewNotes=notesView('__pod22aActive','What the POD22A archive shows — findings',[
+  `<b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_SRC,'POD22A-FRONT&REAR-SILK (CURVE).cdr')} (Jun 27 2014|47).</b> Three plates (FRONT GREEN, FRONT WHITE, REAR WHITE) and the cut-out layer are registered on one panel. The front cut-out layer has two round holes with no legend, inboard of the rack screws (display-board fixings, ${inf}); the rear shows the AES BNC holes, the vent slots above CONTROL and two D-shaped holes for the fuse holder and power inlet.`,
   '<b>The POD22 controller code is filed under POD23.</b> <span class="mono">POD23 - #Engineering/…/POD23Com/POD22/pod22v2.asm</span> is “Pod 22 v1.02, Issue 2 PCB” (17 Mar 2003|36), written while adding the POD23 remote protocol. The POD22A folder itself has only artwork.',
   '<b>A POD22 test report is filed under POD21.</b> <span class="mono">POD21 - #TESTREPORT/POD22-V103-13JUN11.pdf</span> (13 Jun 2011|44): “Software upgrade to support Hi Resolution LED Bar Graph. Brightness Control and Overload Peak Hold functions are removed”, MC v103 / DSP v103, display board SLM1-4. The 57-point bar on POD22A matches that “high resolution” version (inferred).',
   '<b>The A/D switch is read with the opposite polarity.</b> In <span class="mono">read_jumpers</span> every DIP uses <span class="mono">btfss</span> (ON = bit set) except dip2, where <span class="mono">btfss portd,7</span> is commented out and replaced by <span class="mono">btfsc</span>: A/D OFF = analog, ON = digital.',
@@ -510,7 +512,7 @@ const viewNotes=notesView('__pod22aActive','What the POD22A archive shows — fi
   '<b>DAC change documented in code.</b> “SHARC V1.01 is for CS4336-KS (OBSOLETE), SHARC V1.02 is for CS4334-KS” — the analog output DAC changed between DSP versions.',
   '<b>BRIGHT is on the photo but not the silk.</b> The rear silk lists A/D … A1 (seven names); the photo shows eight levers with BRIGHT first, matching dip1 “brightness” in read_jumpers.'],
  ['That POD22A runs the POD22 v1.02 PIC code and the SLM-1 meter maths (inferred from the matching DIP names and front legends).','BS0/BS1 and CAL0/CAL1 meanings follow the POD11A rear legend (inferred). Analog 0 dBFS = +24 dBu (inferred).','One MAIN pass ≈ 1 ms (oscillator not archived, inferred). COM lights for 200 ms after a frame (inferred from serial_time = 200).','Rate LEDs show the measured AES rate; 32 kHz lights none (inferred).'],
- ['POD22A - #ARTWORK #DA #2016/POD22A-FRONT&amp;REAR-SILK (CURVE).pdf · Pics/POD22A Front.jpg, Rear.jpg','../POD23 - #Engineering/POD23 - #Software/POD23 - #SOFTWARE #working/POD23Com/POD22/pod22v2.asm · init.asm · uart.asm · modes.asm · ee_data.asm','../POD23 - #Engineering/POD23 PROTOCOL.wpd','../POD21 - #Master/POD21 - #TESTREPORT/POD22-V103-13JUN11.pdf','../POD3A - #Master/POD3A - #Engineering/sharc/working v101/ (SLM-1)']);
+ ['POD22A - #ARTWORK #DA #2016/POD22A-FRONT&amp;REAR-SILK (CURVE).pdf · Pics/POD22A Front.jpg, Rear.jpg'+' · '+SIM.src(ART_SRC,ART_SRC.split('/').pop())+' (panel artwork)','../POD23 - #Engineering/POD23 - #Software/POD23 - #SOFTWARE #working/POD23Com/POD22/pod22v2.asm · init.asm · uart.asm · modes.asm · ee_data.asm','../POD23 - #Engineering/POD23 PROTOCOL.wpd','../POD21 - #Master/POD21 - #TESTREPORT/POD22-V103-13JUN11.pdf','../POD3A - #Master/POD3A - #Engineering/sharc/working v101/ (SLM-1)']);
 SIM.register({ id:'pod22a', name:'POD22A · stereo loudness meter, AES or analog in (2014|47)', duration:1, product:'POD22A', year:2014, family:'POD series', folder:'#POD #SERIES/POD22A - #Master',
   summary:'Half-rack stereo meter with two 57-point VU/peak bars, a phase column and LOCK/COM/44.1K/48K/96K/ERROR tallies, fed from AES (75 or 110 Ω, auto-detected) or analog, and remote-controllable from a POD23. Only panels are in its folder; the PIC control code (POD22 v1.02) and a POD22 test report were found filed under POD23 and POD21.',
   highlights:['Real silkscreen panels with live bars, phase, tallies, DIPs and inputs','PIC main loop and 75/110 Ω autodetect traced from pod22v2.asm','POD23 serial frames and the COM tally','SLM-1 VU/PPM/peak ballistics','Inverted A/D DIP and other code findings'],

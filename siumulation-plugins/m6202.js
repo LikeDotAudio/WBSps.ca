@@ -32,6 +32,29 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+/* ---- CorelDRAW artwork (artwork pass 2026|59): the panels are the archive's .cdr drawings, converted with Inkscape
+   (text kept live, re-anchored where libcdr lost alignment); the live parts sit on the drawn holes, in the drawing's pt coordinates. ---- */
+const ART_CSS = `<style>.arthl{fill:transparent;stroke:transparent;stroke-width:.7}.og62-hot:hover .arthl,.arthot:hover .arthl{stroke:#2b8cff}</style>`;
+function artSVG(o){ // o: {src, vb:[x,y,w,h], maxw, label, fid, body}
+  const [x,y,w,h]=o.vb;
+  return `<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:${o.maxw||300}px;display:block;margin:auto;background:#f4f4f0;border-radius:6px" role="img" aria-label="${o.label}">${ART_CSS}
+    <defs><filter id="${o.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}${o.src}" x="${x}" y="${y}" width="${w}" height="${h}"/>${o.body||''}</svg>`;
+}
+/* one LED lens drawn over the LED box in the card-edge drawing */
+function artLed(o){ // {x,y,w,h, on, col, fid, attrs, title}
+  return `<g ${o.attrs||''}><title>${o.title||''}</title><rect x="${o.x}" y="${o.y}" width="${o.w}" height="${o.h}" rx="1" fill="${o.on?o.col:'rgba(28,32,30,.55)'}" ${o.on?`filter="url(#${o.fid})"`:''}/><rect class="arthl" x="${o.x-1}" y="${o.y-1}" width="${o.w+2}" height="${o.h+2}" rx="1.5"/></g>`;
+}
+/* a connector on the rear-module drawing: hit area, optional plugged cable, live dot, scope highlight */
+function artJack(o){ // {cx,cy,r, kind:'bnc'|'tb', w,h, conn, live, sel, attrs, title}
+  const r=o.r||6, lv=o.live===undefined?'':`<circle cx="${o.cx+(o.kind==='tb'?o.w/2+2:r+0.6)}" cy="${o.cy+(o.kind==='tb'?-(o.h/2-1.5):r-0.6)}" r="1.7" fill="${o.live===true?'#2f8f46':o.live==='warn'?'#d9a21b':o.live==='err'?'#c0392b':'#8d9296'}" stroke="#fff" stroke-width=".35"/>`;
+  let g='';
+  if (o.conn) g+= o.kind==='tb'? `<rect x="${o.cx-o.w/2-.8}" y="${o.cy-o.h/2-.8}" width="${o.w+1.6}" height="${o.h+1.6}" rx="1" fill="#2b5f9e" opacity=".55"/>`
+                               : `<circle cx="${o.cx}" cy="${o.cy}" r="${r*0.82}" fill="#2b5f9e" opacity=".8"/><circle cx="${o.cx}" cy="${o.cy}" r="${r*0.3}" fill="#9cc3ef"/>`;
+  if (o.sel) g+=`<circle cx="${o.cx}" cy="${o.cy}" r="${r+1.6}" fill="rgba(255,210,60,.35)" stroke="#e5b21b" stroke-width=".5"/>`;
+  const hit = o.kind==='tb'? `<rect class="arthl" x="${o.cx-o.w/2-1}" y="${o.cy-o.h/2-1}" width="${o.w+2}" height="${o.h+2}" rx="1"/>` : `<circle class="arthl" cx="${o.cx}" cy="${o.cy}" r="${r+0.6}"/>`;
+  return `<g ${o.attrs||''}><title>${o.title||''}</title>${g}${lv}${hit}</g>`;
+}
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const infT = why => `<span class="tag-inf" title="Not stated in the source; inferred from ${String(why).replace(/"/g,'&quot;')}">inferred</span>`;
 const hx = (v,n)=> (v>>>0).toString(16).toUpperCase().padStart(n||2,'0');
@@ -621,16 +644,28 @@ function cardSVG(t, opts){
   x+=`<rect x="985" y="226" width="130" height="22" rx="4" fill="rgba(0,0,0,.6)"/><text x="1050" y="241" text-anchor="middle" font-size="12" fill="${fpgaUp(t)?'#9fffb0':'#ffb43a'}" font-family="monospace">${fpgaUp(t)?'FPGA running':'CONFIGURING'}</text>`;
   x+='</svg>'; return x;
 }
-function edgeSVG(t){   // M6202-card-edge.cdr: SD, HD, ERR, AES1–4, COM Activity, Error (DOLBY LEDs beside AES1–4)
-  const rows=[['sd',0],['hd',1],['err',2],['a1',3.75],['a2',4.75],['a3',5.8],['a4',6.85],['com',8.4],['cerr',9.4]];
-  let s=`<svg viewBox="0 0 230 300" style="width:100%;max-width:230px;display:block"><rect width="230" height="300" rx="8" fill="var(--dev)"/>
-    <defs><filter id="m62g2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-    <rect x="30" y="12" width="14" height="262" fill="#121513" stroke="#333"/><text x="115" y="294" font-size="9.5" text-anchor="middle" fill="#8a8f8c">card edge (M6202-card-edge.cdr)</text>`;
+/* Artwork 2026|59: card edge = M6202-card-edge.cdr (2008-02-22), LED boxes at x 179.7 pt; rear modules = M6202AE Rear Modules.cdr
+   (2009-06-04): T6204 / T6304 / T6306, connectors placed on the drawn BNC circles and Phoenix blocks (pt). */
+const M62ART = {
+  edge:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202-card-edge.cdr',
+  rear:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE Rear Modules.cdr',
+  t6306:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE-T6306RearModule.cdr',
+  guide:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6202AE - rear module options.cdr',
+  EDGE_Y:{sd:141.9, hd:163.0, err:186.2, a1:222.8, a2:244.0, a3:267.2, a4:290.5, com:323.4, cerr:346.6},
+  RM:{T6204:{src:'m6202-rear-t6204.svg', vb:[14,84,202,254], bnc:[[95.2,142.9],[143.6,142.9]], br:16.2, tb:[91.6,141.1], ty:[181.3,218.0,254.6,291.1]},
+      T6304:{src:'m6202-rear-t6304.svg', vb:[216,84,194,254], bnc:[[287.9,142.6],[336.3,142.6]], br:16.2, tb:[284.3,334.3], ty:[181.0,217.7,254.3,290.8]},
+      T6306:{src:'m6202-rear-t6306.svg', vb:[405,84,207,254], cols:[486.4,531.6], rows:[142.9,180.0,217.0,254.0,291.0], br:13.8, tb10:[538.5,290.4]}},
+  pos(rear,i){ const A=this.RM[rear], col=i%2, row=Math.floor(i/2);
+    if (A.cols){ if (i===9) return {cx:A.tb10[0], cy:A.tb10[1], kind:'tb', w:20.5, h:36}; return {cx:A.cols[col], cy:A.rows[row], r:A.br}; }
+    if (row===0) return {cx:A.bnc[col][0], cy:A.bnc[col][1], r:A.br};
+    return {cx:A.tb[col], cy:A.ty[row-1], kind:'tb', w:20.5, h:36.6}; } };
+function edgeSVG(t){
   const L=Object.fromEntries(LEDS.map(l=>[l[0],l]));
-  rows.forEach(([n,r])=>{ const y=28+r*25, on=ledAt(n,t), col=L[n][4];
-    s+=`<rect x="31" y="${y-6}" width="12" height="12" rx="2" fill="${on?col:'#2b2f2c'}" ${on?'filter="url(#m62g2)"':''}/><text x="58" y="${y+5}" font-size="13" fill="#e6e6e6">${L[n][3]}</text>`;
-    if (n[0]==='a'){ const dn='d'+n[1], don=ledAt(dn,t); s+=`<rect x="14" y="${y-5}" width="10" height="10" rx="2" fill="${don?'#ffd23a':'#2b2f2c'}" ${don?'filter="url(#m62g2)"':''}><title>DOLBY ${n[1]} (manual: “reserved”)</title></rect>`; } });
-  s+=`<text x="19" y="${28+3.2*25}" font-size="8" fill="#8a8f8c" text-anchor="middle">D</text></svg>`; return s;
+  let body=Object.entries(M62ART.EDGE_Y).map(([n,y])=>{ const on=ledAt(n,t); return artLed({x:179.9, y:y-6.1, w:5.3, h:12.2, on, col:L[n][4], fid:'m62eg', title:`${L[n][3]} LED — ${LEDREF[n]} (${on?'lit':'off'})`}); }).join('');
+  body+=[1,2,3,4].map(k=>{ const n='d'+k, on=ledAt(n,t), y=M62ART.EDGE_Y['a'+k]; return artLed({x:187.6, y:y-4.5, w:4.2, h:9, on, col:L[n][4], fid:'m62eg', title:`DOLBY ${k} — ${LEDREF[n]} (${on?'lit':'off'}); not on the card-edge drawing (manual: “reserved”), placed from the PNP`}); }).join('')
+    + `<text x="189.7" y="214" font-size="5" text-anchor="middle" fill="#555">D</text>`;
+  return artSVG({src:'m6202-edge.svg', vb:[60,126,156,318], maxw:230, label:'M6202 card edge', fid:'m62eg', body})
+    + `<div class="small muted" style="text-align:center">${SIM.src(M62ART.edge,'M6202-card-edge.cdr')} (2008-02-22); D = Dolby LEDs from the PNP</div>`;
 }
 const REARS = {
   T6204:{frame:'DFR-8310 (10-slot)', imp:'110 Ω', kinds:['bnc','bnc','tb','tb','tb','tb','tb','tb','tb','tb']},
@@ -639,29 +674,18 @@ const REARS = {
 };
 const POSN = ['SDI IN','SDI OUT','AES 1','AES 5','AES 2','AES 6','AES 3','NOT USED','AES 4','METADATA OUT'];
 const POS_OUT = [null,null,0,4,1,5,2,null,3,null];
-function rearSVG(t){   // geometry from M6202AE Rear Modules.cdr (panel ≈ 1 : 2.35), labels as drawn
-  const w=world(t), R=REARS[w.rear]; const tx = fpgaUp(t) && gsLocked(t);
-  let s=`<svg viewBox="0 0 240 560" role="img" aria-label="${w.rear} rear module" style="width:100%;max-width:240px;display:block">
-    <rect x="20" y="20" width="200" height="500" rx="3" fill="#c9ccd0" stroke="#7a7f85"/><rect x="45" y="520" width="150" height="14" fill="#c9ccd0" stroke="#7a7f85"/>
-    <circle cx="120" cy="44" r="12" fill="#9aa0a6" stroke="#555"/><path d="M112 44 h16 M120 36 v16" stroke="#333"/>
-    <text x="120" y="552" font-size="12" text-anchor="middle" fill="var(--ink2)">${w.rear} · ${R.imp} · ${R.frame}</text>`;
-  const cx=[72,168];
-  for (let i=0;i<10;i++){ const col=i%2, row=Math.floor(i/2), x=cx[col], y = row===0? 100 : 175+(row-1)*86; const kind=R.kinds[i], o=POS_OUT[i];
+function rearSVG(t){   // M6202AE Rear Modules.cdr (2009-06-04), see M62ART
+  const w=world(t), R=REARS[w.rear], A=M62ART.RM[w.rear]; const tx = fpgaUp(t) && gsLocked(t);
+  let body='';
+  for (let i=0;i<10;i++){ const o=POS_OUT[i], P=M62ART.pos(w.rear,i);
     const live = o!==null ? !!outRoute(o,t) : (i===1? tx : i===0? w.cable : false);
     const cls = i===0? 'm62sdi' : o!==null? 'm62out' : '';
-    if (kind==='bnc'){ const r= row===0? 30 : 26;
-      s+=`<g class="${cls}" data-o="${o}" style="cursor:${cls?'pointer':'default'}"><circle cx="${x}" cy="${y}" r="${r}" fill="#b9a160" stroke="#6b5a25"/><circle cx="${x}" cy="${y}" r="${r*0.6}" fill="#e2d39b"/><circle cx="${x}" cy="${y}" r="5" fill="#6b5a25"/>
-        ${i===0&&w.cable?`<circle cx="${x}" cy="${y}" r="${r-4}" fill="#2b5f9e" opacity=".85"/><rect x="${x-6}" y="${y}" width="12" height="40" fill="#2b5f9e"/>`:''}
-        <circle cx="${x+r-2}" cy="${y-r+2}" r="5" fill="${live?(i<2?'var(--accent2)':'var(--accent)'):'#888'}"/>
-        <rect x="${x-r-4}" y="${y-r-4}" width="${2*r+8}" height="${2*r+8}" fill="${D.scope===o&&o!==null?'rgba(255,220,80,.25)':'transparent'}"><title>${i+1} ${POSN[i]}${i===0?' — click to '+(w.cable?'unplug':'plug in'):o!==null?' — click to put it on the scope':''}</title></rect></g>`;
-    } else {
-      s+=`<g class="${cls}" data-o="${o}" style="cursor:${cls?'pointer':'default'}"><rect x="${x-17}" y="${y-36}" width="34" height="72" fill="#24944d" stroke="#0b4b26"/>${[0,1,2].map(k=>`<rect x="${x-11}" y="${y-31+k*22}" width="22" height="18" fill="#1d7a40" stroke="#0b4b26"/><circle cx="${x}" cy="${y-22+k*22}" r="4" fill="#0b2b16"/>`).join('')}
-        <circle cx="${x+22}" cy="${y-30}" r="5" fill="${live?'var(--accent)':'#888'}"/>
-        <rect x="${x-24}" y="${y-40}" width="48" height="80" fill="${D.scope===o&&o!==null?'rgba(255,220,80,.25)':'transparent'}"><title>${i+1} ${POSN[i]} (G − + / + − G)${o!==null?' — click to put it on the scope':''}</title></rect></g>`;
-    }
-    s+=`<text x="${x}" y="${y+(row===0?-36:47)}" font-size="9" text-anchor="middle" fill="${live?'#1b1d20':'#6c7176'}" font-weight="${live?700:400}">${i+1} ${POSN[i]}</text>`;
+    body+=artJack(Object.assign({}, P, {conn:i===0&&w.cable, sel:D.scope===o&&o!==null, live:(o!==null||i<2)?live:undefined,
+      attrs:`class="arthot ${cls}" data-o="${o}" style="cursor:${cls?'pointer':'default'}"`,
+      title:`${i+1} ${POSN[i]}${P.kind==='tb'?' (Phoenix G − + / + − G)':''}${i===0?' — click to '+(w.cable?'unplug':'plug in'):o!==null?' — click to put it on the scope':''}`}));
   }
-  s+='</svg>'; return s;
+  return artSVG({src:A.src, vb:A.vb, maxw:260, label:w.rear+' rear module', fid:'m62rg', body})
+    + `<div class="small muted" style="text-align:center">${w.rear} · ${R.imp} · ${R.frame}<br>${SIM.src(M62ART.rear,'M6202AE Rear Modules.cdr')} (2009-06-04)</div>`;
 }
 
 /* ---------------- DashBoard-style parameter window (generic layout, not Ross's design) ---------------- */
@@ -1066,6 +1090,7 @@ function viewSoft(m){
 }
 /* ---------------- findings ---------------- */
 const FINDINGS = [
+  ['Artwork '+SIM.year(2026)+': card edge and rear modules now from the CorelDRAW files', 'Card edge from '+SIM.src(M62ART.edge,'M6202-card-edge.cdr')+' (2008-02-22); T6204, T6304 and T6306 from '+SIM.src(M62ART.rear,'M6202AE Rear Modules.cdr')+' (2009-06-04). LEDs and connectors sit on the drawn boxes, circles and Phoenix blocks. The edge drawing has nine LEDs (SD, HD, ERR, AES1–4, COM Activity, Error) and no DOLBY 1–4, although the ISS3 PNP places four more yellow LEDs (LED8/7/5/2) and the firmware drives them; they are added beside AES1–4 here. The later '+SIM.src(M62ART.t6306,'M6202AE-T6306RearModule.cdr')+' (2009-05-28) relabels the T6306 as GROUP 1 OUT (3, 5), GROUP 2 OUT (7, 9) and SELECTABLE GROUP OUT (4, 6), and the 2012 '+SIM.src(M62ART.guide,'rear module guide')+' offers only the T6306A single and T6401A dual modules for the M6202AE.'],
   ['SD LED lights for HD','REFRESH_LEDS() and PROCESS_SDI_LOCK_STATUS() (v100w.c / M6202A.c) turn SD_LED_ON for any lock and add HD_LED_ON for HD, so an HD signal shows SD + HD. The manual table says SD = “valid SD-SDI signal”.'],
   ['DashBoard “Settings” are read-only; one read-write parameter does nothing','Dashboard.c: Dolby Decoding (0x0701), Decoder Input (0x0702), Group 3 Output Selector (0x0705) and Secondary Audio (0x0707) are ACCESS_READONLY; their SET branches are commented out. Dolby Decoder AES Selector (0x0706, MESSAGE_CREATOR_PARAMETER_76) is ACCESS_READWRITE but its SET is commented out too, and it is in no menu. For 0x0702 the GET leaves buffer[5] stale when dolby_enabled == NO.'],
   ['DIP switches override everything, every pass','M6202A.c PROCESS_DIP_SWITCHES(): the “if ((dip_switch_enabled == YES) && (dashboard_enabled == NO))” guard is commented out and v100w.c calls it on every pass, wrapped in CLI()/SEI(). At boot group3_sel is set to GROUP3 (2) plus the switch value (2–5) and the first pass rewrites it to 0–3.'],

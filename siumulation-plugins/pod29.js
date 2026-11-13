@@ -12,6 +12,13 @@ const SIM = window.SIM;
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 function card(t,b,cls){ return `<div class="card ${cls||''}"><h2>${t}</h2>${b}</div>`; }
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: assets/pod29-front.svg, pod29-rear.svg are vector conversions of
+   #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr (Jul.03/14; GREEN + WHITE plates on one panel, holes from the same
+   drawing). That "CURVE" file still holds its legends as live Arial text: libcdr drops the alignment, so each line is
+   placed and stretched to the word boxes of the file's own PDF export (pdftotext -bbox). Output cut-outs, their flange
+   screws, the IEC cut-out and the front rocker were re-aligned to the drawing (outputs had been drawn 32 px high, the IEC
+   46 px right and 19 px low, the rocker 7 px right). */
+const ART_PATH = '#POD #SERIES/POD29 - #Master/POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr';
 const dbu2v = d => 0.7746*Math.pow(10,d/20);           // dBu -> V rms
 const v2dbu = v => v>1e-9 ? 20*Math.log10(v/0.7746) : -200;
 const sgn = x => (x>=0?'+':'') ;
@@ -21,18 +28,17 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
+    <image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
 }
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
-function rocker(on, x, y){ x=x||137; y=y||58;
+function rocker(on, x, y){ x=x||124; y=y||58;   // centred on the 100 × 150 px rocker cut-out at (180, 131) in the .cdr artwork
   return `<g class="pwr" style="cursor:pointer"><title>Power rocker: click to switch ${on?'off':'on'}</title><rect x="${x}" y="${y}" width="112" height="146" rx="10" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/>
     <rect x="${x+16}" y="${on?y+12:y+68}" width="80" height="64" rx="7" fill="#1d2023" stroke="#3a3d40" stroke-width="2"/><text x="${x+56}" y="${on?y+52:y+108}" text-anchor="middle" font-size="22" fill="#55595c">${on?'I':'O'}</text></g>`; }
 function led(x,y,on,col,r){ r=r||10; return `<circle cx="${x}" cy="${y}" r="${r+3.5}" fill="#0a0b0b"/><circle cx="${x}" cy="${y}" r="${r}" fill="${on?col:'var(--led-off)'}" ${on?'filter="url(#glowfront)"':''}/>`; }
@@ -261,7 +267,7 @@ function simView(cfg){ return function(m){
   window[cfg.flag] = true;
   m.innerHTML = `<div class="grid2"><div>
       ${card(cfg.frontTitle||'Front panel at the playhead', `<div id="fp"></div>${cfg.controls()}`)}
-      ${card(cfg.rearTitle||'Rear panel — click the connectors', `<div id="rp"></div>`)}
+      ${card(cfg.rearTitle||'Rear panel — click the connectors', `<div id="rp"></div>${cfg.rearNote||''}`)}
     </div><div>
       ${card('What the circuit did (last action)', `<div id="trace" class="log"></div>`)}
       ${card(cfg.nowTitle||'Outputs now', `<div id="now"></div>`)}
@@ -346,12 +352,12 @@ const CFG = {
   highlights:['Real silkscreen panels; click outputs to load them','Rail ratings per version (A ±15 V, B ±12 V) from the draft manual','Load steps, switching ripple and hiccup on overload','POD29X/L/E rear-panel family'],
   mains:'90–230 VAC 50–60 Hz, 2 A S.B. (rear silk)', module:'an enclosed 40 W dual-output switching module (make not in the archive, inferred)',
   wiring:'POD29A WIRING.sch (ISS.1): the module\'s outputs come in on P2 “JONES TERMINAL” (5-way) and go in parallel to P1, P3, P4, P5 “OUTPUT 1–4” (3-way each); L1 green LED through R1 4K7.', wiringShort:'P2 Jones → P1/P3/P4/P5',
-  ledXY:[325,218], iec:[1405,52,1631,268],
+  ledXY:[325,218], iec:[1359,33,1607,249],
   vers:[{id:'A',label:'POD29A (±15 V)',rails:[{k:'p',name:'V+ (+15 V)',v:15,imax:1.5},{k:'n',name:'V− (−15 V)',v:-15,imax:1.2}],note:'Manual: 40 W total, V+ +15 V @ 1.5 A, V− −15 V @ 1.2 A.'},
         {id:'B',label:'POD29B (±12 V)',rails:[{k:'p',name:'V+ (+12 V)',v:12,imax:1.8},{k:'n',name:'V− (−12 V)',v:-12,imax:1.2}],note:'Manual: 40 W total, V+ +12 V @ 1.8 A, V− −12 V @ 1.2 A.'}],
   outs:[1,2,3,4].map(n=>({name:'OUTPUT '+n, short:'OUT '+n, conn:'3-way pluggable terminal (+ − G)', rails:['p','n']})),
   loads:[[0,'open'],[0.1,'100 mA'],[0.25,'250 mA'],[0.5,'500 mA'],[1,'1 A'],[3,'short (3 A)']],
-  drawOut:(o,i,live,a)=>{ const x=240+310*i, y=136; return `<g class="o${i}" style="cursor:pointer"><title>${o.name} (+ − G) — click to step the load (now ${a} A)</title><rect x="${x-115}" y="${y-62}" width="230" height="124" rx="6" fill="#2fae5c" stroke="#0e5d2b" stroke-width="2"/>${[-100,100].map(d=>`<circle cx="${x+d}" cy="${y-18}" r="11" fill="#bbb"/><rect x="${x+d-8}" y="${y+12}" width="16" height="26" fill="#0e4d25"/>`).join('')}<rect x="${x-62}" y="${y-48}" width="124" height="96" fill="#26a356" stroke="#0e5d2b"/>${[-38,0,38].map(d=>`<rect x="${x+d-14}" y="${y-8}" width="28" height="40" fill="#5b5f62"/><circle cx="${x+d}" cy="${y-28}" r="8" fill="#999"/>`).join('')}${live?`<rect x="${x-58}" y="${y+40}" width="116" height="10" fill="#2b5f9e"/>`:''}</g>`; },
+  drawOut:(o,i,live,a)=>{ const x=240+310*i, y=168; /* cut-out 146 × 98 px centred (240+310·i, 168), flange screws at ±100, y 127 (POD29-FRONT&REAR-SILK (CURVE).cdr) */ return `<g class="o${i}" style="cursor:pointer"><title>${o.name} (+ − G) — click to step the load (now ${a} A)</title>${[-100,100].map(d=>`<circle cx="${x+d}" cy="127" r="12" fill="#b9bcbf" stroke="#55595c" stroke-width="2"/><path d="M${x+d-7} 127h14" stroke="#55595c" stroke-width="3"/>`).join('')}<rect x="${x-73}" y="${y-49}" width="146" height="98" rx="4" fill="#2fae5c" stroke="#0e5d2b" stroke-width="2"/><rect x="${x-62}" y="${y-42}" width="124" height="84" fill="#26a356" stroke="#0e5d2b"/>${[-38,0,38].map(d=>`<rect x="${x+d-14}" y="${y-8}" width="28" height="40" fill="#5b5f62"/><circle cx="${x+d}" cy="${y-26}" r="8" fill="#999"/>`).join('')}${live?`<rect x="${x-58}" y="${y+36}" width="116" height="8" fill="#2b5f9e"/>`:''}</g>`; },
   blocks:{ ac:{x:20,y:100,w:160,h:80,t:'IEC + rocker',s:['90–230 VAC, 2 A S.B.'],d:'Rear IEC inlet with fuse; front rocker.'},
     mod:{x:230,y:90,w:180,h:100,t:'Switching module',s:['dual output, 40 W','A: ±15 V · B: ±12 V'],d:'Not identified in the archive (inferred enclosed switcher on the POD29E/L mounting plates).'},
     jw:{x:460,y:100,w:150,h:80,t:'P2 Jones terminal',s:['5-way','POD29A WIRING.sch'],d:'Interconnect between the module and the output connectors.'},
@@ -378,9 +384,10 @@ const CFG = {
     '<b>The “POD29X” rear silk is really POD29L and POD29E.</b> <span class="mono">POD29X-REAR-SILK(CURVE).pdf</span> (May 19/15) shows two 5-pin rears labelled POD29L (±24 V, +48 V phantom) and POD29E (±12 V, pin 5 NC). The matching drawing is titled “POD29XLR REAR PANEL” and notes “SILKSCREEN TO ARTWORK (POD29X-REAR-SILK (POD29E or POD29L))”. The folder <span class="mono">POD29X - #Mechanical #DA #2016</span> is empty.',
     '<b>Two input ranges on the silks.</b> POD29 reads “90-230 VAC 50-60 Hz, 2 A.S.B.”; POD29L/E read “100-230 VAC, 50-60 Hz”.',
     '<b>All outputs share one module.</b> The four connectors are in parallel, so a short on one output takes the other three down with it (hiccup in this model).',
+    ()=>`<b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART_PATH,'POD29-FRONT&REAR-SILK (CURVE).cdr')} (Jul.03/14).</b> Despite “CURVE” in its name the file keeps every POD29 legend (model line, OUTPUT 1–4, + − G, mains text) as live Arial text; only the PODS logo and “by Ward-Beck Systems” are curves. The front has one hole besides the rocker cut-out and the fixing screws: the power LED, Ø 51 px (6.5 mm), twice the 3.3 mm tally holes of POD27/28 (a panel-mount LED holder, ${inf}). On the rear each OUTPUT cut-out (146 × 98 px, 18.5 × 12.4 mm) has two flange-screw holes 200 px (25.4 mm) apart, and a small hole above the right fixing screw (as on POD27/28, where the POD28 ISS 1 rear drawing calls it the ground-stud insert).`,
     '<b>The manual is a draft.</b> <span class="mono">POD29 MANUALtemp.wpd</span> lists only versions and ratings; there is no regulation or ripple specification.'],
   assumptions:['Module: 0.03 Ω output resistance, ≈ 30 mV p-p ripple at 100 kHz, 40 ms start-up, hiccup 30 ms on / 250 ms period on overload (all inferred; no datasheet in the archive).','Overload = any rail above 110 % of its manual rating, or total above 115 % of 40 W (inferred).','The rocker matches the photo; the front silk has only the LED cross-hair.'],
-  sources:['POD29 - #Engineering/WiringDiagrams/POD29A WIRING.sch','POD29 - #Engineering/MANUAL/POD29 MANUALtemp.wpd','POD29 - #ARTWORK #DA #2016/POD29-FRONT&amp;REAR-SILK (CURVE).pdf · POD29X-REAR-SILK(CURVE).pdf · Pics/POD29 FRONT.jpg, REAR.jpg','POD29 - #Mechanical #DA #2016/POD29-M1 ISS 1 (FRONT PANEL).pdf · POD29-M2 ISS 1 (REAR PANEL).pdf']
+  sources:['POD29 - #Engineering/WiringDiagrams/POD29A WIRING.sch',SIM.src(ART_PATH,'POD29 - #ARTWORK #DA #2016/POD29-FRONT&REAR-SILK (CURVE).cdr')+' (panel artwork, vector)','POD29 - #Engineering/MANUAL/POD29 MANUALtemp.wpd','POD29 - #ARTWORK #DA #2016/POD29-FRONT&amp;REAR-SILK (CURVE).pdf · POD29X-REAR-SILK(CURVE).pdf · Pics/POD29 FRONT.jpg, REAR.jpg','POD29 - #Mechanical #DA #2016/POD29-M1 ISS 1 (FRONT PANEL).pdf · POD29-M2 ISS 1 (REAR PANEL).pdf']
 };
 const V = { Rout:0.03, tauStep:0.0004, fsw:100000, ripple:0.03, hicPeriod:0.25, hicOn:0.03, Ptot:40 };   // switcher behaviour inferred (see Findings)
 const D = { power:true, powerAt:-1, ver:CFG.vers[0].id, load:CFG.outs.map(()=>CFG.loads[1][0]), changedAt:-1, prevI:null, log:[] };
@@ -428,7 +435,7 @@ function lanes(){ const wn=SIM.css('--warn'), a=SIM.css('--accent'), b=SIM.css('
 function nowHTML(t){ return `<table class="kv">${VER().rails.map(r=>{ const I=railI(r.k); return `<tr><th>${r.name}</th><td class="mono">${railAt(r,t).toFixed(3)} V · ${I.toFixed(2)} / ${r.imax} A ${I>r.imax*1.1?'<b style="color:var(--bad)">OVER</b>':''}</td></tr>`; }).join('')}
   <tr><th>Total power</th><td class="mono">${VER().rails.reduce((s,r)=>s+Math.abs(r.v)*railI(r.k),0).toFixed(1)} W of ${V.Ptot} W ${overload()?'<b style="color:var(--bad)">HICCUP</b>':''}</td></tr></table>`; }
 function levelsHTML(){ return `<table class="kv"><tr><th>Output</th><th>Connector</th><th>Load</th><th>Rails</th></tr>${CFG.outs.map((o,i)=>`<tr><td>${o.name}</td><td class="small">${o.conn}</td><td class="mono">${D.load[i].toFixed(2)} A</td><td class="mono small">${o.rails.map(k=>{ const r=VER().rails.find(x=>x.k===k); return r?`${r.name} ${(r.v-Math.sign(r.v)*railI(k)*V.Rout).toFixed(2)} V`:''; }).join(' · ')}</td></tr>`).join('')}</table><p class="small muted">All outputs are wired in parallel to one module, so every load shares the rail ratings. Output resistance ${V.Rout} Ω and the hiccup timing are ${inf}.</p>`; }
-const viewSim=simView({flag:'__'+PREFIX+'Active',D,front:frontSVG,rear:rearSVG,bind:bindPanel,controls:controlsHTML,bindControls,now:nowHTML,levels:levelsHTML,lanes,labelW:230,nowTitle:'Rails now',levelsTitle:'Outputs and loads',rearTitle:'Rear panel — click an output to step its load',tlTitle:'Timeline — one second, zoomable. Zoom to 50 µs to see the switching ripple; change a load to see the step.',hint:'Click an output connector to load it, or flip the rocker.'});
+const viewSim=simView({flag:'__'+PREFIX+'Active',D,front:frontSVG,rear:rearSVG,bind:bindPanel,controls:controlsHTML,bindControls,now:nowHTML,levels:levelsHTML,lanes,labelW:230,nowTitle:'Rails now',levelsTitle:'Outputs and loads',rearTitle:'Rear panel — click an output to step its load',rearNote:`<p class="small muted" style="margin:6px 0 0">Panel artwork: ${SIM.src(ART_PATH,'POD29-FRONT&REAR-SILK (CURVE).cdr')} (CorelDRAW, Jul.03/14), converted to vector: green and white ink plates on one panel, holes and cut-outs from the same drawing; its live-text legends are set in Arial-metric type on the PDF export's word positions.</p>`,tlTitle:'Timeline — one second, zoomable. Zoom to 50 µs to see the switching ripple; change a load to see the step.',hint:'Click an output connector to load it, or flip the rocker.'});
 const LESSONS=CFG.lessons(A);
 let lessonIdx=0;
 function viewTutorial(m){ window['__'+PREFIX+'Active']=true; tutorialView(m,{title:'Tutorial — powering gear from a '+CFG.product,lessons:LESSONS,D,getIdx:()=>lessonIdx,setIdx:i=>lessonIdx=i,reset:()=>A.reset(),unitHTML:()=>`${frontSVG(SIM.t)}<div style="margin-top:8px">${rearSVG()}</div>${controlsHTML()}<div style="margin-top:6px">${nowHTML(SIM.t)}</div>`,bind:r=>{bindPanel(r);bindControls(r);}}); }

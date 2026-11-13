@@ -33,6 +33,29 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+/* ---- CorelDRAW artwork (artwork pass 2026|59): the panels are the archive's .cdr drawings, converted with Inkscape
+   (text kept live, re-anchored where libcdr lost alignment); the live parts sit on the drawn holes, in the drawing's pt coordinates. ---- */
+const ART_CSS = `<style>.arthl{fill:transparent;stroke:transparent;stroke-width:.7}.og62-hot:hover .arthl,.arthot:hover .arthl{stroke:#2b8cff}</style>`;
+function artSVG(o){ // o: {src, vb:[x,y,w,h], maxw, label, fid, body}
+  const [x,y,w,h]=o.vb;
+  return `<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:${o.maxw||300}px;display:block;margin:auto;background:#f4f4f0;border-radius:6px" role="img" aria-label="${o.label}">${ART_CSS}
+    <defs><filter id="${o.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}${o.src}" x="${x}" y="${y}" width="${w}" height="${h}"/>${o.body||''}</svg>`;
+}
+/* one LED lens drawn over the LED box in the card-edge drawing */
+function artLed(o){ // {x,y,w,h, on, col, fid, attrs, title}
+  return `<g ${o.attrs||''}><title>${o.title||''}</title><rect x="${o.x}" y="${o.y}" width="${o.w}" height="${o.h}" rx="1" fill="${o.on?o.col:'rgba(28,32,30,.55)'}" ${o.on?`filter="url(#${o.fid})"`:''}/><rect class="arthl" x="${o.x-1}" y="${o.y-1}" width="${o.w+2}" height="${o.h+2}" rx="1.5"/></g>`;
+}
+/* a connector on the rear-module drawing: hit area, optional plugged cable, live dot, scope highlight */
+function artJack(o){ // {cx,cy,r, kind:'bnc'|'tb', w,h, conn, live, sel, attrs, title}
+  const r=o.r||6, lv=o.live===undefined?'':`<circle cx="${o.cx+(o.kind==='tb'?o.w/2+2:r+0.6)}" cy="${o.cy+(o.kind==='tb'?-(o.h/2-1.5):r-0.6)}" r="1.7" fill="${o.live===true?'#2f8f46':o.live==='warn'?'#d9a21b':o.live==='err'?'#c0392b':'#8d9296'}" stroke="#fff" stroke-width=".35"/>`;
+  let g='';
+  if (o.conn) g+= o.kind==='tb'? `<rect x="${o.cx-o.w/2-.8}" y="${o.cy-o.h/2-.8}" width="${o.w+1.6}" height="${o.h+1.6}" rx="1" fill="#2b5f9e" opacity=".55"/>`
+                               : `<circle cx="${o.cx}" cy="${o.cy}" r="${r*0.82}" fill="#2b5f9e" opacity=".8"/><circle cx="${o.cx}" cy="${o.cy}" r="${r*0.3}" fill="#9cc3ef"/>`;
+  if (o.sel) g+=`<circle cx="${o.cx}" cy="${o.cy}" r="${r+1.6}" fill="rgba(255,210,60,.35)" stroke="#e5b21b" stroke-width=".5"/>`;
+  const hit = o.kind==='tb'? `<rect class="arthl" x="${o.cx-o.w/2-1}" y="${o.cy-o.h/2-1}" width="${o.w+2}" height="${o.h+2}" rx="1"/>` : `<circle class="arthl" cx="${o.cx}" cy="${o.cy}" r="${r+0.6}"/>`;
+  return `<g ${o.attrs||''}><title>${o.title||''}</title>${g}${lv}${hit}</g>`;
+}
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const infT = s => `<span class="tag-inf" title="${String(s).replace(/"/g,'&quot;')}">inferred</span>`;
 const hx = (n,w) => (n>>>0).toString(16).toUpperCase().padStart(w||2,'0');
@@ -607,38 +630,38 @@ function cardSVG(t, opts){
   if (!w.card) s+=`<rect width="1542" height="366" fill="var(--panel2)" opacity=".78"/><text x="771" y="190" text-anchor="middle" font-size="40" fill="var(--ink)">card removed from the frame</text>`;
   return s+'</svg>';
 }
-function edgeSVG(t){ // card edge legend: M6203A LED Status.cdr / M6203A-card-edge.cdr
-  const p=pinsAt(t);
-  let s=`<svg viewBox="0 0 200 250" style="width:100%;max-width:220px;display:block"><rect width="200" height="250" rx="8" fill="var(--dev)"/>
-    <defs><filter id="m6Glow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-    <rect x="132" y="12" width="12" height="200" fill="#1a5c30" stroke="#333"/><text x="100" y="236" font-size="11" text-anchor="middle" fill="#cfd3d0">M6203A card edge</text>`;
-  LEDS.forEach((L,i)=>{ const yy=34+i*30, on=(p.leds>>i)&1;
-    s+=`<rect x="144" y="${yy-7}" width="10" height="14" rx="2" fill="${on?L.col:'#2b2f2c'}" ${on?'filter="url(#m6Glow2)"':''}/><text x="122" y="${yy+5}" font-size="13" text-anchor="end" fill="#e6e6e6">${L.lab==='NO LOCK'?'No Lock':L.lab==='LOCK'?'Lock':L.lab} LED</text><line x1="124" y1="${yy}" x2="142" y2="${yy}" stroke="#888"/>`; });
-  return s+'</svg>';
+/* Artwork 2026|59: card edge from M6203A LED Status.cdr (MANUAL, 2010-04-28; LED boxes at x 275.5 pt), rear modules from the
+   openGear Rear Module Guide M6203A - rear module options.cdr (2012-01-16): T6301A-3G and T6401A, BNC pitch 18.9 pt. */
+const ART62 = {
+  edge:'#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/MANUAL/M6203A LED Status.cdr',
+  edge0:'#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-card-edge.cdr',
+  rear:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6203A - rear module options.cdr',
+  t6301:'#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-T6301.cdr',
+  t6401:'#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-T6401.cdr',
+  EDGE_YS:[350.6,370.1,389.6,409.4,427.4],
+  RM:{T6301:{src:'m6203-rear-t6301a.svg', vb:[336,220,122,148], x:[377.0,395.9], y0:277.0, name:'T6301A-3G'},
+      T6401:{src:'m6203-rear-t6401a.svg', vb:[470,220,130,148], x:[521.4,540.3], y0:277.4, name:'T6401A'}} };
+function edgeSVG(t){ const p=pinsAt(t);
+  const body=LEDS.map((L,i)=>artLed({x:275.7, y:ART62.EDGE_YS[i]-6.1, w:5.3, h:12.2, on:(p.leds>>i)&1, col:L.col, fid:'m63ag', title:`${L.lab} LED (${(p.leds>>i)&1?'lit':'off'})`})).join('');
+  return artSVG({src:'m6203-edge.svg', vb:[186,290,120,350], maxw:200, label:'M6203A card edge', fid:'m63ag', body})
+    + `<div class="small muted" style="text-align:center">${SIM.src(ART62.edge,'M6203A LED Status.cdr')} (2010-04-28)</div>`;
 }
 function rearSVG(t){
-  const w=worldAt(t), RM=REARS[w.rear], S=100, X=x=>x*S+8, Y=y=>y*S+8, os=outState(t), F=FMT[w.in.fmt];
-  let s=`<svg viewBox="0 0 150 380" role="img" aria-label="${RM.name}" style="width:100%;max-width:210px;display:block">
-    <rect x="8" y="8" width="134" height="364" rx="3" fill="#1d1f22" stroke="#555"/><rect x="13" y="13" width="124" height="354" fill="none" stroke="#ddd" stroke-width=".8"/>
-    <text x="75" y="38" text-anchor="middle" font-size="10" fill="#eee">${w.rear}</text>`;
-  RM.pos.forEach((p,i)=>{
-    const [bx,by]=BNC_XY[i], cx=X(bx)+12, cy=Y(by)+12;
-    const mine=!RM.dual || p.c===w.pos;
-    const isIn=p.role==='in', isOut=p.role==='out';
+  const w=worldAt(t), RM=REARS[w.rear], A=ART62.RM[w.rear], os=outState(t), F=FMT[w.in.fmt];
+  let body='';
+  RM.pos.forEach(p=>{
+    const cx=A.x[(p.n-1)%2], cy=A.y0+Math.floor((p.n-1)/2)*18.9;
+    const mine=!RM.dual || p.c===w.pos, isIn=p.role==='in', isOut=p.role==='out';
     const sel = mine && isOut && D.ui.outSel===p.p1;
     const P=P1OUT[p.p1]; const pol = P? (P.pin===12?'+':'−') : '';
     const live = mine && isOut && os==='on' && (!F.asi || P.pin===12);
-    s+=`<g class="m6-jack" data-n="${p.n}" style="cursor:${mine&&(isIn||isOut)?'pointer':'default'}">
-      <circle cx="${cx}" cy="${cy}" r="17" fill="#b9a160" stroke="#6b5a25"/><circle cx="${cx}" cy="${cy}" r="10.5" fill="#e2d39b"/><circle cx="${cx}" cy="${cy}" r="3.5" fill="#6b5a25"/>
-      ${isIn&&mine&&w.in.cable?`<circle cx="${cx}" cy="${cy}" r="14" fill="#2b5f9e" opacity=".9"/><rect x="${cx-5}" y="${cy}" width="10" height="20" fill="#2b5f9e"/>`:''}
-      ${sel?`<circle cx="${cx}" cy="${cy}" r="20" fill="none" stroke="#ffd34d" stroke-width="2.5"/>`:''}
-      ${isOut&&mine?`<circle cx="${cx+15}" cy="${cy-15}" r="3.4" fill="${live?'#7dff6a':os==='on'?'#ffb43a':'#666'}"/>`:''}
-      <rect x="${cx-22}" y="${cy-22}" width="44" height="44" fill="transparent"><title>${p.n} ${p.lab}${RM.dual?' (card '+p.c+')':''} — P1-${p.p1}${P?' ← '+P.drv+'-'+P.pin+' ('+P.src+', polarity '+pol+')':''}${mine&&isIn?' — click to '+(w.in.cable?'unplug':'plug in'):''}${mine&&isOut?' — click to watch this output':''}</title></rect></g>
-      <text x="${i%2? cx+20 : cx-20}" y="${cy+29}" font-size="7.5" text-anchor="${i%2?'end':'start'}" fill="${mine&&p.role!=='nc'?'#fff':'#888'}" font-weight="${mine?700:400}">${p.n} ${p.lab}</text>`;
+    body+=artJack({cx, cy, r:5.9, conn:isIn&&mine&&w.in.cable, sel, live: isOut&&mine? (live?true:os==='on'?'warn':'off') : undefined,
+      attrs:`class="m6-jack" data-n="${p.n}" style="cursor:${mine&&(isIn||isOut)?'pointer':'default'}"`,
+      title:`${p.n} ${p.lab}${RM.dual?' (card '+p.c+')':''} — P1-${p.p1}${P?' ← '+P.drv+'-'+P.pin+' ('+P.src+', polarity '+pol+')':''}${mine&&isIn?' — click to '+(w.in.cable?'unplug':'plug in'):''}${mine&&isOut?' — click to watch this output':''}`});
+    if (RM.dual && !mine) body+=`<circle cx="${cx}" cy="${cy}" r="6.2" fill="rgba(80,84,88,.35)" pointer-events="none"/>`;
   });
-  s+=`<text x="75" y="358" font-size="7.5" text-anchor="middle" fill="#ddd">MD-SDI DA</text><text x="75" y="367" font-size="6.5" text-anchor="middle" fill="#bbb">${RM.dual?'DOUBLE':'SINGLE'} CARD TERMINATION · MF6220</text>
-    ${RM.dual?`<text x="22" y="358" font-size="6.5" fill="#bbb">M6203A-2</text><text x="128" y="358" font-size="6.5" text-anchor="end" fill="#bbb">M6203A-1</text>`:''}</svg>`;
-  return s;
+  return artSVG({src:A.src, vb:A.vb, maxw:300, label:A.name+' rear module', fid:'m63ar', body})
+    + `<div class="small muted" style="text-align:center">${A.name}: ${SIM.src(ART62.rear,'M6203A - rear module options.cdr')} (2012-01-16)${RM.dual?' · this card = card '+w.pos:''}</div>`;
 }
 function frameSVG(t){
   const w=worldAt(t), RM=REARS[w.rear], p=pinsAt(t);
@@ -1206,12 +1229,14 @@ function viewFind(m){
     ['v100 shouts RESTART', 'In v100 the first branch of CAN_TX_TIMER sends TRAP CANTRAP_RESTART every time it runs until DashBoard sends GET_NUMPARAMS (start_parameter_dump = YES); v101 sends it once (restart_sent).'],
     ['M6202A leftovers', 'v100w.c declares dozens of M6202A externs (Dolby, audio groups, PROCESS_AUDIO*, DOLBY_INITIALIZATION); altera.c is compiled although there is no FPGA; Dashboard.c keeps AES/Dolby descriptors, “Voiceover Status/Settings” menu names and SET handlers for OIDs 3.1–3.4 (output1/output2, never used); a stub PROCESS_SDI_LOCK_STATUS that forces HD 1.5G is left commented out above the real one. Typo: Parcameter33_Message.'],
     ['Cable reach was the weak point', 'Input (Dec 2010): 3G 75 m good, 100 m failed; HD 150 m good, 175 m failed; SD 415 m good. Output (summary): 3G 125 m, HD 210 m, SD 465 m. Nov 2011: 3G works but fails rise time; summary: “the cable lengths are not impressive”. The 3G manual folders are empty, and the T6401 README says the dual rear is HD/SD only.'],
+    ['Artwork '+SIM.year(2026)+': panels now from the CorelDRAW files', 'Card edge from '+SIM.src(ART62.edge,'M6203A LED Status.cdr')+' (2010-04-28, the manual figure: LOCK, 270M, 1.5G, 3G, NO LOCK — the same five LEDs as the netlist); rear modules from '+SIM.src(ART62.rear,'M6203A - rear module options.cdr')+' (2012-01-16), T6301A-3G and T6401A. The LEDs and BNCs sit on the drawn boxes and holes. The older '+SIM.src(ART62.edge0,'M6203A-card-edge.cdr')+' (2008-05-08) spaces the LEDs differently (3G and No Lock lower down); the 2007 sheets '+SIM.src(ART62.t6301,'M6203A-T6301.cdr')+' and '+SIM.src(ART62.t6401,'M6203A-T6401.cdr')+' have only the two top BNCs drawn in their Inkscape conversion, so the 2012 guide is used.'],
+    ['The double module is not a 3G part', 'The 2012 guide captions the single module “T6301A-3G … M6203A-3G/HD/SD-SDI DA” but the dual T6401A “M6203A-3G/HD/SD-SDI DA- NOT 3G”: two cards sharing a T6401A were only rated for HD/SD. Position 2 of the T6301A is drawn “Not Connected” (the 2007 sheet says “NOT USED”).'],
     ['“MD-SDI” is a name, not a typo', 'The card Name string, the functional drawing (“MD SDI INPUT”) and both rear drawings (“MD-SDI DA”) all use MD-SDI.'],
   ];
   m.innerHTML=card('Findings — what the M6203A and its firmware are up to', `<ol>${F.map(f=>`<li style="margin-bottom:8px"><b>${f[0]}.</b> <span class="small">${f[1]}</span></li>`).join('')}</ol>`)+
     card('Sources', `<ul class="small"><li>#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Software/atmel/v101/: v100w.c, M6203A.c, M6203.h, Dashboard.c, CAN.c, ADC.c, *.lis, V100W.mp, wbs_ztcpack.txt; …/v100, …/C030000, …/Prototype; M6203A SOFTWARE HISTORY.xls</li>
       <li>…/M6203A/PCB/M6203A-iss3.net, OBSOLETE/ISS2/M6203A-iss2.net, OBSOLETE/M6203B-iss1.net; GERBERS/M6203A-ISS3.TOP/.TSM/.TSS → assets/m6203-card-copper.png, m6203-card-silk.png; M6203A-iss3.pnp, -bot.pnp; M6203-PCB Questions.doc</li>
-      <li>…/M6203A/Functional/M6203A-FUNCTIONAL.pdf, M6203A-T6301.cdr, M6203A-T6401.cdr, M6203A-card-edge.cdr; MANUAL/M6203A LED Status.cdr</li>
+      <li>…/M6203A/Functional/M6203A-FUNCTIONAL.pdf, ${SIM.src(ART62.t6301,'M6203A-T6301.cdr')}, ${SIM.src(ART62.t6401,'M6203A-T6401.cdr')}, ${SIM.src(ART62.edge0,'M6203A-card-edge.cdr')}; ${SIM.src(ART62.edge,'MANUAL/M6203A LED Status.cdr')} → assets/m6203-edge.svg</li><li>Artwork ${SIM.year(2026)}: ${SIM.src(ART62.rear,'openGear Rear Module Guides/M6203A - rear module options.cdr')} → assets/m6203-rear-t6301a.svg, m6203-rear-t6401a.svg</li>
       <li>M6203A - #Master #OPENGEAR/M6203A - #TESTREPORT/*.pdf (ASI, cable length, summary, 2011/2012/2013 test outlines)</li>
       <li>T6401 - #Master…/T6401iss4.net; T6301 geometry and routing as in t6301.js; slot-ID table as in opengear.js</li>
       <li>SA-DEMUX4 - #Master/…/Parts Research/SDI Reclocker/GS2975A_Datasheet.pdf</li></ul>`);

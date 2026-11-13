@@ -28,12 +28,12 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
+  /* CorelDRAW artwork (Artwork 2026|59): <prefix>-front.svg = GREEN + WHITE plates on the panel, -rear.svg = rear WHITE plate */
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
@@ -394,7 +394,7 @@ function frontSVG(t){
   const on = D.power && dcAt(t)>3;
   let over = rocker(D.power) + pled(on);
   for (const k in TRIMXY) over += trim(TRIMXY[k][0], TRIMXY[k][1], D.trim[k], 'tr-'+k, 'OUTPUT ADJUST '+TRIMNAME[k]);
-  return panelSVG(PREFIX,'front',{over},'POD1 front panel (real silkscreen)');
+  return panelSVG(PREFIX,'front',{over},'POD1 front panel (CorelDRAW silk artwork)');
 }
 function rearSVG(){
   let over = xlr(209,155,true,false,'','BALANCED OUTPUT LEFT (NC3MD-H, male)') + xlr(448,155,true,false,'','BALANCED OUTPUT RIGHT (male)')
@@ -402,7 +402,7 @@ function rearSVG(){
     + rca(759,98,'#c8312a',false,'','UNBALANCED OUT, right') + rca(759,208,'#eeeeee',false,'','UNBALANCED OUT, left')
     + xlr(930,155,false,D.plug.balL,'pl-balL','BALANCED INPUT LEFT (NC3FD-H, female) — click to plug/unplug') + xlr(1168,155,false,D.plug.balR,'pl-balR','BALANCED INPUT RIGHT — click')
     + iec(1385,28,1611,252);
-  return panelSVG(PREFIX,'rear',{under:'',over},'POD1 rear panel (real silkscreen)');
+  return panelSVG(PREFIX,'rear',{under:'',over},'POD1 rear panel (CorelDRAW silk artwork)');
 }
 function bindPanel(root){
   const p=root.querySelector('.pwr'); if (p) p.onclick=()=>A.power();
@@ -459,7 +459,7 @@ function viewSim(m){
   window.__pod1Active = true;
   m.innerHTML = `<div class="grid2"><div>
       ${card('Front panel at the playhead', `<div id="fp"></div>${controlsHTML()}`)}
-      ${card('Rear panel — click the inputs to plug or unplug', `<div id="rp"></div>`)}
+      ${card('Rear panel — click the inputs to plug or unplug', `<div id="rp"></div><div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src('#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr', 'POD1-FRONT&REAR-SILK(CURVE) .cdr')} (2015-09-30|48), CorelDRAW silk plates in their real inks.</div>`)}
     </div><div>
       ${card('What the circuit did (last action)', `<div id="trace" class="log"></div>`)}
       ${card('Outputs now', `<div id="now"></div>`)}
@@ -632,7 +632,7 @@ function viewSoft(m){
 
 function viewNotes(m){
   window.__pod1Active=false;
-  m.innerHTML = card('What the POD1 archive shows — findings', `<ol>
+  m.innerHTML = card('What the POD1 archive shows — findings', `<ol><li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr', 'POD1-FRONT&REAR-SILK(CURVE) .cdr')} (2015-09-30|48).</b> GREEN + WHITE front plates and the WHITE rear plate registered on the panel outline (assets/pod1-front.svg, pod1-rear.svg). On this sheet the rear plate's outline is drawn in the ink colour and sits 1.4 pt left of the front plates; it was dropped, not printed. The rear still reads “115 VAC, 1/2 A.S.B.” (the transformer-era legend). Not used: POD1-FRONT (FINAL CURVE).cdr (2015|48, front only), POD1-REAR (FINAL CURVE).cdr (2014|47) and the 2013|46 POD-1 FRONT SILK(FINAL CURVE).cdr.</li>
     <li><b>The prototype test found three wiring faults; the ISS3 drawing shows how they are avoided.</b> <span class="mono">POD1-04NOV13.pdf</span> (ISS2 prototype) says: “Output out of phase. Input L&amp;R reversed. Level control L&amp;R reversed.” In the ISS3 <span class="mono">Balanced-Unbalanced</span> sheet (8/10/2015|48), the + leg goes to the SSM2143's <span class="mono">IN−</span> pin and the following NE5532 stage inverts, so the two inversions cancel and the output is in phase. The sheet still cross-labels channels: the channel-A receiver is fed by <span class="mono">PHX IN B+</span>/<span class="mono">HDR IN A+</span> and drives <span class="mono">Jack Out B</span>/<span class="mono">HDR Out A</span>. That kind of A/B swap is what produced the L/R faults (${inf}). Use the “Board: ISS2 prototype” setting to hear the faults.</li>
     <li><b>The schematic values match the test sheet.</b> −6.02 dB (SSM2143) plus U3A's T-network gives ${fdb(dB(gainBU(0))-6.02)} … ${fdb(dB(gainBU(1))-6.02)} dB. The test measured −19.5 … −0.5 dB. The ±12 V rails limit the unbalanced output to about +19.6 dBu; the test measured +19.35 dBu.</li>
     <li><b>The “Unbal.-Balance section” of the POD1 test is the POD18 test, word for word.</b> Max output +25.5 dBu, “Gain range: +12dBu to 24.5dBu with -10 dB in”, 0.003 %, −87 dB, &gt;80 dB all appear identically in <span class="mono">POD18-21OCT13.pdf</span> (21 Oct 2013|46). Either the section was copied, or the same POD1-3 board was measured for both (under RD64 POD18 is two POD1-3 boards). It also writes the gain range in “dBu”.</li>

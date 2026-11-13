@@ -35,11 +35,18 @@ function panelSVG(prefix, side, inner, label){
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    ${ART.cdr ? `<image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>` : layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
 }
+/* Panel artwork 2026|59: CorelDRAW sheet converted with Inkscape (libcdr) → assets/pod13a-front.svg, -rear.svg
+   (ink plates coloured green rgb(52,168,83) / white rgb(240,240,236), cut-outs as dark holes, drill crosshairs faint;
+   registered to the older PDF PNG silks to ±1 px so every control keeps its place). The PNGs stay on a toggle. */
+const ART = {cdr:true};
+const ART_CDR = '#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).cdr', ART_PDF = '#POD #SERIES/POD13A - #Master/POD13A - #ARTWORK #DA #2016/POD13A-FRONT&REAR-SILK (CURVE).pdf';
+function artNote(){ return `<div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src(ART_CDR, ART_CDR.split('/').pop())} (CorelDRAW, default) · <label><input type="checkbox" class="pod13a-art" ${ART.cdr?'':'checked'}> show the older PNG silks cut from ${SIM.src(ART_PDF, 'the PDF')}</label></div>`; }
+document.addEventListener('change', e=>{ if (e.target && e.target.classList && e.target.classList.contains('pod13a-art')){ ART.cdr = !e.target.checked; SIM.refresh(); } });
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
   return `<g class="pwr" style="cursor:pointer"><title>Power rocker: click to switch ${on?'off':'on'}</title><rect x="${x}" y="${y}" width="112" height="146" rx="10" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/>
@@ -428,7 +435,7 @@ function lanes(){
 /* ---------------- views ---------------- */
 function viewSim(m){
   window.__pod13aActive=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>`)}${card('Rear panel — click an input to connect the source, click the DIP levers',`<div id="rp"></div>${controlsHTML()}`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>`)}${card('Rear panel — click an input to connect the source, click the DIP levers',`<div id="rp"></div>${artNote()}${controlsHTML()}`)}</div>
     <div>${card('What the firmware did (last action)',`<div id="trace" class="log"></div>`)}${card('Outputs now',`<div id="now"></div>`)}</div></div>
     ${card('Timeline — one second, zoomable. Move an input from BNC to Phoenix and zoom to 10 ms to watch the MCU hunt between RXP0 and RXP1.',`<canvas id="tl"></canvas>`)}
     <div class="grid2">${card('Scope: converter A input at the playhead (one AES3 frame, biphase-mark)',`<canvas id="scope"></canvas><div id="bits" class="small mono"></div>`)}${card('Level through every stage (left channels)',`<div id="lv"></div>`)}</div>
@@ -526,6 +533,7 @@ function viewSoft(m){
 }
 function viewNotes(m){ window.__pod13aActive=false;
   m.innerHTML=card('What the POD13A archive shows — findings',`<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_CDR, ART_CDR.split('/').pop())}</b> (file 2015-10-01, sheet dated Jun.20/14). The ink plates are drawn as vectors; the older PNG silks cut from ${SIM.src(ART_PDF, 'the PDF')} are on the toggle under the rear panel. The CDR also draws what the PDF guides hid: the rocker cut-out, the two front screw holes, the Phoenix and BNC cut-outs, the four rear screw holes and a small rectangular window under the CAL table for the DIP switch, which this model places there.</li>
    <li><b>Corrected 2026|59: the POD13A firmware is archived, in the obsolete POD13 folder (see pod13.js).</b> Atmel V100: <span class="mono">XXX - POD13 - #Master #OBSOLETE/POD13 - #Software/POD13 - SOFTWARE #atmel/POD13 - #SOFTWARE #atmel #v100/</span> (ATmega128, <span class="mono">v100w.c</span>, <span class="mono">D6204A.c</span>, <span class="mono">AK4396.c</span>, <span class="mono">cs84xx.c</span>). Lattice V100: <span class="mono">POD13 - #SOFTWARE #lattice2/v100/pod13a.vhd</span> and <span class="mono">pod13a.jed</span>. This plugin used to say neither was archived and guessed the behaviour; it now runs on that code.</li>
    <li><b>The fourth CAL setting is a mute, in the FPGA.</b> <span class="mono">dec2_4.vhd</span> decodes the two DIP bits into four enables (“11=-20, 10=-18, 01=-12, 00=reserved”), but only out1–out3 reach the MR pins. Up/Up gives 00 → out4 → no gain switch on: the test sheet's “Up/Up = Mute”. The same decoder forces all enables high on <span class="mono">no_lock</span>.</li>
    <li><b>The MCU does not decode the DIP.</b> Its CAL/tone decode in <span class="mono">ALTERA_write</span> and <span class="mono">main()</span> is commented out; <span class="mono">data_lower = dip_switches &amp; 0x0F</span> is shifted to the FPGA unchanged.</li>

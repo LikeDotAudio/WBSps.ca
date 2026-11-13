@@ -6,8 +6,9 @@
    - PCB/pod20-1iss2.net (= POD20 - #ISS2 #PCB/), ISS2 netlist, Sep 2000   (CLC014 EQ, CLC016 reclocker, 2 × CLC007 drivers, 7805, LEDs)
    - POD20 - #OBSOLETE/pod20-1.net (ISS1, same circuit)
    - POD20 - #OLD MANUAL.pdf (Jul 2002) and ../POD  - #Engineering/pod20.pdf      (rates 143/177/270/360 Mb/s, Belden 8281, 300 m, tallies)
-   - POD20 - #SILK/POD20SLK.cdr, converted with Inkscape (libcdr): bars, LED and BNC cross-hairs used as drawn;
-     text re-anchored by hand because libcdr loses its alignment (no photo of POD20 exists to check against).
+   - ../POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr (Jun 26 2014):
+     the panels (assets/pod20-front.svg, pod20-rear.svg, 2026|59). The earlier hand-drawn panel, re-anchored from
+     POD20 - #SILK/POD20SLK.cdr (Oct 2000), stays on a toggle (no photo of POD20 exists to check against).
    The CLC014/CLC016 pin functions and cable losses are from the parts' public behaviour, not the archive: marked inferred.
    ===================================================================== */
 (function(){
@@ -374,22 +375,31 @@ const A={
   out(i){ act(`${D.outs[i]?'Disconnect':'Connect'} OUTPUT ${i+1}`, tr=>{ D.outs[i]=!D.outs[i]; tr(`CLC007 ${i<4?'U4':'U6'} output → C${[20,21,22,23,26,27][i]} 1 µF → R${17+i} 68R → OUTPUT ${i+1}: ${D.outs[i]?'0.8 V p-p into the 75 Ω load':'unterminated: the BNC sees ≈ 1.6 V p-p and reflections go back up the stub ('+inf+')'}`); }); },
   reset(){ Object.assign(D,JSON.parse(JSON.stringify(FACT))); D.log=[]; SIM.refresh(); },
 };
-/* ---------------- panels (drawn from the converted POD20SLK.cdr: 1 pt = 2.778 px) ---------------- */
-const BNCX=[261,411,561,711,861,1011,1160], LEDX={SIGNAL:825,SR143:925,SR270:1025,SR360:1125,ERROR:1225};
-function face(inner){ return `<svg viewBox="0 0 1714 321" style="width:100%;max-width:980px;border-radius:8px;display:block"><defs><filter id="glowfront" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="1714" height="321" rx="10" fill="var(--dev)"/>${inner}${screw(50,160)}${screw(1664,160)}</svg>`; }
+/* ---------------- panels: CorelDRAW artwork POD20-FRONT&REAR(FINAL CURVE).cdr (Jun 26 2014) → assets/pod20-front.svg, pod20-rear.svg
+   (green + white plates and the cut-out layer registered on the 1714 × 321 frame; hole centres below are read from that file) ---------------- */
+const ART_SRC='#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/POD20-FRONT&REAR(FINAL CURVE).cdr';
+const OLD_SRC='#POD #SERIES/POD20 - #Master/POD20 - #SILK/POD20SLK.cdr';
+const BNCX=[260,411,560,711,860,1010,1160], BNCY=172, LEDX={SIGNAL:826,SR143:926,SR270:1026,SR360:1126,ERROR:1226}, LEDY=218;
+let artOld=false;   // toggle: the earlier hand-drawn panel (re-anchored from POD20SLK.cdr, 2000)
+function face(inner, side){ const img = artOld ? '' : `<image href="${ASSET}pod20-${side}.svg" width="1714" height="321"/>`;
+  return `<svg viewBox="0 0 1714 321" style="width:100%;max-width:980px;border-radius:8px;display:block"><defs><filter id="glowfront" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="1714" height="321" rx="10" fill="var(--dev)"/>${img}${inner}${screw(51,161)}${screw(1664,161)}</svg>`
+    +`<div class="small muted" style="margin:2px 0 6px">Panel artwork: ${artOld?`hand-drawn from ${SIM.src(OLD_SRC,'POD20SLK.cdr')} (Oct 2000)`:`${SIM.src(ART_SRC,'POD20-FRONT&REAR(FINAL CURVE).cdr, Jun 26 2014')} (CorelDRAW, curves; green and white plates registered)`} · <a href="#" class="p20art">show ${artOld?'the CorelDRAW artwork':'the earlier hand-drawn panel'}</a></div>`; }
 const W=(x,y,s,t,anc,wt)=>`<text x="${x}" y="${y}" font-family="Arial,Helvetica,sans-serif" font-size="${s}" fill="#f0f0ec" ${anc?`text-anchor="${anc}"`:''} ${wt?`font-weight="${wt}"`:''}>${t}</text>`;
 function frontSVG(t){ const on=D.power&&upAt(t)>4.5, lk=locked(t);
-  let s=`<rect x="50" y="16" width="205" height="20" fill="rgb(52,168,83)"/><rect x="520" y="16" width="1150" height="20" fill="rgb(52,168,83)"/>`
+  let s=artOld ? `<rect x="50" y="16" width="205" height="20" fill="rgb(52,168,83)"/><rect x="520" y="16" width="1150" height="20" fill="rgb(52,168,83)"/>`
     +`<text x="273" y="74" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="62" fill="#f0f0ec">PODS</text><text x="520" y="64" font-family="Arial,sans-serif" font-weight="700" font-size="25" fill="rgb(52,168,83)">by Ward-Beck Systems</text>`
     +W(50,301,26,'POD-20 DIGITAL VIDEO DISTRIBUTION AMPLIFIER')+W(825,176,20,'SIGNAL','middle')+W(1025,176,20,'SAMPLE RATE','middle')+W(1225,176,20,'ERROR','middle')
     +W(925,200,20,'143','middle')+W(1025,200,20,'270','middle')+W(1125,200,20,'360','middle')
-    +`<path d="M897 183 v-22 h40 M1155 183 v-22 h-40" stroke="#f0f0ec" stroke-width="2" fill="none"/>`;
-  s+=rocker(D.power)+led(299,217,on,'var(--led-g)',10)+led(LEDX.SIGNAL,218,on&&lk,'var(--led-g)',10)+['SR143','SR270','SR360'].map(n=>led(LEDX[n],238,on&&lk&&R().led===n,'#ffd23a',9)).join('')+led(LEDX.ERROR,218,on&&!lk,'#ff4a3a',10);
-  return face(s); }
-function rearSVG(){ let s=W(261,101,20,'INPUT','middle')+[1,2,3,4,5,6].map(n=>W(BNCX[n],101,20,'OUTPUT '+n,'middle')).join('')+W(1520,58,22,'115 VAC, 1/2 A.S.B.','middle')+W(1520,302,18,'DISCONNECT POWER BEFORE SERVICING','middle');
-  s+=bnc(BNCX[0],198,D.plug,'pin','INPUT (75 Ω BNC) — click to connect/disconnect',44)+[0,1,2,3,4,5].map(i=>bnc(BNCX[i+1],198,D.outs[i],'po'+i,`OUTPUT ${i+1} — click to connect/disconnect a 75 Ω load`,44)).join('')+iec(1410,78,1630,272);
-  return face(s); }
-function bindPanel(r){ const p=r.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); r.querySelectorAll('.pin').forEach(g=>g.onclick=()=>A.plug()); for(let i=0;i<6;i++) r.querySelectorAll('.po'+i).forEach(g=>g.onclick=()=>A.out(i)); }
+    +`<path d="M897 183 v-22 h40 M1155 183 v-22 h-40" stroke="#f0f0ec" stroke-width="2" fill="none"/>` : '';
+  s+=rocker(D.power)+led(300,LEDY,on,'var(--led-g)',10)+led(LEDX.SIGNAL,LEDY,on&&lk,'var(--led-g)',10)+['SR143','SR270','SR360'].map(n=>led(LEDX[n],LEDY,on&&lk&&R().led===n,'#ffd23a',9)).join('')+led(LEDX.ERROR,LEDY,on&&!lk,'#ff4a3a',10);
+  return face(s,'front'); }
+function mains(){ // the artwork has a Ø ≈ 12 mm round hole (1374,164) and a double-D hole (1534,162) under "115 VAC, 1/2 A.S.B."
+  return `<g><title>Round hole: mains cord entry with strain relief (inferred from the artwork's plain round cut-out)</title><circle cx="1374" cy="164" r="46" fill="#0c0d0e" stroke="#2c2f33" stroke-width="3"/><circle cx="1374" cy="164" r="30" fill="#202224"/><circle cx="1374" cy="164" r="17" fill="#060707"/></g>`
+   +`<g><title>Double-D hole: panel fuse holder, 1/2 A slow-blow (inferred from the legend above it)</title><circle cx="1534" cy="162" r="44" fill="#1b1c1e" stroke="#3a3d40" stroke-width="3"/><circle cx="1534" cy="162" r="32" fill="#2a2c2f" stroke="#444" stroke-width="2"/><rect x="1510" y="157" width="48" height="10" rx="3" fill="#0b0c0d"/></g>`; }
+function rearSVG(){ let s=artOld ? W(261,101,20,'INPUT','middle')+[1,2,3,4,5,6].map(n=>W(BNCX[n],101,20,'OUTPUT '+n,'middle')).join('')+W(1520,58,22,'115 VAC, 1/2 A.S.B.','middle')+W(1520,302,18,'DISCONNECT POWER BEFORE SERVICING','middle') : '';
+  s+=bnc(BNCX[0],BNCY,D.plug,'pin','INPUT (75 Ω BNC) — click to connect/disconnect',44)+[0,1,2,3,4,5].map(i=>bnc(BNCX[i+1],BNCY,D.outs[i],'po'+i,`OUTPUT ${i+1} — click to connect/disconnect a 75 Ω load`,44)).join('')+(artOld?iec(1410,78,1630,272):mains());
+  return face(s,'rear'); }
+function bindPanel(r){ r.querySelectorAll('.p20art').forEach(a=>a.onclick=e=>{ e.preventDefault(); artOld=!artOld; SIM.refresh(); }); const p=r.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); r.querySelectorAll('.pin').forEach(g=>g.onclick=()=>A.plug()); for(let i=0;i<6;i++) r.querySelectorAll('.po'+i).forEach(g=>g.onclick=()=>A.out(i)); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-top:8px"><label>Source <select id="rt">${RATES.map((r,i)=>`<option value="${i}" ${i===D.rate?'selected':''}>${r.mbps} Mb/s — ${r.std}</option>`).join('')}</select></label>
   <label>Input cable <input id="ln" type="range" min="0" max="500" step="10" value="${D.len}"> <span class="mono">${D.len} m</span></label></div><div class="small muted" style="margin-top:4px">Click the rear BNCs to connect or disconnect. Keys: [ / ] cable −/+ 25 m, 1–4 pick the data rate.</div>`; }
 function bindControls(r){ const g=s=>r.querySelector(s); if(!g('#rt')) return; g('#rt').onchange=e=>A.rate(+e.target.value); g('#ln').onchange=e=>A.len(+e.target.value); }
@@ -409,7 +419,7 @@ function nowHTML(t){ const a=loss(D.len,R().mbps); return `<table class="kv"><tr
 function budgetHTML(){ const rows=RATES.map(r=>{ const a=loss(D.len,r.mbps), max=V.eqMax/(V.k8281/100*Math.sqrt((r.mbps*1e6/2)/135e6)); return `<tr><td>${r.mbps}</td><td class="mono">${a.toFixed(1)} dB</td><td class="mono">${max.toFixed(0)} m</td><td>${r.led||'— (no LED)'}</td></tr>`; }).join('');
   return `<table class="kv"><tr><th>Rate (Mb/s)</th><th>Loss at ${D.len} m</th><th>Max cable (${V.eqMax} dB EQ)</th><th>Rate LED</th></tr>${rows}</table><p class="small muted">Belden 8281 loss ${V.k8281} dB/100 m at 135 MHz scaling with √f, and a ${V.eqMax} dB equalizer range, are ${inf}; with them 270 Mb/s reaches ≈ ${(V.eqMax/(V.k8281/100)).toFixed(0)} m, in line with the manual's “up to 300 metres”.</p>`; }
 const viewSim=simView({flag:'__pod20Active',D,front:frontSVG,rear:rearSVG,bind:bindPanel,controls:controlsHTML,bindControls,now:nowHTML,levels:budgetHTML,lanes,labelW:230,
-  frontTitle:'Front panel at the playhead (drawn from the converted silk)',rearTitle:'Rear panel — click the BNCs',nowTitle:'Link now',levelsTitle:'Cable budget per data rate',tlTitle:'Timeline — one second of video as the reclocker sees it. Zoom to 100 µs for lines, 200 ns for bits.',hint:'Change the cable length or the source rate, or click a BNC.'});
+  frontTitle:'Front panel at the playhead (CorelDRAW artwork)',rearTitle:'Rear panel — click the BNCs',nowTitle:'Link now',levelsTitle:'Cable budget per data rate',tlTitle:'Timeline — one second of video as the reclocker sees it. Zoom to 100 µs for lines, 200 ns for bits.',hint:'Change the cable length or the source rate, or click a BNC.'});
 const LESSONS=[
   {title:'Meet the POD20', body:'<p>POD20 takes one serial digital video signal on a 75 Ω BNC, <b>equalizes</b> the cable loss, <b>reclocks</b> it at one of four rates (143, 177, 270, 360 Mb/s) and drives <b>six</b> outputs. Front tallies: SIGNAL (locked), SAMPLE RATE 143/270/360, ERROR.</p>', check:()=>true, auto:true},
   {title:'1 · Lock to 270', body:'<p>Power on with a 270 Mb/s source over 150 m: SIGNAL and the 270 LED light.</p>', check:()=>locked(1e9)&&D.rate===2, hint:'Rocker; Source 270.'},
@@ -459,15 +469,16 @@ function viewSoft(m){ window.__pod20Active=true;
     m.querySelector('#pins').innerHTML=`<table class="kv"><tr><th>Connector</th><th>Function</th></tr><tr><td>INPUT BNC</td><td class="small mono">R2 75R to ground, C1 1 µF, R1 110R → CLC014</td></tr><tr><td>OUTPUT 1–6 BNC</td><td class="small mono">CLC007 → 1 µF → 68R (R17–R22); R28–R34 pull-downs (value not in the netlist)</td></tr><tr><td>Front LEDs</td><td class="small mono">PWR, SIGNAL, SR143, SR270, SR360, ERROR</td></tr></table>`; };
   SIM.on('time',draw); }
 const viewNotes=notesView('__pod20Active','What the POD20 archive shows — findings',[
+  `<b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_SRC,'POD20-FRONT&REAR(FINAL CURVE).cdr')} (Jun 26 2014|47).</b> Three plates (FRONT GREEN, FRONT WHITE, REAR WHITE) and the cut-out layer are registered on one panel. The cut-outs put all five tally LEDs on one row (the rate LEDs had been drawn 20 px low here), the BNCs as D-flatted holes 26 px higher than drawn before, and the mains hardware as a plain round hole plus a double-D hole under “115 VAC, 1/2 A.S.B.”, not an IEC inlet (cord entry and fuse holder, ${inf}). A small hole above the legend (1454, 42) has no label.`,
   '<b>There is no 177 Mb/s LED.</b> The CLC016 is set up for four rates (R7–R10), and the manual lists 143, 177, 270 and 360 Mb/s, but the panel and netlist have only SR143, SR270 and SR360. A PAL 4fsc (177 Mb/s) source locks with no rate LED lit.',
   '<b>The manual calls the data rate a “sample rate” and the signal “audio”.</b> “SAMPLE RATE - indicates the 143, 270, 360 Mbps sampling rate signals” and “reliably recover the incoming digital audio signal” (POD20 - #OLD MANUAL.pdf).',
   '<b>“Five LED status tallies” — there are six LEDs.</b> SIGNAL, three rate LEDs and ERROR are five; the netlist adds a PWR LED (R33 300R).',
   '<b>Outputs use 68R, not 75R, build-out.</b> R17–R22 are 68R after 1 µF; the CLC007\'s own output resistance makes up the rest of 75 Ω (inferred). The pull-downs R28–R34 have no value in the netlist ({Value}).',
   '<b>The rate resistors follow f·R ≈ constant.</b> 360 × 2.55 ≈ 918, 270 × 3.48 ≈ 940, 177 × 5.49 ≈ 972, 143 × 6.81 ≈ 974 — so the pairing of resistor to rate is inferred from the CLC016 VCO law.',
   '<b>Duplicate and leftover files.</b> <span class="mono">PCB/</span> and <span class="mono">POD20 - #ISS2 #PCB/</span> are identical; the root and <span class="mono">#ARCHIVE</span> both hold the autorouter files (<span class="mono">best.w, pod20-1.DO, .sts</span>). The ISS1 netlist differs from ISS2 only in net ordering.',
-  '<b>The panel artwork exists only as CorelDRAW.</b> <span class="mono">POD20 - #SILK/POD20SLK.cdr</span> (Oct 2000) has no PDF in the 2016 audit and no photo; libcdr places its text badly, so the labels here were re-anchored to the LED and BNC cross-hairs, which convert accurately.'],
+  '<b>Two generations of panel artwork, both CorelDRAW.</b> <span class="mono">POD20 - #SILK/POD20SLK.cdr</span> (Oct 2000) is live text that libcdr places badly (the earlier hand-drawn panel, still on the toggle under each panel, was re-anchored from it). The 2014 redraw is filed outside the product folder, under <span class="mono">POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD20/</span>: POD20 had dropped out of the ERP by then. No photo of a POD20 exists to check the colours, so green/white on black is taken from the sister PODs.'],
  [`Belden 8281 loss ${V.k8281} dB/100 m at 135 MHz ∝ √f; CLC014 range ${V.eqMax} dB (inferred).`,`CLC016 pin roles (lock, rate outputs) and the LED decode logic in U1/U2 (inferred; the parts have no names in the netlist).`,'The eye uses stand-in pseudo-random data and a first-order channel, not real SDI scrambling.','Rocker and PWR LED placed at the usual POD positions (the silk shows neither; inferred).'],
- ['PCB/pod20-1iss2.net · POD20 - #ISS2 #PCB/ · POD20 - #OBSOLETE/pod20-1.net','POD20 - #OLD MANUAL.pdf · ../POD  - #Engineering/pod20.pdf','POD20 - #SILK/POD20SLK.cdr (converted with Inkscape)','POD20 - #MECHANICAL/Podf20frt.dwg · Pod20rer.dwg · ../POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/POD20-REAR ISS 1.dwg']);
+ ['PCB/pod20-1iss2.net · POD20 - #ISS2 #PCB/ · POD20 - #OBSOLETE/pod20-1.net','POD20 - #OLD MANUAL.pdf · ../POD  - #Engineering/pod20.pdf','POD20 - #SILK/POD20SLK.cdr (converted with Inkscape) · '+SIM.src(ART_SRC,'POD20-FRONT&REAR(FINAL CURVE).cdr')+' (panel artwork, 2014)','POD20 - #MECHANICAL/Podf20frt.dwg · Pod20rer.dwg · ../POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/POD20-REAR ISS 1.dwg']);
 SIM.register({ id:'pod20', name:'POD20 · serial digital video DA, cable EQ + reclocking, 1 × 6 (2000|33)', duration:1, product:'POD20', year:2000, family:'POD series', folder:'#POD #SERIES/POD20 - #Master',
   summary:'Half-rack SD serial digital video distribution amplifier: CLC014 adaptive cable equalizer, CLC016 multi-rate reclocker (143/177/270/360 Mb/s) and two CLC007 drivers feeding six 75 Ω outputs, with lock and rate tallies. Modelled from the ISS2 netlist (2000) and manual.',
   highlights:['Panels drawn from the converted CorelDRAW silk; clickable BNCs','Cable-length budget per data rate with lock / ERROR','Eye before and after equalization','Video structure (fields, lines, TRS, words, bits) on the timeline','No LED for 177 Mb/s'],

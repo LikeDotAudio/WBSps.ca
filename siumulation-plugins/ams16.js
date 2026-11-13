@@ -610,6 +610,19 @@ function setupTurn(dir, t){
    Rear: AMS16AQ-3G-M2-SILK (curve).pdf WHITE (3447 × 680 px); connector centres from the silk labels and
    Pics/AMS16-2AEM Rear.jpg.
    ================================================================ */
+/* Artwork 2026|59: the default faces are the CorelDRAW vector art itself, assets/ams16-front.svg (from
+   AMS16A2-M1-FRONT-SILK (CURVE).cdr, viewBox = its panel outline 132.3,140.8, 1241.3 × 244.7 pt; GREEN plate in green,
+   WHITE plate moved up 329.9 pt, mechanical lines grey) and assets/ams16-rear.svg (from AMS16AQ-3G-M2-SILK (curve).cdr,
+   outline 141.2,−352.7). Same frame as the 200 dpi PNGs, so the controls stay put. The rear .cdr keeps its 22 legends as
+   live Arial text: their anchors were matched to the PNG cut of the 2015 PDF; AMS-16A is set bold italic and
+   "MADE IN CANADA" (on the 2015 PDF, not in the 2012 .cdr) is added. The PNGs stay behind the "PNG silk" toggle. */
+const ART = { png:false, DIR:'AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/', FRONT:'AMS16A2-M1-FRONT-SILK (CURVE).cdr', REAR:'AMS16AQ-3G-M2-SILK (curve).cdr' };
+const artSrc = k => SIM.src(ART.DIR+ART[k], ART[k]);
+function artNote(which){
+  const f = which==='rear'? artSrc('REAR')+' (Oct 23 2012 file)' : artSrc('FRONT')+' (OCT.27/15, GREEN + WHITE plates)';
+  return `<div class="small muted" style="margin-top:4px">Artwork: ${f}, CorelDRAW vector art. <label><input type="checkbox" class="artpng" ${ART.png?'checked':''}> show the earlier PNG silk (200 dpi cut of the PDFs)</label></div>`;
+}
+function bindArt(m){ m.querySelectorAll('.artpng').forEach(c=> c.onchange=e=>{ ART.png=e.target.checked; m.querySelectorAll('.artpng').forEach(o=>o.checked=ART.png); SIM.refresh(); }); }
 const BAR_X = c=> 913 + 70.3*c;
 const PAIR_X = j=> 948 + 140.6*j;
 function segY(n){ return n<=26 ? 460 - (n-0.5)*8.42 : 241 - (n-26-0.5)*12.06; }
@@ -626,7 +639,7 @@ function frontSVG(t, opts){
   <radialGradient id="a16cap" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#e8e8e6"/><stop offset="1" stop-color="#9a9b9c"/></radialGradient>
   <radialGradient id="a16lamp" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#fff2ef"/><stop offset=".35" stop-color="#ff4a3a"/><stop offset="1" stop-color="#a01208"/></radialGradient></defs>
   <rect width="3447" height="681" fill="#141517"/>
-  <image href="${ASSET}ams16-front-cut.png" width="3447" height="681"/>
+ ${ART.png? `<image href="${ASSET}ams16-front-cut.png" width="3447" height="681"/>` : ''}
   <rect x="885" y="8" width="1127" height="663" fill="#070808" stroke="#2a2c2e" stroke-width="3"/>
   <rect x="2229" y="77" width="240" height="73" fill="#050605" stroke="#2a2c2e" stroke-width="2"/>
   <rect x="2164" y="183" width="370" height="101" fill="#040504" stroke="#2a2c2e" stroke-width="2"/>`;
@@ -665,7 +678,7 @@ function frontSVG(t, opts){
      <line x1="2350" y1="378" x2="${(2350+34*Math.sin(ang*Math.PI/180)).toFixed(1)}" y2="${(378-34*Math.cos(ang*Math.PI/180)).toFixed(1)}" stroke="#ddd" stroke-width="5" stroke-linecap="round"/><title>VOLUME: click left half = turn CCW, right half = CW, centre = press (mute / setup); wheel turns</title></g>`;
   // headset jack
   s+=`<g class="a16hp" style="cursor:pointer"><circle cx="2916" cy="135" r="34" fill="#2a2b2c" stroke="#888" stroke-width="4"/><circle cx="2916" cy="135" r="14" fill="#050505"/>${D.headphones?'<rect x="2902" y="135" width="28" height="200" rx="10" fill="#222" stroke="#555"/>':''}<title>Headset jack (plugging in mutes the speakers)</title></g>`;
-  s+=`<image href="${ASSET}ams16-front-green.png" width="3447" height="681"/><image href="${ASSET}ams16-front-white.png" width="3447" height="681"/>`;
+  s+= ART.png? `<image href="${ASSET}ams16-front-green.png" width="3447" height="681"/><image href="${ASSET}ams16-front-white.png" width="3447" height="681"/>` : `<image href="${ASSET}ams16-front.svg" width="3447" height="681" preserveAspectRatio="none"/>`;
   if (opts.hot) s+=opts.hot;
   s+=`</svg>`;
   return s;
@@ -685,7 +698,7 @@ function rearSVG(){
   const P=pairs();
   for (let k=0;k<4;k++){ s+=bnc(AES_X(k),426,'',`AES ${k+1} OUT: ${P[k].kind==='none'?'no data (ERR)':(P[k].name||P[k].kind)}${D.aes_bypass?' (Dmx copy)':' (Proc)'}`); s+=bnc(AES_X(k),558,'',`AES ${k+5} OUT: ${(k===3 && D.aes8_ltrt && (D.multi_mode||D.dolby_mode))?'Lt/Rt downmix (A8 LtRt)':(P[k+4].kind==='none'?'no data':(P[k+4].name||P[k+4].kind))}`); }
   s+=bnc(2971,426,'','MONITOR 1 (AES of the selected / summed pair)') + bnc(2971,558,'','MONITOR 2');
-  s+=`<image href="${ASSET}ams16-rear-white.png" width="3447" height="680"/></svg>`;
+  s+=`<image href="${ASSET}${ART.png?'ams16-rear-white.png':'ams16-rear.svg'}" width="3447" height="680" preserveAspectRatio="none"/></svg>`;
   return s;
 }
 function bindPanel(root){
@@ -855,9 +868,9 @@ function inspectorHTML(t){
 function viewSim(m){
   window[KEYFLAG]=true;
   m.innerHTML = `
-  ${card('Front panel at the playhead — click it (AMS16A2, real 2015|48 silkscreen)', `<div id="fp"></div>${controlsHTML()}`)}
+  ${card('Front panel at the playhead — click it (AMS16A2, real 2015|48 CorelDRAW artwork)', `<div id="fp"></div>${artNote('front')}${controlsHTML()}`)}
   <div class="grid2">
-    <div>${card('Rear panel (AMS16-3G silkscreen) — click SDI IN1 / IN2 to plug or unplug', `<div id="rp"></div><div style="margin-top:8px" id="inp"></div>`)}
+    <div>${card('Rear panel (AMS16-3G silkscreen) — click SDI IN1 / IN2 to plug or unplug', `<div id="rp"></div>${artNote('rear')}<div style="margin-top:8px" id="inp"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}</div>
     <div>${card('What the software did (last action)', `<div id="trace" class="log" style="max-height:440px"></div>`)}
       ${card('Action log', `<div id="log" class="log" style="max-height:160px"></div>`)}</div>
@@ -874,7 +887,7 @@ function viewSim(m){
     m.querySelector('#log').innerHTML = D.log.map(e=>`<div><b>${e.name}</b> <span class="muted">@ ${SIM.fmtT(e.t)}</span> → “${e.disp}”</div>`).join('') || '<div class="muted">No actions yet.</div>';
     SIM.drawLanes(m.querySelector('#tl'), lanes(), {labelW:210});
   };
-  bindControls(m);
+  bindControls(m); bindArt(m);
   let lastKey='';
   SIM.on('time', ()=>{ const k=JSON.stringify([D.sdi,D.power,D.headphones]); if (k!==lastKey){ lastKey=k; m.querySelector('#inp').innerHTML=inputsHTML(); bindInputs(m); } draw(); });
 }
@@ -1156,6 +1169,7 @@ function viewFindings(m){
   window[KEYFLAG]=false;
   const f=(h,b)=>`<li><b>${h}</b> ${b}</li>`;
   m.innerHTML=card('What the AMS16 firmware is up to — findings from the source', `<ol>
+   <li><b>Artwork ${SIM.year(2026)}: front and rear panels now from ${artSrc('FRONT')} (OCT.27/15) and ${artSrc('REAR')} (file dated Oct 23 2012).</b> (a) The rear “curve” file is not in curves: its 22 legends are live Arial text, and it is older than the AMS16AQ-3G-M2-SILK (curve).pdf beside it (Aug 7 2015), which adds “MADE IN CANADA” under the logo and sets AMS-16A larger and bold italic; those two points are taken from the PDF. ${SIM.src('AMS16 - #Master/AMS16 - #Engineering/SILK/AMS16AQ-3G-M2-SILK_final curve.cdr','AMS16AQ-3G-M2-SILK_final curve.cdr')} in Engineering is a byte-identical copy. (b) The front drill crosshairs on SOLO L/R, VOLUME and INPUT 1/2 are on the mechanical layer, so they show under the knobs and buttons. (c) The rear legends are SDI IN1/IN2/OUT1/OUT2, AES 1–8, MONITOR 1/2, AUX 1 and DOLBY E METADATA, with the WBS logo outline: the BNC set the simulator models; AUX 1 and the metadata D-sub are drawn but not simulated.</li>
    ${f('Corrected 2026|59: the model now runs the shipped front panel.', 'The front-panel <span class="mono">v200w.c</span> in the master folder\'s v700 release is one save behind the shipped build: RD23\'s copy builds <span class="mono">VersionDis = "06AV0000"</span>, the firmware named on the 30 Oct 2012 test report (<span class="mono">AMS16-2AEM-06AV0000-30OCT12.pdf</span>), while the master copy has <span class="mono">" 5.0.0.0"</span> (REVISION1–4) and is byte-identical to RD23\'s <span class="mono">v200w._c</span> backup. The two differ only in <span class="mono">VersionDis[]</span> and <span class="mono">InputDis[]</span>. The version screen now shows 06AV0000 by default; the Software tab can switch back to the master copy (see rd23-ams16-3g.js).')}
    ${f('The front panel runs the show; the main board just copies.', 'All the operating logic is in <span class="mono">v200w.c</span> (15 472 lines, front-panel ATmega128): modes, monitor selection, solo, the menu. It sends its whole state as a 36-byte <span class="mono">GENERAL_COM</span> frame, one byte every 11 loop passes, so a change needs ≈ 0.19–0.38 s to reach the main board (<span class="mono">UART1_transmit_counter</span>, <span class="mono">Transmit_Counter 10</span>). The main board (<span class="mono">ams16.c</span>) re-packs it into the FPGA block in <span class="mono">ALTERA_SORT</span>. The “Last action” lane on the Simulator tab shows the delay.')}
    ${f('An assignment where a comparison was meant.', '<span class="mono">uart0.c UART0_translate</span>: <span class="mono">if ((rx_buffer[0] == chF) &amp;&amp; (index2 = 4))</span>. The F-frame parser sets <span class="mono">index2</span> to 4 instead of testing it, so the external-volume field is always taken.')}
@@ -1190,7 +1204,7 @@ function viewFindings(m){
    <li>AMS16 - #Master/AMS16 - #Engineering/AMS16A - #software/AMS16-3G v700 October 24 2012/ — Atmel Main Board (ams16.c, altera.c, uart0.c, gs2970a.c, dolby.c, common.c, altspi.h), Atmel Front Panel (v200w.c, common.c, SIEMENS8.c), Sharc (backgnd.c, sample.c, timer.h, vumeter.asm, rlm24_vu_data.c, volume_data.c, RampAudio.c), Altera (AMS16TEST.qsf)</li>
    <li>…/AMS16 - #Manual/AMS16-2AEM/AMS16-2AEM Manual.pdf · …/AMS16-2AM/AMS16-2AM-V1005-Manual.pdf</li>
    <li>…/AMS16A - #PCB/AMS16A-3-4/AMS163G-ISS7-BOM.xls · …/AMS16A-5-6-7/AMS16A-5-6-PANEL.bom</li>
-   <li>AMS16 - #ARTWORK #DA #2016/AMS16A2-M1-FRONT-SILK (CURVE).cdr · AMS16AQ-3G-M2-SILK (curve).pdf · Pics/AMS16 Series Front.jpg · Pics/AMS16-2AEM Rear.jpg</li></ul>`);
+   <li>AMS16 - #ARTWORK #DA #2016/${artSrc('FRONT')} · ${artSrc('REAR')} (assets/ams16-front.svg, ams16-rear.svg) · ${SIM.src(ART.DIR+'AMS16AQ-3G-M2-SILK (curve).pdf','AMS16AQ-3G-M2-SILK (curve).pdf')} · Pics/AMS16 Series Front.jpg · Pics/AMS16-2AEM Rear.jpg</li></ul>`);
 }
 
 /* ---------------- register ---------------- */

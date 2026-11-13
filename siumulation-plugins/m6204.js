@@ -579,30 +579,45 @@ function cardSVG(t, opts){
   else if (md==='dead') s+=`<text x="120" y="30" font-size="18" fill="#ff8a7a">CLI() trap: interrupts off — no CAN, no timers</text>`;
   return s+'</svg>';
 }
-function edgeSVG(t){ const sn=snapAt(t), md=modeAt(t); const L=(md!=='off'&&sn)? sn.leds:0;
-  let s=`<svg viewBox="0 0 210 300" style="width:100%;max-width:210px;display:block"><rect width="210" height="300" rx="8" fill="var(--dev)"/><rect x="22" y="12" width="12" height="270" fill="#1d5c36" stroke="#333"/>`;
-  const ys=[22,40,58, 88,106,124,142, 172,190,208,226, 262];
-  const nm=['SD','HD','ERR','AES 1','AES 2','AES 3','AES 4','AES5','AES6','AES7','AES8','ON (= CASCADE ON)'];
-  ys.forEach((y,i)=>{ const on=(L>>i)&1; s+=`<rect x="23" y="${y-5}" width="10" height="10" rx="2" fill="${on?LEDC[i]:'#2c332c'}"/><text x="44" y="${y+4}" font-size="12" fill="#e6e6e6">${nm[i]}</text>`; });
-  return s+`<text x="105" y="295" font-size="8.5" text-anchor="middle" fill="#9aa0a5">card edge: silk names (M6204-card-edge.cdr)</text></svg>`; }
+/* ---- Artwork 2026|59: card edge and rear modules are the CorelDRAW drawings (converted with Inkscape / the archive's
+   LibreOffice renderings, cleaned in tools by the artwork pass). Controls sit on the BNC and LED centres read from those SVGs. */
+const ART_DIR = '#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/';
+const EDGE_ART = {href:ASSET+'m6204-edge.svg', vb:[120,130,142,456], x:244.05, ys:[151.7,172.3,192.8,228.5,249.7,270.9,292.5,329.4,348.9,368.4,387.9,439.7],
+  src:()=>SIM.src(ART_DIR+'M6204-card-edge.cdr','M6204-card-edge.cdr')+' (2009-03-02)'};
+const REAR_ART = {
+  T6301:{href:ASSET+'m6204-rear-t6301a.svg', vb:[330,213,96,129], cols:[365.83,384.73], y0:254.13, dy:18.9, r:5.85,
+    src:()=>SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6204A - rear module options.cdr','M6204A - rear module options.cdr')+' (2012-01-09)'},
+  T6308:{href:ASSET+'m6204-rear-t6308a.svg', vb:[482,213,98,129], cols:[519.93,538.83], y0:254.08, dy:18.9, r:5.85,
+    src:()=>SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6204A - rear module options.cdr','M6204A - rear module options.cdr')+' (2012-01-09)'},
+  T6305:{href:ASSET+'m6204-rear-t6305.svg', vb:[262,328,274,348], cols:[359.86,419.86], y0:400.5, dy:60, r:18.7,
+    src:()=>SIM.src(ART_DIR+'M6204A-T6305.cdr','M6204A-T6305.cdr')+' (2007-10-11)'},
+  C700:{href:ASSET+'m6204-rear-c700.svg', vb:[286,293,270,348], cols:[383.2,443.3], y0:365.47, dy:59.8, r:18.7,
+    src:()=>SIM.src(ART_DIR+'M6204A/Custom/M6204AC700/M6205C400-IO.cdr','M6204AC700/M6205C400-IO.cdr')+' (2009-11-25)'},
+};
+[EDGE_ART.href, ...Object.values(REAR_ART).map(a=>a.href)].forEach(u=>{ const im=new Image(); im.src=u; });   // warm the image cache: panels are redrawn every tick
+function edgeSVG(t){ const sn=snapAt(t), md=modeAt(t); const L=(md!=='off'&&sn)? sn.leds:0; const E=EDGE_ART, v=E.vb;
+  const nm=['SD','HD','ERR','AES 1','AES 2','AES 3','AES 4','AES5','AES6','AES7','AES8','CASCADE ON'];
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:170px;display:block;border-radius:6px" role="img" aria-label="M6204A card edge (M6204-card-edge.cdr)">
+    <defs><filter id="m6EGlow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${E.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  E.ys.forEach((y,i)=>{ const on=(L>>i)&1; s+=`<circle cx="${E.x}" cy="${y}" r="4.2" fill="${on?LEDC[i]:'#2c332c'}" fill-opacity="${on?1:.55}" ${on?'filter="url(#m6EGlow)"':''}><title>${nm[i]} LED (${LEDREF[i]})${on?' — on':' — off'}</title></circle>`; });
+  return s+`<text transform="translate(238.5 554.5) rotate(-90)" text-anchor="middle" font-size="9" font-weight="700" fill="#111">M6204A</text></svg>
+    <div class="small muted" style="margin-top:2px">Card edge: ${E.src()}</div>`; }
 function rearSVG(t){
-  const w=world(t), RM=REARS[w.rear], sn=snapAt(t); const md=modeAt(t);
-  const X=x=>83+x*100, Y=y=>14+y*100, cols=[0.36,0.98];
-  let s=`<svg viewBox="0 0 300 372" role="img" aria-label="${RM.name}" style="width:100%;max-width:300px;display:block">
-    <text x="150" y="10" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ink)">${w.rear==='C700'?'T6301 (C700)':w.rear+(w.rear==='T6305'?'':'A')}</text>
-    <rect x="83" y="14" width="134" height="339" rx="3" fill="#c9ccd0" stroke="#7a7f85"/><circle cx="${X(0.67)}" cy="${Y(0.2)}" r="6" fill="#9aa0a6" stroke="#555"/>`;
-  RM.pos.forEach((p,i)=>{ const col=i%2, row=Math.floor(i/2), cx=X(cols[col]), cy=Y(0.505+row*0.625); const [lab,role]=p;
+  const w=world(t), RM=REARS[w.rear], A_=REAR_ART[w.rear], md=modeAt(t), v=A_.vb, r=A_.r;
+  let s=`<svg viewBox="${v.join(' ')}" role="img" aria-label="${RM.name}" style="width:100%;max-width:300px;display:block;border-radius:6px">
+    <image href="${A_.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  RM.pos.forEach((p,i)=>{ const cx=A_.cols[i%2], cy=A_.y0+Math.floor(i/2)*A_.dy; const [lab,role]=p;
     let conn=false, key=null, live=false;
     if (role==='sdiin'){ key='sdi'; conn=w.sdi.on; }
     const m=/^aes(\d)$/.exec(role); if (m){ key='aes'+(m[1]-1); conn=w.aes[m[1]-1].on; }
     if (role.startsWith('sdiout')) live = w.card && md==='app';
-    s+=`<g ${key?`class="m6-jack" data-j="${key}" style="cursor:pointer"`:''}><circle cx="${cx}" cy="${cy}" r="19" fill="#b9a160" stroke="#6b5a25"/><circle cx="${cx}" cy="${cy}" r="12" fill="#e2d39b"/><circle cx="${cx}" cy="${cy}" r="4" fill="#6b5a25"/>
-      ${conn?`<circle cx="${cx}" cy="${cy}" r="15" fill="${key==='sdi'?'#2b5f9e':'#7a3fa0'}" opacity=".85"/><rect x="${cx-5}" y="${cy}" width="10" height="22" fill="${key==='sdi'?'#2b5f9e':'#7a3fa0'}"/>`:''}
-      ${role.startsWith('sdiout')?`<circle cx="${cx+15}" cy="${cy-15}" r="3.4" fill="${live?'var(--accent)':'#888'}"/>`:''}
-      <rect x="${cx-22}" y="${cy-22}" width="44" height="44" fill="transparent"><title>${i+1} ${lab} (edge P1-${p[2]})${key?' — click to '+(conn?'unplug':'plug in'):''}</title></rect></g>
-      <text x="${col? 222 : 78}" y="${cy+4}" font-size="10" text-anchor="${col?'start':'end'}" fill="${role==='nc'?'var(--ink2)':'var(--ink)'}" font-weight="${role==='nc'?400:600}">${lab}</text>
-      <text x="${cx}" y="${cy+30}" font-size="7.5" text-anchor="middle" fill="#55595f">${i+1}</text>`; });
-  return s+`<text x="150" y="366" font-size="8" text-anchor="middle" fill="var(--ink2)">${RM.src} · ID ${RM.id}</text></svg>`;
+    const col = key==='sdi'?'#2b5f9e':'#7a3fa0';
+    s+=`<g ${key?`class="m6-jack" data-j="${key}" style="cursor:pointer"`:''}>
+      ${conn?`<rect x="${cx-r*.28}" y="${cy}" width="${r*.56}" height="${r*1.9}" fill="${col}"/><circle cx="${cx}" cy="${cy}" r="${r*.78}" fill="${col}" opacity=".85"/>`:''}
+      ${role.startsWith('sdiout')?`<circle cx="${cx+r*.95}" cy="${cy+r*.95}" r="${r*.2}" fill="${live?'var(--accent)':'#888'}" stroke="#333" stroke-width="${r*.03}"/>`:''}
+      <rect x="${cx-r*1.15}" y="${cy-r*1.15}" width="${r*2.3}" height="${r*2.3}" fill="transparent"><title>${i+1} ${lab} (edge P1-${p[2]})${role==='nc'?' — not connected on this card':''}${key?' — click to '+(conn?'unplug':'plug in'):''}</title></rect></g>`; });
+  return s+`</svg><div class="small muted" style="margin-top:2px">${w.rear==='C700'?'T6301 (C700)':w.rear+(w.rear==='T6305'?'':'A')}: ${A_.src()} · ${RM.src} · ID ${RM.id}</div>`;
 }
 function frameSVG(t){ const w=world(t), sn=snapAt(t), md=modeAt(t);
   let s=`<svg viewBox="0 0 640 76" style="width:100%;display:block"><rect width="640" height="76" rx="6" fill="var(--dev)"/>`;
@@ -1045,6 +1060,7 @@ function viewFindings(m){
    ['ISS4 grows a DSP', `<span class="mono">PCB/WORKING/M6204A-iss4.net</span> adds U8/U15, X5 and nets DAI_P1…P20, FLAG0–11, SPICLK/MOSI/MISO and SHARC_RESET — an ADSP-21262, the path the M6205 took. SD_RESET still carries a commented <span class="mono">SHARC_RESET</span>.`],
    ['The encoder variant’s controls are not in the code', `The ISS3 BOM already lists “CAT-559-E-D” and the M6204AE photo shows a CAT 559 module on P5. The AE history says “Dashboard displays controls for encoder”, but its Dashboard.c is byte-identical to the M6204A v102 file and no encoder OIDs exist. The RD6 schedule stops at “Make the Dashboard GUI for Encoder Card”.`],
    ['Prototype OID sheet vs code', `SOFTWARE HISTORY.xls “OIDs – Prototype” puts Signal Status on 2.4 and SDI Format on 2.1; the code swapped them. It also lists Board Revision 1.7, whose DATA_SETUP lines are commented out.`],
+   ['Artwork 2026|59: card edge and rear modules now from the CorelDRAW files', `Card edge: ${EDGE_ART.src()}; T6301A/T6308A: ${REAR_ART.T6301.src()}; T6305: ${REAR_ART.T6305.src()}; C700: ${REAR_ART.C700.src()} (a file named M6205C400 in the M6204AC700 folder, titled “M6204C700”). The drawings agree with the model: the T6301A has no AES IN8 and two SDI outputs; only the T6308A carries AES IN8 (BNC10) at the cost of SDI OUT2. The T6305 drawing puts AES IN8 on BNC8 <i>and</i> on terminal block 9, has no AES IN6 and no SDI output at all — a draft never matched by a T6305 for this card. The card-edge drawing names the yellow LED “CASCADE ON LED”, not “ON”. The PCB silk renders stay in the Card view.`],
    ['Third-party HD core, edited in place', `<span class="mono">vc_299m_291mo_new_2.v</span> (PugMedia Inc., 2007) has the Ward-Beck edit “Ali-Rem/Ali-Add” renaming ch1 to ch1x; its own to-do list still says “50Hz behavior : Not now”. Packets are suppressed on the line after the switching point (lines 8/570 for 1080i, 8 for 720p) and audio control packets go in Y on lines 9/571.`],
   ];
   m.innerHTML = M6_CSS + card(`Findings — what the M6204A and its firmware are “up to” (${F.length})`, `<ol>${F.map(f=>`<li style="margin-bottom:8px"><b>${f[0]}.</b> ${f[1]}</li>`).join('')}</ol>`) +

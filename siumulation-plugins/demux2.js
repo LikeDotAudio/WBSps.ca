@@ -13,6 +13,8 @@
        DEMUX-2ISS2.ECO, OBSOLETE/DEMUX-2ISS1.net, WORKING/DEMUX-2ISS2PNP.pnp (SMT centroids), DEMUX-2ISS2.pcb (P-CAD binary:
        board outline corners, BNC outlines and RefDes text positions recovered from its coordinate records)
    - DEMUX2 - #Engineering/DEMUX-2 - #GERBERS/DEMUX-2ISS2.STN (top paste Gerber) → assets/demux2-paste-top.png
+   - #POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr ("POD 19V SDI-AES DEMUX" manual
+       cover: front and rear panel drawings) → Inkscape/libcdr → assets/demux2-rear.svg (rear, line art; artwork pass 2026|59)
    - SOFTWARE LISTINGS - #Engineering.xls (DEMUX2V103 2003-10-30, DEMUX2V104B 2004-08-03, DEMUX2V105(B) 2007-12-18)
    - for comparison only: #DEMUX #SERIES/XXX - DEMUX1 …/DEMUX-1ISS2.bom + .net + demux-1v106.asm, and the DEMUX3 README
    Anything not in those files is marked "inferred" on screen.
@@ -20,6 +22,7 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+const P19V_ART = '#POD #SERIES/POD19 - #Master/POD19 - #Engineering/MANUAL/POD19MANU Demux 2.cdr';
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const hex = (v,n)=> (v>>>0).toString(16).toUpperCase().padStart(n||2,'0');
 const bin = (v,n)=> (v>>>0).toString(2).padStart(n||8,'0');
@@ -638,9 +641,28 @@ function stateTable(t){
     ${row('I2C wire', x ? `${x.ack?'':'NACK · '}[0x54] sub ${x.sub} (${ADV_NAME[x.sub]}) ← 0x${hex(x.val)}, bit ${Math.max(0, Math.floor(((t-x.t0)/TCY - I2C_START) % I2C_BYTE / I2C_BIT))} of byte ${Math.min(2, Math.max(0, Math.floor(((t-x.t0)/TCY - I2C_START)/I2C_BYTE)))}` : 'idle (SCL/SDA released, 10 kΩ pull-ups R80/R81)')}
     ${row('PORTE / RB5 / RC5', `0b${bin(p.pe,3)} / ${p.rb5} (CD1 ${p.rb5?'off':'on'}) / ${p.rc5}`)}</table>`;
 }
+/* POD 19V rear (the DEMUX-2 host): CorelDRAW manual drawing, connectors placed on its BNC / XLR outlines */
+function rearSVG(t){
+  const on = powerAt(t), cab = cableIn(t), enc = encoderAt(t), p5 = p5Stream(t);
+  const vcol = enc.state === 'ok' ? 'var(--accent)' : enc.state === 'reset' || enc.state === 'off' || enc.state === 'nosig' ? '#888' : 'var(--warn)';
+  const spot = (x, y, r, cls, tip, col, plug) => `<g ${cls?`class="d2rp" data-p="${cls}" style="cursor:pointer"`:''}><title>${tip}</title><circle cx="${x}" cy="${y}" r="${r}" fill="transparent"/>
+    ${plug?`<rect x="${x-13}" y="${y-15}" width="26" height="30" rx="5" fill="#3a74b8" opacity=".9"/><rect x="${x-8}" y="${y+12}" width="16" height="${178-y-12}" fill="#2b5f9e"/>`:''}<circle cx="${x+22}" cy="${y-24}" r="6" fill="${col}" stroke="#333" stroke-width="1"/></g>`;
+  return `<svg viewBox="0 0 906 180" role="img" aria-label="POD 19V rear panel, manual drawing" style="width:100%;max-width:720px;display:block;border-radius:6px">
+    <image href="${ASSET}demux2-rear.svg" width="906" height="180"/>
+    ${spot(147,94,28,'OUT1','OUTPUT 1 = DEMUX-2 OUT1, composite video (EL2280 A) — '+enc.state+' (click: scope)',on?vcol:'#888')}
+    ${spot(220,94,28,'OUT2','OUTPUT2 = DEMUX-2 OUT2, composite video (EL2280 B) — '+enc.state+' (click: scope)',on?vcol:'#888')}
+    ${spot(296,94,28,'SDIOUT1','SDI OUTPUT = SDIOUT1, re-clocked loop-through (CLC007)',on&&clcLock(t)?'var(--accent)':'#888')}
+    ${spot(373,94,28,'INPUT1',`SDI INPUT = INPUT1 — click to ${cab?'unplug':'plug in'} the SDI cable (C)`,on&&cab?'var(--accent)':'#888',cab)}
+    ${spot(497,98,40,'','AES 1 = P5 group '+(p5||'—')+' ch 1/2 (via the POD19 AES transformers)',on&&p5?'var(--accent)':'#888')}
+    ${spot(618,98,40,'','AES 2 = P5 group '+(p5||'—')+' ch 3/4',on&&p5?'var(--accent)':'#888')}
+    ${spot(818,96,40,'P3','Mains inlet — click to switch the host power '+(on?'off':'on')+' (P)',on?'var(--accent)':'#888')}
+  </svg>`;
+}
+function bindRear(root){ root.querySelectorAll('.d2rp').forEach(g => g.onclick = () => { const p = g.dataset.p;
+  if (p === 'INPUT1') return A.cable(); if (p === 'P3') return A.power(); D.selPart = p; if (p === 'OUT1' || p === 'OUT2') D.scope = 'cvbs'; SIM.refresh(); }); }
 function viewSim(m){
   window.__demux2Active = true;
-  m.innerHTML = `<div class="grid2"><div>${card('DEMUX-2 Issue 2 board — click the parts', `<div id="bd"></div><div id="pi" class="small" style="margin-top:6px"></div><div id="ctl"></div>`)}</div>
+  m.innerHTML = `<div class="grid2"><div>${card('DEMUX-2 Issue 2 board — click the parts', `<div id="bd"></div><div id="pi" class="small" style="margin-top:6px"></div><div id="ctl"></div>`)}${card('In a POD 19V: the rear panel', `<div id="rp"></div><p class="small muted">Artwork: ${SIM.src(P19V_ART,'POD19MANU Demux 2.cdr')} (CorelDRAW manual drawing of the “POD 19V SDI-AES DEMUX”; no silkscreen file exists for the 19V). Click SDI INPUT to plug the cable, the mains inlet for power, OUTPUT 1/2 for the composite scope. Dots: green = live.</p>`)}</div>
     <div>${card('PIC16F874 at the playhead', `<div id="st"></div>`)}${card('What the software did', `<div id="tr" class="log"></div>`)}</div></div>
     ${card('One second of the DEMUX-2 (zoom with the transport; click to seek)', `<canvas id="tl"></canvas><p class="small muted">Keys: <b>C</b> cable, <b>P</b> power, <b>1–4</b> PODXX group. The model starts at power-on ${-PRE} s before this second, so counters and modes are what a running board would have.</p>`)}`;
   let lastKey = '';
@@ -649,6 +671,7 @@ function viewSim(m){
     if (key !== lastKey){ lastKey = key; m.querySelector('#ctl').innerHTML = controlsHTML(); bindControls(m); }
     const bd = m.querySelector('#bd'); bd.innerHTML = boardSVG(t); bindBoard(bd);
     m.querySelector('#pi').innerHTML = partInfo(D.selPart);
+    const rp = m.querySelector('#rp'); if (rp){ rp.innerHTML = rearSVG(t); bindRear(rp); }
     m.querySelector('#st').innerHTML = stateTable(t);
     m.querySelector('#tr').innerHTML = traceHTML();
     SIM.drawLanes(m.querySelector('#tl'), lanes(), {labelW:210});
@@ -940,6 +963,7 @@ function viewSoft(m){
 function viewFindings(m){
   window.__demux2Active = false;
   const F = [
+    ['Artwork 2026|59: rear panel from '+SIM.src(P19V_ART,'POD19MANU Demux 2.cdr'), 'No silkscreen file exists for the DEMUX-2 host, so the panel is the manual-cover drawing of the “POD 19V SDI-AES DEMUX” (front and rear). Its rear labels are copied unchanged from the POD19/DEMUX-1 art: <b>OUTPUT 1, OUTPUT2, SDI OUTPUT, SDI INPUT</b>, AES 1, AES 2. Nothing says “VIDEO”, although on the DEMUX-2 the two BNCs beside SDI OUTPUT can only be the composite OUT1/OUT2 (the board has no AES BNCs; AES leaves on P5 to the XLRs). Mapping OUTPUT 1/2 to OUT1/OUT2 is '+inf+' from the board netlist. The CDR also holds a fit-to-path “FUSE” text that libcdr repeats as “FUSEFUSEFUSE”; it is left out of the drawing.'],
     ['Two different programs are both "v1.05"', '<span class="mono">#old/v105/2v105.asm</span> (Dec 17 2007) matches the software listing "DEMUX2V105(B) … FIXED COMMUNICATION ISSUE 2007-12-18": it is v1.03 with <span class="mono">;call setgroup2</span> and <span class="mono">;call readgroupselect</span> commented out. <span class="mono">#v105/2v105.asm</span> (Jul 17 2009) is v1.04 plus a <span class="mono">uart_mode</span> flag. Its header says "JULY 17, 2009" while the listing has no 2009 entry.'],
     ['The communication bug v1.05 fixed (reconstructed)', 'In v1.01–v1.04 UART mode is just <span class="mono">rxflags,7</span>, and <span class="mono">rxerror1</span> (overrun) does <span class="mono">clrf rxflags</span>. For one pass the board reads P4; in an XTM4 nothing drives P4, so the 3K3 pull-ups give RE2 = RC0 = 1 → group = 8 → <span class="mono">setgroup2</span> writes the group-4 DID. The next host byte restores UART mode, but <span class="mono">setgroup1</span> returns early because uart0 = preuart0. The board stays on group 4 until the host picks a different source. The usual trigger is the 104 ms DELAY after an SDI re-lock: the 2-byte USART FIFO overflows whenever the host sends 3+ bytes in that time. (The host polling rate is '+inf+'.)'],
     ['v1.04 turned the ADV7171 set-up into an endless loop', 'v1.04 added <span class="mono">clrf address</span> to <span class="mono">data12</span>. I2Csetup then never reaches address 9–11 (data7, data8, data13), so <span class="mono">bsf I2C,7</span> in data13 never runs and <span class="mono">I2Cacknowledgment</span> keeps clearing I2C,0: registers 1–4 and 9–12 are rewritten forever, one per pass. Every MAIN pass becomes ≈'+(202+WR_CYC)+' cycles (≈1.2 ms) instead of ≈202 (165 µs). Registers 7, 8 and 13 keep their reset values. A likely reason ('+inf+'): the encoder recovers by itself after a reset that the firmware missed.'],

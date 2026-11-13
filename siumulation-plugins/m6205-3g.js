@@ -592,30 +592,39 @@ function cardSVG(t, opts){
   if (D.scn==='boot' && t < sched().cfgDone) s+=`<text x="1205" y="215" font-size="13" text-anchor="middle" fill="#ffd36a" stroke="#000" stroke-width="3" paint-order="stroke">configuring from EPCS…</text>`;
   s+='</svg>'; return s;
 }
+/* ---- Artwork 2026|59: card edge = M6205-card-edge-v10.cdr (no 3G-specific edge drawing exists), rear = M6205-3G rear module.cdr.
+   LEDs and BNC hot spots sit on the lens / BNC centres read from the converted SVGs. */
+const ART_DIR='#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/';
+const EDGE_ART={href:ASSET+'m6205-edge.svg', vb:[58,168,204,418], x:243.8, src:()=>SIM.src(ART_DIR+'M6205-card-edge-v10.cdr','M6205-card-edge-v10.cdr')+' (2008-10-30)'};
+const EDGE_Y=[217.4,189.2,248.3,295.3,319.2,343.4,367.2,401.4,425.1,468.3,492];   // LEDN order (HD, SD, …); 3G has no lens on the drawing
+const REAR_ART={href:ASSET+'m6205-3g-rear-t6301a.svg', vb:[272,388,276,228], cols:[382.92,426.72], ys:[427.03,467.61,508.18,548.76,589.35], r:11.2,
+  src:()=>SIM.src(ART_DIR+'M6205-3G rear module.cdr','M6205-3G rear module.cdr')+' (2011-04-27)'};
+[EDGE_ART.href, REAR_ART.href].forEach(u=>{ const im=new Image(); im.src=u; });   // warm the image cache: the panels are redrawn every tick
 function edgeSVG(t){
-  const L=ledsAt(t); const order=[10,0,1,2,3,4,5,6,7,8,9];
-  let s=`<svg viewBox="0 0 210 300" style="width:100%;max-width:210px;display:block"><rect width="210" height="300" rx="8" fill="var(--dev)"/>
-    <defs><filter id="m3Glow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>`;
-  order.forEach((i,k)=>{ const y=22+k*23, on=(L>>i)&1; s+=`<rect x="20" y="${y-6}" width="14" height="11" rx="2" fill="${on?LEDCOL[i]:'#2b2f2c'}" ${on?'filter="url(#m3Glow2)"':''}/><text x="46" y="${y+4}" font-size="13" fill="#e6e6e6">${LEDN[i]}</text>`; });
-  s+=`<rect x="20" y="${22+11*23-6}" width="14" height="11" rx="2" fill="#7dff6a" filter="url(#m3Glow2)"/><text x="46" y="${22+11*23+4}" font-size="13" fill="#e6e6e6">POWER</text></svg>`;
-  return s;
+  const L=ledsAt(t), E=EDGE_ART, v=E.vb;
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:200px;display:block;border-radius:6px" role="img" aria-label="M6205A-3G card edge (M6205-card-edge-v10.cdr)">
+    <defs><filter id="m3Glow2" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${E.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  LEDN.forEach((n,i)=>{ const on=(L>>i)&1, y=EDGE_Y[i];
+    if (i===10) s+=`<rect x="240" y="${y-5}" width="8" height="10" rx="1.5" fill="#d8d8d0" stroke="#777" stroke-dasharray="1.5 1"/><path d="M200 ${y} h36" stroke="#333" stroke-width=".8"/><text x="196" y="${y+3.5}" font-size="10" text-anchor="end" fill="#555" font-style="italic">3G LED (not drawn)</text>`;
+    s+=`<circle cx="${E.x}" cy="${y}" r="4.2" fill="${on?LEDCOL[i]:'#2c332c'}" fill-opacity="${on?1:.55}" ${on?'filter="url(#m3Glow2)"':''}><title>${n}${on?' — on':' — off'}${i===10?' (position inferred: the v10 drawing has no 3G LED)':''}</title></circle>`; });
+  return s+`<text transform="translate(238.5 554.5) rotate(-90)" text-anchor="middle" font-size="8" font-weight="700" fill="#111">M6205A-3G</text></svg><div class="small muted" style="margin-top:2px">Card edge: ${E.src()}; 3G LED placed below META DATA <span class="tag-inf" title="Inferred: the manual's LED table lists a 3G LED; no 3G card-edge drawing exists">inferred</span></div>`;
 }
-/* T6301A-3G rear module: line art from M6205-3G rear module.cdr (Inkscape), labels from the same drawing and manual Fig. 2 */
-const RBNC = [ // [label, kind, col, row]
+/* T6301A-3G rear module: M6205-3G rear module.cdr (positions, labels) and manual Fig. 2 */
+const RBNC = [ // [label, kind]
   ['SDI IN','sdiin'],['NOT USED','nc'],['AES OUT 1','aes0'],['AES OUT 2','aes1'],['AES OUT 3','aes2'],['AES OUT 4','aes3'],['AES IN 1','ain0'],['AES IN 2','ain1'],['SDI OUT1','sdo'],['SDI OUT2','sdo'] ];
 function rearSVG(t){
-  const w=world(t); const XC=[113,278], YC=[160,310,462,615,770];
-  let s=`<svg viewBox="0 0 370 880" role="img" aria-label="T6301A-3G rear module" style="width:100%;max-width:170px;display:block">
-    <rect x="10" y="20" width="350" height="845" rx="6" fill="#c9ccd0"/>
-    <clipPath id="m3rc"><rect x="16" y="0" width="340" height="870"/></clipPath><image href="${ASSET}m6205-3g-rear-t6301a.png" x="0" y="0" width="370" height="860" clip-path="url(#m3rc)"/>`;
-  RBNC.forEach(([lab,k],i)=>{ const cx=XC[i%2], cy=YC[i>>1]; let fill='transparent', live=false, title=lab;
+  const w=world(t), R=REAR_ART, v=R.vb, r=R.r;
+  let s=`<svg viewBox="${v.join(' ')}" role="img" aria-label="T6301A-3G rear module (archive drawing)" style="width:100%;max-width:300px;display:block;border-radius:6px">
+    <image href="${R.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  RBNC.forEach(([lab,k],i)=>{ const cx=R.cols[i%2], cy=R.ys[i>>1]; let fill='transparent', live=false, title=lab;
     if (k==='sdiin'){ live=sdiOn(t); fill=live?'#2b5f9e':'transparent'; title+=live?' — cable plugged (click to unplug)':' — click to plug a 3G/HD/SD source'; }
     if (k.startsWith('ain')){ live=w.aes[+k[3]]; fill=live?'#2b5f9e':'transparent'; title+=live?' — AES source plugged':' — click to plug an AES source'; }
     if (k.startsWith('aes')){ const lv=outLevel(+k[3]*2,t); live=true; fill = lv!==null? 'rgba(76,195,138,.55)':'rgba(140,140,140,.35)'; title+=` — pair ${+k[3]+1} of the output router (click to scope)`; }
     if (k==='sdo'){ live=txOnAt(t); fill= live? 'rgba(90,169,230,.5)':'transparent'; }
-    s+=`<g class="m3-bnc" data-k="${k}" style="cursor:pointer"><circle cx="${cx}" cy="${cy}" r="60" fill="${fill}"/>${(k==='sdiin'||k.startsWith('ain'))&&live?`<rect x="${cx-14}" y="${cy}" width="28" height="70" fill="#2b5f9e" opacity=".9"/>`:''}
-      ${k.startsWith('aes')&&D.ui.scopeOut===+k[3]?`<circle cx="${cx}" cy="${cy}" r="66" fill="none" stroke="#ffd36a" stroke-width="6"/>`:''}<circle cx="${cx}" cy="${cy}" r="70" fill="transparent"><title>${i+1} ${title}</title></circle></g>`; });
-  s+=`</svg>`; return s;
+    s+=`<g class="m3-bnc" data-k="${k}" style="cursor:pointer">${(k==='sdiin'||k.startsWith('ain'))&&live?`<rect x="${cx-r*.25}" y="${cy}" width="${r*.5}" height="${r*1.6}" fill="#2b5f9e" opacity=".9"/>`:''}<circle cx="${cx}" cy="${cy}" r="${r*.9}" fill="${fill}"/>
+      ${k.startsWith('aes')&&D.ui.scopeOut===+k[3]?`<circle cx="${cx}" cy="${cy}" r="${r*1.02}" fill="none" stroke="#e0a800" stroke-width="${r*.12}"/>`:''}<circle cx="${cx}" cy="${cy}" r="${r*1.1}" fill="transparent"><title>${i+1} ${title}</title></circle></g>`; });
+  return s+`</svg><div class="small muted" style="margin-top:2px">T6301A-3G: ${R.src()}</div>`;
 }
 function rearLegend(){ return `<table class="kv small">${RBNC.map((r,i)=>`<tr><td>${i+1}</td><td>${r[0]}</td><td class="muted">J10 BNC${i+1}_SIG</td></tr>`).join('')}</table>`; }
 
@@ -806,7 +815,7 @@ function viewSim(m){
   window.__m6205_3gActive=false;
   m.innerHTML = `<div class="grid2"><div>${card('M6205 ISS6 card (8399R-500-02 gerbers L1-TOP + ST)', `<div id="crd"></div><p class="small" id="pinfo"></p>`)}
       ${card('One second on the card', `<canvas id="tl"></canvas><p class="small muted">Click the timeline to move the playhead. Zoom in to see the 16-bit FPGA SPI words bit by bit (≈2.5 µs per bit) or single SDI lines.</p>`)}</div>
-    <div>${card('Rear module and the outside world', `<div style="display:grid;grid-template-columns:150px minmax(0,1fr);gap:10px"><div id="rear"></div><div style="min-width:0;overflow:hidden"><div id="wc"></div><div id="edge" style="margin-top:8px"></div></div></div>`)}
+    <div>${card('Rear module and the outside world', `<div style="display:grid;grid-template-columns:240px minmax(0,1fr);gap:10px"><div id="rear"></div><div style="min-width:0;overflow:hidden"><div id="wc"></div><div id="edge" style="margin-top:8px"></div></div></div>`)}
       ${card('Parameter window (DashBoard-style)', `<div id="dash"></div>`)}
       ${card('What the firmware did', `<div id="trace" class="log"></div>`)}
       ${card('AES3 at the playhead', `<canvas id="sc"></canvas><div id="scl"></div>`)}</div></div>`;
@@ -1006,6 +1015,7 @@ function viewSoft(m){
 function viewFindings(m){
   window.__m6205_3gActive=false;
   const F=[
+    ['Artwork 2026|59: rear module and card edge now from the CorelDRAW files', `Rear: ${REAR_ART.src()} (also drawn in ${SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6205A-3G - Rear Module Options.cdr','M6205A-3G - Rear Module Options.cdr')}, 2012-01-09, same layout). Card edge: ${EDGE_ART.src()} — there is no 3G card-edge drawing, so the 3G LED that leds.c drives (bit 10) and the manual lists has no lens on any drawing; it is placed below META DATA here. The rear drawing’s DFR-8320-C caption and “Axillary AES Input” spelling are on the sheet; BNC2 is NOT USED. The earlier PNG cut-out (m6205-3g-rear-t6301a.png) is retired.`],
     ['Timers lose ticks during every long task', 'zeuslib common/clock.c updateClock(): <span class="mono">prevTick = ticks</span> (the <span class="mono">prevTick++</span> line is commented out), so updateTimers() runs once per osRun loop. An appTask pass of ≈5.7 ms (≈40 FPGA SPI accesses, 17 Gennum accesses — from the cycle counts) costs ≈4.7 ticks, so appTask runs about every 45 ms instead of 40 and reportStatus every ≈1.1 s. resetAndInit() and DTS commands (≈60 ms each) stretch them much further.'],
     ['Payload/serializer setup runs on every pass', 'apptask.c appTask(): <span class="mono">VidInfo pVidInfo</span> and <span class="mono">pSdoLevel = -1</span> are locals, so "if (sdoLevel != pSdoLevel …)" is always true: gs2970SetPayloadID() and gs2962Set3GLevel() (up to 8 Gennum writes and a read) repeat 25 times a second. <span class="mono">outputB</span> is computed and never used; the level is always A.'],
     ['DIP preset/output-mode change loops forever', 'settings.c updateSettings() only reads the DIPs when <span class="mono">dipsEnabled && !dashboardEnabled</span>, but setDtsNlcPreset() and setNlcOutputMode() only act <span class="mono">if (dashboardEnabled)</span>. A DIP flip never reaches the card and reportParamValue(OID 0x0F32 / 0x0F30) is sent on every pass.'],

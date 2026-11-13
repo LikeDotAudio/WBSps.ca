@@ -385,6 +385,13 @@ const A = {
    IEC inlet 1357–1609 × 33–249. The front legend (GROUP bracket, 1–4, SDI/AES/ERROR, SELECT) sits about 19 pt to the
    right of its holes in the converted file; it was moved back over the holes (see Findings). */
 const ASSET = 'siumulation-plugins/assets/';
+/* Panel artwork 2026|59: CorelDRAW sheet converted with Inkscape (libcdr) → assets/pod19-front.svg and rear SVG(s)
+   (ink plates coloured green rgb(52,168,83) / white rgb(240,240,236), cut-outs as dark holes, drill crosshairs faint;
+   registered to the older PNG silks to ±1 px so every control keeps its place). The PNGs stay on a toggle. */
+const ART = {cdr:true};
+const ART_CDR = '#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr';
+function artNote(){ return `<div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src(ART_CDR, ART_CDR.split('/').pop())} (CorelDRAW, default) · <label><input type="checkbox" class="pod19-art" ${ART.cdr?'':'checked'}> show the older PNG silks (rasterised from the same CDR in the first build)</label></div>`; }
+document.addEventListener('change', e=>{ if (e.target && e.target.classList && e.target.classList.contains('pod19-art')){ ART.cdr = !e.target.checked; SIM.refresh(); } });
 const LX = [910.8, 980.8, 1050.8, 1120.8], TX = [1280.8, 1350.8, 1420.8];
 function frontSVG(t, opts){
   opts = opts||{};
@@ -394,8 +401,8 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD19 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="p19glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1714" height="321" rx="8" fill="#141517"/>
-    <image href="${ASSET}pod19-front-green.png" width="1714" height="321"/>
-    <image href="${ASSET}pod19-front-white.png" width="1714" height="321"/>
+    ${ART.cdr ? `<image href="${ASSET}pod19-front.svg" width="1714" height="321"/>` : `<image href="${ASSET}pod19-front-green.png" width="1714" height="321"/>
+    <image href="${ASSET}pod19-front-white.png" width="1714" height="321"/>`}
     <g class="p19pwr" style="cursor:pointer"><title>Power rocker (click, or P)</title><rect x="130" y="56" width="100" height="150" rx="8" fill="#0b0c0d" stroke="#2d3033" stroke-width="2"/>
       <rect x="142" y="${L.pwr?70:124}" width="76" height="66" rx="6" fill="#1b1d20" stroke="#3a3e42"/><text x="180" y="${L.pwr?110:164}" text-anchor="middle" font-size="22" fill="#777">${L.pwr?'I':'O'}</text></g>
     <circle cx="299.2" cy="217.8" r="15" fill="#060707"/><circle cx="299.2" cy="217.8" r="10.5" fill="${L.pwr?'#e9ff7a':'#262a1c'}" ${L.pwr?'filter="url(#p19glow)"':''}/>
@@ -420,7 +427,7 @@ function rearSVG(t){
       ${[[-22,-14],[22,-14],[0,24]].map(([dx,dy])=>`<circle cx="${x+dx}" cy="${156.4+dy}" r="8" fill="#c9cdd2"/>`).join('')}<rect x="${x-10}" y="${156.4-84}" width="20" height="14" fill="#5d6165"/>
       <circle cx="${x+70}" cy="80" r="8" fill="${live?'var(--accent)':'#555'}"/></g>`;
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD19 rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
-    <rect width="1714" height="321" rx="8" fill="#141517"/>
+    <rect width="1714" height="321" rx="8" fill="#141517"/>${ART.cdr ? `<image href="${ASSET}pod19-rear.svg" width="1714" height="321"/>` : ''}
     ${bnc(253.1, false, null, 'OUTPUT 1 — AES1 75 Ω unbalanced (Demux-1 AESOUT1). '+outTxt, on&&lk)}
     ${bnc(403.1, false, null, 'OUTPUT 2 — AES2 75 Ω unbalanced (Demux-1 AESOUT2). '+outTxt, on&&lk)}
     ${bnc(553.1, false, null, 'SDI OUTPUT — re-clocked (CLC016 → CLC007 cable driver). '+(on&&sdi?'270 Mb/s':'no signal'), on&&sdi)}
@@ -431,7 +438,7 @@ function rearSVG(t){
       ${[[1508,104],[1558,104],[1533,176]].map(([x,y])=>`<rect x="${x-10}" y="${y-14}" width="20" height="28" fill="#c9cdd2"/>`).join('')}</g>
     <circle cx="1664" cy="50.8" r="11" fill="#2a2c2e"><title>Unlabelled 8 pt hole on the 2014 artwork</title></circle>
     ${[[50.3,160.5],[1663.9,160.5]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="11" fill="#8f9295" stroke="#55585b" stroke-width="2"/>`).join('')}
-    <image href="${ASSET}pod19-rear-white.png" width="1714" height="321"/>
+    ${ART.cdr ? '' : `<image href="${ASSET}pod19-rear-white.png" width="1714" height="321"/>`}
   </svg>`;
 }
 function bindPanel(root){
@@ -568,7 +575,7 @@ function viewSim(m){
   <div class="grid2">
     <div>
       ${card('Front panel at the playhead', `<div id="fp"></div>${controlsHTML()}`)}
-      ${card('Rear panel — click SDI INPUT to plug or unplug', `<div id="rp"></div>`)}
+      ${card('Rear panel — click SDI INPUT to plug or unplug', `<div id="rp"></div>${artNote()}`)}
     </div>
     <div>
       ${card('What the firmware did (emulated, last action)', `<div id="trace" class="log"></div>`)}
@@ -909,6 +916,7 @@ function viewNotes(m){
   const F=(h,b)=>`<li style="margin-bottom:8px"><b>${h}</b> ${b}</li>`;
   const f=(file,fn)=>`<span class="mono small muted">[${file}${fn?' · '+fn:''}]</span>`;
   m.innerHTML = card('Findings — what POD19 and its firmware are up to', `<ol>
+    ${F('Artwork 2026|59: front/rear panels now drawn as vectors from '+SIM.src(ART_CDR, ART_CDR.split('/').pop())+' (2014-06-26, sheet dated Jun.25/14).', 'The ink plates are the same art as before, now with the cut-out layer: rocker, power LED, SELECT, seven LED holes, D-cut BNC holes, XLR holes with their screw holes, IEC inlet and the unlabelled top-right rear hole. The CDR draws a drill crosshair for every hole on both the green and white plates; these are not printed on real PODs (photos), so they are shown faint. The front legend is still moved back 19 pt over its holes (see below). It is the only POD19 panel art in the archive: there is no POD19 #ARTWORK #DA #2016 folder, and '+SIM.src('#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/Backup_of_POD19-FRONT&REAR(FINAL CURVE) .cdr','the Backup_of_ copy')+' is a day older. The older PNGs are on the toggle under the rear panel.')}
     ${F('“Remain in group 1” is only true for a blank EEPROM.', 'POD19-014 (Feb 2004) comments out <span class="mono">call switch_press</span> and <span class="mono">call switch_debounce</span> and says the unit “will default and remain in group 1”. But <span class="mono">read</span> still loads the stored group and sets <span class="mono">press_flag,6</span>, and the first <span class="mono">led_output</span> pass jumps to <span class="mono">group_check</span> with that value. A PODXX that once stored group 3 boots into group 3 and stays there. Try the “POD19-014” scenario with a stored group. '+f('Software/19-014/19-014.asm','read, led_output'))}
     ${F('The EEPROM signature check reads the same byte twice.', '<span class="mono">read</span> compares <span class="mono">setup1</span> with 0xAA, then compares <span class="mono">setup1</span> with 0xAA again. It never checks <span class="mono">setup2</span>. It then copies <span class="mono">setup1</span> into <span class="mono">source</span> and overwrites it with <span class="mono">setup2</span> (“to be changed later”). '+f('19-014.asm / PODXX v101.asm','read'))}
     ${F('The power-up delay depends on uninitialised RAM.', '<span class="mono">powerupdelay</span> loads <span class="mono">movlw 0x0f</span> into W and never uses it. The outer counter <span class="mono">output1</span> is never cleared, so the wait runs anywhere from about 0.6 ms to 160 ms depending on what the RAM held at power-on. During that time PORTC is 00, so the Demux-1 de-embeds <b>group 1</b> before switching to the stored group (scenario “Power-up”). '+f('19-014.asm','init, powerupdelay'))}

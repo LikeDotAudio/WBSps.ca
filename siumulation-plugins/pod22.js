@@ -281,7 +281,7 @@ function simView(cfg){ return function(m){
   window[cfg.flag] = true;
   m.innerHTML = `<div class="grid2"><div>
       ${card(cfg.frontTitle||'Front panel at the playhead', `<div id="fp"></div>${cfg.controls()}`)}
-      ${card(cfg.rearTitle||'Rear panel — click the connectors', `<div id="rp"></div>`)}
+      ${card(cfg.rearTitle||'Rear panel — click the connectors', `<div id="rp"></div>${cfg.artNote?`<div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src('#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-Silk.cdr','SILK/POD22-Silk.cdr')} (Jan 9 2003), FRONT GREEN, FRONT WHITE and REAR WHITE plates; its labels are live Arial text, re-anchored, and the scale numbers are drawn by the simulator.</div>`:''}`)}
     </div><div>
       ${card('What the circuit did (last action)', `<div id="trace" class="log"></div>`)}
       ${card(cfg.nowTitle||'Outputs now', `<div id="now"></div>`)}
@@ -681,7 +681,11 @@ const A = {
   reset(){ Object.assign(D, JSON.parse(JSON.stringify(FACT))); D.log=[]; bump(); SIM.refresh(); },
 };
 
-/* ======================= panels ======================= */
+/* ======================= panels =======================
+   Artwork 2026|59: assets/pod22-front.svg (GREEN + WHITE plates) and pod22-rear.svg are vector, straight from SILK/POD22-Silk.cdr
+   (Jan 9 2003) via Inkscape, cut between its crop marks (0 px offset against the old PNGs). That file keeps live Arial text, which
+   libcdr places without Corel's alignment: each label was slid to the position of the photo-checked PNG it replaces, and the
+   rotated scale numbers (which libcdr lays flat and overlapping) are left out of the SVG and drawn here from SCALE. */
 const ASSETS = 'siumulation-plugins/assets/';
 function frontSVG(t){
   const {st,d,f} = displayAt(t); const powered = !(st==='off-before');
@@ -695,7 +699,7 @@ function frontSVG(t){
   s += L(976, 96, 13, 10, powered, '#ff3b30', '0 VU marker (lit in both photos; not driven by the code — inferred hard-wired)') + L(976, 226, 13, 10, powered, '#ff3b30', '0 VU marker');
   TALLY.forEach(([n,x,bit])=>{ s += L(x, TALLY_Y, 13, 11, !!(d.lw & bit), n==='ERROR'?'#ff3b30':'#c9f03a', n+' tally'); });
   SCALE.forEach((lb,p)=>{ if (lb) s += `<text x="${segX(p)}" y="161" transform="rotate(90 ${segX(p)} 161)" text-anchor="middle" dominant-baseline="central" font-size="17" fill="#f4f4f0" font-family="Arial, Helvetica, sans-serif">${lb}</text>`; });
-  s += `<image href="${ASSETS}${PREFIX}-front-green.png" width="1714" height="321"/><image href="${ASSETS}${PREFIX}-front-white.png" width="1714" height="321"/>`;
+  s += `<image href="${ASSETS}${PREFIX}-front.svg" width="1714" height="321"/>`;
   [50,337,1477,1664].forEach(x=> s += screw(x,161));
   if (!powered) s += `<text x="857" y="300" text-anchor="middle" font-size="16" fill="#8a8580">(off)</text>`;
   else if (st==='held'||st==='boot') s += `<text x="1300" y="300" text-anchor="middle" font-size="15" fill="#8a8580">${st==='held'?'PIC init: SHARC held in reset':'SHARC booting from flash'}</text>`;
@@ -716,7 +720,7 @@ function rearSVG(){
     + `<g class="p22pwr" style="cursor:pointer"><title>Fuse holder and power cord (115 V AC, ½ A S.B.) — click to switch the unit on at the playhead</title><circle cx="1374" cy="160" r="47" fill="#151617" stroke="#666" stroke-width="4"/><text x="1374" y="166" font-size="17" fill="#9a9a9a" text-anchor="middle">FUSE</text>
        <circle cx="1534" cy="160" r="36" fill="#0c0d0e"/><path d="M1534 160 h190" stroke="#0c0d0e" stroke-width="28"/></g>`;
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD22 rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
-    <rect width="1714" height="321" rx="8" fill="#1b1c1d"/>${over}<image href="${ASSETS}${PREFIX}-rear-white.png" width="1714" height="321" style="pointer-events:none"/>${screw(50,138)}${screw(1664,138)}</svg>`;
+    <rect width="1714" height="321" rx="8" fill="#1b1c1d"/>${over}<image href="${ASSETS}${PREFIX}-rear.svg" width="1714" height="321" style="pointer-events:none"/>${screw(50,138)}${screw(1664,138)}</svg>`;
 }
 function bindPanel(r){
   r.querySelectorAll('.p22dip').forEach(g=>g.onclick=()=>A.dip(DIPS[+g.dataset.i]));
@@ -801,7 +805,7 @@ function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2'), wn=SIM.cs
     boolLane('LOCK tally', t=>{ const d=displayAt(t).d; return !!(d.lw&LOCKW.LOCK); }, '#c9f03a'), boolLane('COM tally', t=>!!(displayAt(t).d.lw&LOCKW.COM), '#ffd23a'), boolLane('ERROR tally', t=>!!(displayAt(t).d.lw&LOCKW.ERROR), bad) ]; }
 
 const viewSim = simView({flag:'__pod22Active', D, front:frontSVG, rear:rearSVG, bind:bindPanel, controls:controlsHTML, bindControls, now:nowHTML, levels:levelsHTML, lanes, labelW:230,
-  frontTitle:'Front panel at the playhead (POD22-Silk.cdr; scale redrawn) — press Play', rearTitle:'Rear panel — DIP levers, inputs, CONTROL, power', nowTitle:'Readings at the playhead', levelsTitle:'Level through every stage (steady sine)',
+  frontTitle:'Front panel at the playhead (POD22-Silk.cdr; scale redrawn) — press Play', rearTitle:'Rear panel — DIP levers, inputs, CONTROL, power', artNote:true, nowTitle:'Readings at the playhead', levelsTitle:'Level through every stage (steady sine)',
   tlTitle:'Timeline — one second: PIC passes, autodetect, resets, SHARC interrupts, display frames, RS-485, meters, tallies', hint:'Flip a DIP lever, plug an input or send a POD23 frame.'});
 
 /* ======================= tutorial (from POD22 MANUAL.pdf and the DIP table) ======================= */
@@ -994,6 +998,7 @@ const FINDINGS = [
   '<b>Array overrun by design.</b> <span class="mono">dma_in_a[2]</span> is declared with two words, but the analog path reads <span class="mono">dma_in_a+2</span> and <span class="mono">+3</span> — the next variable, dma_in_b, where SPORT0 B (the CS5333) lands. It works only because of declaration order. The first A/D word (“analog left”) goes to meter channel 1; whether that is a swap depends on board wiring the netlist alone does not settle.',
   '<b>Sample-rate detection has a fall-through.</b> <span class="mono">sample_rate_calc</span> measures emuclk cycles between interrupts (1024 at 48 kHz). Below about 24.6 kHz (Δ ≥ 2000) no test jumps and the code falls into update_meter_parameters_48. At 32 kHz no rate tally lights; the manual\'s range is 30–96 kHz.',
   '<b>Silence reads “90°”.</b> PhaseMeterGet returns 128 when |L+R| + |L−R| averages fall below 1e-4, which the phase table shows as four LEDs. With AES unlocked v1.02 forces 255 instead, a single LED at +1.',
+  '<b>Artwork '+Y(2026)+': front/rear panels now from '+SIM.src('#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-Silk.cdr','SILK/POD22-Silk.cdr')+' (Jan 9 2003).</b> It is the only full silk of the 41-point POD22 face. Its text is live (not curves), so libcdr loses the alignment: every label had to be re-anchored, and the 41 rotated scale numbers come out flat and overlapping (they are drawn by the simulator). The only curve version, '+SIM.src('#POD #SERIES/XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/SILK/POD22-S2curve.cdr','SILK/POD22-S2curve.cdr')+' (Sep 23 2002), is a rear panel alone and names DIP levers 7–8 <b>AUTO / MAN</b>; four months later POD22-Silk.cdr calls them <b>A0 / A1</b>, the RS-485 address bits the v1.0x code reads (see the swapped-address finding).',
   '<b>Misfiled and mislabelled files.</b> <span class="mono">MANUAL/Backup_of_Pod22manu.pdf</span> is a “POD 9 VIDEO SWITCHER” page. The 2002 mechanical drawings M1/M2 call for silkscreen “#POD22A-FRONT&amp;REAR-SILK”, a name from the later product (edited in). The POD33 folders <span class="mono">Sharc/POD22 v102</span> and <span class="mono">WORKING FILES/POD22 v102</span> are now empty. The 2003 silk keeps the 41-point scale; <span class="mono">POD22-Silk-iss2.cdr</span> (2006) already carries the 52 … +20 scale.'];
 const ASSUMPTIONS = [
   'PIC clock ≈ 8.6016 MHz from SPBRG = 13 at 9600 Bd; one MAIN pass ≈ '+SIM.fmtDur(PASS)+' from an instruction count of the code. Every pass-based time (autodetect, COM, reply) scales with these.',

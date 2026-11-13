@@ -15,7 +15,7 @@
        #V100/pd10v103.asm (the old 6-input POD10, PIC16F73), #V030000/pod10.X/pod10.asm
    - POD10A - #PCB/POD10-ISS3.pdf (4 sheets, 26/08/2013), POD10 MASTER BOM.xlsx, the .SchDoc sidecars
    - POD10A - #Manual/POD10A.docx + POD10A MAN.pdf (8 Oct 2013), POD10A - #TESTREPORT/*.pdf
-   - POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).pdf → assets/pod10a-*.png,
+   - POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr → assets/pod10a-front.svg, -rear.svg, -rear-ink.svg (Artwork 2026|59; was a PDF cut to PNG),
      Pics/POD10A Front.jpg, POD10A-75 Rear.jpg, POD10A-110 Rear.jpg (panel colour, button/jack positions)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -507,12 +507,11 @@ function frontSVG(uid, t, opts){
   const on = powerAt(uid,t), P = portdAt(uid,t), sl = sv(uid+'.slide', t, 0), held = sv(uid+'.btn', t, -1);
   const pressed = n => { const E=emulate(); return D.events.some(e=>e.type==='btn' && e.u===uid && e.n===n && t>=e.t && t<e.t+(e.dur||C.PRESS)); };
   const cls = 'p10f'+uid;
-  return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD10A front panel (real silkscreen)" style="width:100%;max-width:${opts.max||980}px;border-radius:8px;display:block">
+  return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD10A front panel (CorelDRAW silk artwork)" style="width:100%;max-width:${opts.max||980}px;border-radius:8px;display:block">
     <defs><filter id="p10glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
       <radialGradient id="p10red"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#ff5a6a"/><stop offset="1" stop-color="#b0101c"/></radialGradient></defs>
     <rect width="1714" height="321" rx="8" fill="#2a2627"/>
-    <image href="${ASSET}pod10a-front-green.png" width="1714" height="321"/>
-    <image href="${ASSET}pod10a-front-white.png" width="1714" height="321"/>
+    <image href="${ASSET}pod10a-front.svg" width="1714" height="321"/>
     <g class="${cls}" data-a="power" style="cursor:pointer"><title>Power rocker (click)</title><rect x="140" y="64" width="102" height="146" rx="8" fill="#0b0b0c" stroke="#3a3536" stroke-width="2"/>
       <rect x="153" y="${on?78:128}" width="76" height="68" rx="6" fill="#1c1a1b" stroke="#454041"/><rect x="159" y="${on?84:182}" width="64" height="10" rx="3" fill="#2d2a2b"/></g>
     <circle cx="299" cy="218" r="13" fill="#0a0909"/><circle cx="299" cy="218" r="9" fill="${on?'#d8ff5a':'#2b3220'}" ${on?'filter="url(#p10glow)"':''}><title>LED1 green power (R51 511 Ω from +5 V)</title></circle>
@@ -544,8 +543,9 @@ function rearSVG(t){
   const oc = s => s===null ? null : s===-2 ? 'var(--bad)' : s<0 ? '#555' : (D.inputs[s].on ? 'var(--accent)' : 'var(--warn)');
   const outs = [jack(263,87,null,`OUTPUT A (U9 → T9): ${srcTxt(ro.a)}`, true, oc(ro.a)), jack(263,206,null,`OUTPUT B (U10 → T10): ${srcTxt(ro.b)}`, true, oc(ro.b))];
   const ctlTip = `CONTROL (J1 DE9S, U11/U12 DS75176, 9600 Bd). Now: ${PARTNERS[partner]}. Click to cycle what is connected.`;
-  return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD10A rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
+  return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD10A rear panel (CorelDRAW silk artwork)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <rect width="1714" height="321" rx="8" fill="#252223"/>
+    <image href="${ASSET}pod10a-rear.svg" width="1714" height="321"/>
     ${outs.join('')}${ins.join('')}
     <g class="p10r" data-j="ctl" style="cursor:pointer"><title>${ctlTip}</title>
       ${partner==='none' ? `<rect x="1098" y="164" width="150" height="86" rx="6" fill="#141213" stroke="#3a3536"/><text x="1173" y="214" text-anchor="middle" font-size="15" fill="#6d6869">blank plate</text>`
@@ -555,7 +555,7 @@ function rearSVG(t){
     <g class="p10r" data-j="mains" style="cursor:pointer"><title>IEC inlet with fuse drawer, 100–230 VAC → CUI VOF-10-5 (click: power)</title><rect x="1347" y="34" width="245" height="214" rx="12" fill="#0b0b0c" stroke="#333" stroke-width="2"/><rect x="1362" y="54" width="62" height="176" rx="5" fill="#161516"/><rect x="1440" y="62" width="134" height="160" rx="12" fill="#050505"/>
       ${[[1474,96],[1540,96],[1507,180]].map(([x,y])=>`<rect x="${x-10}" y="${y-14}" width="20" height="28" fill="#c9cdd2"/>`).join('')}</g>
     ${[[171,40],[171,277],[986,40],[986,277],[50,161],[1664,161]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="10" fill="#8f9295" stroke="#55585b" stroke-width="2"/><path d="M${x-6} ${y} h12 M${x} ${y-6} v12" stroke="#47494c" stroke-width="2"/>`).join('')}
-    <image href="${ASSET}pod10a-rear-white.png" width="1714" height="321"/>
+    <image href="${ASSET}pod10a-rear-ink.svg" width="1714" height="321" style="pointer-events:none"/>
   </svg>`;
 }
 function bindPanel(root){
@@ -776,7 +776,7 @@ function viewSim(m){
   <div class="grid2">
     <div>
       ${card('Front panel at the playhead — click the buttons, the slide and the rocker', `<div id="fp"></div><div id="ctl"></div>`)}
-      ${card('Rear panel — click an input to plug/unplug, CONTROL to change what is connected', `<div id="rp"></div><div id="ins" style="margin-top:8px"></div>`)}
+      ${card('Rear panel — click an input to plug/unplug, CONTROL to change what is connected', `<div id="rp"></div><div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src('#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr', 'POD10A-FRONT&REAR-SILK CURVE).cdr')} (2015-10-01|48), CorelDRAW silk plates in their real inks.</div><div id="ins" style="margin-top:8px"></div>`)}
     </div>
     <div>
       ${card('What the firmware did (emulated, last action)', `<div style="margin-bottom:6px">${scenarioHTML()}</div><div id="trace" class="log"></div>`)}
@@ -1139,7 +1139,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__pod10aKeys = false;
   const F = (h, b)=>`<li style="margin-bottom:8px"><b>${h}</b> ${b}</li>`;
-  m.innerHTML = card('Findings — what the POD10A and its firmware are up to', `<ol class="small" style="padding-left:18px">
+  m.innerHTML = card('Findings — what the POD10A and its firmware are up to', `<ol class="small" style="padding-left:18px"><li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&REAR-SILK CURVE).cdr', 'POD10A-FRONT&REAR-SILK CURVE).cdr')} (2015-10-01|48).</b> GREEN + WHITE front plates and the WHITE rear plate registered on the panel outline (assets/pod10a-front.svg, pod10a-rear.svg, pod10a-rear-ink.svg). The rear power legend stops at “100-230 VAC, 50-60 Hz,” with a trailing comma and no fuse rating (POD1/POD18/POD14A finish with “½ A.S.B.”), so the text was cut short on the artwork. The file name itself is missing its opening bracket (“SILK CURVE).cdr”). Not used: POD10A-FRONT (FINAL CURVE).cdr (2014|47, front only) and the POD10 (non-A) sheets.</li>
     ${F('The “missing” V030200 source is in the archive.', 'README.md says “V030200 hex files and source are missing”. The source is in <span class="mono">#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/…/POD10 - #SOFTWARE #V030200/POD10A/pod10.c</span> and <span class="mono">…/POD10R/pod10.c</span> (24 Sep 2014). That is the pair the 3 Nov 2014|47 test report ran as POD10A.hex / POD10R.hex. Only their hex files are absent. Deleting the obsolete folder would lose the production firmware.')}
     ${F('V5 is not V030100, and V030100 is not in pod10v5.c.', 'The README infers that pod10v5.c builds V030100. The map files say otherwise. <span class="mono">V030100.production.map</span> lists only <span class="mono">pod10.c</span> (230 words: init, getInput, configSwitcher, outputLed, processInput*), and <span class="mono">POD10V5.production.map</span> lists <span class="mono">pod10v5.c</span> (1344 + 177 words). The V030100 source survives in this folder as the preprocessed <span class="mono">build/…/pod10.pre</span> (20 Feb 2014), and as <span class="mono">pod10.c</span> in the obsolete folder (30 Sep 2013).')}
     ${F('V5 cannot talk to another V5.', 'A V5 unit answers every command with <span class="mono">uartTransmitStatus()</span>: <span class="mono">80 nn</span>. After start-up <span class="mono">uartRx()</span> only treats <span class="mono">F0</span> as a frame byte, so the partner stores <span class="mono">0x80</span> in byte2 with ack = 1. <span class="mono">uartOption()</span> sees <span class="mono">0x80 & 0xC0 = 0x80</span> (“1-8 mode”), and <span class="mono">translateUartRx()</span> maps <span class="mono">0x80 & 7 = 0</span> to <b>input 8</b>. Each received byte produces a two-byte reply, so two linked V5 units flood the link and both settle on input 8. Run scenario “Two V5 units linked”. This was found by emulation; the archive has no test report for V5, which suggests it was an intermediate build.')}
@@ -1175,7 +1175,7 @@ function viewNotes(m){
     <li>xxx-OBSOLETE…/POD10 - #SOFTWARE #V030200/POD10A/pod10.c, POD10R/pod10.c; #V100/pd10v103.asm; #V030000/pod10.X/pod10.asm</li>
     <li>…/POD10A - #PCB/POD10-ISS3.pdf, POD10 MASTER BOM.xlsx, POD10-ISS3-S*.SchDoc sidecars</li>
     <li>…/POD10A - #Manual/POD10A.docx, POD10A MAN.pdf; POD10A - #TESTREPORT/POD10A-V030000-15OCT13.pdf, POD10A-V030100-01OCT13.pdf, POD10A_R-V030200-03NOV14.pdf</li>
-    <li>POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&amp;REAR-SILK CURVE).pdf → assets/pod10a-front-green.png, pod10a-front-white.png, pod10a-rear-white.png; Pics/POD10A Front.jpg, POD10A-75 Rear.jpg, POD10A-110 Rear.jpg</li></ul>`);
+    <li>POD10A - #ARTWORK #DA #2016 /POD10A-FRONT&amp;REAR-SILK CURVE).cdr → assets/pod10a-front.svg, pod10a-rear.svg, pod10a-rear-ink.svg; Pics/POD10A Front.jpg, POD10A-75 Rear.jpg, POD10A-110 Rear.jpg</li></ul>`);
 }
 
 /* ---------------- register plugin ---------------- */

@@ -269,6 +269,7 @@ const A = {
    ISS1: drawn to the same scale from POD12FRT / 1275RER / 12110RER (Obsolete mechanical) and Pod12man.pdf.
    ===================================================================== */
 const PW=1714, PH=321;
+const ART12='#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr';
 const LEDPOS = { pwr:[299,219], x8:[551.5,219], x4:[611.5,219], src:[786.5,219], eq1:[846.5,219], eq2:[906.5,219], l1:[1081.5,219], n1:[1141.5,219], l2:[1361.5,219], n2:[1421.5,219] };
 const LEDCOL = { pwr:'#8dff5a', x8:'#ffd23a', x4:'#ffd23a', src:'#ffd23a', eq1:'#ffd23a', eq2:'#ffd23a', l1:'#8dff5a', n1:'#ff4a3a', l2:'#8dff5a', n2:'#ff4a3a' };
 const LEDREF = { pwr:'LED1 · VCC_5V via R1', x8:'LED7 · DA_1X8 · PG4 (pin 19)', x4:'LED8 · DA_1X4 · PG3 (pin 18)', src:'LED6 · SRC_LED · PB0 (pin 10)', eq1:'LED3 · EQ1 · PE3 (pin 5)', eq2:'LED5 · EQ2 · PE7 (pin 9)', l1:'LED2 · LOCK1 · PE0 (pin 2)', n1:'LED9 · NOLOCK1 · PD1 (pin 26)', l2:'LED4 · LOCK2 · PE4 (pin 6)', n2:'LED10 · NOLOCK2 · PD0 (pin 25)' };
@@ -293,14 +294,14 @@ function dipSVG(x0,y0,w,h,st){ const sw=w/4; let s=`<rect x="${x0-4}" y="${y0-4}
 
 function frontISS2(t){
   const L=leds(t); let s=svgOpen('POD12 ISS2 front panel','g12f');
-  s+=`<image href="${ASSET}pod12-front-green.png" width="${PW}" height="${PH}"/><image href="${ASSET}pod12-front-white.png" width="${PW}" height="${PH}"/>`;
+  s+=`<image href="${ASSET}pod12-front.svg" width="${PW}" height="${PH}"/>`;
   s+=rocker(130,56,231,208,D.power)+screw(49,162)+screw(1664,161);
   for (const k in LEDPOS){ const [x,y]=LEDPOS[k]; s+=ledSVG(x,y,!!L[k],LEDCOL[k],LEDREF[k],'g12f'); }
   return s+'</svg>';
 }
 function rearISS2(t){
   let s=svgOpen('POD12 ISS2 rear panel ('+D.ver+' Ω)','g12r');
-  s+=`<image href="${ASSET}pod12-rear-white.png" width="${PW}" height="${PH}"/>`;
+  s+=`<image href="${ASSET}pod12-rear.svg" width="${PW}" height="${PH}"/>`;
   const J = D.ver==='75'? bnc : phx;
   s+=J(JACK.inA[0],JACK.inA[1],D.in[0].on,'p12in" data-k="0',`INPUT A (T9 → U5): ${D.in[0].on?'plugged — click to unplug':'empty — click to plug in'}`);
   s+=J(JACK.inB[0],JACK.inB[1],D.in[1].on,'p12in" data-k="1',`INPUT B (T10 → U6): ${D.in[1].on?'plugged — click to unplug':'empty — click to plug in'}`);
@@ -514,7 +515,7 @@ function viewSim(m){
   window.__pod12Active = true;
   m.innerHTML = `<div class="grid2"><div>
       ${card('Front panel at the playhead', `<div id="fp"></div><div id="ctl"></div>`)}
-      ${card('Rear panel — click an input to plug it, the DIP to switch, an output to scope it', `<div id="rp"></div>`)}
+      ${card('Rear panel — click an input to plug it, the DIP to switch, an output to scope it', `<div id="rp"></div><div class="small muted" style="margin-top:4px">${D.iss==='iss1'?'ISS1 panels drawn from POD12FRT / 1275RER / 12110RER and Pod12man.pdf.':`ISS2 (POD12A) artwork: ${SIM.src(ART12,'POD12A-FRONT&REAR-SILK (CURVE).cdr')} (Jun.19/14 sheet, saved Jun 17 2016): FRONT GREEN, FRONT WHITE and REAR WHITE plates; the black panel outline, hole and connector layer is shown as faint guides.`}</div>`)}
     </div><div>
       ${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}
       ${card('State at the playhead', `<div id="st"></div>`)}
@@ -863,6 +864,7 @@ function viewFindings(m){
     <li><b>The “1V2” rail is 1.52 V</b> (LM1117-ADJ, R2 221 R / R3 47.5 R), which is right for the Cyclone EP1C3 core. Only the net name is wrong.</li>
     <li><b>ISS1 is the original POD12</b> (Pod12.pcb 24 Dec 1999, POD12.DSN May 2002, manual July 2002): a CS8412 receiver, a PIC16C54A for the tallies, an OPA650 equaliser with a front LVL trim, six outputs, a front monitor jack and CONFIDENCE alarms. Its PIC program is not in the archive. The 2002 manual claims 600 m / 1500 m on 75 Ω. The 2014 POD12A manual says 300 m / 750 m, and its test report measured 300 m / 1000 m (75 Ω).</li>
     <li><b>Duplicates and mislabels.</b> “POD12 - Functional Diagram” and “POD12 - #Functional Diagram” are the same drawing (identical .cdr). The RD77 PCB folder has five backups exchanged with the layout contractor, and ISS2 again under #Engineering. The obsolete silk folder holds an earlier “POD-12A” (one input, five or seven outputs, LOCK / NO LOCK / EQ). The name POD12A was used twice. The test report is a generic openGear checklist, with Dolby, video and analog sections marked N/A.</li>
+    <li><b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART12,'POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr')} (Jun.19/14, file Jun 17 2016).</b> The newest sheet holds FRONT GREEN, FRONT WHITE and REAR WHITE plates plus a pure-black (#000) mechanical layer: panel outline, rocker cut-out, the ten LED holes, both mounting screws, the ten BNC/XLR rings with their square flats, the DIP window and the IEC opening. It registers on the earlier cuts with zero offset (x 280 px on the 200 dpi sheet), so LEDs, rocker and connectors stay put. The older PNG cuts had printed that black layer in ink colour; it is now a faint guide, since it is not silk. The 2014 front ${SIM.src('#POD #SERIES/XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #SILK/POD12A-FRONT(FINAL CURVE).cdr','POD12A-FRONT(FINAL CURVE).cdr')} is byte-identical in three folders, and the rear exists in three different saves (2014, May 2015, Jun 2016). Besides the two mounting screws, the sheet puts its ⊕ crosshair on only two of the ten LED holes, PWR and INPUT 1 LOCK, on both front plates: these look like the screen-registration holes ${inf}.</li>
   </ol>`)+card('Assumptions in this simulation', `<ul class="small">
     <li>Pass length (${SIM.fmtDur(passT())}) is estimated from instruction counts in the .lis files. Call overheads and REFRESH_LEDS/MIRROR costs are estimates (${inf}).</li>
     <li>AVR start-up delay ${SIM.fmtDur(K.startup)}, FPGA configuration ${SIM.fmtDur(K.fpgaCfg)}, CS8416 lock ${SIM.fmtDur(K.lockT)}, AD1895 delay ${SIM.fmtDur(K.srcDelay)}, FPGA latency ${K.fpgaLat} frames: all ${inf}.</li>

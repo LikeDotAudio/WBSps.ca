@@ -17,7 +17,7 @@
    - #POD #SERIES/POD14A - #Master/README.md (hardware + software analysis, netlist trace),
      POD14A - #Engineering /Software/README.md
    - POD14A - #Manual/POD14A MANUAL.docx (Rev Oct.01 2014), #Engineering/MANUAL/POD14A Manual.pdf (2009)
-   - POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).pdf → assets/pod14a-*.png,
+   - POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr → assets/pod14a-front.svg, -rear.svg, -rear-ink.svg (Artwork 2026|59),
      Pics/POD14A Front.jpg, POD14A Rear.jpg (panel colours and parts the silk does not show)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -417,11 +417,10 @@ function frontSVG(t, opts){
   const L = ledsAt(t), st = stepAt(t), down = powerAt(t) && D.events.some(e=>e.type==='press' && t>=e.t && t<e.t+(e.dur||C.PRESS));
   const led = (x,on,col,id)=>`<circle cx="${x}" cy="217" r="14" fill="#060707"/><circle cx="${x}" cy="217" r="10" fill="${on?col:'#2a1d1d'}" ${on?'filter="url(#p14glow)"':''}/>${on?`<circle cx="${x-3}" cy="214" r="3.5" fill="#fff" opacity=".55"/>`:''}`;
   const rateCol = '#ff3b2f', extCol = '#4dff5a', intCol = '#ffd23a';
-  return `<svg viewBox="0 0 1713 321" role="img" aria-label="POD14A front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
+  return `<svg viewBox="0 0 1713 321" role="img" aria-label="POD14A front panel (CorelDRAW silk artwork)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="p14glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1713" height="321" rx="8" fill="#141517"/>
-    <image href="${ASSET}pod14a-front-green.png" width="1713" height="321"/>
-    <image href="${ASSET}pod14a-front-white.png" width="1713" height="321"/>
+    <image href="${ASSET}pod14a-front.svg" width="1713" height="321"/>
     <g class="p14pwr" style="cursor:pointer"><title>Power rocker (click)</title><rect x="126" y="56" width="106" height="150" rx="8" fill="#0b0c0d" stroke="#2d3033" stroke-width="2"/>
       <rect x="140" y="${L.pwr?70:126}" width="78" height="66" rx="6" fill="#1b1d20" stroke="#3a3e42"/><rect x="146" y="${L.pwr?76:180}" width="66" height="10" rx="3" fill="#2b2e31"/></g>
     <circle cx="298.5" cy="217" r="14" fill="#060707"/><circle cx="298.5" cy="217" r="10" fill="${L.pwr?'#e9ff7a':'#262a1c'}" ${L.pwr?'filter="url(#p14glow)"':''}/>
@@ -450,8 +449,9 @@ function rearSVG(t){
   const trim = (i,x)=>`<g class="p14t" data-t="${i}" style="cursor:ew-resize"><title>${['RV1 Input 1 Right','RV2 Input 1 Left','RV3 Input 2 Right','RV4 Input 2 Left'][i]}: ${D.trim[i]>=0?'+':''}${D.trim[i].toFixed(2)} dB — click left/right half or use the wheel</title>
       <circle cx="${x}" cy="220" r="20" fill="transparent"/><circle cx="${x}" cy="220" r="11" fill="#c9a640" stroke="#6b5414" stroke-width="2"/>
       <line x1="${x}" y1="220" x2="${x + 9*Math.sin(D.trim[i]/0.18*2.4)}" y2="${220 - 9*Math.cos(D.trim[i]/0.18*2.4)}" stroke="#3a2b05" stroke-width="3"/></g>`;
-  return `<svg viewBox="0 0 1713 321" role="img" aria-label="POD14A rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
+  return `<svg viewBox="0 0 1713 321" role="img" aria-label="POD14A rear panel (CorelDRAW silk artwork)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <rect width="1713" height="321" rx="8" fill="#141517"/>
+    <image href="${ASSET}pod14a-rear.svg" width="1713" height="321"/>
     <rect x="20" y="12" width="172" height="46" fill="#ececea"/><text x="34" y="31" font-size="15" fill="#222" font-family="Times,serif">WBS  89173</text><text x="30" y="51" font-size="15" fill="#222" font-family="Times,serif">Made In Canada</text>
     ${inp(0,0,290,97)}${inp(1,0,395,97)}${inp(0,1,290,208)}${inp(1,1,395,208)}
     ${trim(0,166)}${trim(1,211)}${trim(2,487)}${trim(3,531)}
@@ -462,7 +462,7 @@ function rearSVG(t){
     <rect x="1372" y="30" width="236" height="218" rx="10" fill="#0b0c0d" stroke="#2e3134" stroke-width="2"/><rect x="1392" y="52" width="70" height="176" rx="5" fill="#16181a"/><rect x="1480" y="62" width="110" height="150" rx="10" fill="#050606"/>
     ${[[1510,95],[1560,95],[1535,170]].map(([x,y])=>`<rect x="${x-10}" y="${y-14}" width="20" height="28" fill="#c9cdd2"/>`).join('')}
     ${[[207,87],[627,87],[822,138],[1032,138],[1227,87],[50,160],[1664,160]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="10" fill="#8f9295" stroke="#55585b" stroke-width="2"/><path d="M${x-6} ${y} h12 M${x} ${y-6} v12" stroke="#47494c" stroke-width="2"/>`).join('')}
-    <image href="${ASSET}pod14a-rear-white.png" width="1713" height="321"/>
+    <image href="${ASSET}pod14a-rear-ink.svg" width="1713" height="321" style="pointer-events:none"/>
     ${on && fs!==0 ? [927,1137].map(x=>`<circle cx="${x+48}" cy="40" r="7" fill="${fs>0 && !(sv('word',t,0)&128)?'var(--accent)':'var(--warn)'}"/>`).join('') : ''}
   </svg>`;
 }
@@ -691,7 +691,7 @@ function viewSim(m){
   <div class="grid2">
     <div>
       ${card('Front panel at the playhead — what the operator sees', `<div id="fp"></div><div id="ctl"></div>`)}
-      ${card('Rear panel — click the REF BNC or Phoenix, the input blocks and the trims', `<div id="rp"></div><div id="ins" style="margin-top:8px"></div>`)}
+      ${card('Rear panel — click the REF BNC or Phoenix, the input blocks and the trims', `<div id="rp"></div><div id="ins" style="margin-top:8px"></div><div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src('#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr', 'POD14A-FRONT&REAR-SILK (CURVE).cdr')} (2016-06-16|49), CorelDRAW silk plates in their real inks.</div>`)}
     </div>
     <div>
       ${card('What the firmware did (emulated, last action)', `<div style="margin-bottom:6px">${scenarioHTML()}</div><div id="trace" class="log"></div>`)}
@@ -1032,7 +1032,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__pod14aKeys = false;
   const f = (file, fn)=>`<span class="small muted">[<span class="mono">${file}</span> · <span class="mono">${fn}</span>]</span>`;
-  m.innerHTML = card('What the POD14A firmware is up to — findings from the source', `<ol>
+  m.innerHTML = card('What the POD14A firmware is up to — findings from the source', `<ol><li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD14A - #Master/POD14A - #ARTWORK #DA #2016/POD14A-FRONT&REAR-SILK (CURVE).cdr', 'POD14A-FRONT&REAR-SILK (CURVE).cdr')} (2016-06-16|49).</b> GREEN + WHITE front plates and the WHITE rear plate registered on the panel outline (assets/pod14a-front.svg, pod14a-rear.svg, pod14a-rear-ink.svg). The CDR confirms the earlier PDF finding: the SAMPLE RATE row is legended 32 · 44.1 · 48 · 96 and the fifth LED hole (drilled, with its crosshair) has no “192” legend, so the overlay text stays marked as taken from the photo. Rear legend: 100-240 VAC, 50-60 Hz, ½ A.S.B. The older rear sheet POD14A-SILK-RR-ISS2.cdr (2010|43) was not used.</li>
     <li><b>It is a D6203 openGear card with a different job.</b> The project is <span class="mono">d6203_test.prj</span> building <span class="mono">D6203_TEST.hex</span>, the logic lives in <span class="mono">D6203A.c</span>, <span class="mono">common.h</span> still has <span class="mono">#define ROSS_VIDEO</span>, and <span class="mono">D6203A.c</span> keeps the card's routing modes (<span class="mono">MODE1</span> “OUT1 = IN1, OUT2 = IN1” … <span class="mono">MODE5</span> “REF2”) that POD14A cannot do. ${f('D6203A.c, common.h, D6203_TEST.mak','—')}</li>
     <li><b>The CAN / DashBoard code is not in the build.</b> <span class="mono">CAN.c</span> (1327 lines) and <span class="mono">Dashboard.c</span> (936) sit in the folder, but the <span class="mono">.mak</span> <span class="mono">FILES</span> list leaves them out. <span class="mono">eeprom.c</span> still includes <span class="mono">ioCAN128v.h</span>, the AT90CAN128 header. ${f('D6203_TEST.mak, eeprom.c','FILES')}</li>
     <li><b>The “chirp” chirps at nothing.</b> <span class="mono">NO_LOCK_CHIRP()</span> runs on every pass, locked or not, toggling <span class="mono">chirp_on</span> 1000 passes on / 7000 off. Nothing reads <span class="mono">chirp_on</span>. The REF LEDs are steady; only the D6203 used it. See the “chirp_on” lane. ${f('d6203_test.c','NO_LOCK_CHIRP, REFRESH_LEDS')}</li>

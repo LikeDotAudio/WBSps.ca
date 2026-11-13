@@ -558,6 +558,12 @@ document.addEventListener('keydown', e=>{
    AC inlet 1.256 × 1.080 at 7.415 / .703. The silk crosshairs (OUT 1 (194,73), IN 2 (509,204), IN 5 (824,73), IN 6 (929,204))
    sit 4 px right of 200·x: the cut is 4 px off the drawing's edge, so the rear features are placed at 200·x + 4. */
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: the panels now come straight from the CorelDRAW sheet POD9-FRONT&REAR-SILK (CURVE).cdr (Jun.19/14, text as curves). Inkscape → plain SVG;
+   the FRONT GREEN, FRONT WHITE and REAR WHITE plates were cut at their outline (x 105.22 pt; y 42.39 / 231.95 / 418.68 pt; 617.04 × 115.63 pt = 8.570 × 1.606 in),
+   the two front plates registered on one face and inked POD green rgb(52,168,83) / white rgb(240,240,236). Cut-outs, screw holes and
+   drill centre marks are kept as faint geometry, not ink. 1 pt = 200/72 px, the same grid the PDF cut used, so the controls stay on their holes. */
+const ART_SRC = '#POD #SERIES/POD9 - #Master/POD9 - #ARTWORK #DA #2016/POD9-FRONT&REAR-SILK (CURVE).cdr';
+const ART_CAP = `<div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src(ART_SRC, 'POD9-FRONT&REAR-SILK (CURVE).cdr')} (CorelDRAW, Jun.19/14 · ${SIM.year(2014)}), green and white plates registered on one panel.</div>`;
 const BX = [780, 930, 1080, 1230, 1380, 1530], SLX = 480, BY = 161;
 const RX = k => [404, 509, 614, 719, 824, 929][k], RY = k => k%2 ? 205 : 75;
 function frontSVG(t, opts){
@@ -575,8 +581,7 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD9 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="p9glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1714" height="321" rx="8" fill="#141517"/>
-    <image href="${ASSET}pod9-front-green.png" width="1714" height="321"/>
-    <image href="${ASSET}pod9-front-white.png" width="1714" height="321"/>
+    <image href="${ASSET}pod9-front.svg" width="1714" height="321" preserveAspectRatio="none" style="pointer-events:none"/>
     ${screw(51,161,12)}${screw(1664,161,12)}${screw(556,161,13)}${screw(1005,161,13)}${screw(1455,161,13)}
     <g class="p9pwr" style="cursor:pointer"><title>Power rocker (click) — PWRSW (PAN256) on the board</title><rect x="129" y="54" width="101" height="154" rx="6" fill="#0b0c0d" stroke="#2d3033" stroke-width="2"/>
       <rect x="140" y="${pwr?66:118}" width="79" height="78" rx="6" fill="#1c1e21" stroke="#3a3e42"/><rect x="146" y="${pwr?72:186}" width="67" height="8" rx="3" fill="#2b2e31"/></g>
@@ -608,9 +613,9 @@ function rearSVG(t){
       <rect x="1376" y="48" width="70" height="186" rx="4" fill="#17191b" stroke="#33373b"/><rect x="1394" y="80" width="34" height="120" rx="3" fill="#0f1011" stroke="#2b2e31"/>
       <path d="M1464 60 h130 v120 l-30 40 h-70 l-30 -40 z" fill="#050606" stroke="#2c2f32" stroke-width="2"/>
       <rect x="1492" y="85" width="10" height="34" fill="#c9cdd0"/><rect x="1559" y="85" width="10" height="34" fill="#c9cdd0"/><rect x="1525" y="140" width="10" height="34" fill="#c9cdd0"/></g>
-    <image href="${ASSET}pod9-rear-white.png" width="1714" height="321"/>
+    <image href="${ASSET}pod9-rear.svg" width="1714" height="321" preserveAspectRatio="none" style="pointer-events:none"/>
     ${[[51,161],[1664,161]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="11" fill="#2a2d30" stroke="#3d4145"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#0c0d0e" stroke-width="2.4"/>`).join('')}
-  </svg>`;
+  </svg>`+ART_CAP;
 }
 function bindPanel(root){
   root.querySelectorAll('.p9b').forEach(g=>g.addEventListener('click', ()=>A.btn(+g.dataset.k)));
@@ -1272,6 +1277,7 @@ function viewNotes(m){
     ['F14','Duplicates and misnamed files','<span class="mono">#V100/POD9V100.ASM</span> is a copy of POD9V101 (#OLD), while the real V100 is in <span class="mono">#V100/#V100</span>. <span class="mono">pod9v102.asm</span> exists in four different versions under one name (16C73A POD2 config; 16F73 conversion; POD10/POD21 config; Creative Bubble). The ISS2 Gerber folder holds POD9ISS3.* files; the assembly PDF is filed three times. <span class="mono">pod21c.asm</span> (a POD21 SDI switcher) sits in the POD9 V102 folder.'],
     ['F15','The rear drawing is an inside view','POD9-REAR ISS 3 is labelled “INSIDE VIEW”: its x dimensions mirror the silk. Read as x′ = 8.570 − x they land on the silk crosshairs (OUT 1 at 0.950, DE9 at 5.885, inlet at 7.415). Issue 3 (06/06/13) rotated the BNC D-flats 180° in all 8 places.'],
     ['F16','POD9R is a re-flashed POD2R','The 2012 test report: “This version of software is to use the POD2R hardware to replace old through hole version of POD9R. POD9R Should only be connected to POD9.” In <span class="mono">pod2r200.asm</span> V500 the only changes are <span class="mono">bcf video_audio,0 ;video only remote ;Ali-Add</span>, the restored <span class="mono">andlw 0x38</span> (plo had zeroed the video field on 1 Feb 2010) and <span class="mono">slave_video_output</span>.'],
+    ['F17','Artwork '+SIM.year(2026)+': front/rear panels now from '+SIM.src(ART_SRC,'POD9-FRONT&REAR-SILK (CURVE).cdr')+' (Jun.19/14)','The plates draw all seven front button holes, the six BNC D-holes, OUT 1/2, the DE9 CONTROL and the AC inlet; the buttons, LEDs, BNCs and the CONTROL overlay sit on them. The drill crosses that F15 used as landmarks (OUT 1, IN 2, IN 5, IN 6) are construction marks, drawn faint here, not ink. The art writes “A\\V SLAVE” with a backslash. The second green bar of the front plate starts right after the PODS logo. Earlier art: '+SIM.src('#POD #SERIES/POD9 - #Master/POD9 - #Engineering/POD9R - #SILK/POD9SILK.CDR','POD9SILK.CDR')+' and '+SIM.src('#POD #SERIES/POD9 - #Master/POD9 - #Engineering/POD9R - #SILK/POD9-REAR iss2 silk.cdr','POD9-REAR iss2 silk.cdr')+' (Aug 2007|40).'],
   ];
   m.innerHTML = card('Findings — what the POD9 and its firmware are up to', `<ol class="small" style="padding-left:18px">${F.map(f=>`<li style="margin-bottom:8px"><b>${f[0]} · ${f[1]}.</b> ${f[2]}</li>`).join('')}</ol>`)
     + card('Sources and what was inferred', `<ul class="small">

@@ -3,10 +3,10 @@
    Plugin for the WBS Device Simulator (../siumulation.html)
 
    Sources used (#MF8200 #SERIES/…):
-   - D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/8212-020-SILK (CURVE) .pdf
-       (front door silk, NOV.09/15) → assets/d8210-d8212-door-green.png
+   - D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/8212-020-SILK (CURVE) .cdr (Artwork 2026|59: CorelDRAW → SVG)
+       (front door silk, NOV.09/15) → assets/d8210-d8212-door.svg
    - …/MF8212RM2-SILK(CURVE).pdf (JUN.22/16) and MF8212RM2-SILK (CURVE).pdf (NOV.06/15)
-       (rear power cover) → assets/d8210-d8212-rm2-white.png, d8210-d8212-rm2-2015-white.png
+       (rear power cover) → assets/d8210-d8212-rm2.svg, d8210-d8212-rm2-2015.svg (.cdr sources)
    - …/PICS/8212-020.jpg, MF8212RM2.jpg, 82-077.jpg  (ink and panel colours, PSU door)
    - D8210 & D8212 - #Mechanical #DA #2016/*.dwg  (part list, finishes, "CUT .063 ALUMINUM PANEL 17.060 LONG",
        "13 PITCHES OF … 0.12 X 1.00 OBLONG", "(MF82REF CONFIGURATION)", "RH SIDE PLATE VENTED")
@@ -20,6 +20,7 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+const ART = '#MF8200 #SERIES/D8210 & D8212 - #Master #MF82/D8210 & D8212 - #ARTWORK #DA #2016/';
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const card = (t,b,cls)=>`<div class="card ${cls||''}"><h2>${t}</h2>${b}</div>`;
 
@@ -94,18 +95,18 @@ function frontSVG(t){
       if (sl.card){ const on=P.ok; s+=`<circle cx="${x+pw/2}" cy="70" r="14" fill="${on?'#7dff6a':'#223'}" ${on?'filter="url(#fg)"':''}/><rect x="${x+pw*0.22}" y="${H-330}" width="${pw*0.56}" height="140" rx="12" fill="#c9c9c2"/><text x="${x+pw/2}" y="${H-260}" font-size="34" text-anchor="middle" fill="#222" transform="rotate(90 ${x+pw/2} ${H-260})">${sl.card}</text>`; }
       s+=`<text x="${x+pw/2}" y="${H-120}" font-size="34" text-anchor="middle" fill="#888">${i+1}</text></g>`; });
     const px=x0+F.slots*F.pitch*200+40;
-    s+=`<g><title>Power-supply compartment, door 82-077 (13 vents, PS1/PS2 lamps)</title><rect x="${px}" y="10" width="${W-px-20}" height="${H-170}" fill="#202224" stroke="#333"/>${Array.from({length:13},(_,k)=>`<rect x="${px+40+k*((W-px-100)/13)}" y="200" width="24" height="200" rx="12" fill="#000"/>`).join('')}
-      <circle cx="${px+80}" cy="80" r="14" fill="${psOnAt(0,t)?'#ffe48a':'#333'}" ${psOnAt(0,t)?'filter="url(#fg)"':''}/><text x="${px+80}" y="130" font-size="34" text-anchor="middle" fill="#eee">PS1</text><circle cx="${W-180}" cy="80" r="14" fill="${psOnAt(1,t)?'#ffe48a':'#333'}" ${psOnAt(1,t)?'filter="url(#fg)"':''}/><text x="${W-180}" y="130" font-size="34" text-anchor="middle" fill="#eee">PS2</text><text x="${(px+W)/2}" y="170" font-size="30" text-anchor="middle" fill="#eee">CAUTION — DISCONNECT BOTH AC POWER SOURCES</text></g>
-      <g class="fdoor" style="cursor:pointer"><title>Front door, folded down — click to close</title><rect x="0" y="${H-150}" width="${W}" height="150" fill="#1d1f21" stroke="#000"/><image href="${ASSET}d8210-d8212-door-green.png" x="0" y="${H-150}" width="652" height="149"/></g>`;
+    { const cw=W-px-20, ch=H-170, k=Math.min(cw/438, ch/274), iw=438*k, ih=274*k, ix=px+(cw-iw)/2, iy=10+(ch-ih)/2, lamp=(fx,n)=>{ const on=psOnAt(n,t); return `<circle cx="${ix+fx*iw}" cy="${iy+0.266*ih}" r="${Math.max(9,0.02*iw)}" fill="${on?'#ffe48a':'#333'}" ${on?'filter="url(#fg)"':''}/>`; };
+    s+=`<g><title>Power-supply compartment: door 82-077 (real silk 82-077-SILK (DOOR CURVE).cdr, JUN.21/16 — 14 vent slots, PS1/PS2 lamps)</title><rect x="${px}" y="10" width="${cw}" height="${ch}" fill="#141516" stroke="#333"/><image href="${ASSET}d8210-d8212-psdoor.svg" x="${ix}" y="${iy}" width="${iw}" height="${ih}"/>${lamp(0.1575,0)}${lamp(0.590,1)}</g>`; }
+    s+=`<g class="fdoor" style="cursor:pointer"><title>Front door, folded down — click to close</title><rect x="0" y="${H-150}" width="${W}" height="150" fill="#1d1f21" stroke="#000"/><image href="${ASSET}d8210-d8212-door.svg" x="0" y="${H-150}" width="652" height="149"/></g>`;
   } else {
     s+=`<g class="fdoor" style="cursor:pointer"><title>8212-020 DA door — click to open</title><rect x="0" y="0" width="${W}" height="${H}" fill="#1d1f21" stroke="#000"/><rect x="0" y="${H-150}" width="${W}" height="6" fill="#2b2d30"/>
-      <image href="${ASSET}d8210-d8212-door-green.png" x="0" y="${H-149}" width="652" height="149"/><text x="${W/2}" y="${H/2-30}" font-size="40" text-anchor="middle" fill="#666">click to open the door</text></g>`;
+      <image href="${ASSET}d8210-d8212-door.svg" x="0" y="${H-149}" width="652" height="149"/><text x="${W/2}" y="${H/2-30}" font-size="40" text-anchor="middle" fill="#666">click to open the door</text></g>`;
   }
-  return s+`</svg><div class="small muted">Front: real door silk from <span class="mono">8212-020-SILK (CURVE) .pdf</span> (green ink per <span class="mono">PICS/8212-020.jpg</span>) on a 17.060″ door. Slot pitch ${F.pitch.toFixed(3)}″ (MF8210: 82-074/82-071 “9 PITCHES OF 1.260 = 11.340”; MF8212: MF8212RM1 ISS.2 in MF8210RM1 LAYOUT “11 PITCHES @ 1.000 TYP.”). The slot/PSU layout behind the door is ${'inferred'} from the BOM (12 card guides pairs, 82-072 PSU box) and the manual photo.</div>`;
+  return s+`</svg><div class="small muted">Front: CorelDRAW door silk ${SIM.src(ART+'8212-020-SILK (CURVE) .cdr','8212-020-SILK (CURVE) .cdr')} (NOV.09/15, vector; green ink per ${SIM.src(ART+'PICS/8212-020.jpg','PICS/8212-020.jpg')}); PSU door ${SIM.src(ART+'82-077-SILK (DOOR CURVE).cdr','82-077-SILK (DOOR CURVE).cdr')} (JUN.21/16, white ink on black per ${SIM.src(ART+'PICS/82-077.jpg','PICS/82-077.jpg')}) on a 17.060″ door. Slot pitch ${F.pitch.toFixed(3)}″ (MF8210: 82-074/82-071 “9 PITCHES OF 1.260 = 11.340”; MF8212: MF8212RM1 ISS.2 in MF8210RM1 LAYOUT “11 PITCHES @ 1.000 TYP.”). The slot/PSU layout behind the door is ${'inferred'} from the BOM (12 card guides pairs, 82-072 PSU box) and the manual photo.</div>`;
 }
 // Rear power cover MF8212RM2 at 200 dpi: 831 × 662 px. Drill points read off the artwork.
 function rearSVG(t){
-  const img = D.rm2==='2016'? 'd8210-d8212-rm2-white.png' : 'd8210-d8212-rm2-2015-white.png';
+  const img = D.rm2==='2016'? 'd8210-d8212-rm2.svg' : 'd8210-d8212-rm2-2015.svg';
   const refInX = D.rm2==='2016'? 420 : 570, refOutX = D.rm2==='2016'? 570 : 420;
   const bnc=(x,cls,lbl,on)=>`<g class="${cls}" style="cursor:pointer"><title>${lbl}</title><circle cx="${x}" cy="487" r="44" fill="#c8cbce" stroke="#777" stroke-width="3"/><circle cx="${x}" cy="487" r="24" fill="#222"/><circle cx="${x}" cy="487" r="8" fill="${on?'var(--accent2)':'#555'}"/>${on?`<rect x="${x-16}" y="400" width="32" height="40" fill="#333"/>`:''}</g>`;
   const iec=(y,k)=>`<g class="fps" data-k="${k}" style="cursor:pointer"><title>PS${k+1} AC inlet with fuse — click to plug/unplug</title><rect x="43" y="${y}" width="216" height="248" rx="8" fill="#111" stroke="#666"/><rect x="83" y="${y+30}" width="136" height="100" rx="10" fill="#1d1d1d" stroke="#555"/><rect x="113" y="${y+60}" width="14" height="36" fill="#999"/><rect x="175" y="${y+60}" width="14" height="36" fill="#999"/><rect x="144" y="${y+45}" width="14" height="30" fill="#999"/>${D.ps[k]?`<rect x="70" y="${y+20}" width="162" height="120" rx="14" fill="#2a2a2a" stroke="#000" opacity=".95"/><text x="151" y="${y+90}" text-anchor="middle" font-size="26" fill="#aaa">cord</text>`:''}<rect x="93" y="${y+160}" width="116" height="60" fill="#262626" stroke="#555"/><text x="151" y="${y+197}" text-anchor="middle" font-size="20" fill="#888">2 A</text></g>`;
@@ -114,7 +115,7 @@ function rearSVG(t){
     <g><title>Binding posts: green (functional earth) and black (chassis) — Johnson 111-0104 / 111-0103 (BOM)</title><circle cx="318" cy="95" r="26" fill="#2fa34a" stroke="#0a3"/><circle cx="318" cy="245" r="26" fill="#222" stroke="#666"/></g>
     <image href="${ASSET}${img}" width="831" height="662"/>
     ${bnc(refInX,'fref','REF IN — click to cycle AES / video / none',D.ref!=='none')}${bnc(refOutX,'frefo','REF OUT — click to loop to the next frame',D.refOut)}
-  </svg><div class="small muted">Rear power cover: real silk <span class="mono">MF8212RM2-SILK(CURVE).pdf</span> (${D.rm2==='2016'?'JUN.22/16':'NOV.06/15'}), white ink per <span class="mono">PICS/MF8212RM2.jpg</span>. <a href="#" class="frm2">Swap to the ${D.rm2==='2016'?'NOV.06/15':'JUN.22/16'} artwork</a> — the two issues swap REF IN and REF OUT.</div>`;
+  </svg><div class="small muted">Rear power cover: CorelDRAW silk ${D.rm2==='2016'?SIM.src(ART+'MF8212RM2-SILK(CURVE).cdr','MF8212RM2-SILK(CURVE).cdr'):SIM.src(ART+'MF8212RM2-SILK (CURVE).cdr','MF8212RM2-SILK (CURVE).cdr')} (${D.rm2==='2016'?'JUN.22/16':'NOV.06/15'}, vector), white ink per ${SIM.src(ART+'PICS/MF8212RM2.jpg','PICS/MF8212RM2.jpg')}; the drawing's black mechanical outline (cut-outs, holes) is kept as dark lines. <a href="#" class="frm2">Swap to the ${D.rm2==='2016'?'NOV.06/15':'JUN.22/16'} artwork</a> — the two issues swap REF IN and REF OUT.</div>`;
 }
 function rearModsSVG(){
   const F=FRAMES[D.frame], pw=F.pitch*40; let s=`<svg viewBox="0 0 ${F.slots*pw+20} 150" style="width:100%">`;
@@ -154,7 +155,7 @@ function inspector(t){ const P=powerAt(t), r=refAt(t), n=D.slots.filter(s=>s.car
   return `<table class="kv"><tr><th>Frame</th><td class="mono">${FRAMES[D.frame].name} · ${n}/${D.slots.length} slots used · door ${D.door}</td></tr>
    <tr><th>Load</th><td class="mono">+${(P.L.ip*1000).toFixed(0)} mA / −${(P.L.iN*1000).toFixed(0)} mA at ±${K.RAIL} V = ${P.watts.toFixed(1)} W</td></tr>
    <tr><th>Supplies</th><td class="mono">PS1 ${P.on[0]?'on':'off'} · PS2 ${P.on[1]?'on':'off'} · ${(P.per*1000).toFixed(0)} mA per rail per supply of ${K.PSU_MAX*1000} ${inf} ${P.ok?'':'<b style="color:var(--bad)">NOT OK</b>'}</td></tr>
-   <tr><th>Heat</th><td class="mono">≈ +${tempRise().toFixed(1)} °C over ${K.AMB} °C ambient ${inf}; vents: RH side plate, 13-slot PSU door</td></tr>
+   <tr><th>Heat</th><td class="mono">≈ +${tempRise().toFixed(1)} °C over ${K.AMB} °C ambient ${inf}; vents: RH side plate, 14-slot PSU door (“13 PITCHES”)</td></tr>
    <tr><th>Reference</th><td class="mono">${r?(r.kind==='aes'?'AES REF BUS':'VIDEO REFERENCE')+' · level ×'+r.lvl+(r.lvl!==1?' <b style="color:var(--warn)">mis-terminated</b>':''):'none'} · used by ${D.slots.filter(s=>s.card&&CARDS[s.card].ref).map(s=>s.card).join(', ')||'no card fitted'}</td></tr>
    <tr><th>Fit check</th><td class="small">${probs.length?probs.join('<br>'):'all cards on the right rear modules'}</td></tr></table>`; }
 function traceHTML(){ return D.log[0]? `<div><b>${D.log[0].name}</b> at ${SIM.fmtT(D.log[0].t)}</div>`+D.log[0].tr.map(s=>`<div>→ ${s}</div>`).join('') : '<div class="muted">Open the door and click a slot to insert or pull a card; click a rear position to change its module; click the AC inlets and REF BNCs.</div>'; }
@@ -228,6 +229,7 @@ function viewSoft(m){
 }
 function viewNotes(m){
   m.innerHTML=card('What the frame masters are up to — findings', `<ol>
+   <li><b>Artwork ${SIM.year(2026)}: front and rear panels now from the CorelDRAW silks.</b> Door ${SIM.src(ART+'8212-020-SILK (CURVE) .cdr','8212-020-SILK (CURVE) .cdr')} (NOV.09/15), PSU door ${SIM.src(ART+'82-077-SILK (DOOR CURVE).cdr','82-077-SILK (DOOR CURVE).cdr')} (JUN.21/16) and rear cover ${SIM.src(ART+'MF8212RM2-SILK(CURVE).cdr','MF8212RM2-SILK(CURVE).cdr')} (JUN.22/16) / ${SIM.src(ART+'MF8212RM2-SILK (CURVE).cdr','MF8212RM2-SILK (CURVE).cdr')} (NOV.06/15), converted to vector SVG. Each sheet has two inks: the silk in CorelDRAW “rich black” (#1B1918) and the mechanical outline in pure black (#000000); the silk is recoloured to its real ink, the outline kept as dark lines. The PSU door shows <b>14</b> vent slots (the photo agrees; the mechanical drawing’s “13 PITCHES OF … OBLONG” means 14 slots, which the earlier model read as 13), and its PS1/PS2 lamp holes are not symmetric: PS2 sits at 59 % of the width, not at the right edge. The door silk carries only the WBS mark and two screw targets; the card slots are not legended.</li>
    <li><b>“D8210 & D8212” are frames, not cards.</b> The folder holds MF8210/MF8212 mechanicals and silk (2011–2016|44–49); the D- prefix normally means a digital card.</li>
    <li><b>The two rear-cover silks swap REF IN and REF OUT.</b> <span class="mono">MF8212RM2-SILK (CURVE).pdf</span> (NOV.06/15, matches <span class="mono">PICS/MF8212RM2.jpg</span>) reads REF OUT, REF IN left to right; <span class="mono">MF8212RM2-SILK(CURVE).pdf</span> (JUN.22/16, same date as the ISS 1 power-cover drawing) reads REF IN, REF OUT and adds outlines for the IEC inlets and posts. Either the BNCs were re-wired or one label set is wrong. Swap them on the Simulator tab.</li>
    <li><b>Drawings cloned from other drawings.</b> The 8212-020 DA DOOR drawing still contains “SIDE PLATE, LEFT HAND”, “P.C. GUIDE SUPPORT BAR” and the 82-002 alodine notes; 82-011 LACING BAR also carries “SIDE PLATE, LEFT HAND”. The 8205-004 HANDLE says “WITH TOGGLE SWITCH” and sits in folder ERWIN/ODD DRAWINGS.</li>

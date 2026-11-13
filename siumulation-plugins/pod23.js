@@ -20,7 +20,7 @@
    - POD23 - #NAB 2004/nab04 ctl pnl2.net, .bom (the POD23A board: PIC16F877 QFP44, 6× SLG2016,
        74HC138, 74HC165, 2× 75176, X1 4.9152 MHz) · POD23 - #PCB/POD23iss1.net, .bom (2003 board, 2× PDSP1884)
    - POD23 - #SILK/POD23-Silk.cdr (2003) and POD23-SilkV2.cdr (2004), converted with Inkscape (libcdr)
-       → assets/pod23-front-green.png, pod23-front-white.png, pod23-rear-white.png, pod23-a-front-white.png
+       → assets/pod23-front.svg (2003), pod23-a-front.svg (POD23A, V2), pod23-rear.svg (vector, 2026|59; replace the earlier PNG cuts)
    - POD23 - #MECHANICAL/*.dwg.md and #Poduction Assembly/POD23-2 ASSEMBLY.dwg.md (recovered text only:
        "EXTRA FINE TEXTURED WBS BLACK", "5 PITCHES @ 1.250 CENTRES", ".032 GREY CHROMA FILTER",
        "DB 9PIN CONNECTOR", "THIS ASSEMBLY IS FOR POD23A")
@@ -493,6 +493,8 @@ B_.reset();
    centre alignment). Cells sit on 1.250 in centres (“5 PITCHES @ 1.250 CENTRES”, POD23-2 ASSEMBLY.dwg); the windows
    (1.003 × 0.407 in) and the 0.629 in knob outlines are the artwork's own guides. The 2004 artwork has one ink only. */
 const ASSET = 'siumulation-plugins/assets/';
+const ART_V1 = '#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-Silk.cdr', ART_V2 = '#POD #SERIES/POD23 - #Engineering/POD23 - #SILK/POD23-SilkV2.cdr';
+const artCap = (p, l) => `<div class="small muted" style="margin:2px 0 6px">Panel artwork: ${SIM.src(p, l)} (CorelDRAW, live Arial text re-centred on its cells; green and white plates registered)</div>`;
 const CELLX = i => 232.3 + 250*i;
 const GLYPH_STAR = [0,4,21,14,21,4,0];
 function dm(text, x, y, p, on, off){
@@ -511,7 +513,7 @@ function frontA(t, opts){
     <defs><filter id="p23glow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
       <radialGradient id="p23knob" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#3b3e42"/><stop offset="1" stop-color="#0d0e0f"/></radialGradient></defs>
     <rect width="1715" height="322" rx="8" fill="#141517"/>
-    <image href="${ASSET}pod23-a-front-white.png" width="1715" height="322"/>`;
+    <image href="${ASSET}pod23-a-front.svg" width="1715" height="322"/>`;
   for (let i=0;i<6;i++){ const k=i+1, x=CELLX(i), txt = on && r[k]!=null ? r[k] : '    ';
     s += `<g class="p23disp" data-k="${k}"><title>Display ${k} (SLG2016 U${5+k}, ~WR${k}${k===1?': v100 never calls display1 — what shows here is latched by decoder glitches (inferred)':''})</title>
       <rect x="${x-100.3}" y="22" width="200.6" height="81.4" rx="3" fill="#0b0c0c" stroke="#2a2d30" stroke-width="2"/>
@@ -527,7 +529,7 @@ function frontA(t, opts){
   }
   s += `<circle cx="51" cy="161" r="9" fill="#3a3d40"/><circle cx="1664" cy="161" r="9" fill="#3a3d40"/>`;
   if (S && on && S.phase==='loop') s += `<text x="1700" y="16" text-anchor="end" font-size="13" fill="#7d8389">${S.disctl1&1?'lower row (PUSH)':'upper row'}</text>`;
-  s += (opts.hot||'') + `</svg>`;
+  s += (opts.hot||'') + `</svg>` + artCap(ART_V2, 'POD23-SilkV2.cdr, Mar 15 2004');
   return s;
 }
 /* POD23 front (2003): POD23-Silk.cdr. Its middle copy is the white separation (CONTROL 1, CONTROL 2, POD-23 CONTROL PANEL),
@@ -543,9 +545,9 @@ function frontB(){
     <defs><filter id="p23glow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
       <radialGradient id="p23knob" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#3b3e42"/><stop offset="1" stop-color="#0d0e0f"/></radialGradient></defs>
     <rect width="1715" height="322" rx="8" fill="#141517"/>
-    <image href="${ASSET}pod23-front-green.png" width="1715" height="322"/><image href="${ASSET}pod23-front-white.png" width="1715" height="322"/>
+    <image href="${ASSET}pod23-front.svg" width="1715" height="322"/>
     ${frame(213,l1,1)}${frame(871,l2,2)}
-    <circle cx="51" cy="161" r="9" fill="#3a3d40"/><circle cx="1664" cy="161" r="9" fill="#3a3d40"/></svg>`;
+    <circle cx="51" cy="161" r="9" fill="#3a3d40"/><circle cx="1664" cy="161" r="9" fill="#3a3d40"/></svg>${artCap(ART_V1, 'POD23-Silk.cdr, Mar 17 2003')}`;
 }
 /* Rear (both versions): the rear copy of either .cdr (CONTROL, 115 VAC 1/2 A.S.B., DISCONNECT POWER BEFORE SERVICING).
    POD23-M2.dwg names a “DB 9PIN CONNECTOR”; the inlet/fuse and the DB9 are drawn under their labels — INFERRED positions. */
@@ -565,8 +567,8 @@ function rearSVG(t){
       ${[[1449,136],[1489,136],[1469,160]].map(([x,y])=>`<rect x="${x-7}" y="${y-11}" width="14" height="22" fill="#c9cdd2"/>`).join('')}
       <circle cx="1606" cy="146" r="28" fill="#1b1d20" stroke="#3a3d40" stroke-width="3"/><rect x="1596" y="136" width="20" height="20" rx="3" fill="#2b2e31"/>
       <circle cx="1350" cy="146" r="8" fill="${on?'var(--accent)':'#444'}"/></g>
-    <image href="${ASSET}pod23-rear-white.png" width="1715" height="322"/>
-    <circle cx="51" cy="161" r="9" fill="#3a3d40"/><circle cx="1664" cy="161" r="9" fill="#3a3d40"/></svg>`;
+    <image href="${ASSET}pod23-rear.svg" width="1715" height="322"/>
+    <circle cx="51" cy="161" r="9" fill="#3a3d40"/><circle cx="1664" cy="161" r="9" fill="#3a3d40"/></svg>${artCap(ART_V2, 'POD23-SilkV2.cdr, Mar 15 2004 (rear copy; identical in POD23-Silk.cdr)')}`;
 }
 function linkAt_(t){ let on = D.snap ? D.snap.link : D.link; for (const e of D.events) if (e.type==='link' && e.t<=t) on=e.on; return on; }
 function bindPanel(root){
@@ -988,6 +990,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__pod23Active=false;
   m.innerHTML = card('What the POD23 / POD23A firmware is up to — findings', `<ol>
+    <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_V2,'POD23-SilkV2.cdr')} (15 Mar 2004|37, POD23A) and ${SIM.src(ART_V1,'POD23-Silk.cdr')} (17 Mar 2003|36, POD23), as vectors.</b> Neither has a 2014 curve redraw or a photo. V2 draws the six display windows (96 × 39 px at 96 dpi = 25.5 × 10.3 mm) and Ø 16 mm knob holes, now shown as cut-outs with the SLG2016s and encoders sitting in them, plus six 120 × 147 px cell outlines (31.8 × 38.9 mm, one per 1.250 in pitch, matching “5 PITCHES @ 1.250 CENTRES”) left out here as they look like the chroma-filter sections rather than ink (${inf}). V2 has two identical copies of the front and only the green top bar of a third, parked below the sheet; it is used as the POD23A green plate (${inf}). The leftmost cell has a window and a knob hole but no legend, which fits display 1 never being driven. Text is live Arial that libcdr anchors wrongly, so every legend was re-centred on its cell; the rear copies in both files are identical.</li>
     <li><b>The leftmost display is written by accident.</b> v100 comments out <span class="mono">encoder_routine1</span> and never calls <span class="mono">display1</span>, but cell 1 still has an SLG2016 (U6) and a knob (E1) on the board and the silk. The <span class="mono">write2</span> and <span class="mono">write5</span> macros (init.asm) end with RC3/RC2/RC1 = 1/0/1, which the 74HC138 decodes as Y5 = <span class="mono">~WR1</span>. The next bit change pulls ~WR1 high and latches whatever is on PORTD into display 1. In the emulated bus, display 1 ends every pass holding display 5's first three characters and display 6's last one: “ 230” during the banner, “----” with the leveller off, “1:4 ” or “ -6 ” later, “ERR*” with COMM ERR ${inf}.</li>
     <li><b>The serial link is throttled to about 11 frames a second.</b> <span class="mono">timer_uart</span> lets <span class="mono">txuart</span> send one byte every 20 main-loop passes (≈15.8 ms), so a 6- or 7-byte frame takes ≈95 ms on a 9600-baud line that could carry it in 7 ms. Several clicks made while a frame is going out are merged: the next frame carries only the latest value.</li>
     <li><b>The address on the wire is one less than on the display.</b> <span class="mono">address_2</span> = 0…9 for A1…A10 (<span class="mono">address_table</span>). The protocol document says addresses run 1–10 with 129 as an all-call. The all-call value (b'10000001') is the 11th table entry and cannot be reached: <span class="mono">address_mode2</span> wraps at 9.</li>
@@ -1020,7 +1023,7 @@ function viewNotes(m){
     <li>…/POD23 - #SOFTWARE #554265/*.asm, Project 554265 Instructions.doc · …/POD23 - #SOFTWARE #working/POD23Com/Da305rev, POD22</li>
     <li>../XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/Software/554265/pod22v1.asm, uart.asm, init.asm (the POD22 master for #554265)</li>
     <li>…/POD23 PROTOCOLv2.wpd, POD23 PROTOCOL.wpd · …/POD23 - #NAB 2004/nab04 ctl pnl2.net, .bom · …/POD23 - #PCB/POD23iss1.net, .bom</li>
-    <li>…/POD23 - #SILK/POD23-Silk.cdr, POD23-SilkV2.cdr → assets/pod23-*.png · …/POD23 - #MECHANICAL, #Poduction Assembly (.dwg text)</li></ul>`);
+    <li>${SIM.src(ART_V1,'POD23-Silk.cdr')}, ${SIM.src(ART_V2,'POD23-SilkV2.cdr')} → assets/pod23-front.svg, pod23-a-front.svg, pod23-rear.svg · …/POD23 - #MECHANICAL, #Poduction Assembly (.dwg text)</li></ul>`);
 }
 
 /* ---------------- register ---------------- */

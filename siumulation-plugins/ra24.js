@@ -280,6 +280,9 @@ function pinRow(x,y,pins,pitch,lab){ let s=''; pins.forEach((p,i)=>{ const xx=x+
 /* ---------- end of kit ---------- */
 const PREFIX='ra24';
 const RW=3420, RH=330;
+/* Artwork 2026|59: assets/ra24-front.svg (two GREEN groups + the WHITE legends) and ra24-rear.svg are vector, straight from
+   RA24/RA24SILK.CDR (Dec 17 1998, text already curves) via Inkscape. The sheet has no panel outline, so each group was registered
+   by cross-correlation on the old PNGs (which were placed on the RAV24 face): offsets agree to 1 px. */
 const FOSC = 4.9152e6, TCY = 4/FOSC;          // inferred from SPBRG = 7, BRGH = 0 and the 9600-baud remote link
 const ROUT = [['re_init',14],['input',46],['debounce',26],['led_ctrl',40],['switch_ctrl',110],['led_output',330],['switch_output',336],['recieve_uart',9],['reset_uart',14],['translate_uart',14],['transmit_uart',9],['delay',256*31]];
 const PASS = ROUT.reduce((a,r)=>a+r[1],0)*TCY;
@@ -318,12 +321,12 @@ const A={
 function frontSVG(){ const on=D.power; let over='';
   OUTX.forEach((x,o)=>over+=pbtn(x,BY,BS,on&&D.out===o?1:0,'#ff5a3c','ot" data-o="'+o,`SWR OUT ${o+1} — click`));
   SRCX.forEach((x,i)=>over+=pbtn(x,BY,BS,on&&D.xpt[D.out]===i+1?1:0,'#43e06a','sr" data-s="'+(i+1),`SOURCE ${i+1} — click`));
-  return layered({w:RW,h:RH,bg:'#111214',layers:[PREFIX+'-front-green.png',PREFIX+'-front-white.png'],over,label:'RA24 front panel (RA24SILK.CDR)'}); }
+  return layered({w:RW,h:RH,bg:'#111214',layers:[PREFIX+'-front.svg'],over,label:'RA24 front panel (RA24SILK.CDR)'}); }
 function rearSVG(){ const ph=(x,y,hot,title)=>`<g><title>${title}</title><rect x="${x-46}" y="${y-24}" width="92" height="48" rx="3" fill="#26a356" stroke="#0e5d2b"/>${[-28,0,28].map(d=>`<rect x="${x+d-8}" y="${y-12}" width="16" height="24" fill="#0e4d25"/>`).join('')}${hot?`<rect x="${x-44}" y="${y-22}" width="88" height="14" fill="#2b5f9e" opacity=".85"/>`:''}</g>`;
   let over=''; for(let k=1;k<=12;k++){ const x=1830+(k-1)*106.5; over+=ph(x,95,D.xpt.includes(k),`AUDIO INPUT ${k} LEFT (+ − G)`)+ph(x,225,D.xpt.includes(k),`AUDIO INPUT ${k} RIGHT`); }
   [0,1].forEach(o=>{ const x=3230+o*108; over+=ph(x,95,true,`AUDIO OUTPUT ${o+1} LEFT ← input ${D.xpt[o]}`)+ph(x,225,true,`AUDIO OUTPUT ${o+1} RIGHT`); });
   over+=iec(100,30,236,150)+`<rect x="118" y="196" width="100" height="62" rx="10" fill="#9a9da1" stroke="#555"/><rect x="132" y="210" width="72" height="34" rx="6" fill="#111"/>`;
-  return layered({w:RW,h:RH,bg:'#111214',layers:[PREFIX+'-rear-white.png'],over,label:'RA24 rear panel (RA24SILK.CDR)'}); }
+  return layered({w:RW,h:RH,bg:'#111214',layers:[PREFIX+'-rear.svg'],over,label:'RA24 rear panel (RA24SILK.CDR)'}); }
 function bindPanel(r){ r.querySelectorAll('.ot').forEach(g=>g.onclick=()=>A.out(+g.dataset.o)); r.querySelectorAll('.sr').forEach(g=>g.onclick=()=>A.src(+g.dataset.s)); }
 function consoleHTML(){ return `<div class="small" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:6px"><label>Remote link (9600 baud, hex) <input id="cmd" value="CF 85" style="width:110px" class="mono"></label><button id="snd">Send</button>
   ${['CF 00','CF 83','CF CC','CF 0D','CF 85 CF 46'].map(c=>`<button class="qk" data-c="${c}">${c}</button>`).join('')}</div>
@@ -340,7 +343,7 @@ function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2'), e=D.ev;
   ]; }
 function xptTable(){ return tbl(['Switcher','Source','Tallies shown'],[0,1].map(o=>[`OUT ${o+1}`,`input ${D.xpt[o]}`,o===D.out?'yes':'—']),true); }
 function viewSim(m){ window.__ra24Active=true;
-  m.innerHTML=`${card('Front panel — RA24SILK.CDR on the RAV24 face; click SWR OUT and SOURCE SELECT',`<div id="fp"></div><div class="small muted">Keys: [ ] = SWR OUT 1/2, 1…9 0 - = = sources 1…12.</div>`)}${card('Rear panel',`<div id="rp"></div>`)}
+  m.innerHTML=`${card('Front panel — RA24SILK.CDR on the RAV24 face; click SWR OUT and SOURCE SELECT',`<div id="fp"></div><div class="small muted">Keys: [ ] = SWR OUT 1/2, 1…9 0 - = = sources 1…12.</div>`)}${card('Rear panel',`<div id="rp"></div><div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src('#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/RA24/RA24SILK.CDR','RA24/RA24SILK.CDR')} (Dec 17 1998), green and white plates, placed on the RAV24 face.</div>`)}
    <div class="grid2">${card('Firmware path of the last action (ra24v101.asm)',`<div id="trace" class="log"></div>`)}<div>${card('Crosspoints',`<div id="xp"></div>`)}${card('Remote panel link (0xCF frames)',`<div id="con"></div>`)}</div></div>
    ${card('Timeline — zoom to 100 ms after a press',`<canvas id="tl"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}`;
   const draw=()=>{ m.querySelector('#fp').innerHTML=frontSVG(); bindPanel(m.querySelector('#fp')); m.querySelector('#rp').innerHTML=rearSVG(); m.querySelector('#trace').innerHTML=traceHTML(D,'Press a button.'); m.querySelector('#xp').innerHTML=xptTable();
@@ -394,6 +397,7 @@ function viewNotes(m){ window.__ra24Active=false;
    <li><b>Clock vs comment.</b> “DELAY=:: DELAY1(255*1/1.53MHZ*2 * DELAY2)” implies a 1.53 MHz instruction rate, but SPBRG = 7 / BRGH = 0 gives 9600 baud only at Fosc = 4.9152 MHz (${inf}).</li>
    <li><b>Labels by case.</b> MAIN calls <span class="mono">delay</span> and loops to <span class="mono">main</span>; the labels are DELAY and MAIN — assembled case-insensitive.</li>
    <li><b>The August 2000 fix.</b> The header: “The Revision of this program is the addition of the BSF PORTC,5 in the system initialization to allow for serial communication” — the same one-line fix as RAVV101 (June 23 2000).</li>
+   <li><b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src('#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/RA24/RA24SILK.CDR','RA24/RA24SILK.CDR')} (Dec 17 1998).</b> The sheet holds four separations without a panel outline or drill marks beyond the crosshairs: the green logo/rule row (the WBS mark, RA24, BY WARD-BECK SYSTEMS, the SWR OUT and SOURCE SELECT brackets), the green bottom bars, the white legends (SWR OUT 1–2, SOURCE SELECT 1–12, SELECT SERIES) and the rear white legends. The button crosshairs fall on the SWR OUT and SOURCE SELECT positions used here. The rear legends number the inputs 1–12 with “+ - G” under each, and outputs 1–2, but draw no connector outlines, so the Phoenix blocks are placed from the legends (${inf}).</li>
    <li><b>Mechanical folder text only.</b> The five 2012 DWGs carry text from other drawings (ABB-M1, POD10-REAR, AMS8-M1, “POWDER COAT BEIGE”) — the RA24 sheets were made from older title blocks.</li></ol>`)
   +card('Assumptions in this simulation',`<ul class="small"><li>Fosc 4.9152 MHz and per-routine cycle counts estimated from the listing (${inf}).</li><li>Panel placement: the RA24 CorelDRAW silk aligned to the RAV24 2015 PDF face (same 17.1 × 1.65 in chassis).</li></ul>`)
   +card('Sources',`<ul class="small mono"><li>XXX - RA24 - #Mechanical #Obsolete/RA24-FRONT ISS 2 (PANEL).dwg, RA24-REAR ISS 2 (PANEL).dwg, RA24-REAR ISS 2 ( WHEN MODIFING A RAV-24).dwg (+ .md text)</li><li>XXX - AVS - #OBSOLETE #Archive/RA24/V101/ra24v101.asm, remv103.asm · RA24SILK.CDR (→ assets/ra24-front-white.png, ra24-front-green.png, ra24-rear-white.png)</li></ul>`); }

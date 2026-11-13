@@ -9,7 +9,7 @@
    - D8207 - #PCB/D8207.PCB (Tango-PCB ASCII: every component, pad, track and silk text), D8207.DSN (OrCAD), D8207.EXP (part export)
    - D8207 - D8207_D8207V SAMPLE RATE CONVERTER FUNCTIONAL DESCRIPTION.WPD (2000), D8207MAN.WPD (1999), D8207.wpd (2000), d8207.pdf (2002)
    - FIG1/FIG2.cdr, D8207TR1-3.cdr, D8207-75/-110(-015).cdr (terminal options; converted with Inkscape)
-   - ../8200 Series Rear Module options graphical Guides…/D8207 - rear module options.pdf (2012) → assets/d8207-rear-*.png
+   - ../8200 Series Rear Module options graphical Guides…/D8207 - rear module options.cdr/.pdf (2012) → assets/d8207-rear-*.svg (vector, Artwork 2026|59)
    - ../D8200 - #Engineering #MF82/d8200 - #d820x/ (jumpers.txt, pic/d820x.h: the 2000 D820x successor build)
    Board image assets/d8207-pcb.png is rendered from D8207.PCB (copper, pads, silk) at 0.16 px/mil.
    Anything not in those files is marked "inferred" on screen.
@@ -380,10 +380,11 @@ function frontSVG(t){
    <text x="4" y="296" font-size="9" fill="var(--ink2)">LED and jack heights from D8207.PCB (y = 4850/4750/4650, 3100 mil).</text></svg>`;
   return s;
 }
+const REAR_SRC = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8207 - rear module options';
 const REARS = {
-  bnc1:{img:'d8207-rear-bnc1.png', w:486, h:540, title:'BNC1 (75 Ω)', pts:{ref:[220,66],o1:[284,133],o2:[220,201],o3:[284,268],o4:[219,335],main:[284,405],video:[219,473]}, r:28},
-  bnc3:{img:'d8207-rear-bnc3.png', w:483, h:540, title:'BNC3 (75 Ω, MF8210 only)', pts:{ref:[216,62],loop:[308,62],o1:[216,164],o2:[308,164],o3:[216,266],o4:[308,266],main:[216,370],video:[308,370]}, r:28},
-  tb8205p:{img:'d8207-rear-tb8205p.png', w:486, h:600, title:'TB8205P (110 Ω pluggable screw)', pts:{ref:[160,142],loop:[247,142],o1:[160,257],o2:[160,305],o3:[160,353],o4:[160,401],main:[247,257]}, r:20, box:true},
+  bnc1:{img:'d8207-rear-bnc1.svg', w:486, h:540, title:'BNC1 (75 Ω)', pts:{ref:[220,66],o1:[284,133],o2:[220,201],o3:[284,268],o4:[219,335],main:[284,405],video:[219,473]}, r:28},
+  bnc3:{img:'d8207-rear-bnc3.svg', w:483, h:540, title:'BNC3 (75 Ω, MF8210 only)', pts:{ref:[216,62],loop:[308,62],o1:[216,164],o2:[308,164],o3:[216,266],o4:[308,266],main:[216,370],video:[308,370]}, r:28},
+  tb8205p:{img:'d8207-rear-tb8205p.svg', w:486, h:600, title:'TB8205P (110 Ω pluggable screw)', pts:{ref:[160,142],loop:[247,142],o1:[160,257],o2:[160,305],o3:[160,353],o4:[160,401],main:[247,257]}, r:20, box:true},
 };
 function rearSVG(t){
   const RQ=REARS[D.rear]||REARS.bnc1, o=outAt(t), outOn=o.on&&!!o.fs;
@@ -397,7 +398,7 @@ function rearSVG(t){
     s+= RQ.box? `<g class="${clickable?'d7rp':''}" data-k="${k}" style="cursor:${clickable?'pointer':'default'}"><title>${tip}</title><rect x="${x-RQ.r}" y="${y-13}" width="${RQ.r*2}" height="${isOut?48:26}" rx="4" fill="${on?col:'transparent'}" opacity="${on?.35:1}" stroke="${on?col:'#999'}" stroke-dasharray="${clickable?'':'3 2'}"/></g>`
       : `<g class="${clickable?'d7rp':''}" data-k="${k}" style="cursor:${clickable?'pointer':'default'}"><title>${tip}</title><circle cx="${x}" cy="${y}" r="${RQ.r}" fill="transparent" stroke="${on?col:'transparent'}" stroke-width="5" ${on?'filter="url(#d7glow)"':''}/>${on&&!isOut&&clickable?`<rect x="${x-9}" y="${y-RQ.r-22}" width="18" height="22" fill="#333"/>`:''}<circle cx="${x}" cy="${y}" r="5" fill="${on?col:'#777'}"/></g>`;
   }
-  return s+`<text x="4" y="${RQ.h+18}" font-size="15" fill="var(--ink2)">${RQ.title} — art: rear module options.pdf (2012)</text></svg>`;
+  return s+`<text x="4" y="${RQ.h+18}" font-size="15" fill="var(--ink2)">${RQ.title}</text></svg><div class="small muted">CorelDRAW art (vector): ${SIM.src(REAR_SRC+'.cdr','D8207 - rear module options.cdr')} (2012|45), as CorelDRAW printed it to ${SIM.src(REAR_SRC+'.pdf','.pdf')}</div>`;
 }
 const JPOS = { ra3:[4300,3800], ra2:[4300,3900], ra1:[4300,4000], ra0:[4300,4100], ra4:[3350,4875] };
 const COMPS = [
@@ -743,6 +744,7 @@ function viewSoft(m){
 
 /* ---------- Findings ---------- */
 const FINDINGS = [
+  ['Artwork '+SIM.year(2026)+': rear modules now from the CorelDRAW guide', 'BNC1, BNC3 and TB8205P are now vector art from '+SIM.src(REAR_SRC+'.cdr','D8207 - rear module options.cdr')+' (2012|45; its Corel PDF export supplies the text, which libcdr renders as giant glyphs). The guide shows only BNC1/BNC3 for the D8207/75 and TB8205P, TB8205P/75 for the D8207/110; the older '+SIM.src('#MF8200 #SERIES/D8207 - #Engineering #MF82/D8207TR3.cdr','D8207TR3.cdr')+' (1999|32) and '+SIM.src('#MF8200 #SERIES/D8207 - #Engineering #MF82/D8207TR1.cdr','D8207TR1.cdr')+' also list TB8205 and TB8205/75 screw, ST8200 solder and QC8200 QCP panels that the 2012 guide dropped. BNC3 is marked “MF8210 only” and its rows 7/8 are NOT CONNECTED; the TB8205P “AUDIO IN” side has six NOT CONNECTED terminals.'],
   ['The 48K\\44K1 jumper has opposite meanings in one file', 'd8207_v1.asm: init and test_jmp_state call <span class="mono">set_ML6431_44</span> when <span class="mono">JMP_48_44</span> = 1 (comment “0=48k , 1=44k”), but <span class="mono">MN_prof_mode</span> does <span class="mono">btfss MODE,MODE_48_44 → MN_set_44k</span>, i.e. 1 = 48k (and the EQU comment says “1=48k\\0=44k1”). With a video reference the converter runs at one rate and stamps the other rate into the output channel status. Try it in the tutorial (lesson 6).'],
   ['V1.01 lost the C-buffer write in set_main8420_bypass', 'V1.00 and the V1.01 backup D8207_V1.$$$ end <span class="mono">set_main8420_bypass</span> with <span class="mono">CALL WRBYTE_M</span> for reg 0x12 = 0; the released d8207_v1.asm loads DATAO but never calls it. Reg 0x12 stays at 0x04 (E→F inhibited) from the last handshake, so after the reference is lost the bypassed output keeps the frozen, rewritten channel status instead of the input\'s '+inf+' (CS8420 behaviour from the datasheet).'],
   ['V-bit refresh reads the wrong register on TXOFF passes', 'In V1.01 <span class="mono">shut_off_AES_output</span> / <span class="mono">shut_on_AES_output</span> run MDFBYTE_M, which overwrites DATAI with reg 3. The following <span class="mono">btfss DATAI,3</span> (“refresh Validity bit”) then tests reg 3 bit 3 (TXD0) instead of the receiver V bit. One pass per transition; shown in the I2C trace as “DATAI holds reg 3”.'],
@@ -768,7 +770,7 @@ function viewNotes(m){ m.innerHTML = card('What the D8207 and its firmware are u
   + card('Sources and how they were used', `<table class="kv small"><tr><th>File</th><th>Used for</th></tr>
   <tr><td class="mono">PRG_V101/d8207_v1.asm</td><td>the executable model (every routine, register value and branch)</td></tr><tr><td class="mono">PRG_V100/d8207.asm, *.$$$, D8207.BKX, *.PJT, *.ERR</td><td>V1.00 mode, diffs, build settings</td></tr>
   <tr><td class="mono">D8207 - #PCB/D8207.PCB</td><td>board image (assets/d8207-pcb.png), LED/jumper/jack positions, assembly notes, silk</td></tr><tr><td class="mono">D8207.EXP, D8207.DSN</td><td>part references and values for the redrawn schematics</td></tr>
-  <tr><td class="mono">D8207MAN.WPD, D8207.wpd, functional description, d8207.pdf</td><td>tutorial, specs, LED and jumper descriptions</td></tr><tr><td class="mono">rear module options.pdf (2012)</td><td>assets/d8207-rear-bnc1/bnc3/tb8205p.png</td></tr>
+  <tr><td class="mono">D8207MAN.WPD, D8207.wpd, functional description, d8207.pdf</td><td>tutorial, specs, LED and jumper descriptions</td></tr><tr><td>${SIM.src(REAR_SRC+'.cdr','D8207 - rear module options.cdr')} / ${SIM.src(REAR_SRC+'.pdf','.pdf')} (2012)</td><td>assets/d8207-rear-bnc1/bnc3/tb8205p.svg — vector panels cut from CorelDRAW's own PDF of the drawing (libcdr garbles the TB8205P text, so the Corel print is used for the curves)</td></tr>
   <tr><td class="mono">FIG1/FIG2.cdr, D8207TR1–3.cdr, D8207-75/110.cdr</td><td>converted with Inkscape; libcdr scrambles the text, so only used to confirm the terminal options (ST8200, QC8200, TB8205)</td></tr>
   <tr><td class="mono">d8200 - #d820x/jumpers.txt, pic/d820x.h</td><td>successor comparison</td></tr></table>`); }
 

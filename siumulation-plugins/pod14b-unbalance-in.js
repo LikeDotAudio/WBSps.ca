@@ -33,11 +33,18 @@ function panelSVG(prefix, side, inner, label){
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    ${ART.cdr ? `<image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>` : layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
 }
+/* Panel artwork 2026|59: CorelDRAW sheet converted with Inkscape (libcdr) → assets/pod14b-unbalance-in-front.svg, -rear.svg
+   (ink plates coloured green rgb(52,168,83) / white rgb(240,240,236), cut-outs as dark holes, drill crosshairs faint;
+   registered to the older PDF PNG silks to ±1 px so every control keeps its place). The PNGs stay on a toggle. */
+const ART = {cdr:true};
+const ART_CDR = '#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).cdr', ART_PDF = '#POD #SERIES/POD14B - UNBALANCE IN #Master/POD14B - #ARTWORK #DA #2016/POD14B-FRONT&REAR-SILK (CURVE).pdf';
+function artNote(){ return `<div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src(ART_CDR, ART_CDR.split('/').pop())} (CorelDRAW, default) · <label><input type="checkbox" class="pod14b-unbalance-in-art" ${ART.cdr?'':'checked'}> show the older PNG silks cut from ${SIM.src(ART_PDF, 'the PDF')}</label></div>`; }
+document.addEventListener('change', e=>{ if (e.target && e.target.classList && e.target.classList.contains('pod14b-unbalance-in-art')){ ART.cdr = !e.target.checked; SIM.refresh(); } });
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
   return `<g class="pwr" style="cursor:pointer"><title>Power rocker: click to switch ${on?'off':'on'}</title><rect x="${x}" y="${y}" width="112" height="146" rx="10" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/>
@@ -385,7 +392,7 @@ function nowTable(t){ const L=leds(t); return `<table class="kv"><tr><th>sample_
   <tr><th>Main-loop pass</th><td class="mono">#${passAt(t).toLocaleString()} · ${STEPS[stepAt(t)][0]}</td></tr>
   ${[0,1].map(cv=>[0,1].map(ch=>`<tr><th>OUTPUT${cv+1} ${ch?'R':'L'}</th><td class="mono">${fdb(inLevels(cv,ch).dbfs)} dBFS${inLevels(cv,ch).dbfs>0?' <b style="color:var(--bad)">CLIP</b>':''}</td></tr>`).join('')).join('')}</table>`; }
 function viewSim(m){ window.__pod14bActive=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel',`<div id="rp"></div>`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel',`<div id="rp"></div>${artNote()}`)}</div>
    <div>${card('What the software did (last action)',`<div id="trace" class="log"></div>`)}${card('State at the playhead',`<div id="now"></div>`)}</div></div>
    ${card('Timeline — one second, zoomable. Press SAMPLE RATE, then scrub: the ADCs are held in reset twice for 1 s each. Zoom to 1 ms to see single loop passes.',`<canvas id="tl"></canvas>`)}
    <div class="grid2">${card('Scope: OUTPUT1 at the playhead (one AES3 frame)',`<canvas id="sc"></canvas><div id="bits" class="small mono"></div>`)}${card('Levels — INPUT1 L (RCA) and INPUT2 L (Phoenix)',`<div id="lv"></div>`)}</div>${card('Action log',`<div id="log" class="log"></div>`)}`;
@@ -459,6 +466,7 @@ function viewSoft(m){ window.__pod14bActive=true;
   SIM.on('time',draw); }
 function viewNotes(m){ window.__pod14bActive=false;
   m.innerHTML=card('What POD14B (and its POD14A firmware) is up to — findings',`<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_CDR, ART_CDR.split('/').pop())}</b> (file 2016-06-16, sheet dated NOV.06/14; it is newer than the PDF (2015-12-03) the PNG silks came from, but its ink is identical). The ink plates are drawn as vectors; the older PNG silks cut from ${SIM.src(ART_PDF, 'the PDF')} are on the toggle under the rear panel. The cut-out layer shows four small rear holes the legend does not name (beside INPUT2 and between REF INPUT, OUTPUT1 and OUTPUT2); nothing in this model uses them (${inf}: connector or standoff screws). OUTPUT1 is cut as a plain round hole while REF INPUT and OUTPUT2 carry XLR crosshairs.</li>
    <li><b>Every rate change mutes the outputs for about 2.1 s.</b> With the internal reference, a press sets <span class="mono">reset_adc = YES</span>. The loop then holds the AK5394s in reset for <span class="mono">ADC_RESET_CONSTANT</span> = 5714 passes (“5714 cycles = 1 sec”), releases them during a blocking 100 ms wait, and resets them again (<span class="mono">RESET_MAX = 2</span>).</li>
    <li><b>The rate LEDs can be wrong.</b> <span class="mono">REFRESH_LEDS</span> lights the LED for <span class="mono">sample_rate</span>, the internal setting, even when an external reference sets a different rate. Lock to a 48 kHz reference with 96 selected and the 96 LED stays on.</li>
    <li><b>No-lock chirp is computed but never shown.</b> <span class="mono">NO_LOCK_CHIRP()</span> toggles <span class="mono">chirp_on</span> (1000/7000 passes), but nothing reads it. Unlike POD33, no LED flashes when the reference is missing.</li>

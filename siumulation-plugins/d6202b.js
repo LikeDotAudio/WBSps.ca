@@ -62,6 +62,7 @@ const K = (()=>{
      through the front of the frame sit on its right, and the ejector carries the product name.
      Scale: 3.025" card height (D6201A/D6204A manual specifications) = 500 units. */
   function edgeSVG(o){
+    if (o.art) return artEdge(o);
     const H=600, ex=150;
     let s=`<svg class="og62-edge" viewBox="0 0 420 ${H}" style="width:100%;max-width:${o.maxw||300}px;display:block;margin:auto" role="img" aria-label="${o.label} card edge">
       <defs><filter id="og62glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
@@ -98,6 +99,7 @@ const K = (()=>{
   /* Rear module, drawn like the openGear Rear Module Guides: positions 1–10 in a 2 × 5 grid,
      odd numbers on the left. cells: {n, label, kind:'bnc'|'tb'|'nc', id, conn, live} */
   function rearSVG(o){
+    if (o.art) return artRear(o);
     const cols=o.cols||2, rows=o.rows||5, cw=150, rh=86, W=cols*cw+40, H=rows*rh+90;
     let s=`<svg class="og62-rear" viewBox="0 0 ${W} ${H}" style="width:100%;max-width:${o.maxw||(cols>2?520:280)}px;display:block;margin:auto" role="img" aria-label="${o.name} rear module">
       <rect x="0" y="0" width="${W}" height="${H}" rx="6" fill="#c8cbcd" stroke="#8b9093"/>
@@ -315,6 +317,48 @@ const K = (()=>{
       s+=`<text x="6" y="${y+16}" font-size="11.5" fill="var(--ink)">${svgT(st.name)}</text><text x="${x0-8}" y="${y+16}" font-size="11" text-anchor="end" fill="var(--ink2)" font-family="var(--mono)">${st.unitTxt|| (v==null?'—':v.toFixed(1)+' '+(o.unit||'dBu'))}</text>
         ${v==null?'':`<rect x="${X(lo)}" y="${y+5}" width="${Math.max(1,X(v)-X(lo))}" height="16" rx="3" fill="${bad?'var(--bad)':st.col||'var(--accent)'}" opacity=".8"/>`}
         ${st.note?`<text x="${X(hi)+6}" y="${y+16}" font-size="10" fill="var(--ink2)">${svgT(st.note)}</text>`:''}`; });
+    return s+'</svg>';
+  }
+  /* CorelDRAW artwork mode (artwork pass 2026|59): o.art = {href, vb:[x,y,w,h] in the .cdr's own pt units,
+     led:[[x,y,w,h]…] lens rects top→bottom, sw:[[x,y,w,h]…] switch bodies, pos:{n:[cx,cy]} rear positions 1–10,
+     s: scale vs the 2012 guide (BNC Ø 11.7 pt), panel:[x,y,w,h]}. The artwork is assets/<id>-*.svg, converted
+     from the archive .cdr with Inkscape; controls are drawn on the artwork's own coordinates. */
+  const ARTP='siumulation-plugins/assets/';
+  function artEdge(o){
+    const A=o.art, [vx,vy,vw,vh]=A.vb, H=vh+(o.note?12:2);
+    let s=`<svg class="og62-edge" viewBox="${vx} ${vy} ${vw} ${H}" style="width:100%;max-width:${o.maxw||340}px;display:block;margin:auto;border-radius:8px" role="img" aria-label="${o.label} card edge">
+      <defs><filter id="og62glowA" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+      <rect x="${vx}" y="${vy}" width="${vw}" height="${H}" fill="#f4f4ef"/>
+      <image href="${ARTP+A.href}" x="${vx}" y="${vy}" width="${vw}" height="${vh}"/>`;
+    (o.sws||[]).forEach((w,i)=>{ const r=A.sw[w.art!=null?w.art:i]; if(!r) return;
+      s+=`<g class="og62-hot" data-sw="${w.id}"><title>${w.name}: ${w.title||'click to operate'}</title>
+        <rect class="hl" x="${r[0]-1}" y="${r[1]-1}" width="${r[2]+8}" height="${r[3]+2}" rx="1.5" fill="${w.down?'#000':'#fff'}" fill-opacity="${w.down?.3:.01}" stroke="#2b5f9e" stroke-width=".7" stroke-dasharray="2 1.2"/>
+        ${w.pos!=null?`<text x="${r[0]+r[2]/2}" y="${r[1]+r[3]/2+2.5}" font-size="7" text-anchor="middle" fill="#fff" font-family="var(--mono)">${w.pos}</text>`:''}
+        ${w.state?`<text x="${r[0]+r[2]+16}" y="${r[1]+r[3]+3}" font-size="7.5" fill="#1d6b2c" font-weight="700" font-family="var(--mono)">${w.state}</text>`:''}</g>`; });
+    (o.leds||[]).forEach((l,i)=>{ const r=A.led[l.art!=null?l.art:i]; if(!r) return; const on=!!l.on, col=LEDC[l.c]||l.c;
+      s+=`<g ${l.id?`class="og62-hot" data-led="${l.id}"`:''}><title>${l.name}: ${l.title||''} (${on?'lit':'off'})</title>
+        <rect class="hl" x="${r[0]}" y="${r[1]}" width="${r[2]}" height="${r[3]}" rx="1.2" fill="${on?col:'#5a5f5a'}" fill-opacity="${on?1:.25}" stroke="#1b1918" stroke-width=".3" ${on?'filter="url(#og62glowA)"':''}/></g>`; });
+    if (o.note) s+=`<text x="${vx+4}" y="${vy+vh+8}" font-size="6.5" fill="#55595c">${o.note}</text>`;
+    return s+'</svg>';
+  }
+  function artRear(o){
+    const A=o.art, [vx,vy,vw,vh]=A.vb, k=A.s||1, P=A.panel, ex=(o.sub?10:0)+(o.id?9:0), H=vh+ex+2;
+    let s=`<svg class="og62-rear" viewBox="${vx} ${vy} ${vw} ${H}" style="width:100%;max-width:${o.maxw||360}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${o.name} rear module">
+      <rect x="${vx}" y="${vy}" width="${vw}" height="${H}" fill="#f4f4ef"/>
+      ${P?`<rect x="${P[0]}" y="${P[1]}" width="${P[2]}" height="${P[3]}" fill="#c8cbcd"/>`:''}
+      <image href="${ARTP+A.href}" x="${vx}" y="${vy}" width="${vw}" height="${vh}"/>`;
+    (o.cells||[]).forEach(c=>{ const p=A.pos[c.n]; if(!p) return; const [cx,cy]=p, left=c.n%2===1, kind=c.kind||'bnc';
+      let g='';
+      if (kind==='tb'){ g=`<rect class="hl" x="${cx-4.2*k}" y="${cy-7.6*k}" width="${8.4*k}" height="${15.2*k}" rx="${k}" fill="#fff" fill-opacity=".01" stroke="#2b5f9e" stroke-width="${.5*k}" stroke-dasharray="${1.5*k} ${k}"/>`;
+        if (c.conn) g+=[-4.6,0,4.6].map(d=>`<line x1="${cx+(left?-3:3)*k}" y1="${cy+d*k}" x2="${cx+(left?-11:11)*k}" y2="${cy+d*k}" stroke="#2b5f9e" stroke-width="${1.6*k}" stroke-linecap="round"/>`).join(''); }
+      else if (kind==='nc'){ g=`<circle cx="${cx}" cy="${cy}" r="${5.9*k}" fill="#fff" fill-opacity=".01"/>`; }
+      else { g=`<circle class="hl" cx="${cx}" cy="${cy}" r="${6.2*k}" fill="#fff" fill-opacity=".01" stroke="#2b5f9e" stroke-width="${.5*k}" stroke-dasharray="${1.5*k} ${k}"/>`;
+        if (c.conn) g+=`<circle cx="${cx}" cy="${cy}" r="${4.6*k}" fill="#3a74b8" opacity=".85"/><circle cx="${cx}" cy="${cy}" r="${1.4*k}" fill="#cfe0f5"/>`; }
+      const live = c.live===undefined? '' : `<circle cx="${cx+(left?-7.4:7.4)*k}" cy="${cy+6*k}" r="${1.9*k}" stroke="#1b1918" stroke-width="${.3*k}" fill="${c.live===true?'#2f8f46':c.live==='warn'?'#d9a21b':c.live==='err'?'#c0392b':'#7d8286'}"/>`;
+      s+=`<g ${c.id?`class="og62-hot" data-jack="${c.id}"`:''}><title>${c.n}: ${c.label}${c.title?' — '+c.title:''}${c.id?(c.conn?' (click to unplug)':' (click to plug in)'):''}</title>${g}${live}</g>`;
+    });
+    let y=vy+vh+8; if (o.sub){ s+=`<text x="${vx+vw/2}" y="${y}" text-anchor="middle" font-size="6.5" fill="#3d4245">${o.sub}</text>`; y+=9; }
+    if (o.id) s+=`<text x="${vx+3}" y="${y}" font-size="5.2" fill="#55595c">${o.id}</text>`;
     return s+'</svg>';
   }
   return {svgT, inf, card, edgeSVG, rearSVG, frameSVG, dashHTML, bind, actor, traceHTML, logHTML, canFrames, canLane, tickLane, boolLane, waveLane, drawAES, aesSub, biphase, blockView, chip, schemView, tutorialView, levelSVG, CAN_BIT, TICK, FRAME_BITS, LEDC};
@@ -634,7 +678,7 @@ function edgeSVG(t){
     {name:'Lock 2',c:'g',on:L.l2,y:200},{name:'No Lock 2',c:'r',on:L.n2,y:240},{name:'EQ 2',c:'y',on:L.e2,y:280},
     {name:'COM Activity',c:'g',on:L.com,y:350,title:'COM_ACTIVITY_LED_ON in CAN_TX_TIMER'},{name:'Error',c:'r',on:L.err,y:390,title:'never driven: every COM_ERROR_LED_ON is commented out'}];
   const sws=[{id:'eq1',name:'EQ1 Switch',y:80,state:D.eq1?'EQ IN':'EQ OUT',down:D.pressSw===1&&D.pressAt!=null&&SIM.t-D.pressAt>=0&&SIM.t-D.pressAt<0.05},{id:'eq2',name:'EQ2 Switch',y:220,state:D.eq2?'EQ IN':'EQ OUT',down:D.pressSw===2&&D.pressAt!=null&&SIM.t-D.pressAt>=0&&SIM.t-D.pressAt<0.05}];
-  return K.edgeSVG({label:PID, leds:ls, sws, note:'Layout from D6202A-card-edge.cdr (it shows the dual card)'});
+  return K.edgeSVG({art:ART.edge, label:PID, leds:ls, sws, note:'Artwork: D6202A-card-edge.cdr (dual card)'});
 }
 /* Rear module T6203 (labels from D6202B-T6203.cdr; wiring from T6203-iss2.net / T6203.net as used by t6203.js) */
 function rearCells(){
@@ -650,7 +694,14 @@ function rearCells(){
   c.push({n:10,label:'BNC10 (IN2 wired here)',kind:'tb',id:'in2',conn:D.in2.conn,live:D.in2.conn?'err':undefined});
   return c;
 }
-function rearSVG(){ return K.rearSVG({name:'T6203', sub:D.rear==='iss2'?'ISS2/ISS3 · DFR-8310 single card':'ISS1 wiring (pinout mismatch)', cells:rearCells(), id:'AN_BMID 3K57 · AN_BMID2 9K76 (both issues)'}); }
+/* CorelDRAW artwork (artwork pass 2026|59): card edge and rear modules converted from the archive .cdr files
+   to assets/d6202b-*.svg; LED, switch and connector positions are the artwork's own coordinates (pt). */
+const ART={edge:{"vb":[63,129,225,311],"led":[[179.7,135.58,5.74,12.58],[179.7,156.74,5.74,12.58],[179.81,179.93,5.74,12.58],[179.7,207.85,5.74,12.58],[179.7,229.0,5.74,12.58],[179.81,252.19,5.74,12.58],[179.7,296.04,5.74,12.58],[179.81,319.23,5.74,12.58]],"sw":[[179.64,138.61,15.87,27.94],[179.64,210.87,15.87,27.94]],"href":"d6202b-edge.svg"},
+ rear:{"iss1":{"vb":[205,250,187,324],"pos":{"1":[274.78,311.0],"2":[324.53,311.0],"3":[274.78,348.0],"4":[324.53,348.0],"5":[274.78,385.0],"6":[324.53,385.0],"7":[274.78,421.0],"8":[324.53,421.0],"9":[274.78,458.0],"10":[324.53,458.0]},"s":2.41,"panel":[250.1,273.7,95.4,223.2],"href":"d6202b-rear-t6203.svg"},
+  "iss2":{"vb":[205,250,187,324],"pos":{"1":[274.78,311.0],"2":[324.53,311.0],"3":[274.78,348.0],"4":[324.53,348.0],"5":[274.78,385.0],"6":[324.53,385.0],"7":[274.78,421.0],"8":[324.53,421.0],"9":[274.78,458.0],"10":[324.53,458.0]},"s":2.41,"panel":[250.1,273.7,95.4,223.2],"href":"d6202b-rear-t6203.svg"}},
+ edgeCite:()=>'Artwork: '+SIM.src('#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-card-edge.cdr','D6202A-card-edge.cdr (2008-05-08; no D6202B card-edge file exists)'),
+ rearCite:()=>'Artwork: '+SIM.src('#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202B-T6203.cdr','D6202B-T6203.cdr (2008-10-08)')};
+function rearSVG(){ return K.rearSVG({art:ART.rear[D.rear], name:'T6203', sub:D.rear==='iss2'?'ISS2/ISS3 · DFR-8310 single card':'ISS1 wiring (pinout mismatch)', cells:rearCells(), id:'AN_BMID 3K57 · AN_BMID2 9K76 (both issues)'}); }
 function dipSVG(){
   const lab=['Mode bit (+2)','Mode bit (+1)','Tone 1','Tone 2','not read','not read','DIP / EEPROM at boot','DashBoard enable'];
   let s=`<svg viewBox="0 0 520 215" style="width:100%;max-width:520px"><rect x="10" y="10" width="300" height="70" rx="4" fill="#c0392b"/><text x="16" y="24" font-size="10" fill="#fff">ON ▲  SW3 (219-8MS)</text>`;
@@ -758,7 +809,7 @@ function viewSim(m){
       ${card('DashBoard — the operator’s window on the card (redrawn)', `<div id="dash"></div>`)}
       ${card('DIP switch SW3', `<div id="dip"></div>`)}
     </div><div>
-      <div class="grid2" style="grid-template-columns:1fr 1fr">${card('Card edge (front of frame)', `<div id="edge"></div>`)}${card('Rear module T6203', `<div id="rear"></div>`)}</div>
+      <div class="grid2" style="grid-template-columns:1fr 1fr">${card('Card edge (front of frame)', `<div id="edge"></div><div class="small" style="margin-top:4px">${ART.edgeCite()}</div>`)}${card('Rear module T6203', `<div id="rear"></div><div class="small" style="margin-top:4px">${ART.rearCite()}</div>`)}</div>
       ${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}
     </div></div>
@@ -913,6 +964,9 @@ const LESSONS = [
   {title:'Done', body:`<p>You have used every control on the D6202B. The <b>Software</b> tab shows the control word and what V100 changed from the D6201B code; <b>Findings</b> lists the surprises — including the alarm default and the Save/SW7 rule you just met.</p>`, check:()=>true, auto:true},
 ];
 const FINDINGS = [
+  `<b>Artwork 2026|59: card edge and rear module now from the CorelDRAW files.</b> No D6202B card-edge file exists, so the edge is ${SIM.src('#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202A-card-edge.cdr')} (2008-05-08|41), which already shows the dual card (8 LEDs, EQ1 and EQ2). The T6203 is ${SIM.src('#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR/D6202A - #Engineering/Functional/D6202B-T6203.cdr')} (2008-10-08|41): IN 1 / IN 2, OUT1-x / OUT2-x, “DUAL 110Ω AES DA”, DFR-8310. Assets: <span class="mono">assets/d6202b-*.svg</span>. The same drawing is used for ISS1 and ISS2 because it carries no issue mark.`,
+  `<b>The 2012 guide offers different rear modules.</b> ${SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6202B - rear module options.cdr')} (2012-01-16|45) lists the T6303A (single) and T6403A (dual) for the D6202B, not the T6203. Those two are not modelled here (see the D6202A plugin). Its T6403A legend repeats “OUT 3 Card 2” at position 9, where OUT 4 Card 2 is meant.`,
+  `<b>Ω came through as Σ.</b> The CorelDRAW text set the Ω in the “WP Greek Helve” font; libcdr wrote it as U+03A3 (Σ). The asset was corrected to Ω.`,
   `<b>V100 is the D6201B V102 code with a new name.</b> D6202B.c/.h are byte-identical to D6201B.c/.h apart from the file-name comment and <span class="mono">SOFTWARE_VERSION 0</span>; v100w.c, cs84xx.c, ADC.c and altera.c are unchanged (v100w.c still says “PRODUCT: OPEN GEAR (D6201B)”). The “110 Ω” product differs from the 75 Ω D6201B only in hardware. Dashboard.c holds the real changes (Software tab).`,
   `<b>Built inside the D6202A tree, with leftovers.</b> V100W.mak compiles from <span class="mono">H:\\OPENGE~1\\D62XX\\D6202A\\Software\\atmel\\D6202B\\v100</span>. The folder still holds D6201A.c/.lis and D6201B.c/.lis that are not in FILES, and <span class="mono">ross_ztcpack.txt</span> / <span class="mono">cobalt_ztcpack.txt</span> are stale D6202A v1.04 configs (ADA-8401-B / 9252). The ROSS_VIDEO branch of Dashboard.c also names the card “ADA-8401-B”, the D6202A’s Ross name.`,
   `<b>RESTART trap only once.</b> V102 kept sending CANMSG_TRAP / CANTRAP_RESTART until the frame controller asked CANMSG_GET_NUMPARAMS. V100 sends it once (<span class="mono">restart_sent</span>), so a frame controller that misses it is never told again ${inf('consequence; DashBoard still finds the card by polling')}.`,

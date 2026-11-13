@@ -329,6 +329,29 @@ const K = (()=>{
    ===================================================================== */
 const inf = K.inf, card = K.card;
 const ASSET = 'siumulation-plugins/assets/';
+/* ---- CorelDRAW artwork (artwork pass 2026|59): the panels are the archive's .cdr drawings, converted with Inkscape
+   (text kept live, re-anchored where libcdr lost alignment); the live parts sit on the drawn holes, in the drawing's pt coordinates. ---- */
+const ART_CSS = `<style>.arthl{fill:transparent;stroke:transparent;stroke-width:.7}.og62-hot:hover .arthl,.arthot:hover .arthl{stroke:#2b8cff}</style>`;
+function artSVG(o){ // o: {src, vb:[x,y,w,h], maxw, label, fid, body}
+  const [x,y,w,h]=o.vb;
+  return `<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:${o.maxw||300}px;display:block;margin:auto;background:#f4f4f0;border-radius:6px" role="img" aria-label="${o.label}">${ART_CSS}
+    <defs><filter id="${o.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}${o.src}" x="${x}" y="${y}" width="${w}" height="${h}"/>${o.body||''}</svg>`;
+}
+/* one LED lens drawn over the LED box in the card-edge drawing */
+function artLed(o){ // {x,y,w,h, on, col, fid, attrs, title}
+  return `<g ${o.attrs||''}><title>${o.title||''}</title><rect x="${o.x}" y="${o.y}" width="${o.w}" height="${o.h}" rx="1" fill="${o.on?o.col:'rgba(28,32,30,.55)'}" ${o.on?`filter="url(#${o.fid})"`:''}/><rect class="arthl" x="${o.x-1}" y="${o.y-1}" width="${o.w+2}" height="${o.h+2}" rx="1.5"/></g>`;
+}
+/* a connector on the rear-module drawing: hit area, optional plugged cable, live dot, scope highlight */
+function artJack(o){ // {cx,cy,r, kind:'bnc'|'tb', w,h, conn, live, sel, attrs, title}
+  const r=o.r||6, lv=o.live===undefined?'':`<circle cx="${o.cx+(o.kind==='tb'?o.w/2+2:r+0.6)}" cy="${o.cy+(o.kind==='tb'?-(o.h/2-1.5):r-0.6)}" r="1.7" fill="${o.live===true?'#2f8f46':o.live==='warn'?'#d9a21b':o.live==='err'?'#c0392b':'#8d9296'}" stroke="#fff" stroke-width=".35"/>`;
+  let g='';
+  if (o.conn) g+= o.kind==='tb'? `<rect x="${o.cx-o.w/2-.8}" y="${o.cy-o.h/2-.8}" width="${o.w+1.6}" height="${o.h+1.6}" rx="1" fill="#2b5f9e" opacity=".55"/>`
+                               : `<circle cx="${o.cx}" cy="${o.cy}" r="${r*0.82}" fill="#2b5f9e" opacity=".8"/><circle cx="${o.cx}" cy="${o.cy}" r="${r*0.3}" fill="#9cc3ef"/>`;
+  if (o.sel) g+=`<circle cx="${o.cx}" cy="${o.cy}" r="${r+1.6}" fill="rgba(255,210,60,.35)" stroke="#e5b21b" stroke-width=".5"/>`;
+  const hit = o.kind==='tb'? `<rect class="arthl" x="${o.cx-o.w/2-1}" y="${o.cy-o.h/2-1}" width="${o.w+2}" height="${o.h+2}" rx="1"/>` : `<circle class="arthl" cx="${o.cx}" cy="${o.cy}" r="${r+0.6}"/>`;
+  return `<g ${o.attrs||''}><title>${o.title||''}</title>${g}${lv}${hit}</g>`;
+}
 const ROOTP = '#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/';
 const SW = ROOTP+'D6207A - #Software/';
 const hx = (n,w)=>(n>>>0).toString(16).toUpperCase().padStart(w||2,'0');
@@ -736,14 +759,28 @@ function cardSVG(u){
   if (!p && u<B.tMain) s+=`<text x="1180" y="355" font-size="13" fill="#ffd36a">${K.svgT(phaseAt(u).n)}</text>`;
   return s+'</svg>';
 }
-const EDGE_Y = [31,72.5,115.6,167.6,209,252,335];   // D6207A-card-edge.cdr: LED centres 253.5…413.9 pt on a 244.6…507.6 pt edge
-function edgeSVG(u){ const L=ledBits(u); return K.edgeSVG({label:'D6207A', maxw:260, note:'from D6207A-card-edge.cdr', leds:LEDS.map((l,i)=>({name:['AES1','Dolby1','Error1','AES2','Dolby2','Error2','COM Activity'][i], c:l[2], on:(L>>i)&1, y:EDGE_Y[i], id:'e'+i, title:l[0]}))}); }
+/* Card edge: D6207A-card-edge.cdr (2008-05-08), LED boxes at x 359.5…365.2 pt, centres below (pt). */
+const EDGE_ART = {src:'d6207a-edge.svg', vb:[236,238,160,318], ys:[253.5,274.6,297.8,325.7,346.9,370.1,413.9]};
+const ARTCDR = {edge:'#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-card-edge.cdr',
+  rear:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6207A - Rear Module Options.cdr',
+  t6305:'#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Functional/D6207A-T6305.cdr'};
+function edgeSVG(u){ const L=ledBits(u);
+  const body=LEDS.map((l,i)=>artLed({x:359.6, y:EDGE_ART.ys[i]-6.1, w:5.5, h:12.2, on:(L>>i)&1, col:K.LEDC[l[2]], fid:'d7ag', attrs:`class="og62-hot" data-led="e${i}"`,
+    title:`${['AES1','Dolby1','Error1','AES2','Dolby2','Error2','COM Activity'][i]}: ${l[0]} ${l[1]} (${(L>>i)&1?'lit':'off'})`})).join('');
+  return artSVG({src:EDGE_ART.src, vb:EDGE_ART.vb, maxw:230, label:'D6207A card edge', fid:'d7ag', body})
+    + `<div class="small muted" style="text-align:center">Card edge: ${SIM.src(ARTCDR.edge,'D6207A-card-edge.cdr')} (2008-05-08)</div>`; }
+/* Rear: T6305(A) from the openGear Rear Module Guide (2012-01-16), BNC centres x 491.9 / 510.8 pt, rows 240.0…296.7 pt,
+   Phoenix blocks 9/10 at y 315.5 pt. Position n is BNCn of T6305.net. */
+const REAR_XY = n=> n<=8? [n%2?491.9:510.8, 240+Math.floor((n-1)/2)*18.9] : [n===9?491.4:511.3, 315.5];
 function rearSVG(u){ const p=passAt(u), c=cfgAt(u), o=outputs(p);
-  const cells=[{n:1,label:'AES1 IN',id:'in1',conn:c.in1.type>0,live:c.in1.type>0?(p&&p.AUDIO1?true:'warn'):undefined,title:TYPES[c.in1.type]},
-    {n:2,label:'AES2 IN',id:'in2',conn:c.in2.type>0,live:c.in2.type>0?true:undefined,title:TYPES[c.in2.type]}];
-  o.forEach(x=>cells.push({n:x.n, label:`OUT${x.n-2} ${x.label.replace('input loop','loop')}`, live:x.on?true:false, title:`${x.out} → net ${x.net} → ${x.amp} → ${x.bnc}`}));
-  cells.push({n:9,label:'GPI/O 1',kind:'tb',title:'AES4P/N edge pins → Q2 → PC1/PC2 (reserved)'}); cells.push({n:10,label:'METADATA',kind:'tb',live:p&&p.dec==='Dolby E'?true:false,title:'ADM3485 RS-485, 115 kbps (Dolby E only)'});
-  return K.rearSVG({name:'T6305', sub:'D6207A-T6305.pdf · T6305.net (BNCn = position n)', id:'single-card termination', cells, maxw:300});
+  const J=(n,x)=>{ const [cx,cy]=REAR_XY(n); return artJack(Object.assign({cx,cy,r:5.85},x)); };
+  let body = J(1,{conn:c.in1.type>0, live:c.in1.type>0?(p&&p.AUDIO1?true:'warn'):undefined, attrs:'class="og62-hot" data-jack="in1"', title:`1: AES IN 1 — ${TYPES[c.in1.type]} (click to ${c.in1.type?'unplug':'plug in'})`})
+    + J(2,{conn:c.in2.type>0, live:c.in2.type>0?true:undefined, attrs:'class="og62-hot" data-jack="in2"', title:`2: AES IN 2 — ${TYPES[c.in2.type]} (click to ${c.in2.type?'unplug':'plug in'})`});
+  o.forEach(x=>{ body+=J(x.n,{live:x.on?true:false, title:`${x.n}: OUT${x.n-2} ${x.label} — ${x.out} → net ${x.net} → ${x.amp} → ${x.bnc}`}); });
+  body+=J(9,{kind:'tb', w:8.6, h:15.1, title:'9: GPI/O 1 (drawn “Reserved”) — AES4P/N edge pins → Q2 → PC1/PC2'})
+      + J(10,{kind:'tb', w:8.6, h:15.1, live:p&&p.dec==='Dolby E'?true:false, title:'10: METADATA OUT — ADM3485 RS-485, 115 kbps (Dolby E only)'});
+  return artSVG({src:'d6207a-rear-t6305a.svg', vb:[402,212,190,119], maxw:420, label:'T6305 rear module', fid:'d7ar', body})
+    + `<div class="small muted" style="text-align:center">T6305A: ${SIM.src(ARTCDR.rear,'D6207A - Rear Module Options.cdr')} (2012-01-16) · BNCn = position n (T6305.net)</div>`;
 }
 
 /* DashBoard window, rows from Dashboard.c (decoded) */
@@ -1024,6 +1061,8 @@ const FINDINGS = [
   F_('Mask colour.', 'ISS2 fabrication note 1 says “SOLDER MASK: GREEN”; the ISS1 photographs show a black board.', 'D6207A-ISS2.TSS; D6207A Iss1.jpg'),
   F_('The DTS-upmix FPGA does not match its note.', 'The history says “implemented JRTI SPI control block”, but the archived AMS81.bdf (Mar 2011) has no SPI block at the top level; the PB0/1/2_SPI pins are assigned in the .qsf of every version but wired in none. The non_audio_detector is removed, audio_i2s_to_msbaligned appears as a symbol with no HDL (the project cannot compile), SignalTap is switched on, and the detector copy holds for 32767 frames instead of 8191. Its AVR folder is empty.', 'VD6207A-dtsupmix/software/Altera/v101'),
   F_('The detector needs a gap.', 'It only accepts a burst preceded by two all-zero frames (x1..x4), and each of the two instances uses only its first channel (I2S_2 and PA2 unconnected).', 'non_audio_detector.vhd; AMS81.bdf inst44/inst45'),
+  F_('Artwork '+YR(2026)+': card edge and rear panel now from the CorelDRAW files.', 'Card edge from '+SIM.src(ARTCDR.edge,'D6207A-card-edge.cdr')+' (2008-05-08); rear module from '+SIM.src(ARTCDR.rear,'D6207A - Rear Module Options.cdr')+' (openGear Rear Module Guide, 2012-01-16). The LEDs and connectors sit on the drawn boxes and holes. The edge drawing shows exactly the seven LEDs the code drives (LED1–LED7 on PB0–PB6).', ''),
+  F_('The two rear drawings disagree.', 'The 2012 guide names the module T6305A and calls position 9 “Reserved” and position 7 “AES OUT (Lo/Ro, Lt, Rt)”; the 2007 sheet '+SIM.src(ARTCDR.t6305,'D6207A-T6305.cdr')+' calls 9 “GPI/O 1”, and in its Inkscape conversion only the two input BNCs are drawn (positions 3–10 carry numbers and labels only). Both are the same pins: AES4P/N (GPIO1) on the rear connector (T6305.net), which this model does not drive.', ''),
 ];
 const ASSUME = [
   `Main-loop pass ≈${(C.LOOP_T*1e3).toFixed(1)} ms: ≈222 cycles per byte in ALTERA_read_write_data (altera.s) × 80 bytes plus reads, at 8 MHz.`,
@@ -1034,7 +1073,7 @@ const ASSUME = [
   'Frame REF inputs carry an AES reference when “present”. DashBoard stays in its 3-second initialising mode after boot.',
   'DIP switch 1 is at the left of SW1 and ON is up on the drawing. CAT552 behaviour with PCM and the output list per format come from the manual; DTS is muted.',
 ];
-const SOURCES = [SW+'atmel/v102/ (v100w.c, D6207A.c/.h, dolby.c/.h, altera.c/.h, cs84xx.c, ADC.c, CAN.c, Dashboard.c, common.h, *.s)', SW+'atmel/v201/', SW+'Altera/Working/v102/ and v200/ (AMS81.qsf, AMS81.bdf, non_audio_detector.vhd, CATMAPERR.vhd, shift_in32.vhd, shifter_out_48bit.vhd, SR_DETECT_192.vhd, zero24_31.vhd, i2sx4_aes.vhd)', SW+'D6207A - #Software #VD6207A-dtsupmix/', SW+'D6207A SOFTWARE HISTORY.xls', ROOTP+'D6207A - #PCB/GERBERS/D6207A-ISS2.TOP/.TSM/.TSS → assets/d6207a-card-copper.png, d6207a-card-silk.png', ROOTP+'D6207A - #PCB/D6207A-iss2-PNP-TOP.pnp, d6207-schematic.zip (6 sheets), OBSOLETE/D6207A.net, .bom, .ECO', ROOTP+'D6207A - #Functional/D6207A-card-edge.cdr (Inkscape), D6207A-T6305.pdf, D6207A-FUNCTIONAL.pdf, D6207A.cdr', ROOTP+'D6207A - #Photo/', '#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #TESTREPORT/', '#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305 - #PCB/T6305.net', '#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/…/openGear #Manuals #OBSOLETE/D6207A Manual.pdf (v1.01, 2008)'];
+const SOURCES = [SW+'atmel/v102/ (v100w.c, D6207A.c/.h, dolby.c/.h, altera.c/.h, cs84xx.c, ADC.c, CAN.c, Dashboard.c, common.h, *.s)', SW+'atmel/v201/', SW+'Altera/Working/v102/ and v200/ (AMS81.qsf, AMS81.bdf, non_audio_detector.vhd, CATMAPERR.vhd, shift_in32.vhd, shifter_out_48bit.vhd, SR_DETECT_192.vhd, zero24_31.vhd, i2sx4_aes.vhd)', SW+'D6207A - #Software #VD6207A-dtsupmix/', SW+'D6207A SOFTWARE HISTORY.xls', ROOTP+'D6207A - #PCB/GERBERS/D6207A-ISS2.TOP/.TSM/.TSS → assets/d6207a-card-copper.png, d6207a-card-silk.png', ROOTP+'D6207A - #PCB/D6207A-iss2-PNP-TOP.pnp, d6207-schematic.zip (6 sheets), OBSOLETE/D6207A.net, .bom, .ECO', ROOTP+'D6207A - #Functional/D6207A-card-edge.cdr (Inkscape), D6207A-T6305.pdf, D6207A-FUNCTIONAL.pdf, D6207A.cdr', ROOTP+'D6207A - #Photo/', '#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #TESTREPORT/', '#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305 - #PCB/T6305.net', '#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/…/openGear #Manuals #OBSOLETE/D6207A Manual.pdf (v1.01, 2008)', 'Artwork '+YR(2026)+': '+SIM.src(ARTCDR.edge,'D6207A-card-edge.cdr')+' → assets/d6207a-edge.svg; '+SIM.src(ARTCDR.rear,'D6207A - Rear Module Options.cdr')+' → assets/d6207a-rear-t6305a.svg'];
 function viewFindings(m){ window.__d6207aActive=false;
   m.innerHTML = card('What the D6207A and its code are up to', `<ol>${FINDINGS.map(f=>`<li style="margin-bottom:7px">${f}</li>`).join('')}</ol>`)
     + `<div class="grid2">${card('Assumptions (marked inferred on screen)', `<ul class="small">${ASSUME.map(a=>`<li>${a}</li>`).join('')}</ul>`)}${card('Sources', `<ul class="small mono">${SOURCES.map(s=>`<li>${s}</li>`).join('')}</ul><p class="small muted">Plain text names only: no decoder-maker or Ross logos are reproduced. The openGear logo was removed from the silk layer.</p>`)}</div>`; }

@@ -24,17 +24,26 @@ const fdb = (d,n) => d<-150 ? '−∞' : (d>=0?'+':'−')+Math.abs(d).toFixed(n=
 const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
+/* Artwork 2026|59: both panels come straight from the CorelDRAW sheet POD8A-FRONT & REAR-PHX-SILK (CURVE).cdr (Jul.23/15, text as curves). Inkscape → plain SVG;
+   the FRONT GREEN, FRONT WHITE and REAR WHITE plates were cut at their outline (x 114.04 pt; y 74.15 / 254.18 / 429.87 pt; 617.04 × 115.63 pt = 8.570 × 1.606 in),
+   the two front plates registered on one face and inked POD green rgb(52,168,83) / white rgb(240,240,236). Cut-outs, screw holes
+   and drill centre marks are kept as faint geometry, not ink (the photos show no printed crosshairs). 1 pt = 200/72 px, so the
+   art lands on the same 1714 × 321 grid as the controls. */
+const ART_SRC = '#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-FRONT & REAR-PHX-SILK (CURVE).cdr';
+const ART_CAP = `<div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src(ART_SRC, 'POD8A-FRONT & REAR-PHX-SILK (CURVE).cdr')} (CorelDRAW, Jul.23/15 · ${SIM.year(2015)}), green and white plates registered on one panel.</div>`;
+const QTP_SRC = '#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-REAR-QTP & XLR-SILK (CURVE).cdr';
+const QTP_CAP = `<div class="small muted" style="margin-top:4px">Front artwork: ${SIM.src(ART_SRC, 'POD8A-FRONT & REAR-PHX-SILK (CURVE).cdr')} (Jul.23/15) · QTP and XLR rear artwork: ${SIM.src(QTP_SRC, 'POD8A-REAR-QTP & XLR-SILK (CURVE).cdr')} (CorelDRAW, Jul.06/15 · ${SIM.year(2015)}).</div>`;
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
+  const art = `${prefix}-${side==='front'?'front':(inner.art||'rear')}.svg`;
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${art}" width="${PW}" height="${PH}" preserveAspectRatio="none" style="pointer-events:none"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
-  </svg>`;
+  </svg>${side==='front'?'':(inner.cap||ART_CAP)}`;
 }
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
@@ -374,7 +383,7 @@ const A={
   trim(i,dir){ act(`Turn OUTPUT ${OUTS[i]} trim ${dir>0?'up':'down'}`, tr=>{ D.outTrim[i]=clamp(+(D.outTrim[i]+dir*0.04).toFixed(3),0,1); D.sel=i; tr(`${OUTS[i]} driver gain ${fdb(dB(gOut(i)))} dB (±${V.outRange} dB range ${inf}) → ${fdb(outLevel(i).l)} dBu`); }); },
   inTrimT(s,dir){ act(`Turn INPUT ${s} trim ${dir>0?'up':'down'}`, tr=>{ D.inTrim[s]=clamp(+(D.inTrim[s]+dir*0.04).toFixed(3),0,1); tr(`Input ${s} receiver gain ${fdb(dB(gIn(s)))} dB (±${V.inRange} dB range ${inf}); every output on that bus follows`); }); },
   plug(s){ act(`${D.plug[s]?'Disconnect':'Connect'} INPUT ${s}`, tr=>{ D.plug[s]=!D.plug[s]; tr(D.plug[s]?`Source on the INPUT ${s} terminals (+ − G)`:'Input open'); }); },
-  set(k,v,l){ act(l,tr=>{ if(k==='load'||k==='rear') D[k]=v; else D.gen[k]=v; tr(k==='rear'?`Rear panel option → ${v} (${v==='PHX'?'18 three-pin Phoenix plugs':v==='QTP'?'one multi-pin QTP connector':'XLRs, full-rack-width'})`:'Source or load changed'); }); },
+  set(k,v,l){ act(l,tr=>{ if(k==='load'||k==='rear') D[k]=v; else D.gen[k]=v; tr(k==='rear'?`Rear panel option → ${v} (${v==='PHX'?'18 three-pin Phoenix plugs':v==='QTP'?'one QTP input and four QTP output connectors':'XLRs on a 17.17-inch rear: INPUT A, B and only twelve outputs, B6…B1 and A6…A1 — A7/A8/B7/B8 have no connector'})`:'Source or load changed'); }); },
   reset(){ Object.assign(D,JSON.parse(JSON.stringify(FACT))); D.log=[]; SIM.refresh(); },
 };
 /* ---------------- panels ---------------- */
@@ -389,14 +398,29 @@ function rearSVG(){ let over='';
     for (let k=0;k<8;k++){ const x=379+k*109.6; over+=phx(x,50,false,'',`OUTPUT A${8-k}`)+phx(x,240,false,'',`OUTPUT B${8-k}`); }
     over+=iec(1390,40,1616,230);
     return panelSVG(PREFIX,'rear',{over},'POD8A rear panel, Phoenix version (real silkscreen)'); }
-  over+=`<g class="plA" style="cursor:pointer"><title>QTP input pins (A MONO 2,1 / B 4,5) — click to connect A</title><rect x="660" y="80" width="400" height="140" rx="10" fill="#1d1f21" stroke="#777" stroke-width="3"/>${[...Array(20)].map((_,k)=>`<circle cx="${700+(k%10)*36}" cy="${120+Math.floor(k/10)*50}" r="8" fill="${D.plug.A&&k<2?'#2b5f9e':'#c9b46a'}"/>`).join('')}</g>`+iec(1390,40,1616,230);
-  return `<svg viewBox="0 0 1714 321" style="width:100%;max-width:980px;border-radius:8px;display:block"><rect width="1714" height="321" rx="10" fill="var(--dev)"/><image href="${ASSET}${PREFIX}-rearqtp-white.png" width="1714" height="321"/>${over}${screw(50,160)}${screw(1664,160)}</svg>`; }
+  if (D.rear==='XLR') return xlrRearSVG();
+  /* QTP rear (POD8A-REAR-QTP & XLR-SILK (CURVE).cdr, REAR-QTP plate): one INPUT cut-out 128 × 136 px at x 166 and four OUTPUT
+     cut-outs at x 426 / 580 / 734 / 888, IEC opening 1359–1607 × 33–249 — all measured from the converted CDR. */
+  const qtp=(x0,y0,lit,cls,title)=>`<g class="${cls||''}" style="${cls?'cursor:pointer':''}">${title?`<title>${title}</title>`:''}<rect x="${x0+6}" y="${y0+6}" width="116" height="124" rx="8" fill="#1d1f21" stroke="#5d6166" stroke-width="3"/>${[...Array(8)].map((_,k)=>`<circle cx="${x0+38+(k%2)*52}" cy="${y0+26+Math.floor(k/2)*28}" r="8" fill="${lit&&lit(k)?'#2b5f9e':'#c9b46a'}"/>`).join('')}</g>`;
+  over+=qtp(166,94,k=>(D.plug.A&&k<2)||(D.plug.B&&(k===2||k===3)),'',`QTP INPUT — A (MONO) on pins 2,1, B on 4,5 (silk table)`)
+    +`<rect class="plA" x="166" y="94" width="64" height="136" fill="transparent" style="cursor:pointer"><title>INPUT A (MONO) — click to connect/disconnect</title></rect><rect class="plB" x="230" y="94" width="64" height="136" fill="transparent" style="cursor:pointer"><title>INPUT B — click to connect/disconnect</title></rect>`;
+  [[426,'A7 / B7 · A8 / B8'],[580,'A5 / B5 · A6 / B6'],[734,'A3 / B3 · A4 / B4'],[888,'A1 / B1 · A2 / B2']].forEach(([x,t])=>{ over+=qtp(x,86,null,'',`QTP OUTPUT ${t}`); });
+  over+=iec(1359,33,1607,249);
+  return panelSVG(PREFIX,'rear',{over,art:'rearqtp',cap:QTP_CAP},'POD8A rear panel, QTP version (real silkscreen)'); }
+/* XLR rear (same sheet, REAR-XLR plate, 1236.24 × 115.63 pt = 17.17 × 1.606 in → 3434 × 321 px): INPUT A, B and only twelve
+   outputs, B6…B1 and A6…A1, 175-px XLR holes; IEC 3079–3327 × 33–249. */
+const XLRX={A:240.5,B:422.5}, XLRO=[['B6',604.5],['B5',786.5],['B4',967.5],['B3',1149.5],['B2',1331.5],['B1',1513.5],['A6',1920.5],['A5',2102.5],['A4',2284.5],['A3',2466.5],['A2',2647.5],['A1',2829.5]];
+function xlrRearSVG(){ let over='';
+  over+=xlr(XLRX.A,159.5,false,D.plug.A,'plA','INPUT A (XLR-F) — click')+xlr(XLRX.B,159.5,false,D.plug.B,'plB','INPUT B (XLR-F) — click');
+  XLRO.forEach(([n,x])=>{ over+=xlr(x,159.5,true,false,'',`OUTPUT ${n} (XLR-M)`); });
+  over+=iec(3079,33,3327,249);
+  return `<svg viewBox="0 0 3434 321" role="img" aria-label="POD8A rear panel, XLR version (real silkscreen)" style="width:100%;border-radius:8px;display:block"><rect width="3434" height="321" rx="10" fill="var(--dev)"/>${over}<image href="${ASSET}${PREFIX}-rearxlr.svg" width="3434" height="321" preserveAspectRatio="none" style="pointer-events:none"/>${screw(50,160)}${screw(3384,160)}</svg>${QTP_CAP}`; }
 function bindPanel(r){ const p=r.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); r.querySelectorAll('.md').forEach(g=>g.onclick=()=>A.mode());
   OUTS.forEach((n,i)=>bindTrim(r,'ot'+i,d=>A.trim(i,d))); bindTrim(r,'itA',d=>A.inTrimT('A',d)); bindTrim(r,'itB',d=>A.inTrimT('B',d));
   r.querySelectorAll('.plA').forEach(g=>g.onclick=()=>A.plug('A')); r.querySelectorAll('.plB').forEach(g=>g.onclick=()=>A.plug('B')); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-top:8px"><label>Source A <input id="ga" type="number" value="${D.gen.A}" style="width:52px"> dBu</label><label>Source B <input id="gb" type="number" value="${D.gen.B}" style="width:52px"> dBu</label>
   <label>B phase <select id="ph">${[0,90,180].map(p=>`<option ${p===D.gen.phaseB?'selected':''}>${p}</option>`).join('')}</select>°</label><label>Load <select id="ld">${[[1e6,'open'],[10000,'10 kΩ'],[600,'600 Ω']].map(([v,l])=>`<option value="${v}" ${v===D.load?'selected':''}>${l}</option>`).join('')}</select></label>
-  <label>Rear <select id="rr">${['PHX','QTP'].map(v=>`<option ${v===D.rear?'selected':''}>${v}</option>`).join('')}</select></label></div><div class="small muted" style="margin-top:4px">Click trims (halves or wheel), the MODE switch and the rear inputs. Keys: M = mode, Q/W = selected output trim, [ / ] = previous / next output.</div>`; }
+  <label>Rear <select id="rr">${['PHX','QTP','XLR'].map(v=>`<option ${v===D.rear?'selected':''}>${v}</option>`).join('')}</select></label></div><div class="small muted" style="margin-top:4px">Click trims (halves or wheel), the MODE switch and the rear inputs. Keys: M = mode, Q/W = selected output trim, [ / ] = previous / next output.</div>`; }
 function bindControls(r){ const g=s=>r.querySelector(s); if(!g('#ga')) return; g('#ga').onchange=e=>A.set('A',+e.target.value,'Source A → '+e.target.value+' dBu'); g('#gb').onchange=e=>A.set('B',+e.target.value,'Source B → '+e.target.value+' dBu');
   g('#ph').onchange=e=>A.set('phaseB',+e.target.value,'Source B phase → '+e.target.value+'°'); g('#ld').onchange=e=>A.set('load',+e.target.value,'Load → '+e.target.selectedOptions[0].text); g('#rr').onchange=e=>A.set('rear',e.target.value,'Rear → '+e.target.value); }
 bindKeys('__pod8aActive',()=>({m:()=>A.mode(),q:()=>A.trim(D.sel,-1),w:()=>A.trim(D.sel,1),'[':()=>{D.sel=(D.sel+15)%16;SIM.refresh();},']':()=>{D.sel=(D.sel+1)%16;SIM.refresh();}}));
@@ -445,14 +469,15 @@ const viewSoft=softView({flag:'__pod8aActive',D,intro:'POD8A has no processor. C
   buttons:[['MODE switch','three-position toggle','STEREO / MONO / SUM'],['Output trim (16)','per-output driver','±6 dB '+inf],['Input trim A/B','receiver gain','±10 dB '+inf]],
   pins:[['PHX rear','18 × 3-pin (+ − G)','top row: A (MONO), A8 … A1; bottom: B, B8 … B1'],['QTP rear','multi-pin','A(MONO) 2,1 · B 4,5 · A7/B7/A8/B8 6,3 / 8,7 … (silk table)'],['XLR rear','full-rack-width','INPUT A, B; OUTPUT B8 … A1 (black-rack version)']]});
 const viewNotes=notesView('__pod8aActive','What the POD8A archive shows — findings',[
+  ()=>`<b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART_SRC,'POD8A-FRONT & REAR-PHX-SILK (CURVE).cdr')} (Jul.23/15) and ${SIM.src(QTP_SRC,'POD8A-REAR-QTP & XLR-SILK (CURVE).cdr')} (Jul.06/15).</b> Choose the rear with <i>Rear</i>: PHX, QTP or the new XLR view. What the art shows: <b>the XLR rear has only twelve outputs</b> (B6…B1, A6…A1 plus INPUT A and B: fourteen 175-px holes on a 17.17-in plate), so A7, A8, B7 and B8 have no connector on that version. The QTP rear has one INPUT and four OUTPUT cut-outs; its pin table puts two A and two B outputs on each output connector. On the PHX sheet a loose “+ - G” sits between the INPUT B legend and the OUTPUT bar, a stray copy of the terminal legend. In the curve version the green top bar stops short of the INPUT section. ${SIM.src('#POD #SERIES/POD8A - #Master/POD8A - #ARTWORK #DA #2016/POD8A-FRONT&REAR-XLR-SILK.cdr','POD8A-FRONT&REAR-XLR-SILK.cdr')} (JAN.14/16), filed byte-identical in “BLACK RACK - #Mechanical”, is a later 19-inch rack set (front with the 16 trims and a rear with the same 14 XLRs) in live text; its CAUTION line runs off the panel when converted, so the Jul 2015 curve sheet is used for the XLR rear.`,
   `<b>The supply in the quote cannot make +27.5 dBu by itself.</b> Quote SQ20148 lists an IRM-15-15 (a single 15 V, 15 W module) for SA-POD8A-MAIN. The test report measured +27.5 dBu out unloaded, which needs about ±14 V swing on each leg. Either the board has a DC-DC converter for a negative rail, or the op-amps run on a split 15 V with a rail-to-rail bridge (${inf}).`,
   `<b>The test outline is a generic form.</b> Pod8A-03JUL15.pdf ticks only the analog sections; the AES, video and “push-buttons” items are blank or N/A. It records “Firmware: NA” and boards “POD 8-1 Issue 4” and “POD 8-4 Rear PCB Issue 4”.`,
   `<b>The A input is labelled “A MONO”.</b> On front and rear silks input A doubles as the mono source, matching the MONO switch position.`,
-  `<b>Three rear panels, one front.</b> PHX (ISS 4), QTP (ISS 1) and XLR (ISS 1). The XLR rear is wider than a POD face (its silk spans a full 19" width), and a “BLACK RACK” folder holds its rack-mount version; SA-POD8A-XLR is a separate board (quote SQ20152, 150 pcs).`,
+  `<b>Three rear panels, one front.</b> PHX (ISS 4), QTP (ISS 1) and XLR (ISS 1). The XLR rear is wider than a POD face (its silk is 17.17 in wide, rack width between the ears), and a “BLACK RACK” folder holds its rack-mount version; SA-POD8A-XLR is a separate board (quote SQ20152, 150 pcs).`,
   `<b>The QTP pin table pairs outputs oddly.</b> The silk lists A(MONO) on pins 2,1 and B on 4,5, then 6,3 and 8,7 for the second rows (A8/A6/A4/A2 and B8/B6/B4/B2); the + and − pins swap order from pair to pair, so a QTP harness must follow the table, not the pin numbers.`,
   `<b>No electronics files.</b> There is no schematic, BOM or netlist in this folder; the older POD8 panels are in ../POD PANELS/POD - OBSOLETE.`],
  [`All stage gains, trim ranges and the SUM gain are ${inf}.`,`Rails ±15 V with 1.7 V swing loss (${inf}) reproduce the measured +27.5 dBu.`,`Output drivers balanced with 2 × 30R (${inf}, as in the other analog PODs).`],
- ['POD8A - #ARTWORK #DA #2016/POD8A-FRONT &amp; REAR-PHX.pdf · POD8A-REAR-QTP &amp; XLR-SILK (CURVE).pdf · PICS/','POD8A - #TESTREPORT/Pod8A-03JUL15.pdf','POD8A - #QUOTES/POD8A - QUOTE/POD8A - QUOTE - SQ20148.pdf · SQ20152.pdf','POD8A - #Mechanical #DA #2016/ (front ISS 4, rear PHX ISS 4, QTP ISS 1, XLR ISS 1)']);
+ [SIM.src(ART_SRC,'POD8A-FRONT & REAR-PHX-SILK (CURVE).cdr')+' · '+SIM.src(QTP_SRC,'POD8A-REAR-QTP & XLR-SILK (CURVE).cdr')+' (panel artwork) · POD8A-FRONT &amp; REAR-PHX.pdf · PICS/','POD8A - #TESTREPORT/Pod8A-03JUL15.pdf','POD8A - #QUOTES/POD8A - QUOTE/POD8A - QUOTE - SQ20148.pdf · SQ20152.pdf','POD8A - #Mechanical #DA #2016/ (front ISS 4, rear PHX ISS 4, QTP ISS 1, XLR ISS 1)']);
 SIM.register({ id:'pod8a', name:'POD8A · analog audio DA, 2 in / 16 out (2015|48)', duration:1, product:'POD8A', year:2015, family:'POD series', folder:'#POD #SERIES/POD8A - #Master',
   summary:'Half-rack analog audio distribution amplifier: inputs A and B, outputs A1–A8 and B1–B8, a trim per output and per input, and a MONO / SUM / STEREO switch. Only panels, a test report and quotes survive, so the circuit inside is inferred.',
   highlights:['Real silkscreen front with 18 working trims and the mode switch','PHX and QTP rear silks','Fan-out levels with the measured +27.5 dBu ceiling','Supply quoted (IRM-15-15) vs the measured headroom'],

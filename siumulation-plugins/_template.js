@@ -16,6 +16,7 @@
      SIM.dotMatrix(text, x, y, pitch, onColor, offColor)  5×7 LED/VFD text as SVG circles
      SIM.canvas(cv, h)    HiDPI canvas setup → {c, w, h}
      SIM.fmtT(t), SIM.fmtDur(d), SIM.year(1993) → "1993|26", SIM.css('--accent')
+     SIM.src('<archive-relative path>', 'label') → link to the file's Google Drive copy (plain text until one is found)
    Card markup: <div class="card"><h2>…</h2>…</div>; grids: .grid2 .grid3; tables: table.kv
    Mark anything not from the archive with <span class="tag-inf">inferred</span>.
    PANELS: use the product's real artwork. Most products have a 2016|49 drafting set

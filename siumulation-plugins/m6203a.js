@@ -384,6 +384,29 @@ const H8 = (()=>{
 })();
 /* ---------------- end og8 helpers ---------------- */
 const inf=K.inf, card=K.card, ASSET='siumulation-plugins/assets/';
+/* ---- CorelDRAW artwork (artwork pass 2026|59): the panels are the archive's .cdr drawings, converted with Inkscape
+   (text kept live, re-anchored where libcdr lost alignment); the live parts sit on the drawn holes, in the drawing's pt coordinates. ---- */
+const ART_CSS = `<style>.arthl{fill:transparent;stroke:transparent;stroke-width:.7}.og62-hot:hover .arthl,.arthot:hover .arthl{stroke:#2b8cff}</style>`;
+function artSVG(o){ // o: {src, vb:[x,y,w,h], maxw, label, fid, body}
+  const [x,y,w,h]=o.vb;
+  return `<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:${o.maxw||300}px;display:block;margin:auto;background:#f4f4f0;border-radius:6px" role="img" aria-label="${o.label}">${ART_CSS}
+    <defs><filter id="${o.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}${o.src}" x="${x}" y="${y}" width="${w}" height="${h}"/>${o.body||''}</svg>`;
+}
+/* one LED lens drawn over the LED box in the card-edge drawing */
+function artLed(o){ // {x,y,w,h, on, col, fid, attrs, title}
+  return `<g ${o.attrs||''}><title>${o.title||''}</title><rect x="${o.x}" y="${o.y}" width="${o.w}" height="${o.h}" rx="1" fill="${o.on?o.col:'rgba(28,32,30,.55)'}" ${o.on?`filter="url(#${o.fid})"`:''}/><rect class="arthl" x="${o.x-1}" y="${o.y-1}" width="${o.w+2}" height="${o.h+2}" rx="1.5"/></g>`;
+}
+/* a connector on the rear-module drawing: hit area, optional plugged cable, live dot, scope highlight */
+function artJack(o){ // {cx,cy,r, kind:'bnc'|'tb', w,h, conn, live, sel, attrs, title}
+  const r=o.r||6, lv=o.live===undefined?'':`<circle cx="${o.cx+(o.kind==='tb'?o.w/2+2:r+0.6)}" cy="${o.cy+(o.kind==='tb'?-(o.h/2-1.5):r-0.6)}" r="1.7" fill="${o.live===true?'#2f8f46':o.live==='warn'?'#d9a21b':o.live==='err'?'#c0392b':'#8d9296'}" stroke="#fff" stroke-width=".35"/>`;
+  let g='';
+  if (o.conn) g+= o.kind==='tb'? `<rect x="${o.cx-o.w/2-.8}" y="${o.cy-o.h/2-.8}" width="${o.w+1.6}" height="${o.h+1.6}" rx="1" fill="#2b5f9e" opacity=".55"/>`
+                               : `<circle cx="${o.cx}" cy="${o.cy}" r="${r*0.82}" fill="#2b5f9e" opacity=".8"/><circle cx="${o.cx}" cy="${o.cy}" r="${r*0.3}" fill="#9cc3ef"/>`;
+  if (o.sel) g+=`<circle cx="${o.cx}" cy="${o.cy}" r="${r+1.6}" fill="rgba(255,210,60,.35)" stroke="#e5b21b" stroke-width=".5"/>`;
+  const hit = o.kind==='tb'? `<rect class="arthl" x="${o.cx-o.w/2-1}" y="${o.cy-o.h/2-1}" width="${o.w+2}" height="${o.h+2}" rx="1"/>` : `<circle class="arthl" cx="${o.cx}" cy="${o.cy}" r="${r+0.6}"/>`;
+  return `<g ${o.attrs||''}><title>${o.title||''}</title>${g}${lv}${hit}</g>`;
+}
 const SW='M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Software/atmel/';
 /* ---------- timing from the code ---------- */
 const CY = 1/8e6;                          // X1 8 MHz
@@ -466,10 +489,25 @@ const RM={ T6301:{name:'T6301A', sub:'single card (M6203A-T6301.cdr)', note:'T63
     cells:[[2,'SDI IN','in'],[1,'SDI IN',null],[4,'OUT1',0],[3,'OUT1',null],[6,'OUT2',1],[5,'OUT2',null],[8,'OUT3',2],[7,'OUT3',null],[10,'OUT4',3],[9,'OUT4',null]]},
   OEM:{name:'OEM 3G rear (type A)', sub:'used for the cable tests (plain-text name only)', note:'The test reports use the frame maker’s 3G “type A” rear module: 3G reach 75 m (100 m fails) against 55 m on the T6301A.',
     cells:[[1,'SDI IN','in'],[2,'NOT USED','nc'],[3,'OUT1',0],[4,'OUT5',4],[5,'OUT2',1],[6,'OUT6',5],[7,'OUT3',2],[8,'OUT7',6],[9,'OUT4',3],[10,'OUT8',7]]} };
-function rearSVG(){ const r=RM[D.rear], t=SIM.t;
-  return K.rearSVG({name:r.name, sub:r.sub, split:r.split, id:'AN_BMID / AN_BMID2 identify the module', cells:r.cells.map(([n,l,o])=>{ if (o==='nc') return {n,label:l,kind:'nc'}; if (o==='in') return {n,label:l,id:'in',conn:D.in.conn,live:D.in.conn?(stAt(t).lock?true:'warn'):undefined};
-    if (o===null) return {n,label:l,live:'off'}; const s=outState(o,t); return {n,label:l+(D.in.asi&&INV[o]?' (inv)':''),live:s.ok?true:'err',title:s.why}; })}); }
-function edgeSVG(t){ const L=ledsAt(t); return K.edgeSVG({label:'M6203A', maxw:260, note:'M6203A-card-edge.cdr / LED Status.cdr', leds:[{name:'Lock',c:'g',on:L.lock,y:60,title:'LED1 GRN, PB0'},{name:'270M',c:'y',on:L.r270,y:100,title:'LED2 YEL, PB1'},{name:'1.5G',c:'y',on:L.r15,y:140,title:'LED3 YEL, PB2'},{name:'3G',c:'y',on:L.r3,y:180,title:'LED4 YEL, PB3'},{name:'No Lock',c:'r',on:L.nolock,y:220,title:'LED5 RED, PB4'}]}); }
+/* Artwork 2026|59: edge from M6203A LED Status.cdr (2010-04-28), rears from the openGear Rear Module Guide (2012-01-16);
+   assets shared with the m6203 plugin. pt coordinates; BNC pitch 18.9 pt. The OEM rear has no Ward-Beck drawing: kept as before. */
+const ARTC={edge:'#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/MANUAL/M6203A LED Status.cdr',
+  rear:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6203A - rear module options.cdr',
+  RM:{T6301:{src:'m6203-rear-t6301a.svg', vb:[336,220,122,148], x:[377.0,395.9], y0:277.0, name:'T6301A-3G'}, T6401:{src:'m6203-rear-t6401a.svg', vb:[470,220,130,148], x:[521.4,540.3], y0:277.4, name:'T6401A'}}};
+function rearSVG(){ const r=RM[D.rear], t=SIM.t, A=ARTC.RM[D.rear];
+  const cells=r.cells.map(([n,l,o])=>{ if (o==='nc') return {n,label:l,kind:'nc'}; if (o==='in') return {n,label:l,id:'in',conn:D.in.conn,live:D.in.conn?(stAt(t).lock?true:'warn'):undefined};
+    if (o===null) return {n,label:l,live:'off',other:true}; const st=outState(o,t); return {n,label:l+(D.in.asi&&INV[o]?' (inv)':''),live:st.ok?true:'err',title:st.why}; });
+  if (!A) return K.rearSVG({name:r.name, sub:r.sub, split:r.split, id:'AN_BMID / AN_BMID2 identify the module', cells});
+  const body=cells.map(c=>{ const cx=A.x[(c.n-1)%2], cy=A.y0+Math.floor((c.n-1)/2)*18.9;
+    return artJack({cx, cy, r:5.9, conn:c.conn, live:c.kind==='nc'?undefined:c.live, attrs:c.id?`class="og62-hot" data-jack="${c.id}"`:'', title:`${c.n}: ${c.label}${c.title?' — '+c.title:''}${c.other?' (the other card)':''}${c.id?(c.conn?' (click to unplug)':' (click to plug in)'):''}`})
+      + (c.other?`<circle cx="${cx}" cy="${cy}" r="6.2" fill="rgba(80,84,88,.35)" pointer-events="none"/>`:''); }).join('');
+  return artSVG({src:A.src, vb:A.vb, maxw:300, label:A.name+' rear module', fid:'m63aar', body})
+    + `<div class="small muted" style="text-align:center">${A.name}: ${SIM.src(ARTC.rear,'M6203A - rear module options.cdr')} (2012-01-16)${r.split?' · this card = card 1 (right)':''}</div>`; }
+function edgeSVG(t){ const L=ledsAt(t);
+  const body=[['LOCK','g',L.lock,'LED1 GRN, PB0'],['270M','y',L.r270,'LED2 YEL, PB1'],['1.5G','y',L.r15,'LED3 YEL, PB2'],['3G','y',L.r3,'LED4 YEL, PB3'],['NO LOCK','r',L.nolock,'LED5 RED, PB4']]
+    .map(([n,c,on,ti],i)=>artLed({x:275.7, y:[350.6,370.1,389.6,409.4,427.4][i]-6.1, w:5.3, h:12.2, on, col:K.LEDC[c], fid:'m63aag', title:`${n} LED: ${ti} (${on?'lit':'off'})`})).join('');
+  return artSVG({src:'m6203-edge.svg', vb:[186,290,120,350], maxw:200, label:'M6203A card edge', fid:'m63aag', body})
+    + `<div class="small muted" style="text-align:center">${SIM.src(ARTC.edge,'M6203A LED Status.cdr')} (2010-04-28)</div>`; }
 function dashHTML(){ const s=stAt(SIM.t), k=kind(), sl=D.build!=='v101';
   const st=s.lock?(k==='SD'?'SD':'HD'):'Unlocked';
   return K.dashHTML({key:'m6203a', title:`Slot ${D.slot}: ${sl?'-':'M6203A'}`, alarm:!s.lock&&D.alarm, tree:[{name:'DFR-8320 frame'},{name:'MFC-8310',lvl:1},{name:`Slot ${D.slot}: ${sl?'-':'M6203A'}`,lvl:1,sel:true}],
@@ -569,6 +607,7 @@ function viewSoft(m){ m.innerHTML=`<div class="grid2"><div>${card('main() while(
       <text x="20" y="160" font-size="11" fill="var(--ink2)">last pass: ${s.cnt}/101 counted</text></svg>`; };
   SIM.on('time', draw); }
 const FINDINGS=[
+  `<b>Artwork ${SIM.year(2026)}: panels now from the CorelDRAW files.</b> Card edge from ${SIM.src(ARTC.edge,'M6203A LED Status.cdr')} (2010-04-28: LOCK, 270M, 1.5G, 3G, NO LOCK); T6301A-3G and T6401A rears from ${SIM.src(ARTC.rear,'M6203A - rear module options.cdr')} (2012-01-16), LEDs and BNCs placed on the drawn boxes and holes. The OEM “type A” rear has no Ward-Beck drawing and keeps the plain sketch. The guide captions the dual T6401A “M6203A-3G/HD/SD-SDI DA- <b>NOT 3G</b>”: two cards on one module were only offered for HD/SD.`,
   `<b>Why ASI only works on half the outputs.</b> The test report (24 Jun 2010) found ASI on outputs 1, 3, 6, 7 only; the summary sheet calls the rest “the negative side of the differential transmitter”. The netlist confirms it: each GS2978 (U4–U7) feeds one BNC from SDO and one from /SDO. Polarity is irrelevant to scrambled SDI but inverts 8b/10b ASI.`,
   `<b>Reach below expectation.</b> Cable tests: 3G 55 m on the T6301A against 75 m on the OEM 3G rear; HD 150 m; SD 415 m. The summary says it plainly: “as a Distribution Amplifier, the cable lengths are not impressive”, and the output eye “could be improved”.`,
   `<b>3G is invisible on DashBoard.</b> Dashboard.c’s “SDI Input” list is Locked / HD / SD / Unlocked; PROCESS_SDI_LOCK_STATUS sets sdi_format = HD_FORMAT for 3G. Only the hidden rate code (OID 2.2 = 3) and the 3G LED tell 3G from HD.`,
@@ -580,7 +619,7 @@ const FINDINGS=[
   `<b>No COM or error LED.</b> COM_ACTIVITY_LED (PG0) and ERROR_LED (PE6) are defined, but the ISS3 netlist has only LED1–LED5 (Lock, 270M, 1.5G, 3G, No Lock).`,
   `<b>PC1 test strobe.</b> PROCESS_SDI_LOCK_STATUS_UPDATE raises PORTC bit 1 before each 101-sample burst and clears it inside the loop — a scope trigger left in the release.`];
 const ASSUME=['Main-loop pass ≈ '+SIM.fmtDur(PASS)+': wait(1000) is exact from v100w.s (7 cycles × 1000); the lock check and CAN time '+inf('estimated from the C'),'GS2975A lock time '+SIM.fmtDur(GS_T)+' '+inf('datasheet-order value'),'Cable loss per 100 m '+inf('1694A-class coax'),'Reach limits interpolated between the last pass and first fail in the reports '+inf('hand-written data'),'DashBoard poll every 500 ms '+inf('MFC behaviour')];
-const SOURCES=['#OPENGEAR #SERIES/M6203A - #Master #OPENGEAR/M6203A-ISS3 - #Gerbers.zip (TOP, TSM, TSS)','#OPENGEAR #SERIES/M6203A - #Master #OPENGEAR/M6203A - #TESTREPORT/: CABLE_LENGTH-06DEC10, CABLE LENGTH-NODATE, ASI PASS-24JUN10, SUMMARY-NODATE, V101-28APR10, V1001-17NOV11, V1001-09JAN12, 03AC0000-17JUN13',SW+'v101/v100w.c, M6203A.c, M6203.h, Dashboard.c, v100w.s, wbs_ztcpack.txt (firmware — sibling folder, linked)',SW+'C030000/Dashboard.c, wbs_ztcpack.txt','M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/PCB/M6203A-iss3.net','M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-card-edge.cdr, M6203A-T6301.cdr, M6203A-T6401.cdr; MANUAL/M6203A LED Status.cdr'];
+const SOURCES=['#OPENGEAR #SERIES/M6203A - #Master #OPENGEAR/M6203A-ISS3 - #Gerbers.zip (TOP, TSM, TSS)','#OPENGEAR #SERIES/M6203A - #Master #OPENGEAR/M6203A - #TESTREPORT/: CABLE_LENGTH-06DEC10, CABLE LENGTH-NODATE, ASI PASS-24JUN10, SUMMARY-NODATE, V101-28APR10, V1001-17NOV11, V1001-09JAN12, 03AC0000-17JUN13',SW+'v101/v100w.c, M6203A.c, M6203.h, Dashboard.c, v100w.s, wbs_ztcpack.txt (firmware — sibling folder, linked)',SW+'C030000/Dashboard.c, wbs_ztcpack.txt','M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/PCB/M6203A-iss3.net','M6203 - #Master #OPENGEAR/M6203 - #Engineering/M6203A/Functional/M6203A-card-edge.cdr, M6203A-T6301.cdr, M6203A-T6401.cdr; MANUAL/M6203A LED Status.cdr','Artwork '+SIM.year(2026)+': '+SIM.src(ARTC.edge,'M6203A LED Status.cdr')+' → assets/m6203-edge.svg; '+SIM.src(ARTC.rear,'M6203A - rear module options.cdr')+' → assets/m6203-rear-t6301a.svg, m6203-rear-t6401a.svg (shared with m6203)'];
 SIM.register({ id:'m6203a', product:'M6203A', name:'M6203A · SDI reclocking distribution amplifier, openGear: release package (2010|43)', year:2010,
   folder:'#OPENGEAR #SERIES/M6203A - #Master #OPENGEAR', family:'openGear',
   summary:'The M6203A reclocks one SD/HD/3G-SDI input to eight outputs (GS2974A EQ, GS2975A reclocker, four GS2978 drivers). This release folder holds the ISS3 Gerbers and the test department’s reports; the model runs the v1.01 firmware from the M6203 engineering folder against the measured cable reach.',

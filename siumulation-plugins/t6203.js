@@ -698,6 +698,18 @@ const DATA = {
 };
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+
+/* ---- CorelDRAW rear-module art (artwork pass 2026|59) ----
+   Each issue's “REAR MODULE PINOUTS” sheet (.cdr, libcdr → SVG, hairlines restored, sheet furniture removed: GENERIC title,
+   frame, pinout arrows, SINGLE CARD TERMINATION / ISSUE captions) recoloured as the built module: green PCB, silver BNCs,
+   white silk. view/plate in inches; pos = connector centres from the drawing, inches from the plate's top-left corner;
+   iso = BNCs the drawing shades grey (isolated-shell positions). */
+const CDR_ART = {"iss2":{"file":"t6203-rear.svg","src":"#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr","label":"T6203.cdr","date":"7 Oct 2008","view":[2.36,3.558],"plate":[0.5,0.291,1.325,3.1],"pos":{"1":[0.348,0.53],"2":[1.029,0.523],"3":[0.348,1.042],"4":[1.031,1.039],"5":[0.343,1.552],"6":[1.034,1.549],"7":[0.348,2.054],"8":[1.031,2.051],"9":[0.347,2.563],"10":[1.034,2.56]},"legend":{"1":"BNC1","2":"BNC2","3":"AES1","4":"AES5","5":"AES2","6":"AES6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[]},"iss1":{"file":"t6203-rear-iss1.svg","src":"#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/Backup_of_T6203.cdr","label":"Backup_of_T6203.cdr","date":"10 Nov 2006","view":[2.438,3.558],"plate":[0.5,0.291,1.325,3.1],"pos":{"1":[0.348,0.53],"2":[1.029,0.523],"3":[0.348,1.042],"4":[1.031,1.039],"5":[0.343,1.552],"6":[1.034,1.549],"7":[0.348,2.054],"8":[1.031,2.051],"9":[0.347,2.563],"10":[1.034,2.56]},"legend":{"1":"AES1","2":"AES5","3":"AES2","4":"AES6","5":"AES3","6":"AES7","7":"AES4","8":"AES8","9":"BNC9","10":"BNC10"},"iso":[]}};
+function cdrArt(){ return S.view==='cdr' ? (CDR_ART[S.issue]||null) : null; }
+function cdrXY(p, art){ return art && art.pos[p.n] ? art.pos[p.n] : [p.x, p.y]; }
+function cdrCaption(art){ return 'CorelDRAW art: '+SIM.src(art.src, art.label)+' ('+art.date+')'; }
+DATA.findings.unshift(`<b>Artwork ${SIM.year(2026)}: rear panel now from ${SIM.src(CDR_ART.iss2.src,'T6203.cdr')} (7 Oct 2008, ISS2/ISS3).</b> For ISS1 the only sheet with the old pin-out is ${SIM.src(CDR_ART.iss1.src,'Backup_of_T6203.cdr')} (10 Nov 2006): it has BNC9/BNC10 on blocks 9 and 10 and AES1–AES8 above, while the 2008 sheet moves the two unbalanced pairs to blocks 1 and 2 (BNC1/BNC2) and AES1–AES8 below, the same change the netlists show. Both are drawn on the first-generation 1.325″ × 3.100″ outline; the ISS3 Gerbers are 1.265″ × 3.228″, so the sheet outline was never updated, although the block rows agree to within 0.07″. libcdr loses the text alignment, so the “G-+ / +-G” polarity legends sit slightly over the blocks.`);
+DATA.sources.push("#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/Backup_of_T6203.cdr, #OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION/T6203 - #ENGINEERING/T6203.cdr (CorelDRAW rear-module pinout art → assets/t6203-rear-iss1.svg, t6203-rear.svg)");
 const ID = DATA.id, FLAG = '__' + ID + 'Active';
 const inf = (why)=>`<span class="tag-inf" title="${why?('Not stated in the source; inferred from '+why):'Not stated in the source; inferred'}">inferred</span>`;
 const yr = y => SIM.year(y);
@@ -764,7 +776,7 @@ function idRange(R, tol){ // worst-case ADC codes with 1 % parts and rail 3.28�
 /* ---------------- state ---------------- */
 const S = {
   issue: DATA.defaultIssue, card: DATA.cards[0].id, sel: 1, cable:{}, load:{}, srcLvl:0, padC:0.45,
-  fit1:true, fit2:true, r1:null, r2:null, idReads:0, idAt:null, showRL:false, view:'rear',
+  fit1:true, fit2:true, r1:null, r2:null, idReads:0, idAt:null, showRL:false, view:'cdr',
   log:[], last:null, blockSel:'p101',
 };
 function I(){ return DATA.issues[S.issue]; }
@@ -848,19 +860,20 @@ function gndText(p){
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
-  const iss=I(), W=iss.w*PX, H=iss.h*PX, M=150, card=cardObj();
+  const iss=I(), art=cdrArt(), W=(art?art.plate[2]:iss.w)*PX, H=(art?art.plate[3]:iss.h)*PX, LX=art?art.plate[0]*PX:0, RX=art?(art.view[0]-art.plate[0]-art.plate[2])*PX:0, M=150+LX, TOP=art?20+art.plate[1]*PX:20, card=cardObj();
   const img = S.view==='card' ? iss.img+'-card.png' : iss.img+'-rear.png';
-  let s=`<svg viewBox="0 0 ${W+2*M} ${H+40}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${DATA.product} rear module drawn from ${esc(iss.art)}">
+  let s=`<svg viewBox="0 0 ${W+2*M+RX-LX} ${H+TOP+20+(art?16:0)}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${DATA.product} rear module drawn from ${esc(iss.art)}">
    <defs><filter id="${ID}glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs>
-   <rect x="${M-4}" y="16" width="${W+8}" height="${H+8}" rx="5" fill="#0b0c0d"/>
-   <image href="${ASSET}${img}" x="${M}" y="20" width="${W}" height="${H}" preserveAspectRatio="none"/>`;
+   ${art? `<image href="${ASSET}${art.file}" x="${M-LX}" y="${TOP-art.plate[1]*PX}" width="${art.view[0]*PX}" height="${art.view[1]*PX}"/>`
+     : `<rect x="${M-4}" y="${TOP-4}" width="${W+8}" height="${H+8}" rx="5" fill="#0b0c0d"/>
+   <image href="${ASSET}${img}" x="${M}" y="${TOP}" width="${W}" height="${H}" preserveAspectRatio="none"/>`}`;
   if (S.view==='card'){
     s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">card side (${iss.cardSide}) — the MEC1 edge connector P101 faces the card</text></svg>`;
     return s;
   }
-  s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">connector face, seen from behind the frame (${iss.face})</text>`;
+  s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">connector face, seen from behind the frame (${art?'CorelDRAW pinout sheet':iss.face})</text>`;
   iss.pos.forEach(p=>{
-    const x=M+p.x*PX, y=20+p.y*PX, r=role(p.n), sel=S.sel===p.n, plug=!!S.cable[p.n], L=level(p.n);
+    const q=cdrXY(p,art), x=M+q[0]*PX, y=TOP+q[1]*PX, r=role(p.n), sel=S.sel===p.n, plug=!!S.cable[p.n], L=level(p.n);
     const col = r.dir==='in'? 'var(--accent2)' : r.dir==='out'||r.dir==='io'? 'var(--accent)' : '#777';
     if (p.kind==='bnc'){
       s+=`<g class="pos" data-n="${p.n}" style="cursor:pointer"><circle cx="${x}" cy="${y}" r="27" fill="transparent"/>
@@ -873,12 +886,12 @@ function panelSVG(opts){
         ${plug?[-1,0,1].map(d=>`<circle cx="${x}" cy="${y+d*p.pitch*PX}" r="5" fill="#0d3a1c"/>`).join(''):''}
         ${L.v>0&&plug?`<circle cx="${x+20}" cy="${y-hh/2}" r="5" fill="${L.ok||L.rx?'var(--led-g)':'var(--led-a)'}"/>`:''}</g>`;
     }
-    const left = p.x < iss.w/2, tx = left? M-10 : M+W+10;
+    const left = p.x < iss.w/2, tx = left? M-LX-10 : M+W+RX+10;
     s+=`<g class="pos" data-n="${p.n}" style="cursor:pointer"><text x="${tx}" y="${y-3}" text-anchor="${left?'end':'start'}" font-size="13" font-weight="700" fill="${sel?'var(--warn)':'var(--ink)'}">${p.n} · ${esc(r.name)}</text>
       <text x="${tx}" y="${y+12}" text-anchor="${left?'end':'start'}" font-size="10" fill="${col}">${r.dir==='nc'?'—':(r.dir==='in'?'◀ in':'out ▶')} ${esc((SIG[r.sig]||SIG.nc).short)}</text>
       <text x="${tx}" y="${y+24}" text-anchor="${left?'end':'start'}" font-size="9.5" fill="var(--ink2)">${p.kind==='bnc'?p.ref+(p.L?' · '+p.L+(p.R?'‖'+p.R:''):''):p.ref+' · '+(p.pair||p.net)}</text></g>`;
   });
-  s+=`<text x="${M+W/2}" y="${H+36}" text-anchor="middle" font-size="10" fill="var(--ink2)">${iss.w.toFixed(3)}″ × ${iss.h.toFixed(3)}″ at 1:1 scale</text></svg><div class="small muted" style="text-align:center">Artwork: ${esc(iss.art)}</div>`;
+  s+=`<text x="${M+W/2}" y="${H+TOP+16+(art?16:0)}" text-anchor="middle" font-size="10" fill="var(--ink2)">${art? 'plate '+art.plate[2].toFixed(3)+'″ × '+art.plate[3].toFixed(3)+'″ as drawn, 1:1' : iss.w.toFixed(3)+'″ × '+iss.h.toFixed(3)+'″ at 1:1 scale'}</text></svg><div class="small muted" style="text-align:center">${art? cdrCaption(art)+' · View → Gerber silk shows the PCB' : 'Artwork: '+esc(iss.art)}</div>`;
   return s;
 }
 function bindPanel(root){
@@ -906,7 +919,7 @@ const A = {
   }); },
   fit(which,v){ act((v?'Fit ':'Remove ')+(which===1?'AN_BMID (R1)':'AN_BMID2 (R2)'), tr=>{ if(which===1) S.fit1=v; else S.fit2=v; tr('New ID read on the next getRearModuleId() call: '+idOf(R1(),R2()).disp); }); },
   setR(which,v){ act('Change '+(which===1?'AN_BMID':'AN_BMID2')+' to '+rFmt(v), tr=>{ if(which===1){S.r1=v;S.fit1=v<OPEN;} else {S.r2=v;S.fit2=v<OPEN;} const d=idOf(R1(),R2()); tr('Code '+d.disp+' (rmId 0x'+d.rm.toString(16).padStart(4,'0')+')'); }); },
-  reset(){ act('Reset the bench', tr=>{ Object.assign(S,{issue:DATA.defaultIssue,card:DATA.cards[0].id,sel:1,cable:{},load:{},srcLvl:0,fit1:true,fit2:true,r1:null,r2:null,idReads:0,idAt:null,showRL:false,view:'rear'}); tr('Default issue, first card, no cables.'); }); },
+  reset(){ act('Reset the bench', tr=>{ Object.assign(S,{issue:DATA.defaultIssue,card:DATA.cards[0].id,sel:1,cable:{},load:{},srcLvl:0,fit1:true,fit2:true,r1:null,r2:null,idReads:0,idAt:null,showRL:false,view:'cdr'}); tr('Default issue, first card, no cables.'); }); },
 };
 document.addEventListener('keydown', e=>{
   if (!window[FLAG] || (e.target.matches && e.target.matches('input,select,textarea'))) return;
@@ -1010,7 +1023,7 @@ function controlsHTML(){
   return `<div style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:6px 0">
     <label class="small">Mating card <select data-c="card">${cardsForIssue().map(c=>`<option value="${c.id}" ${c.id===S.card?'selected':''}>${esc(c.id)} — ${esc(c.short||c.label)}</option>`).join('')}</select></label>
     ${ks.length>1?`<label class="small">Issue <select data-c="issue">${ks.map(k=>`<option value="${k}" ${k===S.issue?'selected':''}>${esc(DATA.issues[k].label)}</option>`).join('')}</select></label>`:''}
-    <label class="small">View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>connector face</option><option value="card" ${S.view==='card'?'selected':''}>card side (P101)</option></select></label>
+    <label class="small">View <select data-c="view"><option value="cdr" ${S.view==='cdr'?'selected':''}>CorelDRAW art</option><option value="rear" ${S.view==='rear'?'selected':''}>Gerber silk, connector face</option><option value="card" ${S.view==='card'?'selected':''}>card side (P101)</option></select></label>
     <button data-c="plug">Plug / unplug selected (P)</button><button data-c="id">Card reads ID (R)</button><button data-c="reset">Reset</button></div>
     <div class="small muted">Click a connector to select it; double-click it (or press P) to plug a cable in. Keys 1–9, 0 select positions.</div>`;
 }

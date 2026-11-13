@@ -241,6 +241,14 @@ const A = {
    Rear cut-outs (DIP 4.025 in, Phoenix 5.347/5.822 in, IEC 7.415 in) come from POD3A-REAR ISS 1 (PANEL).pdf.
    ================================================================ */
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: both panels now come straight from the CorelDRAW sheet POD3A-FRONT&REAR-SILK (CURVE).cdr (same Jun.19/14
+   artwork the PDF was printed from, text as curves). Inkscape → plain SVG, then tools/make_panel (scratch) cut the FRONT GREEN,
+   FRONT WHITE and REAR WHITE plates out at their outline (x 98.95 pt; y 77.18 / 268.79 / 429.76 pt; 617.04 × 115.63 pt =
+   8.570 × 1.606 in), registered the two front plates on one face, inked them POD green rgb(52,168,83) / white rgb(240,240,236),
+   and kept the cut-outs, screw holes and centre marks as faint geometry. 1 pt = 200/72 px, so the art lands on the same
+   1714 × 321 grid the controls were laid out on: every LED, DIP, Phoenix and IEC overlay still sits on its hole. */
+const ART_SRC = '#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3A-FRONT&REAR-SILK (CURVE).cdr';
+const ART_CAP = `<div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src(ART_SRC, 'POD3A-FRONT&REAR-SILK (CURVE).cdr')} (CorelDRAW, Jun.19/14 · ${Y(2014)}), green and white plates registered on one panel.</div>`;
 function frontSVG(t, opts){
   opts = opts||{};
   const d = display(t);
@@ -259,7 +267,7 @@ function frontSVG(t, opts){
   for (let j=0;j<9;j++) s += led(413, 99+15*j, 14, 11, j<ph, '#c3d81a');
   // two red board LEDs seen through the bronze plexiglass in the photo (function not traced)
   s += led(1030, 100, 10, 6, d.on, '#ff2a40') + led(1030, 222, 10, 6, d.on, '#ff2a40');
-  s += `<image href="${ASSET}pod3a-front-green.png" width="1714" height="321"/><image href="${ASSET}pod3a-front-white.png" width="1714" height="321"/>`;
+  s += `<image href="${ASSET}pod3a-front.svg" width="1714" height="321" preserveAspectRatio="none" style="pointer-events:none"/>`;
   [50,337,1477,1663].forEach(x=> s += `<circle cx="${x}" cy="161" r="13" fill="#3a3a38"/><path d="M${x-7} 161h14M${x} 154v14" stroke="#1d1d1c" stroke-width="2.5"/>`);
   if (d.booting) s += `<text x="900" y="300" fill="#ffb43a" font-size="20" text-anchor="middle">booting (EPROM → SHARC)</text>`;
   if (!D.power) s += `<text x="900" y="300" fill="#777" font-size="20" text-anchor="middle">no mains</text>`;
@@ -283,8 +291,8 @@ function rearSVG(){
     ${D.power?`<rect x="1470" y="250" width="100" height="71" fill="#222"/><rect x="1462" y="230" width="116" height="34" rx="6" fill="#2b2b2b"/>`:''}<circle cx="1595" cy="62" r="8" fill="${D.power?'var(--accent)':'#555'}"/>
     <rect x="1358" y="45" width="250" height="210" fill="transparent"><title>Mains: click to ${D.power?'unplug':'plug in'}</title></rect></g>`;
   [50,150,1291,1663].forEach(x=> s += `<circle cx="${x}" cy="160" r="12" fill="#3a3a38"/><path d="M${x-6} 160h12M${x} 154v12" stroke="#1d1d1c" stroke-width="2.5"/>`);
-  s += `<image href="${ASSET}pod3a-rear-white.png" width="1714" height="321" style="pointer-events:none"/></svg>`;
-  return s;
+  s += `<image href="${ASSET}pod3a-rear.svg" width="1714" height="321" preserveAspectRatio="none" style="pointer-events:none"/></svg>`;
+  return s + ART_CAP;
 }
 function bindPanel(root){
   root.querySelectorAll('.dipl').forEach(g=>g.addEventListener('click', ()=>A.dip(+g.dataset.i)));
@@ -738,6 +746,7 @@ function viewNotes(m){
     <li><b>The manuals describe other products.</b> <span class="mono">MANUAL/pod3.pdf</span> (2002) is the analog POD3: 25 LEDs, −36…+25 dBu, XLR inputs, a rear VU/PPM push-button. <span class="mono">POD3AMANUAL.cdr</span> (Nov 2006) draws a front with LOCK, COM, 44.1K, 48K, 96K and ERROR lamps that the shipped silk does not have. They match the unused <span class="mono">com/sr441/sr48/sr96</span> bits, so the drawing shows the AES variant.</li>
     <li><b>The rear DIP labels disagree with the switch.</b> The silk prints OFF above ON, but the switch body in <span class="mono">Pics/POD3A Rear.jpg</span> has its own "ON" at the top. The legend tables and the code only agree if ON = closed = flag 0 (${inf}: pull-ups), so one of the two markings is upside down.</li>
     <li><b>Leftovers from other projects.</b> <span class="mono">slm-1_ISR_table.ASM</span> is headed "VMS44" and <span class="mono">Debug/vms44_main.asm</span> (Feb 2003) is still in the tree. The spt1 vector carries Analog Devices EZ-KIT AD1819 codec comments. FLG11 is "cs8427 reset" in Init_dsp but "take adc out of reset" in start. <span class="mono">input_cal_float</span>, <span class="mono">trim[]</span>, <span class="mono">volume[]</span>, <span class="mono">halfdb_data[]</span> and <span class="mono">point_one_db_table[]</span> are loaded and never used. "FLG9" is described as both "right select" and "clock".</li>
+    <li><b>Artwork ${Y(2026)}: front/rear panels now from ${SIM.src(ART_SRC,'POD3A-FRONT&REAR-SILK (CURVE).cdr')} (Jun.19/14).</b> The same file is filed twice, byte for byte, in ${SIM.src('#POD #SERIES/POD3A - #Master/POD3A - #Engineering/SILK/POD3A-FRONT&REAR-SILK (CURVE).cdr','#Engineering/SILK')}. The sheet holds three plates: FRONT GREEN (the top bar, the WBS logo box and "Ward-Beck Systems"), FRONT WHITE (scale, ranges, PHASE, model name) and REAR WHITE. Its front plates carry no cut-out outline at all: the LED window and the phase column are not drawn, so their positions still come from the photo. The rear plate draws the DIP and Phoenix cut-outs and the IEC opening, and they line up with the existing overlays. The rear "+ - G" is printed rotated beside the R input only, so the L plug relies on the same legend. ${SIM.src('#POD #SERIES/POD3A - #Master/POD3A - #ARTWORK #DA #2016/POD3-SILK-NEW.cdr','POD3-SILK-NEW.cdr')} (21 Sep 2006|39) is the older live-text version of the same legend.</li>
     <li><b>v100 and v101 barely differ.</b> v101 only adds <span class="mono">.end</span> labels (VisualDSP++ 3.5 wants them) and two commented-out mask lines; the README says five sources differ. The MM5450 flush loop ("modified june 17, 2005") is newer than the ANALOG1 EPROM image, so the archived binary predates the archived source.</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
     <li>fs = 52 kHz (the <span class="mono">_52</span> constants), CCLK = 1024·fs. ISR step cycle counts and the 10 ms boot are ${inf}.</li>
@@ -750,7 +759,7 @@ function viewNotes(m){
     <li>…/sharc/v100/ANALOG1 (EPROM image), v100 sources, Debug/vms44_main.asm</li>
     <li>…/MANUAL/pod3.pdf · POD3AMANUAL.cdr · POD3A - Functional Diagram.cdr (converted with Inkscape)</li>
     <li>…/PCB/pod3iss3.bom, pod3iss3.net, pod3iss3.ECO (predecessor)</li>
-    <li>POD3A - #ARTWORK #DA #2016/POD3A-FRONT&amp;REAR-SILK (CURVE).pdf · Pics/POD3A Front.jpg, POD3A Rear.jpg</li>
+    <li>${SIM.src(ART_SRC,'POD3A - #ARTWORK #DA #2016/POD3A-FRONT&REAR-SILK (CURVE).cdr')} (panel artwork) · .pdf · Pics/POD3A Front.jpg, POD3A Rear.jpg</li>
     <li>POD3A - #Mechanical #DA #2016/POD3A-FRONT ISS 1 (PANEL) .pdf, POD3A-REAR ISS 1 (PANEL).pdf</li>
     <li>../POD11A - #Master/POD11A - #ARTWORK #DA #2016 (rear CAL legend, for comparison)</li></ul>`);
 }

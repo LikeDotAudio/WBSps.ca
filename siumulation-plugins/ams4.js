@@ -14,8 +14,9 @@
    - AMS4 - #Engineering/AMS4-1/PCB/AMS4-1ISS5.net + .bom (P-CAD netlist: every pin/net used below)
    - AMS4 - #Engineering/AMS4-2, -3, -4, -6 netlists (display/meter, level/headset, rear terminals, AMS4N panel)
    - AMS4 & AMS4N - #Mechanical #DA #2016/A-AMS4 BOM Structure.pdf
-   - AMS4 & AMS4N - #ARTWORK #DA #2016/PDF`s/AMS4-FRONT&REAR-SILK(CURVE).pdf
-       → tools/silk_extract.py → assets/ams4-front-green.png, ams4-front-white.png, ams4-rear-white.png (200 dpi)
+   - AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr (DEC.23/15, saved 2016-06-29)
+       → Inkscape (libcdr) → assets/ams4-front.svg (WHITE-plate cut-outs + GREEN + WHITE inks) and assets/ams4-rear.svg,
+       registered on the same 200 px/inch frame (2026|59 artwork pass; the older silk_extract.py PNGs are no longer used)
    - AMS4 - #Engineering/MECHANICAL /AMS4-FRONT ISS 7, AMS4-REAR ISS 7, DEMUX 4-REAR (ADAPTOR PLATE) ISS 1,
        DEMUX4-COVER ISS 1 PDFs (hole positions); …/Pics/AMS4 Front.jpg, AMS4 Rear with Demux 4 (NEW).jpg
    - Ams4 - #manual #Obsolete/AMS4 #OBSOLETEManual/AMS4 Manual.pdf (2007|40)
@@ -632,7 +633,7 @@ function frontSVG(t, opts){
     s+=`<rect x="300" y="20" width="420" height="140" fill="#1e1f21"/><rect x="384" y="16" width="620" height="112" rx="6" fill="#2f4d12" stroke="#3a3c3e" stroke-width="3"/>
       ${SIM.dotMatrix('AUDIO     VOLUME', 400, 30, 5.6, '#e8ffd0', 'rgba(0,0,0,.08)')}${SIM.dotMatrix(l2, 400, 80, 5.6, '#e8ffd0', 'rgba(0,0,0,.08)')}`;
   }
-  s+=`<image href="${ASSET}ams4-front-green.png" width="3420" height="330"/><image href="${ASSET}ams4-front-white.png" width="3420" height="330"/>`;
+  s+=`<image href="${ASSET}ams4-front.svg" width="3420" height="330"/>`;
   if (V.kind!=='pic') s+=`<rect x="420" y="135" width="230" height="30" fill="#1e1f21"/>`;
   // meter LEDs (G holes .130, 9 pitches of .160 from x 3.390, rows .724 / .924)
   for (let row=0; row<2; row++) for (let i=0;i<10;i++){ const lit = on && !boot && m[row]>=VU[i]; s+=led(678+i*32, row?185:145, lit, i>=7?'#ff3b30':'#56ff3a'); }
@@ -687,7 +688,7 @@ function rearSVG(t){
   // AES 110 euroblocks (1/2 left column, 3/4 right column)
   [[2914,116,0],[2914,233,1],[3020,116,2],[3020,233,3]].forEach(([x,y,i])=>{ const a=W.aes[i]; s+=euro(x,y,a.c110,'a110-'+i,`AES ${i+1} 110 Ω (transformer, DS75176 bank on PORTA,1) — ${a.c110?a.lvl+' dBFS':'empty'} — click`, en110 && a.c110 && sigAt('rxsrc',t,'')==='aes'+i+':110'); });
   [[3150,104,0],[3150,236,1],[3274,104,2],[3274,236,3]].forEach(([x,y,i])=>{ const a=W.aes[i]; s+=bnc(x,y,a.c75,'a75-'+i,`AES ${i+1} 75 Ω BNC (DS75176 bank on PORTC,0) — ${a.c75?a.lvl+' dBFS':'empty'} — click`, en75 && a.c75 && sigAt('rxsrc',t,'')==='aes'+i+':75'); });
-  s+=`<image href="${ASSET}ams4-rear-white.png" width="3420" height="330" style="pointer-events:none"/>`;
+  s+=`<image href="${ASSET}ams4-rear.svg" width="3420" height="330" style="pointer-events:none"/>`;
   // termination bank indicators
   s+=`<text x="3330" y="22" fill="${en75?'var(--accent)':'#666'}" font-size="20" text-anchor="end" font-family="Arial">75 Ω bank ${en75?'ON':'off'}</text><text x="2960" y="22" fill="${en110?'var(--accent)':'#666'}" font-size="20" text-anchor="middle" font-family="Arial">110 Ω bank ${en110?'ON':'off'}</text>`;
   if (!on) s+=`<rect width="3420" height="330" fill="rgba(0,0,0,.3)" style="pointer-events:none"/>`;
@@ -835,8 +836,8 @@ function traceHTML(){ const e=D.lastTrace; return e? `<div><b>${esc(e.name)}</b>
 function viewSim(m){
   window[FLAG]=true;
   m.innerHTML = `
-  ${card('Front panel at the playhead (AMS4-FRONT-SILK, green + white separations)', `<div id="fp"></div><div id="ctl"></div>`)}
-  ${card('Rear panel — click connectors to plug / unplug (AMS4-REAR-SILK)', `<div id="rp"></div>`)}
+  ${card('Front panel at the playhead (AMS4-FRONT-SILK, green + white separations)', `<div id="fp"></div><div class="small muted">Artwork: ${SIM.src('AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr','AMS4-FRONT&REAR-SILK(CURVE).cdr')} (DEC.23/15), CorelDRAW vectors: cut-outs from the FRONT WHITE plate, GREEN + WHITE inks.</div><div id="ctl"></div>`)}
+  ${card('Rear panel — click connectors to plug / unplug (AMS4-REAR-SILK)', `<div id="rp"></div><div class="small muted">Artwork: ${SIM.src('AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr','AMS4-FRONT&REAR-SILK(CURVE).cdr')}, REAR WHITE plate with its cut-outs.</div>`)}
   <div class="grid2">
     <div>${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}${card('Sources', `<div id="srcs"></div>`)}</div>
     <div>${card('State at the playhead', `<div id="insp"></div>`)}${card('Signal path at the playhead (level through each stage)', `<div id="chain"></div>`)}</div>
@@ -1070,6 +1071,7 @@ function viewSoft(m){
 function viewNotes(m){
   off();
   m.innerHTML = card('What the AMS4 is up to — findings from the source', `<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr','AMS4-FRONT&REAR-SILK(CURVE).cdr')} (title block DEC.23/15, saved 2016-06-29).</b> One sheet, three plates: REAR WHITE, FRONT GREEN, FRONT WHITE; the two front plates are registered on one panel. The rear drawing marks the DEMUX adaptor-plate opening (with its two thumb-screw holes) in <i>red</i>, the only red on the sheet: it is a separate part (DEMUX 4-REAR ADAPTOR PLATE), not panel silk. Off the printed page the file keeps working copies of the rear plate and of a front plate whose title strip is only outlined (leftovers). The front-only ${SIM.src('AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT-SILK(CURVE).cdr','AMS4-FRONT-SILK(CURVE).cdr')} (2016-01-06) and ${SIM.src('AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-REAR-SILK(CURVE).cdr','AMS4-REAR-SILK(CURVE).cdr')} hold the same plates; copies sit in AMS4 - #Engineering/ARTWORK and AMS4 - #ARTWORK. The silk is for the PIC (MODE / SOURCE + dot-matrix window) panel: the AMS4N and AMS4E layouts here are still drawn over it.</li>
    <li><b>The PIC runs at 4.9152 MHz, not 4 MHz.</b> X2 (BOM “S1-4M9152”) sits on OSC1/OSC2 (U35 pins 30/31 in <span class="mono">AMS4-1ISS5.net</span>). The MPLAB project says <span class="mono">Frequency=4000000</span>, but INIT sets <span class="mono">SPBRG = 7</span> with BRGH = 0 and comments “set 9600 baud”. That is 9600 only at 4.9152 MHz (7812.5 at 4 MHz). The AMA4 plugin assumed 4 MHz.</li>
    <li><b>V5.00 hides in a file called ams1v203.asm.</b> The header still ends at “version 2.03”. The only marks are <span class="mono">;Ali-Add</span>/<span class="mono">;Ali-Rem</span> comments and the version characters (‘5’,‘0’,‘0’). Project <span class="mono">AMS4v500.mcp</span> is dated 2010-08-16|43, the source 2014-02-20|47.</li>
    <li><b>V5.00 exists for the DEMUX-4's two SDI inputs.</b> <span class="mono">settxdata</span> now sets tx0 bit 4 from <span class="mono">sdiab</span> (it was <span class="mono">mode,2</span>). DEMUX-4 <span class="mono">V020102-AMS4/demux4.c</span> reads that bit as <span class="mono">input_select1</span> and does <span class="mono">if (input_select1) input = RX1; else input = RX2;</span> (“swap RX1 with RX2”). The adapter-plate photo lists SDI 1 (A), SDI 2 (B), SDI OUT, AES 1, AES 2, which is the board's BNC2, BNC1, BNC3… order reversed. So “SA” → RX2 → the plate's SDI 1 (A): the swap makes the labels right ${inf} (BNC order taken from the DEMUX-4 board layout).</li>
@@ -1109,7 +1111,7 @@ function viewNotes(m){
    <li>AMS4 - #Master/AMS4 - #Engineering/AMS4 - #SOFTWARE #PIC/ (#V050000/Ams4v500, #v203, #v202, #v201, #v200, #Custom/#c200, #c203, #test)</li>
    <li>…/AMS4N - Custom for NBC/Software/v100/ams4nv0.asm · …/AMS4E/Software/Ams4e-1/working/ams4e.c</li>
    <li>…/AMS4-1/PCB/AMS4-1ISS5.net, .bom · AMS4-2/-3/-4 ISS4 and AMS4-6 nets · A-AMS4 BOM Structure.pdf</li>
-   <li>…/AMS4 & AMS4N - #ARTWORK #DA #2016/PDF\`s/AMS4-FRONT&amp;REAR-SILK(CURVE).pdf → assets/ams4-front-green.png, ams4-front-white.png, ams4-rear-white.png</li>
+   <li>${SIM.src('AMS4 - #Master/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr','…/AMS4 & AMS4N - #ARTWORK #DA #2016/AMS4-FRONT&REAR-SILK(CURVE).cdr')} → assets/ams4-front.svg, ams4-rear.svg</li>
    <li>…/AMS4 - #Engineering/MECHANICAL /AMS4-FRONT ISS 7, AMS4-REAR ISS 7, DEMUX 4-REAR (ADAPTOR PLATE ) ISS 1, DEMUX4-COVER ISS 1 (PDF)</li>
    <li>…/Pics/AMS4 Front.jpg, AMS4 Rear with Demux 4 (NEW).jpg · Ams4 - #manual #Obsolete/AMS4 #OBSOLETEManual/AMS4 Manual.pdf</li>
    <li>SA-DEMUX4 - #Master/DEMUX4 - #Engineering/Software/Atmel/V020102-AMS4/demux4.c, common.h</li></ul>`);

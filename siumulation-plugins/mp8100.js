@@ -3,8 +3,10 @@
    Plugin for the WBS Device Simulator. Hardware only, no firmware.
 
    Sources (all in this archive, folder "#MP (8100) #SERIES"):
-   - 8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).pdf, 8100MP-REAR-SILK (CURVE).pdf (May 13/15)
-       → assets/mp8100-front-white.png (panel x 0–8.425″) and mp8100-rear-white.png (16.7″ × 3.27″), 200 px/inch
+   - 8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR + its CorelDRAW PDF export, 8100MP-REAR-SILK (CURVE).CDR
+       (May 13/15) → assets/mp8100-front.svg (panel x 0–8.425″; the CDR keeps the title as live Hobo Std text, so the glyph
+       outlines come from the CorelDRAW-exported PDF of the same file) and assets/mp8100-rear.svg (16.7″ × 3.27″, legend
+       + cut-out guides from the CDR), 200 px/inch (2026|59 artwork pass; the older PNGs are no longer used)
    - 8100 CHASSIS - #Mechanical #DA #2016/PDF`S/8100MP-1…4 (RACK MOUNT PANEL).pdf, 8100-REAR ISS 2 (REAR PANEL).pdf
        → panel 19.000″ × 3.470″, meter cut-outs 3.100″ × 1.600″ centred 2.070″ up, rear 16.700″ × 3.270″
    - 8100 CHASSIS - #ARTWORK #DA #2016/Pics/MP4(VU) Front.jpg, MP2(PPM) Front.jpg, MP2(1V1P).jpg, MP4 Rear.jpg
@@ -229,27 +231,27 @@ function faceSVG(ty, th, x, y, w, h, lab){
 function frontSVG(t){
   const S=simulate(), n=idx(t), cf=CFG[M.cfg];
   let s=`<svg viewBox="0 0 3800 694" style="width:100%;display:block;border-radius:6px" role="img" aria-label="8100MP front panel">
-   <rect width="3800" height="694" rx="8" fill="#1b1c1e"/><image href="${ASSET}mp8100-front-white.png" width="1685" height="694"/>`;
+   <rect width="3800" height="694" rx="8" fill="#1b1c1e"/><image href="${ASSET}mp8100-front.svg" width="1685" height="694"/>`;
   [[69,47],[69,647],[3731,47],[3731,647]].forEach(([x,y])=> s+=`<rect x="${x-41}" y="${y-25}" width="82" height="50" rx="25" fill="var(--bg)" stroke="#000" stroke-width="3"/>`);
   cf.x.forEach((xi,k)=>{ const cx=xi*200, cy=280, w=620, h=320; const o=S.out[k];
     s+=`<g class="mtr" data-k="${k}" style="cursor:pointer"><rect x="${cx-w/2-14}" y="${cy-h/2-14}" width="${w+28}" height="${h+28}" rx="10" fill="#0a0a0b" stroke="${M.sel===k?'#ffb43a':'#2b2c2e'}" stroke-width="${M.sel===k?8:4}"/>
       ${faceSVG(o.ty, o.th[n], cx-w/2, cy-h/2, w, h, 'M'+(k+1))}<title>Meter ${k+1} (${o.ty}) — click to select; it is fed from rear METER${k+1}</title></g>`; });
   s+=`<rect x="260" y="552" width="3280" height="74" rx="8" fill="#c9ccd0" stroke="#8a8d91"/><rect x="260" y="552" width="3280" height="18" rx="6" fill="#e9ebee"/><circle cx="296" cy="589" r="16" fill="#9a9da1" stroke="#555"/>`;
-  return s+`</svg><div class="small muted">Front to scale from <span class="mono">${cf.draw}</span> (cut-outs) and <span class="mono">8100MP-FRONT-SILK (CURVE).pdf</span> (white legend, real artwork). The aluminium strip along the bottom is from the photos; its purpose is not documented.</div>`;
+  return s+`</svg><div class="small muted">Front to scale from <span class="mono">${cf.draw}</span> (cut-outs) and ${SIM.src('#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR','8100MP-FRONT-SILK (CURVE).CDR')} (white legend, real artwork; Hobo Std glyphs from its CorelDRAW PDF export ${SIM.src('#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).pdf','8100MP-FRONT-SILK (CURVE).pdf')}). The aluminium strip along the bottom is from the photos; its purpose is not documented.</div>`;
 }
 function rearSVG(){
   let s=`<svg viewBox="0 0 3340 654" style="width:100%;display:block;border-radius:6px" role="img" aria-label="8100 rear panel">
    <rect width="3340" height="654" rx="8" fill="#1b1c1e"/>`;
-  [[40,60],[40,600],[3300,60],[3300,600]].forEach(([x,y])=> s+=`<circle cx="${x}" cy="${y}" r="16" fill="#8c8f93" stroke="#444" stroke-width="3"/><line x1="${x-10}" y1="${y}" x2="${x+10}" y2="${y}" stroke="#333" stroke-width="3"/>`);
+  [[34,104],[34,556],[3311,104],[3311,556]].forEach(([x,y])=> s+=`<circle cx="${x}" cy="${y}" r="16" fill="#8c8f93" stroke="#444" stroke-width="3"/><line x1="${x-10}" y1="${y}" x2="${x+10}" y2="${y}" stroke="#333" stroke-width="3"/>`);
   s+=`<g class="iec" style="cursor:pointer"><rect x="132" y="280" width="216" height="248" rx="10" fill="#0c0c0c" stroke="#555" stroke-width="3"/><rect x="152" y="300" width="176" height="120" rx="14" fill="#202020"/>
     ${[190,240,290].map((x,i)=>`<rect x="${x-9}" y="${i===1?318:346}" width="18" height="44" fill="#c9b27a"/>`).join('')}<rect x="160" y="440" width="160" height="70" rx="6" fill="#151515" stroke="#444"/>
     <circle cx="300" cy="300" r="10" fill="${M.power?'#7dff6a':'#333'}"/><title>IEC inlet with fuse drawer — click for AC on/off</title></g>`;
   const ch=types().length;
   [7.438,8.688,9.938,11.188].forEach((xi,j)=>{ const k=3-j, x=xi*200, y=442; const live=k<ch; const c=M.ch[k];
-    s+=`<g class="cal" data-k="${k}" style="cursor:${live?'pointer':'default'}"><circle cx="${x}" cy="142" r="22" fill="#060606" stroke="#555" stroke-width="3"/>${live?`<line x1="${x-14}" y1="142" x2="${x+14}" y2="142" stroke="#bbb" stroke-width="4" transform="rotate(${c.cal*20} ${x} 142)"/>`:''}<rect x="${x-70}" y="100" width="140" height="84" fill="transparent"><title>CAL${k+1}: click left/right half to turn</title></rect></g>
+    s+=`<g class="cal" data-k="${k}" style="cursor:${live?'pointer':'default'}"><circle cx="${x}" cy="145" r="22" fill="#060606" stroke="#555" stroke-width="3"/>${live?`<line x1="${x-14}" y1="145" x2="${x+14}" y2="145" stroke="#bbb" stroke-width="4" transform="rotate(${c.cal*20} ${x} 145)"/>`:''}<rect x="${x-70}" y="103" width="140" height="84" fill="transparent"><title>CAL${k+1}: click left/right half to turn</title></rect></g>
       <g class="tb" data-k="${k}" style="cursor:${live?'pointer':'default'}"><rect x="${x-62}" y="${y-44}" width="124" height="88" rx="6" fill="${live?'#2aa05a':'#1f6e42'}" stroke="#0e4d25" stroke-width="3"/>${[-34,0,34].map(d=>`<rect x="${x+d-12}" y="${y-30}" width="24" height="34" fill="#0e3a1f"/>`).join('')}
       ${live&&c.conn?`<rect x="${x-56}" y="${y-2}" width="112" height="40" rx="4" fill="#3ec172"/><path d="M${x} ${y+38} v50" stroke="#2b5f9e" stroke-width="16"/>`:''}<title>METER${k+1} input (+ − G)${live?' — click to plug/unplug':' — not used in this configuration'}</title></g>`; });
-  return s+`<image href="${ASSET}mp8100-rear-white.png" width="3340" height="654"/></svg><div class="small muted">Rear to scale from <span class="mono">8100-REAR ISS 2</span> (16.700″ × 3.270″; IEC cut-out G, Phoenix cut-outs F at 1.25″ pitch) with the real <span class="mono">8100MP-REAR-SILK (CURVE).pdf</span> legend.</div>`;
+  return s+`<image href="${ASSET}mp8100-rear.svg" width="3340" height="654"/></svg><div class="small muted">Rear to scale from <span class="mono">8100-REAR ISS 2</span> (16.700″ × 3.270″; IEC cut-out G, Phoenix cut-outs F at 1.25″ pitch) with the real ${SIM.src('#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR','8100MP-REAR-SILK (CURVE).CDR')} legend and its cut-out guides (fuse inlet, CAL holes, Phoenix cut-outs, rack-ear holes).</div>`;
 }
 function bindPanels(root){
   root.querySelectorAll('.mtr').forEach(g=> g.onclick=()=>{ M.sel=+g.dataset.k; SIM.refresh(); });
@@ -491,6 +493,7 @@ function viewNotes(m){
    <li><b>An openGear drawing in a meter folder.</b> <span class="mono">M6206A-ASSY - #Assembly.pdf</span> (P-CAD 2002, “Gear open”) is identical to <span class="mono">#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR/PCB/M6206A-ASSY.pdf</span>: it is not an MP part.</li>
    <li><b>Misleading folder and duplicates.</b> <span class="mono">MP4 METER PANEL - #Master/MP3 - #Mechanical</span> only holds the MP4-1 BOM again; <span class="mono">MECHANICAL/</span> and <span class="mono">SILKS/</span> repeat the 2016 DA folders.</li>
    <li><b>115 V only.</b> The rear silk (May 13/15) prints only “115 VAC, 1A SB.”; no 230 V marking exists on the artwork.</li>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-FRONT-SILK (CURVE).CDR','8100MP-FRONT-SILK (CURVE).CDR')} (2015-10-09) and ${SIM.src('#MP (8100) #SERIES/8100 CHASSIS - #ARTWORK #DA #2016/8100MP-REAR-SILK (CURVE).CDR','8100MP-REAR-SILK (CURVE).CDR')} (2015-10-08), both titled MAY 13/15.</b> Despite “(CURVE)” in its name, the front file still holds the title as live <i>Hobo Std</i> text, so the outlines come from its own CorelDRAW PDF export. The rear file is true curves; its guides put the four rack-ear holes at 0.17″ / 16.53″ across and 0.52″ / 2.78″ up (the model's screws were moved there) and the CAL trimmer holes 0.73″ down. The rear legend says <b>115 VAC, 1A SB</b> only, with no 230 V option. Identical copies sit in <span class="mono">SILKS/</span>.</li>
    <li><b>The front silk is one line.</b> 8100MP-FRONT-SILK is just “MP SERIES by WARD-BECK SYSTEMS” at 1:1 with the two left rack slots as reference; the panel drawings say “SILKSCREEN TO ARTWORK # 8100MP-FRONT-SILK”. The cut-outs were changed on Feb 13/14 (ISS 3, “changed cut-out F & H.W. E”).</li>
    <li><b>“1C2V”.</b> PCB/MP4(1C2V)ASS.DSN (2005|38) names a variant with one “C” meter and two VU; what “C” stands for (correlation?) is not stated ${inf}.</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">

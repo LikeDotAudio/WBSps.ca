@@ -421,7 +421,10 @@ const A = {
 /* ================================================================
    PANELS on the real 2001 silkscreen (POD14SLK_CURVE.pdf, 200 px per inch)
    ================================================================ */
-/* tools/silk_extract.py cut three separations between the crop marks at 200 dpi (x 200–1920; y 489–809 rear white,
+/* Artwork 2026|59: the faces are now vector, from the latest copy of the 2001 CorelDRAW silk, #POD #SERIES/POD4 - #Master/
+   POD4 - #Engineering/SILK/POD14SLK_CURVE.cdr (2001-03-21; the POD14 folder's copy is 2001-02-27) via Inkscape → assets/pod14-front.svg
+   (GREEN + WHITE plates) and pod14-rear.svg, cut between the same crop marks (cross-checked: 0 px offset against the old PNGs).
+   Previously: tools/silk_extract.py cut three separations between the crop marks at 200 dpi (x 200–1920; y 489–809 rear white,
    900–1220 front white, 1300–1620 front green) → 1720 × 320 px. The front labels 32/44.1/48/96 sit at 4.170/4.410/4.668/4.920 in,
    the drilling in POD14-FRT.pdf at 4.171/4.421/4.671/4.921 in, so 1 in = 200 px with no offset. Rear cut-outs come from the green
    outlines in POD14SLK.pdf (same frame, panel edge at x 203). */
@@ -433,8 +436,7 @@ function frontSVG(t, opts){
   const R='#ff3b30', G='#3dff6a', YL='#ffd23a';
   return `<svg viewBox="0 0 1720 320" role="img" aria-label="POD14 front panel (2001 silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <rect width="1720" height="320" rx="8" fill="${PANEL}"/>
-    <image href="${ASSET}pod14-front-green.png" width="1720" height="320"/>
-    <image href="${ASSET}pod14-front-white.png" width="1720" height="320"/>
+    <image href="${ASSET}pod14-front.svg" width="1720" height="320"/>
     ${[50,1664].map(x=>`<circle cx="${x}" cy="161" r="15" fill="#2d2f31" stroke="#666"/><path d="M${x-9} 161h18M${x} 152v18" stroke="#111" stroke-width="3"/>`).join('')}
     <g class="p14pwr" style="cursor:pointer"><title>Power rocker (PAN256, punch 0.505 × 0.770 in at 0.900 in)</title>
       <rect x="130" y="54" width="101" height="154" rx="6" fill="#0b0b0b" stroke="#444" stroke-width="3"/>
@@ -462,7 +464,7 @@ function rearSVG(t){
   const sel=sv('sel',t,'both');
   return `<svg viewBox="0 0 1720 320" role="img" aria-label="POD14 rear panel (2001 silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <rect width="1720" height="320" rx="8" fill="${PANEL}"/>
-    <image href="${ASSET}pod14-rear-white.png" width="1720" height="320"/>
+    <image href="${ASSET}pod14-rear.svg" width="1720" height="320"/>
     ${[[53,160],[1666,160]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="15" fill="#2d2f31" stroke="#666"/>`).join('')}
     ${[[210,87],[630,88],[1230,88],[825,138],[1035,138]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="10" fill="#050505"><title>0.100 in hole (mechanical "E", purpose not stated)</title></circle>`).join('')}
     <g class="p14j" data-j="in00" style="cursor:pointer"><title>INPUT1 LEFT (TB1 → P5 A1±) — click to plug / unplug</title>${phoenix(244,40,108,67,3,null,'',D.inputs[0].L.on).replace(/^<g[^>]*>/,'').replace(/<\/g>$/,'')}</g>
@@ -656,7 +658,7 @@ function viewSim(m){
   window.__pod14Keys = true; m._ck=m._ik=null;
   m.innerHTML = `<div class="grid2"><div>
       ${card('Front panel at the playhead', `<div id="fp"></div><div id="ctl"></div>`)}
-      ${card('Rear panel — click the REF BNC or Phoenix, the input blocks, the trims (dashed ring = receiver enabled)', `<div id="rp"></div><div id="ins" style="margin-top:8px"></div>`)}
+      ${card('Rear panel — click the REF BNC or Phoenix, the input blocks, the trims (dashed ring = receiver enabled)', `<div id="rp"></div><div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src('#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD14SLK_CURVE.cdr','POD4 - #Engineering/SILK/POD14SLK_CURVE.cdr')} (2001-03-21), WHITE and GREEN plates; the trim letters R / L are live text in the file and are set in Arial here.</div><div id="ins" style="margin-top:8px"></div>`)}
     </div><div>
       ${card('What the firmware did (emulated V1.02, last action)', `<div style="margin-bottom:6px">${scenarioHTML()}</div><div id="trace" class="log"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}
@@ -955,6 +957,7 @@ function viewNotes(m){
     ${li('ISS1 crossed the outputs.', 'POD14.net: CS8420 #1 (converter 1) TXP → R11 → the EL2280 half that drives OUT2-75 / OUT2-110. POD14iss2.net swaps R11/R17. Switch “Board” to ISS1 in the simulator to see INPUT1 come out of OUTPUT2.')}
     ${li('Leftovers from an SDI audio product.', 'The comments call the four rates “group 1–4” (<span class="mono">sample_rate ;group number</span>, <span class="mono">;store status of sdi group</span>, <span class="mono">sr32 … ;default group 1</span>): the switch code was cloned from a group-select product ('+inf+'). The header says “POD14 DIGITAL TO ANALOG CONVERTER”; V1.00 is dated “MARCH 8, 2000” but its files are from March–April 2001, after the February 2001 schematic.')}
     ${li('The front drawing was edited for POD14A.', '<span class="mono">POD14-FRT.dwg</span> (issue 2, “REMOVED ONE HOLE AND ADDED ANOTHER”) was saved 2008-08-12. It has a hole at 5.171 in under the SAMPLE RATE bracket, where POD14A puts 192 kHz, and none under the CAL label of the 2001 silk (6.10 in). The CAL LED here sits under its label ('+inf+').')}
+    ${li('Artwork '+Y(2026)+': front/rear panels now from '+SIM.src('#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD14SLK_CURVE.cdr','POD4 - #Engineering/SILK/POD14SLK_CURVE.cdr')+' (2001-03-21).', 'This newest copy of the silk sits in the <b>POD4</b> folder, not the POD14 one. Against the POD14 folder copy '+SIM.src('#POD #SERIES/XXX - POD14 - #Master #OBSOLETE/POD14 - #Engineering/SILK/OBSOLETE/POD14SLK_CURVE.cdr','SILK/OBSOLETE/POD14SLK_CURVE.cdr')+' (2001-02-27, the source of the old PNGs) it adds the “+ - G” polarity legends over the lower INPUT1 / INPUT2 blocks, REFERENCE INPUT, OUTPUT1 and OUTPUT2 (the February copy has them only on the upper input row), moves the INPUT1 / INPUT2 captions right by ≈0.03 in and the RIGHT caption down by ≈0.08 in. The sheet has no panel outline or drill marks, only crop marks, so hole positions still come from <span class="mono">POD14-FRT.pdf</span> / <span class="mono">Pod14-REAR.pdf</span>. CAL is printed on the silk although the 2008 front drawing has no hole under it.')}
     ${li('Mislabelled and stray files.', '<span class="mono">Pod14-REAR.pdf</span> is titled POD14A-REAR but dated 16-03-01 (POD14). <span class="mono">SILK/POD14A-SILK*.cdr</span> are POD14A artwork; the <span class="mono">#ISS2 #PCB</span>, <span class="mono">#PCB #OBSOLETE</span> (top level) and both <span class="mono">#GERBERS</span> folders are POD14A’s design (README). <span class="mono">ARCHIVE/POD7-iss2.ERR</span> belongs to POD7. Two empty <span class="mono">New Text Document.txt</span> and empty <span class="mono">POD14.ERR</span> files sit with the source.')}
     </ol>`)}
     ${card('How POD14 differs from POD14A and POD14B, and what survived', `<table class="kv small"><tr><th></th><th>POD14 (${Y(2001)})</th><th>POD14A (${Y(2008)}) — pod14a.js</th><th>POD14B — pod14b-unbalance-in.js</th></tr>

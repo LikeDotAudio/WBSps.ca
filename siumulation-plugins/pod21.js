@@ -15,8 +15,8 @@
      audio switcher at the other end of the slave port)
    - PCB/pod21iss2.net + .bom (P-CAD, POD21 ISSUE2): every net and pin name in the schematics tab
    - MANUAL/POD21-MANUAL.pdf, pod21.pdf (serial protocol, DB9 pin-out, specs), Pod21manCustom.wpd (12×1)
-   - SILK/Pod21silk.cdr (CorelDRAW 10) → Inkscape → assets/pod21-front-white.png, pod21-front-green.png,
-     pod21-rear-white.png; MANUAL/POD21MANU.cdr (panel drawings), POD21 - Functional Diagram.cdr
+   - SILK/Pod21silk.cdr (CorelDRAW 10) → Inkscape → assets/pod21-front.svg, pod21-rear.svg (vector, 2026|59;
+     replaces the earlier PNG cut of the same file); MANUAL/POD21MANU.cdr (panel drawings), POD21 - Functional Diagram.cdr
    - ../POD21 - #TESTREPORT/POD21-V101-19MAY10.pdf, POD21R-V200-19MAY10.pdf (scanned, read by eye)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -444,6 +444,8 @@ const ACT = {
    vertical at x = 140 (screws y = 31 / 228); mains box 1359–1607 × 33–249. The rocker position comes from the panel
    drawing in POD21MANU.cdr (no photo of a POD21 is in the archive). */
 const ASSET = 'siumulation-plugins/assets/';
+const ART_SRC = '#POD #SERIES/POD21 - #Master/POD21 - #Engineering/SILK/Pod21silk.cdr';
+const ART_CAP = `<div class="small muted" style="margin:2px 0 6px">Panel artwork: ${SIM.src(ART_SRC,'Pod21silk.cdr, Mar 31 2006')} (CorelDRAW 10, live Arial text re-centred on the controls; green and white plates registered; no cut-out layer on this sheet)</div>`;
 const BX = [480,780,930,1080,1230,1380,1530], BY = 160;
 const BNC_X = [261,411,561,711,861,1011,1161], BNC_Y = 198;
 const SRC_COL = ['#3b82c4','#d0782a','#3aa35b','#b4459a','#c9a227','#4bb3b3','#888','#c33'];
@@ -466,14 +468,14 @@ function frontSVG(t, opts){
     ${rem ? `<text x="54" y="292" font-size="34" fill="#f0f0ec">POD-21R REMOTE</text><text x="1155" y="93" font-size="34" fill="#f0f0ec" text-anchor="middle">INPUT SELECT</text>
         <text x="480" y="238" font-size="34" fill="#f0f0ec" text-anchor="middle">SLAVE</text>${[1,2,3,4,5,6].map(k=>`<text x="${BX[k]}" y="238" font-size="34" fill="#f0f0ec" text-anchor="middle">${k}</text>`).join('')}
         <text x="1660" y="300" font-size="22" fill="#8a8c8e" text-anchor="end">silk not archived: layout ${'inferred'} from the POD21</text>`
-      : `<image href="${ASSET}pod21-front-green.png" width="1714" height="321"/><image href="${ASSET}pod21-front-white.png" width="1714" height="321"/>`}
+      : `<image href="${ASSET}pod21-front.svg" width="1714" height="321"/>`}
     ${rem ? '' : `<g class="${cls}" data-a="power" style="cursor:pointer"><title>Power rocker PWRSW (PAN256 header) — position from the POD21MANU.cdr panel drawing (${'inferred'}). Click.</title><rect x="158" y="84" width="70" height="128" rx="6" fill="#0b0b0c" stroke="#3a3c3f" stroke-width="2"/>
       <rect x="166" y="${on?94:150}" width="54" height="52" rx="5" fill="#2a2c2f" stroke="#4a4c50"/><rect x="171" y="${on?98:192}" width="44" height="8" rx="2" fill="#3c3e42"/></g>
       <circle cx="300" cy="218" r="13" fill="#0a0a0a"/><circle cx="300" cy="218" r="9" fill="${on?'#9dff6a':'#26321f'}" ${on?'filter="url(#p21glow)"':''}><title>PWR — GREEN LEDRA2 through R40 2K from the unregulated rail</title></circle>`}
     ${[0,1,2,3,4,5,6].map(btn).join('')}
     ${[51,1662].map(x=>`<circle cx="${x}" cy="160" r="11" fill="#8a8886" stroke="#444" stroke-width="2"/><path d="M${x-6} 160 h12 M${x} 154 v12" stroke="#444" stroke-width="2.5"/>`).join('')}
     ${opts.hot||''}
-  </svg>`;
+  </svg>${rem?'':ART_CAP}`;
 }
 function rearSVG(t){
   const x = xptAt(t), on = powerAt(t);
@@ -498,8 +500,8 @@ function rearSVG(t){
       <circle cx="1421" cy="141" r="40" fill="#1a1a1b" stroke="#555" stroke-width="3"/><rect x="1403" y="123" width="36" height="36" rx="4" fill="#2b2b2d"/><path d="M1411 141 h20" stroke="#777" stroke-width="5"/>
       <rect x="1478" y="72" width="108" height="140" rx="12" fill="#050505" stroke="#2a2a2a"/>${[[1508,110],[1556,110],[1532,176]].map(([a,b])=>`<rect x="${a-9}" y="${b-13}" width="18" height="26" fill="#c9cdd2"/>`).join('')}</g>
     ${[51,1662].map(x=>`<circle cx="${x}" cy="161" r="10" fill="#8f9295" stroke="#55585b" stroke-width="2"/><path d="M${x-6} 161 h12 M${x} 155 v12" stroke="#47494c" stroke-width="2"/>`).join('')}
-    <image href="${ASSET}pod21-rear-white.png" width="1714" height="321"/>
-  </svg>`;
+    <image href="${ASSET}pod21-rear.svg" width="1714" height="321"/>
+  </svg>${ART_CAP}`;
 }
 function bindPanel(root){
   root.querySelectorAll('[class^="p21A"],[class^="p21R"]').forEach(g=>{ const u=g.getAttribute('class').slice(3);
@@ -1000,6 +1002,7 @@ function viewNotes(m){
   window.__pod21Keys=false;
   const F=(h,b)=>`<div class="card"><h2>${h}</h2>${b}</div>`;
   m.innerHTML = F('What the POD21 firmware is up to', `<ol class="small" style="padding-left:18px">
+    <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_SRC,'Pod21silk.cdr')} (31 Mar 2006|39), as vectors.</b> It is the only POD21 silk: no 2014 “FINAL CURVE” redraw and no photo exist, and the text is live Arial, which libcdr places at the wrong anchor, so every label was re-centred on its button or BNC (the INPUT SELECT rule, bars and PODS logo are as drawn). The sheet has drill cross-hairs but no cut-out layer; three extra cross-hairs sit between buttons SLAVE/1, 2/3 and 5/6 at the button height with no legend (switch-board standoffs, ${inf}). ${SIM.src('#POD #SERIES/POD21 - #Master/POD21 - #Engineering/SILK/POD2SILK.CDR','POD2SILK.CDR')} in the same folder is not the POD2 audio switcher despite its name: it is an earlier POD21 silk (24 Nov 2000|33) with the same front, a rear CONTROL legend shortened to “CTL” and the mains warning on one line.</li>
     <li><b>The manual has the slave commands backwards.</b> POD21-MANUAL.pdf: “The Slave indicator … may be turned on by sending F0, C0 and turned off by F0, C7.” In <span class="mono">translate_uart</span>, C0 (low bits 000) jumps to <span class="mono">slave_off</span> (<span class="mono">bsf video_reg,5</span>) and C7 to <span class="mono">slave_on</span>. The POD21R remote agrees with the code: <span class="mono">slave_off_stuff</span> sends C0. Try the “PC” scenario.</li>
     <li><b>“Switch audio and video” cancels slave mode.</b> Every <span class="mono">video_table</span> value (BF FE 7F FD F7 FB) has bit 5 set, and bit 5 = 1 means SLAVE off. A remote press of a video button (which sends 10vvvaaa) therefore also drops audio-follow-video.</li>
     <li><b>“Slave A+V to input i” only works if slave is already on.</b> In <span class="mono">not_on</span>, the lines marked <span class="mono">;test</span> overwrite both the SPI command and <span class="mono">video_reg</span> when <span class="mono">pre_output,5</span> is set: the unit turns SLAVE on but stays on its old inputs.</li>

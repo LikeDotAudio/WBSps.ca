@@ -30,12 +30,12 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
+  /* CorelDRAW artwork (Artwork 2026|59): <prefix>-front.svg = GREEN + WHITE plates on the panel, -rear.svg = rear WHITE plate */
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
@@ -398,13 +398,13 @@ function frontSVG(t){ const L=leds(t);
   let over=`<g class="pwr" style="cursor:pointer"><title>Power rocker</title><rect x="130" y="57" width="100" height="150" rx="9" fill="#0a0b0c" stroke="#30333a" stroke-width="3"/><rect x="144" y="${D.power?68:122}" width="72" height="62" rx="7" fill="#1d2023" stroke="#3a3d40" stroke-width="2"/></g>`
     + led(299,218,L.pwr,'#9be35a') + led(552,218,L.x8,'#ffd23a') + led(612,218,L.x4,'#ffd23a') + led(787,218,L.src,'#ffd23a') + led(847,218,L.eq1,'#ffd23a') + led(907,218,L.eq2,'#ffd23a')
     + led(1082,218,L.lock1,'var(--led-g)') + led(1142,218,L.nolock1,'#ff4a3a') + led(1362,218,L.lock2,'var(--led-g)') + led(1422,218,L.nolock2,'#ff4a3a');
-  return panelSVG(PREFIX,'front',{over},'POD12A front panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'front',{over},'POD12A front panel (CorelDRAW silk artwork)'); }
 function rearSVG(){ const v75=D.ver==='75';
   const conn=(x,y,pl,cls,title)=> v75? bnc(x,y,pl,cls,title,52) : phx(x,y,pl,cls,title);
   let over = conn(263,52,D.in[0].on,'inA','INPUT A — click to plug/unplug') + conn(263,180,D.in[1].on,'inB','INPUT B (also the SRC reference clock) — click to plug/unplug');
   [[420,52],[420,180],[576,52],[576,180],[732,52],[732,180],[888,52],[888,180]].forEach(([x,y],i)=>over+=conn(x,y,false,'','OUTPUT '+(i+1)+' ('+OUTN[i]+')'));
   over += phx(1010,128,false,'','BALANCED IOS (+ − G)') + dip(1128,158,D.dip.map(Boolean),'dp',DIPN) + iec(1362,32,1606,248);
-  return panelSVG(PREFIX,'rear',{over},'POD12A rear panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'rear',{over},'POD12A rear panel (CorelDRAW silk artwork)'); }
 function bindPanel(root){ const p=root.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); root.querySelectorAll('.inA').forEach(g=>g.onclick=()=>A.plug(0)); root.querySelectorAll('.inB').forEach(g=>g.onclick=()=>A.plug(1)); root.querySelectorAll('.dp').forEach(g=>g.onclick=()=>A.dip(+g.dataset.i)); }
 function controlsHTML(){ return `<div class="small" style="display:grid;grid-template-columns:auto repeat(3,auto);gap:4px 10px;align-items:center;margin-top:8px">
   ${[0,1].map(k=>`<b>INPUT ${'AB'[k]} source</b><label>fs <select id="fs${k}">${[22050,32000,44100,48000,96000,192000,220000].map(f=>`<option value="${f}" ${f===D.in[k].fs?'selected':''}>${f/1000} kHz</option>`).join('')}</select></label><label>cable <input id="cb${k}" type="number" step="50" value="${D.in[k].cable}" style="width:64px"> m</label><label>tone ${D.in[k].f} Hz, ${D.in[k].dbfs} dBFS</label>`).join('')}
@@ -434,7 +434,7 @@ function routeTable(t){ const F=fpga(t); return `<table class="kv"><tr><th>Outpu
   return `<tr><td class="mono">${o+1} · ${n}</td><td class="mono small">OUT${f+1} ${pins[0]} → ${pins[1]} → T${o+1}</td><td>${oi.live?(oi.viaSRC?'INPUT A via SRC'+(oi.silent?' (A unlocked: silence, '+inf+')':'')+(oi.bad?' <span style="color:var(--bad)">out of range</span>':''):'INPUT '+'AB'[oi.src]):`<span style="color:var(--bad)">${oi.why}</span>`}</td><td class="mono">${oi.live?kHz(oi.fs):'—'}</td></tr>`; }).join('')}</table>
   <p class="small mono">Last ALTERA_write: data_upper ${bin8(F.up)}b · data_lower ${bin8(F.lo)}b (q0 sel A ${F.selA}, q1 sel B ${F.selB}, q4 SRC ${F.swSel})</p>`; }
 function viewSim(m){ window.__pod12aActive=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>`)}${card('Rear panel — click inputs and DIP levers',`<div id="rp"></div>${controlsHTML()}`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>`)}${card('Rear panel — click inputs and DIP levers',`<div id="rp"></div><div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src('#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr', 'POD12A-FRONT&REAR-SILK (CURVE).cdr')} (2016-06-17|49), CorelDRAW silk plates in their real inks.</div>${controlsHTML()}`)}</div>
     <div>${card('What the firmware did (last action)',`<div id="trace" class="log"></div>`)}${card('Routing now',`<div id="rt"></div>`)}</div></div>
     ${card('Timeline — one second, zoomable. 200 µs shows single frames; with SRC on, the outputs follow INPUT B’s frame rate.',`<canvas id="tl"></canvas>`)}
     <div class="grid2">${card('Scope: INPUT A and output A1 at the playhead (one AES3 frame each)',`<canvas id="s1"></canvas><canvas id="s2"></canvas><div id="bits" class="small mono"></div>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
@@ -516,7 +516,7 @@ function viewSoft(m){ window.__pod12aActive=true;
     m.querySelector('#rt').innerHTML=routeTable(t); };
   SIM.on('time',draw); }
 function viewNotes(m){ window.__pod12aActive=false;
-  m.innerHTML=card('What the POD12A archive shows — findings',`<ol>
+  m.innerHTML=card('What the POD12A archive shows — findings',`<ol><li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD12A - #Master/POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr', 'POD12A-FRONT&REAR-SILK (CURVE).cdr')} (2016-06-17|49).</b> GREEN + WHITE front plates and the WHITE rear plate (the 75 Ω BNC build) registered on the panel outline (assets/pod12a-front.svg, pod12a-rear.svg). As on the POD10A, the rear power legend ends “100-230 VAC, 50-60 Hz,” with no fuse rating. Not used: POD12A-FRONT(FINAL CURVE).cdr (2014|47, identical copies in two folders) and POD12A-75-110-REAR SILK(FINAL CURVE).cdr (2016-06-17, the 75/110 rear variants sheet).</li>
    <li><b>Corrected 2026|59: the POD12A firmware is archived, in the obsolete POD12 folder (see pod12.js).</b> The MCU program is V020000 (<span class="mono">XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #Software/…/#V020000/</span>, with an earlier v100 in <span class="mono">POD12 - Update - #RD #RD77/Software/Atmel/backup1/v100</span>), and the FPGA is the D6201A project in <span class="mono">RD77/Software/FPGA/v100</span>. This plugin used to say neither existed and guessed the behaviour; the model now follows that code.</li>
    <li><b>SRC takes INPUT A and outputs it on INPUT B's clock.</b> In D6201A.bdf the AD1895's input is encoder inst2's I²S (INPUT A); its output side, the i2s_par reader and encoder inst3 run on U6's LRCLK/SCLK (INPUT B). ALTERA_write engages the path only <span class="mono">if (aes2_lock == YES)</span>. INPUT B's audio is discarded; with no B the unit quietly runs plain 1×8 and the SRC LED stays dark. (The earlier guess of a fixed 48 kHz from the VCXO was wrong.)</li>
    <li><b>The clock-steering loop is idle.</b> The FPGA ties <span class="mono">up</span>, <span class="mono">dn</span> and <span class="mono">src_bypass</span> to GND, and R55/R59 are DNI. X1 (24.576 MHz VCXO) free-runs; it only clocks the AD1895.</li>

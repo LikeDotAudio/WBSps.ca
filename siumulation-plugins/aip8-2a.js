@@ -18,7 +18,8 @@
    - …#Altera/v100/AMS81.qpf / AMS81.qsf / AMS81.bdf (EP1C6Q240C7, cntrl[] bit comments), tdm_data_mux.vhd
    - AIP8-2A - #PCB/AIP8-2A-1.net/.bom (display + button board) and AIP8-2A-2.net/.bom (front controller board)
    - AIP8-2A - #Manual/AIP8 2A Manual udated.doc (2015), #Software/AIP8 COMMUNICATION PROTOCOL.doc, aip8 operational info.doc
-   - AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr (Inkscape → assets/aip8-2a-front-white.png, -green.png, 200 dpi)
+   - AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr (Inkscape plain SVG → GREEN + WHITE plates cut between the crop
+     marks and registered → assets/aip8-2a-front.svg, vector, 200 units per inch; Artwork 2026|59, replaces the old PNGs)
    - AIP8-2A-FRONT VIEW.pdf (Feb 21 2007: meter window, grilles, button colours, display examples)
    - SOFTWARE LISTINGS - #Engineering.xls (AIP8-2A sheet: PFV 1.0.0.0 … 1.0.0.2)
    - AMS8 #Engineering #TIM/MECHANICAL/AMS8-M11.pdf (modified encoder "FOR AIP8-2A ONLY")
@@ -28,6 +29,8 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: preload the CorelDRAW SVGs once, so panels that are re-rendered every frame never show them half-loaded */
+const ART_PRELOAD = ["aip8-2a-front.svg"].map(n=>{ const i=new Image(); i.src=ASSET+n; return i; });
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const KEYFLAG = '__aip82aActive';
 
@@ -481,7 +484,7 @@ function frameLen(kind){ return frameBytes(kind).length; }
    PANELS
    Front: AIP8-2A-FRONTSILK-ISS3-curve.cdr (Feb 22 2007) converted with Inkscape, page rendered at 200 dpi and cut
    between the crop marks: 3448 × 680 px = 17.24 × 3.40 in, the same face size as AMS82-FRONT-SILK. The WHITE and
-   GREEN separations are aip8-2a-front-white.png / -green.png. The silk has only the control-area legends and the
+   GREEN plates are both in aip8-2a-front.svg (CorelDRAW vector). The silk has only the control-area legends and the
    knob crosshairs; the meter window, grilles, display window, button caps and screws are placed from
    AIP8-2A-FRONT VIEW.pdf (Feb 21 2007), scaled so its knob centres land on the silk crosshairs.
    ================================================================ */
@@ -547,8 +550,7 @@ function frontSVG(t){
     ${meterSVG(t)}
     <rect x="${DISP.x}" y="${DISP.y}" width="${DISP.w}" height="${DISP.h}" rx="4" fill="#070806" stroke="#333" stroke-width="2"/>
     <g filter="url(#glow)">${dms}</g>
-    <image href="${ASSET}aip8-2a-front-green.png" width="${FW}" height="${FH}"/>
-    <image href="${ASSET}aip8-2a-front-white.png" width="${FW}" height="${FH}"/>
+    <image href="${ASSET}aip8-2a-front.svg" width="${FW}" height="${FH}"/>
     ${BTN_KEYS.map(btn).join('')}${knob('st')}${knob('dv')}${knob('vol')}
     ${[[862,69],[862,615],[1528,69],[1528,615],[1624,306],[2471,306]].map(([x,y])=>screw(x,y)).join('')}${screw(2198,353,11)}
     <rect class="dsp" x="${DISP.x}" y="${DISP.y}" width="${DISP.w}" height="${DISP.h}" fill="transparent"><title>Two Siemens PDSP1884 8-character displays (U1 on CS1 = left, U2 on CS2 = right), written by SIEMENS8_lcd_display1/2</title></rect>
@@ -726,7 +728,7 @@ function inspector(t){
 function viewSim(m){
   window[KEYFLAG] = true;
   m.innerHTML = `
-  ${card('Front panel at the playhead — the real ISS3 silkscreen (Feb 2007)', `<div id="fp"></div><div id="ctl"></div>`)}
+  ${card('Front panel at the playhead — the real ISS3 silkscreen (Feb 2007)', `<div id="fp"></div><div class="small muted" style="margin:3px 0 6px">Silk: GREEN + WHITE plates of ${SIM.src('AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr','AIP8-2A-FRONTSILK-ISS3-curve.cdr')} (22 Feb 2007), CorelDRAW vector, registered between the crop marks. Meter window, grilles, display, caps and screws from AIP8-2A-FRONT VIEW.pdf.</div><div id="ctl"></div>`)}
   <div class="grid2">
     <div>${card('Rear panel — click IN 1 / IN 2 to change the AES input, SDI IN to plug or unplug it', `<div id="rp"></div><div id="cs" style="margin-top:8px"></div><p class="small muted">The rear is the AMS8-2 (AMS8-M2) silk with AIP8-2A labels: ${inf}, no AIP8-2A rear drawing is in the folder. Yellow tags show the AIP8-2A meanings from the manual.</p>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}</div>
@@ -772,7 +774,7 @@ const LESSONS = [
 let lessonIdx = 0;
 function viewTutorial(m){
   window[KEYFLAG] = true;
-  m.innerHTML = `<div class="grid2"><div>${card('Front panel', `<div id="fp"></div><div id="ctl"></div>`)}${card('What the firmware did', `<div id="trace" class="log"></div>`)}</div>
+  m.innerHTML = `<div class="grid2"><div>${card('Front panel', `<div id="fp"></div><div class="small muted" style="margin:3px 0 6px">Silk: GREEN + WHITE plates of ${SIM.src('AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr','AIP8-2A-FRONTSILK-ISS3-curve.cdr')} (22 Feb 2007), CorelDRAW vector, registered between the crop marks. Meter window, grilles, display, caps and screws from AIP8-2A-FRONT VIEW.pdf.</div><div id="ctl"></div>`)}${card('What the firmware did', `<div id="trace" class="log"></div>`)}</div>
     <div>${card('Tutorial — from the AIP8-2A manual', `<div id="les"></div>`)}${card('Progress', `<div id="prog"></div>`)}</div></div>`;
   const draw=()=>{
     if (D.screen===SCR.SETUP) D.lessonFlags.setupSeen = true; if (D.mute) D.lessonFlags.muted = true;
@@ -959,6 +961,7 @@ function viewSoft(m){
 function viewNotes(m){
   window[KEYFLAG]=false;
   const F = [
+    ['Artwork 2026|59: front panel now from the CorelDRAW silk', `${SIM.src('AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS3-curve.cdr','AIP8-2A-FRONTSILK-ISS3-curve.cdr')} (22 Feb 2007), vector, both plates. WHITE carries SOURCE / IN / OUT, Phase B AES SDI ST DV ST DV and ST / DV / VOLUME; GREEN carries WARD-BECK SYSTEMS, AIP8-2A and the group brackets over the buttons. The three issues show the panel being re-thought in three months: ${SIM.src('AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-CURVE.cdr','FRONTSILK-CURVE.cdr')} (30 Nov 2006) has ST · SOURCE · MONITOR over “L/Only Phase AES SDI 1/2 3/4 5/6 7/8”; ${SIM.src('AIP8-2A - #Master #Obsolete /AIP8-2A - #SILK/AIP8-2A-FRONTSILK-ISS2-curve.cdr','ISS2-curve.cdr')} (18 Jan 2007) already has IN ST/DV and OUT ST/DV but still “L/Only”; ISS3 renames L/Only to “B” and moves Phase to the first button. The silk has no rear; the rear here stays the AMS8-M2 silk (inferred).`],
     ['What the product is', `AIP8-2A = “Audio Ingest Processor” (CTVaip quote.pdf, Oct 16 2006: four units, with an “AIP-2AMM Integral Audio Muxer & Demuxer” and a Dolby E/AC-3 decoder option). It is an AMS8-family monitor (AMS8E-1 main board, SHARC meter code from the AMS8-2, 2 RU chassis) with a new front controller (AIP8-2A-2) and display/button board (AIP8-2A-1), and new SHARC routing that turns the monitor into a two-pair gain/source processor.`],
     ['SD Setup exit branch is dead code', `TRANSLATE_ENCODER3 (v100w.c) sets <span class="mono">screen_display = INFORMATION_SCREEN</span> before testing <span class="mono">if ((screen_display == SETUP_SCREEN) && (setup == …))</span>. All four SD Setup branches can never run. Pushing ST anywhere in SD Setup leaves it (not only on Exit, as the manual says), opens the ST-source screen, and skips the EEPROM save of st_number/dv_number. Only the 8000-pass timeout in ACTIVITY_MONITOR saves them.`],
     ['Stale SDI assignment can come back', `Because of the above, the front panel’s EEPROM can hold old st_number/dv_number while the main board saved the new ones on receipt of “# T … D … $”. After a power cycle the main board is right, but the next time someone opens SD Setup the front panel immediately sends its stale pair (SETUP_COM starts on entry) and overwrites the main board. Any later gain change also writes the stale values, because every save writes all eight bytes. (Code reading; not confirmed on hardware.)`],

@@ -429,19 +429,31 @@ function cardSVG(t, opts){
   if (opts.hot) s+=opts.hot;
   return s+'</svg>';
 }
+/* ---- Artwork 2026|59: card edge and T6307 rear module are the archive's CorelDRAW drawings (assets/m6205-*.svg);
+   LEDs and jacks sit on the lens / BNC centres read from those SVGs. */
+const ART_DIR='#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR/M6205 - #Engineering/';
+const EDGE_ART={href:ASSET+'m6205-edge.svg', vb:[58,168,204,418], x:243.8, ys:[189.2,217.4,248.3,295.3,319.2,343.4,367.2,401.4,425.1,468.3],
+  src:()=>SIM.src(ART_DIR+'M6205-card-edge-v10.cdr','M6205-card-edge-v10.cdr')+' (2008-10-30)'};
+const REAR_ART={
+  m6205:{href:ASSET+'m6205-rear-t6307.svg', vb:[262,328,274,348], cols:[359.86,419.86], ys:[400.5,460.5,520.5,580.5,639.7], r:18.7,
+    src:()=>SIM.src(ART_DIR+'PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr','PCB/OBSOLETE/ISSUE4/M6205-T6307.cdr')+' (2008-11-17)'},
+  c200:{href:ASSET+'m6205-rear-t6307-c200.svg', vb:[262,328,274,348], cols:[359.86,419.86], ys:[400.5,460.5,520.5,580.5,639.7], r:18.7,
+    src:()=>SIM.src(ART_DIR+'CUSTOM/M6205C200/V3.0.0.0/M6205-T6307.cdr','CUSTOM/M6205C200/V3.0.0.0/M6205-T6307.cdr')+' (2010-07-13)'} };
+let rearArt='m6205';
+[EDGE_ART.href, ...Object.values(REAR_ART).map(a=>a.href)].forEach(u=>{ const im=new Image(); im.src=u; });   // warm the image cache: panels are redrawn every tick
 function edgeSVG(t){
-  const L=ledsAt(t);
-  let s=`<svg viewBox="0 0 230 330" style="width:100%;max-width:230px;display:block"><rect width="230" height="330" rx="8" fill="var(--dev)"/>
-   <defs><filter id="m65Glow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-   <rect x="22" y="12" width="14" height="292" fill="#1d4d2e" stroke="#333"/>`;
-  LEDS.forEach(([rd,x,y,nm,k,col],i)=>{ const yy=26+i*26+(i>2?8:0)+(i>6?8:0)+(i>8?8:0), on=L[k];
-    s+=`<rect x="23" y="${yy-5}" width="12" height="10" rx="2" fill="${on?col:'#2b2f2c'}" ${on?'filter="url(#m65Glow2)"':''}/><text x="48" y="${yy+5}" font-size="13" fill="#e6e6e6" font-family="sans-serif">${nm}</text>`; });
-  return s+`<text x="115" y="322" font-size="9" text-anchor="middle" fill="#8a8f8c" font-family="sans-serif">card edge (silk legend, issue 4)</text></svg>`;
+  const L=ledsAt(t), E=EDGE_ART, v=E.vb;
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:200px;display:block;border-radius:6px" role="img" aria-label="M6205 card edge (M6205-card-edge-v10.cdr)">
+   <defs><filter id="m65Glow2" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+   <image href="${E.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  LEDS.forEach(([rd,x,y,nm,k,col],i)=>{ const on=L[k];
+    s+=`<circle cx="${E.x}" cy="${E.ys[i]}" r="4.2" fill="${on?col:'#2c332c'}" fill-opacity="${on?1:.55}" ${on?'filter="url(#m65Glow2)"':''}><title>${nm} (${rd})${on?' — on':' — off'}</title></circle>`; });
+  return s+`<text transform="translate(238.5 554.5) rotate(-90)" text-anchor="middle" font-size="9" font-weight="700" fill="#111">M6205A</text></svg><div class="small muted" style="margin-top:2px">Card edge: ${E.src()}</div>`;
 }
 /* T6307 rear: positions and labels from M6205-T6307.pdf (2 columns × 5 rows, “+ − G” on 2, 6 and 8). Panel size from the
    openGear rear-module grid used for T6302 (1.31 × 3.34 in) — inferred for T6307. */
 const T6307 = [['SDI IN','bnc','sdi'],['GPI/O1','phx','gpi1'],['AES OUT1 (L, R)','bnc','o1'],['BNC4 (C, LFE)','bnc','o2'],['AES OUT2 (Ls, Rs)','bnc','o3'],['META DATA','phx','meta'],['AES IN1','bnc','ain'],['GPI/O2','phx','gpi2'],['SDI OUT1','bnc','so'],['SDI OUT2','bnc','so']];
-function rearSVG(t){
+function rearSVGDrawn(t){
   const colX=[46,105], rowY=[52,114,176,238,300];
   let s=`<svg viewBox="0 0 151 354" role="img" aria-label="T6307 rear module" style="width:100%;max-width:220px;display:block">
     <rect x="10" y="10" width="131" height="334" rx="3" fill="#c9ccd0" stroke="#7a7f85"/>`;
@@ -463,7 +475,26 @@ function rearSVG(t){
   });
   return s+`<text x="75" y="352" font-size="7" text-anchor="middle" fill="#55595f">T6307 · single-card termination</text></svg>`;
 }
+function rearSVG(t){
+  const R=REAR_ART[rearArt], v=R.vb, r=R.r;
+  let s=`<svg viewBox="${v.join(' ')}" role="img" aria-label="T6307 rear module (archive drawing)" style="width:100%;max-width:240px;display:block;border-radius:6px">
+    <image href="${R.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  T6307.forEach(([lab,kind,role],i)=>{
+    const cx=R.cols[i%2], cy=R.ys[i>>1];
+    let conn=false, live=false;
+    if (role==='sdi') conn=D.sdi.on; if (role==='gpi1') conn=D.gpi1; if (role==='gpi2') conn=D.gpi2;
+    if (role==='o1') live=peakDb(0,t,0.002)>-90; if (role==='o2') live=peakDb(2,t,0.002)>-90; if (role==='o3') live=peakDb(4,t,0.002)>-90; if (role==='so') live=locked()&&!inBoot(t);
+    const click = (role==='sdi'||role==='gpi1'||role==='gpi2'), outp=(role[0]==='o'||role==='so');
+    s+=`<g ${click?`class="m65-jack" data-j="${role}" style="cursor:pointer"`:''}>`;
+    if (kind==='bnc') s+= conn?`<rect x="${cx-r*.28}" y="${cy}" width="${r*.56}" height="${r*1.9}" fill="#2b5f9e"/><circle cx="${cx}" cy="${cy}" r="${r*.78}" fill="#2b5f9e" opacity=".85"/>`:'';
+    else s+= conn?`<path d="M${cx+r*.55} ${cy-r*.75} h${r*1.1} M${cx+r*.55} ${cy} h${r*1.1}" stroke="#2b5f9e" stroke-width="${r*.3}"/>`:'';
+    if (outp) s+=`<circle cx="${cx+r*.95}" cy="${cy+r*.95}" r="${r*.2}" fill="${live?'var(--accent)':'#888'}" stroke="#222" stroke-width=".6"/>`;
+    s+=`<rect x="${cx-r*1.15}" y="${cy-r*1.2}" width="${r*2.3}" height="${r*2.4}" fill="transparent"><title>${i+1} ${lab}${click?' — click to '+(kind==='bnc'?(conn?'unplug':'plug in'):(conn?'open':'close')+' the contact'):''}${role==='ain'?' — not read by the C200 firmware':''}</title></rect></g>`;
+  });
+  return s+`</svg><div class="small muted" style="margin-top:2px">T6307: ${R.src()} · <a href="javascript:void 0" class="m65-art">${rearArt==='m6205'?'show the C200 drawing':'show the M6205 drawing'}</a></div>`;
+}
 function bindHW(root){
+  root.querySelectorAll('.m65-art').forEach(e=>e.onclick=()=>{ rearArt = rearArt==='m6205'?'c200':'m6205'; SIM.refresh(); });
   root.querySelectorAll('.m65-dip').forEach(g=>g.onclick=()=>A.dip(+g.dataset.i));
   root.querySelectorAll('.m65-jack').forEach(g=>g.onclick=()=>{ const j=g.dataset.j; if (j==='sdi') A.sdi(!D.sdi.on); else if (j==='gpi1') A.gpi1(!D.gpi1); else if (j==='gpi2') A.gpi2(!D.gpi2); });
 }
@@ -860,7 +891,7 @@ const SHEETS = [
     ${[['fsout → DAI pin 1 (SPORT4/5 FS)',75],['sclkout → DAI pin 2 (CLK)',95],['dataout → DAI pin 3 (SPORT5 DA)',115]].map(([l,y])=>`<line x1="570" y1="${y}" x2="720" y2="${y}" stroke="var(--accent)" stroke-width="2"/><text x="575" y="${y-3}" font-size="9" fill="var(--ink)">${l}</text>`).join('')}
     <line x1="570" y1="140" x2="720" y2="140" stroke="var(--accent2)" stroke-width="2"/><text x="575" y="137" font-size="9" fill="var(--ink)">datain2 ← DAI pin 4 (SPORT4 DA)</text>
     <text x="20" y="210" font-size="11" fill="var(--ink2)">The SHARC's control port has no clock of its own: it runs only while the Atmel bit-bangs, about once per video field.</text></svg>`},
-  {name:'5 · T6307 rear module pinout', note:'From M6205-T6307.pdf (“EMBEDDED AUDIO PROCESSOR · SINGLE CARD TERMINATION · MF6220 FRAME”). Redrawn.', svg:()=>`<svg viewBox="0 0 900 360" style="width:100%;display:block"><g transform="translate(330,0)">${rearSVG(SIM.t).replace(/^<svg[^>]*>/,'').replace(/<\/svg>$/,'')}</g></svg>`},
+  {name:'5 · T6307 rear module pinout', note:'From M6205-T6307.pdf (“EMBEDDED AUDIO PROCESSOR · SINGLE CARD TERMINATION · MF6220 FRAME”). Redrawn.', svg:()=>`<svg viewBox="0 0 900 360" style="width:100%;display:block"><g transform="translate(330,0)">${rearSVGDrawn(SIM.t).replace(/^<svg[^>]*>/,'').replace(/<\/svg>$/,'')}</g></svg>`},
 ];
 function viewSchem(m){
   window.__m6205Active=false; let k=0;
@@ -939,6 +970,7 @@ function viewSoft(m){
 function viewFindings(m){
   window.__m6205Active=false;
   const F=[
+    ['Artwork 2026|59: card edge and rear module now from the CorelDRAW files', `Card edge: ${EDGE_ART.src()}; T6307: ${REAR_ART.m6205.src()}, with the C200 issue ${REAR_ART.c200.src()} on a toggle under the panel. The C200 drawing marks BNC4, BNC5, BNC7 and terminal blocks 6 and 8 “N/A”, leaving only AES OUT1 in use — yet the C200 SHARC code (sample.c) still drives C/LFE on BNC4 and Ls/Rs on BNC5, as the generic 2008 drawing labels them, and META DATA on block 6 is the GPI the code reads. The first edge drawing (${SIM.src(ART_DIR+'M6205-card-edge.cdr','M6205-card-edge.cdr')}, 2008-05-08) labels the bottom LED “COM Activity”; v10 renamed it “META DATA”, which is what LED15 shows in this firmware. Neither drawing has a power LED.`],
     ['The control link runs with interrupts off for ≈63 % of every second', `ALTERA_read_write() (altera.c) brackets the whole 440-byte bit-bang with CLI()/SEI(). At about 20 cycles per bit (altera.lis) that is ≈10.45 ms out of each 16.7 ms field. timer0 loses ≈9 of every 16 ticks, so its “ONE_SECOND” DashBoard counter (CAN-05.c) runs about 2.3× slow, and CAN interrupts wait up to 10 ms. The 2011|44 test report notes the card “is still slow showing up on dashboard” after the 3.0.0.1 fix. ${infW('cycle count averaged over branches; lost-tick ratio follows from it')}`],
     ['The SHARC is clocked by the Atmel', 'cntrl_tdm_if.vhd passes the Atmel’s bit-bang clock straight to the SHARC’s SPORT4/5 (sclkout <= sclkin). Gains, GPI1 and the metadata flag reach sample.c only at the end of an exchange. With no SDI lock the Atmel exchanges only every 1500 passes, so GPI and gain changes take about 0.6 s instead of one field.'],
     ['Code and switching-rules document disagree with no metadata', '“M6205c200 switching rules.doc” says that with no metadata, no GPI1 and no Dolby E all six pairs pass. sample.c v104 always zeroes AES2 (C/LFE) and AES3 (Ls/Rs) when Reg 7 bit 15 is clear, and copies AES1 to AES5. The CTV test report says “with no meta data could not check all the functions”.'],

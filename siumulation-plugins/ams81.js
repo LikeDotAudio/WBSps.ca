@@ -456,6 +456,22 @@ const INF = '<span class="tag-inf" title="Not stated in the source; inferred">in
    crosshairs to the panel's (lens x + 308.8 = panel x). Controls sit on the drawing's crosshairs and cut-outs;
    meter LEDs sit on the lens scale rows. */
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: the default faces are now the CorelDRAW vector art, assets/ams81-front.svg, ams81-rear.svg and
+   ams81-lens.svg, cut from the same three .cdr files by Inkscape (plain SVG, pt units) with tools like the PNG cut:
+   each viewBox is the panel outline in the .cdr (front 99.0,140.4 / rear 64.2,207.5, 1241.3 × 118.6 pt; lens window
+   108.9,122.2, 216 × 118.5 pt), the same frame as the 1.375 px/pt PNGs, so the controls stay on their holes.
+   Front: GREEN plate in POD green, WHITE plate (moved up 234.7 pt) in white, mechanical lines in grey. The "CURVES" file
+   still holds live Arial text; centred labels are set text-anchor=middle on the button / jack / knob centres (as in
+   Pics/AMS8-1A (AMS8-M24)Front.jpg), INPUTS / PRESET end-anchored. Drill crosshairs (guide strokes) are left out.
+   The earlier PNG separations stay behind the "PNG silk" toggle. */
+const ART = { png:false, DIR:'AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/',
+  FRONT:'AMS8-1A-FRONT-SILK (CURVES).cdr', LENS:'AMS8-M6-SILK(MLC8-M3) (CURVE).cdr', REAR:'AMS8-M2-Rear-SILK(Curve).cdr' };
+const artSrc = k => SIM.src(ART.DIR+ART[k], ART[k]);
+function artNote(which){
+  const f = which==='rear'? artSrc('REAR')+' (MAY 07/15)' : artSrc('FRONT')+' (OCT.19/15, GREEN + WHITE plates) and the lens '+artSrc('LENS')+' (May 08/15)';
+  return `<div class="small muted" style="margin-top:4px">Artwork: ${f}, CorelDRAW vector art. <label><input type="checkbox" class="artpng" ${ART.png?'checked':''}> show the earlier PNG silk (raster cut of the same .cdr)</label></div>`;
+}
+function bindArt(m){ m.querySelectorAll('.artpng').forEach(c=> c.onchange=e=>{ ART.png=e.target.checked; m.querySelectorAll('.artpng').forEach(o=>o.checked=ART.png); SIM.refresh(); }); }
 const GEO = {
   meterX:[459,494,528.6,563.3,612.7,647.6,682,716.6],
   pairX:[476.6,546,630.2,699.3],
@@ -514,11 +530,12 @@ function frontSVG(t, opts){
     <defs><filter id="amsglow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1707" height="163" rx="6" fill="#202326"/>
     <rect x="${GEO.lensX}" y="0" width="${GEO.lensW}" height="163" fill="#0c0b0b"/>
-    <image href="${ASSET}ams81-front-cut.png" width="1707" height="163" opacity=".55"/>
+    ${ART.png? `<image href="${ASSET}ams81-front-cut.png" width="1707" height="163" opacity=".55"/>` : ''}
     ${meterSVG(t, opts.meter)}
-    <image href="${ASSET}ams81-lens-white.png" x="${GEO.lensX}" y="0" width="${GEO.lensW}" height="163"/>
+    ${ART.png? `<image href="${ASSET}ams81-lens-white.png" x="${GEO.lensX}" y="0" width="${GEO.lensW}" height="163"/>
     <image href="${ASSET}ams81-front-green.png" width="1707" height="163"/>
-    <image href="${ASSET}ams81-front-white.png" width="1707" height="163"/>`;
+    <image href="${ASSET}ams81-front-white.png" width="1707" height="163"/>` : `<image href="${ASSET}ams81-lens.svg" x="${GEO.lensX}" y="0" width="${GEO.lensW}" height="163" preserveAspectRatio="none"/>
+    <image href="${ASSET}ams81-front.svg" width="1707" height="163" preserveAspectRatio="none"/>`}`;
   for (let k=0;k<4;k++){ s += btn(GEO.btnX[k], GEO.btnY[0], L.in[k], false, 'i'+(k+1), `INPUTS ${['1/2','3/4','5/6','7/8'][k]} (channel ${k+1} in the mix screens)`); s += btn(GEO.btnX[k], GEO.btnY[1], L.pr[k], true, 'p'+'ABCD'[k], `PRESET ${'ABCD'[k]} — click = press, hold 3 s = configure the mix (channel ${k+5} in the mix screens)`); }
   s += `<rect x="${d.cx-d.w/2}" y="${d.cy-d.h/2}" width="${d.w}" height="${d.h}" rx="3" fill="#050605" stroke="#2a2d2f"/>
     <g filter="url(#amsglow)">${dotText(txt, x0, y0, pitch, D.power?'var(--vfd)':'#222', 'rgba(140,200,90,.08)')}</g>
@@ -539,12 +556,12 @@ function rearSVG(){
     <rect x="575" y="17" width="402" height="69" fill="#141618"/>${[0,1,2,3].map(i=>`<circle cx="${640+i*95}" cy="52" r="20" fill="#0d0e0f"/>`).join('')}
     <rect x="733" y="99" width="152" height="43" rx="4" fill="#9ea2a6"/><rect x="740" y="105" width="138" height="31" rx="8" fill="#26292b"/>
     ${[470.2,536].map(x=>`<rect x="${x-17}" y="57" width="34" height="50" rx="5" fill="#9ea2a6"/><rect x="${x-11}" y="62" width="22" height="40" rx="6" fill="#26292b"/>`).join('')}
-    <image href="${ASSET}ams81-rear-cut.png" width="1707" height="163" opacity=".5"/>`;
+    ${ART.png? `<image href="${ASSET}ams81-rear-cut.png" width="1707" height="163" opacity=".5"/>` : ''}`;
   s += bnc(1045.9,'ref', D.refIn?'DARS reference':'nothing connected','REF IN');
   [1120.1,1182,1243.9,1305.8].forEach((x,k)=>{ s += bnc(x,'b'+(k+1), SIG_NAME[D.in75[k].type], 'IN '+(k+1)+' (75 Ω)'); });
   [1397.3,1459.2,1521.1,1583].forEach(x=>{ s += `<circle cx="${x}" cy="46.1" r="24" fill="#a68a3c" stroke="#5e4d1c" stroke-width="2"/><circle cx="${x}" cy="46.1" r="15" fill="#d8c27a"/><circle cx="${x}" cy="46.1" r="5" fill="#7a5f12"/>`; });
   s += phx(986,2,'m',null,'MONITOR OUTPUT') + phx(1115,1,'r',null,'REF IN') + phx(1189,4,'p',D.in110,'IN (110 Ω)') + phx(1427,4,'o',null,'OUT');
-  s += `<image href="${ASSET}ams81-rear-white.png" width="1707" height="163"/></svg>`;
+  s += `<image href="${ASSET}${ART.png?'ams81-rear-white.png':'ams81-rear.svg'}" width="1707" height="163" preserveAspectRatio="none"/></svg>`;
   return s;
 }
 function bindPanel(root){
@@ -750,9 +767,9 @@ function inspectorHTML(t){
 function viewSim(m){
   window.__ams81Active = true; lastT=null;
   m.innerHTML = `
-  ${card('Front panel at the playhead — what the operator sees (AMS8-1A, real silk)', `<div id="fp"></div>${controlsHTML()}${optsHTML()}`)}
+  ${card('Front panel at the playhead — what the operator sees (AMS8-1A, real CorelDRAW artwork)', `<div id="fp"></div>${artNote('front')}${controlsHTML()}${optsHTML()}`)}
   <div class="grid2">
-    <div>${card('Rear panel (AMS8-M2) — click IN BNCs (75 Ω), the IN Phoenix blocks (110 Ω) or REF IN', `<div id="rp"></div>`)}
+    <div>${card('Rear panel (AMS8-M2) — click IN BNCs (75 Ω), the IN Phoenix blocks (110 Ω) or REF IN', `<div id="rp"></div>${artNote('rear')}`)}
       ${card('What the software did (last action)', `<div id="trace" class="log"></div>`)}</div>
     <div>${card('State at the playhead', `<div id="insp"></div>`)}</div>
   </div>
@@ -768,7 +785,7 @@ function viewSim(m){
     m.querySelector('#log').innerHTML = D.log.map(e=>`<div><b>${e.name}</b> <span class="muted">@ ${SIM.fmtT(e.t)}</span> → “${e.disp}”</div>`).join('') || '<div class="muted">No actions yet.</div>';
     SIM.drawLanes(m.querySelector('#tl'), lanes(), {labelW:230});
   };
-  bindControls(m); bindOpts(m);
+  bindControls(m); bindOpts(m); bindArt(m);
   SIM.on('time', draw);
 }
 
@@ -1041,6 +1058,7 @@ function viewNotes(m){
   window.__ams81Active = false;
   const li = (t,b)=>`<li><b>${t}</b> ${b}</li>`;
   m.innerHTML = card('What the AMS8-1 firmware is up to — findings from the source', `<ol>
+    <li><b>Artwork ${SIM.year(2026)}: front and rear panels now from ${artSrc('FRONT')} (OCT.19/15), ${artSrc('LENS')} (May 08/15) and ${artSrc('REAR')} (MAY 07/15).</b> (a) The “CURVES” front file is not in curves: all 46 legends are still live Arial text objects, and libcdr drops their alignment, so centred legends were re-centred on the button, knob and jack centres. (b) The 2015 front has <i>hexagonal</i> vents left and right; ${SIM.src(ART.DIR+'Pics/AMS8-1A (AMS8-M24)Front.jpg','AMS8-1A (AMS8-M24)Front.jpg')} shows slotted vents, so the photo is another issue (AMS8-M24; a sister sheet ${SIM.src(ART.DIR+'AMS8-1A-FRONT-SILK (AMS8-M24).cdr','AMS8-1A-FRONT-SILK (AMS8-M24).cdr')} sits beside it). (c) The lens is a shared part: the M6 sheet is the long MLC8-M3 window (1014 × 108 pt) with eight round holes on its right; the AMS8-1 uses only its left 216 pt with the CH1–CH8 scales, DD and ERR. (d) The 1B and 1CA fronts (${SIM.src(ART.DIR+'AMS8-1B-FRONT-SILK (CURVES).cdr','1B')}, ${SIM.src(ART.DIR+'AMS8-1CA-FRONT-SILK (CURVES).cdr','1CA')}, Apr 2016) are different variants and are not modelled.</li>
     ${li("'Z' is not the bootloader any more.", `The protocol doc lists <span class="mono">(Z) Bootloader | Device</span>. In main-board V050001, UART0 'Z' carries <span class="mono">output4_settings</span> (the Setup “Out4 In4/Mon” item). The only line that sets <span class="mono">bootloader = YES</span> is commented out (v200w.c ~810), and so are the jumps to <span class="mono">0x1F800</span> / <span class="mono">loader</span> in <span class="mono">UART1_translate</span>. The linker still reserves <span class="mono">-bbootloader:0x1F800.0x20000</span>, but <span class="mono">bootloader.s</span> is not in the project's file list, and <span class="mono">v200w.mp</span> shows no boot code. Field updates must have used ISP.`)}
     ${li('The bootloader itself is half-finished.', `<span class="mono">bootloader.s</span> (AVRFreaks DN#032, AVR910-style, UART1 38400 Bd) erases pages only until R27 = 0x60 with RAMPZ = 0, reads with <span class="mono">lpm</span> (first 64 KB only), claims auto-increment on 'a' but never increments, and returns no signature on 's'. After 'L' it loops without WDR so the watchdog resets the chip — the exit.`)}
     ${li('The main board shouts continuously.', `<span class="mono">UART0_transmit_counter</span> sends one byte every 3 loops whether or not anything was asked: format, configuration, programme, dialnorm, mix level, frame and data rate, one extended-metadata value and the mode. The front panel likewise sends a byte every 25 passes forever (<span class="mono">data_available0</span> is never cleared). <span class="mono">Transmit_Counter</span> was tuned 200 → 100 → 50 → 25 (old values commented in common.h).`)}
@@ -1074,7 +1092,7 @@ function viewNotes(m){
     <li>…/AMS8 - #Software #Sharc/…#v205/ams81_main.asm, ams81_INIT.ASM, vumeter.asm, phasemeter.asm, *.dat</li>
     <li>…/AMS8 COMMUNICATION PROTOCOL #software.doc · AMS8-1 ISSUE 4 Operational Info.doc · AMS8 - #Manual/AMS81 Operators Instructions version 2117 / 2113</li>
     <li>AMS8-1 - #TESTREPORT/*.pdf · AMS8E - #Master/AMS8E-1 ISS5 - ALTIUM.csv, AMS8E-4-PCAD.csv, AMS8E-4 Production Notes.docx</li>
-    <li>AMS81 - #ARTWORK #DA #2016/AMS8-1A-FRONT-SILK (CURVES).cdr, AMS8-M6-SILK(MLC8-M3) (CURVE).cdr, AMS8-M2-Rear-SILK(Curve).cdr, Pics/*.jpg</li></ul>`);
+    <li>AMS81 - #ARTWORK #DA #2016/${artSrc('FRONT')}, ${artSrc('LENS')}, ${artSrc('REAR')} (assets/ams81-front.svg, -lens.svg, -rear.svg), Pics/*.jpg</li></ul>`);
 }
 
 /* ---------------- register plugin ---------------- */

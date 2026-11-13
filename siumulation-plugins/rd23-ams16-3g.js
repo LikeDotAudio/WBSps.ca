@@ -18,7 +18,8 @@
    - Software/FPGA/backup7-small-design, backup8-proper-inout-delays (V070000, dated 28 Jul 2014)
    - Adam/AMS16/PCB/AMS16A-3-4/AMS163G-ISS7-BOM.xls, AMS163G-ISS7-pnp.xls, OBSOLETE/AMS16A-3iss4.pnp/.bom, OBSOLETE/ISS6/
    - PCB/Schematic/July52011_irina_update/*.SchDoc (iss6 sheet text: nets, ports, parts), power.xls
-   - AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).pdf → assets/rd23-ams16-3g-rear-white.png
+   - AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr → assets/rd23-ams16-3g-rear.svg
+     (artwork pass 2026|59; replaces the older rear-white.png cut from the PDF)
    - AMS16 - #Master/AMS16 - #TESTREPORT/AMS16-2AEM-06AV0000-30OCT12.pdf (format list, jitter limits, firmware V070000/V040000)
    - Hash comparison: md5 of all 13 069 non-sidecar files in RD23 against the 9 455 in "AMS16 - #Master"
    Anything not in those files is marked "inferred" on screen.
@@ -575,21 +576,26 @@ function boardSVG(side){
   return s;
 }
 
-/* ---------------- rear panel: real 3G silkscreen ---------------- */
-const SDI_X = [1813,1963,2112,2263], AES_X = k=>2464+127*k;
+/* ---------------- rear panel: CorelDRAW artwork (artwork pass 2026|59) ----------------
+   AMS16AQ-3G-M2-SILK (curve).cdr (23 Oct 2012), converted with Inkscape/libcdr: cut-outs from the sheet's assembled view,
+   ink from its WHITE plate (curves), registered on the crop marks. 17.24″ × 3.40″ drawn as 3447 × 680 (200 px/in).
+   Connector centres below are the hole centres on that sheet. */
+const ART_REAR = 'AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16AQ-3G-M2-SILK (curve).cdr';
+const SDI_X = [1809,1959,2109,2259], SDI_Y = 580, AES_X = k=>2459+125*k, AES_Y = [419,543], MON_X = 2959;
 function rearSVG(){
   const bnc=(x,y,cls,title,on,col)=>`<g ${cls?`class="${cls}" style="cursor:pointer"`:''}><circle cx="${x}" cy="${y}" r="44" fill="${col||'#b9b3a4'}" stroke="#5d5848" stroke-width="3"/><circle cx="${x}" cy="${y}" r="27" fill="#e9e5d8"/><circle cx="${x}" cy="${y}" r="9" fill="#7a6a3a"/>${on?`<rect x="${x-18}" y="${y+30}" width="36" height="${680-y-30}" fill="#2b5f9e"/><rect x="${x-30}" y="${y+12}" width="60" height="44" rx="8" fill="#3a74b8"/>`:''}<title>${title}</title></g>`;
   const now = sideNow('after', SIM.t);
-  let s=`<svg viewBox="0 0 3447 680" role="img" aria-label="AMS16-3G rear panel (real silkscreen)" style="width:100%;display:block;border-radius:6px"><rect width="3447" height="680" fill="#141517"/>
-    <rect x="85" y="394" width="212" height="238" rx="10" fill="#0b0b0c" stroke="#444" stroke-width="3"/>
-    <path d="M1873 128 h326 l-16 96 h-294 z" fill="#8f9295" stroke="#55595c" stroke-width="3"/><path d="M2446 134 h150 l-10 80 h-130 z" fill="#8f9295" stroke="#55595c" stroke-width="3"/>`;
-  [1,2].forEach(n=>{ const sr=D.src[n]; s+=bnc(SDI_X[n-1],583,'rd23j'+n,`SDI IN${n}: ${sr.plugged?FMT[sr.fmt].name+(sr.gefen?' (Gefen converter)':''):'unplugged'} — click to ${sr.plugged?'unplug':'plug in'}`,sr.plugged,D.input===n?'#e0b840':'#c9a43a'); });
-  s+=bnc(SDI_X[2],583,'',`SDI OUT1 (3G build): ${now.loop}`,false,'#c9a43a')+bnc(SDI_X[3],583,'',`SDI OUT2: ${now.loop}`,false,'#c9a43a');
-  for (let k=0;k<4;k++){ s+=bnc(AES_X(k),426,'',`AES ${k+1} OUT`)+bnc(AES_X(k),558,'',`AES ${k+5} OUT`); }
-  s+=bnc(2971,426,'','MONITOR 1')+bnc(2971,558,'','MONITOR 2');
-  s+=`<image href="${ASSET}rd23-ams16-3g-rear-white.png" width="3447" height="680"/></svg>`;
-  return s;
+  let s=`<svg viewBox="0 0 3447 680" role="img" aria-label="AMS16-3G rear panel (CorelDRAW artwork, 23 Oct 2012)" style="width:100%;display:block;border-radius:6px"><rect width="3447" height="680" fill="#141517"/>
+    <image href="${ASSET}rd23-ams16-3g-rear.svg" width="3447" height="680" preserveAspectRatio="none"/>
+    <rect x="80" y="400" width="204" height="230" rx="10" fill="#0b0b0c" stroke="#444" stroke-width="3"><title>IEC inlet + fuse (216 × 244 px cut-out on the sheet)</title></rect>
+    <path d="M1874 136 h320 l-16 87 h-288 z" fill="#8f9295" stroke="#55595c" stroke-width="3"><title>AUX 1 (DB25 cut-out, screw holes at 1849 / 2219)</title></path><path d="M2448 136 h146 l-10 87 h-126 z" fill="#8f9295" stroke="#55595c" stroke-width="3"><title>DOLBY E METADATA (DE9 cut-out, screw holes at 2423 / 2619)</title></path>`;
+  [1,2].forEach(n=>{ const sr=D.src[n]; s+=bnc(SDI_X[n-1],SDI_Y,'rd23j'+n,`SDI IN${n}: ${sr.plugged?FMT[sr.fmt].name+(sr.gefen?' (Gefen converter)':''):'unplugged'} — click to ${sr.plugged?'unplug':'plug in'}`,sr.plugged,D.input===n?'#e0b840':'#c9a43a'); });
+  s+=bnc(SDI_X[2],SDI_Y,'',`SDI OUT1 (3G build): ${now.loop}`,false,'#c9a43a')+bnc(SDI_X[3],SDI_Y,'',`SDI OUT2: ${now.loop}`,false,'#c9a43a');
+  for (let k=0;k<4;k++){ s+=bnc(AES_X(k),AES_Y[0],'',`AES ${k+1} OUT`)+bnc(AES_X(k),AES_Y[1],'',`AES ${k+5} OUT`); }
+  s+=bnc(MON_X,AES_Y[0],'','MONITOR 1')+bnc(MON_X,AES_Y[1],'','MONITOR 2');
+  return s+'</svg>';
 }
+const rearSrc = ()=>`Rear artwork: ${SIM.src(ART_REAR,'AMS16AQ-3G-M2-SILK (curve).cdr')} (23 Oct 2012|45), converted to SVG — cut-outs from the assembled view, white ink from the WHITE plate.`;
 
 /* ---------------- shared controls ---------------- */
 const SCEN = [['steady','Steady (both locked)'],['swap','Source change at 50 ms'],['input','INPUT switch at 50 ms'],['boot','Power-up at 0 s'],['fpga','FPGA reload at 50 ms']];
@@ -671,7 +677,7 @@ function viewSim(m){
   const draw = ()=>{
     const t = SIM.t;
     m.innerHTML = `${card('RD23: the AMS16 3G-SDI upgrade, before and after', `<p class="small muted" style="margin:0 0 8px">Same rear panel, same front panel, same SHARC and front-panel controller: RD23 replaced the SDI receive/loop chain and the FPGA on the main board (AMS16A-3 iss4/5 → iss6 → iss7) and rewrote the main-board start-up. Pick a scenario and a format, then play the two seconds. The 3G build's R&D stages can be stepped through below (from the progress logs and backup histories).</p>${controlsHTML()}`)}
-     ${card('Rear panel (AMS16AQ-3G-M2 silkscreen: identical layout on the pre-3G AMS16-2AEM/2AM photos)', `<div id="rd23rear">${rearSVG()}</div><div class="small muted">Click IN1/IN2 to plug or unplug. The highlighted BNC is the selected INPUT.</div>`)}
+     ${card('Rear panel (AMS16AQ-3G-M2 silkscreen: identical layout on the pre-3G AMS16-2AEM/2AM photos)', `<div id="rd23rear">${rearSVG()}</div><div class="small muted">Click IN1/IN2 to plug or unplug. The highlighted BNC is the selected INPUT. ${rearSrc()}</div>`)}
      <div class="grid2" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr)"><div>${sidePanel('before',t)}</div><div>${sidePanel('after',t)}</div></div>
      <div class="grid2" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr)">${card('Firmware trace — pre-3G (v100.c)', `<div class="log" id="rd23trA">${traceHTML('before',t)}</div>`)}${card('Firmware trace — 3G build (ams16.c)', `<div class="log" id="rd23trB">${traceHTML('after',t)}</div>`)}</div>
      ${card('Timeline of this run', `<canvas id="rd23tl"></canvas><div class="small muted">Click to seek. Full detail on the “One second, frame by frame” tab.</div>`)}`;
@@ -1053,6 +1059,7 @@ function viewFindings(m){
     ['…/AMS163G-ISS7-BOM.xls, AMS163G-ISS7-pnp.xls','603f1425','bfe7359f','10–11 bytes differ; the extracted cell text is identical (file metadata).'],
   ];
   m.innerHTML = card('What the RD23 files show — findings', `<ol>
+   ${f(`Artwork ${SIM.year(2026)}: rear panel now from ${SIM.src(ART_REAR,'AMS16AQ-3G-M2-SILK (curve).cdr')} (23 Oct 2012|45).`, `The sheet is dated the day before the v700 release (24 Oct 2012) and is byte-identical to the two copies in <span class="mono">AMS16 - #Engineering/SILK</span> and <span class="mono">AMS16A - #SILK</span> (“_final curve”). The plate still reads <b>AMS-16A</b>: the 3G upgrade changed no hole and no legend, so the rear says nothing about 3G. The AES and MONITOR outputs are BNC holes (Ø0.485″) with D-shaped Ø0.50″ holes for SDI IN1/IN2/OUT1/OUT2; AUX 1 is a DB25 and DOLBY E METADATA a DE9, each with screw holes. The connector centres moved by up to 15 px from the older drawing. The sheet's assembled view uses live Arial text; the WHITE plate (used here) is curves. The front sheets are ${SIM.src('ENGINEERING - 2016 RD FILES/RD23AMS163GSDIUpgrade/Adam/AMS16/SILK/AMS16A2-SILK-FINALcurve.cdr','AMS16A2-SILK-FINALcurve.cdr')} (Oct 2008|41, in RD23) and ${SIM.src('AMS16 - #Master/AMS16 - #ARTWORK #DA #2016/AMS16A2-M1-FRONT-SILK (CURVE).cdr','AMS16A2-M1-FRONT-SILK (CURVE).cdr')} (OCT.27/15); RD23 did not touch the front panel, so it is not drawn here (see the AMS16 plugin).`)}
    ${f('The master copy of the release front panel is one save behind.', 'RD23 <span class="mono">AMS16-3G v700 October 24 2012/Atmel Front Panel/v200w.c</span> builds a version screen of <span class="mono">06AV0000</span>, the firmware named on the test report <span class="mono">AMS16-2AEM-06AV0000-30OCT12.pdf</span> (front panel AMS16A-2 iss4, V040000). The same-named file in <span class="mono">AMS16 - #Master</span> shows <span class="mono">&nbsp;5.0.0.0</span> and has the same md5 as RD23\'s <span class="mono">v200w._c</span>. The finished-product plugin (ams16.js) models the master copy, so its Version screen shows 5.0.0.0.')}
    ${f('Two folders called “v600” hold different firmware.', 'RD23 <span class="mono">Adam/…/Main Board/v600/ams16.c</span> is byte-identical to the v700 release (md5 d61391fd). The master\'s <span class="mono">AMS16A - #software/atmel/Main Board/v600/ams16.c</span> is the January 2012 code (cb518d1b = RD23 <span class="mono">Software/Atmel/main/v202</span> = backup12). Anyone rebuilding “v600” from the master gets the V5000 behaviour: level B→A conversion on, no 3G-B audio mute, no changeInput().')}
    ${f('Level B was first converted, then refused.', 'Jan 2012 <span class="mono">gs2970AInit</span>: <span class="mono">IOPROC_2 = 0x0400</span> “clear ioproc_2 bit 8 to enable conversion of level B to level A”. Oct 2012 (“Adam Rem/Adam Add”): <span class="mono">0x0500</span> “set ioproc_2 bit 8 to disable conversion”, <span class="mono">writeVideo1Reg</span> sets BIT7 “active high disables audio input” for LOCK_3GB, FPGA v103 “disabled audio when 3GB is detected”, and the panel shows <span class="mono">&nbsp;No Lock</span> (the <span class="mono">3GB-SDI</span> text is commented out). <span class="mono">gs2970ASetPayloadID()</span> still writes <span class="mono">0x0080</span> for 3G-A, which clears bits 8 and 10 again: conversion and 352M insertion are back on whenever a 3G-A signal has been seen.')}

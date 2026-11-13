@@ -6,6 +6,7 @@
    - POD24 - #Engineering/PCB/POD24iss2.net                         (P-CAD ISS2 netlist: every pin, value and net below)
    - POD24 - #Engineering/MANUAL/POD24MANU.doc / .wpd                (manual: 10 W/channel, gain 17 dB, +21 dBu max in, STEREO mode)
    - POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).pdf    (panel silkscreen, Jun 26 2014)
+   - POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr → assets/pod24-front.svg, pod24-rear.svg (Inkscape, plates + cut-out layer registered, 2026|59; replaces the PNG cut from the .pdf)
    - POD24 - #Mechanical #DA #2016/POD24-FRONT/REAR ISS 1 (PANEL).pdf, POD24-HEATSINK ISS 1.pdf, POD24-PLATE ISS 1 (MTG.PLATE).pdf
    - TDA2616 behaviour (30 dB internal gain, ~20 kΩ input) is from the part's datasheet, not the archive: marked inferred.
    ===================================================================== */
@@ -25,16 +26,16 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
-  </svg>`;
+  </svg><div class="small muted" style="margin:2px 0 6px">Panel artwork: ${SIM.src(ART_SRC, ART_LABEL)} (CorelDRAW, curves; green and white plates registered on one panel)</div>`;
 }
+const ART_SRC = '#POD #SERIES/POD24 - #Master/POD24 - #ARTWORK #DA #2016/POD24-FRONT&REAR-SILK (CURVE).cdr', ART_LABEL = 'POD24-FRONT&REAR-SILK (CURVE).cdr, Jun 26 2014';
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
   return `<g class="pwr" style="cursor:pointer"><title>Power rocker: click to switch ${on?'off':'on'}</title><rect x="${x}" y="${y}" width="112" height="146" rx="10" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/>
@@ -384,13 +385,13 @@ const A={
 };
 function toggle(x,y,up,cls,title){ return `<g class="${cls}" style="cursor:pointer"><title>${title}</title><circle cx="${x}" cy="${y}" r="24" fill="#b9bcbf" stroke="#6b6f73" stroke-width="3"/><circle cx="${x}" cy="${y}" r="10" fill="#555"/><line x1="${x}" y1="${y}" x2="${x}" y2="${up?y-48:y+48}" stroke="#d9dcdf" stroke-width="10" stroke-linecap="round"/></g>`; }
 function frontSVG(t){ const over=rocker(D.power)+pled(D.power&&railAt(t)>4)+trim(980,210,D.lvl.L,'lv-L','LEFT (RV1 dual 10K)')+toggle(1179,218,D.stereo,'sw','STEREO / LEFT-RIGHT switch (SW1) — click')+trim(1380,210,D.lvl.R,'lv-R','RIGHT (RV2 10K)');
-  return panelSVG(PREFIX,'front',{over},'POD24 front panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'front',{over},'POD24 front panel (CorelDRAW silk artwork)'); }
 function spk(x,y,col,title,live){ return `<g><title>${title}</title><rect x="${x-34}" y="${y-48}" width="68" height="96" rx="6" fill="${col}" stroke="#222" stroke-width="2"/><rect x="${x-14}" y="${y-30}" width="28" height="20" fill="#111"/><circle cx="${x}" cy="${y+20}" r="9" fill="#ddd"/>${live?`<rect x="${x-30}" y="${y-44}" width="60" height="6" fill="var(--accent)"/>`:''}</g>`; }
 function rearSVG(t){ const live=s=>D.power&&levels(s).out>-60;
   const over=xlr(269,156,false,D.plug.L,'pl-L','LEFT input (XLR-F) — click')+xlr(529,156,false,D.plug.R,'pl-R','RIGHT input (XLR-F) — click')
     +`<rect x="720" y="92" width="430" height="120" rx="8" fill="#151617" stroke="#333"/>`+spk(770,152,'#c8312a','LEFT + (U13 pin 4)',live('L'))+spk(880,152,'#222','LEFT − (U13 pin 6)',live('L'))+spk(990,152,'#222','RIGHT − (U22 pin 6)',live('R'))+spk(1100,152,'#c8312a','RIGHT + (U22 pin 4)',live('R'))
     +iec(1421,84,1647,250);
-  return panelSVG(PREFIX,'rear',{over},'POD24 rear panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'rear',{over},'POD24 rear panel (CorelDRAW silk artwork)'); }
 function bindPanel(r){ const p=r.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); ['L','R'].forEach(s=>{ bindTrim(r,'lv-'+s,d=>A.lvl(s,d)); r.querySelectorAll('.pl-'+s).forEach(g=>g.onclick=()=>A.plug(s)); }); r.querySelectorAll('.sw').forEach(g=>g.onclick=()=>A.mode()); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-top:8px"><label>Left source <input id="gl" type="number" value="${D.gen.L}" style="width:52px"> dBu</label><label>Right source <input id="gr" type="number" value="${D.gen.R}" style="width:52px"> dBu</label>
   <label>Tone <select id="gF">${[100,1000,10000].map(f=>`<option ${f===D.gen.f?'selected':''}>${f}</option>`).join('')}</select> Hz</label><label>Speakers <select id="ld">${[16,8,4].map(v=>`<option ${v===D.load?'selected':''}>${v}</option>`).join('')}</select> Ω</label></div>
@@ -452,6 +453,7 @@ const viewSoft=softView({flag:'__pod24Active',D,intro:'POD24 has no processor. C
   buttons:[['LEFT trim','RV1 sec 1 (and sec 2 in STEREO)','Left (both) level'],['RIGHT trim','RV2 → U7 Y1','Right level (L/R mode only)'],['Mode lever','SW1 → U7 selects','STEREO ⇄ LEFT/RIGHT']],
   pins:[['LEFT / RIGHT input (XLR-F)','2 / 3 / 1','XLR2 / XLR1: + / − / GND'],['Speaker terminals','+ − − +','U13-4, U13-6, U22-6, U22-4 (left +, left −, right −, right +)'],['DCIN','1 / 2 / 3','GND / −VA / +VA']]});
 const viewNotes=notesView('__pod24Active','What the POD24 archive shows — findings',[
+  `<b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_SRC,'POD24-FRONT&REAR-SILK (CURVE).cdr')} (Jun 26 2014|47).</b> The sheet holds three plates (FRONT GREEN, FRONT WHITE, REAR WHITE) plus a mechanical layer of cut-outs; they are registered on one 217.7 × 40.8 mm panel and inked green/white over the hole layer. It shows what the old PNG silk could not: the 9-slot front vent, the rocker cut-out, an 8-slot rear vent and a small unlabeled hole beside “115 VAC, 1/2 A.S.B.” (fuse holder or ground stud, ${inf}).`,
   `<b>The manual says “MONO”, the panel says “LEFT / RIGHT”.</b> POD24MANU.doc: “In the MONO mode the left and right output levels may be adjusted individually.” The silk (and the U7 wiring) make it a stereo-linked vs independent-level switch; nothing makes the amplifier mono.`,
   `<b>12 VA cannot make 2 × 10 W.</b> The manual quotes 10 W/channel and “115V AC/60Hz, 12 VA”. The same 12 VA, 40 kΩ, 60 Ω and 1.27 kg appear in the POD26 manual, so the spec block was copied from a line-level product.`,
   `<b>“Output Impedance 60 Ω” is copied too.</b> A bridged TDA2616 has a fraction of an ohm output impedance; 60 Ω is the POD26 line-output figure.`,
@@ -461,7 +463,7 @@ const viewNotes=notesView('__pod24Active','What the POD24 archive shows — find
   `<b>The RIGHT trim is dead in STEREO mode.</b> U7's Y0 grounds RV2's resistor end, so turning it changes nothing until the lever goes to LEFT/RIGHT.`,
   `<b>Duplicated folders.</b> <span class="mono">POD24 - #PCB</span>, <span class="mono">#MANUAL</span>, <span class="mono">#MECHANICAL</span> duplicate <span class="mono">PCB</span>, <span class="mono">MANUAL</span>, <span class="mono">MECHANICAL</span>; LEFT_OUT/RIGHT_OUT footprints are DNI (wired off-board).`],
   [`TDA2616: 30 dB per half, ≈20 kΩ input resistance (${inf}, datasheet).`,`±VA = ±${V.Vrail} V, 1.5 V drop (${inf}).`,`Pots log taper (${inf}).`],
-  ['POD24 - #Engineering/PCB/POD24iss2.net · POD24iss2.sch · WORKING/ (ISS3 Altium import)','POD24 - #Engineering/MANUAL/POD24MANU.doc','POD24 - #ARTWORK #DA #2016/POD24-FRONT&amp;REAR-SILK (CURVE).pdf','POD24 - #Mechanical #DA #2016/POD24-FRONT ISS 1 · POD24-REAR ISS 1 · POD24-HEATSINK ISS 1 · POD24-PLATE ISS 1']);
+  ['POD24 - #Engineering/PCB/POD24iss2.net · POD24iss2.sch · WORKING/ (ISS3 Altium import)','POD24 - #Engineering/MANUAL/POD24MANU.doc','POD24 - #ARTWORK #DA #2016/POD24-FRONT&amp;REAR-SILK (CURVE).pdf · '+SIM.src(ART_SRC,'POD24-FRONT&REAR-SILK (CURVE).cdr')+' (panel artwork)','POD24 - #Mechanical #DA #2016/POD24-FRONT ISS 1 · POD24-REAR ISS 1 · POD24-HEATSINK ISS 1 · POD24-PLATE ISS 1']);
 SIM.register({ id:'pod24', name:'POD24 · 10 W stereo monitor power amplifier (2014|47)', duration:1, product:'POD24', year:2014, family:'POD series', folder:'#POD #SERIES/POD24 - #Master',
   summary:'Half-rack stereo monitor amplifier: balanced XLR inputs, screwdriver level trims with a STEREO-link lever, and two TDA2616s driving bridged speaker outputs. Modelled from the ISS2 netlist; the year is the panel silk date.',
   highlights:['Real silkscreen panels with trims, mode lever, XLRs and speaker terminals','CMOS mode switch that hands the right channel to the left knob','Bridged TDA2616 outputs with power and clipping','Manual spec block copied from POD26'],

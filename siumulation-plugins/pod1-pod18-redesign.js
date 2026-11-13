@@ -30,12 +30,12 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
+  /* CorelDRAW artwork (Artwork 2026|59): <prefix>-front.svg = GREEN + WHITE plates on the panel, -rear.svg = rear WHITE plate */
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${'pod1-pod18-redesign-'+prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
@@ -406,7 +406,7 @@ function nowTable(){ return `<table class="kv"><tr><th>Build</th><td>${CONFIG[D.
   <tr><th>Parts cost (mutant BOM prices)</th><td class="mono">${cost()==null?'n/a':'$'+cost().toFixed(2)}</td></tr></table>`; }
 function viewSim(m){
   window.__rd64Active=true;
-  m.innerHTML=`<div class="grid2"><div>${card('The study: one main board, two slots, a choice of supplies',`${controlsHTML()}<div id="bd"></div>`)}${card('Front and rear panel of this build',`<div id="fp"></div><div id="rp" style="margin-top:8px"></div>`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('The study: one main board, two slots, a choice of supplies',`${controlsHTML()}<div id="bd"></div>`)}${card('Front and rear panel of this build',`<div id="fp"></div><div id="rp" style="margin-top:8px"></div><div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src('#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr', 'POD1-FRONT&REAR-SILK(CURVE) .cdr')} (2015|48) or ${SIM.src('#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr', 'POD18-FRONT&REAR-SILK (CURVE).cdr')} (2015|48), by build; CorelDRAW silk plates in their real inks.</div>`)}</div>
     <div>${card('What changed (last action)',`<div id="trace" class="log"></div>`)}${card('This build now',`<div id="now"></div>`)}</div></div>
     ${card('Timeline — one second, zoomable: supply behaviour and both slots',`<canvas id="tl"></canvas>`)}
     <div class="grid2">${card('Levels through each stage (left channels)',`<div id="lv"></div>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
@@ -480,7 +480,7 @@ function viewSoft(m){
   SIM.on('time',draw);
 }
 function viewNotes(m){ window.__rd64Active=false;
-  m.innerHTML=card('What RD64 shows — findings',`<ol>
+  m.innerHTML=card('What RD64 shows — findings',`<ol><li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD1 - #Master/POD1 - #SILK/POD1-FRONT&REAR-SILK(CURVE) .cdr', 'POD1-FRONT&REAR-SILK(CURVE) .cdr')} (2015-09-30|48) and ${SIM.src('#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr', 'POD18-FRONT&REAR-SILK (CURVE).cdr')} (2015-10-02|48).</b> GREEN + WHITE front plates and the WHITE rear plate of each, registered on the panel outline (assets/pod1-pod18-redesign-pod1-*.svg, -pod18-*.svg). Both rear plates still read “115 VAC, 1/2 A.S.B.”: no RD64 artwork for the universal-input supply exists, so a redesigned build would have needed new rear silk. The two sheets share one front layout (OUTPUT ADJUST L/R ×2); only the name line, the sub-legends under the trims (POD1: UNBALANCED / BALANCED, POD18: OUTPUT 1 / OUTPUT 2) and the rear XLR labels differ (POD18: BALANCED OUTPUTS 2 and 1, IN 2 / IN 1). The 2013|46 POD-18 FRONT SILK (FINAL CURVE).cdr copies in POD18 and POD1 folders were not used.</li>
    <li><b>When it ran.</b> The README gives no date. The file dates trace it: <span class="mono">details.txt</span> 21 Feb 2013 → mutant-POD BOM 14 Jun 2013 → black-box BOM 4 Oct 2013 → POD1 test 4 Nov 2013 → POD1 kit BOM 28 May 2014 → POD1-2 ISS3 sheet 10 Aug 2015 → SA-BALtoUNBAL quote 18 Dec 2015 → POD1-3 ISS3 sheet 5 Feb 2016. So RD64 ran from 2013|46 to 2016|49.</li>
    <li><b>Goal 1 was met with one main board.</b> <span class="mono">SA-POD1-MAIN</span> is used by both kits. POD1 = MAIN + BAL2UNB + UNB2BAL with 2 female + 2 male XLRs; POD18 = MAIN + 2 × UNB2BAL with 4 male XLRs. The XLR footprints carry both IN and OUT nets.</li>
    <li><b>The DC-DC part number and the bus disagree.</b> Every final BOM (main board, BAL2UNB, UNB2BAL, black box) orders <span class="mono">SUW1R5-1212</span>, normally read as the 12 V-input part, but the bus is 5 V (NFM-10-5, or USB in the black box). POD13A and POD14A use the same line on a 5 V bus, and POD13A's test procedure measures ±12 V out, so the stock code evidently stood for a part that works from 5 V. The “as the BOM lists it” supply option shows the literal reading (${inf}).</li>
@@ -491,7 +491,7 @@ function viewNotes(m){ window.__rd64Active=false;
    <li><b>Sub-boards are built for both uses.</b> POD1-2/POD1-3 carry a micro-USB input, their own SUW1R5 and LED, Phoenix terminals and a 3.5 mm jack, all DNI in the POD kits. A drafting note asks for the 5K trims to fit on the board's underside, so the same board serves the front-panel trims of a POD.</li>
    <li><b>Leftovers.</b> <span class="mono">temp-pcb.dat</span> is a P-CAD component dump, not code. <span class="mono">“(Security copy)”</span> files are Multisim auto-backups. <span class="mono">PCB/backup1…13</span> are Altium snapshots. The micro-USB DWGs (<span class="mono">MICROUSB*.dwg</span>) belong to the black-box variant.</li></ol>`)
   +card('Assumptions',`<ul class="small"><li>Supply ripple other than the RPT-60C figure, rail rise times and the 1.5 V swing loss are ${inf}.</li><li>The main-board drawing is a layout sketch, not to scale: the DWG dimension drawings could not be read here.</li><li>Black-box panel drawn from its BOM part list (${inf}).</li></ul>`)
-  +card('Sources',`<ul class="small mono"><li>details.txt · mutant POD/mutant pod bom.xlsx · mutant POD/RPT-60-spec-32191.pdf</li><li>PCB/BLACK BOX MASTER BOM.xlsx · PCB/POD1 MASTER BOM with jumpers.xlsx</li><li>POD 1 - POD 18 POD 14- AB  #SA BALtoUNBAL - #Master/SA-BALtoUNBAL - QUOTE/SA-BALtoUNBAL - QUOTE SQ20146.pdf</li><li>../POD1 - #Master ISS3 schematics · ../POD18 - #Master/POD18 - #Engineering/PCB/OBSOLETE/POD18ISS2.net</li><li>Panels: assets/pod1-*.png and assets/pod18-*.png (POD1 and POD18 silkscreen)</li></ul>`); }
+  +card('Sources',`<ul class="small mono"><li>details.txt · mutant POD/mutant pod bom.xlsx · mutant POD/RPT-60-spec-32191.pdf</li><li>PCB/BLACK BOX MASTER BOM.xlsx · PCB/POD1 MASTER BOM with jumpers.xlsx</li><li>POD 1 - POD 18 POD 14- AB  #SA BALtoUNBAL - #Master/SA-BALtoUNBAL - QUOTE/SA-BALtoUNBAL - QUOTE SQ20146.pdf</li><li>../POD1 - #Master ISS3 schematics · ../POD18 - #Master/POD18 - #Engineering/PCB/OBSOLETE/POD18ISS2.net</li><li>Panels: assets/pod1-pod18-redesign-pod1-*.svg and -pod18-*.svg (POD1 and POD18 CorelDRAW silk sheets)</li></ul>`); }
 
 SIM.register({
   id:'pod1-pod18-redesign', name:'POD1–POD18 redesign (RD64) · one SMT board family for two products (2013|46)', duration:1,

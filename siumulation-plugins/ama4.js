@@ -8,7 +8,9 @@
    - #AMA #SERIES/XXX - AMA4 #Obsolete/
        AMA4-M1 ISS 2 (FRONT PANEL) .pdf, AMA4-M2 ISS 3 (REAR PANEL).pdf, AMA4-M3 ISS 2 (BOTTOM PAN) .pdf
        AMA4 - #ARTWORK #DA #2016/AMA4-M1-FRONT-SILK (CURVE).pdf, AMA4-M2-REAR-SILK(CURVE).pdf
-         → tools/silk_extract.py → assets/ama4-front-green.png, ama4-front-white.png, ama4-rear-white.png
+         → tools/silk_extract.py → assets/ama4-front-green.png, ama4-front-white.png, ama4-rear-white.png (superseded)
+       AMA4-M1-FRONT-SILK (CURVE).cdr, AMA4-M2-REAR-SILK(CURVE).cdr → Inkscape → tools cut (Artwork 2026|59)
+         → assets/ama4-front.svg (GREEN + WHITE plates registered), ama4-rear.svg (vector, 200 units per inch)
    - #AMA #SERIES/XXX - AMA - #OBSOLETE #Archive/AMA - #SILKS/Older Drawings/
        AMA-S1(.._TEST).cdr, AMA-S2(.._TEST).cdr (2002), Ama4manu_TEST.cdr (2003)
          → Inkscape (libcdr) → assets/ama-front-2002-green.png, ama-front-2002-white.png, ama-rear-2003-manual.png
@@ -21,6 +23,8 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: preload the CorelDRAW SVGs once, so panels that are re-rendered every frame never show them half-loaded */
+const ART_PRELOAD = ["ama4-front.svg", "ama4-rear.svg"].map(n=>{ const i=new Image(); i.src=ASSET+n; return i; });
 const inf = '<span class="tag-inf">inferred</span>';
 const card = (t,b,id)=>`<div class="card"${id?` id="${id}"`:''}><h2>${t}</h2>${b}</div>`;
 const ID='ama4', ERA=2016, FLAG='__ama4Active';
@@ -163,7 +167,7 @@ function frontSVG(){
   let leds=''; for (let i=0;i<10;i++){ const x=(5.215+i*0.16)*PX; for (const [y,v] of [[0.724*PX,vl],[0.924*PX,vr]]){ const lit=on&&v>=VU[i]; leds+=`<circle cx="${x}" cy="${y}" r="12" fill="${lit?ledCol(i):'#26302a'}" ${lit?'filter="url(#glw)"':''}/>`; } }
   const red=on&&phaseRed(), grn=on&&!red;
   const txt = dispAt(t);
-  const layers=`<image href="${ASSET}ama4-front-green.png" width="3420" height="330"/><image href="${ASSET}ama4-front-white.png" width="3420" height="330"/>`;
+  const layers=`<image href="${ASSET}ama4-front.svg" width="3420" height="330"/>`;
   return `<svg viewBox="0 0 3420 330" style="width:100%;display:block;border-radius:6px" role="img" aria-label="front panel">
   <defs><filter id="glw" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
   <rect width="3420" height="330" rx="6" fill="#17191b"/>${slots()}
@@ -185,7 +189,7 @@ const eb=(x,y,cls,on,t,col)=>`<g class="${cls}" style="cursor:pointer"><rect x="
 const bnc=(x,y,r,cls,on,t)=>`<g class="${cls}" style="cursor:pointer"><circle cx="${x}" cy="${y}" r="${r}" fill="#b9bcc0" stroke="#666" stroke-width="3"/><circle cx="${x}" cy="${y}" r="${r*0.55}" fill="#d9dadc"/><circle cx="${x}" cy="${y}" r="${r*0.18}" fill="#333"/>${on?`<circle cx="${x}" cy="${y}" r="${r*0.95}" fill="none" stroke="#2f9e55" stroke-width="${r*0.3}"/>`:''}<title>${t}</title></g>`;
 const post=(x,y,cls,lbl,col)=>`<g class="${cls}" style="cursor:pointer"><circle cx="${x}" cy="${y}" r="34" fill="${col}" stroke="#111" stroke-width="3"/><circle cx="${x}" cy="${y}" r="13" fill="#333"/>${D.spk?`<path d="M${x},${y} l0,-70" stroke="${lbl.includes('+')?'#c33':'#222'}" stroke-width="10"/>`:''}<title>${lbl} speaker terminal (${D.spk?'speaker wired':'open'}) — click</title></g>`;
 /* Rear drawn on the M2 ISS 3 drilling (200 px/in): IEC D, ground stud H, binding posts L (Detail 'L' .320 double-D),
-   vents G, Detail B option cut-out, euroblocks A (.332 × .528), BNCs E (.531). Silk = ama4-rear-white.png. */
+   vents G, Detail B option cut-out, euroblocks A (.332 × .528), BNCs E (.531). Silk = ama4-rear.svg (CorelDRAW). */
 function rearSVG(){
   const c=chain(); const y1=118, y2=240;
   const anaX=[11.623,12.148,12.673,13.198,13.723].map(x=>x*PX), aesX=[14.574,15.099].map(x=>x*PX);
@@ -201,7 +205,7 @@ function rearSVG(){
   ${anaX.map((x,i)=>eb(x,y1,i?'ai':'ao',i?D.ana[i-1].on:true,i?`ANALOG LEFT input ${i} — click to connect / disconnect`:'ANALOG OUTPUT L (switcher output)')+eb(x,y2,i?'ai':'ao',i?D.ana[i-1].on:true,i?`ANALOG RIGHT input ${i}`:'ANALOG OUTPUT R')).join('')}
   ${aesX.map((x,j)=>[0,1].map(k=>{ const n=j*2+k; return eb(x,k?y2:y1,'ae'+n,D.aes[n].conn==='110',`AES ${n+1} 110 Ω euroblock — click`,'#2f8fd0'); }).join('')).join('')}
   ${[[15.75,0],[15.75,1],[16.375,2],[16.375,3]].map(([x,n])=>bnc(x*PX,(n%2?1.121:0.496)*PX,52,'ab'+n,D.aes[n].conn==='75',`AES ${n+1} 75 Ω BNC — click`)).join('')}
-  <image href="${ASSET}ama4-rear-white.png" width="3422" height="331"/>
+  <image href="${ASSET}ama4-rear.svg" width="3422" height="331"/>
   ${D.power?'':'<rect width="3422" height="331" fill="#000" opacity=".25"/>'}</svg>`;
   return s;
 }
@@ -280,8 +284,8 @@ function lanes(){
 /* ---------------- views ---------------- */
 function viewSim(m){
   off();
-  m.innerHTML=`${card('Front panel '+(ERA===2016?'(real 2015|48 silk, AMA4-M1-FRONT-SILK, on the M1 ISS 2 drilling)':'(real 2002|35 silk AMA-S1.cdr on the AMA4-M1 drilling)'),'<div id="fp"></div>')}
-  ${card('Rear panel '+(ERA===2016?'(real 2015|48 silk AMA4-M2-REAR-SILK on the M2 ISS 3 drilling)':'(2003|36 manual sketch Ama4manu_TEST.cdr — click the hot spots)'),'<div id="rp"></div>')}
+  m.innerHTML=`${card('Front panel '+(ERA===2016?'(real 2015|48 silk, AMA4-M1-FRONT-SILK, on the M1 ISS 2 drilling)':'(real 2002|35 silk AMA-S1.cdr on the AMA4-M1 drilling)'),'<div id="fp"></div><div class="small muted" style="margin-top:3px">Artwork: GREEN + WHITE plates of '+SIM.src('#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M1-FRONT-SILK (CURVE).cdr','AMA4-M1-FRONT-SILK (CURVE).cdr')+' (NOV.05/15), CorelDRAW vector, registered on one panel; faint lines = cut geometry.</div>')}
+  ${card('Rear panel '+(ERA===2016?'(real 2015|48 silk AMA4-M2-REAR-SILK on the M2 ISS 3 drilling)':'(2003|36 manual sketch Ama4manu_TEST.cdr — click the hot spots)'),'<div id="rp"></div><div class="small muted" style="margin-top:3px">Artwork: WHITE plate of '+SIM.src('#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M2-REAR-SILK(CURVE).cdr','AMA4-M2-REAR-SILK(CURVE).cdr')+' (MAY 08/15), CorelDRAW vector.</div>')}
   <div class="grid2"><div>${card('Selected source','<div id="se"></div>')}${card('Level through each stage','<div id="ch"></div>')}</div><div>${card('Firmware state at the playhead','<div id="stt"></div>')}${card('What your clicks did (firmware path, AMS4 v2.03 names)','<div id="lg"></div>')}</div></div>
   ${card('Timeline — the selection was made at t = 0','<canvas id="tl"></canvas><p class="small muted">Main-loop pass time and CS8415 lock time are '+inf+'; the pass counts (bounce_num 0x0A, bcount 0x0F, lock_num1 10 × 256, lock_num2 4 × 256) are from init.asm / ams1v203.asm.</p>')}`;
   let lastKey='';
@@ -450,6 +454,7 @@ function viewDraw(m){
 function viewFind(m){
   off();
   const F=[
+   ['Artwork 2026|59: front/rear panels now from the CorelDRAW silks', `${SIM.src('#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M1-FRONT-SILK (CURVE).cdr','AMA4-M1-FRONT-SILK (CURVE).cdr')} (NOV.05/15, file 5 Nov 2015) and ${SIM.src('#AMA #SERIES/XXX - AMA4 #Obsolete/AMA4 - #ARTWORK #DA #2016/AMA4-M2-REAR-SILK(CURVE).cdr','AMA4-M2-REAR-SILK(CURVE).cdr')} (MAY 08/15, file 4 Nov 2015), replacing the PNG cuts from the PDFs. The front sheet is two plates: GREEN carries the WARD-BECK SYSTEMS / AMA-4 AUDIO MONITOR SYSTEM wordmarks, the VU scale (-20 … 3, L, R) and a full-width green stripe broken only for the WHITE plate's “SELECT SERIES”; WHITE carries MODE, SOURCE, 0°/180°, STEREO, LEFT, RIGHT and HEADSET. The rear legend reads OUTPUT 1 2 3 4 over ANALOG LEFT / ANALOG RIGHT and four AES positions (1–4, two euroblocks and two BNCs), with the MUTE block printed I O G. The rear silk is six months older than the front silk and both predate the ISS 3 rear drilling (2016-06-24) <span class="tag-inf" title="Inferred: from the file dates">inferred</span>.`],
    ['What the AMA-4 is', `The silks say “AMA-4 AUDIO MONITOR SYSTEM” and “SELECT SERIES”. The 2002 AMA4 bottom-pan and panel DWGs say “FOR AMS4 ISSUE 4 PCB”, and <span class="mono">AMA4-M3 LAYOUT(AFTER BENDING).dwg</span> is byte-identical to <span class="mono">AMS4-BOTTOM LAYOUT(AFTER BENDING).dwg</span>. The front panel has the AMS4's MODE/SOURCE buttons, 4-character display, 10-LED meter, 0°/180° LEDs, LEFT/STEREO/RIGHT and HEADSET. The rear adds four speaker binding posts L+ L− R+ R−. So the AMA-4 is the AMS4 electronics with outputs for external speakers ${inf}; “AMA” = audio monitor amplifier is ${inf}.`],
    ['Two different “AMA4-M2 ISS 3” files with the same date', `<span class="mono">XXX - AMA4 #Obsolete/AMA4-M2 ISS 3 (REAR PANEL).dwg</span> (78,355 B, moved from the Master Mechanical Library) and <span class="mono">…/AMA4 - #Mechanical #DA #2016/AMA4-M2 ISS 3 (REAR PANEL).dwg</span> (131,722 B, also in the AMA folder) are both dated 2016-06-24 but differ. The 131 KB one carries extra text (threads covered prior to painting, “CHANGED GROUND STUD TO FH 440-50R”). Only one PDF exists.`],
    ['The front M1 changed after its PDF', `The M1 ISS 2 DWG in #Mechanical #DA #2016 was saved 2016-07-06 (72,223 B); the PDF and the AMA-folder DWG are from 2015-11-04 (71,502 B). The recovered text is identical and the issue stays 2, so the change has no revision note.`],

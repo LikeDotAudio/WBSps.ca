@@ -544,6 +544,12 @@ const A = {
    at x .900"; screws (D). Rear: 7 BNC D-holes at x 1.305 … 5.805" (.750" pitch); DE-9 (detail B) upright at
    x .698"; IEC inlet (detail C) 1.080 × 1.256" at x 7.415". Colours from Pics/POD30 Front.jpg / Rear.jpg. */
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: assets/pod30-front.svg, pod30-rear.svg are vector conversions of
+   POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr (Jun.25/14; GREEN + WHITE plates on one panel, holes and
+   cut-outs from the same drawing, same 200 dpi frame as before). Every control below sits on its hole; only the IEC
+   flange was widened to cover the 248 × 216 px landscape cut-out the drawing shows. */
+const ART_PATH = '#POD #SERIES/POD30 - #Master/POD30 - #ARTWORK #DA #2016/POD30-FRONT&REAR-SILK (CURVE).cdr';
+const artSrc = ()=> `<p class="small muted" style="margin:6px 0 0">Panel artwork: ${SIM.src(ART_PATH, 'POD30-FRONT&REAR-SILK (CURVE).cdr')} (CorelDRAW, Jun.25/14), converted to vector: green and white ink plates on one panel, holes and cut-outs from the same drawing.</p>`;
 const BTN_X = [786, 936, 1086, 1236];
 function frontSVG(t, opts){
   opts = opts||{};
@@ -560,8 +566,7 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD30 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="p30glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1714" height="321" rx="10" fill="#151719"/>
-    <image href="${ASSET}pod30-front-green.png" width="1714" height="321"/>
-    <image href="${ASSET}pod30-front-white.png" width="1714" height="321"/>
+    <image href="${ASSET}pod30-front.svg" width="1714" height="321"/>
     <g class="p30pwr" style="cursor:pointer"><rect x="124" y="38" width="112" height="164" rx="8" fill="#0a0b0c" stroke="#30333a" stroke-width="3"/>
       <rect x="140" y="${on?52:96}" width="80" height="90" rx="10" fill="#1c1f22" stroke="#3b3f43" stroke-width="2"/><rect x="146" y="${on?58:128}" width="68" height="8" rx="3" fill="#2d3135"/>
       <title>POWER rocker (PWRSW, PAN256) — click to switch ${on?'off':'on'}</title></g>
@@ -578,7 +583,8 @@ function rearSVG(t){
       <circle cx="${x}" cy="197" r="30" fill="#9aa0a6"/><circle cx="${x}" cy="197" r="19" fill="#2a2c2e"/><circle cx="${x}" cy="197" r="7" fill="#d9b54a"/>
       ${extra||''}<title>${lab}</title></g>`;
   let s = `<svg viewBox="0 0 1714 321" role="img" aria-label="POD30 rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
-    <rect width="1714" height="321" rx="10" fill="#151719"/>`;
+    <rect width="1714" height="321" rx="10" fill="#151719"/>
+    <image href="${ASSET}pod30-rear.svg" width="1714" height="321"/>`;
   for (let k=0;k<4;k++){ const sv=srcAt(k,t); const sel = sigAt('sel',t)===k;
     const tag = sv==='none'? '' : `<rect x="${[261,411,561,710][k]-50}" y="268" width="100" height="34" rx="6" fill="${sv==='asi'?'#8a5bd6':RATE[sv]>300?'#2f7fd1':'#2a9a58'}"/><text x="${[261,411,561,710][k]}" y="292" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">${SRC_SHORT[sv]}</text>`;
     s += bnc([261,411,561,710][k], 'in'+k, `INPUT ${k+1}: ${SRC_NAME[sv]} — click to change the source`, tag + (sel?`<circle cx="${[261,411,561,710][k]+48}" cy="150" r="10" fill="var(--led-a)"/>`:'')); }
@@ -594,10 +600,9 @@ function rearSVG(t){
       ${[31,228].map(y=>`<polygon points="${[0,1,2,3,4,5].map(a=>`${139+16*Math.cos(a*Math.PI/3)},${y+16*Math.sin(a*Math.PI/3)}`).join(' ')}" fill="#b0b4b8" stroke="#6d7176"/><circle cx="139" cy="${y}" r="6" fill="#3a3c3e"/>`).join('')}
       <title>CONTROL (DE-9 female, RS-485 9600 8N1) — click to open the serial console</title></g>`;
   // IEC inlet (detail C) and screws
-  s += `<rect x="1375" y="16" width="216" height="250" rx="12" fill="#0b0c0d" stroke="#2c2f31" stroke-width="3"/><rect x="1410" y="54" width="146" height="150" rx="14" fill="#16181a" stroke="#333" stroke-width="2"/>
+  s += `<rect x="1351" y="25" width="264" height="232" rx="12" fill="#0b0c0d" stroke="#2c2f31" stroke-width="3"/><rect x="1410" y="54" width="146" height="150" rx="14" fill="#16181a" stroke="#333" stroke-width="2"/>
       ${[[1483,92],[1450,160],[1516,160]].map(([x,y])=>`<rect x="${x-14}" y="${y-8}" width="28" height="16" rx="2" fill="#c9ccd0"/>`).join('')}
       <circle cx="50" cy="161" r="13" fill="#8d9196"/><circle cx="1664" cy="161" r="13" fill="#8d9196"/><circle cx="1664" cy="50" r="12" fill="#25282b" stroke="#444"/>
-    <image href="${ASSET}pod30-rear-white.png" width="1714" height="321"/>
   </svg>`;
   return s;
 }
@@ -804,7 +809,7 @@ function viewSim(m){
     <div>
       ${card('Front panel at the playhead', `<div id="fp"></div>
         <div class="small muted" style="margin-top:6px">Click a button (or keys 1–4) to select an input; click the rocker to power-cycle. Each action is placed at the playhead and the playhead jumps to when its effect lands.</div>`)}
-      ${card('Rear panel — click INPUT BNCs to change the source, REF IN to plug/unplug, an OUTPUT to scope it, CONTROL for the console', `<div id="rp"></div>
+      ${card('Rear panel — click INPUT BNCs to change the source, REF IN to plug/unplug, an OUTPUT to scope it, CONTROL for the console', `<div id="rp"></div>${artSrc()}
         <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;align-items:center">
           <label class="small">Firmware <select id="fw"><option value="V020000">V020000 (2013|46, shipping)</option><option value="v100">v1.00 (Dec 2003|36)</option></select></label>
           <label class="small"><input type="checkbox" id="mod"> 2013|46 leakage hardware mod fitted</label>
@@ -1145,6 +1150,7 @@ function viewNotes(m){
     <li><b>Small leftovers.</b> INIT stores <span class="mono">spi_count</span> while bank 1 is selected (<span class="mono">ERRORLEVEL -302</span> hides the warning), so it lands in bank-1 RAM. <span class="mono">init_loop</span> re-writes every TRIS and ADCON1 on every pass. init.asm's "E2=AUD1 LED, E1=AUD2 LED, E0=ERROR LED" is POD21's pin-out (RE0/RE1 are buttons 3/4 here). The Custom 2008|41 CTV slave build is still in a project called <span class="mono">pod21.mcp</span>. VSYNCH is wired to RC1 but its <span class="mono">#define</span> is commented out. The CorelDRAW functional diagram draws the sync separator into the reclocker; the netlist sends it only to the PIC.</li>
     <li><b>The timed cut is an NTSC cut.</b> The switch lands ≈ 9–10.5 NTSC lines into the field. For a 1080i source that is frame-aligned to the black burst, that is about HD line 18–22 ${inf} — later than the line-7 switching point SMPTE RP 168 gives for 1080-line video, near the first active line.</li>
     <li><b>Mechanical.</b> The rear panel is POD21's rear panel with new silk ("POD30-REAR ISS.1 IS THE SAME AS POD21-REAR ISS.1"). The DE-9 is mounted upright on a 1.210 × .480" adaptor plate tapped 4-40 at .984" (DE-9 ISS 2, 14 Dec 2005|38: ".480 DIMENSION WAS .600"). The silk artwork is dated Jun.25/14 (2014|47); the panels Nov/Dec 2003|36.</li>
+    <li><b>Artwork ${Y(2026)}: front/rear panels now from ${SIM.src(ART_PATH,'POD30-FRONT&REAR-SILK (CURVE).cdr')} (Jun.25/14).</b> The CorelDRAW file replaces the PNG cuts of its PDF export. The white plate numbers the four square button cut-outs (68 px, 8.6 mm) 1–4 underneath, with no input names; the two screw holes between the buttons (x 861 and 1161 px) are the button bracket's, not fixing screws. The rear IEC cut-out is landscape (248 × 216 px, 31.5 × 27.4 mm) where the panel was drawn with a portrait inlet before.</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
     <li>Main-loop pass = ${C.PASS_TCY} Tcy ≈ ${(C.PASS*1e6).toFixed(0)} µs, counted by hand from 30v100.asm (no .HEX or .LST is archived) ${inf}. Every time that is "N passes" scales with it.</li>
     <li>Sync-wait poll = 8 Tcy; ODD/EVEN edge 3.45 lines into each field; H pulses 4.7 µs active-low; GS4982 outputs idle high without a reference ${inf}.</li>

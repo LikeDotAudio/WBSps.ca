@@ -370,24 +370,26 @@ const A={
   set(k,v,l){ act(l, tr=>{ D[k]=v; tr(k==='iss'?`${ISS[v].name}: sync separator ${ISS[v].sep}, supply ${ISS[v].psu}, one-shot ${ISS[v].oneshot} with T = ${SIM.fmtDur(ISS[v].R*ISS[v].C)}`:k==='cable'?`Cable loss ${fdb(-lossDb(S().fsc,v))} dB at the subcarrier (${inf})`:'Source changed'); }); },
   reset(){ Object.assign(D, JSON.parse(JSON.stringify(FACT))); SIM.refresh(); },
 };
-/* ---------------- panels (Pd15Asilk-ISS3.cdr; 200 px per inch, face 8.570 × 1.606 in) ---------------- */
+/* ---------------- panels: 200 px per inch, face 8.570 × 1.606 in ----------------
+   Artwork 2026|59: POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr (Jun.24/14, text as curves) via Inkscape →
+   assets/pod15-front.svg (GREEN + WHITE plates) and pod15-rear.svg, cut at the panel outline. Controls sit on its cut-outs:
+   rear BNC holes at x 273/483/588/693/798/903/1008, y 75/205; IEC cut-out 1359–1607 × 33–249; monitor BNC D-hole at 1557,168.
+   The ISS3 file Pd15Asilk-ISS3.cdr (used before, as PNGs) keeps live text that libcdr scrambles, so its labels had been redrawn. */
 function frontSVG(){ const on=D.power, t=SIM.t;
-  const over = `<text x="516" y="68" font-size="24" font-weight="700" fill="#34a853" font-family="Arial,sans-serif">by Ward-Beck Systems</text>`
-   + rocker(on) + pled(on) + led(739,218,synchLed(t),'#3fdc6a') + led(790,218,errorLed(t),I().errCol)
+  const over = rocker(on,124,58) + pled(on) + led(739,218,synchLed(t),'#3fdc6a') + led(790,218,errorLed(t),I().errCol)
    + trim(939,220,D.eqTrim,'eqt','EQUALIZER 0-300m (EQ, 2K multiturn)')
    + `<g class="eq3" style="cursor:pointer"><title>300m switch EQ_FIXED (${D.eqFixed?'IN':'OUT'}) — click</title><circle cx="1040" cy="217" r="28" fill="#0a0b0c" stroke="#3a3d40" stroke-width="3"/><circle cx="1040" cy="${D.eqFixed?224:212}" r="18" fill="${D.eqFixed?'#2a2d31':'#16181a'}"/></g>`
    + `<g class="clp" style="cursor:pointer"><title>CLAMP push switch (${D.clamp?'IN':'OUT'}) — click</title><circle cx="1239" cy="217" r="28" fill="#0a0b0c" stroke="#3a3d40" stroke-width="3"/><circle cx="1239" cy="${D.clamp?224:212}" r="18" fill="${D.clamp?'#2a2d31':'#16181a'}"/></g>`
-   + trim(1390,220,D.lvl,'lvt','LEVEL (LVL, 2K multiturn)') + bnc(1552,152,D.outs[6]!=='open','mo6',`VIDEO MONITOR (${D.outs[6]}) — click to change the load`,44)
+   + trim(1390,220,D.lvl,'lvt','LEVEL (LVL, 2K multiturn)') + bnc(1557,168,D.outs[6]!=='open','mo6',`VIDEO MONITOR (${D.outs[6]}) — click to change the load`,44)
    + screw(50,160)+screw(1664,160);
-  return layered({w:1714,h:321,layers:[PREFIX+'-front-green.png',PREFIX+'-front-white.png'],over,label:'POD15A issue 3 front panel (real silkscreen)'}); }
+  return layered({w:1714,h:321,layers:[PREFIX+'-front.svg'],over,label:'POD15A front panel (POD15A-FRONT&amp;REAR-SILK (CURVE).cdr)'}); }
 function rearSVG(){
-  const over = bnc(273,64,D.plugged,'plg',`INPUT — ${D.plugged?'cable from the source (click to unplug)':'nothing connected (click to plug in)'}`,44)
-   + bnc(273,200,D.term!=='open','tm',`INPUT loop: ${D.term==='75'?'75 Ω terminator':D.term==='open'?'open (unterminated!)':'two 75 Ω loads'} — click to change`,44)
-   + [[482,70],[586,200],[693,70],[796,200],[902,70],[1007,200]].map(([x,y],i)=>bnc(x,y,D.outs[i]!=='open','oo" data-o="'+i,`OUT ${i+1}: ${D.outs[i]} — click: 75 Ω load → open → short`,42)+(D.outs[i]==='short'?`<text x="${x}" y="${y+5}" text-anchor="middle" font-size="22" fill="#ff6b5a" font-weight="700">✕</text>`:'')).join('')
-   + iec(1372,26,1600,250)
-   + `<text x="1080" y="120" font-size="13" fill="#eee" font-family="Arial,sans-serif">CAUTION: DISCONNECT POWER</text><text x="1080" y="138" font-size="13" fill="#eee" font-family="Arial,sans-serif">BEFORE SERVICING OR</text><text x="1080" y="156" font-size="13" fill="#eee" font-family="Arial,sans-serif">REPLACING THE FUSE</text><text x="1150" y="292" font-size="12.5" fill="#eee" font-family="Arial,sans-serif">100-240 VAC, 50-60 Hz, ½ A.S.B.</text>`
+  const over = bnc(273,75,D.plugged,'plg',`INPUT — ${D.plugged?'cable from the source (click to unplug)':'nothing connected (click to plug in)'}`,44)
+   + bnc(273,205,D.term!=='open','tm',`INPUT loop: ${D.term==='75'?'75 Ω terminator':D.term==='open'?'open (unterminated!)':'two 75 Ω loads'} — click to change`,44)
+   + [[483,75],[588,205],[693,75],[798,205],[903,75],[1008,205]].map(([x,y],i)=>bnc(x,y,D.outs[i]!=='open','oo" data-o="'+i,`OUT ${i+1}: ${D.outs[i]} — click: 75 Ω load → open → short`,42)+(D.outs[i]==='short'?`<text x="${x}" y="${y+5}" text-anchor="middle" font-size="22" fill="#ff6b5a" font-weight="700">✕</text>`:'')).join('')
+   + iec(1359,33,1607,249)
    + screw(50,160)+screw(1664,160);
-  return layered({w:1714,h:321,layers:[PREFIX+'-rear-white.png'],over,label:'POD15A issue 3 rear panel (real silkscreen)'}); }
+  return layered({w:1714,h:321,layers:[PREFIX+'-rear.svg'],over,label:'POD15A rear panel (POD15A-FRONT&amp;REAR-SILK (CURVE).cdr)'}); }
 function bindPanel(r){ const p=r.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); bindTrim(r,'eqt',d=>A.eqTrim(d)); bindTrim(r,'lvt',d=>A.lvl(d));
   r.querySelectorAll('.eq3').forEach(g=>g.onclick=()=>A.eqFixed()); r.querySelectorAll('.clp').forEach(g=>g.onclick=()=>A.clamp());
   r.querySelectorAll('.tm').forEach(g=>g.onclick=()=>A.term()); r.querySelectorAll('.plg').forEach(g=>g.onclick=()=>A.plug());
@@ -424,7 +426,7 @@ function lanes(){ const s=S(), a=SIM.css('--accent'), b=SIM.css('--accent2');
   ]; }
 /* ---------------- views ---------------- */
 function viewSim(m){ window.__pod15Active=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Front panel (Pd15Asilk-ISS3.cdr)',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — click the BNCs',`<div id="rp"></div>`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Front panel',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — click the BNCs',`<div id="rp"></div><div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src('#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr','POD15A-FRONT&REAR-SILK (CURVE).cdr')} (Jun.24/14), FRONT GREEN, FRONT WHITE and REAR WHITE plates.</div>`)}</div>
    <div>${card('What the circuit did (last action)',`<div id="trace" class="log"></div>`)}${card('Outputs now',`<div id="now"></div>`)}</div></div>
    ${card('Timeline — one second, zoomable. Unplug the input and zoom to 10 ms to watch the CD4538 time out.',`<canvas id="tl"></canvas>`)}
    <div class="grid2">${card('Stage by stage',`<div id="lv"></div>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
@@ -525,6 +527,7 @@ function viewNotes(m){ window.__pod15Active=false;
    <li><b>Issue 1 had an input terminator switch.</b> TERM_SW (R13 across IN+/IN−) exists in <span class="mono">pod15aiss1.net</span> and is gone in issue 3. Issue 1 also used a GS4982 separator and a linear ±V supply (TE70042 toroid, LM317/LM337).</li>
    <li><b>A 2005 ECO rewired the clamp.</b> <span class="mono">POD15aiss2.ECO</span> (9 Jan 2005) deletes the CLAMP-5 ↔ U2-4 link and joins U2-4 straight to the separator (U4-5): from then on the clamp pulse is always present and the switch only selects the path. A 2008 change sets R53 = 931R, RV1 = 2K, R61 = 68K, R28/R29 = 1K62.</li>
    <li><b>The board was re-used.</b> <span class="mono">POD15Aiss3-AMS8-7.net</span> is the same circuit plus five panel connectors (P1–P5), extra bulk capacitors and a PTH08080W regulator: the POD15A video DA reborn inside an AMS8 frame.</li>
+   <li><b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src('#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).cdr','POD15A-FRONT&REAR-SILK (CURVE).cdr')} (Jun.24/14).</b> It is the same face as ${SIM.src('#POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/Pd15Asilk-ISS3.cdr','Pd15Asilk-ISS3.cdr')} (2010, the issue-3 board's silk) with the text converted to curves, so every label now comes out right; the old PNGs had to have “by Ward-Beck Systems” and the rear caution text redrawn. On it the input and output BNCs sit ≈0.05 in lower than the old placement (y 75/205 px), and the rear power legend reads “90-230 VAC, 50-60 Hz, ½ A.S.B.”.</li>
    <li><b>Silk mismatch.</b> The ISS3 CorelDRAW rear says “100-240 VAC, 50-60 Hz, ½ A.S.B.”; the 2016 POD15A PDF says “90-230 VAC”. The manual (<span class="mono">pod15.pdf</span>) still says 115 V AC/60 Hz, 12 VA.</li>
    <li><b>The 1999 POD15 is almost gone.</b> Only <span class="mono">POD15.DSN</span>/<span class="mono">POD15.PCB</span> parts lists (BNCs OUT1–6, headers P1/P2, 470 µF supply caps) and a silk whose text no longer converts survive.</li></ol>`)
   +card('Assumptions in this simulation',`<ul class="small"><li>Coax loss 3.1 dB/100 m at 5 MHz ∝ √f; the EQ applies the inverse for the set length (${inf}).</li><li>LVL range ±3 dB; U1 gain 1; sync detection needs more than 80 mV of sync (${inf}).</li><li>Issue 1 one-shot T uses R61 = 68K (2008 ECO) with 0.1 µF (${inf}: C value not in the ECO).</li><li>Clamp-out bounce: AC coupling with about 60 ms recovery (${inf}).</li></ul>`)

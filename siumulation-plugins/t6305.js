@@ -871,7 +871,7 @@ function freshRR(){ const o={}; SLOTS.forEach(s=>o[s]={fit1:true,fit2:true,r1:nu
 function defCards(){ const o={}; SLOTS.forEach((s,i)=>o[s]=(DATA.defaultCards&&DATA.defaultCards[s])||DATA.cards[0].id); return o; }
 const S = {
   issue: DATA.defaultIssue, cards: defCards(), sel: 1, cable:{}, load:{}, srcLvl:0, padC:0.45,
-  rr: freshRR(), idReads:0, idReadSlots:{}, idAt:null, showRL:false, view:'rear',
+  rr: freshRR(), idReads:0, idReadSlots:{}, idAt:null, showRL:false, view:'cdr',
   log:[], last:null, blockSel:'p101',
 };
 function I(){ return DATA.issues[S.issue]; }
@@ -965,38 +965,55 @@ function lostOf(slot){
 }
 
 /* ---------------- panel drawing ---------------- */
+/* ---------------- CorelDRAW rear-module guide (Artwork 2026|59) ----------------
+   The archive's GENERIC rear-module guide drawing, converted with Inkscape (libcdr) to assets/t6305-rear.svg.
+   vb = the cropped viewBox in points, o = the plate origin (inch 0,0 of the Gerber frame) in the same points; the drawing is 1:1
+   (72 pt per inch) and registers on the Gerber connector centres. at = positions where the drawing puts a connector elsewhere. */
+const ART0 = {"f": "t6305-rear.svg", "src": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr", "label": "T6305.cdr", "date": "2007-06-27", "vb": [185.51, 192.39, 224.4, 415.92], "o": [252.77, 264.36]};
+const ART = {"pnp":ART0, "net":ART0};
+function artOf(){ return ART[S.issue] || null; }
+function pxy(p){ const a=S.view==='cdr'? artOf() : null; return (a && a.at && a.at[p.n]) || [p.x, p.y]; }
+DATA.findings.unshift("<b>Artwork 2026|59: the rear-module panel now comes from "+SIM.src("#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr", "T6305.cdr")+" (2007-06-27).</b> It is the default View; the Gerber copper (connector face and card side) stays on the View selector. Converted with Inkscape; the hairline outlines (stroke width 0 in CorelDRAW) were given a 0.6 pt line, the multi-line “+ − G” legends were re-stacked on the pin pitch because libcdr loses line layout, and the sheet caption “GENERIC” was dropped. Every connector centre in the drawing was checked against the Gerber positions.",
+  "The guide's legends match the copper: BNC1–BNC8 on positions 1–8, AES4 and AES8 on the blocks at 9 and 10.",
+  "The grey-filled BNCs on the guide (positions 1–2 on most of these guides) mark the shell-isolated inputs <span class=\"tag-inf\">inferred</span> from the netlists, where these BNCs have their own return nets; the drawing gives no key.");
+DATA.sources.unshift("#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION/T6305 - #ENGINEERING/T6305.cdr (CorelDRAW rear-module guide, 2007-06-27; assets/t6305-rear.svg)");
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
-  const iss=I(), W=iss.w*PX, H=iss.h*PX, M=185, TOP=DUAL?38:20;
+  const iss=I(), W=iss.w*PX, H=iss.h*PX, a=S.view==='cdr'? artOf() : null, k=PX/72;
+  const ax0=a?(a.vb[0]-a.o[0])*k:0, ay0=a?(a.vb[1]-a.o[1])*k:0, aw=a?a.vb[2]*k:W, ah=a?a.vb[3]*k:H;
+  const padL=a?Math.max(0,-ax0):0, padR=a?Math.max(0,ax0+aw-W):0, padT=a?Math.max(0,-ay0):0, padB=a?Math.max(0,ay0+ah-H):0;
+  const M=185+padL, TOP=(DUAL?38:20)+padT, VW=W+370+padL+padR, VH=H+TOP+28+padB, LX=M-padL-10, RX=M+W+padR+10;
   const img = S.view==='card' ? iss.img+'-card.png' : iss.img+'-rear.png';
-  let s=`<svg viewBox="0 0 ${W+2*M} ${H+TOP+28}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${DATA.product} rear module drawn from ${esc(iss.art)}">
-   <defs><filter id="${ID}glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs>
-   <rect x="${M-4}" y="${TOP-4}" width="${W+8}" height="${H+8}" rx="5" fill="#0b0c0d"/>
+  let s=`<svg viewBox="0 0 ${VW} ${VH}" style="width:100%;max-width:${Math.round((opts.max||560)*VW/(W+370))}px;display:block;margin:auto" role="img" aria-label="${DATA.product} rear module drawn from ${esc(a?a.label:iss.art)}">
+   <defs><filter id="${ID}glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs>`;
+  if (a) s+=`<image href="${ASSET}${a.f}" x="${M+ax0}" y="${TOP+ay0}" width="${aw}" height="${ah}" preserveAspectRatio="none"/>`;
+  else s+=`<rect x="${M-4}" y="${TOP-4}" width="${W+8}" height="${H+8}" rx="5" fill="#0b0c0d"/>
    <image href="${ASSET}${img}" x="${M}" y="${TOP}" width="${W}" height="${H}" preserveAspectRatio="none"/>`;
   if (S.view==='card'){
     s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">card side (${iss.cardSide}) — ${SLOTS.join(' and ')} face the card${DUAL?'s':''}</text></svg>`;
     return s;
   }
-  s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">connector face, seen from behind the frame (${iss.face})</text>`;
-  if (DUAL) SLOTS.forEach((sl,i)=>{ const x = i===0? M-6 : M+W+6; s+=`<text x="${x}" y="30" text-anchor="${i===0?'end':'start'}" font-size="11" font-weight="700" fill="var(--accent)">${i===0?'◀ ':''}${sl} · ${esc(cardAt(sl).id)}${i===0?'':' ▶'}</text>`; });
-  (iss.blocks||[]).forEach(b=>{ s+=`<rect x="${M+b.x*PX-15}" y="${TOP+b.y0*PX-9}" width="30" height="${(b.y1-b.y0)*PX+18}" rx="3" fill="none" stroke="#b9b9b0" stroke-width="1.2" stroke-dasharray="3 2"/><text x="${M+b.x*PX}" y="${TOP+b.y0*PX-12}" text-anchor="middle" font-size="9" fill="var(--ink2)">${b.ref}</text>`; });
+  s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">${a?'CorelDRAW rear-module guide, seen from behind the frame':'connector face, seen from behind the frame ('+iss.face+')'}</text>`;
+  if (DUAL) SLOTS.forEach((sl,i)=>{ const x = i===0? LX+4 : RX-4; s+=`<text x="${x}" y="30" text-anchor="${i===0?'end':'start'}" font-size="11" font-weight="700" fill="var(--accent)">${i===0?'◀ ':''}${sl} · ${esc(cardAt(sl).id)}${i===0?'':' ▶'}</text>`; });
+  if (!a) (iss.blocks||[]).forEach(b=>{ s+=`<rect x="${M+b.x*PX-15}" y="${TOP+b.y0*PX-9}" width="30" height="${(b.y1-b.y0)*PX+18}" rx="3" fill="none" stroke="#b9b9b0" stroke-width="1.2" stroke-dasharray="3 2"/><text x="${M+b.x*PX}" y="${TOP+b.y0*PX-12}" text-anchor="middle" font-size="9" fill="var(--ink2)">${b.ref}</text>`; });
+  const idle = a? 'rgba(45,99,166,.45)' : '#b9b9b0', hot = a? '#e08a00' : '#ffd34d';
   iss.pos.forEach(p=>{
-    const x=M+p.x*PX, y=TOP+p.y*PX, r=role(p.n), sel=S.sel===p.n, plug=!!S.cable[p.n], L=level(p.n);
+    const q=pxy(p), x=M+q[0]*PX, y=TOP+q[1]*PX, r=role(p.n), sel=S.sel===p.n, plug=!!S.cable[p.n], L=level(p.n), pit=(a&&a.pitch)||p.pitch;
     const col = r.dir==='in'? 'var(--accent2)' : r.dir==='out'||r.dir==='io'? 'var(--accent)' : '#777';
     const g=guideOf(p.n), warn = r.dir==='nc' && g && !/not connected|reserved/i.test(g);
     if (p.kind==='bnc'){
       s+=`<g class="pos" data-n="${p.n}" style="cursor:pointer"><circle cx="${x}" cy="${y}" r="27" fill="transparent"/>
-        <circle cx="${x}" cy="${y}" r="20" fill="none" stroke="${sel?'#ffd34d':warn?'var(--bad)':'#b9b9b0'}" stroke-width="${sel?4:2}"/>
+        <circle cx="${x}" cy="${y}" r="20" fill="none" stroke="${sel?hot:warn?'var(--bad)':idle}" stroke-width="${sel?4:2}"/>
         ${plug?`<circle cx="${x}" cy="${y}" r="17" fill="#2d63a6" stroke="#9cc3ff" stroke-width="2"/><circle cx="${x}" cy="${y}" r="6" fill="#d6e6ff"/>`:''}
         ${L.v>0&&plug?`<circle cx="${x+18}" cy="${y-18}" r="5" fill="${L.ok||L.rx?'var(--led-g)':'var(--led-a)'}" filter="url(#${ID}glow)"/><circle cx="${x+18}" cy="${y-18}" r="4" fill="${L.ok||L.rx?'var(--led-g)':'var(--led-a)'}"/>`:''}</g>`;
     } else {
-      const np = p.blk? 2 : 3, hh=p.pitch*PX*np+(p.blk?4:10), offs = p.blk? [-0.5,0.5] : [-1,0,1];
-      s+=`<g class="pos" data-n="${p.n}" style="cursor:pointer"><rect x="${x-14}" y="${y-hh/2}" width="28" height="${hh}" rx="3" fill="${plug?'#1f8a45':'transparent'}" fill-opacity="${plug?0.85:0}" stroke="${sel?'#ffd34d':warn?'var(--bad)':'#b9b9b0'}" stroke-width="${sel?3.5:1.4}"/>
-        ${plug?offs.map(d=>`<circle cx="${x}" cy="${y+d*p.pitch*PX}" r="4.5" fill="#0d3a1c"/>`).join(''):''}
+      const np = p.blk? 2 : 3, hh=pit*PX*np+(p.blk?4:10), offs = p.blk? [-0.5,0.5] : [-1,0,1];
+      s+=`<g class="pos" data-n="${p.n}" style="cursor:pointer"><rect x="${x-14}" y="${y-hh/2}" width="28" height="${hh}" rx="3" fill="${plug?'#1f8a45':'transparent'}" fill-opacity="${plug?0.85:0}" stroke="${sel?hot:warn?'var(--bad)':idle}" stroke-width="${sel?3.5:1.4}"/>
+        ${plug?offs.map(d=>`<circle cx="${x}" cy="${y+d*pit*PX}" r="4.5" fill="#0d3a1c"/>`).join(''):''}
         ${L.v>0&&plug?`<circle cx="${x+18}" cy="${y-hh/2+3}" r="4.5" fill="${L.ok||L.rx?'var(--led-g)':'var(--led-a)'}"/>`:''}</g>`;
     }
-    const left = p.x < iss.w/2, tx = left? M-10 : M+W+10, an=left?'end':'start';
+    const left = q[0] < iss.w/2, tx = left? LX : RX, an=left?'end':'start';
     if (p.blk){
       s+=`<g class="pos" data-n="${p.n}" style="cursor:pointer"><text x="${tx}" y="${y-1}" text-anchor="${an}" font-size="11" font-weight="700" fill="${sel?'var(--warn)':warn?'var(--bad)':'var(--ink)'}">${esc(lab(p.n))} · ${esc(r.name)}</text>
         <text x="${tx}" y="${y+10}" text-anchor="${an}" font-size="9" fill="${col}">${r.dir==='nc'?'—':(r.dir==='in'?'◀ in':'out ▶')} ${esc((SIG[r.sig]||SIG.nc).short)} · ${p.ref}-${p.tbPins[0]}/${p.tbPins[1]}</text></g>`;
@@ -1006,7 +1023,9 @@ function panelSVG(opts){
         <text x="${tx}" y="${y+24}" text-anchor="${an}" font-size="9.5" fill="var(--ink2)">${p.ref}${p.L?' · '+p.L+(p.R?'‖'+p.R:''):''} · ${p.slot}-${sigPinTxt(p)}</text></g>`;
     }
   });
-  s+=`<text x="${M+W/2}" y="${H+TOP+22}" text-anchor="middle" font-size="10" fill="var(--ink2)">${iss.w.toFixed(3)}″ × ${iss.h.toFixed(3)}″ at 1:1 scale</text></svg><div class="small muted" style="text-align:center">Artwork: ${esc(iss.art)}</div>`;
+  s+=`<text x="${M+W/2}" y="${VH-6}" text-anchor="middle" font-size="10" fill="var(--ink2)">${a?'guide drawn 1:1, registered on the Gerber connector centres':iss.w.toFixed(3)+'″ × '+iss.h.toFixed(3)+'″ at 1:1 scale'}</text></svg>`;
+  s+= a ? `<div class="small muted" style="text-align:center">Artwork: ${SIM.src(a.src, a.label)} (CorelDRAW rear-module guide, ${SIM.year? SIM.year(+a.date.slice(0,4)) : a.date.slice(0,4)} · ${a.date}). Its legends are the archive's; the live labels outside it are the model's. View → “connector face (Gerbers)” shows the copper: ${esc(iss.art)}</div>`
+        : `<div class="small muted" style="text-align:center">Artwork: ${esc(iss.art)}${artOf()?' · CorelDRAW guide: '+SIM.src(artOf().src, artOf().label):''}</div>`;
   return s;
 }
 function bindPanel(root){
@@ -1034,7 +1053,7 @@ const A = {
     if (m.filter(x=>!x.startsWith(DATA.product)).length && m.some(x=>/^T6/.test(x))) tr('CLASH: another module answers with the same code; the card cannot tell them apart.');
   }); },
   setR(which,v){ const slot=idSlot(); act('Change '+slot+' '+(which===1?'AN_BMID':'AN_BMID2')+' to '+rFmt(v), tr=>{ const q=S.rr[slot]; if(which===1){q.r1=v;q.fit1=v<OPEN;} else {q.r2=v;q.fit2=v<OPEN;} const d=idOf(R1(slot),R2(slot)); tr('Code '+d.disp+' (rmId 0x'+d.rm.toString(16).padStart(4,'0')+')'); }); },
-  reset(){ act('Reset the bench', tr=>{ Object.assign(S,{issue:DATA.defaultIssue,cards:defCards(),sel:1,cable:{},load:{},srcLvl:0,rr:freshRR(),idReads:0,idReadSlots:{},idAt:null,showRL:false,view:'rear'}); tr('Default issue, default cards, no cables.'); }); },
+  reset(){ act('Reset the bench', tr=>{ Object.assign(S,{issue:DATA.defaultIssue,cards:defCards(),sel:1,cable:{},load:{},srcLvl:0,rr:freshRR(),idReads:0,idReadSlots:{},idAt:null,showRL:false,view:'cdr'}); tr('Default issue, default cards, no cables.'); }); },
 };
 document.addEventListener('keydown', e=>{
   if (!window[FLAG] || (e.target.matches && e.target.matches('input,select,textarea'))) return;
@@ -1139,7 +1158,7 @@ function controlsHTML(){
   return `<div style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:6px 0">
     ${SLOTS.map(sl=>`<label class="small">${DUAL?'Card on '+sl:'Mating card'} <select data-c="card" data-slot="${sl}">${cardsForIssue().map(c=>`<option value="${c.id}" ${c.id===S.cards[sl]?'selected':''}>${esc(c.id)} — ${esc(c.short||c.label)}</option>`).join('')}</select></label>`).join('')}
     ${ks.length>1?`<label class="small">Issue <select data-c="issue">${ks.map(k=>`<option value="${k}" ${k===S.issue?'selected':''}>${esc(DATA.issues[k].label)}</option>`).join('')}</select></label>`:''}
-    <label class="small">View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>connector face</option><option value="card" ${S.view==='card'?'selected':''}>card side (${SLOTS.join('/')})</option></select></label>
+    <label class="small">View <select data-c="view"><option value="cdr" ${S.view==='cdr'?'selected':''}>CorelDRAW guide</option><option value="rear" ${S.view==='rear'?'selected':''}>connector face (Gerbers)</option><option value="card" ${S.view==='card'?'selected':''}>card side (${SLOTS.join('/')})</option></select></label>
     <button data-c="plug">Plug / unplug selected (P)</button><button data-c="id">Card reads ID (R)</button><button data-c="reset">Reset</button></div>
     <div class="small muted">Click a connector to select it; double-click it (or press P) to plug a cable in. Keys 1–9, 0 select positions 1–10.${DUAL?' Each column mates with its own card: the ID read uses the slot of the selected position.':''}</div>`;
 }

@@ -313,6 +313,30 @@ const K = (()=>{
 
 /* ---------------- D6207A (documents) model ---------------- */
 const inf=K.inf, card=K.card;
+const ASSET='siumulation-plugins/assets/';
+/* ---- CorelDRAW artwork (artwork pass 2026|59): the panels are the archive's .cdr drawings, converted with Inkscape
+   (text kept live, re-anchored where libcdr lost alignment); the live parts sit on the drawn holes, in the drawing's pt coordinates. ---- */
+const ART_CSS = `<style>.arthl{fill:transparent;stroke:transparent;stroke-width:.7}.og62-hot:hover .arthl,.arthot:hover .arthl{stroke:#2b8cff}</style>`;
+function artSVG(o){ // o: {src, vb:[x,y,w,h], maxw, label, fid, body}
+  const [x,y,w,h]=o.vb;
+  return `<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:${o.maxw||300}px;display:block;margin:auto;background:#f4f4f0;border-radius:6px" role="img" aria-label="${o.label}">${ART_CSS}
+    <defs><filter id="${o.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}${o.src}" x="${x}" y="${y}" width="${w}" height="${h}"/>${o.body||''}</svg>`;
+}
+/* one LED lens drawn over the LED box in the card-edge drawing */
+function artLed(o){ // {x,y,w,h, on, col, fid, attrs, title}
+  return `<g ${o.attrs||''}><title>${o.title||''}</title><rect x="${o.x}" y="${o.y}" width="${o.w}" height="${o.h}" rx="1" fill="${o.on?o.col:'rgba(28,32,30,.55)'}" ${o.on?`filter="url(#${o.fid})"`:''}/><rect class="arthl" x="${o.x-1}" y="${o.y-1}" width="${o.w+2}" height="${o.h+2}" rx="1.5"/></g>`;
+}
+/* a connector on the rear-module drawing: hit area, optional plugged cable, live dot, scope highlight */
+function artJack(o){ // {cx,cy,r, kind:'bnc'|'tb', w,h, conn, live, sel, attrs, title}
+  const r=o.r||6, lv=o.live===undefined?'':`<circle cx="${o.cx+(o.kind==='tb'?o.w/2+2:r+0.6)}" cy="${o.cy+(o.kind==='tb'?-(o.h/2-1.5):r-0.6)}" r="1.7" fill="${o.live===true?'#2f8f46':o.live==='warn'?'#d9a21b':o.live==='err'?'#c0392b':'#8d9296'}" stroke="#fff" stroke-width=".35"/>`;
+  let g='';
+  if (o.conn) g+= o.kind==='tb'? `<rect x="${o.cx-o.w/2-.8}" y="${o.cy-o.h/2-.8}" width="${o.w+1.6}" height="${o.h+1.6}" rx="1" fill="#2b5f9e" opacity=".55"/>`
+                               : `<circle cx="${o.cx}" cy="${o.cy}" r="${r*0.82}" fill="#2b5f9e" opacity=".8"/><circle cx="${o.cx}" cy="${o.cy}" r="${r*0.3}" fill="#9cc3ef"/>`;
+  if (o.sel) g+=`<circle cx="${o.cx}" cy="${o.cy}" r="${r+1.6}" fill="rgba(255,210,60,.35)" stroke="#e5b21b" stroke-width=".5"/>`;
+  const hit = o.kind==='tb'? `<rect class="arthl" x="${o.cx-o.w/2-1}" y="${o.cy-o.h/2-1}" width="${o.w+2}" height="${o.h+2}" rx="1"/>` : `<circle class="arthl" cx="${o.cx}" cy="${o.cy}" r="${r+0.6}"/>`;
+  return `<g ${o.attrs||''}><title>${o.title||''}</title>${g}${lv}${hit}</g>`;
+}
 const MST='#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR/D6207A - #Engineering/D6207A - #Software/atmel/v102/';
 const TYPES=['none','PCM','AC-3','Dolby E'];
 const MODEN={0:'Single AES input with SRC',1:'Dual AES input with auto swap',2:'Single AES input',3:'Dual AES input (AES1 coded / AES2 PCM)'};   // MIB d6207xProgramMode
@@ -392,8 +416,23 @@ const A={
   doc(v){ D.docRev=v; SIM.refresh(); }, sense(v){ D.bitSense=v; SIM.refresh(); },
   reset(){ Object.assign(D,{mode:0,src2:1,dialnorm:false,downmix:1,module:true,slot:4,removedAt:null}); D.in1={type:3,fs:48000}; D.in2={type:1,fs:48000}; D.refs={2:true,3:false}; D.dip=[1,1,1,1,1,1,1,1]; D.lat=[1,1]; D.log=[]; D.canQ=[]; SIM.refresh(); },
 };
-function edgeSVG(t){ const L=leds(t); return K.edgeSVG({label:'D6207A', leds:[{name:'AES1',c:'g',on:L.a1,y:40},{name:'Dolby1',c:'y',on:L.d1,y:80},{name:'Error1',c:'r',on:L.e1,y:120},{name:'AES2',c:'g',on:L.a2,y:180},{name:'Dolby2',c:'y',on:L.d2,y:220},{name:'Error2',c:'r',on:L.e2,y:260},{name:'COM Activity',c:'g',on:L.com,y:320}], note:'D6207A-card-edge.cdr (this folder) / manual table 1'}); }
-function rearSVG(){ const o=outputs().o; return K.rearSVG({name:'T6305A', sub:'D6207A-T6305.pdf (this folder) · 2 slots', id:'manual figure 2', cells:[{n:1,label:'AES In 1',conn:!!D.in1.type,live:D.in1.type?true:undefined},{n:2,label:'AES In 2',conn:!!D.in2.type,live:effSrc2()===1&&D.in2.type?true:undefined},{n:3,label:'L, R',live:o[0]!=='—'?true:'err'},{n:4,label:'C, LFE',live:o[1].startsWith('C')?true:'off'},{n:5,label:'LS, RS',live:o[2].startsWith('L')?true:'off'},{n:6,label:'SAP',live:o[3].startsWith('SAP')?true:'off'},{n:7,label:'Lo,Ro / Lt,Rt',live:o[4]!=='—'?true:'err'},{n:8,label:'INPUT LOOP',live:o[5]!=='—'?true:'off'},{n:9,label:'METADATA',kind:'tb',live:D.in1.type===3?true:'off'},{n:10,label:'RESERVED',kind:'tb'}]}); }
+/* Artwork 2026|59: the card edge is D6207A-card-edge.cdr (the copy in this folder, 2008-05-08) and the rear is the T6305A
+   drawing in the openGear Rear Module Guide (2012-01-16); assets shared with the d6207a plugin. Coordinates in pt. */
+const ARTCDR={edge:'#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A-card-edge.cdr', rear:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6207A - Rear Module Options.cdr', t6305:'#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A-T6305.cdr'};
+const EDGE_YS=[253.5,274.6,297.8,325.7,346.9,370.1,413.9];
+function edgeSVG(t){ const L=leds(t);
+  const body=[['AES1','g',L.a1],['Dolby1','y',L.d1],['Error1','r',L.e1],['AES2','g',L.a2],['Dolby2','y',L.d2],['Error2','r',L.e2],['COM Activity','g',L.com]]
+    .map(([n,c,on],i)=>artLed({x:359.6, y:EDGE_YS[i]-6.1, w:5.5, h:12.2, on, col:K.LEDC[c], fid:'d7dg', title:`${n} LED (${on?'lit':'off'})`})).join('');
+  return artSVG({src:'d6207a-edge.svg', vb:[236,238,160,318], maxw:230, label:'D6207A card edge', fid:'d7dg', body})
+    + `<div class="small muted" style="text-align:center">${SIM.src(ARTCDR.edge,'D6207A-card-edge.cdr')} (this folder, 2008-05-08) / manual table 1</div>`; }
+const REAR_XY = n=> n<=8? [n%2?491.9:510.8, 240+Math.floor((n-1)/2)*18.9] : [n===9?491.4:511.3, 315.5];
+function rearSVG(){ const o=outputs().o, J=(n,x)=>{ const [cx,cy]=REAR_XY(n); return artJack(Object.assign({cx,cy,r:5.85},x)); };
+  const body=[J(1,{conn:!!D.in1.type, live:D.in1.type?true:undefined, title:'1: AES In 1'}), J(2,{conn:!!D.in2.type, live:effSrc2()===1&&D.in2.type?true:undefined, title:'2: AES In 2'}),
+    J(3,{live:o[0]!=='—'?true:'err', title:'3: AES OUT1 L, R'}), J(4,{live:o[1].startsWith('C')?true:'off', title:'4: AES OUT2 C, LFE'}), J(5,{live:o[2].startsWith('L')?true:'off', title:'5: AES OUT3 Ls, Rs'}),
+    J(6,{live:o[3].startsWith('SAP')?true:'off', title:'6: SAP'}), J(7,{live:o[4]!=='—'?true:'err', title:'7: Lo,Ro / Lt,Rt'}), J(8,{live:o[5]!=='—'?true:'off', title:'8: input loop through'}),
+    J(9,{kind:'tb', w:8.6, h:15.1, title:'9: Reserved (Phoenix)'}), J(10,{kind:'tb', w:8.6, h:15.1, live:D.in1.type===3?true:'off', title:'10: Metadata OUT (Phoenix, RS-485)'})].join('');
+  return artSVG({src:'d6207a-rear-t6305a.svg', vb:[402,212,190,119], maxw:420, label:'T6305A rear module', fid:'d7dr', body})
+    + `<div class="small muted" style="text-align:center">T6305A, 2 slots: ${SIM.src(ARTCDR.rear,'D6207A - Rear Module Options.cdr')} (2012-01-16)</div>`; }
 function dashHTML(t){ const cs=cardStatus(), ds=decStatus(t), ro=dipCtl()||!dashOK();
   return K.dashHTML({key:'d6207', title:`Slot ${D.slot}: D6207A`, alarm:cs!==1, tree:[{name:'Ward-Beck frame agent (SNMP)'},{name:`Slot ${D.slot}: D6207A`,lvl:1,sel:true}],
     tabs:[{name:'Status',rows:[{type:'status',label:'Card Status',value:cs===1?'OK':['noAESAudioLock','aes1unlocked','aes2Unlocked','aes2isDolby','','','aesInput>48kHz'].filter((n,i)=>cs&(2<<i)).join(', '),level:cs===1?'ok':(cs&2||cs&4)?'err':'warn'},{type:'status',label:'AES 1 Input',value:TYPES[D.in1.type],level:D.in1.type?'ok':'err'},{type:'status',label:'AES 2 Input',value:effMode()===2?'Not Used':TYPES[in2().type],level:in2().type||effMode()===2?'ok':'err'},{type:'status',label:'Dolby Decoder',value:['','Ok','Error','','AES1 Active','','','','AES2 Active'][ds],level:ds===2?'err':'ok'}]},
@@ -467,6 +506,7 @@ function viewSoft(m){ m.innerHTML=`<div class="grid2">${card('MIB tree (D6207x-C
   const tree=[['d6207xCardMib','1.3.6.1.4.1.25030.1.1.11',''],['  Notifications (0)','',''],['    .1','d6207xCardStatusEvent','doc: d6207xInputStatusEvent'],['    .2','d6207xDolbyDecoderStatusEvent',''],['  Objects (1)','',''],['    .1','d6207xNumberOfCards',''],['    .2','d6207xProductTable (… .8 SupplierWebsite)',''],['    .3.1.1','d6207xProgramMode','0 SRC · 1 autoSwap · 2 single · 3 dual'],['    .3.1.2','d6207xAESInput2Source','1 rear · 2 ref1 · 3 ref2'],['    .3.1.3','d6207xDialnorm',''],['    .3.1.4','d6207xDownmix','0 ltrt · 1 loro'],['    .4.1.1','d6207xCardStatus','doc: d6207xInputStatus'],['    .4.1.2/.3','d6207xAES1Input / AES2Input',''],['    .4.1.4','d6207xDolbyDecoderStatus','']];
   m.querySelector('#mib').innerHTML=`<table class="kv">${tree.map(r=>`<tr><td class="mono" style="white-space:pre">${r[0]}</td><td class="mono">${r[1]}</td><td class="small muted">${r[2]}</td></tr>`).join('')}</table><p class="small muted">MIB LAST-UPDATED 2009-02-10; design note dated 17 February 2009, “Prototype”.</p>`; }
 const FINDINGS=[
+  `<b>Artwork ${SIM.year(2026)}: card edge and rear panel now from the CorelDRAW files.</b> Edge: ${SIM.src(ARTCDR.edge,'D6207A-card-edge.cdr')} (2008-05-08, seven LEDs: AES1, Dolby1, Error1, AES2, Dolby2, Error2, COM Activity); rear: ${SIM.src(ARTCDR.rear,'D6207A - Rear Module Options.cdr')} (2012-01-16). The guide puts <b>Reserved on position 9 and Metadata OUT on position 10</b>; this plugin had them the other way round (corrected). The 2007 sheet ${SIM.src(ARTCDR.t6305,'D6207A-T6305.cdr')} in this folder calls position 9 “GPI/O 1” and the module “T6305” without the A.`,
   `<b>Compressed flag polarity: the documents are wrong.</b> Both register-map documents say “Compressed Flag (0=yes)”; V102 D6207A.c tests <span class="mono">(ALTERA2 &amp; BIT5) != 0</span> and <span class="mono">(ALTERA4 &amp; BIT7) != 0</span> with the comment “if bit is set compressed audio is received”, and the FPGA agrees: <span class="mono">non_audio_detector.vhd</span> sets <span class="mono">detect1_r &lt;= '1'</span> on a burst and drives <span class="mono">pa1(7) &lt;= detect1_r</span>. The flag is active-high.`,
   `<b>Program-mode codes: the manual’s rows are right, its captions are not.</b> MIB: singleAESInputwSRC(0), dualAESInputwAutoSwap(1), singleAESInput(2), dualAESInput(3). The manual’s DIP rows (SW1 ON = auto swap, SW2 ON = single) agree with it, because <span class="mono">v100w.c</span> adds 1 for SW1 ON and 2 for SW2 ON. Only the manual’s “SW1 MSB / SW2 LSB” captions are swapped, and its prose calls “Single AES Input” Mode2 and “Auto Swap” Mode 3, the reverse of <span class="mono">D6207A.h</span> (MODE2 = 1, MODE3 = 2). The older register map has only two modes (ALTERA1 bit 0: decoder with SRC / 2×1 switcher).`,
   `<b>Corrected 2026|59:</b> this plugin used to leave the compressed-flag polarity open and to call program-mode codes 1 and 2 swapped between the manual and the MIB. The VHDL shows the flag is active-high (the two register-map documents are wrong, not the code), and the manual’s mode table agrees with the MIB once SW1 is read as weight 1. (see d6207a.js)`,
@@ -478,7 +518,7 @@ const FINDINGS=[
   `<b>Sample rates.</b> Manual: 32–48 kHz only; the MIB has a CardStatus bit “aesInputgreaterthan48kHz” (128) to flag anything faster.`,
 ];
 const ASSUME=['AVR pass ≈ 300 µs '+inf('no timer'),'Decoder latency one Dolby E (video) frame or one AC-3 frame '+inf('not in the documents'),'RMCK select codes and the frame-ref input-select codes in Reg 20 '+inf('document gives field widths only'),'Module restart 0.3 s '+inf('not documented')];
-const SOURCES=['#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A operational ctl info 4oct07.doc, … 3mar08.doc, D6207x-CARD.mib, Defining a D6207A MIB.doc, D6207A-card-edge.cdr, D6207A-T6305.pdf, D6207A-FUNCTIONAL.pdf (this folder)',MST+'D6207A.c/.h, dolby.c/.h, v100w.c (firmware — sibling folder, linked)','#OPEN GEAR - #Engineering/…/openGear #Manuals #OBSOLETE/D6207A Manual.pdf','#OPEN GEAR - #Engineering/…/SNMP Tools/MIBs (WARD-BECK.mib, enterprise 25030)'];
+const SOURCES=['#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB/D6207A operational ctl info 4oct07.doc, … 3mar08.doc, D6207x-CARD.mib, Defining a D6207A MIB.doc, D6207A-card-edge.cdr, D6207A-T6305.pdf, D6207A-FUNCTIONAL.pdf (this folder)',MST+'D6207A.c/.h, dolby.c/.h, v100w.c (firmware — sibling folder, linked)','#OPEN GEAR - #Engineering/…/openGear #Manuals #OBSOLETE/D6207A Manual.pdf','#OPEN GEAR - #Engineering/…/SNMP Tools/MIBs (WARD-BECK.mib, enterprise 25030)', 'Artwork '+SIM.year(2026)+': '+SIM.src(ARTCDR.edge,'D6207A-card-edge.cdr')+' and '+SIM.src(ARTCDR.rear,'D6207A - Rear Module Options.cdr')+' → assets/d6207a-edge.svg, d6207a-rear-t6305a.svg (shared with the d6207a plugin)'];
 function viewFindings(m){ m.innerHTML=card('What the documents (and the card) are up to', `<ol>${FINDINGS.map(f=>`<li style="margin-bottom:6px">${f}</li>`).join('')}</ol>`)+card('Assumptions', `<ul class="small">${ASSUME.map(a=>`<li>${a}</li>`).join('')}</ul>`)+card('Sources', `<ul class="small mono">${SOURCES.map(s=>`<li>${s}</li>`).join('')}</ul>`); }
 SIM.register({ id:'d6207a-docs', product:'D6207A docs (TIM)', name:'D6207A docs · Dolby E / AC-3 decoder register map and SNMP MIB, openGear (2007|40)', year:2007,
   folder:'#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB', family:'openGear',

@@ -17,7 +17,9 @@
      R204/R204SILK.CDR, R205/R205SILK.CDR, R206/R206SILK.CDR, R208/R208SILK.CDR, R209/R209SILK.CDR and
      r2k20silkMeterBridgeCurveREV3.cdr, converted with Inkscape (libcdr). The CDR text is lost in conversion,
      so the labels are re-set by this plugin; drill crosshairs (hairlines) were read out of the same files to
-     place every button, LED, pot and the fader.  -> assets/consoles-r2k-*.png
+     place every button, LED, pot and the fader.  -> assets/consoles-r2k-*.svg (Artwork 2026|59: vector cuts from the plain-SVG
+     conversion, each registered on the earlier 150 dpi PNG frame, 1.44 × 13.93 in; meter bridge 24.39 × 2.29 in; garbled
+     live text dropped, curve text such as the R206 LOAD/DOWN/START/STOP legends kept)
    - MODULES/XXX - R257 - #Master #Obsolte/R257 - #Mechanical #Obsolete/R257M8 ISS 1 (ANNOUNCE TURRET BODY).pdf
    - Photos: CustomR2K28.jpg (black panels, green fader wedges, red ON keys)
    Anything not in those files is marked "inferred".
@@ -25,6 +27,8 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/consoles-r2k-';
+/* Artwork 2026|59: preload the CorelDRAW SVGs once, so panels that are re-rendered every frame never show them half-loaded */
+const ART_PRELOAD = ["r201.svg", "r202.svg", "r203.svg", "r204.svg", "r205.svg", "r206.svg", "r207.svg", "r208.svg", "r209.svg", "meterbridge.svg"].map(n=>{ const i=new Image(); i.src=ASSET+n; return i; });
 const KEY = '__r2kActive';
 const inf = (why)=>`<span class="tag-inf" title="Not stated in the source; inferred${why?' from '+why:''}">inferred</span>`;
 const card = (t,b,id)=>`<div class="card"${id?` id="${id}"`:''}><h2>${t}</h2>${b}</div>`;
@@ -329,7 +333,7 @@ function modSVG(s, idx, ox, oy, k, big){
   const lay = LAY[s.type]||[]; const art=ART[s.type];
   const sel = D.sel===idx;
   let g = `<g data-slot="${idx}"><rect x="${ox}" y="${oy}" width="${PW*k}" height="${PH*k}" fill="#17181b" stroke="${sel?'var(--accent)':'#000'}" stroke-width="${sel?2:0.6}"/>`;
-  if (art) g += `<image href="${ASSET+art}.png" x="${ox}" y="${oy}" width="${PW*k}" height="${PH*k}" preserveAspectRatio="none"/>`;
+  if (art) g += `<image href="${ASSET+art}.svg" x="${ox}" y="${oy}" width="${PW*k}" height="${PH*k}" preserveAspectRatio="none"/>`;
   else if (s.type==='BLANK') g += `<text x="${ox+PW*k/2}" y="${oy+PH*k/2}" fill="#555" font-size="${k*0.16}" text-anchor="middle" transform="rotate(-90 ${ox+PW*k/2} ${oy+PH*k/2})">BLANK PANEL</text>`;
   const fs = k*0.105;
   g += `<text x="${ox+PW*k/2}" y="${oy+0.62*k}" fill="#eee" font-size="${k*0.13}" font-weight="700" text-anchor="middle">${s.type==='BLANK'?'':s.type}</text>`;
@@ -364,7 +368,7 @@ function modSVG(s, idx, ox, oy, k, big){
 const MB_W=24.39, MB_H=2.29;
 function bridgeSVG(ox, oy, k){
   const t=SIM.t, b=buses(t), mo=monitor(t);
-  let g=`<rect x="${ox}" y="${oy}" width="${MB_W*k}" height="${MB_H*k}" fill="#141518"/><image href="${ASSET}meterbridge.png" x="${ox}" y="${oy}" width="${MB_W*k}" height="${MB_H*k}" preserveAspectRatio="none"/>`;
+  let g=`<rect x="${ox}" y="${oy}" width="${MB_W*k}" height="${MB_H*k}" fill="#141518"/><image href="${ASSET}meterbridge.svg" x="${ox}" y="${oy}" width="${MB_W*k}" height="${MB_H*k}" preserveAspectRatio="none"/>`;
   const srcs=[tt=>buses(tt).P[0], tt=>buses(tt).P[1], tt=>buses(tt).P[2], tt=>monitor(tt).meter];
   for (let mI=0;mI<4;mI++){ const x0=ox+(mI*452.7+73)/75*k, dx=15/75*k;
     for (let c=0;c<2;c++){ const v=meterAt(tt=>srcs[mI](tt)[c]-REF, t); const y=oy+((c?97:75)/75)*k - 0.17*k;
@@ -479,7 +483,7 @@ function bindTop(root){ const q=x=>root.querySelector(x);
 
 /* ---------------- views ---------------- */
 function viewSim(m){ window[KEY]=false;
-  m.innerHTML = card('R2K/20 console — click any module, button, fader or turret key', `<div id="tb"></div><div id="cs"></div><div class="small muted">Panels are the real CorelDRAW silks (R201SILK, R203SILK, … converted, labels re-set) with every control placed on the drill crosshairs of the same files; meter bridge = r2k20silkMeterBridgeCurveREV3.cdr. Lamp colours follow CustomR2K28.jpg ${inf('photo')}. Module order inside the input section ${inf('service report lists quantities only')}.</div>`)
+  m.innerHTML = card('R2K/20 console — click any module, button, fader or turret key', `<div id="tb"></div><div id="cs"></div><div class="small muted">Panels are the real CorelDRAW silks as vector (${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R201/SILK/R201SILK.CDR','R201SILK')}, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R201/SILK/R207SILK.CDR','R207SILK')}, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R202/R202MOD.cdr','R202MOD')}, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R203/R203SILK.CDR','R203SILK')}, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R204/R204SILK.CDR','R204SILK')}, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R205/R205SILK.CDR','R205SILK')}, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R206/R206SILK.CDR','R206SILK')}, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R208/R208SILK.CDR','R208SILK')}, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R209/R209SILK.CDR','R209SILK')}; live text is garbled by libcdr, so labels are re-set) with every control placed on the drill crosshairs of the same files; meter bridge = ${SIM.src('#CONSOLES - #OBSOLETE #Archive/r2k20silkMeterBridgeCurveREV3.cdr','r2k20silkMeterBridgeCurveREV3.cdr')}. Lamp colours follow CustomR2K28.jpg ${inf('photo')}. Module order inside the input section ${inf('service report lists quantities only')}.</div>`)
    + `<div class="grid2"><div>${card('Selected module (larger)', `<div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start"><div id="dt"></div><div style="flex:1;min-width:260px" id="ins"></div></div>`)}</div>
       <div>${card('R257 studio turrets (RS422 to the R206)', `<div id="tu0"></div><div id="tu1" style="margin-top:6px"></div>`)}${card('Firmware trace', `<div class="log" id="lg" style="max-height:420px"></div>`)}</div></div>`;
   const draw=()=>{ const tb=m.querySelector('#tb'); tb.innerHTML=topBar(); bindTop(tb);
@@ -646,6 +650,7 @@ function viewSoft(m){ window[KEY]=false;
 /* ---------------- findings ---------------- */
 function viewFind(m){ window[KEY]=false;
   m.innerHTML=card('Findings — what the R2K and its firmware are up to', `<ol class="small">
+   <li><b>Artwork 2026|59: module panels and meter bridge now vector from the CorelDRAW silks</b> (${SIM.src('#CONSOLES - #OBSOLETE #Archive/MODULES/R201/SILK/R201SILK.CDR','R201SILK.CDR')} 24 Feb 1999, R207SILK 19 Jan 1999, R202MOD 20 Oct 1999, R203/R204/R205/R206SILK Nov–Dec 1998, R208/R209SILK 24 Feb 1999, ${SIM.src('#CONSOLES - #OBSOLETE #Archive/r2k20silkMeterBridgeCurveREV3.cdr','meter bridge REV3')} 9 Jun 2004), replacing the PNG renders. Only the meter bridge and the R206 timer legends (LOAD, DOWN HR, START MIN, STOP/RESET SEC) are in curves; every other module's legend is live text whose encoding libcdr cannot read, so the labels stay re-set by the plugin. R201SILK.CDR and R209SILK.CDR each carry a second, drill-only copy of the panel (crosshairs, no ink) beside the art, and R202MOD.cdr is a white-filled outline with WBS / R202 and four holes rather than a silk. ${SIM.src('#CONSOLES - #OBSOLETE #Archive/NAB R2k Revised Curve.cdr','NAB R2k Revised Curve.cdr')} (Jun 2004) is a different, show-floor bridge: “r2k | cool grey”, one long meter window, the WBS mark over a blank display and CLOCK (AM/PM) and TIMER (UP/DN) windows signed WARD-BECK SYSTEMS, with no PROGRAM/AUDITION/UTILITY/AUX labels ${inf('file name and layout')}.</li>
    <li><b>One manual page describes a different firmware.</b> The R201/R221 page lists Modes 2/3 as A/B select with “CH OFF + INA/INB” tallies and Mode 1 with event pulses. r201v101.asm (Mar 1999) implements Modes 2/3 as <i>CUE ON/CUE OFF</i> inputs, which is the R207 table, and sets flag2,6 (pulse) in modes 1, 3, 4, 7. The A/B behaviour arrives with R201M101 “CHANGED MODES FOR TELEMEDIA JAN 25, 2000 … SEE MODES #1 IN MANUAL”, which also drops every pulse flag. The text was written against the customer build.</li>
    <li><b>Mode 3 says “alternate action” but v101 makes it always-on.</b> modeproc for mode3 does bsf flag2,5 and bsf flag2,6, so the ON key cannot turn the channel off. R201M301 (Feb 15 2002, CBC Windsor) redefines mode 3 again (“added fader down-choff to mode 3”).</li>
    <li><b>The fader cancels cue on both edges.</b> The eot routine clears status1,1 when flag0,7 differs from flag0,6 in either direction, so lifting a fader off its end stop also cancels a cue. The manual only mentions the end-of-travel switch turning cue off.</li>

@@ -20,6 +20,9 @@
        swap.vhd, switch2x1.vhd, stabalizer.vhd, PDF_DETECTOR.bdf, i2sx4_aes.vhd, altpll1.vhd, lpm_counter0.vhd
    - …/DEMUX-3 - #PCB/DEMUX-3ISS4.net, .bom, .pnp (P-CAD); WORKING/Imported DEMUX-3ISS4.PRJPCB/
        Project Outputs…/DEMUX-3ISS4.PDF (top assembly → assets/demux3-top-assy.png), DEMUX-3ISS4.GKO (outline)
+   - AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk-CURVE.cdr (2006-06-29, white plate) + AMS81 - #Master/AMS8 - #Engineering/
+       PANEL VIEWS/AMS81-DEMUX3-REARVIEW.cdr (2009-11-04, connector outlines, same sheet registration) → Inkscape/libcdr →
+       assets/demux3-rear.svg: the DEMUX-3 section of the AMS8-1 rear (artwork pass 2026|59)
    - DEMUX3 - #TESTREPORT/*.pdf (v1003 cable length, v2003, v2004, DMS1 v4000, XTM4 v4000)
    - DEMUX-3 - #software/readme.doc (27 Feb 2008, Tim Clarke)
    Anything not in those files is marked "inferred" on screen.
@@ -27,6 +30,7 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+const REAR_SILK = 'AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk-CURVE.cdr', REAR_VIEW = 'AMS81 - #Master/AMS8 - #Engineering/PANEL VIEWS/AMS81-DEMUX3-REARVIEW.cdr';
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const hex = (v,n)=> (v>>>0).toString(16).toUpperCase().padStart(n||2,'0');
 const bin = (v,n)=> (v>>>0).toString(2).padStart(n||8,'0');
@@ -550,6 +554,26 @@ function bindBoard(root){
   root.querySelectorAll('.d3chip').forEach(g=> g.addEventListener('click', ()=>{ D.selChip = D.selChip===g.dataset.c? null : g.dataset.c; SIM.refresh(); }));
   const h=root.querySelector('.d3host'); if (h) h.addEventListener('click', ()=>{ if (BUILDS[D.build].proto!=='pod19') A.host(!world(absT()).host); });
 }
+/* AMS8-1 rear, DEMUX-3 section: CorelDRAW silk + panel-view outlines; connectors sit on the drawn BNC / D-sub outlines */
+function rearSVG(t){
+  const w=world(t), oc=k=>{ const o=outState(k,t); return o.on && o.mode==='audio'; };
+  const bnc=(x,cls,k,tip,live,plug,sel)=>`<g class="${cls}" ${k?`data-k="${k}"`:''} style="cursor:pointer"><title>${tip}</title><circle cx="${x}" cy="93" r="56" fill="transparent"/>
+      <circle cx="${x}" cy="93" r="31" fill="#a68a3c" stroke="#5e4d1c" stroke-width="3"/><circle cx="${x}" cy="93" r="20" fill="#d8c27a"/><circle cx="${x}" cy="93" r="7" fill="#7a5f12"/>
+      ${plug?`<rect x="${x-20}" y="70" width="40" height="46" rx="7" fill="#3a74b8"/><rect x="${x-13}" y="112" width="26" height="60" fill="#2b5f9e"/>`:''}
+      <circle cx="${x+48}" cy="40" r="10" fill="${live?'var(--accent)':'#555'}" stroke="#111"/>${sel?`<circle cx="${x}" cy="93" r="46" fill="none" stroke="var(--accent)" stroke-width="5" stroke-dasharray="10 8"/>`:''}</g>`;
+  const tipBox=(x,y,wd,ht,tip)=>`<rect x="${x-wd/2}" y="${y-ht/2}" width="${wd}" height="${ht}" fill="transparent"><title>${tip}</title></rect>`;
+  return `<svg viewBox="880 0 1080 330" role="img" aria-label="AMS8-1 rear panel, DEMUX-3 section (real silkscreen)" style="width:100%;max-width:640px;display:block;border-radius:6px">
+    <rect x="880" width="1080" height="330" fill="#202326"/>
+    <image href="${ASSET}demux3-rear.svg" width="3448" height="330"/>
+    ${tipBox(1025,165,100,170,'DOLBY E METADATA (DE-9): host-unit port; not wired to the DEMUX-3 in the files read (inferred)')}
+    ${tipBox(1155,165,100,170,'SERIAL COMM (DE-9): the AMS8-1 serial port; the DEMUX-3 talks to the AMS8 on its own P2 inside the unit (inferred)')}
+    ${tipBox(1618,243,370,95,'AUX (DB-25): AMS8-1 auxiliary I/O; which DEMUX-3 pins reach it (P3 group-2 pairs?) is not in the files read (inferred)')}
+    ${bnc(1405,'d3in','',`SDI IN = DEMUX-3 INPUT1 (GS1574 equaliser) — click to ${w.cable?'unplug':'plug in'} SDI`,w.cable,w.cable,false)}
+    ${bnc(1555,'','', 'SDI OUT = OUTPUT1, re-clocked loop-out (GS1528)',w.cable,false,false)}
+    ${bnc(1708,'d3out','aes1','AES1 = FPGA AES output 1 (group 1 pair) — click to scope',oc(0),false,D.scope===0)}
+    ${bnc(1858,'d3out','aes2','AES2 = FPGA AES output 2 — click to scope',oc(1),false,D.scope===1)}
+  </svg>`;
+}
 function setBoard(el, html){ if (el._h===html) return; el._h=html; el.innerHTML=html; bindBoard(el); }
 function chipInfo(){ const c=CHIPS.find(x=>x[0]===D.selChip); return c? `<b>${c[0]}</b>: ${c[5]}` : '<span class="muted">Click a part for what it does. Click INPUT1 to plug/unplug SDI, AES1/AES2 to scope that output, P2 to connect the host.</span>'; }
 function controlsHTML(){
@@ -737,7 +761,7 @@ function stateTable(t){
 function traceHTML(){ const e=D.log[0]; return e? `<div><b>${e.name}</b> at ${SIM.fmtT(e.t)} <span class="muted">(abs ${e.abs.toFixed(4)} s)</span></div>`+e.trace.map(s=>`<div>→ ${s}</div>`).join('') : '<div class="muted">Unplug the input, change the format or the groups, select a group from the host or slip a FIFO. Each step the firmware and the FPGA take is listed here with real function, variable and net names.</div>'; }
 function viewSim(m){
   window.__demux3Active = true;
-  m.innerHTML = `<div class="grid2"><div>${card('DEMUX-3 issue 4 at the playhead — real top assembly drawing', `<div id="bd"></div><div id="ci" class="small" style="margin-top:4px"></div><div id="ctl"></div>`)}</div>
+  m.innerHTML = `<div class="grid2"><div>${card('DEMUX-3 issue 4 at the playhead — real top assembly drawing', `<div id="bd"></div><div id="ci" class="small" style="margin-top:4px"></div><div id="ctl"></div>`)}${card('In an AMS8-1: the DEMUX-3 section of the rear panel', `<div id="rp"></div><p class="small muted">Artwork: ${SIM.src(REAR_SILK,'AMS81-DEMUX3rearsilk-CURVE.cdr')} (white plate, 29 Jun 2006) with the connector outlines of ${SIM.src(REAR_VIEW,'AMS81-DEMUX3-REARVIEW.cdr')} in grey (both drawn on the same 19 × 5 in sheet, so they register exactly). Click SDI IN to plug the cable, AES1 / AES2 to scope; hover the D-subs.</p>`)}</div>
     <div>${card('What the software did (last action)', `<div id="trace" class="log"></div>`)}${card('State at the playhead', `<div id="insp"></div>`)}</div></div>
     ${card('Timeline — one second as the board sees it (click to seek; zoom with “Zoom window”)', `<canvas id="tl"></canvas>
       <p class="small muted">MCU timing is counted from demux3_v400.lis: a bit of <span class="mono">read_data</span> ≈ ${RD_BIT} cycles, of <span class="mono">write_data</span> ≈ ${WR_BIT}, so one pass ≈ ${PASS_CYC} cycles = ${SIM.fmtDur(PASS_T)} at 4.9152 MHz (the non-I/O steps are estimated from function sizes, ${inf}). GS1560 lock, FPGA load and host cadence are ${inf}. Group colours: <span style="color:var(--accent)">G1</span> <span style="color:var(--accent2)">G2</span> <span style="color:var(--warn)">G3</span> <span style="color:var(--bad)">G4</span>.</p>`)}
@@ -746,7 +770,7 @@ function viewSim(m){
     ${card('Action log', `<div id="log" class="log"></div>`)}`;
   m.querySelector('#ctl').innerHTML=controlsHTML(); bindControls(m);
   const draw=()=>{ const t=absT();
-    setBoard(m.querySelector('#bd'), boardSVG(t)); m.querySelector('#ci').innerHTML=chipInfo();
+    setBoard(m.querySelector('#bd'), boardSVG(t)); setBoard(m.querySelector('#rp'), rearSVG(t)); m.querySelector('#ci').innerHTML=chipInfo();
     m.querySelector('#trace').innerHTML=traceHTML(); m.querySelector('#insp').innerHTML=stateTable(t);
     m.querySelector('#log').innerHTML=D.log.map(e=>`<div><b>${e.name}</b> <span class="muted">@ ${SIM.fmtT(e.t)}</span></div>`).join('')||'<div class="muted">No actions yet.</div>';
     SIM.drawLanes(m.querySelector('#tl'), lanes(), {labelW:210});
@@ -1053,7 +1077,8 @@ function viewFindings(m){
   window.__demux3Active = false;
   const F_ = (h,b)=>`<li><b>${h}</b> ${b}</li>`;
   m.innerHTML = card('What the DEMUX-3 firmware and FPGA are really up to', `<ol class="small" style="line-height:1.5">
-    ${F_('The “fixed” v400 is the 2006 v201-4 with two lines commented out.', 'A diff of <span class="mono">v400/demux3_v400.c</span> against <span class="mono">v201-4/demux_201-4.c</span> (13 Oct 2006) differs only in “/*Ali-Rem Start init_loop: … goto init_loop; //Ali-Rem End */”. The DMS1 and XTM4 test reports (16 Aug 2011, 27 Apr 2012) say v400 / firmware 4.0.0.0 fixed communication problems and front-panel freezes in SDI mode; in code terms the fix was dropping the wait-for-0xE8 loop and going back to the 2006 source. The archive README describes v204 → v400 as “GROUP_CONSTANT 3 → 10” — it is the other way round: v204 has 10 (“Ali-Add”), v400 has 3.')}
+    ${F_('Artwork 2026|59: the AMS8-1 rear (DEMUX-3 section) now comes from '+SIM.src(REAR_SILK,'AMS81-DEMUX3rearsilk-CURVE.cdr')+' (29 Jun 2006).', 'The silk has no DEMUX-3 panel of its own: the board appears as six openings on the AMS8-1 rear, labelled SDI IN, SDI OUT, AES1, AES2, DOLBY E METADATA and SERIAL COMM, plus an AUX DB-25. The silk carries only labels, so connector outlines come from '+SIM.src(REAR_VIEW,'AMS81-DEMUX3-REARVIEW.cdr')+' (2009), drawn on the same sheet origin. The rear silk names the unit “AMS-81”. The same CURVE file is stored three times (TIM/SILK and two “Older Drawings” folders, identical bytes); the 2005 '+SIM.src('AMS8 #Engineering #TIM/SILK/AMS81-DEMUX3rearsilk.cdr','non-curve original')+' and its Backup_of_ copy are older. The board’s two group-2 outputs (P3/P4) have no BNC of their own on this panel; whether they reach AUX is '+inf+'.')}
+ is the 2006 v201-4 with two lines commented out.', 'A diff of <span class="mono">v400/demux3_v400.c</span> against <span class="mono">v201-4/demux_201-4.c</span> (13 Oct 2006) differs only in “/*Ali-Rem Start init_loop: … goto init_loop; //Ali-Rem End */”. The DMS1 and XTM4 test reports (16 Aug 2011, 27 Apr 2012) say v400 / firmware 4.0.0.0 fixed communication problems and front-panel freezes in SDI mode; in code terms the fix was dropping the wait-for-0xE8 loop and going back to the 2006 source. The archive README describes v204 → v400 as “GROUP_CONSTANT 3 → 10” — it is the other way round: v204 has 10 (“Ali-Add”), v400 has 3.')}
     ${F_('v400 lost every v202/v203 fix.', 'v202 added <span class="mono">|| (CD == 0)</span> to TRANSLATE_RESET_VECTOR(1), corrected <span class="mono">RESET3 → RESET2_3</span> in PROCESS_SAMPLE56_COMPARE and widened the reset counters; v203 added “if (CD == 0) AUDIO_INFORMATION = 0x00”. v204 and v400 come from the other (polled-UART) branch and have none of them. See the family table on the Software tab.')}
     ${F_('HD audio is not muted when the cable is pulled (v400).', `In HD, <span class="mono">AES_enable</span> follows <span class="mono">enableHD</span> from <span class="mono">hd_group_detect.vhd</span>, which only clears after 8 rising edges of “vertical” — derived from the video itself. With no video there are no edges, so enableHD stays 1 and the outputs keep serialising the last FIFO word; with no CD term in v400’s reset vector the MCU never clears the dcfifo0s (${inf}: content). RD60’s copy of pod31.bdf gates the four serialisers with <span class="mono">sdi_lock</span> — exactly this hole.`)}
     ${F_('sdi_lock is wired in the chain but goes nowhere.', 'group_data bit 6 (CD) lands on <span class="mono">inst46 q6 = sdi_lock</span>, which no block uses in the DEMUX3 master v301. Selecting Group 4 makes audio_select2 = 8: its bit 3 also lands on q6, and group_sel2 becomes 000 → the second group wraps to Group 1.')}

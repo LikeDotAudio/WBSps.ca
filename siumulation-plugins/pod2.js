@@ -495,6 +495,13 @@ document.addEventListener('keydown', e=>{
    1.256 × 1.080 at 7.415 / .703. Crosshairs on the rear silk (254,112) (991,112) (1079,209) (1276,209) land on the
    4-40 holes of the drawing to within 1 px. */
 const ASSET = 'siumulation-plugins/assets/';
+/* Panel artwork 2026|59: CorelDRAW sheet converted with Inkscape (libcdr) → assets/pod2-front.svg and rear SVG(s)
+   (ink plates coloured green rgb(52,168,83) / white rgb(240,240,236), cut-outs as dark holes, drill crosshairs faint;
+   registered to the older PNG silks to ±1 px so every control keeps its place). The PNGs stay on a toggle. */
+const ART = {cdr:true};
+const ART_CDR = '#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).cdr';
+function artNote(){ return `<div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src(ART_CDR, ART_CDR.split('/').pop())} (CorelDRAW, default) · <label><input type="checkbox" class="pod2-art" ${ART.cdr?'':'checked'}> show the older PNG silks (cut from ${SIM.src('#POD #SERIES/POD2 - #Master/POD2 - #ARTWORK #DA #2016/POD2-FRONT&REAR-SILK (CURVE).pdf','the PDF')})</label></div>`; }
+document.addEventListener('change', e=>{ if (e.target && e.target.classList && e.target.classList.contains('pod2-art')){ ART.cdr = !e.target.checked; SIM.refresh(); } });
 const BX = [780, 930, 1080, 1230, 1380, 1530], SUMX = 480, BY = 162;
 function frontSVG(t, opts){
   opts = opts||{};
@@ -511,8 +518,8 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD2 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="p2glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1714" height="321" rx="8" fill="#141517"/>
-    <image href="${ASSET}pod2-front-green.png" width="1714" height="321"/>
-    <image href="${ASSET}pod2-front-white.png" width="1714" height="321"/>
+    ${ART.cdr ? `<image href="${ASSET}pod2-front.svg" width="1714" height="321"/>` : `<image href="${ASSET}pod2-front-green.png" width="1714" height="321"/>
+    <image href="${ASSET}pod2-front-white.png" width="1714" height="321"/>`}
     ${screw(51,161,12)}${screw(1664,161,12)}${screw(556,162,13)}${screw(1005,162,13)}${screw(1455,162,13)}
     <g class="p2pwr" style="cursor:pointer"><title>Power rocker (click)</title><rect x="129" y="54" width="101" height="154" rx="6" fill="#0b0c0d" stroke="#2d3033" stroke-width="2"/>
       <rect x="140" y="${pwr?66:118}" width="79" height="78" rx="6" fill="#1c1e21" stroke="#3a3e42"/><rect x="146" y="${pwr?72:186}" width="67" height="8" rx="3" fill="#2b2e31"/></g>
@@ -537,7 +544,7 @@ function rearSVG(t){
   let ob = ''; for (let r=0;r<2;r++){ const y = 33 + r*86; ob += `<rect x="279" y="${y-2}" width="90" height="84" fill="#1d8a50" rx="2"/>`; for (let i=0;i<3;i++) ob += term(294+30*i, y, alive && m); }
   const lv = levelOf(m);
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD2 rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
-    <rect width="1714" height="321" rx="8" fill="#141517"/>
+    <rect width="1714" height="321" rx="8" fill="#141517"/>${ART.cdr ? `<image href="${ASSET}pod2-rear.svg" width="1714" height="321"/>` : ''}
     ${tb}${ob}
     <g class="p2ctl" style="cursor:pointer"><title>CONTROL DE9F (RS-422): click to ${pod2r?'unplug':'plug in'} a POD2R remote</title>
       <rect x="1100" y="160" width="154" height="93" rx="10" fill="#9aa3a8" stroke="#c9d0d4" stroke-width="3"/>
@@ -549,7 +556,7 @@ function rearSVG(t){
       <rect x="1372" y="48" width="70" height="186" rx="4" fill="#17191b" stroke="#33373b"/><rect x="1390" y="80" width="34" height="120" rx="3" fill="#0f1011" stroke="#2b2e31"/>
       <path d="M1460 60 h130 v120 l-30 40 h-70 l-30 -40 z" fill="#050606" stroke="#2c2f32" stroke-width="2"/>
       <rect x="1488" y="85" width="10" height="34" fill="#c9cdd0"/><rect x="1555" y="85" width="10" height="34" fill="#c9cdd0"/><rect x="1521" y="140" width="10" height="34" fill="#c9cdd0"/></g>
-    <image href="${ASSET}pod2-rear-white.png" width="1714" height="321"/>
+    ${ART.cdr ? '' : `<image href="${ASSET}pod2-rear-white.png" width="1714" height="321"/>`}
     ${[[254,112],[991,112],[51,161],[1664,161]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="11" fill="#2a2d30" stroke="#3d4145"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#0c0d0e" stroke-width="2.4"/>`).join('')}
     <text x="324" y="22" text-anchor="middle" font-size="15" fill="${lv.clip?'#ff6a5a':'#9fe3b8'}" font-family="ui-monospace,monospace">${alive && m ? (isFinite(lv.dbu)?lv.dbu.toFixed(1)+' dBu':'—')+(lv.clip?' CLIP':'') : 'silent'}</text>
   </svg>`;
@@ -711,7 +718,7 @@ function viewSim(m){
   <div class="grid2">
     <div>
       ${card('Front panel at the playhead — click the buttons (keys 1–6, S)', `<div id="fp"></div>`)}
-      ${card('Rear panel — click an input block to add/remove its source; click CONTROL to plug a POD2R', `<div id="rp"></div>`)}
+      ${card('Rear panel — click an input block to add/remove its source; click CONTROL to plug a POD2R', `<div id="rp"></div>${artNote()}`)}
       ${card('RS-422 CONTROL port (9600 8N1, address F0)', `<div id="con"></div>`)}
       ${card('Slave port P3 and remote', `<div id="slv"></div>`)}
     </div>
@@ -1090,6 +1097,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__pod2Keys = false;
   const F = [
+    ['FA','Artwork 2026|59: front/rear panels now from '+SIM.src(ART_CDR, ART_CDR.split('/').pop())+' (file 2015-09-30, sheet dated Jun.19/14)','The ink plates are drawn as vectors over the cut-out layer (rocker, power LED, seven button holes, three screw holes between SUM/2–3/5–6, Phoenix and CONTROL cut-outs, IEC inlet). The front WHITE plate has four filled corner triangles that are not on the photo (sheet furniture, left out). The rear plate has one more hole than the legend names: a small round hole at the top right, beside the IEC inlet. The older PNG silks are on the toggle under the rear panel.'],
     ['F0','Corrected 2026|59: the POD9 SLAVE button only works in the 16F73 build (see pod9.js)','The POD9 side used to toggle slave mode on its SLAVE button. In POD9 V102 (<span class="mono">#V102/pod9v102.asm</span>, the build for “POD2 remote with POD2 and POD9”) the RA1 “check mix” read in <span class="mono">input</span> is commented out, so the button does nothing, and <span class="mono">SPI_master</span> does <span class="mono">bcf pre_output,5</span> on every SPI exchange, forcing slave on. A POD2 command that clears slave (F0 C0, or SUM via <span class="mono">special_spi</span>) therefore lasts one exchange. Toggling works only in the 16F73 build (<span class="mono">#V100/pod9v102.asm</span>). The POD9 side now defaults to V102; the 16F73 build is an option in the slave-port panel.'],
     ['F1','Manual vs code: C0 and C7 are swapped','The manual (SERIAL PROTOCOL 4) says F0 C0 turns POD9’s slave indicator on and F0 C7 turns it off. In <span class="mono">translate_uart</span> → <span class="mono">slave_mode</span>, a = 0 jumps to <span class="mono">slave_off</span> (bit 6 set = off) and a = 7 to <span class="mono">slave_on</span> (bit 6 cleared). The POD2R remote agrees with the code: <span class="mono">slave_on_stuff</span> sends C7, <span class="mono">slave_off_stuff</span> sends C0 (pod2r200.asm). Try the “Manual note test” scenario.'],
     ['F2','The slave field of a C1–C6 command also turns slave mode on','<span class="mono">not_on</span> clears bit 6 of <span class="mono">spi_output_temp</span>, so “11 000 aaa” both switches audio+video to input a and switches POD9 into audio-follow-video. The manual only says “slave audio and video”.'],

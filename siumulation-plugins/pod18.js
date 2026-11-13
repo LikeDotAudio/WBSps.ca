@@ -33,11 +33,18 @@ function panelSVG(prefix, side, inner, label){
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    ${ART.cdr ? `<image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>` : layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
 }
+/* Panel artwork 2026|59: CorelDRAW sheet converted with Inkscape (libcdr) → assets/pod18-front.svg, -rear.svg
+   (ink plates coloured green rgb(52,168,83) / white rgb(240,240,236), cut-outs as dark holes, drill crosshairs faint;
+   registered to the older PDF PNG silks to ±1 px so every control keeps its place). The PNGs stay on a toggle. */
+const ART = {cdr:true};
+const ART_CDR = '#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).cdr', ART_PDF = '#POD #SERIES/POD18 - #Master/POD18 - #ARTWORK #DA #2016/POD18-FRONT&REAR-SILK (CURVE).pdf';
+function artNote(){ return `<div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src(ART_CDR, ART_CDR.split('/').pop())} (CorelDRAW, default) · <label><input type="checkbox" class="pod18-art" ${ART.cdr?'':'checked'}> show the older PNG silks cut from ${SIM.src(ART_PDF, 'the PDF')}</label></div>`; }
+document.addEventListener('change', e=>{ if (e.target && e.target.classList && e.target.classList.contains('pod18-art')){ ART.cdr = !e.target.checked; SIM.refresh(); } });
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
   return `<g class="pwr" style="cursor:pointer"><title>Power rocker: click to switch ${on?'off':'on'}</title><rect x="${x}" y="${y}" width="112" height="146" rx="10" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/>
@@ -393,7 +400,7 @@ function levelsCard(){
 }
 function viewSim(m){
   window.__pod18Active=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — click the RCA inputs to plug or unplug',`<div id="rp"></div>`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — click the RCA inputs to plug or unplug',`<div id="rp"></div>${artNote()}`)}</div>
     <div>${card('What the circuit did (last action)',`<div id="trace" class="log"></div>`)}${card('Outputs now',`<div id="now"></div>`)}</div></div>
     ${card('Timeline — one second, zoomable. 10 ms shows the 120 Hz ripple; 2 ms shows single tone cycles.',`<canvas id="tl"></canvas>`)}
     <div class="grid2">${card('Level through every stage',`<div id="lv"></div>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
@@ -494,6 +501,7 @@ function viewSoft(m){
 }
 function viewNotes(m){ window.__pod18Active=false;
   m.innerHTML=card('What the POD18 archive shows — findings',`<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_CDR, ART_CDR.split('/').pop())}</b> (file 2015-10-02, sheet dated Jun.25/14). The ink plates are drawn as vectors; the older PNG silks cut from ${SIM.src(ART_PDF, 'the PDF')} are on the toggle under the rear panel. The rear plate on the sheet is drawn 1.4 pt left of the front plates and its outline is drawn twice (x 114.3 pt and 114.33 pt, against 115.7 pt for the fronts); it was registered to the older PNG silk (3 px). Front OUTPUT ADJUST has four holes (L/R for OUTPUT 1 and 2) but only OUTPUT 1 R carries a drill crosshair on the art.</li>
    <li><b>The folder README has the direction backwards.</b> The README says “balanced inputs, unbalanced outputs”. Both manuals, the netlist (JK1 RCA → gain stage → NC3MD-H male XLRs) and the rear silk say <b>unbalanced in, balanced out</b>. The cover drawing in <span class="mono">POD 18 MANUAL.pdf</span> labels the right-hand pair “BALANCED INPUTS 1”, but the real silk reads “BALANCED OUTPUTS 1”.</li>
    <li><b>The regulator resistors in the parts lists cannot make ±18 V.</b> The ISS2 BOM and the strings in <span class="mono">POD18ISS3.sch</span> list only 221R parts (R5–R8) in the LM317/LM337 adjust networks. That gives 1.25 × (1 + 221/221) = 2.5 V, yet the nets are named +18V/−18V and the units measured +25.5 dBu. One resistor of each pair must be about 2K95 in the real build (${inf}). Try “Regulator resistors: as the parts lists say”.</li>
    <li><b>Two manuals, two specs.</b> <span class="mono">Older/pod18.pdf</span> gives +10 … +25 dB gain, +28 dBu max out and +20 dBu max in. The current manual gives +12 … +24 dB, +25 dBu and +10 dBu. The schematic values give ${fdb(dB(gainLeg(0))+6.02)} … ${fdb(dB(gainLeg(1))+6.02)} dB, which matches the older manual. +28 dBu needs rails of about ±18 V. +25 dBu is what the ±12 V SMT (RD64) board can do. So the current manual looks rewritten for the RD64 build (${inf}).</li>

@@ -23,17 +23,24 @@ const fdb = (d,n) => d<-150 ? '−∞' : (d>=0?'+':'−')+Math.abs(d).toFixed(n=
 const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
+/* Artwork 2026|59: both panels come straight from the CorelDRAW sheet POD5-FRONT&REAR(FINAL CURVE).cdr (Jun.20/14, text as curves). Inkscape → plain SVG;
+   the FRONT GREEN, FRONT WHITE and REAR WHITE plates were cut at their outline (x 94.51 pt; y 48.90 / 223.05 / 413.67 pt; 617.04 × 115.63 pt = 8.570 × 1.606 in),
+   the two front plates registered on one face and inked POD green rgb(52,168,83) / white rgb(240,240,236). Cut-outs, screw holes
+   and drill centre marks are kept as faint geometry, not ink (the photos show no printed crosshairs). 1 pt = 200/72 px, so the
+   art lands on the same 1714 × 321 grid as the controls. */
+const ART_SRC = '#POD #SERIES/POD5 - #Master/POD5 - #ARTWORK #DA #2016/POD5-FRONT&REAR(FINAL CURVE).cdr';
+const ART_CAP = `<div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src(ART_SRC, 'POD5-FRONT&REAR(FINAL CURVE).cdr')} (CorelDRAW, Jun.20/14 · ${SIM.year(2014)}), green and white plates registered on one panel.</div>`;
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
+  const art = `${prefix}-${side==='front'?'front':(inner.art||'rear')}.svg`;
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${art}" width="${PW}" height="${PH}" preserveAspectRatio="none" style="pointer-events:none"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
-  </svg>`;
+  </svg>${side==='front'?'':(inner.cap||ART_CAP)}`;
 }
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
@@ -538,6 +545,7 @@ const viewSoft=softView({flag:'__pod5Active',D,intro:'POD5 has no processor. Cli
   buttons:[['HEADSET A/B knob','ALVL/BLVL dual 10K → U1/U2 drivers','Both ears together'],['TKBK-A/B CTL to GND','R32/R30 → 74HC4053 select','Talkback right, mono left'],['TKBK LEVEL trim','TBLVL wiper → TB_INPUT → R34/R38','Talkback level in both channels'],['Plug headset','HDSTx: tip pin 8, ring pin 6','Load on the drivers']],
   pins:[['Rear block (18 × 3.5 mm)','1–6','HEADSET B L (+ − G), R (+ − G)'],['','7–12','HEADSET A L, R'],['','13–15','TKBK IN + − G (U7A)'],['','16 / 17 / 18','TKBK-B CTL / TKBK-A CTL / GND'],['HEADSET jacks (¼" TRS)','tip / ring / sleeve','left (U1A/U2B) / right (U1B/U2A) / GNDD']]});
 const viewNotes=notesView('__pod5Active','What the POD5 archive shows — findings',[
+  ()=>`<b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART_SRC,'POD5-FRONT&REAR(FINAL CURVE).cdr')} (Jun.20/14).</b> The front plates draw the rocker, the two HEADSET jack holes, the LED and both pot holes, and the knobs and jacks of the simulator sit on them. The sheet also carries a fourth, empty panel outline far off the page (x ≈ 2075 pt), a leftover that the PDF never showed. The drill crosses in the holes are not printed (${SIM.src('#POD #SERIES/POD5 - #Master/POD5 - #ARTWORK #DA #2016/Pics/POD5 Front.jpg','Pics/POD5 Front.jpg')}), so they are faint geometry here. Older art: ${SIM.src('#POD #SERIES/POD5 - #Master/POD5 - #Engineering/POD5 - #ARTWORK/POD5SLK.CDR','POD5SLK.CDR')} (18 Sep 2008|41).`,
   `<b>Channel A's right ear is 6 dB quieter than channel B's.</b> In POD5-iss4.net the right-ear mixer of A (U4A) has feedback R35 = 10K, while B's (U6A) has R39 = 20K. Both take the R program through a 20K resistor (R48, R56), so A gives ×0.5 and B gives ×1. The talkback inputs were sized to match (R34 10K for A, R38 20K for B), so talkback is unity in both — which suggests R35 was chosen for the talkback and the program path was missed. The 5K trim RV1 only adjusts the left ear and cannot correct it.`,
   `<b>The manual's talkback range (−6 … +6 dB) does not fit the circuit.</b> TBLVL is a 10K trim with R67 2K to ground, so it can only attenuate (≈ −17 … 0 dB at the mixer); the +6 dB comes from the headset driver after the HEADSET knob. Pin roles of TBLVL are ${inf}.`,
   `<b>Talkback switching happens at virtual earths.</b> The 74HC4053s run from +5 V with VEE at ground, yet switch a ±17 V path: every switched node is an op-amp summing node or the far end of a capacitor-coupled input resistor.`,
@@ -545,7 +553,7 @@ const viewNotes=notesView('__pod5Active','What the POD5 archive shows — findin
   `<b>Two ¼" jacks, one control per headset, but one talkback source.</b> TB_INPUT feeds both channels; TKBK-A and TKBK-B choose who hears it. U7B is wired as a grounded follower (unused).`,
   `<b>Mono sum keeps level.</b> In talkback the X switch puts R36 (R40) in parallel with the left mixer's feedback, so L and R each go in at ½ and a centred (mono) program stays at the same level.`,
 ],[`Pots: log taper, 10 % at mid travel (${inf}). TBLVL pin roles (${inf}).`,`Driver clip at the rails less 2 V and a 0.2 A peak current limit (${inf}, chosen to match the manual's 60 Ω figure).`,`Rear terminal order follows the silk; which P1/P2 pair is L or R is ${inf} from the talkback behaviour in the manual.`],
-  ['POD5 - #Engineering/POD5 - #ISS4 #PCB/POD5-iss4.net · POD5-iss4.sch','POD5 - #Engineering/POD5 - #MANUAL/POD5MANU.pdf','POD5 - #ARTWORK #DA #2016/POD5-FRONT&amp;REAR-SILK (CURVE).pdf · Pics/POD5 Front.jpg, Rear.jpg','POD5 - #Mechanical #DA #2016/POD5-FRONT ISS 3 (PANEL).pdf · POD5-REAR ISS 3 (PANEL).pdf']);
+  ['POD5 - #Engineering/POD5 - #ISS4 #PCB/POD5-iss4.net · POD5-iss4.sch','POD5 - #Engineering/POD5 - #MANUAL/POD5MANU.pdf',SIM.src(ART_SRC,'POD5 - #ARTWORK #DA #2016/POD5-FRONT&REAR(FINAL CURVE).cdr')+' (panel artwork) · Pics/POD5 Front.jpg, Rear.jpg','POD5 - #Mechanical #DA #2016/POD5-FRONT ISS 3 (PANEL).pdf · POD5-REAR ISS 3 (PANEL).pdf']);
 SIM.register({
   id:'pod5', name:'POD5 · dual stereo headset amplifier with talkback (2014|47)', duration:1, product:'POD5', year:2014, family:'POD series', folder:'#POD #SERIES/POD5 - #Master',
   summary:'Half-rack dual stereo headset amplifier. Grounding a rear control puts the talkback input in the right ear and a mono sum of the program in the left. Modelled from the ISS4 netlist: CMOS switches at virtual earths, dual-pot level, discrete class-AB headset drivers. The year is the panel silk date.',

@@ -6,8 +6,9 @@
    - amx6.pdf / AMX6MANU.WPD (2000|33–2002|35 manual: 6 mono inputs, OFF…+9 dB input and master gain,
        T/R/S headset jack normalling the speaker feeds, +24 dBu, >20 kΩ in, 60 Ω out, 115 VAC 25 VA, 1RU)
    - AMX6.cdr = "AMX6 - #Functional #Manual.cdr" (2003|36 functional diagram, decoded with Inkscape)
-   - SILK/AMX6SILK.CDR (front green + white and rear white separations, 1999|32) → assets/amx6-front-green.png,
-       amx6-front-white.png, amx6-rear-white.png (rendered at 200 px/in; drill crosshairs give the knob centres)
+   - SILK/AMX6SILK.CDR (front green + white and rear white separations, 1998-08-25) → Inkscape/libcdr plain SVG →
+       assets/amx6-front.svg (green + white plates registered) and amx6-rear.svg (white plate), 200 px/in panel
+       coordinates; drill crosshairs give the knob centres and are dropped from the art (artwork pass 2026|59)
    - Amx6manu.cdr (manual-cover drawing of both panels: speaker grilles, IEC, vents, terminal blocks)
    - AMX6.DSN (OrCAD 1998|31: 103 parts, LF353 ×6, TDA1521, TRANSFORMER; nets INPUT1-6, WIPER1-6, MASTER,
        HEADPHONE, TIP/RING/TIP-N/RING-N, LEFT, RIGHT, BRIDGE, LINE/NEUTRAL, VCC_BAR) and AMS6FUNC/AMS9FUNC.DSN
@@ -22,6 +23,8 @@ const SIM = window.SIM;
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 function card(t,b,cls){ return `<div class="card ${cls||''}"><h2>${t}</h2>${b}</div>`; }
 const ASSET = 'siumulation-plugins/assets/';
+const SILK_SRC = '#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/SILK/AMX6SILK.CDR';
+const silkNote = side => `<p class="small muted">${side} artwork: ${SIM.src(SILK_SRC,'AMX6SILK.CDR')} (CorelDRAW 5, 1998|31), converted to SVG; ${side==='Front'?'green and white plates registered on the black panel':'white plate on the black panel'}. Controls sit on the drill crosshairs of the same sheet.</p>`;
 const dbu2v = d => 0.7746*Math.pow(10,d/20);           // dBu -> V rms
 const v2dbu = v => v>1e-9 ? 20*Math.log10(v/0.7746) : -200;
 const sgn = x => (x>=0?'+':'') ;
@@ -302,10 +305,10 @@ function grille(cx,cy,level){ const w=600,h=196; let s=`<rect x="${cx-w/2}" y="$
   if (glow) s+=`<ellipse cx="${cx}" cy="${cy}" rx="${120+glow*60}" ry="${70+glow*20}" fill="var(--accent)" opacity="${0.12+0.35*glow}" filter="url(#glowfront)"/>`;
   for (let r=0;r<9;r++) for (let c=0;c<30;c++){ const x=cx-w/2+14+c*19.7+(r%2?9:0), y=cy-h/2+14+r*21; if (x<cx+w/2-8) s+=`<circle cx="${x}" cy="${y}" r="6.5" fill="#1c1e20"/>`; }
   return s; }
-function panelSVG(side, over){ const layers = side==='front'? ['front-green','front-white'] : ['rear-white'];
+function panelSVG(side, over){ const layers = [side];   // one SVG per side, cut from the CorelDRAW silk (plates registered and inked)
   return `<svg viewBox="0 0 ${PW} ${PH}" style="width:100%;max-width:1100px;display:block;border-radius:6px" role="img" aria-label="AMX6 ${side} panel">
    <defs><filter id="glowfront" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-   <rect width="${PW}" height="${PH}" rx="8" fill="var(--dev)"/>${over.under||''}${layers.map(l=>`<image href="${ASSET}${P}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}${over.over||''}</svg>`; }
+   <rect width="${PW}" height="${PH}" rx="8" fill="var(--dev)"/>${over.under||''}${layers.map(l=>`<image href="${ASSET}${P}-${l}.svg" width="${PW}" height="${PH}"/>`).join('')}${over.over||''}</svg>`; }
 function frontSVG(){
   const under = grille(432,162,spkLvl(0)) + grille(2994,162,spkLvl(1)) + [108,757,2668,3315].map(x=>screw(x,167)).join('');
   let over = led(867,220,D.power,'var(--led-g)',11);
@@ -365,7 +368,7 @@ function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2'), w=SIM.css
 
 /* ---------------- views ---------------- */
 function viewSim(m){ window.__amx6Active=true;
-  m.innerHTML=`${card('Front panel (real silkscreen, AMX6SILK.CDR)',`<div id="fp"></div>`)}${card('Rear panel',`<div id="rp"></div>${controlsHTML()}`)}
+  m.innerHTML=`${card('Front panel (real silkscreen, AMX6SILK.CDR)',`<div id="fp"></div>${silkNote('Front')}`)}${card('Rear panel',`<div id="rp"></div>${silkNote('Rear')}${controlsHTML()}`)}
    <div class="grid2">${card('What the circuit did (last action)',`<div id="trace" class="log"></div>`)}${card('Now',`<div id="now"></div>`)}</div>
    ${card('Timeline — one second of the mains, the tones and every stage. Zoom to 10 ms or 1 ms to see single cycles.',`<canvas id="tl"></canvas>`)}
    <div class="grid2">${card('Stage by stage (levels in dBu)',`<div id="lv"></div>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
@@ -464,6 +467,7 @@ function viewSoft(m){ window.__amx6Active=true; let hot=2;
   SIM.on('time',draw); }
 function viewNotes(m){ window.__amx6Active=false;
   m.innerHTML=card('Findings',`<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(SILK_SRC,'SILK/AMX6SILK.CDR')} (1998-08-25).</b> One 17 × 11 in sheet holds three plates: front GREEN (logo, model name, the two rules beside INPUT LEVEL and the long base bar), front WHITE (INPUT LEVEL, 1–6, MASTER, HEADSET, SELECT SERIES) and rear WHITE. The plates register on their drill crosshairs: seven knob centres 1.00 in apart, a small one at the power-LED hole and one at the HEADSET jack; the rear has three screw crosshairs. There is no IEC, speaker-grille or terminal-block outline on the sheet, so those are still drawn from the photos and <span class="mono">Amx6manu.cdr</span>. The sheet's date (Aug 1998|31) is a year before the Tango PCB (Jun 1999|32). An identical copy sits in ${SIM.src('#AMX #SERIES/XXX - AMX6 - #Master/AMX6 - #Engineering/AMX6 - #SILK/AMX6SILK.CDR','AMX6 - #SILK/')}.</li>
    <li><b>AMX9.PCB is not an AMX9 board.</b> <span class="mono">PCB/AMX9.PCB</span> is the same Tango-PCB file as <span class="mono">AMX6.PCB</span> (124,591 bytes each) except for two corrupted bytes: a value text reads <span class="mono">"10K0 �"</span> and one board-outline endpoint changed from 2000 to 20 mil. It is a damaged copy, not a nine-input layout.</li>
    <li><b>Two power amplifiers on the PCB, one in the schematic.</b> AMX6.DSN (1998|31) places a single <span class="mono">U6 TDA1521</span>; the 1999|32 PCB has <span class="mono">U8</span> and <span class="mono">U9</span> with footprint “TDA” and a “NOTE HEAT SINK REQ'D” text. The DSN also has a <span class="mono">BRIDGE</span> net, which suggests each speaker could be driven bridged (BTL) by its own TDA1521 ${inf}.</li>
    <li><b>LF353 in the schematic, “5532” on the board.</b> All seven op-amps in the DSN are LF353, but the PCB carries a <span class="mono">5532</span> value text — a part change after the schematic.</li>

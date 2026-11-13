@@ -240,6 +240,7 @@ function drawAesScope(cv, subA, subB, fs, amp, label){
 }
 /* ======================= POD11-specific model ======================= */
 const PREFIX='pod11';
+const ART_SLK='#POD #SERIES/XXX - POD11 - #Master  #OBSOLETE/POD11 - #SILK/POD11SLK.CDR';
 const DUR=3;                                    // 0–1 s is "the second"; the run goes to 3 s so the boot chase (1.76 s) and the watchdog (2.3 s) fit
 const FOSC=6.144e6, TCY=4/FOSC;                 // X1 6M144 (netlist) → 1.536 MIPS ("1.53MHZ" in the DELAY comment)
 const OUTER=1023;                               // cycles per DELAY outer pass: 255 × (CLRWDT, DECFSZ, GOTO) + reload
@@ -431,11 +432,10 @@ const A={
 /* ---------------- panels (POD11SLK.CDR separations + re-anchored text) ---------------- */
 function T(x,y,s,sz,anchor,col,extra){ return `<text x="${x}" y="${y}" font-size="${sz||17}" fill="${col||WHITE}" ${anchor?`text-anchor="${anchor}"`:''} ${extra||''} style="font-family:Arial,Helvetica,sans-serif">${s}</text>`; }
 function panelSVG(side, under, over, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glowfront" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="#17191b"/>${under||''}
-    ${layers.map(l=>`<image href="${ASSET}${PREFIX}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${PREFIX}-${side}.svg" width="${PW}" height="${PH}"/>
     ${over||''}${screw(51,160)}${screw(1672,160)}</svg>`; }
 function knob(x,y,frac){ const a=(-135+270*frac)*Math.PI/180; return `<g class="vol" style="cursor:pointer"><title>HEADSET volume (RV1): click right half to turn up, left half down, or use the wheel</title><circle cx="${x}" cy="${y}" r="44" fill="transparent"/>
   <circle cx="${x}" cy="${y}" r="36" fill="#2a2d31" stroke="#55595c" stroke-width="3"/>${[...Array(18)].map((_,i)=>{ const b=i*20*Math.PI/180; return `<line x1="${x+Math.sin(b)*31}" y1="${y-Math.cos(b)*31}" x2="${x+Math.sin(b)*36}" y2="${y-Math.cos(b)*36}" stroke="#45484c" stroke-width="3"/>`; }).join('')}
@@ -527,7 +527,7 @@ function nowTable(t){ const e=evAt(t), s=panelState(t,true), r=readPass(t);
    <tr><th>Bar enabled now</th><td class="mono">${s.side||'none'} (PORTC ${s.side==='L'?'RC7+RC5':s.side==='R'?'RC6+RC4':'—'})</td></tr>
    <tr><th>Detectors</th><td class="mono">L ${vdet(0,t).toFixed(3)} V = ${fdb(vuDb(0,t))} VU (${litN(0,t)} LEDs) · R ${vdet(1,t).toFixed(3)} V = ${fdb(vuDb(1,t))} VU</td></tr></table>`; }
 function viewSim(m){ window.__pod11Active=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel',`<div id="rp"></div>`)}${card('Board trims (seen with the lid off)',`<div id="tr"></div>`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel',`<div id="rp"></div><div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src(ART_SLK,'POD11 - #SILK/POD11SLK.CDR')} (Aug 29 1997), vector GREEN + WHITE front plates and WHITE rear plate; lettering re-anchored from POD11MAN.CDR (libcdr loses the text positions).</div>`)}${card('Board trims (seen with the lid off)',`<div id="tr"></div>`)}</div>
    <div>${card('What the firmware and circuit did (last action)',`<div id="trace" class="log"></div>`)}${card('At the playhead',`<div id="now"></div>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div></div>
    ${card('Timeline: 0–3 s (the second you care about is 0–1 s), zoomable down to single instructions',`<canvas id="tl"></canvas><p class="small muted">Zoom to 10 ms or less to see the 4 ms L/R multiplex: each bar is lit only while its rail is switched on. At 1 s zoom the panel shows what the eye sees.</p>`)}
    ${card('Scope: one AES3 frame at the playhead (channel-status bit 0 = PRO in frame 0 of each block)',`<canvas id="sc"></canvas>`)}`;
@@ -673,7 +673,8 @@ function viewNotes(m){ window.__pod11Active=false;
     <li><b>The bar was redesigned between ISS2 and ISS3.</b> ISS2 (1998) used three LM3914 (linear) drivers. ISS3 uses LM3915 (3 dB/step) parts on a footprint called “LM3916”. With the ISS3 resistor values the top LEDs fall at 0, 3, 5.9, 8.9 and 11.9 VU, which matches the printed “3 6 9 12”. The printed −1 / 1 / 2 steps and the bottom end of −36 only fit a linear driver. The ISS3 bottom range reaches only about ${fdb(THR[0].db,0)} VU, and three U15/U16 pairs fire within 0.4 dB of each other (computed).</li>
     <li><b>The rails are not what they are called.</b> The nets “+5V” and “−5V” come from an LM317/LM337 set by 221 Ω / 2.2 kΩ, which gives about ±13.7 V. Only “+5VC” (7805) is 5 V.</li>
     <li><b>DNI parts on live paths (ISS3).</b> D5 feeds VLED, the supply for the LED rails and the display board. R89 is SL8's pull-up and R26–R29 are the U18 peak-comparator inputs. All are marked DNI. As netlisted, the LED rail would be unpowered. Links were probably fitted (${inf}). The U18 outputs and the PIC both drive the SL5 line, and U20 and RB3 both drive SL8. RB3 is always an output at 0 (FREQ,3 is never set). Here the RB3 line only follows the analog phase detector (${inf}).</li>
-    <li><b>Abandoned layouts.</b> <span class="mono">POD11LYO.CDR</span> (Aug 1997) has NO LOCK and “> OUT OF RANGE” lamps and is captioned “POD-3 AES/EBU MONITOR”: the drawing was copied from POD3. The shipped silk (<span class="mono">POD11SLK.CDR</span>, Aug 1997) has LOCK and CRC ERR instead. The two copies of POD11SLK.CDR (SILK and ISS2) differ from byte 5 onwards.</li></ol>`)
+    <li><b>Abandoned layouts.</b> <span class="mono">POD11LYO.CDR</span> (Aug 1997) has NO LOCK and “> OUT OF RANGE” lamps and is captioned “POD-3 AES/EBU MONITOR”: the drawing was copied from POD3. The shipped silk (<span class="mono">POD11SLK.CDR</span>, Aug 1997) has LOCK and CRC ERR instead. The two copies of POD11SLK.CDR (SILK and ISS2) differ from byte 5 onwards.</li>
+    <li><b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART_SLK,'POD11SLK.CDR')} (Aug 29 1997).</b> The three plates (front GREEN, front WHITE, rear WHITE) are converted to vector (assets/pod11-front.svg, pod11-rear.svg) and register on the earlier PNG cuts with zero offset, so every LED, the knob and the jack keep their places. The sheet carries only hairline drill crosshairs (mounting screws and two small holes left of the bars), no outline or connector cut-outs, and its 43 text objects are live Arial that libcdr throws to the wrong positions, so the lettering stays re-anchored in code. An older copy, ${SIM.src('#POD #SERIES/XXX - POD11 - #Master  #OBSOLETE/POD11 - #PCB #OBSOLETE/ISS2/POD11SLK.CDR','ISS2/POD11SLK.CDR')} (Aug 26 1997), sits with the ISS2 PCB. The 2016 ${SIM.src('#POD #SERIES/POD11A - #Master/POD11A - #ARTWORK #DA #2016/POD11A-FRONT&REAR-SILK(CURVE).cdr','POD11A-FRONT&REAR-SILK(CURVE).cdr')} is the POD11A meter, a different panel, and is not used here.</li></ol>`)
   +card('Assumptions in this simulation',`<ul class="small">
     <li>The panel uses the three POD11SLK.CDR separations (green bar layer, white tick layer, white rear layer), recoloured to the POD inks. libcdr lost every text position, so all lettering and status-lamp positions are re-anchored from POD11MAN.CDR. No POD11 photo is archived (${inf}).</li>
     <li>The bar legend printed is the manual's 18-value scale. LED thresholds come from the ISS3 values, and the physical LED order is assumed to follow the threshold order. DAC full scale is 1 V rms, so a −20 dBFS tone reads 0 VU at LVU ≈ 98 % (${inf}).</li>

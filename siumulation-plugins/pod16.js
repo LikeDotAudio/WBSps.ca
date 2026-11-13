@@ -490,8 +490,9 @@ const A = {
 /* ================================================================
    DRAWING: front and rear panels on the real silkscreen
    ================================================================ */
-/* POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).pdf (Jun.25/14): FRONT GREEN, FRONT WHITE and REAR WHITE
-   separations cut at 200 dpi into assets/pod16-*.png (1713 × 321 px = the 8.570" × 1.606" panel). Controls are put
+/* Artwork 2026|59: the panels are now vector, straight from POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr
+   (Jun.25/14) via Inkscape → assets/pod16-front.svg (GREEN + WHITE plates registered on one face) and pod16-rear.svg, in the
+   same 200 px/in frame as before (cross-checked: 0 px offset against the old PNGs). Previously: the .pdf separations cut at 200 dpi into assets/pod16-*.png (1713 × 321 px = the 8.570" × 1.606" panel). Controls are put
    at the drill positions of POD16-FRONT ISS 1 and POD16-REAR ISS 4 (× 200 px/in); colours from Pics/POD16 Front/Rear.jpg. */
 const ASSET = 'siumulation-plugins/assets/';
 const W = 1713, H = 321;
@@ -508,8 +509,7 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="POD16 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow16" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${W}" height="${H}" rx="10" fill="#17191b"/>
-    <image href="${ASSET}pod16-front-green.png" width="${W}" height="${H}"/>
-    <image href="${ASSET}pod16-front-white.png" width="${W}" height="${H}"/>
+    <image href="${ASSET}pod16-front.svg" width="${W}" height="${H}"/>
     <g class="pwr" style="cursor:pointer"><title>Power rocker (P2 “TO SWITCH”)</title><rect x="130" y="54" width="101" height="154" rx="6" fill="#0a0b0c" stroke="#2c2f33" stroke-width="2"/>
       <rect x="146" y="${on?66:104}" width="69" height="90" rx="10" fill="#1b1d20" stroke="#3a3e42" stroke-width="2"/><rect x="152" y="${on?72:140}" width="57" height="10" rx="4" fill="#2a2d31"/></g>
     <circle cx="299" cy="218" r="13" fill="#0a0b0b"/><circle cx="299" cy="218" r="9.5" fill="${L.pwr?'#c8ff4a':'var(--led-off)'}" ${L.pwr?'filter="url(#glow16)"':''}/>
@@ -540,7 +540,7 @@ function rearSVG(t){
     <circle cx="1374" cy="160" r="52" fill="#121314" stroke="#2c2f33" stroke-width="3"/><circle cx="1374" cy="160" r="40" fill="#1d1f21"/><text x="1374" y="167" text-anchor="middle" font-size="20" fill="#6c7074">FUSE</text>
     <circle cx="1534" cy="160" r="50" fill="#0f1011" stroke="#2c2f33" stroke-width="3"/><rect x="1514" y="132" width="40" height="56" rx="8" fill="#1d1f21"/>
     ${[[50,160],[1664,160],[230,101],[230,196],[1010,102],[1010,196],[1078,208],[1275,208]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="13" fill="#3a3d40" stroke="#5a5e62"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#1b1d1f" stroke-width="3"/>`).join('')}
-    <image href="${ASSET}pod16-rear-white.png" width="${W}" height="${H}"/>
+    <image href="${ASSET}pod16-rear.svg" width="${W}" height="${H}" style="pointer-events:none"/>
   </svg>`;
 }
 function bindPanel(root){
@@ -730,7 +730,7 @@ function viewSim(m){
           <label class="small">shift_count in RAM at power-up <select id="ram">${[8,0,3,5,12,200].map(v=>`<option value="${v}" ${D.ram===v?'selected':''}>${v}${v===8?' (lucky)':''}</option>`).join('')}</select></label>
           <button id="clr">Clear all actions</button><button id="demo">Demo run</button>
         </div>`)}
-      ${card('Rear panel — click CTL 1 / CTL 2 for the tallies, INPUT blocks to connect a programme', `<div id="rp"></div>`)}
+      ${card('Rear panel — click CTL 1 / CTL 2 for the tallies, INPUT blocks to connect a programme', `<div id="rp"></div><div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src('#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr','POD16-FRONT&REAR(CURVE).cdr')} (Jun.25/14), FRONT GREEN, FRONT WHITE and REAR WHITE plates.</div>`)}
     </div>
     <div>
       ${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}
@@ -1067,6 +1067,7 @@ function viewNotes(m){
     <li><b>flash_on tests the wrong register.</b> <span class="mono">btfsc flag_2,in2_flag</span>: bit 3 of flag_2 is <span class="mono">input_flag</span>, which the first button press sets and nothing clears. It does no harm because <span class="mono">input</span> rewrites PORTB on every pass.</li>
     <li><b>RC5 stays high after a normal fade.</b> <span class="mono">fade_how</span> sets RC5 on every step, but only <span class="mono">switch</span> (the cut) clears it. RC0/RC4 show CUT vs fade on every A/D read. All three are test points on unconnected pins; v101 changed TRISC from 0xFF to 0xCE to drive them.</li>
     <li><b>The FADE TIME direction disagrees.</b> The silkscreen puts CUT at the counter-clockwise end and 2SEC clockwise. The firmware says “CUT IS FULL-SCALE VOLTAGE”, but the schematic's CW mark on RV1 is at +5 V, which would put CUT clockwise. The simulator follows the silkscreen. Which one is right depends on how the trimmer was fitted (${inf}).</li>
+    <li><b>Artwork ${Y(2026)}: front/rear panels now from ${SIM.src('#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #ARTWORK #DA #2016/POD16-FRONT&REAR(CURVE).cdr','POD16-FRONT&REAR(CURVE).cdr')} (Jun.25/14).</b> The CorelDRAW sheet holds three plates (FRONT GREEN, FRONT WHITE, REAR WHITE) with the panel outline and every cut-out and drill crosshair as hairlines; they register on the old PNG separations with no offset. The rear keeps the DE-9 cut-out for the RS422 option although U1/U2 are “not installed”. The older ${SIM.src('#POD #SERIES/XXX - POD16 - #Master #OBSOLETE/POD16 - #Engineering/SILK/POD16SLK.CDR','SILK/POD16SLK.CDR')} (May 1999) converts only the bars, the fade symbols and the drill crosshairs (its text is lost), so it is not used.</li>
     <li><b>MODE and MANUAL are locked during a fade.</b> <span class="mono">check_manual</span> returns if in1/in2_flag is set. The manual doesn't mention this.</li>
     <li><b>Releasing a tally hands over; it doesn't fade to silence.</b> The manual says “releasing these inputs will fade the input down”. In code, <span class="mono">off_ext1</span> with input 1 alone jumps to <span class="mono">do2</span>, so input 2 comes up. One input is always on.</li>
     <li><b>Leftovers.</b> <span class="mono">special</span> is tested and cleared but never set. <span class="mono">frm_ext</span>, <span class="mono">frm_ext1/2</span> and <span class="mono">input_flag</span> are only written; <span class="mono">table_count</span> is cleared and never used. <span class="mono">init</span> sets <span class="mono">ad_flag1</span> and then clears flag_1. The DAC clock is still called <span class="mono">led_clk</span>. RB4 is “not_used”, although the front board has seven switch positions. A second pot on RA1 is wired but never read. <span class="mono">linear_table</span> skips the values 12 and 242 to fit 0,0 … 255,255 into 256 entries.</li>

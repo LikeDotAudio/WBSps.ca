@@ -302,6 +302,12 @@ function describeDip(n, v){
    and recoloured: front GREEN (52,168,83), front WHITE and rear WHITE (240,240,236). Drill crosshairs,
    cut-out outlines and the frame were removed. Image pixels are the SVG units (front 1719×323, rear 1716×324). */
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: assets/pod32-front.svg, pod32-rear.svg are vector conversions of
+   POD PANELS…/Silks/POD32/POD32-FRONT&REAR(FINAL CURVE).cdr (Jun.25/14; GREEN + WHITE plates on one panel, holes and
+   cut-outs from the same drawing) in 200 dpi px from the panel corner. They sit at (3, 1) on the front and (0.5, 1) on the
+   rear of the old PNG frames, which puts every LED, BNC, DIP window and screw below on its hole. */
+const ART_PATH = '#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD32/POD32-FRONT&REAR(FINAL CURVE).cdr';
+const artSrc = ()=> `<p class="small muted" style="margin:6px 0 0">Panel artwork: ${SIM.src(ART_PATH, 'POD32-FRONT&REAR(FINAL CURVE).cdr')} (CorelDRAW, Jun.25/14), converted to vector: green and white ink plates on one panel, holes and cut-outs from the same drawing.</p>`;
 const LEDX = { pwr:302, sd:564, hd:614, err:664, aes:[784,834,884,934], dolby:[1054,1104,1154,1204,1324,1374], casc:[1474,1524] };
 const LEDY = 219;
 const COL = { g:'#6dff5a', y:'#ffd23a', r:'#ff3b2f', p:'#d8ff7a' };
@@ -313,8 +319,7 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1719 323" role="img" aria-label="POD32 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="p32glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1719" height="323" rx="10" fill="#141516"/>
-    <image href="${ASSET}pod32-front-green.png" width="1719" height="323"/>
-    <image href="${ASSET}pod32-front-white.png" width="1719" height="323"/>
+    <image href="${ASSET}pod32-front.svg" x="3" y="1" width="1714" height="321"/>
     <g class="p32pwr" style="cursor:pointer"><rect x="128" y="50" width="112" height="164" rx="10" fill="#060707" stroke="#2c2f31" stroke-width="2"/>
       <rect x="142" y="${on?62:118}" width="84" height="84" rx="8" fill="#1b1d1f" stroke="#3c4043" stroke-width="2"/><rect x="150" y="${on?70:126}" width="68" height="10" rx="4" fill="#2a2d30"/>
       <title>Power switch (click)</title></g>
@@ -337,7 +342,8 @@ function rearSVG(t){
       ${plug?`<circle cx="${x}" cy="${y}" r="${r*0.72}" fill="#2a2c2e" stroke="#555" stroke-width="2"/><circle cx="${x}" cy="${y}" r="${r*0.3}" fill="#c4c6c8"/>`:''}
       ${live!==null?`<circle cx="${x+r*0.78}" cy="${y-r*0.78}" r="8" fill="${live?'var(--accent)':'#555'}"/>`:''}<circle cx="${x}" cy="${y}" r="${r+6}" fill="transparent"><title>${tip}</title></circle></g>`;
   let s = `<svg viewBox="0 0 1716 324" role="img" aria-label="POD32 rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
-    <rect width="1716" height="324" rx="10" fill="#141516"/>`;
+    <rect width="1716" height="324" rx="10" fill="#141516"/>
+    <image href="${ASSET}pod32-rear.svg" x="0.5" y="1" width="1714" height="321"/>`;
   RJ.screws.forEach(([x,y])=> s+=`<circle cx="${x}" cy="${y}" r="13" fill="#8d9093" stroke="#55585b" stroke-width="2"/><path d="M${x-8} ${y} h16 M${x} ${y-8} v16" stroke="#4a4d50" stroke-width="3"/>`);
   // CONTROL DB9 (RS-485, ADM3485) with hex standoffs
   const [dx,dy,dw,dh]=RJ.db9;
@@ -367,7 +373,7 @@ function rearSVG(t){
   s += `<g class="p32iec" style="cursor:pointer"><rect x="${ix}" y="${iy}" width="${iw}" height="${ih}" rx="12" fill="#0c0d0e" stroke="#3a3d40" stroke-width="2"/><rect x="${ix+22}" y="${iy+18}" width="70" height="${ih-36}" rx="8" fill="#1a1c1e" stroke="#333"/>
     <rect x="${ix+120}" y="${iy+30}" width="104" height="${ih-60}" rx="10" fill="#1f2123"/>${[[ix+150,iy+62],[ix+150,iy+150],[ix+196,iy+108]].map(([x,y])=>`<rect x="${x-14}" y="${y-6}" width="28" height="12" fill="#c8cacc"/>`).join('')}
     <title>IEC inlet with integral fuse (Front&Rear Identification) — click for power</title></g>`;
-  s += `<image href="${ASSET}pod32-rear-white.png" width="1716" height="324"/></svg>`;
+  s += `</svg>`;
   return s;
 }
 function bindPanel(root){
@@ -515,7 +521,7 @@ function viewSim(m){
   window.__pod32Active = true;
   m.innerHTML = `<div class="grid2"><div>
       ${card('Front panel at the playhead', `<div id="fp"></div>`)}
-      ${card('Rear panel — DIP switches, SDI and AES jacks are live', `<div id="rp"></div><div id="ctl"></div>`)}
+      ${card('Rear panel — DIP switches, SDI and AES jacks are live', `<div id="rp"></div>${artSrc()}<div id="ctl"></div>`)}
     </div><div>
       ${card('What the firmware and FPGA did (last action)', `<div id="trace" class="log"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}
@@ -803,6 +809,7 @@ function viewNotes(m){
     <li><b>SD is 20-bit.</b> The manual's “20 bits for SD” is the PugMedia <span class="mono">vc_272m_291mo</span> core (v11–v13: “SD embedder 20-bit only”). A 24-bit external source loses 4 bits in SD.</li>
     <li><b>Makefile is for the wrong chip.</b> <span class="mono">pod32.mak</span> says <span class="mono">-DATMega165P</span>, 16 KB flash, RAM end 0x4FF and a 512-byte EEPROM; the source includes <span class="mono">iom128v.h</span> and the board has an ATmega128. The 24 Nov backup <span class="mono">pod32v100._c</span> differs in one line: an HD lock lit HD <i>and</i> SD (<span class="mono">PORTE |= (BIT4 | BIT2)</span>).</li>
     <li><b>The released FPGA is not the fixed one.</b> <span class="mono">software/altera/v100</span> is byte-identical to R&D v100LB. v100LC fixed audio artefacts after an hour with the lid on, but only lives in R&D, and still had an open “AES out wrong when SRC disabled (Dolby on AES out not passing)” note. No .pof/.sof of either is archived.</li>
+    <li><b>Artwork ${Y(2026)}: front/rear panels now from ${SIM.src(ART_PATH,'POD32-FRONT&REAR(FINAL CURVE).cdr')} (Jun.25/14).</b> The CorelDRAW file replaces the PNG cuts of its PDF export (the batch list pointed at the 2006|39 <span class="mono">SILK/POD32-SILK.cdr</span> copies in Engineering and RD3, but the FINAL CURVE drawing is the later, curve-converted one). It has 16 front LED holes, so the six DOLBY tallies and both CASCADE tallies the v100 firmware never drives are drilled and legended on every unit; the rear has two DIP windows (176 × 56 px, 22.4 × 7.1 mm) and eight Ø 106 px (13.5 mm) AES BNC holes in two 2 × 2 blocks, held by screws at x 680, 942 and 1205 px (the BNC bracket, ${inf}).</li>
   </ol>`) + card('Variants in the folder (≈9,600 files)', `<table class="kv small">
     <tr><th>Path</th><th>What it is</th></tr>
     <tr><td class="mono">POD32 - #Engineering/software/atmel/v100</td><td><b>Modelled here.</b> pod32v100.c 30 Nov 2010|43 (+ <span class="mono">._c</span> 24 Nov backup).</td></tr>
@@ -825,7 +832,7 @@ function viewNotes(m){
     <li>#POD #SERIES/POD32 - #Master/POD32 - #Engineering/software/atmel/v100/pod32v100.c, pod32v100._c, altera.c/.h, pod32v100.s, pod32.mak</li>
     <li>…/software/altera/v100/pod32.qsf, pod32.sdc, pod32_audio_router.vhd, sw16x8.vhd, shift_in_128.vhd, shift_out_128.vhd, src_tdm_gen_pod32.vhd, mux_active_groups.vhd, vc_299m_291mo_new.v</li>
     <li>…/control.doc, dipswitch.doc(x), POD32MAN_ROUGH.doc, Front&Rear Identification.cdr, PCB/POD32-1iss2.bom, POD32-2iss1.bom, pod32-1iss2.net</li>
-    <li>#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD32/POD32-FRONT&REAR(FINAL CURVE).pdf, Pics/POD32 Front.jpg, POD32 Rear.jpg</li></ul>`);
+    <li>${SIM.src(ART_PATH,'#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD32/POD32-FRONT&REAR(FINAL CURVE).cdr')} (panel artwork, vector) and its .pdf export, Pics/POD32 Front.jpg, POD32 Rear.jpg</li></ul>`);
 }
 
 /* ---------------- register plugin ---------------- */

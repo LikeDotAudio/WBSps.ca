@@ -464,6 +464,9 @@ function parseHex(s){ return (s.match(/[0-9a-fA-F]{1,2}/g)||[]).map(x=>parseInt(
    Rear: POD10SLK.CDR (old issue, the 6-input /110 rear) — labels only; the terminal strips, DE9, fuse and cord are placed from
    POD10.pdf (illustration) and POD10-REAR ISS 1.pdf (inside view, mirrored): DE9 screws 0.984 in apart at x 1177 ± 98. */
 const ASSET = 'siumulation-plugins/assets/';
+const ART_F = '#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /POD10-FRONT-SILK(CURVE).CDR';
+const ART_R = '#POD #SERIES/XXX - POD10 - #Master #OBSOLETE/POD10 - #Engineering/POD10 - #SILK/OLD ISSUSES/POD10SLK.CDR';
+const artNote = () => `<div class="small muted" style="margin-top:4px">Panel artwork (CorelDRAW, vector): front ${SIM.src(ART_F,'POD10-FRONT-SILK(CURVE).CDR')} (AUG.13/10 issue, file Oct 1 2015; GREEN + WHITE plates), rear ${SIM.src(ART_R,'OLD ISSUSES/POD10SLK.CDR')} (6-input /110 rear, WHITE plate, live text).</div>`;
 const BX = n => 779 + 150*n, BY = 162;
 function screw(x,y,r){ return `<circle cx="${x}" cy="${y}" r="${r}" fill="#8f9295" stroke="#55585b" stroke-width="2"/><path d="M${x-r*.55} ${y} h${r*1.1} M${x} ${y-r*.55} v${r*1.1}" stroke="#47494c" stroke-width="2.5"/>`; }
 function frontSVG(t, opts){
@@ -473,8 +476,7 @@ function frontSVG(t, opts){
     <defs><filter id="p10glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
       <radialGradient id="p10lit"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#ff6a5a"/><stop offset="1" stop-color="#b0201c"/></radialGradient></defs>
     <rect width="1720" height="320" rx="8" fill="#1f1d1d"/>
-    <image href="${ASSET}pod10-front-green.png" width="1720" height="320"/>
-    <image href="${ASSET}pod10-front-white.png" width="1720" height="320"/>
+    <image href="${ASSET}pod10-front.svg" width="1720" height="320"/>
     <g class="p10f" data-a="power" style="cursor:pointer"><title>Power rocker PWRSW (PAN256) in the T9 primary — click</title>
       <rect x="130" y="54" width="101" height="154" rx="6" fill="#0b0b0c" stroke="#3a3536" stroke-width="2"/>
       <rect x="142" y="${on?66:131}" width="77" height="64" rx="5" fill="#2a2728" stroke="#4a4546"/>
@@ -513,7 +515,7 @@ function rearSVG(t){
       <circle cx="1374" cy="150" r="46" fill="#111" stroke="#444" stroke-width="3"/><circle cx="1374" cy="150" r="30" fill="#2a2a2a"/><path d="M1360 150 h28" stroke="#555" stroke-width="6"/>
       <circle cx="1534" cy="150" r="48" fill="#151515" stroke="#3a3a3a" stroke-width="3"/><path d="M1534 150 q 40 -60 90 -150" stroke="#222" stroke-width="30" fill="none"/></g>
     ${screw(42,157,12)}${screw(1675,160,12)}
-    <image href="${ASSET}pod10-rear-white.png" width="1720" height="320"/>
+    <image href="${ASSET}pod10-rear.svg" width="1720" height="320"/>
   </svg>`;
 }
 function bindPanel(root){
@@ -677,7 +679,7 @@ const ALL_LANES = ['aes','pass','btn','bcount','portb','spi','video','p9','rx','
 function viewSim(m){
   window.__pod10Keys = true; m._k = {};
   m.innerHTML = `<div class="grid2">
-    <div>${card('POD10 at the playhead — front and rear (real silkscreen; click the buttons, the rocker, the input terminals and CONTROL)', `<div id="fp"></div><div id="rp" style="margin-top:8px"></div><div id="st" class="small mono" style="margin-top:6px"></div><div id="ctl"></div>`)}
+    <div>${card('POD10 at the playhead — front and rear (real silkscreen; click the buttons, the rocker, the input terminals and CONTROL)', `<div id="fp"></div><div id="rp" style="margin-top:8px"></div>${artNote()}<div id="st" class="small mono" style="margin-top:6px"></div><div id="ctl"></div>`)}
       ${card('Timeline — the firmware, the slave port and the serial line', `<canvas id="tl"></canvas><p class="small muted">Click the timeline to move the playhead. Zoom to ≤ 1 ms to see each main-loop pass split into its 14 routines (orange = a routine doing work); ≤ 20 ms to read the SPI and RS-422 bytes.</p>`)}</div>
     <div>${card('Scenario', `<div id="sc"></div>`)}
       ${card('Slave port P3 — POD9 video switcher (audio follow video)', `<div id="p9"></div>`)}
@@ -1001,6 +1003,7 @@ const FINDINGS = [
   ['F12','The POD10-041 remote cannot send what you press when a POD9 is slaved','<span class="mono">pod2r101.asm</span> builds 10 vvv aaa with vvv = <span class="mono">uart_setup(video_output)</span>, but <span class="mono">video_output</span> is only written in <span class="mono">output_video</span>, which never runs (timer_check forces <span class="mono">video_audio,0</span>). With RAM at 00 '+inf+' vvv = 1. If the last status said “POD9 slave on”, <span class="mono">output_info</span> takes <span class="mono">slave_mode</span> and sends 0xC1 for every button.'],
   ['F13','Duplicate, misnamed and misfiled files','PD10V101.ASM’s header says “Version 1.02”. PD10V139.$$$ is POD9 code (“Pod 9 Audio Switcher, Verson 1.01”). pd10v103.asm exists in three identical copies (#V100, Custom, Custom/pd10c101). POD10-iss1.sch and POD10-iss2.sch are byte-identical, and sit in “#ISS2 #PCB” and “#ISS1 #PCB” respectively. Everything named POD10-REAR in POD10 - #SILK and #Master/ARTWORK is the 8-input POD10A rear; the only 6-input rear silk is OLD ISSUSES/POD10SLK.CDR. “#ISS3” and the Altium project are the POD10A board.'],
   ['F14','This folder holds the only POD10A production and POD10R sources','#V030200/POD10A/pod10.c and #V030200/POD10R/pod10.c (Sep 2014) exist nowhere else; pod10a.js emulates them. The README lists <span class="mono">WDTE</span> among their config bits; both actually say <span class="mono">WDTE = OFF</span>. #V030000 is a line-for-line MPASM port of V1.03 to the PIC16F887 (“created to use ISS3 boards but with only 6 inputs”).'],
+  ['F15','Artwork '+Y(2026)+': front/rear panels now from the CorelDRAW files', 'Front/rear panels now from '+SIM.src(ART_F,'POD10-FRONT-SILK(CURVE).CDR')+' (AUG.13/10 issue, saved Oct 1 2015) and '+SIM.src(ART_R,'OLD ISSUSES/POD10SLK.CDR')+' (Oct 1 2015), converted to vector (assets/pod10-front.svg, pod10-rear.svg) and registered exactly on the earlier PNG separations, so every control stayed on its crosshair. The front sheet holds a WHITE and a GREEN plate with crop marks 400 px (2.0 in) apart; the file is the AUG.13/10 6-input issue although it sits in the POD10A artwork folder. Its “PODS” is a substituted sans converted to curves: 303 px wide it would run over the green bar and “by Ward-Beck Systems”, so it is scaled to 0.81 in x between the bars (x 264–510) as on the built panel ('+SIM.src('#POD #SERIES/POD10A - #Master/POD10A - #ARTWORK #DA #2016 /Pics/POD10A Front.jpg','POD10A Front.jpg')+', which shows the real rounded logotype). POD10SLK.CDR has live Arial text that libcdr de-anchors: OUT 1, OUT 2, OUTPUT and “115 VAC, 1/2 A.S.B.” are moved back and the caution split in two lines as in its PDF. The rear sheet has drill crosshairs only at the two mounting holes: the terminal strips, DE9, fuse and cord are still placed from POD10.pdf.'],
 ];
 function viewFindings(m){
   window.__pod10Keys = false;

@@ -19,8 +19,9 @@
    - Hardware/NRZI_Decoder/* , SPECIFICATIONS/NRZI_encodeDecode.txt, Hardware/FPGASpecs/FPGAResourceComparison.xlsx
    - ProjectManagement/RD22-MADI_ProjectGantt.xlsx, RD22TasksList.xlsx · PCB/32ME-5/…/32me5HardwareBugs.txt
    - SILK/OBSOLETE/FEB282013/FrontPanel/32ME-M1 FRONT PANEL_Feb212013.cdr and
-       …/RearPanel/32ME-REARPANEL_Feb212013.cdr → assets/rd22-madi-front-white.png, -front-green.png,
-       -rear-white.png (Inkscape/libcdr, cut between the crop marks at 200 dpi, 3448 × 330 px = 17.24″ × 1.65″)
+       …/RearPanel/32ME-REARPANEL_Feb212013.cdr (assembled views) + …/ChromaFilter/32ME-CHROMATFILTER_Feb192013.cdr
+       → assets/rd22-madi-front.svg, -rear.svg, -overlay.svg (Inkscape/libcdr, cut between the crop marks,
+       17.24″ × 1.648″ drawn as 3448 × 330; artwork pass 2026|59 — replaces the older -white/-green PNG cuts)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
 (function(){
@@ -334,50 +335,74 @@ function smux1Gen(frames){
 }
 
 /* ================================================================
-   PANELS — from the 21 Feb 2013 CorelDRAW artwork (RD22 SILK/OBSOLETE/FEB282013)
+   PANELS — vector artwork from the 21 Feb 2013 CorelDRAW sheets (RD22 SILK/OBSOLETE/FEB282013),
+   converted with Inkscape/libcdr and cut between the crop marks: 17.24″ × 1.648″ = 3448 × 330 here (200 px/in).
+   Front and rear use the sheet's assembled view (cut-outs + both ink plates); the chromatic filter's print
+   (32ME-CHROMATFILTER_Feb192013.cdr) is registered on the 16 panel holes. Every control below sits on those coordinates.
    ================================================================ */
-const MX0 = [49, 798, 1546, 2294], MPITCH = 96.4;           // meter centres on the 1…32 legends (asset px)
-const meterX = m => MX0[m>>3] + (m&7)*MPITCH;
-const segY = i => 262 - i*10;
+const ART = {
+  FRONT: 'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/32ME-M1 FRONT PANEL_Feb212013.cdr',
+  REAR:  'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/RearPanel/32ME-REARPANEL_Feb212013.cdr',
+  FILTER:'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/ChromaFilter/32ME-CHROMATFILTER_Feb192013.cdr',
+  CONCEPT:'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/ConceptFrontAll.cdr',
+  PROTO: 'ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/ChromaFilter/OBSOLETE/PROTOTYPE_V1/32ME-CHROMATFILTER-FINALCURVE.cdr',
+};
+const WIN0 = [87, 835, 1583, 2331], WIN_W = 600;               // the four filter windows (front sheet)
+const COL = [133, 200, 273, 340, 443, 509, 583, 650];          // meter columns in window 1: either side of each pair's SEL/ERR legend
+const PAIRX = [166, 306, 476, 616];                            // SEL/ERR legend centres (filter print)
+const meterX = m => (WIN0[m>>3]-87) + COL[m&7];
+const pairX = p => (WIN0[p>>2]-87) + PAIRX[p&3];
+const segY = i => 281.7 - i*12.01;                             // centre of the dB-scale figure i (−34 … +14) on the filter
+const HOLES = [50,724,798,1472,1546,2220,2294,2968];          // 16 holes at y 64.8 / 264.8 beside the channel-number legends
+function artSrc(which){
+  return which==='rear' ? `Rear artwork: ${SIM.src(ART.REAR,'32ME-REARPANEL_Feb212013.cdr')} (21 Feb 2013|46), assembled view, converted to SVG. The caution text and “MADE IN CANADA” are re-set (libcdr lost their alignment).`
+    : `Front artwork: ${SIM.src(ART.FRONT,'32ME-M1 FRONT PANEL_Feb212013.cdr')} (21 Feb 2013|46) with the filter print from ${SIM.src(ART.FILTER,'32ME-CHROMATFILTER_Feb192013.cdr')} (19 Feb 2013|46), converted to SVG and registered on the 16 holes. Live Arial text in the source (no curve version of this issue).`;
+}
 function frontSVG(t, opts){
   opts = opts||{};
-  let s = `<svg viewBox="0 0 3448 330" role="img" aria-label="32ME front panel (RD22 artwork, 21 Feb 2013)" style="width:100%;border-radius:6px;display:block">
+  let s = `<svg viewBox="0 0 3448 330" role="img" aria-label="32ME front panel (RD22 CorelDRAW artwork, 21 Feb 2013)" style="width:100%;border-radius:6px;display:block">
    <defs><filter id="rdg" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
    <rect width="3448" height="330" rx="8" fill="var(--dev)"/>
-   <rect x="10" y="44" width="2995" height="250" rx="4" fill="#060607"/>`;
+   ${WIN0.map(x=>`<rect x="${x}" y="10" width="${WIN_W}" height="310" fill="#0a0a0c"/>`).join('')}`;
   let lit = '';
   for (let m=0; m<32; m++){
     const x = meterX(m), mi = meterInfo(m), n = (D.source===1 && mi.db!==null)? SEG_DB.filter(v=>mi.db>=v).length : 0;
-    for (let i=0;i<22;i++){ const on = i<n; const r=`<rect x="${x-9}" y="${segY(i)-4}" width="18" height="8" rx="1.5" fill="${on?SEGCOL(i):'#1a1c1b'}"/>`; if (on) lit+=r; else s+=r; }
-    if (m%2===0){ const px = (x + meterX(m+1))/2, err = errLed(m>>1, t), sel = D.pair===m;
-      s += `<circle cx="${px-14}" cy="282" r="6" fill="${err?'#ff3b2f':'#1a1414'}" ${err?'filter="url(#rdg)"':''}><title>ERR pair ${m/2+1} (position inferred)</title></circle>
-            <circle cx="${px+14}" cy="282" r="6" fill="${sel?'#4aa8ff':'#141618'}" ${sel?'filter="url(#rdg)"':''}><title>pair selected (position inferred)</title></circle>`; }
-    if (D.meter===m) s += `<rect x="${x-14}" y="46" width="28" height="226" fill="none" stroke="var(--accent2)" stroke-width="3" stroke-dasharray="6 5"/>`;
-    s += `<rect class="mbar" data-m="${m}" x="${x-20}" y="44" width="40" height="250" fill="transparent" style="cursor:pointer"><title>Meter ${m+1}: ${mi.note}. Click to follow it on the timeline.</title></rect>`;
+    for (let i=0;i<22;i++){ const on = i<n; const r=`<rect x="${x-11}" y="${(segY(i)-4.5).toFixed(1)}" width="22" height="9" rx="1.5" fill="${on?SEGCOL(i):'#19191b'}"/>`; if (on) lit+=r; else s+=r; }
+    if (D.meter===m) s += `<rect x="${x-16}" y="22" width="32" height="272" fill="none" stroke="var(--accent2)" stroke-width="3" stroke-dasharray="6 5"/>`;
   }
   s += `<g filter="url(#rdg)">${lit}</g>`;
-  s += `<image href="${ASSET}rd22-madi-front-white.png" width="3448" height="330"/><image href="${ASSET}rd22-madi-front-green.png" width="3448" height="330"/>`;
-  s += `<rect x="3000" y="36" width="410" height="78" rx="3" fill="#060807" stroke="#222"/><g filter="url(#rdg)">${SIM.dotMatrix(displayText(), 3016, 52, 7.4, '#ff5a3a', 'rgba(255,90,58,.08)')}</g>`;
-  s += `<g class="enc" style="cursor:pointer"><circle cx="3083" cy="225" r="64" fill="transparent"/><circle cx="3083" cy="225" r="44" fill="#121314" stroke="#3a3d40" stroke-width="3"/><circle cx="3083" cy="225" r="31" fill="#232527"/>
-      <line x1="3083" y1="225" x2="${3083+28*Math.sin(D.vol/76*5)}" y2="${225-28*Math.cos(D.vol/76*5)}" stroke="#ddd" stroke-width="4"/><title>ADJUST (PUSH): left third = turn CCW, centre = press, right third = turn CW; wheel turns</title></g>
-    <circle cx="3372" cy="225" r="30" fill="#0b0b0c" stroke="#555" stroke-width="3"/><circle cx="3372" cy="225" r="11" fill="#000"><title>HEADSET (position inferred from the legend)</title></circle>`;
+  for (let p=0; p<16; p++){ const px = pairX(p), err = errLed(p, t), sel = D.pair===2*p;
+    if (sel) s += `<rect x="${px-17}" y="228" width="34" height="13" rx="3" fill="#4aa8ff" opacity=".85" filter="url(#rdg)"/>`;
+    if (err) s += `<rect x="${px-17}" y="263" width="34" height="13" rx="3" fill="#ff3b2f" opacity=".9" filter="url(#rdg)"/>`;
+    s += `<rect x="${px-18}" y="226" width="36" height="52" fill="transparent"><title>Pair ${p+1}: SEL ${sel?'lit':'off'}, ERR ${err?'lit':'off'} — backlit legends on the filter (LED behind each word ${'inferred'})</title></rect>`; }
+  s += `<image href="${ASSET}rd22-madi-front.svg" width="3448" height="330" preserveAspectRatio="none"/>`;
+  s += `<image href="${ASSET}rd22-madi-overlay.svg" width="3448" height="330" preserveAspectRatio="none" opacity=".9"/>`;
+  for (let m=0; m<32; m++){ const x=meterX(m), mi=meterInfo(m); s += `<rect class="mbar" data-m="${m}" x="${x-16}" y="20" width="32" height="272" fill="transparent" style="cursor:pointer"><title>Meter ${m+1}: ${mi.note}. Click to follow it on the timeline.</title></rect>`; }
+  HOLES.forEach(x=>[64.8,264.8].forEach(y=>{ s += `<circle cx="${x}" cy="${y}" r="12" fill="transparent"><title>Ø0.117″ hole in a 0.183″ ring beside a channel-number legend — no LED in the firmware; probably a fixing for the meter board behind the filter (inferred)</title></circle>`; }));
+  s += `<rect x="3039" y="55" width="371" height="101" rx="2" fill="#060807" stroke="#222"/><g filter="url(#rdg)">${SIM.dotMatrix(displayText(), 3048, 80, 7.4, '#ff5a3a', 'rgba(255,90,58,.08)')}</g>`;
+  s += `<g class="enc" style="cursor:pointer"><circle cx="3084" cy="225" r="64" fill="transparent"/><circle cx="3084" cy="225" r="44" fill="#121314" stroke="#3a3d40" stroke-width="3"/><circle cx="3084" cy="225" r="31" fill="#232527"/>
+      <line x1="3084" y1="225" x2="${3084+28*Math.sin(D.vol/76*5)}" y2="${225-28*Math.cos(D.vol/76*5)}" stroke="#ddd" stroke-width="4"/><title>ADJUST (PUSH): left third = turn CCW, centre = press, right third = turn CW; wheel turns</title></g>
+    <circle cx="3373.5" cy="234.5" r="36" fill="#0b0b0c" stroke="#555" stroke-width="3"/><circle cx="3373.5" cy="234.5" r="12" fill="#000"><title>HEADSET jack (Ø0.38″ hole on the sheet)</title></circle>
+    <circle cx="3224" cy="184.7" r="12" fill="transparent"><title>Unlegended hole between ADJUST and HEADSET (same size as the 16 meter-side holes)</title></circle>`;
   if (opts.hot) s += opts.hot;
   return s + '</svg>';
 }
 function rearSVG(){
-  const bnc = (x, on, cls, tip)=>`<g class="${cls||''}" style="${cls?'cursor:pointer':''}"><circle cx="${x}" cy="136" r="40" fill="#a8913f" stroke="#5e4d1c" stroke-width="3"/><circle cx="${x}" cy="136" r="24" fill="#d8c27a"/><circle cx="${x}" cy="136" r="8" fill="#6b5410"/>
-     ${on?`<rect x="${x-18}" y="170" width="36" height="60" fill="#2b5f9e"/><rect x="${x-30}" y="150" width="60" height="32" rx="7" fill="#3a74b8"/>`:''}<title>${tip}</title></g>`;
-  const db25 = (x,y)=>`<rect x="${x-205}" y="${y-48}" width="410" height="96" rx="16" fill="#9aa0a6" stroke="#55595c" stroke-width="3"/><path d="M${x-168} ${y-28} h336 l-18 56 h-300 z" fill="#1d1f22"/>`;
-  return `<svg viewBox="0 0 3448 330" role="img" aria-label="32ME rear panel (RD22 artwork, 21 Feb 2013)" style="width:100%;border-radius:6px;display:block">
+  const bnc = (x, on, cls, tip)=>`<g class="${cls||''}" style="${cls?'cursor:pointer':''}"><circle cx="${x}" cy="137" r="44" fill="#a8913f" stroke="#5e4d1c" stroke-width="3"/><circle cx="${x}" cy="137" r="26" fill="#d8c27a"/><circle cx="${x}" cy="137" r="8" fill="#6b5410"/>
+     ${on?`<rect x="${x-18}" y="175" width="36" height="60" fill="#2b5f9e"/><rect x="${x-30}" y="155" width="60" height="32" rx="7" fill="#3a74b8"/>`:''}<title>${tip}</title></g>`;
+  const db25 = (x,y)=>`<rect x="${x-164}" y="${y-47}" width="328" height="94" rx="14" fill="#9aa0a6" stroke="#55595c" stroke-width="3"/><path d="M${x-140} ${y-30} h280 l-15 60 h-250 z" fill="#1d1f22"/>`;
+  const led = (x,y,on,tip)=>`<circle cx="${x}" cy="${y}" r="10" fill="${on?'#36d05a':'#1c2a1f'}" ${on?'filter="url(#rdg2)"':''}><title>${tip}</title></circle>`;
+  return `<svg viewBox="0 0 3448 330" role="img" aria-label="32ME rear panel (RD22 CorelDRAW artwork, 21 Feb 2013)" style="width:100%;border-radius:6px;display:block">
+   <defs><filter id="rdg2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
    <rect width="3448" height="330" rx="8" fill="var(--dev)"/>
-   <rect x="690" y="86" width="150" height="110" rx="10" fill="#0a0b0c" stroke="#333"><title>IEC inlet (position inferred)</title></rect><rect x="725" y="112" width="80" height="58" rx="6" fill="#16181a"/>
-   ${bnc(1250,false,'','SYNC OUT (position from the legend; no drill mark)')}${bnc(1378,false,'','SYNC IN (position from the legend; no drill mark)')}
-   ${bnc(1549,false,'','MADI OUT (drill crosshair in the artwork) — i64 loop-through')}${bnc(1725,D.link,'rmadi','MADI IN — click to plug or unplug the coax')}
-   <circle cx="${1725+52}" cy="98" r="9" fill="${D.link?'var(--accent)':'#555'}"/>
-   <rect x="1975" y="238" width="230" height="52" rx="5" fill="#1f8a45" stroke="#0e4d25" stroke-width="3"/>${[0,1,2,3,4,5].map(i=>`<circle cx="${1995+i*38}" cy="264" r="11" fill="#0d3a1c"/>`).join('')}
-   ${db25(2560,95)}${db25(3000,95)}${db25(2560,250)}${db25(3000,250)}
-   ${D.opt==='unet'?`<rect x="1010" y="80" width="140" height="110" rx="6" fill="#123a6b" stroke="#5aa9e6" stroke-width="3"><title>uNet2500 RJ45 (32ME-N) — position inferred</title></rect><rect x="1040" y="105" width="80" height="60" fill="#0a0b0c"/>`:''}
-   <image href="${ASSET}rd22-madi-rear-white.png" width="3448" height="330"/>
+   <image href="${ASSET}rd22-madi-rear.svg" width="3448" height="330" preserveAspectRatio="none"/>
+   <rect x="96" y="70" width="172" height="120" rx="8" fill="#0a0b0c" stroke="#333"><title>IEC inlet + fuse module (216 × 244 px cut-out on the sheet, “90-230 VAC, 1A S.B.”)</title></rect><rect x="132" y="96" width="100" height="66" rx="6" fill="#16181a"/><rect x="132" y="206" width="100" height="56" rx="4" fill="#202326"/>
+   <g><rect x="1222" y="113" width="184" height="70" rx="6" fill="#16181a" stroke="#444"/><rect x="1240" y="126" width="62" height="44" rx="4" fill="${D.link?'#2a2f33':'#0c0d0e'}"/><rect x="1326" y="126" width="62" height="44" rx="4" fill="#0c0d0e"/><title>MADI optical OUT / IN (204 × 85 px cut-out under the MADI bracket). Not modelled: this bench uses the coax input.</title></g>
+   ${led(1452,154,D.link,'SYNC (beside the optical port) — lock LED on the i64 (inferred from the legend)')}${led(1826,154,D.link,'SYNC (beside the coax IN) — lock LED (inferred from the legend)')}
+   ${bnc(1550,false,'','MADI OUT (Ø0.50″ hole, drill crosshair on the sheet) — i64 loop-through')}${bnc(1726,D.link,'rmadi','MADI IN (Ø0.50″ hole) — click to plug or unplug the coax')}
+   <rect x="1992" y="214" width="216" height="67" rx="5" fill="#1f8a45" stroke="#0e4d25" stroke-width="3"><title>ANALOG MONITOR OUTPUT terminal block: R (+ − G) L (+ − G)</title></rect>${[0,1,2,3,4,5].map(i=>`<circle cx="${2010+i*36}" cy="247" r="11" fill="#0d3a1c"/>`).join('')}
+   ${db25(2543,86)}${db25(3013,86)}${db25(2543,243)}${db25(3013,243)}
+   ${D.opt==='unet'?`<rect x="940" y="100" width="140" height="110" rx="6" fill="#123a6b" stroke="#5aa9e6" stroke-width="3"><title>uNet2500 RJ45 (32ME-N) — not on this sheet; position inferred</title></rect><rect x="970" y="125" width="80" height="60" fill="#0a0b0c"/>`:''}
   </svg>`;
 }
 function bindPanel(root){
@@ -494,10 +519,10 @@ function traceHTML(){ return D.log[0]? `<div><b>${D.log[0].name}</b> at ${SIM.fm
 function viewSim(m){
   window.__rd22madiActive = true;
   m.innerHTML = `
-  ${card('32ME front panel at the playhead (meters fed from the MADI stream through the FPGA)', `<div id="fp"></div>${controlsHTML()}`)}
+  ${card('32ME front panel at the playhead (meters fed from the MADI stream through the FPGA)', `<div id="fp"></div><p class="small muted">${artSrc('front')}</p>${controlsHTML()}`)}
   <div class="grid2">
     <div>${card('Bench: RME HDSPe MADI source → coax → i64 → AMS8E-1 iss5', benchHTML())}
-      ${card('Rear panel — click MADI IN to plug or unplug', `<div id="rp"></div>`)}</div>
+      ${card('Rear panel — click MADI IN to plug or unplug', `<div id="rp"></div><p class="small muted">${artSrc('rear')}</p>`)}</div>
     <div>${card('What the firmware and FPGA did (last action)', `<div id="trace" class="log"></div>`)}${card('State at the playhead', `<div id="insp"></div>`)}</div>
   </div>
   ${card('Timeline — one second, zoomable (click to seek). Zoom to “1 frame” and below to see slots, then bits, then NRZI cells', `<canvas id="tl"></canvas>
@@ -571,7 +596,7 @@ function viewTutorial(m){
   window.__rd22madiActive = true;
   m.innerHTML = `<div class="grid2"><div>${card('Tutorial — how the RD22 engineer used the bench', `<ol id="lessons" class="small" style="list-style:none;padding-left:4px;margin:0"></ol>`)}<div class="card" id="lesson"></div></div>
     <div>${card('Bench', benchHTML())}${card('What the firmware did', `<div id="trace" class="log"></div>`)}</div></div>
-    ${card('The unit', `<div id="fp"></div>${controlsHTML()}<div id="rp" style="margin-top:8px"></div>`)}`;
+    ${card('The unit', `<div id="fp"></div>${controlsHTML()}<div id="rp" style="margin-top:8px"></div><p class="small muted">${artSrc('front')} ${artSrc('rear')}</p>`)}`;
   bindControls(m); bindBench(m);
   const draw = ()=>{
     m.querySelector('#fp').innerHTML = frontSVG(SIM.t); bindPanel(m.querySelector('#fp'));
@@ -823,6 +848,7 @@ function viewFindings(m){
     <li><b>smux1Gen's channel IDs.</b> The generator loads the channel number into each slot, but its last window starts at <span class="mono">X"F7"</span>, so slot 7's LSB is the frame toggle: IDs 8, 16, … alternate with 9, 17, …. Its FSYNC also falls one MCK before the MSB, hence syncOneShot's one-clock data delay (v202).</li>
     <li><b>64 channels have no varispeed.</b> 64 × 40 = 2560 of 2604 bit cells at 48 kHz: 64-channel MADI tops out at 48.6 kHz (with one JK pair per frame). The i64 says its 1FS follows 30–50 kHz, so above about 48.6 kHz only 56-channel mode works — what the paper means by “56 channels … ±12 % varispeed”.</li>
     <li><b>The i64 does not follow every rate.</b> ObservationsClockTable.xlsx: RME at 32 k, 64 k and 128 k (48 k frame) left the i64 on ≈47.8 / 47.6 / 47.4 kHz, “dependent on previous value”.</li>
+    <li><b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART.FRONT,'32ME-M1 FRONT PANEL_Feb212013.cdr')} and ${SIM.src(ART.REAR,'32ME-REARPANEL_Feb212013.cdr')} (21 Feb 2013|46), with the filter print from ${SIM.src(ART.FILTER,'32ME-CHROMATFILTER_Feb192013.cdr')} (19 Feb 2013|46).</b> Each sheet has an assembled view above its WHITE and GREEN plates; that view is used, so cut-outs and both inks register exactly. What it shows: (a) the meters sit behind four 600 × 310 px chromatic-filter windows, eight columns each, as four stereo pairs with one <b>SEL</b> and one <b>ERR</b> legend per pair and a shared −34 … +14 dB scale between pairs — 16 ERR legends for 32 meters, matching spicontrol's 16 channel-active bits; (b) the numbers 1, 8, 9, 16 … 32 (top) and 33, 40 … 64 (bottom) are channel-range legends for the two groups, next to 16 small holes (Ø0.117″ in 0.183″ rings) with no LED named for them in the code modelled here, so they are probably fixings ${inf}; an earlier ${SIM.src(ART.PROTO,'PROTOTYPE_V1 filter')} also printed CH1–CH8 under every window, dropped on 19 Feb; (c) the earlier ${SIM.src('ENGINEERING - 2016 RD FILES/RD22-MADI/SILK/OBSOLETE/FEB282013/FrontPanel/Obsolete/32ME-FRONTPANEL-FINALCURVE.cdr','32ME-FRONTPANEL-FINALCURVE.cdr')} had “1-32 / 33-64” group LEDs at the right and no display; the Feb 21 issue replaced them with the dot-matrix window, ADJUST (PUSH) and HEADSET, which is what Main.c drives (“ch 1-32 / ch 33-64” on the display); (d) the rear has a MADI <i>optical</i> OUT/IN cut-out as well as the two coax BNCs, each with a “SYNC” hole beside it, and no SYNC BNCs — the old drawing's SYNC OUT/IN connectors were wrong; (e) one unlegended hole sits between ADJUST and HEADSET; (f) ${SIM.src(ART.CONCEPT,'ConceptFrontAll.cdr')} (same date) holds nine alternative layouts that move the logo and 32ME badge between windows. The source has live Arial text, not curves; the rear caution block and “MADE IN CANADA” are re-set by hand (libcdr lost their alignment and line breaks) ${inf}.</li>
     <li><b>Front panel.</b> <span class="mono">if((currentSampleRate == 0) && (currentSource = 1))</span> in RotaryEncoder.c is an assignment (Grp Sel forces the source to MADI). The SR strings are all in Main.c's <span class="mono">mainProcessSRSelect</span>: “30-50kHz”, “60-100k”, “120-200k”. The version string is <span class="mono">01AV0200</span>.</li>
     <li><b>Two paths for the group bit.</b> The group reaches the FPGA in byte 79 of the 80-byte block (shift_in32 → madi_group_select), and <span class="mono">AMS8Check32Or64Select</span> also drives a dedicated port pin; <span class="mono">alteraWriteParallelControlData</span> is commented out. <span class="mono">madiPresentCheck</span> reads PINA bit 5 but its write into status BIT4 is commented out (Dec 2015).</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">

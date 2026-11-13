@@ -18,7 +18,8 @@
    - AMS82 #Engineering/AMS82 #Software/AMS8 #software COMMUNICATION PROTOCOL.doc
    - AMS82 - #Mechanical #DA #2016/AMS8-2A BOM.pdf (LED board parts and LED colour counts)
    - AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr, AMS82-M2 SILK (CURVE).cdr (converted with
-       Inkscape, cut with tools/silk_extract.py), AMS8-2A Series Front.jpg, AMS8-2AAM (Demux 4).jpg
+       Inkscape: since 2026|59 the panels are the vector art itself, assets/ams82-front.svg / ams82-rear.svg; the earlier
+       tools/silk_extract.py PNG cut is kept on a toggle), AMS8-2A Series Front.jpg, AMS8-2AAM (Demux 4).jpg
    - AMS81 - #Master/AMS8 - #Engineering/AMS8 - #Software/README.md (main-board MCU, FPGA, register map)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -631,6 +632,21 @@ function dolbyFrames(){ const c=monContent(); if (c.fmt===3) return {period:1/FR
    Buttons, knobs, displays and the jack sit on the cut-outs and crosshairs. The meter window contents (bars, lens scale)
    are measured from AMS8-2A Series Front.jpg. */
 const FW=3447, FH=679;
+/* Artwork 2026|59: the default face is now the CorelDRAW vector art itself, assets/ams82-front.svg and ams82-rear.svg, cut
+   from the same two CURVE .cdr files by Inkscape (plain SVG, pt units). Each asset's viewBox is the panel outline drawn in
+   the .cdr (front 72.4,93.3 → 1241.3 × 244.6 pt; rear 63.8,185.0), which is the same frame as the 200 dpi PNGs to within
+   ~1 px, so every control above stays on its hole. Front: the GREEN plate in POD green, the WHITE plate (moved up 322.1 pt
+   onto the green one) in white, the mechanical #000000 lines (outline, vents, cut-outs) in grey. Drill crosshairs and
+   duplicated hole rings (0.5/1.0 pt guide strokes) are left out. Rear: the third-party logo box is replaced by plain text.
+   The old PNG separations stay behind the "PNG silk" toggle. */
+const ART = { png:false,
+  FRONT:'AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr',
+  REAR:'AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS82-M2 SILK (CURVE).cdr' };
+function artNote(which){
+  const f = which==='rear'? SIM.src(ART.REAR,'AMS82-M2 SILK (CURVE).cdr')+' (MAY 07/15)' : SIM.src(ART.FRONT,'AMS82-FRONT-SILK (CURVE).cdr')+' (OCT.20/15, GREEN + WHITE plates)';
+  return `<div class="small muted" style="margin-top:4px">Artwork: ${f}, CorelDRAW vector art. <label><input type="checkbox" class="artpng" ${ART.png?'checked':''}> show the earlier PNG silk (tools/silk_extract.py cut of the same .cdr)</label></div>`;
+}
+function bindArt(m){ m.querySelectorAll('.artpng').forEach(c=> c.onchange=e=>{ ART.png=e.target.checked; m.querySelectorAll('.artpng').forEach(o=>o.checked=ART.png); SIM.refresh(); }); }
 const DM_EXT = { 'Ω':[14,17,17,17,10,10,27], 'j':[2,0,6,2,2,18,12], 'q':[0,0,13,19,15,1,1], '?':[14,17,1,2,4,0,4] };
 function dm(text, x, y, p, on, off){
   let s=''; const r=(p*0.40).toFixed(2);
@@ -688,9 +704,9 @@ function frontSVG(t, opts){
     <rect width="${FW}" height="${FH}" fill="#1e1f1c"/>
     ${meterSVG(t)}
     <rect x="1638" y="55" width="787" height="97" fill="#070806"/><rect x="2058" y="195" width="367" height="97" fill="#070806"/>
-    <image href="${ASSET}ams82-front-cut.png" width="${FW}" height="${FH}" opacity=".9"/>
+    ${ART.png? `<image href="${ASSET}ams82-front-cut.png" width="${FW}" height="${FH}" opacity=".9"/>
     <image href="${ASSET}ams82-front-green.png" width="${FW}" height="${FH}"/>
-    <image href="${ASSET}ams82-front-white.png" width="${FW}" height="${FH}"/>
+    <image href="${ASSET}ams82-front-white.png" width="${FW}" height="${FH}"/>` : `<image href="${ASSET}ams82-front.svg" width="${FW}" height="${FH}" preserveAspectRatio="none"/>`}
     <g filter="url(#glow)">${dms}</g>
     ${IN_KEYS.map((k,i)=>btn(k,1710+90*i,244)).join('')}${PRESET_KEYS.map((k,i)=>btn(k,1710+90*i,364)).join('')}
     ${knob(0,2102,364)}${knob(1,2382,364)}
@@ -709,7 +725,7 @@ function rearSVG(){
   const has = (b,k) => CONTENT[D.bank[b][k-1]].fmt>0;
   let s = `<svg viewBox="0 0 ${RW} ${FH}" role="img" aria-label="AMS8-2 rear panel on the real silkscreen" style="width:100%;display:block;border-radius:6px">
     <rect width="${RW}" height="${FH}" fill="#1e1f1c"/>
-    <image href="${ASSET}ams82-rear-cut.png" width="${RW}" height="${FH}" opacity=".9"/>
+    ${ART.png? `<image href="${ASSET}ams82-rear-cut.png" width="${RW}" height="${FH}" opacity=".9"/>` : ''}
     <rect x="75" y="394" width="214" height="242" rx="10" fill="#111" stroke="#444" stroke-width="3"/><rect x="110" y="430" width="144" height="100" rx="8" fill="#050505"/><title>IEC mains inlet + fuse</title>
     ${[0,1,2,3,4,5,6,7,8].map(i=>`<rect x="${526+40*i}" y="416" width="16" height="198" rx="8" fill="#050605"/>`).join('')}
     ${dsub(903,437,94,155)}${dsub(1036,437,94,155)}${dsub(1470,132,330,95)}${dsub(1470,545,330,95)}
@@ -722,7 +738,7 @@ function rearSVG(){
     ${phx(1994,565,2,null,'MONITOR OUTPUT')}${phx(2254,565,1,null,'REF IN 110 Ω')}
     ${[1,2,3,4].map(k=>phx(2404+109*(k-1),565,1,'b110-'+k,'IN '+k+' (110 Ω): '+CONTENT[D.bank[2][k-1]].name+' — click to change',has(2,k))).join('')}
     ${phx(2884,565,4,null,'OUT 1–4 (110 Ω)')}
-    <image href="${ASSET}ams82-rear-white.png" width="${RW}" height="${FH}"/>
+    <image href="${ASSET}${ART.png? 'ams82-rear-white.png' : 'ams82-rear.svg'}" width="${RW}" height="${FH}" preserveAspectRatio="none"/>
   </svg>`;
   return s;
 }
@@ -874,9 +890,9 @@ function inspector(t){
 function viewSim(m){
   window.__ams82Active = true;
   m.innerHTML = `
-  ${card('Front panel at the playhead — the real 2015 silkscreen', `<div id="fp"></div>${controlsHTML()}`)}
+  ${card('Front panel at the playhead — the real 2015 CorelDRAW artwork', `<div id="fp"></div>${artNote('front')}${controlsHTML()}`)}
   <div class="grid2">
-    <div>${card('Rear panel — click an input BNC or Phoenix to change what is plugged in', `<div id="rp"></div><div id="cs" style="margin-top:8px"></div>`)}
+    <div>${card('Rear panel — click an input BNC or Phoenix to change what is plugged in', `<div id="rp"></div>${artNote('rear')}<div id="cs" style="margin-top:8px"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}</div>
     <div>${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}
       ${card('Action log', `<div id="log" class="log"></div>`)}</div>
@@ -893,7 +909,7 @@ function viewSim(m){
     SIM.drawLanes(m.querySelector('#tl'), lanes(), {labelW:210});
   };
   m.querySelector('#cs').innerHTML = contentSelectors(); bindContent(m);
-  bindControls(m);
+  bindControls(m); bindArt(m);
   SIM.on('time', ()=>{ draw(); const cs=m.querySelector('#cs'); if (cs && !cs.contains(document.activeElement)){ cs.innerHTML=contentSelectors(); bindContent(m); } });
 }
 
@@ -1158,6 +1174,7 @@ function viewNotes(m){
   window.__ams82Active = false;
   m.innerHTML = card('What the AMS8-2 firmware is up to — findings from the source', `
   <ol>
+    <li><b>Artwork ${SIM.year(2026)}: front and rear panels now from ${SIM.src(ART.FRONT,'AMS82-FRONT-SILK (CURVE).cdr')} (OCT.20/15) and ${SIM.src(ART.REAR,'AMS82-M2 SILK (CURVE).cdr')} (MAY 07/15).</b> The vector art shows things the photos do not: (a) the 2015 front has <i>hexagonal</i> vent holes either side and below the buttons, while ${SIM.src('AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2A Series Front.jpg','AMS8-2A Series Front.jpg')} shows the earlier slotted vents, so the photo is an older issue; (b) the 1–8 preset numbers under the buttons are on the GREEN plate and the INPUTS / PRESETS / SELECT / VOLUME words on the WHITE plate, exactly as the photo; (c) the rear top row is legended SDI IN 1 / 2, SDI OUT, COMP, G/Y, B/Pr, R/Pb, but those seven holes are empty in ${SIM.src('AMS82 - #Master/AMS82 - #ARTWORK #DA #2016/AMS8-2AAM (Demux 4).jpg','AMS8-2AAM (Demux 4).jpg')}: the SDI board that was built sits on the centre plate instead (SDI IN 1/2, SDI OUT, AES OUT 1/2). The top row is an unbuilt SDI + component-video variant, and nothing in V2120 handles component video; (d) the .cdr has drill crosshairs on every screw and on the IN 1, OUT 4 and SDI IN 1 / R/Pb holes, and two ⚠ marks (mains and the AUX 1 “PLEASE REFER TO MANUAL”). An older 2014 sheet, ${SIM.src('AMS82 - #Master/AMS82 #Engineering/AMS82 #SILK/AMS82-1M1-CURVE.cdr','AMS82-1M1-CURVE.cdr')}, also exists.</li>
     <li><b>Dialnorm −1 to −9 all read “−1”.</b> In <span class="mono">PROCESS_DIALNORM_INFORMATION</span> (v200w.c), <span class="mono">case 1:</span> to <span class="mono">case 9:</span> all write <span class="mono">NO1</span> into the digit position, a copy-paste slip. Every Ams8e-5 version in the archive, from v1009 to V040001 and the c104/c106 customs, has the same code. Real programmes rarely carry a dialnorm above −10, which may be why nobody noticed. Set 75 Ω IN 4 to “AC-3 2/0, dialnorm −5” to see it.</li>
     <li><b>The metadata menu stops at Bit Depth when turning clockwise.</b> <span class="mono">PROCESS_INFORMATION_INCREMENT</span> goes DIALNORM → FRAMERATE → DATARATE → BITDEPTH, but it has no <span class="mono">display == BITDEPTH</span> branch. The knob then does nothing. Sample rate, bitstream mode, centre/surround mix, RF, mix level, room type, original bitstream and copyright can only be reached by turning counter-clockwise from Dialnorm. The manual (p. 17) describes Dn, Mx, Fr and Dr in clockwise order.</li>
     <li><b>Mode 3 cannot be chosen.</b> The manual says “Mode X, where X is 1, 2, 3 or 4”. <span class="mono">RIGHT_ENCODER_UPDATE</span> on MODE_SCREEN jumps from MODE2 straight to MODE4 and back (<span class="mono">MODE_MAX = MODE4</span>), so Mode 3 never appears. Mode 5 exists in <span class="mono">mode5.c</span> but is unreachable too.</li>
@@ -1187,7 +1204,7 @@ function viewNotes(m){
     <li>AMS82 - #Master/AMS82 #Engineering/AMS82 #Software/AMS82 #Software #Atmel/AMS82 #Software #Ams8e-5/AMS82 #Software #Ams8e-5 #V2120/: v200w.c, common.c, control.c, settings.c, SIEMENS8-3.c, AMS82.c, AMS82.h</li>
     <li>…/AMS82 #Software #Sharc/AMS82 #Software #Sharc #AMS82V205/: ams81_main.asm, vumeter.asm, vumeter.h, ams81_INIT.ASM, ams81_ISR_table.ASM, ams82_vu_data1.dat, ams82_vu_data2.dat, ams81_volume_table.dat</li>
     <li>…/AMS82 #Manual/Complete Manual/AMS82-AAEM Operators Instructions version 2117.pdf · …/AMS8 #software COMMUNICATION PROTOCOL.doc</li>
-    <li>AMS82 - #Mechanical #DA #2016/AMS8-2A BOM.pdf · AMS82 - #ARTWORK #DA #2016/AMS82-FRONT-SILK (CURVE).cdr, AMS82-M2 SILK (CURVE).cdr, AMS8-2A Series Front.jpg, AMS8-2AAM (Demux 4).jpg</li></ul>`);
+    <li>AMS82 - #Mechanical #DA #2016/AMS8-2A BOM.pdf · ${SIM.src(ART.FRONT,'AMS82-FRONT-SILK (CURVE).cdr')}, ${SIM.src(ART.REAR,'AMS82-M2 SILK (CURVE).cdr')} (panel artwork, assets/ams82-front.svg, ams82-rear.svg), AMS8-2A Series Front.jpg, AMS8-2AAM (Demux 4).jpg</li></ul>`);
 }
 
 /* ---------------- register plugin ---------------- */

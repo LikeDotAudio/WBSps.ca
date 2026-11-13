@@ -13,8 +13,8 @@
      PCB/OBSOLETE/POD25iss1.* (Issue 1)
    - POD25 - #Engineering/MANUAL/POD25MANU.doc (operator text and specifications)
    - POD25 - #Engineering/POD25 - Functional Diagram.cdr (text: "TONE (1 Khz)", "ALARM DELAY (1 or 45 SECOND)")
-   - POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).pdf → assets/pod25-front-green.png,
-     pod25-front-white.png, pod25-rear-white.png (cut with tools/silk_extract.py, 200 dpi, 1714 × 321 px)
+   - POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr → assets/pod25-front.svg, pod25-rear.svg
+     (Inkscape, plates registered on the 1714 × 321 frame, 2026|59; replaces the earlier PNG silk cut from the .pdf)
    - POD25 - #ARTWORK #DA #2016/POD25 - #PHOTOS/POD25 Front.jpg, POD25 Rear.jpg (panel colour, parts)
    - POD25 - #Mechanical #DA #2016/POD25-FRONT ISS 1 (PANEL).pdf, POD25-REAR ISS 2 (PANEL).pdf (hole positions)
    Anything not in those files is marked "inferred" on screen.
@@ -314,6 +314,8 @@ const A = {
    Rear: POD25-REAR ISS 2 (PANEL).pdf (26/11/07 “changed to new style AC plug”): XLR .950 holes at 1.346 / 2.646, y .781; terminal
    cut-out .425×2.550 centred 4.941, .749; IEC detail D 1.256×1.080 centred 7.415, .703. All agree with the silk crosshairs. */
 const ASSET = 'siumulation-plugins/assets/';
+const ART_SRC = '#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR-SILK (CURVE).cdr';
+const ART_CAP = `<div class="small muted" style="margin:2px 0 6px">Panel artwork: ${SIM.src(ART_SRC,'POD25-FRONT&REAR-SILK (CURVE).cdr, Jul 2 2014')} (CorelDRAW, curves; green and white plates registered on one panel)</div>`;
 function trim(x, y, pos, id, tip){
   const a = (-135 + 270*pos)*Math.PI/180, dx = Math.sin(a)*12, dy = -Math.cos(a)*12;
   return `<g class="p25f" data-a="pot" data-p="${id}" style="cursor:pointer"><title>${tip} — click left/right half to turn, or use the mouse wheel</title>
@@ -328,11 +330,10 @@ function frontSVG(t, opts){
   opts = opts||{};
   const o = outAt(t), S = setAt(t);
   const beep = o.on && !o.boot && (o.ti & 8) && !S.mute;
-  return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD25 front panel (real silkscreen)" style="width:100%;max-width:${opts.max||980}px;border-radius:8px;display:block">
+  return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD25 front panel (CorelDRAW silk artwork)" style="width:100%;max-width:${opts.max||980}px;border-radius:8px;display:block">
     <defs><filter id="p25glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1714" height="321" rx="8" fill="#141516"/>
-    <image href="${ASSET}pod25-front-green.png" width="1714" height="321"/>
-    <image href="${ASSET}pod25-front-white.png" width="1714" height="321"/>
+    <image href="${ASSET}pod25-front.svg" width="1714" height="321"/>
     <g class="p25f" data-a="power" style="cursor:pointer"><title>PWRSW1 PAN256 power rocker (click)</title><rect x="130" y="54" width="101" height="154" rx="8" fill="#0b0c0d" stroke="#2d3033" stroke-width="2"/>
       <rect x="143" y="${S.power?68:128}" width="75" height="66" rx="6" fill="#1b1d20" stroke="#3a3e42"/><rect x="149" y="${S.power?74:182}" width="63" height="10" rx="3" fill="#2b2e31"/></g>
     ${led(299,218,o.on,'#b9ff5a','PWRLED green, R27 1K0 from +VA (unregulated rail)')}
@@ -351,7 +352,7 @@ function frontSVG(t, opts){
     ${led(1477,218,!!(o.pb&4),'#ff3b30','ALARM 2 — LED4 red, RB2 (ALARM2) via R39 330R')}
     ${[50,1664].map(x=>`<circle cx="${x}" cy="161" r="11" fill="#8a8886" stroke="#444" stroke-width="2"/><path d="M${x-6} 161 h12 M${x} 155 v12" stroke="#444" stroke-width="2.5"/>`).join('')}
     ${opts.hot||''}
-  </svg>`;
+  </svg>${ART_CAP}`;
 }
 function xlr(x, y, plugged, ch){
   const scr = (sx,sy)=>`<circle cx="${sx}" cy="${sy}" r="11" fill="#9a9da0" stroke="#55585b" stroke-width="2"/><path d="M${sx-6} ${sy} h12 M${sx} ${sy-6} v12" stroke="#47494c" stroke-width="2.5"/>`;
@@ -375,9 +376,9 @@ function rearSVG(t){
       <rect x="${x0-12}" y="100" width="81" height="215" fill="transparent"/>
       <circle cx="${xNO}" cy="${yy}" r="4" fill="${on?'var(--bad)':'#777'}"/><circle cx="${xNC}" cy="${yy}" r="4" fill="${on?'#777':'var(--accent)'}"/><circle cx="${xC}" cy="${yy+12}" r="4" fill="#ccc"/>
       <line x1="${xC}" y1="${yy+12}" x2="${on?xNO:xNC}" y2="${yy}" stroke="${on?'var(--bad)':'var(--accent)'}" stroke-width="3"/></g>`; }
-  return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD25 rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
+  return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD25 rear panel (CorelDRAW silk artwork)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <rect width="1714" height="321" rx="8" fill="#141516"/>
-    <image href="${ASSET}pod25-rear-white.png" width="1714" height="321"/>
+    <image href="${ASSET}pod25-rear.svg" width="1714" height="321"/>
     ${xlr(269,156,S.ch[1].plug,1)}${xlr(529,156,S.ch[0].plug,0)}
     ${tb}${sw}
     ${[712,1263,50,1664].map(x=>`<circle cx="${x}" cy="161" r="10" fill="#8f9295" stroke="#55585b" stroke-width="2"/><path d="M${x-6} 161 h12 M${x} 155 v12" stroke="#47494c" stroke-width="2"/>`).join('')}
@@ -385,7 +386,7 @@ function rearSVG(t){
       <rect x="1357" y="33" width="251" height="216" rx="12" fill="#0b0b0c" stroke="#333" stroke-width="2"/><rect x="1372" y="52" width="62" height="178" rx="5" fill="#161516"/><rect x="1450" y="62" width="140" height="160" rx="12" fill="#050505"/>
       ${[[1486,98],[1554,98],[1520,182]].map(([x,y])=>`<rect x="${x-10}" y="${y-14}" width="20" height="28" fill="#c9cdd2"/>`).join('')}</g>
     <text x="857" y="318" font-size="11" fill="#888" font-family="sans-serif" text-anchor="middle">(contact state overlay — not on the real panel)</text>
-  </svg>`;
+  </svg>${ART_CAP}`;
 }
 function bindPanel(root){
   root.querySelectorAll('.p25f').forEach(g=>{
@@ -941,6 +942,7 @@ function viewNotes(m){
   window.__pod25Active = false;
   const E = emulate(), tick = 2048*E.avgPass, fz = 1/(4*E.avgPass);
   m.innerHTML = card('What POD25 is up to — findings from the source', `<ol>
+    <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_SRC,'POD25-FRONT&REAR-SILK (CURVE).cdr')} (Jul 2 2014|47).</b> Three plates (FRONT GREEN, FRONT WHITE, REAR WHITE) and the cut-out layer are registered on one panel. The green plate carries the ALARM ON/OFF bars and the 9-slot vent; the cut-out layer shows the LED and trimmer holes the overlays sit on, the 2 × 9-way terminal-block window, the IEC window and a small round hole at the top right of the rear with no legend (ground stud or spare, ${inf}). The older ${SIM.src('#POD #SERIES/POD25 - #Master/POD25 - #ARTWORK #DA #2016/POD25-FRONT&REAR.cdr','POD25-FRONT&REAR.cdr')} (21 May 2014) is the live-text version of the same sheet.</li>
     <li><b>The alarm delay is counted in main-loop passes, not by a timer.</b> <span class="mono">xlr_check_timer</span> decrements <span class="mono">timer1</span> (256) and <span class="mono">timer2</span> (<span class="mono">time_constant</span> 8), so one “tick” is 2048 passes. The emulation counts about ${(E.avgPass/TCY).toFixed(0)} cycles per pass at 4.9152 MHz (${(E.avgPass*1e6).toFixed(1)} µs), so a tick is about ${(tick*1000).toFixed(0)} ms and the longest delay (alarm_threshold = 254) is about ${(254*tick).toFixed(1)} s. That is close to the manual's 45 s, but it moves with every branch the loop takes.</li>
     <li><b>The minimum delay is not 1 second.</b> <span class="mono">xlr_timer</span> bits are only cleared when they are used, so the first quiet reading always counts at once. With the trimmer fully counter-clockwise (rv3 = 0 → <span class="mono">linear_table</span> 0), <span class="mono">xlr1_alarm_data = 1 &gt; 0</span> raises the alarm on the first quiet reading — a few tens of ms after the detector capacitor drains. The manual and the panel say 1 SEC. Tutorial step 9 shows it.</li>
     <li><b>“1 kHz” tone is about ${(fz/1000).toFixed(1)} kHz.</b> The net is <span class="mono">1KHZ_TONE</span> and the functional diagram says “TONE (1 Khz)”, but <span class="mono">generate_tone</span> toggles RB4 every <span class="mono">TONE_CONSTANT</span> = 2 passes (period 4 passes). <span class="mono">pulse_generator</span> gates it every 1280 passes, about ${(1/(2*1280*E.avgPass)).toFixed(1)} beeps a second. The Timer2-interrupt version (<span class="mono">threshold_set</span>, <span class="mono">set_int</span>, <span class="mono">T2CON 0x45</span>, <span class="mono">PR2 = tone_constant</span>) is commented out in pod25v2.asm, and the interrupt vector at 0x004 is a bare <span class="mono">RETFIE</span>.</li>

@@ -18,6 +18,8 @@ const SIM = window.SIM;
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 function card(t,b,cls){ return `<div class="card ${cls||''}"><h2>${t}</h2>${b}</div>`; }
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: preload the CorelDRAW SVGs once, so panels that are re-rendered every frame never show them half-loaded */
+const ART_PRELOAD = ["sd405-iss1-rear.svg"].map(n=>{ const i=new Image(); i.src=ASSET+n; return i; });
 const dbu2v = d => 0.7746*Math.pow(10,d/20);           // dBu -> V rms
 const v2dbu = v => v>1e-9 ? 20*Math.log10(v/0.7746) : -200;
 const sgn = x => (x>=0?'+':'') ;
@@ -318,7 +320,11 @@ const A={
   reset(){ Object.assign(D, JSON.parse(JSON.stringify(FACT))); SIM.refresh(); },
 };
 /* ---------------- the card and its TB102 termination (drawn; proportions from the manual: 1 in × 2.75 in front, 10.06 in deep) ---------------- */
-function cardSVG(){ const t=SIM.t, L=leds(t), W=860, H=300;
+/* Rear: the rear termination module and TB102 termination block are the real CorelDRAW art from
+   SD405_FUNCTION_CURVES.cdr (Jun 2003), region x 385–715, y 215–552 pt → assets/sd405-iss1-rear.svg (330 × 337, 1 unit = 1 pt),
+   placed at (700,10) scaled by RK; hot spots sit on its BNC and Phoenix positions (pt coordinates from the converted SVG). */
+const RK=270/337, RX=x=>700+(x-385)*RK, RY=y=>10+(y-215)*RK;
+function cardSVG(){ const t=SIM.t, L=leds(t), W=975, H=300;
   let s=`<svg viewBox="0 0 ${W} ${H}" style="width:100%;max-width:900px"><defs><filter id="glowfront" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
    <rect x="10" y="20" width="70" height="200" rx="4" fill="#26282b" stroke="#555"/><text x="45" y="40" text-anchor="middle" font-size="10" fill="#eee">SD405</text>`;
   ['CD','AUDIO 1','AUDIO 2','ERROR'].forEach((n,i)=>{ const col=['#3fdc6a','#ffd34a','#ffd34a','#ff3b30'][i]; s+=led(30,70+i*36,L[i],col,7)+`<text x="44" y="${74+i*36}" font-size="9" fill="#ddd">${n}</text>`; });
@@ -331,10 +337,13 @@ function cardSVG(){ const t=SIM.t, L=leds(t), W=860, H=300;
   s+=`<g><title>SW1 SETUP dip switch (8 positions) — click a switch</title>${D.sw.map((on,k)=>`<g class="sw" data-k="${k}" style="cursor:pointer"><title>SW${k+1} ${['group LSB','group MSB','AES/analog 1','mux 1 enable','AES/analog 2','mux 2 enable','standard PAL','cascade'][k]}: ${on?'1 (ON)':'0 (OFF)'}</title><rect x="${120+k*16}" y="${112}" width="13" height="30" fill="#e8ecef"/><rect x="${121+k*16}" y="${on?114:126}" width="11" height="14" fill="#222"/></g>`).join('')}</g><text x="120" y="108" font-size="9" fill="#cfe">SW1 1…8</text>`;
   // rear: 96-pin connector P1 and the TB102 termination
   s+=`<rect x="664" y="30" width="14" height="180" fill="#bbb"/><text x="671" y="225" text-anchor="middle" font-size="9" fill="var(--ink2)">P1 96-pin</text>`;
-  s+=`<rect x="700" y="10" width="150" height="270" rx="6" fill="#151617" stroke="#444"/><text x="775" y="28" text-anchor="middle" font-size="11" fill="#eee">TB102 (rear)</text>`;
-  s+=`<g class="si" style="cursor:pointer"><title>SDI IN — click to ${D.sdi?'remove':'connect'}</title>${bnc(740,60,D.sdi,'','',16)}<text x="764" y="64" font-size="10" fill="#eee">SDI IN</text></g>`;
-  [0,1,2,3].forEach(i=>{ s+=bnc(740+(i%2)*60,100+Math.floor(i/2)*36,true,'','',13)+`<text x="${756+(i%2)*60}" y="${104+Math.floor(i/2)*36}" font-size="9" fill="#eee">OUT${i+1}</text>`; });
-  [0,1].forEach(k=>{ s+=`<g class="ai" data-k="${k}" style="cursor:pointer"><title>AUDIO ${k+1}: ${isAes(k)?'AES input':'analog L/R (TB1–TB4)'} — click to ${D.aes[k]?'remove':'connect'} the AES source</title><rect x="716" y="${176+k*48}" width="118" height="38" rx="3" fill="#26a356" stroke="#0e5d2b"/><text x="775" y="${199+k*48}" text-anchor="middle" font-size="10" fill="#fff">AUDIO ${k+1} ${isAes(k)?(D.aes[k]?'AES ●':'AES ○'):'ANALOG'}</text></g>`; });
+  s+=`<rect x="694" y="4" width="276" height="292" rx="6" fill="#f4f4f0" stroke="#444"/><image href="${ASSET}sd405-iss1-rear.svg" x="700" y="10" width="${330*RK}" height="270"/>`;
+  const ring=(x,y,r,col,w)=>`<circle cx="${RX(x)}" cy="${RY(y)}" r="${r*RK}" fill="none" stroke="${col}" stroke-width="${w||2.5}"/>`;
+  s+=`<g class="si" style="cursor:pointer"><title>SDI INPUT BNC (rear module, IN 1) — click to ${D.sdi?'remove':'connect'} the SDI source</title><circle cx="${RX(616.4)}" cy="${RY(237.05)}" r="${10*RK}" fill="${D.sdi?'rgba(43,95,158,.75)':'transparent'}"/>${D.sdi?ring(616.4,237.05,11,'#2b5f9e',3):''}</g>`;
+  [[616.4,260.45],[616.7,283.75],[616.3,307.1],[615.9,330.45]].forEach(([x,y],i)=>{ s+=`<g><title>SDI OUTPUT ${i+1}${videoOK()?' — carrying the embedded stream':' — no valid video'}</title>${ring(x,y,11,videoOK()?'#2fbf5a':'#999',videoOK()?2.5:1)}</g>`; });
+  [[588.4,272.1],[588.55,318.75]].forEach(([x,y],k)=>{ s+=`<g class="ai" data-k="${k}" style="cursor:pointer"><title>AES INPUT ${k+1} BNC — AUDIO ${k+1} is ${isAes(k)?'set to AES':'set to analog (SW1)'}; click to ${D.aes[k]?'remove':'connect'} the AES source</title><circle cx="${RX(x)}" cy="${RY(y)}" r="${10*RK}" fill="${D.aes[k]?'rgba(43,95,158,.75)':'transparent'}"/>${isAes(k)?ring(x,y,11.5,'#e0a020',2.5):''}</g>`; });
+  [[0,410.4,445.4],[1,447.0,481.9]].forEach(([k,y0,y1])=>{ const on=!isAes(k); s+=`<g><title>TB102 ANALOG INPUT ${k+1}A / ${k+1}B (Phoenix, + − G) — ${on?'in use: AUDIO '+(k+1)+' is analog':'idle: AUDIO '+(k+1)+' is AES'}</title><rect x="${RX(502)}" y="${RY(y0)-1}" width="${21*RK}" height="${(y1-y0)*RK+2}" fill="${on?'rgba(38,163,86,.35)':'transparent'}" stroke="${on?'#26a356':'none'}" stroke-width="2"/></g>`; });
+  s+=`<text x="${RX(550)}" y="296" text-anchor="middle" font-size="8" fill="#555">art: SD405_FUNCTION_CURVES.cdr</text>`;
   return s+'</svg>'; }
 function bindCard(r){ r.querySelectorAll('.sw').forEach(g=>g.onclick=()=>A.dip(+g.dataset.k)); r.querySelectorAll('.si').forEach(g=>g.onclick=()=>A.sdi()); r.querySelectorAll('.ai').forEach(g=>g.onclick=()=>A.aes(+g.dataset.k)); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-top:6px"><label>Incoming SDI <select id="sd">${Object.keys(STD).map(k=>`<option value="${k}" ${k===D.std?'selected':''}>${STD[k].name}</option>`).join('')}</select></label>
@@ -357,7 +366,7 @@ function lanes(){ const s=S(), a=SIM.css('--accent'), b=SIM.css('--accent2');
   ]; }
 /* ---------------- views ---------------- */
 function viewSim(m){ window.__sd405Active=true;
-  m.innerHTML=`${card('The card (front-edge tallies, SW1 set-up, TB102 rear) — click the switches, SDI IN and the AUDIO blocks',`<div id="cd"></div>${controlsHTML()}`)}
+  m.innerHTML=`${card('The card (front-edge tallies, SW1 set-up, rear module + TB102) — click the switches, SDI INPUT and the AES INPUT BNCs',`<div id="cd"></div><div class="small muted" style="margin-top:3px">Rear module and TB102: CorelDRAW art from ${SIM.src('#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Functionals/SD405_FUNCTION_CURVES.cdr','SD405_FUNCTION_CURVES.cdr')} (Jun 2003).</div>${controlsHTML()}`)}
    <div class="grid2">${card('Firmware path of the last action (sd405v0.asm, June 2 2003)',`<div id="trace" class="log"></div>`)}${card('Output stream',`<div id="os"></div>`)}</div>
    ${card('Timeline — one second, zoomable (1 line shows the audio samples per line)',`<canvas id="tl"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}`;
   bindControls(m);
@@ -418,6 +427,7 @@ function viewSoft(m){ window.__sd405Active=true; let hot=null;
   SIM.on('time',draw); }
 function viewNotes(m){ window.__sd405Active=false;
   m.innerHTML=card('What the SD405 issue 1 files show — findings',`<ol>
+   <li><b>Artwork 2026|59: rear module and TB102 now from ${SIM.src('#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Functionals/SD405_FUNCTION_CURVES.cdr','SD405_FUNCTION_CURVES.cdr')} (9 Jun 2003).</b> The SD405 has no silk or panel art of its own (it is a card behind the MF100 door); the functional diagram's rear-module and termination-block drawings are the only to-scale artwork, so they are used as is. They show what the manual implies but the old drawing did not: the AES inputs are <b>BNCs</b> on the rear module (positions 3 and 7, “AES INPUT 1/2”, with 1 and 5 “NOT USED”), SDI IN is position IN 1 and SDI OUTPUT 1–4 are 2/4/6/8, and the analog inputs 1A/1B/2A/2B are four 3-pin Phoenix blocks on TB102 with a fifth “NOT USED”. The same diagram (and ${SIM.src('#SERIALBOX #SERIES/SERIALBOXX-Functionals/SD405.cdr','SERIALBOXX-Functionals/SD405.cdr')}) draws a single MUX fed by two A-to-D / AES selectors, i.e. one group, matching the manual rather than the schematic's “2 GROUP”.</li>
    <li><b>It is a muxer, not a de-embedder.</b> Both READMEs call the SD405 an “SDI de-embedder”, but the schematic title is “2 GROUP AUDIO MUX”, the netlist has two CS5394 A/D converters and CS8420s feeding the GS9023’s AES inputs, the firmware header reads “SD405 Analog and Digital 2 Group Muxer”, and the manual calls the SD405A an “AUDIO MUXER … designed to embed one group”.</li>
    <li><b>“2 group” vs “one group”.</b> The schematic title and code say 2 group; the manual says one group (two stereo channels), selectable 1–4.</li>
    <li><b>Issue 1 vs the next day.</b> This folder’s <span class="mono">Sd405ISS1.net</span> (26 May 2003) predates the Serialbox copy (27 May): many capacitor and resistor values are still “{Value}”; the input trims are RV1–RV4 (later LEFT1/2, RIGHT1/2); R4 is 110R (later 75R) and R37 is 75R (later 150R); F2 and the R98/R99 2R2 ½ W resistors are not yet added.</li>
@@ -427,7 +437,7 @@ function viewNotes(m){ window.__sd405Active=false;
    <li><b>Calibration is visible.</b> All four tallies on = A/D calibration after (re)gaining video: <span class="mono">check_calibration</span> pulses the CAL pin (porte,0) around six <span class="mono">idelay</span> calls.</li>
    <li><b>Cascade does not check.</b> The manual warns: “The SD405 does not check which group has existing audio” — embedding into an occupied group with cascade ON overwrites it.</li>
    <li><b>Device change.</b> <span class="mono">sd405v0.asm</span> includes P16F874.INC with “P16f747.INC ;---formerly” commented out; the README lists v106 as a “Gennum lock-pin change”.</li></ol>`)
-  +card('Assumptions in this simulation',`<ul class="small"><li>Card and TB102 layout drawn from the manual’s dimensions and the parts list, not from the PCB (${inf}).</li><li>Calibration lasts about ${SIM.fmtDur(CAL_T)} (${inf}: idelay length).</li><li>SW numbering follows the manual.</li><li>Packet timing per SMPTE 272M (${inf}).</li></ul>`)
+  +card('Assumptions in this simulation',`<ul class="small"><li>Card top view drawn from the manual’s dimensions and the parts list, not from the PCB (${inf}). Rear module and TB102 are the functional-diagram art (SD405_FUNCTION_CURVES.cdr).</li><li>Calibration lasts about ${SIM.fmtDur(CAL_T)} (${inf}: idelay length).</li><li>SW numbering follows the manual.</li><li>Packet timing per SMPTE 272M (${inf}).</li></ul>`)
   +card('Sources',`<ul class="small mono"><li>Sd405 - ISS1/Sd405ISS1.net · Sd405ISS1.ECO · Sd405ISS1.sch (+ .md)</li><li>#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Sd405ISS1.net · SD405MAN.wpd (+ .md) · Software/v100/sd405v0.asm · ad.asm</li></ul>`); }
 SIM.register({
   id:'sd405-iss1', name:'Sd405 - ISS1 · SD405 SDI audio muxer card, issue 1 schematic (2003|36)', duration:1, product:'Sd405 - ISS1', year:2003, family:'Obsolete products', folder:'#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Sd405 - ISS1',

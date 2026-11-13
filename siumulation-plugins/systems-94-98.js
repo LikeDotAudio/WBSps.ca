@@ -19,13 +19,16 @@
    - ctv422tx_2/C/CTVrs422tx.c (ICC-AVR ATmega128 port, 8 Feb 2006, 4.9152 MHz)
    - CTV RS422/arx422iss1.net, arx422iss1.bom (P-CAD, ARX422-ISS1, 16 Mar 2006)
    - CTV RS422/ctv-relay pinouts (553580).doc  (DB25M relays, DB25F inputs, DB9 pin-outs)
-   - CTV RS422/ARX422-silk.cdr (CorelDRAW → Inkscape → assets/systems-94-98-arx422-*.png)
+   - CTV RS422/ARX422-silk.cdr (CorelDRAW → Inkscape plain SVG → assets/systems-94-98-arx422-front.svg / -rear.svg,
+     vector in the file's pt units; Artwork 2026|59, replaces the old PNGs; live text re-anchored in the plugin)
    - SYSTEM94…SYSTEM98/*.DWG.md, *.PCB.md, 444.TXT, 447.TXT, 448.TXT, TTC/TTC.CDR, 980233/98233M0A.CDR
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: preload the CorelDRAW SVGs once, so panels that are re-rendered every frame never show them half-loaded */
+const ART_PRELOAD = ["systems-94-98-arx422-front.svg", "systems-94-98-arx422-rear.svg"].map(n=>{ const i=new Image(); i.src=ASSET+n; return i; });
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const card = (t,b,cls)=>`<div class="card ${cls||''}"><h2>${t}</h2>${b}</div>`;
 const hex = v=>'0x'+((v&255).toString(16).toUpperCase().padStart(2,'0'));
@@ -317,7 +320,7 @@ function frontSVG(u,t){
   else { const o=rxLed(t); for(let k=1;k<=6;k++) leds[k]=pw && !((o>>(k+1))&1); }
   let s=`<svg viewBox="0 0 ${FW} ${FH}" style="width:100%;display:block;border-radius:4px">
    <rect width="${FW}" height="${FH}" fill="#151617"/>
-   <image href="${ASSET}systems-94-98-arx422-front.png" x="0" y="0" width="${FW}" height="${FH}"/>
+   <image href="${ASSET}systems-94-98-arx422-front.svg" x="0" y="0" width="${FW}" height="${FH}"/>
    <g data-act="pwr-${u}" style="cursor:pointer"><rect x="46.6" y="19.5" width="36.4" height="55.4" rx="2" fill="#0d0d0d" stroke="#666" stroke-width=".6"/>
      <rect x="52" y="${pw?24:46}" width="25.6" height="24" rx="2" fill="${pw?'#5c5f63':'#2c2e30'}" stroke="#888" stroke-width=".4"/>
      <text x="64.8" y="70" text-anchor="middle" font-size="6" fill="#bbb">${pw?'I':'O'}</text><title>Power switch PWRSW (cut-out in ARX422-silk.cdr; switch type ${'inferred'}). Click to switch ${u.toUpperCase()} ${pw?'off':'on'}.</title></g>
@@ -346,7 +349,7 @@ function dsub(x0,x1,y0,y1,n,label,act,hi){
 function rearSVG(u){
   const tx=u==='tx';
   let s=`<svg viewBox="0 0 ${FW} ${FH}" style="width:100%;display:block;border-radius:4px"><rect width="${FW}" height="${FH}" fill="#151617"/>
-   <image href="${ASSET}systems-94-98-arx422-rear.png" x="0" y="0" width="${FW}" height="${FH}"/>`;
+   <image href="${ASSET}systems-94-98-arx422-rear.svg" x="0" y="0" width="${FW}" height="${FH}"/>`;
   [[54,476],[187.2,476],[54,521],[187.2,521],[232.4,476],[365.6,476],[246.1-12.9,521],[303.2,521],[348.3,521],[419.1,521]].forEach(([x,y])=>{ s+=`<rect x="${x}" y="${y-451+25-25}" width="9" height="9" fill="#0a0a0a" stroke="#555" stroke-width=".4"/>`; });
   s+=dsub(67.5,182.7,14.3,44.9,25, tx?'P1 DB25F — transmitter inputs 1–6 on pins 1–6, ground 14–19 (ctv-relay pinouts doc). Click a remote button below to close one.':'P1 DB25 — GPI inputs (ARX422 P6 header, inferred); unused by rxv100', null, tx);
   s+=dsub(67.5,182.7,59.7,90.3,25, tx?'P2 DB25 — relay contacts on the ARX422 (unused on a transmitter)':'P2 DB25M — relay closures: relay k NC = pin 2k−1, NO = pin 2k, common = pin 12+2k (doc and arx422iss1.net agree)', null, !tx);
@@ -528,7 +531,7 @@ function viewSim(m){
     if (D.job==='ctv'){ const R=run(), ph=phaseAt(SIM.t);
       h+=`<div class="grid2"><div>${card('Transmitter (TX) — txv100.asm on a PIC16F874', `<div id="ftx"></div><div style="margin-top:6px" id="rem"></div><details style="margin-top:6px"><summary class="small">Rear panel</summary><div id="rtx"></div></details>`)}</div>
         <div>${card('Receiver (RX) — rxv100.asm on a PIC16F874', `<div id="frx"></div><div style="margin-top:6px" id="rel"></div><details style="margin-top:6px" open><summary class="small">Rear panel (click COM1 to unplug or plug the link)</summary><div id="rrx"></div></details>`)}</div></div>
-        ${card('Scenario controls', `<div id="ctl"></div><p class="small muted" style="margin:6px 0 0">Panels are the real ARX422 silkscreen (ARX422-silk.cdr, half-rack 1 RU, painted extra-fine textured WBS black). The 2004|37 PIC firmware is shown driving them; that pairing is ${inf}. The ARX422's own AVR v200 firmware is not in the archive.</p>`)}
+        ${card('Scenario controls', `<div id="ctl"></div><p class="small muted" style="margin:6px 0 0">Panels are the real ARX422 silkscreen (vector from ${SIM.src('#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr','CTV RS422/ARX422-silk.cdr')} (Aug 2006), half-rack 1 RU; drill rings, cut-outs and the WBS mark from the file, legends re-anchored because libcdr loses text alignment; painted extra-fine textured WBS black). The 2004|37 PIC firmware is shown driving them; that pairing is ${inf}. The ARX422's own AVR v200 firmware is not in the archive.</p>`)}
         ${card(`Timeline — ${ph.label} <span class="small muted">(click to seek; use the zoom menu for bytes and bits)</span>`, `<canvas id="tl"></canvas>`)}
         <div class="grid2">${card('What the software did (last action)', `<div id="trace" class="log"></div>`)}${card('At the playhead', `<div id="now"></div>`)}</div>`; }
     m.innerHTML=h;
@@ -830,6 +833,7 @@ function viewNotes(m){
    <li><b>Copy-paste and leftovers.</b> rxv100.asm's header reads "CTV Synchronous RS422 transmiter". rxv100.err is the MPASM warning 205 for ERRORLEVEL in column 1. <span class="mono">ERRORLEVEL -302</span> hides every bank warning. The RX init ends with <span class="mono">goto rxerror1</span> (a tail call that flushes the USART), so its <span class="mono">return</span> is dead. TX and RX both share RA2 as the clock for the input register and the LED latch. The MRU list in ctv422tx.pjt points at <span class="mono">pod21v100.asm</span> and the R2K <span class="mono">r201v201.asm</span>, the code this was started from ${inf}.</li>
    <li><b>Missing and misfiled files.</b> The README describes <span class="mono">stx422</span>, <span class="mono">arx422</span> and <span class="mono">pod30</span> variants. Their Software folders (<span class="mono">atmel/v100</span>, <span class="mono">v200/may 16</span>, <span class="mono">aug 1</span>, <span class="mono">interrupts May 16</span>, <span class="mono">no interrupts</span>, <span class="mono">july 31</span>, <span class="mono">VB Software/CTV Automation</span>, <span class="mono">altera/ams81-12/…/talkback</span>) are all empty, and so are <span class="mono">ctv422txtest</span>, <span class="mono">pod30</span> and <span class="mono">Pod30</span>. <span class="mono">CTV RS422/Untitled.bom</span> is an AMS8E-6 BOM (AK5381 ADCs). <span class="mono">ctv422rx</span> also holds a <span class="mono">ctv422tx.mcp/.mcw</span>.</li>
    <li><b>Duplicates.</b> txv100.asm exists three times (identical MD5), rxv100.asm twice, and the ARX422 board files twice. The <span class="mono">ctv422rx/arx422</span> silk CDR is an older design ("ARX 422 by Ward-Beck Systems" banner, no labels). The pin-out doc is identical to the copy in <span class="mono">#CUSTOM 55XXXX Systems/553580</span>.</li>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#CUSTOM #SYSTEMS/#Custom Systems 94-98/CTV RS422/ARX422-silk.cdr','CTV RS422/ARX422-silk.cdr')} (16 Aug 2006).</b> Vector, white ink on WBS black; the rear outlines of P1–P3, COM1/COM2 and the AC inlet are drawn faint as cut geometry. The older ${SIM.src('#CUSTOM #SYSTEMS/#Custom Systems 94-98/ctv422rx/arx422/ARX422-silk.cdr','ctv422rx/arx422/ARX422-silk.cdr')} (13 Apr 2006) is a different face: a broken black bar, “by Ward-Beck Systems”, “ARX 422”, 2 + 18 unlabelled rings and only COM1/COM2 on the rear; the August file adds CONTROL INTERFACE, the WBS mark, COM 1 2, INPUTS/OUTPUTS 1–18 and P1/P2/P3.</li>
    <li><b>Panel artwork slips.</b> In ARX422-silk.cdr, LED 18 is drawn as a drill crosshair rather than a ring. The rear warning reads "POWERBEFORE" (no space) in both versions. libcdr dropped the text centring, so the labels here are re-anchored under the drill rings.</li>
    <li><b>Out of date range.</b> The folder is "Custom Systems 94-98", but its only code is the 2004|37–2006|39 CTV job. The 1990s jobs are drawings only.</li>
   </ol>`)

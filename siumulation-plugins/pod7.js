@@ -452,6 +452,12 @@ const A = {
    AUDIO I/O DB9 at 1.735, 1.188; OPTO INPUTS DB25 (.465 × 1.580) at 1.735, .563; RELAY OUTPUTS DB25 (.465 × 1.640) at 4.035, .563;
    O.C. OUTPUTS DB9 (.768 × .465) at 5.885, .563; fuse (single D .500) at 6.870; cord bushing (double D .512) at 7.670; PEM stud 7.270, 1.400. */
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: the panels now come straight from the CorelDRAW sheet POD7-FRONT&REAR-SILK ( CURVE).cdr (Jun.19/14, text as curves). Inkscape → plain SVG;
+   the FRONT GREEN, FRONT WHITE and REAR WHITE plates were cut at their outline (x 104.32 pt; y 75.03 / 250.99 / 430.97 pt; 617.04 × 115.63 pt = 8.570 × 1.606 in),
+   the two front plates registered on one face and inked POD green rgb(52,168,83) / white rgb(240,240,236). Cut-outs, screw holes and
+   drill centre marks are kept as faint geometry, not ink. 1 pt = 200/72 px, the same grid the PDF cut used, so the controls stay on their holes. */
+const ART_SRC = '#POD #SERIES/POD7 - #Master/POD7 - #ARTWORK #DA #2016/POD7-FRONT&REAR-SILK ( CURVE).cdr';
+const ART_CAP = `<div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src(ART_SRC, 'POD7-FRONT&REAR-SILK ( CURVE).cdr')} (CorelDRAW, Jun.19/14 · ${SIM.year(2014)}), green and white plates registered on one panel.</div>`;
 const PX = x => x*200, PY = y => (1.606 - y)*200;
 const PANEL = '#141517', GLOW = 'p7glow';
 function frontSVG(t, opts){
@@ -461,8 +467,7 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1713 321" role="img" aria-label="POD7 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="${GLOW}" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1713" height="321" rx="8" fill="${PANEL}"/>
-    <image href="${ASSET}pod7-front-green.png" width="1713" height="321"/>
-    <image href="${ASSET}pod7-front-white.png" width="1713" height="321"/>
+    <image href="${ASSET}pod7-front.svg" width="1713" height="321" preserveAspectRatio="none" style="pointer-events:none"/>
     <g class="p7pwr" style="cursor:pointer"><title>Power rocker PWRSW (click, or P)</title>
       <rect x="${PX(.900-.2525)}" y="${PY(.950+.385)}" width="${PX(.505)}" height="${PX(.770)}" rx="6" fill="#0b0c0d" stroke="#2d3033" stroke-width="2"/>
       <rect x="${PX(.900-.2525)+10}" y="${on?PY(.950+.385)+10:PY(.950)+4}" width="${PX(.505)-20}" height="${PX(.385)-14}" rx="6" fill="#1b1d20" stroke="#3a3e42"/>
@@ -525,8 +530,8 @@ function rearSVG(t){
     <g class="p7pwr" style="cursor:pointer"><title>Line cord through a strain-relief bushing (double-D .512 × .450) — click to switch the power</title><circle cx="${PX(8.570-.900)}" cy="${PY(.563)}" r="48" fill="#070808" stroke="#2e3134" stroke-width="3"/><rect x="${PX(8.570-.900)-12}" y="${PY(.563)-32}" width="24" height="64" rx="10" fill="#202224"/></g>
     <circle cx="${PX(8.570-1.300)}" cy="${PY(1.400)}" r="9" fill="#8f9295" stroke="#55585b" stroke-width="2"><title>PEM stud FH-440 (ground)</title></circle>
     ${[[.251,.803],[8.319,.803]].map(([x,y])=>`<circle cx="${PX(x)}" cy="${PY(y)}" r="11" fill="#8f9295" stroke="#55585b" stroke-width="2"/>`).join('')}
-    <image href="${ASSET}pod7-rear-white.png" width="1713" height="321" style="pointer-events:none"/>
-  </svg>`;
+    <image href="${ASSET}pod7-rear.svg" width="1713" height="321" preserveAspectRatio="none" style="pointer-events:none"/>
+  </svg>`+ART_CAP;
 }
 function bindPanel(root){
   root.querySelectorAll('.p7pwr').forEach(g=>g.addEventListener('click', ()=>A.power()));
@@ -1005,6 +1010,7 @@ function viewNotes(m){
   const hold103 = (255+15*256)*F.v103.cyc*TCY, hold024 = (255+31*256)*F.c024.cyc*TCY;
   m.innerHTML = card('What POD7 and its firmware are up to — findings from the source', `
   <ol>
+    <li><b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART_SRC,'POD7-FRONT&REAR-SILK ( CURVE).cdr')} (Jun.19/14).</b> The rear plate draws the AUDIO I/O DB9, both DB25s, the O.C. DB9 (each with its two jack-screw holes), the fuse and the cord-bushing holes; the D-sub, fuse and bushing overlays sit on them. The art prints “AUDIO I\\O” with a backslash, and the centre title “POD 7 UNIVERSAL INTERFACE” on the rear is set in a condensed face unlike every other legend. A small circle sits over the slash of “1/2 A.S.B.”: the PEM ground stud. The front has only the rocker, the POWER LED and the AUDIO LEVEL hole. The original ${SIM.src('#POD #SERIES/POD7 - #Master/POD7 - #Engineering/POD7 - #SILK/POD7SILK.CDR','POD7SILK.CDR')} (2 Nov 1998|31) is the first issue.</li>
     <li><b>OC9 does not flash at 2 Hz.</b> The manual says OC9 “toggles at 2 Hz”. PROCESS flips TOGGLE_FLAG every 255 (TOGGLE_COUNT) × 8 (TOGGLE_COUNT2) = 2040 main-loop passes, so the rate depends on how long a pass is. Running each build at 4.9152 MHz: v1.02 ${F.v102.cyc.toFixed(1)} cycles/pass → <b>${hz('v102')}</b>; v1.03 ${F.v103.cyc.toFixed(1)} → ${hz('v103')}; 040 V101 → ${hz('c040')}; 047 → ${hz('c047')}; 024 ${F.c024.cyc.toFixed(1)} → ${hz('c024')}. Every routine added to the loop slowed the flasher. v1.00 has no flasher at all (OC9 is steady).</li>
     <li><b><span class="mono">HOLD EQU 10</span> means sixteen.</b> MPASM’s default radix is hex and no <span class="mono">LIST R=DEC</span> is given; the 047 listing inside <span class="mono">pod7-047.rar</span> confirms <span class="mono">HOLD = 00000010</span>. So the v1.03 hold is 255 + 15 × 256 = 4095 passes ≈ ${hold103.toFixed(2)} s, and 024’s <span class="mono">HOLD EQU 20</span> (= 32) is 8191 passes ≈ ${hold024.toFixed(2)} s — which matches its “2 sec delay” comment, so it was probably tuned on the bench ${inf}.</li>
     <li><b>The “delayed release” is not a fixed delay.</b> In <span class="mono">HOLD_RELAY</span> (v1.03, 040 V100, 047) TEMP7/TEMP3 etc. count down on every pass while the relay is held and are never reloaded when the input is pressed again. After release the relay stays on for whatever is left of the current count: anywhere from 0 to ≈${hold103.toFixed(2)} s. Use the “v1.03” scenario and tap IN1 at different moments.</li>

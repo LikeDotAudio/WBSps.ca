@@ -19,7 +19,8 @@
      JUMPER_SETTINGS_SD403.cdr (converted with Inkscape)
    - SERIALBOXX - #mf100/MF100man.wpd, MF100.pdf (Jan 2003), m8245aspecs.wpd, MF100TERM.cdr; Serialboxx.wpd (NAB 2001)
    - MF100 Front.jpg, MF100 Rear w REF.jpg, Serialboxx3.jpg, serialboxxfront.cdr (photos, panel layout)
-   - SERIALBOXX - #mf100_4/SILK/frontSScurve.cdr → assets/serialbox-front-wbs.png, -wordmark.png, -byline.png
+   - SERIALBOXX - #mf100_4/SILK/frontSScurve.cdr → Inkscape plain SVG → assets/serialbox-front-wbs.svg, -wordmark.svg,
+     -byline.svg (vector, Artwork 2026|59; replace the old PNG cuts), placed where MF100 Front.jpg shows them
    - Every other card's manual (.wpd sidecars) for the card selector.
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -27,6 +28,8 @@
 'use strict';
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: preload the CorelDRAW SVGs once, so panels that are re-rendered every frame never show them half-loaded */
+const ART_PRELOAD = ["serialbox-front-wbs.svg", "serialbox-front-wordmark.svg", "serialbox-front-byline.svg"].map(n=>{ const i=new Image(); i.src=ASSET+n; return i; });
 const inf = '<span class="tag-inf" title="Not stated in the archive; inferred">inferred</span>';
 const infW = w => `<span class="tag-inf" title="Inferred: ${String(w).replace(/"/g,'&quot;')}">inferred</span>`;
 const card = (t,b,cls,id)=>`<div class="card ${cls||''}"${id?` id="${id}"`:''}><h2>${t}</h2>${b}</div>`;
@@ -432,9 +435,9 @@ function frontSVG(t){
       <rect x="112" y="44" width="1676" height="6" fill="#33363a"/><rect x="112" y="252" width="1676" height="4" fill="#2c2f32"/>`;
     for (let k=0;k<13;k++){ const x = 173 + k*133; s += `<rect x="${x-5}" y="118" width="10" height="94" rx="5" fill="#050506"/>`;
       if (k<10 && pw){ const tl = cardTallies(k,t).filter(z=>z[1]); if (tl.length) s += `<rect x="${x-2}" y="${128+((k*7)%30)}" width="4" height="8" fill="${LEDC[tl[0][0]]||'#5dff6a'}" opacity=".8" filter="url(#sbGlow)"/>`; } }
-    s += `<image href="${ASSET}serialbox-front-wbs.png" x="230" y="262" width="184" height="54"/>
-      <image href="${ASSET}serialbox-front-wordmark.png" x="1394" y="262" width="306" height="31.5"/>
-      <image href="${ASSET}serialbox-front-byline.png" x="1555" y="300" width="145" height="13.3"/>
+    s += `<image href="${ASSET}serialbox-front-wbs.svg" x="230" y="262" width="184" height="54"/>
+      <image href="${ASSET}serialbox-front-wordmark.svg" x="1394" y="262" width="306" height="31.5"/>
+      <image href="${ASSET}serialbox-front-byline.svg" x="1555" y="300" width="145" height="13.3"/>
       <rect x="112" y="0" width="1676" height="${PH}" fill="transparent"><title>Click to open the hinged front panel</title></rect></g>`;
   } else {
     s += ears + `<rect x="112" y="0" width="1676" height="${PH}" fill="#0b0c0d"/><rect x="112" y="300" width="1676" height="50" fill="#1b1d1f"/>
@@ -677,7 +680,7 @@ function lanes(){
 function viewSim(m){
   window.__serialboxActive = true;
   m.innerHTML = `
-  ${card('MF100 front — what the operator sees (click the panel to open it; click a card edge to select it)', `<div id="fp"></div>`)}
+  ${card('MF100 front — what the operator sees (click the panel to open it; click a card edge to select it)', `<div id="fp"></div><div class="small muted" style="margin-top:3px">Front legends: CorelDRAW vector from ${SIM.src('#SERIALBOX #SERIES/SERIALBOXX - #mf100_4/SILK/frontSScurve.cdr','frontSScurve.cdr')} (6 Feb 2003), green ink as in MF100 Front.jpg; positions and size from the photo, door, slots and ears drawn.</div>`)}
   <div class="grid2">
     <div>${card('Card in focus', `<div id="pick"></div><div id="focusBody" style="margin-top:8px"></div>`)}
       ${card('MF100 rear — click a slot to select it, the IN BNC to plug it, PS1/PS2 inlets for mains, REFERENCE to cycle', `<div id="rp"></div><p class="small muted">Drawn to the manual's 19 × 3.5 in from <span class="mono">MF100 Rear w REF.jpg</span>: IN 10 … IN 1 left to right, 1 + 8 BNC per card, Berg headers top and bottom for TB101/TB102/TB103. Termination outlines from <span class="mono">MF100TERM.cdr</span>.</p>`)}</div>
@@ -987,6 +990,7 @@ function viewSoft(m){
 function viewFindings(m){
   window.__serialboxActive = false;
   m.innerHTML = card('What the SD403 and the Serialboxx folder are up to', `<ol>
+    <li><b>Artwork 2026|59: front legends now from ${SIM.src('#SERIALBOX #SERIES/SERIALBOXX - #mf100_4/SILK/frontSScurve.cdr','frontSScurve.cdr')} (6 Feb 2003).</b> The only front-panel CorelDRAW for the frame is a curves sheet of loose parts: the WBS mark, the “Serialboxx” wordmark, a “By Ward-Beck Systems” byline on the same baseline, three .07 × .8 in slots and four small hole marks; it has no panel outline, so each part is cut out as vector and placed by the photo. The photographed MF100 differs: its byline is shorter (“By Ward-Beck”) and sits under the wordmark, and the photo shows 13 slots, not three. ${SIM.src('#SERIALBOX #SERIES/serialboxxfront.cdr','serialboxxfront.cdr')} (2001) is only a photo of the open frame in a CorelDRAW wrapper, not artwork.</li>
     <li><b>The FPGA is watched by the MCU, and reloaded on suspicion.</b> Every pass the FPGA must echo <span class="mono">0xA_</span> in <span class="mono">ALTERA6</span>. After 255 bad passes <span class="mono">PROCESS_ALIGNMENT_CHECK</span> calls <span class="mono">CONFIGURE_ALTERA()</span>: PA0 → R69 → Q1 pulls <span class="mono">N_CONFIG</span> low (netlist) and the Cyclone reloads from its EPCS. No tally reports it — CD stays green through a reload.</li>
     <li><b>Two FPGA reloads at every power-up.</b> <span class="mono">main()</span> calls <span class="mono">CONFIGURE_ALTERA()</span>, and on the first loop pass <span class="mono">switch2</span> is still 0 while the FPGA is still loading, so <span class="mono">PROCESS_ALIGNMENT_CHECK</span> reloads it again straight away.</li>
     <li><b>Both demuxers start in reset.</b> <span class="mono">previous_group_sel1/2 = 0xFF</span>, so the first <span class="mono">PROCESS_GROUP_COMPARE</span> sees a "change" and <span class="mono">TRANSLATE_RESET_VECTOR</span> holds bit 4 low for 255 passes. AUDIO tallies come on ≈0.2 s after CD.</li>

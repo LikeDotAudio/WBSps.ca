@@ -12,8 +12,9 @@
        getSelectedInput "input = RX1; //DMS1-Add", timer0 reply) and the finished demux4.js / xtm4.js plugins
    - XXX - DMS1 - #Master #OBSOLETE/DMS1 - #TESTREPORT/DMS1-V102-15FEB11, -05APR11, -16AUG11, -28APR14.pdf
    - DMS1 - #Mechanical #DA #2016/DMS-1 FRONT ISS 4 (PANEL) .pdf, DMS-1 REAR ISS 4 (PANEL).pdf (hole positions)
-   - …/Silks/DMS-1-FRONT-SILK (CURVE).cdr (Inkscape) → assets/dms1-front-green.png, dms1-front-white.png;
-     …/Silks/DMS-1-REAR-SILK (CURVE).pdf (tools/silk_extract.py) → assets/dms1-rear-white.png
+   - …/Silks/DMS-1-FRONT-SILK (CURVE).cdr (10 Nov 2015) → Inkscape/libcdr SVG → assets/dms1-front.svg (green + white plates
+     registered, panel holes in grey); …/Silks/DMS-1-REAR-SILK (CURVE).cdr (8 May 2015) → assets/dms1-rear.svg (white plate +
+     holes). Same 200 px/in registration as the earlier PNG cut, so every control stays on its hole (artwork pass 2026|59)
    - …/Silks/DMS1 Front.jpg, DMS1 Rear (Demux 4).jpg; XXX - DMS - …/DMS1-RearDemux3-1.jpg (plate layouts, LED colours)
    - XXX - DMS - …/DMS1-Functional.cdr (functional diagram), DMS1manu-Demux3.cdr (manual cover with both panels)
    Anything not in those files is marked "inferred" on screen.
@@ -24,6 +25,10 @@ const SIM = window.SIM;
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 function card(t,b,cls){ return `<div class="card ${cls||''}"><h2>${t}</h2>${b}</div>`; }
 const ASSET = 'siumulation-plugins/assets/';
+const SILKDIR = '#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE/DMS1 - #Mechanical #DA #2016/Silks/';
+const silkNote = side => `<p class="small muted">${side==='front'
+  ? `Artwork: ${SIM.src(SILKDIR+'DMS-1-FRONT-SILK (CURVE).cdr','DMS-1-FRONT-SILK (CURVE).cdr')} (CorelDRAW, “NOV.10/15”): the GREEN and WHITE plates registered on the black panel; holes and cut-outs from the same sheet in grey.`
+  : `Artwork: ${SIM.src(SILKDIR+'DMS-1-REAR-SILK (CURVE).cdr','DMS-1-REAR-SILK (CURVE).cdr')} (CorelDRAW, “May 08/15”): WHITE plate plus the panel holes in grey. The DEMUX plate labels are drawn from the photos.`}</p>`;
 const dbu2v = d => 0.7746*Math.pow(10,d/20);           // dBu -> V rms
 const v2dbu = v => v>1e-9 ? 20*Math.log10(v/0.7746) : -200;
 const sgn = x => (x>=0?'+':'') ;
@@ -422,10 +427,10 @@ const A = {
 
 /* ---------------- panels ---------------- */
 const BX=[1316,1516,1716,1866,2016,2166,2316,2466];          // DMS-1 FRONT ISS 4: 8 cut-outs .492 × .728 at these x (in) × 200
-function panelSVG(side, inner){ const layers = side==='front'? ['front-green','front-white'] : ['rear-white'];
+function panelSVG(side, inner){ const layers = [side];   // one SVG per side, cut from the CorelDRAW silk (plates registered and inked)
   return `<svg viewBox="0 0 ${PW} ${PH}" style="width:100%;max-width:1100px;display:block;border-radius:6px" role="img" aria-label="DMS-1 ${side} panel">
    <defs><filter id="glowfront" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-   <rect width="${PW}" height="${PH}" rx="8" fill="var(--dev)"/>${inner.under||''}${layers.map(l=>`<image href="${ASSET}${P}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}${inner.over||''}</svg>`; }
+   <rect width="${PW}" height="${PH}" rx="8" fill="var(--dev)"/>${inner.under||''}${layers.map(l=>`<image href="${ASSET}${P}-${l}.svg" width="${PW}" height="${PH}"/>`).join('')}${inner.over||''}</svg>`; }
 function frontSVG(t){ const pb=ledsAt(t), w=world(t); let over='';
   [0,1].forEach(ch=>{ const m=meterAt(ch,t); MLEV.forEach((lv,k)=>{ const on=m>=lv-0.01, col=lv>=6?'#ff3b2f':lv>=0?'#ffd23a':'#9cff4a'; over+=led(339+32*k, ch?185:145, on, col, 11); }); });
   BX.forEach((x,b)=>{ const on=!!(pb&(1<<LED_BIT[b])), dn=!!(btnDown(t)&(1<<b));
@@ -496,7 +501,7 @@ function nowHTML(t){ const r=regAt(t), f=frameAt(t), mon=monAt(t), w=world(t);
    <tr><th>disctl / uart0</th><td class="mono">${r?`${bn(r.disctl).slice(6)} / 0x${hx(r.uart0)}`:'—'}</td></tr><tr><th>Monitoring</th><td>${mon.what} · meter L ${meterAt(0,t).toFixed(1)} dB</td></tr>
    <tr><th>Monitor outputs</th><td class="mono">${mon.L>-150? fdb(mon.L+4+volDb(w.vol))+' dBu' : 'silent'} ${inf}</td></tr>${S().eeLeft?`<tr><th>EEPROM</th><td>eewrite will save the mode ${S().eeLeft.toFixed(1)} s after the end of this second</td></tr>`:''}</table>`; }
 function viewSim(m){ window.__dms1Active=true;
-  m.innerHTML=`${card('Front panel (real silkscreen, DMS-1-FRONT-SILK)',`<div id="fp"></div>`)}${card('Rear panel (DMS-1-REAR-SILK + DEMUX plate from the photos)',`<div id="rp"></div><div id="ctl"></div>`)}
+  m.innerHTML=`${card('Front panel (real silkscreen, DMS-1-FRONT-SILK)',`<div id="fp"></div>${silkNote('front')}`)}${card('Rear panel (DMS-1-REAR-SILK + DEMUX plate from the photos)',`<div id="rp"></div>${silkNote('rear')}<div id="ctl"></div>`)}
    <div class="grid2">${card('What the firmware did (last action)',`<div id="trace" class="log"></div>`)}${card('At the playhead',`<div id="now"></div>`)}</div>
    ${card('Timeline — one second as the front-panel PIC sees it. Zoom to 5 ms to read the UART bits.',`<canvas id="tl"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}`;
   const ctl=m.querySelector('#ctl'); ctl.innerHTML=controlsHTML(); bindControls(ctl);
@@ -583,6 +588,7 @@ function viewSoft(m){ window.__dms1Active=true;
   SIM.on('time',draw); }
 function viewNotes(m){ window.__dms1Active=false;
   m.innerHTML=card('Findings',`<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(SILKDIR+'DMS-1-FRONT-SILK (CURVE).cdr','DMS-1-FRONT-SILK (CURVE).cdr')} (10 Nov 2015) and ${SIM.src(SILKDIR+'DMS-1-REAR-SILK (CURVE).cdr','DMS-1-REAR-SILK (CURVE).cdr')} (8 May 2015).</b> The CorelDRAW sheets also carry the panel geometry, now shown in grey: the 2 × 18 meter holes, eight button windows, VOLUME and HEADSET holes, three small holes under the button row (no part sits behind them in the model ${inf}), and on the rear the IEC cut-out, the D-shaped BNC hole, the DEMUX plate opening and five XLR holes. On the rear the ground-screw hole is drawn through the end of the word “CAUTION”, so the printed panel would lose part of the N. The two sheets were finished six months apart in 2015|48.</li>
    <li><b>The plate's input is not the firmware's input.</b> The DEMUX-4 build for the DMS-1 (<span class="mono">V020300-DMS1/demux4.c getSelectedInput()</span>) replaces the input switch with <span class="mono">input = RX1; //DMS1-Add</span>. RX1 is BNC1, which the DMS-1 adaptor plate (photo <span class="mono">DMS1 Rear (Demux 4).jpg</span>) labels <b>NOT USED</b>; the plate's live-looking input is “SDI 2 (B)” = BNC2. Unless the board sits on the plate in a different order (not documented), the cable must go in the “NOT USED” socket.</li>
    <li><b>SWAP does nothing on the DEMUX-4.</b> The DMS-1 sends the swap bit in tx0 bit 0 to both boards, but the DEMUX-4 swap block is commented out (“XTM4-Add … */”). Only the XTM41 can act on it ${inf}.</li>
    <li><b>The DEMUX-4 never reports missing audio.</b> Its reply is only 0x02 (video unlocked) or 0x00; the “AMS4-Add” block that sets bits 2–5 is commented out, and nothing ever sets bit 0. So with a DEMUX-4 the DMS-1 group LEDs can never flash for “no audio” (<span class="mono">sdidis2</span> is dead code).</li>

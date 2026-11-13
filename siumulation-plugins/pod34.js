@@ -24,19 +24,25 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
+/* Artwork 2026|59: assets/pod34-front.svg, pod34-rear.svg are vector conversions of
+   POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr (FEB.26/15; identical inside the panel outlines to
+   #Engineering/SILK/POD34-FRONT&REAR(FINAL CURVE).cdr): GREEN + WHITE plates on one panel, holes, cut-outs and the
+   drawing's XLR/IEC outlines; the yellow “FUSE” note on the IEC drawing is left out. Controls were moved onto its holes:
+   toggle (545,161), trims (839/1039,223), knobs (1165/1365,161), STEREO button (1265,169), rear XLRs (209/417/961/1169,156),
+   IEC cut-out 1357–1609 × 33–249. */
+const ART_PATH = '#POD #SERIES/POD34 - #Master/POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr';
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
+    <image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
 }
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
-function rocker(on, x, y){ x=x||137; y=y||58;
+function rocker(on, x, y){ x=x||124; y=y||58;   // centred on the 100 × 150 px rocker cut-out at (180, 131) in the .cdr artwork
   return `<g class="pwr" style="cursor:pointer"><title>Power rocker: click to switch ${on?'off':'on'}</title><rect x="${x}" y="${y}" width="112" height="146" rx="10" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/>
     <rect x="${x+16}" y="${on?y+12:y+68}" width="80" height="64" rx="7" fill="#1d2023" stroke="#3a3d40" stroke-width="2"/><text x="${x+56}" y="${on?y+52:y+108}" text-anchor="middle" font-size="22" fill="#55595c">${on?'I':'O'}</text></g>`; }
 function led(x,y,on,col,r){ r=r||10; return `<circle cx="${x}" cy="${y}" r="${r+3.5}" fill="#0a0b0b"/><circle cx="${x}" cy="${y}" r="${r}" fill="${on?col:'var(--led-off)'}" ${on?'filter="url(#glowfront)"':''}/>`; }
@@ -265,7 +271,7 @@ function simView(cfg){ return function(m){
   window[cfg.flag] = true;
   m.innerHTML = `<div class="grid2"><div>
       ${card(cfg.frontTitle||'Front panel at the playhead', `<div id="fp"></div>${cfg.controls()}`)}
-      ${card(cfg.rearTitle||'Rear panel — click the connectors', `<div id="rp"></div>`)}
+      ${card(cfg.rearTitle||'Rear panel — click the connectors', `<div id="rp"></div>${cfg.rearNote||''}`)}
     </div><div>
       ${card('What the circuit did (last action)', `<div id="trace" class="log"></div>`)}
       ${card(cfg.nowTitle||'Outputs now', `<div id="now"></div>`)}
@@ -384,17 +390,18 @@ const A={
 function knob(x,y,frac,cls,title){ const a=(-135+270*frac)*Math.PI/180; return `<g class="${cls}" style="cursor:pointer"><title>${title}</title><circle cx="${x}" cy="${y}" r="46" fill="transparent"/><circle cx="${x}" cy="${y}" r="38" fill="#1b1c1e" stroke="#3a3d40" stroke-width="3"/><circle cx="${x}" cy="${y}" r="29" fill="#2a8a48"/><line x1="${x}" y1="${y}" x2="${x+Math.sin(a)*29}" y2="${y-Math.cos(a)*29}" stroke="#f0f0ec" stroke-width="5" stroke-linecap="round"/></g>`; }
 function toggle(x,y,up,cls,title){ return `<g class="${cls}" style="cursor:pointer"><title>${title}</title><circle cx="${x}" cy="${y}" r="20" fill="#b9bcbf" stroke="#6b6f73" stroke-width="3"/><line x1="${x}" y1="${y}" x2="${up?x-38:x+38}" y2="${y-6}" stroke="#d9dcdf" stroke-width="9" stroke-linecap="round"/></g>`; }
 function frontSVG(t){ const on=D.power&&upAt(t)>0.5;
-  const over=rocker(D.power)+led(388,218,locked(t),'#ff4a3a',11)+toggle(552,158,D.src==='AES','src','AES / ANALOG input select — click')
-    +trim(832,216,D.trim.L,'tr-L','ANALOG IN ADJUST L')+trim(1028,216,D.trim.R,'tr-R','ANALOG IN ADJUST R')
-    +knob(1165,180,D.vol.L,'vl-L','LEFT level (both in STEREO)')+`<g class="lnk" style="cursor:pointer"><title>STEREO link push-button — click</title><rect x="1228" y="140" width="46" height="52" rx="6" fill="${D.stereo?'#050505':'#2a2d31'}" stroke="#555" stroke-width="2"/></g>`+knob(1365,180,D.vol.R,'vl-R','RIGHT level')
+  const over=rocker(D.power)+led(388,218,locked(t),'#ff4a3a',11)+toggle(545,161,D.src==='AES','src','AES / ANALOG input select — click')
+    +trim(839,223,D.trim.L,'tr-L','ANALOG IN ADJUST L')+trim(1039,223,D.trim.R,'tr-R','ANALOG IN ADJUST R')
+    +knob(1165,161,D.vol.L,'vl-L','LEFT level (both in STEREO)')+`<g class="lnk" style="cursor:pointer"><title>STEREO link push-button — click</title><rect x="1242" y="143" width="46" height="52" rx="6" fill="${D.stereo?'#050505':'#2a2d31'}" stroke="#555" stroke-width="2"/></g>`+knob(1365,161,D.vol.R,'vl-R','RIGHT level')
     +`<g class="hs" style="cursor:pointer"><title>HEADSET ¼" jack — click</title><circle cx="1573" cy="110" r="40" fill="#0c0d0e" stroke="#777" stroke-width="3"/><circle cx="1573" cy="110" r="12" fill="#050505"/>${D.hs?'<circle cx="1573" cy="110" r="26" fill="#2b5f9e" opacity=".9"/>':''}</g>`
     +(on?'':'');
   return panelSVG(PREFIX,'front',{over},'POD34 front panel (real silkscreen)'); }
 function post(x,y,red,live){ return `<circle cx="${x}" cy="${y}" r="42" fill="#d6b65a" stroke="#7a5f12" stroke-width="3"/><circle cx="${x}" cy="${y}" r="26" fill="${red?'#b02a24':'#1a1a1a'}"/><circle cx="${x}" cy="${y}" r="9" fill="#d6b65a"/>${live?`<circle cx="${x+34}" cy="${y-34}" r="7" fill="var(--accent)"/>`:''}`; }
 function rearSVG(){ const lv=s=>watts(s)>0.001;
-  const over=xlr(200,150,false,D.aes.plug,'pa','AES IN (XLR-F, 110 Ω) — click')+xlr(420,150,true,false,'','AES OUT (XLR-M)')
+  const X=(x,y,...a)=>`<g transform="translate(${x} ${y}) scale(1.22) translate(${-x} ${-y})">${xlr(x,y,...a)}</g>`;   // Ø 187 px D-flange XLR holes in the artwork
+  const over=X(209,156,false,D.aes.plug,'pa','AES IN (XLR-F, 110 Ω) — click')+X(417,156,true,false,'','AES OUT (XLR-M)')
     +post(608,85,true,lv('R'))+post(772,85,true,lv('L'))+post(608,235,false,lv('R'))+post(772,235,false,lv('L'))
-    +xlr(1080,157,false,D.ana.plugL,'pL','ANALOG IN L (XLR-F) — click')+xlr(1262,157,false,D.ana.plugR,'pR','ANALOG IN R (XLR-F) — click')+iec(1420,36,1646,256);
+    +X(961,156,false,D.ana.plugL,'pL','ANALOG IN L (XLR-F) — click')+X(1169,156,false,D.ana.plugR,'pR','ANALOG IN R (XLR-F) — click')+iec(1357,33,1609,249);
   return panelSVG(PREFIX,'rear',{over},'POD34 rear panel (real silkscreen)'); }
 function bindPanel(r){ const q=(c,f)=>r.querySelectorAll('.'+c).forEach(g=>g.onclick=f); const p=r.querySelector('.pwr'); if(p) p.onclick=()=>A.power();
   q('src',()=>A.src()); q('lnk',()=>A.link()); q('hs',()=>A.hs()); q('pa',()=>A.plug('aes')); q('pL',()=>A.plug('L')); q('pR',()=>A.plug('R'));
@@ -421,7 +428,7 @@ function levelsHTML(){ const s='L', clip=v2dbu(clipV()/Math.SQRT2);
   const st = D.src==='AES' ? [{name:'AES IN (110 Ω transformer)',lvl:D.aes.plug?D.aes.dbfs:-200,unit:'dBFS',gain:null,clip:0,note:`${D.aes.fs/1000} kHz, sensitivity −9 dBFS (spec)`},{name:'DAC (0 dBFS = +12 dBu)',lvl:ampInDb(s),gain:V.dac0,clip:V.dac0,note:inf}]
     : [{name:'ANALOG IN L (30 kΩ bal.)',lvl:D.ana.plugL?D.ana.dbu:-200,gain:null,clip:SPEC.anaMax,note:'max +26 dBu (spec)'},{name:'ANALOG IN ADJUST L',lvl:ampInDb(s),gain:trimDb(s),clip:SPEC.anaMax,note:'sensitivity trim '+inf}];
   return `<h3>Left channel</h3>${stageTable(st.concat([{name:'LEFT level knob',lvl:ampInDb(s)<-150?-200:ampInDb(s)+dB(volG(s)),gain:dB(volG(s)),clip:clip-20,note:D.stereo?'STEREO linked':''},{name:'Power amp (20 dB, spec) → speaker',lvl:spkDb(s),gain:20,clip,note:`${watts(s).toFixed(2)} W into ${D.load} Ω; 15 W/8 Ω = +23.0 dBu`}]))}<p class="small muted">The swing limit is fixed at 15 W into 8 Ω (${inf}); into 4 Ω the same voltage gives 30 W, which the module may not deliver.</p>`; }
-const viewSim=simView({flag:'__pod34Active',D,front:frontSVG,rear:rearSVG,bind:bindPanel,controls:controlsHTML,bindControls,now:nowHTML,levels:levelsHTML,lanes,labelW:210,nowTitle:'Speakers now',hint:'Flip AES/ANALOG, turn a level knob or plug an input.'});
+const viewSim=simView({flag:'__pod34Active',D,front:frontSVG,rear:rearSVG,bind:bindPanel,controls:controlsHTML,bindControls,now:nowHTML,levels:levelsHTML,lanes,labelW:210,nowTitle:'Speakers now',rearNote:`<p class="small muted" style="margin:6px 0 0">Panel artwork: ${SIM.src(ART_PATH,'POD34-FRONT&REAR-SILK (Curve).cdr')} (CorelDRAW, FEB.26/15), converted to vector: green and white ink plates on one panel, holes, cut-outs and connector outlines from the same drawing.</p>`,hint:'Flip AES/ANALOG, turn a level knob or plug an input.'});
 const LESSONS=[
   {title:'Meet the POD34', body:'<p>POD34 is a <b>stereo power amplifier</b> (2 × 15 W) that takes either an <b>AES</b> digital feed (with a loop-out) or a balanced <b>analog</b> pair. Front: LOCK LED, AES/ANALOG toggle, analog input trims, LEFT/RIGHT knobs with a STEREO link button, and a headset jack.</p><p class="muted">Only the preliminary spec sheet, panels and a wiring drawing survive.</p>', check:()=>true, auto:true},
   {title:'1 · Lock to AES', body:'<p>Power on with AES connected. LOCK lights once the receiver locks.</p>', check:()=>D.power&&locked(SIM.t+1), hint:'Rocker; click AES IN on the rear if it is unplugged.'},
@@ -463,9 +470,10 @@ const viewNotes=notesView('__pod34Active','What the POD34 archive shows — find
   '<b>No electronics.</b> There is no PCB, BOM or firmware; the wiring diagram is the only electrical drawing, which suggests the amplifier and the AES receiver/DAC are bought-in modules (README note).',
   '<b>The AES sensitivity is −9 dBFS for full power.</b> Normal programme peaking at −9 dBFS drives it to 15 W; line-up tone at −18/−20 dBFS gives about 1.9 W or 1.2 W with the knobs full.',
   '<b>The same STEREO-link idea as POD24.</b> The silk “STEREO ▀ / LEFT ▄ RIGHT” matches POD24\'s lever legend; here it is a push-button between the knobs.',
-  '<b>Input range on the rear differs from the spec.</b> Rear silk: “110-230 VAC, 50-60 Hz”; spec sheet: 100–240 VAC.'],
+  '<b>Input range on the rear differs from the spec.</b> Rear silk: “110-230 VAC, 50-60 Hz”; spec sheet: 100–240 VAC.',
+  `<b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART_PATH,'POD34-FRONT&REAR-SILK (Curve).cdr')} (FEB.26/15).</b> The ARTWORK copy (saved Oct 2015|48) and <span class="mono">#Engineering/SILK/POD34-FRONT&amp;REAR(FINAL CURVE).cdr</span> (Mar 2015|48) are identical inside the panel outlines. The drawing put the analog XLRs at x 961/1169 px and the IEC cut-out at 1357–1609 px, 60–120 px left of where this panel had them, and the rocker, toggle, level knobs, STEREO button and trims 3–19 px off; all are now on their holes. The STEREO button hole (Ø 56 px, 7.1 mm) is wider than the knob shafts (Ø 44 px) and sits 8 px lower, and the LOCK LED hole (Ø 51 px) is a holder, not a bare 3 mm LED. The rear carries two ink notes the spec never mentions: a “CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE” block and a warning triangle.`],
  [`DAC 0 dBFS = +${V.dac0} dBu, analog trim ${V.trimLo}…${V.trimHi} dB, log-taper knobs, ${V.lock*1000} ms lock (all inferred).`,'Speaker swing limit fixed at 15 W into 8 Ω (inferred).','The headset jack does not mute the speakers (inferred).'],
- ['POD34 - #Engineering/POD34_Pre_Specs.xls','POD34 - #ARTWORK #DA #2016/POD34-FRONT&amp;REAR-SILK (Curve).pdf · Pics/POD34 Front.jpg, Rear.jpg','POD34 - #Mechanical #DA #2016/POD34-FRONT ISS 1 · REAR ISS 1 · SPACER ISS1','POD34 - #Engineering/WIRING DIAGRAM/POD34-wiring diagram-iss1.dwg']);
+ ['POD34 - #Engineering/POD34_Pre_Specs.xls',SIM.src(ART_PATH,'POD34 - #ARTWORK #DA #2016/POD34-FRONT&REAR-SILK (Curve).cdr')+' (panel artwork, vector) · its .pdf export · Pics/POD34 Front.jpg, Rear.jpg','POD34 - #Mechanical #DA #2016/POD34-FRONT ISS 1 · REAR ISS 1 · SPACER ISS1','POD34 - #Engineering/WIRING DIAGRAM/POD34-wiring diagram-iss1.dwg']);
 SIM.register({ id:'pod34', name:'POD34 · 2 × 15 W stereo power amplifier, AES + analog in (2015|48)', duration:1, product:'POD34', year:2015, family:'POD series', folder:'#POD #SERIES/POD34 - #Master',
   summary:'Half-rack stereo power amplifier fed from AES (with loop-out) or balanced analog inputs, with linked or separate level knobs, a LOCK LED and a headset jack. Only a preliminary spec sheet, panels and a wiring drawing survive; internals are inferred.',
   highlights:['Real silkscreen panels with toggle, knobs, trims, STEREO button and rear XLRs/binding posts','AES3 frame scope and lock behaviour','Spec-sheet gain and sensitivity → speaker power','What the spec sheet left “TBA”'],

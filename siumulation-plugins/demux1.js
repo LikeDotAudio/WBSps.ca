@@ -18,7 +18,8 @@
    - #POD #SERIES/POD19 - #Master/POD19 - #Engineering/Software/v101/POD19_DEMUX.asm (the separate POD19 build
        modelled in pod19.js), POD19 - Demux 1 - Functional Diagram.cdr, WiringDiagrams/pod19-wiring.sch
    - #POD #SERIES/POD PANELS - #Mechanical #DA #2016/…/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr
-       → Inkscape (libcdr) → assets/demux1-pod19-rear-white.png (the POD19 rear, where the module's 4 BNCs show)
+       (26 Jun 2014) → Inkscape (libcdr) plain SVG → assets/demux1-rear.svg (POD19 rear WHITE plate + panel holes in grey,
+       200 px/in; the module's 4 BNCs show here; artwork pass 2026|59)
    - SOFTWARE LISTINGS - #Engineering.xls (DEMUX1V106(B), 2003-10-30; “Demux1 obsolete”, 2010-07-05)
    - siumulation-plugins/pod19.js, ams4.js, dms1.js, demux4.js: the hosts and the successor (read only)
    Anything not in those files is marked "inferred" on screen.
@@ -28,6 +29,7 @@ const SIM = window.SIM;
 const Y = y => SIM.year(y);
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const ASSET = 'siumulation-plugins/assets/';
+const POD19_SILK = '#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19-FRONT&REAR(FINAL CURVE) .cdr';
 const css = n => SIM.css(n);
 const hx = (v,n=2) => (v>>>0).toString(16).toUpperCase().padStart(n,'0');
 const bn = (v,n=8) => (v>>>0).toString(2).padStart(n,'0');
@@ -552,7 +554,7 @@ function rearSVG(t){
     ${bnc(553.1,'SDIOUT1','SDI OUTPUT = SDIOUT1, re-clocked loop-through',false,on&&sdi)}
     ${bnc(703.1,'INPUT1',`SDI INPUT = INPUT1 — ${sdi?'click to unplug':'click to plug in'} (D)`,lastOf('sdi',t,'on',false),on&&sdi)}
     <circle cx="50.3" cy="160.5" r="11" fill="#8f9295" stroke="#55585b" stroke-width="2"/>
-    <image href="${ASSET}demux1-pod19-rear-white.png" width="1713" height="321"/>
+    <image href="${ASSET}demux1-rear.svg" width="1713" height="321"/>
     <rect x="770" y="0" width="30" height="321" fill="url(#dm1fade)"/><defs><linearGradient id="dm1fade"><stop offset="0" stop-color="#141517" stop-opacity="0"/><stop offset="1" stop-color="#141517"/></linearGradient></defs>
   </svg>`;
 }
@@ -704,7 +706,7 @@ function viewSim(m){
   window.__demux1Active=true; curTab='sim';
   m.innerHTML = `${card('DEMUX-1 — controls', controlsHTML())}
   <div class="grid2"><div>${card('The board (top view, ISS2 layout)', `<div id="bd"></div><div id="bsel" class="small" style="margin-top:6px"></div>`)}
-    ${card('In a POD19: the module\'s four BNCs on the rear panel', `<div id="rp"></div><p class="small muted">Real 2014|47 silkscreen (POD19-FRONT&amp;REAR(FINAL CURVE) .cdr), cropped to the DEMUX-1 section. In XTM4, AMS4 and DMS1 the board is wired with the harness below.</p>${wiringSVG()}`)}</div>
+    ${card('In a POD19: the module\'s four BNCs on the rear panel', `<div id="rp"></div><p class="small muted">Artwork: ${SIM.src(POD19_SILK,'POD19-FRONT&REAR(FINAL CURVE) .cdr')} (CorelDRAW, “Jun.25/14”): the REAR WHITE plate with the panel holes in grey, cropped to the DEMUX-1 section. In XTM4, AMS4 and DMS1 the board is wired with the harness below.</p>${wiringSVG()}`)}</div>
    <div>${card('At the playhead', `<div id="insp"></div>`)}${card('What the firmware did', `<div id="trace" class="log"></div>`)}</div></div>
   ${card('One second — zoomable timeline (click to seek)', `<canvas id="tl"></canvas><p class="small muted">Pass lengths are hand-counted instruction cycles from the MPASM source at 4.9152 MHz (813.8 ns per cycle): ≈ 117 cycles (95 µs) on an idle UART pass. GS9023 lock times, the HANC packet order and the test tones are ${inf}.</p>`)}`;
   bindControls(m);
@@ -1090,6 +1092,7 @@ function viewFindings(m){
   window.__demux1Active=false; curTab='findings';
   const F=(h,b)=>`<li style="margin-bottom:9px"><b>${h}</b><br><span class="small">${b}</span></li>`;
   m.innerHTML = card('What the DEMUX-1 and its files are up to', `<ol>
+   <li><b>Artwork 2026|59: the POD19 rear now comes from ${SIM.src(POD19_SILK,'POD19-FRONT&REAR(FINAL CURVE) .cdr')} (26 Jun 2014|47).</b> The sheet holds three plates (FRONT GREEN, FRONT WHITE, REAR WHITE); only the rear is used here because that is where the DEMUX-1's four BNCs come through. The OUTPUT 1 and SDI INPUT holes carry a printed cross while OUTPUT 2 and SDI OUTPUT do not; the silk does not say why ${inf}. The sheet is a 2014|47 redraw, twelve years after the module's ISS2, so it shows the panel as last built rather than the 2001|34 original (${SIM.src('#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD19/POD19SLKv3.cdr','POD19SLKv3.cdr')}, Nov 2001, is the older art).</li>
     ${F('One stray byte locks a POD19 out of its own group switch.', '<span class="mono">scanuart</span> runs <span class="mono">bsf rxflags,7</span> on any byte with RCIF set, before it checks the address. After that, <span class="mono">refreshoutputmux</span> and <span class="mono">readgroupselect</span> return at once, until <span class="mono">rxerror1</span> (overrun) or a power cycle. In a POD19 the RS-485 pair on P1 is not wired (pod19-wiring.sch lists only P3, P4 and P5), so a floating receiver could do it ('+inf+'). The 2010|43 listing fixed the same problem for DEMUX-3 in hardware: “remove RS485 transceiver to eliminate UART communication from Demux3 to POD19”.')}
     ${F('v1.02 and v1.03 cannot select a group from the POD19 lines.', '<span class="mono">readgroupselect</span> stores 1/2/4/8 in <span class="mono">group</span>, but no routine reads <span class="mono">group</span>: <span class="mono">setgroup</span> starts with <span class="mono">btfss rxflags,0 / return</span> (UART only). The GS9023 stays on INIT’s addr3 = 0xEF (group 1). POD19 therefore ran its own POD19_DEMUX.asm (pod19.js). v1.04 fixed it by jumping straight to group1…group4.')}
     ${F('v1.04 moved the parallel port by one pin.', 'v1.02 reads RC0 (P4-2) as MSB and RB7 (P4-1) as LSB, like POD19_DEMUX.asm. v1.04+ reads RE2 (P4-3) as MSB and RC0 (P4-2) as LSB, and drives RE0 (P4-5) = AES lock and RE1 (P4-4) = SDI lock. POD19_DEMUX.asm drives its AES tally on PORTE,1 (P4-4). A POD19 harness built for one image needs rewiring for the other. The archive’s harness drawing does not keep its pin numbers, so the actual wiring is not recoverable.')}

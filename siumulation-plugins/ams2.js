@@ -2,8 +2,9 @@
    AMS2 — 1RU two-channel audio monitor / powered speaker (Ward-Beck Systems, 2015|48–2016|49)
    Plugin for the WBS Device Simulator (../siumulation.html)
    Sources used (all in this archive):
-   - AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr (MAR.17/15) → converted to PDF and cut with
-     tools/silk_extract.py into assets/ams2-front-green.png, ams2-front-white.png, ams2-rear-white.png
+   - AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr (MAR.17/15) → Inkscape (libcdr) → assets/ams2-front.svg
+     (WHITE-plate cut-outs + GREEN and WHITE inks) and assets/ams2-rear.svg (2026|59 artwork pass; the older
+     silk_extract.py PNGs ams2-front-green/-white.png and ams2-rear-white.png are no longer used)
    - AMS2 - #Master/MECHANICAL/AMS2-FRONT ISS1 (PANEL).pdf, AMS2-REAR ISS 2 (PANEL).pdf (17.10″ × 1.648″)
    - AMS2 - #Master/FUNCTIONALBD/AMS2.pdf (functional block diagram, 2015|48)
    - AMS2 - #Master/AMS2-N - #Engineering/AMS2-Test Results.pdf (Audio Precision SYS-2722, 16 Feb 2016|49),
@@ -123,7 +124,7 @@ function frontSVG(){
    <defs><filter id="ga2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
    <rect width="3418" height="329" rx="8" fill="var(--dev)"/>
    ${c.PL+c.PR>0.01? `<g opacity="${Math.min(.5,(c.PL+c.PR)/10)}"><rect x="70" y="20" width="740" height="260" fill="#2a3a2a"/><rect x="2610" y="20" width="740" height="260" fill="#2a3a2a"/></g>`:''}
-   <image href="${ASSET}ams2-front-green.png" width="3418" height="329"/><image href="${ASSET}ams2-front-white.png" width="3418" height="329"/>
+   <image href="${ASSET}ams2-front.svg" width="3418" height="329"/>
    <circle cx="940" cy="164" r="22" fill="${ledCol}" ${ledCol!=='var(--led-off)'?'filter="url(#ga2)"':''}><title>LOCK (bi-colour: green = AES valid, red = no lock)</title></circle>
    <g class="sw" style="cursor:pointer"><rect x="1050" y="110" width="72" height="108" fill="transparent"/><circle cx="1086" cy="164" r="20" fill="#9aa0a6"/><rect x="${D.input==='AES'?1052:1092}" y="156" width="44" height="16" rx="8" fill="#d0d4d8"/><title>AES ⇄ ANALOG — click</title></g>
    <g class="mode" style="cursor:pointer"><circle cx="2174" cy="232" r="54" fill="transparent"/><circle cx="2174" cy="232" r="36" fill="#1b1d1f" stroke="#5a5d60" stroke-width="3"/><line x1="2174" y1="232" x2="${2174+30*Math.sin(angle*Math.PI/180)}" y2="${232-30*Math.cos(angle*Math.PI/180)}" stroke="#eee" stroke-width="6"/><title>STEREO / LEFT / RIGHT — click to turn</title></g>
@@ -136,7 +137,7 @@ function rearSVG(){
   const trim=(x,ch)=>`<g class="trim" data-ch="${ch}" style="cursor:pointer"><circle cx="${x}" cy="276" r="22" fill="#c9a640" stroke="#6b5517" stroke-width="3"/><line x1="${x}" y1="276" x2="${x+18*Math.sin((D['trim'+ch]+40)/40*4-2)}" y2="${276-18*Math.cos((D['trim'+ch]+40)/40*4-2)}" stroke="#222" stroke-width="5"/><title>ANALOG IN ADJUST ${ch}: ${D['trim'+ch].toFixed(1)} dB (left half −, right half +)</title></g>`;
   return `<svg viewBox="0 0 3418 329" style="width:100%;border-radius:6px;display:block" role="img" aria-label="AMS2 rear panel (real silk)"><rect width="3418" height="329" rx="8" fill="var(--dev)"/>
     ${D.variant==='AMS2-N'?`<g class="aoip" style="cursor:pointer"><rect x="1300" y="30" width="820" height="200" fill="#123a6b"/><rect x="1640" y="80" width="130" height="100" rx="6" fill="#d9d9d9"/><rect x="1660" y="96" width="90" height="60" fill="#333"/><circle cx="1795" cy="96" r="9" fill="${D.aoip?'#7dff6a':'#555'}"/><text x="1710" y="215" text-anchor="middle" font-size="26" fill="#cde">uNet2500 RJ45 — ${D.aoip?'AES67 stream on':'no stream'} (click)</text></g>`:''}
-    <image href="${ASSET}ams2-rear-white.png" width="3418" height="329"/>
+    <image href="${ASSET}ams2-rear.svg" width="3418" height="329"/>
     ${xlr(2400,'xa',D.xlrIn,'ANALOG IN L')}${xlr(2610,'xa',D.xlrIn,'ANALOG IN R')}${xlr(2960,'xe',D.aesIn,'AES IN')}${xlr(3170,'',false,'AES OUT (loop: P2 AES_TX)')}
     ${trim(1610,'L')}${trim(1810,'R')}</svg>`;
 }
@@ -194,8 +195,9 @@ function wave(cx,X,t0,t1,y,h,pk,f,col,scale,clip){
 const card=(t,b)=>`<div class="card"><h2>${t}</h2>${b}</div>`;
 function viewSim(m){
   window.__ams2Active=false;
-  m.innerHTML = card('Front panel (real silk, MAR.17/15) — click the switch, the selector and the headset jack','<div id="fp"></div>')
-   + card('Rear panel (real silk) — click the XLRs, the trims (left half −1 dB, right half +1 dB) and, on an AMS2-N, the network plate','<div id="rp"></div>')
+  const art=`<div class="small muted">Artwork: ${SIM.src('AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr','AMS2-FRONT & REAR-SILK(CURVE).cdr')} (MAR.17/15), CorelDRAW vectors: cut-outs from the WHITE plate, inks GREEN + WHITE.</div>`;
+  m.innerHTML = card('Front panel (real silk, MAR.17/15) — click the switch, the selector and the headset jack','<div id="fp"></div>'+art)
+   + card('Rear panel (real silk) — click the XLRs, the trims (left half −1 dB, right half +1 dB) and, on an AMS2-N, the network plate','<div id="rp"></div>'+art)
    + card('Sources and build', sourceCtl())
    + `<div class="grid2">${card('Level at each stage','<div id="ch"></div>')}${card('What happened','<div id="tr" class="log"></div><div id="sum" class="small" style="margin-top:8px"></div>')}</div>`
    + card('Timeline: one second, zoomable (zoom to 20 µs to see the PWM)','<canvas id="tl"></canvas>');
@@ -299,6 +301,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__ams2Active=false;
   m.innerHTML=card('What the AMS2 is up to: findings', `<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('AMS2 - #Master/SILK/AMS2-FRONT &  REAR-SILK(CURVE).cdr','AMS2-FRONT & REAR-SILK(CURVE).cdr')} (title block MAR.17/15, file saved 2015-11-06).</b> The sheet holds a GREEN front plate, a WHITE front plate and a WHITE rear plate; they are registered on one panel and the CorelDRAW cut-outs (hex vents, LED/switch/pot holes, IEC, D-sub plate, XLR flanges) are drawn under the inks. Outside the printed page the file still carries a second, older copy of the rear legends and the “AMS2 SERIES” title (leftover). The non-curve twin ${SIM.src('AMS2 - #Master/SILK/AMS2-FRONT &  REAR PANEL SILK.cdr','AMS2-FRONT & REAR PANEL SILK.cdr')} is dated 2015-03-20. The two small holes either side of the STEREO/LEFT/RIGHT selector are real cut-outs, but only the left one carries a drill crosshair.</li>
    <li><b>The amplifier gain is set by two pull-ups, and the test confirms it.</b> TPA3124D2 GAIN0/GAIN1 are pulled high by R62/R63 (10K), with the pull-downs R97/R98 DNI and the links H4/H5 open. That is the 36 dB setting. The 2016 AP test drove −17.7 dBu in and got +18.3 dBu out, exactly 36 dB.</li>
    <li><b>The DAC divider on the schematic is not built.</b> Sheet 2 shows DAC_L → R99 6K81 → DIGITAL_L with R87 4K64 to ground (−7.9 dB). Both master BOMs and the AMS2-AMP pick-and-place file fit R99 and R86 as 0R and leave R87/R88 out, so DIGITAL_L/R carry the full PCM5100A output (2.1 Vrms, +8.7 dBu at 0 dBFS). The pick-and-place file even types R86's value as “OR” (letter O). Fed into the 36 dB amp without the rear trims, anything above about −25 dBFS would clip. The model therefore sends AES through the same rear trims (${inf}).</li>
    <li><b>The test describes the trim oddly.</b> The CMRR line says “Input = 0 dBu, Output = 17.7 dBu (set by Trim Pot on the rear panel)” for the BAL2UNBAL board, which can only be the level at the speaker. The amp tests then use −17.7 dBu in, consistent with the trim attenuating about 18 dB.</li>

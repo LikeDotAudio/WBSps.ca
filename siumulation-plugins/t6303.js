@@ -1833,6 +1833,18 @@ const DATA = {
 };
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+
+/* ---- CorelDRAW rear-module art (artwork pass 2026|59) ----
+   Each issue's “REAR MODULE PINOUTS” sheet (.cdr, libcdr → SVG, hairlines restored, sheet furniture removed: GENERIC title,
+   frame, pinout arrows, SINGLE CARD TERMINATION / ISSUE captions) recoloured as the built module: green PCB, silver BNCs,
+   white silk. view/plate in inches; pos = connector centres from the drawing, inches from the plate's top-left corner;
+   iso = BNCs the drawing shades grey (isolated-shell positions). */
+const CDR_ART = {"iss4":{"file":"t6303-rear.svg","src":"#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr","label":"T6303-iss2.cdr","date":"5 Mar 2007","view":[2.354,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.168,0.493],"2":[0.867,0.493],"3":[0.168,1.118],"4":[0.867,1.118],"5":[0.168,1.743],"6":[0.867,1.743],"7":[0.168,2.368],"8":[0.867,2.368],"9":[0.173,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"AES1","4":"AES5","5":"AES2","6":"AES6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[]},"iss3":{"file":"t6303-rear.svg","src":"#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr","label":"T6303-iss2.cdr","date":"5 Mar 2007","view":[2.354,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.168,0.493],"2":[0.867,0.493],"3":[0.168,1.118],"4":[0.867,1.118],"5":[0.168,1.743],"6":[0.867,1.743],"7":[0.168,2.368],"8":[0.867,2.368],"9":[0.173,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"AES1","4":"AES5","5":"AES2","6":"AES6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[]},"iss2":{"file":"t6303-rear.svg","src":"#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr","label":"T6303-iss2.cdr","date":"5 Mar 2007","view":[2.354,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.168,0.493],"2":[0.867,0.493],"3":[0.168,1.118],"4":[0.867,1.118],"5":[0.168,1.743],"6":[0.867,1.743],"7":[0.168,2.368],"8":[0.867,2.368],"9":[0.173,2.993],"10":[0.867,2.993]},"legend":{"1":"BNC1","2":"BNC2","3":"AES1","4":"AES5","5":"AES2","6":"AES6","7":"AES3","8":"AES7","9":"AES4","10":"AES8"},"iso":[]},"iss1":{"file":"t6303-rear-iss1.svg","src":"#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303.cdr","label":"T6303.cdr","date":"15 Nov 2006","view":[2.375,3.774],"plate":[0.547,0.314,1.31,3.293],"pos":{"1":[0.168,0.493],"2":[0.867,0.493],"3":[0.168,1.118],"4":[0.867,1.118],"5":[0.168,1.743],"6":[0.867,1.743],"7":[0.168,2.368],"8":[0.867,2.368],"9":[0.173,2.993],"10":[0.867,2.993]},"legend":{"1":"AES1","2":"AES5","3":"AES2","4":"AES6","5":"AES3","6":"AES7","7":"AES4","8":"AES8","9":"BNC9","10":"BNC10"},"iso":[]}};
+function cdrArt(){ return S.view==='cdr' ? (CDR_ART[S.issue]||null) : null; }
+function cdrXY(p, art){ return art && art.pos[p.n] ? art.pos[p.n] : [p.x, p.y]; }
+function cdrCaption(art){ return 'CorelDRAW art: '+SIM.src(art.src, art.label)+' ('+art.date+')'; }
+DATA.findings.unshift(`<b>Artwork ${SIM.year(2026)}: rear panel now from ${SIM.src(CDR_ART.iss2.src,'T6303-iss2.cdr')} (5 Mar 2007, ISS2–ISS4) and ${SIM.src(CDR_ART.iss1.src,'T6303.cdr')} (15 Nov 2006, ISS1).</b> ISS1 is legended AES1–AES4 / AES5–AES8 on blocks 1–8 and BNC9/BNC10 on blocks 9/10; ISS2 moves BNC1/BNC2 to blocks 1/2 and shifts AES1–AES4 down, matching the netlists. The sheet carries the numbers 1–10 above each block and the polarity legend “G-+-G” between each pair. Its 1.310″ × 3.293″ outline and rows match the ISS4 Gerbers (2012) to within 0.03″, so the 2007 drawing still fits the last board; both sheets say SINGLE CARD TERMINATION.`);
+DATA.sources.push("#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303-iss2.cdr, #OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION/T6303 - #ENGINEERING/T6303.cdr (CorelDRAW rear-module pinout art → assets/t6303-rear-iss1.svg, t6303-rear.svg)");
 const ID = DATA.id, FLAG = '__' + ID + 'Active';
 const inf = (why)=>`<span class="tag-inf" title="${why?('Not stated in the source; inferred from '+why):'Not stated in the source; inferred'}">inferred</span>`;
 const yr = y => SIM.year(y);
@@ -1906,7 +1918,7 @@ function freshRR(){ const o={}; SLOTS.forEach(s=>o[s]={fit1:true,fit2:true,r1:nu
 function defCards(){ const o={}; SLOTS.forEach((s,i)=>o[s]=(DATA.defaultCards&&DATA.defaultCards[s])||DATA.cards[0].id); return o; }
 const S = {
   issue: DATA.defaultIssue, cards: defCards(), sel: 1, cable:{}, load:{}, srcLvl:0, padC:0.45,
-  rr: freshRR(), idReads:0, idReadSlots:{}, idAt:null, showRL:false, view:'rear',
+  rr: freshRR(), idReads:0, idReadSlots:{}, idAt:null, showRL:false, view:'cdr',
   log:[], last:null, blockSel:'p101',
 };
 function I(){ return DATA.issues[S.issue]; }
@@ -2003,21 +2015,22 @@ function lostOf(slot){
 const PX = 100; // SVG units per inch
 function panelSVG(opts){
   opts=opts||{};
-  const iss=I(), W=iss.w*PX, H=iss.h*PX, M=185, TOP=DUAL?38:20;
+  const iss=I(), art=cdrArt(), W=(art?art.plate[2]:iss.w)*PX, H=(art?art.plate[3]:iss.h)*PX, LX=art?art.plate[0]*PX:0, RX=art?(art.view[0]-art.plate[0]-art.plate[2])*PX:0, M=185+LX, TOP=(DUAL?38:20)+(art?art.plate[1]*PX:0);
   const img = S.view==='card' ? iss.img+'-card.png' : iss.img+'-rear.png';
-  let s=`<svg viewBox="0 0 ${W+2*M} ${H+TOP+28}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${DATA.product} rear module drawn from ${esc(iss.art)}">
+  let s=`<svg viewBox="0 0 ${W+2*M+RX-LX} ${H+TOP+28+(art?16:0)}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${DATA.product} rear module drawn from ${esc(iss.art)}">
    <defs><filter id="${ID}glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs>
-   <rect x="${M-4}" y="${TOP-4}" width="${W+8}" height="${H+8}" rx="5" fill="#0b0c0d"/>
-   <image href="${ASSET}${img}" x="${M}" y="${TOP}" width="${W}" height="${H}" preserveAspectRatio="none"/>`;
+   ${art? `<image href="${ASSET}${art.file}" x="${M-LX}" y="${TOP-art.plate[1]*PX}" width="${art.view[0]*PX}" height="${art.view[1]*PX}"/>`
+     : `<rect x="${M-4}" y="${TOP-4}" width="${W+8}" height="${H+8}" rx="5" fill="#0b0c0d"/>
+   <image href="${ASSET}${img}" x="${M}" y="${TOP}" width="${W}" height="${H}" preserveAspectRatio="none"/>`}`;
   if (S.view==='card'){
     s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">card side (${iss.cardSide}) — ${SLOTS.join(' and ')} face the card${DUAL?'s':''}</text></svg>`;
     return s;
   }
-  s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">connector face, seen from behind the frame (${iss.face})</text>`;
+  s+=`<text x="${M+W/2}" y="12" text-anchor="middle" font-size="11" fill="var(--ink2)">connector face, seen from behind the frame (${art?'CorelDRAW pinout sheet':iss.face})</text>`;
   if (DUAL) SLOTS.forEach((sl,i)=>{ const x = i===0? M-6 : M+W+6; s+=`<text x="${x}" y="30" text-anchor="${i===0?'end':'start'}" font-size="11" font-weight="700" fill="var(--accent)">${i===0?'◀ ':''}${sl} · ${esc(cardAt(sl).id)}${i===0?'':' ▶'}</text>`; });
-  (iss.blocks||[]).forEach(b=>{ s+=`<rect x="${M+b.x*PX-15}" y="${TOP+b.y0*PX-9}" width="30" height="${(b.y1-b.y0)*PX+18}" rx="3" fill="none" stroke="#b9b9b0" stroke-width="1.2" stroke-dasharray="3 2"/><text x="${M+b.x*PX}" y="${TOP+b.y0*PX-12}" text-anchor="middle" font-size="9" fill="var(--ink2)">${b.ref}</text>`; });
+  (art?[]:(iss.blocks||[])).forEach(b=>{ s+=`<rect x="${M+b.x*PX-15}" y="${TOP+b.y0*PX-9}" width="30" height="${(b.y1-b.y0)*PX+18}" rx="3" fill="none" stroke="#b9b9b0" stroke-width="1.2" stroke-dasharray="3 2"/><text x="${M+b.x*PX}" y="${TOP+b.y0*PX-12}" text-anchor="middle" font-size="9" fill="var(--ink2)">${b.ref}</text>`; });
   iss.pos.forEach(p=>{
-    const x=M+p.x*PX, y=TOP+p.y*PX, r=role(p.n), sel=S.sel===p.n, plug=!!S.cable[p.n], L=level(p.n);
+    const q=cdrXY(p,art), x=M+q[0]*PX, y=TOP+q[1]*PX, r=role(p.n), sel=S.sel===p.n, plug=!!S.cable[p.n], L=level(p.n);
     const col = r.dir==='in'? 'var(--accent2)' : r.dir==='out'||r.dir==='io'? 'var(--accent)' : '#777';
     const g=guideOf(p.n), warn = r.dir==='nc' && g && !/not connected|reserved/i.test(g);
     if (p.kind==='bnc'){
@@ -2031,7 +2044,7 @@ function panelSVG(opts){
         ${plug?offs.map(d=>`<circle cx="${x}" cy="${y+d*p.pitch*PX}" r="4.5" fill="#0d3a1c"/>`).join(''):''}
         ${L.v>0&&plug?`<circle cx="${x+18}" cy="${y-hh/2+3}" r="4.5" fill="${L.ok||L.rx?'var(--led-g)':'var(--led-a)'}"/>`:''}</g>`;
     }
-    const left = p.x < iss.w/2, tx = left? M-10 : M+W+10, an=left?'end':'start';
+    const left = p.x < iss.w/2, tx = left? M-LX-10 : M+W+RX+10, an=left?'end':'start';
     if (p.blk){
       s+=`<g class="pos" data-n="${p.n}" style="cursor:pointer"><text x="${tx}" y="${y-1}" text-anchor="${an}" font-size="11" font-weight="700" fill="${sel?'var(--warn)':warn?'var(--bad)':'var(--ink)'}">${esc(lab(p.n))} · ${esc(r.name)}</text>
         <text x="${tx}" y="${y+10}" text-anchor="${an}" font-size="9" fill="${col}">${r.dir==='nc'?'—':(r.dir==='in'?'◀ in':'out ▶')} ${esc((SIG[r.sig]||SIG.nc).short)} · ${p.ref}-${p.tbPins[0]}/${p.tbPins[1]}</text></g>`;
@@ -2041,7 +2054,7 @@ function panelSVG(opts){
         <text x="${tx}" y="${y+24}" text-anchor="${an}" font-size="9.5" fill="var(--ink2)">${p.ref}${p.L?' · '+p.L+(p.R?'‖'+p.R:''):''} · ${p.slot}-${sigPinTxt(p)}</text></g>`;
     }
   });
-  s+=`<text x="${M+W/2}" y="${H+TOP+22}" text-anchor="middle" font-size="10" fill="var(--ink2)">${iss.w.toFixed(3)}″ × ${iss.h.toFixed(3)}″ at 1:1 scale</text></svg><div class="small muted" style="text-align:center">Artwork: ${esc(iss.art)}</div>`;
+  s+=`<text x="${M+W/2}" y="${H+TOP+22+(art?16:0)}" text-anchor="middle" font-size="10" fill="var(--ink2)">${art? 'plate '+art.plate[2].toFixed(3)+'″ × '+art.plate[3].toFixed(3)+'″ as drawn, 1:1' : iss.w.toFixed(3)+'″ × '+iss.h.toFixed(3)+'″ at 1:1 scale'}</text></svg><div class="small muted" style="text-align:center">${art? cdrCaption(art)+' · View → Gerber silk shows the PCB' : 'Artwork: '+esc(iss.art)}</div>`;
   return s;
 }
 function bindPanel(root){
@@ -2069,7 +2082,7 @@ const A = {
     if (m.filter(x=>!x.startsWith(DATA.product)).length && m.some(x=>/^T6/.test(x))) tr('CLASH: another module answers with the same code; the card cannot tell them apart.');
   }); },
   setR(which,v){ const slot=idSlot(); act('Change '+slot+' '+(which===1?'AN_BMID':'AN_BMID2')+' to '+rFmt(v), tr=>{ const q=S.rr[slot]; if(which===1){q.r1=v;q.fit1=v<OPEN;} else {q.r2=v;q.fit2=v<OPEN;} const d=idOf(R1(slot),R2(slot)); tr('Code '+d.disp+' (rmId 0x'+d.rm.toString(16).padStart(4,'0')+')'); }); },
-  reset(){ act('Reset the bench', tr=>{ Object.assign(S,{issue:DATA.defaultIssue,cards:defCards(),sel:1,cable:{},load:{},srcLvl:0,rr:freshRR(),idReads:0,idReadSlots:{},idAt:null,showRL:false,view:'rear'}); tr('Default issue, default cards, no cables.'); }); },
+  reset(){ act('Reset the bench', tr=>{ Object.assign(S,{issue:DATA.defaultIssue,cards:defCards(),sel:1,cable:{},load:{},srcLvl:0,rr:freshRR(),idReads:0,idReadSlots:{},idAt:null,showRL:false,view:'cdr'}); tr('Default issue, default cards, no cables.'); }); },
 };
 document.addEventListener('keydown', e=>{
   if (!window[FLAG] || (e.target.matches && e.target.matches('input,select,textarea'))) return;
@@ -2174,7 +2187,7 @@ function controlsHTML(){
   return `<div style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:6px 0">
     ${SLOTS.map(sl=>`<label class="small">${DUAL?'Card on '+sl:'Mating card'} <select data-c="card" data-slot="${sl}">${cardsForIssue().map(c=>`<option value="${c.id}" ${c.id===S.cards[sl]?'selected':''}>${esc(c.id)} — ${esc(c.short||c.label)}</option>`).join('')}</select></label>`).join('')}
     ${ks.length>1?`<label class="small">Issue <select data-c="issue">${ks.map(k=>`<option value="${k}" ${k===S.issue?'selected':''}>${esc(DATA.issues[k].label)}</option>`).join('')}</select></label>`:''}
-    <label class="small">View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>connector face</option><option value="card" ${S.view==='card'?'selected':''}>card side (${SLOTS.join('/')})</option></select></label>
+    <label class="small">View <select data-c="view"><option value="cdr" ${S.view==='cdr'?'selected':''}>CorelDRAW art</option><option value="rear" ${S.view==='rear'?'selected':''}>Gerber silk, connector face</option><option value="card" ${S.view==='card'?'selected':''}>card side (${SLOTS.join('/')})</option></select></label>
     <button data-c="plug">Plug / unplug selected (P)</button><button data-c="id">Card reads ID (R)</button><button data-c="reset">Reset</button></div>
     <div class="small muted">Click a connector to select it; double-click it (or press P) to plug a cable in. Keys 1–9, 0 select positions 1–10.${DUAL?' Each column mates with its own card: the ID read uses the slot of the selected position.':''}</div>`;
 }

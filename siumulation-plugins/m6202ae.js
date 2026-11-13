@@ -382,6 +382,30 @@ const H8 = (()=>{
 })();
 /* ---------------- end og8 helpers ---------------- */
 const inf=K.inf, card=K.card;
+const ASSET='siumulation-plugins/assets/';
+/* ---- CorelDRAW artwork (artwork pass 2026|59): the panels are the archive's .cdr drawings, converted with Inkscape
+   (text kept live, re-anchored where libcdr lost alignment); the live parts sit on the drawn holes, in the drawing's pt coordinates. ---- */
+const ART_CSS = `<style>.arthl{fill:transparent;stroke:transparent;stroke-width:.7}.og62-hot:hover .arthl,.arthot:hover .arthl{stroke:#2b8cff}</style>`;
+function artSVG(o){ // o: {src, vb:[x,y,w,h], maxw, label, fid, body}
+  const [x,y,w,h]=o.vb;
+  return `<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:${o.maxw||300}px;display:block;margin:auto;background:#f4f4f0;border-radius:6px" role="img" aria-label="${o.label}">${ART_CSS}
+    <defs><filter id="${o.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}${o.src}" x="${x}" y="${y}" width="${w}" height="${h}"/>${o.body||''}</svg>`;
+}
+/* one LED lens drawn over the LED box in the card-edge drawing */
+function artLed(o){ // {x,y,w,h, on, col, fid, attrs, title}
+  return `<g ${o.attrs||''}><title>${o.title||''}</title><rect x="${o.x}" y="${o.y}" width="${o.w}" height="${o.h}" rx="1" fill="${o.on?o.col:'rgba(28,32,30,.55)'}" ${o.on?`filter="url(#${o.fid})"`:''}/><rect class="arthl" x="${o.x-1}" y="${o.y-1}" width="${o.w+2}" height="${o.h+2}" rx="1.5"/></g>`;
+}
+/* a connector on the rear-module drawing: hit area, optional plugged cable, live dot, scope highlight */
+function artJack(o){ // {cx,cy,r, kind:'bnc'|'tb', w,h, conn, live, sel, attrs, title}
+  const r=o.r||6, lv=o.live===undefined?'':`<circle cx="${o.cx+(o.kind==='tb'?o.w/2+2:r+0.6)}" cy="${o.cy+(o.kind==='tb'?-(o.h/2-1.5):r-0.6)}" r="1.7" fill="${o.live===true?'#2f8f46':o.live==='warn'?'#d9a21b':o.live==='err'?'#c0392b':'#8d9296'}" stroke="#fff" stroke-width=".35"/>`;
+  let g='';
+  if (o.conn) g+= o.kind==='tb'? `<rect x="${o.cx-o.w/2-.8}" y="${o.cy-o.h/2-.8}" width="${o.w+1.6}" height="${o.h+1.6}" rx="1" fill="#2b5f9e" opacity=".55"/>`
+                               : `<circle cx="${o.cx}" cy="${o.cy}" r="${r*0.82}" fill="#2b5f9e" opacity=".8"/><circle cx="${o.cx}" cy="${o.cy}" r="${r*0.3}" fill="#9cc3ef"/>`;
+  if (o.sel) g+=`<circle cx="${o.cx}" cy="${o.cy}" r="${r+1.6}" fill="rgba(255,210,60,.35)" stroke="#e5b21b" stroke-width=".5"/>`;
+  const hit = o.kind==='tb'? `<rect class="arthl" x="${o.cx-o.w/2-1}" y="${o.cy-o.h/2-1}" width="${o.w+2}" height="${o.h+2}" rx="1"/>` : `<circle class="arthl" cx="${o.cx}" cy="${o.cy}" r="${r+0.6}"/>`;
+  return `<g ${o.attrs||''}><title>${o.title||''}</title>${g}${lv}${hit}</g>`;
+}
 const SW='M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/';
 const T=['—','PCM','Dolby E','Dolby Digital'], TC=['-','P','E','D'];
 /* Table 2 (M6202AE manual): decoder output channel assignment per programme config, channels 1–8 on AES1–AES4 */
@@ -459,13 +483,32 @@ const TESTS=[
 const RM={ T6204:{name:'T6204', sub:'110 Ω, DFR-8310 (M6202AE Rear Modules.cdr)', note:'T6204: SDI IN/OUT on BNC, AES1–AES6 and METADATA OUT on 3-pin Phoenix (110 Ω).', tb:true},
   T6304:{name:'T6304', sub:'110 Ω, DFR-8320', note:'T6304: as the T6204 for the 20-slot DFR-8320.', tb:true},
   T6306:{name:'T6306', sub:'75 Ω, DFR-8320', note:'T6306: AES1–AES6 on 75 Ω BNC, METADATA OUT on Phoenix (position 10).', tb:false} };
-function rearSVG(){ const r=RM[D.rear], o=outs(), L=locked(), kd=r.tb?'tb':'bnc';
+/* Artwork 2026|59: rear modules from M6202AE Rear Modules.cdr (2009-06-04), card edge from M6202-card-edge.cdr (2008-02-22);
+   assets shared with the m6202 plugin, coordinates in pt on the drawings. */
+const AEART={edge:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202-card-edge.cdr',
+  rear:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE Rear Modules.cdr',
+  t6306:'#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR/M6202 - #Engineering/M6202A/Functional/M6202AE-T6306RearModule.cdr',
+  guide:'#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6202AE - rear module options.cdr',
+  RM:{T6204:{src:'m6202-rear-t6204.svg', vb:[14,84,202,254], bnc:[[95.2,142.9],[143.6,142.9]], br:16.2, tb:[91.6,141.1], ty:[181.3,218.0,254.6,291.1]},
+      T6304:{src:'m6202-rear-t6304.svg', vb:[216,84,194,254], bnc:[[287.9,142.6],[336.3,142.6]], br:16.2, tb:[284.3,334.3], ty:[181.0,217.7,254.3,290.8]},
+      T6306:{src:'m6202-rear-t6306.svg', vb:[405,84,207,254], cols:[486.4,531.6], rows:[142.9,180.0,217.0,254.0,291.0], br:13.8, tb10:[538.5,290.4]}},
+  pos(rear,n){ const A=this.RM[rear], i=n-1, col=i%2, row=Math.floor(i/2);
+    if (A.cols){ if (i===9) return {cx:A.tb10[0], cy:A.tb10[1], kind:'tb', w:20.5, h:36}; return {cx:A.cols[col], cy:A.rows[row], r:A.br}; }
+    if (row===0) return {cx:A.bnc[col][0], cy:A.bnc[col][1], r:A.br};
+    return {cx:A.tb[col], cy:A.ty[row-1], kind:'tb', w:20.5, h:36.6}; } };
+function rearSVG(){ const r=RM[D.rear], o=outs(), L=locked(), A=AEART.RM[D.rear];
   const cells=[{n:1,label:'SDI IN',id:'in',conn:D.in.conn,live:D.in.conn?(L?true:'warn'):undefined},{n:2,label:'SDI OUT',live:L?true:'err'},
-    {n:3,label:'AES 1',kind:kd,live:o[0].ok?true:'err'},{n:4,label:'AES 5',kind:kd,live:o[4].ok?true:'err'},{n:5,label:'AES 2',kind:kd,live:o[1].ok?true:'err'},{n:6,label:'AES 6',kind:kd,live:o[5].ok?true:'err'},
-    {n:7,label:'AES 3',kind:kd,live:o[2].ok?true:'err'},{n:8,label:'NOT USED',kind:'nc'},{n:9,label:'AES 4',kind:kd,live:o[3].ok?true:'err'},{n:10,label:'METADATA OUT',kind:'tb',live:decoding()&&decIn()===2?true:'off'}];
-  return K.rearSVG({name:r.name, sub:r.sub, id:'AN_BMID / AN_BMID2', cells}); }
+    {n:3,label:'AES 1',live:o[0].ok?true:'err'},{n:4,label:'AES 5',live:o[4].ok?true:'err'},{n:5,label:'AES 2',live:o[1].ok?true:'err'},{n:6,label:'AES 6',live:o[5].ok?true:'err'},
+    {n:7,label:'AES 3',live:o[2].ok?true:'err'},{n:8,label:'NOT USED'},{n:9,label:'AES 4',live:o[3].ok?true:'err'},{n:10,label:'METADATA OUT',live:decoding()&&decIn()===2?true:'off'}];
+  const body=cells.map(c=>artJack(Object.assign({}, AEART.pos(D.rear,c.n), {conn:c.conn, live:c.live, attrs:c.id?`class="og62-hot" data-jack="${c.id}"`:'',
+    title:`${c.n}: ${c.label}${c.id?(c.conn?' (click to unplug)':' (click to plug in)'):''}`}))).join('');
+  return artSVG({src:A.src, vb:A.vb, maxw:300, label:r.name+' rear module', fid:'m62aer', body})
+    + `<div class="small muted" style="text-align:center">${r.name} · ${r.sub.replace(' (M6202AE Rear Modules.cdr)','')}<br>${SIM.src(AEART.rear,'M6202AE Rear Modules.cdr')} (2009-06-04)</div>`; }
 function edgeSVG(t){ const L=ledsAt(t);
-  return K.edgeSVG({label:'M6202AE', maxw:260, note:'M6202-card-edge.cdr · manual LED table', leds:[['SD','g',L.sd],['HD','g',L.hd],['ERR','r',L.err],['AES1','y',L.a[0]],['AES2','y',L.a[1]],['AES3','y',L.a[2]],['AES4','y',L.a[3]],['Com Activity','g',L.com],['Error','r',0]].map(([n,c,o],i)=>({name:n,c,on:o,y:[50,80,110,160,190,220,250,320,350][i],title:i>=3&&i<=6?'group '+(i-2)+' present':''}))}); }
+  const body=[['SD','g',L.sd,141.9],['HD','g',L.hd,163.0],['ERR','r',L.err,186.2],['AES1','y',L.a[0],222.8],['AES2','y',L.a[1],244.0],['AES3','y',L.a[2],267.2],['AES4','y',L.a[3],290.5],['Com Activity','g',L.com,323.4],['Error','r',0,346.6]]
+    .map(([n,c,on,y],i)=>artLed({x:179.9, y:y-6.1, w:5.3, h:12.2, on, col:K.LEDC[c], fid:'m62aeg', title:`${n} LED${i>=3&&i<=6?' — group '+(i-2)+' present':''} (${on?'lit':'off'})`})).join('');
+  return artSVG({src:'m6202-edge.svg', vb:[60,126,156,318], maxw:230, label:'M6202AE card edge', fid:'m62aeg', body})
+    + `<div class="small muted" style="text-align:center">${SIM.src(AEART.edge,'M6202-card-edge.cdr')} (2008-02-22) · manual LED table</div>`; }
 function dashHTML(){ const L=locked(), o=outs(), f=H8.F[D.in.fmt], ds=D.cat?(decEn()?'Ok':'N/A'):'Error';
   return K.dashHTML({key:'m6202ae', title:`Slot ${D.slot}: M6202AE`, alarm:!L&&D.alarm, tree:[{name:'DFR-8320 frame'},{name:'MFC-8310',lvl:1},{name:`Slot ${D.slot}: M6202AE`,lvl:1,sel:true}],
     tabs:[{name:'Card Info',rows:[{type:'text',label:'Product',value:'M6202AE'},{type:'text',label:'Name',value:'MD-SDI Embedded Audio Demultiplexer w/ Dolby Decoding'},{type:'text',label:'Manufacturer',value:'Ward-Beck Systems Ltd.'},{type:'text',label:'Software Rev',value:'2.02'},{type:'text',label:'Website',value:'www.ward-beck.com'}]},
@@ -539,6 +582,7 @@ function viewSoft(m){ m.innerHTML=`<div class="grid2"><div>${card('Routing decis
     const k=!locked()?0:!decEn()?1:!D.cat?2:4; m.querySelector('#flow').innerHTML=H8.flowSVG(st,k,!locked()); };
   SIM.on('time', draw); }
 const FINDINGS=[
+  `<b>Artwork ${SIM.year(2026)}: rear modules and card edge now from the CorelDRAW files.</b> T6204, T6304 and T6306 from ${SIM.src(AEART.rear,'M6202AE Rear Modules.cdr')} (2009-06-04); edge from ${SIM.src(AEART.edge,'M6202-card-edge.cdr')} (2008-02-22, drawn for the M6202A and labelled so: there is no separate M6202AE edge drawing). The later ${SIM.src(AEART.t6306,'M6202AE-T6306RearModule.cdr')} (2009-05-28) relabels the T6306 in groups: 3/5 = GROUP 1 OUT AES1/AES2, 7/9 = GROUP 2 OUT, 4/6 = SELECTABLE GROUP OUT, 10 = METADATA OUT. The 2012 ${SIM.src(AEART.guide,'rear module guide')} lists only the T6306A (single) and T6401A (dual, captioned “*No MetaData Out”) for the M6202AE; the 110 Ω T6204/T6304 had gone.`,
   `<b>Cable reach missed, boxes ticked.</b> Page 11 of the scan: “Max cable length HD/SD using Delco 394167 cable — HD: Min 200 m” with “115 m” written beside it, and “SD: Min 350 m” struck through with “280 m”. Both are ticked as tested.`,
   `<b>Board issue mismatch.</b> The report says PCB ISS.3; v2.02’s M6202.h still has BOARD_ISSUE 2, so DashBoard would report Iss.2.`,
   `<b>Lt/Rt levels explained.</b> The sheet expects −27 / −10 dBFS for Lt/Rt from an all-channel −20 dBFS tone: the matrix surround term cancels in Lt and adds in Rt. The “without Dolby card” case (−30 / −10) matches the unnormalised matrix within 1 dB ${inf('coefficients')}.`,
@@ -548,7 +592,7 @@ const FINDINGS=[
   `<b>Empty manual folder.</b> “M6202AE - #Manual/” is empty; the draft manual is in M6202 - #Engineering/M6202A/Manual/v2000/. It still calls the frame “DFR5320” in one place.`,
   `<b>Upload marked Reserved.</b> The manual’s General Tasks table says UPLOAD is reserved, yet 2.0.0.1 added the bootloader and the test outline checks it.`];
 const ASSUME=['Downmix coefficients c = s = −3 dB; Lo/Ro normalisation '+inf('chosen to match the sheet'),'Metadata output 115.2 kbit/s RS-485, one burst per frame '+inf('D6207A-family practice'),'Reach is a hard limit at the measured length '+inf('single measurement'),'Program-config selection is a subset of Table 2'];
-const SOURCES=['#OPENGEAR #SERIES/M6202AE - #Master #OPENGEAR/M6202AE - #TESTREPORT/M6202AE-V202-03MAR10.pdf (12 pages, scanned)',SW+'Software/atmel/v202/M6202.h, Dashboard.c, wbs_ztcpack.txt (firmware — sibling folder, linked)',SW+'Software/M6202AE SOFTWARE HISTORY.xls',SW+'Manual/v2000/M6202AE Manual .doc',SW+'Functional/M6202AE Rear Modules.cdr, M6202-card-edge.cdr'];
+const SOURCES=['#OPENGEAR #SERIES/M6202AE - #Master #OPENGEAR/M6202AE - #TESTREPORT/M6202AE-V202-03MAR10.pdf (12 pages, scanned)',SW+'Software/atmel/v202/M6202.h, Dashboard.c, wbs_ztcpack.txt (firmware — sibling folder, linked)',SW+'Software/M6202AE SOFTWARE HISTORY.xls',SW+'Manual/v2000/M6202AE Manual .doc',SW+'Functional/M6202AE Rear Modules.cdr, M6202-card-edge.cdr','Artwork '+SIM.year(2026)+': '+SIM.src(AEART.rear,'M6202AE Rear Modules.cdr')+' → assets/m6202-rear-t6204.svg, -t6304.svg, -t6306.svg; '+SIM.src(AEART.edge,'M6202-card-edge.cdr')+' → assets/m6202-edge.svg (shared with m6202)'];
 SIM.register({ id:'m6202ae', product:'M6202AE', name:'M6202AE · MD-SDI audio demultiplexer with Dolby decoding, openGear: test release (2009|42)', year:2009,
   folder:'#OPENGEAR #SERIES/M6202AE - #Master #OPENGEAR', family:'openGear',
   summary:'The M6202AE de-embeds SDI audio to six AES outputs and decodes embedded Dolby E / Dolby Digital to eight channels with an Lt/Rt downmix and metadata output. This folder holds the scanned v2.02 test outline; the model routes by the manual’s DIP and Table 2 and runs the outline against itself.',

@@ -6,6 +6,7 @@
    - POD26 - #Engineering/PCB/POD26iss1.net, POD26iss1.bom          (P-CAD ISS1 netlist and BOM: every pin and value below)
    - POD26 - #Engineering/MANUAL/POD26MANU.wpd                       (manual: −12 … +18 dB, +24 dBu, 40 kΩ, 60 Ω, 12 VA)
    - POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).pdf    (panel silkscreen, Jul 2 2014) + Pics/POD26 Front.jpg, Rear.jpg
+   - POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr → assets/pod26-front.svg, pod26-rear.svg (Inkscape, plates + cut-out layer registered, 2026|59; replaces the PNG cut from the .pdf)
    - POD26 - #Mechanical #DA #2016/POD26-FRONT ISS 1, POD26-REAR ISS 2 (PANEL).pdf
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -25,16 +26,16 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
-  </svg>`;
+  </svg><div class="small muted" style="margin:2px 0 6px">Panel artwork: ${SIM.src(ART_SRC, ART_LABEL)} (CorelDRAW, curves; green and white plates registered on one panel)</div>`;
 }
+const ART_SRC = '#POD #SERIES/POD26 - #Master/POD26 - #ARTWORK #DA #2016/POD26-FRONT&REAR-SILK (CURVE).cdr', ART_LABEL = 'POD26-FRONT&REAR-SILK (CURVE).cdr, Jul 2 2014';
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
   return `<g class="pwr" style="cursor:pointer"><title>Power rocker: click to switch ${on?'off':'on'}</title><rect x="${x}" y="${y}" width="112" height="146" rx="10" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/>
@@ -385,14 +386,14 @@ const A={
 const TX = i => 720 + i*170;
 function frontSVG(t){ let over=rocker(D.power)+pled(D.power&&railAt(t)>5);
   for (let i=0;i<6;i++) over+=trim(TX(i),220,D.trim[i],'tr'+i,'OUTPUT LEVEL ADJUST '+(i+1));
-  return panelSVG(PREFIX,'front',{over},'POD26 front panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'front',{over},'POD26 front panel (CorelDRAW silk artwork)'); }
 const PX = j => 465 + j*28.33;
 function rearSVG(){ let over='';
   [[96,'out'],[172,'in']].forEach(([y,row])=>{ over+=`<rect x="${PX(0)-16}" y="${y}" width="${PX(17)-PX(0)+32}" height="52" rx="4" fill="#26a356" stroke="#0e5d2b" stroke-width="2"/>`;
     for (let j=0;j<18;j++){ const i=5-Math.floor(j/3); const hot=row==='in'&&D.plug[i];
       over+=`<g class="${row==='in'?'pl'+i:''}" style="${row==='in'?'cursor:pointer':''}">${row==='in'?`<title>INPUT ${i+1} — click to connect/disconnect</title>`:''}<rect x="${PX(j)-10}" y="${y+10}" width="20" height="32" fill="${hot?'#2b5f9e':'#0e4d25'}"/><circle cx="${PX(j)}" cy="${y+22}" r="6" fill="#9aa"/></g>`; } });
   over+=iec(1385,28,1611,252);
-  return panelSVG(PREFIX,'rear',{over},'POD26 rear panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'rear',{over},'POD26 rear panel (CorelDRAW silk artwork)'); }
 function bindPanel(root){ const p=root.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); for (let i=0;i<6;i++){ bindTrim(root,'tr'+i,d=>A.trim(i,d)); root.querySelectorAll('.pl'+i).forEach(g=>g.onclick=()=>A.plug(i)); } }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-top:8px">
   <label>Source <input id="gL" type="number" step="1" value="${D.gen.lvl}" style="width:56px"> dBu</label><label>Tone <select id="gF">${[100,1000,10000].map(f=>`<option ${f===D.gen.f?'selected':''}>${f}</option>`).join('')}</select> Hz</label>
@@ -456,13 +457,14 @@ const viewSoft=softView({flag:'__pod26Active',D,intro:'POD26 has no processor. T
   buttons:[['Rocker','PWRSW1 → T3 → D5–D8 → ±VA','Power'],['OUTPUT LEVEL ADJUST n','LVL(n+4) wiper ↔ R7-type 1K24 at U(2n−1)B','−12.4 … +18.7 dB'],['Connect INPUT n','Hn-6/Hn-5 → 10K → 68 µF','Signal into channel n']],
   pins:[...CHS.map(c=>[`Channel ${c.n}`, c.H, `IN+ ${c.H}-6 (${c.R[0]}), IN− ${c.H}-5 (${c.R[1]}); OUT ${c.H}-1 (${c.R[6]}), ${c.H}-2 (${c.R[7]}); GND 3,4 · ${c.Uin}/${c.Uout} · ${c.LVL}`]),['Rear terminals','2 rows × 18','OUTPUT row on top, INPUT row below; groups 6 … 1 left to right']]});
 const viewNotes=notesView('__pod26Active','What the POD26 archive shows — findings',[
+  `<b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_SRC,'POD26-FRONT&REAR-SILK (CURVE).cdr')} (Jul 2 2014|47).</b> Three plates (FRONT GREEN, FRONT WHITE, REAR WHITE) and the cut-out layer are registered on one panel. The cut-outs show what the PNG silk did not: the rocker window, six trim holes under OUTPUT LEVEL ADJUST, the two terminal-block windows' fixing holes and a small round hole above the power inlet at the top right of the rear, with no legend (ground stud or spare, ${inf}).`,
   `<b>The netlist reproduces the manual's gain range.</b> With R6 43K1, R7 1K24 and a 5K trim the input stage spans ${fdb(dB(gainT(0)))} … ${fdb(dB(gainT(1)))} dB; the +6 dB output pair makes it ${fdb(dB(gainT(0))+6.02)} … ${fdb(dB(gainT(1))+6.02)} dB. The manual says −12 … +18 dB.`,
   `<b>Input impedance is 20 kΩ, not 40 kΩ.</b> Each input leg sees 10K into a virtual earth, so the differential impedance is 20 kΩ. The manual's “40kΩ balanced” (and “60Ω”, “12 VA”, “1.27 kg”) appear word for word in the POD24 manual, so one sheet was copied from the other.`,
   `<b>There are no regulators.</b> T3 feeds D5–D8 and two 2200 µF capacitors directly: the twelve NE5532s run on unregulated ±VA, and the clip point follows the mains. The TE70042's voltage is not in the archive (${inf}).`,
   `<b>Trims and terminals run in opposite directions.</b> Front trims read 1 … 6 left to right, the rear terminal groups 6 … 1 left to right, because the rear is seen from behind.`,
   `<b>Duplicate and odd files.</b> <span class="mono">POD26ss1.net/.ECO/.BAK</span> (missing “i”) sit beside <span class="mono">POD26iss1.*</span>; the folder name “MECHNICAL” is misspelt; <span class="mono">POD26 - #PCB</span> duplicates <span class="mono">PCB</span>.`,
 ],[`Rails ±${V.Vdc} V DC with ${V.ripple} V p-p ripple (${inf}).`,`Trim: CW = more gain, linear track (${inf}).`,`The rear terminal groups map to H1–H6 in reverse order (${inf} from the silk).`],
- ['POD26 - #Engineering/PCB/POD26iss1.net · POD26iss1.bom · POD26iss1.sch','POD26 - #Engineering/MANUAL/POD26MANU.wpd','POD26 - #ARTWORK #DA #2016/POD26-FRONT&amp;REAR-SILK (CURVE).pdf · Pics/POD26 Front.jpg, Rear.jpg','POD26 - #Mechanical #DA #2016/POD26-FRONT ISS 1 (PANEL).pdf · POD26-REAR ISS 2 (PANEL).pdf']);
+ ['POD26 - #Engineering/PCB/POD26iss1.net · POD26iss1.bom · POD26iss1.sch','POD26 - #Engineering/MANUAL/POD26MANU.wpd','POD26 - #ARTWORK #DA #2016/POD26-FRONT&amp;REAR-SILK (CURVE).pdf · Pics/POD26 Front.jpg, Rear.jpg'+' · '+SIM.src(ART_SRC,ART_SRC.split('/').pop())+' (panel artwork)','POD26 - #Mechanical #DA #2016/POD26-FRONT ISS 1 (PANEL).pdf · POD26-REAR ISS 2 (PANEL).pdf']);
 SIM.register({ id:'pod26', name:'POD26 · six-channel audio level amplifier (2014|47)', duration:1, product:'POD26', year:2014, family:'POD series', folder:'#POD #SERIES/POD26 - #Master',
   summary:'Half-rack six-in, six-out balanced audio level amplifier with a front screwdriver trim per channel (−12 … +18 dB). Modelled from the ISS1 netlist: twelve NE5532s with a T-network trim, on unregulated rails. The year is the panel silk date.',
   highlights:['Real silkscreen panels with six working trims and pluggable inputs','T-network gain maths that reproduces the manual range','Unregulated rails with 120 Hz ripple and clipping','Manual specs copied from the POD24 sheet'],

@@ -22,7 +22,7 @@
    - #DEMUX #SERIES/XXX - DEMUX3 - #Master #OBSOLETE/…/DEMUX-3 - #altera/v301 ; SA-DEMUX4 - #Master/…/Demux3/v301
    Board artwork: assets/rd60-ams81a-iss5-iss2-assy.png and -iss5-assy.png are page 1 of the two real
    assembly drawings, cut to the board outline and scaled to 160 px per inch. Front/rear panel crops reuse
-   the AMS8-1A silkscreen separations made for ams81.js (assets/ams81-*.png).
+   the AMS8-1A CorelDRAW art: assets/rd60-ams81a-iss5-front.svg, -rear.svg (artwork pass 2026|59; formerly ams81's PNGs).
    Anything not stated in those files is marked "inferred" on screen.
    ===================================================================== */
 (function(){
@@ -349,29 +349,37 @@ function partInfo(){
   return `<div style="border-left:4px solid ${KCOL[p.k]};padding-left:8px"><b>${p.t}</b> <span class="chip">${{gone:'removed in ISS5',kept:'kept',new:'new in ISS5',same:'unchanged'}[p.k]}</span><div class="small">${p.d}</div></div>`;
 }
 
-/* ---- front display + input buttons (crop of the real AMS8-1A silk, assets from ams81.js) ---- */
+/* ---- front display + input buttons, rear jacks: CorelDRAW vector art (artwork pass 2026|59) ----
+   assets/rd60-ams81a-iss5-front.svg / -rear.svg, cut by Inkscape from AMS8-1A-FRONT-SILK (CURVES).cdr (OCT.19/15) and
+   AMS8-M2-Rear-SILK(Curve).cdr (MAY 07/15) between the crop marks: viewBox = the panel outline in pt, drawn as 1707 × 163
+   (the frame of the earlier PNG crops, so the controls keep their hole coordinates). Front: GREEN plate in POD green,
+   WHITE plate in white, cut-outs from the GREEN plate's mechanical lines; live-text labels re-anchored on the button,
+   knob and display centres. */
+const ART = { DIR:'AMS81 - #Master/AMS81 - #ARTWORK #DA #2016/', FRONT:'AMS8-1A-FRONT-SILK (CURVES).cdr', REAR:'AMS8-M2-Rear-SILK(Curve).cdr' };
+const artSrc = k => SIM.src(ART.DIR+ART[k], ART[k]);
+const artNote = () => `<div class="small muted" style="margin-top:4px">Panel artwork: ${artSrc('REAR')} (MAY 07/15) and ${artSrc('FRONT')} (OCT.19/15), CorelDRAW vector art cropped to the parts RD60 touches.</div>`;
 function frontSVG(){
   const txt=displayText(), pitch=3.0, x0=1109.8-(8*6.2*pitch-pitch*1.2)/2, y0=51.8-3*pitch, BX=[801.5,846,890.5,935];
   let s=`<svg viewBox="782 0 458 163" style="width:100%;display:block;border-radius:6px" role="img" aria-label="AMS8-1A front panel crop (real silkscreen)">
     <defs><filter id="rdglow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-    <rect x="782" width="458" height="163" fill="#202326"/><image href="${ASSET}ams81-front-cut.png" width="1707" height="163" opacity=".55"/>
+    <rect x="782" width="458" height="163" fill="#202326"/><image href="${ASSET}rd60-ams81a-iss5-front.svg" width="1707" height="163" preserveAspectRatio="none"/>
     <rect x="${1109.8-91.6}" y="${51.8-24.7}" width="183.2" height="49.5" rx="3" fill="#0b0d0b"/>`;
   for (let i=0;i<8;i++){ const ch=txt[i]||' '; s+=SIM.dotMatrix(ch, x0+i*6.2*pitch, y0, pitch, '#9dff3a', '#1b2a14'); }
   BX.forEach((x,k)=>{ const lit=D.inputNo===k+1; s+=`<g class="rdin" data-k="${k+1}" style="cursor:pointer"><title>INPUTS ${['1/2','3/4','5/6','7/8'][k]}</title><rect x="${x-16.5}" y="34.75" width="33" height="33" rx="2.5" fill="#0c0d0e"/><rect x="${x-14}" y="37.25" width="28" height="28" rx="2" fill="#3a3d41" stroke="#55595e"/><rect x="${x-6}" y="47.75" width="12" height="7" rx="1" fill="${lit?'#ff3a4c':'#a9adb2'}" ${lit?'filter="url(#rdglow)"':''}/></g>`; });
-  s+=`<image href="${ASSET}ams81-front-green.png" width="1707" height="163"/><image href="${ASSET}ams81-front-white.png" width="1707" height="163"/></svg>`;
+  s+=`</svg>`;
   return s;
 }
 function rearSVG(){
   const bnc=(x,id,on,lbl)=>`<g class="rdjack" data-j="${id}" style="cursor:pointer"><title>${lbl}: ${on?'connected':'empty'} — click</title><circle cx="${x}" cy="46.1" r="24" fill="#a68a3c" stroke="#5e4d1c" stroke-width="2"/><circle cx="${x}" cy="46.1" r="15" fill="#d8c27a"/><circle cx="${x}" cy="46.1" r="5" fill="#7a5f12"/>${on?`<rect x="${x-9}" y="58" width="18" height="30" fill="#2b5f9e"/><rect x="${x-15}" y="50" width="30" height="16" rx="4" fill="#3a74b8"/>`:''}</g>`;
   const phx=(x0,id,on,lbl)=>`<g class="rdjack" data-j="${id}" style="cursor:pointer"><title>${lbl}: ${on?'connected':'empty'} — click</title><rect x="${x0+2}" y="107" width="50" height="29" fill="transparent"/>${[9,27,45].map(d=>`<circle cx="${x0+d}" cy="121.5" r="5.5" fill="#0d3a1c"/>`).join('')}${on?`<rect x="${x0+6}" y="99" width="42" height="10" rx="2" fill="#1f6b3a"/>`:''}</g>`;
   let s=`<svg viewBox="960 0 700 163" style="width:100%;display:block;border-radius:6px" role="img" aria-label="AMS8-1A rear panel crop (real silkscreen)">
-    <rect x="960" width="700" height="163" fill="#202326"/><image href="${ASSET}ams81-rear-cut.png" width="1707" height="163" opacity=".5"/>
+    <rect x="960" width="700" height="163" fill="#202326"/><image href="${ASSET}rd60-ams81a-iss5-rear.svg" width="1707" height="163" preserveAspectRatio="none"/>
     <rect x="986" y="105" width="108" height="33" rx="2" fill="#2a9d55" stroke="#145a2e"/><rect x="1115" y="105" width="54" height="33" rx="2" fill="#2a9d55" stroke="#145a2e"/><rect x="1189" y="105" width="216" height="33" rx="2" fill="#2a9d55" stroke="#145a2e"/><rect x="1427" y="105" width="216" height="33" rx="2" fill="#2a9d55" stroke="#145a2e"/>`;
   s+=bnc(1045.9,'r75',D.refPlug==='75','REF IN 75 Ω');
   [1120.1,1182,1243.9,1305.8].forEach((x,k)=> s+=bnc(x,'b'+(k+1),D.in75[k],'IN '+(k+1)+' (75 Ω)'));
   s+=phx(1115,'r110',D.refPlug==='110','REF IN 110 Ω');
   for (let k=0;k<4;k++) s+=phx(1189+k*54,'p'+(k+1),D.in110[k],'IN '+(k+1)+' (110 Ω)');
-  s+=`<image href="${ASSET}ams81-rear-white.png" width="1707" height="163"/></svg>`;
+  s+=`</svg>`;
   return s;
 }
 function bindPanels(root){
@@ -519,7 +527,7 @@ function viewSim(m){
         <div class="small" style="margin-top:6px">${Object.entries({gone:'removed',kept:'kept',new:'new',same:'unchanged'}).map(([k,l])=>`<span class="chip" style="border-color:${KCOL[k]}"><span style="color:${KCOL[k]}">■</span> ${l}</span>`).join('')}</div>
         <div id="rdPart" style="margin-top:6px">${partInfo()}</div>
         <p class="small muted">Drawings: page 1 of ${M('AMS8E-1ISS2-ASSY.pdf')} (rotated) and ${M('AMS8E-1-ISS5-Assy-drawing.pdf')}. Overlays: ISS2 PnP centres and ISS5 IPC-356 pin extents, which share one CAD frame.</p>`)}
-      ${card('Rear panel and front display (AMS8-1A silk) — click jacks and INPUTS', `${rearSVG()}<div style="height:6px"></div>${frontSVG()}<div style="margin-top:8px">${benchHTML()}</div>`)}
+      ${card('Rear panel and front display (AMS8-1A silk) — click jacks and INPUTS', `${rearSVG()}<div style="height:6px"></div>${frontSVG()}${artNote()}<div style="margin-top:8px">${benchHTML()}</div>`)}
     </div><div>
       ${card('Configuration chip: will the bitstream fit?', cfgHTML())}
       ${card('Firmware trace', `<div class="log" id="rdLog">${D.log.map(e=>`<div><b>${SIM.fmtT(e.t)}</b> ${e.name}<br>${e.tr.map(x=>'· '+x).join('<br>')}</div>`).join('')||'<span class="muted">Click a jack, button or build step.</span>'}</div>`)}
@@ -569,7 +577,7 @@ function viewTutorial(m){
       <p class="small"><b>Goal:</b> <span style="color:${done?'var(--accent)':'var(--warn)'}">${done?'✔ done':'not yet'}</span> · <span class="muted">Hint: ${L.h}</span></p>
       <div style="display:flex;gap:6px"><button id="tPrev" ${D.tut?'':'disabled'}>◀ previous</button><button id="tNext" ${D.tut<TUT.length-1?'':'disabled'}>next ▶</button>${D.tut===TUT.length-1?'<button id="tHash">I have read the hash table</button>':''}</div>
       <ol class="small" style="margin-top:10px">${TUT.map((x,i)=>`<li style="${i===D.tut?'font-weight:600':''}">${D.tutSeen[i]?'✔ ':''}${x.t}</li>`).join('')}</ol>`)}
-      ${card('Bench', `${stepSelect()}<div style="margin-top:6px">${rearSVG()}</div><div style="height:4px"></div>${frontSVG()}<div style="margin-top:6px">${benchHTML()}</div>`)}</div>
+      ${card('Bench', `${stepSelect()}<div style="margin-top:6px">${rearSVG()}</div><div style="height:4px"></div>${frontSVG()}${artNote()}<div style="margin-top:6px">${benchHTML()}</div>`)}</div>
     <div>${card('Boards', `<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px"><div>${boardSVG('before')}</div><div>${boardSVG('after')}</div></div><div style="margin-top:6px">${partInfo()}</div>`)}
       ${card('Configuration', cfgHTML())}
       ${card('Timeline', `<button data-r="scenboot" class="${D.scen==='boot'?'on':''}">Power-up</button> <button data-r="scenrun" class="${D.scen==='run'?'on':''}">Running</button><canvas id="rdTl"></canvas>`)}

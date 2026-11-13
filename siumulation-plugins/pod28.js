@@ -356,6 +356,11 @@ const A = {
    Rear: D-holes for the BNCs at 1.305 … 5.805 (0.750 pitch), y 0.989; IEC cut-out 1.256 × 1.080 at (7.415, 0.703);
    ground insert at (8.319, 0.250). */
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: assets/pod28-front.svg, pod28-rear.svg are vector conversions of POD28-FRONT&REAR(FINAL CURVE).cdr
+   (Jul.03/14; GREEN + WHITE plates registered on one panel, holes from the same drawing). They are drawn from the panel
+   corner (x px = 200·inch), so they sit at (−3, −3) in this 3 px-inset frame and every PX() position still lands on its hole. */
+const ART_PATH = '#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD28/POD28-FRONT&REAR(FINAL CURVE).cdr';
+const artSrc = ()=> `<p class="small muted" style="margin:6px 0 0">Panel artwork: ${SIM.src(ART_PATH, 'POD28-FRONT&REAR(FINAL CURVE).cdr')} (CorelDRAW, Jul.03/14), converted to vector: green and white ink plates on one panel, holes and cut-outs from the same drawing.</p>`;
 const PX = inch => inch*200 - 3;
 const LEDX = {pwr:PX(1.496), sdi:PX(4.554), hd:PX(5.054), err:PX(5.554)}, LEDY = PX(1.090);
 function frontSVG(t, opts){
@@ -366,8 +371,7 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1709 316" role="img" aria-label="POD28 front panel (real silkscreen)" style="width:100%;max-width:960px;border-radius:8px;display:block">
     <defs><filter id="p28glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1709" height="316" rx="8" fill="var(--dev)"/>
-    <image href="${ASSET}pod28-front-green.png" width="1709" height="316"/>
-    <image href="${ASSET}pod28-front-white.png" width="1709" height="316"/>
+    <image href="${ASSET}pod28-front.svg" x="-3" y="-3" width="1714" height="321"/>
     <g class="p28pwr" style="cursor:pointer"><title>Power rocker (PWRSW, PAN256) — click to switch at the playhead</title>
       <rect x="${sx-sw/2-6}" y="${sy-sh/2-6}" width="${sw+12}" height="${sh+12}" rx="8" fill="#0a0b0c" stroke="#2e3134"/>
       <rect x="${sx-sw/2+8}" y="${sy-sh/2+10}" width="${sw-16}" height="${sh-20}" rx="10" fill="#151719" stroke="#34383c"/>
@@ -390,7 +394,7 @@ function rearSVG(t){
       ${!isIn ? `<circle cx="${x+44}" cy="${y-50}" r="9" fill="${col}"/>` : `<circle cx="${x+44}" cy="${y-50}" r="9" fill="${s.conn?'var(--accent)':'#555'}"/>`}</g>`; };
   let g = `<svg viewBox="0 0 1709 316" role="img" aria-label="POD28 rear panel (real silkscreen)" style="width:100%;max-width:960px;border-radius:8px;display:block">
     <rect width="1709" height="316" rx="8" fill="var(--dev)"/>
-    <image href="${ASSET}pod28-rear-white.png" width="1709" height="316"/>`;
+    <image href="${ASSET}pod28-rear.svg" x="-3" y="-3" width="1714" height="321"/>`;
   for (let k=0;k<7;k++) g += bnc(k);
   const ix = PX(7.415), iy = PX(0.703);
   g += `<rect x="${ix-112}" y="${iy-102}" width="224" height="204" rx="10" fill="#0b0c0d" stroke="#2d3033" stroke-width="2"/>
@@ -590,7 +594,7 @@ function viewSim(m){
   <div class="grid2">
     <div>
       ${card('Front panel at the playhead (real silkscreen)', `<div id="fp"></div><div id="ctl"></div>`)}
-      ${card('Rear panel — click INPUT to plug/unplug, an OUTPUT to scope it', `<div id="rp"></div>`)}
+      ${card('Rear panel — click INPUT to plug/unplug, an OUTPUT to scope it', `<div id="rp"></div>${artSrc()}`)}
     </div>
     <div>
       ${card('What the firmware did (last action)', `<div id="trace" class="log" style="max-height:420px"></div>`)}
@@ -899,6 +903,7 @@ function viewNotes(m){
     <li><b>Manual slips.</b> POD28MAN says the unit will “reliably recover the incoming digital <i>audio</i> signal” and that the HD LED shows a “<i>sampling</i> rate of 1.485 Gbps”. <span class="mono">POD28MAN.doc</span> also contains the POD30 and POD31 manuals. The functional diagram labels its tallies HD / SD / ERROR, but the panel has SDI / HD / ERROR.</li>
     <li><b>The photographed rear panel is not the archived artwork.</b> <span class="mono">Pics/POD28 Rear.jpg</span> shows “100-240 VAC, 50-60 Hz / DISCONNECT BEFORE SERVICING” above OUTPUT 5–6. The FINAL CURVE silk (dated Jul.03/14) has a vertical “CAUTION: DISCONNECT POWER BEFORE SERVICING OR REPLACING THE FUSE” block and “100-240 VAC, 50-60 Hz, ½ A S.B.” under the inlet. The manual says 90–230 VAC.</li>
     <li><b>A four-LED POD28 once existed.</b> <span class="mono">#MF8200 #SERIES/M8205 - #Engineering #MF82/SA14-310/POD28iss1.ERR</span> (22 Oct 2003|36; a near-copy is in the obsolete R209 folder) loads <span class="mono">H:\\POD\\pod28\\POD28iss1.net</span> and reports LED1–3 “YELLOW” and an LED4 “GREEN” against a board with red LEDs and RFX BNCs. The archived Issue 1 netlist has three LEDs (two green, one red), so an earlier netlist was used ${inf}.</li>
+    <li><b>Artwork ${Y(2026)}: front/rear panels now from ${SIM.src(ART_PATH,'POD28-FRONT&REAR(FINAL CURVE).cdr')} (Jul.03/14).</b> The CorelDRAW file replaces the PNG cuts of its PDF export. Its front has holes only for PWR, SDI, HD and ERROR (no fourth tally, unlike the four-LED POD28iss1 above), and its rear still reads “100-240 VAC, 50-60 Hz, ½ A.S.B.” beside the IEC cut-out with the CAUTION block turned on its side, as in the PDF.</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
     <li>Instruction timing is exact for the archived source (4.9152 MHz, 1 or 2 cycles per instruction). The delay loop is computed in one step (1024 cycles) with the same result.</li>
     <li>Gennum behaviour is ${inf}: lock acquisition ${SIM.fmtDur(C.ACQ)}; carrier still detected to ${C.MARGIN}× the manual's cable length, with lock flapping in that band; SD/~HD holds its last value while unlocked; 3G gives a carrier but no lock; ASI locks like SD.</li>

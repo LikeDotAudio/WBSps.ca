@@ -68,6 +68,8 @@ svg text{font-family:var(--sans)}
 .log b{color:var(--accent)}
 .hl{background:color-mix(in srgb, var(--accent) 22%, transparent);border-radius:3px}
 .empty{padding:40px;text-align:center;color:var(--ink2)}
+a.src:not([href]){color:inherit;text-decoration:underline dotted;cursor:help}
+a.src.drive::after{content:" ↗";font-size:.8em}
 </style>
 </head>
 <body>
@@ -130,6 +132,10 @@ const SIM = window.SIM = {
   emit(ev, ...a){ (listeners[ev]||[]).forEach(f=>{ try{f(...a)}catch(e){console.error(e)} }); },
   seek(t){ SIM.t = Math.max(0, Math.min(SIM.duration, t)); syncTransport(); SIM.emit('time', SIM.t); },
   refresh(){ SIM.emit('time', SIM.t); },
+  /* --- archive files: Google Drive copy first --- SIM.src('AMS16 - #Master/…/x.cdr', 'label') -> a link to that file's
+     Drive copy (key 'SHUFFLER/<archive path>' in _catalog/drive/, from make_drive_links.py); plain text until one is found. */
+  src(path, label){ const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    return `<a class="src" data-src="${e(path)}" title="${e(path)}">${e(label||path.split('/').pop())}</a>`; },
   /* --- formatting --- */
   fmtT(t){ // seconds -> "0.016 683 s"
     const s = t.toFixed(6); const [a,b] = s.split('.');
@@ -360,8 +366,25 @@ function openTab(id){
   for (const k in listeners) listeners[k] = [];
   const m=$('#main'); m.innerHTML='';
   try{ tb.render(m, SIM); }catch(e){ m.innerHTML='<div class="empty">This view failed to load: '+e.message+'</div>'; console.error(e); }
+  nameMainCard();
   SIM.refresh();
 }
+/* The main card on a product's first tab is titled with the product's name, not "The card at the playhead":
+   "M8245 · ±22 V switch-mode power supply card — component layout B 8245-06-001 (scan); click R20 …".
+   Plugins write their own headings; this renames the first one and keeps it renamed if the plugin redraws it. */
+function productTitle(){ return String(active.name||active.id).replace(/\s*\([^()]*\)\s*$/,''); }
+function nameMainCard(){
+  if (!active || activeTab !== active.tabs[0].id) return;
+  const h = document.querySelector('#main .card h2'); if (!h || h.dataset.named === '1') return;
+  const text = h.textContent, i = text.indexOf(' — '), lead = i < 0 ? text : text.slice(0, i), rest = i < 0 ? '' : text.slice(i + 3);
+  if (!/playhead|^the (card|unit|module|board)\b|^as seen by/i.test(lead)) return;   // a heading that already names something stays
+  const what = lead.replace(/\b(at|—)?\s*the playhead\b/i,'').replace(/^(the (card|unit|module|board)|as seen by the (device|circuit))\s*/i,'')
+                   .replace(/[\s—,:-]+$/,'').trim();   // "Front panel at the playhead (real silkscreen)" keeps "Front panel (real silkscreen)"
+  const tail = [what && (/^[A-Z][a-z]/.test(what) ? what.charAt(0).toLowerCase() + what.slice(1) : what), rest].filter(Boolean).join(' — ');   // DEMUX-4, ISS5 keep their capitals
+  h.textContent = productTitle() + (tail ? ' — ' + tail : '');
+  h.dataset.named = '1';
+}
+new MutationObserver(()=>nameMainCard()).observe(document.getElementById('main'), {childList:true, subtree:true});
 SIM.openTab = openTab;
 window.addEventListener('resize', ()=>SIM.refresh());
 
@@ -381,5 +404,10 @@ loadScript('siumulation-plugins/wiki_links.js').then(()=>loadScript('siumulation
 });
 })();
 </script>
+<script src="_catalog/drive_lookup.js"></script>
+<script>/* resolve SIM.src() links to their Google Drive copies as tabs render */
+(()=>{const done=new WeakSet();const fix=()=>{if(!window.driveLookup)return;document.querySelectorAll('a.src[data-src]').forEach(a=>{if(done.has(a))return;done.add(a);
+ driveLookup('SHUFFLER/'+a.dataset.src).then(d=>{if(d){a.href='https://drive.google.com/file/d/'+d[0]+'/view'+(d[1]?'?resourcekey='+encodeURIComponent(d[1]):'');a.target='_blank';a.rel='noopener';a.classList.add('drive');}});});};
+ new MutationObserver(fix).observe(document.body,{childList:true,subtree:true});fix();})();</script>
 <script src="_catalog/wbs_scan.js?v=7792b3a7"></script></body>
 </html>

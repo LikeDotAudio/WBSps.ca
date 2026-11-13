@@ -27,12 +27,12 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
+  /* CorelDRAW artwork (Artwork 2026|59): <prefix>-front.svg = GREEN + WHITE plates on the panel, -rear.svg = rear WHITE plate */
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${prefix}-${side}.svg" width="${PW}" height="${PH}"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
   </svg>`;
@@ -363,12 +363,12 @@ function frontSVG(t){
   const lit=phaseLit(phaseCode(tq));  // 7-LED phase bar: LED 1 (top, in phase) always lit, the bar grows toward out-of-phase
   for (let i=0;i<7;i++){ const yy=100+i*20; over+=`<circle cx="430" cy="${yy}" r="5" fill="${D.on||lit?(i<lit?(i<2?'#9be35a':i<4?'#ffe23a':'#ff4a3a'):'#2a2f2a'):'#2a2f2a'}"/>`; }
   over += led(745,222,locked(t),'var(--led-g)',9) + led(845,222,!locked(t),'#ff4a3a',9);
-  return panelSVG(PREFIX,'front',{over},'POD11A front panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'front',{over},'POD11A front panel (CorelDRAW silk artwork)'); }
 function rearSVG(){
   const names=['BS1','BS0','CAL1','CAL0'];
   let over = dip(752,52,names.map(n=>!!D.dip[n]),'dp',names) + (D.ver==='75'? bnc(1180,228,D.on,'inp','AES INPUT (75 Ω BNC) — click to connect/disconnect',46) : phx(1180,228,D.on,'inp','AES INPUT (110 Ω, + − G) — click'))
     + iec(1362,30,1600,250);
-  return panelSVG(PREFIX,'rear',{over},'POD11A rear panel (real silkscreen)'); }
+  return panelSVG(PREFIX,'rear',{over},'POD11A rear panel (CorelDRAW silk artwork)'); }
 function bindPanel(root){ const names=['BS1','BS0','CAL1','CAL0']; root.querySelectorAll('.dp').forEach(g=>g.onclick=()=>A.dip(names[+g.dataset.i])); root.querySelectorAll('.inp').forEach(g=>g.onclick=()=>A.plug()); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:8px;align-items:center">
   <label>Programme <select id="pg">${[['tone','steady tone'],['bursts','120 ms bursts'],['step','tone starts at 200 ms'],['speech','speech-like envelope']].map(([v,l])=>`<option value="${v}" ${v===D.sig.prog?'selected':''}>${l}</option>`).join('')}</select></label>
@@ -406,7 +406,7 @@ function nowTable(t){ const m0=meter(0,tMux(t)), m1=meter(1,tMux(t)), f=L=>L===n
   <tr><th>L: VU bar / PPM dot / hold</th><td class="mono">${f(m0.vuL)} / ${f(m0.pkL)} / ${f(m0.holdL)} · idx ${m0.vuIdx}/${m0.pkIdx}${m0.led?' · PEAK':''}</td></tr><tr><th>R: VU bar / PPM dot / hold</th><td class="mono">${f(m1.vuL)} / ${f(m1.pkL)} / ${f(m1.holdL)}${m1.led?' · PEAK':''}</td></tr>
   <tr><th>PPM hold (BS1) / decay (BS0)</th><td class="mono">${ppmHoldOn()?'ON':'OFF'} / ${flag('BS0')?'1.5':'3'} s per 24 dB</td></tr><tr><th>Rate</th><td class="mono">${D.fs/1000} kHz (emuclk Δ ${KS[D.fs].emu})</td></tr><tr><th>Phase</th><td class="mono">${phaseCode(t)} → ${phaseLit(phaseCode(t))} of 7 LEDs</td></tr></table>`; }
 function viewSim(m){ window.__pod11aActive=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead — press Play to watch the ballistics',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — DIP switches and input',`<div id="rp"></div>`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead — press Play to watch the ballistics',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — DIP switches and input',`<div id="rp"></div><div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src('#POD #SERIES/POD11A - #Master/POD11A - #ARTWORK #DA #2016/POD11A-FRONT&REAR-SILK(CURVE).cdr', 'POD11A-FRONT&REAR-SILK(CURVE).cdr')} (2016-06-24|49), CorelDRAW silk plates in their real inks.</div>`)}</div>
    <div>${card('What the firmware did (last action)',`<div id="trace" class="log"></div>`)}${card('Readings at the playhead',`<div id="now"></div>`)}</div></div>
    ${card('Timeline — one second, zoomable: detectors, displayed segments and status on the left channel',`<canvas id="tl"></canvas>`)}
    <div class="grid2">${card('Scope: one AES3 input frame at the playhead',`<canvas id="sc"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
@@ -488,7 +488,7 @@ function viewSoft(m){ window.__pod11aActive=true;
       <p class="small muted">BS1 and CAL agree with the manual if an ON switch reads 0. Read the same way, BS0 ON gives the 3 s decay, which the code calls “type2” and the manual calls Type 2 = OFF: the manual and the code disagree on BS0 (Findings).</p>`; };
   SIM.on('time',draw); }
 function viewNotes(m){ window.__pod11aActive=false;
-  m.innerHTML=card('What the POD11A archive shows — findings',`<ol>
+  m.innerHTML=card('What the POD11A archive shows — findings',`<ol><li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD11A - #Master/POD11A - #ARTWORK #DA #2016/POD11A-FRONT&REAR-SILK(CURVE).cdr', 'POD11A-FRONT&REAR-SILK(CURVE).cdr')} (2016-06-24|49).</b> GREEN + WHITE front plates and the WHITE rear plate registered on the panel outline (assets/pod11a-front.svg, pod11a-rear.svg). Unlike the other PODs the green plate carries no PODS mark: it prints the WBS box logo and “Ward-Beck Systems” bottom right, plus the green VU RANGE / PEAK RANGE brackets; the bar-graph scale numbers are set rotated 90°. Not used: POD11A-Silk-iss2.cdr (2006|39) and the live-text POD11A-FRONT&amp;REAR-SILK.cdr.</li>
    <li><b>Corrected 2026|59: the model is rebased on the POD11A manual and the digital SLM-1 code (see pod11.js, pod3a.js, slm.js).</b> The manual is in the obsolete POD11 folder (<span class="mono">XXX - POD11 - #Master #OBSOLETE/POD11 - #MANUAL #Obsolete/POD11A MANUAL.pdf</span>): BS1 ON = peak hold OFF, PPM decay 1.5 s or 3 s per 24 dB, peak LED above −3 dBFS, 30–96 kHz input, 41 LEDs per bar. The SLM-1 code this plugin used before (<span class="mono">POD3A - #Engineering/sharc/working v101</span>) is POD3A's own analog code (CAL steps 0/+4/+8/+12 dBu). POD11A's firmware is most likely the digital SLM-1 master in <span class="mono">#SLM #SERIES - To Delete/SLM - #Engineering - To Delete/SLM-1/sharc/slm-1-v1.0x</span> (${inf}: the 2004 functional diagram “POD11A AES/EBU MONITOR” shows an “SLM1D Input”).</li>
    <li><b>The code matches the manual's LED count.</b> <span class="mono">sdm_vu_data_1..3</span> light 40 segments (+14 … −16 in 1 dB, then −18 … −28 in 2 dB, −32, −36, −38) and <span class="mono">pk_led_left_1_on</span> (bit 17 of shift1) is the 41st, the peak LED: “a dual set of 41 LEDs”. The 2014 silk prints 57 scale points (52 … +20), so the silk does not match this firmware's bar; points with no firmware LED are drawn darker here (${inf}: a later LED board and table set may have existed).</li>
    <li><b>The CAL switches are 2 dB steps of meter_cal.</b> <span class="mono">read_dipswitch</span>: meter_cal = 4·n − 6 in 0.5 dB units, n from FLAG2/FLAG3, giving −20/−18/−16/−14 dBFS exactly as the manual's table 2 and the rear silk. (The POD3A analog code steps 0/+4/+8/+12 dBu, which is why it did not fit.)</li>

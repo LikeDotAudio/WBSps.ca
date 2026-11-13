@@ -762,51 +762,57 @@ function cardSVG(t, opts){
   s+='</svg>';
   return s;
 }
+/* Card edge: CorelDRAW art D6203A #Functional/D6203A-card-edge.cdr (2008-05-08), converted with Inkscape → assets/opengear-edge.svg.
+   LED windows are the six 5.7 × 12.6 pt tabs on the drawing; the live LEDs sit on them. */
+const EDGE_LED = [21.9, 43.0, 66.2, 94.1, 115.3, 138.5];   // y of REF1, REF2, EXTERNAL, INTERNAL, CAL, COM ACTIVITY (x 127.55)
 function edgeSVG(t){
   const sn=snapAt(t), L=ledsOf(sn);
-  let s=`<svg viewBox="0 0 250 230" style="width:100%;max-width:250px;display:block"><rect width="250" height="230" rx="8" fill="var(--dev)"/>
-    <defs><filter id="ogGlow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-    <rect x="24" y="14" width="14" height="202" fill="#141716" stroke="#333"/>
-    <text x="125" y="226" font-size="10" text-anchor="middle" fill="#8a8f8c">card edge seen through the frame door (manual Fig. 3)</text>`;
-  LED_POS.forEach(([x,y,nm,col],i)=>{ const yy=30+i*31, on=(L>>i)&1;
-    s+=`<rect x="25" y="${yy-6}" width="12" height="12" rx="2" fill="${on?col:'#2b2f2c'}" ${on?'filter="url(#ogGlow2)"':''}/><text x="52" y="${yy+5}" font-size="14" fill="#e6e6e6">${nm}</text>`; });
+  let s=`<svg viewBox="5 4 135 160" role="img" aria-label="D6203A card edge (CorelDRAW art)" style="width:100%;max-width:250px;display:block;border-radius:6px">
+    <defs><filter id="ogGlow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}opengear-edge.svg" width="160" height="325"/>`;
+  LED_POS.forEach(([x,y,nm,col],i)=>{ const yy=EDGE_LED[i], on=(L>>i)&1;
+    s+=`<rect x="124.7" y="${yy-6.3}" width="5.7" height="12.6" rx="1" fill="${on?col:'#2b2f2c'}" stroke="#555" stroke-width=".3" ${on?'filter="url(#ogGlow2)"':''}><title>${nm} ${on?'on':'off'}</title></rect>`; });
   s+='</svg>'; return s;
 }
-/* Rear module: geometry from T6302 - #ENGINEERING/T6302.DXF (panel 1.31 × 3.34 in; BNC pitch 0.625 in; Phoenix pitch 0.148 in),
-   labels from D6203-T6302.pdf / D6203-T6402.pdf and the manual's Fig. 2. Other modules reuse the grid — inferred. */
+/* Rear modules: CorelDRAW art openGear Rear Module Guides/D6203A - rear module options.cdr (2012-01-16), one cell per module
+   (T6302A, T6303A, T6402A, T6403A) → assets/opengear-rear-<T>.svg. Connector centres below are measured on the converted
+   art (BNC Ø 10.6 pt; terminal-block centres from the three screw dots). Electrical roles stay from the netlists. */
+const REAR_ART = {
+  T6302:{c:[[61.7,55.0],[78.8,55.0],[61.7,72.0],[78.8,72.0],[61.7,89.1],[78.8,89.1],[61.7,106.2],[78.9,106.2],[61.7,123.3],[78.9,123.3]], plate:[44,32,52,112]},
+  T6303:{c:[[59.6,53.6],[77.8,53.6],[59.6,70.7],[77.8,70.7],[59.6,87.7],[77.8,87.7],[59.6,104.8],[77.8,104.8],[59.6,121.9],[77.8,121.9]], plate:[42,30,52,112]},
+  T6402:{c:[[64.4,56.3],[81.5,56.3],[64.4,73.3],[81.5,73.3],[64.4,90.4],[81.5,90.4],[64.4,107.5],[81.6,107.5],[64.4,124.6],[81.6,124.6]], plate:[47,34,52,112]},
+  T6403:{c:[[59.8,57.2],[76.9,57.2],[59.8,74.3],[77.0,74.3],[59.8,91.4],[76.9,91.4],[59.8,108.4],[76.9,108.4],[59.8,125.5],[76.9,125.5]], plate:[42,34,52,112]},
+};
 function rearSVG(t, opts){
   opts=opts||{};
-  const w=worldAt(t); const RM=REARS[opts.rear||w.rear];
-  const S=100, X=x=>(x-8.047)*S+10, Y=y=>(21.063-y)*S+10;
-  const colX=[8.507, 9.132], rowY=[20.569,19.944,19.319, 18.695, 18.070];
-  let s=`<svg viewBox="0 0 151 354" role="img" aria-label="${RM.name}" style="width:100%;max-width:230px;display:block">
-    <rect x="10" y="10" width="131" height="334" rx="3" fill="#c9ccd0" stroke="#7a7f85"/>
-    <circle cx="${X(8.702)}" cy="${Y(20.938)}" r="6.7" fill="#9aa0a6" stroke="#555"/><path d="M${X(8.702)-4} ${Y(20.938)} h8 M${X(8.702)} ${Y(20.938)-4} v8" stroke="#333"/>`;
+  const w=worldAt(t), key=opts.rear||w.rear, RM=REARS[key], ART=REAR_ART[key];
+  const vb = opts.compact? ART.plate.join(' ') : '0 0 147.5 155';
+  let s=`<svg viewBox="${vb}" role="img" aria-label="${RM.name} (CorelDRAW art)" style="width:100%;display:block;border-radius:6px">
+    <image href="${ASSET}opengear-rear-${key}.svg" width="147.5" height="155"/>`;
   RM.pos.forEach((p,i)=>{
-    const col=i%2, row=Math.floor(i/2), cx=X(colX[col]), cy=Y(rowY[row]);
+    const [cx,cy]=ART.c[i];
     const [lab,kind,role]=p;
     const mine = !RM.dual || lab.endsWith('#'+(w.pos||1));
-    const live = mine && role!=='nc';
-    let conn=false, key=null;
-    if (role==='refin'){ key='ext'; conn=w.ext.on && mine; }
-    if (role==='ainL'){ key='L'; conn=w.L.on && mine; }
-    if (role==='ainR'){ key='R'; conn=w.R.on && mine; }
-    const clickable = mine && key;
+    let conn=false, k=null;
+    if (role==='refin'){ k='ext'; conn=w.ext.on && mine; }
+    if (role==='ainL'){ k='L'; conn=w.L.on && mine; }
+    if (role==='ainR'){ k='R'; conn=w.R.on && mine; }
+    const clickable = mine && k;
+    const act = (role==='out75'||role==='out110') && mine;
+    s+=`<g ${clickable?`class="og-jack" data-j="${k}" style="cursor:pointer"`:''}>`;
     if (kind==='bnc'){
-      s+=`<g ${clickable?`class="og-jack" data-j="${key}" style="cursor:pointer"`:''}><circle cx="${cx}" cy="${cy}" r="19" fill="#b9a160" stroke="#6b5a25"/><circle cx="${cx}" cy="${cy}" r="12" fill="#e2d39b"/><circle cx="${cx}" cy="${cy}" r="4" fill="#6b5a25"/>
-        ${conn?`<circle cx="${cx}" cy="${cy}" r="15" fill="#2b5f9e" opacity=".85"/><rect x="${cx-5}" y="${cy}" width="10" height="22" fill="#2b5f9e"/>`:''}
-        ${role==='out75'&&mine?`<circle cx="${cx+15}" cy="${cy-15}" r="3.2" fill="${aesActive(t)?'var(--accent)':'#888'}"/>`:''}
-        <rect x="${cx-22}" y="${cy-22}" width="44" height="44" fill="transparent"><title>${lab}${clickable?' — click to '+(conn?'unplug':'plug in'):''}</title></rect></g>`;
+      if (conn) s+=`<circle cx="${cx}" cy="${cy}" r="4.3" fill="#2b5f9e" opacity=".85"/><rect x="${cx-1.6}" y="${cy}" width="3.2" height="7" fill="#2b5f9e" opacity=".85"/>`;
+      if (act) s+=`<circle cx="${cx+4.6}" cy="${cy-4.6}" r="1.1" fill="${aesActive(t)?'var(--accent)':'#888'}"/>`;
+      s+=`<rect x="${cx-6}" y="${cy-6}" width="12" height="12" fill="transparent" ${mine?'':'opacity=".5"'}><title>${i+1} ${lab}${clickable?' — click to '+(conn?'unplug':'plug in'):''}</title></rect>`;
     } else {
-      const pins=[0,1,2].map(k=>`<rect x="${cx-7}" y="${cy-21+k*14.8}" width="14" height="11" fill="#1d7a40" stroke="#0b4b26"/><circle cx="${cx}" cy="${cy-15.5+k*14.8}" r="3" fill="#0b2b16"/>`).join('');
-      s+=`<g ${clickable?`class="og-jack" data-j="${key}" style="cursor:pointer"`:''}><rect x="${cx-11}" y="${cy-24}" width="22" height="48" fill="#24944d" stroke="#0b4b26"/>${pins}
-        ${conn?`<path d="M${cx+11} ${cy-15} h10 M${cx+11} ${cy} h10 M${cx+11} ${cy+15} h10" stroke="#2b5f9e" stroke-width="4"/>`:''}
-        ${(role==='out110')&&mine?`<circle cx="${cx+15}" cy="${cy-21}" r="3.2" fill="${aesActive(t)?'var(--accent)':'#888'}"/>`:''}
-        <rect x="${cx-24}" y="${cy-26}" width="48" height="52" fill="transparent"><title>${lab}${clickable?' — click to '+(conn?'unplug':'plug in'):''}</title></rect></g>`;
+      if (conn) s+=`<path d="M${cx+4} ${cy-4} h4 M${cx+4} ${cy} h4 M${cx+4} ${cy+4} h4" stroke="#2b5f9e" stroke-width="1.6"/><rect x="${cx-4}" y="${cy-7}" width="8" height="14" fill="#2b5f9e" opacity=".35"/>`;
+      if (act) s+=`<circle cx="${cx+4.6}" cy="${cy-7.6}" r="1.1" fill="${aesActive(t)?'var(--accent)':'#888'}"/>`;
+      s+=`<rect x="${cx-5}" y="${cy-8}" width="10" height="16" fill="transparent"><title>${i+1} ${lab}${clickable?' — click to '+(conn?'unplug':'plug in'):''}</title></rect>`;
     }
-    s+=`<text x="${col? cx+22 : cx-22}" y="${cy+30}" font-size="7.5" text-anchor="${col?'end':'start'}" fill="${live?'#1b1d20':'#7c8186'}" font-weight="${live?700:400}">${i+1} ${lab}</text>`;
+    s+='</g>';
+    if (RM.dual && !mine) s+=`<rect x="${cx-5.5}" y="${cy-7.5}" width="11" height="15" fill="#000" opacity=".12"/>`;
   });
-  s+=`<text x="75" y="352" font-size="7" text-anchor="middle" fill="#55595f">${(opts.rear||w.rear)} · ID ${RM.id}</text></svg>`;
+  s+=`</svg>`;
   return s;
 }
 function aesActive(t){ const sn=snapAt(t); return sn.mode==='app' && !sn.da; }
@@ -1089,13 +1095,13 @@ function viewSim(m){
   <div class="grid2">
     <div>${card('Frame, card and card edge at the playhead', `<div id="frm"></div>
         <div style="display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:10px;align-items:start;margin-top:8px"><div id="crd"></div><div id="edge"></div></div>
-        <div class="small muted" style="margin-top:4px">Card = D6203A ISS4 top side from the gerbers (TOP + TSM + TSS, 120 dpi). Click DIP switches, jumpers H1/H2/H3 and trimmers RV1/RV2; click a frame slot to move the card. Keys: R reference · S sample rate · X REF IN cable · L left cable · O open in DashBoard · N next second.</div>
+        <div class="small muted" style="margin-top:4px">Card edge = ${SIM.src('#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203A-card-edge.cdr','D6203A-card-edge.cdr')} (CorelDRAW, 2008|41). Card = D6203A ISS4 top side from the gerbers (TOP + TSM + TSS, 120 dpi). Click DIP switches, jumpers H1/H2/H3 and trimmers RV1/RV2; click a frame slot to move the card. Keys: R reference · S sample rate · X REF IN cable · L left cable · O open in DashBoard · N next second.</div>
         <div id="wc"></div>`)}</div>
     <div>${card('Parameter window (DashBoard-style, generic)', `<div id="dash"></div>`)}
       ${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}</div>
   </div>
   <div class="grid2">
-    <div>${card('Rear module — click REF IN and the LEFT/RIGHT blocks to plug or unplug', `<div style="display:grid;grid-template-columns:200px minmax(0,1fr);gap:12px"><div id="rear"></div><div id="rearInfo" class="small"></div></div>`)}</div>
+    <div>${card('Rear module — click REF IN and the LEFT/RIGHT blocks to plug or unplug', `<div style="display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:12px"><div><div id="rear"></div><div class="small muted">Rear-module art: ${SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr','D6203A - rear module options.cdr')} (CorelDRAW, 2012|45)</div></div><div id="rearInfo" class="small"></div></div>`)}</div>
     <div>${card('State at the playhead', `<div id="insp"></div>`)}</div>
   </div>
   ${card('Timeline — one second, as seen by the card and the displays (click to seek)', `<canvas id="tl"></canvas><p class="small muted">Pass time 175 µs is the source’s own figure (ADC_RESET_CONSTANT comment). Timer periods come from the register values (8 MHz, clk/64). CS8416 lock time, MFC pacing and the phase of the 1 s / heartbeat counters are ${inf}. Changes you make are events at the playhead; “Next second” carries the end state forward.</p>`)}
@@ -1153,7 +1159,7 @@ function viewTutorial(m){
   const draw=()=>{
     const t=SIM.t; finishUploadIfDone();
     if (wcVer!==D.ver){ wcVer=D.ver; m.querySelector('#wc').innerHTML=worldControlsHTML(); bindWorld(m); }
-    m.querySelector('#frm').innerHTML=frameSVG(t); m.querySelector('#crd').innerHTML=cardSVG(t,{labels:false}); m.querySelector('#rear').innerHTML=rearSVG(t);
+    m.querySelector('#frm').innerHTML=frameSVG(t); m.querySelector('#crd').innerHTML=cardSVG(t,{labels:false}); m.querySelector('#rear').innerHTML=rearSVG(t,{compact:true});
     m.querySelector('#dash').innerHTML=dashHTML(t); m.querySelector('#edge').innerHTML=edgeSVG(t); m.querySelector('#trace').innerHTML=traceHTML();
     m.querySelector('#lessons').innerHTML = LESSONS.map((l,i)=>`<li style="cursor:pointer;${i===lessonIdx?'font-weight:700;color:var(--accent)':''}" data-i="${i}">${l.title}${i<lessonIdx?' ✓':''}</li>`).join('');
     m.querySelectorAll('#lessons li').forEach(li=>li.onclick=()=>{ lessonIdx=+li.dataset.i; draw(); });
@@ -1430,16 +1436,18 @@ function viewNotes(m){
    <li><b>Unassigned FPGA pins enable the reference receivers.</b> U9/U12/U14 RXEN go to EP1C3 pins 71, 53 and 54, which <span class="mono">D6203.qsf</span> never assigns; the receivers work only because Quartus treats unused pins as driven low by default ${inf}.</li>
    <li><b>Bootloader quirks on this card.</b> The Ross loader’s LEDs are on PG3/PG4 (<span class="mono">leds.h</span>), not wired on the D6203A, so the card edge is dark during an upload. Its first BOOTING broadcast goes out at once because <span class="mono">now − msgSent</span> (unsigned char, msgSent = 2) wraps to 254. BOOT_TIMEOUT 60 s returns to the old application if no upload starts.</li>
    <li><b>One build, three labels.</b> All three zeuspack configs pack the same hex with the same product list, so <span class="mono">D6203a_v1_04.bin</span>, <span class="mono">adc-8432_v1_04.bin</span> and <span class="mono">9345_v1_04.bin</span> differ only in file name unless common.h was edited between builds ${inf}. Every brand also compiles in “www.ward-beck.com”.</li>
+   <li><b>Artwork 2026|59: card edge and rear modules now from CorelDRAW.</b> Card edge from ${SIM.src('#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203A-card-edge.cdr','D6203A-card-edge.cdr')} (2008-05-08); rear modules T6302A, T6303A, T6402A and T6403A from ${SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr','D6203A - rear module options.cdr')} (2012-01-16), the latest of the module drawings (the 2007|40–2008|41 sheets ${SIM.src('#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203-T6302.cdr','D6203-T6302.cdr')}, ${SIM.src('#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203-T6402.cdr','D6203-T6402.cdr')} show the same plates in a sheet frame). What the art shows: the 2012 guide labels T6302A positions 8 and 10 “Not Connected”, settling the 2007 “AES1 / AES2” label above in favour of the manual and netlists; the card-edge drawing has exactly six LED windows (no COM ERROR); on T6402A BNC 3 (AES OUT 1 Card 2) is shaded like the two REF IN jacks — a drawing leftover, the netlist gives it no special role; all four modules carry an “A” suffix (T6302A …) that the netlists and the plugin’s IDs do not. The guide’s text was live (Arial), so libcdr kept the words but not their alignment: the small “G – +” pin legends beside the terminal blocks are re-stacked from the drawing’s line breaks and sit slightly off.</li>
    <li><b>Paperwork slips.</b> The history sheet says “Released – Ross Video (DAC-8432)” (it is ADC-8432); the Ross OEM spec for ADC-8432 is headed “DolbyE/AC3 Decoder”, talks of buying D6207A cards and asks for “auto keys” and video frequency response — a template carried over.</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
    <li>Main-loop pass = 175 µs everywhere (the source’s own comment); CAN_FUNCTIONS, CS8416 reads and EEPROM writes vary in reality.</li>
    <li>CS8416 lock time 20 ms, AK5394A calibration 8704 sample periods, watchdog 16 ms, CAN bit stuffing +10 %, frame-controller request order and 0.4 ms gaps, phases of the 1 s timer0 window (0.25 s) and the first heartbeat (0.42 s) ${inf}.</li>
    <li>H1/H2 levels (+24 / +22 dBu = 0 dBFS) and the ±1.5 dB RV range ${inf}; the default DIP setting (Internal, 48 kHz, memory, DashBoard on) is ${inf}.</li>
    <li>Byte 0 and byte 3 of SET_PARAM requests, and how DashBoard handles the 10-vs-12 OID count, are ${inf}. The upload progress bar is compressed.</li>
-   <li>The rear-module drawings reuse the T6302 DXF grid for T6303/T6402/T6403 ${inf}; card DIP orientation ${inf}.</li></ul>`) + card('Sources', `<ul class="small mono">
+   <li>Card DIP orientation ${inf}. Rear modules and card edge are the CorelDRAW guide art; the jack hit areas were measured on it.</li></ul>`) + card('Sources', `<ul class="small mono">
    <li>#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Software/atmel/v104/*.c *.h *.mak *.mp *.aps *_ztcpack.txt</li>
    <li>…/D6203A #Software/altera/v100/D6203.qsf, D6203_1.bdf, *.vhd · …/atmel/Bootloader/common/bootavr.c, upgrade.c, leds.h, flashdrv.h</li>
    <li>…/D6203A #PCB/D6203Aiss4.net, .bom, .pnp; GERBERS/D6203AISS4.TOP, .TSM, .TSS → assets/opengear-d6203a-copper.png, opengear-d6203a-silk.png</li>
+   <li>${SIM.src('#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR/D6203A #Functional/D6203A-card-edge.cdr','D6203A-card-edge.cdr')} → assets/opengear-edge.svg · ${SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6203A - rear module options.cdr','D6203A - rear module options.cdr')} → assets/opengear-rear-T6302/T6303/T6402/T6403.svg</li>
    <li>…/D6203A #Functional/D6203-T6302.pdf, D6203-T6402.pdf · T6302 - #ENGINEERING/T6302.DXF, T6302-iss3.net · T6303-iss3.net · T6402-iss2.net · T6403.net, T6403-iss2.net · T6406-iss1.net</li>
    <li>#OPEN GEAR - #Engineering/…/openGear #Manuals #OBSOLETE/D6203A Manual.pdf · OpenGear Frame Address ID.xls · AA62XX/AA6201A V5.1 programming instruction.docx · OGP_SDK/…/gearos.c, ztctasks.c · oem specs/ADC-8432 OEM Specification.pdf · Open GearFrame to PC set up instruction.pdf</li></ul>`);
 }

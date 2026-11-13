@@ -441,12 +441,36 @@ function ROLE(d,v){ if (/CS8416/.test(v)) return 'AES receiver, one per external
   if (/AT90CAN/.test(v)) return 'Control processor (v3.00 firmware)'; if (/GS1574/.test(v)) return 'SDI adaptive equaliser'; if (/GS1559/.test(v)) return 'SDI deserializer'; if (/GS1531/.test(v)) return 'SDI serializer (output with embedded audio)'; if (/GS1528/.test(v)) return 'SDI cable driver'; if (/SW8/.test(v)) return 'DIP switch SW1'; if (/^LED/.test(d)) return 'Card-edge LED'; return ''; }
 const RM={ T6301:{name:'T6301', sub:'M6204A-T6301.cdr', note:'T6301: SDI IN, AES IN1–IN7, SDI OUT1, SDI OUT2. There is no AES IN8 connector.', cells:[[1,'SDI IN','in'],[2,'AES IN7',6],[3,'AES IN1',0],[4,'AES IN2',1],[5,'AES IN3',2],[6,'AES IN4',3],[7,'AES IN5',4],[8,'AES IN6',5],[9,'SDI OUT1','o'],[10,'SDI OUT2','o']]},
   T6305:{name:'T6305', sub:'M6204A-T6305.cdr', note:'T6305 drawing: AES IN8 appears at both 8 and 9 (no IN6), METADATA at 10, and no SDI output at all.', cells:[[1,'SDI IN','in'],[2,'AES IN7',6],[3,'AES IN1',0],[4,'AES IN2',1],[5,'AES IN3',2],[6,'AES IN4',3],[7,'AES IN5',4],[8,'AES IN8 (sic)',7],[9,'AES IN8',7,'bnc'],[10,'META DATA','m']]} };
-function rearSVG(){ const r=RM[D.rear], L=locked();
-  return K.rearSVG({name:r.name, sub:r.sub, id:'HDTV AUDIO MULTIPLEXER · single card', cells:r.cells.map(([n,l,o])=>{ if(o==='in') return {n,label:l,id:'in',conn:D.sdi.conn,live:D.sdi.conn?(L?true:'warn'):undefined}; if (o==='o') return {n,label:l,live:L?true:'err'}; if (o==='m') return {n,label:l,kind:'tb',live:'off'};
-    return {n,label:l,id:'x'+o,conn:D.ext[o].t>0,live:D.ext[o].t>0?true:undefined,title:T[D.ext[o].t]+' '+D.ext[o].fs/1000+' kHz'}; })}); }
-function edgeSVG(t){ const L=ledsAt(t); const names=['SD','HD','ERR','AES1','AES2','AES3','AES4','AES5','AES6','AES7','AES8','Cascade On'];
-  const st=[L.sd,L.hd,L.err,...L.aes,L.cas], ys=[40,64,88,128,152,176,200,240,264,288,312,370];
-  return K.edgeSVG({label:'M6204A', maxw:260, note:'M6204-card-edge.cdr', leds:names.map((n,i)=>({name:n,c:i===2?'r':i===11?'y':'g',on:st[i],y:ys[i]}))}); }
+/* ---- Artwork 2026|59: card edge and rear module from the archive's CorelDRAW drawings (assets/*.svg, cleaned by the
+   artwork pass). Jacks and LEDs are placed on the BNC / LED centres read from those SVGs; same data-jack hooks as the kit. */
+const LIVEC={true:'#2f8f46',warn:'#d9a21b',err:'#c0392b',off:'#7d8286'};
+function artRear(a, cells, cap){ const v=a.vb, r=a.r;
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:${a.maxw||280}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${a.name} rear module (archive drawing)">
+    <image href="${a.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  cells.forEach(c=>{ const i=c.n-1, cx=a.cols[i%2], cy=a.ys? a.ys[Math.floor(i/2)] : a.y0+Math.floor(i/2)*a.dy;
+    s+=`<g ${c.id?`class="og62-hot" data-jack="${c.id}" style="cursor:pointer"`:''}><title>${c.n}: ${c.label}${c.title?' — '+c.title:''}${c.id?(c.conn?' (click to unplug)':' (click to plug in)'):''}</title>
+      ${c.conn?(c.kind==='tb'?`<rect x="${cx+r*.6}" y="${cy-r*.9}" width="${r*1.2}" height="${r*.5}" rx="${r*.15}" fill="#2b5f9e"/><rect x="${cx+r*.6}" y="${cy+r*.4}" width="${r*1.2}" height="${r*.5}" rx="${r*.15}" fill="#2b5f9e"/>`
+        :`<rect x="${cx-r*.28}" y="${cy}" width="${r*.56}" height="${r*1.9}" fill="#2b5f9e"/><circle cx="${cx}" cy="${cy}" r="${r*.78}" fill="#3a74b8" opacity=".88"/>`):''}
+      ${c.live===undefined?'':`<circle cx="${cx+r*.95}" cy="${cy+r*.95}" r="${r*.2}" fill="${LIVEC[c.live]||LIVEC.off}" stroke="#222" stroke-width="${r*.03}"/>`}
+      <rect x="${cx-r*1.15}" y="${cy-r*1.15}" width="${r*2.3}" height="${r*2.3}" fill="transparent"/></g>`; });
+  return s+`</svg><div class="small muted" style="margin-top:2px">${cap||''}</div>`; }
+function artEdge(a, leds, label, cap){ const v=a.vb, lc={g:'#5dff5a', r:'#ff4a3d', y:'#ffd23a', a:'#ffb43a', b:'#59b6ff', w:'#f4f4ea'};
+  let s=`<svg viewBox="${v.join(' ')}" style="width:100%;max-width:${a.maxw||170}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${label} card edge (archive drawing)">
+    <defs><filter id="${a.fid}" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${a.href}" x="${v[0]}" y="${v[1]}" width="${v[2]}" height="${v[3]}"/>`;
+  leds.forEach(l=>{ const on=!!l.on, col=lc[l.c]||l.c; s+=`<circle cx="${l.x||a.x}" cy="${l.y}" r="4.2" fill="${on?col:'#2c332c'}" fill-opacity="${on?1:.55}" ${on?`filter="url(#${a.fid})"`:''}><title>${l.name} LED${l.title?': '+l.title:''} (${on?'lit':'off'})</title></circle>`; });
+  return s+(a.extra||'')+`<text transform="translate(238.5 554.5) rotate(-90)" text-anchor="middle" font-size="9" font-weight="700" fill="#111">${label}</text></svg><div class="small muted" style="margin-top:2px">${cap||''}</div>`; }
+const ART_DIR='#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR/M6204 - #Engineering/', GUIDE='#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/M6204A - rear module options.cdr';
+const REAR_ART={ T6301:{name:'T6301A', href:'siumulation-plugins/assets/m6204-rear-t6301a.svg', vb:[330,213,96,129], cols:[365.83,384.73], y0:254.13, dy:18.9, r:5.85, src:()=>SIM.src(GUIDE,'M6204A - rear module options.cdr')+' (2012-01-09; same layout as M6204A-T6301.cdr, 2007-06-26)'},
+  T6305:{name:'T6305', href:'siumulation-plugins/assets/m6204-rear-t6305.svg', vb:[262,328,274,348], cols:[359.86,419.86], y0:400.5, dy:60, r:18.7, src:()=>SIM.src(ART_DIR+'M6204A-T6305.cdr','M6204A-T6305.cdr')+' (2007-10-11)'} };
+const EDGE_ART={href:'siumulation-plugins/assets/m6204-edge.svg', vb:[120,130,142,456], x:244.05, fid:'m64aGlow', ys:[151.7,172.3,192.8,228.5,249.7,270.9,292.5,329.4,348.9,368.4,387.9,439.7], src:()=>SIM.src(ART_DIR+'M6204-card-edge.cdr','M6204-card-edge.cdr')+' (2009-03-02)'};
+[EDGE_ART.href, ...Object.values(REAR_ART).map(a=>a.href)].forEach(u=>{ const im=new Image(); im.src=u; });   // warm the image cache: panels are redrawn every tick
+function rearSVG(){ const r=RM[D.rear], L=locked(), a=REAR_ART[D.rear];
+  return artRear(a, r.cells.map(([n,l,o,k])=>{ if(o==='in') return {n,label:l,id:'in',conn:D.sdi.conn,live:D.sdi.conn?(L?true:'warn'):undefined}; if (o==='o') return {n,label:l,live:L?true:'err'}; if (o==='m') return {n,label:l,kind:'tb',live:'off'};
+    return {n,label:l,kind:(D.rear==='T6305'&&n===9)?'tb':'bnc',id:'x'+o,conn:D.ext[o].t>0,live:D.ext[o].t>0?true:undefined,title:T[D.ext[o].t]+' '+D.ext[o].fs/1000+' kHz'}; }), `${a.name} · HDTV AUDIO MULTIPLEXER, single card: ${a.src()}`); }
+function edgeSVG(t){ const L=ledsAt(t); const names=['SD','HD','ERR','AES1','AES2','AES3','AES4','AES5','AES6','AES7','AES8','CASCADE ON'];
+  const st=[L.sd,L.hd,L.err,...L.aes,L.cas];
+  return artEdge(EDGE_ART, names.map((n,i)=>({name:n,c:i===2?'r':i===11?'y':'g',on:st[i],y:EDGE_ART.ys[i]})), 'M6204A', 'Card edge: '+EDGE_ART.src()); }
 function dashHTML(){ const L=locked(), ro=!D.lat.dashEn;
   return K.dashHTML({key:'m6204a', title:`Slot ${D.slot}: M6204A`, alarm:!L, tree:[{name:'DFR-8320 frame'},{name:'MFC-8310',lvl:1},{name:`Slot ${D.slot}: M6204A`,lvl:1,sel:true}],
     tabs:[{name:'Card Info',rows:[{type:'text',label:'Product',value:'M6204A'},{type:'text',label:'Name',value:'MD-SDI Embedded Audio Multiplexer'},{type:'text',label:'Manufacturer',value:'Ward-Beck Systems'},{type:'text',label:'Board Rev',value:'Iss.3'},{type:'text',label:'Software Rev',value:D.build==='v300'?'3.00':'1.02'}]},
@@ -525,6 +549,7 @@ function viewSoft(m){ m.innerHTML=`<div class="grid2"><div>${card('Main loop (v1
     m.querySelector('#dec').innerHTML=`<table class="kv small"><tr><th>Pair</th><th>emb_aesN_cha</th><th>auto_src</th><th>aesN_lock</th><th>→ code</th></tr>${[0,1,2,3,4,5,6,7].map(i=>`<tr><td>${i+1}</td><td class="mono">${['EMB_AUDIO','AES_AUDIO','','MUTE_AUDIO'][pairSrc(i)]}</td><td class="mono">${D.auto[i]?'YES':'NO'}</td><td class="mono">${extLock(i)?(D.ext[i].t>1?'> PCM':'PCM'):'0'}</td><td class="mono">${resolved(i)} ${['EMB','AES','SRC','MUTE'][resolved(i)]}</td></tr>`).join('')}</table>`; };
   SIM.on('time', draw); }
 const FINDINGS=[
+  `<b>Artwork 2026|59: card edge and rear modules now from the CorelDRAW files.</b> Card edge: ${EDGE_ART.src()}; T6301A: ${REAR_ART.T6301.src()}; T6305: ${REAR_ART.T6305.src()}. The T6305 drawing shows position 9 as a 3-pin terminal block (G − +) that is also labelled AES IN8, beside the AES IN8 BNC at 8 — the same input twice, with nothing for IN6 and no SDI output. The edge drawing calls the yellow LED “CASCADE ON”, and shows no switch or DIP at the front (SW1 is on the board).`,
   `<b>The group count switch does nothing in 3.0.0.0.</b> PROCESS_DIP_SWITCHES still turns SW1/SW2 into audio_groups_enabled, but the live ALTERA_SORT starts with number_of_groups = 3 and sends that in OUT[12] — always four groups.`,
   `<b>Register map doc does not add up.</b> The operational-info doc gives “bits 47…0 audio router, 6 bits for each of 16 outputs” (96 bits), and both external and embedded sources start at code 000000. The code shows two schemes: a 6-bit-per-channel packing over 12 bytes (left commented out) and, in v3.00, 2 bits per embedded pair (EMB / AES / SRC / MUTE).`,
   `<b>DashBoard says “OK” instead of a format.</b> V3000 notes: 1080p 23.98–30, 1080i 60, 720p 50 and 60 show “OK”; 525, 625, 1080i 59.94/50 and 720p 59.94 show the format. The status bits only carry 1080/720/525/625 lines and 50/60 Hz.`,

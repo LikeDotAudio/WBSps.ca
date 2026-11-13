@@ -472,6 +472,13 @@ const A = {
    at 2.193/3.177 (inside), single-D .500×.470 and double-D .512×.450 (cord bushing and fuse holder, inferred from the silk’s
    “115 VAC, 1/2 A.S.B.”). POD17-110 REAR ISS 2 (“modified to AC connector”, 2008|41): Phoenix cut-outs, IEC inlet 1.256×1.080. */
 const ASSET = 'siumulation-plugins/assets/';
+/* Panel artwork 2026|59: CorelDRAW sheet converted with Inkscape (libcdr) → assets/pod17-front.svg and rear SVG(s)
+   (ink plates coloured green rgb(52,168,83) / white rgb(240,240,236), cut-outs as dark holes, drill crosshairs faint;
+   registered to the older PNG silks to ±1 px so every control keeps its place). The PNGs stay on a toggle. */
+const ART = {cdr:true};
+const ART_CDR = '#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT&REAR-SILK (CURVE).cdr';
+function artNote(){ return `<div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src(ART_CDR, ART_CDR.split('/').pop())} (CorelDRAW, default) · <label><input type="checkbox" class="pod17-art" ${ART.cdr?'':'checked'}> show the older PNG silks (cut from ${SIM.src('#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-FRONT-SILK (CURVE).pdf','FRONT-SILK (CURVE).pdf')} / ${SIM.src('#POD #SERIES/POD17 - #Master/POD17 - #ARTWORK #DA #2016/POD17-REAR-SILK(CURVE).pdf','REAR-SILK(CURVE).pdf')})</label></div>`; }
+document.addEventListener('change', e=>{ if (e.target && e.target.classList && e.target.classList.contains('pod17-art')){ ART.cdr = !e.target.checked; SIM.refresh(); } });
 const LEDS_X = { audio:849, src:919, rem:989, err:1059 };
 const LED_COL = { audio:'#4dff5a', src:'#4dff5a', rem:'#ffd23a', err:'#ff3b2f' };
 function frontSVG(t, opts){
@@ -488,8 +495,8 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD17 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="p17glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1714" height="321" rx="8" fill="#141517"/>
-    <image href="${ASSET}pod17-front-green.png" width="1714" height="321"/>
-    <image href="${ASSET}pod17-front-white.png" width="1714" height="321"/>
+    ${ART.cdr ? `<image href="${ASSET}pod17-front.svg" width="1714" height="321"/>` : `<image href="${ASSET}pod17-front-green.png" width="1714" height="321"/>
+    <image href="${ASSET}pod17-front-white.png" width="1714" height="321"/>`}
     <g class="p17pwr" style="cursor:pointer"><title>Power rocker (PAN256) — click</title><rect x="129" y="54" width="102" height="154" rx="8" fill="#0b0c0d" stroke="#2d3033" stroke-width="2"/>
       <rect x="143" y="${p.power?68:126}" width="74" height="68" rx="6" fill="#1b1d20" stroke="#3a3e42"/><rect x="149" y="${p.power?74:184}" width="62" height="10" rx="3" fill="#2b2e31"/></g>
     <circle cx="299" cy="220" r="14" fill="#060707"/><circle cx="299" cy="220" r="10" fill="${p.power?'#9dff7a':'#1f2a1c'}" ${p.power?'filter="url(#p17glow)"':''}><title>Power LED (green, straight off the 5 V rail via R33)</title></circle>
@@ -515,7 +522,7 @@ function rearSVG(t){
       ${p.remote?`<rect x="1110" y="168" width="132" height="82" rx="8" fill="#3a3d40" stroke="#222" stroke-width="2"/><rect x="1150" y="250" width="52" height="71" fill="#2a2c2e"/><text x="1176" y="215" fill="#ddd" font-size="18" text-anchor="middle">REMOTE</text>`:''}
       ${screw(1078,209)}${screw(1275,209)}</g>`;
   let s = `<svg viewBox="0 0 1714 321" role="img" aria-label="POD17/${D.variant} rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
-    <rect width="1714" height="321" rx="8" fill="#141517"/>`;
+    <rect width="1714" height="321" rx="8" fill="#141517"/>${ART.cdr ? `<image href="${ASSET}pod17-rear${D.variant}.svg" width="1714" height="321"/>` : ''}`;
   if (D.variant === '75'){
     const bnc = (x,y,plug,id,tip)=>`<g ${id?`class="p17j" data-j="${id}" style="cursor:pointer"`:''}><title>${tip}</title>
       <circle cx="${x}" cy="${y}" r="40" fill="#1a1b1c"/><circle cx="${x}" cy="${y}" r="33" fill="#b9bcc0" stroke="#6d7175" stroke-width="3"/><circle cx="${x}" cy="${y}" r="21" fill="#d6c27c"/><circle cx="${x}" cy="${y}" r="7" fill="#7a5f12"/>
@@ -540,7 +547,8 @@ function rearSVG(t){
       ${[[253,111],[253,211],[991,111],[991,211]].map(([x,y])=>screw(x,y)).join('')}`;
   }
   s += [[50,160],[1664,160]].map(([x,y])=>screw(x,y)).join('');
-  s += `<image href="${ASSET}pod17-rear${D.variant}-white.png" width="1714" height="321"/>`;
+  s += ART.cdr ? `<image href="${ASSET}pod17-rear${D.variant}-ink.svg" width="1714" height="321"/>` /* legends stay readable over the cord and plugs */
+               : `<image href="${ASSET}pod17-rear${D.variant}-white.png" width="1714" height="321"/>`;
   if (p.power && o.carrier) s += `<circle cx="${D.variant==='75'?965:985}" cy="${D.variant==='75'?150:40}" r="8" fill="${o.silent?'var(--warn)':'var(--accent)'}"><title>${outTxt}</title></circle>`;
   return s + '</svg>';
 }
@@ -786,7 +794,7 @@ function viewSim(m){
   <div class="grid2">
     <div>
       ${card('Front panel at the playhead (real silkscreen)', `<div id="fp"></div><div id="ctl"></div>`)}
-      ${card('Rear panel — click INPUT / REFERENCE / CONTROL', `<div id="rp"></div>`)}
+      ${card('Rear panel — click INPUT / REFERENCE / CONTROL', `<div id="rp"></div>${artNote()}`)}
     </div>
     <div>
       ${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}
@@ -1134,6 +1142,7 @@ function viewFindings(m){
   window.__pod17Active = false; tutMode = false;
   const T = simulate().avgPass;
   m.innerHTML = card('What the POD17 firmware is up to — findings from the source', `<ol>
+    <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src(ART_CDR, ART_CDR.split('/').pop())}</b> (file 2015-10-02, sheet dated Jun.25/14: front GREEN, front WHITE, rear 75 and rear 110 plates on one sheet). Its cut-out layer confirms what the plugin had taken from the mechanical drawings: real LED holes at SRC and CH A although the legend has no crosshair for either, the 75 Ω rear's D-cut BNC holes, single-D cord bushing and double-D fuse holder, and a PEM-stud hole printed over the “115 VAC, 1/2 A.S.B.” legend. The 110 Ω rear plate has an unlabelled hole at its top right corner (as on POD19). The older PNG silks are on the toggle under the rear panel.</li>
     <li><b>The SHARC handshake is switched off, and its delays run every pass.</b> In <span class="mono">SHARC_link_control</span> the frame-code check and the timeout that would jump to <span class="mono">WHOLE_RESET</span> are all commented out. What is left (clear the LEDs, <span class="mono">CALL delay</span> three times, clear <span class="mono">SHARC_IN_INIT</span>, <span class="mono">flush8420reg</span>) was meant to run once, when the SHARC answered. It now runs on every pass: 3.75 ms of the ≈ ${(T*1000).toFixed(1)} ms loop is spent waiting, and the PIC never notices if the SHARC is dead.</li>
     <li><b>The front LEDs are pulsed at ≈ ${(1/T).toFixed(0)} Hz.</b> <span class="mono">SHARC_link_control</span> clears LED_0–LED_3 at the start of every pass; <span class="mono">LED_processing</span> sets them again 9 calls later. They are only lit for ≈ ${(ledDuty()*100).toFixed(0)} % of the time (set the LED view to “instantaneous” in the Simulator). The power LED, wired straight to the supply, is the only steady one.</li>
     <li><b>Timing comments from a 4 MHz design.</b> <span class="mono">delay</span> says “Provide a 1.54mS delay”: 1535 cycles is 1.54 ms at 4 MHz but 1.25 ms with the POD17's 4.9152 MHz crystal (BOM X2). The hysteresis comment says lock-up takes “about 4 second”; with this loop it is 256 readings × 12 passes ≈ ${(256*12*T).toFixed(0)} s.</li>

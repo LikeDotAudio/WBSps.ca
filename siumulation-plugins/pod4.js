@@ -25,17 +25,24 @@ const fdb = (d,n) => d<-150 ? '−∞' : (d>=0?'+':'−')+Math.abs(d).toFixed(n=
 const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
+/* Artwork 2026|59: both panels come straight from the CorelDRAW sheet POD4-FRONT&REAR-SILK (CURVE).cdr (Jun.19/14, text as curves). Inkscape → plain SVG;
+   the FRONT GREEN, FRONT WHITE and REAR WHITE plates were cut at their outline (x 116.75 pt; y 75.00 / 250.87 / 425.38 pt; 617.04 × 115.63 pt = 8.570 × 1.606 in),
+   the two front plates registered on one face and inked POD green rgb(52,168,83) / white rgb(240,240,236). Cut-outs, screw holes
+   and drill centre marks are kept as faint geometry, not ink (the photos show no printed crosshairs). 1 pt = 200/72 px, so the
+   art lands on the same 1714 × 321 grid as the controls. */
+const ART_SRC = '#POD #SERIES/POD4 - #Master/POD4 - #ARTWORK #DA #2016/POD4-FRONT&REAR-SILK (CURVE).cdr';
+const ART_CAP = `<div class="small muted" style="margin-top:4px">Front and rear artwork: ${SIM.src(ART_SRC, 'POD4-FRONT&REAR-SILK (CURVE).cdr')} (CorelDRAW, Jun.19/14 · ${SIM.year(2014)}), green and white plates registered on one panel.</div>`;
 const PW = 1714, PH = 321;
 function panelSVG(prefix, side, inner, label){
-  const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
+  const art = `${prefix}-${side==='front'?'front':(inner.art||'rear')}.svg`;
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="glow${side}" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="${PW}" height="${PH}" rx="10" fill="var(--dev)"/>
     ${inner.under||''}
-    ${layers.map(l=>`<image href="${ASSET}${prefix}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}
+    <image href="${ASSET}${art}" width="${PW}" height="${PH}" preserveAspectRatio="none" style="pointer-events:none"/>
     ${inner.over||''}
     ${screw(50,160)}${screw(1664,160)}
-  </svg>`;
+  </svg>${side==='front'?'':(inner.cap||ART_CAP)}`;
 }
 function screw(x,y){ return `<circle cx="${x}" cy="${y}" r="13" fill="#6d7175" stroke="#3a3d40" stroke-width="2"/><path d="M${x-7} ${y}h14M${x} ${y-7}v14" stroke="#33363a" stroke-width="3"/>`; }
 function rocker(on, x, y){ x=x||137; y=y||58;
@@ -583,6 +590,7 @@ const viewSoft = softView({ flag:'__pod4Active', D, intro:'POD4 has no processor
   buttons:[['Rocker','T1 → D1–D4 → LM317/LM337 → ±V; multiplier → LM317LZ → +48V','Rails, phantom'],['48V A/B slide','+48V → R15/R22 100R → 6K81 pair → XLR 2/3; V+ → R29/R31 → PH LED','Phantom on the mic'],['LVL A/B trim','LVL_x between SSM2017 pins 1 and 8 with 10R','26–60 dB (FINAL) preamp gain'],['A/B MUTE closure','R75/R76 → 74HC4053 A/C select; MUTE LED from +5','SWITCHED out and mix muted'],['MIC MIX LVL','MIX_LVL wiper → R73 → U7A','Mix level']],
   pins:[['MIC A/B (XLR-F)','2 / 3 / 1','XLR_x-2 (C14+) / XLR_x-3 (C13+) / GND'],['Rear block (2 × 9-way Phoenix 3.5 mm)','1–15','DIRECT B, DIRECT A, SWITCHED B, SWITCHED A, MIX: + − G each (via H2 14-way)'],['CTL','16 / 17 / 18','B MUTE / A MUTE / G (closure to G mutes)'],['H2 (14-way)','1/2 · 3/4 · 5/6 · 7/8 · 9/10 · 13/14','A/B mute ctl · MIX · SW B · SW A · DIR A · DIR B']] });
 const viewNotes = notesView('__pod4Active','What the POD4 archive shows — findings',[
+  ()=>`<b>Artwork ${SIM.year(2026)}: front/rear panels now from ${SIM.src(ART_SRC,'POD4-FRONT&REAR-SILK (CURVE).cdr')} (Jun.19/14).</b> The front plates carry the cut-outs as outlines, and every LED, slide, trim and the MIX knob of the simulator sits on one of them. The drill centre marks (a cross in every hole, and big ones through the XLRs and the Phoenix block) are on the sheet but not on the panel in ${SIM.src('#POD #SERIES/POD4 - #Master/POD4 - #ARTWORK #DA #2016/Pics/POD4 Front.jpg','Pics/POD4 Front.jpg')}, so they are drawn as faint geometry here. Older art: ${SIM.src('#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD4SLK-CURVE-ISS2.cdr','POD4SLK-CURVE-ISS2.cdr')} (30 Apr 2014|47) has the same legend with the WHITE plate above the GREEN one, and its rear CAUTION block is still live text that runs off the panel when converted; ${SIM.src('#POD #SERIES/POD4 - #Master/POD4 - #Engineering/SILK/POD4SLKS.CDR','POD4SLKS.CDR')} (Jan 2008|41) is the earlier set.`,
   ()=>`<b>The P-CAD BOM's phantom regulator gives 2.5 V, not 48 V.</b> In <span class="mono">POD4 iss4 PCAD.bom</span> R6 and R7 are both 221R, so REG3 (LM317LZ) makes 1.25·(1+221/221) = 2.5 V. The FINAL BOM changes them to 240R and 9K09: 1.25·(1+9090/240) = ${(1.25*(1+9090/240)).toFixed(1)} V. The drawing was never updated; only the production BOM is right. Switch “Values” to P-CAD to see a condenser mic stay dead.`,
   `<b>The manual's 28–70 dB gain range fits the P-CAD 2K trim, not the 500R that production fits.</b> With RG = 10R + 2K the SSM2017 gives 15.5–60 dB; add the fixed +12 dB output stage and the range is 27.6–72 dB. The FINAL BOM fits a Bourns 3006P 500R, which narrows it to 38.3–72 dB. Quieter sources (a line feed into the mic input) can no longer be brought down far enough.`,
   ()=>`<b>The “+19 dBu” peak LEDs move with the rails.</b> The comparator references are dividers from the rails (R57/R58, R13/R14). P-CAD values (±17.5 V) put PK A/B at about +18.2 dBu, close to the manual. The FINAL BOM's ±15 V rails put them at ${fdb(v2dbu(15*5100/20100/Math.SQRT2)+6.02)} dBu, and its R14 5K1 (P-CAD 15K) moves MIX PK from about +24.6 dBu to ${fdb(v2dbu((15*5100/20100+0.6)/Math.SQRT2)+6.02)} dBu.`,
@@ -592,7 +600,7 @@ const viewNotes = notesView('__pod4Active','What the POD4 archive shows — find
   `<b>Input impedance is about half the spec.</b> The phantom pair (R16/R17 6K81) is AC-grounded by C37 even when 48V is off, and the bias pair (R18/R21 6K81) sits behind the 47 µF caps. In parallel that is ≈ 6.8 kΩ differential; the manual says 12 kΩ.`,
   `<b>The manual's power spec is out of date.</b> It says “12V AC”; the FINAL BOM fits a 15 V toroid (TE70043, 15 V 0.666 A), and the 74HC4053 is flagged “*Obsolete*” in the same BOM.`,
 ], [`Op-amp/SSM2017 outputs swing to within 1.5 V of the rails, with hard clipping (${inf}).`,`LVL trims are used as rheostats; fully CW = 0 Ω (maximum gain) (${inf}). MIX LVL follows a log taper with 10 % at mid-travel (${inf}).`,`Phantom switch pole mapping (which pole lights the LED) ${inf}. Condenser mic needs > 30 V; phantom ramps in ≈ 50 ms (${inf}).`,`Mix level adds A and B as uncorrelated sources (power sum) in the tables; the waveforms add sample by sample.`],
-  ['POD4 - #Engineering/POD4 - #ISS4 #PCB/POD4iss4.net · POD4iss4.sch','POD4 - #Master/POD4 iss4 PCAD.bom · POD 4 FINAL BOM.xlsx · POD4 Misys BOM.xls','POD4 - #Engineering/POD4MANU.pdf · pod4.pdf','POD4 - #ARTWORK #DA #2016/POD4-FRONT&amp;REAR-SILK (CURVE).pdf','POD4 - #Mechanical #DA #2016/POD4-FRONT ISS 1 (PANEL).pdf · POD4-REAR ISS 3 (PANEL).pdf · POD4-SHIELD ISS 1.pdf']);
+  ['POD4 - #Engineering/POD4 - #ISS4 #PCB/POD4iss4.net · POD4iss4.sch','POD4 - #Master/POD4 iss4 PCAD.bom · POD 4 FINAL BOM.xlsx · POD4 Misys BOM.xls','POD4 - #Engineering/POD4MANU.pdf · pod4.pdf',SIM.src(ART_SRC,'POD4 - #ARTWORK #DA #2016/POD4-FRONT&REAR-SILK (CURVE).cdr')+' (panel artwork) · .pdf','POD4 - #Mechanical #DA #2016/POD4-FRONT ISS 1 (PANEL).pdf · POD4-REAR ISS 3 (PANEL).pdf · POD4-SHIELD ISS 1.pdf']);
 SIM.register({
   id:'pod4', name:'POD4 · dual microphone preamplifier with mix (2006|39)', duration:1, product:'POD4', year:2006, family:'POD series', folder:'#POD #SERIES/POD4 - #Master',
   summary:'Half-rack dual mic preamp: SSM2017 front ends with switchable 48 V phantom, DIRECT and mutable SWITCHED balanced outputs per mic, and a knob-controlled MIX of the switched outputs. Modelled from the ISS4 netlist (2006) with both the P-CAD and the production BOM values.',

@@ -52,6 +52,7 @@ const K = (()=>{
      through the front of the frame sit on its right, and the ejector carries the product name.
      Scale: 3.025" card height (D6201A/D6204A manual specifications) = 500 units. */
   function edgeSVG(o){
+    if (o.art) return artEdge(o);
     const H=600, ex=150;
     let s=`<svg class="og62-edge" viewBox="0 0 420 ${H}" style="width:100%;max-width:${o.maxw||300}px;display:block;margin:auto" role="img" aria-label="${o.label} card edge">
       <defs><filter id="og62glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
@@ -88,6 +89,7 @@ const K = (()=>{
   /* Rear module, drawn like the openGear Rear Module Guides: positions 1–10 in a 2 × 5 grid,
      odd numbers on the left. cells: {n, label, kind:'bnc'|'tb'|'nc', id, conn, live} */
   function rearSVG(o){
+    if (o.art) return artRear(o);
     const cols=o.cols||2, rows=o.rows||5, cw=150, rh=86, W=cols*cw+40, H=rows*rh+90;
     let s=`<svg class="og62-rear" viewBox="0 0 ${W} ${H}" style="width:100%;max-width:${o.maxw||(cols>2?520:280)}px;display:block;margin:auto" role="img" aria-label="${o.name} rear module">
       <rect x="0" y="0" width="${W}" height="${H}" rx="6" fill="#c8cbcd" stroke="#8b9093"/>
@@ -307,6 +309,48 @@ const K = (()=>{
         ${st.note?`<text x="${X(hi)+6}" y="${y+16}" font-size="10" fill="var(--ink2)">${svgT(st.note)}</text>`:''}`; });
     return s+'</svg>';
   }
+  /* CorelDRAW artwork mode (artwork pass 2026|59): o.art = {href, vb:[x,y,w,h] in the .cdr's own pt units,
+     led:[[x,y,w,h]…] lens rects top→bottom, sw:[[x,y,w,h]…] switch bodies, pos:{n:[cx,cy]} rear positions 1–10,
+     s: scale vs the 2012 guide (BNC Ø 11.7 pt), panel:[x,y,w,h]}. The artwork is assets/<id>-*.svg, converted
+     from the archive .cdr with Inkscape; controls are drawn on the artwork's own coordinates. */
+  const ARTP='siumulation-plugins/assets/';
+  function artEdge(o){
+    const A=o.art, [vx,vy,vw,vh]=A.vb, H=vh+(o.note?12:2);
+    let s=`<svg class="og62-edge" viewBox="${vx} ${vy} ${vw} ${H}" style="width:100%;max-width:${o.maxw||340}px;display:block;margin:auto;border-radius:8px" role="img" aria-label="${o.label} card edge">
+      <defs><filter id="og62glowA" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+      <rect x="${vx}" y="${vy}" width="${vw}" height="${H}" fill="#f4f4ef"/>
+      <image href="${ARTP+A.href}" x="${vx}" y="${vy}" width="${vw}" height="${vh}"/>`;
+    (o.sws||[]).forEach((w,i)=>{ const r=A.sw[w.art!=null?w.art:i]; if(!r) return;
+      s+=`<g class="og62-hot" data-sw="${w.id}"><title>${w.name}: ${w.title||'click to operate'}</title>
+        <rect class="hl" x="${r[0]-1}" y="${r[1]-1}" width="${r[2]+8}" height="${r[3]+2}" rx="1.5" fill="${w.down?'#000':'#fff'}" fill-opacity="${w.down?.3:.01}" stroke="#2b5f9e" stroke-width=".7" stroke-dasharray="2 1.2"/>
+        ${w.pos!=null?`<text x="${r[0]+r[2]/2}" y="${r[1]+r[3]/2+2.5}" font-size="7" text-anchor="middle" fill="#fff" font-family="var(--mono)">${w.pos}</text>`:''}
+        ${w.state?`<text x="${r[0]+r[2]+16}" y="${r[1]+r[3]+3}" font-size="7.5" fill="#1d6b2c" font-weight="700" font-family="var(--mono)">${w.state}</text>`:''}</g>`; });
+    (o.leds||[]).forEach((l,i)=>{ const r=A.led[l.art!=null?l.art:i]; if(!r) return; const on=!!l.on, col=LEDC[l.c]||l.c;
+      s+=`<g ${l.id?`class="og62-hot" data-led="${l.id}"`:''}><title>${l.name}: ${l.title||''} (${on?'lit':'off'})</title>
+        <rect class="hl" x="${r[0]}" y="${r[1]}" width="${r[2]}" height="${r[3]}" rx="1.2" fill="${on?col:'#5a5f5a'}" fill-opacity="${on?1:.25}" stroke="#1b1918" stroke-width=".3" ${on?'filter="url(#og62glowA)"':''}/></g>`; });
+    if (o.note) s+=`<text x="${vx+4}" y="${vy+vh+8}" font-size="6.5" fill="#55595c">${o.note}</text>`;
+    return s+'</svg>';
+  }
+  function artRear(o){
+    const A=o.art, [vx,vy,vw,vh]=A.vb, k=A.s||1, P=A.panel, ex=(o.sub?10:0)+(o.id?9:0), H=vh+ex+2;
+    let s=`<svg class="og62-rear" viewBox="${vx} ${vy} ${vw} ${H}" style="width:100%;max-width:${o.maxw||360}px;display:block;margin:auto;border-radius:6px" role="img" aria-label="${o.name} rear module">
+      <rect x="${vx}" y="${vy}" width="${vw}" height="${H}" fill="#f4f4ef"/>
+      ${P?`<rect x="${P[0]}" y="${P[1]}" width="${P[2]}" height="${P[3]}" fill="#c8cbcd"/>`:''}
+      <image href="${ARTP+A.href}" x="${vx}" y="${vy}" width="${vw}" height="${vh}"/>`;
+    (o.cells||[]).forEach(c=>{ const p=A.pos[c.n]; if(!p) return; const [cx,cy]=p, left=c.n%2===1, kind=c.kind||'bnc';
+      let g='';
+      if (kind==='tb'){ g=`<rect class="hl" x="${cx-4.2*k}" y="${cy-7.6*k}" width="${8.4*k}" height="${15.2*k}" rx="${k}" fill="#fff" fill-opacity=".01" stroke="#2b5f9e" stroke-width="${.5*k}" stroke-dasharray="${1.5*k} ${k}"/>`;
+        if (c.conn) g+=[-4.6,0,4.6].map(d=>`<line x1="${cx+(left?-3:3)*k}" y1="${cy+d*k}" x2="${cx+(left?-11:11)*k}" y2="${cy+d*k}" stroke="#2b5f9e" stroke-width="${1.6*k}" stroke-linecap="round"/>`).join(''); }
+      else if (kind==='nc'){ g=`<circle cx="${cx}" cy="${cy}" r="${5.9*k}" fill="#fff" fill-opacity=".01"/>`; }
+      else { g=`<circle class="hl" cx="${cx}" cy="${cy}" r="${6.2*k}" fill="#fff" fill-opacity=".01" stroke="#2b5f9e" stroke-width="${.5*k}" stroke-dasharray="${1.5*k} ${k}"/>`;
+        if (c.conn) g+=`<circle cx="${cx}" cy="${cy}" r="${4.6*k}" fill="#3a74b8" opacity=".85"/><circle cx="${cx}" cy="${cy}" r="${1.4*k}" fill="#cfe0f5"/>`; }
+      const live = c.live===undefined? '' : `<circle cx="${cx+(left?-7.4:7.4)*k}" cy="${cy+6*k}" r="${1.9*k}" stroke="#1b1918" stroke-width="${.3*k}" fill="${c.live===true?'#2f8f46':c.live==='warn'?'#d9a21b':c.live==='err'?'#c0392b':'#7d8286'}"/>`;
+      s+=`<g ${c.id?`class="og62-hot" data-jack="${c.id}"`:''}><title>${c.n}: ${c.label}${c.title?' — '+c.title:''}${c.id?(c.conn?' (click to unplug)':' (click to plug in)'):''}</title>${g}${live}</g>`;
+    });
+    let y=vy+vh+8; if (o.sub){ s+=`<text x="${vx+vw/2}" y="${y}" text-anchor="middle" font-size="6.5" fill="#3d4245">${o.sub}</text>`; y+=9; }
+    if (o.id) s+=`<text x="${vx+3}" y="${y}" font-size="5.2" fill="#55595c">${o.id}</text>`;
+    return s+'</svg>';
+  }
   return {svgT, inf, card, edgeSVG, rearSVG, frameSVG, dashHTML, bind, actor, traceHTML, logHTML, canFrames, canLane, tickLane, boolLane, waveLane, drawAES, aesSub, biphase, blockView, chip, schemView, tutorialView, levelSVG, CAN_BIT, TICK, FRAME_BITS, LEDC};
 })();
 /* ---------------- end og62 kit ---------------- */
@@ -381,9 +425,16 @@ const RM={ T6302:{name:'T6302A', sub:'single card (D6204-T6302.pdf)', note:'T630
     cells:[[1,'AES IN','bnc','in'],[2,'NOT USED','nc'],[3,'AES OUT 1','bnc'],[4,'AES OUT 3','bnc'],[5,'AES OUT 2','bnc'],[6,'AES OUT 4','bnc'],[7,'LEFT OUT 1','tb'],[8,'LEFT OUT 2','tb'],[9,'RIGHT OUT 1','tb'],[10,'RIGHT OUT 2','tb']]},
   T6402:{name:'T6402A', sub:'double card (D6204-T6402.pdf)', note:'T6402A: two cards; each gets AES IN, AES OUT1/OUT2 and one stereo analog pair.',
     cells:[[2,'AES IN #1','bnc','in'],[1,'AES IN #2','bnc'],[4,'OUT1 #1','bnc'],[3,'OUT1 #2','bnc'],[6,'OUT2 #1','bnc'],[5,'OUT2 #2','bnc'],[8,'LEFT #1','tb'],[7,'LEFT #2','tb'],[10,'RIGHT #1','tb'],[9,'RIGHT #2','tb']]} };
+/* CorelDRAW artwork (artwork pass 2026|59): card edge and rear modules converted from the archive .cdr files
+   to assets/d6204a-*.svg; LED, switch and connector positions are the artwork's own coordinates (pt). */
+const ART={edge:{"vb":[61,129,219,312],"led":[[177.41,151.59,5.74,12.58],[177.41,172.75,5.74,12.58],[177.52,195.94,5.74,12.58],[177.41,239.79,5.74,12.58],[177.52,262.98,5.74,12.58]],"sw":[[177.35,154.62,15.87,27.94]],"href":"d6204a-edge.svg"},
+ rear:{"T6302":{"vb":[315.5,211.5,147.5,186.5],"panel":[368.05,255.68,39.83,99.57],"s":1.006,"pos":{"1":[374.89,270.77],"2":[393.9,270.77],"3":[374.89,289.78],"4":[393.9,289.78],"5":[374.89,308.79],"6":[393.9,308.79],"7":[374.89,327.8],"8":[393.9,327.8],"9":[374.89,346.81],"10":[393.9,346.81]},"href":"d6204a-rear-t6302.svg"},
+  "T6402":{"vb":[463.8,211.5,148.7,186.5],"panel":[518.64,256.75,39.83,99.57],"s":1.006,"pos":{"1":[525.48,271.84],"2":[544.49,271.84],"3":[525.48,290.85],"4":[544.49,290.85],"5":[525.48,309.86],"6":[544.49,309.86],"7":[525.48,328.87],"8":[544.49,328.87],"9":[525.48,347.88],"10":[544.49,347.88]},"href":"d6204a-rear-t6402.svg"}},
+ edgeCite:()=>'Artwork: '+SIM.src('#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR/D6204/D6204 - #Engineering/D6204 - #Functional/D6204-card-edge.cdr','D6204-card-edge.cdr (2007-12-12)'),
+ rearCite:()=>'Artwork: '+SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6204A - rear module options.cdr','D6204A - rear module options.cdr (2012-01-09): T6302A, T6402A')};
 function rearSVG(){ const r=RM[D.rear], t=SIM.t, ok=locked()&&!programming(t), mine=l=>D.rear!=='T6402'||l.includes('#1');
-  return K.rearSVG({name:r.name, sub:r.sub, split:D.rear==='T6402'?['CARD 2','CARD 1 (this card)']:null, id:'AN_BMID 3K57 + AN_BMID2', cells:r.cells.map(([n,l,k,id])=>({n,label:l,kind:k,id,conn:id==='in'?D.in.conn:undefined,live:id==='in'?(D.in.conn?(ok?true:'warn'):undefined):(k!=='nc'&&mine(l))?(ok?(k==='tb'&&outDbfs()>=0?'warn':true):'err'):undefined}))}); }
-function edgeSVG(t){ const L=leds(t); return K.edgeSVG({label:'D6204A', leds:[{name:'Lock',c:'g',on:L.l,y:60},{name:'No Lock',c:'r',on:L.n,y:100},{name:'EQ',c:'y',on:L.e,y:150},{name:'COM Activity',c:'g',on:L.c,y:240},{name:'Error',c:'r',on:L.x,y:290,title:'COM_ERROR_LED (PE5)'}], sws:[{id:'eq',name:'EQ Switch (SW1)',y:80,state:D.eq?'EQ IN':'EQ OUT'}], note:'D6204-card-edge.pdf (this folder), drawn to its layout'}); }
+  return K.rearSVG({art:ART.rear[D.rear], name:r.name, sub:r.sub, split:D.rear==='T6402'?['CARD 2','CARD 1 (this card)']:null, id:'AN_BMID 3K57 + AN_BMID2', cells:r.cells.map(([n,l,k,id])=>({n,label:l,kind:k,id,conn:id==='in'?D.in.conn:undefined,live:id==='in'?(D.in.conn?(ok?true:'warn'):undefined):(k!=='nc'&&mine(l))?(ok?(k==='tb'&&outDbfs()>=0?'warn':true):'err'):undefined}))}); }
+function edgeSVG(t){ const L=leds(t); return K.edgeSVG({art:ART.edge, label:'D6204A', leds:[{name:'Lock',c:'g',on:L.l,y:60},{name:'No Lock',c:'r',on:L.n,y:100},{name:'EQ',c:'y',on:L.e,y:150},{name:'COM Activity',c:'g',on:L.c,y:240},{name:'Error',c:'r',on:L.x,y:290,title:'COM_ERROR_LED (PE5)'}], sws:[{id:'eq',name:'EQ Switch (SW1)',y:80,state:D.eq?'EQ IN':'EQ OUT'}], note:'Artwork: D6204-card-edge.cdr'}); }
 function dashHTML(){ const ok=locked(), ro=!dashEn();
   return K.dashHTML({key:'d6204a', title:`Slot ${D.slot}: D6204A`, alarm:!ok&&D.alarm, tree:[{name:'DFR-8320 frame'},{name:'MFC-8310',lvl:1},{name:`Slot ${D.slot}: D6204A`,lvl:1,sel:true}],
     tabs:[{name:'Card Info',rows:[{type:'text',label:'Product',value:'D6204A'},{type:'text',label:'Supplier',value:'www.ward-beck.com'},{type:'text',label:'AVR Software Rev',value:'2.00'},{type:'text',label:'FPGA Software Rev',value:'2.00 (shift_in16_version_out)'}]},
@@ -407,7 +458,7 @@ function lanes(){ const css=SIM.css, fs=D.in.fs, ls=[];
   ls.push(K.boolLane('Lock LED', t=>leds(t).l, '#2f8f46')); ls.push(K.boolLane('No Lock LED', t=>leds(t).n, '#c0392b')); ls.push(K.boolLane('COM Activity LED', t=>leds(t).c, '#5dbf4a'));
   return ls; }
 function viewSim(m){
-  m.innerHTML=`<div class="grid2"><div>${card('DashBoard (redrawn)', `<div id="dash"></div>`)}${card('AES input, jumper, DIP', `<div id="ctl"></div>`)}</div><div><div class="grid2" style="grid-template-columns:1fr 1fr">${card('Card edge', `<div id="edge"></div>`)}${card('Rear module', `<div id="rear"></div>`)}</div>${card('What the card did', `<div id="trace" class="log"></div>`)}${card('State at the playhead', `<div id="insp"></div>`)}</div></div>
+  m.innerHTML=`<div class="grid2"><div>${card('DashBoard (redrawn)', `<div id="dash"></div>`)}${card('AES input, jumper, DIP', `<div id="ctl"></div>`)}</div><div><div class="grid2" style="grid-template-columns:1fr 1fr">${card('Card edge', `<div id="edge"></div><div class="small" style="margin-top:4px">${ART.edgeCite()}</div>`)}${card('Rear module', `<div id="rear"></div><div class="small" style="margin-top:4px">${ART.rearCite()}</div>`)}</div>${card('What the card did', `<div id="trace" class="log"></div>`)}${card('State at the playhead', `<div id="insp"></div>`)}</div></div>
     ${card('Timeline — one second, zoomable', `<canvas id="tl"></canvas>`)}<div class="grid2">${card('Scope: AES3 input frame', `<canvas id="scope"></canvas>`)}${card('Action log', `<div id="log" class="log"></div>`)}</div>`;
   const draw=()=>{ const t=SIM.t, w=ctlWord(); m.querySelector('#dash').innerHTML=dashHTML(); m.querySelector('#ctl').innerHTML=ctlHTML(); m.querySelector('#edge').innerHTML=edgeSVG(t); m.querySelector('#rear').innerHTML=rearSVG(); m.querySelector('#trace').innerHTML=K.traceHTML(D); m.querySelector('#log').innerHTML=K.logHTML(D);
     m.querySelector('#insp').innerHTML=`<table class="kv"><tr><th>CS8416 reg 0x04</th><td class="mono">0x${D.eq?'89':'80'}</td></tr><tr><th>ALTERA_write</th><td class="mono">data_upper ${b8(w.up)}b · data_lower ${b8(w.lo)}b</td></tr><tr><th>AK4396</th><td class="mono">reg 0x01 = ${speedAt(t)==='DOUBLE'?'0x0A':speedAt(t)==='QUAD'?'0x12':'0x02'} · ATT L/R = 255 (0 dB)</td></tr><tr><th>Analog out</th><td class="mono">${locked()&&outDbu()!=null?`${outDbfs().toFixed(1)} dBFS → ${outDbu().toFixed(1)} dBu (${RSN[effCal()]})`:locked()?'muted (Calibration: Disabled)':'muted'}</td></tr><tr><th>Mode</th><td class="mono">${programming(t)?'FPGA programming (as.c)':booting(t)?'booting':'running'}</td></tr></table>`;
@@ -449,6 +500,9 @@ function viewSoft(m){ m.innerHTML=`<div class="grid2">${card('Main loop (V200 v1
     m.querySelector('#flow').innerHTML=`<svg viewBox="0 0 540 ${st.length*38+20}" style="width:100%">${st.map((s,j)=>`<rect x="10" y="${8+j*38}" width="520" height="30" rx="6" fill="${j===k?(p?'var(--warn)':'var(--accent)'):'var(--panel2)'}" stroke="var(--line)"/><text x="20" y="${28+j*38}" font-size="11" font-family="var(--mono)" fill="${j===k?'#fff':'var(--ink)'}">${s}</text>`).join('')}</svg>`; };
   SIM.on('time', draw); }
 const FINDINGS=[
+  `<b>Artwork 2026|59: card edge and rear modules now from the CorelDRAW files.</b> Card edge: ${SIM.src('#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR/D6204/D6204 - #Engineering/D6204 - #Functional/D6204-card-edge.cdr')} (2007-12-12|40; identical copies in both #Functional folders; the ejector reads D6204A). T6302A and T6402A: ${SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/openGear Rear Module Guides/D6204A - rear module options.cdr')} (2012-01-09|45). Assets: <span class="mono">assets/d6204a-*.svg</span>; LEDs, SW1 and the connectors sit on the drawing's coordinates.`,
+  `<b>“AES OUT34” on the T6302A.</b> Position 4 of the 2012 guide reads “AES OUT3” followed by a stray “4” in a separate text run, so it shows as “AES OUT34”. The model treats position 4 as AES OUT 3.`,
+  `<b>An unbuilt DFR-8310 module.</b> ${SIM.src('#OPENGEAR #SERIES/#OPEN GEAR - #Engineering/OPEN GEAR - #Engineering/T6XXX/D6204Terms.cdr')} (2008-04-08|41) also draws a T6202A “REAR MODULE For DFR8310” (single card, BNC + Phoenix). It is in neither 2012 guide and is not modelled.`,
   `<b>The “#PROBLEM”.</b> The D6204 engineering folder holds the same project twice (D6204A/… and the hashtag “D6204 - #…” tree; no file differs, the hashtag tree only adds files) and this TIM folder is a third partial copy with an empty software skeleton. This folder is still the only home of <span class="mono">D6204A Manual.doc</span>.`,
   `<b>Misnamed firmware folders.</b> The AVR source lives in “D6204 - #altera #Bootloader #v107 / #v200”; the FPGA project is called D6201A.qpf (copied from the AES DA).`,
   `<b>Manual vs spec sheet.</b> The manual says “all sampling frequencies up to 192 kHz”; D6204A SPECIFICATIONS.doc says 30–96 kHz. The V200 code does handle quad speed (AK4396 reg 0x01 = 0x12, PORTG bit 4).`,

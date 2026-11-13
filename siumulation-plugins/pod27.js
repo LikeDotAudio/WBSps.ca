@@ -17,7 +17,8 @@
    - ../POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr
        (Jul.02/14, converted with Inkscape, ink-only objects exported to PDF and cut with tools/silk_extract.py:
         FRONT GREEN / FRONT WHITE / REAR WHITE at 200 dpi, x 292–2006, y 156–477 / 686–1007 / 1200–1521
-        → assets/pod27-front-green.png, pod27-front-white.png, pod27-rear-white.png, 1714 × 321 px).
+        → assets/pod27-front-green.png, pod27-front-white.png, pod27-rear-white.png, 1714 × 321 px;
+        replaced 2026|59 by the vector assets/pod27-front.svg, pod27-rear.svg from the same .cdr).
        Drill and cut-out positions come from the same drawing's guide layer; colours from Pics/POD27 Front.jpg, Rear.jpg.
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -316,12 +317,17 @@ const A = {
 
 /* ================================================================
    DRAWING: front and rear panels on the real silkscreen
+   Artwork 2026|59: assets/pod27-front.svg and pod27-rear.svg, vector conversions of POD27-FRONT&REAR(FINAL CURVE).cdr
+   (Inkscape → plain SVG; GREEN + WHITE plates registered on one panel; crop marks, plate captions and date dropped;
+   200 dpi px from the panel corner, the same frame as the old PNG silks, so every control below kept its place).
    Built on POD27-FRONT&REAR(FINAL CURVE).cdr (Jul.02/14). Guide-layer positions (pt from the panel corner ×200/72):
    front: screws (51,161) (1665,161); rocker cut-out 130–230 × 53–209; power LED (299,218); CASCADE button (572,218),
    its LED (670,218); SELECT button (811,218); GR1–4 LEDs (913/981/1051/1121, 218); SDI (1262), AES1 (1331), AES2 (1420), ERROR (1491).
    rear: BNC (260/410/560/710/860, 198) Ø 89; Phoenix cut-outs 977–1083 and 1127–1233 × 197–263; IEC 1358–1608 × 33–250.
    ================================================================ */
 const ASSET = 'siumulation-plugins/assets/';
+const ART_PATH = '#POD #SERIES/POD PANELS - #Mechanical #DA #2016/POD - NOT IN ERP/Silks/POD27/POD27-FRONT&REAR(FINAL CURVE).cdr';
+const artSrc = ()=> `<p class="small muted" style="margin:6px 0 0">Panel artwork: ${SIM.src(ART_PATH, 'POD27-FRONT&REAR(FINAL CURVE).cdr')} (CorelDRAW, Jul.02/14), converted to vector: green and white ink plates registered on one panel, holes and cut-outs from the same drawing.</p>`;
 const FX = {pwr:299, cas:572, casLed:670, sel:811, g:[913,981,1051,1121], sdi:1262, aes1:1331, aes2:1420, err:1491, y:218};
 function led(x, y, lit, col, tip){ const c = {g:['#7dff6a','#26361f'], y:['#ffe24a','#3b3517'], r:['#ff3a3a','#3d1616']}[col];
   return `<g><title>${tip}</title><circle cx="${x}" cy="${y}" r="16" fill="#090808"/><circle cx="${x}" cy="${y}" r="12" fill="${lit?c[0]:c[1]}" ${lit?'filter="url(#p27glow)"':''}/>${lit?`<circle cx="${x-3}" cy="${y-4}" r="4" fill="#fff" opacity=".7"/>`:''}</g>`; }
@@ -333,8 +339,7 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD27 front panel (real silkscreen)" style="width:100%;max-width:${opts.max||980}px;border-radius:8px;display:block">
     <defs><filter id="p27glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1714" height="321" rx="8" fill="#1d1b1c"/>
-    <image href="${ASSET}pod27-front-green.png" width="1714" height="321"/>
-    <image href="${ASSET}pod27-front-white.png" width="1714" height="321"/>
+    <image href="${ASSET}pod27-front.svg" width="1714" height="321"/>
     <g class="p27f" data-a="power" style="cursor:pointer"><title>PWRSW (PAN256) rocker — click to switch the unit ${on?'off':'on'}</title><rect x="130" y="53" width="100" height="156" rx="6" fill="#0b0b0c" stroke="#333" stroke-width="2"/>
       <rect x="146" y="${on?66:110}" width="68" height="86" rx="8" fill="#1b1a1b" stroke="#3d3a3b"/><rect x="152" y="${on?72:188}" width="56" height="8" rx="3" fill="#2a2829"/></g>
     ${led(FX.pwr, FX.y, on, 'g', 'PWR green LED (R21 from +5 V)')}
@@ -359,6 +364,7 @@ function rearSVG(t){
       ${plug?`<rect x="${x0+4}" y="194" width="98" height="70" rx="4" fill="#33a85b" stroke="#106030" stroke-width="2" opacity=".96"/>${[18,53,88].map((d,k)=>`<path d="M${x0+d} 264 q 0 30 ${6-k*6} 57" stroke="${['#c33','#eee','#777'][k]}" stroke-width="7" fill="none"/>`).join('')}`:''}</g>`;
   return `<svg viewBox="0 0 1714 321" role="img" aria-label="POD27 rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <rect width="1714" height="321" rx="8" fill="#1b1a1a"/>
+    <image href="${ASSET}pod27-rear.svg" width="1714" height="321"/>
     ${bnc(260,null,`SDI OUTPUT (BNC1, C58 coupled) from U4 GS9032: ${out}`, true, '#3a74b8')}
     ${bnc(410,null,`SDI OUTPUT (BNC2, C57 coupled) from U4 GS9032: ${out}`, true, '#3a74b8')}
     ${bnc(560,'sdi',`SDI INPUT (BNC3, shell isolated through R1/C19, L7) — ${sdi?'connected: '+D.cfg.sdi.std+'-line, '+D.cfg.sdi.len+' m':'nothing connected'} (click)`, sdi, '#c77d2a')}
@@ -369,7 +375,6 @@ function rearSVG(t){
     <g class="p27r" data-j="mains" style="cursor:pointer"><title>ACIN IEC inlet (PAN356) with fuse drawer → VAF1005 (click: power)</title><rect x="1358" y="33" width="250" height="217" rx="12" fill="#0b0b0c" stroke="#333" stroke-width="2"/><rect x="1374" y="52" width="66" height="180" rx="5" fill="#161516"/><rect x="1452" y="60" width="138" height="164" rx="12" fill="#050505"/>
       ${[[1488,92],[1556,92],[1522,182]].map(([x,y])=>`<rect x="${x-10}" y="${y-14}" width="20" height="28" fill="#c9cdd2"/>`).join('')}</g>
     ${[[51,160],[1664,160]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="11" fill="#8f9295" stroke="#55585b" stroke-width="2"/><path d="M${x-6} ${y} h12 M${x} ${y-6} v12" stroke="#47494c" stroke-width="2"/>`).join('')}
-    <image href="${ASSET}pod27-rear-white.png" width="1714" height="321"/>
   </svg>`;
 }
 function bindPanel(root){
@@ -567,7 +572,7 @@ function viewSim(m){
   <div class="grid2">
     <div>
       ${card('Front panel at the playhead — click SELECT, CASCADE and the rocker', `<div id="fp"></div><div id="ctl"></div>`)}
-      ${card('Rear panel — click SDI INPUT, the AES BNCs or the Phoenix blocks to plug/unplug', `<div id="rp"></div>`)}
+      ${card('Rear panel — click SDI INPUT, the AES BNCs or the Phoenix blocks to plug/unplug', `<div id="rp"></div>${artSrc()}`)}
     </div>
     <div>
       ${card('What the firmware did (emulated, last action)', `<div style="margin-bottom:6px">${scenarioHTML()}</div><div id="trace" class="log"></div>`)}
@@ -893,6 +898,7 @@ function viewNotes(m){
     ${F('Mains marking disagrees between drawings.', `Rear silk (FINAL CURVE Jul.02/14 and the 2010|43 photo): “115 VAC, ½ A.S.B. DISCONNECT BEFORE SERVICING”. <span class="mono">POD27-FRONT&amp;REAR.pdf</span> (2 Jul 2015|48) and <span class="mono">SILK/POD27SLK-ISS2.cdr</span>: “100-240 VAC, 50-60 Hz”. The manual lists 115 V/60 Hz 12 VA and 230 V/50 Hz 6 VA.`)}
     ${F('The 2015 silk PDF carries a front panel from another product.', `<span class="mono">POD27-FRONT&amp;REAR.pdf</span> and <span class="mono">POD27SLK-ISS2.cdr</span> hold two fronts: the POD27 one and a “POD-27 SDI MUXER” front with <b>OUTPUT LEVEL ADJUST 1–6</b> trimmer holes — a six-output DA layout (POD20-style, ${inf}) that the POD27 never had. This plugin uses the Jul.02/14 FINAL CURVE drawing, which matches the photos (it adds a “SELECT” legend the 2010 photo does not show).`)}
     ${F('Every button press stalls the loop and writes the EEPROM twice.', `<span class="mono">eewrite</span> stores <span class="mono">jumper0</span> at 0 and the AA signature at 20 after each release. The second <span class="mono">eew</span> spins on <span class="mono">eecon1,wr</span> until the first write ends, so that pass is ≈4 ms longer (${inf}).`)}
+    ${F(`Artwork ${Y(2026)}: front/rear panels now from ${SIM.src(ART_PATH,'POD27-FRONT&REAR(FINAL CURVE).cdr')} (Jul.02/14).`, `The CorelDRAW file is converted to vector (<span class="mono">assets/pod27-front.svg</span>, <span class="mono">pod27-rear.svg</span>) in place of the earlier PNG cuts of the same drawing. It also shows a small round hole at the top right of the rear (Ø 4.2 mm, above the right fixing screw) that nothing in the model uses; the POD28 ISS 1 rear-panel drawing calls the same hole a ground-stud insert (FH-440-5), so it is most likely the earth stud here too (${inf}). Every front hole has a legend and a part (PWR LED, CASCADE + LED, SELECT, GR1–4, SDI, AES1, AES2, ERROR).`)}
   </ol>
   <p class="small muted">Archive: POD27 is filed as “SD-SDI audio muxer” in #POD #SERIES/README.md. The POD28 ASI pass-through report (24 Jun 2010|43) is filed in POD27's #TESTREPORT.</p>`);
 }

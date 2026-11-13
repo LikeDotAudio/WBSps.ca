@@ -313,6 +313,12 @@ const A = {
 /* ================================================================
    PANELS — real silkscreen (2016|49 drafting set) + mechanical cut-outs
    ================================================================ */
+/* Artwork 2026|59: assets/pod31-front.svg, pod31-rear.svg are vector conversions of
+   POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr (Jun.25/14; GREEN + WHITE plates on one panel, holes and
+   cut-outs from the same drawing, 200 dpi from the panel corner = the frame of the old PNG cuts). Holes checked against
+   LEDX/BX/PX below: all on centre (LED row at y 218). */
+const ART_PATH = '#POD #SERIES/POD31 - #Master/POD31 - #ARTWORK #DA #2016/POD31-FRONT&REAR-SILK (CURVE).cdr';
+const artSrc = ()=> `<p class="small muted" style="margin:6px 0 0">Panel artwork: ${SIM.src(ART_PATH, 'POD31-FRONT&REAR-SILK (CURVE).cdr')} (CorelDRAW, Jun.25/14), converted to vector: green and white ink plates on one panel, holes and cut-outs from the same drawing.</p>`;
 const LEDX = {pwr:299, sd:561, hd:611, err:661, g:[781,831,881,931], d:[1051,1101,1151,1201], e:1321, dd:1371};
 const LC = { g:['#47e264','#1c2d1f'], y:['#f6d43a','#3a3417'], r:['#ff4a3a','#3d1b18'] };
 function frontSVG(t, opts){
@@ -321,8 +327,7 @@ function frontSVG(t, opts){
   return `<svg viewBox="0 0 1713 321" role="img" aria-label="POD31 front panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <defs><filter id="p31glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1713" height="321" rx="8" fill="#141517"/>
-    <image href="${ASSET}pod31-front-green.png" width="1713" height="321"/>
-    <image href="${ASSET}pod31-front-white.png" width="1713" height="321"/>
+    <image href="${ASSET}pod31-front.svg" width="1714" height="321"/>
     <g class="p31pwr" style="cursor:pointer"><rect x="130" y="54" width="101" height="154" rx="8" fill="#0a0b0c" stroke="#33363a" stroke-width="2"/>
       <rect x="142" y="${w.power?64:118}" width="77" height="78" rx="6" fill="#1d2023" stroke="#3b3f43"/><rect x="146" y="${w.power?70:178}" width="69" height="9" rx="3" fill="#2c2f33"/><title>Power switch (PWRSW, PAN256)</title></g>
     ${led(LEDX.pwr,L.pwr,'g')}${led(LEDX.sd,L.sd,'g')}${led(LEDX.hd,L.hd,'g')}${led(LEDX.err,L.err,'r')}
@@ -336,6 +341,7 @@ function rearSVG(t){
   const bnc=(x,id,tip,hot)=>`<g ${id?`class="p31jack" data-j="${id}" style="cursor:pointer"`:''}><circle cx="${x}" cy="198" r="52" fill="#b7babd" stroke="#6e7276" stroke-width="3"/><circle cx="${x}" cy="198" r="40" fill="#d9c27a"/><circle cx="${x}" cy="198" r="27" fill="#a98f3b"/><circle cx="${x}" cy="198" r="8" fill="#5b470f"/>${hot?`<circle cx="${x}" cy="198" r="56" fill="none" stroke="var(--accent)" stroke-width="5"/>`:''}<title>${tip}</title></g>`;
   let s=`<svg viewBox="0 0 1713 321" role="img" aria-label="POD31 rear panel (real silkscreen)" style="width:100%;max-width:980px;border-radius:8px;display:block">
     <rect width="1713" height="321" rx="8" fill="#141517"/>
+    <image href="${ASSET}pod31-rear.svg" width="1714" height="321"/>
     <path d="M100 82 h80 l-8 96 h-64 z" fill="#c9a640" stroke="#7d6420" stroke-width="3"/><path d="M110 92 h60 l-6 76 h-48 z" fill="#ece6d4"/>
     ${[0,1,2,3,4].map(i=>`<circle cx="${120+i*10}" cy="112" r="4" fill="#7d6420"/>`).join('')}${[0,1,2,3].map(i=>`<circle cx="${125+i*10}" cy="148" r="4" fill="#7d6420"/>`).join('')}
     <circle cx="140" cy="32" r="13" fill="#aeb2b6"/><circle cx="140" cy="228" r="13" fill="#aeb2b6"/>`;
@@ -348,8 +354,7 @@ function rearSVG(t){
   w.dip.forEach((on,i)=>{ const x=1010+i*20.5; s+=`<g class="p31dip" data-i="${i}" style="cursor:pointer"><rect x="${x}" y="30" width="15" height="52" rx="2" fill="#dfe6f2"/><rect x="${x+1.5}" y="${on?32:56}" width="12" height="24" rx="2" fill="#fbfcff" stroke="#8b97ab"/><text x="${x+7.5}" y="26" font-size="11" text-anchor="middle" fill="#fff">${i+1}</text><title>SW${i+1} ${SWNAME[i]}: ${on?'ON':'OFF'} — click to flip</title></g>`; });
   s += `<text x="1003" y="94" font-size="10" fill="#fff">ON ▲</text>
     <rect x="1358" y="33" width="251" height="216" rx="14" fill="#0a0b0c" stroke="#2f3236" stroke-width="2"/><rect x="1378" y="60" width="96" height="160" rx="6" fill="#151719"/><rect x="1488" y="66" width="104" height="150" rx="12" fill="#050606"/>
-    ${[[1520,98],[1560,98],[1540,170]].map(([x,y])=>`<rect x="${x-9}" y="${y-14}" width="18" height="28" rx="2" fill="#a8acb0"/>`).join('')}
-    <image href="${ASSET}pod31-rear-white.png" width="1713" height="321"/></svg>`;
+    ${[[1520,98],[1560,98],[1540,170]].map(([x,y])=>`<rect x="${x-9}" y="${y-14}" width="18" height="28" rx="2" fill="#a8acb0"/>`).join('')}</svg>`;
   return s;
 }
 function bindPanel(root){
@@ -502,7 +507,7 @@ function viewSim(m){
   window.__pod31Active = true;
   m.innerHTML = `<div class="grid2"><div>
       ${card('Front panel at the playhead', `<div id="fp"></div>`)}
-      ${card('Rear panel — DIP switches, INPUT and AES BNCs are live', `<div id="rp"></div><div id="ctl"></div>`)}
+      ${card('Rear panel — DIP switches, INPUT and AES BNCs are live', `<div id="rp"></div>${artSrc()}<div id="ctl"></div>`)}
     </div><div>
       ${card('What the software did (last action)', `<div id="trace" class="log"></div>`)}
       ${card('State at the playhead', `<div id="insp"></div>`)}
@@ -732,6 +737,7 @@ function viewNotes(m){
     ['Wired but unused', 'The GS1560A GSPI host port (SDCLK_60, SDIN_60, SDOUT_60, CS_60 on PD3–PD6), N_CONFIG on PE3 and the timer0 interrupt (it only reloads TCNT0). <span class="mono">DATA_initialization()</span> and the <span class="mono">mode</span> variable are never used.'],
     ['Pinout “unchanged” between issues 3 and 4 — not for the FPGA', 'The test report says issue 4 has the same Atmel and FPGA pinouts. The issue-4 netlist (<span class="mono">pod31iss4.net</span>) puts PRG2 on FPGA pin 201 and PDN/ACS on 202/203, and adds ICS662 pins 134–139; the v102 .qsf has PRG2 on 202. Only v400\'s .qsf matches the issue-4 board.'],
     ['Archive mismatches and leftovers', 'The shipped Atmel v101 HEX and FPGA v102 programming file are not here, and per the report the v101 source did not rebuild to the same HEX. The POD31-1 iss4 BOM header still says “POD31iss3” and lists the FPGA as EP1C6-240. The v400 <span class="mono">.cdf</span> points at a v103 .pof and the timing file is <span class="mono">v105.sdc</span>. The .prj output directory is an AMS8E path. FPGA pin names mix <span class="mono">ALTER0</span>, <span class="mono">ALTERA1</span> and <span class="mono">altera8</span>.'],
+    [`Artwork ${Y(2026)}: front/rear panels now from ${SIM.src(ART_PATH,'POD31-FRONT&REAR-SILK (CURVE).cdr')} (Jun.25/14)`, 'The CorelDRAW file replaces the PNG cuts of its PDF export. It shows a 180 × 56 px (22.9 × 7.1 mm) window for the DIP switch above AES 2–AES 3, two small holes at (336, 122) and (936, 122) px between the Phoenix row and the BNC row that no part in the model uses (bracket screws for the Phoenix PCB, '+inf+'), and the ground-stud hole above the right fixing screw. All 14 front LED holes match the 14 tallies in the code.'],
     ['Two rear-panel drawings with the same issue number', '<span class="mono">#Mechanical #DA #2016</span> holds <span class="mono">POD31-REAR ISS 3 (PANEL).pdf</span> (Oct 2015|48) and <span class="mono">POD31-REAR ISS 3 (PANEL) .pdf</span> (with a space, Jun 2016|49, no sidecar). They differ in one note: insert FH-440-<b>6</b> vs FH-440-<b>5</b>. The newer one was saved with the same issue letter.'],
   ];
   m.innerHTML=card('What the POD31 is up to — findings from the source', `<ol>${F.map(f=>`<li><b>${f[0]}.</b> ${f[1]}</li>`).join('')}</ol>`)

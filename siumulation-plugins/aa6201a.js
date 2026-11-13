@@ -581,43 +581,62 @@ function cardSVG(t, opts){
   return s+'</svg>';
 }
 /* Card edge: AA6201A-card-edge.cdr (LEVEL CHA, CHA LED, LEVEL CHB, CHB LED, COM Activity LED) */
+/* Card edge: CorelDRAW art AA6201A - #FUNCTIONAL/AA6201A-card-edge.cdr (2007-12-19) → assets/aa6201a-edge.svg.
+   Trimmer and LED positions measured on the converted art (LVLA/LVLB screws, CHA / CHB / COM Activity windows). */
+const EDGE = {pot:[[139.1,28.8],[139.1,100.6]], led:{CHA:[130.4,60.8], CHB:[130.3,170.5], COM:[130.9,132.6]}};
+const ART_SRC = '#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #FUNCTIONAL/';
 function edgeSVG(t){
   const sn=snapAt(t), w=worldAt(t), L=sn.leds;
-  const led=(y,on,lab)=>`<rect x="25" y="${y-6}" width="12" height="12" rx="2" fill="${on?'var(--led-g)':'#2b2f2c'}" ${on?'filter="url(#aaGlow2)"':''}/><text x="50" y="${y+5}" font-size="13" fill="#e6e6e6">${lab}</text>`;
-  const pot=(y,k,lab)=>{ const ang=w.lvl[k]*TURNS*360*Math.PI/180; return `<g class="aa-trim" data-k="${k}" style="cursor:pointer"><rect x="19" y="${y-12}" width="24" height="24" rx="3" fill="#d8d8d8" stroke="#666"/><circle cx="31" cy="${y}" r="8" fill="#888"/><line x1="${31-7*Math.cos(ang)}" y1="${y-7*Math.sin(ang)}" x2="${31+7*Math.cos(ang)}" y2="${y+7*Math.sin(ang)}" stroke="#111" stroke-width="2.5"/><rect x="10" y="${y-16}" width="42" height="32" fill="transparent"><title>${lab}: ${db(trimGain(w.lvl[k])).toFixed(2)} dB — click left half −, right half +</title></rect></g><text x="50" y="${y+5}" font-size="13" fill="#e6e6e6">${lab} <tspan fill="#9aa">${db(trimGain(w.lvl[k])).toFixed(1)} dB</tspan></text>`; };
-  return `<svg viewBox="0 0 230 250" style="width:100%;max-width:230px;display:block"><rect width="230" height="250" rx="8" fill="var(--dev)"/>
-    <defs><filter id="aaGlow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-    <rect x="24" y="12" width="14" height="210" fill="#141716" stroke="#333"/>
-    ${pot(36,0,'LEVEL CHA')}${led(76,L&4,'CHA LED')}${pot(116,1,'LEVEL CHB')}${led(156,L&2,'CHB LED')}${led(190,L&1,'COM Activity LED')}
-    <text x="115" y="242" font-size="9.5" text-anchor="middle" fill="#8a8f8c">card edge (AA6201A-card-edge.cdr)</text></svg>`;
+  const led=(k,on,lab)=>{ const [x,y]=EDGE.led[k]; return `<rect x="${x-2.9}" y="${y-6.3}" width="5.8" height="12.6" rx="1" fill="${on?'var(--led-g)':'#2b2f2c'}" stroke="#555" stroke-width=".3" ${on?'filter="url(#aaGlow2)"':''}><title>${lab} ${on?'on':'off'}</title></rect>`; };
+  const pot=(k,lab)=>{ const [x,y]=EDGE.pot[k], ang=w.lvl[k]*TURNS*360*Math.PI/180; return `<g class="aa-trim" data-k="${k}" style="cursor:pointer"><circle cx="${x}" cy="${y}" r="4.4" fill="#9a9a9a" stroke="#333" stroke-width=".4"/><line x1="${x-3.6*Math.cos(ang)}" y1="${y-3.6*Math.sin(ang)}" x2="${x+3.6*Math.cos(ang)}" y2="${y+3.6*Math.sin(ang)}" stroke="#111" stroke-width="1.4"/><rect x="${x-12}" y="${y-11}" width="24" height="22" fill="transparent"><title>${lab}: ${db(trimGain(w.lvl[k])).toFixed(2)} dB — click left half −, right half +</title></rect></g><text x="${x+12}" y="${y+14}" font-size="8" fill="#555">${db(trimGain(w.lvl[k])).toFixed(1)} dB</text>`; };
+  return `<svg viewBox="10 4 240 190" role="img" aria-label="AA6201A card edge (CorelDRAW art)" style="width:100%;max-width:300px;display:block;border-radius:6px">
+    <defs><filter id="aaGlow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <image href="${ASSET}aa6201a-edge.svg" width="250" height="205"/>
+    ${pot(0,'LEVEL CHA')}${pot(1,'LEVEL CHB')}${led('CHA',L&4,'CHA LED')}${led('CHB',L&2,'CHB LED')}${led('COM',L&1,'COM Activity LED')}</svg>`;
 }
-/* Rear module: panel 1.31 × 3.34 in, column/row pitch from T6302.DXF (as in opengear.js); labels from the AA6201A drawings */
-function rearSVG(t){
-  const w=worldAt(t), RM=REARS[w.rear]; const S=100, X=x=>(x-8.047)*S+10, Y=y=>(21.063-y)*S+10;
-  const colX=[8.507, 9.132], rowY=[20.569,19.944,19.319,18.695,18.070];
+/* Rear modules: CorelDRAW art. T6303, T6403, T6406 from AA6201-REAR-MODULES.cdr (2008-08-07); T6203 from AA6201A-T6203.cdr
+   (2008-09-24) → assets/aa6201a-rear-<T>.svg. Terminal-block bodies measured on the converted art; for T6406 the
+   click targets are the art's own side labels (one 9-pin block carries an input and three outputs). */
+const REAR_ART = {
+  T6303:{w:217,h:318, file:'AA6201-REAR-MODULES.cdr', cx:[72.1,122.6], cy:[67.3,112.3,157.3,202.3,247.3], bw:20.5, bh:36, plate:[50,22,115,260]},
+  T6403:{w:219,h:318, file:'AA6201-REAR-MODULES.cdr', cx:[71.3,118.9], cy:[67.3,112.3,157.3,202.3,247.3], bw:20.5, bh:36, plate:[48,22,115,260]},
+  T6203:{w:204,h:295, file:'AA6201A-T6203.cdr', cx:[78.8,128.3], cy:[66.6,103.6,140.2,176.4,213.0], bw:20.6, bh:36, plate:[44,18,115,245]},
+  T6406:{w:220,h:318, file:'AA6201-REAR-MODULES.cdr', cx:[74.1,121.4], cy:[100.6,207.3], bw:20.6, bh:100,
+    lab:[[72,98,119.8,141],[178.4,204.5,226.6,247.4]], lx:[[5,50],[155,207]], plate:[50,22,115,260]},
+};
+function rearSVG(t, opts){
+  opts=opts||{};
+  const w=worldAt(t), RM=REARS[w.rear], ART=REAR_ART[w.rear];
   const sel=w.scopeOut;
-  let s=`<svg viewBox="0 0 151 366" role="img" aria-label="${RM.name}" style="width:100%;max-width:230px;display:block">
-    <rect x="10" y="10" width="131" height="334" rx="3" fill="#c9ccd0" stroke="#7a7f85"/>
-    <circle cx="${X(8.82)}" cy="${Y(20.938)}" r="6.7" fill="#9aa0a6" stroke="#555"/><path d="M${X(8.82)-4} ${Y(20.938)} h8 M${X(8.82)} ${Y(20.938)-4} v8" stroke="#333"/>`;
+  const vb = opts.compact? ART.plate.join(' ') : `0 0 ${ART.w} ${ART.h}`;
+  let s=`<svg viewBox="${vb}" role="img" aria-label="${RM.name} (CorelDRAW art)" style="width:100%;display:block;border-radius:6px">
+    <image href="${ASSET}aa6201a-rear-${w.rear}.svg" width="${ART.w}" height="${ART.h}"/>`;
   const sig = role=> role==='inA'? w.A.src!=='off' : role==='inB'? w.B.src!=='off' : false;
-  const item=(cx,cy,lab,role,mine,n,col,pins)=>{
-    const isIn = role[0]==='i', live = mine, conn = isIn && mine && sig(role);
-    const ph = pins||3, h=ph*13+8;
-    let g=`<g class="aa-jack" data-r="${role}" data-mine="${mine?1:0}" style="cursor:${mine?'pointer':'default'}"><rect x="${cx-11}" y="${cy-h/2}" width="22" height="${h}" fill="#24944d" stroke="${sel===role&&mine&&!isIn?'#ffd36a':'#0b4b26'}" stroke-width="${sel===role&&mine&&!isIn?2.5:1}"/>`;
-    for (let k=0;k<ph;k++) g+=`<rect x="${cx-7}" y="${cy-h/2+4+k*13}" width="14" height="10" fill="#1d7a40" stroke="#0b4b26"/><circle cx="${cx}" cy="${cy-h/2+9+k*13}" r="2.8" fill="#0b2b16"/>`;
-    if (conn) g+=`<path d="M${col?cx+11:cx-11} ${cy-10} h${col?10:-10} M${col?cx+11:cx-11} ${cy} h${col?10:-10} M${col?cx+11:cx-11} ${cy+10} h${col?10:-10}" stroke="#2b5f9e" stroke-width="4"/>`;
-    if (!isIn && mine){ const lvl=outLevelOf(t, role); g+=`<circle cx="${col?cx-15:cx+15}" cy="${cy-h/2+3}" r="3.2" fill="${lvl>-60?'var(--accent)':'#888'}"/>`; }
-    g+=`<rect x="${cx-24}" y="${cy-h/2-2}" width="48" height="${h+4}" fill="transparent"><title>${n? n+' ':''}${lab}${mine? (isIn? ' — click to '+(conn?'unplug':'plug in') : ' — click to show on the scope') : ' (other card)'}</title></rect></g>`;
-    g+=`<text x="${col? cx+22 : cx-22}" y="${cy+h/2+9}" font-size="7" text-anchor="${col?'end':'start'}" fill="${live?'#1b1d20':'#7c8186'}" font-weight="${live?700:400}">${n? n+' ':''}${lab}</text>`;
-    return g; };
+  const hit=(x,y,ww,hh,lab,role,mine)=>`<rect x="${x}" y="${y}" width="${ww}" height="${hh}" fill="transparent"><title>${lab}${mine? (role[0]==='i'? ' — click to '+(sig(role)?'unplug':'plug in') : ' — click to show on the scope') : ' (other card)'}</title></rect>`;
   if (RM.kind==='tb9'){
-    RM.blocks.forEach(b=>{ const cx=X(colX[b.col]), cy= b.row? 250 : 112; const mine=b.card===w.pos;
-      s+=item(cx, cy, b.tb, 'blk', false, '', b.col, 9);
-      b.items.forEach((it,i)=>{ const yy=cy-55+i*31; s+=`<g class="aa-jack" data-r="${it[1]}" data-mine="${mine?1:0}" style="cursor:${mine?'pointer':'default'}"><rect x="${b.col? cx-58 : cx+14}" y="${yy-9}" width="44" height="22" fill="transparent"><title>${it[0]}${mine?' — click':' (other card)'}</title></rect><text x="${b.col? cx-14 : cx+14}" y="${yy+5}" font-size="7" text-anchor="${b.col?'end':'start'}" fill="${mine?'#1b1d20':'#7c8186'}" font-weight="${mine?700:400}">${it[0]}${it[1][0]==='i'&&mine&&sig(it[1])?' ●':''}${it[1]===sel&&mine?' ◂':''}</text></g>`; }); });
-  } else RM.pos.forEach((p,i)=>{ const col=i%2, row=Math.floor(i/2); const mine=!RM.dual || p[3]===w.pos; s+=item(X(colX[col]), Y(rowY[row]), p[0], p[1], mine, i+1, col); });
-  s+=`<text x="75" y="358" font-size="7" text-anchor="middle" fill="#55595f">${w.rear} · ID ${RM.id}</text></svg>`;
+    RM.blocks.forEach(b=>{ const cx=ART.cx[b.col], cy=ART.cy[b.row], mine=b.card===w.pos;
+      if (!mine) s+=`<rect x="${cx-ART.bw/2}" y="${cy-ART.bh/2}" width="${ART.bw}" height="${ART.bh}" fill="#000" opacity=".12"/>`;
+      b.items.forEach((it,i)=>{ const yy=ART.lab[b.row][i], [x0,x1]=ART.lx[b.col], role=it[1], isIn=role[0]==='i';
+        const conn=isIn&&mine&&sig(role), on=!isIn&&mine&&sel===role;
+        s+=`<g class="aa-jack" data-r="${role}" data-mine="${mine?1:0}" style="cursor:${mine?'pointer':'default'}">`;
+        if (conn) s+=`<circle cx="${b.col? x1-2 : x0+1}" cy="${yy-3}" r="2.6" fill="#2b5f9e"/>`;
+        if (on) s+=`<rect x="${x0-1}" y="${yy-9}" width="${x1-x0+2}" height="12" rx="2" fill="none" stroke="#e3a35a" stroke-width="1.2"/>`;
+        if (!isIn && mine){ const lvl=outLevelOf(t, role); s+=`<circle cx="${b.col? cx-ART.bw/2-3 : cx+ART.bw/2+3}" cy="${yy-3}" r="1.6" fill="${lvl>-60?'var(--accent)':'#888'}"/>`; }
+        s+=hit(x0,yy-10,x1-x0,13,it[0],role,mine)+'</g>'; }); });
+  } else RM.pos.forEach((p,i)=>{
+    const col=i%2, row=Math.floor(i/2), cx=ART.cx[col], cy=ART.cy[row], [lab,role]=p;
+    const mine=!RM.dual || p[3]===w.pos, isIn=role[0]==='i', conn=isIn&&mine&&sig(role);
+    const x=cx-ART.bw/2, y=cy-ART.bh/2;
+    s+=`<g class="aa-jack" data-r="${role}" data-mine="${mine?1:0}" style="cursor:${mine?'pointer':'default'}">`;
+    if (conn) s+=`<rect x="${x}" y="${y}" width="${ART.bw}" height="${ART.bh}" fill="#2b5f9e" opacity=".35"/><path d="M${col?x+ART.bw:x} ${cy-8} h${col?8:-8} M${col?x+ART.bw:x} ${cy} h${col?8:-8} M${col?x+ART.bw:x} ${cy+8} h${col?8:-8}" stroke="#2b5f9e" stroke-width="2.4"/>`;
+    if (!isIn && mine && sel===role) s+=`<rect x="${x-1.5}" y="${y-1.5}" width="${ART.bw+3}" height="${ART.bh+3}" fill="none" stroke="#e3a35a" stroke-width="2"/>`;
+    if (!isIn && mine){ const lvl=outLevelOf(t, role); s+=`<circle cx="${col? x-3 : x+ART.bw+3}" cy="${y+3}" r="2" fill="${lvl>-60?'var(--accent)':'#888'}"/>`; }
+    if (!mine) s+=`<rect x="${x}" y="${y}" width="${ART.bw}" height="${ART.bh}" fill="#000" opacity=".12"/>`;
+    s+=hit(x-3,y-2,ART.bw+6,ART.bh+4,(i+1)+' '+lab,role,mine)+'</g>'; });
+  s+=`</svg>`;
   return s;
 }
+function rearSrc(){ const w=worldAt(SIM.t), A=REAR_ART[w.rear]; return `Rear-module art: ${SIM.src(ART_SRC+A.file, A.file)} (CorelDRAW, 2008|41)`; }
 function outLevelOf(t, role){ const w=worldAt(t), sn=snapAt(t); if (!w.card) return -120; const grp=role[1]==='B'?1:0; const sw = sn.ph==='app'? sn.sw : SW_MUTE; return rmsDbu(tt=>outSample(w,sw,grp,tt), (D.second-1)+t); }
 function frameSVG(t){
   const w=worldAt(t), RM=REARS[w.rear], sn=snapAt(t);
@@ -700,8 +719,8 @@ const DASH_CSS = `<style>
 .aa-pfoot button,.aa-pfoot select{font-size:11.5px;padding:3px 7px;max-width:100%}
 .aa-upl{padding:6px 8px;border-top:1px solid var(--line)}
 .aa-bar{height:9px;border-radius:5px;background:var(--grid);overflow:hidden}.aa-bar i{display:block;height:100%;background:var(--accent)}
-.aa-two{display:grid;grid-template-columns:minmax(0,1fr) 160px;gap:10px;align-items:start}
-.aa-rear{display:grid;grid-template-columns:170px minmax(0,1fr);gap:12px}
+.aa-two{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:10px;align-items:start}
+.aa-rear{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:12px}
 @media (max-width:700px){.aa-dwrap{grid-template-columns:1fr}.aa-tree{border-right:none;border-bottom:1px solid var(--line)}.aa-two,.aa-rear{grid-template-columns:1fr}}
 .aa-hot{fill:color-mix(in srgb,var(--accent) 25%,var(--panel2))!important;stroke:var(--accent)!important;stroke-width:2.5!important}
 </style>`;
@@ -858,9 +877,9 @@ function viewSim(m){
   window.__aa6201aKeys = true;
   m.innerHTML = DASH_CSS + `
   <div class="grid2"><div>${card('Frame, card and card edge at the playhead', `<div id="frm"></div><div class="aa-two" style="margin-top:8px"><div id="crd"></div><div id="edge"></div></div>
-     <div class="small muted" style="margin-top:4px">Card = AA6201A ISS5 top side from the gerbers (TOP + TSM + TSS). Click the DIP switch, the LVLA/LVLB trimmers (left half −, right half +, shift = fine) or a frame slot. Keys: A / B IN1/IN2 cable · M mode · O open in DashBoard · N next second · S skip 5 s.</div><div id="wc"></div>`)}</div>
+     <div class="small muted" style="margin-top:4px">Card edge = ${SIM.src(ART_SRC+'AA6201A-card-edge.cdr','AA6201A-card-edge.cdr')} (CorelDRAW, 2007|40). Card = AA6201A ISS5 top side from the gerbers (TOP + TSM + TSS). Click the DIP switch, the LVLA/LVLB trimmers (left half −, right half +, shift = fine) or a frame slot. Keys: A / B IN1/IN2 cable · M mode · O open in DashBoard · N next second · S skip 5 s.</div><div id="wc"></div>`)}</div>
    <div>${card('Parameter window (DashBoard-style, generic)', `<div id="dash"></div>`)}${card('What the firmware did (last action)', `<div id="trace" class="log"></div>`)}</div></div>
-  <div class="grid2"><div>${card('Rear module — click IN1/IN2 to plug/unplug; click an output to scope it', `<div class="aa-rear"><div id="rear"></div><div id="rearInfo" class="small"></div></div>`)}</div>
+  <div class="grid2"><div>${card('Rear module — click IN1/IN2 to plug/unplug; click an output to scope it', `<div class="aa-rear"><div><div id="rear"></div><div id="rearSrc" class="small muted"></div></div><div id="rearInfo" class="small"></div></div>`)}</div>
    <div>${card('State at the playhead', `<div id="insp"></div>`)}</div></div>
   ${card('Timeline — one second as seen by the card and its LEDs (click to seek)', `<canvas id="tl"></canvas><p class="small muted">Timer periods come from the register values (8 MHz, clk/64). The main-loop pass time is ${inf} (selectable above); the 3000-pass wait between ADC evaluations and therefore the silence timing scale with it. Detector counts follow a fit to the firmware’s CONSTANT_xxdBu table ${inf}.</p>`)}
   <div class="grid2">${card('Scope at the playhead', `<canvas id="scope"></canvas>`)}${card('Outputs and supply', `<div id="meters"></div>`)}</div>
@@ -870,7 +889,7 @@ function viewSim(m){
     const t=SIM.t; finishUploadIfDone();
     if (wcVer!==D.ver){ wcVer=D.ver; m.querySelector('#wc').innerHTML=worldControlsHTML(); bindWorld(m); }
     m.querySelector('#frm').innerHTML=frameSVG(t); m.querySelector('#crd').innerHTML=cardSVG(t); m.querySelector('#edge').innerHTML=edgeSVG(t);
-    m.querySelector('#dash').innerHTML=dashHTML(t); m.querySelector('#rear').innerHTML=rearSVG(t);
+    m.querySelector('#dash').innerHTML=dashHTML(t); m.querySelector('#rear').innerHTML=rearSVG(t); m.querySelector('#rearSrc').innerHTML=rearSrc();
     const w=worldAt(t), RM=REARS[w.rear];
     m.querySelector('#rearInfo').innerHTML=`<b>${RM.name}</b><br>ID resistors AN_BMID / AN_BMID2: ${RM.id} (AN_BMID reaches PF3/ADC3, U9-58, but the firmware never reads it).
       <table class="kv" style="margin-top:4px">${(RM.kind==='tb9'? RM.blocks.flatMap(b=>b.items.map(i=>[i[0],i[1],b.tb+' → P1'+(b.card===2?'01':'02')])) : RM.pos.map((p,i)=>[(i+1)+' '+p[0],p[1],'P1-'+p[2]])).map(r=>`<tr><td>${r[0]}</td><td>${{inA:'→ U11 SSM2143 (BNC1_SIG/GND)',inB:'→ U12 SSM2143 (BNC2_SIG/GND)'}[r[1]]||('group '+r[1][1]+' output '+r[1][2]+' (AES'+(r[1][1]==='A'? r[1][2] : 4+ +r[1][2])+'P/N)')}</td><td class="mono">${r[2]}</td></tr>`).join('')}</table><div class="muted">Source: ${RM.src}.${w.rear==='T6303'?' *Position 8 is labelled “OUT1-3” on AA6201-REAR-MODULES.pdf; the netlist puts AES7 (OUT2-3) there.':''}</div>`;
@@ -907,12 +926,12 @@ const LESSONS = [
 function viewTutorial(m){
   window.__aa6201aKeys = true;
   m.innerHTML = DASH_CSS + `<div class="grid2"><div>${card('Tutorial — installing and calibrating an AA6201A', `<ol id="lessons" class="small" style="list-style:none;padding-left:4px;margin:0"></ol>`)}<div class="card" id="lesson"></div>${card('What the firmware did', `<div id="trace" class="log"></div>`)}</div>
-    <div>${card('Frame, card, card edge and rear module', `<div id="frm"></div><div id="crd" style="margin-top:6px"></div><div style="display:grid;grid-template-columns:150px 150px;gap:8px;margin-top:6px"><div id="edge"></div><div id="rear"></div></div><div id="wc"></div>`)}${card('Parameter window', `<div id="dash"></div>`)}</div></div>`;
+    <div>${card('Frame, card, card edge and rear module', `<div id="frm"></div><div id="crd" style="margin-top:6px"></div><div style="display:grid;grid-template-columns:minmax(0,1fr) 130px;gap:8px;margin-top:6px"><div id="edge"></div><div id="rear"></div></div><div id="wc"></div>`)}${card('Parameter window', `<div id="dash"></div>`)}</div></div>`;
   let wcVer=-1;
   const draw=()=>{
     const t=SIM.t; finishUploadIfDone();
     if (wcVer!==D.ver){ wcVer=D.ver; m.querySelector('#wc').innerHTML=worldControlsHTML(); bindWorld(m); }
-    m.querySelector('#frm').innerHTML=frameSVG(t); m.querySelector('#crd').innerHTML=cardSVG(t,{labels:false}); m.querySelector('#edge').innerHTML=edgeSVG(t); m.querySelector('#rear').innerHTML=rearSVG(t);
+    m.querySelector('#frm').innerHTML=frameSVG(t); m.querySelector('#crd').innerHTML=cardSVG(t,{labels:false}); m.querySelector('#edge').innerHTML=edgeSVG(t); m.querySelector('#rear').innerHTML=rearSVG(t,{compact:true});
     m.querySelector('#dash').innerHTML=dashHTML(t); m.querySelector('#trace').innerHTML=traceHTML();
     const li=D.ui.lesson;
     m.querySelector('#lessons').innerHTML=LESSONS.map((l,i)=>`<li style="cursor:pointer;${i===li?'font-weight:700;color:var(--accent)':''}" data-i="${i}">${l.title}${i<li?' ✓':''}</li>`).join('');
@@ -1138,6 +1157,7 @@ function viewNotes(m){
     ['Website and SNMP name leak across brands', 'OID 1.4 (www.ward-beck.com) is in ParamOIDS_Message for every brand (only the Ward-Beck Menu0 shows it). The SNMP build’s Name says “… w/SNMP”. With SNMP_ENABLED and ROSS_VIDEO/COBALT defined, MESSAGE_CREATOR_GET_SNMP_BASE_RESPONSE has no string, so those builds would not compile — which enforces the history note “DON’T USE FOR ROSS OR COBALT” '+inf+'.'],
     ['Any brand image fits any brand card', 'All four v501 *_ztcpack.txt files list /p AA6201A /P ADA-8404-C /P 9241, so a Ross card will accept the Ward-Beck SNMP .bin and re-brand itself in DashBoard '+inf+'.'],
     ['Drawing and documentation slips', 'AA6201-REAR-MODULES.pdf labels T6303 position 8 “OUT1-3” (it is OUT2-3 on AES7, T6303-iss3.net). T6406 uses the same 887R ID as T6403. AA6201A-TOP-ASSY.pdf is ISS1 (2007|40: 2K trims, OPA2064 detectors, NE5532 output) while the BOM/netlist are ISS5 (5K multi-turn, OP275). The MIB says LAST-UPDATED 2007 although SNMP arrived in 2012|45.'],
+    ['Artwork 2026|59: card edge and rear modules now from CorelDRAW', 'Card edge from '+SIM.src(ART_SRC+'AA6201A-card-edge.cdr','AA6201A-card-edge.cdr')+' (2007-12-19); T6303, T6403 and T6406 from '+SIM.src(ART_SRC+'AA6201-REAR-MODULES.cdr','AA6201-REAR-MODULES.cdr')+' (2008-08-07); T6203 from '+SIM.src(ART_SRC+'AA6201A-T6203.cdr','AA6201A-T6203.cdr')+' (2008-09-24). The separate AA6201A-T6303.cdr (2008-01-17), AA6201-T6403.cdr and AA6201-T6406.cdr (2008-06-10) are earlier single-module sheets of the same plates. The CorelDRAW sheet repeats the “OUT1-3” slip at T6303 position 8 (so the PDF inherited it), and the T6406 side labels mix “IN1#1” / “OUT1-2#2” with “IN2 #1” / “OUT1-1 #2” (spacing typed by hand). The card-edge drawing has exactly three LED windows and two trimmer screws, matching the model. Text in these files is live Arial: libcdr kept the words but not the alignment, so the stacked “G – +” pin legends beside the terminal blocks sit slightly off.'],
     ['Thermal limit', 'Fanless.xls: 240 mA at +4 dBu with one channel, 780 mA (9.4 W) at +27 dBu with both; “each slot can not consume more than 2 W” without airflow, so a still-air frame holds about ten AA6201As with a space between them; 16 cards at +18 dBu exceeded 60 °C.'],
     ['Test report', 'AA6201A-V501-24APR12.pdf (scanned checklist, 5 h): “the DC offset calibration software with or without SNMP are included in this version to simplify the programming steps”. Analog checks ticked: waveform, THD, frequency response, amplitude, noise, mapping; alarm on/off; DataSafe; DIP switch.'],
   ];
@@ -1145,6 +1165,7 @@ function viewNotes(m){
    card('Sources', `<ul class="small"><li>#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR/AA6201A - #Engineering/AA6201A - #SOFTWARE/AA6201A - #SOFTWARE #atmel/AA6201A - #SOFTWARE #atmelv501/ (v100w.c, AA6201A.c/.h, ADC.c/.h, CAN.c/.h, Dashboard.c/.h, common.c/.h, CANmsg.h, paramdef.h, OpenGear.h, Ross Video/eeprom.c, *_ztcpack.txt) · …#atmel v204/ · …#atmelv500/</li>
      <li>…/AA6201A - #SOFTWARE/AA6201A SOFTWARE HISTORY.xls · …/AA6201A - SNMP #Software/AA6201A - #SOFTWARE v500/AA6201-CARD.mib, WARD-BECK*.mib</li>
      <li>…/AA6201A - #PCB/AA6201Aiss5.net, .bom, .pnp · GERBERS/AA6201AISS5.TOP, .TSM, .TSS → assets/aa6201a-card-copper.png, aa6201a-card-silk.png (third-party logo blanked)</li>
+     <li>Panel art: ${SIM.src(ART_SRC+'AA6201A-card-edge.cdr','AA6201A-card-edge.cdr')} → assets/aa6201a-edge.svg · ${SIM.src(ART_SRC+'AA6201-REAR-MODULES.cdr','AA6201-REAR-MODULES.cdr')} → assets/aa6201a-rear-T6303/T6403/T6406.svg · ${SIM.src(ART_SRC+'AA6201A-T6203.cdr','AA6201A-T6203.cdr')} → assets/aa6201a-rear-T6203.svg</li>
      <li>…/AA6201A - #FUNCTIONAL/AA6201-REAR-MODULES.pdf, AA6201A-T6203.pdf, AA6201A-TOP-ASSY.pdf, DIP Switch.cdr, AA6201A-card-edge.cdr</li>
      <li>…/AA6201A - #SOFTWARE AA6201A V5.1 programming instruction.docx, …(obsolete).docx · Fanless.xls · ../AA6201A - #TESTREPORT/AA6201A-V501-24APR12.pdf</li>
      <li>T6303 - …/iss3/T6303-iss3.net · T6403 - …/T6403-iss2.net · T6406 - …/T6406-iss1.net · t6203.js · opengear.js (slot-ID resistors)</li>

@@ -13,7 +13,8 @@
    - AMX9A - #Mechanical #DA #2016/AMX9A BOM .pdf (TOCOS 10K log pots, LM4766, LAM SCD601515, EN5F + B1S speakers)
    - AMX9A - #MECHANICS/AMX9A-FRONT ISS 3 (FRONT PANEL).pdf, AMX9A-REAR ISS 2 (REAR PANEL).pdf (to-scale panels)
    - AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr (NOV.26/15), converted with Inkscape, guides dropped
-     -> assets/amx9a-front-green.png, amx9a-front-white.png, amx9a-rear-white.png (100 px per inch, 17.1 × 1.648 in);
+     -> assets/amx9a-front.svg (GREEN + WHITE plates registered), amx9a-rear.svg (vector, 100 units per inch, 17.1 × 1.648 in;
+     Artwork 2026|59 pass, replaces the earlier PNG cuts);
      ink colours sampled from AMX9A - #Photos/AMX9A-FRONT.jpg
    - AMX9A - #Functional/AMX9A ISS2 - Functional - June 16 2010.cdr, AMX9A - #Archive/AMX9A Rear Logo for CTV.cdr
    - AMX9 - Redesign #RD #RD78/THAT_1510-1512_Datasheet.pdf (RD78 stub)
@@ -22,6 +23,8 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+/* Artwork 2026|59: preload the CorelDRAW SVGs once, so panels that are re-rendered every frame never show them half-loaded */
+const ART_PRELOAD = ["amx9a-front.svg", "amx9a-rear.svg"].map(n=>{ const i=new Image(); i.src=ASSET+n; return i; });
 const inf = (why)=>`<span class="tag-inf" title="${why?('Inferred: '+why):'Not stated in the source; inferred'}">inferred</span>`;
 
 /* ---------------- constants from the archive ---------------- */
@@ -179,7 +182,7 @@ function frontSVG(){
    ${[0,1805].map(x=>`<rect x="${x}" y="1" width="95" height="172" rx="3" fill="#1d1e20" stroke="#0c0c0d"/>${[25,150].map(y=>`<rect x="${x+(x?36:22)}" y="${y-9}" width="38" height="18" rx="9" fill="#e9e9e4"/>`).join('')}`).join('')}
    <rect x="${FX}" y="${FY}" width="1710" height="164.8" fill="url(#amxSheen)" stroke="#0b0b0c"/>
    ${hexGrill(2.1)}${hexGrill(15.0)}
-   <image href="${ASSET}amx9a-front-green.png" x="${FX}" y="${FY}" width="1710" height="165"/><image href="${ASSET}amx9a-front-white.png" x="${FX}" y="${FY}" width="1710" height="165"/>
+   <image href="${ASSET}amx9a-front.svg" x="${FX}" y="${FY}" width="1710" height="164.8"/>
    <circle cx="${FX+4.125*P}" cy="${FY+1.172*P}" r="7" fill="#c9ff8a" filter="url(#amxGlow)"><title>LED1 power (green, R10 1K5 from +VA)</title></circle>`;
   for (let i=0;i<9;i++){ const cx=FX+(4.625+0.8*i)*P, cy=FY+1.121*P;
     if (i===D.sel) g+=`<circle cx="${cx}" cy="${cy}" r="27" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="4 3"/>`;
@@ -204,7 +207,7 @@ function rearSVG(){
    ${[[64,58],[84,48],[104,58]].map(([x,y])=>`<rect x="${x-3}" y="${y-8}" width="6" height="16" fill="#c9c9c4"/>`).join('')}<rect x="44" y="94" width="80" height="42" rx="4" fill="#202122" stroke="#444"/><text x="84" y="119" font-size="9" fill="#888" text-anchor="middle">fuse 1A S.B.</text>
    <circle cx="188" cy="82.4" r="7" fill="#9c9c96" stroke="#555"><title>ground stud (FH440-5 insert)</title></circle>`;
   for (let k=0;k<14;k++){ const x=(k<7? 3.9+k*0.25 : 5.9+(k-7)*0.25)*P; g+=`<rect x="${x-4.65}" y="${32.4}" width="9.3" height="100" rx="4.6" fill="#040404"/>`; }
-  g+=`<image href="${ASSET}amx9a-rear-white.png" x="0" y="0" width="1710" height="165"/>`;
+  g+=`<image href="${ASSET}amx9a-rear.svg" x="0" y="0" width="1710" height="164.8"/>`;
   const order=['TB11','TB10',...[9,8,7,6,5,4,3,2,1].map(n=>CH[n-1].tb)];
   order.forEach((tb,k)=>{ const cx=(8.695+0.275+0.55*k)*P, y0=106.7, isIn=k>=2, ch=isIn? 10-k : -1;
     const on=isIn? D.in[ch].on : true; const col=isIn? (on?'#66c06e':'#4a8f50') : '#66c06e';
@@ -319,8 +322,8 @@ function viewSel(){ return `<label class="small">Lanes <select id="aView">${[['m
 function bindViewSel(m){ const v=m.querySelector('#aView'); if (v) v.onchange=e=>{ D.view=e.target.value; SIM.refresh(); }; const s=m.querySelector('#aSel'); if (s) s.onchange=e=>{ D.sel=+e.target.value; bump(); SIM.refresh(); }; }
 
 /* ---------------- tabs ---------------- */
-function panelsHTML(){ return `<div id="amxF"></div><div class="small muted" style="margin:3px 0 10px">Front: to scale from <span class="mono">AMX9A-FRONT ISS 3 (FRONT PANEL).pdf</span> (17.100 × 1.648 in; ears ${inf('RMK2 mounting wings drawn generic')}), silk = real green + white separations from <span class="mono">AMX9A-FRONT &amp; REAR(CURVE).cdr</span> (NOV.26/15).</div>
-  <div id="amxR"></div><div class="small muted" style="margin-top:3px">Rear (viewed from behind): to scale from <span class="mono">AMX9A-REAR ISS 2 (REAR PANEL).pdf</span>, real white silk. Green Phoenix plugs as in <span class="mono">#Photos/AMX9A-REAR.jpg</span>. Order left → right = TB11, TB10, TB9, TB6, TB3, TB8, TB5, TB2, TB7, TB4, TB1 (ISS3 board seen from the back).</div>`; }
+function panelsHTML(){ return `<div id="amxF"></div><div class="small muted" style="margin:3px 0 10px">Front: to scale from <span class="mono">AMX9A-FRONT ISS 3 (FRONT PANEL).pdf</span> (17.100 × 1.648 in; ears ${inf('RMK2 mounting wings drawn generic')}), silk = CorelDRAW vector art, GREEN and WHITE plates registered on one panel, from ${SIM.src('#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr','AMX9A-FRONT & REAR(CURVE).cdr')} (NOV.26/15); faint lines = cut geometry (holes, grill).</div>
+  <div id="amxR"></div><div class="small muted" style="margin-top:3px">Rear (viewed from behind): to scale from <span class="mono">AMX9A-REAR ISS 2 (REAR PANEL).pdf</span>, WHITE plate from the same CorelDRAW sheet. Green Phoenix plugs as in <span class="mono">#Photos/AMX9A-REAR.jpg</span>. Order left → right = TB11, TB10, TB9, TB6, TB3, TB8, TB5, TB2, TB7, TB4, TB1 (ISS3 board seen from the back).</div>`; }
 function viewSim(m){
   m.innerHTML=`${card('AMX9A — front and rear (drag knobs, click jack and terminals)', panelsHTML()+issControls())}
    <div class="grid2"><div>${card('Inputs (rear terminals 1–9)', `<div id="aIn"></div>`)}</div>
@@ -571,6 +574,7 @@ function viewSoft(m){
 /* Findings */
 function viewFindings(m){
   m.innerHTML=card('What the AMX9A files show', `<ol>
+   <li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/AMX9A-FRONT & REAR(CURVE).cdr','AMX9A-FRONT & REAR(CURVE).cdr')} (NOV.26/15, file dated 6 Jul 2016).</b> The sheet holds a GREEN and a WHITE front plate and a WHITE rear plate; they are registered on one panel here. The hole crosshairs on knobs 1, 5, 6, LINE and MONITOR are drafting marks on the sheet. The older ${SIM.src('#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #ARTWORK #DA #2016/OLDER ISSUES/AMX9A-FRONT & REAR((FINAL CURVE).cdr','OLDER ISSUES/…(FINAL CURVE).cdr')} (2014) is the same layout but with horizontal slot vents behind the speakers instead of the hexagon grill, and an empty IEC box on the rear; the 2015 art changed both. The ${SIM.src('#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE/AMX9A - #SILK/AMX9A-FRONT & REAR(CURVE).cdr','#SILK copy')} (Nov 2015) is the same drawing.</li>
    <li><b>Both outputs were wired backwards on ISS2, and ISS3 fixed them.</b> The only netlist change from <span class="mono">AMX9A-ISS2.net</span> to <span class="mono">WORKING/AMX9A-ISS3.net</span> is pins 1 and 2 of TB10 and TB11 swapping (ECO log of 24 Jun 2010, NET00044/54/55/70). Following the signal through the inverting mix amp (U6A) and U6B shows that on ISS2 pin 1 ("+") of both LINE and MONITOR carries the inverted mix. ISS1 had LINE right but MONITOR inverted. ISS2 then swapped the U8 outputs and TB10, which fixed MONITOR on P3 but broke LINE. Try it with the Board issue selector.</li>
    <li><b>The mix gain changed three times.</b> The 2009 BOM (<span class="mono">AMX9-iss2.bom</span>, 17 Jun 2009) and the ISS1 netlist have R45 = R58 = 20K. The ISS2 netlist has R45 = 36K2, R58 = 10K. The ISS2 ECO sets R45 to 39K2 at 11:36 on 8 Jun 2010, but the ISS2 <span class="mono">.net</span> in the folder was exported at 08:45 that morning and was never regenerated, so it still says 36K2. ISS3 and the 2016 BOM have 39K2. At full knob, 39K2/10K = +11.9 dB, plus 6 dB from the balanced output stage = +17.9 dB. That matches the June 2010 manual's "Input Gain OFF to +17dB". The 2009 manual says "OFF to +9 dB" and "Master Gain OFF to +9 dB", which neither the ISS1 values (+6 dB mix, +6 dB master) nor any later issue gives exactly.</li>
    <li><b>The LINE knob arrived in June 2010.</b> ISS1 has no P6. Instead, a 1×3 header H3 sits between MASTER, the line buffer input (R43) and the post-MONITOR amp (U6-7), so a link chose a fixed or a MONITOR-following line output ${inf('purpose of the link')}. The front drawing's ISS 2 (07 06 2010) is ".265 DIA. HOLE ADDED". The ISS2 schematic adds P6, and the BOM lists one extra TOCOS pot with a black knob at top level, wired on a flying lead. The 2009 manual (<span class="mono">AMX9A Manual.pdf</span>) lists only "a master level control"; the 2010 manual adds "a separate line output control". The two photos show both builds: <span class="mono">AMX9A-FRONT.jpg</span> (MASTER only) and <span class="mono">AMX9A-FRONT-line output.jpg</span> (LINE + MONITOR).</li>

@@ -327,8 +327,9 @@ const A = {
    DRAWING: front panel, rear panel
    ================================================================ */
 /* Panels are built on the real silkscreen: POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).pdf
-   (2016|49 drafting set). Its GREEN and WHITE front separations and WHITE rear separation were cut out at
-   200 dpi into assets/*.png (1704 × 311 px = the panel face). Controls sit on the artwork's drill crosshairs;
+   (2016|49 drafting set). Artwork 2026|59: the panels now come from the CorelDRAW original, POD33-FRONT&REAR-SILK (CURVE).cdr,
+   converted to assets/pod33-front.svg / -rear.svg (+ -rear-ink.svg drawn over the connectors), framed on the same crop
+   marks as the earlier 200 dpi PDF cut (1704 × 311 units = the panel face). Controls sit on the artwork's drill crosshairs;
    LED, display and switch positions are measured from Photos/POD33 Front.jpg. */
 const ASSET = 'siumulation-plugins/assets/';
 function frontSVG(t, opts){
@@ -345,11 +346,10 @@ function frontSVG(t, opts){
       <circle cx="${x-8}" cy="216" r="14" fill="#33a159" opacity=".55"/>
       <circle cx="${x-80}" cy="214" r="9" fill="#55595c"/><circle cx="${x+80}" cy="214" r="9" fill="#55595c"/>
     </g>`;
-  return `<svg viewBox="0 0 1704 311" role="img" aria-label="POD33 front panel (real silkscreen)" style="width:100%;max-width:960px;border-radius:8px;display:block">
+  return `<svg viewBox="0 0 1704 311" role="img" aria-label="POD33 front panel (CorelDRAW silk artwork)" style="width:100%;max-width:960px;border-radius:8px;display:block">
     <defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
     <rect width="1704" height="311" rx="10" fill="var(--dev)"/>
-    <image href="${ASSET}pod33-front-green.png" width="1704" height="311"/>
-    <image href="${ASSET}pod33-front-white.png" width="1704" height="311"/>
+    <image href="${ASSET}pod33-front.svg" width="1704" height="311"/>
     <g class="pwr" style="cursor:pointer"><rect x="132" y="56" width="98" height="128" rx="10" fill="#0a0b0c" stroke="#30333a"/><rect x="146" y="${D.power?66:118}" width="70" height="56" rx="6" fill="#1d2023" stroke="#3a3d40"/></g>
     <circle cx="306" cy="206" r="10" fill="${L.pwr?'#efffa0':'var(--led-off)'}" ${L.pwr?'filter="url(#glow)"':''}/>
     ${led(676,66,L.aes,'var(--led-g)')}${led(676,156,L.video,'var(--led-g)')}${led(676,246,L.int,'var(--led-a)')}
@@ -366,12 +366,13 @@ function rearSVG(){
       ${conn?`<rect x="${x-20}" y="250" width="40" height="61" fill="#2b5f9e"/><rect x="${x-34}" y="232" width="68" height="34" rx="8" fill="#3a74b8"/>`:''}
       ${id?`<rect x="${x-62}" y="150" width="124" height="124" fill="transparent"><title>${conn?'Click to unplug':'Click to plug in'} the ${id==='aes'?'AES':'video'} reference</title></rect><circle cx="${x+44}" cy="170" r="10" fill="${conn?'var(--accent)':'#555'}"/>`:''}</g>`;
   const phx = x=>`<rect x="${x-52}" y="58" width="104" height="52" rx="4" fill="#1f8a45" stroke="#0e4d25" stroke-width="2"/>${[-28,0,28].map(d=>`<circle cx="${x+d}" cy="84" r="9" fill="#0d3a1c"/>`).join('')}`;
-  let s = `<svg viewBox="0 0 1704 311" role="img" aria-label="POD33 rear panel (real silkscreen)" style="width:100%;max-width:960px;border-radius:8px;display:block">
-    <rect width="1704" height="311" rx="10" fill="var(--dev)"/>`;
+  let s = `<svg viewBox="0 0 1704 311" role="img" aria-label="POD33 rear panel (CorelDRAW silk artwork)" style="width:100%;max-width:960px;border-radius:8px;display:block">
+    <rect width="1704" height="311" rx="10" fill="var(--dev)"/>
+    <image href="${ASSET}pod33-rear.svg" width="1704" height="311"/>`;
   [255,404,553,703].forEach((x,k)=>{ s += phx(x) + bnc(x,'',false) + (D.aes[k].out?`<text x="${x}" y="150" fill="var(--led-a)" font-size="26" text-anchor="middle" font-weight="700">WC</text>`:''); });
   s += phx(853) + bnc(853,'',D.in.aes,'aes') + bnc(1154,'',D.in.video,'video');
   s += `<rect x="1430" y="40" width="160" height="196" rx="14" fill="#0a0b0c" stroke="#30333a" stroke-width="2"/><rect x="1462" y="78" width="96" height="104" rx="8" fill="#141618"/>
-    <image href="${ASSET}pod33-rear-white.png" width="1704" height="311"/>
+    <image href="${ASSET}pod33-rear-ink.svg" width="1704" height="311" style="pointer-events:none"/>
 </svg>`;
   return s;
 }
@@ -509,7 +510,7 @@ function viewSim(m){
           <label class="small">Video format <select id="vf">${Object.keys(VFMT).map(k=>`<option value="${k}" ${k===D.in.vfmt?'selected':''}>${VFMT[k].name}</option>`).join('')}</select></label>
           <button id="flt">Inject FPGA alignment fault here</button><button id="clr">Clear fault</button><button id="rst">Factory defaults</button>
         </div>`)}
-      ${card('Rear panel — click the REF BNCs to plug or unplug', `<div id="rp"></div>`)}
+      ${card('Rear panel — click the REF BNCs to plug or unplug', `<div id="rp"></div><div class="small muted" style="margin-top:4px">Panel artwork: ${SIM.src('#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr', 'POD33-FRONT&REAR-SILK (CURVE).cdr')} (2016-06-20|49), CorelDRAW silk plates in their real inks.</div>`)}
     </div>
     <div>
       ${card('What the software did (last action)', `<div id="trace" class="log"></div>`)}
@@ -843,7 +844,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__pod33Active = false;
   m.innerHTML = card('What POD33 is up to — findings from the source', `
-  <ol>
+  <ol><li><b>Artwork 2026|59: front/rear panels now from ${SIM.src('#POD #SERIES/POD33 - #Master/POD33 - #ARTWORK #DA #2016/POD33-FRONT&REAR-SILK (CURVE).cdr', 'POD33-FRONT&REAR-SILK (CURVE).cdr')} (2016-06-20|49).</b> plates POD33-M1 GREEN + M1 WHITE (front) and M2 WHITE (rear) registered on the panel outline, holes and cut-outs taken from the CDR's mechanical outline layer (assets/pod33-front.svg, pod33-rear.svg, pod33-rear-ink.svg). The CDR outline layer shows what the old PDF cut lacked: the two anti-rotation/fixing holes either side of each knob, the rear fixing holes beside AES OUT and the IEC, and that the REF AES 110 Phoenix and the four AES OUT Phoenix blocks share one cut-out size. The rear legend reads 110-230 VAC, 50-60 Hz with no fuse rating. Older sheets not used: POD33 - #Engineering/SILK/POD33-SILK-ISS4.cdr (2010|43) and the live-text POD33-FRONT&amp;REAR-SILK.cdr.</li>
     <li><b>It reboots itself on purpose.</b> After each 40-byte exchange, <span class="mono">ALIGNMENT_CHECK()</span> checks that the FPGA sent “SYNC” back. If it didn't, the code runs <span class="mono">while (error0 == 0) NOP();</span> with no <span class="mono">WDR()</span>. The watchdog (<span class="mono">WDTCR = 0x08</span>, about 14 ms) then resets the ATmega128 and the whole start-up runs again. It's a crude but effective way to recover the MCU–FPGA link. Use “Inject FPGA alignment fault” on the Simulator tab to watch it happen.</li>
     <li><b>A scope trigger built into the main loop.</b> <span class="mono">PORTD |= BIT0</span> before <span class="mono">ALTERA_read_write()</span> and <span class="mono">PORTD &amp;= ~BIT0</span> after it. PD0 is <span class="mono">CS8416_CS2</span>, a chip-select for a second receiver that isn't fitted, so it doubles as a free test point that shows the length of each register transfer.</li>
     <li><b>The main loop follows the video reference.</b> When <span class="mono">LMH1981_VIDEO_DETECT</span> catches VSOUT low, it waits in a loop until vertical sync ends and 11 H lines have been counted. Loop passes that land in vertical sync run longer (orange on the timeline).</li>
