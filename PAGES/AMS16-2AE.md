@@ -9,11 +9,13 @@ tags: ["product", "metering", "2010s"]
 
 # AMS16-2AE
 
+**▶ [Open the AMS16 simulation](../siumulation.html?plugin=ams16) · [Open the RD23AMS163GSDIUpgrade simulation](../siumulation.html?plugin=rd23-ams16-3g)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS16-2AE) · [KiCad symbol generator](../kicad.html?m=AMS16-2AE) |
+| Try it | [full simulation: AMS16](../siumulation.html?plugin=ams16) · [full simulation: RD23AMS163GSDIUpgrade](../siumulation.html?plugin=rd23-ams16-3g) · [simulator & front panel](../simulator.html?m=AMS16-2AE) · [KiCad symbol generator](../kicad.html?m=AMS16-2AE) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |

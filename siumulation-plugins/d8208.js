@@ -12,7 +12,8 @@
    - …/d820x/pic/d820xad.asm      (AtoD_data_preparing, Average, Hysterisis)
    - …/d820x/sharc/d820xcore.asm  (D8208_beg, jumpers_analize_D8208, sample_proc_D8208)
    - …/d820x/sharc/D8205_trm.dat, D8205_vol.dat (256-entry gain tables used by the D8208)
-   - D8200 - #Engineering #MF82/d8200 - #PCB/d8200-1.bom (platform board parts: X1 3.58, OSC2 24.576 MHz, LEDs)
+   - D8200 - #Engineering #MF82/d8200 - #PCB/d8200-1.bom (platform board parts: X1 3.58 = ML6431 genlock crystal, OSC2 24.576 MHz, LEDs)
+   - …/d820x/altera/d8200_top.rpt (PIC_CLK = 24.576 MHz ÷ 4 = 6.144 MHz; corrected 2026|59, see d8205.js / d8200.js)
    - D8206 - #Master #MF82/…/D8206 - #ARCHIVE/D8208MAN.WPD (a "D8208" manual whose text is the D8205's)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -22,15 +23,16 @@ const inf = '<span class="tag-inf" title="Not stated in the source; inferred">in
 const card = (t,b,cls)=>`<div class="card ${cls||''}"><h2>${t}</h2>${b}</div>`;
 
 /* ---------------- constants from the source ---------------- */
-const PIC_XTAL = 3.58e6, TCY = 4/PIC_XTAL;           // X1 "3.58" on d8200-1.bom (HS oscillator per __CONFIG)
-const PASS = 4/1024;          // INFERRED: Hysterisis comment "locking time is about 4 second" = 256 stable samples × 4 channels round-robin → ≈3.9 ms per main-loop pass
+const PIC_F = 24.576e6/4, TCY = 4/PIC_F;             // d8200_top.rpt: PIC_CLK = TFF(!_LC099), _LC099 = TFF(input_clk) → OSC2 24.576 MHz ÷ 4 = 6.144 MHz on U1 OSC1 (d8200-2.net PIC_CLK: U1-9, U4-8). X1 3.58 is the ML6431's crystal (U7-11/12).
+const PASS = 1.33e-3;         // INFERRED (as d8205.js): ≈78 SPI bytes + ≈500 Tcy at 6.144 MHz; cross-check: Hysterisis "about 4 second" = 256 conversions × 12 passes ≈ 4.1 s
+const AD_PASSES = 3;          // AtoD: setup / start_AtoD / AtoD_results → 3 passes per conversion; 4 pots round-robin → each pot every 12 passes
 const HYST_LOCK_N = 256;      // HSTRZ_CNT_NUM1 = 0x00, HSTRZ_CNT_NUM2 = 0x01 → 256 decrements
 const OUT_DELAY = 0.1;        // AES_output_control "delayed switch_on of AES outputs" — length inferred
 const LOCK_T = 0.02;          // CS8420 PLL acquire — inferred
 const TRM = i=>Math.pow(10,(-15 + i*30/256)/20);     // D8205_trm.dat: [0]=0.17783 (−15 dB) … [255]=5.548 (+14.9 dB)
 const VOL = i=>i*0.0155510613497;                     // D8205_vol.dat: linear, [255]=3.9655 (+11.97 dB)
 const STEPS = [
-  ['AtoD_data_preparing · AtoD', .16, 'One of 4 pots per pass: average of last 4, then hysteresis'],
+  ['AtoD_data_preparing · AtoD', .16, 'One step of the 3-pass A/D; 4 pots round-robin (each every 12 passes); Average of 4, then Hysterisis'],
   ['Link_to_SHARC', .10, '16 nibbles: FRAME_CODE 0xE4, MODE1/MODE2, CODE1–4'],
   ['Link_to_ALTERA', .14, '4-byte SPI exchange (3 Altera regs + 1 SHARC mailbox byte)'],
   ['SHARC_link_control', .04, 'SHARC answered 0xE4? else time out'],
@@ -114,7 +116,7 @@ const A = {
     if (k==='j14' && !D.j.j14) tr('jumpers.txt: “JMP_14: Choose output for JACK: Should be =1 !!!” — the front jack now monitors OUT1 (CS8420 #2 route is OUT1=OUT2=CH2, so it still carries audio)'); }); },
   pot(i,v){ D.pot[i]=v; SIM.refresh(); },
   potLog(i){ act(`Turn ${['RV1 (CH A)','RV2 (CH B)','remote L','remote R'][i]} to code ${D.pot[i]}`, tr=>{
-    tr(`AtoD_data_preparing: ANAL_PIN${i+1} converted every 4th pass (≈${(4*PASS*1e3).toFixed(1)} ms ${'(inferred)'})`);
+    tr(`AtoD_data_preparing: ANAL_PIN${i+1} converted every ${4*AD_PASSES} passes (3 per conversion × 4 pots, ≈${(4*AD_PASSES*PASS*1e3).toFixed(1)} ms ${'(inferred pass length)'})`);
     tr('Average: code = (new + 3 previous) / 4 → reaches the new value after 4 conversions');
     tr('Hysterisis: while unlocked the code follows; after 256 steady conversions (≈4 s) it locks and ignores ±1 count');
     const g=gains(); tr(`SHARC case ${g.case} (${['internal trim','internal volume','remote trim × internal trim','remote volume × internal trim'][g.case]}): f8 = ${dB(g.f8).toFixed(2)} dB, f9 = ${dB(g.f9).toFixed(2)} dB`); }); },
@@ -182,9 +184,9 @@ function lanes(){ const css=SIM.css; return [
   {label:`AES frames in (${D.fs/1000} kHz)`, h:24, draw(c,X,t0,t1,y,h){ if(D.lossAt!==null){c.fillStyle=css('--bad');c.globalAlpha=.25;c.fillRect(X(D.lossAt),y,X(D.backAt)-X(D.lossAt),h);c.globalAlpha=1;} if(!D.plugged){c.fillStyle=css('--bad');c.font='11px sans-serif';c.fillText('no input',X(t0)+6,y+h/2+4);return;} SIM.pulses(c,X,t0,t1,y,h,1/D.fs,0,0.5/D.fs,css('--accent2'),'frames'); }},
   {label:'SHARC sample_proc_D8208', h:22, draw(c,X,t0,t1,y,h){ const fs=rxLockAt((t0+t1)/2)?D.fs:48000; SIM.pulses(c,X,t0,t1,y,h,1/fs,0,0.2/fs,css('--accent'),'samples (gain ×, invert, mono)'); }},
   {label:'PIC16C73A main loop', h:32, draw(c,X,t0,t1,y,h){ const px=X(t0+PASS)-X(t0); const i0=passIdx(t0), i1=passIdx(t1);
-    if (px<3){ c.fillStyle=css('--accent'); c.globalAlpha=.35; c.fillRect(X(t0),y+8,X(t1)-X(t0),h-16); c.globalAlpha=1; c.fillStyle=css('--ink'); c.font='11px monospace'; c.fillText(`${i1-i0+1} passes × ${SIM.fmtDur(PASS)} (inferred from the 4 s hysteresis comment)`,X(t0)+6,y+h/2+4); return; }
+    if (px<3){ c.fillStyle=css('--accent'); c.globalAlpha=.35; c.fillRect(X(t0),y+8,X(t1)-X(t0),h-16); c.globalAlpha=1; c.fillStyle=css('--ink'); c.font='11px monospace'; c.fillText(`${i1-i0+1} passes × ${SIM.fmtDur(PASS)} (inferred: 6.144 MHz PIC_CLK, checked against the 4 s hysteresis comment)`,X(t0)+6,y+h/2+4); return; }
     for (let i=i0;i<=i1;i++) STEPS.forEach((s,j)=>{ const a=pStart(i)+STEP_FRAC[j]*PASS, b=a+s[1]*PASS; c.fillStyle=j%2?css('--accent2'):css('--accent'); c.globalAlpha=.7; c.fillRect(X(a),y+3,Math.max(1,X(b)-X(a)-.5),h-6); c.globalAlpha=1; if(X(b)-X(a)>90){c.fillStyle='#fff';c.font='10px sans-serif';c.fillText(s[0].split(' · ')[0],X(a)+3,y+h/2+3);} }); }},
-  {label:'A/D channel (round robin)', h:22, draw(c,X,t0,t1,y,h){ const px=X(t0+PASS)-X(t0); if(px<8){ c.fillStyle=css('--ink2'); c.font='11px sans-serif'; c.fillText('RV1 → RV2 → remote L → remote R, one per pass',X(t0)+6,y+h/2+4); return; } for(let i=passIdx(t0);i<=passIdx(t1);i++){ c.fillStyle=[css('--accent'),css('--accent2'),css('--warn'),css('--bad')][i%4]; c.globalAlpha=.5; c.fillRect(X(pStart(i)),y+4,X(pStart(i)+PASS*0.16)-X(pStart(i)),h-8); c.globalAlpha=1; if(px>40){c.fillStyle=css('--ink');c.font='10px sans-serif';c.fillText(['RV1','RV2','RemL','RemR'][i%4],X(pStart(i))+2,y+h/2+3);} } }},
+  {label:'A/D channel (round robin)', h:22, draw(c,X,t0,t1,y,h){ const px=X(t0+PASS)-X(t0); if(px<8){ c.fillStyle=css('--ink2'); c.font='11px sans-serif'; c.fillText('RV1 → RV2 → remote L → remote R, one conversion per 3 passes',X(t0)+6,y+h/2+4); return; } for(let i=passIdx(t0);i<=passIdx(t1);i++){ const ch=Math.floor(i/AD_PASSES)%4; c.fillStyle=[css('--accent'),css('--accent2'),css('--warn'),css('--bad')][ch]; c.globalAlpha=.5; c.fillRect(X(pStart(i)),y+4,X(pStart(i)+PASS*0.16)-X(pStart(i)),h-8); c.globalAlpha=1; if(px>40){c.fillStyle=css('--ink');c.font='10px sans-serif';c.fillText(['RV1','RV2','RemL','RemR'][ch]+' '+['setup','start','result'][i%AD_PASSES],X(pStart(i))+2,y+h/2+3);} } }},
   {label:'CS8420 #2 lock (input)', h:22, draw(c,X,t0,t1,y,h){ stateBar(c,X,t0,t1,y,h,rxLockAt,css('--accent'),css('--bad'),'locked','UNLOCK'); }},
   {label:'Mode (real_mode)', h:22, draw(c,X,t0,t1,y,h){ stateBar(c,X,t0,t1,y,h,t=>modeAt(t)===6,css('--accent2'),css('--warn'),'MODE 6 (audio)','MODE 0 internal 48 k'); }},
   {label:'AES outputs enabled', h:22, draw(c,X,t0,t1,y,h){ stateBar(c,X,t0,t1,y,h,t=>outEnabledAt(t)&&(rxLockAt(t)||!!D.j.j1),css('--accent'),css('--ink2'),'outputs on','shut_off_AES_output_CH2 / delay'); }},
@@ -205,7 +207,7 @@ function traceHTML(){ return D.log[0]? `<div><b>${D.log[0].name}</b> at ${SIM.fm
 function viewSim(m){
   m.innerHTML=`<div class="grid2"><div>${card('Card front edge and rear module', `<div style="display:flex;gap:10px;flex-wrap:wrap"><div id="fp" style="flex:0 0 260px"></div><div id="rp" style="flex:1;min-width:220px"></div></div>${controlsHTML()}`)}${card('Jumpers (jumpers.txt, D8208, CS=8434) — click to toggle', `<div id="jp"></div>`)}</div>
    <div>${card('What the firmware did', `<div id="tr" class="log"></div>`)}${card('State at the playhead', `<div id="in"></div>`)}</div></div>
-   ${card('Timeline — one second', `<canvas id="tl"></canvas><p class="small muted">The D8208 has no code of its own: this is the D820x platform firmware with <span class="mono">#define D8208</span>. PIC crystal 3.58 MHz (X1, ${(TCY*1e6).toFixed(3)} µs per instruction). The loop length is ${inf}: <span class="mono">Hysterisis</span> says locking takes “about 4 second”, and it needs 256 steady conversions of a pot that is read every 4th pass, so one pass ≈ ${SIM.fmtDur(PASS)}.</p>`)}
+   ${card('Timeline — one second', `<canvas id="tl"></canvas><p class="small muted">The D8208 has no code of its own: this is the D820x platform firmware with <span class="mono">#define D8208</span>. PIC clock PIC_CLK = 24.576 MHz ÷ 4 = 6.144 MHz from the CPLD (d8200_top.rpt; ${(TCY*1e6).toFixed(3)} µs per instruction). The loop length ≈ ${SIM.fmtDur(PASS)} is ${inf} from that clock and the SPI byte count; it checks out against <span class="mono">Hysterisis</span> (“about 4 second”): 256 steady conversions of a pot read every 12 passes ≈ ${(256*12*PASS).toFixed(1)} s.</p>`)}
    ${card('Action log', `<div id="lg" class="log"></div>`)}`;
   bindControls(m);
   SIM.on('time',()=>{ const t=SIM.t; m.querySelector('#fp').innerHTML=frontSVG(t); m.querySelector('#rp').innerHTML=rearSVG(t); m.querySelector('#jp').innerHTML=jumperHTML(); bindPanel(m);
@@ -237,12 +239,12 @@ function viewTut(m){
 function viewSecond(m){
   const passes=Math.floor(1/PASS);
   m.innerHTML=`<div class="grid3">${card('Audio', `<table class="kv"><tr><th>Frames</th><td class="mono">${D.fs.toLocaleString()}</td></tr><tr><th>sample_proc_D8208 calls</th><td class="mono">${D.fs.toLocaleString()} (2 multiplies each)</td></tr><tr><th>Outputs</th><td class="mono">8 copies from CS8420 #2</td></tr></table>`)}
-   ${card('PIC', `<table class="kv"><tr><th>Passes</th><td class="mono">≈${passes} × ${SIM.fmtDur(PASS)} ${inf}</td></tr><tr><th>A/D conversions</th><td class="mono">≈${passes} (≈${(passes/4).toFixed(0)} per pot)</td></tr><tr><th>Messages to SHARC</th><td class="mono">≈${passes} × 16 nibbles</td></tr><tr><th>Hysteresis lock</th><td class="mono">256 steady readings ≈ ${(256*4*PASS).toFixed(1)} s</td></tr></table>`)}
-   ${card('Pot → gain', `<table class="kv"><tr><th>Trim step</th><td class="mono">30 dB / 256 = 0.117 dB per code</td></tr><tr><th>Volume step</th><td class="mono">linear 0.01555 per code</td></tr><tr><th>Pot settle</th><td class="mono">4-sample average ≈ ${(16*PASS*1e3).toFixed(0)} ms</td></tr></table>`)}</div>
+   ${card('PIC', `<table class="kv"><tr><th>Passes</th><td class="mono">≈${passes} × ${SIM.fmtDur(PASS)} ${inf}</td></tr><tr><th>A/D conversions</th><td class="mono">≈${(passes/AD_PASSES).toFixed(0)} (≈${(passes/(4*AD_PASSES)).toFixed(0)} per pot)</td></tr><tr><th>Messages to SHARC</th><td class="mono">≈${passes} × 16 nibbles</td></tr><tr><th>Hysteresis lock</th><td class="mono">256 steady readings ≈ ${(256*4*AD_PASSES*PASS).toFixed(1)} s</td></tr></table>`)}
+   ${card('Pot → gain', `<table class="kv"><tr><th>Trim step</th><td class="mono">30 dB / 256 = 0.117 dB per code</td></tr><tr><th>Volume step</th><td class="mono">linear 0.01555 per code</td></tr><tr><th>Pot settle</th><td class="mono">4-sample average ≈ ${(16*AD_PASSES*PASS*1e3).toFixed(0)} ms</td></tr></table>`)}</div>
    ${card('Pot response at the playhead: code after Average + Hysterisis for a step from 128 → 200 at t = 0.2 s', `<canvas id="pr"></canvas>`)}`;
   SIM.on('time',()=>{ const cv=m.querySelector('#pr'); SIM.drawLanes(cv,[{label:'RV1 code (simulated)',h:90,draw(c,X,t0,t1,y,h){ // simulate per-pass averaging for channel 0
       let hist=[128,128,128,128], code=128, stor=128, cnt=0, lock=false; c.strokeStyle=SIM.css('--accent'); c.beginPath(); let first=true;
-      for (let i=0;i<=passIdx(1);i++){ if(i%4!==0) continue; const t=pStart(i), raw=t>=0.2?200:128; hist=[raw,hist[0],hist[1],hist[2]]; const av=Math.floor((hist[0]+hist[1]+hist[2]+hist[3])/4);
+      for (let i=0;i<=passIdx(1);i++){ if(i%(4*AD_PASSES)!==0) continue; const t=pStart(i), raw=t>=0.2?200:128; hist=[raw,hist[0],hist[1],hist[2]]; const av=Math.floor((hist[0]+hist[1]+hist[2]+hist[3])/4);
         if (lock){ if (Math.abs(av-stor)>1){ lock=false; stor=av; cnt=0; code=av; } else code=stor; } else { if (av===stor){ cnt++; if(cnt>=HYST_LOCK_N) lock=true; } else { stor=av; cnt=0; } code=av; }
         const yy=y+h-4-(code-100)/120*(h-8); if (first){c.moveTo(X(t),yy); first=false;} else c.lineTo(X(t),yy); }
       c.stroke(); }}],{labelW:150}); });
@@ -253,10 +255,10 @@ const BLOCKS={
   cpld:{x:330,y:130,w:140,h:76,t:'EPM7128S',s:['routes SPORTs','jumper reader','SPI to PIC'],d:'MAX7000S CPLD: routes CS8420 serial ports to the SHARC SPORTs and back, and passes the 14 jumpers and SHARC mailbox to the PIC in a 4-byte exchange.'},
   dsp:{x:500,y:130,w:150,h:76,t:'ADSP-21061',s:['sample_proc_D8208','gain, invert, mono, tone'],d:'Float processing per sample: f2/f3 from rx_buf_CH2 (or silence), invert R, mono sum, ×f8/f9 gain from trim/volume tables, or the 1 kHz test tone.'},
   tx:{x:680,y:130,w:130,h:76,t:'CS8420 #2 TX',s:['→ EL2280C ×2','→ 8 outputs + jack'],d:'Re-transmitted AES feeds the output drivers and the TRS MONITOR jack.'},
-  pic:{x:330,y:10,w:140,h:76,t:'PIC16C73A',s:['3.58 MHz','A/D 4 pots','LEDs, CS8420 SPI'],d:'Main loop: A/D, link to SHARC via the Altera, jumpers, CS8420 modes, LEDs.'},
+  pic:{x:330,y:10,w:140,h:76,t:'PIC16C73A',s:['6.144 MHz (PIC_CLK)','A/D 4 pots','LEDs, CS8420 SPI'],d:'Main loop: A/D, link to SHARC via the Altera, jumpers, CS8420 modes, LEDs.'},
   pots:{x:160,y:10,w:140,h:76,t:'Pots',s:['RV1, RV2 5K multi','remote L/R (P1)'],d:'Four analog inputs AN (ANAL_PIN1..4). 8-bit codes.'},
   led:{x:500,y:10,w:150,h:76,t:'Front edge',s:['AUDIO, PROC, ERR','MONITOR TRS'],d:'LED_0 lock, LED_2 internal mode, LED_3 error (FLG_ERROR_CH2, cleared each pass).'},
-  osc:{x:680,y:10,w:130,h:60,t:'OSC2 24.576 MHz',s:['= 512 × 48 kHz'],d:'Audio master for internal 48 kHz mode (MODE 0).'},
+  osc:{x:680,y:10,w:130,h:60,t:'OSC2 24.576 MHz',s:['= 512 × 48 kHz'],d:'Audio master for internal 48 kHz mode (MODE 0). The CPLD also divides it by 4 for the PIC (PIC_CLK 6.144 MHz).'},
 };
 const WIRES=[['in','rx','AES'],['rx','cpld','I²S'],['cpld','dsp','SPORT'],['dsp','cpld',''],['cpld','tx',''],['pots','pic','AN0–3'],['pic','cpld','SPI 4 B'],['pic','led',''],['osc','cpld','']];
 function blockSVG(sel){ const ctr=b=>[b.x+b.w/2,b.y+b.h/2]; let s=`<svg viewBox="0 0 830 230" style="width:100%"><defs><marker id="d8a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="var(--ink2)"/></marker></defs>`;
@@ -269,7 +271,7 @@ function chip(x,y,w,name,left,right,sub){ const n=Math.max(left.length,right.len
   left.forEach(([p,n_],i)=>{const yy=y+22+i*18; s+=`<line x1="${x-34}" y1="${yy}" x2="${x}" y2="${yy}" stroke="var(--ink)"/><text x="${x+5}" y="${yy+4}" font-size="10.5" fill="var(--ink)">${p}</text>${n_?`<text x="${x-38}" y="${yy+4}" font-size="10.5" text-anchor="end" fill="var(--accent2)">${n_}</text>`:''}`;});
   right.forEach(([p,n_],i)=>{const yy=y+22+i*18; s+=`<line x1="${x+w}" y1="${yy}" x2="${x+w+34}" y2="${yy}" stroke="var(--ink)"/><text x="${x+w-5}" y="${yy+4}" font-size="10.5" text-anchor="end" fill="var(--ink)">${p}</text>${n_?`<text x="${x+w+38}" y="${yy+4}" font-size="10.5" fill="var(--accent2)">${n_}</text>`:''}`;}); return s; }
 const SHEETS=[
-  {name:'1 · PIC16C73A', note:'Pin functions from d820x.h (ANAL_PIN1..4 = AN0, AN1, AN2, AN4 ADCON0 codes) and d8200-1.bom. Exact pin numbers are not traced here.', svg:()=>chip(330,50,190,'U1 PIC16C73A',[['AN1 (B\'00001000\')','RV1 internal L'],['AN0 (B\'00000000\')','RV2 internal R'],['AN2 (B\'00010000\')','remote L (P1)'],['AN4 (B\'00100000\')','remote R (P1)'],['OSC1/2','X1 3.58 MHz']],[['SPI','EPM7128S link'],['SPI','CS8420 #1, #2'],['LED_0..3','AUDIO1/2, PROC, ERR'],['MCLR','power-on']],'__CONFIG _WDT_ON _BODEN_ON _PWRTE_ON _HS_OSC')},
+  {name:'1 · PIC16C73A', note:'Pin functions from d820x.h (ANAL_PIN1..4 = AN0, AN1, AN2, AN4 ADCON0 codes) and d8200-1.bom. Exact pin numbers are not traced here.', svg:()=>chip(330,50,190,'U1 PIC16C73A',[['AN1 (B\'00001000\')','RV1 internal L'],['AN0 (B\'00000000\')','RV2 internal R'],['AN2 (B\'00010000\')','remote L (P1)'],['AN4 (B\'00100000\')','remote R (P1)'],['OSC1','PIC_CLK 6.144 MHz ← U4-8']],[['SPI','EPM7128S link'],['SPI','CS8420 #1, #2'],['LED_0..3','AUDIO1/2, PROC, ERR'],['MCLR','power-on']],'__CONFIG _WDT_ON _BODEN_ON _PWRTE_ON _HS_OSC')},
   {name:'2 · DSP and logic', note:'Parts from d8200-1.bom: U3 ADSP21061, U4 EPM7128 TQFP, U2 27C512 boot EPROM, OSC2 24.576 MHz.', svg:()=>chip(120,60,170,'U4 EPM7128S',[['SPORT0/1','SHARC'],['SDIN/SDOUT','CS8420 U5, U6'],['JMP 1–14','H1–H14']],[['PIC link','4 bytes'],['FSYNC','frame'],['CLK','OSC2']],'d8200_top.gdf')+chip(520,60,170,'U3 ADSP-21061',[['SPORT','from/to U4'],['BMS','U2 27C512']],[['FLAG','—']],'d820xcore.asm')},
   {name:'3 · Receivers and outputs', note:'U5/U6 CS8420, U8/U12 EL2280C drivers, U9–U11 75176 (RS-485) transceivers, T1–T10 PE65612 transformers, R24… 75/110R build options (BOM).', svg:()=>chip(140,60,160,'U6 CS8420 (#2)',[['RXP/RXN','AES IN (T)'],['CS/CCLK','PIC SPI']],[['TXP/TXN','→ EL2280C U8/U12'],['SDOUT','→ U4']],'D8208 input + output')+`<text x="420" y="90" font-size="11" fill="var(--ink)">EL2280C ×2 → 8 × (75R / 110R build) → P1 → BNC1/BNC3</text><text x="420" y="110" font-size="11" fill="var(--ink)">TRS MONITOR jack: 110 Ω transformer output (JMP_14 picks OUT1/OUT2)</text>`},
 ];
@@ -299,10 +301,11 @@ function viewNotes(m){
    <li><b>The test tone ignores the pots.</b> When AUD_TESTTONE is set, the delayed branch jumps straight to <span class="mono">D8208_sp_end</span> with the tone sample, skipping invert, mono and level control. It also keeps the output on through a loss of input (MODE 0 internal clock).</li>
    <li><b>Volume is a linear table.</b> <span class="mono">D8205_vol.dat</span> runs 0, 0.01555 … 3.97 in equal steps; jumpers.txt asks for logarithmic pots so the taper feels right. Trim (<span class="mono">D8205_trm.dat</span>) is already logarithmic and wants linear pots. The D8208 borrows both D8205 tables.</li>
    <li><b>Remote + volume is a hybrid.</b> In case 3 the remote pots use the volume table but the PCB pots still apply the trim table (<span class="mono">jump (PC, D8208_case_0)</span>), matching the jumpers.txt table “internal pots – trim, remote pots – volume”.</li>
+   <li><b>Corrected 2026|59:</b> the PIC clock is PIC_CLK = 24.576 MHz ÷ 4 = 6.144 MHz from the CPLD (<span class="mono">d8200_top.rpt</span>: two TFFE stages on <span class="mono">input_clk</span>; <span class="mono">d8200-2.net</span>: PIC_CLK = U1-9/U4-8), not 3.58 MHz. The BOM's X1 3.58 is the ML6431 video-genlock crystal (X1 → U7-11/12), unused on a D8208. The pass is now ≈1.33 ms ${inf} (was 3.9 ms), and the A/D takes 3 passes per conversion, so each pot is read every 12 passes (was every 4th). (see d8205.js, d8200.js)</li>
    <li><b>Pots freeze after 4 s.</b> <span class="mono">Hysterisis</span> locks a pot reading after 256 steady samples and then ignores ±1 count, so slow drift of a 10-turn trimmer never wobbles the gain.</li>
    <li><b>The archived “D8208 manual” is a D8205 manual.</b> <span class="mono">D8206 - #ARCHIVE/D8208MAN.WPD</span> is titled “D8208 DARS XXXXXXXX with Sample Rate Converter” but every paragraph says D8205, lists H5 twice and labels both H6 and H7 “MONO/STEREO INPUT1”.</li>
    <li><b>Functional description vs firmware.</b> It promises CH A + CH B sum (firmware: JMP_7 mono = (A+B)/2, i.e. −6 dB) and 22–96 kHz input. JMP_14 “should be = 1” or the monitor jack selects OUT1, which on a D8208 is the same CS8420 #2 stream anyway.</li>
-  </ol>`)+card('Assumptions', `<ul class="small"><li>PIC pass ≈ ${SIM.fmtDur(PASS)} ${inf} from the hysteresis comment; the step proportions inside a pass are also ${inf}.</li><li>LED_0..3 → AUDIO/–/PROC/ERR physical LEDs, and their front-edge order, are ${inf} from the d8200-1 BOM (AUDIO1, AUDIO2 green, PROC yellow, ERR red).</li><li>Output re-enable delay ${OUT_DELAY*1e3} ms and PLL lock ${LOCK_T*1e3} ms ${inf}.</li><li>Clipping above 0 dBFS assumed at the fixed-point conversion ${inf}.</li></ul>`)
+  </ol>`)+card('Assumptions', `<ul class="small"><li>PIC pass ≈ ${SIM.fmtDur(PASS)} ${inf} from the 6.144 MHz clock and SPI byte count (as in d8205.js), cross-checked with the hysteresis comment; the step proportions inside a pass are also ${inf}.</li><li>LED_0..3 → AUDIO/–/PROC/ERR physical LEDs, and their front-edge order, are ${inf} from the d8200-1 BOM (AUDIO1, AUDIO2 green, PROC yellow, ERR red).</li><li>Output re-enable delay ${OUT_DELAY*1e3} ms and PLL lock ${LOCK_T*1e3} ms ${inf}.</li><li>Clipping above 0 dBFS assumed at the fixed-point conversion ${inf}.</li></ul>`)
   +card('Sources', `<ul class="small mono"><li>D8208 - #Engineering #MF82/D8208 - Adjustable Gain … FUNCTIONAL DESCRIPTION.WPD</li><li>D8200 - #Engineering #MF82/d8200 - #d820x/jumpers.txt · pic/d820x.h · d820x.asm · d820xswr.asm · d820xad.asm</li><li>…/sharc/d820xcore.asm · D8205_trm.dat · D8205_vol.dat</li><li>…/d8200 - #PCB/d8200-1.bom · D8206 - #Master/…/D8208MAN.WPD</li></ul>`);
 }
 SIM.register({
@@ -313,7 +316,7 @@ SIM.register({
   highlights:['Pots → A/D → hysteresis → SHARC gain tables','All 9 D8208 jumpers live','Dropout: MODE 6 → MODE 0 and output mute','Stereo-control jumper polarity mismatch','Archived “D8208 manual” is the D8205 text'],
   depth:'Hardware model',
   stepUnits:[{label:'1 PIC pass (inferred)',period:()=>PASS},{label:'1 AES frame',period:()=>1/D.fs},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01}],
-  zooms:[[1,'1 s (whole)'],[0.1,'100 ms'],[0.02,'20 ms (5 passes)'],[PASS,'1 pass (3.9 ms)'],[0.0005,'500 µs'],[4/48000,'4 frames']],
+  zooms:[[1,'1 s (whole)'],[0.1,'100 ms'],[0.02,'20 ms (≈15 passes)'],[PASS,'1 pass (≈1.33 ms)'],[0.0005,'500 µs'],[4/48000,'4 frames']],
   defaultZoom:1,
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial',render:viewTut},{id:'second',label:'One second',render:viewSecond},{id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Schematics',render:viewSchem},{id:'software',label:'Software',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}],
 });

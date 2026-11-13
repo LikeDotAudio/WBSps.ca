@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # MP4 — Classic Rackmount Analog Needle Meter
 
+**▶ [Open the MP 8100 meter panels simulation](../siumulation.html?plugin=mp8100)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
@@ -27,7 +29,7 @@ tags: ["product", "metering", "2010s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="MP4" data-n="Classic Rackmount Analog Needle Meter" data-cat="METERING"></div><svg class="wbs-panel" data-m="MP4" data-n="Classic Rackmount Analog Needle Meter" data-cat="METERING" role="img" aria-label="MP4 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"MP4","title":"Classic Rackmount Analog Needle Meter","rto":null,"parts":[],"parents":[{"label":"MP2","href":"MP2.html","note":"on 5 drawings with it"},{"label":"MP3","href":"MP3.html","note":"on 5 drawings with it"},{"label":"MP1","href":"MP1.html","note":"on 5 drawings with it: PPM/VU Meter"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="MP4" data-n="Classic Rackmount Analog Needle Meter" data-cat="METERING"></div><svg class="wbs-panel" data-m="MP4" data-n="Classic Rackmount Analog Needle Meter" data-cat="METERING" role="img" aria-label="MP4 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"MP4","title":"Classic Rackmount Analog Needle Meter","rto":null,"parts":[],"parents":[{"label":"MP3","href":"MP3.html","note":"on 5 drawings with it"},{"label":"MP2","href":"MP2.html","note":"on 5 drawings with it"},{"label":"MP1","href":"MP1.html","note":"on 5 drawings with it: PPM/VU Meter"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 <a id="software"></a>
 

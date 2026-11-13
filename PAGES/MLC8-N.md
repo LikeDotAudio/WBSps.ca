@@ -10,11 +10,13 @@ tags: ["module", "ravenna-aes67", "2010s"]
 
 # MLC8-N — Three Quarter
 
+**▶ [Open the MLC8 / MLC6 level control simulation](../siumulation.html?plugin=mlc8) · [Open the RD66-MLC8UsingAMS8E-1-iss5 simulation](../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [simulator & front panel](../simulator.html?m=MLC8-N) · [KiCad symbol generator](../kicad.html?m=MLC8-N) |
+| Try it | [full simulation: MLC8 / MLC6 level control](../siumulation.html?plugin=mlc8) · [full simulation: RD66-MLC8UsingAMS8E-1-iss5](../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5) · [simulator & front panel](../simulator.html?m=MLC8-N) · [KiCad symbol generator](../kicad.html?m=MLC8-N) |
 | Earliest dated evidence | [2017\|50](Year-2017.md) — dated folder |
 | Evidence | in "WBS.NAB - 2017 - Rack layout images" |
 | Confidence | low (named by) |

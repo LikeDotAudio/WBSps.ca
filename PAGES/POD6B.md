@@ -10,11 +10,13 @@ tags: ["product", "pods", "1990s"]
 
 # POD6B — Miniature Stereo Headphone Module
 
+**▶ [Open the microDriver (POD6) simulation](../siumulation.html?plugin=microdriver)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD6B) · [KiCad symbol generator](../kicad.html?m=POD6B) · [download package (zip)](../_packages/POD6B.zip) |
+| Try it | [full simulation: microDriver (POD6)](../siumulation.html?plugin=microdriver) · [simulator & front panel](../simulator.html?m=POD6B) · [KiCad symbol generator](../kicad.html?m=POD6B) · [download package (zip)](../_packages/POD6B.zip) |
 | Earliest dated evidence | [1997\|30](Year-1997.md) — estimate from a dated variant |
 | Evidence | from POD6 |
 | Confidence | family |

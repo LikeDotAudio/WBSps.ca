@@ -49,7 +49,8 @@ const K = {
   PH_TH: 100,          // phase: movlw 100 ; phase threshold (ADRESH)
   RX_LOCK: 0.003,      // CS8415A PLL lock after its input changes — inferred (datasheet not archived)
   DMX_SETTLE: 0.05,    // DEMUX re-lock after a new group/input command — inferred
-  DMX1_REPLY: 0.001,   // DEMUX-1 reply delay — inferred
+  DMX1_REPLY: 0.0063,  // DEMUX-1 v1.04+: settx comout1 reload 75 passes, ≈65 after the command ≈ 6.3 ms (demux1.js, demux-1.asm)
+  DMX1_FIRST: 119*4/4.9152e6, // first reply after power-up: INIT sets comout0/1 = 1 → next DEMUX pass (≈119 cycles, demux1.js)
   DMX4_REPLY: 5*1024/FOSC, // DEMUX-4 V020102: TCNT0 / Timer0 clk/1024 → reply ≈ 1 ms (as in demux4.js)
   DMX4_READY: 5.94,    // DEMUX-4 Spartan-6 configuration from SPI flash (demux4.js CFG_T) — inferred
   DMX1_READY: 0.2,     // inferred
@@ -88,7 +89,7 @@ function defWorld(){ return {
   sdi:[ {on:true, fmt:'HD 1080i 59.94', groups:0b0011}, {on:true, fmt:'SD 525i 59.94', groups:0b0001} ],  // plate "SDI 1 (A)", "SDI 2 (B)"
   mute:false, headset:false, stereo:true, potL:0.72, potR:0.72,
 }; }
-function defDyn(){ return { ee:{0:0x21, 1:0x00, 10:0xAA}, rx:{key:'',since:0}, txBusy:-1, dm:{b1:0, cmd:0xE0, selT:-9, inT:-9, ready:0, pend:[]}, rxq:[], phv:0, phT:0, eeBusy:-1 }; }
+function defDyn(){ return { ee:{0:0x21, 1:0x00, 10:0xAA}, rx:{key:'',since:0}, txBusy:-1, dm:{b1:0, cmd:0xE0, selT:-9, inT:-9, ready:0, pend:[], probed:false, nrep:0}, rxq:[], phv:0, phT:0, eeBusy:-1 }; }
 
 const D = { ver:'v500', W:defWorld(), base:null, run:null, log:[], lastTrace:null, e:{audio:0, vol:30, enc1:0} };
 let lessonIdx = 0;
@@ -166,7 +167,7 @@ function simulate(cfg){
   const iz = (o,k)=>{ o[k]=(o[k]+1)&255; return o[k]===0; };
   if (!W.power){ R.off=true; R.final={F:null, dyn}; return R; }
   if (V.kind==='ams4e'){ R.e=true; R.final={F:null, dyn}; return R; }
-  if (cfg.boot){ dyn.dm.ready = W.demux==='dmx4'?K.DMX4_READY : W.demux==='dmx1'?K.DMX1_READY : 0; dyn.dm.pend=[]; dyn.dm.b1=0; dyn.rxq=[]; dyn.txBusy=-1; dyn.rx={key:'',since:0}; dyn.phv=0; dyn.phT=0; }
+  if (cfg.boot){ dyn.dm.ready = W.demux==='dmx4'?K.DMX4_READY : W.demux==='dmx1'?K.DMX1_READY : 0; dyn.dm.pend=[]; dyn.dm.b1=0; dyn.dm.probed=false; dyn.dm.nrep=0; dyn.rxq=[]; dyn.txBusy=-1; dyn.rx={key:'',since:0}; dyn.phv=0; dyn.phT=0; }
 
   /* ---------- world: DEMUX and RS-485 ---------- */
   const dmPlate = ()=> W.demux==='dmx4' ? ((dyn.dm.cmd&16)?1:0) : 0;  // DEMUX-4 AMS4 build: bit4 → RX1 (plate “SDI 2 (B)”), else RX2 (plate “SDI 1 (A)”)
@@ -177,16 +178,22 @@ function simulate(cfg){
     if (!dm.b1){ if (b&0x80) dm.b1=b; return; }
     if (b&0x80){ dm.b1=b; return; }
     const cmd=dm.b1; dm.b1=0; let reply=null;
-    if (cmd===0xE8) reply = W.demux==='dmx4'?0xE0:0xC0;
+    if (W.demux==='dmx1' && (cmd&0xE0)===0xE0){
+      // DEMUX-1 (demux-1.asm): a command with bit 3 set (the 0xE8 probe) → sdi_check: tx0 = 1110 0000, group unchanged.
+      // tx0 bits 7..5 then stay set; settx writes bit 1 (1 = no SDI lock), readgs9023 bit 0 (1 = no audio lock).
+      if (cmd&8) dm.probed=true;
+      else { if ((cmd&16)!==(dm.cmd&16)) dm.inT=tEnd; if ((cmd&7)!==(dm.cmd&7)) dm.selT=tEnd; dm.cmd=cmd; }
+      reply = (dm.probed?0xE0:0x00) | (vidOK(tEnd)?0:2) | (grpOK(tEnd)?0:1);
+    }
+    else if (cmd===0xE8) reply = 0xE0;
     else if ((cmd&0xE0)===0xE0){
       if ((cmd&16)!==(dm.cmd&16)) dm.inT=tEnd;
       if ((cmd&7)!==(dm.cmd&7)) dm.selT=tEnd;
       dm.cmd=cmd;
       const v=vidOK(tEnd);
       if (W.demux==='dmx4'){ reply = v?0x00:0x02; if (v && !grpOK(tEnd)) reply |= 0x3C; }
-      else { reply = v?0x00:0x02; if (!grpOK(tEnd)) reply |= 0x3D; }     // DEMUX-1 reply bits — inferred
     }
-    if (reply!==null) dm.pend.push({t0:tEnd+(W.demux==='dmx4'?K.DMX4_REPLY:K.DMX1_REPLY), b:reply});
+    if (reply!==null){ dm.pend.push({t0:tEnd+(W.demux==='dmx4'?K.DMX4_REPLY:(dm.nrep?K.DMX1_REPLY:K.DMX1_FIRST)), b:reply}); dm.nrep++; }
   }
   function uartPoll(tt){
     const pend=dyn.dm.pend; pend.sort((a,b)=>a.t0-b.t0);
@@ -923,7 +930,7 @@ const BLOCKS = {
   pic:{x:410,y:20,w:160,h:110,t:'PIC16F874 (U35)',s:['4.9152 MHz (X2)','≈0.6 ms main loop','EEPROM: last source'],d:'Runs the whole unit from a polled main loop: buttons, display, crosspoints, receiver bank, CS8415A registers, phase ADC, EXT MUTE, EEPROM and the RS-485 link to the DEMUX.'},
   disp:{x:610,y:20,w:170,h:110,t:'AMS4-2 front board',s:['SLG2016 4-char display','2 × LM3916 VU (10 + 10)','MODE/SOURCE, phase LEDs'],d:'H11 20-way ribbon: D0–D6, A0, A1, ~WR, ~BL from the PIC, LEFT_VU/RIGHT_VU from the LF353 rectifiers, PB1/PB2 back, PHASE (RA3) to the 0°/180° LEDs.'},
   phase:{x:610,y:150,w:170,h:110,t:'Phase detector',s:['U37 LM393 zero-cross','U38 74HC00 = XOR','20k/1µF → RA0 (AN0)'],d:'LEFT and RIGHT are squared by the LM393, XOR-ed by four NAND gates and averaged by R118/C132. The PIC reads ADRESH each pass; ≥ 100 (≈ 1.95 V, about 70° average phase difference ' + 'inferred) lights the red 180° LED.'},
-  dmx:{x:10,y:170,w:150,h:110,t:'DEMUX option',s:['P5: RS-485 (U36 75176)','P1: 2 AES pairs → U13','DEMUX-1 (2001) / -4 (2013)'],d:'The SDI de-embedder. The PIC probes it at start-up (0xE8 0x55), then sends tx0 = 0xE0 | input | group | pair and tx1 = 0x55 about three times a second; the reply carries video/audio lock.'},
+  dmx:{x:10,y:170,w:150,h:110,t:'DEMUX option',s:['P5: RS-485 (U36 75176)','P1: 2 AES pairs → U13','DEMUX-1 (2001) / -4 (2013)'],d:'The SDI de-embedder. The PIC probes it at start-up (0xE8 0x55), then sends tx0 = 0xE0 | input | group | pair and tx1 = 0x55 about three times a second; the reply carries video/audio lock. A DEMUX-1 answers 0xE0–0xE3 once probed (bit 1 = no SDI lock, bit 0 = no audio lock), about 6.3 ms after each command; its first reply after power-up goes at once.'},
   out:{x:200,y:290,w:170,h:90,t:'Line out',s:['U27/U28 balanced, 30 Ω','rear OUTPUT euroblocks'],d:'Balanced, stereo analog output of the switcher (manual) — the bus +6 dB.'},
   lvl:{x:410,y:290,w:160,h:90,t:'AMS4-3 level/headset',s:['2 × TOCOS dual 10K log','STEREO latch switch','T/R/S jack normals'],d:'Front level board on the H2 16-way ribbon: LEFT/RIGHT knobs, the STEREO switch and the headset jack whose normals carry the speaker feeds.'},
   amp:{x:610,y:290,w:170,h:90,t:'Speakers',s:['3 × TDA2616 → P2/P3/P4','single-rack box + 2 × 1.5"'],d:'Three TDA2616 stereo 12 W amplifiers on ±VA. BOM structure: a single-rack speaker box (1.75 × 4" driver) and two 1.5" full-range drivers on AMS2 tweeter brackets.'},
@@ -1091,9 +1098,10 @@ function viewNotes(m){
    <li><b>AMS4E.</b> The ATmega128 prototype (“AMS4 DOLBY V2.00”) has <span class="mono">wait_ms()</span> “this loop equals one ms” as 100 × WDR(). At 4.9152 MHz that is ≈ 0.1 ms ${inf}, so the 1 s opening window is really about 0.1 s.</li>
    <li><b>Meter LEDs.</b> The AMS4-2 netlist calls 21 LEDs “GR” and one “RD”. The BOM structure buys 15 green + 7 red: 7 green + 3 red per bar, plus the green 0° and red 180° LEDs.</li>
    <li><b>Archive.</b> AMS4-1…AMS4-5 and their “#OBSOLETE” twins are byte-identical. <span class="mono">SOFTWARE - PIC VERSIONS</span> holds only .ERR/.$$$ residue. Front ISS 7 (2015-10-13|48) is “new redesign for single speaker box”. Rear ISS 7 (2016-06-24|49) changes detail B to the universal adapter plate. The DEMUX4 adapter plate was drawn 2013-07-10|46 in directory AMS8/AMS82.</li>
+   <li><b>Corrected 2026|59: the DEMUX-1 reply.</b> This plugin had guessed a 0xC0 probe reply, 0x02 | 0x3D otherwise, sent 1 ms after the command. The DEMUX-1 source says otherwise: the 0xE8 probe runs <span class="mono">sdi_check</span> (tx0 = 1110 0000), so a probed board answers 0xE0–0xE3 and an unprobed one 0x00–0x03, with bit 1 = no SDI lock (<span class="mono">settx</span>) and bit 0 = no audio lock (<span class="mono">readgs9023</span>). The <span class="mono">comout0/comout1</span> counter in <span class="mono">settx</span> holds each reply ≈ 65 passes ≈ 6.3 ms after the command, except the first after power-up (INIT sets both counters to 1), which goes on the next pass. The model now does this. One result: a DEMUX-1 never sets reply bits 2–4, so v2.01 and later (pair lock from bits 2–5) always read “audio present” in SDI mode with a DEMUX-1; only v2.00's bit-0 check sees its audio lock (see demux1.js).</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
    <li>Cycle counts per routine are hand counts of the MPASM source (${inf}). They give a ≈ 0.58 ms pass; every firmware delay is a pass count, so all times scale with this.</li>
-   <li>CS8415A lock 3 ms after its input changes; DEMUX re-lock 50 ms after a new command; DEMUX-1 reply format and 1 ms delay; DEMUX-4 FPGA ready 5.94 s after power-up (from demux4.js) (${inf}).</li>
+   <li>CS8415A lock 3 ms after its input changes; DEMUX re-lock 50 ms after a new command; DEMUX-1 ready 0.2 s after power-up; DEMUX-4 FPGA ready 5.94 s after power-up (from demux4.js) (${inf}).</li>
    <li>Power-up timer 72 ms; EEPROM write 4 ms (${inf}: config bits and timings are not in the source).</li>
    <li>Levels: bus = input −6 dB, line out = input; 0 VU = +4 dBu / −20 dBFS (manual); speaker pad and TDA2616 gain ${inf}. Test tones on every input.</li>
    <li>v2.00/v2.01 run on the issue-4 pin map their source uses. v2.02 runs on the issue-5 board, where RXP0 has no DEMUX signal (${inf} from the v2.03 note).</li>

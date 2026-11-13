@@ -10,11 +10,13 @@ tags: ["product", "pods", "1990s"]
 
 # POD5A — Dual Headset Amplifier
 
+**▶ [Open the POD5 simulation](../siumulation.html?plugin=pod5)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD5A) · [KiCad symbol generator](../kicad.html?m=POD5A) · [download package (zip)](../_packages/POD5A.zip) |
+| Try it | [full simulation: POD5](../siumulation.html?plugin=pod5) · [simulator & front panel](../simulator.html?m=POD5A) · [KiCad symbol generator](../kicad.html?m=POD5A) · [download package (zip)](../_packages/POD5A.zip) |
 | Earliest dated evidence | [1995\|28](Year-1995.md) — month & year |
 | Evidence | "March 8, 1995" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/ORCAD/POD5A.DSN |
 | Confidence | medium |

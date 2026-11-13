@@ -15,6 +15,8 @@
        address.asm, uart.asm, init.asm, Project 554265 Instructions.doc)
    - POD23 - #Software/POD23 - #SOFTWARE #working/POD23Com/ Da305rev/uart305.asm, POD22/uart.asm (the receivers)
    - POD23 PROTOCOLv2.wpd (12 Mar 2004) and POD23 PROTOCOL.wpd (preliminary)
+   - XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/Software/554265/pod22v1.asm, uart.asm (the POD22 master for #554265,
+     Nov 2004; Corrected 2026|59, see pod22.js)
    - POD23 - #NAB 2004/nab04 ctl pnl2.net, .bom (the POD23A board: PIC16F877 QFP44, 6× SLG2016,
        74HC138, 74HC165, 2× 75176, X1 4.9152 MHz) · POD23 - #PCB/POD23iss1.net, .bom (2003 board, 2× PDSP1884)
    - POD23 - #SILK/POD23-Silk.cdr (2003) and POD23-SilkV2.cdr (2004), converted with Inkscape (libcdr)
@@ -458,7 +460,7 @@ const A = {
    POD23 (2003, project #554265) — state-level model of the two-knob panel
    ===================================================================== */
 const B_ = {
-  reset(){ D.B = {level1:195, level2:195, disctl1:1, address:0, address_mode:0, aes_lock:1, err:0, activity:0}; },
+  reset(){ D.B = {level1:195, level2:195, disctl1:1, address:0, address_mode:0, aes_lock:1, err:0, activity:0, actAt:-1, other:0}; },
   disp(){ const b=D.B; const lv = L=>{ const idx=L-165, dd=String(Math.abs((idx>>1)-15)%10), dig=(L<177||L>=215); return [L===195?' ':(L>=197?'+':'-'), dig?'1':dd, dig?dd:' ']; };
     if (b.err) return ['  COMM  ', '  ERROR '];
     if (!b.aes_lock) return ['   NO   ', '  LOCK  '];
@@ -471,12 +473,14 @@ const B_ = {
       if (b.disctl1){ if (k===2){ const o=b.level1; b.level1=step(b.level1); b.level2=b.level1; b.activity=1; tr(`level_mode1 (right knob): level1 ${o} → ${b.level1}, level2 = level1 (${dbTxt(b.level1)} dB stereo); command1 = 0; eewrite; activity_flag = 1`); }
         else tr('Stereo mode: only the right knob trims (l_mode1 needs disctl1 = 0)'); }
       else { if (k===1){ const o=b.level1; b.level1=step(b.level1); tr(`l_mode1 (left knob, input_flag1,1): level1 ${o} → ${b.level1} (left ${dbTxt(b.level1)} dB); command1 = 1`); } else { const o=b.level2; b.level2=step(b.level2); tr(`r_mode1 (right knob): level2 ${o} → ${b.level2} (right ${dbTxt(b.level2)} dB); command1 = 1`); } b.activity=1; }
-      tr('The next POD22 poll for this address gets the reply [address | 8 (activity), level1, level2, disctl1] — POD22 master firmware not archived, poll timing '+'inferred'); }); },
+      b.actAt=SIM.t; tr(`activity_flag,0 = 1 → at the next POD22 exchange for ${hex2(0xF0|b.address)} txuart answers ${hex2(0xF0|b.address|8)} (address + 8), then level1, level2, disctl1 (pod22v1.asm polls with F0/F1 + 2·lock, then 0, 1, 2)`);
+      tr(b.other?'POD22 uart_rx sees the +8 header → activity_flag,1 → txuart4 sets activity_flag,0: its next exchange, with the other POD23, is an update (header + 8) carrying these levels — the two panels mirror each other':'POD22 uart_process copies the levels to sharc_out+9/13 (left) and +11/15 (right): the SHARC trims follow the knob'); }); },
   push(k){ const b=D.B; act(`Press ${k===1?'left':'right'} knob`, tr=>{
       if (k===1){ b.disctl1^=1; tr(`pbdepress2 (switch1 on RA2): disctl1 ^= 1 → ${b.disctl1?'STEREO':'L/R'}`); }
       else { b.address_mode^=1; tr(`pbdepress1 (switch2 on RA5): address_mode ^= 1 → ${b.address_mode?'ADDRESS screen':'back to trim'}`); } }); },
-  lock(){ const b=D.B; act(b.aes_lock?'POD22 reports: no AES lock':'POD22 reports: AES locked', tr=>{ b.aes_lock^=1; tr('scanuart: poll byte bit 1 = AES lock → aes_lock,0; no_lock_display shows “NO LOCK” while it is clear'); }); },
-  link(){ const b=D.B; act(b.err?'POD22 polls again':'POD22 stops polling', tr=>{ b.err^=1; tr(b.err?'loss_of_com: comout2/comout3 run out with no received byte → tx,1 → “COMM ERROR”':'Any good poll resets comout3 and clears the error'); }); },
+  lock(){ const b=D.B; act(b.aes_lock?'POD22 reports: no AES lock':'POD22 reports: AES locked', tr=>{ b.aes_lock^=1; tr(`POD22 txuart: header = ${hex2(0xF0|b.address)} ${b.aes_lock?'+ 2 (sharc_out+7 bit 0: AES locked; always + 2 in analog mode)':'without + 2'} → POD23 scanuart: bit 1 → aes_lock,0; no_lock_display shows “NO LOCK” while it is clear`); }); },
+  link(){ const b=D.B; act(b.err?'POD22 polls again':'POD22 stops polling', tr=>{ b.err^=1; tr(b.err?'POD23 loss_of_com: comout2/comout3 run out with no received byte → tx,1 → “COMM ERROR”':'Any good poll resets comout3 and clears the error'); }); },
+  other(){ const b=D.B; act(b.other?'Remove the second POD23':'Add a second POD23 (the other address)', tr=>{ b.other^=1; tr(b.other?`pod22v1.asm alternates F0 and F1 (uart_mode ^= 1 in txuart4): each panel is polled every ≈${SIM.fmtDur(2*EXCH)}`:`The POD22 still tries ${hex2(0xF0|(b.address^1))}: loss_of_com waits 256 passes (≈${SIM.fmtDur(TO22)}) for an answer, then switches back and flags that address for an update (activity_flag,2/3)`); }); },
 };
 B_.reset();
 
@@ -576,7 +580,7 @@ function controlsHTML(){
   if (D.variant==='two') return `<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px">
     <span class="small muted">Left</span><button data-a="t1-">⟲</button><button data-a="p1">press</button><button data-a="t1+">⟳</button>
     <span class="small muted" style="margin-left:10px">Right</span><button data-a="t2-">⟲</button><button data-a="p2">press</button><button data-a="t2+">⟳</button>
-    <button data-a="lock" style="margin-left:10px">toggle POD22 AES lock</button></div>`;
+    <button data-a="lock" style="margin-left:10px">toggle POD22 AES lock</button><button data-a="other" title="pod22v1.asm polls F0 and F1">toggle a second POD23</button></div>`;
   return `<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px">
     <label class="small">Knob <select data-a="sel">${[1,2,3,4,5,6].map(k=>`<option value="${k}" ${D.sel===k?'selected':''}>${k} · ${KNOB[k]}</option>`).join('')}</select></label>
     <button data-a="l5">⟲ ×5</button><button data-a="l">⟲</button><button data-a="p">press</button><button data-a="r">⟳</button><button data-a="r5">⟳ ×5</button>
@@ -585,7 +589,7 @@ function controlsHTML(){
 }
 function bindControls(root){
   const m = {l:()=>A.turn(D.sel,-1), r:()=>A.turn(D.sel,1), l5:()=>A.turn(D.sel,-1,5), r5:()=>A.turn(D.sel,1,5), p:()=>A.push(D.sel),
-    't1-':()=>B_.turn(1,-1),'t1+':()=>B_.turn(1,1),'t2-':()=>B_.turn(2,-1),'t2+':()=>B_.turn(2,1),p1:()=>B_.push(1),p2:()=>B_.push(2),lock:()=>B_.lock()};
+    't1-':()=>B_.turn(1,-1),'t1+':()=>B_.turn(1,1),'t2-':()=>B_.turn(2,-1),'t2+':()=>B_.turn(2,1),p1:()=>B_.push(1),p2:()=>B_.push(2),lock:()=>B_.lock(),other:()=>B_.other()};
   root.querySelectorAll('button[data-a]').forEach(b=> b.onclick=()=>m[b.dataset.a]());
   const s=root.querySelector('select[data-a="sel"]'); if (s) s.onchange=e=>{ D.sel=+e.target.value; SIM.refresh(); };
 }
@@ -664,15 +668,31 @@ function lanes(){
   L.push({label:'Row shown (disctl1)', h:20, draw(c,X,t0,t1,y,h){ segLane(c,X,t0,t1,y,h,'disctl1',v=>v?css('--accent2'):css('--chip'),v=>v?'lower: OUTPUT 1/2, THRESHOLD, PEAK':'upper: SELECT, LEVEL, TARGET, RATIO, RANGE'); }});
   return L;
 }
+/* POD22 master (XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/Software/554265/pod22v1.asm + uart.asm, Nov 2 2004):
+   one byte pair every time_uart = 5 POD22 passes, 4 pairs per exchange; loss_of_com after 256 passes (com_time 255); pass ≈ 1.32 ms (pod22.js estimate, inferred) */
+const P22=0.00132, PAIR=5*P22, EXCH=4*PAIR, TO22=256*P22;
+function linkSched(t0,t1){ const b=D.B, out=[]; if (b.err) return out;
+  const per = b.other ? 2*EXCH : EXCH + BYTE_T + TO22;
+  for (let n=Math.max(0,Math.floor(t0/per)-1); n*per<t1; n++){ const base=n*per+0.002;
+    const mine={t:base, ad:b.address, me:true}, oth={t:base+EXCH, ad:b.address^1, me:false, absent:!b.other};
+    [mine,oth].forEach(e=>{ if (e.t>t1+EXCH || e.t+EXCH<t0) return; const prevT=e.t-per;
+      const myUpd = e.me && b.actAt>=prevT && b.actAt<e.t;                                     // POD23 activity_flag,0 → header + 8
+      const push = !e.me && b.other && b.actAt>=prevT-EXCH && b.actAt<e.t-EXCH;                // POD22 activity_flag,0 → update to the other panel
+      const hdrM = 0xF0|e.ad|(b.aes_lock?2:0)|(push?8:0);
+      e.M = push ? [hdrM,b.level1,b.level2,b.disctl1] : [hdrM,0,1,2];
+      e.S = e.absent ? null : (e.me ? [0xF0|e.ad|(myUpd?8:0), b.level1, b.level2, b.disctl1] : [0xF0|e.ad, b.level1, b.level2, b.disctl1]);
+      if (e.absent) e.M=[hdrM];
+      out.push(e); }); }
+  return out; }
 function lanesB(){
-  const css=n=>SIM.css(n), PASS=0.0006, POLL=0.1;
+  const css=n=>SIM.css(n), PASS=0.0006;
   return [
     {label:'PIC16F874 main loop (≈0.6 ms, inferred)', h:26, draw(c,X,t0,t1,y,h){ if (X(t0+PASS)-X(t0)<3){ c.fillStyle=css('--accent'); c.globalAlpha=.5; c.fillRect(X(t0),y+4,X(t1)-X(t0),h-8); c.globalAlpha=1; c.fillStyle=css('--ink'); c.font='11px sans-serif'; c.fillText('≈1700 passes: input_routine, encoder_routine1/2, debounce, level/l/r/address handlers, refresh (16 chars), scanuart, txuart', X(t0)+6, y+h/2+4); return; }
       for (let tt=Math.floor(t0/PASS)*PASS; tt<t1; tt+=PASS){ c.fillStyle=css('--accent'); c.globalAlpha=Math.round(tt/PASS)%2?.5:.8; c.fillRect(X(tt),y+4,X(tt+PASS)-X(tt)-.5,h-8); } c.globalAlpha=1; }},
-    {label:'POD22 polls (address | lock<<1), inferred 100 ms', h:30, draw(c,X,t0,t1,y,h){ const b=D.B; for (let n=Math.floor(t0/POLL); n*POLL<t1; n++){ const ts=n*POLL+0.01, ad=n%2; const it={start:ts,end:ts+BYTE_T,b:ad|(b.aes_lock?2:0),why:'poll A'+ad};
-        if (!b.err) drawBytes(c,X,t0,t1,y,h,[it],css('--accent2')); } }},
-    {label:'POD23 reply (addr|8·activity, level1, level2, disctl1)', h:30, draw(c,X,t0,t1,y,h){ const b=D.B; if (b.err) return; for (let n=Math.floor(t0/POLL); n*POLL<t1; n++){ if ((n%2)!==b.address) continue; const ts=n*POLL+0.01+BYTE_T+0.0012;
-        const bytes=[b.address|(b.activity?8:0), b.level1, b.level2, b.disctl1]; drawBytes(c,X,t0,t1,y,h,bytes.map((v,i)=>({start:ts+i*(BYTE_T+0.0006), end:ts+i*(BYTE_T+0.0006)+BYTE_T, b:v, why:['address','level1','level2','disctl1'][i]})),css('--accent')); } }},
+    {label:'POD22 master (pod22v1.asm): F0/F1 + 2·lock (+8 update), 0, 1, 2', h:30, draw(c,X,t0,t1,y,h){ linkSched(t0,t1).forEach(e=>{ drawBytes(c,X,t0,t1,y,h,e.M.map((v,i)=>({start:e.t+i*PAIR, end:e.t+i*PAIR+BYTE_T, b:v, why:['header '+hex2(0xF0|e.ad),'level / 0','level / 1','display / 2'][i]})), e.me?css('--accent2'):css('--ink2'));
+        if (e.absent && X(e.t+BYTE_T+TO22)-X(e.t)>60){ c.fillStyle=css('--warn'); c.font='10px sans-serif'; c.fillText(`no reply from ${hex2(0xF0|e.ad)}: loss_of_com after 256 passes`, X(Math.max(t0,e.t))+4, y+h-3); } }); }},
+    {label:'POD23 replies (address +8 activity, level1, level2, disctl1)', h:30, draw(c,X,t0,t1,y,h){ linkSched(t0,t1).forEach(e=>{ if(!e.S) return; const d=BYTE_T+0.0006;
+        drawBytes(c,X,t0,t1,y,h,e.S.map((v,i)=>({start:e.t+i*PAIR+d, end:e.t+i*PAIR+d+BYTE_T, b:v, why:['address','level1','level2','disctl1'][i]})), e.me?css('--accent'):css('--ink2')); }); }},
   ];
 }
 
@@ -688,8 +708,9 @@ function bindVariant(m){ m.querySelectorAll('button[data-v]').forEach(b=>b.oncli
 function inspectorHTML(t){
   if (D.variant==='two'){ const b=D.B; return `<table class="kv"><tr><th>Mode</th><td class="mono">${b.address_mode?'address_mode,0 = 1':b.disctl1?'disctl1 = 1 (STEREO)':'disctl1 = 0 (L/R)'}</td></tr>
     <tr><th>level1 / level2</th><td class="mono">${b.level1} / ${b.level2} (${dbTxt(b.level1)} / ${dbTxt(b.level2)} dB)</td></tr><tr><th>address</th><td class="mono">${b.address}</td></tr>
-    <tr><th>aes_lock / tx,1</th><td class="mono">${b.aes_lock} / ${b.err}</td></tr><tr><th>Displays</th><td class="mono">“${B_.disp().join('” “')}”</td></tr></table>
-    <p class="small muted">The 2003 panel is modelled at the state level: its POD22 master firmware (the poller) is not in the archive, so link timing is ${inf}.</p>`; }
+    <tr><th>aes_lock / tx,1</th><td class="mono">${b.aes_lock} / ${b.err}</td></tr><tr><th>Displays</th><td class="mono">“${B_.disp().join('” “')}”</td></tr>
+    <tr><th>Link</th><td class="mono">POD22 polls ${hex2(0xF0|b.address)}${b.other?' and '+hex2(0xF0|(b.address^1))+' alternately':' (the other address times out)'} · one exchange ≈ ${SIM.fmtDur(EXCH)}</td></tr></table>
+    <p class="small muted">The 2003 panel is modelled at the state level; the link follows the POD22 master <span class="mono">pod22v1.asm</span> (#554265, Nov 2004). Pass times are ${inf}.</p>`; }
   const st=stateAt(t); if (!st) return '<p class="muted">Before power-on or during start-up.</p>';
   const S=st.S, sp=stepAt(t), a=S.address_2temp, r=ramAt(t);
   const da=S.da.regs;
@@ -724,7 +745,7 @@ function viewSim(m){
     ${card('State at the playhead', `<div id="insp"></div>`)}
   </div></div>
   ${card('Timeline — one second, zoomable (click to seek)', `<canvas id="tl"></canvas>
-    <p class="small muted">${D.variant==='a'?`The pass length is counted by hand from <span class="mono">pod23.asm</span> (${inf}, ±20 %). Everything else follows from it and from the 4.9152 MHz crystal: one UART byte = 1.042 ms, one byte every 20 passes ≈ 15.8 ms, one frame ≈ 95 ms, a data-refresh cycle every 2048 quiet passes ≈ 1.6 s.`:`Two-knob panel (${Y(2003)}): link lanes are illustrative (${inf}).`}</p>`)}
+    <p class="small muted">${D.variant==='a'?`The pass length is counted by hand from <span class="mono">pod23.asm</span> (${inf}, ±20 %). Everything else follows from it and from the 4.9152 MHz crystal: one UART byte = 1.042 ms, one byte every 20 passes ≈ 15.8 ms, one frame ≈ 95 ms, a data-refresh cycle every 2048 quiet passes ≈ 1.6 s.`:`Two-knob panel (${Y(2003)}): the link lanes follow the POD22 master pod22v1.asm — one byte pair every 5 POD22 passes (pass ≈ 1.32 ms, ${inf}), F0/F1 alternating when both panels answer, a 256-pass loss_of_com wait for a missing one.`}</p>`)}
   <div class="grid2">${card('Firmware notes in view (newest last)', `<div id="notes" class="log"></div>`)}${card('Action log', `<div id="log" class="log"></div>`)}</div>`;
   bindVariant(m);
   const draw=()=>{
@@ -972,7 +993,9 @@ function viewNotes(m){
     <li><b>The address on the wire is one less than on the display.</b> <span class="mono">address_2</span> = 0…9 for A1…A10 (<span class="mono">address_table</span>). The protocol document says addresses run 1–10 with 129 as an all-call. The all-call value (b'10000001') is the 11th table entry and cannot be reached: <span class="mono">address_mode2</span> wraps at 9.</li>
     <li><b>The frame is not the “2-byte protocol” the READMEs mention.</b> v100 sends <span class="mono">FF ADDR CMD RESP DATA [DATA2] AA</span> (POD23 PROTOCOLv2.wpd); only the reply is 2 bytes. The <i>preliminary</i> document has no RESP byte.</li>
     <li><b>The archived receivers do not speak this protocol.</b> <span class="mono">POD23Com/Da305rev/uart305.asm</span> (Jan ${Y(2003)}) and <span class="mono">POD23Com/POD22/uart.asm</span> expect <span class="mono">FF ADDR CMD DATA</span> with 0 = stereo level, 1 = left, 2 = right, 3 = delay, 4 = target …. Fed a v100 frame, the DA305 would take the RESP byte as the level. The DA305A firmware that matches POD23A v100 is not in the archive; this simulator's DA305A follows the protocol document (${inf}).</li>
-    <li><b>The 2003 POD23 is the other way round.</b> In project #554265 the POD23 is a polled slave: it waits for the POD22 to send its address (bit 1 = AES lock, +8 = update) and answers with <span class="mono">address|8, level1, level2, disctl1</span>. But the archived POD22 (<span class="mono">pod22v2.asm</span>, Mar ${Y(2003)}) is also a slave that waits for <span class="mono">FF</span> frames. The README's guess that pod22v2 is the #554265 partner does not hold; the POD22 poller is missing.</li>
+    <li><b>The 2003 POD23 is the other way round, and its master is archived.</b> Corrected 2026|59: the POD22 poller this plugin could not find is <span class="mono">XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/Software/554265/pod22v1.asm</span> (+ <span class="mono">uart.asm</span>; “Pod 22 communicating with 2 POD23s”, Nov ${Y(2004)}) (see pod22.js). It fits the #554265 POD23 byte for byte: the POD22 sends <span class="mono">F0</span>/<span class="mono">F1</span> (+2 AES lock, +8 update), then the placeholders 0, 1, 2; the POD23 checks for exactly those and answers each with its address (+8 if a knob moved), level1, level2 and disctl1. The POD22 clamps the levels to 165–225 and copies them to the SHARC trims. The 2003 link lanes now follow that code. The archived <span class="mono">pod22v2.asm</span> (Mar ${Y(2003)}) is a slave that waits for <span class="mono">FF</span> frames, so the README's guess that it is the partner does not hold.</li>
+    <li><b>The two 2003 panels mirror each other.</b> When one POD23 reports a change (header +8), <span class="mono">txuart4</span> sets <span class="mono">activity_flag,0</span> and the POD22's next exchange — with the <i>other</i> POD23 — is an update frame carrying the new levels and display mode. A missing panel costs a 256-pass <span class="mono">loss_of_com</span> wait (≈${SIM.fmtDur(TO22)}, ${inf}) on every cycle and is flagged for an update when it returns.</li>
+    <li><b>The 2003 link only works with a different POD22 crystal.</b> pod22v1 changes SPBRG from 13 to 12. On the standard POD22 clock (8.6016 MHz, where 13 gives 9600) that is 10,338 baud, 7.7 % fast against the POD23's exact 9600 (4.9152 MHz, SPBRG 7): too far for a UART. With an 8 MHz crystal SPBRG 12 gives 9615 baud, so the custom POD22 probably had one (${inf}).</li>
     <li><b>Wrong output byte for “TN / ST”.</b> In <span class="mono">output.asm</span>, <span class="mono">tone_1_stereo_2</span> sets <span class="mono">output2 = 1</span> (mono) while the display shows OUTPUT 2 = ST. Every other combination sends what it shows.</li>
     <li><b>Values sent for the wrong unit.</b> <span class="mono">threshold1</span>, <span class="mono">peak1</span>, <span class="mono">output1</span> and <span class="mono">output2</span> are only recalculated while the lower row is on screen; <span class="mono">level1</span>, <span class="mono">target1</span>, <span class="mono">ratio1</span> and <span class="mono">range1</span> only while the upper row is. Change SELECT to another A-number on the upper row and the background refresh (<span class="mono">cycle_data</span>) sends that unit the previous unit's threshold, peak limit and output modes until you visit the lower row.</li>
     <li><b>OUTPUT knobs remember the wrong position.</b> <span class="mono">source_mode</span> / <span class="mono">source_mode2</span> are stored per address (<span class="mono">source1_temp1…10</span>) but never recalled. After changing address, the next OUTPUT click steps from the last unit's position, not from what the display shows.</li>
@@ -991,10 +1014,11 @@ function viewNotes(m){
     <li>DA305A / POD22 reply 3 ms after AA, per the v2 protocol document (${inf}: their firmware for this frame is not archived).</li>
     <li>Configuration bits are not in the source: no power-up timer, LVP off (${inf}). SLG2016 RAM starts blank (it really powers up random; CLR is tied high).</li>
     <li>Panel colours: black (“EXTRA FINE TEXTURED WBS BLACK”), green and white inks as on the other POD panels; there is no photo of a POD23 (${inf}). Display and knob positions on the 2003 panel and the rear connectors are placed under their silk labels (${inf}).</li>
-    <li>The 2003 POD23 (#554265) is modelled at the state level; its link lanes are illustrative.</li></ul>`)
+    <li>The 2003 POD23 (#554265) is modelled at the state level. Its link follows pod22v1.asm: one byte pair every 5 POD22 passes, POD22 pass ≈ 1.32 ms (pod22.js estimate), POD23 reply ≈ 0.6 ms after each byte (${inf}).</li></ul>`)
   + card('Sources', `<ul class="small mono">
     <li>#POD #SERIES/POD23 - #Engineering/POD23 - #Software/POD23A - #SOFTWARE #POD23A/POD23 - #SOFTWARE #POD23A #v100/*.asm, encpbb-88.pjt, pod23.err</li>
     <li>…/POD23 - #SOFTWARE #554265/*.asm, Project 554265 Instructions.doc · …/POD23 - #SOFTWARE #working/POD23Com/Da305rev, POD22</li>
+    <li>../XXX - POD22 - #Master # Obsolte/POD22 - #Engineering/Software/554265/pod22v1.asm, uart.asm, init.asm (the POD22 master for #554265)</li>
     <li>…/POD23 PROTOCOLv2.wpd, POD23 PROTOCOL.wpd · …/POD23 - #NAB 2004/nab04 ctl pnl2.net, .bom · …/POD23 - #PCB/POD23iss1.net, .bom</li>
     <li>…/POD23 - #SILK/POD23-Silk.cdr, POD23-SilkV2.cdr → assets/pod23-*.png · …/POD23 - #MECHANICAL, #Poduction Assembly (.dwg text)</li></ul>`);
 }

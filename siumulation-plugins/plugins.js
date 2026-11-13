@@ -153,7 +153,7 @@ window.SIM_CATALOG = [
    "13-step operator tutorial from the v2117 manual",
    "Button → front MCU → UART → 80-byte chain → SHARC trace",
    "Real VU/PPM ballistics and the 4-phase LED multiplex",
-   "“Z bootloader” that is really Out4; 1.5 s SDI freeze; 78-day meter freeze fix"
+   "“Z bootloader” that is really Out4; 247 ms SDI freeze; 78-day meter freeze fix"
   ],
   "depth": "Full model",
   "tabs": [
@@ -5317,16 +5317,16 @@ window.SIM_CATALOG = [
   "tier": "light",
   "status": "ready",
   "product": "POD11A",
-  "name": "POD11A · stereo loudness meter, VU/PPM LED bars + phase (2014|47)",
+  "name": "POD11A · digital stereo loudness meter, VU/PPM LED bars + phase (2014|47)",
   "year": 2014,
-  "summary": "Half-rack AES-input stereo meter with two 57-segment bars (VU and peak ranges), a phase meter and LOCK/ERROR tallies, set up by a rear DIP switch. Only the panels survive, so the metering uses the SLM-1 SHARC code (VU, PPM, peak, phase) from the POD3A folder; the year comes from the 2014 silk date.",
+  "summary": "Half-rack AES-input stereo meter: two 41-LED bars showing VU and PPM together, a sticky peak LED, a 7-LED phase meter and LOCK/ERROR, set up by a rear DIP switch. The model follows the POD11A manual and the digital SLM-1 ADSP-21065L code (VU, PPM, peak, phase, sample-rate detection); the year comes from the 2014 silk date.",
   "highlights": [
-   "Real silkscreen panels with live 57-segment bars and a phase column",
-   "VU, PPM and peak ballistics from the SLM-1 time constants",
-   "Rear DIP: CAL reference, peak hold, PPM type 1/2",
-   "CAL settings that make the top segments unreachable"
+   "Real silkscreen panels with the firmware's 40-segment bars, peak LED and phase column",
+   "VU 300 ms and PPM 5 ms / 1.5–3 s per 24 dB, rescaled for 32–96 kHz",
+   "Rear DIP decoded as the code reads it: CAL −20…−14, peak hold, decay",
+   "Manual vs code: BS0 sense, 4.17 s holds, “in phase” with no lock"
   ],
-  "depth": "Hardware model",
+  "depth": "Full model",
   "tabs": [
    {
     "id": "sim",
@@ -5346,11 +5346,11 @@ window.SIM_CATALOG = [
    },
    {
     "id": "schematic",
-    "label": "Schematics (algorithm)"
+    "label": "Schematics (from the code)"
    },
    {
     "id": "software",
-    "label": "Software (SLM-1)"
+    "label": "Software (digital SLM-1)"
    },
    {
     "id": "findings",
@@ -5368,15 +5368,15 @@ window.SIM_CATALOG = [
   "product": "POD12A",
   "name": "POD12A · AES digital audio DA, 1×8 or dual 1×4 (2013|46)",
   "year": 2013,
-  "summary": "Half-rack AES/EBU distribution amplifier: one input to eight outputs or two inputs to four each, with optional sample-rate conversion (AD1895) and cable equalisation (EL5263), in 75 Ω BNC or 110 Ω Phoenix versions. CS8416 receivers, an EP1C3 FPGA and an AT90CAN128 MCU.",
+  "summary": "Half-rack AES/EBU distribution amplifier: one input to eight outputs or two inputs to four each, with an SRC mode that puts INPUT A on INPUT B’s clock (AD1895) and a cable-EQ receiver input (EL5263), in 75 Ω BNC or 110 Ω Phoenix versions. Modelled from the real MCU firmware (V020000) and FPGA design (D6201A), archived in the obsolete POD12 folder.",
   "highlights": [
    "Real silkscreen panels with working DIP switches and pluggable inputs",
-   "Routing from the IPC netlist: FPGA OUT1–4 to eight drivers",
-   "AES3 frames in and out, with SRC changing the output rate",
-   "Cable length vs lock, with and without the EQ path",
-   "Firmware the archive is missing; the 1.52 V “1V2” rail"
+   "The V020000 main loop and ALTERA_write control bits, live",
+   "SRC: INPUT A converted to INPUT B’s clock, only while B is locked",
+   "EQ as a second CS8416 input (register 04 = 0x80/0x89)",
+   "V020000 vs v100 firmware differences"
   ],
-  "depth": "Hardware model",
+  "depth": "Full model",
   "tabs": [
    {
     "id": "sim",
@@ -5400,7 +5400,7 @@ window.SIM_CATALOG = [
    },
    {
     "id": "software",
-    "label": "Signal path"
+    "label": "Software (V020000 + D6201A)"
    },
    {
     "id": "findings",
@@ -5418,15 +5418,15 @@ window.SIM_CATALOG = [
   "product": "POD13A",
   "name": "POD13A · dual AES/EBU D/A converter (2008|41)",
   "year": 2008,
-  "summary": "Half-rack dual AES/EBU to analog converter with 75 Ω BNC and 110 Ω Phoenix inputs, LOCK/NO LOCK tallies and a rear CAL DIP switch (−20/−18/−12 dBFS = +4 dBu). CS8416 receivers, a LatticeXP FPGA and AK4396 DACs feed balanced NE5532 line drivers.",
+  "summary": "Half-rack dual AES/EBU to analog converter with 75 Ω BNC and 110 Ω Phoenix inputs, LOCK/NO LOCK tallies and a rear CAL DIP switch (−20/−18/−12 dBFS = +4 dBu, fourth setting mutes). Modelled from the archived ATmega128 (Atmel V100) and LatticeXP (Lattice V100) code: CS8416 receivers, input hunting, FPGA rate detection and AK4396 DACs.",
   "highlights": [
    "Real silkscreen panels: pluggable BNC/Phoenix inputs and a working CAL DIP switch",
-   "AES3 frames, blocks and a bit-level scope of the input",
-   "Lock behaviour from the 2008 test sheet (cable length, rate range)",
-   "Level and headroom through each stage",
-   "Firmware that the archive is missing"
+   "The MCU main loop simulated pass by pass: input hunt, lock, DAC reset",
+   "CAL decode in the FPGA (dec2_4): why Up/Up mutes",
+   "Rate detection and the DEBOUNCE_fs2 / REFRESH_AK4396_2 bug",
+   "Level and headroom through each stage"
   ],
-  "depth": "Hardware model",
+  "depth": "Full model",
   "tabs": [
    {
     "id": "sim",
@@ -5450,7 +5450,7 @@ window.SIM_CATALOG = [
    },
    {
     "id": "software",
-    "label": "Signal path"
+    "label": "Software (Atmel + Lattice V100)"
    },
    {
     "id": "findings",
@@ -5518,12 +5518,13 @@ window.SIM_CATALOG = [
   "product": "POD15A",
   "name": "POD15A · analog video DA with cable EQ and clamp (2014|47)",
   "year": 2014,
-  "summary": "Half-rack composite video distribution amplifier: a looping Hi-Z input, a 0–600 m cable equaliser, a back-porch clamp, a level trim and seven 75 Ω outputs (six rear, one front monitor). Only the panels survive, so the circuit is modelled from the legends and the older POD15 manual (year from the 2014 silk date).",
+  "summary": "Half-rack composite video distribution amplifier: a differential looping input, a level trim, a back-porch clamp, a 0–600 m cable equaliser and seven 75 Ω outputs driven in pairs (six rear, one front monitor). The circuit is the real POD15A issue 3 netlist, archived in the obsolete POD15 folder (year from the 2014 silk date).",
   "highlights": [
    "Real silkscreen panels with working EQ, 300 m, CLAMP and LEVEL controls",
+   "SYNCH/ERROR from the real CD4538 10 ms no-sync one-shot",
    "NTSC/PAL lines with sync, burst and bars through each stage",
-   "Cable loss vs equaliser, live frequency plot",
-   "Loop-termination mistakes and clamp-out bounce"
+   "Outputs driven in pairs: load, open or short any BNC",
+   "Four schematic sheets redrawn from pod15aiss3.net"
   ],
   "depth": "Hardware model",
   "tabs": [
@@ -5545,7 +5546,7 @@ window.SIM_CATALOG = [
    },
    {
     "id": "schematic",
-    "label": "Schematics (inferred)"
+    "label": "Schematics (redrawn)"
    },
    {
     "id": "software",
@@ -11385,8 +11386,50 @@ window.SIM_CATALOG = [
   "folder": "#AV #SERIES/XXX- AVB  VID BUDDY - #OBSOLETE #Archive",
   "family": "Obsolete products",
   "tier": "full",
-  "status": "building",
-  "product": "AVB VID BUDDY"
+  "status": "ready",
+  "product": "AVB1 VIDBuddy",
+  "name": "AVB1 VIDBuddy · handheld audio/video monitor (2002|35)",
+  "year": 2002,
+  "summary": "The 2002 “Audio/Video Buddy” handheld monitor: SDI or analog video on an LCD, and analog, AES or any of 8 embedded AES pairs on a 2 × 17 LED meter and the headset, from a 12 V NiCd pack. Three PIC16F874s run the archived firmware cycle by cycle in this model: U200 (buttons, battery), U201 (meter) and U4 (CS8415, GS9023, ADV7171), talking over a 9600 Bd link.",
+  "highlights": [
+   "Three archived MPASM programs assembled and run on three PIC16F874 cores",
+   "Front panel from the avb1-frontssv1 CorelDRAW silk; side connector and rear label panels",
+   "Hold-to-start, lamp flashing and the 2 s meter blackout, all from the code",
+   "U200 ↔ U4 two-byte protocol decoded live; CS8415/GS9023/ADV7171 bus traffic",
+   "Battery and charging thresholds from adconv~3.asm",
+   "Findings: stale protocol comments, mirrored button nets, WDT reset trick"
+  ],
+  "depth": "Full model",
+  "tabs": [
+   {
+    "id": "sim",
+    "label": "Simulator"
+   },
+   {
+    "id": "tutorial",
+    "label": "Tutorial: using the VIDBuddy"
+   },
+   {
+    "id": "second",
+    "label": "One second, broken down"
+   },
+   {
+    "id": "block",
+    "label": "Block diagram"
+   },
+   {
+    "id": "schematic",
+    "label": "Schematics"
+   },
+   {
+    "id": "software",
+    "label": "Software"
+   },
+   {
+    "id": "findings",
+    "label": "Findings"
+   }
+  ]
  },
  {
   "id": "pod8",

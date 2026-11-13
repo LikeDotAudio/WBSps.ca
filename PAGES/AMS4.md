@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # AMS4 — Audio Monitor System
 
+**▶ [Open the AMS4 simulation](../siumulation.html?plugin=ams4)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

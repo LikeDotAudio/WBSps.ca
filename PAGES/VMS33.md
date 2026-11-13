@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # VMS33 — Video And Audio Monitoring System
 
+**▶ [Open the VMS simulation](../siumulation.html?plugin=vms)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

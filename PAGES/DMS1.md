@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # DMS1 — Select Series Digital Monitoring System
 
+**▶ [Open the DMS simulation](../siumulation.html?plugin=dms) · [Open the DMS1 simulation](../siumulation.html?plugin=dms1)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

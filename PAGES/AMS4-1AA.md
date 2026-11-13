@@ -10,11 +10,13 @@ tags: ["product", "metering", "2010s"]
 
 # AMS4-1AA — Audio Monitor System
 
+**▶ [Open the AMS4 simulation](../siumulation.html?plugin=ams4)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS4-1AA) · [KiCad symbol generator](../kicad.html?m=AMS4-1AA) · [download package (zip)](../_packages/AMS4-1AA.zip) |
+| Try it | [full simulation: AMS4](../siumulation.html?plugin=ams4) · [simulator & front panel](../simulator.html?m=AMS4-1AA) · [KiCad symbol generator](../kicad.html?m=AMS4-1AA) · [download package (zip)](../_packages/AMS4-1AA.zip) |
 | Earliest dated evidence | [2016\|49](Year-2016.md) — month & year |
 | Evidence | "Feb.02 2016" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS4-1AA _ AMS4-1AAM MANUAL(1).docx |
 | Confidence | medium |

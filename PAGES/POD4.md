@@ -10,6 +10,8 @@ tags: ["product", "pods", "1990s"]
 
 # POD4 — Dual Microphone Preamplifier
 
+**▶ [Open the POD4 simulation](../siumulation.html?plugin=pod4)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

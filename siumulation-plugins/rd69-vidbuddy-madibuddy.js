@@ -20,7 +20,9 @@
        parts/demux4_parts_plus_madi.xls (MADI_IN_FPGA C20/C22, MADI_OUT_FPGA C17/A17, MADI_OUT_GTP B16/A16)
    - siumulation-plugins/demux4.js (board 4.400 in square, BNC1/2 LMH0394 inputs, BNC3 GS2988 output, two AES BNCs,
        P3 PAN500 power, ATmega128L main loop 25–45 ms per pass)
-   Power figures for the new design, battery capacities and the non-board costs are not in the archive: inferred.
+   Power figures for the new design, the Li-ion capacity and the non-board costs are not in the archive: inferred.
+   The AVB1 NiCd pack (≈0.9 Ah, ≈11 Wh) comes from its rear label (avb1-REARssv3*: “BATTERY PACK +12V NICAD, 450mA MAXC”,
+   BBS2085) × the manual's 2.0 h minimum — corrected 2026|59 from an inferred 21.6 Wh, see avb-vid-buddy.js.
    ===================================================================== */
 (function(){
 'use strict';
@@ -162,7 +164,7 @@ const FMTS = {
 };
 /* inferred power budget of the new handheld (W) */
 const PWR = { board:4.0, madi:0.35, lcd:3.0, meters:0.6, phones:0.5, mcu:0.2 };
-const BATT = { nicd:{ name:'12 V NiCd (as AVB1), 1.8 Ah', wh:21.6, kg:0.55 }, li:{ name:'Li-ion 4S, 2.6 Ah', wh:38.5, kg:0.25 } };
+const BATT = { nicd:{ name:'12 V NiCd (as AVB1), ≈0.9 Ah', wh:10.8, kg:0.55 }, li:{ name:'Li-ion 4S, 2.6 Ah', wh:38.5, kg:0.25 } };
 const COST = { lcd:95, batt:85, case:120, panel:60, conn:45, assy:55 };    // inferred, USD 2013
 
 /* ================= state ================= */
@@ -170,9 +172,11 @@ const D = { fmt:'hd', grp:1, pair:1, lcd:true, batt:'nicd', qty:100, sdiIn:true,
 function reset(){ Object.assign(D,{ fmt:'hd', grp:1, pair:1, lcd:true, batt:'nicd', qty:100, sdiIn:true, ch:1, madiFit:false, level:-20 }); LOG.items=[]; SIM.refresh(); }
 const F = ()=> FMTS[D.fmt];
 function power(){ let p=PWR.board+PWR.mcu+PWR.meters+PWR.phones; if (D.lcd) p+=PWR.lcd; if (D.fmt==='madi') p+=PWR.madi; return p; }
-function hours(){ return BATT[D.batt].wh*0.85/power(); }
-/* implied AVB1 power from its manual table, if its pack were 21.6 Wh (inferred) */
-const avb1W = h => 21.6/h;
+function hoursFor(k){ return BATT[k].wh*0.85/power(); }
+function hours(){ return hoursFor(D.batt); }
+/* implied AVB1 power from its manual table, with the ≈10.8 Wh pack (12 V × 450 mA label × 2.0 h minimum; avb-vid-buddy.js) */
+const AVB1_WH = 12*0.45*2.0;
+const avb1W = h => AVB1_WH/h;
 function cost(){ const board=QUOTE[D.qty]; const rest=Object.values(COST).reduce((a,b)=>a+b,0) + (D.madiFit?18:0); return { board, rest, nre:QUOTE.nre/D.qty, total: board+rest+QUOTE.nre/D.qty }; }
 function lock(){ if (!D.sdiIn) return false; if (D.fmt==='madi') return D.madiFit; return true; }
 
@@ -254,7 +258,7 @@ const LESSONS=[
   { title:'1 · 3G-SDI', body:`<p>Press <b>3G</b> on the unit. The Demux4 GTP receiver handles 3G/HD/SD; the 2002 AVB1's GS9023 handled only 270 Mb/s.</p>`, check:()=>D.fmt==='3g', hint:'Click the 3G key at the bottom of the unit.' },
   { title:'2 · MADI', body:`<p>Press <b>MADI</b>. On Issue 2 as built, the MADI reclocker U20 is fitted DNI, so the display says there is no path.</p>`, check:()=>D.fmt==='madi', hint:'Click MADI.' },
   { title:'3 · Fit U20', body:`<p>Press <b>U20 DNI</b> to fit the M31285. MADI now locks (64 channels). The FPGA still needs MADI logic; none is archived.</p>`, check:()=>D.fmt==='madi'&&D.madiFit, hint:'Press the U20 button.' },
-  { title:'4 · Battery life', body:`<p>With the AVB1's kind of NiCd pack the model gives about 2.2 h, barely the AVB1's 2.0 h. Switch to <b>Li-ion</b>: more energy, less weight.</p>`, check:()=>D.batt==='li', hint:'Press the Li-ion button.' },
+  { title:'4 · Battery life', body:`<p>With the AVB1's own NiCd pack (≈11 Wh: 450 mA × 2.0 h at 12 V) the model gives only about ${hoursFor('nicd').toFixed(1)} h, about half the AVB1's 2.0 h, because the new board and LCD draw ≈${power().toFixed(1)} W against the AVB1's ≈5.4 W. Switch to <b>Li-ion</b>: more energy, less weight.</p>`, check:()=>D.batt==='li', hint:'Press the Li-ion button.' },
   { title:'5 · Save power like the AVB1', body:`<p>Turn the <b>LCD off</b>, the old VIDBuddy's trick for audio-only work (4.0 h instead of 2.0 h).</p>`, check:()=>!D.lcd, hint:'Press LCD.' },
   { title:'6 · The $750 question', body:`<p>Set the build quantity to <b>25</b>. The assembled Demux4 alone is $219.80, plus $26 of NRE per unit. The rest of the box is estimated, so the margin is only as good as those estimates.</p>`, check:()=>D.qty===25, hint:'Press 25.' },
   { title:'Done', body:`<p>RD69 never left the scope note. See Findings, the old unit (${plink('avb-vid-buddy','AVB1 VIDBuddy')}) and the board (${plink('demux4','SA-DEMUX4')}).</p>`, check:()=>true, auto:true },
@@ -293,7 +297,7 @@ function viewSchem(m){ sheetsView(m, SHEETS, 'Demux4 Issue 2 parts lists and the
 function viewSoft(m){
   m.innerHTML = `<div class="grid2">${card('Battery hours: AVB1 table and the new budget', `<div id="bh"></div>`)}${card('Input decision path', `<div id="dp"></div>`)}</div>`;
   const draw=()=>{ const rows=[['AVB1 SDI + embedded audio',AVB1.life.sdi],['AVB1 analog video + AES',AVB1.life.avAes],['AVB1 analog video + analog',AVB1.life.avAn],['AVB1 audio only (LCD off)',AVB1.life.audio],['RD69 model, now',hours()]];
-    m.querySelector('#bh').innerHTML = `<svg viewBox="0 0 520 ${rows.length*36+10}" style="width:100%">${rows.map((r,i)=>`<text x="6" y="${26+i*36}" font-size="12" fill="var(--ink)">${r[0]}</text><rect x="230" y="${10+i*36}" width="${r[1]*50}" height="22" rx="4" fill="${i===4?'var(--accent)':'var(--accent2)'}" opacity=".75"/><text x="${236+r[1]*50}" y="${26+i*36}" font-size="12" fill="var(--ink2)">${r[1].toFixed(1)} h${i<4?' ≈ '+avb1W(r[1]).toFixed(1)+' W '+'*':''}</text>`).join('')}</svg><p class="small muted">* if the AVB1 pack held 21.6 Wh (${inf}).</p>`;
+    m.querySelector('#bh').innerHTML = `<svg viewBox="0 0 520 ${rows.length*36+10}" style="width:100%">${rows.map((r,i)=>`<text x="6" y="${26+i*36}" font-size="12" fill="var(--ink)">${r[0]}</text><rect x="230" y="${10+i*36}" width="${r[1]*50}" height="22" rx="4" fill="${i===4?'var(--accent)':'var(--accent2)'}" opacity=".75"/><text x="${236+r[1]*50}" y="${26+i*36}" font-size="12" fill="var(--ink2)">${r[1].toFixed(1)} h${i<4?' ≈ '+avb1W(r[1]).toFixed(1)+' W '+'*':''}</text>`).join('')}</svg><p class="small muted">* implied draw from the ≈10.8 Wh AVB1 pack (12 V NiCd, 450 mA label × 2.0 h manual minimum; see avb-vid-buddy.js).</p>`;
     const st=D.fmt==='madi'?['BNC1 → LMH0394','MADI_IN_FPGA (C20/C22)',D.madiFit?'M31285 lock → FPGA MADI deframer (not written)':'U20 DNI → no MADI','meters / phones']:['BNC1 → LMH0394','GTP RX (XAPP1076)','processLockStatus debounce (demux4.c)','HANC group '+D.grp+' → aes_tx','meters / phones'];
     m.querySelector('#dp').innerHTML = `<svg viewBox="0 0 520 ${st.length*40+10}" style="width:100%">${st.map((s,i)=>`<rect x="6" y="${6+i*40}" width="508" height="30" rx="6" fill="${/DNI|not written/.test(s)?'color-mix(in srgb,var(--bad) 25%,var(--panel2))':'var(--panel2)'}" stroke="var(--line)"/><text x="16" y="${26+i*40}" font-size="12" fill="var(--ink)">${s}</text>`).join('')}</svg>`;
   };
@@ -304,10 +308,11 @@ function viewFindings(m){
     <li><b>Four lines and a blank.</b> RD69-Scope.txt (16 Apr 2013|46) stops at “5.”; the register keeps RD69 at “?”. No handheld built on the Demux4 exists in the archive.</li>
     <li><b>It was timed to the Demux4 respin.</b> The Demux4 BNC-version history adds “madi parts … on sheet 9” in backup9 and closes Issue 2 on 2013-07-15, three months after this scope. Issue 2 carries U20, an M31285 “3G/HD/SD/MADI Reclocker with Integrated Cable Driver”, fitted DNI, so the MADI half was drawn but never built.</li>
     <li><b>The board fits the budget on paper.</b> The Jan 2013 Sencore quote puts an assembled DEMUX-4 at $203.70–219.80, under a third of the $750 target; the rest of the handheld (screen, battery, case) is not costed anywhere (${inf}).</li>
-    <li><b>Battery is the hard target.</b> The AVB1 promised only 2.0 h with SDI and embedded audio from a 12 V NiCd pack; a Spartan-6 board with GTP receivers plus an LCD needs a larger or lithium pack to match (${inf}).</li>
+    <li><b>Battery is the hard target.</b> The AVB1 promised only 2.0 h with SDI and embedded audio from a 12 V NiCd pack of about 11 Wh (≈5.4 W draw). A Spartan-6 board with GTP receivers plus an LCD (≈${power().toFixed(1)} W ${inf}) would run only ≈${hoursFor('nicd').toFixed(1)} h on that pack; it needs a larger or lithium pack to match.</li>
+    <li><b>Corrected 2026|59:</b> the AVB1 VIDBuddy battery is about 11 Wh (12 V NiCd, 450 mA from the rear label avb1-REARssv3 “+12V NICAD, 450mA MAXC” × the manual's 2.0 h), not the 21.6 Wh this plugin assumed. The battery-life comparison is recomputed: the NiCd option now gives ≈${hoursFor('nicd').toFixed(1)} h (was ≈2.2 h), and the implied AVB1 draw is ≈5.4 W in SDI mode (was ≈10.8 W). (see avb-vid-buddy.js)</li>
     <li><b>“3-pin power connector”</b> replaces the AVB1's internal AC mains supply (90–230 V) with an external supply.</li>
     <li><b>Naming.</b> “Vid Buddy” revives the AVB1 “VIDBuddy” name; the AVB1 is filed as “XXX- AVB VID BUDDY” (two spaces) in xxx-OBSOLETE, unrelated to RD63's AVB (Audio Video Bridging).</li>
-  </ol>`) + card('Assumptions', `<ul class="small"><li>New-design power figures, battery capacities and non-board costs are model values (${inf}).</li><li>MADI on BNC1 follows the R&amp;D parts sheet (MADI_IN_FPGA on the SDI I/O sheet); the exact routing is inferred.</li><li>Display, meter and button layout is drawn after the AVB1 size; it is not a design.</li></ul>`) +
+  </ol>`) + card('Assumptions', `<ul class="small"><li>New-design power figures, the Li-ion pack, the 85 % usable fraction and non-board costs are model values (${inf}). The NiCd pack size comes from the AVB1 label and manual.</li><li>MADI on BNC1 follows the R&amp;D parts sheet (MADI_IN_FPGA on the SDI I/O sheet); the exact routing is inferred.</li><li>Display, meter and button layout is drawn after the AVB1 size; it is not a design.</li></ul>`) +
   card('Sources', `<ul class="small mono"><li>XXX - ENGINEERING - 2016 RD FILES/RD69-VidBuddy_MADIBuddy/RD69-Scope.txt · R&amp;D_List.xls</li><li>xxx-OBSOLETE - To Delete/XXX- AVB  VID BUDDY - #OBSOLETE #Archive/AVBManual.doc, README.md</li><li>SA-DEMUX4 - #Master/DEMUX-4 - #ISS1 - Prototype QUOTE/DEMUX-4 - wardbeck.demux4 quote 011013.xlsx; …/PCB/Demux4-BNC version/history.xls, backup10/DEMUX-4-ISS2-ALL-PARTS.xls; parts/demux4_parts_plus_madi.xls</li><li>siumulation-plugins/demux4.js</li></ul>`);
 }
 

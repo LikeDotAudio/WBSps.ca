@@ -10,11 +10,13 @@ tags: ["product", "metering", "2010s"]
 
 # AMS8-1BA — Mkiii 8 Channel Audio Monitoring System
 
+**▶ [Open the AMS81 simulation](../siumulation.html?plugin=ams81)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-1BA) · [KiCad symbol generator](../kicad.html?m=AMS8-1BA) · [download package (zip)](../_packages/AMS8-1BA.zip) |
+| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [simulator & front panel](../simulator.html?m=AMS8-1BA) · [KiCad symbol generator](../kicad.html?m=AMS8-1BA) · [download package (zip)](../_packages/AMS8-1BA.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Mar.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-1BA, AMS8-1BAM _ AMS8-1BAEM Manual(1).docx |
 | Confidence | medium |

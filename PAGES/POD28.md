@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD28 — HD-SDI Distribution Amplifier
 
+**▶ [Open the POD28 simulation](../siumulation.html?plugin=pod28)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

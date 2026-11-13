@@ -11,7 +11,8 @@
    - Atmel Main Board/uart0.c/.h   UART0_translate (front-panel frames), UART0_transmit_counter
    - Atmel Main Board/gs2970a.c/.h gs2970AReadVidInfo (GS2970A 3G/HD/SD receiver), altspi.h, common.c
    - Atmel Main Board/dolby.c      DOLBY_DECODER_STATUS, DOLBY_CAT552_AUDIO_ERROR_CHECK
-   - Atmel Front Panel/v200w.c     main loop, TRANSLATE_ENCODER1, LEFT_ENCODER_UPDATE, TRANSLATE_PUSHBUTTONS,
+   - Atmel Front Panel/v200w.c     (the shipped copy is RD23's, VersionDis "06AV0000"; the master copy is one save behind)
+                                   main loop, TRANSLATE_ENCODER1, LEFT_ENCODER_UPDATE, TRANSLATE_PUSHBUTTONS,
                                    PROCESS_MODE, PROCESS_AUDIO_SOURCE, UPDATE_DISPLAY, ACTIVITY_MONITOR,
                                    UART1_transmit_counter, DATA_initialization, PROCESS_*_INFORMATION
    - Sharc/backgnd.c, sample.c, timer.h, vumeter.asm, rlm24_vu_data.c, volume_data.c, RampAudio.c
@@ -96,6 +97,10 @@ const DECODED = [ // what the CAT552 decoder card puts on meters 1–8 in Dolby 
 
 /* ---------------- device state ---------------- */
 const D = {};
+// Front-panel v200w.c copy: 'rd23' = the shipped build (RD23 copy, VersionDis "06AV0000", as on the 30 Oct 2012 test report);
+// 'master' = the AMS16 master's copy, one save behind (= RD23's v200w._c backup, VersionDis " 5.0.0.0"). Only VersionDis/InputDis differ.
+let FPCOPY = 'rd23';
+const VERSION_TXT = ()=> FPCOPY==='rd23' ? '06AV0000' : ' 5.0.0.0';
 function defaults(){
   Object.assign(D, {
     power:true, bootAt:-10,
@@ -168,7 +173,7 @@ function setupText(){
   const s=D.setup;
   switch(s){
     case 230: return '  Exit  ';
-    case 231: return ' 5.0.0.0';
+    case 231: return VERSION_TXT();
     case 232: { const d=D.volume_setup_level-61; return pad8('Vol  '+(D.volume_setup_level===0?'OFF':(d<0?'-':'+')+String(Math.abs(d)).padStart(2,'0'))); }
     case 233: return D.output==='FIXED'?'O/P  Fix':'O/P  Var';
     case 234: return D.speaker?'Spkr  On':'Spkr Off';
@@ -509,7 +514,7 @@ const A = {
       if (setupCombo){
         t('(pushbuttons2 & SETUP_SEQUENCE 0x03) == 0x03 → both INPUT buttons are held');
         D.screen='SETUP_SCREEN'; D.screen_display='SETUP_SCREEN'; D.setup=231;
-        t('screen = SETUP_SCREEN; system_setup = SETUP_SCREEN; setup = VERSION_SCREEN; PROCESS_SETUP_SOURCES(); SIEMENS8_lcd_display(VersionDis) → “ 5.0.0.0”');
+        t('screen = SETUP_SCREEN; system_setup = SETUP_SCREEN; setup = VERSION_SCREEN; PROCESS_SETUP_SOURCES(); SIEMENS8_lcd_display(VersionDis) → “'+VERSION_TXT()+'”');
         t('communication_mode = SETUP_SCREEN → UART1 sends SETUP_COM frames (# L dim M mode O output I ref S speaker N monitor Y cal Q dialnorm $)');
         return;
       }
@@ -889,7 +894,7 @@ const LESSONS = [
   { title:'7 · Summing mode', body:`<p>Go back to <b>INPUT 1</b>. Press <b>MULTI</b> until the display reads <span class="mono">Summing</span> (Demux → Dolby → Multi → Summing → Demux). In Summing mode each monitor button <b>toggles</b>, and every lit pair is added together on the speakers. Dolby pairs are ignored.</p><p><b>Goal:</b> Summing with pairs 1 and 5 lit (and nothing else).</p>`, check:()=>D.input_number===1&&D.summing_mode&&D.monitor===0x11, hint:'INPUT 1, then MULTI three times. Then toggle the pair buttons until only 1 and 5 are lit.' },
   { title:'8 · Multi: Lt/Rt downmix', body:`<p>Press <b>MULTI</b> to go back to Demux. Then press it again twice, to <span class="mono">Multi</span>. The first three pairs (5.1: L R, C LFE, Ls Rs) are folded down to stereo:</p><p class="mono small">Lt = L + 0.707 C − 0.707 Ls − 0.707 Rs<br>Rt = R + 0.707 C + 0.707 Ls + 0.707 Rs</p><p>Pairs 1–3 light. Press one of them twice to hear just that pair, and press it again to go back to the downmix.</p><p><b>Goal:</b> Multi mode with the whole group (pairs 1–3) lit.</p>`, check:()=>D.multi_mode&&D.monitor===groupMask(), hint:'MULTI → Demux, then MULTI twice.' },
   { title:'9 · Decode Dolby E', body:`<p>Per the manual, first choose the Dolby pair in <b>Demux</b>: press MULTI until the display shows <span class="mono">HD-SDI</span>, then press <b>button 4</b> (the DD pair). Now press <b>MULTI</b> once. The display reads <span class="mono">Dolby-4</span>. The CAT552 decoder card decodes that pair to meters 1–8, and meters 15/16 show the Lt/Rt downmix.</p><p><b>Goal:</b> <span class="mono">Dolby-4</span>.</p>`, check:()=>D.dolby_mode&&D.cat_select===4, hint:'MULTI until HD-SDI, press 4, then MULTI.' },
-  { title:'10 · Open the configuration menu', body:`<p><b>Hold INPUT 1 and INPUT 2 and press the VOLUME knob.</b> The display shows the firmware version (<span class="mono">5.0.0.0</span>). In the menu, <b>pressing</b> the knob moves to the next item, and <b>turning</b> it changes the value: Version → Vol → O/P → Spkr → Cal → Mon → An1–An4 → Mlti → Sum → Dlby → Dn → A8 → AES → Exit.</p><p><b>Goal:</b> be in the menu.</p>`, check:()=>D.screen==='SETUP_SCREEN', hint:'Click “Setup combo” (or U).' },
+  { title:'10 · Open the configuration menu', body:`<p><b>Hold INPUT 1 and INPUT 2 and press the VOLUME knob.</b> The display shows the firmware version (<span class="mono">06AV0000</span> in the shipped build; <span class="mono">5.0.0.0</span> if you pick the master's copy of the front-panel source on the Software tab). In the menu, <b>pressing</b> the knob moves to the next item, and <b>turning</b> it changes the value: Version → Vol → O/P → Spkr → Cal → Mon → An1–An4 → Mlti → Sum → Dlby → Dn → A8 → AES → Exit.</p><p><b>Goal:</b> be in the menu.</p>`, check:()=>D.screen==='SETUP_SCREEN', hint:'Click “Setup combo” (or U).' },
   { title:'11 · Change the meter reference', body:`<p>Press the knob until the display reads <span class="mono">Cal  -20</span>, then turn it one click clockwise to <span class="mono">-18</span>. Now the 0 mark means −18 dBFS. The front panel sends <span class="mono">calibration = 4</span>, and the SHARC adds 4 half-dB steps to every meter result.</p><p><b>Goal:</b> Cal = −18.</p>`, check:()=>D.cal_level===43, hint:'Press VOLUME (S) four times to reach Cal, then turn clockwise (D).' },
   { title:'12 · Leave the menu', body:`<p>Keep pressing the knob until the display reads <span class="mono">Exit</span>, then <b>turn</b> the knob. The settings are saved to EEPROM later. The manual says after one minute of inactivity; the code saves 15 s after the first change.</p><p><b>Goal:</b> back to normal operation, with Cal still at −18.</p>`, check:()=>D.screen!=='SETUP_SCREEN'&&D.cal_level===43, hint:'Press until Exit, then turn.' },
   { title:'Done', body:`<p>You've used every control on the AMS16. The other tabs show the same actions from the inside. <b>Software</b> traces each button through the front-panel ATmega128, the RS-485 UART, the main-board ATmega128, the FPGA register block and the SHARC. <b>One second</b> breaks the timing down to the single sample and LED multiplex row. <b>Findings</b> lists what the code does that the manual doesn't say.</p>`, check:()=>true, auto:true },
@@ -1004,7 +1009,7 @@ const BLOCKS = {
   dsp:{x:470,y:20,w:200,h:150,t:'ADSP-21262 SHARC',s:['SampleIRQ 48 kHz: VU, PPM','phase, sums, Lt/Rt','Dolby mute, volume ramp','LED refresh every 1 ms','RLM24 code base'],d:'sample.c / backgnd.c (VisualDSP++). Reads 20 TDM inputs (16 audio + spare), computes VU (τ 65 ms) and PPM (0.9 ms / 0.65 s) for 16 channels and correlation per pair, sums the selected pairs to the speakers, applies the ramped volume, and shifts the LED meter data out itself (shifter.asm, FLG10 latch). Boots from AT25F512 (U20). version.h still says 0.1.'},
   leds:{x:470,y:200,w:200,h:90,t:'LED meter boards',s:['16 × 42 driven segments','DD / ERR, pair lamps','correlation 15 LEDs'],d:'Driven serially by the SHARC: per 1 ms row, 2 bars × (16 + 26) bits + 6 lamp bits + 16 phase bits. The panel BOM (AMS16A-5-6-PANEL) lists 168 green, 136 yellow and 80 red LEDs per panel set, plus a PDSP1884 display and an ATmega128 at 4.9152 MHz.'},
   mb:{x:210,y:310,w:210,h:110,t:'Main ATmega128L',s:['4.9152 MHz · ALTERA_SORT','GS2970A / GS2962 control','Dolby CAT552 status','UART0 ↔ front panel'],d:'ams16.c (v600/V070000, "Copy from Tim\'s Code", "Adam Add"). One while(1) loop: parse the front-panel frame, read the SDI receiver, pack and exchange the 40-byte register block, check alignment and TDM sync, reset the SHARC if audio sync is lost, and handle input changes. Watchdog ≈ 0.9 s.'},
-  fp:{x:470,y:320,w:200,h:100,t:'Front-panel ATmega128',s:['4.9152 MHz · buttons, knob','PDSP1884 8-char display','UART1 ↔ main, EEPROM'],d:'v200w.c (15 472 lines, project v100w.prj, V040002 / revision 5.0.0.0). It owns the user interface and all the operating modes. The main board just applies what the panel sends it every ≈190 ms.'},
+  fp:{x:470,y:320,w:200,h:100,t:'Front-panel ATmega128',s:['4.9152 MHz · buttons, knob','PDSP1884 8-char display','UART1 ↔ main, EEPROM'],d:'v200w.c (15 472 lines, project v100w.prj, V040002; version screen 06AV0000 in the shipped RD23 copy, 5.0.0.0 in the master copy). It owns the user interface and all the operating modes. The main board just applies what the panel sends it every ≈190 ms.'},
   rs:{x:430,y:440,w:90,h:40,t:'RS-485',s:['ADM3485 ×2'],d:'The two MCUs talk at 9600 Bd 8N1 through ADM3485 transceivers (BOM U8/U10; TXEN = PF3, /RXEN = PF2 in port_init).'},
   dolby:{x:720,y:20,w:150,h:80,t:'Dolby CAT552 card',s:['Dolby E / AC-3 decode','metadata → DB9'],d:'Optional decoder card (AMS16-2AEM). The FPGA sends it the selected pair (ALTERA_BUFFER_out[13] cat_select | BIT7). The main board polls CATinstalled / CATerror on PORTG (dolby.c) and resets it with CATrst.'},
   outs:{x:720,y:120,w:150,h:110,t:'Outputs',s:['AES 1–8 (75 Ω BNC)','MONITOR 1/2','AUX1 DB25: 8 analog','headset, 2 speakers'],d:'AES outputs follow the meters (manual table 2.4-1) and switch between raw and processed with AES Dmx/Proc (aes_bypass). The analog outputs are routed with An1–An4 (ALTERA_BUFFER_out[18]/[19]). The speakers are muted by PB4 (MUTE_SPEAKERS) when Spkr = Off, on no lock or with a headset.'},
@@ -1088,7 +1093,7 @@ function flowSVG(steps, frac, k, title, sub){
 }
 function viewSoft(m){
   window[KEYFLAG]=true;
-  m.innerHTML=`${card('Front panel (drive it here; the diagrams follow)', `<div id="fp"></div>${controlsHTML()}`)}
+  m.innerHTML=`${card('Front panel (drive it here; the diagrams follow)', `<div id="fp"></div>${controlsHTML()}<p class="small">Front-panel source <select id="fpcopy"><option value="rd23" ${FPCOPY==='rd23'?'selected':''}>RD23 v200w.c — shipped build, “06AV0000”</option><option value="master" ${FPCOPY==='master'?'selected':''}>AMS16 master v200w.c — one save behind, “ 5.0.0.0”</option></select> (only the version screen differs)</p>`)}
   <div class="grid2">${card('Front-panel ATmega128 main loop — v200w.c main()', `<div id="ff"></div>`)}${card('Main-board ATmega128 main loop — ams16.c main()', `<div id="mf"></div>`)}</div>
   <div class="grid2">${card('MULTI button state machine (TRANSLATE_PUSHBUTTONS //MULTI)', `<div id="fsm"></div>`)}${card('Configuration menu (setup 230 … 246)', `<div id="menu"></div>`)}</div>
   <div class="grid2">${card('How the buttons did things — control → code → wire', `<div id="btn"></div>`)}${card('UART frames, live (front → main GENERAL_COM)', `<div id="uart"></div>`)}</div>
@@ -1143,6 +1148,7 @@ function viewSoft(m){
       <p class="small muted">Lt/Rt now ≈ ${(10*Math.log10(lr.L+1e-12)).toFixed(1)} / ${(10*Math.log10(lr.R+1e-12)).toFixed(1)} dBFS rms. Every ${SIM.fmtDur(1/48000)}: SampleIRQ. In the background loop: refresh_data() ramps the gains (RampAudioCalc), and refresh() drives one LED row per 1 ms.</p>`;
   };
   bindControls(m); SIM.on('time', draw);
+  const fc=m.querySelector('#fpcopy'); if (fc) fc.onchange=e=>{ FPCOPY=e.target.value; SIM.refresh(); };
 }
 
 /* ---------------- findings ---------------- */
@@ -1150,6 +1156,7 @@ function viewFindings(m){
   window[KEYFLAG]=false;
   const f=(h,b)=>`<li><b>${h}</b> ${b}</li>`;
   m.innerHTML=card('What the AMS16 firmware is up to — findings from the source', `<ol>
+   ${f('Corrected 2026|59: the model now runs the shipped front panel.', 'The front-panel <span class="mono">v200w.c</span> in the master folder\'s v700 release is one save behind the shipped build: RD23\'s copy builds <span class="mono">VersionDis = "06AV0000"</span>, the firmware named on the 30 Oct 2012 test report (<span class="mono">AMS16-2AEM-06AV0000-30OCT12.pdf</span>), while the master copy has <span class="mono">" 5.0.0.0"</span> (REVISION1–4) and is byte-identical to RD23\'s <span class="mono">v200w._c</span> backup. The two differ only in <span class="mono">VersionDis[]</span> and <span class="mono">InputDis[]</span>. The version screen now shows 06AV0000 by default; the Software tab can switch back to the master copy (see rd23-ams16-3g.js).')}
    ${f('The front panel runs the show; the main board just copies.', 'All the operating logic is in <span class="mono">v200w.c</span> (15 472 lines, front-panel ATmega128): modes, monitor selection, solo, the menu. It sends its whole state as a 36-byte <span class="mono">GENERAL_COM</span> frame, one byte every 11 loop passes, so a change needs ≈ 0.19–0.38 s to reach the main board (<span class="mono">UART1_transmit_counter</span>, <span class="mono">Transmit_Counter 10</span>). The main board (<span class="mono">ams16.c</span>) re-packs it into the FPGA block in <span class="mono">ALTERA_SORT</span>. The “Last action” lane on the Simulator tab shows the delay.')}
    ${f('An assignment where a comparison was meant.', '<span class="mono">uart0.c UART0_translate</span>: <span class="mono">if ((rx_buffer[0] == chF) &amp;&amp; (index2 = 4))</span>. The F-frame parser sets <span class="mono">index2</span> to 4 instead of testing it, so the external-volume field is always taken.')}
    ${f('Volume frames are parsed by accident.', 'The main board looks for the input number after an <span class="mono">E</span> at <span class="mono">rx_buffer[9]</span>, but the panel sends the input number itself there (<span class="mono">VOLUME_COM</span> byte 10). <span class="mono">index2</span> never reaches 10, so the frame\'s own clean-up branch never runs. The frame is only cleared by the general “not a valid response” else-branch. Volume still works; the input number in volume frames is ignored.')}

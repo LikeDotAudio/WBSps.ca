@@ -10,6 +10,8 @@ tags: ["product", "pods", "1990s"]
 
 # POD7 — Universal Interface
 
+**▶ [Open the POD7 simulation](../siumulation.html?plugin=pod7)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

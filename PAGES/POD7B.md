@@ -10,11 +10,13 @@ tags: ["product", "pods", "1990s"]
 
 # POD7B — Universal Interface
 
+**▶ [Open the POD7 simulation](../siumulation.html?plugin=pod7)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD7B) · [KiCad symbol generator](../kicad.html?m=POD7B) · [download package (zip)](../_packages/POD7B.zip) |
+| Try it | [full simulation: POD7](../siumulation.html?plugin=pod7) · [simulator & front panel](../simulator.html?m=POD7B) · [KiCad symbol generator](../kicad.html?m=POD7B) · [download package (zip)](../_packages/POD7B.zip) |
 | Earliest dated evidence | [1997\|30](Year-1997.md) — original file date |
 | Evidence | saved 1997-08-28: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/POD7B.WPD |
 | Confidence | medium |

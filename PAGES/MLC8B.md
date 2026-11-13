@@ -10,11 +10,13 @@ tags: ["product", "metering", "2010s"]
 
 # MLC8B — Multi-Channel Level Control
 
+**▶ [Open the MLC8 / MLC6 level control simulation](../siumulation.html?plugin=mlc8) · [Open the RD66-MLC8UsingAMS8E-1-iss5 simulation](../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=MLC8B) · [KiCad symbol generator](../kicad.html?m=MLC8B) · [download package (zip)](../_packages/MLC8B.zip) |
+| Try it | [full simulation: MLC8 / MLC6 level control](../siumulation.html?plugin=mlc8) · [full simulation: RD66-MLC8UsingAMS8E-1-iss5](../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5) · [simulator & front panel](../simulator.html?m=MLC8B) · [KiCad symbol generator](../kicad.html?m=MLC8B) · [download package (zip)](../_packages/MLC8B.zip) |
 | Earliest dated evidence | [2019\|52](Year-2019.md) — month & year |
 | Evidence | "Apr .25 2019" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/MLC8B MANUAL.docx |
 | Confidence | medium |

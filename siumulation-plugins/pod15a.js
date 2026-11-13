@@ -1,14 +1,16 @@
 /* =====================================================================
    POD15A — Analog video distribution amplifier with cable equaliser and clamp (Ward-Beck Systems)
-   Plugin for the WBS Device Simulator (../siumulation.html). Hardware model: no electronics files are archived.
+   Plugin for the WBS Device Simulator (../siumulation.html). Hardware model of the POD15A issue 3 board.
 
    Sources used:
    - #POD #SERIES/POD  - #Engineering/pod15.pdf          (POD15 manual: 1×6 + front split, Hi-Z loop, specs)
    - #POD #SERIES/POD15A - #Master/POD15A - #ARTWORK #DA #2016/POD15A-FRONT&REAR-SILK (CURVE).pdf (panels, Jun 24 2014)
    - .../Pics/POD15A Front .jpg, POD15A Rear.jpg        (LED colours, connector positions)
    - .../POD15A - #Mechanical #DA #2016/POD15A-FRONT ISS 1 (PANEL).pdf, POD15A-REAR ISS 2 (PANEL) .pdf
+   - XXX - POD15 - #Master #Obsolete/POD15 - #Engineering/PCB/pod15aiss3.net, POD15aiss3.bom (POD15A issue 3 netlist + BOM, 2009)
+   - .../PCB/OBSOLETE/pod15aiss1.net                    (issue 1, 2004: TERM_SW, GS4982, linear supply)
    - Video timing: SMPTE 170M (NTSC) and ITU-R BT.470 (PAL) standard values (not archive files; general knowledge)
-   Everything about the circuit is inferred from the panel legends and the POD15 specs, and is marked so on screen.
+   Corrected 2026|59: the circuit now comes from the issue 3 netlist (see pod15.js); only the cable model, level range and clamp-out bounce are inferred.
    ===================================================================== */
 (function(){
 "use strict";
@@ -267,7 +269,7 @@ const STD = {
   NTSC:{ name:'NTSC 525/59.94', line:1/15734.264, field:1001/60000, lines:525, fsc:3579545.45, sync:-0.286, white:0.714, burst:0.143, hs:4.7e-6, bp:4.7e-6, act0:10.9e-6 },
   PAL: { name:'PAL 625/50',     line:64e-6,        field:1/50,       lines:625, fsc:4433618.75, sync:-0.300, white:0.700, burst:0.150, hs:4.7e-6, bp:5.7e-6, act0:12.0e-6 },
 };
-const D = { power:true, powerAt:-1, std:'NTSC', pattern:'bars', cable:150, term:'75', eqTrim:0.2, eq300:false, clamp:true, level:0.5, outTerm:[1,1,1,1,1,1,1], log:[], patAt:-1 };
+const D = { power:true, powerAt:-1, std:'NTSC', pattern:'bars', cable:150, plugged:true, unplugAt:-1, term:'75', eqTrim:0.2, eq300:false, clamp:true, level:0.5, outs:['term','term','term','term','term','term','term'], log:[], patAt:-1 };
 const FACT=JSON.parse(JSON.stringify(D));
 const S=()=>STD[D.std];
 /* ---------------- the composite signal ---------------- */
@@ -283,116 +285,148 @@ function patternAt(tl, tAbs){ // tl = time within the line
   if (D.pattern==='black') return {y:0,c:0,ph:0}; if (D.pattern==='white') return {y:1,c:0,ph:0};
   return {y:(Math.floor((tAbs||0)*2)%2?1:0), c:0, ph:0};   // “bounce”: field alternates black/white every 0.5 s
 }
-/* ---------------- the circuit (inferred) ---------------- */
+/* ---------------- the circuit: POD15A issue 3 (XXX - POD15 - #Master #Obsolete/POD15 - #Engineering/PCB/pod15aiss3.net + POD15aiss3.bom) ----------------
+   INPUT: differential receiver U1 (IN+ = BNC centre via R4, IN− = BNC shell via R5; C1 DNI / C2 0.1 µF return the shell to ground)
+   VIDEO_IN → R12 47R5 → LVL 2K → R14 0R → CLAMP switch pin 2 (direct) / GB4571 U3 → R26 → pin 6 (clamped) → pin 4 → U4-3
+   EQ: U4A (EQ 2K pot, CV1, C11 220p) = 0–300 m; EQ_FIXED switch adds U4B (RV1, CV2) = fixed 300 m
+   Drivers: U6A → OUT1+OUT2, U5B → OUT3+OUT4, U5A → OUT5+OUT6, U6B → MONITOR, gain 2 (1K/1K) into 75R back-terminations
+   Sync: LMH1981 U2 HSOUT → HSYNCH → CD4538 U7 (R52 100K, C35 0.1 µF, T = 10 ms): Q → Q2 → SYNCH, Q̄ → Q1 → ERROR
+   U1, U4, U5, U6 are valued ISL5002IBZ on the EL2244-SO8 dual-op-amp footprint. */
+const DRV = [['U6A',[0,1]],['U5B',[2,3]],['U5A',[4,5]],['U6B',[6]]];
+const OUTN = ['OUT1','OUT2','OUT3','OUT4','OUT5','OUT6','MONITOR'];
+const OUTR = ['R47','R46','R40','R39','R38','R37','R48'];
+const T1 = 100e3*0.1e-6;                                            // CD4538: T = R52·C35 = 10 ms
 // RG-59-class coax loss: about 3.1 dB per 100 m at 5 MHz, scaling with √f (inferred)
 const lossDb = (f,len)=> 3.1*Math.sqrt(Math.max(f,1)/5e6)*len/100;
 function eqLen(){ return D.eqTrim*300 + (D.eq300?300:0); }
-function termGain(){ return D.term==='open'?2 : D.term==='75'?1 : 2/3; }   // back-terminated source into Hi-Z loop: open = 2×, 75 Ω = 1×, double-terminated = 0.67×
+function termGain(){ if(!D.plugged) return 0; return D.term==='open'?2 : D.term==='75'?1 : 2/3; }   // back-terminated source into the Hi-Z loop
 function residualDb(f){ return lossDb(f,D.cable) - lossDb(f,eqLen()); }   // + = under-equalised, − = over-equalised (peaking)
-function levelGain(){ return Math.pow(10,((D.level-0.5)*2*3)/20); }        // LEVEL trim ±3 dB (inferred)
+function levelGain(){ return Math.pow(10,((D.level-0.5)*2*3)/20); }        // LVL 2K multiturn, range ±3 dB (inferred)
 function syncAmp(){ return Math.abs(S().sync)*termGain()*Math.pow(10,-lossDb(0.5e6,D.cable)/20); }
-function synchOK(){ return D.power && D.cable<=900 && syncAmp()>0.1 && D.term!=='none'; }
-function errorOn(){ const rd=residualDb(S().fsc); return D.power && (!synchOK() || Math.abs(rd)>3 || Math.abs(20*Math.log10(termGain()*levelGain()))>3); } // inferred criteria
-// stage waveforms at absolute time t (volts at 75 Ω-terminated point)
+/* CD4538 retriggerable one-shot: re-armed by every HSYNCH falling edge; Q stays high T after the last one */
+function oneshotQ(t){ if(!D.power) return false; if(D.plugged && syncAmp()>0.08) return true;
+  if(D.unplugAt<0) return false; return t>=D.unplugAt && t<D.unplugAt+T1; }
+const synchOK = t => D.power && oneshotQ(t==null?SIM.t:t);
+const errorOn = t => D.power && !oneshotQ(t==null?SIM.t:t);      // ERROR = Q̄: simply “no sync”; EQ and level are not measured
+// stage waveforms at absolute time t (volts at a 75 Ω-terminated point); real order: U1 → LVL → CLAMP → EQ → drivers
 function stage(which, t){
   const s=S(); const tl=((t%s.line)+s.line)%s.line, p=patternAt(tl,t);
-  const fl = Math.floor(t/s.line)%2 ? 1 : -1;                            // subcarrier phase flips per line pair-ish (visual only)
-  const sc = Math.sin(2*Math.PI*s.fsc*t + p.ph*fl);
+  const sc = Math.sin(2*Math.PI*s.fsc*t + p.ph);
   let y=p.y*s.white, c=p.c*s.white;
   if (which==='src') return y + c*sc;
+  if (!D.plugged || !D.power) return 0;
   const g=termGain(); y*=g; c*=g;
   const lc = Math.pow(10,-lossDb(s.fsc,D.cable)/20), ly=Math.pow(10,-lossDb(0.5e6,D.cable)/20);
-  if (which==='in'){ return y*ly + c*lc*sc; }
-  const rc = Math.pow(10,-residualDb(s.fsc)/20), ry=Math.pow(10,-residualDb(0.5e6)/20);
-  let v = y*ry + c*rc*sc;
+  if (which==='in') return y*ly + c*lc*sc;                        // U1 out (VIDEO_IN), gain 1 (inferred)
+  const Yl=y*ly*levelGain(), Cl=c*lc*levelGain();
+  if (which==='lvl') return Yl+Cl*sc;
+  // CLAMP OUT: the direct path is AC coupled → back porch moves with average picture level (bounce), τ ≈ 60 ms (inferred)
+  let off=0; if (!D.clamp){ const a=apl()*s.white*0.6*g, since = D.pattern==='bounce' ? (t%0.5) : 1; off = -(a-0.25*g)*Math.exp(-since/0.06) - (a-0.25*g)*0.15; }
+  if (which==='clamp') return Yl+Cl*sc+off;
+  const v = Yl*Math.pow(10,lossDb(0.5e6,eqLen())/20) + Cl*Math.pow(10,lossDb(s.fsc,eqLen())/20)*sc + off;
   if (which==='eq') return v;
-  // clamp OUT: AC coupling → back porch moves with average picture level (bounce), recovering with τ ≈ 60 ms (inferred)
-  if (!D.clamp){ const a=apl()*s.white*0.6*g; const since = D.pattern==='bounce' ? (t%0.5) : 1; v += -(a - 0.25*g)*Math.exp(-since/0.06) - (a-0.25*g)*0.15; }
-  if (which==='clamp') return v;
-  v *= levelGain(); return D.power? clamp(v,-0.9,1.6) : 0;   // output stage swing limit (inferred)
+  return clamp(v,-0.9,1.6);   // terminated output (driver ×2 into 75R + 75 Ω load); swing limit inferred from the ±5 V rails
 }
+function outLevel(i){ const st=D.outs[i]; return st==='term'?1: st==='open'?2: 0; }
+function outV(i,t){ return stage('out',t)*outLevel(i); }
 function stageStats(){
-  const s=S(), g=termGain();
+  const s=S(), g=termGain(), base=g?20*Math.log10(g)-lossDb(0.5e6,D.cable):-200;
   return [
-    {name:'Source (house black/bars, 75 Ω)', lvl:20*Math.log10(1), gain:null, clip:null, unit:'dB re 1 V p-p', note:'1 V p-p into 75 Ω'},
-    {name:`Cable ${D.cable} m + loop ${D.term==='75'?'terminated':D.term==='open'?'UNTERMINATED':'DOUBLE-terminated'}`, lvl:20*Math.log10(g)-lossDb(0.5e6,D.cable), gain:20*Math.log10(g)-lossDb(0.5e6,D.cable), clip:null, unit:'dB', note:`chroma at ${(s.fsc/1e6).toFixed(2)} MHz: ${fdb(-lossDb(s.fsc,D.cable))} dB (${inf})`},
-    {name:`EQUALIZER ${Math.round(eqLen())} m (trim ${Math.round(D.eqTrim*300)} m${D.eq300?' + 300 m switch':''})`, lvl:20*Math.log10(g)-residualDb(s.fsc), gain:lossDb(s.fsc,eqLen()), clip:null, unit:'dB', note:`residual at ${(s.fsc/1e6).toFixed(2)} MHz ${fdb(-residualDb(s.fsc))} dB ${residualDb(s.fsc)<-0.5?'(over-equalised: peaking)':residualDb(s.fsc)>0.5?'(under-equalised: soft, low chroma)':'(flat)'}`},
-    {name:`CLAMP ${D.clamp?'IN (back-porch DC restore)':'OUT (AC coupled)'}`, lvl:20*Math.log10(g)-residualDb(s.fsc), gain:0, clip:null, unit:'dB', note: D.clamp?'blanking held at 0 V every line':'blanking level moves with picture content (APL bounce)'},
-    {name:'LEVEL trim → 7 back-terminated outputs', lvl:20*Math.log10(g*levelGain())-residualDb(s.fsc), gain:20*Math.log10(levelGain()), clip:4, unit:'dB', note:'manual: 1 V p-p terminated on all 6+1 outputs'},
+    {name:'Source (house black/bars, 75 Ω)', lvl:0, gain:null, clip:null, unit:'dB re 1 V p-p', note:'1 V p-p into 75 Ω'},
+    {name:`Cable ${D.cable} m + loop ${!D.plugged?'(UNPLUGGED)':D.term==='75'?'terminated':D.term==='open'?'UNTERMINATED':'DOUBLE-terminated'}`, lvl:base, gain:g?base:null, clip:null, unit:'dB', note:`chroma at ${(s.fsc/1e6).toFixed(2)} MHz: ${fdb(-lossDb(s.fsc,D.cable))} dB (${inf})`},
+    {name:'U1 differential receiver (IN+ centre / IN− shell)', lvl:base, gain:0, clip:6, unit:'dB', note:'ISL5002 on the EL2244-SO8 footprint; shield hum cancels'},
+    {name:'LEVEL (R12 → LVL 2K → R14)', lvl:g?base+20*Math.log10(levelGain()):-200, gain:20*Math.log10(levelGain()), clip:null, unit:'dB', note:`range ±3 dB (${inf})`},
+    {name:`CLAMP ${D.clamp?'IN → GB4571 U3 (BPOUT clamp pulse)':'OUT → direct (AC coupled)'}`, lvl:g?base+20*Math.log10(levelGain()):-200, gain:0, clip:null, unit:'dB', note: D.clamp?'blanking pulled to a fixed DC level every line':'blanking level moves with picture content (APL bounce)'},
+    {name:`EQUALIZER ${Math.round(eqLen())} m (U4A trim ${Math.round(D.eqTrim*300)} m${D.eq300?' + U4B fixed 300 m':''})`, lvl:g?20*Math.log10(g*levelGain())-residualDb(s.fsc):-200, gain:lossDb(s.fsc,eqLen()), clip:null, unit:'dB', note:`residual at ${(s.fsc/1e6).toFixed(2)} MHz ${fdb(-residualDb(s.fsc))} dB ${residualDb(s.fsc)<-0.5?'(over-equalised: peaking)':residualDb(s.fsc)>0.5?'(under-equalised: soft, low chroma)':'(flat)'}`},
+    {name:'R36/R42 pad → 4 driver halves ×2 → 75R → 7 outputs', lvl:g?20*Math.log10(g*levelGain())-residualDb(s.fsc):-200, gain:0, clip:4, unit:'dB', note:'outputs driven in pairs; 1 V p-p at each terminated output'},
   ];
 }
-/* ---------------- actions ---------------- */
+/* ---------------- actions (each logs the circuit path) ---------------- */
 const act=makeActor(D, ()=>`SYNCH ${synchOK()?'on':'off'} · ERROR ${errorOn()?'on':'off'} · residual ${fdb(-residualDb(S().fsc))} dB`);
 const A={
-  power(){ act(D.power?'Power off':'Power on', tr=>{ D.power=!D.power; if(D.power) D.powerAt=SIM.t; tr(D.power?'Supply up; SYNCH lights once sync is found on the input (≈ a few fields, '+inf+')':'All seven outputs go to 0 V (black, no sync): downstream monitors lose lock'); }); },
-  eqTrim(dir){ act(`Turn EQUALIZER 0–300m ${dir>0?'CW':'CCW'}`, tr=>{ D.eqTrim=clamp(+(D.eqTrim+dir*0.04).toFixed(3),0,1); tr(`EQ now matches ${Math.round(eqLen())} m of cable; the cable is ${D.cable} m → residual ${fdb(-residualDb(S().fsc))} dB at the subcarrier (${inf})`); }); },
-  eq300(){ act(`300m switch → ${D.eq300?'out':'in'}`, tr=>{ D.eq300=!D.eq300; tr(`Adds a fixed 300 m section (silk: “EQUALIZER (600m TOTAL)”) → EQ ${Math.round(eqLen())} m`); }); },
-  clamp(){ act(`CLAMP → ${D.clamp?'OUT':'IN'}`, tr=>{ D.clamp=!D.clamp; tr(D.clamp?'Back-porch clamp: the blanking level is restored to 0 V on every line, so picture content cannot shift the DC':'Clamp out: the signal is AC-coupled; the blanking level moves with the average picture level (try the “bounce” pattern)'); }); },
-  level(dir){ act(`Turn LEVEL ${dir>0?'CW':'CCW'}`, tr=>{ D.level=clamp(+(D.level+dir*0.04).toFixed(3),0,1); tr(`Output gain ${fdb(20*Math.log10(levelGain()),2)} dB (POD15 manual: “level trim”; range ±3 dB ${inf})`); }); },
+  power(){ act(D.power?'Power off (PWRSW)':'Power on (PWRSW)', tr=>{ D.power=!D.power; if(D.power) D.powerAt=SIM.t;
+    tr('ACIN (PAN356) → PWRSW (PAN256) → PSU VAF1005 (+5 V) → FB1 → REG1 SUS1R5-0505 (−5 V)');
+    tr(D.power?'+5 V up → PWRLED via R54 (511R); U7 CD4538 starts with Q low → ERROR lit until the first HSYNCH edge':'All drivers lose their rails: every output goes to 0 V (no sync downstream)'); }); },
+  plug(){ act(D.plugged?'Unplug the input cable':'Plug the input cable back in', tr=>{ D.plugged=!D.plugged; D.unplugAt = D.plugged?-1:SIM.t;
+    tr(D.plugged?'IN+ / IN− carry video again → LMH1981 U2 HSOUT (pin 7, net HSYNCH) toggles every line → U7-5 retriggers the one-shot':`HSYNCH stops. U7 Q (pin 6) stays high for T = R52·C35 = ${SIM.fmtDur(T1)}, then drops: Q2 off (SYNCH dark), Q̄ (pin 7) → R56 → Q1 on → ERROR lit`); }); },
+  eqTrim(dir){ act(`Turn EQUALIZER 0–300m ${dir>0?'CW':'CCW'}`, tr=>{ D.eqTrim=clamp(+(D.eqTrim+dir*0.04).toFixed(3),0,1); tr(`EQ pot (2K multiturn, wiper with CV1, C11 220p, R18, R19) sets U4A's high-frequency gain → ${Math.round(eqLen())} m equalised vs ${D.cable} m cable → residual ${fdb(-residualDb(S().fsc))} dB at the subcarrier (${inf}: cable model)`); }); },
+  eq300(){ act(`300m switch → ${D.eq300?'out':'in'}`, tr=>{ D.eq300=!D.eq300; tr(`EQ_FIXED (PHA-2UEE): pin 1 = U4A out, pin 5 = U4B out, pin 3 → R36 → drivers. ${D.eq300?'U4B (RV1 2K, CV2) adds the fixed 300 m section (silk “600m TOTAL”)':'U4B bypassed'} → EQ ${Math.round(eqLen())} m`); }); },
+  clamp(){ act(`CLAMP → ${D.clamp?'OUT':'IN'}`, tr=>{ D.clamp=!D.clamp; tr(D.clamp?'CLAMP pin 4 ← pin 6: signal via C52/C53 into GB4571 U3-2, clamp pulse BPOUT (LMH1981 pin 13) on U3-4, output U3-7 → R26 → U4-3':'CLAMP pin 4 ← pin 2: the LVL wiper feeds U4 directly (AC path, no DC restore; try the “bounce” pattern)'); }); },
+  level(dir){ act(`Turn LEVEL ${dir>0?'CW':'CCW'}`, tr=>{ D.level=clamp(+(D.level+dir*0.04).toFixed(3),0,1); tr(`VIDEO_IN → R12 (47R5) → LVL (2K) → wiper → R14 (0R) → CLAMP switch. Gain ${fdb(20*Math.log10(levelGain()),2)} dB (range ±3 dB ${inf})`); }); },
   term(){ act('Loop-through termination → '+({'75':'open (unterminated)','open':'double (two 75 Ω)','double':'75 Ω'})[D.term], tr=>{ D.term=({'75':'open','open':'double','double':'75'})[D.term];
-    tr(D.term==='75'?'Correct: the Hi-Z input bridges the line and the far loop BNC carries the 75 Ω terminator → 1 V p-p':D.term==='open'?'No terminator: the back-terminated source sees an open line → 2 V p-p, ringing on long cable':'Terminated twice (e.g. a terminator plus a 75 Ω monitor) → 0.67 V p-p'); }); },
+    tr(D.term==='75'?'Correct: the Hi-Z input bridges the line and the far loop BNC carries the 75 Ω terminator → 1 V p-p':D.term==='open'?'No terminator: the back-terminated source sees an open line → 2 V p-p. Issue 3 has no on-board TERM_SW (issue 1 had one), so the terminator must be external':'Terminated twice (e.g. a terminator plus a 75 Ω monitor) → 0.67 V p-p'); }); },
+  out(i){ act(`${OUTN[i]} → ${({term:'open',open:'short',short:'75 Ω load'})[D.outs[i]]}`, tr=>{ D.outs[i]=({term:'open',open:'short',short:'term'})[D.outs[i]];
+    const d=DRV.find(x=>x[1].includes(i)), mate=d[1].filter(k=>k!==i);
+    tr(`${OUTN[i]} is fed by ${d[0]} through ${OUTR[i]} (75R)${mate.length?' — the same amplifier half also drives '+OUTN[mate[0]]:''}`);
+    tr(D.outs[i]==='open'?'Unloaded: the BNC shows 2 V p-p (no divider)':D.outs[i]==='short'?`Shorted: ${OUTN[i]} reads 0 V; ${d[0]} now sources about 27 mA peak into 75R — ${mate.length?OUTN[mate[0]]+' keeps its level because its own 75R isolates it ('+inf+')':'only the monitor is affected'}`:'1 V p-p into 75 Ω'); }); },
   set(k,v,l){ act(l, tr=>{ D[k]=v; if(k==='pattern') D.patAt=SIM.t; tr(k==='cable'?`Cable loss ${fdb(-lossDb(S().fsc,v))} dB at the subcarrier, ${fdb(-lossDb(0.5e6,v))} dB at 0.5 MHz (${inf})`:'Source changed'); }); },
   reset(){ Object.assign(D, JSON.parse(JSON.stringify(FACT))); SIM.refresh(); },
 };
 /* ---------------- panels (POD15A-FRONT&REAR-SILK (CURVE).pdf) ---------------- */
 function frontSVG(){ const on=D.power;
   let over=rocker(on)+pled(on)+led(739,218,synchOK(),'var(--led-g)')+led(790,218,errorOn(),'#ff4a3a')
-   + trim(939,220,D.eqTrim,'eqt','EQUALIZER 0–300m')
-   + `<g class="eq3" style="cursor:pointer"><title>300m switch (${D.eq300?'IN':'OUT'}) — click</title><circle cx="1040" cy="217" r="28" fill="#0a0b0c" stroke="#3a3d40" stroke-width="3"/><circle cx="1040" cy="${D.eq300?224:212}" r="18" fill="${D.eq300?'#2a2d31':'#16181a'}"/></g>`
+   + trim(939,220,D.eqTrim,'eqt','EQUALIZER 0–300m (EQ, 2K multiturn)')
+   + `<g class="eq3" style="cursor:pointer"><title>300m switch EQ_FIXED (${D.eq300?'IN':'OUT'}) — click</title><circle cx="1040" cy="217" r="28" fill="#0a0b0c" stroke="#3a3d40" stroke-width="3"/><circle cx="1040" cy="${D.eq300?224:212}" r="18" fill="${D.eq300?'#2a2d31':'#16181a'}"/></g>`
    + `<g class="clp" style="cursor:pointer"><title>CLAMP push switch (${D.clamp?'IN':'OUT'}) — click</title><circle cx="1239" cy="217" r="28" fill="#0a0b0c" stroke="#3a3d40" stroke-width="3"/><circle cx="1239" cy="${D.clamp?224:212}" r="18" fill="${D.clamp?'#2a2d31':'#16181a'}"/></g>`
-   + trim(1390,220,D.level,'lvt','LEVEL') + bnc(1552,152,false,'','VIDEO MONITOR (7th output)',44);
+   + trim(1390,220,D.level,'lvt','LEVEL (LVL, 2K multiturn)') + bnc(1552,152,D.outs[6]!=='open','mo6',`VIDEO MONITOR (U6B → R48; ${D.outs[6]}) — click to change the load`,44)
+   + (D.outs[6]==='short'?`<text x="1552" y="159" text-anchor="middle" font-size="22" fill="#ff6b5a" font-weight="700">✕</text>`:'');
   return panelSVG(PREFIX,'front',{over},'POD15A front panel (real silkscreen)'); }
 function rearSVG(){
-  let over=bnc(273,64,true,'','INPUT (looping, Hi-Z) — cable from the source',44)+bnc(273,200,D.term!=='open','tm',`INPUT loop: ${D.term==='75'?'75 Ω terminator':D.term==='open'?'nothing (unterminated!)':'two 75 Ω loads'} — click to change`,44)
-   + [[482,70],[586,200],[693,70],[796,200],[902,70],[1007,200]].map(([x,y],i)=>bnc(x,y,false,'','OUT '+(i+1)+' (75 Ω, back-terminated)',42)).join('') + iec(1372,26,1600,250);
+  let over=bnc(273,64,D.plugged,'plg',`INPUT (IN+ centre, IN− shell) — ${D.plugged?'cable from the source (click to unplug)':'nothing connected (click to plug in)'}`,44)
+   + bnc(273,200,D.term!=='open','tm',`INPUT loop: ${D.term==='75'?'75 Ω terminator':D.term==='open'?'nothing (unterminated!)':'two 75 Ω loads'} — click to change`,44)
+   + [[482,70],[586,200],[693,70],[796,200],[902,70],[1007,200]].map(([x,y],i)=>bnc(x,y,D.outs[i]!=='open','oo" data-o="'+i,`OUT ${i+1} (${DRV.find(d=>d[1].includes(i))[0]} → ${OUTR[i]}): ${D.outs[i]} — click: 75 Ω load → open → short`,42)+(D.outs[i]==='short'?`<text x="${x}" y="${y+7}" text-anchor="middle" font-size="22" fill="#ff6b5a" font-weight="700">✕</text>`:'')).join('') + iec(1372,26,1600,250);
   return panelSVG(PREFIX,'rear',{over},'POD15A rear panel (real silkscreen)'); }
 function bindPanel(root){ const p=root.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); bindTrim(root,'eqt',d=>A.eqTrim(d)); bindTrim(root,'lvt',d=>A.level(d));
-  root.querySelectorAll('.eq3').forEach(g=>g.onclick=()=>A.eq300()); root.querySelectorAll('.clp').forEach(g=>g.onclick=()=>A.clamp()); root.querySelectorAll('.tm').forEach(g=>g.onclick=()=>A.term()); }
+  root.querySelectorAll('.eq3').forEach(g=>g.onclick=()=>A.eq300()); root.querySelectorAll('.clp').forEach(g=>g.onclick=()=>A.clamp()); root.querySelectorAll('.tm').forEach(g=>g.onclick=()=>A.term());
+  root.querySelectorAll('.plg').forEach(g=>g.onclick=()=>A.plug()); root.querySelectorAll('.oo').forEach(g=>g.onclick=()=>A.out(+g.dataset.o)); root.querySelectorAll('.mo6').forEach(g=>g.onclick=()=>A.out(6)); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:8px;align-items:center">
   <label>Standard <select id="sd">${Object.keys(STD).map(k=>`<option ${k===D.std?'selected':''}>${k}</option>`).join('')}</select></label>
   <label>Pattern <select id="pt">${[['bars','75 % colour bars'],['black','black burst'],['white','white field'],['bounce','bounce (black/white every 0.5 s)']].map(([v,l])=>`<option value="${v}" ${v===D.pattern?'selected':''}>${l}</option>`).join('')}</select></label>
-  <label>Input cable <input id="cb" type="number" step="25" value="${D.cable}" style="width:64px"> m</label></div>
-  <div class="small muted">Front: EQUALIZER trim and 300m switch, CLAMP switch, LEVEL trim (click a trim's left or right half, or use the wheel). Rear: click the lower INPUT BNC to change the loop termination. Keys: Q/W EQ, E 300m, C clamp, A/S level.</div>`; }
+  <label>Input cable <input id="cb" type="number" step="25" min="0" value="${D.cable}" style="width:64px"> m</label></div>
+  <div class="small muted">Front: EQUALIZER trim and 300m switch, CLAMP switch, LEVEL trim (click a trim's left or right half, or use the wheel). Rear: upper INPUT BNC unplugs the cable (watch the 10 ms one-shot), lower one changes the loop termination, an OUT BNC loads/opens/shorts it. Keys: Q/W EQ, E 300m, C clamp, A/S level, U unplug.</div>`; }
 function bindControls(root){ const g=s=>root.querySelector(s); if(!g('#sd')) return; g('#sd').onchange=e=>A.set('std',e.target.value,'Standard → '+e.target.value); g('#pt').onchange=e=>A.set('pattern',e.target.value,'Test pattern → '+e.target.selectedOptions[0].text); g('#cb').onchange=e=>A.set('cable',Math.max(0,+e.target.value),'Input cable → '+e.target.value+' m'); }
-bindKeys('__pod15aActive', ()=>({q:()=>A.eqTrim(-1),w:()=>A.eqTrim(1),e:()=>A.eq300(),c:()=>A.clamp(),a:()=>A.level(-1),s:()=>A.level(1)}));
+bindKeys('__pod15aActive', ()=>({q:()=>A.eqTrim(-1),w:()=>A.eqTrim(1),e:()=>A.eq300(),c:()=>A.clamp(),a:()=>A.level(-1),s:()=>A.level(1),u:()=>A.plug()}));
 /* ---------------- timeline ---------------- */
-function vLane(label, which, color){ return { label, h:44, draw(c,X,t0,t1,y,h){ const span=t1-t0, s=S();
-  if (span > 6*s.line){ // too long to draw: show the per-line envelope (sync tip … peak)
-    c.fillStyle=color; c.globalAlpha=.3; const top=stage(which, Math.floor(t0/s.line)*s.line + s.act0+ (s.line-s.act0)*0.1)+0.2, bot=stage(which, Math.floor(t0/s.line)*s.line+1e-6);
-    const Y=v=>y+h-6-(v+0.5)/2.2*(h-10); c.fillRect(X(t0),Y(Math.max(top,0.7)),X(t1)-X(t0),Y(bot)-Y(Math.max(top,0.7))); c.globalAlpha=1;
-    c.fillStyle=SIM.css('--ink2'); c.font='10px '+SIM.css('--mono'); c.fillText(`${Math.round(span/s.line).toLocaleString()} lines — zoom to 64 µs to see one`, X(t0)+6, y+12); return; }
+function vLane(label, fn, color){ return { label, h:44, draw(c,X,t0,t1,y,h){ const span=t1-t0, s=S(), Y=v=>y+h-6-(v+0.5)/2.6*(h-10);
+  if (span > 6*s.line){ // too long to draw: per-line envelope (sync tip … peak)
+    c.fillStyle=color; c.globalAlpha=.3; const N=Math.min(400,X(t1)-X(t0));
+    for(let i=0;i<N;i++){ const tt=t0+span*i/N, L=Math.floor(tt/s.line)*s.line, top=fn(L+s.act0+(s.line-s.act0)*0.1), bot=fn(L+1e-6); if(Math.abs(top)+Math.abs(bot)<1e-4) continue; c.fillRect(X(tt),Y(Math.max(top,bot,0.7)),Math.max(1,(X(t1)-X(t0))/N),Math.abs(Y(bot)-Y(Math.max(top,bot,0.7)))+1); }
+    c.globalAlpha=1; c.fillStyle=SIM.css('--ink2'); c.font='10px '+SIM.css('--mono'); c.fillText(`${Math.round(span/s.line).toLocaleString()} lines — zoom to 64 µs to see one`, X(t0)+6, y+12); return; }
+  c.strokeStyle=SIM.css('--grid'); c.beginPath(); c.moveTo(X(t0),Y(0)); c.lineTo(X(t1),Y(0)); c.stroke();
   const N=Math.min(3000, Math.max(400,(X(t1)-X(t0))*3)); c.strokeStyle=color; c.lineWidth=1; c.beginPath();
-  const Y=v=>y+h-6-(v+0.5)/2.2*(h-10);
-  c.strokeStyle=SIM.css('--grid'); c.beginPath(); c.moveTo(X(t0),Y(0)); c.lineTo(X(t1),Y(0)); c.stroke(); c.strokeStyle=color; c.beginPath();
-  for (let i=0;i<=N;i++){ const tt=t0+span*i/N, v=stage(which,tt); i?c.lineTo(X(tt),Y(v)):c.moveTo(X(tt),Y(v)); } c.stroke(); }}; }
+  for (let i=0;i<=N;i++){ const tt=t0+span*i/N, v=fn(tt); i?c.lineTo(X(tt),Y(v)):c.moveTo(X(tt),Y(v)); } c.stroke(); }}; }
 function lanes(){ const s=S(), a=SIM.css('--accent'), b=SIM.css('--accent2'), wn=SIM.css('--warn');
   return [
     {label:`Fields (${(1/s.field).toFixed(2)} Hz)`, h:20, draw(c,X,t0,t1,y,h){ SIM.pulses(c,X,t0,t1,y,h,s.field,0,3*s.line,b,'fields'); }},
-    {label:'H sync (lines)', h:20, draw(c,X,t0,t1,y,h){ SIM.pulses(c,X,t0,t1,y,h,s.line,0,s.hs,SIM.css('--ink2'),'H sync pulses'); }},
-    {label:'Clamp pulses (back porch)', h:20, draw(c,X,t0,t1,y,h){ if(!D.clamp){ c.fillStyle=SIM.css('--ink2'); c.font='11px sans-serif'; c.fillText('CLAMP OUT — no clamp pulses', X(t0)+6, y+14); return; } SIM.pulses(c,X,t0,t1,y,h,s.line,s.hs+3.2e-6,1.2e-6,wn,'clamp pulses ('+'inferred'+')'); }},
-    vLane('Source (75 Ω)', 'src', SIM.css('--ink2')), vLane(`INPUT after ${D.cable} m`, 'in', b), vLane('after EQUALIZER', 'eq', a), vLane(`after CLAMP ${D.clamp?'IN':'OUT'}`, 'clamp', a), vLane('OUT 1…6 + MONITOR', 'out', a),
-    boolLane('SYNCH LED (green)', ()=>synchOK(), '#3fbf5f'), boolLane('ERROR LED (red)', ()=>errorOn(), '#e3453a'),
+    {label:'HSYNCH (U2-7 → U7-5)', h:20, draw(c,X,t0,t1,y,h){ if(!D.power) return; const end = D.plugged?t1:Math.min(t1,D.unplugAt); if(end<=t0){ c.fillStyle=SIM.css('--bad'); c.font='11px sans-serif'; c.fillText('no H sync',X(t0)+6,y+14); return; } SIM.pulses(c,X,t0,end,y,h,s.line,0,s.hs,SIM.css('--ink2'),'H sync'); }},
+    {label:'BPOUT clamp pulse (U2-13)', h:20, draw(c,X,t0,t1,y,h){ if(!D.clamp||!D.power){ c.fillStyle=SIM.css('--ink2'); c.font='11px sans-serif'; c.fillText(D.clamp?'':'CLAMP OUT — U3 bypassed', X(t0)+6, y+14); return; } const end=D.plugged?t1:Math.min(t1,D.unplugAt); if(end>t0) SIM.pulses(c,X,t0,end,y,h,s.line,s.hs+0.6e-6,2.5e-6,wn,'back porch'); }},
+    boolLane(`U7 CD4538 Q (T = ${SIM.fmtDur(T1)})`, t=>oneshotQ(t), b),
+    vLane('Source (75 Ω)', t=>stage('src',t), SIM.css('--ink2')), vLane(`U1 out after ${D.cable} m`, t=>stage('in',t), b), vLane(`after CLAMP ${D.clamp?'IN':'OUT'}`, t=>stage('clamp',t), a), vLane(`after EQUALIZER ${Math.round(eqLen())} m`, t=>stage('eq',t), a), vLane('OUT 1 (as loaded)', t=>outV(0,t), a),
+    boolLane('SYNCH LED (Q2, green)', t=>synchOK(t), '#3fbf5f'), boolLane('ERROR LED (Q1, red) = no sync', t=>errorOn(t), '#e3453a'),
   ]; }
 /* ---------------- views ---------------- */
 function viewSim(m){ window.__pod15aActive=true;
-  m.innerHTML=`<div class="grid2"><div>${card('Front panel',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — click the loop BNC to change the termination',`<div id="rp"></div>`)}</div>
+  m.innerHTML=`<div class="grid2"><div>${card('Front panel',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — click the BNCs (input, loop termination, outputs)',`<div id="rp"></div>`)}</div>
    <div>${card('What the circuit did (last action)',`<div id="trace" class="log"></div>`)}${card('Signal now',`<div id="now"></div>`)}</div></div>
-   ${card('Timeline — one second, zoomable. Choose “1 line” to see sync, burst and bars; “1 µs” shows single subcarrier cycles.',`<canvas id="tl"></canvas>`)}
+   ${card('Timeline — one second, zoomable. Choose “1 line” to see sync, burst and bars; unplug the input and zoom to 10 ms to watch the CD4538 time out.',`<canvas id="tl"></canvas>`)}
    <div class="grid2">${card('Stage by stage',`<div id="lv"></div>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
   const draw=()=>{ m.querySelector('#fp').innerHTML=frontSVG(); bindPanel(m.querySelector('#fp')); m.querySelector('#rp').innerHTML=rearSVG(); bindPanel(m.querySelector('#rp'));
-    m.querySelector('#trace').innerHTML=traceHTML(D,'Turn the EQUALIZER, push CLAMP or change the cable length.');
-    const s=S(); m.querySelector('#now').innerHTML=`<table class="kv"><tr><th>Standard</th><td>${s.name}</td></tr><tr><th>Input amplitude</th><td class="mono">sync ${(syncAmp()*1000).toFixed(0)} mV (nominal ${Math.abs(s.sync)*1000} mV)</td></tr>
-      <tr><th>Cable vs EQ</th><td class="mono">${D.cable} m vs ${Math.round(eqLen())} m → ${fdb(-residualDb(s.fsc))} dB at ${(s.fsc/1e6).toFixed(2)} MHz</td></tr><tr><th>Clamp</th><td>${D.clamp?'IN':'OUT'}</td></tr><tr><th>LEDs</th><td>SYNCH ${synchOK()?'●':'○'} · ERROR ${errorOn()?'<b style="color:var(--bad)">●</b>':'○'}</td></tr></table>`;
-    m.querySelector('#lv').innerHTML=stageTable(stageStats(),'dB'); m.querySelector('#log').innerHTML=logHTML(D); SIM.drawLanes(m.querySelector('#tl'),lanes(),{labelW:190}); };
+    m.querySelector('#trace').innerHTML=traceHTML(D,'Turn the EQUALIZER, push CLAMP, unplug the input or short an output.');
+    const s=S(), pk=i=>{ let mx=-9,mn=9; const L=Math.floor(SIM.t/s.line)*s.line; for(let k=0;k<300;k++){ const v=outV(i,L+s.line*k/300); mx=Math.max(mx,v); mn=Math.min(mn,v);} return mx-mn; };
+    m.querySelector('#now').innerHTML=`<table class="kv"><tr><th>Standard</th><td>${s.name}</td></tr><tr><th>Input amplitude</th><td class="mono">${D.plugged?`sync ${(syncAmp()*1000).toFixed(0)} mV (nominal ${Math.abs(s.sync)*1000} mV)`:'unplugged'}</td></tr>
+      <tr><th>Cable vs EQ</th><td class="mono">${D.cable} m vs ${Math.round(eqLen())} m → ${fdb(-residualDb(s.fsc))} dB at ${(s.fsc/1e6).toFixed(2)} MHz</td></tr><tr><th>Clamp</th><td>${D.clamp?'IN (GB4571)':'OUT (direct)'}</td></tr><tr><th>LEDs</th><td>SYNCH ${synchOK()?'●':'○'} · ERROR ${errorOn()?'<b style="color:var(--bad)">●</b>':'○'} <span class="small muted">(ERROR = no sync only)</span></td></tr></table>
+      <table class="kv small"><tr><th>Output</th><th>Driver</th><th>Load</th><th>p-p now</th></tr>${OUTN.map((n,i)=>`<tr><td>${n}</td><td class="mono">${DRV.find(d=>d[1].includes(i))[0]} → ${OUTR[i]}</td><td>${D.outs[i]}</td><td class="mono">${pk(i).toFixed(2)} V</td></tr>`).join('')}</table>`;
+    m.querySelector('#lv').innerHTML=stageTable(stageStats(),'dB'); m.querySelector('#log').innerHTML=logHTML(D); SIM.drawLanes(m.querySelector('#tl'),lanes(),{labelW:200}); };
   bindControls(m); SIM.on('time',draw); }
 const LESSONS=[
-  {title:'Meet the POD15A', body:`<p>The POD15 manual: “a one by six video distribution amplifier with level trim and a seventh output split on the front panel … The input is a high impedance looping input while the outputs are 75 ohm.” The POD15A front adds <b>SYNCH</b> and <b>ERROR</b> tallies, a cable <b>EQUALIZER</b> (0–300 m trim plus a 300 m switch, “600m TOTAL”), a <b>CLAMP</b> in/out switch, a <b>LEVEL</b> trim and a <b>VIDEO MONITOR</b> BNC.</p>`, check:()=>true, auto:true},
-  {title:'1 · Terminate the loop', body:`<p>A looping input has two BNCs. The signal goes in on one, and the other must carry a <b>75 Ω terminator</b> (or feed on to the next device). Click the lower rear INPUT BNC to see what happens when it is left open (2 V p-p) or terminated twice. Leave it on 75 Ω.</p>`, check:()=>D.term==='75'&&D.log.some(e=>e.name.startsWith('Loop-through')), hint:'Click the lower INPUT BNC on the rear until it shows 75 Ω again.'},
-  {title:'2 · Equalise the cable', body:`<p>The source is 150 m away. Long coax loses high frequencies, so colour (the subcarrier) is weaker than sync. Zoom the timeline to <b>1 line</b> and compare “INPUT after 150 m” with “after EQUALIZER”. Turn the <b>EQUALIZER</b> trim until the residual is within ±0.5 dB.</p>`, check:()=>Math.abs(residualDb(S().fsc))<0.5&&D.cable===150, hint:'Q/W keys; watch the “Cable vs EQ” row.'},
-  {title:'3 · A really long run', body:`<p>Set the cable to <b>450 m</b>. The trim alone reaches 300 m, so push the <b>300m</b> switch in and trim the rest (300 + 150).</p>`, check:()=>D.cable===450&&D.eq300&&Math.abs(residualDb(S().fsc))<0.5, hint:'Cable 450; E key for the 300 m switch; then trim.'},
-  {title:'4 · Why the clamp is there', body:`<p>Choose the <b>bounce</b> pattern (the picture alternates black and white every half second) and push <b>CLAMP</b> out. The blanking level jumps with the picture content, because without the clamp the stage is AC-coupled. Push CLAMP back in: the back porch is held at 0 V on every line.</p>`, check:()=>D.pattern==='bounce'&&D.clamp&&D.log.some(e=>e.name==='CLAMP → OUT'), hint:'Pattern → bounce, press C twice.'},
-  {title:'5 · Set the level', body:`<p>Use <b>LEVEL</b> to set the outputs to exactly 1 V p-p (0 dB in the stage table's last row).</p>`, check:()=>Math.abs(20*Math.log10(levelGain()))<0.2, hint:'A/S keys.'},
-  {title:'Done', body:`<p>See <b>Findings</b> for what is (and is not) in the archive about this product.</p>`, check:()=>true, auto:true},
+  {title:'Meet the POD15A', body:`<p>The POD15 manual: “a one by six video distribution amplifier with level trim and a seventh output split on the front panel … The input is a high impedance looping input while the outputs are 75 ohm.” The POD15A front adds <b>SYNCH</b> and <b>ERROR</b> tallies, a cable <b>EQUALIZER</b> (0–300 m trim plus a 300 m switch, “600m TOTAL”), a <b>CLAMP</b> in/out switch, a <b>LEVEL</b> trim and a <b>VIDEO MONITOR</b> BNC. The circuit used here is the real POD15A issue 3 netlist.</p>`, check:()=>true, auto:true},
+  {title:'1 · Terminate the loop', body:`<p>A looping input has two BNCs. The signal goes in on one, and the other must carry a <b>75 Ω terminator</b> (or feed on to the next device). Issue 3 has no on-board terminator switch, so this matters. Click the lower rear INPUT BNC to see what happens when it is left open (2 V p-p) or terminated twice. Leave it on 75 Ω.</p>`, check:()=>D.term==='75'&&D.log.some(e=>e.name.startsWith('Loop-through')), hint:'Click the lower INPUT BNC on the rear until it shows 75 Ω again.'},
+  {title:'2 · Equalise the cable', body:`<p>The source is 150 m away. Long coax loses high frequencies, so colour (the subcarrier) is weaker than sync. Zoom the timeline to <b>1 line</b> and compare “U1 out after 150 m” with “after EQUALIZER”. Turn the <b>EQUALIZER</b> trim until the residual is within ±0.5 dB.</p>`, check:()=>Math.abs(residualDb(S().fsc))<0.5&&D.cable===150, hint:'Q/W keys; watch the “Cable vs EQ” row.'},
+  {title:'3 · A really long run', body:`<p>Set the cable to <b>450 m</b>. The trim alone reaches 300 m, so push the <b>300m</b> switch in (EQ_FIXED switches U4B into the path) and trim the rest (300 + 150).</p>`, check:()=>D.cable===450&&D.eq300&&Math.abs(residualDb(S().fsc))<0.5, hint:'Cable 450; E key for the 300 m switch; then trim.'},
+  {title:'4 · Why the clamp is there', body:`<p>Choose the <b>bounce</b> pattern (the picture alternates black and white every half second) and push <b>CLAMP</b> out. The blanking level jumps with the picture content, because the direct path is AC-coupled. Push CLAMP back in: the GB4571 restores the back porch on every line.</p>`, check:()=>D.pattern==='bounce'&&D.clamp&&D.log.some(e=>e.name==='CLAMP → OUT'), hint:'Pattern → bounce, press C twice.'},
+  {title:'5 · Lose the input', body:`<p>Click the upper rear INPUT BNC to unplug the source. SYNCH does not go out at once: the CD4538 one-shot (U7) holds Q high for T = R52·C35 = 100 kΩ × 0.1 µF = 10 ms after the last H-sync edge, then ERROR lights. ERROR means only “no sync”: a bad EQ or level does not light it. Plug it back in afterwards.</p>`, check:()=>D.log.some(e=>e.name==='Unplug the input cable')&&D.plugged, hint:'Click the upper INPUT BNC twice (or press U twice).'},
+  {title:'6 · Outputs come in pairs', body:`<p>Short <b>OUT 1</b> (click it twice). OUT 1 and OUT 2 share amplifier half U6A, but each has its own 75R, so OUT 2 keeps its level. Then set the <b>LEVEL</b> trim for exactly 0 dB in the LEVEL row.</p>`, check:()=>D.outs[0]==='short'&&Math.abs(20*Math.log10(levelGain()))<0.2, hint:'Click OUT 1 twice; A/S keys for LEVEL.'},
+  {title:'Done', body:`<p>Restore OUT 1 (click once more). See <b>Findings</b> for what the netlists show, and where they are archived.</p>`, check:()=>true, auto:true},
 ];
 let lessonIdx=0;
 function viewTutorial(m){ window.__pod15aActive=true; tutorialView(m,{title:'Tutorial — installing a POD15A',lessons:LESSONS,D,getIdx:()=>lessonIdx,setIdx:i=>lessonIdx=i,reset:()=>A.reset(),
@@ -400,63 +434,89 @@ function viewTutorial(m){ window.__pod15aActive=true; tutorialView(m,{title:'Tut
 function viewSecond(m){ window.__pod15aActive=true;
   m.innerHTML=`${card('One second, broken down',`<div id="ladder"></div>`)}<div class="grid2">${card('At the playhead',`<div id="dev"></div>`)}${card('What a monitor on OUT 1 shows (one line, as a waveform monitor)',`<canvas id="wfm"></canvas>`)}</div>`;
   const draw=()=>{ const s=S(), t=SIM.t;
-    const rows=[['Fields',(1/s.field).toFixed(3),SIM.fmtDur(s.field),'vertical sync; the SYNCH detector needs a few (${inf})'.replace('${inf}',inf)],['Lines',(1/s.line).toFixed(1),SIM.fmtDur(s.line),`${s.lines} per frame`],['Colour subcarrier cycles',s.fsc.toLocaleString(),SIM.fmtDur(1/s.fsc),'the EQ is set for this frequency'],
-      ['Clamp pulses',D.clamp?(1/s.line).toFixed(1):'0',SIM.fmtDur(s.line),'one per line on the back porch ('+inf+')'],['Burst cycles per line','≈ 9','2.5 µs','reference for the monitor\'s colour decoder']];
-    m.querySelector('#ladder').innerHTML=`<table class="kv"><tr><th>Event</th><th>per second</th><th>period</th><th>notes</th></tr>${rows.map(r=>`<tr><td>${r[0]}</td><td class="mono">${r[1]}</td><td class="mono">${r[2]}</td><td class="small">${r[3]}</td></tr>`).join('')}</table>`;
+    const rows=[['Fields',(1/s.field).toFixed(3),SIM.fmtDur(s.field),'ignored: the board has no vertical processing'],['Lines / HSYNCH edges',(1/s.line).toFixed(1),SIM.fmtDur(s.line),`each falling edge retriggers U7 (T = ${SIM.fmtDur(T1)}, so ${Math.round(T1/s.line)} missing lines in a row before ERROR)`],['Colour subcarrier cycles',s.fsc.toLocaleString(),SIM.fmtDur(1/s.fsc),'the EQ is judged at this frequency'],
+      ['BPOUT clamp pulses',D.clamp?(1/s.line).toFixed(1):'0',SIM.fmtDur(s.line),'LMH1981 pin 13 → GB4571 pin 4: the clamp samples the back porch'],['Burst cycles per line','≈ 9','2.5 µs','passes through untouched']];
+    m.querySelector('#ladder').innerHTML=`<table class="kv"><tr><th>Event</th><th>per second</th><th>period</th><th>what the board does with it</th></tr>${rows.map(r=>`<tr><td>${r[0]}</td><td class="mono">${r[1]}</td><td class="mono">${r[2]}</td><td class="small">${r[3]}</td></tr>`).join('')}</table>`;
     const tl=((t%s.line)+s.line)%s.line; m.querySelector('#dev').innerHTML=`<table class="kv"><tr><th>Time</th><td class="mono">${SIM.fmtT(t)}</td></tr><tr><th>Field / line</th><td class="mono">${Math.floor(t/s.field)} / ${Math.floor((t%s.field)/s.line)+1}</td></tr><tr><th>Within the line</th><td class="mono">${(tl*1e6).toFixed(2)} µs ${tl<s.hs?'(H sync)':tl<s.act0?'(back porch / burst)':'(active picture)'}</td></tr>
-      ${['src','in','eq','clamp','out'].map(k=>`<tr><th>${k}</th><td class="mono">${stage(k,t).toFixed(3)} V</td></tr>`).join('')}</table>`;
+      ${['src','in','lvl','clamp','eq','out'].map(k=>`<tr><th>${k}</th><td class="mono">${stage(k,t).toFixed(3)} V</td></tr>`).join('')}<tr><th>U7 Q</th><td>${oneshotQ(t)?'high (SYNCH)':'low (ERROR)'}</td></tr></table>`;
     const {c,w}=SIM.canvas(m.querySelector('#wfm'),220); c.fillStyle='#071007'; c.fillRect(0,0,w,220); c.strokeStyle='rgba(120,255,120,.25)';
     [-0.3,0,0.35,0.7,1].forEach(v=>{ const y=180-(v+0.4)*130; c.beginPath(); c.moveTo(30,y); c.lineTo(w-10,y); c.stroke(); c.fillStyle='rgba(150,255,150,.6)'; c.font='10px sans-serif'; c.fillText(v.toFixed(2)+' V',2,y+3); });
-    c.strokeStyle='#8f8'; c.beginPath(); const L0=Math.floor(t/s.line)*s.line; for(let i=0;i<=1200;i++){ const tt=L0+s.line*i/1200, v=stage('out',tt), y=180-(v+0.4)*130; i?c.lineTo(30+(w-40)*i/1200,y):c.moveTo(30,y);} c.stroke(); };
+    c.strokeStyle='#8f8'; c.beginPath(); const L0=Math.floor(t/s.line)*s.line; for(let i=0;i<=1200;i++){ const tt=L0+s.line*i/1200, v=outV(0,tt), y=180-(v+0.4)*130; i?c.lineTo(30+(w-40)*i/1200,y):c.moveTo(30,y);} c.stroke(); };
   SIM.on('time',draw); }
 const BLOCKS={
-  in:{x:20,y:30,w:180,h:80,t:'Looping input',s:['2 × BNC, Hi-Z bridge','46 dB return loss (POD15)'],d:'From the POD15 manual: a high-impedance looping input; the line is terminated at the far loop BNC.'},
-  eq:{x:240,y:30,w:180,h:90,t:'Cable equaliser',s:['0–300 m trim','+300 m switch (600 m total)'],d:'A frequency-dependent gain stage that undoes coax loss (√f). The circuit is not archived; the values come from the panel legend.'},
-  cl:{x:460,y:30,w:180,h:90,t:'Clamp',s:['back-porch DC restore','IN / OUT push switch'],d:'Holds the blanking level at 0 V each line (inferred: sync-separator-driven keyed clamp).'},
-  sy:{x:240,y:170,w:180,h:80,t:'Sync detect',s:['SYNCH (green)','ERROR (red)'],d:'The criteria for ERROR are not documented. Here: no sync, an EQ mismatch over 3 dB, or a level error over 3 dB (inferred).'},
-  lv:{x:460,y:170,w:180,h:80,t:'LEVEL + drivers',s:['level trim','7 × 75 Ω back-terminated'],d:'6 rear outputs + front VIDEO MONITOR, each 1 V p-p into 75 Ω (manual: “6+1 splits”).'},
-  out:{x:460,y:290,w:180,h:70,t:'OUT 1–6 + MONITOR',s:['BNC'],d:'Rear OUT 1–6 (staggered BNCs), front VIDEO MONITOR.'},
+  in:{x:15,y:20,w:170,h:84,t:'INPUT (looping)',s:['IN+ = centre, IN− = shell','U1 diff. receiver'],d:'U1A buffers IN− (via R5, R6 to ground) and U1B subtracts it from IN+ (via R4): hum on the cable shield cancels. Output net VIDEO_IN. Issue 3 has no on-board terminator (issue 1 had TERM_SW).'},
+  lvl:{x:205,y:20,w:150,h:84,t:'LEVEL',s:['R12 → LVL 2K → R14','±3 dB (inferred)'],d:'The LVL multiturn pot sits right after the receiver, before the clamp and the EQ.'},
+  sep:{x:205,y:140,w:150,h:90,t:'Sync separator',s:['LMH1981 (U2)','HSOUT, BPOUT used'],d:'Fed from VIDEO_IN through C4. HSOUT → HSYNCH net (one-shot), BPOUT → clamp pulse. CSOUT, VSOUT, FSOUT, OEOUT are unused.'},
+  cl:{x:375,y:20,w:150,h:84,t:'CLAMP',s:['GB4571 DC restorer','PHA-2UEE switch'],d:'In: signal through C52/C53 to U3-2, clamp pulse on U3-4, output U3-7 → R26. Out: the switch takes the direct path from the LVL wiper.'},
+  eq:{x:545,y:20,w:160,h:84,t:'EQUALIZER',s:['U4A: 0–300 m pot','U4B: fixed 300 m'],d:'Frequency-dependent gain in U4A’s feedback leg (EQ pot, CV1, 220p). EQ_FIXED (the 300m switch) selects U4A alone or U4A→U4B.'},
+  drv:{x:545,y:140,w:160,h:90,t:'4 drivers ×2',s:['R36/R42 pad in','U5, U6 dual amps'],d:'Each amplifier half has 1K/1K feedback (gain 2) and drives one or two 75R back-terminations. ISL5002 values on EL2244-SO8 footprints.'},
+  out:{x:375,y:250,w:330,h:70,t:'OUT1–6 + VIDEO MONITOR',s:['U6A:1,2 · U5B:3,4 · U5A:5,6 · U6B:MON'],d:'Outputs are driven in pairs: each pair shares an amplifier half; the front VIDEO MONITOR has its own.'},
+  led:{x:15,y:150,w:170,h:84,t:'CD4538 one-shot',s:['T = R52·C35 = 10 ms','Q → SYNCH, Q̄ → ERROR'],d:'Retriggered by each H sync. Q drives Q2 (SYNCH LED), Q̄ drives Q1 (ERROR LED): ERROR means “no sync” and nothing else. The second half of U7 is unused.'},
+  psu:{x:15,y:258,w:170,h:62,t:'Power',s:['VAF1005 + SUS1R5-0505'],d:'Issue 3: AC → VAF1005 (+5 V) → FB1 → SUS1R5-0505 (−5 V).'},
 };
-const WIRES=[['in','eq',''],['eq','cl',''],['cl','lv',''],['eq','sy',''],['lv','out','×7']];
-function viewBlock(m){ window.__pod15aActive=false; blockView(m,BLOCKS,WIRES,'eq',[660,380],card('In one sentence',`<p>A bridging input takes the incoming video, an adjustable cable equaliser undoes the cable's high-frequency loss, a clamp pins the blanking level, and seven 75 Ω drivers send identical 1 V copies out.</p>`)); }
+const WIRES=[['in','lvl',''],['lvl','cl',''],['cl','eq',''],['eq','drv',''],['drv','out','×7'],['in','sep','C4'],['sep','cl','BPOUT'],['sep','led','HSYNCH']];
+function viewBlock(m){ window.__pod15aActive=false; blockView(m,BLOCKS,WIRES,'led',[720,330],card('In one sentence',`<p>A differential bridging input, a level trim, a switchable back-porch clamp, a two-section cable equaliser and four ×2 driver halves feeding seven 75 Ω outputs in pairs; a sync separator and a 10 ms one-shot light SYNCH or ERROR. Redrawn from <span class="mono">pod15aiss3.net</span> (archived in the obsolete POD15 folder).</p>`)); }
 const SHEETS=[
-  {name:'1 · Functional schematic (inferred)', note:'No POD15A schematic, BOM or Gerber is archived. This is a functional sheet built from the panel legends and the POD15 manual; the part types are typical choices, not archive facts.', svg:()=>
-    net(30,120,'INPUT BNC')+wire([[110,120],[150,120]])+dot(150,120)+wire([[150,120],[150,200]])+net(120,220,'LOOP BNC (75 Ω term.)')+res(150,120,220,120,'','')+txt(170,108,'Hi-Z buffer',10)
-    +opamp(240,132,'EQ stage (inferred)')+txt(240,190,'0–300 m trim + 300 m section',10,'var(--ink2)')+wire([[300,132],[360,132]])
-    +opamp(360,132,'clamp + buffer')+txt(360,205,'keyed by sync separator',10,'var(--ink2)')+wire([[420,132],[480,132]])
-    +opamp(480,132,'LEVEL + driver')+wire([[540,132],[600,132]])+[0,1,2,3,4,5,6].map(i=>res(600,60+i*40,680,60+i*40,'75R','')+wire([[600,60+i*40],[590,60+i*40]])+net(690,60+i*40,i<6?'OUT '+(i+1):'VIDEO MONITOR')).join('')+wire([[590,60],[590,300]])
-    +txt(40,400,'Each output: driver gain ×2 into a 75R back-termination → 1 V p-p at a terminated load (manual: 1 V p-p, terminated).',11.5)},
+  {name:'1 · Input, level, sync', note:'Redrawn from pod15aiss3.net (P-CAD netlist, Oct 2009, in XXX - POD15 - #Master #Obsolete/POD15 - #Engineering/PCB). Values from POD15aiss3.bom where listed.', svg:()=>
+    net(20,100,'INPUT-1 (IN+)')+net(20,160,'INPUT-2 (IN−, shell)')+res(110,100,190,100,'R4','33R2')+res(110,160,190,160,'R5','33R2')+cap(150,160,150,220,'C2','0.1')+gnd(150,220)
+    +opamp(230,112,'U1B (pins 5,6,7)')+wire([[190,100],[205,100],[205,124],[230,124]])+opamp(230,200,'U1A (pins 1,2,3)')+wire([[190,160],[200,160],[200,212],[230,212]])
+    +wire([[290,200],[310,200],[310,90],[230,90],[230,100]])+txt(312,150,'R9/R10',10,'var(--ink2)')+wire([[290,112],[350,112]])+net(300,128,'VIDEO_IN')
+    +res(350,112,420,112,'R12','47R5')+txt(430,80,'LVL 2K (CW)',11)+res(470,112,470,180,'LVL','2K')+res(470,180,470,240,'R13','180R')+gnd(470,240)+wire([[420,112],[470,112]])+net(480,150,'wiper → R14 (0R) → CLAMP-2')
+    +cap(350,112,350,280,'C4','')+chip(600,250,150,'U2 LMH1981',[['4 VIN','C4'],['1 RSET','R17 10K'],['3 VCC','+5V']],[['7 HSOUT','HSYNCH'],['13 BPOUT','BPOUT'],['12 CSOUT','—'],['8 VSOUT','—'],['14 OEOUT','—']],'sync separator')+wire([[350,280],[566,280]])
+    +txt(20,440,'U1 is valued ISL5002IBZ but placed on the EL2244-SO8 (dual op-amp) footprint; both halves are used.',10.5,'var(--ink2)')},
+  {name:'2 · Clamp and equaliser', note:'CLAMP and EQ_FIXED are PHA-2UEE push switches; pin numbers as in the netlist.', svg:()=>
+    net(20,80,'LVL wiper (NET00047)')+cap(150,80,210,80,'C52','')+cap(210,80,270,80,'C53','')+chip(300,60,140,'U3 GB4571',[['2 IN','C53'],['4 CLAMP','BPOUT'],['1 HOLD','C12 1nF']],[['7 OUT','R26 33R2'],['8 VCC','+5V'],['6 VEE','−5V']],'DC restorer')
+    +chip(560,60,140,'CLAMP (SW)',[['2','direct'],['6','clamped (R26)']],[['4 common','U4-3'],['1','+5V']],'PHA-2UEE')
+    +opamp(160,300,'U4A EQ')+txt(110,350,'feedback: R23 1K1, R22 3K57 to GND, R20 → EQ pot (2K) → R16 30R',10,'var(--ink2)')+txt(110,365,'wiper: CV1 trimcap, C11 220p, R18, R19, R21 3K32',10,'var(--ink2)')
+    +opamp(330,300,'U4B fixed 300 m')+txt(300,395,'R30 1K1, R29 3K57, RV1 2K, CV2, R45/C31, R50/C32',10,'var(--ink2)')+wire([[220,300],[300,300],[300,312],[330,312]])
+    +chip(560,250,150,'EQ_FIXED (SW)',[['1','U4A out'],['5','U4B out']],[['3 common','R36 75R → drivers']],'PHA-2UEE')},
+  {name:'3 · Drivers and tallies', note:'Four amplifier halves, gain 2 (all feedback pairs are 1K/1K in the BOM), 75R back-terminations; outputs in pairs.', svg:()=>
+    [['U6A',['OUT1 ← R47','OUT2 ← R46'],60],['U5B',['OUT3 ← R40','OUT4 ← R39'],150],['U5A',['OUT5 ← R38','OUT6 ← R37'],240],['U6B',['MONITOR ← R48'],330]].map(([u,o,y])=>opamp(140,y,u+' ×2')+wire([[200,y],[260,y]])+o.map((t,k)=>res(260,y-10+k*22,330,y-10+k*22,'','')+net(340,y-10+k*22,t)).join('')).join('')
+    +net(20,200,'NET00018 (R36/R42)')+chip(520,80,150,'U7 CD4538',[['5 −TR (B1)','HSYNCH'],['4 +TR (A1)','GND'],['2 RXCX1','R52 100K, C35 0.1']],[['6 Q1','R55 → Q2 → SYNCH'],['7 Q̄1','R56 → Q1 → ERROR'],['3 RESET','+5V']],'retriggerable one-shot')
+    +txt(520,330,'T = R·C = 100 kΩ × 0.1 µF = 10 ms',12)+txt(520,350,'LEDs: anodes to +5 V, cathodes via R53 / R49 to Q2 / Q1 collectors',10.5,'var(--ink2)')},
+  {name:'4 · Power', note:'Issue 3: pod15aiss3.net.', svg:()=>
+    chip(60,80,150,'ACIN PAN356',[['1','GNDD'],['2','PSU-2'],['3','PWRSW-2']],[],'IEC inlet')+chip(300,80,150,'PSU VAF1005',[['1','PWRSW-1'],['2','ACIN-2']],[['5','+5V'],['3,4','GNDD']],'AC → +5 V')
+    +chip(560,80,160,'REG1 SUS1R5-0505',[['1','FB1 / +5V']],[['5','−5V'],['2,3','GNDD']],'DC-DC')
+    +txt(60,300,'Issue 1 (OBSOLETE/pod15aiss1.net, 2004): TE70042 toroid → 1N4003 bridge → LM317 / LM337, plus TERM_SW and a GS4982 separator.',11.5)
+    +txt(60,322,'PWRLED: +5 V → R54 (511R) → LED.',11.5)},
 ];
-function viewSchem(m){ window.__pod15aActive=false; schemView(m,SHEETS,'POD15A','This sheet is a functional reconstruction, labelled as inferred. The archive has only POD15A panel artwork, mechanical panels and photos, plus the older POD15 manual.'); }
-function viewSoft(m){ window.__pod15aActive=true; let hot=1;
-  m.innerHTML=`${card('No firmware — the video path, stage by stage',`<div id="f"></div><div id="det" class="card"></div>`)}${card('Cable loss and EQ vs frequency (live)',`<canvas id="fr"></canvas>`)}`;
-  const draw=()=>{ const s=S(); const st=[{t:'Source',s:['1 V p-p']},{t:`Cable ${D.cable} m`,s:[fdb(-lossDb(s.fsc,D.cable))+' dB @ fsc']},{t:`EQ ${Math.round(eqLen())} m`,s:[fdb(lossDb(s.fsc,eqLen()))+' dB @ fsc'],bad:Math.abs(residualDb(s.fsc))>3},{t:`Clamp ${D.clamp?'IN':'OUT'}`,s:[D.clamp?'0 V back porch':'AC-coupled']},{t:'LEVEL → 7 outs',s:[fdb(20*Math.log10(levelGain()),2)+' dB']}];
+function viewSchem(m){ window.__pod15aActive=false; schemView(m,SHEETS,'POD15A iss 3','Redrawn from the POD15A issue 3 P-CAD netlist and BOM (archived in the obsolete POD15 folder, not in the POD15A folder); pin and net names are real, layout is not the original CAD.'); }
+function viewSoft(m){ window.__pod15aActive=true; let hot=4;
+  m.innerHTML=`${card('No firmware — the video path, stage by stage (click a stage)',`<div id="f"></div><div id="det" class="card"></div>`)}<div class="grid2">${card('Cable loss and EQ vs frequency (live)',`<canvas id="fr"></canvas>`)}${card('SYNCH/ERROR state machine (CD4538 U7, half A)',`<div id="sm"></div>`)}</div>`;
+  const draw=()=>{ const s=S(); const st=[{t:'INPUT',s:['IN+/IN− diff','U1']},{t:`Cable ${D.cable} m`,s:[fdb(-lossDb(s.fsc,D.cable))+' dB @ fsc']},{t:'LEVEL',s:[fdb(20*Math.log10(levelGain()),2)+' dB']},{t:`CLAMP ${D.clamp?'IN':'OUT'}`,s:[D.clamp?'GB4571':'direct']},{t:`EQ ${Math.round(eqLen())} m`,s:[fdb(-residualDb(s.fsc))+' dB left'],bad:Math.abs(residualDb(s.fsc))>3},{t:'Drivers',s:['×2 → 75R','4 halves, pairs']},{t:'Tallies',s:[synchOK()?'SYNCH':'ERROR']}];
     m.querySelector('#f').innerHTML=flowSVG(st,hot); m.querySelectorAll('[data-st]').forEach(g=>g.onclick=()=>{hot=+g.dataset.st;draw();});
-    m.querySelector('#det').innerHTML=['House reference or programme: 1 V p-p into 75 Ω.',`Coax loss grows with √f: ${fdb(-lossDb(1e6,D.cable))} dB at 1 MHz, ${fdb(-lossDb(s.fsc,D.cable))} dB at ${(s.fsc/1e6).toFixed(2)} MHz, ${fdb(-lossDb(5e6,D.cable))} dB at 5 MHz (${inf}: RG-59-class).`,'The equaliser applies the inverse curve for the length you set. Too little leaves soft edges and weak colour; too much gives peaking and ringing.','Keyed clamp on the back porch (inferred). OUT = plain AC coupling: the DC shifts with the average picture level.','Gain trim, then seven back-terminated outputs.'][hot];
+    m.querySelector('#det').innerHTML=['Differential input: the BNC shell is IN−, returned to ground only through C1 (DNI) / C2 (0.1 µF), so the receiver rejects shield hum.',`Coax loss grows with √f: ${fdb(-lossDb(1e6,D.cable))} dB at 1 MHz, ${fdb(-lossDb(s.fsc,D.cable))} dB at ${(s.fsc/1e6).toFixed(2)} MHz (${inf}: RG-59-class).`,'The LVL pot divides VIDEO_IN before everything else, so a hot input can clip U1 before LEVEL can help.','Clamp: the GB4571 samples the back porch during BPOUT and pulls blanking to a fixed DC level every line. OUT = the direct, AC-coupled path.',`The equaliser applies the inverse curve for the length you set; residual at ${(s.fsc/1e6).toFixed(2)} MHz ${fdb(-residualDb(s.fsc))} dB. Too little leaves soft edges and weak colour; too much gives peaking.`,'Each driver half: gain 2, 1K/1K, into one or two 75R resistors (U6A → OUT1/2, U5B → OUT3/4, U5A → OUT5/6, U6B → MONITOR).',`HSYNCH retriggers U7; T = ${SIM.fmtDur(T1)}. Q → SYNCH, Q̄ → ERROR.`][hot];
     const {c,w}=SIM.canvas(m.querySelector('#fr'),200); const X=f=>40+(Math.log10(f)-5)/(Math.log10(8e6)-5)*(w-60), Y=d=>20+(d+6)/26*160;
     c.strokeStyle=SIM.css('--grid'); c.fillStyle=SIM.css('--ink2'); c.font='10px sans-serif'; [1e5,1e6,s.fsc,5e6].forEach(f=>{ c.beginPath(); c.moveTo(X(f),20); c.lineTo(X(f),180); c.stroke(); c.fillText((f/1e6).toFixed(f<1e6?1:2)+' MHz',X(f)+2,195); });
     [0,-6,-12,-18].forEach(d=>c.fillText(d+' dB',2,Y(-d)+3));
-    [[f=>lossDb(f,D.cable),SIM.css('--accent2'),'cable'],[f=>-lossDb(f,eqLen()),SIM.css('--warn'),'EQ'],[f=>residualDb(f),SIM.css('--accent'),'result']].forEach(([fn,col,lb])=>{ c.strokeStyle=col; c.lineWidth=2; c.beginPath(); for(let i=0;i<=100;i++){ const f=Math.pow(10,5+i/100*(Math.log10(8e6)-5)); const y=Y(fn(f)); i?c.lineTo(X(f),y):c.moveTo(X(f),y);} c.stroke(); c.fillStyle=col; c.fillText(lb, X(6e6), Y(fn(6e6))-4); }); };
+    [[f=>lossDb(f,D.cable),SIM.css('--accent2'),'cable'],[f=>-lossDb(f,eqLen()),SIM.css('--warn'),'EQ'],[f=>residualDb(f),SIM.css('--accent'),'result']].forEach(([fn,col,lb])=>{ c.strokeStyle=col; c.lineWidth=2; c.beginPath(); for(let i=0;i<=100;i++){ const f=Math.pow(10,5+i/100*(Math.log10(8e6)-5)); const y=Y(fn(f)); i?c.lineTo(X(f),y):c.moveTo(X(f),y);} c.stroke(); c.fillStyle=col; c.fillText(lb, X(6e6), Y(fn(6e6))-4); });
+    const q=oneshotQ(SIM.t); m.querySelector('#sm').innerHTML=flowSVG([{t:'Q low · ERROR',s:['power-up /','no sync']},{t:'HSYNCH edge',s:['U7-5 falling']},{t:'Q high · SYNCH',s:['T restarts','every line']},{t:`no edge ${SIM.fmtDur(T1)}`,s:['RC times out','→ Q low']}], !D.power?-1:q?2:0); };
   SIM.on('time',draw); }
 function viewNotes(m){ window.__pod15aActive=false;
   m.innerHTML=card('What the POD15A archive shows — findings',`<ol>
-   <li><b>Only the outside is archived.</b> The POD15A folder has panel artwork (front ISS3, rear ISS2 CorelDRAW), panel drawings and two photos. There is no schematic, BOM, Gerber or manual. Everything inside this model is inferred and labelled so.</li>
+   <li><b>Corrected 2026|59: the POD15A circuit is archived after all, in the obsolete POD15 folder</b> (<span class="mono">XXX - POD15 - #Master #Obsolete/POD15 - #Engineering/PCB/pod15aiss3.net</span> and <span class="mono">POD15aiss3.bom</span>, POD15A issue 3, P-CAD 2009). This plugin previously guessed the circuit; it now runs on those nets: ERROR = no-sync one-shot (CD4538), ISL5002 on the EL2244 footprint, outputs driven in pairs, differential input with the BNC shell as IN−, and no terminator switch (issue 1 had one) (see pod15.js).</li>
+   <li><b>ERROR is simply “no sync”.</b> The CD4538 one-shot (U7, T = R52·C35 = 100 kΩ × 0.1 µF = 10 ms) is retriggered by the LMH1981 HSOUT. Q lights SYNCH through Q2, Q̄ lights ERROR through Q1. Nothing measures the EQ or the level (the earlier guess that ERROR also flagged EQ or level errors was wrong).</li>
+   <li><b>Part value vs footprint.</b> U1, U4, U5 and U6 are valued <span class="mono">ISL5002IBZ</span> but placed on the <span class="mono">EL2244-SO8</span> (dual op-amp) pattern, and the netlist uses both halves. Issue 1 used real EL2244s.</li>
+   <li><b>Outputs share amplifiers.</b> U6A drives OUT1 and OUT2, U5B OUT3/OUT4, U5A OUT5/OUT6, U6B only the front MONITOR. A shorted output keeps its partner's level (separate 75R) but doubles that half's current (${inf}).</li>
+   <li><b>The input is differential.</b> IN− is the BNC shell, returned to ground only through C1 (DNI) / C2 (0.1 µF): unusual for a video DA, and it rejects shield hum.</li>
+   <li><b>Issue 3 dropped the terminator switch.</b> Issue 1 (<span class="mono">OBSOLETE/pod15aiss1.net</span>, 2004) had TERM_SW putting R13 across IN+/IN−; issue 3 has none, so the loop must be terminated externally.</li>
+   <li><b>The real stage order is LEVEL → CLAMP → EQ.</b> The LVL pot sits right after the receiver; the CLAMP switch picks the GB4571 output or the direct path; EQ_FIXED (the “300m” switch) adds U4B after U4A.</li>
+   <li><b>The ERROR LED colour changes between files.</b> <span class="mono">pod15aiss3.net</span> says RED; the BOM groups “3 GREEN: ERROR, PWRLED, SYNCH”. This model draws it red, as the panel photo does.</li>
    <li><b>The POD15 → POD15A step is visible on the panel.</b> The older POD15 manual describes a 1×6 DA with level trim and a front split. The POD15A panel keeps those and adds a cable equaliser (“0-300m”, “300m”, “(600m TOTAL)”), a CLAMP in/out switch and SYNCH/ERROR tallies.</li>
-   <li><b>The manual's specs are for POD15, not POD15A.</b> Return loss 46 dB, response 0.05 dB, DG/DP 0.15 %/0.15° and S/N 60 dB, all at 3.58 MHz, and 115 V/60 Hz 12 VA. The POD15A rear silk says “90-230 VAC, 50-60 Hz, ½ A.S.B.”, so POD15A moved to a universal supply.</li>
-   <li><b>The CLAMP switch legend uses a graphic.</b> The front silk draws OUT/IN with a raised and a pressed key symbol, the same convention as a latching push switch.</li>
+   <li><b>The manual's specs are for POD15, not POD15A.</b> Return loss 46 dB, response 0.05 dB, DG/DP 0.15 %/0.15° and S/N 60 dB, all at 3.58 MHz, and 115 V/60 Hz 12 VA. The POD15A rear silk says “90-230 VAC, 50-60 Hz, ½ A.S.B.”; the issue 3 PSU is a universal VAF1005.</li>
    <li><b>The panel issues differ.</b> The mechanical set is front ISS 1 and rear ISS 2, while the silks are front “ISS3” (<span class="mono">Pd15Asilk-ISS3.cdr</span>) and rear “ISS2”.</li>
-   <li><b>The front monitor output counts as a seventh output.</b> The POD15 manual says “Output Impedance (6+1 splits) 75 ohm”. On POD15A the split is the VIDEO MONITOR BNC on the front.</li></ol>`)
-  +card('Assumptions in this simulation',`<ul class="small"><li>Coax loss 3.1 dB/100 m at 5 MHz, scaling with √f; the EQ applies the inverse for the set length (${inf}).</li><li>Clamp-out bounce: AC coupling with about 60 ms recovery (${inf}).</li><li>LEVEL ±3 dB; SYNCH needs sync above 100 mV; ERROR = no sync, more than 3 dB EQ mismatch or more than 3 dB level error (${inf}).</li><li>Colour bars approximate 75 % bars; the subcarrier phase is drawn for illustration, not as a true NTSC/PAL encoder.</li></ul>`)
-  +card('Sources',`<ul class="small mono"><li>../POD  - #Engineering/pod15.pdf</li><li>POD15A - #ARTWORK #DA #2016/POD15A-FRONT&amp;REAR-SILK (CURVE).pdf · Pd15Asilk-ISS3.cdr · Pd15AREAR-ISS2-CURVE.cdr · Pics/</li><li>POD15A - #Mechanical #DA #2016/POD15A-FRONT ISS 1 (PANEL).pdf · POD15A-REAR ISS 2 (PANEL) .pdf</li></ul>`); }
+   <li><b>The front monitor output counts as a seventh output.</b> The POD15 manual says “Output Impedance (6+1 splits) 75 ohm”. On POD15A the split is the VIDEO MONITOR BNC on the front, fed by its own driver half (U6B → R48).</li></ol>`)
+  +card('Assumptions in this simulation',`<ul class="small"><li>Coax loss 3.1 dB/100 m at 5 MHz, scaling with √f; the EQ applies the inverse for the set length (${inf}).</li><li>Clamp-out bounce: AC coupling with about 60 ms recovery (${inf}).</li><li>LEVEL ±3 dB; U1 gain 1; the LMH1981 finds sync above 80 mV (${inf}).</li><li>Colour bars approximate 75 % bars; the subcarrier phase is drawn for illustration, not as a true NTSC/PAL encoder.</li></ul>`)
+  +card('Sources',`<ul class="small mono"><li>../POD  - #Engineering/pod15.pdf</li><li>../XXX - POD15 - #Master #Obsolete/POD15 - #Engineering/PCB/pod15aiss3.net · POD15aiss3.bom · OBSOLETE/pod15aiss1.net</li><li>POD15A - #ARTWORK #DA #2016/POD15A-FRONT&amp;REAR-SILK (CURVE).pdf · Pd15Asilk-ISS3.cdr · Pd15AREAR-ISS2-CURVE.cdr · Pics/</li><li>POD15A - #Mechanical #DA #2016/POD15A-FRONT ISS 1 (PANEL).pdf · POD15A-REAR ISS 2 (PANEL) .pdf</li></ul>`); }
 SIM.register({
   id:'pod15a', name:'POD15A · analog video DA with cable EQ and clamp (2014|47)', duration:1, product:'POD15A', year:2014, family:'POD series', folder:'#POD #SERIES/POD15A - #Master',
-  summary:'Half-rack composite video distribution amplifier: a looping Hi-Z input, a 0–600 m cable equaliser, a back-porch clamp, a level trim and seven 75 Ω outputs (six rear, one front monitor). Only the panels survive, so the circuit is modelled from the legends and the older POD15 manual (year from the 2014 silk date).',
-  highlights:['Real silkscreen panels with working EQ, 300 m, CLAMP and LEVEL controls','NTSC/PAL lines with sync, burst and bars through each stage','Cable loss vs equaliser, live frequency plot','Loop-termination mistakes and clamp-out bounce'],
+  summary:'Half-rack composite video distribution amplifier: a differential looping input, a level trim, a back-porch clamp, a 0–600 m cable equaliser and seven 75 Ω outputs driven in pairs (six rear, one front monitor). The circuit is the real POD15A issue 3 netlist, archived in the obsolete POD15 folder (year from the 2014 silk date).',
+  highlights:['Real silkscreen panels with working EQ, 300 m, CLAMP and LEVEL controls','SYNCH/ERROR from the real CD4538 10 ms no-sync one-shot','NTSC/PAL lines with sync, burst and bars through each stage','Outputs driven in pairs: load, open or short any BNC','Four schematic sheets redrawn from pod15aiss3.net'],
   depth:'Hardware model',
   stepUnits:[{label:'1 line',period:()=>S().line},{label:'1 field',period:()=>S().field},{label:'1 subcarrier cycle',period:()=>1/S().fsc},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s'],[0.1,'100 ms'],[1001/60000,'1 field'],[0.0002,'3 lines'],[64e-6,'1 line (64 µs)'],[1e-5,'10 µs (sync + burst)'],[1e-6,'1 µs (subcarrier)']], defaultZoom:4,
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial: installing a POD15A',render:viewTutorial},{id:'second',label:'One second, line by line',render:viewSecond},
-    {id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Schematics (inferred)',render:viewSchem},{id:'software',label:'Signal path (no firmware)',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}],
+    {id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Schematics (redrawn)',render:viewSchem},{id:'software',label:'Signal path (no firmware)',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}],
 });
 
 })();

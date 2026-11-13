@@ -9,6 +9,8 @@ tags: ["product", "metering", "2010s"]
 
 # AMS16
 
+**▶ [Open the AMS16 simulation](../siumulation.html?plugin=ams16) · [Open the RD23AMS163GSDIUpgrade simulation](../siumulation.html?plugin=rd23-ams16-3g)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

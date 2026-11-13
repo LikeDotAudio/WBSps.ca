@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD12A — Digital Audio DA
 
+**▶ [Open the POD12A simulation](../siumulation.html?plugin=pod12a)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

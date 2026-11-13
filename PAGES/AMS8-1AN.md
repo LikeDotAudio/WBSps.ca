@@ -9,11 +9,13 @@ tags: ["module", "ravenna-aes67", "2010s"]
 
 # AMS8-1AN
 
+**▶ [Open the AMS81 simulation](../siumulation.html?plugin=ams81)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-1AN) · [KiCad symbol generator](../kicad.html?m=AMS8-1AN) |
+| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [simulator & front panel](../simulator.html?m=AMS8-1AN) · [KiCad symbol generator](../kicad.html?m=AMS8-1AN) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — estimate from a dated variant |
 | Evidence | from AMS8-1 |
 | Confidence | family |

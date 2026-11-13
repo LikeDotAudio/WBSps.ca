@@ -233,13 +233,14 @@ const hx = v => (v&255).toString(16).toUpperCase().padStart(2,'0');
 const bn = v => (v&255).toString(2).padStart(8,'0');
 /* ---------------- timing constants ---------------- */
 const FOSC = 4.9152e6, TCY = 4/FOSC;             // SPBRG = 7, BRGH = 0 → 4.9152 MHz / (64·8) = 9600 Bd (init42: "9600 baud")
-const PASS_CYC = 150, PASS = PASS_CYC*TCY;        // one main-loop pass ≈ 150 instruction cycles ≈ 122 µs — inferred from the routine lengths
+const PASS_CYC = 132, PASS = PASS_CYC*TCY;        // one main-loop pass ≈ 132 cycles ≈ 107 µs: dms.js cycle-counts 115–182, median 120–144 by mode; 132 = middle of the medians — inferred
 const BIT = 1/9600, BYTE = 10*BIT;                // 8N1: start + 8 data + stop
 const DELAY_V102 = (4*255*(255*3+5)+20)*TCY;      // v102 "ali" delay loop before main: ≈ 0.64 s
 const EE_T = 0.02;                                // eewrite: four eew writes, bit-banged — inferred
 const XTM41_DLY = 0.0015;                         // XTM41 answer delay after byte 2 — inferred
 const D4_DLY = 34*1024/FOSC;                      // DEMUX-4 timer0: OCR0 = 34, clk/1024 → 7.08 ms (demux4.c initTimer0)
-const DMX_DLY = 0.002;                            // DEMUX-1 / DEMUX-3 answer delay — inferred
+const DMX_DLY = 0.002;                            // DEMUX-3 answer delay — inferred
+const D1_DLY = 0.0063, D1_FIRST = 119*4/4.9152e6;  // DEMUX-1 settx comout1: ≈65 passes ≈ 6.3 ms after each command; the first reply after power-up goes on the next pass (demux1.js)
 const READY = { xtm41:0.25, D1:0.35, D3:0.6, D4:6.1 }; // power-up until each slave answers; D4 ≈ 5.94 s FPGA config (demux4.js) — others inferred
 const BTN = ['AUDIO','AES','SDI','GR1','GR2','GR3','GR4','SWAP'];
 const BTN_PIN = ['RA0','RA1','RA2','RA3','RA4','RA5','RC2','RC0'];
@@ -282,7 +283,7 @@ function simulate(){
   const N = Math.floor((1-t0)/PASS)+1; const SN=new Uint8Array(N*REGS.length);
   // slaves
   const X = { mode:null, aesIn:0, swap:0, t:-1 };
-  const M = { group:null, swap:0, stale: cfg.fault && cfg.dmx==='D4', t:-1 };
+  const M = { group:null, swap:0, stale: cfg.fault && cfg.dmx==='D4', t:-1, probed:false, nrep: boot?0:1 };
   { // state of the slaves at t = 0 in the running scenario
     if (!boot){ const m=w0.mode; X.mode = m==='analog'?0:m==='aes'?1:2; X.aesIn=w0.aesIn; X.swap=w0.swap?1:0; M.group=w0.grp; X.t=0; M.t=0; out.xtm.push({t:0,mode:X.mode,aesIn:X.aesIn,swap:X.swap}); out.dmx.push({t:0,group:M.group,stale:M.stale}); }
   }
@@ -355,8 +356,11 @@ function simulate(){
             const sig = a===1 ? (X.aesIn? ws.aesB.on : ws.aesX.on) : true;
             pending={t:t+XTM41_DLY+BYTE, b: a===1? (sig?0:1) : 0, who:'XTM41'}; } }
         else if (t>=READY[cfg.dmx] || !boot){ const g=(frame.tx0>>1)&3; if (M.group!==g){ M.group=g; M.stale=false; } M.swap=frame.tx0&1; out.dmx.push({t:t+BYTE, group:M.group, stale:M.stale});
-          const lk = lockedOn(ws); let b = lk? 0:2; if (cfg.dmx!=='D4' && lk && !ws.sdi.groups[g]) b|=1;            // DEMUX-4 (V020300) never sets bit 0
-          pending={t:t+(cfg.dmx==='D4'?D4_DLY:DMX_DLY)+BYTE, b, who:cfg.dmx==='D4'?'DEMUX-4':cfg.dmx==='D3'?'DEMUX-3':'DEMUX-1'}; } } }
+          const lk = lockedOn(ws); let b = lk? 0:2; if (cfg.dmx==='D3' && lk && !ws.sdi.groups[g]) b|=1;            // DEMUX-4 (V020300) never sets bit 0
+          if (cfg.dmx==='D1'){ if (frame.tx0&8) M.probed=true;                   // DEMUX-1: bit 3 → sdi_check → tx0 = 1110 0000 (the DMS1 never sets bit 3, hp)
+            b = (M.probed?0xE0:0) | (lk?0:2) | ((lk && ws.sdi.groups[g])?0:1); }   // readgs9023: bit 0 = no audio lock (also with no carrier)
+          const dly = cfg.dmx==='D4'?D4_DLY : cfg.dmx==='D1'? (M.nrep?D1_DLY:D1_FIRST) : DMX_DLY; M.nrep++;
+          pending={t:t+dly+BYTE, b, who:cfg.dmx==='D4'?'DEMUX-4':cfg.dmx==='D3'?'DEMUX-3':'DEMUX-1'}; } } }
     /* ---- aes_control / sdi_control ---- */
     if ((R.sourced&128) && (R.read&64)){ R.read&=~64; R.read|=32; if (R.lock&128){ R.polecount1=1; R.polecount0=100; } }
     if ((R.sources1&128) && (R.read&64)){ R.read&=~64; R.sources1^=32; }
@@ -591,8 +595,9 @@ function viewNotes(m){ window.__dms1Active=false;
    <li><b>A possible cause of the 2014 SD fault</b> ${inf}: the DEMUX-4 writes the group registers only when <span class="mono">group1 != pGroup1</span>; for SD, the demux core leaves reset only after the Si5324 calibration, later than for HD. If that reset loses the group selection, nothing rewrites it until a different group is chosen. The report says <i>any</i> group button helps, which this explanation only covers for a different group. Tick the fault box to try it.</li>
    <li><b>The meter scale differs between drawings.</b> The functional drawing says −27 … +12; the panel silk −34 … +12; the DEMUX-3 manual cover prints “3 8 9 12” where the silk has “3 6 9 12”.</li>
    <li><b>Drawing issues.</b> <span class="mono">DMS-1 REAR ISS 4 (PANEL).pdf</span> shows issue <b>5</b> in its title block (28-06-16 “changed ground stud to FH 440-5”); the front panel drawing dates from 18-06-98, three years before the first firmware.</li>
-   <li><b>v100 → v101.</b> V101 (Nov 2001) moved to the flash PIC16F73, added <span class="mono">communication_control</span> (a 150-pass gap before sending “to avoid data collisions … framing and overrun errors”) and shortened the reply time-out reload from 250 to 230.</li></ol>`)
-  +card('Assumptions in this simulation',`<ul class="small"><li>Main-loop pass ${PASS_CYC} cycles (${(PASS*1e6).toFixed(0)} µs) and the per-routine split (${inf}); all counter limits are from the source.</li><li>Reply delays: XTM41 1.5 ms, DEMUX-1/-3 2 ms (${inf}); DEMUX-4 7.08 ms from its timer0 set-up.</li><li>Start-up times of the XTM41 (0.25 s), DEMUX-1 (0.35 s), DEMUX-3 (0.6 s) are ${inf}; DEMUX-4 ≈ 6 s comes from the FPGA configuration time in demux4.js.</li><li>XTM41 reply byte: bit 0 = AES unlocked (from the way processuart / aes_control use it).</li><li>Meter: 0 dB = +4 dBu analog or −20 dBFS digital (init42: alvl1 = 64 “+4”, dlvl1 = 40 “−20”); fast attack, 13 dB/s fall (${inf}).</li><li>Running scenario: the first poll happens about 60 ms into the second (${inf}).</li></ul>`)
+   <li><b>v100 → v101.</b> V101 (Nov 2001) moved to the flash PIC16F73, added <span class="mono">communication_control</span> (a 150-pass gap before sending “to avoid data collisions … framing and overrun errors”) and shortened the reply time-out reload from 250 to 230.</li>
+   <li><b>Corrected 2026|59: DEMUX-1 reply and pass length.</b> The DEMUX-1 reply was modelled as 0x00/0x02 (+1) 2 ms after the frame. Its source (<span class="mono">demux-1.asm</span>: <span class="mono">sdi_check</span>, <span class="mono">settx</span>, <span class="mono">readgs9023</span>) answers 0xE0–0xE3 once probed by a command with bit 3 set, and 0x00–0x03 otherwise. The DMS-1 never sets bit 3 (hp), so here it always reads 0x00–0x03; bit 0 (no audio lock) is also set when there is no carrier. Each reply comes ≈ 6.3 ms after the command, except the first after power-up, which goes on the DEMUX's next pass. The front-panel pass was assumed to be 150 cycles; cycle-counting the real code gives 115–182, median 120–144 depending on the mode, so the model now uses ${PASS_CYC} (${inf}, middle of the medians) (see demux1.js, dms.js).</li></ol>`)
+  +card('Assumptions in this simulation',`<ul class="small"><li>Main-loop pass ${PASS_CYC} cycles (${(PASS*1e6).toFixed(0)} µs) and the per-routine split (${inf}); all counter limits are from the source.</li><li>Reply delays: XTM41 1.5 ms, DEMUX-3 2 ms (${inf}); DEMUX-1 ≈ 6.3 ms (first reply after power-up on its next pass) from its settx counter (demux1.js); DEMUX-4 7.08 ms from its timer0 set-up.</li><li>Start-up times of the XTM41 (0.25 s), DEMUX-1 (0.35 s), DEMUX-3 (0.6 s) are ${inf}; DEMUX-4 ≈ 6 s comes from the FPGA configuration time in demux4.js.</li><li>XTM41 reply byte: bit 0 = AES unlocked (from the way processuart / aes_control use it).</li><li>Meter: 0 dB = +4 dBu analog or −20 dBFS digital (init42: alvl1 = 64 “+4”, dlvl1 = 40 “−20”); fast attack, 13 dB/s fall (${inf}).</li><li>Running scenario: the first poll happens about 60 ms into the second (${inf}).</li></ul>`)
   +card('Sources',`<ul class="small mono"><li>XXX - DMS - #OBSOLETE #Archive/PIC VERSIONS/Dms1v100 · Dms1v101 · Dms1v102</li><li>SA-DEMUX4 - #Master/…/Software/Atmel/V020300-DMS1/demux4.c</li><li>XXX - DMS1 - #Master #OBSOLETE/DMS1 - #TESTREPORT/*.pdf · DMS1 - #Mechanical #DA #2016/*.pdf · Silks/*</li><li>XXX - DMS - #OBSOLETE #Archive/DMS1-Functional.cdr · DMS1manu-Demux3.cdr · DMS1-RearDemux3-1.jpg</li></ul>`); }
 SIM.register({
   id:'dms1', name:'DMS-1 · Digital Monitor System ('+SIM.year(2001)+')', duration:1, product:'DMS1', year:2001,

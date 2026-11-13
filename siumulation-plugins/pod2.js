@@ -12,7 +12,9 @@
    - .../#v200/pod2v200.asm (diff vs v201), #V100/POD2V100.ASM (1997|30), pod2v103.asm, WARNING (1998|31),
      #r200/pod2r200.asm (POD2R remote: trans_setup, output_info, uart_setup, timer_check, com_timeout)
    - #POD #SERIES/POD9 - #Master/POD9 - #Engineering/POD9R - #SOFTWARE /POD9R - #SOFTWARE #V102/pod9v102.asm
-       (the SPI master on the other end: timer_check prescale 1:1, SPI_master, SPI_trns_cntrl, SPI_rcv_ctrl)
+       (the SPI master on the other end: timer_check prescale 1:1, SPI_master, SPI_trns_cntrl, SPI_rcv_ctrl) — default;
+       .../POD9R - #SOFTWARE #V100/pod9v102.asm (the 16F73 build) as an option. Corrected 2026|59 (see pod9.js): in V102 the
+       SLAVE button (RA1) is not read and SPI_master forces slave on at every exchange.
    - POD2 - #Engineering/POD2 - MANUAL.pdf (WordPerfect, 2006|39): operation, SERIAL PROTOCOL, DB9F pin-out, specs
    - POD2 - #Engineering/pod2-p1.pdf, pod2-p2.pdf (P-CAD 2002 "POD2iss5", 2009|42) and POD2.pdf (POD2.DSN, Oct 7 1997)
    - SA-POD2-MAIN iss6 BOM.xlsx, POD2 Master Bom.xlsx, POD2 ISS6 BOM PCAD.bom
@@ -95,6 +97,7 @@ const D = {
   src: SRC0(),
   log: [],
   hex: 'F0 00',
+  p9fw: 'v102',     // POD9 firmware on the slave port: 'v102' (#V102/pod9v102.asm, default) or 'f73' (#V100/pod9v102.asm, the 16F73 build)
 };
 const SCEN = {
   idle:   {name:'Idle on input 1 (nothing connected)', init:{}, ev:[]},
@@ -131,7 +134,7 @@ function pinLowAt(k, t){   // raw contact level of button k (true = pin pulled l
   return low;
 }
 function emulate(){
-  const key = JSON.stringify([D.init, D.events]);
+  const key = JSON.stringify([D.init, D.events, D.p9fw]);
   if (key === EMU_KEY && EMU) return EMU;
   EMU_KEY = key;
   const TCY = C.TCY, H = C.HORIZON;
@@ -143,7 +146,7 @@ function emulate(){
   const ev = D.events.slice().sort((a,b)=>a.t-b.t);
   /* ---- the outside world ---- */
   const W = { power:D.init.power, pod9:D.init.pod9, pod2r:D.init.pod2r };
-  const P9 = { sel:D.init.pod9sel, slave:D.init.pod9slave, cmdLeft:0, hdr:false, rcvHdr:false, rcnt:C.POD9_REC0, next:C.PRE+0.0011, pendSel:null, audio:0xFF, alt:false };
+  const P9 = { sel:D.init.pod9sel, slave:D.p9fw==='v102' ? true : D.init.pod9slave, cmdLeft:0, hdr:false, rcvHdr:false, rcnt:C.POD9_REC0, next:C.PRE+0.0011, pendSel:null, audio:0xFF, alt:false };
   const R2 = { next:C.PRE+0.007, alt:false, pend:null, leds:0, lastRx:-1, bytes:[] };
   let rxQ = [];                 // bytes on the RX wire: {t0, tEnd, b, src}
   let rcFifo = [];              // RCREG FIFO (2 deep)
@@ -189,7 +192,8 @@ function emulate(){
         note(e.t, e.on?'Slave-port cable P3 connected to a POD9: it clocks one SPI byte every 4096 Tcy (3.33 ms)':'Slave-port cable removed: SCK stops', 'in'); }
       else if (e.type==='pod2r'){ W.pod2r = e.on; rec('pod2r', e.t, e.on?1:0); R2.next = e.t + 0.003; R2.alt=false;
         note(e.t, e.on?'POD2R remote plugged into CONTROL: it sends one byte per 53.3 ms TMR2 tick (F0, command, F0, …)':'POD2R unplugged', 'in'); }
-      else if (e.type==='pod9btn'){ if (e.k===6){ P9.slave = !P9.slave; rec('p9slave', e.t+C.POD9_DEB, P9.slave?1:0); note(e.t, `POD9 SLAVE button → slave ${P9.slave?'ON':'OFF'} (its status byte bit 6 is now ${P9.slave?0:1})`, 'pod9'); }
+      else if (e.type==='pod9btn'){ if (e.k===6){ if (D.p9fw==='v102') note(e.t, 'POD9 SLAVE button: V102 never reads RA1 (the “check mix” lines in input are commented out) — nothing happens; SPI_master keeps slave ON (see pod9.js)', 'pod9');
+          else { P9.slave = !P9.slave; rec('p9slave', e.t+C.POD9_DEB, P9.slave?1:0); note(e.t, `POD9 SLAVE button (16F73 build reads RA1) → slave ${P9.slave?'ON':'OFF'} (its status byte bit 6 is now ${P9.slave?0:1})`, 'pod9'); } }
         else { P9.pendSel = {k:e.k, t:e.t + C.POD9_DEB}; note(e.t, `POD9 button ${e.k+1} pressed`, 'in'); } }
       else if (e.type==='remote'){ R2.pend = e.sum!=null ? (0x40 | e.sum) : (0x80 | (e.k+1)); note(e.t, `POD2R button: next command slot will carry ${hex2(R2.pend)} (${e.sum!=null?'01 sum':'10 000 '+((e.k+1)>>>0).toString(2).padStart(3,'0')+' select audio '+(e.k+1)})`, 'in'); }
       else if (e.type==='power'){ if (e.on && !W.power){ W.power = true; bootAt = e.t; rec('power', e.t, 1); note(e.t, 'Mains on: VAF1005 +5 V rises; the PIC is held in reset by the power-up timer (config bits unknown: 72 ms PWRT assumed)', 'boot'); }
@@ -217,6 +221,7 @@ function emulate(){
     const out = ssp.out, inn = pod9Byte();
     if (ssp.inPend){ ssp.ov++; } else { ssp.in = inn; ssp.inPend = true; }
     spiX.push({t:te, mosi:inn, miso:out});
+    if (D.p9fw==='v102' && !P9.slave){ P9.slave = true; rec('p9slave', te, 1); note(te, 'POD9 V102 SPI_master: <span class="mono">bcf pre_output,5</span> on every exchange → slave ON again', 'pod9'); }   // V102 only
     pod9Rx(out, te);
   };
   function service(t){            // everything outside the PIC up to time t
@@ -462,6 +467,8 @@ const A = {
     let t = SIM.t; bytes.forEach(b=>{ D.events.push({t, type:'rx', b, src:'console', user:true}); t += C.BYTE; }); }); },
   pod9(on){ act(on?'Connect a POD9 to the slave port':'Disconnect the POD9', tr=>{ tr('P3 is a 4-pin internal header (Slave Port Picture.jpg): SCK, SDI, SDO through R2–R4 30 Ω, GND (pin order '+inf+').'); D.events.push({t:SIM.t, type:'pod9', on, user:true}); }); },
   pod9btn(k){ act(k===6?'POD9: SLAVE button':'POD9: press '+(k+1), tr=>{ if (!stateAt('pod9',SIM.t)) tr('No POD9 is connected: connect it first.'); D.events.push({t:SIM.t, type:'pod9btn', k, user:true}); }); },
+  p9fw(f){ act(`POD9 firmware → ${f==='v102'?'V102 (16C73A)':'16F73 build'}`, tr=>{ D.p9fw=f; EMU_KEY='';
+    tr(f==='v102'?'#V102/pod9v102.asm (1 Mar 2004, “for POD2 remote with POD2 and POD9”): the RA1 (“check mix”) read is commented out, so the SLAVE button does nothing, and SPI_master does bcf pre_output,5 at every exchange: slave is forced ON, and a POD2 command that turns it off lasts one exchange (3.3 ms)':'#V100/pod9v102.asm (9 Mar 2004, V1.01 converted to the PIC16F73): RA1 is read, so SLAVE toggles; SPI_master leaves pre_output bit 5 alone'); }); },
   pod2r(on){ act(on?'Plug in a POD2R remote':'Unplug the POD2R', tr=>{ tr('POD2R (pod2r200.asm) shares the RS-422 pins: it polls F0, 00 and shows the reply on its LEDs.'); D.events.push({t:SIM.t, type:'pod2r', on, user:true}); }); },
   remote(k){ act('POD2R: press '+(k+1), tr=>{ if (!stateAt('pod2r',SIM.t)) tr('No POD2R is plugged in.'); tr(`The remote sends 10 000 ${(k+1).toString(2).padStart(3,'0')} in its next command slot (video field shown as 000: the remote's video handling is not modelled, ${inf}).`); D.events.push({t:SIM.t, type:'remote', k, user:true}); }); },
   src(k, prop, v){ D.src[k][prop] = v; D.log.unshift({t:SIM.t, name:`IN ${k+1} ${prop==='on'?(v?'source connected':'source removed'):prop==='dbu'?'level '+v+' dBu':'tone '+v+' Hz'}`, trace:['Analog only: TB → H'+(k+2)+' → 20 kΩ / 68 µF per leg → 74HC4053 → summing node. The firmware is not involved.']}); SIM.refresh(); },
@@ -571,13 +578,14 @@ function bindConsole(root){
   root.querySelector('#p2r').onchange = e=>A.pod2r(e.target.checked);
 }
 function slaveHTML(t){
-  const on = stateAt('pod9', t), E = emulate(), sel = sv('p9sel', t, D.init.pod9sel), sl = sv('p9slave', t, D.init.pod9slave?1:0);
+  const on = stateAt('pod9', t), E = emulate(), sel = sv('p9sel', t, D.init.pod9sel), sl = sv('p9slave', t, (D.p9fw==='v102'||D.init.pod9slave)?1:0);
   const r2on = stateAt('pod2r', t); const r2 = E.r2; let rl = null; for (const x of r2){ if (x[0] <= t) rl = x[1]; else break; }
   return `<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:flex-start">
     <div><label class="small"><input type="checkbox" id="p2p9" ${on?'checked':''}> POD9 video switcher on slave port P3</label>
       <div style="display:flex;gap:4px;margin-top:6px;align-items:center;${on?'':'opacity:.45'}"><span class="small muted">POD9</span>
       ${[0,1,2,3,4,5].map(k=>`<button class="p2v" data-k="${k}" style="min-width:34px;${on&&sel===k?'background:#d33a2c;color:#fff;border-color:#d33a2c':''}">${k+1}</button>`).join('')}
       <button class="p2v" data-k="6" style="${on&&sl?'background:#d9a531;color:#111;border-color:#d9a531':''}">SLAVE</button></div>
+      <div class="small" style="margin-top:4px"><label>POD9 firmware <select id="p2p9fw"><option value="v102" ${D.p9fw==='v102'?'selected':''}>V102 (#V102, 16C73A): SLAVE button dead, slave forced on</option><option value="f73" ${D.p9fw==='f73'?'selected':''}>16F73 build (#V100): SLAVE button toggles</option></select></label></div>
       <div class="small muted" style="margin-top:4px">POD9 is the SPI master (pod9v102.asm). Red = its video input, amber = slave (audio-follow-video) on.</div></div>
     <div><div class="small"><b>POD2R remote</b> ${r2on?'':'<span class="muted">(not plugged in)</span>'}</div>
       <div style="display:flex;gap:4px;margin-top:6px;${r2on?'':'opacity:.45'}">${[0,1,2,3,4,5].map(k=>`<button class="p2rm" data-k="${k}" style="min-width:34px;${r2on&&rl!=null&&(rl>>k)&1?'background:#d33a2c;color:#fff;border-color:#d33a2c':''}">${k+1}</button>`).join('')}
@@ -585,6 +593,7 @@ function slaveHTML(t){
 }
 function bindSlave(root){
   const c = root.querySelector('#p2p9'); if (c) c.onchange = e=>A.pod9(e.target.checked);
+  const fw = root.querySelector('#p2p9fw'); if (fw) fw.onchange = e=>A.p9fw(e.target.value);
   root.querySelectorAll('.p2v').forEach(b=>b.onclick=()=>A.pod9btn(+b.dataset.k));
   root.querySelectorAll('.p2rm').forEach(b=>b.onclick=()=>A.remote(+b.dataset.k));
 }
@@ -747,7 +756,7 @@ const LESSONS = [
   { title:'7 · Remote SUM', body:`<p>Send <b>F0 61</b> = <span class="mono">01 100001</span>: SUM inputs 6 and 1. Then try <b>F0 80</b> (cancel SUM): the mix stays but the SUM bit is cleared, exactly as with the front button.</p><p><b>Goal:</b> SUM on with inputs 1 and 6 from RS-422.</p>`, check:()=> finSum() && finSel()===0b100001, hint:'Use the preset “F0 61 SUM 1 + 6”.' },
   { title:'8 · Audio follows video', body:`<p>Tick <b>POD9 video switcher on slave port P3</b>, make sure its <b>SLAVE</b> is lit (amber), then press <b>POD9 4</b>. POD9 sends the change as a command four times… and on the 4th command <span class="mono">SPI_rcv_ctrl</span> sets <span class="mono">remote_flag,0</span> and POD2 switches too (≈27 ms after POD9 acts).</p><p><b>Goal:</b> POD9 on video 4 and POD2 on audio 4.</p>`, check:()=> emulate().P9.sel===3 && finSel()===0b001000, hint:'Connect the POD9 first; the slave-port lane shows the bytes.' },
   { title:'9 · Video follows audio', body:`<p>Now press <b>6</b> on the POD2 front panel. With POD9 in slave mode (<span class="mono">video,6 = 0</span>) <span class="mono">do_spi</span> sends <span class="mono">pre_output</span> as a command (bits 7 and 6 cleared) in the next 32 data slots; POD9 needs 8.</p><p><b>Goal:</b> POD9 follows to video 6.</p>`, check:()=> emulate().P9.sel===5 && finSel()===0b100000, hint:'POD9 must stay in slave mode. Look at the “POD9: video input” lane.' },
-  { title:'10 · Check the manual against the code', body:`<p>The manual says “the Slave indicator on POD9 may be turned on by sending F0, C0 and turned off by F0, C7”. Send <b>F0 C0</b> with the POD9 attached and in slave mode, and watch its SLAVE light.</p><p><b>Goal:</b> after your F0 C0, POD9's slave mode is <i>off</i> — the code (<span class="mono">slave_off</span>) does the opposite of the manual.</p>`, check:()=> userEv('rx').some(e=>e.b===0xC0) && stateAt('pod9',C.HORIZON) && !emulate().P9.slave, hint:'POD9 connected, SLAVE on, then send F0 C0.' },
+  { title:'10 · Check the manual against the code', body:`<p>The manual says “the Slave indicator on POD9 may be turned on by sending F0, C0 and turned off by F0, C7”. Send <b>F0 C0</b> with the POD9 attached and in slave mode, and watch its SLAVE light.</p><p><b>Goal:</b> after your F0 C0, POD9's slave mode goes <i>off</i> — the code (<span class="mono">slave_off</span>) does the opposite of the manual. With the default POD9 V102 it is off for one 3.3 ms exchange only, because V102's <span class="mono">SPI_master</span> forces slave back on (zoom the “POD9: video input · slave” lane); with the 16F73 build it stays off.</p>`, check:()=>{ const ts=userEv('rx').filter(e=>e.b===0xC0).map(e=>e.t); return ts.length && stateAt('pod9',C.HORIZON) && (emulate().sig.p9slave||[]).some(([t,v])=>v===0 && t>=Math.min(...ts)); }, hint:'POD9 connected, SLAVE on, then send F0 C0.' },
   { title:'Done', body:`<p>You have used every control of the POD2. <b>Software</b> follows the main loop and decodes the protocol live, <b>One second, frame by frame</b> breaks the second down into passes, UART bits and SPI exchanges, and <b>Findings</b> lists what the firmware does that the manual does not say.</p>`, check:()=>true, auto:true },
 ];
 let lessonIdx = 0;
@@ -1081,6 +1090,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__pod2Keys = false;
   const F = [
+    ['F0','Corrected 2026|59: the POD9 SLAVE button only works in the 16F73 build (see pod9.js)','The POD9 side used to toggle slave mode on its SLAVE button. In POD9 V102 (<span class="mono">#V102/pod9v102.asm</span>, the build for “POD2 remote with POD2 and POD9”) the RA1 “check mix” read in <span class="mono">input</span> is commented out, so the button does nothing, and <span class="mono">SPI_master</span> does <span class="mono">bcf pre_output,5</span> on every SPI exchange, forcing slave on. A POD2 command that clears slave (F0 C0, or SUM via <span class="mono">special_spi</span>) therefore lasts one exchange. Toggling works only in the 16F73 build (<span class="mono">#V100/pod9v102.asm</span>). The POD9 side now defaults to V102; the 16F73 build is an option in the slave-port panel.'],
     ['F1','Manual vs code: C0 and C7 are swapped','The manual (SERIAL PROTOCOL 4) says F0 C0 turns POD9’s slave indicator on and F0 C7 turns it off. In <span class="mono">translate_uart</span> → <span class="mono">slave_mode</span>, a = 0 jumps to <span class="mono">slave_off</span> (bit 6 set = off) and a = 7 to <span class="mono">slave_on</span> (bit 6 cleared). The POD2R remote agrees with the code: <span class="mono">slave_on_stuff</span> sends C7, <span class="mono">slave_off_stuff</span> sends C0 (pod2r200.asm). Try the “Manual note test” scenario.'],
     ['F2','The slave field of a C1–C6 command also turns slave mode on','<span class="mono">not_on</span> clears bit 6 of <span class="mono">spi_output_temp</span>, so “11 000 aaa” both switches audio+video to input a and switches POD9 into audio-follow-video. The manual only says “slave audio and video”.'],
     ['F3','SUM over the slave port drops AFV','When SUM is on and a button is pressed, <span class="mono">SPI_trns_cntrl</span> → <span class="mono">special_spi</span> sends POD9 its own video byte with bit 6 set: POD9 leaves slave mode. <span class="mono">sum_audio</span> (RS-422 01xxxxxx) does the same through <span class="mono">spi_uart_setup</span> + <span class="mono">bsf spi_output_temp,6</span>. The manual does not say that mixing breaks the link.'],

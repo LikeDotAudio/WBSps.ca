@@ -10,11 +10,13 @@ tags: ["product", "metering", "2010s"]
 
 # 32ME-AES — High Density 32 Channel Audio Meter
 
+**▶ [Open the 32ME uNet / MADI modules simulation](../siumulation.html?plugin=32me)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=32ME-AES) · [KiCad symbol generator](../kicad.html?m=32ME-AES) · [download package (zip)](../_packages/32ME-AES.zip) |
+| Try it | [full simulation: 32ME uNet / MADI modules](../siumulation.html?plugin=32me) · [simulator & front panel](../simulator.html?m=32ME-AES) · [KiCad symbol generator](../kicad.html?m=32ME-AES) · [download package (zip)](../_packages/32ME-AES.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Mar.06 2015" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/32ME-AES MANUAL(1).docx |
 | Confidence | medium |

@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD22 — Stereo Loudness Meter
 
+**▶ [Open the POD22 - simulation](../siumulation.html?plugin=pod22)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

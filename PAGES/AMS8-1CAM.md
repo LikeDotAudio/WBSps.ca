@@ -10,11 +10,13 @@ tags: ["product", "metering", "2010s"]
 
 # AMS8-1CAM — Mkiii 8 Channel Audio Monitoring System
 
+**▶ [Open the AMS81 simulation](../siumulation.html?plugin=ams81)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-1CAM) · [KiCad symbol generator](../kicad.html?m=AMS8-1CAM) · [download package (zip)](../_packages/AMS8-1CAM.zip) |
+| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [simulator & front panel](../simulator.html?m=AMS8-1CAM) · [KiCad symbol generator](../kicad.html?m=AMS8-1CAM) · [download package (zip)](../_packages/AMS8-1CAM.zip) |
 | Earliest dated evidence | [2018\|51](Year-2018.md) — month & year |
 | Evidence | "Aug.13 2018" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-1CAM Manual(1).docx |
 | Confidence | medium |

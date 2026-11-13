@@ -2,12 +2,12 @@
    POD11A — Stereo loudness meter (VU + PPM/peak LED bars, phase meter), Ward-Beck Systems
    Plugin for the WBS Device Simulator (../siumulation.html). Hardware model.
 
-   The POD11A folder holds only panels, panel drawings and photos. The metering maths comes from the "SLM-1"
-   (Stereo Loudness Meter) ADSP-21065L code filed in the sister POD3A folder. Its options match POD11A's rear
-   DIP legend exactly (peak hold, PPM type 1/2, −20 dBFS calibration), so the code is assumed to be POD11A's family (inferred):
-   - #POD #SERIES/POD3A - #Master/POD3A - #Engineering/sharc/working v101/vumeter.asm   (TCONST_VU / PPM / PEAK, formulas)
-   - .../sharc/working v101/slm-1-main.asm   (VU_32/441/48, peak_decay type 1 "1 second" / type 2 "3 seconds", meter_cal −6 = −20 dBFS)
-   - .../sharc/working v101/phasemeter.asm   (PhaseMeterGet: 0–127 out of phase, 128 none, 129–255 in phase)
+   The POD11A folder holds only panels, panel drawings and photos.
+   Corrected 2026|59 (see pod11.js, pod3a.js, slm.js): the model is rebased on the POD11A manual and the digital SLM-1 code.
+   - #POD #SERIES/XXX - POD11 - #Master  #OBSOLETE/POD11 - #MANUAL #Obsolete/POD11A MANUAL.pdf (DIP table, ballistics, 41 LEDs, 30–96 kHz)
+   - #SLM #SERIES - To Delete/SLM - #Engineering - To Delete/SLM-1/sharc/slm-1-v1.02/slm-1-main.asm, vumeter.asm, phasemeter.asm,
+     sdm_vu_data_1..3.dat, sdm_pk_data_1..3.dat, sdm_phase_data.dat (digital SLM-1 master; tied to POD11A by the 2004
+     "POD11A AES/EBU MONITOR" functional diagram with an "SLM1D Input" — inferred)
    - #POD #SERIES/POD11A - #Master/POD11A - #ARTWORK #DA #2016/POD11A-FRONT&REAR-SILK(CURVE).pdf (panels, Jun 19 2014) + Pics/
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -264,72 +264,104 @@ function drawAesScope(cv, subA, subB, fs, amp, label){
 }
 
 const PREFIX='pod11a';
-const FS0=48000;
-const TC = { VU:0.0003541811, PPM_A:0.02103034, PPM_D:0.00007084630, PK_D1:0.0000767499, PK_D2:0.0000383757 };  // per-sample at 48 kHz (vumeter.asm / slm-1-main.asm)
-const T40 = tc => -4/(FS0*Math.log10(1-tc));      // seconds for 40 dB, from "tconst = 1 − 10^(−40/(10·time·FS))"
-// the 57 scale points printed under the bars: 52 … 20 in 2 dB steps, 19 … 1, 0, 1 … 20  (dB re the CAL reference)
+/* ---------------- constants from the digital SLM-1 master (slm-1-v1.02/slm-1-main.asm, vumeter.asm, phasemeter.asm) ----------------
+   sample_rate_calc picks one set per measured rate (emuclk counts between SPORT0 interrupts: 96k ≈ 301, 48k ≈ 598, 44.1k ≈ 647, ±10).
+   Comment in the code: "vu=300mS/24db, pk attack=5mS/24db, peak decay parameter calc for 1.5s and 3s /24db".            */
+const KS = {
+  32000:{ vu:0.0005754806, pa:0.03394912, d1:0.0000575630, d2:0.0001151226, emu:'797–1165 (non-standard band)' },
+  44100:{ vu:0.0004176153, pa:0.02475070, d1:0.0000417694, d2:0.000083537,  emu:'647 ± 10' },
+  48000:{ vu:0.0003836906, pa:0.02276277, d1:0.0000383757, d2:0.0000767499, emu:'598 ± 10' },
+  96000:{ vu:0.0001918637, pa:0.01138138, d1:0.0000191880, d2:0.0000383757, emu:'301 ± 10' },
+};
+const T24 = (tc,fs) => -24/(10*fs*Math.log10(1-tc));   // seconds per 24 dB, from "tconst = 1 − 10^(−24/(10·time·FS))"
+const PK_HOLD = 200000, PK_THRESH = 0.707, MUX = 300, PH_ALPHA = 0.999;   // pk_hold / ppm_hold (samples), pk_thresh, mux_rate, PHMETER_ALPHA
+// the silk's 57 scale points: 52 … 20 in 2 dB steps, 19 … 1, 0, 1 … 20  (dB re the CAL reference)
 const SEG = [...Array(17)].map((_,i)=>-52+2*i).concat([...Array(19)].map((_,i)=>-19+i)).concat([0]).concat([...Array(20)].map((_,i)=>i+1));
 const SEGX = i => 500 + i*(1353-500)/56;
-const CALT = { '11':-20, '01':-18, '10':-16, '00':-14 };   // CAL1, CAL0 (1 = ON) from the rear silk table
-const D = { ver:'75', on:true, lockAt:-1, dip:{BS1:0, BS0:1, CAL1:1, CAL0:1},   // BS1 OFF = peak hold off; BS0 ON = PPM type 2
+// sdm_vu_data_1..3 / sdm_pk_data_1..3: table index (0–255, 0.5 dB per step) → segment label. 40 segments, +14 … −38.
+const BRK = [[0,14]].concat([...Array(30)].map((_,k)=>[13+2*k,13-k])).concat([[75,-18],[79,-20],[83,-22],[87,-24],[91,-26],[95,-28],[99,-32],[107,-36],[115,-38],[123,null]]);
+const FWSEG = BRK.filter(b=>b[1]!==null).map(b=>b[1]);            // the 40 firmware segments, top first
+function labelOf(idx){ let L=null; for (const [i,l] of BRK) if (idx>=i) L=l; return idx>=123?null:L; }
+const D = { ver:'75', on:true, lockAt:-1, fs:48000, dip:{BS1:1, BS0:0, CAL1:1, CAL0:1},   // 1 = switch ON. BS1 ON = peak hold OFF; BS0 OFF = 1.5 s decay
   sig:{ prog:'bursts', f:1000, dbfs:-12, phase:0, rOff:0 }, log:[] };
 const FACT=JSON.parse(JSON.stringify(D));
-const calRef = ()=>CALT[''+D.dip.CAL1+D.dip.CAL0];
-const peakHold = ()=>!!D.dip.BS1, ppmType = ()=> D.dip.BS0 ? 2 : 1;
-function locked(t){ return D.on && (D.lockAt<0 || t >= D.lockAt + 0.02); }   // lock time inferred
+// DIP switches are read as FLAG0–3 inputs (ASTAT bits 19–22). A switch that is ON reads 0 (pull-up, inferred: it makes BS1 and CAL agree with the manual)
+const flag = n => D.dip[n] ? 0 : 1;
+const calV = () => flag('CAL1') + 2*flag('CAL0');               // read_dipswitch: (astat & cal_mask) >> 21
+const meterCal = () => 4*calV() - 6;                            // meter_cal: −6 = −20 dBFS, 0.5 dB per unit
+const calRef = () => -20 + 2*calV();
+const ppmHoldOn = () => flag('BS1')===1;                         // "test position of BS1": bit set → ppm_hold_l / ppm_hold_r run
+const decay = () => flag('BS0')===0 ? KS[D.fs].d1 : KS[D.fs].d2; // BS0 bit clear → peak_decay_1 ("type2 (3 seconds)")
+const decayName = () => flag('BS0')===0 ? 'peak_decay_1 — 3 s/24 dB (code comment “type2”)' : 'peak_decay_2 — 1.5 s/24 dB (code comment “type1”)';
+function locked(t){ return D.on && (D.lockAt<0 || t >= D.lockAt + 0.02); }   // CS8427 lock time inferred
 /* ---------------- programme ---------------- */
 function amp(ch,t){ const s=D.sig; if (!D.on) return 0;
   let a=Math.pow(10,(s.dbfs + (ch?s.rOff:0))/20);
   if (s.prog==='bursts') a *= (t%0.5)<0.12 ? 1 : 0;                    // 120 ms bursts every 500 ms
   else if (s.prog==='step') a *= t>=0.2 ? 1 : 0;
   else if (s.prog==='speech'){ const e=0.5+0.5*Math.sin(2*Math.PI*3.1*t)*Math.sin(2*Math.PI*0.7*t+1); a*=Math.max(0,e)*(1+0.4*Math.sin(2*Math.PI*11*t)); }
-  return a; }
+  return Math.min(a,1); }
 function sample(ch,t){ return amp(ch,t)*Math.sin(2*Math.PI*D.sig.f*t + (ch? D.sig.phase*Math.PI/180 : 0)); }
-/* ---------------- ballistics, run once per settings change at 0.25 ms resolution ---------------- */
+/* ---------------- VUMeterCalc + PhaseMeterCalc + hold counters, run once per settings change at 0.25 ms resolution ---------------- */
 let CACHE=null, KEY='';
+const idxOf = p => clamp(Math.round(Math.min(255, p>0 ? -2*10*Math.log10(p) : 255)) + meterCal(), 0, 255);   // VUMeterGet → +meter_cal → clamp 0..255
 function run(){
-  const key=JSON.stringify([D.sig,D.dip,D.on]); if (key===KEY) return CACHE; KEY=key;
-  const dt=0.00025, N=Math.round(1/dt)+1, k=n=>FS0*dt*n;
-  const step = tc => 1-Math.pow(1-tc, k(1));
-  const aVU=step(TC.VU), aPA=step(TC.PPM_A), aPD=step(TC.PPM_D), aKD=step(ppmType()===1?TC.PK_D1:TC.PK_D2);
-  const out=[[],[]];
-  for (let ch=0;ch<2;ch++){ let vu=0, ppm=0, pk=0;
-    for (let n=0;n<N;n++){ const t=n*dt, A=amp(ch,t), sq=A*A;      // in² of a sine: mean A²/2 (VU), peak A² (PPM)
-      vu += (sq/2 - vu)*aVU;
-      ppm += (sq - ppm)*(sq>ppm ? aPA : aPD);
-      if (sq>=pk) pk=sq; else if (!peakHold()) pk += (0-pk)*aKD;
-      out[ch].push([vu,ppm,pk]); } }
-  CACHE={dt,out}; return CACHE;
+  const key=JSON.stringify([D.sig,D.dip,D.on,D.fs]); if (key===KEY) return CACHE; KEY=key;
+  const fs=D.fs, K=KS[fs], dt=0.00025, N=Math.round(1/dt)+1, n=fs*dt;
+  const step = tc => 1-Math.pow(1-tc, n);
+  const aVU=step(K.vu), aPA=step(K.pa), aPD=step(decay()), aPh=1-Math.pow(PH_ALPHA,n), holdT=PK_HOLD/fs;
+  const out=[[],[]], ph=[];
+  const st=[0,1].map(()=>({vu:0,ppm:0,led:0,hold:255,hc:0})); let sA=0, dA=0;
+  for (let k=0;k<N;k++){ const t=k*dt;
+    for (let ch=0;ch<2;ch++){ const s=st[ch], A=amp(ch,t), sq=A*A;
+      s.vu += (sq/2 - s.vu)*aVU;                                         // VU = VU + (in² − VU)·Tvu (mean of a sine's in² = A²/2)
+      s.ppm += (sq - s.ppm)*(sq>s.ppm ? aPA : aPD);                       // PPM = max(PPMA, PPMD)
+      s.led = A>PK_THRESH ? holdT : Math.max(0, s.led-dt);               // test_peaks: |in| > 0.707 → pk_led for pk_hold samples
+      const pk=idxOf(s.ppm);
+      if (ppmHoldOn()){ if (pk<=s.hold){ s.hold=pk; s.hc=holdT; } else if (s.hc>0) s.hc=Math.max(0,s.hc-dt); else s.hold=255; }
+      else { s.hold=255; s.hc=Math.max(0,s.hc-dt); }
+      out[ch].push([s.vu,s.ppm,s.led>0,s.hold]); }
+    const a=amp(0,t), b=amp(1,t), c=Math.cos(D.sig.phase*Math.PI/180), avg=2/Math.PI;  // average |L±R| of two sines
+    sA += (avg*Math.sqrt(Math.max(0,a*a+b*b+2*a*b*c)) - sA)*aPh; dA += (avg*Math.sqrt(Math.max(0,a*a+b*b-2*a*b*c)) - dA)*aPh;
+    ph.push((sA+dA)<1e-4 ? 128 : Math.trunc(128*clamp((sA-dA)/(sA+dA),-1,1)+128)); }
+  CACHE={dt,out,ph}; return CACHE;
 }
 const dbOf = p => p>1e-14 ? 10*Math.log10(p) : -140;
-function meter(ch,t){ const c=run(); const i=clamp(Math.round(t/c.dt),0,c.out[ch].length-1), [vu,ppm,pk]=c.out[ch][i];
-  return { vu:dbOf(2*vu), ppm:dbOf(ppm), pk:dbOf(pk) }; }   // dBFS (sine-referenced)
-function rel(dbfs){ return dbfs - calRef(); }     // dB on the printed scale
-function litCount(dbr){ let n=0; for (const s of SEG) if (dbr>=s) n++; return n; }
-function dotIndex(dbr){ let idx=-1; SEG.forEach((s,i)=>{ if (dbr>=s) idx=i; }); return idx; }
-function corr(t){ const a=amp(0,t), b=amp(1,t); if (a<1e-4||b<1e-4) return null; return Math.cos(D.sig.phase*Math.PI/180); }
-function phaseCode(t){ const c=corr(t); return c===null?128:Math.round(128+c*127); }   // PhaseMeterGet output (0–255)
+const tMux = t => Math.floor(t*D.fs/MUX)*MUX/D.fs;              // translate_meter_results runs every mux_rate = 300 samples
+function meter(ch,t){ const c=run(); const i=clamp(Math.round(t/c.dt),0,c.out[ch].length-1), [vu,ppm,led,hold]=c.out[ch][i];
+  const lk=locked(t), vi=lk?idxOf(vu):255, pi=lk?idxOf(ppm):255, hi=lk?hold:255;
+  return { vu:dbOf(2*vu), ppm:dbOf(ppm), vuIdx:vi, pkIdx:pi, holdIdx:hi, led:lk&&led,
+    vuL:labelOf(vi), pkL:labelOf(pi+6), holdL:(()=>{ const L=labelOf(hi+6); return L===null||L<(ch?-1:0)?null:L; })() }; }   // hold dot: pk_data_1 only (−1 … +14), left masks −1
+function phaseCode(t){ if(!locked(t)) return 255; const c=run(); return c.ph[clamp(Math.round(t/c.dt),0,c.ph.length-1)]; }   // no lock → phase_results forced to 255
+function phaseLit(code){ return code<36?7: code<72?6: code<108?5: code<148?4: code<184?3: code<220?2: 1; }       // sdm_phase_data.dat
+const rel = dbfs => dbfs - calRef();
 /* ---------------- actions ---------------- */
-const act=makeActor(D, ()=>`L VU ${fdb(rel(meter(0,SIM.t).vu))} · PPM ${fdb(rel(meter(0,SIM.t).ppm))} (scale dB, CAL ${calRef()} dBFS)`);
+const act=makeActor(D, ()=>{ const m=meter(0,SIM.t); return `L VU ${m.vuL===null?'off':fdb(m.vuL,0)} · PPM dot ${m.pkL===null?'off':fdb(m.pkL,0)} (scale, CAL ${calRef()} dBFS)`; });
 const A={
   dip(n){ act(`Rear DIP ${n} → ${D.dip[n]?'OFF':'ON'}`, tr=>{ D.dip[n]^=1;
-    if (n==='BS1') tr(peakHold()?'PEAK HOLD ON: the peak dot stops decaying (TCONST_PEAK_DECAY = 0.0 in vumeter.asm)':`PEAK HOLD OFF: the peak dot decays at peak_decay_${ppmType()===1?'2 (type 1, “1 second”)':'1 (type 2, “3 seconds”)'}`);
-    else if (n==='BS0') tr(`PPM TYPE ${ppmType()}: slm-1-main.asm picks ${ppmType()===1?'peak_decay_2_48 = 0.0000767499 (“type1 (1 second)”)':'peak_decay_1_48 = 0.0000383757 (“type2 (3 seconds)”)'}`);
-    else tr(`CAL1/CAL0 = ${D.dip.CAL1?'ON':'OFF'}/${D.dip.CAL0?'ON':'OFF'} → scale 0 = ${calRef()} dBFS; the top segment (+20) = ${calRef()+20} dBFS${calRef()+20>0?' — above full scale, so it can never light':''}`);
-    tr('The DSP reads the switches and re-indexes its dB-to-segment table (meter_cal; “-6=-20dBFS”) ('+inf+')'); }); },
-  plug(){ act(D.on?'Disconnect AES input':'Connect AES input', tr=>{ D.on=!D.on; D.lockAt=SIM.t; tr(D.on?'Receiver locks (≈20 ms, '+inf+') → LOCK; SPORT0 DMA starts delivering one stereo pair per sample → VUMeterCalc every sample':'No lock: LOCK off, ERROR on ('+inf+'); the bars fall back with their decay time constants'); }); },
-  set(k,v,l){ act(l, tr=>{ D.sig[k]=v; tr(k==='phase'?`PhaseMeterCalc: correlation ${Math.cos(v*Math.PI/180).toFixed(2)} → PhaseMeterGet ≈ ${Math.round(128+Math.cos(v*Math.PI/180)*127)} (0–127 out of phase, 128 none, 129–255 in phase)`:'Programme changed; ballistics recomputed'); }); },
+    tr(`read as FLAG${({BS1:0,BS0:1,CAL1:2,CAL0:3})[n]} = ${flag(n)} (ASTAT bit ${({BS1:19,BS0:20,CAL1:21,CAL0:22})[n]}; ON reads 0, ${inf})`);
+    if (n==='BS1') tr(ppmHoldOn()?`BS1 OFF = PEAK HOLD ON: sport0_isr calls ppm_hold_l / ppm_hold_r every sample; a PPM peak is held for ppm_hold = 200000 samples (${(PK_HOLD/D.fs).toFixed(2)} s at ${D.fs/1000} kHz; manual says 3 s). The hold dot comes from pk_data_1 only, so only peaks at −1 … +14 are held`:'BS1 ON = PEAK HOLD OFF: bs1_is_off0 → ppm_hold_left/right = 255 (dot off)');
+    else if (n==='BS0') tr(`update_meter_parameters_${D.fs===44100?'441':D.fs/1000}: BS0 bit ${flag('BS0')?'set':'clear'} → ${decayName()} written to VUMETER_WS_PPM_DECAY (manual: BS0 ON = Type 1; the code gives ON = 3 s)`);
+    else tr(`read_dipswitch: meter_cal = 4·${calV()} − 6 = ${meterCal()} → scale 0 = ${calRef()} dBFS (manual table: ON/ON −20, OFF/ON −18, ON/OFF −16, OFF/OFF −14)`); }); },
+  plug(){ act(D.on?'Disconnect AES input':'Connect AES input', tr=>{ D.on=!D.on; D.lockAt=SIM.t; tr(D.on?'CS8427 locks (≈20 ms, '+inf+'): cs8427_in+5 bit 13 clears → refresh_lock_status sets the LOCK bit in shift7; SPORT0 DMA delivers one stereo pair per sample → VUMeterCalc, PhaseMeterCalc':'cs8427_in+5 bit 13 set (no lock): refresh_lock_status → ERROR bit; translate_meter_results forces vu/pk results and ppm_hold to 255 (bars off), pk_led to 0, raises FLAG10 for the PIC — and forces phase_results to 255, which the phase table shows as one “in phase” LED'); }); },
+  set(k,v,l){ act(l, tr=>{ D.sig[k]=v; tr(k==='phase'?`PhaseMeterCalc: sumAVE = AVE|L+R|, diffAVE = AVE|L−R| (α = 0.999); PhaseMeterGet = trunc(128·(sum−diff)/(sum+diff) + 128) → ${phaseCode(SIM.t)} → ${phaseLit(phaseCode(SIM.t))} of 7 phase LEDs`:k==='dbfs'&&v>-3?'Above −3 dBFS: test_peaks sees |in| > pk_thresh 0.707 → pk_led lights for 200000 samples':'Programme changed; ballistics recomputed'); }); },
+  fs(v){ act(`Input sample rate → ${v/1000} kHz`, tr=>{ D.fs=v; tr(`sample_rate_calc: emuclk difference between interrupts ${KS[v].emu} → update_meter_parameters_${v===44100?'441':v/1000}: VU ${KS[v].vu}, PPM attack ${KS[v].pa}, decay ${decay()}`); tr(`Counts in samples are not rescaled: pk_hold / ppm_hold = ${(PK_HOLD/v).toFixed(2)} s, mux period ${SIM.fmtDur(MUX/v)}`); }); },
   ver(v){ act(`Rear version → ${v} Ω`, tr=>{ D.ver=v; tr(v==='75'?'BNC input (Pics/POD11A Rear 75.jpg)':'Phoenix + − G input (Pics/POD11A Rear 110.jpg)'); }); },
   reset(){ Object.assign(D, JSON.parse(JSON.stringify(FACT))); KEY=''; SIM.refresh(); },
 };
 /* ---------------- panels (POD11A-FRONT&REAR-SILK(CURVE).pdf) ---------------- */
 function segColor(v){ return v>8?'#ff2d6f': v>=0?'#ff9a2a': v>=-9?'#ffe23a':'#9be35a'; }
+const PEAKPOS = SEG.indexOf(15);   // pk_led_left_1_on = bit 17 of shift1, next to +14 (bit 16): drawn at the silk's +15 point (inferred)
 function frontSVG(t){
-  let over='';
-  [0,1].forEach(ch=>{ const m=meter(ch,t), vu=rel(m.vu), lit=litCount(vu), dot=dotIndex(rel(m.pk)), y=ch?184:126;
-    SEG.forEach((s,i)=>{ const on=locked(t)&&(i<lit||i===dot); over+=`<rect x="${(SEGX(i)-5).toFixed(1)}" y="${y}" width="10" height="16" rx="2" fill="${on?segColor(s):'#2a2f2a'}" ${on?'filter="url(#glowfront)"':''}/>`; }); });
-  const pc=phaseCode(t);  // 11-LED vertical phase column, +1 at the top
-  for (let i=0;i<11;i++){ const v=1-i*0.2, yy=100+i*12, onIdx=pc===128?-1:Math.round((1-(pc-128)/127)*5); over+=`<circle cx="430" cy="${yy}" r="4.5" fill="${locked(t)&&i===onIdx?(v>0?'#9be35a':v<-0.2?'#ff4a3a':'#ffe23a'):'#2a2f2a'}"/>`; }
+  const tq=tMux(t); let over='';
+  [0,1].forEach(ch=>{ const m=meter(ch,tq), y=ch?184:126;
+    SEG.forEach((s,i)=>{ const fw=FWSEG.includes(s); let on=false, col=segColor(s);
+      if (fw && m.vuL!==null && s<=m.vuL) on=true;                      // VU bar (vu_data)
+      if (fw && (s===m.pkL || s===m.holdL)) on=true;                     // PPM dot (pk_data) and held PPM dot
+      if (i===PEAKPOS && m.led){ on=true; col='#ff2d2d'; }
+      over+=`<rect x="${(SEGX(i)-5).toFixed(1)}" y="${y}" width="10" height="16" rx="2" fill="${on?col:fw||i===PEAKPOS?'#2a2f2a':'#1a1d1a'}" ${on?'filter="url(#glowfront)"':''}/>`; }); });
+  const lit=phaseLit(phaseCode(tq));  // 7-LED phase bar: LED 1 (top, in phase) always lit, the bar grows toward out-of-phase
+  for (let i=0;i<7;i++){ const yy=100+i*20; over+=`<circle cx="430" cy="${yy}" r="5" fill="${D.on||lit?(i<lit?(i<2?'#9be35a':i<4?'#ffe23a':'#ff4a3a'):'#2a2f2a'):'#2a2f2a'}"/>`; }
   over += led(745,222,locked(t),'var(--led-g)',9) + led(845,222,!locked(t),'#ff4a3a',9);
   return panelSVG(PREFIX,'front',{over},'POD11A front panel (real silkscreen)'); }
 function rearSVG(){
@@ -342,119 +374,144 @@ function controlsHTML(){ return `<div class="small" style="display:flex;flex-wra
   <label>Programme <select id="pg">${[['tone','steady tone'],['bursts','120 ms bursts'],['step','tone starts at 200 ms'],['speech','speech-like envelope']].map(([v,l])=>`<option value="${v}" ${v===D.sig.prog?'selected':''}>${l}</option>`).join('')}</select></label>
   <label>Level <input id="lv" type="number" step="1" value="${D.sig.dbfs}" style="width:56px"> dBFS</label><label>R offset <input id="ro" type="number" step="1" value="${D.sig.rOff}" style="width:50px"> dB</label>
   <label>R phase <select id="ph">${[0,45,90,135,180].map(p=>`<option ${p===D.sig.phase?'selected':''}>${p}</option>`).join('')}</select>°</label>
+  <label>Rate <select id="fsr">${Object.keys(KS).map(k=>`<option value="${k}" ${+k===D.fs?'selected':''}>${k/1000} kHz</option>`).join('')}</select></label>
   <label>Rear <select id="vr"><option value="75" ${D.ver==='75'?'selected':''}>75 Ω (BNC)</option><option value="110" ${D.ver==='110'?'selected':''}>110 Ω (Phoenix)</option></select></label></div>
-  <div class="small muted">Click the rear DIP levers (BS1 peak hold, BS0 PPM type, CAL1/CAL0 reference) and the input connector. Press Play or scrub: the bars move with the real time constants. Keys 1–4 flip the DIP switches.</div>`; }
+  <div class="small muted">Click the rear DIP levers (BS1 ON = peak hold OFF, BS0 decay, CAL1/CAL0 reference) and the input connector. Press Play or scrub: the bars move with the real SLM-1 time constants and refresh at the 300-sample mux rate. Silk points with no firmware LED are drawn darker. Keys 1–4 flip the DIP switches.</div>`; }
 function bindControls(root){ const g=s=>root.querySelector(s); if(!g('#pg')) return;
   g('#pg').onchange=e=>A.set('prog',e.target.value,'Programme → '+e.target.selectedOptions[0].text); g('#lv').onchange=e=>A.set('dbfs',Math.min(0,+e.target.value),'Level → '+e.target.value+' dBFS');
-  g('#ro').onchange=e=>A.set('rOff',+e.target.value,'R offset → '+e.target.value+' dB'); g('#ph').onchange=e=>A.set('phase',+e.target.value,'R phase → '+e.target.value+'°'); g('#vr').onchange=e=>A.ver(e.target.value); }
+  g('#ro').onchange=e=>A.set('rOff',+e.target.value,'R offset → '+e.target.value+' dB'); g('#ph').onchange=e=>A.set('phase',+e.target.value,'R phase → '+e.target.value+'°'); g('#vr').onchange=e=>A.ver(e.target.value); g('#fsr').onchange=e=>A.fs(+e.target.value); }
 bindKeys('__pod11aActive', ()=>({'1':()=>A.dip('BS1'),'2':()=>A.dip('BS0'),'3':()=>A.dip('CAL1'),'4':()=>A.dip('CAL0')}));
 /* ---------------- timeline ---------------- */
 function dbLane(label, fn, color){ return { label, h:46, draw(c,X,t0,t1,y,h){ const Y=v=>y+4+(1-(clamp(v,-60,20)+60)/80)*(h-8);
   c.strokeStyle=SIM.css('--grid'); [-40,-20,0].forEach(v=>{ c.beginPath(); c.moveTo(X(t0),Y(v)); c.lineTo(X(t1),Y(v)); c.stroke(); });
   c.fillStyle=SIM.css('--ink2'); c.font='9px sans-serif'; c.fillText('0',X(t0)+2,Y(0)-1); c.fillText('−20',X(t0)+2,Y(-20)-1);
   c.strokeStyle=color; c.lineWidth=1.5; c.beginPath(); const N=Math.min(800,(X(t1)-X(t0))); for(let i=0;i<=N;i++){ const tt=t0+(t1-t0)*i/N, v=fn(tt); i?c.lineTo(X(tt),Y(v)):c.moveTo(X(tt),Y(v)); } c.stroke(); }}; }
-function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2'), wn=SIM.css('--warn'), r=SIM.css('--bad');
+function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2'), wn=SIM.css('--warn'), r=SIM.css('--bad'), fs=D.fs;
+  const lab = L => L===null ? -60 : L;
   return [
-    {label:'AES3 frames / SPORT0 IRQ (48 kHz)', h:22, draw(c,X,t0,t1,y,h){ if(!D.on) return; SIM.pulses(c,X,t0,t1,y,h,1/FS0,0,0.2/FS0,b,'samples → VUMeterCalc'); }},
-    waveLane('Input L (samples)', t=>locked(t)?sample(0,t):0, -0.01, null, b, 34, Object.assign(t=>locked(t)?amp(0,t):0,{dense:(s,pw)=>s*D.sig.f>pw/3})),
-    dbLane('VU L (dB re CAL)', t=>locked(t)?rel(meter(0,t).vu):-60, a),
+    {label:`SPORT0 ISR (${fs/1000} kHz)`, h:22, draw(c,X,t0,t1,y,h){ if(!D.on) return; SIM.pulses(c,X,t0,t1,y,h,1/fs,0,0.2/fs,b,'sport0_isr → VUMeterCalc, PhaseMeterCalc'); }},
+    {label:`mux_ctl (every ${MUX} samples)`, h:22, draw(c,X,t0,t1,y,h){ SIM.pulses(c,X,t0,t1,y,h,MUX/fs,0,72/fs,wn,'L/R toggle + translate + 36-clock shift'); }},
+    waveLane('Input L (samples)', t=>locked(t)?sample(0,t):0, -0.01, PK_THRESH, b, 34, Object.assign(t=>locked(t)?amp(0,t):0,{dense:(s,pw)=>s*D.sig.f>pw/3})),
+    dbLane('VU L (dB re CAL, sine-ref.)', t=>locked(t)?rel(meter(0,t).vu):-60, a),
     dbLane('PPM L (dB re CAL)', t=>locked(t)?rel(meter(0,t).ppm):-60, wn),
-    dbLane(`Peak L ${peakHold()?'(hold ON)':'(type '+ppmType()+' decay)'}`, t=>locked(t)?rel(meter(0,t).pk):-60, r),
-    {label:'Lit segments L / R (of 57)', h:24, draw(c,X,t0,t1,y,h){ c.font='10px '+SIM.css('--mono'); const N=Math.min(300,(X(t1)-X(t0))/2);
-      for(let i=0;i<N;i++){ const tt=t0+(t1-t0)*(i+.5)/N; [0,1].forEach(ch=>{ const n=locked(tt)?litCount(rel(meter(ch,tt).vu)):0; c.fillStyle=ch?b:a; c.fillRect(X(t0+(t1-t0)*i/N), y+2+ch*10, (X(t1)-X(t0))/N+0.5, 8*n/57+0.5); }); } }},
-    {label:'Phase meter (PhaseMeterGet)', h:22, draw(c,X,t0,t1,y,h){ c.fillStyle=SIM.css('--ink'); c.font='11px '+SIM.css('--mono'); const pc=phaseCode((t0+t1)/2); c.fillText(`${pc} → ${pc===128?'no valid signal / 50 %':pc>128?'in phase '+Math.round((pc-128)/127*100)+' %':'out of phase '+Math.round((128-pc)/128*100)+' %'}`, X(t0)+6, y+15); }},
+    dbLane('Displayed VU segment L', t=>lab(meter(0,tMux(t)).vuL), SIM.css('--ink')),
+    dbLane(`PPM dot L ${ppmHoldOn()?'+ hold dot':''}`, t=>{ const m=meter(0,tMux(t)); return Math.max(lab(m.pkL),lab(m.holdL)); }, r),
+    boolLane(`Peak LED L (> −3 dBFS, ${(PK_HOLD/fs).toFixed(2)} s)`, t=>meter(0,t).led, '#ff2d2d'),
+    {label:'Phase (PhaseMeterGet → LEDs)', h:22, draw(c,X,t0,t1,y,h){ c.fillStyle=SIM.css('--ink'); c.font='11px '+SIM.css('--mono'); const pc=phaseCode((t0+t1)/2); c.fillText(`${pc} → ${phaseLit(pc)} of 7 LEDs ${pc===128?'(no correlation / no valid signal)':pc>128?'(in phase)':'(out of phase)'}`, X(t0)+6, y+15); }},
     boolLane('LOCK (green)', t=>locked(t), '#3fbf5f'), boolLane('ERROR (red)', t=>!locked(t), '#e3453a'),
   ]; }
 /* ---------------- views ---------------- */
-function nowTable(t){ const m0=meter(0,t), m1=meter(1,t); return `<table class="kv"><tr><th>CAL reference</th><td class="mono">${calRef()} dBFS = scale 0 · top (+20) = ${calRef()+20} dBFS</td></tr>
-  <tr><th>L: VU / PPM / peak</th><td class="mono">${fdb(rel(m0.vu))} / ${fdb(rel(m0.ppm))} / ${fdb(rel(m0.pk))} dB · ${litCount(rel(m0.vu))} segments</td></tr><tr><th>R: VU / PPM / peak</th><td class="mono">${fdb(rel(m1.vu))} / ${fdb(rel(m1.ppm))} / ${fdb(rel(m1.pk))} dB</td></tr>
-  <tr><th>Peak hold / PPM type</th><td class="mono">${peakHold()?'ON':'OFF'} / type ${ppmType()}</td></tr><tr><th>Phase</th><td class="mono">${phaseCode(t)} (${corr(t)===null?'—':corr(t).toFixed(2)})</td></tr></table>`; }
+function nowTable(t){ const m0=meter(0,tMux(t)), m1=meter(1,tMux(t)), f=L=>L===null?'off':fdb(L,0);
+  return `<table class="kv"><tr><th>CAL reference</th><td class="mono">${calRef()} dBFS = scale 0 (meter_cal ${meterCal()}) · top segment +14 = ${calRef()+14} dBFS</td></tr>
+  <tr><th>L: VU bar / PPM dot / hold</th><td class="mono">${f(m0.vuL)} / ${f(m0.pkL)} / ${f(m0.holdL)} · idx ${m0.vuIdx}/${m0.pkIdx}${m0.led?' · PEAK':''}</td></tr><tr><th>R: VU bar / PPM dot / hold</th><td class="mono">${f(m1.vuL)} / ${f(m1.pkL)} / ${f(m1.holdL)}${m1.led?' · PEAK':''}</td></tr>
+  <tr><th>PPM hold (BS1) / decay (BS0)</th><td class="mono">${ppmHoldOn()?'ON':'OFF'} / ${flag('BS0')?'1.5':'3'} s per 24 dB</td></tr><tr><th>Rate</th><td class="mono">${D.fs/1000} kHz (emuclk Δ ${KS[D.fs].emu})</td></tr><tr><th>Phase</th><td class="mono">${phaseCode(t)} → ${phaseLit(phaseCode(t))} of 7 LEDs</td></tr></table>`; }
 function viewSim(m){ window.__pod11aActive=true;
   m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead — press Play to watch the ballistics',`<div id="fp"></div>${controlsHTML()}`)}${card('Rear panel — DIP switches and input',`<div id="rp"></div>`)}</div>
-   <div>${card('What the meter did (last action)',`<div id="trace" class="log"></div>`)}${card('Readings at the playhead',`<div id="now"></div>`)}</div></div>
-   ${card('Timeline — one second, zoomable: VU, PPM and peak detectors on the left channel',`<canvas id="tl"></canvas>`)}
+   <div>${card('What the firmware did (last action)',`<div id="trace" class="log"></div>`)}${card('Readings at the playhead',`<div id="now"></div>`)}</div></div>
+   ${card('Timeline — one second, zoomable: detectors, displayed segments and status on the left channel',`<canvas id="tl"></canvas>`)}
    <div class="grid2">${card('Scope: one AES3 input frame at the playhead',`<canvas id="sc"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
   const draw=()=>{ const t=SIM.t; m.querySelector('#fp').innerHTML=frontSVG(t); m.querySelector('#rp').innerHTML=rearSVG(); bindPanel(m.querySelector('#rp'));
     m.querySelector('#trace').innerHTML=traceHTML(D,'Flip a rear DIP switch or change the programme.'); m.querySelector('#now').innerHTML=nowTable(t);
     m.querySelector('#log').innerHTML=logHTML(D); SIM.drawLanes(m.querySelector('#tl'),lanes(),{labelW:200});
-    const n=Math.floor(t*FS0), s0=locked(t)?sample(0,t):0, s1=locked(t)?sample(1,t):0;
-    drawAesScope(m.querySelector('#sc'), aesSubframe(s0,n%192===0?'Z':'X',n%192,FS0), aesSubframe(s1,'Y',n%192,FS0), FS0, D.on?1:0.05, `frame ${n.toLocaleString()} ·`); };
+    const fs=D.fs, n=Math.floor(t*fs), s0=locked(t)?sample(0,t):0, s1=locked(t)?sample(1,t):0;
+    drawAesScope(m.querySelector('#sc'), aesSubframe(s0,n%192===0?'Z':'X',n%192,fs), aesSubframe(s1,'Y',n%192,fs), fs, D.on?1:0.05, `frame ${n.toLocaleString()} ·`); };
   bindControls(m); SIM.on('time',draw); }
 const LESSONS=[
-  {title:'Meet the POD11A', body:`<p>The front reads “POD-11A STEREO LOUDNESS METER”. It has two 57-segment bars on a scale from 52 to +20, labelled <b>VU RANGE</b> and <b>PEAK RANGE</b>, a vertical <b>PHASE</b> meter from −1 to +1, and <b>LOCK</b>/<b>ERROR</b> tallies. The rear has one AES input (75 Ω BNC or 110 Ω Phoenix), mains, and a 4-way DIP switch whose legend is printed beside it.</p><p class="muted">No POD11A manual or circuit is archived. The meter maths follows the SLM-1 DSP code in the POD3A folder (${inf}).</p>`, check:()=>true, auto:true},
-  {title:'1 · Set the reference', body:`<p>The rear table: CAL1/CAL0 ON/ON = −20 dBFS, OFF/ON = −18, ON/OFF = −16, OFF/OFF = −14. The chosen level reads <b>0</b> on the scale. Set <b>−18 dBFS</b> (EBU).</p>`, check:()=>calRef()===-18, hint:'Click the CAL1 lever (third) to OFF.'},
-  {title:'2 · Line-up tone', body:`<p>Choose <b>steady tone</b> at <b>−18 dBFS</b>. Press Play. Both bars settle at 0: the VU bar rises in about 0.3 s, the peak dot at once.</p>`, check:()=>D.sig.prog==='tone'&&D.sig.dbfs===-18&&calRef()===-18, hint:'Programme → steady tone; Level −18.'},
-  {title:'3 · Bursts show the ballistics', body:`<p>Choose <b>120 ms bursts</b> at −10 dBFS. On the timeline the VU detector (green) never reaches the burst level, the PPM (orange) nearly does (attack ≈ ${(T40(TC.PPM_A)*1000/4).toFixed(0)} ms per 10 dB), and the peak (red) catches it fully.</p>`, check:()=>D.sig.prog==='bursts'&&D.sig.dbfs===-10, hint:'Programme → 120 ms bursts; Level −10.'},
-  {title:'4 · Peak hold and PPM type', body:`<p>Flip <b>BS1</b> to ON (PEAK HOLD ON): the peak dot stays at the highest level. Flip it back and change <b>BS0</b>: type 1 falls in “1 second”, type 2 in “3 seconds” (the comments in slm-1-main.asm).</p>`, check:()=>D.log.some(e=>e.name==='Rear DIP BS1 → ON')&&D.log.some(e=>e.name.startsWith('Rear DIP BS0')), hint:'Click the first and second DIP levers.'},
-  {title:'5 · Check the phase', body:`<p>Set R phase to <b>180°</b>: the phase column drops to −1, which means a mono sum would cancel. At 90° it sits at 0.</p>`, check:()=>D.sig.phase===180, hint:'R phase → 180.'},
-  {title:'6 · Lose the input', body:`<p>Click the rear input to disconnect it. LOCK goes out, ERROR lights, and the bars fall back.</p>`, check:()=>!D.on, hint:'Click the BNC/Phoenix on the rear.'},
-  {title:'Done', body:`<p>See <b>Findings</b> for the CAL settings that leave the top segments unreachable.</p>`, check:()=>true, auto:true},
+  {title:'Meet the POD11A', body:`<p>The manual (<span class="mono">POD11A MANUAL.pdf</span>, in the obsolete POD11 folder): “a digital series loudness meter [that] displays the average (VU) and peak content of an audio signal simultaneously”, with “sticky” peak LEDs, a phase correlation meter and LOCK/ERROR. “Each stereo bargraph indicator comprises a dual set of 41 LEDs.” Input: AES/EBU 110 Ω or 75 Ω BNC, 30–96 kHz.</p><p class="muted">The model runs the digital SLM-1 master code (<span class="mono">SLM-1/sharc/slm-1-v1.0x</span>), which the 2004 functional diagram ties to POD11A (${inf}).</p>`, check:()=>true, auto:true},
+  {title:'1 · Set the reference', body:`<p>Manual table 2: CAL1/CAL0 ON/ON = −20 dBFS, OFF/ON = −18, ON/OFF = −16, OFF/OFF = −14. In the code, <span class="mono">read_dipswitch</span> sets <span class="mono">meter_cal = 4·n − 6</span> (0.5 dB units). Set <b>−18 dBFS</b> (EBU).</p>`, check:()=>calRef()===-18, hint:'Click the CAL1 lever (third) to OFF.'},
+  {title:'2 · Line-up tone', body:`<p>Choose <b>steady tone</b> at <b>−18 dBFS</b>. Press Play. The VU bar settles at 0 (300 ms per 24 dB) and the PPM dot sits on 0 too: the code adds 3 dB to the PPM index so that a sine reads the same on both.</p>`, check:()=>D.sig.prog==='tone'&&D.sig.dbfs===-18&&calRef()===-18, hint:'Programme → steady tone; Level −18.'},
+  {title:'3 · Bursts show the ballistics', body:`<p>Choose <b>120 ms bursts</b> at −10 dBFS. The VU (300 ms/24 dB) never reaches the burst level; the PPM dot (5 ms/24 dB attack) does, then falls at 1.5 or 3 s per 24 dB.</p>`, check:()=>D.sig.prog==='bursts'&&D.sig.dbfs===-10, hint:'Programme → 120 ms bursts; Level −10.'},
+  {title:'4 · Peak hold and PPM type', body:`<p>Flip <b>BS1</b> to OFF: that turns PEAK HOLD <b>on</b> (manual: “BS1 ON = Peak Hold Off”). A PPM peak above nominal stays as a second dot. Then flip <b>BS0</b>: the PPM decay changes between 1.5 s and 3 s per 24 dB.</p>`, check:()=>D.log.some(e=>e.name==='Rear DIP BS1 → OFF')&&D.log.some(e=>e.name.startsWith('Rear DIP BS0')), hint:'Click the first and second DIP levers.'},
+  {title:'5 · The sticky peak LED', body:`<p>Set the level to <b>−2 dBFS</b>. Samples above 0.707 (−3 dBFS) light the red peak LED beyond +14, and it stays on for 200000 samples (${(PK_HOLD/48000).toFixed(2)} s at 48 kHz).</p>`, check:()=>D.sig.dbfs>-3, hint:'Level → −2.'},
+  {title:'6 · Check the phase', body:`<p>Set R phase to <b>180°</b>: all 7 phase LEDs light (out of phase: a mono sum would cancel). At 0° only the top one is lit.</p>`, check:()=>D.sig.phase===180, hint:'R phase → 180.'},
+  {title:'7 · Lose the input', body:`<p>Click the rear input to disconnect it. LOCK goes out, ERROR lights and the bars go dark at the next mux cycle. Look at the phase column: one LED stays lit (finding).</p>`, check:()=>!D.on, hint:'Click the BNC/Phoenix on the rear.'},
+  {title:'Done', body:`<p>See <b>Findings</b> for the manual/code mismatches.</p>`, check:()=>true, auto:true},
 ];
 let lessonIdx=0;
 function viewTutorial(m){ window.__pod11aActive=true; tutorialView(m,{title:'Tutorial — reading a POD11A',lessons:LESSONS,D,getIdx:()=>lessonIdx,setIdx:i=>lessonIdx=i,reset:()=>A.reset(),
   unitHTML:()=>`${frontSVG(SIM.t)}<div style="margin-top:8px">${rearSVG()}</div>${controlsHTML()}<div class="small">${nowTable(SIM.t)}</div>`, bind:r=>{ bindPanel(r); bindControls(r); }}); }
 function viewSecond(m){ window.__pod11aActive=true;
-  m.innerHTML=`${card('One second, broken down',`<div id="ladder"></div>`)}<div class="grid2">${card('As seen by the DSP at the playhead',`<div id="dev"></div>`)}${card('As seen by the display',`<div id="fp"></div>`)}</div>`;
-  const draw=()=>{ const t=SIM.t;
-    const rows=[['AES3 frames = samples per channel','48,000',SIM.fmtDur(1/FS0),'SPORT0 DMA; VUMeterCalc runs once per sample'],['VU detector', '—', `40 dB in ${T40(TC.VU).toFixed(2)} s`, `TCONST_VU = ${TC.VU} (VU_48 = 0.0003836906 in slm-1-main.asm)`],
-      ['PPM attack','—',`40 dB in ${(T40(TC.PPM_A)*1000).toFixed(1)} ms`,`TCONST_PPM_ATTACK = ${TC.PPM_A}`],['PPM decay','—',`40 dB in ${T40(TC.PPM_D).toFixed(2)} s`,`TCONST_PPM_DECAY = ${TC.PPM_D}`],
-      ['Peak decay, type 1','—',`40 dB in ${T40(TC.PK_D1).toFixed(2)} s`,'peak_decay_2_48 “type1 (1 second)”'],['Peak decay, type 2','—',`40 dB in ${T40(TC.PK_D2).toFixed(2)} s`,'peak_decay_1_48 “type2 (3 seconds)”'],
-      ['Display refresh','≈ 100 ('+inf+')','10 ms','MM5450 LED-driver shift-out in the SLM-1 code']];
-    m.querySelector('#ladder').innerHTML=`<table class="kv"><tr><th>Event</th><th>per second</th><th>period / time</th><th>source</th></tr>${rows.map(r=>`<tr><td>${r[0]}</td><td class="mono">${r[1]}</td><td class="mono">${r[2]}</td><td class="small">${r[3]}</td></tr>`).join('')}</table><p class="small muted">The constants are per-sample IIR coefficients, as in the code comment: tconst = 1 − 10^(−40/(10·time·FS)). “time” is how long the detector takes to move 40 dB.</p>`;
-    m.querySelector('#dev').innerHTML=nowTable(t)+`<p class="small mono">sample ${Math.floor(t*FS0).toLocaleString()} · L = ${sample(0,t).toFixed(5)} · R = ${sample(1,t).toFixed(5)}</p>`;
+  m.innerHTML=`${card('One second, broken down',`<div id="ladder"></div>`)}<div class="grid2">${card('As seen by the DSP at the playhead',`<div id="dev"></div>`)}${card('As seen by the display (last mux update)',`<div id="fp"></div>`)}</div>`;
+  const draw=()=>{ const t=SIM.t, fs=D.fs, K=KS[fs];
+    const rows=[['AES3 frames = SPORT0 interrupts',fs.toLocaleString(),SIM.fmtDur(1/fs),'sport0_isr: VUMeterCalc, PhaseMeterCalc, hold counters, test_peaks, DIP read'],
+      ['VU detector','—',`24 dB in ${(T24(K.vu,fs)*1000).toFixed(0)} ms`,`VU_${fs===44100?'441':fs/1000} = ${K.vu} (“vu=300mS/24db”)`],
+      ['PPM attack','—',`24 dB in ${(T24(K.pa,fs)*1000).toFixed(1)} ms`,`PPM_ATTACK = ${K.pa} (“pk attack=5mS/24db”)`],
+      ['PPM decay (BS0)','—',`24 dB in ${T24(decay(),fs).toFixed(2)} s`,decayName()],
+      ['Peak LED / PPM hold','—',`${(PK_HOLD/fs).toFixed(2)} s`,'pk_hold = ppm_hold = 200000 samples (manual: 3 s)'],
+      ['Phase averaging','—',`τ ≈ ${SIM.fmtDur(1/(1-PH_ALPHA)/fs)}`,'PHMETER_ALPHA = 0.999'],
+      ['mux_ctl: L/R toggle',(fs/MUX).toFixed(1),SIM.fmtDur(MUX/fs),'“300=80Hz mux rate at 48K”: each bar refreshed every '+SIM.fmtDur(2*MUX/fs)],
+      ['LED shift (36 clocks, 2 interrupts each)',(fs/MUX).toFixed(1),SIM.fmtDur(72/fs),'shift_led_data → MM5450 (FLG4–6 data, FLG7 clock)']];
+    m.querySelector('#ladder').innerHTML=`<table class="kv"><tr><th>Event</th><th>per second</th><th>period / time</th><th>source (slm-1-v1.02)</th></tr>${rows.map(r=>`<tr><td>${r[0]}</td><td class="mono">${r[1]}</td><td class="mono">${r[2]}</td><td class="small">${r[3]}</td></tr>`).join('')}</table><p class="small muted">The constants are per-sample IIR coefficients: tconst = 1 − 10^(−24/(10·time·FS)) (“change 40 to 24 for 24 db decay”).</p>`;
+    m.querySelector('#dev').innerHTML=nowTable(t)+`<p class="small mono">sample ${Math.floor(t*fs).toLocaleString()} · L = ${sample(0,t).toFixed(5)} · R = ${sample(1,t).toFixed(5)} · last mux at ${SIM.fmtT(tMux(t))}</p>`;
     m.querySelector('#fp').innerHTML=frontSVG(t); };
   SIM.on('time',draw); }
 const BLOCKS={
-  in:{x:20,y:30,w:180,h:80,t:'AES input',s:['75 Ω BNC or 110 Ω Phoenix','receiver → LOCK/ERROR'],d:'Two rear versions (photos “Rear 75” and “Rear 110”). The SLM-1 code has a CS8427 transceiver option (cs8427_ctl_dat.dat). The receiver here is inferred.'},
-  dsp:{x:250,y:30,w:200,h:110,t:'ADSP-21065L “SLM-1”',s:['VUMeterCalc every sample','VU / PPM / PEAK detectors','PhaseMeterCalc','dB → segment tables'],d:'POD3A folder, sharc/working v101 (VisualDSP++ 3.5). Its options match POD11A’s rear legend. Inferred to be POD11A’s DSP.'},
-  dip:{x:20,y:160,w:180,h:80,t:'Rear DIP',s:['BS1 peak hold, BS0 PPM type','CAL1/CAL0: −20 … −14 dBFS'],d:'Legend printed on the rear silk.'},
-  led:{x:500,y:30,w:180,h:110,t:'LED drivers',s:['2 × 57 bar segments','11 phase LEDs','LOCK / ERROR'],d:'SLM-1 shifts data out to MM5450 drivers (28 segments, +14 to −38 in that design). POD11A has 57 points per bar, so the driver count differs (inferred).'},
-  ps:{x:250,y:180,w:200,h:60,t:'Power',s:['90–230 VAC, ½ A.S.B.'],d:'Rear silk. No front power switch.'},
+  in:{x:20,y:30,w:180,h:90,t:'AES input',s:['75 Ω BNC or 110 Ω Phoenix','CS8427 transceiver','status → LOCK/ERROR'],d:'Two rear versions (photos “Rear 75” and “Rear 110”). The code loads cs8427_ctl_dat.dat over SPORT1 (18 words) and reads the receiver error word cs8427_in+5; bit 13 = no lock.'},
+  dsp:{x:250,y:30,w:200,h:120,t:'ADSP-21065L (digital SLM-1)',s:['sport0_isr every sample','VUMeterCalc / PhaseMeterCalc','sample_rate_calc (emuclk)','translate_meter_results'],d:'slm-1-v1.02/slm-1-main.asm (“DSB NOV 13,2002 ISSUE.1-WORKING”, v1.02 2006). Tied to POD11A by the 2004 “POD11A AES/EBU MONITOR” functional diagram (“SLM1D Input”) (inferred).'},
+  dip:{x:20,y:170,w:180,h:80,t:'Rear DIP',s:['FLAG0 BS1, FLAG1 BS0','FLAG2 CAL1, FLAG3 CAL0'],d:'Read through ASTAT bits 19–22 every sample. ON reads 0 (inferred pull-ups; consistent with the manual for BS1 and CAL).'},
+  led:{x:500,y:30,w:180,h:120,t:'LED drivers (MM5450)',s:['3 data lines FLG4–6, clock FLG7','FLG8/FLG9 left/right select','40 seg + peak per bar','7 phase, LOCK/ERROR'],d:'Shift registers shift1–3 (left) and shift5–7 (right), 36 clocks each, alternated every 300 samples (80 Hz at 48 kHz). The L/R multiplexing hardware is inferred.'},
+  pic:{x:500,y:180,w:180,h:70,t:'PIC (source not archived)',s:['FLAG10 = no lock'],d:'translate_meter_results raises FLAG10 “FOR PIC”; v1.02 lengthens the FLG9 pulse “for pic L/R test”.'},
+  ps:{x:250,y:190,w:200,h:60,t:'Power',s:['90–230 VAC 50/60 Hz'],d:'Manual and rear silk. No front power switch.'},
 };
-const WIRES=[['in','dsp','I²S'],['dip','dsp',''],['dsp','led','serial'],['ps','dsp','']];
-function viewBlock(m){ window.__pod11aActive=false; blockView(m,BLOCKS,WIRES,'dsp',[700,270],card('In one sentence',`<p>An AES receiver hands each sample to a SHARC DSP, which runs VU, PPM and peak detectors and a phase correlator, then lights 2 × 57 bar segments and an 11-LED phase column.</p>`)); }
+const WIRES=[['in','dsp','SPORT0 / SPORT1'],['dip','dsp','FLAG0–3'],['dsp','led','FLG4–9'],['dsp','pic','FLAG10'],['ps','dsp','']];
+function viewBlock(m){ window.__pod11aActive=false; blockView(m,BLOCKS,WIRES,'dsp',[700,270],card('In one sentence',`<p>A CS8427 hands each AES sample pair to an ADSP-21065L, which runs VU and PPM detectors and a phase correlator every sample, and every 300 samples shifts 40 bar segments, a peak LED, 7 phase LEDs and LOCK/ERROR out to MM5450 drivers for one side of the display.</p>`)); }
 const SHEETS=[
-  {name:'1 · Meter algorithm (vumeter.asm)', note:'Redrawn from the comments and constants of vumeter.asm / slm-1-main.asm (SLM-1, POD3A folder). Hardware pins are not archived for POD11A.', svg:()=>
-    txt(40,50,'Per sample (48 kHz):',13)+txt(60,80,'VU   = VU  + (in² − VU)·Tvu            Tvu = '+TC.VU,12)+txt(60,105,'PPM  = PPM + (in² − PPM)·Tppm         Tppm = '+TC.PPM_A+' (rising) / '+TC.PPM_D+' (falling)',12)
-    +txt(60,130,'PEAK = max(PEAK, in²); decays by peak_decay_1/2 unless PEAK HOLD',12)+txt(60,160,'dB = (10/ln10)·ln(x)   (TEN_DIV_LN10 = 4.342944819) → segment table (sdm/slm1_vu_data, pk_data)',12)
-    +txt(40,210,'Calibration: meter_cal = −6 “= −20dBFS”; the rear CAL switches move the 0 point by 2 dB steps.',12)
-    +txt(40,250,'Phase: PhaseMeterGet → 0–127 out of phase, 128 = 50 % or no signal, 129–255 in phase.',12)
-    +chip(560,300,160,'ADSP-21065L',[['SPORT0 RX','AES receiver'],['FLAG/IO','DIP switches']],[['serial','LED drivers']],'SLM-1 (inferred for POD11A)')},
+  {name:'1 · DSP pins used by the code', note:'Redrawn from the flag and SPORT usage in slm-1-main.asm (digital SLM-1 v1.02). No POD11A schematic is archived; the pin roles come from the code, the parts around them are inferred.', svg:()=>
+    chip(330,70,200,'ADSP-21065L',[['SPORT0 RX/TX','CS8427 audio'],['SPORT1 RX/TX','CS8427 control'],['FLAG0','BS1'],['FLAG1','BS0'],['FLAG2','CAL1'],['FLAG3','CAL0'],['FLAG11','CS8427 reset']],[['FLAG4','MM5450 data 1'],['FLAG5','MM5450 data 2'],['FLAG6','MM5450 data 3'],['FLAG7','clock'],['FLAG8','left select'],['FLAG9','right select'],['FLAG10','PIC: no lock']],'digital SLM-1 (pins from the code)')
+    +chip(60,330,160,'CS8427',[['AES in','BNC / Phoenix']],[['SDOUT','SPORT0'],['control','SPORT1']],'transceiver ('+'cs8427_ctl_dat.dat)')
+    +chip(600,330,170,'3 × MM5450',[['DATA','FLG4–6'],['CLK','FLG7']],[['bar + phase','LEDs']],'LED drivers (inferred count)')
+    +txt(30,445,'DIP inputs read through ASTAT bits 19–22 in sport0_isr; a switch that is ON reads 0 (inferred pull-ups).',10.5,'var(--ink2)')},
+  {name:'2 · Meter algorithm (vumeter.asm)', note:'Redrawn from the comments and constants of vumeter.asm and slm-1-main.asm (digital SLM-1 v1.02).', svg:()=>
+    txt(40,50,`Per sample (${D.fs/1000} kHz), sport0_isr → VUMeterCalc:`,13)+txt(60,80,'VU   = VU  + (in² − VU)·Tvu                Tvu = '+KS[D.fs].vu,12)+txt(60,105,'PPM  = max(PPM + (in² − PPM)·TppmA, PPM + (in² − PPM)·TppmD)   A = '+KS[D.fs].pa+', D = '+decay(),12)
+    +txt(60,135,'VUMeterGet: idx = min(255, −2·10·log10(x)) + meter_cal (−6 = −20 dBFS), clamp 0…255   (0.5 dB per step)',12)
+    +txt(60,160,'translate_meter_results: VU → vu_data_1..3[idx];  PPM → pk_data_1..3[idx + 6]  (+3 dB: a sine reads the same on both)',12)
+    +txt(60,185,'40 segments: +14 … −16 in 1 dB, −18 … −28 in 2 dB, −32, −36, −38; index ≥ 123 = “no audio”',12)
+    +txt(40,225,'test_peaks: |in| > 0.707 → pk_led (bit 17 of shift1) for 200000 samples',12)
+    +txt(40,250,'ppm_hold (BS1 OFF): hold the lowest PPM index for 200000 samples; shown from pk_data_1 only (−1 … +14)',12)
+    +txt(40,280,'PhaseMeterCalc: sumAVE = AVE|L+R|, diffAVE = AVE|L−R|  (α = 0.999)',12)+txt(40,305,'PhaseMeterGet = trunc(128·(sum − diff)/(sum + diff) + 128) → sdm_phase_data: 1 … 7 LEDs',12)
+    +txt(40,340,'No lock (cs8427_in+5 & 8192): vu/pk/phase results and ppm_hold forced to 255, pk_led 0, FLAG10 set',12)},
 ];
-function viewSchem(m){ window.__pod11aActive=false; schemView(m,SHEETS,'POD11A','There is no POD11A schematic in the archive. This sheet shows the metering maths from the related SLM-1 source and labels the hardware as inferred.'); }
+function viewSchem(m){ window.__pod11aActive=false; schemView(m,SHEETS,'POD11A','There is no POD11A schematic in the archive. These sheets are redrawn from the digital SLM-1 source (pin roles from the code); the hardware around the DSP is labelled inferred.'); }
 function viewSoft(m){ window.__pod11aActive=true;
-  m.innerHTML=`<div class="grid2">${card('Per-sample code path (SLM-1 v101)',`<div id="f"></div>`)}${card('Ballistics, step response (computed from the constants)',`<canvas id="br"></canvas>`)}</div>${card('DIP → code',`<div id="dp"></div>`)}`;
-  const draw=()=>{ m.querySelector('#f').innerHTML=flowSVG([{t:'SPORT0 IRQ',s:['1 stereo pair']},{t:'VUMeterCalc',s:['VU, PPM, PEAK']},{t:'PhaseMeterCalc',s:['L·R correlation']},{t:'VUMeterGet',s:['dB → segment']},{t:'LED shift-out',s:['bars + phase']}],1);
+  m.innerHTML=`<div class="grid2">${card('sport0_isr, once per sample (step running at the playhead)',`<div id="f"></div>`)}${card('Ballistics, step response (computed from the constants at the current rate)',`<canvas id="br"></canvas>`)}</div>${card('main: background loop',`<div id="mn"></div>`)}${card('DIP → code',`<div id="dp"></div>`)}`;
+  const draw=()=>{ const fs=D.fs, K=KS[fs], ph=Math.floor(SIM.t*fs)%MUX, hot = ph===0?4:Math.floor((SIM.t*fs*7)%6);
+    m.querySelector('#f').innerHTML=flowSVG([{t:'float inputs',s:['dma_in_a → ÷2³¹']},{t:'VUMeterCalc',s:['VU, PPM (in²)']},{t:'PhaseMeterCalc',s:['|L±R| averages']},{t:'hold counters',s:['ppm / pk_led']},{t:'mux_ctl',s:[ph===0?'NOW: translate':'every 300']},{t:'shift_led_data',s:['1 clock edge']}],hot);
+    m.querySelector('#mn').innerHTML=flowSVG([{t:'sample_rate_calc',s:['emuclk Δ → '+fs/1000+' kHz','sets Tvu, TppmA, TppmD']},{t:'VUMeterGet ×2',s:['VU → vu_results','+ meter_cal']},{t:'VUMeterGet ×2',s:['PPM → pk_results']},{t:'PhaseMeterGet',s:['→ phase_results']},{t:'jump main',s:['forever']}],Math.floor(SIM.t*20)%5);
     const {c,w}=SIM.canvas(m.querySelector('#br'),200); const dt=0.002, X=t=>40+t/1.5*(w-50), Y=d=>10+(-d)/45*170;
     c.strokeStyle=SIM.css('--grid'); c.fillStyle=SIM.css('--ink2'); c.font='10px sans-serif'; [0,-10,-20,-30,-40].forEach(d=>{ c.beginPath(); c.moveTo(40,Y(d)); c.lineTo(w-10,Y(d)); c.stroke(); c.fillText(d+' dB',2,Y(d)+3); }); [0,0.5,1,1.5].forEach(s=>c.fillText(s+' s',X(s)-6,196));
-    const curves=[[TC.VU,TC.VU,SIM.css('--accent'),'VU',0.5],[TC.PPM_A,TC.PPM_D,SIM.css('--warn'),'PPM',1],[1,TC.PK_D1,SIM.css('--bad'),'peak t1',1],[1,TC.PK_D2,'#c06','peak t2',1]];
-    curves.forEach(([ta,td,col,lb,scale])=>{ let x=0; c.strokeStyle=col; c.lineWidth=1.5; c.beginPath(); for(let t=0;t<=1.5;t+=dt){ const sq=t<0.5?1:0, aa=1-Math.pow(1-ta,FS0*dt), ad=1-Math.pow(1-td,FS0*dt); x += ((lb==='VU'?sq/2:sq)-x)*(sq>x?aa:ad); const d=Math.max(-45,10*Math.log10(Math.max((lb==='VU'?2*x:x),1e-9))); t?c.lineTo(X(t),Y(d)):c.moveTo(X(t),Y(d)); } c.stroke(); c.fillStyle=col; c.fillText(lb, X(1.2), Y(lb==='VU'?-40:lb==='PPM'?-25:lb==='peak t1'?-38:-18)); });
+    const curves=[[K.vu,K.vu,SIM.css('--accent'),'VU'],[K.pa,K.d2,SIM.css('--warn'),'PPM 1.5 s'],[K.pa,K.d1,SIM.css('--bad'),'PPM 3 s']];
+    curves.forEach(([ta,td,col,lb],k)=>{ let x=0; c.strokeStyle=col; c.lineWidth=1.5; c.beginPath(); for(let t=0;t<=1.5;t+=dt){ const sq=t<0.5?1:0, aa=1-Math.pow(1-ta,fs*dt), ad=1-Math.pow(1-td,fs*dt); const tgt=lb==='VU'?sq/2:sq; x += (tgt-x)*(tgt>x?aa:ad); const d=Math.max(-45,10*Math.log10(Math.max((lb==='VU'?2*x:x),1e-9))); t?c.lineTo(X(t),Y(d)):c.moveTo(X(t),Y(d)); } c.stroke(); c.fillStyle=col; c.fillText(lb, w-80, 30+k*14); });
     c.fillStyle=SIM.css('--ink2'); c.fillText('0 dBFS tone for 0.5 s, then silence',X(0.55),20);
-    m.querySelector('#dp').innerHTML=`<table class="kv"><tr><th>Switch</th><th>Legend</th><th>Now</th><th>Code</th></tr><tr><td>BS1</td><td>PEAK HOLD OFF = ON / ON = OFF ¹</td><td class="mono">${D.dip.BS1?'ON':'OFF'}</td><td class="small mono">TCONST_PEAK_DECAY 0.0 (hold) or peak_decay_x</td></tr>
-      <tr><td>BS0</td><td>PPM TYPE 2 = ON, TYPE 1 = OFF</td><td class="mono">${D.dip.BS0?'ON':'OFF'}</td><td class="small mono">peak_decay_1 (type 2, 3 s) / peak_decay_2 (type 1, 1 s)</td></tr>
-      <tr><td>CAL1, CAL0</td><td>−20 ON ON · −18 OFF ON · −16 ON OFF · −14 OFF OFF</td><td class="mono">${D.dip.CAL1?'ON':'OFF'}, ${D.dip.CAL0?'ON':'OFF'} = ${calRef()} dBFS</td><td class="small mono">meter_cal (“-6=-20dBFS”)</td></tr></table>
-      <p class="small muted">¹ The silk literally reads “PEAK HOLD OFF | ON” and “PEAK HOLD ON | OFF” under BS1, so the hold is on when BS1 is OFF. This model follows the more natural reading (ON = hold) and flags the ambiguity in Findings.</p>`; };
+    m.querySelector('#dp').innerHTML=`<table class="kv"><tr><th>Switch</th><th>Manual</th><th>Now</th><th>Code</th></tr><tr><td>BS1 (SW4, FLAG0)</td><td>ON = Peak Hold Off · OFF = Peak Hold On</td><td class="mono">${D.dip.BS1?'ON':'OFF'} → hold ${ppmHoldOn()?'ON':'OFF'}</td><td class="small mono">bit set → ppm_hold_l/r; clear → ppm_hold = 255</td></tr>
+      <tr><td>BS0 (SW3, FLAG1)</td><td>ON = PPM Type 1 (1.5 s/24 dB) · OFF = Type 2 (3 s)</td><td class="mono">${D.dip.BS0?'ON':'OFF'} → ${flag('BS0')?'1.5':'3'} s</td><td class="small mono">bit clear → peak_decay_1 “type2 (3 seconds)”; set → peak_decay_2 “type1”</td></tr>
+      <tr><td>CAL1, CAL0 (SW2, SW1)</td><td>−20 ON ON · −18 OFF ON · −16 ON OFF · −14 OFF OFF</td><td class="mono">${D.dip.CAL1?'ON':'OFF'}, ${D.dip.CAL0?'ON':'OFF'} = ${calRef()} dBFS</td><td class="small mono">meter_cal = 4·((astat &amp; cal_mask) &gt;&gt; 21) − 6 = ${meterCal()}</td></tr></table>
+      <p class="small muted">BS1 and CAL agree with the manual if an ON switch reads 0. Read the same way, BS0 ON gives the 3 s decay, which the code calls “type2” and the manual calls Type 2 = OFF: the manual and the code disagree on BS0 (Findings).</p>`; };
   SIM.on('time',draw); }
 function viewNotes(m){ window.__pod11aActive=false;
   m.innerHTML=card('What the POD11A archive shows — findings',`<ol>
-   <li><b>The POD11A's maths is probably in another folder.</b> POD11A has no electronics files. The “SLM-1” (Stereo Loudness Meter) ADSP-21065L project filed under POD3A has a VU/PPM/PEAK meter with peak hold, PPM type 1/2 and a −20 dBFS calibration default, plus a phase meter. These are exactly the options on POD11A's rear legend. The README of POD3A already doubts that the code belongs to the analog POD3A (${inf}: it is POD11A's family).</li>
-   <li><b>Three CAL settings leave the top of the scale unreachable.</b> The scale tops out at +20 above the reference. Only the −20 dBFS setting puts +20 at 0 dBFS. At −18, −16 and −14 dBFS the top 2, 4 and 6 segments would mean +2, +4 and +6 dBFS, which AES audio cannot reach. Try it: set CAL to −14 and send a 0 dBFS tone.</li>
-   <li><b>The BS1 legend is ambiguous.</b> The rear table reads “BS1 … PEAK HOLD OFF  ON” and “PEAK HOLD ON  OFF”, so peak hold is ON when the switch is OFF. That is the reverse of BS0's “PPM TYPE 2 ON”.</li>
-   <li><b>“Loudness” here means VU and PPM, not LKFS.</b> The SLM-1 maths is VU integration plus PPM attack/decay on in². It has no K-weighting or gating (ITU-R BS.1770). The product name predates that use of the word.</li>
-   <li><b>The time constants were tuned by hand.</b> vumeter.asm keeps three earlier values in comments (TCONST_VU 0.000319752, 0.0003836906, 0.000639402; PPM attack 0.02276277, 0.009548227, 0.000719299). slm-1-main.asm uses VU_48 = 0.0003836906, which differs from vumeter.asm's 0.0003541811. Which one wins depends on the init path (${inf}: the main file's table).</li>
-   <li><b>The sample rate is measured, not configured.</b> slm-1-main.asm keeps <span class="mono">emuclk_prev[3]</span> “to calculate sample rate” and has separate constants for 32, 44.1, 48 and 96 kHz, with a note “44100=1115 -1118 max”.</li>
-   <li><b>The SLM-1 code drives 28-segment MM5450 bars (+14 … −38), but POD11A has 57 points.</b> So the POD11A firmware must have its own segment tables (${inf}).</li></ol>`)
-  +card('Assumptions in this simulation',`<ul class="small"><li>The SLM-1 constants at 48 kHz drive the model; the detectors are run at 0.25 ms steps using the per-sample coefficients raised to the step length.</li><li>The bar shows VU and the single dot shows the peak detector (held, or decaying at the type 1/2 rate). Segment colours come from the photo. Lock time 20 ms. ERROR = no lock (all ${inf}).</li><li>DIP BS1 ON = peak hold (see finding 3).</li></ul>`)
-  +card('Sources',`<ul class="small mono"><li>POD11A - #ARTWORK #DA #2016/POD11A-FRONT&amp;REAR-SILK(CURVE).pdf · Pics/POD11A Front.jpg, Rear 75.jpg, Rear 110.jpg</li><li>../POD3A - #Master/POD3A - #Engineering/sharc/working v101/vumeter.asm · slm-1-main.asm · phasemeter.asm</li><li>../POD3A - #Master/POD3A - #Engineering/README.md</li></ul>`); }
+   <li><b>Corrected 2026|59: the model is rebased on the POD11A manual and the digital SLM-1 code (see pod11.js, pod3a.js, slm.js).</b> The manual is in the obsolete POD11 folder (<span class="mono">XXX - POD11 - #Master #OBSOLETE/POD11 - #MANUAL #Obsolete/POD11A MANUAL.pdf</span>): BS1 ON = peak hold OFF, PPM decay 1.5 s or 3 s per 24 dB, peak LED above −3 dBFS, 30–96 kHz input, 41 LEDs per bar. The SLM-1 code this plugin used before (<span class="mono">POD3A - #Engineering/sharc/working v101</span>) is POD3A's own analog code (CAL steps 0/+4/+8/+12 dBu). POD11A's firmware is most likely the digital SLM-1 master in <span class="mono">#SLM #SERIES - To Delete/SLM - #Engineering - To Delete/SLM-1/sharc/slm-1-v1.0x</span> (${inf}: the 2004 functional diagram “POD11A AES/EBU MONITOR” shows an “SLM1D Input”).</li>
+   <li><b>The code matches the manual's LED count.</b> <span class="mono">sdm_vu_data_1..3</span> light 40 segments (+14 … −16 in 1 dB, then −18 … −28 in 2 dB, −32, −36, −38) and <span class="mono">pk_led_left_1_on</span> (bit 17 of shift1) is the 41st, the peak LED: “a dual set of 41 LEDs”. The 2014 silk prints 57 scale points (52 … +20), so the silk does not match this firmware's bar; points with no firmware LED are drawn darker here (${inf}: a later LED board and table set may have existed).</li>
+   <li><b>The CAL switches are 2 dB steps of meter_cal.</b> <span class="mono">read_dipswitch</span>: meter_cal = 4·n − 6 in 0.5 dB units, n from FLAG2/FLAG3, giving −20/−18/−16/−14 dBFS exactly as the manual's table 2 and the rear silk. (The POD3A analog code steps 0/+4/+8/+12 dBu, which is why it did not fit.)</li>
+   <li><b>BS0: manual and code disagree.</b> Reading the switches the way that makes BS1 and CAL agree with the manual (ON = 0), BS0 ON selects <span class="mono">peak_decay_1</span>, commented “type2 (3 seconds)”. The manual says BS0 ON = PPM Type 1 (1.5 s). The rear silk's “PPM TYPE 2 ON” agrees with the code.</li>
+   <li><b>The hold times are counted in samples.</b> <span class="mono">pk_hold</span> and <span class="mono">ppm_hold</span> are both 200000 samples: 4.17 s at 48 kHz, 4.54 s at 44.1 kHz, 2.08 s at 96 kHz. The manual says 3 s for both. Only the IIR constants are rescaled by <span class="mono">sample_rate_calc</span>.</li>
+   <li><b>The peak LED is a sample-peak test.</b> <span class="mono">test_peaks_left_1</span> compares |in| with <span class="mono">pk_thresh 0.707</span> (−3 dBFS) on each raw sample: no oversampling, so inter-sample peaks are missed.</li>
+   <li><b>Peak hold shows only peaks above nominal.</b> The held dot is drawn from <span class="mono">pk_data_1</span> alone, which covers −1 … +14, and the “-1 mask” removes −1 on the left channel: that is the manual's “holds PPM peaks above ‘nominal’”. On the right channel the mask is applied after the OR (<span class="mono">r1=r1 or r2; … r2=r3 and r2; r2=-1</span>), so the right hold dot can also show −1.</li>
+   <li><b>No lock shows “in phase”.</b> Without lock <span class="mono">translate_meter_results</span> forces vu, pk and phase results to 255. For the bars 255 is “no audio”, but <span class="mono">sdm_phase_data[255]</span> is “in phase”, so one phase LED stays lit with no input.</li>
+   <li><b>The sample rate is measured from emuclk.</b> <span class="mono">sample_rate_calc</span> compares the emuclk count between interrupts with 301/598/647 (96/48/44.1 kHz, ±10). The comments keep older counts (516/1025/1110/1365/2000), so the clock was changed (${inf}). Rates between bands fall to the nearest parameter set; 32 kHz has no exact test.</li>
+   <li><b>“Loudness” here means VU and PPM, not LKFS.</b> The SLM-1 maths is VU integration plus PPM attack/decay on in². It has no K-weighting or gating (ITU-R BS.1770).</li>
+   <li><b>vumeter.asm's own constants are overwritten.</b> <span class="mono">TCONST_VU 0.000319752</span> and <span class="mono">TCONST_PPM_DECAY 0.000031978</span> are only power-up values; <span class="mono">sample_rate_calc</span> replaces them on every pass of <span class="mono">main</span>. The 1.5 s / 3 s and 300 ms / 5 ms values in this model are the per-rate defines in slm-1-main.asm.</li>
+   <li><b>v1.00 → v1.02.</b> v1.00 and v1.01 have the same <span class="mono">slm-1-main.asm</span> (Jun 2005). v1.02 (Mar 2006) only moves the FLG9 clear “to lengthen pulse for pic L/R test”: a PIC on the board watches the L/R select; its source is not archived.</li></ol>`)
+  +card('Assumptions in this simulation',`<ul class="small"><li>POD11A runs the digital SLM-1 v1.02 code (${inf}).</li><li>DIP switches read 0 when ON (pull-ups, ${inf}).</li><li>The detectors run at 0.25 ms steps using the per-sample coefficients raised to the step length; the display shows the values at the last 300-sample mux update.</li><li>The peak LED is drawn at the silk's +15 point and the firmware's 7 phase LEDs are spread over the silk's phase column (${inf}). CS8427 lock time 20 ms (${inf}).</li></ul>`)
+  +card('Sources',`<ul class="small mono"><li>POD11A - #ARTWORK #DA #2016/POD11A-FRONT&amp;REAR-SILK(CURVE).pdf · Pics/POD11A Front.jpg, Rear 75.jpg, Rear 110.jpg</li><li>../XXX - POD11 - #Master  #OBSOLETE/POD11 - #MANUAL #Obsolete/POD11A MANUAL.pdf · POD11 - Functional Diagram.cdr</li><li>#SLM #SERIES - To Delete/SLM - #Engineering - To Delete/SLM-1/sharc/slm-1-v1.02/slm-1-main.asm · vumeter.asm · phasemeter.asm · sdm_vu_data_1..3.dat · sdm_pk_data_1..3.dat · sdm_phase_data.dat · cs8427_ctl_dat.dat (v1.00, v1.01 compared)</li></ul>`); }
 SIM.register({
-  id:'pod11a', name:'POD11A · stereo loudness meter, VU/PPM LED bars + phase (2014|47)', duration:1, product:'POD11A', year:2014, family:'POD series', folder:'#POD #SERIES/POD11A - #Master',
-  summary:'Half-rack AES-input stereo meter with two 57-segment bars (VU and peak ranges), a phase meter and LOCK/ERROR tallies, set up by a rear DIP switch. Only the panels survive, so the metering uses the SLM-1 SHARC code (VU, PPM, peak, phase) from the POD3A folder; the year comes from the 2014 silk date.',
-  highlights:['Real silkscreen panels with live 57-segment bars and a phase column','VU, PPM and peak ballistics from the SLM-1 time constants','Rear DIP: CAL reference, peak hold, PPM type 1/2','CAL settings that make the top segments unreachable'],
-  depth:'Hardware model',
-  stepUnits:[{label:'10 ms',period:()=>0.01},{label:'1 ms',period:()=>0.001},{label:'1 sample',period:()=>1/FS0},{label:'100 ms',period:()=>0.1}],
-  zooms:[[1,'1 s'],[0.5,'500 ms (one burst cycle)'],[0.1,'100 ms'],[0.01,'10 ms'],[0.001,'1 ms']], defaultZoom:0,
+  id:'pod11a', name:'POD11A · digital stereo loudness meter, VU/PPM LED bars + phase (2014|47)', duration:1, product:'POD11A', year:2014, family:'POD series', folder:'#POD #SERIES/POD11A - #Master',
+  summary:'Half-rack AES-input stereo meter: two 41-LED bars showing VU and PPM together, a sticky peak LED, a 7-LED phase meter and LOCK/ERROR, set up by a rear DIP switch. The model follows the POD11A manual and the digital SLM-1 ADSP-21065L code (VU, PPM, peak, phase, sample-rate detection); the year comes from the 2014 silk date.',
+  highlights:['Real silkscreen panels with the firmware\'s 40-segment bars, peak LED and phase column','VU 300 ms and PPM 5 ms / 1.5–3 s per 24 dB, rescaled for 32–96 kHz','Rear DIP decoded as the code reads it: CAL −20…−14, peak hold, decay','Manual vs code: BS0 sense, 4.17 s holds, “in phase” with no lock'],
+  depth:'Full model',
+  stepUnits:[{label:'10 ms',period:()=>0.01},{label:'1 ms',period:()=>0.001},{label:'1 sample',period:()=>1/D.fs},{label:'mux (300 samples)',period:()=>MUX/D.fs},{label:'100 ms',period:()=>0.1}],
+  zooms:[[1,'1 s'],[0.5,'500 ms (one burst cycle)'],[0.1,'100 ms'],[0.0125,'12.5 ms (L+R mux)'],[0.001,'1 ms']], defaultZoom:0,
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial: reading a POD11A',render:viewTutorial},{id:'second',label:'One second, sample by sample',render:viewSecond},
-    {id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Schematics (algorithm)',render:viewSchem},{id:'software',label:'Software (SLM-1)',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}],
+    {id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Schematics (from the code)',render:viewSchem},{id:'software',label:'Software (digital SLM-1)',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}],
 });
 
 })();

@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD10 — Digital Audio Switcher
 
+**▶ [Open the POD10 simulation](../siumulation.html?plugin=pod10)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

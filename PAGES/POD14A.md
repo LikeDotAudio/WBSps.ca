@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD14A — Dual Analog To Digital Converter
 
+**▶ [Open the POD14A simulation](../siumulation.html?plugin=pod14a)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

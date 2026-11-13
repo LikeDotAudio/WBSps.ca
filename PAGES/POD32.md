@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD32 — MD-SDI AES Muxer
 
+**▶ [Open the POD32 simulation](../siumulation.html?plugin=pod32)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

@@ -10,6 +10,8 @@ tags: ["product", "micro-series", "2010s"]
 
 # microDriver — Miniature Stereo Headphone Module
 
+**▶ [Open the microDriver (POD6) simulation](../siumulation.html?plugin=microdriver)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

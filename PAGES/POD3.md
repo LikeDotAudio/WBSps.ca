@@ -10,11 +10,13 @@ tags: ["product", "pods", "1990s"]
 
 # POD3 — Stereo Level VU Meter
 
+**▶ [Open the POD3A simulation](../siumulation.html?plugin=pod3a)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD3) · [KiCad symbol generator](../kicad.html?m=POD3) · [download package (zip)](../_packages/POD3.zip) |
+| Try it | [full simulation: POD3A](../siumulation.html?plugin=pod3a) · [simulator & front panel](../simulator.html?m=POD3) · [KiCad symbol generator](../kicad.html?m=POD3) · [download package (zip)](../_packages/POD3.zip) |
 | Earliest dated evidence | [1994\|27](Year-1994.md) — month & year |
 | Evidence | "Sep-94" in WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD3/#ESP_OUT.TXT |
 | Confidence | medium |

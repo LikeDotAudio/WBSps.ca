@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # AMS8-1 — Mkiii 8 Channel Audio Monitoring System
 
+**▶ [Open the AMS81 simulation](../siumulation.html?plugin=ams81)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

@@ -28,10 +28,10 @@ const off = ()=>{ window[FLAG]=false; };
 
 /* ---------------- constants ----------------
    Firmware constants are copied from init.asm (AMS4 v2.03). Timing of one main() pass is not in the
-   archive: the PIC16F874 runs at 4 MHz (Amsv203.pjt Frequency=4000000) = 1 µs per instruction, and the
-   pass is about 250 instructions long when the DEMUX board is absent (count of the called routines, inferred). */
+   archive: the PIC16F874 runs from X2 = 4.9152 MHz (AMS4-1ISS5.net; Amsv203.pjt's Frequency=4000000 is wrong)
+   = 813.8 ns per instruction, and the pass is about 250 instructions (≈203 µs) long when the DEMUX board is absent (count of the called routines, inferred). */
 const K = {
-  TP: 250e-6,          // one pass of main() — inferred (see above)
+  TP: 250*4/4.9152e6,  // one pass of main(): 250 instructions at 4.9152 MHz ≈ 203 µs — inferred (see above)
   BOUNCE: 0x0A,        // bounce_num equ 0x0A
   LOCK_ON: 10*256,     // lock_num1 equ 10, inner lock_counter wraps 256 → passes before the AES crosspoint opens
   LOCK_OFF: 4*256,     // lock_num2 equ 4  → passes before it closes again after a loss of lock
@@ -56,7 +56,7 @@ const D = {
   demux: false,              // 2016 rear: Detail B is a blank plate (no DEMUX board) — inferred from the M2 cut-out
   mode: 1,                   // firmware register "mode": bit0 analog, bit1 AES, bit2 SDI
   sourcea: 1, sourced: 1, sources: 1,   // one-hot source registers (rlf to step)
-  ee7: 0,                    // ee_data,7: 0 = 110 Ω (XLR/euroblock) path, 1 = 75 Ω BNC path (PORTC,0 / PORTA,1)
+  ee7: 0,                    // ee_data,7: 0 = 75 Ω BNC path (PORTC,0 low = AES75 ~RE), 1 = 110 Ω euroblock path (PORTA,1 low = AES110 ~RE); one bit for all four inputs
   ana: [ {on:true,lvl:4,inv:false},{on:true,lvl:0,inv:false},{on:false,lvl:4,inv:false},{on:false,lvl:4,inv:false} ],
   aes: [ {conn:'75',lvl:-20,inv:false},{conn:'110',lvl:-18,inv:false},{conn:'none',lvl:-20,inv:false},{conn:'110',lvl:-20,inv:true} ],
   sdiIn: true, sdiGroups:[true,true,false,false],   // SD1–SD8 = 4 groups × 2 pairs (manual), presence per group
@@ -129,7 +129,7 @@ function run(){
     let term=D.ee7, bcount=K.BCOUNT, termT=0, lockCnt=0, locked=false;
     for (let p=0; p<r.passes; p++){
       const t=p*K.TP;
-      const want = s.conn==='75'?1:s.conn==='110'?0:-1;
+      const want = s.conn==='75'?0:s.conn==='110'?1:-1;   // ee_data,7: 0 = 75 Ω, 1 = 110 Ω
       const rx = want===term && (t-termT)>=K.RX_LOCK;
       if (rx && r.rxLockT===null) r.rxLockT=t;
       if (!rx){ if (--bcount===0){ term^=1; termT=t; r.toggles.push(t); bcount=K.BCOUNT; } lockCnt=0; }
@@ -230,7 +230,7 @@ function srcEditor(){
   return `<table class="kv"><tr><th>Selected</th><td><b>${srcLabel()}</b> (${MODE_NAME(D.mode)})</td></tr>
   <tr><th>Level</th><td>${s.kind==='A'?`<input type="range" id="lv" min="-30" max="24" value="${D.ana[idx(D.sourcea)].lvl}"> <span class="mono">${D.ana[idx(D.sourcea)].lvl} dBu</span>`:s.kind==='D'?`<input type="range" id="lv" min="-60" max="0" value="${D.aes[idx(D.sourced)].lvl}"> <span class="mono">${D.aes[idx(D.sourced)].lvl} dBFS</span>`:'−20 dBFS tone in the SDI group'}</td></tr>
   <tr><th>Right polarity</th><td><label><input type="checkbox" id="inv" ${s.inv?'checked':''} ${s.kind==='S'?'disabled':''}> R inverted (out of phase)</label></td></tr>
-  ${s.kind==='D'?`<tr><th>Connected on</th><td><select id="cn">${['110','75','none'].map(v=>`<option ${v===s.conn?'selected':''} value="${v}">${v==='none'?'nothing':v+' Ω'}</option>`).join('')}</select> · receiver starts on <select id="t0"><option value="0" ${!D.ee7?'selected':''}>110 Ω</option><option value="1" ${D.ee7?'selected':''}>75 Ω</option></select> (ee_data,7)</td></tr>`:''}
+  ${s.kind==='D'?`<tr><th>Connected on</th><td><select id="cn">${['110','75','none'].map(v=>`<option ${v===s.conn?'selected':''} value="${v}">${v==='none'?'nothing':v+' Ω'}</option>`).join('')}</select> · receiver starts on <select id="t0"><option value="0" ${!D.ee7?'selected':''}>75 Ω</option><option value="1" ${D.ee7?'selected':''}>110 Ω</option></select> (ee_data,7)</td></tr>`:''}
   ${s.kind==='S'?`<tr><th>SDI groups present</th><td>${D.sdiGroups.map((g,i)=>`<label class="small"><input type="checkbox" data-g="${i}" ${g?'checked':''}> G${i+1}</label>`).join(' ')}</td></tr>`:''}
   <tr><th>Main pass (inferred)</th><td><input type="range" id="tp" min="50" max="2000" step="50" value="${K.TP*1e6}"> <span class="mono">${(K.TP*1e6).toFixed(0)} µs</span></td></tr></table>`;
 }
@@ -251,7 +251,7 @@ function stateTable(){ const r=run(), t=SIM.t, s=selected(), c=chain();
   return `<table class="kv"><tr><th>Display</th><td class="mono">"${dispAt(t)}"</td></tr>
   <tr><th>mode</th><td class="mono">b'${D.mode.toString(2).padStart(3,'0')}' ${MODE_NAME(D.mode)} · DEMUX ${D.demux?'found (comout,0)':'absent (no_sdi)'}</td></tr>
   <tr><th>sourcea / sourced / sources</th><td class="mono">${D.sourcea.toString(2).padStart(4,'0')} / ${D.sourced.toString(2).padStart(4,'0')} / ${D.sources.toString(2).padStart(8,'0')}</td></tr>
-  <tr><th>ee_data,7 (AES75/AES110)</th><td class="mono">${termAt(t)?'75 Ω (PORTC,0 high, PORTA,1 low)':'110 Ω (PORTC,0 low, PORTA,1 high)'} · ${r.toggles.length} flips this second</td></tr>
+  <tr><th>ee_data,7 (AES75/AES110)</th><td class="mono">${termAt(t)?'1 = 110 Ω (PORTC,0 high, PORTA,1 low → AES110 ~RE on)':'0 = 75 Ω (PORTC,0 low → AES75 ~RE on, PORTA,1 high)'} · ${r.toggles.length} flips this second</td></tr>
   <tr><th>CS8415 lock</th><td class="mono">${s.kind==='A'?'n/a (analog)':r.rxLockT===null?'no lock (cs8415_16,0 = 1)':t>=r.rxLockT?'locked at '+SIM.fmtDur(r.rxLockT):'acquiring… (locks at '+SIM.fmtDur(r.rxLockT)+')'}</td></tr>
   <tr><th>Crosspoint</th><td class="mono">${c.xpt?'ON':'off'}${r.xptT!==null&&!c.xpt?' (opens at '+SIM.fmtDur(r.xptT)+')':''}</td></tr>
   <tr><th>mute_flag / tally</th><td class="mono">${D.extMute?'1 / EXT_MUTE_TALLY on':'0 / off'}</td></tr>
@@ -268,7 +268,7 @@ function lanes(){
     {label:'phase() ADC → PORTA,3', h:22, draw:(c_,X,t0,t1,y,h)=>{ SIM.pulses(c_,X,t0,t1,y,h,K.TP,K.TP*0.6,K.TP*0.05,phaseRed()?bad:acc,'ADRESH test'); }},
   ];
   if (s.kind!=='A') L.push({label:s.kind==='D'?'AES3 frames into CS8415':'SDI → DEMUX AES', h:22, draw:(c_,X,t0,t1,y,h)=>{ if (!s.present) { c_.fillStyle=SIM.css('--ink2'); c_.font='11px sans-serif'; c_.fillText('no signal connected',X(t0)+6,y+h/2+4); return; } SIM.pulses(c_,X,t0,t1,y,h,1/K.FS,0,0.5/K.FS,warn,'AES frame'); }});
-  if (s.kind==='D') L.push({label:'ee_data,7: 75 Ω ↔ 110 Ω', h:28, draw:(c_,X,t0,t1,y,h)=>{ c_.strokeStyle=acc2; c_.lineWidth=2; c_.beginPath(); let v=r.term0, x=X(t0); const yy=v=>v?y+6:y+h-6; c_.moveTo(x,yy(termAt(t0))); v=termAt(t0); for(const tt of r.toggles){ if(tt<t0) continue; if(tt>t1) break; c_.lineTo(X(tt),yy(v)); v^=1; c_.lineTo(X(tt),yy(v)); } c_.lineTo(X(t1),yy(v)); c_.stroke(); c_.lineWidth=1; c_.fillStyle=ink; c_.font='10px sans-serif'; c_.fillText('75',X(t0)+2,y+12); c_.fillText('110',X(t0)+2,y+h-2); if(r.toggles.length>40){ c_.fillText(r.toggles.length+' flips (every '+SIM.fmtDur(K.BCOUNT*K.TP)+')',X(t0)+30,y+h/2+4);} }});
+  if (s.kind==='D') L.push({label:'ee_data,7: 75 Ω ↔ 110 Ω', h:28, draw:(c_,X,t0,t1,y,h)=>{ c_.strokeStyle=acc2; c_.lineWidth=2; c_.beginPath(); let v=r.term0, x=X(t0); const yy=v=>v?y+6:y+h-6; c_.moveTo(x,yy(termAt(t0))); v=termAt(t0); for(const tt of r.toggles){ if(tt<t0) continue; if(tt>t1) break; c_.lineTo(X(tt),yy(v)); v^=1; c_.lineTo(X(tt),yy(v)); } c_.lineTo(X(t1),yy(v)); c_.stroke(); c_.lineWidth=1; c_.fillStyle=ink; c_.font='10px sans-serif'; c_.fillText('110',X(t0)+2,y+12); c_.fillText('75',X(t0)+2,y+h-2); if(r.toggles.length>40){ c_.fillText(r.toggles.length+' flips (every '+SIM.fmtDur(K.BCOUNT*K.TP)+')',X(t0)+30,y+h/2+4);} }});
   if (s.kind!=='A') L.push({label:'CS8415 lock (RERR clear)', h:22, draw:(c_,X,t0,t1,y,h)=>bar(c_,X,t0,t1,y,h,r.rxLockT,1,acc,'locked')});
   L.push({label:s.kind==='A'?'XPT'+(idx(D.sourcea)+1)+' crosspoint':'lock_count → XPTAES', h:22, draw:(c_,X,t0,t1,y,h)=>{ if (r.xptT!==null) bar(c_,X,t0,t1,y,h,r.xptT,1,acc,'audio on'); if (s.kind!=='A' && r.rxLockT!==null && r.xptT!==null) bar(c_,X,t0,t1,y,h,r.rxLockT,r.xptT,warn,`lock_counter ${K.LOCK_ON} passes`); }});
   L.push({label:'Display (4 chars)', h:26, draw:(c_,X,t0,t1,y,h)=>{ r.disp.forEach((d,i)=>{ bar(c_,X,t0,t1,y,h,d.t0,d.t1,i%2?warn:acc2,'"'+d.txt.trim()+'"'); }); }});
@@ -335,7 +335,7 @@ function viewSecond(m){
     const rows=[['main() passes',r.passes.toLocaleString(),SIM.fmtDur(K.TP)+' '+inf],['CS8415 SPI reads (read8415) + register writes (reg2, reg4)',(r.passes*3).toLocaleString(),'3 per pass'],['phase() ADC tests',r.passes.toLocaleString(),'1 per pass'],['AES3 frames (if AES/SDI)',s.kind==='A'?'—':'48,000','20.83 µs'],['75/110 flips by auto_detect',r.toggles.length,s.kind==='D'?'every '+SIM.fmtDur(K.BCOUNT*K.TP)+' while unlocked':'—'],['Debounce of a press',K.BOUNCE+' passes',SIM.fmtDur(K.BOUNCE*K.TP)],['AES lock → XPTAES open',K.LOCK_ON+' passes',SIM.fmtDur(K.LOCK_ON*K.TP)],['AES loss → XPTAES closed',K.LOCK_OFF+' passes',SIM.fmtDur(K.LOCK_OFF*K.TP)],['Display alternation NL / MUTE','2 per s',SIM.fmtDur(K.FLASH)+' '+inf]];
     m.querySelector('#ev').innerHTML=`<table class="kv"><tr><th>Event</th><th>per second</th><th>period</th></tr>${rows.map(x=>`<tr><td>${x[0]}</td><td class="mono">${x[1]}</td><td class="mono">${x[2]}</td></tr>`).join('')}</table>`;
     const pi=passAt(t), n=Math.floor(t/K.TP);
-    m.querySelector('#pa').innerHTML=`<p class="small">Pass #${n.toLocaleString()} · ${SIM.fmtDur(t-n*K.TP)} into it</p><table class="kv">${PASS.map((p,i)=>`<tr class="${i===pi?'hl':''}"><td class="mono">call ${p[0]}</td><td class="mono">${p[1]} cyc</td><td class="small">${p[2]}</td></tr>`).join('')}</table><p class="small muted">Routine order is from <span class="mono">main</span> in ams1v203.asm; cycle counts are ${inf} (1 µs per cycle at 4 MHz).</p>`;
+    m.querySelector('#pa').innerHTML=`<p class="small">Pass #${n.toLocaleString()} · ${SIM.fmtDur(t-n*K.TP)} into it</p><table class="kv">${PASS.map((p,i)=>`<tr class="${i===pi?'hl':''}"><td class="mono">call ${p[0]}</td><td class="mono">${p[1]} cyc</td><td class="small">${p[2]}</td></tr>`).join('')}</table><p class="small muted">Routine order is from <span class="mono">main</span> in ams1v203.asm; cycle counts are ${inf} (813.8 ns per cycle at 4.9152 MHz).</p>`;
     SIM.drawLanes(m.querySelector('#tl'), lanes(), {labelW:190});
     const {c,w}=SIM.canvas(m.querySelector('#vu'),170); const cc=chain(true);
     c.strokeStyle=SIM.css('--grid'); c.fillStyle=SIM.css('--ink2'); c.font='10px sans-serif';
@@ -358,7 +358,7 @@ const BLK={
   amp:{x:790,y:95,w:150,h:62,t:'TDA2616 power amp',s:['LEFT+/− RIGHT+/−','3 × on the BOM'],d:'AMS4-1 ISS5 BOM: TDA2616 (U12…, footprint TDAUP), 3 pieces. On the AMA-4 the outputs reach the rear L+/L−/R+/R− posts '+inf+'. Gain 30 dB / ≈12 W per channel are datasheet values '+inf+'.'},
   hs:{x:790,y:10,w:150,h:62,t:'HEADSET jack',s:['LEFT_NORM / RIGHT_NORM'],d:'Front .390″ hole (D) at 12.775″. The speaker feeds are normalled through the jack (nets LEFT_NORM, RIGHT_NORM), so a plug mutes the speakers.'},
   spk:{x:790,y:180,w:150,h:58,t:'Speakers',s:['rear posts (+ front grilles?)'],d:'Rear binding posts (Detail L, .320″ double-D, 4 places). The front has 3 × 13 slots .062 × .750″ (39 places) in the same places as the AMS4 speaker grilles — whether AMA-4 also has built-in drivers is not stated '+inf+'.'},
-  pic:{x:390,y:230,w:170,h:52,t:'PIC16F874 @ 4 MHz',s:['MODE/SOURCE, display, mute'],d:'PB1/PB2 (PORTB,7/6), display D0–D6, A0/A1, ~WR, ~BL (4-character dot-matrix, 0x80|ASCII codes in init.asm), EXT_MUTE (PORTA,4), EXT_MUTE_TALLY (PORTA,5), CS8415 SPI (PORTB,2 CS). Firmware assumed to be the AMS4 code '+inf+'.'},
+  pic:{x:390,y:230,w:170,h:52,t:'PIC16F874 @ 4.9152 MHz',s:['MODE/SOURCE, display, mute'],d:'PB1/PB2 (PORTB,7/6), display D0–D6, A0/A1, ~WR, ~BL (4-character dot-matrix, 0x80|ASCII codes in init.asm), EXT_MUTE (PORTA,4), EXT_MUTE_TALLY (PORTA,5), CS8415 SPI (PORTB,2 CS). Firmware assumed to be the AMS4 code '+inf+'.'},
   psu:{x:200,y:230,w:160,h:52,t:'Power',s:['115-230 VAC, 1 A S.B'],d:'IEC inlet + fuse (rear silk). M3 bottom pan has four SOS-6440-8 inserts (D, 2.570 × 4.570″ pattern) — likely the transformer '+inf+'.'},
 };
 const WIRES=[['ain','xpt','XPT1–4'],['aes','rx','AES110/AES75'],['sdi','rx'],['rx','xpt','D/A_L/R'],['xpt','out'],['xpt','mtr','LEFT_VU'],['xpt','ctl','LEFT/RIGHT'],['ctl','amp'],['amp','hs','_NORM'],['hs','spk'],['pic','xpt'],['pic','rx','SPI'],['psu','pic']];
@@ -382,7 +382,7 @@ function viewSchem(m){
   off();
   m.innerHTML=`<p class="small muted">Redrawn sheets. Net and part names are from <span class="mono">AMS4 - #Master/AMS4 - #Engineering/AMS4-1/PCB/AMS4-1ISS5.net</span> and <span class="mono">.bom</span>; port bits are from <span class="mono">ams1v203.asm</span> / <span class="mono">init.asm</span>. The AMA-4 has no schematic of its own: using the AMS4 board is ${inf} from “FOR AMS4 ISSUE 4 PCB” on the 2002 AMA4 bottom-pan drawing. Connections drawn as lines are the net names; the exact pin numbers are not reproduced.</p><div id="s1"></div><div style="height:12px"></div><div id="s2"></div><div style="height:12px"></div><div id="s3"></div>`;
   SIM.on('time',()=>{ const s=selected(), c=chain(); const ax=s.kind==='A', ae=s.kind!=='A';
-    m.querySelector('#s1').innerHTML=sch('Sheet A — input switching (74HC4053 × 8) and AES path', Bx(20,40,120,60,'ANALOG IN 1–4',[[22,115,'balanced euroblocks']])+Bx(20,150,120,60,'AES IN 1–4',[[22,225,'AES110 / AES75']])+Bx(220,150,130,70,'CS8415 U13',[[222,145,'CS8415 · CLK8415 · 8415IN/OUT'],[222,235,'SPI: PORTB,2 = CS']])+Bx(420,150,110,60,'CS4335 U18',[[422,225,'D/A_LEFT · D/A_RIGHT']])+Bx(600,60,140,140,'74HC4053 ×8',[[602,55,'XPT1 XPT2 XPT3 XPT4 XPTAES']])+Bx(820,90,110,70,'LEFT / RIGHT',[[822,175,'→ LEFT_VU, STEREO, pots']])+Wn([[140,70],[600,70]],'XPT'+(ax?idx(D.sourcea)+1:'1–4'),ax&&c.xpt)+Wn([[140,180],[220,180]],D.ee7?'AES75':'AES110',ae)+Wn([[350,180],[420,180]],'I²S',ae&&c.xpt)+Wn([[530,180],[600,180]],'D/A_LEFT/RIGHT',ae&&c.xpt)+Wn([[740,125],[820,125]],'LEFT',c.xpt)+T(560,250,'PORTC 2–5 = xpt1–4 · PORTA,2 = xptaes · PORTC,0/PORTA,1 = 75/110',{fs:10,c:'ink2'}),950,265);
+    m.querySelector('#s1').innerHTML=sch('Sheet A — input switching (74HC4053 × 8) and AES path', Bx(20,40,120,60,'ANALOG IN 1–4',[[22,115,'balanced euroblocks']])+Bx(20,150,120,60,'AES IN 1–4',[[22,225,'AES110 / AES75']])+Bx(220,150,130,70,'CS8415 U13',[[222,145,'CS8415 · CLK8415 · 8415IN/OUT'],[222,235,'SPI: PORTB,2 = CS']])+Bx(420,150,110,60,'CS4335 U18',[[422,225,'D/A_LEFT · D/A_RIGHT']])+Bx(600,60,140,140,'74HC4053 ×8',[[602,55,'XPT1 XPT2 XPT3 XPT4 XPTAES']])+Bx(820,90,110,70,'LEFT / RIGHT',[[822,175,'→ LEFT_VU, STEREO, pots']])+Wn([[140,70],[600,70]],'XPT'+(ax?idx(D.sourcea)+1:'1–4'),ax&&c.xpt)+Wn([[140,180],[220,180]],D.ee7?'AES110':'AES75',ae)+Wn([[350,180],[420,180]],'I²S',ae&&c.xpt)+Wn([[530,180],[600,180]],'D/A_LEFT/RIGHT',ae&&c.xpt)+Wn([[740,125],[820,125]],'LEFT',c.xpt)+T(560,250,'PORTC 2–5 = xpt1–4 · PORTA,2 = xptaes · PORTC,0/PORTA,1 = 75/110',{fs:10,c:'ink2'}),950,265);
     m.querySelector('#s2').innerHTML=sch('Sheet B — level, mono, power amp and headset normalling', Bx(20,60,110,60,'LEFT bus')+Bx(170,60,120,60,'STEREO sw',[[172,135,D.stereo?'stereo':'L+R (inferred)']])+Bx(330,60,110,60,'LEFT pot',[[332,135,Math.round(D.potL*100)+' %']])+Bx(480,60,140,60,'TDA2616 U12',[[482,135,'+30 dB (inferred)']])+Bx(670,40,130,100,'HEADSET jack',[[672,155,'LEFT_NORM / RIGHT_NORM'],[672,35,'T/R/S, .390″ hole D']])+Bx(840,60,100,60,'L+ / L−',[[842,135,'rear posts']])+Wn([[130,90],[170,90]],'',c.xpt)+Wn([[290,90],[330,90]],'',c.xpt)+Wn([[440,90],[480,90]],'',c.xpt&&!D.extMute)+Wn([[620,90],[670,90]],'LEFT+',c.xpt&&!D.extMute)+Wn([[800,90],[840,90]],'',c.xpt&&!D.extMute&&!D.headset)+T(480,185,'MUTE: EXT_MUTE (PORTA,4) → mute_flag → crosspoint/receiver muted (cs8415reg1mute) · EXT_MUTE_TALLY = PORTA,5, open collector 24 V 25 mA',{fs:10,c:'ink2',a:'middle'}),950,200);
     m.querySelector('#s3').innerHTML=sch('Sheet C — PIC16F874 (U35, QFP44) I/O used by the firmware', Bx(380,40,190,200,'PIC16F874',[[372,70,'RB7 PB1 (MODE)','end'],[372,95,'RB6 PB2 (SOURCE)','end'],[372,120,'RB2 CS8415 CS','end'],[372,145,'RB5 8415 reset','end'],[372,170,'RA4 EXT_MUTE','end'],[372,195,'RA5 EXT_MUTE_TALLY','end'],[372,220,'RA3 phase LED (0°/180°)','end'],[578,70,'RD0–RD6 → D0–D6 (display)'],[578,95,'RE1 → A0/A1 · RE2 → ~WR · ~BL'],[578,120,'RC2–RC5 → XPT1–4'],[578,145,'RA2 → XPTAES'],[578,170,'RC0 / RA1 → AES75 / AES110'],[578,195,'AN (PHASE_V) → ADRESH'],[578,220,'UART ↔ DEMUX board']]),950,255);
   });
@@ -463,6 +463,7 @@ function viewFind(m){
    ['Three TDA2616 on the AMS4 board', `AMS4-1ISS5.bom lists TDA2616 with quantity 3 (U12 …). Two stereo amplifiers for the speakers plus one for the headset is ${inf}.`],
    ['Still a costed production part in 2015–2016', `BOM Summary Tool.xls/.xlsx list AMA4--M1 (6.85), AMA4--M2 (5.70) and AMA4--M3 (13.50) as RoHS Ward-Beck parts 782–784.`],
    ['Paint spec typo and template leftovers', `M1/M2: “EXTRA FINE TEXT WBS BLACK, SHERWIN WILLIAMS POLANE T F63B12”; M3: “SHERWIN WILLAMS”. The 2002 obsolete DWGs still carry “POWDER COAT BEIGE”, “TEXTURED BLACK TEXCOTE VINYL”, ABB-M1 / ABB-1 ENCLOSURE and POD10-REAR text: they were started from the ABB-1 and POD10 drawings.`],
+   ['Corrected 2026|59: PIC clock and termination bit', `The PIC runs from X2 = 4.9152 MHz (AMS4-1ISS5.net, BOM S1-4M9152), not the 4 MHz in <span class="mono">Amsv203.pjt</span>: SPBRG = 7 only gives the 9600 baud in the comment at 4.9152 MHz. The inferred 250-instruction pass is now ≈203 µs. <span class="mono">ee_data,7</span> was backwards here: <span class="mono">auto_detect</span> drives PORTC,0 low when the bit is 0, and PORTC,0 is net AES75 on the DS75176 ~RE pins (U19/U22/U23/U24 pin 2). So 0 = 75 Ω and 1 = 110 Ω (PORTA,1 = AES110, U14–U17), and the one saved bit sets the termination for all four inputs (see ams4.js).`],
   ];
   m.innerHTML=card('Findings',`<ol>${F.map(f=>`<li style="margin-bottom:8px"><b>${f[0]}.</b> ${f[1]}</li>`).join('')}</ol>`)+card('Sources','<p class="small">'+(ERA===2016?'AMA4 folder: M1/M2/M3 PDFs and DWGs, #ARTWORK #DA #2016 silks. ':'AMA folder: #SILKS/Older Drawings CDRs, #MECHANICAL and OBSOLETE DWGs (text via sidecars). ')+'AMS4 - #Master: AMS4 Manual.pdf, AMS4-1ISS5.net/.bom, ams1v203.asm, init.asm. BOM Summary Tool.xlsx. File sizes and MD5s measured on the archive (read only).</p>');
 }

@@ -9,6 +9,8 @@ tags: ["product", "metering", "2010s"]
 
 # MLC6A
 
+**▶ [Open the MLC6A simulation](../siumulation.html?plugin=mlc6a)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

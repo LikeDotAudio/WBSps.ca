@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD26 — Audio Level Amplifier
 
+**▶ [Open the POD26 simulation](../siumulation.html?plugin=pod26)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

@@ -10,7 +10,7 @@
          led_output, switch_output (ARM / vid_count / force), recieve_uart, translate_uart (0xCF), audio1_table, video1_table1
        Custom Rav24 Dec 21/RAV24MANCUSTOM.WPD (operating manual + specs), RAV24 PROTOCOL (Preliminary).pdf (Nov 5 2001 ASCII protocol),
        Custom Rav24 Dec 21/working/rav24custom.asm (NOVEMBER 20, 2002, "RAV24 ISSUE 3", P16F76), RAV24 Control Interface Feb 29 04.html
-       AVS24.ACF (EPM7256SQC208-7 crosspoint/LED CPLD), RAV24ISS3.DSN, RAV24ISS4.DSN
+       AVS24.ACF (crosspoint/LED CPLD project; EPM7256SQC208-7 there is only the first DEFAULT_DEVICES candidate), avs24.rpt (fitted device EPM7128SLC84-6, corrected 2026|59 per avs.js), RAV24ISS3.DSN, RAV24ISS4.DSN
    ===================================================================== */
 (function(){
 "use strict";
@@ -422,7 +422,7 @@ const BLOCKS={
   fp:{x:15,y:20,w:180,h:90,t:'Front panel',s:['17 lit pushbuttons','3 scan groups'],d:'MODE (AUDIO, VIDEO, A/V), SWR OUT 1/2, SOURCE SELECT 1–12. Read by the PIC through sel0/sel1/sel2 and PORTA.'},
   pic:{x:225,y:20,w:180,h:90,t:'PIC16C73A',s:['ravv101.asm','4.9152 MHz ('+'inferred'+')'],d:'Main loop: input → debounce → led_ctrl → switch_ctrl → chirp → led_output → switch_output → UART.'},
   ee:{x:225,y:140,w:180,h:70,t:'93C66 EEPROM',s:['DI/CLK/CS/DO'],d:'Non-volatile crosspoints and (custom build) addresses and baud rate.'},
-  cpld:{x:440,y:20,w:190,h:90,t:'Altera EPM7256S',s:['AVS24.GDF','LED + switch latches'],d:'Receives 36-bit LED and 36-bit switch words by shift register; ARM/force handshake; vertical-interval video cut.'},
+  cpld:{x:440,y:20,w:190,h:90,t:'Altera EPM7128S',s:['AVS24.GDF','LED + switch latches'],d:'EPM7128SLC84-6 (avs24.rpt: 90/128 logic cells). Receives 36-bit LED and 36-bit switch words by shift register; ARM/force handshake; vertical-interval video cut.'},
   vid:{x:665,y:20,w:180,h:80,t:'Video crosspoint',s:['12 → 2, 2 feeds each'],d:'75 Ω inputs, 2 back-terminated BNC feeds per switcher (manual).'},
   aud:{x:665,y:130,w:180,h:80,t:'Audio crosspoint',s:['12 stereo → 2','40 kΩ in, 60 Ω out'],d:'Unity gain, +27 dBu max, click-less (manual).'},
   rs:{x:15,y:140,w:180,h:70,t:'RS-232 (DB9)',s:['RX 2, TX 3, GND 5,9'],d:'9600 baud by default. v101: 0xCF + info byte; Dec 2001 custom: ASCII #aaaC…$.'},
@@ -435,7 +435,7 @@ const SHEETS=[
     +txt(40,430,'RC5 is the line the June 23 2000 revision note mentions: it is set in INIT “to allow for serial communication” (inferred: enables the RS-232 driver).',11)},
   {name:'2 · Shift chain to the CPLD', note:'led_output and switch_output each send 4 × 8 + 4 = 36 bits MSB first (sft_out), then strobe.', svg:()=>
     [['led_1','MODE/OUT LEDs'],['led_2','sources'],['led_3','sources'],['led_4',''],['led_5 (4 bits)','']].map((r,i)=>chip(40+i*160,60,130,r[0],[['',r[1]]],[],'')).join('')
-    +txt(40,200,'RB7 sft_dat, RB5 led_clk → EPM7256S; RB2 strb latches the LED word.',12)
+    +txt(40,200,'RB7 sft_dat, RB5 led_clk → EPM7128S; RB2 strb latches the LED word.',12)
     +[['switch_1','audio relays'],['switch_2',''],['switch_3',''],['switch_4','rx0/rx1 + video'],['switch_5 (4)','']].map((r,i)=>chip(40+i*160,260,130,r[0],[['',r[1]]],[],'')).join('')
     +txt(40,400,'RB6 “force” latches the switch word; RB3 ARM is held for vid_num = 4 passes before it when vid_flag is set.',12)},
 ];
@@ -462,6 +462,7 @@ function viewNotes(m){ window.__rav24Active=false;
    <li><b>A copy-paste slip in led_ctrl.</b> For output 1 the AUDIO branch does <span class="mono">bsf led_1,3</span> (OUT2 tally off), but the VIDEO branch does <span class="mono">bsf led_1,5</span> — a bit the 0xA7 mask has already set. It is harmless only because bit 3 is already set whenever output 1 is selected.</li>
    <li><b>Three control protocols.</b> v101 uses a two-byte 0xCF frame; the 2001 custom build uses ASCII (#000H$…), rewritten into modules (init, startup, processing, eerw) on a PIC16F76; a 2004 Rabbit web page sets the same four sources. The ASCII spec says RAV24 #1 is serial 57101.</li>
    <li><b>Voltage mismatch.</b> The custom manual says “factory set for 240 V”; the silk says “115 VAC, 1/2 A.S.B.”</li>
+   <li><b>Corrected 2026|59:</b> the CPLD is an EPM7128SLC84-6, not an EPM7256S. <span class="mono">avs24.rpt</span> (MAX+plus II) fits the design into EPM7128SLC84-6 with 90/128 logic cells; “EPM7256SQC208-7” is only the first AUTO_DEVICE in the DEFAULT_DEVICES candidate list of <span class="mono">AVS24.ACF</span>. (see avs.js)</li>
    <li><b>Mechanical folder.</b> Front ISS 2, rear ISS 5, BNC cover plate and spacer strip sit in “Not in ERP”; two drawings are shared with XTM4 (same chassis).</li></ol>`)
   +card('Assumptions in this simulation',`<ul class="small"><li>Fosc 4.9152 MHz; instruction counts per routine estimated from the listing (${inf}).</li><li>The CPLD applies a video cut at the first NTSC vertical interval after ARM rises (${inf}).</li><li>The ASCII protocol is the custom build’s; the standard v101 unit used 0xCF frames (both shown).</li><li>Button positions are the silk label centres (the silk crosshairs mark mounting points, not every switch).</li></ul>`)
   +card('Sources',`<ul class="small mono"><li>XXX - RAV 24 - #Mechanical #Obsolete/Silks/RAV24-FRONT&amp;REAR-SILK (CURVE).pdf (→ assets/rav-24-front-white.png, rav-24-front-green.png, rav-24-rear-white.png)</li><li>XXX - AVS - #OBSOLETE #Archive/RAV24/V101/ravv101.asm, remv102.asm</li><li>…/Custom Rav24 Dec 21/RAV24MANCUSTOM.WPD, RAV24 PROTOCOL (Preliminary).pdf, working/rav24custom.asm</li><li>…/RAV24 Control Interface Feb 29 04.html, AVS24.ACF</li></ul>`); }

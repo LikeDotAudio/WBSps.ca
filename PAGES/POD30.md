@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD30 — 4x1 HD-SDI Switcher
 
+**▶ [Open the POD30 simulation](../siumulation.html?plugin=pod30)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

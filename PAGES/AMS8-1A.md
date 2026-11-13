@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # AMS8-1A — Mkiii 8 Channel Audio Monitoring System
 
+**▶ [Open the RD60-AMS81AUsingAMS81-iss5PCB simulation](../siumulation.html?plugin=rd60-ams81a-iss5)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

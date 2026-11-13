@@ -4,13 +4,43 @@
 "POD33"
 ],
 "ams82": [
-"AMS8-2"
+"AMS8-2",
+"AMS8-2A",
+"AMS8-2AA",
+"AMS8-2AAE",
+"AMS8-2AAEM",
+"AMS8-2AAM",
+"AMS8-2AE",
+"AMS8-2AEM",
+"AMS8-2AM"
 ],
 "ams81": [
-"AMS8-1"
+"AMS8-1",
+"AMS8-1AA",
+"AMS8-1AAE",
+"AMS8-1AAEM",
+"AMS8-1AAM",
+"AMS8-1AE",
+"AMS8-1AEM",
+"AMS8-1AM",
+"AMS8-1AN",
+"AMS8-1B",
+"AMS8-1BA",
+"AMS8-1CA",
+"AMS8-1CAEM",
+"AMS8-1CAM"
 ],
 "ams16": [
-"AMS16"
+"AMS16",
+"AMS16-2A",
+"AMS16-2AE",
+"AMS16-2AM"
+],
+"rd23-ams16-3g": [
+"AMS16",
+"AMS16-2A",
+"AMS16-2AE",
+"AMS16-2AM"
 ],
 "demux4": [
 "DEMUX-4"
@@ -22,7 +52,20 @@
 "POD14A"
 ],
 "mlc8": [
-"MLC8"
+"MLC8",
+"MLC8-N",
+"MLC8A",
+"MLC8B",
+"MLC8C",
+"MLC8D"
+],
+"rd66-mlc8-ams8e1-iss5": [
+"MLC8",
+"MLC8-N",
+"MLC8A",
+"MLC8B",
+"MLC8C",
+"MLC8D"
 ],
 "slm": [
 "SLM"
@@ -37,14 +80,18 @@
 "ABS1"
 ],
 "mp8100": [
+"MP1",
 "MP2",
+"MP3",
 "MP4"
 ],
 "amx9a": [
 "AMX9A"
 ],
 "32me": [
-"32ME"
+"32ME",
+"32ME-AES",
+"32ME-N"
 ],
 "d8202": [
 "D8202"
@@ -77,7 +124,10 @@
 "D8208"
 ],
 "d8210-d8212": [
-"D8212"
+"D8212",
+"MF8210",
+"D8212E",
+"D8212F"
 ],
 "m8200-terminations": [
 "M8200"
@@ -95,10 +145,14 @@
 "M8203"
 ],
 "m8204": [
-"M8204"
+"M8204",
+"M8204A",
+"M8204B"
 ],
 "m8205": [
-"M8205"
+"M8205",
+"M8205B",
+"M8205W"
 ],
 "m8206": [
 "M8206"
@@ -152,10 +206,14 @@
 "M6202AE"
 ],
 "m6203a": [
-"M6203A"
+"M6203A",
+"M6203A-3G"
 ],
 "m6204a": [
 "M6204A"
+],
+"m6205-3g": [
+"M6205A-3G"
 ],
 "m6205c": [
 "M6205C"
@@ -169,6 +227,9 @@
 ],
 "pod1": [
 "POD1"
+],
+"pod18": [
+"POD18"
 ],
 "pod10a": [
 "POD10A"
@@ -191,9 +252,6 @@
 "pod17": [
 "POD17"
 ],
-"pod18": [
-"POD18"
-],
 "pod19": [
 "POD19"
 ],
@@ -207,7 +265,8 @@
 "POD22A"
 ],
 "pod23": [
-"POD23"
+"POD23",
+"POD23A"
 ],
 "pod24": [
 "POD24"
@@ -240,16 +299,21 @@
 "POD34"
 ],
 "pod3a": [
-"POD3A"
+"POD3A",
+"POD3"
 ],
 "pod4": [
 "POD4"
 ],
 "pod5": [
-"POD5"
+"POD5",
+"POD5A",
+"POD5B"
 ],
 "pod7": [
-"POD7"
+"POD7",
+"POD7A",
+"POD7B"
 ],
 "pod8a": [
 "POD8A"
@@ -258,24 +322,22 @@
 "POD9"
 ],
 "ams2": [
-"AMS2"
+"AMS2",
+"AMS2-N"
 ],
 "ams4": [
-"AMS4"
-],
-"rd23-ams16-3g": [
-"AMS16"
+"AMS4",
+"AMS4-1AA"
 ],
 "rd60-ams81a-iss5": [
 "AMS8-1A"
 ],
-"rd66-mlc8-ams8e1-iss5": [
-"MLC8"
-],
 "microdriver": [
 "MICRODRIVER",
 "microDriver",
-"POD6"
+"POD6",
+"POD6B",
+"POD6C"
 ],
 "micromatch": [
 "microMATCH",
@@ -352,6 +414,9 @@
 "RLM24",
 "RLM216"
 ],
+"rlm24-2": [
+"RLM24"
+],
 "sms": [
 "SMS4"
 ],
@@ -365,8 +430,46 @@
 "pod8": [
 "POD8"
 ],
-"rlm24-2": [
-"RLM24"
+"serialbox": [
+"DA301",
+"DA302",
+"DA303",
+"DA304",
+"DA305",
+"SD402",
+"SD403",
+"SD404",
+"SD406"
+],
+"m6205": [
+"M6205A",
+"M6205CE"
+],
+"m8209": [
+"M8209A"
+],
+"m8245": [
+"M8245A"
+],
+"consoles-r2k": [
+"R201",
+"R203",
+"R204",
+"R205",
+"R206",
+"R209",
+"R210",
+"R221",
+"R241",
+"R243",
+"R248",
+"R254",
+"R257"
+],
+"premo": [
+"preMO-221",
+"preMO-222",
+"preMO-A1"
 ]
 },
 "pages": {
@@ -408,7 +511,13 @@
 "ABS1": [
 "abs1"
 ],
+"MP1": [
+"mp8100"
+],
 "MP2": [
+"mp8100"
+],
+"MP3": [
 "mp8100"
 ],
 "MP4": [
@@ -451,6 +560,9 @@
 "d8208"
 ],
 "D8212": [
+"d8210-d8212"
+],
+"MF8210": [
 "d8210-d8212"
 ],
 "M8200": [
@@ -526,6 +638,9 @@
 ],
 "M6204A": [
 "m6204a"
+],
+"M6205A-3G": [
+"m6205-3g"
 ],
 "M6205C": [
 "m6205c"
@@ -608,6 +723,9 @@
 "pod34"
 ],
 "POD3A": [
+"pod3a"
+],
+"POD3": [
 "pod3a"
 ],
 "POD4": [
@@ -737,6 +855,242 @@
 ],
 "POD8": [
 "pod8"
+],
+"32ME-AES": [
+"32me"
+],
+"32ME-N": [
+"32me"
+],
+"AMS16-2A": [
+"ams16",
+"rd23-ams16-3g"
+],
+"AMS16-2AE": [
+"ams16",
+"rd23-ams16-3g"
+],
+"AMS16-2AM": [
+"ams16",
+"rd23-ams16-3g"
+],
+"AMS2-N": [
+"ams2"
+],
+"AMS4-1AA": [
+"ams4"
+],
+"AMS8-1AA": [
+"ams81"
+],
+"AMS8-1AAE": [
+"ams81"
+],
+"AMS8-1AAEM": [
+"ams81"
+],
+"AMS8-1AAM": [
+"ams81"
+],
+"AMS8-1AE": [
+"ams81"
+],
+"AMS8-1AEM": [
+"ams81"
+],
+"AMS8-1AM": [
+"ams81"
+],
+"AMS8-1AN": [
+"ams81"
+],
+"AMS8-1B": [
+"ams81"
+],
+"AMS8-1BA": [
+"ams81"
+],
+"AMS8-1CA": [
+"ams81"
+],
+"AMS8-1CAEM": [
+"ams81"
+],
+"AMS8-1CAM": [
+"ams81"
+],
+"AMS8-2A": [
+"ams82"
+],
+"AMS8-2AA": [
+"ams82"
+],
+"AMS8-2AAE": [
+"ams82"
+],
+"AMS8-2AAEM": [
+"ams82"
+],
+"AMS8-2AAM": [
+"ams82"
+],
+"AMS8-2AE": [
+"ams82"
+],
+"AMS8-2AEM": [
+"ams82"
+],
+"AMS8-2AM": [
+"ams82"
+],
+"D8212E": [
+"d8210-d8212"
+],
+"D8212F": [
+"d8210-d8212"
+],
+"DA301": [
+"serialbox"
+],
+"DA302": [
+"serialbox"
+],
+"DA303": [
+"serialbox"
+],
+"DA304": [
+"serialbox"
+],
+"DA305": [
+"serialbox"
+],
+"M6203A-3G": [
+"m6203a"
+],
+"M6205A": [
+"m6205"
+],
+"M6205CE": [
+"m6205"
+],
+"M8204A": [
+"m8204"
+],
+"M8204B": [
+"m8204"
+],
+"M8205B": [
+"m8205"
+],
+"M8205W": [
+"m8205"
+],
+"M8209A": [
+"m8209"
+],
+"M8245A": [
+"m8245"
+],
+"MLC8-N": [
+"mlc8",
+"rd66-mlc8-ams8e1-iss5"
+],
+"MLC8A": [
+"mlc8",
+"rd66-mlc8-ams8e1-iss5"
+],
+"MLC8B": [
+"mlc8",
+"rd66-mlc8-ams8e1-iss5"
+],
+"MLC8C": [
+"mlc8",
+"rd66-mlc8-ams8e1-iss5"
+],
+"MLC8D": [
+"mlc8",
+"rd66-mlc8-ams8e1-iss5"
+],
+"POD23A": [
+"pod23"
+],
+"POD5A": [
+"pod5"
+],
+"POD5B": [
+"pod5"
+],
+"POD6B": [
+"microdriver"
+],
+"POD6C": [
+"microdriver"
+],
+"POD7A": [
+"pod7"
+],
+"POD7B": [
+"pod7"
+],
+"R201": [
+"consoles-r2k"
+],
+"R203": [
+"consoles-r2k"
+],
+"R204": [
+"consoles-r2k"
+],
+"R205": [
+"consoles-r2k"
+],
+"R206": [
+"consoles-r2k"
+],
+"R209": [
+"consoles-r2k"
+],
+"R210": [
+"consoles-r2k"
+],
+"R221": [
+"consoles-r2k"
+],
+"R241": [
+"consoles-r2k"
+],
+"R243": [
+"consoles-r2k"
+],
+"R248": [
+"consoles-r2k"
+],
+"R254": [
+"consoles-r2k"
+],
+"R257": [
+"consoles-r2k"
+],
+"SD402": [
+"serialbox"
+],
+"SD403": [
+"serialbox"
+],
+"SD404": [
+"serialbox"
+],
+"SD406": [
+"serialbox"
+],
+"preMO-221": [
+"premo"
+],
+"preMO-222": [
+"premo"
+],
+"preMO-A1": [
+"premo"
 ]
 }
 }

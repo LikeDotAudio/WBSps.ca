@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD17 — Digital Audio Distribution Amplifier
 
+**▶ [Open the POD17 simulation](../siumulation.html?plugin=pod17)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

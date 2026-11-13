@@ -10,11 +10,13 @@ tags: ["product", "metering", "2010s"]
 
 # AMS8-1CAEM — Mkiii 8 Channel Audio Monitoring System
 
+**▶ [Open the AMS81 simulation](../siumulation.html?plugin=ams81)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-1CAEM) · [KiCad symbol generator](../kicad.html?m=AMS8-1CAEM) |
+| Try it | [full simulation: AMS81](../siumulation.html?plugin=ams81) · [simulator & front panel](../simulator.html?m=AMS8-1CAEM) · [KiCad symbol generator](../kicad.html?m=AMS8-1CAEM) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |

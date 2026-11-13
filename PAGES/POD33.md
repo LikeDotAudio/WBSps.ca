@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD33 — AES DARS Tone Generator
 
+**▶ [Open the POD33 simulation](../siumulation.html?plugin=pod33)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

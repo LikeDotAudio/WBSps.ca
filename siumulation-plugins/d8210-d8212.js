@@ -37,7 +37,7 @@ const CARDS = {
   M8205:{mods:['TB8205P'], ip:90, in:90, ref:false, kind:'mono 1×8 analog DA'},
 };
 const MOD_MF8210_ONLY = ['BNC3','BNC4'];
-const FRAMES = { MF8212:{slots:12, pitch:1.0, name:'MF8212 (MF82/12)'}, MF8210:{slots:10, pitch:1.2, name:'MF8210 (MF82/10)'} };
+const FRAMES = { MF8212:{slots:12, pitch:1.0, name:'MF8212 (MF82/12)'}, MF8210:{slots:10, pitch:1.26, name:'MF8210 (MF82/10)'} };
 const K = { RAIL:22, PSU_MAX:1.0, MAINS:60, C_PER_W:0.9, AMB:25, REF_FS:48000 };   // ±22 V from MF8212-3.DSN; PSU capacity, thermal coefficient, mains 60 Hz (Canada) inferred
 
 /* ---------------- state ---------------- */
@@ -101,7 +101,7 @@ function frontSVG(t){
     s+=`<g class="fdoor" style="cursor:pointer"><title>8212-020 DA door — click to open</title><rect x="0" y="0" width="${W}" height="${H}" fill="#1d1f21" stroke="#000"/><rect x="0" y="${H-150}" width="${W}" height="6" fill="#2b2d30"/>
       <image href="${ASSET}d8210-d8212-door-green.png" x="0" y="${H-149}" width="652" height="149"/><text x="${W/2}" y="${H/2-30}" font-size="40" text-anchor="middle" fill="#666">click to open the door</text></g>`;
   }
-  return s+`</svg><div class="small muted">Front: real door silk from <span class="mono">8212-020-SILK (CURVE) .pdf</span> (green ink per <span class="mono">PICS/8212-020.jpg</span>) on a 17.060″ door. Slot pitch ${F.pitch}″ and the slot/PSU layout behind the door are ${'inferred'} from the BOM (12 card guides pairs, 82-072 PSU box) and the manual photo.</div>`;
+  return s+`</svg><div class="small muted">Front: real door silk from <span class="mono">8212-020-SILK (CURVE) .pdf</span> (green ink per <span class="mono">PICS/8212-020.jpg</span>) on a 17.060″ door. Slot pitch ${F.pitch.toFixed(3)}″ (MF8210: 82-074/82-071 “9 PITCHES OF 1.260 = 11.340”; MF8212: MF8212RM1 ISS.2 in MF8210RM1 LAYOUT “11 PITCHES @ 1.000 TYP.”). The slot/PSU layout behind the door is ${'inferred'} from the BOM (12 card guides pairs, 82-072 PSU box) and the manual photo.</div>`;
 }
 // Rear power cover MF8212RM2 at 200 dpi: 831 × 662 px. Drill points read off the artwork.
 function rearSVG(t){
@@ -234,8 +234,9 @@ function viewNotes(m){
    <li><b>Finish changes recorded in the revision text.</b> Guide bars and the PSU box went from yellow to clear alodine; termination brackets from nickel to electroless nickel; the PSU box once was painted, then “CHANGED FROM PAINT TO YELLOW ALODINE”.</li>
    <li><b>BOM counts tell the layout.</b> 28 × 9″ and 4 × 6.5″ EDAC card guides; 12 card sockets plus 2 × 24-way for the two supplies; 12 rear-module sockets and 12 two-pin taps; one 2×10 header for the MF82REF option.</li>
    <li><b>Rails are ±22 V.</b> The 2000|33 frame schematic labels +22 V/−22 V (and +21/−21); card manuals quote ±20 V — the drop is across the cards' input polyfuses and diodes.</li>
+   <li><b>Corrected 2026|59:</b> the MF8210 slot pitch is 1.260 in, not the inferred 1.2 in: the MF8210 rear-housing drawings (<span class="mono">MF8210 - #Engineering/82-074.pdf</span>, <span class="mono">82-071.pdf</span>; mfxx.js reads the same from MF8210RM1 ISS 2) give “9 PITCHES OF 1.260 = 11.340”. The MF8212's 1.000 in is from MF8212RM1 (“11 PITCHES @ 1.000”). (see mfxx.js)</li>
    <li><b>Superseded twin.</b> The same 18 drawing numbers exist in <span class="mono">MFXX (DA FRAME) #PROBLEM</span> as older un-numbered issues; only <span class="mono">MF82SILK.CDR</span> and one other file are byte-identical. Treat this folder as master.</li>
-  </ol>`)+card('Assumptions', `<ul class="small"><li>Slot pitch (1.0″ / 1.2″), slot/PSU layout behind the door, PSU rating ${K.PSU_MAX} A per rail, mains 60 Hz and the thermal coefficient are ${inf}.</li><li>Card currents other than D8204 and M8202 are ${inf}.</li><li>The 82-077 PSU door is drawn from its photo; its silk exists only as CorelDRAW (no PDF).</li></ul>`)
+  </ol>`)+card('Assumptions', `<ul class="small"><li>Slot/PSU layout behind the door, PSU rating ${K.PSU_MAX} A per rail, mains 60 Hz and the thermal coefficient are ${inf}.</li><li>Card currents other than D8204 and M8202 are ${inf}.</li><li>The 82-077 PSU door is drawn from its photo; its silk exists only as CorelDRAW (no PDF).</li></ul>`)
   +card('Sources', `<ul class="small mono"><li>D8210 & D8212 - #ARTWORK #DA #2016/*.pdf, PICS/*.jpg</li><li>D8210 & D8212 - #Mechanical #DA #2016/*.dwg (.md text)</li><li>MF8212 Frame - #Master/MF8212 BOM Costed.xlsx, MF8212BP BOM Costed.xlsx</li><li>MFXX (DA FRAME)…/MF8212 - #Engineering/MF8212-3.DSN, mf-ref.DSN</li><li>8200 Series Rear Module options…/*.pdf</li></ul>`);
 }
 SIM.register({

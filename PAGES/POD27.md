@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD27 — Audio Muxer
 
+**▶ [Open the POD27 simulation](../siumulation.html?plugin=pod27)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

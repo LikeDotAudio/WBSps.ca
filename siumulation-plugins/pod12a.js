@@ -1,7 +1,7 @@
 /* =====================================================================
    POD12A — Digital audio (AES) distribution amplifier, Ward-Beck Systems (ISS2, 2013|46)
-   Plugin for the WBS Device Simulator (../siumulation.html). Hardware model: the board carries an AT90CAN128
-   MCU and an Altera Cyclone EP1C3 FPGA, but neither program is in the archive.
+   Plugin for the WBS Device Simulator (../siumulation.html). Full model of the AT90CAN128 MCU firmware and the
+   Cyclone EP1C3 FPGA design. Corrected 2026|59 (see pod12.js): both programs are archived in the obsolete POD12 folder.
 
    Sources used (folder #POD #SERIES/POD12A - #Master):
    - POD12A - #ISS2 #GERBER.zip → POD12-iss2-net.ipc (IPC-D-356A netlist, 15 Dec 2013: every net name used here)
@@ -9,6 +9,9 @@
    - POD12A - #ARTWORK #DA #2016/POD12A-FRONT&REAR-SILK (CURVE).cdr — converted to PDF with Inkscape (libcdr) and cut with
      tools/silk_extract.py; in this conversion the cut-out outlines came out as ink, so the drawn parts cover them
    - POD12A - #ARTWORK #DA #2016/Pics/POD12A Front.jpg, POD12A-75 Rear.jpg, POD12A-110 Rear.jpg
+   - #POD #SERIES/XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #Software/…/#V020000/ (v100w.c, D6202B.c,
+     cs84xx.c, altera.c: MCU V020000) and POD12 - Update - #RD #RD77/Software/Atmel/backup1/v100 (earlier MCU build)
+   - .../POD12 - Update - #RD #RD77/Software/FPGA/v100/D6201A.bdf, .qsf, *.vhd (FPGA "D6201BV100")
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
 (function(){
@@ -264,45 +267,130 @@ function drawAesScope(cv, subA, subB, fs, amp, label){
 }
 
 const PREFIX='pod12a';
-const K = { lockLo:30000, lockHi:200000, thr:0.1, a75:2.5, a110:4.0, eqGain:14, srcOut:48000, srcDelay:0.0021, fpgaDelay:3, lockT:0.02 }; // all inferred except the part list
-const D = { power:true, powerAt:-1, ver:'75',
-  in:[ { on:true, fs:48000, cable:50, at:-1, f:1000, dbfs:-20 }, { on:true, fs:44100, cable:50, at:-1, f:400, dbfs:-18 } ],
-  dip:[0,0,0,0],   // SW1 DUAL, SW2 SRC, SW3 EQ1, SW4 EQ2 (rear legend "DUAL SRC EQ1 EQ2"); 1 = ON
-  term:{ load:[1,1,1,1,1,1,1,1] }, log:[] };
-const FACT=JSON.parse(JSON.stringify(D));
+/* ---------------- firmware facts (Corrected 2026|59, see pod12.js) ----------------
+   MCU: V020000 in #POD #SERIES/XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #Software/…/#V020000/
+        (v100w.c, D6202B.c, cs84xx.c, altera.c; 27 Jan 2014), earlier v100 in POD12 - Update - #RD #RD77/Software/Atmel/backup1/v100
+   FPGA: D6201A Quartus project in RD77/Software/FPGA/v100 (D6201A.bdf/.qsf, i2s8416_aes.vhd, sw2x2x1x24.vhd, i2s_par.vhd) */
+const hex2 = v=>(v&255).toString(16).toUpperCase().padStart(2,'0');
+const bin8 = v=>(v&255).toString(2).padStart(8,'0');
+const kHz = f=>(f/1000).toFixed(f%1000?1:0)+' kHz';
+const XTAL = 8e6;                                    // v100w.c: "Crystal: 8.0000Mhz" (X2)
+const BYTE = 8*14.5 + 15;                            // bit-banged byte ≈ 131 cycles (counted from altera.lis / cs84xx.lis; call overhead estimated)
+const RD8416 = 3*BYTE + (8*14 + 15) + 22, WR8416 = 3*BYTE + 14;
+const STEPS = [  // v100w.c main() while(1)
+  {n:'CS8416_READ_LOCK_ALL', c:()=>2*RD8416+20, d:'WDR; reads register 0x0C (RERR) of U5 then U6 over the bit-banged port C bus; 0 = locked. Astatus = INVERT_DATA(status).'},
+  {n:'PROCESS_MODES', c:()=> (input2Active()?2:1)*WR8416+30, d:'WDR; rewrites CS8416 register 0x04 every pass: 0x80 (RXP0 = flat IN) or 0x89 (RXP1 = IN_EQ), for each active input.'},
+  {n:'READ_DIP_SWITCHES', c:()=>45, d:'MIRROR(PINA): PA7..PA4 → bits 0..3, inverted (ON grounds the pin = 1).'},
+  {n:'REFRESH_LEDS', c:()=>70, d:'LOCK/NO LOCK/EQ per active input, 1X8/1X4 from mode, SRC_LED from src_is_active.'},
+  {n:'ALTERA_write', c:()=>120+2*BYTE+10, d:'WDR; recomputes mode/EQ from the DIP, builds data_upper/data_lower, shifts 16 bits into the FPGA (FPGA3 data, FPGA4 clock) and strobes FPGA2.'},
+];
+const K = { startup:0.0041, wait3000:(3000*7+8)/XTAL, altReset:(1000*7+10)/XTAL, fpgaCfg:0.040, initRegs:7*(WR8416+10)/XTAL, lockT:0.020,
+  srcMaxFs:24.576e6/138, srcDelay:0.0030, fpgaLat:2 };   // start-up, FPGA config, lock time, AD1895 limit/delay, FPGA latency: inferred
+const REACH = {'75':[300,750],'110':[150,250]};      // POD12A manual (2014): metres without / with EQ
 const OUTN=['A1','A2','A3','A4','B1','B2','B3','B4'];
-/* ---------------- model ---------------- */
-const dual=()=>!!D.dip[0], srcOn=()=>!!D.dip[1], eqOn=k=>!!D.dip[2+k];
-function rxV(k){ const c=D.in[k]; if(!c.on) return 0; const v=D.ver==='75'?1.0:4.0, a=(D.ver==='75'?K.a75:K.a110)*Math.sqrt(c.fs/48000); return v*Math.pow(10,-a*c.cable/100/20); }
-function effV(k){ return rxV(k)*(eqOn(k)? Math.min(Math.pow(10,K.eqGain/20), 1/Math.max(rxV(k),1e-6)) : 1); }   // EQ path restores amplitude (inferred gain)
-function lockable(k){ const c=D.in[k]; return D.power && c.on && c.fs>=K.lockLo && c.fs<=K.lockHi && effV(k)>=K.thr; }
-function lockedAt(k,t){ if(!lockable(k)) return false; const st=Math.max(D.in[k].at,D.powerAt); return st<0||t>=st+K.lockT; }
-// which input feeds FPGA output OUTn (OUT1 → AES1/AES2 = A1/A2 … OUT4 → AES7/AES8 = B3/B4)
-function srcOf(o){ return dual() && o>=4 ? 1 : 0; }
-function outRate(o){ const k=srcOf(o); return (srcOn() && k===0) ? K.srcOut : D.in[k].fs; }
-function outLive(o,t){ return lockedAt(srcOf(o),t); }
-function leds(t){ return { pwr:D.power, lock1:D.power&&lockedAt(0,t), nolock1:D.power&&!lockedAt(0,t), lock2:D.power&&lockedAt(1,t), nolock2:D.power&&!lockedAt(1,t),
-  x8:D.power&&!dual(), x4:D.power&&dual(), src:D.power&&srcOn(), eq1:D.power&&eqOn(0), eq2:D.power&&eqOn(1) }; }
-function sample(k,t){ const c=D.in[k]; const n=Math.floor(t*c.fs); return Math.pow(10,c.dbfs/20)*Math.sin(2*Math.PI*c.f*n/c.fs); }
-function outSample(o,t){ const k=srcOf(o); if(!outLive(o,t)) return 0; const fs=outRate(o); const dly = (srcOn()&&k===0)? K.srcDelay : K.fpgaDelay/(128*fs);
-  const n=Math.floor((t-dly)*fs); const c=D.in[k]; return Math.pow(10,c.dbfs/20)*Math.sin(2*Math.PI*c.f*n/fs); }
-/* ---------------- actions ---------------- */
-const act=makeActor(D, ()=>`${dual()?'dual 1×4':'1×8'}${srcOn()?' + SRC':''} · IN1 ${lockedAt(0,1)?'LOCK':'NO LOCK'} · IN2 ${lockedAt(1,1)?'LOCK':'NO LOCK'}`);
 const DIPN=['DUAL','SRC','EQ1','EQ2'];
+const MODEN=['OUTPUT_1x8','OUTPUT_2x4','OUTPUT_1x8_SRC'];
+const D = { power:true, powerAt:-1, ver:'75', fw:'V020000',
+  in:[ { on:true, fs:48000, cable:50, at:-1, f:1000, dbfs:-20 }, { on:true, fs:44100, cable:50, at:-1, f:400, dbfs:-18 } ],
+  dip:[0,0,0,0],   // SW1 DUAL, SW2 SRC, SW3 EQ1, SW4 EQ2 (rear legend, confirmed by the firmware); 1 = ON
+  log:[] };
+const FACT=JSON.parse(JSON.stringify(D));
+/* ---------------- firmware model (the same decisions as the C source) ---------------- */
+function dipByte(){ let b=0; D.dip.forEach((v,i)=>{ if(v) b|=1<<i; }); return b; }          // MIRROR(PINA)
+const modeRaw=()=>dipByte()&0x03;                                                        // mode = dip_switches & 0x03
+const mode=()=>{ const m=modeRaw(); return m>=2?2:m; };                                    // ALTERA_write's final else forces OUTPUT_1x8_SRC
+const input2Active=()=>mode()===1||mode()===2;                                            // PROCESS_MODES
+const dual=()=>mode()===1, srcOn=()=>mode()===2;
+const eq1=()=>!!(dipByte()&4);
+const eq2=()=>D.fw==='v100' ? (!!(dipByte()&8) && input2Active()) : (!!(dipByte()&8) && modeRaw()===1);
+const eqOn=k=>k?eq2():eq1();
+function reach(k){ return REACH[D.ver][eqOn(k)?1:0]*Math.sqrt(48000/D.in[k].fs); }      // scaling with fs inferred
+let BP=null, BPK='';
+function bootPlan(){ const key=D.powerAt+'|'+input2Active(); if (key!==BPK){ BPK=key; BP=bootPlan_(); } return BP; }
+function bootPlan_(){ const t0=D.powerAt; let t=t0; const ph=[]; const add=(name,dur,d)=>{ ph.push({name,t0:t,t1:t+dur,d}); t+=dur; };
+  add('Reset · oscillator start-up', K.startup, 'fuse bytes not archived ('+inf+')');
+  add('port_init · watchdog_init', 40/XTAL, 'PORTC = 0xFF → PC0 high → Q1 → N_CONFIG low: FPGA held blank. CLI(), never SEI().');
+  add('wait(3000) × 10', 10*K.wait3000, 'WDR inside each wait');
+  add('ALTERA_RESET(1000)', K.altReset, 'PC0 low → N_CONFIG released: EP1C3 loads from U7 M25P40');
+  const cfg0=t;
+  add('wait(3000) × 20', 20*K.wait3000, '15 of them added “//Ali-Add”');
+  add('init_CS8416: reset, wait(3000) × 5', 5*K.wait3000, 'CS8416_RS1/RS2 low');
+  add('CS8416_write_ALL regs 00–06', K.initRegs, '00 04 0B BB 80 B0 10');
+  add('READ_DIP_SWITCHES · ALTERA_write', (45+STEPS[4].c())/XTAL, 'dashboard_enabled = NO');
+  return { ph, cfg:{t0:cfg0,t1:cfg0+K.fpgaCfg}, run:t-(45+STEPS[4].c())/XTAL, loop:t }; }
+const passCycles=()=>STEPS.reduce((a,s)=>a+s.c(),0)+4, passT=()=>passCycles()/XTAL;
+function stepFr(){ let a=0; const tot=passCycles(); return STEPS.map(s=>{ const r=a; a+=s.c(); return [r/tot,a/tot]; }); }
+const powered=t=>D.power && t>=D.powerAt;
+function where(t){ if(!powered(t)) return {kind:'off'}; const B=bootPlan();
+  if (t<B.loop){ const i=B.ph.findIndex(p=>t>=p.t0&&t<p.t1); return {kind:'boot',i,p:B.ph[i]}; }
+  const P=passT(), n=Math.floor((t-B.loop)/P), f=(t-B.loop)/P-n; let s=0; stepFr().forEach((r,j)=>{ if(f>=r[0]) s=j; }); return {kind:'loop',n,step:s,P}; }
+function sigOK(k){ const c=D.in[k]; return c.on && c.fs>=30000 && c.fs<=192000 && c.cable<=reach(k); }
+function lockedAt(k,t){ if(!powered(t)||!sigOK(k)) return false; return t>=Math.max(bootPlan().run, D.in[k].at)+K.lockT; }   // CS8416 PLL
+function lastPass(t,s){ const B=bootPlan(); if(!powered(t)||t<B.loop) return null; const P=passT(), fr=stepFr(); let n=Math.floor((t-B.loop)/P); if (t<B.loop+n*P+fr[s][1]*P) n--; return n; }
+const readTime=n=>bootPlan().loop+n*passT()+stepFr()[0][1]*passT();
+const seenAt=(k,n)=>n>=0 && lockedAt(k,readTime(n)) && (k===0||input2Active());          // aes1_lock / aes2_lock
+const mcuSeen=(k,t)=>{ const n=lastPass(t,4); return n!==null && seenAt(k,n); };
+const srcFsOK=()=>D.in[0].fs<=K.srcMaxFs && D.in[1].fs<=K.srcMaxFs && D.in[1].fs/D.in[0].fs<=7.75 && D.in[0].fs/D.in[1].fs<=8;
+const srcActive=t=>mode()===2 && mcuSeen(1,t);                                           // src_is_active
+function dataLower(t){ let b=0x0C; const n=lastPass(t,4), w=n===null?1:n+2;               // tone_generation1/2 = NO → BIT2, BIT3
+  if (w<=4) b&=~0x20; else b|=0x20;                                                     // src_reset until src_reset_count = SRC_CONSTANT
+  const m=mode(), a2=n!==null&&seenAt(1,n);
+  if (m===0) b&=~(0x10|0x02|0x01); else if (m===1){ b|=0x02; b&=~(0x10|0x01); }
+  else if (a2){ b|=0x10|0x04|0x02|0x01; b&=~0x08; } else { b&=~(0x10|0x02|0x01); b|=0x04|0x08; }
+  return b; }
+function dataUpper(t){ const n=lastPass(t,4); const a1=n!==null&&seenAt(0,n), a2=n!==null&&seenAt(1,n); return ((a1?0:1)<<7)|((a2?0:1)<<6); }
+function fpga(t){ const lo=dataLower(t), up=dataUpper(t); return { lo, up, selA:lo&1, selB:(lo>>1)&1, ext1:((lo>>2)&1)?0:1, ext2:((lo>>3)&1)?0:1, swSel:(lo>>4)&1, off1:(up>>7)&1, off2:(up>>6)&1 }; }
+function outInfo(o,t){
+  if (!powered(t)) return {live:false, why:'power off'};
+  const B=bootPlan(); if (t<B.cfg.t1) return {live:false, why:'FPGA not configured ('+inf+')'}; if (t<B.loop) return {live:false, why:'boot: receivers not running yet'};
+  const F=fpga(t), sel=o<4?F.selA:F.selB;                     // switch2x1 inst20 (OUT1/OUT2) or inst21 (OUT3/OUT4)
+  if (sel===0){ if(!lockedAt(0,t)) return {live:false, why:'INPUT A not locked: no RMCK from U5; q15 no_lock mutes inst2'}; if(F.off1) return {live:false, why:'muted by q15 until the next ALTERA_write'};
+    return {live:true, src:0, fs:D.in[0].fs, path:'U5 → inst2 i2s8416_aes → inst'+(o<4?'20':'21')}; }
+  if (!lockedAt(1,t)) return {live:false, why:'INPUT B not locked: inst3 has no clock (U6 RMCK)'}; if (F.off2) return {live:false, why:'muted by q14 no_lock2'};
+  if (F.ext2 && F.swSel){ if(!srcFsOK()) return {live:true, src:0, fs:D.in[1].fs, viaSRC:true, bad:true, why:'AD1895 out of range (24.576 MHz / 138 = '+kHz(K.srcMaxFs)+')'};
+    return {live:true, src:0, fs:D.in[1].fs, viaSRC:true, silent:!lockedAt(0,t), path:'U5 → inst2 I²S → U9 AD1895 → inst23 i2s_par → inst22 → inst3 (U6 clocks)'}; }
+  return {live:true, src:1, fs:D.in[1].fs, path:'U6 → inst3 i2s8416_aes → inst'+(o<4?'20':'21')}; }
+function leds(t){ const L={pwr:powered(t)}; const n=lastPass(t,3);
+  if (n===null||n<0) return Object.assign(L,{lock1:0,nolock1:0,lock2:0,nolock2:0,x8:0,x4:0,src:0,eq1:0,eq2:0});   // port_init leaves every MCU LED off
+  const a1=seenAt(0,n), a2=seenAt(1,n), m=mode();
+  Object.assign(L,{lock1:a1,nolock1:!a1,eq1:eq1(),x4:m===1,x8:m!==1});
+  if (input2Active()) Object.assign(L,{lock2:a2,nolock2:!a2,eq2:eq2()}); else Object.assign(L,{lock2:0,nolock2:0,eq2:0});
+  L.src = D.fw==='V020000' && m===2 && n>0 && seenAt(1,n-1);  // SRC_LED from the previous pass's src_is_active (v100 has no SRC LED code)
+  return L; }
+function eqGain(f){ const w=2*Math.PI*f; const y=(re,im)=>{ const d=re*re+im*im; return [re/d,-im/d]; };
+  const a=[1/750,0], b=y(365,-1/(w*1e-9)), c=y(110,-1/(w*220e-12)); return 750*Math.hypot(a[0]+b[0]+c[0], a[1]+b[1]+c[1]); }   // EL5263 section B: R8 750R over R7 ‖ (R9+C15) ‖ (R11+C17)
+function rxV(k){ const c=D.in[k]; if(!c.on) return 0; const v=D.ver==='75'?1.0:4.0, a=(D.ver==='75'?2.5:4.0)*Math.sqrt(c.fs/48000); return v*Math.pow(10,-a*c.cable/100/20); }   // display only (inferred loss)
+function sample(k,t){ const c=D.in[k]; const n=Math.floor(t*c.fs); return Math.pow(10,c.dbfs/20)*Math.sin(2*Math.PI*c.f*n/c.fs); }
+function outRate(o){ const oi=outInfo(o,SIM.t); return oi.live?oi.fs:D.in[o<4?0:(dual()?1:0)].fs; }
+function outSample(o,t){ const oi=outInfo(o,t); if(!oi.live||oi.silent||oi.bad) return 0; const fs=oi.fs, c=D.in[oi.src];
+  const dly = oi.viaSRC ? K.srcDelay : K.fpgaLat/fs; const n=Math.floor((t-dly)*fs); return Math.pow(10,c.dbfs/20)*Math.sin(2*Math.PI*c.f*n/fs); }
+/* ---------------- actions ---------------- */
+const act=makeActor(D, ()=>`${MODEN[mode()]} · IN1 ${lockedAt(0,1)?'LOCK':'NO LOCK'} · IN2 ${lockedAt(1,1)?'LOCK':'NO LOCK'}${mode()===2?(lockedAt(1,1)&&srcFsOK()?' · SRC → '+kHz(D.in[1].fs):' · SRC idle (B not locked)'):''}`);
 const A={
   power(){ act(D.power?'Power off':'Power on', tr=>{ D.power=!D.power; if(D.power){ D.powerAt=SIM.t;
-    tr('PSU1 VOF-10-5 → VCC_5V; REG1 LM1117-3.3 → VCC_3V3; REG3 LM1117-ADJ (R2 221R / R3 47R5) → net “VCC_1V2” = 1.52 V for the Cyclone core; REG2 MAX660 → VCC_5VN (−5 V) for the EL5263s');
-    tr('U10 AT90CAN128 (X2 8 MHz) starts; Q1 releases N_CONFIG; U8 EP1C3 loads from U7 M25P40 (DCLK/CONF_DATA/ASDI/NCS); CONF_DONE goes high ('+inf+' timing)');
-    tr('U10 reads SW1 (pins 44–47 via R72–R75), resets the CS8416s (CS8416_RESET1/2) and programs them over CS8416_CLK/IN/OUT'); } }); },
-  dip(i){ act(`Rear DIP ${i+1} (${DIPN[i]}) → ${D.dip[i]?'OFF':'ON'}`, tr=>{ D.dip[i]^=1; tr(`SW1-${8-i} → R${72+i} → U10 pin ${44+i} (the MCU reads it; firmware not archived)`);
-    if (i===0) tr(dual()? 'DUAL: U8 OUT1/OUT2 (A1–A4) carry INPUT A, OUT3/OUT4 (B1–B4) carry INPUT B · DA_1X4 LED (U10 pin 18)' : '1×8: all four FPGA outputs OUT1–OUT4 carry INPUT A → eight AES outputs · DA_1X8 LED (pin 19)');
-    if (i===1) tr(srcOn()? `SRC: U8 routes INPUT A through U9 AD1895 (SDATA_I/SCLK_I/LRCLK_I → SDATA/SCLK/LRCLK, BYPASS released); outputs run at ${K.srcOut/1000} kHz from X1 24.576 MHz VCXO (${inf}) · SRC_LED` : 'SRC bypassed: outputs follow the input rate');
-    if (i>=2){ const k=i-2; tr(`EQ${k+1}: the CS8416 (U${5+k}) is switched to its IN${k+1}_EQ input — the EL5263 (U${1+k}) high-frequency boost path — instead of the flat IN${k+1} path (${inf}: selection over SPI) · EQ${k+1} LED (pin ${k?9:5})`); }
-    [0,1].forEach(k=>D.in[k].at=SIM.t); }); },
-  plug(k){ act(`${D.in[k].on?'Unplug':'Plug in'} INPUT ${'AB'[k]}`, tr=>{ D.in[k].on=!D.in[k].on; D.in[k].at=SIM.t;
-    tr(D.in[k].on? `AES${9+k}_IN → H103 → H5 → T${9+k} PE-65612 → AES${9+k} (I${1+k} jumper: ${D.ver==='75'?'75R R'+(35+k):'110R R'+(25+k)}) → U${1+k} EL5263 → IN${k+1} / IN${k+1}_EQ → U${5+k} CS8416` : `U${5+k} loses lock → LOCK${k+1} off, NOLOCK${k+1} on`); }); },
-  ver(v){ act(`Rear version → POD12A/${v}`, tr=>{ D.ver=v; tr(v==='75'? 'SA-POD12A-TB-75: ten 75 Ω BNCs (31-5329-72RFX); jumpers I1/I2, O1–O8 on the 75R side (R35/R36, R37–R44)' : 'SA-POD12A-TB-110: ten Phoenix MCV1.5/3; jumpers on the 110R side (R25/R26, R27–R34)'); tr('The main board is the same for both versions'); [0,1].forEach(k=>D.in[k].at=SIM.t); }); },
-  set(k,key,v,l){ act(l, tr=>{ D.in[k][key]=v; D.in[k].at=SIM.t; tr(key==='cable'?`${rxV(k).toFixed(3)} V p-p at the receiver; with EQ${k+1} ${eqOn(k)?'on':'off'} the CS8416 sees ${effV(k).toFixed(3)} V p-p (${inf})`:'Source changed'); }); },
+    tr('PSU1 VOF-10-5 → VCC_5V; REG1 LM1117-3.3 → VCC_3V3; REG3 LM1117-ADJ (R2 221R / R3 47R5) → net “VCC_1V2” = 1.52 V; REG2 MAX660 → VCC_5VN');
+    tr('main(): port_init(): PORTC = 0xFF → PC0 → Q1 → N_CONFIG low (FPGA blank) · watchdog_init() · CLI() — interrupts are never enabled');
+    tr(`wait(3000) × 10 → ALTERA_RESET(1000) → EP1C3 loads from U7 M25P40 → wait(3000) × 20 → init_CS8416() → CS8416_write_ALL(00..06) = 00 04 0B BB 80 B0 10`);
+    tr(`READ_DIP_SWITCHES() → ALTERA_write() → while(1) starts ${SIM.fmtDur(bootPlan().loop-D.powerAt)} after power-on; each pass ≈ ${SIM.fmtDur(passT())}`); } else tr('All rails collapse; outputs stop, LEDs off'); }); },
+  dip(i){ act(`Rear DIP ${i+1} (${DIPN[i]}) → ${D.dip[i]?'OFF':'ON'}`, tr=>{ D.dip[i]^=1;
+    tr(`SW1-${8-i} → R${72+i} → U10 pin ${44+i} ${['PA7','PA6','PA5','PA4'][i]} = ${D.dip[i]?'0 (ON grounds it)':'1 (pull-up)'} → next pass READ_DIP_SWITCHES: MIRROR(PINA) = ${bin8(dipByte())}b`);
+    tr(`ALTERA_write(): mode = dip_switches & 0x03 = ${modeRaw()}${modeRaw()===3?' → final else sets mode = OUTPUT_1x8_SRC (SRC beats DUAL)':''} → ${MODEN[mode()]}`);
+    if (i<2){ const m=mode();
+      tr(m===0?'data_lower &= ~(BIT4|BIT1|BIT0): q0 = q1 = 0 → inst20 and inst21 both pick aes1 → all eight outputs carry INPUT A'
+        : m===1?'data_lower |= BIT1: q1 = 1 → inst21 picks aes2 → B1–B4 carry INPUT B; A1–A4 stay on INPUT A'
+        : `SRC: ${mcuSeen(1,SIM.t+0.01)?'aes2_lock == YES → data_lower |= BIT4|BIT2|BIT1|BIT0, &= ~BIT3 → inst3 ext_sel = 1, inst22 sel = 1: AD1895 output (INPUT A audio) re-encoded on INPUT B’s clock → all eight outputs at '+kHz(D.in[1].fs)+' · src_is_active = YES':'aes2_lock == NO → falls back to plain 1×8 (INPUT A) and src_is_active = NO: the SRC LED stays dark'}`);
+      tr(`REFRESH_LEDS: ${m===1?'DUAL_LED_ON (PG3)':'SINGLE_LED_ON (PG4)'}${m===0?' · input2 = INACTIVE → LOCK2 and NO LOCK2 both dark':''}`); }
+    if (i===2) tr(`eq1_active = ${eq1()?'YES':'NO'} → PROCESS_MODES: CS8416_write1(0x04, ${eq1()?'0x89':'0x80'}) → U5 takes ${eq1()?'RXP1 = IN1_EQ (EL5263 U1 section B, +'+(20*Math.log10(eqGain(3.072e6))).toFixed(0)+' dB at 3 MHz)':'RXP0 = IN1 (flat section A)'} · EQ1 LED PE3`);
+    if (i===3) tr(`eq2_active = ${eq2()?'YES':'NO'}${D.fw==='V020000'?' (V020000: only when mode == OUTPUT_2x4)':' (v100: whenever input 2 is active)'} → CS8416_write2(0x04, ${eq2()?'0x89':'0x80'}) · EQ2 LED PE7`); }); },
+  plug(k){ act(`${D.in[k].on?'Unplug':'Plug in'} INPUT ${'AB'[k]}`, tr=>{ const c=D.in[k]; c.on=!c.on; c.at=SIM.t;
+    tr(`AES${9+k}_IN → T${9+k} PE-65612 → I${k+1} jumper (${D.ver==='75'?'75R R'+(35+k):'110R R'+(25+k)}) → U${1+k} EL5263 → R${k?22:12} IN${k+1} / R${k?23:13} IN${k+1}_EQ → U${5+k} CS8416 RXP0 / RXP1`);
+    tr(c.on?`U${5+k} locks after ≈${SIM.fmtDur(K.lockT)} (${inf}) → next CS8416_READ_LOCK_ALL sees RERR UNLOCK = 0 → aes${k+1}_lock = YES`
+      :`RERR UNLOCK = 1 (register 06 = 0x10 unmasks UNLOCK only) → aes${k+1}_lock = NO → NO LOCK${k+1}; data_upper bit ${7-k} = 1 → FPGA q${15-k} mutes aes${k+1}${k===1&&mode()===2?' — and ALTERA_write drops the SRC path back to 1×8':''}`); }); },
+  set(k,key,v,l){ act(l, tr=>{ D.in[k][key]=v; D.in[k].at=SIM.t;
+    if (key==='cable') tr(`${D.ver} Ω reach at ${kHz(D.in[k].fs)}: ${Math.round(reach(k))} m with EQ${k+1} ${eqOn(k)?'on':'off'} (POD12A manual 300/750 m on 75 Ω, 150/250 m on 110 Ω; fs scaling ${inf}) → ${D.in[k].cable<=reach(k)?'locks':'NO LOCK'}`);
+    else { tr(`CS8416 re-locks; RMCK = 256 × fs = ${(256*v/1e6).toFixed(3)} MHz clocks i2s8416_aes → AES out at ${kHz(v)}${v<30000||v>192000?' (outside 30–192 kHz: no lock)':''}`); if (mode()===2) tr(srcFsOK()?'AD1895 within range':`AD1895 out of range: MCLK 24.576 MHz / 138 = ${kHz(K.srcMaxFs)} (test report: “SRC at 192KHz not work”)`); } }); },
+  ver(v){ act(`Rear version → POD12A/${v}`, tr=>{ D.ver=v; tr(v==='75'? 'SA-POD12A-TB-75: ten 75 Ω BNCs; jumpers I1/I2, O1–O8 on the 75R side (R35/R36, R37–R44)' : 'SA-POD12A-TB-110: ten Phoenix MCV1.5/3; jumpers on the 110R side (R25/R26, R27–R34)'); tr('The main board is the same for both versions'); }); },
+  fw(v){ act(`Firmware → ${v}`, tr=>{ D.fw=v; tr(v==='v100'?'RD77 backup1/v100 (8 Jan 2014): no SRC LED code; eq2_active = (dip & BIT3) in any mode with input 2 active':'V020000 (27 Jan 2014, test report “MC: V020000”): SRC_LED on PB0 from src_is_active; EQ2 only in OUTPUT_2x4'); }); },
   reset(){ Object.assign(D, JSON.parse(JSON.stringify(FACT))); SIM.refresh(); },
 };
 /* ---------------- panels ---------------- */
@@ -313,129 +401,147 @@ function frontSVG(t){ const L=leds(t);
   return panelSVG(PREFIX,'front',{over},'POD12A front panel (real silkscreen)'); }
 function rearSVG(){ const v75=D.ver==='75';
   const conn=(x,y,pl,cls,title)=> v75? bnc(x,y,pl,cls,title,52) : phx(x,y,pl,cls,title);
-  let over = conn(263,52,D.in[0].on,'inA','INPUT A — click to plug/unplug') + conn(263,180,D.in[1].on,'inB','INPUT B — click to plug/unplug');
+  let over = conn(263,52,D.in[0].on,'inA','INPUT A — click to plug/unplug') + conn(263,180,D.in[1].on,'inB','INPUT B (also the SRC reference clock) — click to plug/unplug');
   [[420,52],[420,180],[576,52],[576,180],[732,52],[732,180],[888,52],[888,180]].forEach(([x,y],i)=>over+=conn(x,y,false,'','OUTPUT '+(i+1)+' ('+OUTN[i]+')'));
   over += phx(1010,128,false,'','BALANCED IOS (+ − G)') + dip(1128,158,D.dip.map(Boolean),'dp',DIPN) + iec(1362,32,1606,248);
   return panelSVG(PREFIX,'rear',{over},'POD12A rear panel (real silkscreen)'); }
 function bindPanel(root){ const p=root.querySelector('.pwr'); if(p) p.onclick=()=>A.power(); root.querySelectorAll('.inA').forEach(g=>g.onclick=()=>A.plug(0)); root.querySelectorAll('.inB').forEach(g=>g.onclick=()=>A.plug(1)); root.querySelectorAll('.dp').forEach(g=>g.onclick=()=>A.dip(+g.dataset.i)); }
 function controlsHTML(){ return `<div class="small" style="display:grid;grid-template-columns:auto repeat(3,auto);gap:4px 10px;align-items:center;margin-top:8px">
   ${[0,1].map(k=>`<b>INPUT ${'AB'[k]} source</b><label>fs <select id="fs${k}">${[22050,32000,44100,48000,96000,192000,220000].map(f=>`<option value="${f}" ${f===D.in[k].fs?'selected':''}>${f/1000} kHz</option>`).join('')}</select></label><label>cable <input id="cb${k}" type="number" step="50" value="${D.in[k].cable}" style="width:64px"> m</label><label>tone ${D.in[k].f} Hz, ${D.in[k].dbfs} dBFS</label>`).join('')}
-  <b>Rear version</b><label><select id="vr"><option value="75" ${D.ver==='75'?'selected':''}>POD12A/75 (BNC)</option><option value="110" ${D.ver==='110'?'selected':''}>POD12A/110 (Phoenix)</option></select></label></div>
-  <div class="small muted">Click the rear inputs to plug or unplug them, and the DIP levers (DUAL, SRC, EQ1, EQ2) to flip them. Keys 1–4 flip the DIP switches.</div>`; }
+  <b>Rear version</b><label><select id="vr"><option value="75" ${D.ver==='75'?'selected':''}>POD12A/75 (BNC)</option><option value="110" ${D.ver==='110'?'selected':''}>POD12A/110 (Phoenix)</option></select></label>
+  <b>MCU firmware</b><label><select id="fwv"><option value="V020000" ${D.fw==='V020000'?'selected':''}>V020000 (shipped)</option><option value="v100" ${D.fw==='v100'?'selected':''}>v100 (RD77 backup)</option></select></label></div>
+  <div class="small muted">Click the rear inputs to plug or unplug them, the DIP levers (DUAL, SRC, EQ1, EQ2) to flip them, and the rocker for a cold boot. Keys 1–4 flip the DIP switches.</div>`; }
 function bindControls(root){ const g=s=>root.querySelector(s); [0,1].forEach(k=>{ if(!g('#fs'+k)) return; g('#fs'+k).onchange=e=>A.set(k,'fs',+e.target.value,`INPUT ${'AB'[k]} rate → ${e.target.value/1000} kHz`); g('#cb'+k).onchange=e=>A.set(k,'cable',Math.max(0,+e.target.value),`INPUT ${'AB'[k]} cable → ${e.target.value} m`); });
-  if(g('#vr')) g('#vr').onchange=e=>A.ver(e.target.value); }
+  if(g('#vr')) g('#vr').onchange=e=>A.ver(e.target.value); if(g('#fwv')) g('#fwv').onchange=e=>A.fw(e.target.value); }
 bindKeys('__pod12aActive', ()=>({'1':()=>A.dip(0),'2':()=>A.dip(1),'3':()=>A.dip(2),'4':()=>A.dip(3)}));
 /* ---------------- timeline ---------------- */
-function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2'), wn=SIM.css('--warn');
-  const L=[];
+const STEPCOL=['#2f7fbf','#6a5acd','#8a8f96','#c08a2a','#1f9a5a'];
+function lanes(){ const a=SIM.css('--accent'), b=SIM.css('--accent2');
+  const L=[{label:'MCU (boot phase / main-loop step)', h:24, draw(c,X,t0,t1,y,h){ if(!D.power) return; const B=bootPlan(); c.font='10px sans-serif';
+    B.ph.forEach((p,i)=>{ if(p.t1<t0||p.t0>t1) return; const x0=X(Math.max(p.t0,t0)), x1=X(Math.min(p.t1,t1)); c.fillStyle=i%2?'#7a8590':'#9aa5b0'; c.fillRect(x0,y+3,Math.max(1,x1-x0),h-6); if(x1-x0>60){ c.fillStyle='#fff'; c.fillText(p.name,x0+3,y+15);} });
+    const P=passT(); if (t1>B.loop){ const s0=Math.max(t0,B.loop); if ((t1-s0)/P>400){ c.fillStyle=STEPCOL[0]; c.globalAlpha=.5; c.fillRect(X(s0),y+3,X(t1)-X(s0),h-6); c.globalAlpha=1; c.fillStyle=SIM.css('--ink'); c.fillText(`main loop: ${Math.round((t1-s0)/P).toLocaleString()} passes of ${SIM.fmtDur(P)} — zoom in`,X(s0)+4,y+15); return; }
+      const fr=stepFr(); for(let n=Math.floor((s0-B.loop)/P); B.loop+n*P<t1; n++){ fr.forEach((r,j)=>{ const u0=B.loop+(n+r[0])*P, u1=B.loop+(n+r[1])*P; if(u1<t0||u0>t1) return; c.fillStyle=STEPCOL[j]; const x0=X(Math.max(u0,t0)), x1=X(Math.min(u1,t1)); c.fillRect(x0,y+3,Math.max(1,x1-x0),h-6); if(x1-x0>70){ c.fillStyle='#fff'; c.fillText(STEPS[j].n,x0+3,y+15);} }); } } }}];
   [0,1].forEach(k=>{ L.push({label:`INPUT ${'AB'[k]} frames (${D.in[k].fs/1000}k)`, h:22, draw(c,X,t0,t1,y,h){ if(!D.in[k].on){ c.fillStyle=SIM.css('--ink2'); c.font='11px sans-serif'; c.fillText('unplugged',X(t0)+6,y+15); return; } SIM.pulses(c,X,t0,t1,y,h,1/D.in[k].fs,0,0.2/D.in[k].fs,b,'frames'); }});
-    L.push(boolLane(`LOCK${k+1} / NOLOCK${k+1}`, t=>D.power&&lockedAt(k,t), '#3fbf5f')); });
-  [0,4].forEach(o=>{ L.push({label:`FPGA OUT${o/2+1} → ${OUTN[o]}/${OUTN[o+1]} (${outRate(o)/1000}k)`, h:22, draw(c,X,t0,t1,y,h){ const fs=outRate(o); if(!D.power){return;} SIM.pulses(c,X,t0,t1,y,h,1/fs,0,0.2/fs,a,'frames'); if(!outLive(o,(t0+t1)/2)){ c.fillStyle=SIM.css('--bad'); c.font='11px sans-serif'; c.fillText('no source locked',X(t0)+6,y+15);} }}); });
+    L.push(boolLane(`U${5+k} CS8416 lock (hardware)`, t=>lockedAt(k,t), '#3fbf5f')); L.push(boolLane(`LOCK${k+1} LED (as the MCU last saw it)`, t=>leds(t)['lock'+(k+1)], '#7fd08f')); });
+  [0,4].forEach(o=>{ L.push({label:`FPGA OUT${o/2+1} → ${OUTN[o]}/${OUTN[o+1]}`, h:22, draw(c,X,t0,t1,y,h){ const tm=(t0+t1)/2, oi=outInfo(o,tm); if(!oi.live){ c.fillStyle=SIM.css('--bad'); c.font='11px sans-serif'; c.fillText(oi.why,X(t0)+6,y+15); return; } SIM.pulses(c,X,t0,t1,y,h,1/oi.fs,0,0.2/oi.fs,a,'frames'); c.fillStyle=SIM.css('--ink'); c.font='10px sans-serif'; c.fillText(`${kHz(oi.fs)} · ${oi.viaSRC?'INPUT A via AD1895 on INPUT B clock':'INPUT '+'AB'[oi.src]}`,X(t1)-260,y+12); }}); });
   L.push(waveLane('INPUT A samples', t=>D.in[0].on?sample(0,t):0, -0.01, null, b, 34));
   L.push(waveLane(`${OUTN[0]} samples${srcOn()?' (after AD1895)':''}`, t=>outSample(0,t), -0.01, null, a, 34));
-  L.push(waveLane(`${OUTN[4]} samples (${dual()?'INPUT B':'INPUT A'})`, t=>outSample(4,t), -0.01, null, a, 34));
-  L.push(boolLane('SRC LED (yellow)', t=>leds(t).src, '#ffd23a'));
+  L.push(waveLane(`${OUTN[4]} samples`, t=>outSample(4,t), -0.01, null, a, 34));
+  L.push(boolLane('SRC LED (src_is_active)', t=>leds(t).src, '#ffd23a'));
   return L; }
 /* ---------------- views ---------------- */
-function routeTable(t){ return `<table class="kv"><tr><th>Output</th><th>FPGA pin / driver</th><th>Carries</th><th>Rate</th></tr>${OUTN.map((n,o)=>{ const f=Math.floor(o/2); const pins=[['U8-75','U3 DI4/DI3'],['U8-74','U3 DI1/DI2'],['U8-69','U4 DI4/DI3'],['U8-68','U4 DI1/DI2']][f];
-  return `<tr><td class="mono">${o+1} · ${n}</td><td class="mono small">OUT${f+1} ${pins[0]} → ${pins[1]} → T${o+1}</td><td>${outLive(o,t)?'INPUT '+'AB'[srcOf(o)]+(srcOn()&&srcOf(o)===0?' via SRC':''):'<span style="color:var(--bad)">nothing (input not locked)</span>'}</td><td class="mono">${outRate(o)/1000} kHz</td></tr>`; }).join('')}</table>`; }
+function routeTable(t){ const F=fpga(t); return `<table class="kv"><tr><th>Output</th><th>FPGA pin / driver</th><th>Carries</th><th>Rate</th></tr>${OUTN.map((n,o)=>{ const f=Math.floor(o/2); const pins=[['U8-75','U3 DI4/DI3'],['U8-74','U3 DI1/DI2'],['U8-69','U4 DI4/DI3'],['U8-68','U4 DI1/DI2']][f]; const oi=outInfo(o,t);
+  return `<tr><td class="mono">${o+1} · ${n}</td><td class="mono small">OUT${f+1} ${pins[0]} → ${pins[1]} → T${o+1}</td><td>${oi.live?(oi.viaSRC?'INPUT A via SRC'+(oi.silent?' (A unlocked: silence, '+inf+')':'')+(oi.bad?' <span style="color:var(--bad)">out of range</span>':''):'INPUT '+'AB'[oi.src]):`<span style="color:var(--bad)">${oi.why}</span>`}</td><td class="mono">${oi.live?kHz(oi.fs):'—'}</td></tr>`; }).join('')}</table>
+  <p class="small mono">Last ALTERA_write: data_upper ${bin8(F.up)}b · data_lower ${bin8(F.lo)}b (q0 sel A ${F.selA}, q1 sel B ${F.selB}, q4 SRC ${F.swSel})</p>`; }
 function viewSim(m){ window.__pod12aActive=true;
   m.innerHTML=`<div class="grid2"><div>${card('Front panel at the playhead',`<div id="fp"></div>`)}${card('Rear panel — click inputs and DIP levers',`<div id="rp"></div>${controlsHTML()}`)}</div>
-    <div>${card('What the circuit did (last action)',`<div id="trace" class="log"></div>`)}${card('Routing now',`<div id="rt"></div>`)}</div></div>
-    ${card('Timeline — one second, zoomable. 200 µs shows single frames; with SRC on, compare input and output frame rates.',`<canvas id="tl"></canvas>`)}
+    <div>${card('What the firmware did (last action)',`<div id="trace" class="log"></div>`)}${card('Routing now',`<div id="rt"></div>`)}</div></div>
+    ${card('Timeline — one second, zoomable. 200 µs shows single frames; with SRC on, the outputs follow INPUT B’s frame rate.',`<canvas id="tl"></canvas>`)}
     <div class="grid2">${card('Scope: INPUT A and output A1 at the playhead (one AES3 frame each)',`<canvas id="s1"></canvas><canvas id="s2"></canvas><div id="bits" class="small mono"></div>`)}${card('Action log',`<div id="log" class="log"></div>`)}</div>`;
   const draw=()=>{ const t=SIM.t;
     m.querySelector('#fp').innerHTML=frontSVG(t); bindPanel(m.querySelector('#fp')); m.querySelector('#rp').innerHTML=rearSVG(); bindPanel(m.querySelector('#rp'));
     m.querySelector('#trace').innerHTML=traceHTML(D,'Flip a DIP switch (DUAL, SRC, EQ1, EQ2) or plug an input.'); m.querySelector('#rt').innerHTML=routeTable(t);
-    m.querySelector('#log').innerHTML=logHTML(D); SIM.drawLanes(m.querySelector('#tl'),lanes(),{labelW:220});
-    const fi=D.in[0].fs, ni=Math.floor(t*fi), si=sample(0,t), fo=outRate(0), no=Math.floor(t*fo), so=outSample(0,t);
+    m.querySelector('#log').innerHTML=logHTML(D); SIM.drawLanes(m.querySelector('#tl'),lanes(),{labelW:230});
+    const fi=D.in[0].fs, ni=Math.floor(t*fi), si=sample(0,t), oi=outInfo(0,t), fo=oi.live?oi.fs:48000, no=Math.floor(t*fo), so=outSample(0,t);
     drawAesScope(m.querySelector('#s1'), aesSubframe(si,ni%192===0?'Z':'X',ni%192,fi), aesSubframe(si,'Y',ni%192,fi), fi, rxV(0)/(D.ver==='75'?1:4), 'INPUT A ·');
-    drawAesScope(m.querySelector('#s2'), aesSubframe(so,no%192===0?'Z':'X',no%192,fo), aesSubframe(so,'Y',no%192,fo), fo, outLive(0,t)?1:0.05, 'A1 out ·');
-    m.querySelector('#bits').innerHTML=`Input amplitude at the receiver ${rxV(0).toFixed(3)} V p-p${eqOn(0)?` → ${effV(0).toFixed(3)} V after the EQ path`:''}. Output: ${D.ver==='75'?'1 V p-p into 75 Ω':'about 4 V p-p into 110 Ω'} from DS34LV87T + PE-65612 (${inf}). <span class="muted">Without SRC the FPGA passes the frames through bit-for-bit (${inf}); with SRC the samples are recomputed at ${K.srcOut/1000} kHz.</span>`; };
+    drawAesScope(m.querySelector('#s2'), aesSubframe(so,no%192===0?'Z':'X',no%192,fo), aesSubframe(so,'Y',no%192,fo), fo, oi.live?1:0.05, 'A1 out ·');
+    m.querySelector('#bits').innerHTML=`Input amplitude at the receiver ${rxV(0).toFixed(3)} V p-p (${inf}); ${eq1()?'CS8416 register 04 = 0x89: RXP1 (IN1_EQ)':'register 04 = 0x80: RXP0 (flat IN1)'}. <span class="muted">${oi.live?oi.path||'':oi.why}</span>`; };
   bindControls(m); SIM.on('time',draw); }
 const LESSONS=[
-  {title:'Meet the POD12A', body:`<p>From the front panel and README: an <b>AES digital audio DA</b> that runs as one <b>1×8</b> or two <b>1×4</b> amplifiers, with SRC/EQ1/EQ2 tallies and LOCK/NO LOCK for each input. It comes as POD12A/75 (BNC) or POD12A/110 (Phoenix).</p><p class="muted">No POD12A manual is in the archive. This tutorial follows the panel legends, the rear DIP legend (DUAL · SRC · EQ1 · EQ2) and the netlist.</p>`, check:()=>true, auto:true},
-  {title:'1 · Power and lock', body:`<p>Switch on. With INPUT A connected, LOCK under INPUT 1 turns green and the <b>1X8</b> tally lights.</p>`, check:()=>D.power&&lockedAt(0,1)&&!dual(), hint:'Rocker on; INPUT A plugged in; DIP 1 (DUAL) off.'},
-  {title:'2 · One input to eight outputs', body:`<p>In 1×8 mode, all four FPGA outputs carry INPUT A. Each one drives two RS-422 line drivers, so A1–A4 and B1–B4 all carry the same signal. Check the routing table.</p>`, check:()=>!dual()&&OUTN.every((n,o)=>srcOf(o)===0), auto:false, hint:'DIP 1 off.'},
+  {title:'Meet the POD12A', body:`<p>An <b>AES digital audio DA</b> that runs as one <b>1×8</b> or two <b>1×4</b> amplifiers, with SRC/EQ1/EQ2 tallies and LOCK/NO LOCK for each input, as POD12A/75 (BNC) or POD12A/110 (Phoenix). The model runs the real MCU firmware (V020000) and FPGA design (D6201A), archived in the obsolete POD12 folder.</p>`, check:()=>true, auto:true},
+  {title:'1 · Power and lock', body:`<p>Switch off and on again with the rocker. The MCU spends about ${Math.round((bootPlan().loop-D.powerAt)*1000)||300} ms in wait() loops before its main loop starts; only then do LOCK and the <b>1X8</b> tally light.</p>`, check:()=>D.power&&D.log.some(e=>e.name==='Power on'), hint:'Click the rocker twice.'},
+  {title:'2 · One input to eight outputs', body:`<p>In 1×8 mode (DIP 1 and 2 off), ALTERA_write clears q0/q1, so both FPGA switches pick INPUT A. In 1×8 the firmware marks input 2 INACTIVE, so LOCK2 and NO LOCK2 are both dark.</p>`, check:()=>mode()===0, hint:'DIP 1 and 2 off.'},
   {title:'3 · Dual 1×4', body:`<p>Flip <b>DIP 1 (DUAL)</b> on. The 1X4 tally lights. B1–B4 now carry INPUT B.</p>`, check:()=>dual()&&lockedAt(1,1), hint:'Click the first DIP lever; keep INPUT B plugged in.'},
-  {title:'4 · Sample-rate conversion', body:`<p>INPUT A is at 48 kHz and INPUT B at 44.1 kHz. Set INPUT A to <b>44.1 kHz</b> and switch on <b>DIP 2 (SRC)</b>. The AD1895 converts INPUT A to ${K.srcOut/1000} kHz (${inf}), clocked from the 24.576 MHz VCXO. On the timeline, the A outputs now run at a different frame rate from the input.</p>`, check:()=>srcOn()&&D.in[0].fs===44100, hint:'INPUT A fs → 44.1 kHz; click the second DIP lever.'},
-  {title:'5 · A long cable', body:`<p>Set INPUT A's cable to <b>700 m</b>. The signal at the receiver drops below threshold and NO LOCK lights. Switch on <b>DIP 3 (EQ1)</b>: the CS8416 then takes its input from the EL5263 equaliser path and locks again (${inf}).</p>`, check:()=>D.in[0].cable>=700&&eqOn(0)&&lockedAt(0,1), hint:'Cable 700, then the third DIP lever.'},
-  {title:'6 · 110 Ω version', body:`<p>Switch the rear to <b>POD12A/110</b>. The main board is the same; the jumpers I1/I2 and O1–O8 select the 110R terminations and source resistors instead of 75R.</p>`, check:()=>D.ver==='110', hint:'Rear version menu.'},
-  {title:'Done', body:`<p>See <b>Findings</b> for the firmware the archive doesn't have and the odd power-rail name.</p>`, check:()=>true, auto:true},
+  {title:'4 · SRC: INPUT A on INPUT B’s clock', body:`<p>Flip DIP 1 off and <b>DIP 2 (SRC)</b> on. The AD1895 takes INPUT A (48 kHz) and outputs it on INPUT B’s clock (44.1 kHz): all eight outputs now run at INPUT B’s rate. INPUT B is only a clock reference; its audio is discarded.</p>`, check:()=>srcOn()&&srcActive(SIM.t+0.001)&&!D.dip[0], hint:'DIP 1 off, DIP 2 on; INPUT B plugged in.'},
+  {title:'5 · No reference, no SRC', body:`<p>Unplug <b>INPUT B</b>. ALTERA_write only engages the SRC path <span class="mono">if (aes2_lock == YES)</span>, so the unit quietly falls back to plain 1×8 and the SRC LED goes dark.</p>`, check:()=>srcOn()&&!D.in[1].on, hint:'Click the lower rear input.'},
+  {title:'6 · A long cable', body:`<p>Plug INPUT B back in and set INPUT A's cable to <b>500 m</b>: beyond the manual's 300 m, so NO LOCK. Switch on <b>DIP 3 (EQ1)</b>: PROCESS_MODES writes 0x89 to register 04 and the CS8416 takes its second input, the EL5263's boosted copy; it locks again (750 m reach).</p>`, check:()=>D.in[0].cable>=500&&eq1()&&lockedAt(0,1), hint:'Cable 500, then the third DIP lever.'},
+  {title:'Done', body:`<p>See <b>Findings</b> for what the code does that the manual does not say.</p>`, check:()=>true, auto:true},
 ];
 let lessonIdx=0;
 function viewTutorial(m){ window.__pod12aActive=true; tutorialView(m,{title:'Tutorial — using a POD12A',lessons:LESSONS,D,getIdx:()=>lessonIdx,setIdx:i=>lessonIdx=i,reset:()=>A.reset(),
   unitHTML:()=>`${frontSVG(SIM.t)}<div style="margin-top:8px">${rearSVG()}</div>${controlsHTML()}<div style="margin-top:6px">${routeTable(SIM.t)}</div>`, bind:r=>{ bindPanel(r); bindControls(r); }}); }
 function viewSecond(m){ window.__pod12aActive=true;
   m.innerHTML=`${card('One second, broken down',`<div id="ladder"></div>`)}<div class="grid2">${card('As seen by the device at the playhead',`<div id="dev"></div>`)}${card('As seen by the front panel',`<div id="fp"></div>`)}</div>${card('Zoom ladder — samples on output A1',`<canvas id="zl"></canvas>`)}`;
-  const draw=()=>{ const t=SIM.t, fi=D.in[0].fs, fo=outRate(0);
-    const rows=[['INPUT A frames',fi.toLocaleString(),SIM.fmtDur(1/fi),'U5 CS8416 recovers the clock (U5_MCLK → U8 pin 87)'],['Output A1 frames',fo.toLocaleString(),SIM.fmtDur(1/fo),srcOn()?'AD1895 output, clocked from the VCXO (X1 24.576 MHz, VCO_OUT → U8 pin 10)':'same frames as the input, re-driven'],
-      ['Bit cells per output',(128*fo).toLocaleString(),SIM.fmtDur(1/(128*fo)),'DS34LV87T → PE-65612 → 75R/110R → connector'],['Output streams','4 × 2','','FPGA OUT1–OUT4, each into two driver sections'],
-      ['VCXO steering','—','—','U8 UP/DN (pins 37/36) → D5/D6 → R55–R58, C52/C53 loop filter → X1 (inferred PLL)'],['SRC group delay','—',SIM.fmtDur(K.srcDelay),'AD1895 filter delay ('+inf+')'],['MCU clock','8,000,000',SIM.fmtDur(1/8e6),'U10 AT90CAN128, X2 8 MHz']];
+  const draw=()=>{ const t=SIM.t, fi=D.in[0].fs, oi=outInfo(0,t), fo=oi.live?oi.fs:fi, P=passT(), w=where(t);
+    const rows=[['MCU clock','8,000,000',SIM.fmtDur(1/XTAL),'U10 AT90CAN128, X2 8 MHz; no interrupts (CLI, never SEI)'],['Main-loop passes',Math.round(1/P).toLocaleString(),SIM.fmtDur(P),'READ_LOCK_ALL → PROCESS_MODES → READ_DIP → REFRESH_LEDS → ALTERA_write (cycles estimated from the .lis)'],
+      ['CS8416 SPI transactions',Math.round((2+(input2Active()?2:1))/P).toLocaleString(),'—','2 RERR reads + 1–2 register-04 rewrites per pass, all bit-banged'],
+      ['INPUT A frames',fi.toLocaleString(),SIM.fmtDur(1/fi),'U5 CS8416 recovers the clock (RMCK → U8 pin 87)'],['Output A1 frames',fo.toLocaleString(),SIM.fmtDur(1/fo),oi.viaSRC?'AD1895 output re-encoded on INPUT B’s U6 clocks':'same frames as the input, re-encoded by i2s8416_aes'],
+      ['Bit cells per output',(128*fo).toLocaleString(),SIM.fmtDur(1/(128*fo)),'DS34LV87T → PE-65612 → 75R/110R → connector'],
+      ['VCXO steering','0','—','idle: the FPGA ties up, dn and src_bypass to GND; R55/R59 DNI. X1 24.576 MHz free-runs as the AD1895 MCLK'],['SRC group delay','—',SIM.fmtDur(K.srcDelay),'AD1895 filter delay ('+inf+')']];
     m.querySelector('#ladder').innerHTML=`<table class="kv"><tr><th>Event</th><th>per second</th><th>period</th><th>who handles it</th></tr>${rows.map(r=>`<tr><td>${r[0]}</td><td class="mono">${r[1]}</td><td class="mono">${r[2]}</td><td class="small">${r[3]}</td></tr>`).join('')}</table>`;
-    m.querySelector('#dev').innerHTML=`<table class="kv"><tr><th>Time</th><td class="mono">${SIM.fmtT(t)}</td></tr><tr><th>INPUT A</th><td class="mono">frame ${Math.floor(t*fi).toLocaleString()} · sample ${sample(0,t).toFixed(5)}</td></tr><tr><th>A1 out</th><td class="mono">frame ${Math.floor(t*fo).toLocaleString()} · sample ${outSample(0,t).toFixed(5)}</td></tr><tr><th>Mode</th><td class="mono">${dual()?'DUAL 1×4':'1×8'} · SRC ${srcOn()?'on':'off'} · EQ1 ${eqOn(0)?'on':'off'} · EQ2 ${eqOn(1)?'on':'off'}</td></tr></table>`;
+    m.querySelector('#dev').innerHTML=`<table class="kv"><tr><th>Time</th><td class="mono">${SIM.fmtT(t)}</td></tr><tr><th>MCU</th><td class="mono">${w.kind==='off'?'off':w.kind==='boot'?'boot: '+(w.p?w.p.name:''):'pass '+w.n.toLocaleString()+' · '+STEPS[w.step].n}</td></tr><tr><th>INPUT A</th><td class="mono">frame ${Math.floor(t*fi).toLocaleString()} · sample ${sample(0,t).toFixed(5)}</td></tr><tr><th>A1 out</th><td class="mono">${oi.live?'frame '+Math.floor(t*fo).toLocaleString()+' · sample '+outSample(0,t).toFixed(5):oi.why}</td></tr><tr><th>Mode</th><td class="mono">${MODEN[mode()]} · EQ1 ${eq1()?'on':'off'} · EQ2 ${eq2()?'on':'off'} · ${D.fw}</td></tr></table>`;
     m.querySelector('#fp').innerHTML=frontSVG(t); bindPanel(m.querySelector('#fp'));
     drawLadder(m.querySelector('#zl'),t,[['1 second',1],['10 ms',0.01],['1 tone cycle',1/D.in[0].f],['8 frames',8/fo],['1 frame',1/fo]],tt=>outSample(0,tt),-0.01,'full scale'); };
   SIM.on('time',draw); }
 const BLOCKS={
-  in:{x:20,y:20,w:180,h:100,t:'INPUT A / B',s:['BNC or Phoenix (rear board)','T9/T10 PE-65612','I1/I2: 75R or 110R'],d:'AES9_IN/AES10_IN → H103 → H5 → transformers T9/T10 → AES9/AES10 nets. Jumpers I1/I2 pick the termination: R25/R26 110R or R35/R36 75R.'},
-  eq:{x:20,y:160,w:180,h:90,t:'U1/U2 EL5263 + D1–D4',s:['flat → IN1 / IN2','boosted → IN1_EQ / IN2_EQ'],d:'Video op-amps on ±5 V (MAX660 makes −5 V). Each gives two outputs to the CS8416: a flat one (R12/R22 75R) and an equalised one (R13/R23). The 1N4148 pairs clamp the input.'},
-  rx:{x:250,y:20,w:180,h:90,t:'U5/U6 CS8416',s:['RXP inputs: IN, IN_EQ','I²S + MCLK → FPGA'],d:'Receivers. U5_MCLK/SCLK/LRCLK/SDATA → U8 pins 87/77/76/86; U6 → 98/92/91/97. GPO0–2 also go to the FPGA. Programmed by U10 over CS8416_CLK/IN/OUT.'},
-  fpga:{x:250,y:150,w:180,h:110,t:'U8 Cyclone EP1C3T100',s:['routing 1×8 / dual 1×4','OUT1–OUT4 → drivers','VCXO phase detector UP/DN','config: U7 M25P40'],d:'Routes inputs to the four output streams and steers the 24.576 MHz VCXO. Bus to the MCU on FPGA1–FPGA6 (U10 pins 12–17). Test points TP1–TP5 on header H2.'},
-  src:{x:480,y:150,w:170,h:80,t:'U9 AD1895 SRC',s:['in: SDATA_I/SCLK_I/LRCLK_I','out: SDATA/SCLK/LRCLK','BYPASS, U9_RESET'],d:'Asynchronous sample-rate converter in an FPGA loop. MCLKOUT from U8 pin 54.'},
-  drv:{x:480,y:20,w:170,h:90,t:'U3/U4 DS34LV87T',s:['8 differential drivers','O1–O8: 75R or 110R','T1–T8 PE-65612'],d:'Each FPGA OUTn drives two driver sections. AESnN_SEL goes through jumper On to R27–R34 (110R) or R37–R44 (75R) before the transformer.'},
-  mcu:{x:250,y:300,w:180,h:90,t:'U10 AT90CAN128',s:['SW1 DIP: pins 44–47','LEDs: pins 2,5,6,9,10,18,19,25,26','ALTERA_RESET pin 35'],d:'Reads the DIP switches, lights the tallies, resets and programs the receivers and resets the FPGA. JTAG2 is its debug header. CAN-capable part, but no CAN connector.'},
+  in:{x:20,y:20,w:180,h:100,t:'INPUT A / B',s:['BNC or Phoenix (rear board)','T9/T10 PE-65612','I1/I2: 75R or 110R'],d:'AES9_IN/AES10_IN → H103 → H5 → transformers T9/T10 → AES9/AES10 nets. Jumpers I1/I2 pick the termination. INPUT B doubles as the SRC clock reference.'},
+  eq:{x:20,y:160,w:180,h:90,t:'U1/U2 EL5263',s:['A: flat → IN1 / IN2','B: boost → IN1_EQ / IN2_EQ'],d:'Each EL5263 drives the CS8416 twice: section A (gain 2) → RXP0, section B (R8 750R over R7 ‖ R9+C15 ‖ R11+C17, inverting) → RXP1. EQ1/EQ2 only select the receiver input: register 04 = 0x80 or 0x89.'},
+  rx:{x:250,y:20,w:180,h:90,t:'U5/U6 CS8416',s:['RXP0 flat, RXP1 EQ','I²S + RMCK → FPGA'],d:'Receivers, programmed and polled by U10 over a bit-banged bus (CS8416_CLK/IN/OUT). Register 06 = 0x10 unmasks UNLOCK only.'},
+  fpga:{x:250,y:150,w:180,h:110,t:'U8 EP1C3 (D6201A)',s:['inst2/inst3 i2s8416_aes','inst20/21 switch2x1 (q0, q1)','inst22 sw2x2x1x24 (q4)','q14/q15 mute on no lock'],d:'D6201A.bdf: two AES encoders (inst2 on U5 clocks, inst3 on U6 clocks), two output selectors and the SRC return path. 16 control bits from ALTERA_write (data_upper, data_lower). up/dn/src_bypass tied to GND: the VCXO loop is idle.'},
+  src:{x:480,y:150,w:170,h:80,t:'U9 AD1895 SRC',s:['in: INPUT A I²S (inst2)','out: on INPUT B LRCLK/SCLK','MCLK 24.576 MHz X1'],d:'Input side = INPUT A; output side, inst23 i2s_par and inst3 run on U6 (INPUT B) clocks. Engaged only when aes2_lock == YES. MCLK/138 caps fs at about 178 kHz ('+'inferred'+').'},
+  drv:{x:480,y:20,w:170,h:90,t:'U3/U4 DS34LV87T',s:['8 differential drivers','O1–O8: 75R or 110R','T1–T8 PE-65612'],d:'Each FPGA OUTn drives two driver sections.'},
+  mcu:{x:250,y:300,w:180,h:90,t:'U10 AT90CAN128',s:['V020000 main loop','DIP PA7..PA4, LEDs','ALTERA_write → FPGA2/3/4'],d:'v100w.c / D6202B.c / cs84xx.c / altera.c. openGear (D6201B) code base: CAN, DashBoard and EEPROM code linked but never called; interrupts never enabled.'},
   out:{x:480,y:270,w:170,h:70,t:'Outputs 1–8',s:['A1–A4 / B1–B4'],d:'Rear board SA-POD12A-TB-75 (10 BNC) or TB-110 (10 Phoenix).'},
   pwr:{x:20,y:300,w:180,h:90,t:'Power',s:['VOF-10-5 → VCC_5V','LM1117 3.3 V and ADJ (1.52 V)','MAX660 → VCC_5VN'],d:'PSU2 VAF1005 is a DNI “Special Build” alternative.'},
 };
-const WIRES=[['in','eq',''],['eq','rx','IN / IN_EQ'],['rx','fpga','I²S'],['fpga','src','I²S'],['src','fpga',''],['fpga','drv','OUT1–4'],['drv','out','×8'],['mcu','rx','SPI'],['mcu','fpga','FPGA1–6'],['pwr','mcu','']];
-function viewBlock(m){ window.__pod12aActive=false; blockView(m,BLOCKS,WIRES,'fpga',[680,410],card('In one sentence',`<p>Two AES inputs are equalised and received, an FPGA fans one or both of them out to four streams (optionally through a sample-rate converter), and eight transformer-coupled line drivers send them out.</p>`)); }
+const WIRES=[['in','eq',''],['eq','rx','IN / IN_EQ'],['rx','fpga','I²S'],['fpga','src','A I²S'],['src','fpga','on B clock'],['fpga','drv','OUT1–4'],['drv','out','×8'],['mcu','rx','SPI'],['mcu','fpga','FPGA2/3/4'],['pwr','mcu','']];
+function viewBlock(m){ window.__pod12aActive=false; blockView(m,BLOCKS,WIRES,'fpga',[680,410],card('In one sentence',`<p>Two AES inputs are received (flat or through the EL5263 EQ copy), an FPGA fans INPUT A, or A and B, out to four streams — or, in SRC mode, sends INPUT A through the AD1895 onto INPUT B’s clock — and eight transformer-coupled drivers send them out. An AT90CAN128 polls the receivers and DIP switches and writes 16 control bits to the FPGA every pass.</p>`)); }
 const SHEETS=[
   {name:'1 · Inputs and receivers', note:'Every net and pin here is copied from POD12-iss2-net.ipc (IPC-D-356A, 15/12/2013). Component values come from the master BOM.', svg:()=>
     chip(150,60,110,'T9 PE-65612',[['3','AES9 (I1-2)'],['2','AES9_N (H5-2)']],[['1','C26 → AES9_P']],'input A')
     +chip(430,190,140,'U1 EL5263',[['3 (+)','AES9 / D1-D2'],['2','R5/R6 750R'],['8/4','VCC_5V / 5VN']],[['1','R12 → IN1'],['7','R13 → IN1_EQ']],'')
-    +chip(610,40,110,'U5 CS8416',[['4','IN1 (C36)'],['3','IN1_EQ (C37)'],['16/15/17','CS8416_CLK/IN/OUT'],['9 / 14','RESET1 / SEL1']],[['24','MCLK→U8-87'],['27','SCLK→U8-77'],['28','LRCK→U8-76'],['26','SDATA→U8-86'],['20–18','GPO→U8-88..90']],'')
-    +txt(60,360,'Termination jumper I1: pin 1 → R25 110R, pin 3 → R35 75R, pin 2 → AES9.',11.5)+txt(60,380,'Input B is identical: T10, U2, U6, R26/R36, I2, nets AES10, IN2, IN2_EQ, U6_*.',11.5)},
-  {name:'2 · FPGA, SRC and outputs', note:'Nets from the IPC netlist. The DS34LV87T section assignment (DI1–DI4 to pins 1/7/9/15) follows the part datasheet.', svg:()=>
-    chip(230,40,150,'U8 EP1C3T100',[['75 / 74','OUT1 / OUT2'],['69 / 68','OUT3 / OUT4'],['50 / 49','BYPASS / U9_RESET'],['51–53','LRCLK_I SCLK_I SDATA_I'],['56/57/55','LRCLK SCLK SDATA'],['54','MCLKOUT'],['10','VCO_OUT ← X1'],['37 / 36','UP / DN']],[],'')
-    +chip(230,290,150,'U9 AD1895',[['6/5/4','LRCLK_I/SCLK_I/SDATA_I'],['2','MCLKOUT'],['9 / 13','BYPASS / U9_RESET']],[['24/25/23','LRCLK/SCLK/SDATA']],'SRC')
+    +chip(610,40,110,'U5 CS8416',[['4','IN1 (C36) RXP0'],['3','IN1_EQ (C37) RXP1'],['16/15/17','CS8416_CLK/IN/OUT'],['9 / 14','RESET1 / SEL1']],[['24','MCLK→U8-87'],['27','SCLK→U8-77'],['28','LRCK→U8-76'],['26','SDATA→U8-86'],['20–18','GPO→U8-88..90']],'')
+    +txt(60,360,'Register 04 = 0x80 selects RXP0 (flat), 0x89 selects RXP1 (EQ): PROCESS_MODES rewrites it every pass.',11.5)+txt(60,380,'Input B is identical: T10, U2, U6, R26/R36, I2, nets AES10, IN2, IN2_EQ, U6_*.',11.5)},
+  {name:'2 · FPGA, SRC and outputs', note:'Nets from the IPC netlist; FPGA roles from D6201A.bdf/.qsf. The DS34LV87T section assignment follows the part datasheet.', svg:()=>
+    chip(230,40,150,'U8 EP1C3T100',[['75 / 74','OUT1 / OUT2'],['69 / 68','OUT3 / OUT4'],['50 / 49','BYPASS / U9_RESET'],['51–53','LRCLK_I SCLK_I SDATA_I'],['56/57/55','LRCLK SCLK SDATA'],['54','MCLKOUT'],['10','VCO_OUT ← X1'],['37 / 36','UP / DN = GND']],[],'')
+    +chip(230,290,150,'U9 AD1895',[['6/5/4','LRCLK_I/SCLK_I/SDATA_I (A)'],['2','MCLKOUT'],['9 / 13','BYPASS / U9_RESET']],[['24/25/23','LRCLK/SCLK/SDATA (B clock)']],'SRC')
     +chip(560,60,120,'U3 DS34LV87T',[['15 / 9','OUT1'],['1 / 7','OUT2']],[['10/11','AES1P/N_SEL'],['14/13','AES2P/N_SEL'],['2/3','AES3P/N_SEL'],['6/5','AES4P/N_SEL']],'')
     +txt(470,260,'AESnN_SEL → jumper On → R27–R34 110R',11.5)+txt(470,278,'or R37–R44 75R → Cn → Tn → connector',11.5)+txt(470,300,'U4 does the same for OUT3/OUT4 → B1–B4.',11.5)},
-  {name:'3 · MCU, LEDs and power', note:'From the IPC netlist and the BOM. LED colours: LED1/2/4 green (551-0205), LED3/5–8 yellow (551-0305), LED9/10 red (551-0405).', svg:()=>
-    chip(200,40,150,'U10 AT90CAN128',[['44–47','SW1 via R72–R75'],['37/38/36','CS8416_CLK/IN/OUT'],['42/40','RESET1/RESET2'],['41/39','SEL1/SEL2'],['12–17','FPGA6…FPGA1'],['35','ALTERA_RESET → Q1'],['23/24','X2 8 MHz']],[['2','LOCK1 → LED2'],['26','NOLOCK1 → LED9'],['6','LOCK2 → LED4'],['25','NOLOCK2 → LED10'],['5','EQ1 → LED3'],['9','EQ2 → LED5'],['10','SRC → LED6'],['19','DA_1X8 → LED7'],['18','DA_1X4 → LED8']],'')
+  {name:'3 · MCU, LEDs and power', note:'From the IPC netlist, the BOM and the port comments in v100w.c. LED colours: LED1/2/4 green, LED3/5–8 yellow, LED9/10 red.', svg:()=>
+    chip(200,40,150,'U10 AT90CAN128',[['44–47','SW1 via R72–R75 (PA7..PA4)'],['37/38/36','CS8416_CLK/IN/OUT'],['42/40','RESET1/RESET2'],['41/39','SEL1/SEL2'],['12–17','FPGA6…FPGA1'],['35','ALTERA_RESET → Q1'],['23/24','X2 8 MHz']],[['2','LOCK1 → LED2'],['26','NOLOCK1 → LED9'],['6','LOCK2 → LED4'],['25','NOLOCK2 → LED10'],['5','EQ1 → LED3'],['9','EQ2 → LED5'],['10','SRC (PB0) → LED6'],['19','DA_1X8 → LED7'],['18','DA_1X4 → LED8']],'')
     +chip(690,60,130,'Power',[['PSU1 VOF-10-5','VCC_5V'],['REG1 LM1117-3.3','VCC_3V3'],['REG3 LM1117-ADJ','VCC_1V2'],['REG2 MAX660','VCC_5VN']],[],'')
     +txt(540,260,'REG3: R2 221R (out→adj), R3 47R5 (adj→gnd)',11.5)+txt(540,280,'Vout = 1.25 × (1 + 47.5/221) = 1.52 V',11.5,'var(--warn)')+txt(540,300,'= Cyclone (EP1C) core 1.5 V; the net name says 1V2',11.5,'var(--warn)')},
 ];
-function viewSchem(m){ window.__pod12aActive=false; schemView(m,SHEETS,'POD12A','No schematic file is archived for POD12A. These sheets come from the IPC-D-356A netlist inside the ISS2 Gerber zip, so every pin-to-net connection shown is real.'); }
-function viewSoft(m){ window.__pod12aActive=true; let hot=2;
-  m.innerHTML=`${card('Signal path, stage by stage (the MCU and FPGA programs are not archived)',`<div id="f"></div><div id="det" class="card"></div>`)}<div class="grid2">${card('DIP → MCU → LEDs and routing (live)',`<div id="dp"></div>`)}${card('Output routing (live)',`<div id="rt"></div>`)}</div>`;
-  const draw=()=>{ const st=[{t:'INPUT A',s:[D.ver+' Ω',rxV(0).toFixed(3)+' V p-p']},{t:'EL5263 EQ',s:[eqOn(0)?'EQ path':'flat path',effV(0).toFixed(3)+' V']},{t:'CS8416',s:[lockedAt(0,1)?'LOCK':'NO LOCK',D.in[0].fs/1000+' kHz'],bad:!lockedAt(0,1)},{t:'FPGA routing',s:[dual()?'dual 1×4':'1×8']},{t:'AD1895',s:[srcOn()?'→ '+K.srcOut/1000+' kHz':'bypassed']},{t:'8 drivers',s:['DS34LV87T','PE-65612']}];
-    m.querySelector('#f').innerHTML=flowSVG(st,hot); m.querySelectorAll('[data-st]').forEach(g=>g.onclick=()=>{hot=+g.dataset.st;draw();});
-    m.querySelector('#det').innerHTML=['Rear connector → H103 → H5 → T9 transformer → termination selected by jumper I1.',`EL5263 makes a flat copy and a boosted copy. The boost (${K.eqGain} dB at the AES fundamental, ${inf}) makes up for cable loss.`,`CS8416 locks from about ${K.lockLo/1000} to ${K.lockHi/1000} kHz (${inf}; the part is rated 32–192 kHz). The MCU reads lock and drives LOCK/NOLOCK.`,'In 1×8, OUT1–OUT4 = input A. In dual mode, OUT1/OUT2 = A and OUT3/OUT4 = B.','AD1895 in an FPGA loop: input I²S in, output I²S at the VCXO-derived rate. BYPASS is driven by the FPGA.','DS34LV87T sections → AESnN_SEL → On jumper → 75R/110R → PE-65612 → connector.'][hot];
-    m.querySelector('#dp').innerHTML=`<table class="kv"><tr><th>DIP</th><th>State</th><th>MCU pin</th><th>Effect</th><th>Tally</th></tr>${DIPN.map((n,i)=>`<tr class="${D.dip[i]?'hl':''}"><td>${i+1} ${n}</td><td class="mono">${D.dip[i]?'ON':'OFF'}</td><td class="mono">${44+i}</td><td class="small">${['1×8 ↔ dual 1×4','SRC in/out','EQ path input A','EQ path input B'][i]}</td><td class="small">${['DA_1X8 / DA_1X4','SRC_LED','EQ1','EQ2'][i]}</td></tr>`).join('')}</table>`;
-    m.querySelector('#rt').innerHTML=routeTable(SIM.t); };
+function viewSchem(m){ window.__pod12aActive=false; schemView(m,SHEETS,'POD12A','No schematic file is archived for POD12A. These sheets come from the IPC-D-356A netlist inside the ISS2 Gerber zip, with signal roles from the firmware and the D6201A FPGA design.'); }
+function viewSoft(m){ window.__pod12aActive=true;
+  m.innerHTML=`<div class="grid2">${card('main() while(1) — the step running at the playhead',`<div id="f"></div><div id="det" class="small"></div>`)}${card('Mode decision (ALTERA_write, live)',`<div id="md"></div>`)}</div><div class="grid2">${card('DIP → firmware → LEDs and routing (live)',`<div id="dp"></div>`)}${card('Output routing (live)',`<div id="rt"></div>`)}</div>`;
+  const draw=()=>{ const t=SIM.t, w=where(t), hot=w.kind==='loop'?w.step:-1;
+    m.querySelector('#f').innerHTML=flowSVG(STEPS.map((s,i)=>({t:s.n.replace('CS8416_',''),s:[SIM.fmtDur(s.c()/XTAL)]})),hot);
+    m.querySelector('#det').innerHTML=w.kind==='loop'?`<b>${STEPS[w.step].n}</b>: ${STEPS[w.step].d}`:w.kind==='boot'?`Boot: <b>${w.p?w.p.name:''}</b> — ${w.p?w.p.d:''}`:'Power off.';
+    const F=fpga(t), a2=mcuSeen(1,t);
+    m.querySelector('#md').innerHTML=`<table class="kv"><tr><th>dip_switches</th><td class="mono">${bin8(dipByte())}b → mode = ${modeRaw()} → ${MODEN[mode()]}</td></tr>
+      <tr><th>Branch</th><td class="small">${mode()===0?'OUTPUT_1x8: data_lower &= ~(BIT4|BIT1|BIT0)':mode()===1?'OUTPUT_2x4: data_lower |= BIT1':(a2?'else, aes2_lock == YES: |= BIT4|BIT2|BIT1|BIT0, &= ~BIT3 → src_is_active = YES':'else, aes2_lock == NO: plain 1×8, src_is_active = NO')}</td></tr>
+      <tr><th>data_upper</th><td class="mono">${bin8(F.up)}b (bit 7 = NOT aes1_lock → q15, bit 6 = NOT aes2_lock → q14)</td></tr><tr><th>data_lower</th><td class="mono">${bin8(F.lo)}b (q0 ${F.selA} · q1 ${F.selB} · q4 ${F.swSel})</td></tr></table>`;
+    m.querySelector('#dp').innerHTML=`<table class="kv"><tr><th>DIP</th><th>State</th><th>Pin</th><th>Code</th><th>Tally</th></tr>${DIPN.map((n,i)=>`<tr class="${D.dip[i]?'hl':''}"><td>${i+1} ${n}</td><td class="mono">${D.dip[i]?'ON':'OFF'}</td><td class="mono">${44+i} ${['PA7','PA6','PA5','PA4'][i]}</td><td class="small">${['mode bit 0 (OUTPUT_2x4)','mode bit 1 (OUTPUT_1x8_SRC; beats DUAL)','eq1_active → reg 04 = 0x89 on U5','eq2_active → reg 04 = 0x89 on U6 ('+(D.fw==='V020000'?'2×4 only':'any active mode')+')'][i]}</td><td class="small">${['DA_1X8 / DA_1X4','SRC_LED (when B locked)','EQ1','EQ2'][i]}</td></tr>`).join('')}</table>`;
+    m.querySelector('#rt').innerHTML=routeTable(t); };
   SIM.on('time',draw); }
 function viewNotes(m){ window.__pod12aActive=false;
   m.innerHTML=card('What the POD12A archive shows — findings',`<ol>
-   <li><b>It is not firmware-free.</b> The README says “Hardware only. There is no firmware”. The BOM and netlist show an <b>AT90CAN128</b> MCU (U10, JTAG2 header) and an <b>Altera Cyclone EP1C3</b> (U8) configured from an M25P40 (U7, header H1). Both need programs, and neither is in the folder. The FPGA probably shares code with the POD14A platform (same EP1C3T100, CS8416, PE-65612, DS34LV87T) (${inf}).</li>
-   <li><b>The “1V2” rail is 1.52 V.</b> REG3 LM1117-ADJ with R2 221R and R3 47R5 gives 1.25 × (1 + 47.5/221) = 1.52 V. That is correct for a Cyclone I core (1.5 V). Only the net name “VCC_1V2” is wrong — perhaps carried over from a Cyclone II/III design.</li>
-   <li><b>One FPGA pin feeds two outputs.</b> The FPGA has only OUT1–OUT4. Each drives two DS34LV87T sections (e.g. OUT1 → U3 pins 15 and 9 → AES2 and AES1). So in 1×8 mode A1/A2 always carry the same stream, and in dual mode the A/B split falls on an OUT-pair boundary.</li>
-   <li><b>The equaliser is a second receiver input, not a filter in line.</b> Each EL5263 feeds the CS8416 two ways: <span class="mono">IN1</span> through R12 75R and <span class="mono">IN1_EQ</span> through R13. EQ1/EQ2 then picks the receiver input (${inf}, consistent with the nets).</li>
-   <li><b>One main board for both versions.</b> 75/110 Ω is chosen by the rear board (TB-75 BNCs or TB-110 Phoenix) and by ten 3-pin jumpers (I1, I2, O1–O8) that pick 75R or 110R parts. The main board is identical.</li>
-   <li><b>The SRC runs against a steerable VCXO.</b> X1 is a 24.576 MHz VCXO (CSX-750V) whose control voltage comes from FPGA pins UP/DN through diodes D5/D6 and an R/C loop filter (R55–R58, C52/C53). So the FPGA contains a phase detector, as POD33 does with its PLL1705.</li>
-   <li><b>Leftovers.</b> <span class="mono">POD12A - #PNP #2016/dsfsd.prg</span> is a stray pick-and-place file. The BOMs exist in two copies each (“(1)”). The Gerber zip names the board “POD12” (POD12-iss2), without the A.</li>
-   <li><b>The panel art only exists as CorelDRAW.</b> There is no SILK PDF, so the panels here come from the .cdr through Inkscape. In that conversion the cut-out outlines are black like the ink.</li></ol>`)
-  +card('Assumptions in this simulation',`<ul class="small"><li>Lock range, cable loss (2.5 / 4 dB per 100 m), EQ boost (14 dB), lock time 20 ms, SRC output 48 kHz and SRC on input A only, FPGA latency 3 bit cells: all ${inf}.</li><li>DIP order follows the rear legend “DUAL · SRC · EQ1 · EQ2” for switches 1–4.</li><li>An output whose source is not locked is shown as silent (${inf}; the real firmware may mute, pass or fall back).</li></ul>`)
-  +card('Sources',`<ul class="small mono"><li>POD12A - #ISS2 #GERBER.zip → POD12-iss2-net.ipc, POD12-Drill-Report.txt</li><li>POD12A - BOM/POD12A - MASTER BOM.xlsx</li><li>POD12A - #ARTWORK #DA #2016/POD12A-FRONT&amp;REAR-SILK (CURVE).cdr · Pics/</li></ul>`); }
+   <li><b>Corrected 2026|59: the POD12A firmware is archived, in the obsolete POD12 folder (see pod12.js).</b> The MCU program is V020000 (<span class="mono">XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #Software/…/#V020000/</span>, with an earlier v100 in <span class="mono">POD12 - Update - #RD #RD77/Software/Atmel/backup1/v100</span>), and the FPGA is the D6201A project in <span class="mono">RD77/Software/FPGA/v100</span>. This plugin used to say neither existed and guessed the behaviour; the model now follows that code.</li>
+   <li><b>SRC takes INPUT A and outputs it on INPUT B's clock.</b> In D6201A.bdf the AD1895's input is encoder inst2's I²S (INPUT A); its output side, the i2s_par reader and encoder inst3 run on U6's LRCLK/SCLK (INPUT B). ALTERA_write engages the path only <span class="mono">if (aes2_lock == YES)</span>. INPUT B's audio is discarded; with no B the unit quietly runs plain 1×8 and the SRC LED stays dark. (The earlier guess of a fixed 48 kHz from the VCXO was wrong.)</li>
+   <li><b>The clock-steering loop is idle.</b> The FPGA ties <span class="mono">up</span>, <span class="mono">dn</span> and <span class="mono">src_bypass</span> to GND, and R55/R59 are DNI. X1 (24.576 MHz VCXO) free-runs; it only clocks the AD1895.</li>
+   <li><b>The EQ is a second receiver input.</b> Each EL5263 drives the CS8416 twice: section A → IN on RXP0, section B (inverting, about +${(20*Math.log10(eqGain(3.072e6))).toFixed(0)} dB at 3 MHz) → IN_EQ on RXP1. EQ1/EQ2 only write 0x80 or 0x89 to register 04, and PROCESS_MODES rewrites it on every pass.</li>
+   <li><b>SRC beats DUAL through a side effect.</b> <span class="mono">mode = dip_switches &amp; 0x03</span> is 3 with both on; only ALTERA_write's final <span class="mono">else</span> rewrites the global to OUTPUT_1x8_SRC.</li>
+   <li><b>In 1×8 mode INPUT 2's LOCK and NO LOCK are both dark</b> (input2 = INACTIVE), not “no lock”.</li>
+   <li><b>V020000 took EQ2 away from the SRC reference.</b> v100 allowed EQ2 whenever input 2 was active; V020000 adds <span class="mono">&amp;&amp; (mode == OUTPUT_2x4)</span>. v100 also has no SRC LED code. Switch the firmware in the rear-panel controls to compare.</li>
+   <li><b>“SRC at 192KHz not work”.</b> The AD1895 MCLK is X1, 24.576 MHz; with MCLK ≥ 138 × fs (${inf}: data sheet) the limit is ${kHz(K.srcMaxFs)}.</li>
+   <li><b>SRC_LED reuses COM_ACTIVITY_LED's bit</b> (PORTB BIT0) from the openGear D6201B code base, which is harmless only because the CAN/DashBoard code is never called. Interrupts are never enabled (CLI, no SEI).</li>
+   <li><b>The boot is mostly waiting.</b> 35 × <span class="mono">wait(3000)</span> (15 of them “//Ali-Add”), so the main loop starts about ${Math.round((bootPlan_().loop-D.powerAt)*1000)} ms after power-on; LEDs stay dark until then.</li>
+   <li><b>The “1V2” rail is 1.52 V.</b> REG3 LM1117-ADJ with R2 221R and R3 47R5 gives 1.25 × (1 + 47.5/221) = 1.52 V, right for the Cyclone I core. Only the net name is wrong.</li>
+   <li><b>One FPGA pin feeds two outputs.</b> OUT1–OUT4 each drive two DS34LV87T sections, so outputs always come in identical pairs.</li>
+   <li><b>One main board for both versions.</b> 75/110 Ω is chosen by the rear board and ten 3-pin jumpers (I1, I2, O1–O8).</li>
+   <li><b>Leftovers.</b> <span class="mono">POD12A - #PNP #2016/dsfsd.prg</span> is a stray pick-and-place file; the Gerber zip names the board “POD12” (POD12-iss2). The panel art only exists as CorelDRAW.</li></ol>`)
+  +card('Assumptions in this simulation',`<ul class="small"><li>Main-loop pass length is estimated from instruction counts in the .lis files; AVR start-up, FPGA configuration (40 ms), CS8416 lock (20 ms), AD1895 delay and FPGA latency are ${inf}.</li><li>Cable reach uses the POD12A manual figures (300/750 m on 75 Ω, 150/250 m on 110 Ω) and scales with √(48 k / fs) (${inf}).</li><li>In SRC mode with INPUT A unlocked, the outputs keep running at B's rate and carry silence (${inf}).</li></ul>`)
+  +card('Sources',`<ul class="small mono"><li>POD12A - #ISS2 #GERBER.zip → POD12-iss2-net.ipc · POD12A - BOM/POD12A - MASTER BOM.xlsx · POD12A - #ARTWORK #DA #2016/ (.cdr, Pics/)</li><li>../XXX - POD12 - #Master #OBSOLETE/POD12 - #Engineering/POD12 - #Software/…/#V020000/ v100w.c · D6202B.c · cs84xx.c · altera.c</li><li>../XXX - POD12 - #Master #OBSOLETE/POD12 - Update - #RD #RD77/Software/Atmel/backup1/v100/ · Software/FPGA/v100/D6201A.bdf, .qsf, *.vhd</li></ul>`); }
 SIM.register({
   id:'pod12a', name:'POD12A · AES digital audio DA, 1×8 or dual 1×4 (2013|46)', duration:1, product:'POD12A', year:2013, family:'POD series', folder:'#POD #SERIES/POD12A - #Master',
-  summary:'Half-rack AES/EBU distribution amplifier: one input to eight outputs or two inputs to four each, with optional sample-rate conversion (AD1895) and cable equalisation (EL5263), in 75 Ω BNC or 110 Ω Phoenix versions. CS8416 receivers, an EP1C3 FPGA and an AT90CAN128 MCU.',
-  highlights:['Real silkscreen panels with working DIP switches and pluggable inputs','Routing from the IPC netlist: FPGA OUT1–4 to eight drivers','AES3 frames in and out, with SRC changing the output rate','Cable length vs lock, with and without the EQ path','Firmware the archive is missing; the 1.52 V “1V2” rail'],
-  depth:'Hardware model',
-  stepUnits:[{label:'1 input frame',period:()=>1/D.in[0].fs},{label:'1 output frame',period:()=>1/outRate(0)},{label:'1 AES block',period:()=>192/D.in[0].fs},{label:'10 ms',period:()=>0.01}],
+  summary:'Half-rack AES/EBU distribution amplifier: one input to eight outputs or two inputs to four each, with an SRC mode that puts INPUT A on INPUT B’s clock (AD1895) and a cable-EQ receiver input (EL5263), in 75 Ω BNC or 110 Ω Phoenix versions. Modelled from the real MCU firmware (V020000) and FPGA design (D6201A), archived in the obsolete POD12 folder.',
+  highlights:['Real silkscreen panels with working DIP switches and pluggable inputs','The V020000 main loop and ALTERA_write control bits, live','SRC: INPUT A converted to INPUT B’s clock, only while B is locked','EQ as a second CS8416 input (register 04 = 0x80/0x89)','V020000 vs v100 firmware differences'],
+  depth:'Full model',
+  stepUnits:[{label:'1 input frame',period:()=>1/D.in[0].fs},{label:'1 main-loop pass',period:()=>passT()},{label:'1 AES block',period:()=>192/D.in[0].fs},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s'],[0.1,'100 ms'],[0.01,'10 ms'],[0.001,'1 ms'],[0.0002,'200 µs (frames)']], defaultZoom:4,
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial: using a POD12A',render:viewTutorial},{id:'second',label:'One second, frame by frame',render:viewSecond},
-    {id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Schematics',render:viewSchem},{id:'software',label:'Signal path',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}],
+    {id:'block',label:'Block diagram',render:viewBlock},{id:'schematic',label:'Schematics',render:viewSchem},{id:'software',label:'Software (V020000 + D6201A)',render:viewSoft},{id:'findings',label:'Findings',render:viewNotes}],
 });
 
 })();

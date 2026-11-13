@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD15A — Analog Video Distribution Amplifier
 
+**▶ [Open the POD15A simulation](../siumulation.html?plugin=pod15a)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

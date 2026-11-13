@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD31 — SD/HD-SDI AES Demuxer
 
+**▶ [Open the POD31 simulation](../siumulation.html?plugin=pod31)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

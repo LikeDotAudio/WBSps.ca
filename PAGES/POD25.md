@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD25 — Silence Detector
 
+**▶ [Open the POD25 simulation](../siumulation.html?plugin=pod25)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

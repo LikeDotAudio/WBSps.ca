@@ -38,7 +38,9 @@ const CFG_RATE = 2e6;                   // Demux4.xise "Configuration Rate spart
 const CFG_T = BITSTREAM_BYTES*8/CFG_RATE + 0.004;   // ≈ 5.94 s — inferred from size and default rate
 const T_RXLOCK = 0.025;                 // GTP + XAPP1076 rate search to lock — INFERRED
 const T_ICAL = 0.15;                    // Si5324 internal calibration to LOL low — INFERRED
-const HOST_PERIOD = 0.1;                // host (AMS8x) frame repeat — INFERRED
+const HOST_PERIOD = 0.1;                // host (AMS8x / XTM4) frame repeat — INFERRED
+const AMS4_PERIOD = 0.37;               // AMS4 host: pole 2 × 256 + communication_control 50 passes ≈ 0.37 s (ams4.js, from ams1v203.asm)
+const hostPeriod = ()=> D.build==='AMS4' ? AMS4_PERIOD : HOST_PERIOD;
 const LAT = 16/48000;                   // de-embed FIFO latency SDI→AES — INFERRED
 const MCLK = 12.288e6;                  // UCF: TIMESPEC TS_mclk 12.288 MHz (PLL1705)
 const AES_PHASE = 0.00137;              // free-running aes_tx_clkdiv counter phase — arbitrary (inferred)
@@ -206,7 +208,7 @@ function emulate(){
   /* UART (ISR side, runs between main-loop statements) */
   const rxBytes = [];
   if (true){ let wasOn=false, cnt=0;
-    for (let t=0.0137; t<END; t+=HOST_PERIOD){ const w=world(t); if (!w.host.on){ wasOn=false; cnt=0; continue; } if (!wasOn){ cnt=0; wasOn=true; }
+    for (let t=0.0137, HP=hostPeriod(); t<END; t+=HP){ const w=world(t); if (!w.host.on){ wasOn=false; cnt=0; continue; } if (!wasOn){ cnt=0; wasOn=true; }
       const frame = cnt<2 ? [0xE8,0x08] : [w.host.cmd, 0x70]; cnt++;
       frame.forEach((b,i)=> rxBytes.push({t:t+(i+1)*UART_BYTE, b})); } }
   let rxi = 0;
@@ -904,7 +906,7 @@ const LESSONS = [
     check:()=> sched().resets.length>0, hint:'BNC1 source → 3G-B; Failure Test → 985; then look at the “FPGA config · watchdog resets” lane.'},
   {title:'9 · Inside a host (AMS4 / XTM4 / AMS8)', body:`<p>In a host product the board talks to the host over RS-485 on P8 (ADM3485), 9600 baud, two-byte frames. The host first asks <span class="mono">0xE8</span> (“is demux present?”); the board answers <span class="mono">0xE0</span>. Then the host sends <span class="mono">0xE0|select</span> and the board answers <span class="mono">0x00</span> or <span class="mono">0x02</span> (video unlocked), plus bits 2–5 if GR1 audio is missing (AMS4 build).</p>
     <p><b>Goal:</b> switch the firmware to <b>V020102 AMS4</b>, connect the host, and choose select byte 0xF4 (Groups 3+4).</p>`,
-    check:()=>{ const s=sched(), o=opAt(absT()); return D.build!=='SA' && world(absT()).host.on && o && o.s.group1===2; }, hint:'Firmware → V020102 AMS4, Host → connect, select byte → 0xF4, then play: frames repeat every 100 ms ('+'inferred'+').'},
+    check:()=>{ const s=sched(), o=opAt(absT()); return D.build!=='SA' && world(absT()).host.on && o && o.s.group1===2; }, hint:'Firmware → V020102 AMS4, Host → connect, select byte → 0xF4, then play: the AMS4 host sends a frame about every 0.37 s (its pole / communication_control counters); the first two are the 0xE8 probe, so the select byte arrives on the third, ≈ 0.75 s in.'},
   {title:'Done', auto:true, body:`<p>You have used every control on the DEMUX-4. The <b>Software</b> tab follows the same actions through the code, <b>One second</b> breaks a second down to SDI words and AES bits, and <b>Findings</b> lists what the firmware and FPGA are really up to.</p>`, check:()=>true},
 ];
 let lessonIdx=0;
@@ -1162,10 +1164,11 @@ function viewFindings(m){
     <li><b>Build paths cross versions.</b> V020401’s DEMUX4.mak and the .lis headers compile from <span class="mono">C:\\Ali\\Projects\\Demux4\\atmel\\sa\\V020400-StandAlone\\</span>, so the archived V020401 listings may come from the V020400 folder. The AMS8 build V020003 has “Henry’s fix for CBC”: all four debounce values set to 1.</li>
     <li><b>Unused and odd clocks.</b> <span class="mono">initSi5335()</span> turns the 135 MHz CLK0 off (<span class="mono">si5335SetAudioClock(DISABLE)</span>) although the README lists it. RCVRD_CLK1 from the Si5324 is an unused input. <span class="mono">si5324SetN2HS()</span> and <span class="mono">si5324SetN2LS()</span> both read-modify-write register 40. The Si5324 SCLK runs inverted twice (sspi.h <span class="mono">SSPI_SCLK_HIGH</span> clears PC4; spi.v inverts it again).</li>
     <li><b>Status registers update only on SPI clock edges.</b> In spi.v all the status copies (<span class="mono">rx1_stat1 &lt;= …</span>) are inside <span class="mono">always @(posedge sclk)</span>, so they are frozen between transfers. Each read returns a value sampled during the address phase of that same transfer.</li>
+    <li><b>Corrected 2026|59:</b> the AMS4 host build no longer repeats host frames every 100 ms (a guess). In the AMS4 firmware (<span class="mono">ams1v203.asm</span>) <span class="mono">pole</span> waits 2 × 256 main-loop passes and <span class="mono">communication_control</span> another 50 before each command, ≈ 0.37 s at the AMS4's pass time, so the V020102 AMS4 build now sees a frame about every 0.37 s. The XTM4 build keeps the inferred 100 ms (see ams4.js).</li>
   </ol>`) + card('Assumptions in this simulation', `<ul class="small">
     <li>CPU timing is cycle-counted from the listings (±5 %). FPGA receiver lock time ${SIM.fmtDur(T_RXLOCK)}, Si5324 ICAL ${SIM.fmtDur(T_ICAL)}, FPGA configuration ${CFG_T.toFixed(2)} s from the bitstream size at the default ConfigRate 2 — all ${inf}.</li>
     <li>The SDI source is simulated: channel n carries a ${chFreq(1)}·n Hz tone at −12 dBFS. Packets are placed in the line after their sample instant, groups in order, none on the line after the switching line (${inf}, simplified SMPTE 272/299). Control packets and EDH are not drawn.</li>
-    <li>Host frames repeat every ${HOST_PERIOD*1000} ms with the AMS82 byte pattern (${inf}). ISR execution time is ignored. 3G-B is never demuxed (${inf}).</li>
+    <li>Host frames repeat about every ${AMS4_PERIOD*1000} ms for the V020102 AMS4 build (the AMS4's <span class="mono">pole</span> 2 × 256 + <span class="mono">communication_control</span> 50 main-loop passes, timed in ams4.js) and every ${HOST_PERIOD*1000} ms for the XTM4 build (${inf}), with the AMS82 byte pattern (${inf}). ISR execution time is ignored. 3G-B is never demuxed (${inf}).</li>
     <li>DIP switch numbering on the board (switch 1 at the top of SW1) and the “as shipped” all-OFF setting are ${inf}. No product photos are in the archive, so the board colours follow the fab notes (green mask, white silk).</li></ul>`)
    + card('Sources', `<ul class="small mono">
     <li>SA-DEMUX4 - #Master/README.md · DEMUX4 - #Engineering/Software/README.md · Atmel/README.md · Xilinx/README.md</li>

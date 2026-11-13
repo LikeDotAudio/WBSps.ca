@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # XTM4 — Extended Range Test Meter
 
+**▶ [Open the XTM4 simulation](../siumulation.html?plugin=xtm4)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

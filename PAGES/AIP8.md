@@ -9,6 +9,8 @@ tags: ["product", "metering", "2010s"]
 
 # AIP8
 
+**▶ [Open the AIP8-2A simulation](../siumulation.html?plugin=aip8-2a)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

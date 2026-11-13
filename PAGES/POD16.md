@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD16 — Stereo Audio Fader
 
+**▶ [Open the POD16 simulation](../siumulation.html?plugin=pod16)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

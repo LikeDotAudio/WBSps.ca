@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # AMX9A — Audio Monitor System
 
+**▶ [Open the AMX9A simulation](../siumulation.html?plugin=amx9a)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

@@ -35,7 +35,8 @@ const C = {
   TC_VU: 0.000319752,        // vumeter.asm TCONST_VU (0.6 s for 40 dB)
   TC_PA: 0.02276277,         // TCONST_PPM_ATTACK (8.33 ms)
   TC_PD: 0.000031978,        // TCONST_PPM_DECAY (6 s for 40 dB)
-  SDI_STALL: 1.5,            // main loop: wait_ms(1000) + wait_ms(500) on an SDI lock rising edge
+  WMS: 808/4.9152e6,         // one wait_ms “ms”: 8 cycles × 100 + 8 = 808 cycles at 4.9152 MHz ≈ 164 µs (v200w.lis, see rd60-ams81a-iss5.js)
+  SDI_STALL: 1500*808/4.9152e6, // main loop: wait_ms(1000) + wait_ms(500) on an SDI lock rising edge ≈ 247 ms
 };
 const CAL_DATA = [-4,0,4,8,12,16,20,-1];   // ams81_main.asm cal_data[8]
 const LED_UPPER = [12,16,20,24,28,32,34,36,38,40,42,44,46,48,52,56,60,64,74,82,94,114]; // ams81_vu_data.dat breakpoints
@@ -422,12 +423,12 @@ const A = {
   });},
   sdi(on){ act(on?'SDI demux locks':'SDI demux loses lock', tr=>{ D.sdiLock=on;
     tr(`${FPP} UART1_translate: SDI board byte bit 1 (carrier lock) → sdi_carrier_lock → general frame byte after 'A'`);
-    tr(on? `${MBP} sdiLockStatus 0→1: wait_ms(1000); PORTE &= ~BIT2; wait_ms(500); PORTE |= BIT2 — the whole main loop stops for ≈1.5 s (WDR inside wait_ms keeps the watchdog quiet)` : `${MBP} pSdiLockStatus = 0; nothing else`);
+    tr(on? `${MBP} sdiLockStatus 0→1: wait_ms(1000); PORTE &= ~BIT2; wait_ms(500); PORTE |= BIT2 — the whole main loop stops for ≈${Math.round(C.SDI_STALL*1000)} ms (1500 wait_ms “ms” × 164 µs; WDR inside wait_ms keeps the watchdog quiet)` : `${MBP} pSdiLockStatus = 0; nothing else`);
   });},
   power(){ D.power=!D.power; act(D.power?'Power on':'Power off', tr=>{
     tr('front: initialization (port_init, watchdog WDTCR=0x08, uart0/1 9600 Bd, SIEMENS8_lcd_initialization — the 06VA0002 HDSP2533 reset pulse), “  AMS8  ” for 1 s');
     tr('front: RECALL_MODE_FROM_EEPROM, RECALL_ASSIGN_FROM_EEPROM, probe the SDI board on UART1, DATA_initialization, RECALL_MIX_FROM_EEPROM, “ No Lock”');
-    tr('main: initialization, 9 × wait_ms(500), CONFIGURE_ALTERA, RECALL_*_FROM_EEPROM, first ALTERA_read_write, init_CS8416, RESET_SHARC (PE6 low 10 ms), PORTG |= BIT0 (TDM FSYNC released)');
+    tr('main: initialization, 9 × wait_ms(500) (4500 “ms” × 164 µs ≈ 0.74 s, not 4.5 s), CONFIGURE_ALTERA, RECALL_*_FROM_EEPROM, first ALTERA_read_write, init_CS8416, RESET_SHARC (PE6 low 10 ms), PORTG |= BIT0 (TDM FSYNC released)');
     D.screen='INFO'; D.muted=false; D.volume=D.volSetup; D.preset=null; D.mixEdit=null;
   }); },
   wait(){ D.idle = 9; D.transient=null; if (!['SYSTEM','SETUP','INPUTS','ASSIGNS','FIRMWARE','LEFT_MIX','RIGHT_MIX'].includes(D.screen)) D.screen='INFO'; SIM.refresh(); },
@@ -619,7 +620,7 @@ const MB_STEPS = [
   ['UART0_translate · UART0_transmit_counter', .08, 'Front-panel frames in; one reply byte every 3 loops'],
   ['UART1_translate · SAVE_MIX_IN_EEPROM · SPI_control', .06, 'Bootloader port idle; mixes to EEPROM'],
   ['DOLBY_DECODER_STATUS · DOLBY_CAT552_AUDIO_ERROR_CHECK', .04, 'MODE1 only: card present (PINE bit 7), error (PING bit 1)'],
-  ['SDI lock edge check', .04, 'Rising edge → 1.5 s of wait_ms and a Dolby reset'],
+  ['SDI lock edge check', .04, 'Rising edge → ≈247 ms of wait_ms and a Dolby reset'],
 ];
 const frac = arr=>{ let a=0; return arr.map(s=>{ const r=a; a+=s[1]; return r; }); };
 const FP_FRAC = frac(FP_STEPS), MB_FRAC = frac(MB_STEPS);
@@ -1044,8 +1045,9 @@ function viewNotes(m){
     ${li('The bootloader itself is half-finished.', `<span class="mono">bootloader.s</span> (AVRFreaks DN#032, AVR910-style, UART1 38400 Bd) erases pages only until R27 = 0x60 with RAMPZ = 0, reads with <span class="mono">lpm</span> (first 64 KB only), claims auto-increment on 'a' but never increments, and returns no signature on 's'. After 'L' it loops without WDR so the watchdog resets the chip — the exit.`)}
     ${li('The main board shouts continuously.', `<span class="mono">UART0_transmit_counter</span> sends one byte every 3 loops whether or not anything was asked: format, configuration, programme, dialnorm, mix level, frame and data rate, one extended-metadata value and the mode. The front panel likewise sends a byte every 25 passes forever (<span class="mono">data_available0</span> is never cleared). <span class="mono">Transmit_Counter</span> was tuned 200 → 100 → 50 → 25 (old values commented in common.h).`)}
     ${li('An off-by-one from the 2013 SDI change.', `On Mar 28 2013 an SDI lock byte was inserted after 'A' in the general frame. The main board's parser still reads <span class="mono">ProgramNumber = rx_buffer[3]</span> — now the letter 'C' itself (v200w.c ~1124). The per-programme metadata branches (<span class="mono">ProgramNumber == NO1..NO8</span>) can never match, so dialnorm and mix level for a chosen programme don't update. Mode-4 frames have no SDI byte, so the bug only bites in modes 1–3.`)}
-    ${li('Lock polarity copied from a chip that is gone.', `Issue 5 removed CS8416 receivers 1–4 and reads lock from the FPGA (<span class="mono">aesReadLockStatus</span> = <span class="mono">alteraRead(0x00)</span>; ControlDescription_Jan212013 says 1 = locked). <span class="mono">ISOLATE_INPUT_STATUS</span> still inverts the byte (“CS8416 locked = 0”). Either the FPGA was built inverted or the polarity is backwards ${INF}.`)}
-    ${li('A 1.5-second freeze on SDI lock.', `When the demux reports SDI lock (0→1), main() runs <span class="mono">wait_ms(1000); PORTE &amp;= ~BIT2; wait_ms(500); PORTE |= BIT2</span> to reset the Dolby card. <span class="mono">wait_ms</span> is 100 <span class="mono">WDR</span>s per “ms”, so the watchdog stays quiet, but nothing else on the main board runs: no ALTERA chain, no UART parsing. Try “SDI: lock” with the demux fitted and watch the main-loop lane.`)}
+    ${li('Lock polarity: the document is wrong, not the code.', `Issue 5 removed CS8416 receivers 1–4 and reads lock from the FPGA (<span class="mono">aesReadLockStatus</span> = <span class="mono">alteraRead(0x00)</span>; ControlDescription_Jan212013 says 1 = locked). <span class="mono">ISOLATE_INPUT_STATUS</span> still inverts the byte (“CS8416 locked = 0”). The FPGA design answers it: in <span class="mono">AMS81.bdf</span> aes3_input_detected[3..0] passes through NOT gates inst65/73/74/75 into aesrx_lock[3..0], so register 0x00 reads 1 = no lock, like the CS8416. The inversion in ISOLATE_INPUT_STATUS is right; the control description is wrong.`)}
+    ${li('Corrected 2026|59: wait_ms timing and lock polarity.', `Counted from the <span class="mono">_wait_ms</span> listing (<span class="mono">v200w.lis</span>: wdr, subi, sbci, cpi, ldi, cpc, brlt = 8 cycles × 100 + 8), one “ms” of <span class="mono">wait_ms</span> is 808 cycles ≈ 164 µs at 4.9152 MHz. So the SDI-relock Dolby freeze is ≈ 247 ms, not 1.5 s, and the 9 × wait_ms(500) boot delay is ≈ 0.74 s, not 4.5 s. The SDI stall in the model is now ≈ 247 ms, and the power-up trace gives the 0.74 s. The lock polarity question above was open; the NOT gates inst65/73/74/75 in the FPGA drawing settle it as 1 = no lock (see rd60-ams81a-iss5.js, rd66-mlc8-ams8e1-iss5.js).`)}
+    ${li('A quarter-second freeze on SDI lock.', `When the demux reports SDI lock (0→1), main() runs <span class="mono">wait_ms(1000); PORTE &amp;= ~BIT2; wait_ms(500); PORTE |= BIT2</span> to reset the Dolby card. <span class="mono">wait_ms</span> is 100 <span class="mono">WDR</span>s per “ms” (808 cycles ≈ 164 µs, so the pair lasts ≈ 247 ms), so the watchdog stays quiet, but nothing else on the main board runs: no ALTERA chain, no UART parsing. Try “SDI: lock” with the demux fitted and watch the main-loop lane.`)}
     ${li('The FPGA link check checks “V201” and nothing happens.', `<span class="mono">ALIGNMENT_CHECK</span> expects the first four bytes back from the chain to be 'V','2','0','1' (not the “SYNC” of the Issue 4 register document, which describes a different, AMS16-style register map). After 200 misses it returns 0 — and <span class="mono">error0</span> is never used. Compare the POD33, where the same check reboots the MCU.`)}
     ${li('The 80-byte chain is the DSP\'s control block.', `The main MCU's bit-banged 80 bytes (PC4–PC7) go through two <span class="mono">shift_in32</span> blocks in the FPGA straight into the SHARC's SPORT1 as <span class="mono">TDM_IN_ctl[20]</span>. Bytes 40–67 are 28 indexes into the volume table, byte 68 picks the meter calibration. REG2–REG10 (36 bytes) are sent as zeros every pass; the SHARC never reads words 1–9 (v205).`)}
     ${li('The meter freeze that took 78 days.', `In <span class="mono">shifter</span>, <span class="mono">mux_count</span> was incremented with ALU saturation on (<span class="mono">mode1</span> ALUSAT). After 2³¹ Timer1 ticks it stuck at 0x7FFFFFFF, so <span class="mono">&amp; 3</span> stuck at 3 and the LED multiplex froze on one phase: about 78 days of uptime at 320 Hz ${INF}. The April 24, 2009 fix masks with 3 before incrementing (v203m, v205, v300).`)}
@@ -1081,7 +1083,7 @@ SIM.register({
   product:'AMS8-1 (AMS8E)', year:2013, family:'AMS8 series',
   folder:'AMS81 - #Master',
   summary:'1RU eight-channel aural/visual monitor: eight 22-segment VU+PPM bar graphs, an 8-character display, speakers and preset mixes over four AES pairs (75 Ω and 110 Ω banks). Four processors: front ATmega128 (UI), main ATmega128 (protocol, Dolby card, FPGA chain), Cyclone IV FPGA (AES receive/SRC, routing) and an ADSP-21065L SHARC (mixing and meters). Variants 1A, 1AA, 1AEM, 1AN, 1BAEM, 1CAM.',
-  highlights:['Front and rear panels on the real CorelDRAW silk and meter lens','13-step operator tutorial from the v2117 manual','Button → front MCU → UART → 80-byte chain → SHARC trace','Real VU/PPM ballistics and the 4-phase LED multiplex','“Z bootloader” that is really Out4; 1.5 s SDI freeze; 78-day meter freeze fix'],
+  highlights:['Front and rear panels on the real CorelDRAW silk and meter lens','13-step operator tutorial from the v2117 manual','Button → front MCU → UART → 80-byte chain → SHARC trace','Real VU/PPM ballistics and the 4-phase LED multiplex','“Z bootloader” that is really Out4; 247 ms SDI freeze; 78-day meter freeze fix'],
   depth:'Full model',
   stepUnits:[
     {label:'1 sample (48 kHz)', period:()=>1/C.FS},

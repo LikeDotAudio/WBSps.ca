@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD11A — Digital Stereo Loudness Meter
 
+**▶ [Open the POD11A simulation](../siumulation.html?plugin=pod11a)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

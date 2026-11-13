@@ -9,11 +9,13 @@ tags: ["module", "ravenna-aes67", "2010s"]
 
 # 32ME-N
 
+**▶ [Open the 32ME uNet / MADI modules simulation](../siumulation.html?plugin=32me)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [simulator & front panel](../simulator.html?m=32ME-N) · [KiCad symbol generator](../kicad.html?m=32ME-N) |
+| Try it | [full simulation: 32ME uNet / MADI modules](../siumulation.html?plugin=32me) · [simulator & front panel](../simulator.html?m=32ME-N) · [KiCad symbol generator](../kicad.html?m=32ME-N) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — estimate from a dated variant |
 | Evidence | from 32ME |
 | Confidence | family |

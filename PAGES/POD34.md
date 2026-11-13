@@ -10,6 +10,8 @@ tags: ["product", "pods", "2010s"]
 
 # POD34 — 30 Watt Class D Amplifier With Digital & Analog Input
 
+**▶ [Open the POD34 simulation](../siumulation.html?plugin=pod34)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

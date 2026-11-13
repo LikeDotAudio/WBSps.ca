@@ -9,6 +9,8 @@ tags: ["product", "metering", "1990s"]
 
 # MP2
 
+**▶ [Open the MP 8100 meter panels simulation](../siumulation.html?plugin=mp8100)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |

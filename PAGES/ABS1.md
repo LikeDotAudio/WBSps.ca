@@ -10,6 +10,8 @@ tags: ["product", "buddies", "2010s"]
 
 # ABS1 — Audio Bit Spitter Portable Digital/Analog Audio Generator
 
+**▶ [Open the ABS1 simulation](../siumulation.html?plugin=abs1)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
@@ -27,7 +29,7 @@ tags: ["product", "buddies", "2010s"]
 
 _What it is made of and what it is part of._
 
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="ABS1" data-n="Audio Bit Spitter Portable Digital/Analog Audio Generator" data-cat="BUDDIES"></div><svg class="wbs-panel" data-m="ABS1" data-n="Audio Bit Spitter Portable Digital/Analog Audio Generator" data-cat="BUDDIES" role="img" aria-label="ABS1 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"ABS1","title":"Audio Bit Spitter Portable Digital/Analog Audio Generator","rto":null,"parts":[],"parents":[{"label":"SLM","href":"SLM.html","note":"on 4 drawings with it: Series Stereo Loudness M"},{"label":"microDriver","href":"microDriver.html","note":"on 4 drawings with it: Miniature Stereo Headpho"}]}</script></div></div><script src="wbs_spice.js"></script>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="ABS1" data-n="Audio Bit Spitter Portable Digital/Analog Audio Generator" data-cat="BUDDIES"></div><svg class="wbs-panel" data-m="ABS1" data-n="Audio Bit Spitter Portable Digital/Analog Audio Generator" data-cat="BUDDIES" role="img" aria-label="ABS1 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"ABS1","title":"Audio Bit Spitter Portable Digital/Analog Audio Generator","rto":null,"parts":[],"parents":[{"label":"microDriver","href":"microDriver.html","note":"on 4 drawings with it: Miniature Stereo Headpho"},{"label":"SLM","href":"SLM.html","note":"on 4 drawings with it: Series Stereo Loudness M"}]}</script></div></div><script src="wbs_spice.js"></script>
 
 <a id="software"></a>
 

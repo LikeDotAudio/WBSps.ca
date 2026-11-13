@@ -9,11 +9,13 @@ tags: ["module", "ravenna-aes67", "2020s"]
 
 # preMO-222
 
+**▶ [Open the PREmo AES67 mic preamp (RD88) simulation](../siumulation.html?plugin=premo)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [simulator & front panel](../simulator.html?m=preMO-222) · [KiCad symbol generator](../kicad.html?m=preMO-222) |
+| Try it | [full simulation: PREmo AES67 mic preamp (RD88)](../siumulation.html?plugin=premo) · [simulator & front panel](../simulator.html?m=preMO-222) · [KiCad symbol generator](../kicad.html?m=preMO-222) |
 | Earliest dated evidence | [2021\|54](Year-2021.md) — dated folder |
 | Evidence | in "2021 Information sheets" |
 | Confidence | low (named by) |

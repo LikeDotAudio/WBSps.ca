@@ -10,6 +10,8 @@ tags: ["product", "metering", "2010s"]
 
 # AMS2 — Mini Cue Stereo Speaker With Digital & Analog Inputs
 
+**▶ [Open the AMS2 simulation](../siumulation.html?plugin=ams2)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
+
 |  |  |
 |---|---|
 | Type | product |
