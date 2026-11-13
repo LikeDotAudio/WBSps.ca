@@ -13,7 +13,7 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [simulator & front panel](../simulator.html?m=32ME-N) |
+| Try it | [simulator & front panel](../simulator.html?m=32ME-N) · [KiCad symbol generator](../kicad.html?m=32ME-N) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — estimate from a dated variant |
 | Evidence | from 32ME |
 | Confidence | family |
@@ -29,3 +29,23 @@ tags: ["module", "ravenna-aes67", "2010s"]
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - 32ME-N - Information Sheet.jpg](../Products/RAVENNA%20AES67/32ME-N/2014%20-%2032ME-N%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/32ME-N/2014%20-%2032ME-N%20-%20Information%20Sheet.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "32ME-N",
+ "category": "RAVENNA AES67",
+ "year": 2014,
+ "documents": [
+  {
+   "file": "Products/RAVENNA AES67/32ME-N/2014 - 32ME-N - Information Sheet.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  }
+ ]
+}
+```

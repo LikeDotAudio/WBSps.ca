@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD12) · [download package (zip)](../_packages/POD12.zip) |
+| Try it | [full simulation: POD12](../siumulation.html?plugin=pod12) · [simulator & front panel](../simulator.html?m=POD12) · [KiCad symbol generator](../kicad.html?m=POD12) · [download package (zip)](../_packages/POD12.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -26,6 +26,12 @@ tags: ["product", "pods", "2010s"]
 
 <svg class="wbs-panel solo" data-m="POD12" data-n="Digital Audio Distribution Amplifier" data-cat="PODS" role="img" aria-label="POD12 front panel"></svg>
 
+<a id="software"></a>
+
+## Software
+
+The POD12 is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
+
 ## Photos & scans (3)
 
 | Year | File |  |
@@ -33,3 +39,34 @@ tags: ["product", "pods", "2010s"]
 | 2014 | [2014 - POD12 - Front.jpg](../Products/PODS/POD12/2014%20-%20POD12%20-%20Front.jpg) | [note](../Products/PODS/POD12/2014%20-%20POD12%20-%20Front.jpg.md) |
 | 2014 | [2014 - POD12 - Rear 110.jpg](../Products/PODS/POD12/2014%20-%20POD12%20-%20Rear%20110.jpg) | [note](../Products/PODS/POD12/2014%20-%20POD12%20-%20Rear%20110.jpg.md) |
 | 2014 | [2014 - POD12 - Rear 75.jpg](../Products/PODS/POD12/2014%20-%20POD12%20-%20Rear%2075.jpg) | [note](../Products/PODS/POD12/2014%20-%20POD12%20-%20Rear%2075.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD12",
+ "name": "Digital Audio Distribution Amplifier",
+ "category": "PODS",
+ "year": 2013,
+ "documents": [
+  {
+   "file": "Products/PODS/POD12/2014 - POD12 - Front.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD12/2014 - POD12 - Rear 110.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD12/2014 - POD12 - Rear 75.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

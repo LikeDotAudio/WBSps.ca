@@ -14,7 +14,7 @@ tags: ["product", "metering", "1990s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=MP1) · [download package (zip)](../_packages/MP1.zip) |
+| Try it | [simulator & front panel](../simulator.html?m=MP1) · [KiCad symbol generator](../kicad.html?m=MP1) · [download package (zip)](../_packages/MP1.zip) |
 | Earliest dated evidence | [1992\|25](Year-1992.md) — manual issue date |
 | Evidence | "MANUAL ISSUE #2 January &, 1992" in PUBLIC/Manuals + tech DOCUMENTS/Other Solutions/MP1-MP2-MP3-MP4 Meter Panels/MP1-MP2-MP3-MP4 - P001 - Title Page.jpg |
 | Confidence | high |
@@ -28,6 +28,12 @@ tags: ["product", "metering", "1990s"]
 _Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU._
 
 <div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="MP1" data-n="PPM/VU Meter" data-cat="METERING"></div><svg class="wbs-panel" data-m="MP1" data-n="PPM/VU Meter" data-cat="METERING" role="img" aria-label="MP1 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"MP1","title":"PPM/VU Meter","rto":{"code":"MP1","series":null,"type":"MP1 - PPM/VU Meter","impedance":{},"audio":[{"port":"I1","signal":"Input","dir":"in","pos":"I1P","neg":"I1N","src_page":5},{"port":"I2","signal":"R26 All Capacitors Are In Uf","dir":"in","pos":"I2P","neg":"I2N","src_page":27},{"port":"I3","signal":"All Capacitors Are In Ufo","dir":"in","pos":"I3P","neg":"I3N","src_page":40},{"port":"O1","signal":"External Meter Drive External Meter Drive","dir":"out","pos":"O1P","neg":"O1N","src_page":25},{"port":"O2","signal":"Meter Drive Drnf","dir":"out","pos":"O2P","neg":"O2N","src_page":27}],"power":[{"rail":"+24V","volts":24.0,"supply":"+24V","ground":"I COMMON","max_a":null}],"logic":[{"signal":"Lamp","pin":""}],"ground":["I COMMON","COMMON 10 SET 6","SUPPLY COMMON"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["74df0990e11691f7fb91d134d1e5086d46ffe1a543cf194de1f3b49aecc3c578","bc0aa2c4d4d1ae869783098f33c1c7656464542f387ac8f556d3638118316b2d"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[{"item":"SA14-121","title":"SA14-121 VU METER AMPLIFIER / SCHEMATIC","label":"SA14-121 SA14-121 VU METER AMPLIFIE","href":"Register-Circuit-boards-SA14-nnn.html#sa14-121","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-060","title":"Amplifier Assembly Component Layout","label":"SA14-060 Amplifier Assembly Compone","href":"Register-Circuit-boards-SA14-nnn.html#sa14-060","note":"Circuit boards (SA14-nnn)"},{"item":"2-107","title":"","label":"2-107","href":"Register-Sub-assemblies-n-nnn.html#2-107","note":"Sub-assemblies (n-nnn)"}],"parents":[{"label":"M435","href":"M435.html","note":"on 9 drawings with it"},{"label":"MP2","href":"MP2.html","note":"on 5 drawings with it"},{"label":"MP4","href":"MP4.html","note":"on 5 drawings with it: Classic Rackmount Analog"},{"label":"MP3","href":"MP3.html","note":"on 5 drawings with it"}]}</script></div></div><script src="wbs_spice.js"></script>
+
+<a id="software"></a>
+
+## Software
+
+The MP1 is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -182,3 +188,489 @@ _Read from the drawing title blocks._
 | B 14-060-02-001 | SA14-060 PPM AMPLIFIER ASSEMBLY / SCHEMATIC |  |  |  | 7 | [file](../PHOTOS/Drawings/19xx%20-%2014-060-02-001%20-%20SA14-060%20PPM%20AMPLIFIER%20ASSEMBLY%20SCHEMATIC%20-%20ISS%207%20%282%29.jpg) |
 | B 14-121-02-001 | SA14-121 VU METER AMPLIFIER / SCHEMATIC |  |  |  | 4 | [file](../PHOTOS/Drawings/19xx%20-%2014-121-02-001%20-%20SA14-121%20VU%20METER%20AMPLIFIER%20SCHEMATIC%20-%20ISS%204.jpg) |
 | B 8100-02-001 | MP1 TO MP4 PPM/VU METER PANEL / SCHEMATIC |  |  |  | 2 | [file](../Products/METERING/MP1/19xx%20-%208100-02-001%20-%20TO%20MP4%20PPM%20VU%20METER%20PANEL%20SCHEMATIC%20-%20ISS%202.jpg) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "MP1",
+ "name": "PPM/VU Meter",
+ "category": "METERING",
+ "year": 1992,
+ "connections": {
+  "from": "its own documents",
+  "inputs": [
+   "Input",
+   "R26 All Capacitors Are In Uf",
+   "All Capacitors Are In Ufo"
+  ],
+  "outputs": [
+   "External Meter Drive External Meter Drive",
+   "Meter Drive Drnf"
+  ],
+  "power": [
+   "+24V"
+  ],
+  "control": [
+   "Lamp"
+  ]
+ },
+ "made_of": [
+  "2-107",
+  "SA14-060",
+  "SA14-121"
+ ],
+ "documents": [
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - (PPM) Front.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - (VU) Front.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 14-060-02-001 - COMMON COM.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 14-060-02-001 - METER DRIVE USB DRIVE.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 14-060-06-001 - AMPLIFIER ASSEMBLY COMPONENT LAYOUT.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 14-060-06-001 - THLO SET.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 14-121-02-001 - SUPPLY COMMON COM CAL.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 14-121-02-001 - TER DRIVE RNAL METER DRIVE.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 14-121-06-001 - METER AMPLIFIER COMPONENT LAYOUT.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 14-121-06-001 - SENS CAL.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 8100-02-001 - AC-DC ADAPTER LAYOUT SHOWN FOR PREH CONNECTOR.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "modules",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - 8100-02-001 - PPM-VU METER PANEL SCHEMA TIC.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P001 - Title Page.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P002.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P003.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P004.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P005 - 2-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P006 - 3-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P007 - 4-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P008 - 4-2.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P010.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P011.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P012 - 1-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P013 - 2-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P014 - 3-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P015 - 3-2.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P016 - 3-3.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P017 - 3-4.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P018 - 3-5.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P019 - 4-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P020 - 5-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P021 - 6-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "parts"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P022 - 6-2.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P023 - 6-3.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P024 - 7-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P027 - M435-436.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P028 - M435-436 - 1-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P029 - M435-436 - 2-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P030 - M435-436 - 3-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P031 - M435-436 - 4-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P032 - M435-436 - 5-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "parts",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P033 - M435-436 - 5-2.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "parts",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P034 - M435-436 - 6-1.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 - P035 - M435-436 - 6-2.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 Meter Panels (2).pdf",
+   "year": 1992,
+   "pages": 42,
+   "holds": [
+    "connections",
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - MP2-MP3-MP4 Meter Panels.pdf",
+   "year": 1992,
+   "pages": 42,
+   "holds": [
+    "connections",
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/1992 - MP1 - Rear.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "PHOTOS/Drawings/19xx - 14-060-02-001 - SA14-060 PPM AMPLIFIER ASSEMBLY SCHEMATIC - ISS 7 (2).jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "PHOTOS/Drawings/19xx - 14-121-02-001 - SA14-121 VU METER AMPLIFIER SCHEMATIC - ISS 4.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "PHOTOS/Photos/MP1-MP2-MP3-MP4 - P005 - 2-1.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "title_block"
+   ]
+  },
+  {
+   "file": "PHOTOS/Photos/MP1-MP2-MP3-MP4 - P008 - 4-2.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "title_block"
+   ]
+  },
+  {
+   "file": "PHOTOS/Photos/MP1-MP2-MP3-MP4 - P019 - 4-1.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP1/19xx - 8100-02-001 - TO MP4 PPM VU METER PANEL SCHEMATIC - ISS 2.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/METERING/MP4/19xx - MP4 - DOC - MP Series Information Sheet.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  }
+ ]
+}
+```

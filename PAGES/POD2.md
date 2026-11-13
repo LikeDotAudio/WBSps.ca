@@ -14,7 +14,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD2) · [download package (zip)](../_packages/POD2.zip) |
+| Try it | [full simulation: POD2](../siumulation.html?plugin=pod2) · [simulator & front panel](../simulator.html?m=POD2) · [KiCad symbol generator](../kicad.html?m=POD2) · [download package (zip)](../_packages/POD2.zip) |
 | Earliest dated evidence | [1997\|30](Year-1997.md) — month & year |
 | Evidence | "OCT 7,1997" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD2 - #Schematic.pdf |
 | Confidence | medium |
@@ -26,6 +26,35 @@ tags: ["product", "pods", "1990s"]
 _Inputs, outputs, power and control as its own documents name them (no RTO-144 sheet for it: pin numbers only where the page gives them). Run the generator, turn the gain, watch the VU._
 
 <div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="POD2" data-n="Stereo Audio Switcher" data-cat="PODS"></div><svg class="wbs-panel" data-m="POD2" data-n="Stereo Audio Switcher" data-cat="PODS" role="img" aria-label="POD2 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"POD2","title":"Stereo Audio Switcher","rto":{"code":"POD2","series":null,"type":"POD2 - Stereo Audio Switcher","impedance":{},"audio":[{"port":"I1","signal":"In Spare","dir":"in","pos":"I1P","neg":"I1N","src_page":2},{"port":"I2","signal":"+ Xpt2 Xpt4 In Mix","dir":"in","pos":"I2P","neg":"I2N","src_page":2}],"power":[{"rail":"VDD","volts":null,"supply":"VDD","ground":"IN MIX GND","max_a":null}],"logic":[{"signal":"To Switch","pin":""}],"ground":["IN MIX GND"],"bus_out":[],"bus_in":[],"jumpers":[],"derived":true,"sources":["b18e033c809246ed42729589ff41c936cae1fcacfe3d6c0a6c273cfa79897350"],"note":"Read from the signal names in its own documents; pin numbers where the page gives them. The RTO-144 sheet wins wherever there is one."},"parts":[],"parents":[]}</script></div></div><script src="wbs_spice.js"></script>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD2: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD2 | Microcontroller | PIC16F874 | HS | **POD2V201 / POD2RV201** | 2010-02-09 | Standard Products |
+| POD2/9 COMM(obsolete) (POD2/9 communications) | Microcontroller | PIC16F874 | HS | **POD2R200** | 2009-10-01 | Standard Products |
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2009\|42 | 2009-10-01 | POD2/9 COMM(obsolete) | PIC16F874 | POD2R200 |  | Bob 2009-10-01 |
+| 2010\|43 | 2010-02-09 | POD2 | PIC16F874 | POD2V201 / POD2RV201 |  | Bob 2010-02-09 |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **POD2R200** — 2009|42 · 2009-10-01 — _POD2/9 COMM(obsolete) · PIC16F874_: FOR ISSUE 5 BOARDS
+- **POD2V201 / POD2RV201** — 2010|43 · 2010-02-09 — _POD2 · PIC16F874_
+    - FOR ISSUE 5 BOARDS. POD2RV201: fixed prob controlling pod9 in slave mode. Also fixed bug where pod9 would default back to switch 1, when coming out of slave mode.
+    - POD2V201: fixed program address sequence.
 
 ## Dates found in the documents
 
@@ -95,3 +124,141 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - POD2 - MANUAL.docx](../Products/PODS/POD2/2014%20-%20POD2%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - POD2 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD2 - MANUAL (2).docx](../Products/PODS/POD2/2014%20-%20POD2%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD2",
+ "name": "Stereo Audio Switcher",
+ "category": "PODS",
+ "year": 1997,
+ "connections": {
+  "from": "its own documents",
+  "inputs": [
+   "In Spare",
+   "+ Xpt2 Xpt4 In Mix"
+  ],
+  "outputs": [],
+  "power": [
+   "VDD"
+  ],
+  "control": [
+   "To Switch"
+  ]
+ },
+ "documents": [
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - #Schematic.pdf",
+   "year": 1997,
+   "pages": 2,
+   "holds": [
+    "connections",
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - Front.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - Information Sheet.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2 - NEWPROJ.CFG - DOCUMENT.docx",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2 - P2MASTER.CFG - DOCUMENT.docx",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2 - POD2.CFG - DOCUMENT.docx",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2 - POD2BACK - DOCUMENT.cdr",
+   "year": 1997,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2 - POD2FRNT - DRAWING (DXF).dxf",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2 - POD2REAR - DRAWING (DXF).dxf",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2 - SPECIFICATIONS.wpd",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2 - TEST - UNKNOWN.cdr",
+   "year": 1997,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - POD2_Manual.pdf",
+   "year": 1997,
+   "pages": 8,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD2/1997 - POD2 - Rear.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/2004 - POD2 - POD2 - POD2 - DOCUMENT.pdf",
+   "year": 2004,
+   "pages": 2,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD2/2014 - POD2 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD2/2014 - POD2 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

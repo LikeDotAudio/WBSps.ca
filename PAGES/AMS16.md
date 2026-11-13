@@ -13,7 +13,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS16) · [download package (zip)](../_packages/AMS16.zip) |
+| Try it | [full simulation: AMS16](../siumulation.html?plugin=ams16) · [full simulation: RD23AMS163GSDIUpgrade](../siumulation.html?plugin=rd23-ams16-3g) · [simulator & front panel](../simulator.html?m=AMS16) · [KiCad symbol generator](../kicad.html?m=AMS16) · [download package (zip)](../_packages/AMS16.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -25,9 +25,132 @@ tags: ["product", "metering", "2010s"]
 
 <svg class="wbs-panel solo" data-m="AMS16" data-n="" data-cat="METERING" role="img" aria-label="AMS16 front panel"></svg>
 
+<a id="software"></a>
+
+## Software
+
+_What runs on the AMS16: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| AMS16A | Microcontroller |  | HS | **V2002** | 2009-06-15 | Standard Products |
+| AMS16A-1 | Microcontroller |  | HS | **V1000** | 2007-11-15 | Standard Products |
+| AMS16A PRODUCT REVISIONS | AMS16A-2 (FRONT) firmware |  |  | **V040002** (in 06AV0002) | 2015-07-09 | AMS16 |
+| AMS16A PRODUCT REVISIONS | AMS16A-3 (MAIN) firmware |  |  | **V070000** (in 06AV0002) | 2015-07-09 | AMS16 |
+| AMS16A PRODUCT REVISIONS | SHARC firmware |  |  | **V070000** (in 06AV0002) | 2015-07-09 | AMS16 |
+| AMS16A PRODUCT REVISIONS | ALTERA firmware |  |  | **V070001** (in 06AV0002) | 2015-07-09 | AMS16 |
+| AMS16A PRODUCT REVISIONS | AMS16-9 (ATMEL) firmware |  |  | **N/A** (in 06AV0002) | 2015-07-09 | AMS16 |
+| AMS16A PRODUCT REVISIONS | AMS16-9 (ALTERA) firmware |  |  | **V030000** (in 06AV0002) | 2015-07-09 | AMS16 |
+| AMS16A-1 PRODUCT REVISIONS | AMS16A-2 (FRONT) firmware |  |  | **V100** (in V1000) | 2008-03-31 | AMS16 |
+| AMS16A-1 PRODUCT REVISIONS | AMS16A-3 (MAIN) firmware |  |  | **V100** (in V1000) | 2008-03-31 | AMS16 |
+| AMS16A-1 PRODUCT REVISIONS | SHARC firmware |  |  | **V100** (in V1000) | 2008-03-31 | AMS16 |
+| AMS16A-1 PRODUCT REVISIONS | ALTERA firmware |  |  | **AMS16V100** (in V1000) | 2008-03-31 | AMS16 |
+
+**Product firmware versions (PFV)**: AMS16A PRODUCT REVISIONS: 17 revisions, latest released **06AV0002** (2015-07-09) · AMS16A-1 PRODUCT REVISIONS: 1 revisions, latest released **V1000** (2008-03-31)
+
+**Programming:** Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2007\|40 | 2007-11-15 | AMS16A-1 |  | V1000 |  |  |
+| 2009\|42 | 2009-06-15 | AMS16A |  | V2002 |  |  |
+
+### AMS16A PRODUCT REVISIONS
+
+_Sheet **AMS16**: one row per product firmware version, with the firmware of each board in it._
+
+| Year | Date | Revision | AMS16A-2 (FRONT) | AMS16A-3 (MAIN) | SHARC | ALTERA | AMS16-9 (ATMEL) | AMS16-9 (ALTERA) | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2007\|40 | 2007-11-15 | **V1000** | V100 | V100 | V100 | V100 | N/A | N/A | released |  |
+| 2008\|41 | 2008-02-07 | **V1001** | V101 | V101 | V100 | V100 | N/A | N/A | released |  |
+| 2008\|41 | 2008-08-21 | **V1002** | V102 | V102 | V101 | V100 | N/A | N/A | released |  |
+| 2008\|41 | 2008-10-29 | **V1003** | v103 | V102 | V101 | V101 | N/A | N/A | released |  |
+| 2008\|41 | 2008-12-08 | **V1004** | v104 | V103 | V101 | V101 | N/A | N/A | released |  |
+| 2008\|41 | 2008-12-20 | **V1005** | V105 | V104 | v103 | v103 | N/A | N/A | released |  |
+| 2009\|42 | 2009-01-19 | **V1006** | V106 | v105 | v104 | v103 | N/A | N/A | released |  |
+| 2009\|42 | 2009-03-09 | **V1007** | V107 | v105 | v104 | v103 | N/A | N/A | released |  |
+| 2009\|42 | 2009-01-22 | **V2000** | V200 | V200 | V200 | V103 | V100 | V100 | released |  |
+|  | — | **V2001** | V201 | V201 | V201 | V103 | V100 | V100 | released |  |
+| 2009\|42 | 2009-06-15 | **V2002** | V202 | V201 | V201 | V103 | V100 | V100 | released |  |
+|  | — | **v2003** | v203 | V201 | V201 | v104 | V100 | V100 |  |  |
+| 2011\|44 | 2011-01-17 | **V2004** | v204 | v201 | v201 | v104 | v100 | v100 | released |  |
+| 2012\|45 | 2012-01-16 | **v5000** | v400 | v600 | v201 | v600 | N/A | v100 | released |  |
+| 2012\|45 | 2012-10-30 | **06AV0000** | V040000 | V070000 | V070000 | V070000 | N/A | V030000 | released |  |
+| 2014\|47 | 2014-08-20 | **06AV0001** | V040001 | V070000 | V070000 | V070001 | N/A | V030000 | released |  |
+| 2015\|48 | 2015-07-09 | **06AV0002** | V040002 | V070000 | V070000 | V070001 | N/A | V030000 | released |  |
+
+> DO NOT USE THE WORKING FILES - USE THE FILE IN THE SPECIFIC FOLDER
+
+### AMS16A-1 PRODUCT REVISIONS
+
+_Sheet **AMS16**: one row per product firmware version, with the firmware of each board in it._
+
+| Year | Date | Revision | AMS16A-2 (FRONT) | AMS16A-3 (MAIN) | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+| 2008\|41 | 2008-03-31 | **V1000** | V100 | V100 | V100 | AMS16V100 | released |  |
+
+> DO NOT USE THE WORKING FILES - USE THE FILE IN THE SOFTWARE 1RU FOLDER
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **V1000** — 2007|40 · 2007-11-15 — _AMS16A PRODUCT REVISIONS_: NONE IN THE FIELD
+- **V1001** — 2008|41 · 2008-02-07 — _AMS16A PRODUCT REVISIONS_: 5 AT CTV (NO L,R BUTTONS)
+- **V1002** — 2008|41 · 2008-08-21 — _AMS16A PRODUCT REVISIONS_: ADDED A LEFT ONLY, RIGHT ONLY AND A SUMMING MODE FOR DOWNMIXING CONTROL. IN THE ALTERA A MUTE PIN (ALTERA9) WAS ADDED (2 AT CTV)
+- **V1003** — 2008|41 · 2008-10-29 — _AMS16A PRODUCT REVISIONS_: FIXED ISSUE WITH EEPROM READING AND WRITING
+- **V1004** — 2008|41 · 2008-12-08 — _AMS16A PRODUCT REVISIONS_: FIXED COMMUNICATION BUG
+- **V1005** — 2008|41 · 2008-12-20 — _AMS16A PRODUCT REVISIONS_: ASSIGNED FIRST AES PAIR FOR DOWNMIXING AS AES2 NOT AES1
+- **V1006** — 2009|42 · 2009-01-19 — _AMS16A PRODUCT REVISIONS_: FIXED BUG WITH MULTI MODE MUTING A8 WHEN DOLBY IS ON A1. ALSO, DEMUX MODE AND SUMMING A8 IS ALWAYS IN8.
+- **V2000** — 2009|42 · 2009-01-22 — _AMS16A PRODUCT REVISIONS_: ALLOWS FOR SOLOING IN 5.1 MODE (ANALOG AND AES OUTPUTS). AES8 CAN IN8 OR DOWNMIX (USED FOR SOLOING)
+- **V2002** — 2009|42 · 2009-06-15 — _AMS16A PRODUCT REVISIONS_: FIXED BUG WITH LEFT AND RIGHT SOLOING IN MULTI MODE WHEN MULTI IS SET FOR >1.
+- **V2004** — 2011|44 · 2011-01-17 — _AMS16A PRODUCT REVISIONS_
+    - Atmel changed to fix the bug with bad values stored in eeprom for dialnorm.
+    - The faulty unit came back from Systems Group, #Serial = 79409
+- **v5000** — 2012|45 · 2012-01-16 — _AMS16A PRODUCT REVISIONS_: Prototype Version - NOT RELEASED
+- **06AV0000** — 2012|45 · 2012-10-30 — _AMS16A PRODUCT REVISIONS_: Sharc only up issued to match the new version format. AMS16-9 Altera only up issued to match the new vesion format
+- **06AV0001** — 2014|47 · 2014-08-20 — _AMS16A PRODUCT REVISIONS_: FPGA updated to fix the CRC errors in 3G format. Front atmel upissued
+- **06AV0002** — 2015|48 · 2015-07-09 — _AMS16A PRODUCT REVISIONS_: Front panel Atmel display initialization updated. Now compatible with PDSP1884 & HDSP2533
+- **V2001** — released — _AMS16A PRODUCT REVISIONS_: ALLOWS FOR USER CONFIGURABLE MULTI MIX SETUP. FIXED BUG WITH SOLOING FROM SUMMING MODE APPEARING IN DEMUX MODE.
+- **v2003** — undated — _AMS16A PRODUCT REVISIONS_
+    - ams16a-3 altera: changed to shut off sdi loop through driver upon loss of lock.
+    - Ams16a-2 changed to display v2.0.0.3
+
+_No change note in the listing for: V1007, V1000._
+
 ## Photos & scans (2)
 
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - AMS16 - Information Sheet.jpg](../Products/METERING/AMS16/2014%20-%20AMS16%20-%20Information%20Sheet.jpg) | [note](../Products/METERING/AMS16/2014%20-%20AMS16%20-%20Information%20Sheet.jpg.md) |
 | 2014 | [2014 - AMS16 - Series Front.jpg](../Products/METERING/AMS16/2014%20-%20AMS16%20-%20Series%20Front.jpg) | [note](../Products/METERING/AMS16/2014%20-%20AMS16%20-%20Series%20Front.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS16",
+ "category": "METERING",
+ "year": 2013,
+ "documents": [
+  {
+   "file": "Products/METERING/AMS16/2014 - AMS16 - Information Sheet.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS16/2014 - AMS16 - Series Front.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

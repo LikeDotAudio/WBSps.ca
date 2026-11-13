@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD12A) · [download package (zip)](../_packages/POD12A.zip) |
+| Try it | [full simulation: POD12A](../siumulation.html?plugin=pod12a) · [simulator & front panel](../simulator.html?m=POD12A) · [KiCad symbol generator](../kicad.html?m=POD12A) · [download package (zip)](../_packages/POD12A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD12A MANUAL(1).docx |
 | Confidence | medium |
@@ -25,6 +25,30 @@ tags: ["product", "pods", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD12A" data-n="Digital Audio DA" data-cat="PODS" role="img" aria-label="POD12A front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD12A: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD12A | Microcontroller | AT90CAN128 | HS | **(02AV0000) V020000** | 2014-01-27 | Standard Products |
+| POD12A | Altera FPGA / CPLD | EP1C3 |  | **(02AV0000) D6201B-V100** | — | Altera |
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2014\|47 | 2014-01-27 | POD12A | AT90CAN128 | (02AV0000) V020000 |  | WKW 2014-01-13 |
+|  | — | POD12A | EP1C3 | (02AV0000) D6201B-V100 |  |  |
+
+## Changes in each version
+
+_No change note in the listing for: (02AV0000) V020000, (02AV0000) D6201B-V100._
 
 ## Dates found in the documents
 
@@ -56,3 +80,42 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - POD12A - MANUAL.docx](../Products/PODS/POD12A/2014%20-%20POD12A%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - POD12A - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD12A - MANUAL (2).docx](../Products/PODS/POD12A/2014%20-%20POD12A%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD12A",
+ "name": "Digital Audio DA",
+ "category": "PODS",
+ "year": 2014,
+ "documents": [
+  {
+   "file": "Products/PODS/POD12A/2014 - POD12A - Information Sheet.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD12A/2014 - POD12A - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD12A/2014 - POD12A - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

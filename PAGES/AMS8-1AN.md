@@ -13,7 +13,7 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-1AN) |
+| Try it | [simulator & front panel](../simulator.html?m=AMS8-1AN) · [KiCad symbol generator](../kicad.html?m=AMS8-1AN) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — estimate from a dated variant |
 | Evidence | from AMS8-1 |
 | Confidence | family |
@@ -24,9 +24,70 @@ tags: ["module", "ravenna-aes67", "2010s"]
 
 <svg class="wbs-panel solo" data-m="AMS8-1AN" data-n="" data-cat="RAVENNA AES67" role="img" aria-label="AMS8-1AN front panel"></svg>
 
+<a id="software"></a>
+
+## Software
+
+_What runs on the AMS8-1AN: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| AMS8-1AN | AMS8E-1 firmware |  |  | **V050001** (in 06AV0100) | 2016-05-15 | AMS8-1 |
+| AMS8-1AN | AMS8E-5 firmware |  |  | **V040100** (in 06AV0100) | 2016-05-15 | AMS8-1 |
+| AMS8-1AN | SHARC firmware |  |  | **v205** (in 06AV0100) | 2016-05-15 | AMS8-1 |
+| AMS8-1AN | ALTERA firmware |  |  | **V050100** (in 06AV0100) | 2016-05-15 | AMS8-1 |
+
+**Product firmware versions (PFV)**: AMS8-1AN: 1 revisions, latest released **06AV0100** (2016-05-15)
+
+**Programming:** Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).
+
+## Versions
+
+### AMS8-1AN
+
+_Sheet **AMS8-1**: one row per product firmware version, with the firmware of each board in it._
+
+| Year | Date | Revision | AMS8E-1 | AMS8E-5 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+| 2016\|49 | 2016-05-15 | **06AV0100** | V050001 | V040100 | v205 | V050100 | released |  |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **06AV0100** — 2016|49 · 2016-05-15 — _AMS8-1AN_
+    - This is to accommodate unet Standard board for AMS8-1AN
+    - NAB2016
+
 ## Photos & scans (2)
 
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20002%20-%20AMS8-1AN%20Three%20Quarter.jpg) | [note](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20002%20-%20AMS8-1AN%20Three%20Quarter.jpg.md) |
 | 2014 | [2014 - AMS8-1AN - Information Sheet.jpg](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS8-1AN",
+ "category": "RAVENNA AES67",
+ "year": 2014,
+ "documents": [
+  {
+   "file": "Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - Information Sheet.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  }
+ ]
+}
+```

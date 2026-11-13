@@ -6,7 +6,7 @@ Script and timeline by Anthony Peter Kuzub · WBSps.ca · WBSps.Kuzub.com
 
 ## Episodes
 
-- Episode 1: [A Sound Idea](Episode%201%20-%20A%20Sound%20Idea/script.md) (1960|-7 – 1972|5) · 119 slides
+- Episode 1: [A Sound Idea](Episode%201%20-%20A%20Sound%20Idea/script.md) (1960|-7 – 1972|5) · 118 slides
 - Episode 2: [The Console Years](Episode%202%20-%20The%20Console%20Years/script.md) (1972|5 – 1989|22) · 120 slides
 - Episode 2.1: [Turn the Knob: Filters and Equalizers](Episode%202.1%20-%20Turn%20the%20Knob-%20Filters%20and%20Equalizers/script.md) (1968|1 – 1979|12) · 110 slides
 - Episode 2.2: [The Preamp: Building Blocks](Episode%202.2%20-%20The%20Preamp-%20Building%20Blocks/script.md) (1968|1 – 1988|21) · 120 slides
@@ -18,4 +18,4 @@ Script and timeline by Anthony Peter Kuzub · WBSps.ca · WBSps.Kuzub.com
 - Episode 5.5: [The openGear Partnership](Episode%205.5%20-%20The%20openGear%20Partnership/script.md) (2008|41 – 2015|48) · 37 slides
 - Episode 6: [Ten Years Early: preMO and the Network](Episode%206%20-%20Ten%20Years%20Early-%20preMO%20and%20the%20Network/script.md) (2013|46 – 2021|54) · 51 slides
 - Episode 6.1: [Quad Twisted Pair](Episode%206.1%20-%20Quad%20Twisted%20Pair/script.md) (2015|48 – 2020|53) · 28 slides
-- Episode 7: [The WBSps: Preservation Society](Episode%207%20-%20The%20WBSps-%20Preservation%20Society/script.md) (2003|36 – 2026|59) · 115 slides
+- Episode 7: [The WBSps: Preservation Society](Episode%207%20-%20The%20WBSps-%20Preservation%20Society/script.md) (2003|36 – 2026|59) · 109 slides

@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD33) · [download package (zip)](../_packages/POD33.zip) |
+| Try it | [full simulation: POD33](../siumulation.html?plugin=pod33) · [simulator & front panel](../simulator.html?m=POD33) · [KiCad symbol generator](../kicad.html?m=POD33) · [download package (zip)](../_packages/POD33.zip) |
 | Earliest dated evidence | [2017\|50](Year-2017.md) — month & year |
 | Evidence | "Mar.07 2017" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD33 MANUAL(1).docx |
 | Confidence | medium |
@@ -24,6 +24,34 @@ tags: ["product", "pods", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD33" data-n="AES DARS Tone Generator" data-cat="PODS" role="img" aria-label="POD33 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD33: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD33 | Microcontroller | ATMEGA128L | HS | **POD33V102** | 2016-04-07 | Standard Products |
+| POD33 | Altera FPGA / CPLD | EPC1S |  | **POD33V101** | — | Altera |
+| POD33 | SHARC DSP boot (E)EPROM | AT25F512N |  | **POD33V101** | — | Sharc |
+
+**Programming:** Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2016\|49 | 2016-04-07 | POD33 | ATMEGA128L | POD33V102 | V102 |  |
+|  | — | POD33 | EPC1S | POD33V101 |  |  |
+|  | — | POD33 | AT25F512N | POD33V101 |  |  |
+
+## Changes in each version
+
+_No change note in the listing for: POD33V102, POD33V101._
 
 ## Dates found in the documents
 
@@ -72,3 +100,60 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2017 - POD33 - MANUAL.docx](../Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2017 - POD33 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2017 - POD33 - MANUAL (2).docx](../Products/PODS/POD33/2017%20-%20POD33%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD33",
+ "name": "AES DARS Tone Generator",
+ "category": "PODS",
+ "year": 2017,
+ "documents": [
+  {
+   "file": "Products/PODS/POD33/2017 - POD33 - Front wrd clk.jpg",
+   "year": 2017,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD33/2017 - POD33 - Front.jpg",
+   "year": 2017,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD33/2017 - POD33 - Information Sheet.jpg",
+   "year": 2017,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD33/2017 - POD33 - MANUAL (2).docx",
+   "year": 2017,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD33/2017 - POD33 - MANUAL.docx",
+   "year": 2017,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD33/2017 - POD33 - Rear.jpg",
+   "year": 2017,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

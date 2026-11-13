@@ -14,7 +14,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD8) · [download package (zip)](../_packages/POD8.zip) |
+| Try it | [full simulation: POD8](../siumulation.html?plugin=pod8) · [simulator & front panel](../simulator.html?m=POD8) · [KiCad symbol generator](../kicad.html?m=POD8) · [download package (zip)](../_packages/POD8.zip) |
 | Earliest dated evidence | [1995\|28](Year-1995.md) — original file date |
 | Evidence | saved 1995-09-11: WBSps Engineering from H drive-20261018T013433Z-1-001/WBSps Engineering from H drive/WBSps - POD_OLD/POD8/ACAD/LMPOD8-1.DWG |
 | Confidence | medium |
@@ -25,6 +25,12 @@ tags: ["product", "pods", "1990s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD8" data-n="Stereo Distribution Amplifier" data-cat="PODS" role="img" aria-label="POD8 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+The POD8 is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -72,3 +78,72 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - POD8 - MANUAL.docx](../Products/PODS/POD8/2014%20-%20POD8%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - POD8 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD8 - MANUAL (2).docx](../Products/PODS/POD8/2014%20-%20POD8%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD8",
+ "name": "Stereo Distribution Amplifier",
+ "category": "PODS",
+ "year": 1995,
+ "documents": [
+  {
+   "file": "Products/PODS/POD8/1995 - POD8 - Front.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD8/1995 - POD8 - POD8 - FAPOD8 - DRAWING (AUTOCAD).dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-1 - WIRING.dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-2 - LAYOUT.dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD8/1995 - POD8 - POD8 - LMPOD8-3 - LAYOUT.dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD8/1995 - POD8 - Rear.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD8/2014 - POD8 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD8/2014 - POD8 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

@@ -13,7 +13,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AIP8) · [download package (zip)](../_packages/AIP8.zip) |
+| Try it | [full simulation: AIP8-2A](../siumulation.html?plugin=aip8-2a) · [simulator & front panel](../simulator.html?m=AIP8) · [KiCad symbol generator](../kicad.html?m=AIP8) · [download package (zip)](../_packages/AIP8.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — similar models |
 | Evidence | filed with 19 dated models in "Metering and Monitoring Manuals" |
 | Confidence | estimate |
@@ -23,6 +23,52 @@ tags: ["product", "metering", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="AIP8" data-n="" data-cat="METERING" role="img" aria-label="AIP8 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the AIP8: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| AIP8-2A | Microcontroller |  | HS | **1.0.0.2** | 2009-05-07 | Standard Products |
+| AIP8-2A PRODUCT REVISIONS | AMS8E-1 firmware |  |  | **V102** (in 1.0.0.2) | 2009-05-07 | AIP8-2A |
+| AIP8-2A PRODUCT REVISIONS | AIP8-2A-2 firmware |  |  | **V102** (in 1.0.0.2) | 2009-05-07 | AIP8-2A |
+| AIP8-2A PRODUCT REVISIONS | SHARC firmware |  |  | **V102** (in 1.0.0.2) | 2009-05-07 | AIP8-2A |
+| AIP8-2A PRODUCT REVISIONS | ALTERA firmware |  |  | **V100** (in 1.0.0.2) | 2009-05-07 | AIP8-2A |
+
+**Product firmware versions (PFV)**: AIP8-2A PRODUCT REVISIONS: 3 revisions, latest released **1.0.0.2** (2009-05-07)
+
+**Programming:** Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2009\|42 | 2009-05-07 | AIP8-2A |  | 1.0.0.2 |  | Bob 2009-05-07 |
+
+### AIP8-2A PRODUCT REVISIONS
+
+_Sheet **AIP8-2A**: one row per product firmware version, with the firmware of each board in it._
+
+| Year | Date | Revision | AMS8E-1 | AIP8-2A-2 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+| 2007\|40 | 2007-01-26 | **1.0.0.0** | V100 | V100 | V100 | V100 | released |  |
+| 2007\|40 | 2007-03-12 | **1.0.0.1** | V101 | V101 | V101 | V100 | released |  |
+| 2009\|42 | 2009-05-07 | **1.0.0.2** | V102 | V102 | V102 | V100 | released |  |
+
+> DO NOT USE THE WORKING FILES - USE THE FILE IN THE SPECIFIC FOLDER
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **1.0.0.0** — 2007|40 · 2007-01-26 — _AIP8-2A PRODUCT REVISIONS_: USE DEMUX-3 (AIP8-2A) SOFTWARE
+- **1.0.0.1** — 2007|40 · 2007-03-12 — _AIP8-2A PRODUCT REVISIONS_: USE DEMUX-3 (AIP8-2A) SOFTWARE
+- **1.0.0.2** — 2009|42 · 2009-05-07 — _AIP8-2A PRODUCT REVISIONS_: CHANGED DV OUTPUT LEFT = DV SELECTION, RIGHT = ST MONO, MODIFIED DISPLAY TO CHANGED UPON USER INTERFACE SELECTION, IE. KNOB OR PUSHBUTTON
 
 ## Documents (2)
 
@@ -47,3 +93,31 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [19xx - AIP8 - 2A Manual Updated (2).docx](../Products/METERING/AIP8/19xx%20-%20AIP8%20-%202A%20Manual%20Updated%20%282%29.docx), p. 1
 <details><summary>Warranty — 0 words · 19xx - AIP8 - 2A Manual Updated.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [19xx - AIP8 - 2A Manual Updated.docx](../Products/METERING/AIP8/19xx%20-%20AIP8%20-%202A%20Manual%20Updated.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AIP8",
+ "category": "METERING",
+ "year": 2015,
+ "documents": [
+  {
+   "file": "Products/METERING/AIP8/19xx - AIP8 - 2A Manual Updated (2).docx",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/AIP8/19xx - AIP8 - 2A Manual Updated.docx",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  }
+ ]
+}
+```

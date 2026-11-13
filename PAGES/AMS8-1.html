@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../simulator.html?m=AMS8-1">simulator &amp; front panel</a> · <a href="../_packages/AMS8-1.zip">download package (zip)</a></td>
+<td><a href="../siumulation.html?plugin=ams81">full simulation: AMS81</a> · <a href="../simulator.html?m=AMS8-1">simulator &amp; front panel</a> · <a href="../kicad.html?m=AMS8-1">KiCad symbol generator</a> · <a href="../_packages/AMS8-1.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -87,6 +87,882 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Products/METERING/AMS8-1/2014%20-%20AMS8-1%20-%20Information%20Sheet.jpg"><img loading="lazy" src="../Products/METERING/AMS8-1/2014%20-%20AMS8-1%20-%20Information%20Sheet.jpg" alt="" data-f="Products/METERING/AMS8-1/2014 - AMS8-1 - Information Sheet.jpg" data-size="320" onerror="wbsOff(this)">2014 - AMS8-1 - Information Sheet.jpg</a></div>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="AMS8-1" data-n="Mkiii 8 Channel Audio Monitoring System" data-cat="METERING" role="img" aria-label="AMS8-1 front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the AMS8-1: every programmable part and the version Ward-Beck released for it, from the <a href="Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AMS81</td>
+<td>Microcontroller</td>
+<td></td>
+<td>HS</td>
+<td><strong>2.1.1.9</strong></td>
+<td>2009-06-23</td>
+<td>Standard Products</td>
+</tr>
+<tr>
+<td>AMS81-ISSUE 1 (Issue 1 boards)</td>
+<td>Microcontroller</td>
+<td></td>
+<td>HS</td>
+<td><strong>1.1.0.1</strong></td>
+<td>2009-06-23</td>
+<td>Standard Products</td>
+</tr>
+<tr>
+<td>AMS8-12 (ANALOG)</td>
+<td>Altera FPGA / CPLD</td>
+<td>EPC1S</td>
+<td></td>
+<td><strong>AMS8-12V100</strong></td>
+<td>—</td>
+<td>Altera</td>
+</tr>
+<tr>
+<td>AMS81 PRODUCT REVISIONS</td>
+<td>AMS8E-1 firmware</td>
+<td></td>
+<td></td>
+<td><strong>V050001</strong> (in 06VA0002)</td>
+<td>2015-07-29</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS81 PRODUCT REVISIONS</td>
+<td>AMS8E-5 firmware</td>
+<td></td>
+<td></td>
+<td><strong>V040002</strong> (in 06VA0002)</td>
+<td>2015-07-29</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS81 PRODUCT REVISIONS</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>v205</strong> (in 06VA0002)</td>
+<td>2015-07-29</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS81 PRODUCT REVISIONS</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>v050000</strong> (in 06VA0002)</td>
+<td>2015-07-29</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS81 PRODUCT REVISIONS — custom projects</td>
+<td>AMS8E-1 firmware</td>
+<td></td>
+<td></td>
+<td><strong>C050000</strong> (in 06VC0000)</td>
+<td>2016-02-26</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS81 PRODUCT REVISIONS — custom projects</td>
+<td>AMS8E-5 firmware</td>
+<td></td>
+<td></td>
+<td><strong>C040000</strong> (in 06VC0000)</td>
+<td>2016-02-26</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS81 PRODUCT REVISIONS — custom projects</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>V205C</strong> (in 06VC0000)</td>
+<td>2016-02-26</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS81 PRODUCT REVISIONS — custom projects</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>C050000</strong> (in 06VC0000)</td>
+<td>2016-02-26</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>DEMUX-4 FOR AMS-8 AND MLC UNITS (DEMUX-4)</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>V020001</strong> (in 02AV0001)</td>
+<td>2014-06-03</td>
+<td>DEMUX-4</td>
+</tr>
+<tr>
+<td>DEMUX-4 FOR AMS-8 AND MLC UNITS (DEMUX-4)</td>
+<td>XILINX firmware</td>
+<td></td>
+<td></td>
+<td><strong>V020000</strong> (in 02AV0001)</td>
+<td>2014-06-03</td>
+<td>DEMUX-4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Product firmware versions (PFV)</strong>: AMS81 PRODUCT REVISIONS: 36 revisions, latest released <strong>06VA0002</strong> (2015-07-29) · AMS81 PRODUCT REVISIONS — custom projects: 9 revisions, latest released <strong>06VC0000</strong> (2016-02-26)</p>
+<p><strong>Programming:</strong> Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).</p>
+<p><strong>Also:</strong> <a href="DEMUX-4.html#software">DEMUX-4 FOR AMS-8 AND MLC UNITS</a></p>
+<h2>Versions</h2>
+<h3>Listed versions</h3>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Listed as</th>
+<th>Chip</th>
+<th>Released</th>
+<th>Not released / work copy</th>
+<th>Tested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2009|42</td>
+<td>2009-06-23</td>
+<td>AMS81</td>
+<td></td>
+<td>2.1.1.9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2009|42</td>
+<td>2009-06-23</td>
+<td>AMS81-ISSUE 1</td>
+<td></td>
+<td>1.1.0.1</td>
+<td>1.1.0.1</td>
+<td>Bob 2007-02-22</td>
+</tr>
+<tr>
+<td></td>
+<td>—</td>
+<td>AMS8-12 (ANALOG)</td>
+<td>EPC1S</td>
+<td>AMS8-12V100</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>AMS81 PRODUCT REVISIONS</h3>
+<p><em>Sheet <strong>AMS8-1</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>AMS8E-1</th>
+<th>AMS8E-5</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2005|38</td>
+<td>2005-02-24</td>
+<td><strong>1.0.3.0</strong></td>
+<td>V103</td>
+<td>V103</td>
+<td>V100</td>
+<td>V101</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-03-15</td>
+<td><strong>1.0.4.0</strong></td>
+<td>V104</td>
+<td>V104</td>
+<td>V100</td>
+<td>V101</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-04-11</td>
+<td><strong>1.0.5.0</strong></td>
+<td>V105</td>
+<td>V105</td>
+<td>V100</td>
+<td>V101</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-04-13</td>
+<td><strong>1.0.5.1</strong></td>
+<td>V105</td>
+<td>V1051</td>
+<td>V100</td>
+<td>V101</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-05-02</td>
+<td><strong>1.0.5.2</strong></td>
+<td>V1051</td>
+<td>v1052</td>
+<td>V102</td>
+<td>V101</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-06-13</td>
+<td><strong>1.0.6.0</strong></td>
+<td>V106</td>
+<td>V106</td>
+<td>V102</td>
+<td>V101</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-07-05</td>
+<td><strong>1.0.6.1</strong></td>
+<td>V1061</td>
+<td>V1061</td>
+<td>V102</td>
+<td>V101</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-09-01</td>
+<td><strong>1.0.7.0</strong></td>
+<td>V1071</td>
+<td>V107</td>
+<td>V102</td>
+<td>V102</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-09-09</td>
+<td><strong>1.0.7.1</strong></td>
+<td>V1072</td>
+<td>V1071</td>
+<td>V102</td>
+<td>V102</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-09-12</td>
+<td><strong>1.0.7.2</strong></td>
+<td>V1072</td>
+<td>V1072</td>
+<td>V102</td>
+<td>V102</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2005|38</td>
+<td>2005-10-12</td>
+<td><strong>1.0.7.3</strong></td>
+<td>V1072</td>
+<td>v1073</td>
+<td>V102</td>
+<td>V102</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-01-02</td>
+<td><strong>1.0.7.4</strong></td>
+<td>V1072</td>
+<td>v1074</td>
+<td>V102</td>
+<td>V102</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-01-11</td>
+<td><strong>1.0.7.5</strong></td>
+<td>V1072</td>
+<td>v1075</td>
+<td>V102</td>
+<td>V102</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-02-01</td>
+<td><strong>1.0.7.6</strong></td>
+<td>V1072</td>
+<td>v1076</td>
+<td>V102</td>
+<td>V102</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-05-08</td>
+<td><strong>1.0.7.7</strong></td>
+<td>V1073</td>
+<td>v1077</td>
+<td>V102</td>
+<td>V102</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V101, ALTERA - V105</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-02-27</td>
+<td><strong>1.1.0.0</strong></td>
+<td>v1100</td>
+<td>v1100</td>
+<td>V203</td>
+<td>V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2009|42</td>
+<td>2009-06-23</td>
+<td><strong>1.1.0.1</strong></td>
+<td>v1101</td>
+<td>v1101</td>
+<td>V203M</td>
+<td>V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2011|44</td>
+<td>2011-04-21</td>
+<td><strong>1.1.0.2</strong></td>
+<td>1.1.0.1</td>
+<td>1.1.0.2</td>
+<td>v203M</td>
+<td>v204</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>use 2.0.0.0 for AMS8E-1 issue 2 PCBs otherwise use 1.0.7.7</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>AMS8E-1</th>
+<th>AMS8E-5</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2006|39</td>
+<td>2006-03-21</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V2001</td>
+<td>V200</td>
+<td>V200</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-04-06</td>
+<td><strong>2.0.0.1</strong></td>
+<td>V2002</td>
+<td>V2001</td>
+<td>V200</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-05-08</td>
+<td><strong>2.0.1.0</strong></td>
+<td>V201</td>
+<td>V201</td>
+<td>V201</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-08-25</td>
+<td><strong>2.0.1.1</strong></td>
+<td>v2011</td>
+<td>V2011</td>
+<td>V201</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-10-25</td>
+<td><strong>2.1.1.1</strong></td>
+<td>v2011</td>
+<td>v2111</td>
+<td>V202</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-02-27</td>
+<td><strong>2.1.1.2</strong></td>
+<td>v2012</td>
+<td>v2112</td>
+<td>V203</td>
+<td>V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-10-11</td>
+<td><strong>2.1.1.3</strong></td>
+<td>v2012</td>
+<td>v2113</td>
+<td>V203</td>
+<td>V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-11-16</td>
+<td><strong>2.1.1.4</strong></td>
+<td>v2013</td>
+<td>V2114</td>
+<td>V203</td>
+<td>v202</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-02-25</td>
+<td><strong>2.1.1.5</strong></td>
+<td>v2014</td>
+<td>V2115</td>
+<td>V203</td>
+<td>v202</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-05-09</td>
+<td><strong>2.1.1.6</strong></td>
+<td>v2015</td>
+<td>V2116</td>
+<td>V203</td>
+<td>v202</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-06-03</td>
+<td><strong>2.1.1.7</strong></td>
+<td>v2016</td>
+<td>V2117</td>
+<td>V204</td>
+<td>v202</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-12-11</td>
+<td><strong>2.1.1.8</strong></td>
+<td>v2017</td>
+<td>V2118</td>
+<td>V204</td>
+<td>V203</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2009|42</td>
+<td>2009-06-23</td>
+<td><strong>2.1.1.9</strong></td>
+<td>v2017</td>
+<td>V2119</td>
+<td>V205</td>
+<td>V203</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V202, ALTERA - V203</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>use 2.2.0.0 for AMS8E-6 issue 3 PCBs otherwise use 2.0.0.0</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>AMS8E-1</th>
+<th>AMS8E-5</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2009|42</td>
+<td>2009-09-08</td>
+<td><strong>2.0.0.0</strong></td>
+<td>v2017</td>
+<td>v2200</td>
+<td>v205</td>
+<td>v203</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2013|46</td>
+<td>2013-05-28</td>
+<td><strong>06VA0000</strong></td>
+<td>v050000</td>
+<td>v040000</td>
+<td>v205</td>
+<td>v050000</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2013|46</td>
+<td>2013-07-02</td>
+<td><strong>06VA0001</strong></td>
+<td>V050001</td>
+<td>v040001</td>
+<td>v205</td>
+<td>v050000</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2015|48</td>
+<td>2015-07-29</td>
+<td><strong>06VA0002</strong></td>
+<td>V050001</td>
+<td>V040002</td>
+<td>v205</td>
+<td>v050000</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>version 3.0.0.0 is an audio switcher with assigned inputs (ANALOG, AES, SDI1/2, SDI3/4)</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>AMS8E-1</th>
+<th>AMS8E-5</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>—</td>
+<td><strong>3.0.0.0</strong></td>
+<td>v3000</td>
+<td>v3000</td>
+<td>v300</td>
+<td>v300</td>
+<td>not released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>AMS81 PRODUCT REVISIONS — custom projects</h3>
+<p><em>Sheet <strong>AMS8-1</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>AMS8E-1</th>
+<th>AMS8E-5</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2007|40</td>
+<td>2007-02-27</td>
+<td><strong>C.1.0.0</strong></td>
+<td>c101</td>
+<td>c100</td>
+<td>V203</td>
+<td>V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-04-24</td>
+<td><strong>C.1.0.1</strong></td>
+<td>c102</td>
+<td>c101</td>
+<td>V203/ V205</td>
+<td>V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-06-27</td>
+<td><strong>C.1.0.2</strong></td>
+<td>c103</td>
+<td>c102</td>
+<td>V204/ V205</td>
+<td>V202C</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-07-03</td>
+<td><strong>C.1.0.3</strong></td>
+<td>c104</td>
+<td>c103</td>
+<td>V204C/V205C</td>
+<td>C202</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-08-01</td>
+<td><strong>C.1.0.4</strong></td>
+<td>c103v1</td>
+<td>c104</td>
+<td>V204C/V205C</td>
+<td>C202</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2010|43</td>
+<td>2010-04-15</td>
+<td><strong>C1.0.5</strong></td>
+<td>c103v1</td>
+<td>c105</td>
+<td>V204C/V205C</td>
+<td>C202</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2010|43</td>
+<td>2010-10-25</td>
+<td><strong>C.1.0.6</strong></td>
+<td>c104</td>
+<td>c106</td>
+<td>V204C/V205C</td>
+<td>C203</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2010|43</td>
+<td>2010-10-20</td>
+<td><strong>C.1.0.7</strong></td>
+<td>v2017</td>
+<td>c107</td>
+<td>V205</td>
+<td>v203</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2016|49</td>
+<td>2016-02-26</td>
+<td><strong>06VC0000</strong></td>
+<td>C050000</td>
+<td>C040000</td>
+<td>V205C</td>
+<td>C050000</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>DO NOT USE THE WORKING FILES - USE THE FILE IN THE SPECIFIC FOLDER</p>
+</blockquote>
+<h3>DEMUX-4 FOR AMS-8 AND MLC UNITS</h3>
+<p><em>From the <a href="DEMUX-4.html#software">DEMUX-4</a> sheet: the build used in the AMS8-1.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>XILINX</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2013|46</td>
+<td>2013-12-12</td>
+<td><strong>02AV0000</strong></td>
+<td>V020000</td>
+<td>V020000</td>
+<td>released</td>
+<td>Bob 2013-11-20; Flash M25P16; PCB issue 2</td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td>2014-06-03</td>
+<td><strong>02AV0001</strong></td>
+<td>V020001</td>
+<td>V020000</td>
+<td>released</td>
+<td>Bob 2014-05-30; Flash M25P16; PCB issue 2</td>
+</tr>
+</tbody>
+</table>
+<h2>Changes in each version</h2>
+<p><em>What changed, in the words of the listing, oldest first.</em></p>
+<ul>
+<li><strong>1.0.7.7</strong> — 2006|39 · 2006-05-08 — <em>AMS81 PRODUCT REVISIONS</em><ul>
+<li>for CBC Analog Inputs</li>
+<li>DEMUX compatibility: ATMEL - V101, ALTERA - V105</li>
+</ul>
+</li>
+<li><strong>2.0.1.0</strong> — 2006|39 · 2006-05-08 — <em>AMS81 PRODUCT REVISIONS</em>: CHANGED FROM 1 TO 2 GROUP SDI MONITORING</li>
+<li><strong>2.0.1.1</strong> — 2006|39 · 2006-08-25 — <em>AMS81 PRODUCT REVISIONS</em>: DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+<li><strong>2.1.1.1</strong> — 2006|39 · 2006-10-25 — <em>AMS81 PRODUCT REVISIONS</em>: CHANGED METADATA CONNECTOR AND FIXED MODE 4 VOLUME CONTROL ISSUE</li>
+<li><strong>1.1.0.0</strong> — 2007|40 · 2007-02-27 — <em>AMS81 PRODUCT REVISIONS</em>: USED 2.1.1.2 AS THE BASE FOR ISSUE 1 FIX</li>
+<li><strong>2.1.1.2</strong> — 2007|40 · 2007-02-27 — <em>AMS81 PRODUCT REVISIONS</em>: CHANGED ALTERA AND SHARC SOFTWARE</li>
+<li><strong>C.1.0.0</strong> — 2007|40 · 2007-02-27 — <em>AMS81 PRODUCT REVISIONS — custom projects</em>: CBC - Mode 6</li>
+<li><strong>C.1.0.1</strong> — 2007|40 · 2007-04-24 — <em>AMS81 PRODUCT REVISIONS — custom projects</em>: CBC - Mode 6 Version 2/FIXED LED DISPLAY FREEZE</li>
+<li><strong>2.1.1.3</strong> — 2007|40 · 2007-10-11 — <em>AMS81 PRODUCT REVISIONS</em>: ADDED DEFAULT VOLUME SETTINGS IN SETUP</li>
+<li><strong>2.1.1.4</strong> — 2007|40 · 2007-11-16 — <em>AMS81 PRODUCT REVISIONS</em>: FIXED AUDIO MISMATCHING AND EEPROM CHANGE IN MODE</li>
+<li><strong>2.1.1.5</strong> — 2008|41 · 2008-02-25 — <em>AMS81 PRODUCT REVISIONS</em>: IN MODE 2, LOCK STATUS REFLECTS INPUT MONITORED.</li>
+<li><strong>2.1.1.6</strong> — 2008|41 · 2008-05-09 — <em>AMS81 PRODUCT REVISIONS</em>: FIXED DIALNORM ISSUE</li>
+<li><strong>2.1.1.7</strong> — 2008|41 · 2008-06-03 — <em>AMS81 PRODUCT REVISIONS</em>: IN MODE 2, AES OUTPUTS FOLLOW AES INPUT INSTEAD OF 4 COPIES OF MONITORED INPUT</li>
+<li><strong>C.1.0.2</strong> — 2008|41 · 2008-06-27 — <em>AMS81 PRODUCT REVISIONS — custom projects</em>: CBC - Mode 6 Version 2 w/ Current Fixes and Fixed Outputs /FIXED LED DISPLAY FREEZE</li>
+<li><strong>C.1.0.3</strong> — 2008|41 · 2008-07-03 — <em>AMS81 PRODUCT REVISIONS — custom projects</em>: CBC - Mode 6 Version 3</li>
+<li><strong>C.1.0.4</strong> — 2008|41 · 2008-08-01 — <em>AMS81 PRODUCT REVISIONS — custom projects</em>: CBC - Mode 6 Version 2 w/ Fixed Analog Output Issue and modified Mode 2</li>
+<li><strong>2.1.1.8</strong> — 2008|41 · 2008-12-11 — <em>AMS81 PRODUCT REVISIONS</em>: FIXED PHASE ISSUE WITH AES OUTPUTS, FIXED DOLBY ERROR AND MAPPING ISSUE</li>
+<li><strong>1.1.0.1</strong> — 2009|42 · 2009-06-23 — <em>AMS81 PRODUCT REVISIONS</em>: FIXED LED DISPLAY FREEZE</li>
+<li><strong>2.1.1.9</strong> — 2009|42 · 2009-06-23 — <em>AMS81 PRODUCT REVISIONS</em><ul>
+<li>FIXED ISSUE IN SHARC WITH MUX COUNT AND LED DISPLAY FREEZE.</li>
+<li>DEMUX compatibility: ATMEL - V202, ALTERA - V203</li>
+</ul>
+</li>
+<li><strong>2.0.0.0</strong> — 2009|42 · 2009-09-08 — <em>AMS81 PRODUCT REVISIONS</em>: CREATED A NEW ISSUE FRONT PANEL BOARD FOR AMS8-1B</li>
+<li><strong>C1.0.5</strong> — 2010|43 · 2010-04-15 — <em>AMS81 PRODUCT REVISIONS — custom projects</em>: cbc mode 6 - functions the same as version c104. Ams8e-5 atmel firmware changed to support issue 2 and 3 ams8e-6 boards with the LED driver.</li>
+<li><strong>C.1.0.7</strong> — 2010|43 · 2010-10-20 — <em>AMS81 PRODUCT REVISIONS — custom projects</em>: DOME - Mode 5, based on AMS82 Mode 5 Revision 2.1.2.0</li>
+<li><strong>C.1.0.6</strong> — 2010|43 · 2010-10-25 — <em>AMS81 PRODUCT REVISIONS — custom projects</em>: CBC - Mode 6, Version 3 AMS8E-5 Atmel changed to support LED driver on AMS8E-6 boards, also the problem with Left channel volume not updating was resolved. AMS8E-1 ALTERA changed to route the same signal for AES, AUX and Analoge Outputs</li>
+<li><strong>1.1.0.2</strong> — 2011|44 · 2011-04-21 — <em>AMS81 PRODUCT REVISIONS</em><ul>
+<li>Altera: changed to have analog monitor output mute when speakers are muted.</li>
+<li>Atmel: ams8e-5 changed to reflect new software versino.</li>
+</ul>
+</li>
+<li><strong>06VA0000</strong> — 2013|46 · 2013-05-28 — <em>AMS81 PRODUCT REVISIONS</em><ul>
+<li>removed dependence on cs8416 and ad1895 chipsets within fpga on ams8e-1 main board. Ams8e-1 main board atmel modified to recieve sdi lock status from ams8e-5. AMS8e-5 atmel changed to communicate SDI lock status to ams8e-1 main board.</li>
+<li>Fixed mode4 LED problems on ams8e-5</li>
+<li>Ali has added his code into this version for Demux4</li>
+</ul>
+</li>
+<li><strong>06VA0001</strong> — 2013|46 · 2013-07-02 — <em>AMS81 PRODUCT REVISIONS</em>: When monitoring embedded SDI in mode 1, or 4 (dolby decode mode). Removed and re-asserted AES! Will cause the cat552 card to reset. This was incorrect. Bug resolved.</li>
+<li><strong>02AV0000</strong> — 2013|46 · 2013-12-12 — <em>DEMUX-4 FOR AMS-8 AND MLC UNITS</em>: First version of demux4 created for AMS8 series</li>
+<li><strong>02AV0001</strong> — 2014|47 · 2014-06-03 — <em>DEMUX-4 FOR AMS-8 AND MLC UNITS</em>: Fixes the bug that happens sometimes by resetting the power where the demux board doesn’t lock, to resolve it generates a watchdog reset, it should be implemented in other versions as well.</li>
+<li><strong>06VA0002</strong> — 2015|48 · 2015-07-29 — <em>AMS81 PRODUCT REVISIONS</em><ul>
+<li>Front panel Atmel display initialization updated. Now compatible with PDSP1884 &amp; HDSP2533</li>
+<li>software revision should change from 06VAxxxx to 06AVxxxx for next revisions</li>
+<li>As of July 2018 the AMS8E-6 board has been changed to Support Round buttons and the Aux Connector has been changed to a Female Tascam Standard</li>
+</ul>
+</li>
+<li><strong>06VC0000</strong> — 2016|49 · 2016-02-26 — <em>AMS81 PRODUCT REVISIONS — custom projects</em><ul>
+<li>CBC - Mode 6 - Version 2 - based on C1.0.5 - updated to support AMS8e-1 ISS5 and DEMUX4-ISS2</li>
+<li>NOTE: It should have been 06AC0000 must change for the next revision</li>
+<li>As of July 2018 the AMS8E-6 board has been changed to Support Round buttons and the Aux Connector has been changed to a Female Tascam Standard</li>
+</ul>
+</li>
+<li><strong>3.0.0.0</strong> — not released — <em>AMS81 PRODUCT REVISIONS</em>: MONITOR OUTPUT IS DELAYED WHEN DOLBY ERROR OCCURS NEEDS FIXING. ALSO HOW DO YOU LISTEN THE SECONDARY PROGRAMMING</li>
+</ul>
+<p><em>No change note in the listing for: AMS8-12V100, 1.0.3.0, 1.0.4.0, 1.0.5.0, 1.0.5.1, 1.0.5.2, 1.0.6.0, 1.0.6.1, 1.0.7.0, 1.0.7.1, 1.0.7.2, 1.0.7.3, 1.0.7.4, 1.0.7.5, 1.0.7.6, 2.0.0.0, 2.0.0.1.</em></p>
 <h2>Dates found in the documents</h2>
 <table>
 <thead>
@@ -239,4 +1115,56 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <details><summary>Warranty — 0 words · 2018 - AMS8-1 - MKIII - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 <ul>
 <li>source: <a href="../viewer.html?f=Products/METERING/AMS8-1/2018%20-%20AMS8-1%20-%20MKIII%20-%20MANUAL%20%282%29.docx">2018 - AMS8-1 - MKIII - MANUAL (2).docx</a>, p. 1</li>
-</ul><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from AMS8-1.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;AMS8-1&quot;,
+ &quot;name&quot;: &quot;Mkiii 8 Channel Audio Monitoring System&quot;,
+ &quot;category&quot;: &quot;METERING&quot;,
+ &quot;year&quot;: 2014,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1/2014 - AMS8-1 - Information Sheet.jpg&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1/2014 - AMS8-1 - MANUAL (Archived - OBSOLETE as of July 13, 2018) (2).docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1/2014 - AMS8-1 - MANUAL (Archived - OBSOLETE as of July 13, 2018).docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1/2018 - AMS8-1 - MKIII - MANUAL (2).docx&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1/2018 - AMS8-1 - MKIII - MANUAL.docx&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from AMS8-1.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

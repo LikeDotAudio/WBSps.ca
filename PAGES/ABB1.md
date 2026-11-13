@@ -14,7 +14,7 @@ tags: ["product", "buddies", "2010s"]
 |---|---|
 | Type | product |
 | Series | [BUDDIES](Series-BUDDIES.md) |
-| Try it | [simulator & front panel](../simulator.html?m=ABB1) · [download package (zip)](../_packages/ABB1.zip) |
+| Try it | [full simulation: ABB1](../siumulation.html?plugin=abb1) · [simulator & front panel](../simulator.html?m=ABB1) · [KiCad symbol generator](../kicad.html?m=ABB1) · [download package (zip)](../_packages/ABB1.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jan.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/Buddies/ABB1 Manual(1).docx |
 | Confidence | medium |
@@ -24,6 +24,33 @@ tags: ["product", "buddies", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="ABB1" data-n="Audio Bit Buddy Portable Digital/Analog Audio Monitor" data-cat="BUDDIES" role="img" aria-label="ABB1 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the ABB1: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| ABB1 (CS8412) | Microcontroller | PIC16F73 | HS | **ABB1V102** | 2002-04-19 | Standard Products |
+| ABB1 (CS8414) | Microcontroller | PIC16F73 | HS | **ABB1V103** | 2005-10-04 | Standard Products |
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2002\|35 | 2002-04-19 | ABB1 (CS8412) | PIC16F73 | ABB1V102 |  |  |
+| 2005\|38 | 2005-10-04 | ABB1 (CS8414) | PIC16F73 | ABB1V103 |  |  |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **ABB1V102** — 2002|35 · 2002-04-19 — _ABB1 (CS8412) · PIC16F73_: UPDATED FOR PIC16F73
+- **ABB1V103** — 2005|38 · 2005-10-04 — _ABB1 (CS8414) · PIC16F73_: UPDATED FOR CS8414
 
 ## Dates found in the documents
 
@@ -61,3 +88,42 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2015 - ABB1 - Manual (2).docx](../Products/BUDDIES/ABB1/2015%20-%20ABB1%20-%20Manual%20%282%29.docx), p. 1
 <details><summary>Warranty — 0 words · 2015 - ABB1 - Manual.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - ABB1 - Manual.docx](../Products/BUDDIES/ABB1/2015%20-%20ABB1%20-%20Manual.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "ABB1",
+ "name": "Audio Bit Buddy Portable Digital/Analog Audio Monitor",
+ "category": "BUDDIES",
+ "year": 2015,
+ "documents": [
+  {
+   "file": "Products/BUDDIES/ABB1/2015 - ABB1 - Information Sheet.jpg",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/BUDDIES/ABB1/2015 - ABB1 - Manual (2).docx",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/BUDDIES/ABB1/2015 - ABB1 - Manual.docx",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

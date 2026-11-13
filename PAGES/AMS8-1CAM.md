@@ -14,7 +14,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-1CAM) · [download package (zip)](../_packages/AMS8-1CAM.zip) |
+| Try it | [simulator & front panel](../simulator.html?m=AMS8-1CAM) · [KiCad symbol generator](../kicad.html?m=AMS8-1CAM) · [download package (zip)](../_packages/AMS8-1CAM.zip) |
 | Earliest dated evidence | [2018\|51](Year-2018.md) — month & year |
 | Evidence | "Aug.13 2018" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-1CAM Manual(1).docx |
 | Confidence | medium |
@@ -25,6 +25,47 @@ tags: ["product", "metering", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="AMS8-1CAM" data-n="Mkiii 8 Channel Audio Monitoring System" data-cat="METERING" role="img" aria-label="AMS8-1CAM front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the AMS8-1CAM: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| AMS81-1CAM PRODUCT REVISIONS | AMS8E-1 firmware |  |  | **V050000** (in 06VA0001) | 2015-07-29 | AMS8-1B |
+| AMS81-1CAM PRODUCT REVISIONS | AMS8E-5 firmware |  |  | **V040001** (in 06VA0001) | 2015-07-29 | AMS8-1B |
+| AMS81-1CAM PRODUCT REVISIONS | SHARC firmware |  |  | **AMS81B102** (in 06VA0001) | 2015-07-29 | AMS8-1B |
+| AMS81-1CAM PRODUCT REVISIONS | ALTERA firmware |  |  | **AMS81 V050000** (in 06VA0001) | 2015-07-29 | AMS8-1B |
+
+**Product firmware versions (PFV)**: AMS81-1CAM PRODUCT REVISIONS: 3 revisions, latest released **06VA0001** (2015-07-29)
+
+**Programming:** Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).
+
+## Versions
+
+### AMS81-1CAM PRODUCT REVISIONS
+
+_Sheet **AMS8-1B**: one row per product firmware version, with the firmware of each board in it._
+
+| Year | Date | Revision | AMS8E-1 | AMS8E-5 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+| 2009\|42 | 2009-08-24 | **1.0.0.0** | V1000 | V1000 | AMS81B102 | V1000 | released | DEMUX compatibility ATMEL - V202, ALTERA - V203 |
+| 2013\|46 | 2013-08-29 | **06VA0000** | V050000 | V040000 | AMS81B102 | AMS81 V050000 | released |  |
+| 2015\|48 | 2015-07-29 | **06VA0001** | V050000 | V040001 | AMS81B102 | AMS81 V050000 | released |  |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **1.0.0.0** — 2009|42 · 2009-08-24 — _AMS81-1CAM PRODUCT REVISIONS_: DEMUX compatibility: ATMEL - V202, ALTERA - V203
+- **06VA0000** — 2013|46 · 2013-08-29 — _AMS81-1CAM PRODUCT REVISIONS_
+    - Utilizing new AMS8E-1 ISS5 MAIN BOARD.
+    - used by ABC/Disney Graphics
+- **06VA0001** — 2015|48 · 2015-07-29 — _AMS81-1CAM PRODUCT REVISIONS_
+    - Front panel Atmel display initialization updated. Now compatible with PDSP1884 & HDSP2533
+    - As of July 2018 the AMS8E-6 board has been changed to Support Round buttons and the Aux Connector has been changed to a Female Tascam Standard
 
 ## Dates found in the documents
 
@@ -75,3 +116,48 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2018 - AMS8-1CAM - Manual.docx](../Products/METERING/AMS8-1CAM/2018%20-%20AMS8-1CAM%20-%20Manual.docx), p. 1
 <details><summary>Warranty — 0 words · 2018 - AMS8-1CAM - Manual (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2018 - AMS8-1CAM - Manual (2).docx](../Products/METERING/AMS8-1CAM/2018%20-%20AMS8-1CAM%20-%20Manual%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS8-1CAM",
+ "name": "Mkiii 8 Channel Audio Monitoring System",
+ "category": "METERING",
+ "year": 2018,
+ "documents": [
+  {
+   "file": "Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Information Sheet.jpg",
+   "year": 2018,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Manual (2).docx",
+   "year": 2018,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Manual.docx",
+   "year": 2018,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Rear.jpg",
+   "year": 2018,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

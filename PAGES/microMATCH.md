@@ -14,7 +14,7 @@ tags: ["product", "micro-series", "2010s"]
 |---|---|
 | Type | product |
 | Series | [MICRO SERIES](Series-MICRO-SERIES.md) |
-| Try it | [simulator & front panel](../simulator.html?m=microMATCH) · [download package (zip)](../_packages/microMATCH.zip) |
+| Try it | [full simulation: microMATCH](../siumulation.html?plugin=micromatch) · [simulator & front panel](../simulator.html?m=microMATCH) · [KiCad symbol generator](../kicad.html?m=microMATCH) · [download package (zip)](../_packages/microMATCH.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jul. 01 2015" in PUBLIC/Manuals + tech DOCUMENTS/micro Series Manuals/microMATCH Manual(1).docx |
 | Confidence | medium |
@@ -24,6 +24,12 @@ tags: ["product", "micro-series", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="microMATCH" data-n="Stand Alone Unbalanced To Balanced Converter" data-cat="MICRO SERIES" role="img" aria-label="microMATCH front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+The microMATCH is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -62,3 +68,48 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2015 - microMATCH - Manual (2).docx](../Products/MICRO%20SERIES/microMATCH/2015%20-%20microMATCH%20-%20Manual%20%282%29.docx), p. 1
 <details><summary>Warranty — 0 words · 2015 - microMATCH - Manual.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - microMATCH - Manual.docx](../Products/MICRO%20SERIES/microMATCH/2015%20-%20microMATCH%20-%20Manual.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "microMATCH",
+ "name": "Stand Alone Unbalanced To Balanced Converter",
+ "category": "MICRO SERIES",
+ "year": 2015,
+ "documents": [
+  {
+   "file": "Products/MICRO SERIES/microMATCH/2015 - microMATCH - Information Sheet.jpg",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microMATCH/2015 - microMATCH - Manual (2).docx",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microMATCH/2015 - microMATCH - Manual.docx",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microMATCH/2015 - microMATCH - Three Quarter.jpg",
+   "year": 2015,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

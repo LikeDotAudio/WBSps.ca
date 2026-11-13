@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../simulator.html?m=M166">simulator &amp; front panel</a> · <a href="../_packages/M166.zip">download package (zip)</a></td>
+<td><a href="../simulator.html?m=M166">simulator &amp; front panel</a> · <a href="../kicad.html?m=M166">KiCad symbol generator</a> · <a href="../_packages/M166.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -91,7 +91,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table>
 <h2>Connections and circuit (ideal SPICE model)</h2>
 <p><em>Drawn live from its RTO-144 connections: run the generator, turn the gain, watch the VU. Open the netlist to see how the model is built.</em></p>
-<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M166" data-n="Active Summing Module" data-cat="SUMMING"></div><svg class="wbs-panel" data-m="M166" data-n="Active Summing Module" data-cat="SUMMING" role="img" aria-label="M166 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M166","title":"Active Summing Module","rto":{"code":"M166","series":"S400-LINE","type":"SUMMING","row_count":15,"impedance":{"line_in":600,"out":600},"note":"10\u03a9","audio":[{"port":"A1","signal":"SUMMING-IN-10k\u03a9","dir":"in","pos":"1","neg":"2","pad_pos":"1.A.1.P","pad_neg":"2.A.1.N"},{"port":"A2","signal":"PREAMP-OUT-1","dir":"out","pos":"10","neg":"11","pad_pos":"10.A.2.P","pad_neg":"11.A.2.N"}],"bus_out":[],"bus_in":[],"power":[{"rail":"VCC-AUDIO","style":"OLD","volts":48,"max_a":0.1,"supply":"15","ground":"12","link":null}],"jumpers":[],"logic":[]},"parts":[],"parents":[{"label":"73050","href":"Job-73050.html","note":"T1202"},{"label":"M166A","href":"M166A.html","note":"on 1 drawing with it: Active Summing Module"}]}</script></div></div>
+<div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="M166" data-n="Active Summing Module" data-cat="SUMMING"></div><svg class="wbs-panel" data-m="M166" data-n="Active Summing Module" data-cat="SUMMING" role="img" aria-label="M166 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"M166","title":"Active Summing Module","rto":{"code":"M166","series":"S400-LINE","type":"M166 - Active Summing Amplifier","row_count":15,"impedance":{},"note":null,"connector":"15 contacts, single row","verified":"166-02-002 iss. 2 (Feb 1970), M166 active summing amplifier plug connections","audio":[{"port":"A1","signal":"INPUT","dir":"in","pos":"1","neg":"2","pad_pos":null,"pad_neg":null,"note":null},{"port":"B1","signal":"OUTPUT #1","dir":"out","pos":"10","neg":"11","pad_pos":null,"pad_neg":null,"note":null},{"port":"B2","signal":"OUTPUT #2","dir":"out","pos":"13","neg":"14","pad_pos":null,"pad_neg":null,"note":null}],"bus_out":[],"bus_in":[],"power":[{"rail":"VCC-AUDIO","style":null,"volts":48,"max_a":null,"supply":"15","ground":"12","link":null}],"jumpers":[],"logic":[],"other":[{"signal":"SHIELD GND","role":"ground","pins":["7"]}]},"parts":[],"parents":[{"label":"73050","href":"Job-73050.html","note":"T1202"},{"label":"M166A","href":"M166A.html","note":"on 1 drawing with it: Active Summing Module"}]}</script></div></div>
 <script src="wbs_spice.js"></script>
 
 <h2>Pinout &amp; connections</h2>
@@ -401,4 +401,201 @@ rto-144 · M166.rto144.json, p. 1</title><rect x="14" y="340" width="30" height=
 <td><a href="../viewer.html?f=Modules/SUMMING/M166/19xx%20-%20M166%20-%20166-02-002%20-%20ACTIVE%20SUMMING%20AMPLIFIER%20PLUG%20CONNECTIONS.jpg">file</a></td>
 </tr>
 </tbody>
-</table><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/trace_overlay.js" defer></script><script src="../_catalog/wbs_drawings.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M166.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;M166&quot;,
+ &quot;name&quot;: &quot;Active Summing Module&quot;,
+ &quot;category&quot;: &quot;SUMMING&quot;,
+ &quot;year&quot;: 1970,
+ &quot;connections&quot;: {
+  &quot;from&quot;: &quot;RTO-144 sheet&quot;,
+  &quot;inputs&quot;: [
+   &quot;INPUT&quot;
+  ],
+  &quot;outputs&quot;: [
+   &quot;OUTPUT #1&quot;,
+   &quot;OUTPUT #2&quot;
+  ],
+  &quot;power&quot;: [
+   &quot;VCC-AUDIO&quot;
+  ],
+  &quot;control&quot;: []
+ },
+ &quot;part_of&quot;: [
+  &quot;73050&quot;
+ ],
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/1970 - 166-02-001 - ACTIVE SUMMING AMPLIFIER SCHEMATIC - DRN DPS - ISS 7 (2).jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/1970 - 166-06-001 - ACTIVE SUMMING AMPLIFIER LAYOUT - DRN DPS.jpg&quot;,
+   &quot;year&quot;: 1970,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/1973 - 166-02-005 - M166A SUMMING AMPLIFIER SCHEMATIC - DRN BWJ - ISS 4.jpg&quot;,
+   &quot;year&quot;: 1973,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 166-02-001.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 166-02-002 - ACTIVE SUMMING AMPLIFIER PLUG CONNECTIONS.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 166-06-001 - MIN BEND RAD UMLESS SPECIFIED.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 2.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 3.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 4.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 5.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - 6.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - B 166-02-001 - M166 - ACTIVE SUMMING AMPLIFIER - SCHEMATIC (2).jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - B 166-02-001 - M166 - ACTIVE SUMMING AMPLIFIER - SCHEMATIC.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - B 166-02-002 - M166 - ACTIVE SUMMING AMPLIFIER - PLUG CONNECTIONS.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - B 166-06-001 - M166 - ACTIVE SUMMING AMPLIFIER - LAYOUT.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;drawing&quot;,
+    &quot;text&quot;,
+    &quot;title_block&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - p1.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - p2.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - p3.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - p4.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - p5.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Modules/SUMMING/M166/19xx - M166 - p6.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/trace_overlay.js" defer></script><script src="../_catalog/wbs_drawings.js" defer></script><script src="../_catalog/wbs_panel.js"></script><link rel="stylesheet" href="../_catalog/libcontrol/libcontrol.css"><script src="../_catalog/libcontrol/react.js"></script><script src="../_catalog/libcontrol/react-dom.js"></script><script src="../_catalog/libcontrol/libcontrol.js"></script><script src="../_catalog/wbs_live_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from M166.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

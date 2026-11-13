@@ -13,7 +13,7 @@ tags: ["module", "ravenna-aes67", "2020s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [simulator & front panel](../simulator.html?m=preMO-222) |
+| Try it | [simulator & front panel](../simulator.html?m=preMO-222) · [KiCad symbol generator](../kicad.html?m=preMO-222) |
 | Earliest dated evidence | [2021\|54](Year-2021.md) — dated folder |
 | Evidence | in "2021 Information sheets" |
 | Confidence | low (named by) |
@@ -29,3 +29,21 @@ tags: ["module", "ravenna-aes67", "2020s"]
 | Year | File |  |
 |---|---|---|
 | ? | [19xx - preMO-222 - Information Sheet.jpg](../Products/RAVENNA%20AES67/preMO-222/19xx%20-%20preMO-222%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/preMO-222/19xx%20-%20preMO-222%20-%20Information%20Sheet.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "preMO-222",
+ "category": "RAVENNA AES67",
+ "year": 2021,
+ "documents": [
+  {
+   "file": "Products/RAVENNA AES67/preMO-222/19xx - preMO-222 - Information Sheet.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

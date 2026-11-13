@@ -14,7 +14,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS2) · [download package (zip)](../_packages/AMS2.zip) |
+| Try it | [full simulation: AMS2](../siumulation.html?plugin=ams2) · [simulator & front panel](../simulator.html?m=AMS2) · [KiCad symbol generator](../kicad.html?m=AMS2) · [download package (zip)](../_packages/AMS2.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jul.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS2 MANUAL(1).docx |
 | Confidence | medium |
@@ -26,6 +26,12 @@ tags: ["product", "metering", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="AMS2" data-n="Mini Cue Stereo Speaker With Digital &amp; Analog Inputs" data-cat="METERING" role="img" aria-label="AMS2 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+The AMS2 is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -65,3 +71,48 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2015 - AMS2 - MANUAL (2).docx](../Products/METERING/AMS2/2015%20-%20AMS2%20-%20MANUAL%20%282%29.docx), p. 1
 <details><summary>Warranty — 0 words · 2015 - AMS2 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - AMS2 - MANUAL.docx](../Products/METERING/AMS2/2015%20-%20AMS2%20-%20MANUAL.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS2",
+ "name": "Mini Cue Stereo Speaker With Digital & Analog Inputs",
+ "category": "METERING",
+ "year": 2015,
+ "documents": [
+  {
+   "file": "Products/METERING/AMS2/2015 - AMS2 - Information Sheet.jpg",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS2/2015 - AMS2 - MANUAL (2).docx",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS2/2015 - AMS2 - MANUAL.docx",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS2/19xx - AMS2 - DOC - IMG_9780.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

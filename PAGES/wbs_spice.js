@@ -159,14 +159,6 @@
     const det = document.createElement('details');
     det.innerHTML = '<summary>SPICE netlist (ideal model) and test points</summary><pre class="s-net"></pre><div class="s-pts"></div>';
     root.appendChild(det);
-    const safeKicad = d.code.replace(/[\\/*?:"<>| ]/g, '_');
-    const kc = document.createElement('div');
-    kc.className = 'wbs-kicad-bar';
-    kc.style.cssText = 'display:flex; flex-wrap:wrap; gap:10px 14px; margin:10px 0; align-items:center; font-size:13px;';
-    kc.innerHTML = `<span style="font-weight:700">KiCad EDA:</span> ` +
-      `<a href="../kicad.html?m=${encodeURIComponent(d.code)}" style="color:#1f3f6b;font-weight:700;text-decoration:none">⚡ Open in KiCad Library Generator</a> · ` +
-      `<a href="../Engineering/KICAD/${encodeURIComponent(safeKicad)}.kicad_sym" download style="color:#1f3f6b;text-decoration:none">📥 Download ${esc(d.code)}.kicad_sym</a>`;
-    root.appendChild(kc);
     const $ = s => root.querySelector(s);
     let running = true;
     const start = () => {

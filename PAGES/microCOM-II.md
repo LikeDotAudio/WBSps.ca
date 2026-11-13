@@ -14,12 +14,12 @@ tags: ["product", "micro-series", "1980s"]
 |---|---|
 | Type | product |
 | Series | [MICRO SERIES](Series-MICRO-SERIES.md) |
-| Try it | [simulator & front panel](../simulator.html?m=microCOM%20II) · [download package (zip)](../_packages/microCOM-II.zip) |
+| Try it | [simulator & front panel](../simulator.html?m=microCOM%20II) · [KiCad symbol generator](../kicad.html?m=microCOM%20II) · [download package (zip)](../_packages/microCOM-II.zip) |
 | Earliest dated evidence | [1988\|21](Year-1988.md) — manual issue date |
 | Evidence | "MANUAL ISSUE #2 March 17 , 1988" in PUBLIC/Manuals + tech DOCUMENTS/Intercom/MicroCOM II/WBS microCOM II Communications System.pdf |
 | Confidence | high |
 | All years found | [1988\|21](Year-1988.md) |
-| Used in jobs | [860800](Job-860800.md) (1986\|19), [880478](Job-880478.md) (1988\|21), [880851](Job-880851.md) (1988\|21), [890349](Job-890349.md) (1989\|22), [890009](Job-890009.md) (1989\|22), [890276](Job-890276.md) (1989\|22), [890291](Job-890291.md) (1989\|22), [900359](Job-900359.md) (1990\|23), [910251](Job-910251.md) (1991\|24), [910320](Job-910320.md) (1991\|24), [920342](Job-920342.md) (1992\|25), [920380](Job-920380.md) (1992\|25), [920003](Job-920003.md) (1992\|25), [920256](Job-920256.md) (1992\|25), [930420](Job-930420.md) (1993\|26), [930007](Job-930007.md) (1993\|26), [940009](Job-940009.md) (1994\|27), [940011](Job-940011.md) (1994\|27), [950271](Job-950271.md) (1995\|28), [950226](Job-950226.md) (1995\|28), [960163](Job-960163.md) (1996\|29), [960134](Job-960134.md) (1996\|29) |
+| Used in jobs | [860800](Job-860800.md) (1986\|19), [880478](Job-880478.md) (1988\|21), [880851](Job-880851.md) (1988\|21), [890276](Job-890276.md) (1989\|22), [890291](Job-890291.md) (1989\|22), [890349](Job-890349.md) (1989\|22), [890009](Job-890009.md) (1989\|22), [900359](Job-900359.md) (1990\|23), [910251](Job-910251.md) (1991\|24), [910320](Job-910320.md) (1991\|24), [920380](Job-920380.md) (1992\|25), [920003](Job-920003.md) (1992\|25), [920256](Job-920256.md) (1992\|25), [920342](Job-920342.md) (1992\|25), [930007](Job-930007.md) (1993\|26), [930420](Job-930420.md) (1993\|26), [940011](Job-940011.md) (1994\|27), [940009](Job-940009.md) (1994\|27), [950226](Job-950226.md) (1995\|28), [950271](Job-950271.md) (1995\|28), [960134](Job-960134.md) (1996\|29), [960163](Job-960163.md) (1996\|29) |
 | Folder | [DOCUMENTS/RAW Photos/WBS BINDER SPINE PICTURES](../DOCUMENTS/RAW%20Photos/WBS%20BINDER%20SPINE%20PICTURES/) |
 | Folder | [DOCUMENTS/WBSps - Word Perfect Manuals-20221115T024240Z-001/WBSps - Word Perfect Manuals](../DOCUMENTS/WBSps%20-%20Word%20Perfect%20Manuals-20221115T024240Z-001/WBSps%20-%20Word%20Perfect%20Manuals/) |
 | Folder | [Modules/COMMUNICATION/M7880](../Modules/COMMUNICATION/M7880/) |
@@ -35,6 +35,12 @@ _What it is made of and what it is part of._
 <div class="wbs-pinconn" style="margin:6px 0 10px"><svg class="wp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" width="400" height="850" role="img" aria-label="microCOM II connections" style="width:100%;max-width:500px;height:auto;background:#fbfaf4"><style>.wp text{font-family:"Courier Prime","Courier New",Courier,monospace;fill:#1f1e1c;font-size:12px} .wp .f{fill:#6d6a63;font-size:10.5px} .wp .h{font-size:12.5px;font-weight:700;letter-spacing:.04em} .wp .b{font-size:17px;font-weight:700} .wp a text{fill:#1f3f6b;text-decoration:underline} .wp a:hover rect{fill:#efe9d2}</style><text x="4" y="18" class="h">microCOM II — II Communications System</text><rect x="136" y="44" width="128" height="130" fill="#f4ecd2" stroke="#1f1e1c" stroke-width="1.6"/><text x="200.0" y="70" class="b" text-anchor="middle">microCOM II</text><text x="200.0" y="88" class="f" text-anchor="middle">II</text><text x="200.0" y="102" class="f" text-anchor="middle">COMMUNICATIONS</text><text x="200.0" y="116" class="f" text-anchor="middle">SYSTEM</text><text x="200.0" y="162" class="f" text-anchor="middle">no pins read yet</text><text x="4" y="206" class="h">CONNECTED TO · CONSOLES &amp; JOBS (22)</text><a href="Job-860800.md"><rect x="4" y="214" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="228">860800</text><text x="10" y="242" class="f">ABC NEW PARLIAMENT HOUSE - …</text></a><a href="Job-880478.md"><rect x="202" y="214" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="228">880478</text><text x="208" y="242" class="f">TCN-9 SYDNEY - CUSTOM Micro…</text></a><a href="Job-880851.md"><rect x="4" y="254" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="268">880851</text><text x="10" y="282" class="f">TV-3 NETWORK - PLANT 96 X 1…</text></a><a href="Job-890009.md"><rect x="202" y="254" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="268">890009</text><text x="208" y="282" class="f">CBC EDMONTON - MICROCOM II …</text></a><a href="Job-890276.md"><rect x="4" y="294" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="308">890276</text><text x="10" y="322" class="f">CKVR TELEVISION - 48 x 48 M…</text></a><a href="Job-890291.md"><rect x="202" y="294" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="308">890291</text><text x="208" y="322" class="f">COMPLETE POST PRODUCTION - …</text></a><a href="Job-890349.md"><rect x="4" y="334" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="348">890349</text><text x="10" y="362" class="f">WTBS TELEVISION - MICROCOM …</text></a><a href="Job-900359.md"><rect x="202" y="334" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="348">900359</text><text x="208" y="362" class="f">GRC PRODUCTIONS - 48 x 48 M…</text></a><a href="Job-910251.md"><rect x="4" y="374" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="388">910251</text><text x="10" y="402" class="f">CTV TELEVISION NETWORK LTD …</text></a><a href="Job-910320.md"><rect x="202" y="374" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="388">910320</text><text x="208" y="402" class="f">Knowledge Network - 96 X 96…</text></a><a href="Job-920003.md"><rect x="4" y="414" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="428">920003</text><text x="10" y="442" class="f">CBC TORONTO BROADCAST CENTR…</text></a><a href="Job-920256.md"><rect x="202" y="414" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="428">920256</text><text x="208" y="442" class="f">CROSSPOINT-TV CULTURA - 96 …</text></a><a href="Job-920342.md"><rect x="4" y="454" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="468">920342</text><text x="10" y="482" class="f">MOTOROLA - 48x48 MicroCOM I…</text></a><a href="Job-920380.md"><rect x="202" y="454" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="468">920380</text><text x="208" y="482" class="f">TCN9 - 96 X 96 MicroCOM II …</text></a><a href="Job-930007.md"><rect x="4" y="494" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="508">930007</text><text x="10" y="522" class="f">CICI-TV-CKNC-TV SUDBURY - 4…</text></a><a href="Job-930420.md"><rect x="202" y="494" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="508">930420</text><text x="208" y="522" class="f">CBC FREDERICTON - 48x48 Mic…</text></a><a href="Job-940009.md"><rect x="4" y="534" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="548">940009</text><text x="10" y="562" class="f">KCET-TV - 48 X 96 MicroCOM …</text></a><a href="Job-940011.md"><rect x="202" y="534" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="548">940011</text><text x="208" y="562" class="f">MACOSTAR - MicroCOM II COMM…</text></a><a href="Job-950226.md"><rect x="4" y="574" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="588">950226</text><text x="10" y="602" class="f">MOTOROLA - 48x48 MicroCOM I…</text></a><a href="Job-950271.md"><rect x="202" y="574" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="588">950271</text><text x="208" y="602" class="f">ALGONQUIN COLLEGE - 48X48 M…</text></a><a href="Job-960134.md"><rect x="4" y="614" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="628">960134</text><text x="10" y="642" class="f">COMPLETE POST - 96x96 Micro…</text></a><a href="Job-960163.md"><rect x="202" y="614" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="628">960163</text><text x="208" y="642" class="f">CBC OTTAWA PARLIAMENTARY BU…</text></a><text x="4" y="680" class="h">MADE OF · SUB-ASSEMBLIES (3)</text><a href="Register-Circuit-boards-SA14-nnn.md#sa14-172"><rect x="4" y="688" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="702">SA14-172</text><text x="10" y="716" class="f">14-172-02-004 - COMPONENT L…</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-173"><rect x="202" y="688" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="702">SA14-173</text><text x="208" y="716" class="f">Circuit boards (SA14-nnn)</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-271"><rect x="4" y="728" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="742">SA14-271</text><text x="10" y="756" class="f">Circuit boards (SA14-nnn)</text></a><text x="4" y="794" class="h">DRAWN WITH · MODULES (2)</text><a href="M7880.md"><rect x="4" y="802" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="816">M7880</text><text x="10" y="830" class="f">on 13 drawings with it</text></a><a href="microCOM.md"><rect x="202" y="802" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="816">microCOM</text><text x="208" y="830" class="f">on 11 drawings with it</text></a></svg></div>
 
 <p><a href="../Engineering/IO/microCOM_II.connections.svg">connections (SVG)</a></p>
+
+<a id="software"></a>
+
+## Software
+
+The microCOM II is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -138,3 +144,365 @@ _What it is made of and what it is part of._
 | [SA14-172](Register-Circuit-boards-SA14-nnn.md#sa14-172) | 14-172-02-004 - COMPONENT LAYOUT | Circuit boards (SA14-nnn) |  | drawing filed with it |
 | [SA14-173](Register-Circuit-boards-SA14-nnn.md#sa14-173) |  | Circuit boards (SA14-nnn) |  | named in its manual |
 | [SA14-271](Register-Circuit-boards-SA14-nnn.md#sa14-271) |  | Circuit boards (SA14-nnn) |  | named in its manual |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "microCOM II",
+ "name": "II Communications System",
+ "category": "MICRO SERIES",
+ "year": 1988,
+ "made_of": [
+  "SA14-172",
+  "SA14-173",
+  "SA14-271"
+ ],
+ "part_of": [
+  "860800",
+  "880478",
+  "880851",
+  "890009",
+  "890276",
+  "890291",
+  "890349",
+  "900359",
+  "910251",
+  "910320",
+  "920003",
+  "920256",
+  "920342",
+  "920380",
+  "930007",
+  "930420",
+  "940009",
+  "940011",
+  "950226",
+  "950271",
+  "960134",
+  "960163"
+ ],
+ "documents": [
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 001 - Cover.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 002.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 003.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 004 - Picture.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 005.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 006.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 007.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 008.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 009.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 010.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 011.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 012.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 013.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 014.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 015.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 016.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 017.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 018.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 019.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 020.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 021.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 022.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 023.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - 024.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - II Communications System.pdf",
+   "year": 1988,
+   "pages": 20,
+   "holds": [
+    "connections",
+    "dates",
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - WBSPS - AD - Microcom II 001.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - WBSPS - AD - Microcom II 0012.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - WBSPS - AD - Microcom II 003.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/1988 - microCOM II - WBSPS - AD - Microcom II 004.jpg",
+   "year": 1988,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - AD - WBSPS - AD - Microcom II 001.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - AD - WBSPS - AD - Microcom II 004.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2048-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2050-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2051-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2053-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2066-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2068-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2074-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2075-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2076-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2079-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2086-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2088-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2090-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2091-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2092-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2111-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2116-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM II/19xx - microCOM II - DOC - IMG_2117-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - WBSPS - AD - Microcom II 0012.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - WBSPS - AD - Microcom II 003.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - M7880 - 14-172-02-004 - COMPONENT LAYOUT.wp",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

@@ -13,7 +13,7 @@ tags: ["product", "metering", "1970s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=MP3) · [download package (zip)](../_packages/MP3.zip) |
+| Try it | [simulator & front panel](../simulator.html?m=MP3) · [KiCad symbol generator](../kicad.html?m=MP3) · [download package (zip)](../_packages/MP3.zip) |
 | Earliest dated evidence | [1976\|9](Year-1976.md) — named in document |
 | Evidence | named in 1976 - M466 - MIMISA COMPRESSOR-LIMITER COMPONENT LAYOUT.jpg |
 | Confidence | low (named by) |
@@ -28,6 +28,12 @@ _What it is made of and what it is part of._
 
 <div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="MP3" data-n="" data-cat="METERING"></div><svg class="wbs-panel" data-m="MP3" data-n="" data-cat="METERING" role="img" aria-label="MP3 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"MP3","title":"","rto":null,"parts":[],"parents":[{"label":"MP2","href":"MP2.html","note":"on 5 drawings with it"},{"label":"MP4","href":"MP4.html","note":"on 5 drawings with it: Classic Rackmount Analog"},{"label":"MP1","href":"MP1.html","note":"on 5 drawings with it: PPM/VU Meter"}]}</script></div></div><script src="wbs_spice.js"></script>
 
+<a id="software"></a>
+
+## Software
+
+The MP3 is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
+
 ## Photos & scans (8)
 
 | Year | File |  |
@@ -40,3 +46,41 @@ _What it is made of and what it is part of._
 | ? | [19xx - MP3 - DOC - MP Series Information Sheet.jpg](../Products/METERING/MP3/19xx%20-%20MP3%20-%20DOC%20-%20MP%20Series%20Information%20Sheet.jpg) | [note](../Products/METERING/MP3/19xx%20-%20MP3%20-%20DOC%20-%20MP%20Series%20Information%20Sheet.jpg.md) |
 | ? | [19xx - MP3 - Rear.jpg](../Products/METERING/MP3/19xx%20-%20MP3%20-%20Rear.jpg) | [note](../Products/METERING/MP3/19xx%20-%20MP3%20-%20Rear.jpg.md) |
 | ? | [19xx - MP4 - DOC - MP Series Information Sheet.jpg](../Products/METERING/MP4/19xx%20-%20MP4%20-%20DOC%20-%20MP%20Series%20Information%20Sheet.jpg) | [note](../Products/METERING/MP4/19xx%20-%20MP4%20-%20DOC%20-%20MP%20Series%20Information%20Sheet.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "MP3",
+ "category": "METERING",
+ "year": 1976,
+ "documents": [
+  {
+   "file": "Products/METERING/MP3/19xx - MP3 - (PPM) Front.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP3/19xx - MP3 - (VU) Front.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP3/19xx - MP3 - Rear.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MP4/19xx - MP4 - DOC - MP Series Information Sheet.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  }
+ ]
+}
+```

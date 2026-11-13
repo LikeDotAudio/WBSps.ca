@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD16) · [download package (zip)](../_packages/POD16.zip) |
+| Try it | [full simulation: POD16](../siumulation.html?plugin=pod16) · [simulator & front panel](../simulator.html?m=POD16) · [KiCad symbol generator](../kicad.html?m=POD16) · [download package (zip)](../_packages/POD16.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD16 MANUAL(1).docx |
 | Confidence | medium |
@@ -24,6 +24,30 @@ tags: ["product", "pods", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD16" data-n="Stereo Audio Fader" data-cat="PODS" role="img" aria-label="POD16 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD16: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD16 | Microcontroller | PIC16C73 | HS | **POD16V101** | — | Standard Products |
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+|  | — | POD16 | PIC16C73 | POD16V101 |  |  |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **POD16V101** — undated — _POD16 · PIC16C73_: THE REMOVAL OF THE NOTICEABLE GAP FROM THE CUT TRANSITION
 
 ## Dates found in the documents
 
@@ -62,3 +86,46 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - POD16 - MANUAL.docx](../Products/PODS/POD16/2014%20-%20POD16%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - POD16 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD16 - MANUAL (2).docx](../Products/PODS/POD16/2014%20-%20POD16%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD16",
+ "name": "Stereo Audio Fader",
+ "category": "PODS",
+ "year": 2014,
+ "documents": [
+  {
+   "file": "Products/PODS/POD16/2014 - POD16 - Front.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD16/2014 - POD16 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD16/2014 - POD16 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD16/2014 - POD16 - Rear.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

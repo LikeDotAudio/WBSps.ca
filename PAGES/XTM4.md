@@ -14,7 +14,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=XTM4) · [download package (zip)](../_packages/XTM4.zip) |
+| Try it | [full simulation: XTM4](../siumulation.html?plugin=xtm4) · [simulator & front panel](../simulator.html?m=XTM4) · [KiCad symbol generator](../kicad.html?m=XTM4) · [download package (zip)](../_packages/XTM4.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/XTM4 MANUAL(1).docx |
 | Confidence | medium |
@@ -24,6 +24,80 @@ tags: ["product", "metering", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="XTM4" data-n="Extended Range Test Meter" data-cat="METERING" role="img" aria-label="XTM4 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the XTM4: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| XTM41 | Microcontroller | PIC16F74 | HS | **XTM41V202** | 2002-07-07 | Standard Products |
+| XTM41/DMS1 (XTM41 board in DMS-1 units) | Microcontroller | PIC16F74 | HS | **XTM41V204** | 2011-04-06 | Standard Products |
+| XTM41/DMS1(obsolete) (XTM41 board in DMS-1 units) | Microcontroller | PIC16F74 | HS | **XTM41V202** | 2002-07-07 | Standard Products |
+| XTM41/DMS1(obsolete) (XTM41 board in DMS-1 units) | Microcontroller | PIC16F74 | HS | **XTM41V203** | 2011-02-18 | Standard Products |
+| XTM42(demux3) | Microcontroller | PIC16F874 | HS | **XTM42V203(B)** | 2002-05-16 | Standard Products |
+| XTM42(demux4) | Microcontroller | PIC16F874 | HS | **V040000(XTM42V400B)** | 2013-11-27 | Standard Products |
+| XTM42(demux4) | Microcontroller | PIC16F874 | HS | **V040001(XTM42V400C)** | 2015-11-25 | Standard Products |
+| DEMUX-3 FOR XTM4 UNITS (DEMUX-3) | ATMEL firmware |  |  | **v400** (in 4.0.0.0) | 2012-04-27 | DEMUX-3 |
+| DEMUX-3 FOR XTM4 UNITS (DEMUX-3) | ALTERA firmware |  |  | **v301** (in 4.0.0.0) | 2012-04-27 | DEMUX-3 |
+| DEMUX-4 FOR XTM4 UNITS (DEMUX-4) | ATMEL firmware |  |  | **V020202** (in 02AV0202) | 2014-07-15 | DEMUX-4 |
+| DEMUX-4 FOR XTM4 UNITS (DEMUX-4) | XILINX firmware |  |  | **V020000** (in 02AV0202) | 2014-07-15 | DEMUX-4 |
+
+**Also:** [DEMUX-3 FOR XTM4 UNITS](DEMUX-3.md#software) · [DEMUX-4 FOR XTM4 UNITS](DEMUX-4.md#software)
+
+**Production files:** `H:\Production\PFiles\XTM4\V040001\42V400C\42V400C.HEX`
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2002\|35 | 2002-05-16 | XTM42(demux3) | PIC16F874 | XTM42V203(B) |  |  |
+| 2002\|35 | 2002-07-07 | XTM41 | PIC16F74 | XTM41V202 |  |  |
+| 2002\|35 | 2002-07-07 | XTM41/DMS1(obsolete) | PIC16F74 | XTM41V202 |  |  |
+| 2011\|44 | 2011-02-18 | XTM41/DMS1(obsolete) | PIC16F74 | XTM41V203 |  | ALI 2011-02-18 |
+| 2011\|44 | 2011-04-06 | XTM41/DMS1 | PIC16F74 | XTM41V204 |  | ALI 2011-04-06 |
+| 2013\|46 | 2013-11-27 | XTM42(demux4) | PIC16F874 | V040000(XTM42V400B) |  |  |
+| 2015\|48 | 2015-11-25 | XTM42(demux4) | PIC16F874 | V040001(XTM42V400C) |  |  |
+
+### DEMUX-3 FOR XTM4 UNITS
+
+_From the [DEMUX-3](DEMUX-3.md#software) sheet: the build used in the XTM4._
+
+| Year | Date | Revision | ATMEL | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|
+| 2012\|45 | 2012-04-27 | **4.0.0.0** | v400 | v301 | released | ALI 2012-04-27 |
+
+### DEMUX-4 FOR XTM4 UNITS
+
+_From the [DEMUX-4](DEMUX-4.md#software) sheet: the build used in the XTM4._
+
+| Year | Date | Revision | ATMEL | XILINX | Status | Tested / PCB |
+|---|---|---|---|---|---|---|
+| 2013\|46 | 2013-12-12 | **02AV0200** | V020200 | V020000 | released | WKW 2013-11-27; Flash M25P16; PCB issue 2 |
+|  | — | **02AV0201** | V020201 | V020000 |  | Flash M25P16; PCB issue 2 |
+| 2014\|47 | 2014-07-15 | **02AV0202** | V020202 | V020000 | released | WKW 2014-06-15; Flash M25P16; PCB issue 2 |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **XTM42V203(B)** — 2002|35 · 2002-05-16 — _XTM42(demux3) · PIC16F874_
+    - v202(b)UPDATED COMMUNICATIONS AND FOR IMPROVED CHECKER FOR DEMUX BOARD
+    - v203(b) updated to function with icd3 programmer and mplab 8.43
+- **XTM41V202** — 2002|35 · 2002-07-07 — _XTM41 · PIC16F74_: UPDATED TO FIX THE BUG FOR EMBEDDED AUDIO PAIR 8 (SDI 8)
+- **XTM41V202** — 2002|35 · 2002-07-07 — _XTM41/DMS1(obsolete) · PIC16F74_: UPDATED TO FIX THE BUG FOR EMBEDDED AUDIO PAIR 8 (SDI 8)
+- **XTM41V203** — 2011|44 · 2011-02-18 — _XTM41/DMS1(obsolete) · PIC16F74_: ONLY for DMS-1 units. It corrects the issue with SDI LED lock flashing at startup
+- **XTM41V204** — 2011|44 · 2011-04-06 — _XTM41/DMS1 · PIC16F74_: ONLY for DMS-1 units. This versions corrects the communication conflict with demux3 boards.
+- **4.0.0.0** — 2012|45 · 2012-04-27 — _DEMUX-3 FOR XTM4 UNITS_: Fixed bug with front panel freezing when SDI is selected. This is the same version that works with DMS1
+- **V040000(XTM42V400B)** — 2013|46 · 2013-11-27 — _XTM42(demux4) · PIC16F874_: Updated to accommodate DEMUX4
+- **02AV0200** — 2013|46 · 2013-12-12 — _DEMUX-4 FOR XTM4 UNITS_: based on 02VA0000, Atmel Changed to accommodate XTM4 control
+- **02AV0202** — 2014|47 · 2014-07-15 — _DEMUX-4 FOR XTM4 UNITS_: Fixes the bug that happens sometimes by resetting the power where the demux board doesn’t lock, to resolve it generates a watchdog reset, it should be implemented in other versions as well.
+- **V040001(XTM42V400C)** — 2015|48 · 2015-11-25 — _XTM42(demux4) · PIC16F874_: Updated to accommodate new display
+- **02AV0201** — undated — _DEMUX-4 FOR XTM4 UNITS_: fixed bug of loosing audio when doing failiur test
 
 ## Dates found in the documents
 
@@ -70,3 +144,48 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - XTM4 - MANUAL.docx](../Products/METERING/XTM4/2014%20-%20XTM4%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - XTM4 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - XTM4 - MANUAL (2).docx](../Products/METERING/XTM4/2014%20-%20XTM4%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "XTM4",
+ "name": "Extended Range Test Meter",
+ "category": "METERING",
+ "year": 2014,
+ "documents": [
+  {
+   "file": "Products/METERING/XTM4/2014 - XTM4 - Front Three Quarter.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/XTM4/2014 - XTM4 - Information Sheet.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/METERING/XTM4/2014 - XTM4 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/XTM4/2014 - XTM4 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

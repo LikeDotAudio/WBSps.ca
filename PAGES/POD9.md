@@ -14,7 +14,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD9) · [download package (zip)](../_packages/POD9.zip) |
+| Try it | [full simulation: POD9](../siumulation.html?plugin=pod9) · [simulator & front panel](../simulator.html?m=POD9) · [KiCad symbol generator](../kicad.html?m=POD9) · [download package (zip)](../_packages/POD9.zip) |
 | Earliest dated evidence | [1995\|28](Year-1995.md) — original file date |
 | Evidence | saved 1995-09-11: WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - POD_OLD/POD9/ACAD/FAPOD9.DWG |
 | Confidence | medium |
@@ -24,6 +24,33 @@ tags: ["product", "pods", "1990s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD9" data-n="Video Switcher" data-cat="PODS" role="img" aria-label="POD9 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD9: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD9 | Microcontroller | PIC16F73 | HS | **PODV102** | 2004-03-09 | Standard Products |
+| POD9R | Microcontroller | PIC16F874 | HS | **POD9RV500** | 2012-07-16 | Standard Products |
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2004\|37 | 2004-03-09 | POD9 | PIC16F73 | PODV102 |  |  |
+| 2012\|45 | 2012-07-16 | POD9R | PIC16F874 | POD9RV500 |  | WKW 2012-07-16 |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **PODV102** — 2004|37 · 2004-03-09 — _POD9 · PIC16F73_: UPDATED FOR PIC16F73
+- **POD9RV500** — 2012|45 · 2012-07-16 — _POD9R · PIC16F874_: This is to remote control a single POD9. This software uses hardware of POD2 iss5. if POD9 is a salve for another device don't use this software
 
 ## Dates found in the documents
 
@@ -77,3 +104,74 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - POD9 - MANUAL.docx](../Products/PODS/POD9/2014%20-%20POD9%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - POD9 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD9 - MANUAL (2).docx](../Products/PODS/POD9/2014%20-%20POD9%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD9",
+ "name": "Video Switcher",
+ "category": "PODS",
+ "year": 1995,
+ "documents": [
+  {
+   "file": "Products/PODS/POD9/1995 - POD9 - Front.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD9/1995 - POD9 - Information Sheet.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD9/1995 - POD9 - POD2 - POD9.CFG - DOCUMENT.docx",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD9/1995 - POD9 - POD9 - FAPOD9 - DRAWING (AUTOCAD).dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD9/1995 - POD9 - Rear.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD9/1997 - POD9 - POD9 - WSX - DOCUMENT.cdr",
+   "year": 1997,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD9/2014 - POD9 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD9/2014 - POD9 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

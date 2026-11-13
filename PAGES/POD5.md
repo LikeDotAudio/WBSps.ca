@@ -14,7 +14,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD5) · [download package (zip)](../_packages/POD5.zip) |
+| Try it | [full simulation: POD5](../siumulation.html?plugin=pod5) · [simulator & front panel](../simulator.html?m=POD5) · [KiCad symbol generator](../kicad.html?m=POD5) · [download package (zip)](../_packages/POD5.zip) |
 | Earliest dated evidence | [1995\|28](Year-1995.md) — month & year |
 | Evidence | "December 7, 1995" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD5/MANUAL/INTER5.WPD |
 | Confidence | medium |
@@ -25,6 +25,12 @@ tags: ["product", "pods", "1990s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD5" data-n="Dual Headset Amplifier" data-cat="PODS" role="img" aria-label="POD5 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+The POD5 is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -231,3 +237,213 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - POD5 - MANUAL (2).docx](../Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL%20%282%29.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - POD5 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD5 - MANUAL.docx](../Products/PODS/POD5/2014%20-%20POD5%20-%20MANUAL.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD5",
+ "name": "Dual Headset Amplifier",
+ "category": "PODS",
+ "year": 1995,
+ "documents": [
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - FN5 '5TH PART FIELD' - DOCUMENT.docx",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - Front.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - Information Sheet.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - POD5 - #ESP_OUT.TXT - DOCUMENT.docx",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - POD5 - DRAFTERR.LOG - DOCUMENT.docx",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - POD5 - POD5 - SCHEMATIC (ORCAD).dsn",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - POD5 - POD5-3 - DRAWING (AUTOCAD).dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - Rear.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1995 - POD5 - SCHEMATIC.wpd",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - #ESP_OUT.txt",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - GREATER THAN 70 DB BELOW -10 DBU OUTPUT - COMPONENT LAYOUT.wpd",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - INCLUSIVE OF POWER SUPPLY - FRONT PANEL.wpd",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - LMPOD5-1 - WIRING.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - LMPOD5-2 - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - LMPOD5-3 - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - POD5-1 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - POD5F01 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - POD5M01 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - POD5M02 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - POD5MAN1 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1996 - POD5 - POD5 - POD5TRY - UNKNOWN.wpd",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1997 - POD5 - POD5 - FUNMAN - DRAWING (AUTOCAD).dwg",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/1997 - POD5 - POD5 - POD3BACK - DRAWING (DXF).dxf",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1997 - POD5 - POD5 - POD5-2 - DRAWING (AUTOCAD).dwg",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1997 - POD5 - POD5 - POD5BACK - DRAWING (DXF).dxf",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1997 - POD5 - POD5 - POD5FRNT - DRAWING (DXF).dxf",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/1997 - POD5 - POD5 - POD5MAN2 - DRAWING (AUTOCAD).dwg",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD5/2014 - POD5 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD5/2014 - POD5 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

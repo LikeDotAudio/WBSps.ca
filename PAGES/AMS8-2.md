@@ -14,7 +14,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-2) · [download package (zip)](../_packages/AMS8-2.zip) |
+| Try it | [full simulation: AMS82](../siumulation.html?plugin=ams82) · [simulator & front panel](../simulator.html?m=AMS8-2) · [KiCad symbol generator](../kicad.html?m=AMS8-2) · [download package (zip)](../_packages/AMS8-2.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/AMS8-2 MANUAL(1).docx |
 | Confidence | medium |
@@ -25,6 +25,170 @@ tags: ["product", "metering", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="AMS8-2" data-n="Mkiii 8 Channel Audio Monitoring System" data-cat="METERING" role="img" aria-label="AMS8-2 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the AMS8-2: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| AMS82 | Microcontroller |  | HS | **2.1.2.0** | 2009-05-28 | Standard Products |
+| AMS82-ISSUE 1 (Issue 1 boards) | Microcontroller |  | HS | **1.1.0.2** | 2008-08-20 | Standard Products |
+| AMS82 PRODUCT REVISIONS | AMS8E-1 firmware |  |  | **v050001 (AMS81 version)** (in 03AV0101) | 2015-07-29 | AMS8-2 |
+| AMS82 PRODUCT REVISIONS | AMS8E-5 firmware |  |  | **V040001** (in 03AV0101) | 2015-07-29 | AMS8-2 |
+| AMS82 PRODUCT REVISIONS | SHARC firmware |  |  | **V205** (in 03AV0101) | 2015-07-29 | AMS8-2 |
+| AMS82 PRODUCT REVISIONS | ALTERA firmware |  |  | **V050000** (in 03AV0101) | 2015-07-29 | AMS8-2 |
+| AMS82 PRODUCT REVISIONS — custom projects | AMS8E-1 firmware |  |  | **c103v1** (in C.1.0.6) | 2009-06-23 | AMS8-2 |
+| AMS82 PRODUCT REVISIONS — custom projects | AMS8E-5 firmware |  |  | **c106** (in C.1.0.6) | 2009-06-23 | AMS8-2 |
+| AMS82 PRODUCT REVISIONS — custom projects | SHARC firmware |  |  | **V205C** (in C.1.0.6) | 2009-06-23 | AMS8-2 |
+| AMS82 PRODUCT REVISIONS — custom projects | ALTERA firmware |  |  | **C202** (in C.1.0.6) | 2009-06-23 | AMS8-2 |
+| DEMUX-4 FOR AMS-8 AND MLC UNITS (DEMUX-4) | ATMEL firmware |  |  | **V020001** (in 02AV0001) | 2014-06-03 | DEMUX-4 |
+| DEMUX-4 FOR AMS-8 AND MLC UNITS (DEMUX-4) | XILINX firmware |  |  | **V020000** (in 02AV0001) | 2014-06-03 | DEMUX-4 |
+
+**Product firmware versions (PFV)**: AMS82 PRODUCT REVISIONS: 38 revisions, latest released **03AV0101** (2015-07-29) · AMS82 PRODUCT REVISIONS — custom projects: 3 revisions, latest released **C.1.0.6** (2009-06-23)
+
+**Programming:** Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).
+
+**Also:** [DEMUX-4 FOR AMS-8 AND MLC UNITS](DEMUX-4.md#software)
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2008\|41 | 2008-08-20 | AMS82-ISSUE 1 |  | 1.1.0.2 |  | Bob 2008-08-20 |
+| 2009\|42 | 2009-05-28 | AMS82 |  | 2.1.2.0 |  | Bob 2009-05-28 |
+
+### AMS82 PRODUCT REVISIONS
+
+_Sheet **AMS8-2**: one row per product firmware version, with the firmware of each board in it._
+
+| Year | Date | Revision | AMS8E-1 | AMS8E-5 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+| 2005\|38 | 2005-08-25 | **B.E.T.A** | V107 | V100 | V100 | V102 | released |  |
+| 2005\|38 | 2005-08-29 | **1.0.0.0** | V1071 | V1001 | V101 | V102 | released |  |
+| 2005\|38 | 2005-09-01 | **1.0.0.1** | V1071 | V1002 | V101 | V102 | released |  |
+| 2005\|38 | 2005-09-09 | **1.0.0.2** | V1072 | V1002 | V101 | V102 | released |  |
+| 2005\|38 | 2005-09-12 | **1.0.0.3** | V1072 | V1003 | V101 | V102 | released |  |
+| 2005\|38 | 2005-10-12 | **1.0.0.4** | V1072 | V1004 | V101 | V102 | released |  |
+| 2005\|38 | 2005-11-04 | **1.0.0.5** | V1072 | V1005 | V101 | V102 | released |  |
+| 2006\|39 | 2006-01-02 | **1.0.0.6** | V1072 | v1006 | V101 | V102 | released |  |
+| 2006\|39 | 2006-01-31 | **1.0.0.7** | V1072 | v1007 | V101 | V102 | released | DEMUX compatibility ATMEL - V101, ALTERA - V105 |
+| 2009\|42 | 2009-05-20 | **1.0.0.8** | V1072 | v1008 | V102 | V102 | released |  |
+| 2011\|44 | 2011-01-31 | **1.0.0.9** | V1072 | v1009 | v102 | v102 | released |  |
+| 2011\|44 | 2011-04-26 | **1.0.1.0** | V1074 | V1010 | v102 | v103 | released |  |
+| 2007\|40 | 2007-02-27 | **1.1.0.0** | v1100 | v1100 | V203 | V201 | released |  |
+| 2007\|40 | 2007-11-16 | **1.1.0.1** | v1101 | v1101 | V203 | V202 | released |  |
+| 2008\|41 | 2008-08-20 | **1.1.0.2** | v1102 | v1102 | V204 | V202 | released |  |
+
+> use 2.0.0.0 for AMS8E-1 issue 2 PCBs otherwise use 1.0.0.7
+
+| Year | Date | Revision | AMS8E-1 | AMS8E-5 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+| 2006\|39 | 2006-03-20 | **2.0.0.0** | V200 | V200 | V200 | V200 | released |  |
+| 2006\|39 | 2006-03-30 | **2.0.0.1** | V2001 | V2001 | V200 | V200 | released |  |
+| 2006\|39 | 2006-04-04 | **2.0.0.2** | V2002 | V2002 | V200 | V200 | released |  |
+| 2006\|39 | 2006-04-06 | **2.0.0.3** | V2003 | V2003 | V200 | V200 | released |  |
+| 2006\|39 | 2006-05-26 | **2.0.1.0** | V201 | V201 | V201 | V200 | released |  |
+| 2006\|39 | 2006-08-25 | **2.0.1.1** | V2011 | V2011 | V201 | V200 | released | DEMUX compatibility ATMEL - V201, ALTERA - V202 |
+| 2006\|39 | 2006-10-25 | **2.0.1.2** | V2011 | V2012 | V202 | V200 | released |  |
+| 2006\|39 | 2006-10-02 | **2.1.1.1** | V2011 | v2111 | V201 | V200 | released |  |
+| 2006\|39 | 2006-10-25 | **2.1.1.2** | V2011 | v2112 | V202 | V200 | released |  |
+| 2007\|40 | 2007-02-27 | **2.1.1.3** | V2012 | v2113 | V203 | V201 | released |  |
+| 2007\|40 | 2007-10-16 | **2.1.1.4** | V2012 | v2114 | V203 | V201 | released |  |
+| 2007\|40 | 2007-11-20 | **2.1.1.5** | v2013 | v2115 | V203 | v202 | released |  |
+| 2008\|41 | 2008-02-25 | **2.1.1.6** | v2014 | v2116 | V203 | v202 | released |  |
+| 2008\|41 | 2008-05-13 | **2.1.1.7** | v2015 | V2117 | V203 | v202 | released |  |
+| 2008\|41 | 2008-06-03 | **2.1.1.8** | v2016 | V2118 | V204 | v202 | released |  |
+| 2008\|41 | 2008-12-03 | **2.1.1.9** | v2017 | V2119 | V204 | V203 | released |  |
+| 2009\|42 | 2009-05-28 | **2.1.2.0** | v2017 | V2120 | V205 | V203 | released | DEMUX compatibility ATMEL - V202, ALTERA - V203 |
+| 2013\|46 | 2013-06-01 | **03AV0000** | v050000 (ams81 version) | V030000 | V205 | V050000 | released |  |
+| 2013\|46 | 2013-06-24 | **03AV0001** | v050001 (AMS81 version) | v030001 | V205 | V050000 | released |  |
+| 2014\|47 | 2014-01-23 | **03AV0100** | v050001 (AMS81 version) | V040000 | V205 | V050000 | released |  |
+| 2015\|48 | 2015-07-29 | **03AV0101** | v050001 (AMS81 version) | V040001 | V205 | V050000 | released |  |
+
+> use 2.2.0.0 for AMS8E-6 issue 3 PCBs otherwise use 2.0.0.0
+
+| Year | Date | Revision | AMS8E-1 | AMS8E-5 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+|  | — | **2.2.0.0** | v2017 | v2200 | v205 | v203 | not released |  |
+
+> version 3.0.0.0 has assigned inputs (ANALOG, AES, SDI1/2, SDI3/4)
+
+| Year | Date | Revision | AMS8E-1 | AMS8E-5 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+| 2008\|41 | 2008-07-09 | **3.0.0.0** | v3000 | v3000 | v300 | v300 | released |  |
+
+### AMS82 PRODUCT REVISIONS — custom projects
+
+_Sheet **AMS8-2**: one row per product firmware version, with the firmware of each board in it._
+
+| Year | Date | Revision | AMS8E-1 | AMS8E-5 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+| 2006\|39 | 2006-04-20 | **C.1.0.0** | c100 | c100 | V200 | V200 | released |  |
+| 2008\|41 | 2008-12-08 | **C.1.0.4** | c103v1 | c104 | V204C | C202 | released |  |
+| 2009\|42 | 2009-06-23 | **C.1.0.6** | c103v1 | c106 | V205C | C202 | released |  |
+
+> DO NOT USE THE WORKING FILES - USE THE FILE IN THE SPECIFIC FOLDER
+
+### DEMUX-4 FOR AMS-8 AND MLC UNITS
+
+_From the [DEMUX-4](DEMUX-4.md#software) sheet: the build used in the AMS8-2._
+
+| Year | Date | Revision | ATMEL | XILINX | Status | Tested / PCB |
+|---|---|---|---|---|---|---|
+| 2013\|46 | 2013-12-12 | **02AV0000** | V020000 | V020000 | released | Bob 2013-11-20; Flash M25P16; PCB issue 2 |
+| 2014\|47 | 2014-06-03 | **02AV0001** | V020001 | V020000 | released | Bob 2014-05-30; Flash M25P16; PCB issue 2 |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **1.0.0.7** — 2006|39 · 2006-01-31 — _AMS82 PRODUCT REVISIONS_: DEMUX compatibility: ATMEL - V101, ALTERA - V105
+- **C.1.0.0** — 2006|39 · 2006-04-20 — _AMS82 PRODUCT REVISIONS — custom projects_: Dome Productions - Mode 5
+- **2.0.1.0** — 2006|39 · 2006-05-26 — _AMS82 PRODUCT REVISIONS_: CHANGED FROM 1 TO 2 GROUP SDI MONITORING
+- **2.0.1.1** — 2006|39 · 2006-08-25 — _AMS82 PRODUCT REVISIONS_: DEMUX compatibility: ATMEL - V201, ALTERA - V202
+- **2.1.1.1** — 2006|39 · 2006-10-02 — _AMS82 PRODUCT REVISIONS_: CHANGED METADATA CONNECTOR
+- **2.0.1.2** — 2006|39 · 2006-10-25 — _AMS82 PRODUCT REVISIONS_: PUT IN FAIL SAFE FOR EEPROM DATA RECALL AND FIXED MODE 4 VOLUME CONTROL ISSUE
+- **2.1.1.2** — 2006|39 · 2006-10-25 — _AMS82 PRODUCT REVISIONS_: PUT IN FAIL SAFE FOR EEPROM DATA RECALL AND FIXED MODE 4 VOLUME CONTROL ISSUE
+- **1.1.0.0** — 2007|40 · 2007-02-27 — _AMS82 PRODUCT REVISIONS_: USED 2.1.1.3 AS THE BASE FOR ISSUE 1 FIX
+- **2.1.1.3** — 2007|40 · 2007-02-27 — _AMS82 PRODUCT REVISIONS_: CHANGED ALTERA AND SHARC SOFTWARE
+- **2.1.1.4** — 2007|40 · 2007-10-16 — _AMS82 PRODUCT REVISIONS_: ADDED DEFAULT VOLUME SETTINGS IN SETUP
+- **1.1.0.1** — 2007|40 · 2007-11-16 — _AMS82 PRODUCT REVISIONS_: FIXED AUDIO MISMATCHING AND EEPROM CHANGE IN MODE
+- **2.1.1.5** — 2007|40 · 2007-11-20 — _AMS82 PRODUCT REVISIONS_: FIXED AUDIO MISMATCHING AND EEPROM CHANGE IN MODE
+- **2.1.1.6** — 2008|41 · 2008-02-25 — _AMS82 PRODUCT REVISIONS_: IN MODE 2, LOCK STATUS REFLECTS INPUT MONITORED.
+- **2.1.1.7** — 2008|41 · 2008-05-13 — _AMS82 PRODUCT REVISIONS_: FIXED DIALNORM ISSUE
+- **2.1.1.8** — 2008|41 · 2008-06-03 — _AMS82 PRODUCT REVISIONS_: IN MODE 2, AES OUTPUTS FOLLOW AES INPUT INSTEAD OF 4 COPIES OF MONITORED INPUT
+- **3.0.0.0** — 2008|41 · 2008-07-09 — _AMS82 PRODUCT REVISIONS_: MONITOR OUTPUT IS DELAYED WHEN DOLBY ERROR OCCURS NEEDS FIXING. ALSO HOW DO YOU LISTEN THE SECONDARY PROGRAMMING - CTV DEMO
+- **1.1.0.2** — 2008|41 · 2008-08-20 — _AMS82 PRODUCT REVISIONS_: IN MODE 2, LOCK STATUS REFLECTS INPUT MONITORED, FIXED DIALNORM ISSUE, IN MODE 2, AES OUTPUTS FOLLOW AES INPUT INSTEAD OF 4 COPIES OF MONITORED INPUT
+- **2.1.1.9** — 2008|41 · 2008-12-03 — _AMS82 PRODUCT REVISIONS_: FIXED PHASE ISSUE WITH AES OUTPUTS, FIXED DOLBY ERROR AND MAPPING ISSUE
+- **C.1.0.4** — 2008|41 · 2008-12-08 — _AMS82 PRODUCT REVISIONS — custom projects_: CBC - Mode 6 Version 2 w/ Fixed Analog Output Issue and modified Mode 2
+- **1.0.0.8** — 2009|42 · 2009-05-20 — _AMS82 PRODUCT REVISIONS_
+    - FIXED LED DISPLAY FREEZE ISSUE
+    - Lag in volume knob response found by MTV in this version. Bob has found that it is a prbolem with ams8e-5 v1008 software.
+- **2.1.2.0** — 2009|42 · 2009-05-28 — _AMS82 PRODUCT REVISIONS_
+    - FIXED ISSUE IN SHARC WITH MUX COUNT AND LED DISPLAY FREEZE.
+    - DEMUX compatibility: ATMEL - V202, ALTERA - V203
+- **C.1.0.6** — 2009|42 · 2009-06-23 — _AMS82 PRODUCT REVISIONS — custom projects_: CBC - Mode 6 Version 2 w/ Fixed Analog Output Issue and modified Mode 2 with fix for LED display freeze.
+- **1.0.0.9** — 2011|44 · 2011-01-31 — _AMS82 PRODUCT REVISIONS_: Onlu up issued version 1.0.0.7 but it doesn't fix the problem of volume lag
+- **1.0.1.0** — 2011|44 · 2011-04-26 — _AMS82 PRODUCT REVISIONS_: AMS8E-1: v1074 is just a recompilation of v1072 with CORRECT project options, v1072 had WRONG options and caused a lag between volume knob and volume increasing AMS8E-5: up-issued to display v1010 Altera: Phase shift on aes outputs and parity error on aes outputs are fixed
+- **03AV0000** — 2013|46 · 2013-06-01 — _AMS82 PRODUCT REVISIONS_
+    - Hardware version: ams8e-1iss5, ams8e-5iss4.
+    - Main board no longer uses cs8416 or ad1895 to process audio.
+    - modified communication to pass sdi_lock information to main board
+    - removed ad1895 and cs8416 routines in atmel
+    - modified altera clocks and audio
+- **03AV0001** — 2013|46 · 2013-06-24 — _AMS82 PRODUCT REVISIONS_: When monitoring embedded SDI in mode 1, or 4 (dolby decode mode). Removed and re-asserted AES! Will cause the cat552 card to reset. This was incorrect. Bug resolved.
+- **02AV0000** — 2013|46 · 2013-12-12 — _DEMUX-4 FOR AMS-8 AND MLC UNITS_: First version of demux4 created for AMS8 series
+- **03AV0100** — 2014|47 · 2014-01-23 — _AMS82 PRODUCT REVISIONS_: This version added DEMUX4 functionality with demux4 version 02VA0000. Only front board has been modified
+- **02AV0001** — 2014|47 · 2014-06-03 — _DEMUX-4 FOR AMS-8 AND MLC UNITS_: Fixes the bug that happens sometimes by resetting the power where the demux board doesn’t lock, to resolve it generates a watchdog reset, it should be implemented in other versions as well.
+- **03AV0101** — 2015|48 · 2015-07-29 — _AMS82 PRODUCT REVISIONS_: Front panel Atmel display initialization updated. Now compatible with PDSP1884 & HDSP2533
+- **2.2.0.0** — not released — _AMS82 PRODUCT REVISIONS_: CREATED A NEW ISSUE FRONT PANEL BOARD FOR AMS8-1B
+
+_No change note in the listing for: B.E.T.A, 1.0.0.0, 1.0.0.1, 1.0.0.2, 1.0.0.3, 1.0.0.4, 1.0.0.5, 1.0.0.6, 2.0.0.0, 2.0.0.1, 2.0.0.2, 2.0.0.3._
 
 ## Dates found in the documents
 
@@ -72,3 +236,42 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - AMS8-2 - MANUAL.docx](../Products/METERING/AMS8-2/2014%20-%20AMS8-2%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - AMS8-2 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - AMS8-2 - MANUAL (2).docx](../Products/METERING/AMS8-2/2014%20-%20AMS8-2%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS8-2",
+ "name": "Mkiii 8 Channel Audio Monitoring System",
+ "category": "METERING",
+ "year": 2014,
+ "documents": [
+  {
+   "file": "Products/METERING/AMS8-2/2014 - AMS8-2 - Information Sheet.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS8-2/2014 - AMS8-2 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/METERING/AMS8-2/2014 - AMS8-2 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

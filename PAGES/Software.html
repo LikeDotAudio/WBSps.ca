@@ -1,0 +1,1908 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Software</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"><script src="../_catalog/drive_lookup.js"></script><style>
+:root { --desk:#2b2a27; --paper:#fbfaf4; --ink:#1f1e1c; --faint:#6d6a63; --rule:#cfcabc; --link:#1f3f6b; --hl:#efe9d2; }
+* { box-sizing:border-box }
+html { background:var(--desk) }
+body { margin:0; padding:28px 16px 60px; color:var(--ink); font:15px/1.55 "Courier Prime","Courier New",Courier,monospace }
+.sheet { position:relative; max-width:8.5in; margin:0 auto; background:var(--paper);
+  padding:clamp(24px,6vw,64px) clamp(18px,7vw,72px) 56px clamp(30px,9vw,92px);
+  box-shadow:0 1px 0 #d8d4c6, 0 18px 40px rgba(0,0,0,.5) }
+.sheet::before { content:""; position:absolute; left:clamp(10px,2.6vw,28px); top:10%; bottom:10%; width:16px;
+  background:radial-gradient(circle, var(--desk) 7px, rgba(0,0,0,.18) 8px, transparent 9px) 0 0/16px 33.3% repeat-y }
+.top { display:flex; flex-wrap:wrap; gap:4px 16px; margin-bottom:18px; color:var(--faint) }
+a { color:var(--link); text-underline-offset:3px; text-decoration-thickness:1px } a:hover { background:var(--hl) }
+h1 { font-size:20px; margin:0 0 14px; text-transform:uppercase; letter-spacing:.04em; text-decoration:underline; text-underline-offset:5px }
+h2 { font-size:16px; margin:26px 0 8px; text-transform:uppercase; text-decoration:underline; text-underline-offset:4px }
+h3 { font-size:15px; margin:18px 0 6px }
+table { border-collapse:collapse; width:100%; margin:6px 0 12px; font-size:14px }
+th, td { text-align:left; vertical-align:top; padding:3px 10px 3px 0; border-bottom:1px dotted var(--rule) }
+th { color:var(--faint); font-weight:400; text-decoration:underline }
+code { font:inherit; background:#f1ede0; padding:0 3px }
+blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule); color:var(--faint) }
+.thumbs { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:12px; margin:10px 0 18px }
+.thumbs a { display:block; text-decoration:none; color:var(--ink); font-size:11px; line-height:1.3; word-break:break-word }
+.sheet .offline { display:inline-block; border:1px dashed var(--rule); color:var(--faint); font-size:12px; padding:30px 18px; margin:4px 8px 4px 0 }
+.thumbs .offline { display:grid; place-items:center; height:110px; border:1px dashed var(--rule); color:var(--faint); font-size:12px; text-align:center; padding:6px }
+.thumbs canvas { max-width:100%; max-height:110px; width:auto; height:auto; margin:0 auto; background:#fff; border:1px solid var(--rule); display:block }
+.sheet p canvas { max-width:100%; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0 }
+.thumbs img { width:100%; height:110px; object-fit:contain; background:#fff; border:1px solid var(--rule); display:block; margin-bottom:4px }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.sheet details.json pre { max-height:420px; overflow:auto; font-size:12px; background:#f1ede0; padding:8px; white-space:pre }
+.wbs-conn { display:flex; gap:16px; align-items:flex-start } .wbs-conn .wbs-panel { flex:none; width:96px; height:auto; margin-top:6px }
+.wbs-face { flex:none; display:flex; flex-direction:column; gap:8px; align-items:center } .wbs-face .wbs-live:not(:empty) + .wbs-panel { display:none }
+.wbs-face .flip { font-size:12px; cursor:pointer; color:var(--link); text-decoration:underline; background:none; border:0; font-family:inherit }
+.wbs-conn .wbs-main { flex:1; min-width:0 } svg.wbs-panel.solo { width:110px; height:auto; display:block; margin:6px 0 12px }
+@media (max-width:600px) { .wbs-conn .wbs-panel { width:58px } .wbs-conn { gap:8px } }
+.foot { margin-top:36px; text-align:center; color:var(--faint) }
+.sheet details { border-left:3px solid var(--rule); padding:2px 0 2px 12px; margin:8px 0 2px } .sheet details summary { cursor:pointer; font-weight:700 }
+.sheet details p { white-space:normal; font-size:13.5px; max-width:80ch } .sheet details .bp { color:var(--faint); font-size:12.5px }
+.sheet p img { max-width:100%; height:auto; max-height:320px; border:1px solid var(--rule); background:#fff; margin:4px 8px 4px 0;
+  vertical-align:top; box-shadow:0 2px 6px rgba(0,0,0,.12) }
+@media (max-width:600px) { .sheet::before { display:none } table { font-size:12.5px } }
+</style></head><body><article class="sheet"><div class="top"><a href="../index.html">Index</a><a href="../Home.html">Wiki home</a><a href="../PAGES/Timeline.html">Timeline</a><a href="../search.html">Search</a><a href="../status.html">Status</a></div><h1>Software</h1>
+<p>Firmware for every Ward-Beck device in the engineering <strong>software listings</strong>: the microcontroller, FPGA and DSP parts in each one, every released version and what changed in it. <strong>116</strong> devices, <strong>465</strong> version rows.</p>
+<p>Master copy: <code>WBS - DATA SHUFFLER/WBS - #SOFTWARE LISTINGS OFFICIAL - FULL HISTORY - #Engineering_.xlsx</code> (the FULL HISTORY workbook, last notes 2018|51). Checked row by row against <code>WBS - DATA SHUFFLER/SOFTWARE LISTINGS - #Engineering.xls</code>, the 2016-06-01 copy: see <a href="#compared">the two workbooks compared</a>.</p>
+<p>Every device page has a <strong>Software</strong> section (each part and its current version), a <strong>Versions</strong> section (every revision) and <strong>Changes in each version</strong>. Devices with no other files in the archive have a page made from the listing alone.</p>
+<h2>Devices (116)</h2>
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Page</th>
+<th>Chips / boards</th>
+<th>Versions</th>
+<th>Dated</th>
+<th>Latest</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="AA6201A.html#software">AA6201A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="ABB1.html#software">ABB1</a></td>
+<td>archive page</td>
+<td>PIC16F73</td>
+<td>2</td>
+<td>2002|35 – 2005|38</td>
+<td>ABB1V102, ABB1V103</td>
+</tr>
+<tr>
+<td><a href="ABS1.html#software">ABS1</a></td>
+<td>archive page</td>
+<td>EPM7064S, NM27C512N-150, PIC16F73</td>
+<td>3</td>
+<td>2002|35 – 2002|35</td>
+<td>ABSV100</td>
+</tr>
+<tr>
+<td><a href="AIP8.html#software">AIP8</a></td>
+<td>archive page</td>
+<td>AIP8-2A-2, ALTERA, AMS8E-1, SHARC</td>
+<td>4</td>
+<td>2007|40 – 2009|42</td>
+<td>1.0.0.2</td>
+</tr>
+<tr>
+<td><a href="AMS4.html#software">AMS4</a></td>
+<td>archive page</td>
+<td>PIC16F874</td>
+<td>3 + 1 shared</td>
+<td>2002|35 – 2013|46</td>
+<td>AMS4NV100, V050000 (AMS4V500)</td>
+</tr>
+<tr>
+<td><a href="AMS8-1.html#software">AMS8-1</a></td>
+<td>archive page</td>
+<td>ALTERA, AMS8E-1, AMS8E-5, EPC1S, SHARC</td>
+<td>48 + 1 shared</td>
+<td>2005|38 – 2016|49</td>
+<td>06VA0002 · 06VC0000</td>
+</tr>
+<tr>
+<td><a href="AMS8-1AN.html#software">AMS8-1AN</a></td>
+<td>archive page</td>
+<td>ALTERA, AMS8E-1, AMS8E-5, SHARC</td>
+<td>1</td>
+<td>2016|49 – 2016|49</td>
+<td>06AV0100</td>
+</tr>
+<tr>
+<td><a href="AMS8-1B.html#software">AMS8-1B</a></td>
+<td>listing only</td>
+<td>ALTERA, AMS8E-1, AMS8E-5, SHARC</td>
+<td>5</td>
+<td>2009|42 – 2015|48</td>
+<td>06VA0001</td>
+</tr>
+<tr>
+<td><a href="AMS8-1CA.html#software">AMS8-1CA</a></td>
+<td>archive page</td>
+<td>ALTERA, AMS8E-1, AMS8E-5, SHARC</td>
+<td>1</td>
+<td>—</td>
+<td>C1.0.0.0</td>
+</tr>
+<tr>
+<td><a href="AMS8-1CAM.html#software">AMS8-1CAM</a></td>
+<td>archive page</td>
+<td>ALTERA, AMS8E-1, AMS8E-5, SHARC</td>
+<td>3</td>
+<td>2009|42 – 2015|48</td>
+<td>06VA0001</td>
+</tr>
+<tr>
+<td><a href="AMS8-2.html#software">AMS8-2</a></td>
+<td>archive page</td>
+<td>ALTERA, AMS8E-1, AMS8E-5, SHARC</td>
+<td>43 + 1 shared</td>
+<td>2005|38 – 2015|48</td>
+<td>03AV0101 · C.1.0.6</td>
+</tr>
+<tr>
+<td><a href="AMS16.html#software">AMS16</a></td>
+<td>archive page</td>
+<td>ALTERA, AMS16-9 (ALTERA), AMS16-9 (ATMEL), AMS16A-2 (FRONT), AMS16A-3 (MAIN), SHARC</td>
+<td>20</td>
+<td>2007|40 – 2015|48</td>
+<td>06AV0002 · V1000</td>
+</tr>
+<tr>
+<td><a href="ARX422.html#software">ARX422</a></td>
+<td>listing only</td>
+<td>ATMEGA128L</td>
+<td>1</td>
+<td>2007|40 – 2007|40</td>
+<td>ARX422V101</td>
+</tr>
+<tr>
+<td><a href="AV6201A.html#software">AV6201A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="AV6202A.html#software">AV6202A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="AVB1.html#software">AVB1</a></td>
+<td>listing only</td>
+<td>PIC16F747, PIC16F874</td>
+<td>6</td>
+<td>2002|35 – 2007|40</td>
+<td>U201V101, AVB1V105(B)</td>
+</tr>
+<tr>
+<td><a href="AVM4.html#software">AVM4</a></td>
+<td>listing only</td>
+<td>PIC16F73, PIC16F874</td>
+<td>3</td>
+<td>2002|35 – 2002|35</td>
+<td>AVM42V100, AVM41V100</td>
+</tr>
+<tr>
+<td><a href="AVS.html#software">AVS</a></td>
+<td>listing only</td>
+<td>EPM7128S</td>
+<td>1</td>
+<td>—</td>
+<td>AVSV100</td>
+</tr>
+<tr>
+<td><a href="D6201A.html#software">D6201A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="D6201B.html#software">D6201B</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="D6202A.html#software">D6202A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="D6202B.html#software">D6202B</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="D6203A.html#software">D6203A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="D6204A.html#software">D6204A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="D6207A.html#software">D6207A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="D8201.html#software">D8201</a></td>
+<td>archive page</td>
+<td>PIC16C54A, PIC16F874</td>
+<td>2</td>
+<td>1998|31 – 2010|43</td>
+<td>8201V102, 8201V201</td>
+</tr>
+<tr>
+<td><a href="D8202.html#software">D8202</a></td>
+<td>archive page</td>
+<td>PIC16C54A</td>
+<td>1</td>
+<td>2005|38 – 2005|38</td>
+<td>DA301V102</td>
+</tr>
+<tr>
+<td><a href="D8203.html#software">D8203</a></td>
+<td>archive page</td>
+<td>EPM7064SLC44-10F, PIC16C54A</td>
+<td>3</td>
+<td>1998|31 – 2005|38</td>
+<td>DA303V101, 8203V100</td>
+</tr>
+<tr>
+<td><a href="D8204.html#software">D8204</a></td>
+<td>archive page</td>
+<td>PIC16C54A, PIC16F874</td>
+<td>4</td>
+<td>2005|38 – 2006|39</td>
+<td>DA301V102</td>
+</tr>
+<tr>
+<td><a href="D8205.html#software">D8205</a></td>
+<td>listing only</td>
+<td>EPM7128TQFP, NM27C512N-150, PIC16F73</td>
+<td>3</td>
+<td>2002|35 – 2002|35</td>
+<td>D820xV100</td>
+</tr>
+<tr>
+<td><a href="D8206.html#software">D8206</a></td>
+<td>listing only</td>
+<td>EPM7128TQFP, NM27C512N-150, PIC16F73</td>
+<td>6</td>
+<td>2002|35 – 2006|39</td>
+<td>…d820x/31 MAY 06/ALTERA/V100, D820xV100</td>
+</tr>
+<tr>
+<td><a href="D8207.html#software">D8207</a></td>
+<td>listing only</td>
+<td>EPM7128TQFP, NM27C512N-150, PIC16F73</td>
+<td>3</td>
+<td>2002|35 – 2002|35</td>
+<td>D820xV100</td>
+</tr>
+<tr>
+<td><a href="D8208.html#software">D8208</a></td>
+<td>listing only</td>
+<td>EPM7128TQFP, NM27C512N-150, PIC16F73</td>
+<td>3</td>
+<td>2002|35 – 2002|35</td>
+<td>D820xV100</td>
+</tr>
+<tr>
+<td><a href="DA301.html#software">DA301</a></td>
+<td>listing only</td>
+<td>PIC16C54A</td>
+<td>1</td>
+<td>2005|38 – 2005|38</td>
+<td>DA301V102</td>
+</tr>
+<tr>
+<td><a href="DA302.html#software">DA302</a></td>
+<td>listing only</td>
+<td>EPM3128ATC100-7, PIC16F874</td>
+<td>3</td>
+<td>2004|37 – 2004|37</td>
+<td>DA302V101, DA305\Sharc\V103</td>
+</tr>
+<tr>
+<td><a href="DA303.html#software">DA303</a></td>
+<td>listing only</td>
+<td>PIC16C54A</td>
+<td>1</td>
+<td>2001|34 – 2001|34</td>
+<td>DA303V101</td>
+</tr>
+<tr>
+<td><a href="DA304.html#software">DA304</a></td>
+<td>listing only</td>
+<td>PIC16C54A</td>
+<td>2</td>
+<td>2005|38 – 2007|40</td>
+<td>DA304CV100, DA304V101</td>
+</tr>
+<tr>
+<td><a href="DA305.html#software">DA305</a></td>
+<td>listing only</td>
+<td>AM29LV04OB-120JC, EPM3128ATC100-7, PIC16F874</td>
+<td>7</td>
+<td>2004|37 – 2008|41</td>
+<td>DA305BV102, DA305CV100</td>
+</tr>
+<tr>
+<td><a href="DEMUX-1.html#software">DEMUX-1</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2003|36 – 2003|36</td>
+<td>DEMUX1V106(B)</td>
+</tr>
+<tr>
+<td><a href="DEMUX-2.html#software">DEMUX-2</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>3</td>
+<td>2003|36 – 2007|40</td>
+<td>DEMUX2V104B, DEMUX2V105(B)</td>
+</tr>
+<tr>
+<td><a href="DEMUX-3.html#software">DEMUX-3</a></td>
+<td>listing only</td>
+<td>ALTERA, ATMEGA128L, ATMEL, EPC1S, PLEASE USE DEMUX-3 TAB</td>
+<td>12</td>
+<td>2006|39 – 2012|45</td>
+<td>2.0.0.4 · 2.0.0.3 - POD19 · 4.0.0.0 · 4.0.0.0</td>
+</tr>
+<tr>
+<td><a href="DEMUX-4.html#software">DEMUX-4</a></td>
+<td>listing only</td>
+<td>ATMEL, XILINX</td>
+<td>10</td>
+<td>2013|46 – 2015|48</td>
+<td>02AV0001 · 02AV0101 · 02AV0202 · 02AV0300 · 02AV0401</td>
+</tr>
+<tr>
+<td><a href="DMS1.html#software">DMS1</a></td>
+<td>archive page</td>
+<td>PIC16F73</td>
+<td>2 + 2 shared</td>
+<td>2001|34 – 2011|44</td>
+<td>DMS1V101, DMS1V102</td>
+</tr>
+<tr>
+<td><a href="M6202A.html#software">M6202A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="M6202AE.html#software">M6202AE</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2009|42 – 2009|42</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="M6203A.html#software">M6203A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="M6204A.html#software">M6204A</a></td>
+<td>archive page</td>
+<td></td>
+<td>1</td>
+<td>2009|42 – 2009|42</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="M6205C.html#software">M6205C</a></td>
+<td>listing only</td>
+<td></td>
+<td>2</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="M6205CE.html#software">M6205CE</a></td>
+<td>listing only</td>
+<td></td>
+<td>1</td>
+<td>2008|41 – 2008|41</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="M6206A.html#software">M6206A</a></td>
+<td>listing only</td>
+<td></td>
+<td>1</td>
+<td>2007|40 – 2007|40</td>
+<td>initial release</td>
+</tr>
+<tr>
+<td><a href="MLC6A.html#software">MLC6A</a></td>
+<td>archive page</td>
+<td>ALTERA, ATMEL, SHARC</td>
+<td>8</td>
+<td>2007|40 – 2007|40</td>
+<td>2.0.0.1 · 2.0.0.1 · 2.0.0.1</td>
+</tr>
+<tr>
+<td><a href="MLC8.html#software">MLC8</a></td>
+<td>archive page</td>
+<td></td>
+<td>0 + 6 shared</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="MLC8-N.html#software">MLC8-N</a></td>
+<td>archive page</td>
+<td>ALTERA, ATMEL, SHARC</td>
+<td>4</td>
+<td>2016|49 – 2016|49</td>
+<td>05AV0000 · 05AV0000</td>
+</tr>
+<tr>
+<td><a href="MLC8A.html#software">MLC8A</a></td>
+<td>archive page</td>
+<td>ALTERA, ATMEL, SHARC</td>
+<td>24 + 1 shared</td>
+<td>2006|39 – 2014|47</td>
+<td>05AV0000 · 2.0.0.5 · 2.0.0.4</td>
+</tr>
+<tr>
+<td><a href="MLC8B.html#software">MLC8B</a></td>
+<td>archive page</td>
+<td>ALTERA, ATMEL, SHARC</td>
+<td>22 + 1 shared</td>
+<td>2006|39 – 2014|47</td>
+<td>05AV0100 · 05AV0100 · 05AV0200</td>
+</tr>
+<tr>
+<td><a href="MLC8C.html#software">MLC8C</a></td>
+<td>archive page</td>
+<td>ALTERA, ATMEL, SHARC</td>
+<td>30</td>
+<td>2006|39 – 2008|41</td>
+<td>2.0.0.5 · 2.0.0.0 · 2.0.0.4 · 2.0.0.4 · 2.0.0.0 · 2.0.0.3</td>
+</tr>
+<tr>
+<td><a href="MLC8D.html#software">MLC8D</a></td>
+<td>archive page</td>
+<td>ALTERA, ATMEL, SHARC</td>
+<td>14</td>
+<td>2006|39 – 2007|40</td>
+<td>2.0.0.3 · 2.0.0.0 · 2.0.0.3</td>
+</tr>
+<tr>
+<td><a href="MicroDemux.html#software">MicroDemux</a></td>
+<td>listing only</td>
+<td></td>
+<td>0 + 1 shared</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="POD2.html#software">POD2</a></td>
+<td>archive page</td>
+<td>PIC16F874</td>
+<td>2</td>
+<td>2009|42 – 2010|43</td>
+<td>POD2R200, POD2V201 / POD2RV201</td>
+</tr>
+<tr>
+<td><a href="POD3A.html#software">POD3A</a></td>
+<td>archive page</td>
+<td>AM29LV04OB-120JC, PIC12F675</td>
+<td>2</td>
+<td>2006|39 – 2006|39</td>
+<td>SLM1V100A, POD3V100</td>
+</tr>
+<tr>
+<td><a href="POD7.html#software">POD7</a></td>
+<td>archive page</td>
+<td>PIC16F73</td>
+<td>1</td>
+<td>2005|38 – 2005|38</td>
+<td>POD7V103</td>
+</tr>
+<tr>
+<td><a href="POD9.html#software">POD9</a></td>
+<td>archive page</td>
+<td>PIC16F73, PIC16F874</td>
+<td>2</td>
+<td>2004|37 – 2012|45</td>
+<td>PODV102, POD9RV500</td>
+</tr>
+<tr>
+<td><a href="POD10.html#software">POD10</a></td>
+<td>archive page</td>
+<td>PIC16F73, PIC16F887 (USE ICD3 and MPLAB X)</td>
+<td>3</td>
+<td>2002|35 – 2014|47</td>
+<td>V030000, V030200</td>
+</tr>
+<tr>
+<td><a href="POD10A.html#software">POD10A</a></td>
+<td>archive page</td>
+<td>PIC16F887 (USE ICD3 and MPLAB X)</td>
+<td>1</td>
+<td>2014|47 – 2014|47</td>
+<td>V030200</td>
+</tr>
+<tr>
+<td><a href="POD11.html#software">POD11</a></td>
+<td>listing only</td>
+<td>PIC16C73</td>
+<td>1</td>
+<td>1998|31 – 1998|31</td>
+<td>POD11V101</td>
+</tr>
+<tr>
+<td><a href="POD11A.html#software">POD11A</a></td>
+<td>archive page</td>
+<td>AT25F512N, PIC12F675</td>
+<td>2</td>
+<td>2003|36 – 2003|36</td>
+<td>SLM1V100, SLM1-5_4LEDV102</td>
+</tr>
+<tr>
+<td><a href="POD12A.html#software">POD12A</a></td>
+<td>archive page</td>
+<td>AT90CAN128, EP1C3</td>
+<td>2</td>
+<td>2014|47 – 2014|47</td>
+<td>(02AV0000) V020000, (02AV0000) D6201B-V100</td>
+</tr>
+<tr>
+<td><a href="POD13.html#software">POD13</a></td>
+<td>listing only</td>
+<td>PIC16C54A</td>
+<td>1</td>
+<td>2004|37 – 2004|37</td>
+<td>POD13V101</td>
+</tr>
+<tr>
+<td><a href="POD13A.html#software">POD13A</a></td>
+<td>archive page</td>
+<td>ATMEGA128L, LFXP3KC-T100</td>
+<td>2</td>
+<td>—</td>
+<td>POD13AV100</td>
+</tr>
+<tr>
+<td><a href="POD14.html#software">POD14</a></td>
+<td>listing only</td>
+<td>PIC16C73</td>
+<td>1</td>
+<td>2001|34 – 2001|34</td>
+<td>POD14V102</td>
+</tr>
+<tr>
+<td><a href="POD14A.html#software">POD14A</a></td>
+<td>archive page</td>
+<td>ATMEGA128L</td>
+<td>1</td>
+<td>—</td>
+<td>V1000</td>
+</tr>
+<tr>
+<td><a href="POD16.html#software">POD16</a></td>
+<td>archive page</td>
+<td>PIC16C73</td>
+<td>1</td>
+<td>—</td>
+<td>POD16V101</td>
+</tr>
+<tr>
+<td><a href="POD17.html#software">POD17</a></td>
+<td>archive page</td>
+<td>NM27C512N-150, PIC16C73</td>
+<td>2</td>
+<td>2000|33 – 2000|33</td>
+<td>POD17V100</td>
+</tr>
+<tr>
+<td><a href="POD19.html#software">POD19</a></td>
+<td>listing only</td>
+<td>PIC16F73</td>
+<td>1 + 1 shared</td>
+<td>2002|35 – 2002|35</td>
+<td>PODXXV101</td>
+</tr>
+<tr>
+<td><a href="POD21.html#software">POD21</a></td>
+<td>listing only</td>
+<td>PIC16F73, PIC16F874</td>
+<td>2</td>
+<td>2002|35 – 2005|38</td>
+<td>POD21V101, POD21RV200</td>
+</tr>
+<tr>
+<td><a href="POD22.html#software">POD22</a></td>
+<td>archive page</td>
+<td>AM29LV04OB-120JC, PIC16F874</td>
+<td>3</td>
+<td>2006|39 – 2011|44</td>
+<td>v103, POD22V102</td>
+</tr>
+<tr>
+<td><a href="POD23.html#software">POD23</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="POD23A.html#software">POD23A</a></td>
+<td>listing only</td>
+<td>PIC16F877</td>
+<td>1</td>
+<td>2004|37 – 2004|37</td>
+<td>POD23AV100</td>
+</tr>
+<tr>
+<td><a href="POD25.html#software">POD25</a></td>
+<td>archive page</td>
+<td>PIC16F73</td>
+<td>1</td>
+<td>2004|37 – 2004|37</td>
+<td>POD25V101</td>
+</tr>
+<tr>
+<td><a href="POD27.html#software">POD27</a></td>
+<td>archive page</td>
+<td>PIC16F874</td>
+<td>3</td>
+<td>2005|38 – 2012|45</td>
+<td>POD27V102(NO SRC), v200</td>
+</tr>
+<tr>
+<td><a href="POD28.html#software">POD28</a></td>
+<td>archive page</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2005|38 – 2005|38</td>
+<td>POD28V101</td>
+</tr>
+<tr>
+<td><a href="POD30.html#software">POD30</a></td>
+<td>archive page</td>
+<td>PIC16F747, PIC16F874</td>
+<td>5</td>
+<td>2004|37 – 2013|46</td>
+<td>V020000</td>
+</tr>
+<tr>
+<td><a href="POD31.html#software">POD31</a></td>
+<td>archive page</td>
+<td>ATMEGA128L, EPC1S</td>
+<td>2</td>
+<td>2008|41 – 2008|41</td>
+<td>POD31V101, POD31V102</td>
+</tr>
+<tr>
+<td><a href="POD32.html#software">POD32</a></td>
+<td>archive page</td>
+<td>ATMEGA128L, EP2C35F cyc2</td>
+<td>2</td>
+<td>2010|43 – 2010|43</td>
+<td>v1.0.0.0, V100</td>
+</tr>
+<tr>
+<td><a href="POD33.html#software">POD33</a></td>
+<td>archive page</td>
+<td>AT25F512N, ATMEGA128L, EPC1S</td>
+<td>3</td>
+<td>2016|49 – 2016|49</td>
+<td>POD33V101</td>
+</tr>
+<tr>
+<td><a href="R201.html#software">R201</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2006|39 – 2006|39</td>
+<td>R201V302</td>
+</tr>
+<tr>
+<td><a href="R203.html#software">R203</a></td>
+<td>listing only</td>
+<td>PIC16C54A, PIC16F73</td>
+<td>2</td>
+<td>2000|33 – 2005|38</td>
+<td>ENCDV102, R203V106</td>
+</tr>
+<tr>
+<td><a href="R204.html#software">R204</a></td>
+<td>listing only</td>
+<td>PIC16F73</td>
+<td>1</td>
+<td>2004|37 – 2004|37</td>
+<td>R204V104</td>
+</tr>
+<tr>
+<td><a href="R205.html#software">R205</a></td>
+<td>listing only</td>
+<td>PIC16C73</td>
+<td>1</td>
+<td>2004|37 – 2004|37</td>
+<td>R203V103</td>
+</tr>
+<tr>
+<td><a href="R206.html#software">R206</a></td>
+<td>listing only</td>
+<td>ATMEGA128L, PIC16F73, PIC16F74</td>
+<td>4</td>
+<td>2002|35 – 2006|39</td>
+<td>S206V103, R248V103</td>
+</tr>
+<tr>
+<td><a href="R209.html#software">R209</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2003|36 – 2003|36</td>
+<td>R209AV100</td>
+</tr>
+<tr>
+<td><a href="R210.html#software">R210</a></td>
+<td>listing only</td>
+<td>PIC16F73</td>
+<td>1</td>
+<td>2005|38 – 2005|38</td>
+<td>R210V101</td>
+</tr>
+<tr>
+<td><a href="R221.html#software">R221</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2009|42 – 2009|42</td>
+<td>R221V302</td>
+</tr>
+<tr>
+<td><a href="R241.html#software">R241</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>3</td>
+<td>2006|39 – 2006|39</td>
+<td>R241V201, R241V200</td>
+</tr>
+<tr>
+<td><a href="R243.html#software">R243</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2006|39 – 2006|39</td>
+<td>R243V101</td>
+</tr>
+<tr>
+<td><a href="R248.html#software">R248</a></td>
+<td>listing only</td>
+<td>ATMEGA128L, PIC16F874</td>
+<td>4</td>
+<td>2004|37 – 2006|39</td>
+<td>U2V100, R248V103</td>
+</tr>
+<tr>
+<td><a href="R254.html#software">R254</a></td>
+<td>listing only</td>
+<td>PIC16F73</td>
+<td>1</td>
+<td>1999|32 – 1999|32</td>
+<td>R254V101</td>
+</tr>
+<tr>
+<td><a href="R257.html#software">R257</a></td>
+<td>listing only</td>
+<td>PIC16F73</td>
+<td>2</td>
+<td>2000|33 – 2002|35</td>
+<td>550208-3, R257V102</td>
+</tr>
+<tr>
+<td><a href="RA24.html#software">RA24</a></td>
+<td>archive page</td>
+<td>PIC16C73</td>
+<td>2</td>
+<td>1998|31 – 1998|31</td>
+<td>RA24V101, REMV103</td>
+</tr>
+<tr>
+<td><a href="RAV24.html#software">RAV24</a></td>
+<td>listing only</td>
+<td>PIC16C73</td>
+<td>2</td>
+<td>2000|33 – 2000|33</td>
+<td>RAVV101, REMV102</td>
+</tr>
+<tr>
+<td><a href="RLM12.html#software">RLM12</a></td>
+<td>listing only</td>
+<td>ALTERA, AMS4E-1 (MAIN), POD23A (FRONT), RLM24 (MAIN), SHARC</td>
+<td>3</td>
+<td>2006|39 – 2006|39</td>
+<td>V1000 · V1000</td>
+</tr>
+<tr>
+<td><a href="RLM24.html#software">RLM24</a></td>
+<td>listing only</td>
+<td>ALTERA, AMS4E-1 (MAIN), POD23A (FRONT), RLM24 (MAIN), SHARC</td>
+<td>4</td>
+<td>2005|38 – 2005|38</td>
+<td>V1001 · V1000</td>
+</tr>
+<tr>
+<td><a href="RLM216.html#software">RLM216</a></td>
+<td>listing only</td>
+<td>ALTERA, AMS16A-3 (MAIN), SHARC</td>
+<td>1</td>
+<td>—</td>
+<td>V1000</td>
+</tr>
+<tr>
+<td><a href="SD402.html#software">SD402</a></td>
+<td>listing only</td>
+<td>PIC12F675</td>
+<td>1</td>
+<td>2003|36 – 2003|36</td>
+<td>SD402V100</td>
+</tr>
+<tr>
+<td><a href="SD403.html#software">SD403</a></td>
+<td>listing only</td>
+<td>ATMEGA128L, EPC1S</td>
+<td>5</td>
+<td>2005|38 – 2008|41</td>
+<td>SD403V102, SD403V100</td>
+</tr>
+<tr>
+<td><a href="SD404.html#software">SD404</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2006|39 – 2006|39</td>
+<td>SD404V105</td>
+</tr>
+<tr>
+<td><a href="SD405.html#software">SD405</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2005|38 – 2005|38</td>
+<td>SD405V106</td>
+</tr>
+<tr>
+<td><a href="SD406.html#software">SD406</a></td>
+<td>listing only</td>
+<td>EPM3032TQFP, PIC16F874</td>
+<td>2</td>
+<td>2004|37 – 2004|37</td>
+<td>SD406V102, SD406V100</td>
+</tr>
+<tr>
+<td><a href="SLM.html#software">SLM</a></td>
+<td>archive page</td>
+<td>AM29LV04OB-120JC, AT25F512N, ATMEGA128L, EPC1S, PIC12F675</td>
+<td>12</td>
+<td>2003|36 – 2010|43</td>
+<td>SLM4V100, SLM8V102</td>
+</tr>
+<tr>
+<td><a href="SMS4.html#software">SMS4</a></td>
+<td>listing only</td>
+<td>AM29LV04OB-120JC, EPM3128ATC144-10, PIC16F73, PIC16F874</td>
+<td>4</td>
+<td>2003|36 – 2003|36</td>
+<td>SMS4V100, VMS443V103</td>
+</tr>
+<tr>
+<td><a href="STX422.html#software">STX422</a></td>
+<td>listing only</td>
+<td>ATMEGA128L</td>
+<td>1</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="VMS3.html#software">VMS3</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2004|37 – 2004|37</td>
+<td>VMS3V100</td>
+</tr>
+<tr>
+<td><a href="VMS4.html#software">VMS4</a></td>
+<td>listing only</td>
+<td>PIC16F874</td>
+<td>1</td>
+<td>2004|37 – 2004|37</td>
+<td>VMS4V202</td>
+</tr>
+<tr>
+<td><a href="VMS33.html#software">VMS33</a></td>
+<td>archive page</td>
+<td>AM29LV04OB-120JC, EPM3128ATC144-10, PIC16F874</td>
+<td>6</td>
+<td>2003|36 – 2007|40</td>
+<td>VMS33V101, VMS33V102</td>
+</tr>
+<tr>
+<td><a href="VMS44.html#software">VMS44</a></td>
+<td>listing only</td>
+<td>AM29LV04OB-120JC, EPM3128ATC144-10, PIC16F874</td>
+<td>8</td>
+<td>2003|36 – 2004|37</td>
+<td>VMS443V103</td>
+</tr>
+<tr>
+<td><a href="XTM4.html#software">XTM4</a></td>
+<td>archive page</td>
+<td>PIC16F74, PIC16F874</td>
+<td>7 + 2 shared</td>
+<td>2002|35 – 2015|48</td>
+<td>V040000(XTM42V400B), V040001(XTM42V400C)</td>
+</tr>
+</tbody>
+</table>
+<h2>The sheets</h2>
+<table>
+<thead>
+<tr>
+<th>Sheet</th>
+<th>Kind</th>
+<th>As of</th>
+<th>Rows</th>
+<th>Tables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Standard Products</td>
+<td>one row per device part</td>
+<td>as of November 26, 2009</td>
+<td>158</td>
+<td></td>
+</tr>
+<tr>
+<td>Altera</td>
+<td>one row per device part</td>
+<td>as of May 20, 2009</td>
+<td>22</td>
+<td></td>
+</tr>
+<tr>
+<td>Lattice</td>
+<td>one row per device part</td>
+<td>as of October 6, 2008</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>Sharc</td>
+<td>one row per device part</td>
+<td>as of February 12, 2008</td>
+<td>23</td>
+<td></td>
+</tr>
+<tr>
+<td>OpenGear</td>
+<td>card release dates</td>
+<td>as of June 8, 2009</td>
+<td>18</td>
+<td></td>
+</tr>
+<tr>
+<td>AMS8-1</td>
+<td>product revisions</td>
+<td>as of May 19, 2009</td>
+<td>46</td>
+<td>AMS81 PRODUCT REVISIONS; AMS81 PRODUCT REVISIONS — custom projects; AMS8-1AN</td>
+</tr>
+<tr>
+<td>AMS8-1B</td>
+<td>product revisions</td>
+<td>as of May 6, 2009</td>
+<td>9</td>
+<td>AMS81-B PRODUCT REVISIONS; AMS81-C PRODUCT REVISIONS; AMS81-1CAM PRODUCT REVISIONS</td>
+</tr>
+<tr>
+<td>AMS8-2</td>
+<td>product revisions</td>
+<td>as of May 19, 2009</td>
+<td>41</td>
+<td>AMS82 PRODUCT REVISIONS; AMS82 PRODUCT REVISIONS — custom projects</td>
+</tr>
+<tr>
+<td>AMS16</td>
+<td>product revisions</td>
+<td>as of June 11, 2009</td>
+<td>18</td>
+<td>AMS16A PRODUCT REVISIONS; AMS16A-1 PRODUCT REVISIONS</td>
+</tr>
+<tr>
+<td>DEMUX-3</td>
+<td>product revisions</td>
+<td>as of August 24, 2009</td>
+<td>6</td>
+<td>DEMUX-3 FOR AMS8 UNITS; DEMUX-3 FOR POD19; DEMUX-3 FOR DMS-1 UNITS; DEMUX-3 FOR XTM4 UNITS</td>
+</tr>
+<tr>
+<td>DEMUX-4</td>
+<td>product revisions</td>
+<td>as of December 12, 2013</td>
+<td>10</td>
+<td>DEMUX-4 FOR AMS-8 AND MLC UNITS; DEMUX-4 FOR AMS4 UNITS; DEMUX-4 FOR XTM4 UNITS; DEMUX-4 FOR DMS1 UNITS; DEMUX-4 FOR MicroDemux UNITS</td>
+</tr>
+<tr>
+<td>RLM SERIES</td>
+<td>product revisions</td>
+<td>—</td>
+<td>7</td>
+<td>RLM24 PRODUCT REVISIONS; RLM24 CTL PRODUCT REVISIONS; RLM12 PRODUCT REVISIONS; RLM12 CTL PRODUCT REVISIONS</td>
+</tr>
+<tr>
+<td>MLCs</td>
+<td>product revisions</td>
+<td>as of November 21, 2008 (Make Note Cbc Uses The -18Db Pad On The Analog Outputs)</td>
+<td>96</td>
+<td>MLC8A REVISIONS — Main Board Revisions; MLC8A REVISIONS — Front Panel Revisions; MLC8A REVISIONS — MLC8R Front Panel Revisions; MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions; MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions; MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions; MLC8C REVISIONS — Main Board Revisions; MLC8C REVISIONS — Front Panel Revisions; MLC8C REVISIONS — MLC8R Front Panel Revisions; MLC8CA REVISIONS — Main Board Revisions; MLC8CA REVISIONS — Front Panel Revisions; MLC8CA REVISIONS — MLC8R Front Panel Revisions; MLC8D REVISIONS — Main Board Revisions; MLC8D REVISIONS — Front Panel Revisions; MLC8D REVISIONS — MLC8R Front Panel Revisions; MLC6A REVISIONS — Main Board Revisions; MLC6A REVISIONS — Front Panel Revisions; MLC6A REVISIONS — MLC6R Front Panel Revisions; MLC8N (Ravenna) REVISIONS — Main Board Revisions; MLC8N (Ravenna) REVISIONS — Front Panel Revisions</td>
+</tr>
+<tr>
+<td>AIP8-2A</td>
+<td>product revisions</td>
+<td>as of April 6, 2009</td>
+<td>3</td>
+<td>AIP8-2A PRODUCT REVISIONS</td>
+</tr>
+<tr>
+<td>RLM216</td>
+<td>product revisions</td>
+<td>as of June 13, 2008</td>
+<td>1</td>
+<td>RLM216 PRODUCT REVISIONS</td>
+</tr>
+</tbody>
+</table>
+<h2>Programming the parts</h2>
+<ul>
+<li><strong>Altera:</strong> Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file).</li>
+<li><strong>Lattice:</strong> Lattice LFXP3C parts are programmed with LSC ispVM (Scan, pick the device, open the .JED file, GO).</li>
+<li><strong>Sharc:</strong> Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).</li>
+<li><strong>PIC:</strong> MPLAB IDE (8.36 / 8.43) with the ICD3 programmer; POD10 / POD10A / POD10R need MPLAB X.</li>
+<li>Production programming files live under <code>H:\Production\PFiles\…</code>; the listing warns, again and again: <em>do not use the working files — use the file in the specific folder.</em></li>
+</ul>
+<h2>How versions are numbered</h2>
+<ul>
+<li><code>ABB1V103</code>, <code>V103</code>: the early form, product code + V + three digits (1.0.3).</li>
+<li><code>1.0.7.7</code>, <code>2.1.1.9</code>: product firmware version (PFV) on the revision sheets; 1.x for issue 1 boards, 2.x for issue 2, 3.0.0.0 the assigned-input switcher; <code>C.1.0.x</code> custom builds (CBC mode 6, Dome mode 5).</li>
+<li><code>06VA0000</code>, <code>05AV0100</code>, <code>02AV0000</code>: the 2012|45 on form, two digits for the product (06 AMS8-1 / AMS16, 05 MLC8, 03 AMS8-2, 02 DEMUX-4) then AV + build. The sheet notes that 06VA… should have been written 06AV…</li>
+</ul>
+<p><a id="compared"></a></p>
+<h2>The two workbooks compared (6 differences)</h2>
+<p>The two files hold the same 15 sheets and the same rows. The FULL HISTORY workbook adds these notes, all from 2018|51, about the AMS8E-6 front panel board and the AUX connector:</p>
+<table>
+<thead>
+<tr>
+<th>Sheet</th>
+<th>Row (date · revision)</th>
+<th>Added in FULL HISTORY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AMS8-1</td>
+<td>2015-07-29 · 06VA0002</td>
+<td>As of July 2018 the AMS8E-6 board has been changed to Support Round buttons and the Aux Connector has been changed to a Female Tascam Standard</td>
+</tr>
+<tr>
+<td>AMS8-1</td>
+<td>2016-02-26 · 06VC0000</td>
+<td>As of July 2018 the AMS8E-6 board has been changed to Support Round buttons and the Aux Connector has been changed to a Female Tascam Standard</td>
+</tr>
+<tr>
+<td>AMS8-1B</td>
+<td>2015-07-29 · 06VA0001</td>
+<td>As of July 2018 the AMS8E-6 board has been changed to Support Round buttons and the Aux Connector has been changed to a Female Tascam Standard</td>
+</tr>
+<tr>
+<td>AMS8-1B</td>
+<td>2015-07-29 · 06VA0001</td>
+<td>As of July 2018 the AMS8E-6 board has been changed to Support Round buttons and the Aux Connector has been changed to a Female Tascam Standard</td>
+</tr>
+<tr>
+<td>MLCs</td>
+<td>2014-12-15 · 05AV0000</td>
+<td>AS of August 2018 the Aux Connector has been updated to a Female Tascam</td>
+</tr>
+<tr>
+<td>MLCs</td>
+<td>2014-10-06 · 05AV0200</td>
+<td>AS of August 2018 the Aux Connector has been updated to a Female Tascam Standard</td>
+</tr>
+</tbody>
+</table>
+<h2>Listing names and the devices they are filed under</h2>
+<p><em>How each row of the flat sheets was matched to a device page.</em></p>
+<table>
+<thead>
+<tr>
+<th>Name in the listing</th>
+<th>Device</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>*DEMUX-3 (PLEASE USE THE DEMUX-3 TAB)</td>
+<td><a href="DEMUX-3.html#software">DEMUX-3</a></td>
+</tr>
+<tr>
+<td>*DEMUX-3 FOR AMS8 (PLEASE USE DEMUX-3 TAB)</td>
+<td><a href="DEMUX-3.html#software">DEMUX-3</a></td>
+</tr>
+<tr>
+<td>AA6201A</td>
+<td><a href="AA6201A.html#software">AA6201A</a></td>
+</tr>
+<tr>
+<td>ABB1 (CS8412)</td>
+<td><a href="ABB1.html#software">ABB1</a></td>
+</tr>
+<tr>
+<td>ABB1 (CS8414)</td>
+<td><a href="ABB1.html#software">ABB1</a></td>
+</tr>
+<tr>
+<td>ABS1</td>
+<td><a href="ABS1.html#software">ABS1</a></td>
+</tr>
+<tr>
+<td>AIP8-2A</td>
+<td><a href="AIP8.html#software">AIP8</a></td>
+</tr>
+<tr>
+<td>AMS16A</td>
+<td><a href="AMS16.html#software">AMS16</a></td>
+</tr>
+<tr>
+<td>AMS16A-1</td>
+<td><a href="AMS16.html#software">AMS16</a></td>
+</tr>
+<tr>
+<td>AMS4(demux3)</td>
+<td><a href="AMS4.html#software">AMS4</a></td>
+</tr>
+<tr>
+<td>AMS4(demux4)</td>
+<td><a href="AMS4.html#software">AMS4</a></td>
+</tr>
+<tr>
+<td>AMS4N</td>
+<td><a href="AMS4.html#software">AMS4</a></td>
+</tr>
+<tr>
+<td>AMS8-12 (ANALOG)</td>
+<td><a href="AMS8-1.html#software">AMS8-1</a></td>
+</tr>
+<tr>
+<td>AMS81</td>
+<td><a href="AMS8-1.html#software">AMS8-1</a></td>
+</tr>
+<tr>
+<td>AMS81-ISSUE 1</td>
+<td><a href="AMS8-1.html#software">AMS8-1</a></td>
+</tr>
+<tr>
+<td>AMS82</td>
+<td><a href="AMS8-2.html#software">AMS8-2</a></td>
+</tr>
+<tr>
+<td>AMS82-ISSUE 1</td>
+<td><a href="AMS8-2.html#software">AMS8-2</a></td>
+</tr>
+<tr>
+<td>ARX422</td>
+<td><a href="ARX422.html#software">ARX422</a></td>
+</tr>
+<tr>
+<td>AV6201A</td>
+<td><a href="AV6201A.html#software">AV6201A</a></td>
+</tr>
+<tr>
+<td>AV6202A</td>
+<td><a href="AV6202A.html#software">AV6202A</a></td>
+</tr>
+<tr>
+<td>AVB1 (U200)</td>
+<td><a href="AVB1.html#software">AVB1</a></td>
+</tr>
+<tr>
+<td>AVB1 (U201)</td>
+<td><a href="AVB1.html#software">AVB1</a></td>
+</tr>
+<tr>
+<td>AVB1-1 (B - PAL VERSION)</td>
+<td><a href="AVB1.html#software">AVB1</a></td>
+</tr>
+<tr>
+<td>AVM4</td>
+<td><a href="AVM4.html#software">AVM4</a></td>
+</tr>
+<tr>
+<td>AVM4-1</td>
+<td><a href="AVM4.html#software">AVM4</a></td>
+</tr>
+<tr>
+<td>AVM4-2</td>
+<td><a href="AVM4.html#software">AVM4</a></td>
+</tr>
+<tr>
+<td>AVS</td>
+<td><a href="AVS.html#software">AVS</a></td>
+</tr>
+<tr>
+<td>D6201A</td>
+<td><a href="D6201A.html#software">D6201A</a></td>
+</tr>
+<tr>
+<td>D6201B</td>
+<td><a href="D6201B.html#software">D6201B</a></td>
+</tr>
+<tr>
+<td>D6202A</td>
+<td><a href="D6202A.html#software">D6202A</a></td>
+</tr>
+<tr>
+<td>D6202B</td>
+<td><a href="D6202B.html#software">D6202B</a></td>
+</tr>
+<tr>
+<td>D6203A</td>
+<td><a href="D6203A.html#software">D6203A</a></td>
+</tr>
+<tr>
+<td>D6204A</td>
+<td><a href="D6204A.html#software">D6204A</a></td>
+</tr>
+<tr>
+<td>D6207A</td>
+<td><a href="D6207A.html#software">D6207A</a></td>
+</tr>
+<tr>
+<td>D8201</td>
+<td><a href="D8201.html#software">D8201</a></td>
+</tr>
+<tr>
+<td>D8201A</td>
+<td><a href="D8201.html#software">D8201</a></td>
+</tr>
+<tr>
+<td>D8202</td>
+<td><a href="D8202.html#software">D8202</a></td>
+</tr>
+<tr>
+<td>D8203</td>
+<td><a href="D8203.html#software">D8203</a></td>
+</tr>
+<tr>
+<td>D8203 ISSUE 4+</td>
+<td><a href="D8203.html#software">D8203</a></td>
+</tr>
+<tr>
+<td>D8204</td>
+<td><a href="D8204.html#software">D8204</a></td>
+</tr>
+<tr>
+<td>D8204A</td>
+<td><a href="D8204.html#software">D8204</a></td>
+</tr>
+<tr>
+<td>D8204B</td>
+<td><a href="D8204.html#software">D8204</a></td>
+</tr>
+<tr>
+<td>D8204C</td>
+<td><a href="D8204.html#software">D8204</a></td>
+</tr>
+<tr>
+<td>D8205</td>
+<td><a href="D8205.html#software">D8205</a></td>
+</tr>
+<tr>
+<td>D8206</td>
+<td><a href="D8206.html#software">D8206</a></td>
+</tr>
+<tr>
+<td>D8206 (NTSC)</td>
+<td><a href="D8206.html#software">D8206</a></td>
+</tr>
+<tr>
+<td>D8206 (PAL)</td>
+<td><a href="D8206.html#software">D8206</a></td>
+</tr>
+<tr>
+<td>D8207</td>
+<td><a href="D8207.html#software">D8207</a></td>
+</tr>
+<tr>
+<td>D8208</td>
+<td><a href="D8208.html#software">D8208</a></td>
+</tr>
+<tr>
+<td>D820x</td>
+<td><a href="D8205.html#software">D8205</a></td>
+</tr>
+<tr>
+<td>D820x</td>
+<td><a href="D8206.html#software">D8206</a></td>
+</tr>
+<tr>
+<td>D820x</td>
+<td><a href="D8207.html#software">D8207</a></td>
+</tr>
+<tr>
+<td>D820x</td>
+<td><a href="D8208.html#software">D8208</a></td>
+</tr>
+<tr>
+<td>DA301A</td>
+<td><a href="DA301.html#software">DA301</a></td>
+</tr>
+<tr>
+<td>DA302</td>
+<td><a href="DA302.html#software">DA302</a></td>
+</tr>
+<tr>
+<td>DA302A</td>
+<td><a href="DA302.html#software">DA302</a></td>
+</tr>
+<tr>
+<td>DA303A</td>
+<td><a href="DA303.html#software">DA303</a></td>
+</tr>
+<tr>
+<td>DA304A/B</td>
+<td><a href="DA304.html#software">DA304</a></td>
+</tr>
+<tr>
+<td>DA304C</td>
+<td><a href="DA304.html#software">DA304</a></td>
+</tr>
+<tr>
+<td>DA305</td>
+<td><a href="DA305.html#software">DA305</a></td>
+</tr>
+<tr>
+<td>DA305A</td>
+<td><a href="DA305.html#software">DA305</a></td>
+</tr>
+<tr>
+<td>DA305B</td>
+<td><a href="DA305.html#software">DA305</a></td>
+</tr>
+<tr>
+<td>DA305C</td>
+<td><a href="DA305.html#software">DA305</a></td>
+</tr>
+<tr>
+<td>DEMUX-1 (B - PAL VERSION)</td>
+<td><a href="DEMUX-1.html#software">DEMUX-1</a></td>
+</tr>
+<tr>
+<td>DEMUX-2</td>
+<td><a href="DEMUX-2.html#software">DEMUX-2</a></td>
+</tr>
+<tr>
+<td>DEMUX-2 (B - PAL VERSION) FOR XTM4</td>
+<td><a href="DEMUX-2.html#software">DEMUX-2</a></td>
+</tr>
+<tr>
+<td>DEMUX-2 (PAL VERSION)</td>
+<td><a href="DEMUX-2.html#software">DEMUX-2</a></td>
+</tr>
+<tr>
+<td>DEMUX-3 FOR AIP8-2A</td>
+<td><a href="DEMUX-3.html#software">DEMUX-3</a></td>
+</tr>
+<tr>
+<td>DEMUX-3 FOR AMS4</td>
+<td><a href="DEMUX-3.html#software">DEMUX-3</a></td>
+</tr>
+<tr>
+<td>DEMUX-3 FOR DMS1</td>
+<td><a href="DEMUX-3.html#software">DEMUX-3</a></td>
+</tr>
+<tr>
+<td>DEMUX-3 FOR XTM4</td>
+<td><a href="DEMUX-3.html#software">DEMUX-3</a></td>
+</tr>
+<tr>
+<td>DMS-1</td>
+<td><a href="DMS1.html#software">DMS1</a></td>
+</tr>
+<tr>
+<td>DMS-1(obsolete)</td>
+<td><a href="DMS1.html#software">DMS1</a></td>
+</tr>
+<tr>
+<td>M6202A</td>
+<td><a href="M6202A.html#software">M6202A</a></td>
+</tr>
+<tr>
+<td>M6202AE</td>
+<td><a href="M6202AE.html#software">M6202AE</a></td>
+</tr>
+<tr>
+<td>M6203A</td>
+<td><a href="M6203A.html#software">M6203A</a></td>
+</tr>
+<tr>
+<td>M6204A</td>
+<td><a href="M6204A.html#software">M6204A</a></td>
+</tr>
+<tr>
+<td>M6205C (C100)</td>
+<td><a href="M6205C.html#software">M6205C</a></td>
+</tr>
+<tr>
+<td>M6205C (C200)</td>
+<td><a href="M6205C.html#software">M6205C</a></td>
+</tr>
+<tr>
+<td>M6205CE (C300)</td>
+<td><a href="M6205CE.html#software">M6205CE</a></td>
+</tr>
+<tr>
+<td>M6206A</td>
+<td><a href="M6206A.html#software">M6206A</a></td>
+</tr>
+<tr>
+<td>MLC6A</td>
+<td><a href="MLC6A.html#software">MLC6A</a></td>
+</tr>
+<tr>
+<td>MLC8A</td>
+<td><a href="MLC8A.html#software">MLC8A</a></td>
+</tr>
+<tr>
+<td>MLC8B (aka MLC8AM)</td>
+<td><a href="MLC8B.html#software">MLC8B</a></td>
+</tr>
+<tr>
+<td>MLC8C</td>
+<td><a href="MLC8C.html#software">MLC8C</a></td>
+</tr>
+<tr>
+<td>MLC8CA</td>
+<td><a href="MLC8C.html#software">MLC8C</a></td>
+</tr>
+<tr>
+<td>MLC8D</td>
+<td><a href="MLC8D.html#software">MLC8D</a></td>
+</tr>
+<tr>
+<td>POD10</td>
+<td><a href="POD10.html#software">POD10</a></td>
+</tr>
+<tr>
+<td>POD10(obsolete)</td>
+<td><a href="POD10.html#software">POD10</a></td>
+</tr>
+<tr>
+<td>POD10A</td>
+<td><a href="POD10A.html#software">POD10A</a></td>
+</tr>
+<tr>
+<td>POD10R</td>
+<td><a href="POD10.html#software">POD10</a></td>
+</tr>
+<tr>
+<td>POD11</td>
+<td><a href="POD11.html#software">POD11</a></td>
+</tr>
+<tr>
+<td>POD11A (HI-RES METER)</td>
+<td><a href="POD11A.html#software">POD11A</a></td>
+</tr>
+<tr>
+<td>POD12A</td>
+<td><a href="POD12A.html#software">POD12A</a></td>
+</tr>
+<tr>
+<td>POD13</td>
+<td><a href="POD13.html#software">POD13</a></td>
+</tr>
+<tr>
+<td>POD13A</td>
+<td><a href="POD13A.html#software">POD13A</a></td>
+</tr>
+<tr>
+<td>POD14</td>
+<td><a href="POD14.html#software">POD14</a></td>
+</tr>
+<tr>
+<td>POD14A</td>
+<td><a href="POD14A.html#software">POD14A</a></td>
+</tr>
+<tr>
+<td>POD16</td>
+<td><a href="POD16.html#software">POD16</a></td>
+</tr>
+<tr>
+<td>POD17</td>
+<td><a href="POD17.html#software">POD17</a></td>
+</tr>
+<tr>
+<td>POD19</td>
+<td><a href="POD19.html#software">POD19</a></td>
+</tr>
+<tr>
+<td>POD2</td>
+<td><a href="POD2.html#software">POD2</a></td>
+</tr>
+<tr>
+<td>POD2/9 COMM(obsolete)</td>
+<td><a href="POD2.html#software">POD2</a></td>
+</tr>
+<tr>
+<td>POD21</td>
+<td><a href="POD21.html#software">POD21</a></td>
+</tr>
+<tr>
+<td>POD21/R (POD2)</td>
+<td><a href="POD21.html#software">POD21</a></td>
+</tr>
+<tr>
+<td>POD22</td>
+<td><a href="POD22.html#software">POD22</a></td>
+</tr>
+<tr>
+<td>POD23</td>
+<td><a href="POD23.html#software">POD23</a></td>
+</tr>
+<tr>
+<td>POD23A</td>
+<td><a href="POD23A.html#software">POD23A</a></td>
+</tr>
+<tr>
+<td>POD25</td>
+<td><a href="POD25.html#software">POD25</a></td>
+</tr>
+<tr>
+<td>POD27</td>
+<td><a href="POD27.html#software">POD27</a></td>
+</tr>
+<tr>
+<td>POD27 (NO SRC FOR DOLBY EMBEDDING)</td>
+<td><a href="POD27.html#software">POD27</a></td>
+</tr>
+<tr>
+<td>POD27 (PAL - No Dolby)</td>
+<td><a href="POD27.html#software">POD27</a></td>
+</tr>
+<tr>
+<td>POD28</td>
+<td><a href="POD28.html#software">POD28</a></td>
+</tr>
+<tr>
+<td>POD30</td>
+<td><a href="POD30.html#software">POD30</a></td>
+</tr>
+<tr>
+<td>POD30 /R</td>
+<td><a href="POD30.html#software">POD30</a></td>
+</tr>
+<tr>
+<td>POD30(obsolete)</td>
+<td><a href="POD30.html#software">POD30</a></td>
+</tr>
+<tr>
+<td>POD31</td>
+<td><a href="POD31.html#software">POD31</a></td>
+</tr>
+<tr>
+<td>POD32</td>
+<td><a href="POD32.html#software">POD32</a></td>
+</tr>
+<tr>
+<td>POD33</td>
+<td><a href="POD33.html#software">POD33</a></td>
+</tr>
+<tr>
+<td>POD3A</td>
+<td><a href="POD3A.html#software">POD3A</a></td>
+</tr>
+<tr>
+<td>POD3A / SLM1A (HI-RES METER)</td>
+<td><a href="POD3A.html#software">POD3A</a></td>
+</tr>
+<tr>
+<td>POD7</td>
+<td><a href="POD7.html#software">POD7</a></td>
+</tr>
+<tr>
+<td>POD9</td>
+<td><a href="POD9.html#software">POD9</a></td>
+</tr>
+<tr>
+<td>POD9R</td>
+<td><a href="POD9.html#software">POD9</a></td>
+</tr>
+<tr>
+<td>R201</td>
+<td><a href="R201.html#software">R201</a></td>
+</tr>
+<tr>
+<td>R203 (U50)</td>
+<td><a href="R203.html#software">R203</a></td>
+</tr>
+<tr>
+<td>R203 (U51)</td>
+<td><a href="R203.html#software">R203</a></td>
+</tr>
+<tr>
+<td>R204 (U50)</td>
+<td><a href="R204.html#software">R204</a></td>
+</tr>
+<tr>
+<td>R205 (U50)</td>
+<td><a href="R205.html#software">R205</a></td>
+</tr>
+<tr>
+<td>R206 (U16) TIMER</td>
+<td><a href="R206.html#software">R206</a></td>
+</tr>
+<tr>
+<td>R206 (U2)</td>
+<td><a href="R206.html#software">R206</a></td>
+</tr>
+<tr>
+<td>R206 (U3)</td>
+<td><a href="R206.html#software">R206</a></td>
+</tr>
+<tr>
+<td>R206A</td>
+<td><a href="R206.html#software">R206</a></td>
+</tr>
+<tr>
+<td>R209A</td>
+<td><a href="R209.html#software">R209</a></td>
+</tr>
+<tr>
+<td>R210</td>
+<td><a href="R210.html#software">R210</a></td>
+</tr>
+<tr>
+<td>R221</td>
+<td><a href="R221.html#software">R221</a></td>
+</tr>
+<tr>
+<td>R241</td>
+<td><a href="R241.html#software">R241</a></td>
+</tr>
+<tr>
+<td>R241*</td>
+<td><a href="R241.html#software">R241</a></td>
+</tr>
+<tr>
+<td>R243</td>
+<td><a href="R243.html#software">R243</a></td>
+</tr>
+<tr>
+<td>R248</td>
+<td><a href="R248.html#software">R248</a></td>
+</tr>
+<tr>
+<td>R248 (U16)</td>
+<td><a href="R248.html#software">R248</a></td>
+</tr>
+<tr>
+<td>R248 (U2)</td>
+<td><a href="R248.html#software">R248</a></td>
+</tr>
+<tr>
+<td>R248 (U3)</td>
+<td><a href="R248.html#software">R248</a></td>
+</tr>
+<tr>
+<td>R254 TIMER</td>
+<td><a href="R254.html#software">R254</a></td>
+</tr>
+<tr>
+<td>R257-1</td>
+<td><a href="R257.html#software">R257</a></td>
+</tr>
+<tr>
+<td>R257-2</td>
+<td><a href="R257.html#software">R257</a></td>
+</tr>
+<tr>
+<td>RA24</td>
+<td><a href="RA24.html#software">RA24</a></td>
+</tr>
+<tr>
+<td>RA24 /REMOTE</td>
+<td><a href="RA24.html#software">RA24</a></td>
+</tr>
+<tr>
+<td>RAV24</td>
+<td><a href="RAV24.html#software">RAV24</a></td>
+</tr>
+<tr>
+<td>RAV24 /REMOTE</td>
+<td><a href="RAV24.html#software">RAV24</a></td>
+</tr>
+<tr>
+<td>SD402</td>
+<td><a href="SD402.html#software">SD402</a></td>
+</tr>
+<tr>
+<td>SD403A</td>
+<td><a href="SD403.html#software">SD403</a></td>
+</tr>
+<tr>
+<td>SD403B</td>
+<td><a href="SD403.html#software">SD403</a></td>
+</tr>
+<tr>
+<td>SD403C</td>
+<td><a href="SD403.html#software">SD403</a></td>
+</tr>
+<tr>
+<td>SD404</td>
+<td><a href="SD404.html#software">SD404</a></td>
+</tr>
+<tr>
+<td>SD405</td>
+<td><a href="SD405.html#software">SD405</a></td>
+</tr>
+<tr>
+<td>SD406</td>
+<td><a href="SD406.html#software">SD406</a></td>
+</tr>
+<tr>
+<td>SLM1A</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SLM1A (HI-RES METER)</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SLM1D</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SLM1D (HI-RES METER)</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SLM1D/POD11A</td>
+<td><a href="POD11A.html#software">POD11A</a></td>
+</tr>
+<tr>
+<td>SLM4</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SLM4C</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SLM8</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SLM8 (110 ohm balanced)</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SLM8 (75 ohm unbalanced)</td>
+<td><a href="SLM.html#software">SLM</a></td>
+</tr>
+<tr>
+<td>SMS4</td>
+<td><a href="SMS4.html#software">SMS4</a></td>
+</tr>
+<tr>
+<td>SMS4 OLD</td>
+<td><a href="SMS4.html#software">SMS4</a></td>
+</tr>
+<tr>
+<td>STX422</td>
+<td><a href="STX422.html#software">STX422</a></td>
+</tr>
+<tr>
+<td>VMS3</td>
+<td><a href="VMS3.html#software">VMS3</a></td>
+</tr>
+<tr>
+<td>VMS33</td>
+<td><a href="VMS33.html#software">VMS33</a></td>
+</tr>
+<tr>
+<td>VMS33 (ANALOG INPUTS)</td>
+<td><a href="VMS33.html#software">VMS33</a></td>
+</tr>
+<tr>
+<td>VMS4</td>
+<td><a href="VMS4.html#software">VMS4</a></td>
+</tr>
+<tr>
+<td>VMS44</td>
+<td><a href="VMS44.html#software">VMS44</a></td>
+</tr>
+<tr>
+<td>VMS44 FULL</td>
+<td><a href="VMS44.html#software">VMS44</a></td>
+</tr>
+<tr>
+<td>VMS44-6</td>
+<td><a href="VMS44.html#software">VMS44</a></td>
+</tr>
+<tr>
+<td>VMS44SE</td>
+<td><a href="VMS44.html#software">VMS44</a></td>
+</tr>
+<tr>
+<td>XTM41</td>
+<td><a href="XTM4.html#software">XTM4</a></td>
+</tr>
+<tr>
+<td>XTM41/DMS1</td>
+<td><a href="XTM4.html#software">XTM4</a></td>
+</tr>
+<tr>
+<td>XTM41/DMS1(obsolete)</td>
+<td><a href="XTM4.html#software">XTM4</a></td>
+</tr>
+<tr>
+<td>XTM42(demux3)</td>
+<td><a href="XTM4.html#software">XTM4</a></td>
+</tr>
+<tr>
+<td>XTM42(demux4)</td>
+<td><a href="XTM4.html#software">XTM4</a></td>
+</tr>
+</tbody>
+</table><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from Software.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD30) · [download package (zip)](../_packages/POD30.zip) |
+| Try it | [full simulation: POD30](../siumulation.html?plugin=pod30) · [simulator & front panel](../simulator.html?m=POD30) · [KiCad symbol generator](../kicad.html?m=POD30) · [download package (zip)](../_packages/POD30.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD30 MANUAL(1).docx |
 | Confidence | medium |
@@ -24,6 +24,40 @@ tags: ["product", "pods", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD30" data-n="4x1 HD-SDI Switcher" data-cat="PODS" role="img" aria-label="POD30 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD30: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD30 | Microcontroller | PIC16F874 | HS | **V020000** | 2013-08-26 | Standard Products |
+| POD30 | Microcontroller | PIC16F747 | HS | POD30V101 (not released) | not released | Standard Products |
+| POD30 /R | Microcontroller | PIC16F874 | HS | **POD30R100** | 2006-08-11 | Standard Products |
+| POD30 /R | Microcontroller | PIC16F747 | HS | **POD30R101** | 2007-03-21 | Standard Products |
+| POD30(obsolete) | Microcontroller | PIC16F874 | HS | **POD30V100** | 2004-09-16 | Standard Products |
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2004\|37 | 2004-09-16 | POD30(obsolete) | PIC16F874 | POD30V100 |  |  |
+| 2006\|39 | 2006-08-11 | POD30 /R | PIC16F874 | POD30R100 |  |  |
+| 2007\|40 | 2007-03-21 | POD30 /R | PIC16F747 | POD30R101 |  | WKW 2007-03-21 |
+| 2013\|46 | 2013-08-26 | POD30 | PIC16F874 | V020000 |  | WKW 2013-08-26 |
+|  | not released | POD30 | PIC16F747 | — | POD30V101 | Bob NEEDS TESTING, WKW NEEDS TESTING |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **V020000** — 2013|46 · 2013-08-26 — _POD30 · PIC16F874_: Fix leaking problem between inputs
+
+_No change note in the listing for: POD30V100, POD30V101, POD30R100, POD30R101._
 
 ## Dates found in the documents
 
@@ -63,3 +97,54 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2014 - POD30 - MANUAL.docx](../Products/PODS/POD30/2014%20-%20POD30%20-%20MANUAL.docx), p. 1
 <details><summary>Warranty — 0 words · 2014 - POD30 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD30 - MANUAL (2).docx](../Products/PODS/POD30/2014%20-%20POD30%20-%20MANUAL%20%282%29.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD30",
+ "name": "4x1 HD-SDI Switcher",
+ "category": "PODS",
+ "year": 2014,
+ "documents": [
+  {
+   "file": "Products/PODS/POD30/2014 - POD30 - Front.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD30/2014 - POD30 - Information Sheet.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD30/2014 - POD30 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD30/2014 - POD30 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD30/2014 - POD30 - Rear.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

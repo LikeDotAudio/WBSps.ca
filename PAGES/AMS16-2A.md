@@ -13,7 +13,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS16-2A) |
+| Try it | [simulator & front panel](../simulator.html?m=AMS16-2A) · [KiCad symbol generator](../kicad.html?m=AMS16-2A) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -25,8 +25,32 @@ tags: ["product", "metering", "2010s"]
 
 <svg class="wbs-panel solo" data-m="AMS16-2A" data-n="" data-cat="METERING" role="img" aria-label="AMS16-2A front panel"></svg>
 
+<a id="software"></a>
+
+## Software
+
+The software listings name the AMS16-2A only as part of the [AMS16](AMS16.md#software) family: its firmware, versions and change notes are on that page (latest: AMS16A PRODUCT REVISIONS 06AV0002; AMS16A-1 PRODUCT REVISIONS V1000).
+
 ## Photos & scans (1)
 
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - AMS16-2A - Rear.jpg](../Products/METERING/AMS16-2A/2014%20-%20AMS16-2A%20-%20Rear.jpg) | [note](../Products/METERING/AMS16-2A/2014%20-%20AMS16-2A%20-%20Rear.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS16-2A",
+ "category": "METERING",
+ "year": 2013,
+ "documents": [
+  {
+   "file": "Products/METERING/AMS16-2AE/2014 - AMS16-2AE - Rear.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

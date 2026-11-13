@@ -14,7 +14,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD4) · [download package (zip)](../_packages/POD4.zip) |
+| Try it | [full simulation: POD4](../siumulation.html?plugin=pod4) · [simulator & front panel](../simulator.html?m=POD4) · [KiCad symbol generator](../kicad.html?m=POD4) · [download package (zip)](../_packages/POD4.zip) |
 | Earliest dated evidence | [1995\|28](Year-1995.md) — month & year |
 | Evidence | "December 7, 1995" in WBSps Engineering from H drive-20261018T013433Z-1-002/WBSps Engineering from H drive/WBSps - POD_OLD/POD4/INTER4.WPD |
 | Confidence | medium |
@@ -26,6 +26,12 @@ tags: ["product", "pods", "1990s"]
 _What it is made of and what it is part of._
 
 <div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="POD4" data-n="Dual Microphone Preamplifier" data-cat="PODS"></div><svg class="wbs-panel" data-m="POD4" data-n="Dual Microphone Preamplifier" data-cat="PODS" role="img" aria-label="POD4 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"POD4","title":"Dual Microphone Preamplifier","rto":null,"parts":[{"item":"SA14-306","title":"Dual Mic Preamplifier Component Layout","label":"SA14-306 Dual Mic Preamplifier Comp","href":"Register-Circuit-boards-SA14-nnn.html#sa14-306","note":"Circuit boards (SA14-nnn)"}],"parents":[]}</script></div></div><script src="wbs_spice.js"></script>
+
+<a id="software"></a>
+
+## Software
+
+The POD4 is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -126,3 +132,230 @@ _Read from the drawing title blocks._
 | Drawing | Title | Date | [Drawn by](People.md#drawing-staff) | [Checked by](People.md#drawing-staff) | Iss. | Source |
 |---|---|---|---|---|---|---|
 | 14-306-06-001 | Dual Mic Preamplifier Component Layout |  |  |  | 1 | [file](../Products/PODS/POD4/1995%20-%20POD4%20-%20POD4%20-%2014-306%20-%20PCB.pcb) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD4",
+ "name": "Dual Microphone Preamplifier",
+ "category": "PODS",
+ "year": 1995,
+ "made_of": [
+  "SA14-306"
+ ],
+ "documents": [
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - #ESP_OUT.txt",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - FN3 '3RD PART FIELD' - DOCUMENT.docx",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - Front.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - Information Sheet.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - POD4 - #ESP_OUT.TXT - DOCUMENT.docx",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - POD4 - 14-306 - PCB.pcb",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - POD4 - DRAFTERR.LOG - DOCUMENT.docx",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - POD4 - FAPOD4-1 - DRAWING (AUTOCAD).dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - POD4 - LMPOD4-4 - LAYOUT.dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - POD4 - P4REAR - DRAWING (AUTOCAD).dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - POD4 - POD4-1C - DRAWING (AUTOCAD).dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - POD4 - WPFRONT - LAYOUT.dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - Rear.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1995 - POD4 - SCHEMATIC.wpd",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - 9MM3S01 - SCHEMATIC.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - FAPOD4 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - LMPOD4-1 - WIRING.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - LMPOD4-2 - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - LMPOD4-3 - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - POD4-1A - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - POD4M01 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - POD4M02 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - POD4MAN.wpd",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - POD4MAN1 - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1996 - POD4 - POD4 - TRY.wpd",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1997 - POD4 - POD4 - DUAL MICROPHONE PREAMPLIFIER - FRONT PANEL.wpd",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/1997 - POD4 - POD4 - POD4SLKF - DOCUMENT.cdr",
+   "year": 1997,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1997 - POD4 - POD4 - POD4SLKS - DOCUMENT.cdr",
+   "year": 1997,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/1997 - POD4 - POD4 - PODSLK - DOCUMENT.cdr",
+   "year": 1997,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD4/2014 - POD4 - Manual (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD4/2014 - POD4 - Manual.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

@@ -14,7 +14,7 @@ tags: ["product", "micro-series", "1980s"]
 |---|---|
 | Type | product |
 | Series | [MICRO SERIES](Series-MICRO-SERIES.md) |
-| Try it | [simulator & front panel](../simulator.html?m=microCOM) · [download package (zip)](../_packages/microCOM.zip) |
+| Try it | [simulator & front panel](../simulator.html?m=microCOM) · [KiCad symbol generator](../kicad.html?m=microCOM) · [download package (zip)](../_packages/microCOM.zip) |
 | Earliest dated evidence | [1981\|14](Year-1981.md) — written date |
 | Evidence | "07/13/81" in PUBLIC/Manuals + tech DOCUMENTS/Intercom/microcom/WBS MicroCOM Inst Man p49.JPG |
 | Confidence | medium |
@@ -35,6 +35,12 @@ _Inputs, outputs, power and control as its own documents name them (no RTO-144 s
 <div class="wbs-pinconn" style="margin:6px 0 10px"><svg class="wp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 650" width="400" height="650" role="img" aria-label="microCOM connections" style="width:100%;max-width:500px;height:auto;background:#fbfaf4"><style>.wp text{font-family:"Courier Prime","Courier New",Courier,monospace;fill:#1f1e1c;font-size:12px} .wp .f{fill:#6d6a63;font-size:10.5px} .wp .h{font-size:12.5px;font-weight:700;letter-spacing:.04em} .wp .b{font-size:17px;font-weight:700} .wp a text{fill:#1f3f6b;text-decoration:underline} .wp a:hover rect{fill:#efe9d2}</style><text x="4" y="18" class="h">microCOM — Instruct Ion</text><rect x="136" y="44" width="128" height="130" fill="#f4ecd2" stroke="#1f1e1c" stroke-width="1.6"/><text x="200.0" y="70" class="b" text-anchor="middle">microCOM</text><text x="200.0" y="88" class="f" text-anchor="middle">INSTRUCT ION</text><text x="200.0" y="162" class="f" text-anchor="middle">no pins read yet</text><text x="4" y="206" class="h">CONNECTED TO · CONSOLES &amp; JOBS (3)</text><a href="Job-860693.md"><rect x="4" y="214" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="228">860693</text><text x="10" y="242" class="f">NBC TV - MICROCOM STUDIO 3K…</text></a><a href="Job-870200.md"><rect x="202" y="214" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="228">870200</text><text x="208" y="242" class="f">CFPL-TV - CUSTOM MICROCOM S…</text></a><a href="Job-880545.md"><rect x="4" y="254" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="268">880545</text><text x="10" y="282" class="f">COMMUNICATIONS ENGINEERING …</text></a><text x="4" y="320" class="h">MADE OF · SUB-ASSEMBLIES (8)</text><a href="Register-Circuit-boards-SA14-nnn.md#sa14-012"><rect x="4" y="328" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="342">SA14-012</text><text x="10" y="356" class="f">Intercom Turret Audio Ampli…</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-013"><rect x="202" y="328" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="342">SA14-013</text><text x="208" y="356" class="f">SA14-013 / INTERCOM TURRET …</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-018"><rect x="4" y="368" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="382">SA14-018</text><text x="10" y="396" class="f">SA14-018 / LEVER KEY ASSEMB…</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-029"><rect x="202" y="368" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="382">SA14-029</text><text x="208" y="396" class="f">Circuit boards (SA14-nnn)</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-033"><rect x="4" y="408" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="422">SA14-033</text><text x="10" y="436" class="f">SA14-033 / CONTROLLER DAUGH…</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-172"><rect x="202" y="408" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="422">SA14-172</text><text x="208" y="436" class="f">14-172-02-004 - COMPONENT L…</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-173"><rect x="4" y="448" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="462">SA14-173</text><text x="10" y="476" class="f">Circuit boards (SA14-nnn)</text></a><a href="Register-Circuit-boards-SA14-nnn.md#sa14-271"><rect x="202" y="448" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="462">SA14-271</text><text x="208" y="476" class="f">Circuit boards (SA14-nnn)</text></a><text x="4" y="514" class="h">DRAWN WITH · MODULES (5)</text><a href="M7880.md"><rect x="4" y="522" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="536">M7880</text><text x="10" y="550" class="f">on 24 drawings with it</text></a><a href="microCOM-II.md"><rect x="202" y="522" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="536">microCOM II</text><text x="208" y="550" class="f">on 11 drawings with it</text></a><a href="M7880G.md"><rect x="4" y="562" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="576">M7880G</text><text x="10" y="590" class="f">on 10 drawings with it</text></a><a href="M7830.md"><rect x="202" y="562" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="208" y="576">M7830</text><text x="208" y="590" class="f">on 6 drawings with it</text></a><a href="M7840.md"><rect x="4" y="602" width="192" height="34" fill="#fbfaf4" stroke="#cfcabc"/><text x="10" y="616">M7840</text><text x="10" y="630" class="f">on 5 drawings with it</text></a></svg></div>
 
 <p><a href="../Engineering/IO/microCOM.connections.svg">connections (SVG)</a></p>
+
+<a id="software"></a>
+
+## Software
+
+The microCOM is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -353,3 +359,1349 @@ _Read from the drawing title blocks._
 | 950226-01-001 | Matrix Outputs Dbu Ihuauaawa |  | [WK](Person-WK.md) |  |  | [file](../Consoles/1990-1999/950226/1995%20-%20950226%20-%20DOC%20-%20950226-01-001%20-%20MATRIX%20OUTPUTS%20DBU%20IHUAUAAWA.jpg) |
 | 960134-04-005 | Inside Tpcesslvbly Shorn Nnsde Ofassdmbly |  | [GEB (Gerry E. Bell)](Person-GEB.md) |  | L | [file](../Consoles/1990-1999/960134/1996%20-%20960134%20-%20DOC%20-%20960134-04-005%20-%20INSIDE%20TPCESSLVBLY%20SHORN%20NNSDE%20OFASSDMBLY.jpg) |
 | 960163-04-001 | Frames Are Shown With Doors Removed Connections |  |  |  |  | [file](../Consoles/1990-1999/960163%20-%20CBC%20OTTAWA/1996%20-%20960163%20-%20DOC%20-%20960163-04-001%20-%20FRAMES%20ARE%20SHOWN%20WITH%20DOORS%20REMOVED%20CONNECTIONS.jpg) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "microCOM",
+ "name": "Instruct Ion",
+ "category": "MICRO SERIES",
+ "year": 1981,
+ "connections": {
+  "from": "its own documents",
+  "inputs": [
+   "Input/Output Control",
+   "Dial In Diraxb Sela Gfx Engctl"
+  ],
+  "outputs": [
+   "Output"
+  ],
+  "power": [
+   "-12V"
+  ],
+  "control": [
+   "'Calling Tally Data",
+   "Inputioutput Control Logic"
+  ]
+ },
+ "made_of": [
+  "SA14-012",
+  "SA14-013",
+  "SA14-018",
+  "SA14-029",
+  "SA14-033",
+  "SA14-172",
+  "SA14-173",
+  "SA14-271"
+ ],
+ "part_of": [
+  "860693",
+  "870200",
+  "880545"
+ ],
+ "documents": [
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 013-06-001 - INTERCOM TURRET CONTROLLER COMPONENT LAYOUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 029-02-001 - ADORESS OUTPUTS NADS NADS.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 033-02-001 - CONTROLLER DAUGHTER BOARD ASEY SCHEMATIC.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 034-02-002 - STATUS SELECTOR ASSEMBLY SCHEMATIC.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 035-02-001 - STATUS INDICATOR ASSEMBLY SCHEMATIC.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 10-02-001 - INTERCOM STUDIO TERMINAL SCHEMATIC.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 14-012-02-001.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 14-012-06-001 - INTERCOM TURRET AUDIO AMPLIFIER COMPONENT LAYOUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 14-013-02-001.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 14-018-02-001 - LEVER KEY ASSEMBLY SCHEMATIC.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 14-029-06-001.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 14-033-06-001.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 771-01-001 - MATRIX LATCH MODULE FUNCTIONAL.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 771-02-001 - BUS SELECT STROBE MATRIX LATCH CARD SCHEMATIC.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7710-01-002 - MIC INPUT AND PREAXP OUTPUT POWER FAIL.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7710-02-002 - KEYPAD ANALOG COM.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7710-04-002 - MONITOR TERMINAL FRONT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 772-01-001 - DATA TRANSMIT-RECENE MODULE FUNCTIONAL.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 772-02-001 - DATA TRANSMITIRECEIVE MODULE SCHEMATIC.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 772-06-001 - DATA TRANSMITIRECEIVE MODULE COMPONENT LAYOUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 774-01-002.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 774-02-002 - CONTROLLER MODULE.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7750-02-021 - REAY KLLSELLD ALAL AHPA BEET.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7750-02-022 - OUTPUT MONITOR FOR MODULS AND CONNECTORS FRAME LAYOUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7750-04-021 - CONTROL ASSEMBLY FRAME LAYOUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 777-01-002 - STATUS MONITOR MODULE FUNCTIONAL.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 777-02-002 - STATUS INDICATOR CARD STATUS INDICATOR CARD.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 777-04-002 - STATUS MONITOR MODULE FRONT PANEL LAYOUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 778-02-001 - RELAY MODULE SCHEMATIC.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 778-06-001.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 780-02-001 - POWER SUPPLY CARD.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7800-01-001 - MIC INPUT POWER FAIL PREAHP OUTPUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7800-02-001 - COM BBON CABLE.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7800-04-001 - COMMUNICATION TERMINAL FRONT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7810-01-001 - DAIABUS CPU ADDRESS BUS.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7810-06-001 - INTERCOM STUDIO TERMINAL PERSPECTIVE LAYOUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7820-02-001 - KEY LEVER KEY ASSY MASTER.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7820-04-001 - SECONDARY TERMINAL FRONT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7830-01-001 - SECONDARY TERMINAL FUNCTIONAL.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7830-02-001 - RIBBON CABLE KEY CONTROLS.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - 7830-06-001 - SECONDARY TERMINAL PERSPECTIVE LAYOUT.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "text",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Australia intercom 001.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Australia intercom 002.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Australia intercom 003.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Australia intercom 004.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Australia intercom 005.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p1.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p10.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p11.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p12.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p13.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p14.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p15.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p16.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p17.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p18.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p19.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p2.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p20.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p21.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p22.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p23.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p24.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p25.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p26.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p27.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p28.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p29.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p3.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p30.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p31.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p32.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p33.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p34.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p35.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p36.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p37.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p38.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p39.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p4.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p40.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p41.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p42.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p43.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p44.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p45.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p46.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p47.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p48.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p49.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p5.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p50.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p51.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p52.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p7.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p8.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - Inst Man p9.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - MicroCOM_small.jpg",
+   "year": 1981,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - System (2).jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - System.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - wbsps - ad - microcom.jpg",
+   "year": 1981,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1981 - microCOM - wbsps - ad - microcom_small.jpg",
+   "year": 1981,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1982 - microCOM - Inst Man p6.jpg",
+   "year": 1982,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1982 - microCOM - Instruction Manual.pdf",
+   "year": 1982,
+   "pages": 52,
+   "holds": [
+    "connections",
+    "dates",
+    "modules",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1992 - microCOM - DOC - 920342-01-001 - PUTS SPARE JACKS FROM CONSOLES JALKS.jpg",
+   "year": 1992,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 930007-01-002 - VONTTOR TERUINAL METER PANEL AFVSICY.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 93018-01-001 - SEND IFVTYRED MATRIX MODULES NOT SUPPUED ACPTCNAL NOT.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 93032-01-001 - IRIX OUTPUTS JSSUEL REVSION.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 93038-01-001 - OHMS LOPHALSTS PANEL PRODUCOKS KUHD CE-RATORS.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 930420-01-001 - PER CUSTOMER REQUEST REVSION SSUE.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 930420-04-003 - PER CUSTOMER SALES REVISION LISSUE.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "modules",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 930430-01-001 - TORONTO BROADCAST CENTRE PROPOSED MICROCOM EKDX FUNCTIONAL.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 93044-01-001 - TORONTO BROADCAST CENTRE ENG PROPOSED MICROCOM FUNCTIONAL.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1993 - microCOM - DOC - 93049-01-001 - PFAAC COUJO NCAROOS TONOINALS OPTUCHA OHTERIDS.jpg",
+   "year": 1993,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1994 - microCOM - DOC - 2021-3-16-23-8-3.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1994 - microCOM - DOC - 940009-01-002 - OTHERS UPDATED PER CUSTOMER REQUEST REMSION.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1994 - microCOM - DOC - 940009-04-001 - SSUEL REMSION NOTES EQUIPMENT FRAMES ARE SHOWN WITH.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1994 - microCOM - DOC - 940145-04-001 - NOTES EQUIPMENT FRAMES ARE SHOWN WITH DOORS REMOVED.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1994 - microCOM - DOC - 940145-04-002 - MICROCOM REAR LAYOUT.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1994 - microCOM - DOC - 94055-01-001 - TEST UONITCF HTBED TERMINAL FUTURE OUTPUTS IFB INTERCOM.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1994 - microCOM - DOC - 94055-01-003 - IRS JACKS FOR ILLUSTRATIVE PURPOSES MAXIMUM DISTANCE FROM.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1995 - microCOM - DOC - 95020-01-002 - FUTURE IPHSI FUTURE MATRIX CUTPUTS.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1995 - microCOM - DOC - 950226-01-001 - MATRIX OUTPUTS DBU IHUAUAAWA.jpg",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1996 - microCOM - DOC - 960134-04-005 - INSIDE TPCESSLVBLY SHORN NNSDE OFASSDMBLY.jpg",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1996 - microCOM - DOC - 960163-04-001 - FRAMES ARE SHOWN WITH DOORS REMOVED CONNECTIONS.jpg",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "drawing",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1997 - microCOM - DOC - 2021-3-16-23-21-1.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1997 - microCOM - DOC - 2021-3-16-23-56-10.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1997 - microCOM - DOC - 2021-3-16-23-56-25.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/1997 - microCOM - DOC - 2021-3-16-23-56-49.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/2006 - microCOM - wbsps - ad - microcom.jpg",
+   "year": 2006,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "PHOTOS/Drawings/19xx - Layout of SC MP Chip.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "title_block"
+   ]
+  },
+  {
+   "file": "PHOTOS/Drawings/19xx - MicroCOM Communication System.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "title_block"
+   ]
+  },
+  {
+   "file": "PHOTOS/Drawings/19xx - Systems Description MicroCOM Communication System (2).jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "title_block"
+   ]
+  },
+  {
+   "file": "PHOTOS/Drawings/19xx - Systems Description MicroCOM Communication System.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "modules",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - 20170522_121429_002.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.53.45 AM (2).png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.53.45 AM.png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.54.01 AM.png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.56.58 AM (2).png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.56.58 AM.png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.57.11 AM.png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.57.12 AM.png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.57.14 AM.png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - Screen Shot 2016-03-06 at 12.57.15 AM.png",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - WBSPS - AD - Microcom II 0012.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - WBSPS - AD - Microcom II 003.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - AD - wbsps - ad - communications in the digital world.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - 2021-3-16-23-21-28.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - 2021-3-16-23-36-1.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - 2021-3-16-23-57-7.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - 2021-3-16-23-8-37.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - DOS COMPATIBLE COMPUTER SUPPLIED.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - IMG_2049-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - IMG_2052-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - IMG_2062-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - IMG_2067-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - IMG_2089-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - IMG_2114-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - IMG_2115-2013-04-08.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - M7880 - 14-172-02-004 - COMPONENT LAYOUT.wp",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - SECTIONS CROSSPOINT CROSSPOINT NORVALLY OFF SWITCHED.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - WEE LEGEND CROSSPOINT CROSSPOINT NORMALLY OFF SWITCHED.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/MICRO SERIES/microCOM/19xx - microCOM - DOC - wbsps - ad - communications in the digital world.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WBS Device Simulator</title>
+<meta name="description" content="Ward-Beck Systems archive simulator: one second of a device's life in slow motion, with block diagrams, schematics, software diagrams and a hands-on tutorial. Products are added as plugins in siumulation-plugins/.">
+<style>
+:root{
+  --bg:#f3f1ec; --panel:#ffffff; --panel2:#f8f7f3; --ink:#1d1f22; --ink2:#55595f; --line:#d9d6ce;
+  --accent:#1f7a4d; --accent2:#0d5c8c; --warn:#b5651d; --bad:#b3261e; --chip:#ecebe6;
+  --lane:#fbfaf7; --grid:#e7e4dc; --play:#d33a2c;
+  --dev:#17191b; --dev2:#25282b; --led-g:#7dff6a; --led-a:#ffb43a; --led-off:#2c332c; --vfd:#b6ff5a;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121416; --panel:#1b1e21; --panel2:#202428; --ink:#e7e9ea; --ink2:#a3a9ae; --line:#30353a;
+    --accent:#4cc38a; --accent2:#5aa9e6; --warn:#e3a35a; --bad:#ff7a6e; --chip:#262a2f;
+    --lane:#171a1d; --grid:#262b30; --play:#ff5a4a;
+  }
+}
+:root[data-theme="dark"]{
+    --bg:#121416; --panel:#1b1e21; --panel2:#202428; --ink:#e7e9ea; --ink2:#a3a9ae; --line:#30353a;
+    --accent:#4cc38a; --accent2:#5aa9e6; --warn:#e3a35a; --bad:#ff7a6e; --chip:#262a2f;
+    --lane:#171a1d; --grid:#262b30; --play:#ff5a4a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 var(--sans)}
+a{color:var(--accent2)}
+header.top{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+header.top h1{font-size:17px;margin:0;letter-spacing:.2px}
+header.top .sub{color:var(--ink2);font-size:12.5px}
+header.top .sp{flex:1}
+select,button,input[type=number]{font:inherit;color:var(--ink);background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:5px 9px}
+button{cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.transport{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:8px 16px;background:var(--panel2);border-bottom:1px solid var(--line)}
+.transport .t{font:600 15px var(--mono);min-width:150px}
+.transport input[type=range]{flex:1;min-width:180px;accent-color:var(--play)}
+.transport label{font-size:12px;color:var(--ink2);display:flex;align-items:center;gap:5px}
+nav.tabs{display:flex;flex-wrap:wrap;gap:4px;padding:8px 16px 0;border-bottom:1px solid var(--line);background:var(--bg)}
+nav.tabs button{border-radius:8px 8px 0 0;border-bottom:none;background:transparent}
+nav.tabs button.on{background:var(--panel);color:var(--ink);border-color:var(--line);font-weight:600;box-shadow:inset 0 3px 0 var(--accent)}
+main{padding:14px 16px 40px;max-width:1500px;margin:0 auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:14px}
+.card h2{font-size:15px;margin:0 0 8px}
+.card h3{font-size:13.5px;margin:12px 0 6px}
+.muted{color:var(--ink2)}
+.small{font-size:12.5px}
+.mono{font-family:var(--mono)}
+.grid2{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:980px){.grid2,.grid3{grid-template-columns:minmax(0,1fr)}}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:1px 8px;font-size:12px;margin:2px 3px 2px 0}
+.tag-inf{color:var(--warn);font-weight:600}
+table.kv{border-collapse:collapse;width:100%;font-size:12.5px}
+table.kv td,table.kv th{border-bottom:1px solid var(--line);padding:3px 6px;text-align:left;vertical-align:top}
+table.kv th{color:var(--ink2);font-weight:600}
+canvas{display:block;width:100%}
+svg text{font-family:var(--sans)}
+.scroll{overflow:auto}
+.footer{color:var(--ink2);font-size:12px;text-align:center;padding:20px}
+.log{font:12px/1.5 var(--mono);max-height:300px;overflow:auto;background:var(--lane);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+.log div{border-bottom:1px dashed var(--grid);padding:2px 0}
+.log b{color:var(--accent)}
+.hl{background:color-mix(in srgb, var(--accent) 22%, transparent);border-radius:3px}
+.empty{padding:40px;text-align:center;color:var(--ink2)}
+</style>
+</head>
+<body>
+<header class="top">
+  <a href="index.html" class="small" style="text-decoration:none" title="Ward-Beck Systems archive">◂ Archive</a>
+  <a href="siumulation-index.html" class="small" style="text-decoration:none">◂ Index</a>
+  <span id="wikiLink" class="small"></span>
+  <h1>WBS Device Simulator</h1>
+  <span class="sub">One second in slow motion: what the device and its displays see, frame by frame</span>
+  <span class="sp"></span>
+  <label class="small muted">Product plugin
+    <select id="pluginSel"></select>
+  </label>
+  <button id="themeBtn" title="Toggle light/dark">◐</button>
+</header>
+
+<div class="transport" id="transport">
+  <button id="playBtn" title="Play / pause (Space)">▶ Play</button>
+  <button id="stepBack" title="Step back one unit ( , )">◀ step</button>
+  <button id="stepFwd" title="Step forward one unit ( . )">step ▶</button>
+  <label>Step <select id="stepUnit"></select></label>
+  <span class="t" id="tRead">0.000 000 s</span>
+  <input type="range" id="tSlider" min="0" max="1" step="0.000001" value="0" aria-label="Simulation time">
+  <label>Speed <select id="speedSel">
+    <option value="0.1">1 s takes 10 s</option>
+    <option value="0.0166667" selected>1 s takes 60 s</option>
+    <option value="0.001">1 s takes 17 min (1/1000)</option>
+    <option value="0.00001">1/100 000 (bit level)</option>
+    <option value="1">real time</option>
+  </select></label>
+  <label>Zoom window <select id="zoomSel"></select></label>
+</div>
+
+<nav class="tabs" id="tabs"></nav>
+<main id="main"><div class="empty">Loading plugins…</div></main>
+<div class="footer">An archive by Anthony Peter Kuzub · WBSps.Kuzub.com · WBSps.ca — simulator core v1 (2026|59). Add products by dropping a plugin file in <span class="mono">siumulation-plugins/</span> and listing it in <span class="mono">plugins.js</span>.</div>
+
+<script>
+/* =====================================================================
+   WBS Device Simulator — core
+   ---------------------------------------------------------------------
+   The core owns: the 1-second timebase, transport (play / step / zoom),
+   tabs, and shared drawing helpers. Each product is a plugin that calls
+   SIM.register({...}). See siumulation-plugins/_template.js.
+   ===================================================================== */
+(function(){
+const $ = s => document.querySelector(s);
+const plugins = [];
+let active = null, activeTab = null, pendingWant = null;
+const listeners = {};
+
+const SIM = window.SIM = {
+  version: 1,
+  t: 0,               // current simulation time (s), 0..duration
+  duration: 1,
+  win: 0.1,           // zoom window (s)
+  playing: false,
+  register(p){ plugins.push(p); refreshPicker(); if (pendingWant ? pendingWant===p.id : !active){ pendingWant=null; activate(p.id); } },
+  on(ev, fn){ (listeners[ev] = listeners[ev] || []).push(fn); },
+  emit(ev, ...a){ (listeners[ev]||[]).forEach(f=>{ try{f(...a)}catch(e){console.error(e)} }); },
+  seek(t){ SIM.t = Math.max(0, Math.min(SIM.duration, t)); syncTransport(); SIM.emit('time', SIM.t); },
+  refresh(){ SIM.emit('time', SIM.t); },
+  /* --- formatting --- */
+  fmtT(t){ // seconds -> "0.016 683 s"
+    const s = t.toFixed(6); const [a,b] = s.split('.');
+    return a + '.' + b.slice(0,3) + ' ' + b.slice(3) + ' s';
+  },
+  fmtDur(d){
+    if (d === 0) return '0';
+    if (d >= 1) return d.toFixed(3)+' s';
+    if (d >= 1e-3) return (d*1e3).toPrecision(4).replace(/\.?0+$/,'')+' ms';
+    if (d >= 1e-6) return (d*1e6).toPrecision(4).replace(/\.?0+$/,'')+' µs';
+    return (d*1e9).toPrecision(4).replace(/\.?0+$/,'')+' ns';
+  },
+  year(y){ return y + '|' + (y-1967); },   // archive year format YYYY|n
+  css(name){ return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); },
+  el(tag, attrs, html){ const e=document.createElement(tag); if(attrs) for(const k in attrs){ if(k==='style') e.style.cssText=attrs[k]; else if(k.startsWith('on')) e.addEventListener(k.slice(2),attrs[k]); else e.setAttribute(k,attrs[k]); } if(html!=null) e.innerHTML=html; return e; },
+  /* Canvas helper: sizes canvas to CSS width * DPR, returns ctx scaled to CSS px */
+  canvas(cv, h){
+    const dpr = window.devicePixelRatio||1, w = cv.clientWidth || cv.parentNode.clientWidth || 600;
+    if (cv.width !== Math.round(w*dpr) || cv.height !== Math.round(h*dpr)){ cv.width=Math.round(w*dpr); cv.height=Math.round(h*dpr); cv.style.height=h+'px'; }
+    const c = cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0); c.clearRect(0,0,w,h); return {c,w,h};
+  },
+  /* Current zoom window [t0,t1]: centred on the playhead plus SIM.pan (set by wheel-zoom / drag on a graph) */
+  pan: 0,
+  window(){ let w=Math.min(SIM.win, SIM.duration), t0=SIM.t + SIM.pan - w*0.5; if(t0<0) t0=0; if(t0+w>SIM.duration) t0=Math.max(0,SIM.duration-w); return [t0, t0+w]; },
+  /* Show [t0, t0+w] on every timing graph (keeps following the playhead at that offset while playing) */
+  setView(t0, w){
+    w = Math.max(1e-9, Math.min(SIM.duration, w));
+    t0 = Math.max(0, Math.min(SIM.duration - w, t0));
+    SIM.win = w; SIM.pan = t0 + w/2 - SIM.t; syncZoomSel(); SIM.refresh();
+  },
+};
+
+/* ---------- 5x7 dot-matrix font (HD44780-style) shared by plugins ---------- */
+const F = {' ':[0,0,0,0,0,0,0],'-':[0,0,0,31,0,0,0],'/':[0,1,2,4,8,16,0],'.':[0,0,0,0,0,12,12],':':[0,12,12,0,12,12,0],'+':[0,4,4,31,4,4,0],'%':[24,25,2,4,8,19,3],
+'0':[14,17,19,21,25,17,14],'1':[4,12,4,4,4,4,14],'2':[14,17,1,2,4,8,31],'3':[31,2,4,2,1,17,14],'4':[2,6,10,18,31,2,2],'5':[31,16,30,1,1,17,14],'6':[6,8,16,30,17,17,14],'7':[31,1,2,4,8,8,8],'8':[14,17,17,14,17,17,14],'9':[14,17,17,15,1,2,12],
+A:[14,17,17,17,31,17,17],B:[30,17,17,30,17,17,30],C:[14,17,16,16,16,17,14],D:[28,18,17,17,17,18,28],E:[31,16,16,30,16,16,31],F:[31,16,16,30,16,16,16],G:[14,17,16,23,17,17,15],H:[17,17,17,31,17,17,17],I:[14,4,4,4,4,4,14],J:[7,2,2,2,2,18,12],K:[17,18,20,24,20,18,17],L:[16,16,16,16,16,16,31],M:[17,27,21,21,17,17,17],N:[17,17,25,21,19,17,17],O:[14,17,17,17,17,17,14],P:[30,17,17,30,16,16,16],Q:[14,17,17,17,21,18,13],R:[30,17,17,30,20,18,17],S:[15,16,16,14,1,1,30],T:[31,4,4,4,4,4,4],U:[17,17,17,17,17,17,14],V:[17,17,17,17,17,10,4],W:[17,17,17,21,21,21,10],X:[17,17,10,4,10,17,17],Y:[17,17,17,10,4,4,4],Z:[31,1,2,4,8,16,31],
+a:[0,0,14,1,15,17,15],b:[16,16,22,25,17,17,30],c:[0,0,14,16,16,17,14],d:[1,1,13,19,17,17,15],e:[0,0,14,17,31,16,14],f:[6,9,8,28,8,8,8],g:[0,15,17,17,15,1,14],h:[16,16,22,25,17,17,17],i:[4,0,12,4,4,4,14],k:[16,16,18,20,24,20,18],l:[12,4,4,4,4,4,14],m:[0,0,26,21,21,17,17],n:[0,0,22,25,17,17,17],o:[0,0,14,17,17,17,14],p:[0,0,30,17,30,16,16],r:[0,0,22,25,16,16,16],s:[0,0,14,16,14,1,30],t:[8,8,28,8,8,9,6],u:[0,0,17,17,17,19,13],v:[0,0,17,17,17,10,4],w:[0,0,17,17,21,21,10],x:[0,0,17,10,4,10,17],y:[0,0,17,17,15,1,14],z:[0,0,31,2,4,8,31]};
+/* Draw text as a dot-matrix display into an SVG group string. */
+SIM.dotMatrix = function(text, x, y, pitch, onColor, offColor){
+  let s=''; const r=pitch*0.38;
+  for (let ci=0; ci<text.length; ci++){
+    const g = F[text[ci]] || F[' '];
+    const cx = x + ci*pitch*6.2;
+    for (let row=0; row<7; row++) for (let col=0; col<5; col++){
+      const on = (g[row] >> (4-col)) & 1;
+      s += `<circle cx="${(cx+col*pitch).toFixed(1)}" cy="${(y+row*pitch).toFixed(1)}" r="${r.toFixed(2)}" fill="${on?onColor:offColor}"${on?' class="dmOn"':''}/>`;
+    }
+  }
+  return s;
+};
+
+/* Draw a set of timing lanes on a canvas.
+   lanes: [{label, h, draw(c, x0, w, t0, t1, y, h)}] ; core draws labels, grid and playhead. */
+SIM.drawLanes = function(cv, lanes, opts){
+  opts = opts||{};
+  const labelW = opts.labelW || 150;
+  const H = lanes.reduce((a,l)=>a+(l.h||26),0) + 24;
+  const {c,w} = SIM.canvas(cv, H);
+  const [t0,t1] = opts.range || SIM.window();
+  const ink=SIM.css('--ink'), ink2=SIM.css('--ink2'), grid=SIM.css('--grid'), lane=SIM.css('--lane'), play=SIM.css('--play');
+  const x0 = labelW, pw = w - labelW - 6;
+  const X = t => x0 + (t - t0)/(t1 - t0)*pw;
+  // ruler
+  c.fillStyle=ink2; c.font='11px '+SIM.css('--mono');
+  const span=t1-t0, step=niceStep(span/8);
+  c.strokeStyle=grid; c.lineWidth=1;
+  const first=Math.ceil(t0/step)*step, rel = step < Math.max(first,1e-12)*2e-3;   // ticks too close to tell apart in absolute time → label as offsets
+  for (let tt=first, k=0; tt<=t1+1e-12; tt+=step, k++){
+    const x=X(tt); c.beginPath(); c.moveTo(x,16); c.lineTo(x,H); c.stroke();
+    c.fillText(rel && k ? '+'+SIM.fmtDur(k*step) : SIM.fmtDur(tt).replace(' s','s'), x+2, 11);
+  }
+  let y=20;
+  lanes.forEach((l,i)=>{
+    const h=l.h||26;
+    c.fillStyle = i%2? lane : 'transparent'; if(i%2) c.fillRect(0,y,w,h);
+    c.fillStyle=ink; c.font='12px '+SIM.css('--sans');
+    wrapLabel(c, l.label, 6, y+h/2+4, labelW-10);
+    c.save(); c.beginPath(); c.rect(x0,y,pw,h); c.clip();
+    try{ l.draw(c, X, t0, t1, y, h, pw); }catch(e){ console.error(e); }
+    c.restore();
+    y+=h;
+  });
+  // playhead
+  const px=X(SIM.t); c.strokeStyle=play; c.lineWidth=2; c.beginPath(); c.moveTo(px,14); c.lineTo(px,H); c.stroke();
+  c.fillStyle=play; c.beginPath(); c.moveTo(px-5,12); c.lineTo(px+5,12); c.lineTo(px,18); c.fill();
+  cv._nav = {labelW, range: opts.range};
+  attachNav(cv);
+  return {X, x0, pw, t0, t1};
+};
+/* CAD-style navigation on every timing graph:
+   wheel over the plot = zoom in time at the pointer (the page does not scroll); shift+wheel or a sideways
+   swipe = pan; drag = pan; click = move the playhead there; double-click = whole run.
+   Wheel over the label column still scrolls the page. */
+function attachNav(cv){
+  if (cv._navOn) return; cv._navOn = true;
+  cv.style.touchAction = 'pan-y';
+  const at = e => { const n=cv._nav, r=cv.getBoundingClientRect(), x=e.clientX-r.left, pw=r.width-n.labelW-6;
+                    return {x, pw, f: Math.max(0, Math.min(1, (x-n.labelW)/pw))}; };
+  cv.addEventListener('wheel', e=>{
+    const n=cv._nav; if (n.range) return;
+    const {x, pw, f} = at(e); if (x < n.labelW) return;
+    e.preventDefault();
+    const k = e.deltaMode===1 ? 16 : e.deltaMode===2 ? 400 : 1, dx=e.deltaX*k, dy=e.deltaY*k;
+    const [a,b] = SIM.window(), w=b-a;
+    if (e.shiftKey || Math.abs(dx) > Math.abs(dy)){ SIM.setView(a + (e.shiftKey ? dy : dx)/pw*w, w); return; }
+    const nw = Math.max(1e-9, Math.min(SIM.duration, w*Math.exp(dy*(e.ctrlKey ? .01 : .0015))));
+    const tp = a + f*w; SIM.setView(tp - f*nw, nw);
+  }, {passive:false});
+  let drag=null, dragged=false;
+  cv.addEventListener('pointerdown', e=>{
+    const n=cv._nav; if (n.range || e.button!==0) return;
+    const {x, pw} = at(e); if (x < n.labelW) return;
+    const [a,b] = SIM.window(); drag = {x:e.clientX, a, w:b-a, pw, moved:false};
+  });
+  cv.addEventListener('pointermove', e=>{
+    if (!drag) return;
+    const dx = e.clientX - drag.x;
+    if (!drag.moved && Math.abs(dx) < 4) return;
+    if (!drag.moved){ drag.moved = true; cv.setPointerCapture(e.pointerId); cv.style.cursor='grabbing'; }
+    SIM.setView(drag.a - dx/drag.pw*drag.w, drag.w);
+  });
+  const end = ()=>{ if (drag){ dragged = drag.moved; drag = null; cv.style.cursor=''; } };
+  cv.addEventListener('pointerup', end); cv.addEventListener('pointercancel', end);
+  cv.addEventListener('click', e=>{
+    if (dragged){ dragged=false; return; }
+    const n=cv._nav, {x, f}=at(e); if (x < n.labelW) return;
+    const [a,b] = n.range || SIM.window(); SIM.seek(a + f*(b-a));
+  });
+  cv.addEventListener('dblclick', e=>{ const n=cv._nav; if (n.range || at(e).x < n.labelW) return; SIM.setView(0, SIM.duration); });
+}
+/* Keep the "Zoom window" list in step with wheel zooming: show the custom width as its own entry */
+function syncZoomSel(){
+  const zs=document.getElementById('zoomSel'); if(!zs) return;
+  const hit=[...zs.options].find(o=>!o.dataset.custom && Math.abs(+o.value-SIM.win) <= SIM.win*1e-6);
+  let c=zs.querySelector('option[data-custom]');
+  if (hit){ if(c) c.remove(); zs.value=hit.value; return; }
+  if (!c){ c=document.createElement('option'); c.dataset.custom='1'; zs.appendChild(c); }
+  c.value=SIM.win; c.textContent=SIM.fmtDur(SIM.win)+' (wheel)'; zs.value=c.value;
+}
+function wrapLabel(c, text, x, y, maxW){ if (c.measureText(text).width<=maxW){ c.fillText(text,x,y); return; } let t=text; while(t.length>3 && c.measureText(t+'…').width>maxW) t=t.slice(0,-1); c.fillText(t+'…',x,y); }
+function niceStep(raw){ const p=Math.pow(10,Math.floor(Math.log10(raw))); const m=raw/p; return (m<1.5?1:m<3.5?2:m<7.5?5:10)*p; }
+SIM.niceStep = niceStep;
+
+/* Draws repeated pulses efficiently: if too dense, shade a band and label the count. */
+SIM.pulses = function(c, X, t0, t1, y, h, period, phase, width, color, label){
+  const n0 = Math.ceil((t0-phase)/period), n1 = Math.floor((t1-phase)/period);
+  const count = Math.max(0, n1-n0+1);
+  const pxPer = Math.abs(X(t0+period)-X(t0));
+  c.fillStyle=color; c.strokeStyle=color;
+  if (pxPer < 2.2){
+    c.globalAlpha=.35; c.fillRect(X(t0), y+h*0.3, X(t1)-X(t0), h*0.4); c.globalAlpha=1;
+    c.font='11px '+SIM.css('--mono'); c.fillStyle=SIM.css('--ink');
+    c.fillText(`${count.toLocaleString()} × ${label||''} (every ${SIM.fmtDur(period)})`, X(t0)+6, y+h/2+4);
+  } else {
+    for (let n=n0;n<=n1;n++){ const ta=phase+n*period; const xa=X(ta), xb=Math.max(xa+1, X(ta+width)); c.fillRect(xa, y+4, xb-xa, h-8); }
+  }
+  return count;
+};
+
+/* ---------- transport ---------- */
+const tSlider=$('#tSlider'), tRead=$('#tRead'), playBtn=$('#playBtn');
+function syncTransport(){ tSlider.value=SIM.t; tRead.textContent=SIM.fmtT(SIM.t); }
+tSlider.addEventListener('input', ()=> SIM.seek(+tSlider.value));
+let lastFrame=0;
+function loop(ts){
+  if (SIM.playing){
+    const dt = lastFrame? (ts-lastFrame)/1000 : 0; lastFrame=ts;
+    let nt = SIM.t + dt * (+$('#speedSel').value);
+    if (nt >= SIM.duration){ nt = 0; }
+    SIM.seek(nt);
+  } else lastFrame=0;
+  SIM.emit('frame', ts);
+  requestAnimationFrame(loop);
+}
+requestAnimationFrame(loop);
+playBtn.onclick = ()=>{ SIM.playing=!SIM.playing; playBtn.textContent = SIM.playing?'❚❚ Pause':'▶ Play'; playBtn.classList.toggle('on',SIM.playing); };
+function step(dir){ const u = (active.stepUnits||[])[+$('#stepUnit').value]; if(!u) return; const p=u.period(); const n=Math.round(SIM.t/p)+dir; SIM.seek(n*p + (u.phase?u.phase():0)); }
+$('#stepBack').onclick=()=>step(-1); $('#stepFwd').onclick=()=>step(1);
+document.addEventListener('keydown', e=>{
+  if ((e.target.matches && e.target.matches('input,select,textarea'))) return;
+  if (e.key===' '){ e.preventDefault(); playBtn.click(); }
+  if (e.key===','||e.key==='ArrowLeft' && e.altKey) step(-1);
+  if (e.key==='.'||e.key==='ArrowRight' && e.altKey) step(1);
+});
+$('#zoomSel').onchange = e=>{ SIM.win=+e.target.value; SIM.pan=0; SIM.refresh(); };
+$('#themeBtn').onclick = ()=>{ const r=document.documentElement; const cur=r.getAttribute('data-theme'); const dark = cur? cur==='dark' : matchMedia('(prefers-color-scheme: dark)').matches; r.setAttribute('data-theme', dark?'light':'dark'); try{localStorage.setItem('wbsSimTheme', dark?'light':'dark')}catch(e){} SIM.refresh(); };
+try{ const th=localStorage.getItem('wbsSimTheme'); if(th) document.documentElement.setAttribute('data-theme',th);}catch(e){}
+
+/* ---------- plugin picker & tabs ---------- */
+function refreshPicker(){
+  const sel=$('#pluginSel'); sel.innerHTML='';
+  const cat = window.SIM_CATALOG;
+  if (cat){   // catalogue mode: every ready product, grouped by family, loaded on demand
+    const fams = {}; cat.filter(e=>e.status==='ready').forEach(e=>{ (fams[e.family]=fams[e.family]||[]).push(e); });
+    Object.keys(fams).sort().forEach(f=>{ const g=document.createElement('optgroup'); g.label=f; fams[f].sort((a,b)=>(a.product||a.id).localeCompare(b.product||b.id,undefined,{numeric:true})).forEach(e=>{ const o=document.createElement('option'); o.value=e.id; o.textContent=e.name||e.product||e.id; g.appendChild(o); }); sel.appendChild(g); });
+    plugins.filter(p=>!cat.find(e=>e.id===p.id && e.status==='ready')).forEach(p=>{ const o=document.createElement('option'); o.value=p.id; o.textContent=p.name+' (testing)'; sel.appendChild(o); });
+  } else plugins.forEach(p=>{ const o=document.createElement('option'); o.value=p.id; o.textContent=p.name; sel.appendChild(o); });
+  if (active) sel.value=active.id;
+}
+function choose(id){
+  if (plugins.find(p=>p.id===id)) return activate(id);
+  const e=(window.SIM_CATALOG||[]).find(x=>x.id===id); if(!e) return;
+  pendingWant=id; $('#main').innerHTML='<div class="empty">Loading '+(e.name||e.id)+'…</div>';
+  loadScript('siumulation-plugins/'+e.file);
+}
+$('#pluginSel').onchange = e=> choose(e.target.value);
+function activate(id){
+  const p = plugins.find(q=>q.id===id); if(!p) return;
+  for (const k in listeners) if (k!=='frame' || true) listeners[k] = [];
+  active = p; SIM.duration = p.duration || 1; SIM.t = 0;
+  $('#tSlider').max = SIM.duration;   // plugins may simulate more than one second (e.g. a 60 s alarm delay)
+  const su=$('#stepUnit'); su.innerHTML=''; (p.stepUnits||[]).forEach((u,i)=>{ const o=document.createElement('option'); o.value=i; o.textContent=u.label; su.appendChild(o); });
+  const zs=$('#zoomSel'); zs.innerHTML=''; (p.zooms||[[1,'1 s (whole)'],[0.1,'100 ms'],[0.01,'10 ms'],[0.001,'1 ms']]).forEach(([v,l],i)=>{ const o=document.createElement('option'); o.value=v; o.textContent=l; zs.appendChild(o); });
+  zs.selectedIndex = p.defaultZoom||0; SIM.win=+zs.value; SIM.pan=0;
+  const nav=$('#tabs'); nav.innerHTML='';
+  p.tabs.forEach(tb=>{ const b=document.createElement('button'); b.textContent=tb.label; b.onclick=()=>openTab(tb.id); b.dataset.id=tb.id; nav.appendChild(b); });
+  try{ p.init && p.init(SIM); }catch(e){ console.error(e); }
+  let want = location.hash.slice(1); if (!p.tabs.find(t=>t.id===want)) want = p.tabs[0].id;
+  openTab(want);
+  refreshPicker(); syncTransport();
+  const wl = ((window.SIM_WIKI||{})[p.id]||[]);   // the wiki's device page(s) for this product (timelines/sim_links.py)
+  $('#wikiLink').innerHTML = wl.map(c=>'<a href="PAGES/'+encodeURIComponent(c)+'.html">'+c+' wiki page</a>').join(' · ');
+}
+function openTab(id){
+  const tb = active.tabs.find(t=>t.id===id); if(!tb) return;
+  activeTab = id; history.replaceState(null,'','?plugin='+active.id+'#'+id);
+  document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on', b.dataset.id===id));
+  for (const k in listeners) listeners[k] = [];
+  const m=$('#main'); m.innerHTML='';
+  try{ tb.render(m, SIM); }catch(e){ m.innerHTML='<div class="empty">This view failed to load: '+e.message+'</div>'; console.error(e); }
+  SIM.refresh();
+}
+SIM.openTab = openTab;
+window.addEventListener('resize', ()=>SIM.refresh());
+
+/* ---------- load plugins listed in siumulation-plugins/plugins.js ---------- */
+function loadScript(src){ return new Promise((res)=>{ const s=document.createElement('script'); s.src=src; s.onload=res; s.onerror=()=>{ console.warn('Plugin failed to load: '+src); res(); }; document.body.appendChild(s); }); }
+loadScript('siumulation-plugins/wiki_links.js').then(()=>loadScript('siumulation-plugins/plugins.js')).then(async ()=>{
+  const qs = new URLSearchParams(location.search), only = qs.get('load'), want = qs.get('plugin');   // ?load=xyz.js tests one plugin on its own
+  if (only){ pendingWant = want; await loadScript('siumulation-plugins/'+only); }
+  else if (window.SIM_CATALOG){
+    refreshPicker();
+    const ready = window.SIM_CATALOG.filter(e=>e.status==='ready');
+    const e = ready.find(x=>x.id===want) || ready[0];
+    if (e){ pendingWant = e.id; await loadScript('siumulation-plugins/'+e.file); }
+  } else for (const f of (window.SIM_PLUGIN_FILES || [])) await loadScript('siumulation-plugins/'+f);
+  if (plugins.length && !active) activate(plugins[0].id);
+  if (!plugins.length) $('#main').innerHTML='<div class="empty">No plugins found. Expected <span class="mono">siumulation-plugins/plugins.js</span> next to this page.</div>';
+});
+})();
+</script>
+<script src="_catalog/wbs_scan.js?v=7792b3a7"></script></body>
+</html>

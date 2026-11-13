@@ -14,7 +14,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD6C) · [download package (zip)](../_packages/POD6C.zip) |
+| Try it | [simulator & front panel](../simulator.html?m=POD6C) · [KiCad symbol generator](../kicad.html?m=POD6C) · [download package (zip)](../_packages/POD6C.zip) |
 | Earliest dated evidence | [1997\|30](Year-1997.md) — estimate from a dated variant |
 | Evidence | from POD6 |
 | Confidence | family |
@@ -25,9 +25,40 @@ tags: ["product", "pods", "1990s"]
 
 <svg class="wbs-panel solo" data-m="POD6C" data-n="Miniature Stereo Headphone Module" data-cat="PODS" role="img" aria-label="POD6C front panel"></svg>
 
+<a id="software"></a>
+
+## Software
+
+The POD6C is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
+
 ## Photos & scans (2)
 
 | Year | File |  |
 |---|---|---|
 | 1997 | [1997 - POD6C - Front.jpg](../Products/PODS/POD6C/1997%20-%20POD6C%20-%20Front.jpg) | [note](../Products/PODS/POD6C/1997%20-%20POD6C%20-%20Front.jpg.md) |
 | 1997 | [1997 - POD6C - Rear.jpg](../Products/PODS/POD6C/1997%20-%20POD6C%20-%20Rear.jpg) | [note](../Products/PODS/POD6C/1997%20-%20POD6C%20-%20Rear.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD6C",
+ "name": "Miniature Stereo Headphone Module",
+ "category": "PODS",
+ "year": 1997,
+ "documents": [
+  {
+   "file": "Products/PODS/POD6C/1997 - POD6C - Front.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD6C/1997 - POD6C - Rear.jpg",
+   "year": 1997,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

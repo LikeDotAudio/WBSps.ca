@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD31) · [download package (zip)](../_packages/POD31.zip) |
+| Try it | [full simulation: POD31](../siumulation.html?plugin=pod31) · [simulator & front panel](../simulator.html?m=POD31) · [KiCad symbol generator](../kicad.html?m=POD31) · [download package (zip)](../_packages/POD31.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -24,6 +24,32 @@ tags: ["product", "pods", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD31" data-n="SD/HD-SDI AES Demuxer" data-cat="PODS" role="img" aria-label="POD31 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD31: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD31 | Microcontroller | ATMEGA128L | HS | **POD31V101** | 2008-03-04 | Standard Products |
+| POD31 | Altera FPGA / CPLD | EPC1S |  | **POD31V102** | — | Altera |
+
+**Programming:** Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file).
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2008\|41 | 2008-03-04 | POD31 | ATMEGA128L | POD31V101 |  | WKW 2008-03-04 |
+|  | — | POD31 | EPC1S | POD31V102 |  |  |
+
+## Changes in each version
+
+_No change note in the listing for: POD31V101, POD31V102._
 
 ## Documents (2)
 
@@ -56,3 +82,52 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [19xx - POD31 - MANUAL (2).docx](../Products/PODS/POD31/19xx%20-%20POD31%20-%20MANUAL%20%282%29.docx), p. 1
 <details><summary>Warranty — 0 words · 19xx - POD31 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [19xx - POD31 - MANUAL.docx](../Products/PODS/POD31/19xx%20-%20POD31%20-%20MANUAL.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD31",
+ "name": "SD/HD-SDI AES Demuxer",
+ "category": "PODS",
+ "year": 2013,
+ "documents": [
+  {
+   "file": "Products/PODS/POD31/19xx - POD31 - Front.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD31/19xx - POD31 - Information Sheet.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD31/19xx - POD31 - MANUAL (2).docx",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD31/19xx - POD31 - MANUAL.docx",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD31/19xx - POD31 - Rear.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

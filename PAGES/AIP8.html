@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../simulator.html?m=AIP8">simulator &amp; front panel</a> · <a href="../_packages/AIP8.zip">download package (zip)</a></td>
+<td><a href="../siumulation.html?plugin=aip8-2a">full simulation: AIP8-2A</a> · <a href="../simulator.html?m=AIP8">simulator &amp; front panel</a> · <a href="../kicad.html?m=AIP8">KiCad symbol generator</a> · <a href="../_packages/AIP8.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -83,6 +83,159 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="AIP8" data-n="" data-cat="METERING" role="img" aria-label="AIP8 front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the AIP8: every programmable part and the version Ward-Beck released for it, from the <a href="Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AIP8-2A</td>
+<td>Microcontroller</td>
+<td></td>
+<td>HS</td>
+<td><strong>1.0.0.2</strong></td>
+<td>2009-05-07</td>
+<td>Standard Products</td>
+</tr>
+<tr>
+<td>AIP8-2A PRODUCT REVISIONS</td>
+<td>AMS8E-1 firmware</td>
+<td></td>
+<td></td>
+<td><strong>V102</strong> (in 1.0.0.2)</td>
+<td>2009-05-07</td>
+<td>AIP8-2A</td>
+</tr>
+<tr>
+<td>AIP8-2A PRODUCT REVISIONS</td>
+<td>AIP8-2A-2 firmware</td>
+<td></td>
+<td></td>
+<td><strong>V102</strong> (in 1.0.0.2)</td>
+<td>2009-05-07</td>
+<td>AIP8-2A</td>
+</tr>
+<tr>
+<td>AIP8-2A PRODUCT REVISIONS</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>V102</strong> (in 1.0.0.2)</td>
+<td>2009-05-07</td>
+<td>AIP8-2A</td>
+</tr>
+<tr>
+<td>AIP8-2A PRODUCT REVISIONS</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>V100</strong> (in 1.0.0.2)</td>
+<td>2009-05-07</td>
+<td>AIP8-2A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Product firmware versions (PFV)</strong>: AIP8-2A PRODUCT REVISIONS: 3 revisions, latest released <strong>1.0.0.2</strong> (2009-05-07)</p>
+<p><strong>Programming:</strong> Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).</p>
+<h2>Versions</h2>
+<h3>Listed versions</h3>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Listed as</th>
+<th>Chip</th>
+<th>Released</th>
+<th>Not released / work copy</th>
+<th>Tested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2009|42</td>
+<td>2009-05-07</td>
+<td>AIP8-2A</td>
+<td></td>
+<td>1.0.0.2</td>
+<td></td>
+<td>Bob 2009-05-07</td>
+</tr>
+</tbody>
+</table>
+<h3>AIP8-2A PRODUCT REVISIONS</h3>
+<p><em>Sheet <strong>AIP8-2A</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>AMS8E-1</th>
+<th>AIP8-2A-2</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2007|40</td>
+<td>2007-01-26</td>
+<td><strong>1.0.0.0</strong></td>
+<td>V100</td>
+<td>V100</td>
+<td>V100</td>
+<td>V100</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-03-12</td>
+<td><strong>1.0.0.1</strong></td>
+<td>V101</td>
+<td>V101</td>
+<td>V101</td>
+<td>V100</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2009|42</td>
+<td>2009-05-07</td>
+<td><strong>1.0.0.2</strong></td>
+<td>V102</td>
+<td>V102</td>
+<td>V102</td>
+<td>V100</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>DO NOT USE THE WORKING FILES - USE THE FILE IN THE SPECIFIC FOLDER</p>
+</blockquote>
+<h2>Changes in each version</h2>
+<p><em>What changed, in the words of the listing, oldest first.</em></p>
+<ul>
+<li><strong>1.0.0.0</strong> — 2007|40 · 2007-01-26 — <em>AIP8-2A PRODUCT REVISIONS</em>: USE DEMUX-3 (AIP8-2A) SOFTWARE</li>
+<li><strong>1.0.0.1</strong> — 2007|40 · 2007-03-12 — <em>AIP8-2A PRODUCT REVISIONS</em>: USE DEMUX-3 (AIP8-2A) SOFTWARE</li>
+<li><strong>1.0.0.2</strong> — 2009|42 · 2009-05-07 — <em>AIP8-2A PRODUCT REVISIONS</em>: CHANGED DV OUTPUT LEFT = DV SELECTION, RIGHT = ST MONO, MODIFIED DISPLAY TO CHANGED UPON USER INTERFACE SELECTION, IE. KNOB OR PUSHBUTTON</li>
+</ul>
 <h2>Documents (2)</h2>
 <table>
 <thead>
@@ -121,4 +274,27 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <details><summary>Warranty — 0 words · 19xx - AIP8 - 2A Manual Updated.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 <ul>
 <li>source: <a href="../viewer.html?f=Products/METERING/AIP8/19xx%20-%20AIP8%20-%202A%20Manual%20Updated.docx">19xx - AIP8 - 2A Manual Updated.docx</a>, p. 1</li>
-</ul><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from AIP8.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;AIP8&quot;,
+ &quot;category&quot;: &quot;METERING&quot;,
+ &quot;year&quot;: 2015,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/METERING/AIP8/19xx - AIP8 - 2A Manual Updated (2).docx&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/AIP8/19xx - AIP8 - 2A Manual Updated.docx&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;sections&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from AIP8.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

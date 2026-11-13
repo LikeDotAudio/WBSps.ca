@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD14A) · [download package (zip)](../_packages/POD14A.zip) |
+| Try it | [full simulation: POD14A](../siumulation.html?plugin=pod14a) · [simulator & front panel](../simulator.html?m=POD14A) · [KiCad symbol generator](../kicad.html?m=POD14A) · [download package (zip)](../_packages/POD14A.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD14A MANUAL(1).docx |
 | Confidence | medium |
@@ -25,6 +25,30 @@ tags: ["product", "pods", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD14A" data-n="Dual Analog To Digital Converter" data-cat="PODS" role="img" aria-label="POD14A front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD14A: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD14A | Microcontroller | ATMEGA128L | HS | **V1000** | — | Standard Products |
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+|  | — | POD14A | ATMEGA128L | V1000 |  |  |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **V1000** — undated — _POD14A · ATMEGA128L_: 2009
 
 ## Dates found in the documents
 
@@ -64,3 +88,45 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 
 <details><summary>Warranty — 0 words · 2014 - POD14A - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2014 - POD14A - MANUAL.docx](../Products/PODS/POD14A/2014%20-%20POD14A%20-%20MANUAL.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD14A",
+ "name": "Dual Analog To Digital Converter",
+ "category": "PODS",
+ "year": 2014,
+ "documents": [
+  {
+   "file": "Products/PODS/POD14A/2014 - POD14A - Front.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD14A/2014 - POD14A - Information Sheet.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD14A/2014 - POD14A - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD14A/2014 - POD14A - Rear.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

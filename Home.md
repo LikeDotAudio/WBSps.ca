@@ -11,12 +11,14 @@ A wiki of the Ward-Beck Systems archive: **521** modules, products and console m
 
 - [Timeline](PAGES/Timeline.md) — everything by year ([visual timeline](timelines/timeline.html))
 - [Everything finder](everything.html) — search every file in the archive, filed or not, by name, code, year or text
+- [Device simulations](siumulation-index.html) — 230 products, one second in slow motion: front panel, tutorial, block diagram, schematics, button → firmware trace
 - [Modules](PAGES/Modules.md) — by category
 - [Products](PAGES/Products.md) — openGear, 8200, micro, PODs, metering …
 - [Consoles & jobs](PAGES/Consoles.md)
 - [Console lives](PAGES/Console-lives.md) — consoles re-homed with their users: WILMA and the Members' consoles
 - [People](PAGES/People.md) — who drew and checked the drawings
 - [Prices](PAGES/Prices.md) — list prices and used values by year
+- [Software](PAGES/Software.md) — firmware in every device: versions and what changed in each
 - [Parts lists](PAGES/Parts-lists.md) — bills of materials by board
 - [Transformers](PAGES/Transformers.md) — Ward-Beck's own 60-n input, 70-n output and 80-n power transformers
 - [Boilerplate](PAGES/Boilerplate.md) — the text repeated across many manuals, kept once

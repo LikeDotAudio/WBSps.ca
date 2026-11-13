@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD10) · [download package (zip)](../_packages/POD10.zip) |
+| Try it | [full simulation: POD10](../siumulation.html?plugin=pod10) · [simulator & front panel](../simulator.html?m=POD10) · [KiCad symbol generator](../kicad.html?m=POD10) · [download package (zip)](../_packages/POD10.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -56,9 +56,67 @@ table · 2014 - POD10A - MANUAL (2).docx, p. 1</title><rect x="14" y="214" width
 
 <details><summary>Pin evidence — 9 contacts</summary><table><tr><th>Pin</th><th>Signal</th><th>Kind</th><th>Confidence</th><th>Read from</th><th>Source</th></tr><tr><td>1</td><td>ST BYTE</td><td>named, kind not clear</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr><tr><td>2</td><td>ND BYTE</td><td>named, kind not clear</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr><tr><td>3</td><td>V P-P</td><td>named, kind not clear</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr><tr><td>4</td><td>INPUT 4</td><td>audio in</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr><tr><td>5</td><td>INPUT 5</td><td>audio in</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr><tr><td>6</td><td>INPUT 6</td><td>audio in</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr><tr><td>7</td><td>INPUT 7</td><td>audio in</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr><tr><td>8</td><td>INPUT 8</td><td>audio in</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr><tr><td>9</td><td>GND</td><td>ground / common</td><td>variant</td><td>table</td><td><a href="../Products/PODS/POD10A/2014%20-%20POD10A%20-%20MANUAL%20%282%29.docx">2014 - POD10A - MANUAL (2).docx</a>, p. 1</td></tr></table></details>
 
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD10: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD10 | Microcontroller | PIC16F887 (USE ICD3 and MPLAB X) | HS | **V030000** | 2013-10-15 | Standard Products |
+| POD10(obsolete) | Microcontroller | PIC16F73 | HS | **POD10V103** | 2002-05-02 | Standard Products |
+| POD10R | Microcontroller | PIC16F887 (USE ICD3 and MPLAB X) | HS | **V030200** | 2014-11-17 | Standard Products |
+
+**Production files:** `H:\Production\PFiles\POD\POD10\V030200\POD10R.hex`
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2002\|35 | 2002-05-02 | POD10(obsolete) | PIC16F73 | POD10V103 |  |  |
+| 2013\|46 | 2013-10-15 | POD10 | PIC16F887 (USE ICD3 and MPLAB X) | V030000 |  | WKW 2013-10-15 |
+| 2014\|47 | 2014-11-17 | POD10R | PIC16F887 (USE ICD3 and MPLAB X) | V030200 |  | Bob 2014-11-03 |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **V030000** — 2013|46 · 2013-10-15 — _POD10 · PIC16F887 (USE ICD3 and MPLAB X)_: This version created to use ISS3 boards but with only 6 inputs like the old POD10
+- **V030200** — 2014|47 · 2014-11-17 — _POD10R · PIC16F887 (USE ICD3 and MPLAB X)_: This version is for POD10R.
+
+_No change note in the listing for: POD10V103._
+
 ## Photos & scans (2)
 
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - POD10 - Front.jpg](../Products/PODS/POD10/2014%20-%20POD10%20-%20Front.jpg) | [note](../Products/PODS/POD10/2014%20-%20POD10%20-%20Front.jpg.md) |
 | 2014 | [2014 - POD10 - Rear.jpg](../Products/PODS/POD10/2014%20-%20POD10%20-%20Rear.jpg) | [note](../Products/PODS/POD10/2014%20-%20POD10%20-%20Rear.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD10",
+ "name": "Digital Audio Switcher",
+ "category": "PODS",
+ "year": 2013,
+ "documents": [
+  {
+   "file": "Products/PODS/POD10/2014 - POD10 - Front.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD10/2014 - POD10 - Rear.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

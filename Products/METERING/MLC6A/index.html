@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../../../simulator.html?m=MLC6A">simulator &amp; front panel</a> · <a href="../../../_packages/MLC6A.zip">download package (zip)</a></td>
+<td><a href="../../../siumulation.html?plugin=mlc6a">full simulation: MLC6A</a> · <a href="../../../simulator.html?m=MLC6A">simulator &amp; front panel</a> · <a href="../../../kicad.html?m=MLC6A">KiCad symbol generator</a> · <a href="../../../_packages/MLC6A.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -83,6 +83,290 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Front.jpg"><img loading="lazy" src="../../../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Front.jpg" alt="" data-f="Products/METERING/MLC6A/19xx - MLC6A - Front.jpg" data-size="320" onerror="wbsOff(this)">19xx - MLC6A - Front.jpg</a><a href="../../../viewer.html?f=Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Rear.jpg"><img loading="lazy" src="../../../Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Rear.jpg" alt="" data-f="Products/METERING/MLC6A/19xx - MLC6A - Rear.jpg" data-size="320" onerror="wbsOff(this)">19xx - MLC6A - Rear.jpg</a></div>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="MLC6A" data-n="" data-cat="METERING" role="img" aria-label="MLC6A front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the MLC6A: every programmable part and the version Ward-Beck released for it, from the <a href="../../../PAGES/Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MLC6A</td>
+<td>Microcontroller</td>
+<td></td>
+<td>HS</td>
+<td><strong>2.0.0.2</strong></td>
+<td>not released</td>
+<td>Standard Products</td>
+</tr>
+<tr>
+<td>MLC6A REVISIONS — Main Board Revisions</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>V106</strong> (in 2.0.0.1)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC6A REVISIONS — Main Board Revisions</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC8Av105</strong> (in 2.0.0.1)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC6A REVISIONS — Main Board Revisions</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>AMS8V202</strong> (in 2.0.0.1)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC6A REVISIONS — Front Panel Revisions</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>V205</strong> (in 2.0.0.1)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC6A REVISIONS — Front Panel Revisions</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC8AV200</strong> (in 2.0.0.1)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC6A REVISIONS — MLC6R Front Panel Revisions</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC6AV205</strong> (in 2.0.0.1)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC6A REVISIONS — MLC6R Front Panel Revisions</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC8AV200</strong> (in 2.0.0.1)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Product firmware versions (PFV)</strong>: MLC6A REVISIONS — Main Board Revisions: 3 revisions, latest released <strong>2.0.0.1</strong> (2007-12-21) · MLC6A REVISIONS — Front Panel Revisions: 2 revisions, latest released <strong>2.0.0.1</strong> (2007-12-21) · MLC6A REVISIONS — MLC6R Front Panel Revisions: 2 revisions, latest released <strong>2.0.0.1</strong> (2007-12-21)</p>
+<p><strong>Programming:</strong> Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).</p>
+<h2>Versions</h2>
+<h3>Listed versions</h3>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Listed as</th>
+<th>Chip</th>
+<th>Released</th>
+<th>Not released / work copy</th>
+<th>Tested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>not released</td>
+<td>MLC6A</td>
+<td></td>
+<td>2.0.0.2</td>
+<td></td>
+<td>Bob 2007-12-21</td>
+</tr>
+</tbody>
+</table>
+<h3>MLC6A REVISIONS — Main Board Revisions</h3>
+<p><em>Sheet <strong>MLCs</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2007|40</td>
+<td>2007-11-27</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V105</td>
+<td>MLC8Av105</td>
+<td>AMS8V202</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-12-21</td>
+<td><strong>2.0.0.1</strong></td>
+<td>V106</td>
+<td>MLC8Av105</td>
+<td>AMS8V202</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td></td>
+<td>—</td>
+<td><strong>2.0.0.2</strong></td>
+<td>V106</td>
+<td>MLC8Av106</td>
+<td>AMS8V203</td>
+<td>not released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>LOCATED IN THE "H:\mlc\MLC6A\Software\MLC6A\AMS8-1" FOLDER</p>
+</blockquote>
+<h3>MLC6A REVISIONS — Front Panel Revisions</h3>
+<p><em>Sheet <strong>MLCs</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2007|40</td>
+<td>2007-11-27</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V204</td>
+<td>MLC8AV200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-12-21</td>
+<td><strong>2.0.0.1</strong></td>
+<td>V205</td>
+<td>MLC8AV200</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>LOCATED IN THE "H:\mlc\MLC6A\Software\MLC6A\" FOLDER</p>
+</blockquote>
+<h3>MLC6A REVISIONS — MLC6R Front Panel Revisions</h3>
+<p><em>Sheet <strong>MLCs</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2007|40</td>
+<td>2007-11-27</td>
+<td><strong>2.0.0.0</strong></td>
+<td>MLC6AV204</td>
+<td>MLC8AV200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-12-21</td>
+<td><strong>2.0.0.1</strong></td>
+<td>MLC6AV205</td>
+<td>MLC8AV200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>If the MAIN UNIT is the MLC6A, use the MLC6A FRONT PANEL software for the ATMEL</p>
+</blockquote>
+<h2>Changes in each version</h2>
+<p><em>What changed, in the words of the listing, oldest first.</em></p>
+<ul>
+<li><strong>2.0.0.0</strong> — 2007|40 · 2007-11-27 — <em>MLC6A REVISIONS — Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>ADDED DIM FEATURE (default -10dB of MASTER VOLUME)</li>
+</ul>
+</li>
+<li><strong>2.0.0.0</strong> — 2007|40 · 2007-11-27 — <em>MLC6A REVISIONS — MLC6R Front Panel Revisions</em><ul>
+<li>ADDED DIM FEATURE (default -10dB of MASTER VOLUME)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.0</strong> — 2007|40 · 2007-11-27 — <em>MLC6A REVISIONS — Main Board Revisions</em><ul>
+<li>FIXED AUDIO MISMATCHING AND EEPROM CHANGE IN MODE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.1</strong> — 2007|40 · 2007-12-21 — <em>MLC6A REVISIONS — Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>FIXED COMMUNICATION ISSUE</li>
+</ul>
+</li>
+<li><strong>2.0.0.1</strong> — 2007|40 · 2007-12-21 — <em>MLC6A REVISIONS — MLC6R Front Panel Revisions</em><ul>
+<li>FIXED COMMUNICATION ISSUE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.1</strong> — 2007|40 · 2007-12-21 — <em>MLC6A REVISIONS — Main Board Revisions</em><ul>
+<li>FIXED COMMUNICATION ISSUE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.2</strong> — not released — <em>MLC6A REVISIONS — Main Board Revisions</em><ul>
+<li>FIXED PHASE ISSUE WITH AES OUTPUTS AND LED DISPLAY FREEZE, ATMEL - V202, ALTERA - V203</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+</ul>
 <h2>Photos &amp; scans (2)</h2>
 <table>
 <thead>
@@ -104,4 +388,23 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <td><a href="../../../viewer.html?f=Products/METERING/MLC6A/19xx%20-%20MLC6A%20-%20Rear.jpg.md">note</a></td>
 </tr>
 </tbody>
-</table><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from MLC6A.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;MLC6A&quot;,
+ &quot;category&quot;: &quot;METERING&quot;,
+ &quot;year&quot;: 2013,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/METERING/MLC8D/2018 - MLC8D - Rear.jpg&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/MLC6A/19xx - MLC6A - Front.jpg&quot;,
+   &quot;year&quot;: null,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from MLC6A.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

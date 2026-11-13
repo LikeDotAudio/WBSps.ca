@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="84.07 -845.33 1395.93 866.04" width="1396" height="866"><rect x="84.07" y="-845.32" width="1395.92" height="866.03" fill="white"/><g fill="none" stroke="black" stroke-width="0.80"><text fill="black" stroke="none" font-family="monospace" x="1178.98" y="0.71" font-size="11.25" text-anchor="start" transform="rotate(-0.00 1178.98 0.71)">B 445-01-001</text>
+<text fill="black" stroke="none" font-family="monospace" x="1420.47" y="0.71" font-size="11.25" text-anchor="start" transform="rotate(-0.00 1420.47 0.71)">ISS.</text>
+<text fill="black" stroke="none" font-family="monospace" x="1460.00" y="0.71" font-size="11.25" text-anchor="middle" transform="rotate(-0.00 1460.00 0.71)">1</text>
+<text fill="black" stroke="none" font-family="monospace" x="1365.49" y="-93.34" font-size="11.25" text-anchor="middle" transform="rotate(-0.00 1365.49 -93.34)">WARD-BECK SYSTEMS</text>
+<text fill="black" stroke="none" font-family="monospace" x="1320.00" y="-45.00" font-size="11.25" text-anchor="middle" transform="rotate(-0.00 1320.00 -45.00)">EXTENDED RANGE METER/MONITOR</text>
+<text fill="black" stroke="none" font-family="monospace" x="1320.00" y="-25.00" font-size="11.25" text-anchor="middle" transform="rotate(-0.00 1320.00 -25.00)">FUNCTIONAL</text>
+<text fill="black" stroke="none" font-family="monospace" x="1320.00" y="-65.00" font-size="11.25" text-anchor="middle" transform="rotate(-0.00 1320.00 -65.00)">M445</text>
+<line x1="355.58" y1="-696.27" x2="355.58" y2="-205.00"/>
+<line x1="550.57" y1="-746.11" x2="812.45" y2="-746.11"/>
+<line x1="400.00" y1="-696.27" x2="355.58" y2="-696.27"/>
+<line x1="852.33" y1="-804.07" x2="852.33" y2="-767.36"/>
+<line x1="1253.28" y1="-693.58" x2="1253.28" y2="-639.18"/>
+<line x1="1253.28" y1="-639.18" x2="1340.32" y2="-639.18"/>
+<line x1="1340.32" y1="-639.18" x2="1340.32" y2="-693.58"/>
+<line x1="1340.32" y1="-693.58" x2="1253.28" y2="-693.58"/>
+<line x1="1290.50" y1="-769.50" x2="1294.50" y2="-761.00"/>
+<line x1="1294.50" y1="-761.00" x2="1307.50" y2="-772.50"/>
+<text fill="black" stroke="none" font-family="monospace" x="1395.50" y="-782.50" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1395.50 -782.50)">HEADSET</text>
+<line x1="1340.50" y1="-813.00" x2="1322.00" y2="-813.00"/>
+<line x1="1340.50" y1="-750.00" x2="1340.50" y2="-813.00"/>
+<line x1="1247.50" y1="-749.50" x2="1340.50" y2="-749.50"/>
+<line x1="1267.50" y1="-782.50" x2="1280.50" y2="-794.00"/>
+<line x1="1263.50" y1="-791.00" x2="1267.50" y2="-782.50"/>
+<circle cx="1241.89" cy="-790.89" r="5.00"/>
+<line x1="1263.00" y1="-790.86" x2="1247.50" y2="-790.86"/>
+<line x1="1236.89" y1="-791.00" x2="1219.50" y2="-791.00"/>
+<circle cx="1241.89" cy="-769.89" r="5.00"/>
+<circle cx="1241.89" cy="-749.02" r="5.00"/>
+<line x1="1290.50" y1="-769.86" x2="1247.50" y2="-769.86"/>
+<line x1="1322.08" y1="-813.00" x2="1322.08" y2="-750.00"/>
+<text fill="black" stroke="none" font-family="monospace" x="1395.50" y="-768.34" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1395.50 -768.34)">JACK</text>
+<line x1="1237.00" y1="-770.00" x2="1219.60" y2="-770.00"/>
+<line x1="1296.80" y1="-643.43" x2="1322.06" y2="-679.27"/>
+<polyline points="1334.32,-647.22 1331.61,-649.22 1328.79,-651.07 1325.88,-652.76 1322.88,-654.28 1319.79,-655.64 1316.64,-656.83 1313.43,-657.84 1310.16,-658.67 1306.86,-659.31 1303.52,-659.78 1300.16,-660.06 1296.80,-660.15 1293.43,-660.06 1290.07,-659.78 1286.74,-659.31 1283.43,-658.67 1280.17,-657.84 1276.95,-656.83 1273.80,-655.64 1270.72,-654.28 1267.72,-652.76 1264.80,-651.07 1261.99,-649.22 1259.28,-647.22"/>
+<line x1="1253.28" y1="-655.00" x2="1219.60" y2="-655.00"/>
+<line x1="1253.28" y1="-676.00" x2="1219.50" y2="-676.00"/>
+<line x1="1220.00" y1="-592.56" x2="1281.65" y2="-592.56"/>
+<circle cx="1286.75" cy="-592.56" r="5.10"/>
+<line x1="1281.74" y1="-591.59" x2="1291.75" y2="-591.59"/>
+<line x1="1281.74" y1="-593.52" x2="1291.75" y2="-593.52"/>
+<line x1="1281.74" y1="-573.14" x2="1291.75" y2="-573.14"/>
+<line x1="1281.74" y1="-571.21" x2="1291.75" y2="-571.21"/>
+<circle cx="1286.75" cy="-572.17" r="5.10"/>
+<line x1="1220.00" y1="-572.17" x2="1281.65" y2="-572.17"/>
+<line x1="1189.48" y1="-676.00" x2="1069.99" y2="-676.00"/>
+<line x1="1189.48" y1="-655.00" x2="1070.05" y2="-655.00"/>
+<line x1="1169.25" y1="-592.56" x2="1189.19" y2="-592.56"/>
+<line x1="1150.18" y1="-572.17" x2="1189.19" y2="-572.17"/>
+<line x1="1169.25" y1="-676.00" x2="1169.25" y2="-530.06"/>
+<line x1="1150.18" y1="-655.00" x2="1150.18" y2="-509.67"/>
+<line x1="1188.74" y1="-791.00" x2="1112.30" y2="-791.00"/>
+<line x1="1189.89" y1="-770.00" x2="1131.03" y2="-770.00"/>
+<line x1="1131.03" y1="-770.00" x2="1131.03" y2="-416.00"/>
+<line x1="1112.30" y1="-791.00" x2="1112.30" y2="-676.00"/>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-662.45" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -662.45)">LEFT</text>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-595.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -595.73)">LEFT</text>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-580.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -580.73)">EXTERNAL</text>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-565.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -565.73)">OUTPUT</text>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-305.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -305.73)">OUTPUT</text>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-320.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -320.73)">EXTERNAL</text>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-335.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -335.73)">RIGHT</text>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-402.45" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -402.45)">RIGHT</text>
+<line x1="931.19" y1="-632.76" x2="931.19" y2="-698.65"/>
+<line x1="973.69" y1="-632.76" x2="931.19" y2="-632.76"/>
+<line x1="973.69" y1="-698.65" x2="973.69" y2="-632.76"/>
+<line x1="931.19" y1="-698.65" x2="973.69" y2="-698.65"/>
+<line x1="1027.24" y1="-665.37" x2="973.69" y2="-665.37"/>
+<line x1="931.19" y1="-665.37" x2="886.84" y2="-665.37"/>
+<line x1="822.98" y1="-665.37" x2="785.00" y2="-665.37"/>
+<line x1="629.43" y1="-696.15" x2="686.93" y2="-696.15"/>
+<line x1="686.93" y1="-696.15" x2="686.93" y2="-635.26"/>
+<line x1="686.93" y1="-635.26" x2="629.43" y2="-635.26"/>
+<line x1="629.43" y1="-635.26" x2="629.43" y2="-696.15"/>
+<line x1="629.43" y1="-665.37" x2="585.08" y2="-665.37"/>
+<line x1="725.00" y1="-665.37" x2="686.93" y2="-665.37"/>
+<line x1="650.99" y1="-682.80" x2="677.55" y2="-682.80"/>
+<line x1="639.01" y1="-647.02" x2="650.99" y2="-682.80"/>
+<line x1="495.00" y1="-735.37" x2="495.00" y2="-685.37"/>
+<line x1="521.22" y1="-685.37" x2="495.00" y2="-685.37"/>
+<line x1="521.22" y1="-645.37" x2="495.00" y2="-645.37"/>
+<line x1="419.62" y1="-657.50" x2="419.62" y2="-642.50"/>
+<line x1="419.62" y1="-735.37" x2="419.62" y2="-717.50"/>
+<line x1="419.62" y1="-522.87" x2="419.62" y2="-534.59"/>
+<line x1="399.93" y1="-522.87" x2="399.93" y2="-534.19"/>
+<line x1="419.62" y1="-564.79" x2="419.62" y2="-581.82"/>
+<line x1="399.93" y1="-565.00" x2="399.93" y2="-587.50"/>
+<line x1="495.00" y1="-522.87" x2="327.50" y2="-522.87"/>
+<line x1="495.00" y1="-735.37" x2="272.50" y2="-735.37"/>
+<line x1="495.00" y1="-645.37" x2="495.00" y2="-522.87"/>
+<line x1="327.50" y1="-687.37" x2="327.50" y2="-522.87"/>
+<line x1="187.49" y1="-607.84" x2="197.50" y2="-607.84"/>
+<line x1="187.49" y1="-605.91" x2="197.50" y2="-605.91"/>
+<circle cx="192.50" cy="-606.87" r="5.10"/>
+<line x1="179.58" y1="-735.37" x2="179.58" y2="-671.37"/>
+<line x1="223.99" y1="-687.37" x2="262.50" y2="-687.37"/>
+<circle cx="267.50" cy="-671.37" r="5.00"/>
+<line x1="222.80" y1="-735.51" x2="218.80" y2="-727.01"/>
+<line x1="218.80" y1="-727.01" x2="205.80" y2="-738.51"/>
+<line x1="179.58" y1="-671.37" x2="262.50" y2="-671.37"/>
+<line x1="198.00" y1="-671.37" x2="198.00" y2="-735.37"/>
+<line x1="198.00" y1="-735.37" x2="179.58" y2="-735.37"/>
+<line x1="219.99" y1="-696.23" x2="206.99" y2="-684.73"/>
+<line x1="223.99" y1="-687.73" x2="219.99" y2="-696.23"/>
+<circle cx="267.50" cy="-687.37" r="5.00"/>
+<line x1="232.50" y1="-703.37" x2="262.50" y2="-703.37"/>
+<circle cx="267.50" cy="-703.37" r="5.00"/>
+<line x1="232.50" y1="-735.37" x2="232.50" y2="-719.37"/>
+<circle cx="267.50" cy="-719.37" r="5.00"/>
+<line x1="222.73" y1="-735.37" x2="262.50" y2="-735.37"/>
+<circle cx="267.50" cy="-735.37" r="5.00"/>
+<line x1="232.50" y1="-719.37" x2="262.50" y2="-719.37"/>
+<line x1="232.50" y1="-687.37" x2="232.50" y2="-703.37"/>
+<line x1="272.50" y1="-687.37" x2="327.50" y2="-687.37"/>
+<line x1="272.50" y1="-719.37" x2="306.62" y2="-719.37"/>
+<line x1="272.50" y1="-703.37" x2="290.62" y2="-703.37"/>
+<line x1="290.62" y1="-590.87" x2="290.62" y2="-703.37"/>
+<line x1="306.62" y1="-606.87" x2="306.62" y2="-719.37"/>
+<line x1="197.60" y1="-590.87" x2="290.62" y2="-590.87"/>
+<line x1="197.60" y1="-606.87" x2="306.62" y2="-606.87"/>
+<circle cx="192.50" cy="-590.87" r="5.10"/>
+<line x1="187.49" y1="-589.91" x2="197.50" y2="-589.91"/>
+<line x1="187.49" y1="-591.84" x2="197.50" y2="-591.84"/>
+<line x1="187.49" y1="-331.84" x2="197.50" y2="-331.84"/>
+<line x1="187.49" y1="-329.91" x2="197.50" y2="-329.91"/>
+<circle cx="192.50" cy="-330.87" r="5.10"/>
+<line x1="197.60" y1="-346.87" x2="306.62" y2="-346.87"/>
+<line x1="197.60" y1="-330.87" x2="290.62" y2="-330.87"/>
+<line x1="306.62" y1="-346.87" x2="306.62" y2="-459.37"/>
+<line x1="290.62" y1="-330.87" x2="290.62" y2="-443.37"/>
+<line x1="272.50" y1="-443.37" x2="290.62" y2="-443.37"/>
+<line x1="272.50" y1="-459.37" x2="306.62" y2="-459.37"/>
+<line x1="272.50" y1="-427.37" x2="327.50" y2="-427.37"/>
+<line x1="232.50" y1="-427.37" x2="232.50" y2="-443.37"/>
+<line x1="232.50" y1="-459.37" x2="262.50" y2="-459.37"/>
+<circle cx="267.50" cy="-475.37" r="5.00"/>
+<line x1="222.73" y1="-475.37" x2="262.50" y2="-475.37"/>
+<circle cx="267.50" cy="-459.37" r="5.00"/>
+<line x1="232.50" y1="-475.37" x2="232.50" y2="-459.37"/>
+<circle cx="267.50" cy="-443.37" r="5.00"/>
+<line x1="232.50" y1="-443.37" x2="262.50" y2="-443.37"/>
+<circle cx="267.50" cy="-427.37" r="5.00"/>
+<line x1="223.99" y1="-427.73" x2="219.99" y2="-436.23"/>
+<line x1="219.99" y1="-436.23" x2="206.99" y2="-424.73"/>
+<line x1="198.00" y1="-475.37" x2="179.58" y2="-475.37"/>
+<line x1="198.00" y1="-411.37" x2="198.00" y2="-475.37"/>
+<line x1="179.58" y1="-411.37" x2="262.50" y2="-411.37"/>
+<line x1="218.80" y1="-467.01" x2="205.80" y2="-478.51"/>
+<line x1="222.80" y1="-475.51" x2="218.80" y2="-467.01"/>
+<circle cx="267.50" cy="-411.37" r="5.00"/>
+<line x1="223.99" y1="-427.37" x2="262.50" y2="-427.37"/>
+<line x1="179.58" y1="-475.37" x2="179.58" y2="-411.37"/>
+<circle cx="192.50" cy="-346.87" r="5.10"/>
+<line x1="187.49" y1="-345.91" x2="197.50" y2="-345.91"/>
+<line x1="187.49" y1="-347.84" x2="197.50" y2="-347.84"/>
+<line x1="327.50" y1="-427.37" x2="327.50" y2="-262.87"/>
+<line x1="495.00" y1="-385.37" x2="495.00" y2="-262.87"/>
+<line x1="495.00" y1="-475.37" x2="272.50" y2="-475.37"/>
+<line x1="495.00" y1="-262.87" x2="327.50" y2="-262.87"/>
+<line x1="399.93" y1="-305.00" x2="399.93" y2="-327.50"/>
+<line x1="419.62" y1="-304.79" x2="419.62" y2="-321.82"/>
+<line x1="399.93" y1="-262.87" x2="399.93" y2="-274.19"/>
+<line x1="419.62" y1="-262.87" x2="419.62" y2="-274.59"/>
+<line x1="419.62" y1="-475.37" x2="419.62" y2="-457.50"/>
+<line x1="419.62" y1="-397.50" x2="419.62" y2="-382.50"/>
+<line x1="521.22" y1="-385.37" x2="495.00" y2="-385.37"/>
+<line x1="521.22" y1="-425.37" x2="495.00" y2="-425.37"/>
+<line x1="495.00" y1="-475.37" x2="495.00" y2="-425.37"/>
+<line x1="639.01" y1="-387.02" x2="650.99" y2="-422.80"/>
+<line x1="650.99" y1="-422.80" x2="677.55" y2="-422.80"/>
+<line x1="725.00" y1="-405.37" x2="686.93" y2="-405.37"/>
+<line x1="629.43" y1="-405.37" x2="585.08" y2="-405.37"/>
+<line x1="629.43" y1="-375.26" x2="629.43" y2="-436.15"/>
+<line x1="686.93" y1="-375.26" x2="629.43" y2="-375.26"/>
+<line x1="686.93" y1="-436.15" x2="686.93" y2="-375.26"/>
+<line x1="629.43" y1="-436.15" x2="686.93" y2="-436.15"/>
+<line x1="822.98" y1="-405.37" x2="785.00" y2="-405.37"/>
+<line x1="931.19" y1="-405.37" x2="886.84" y2="-405.37"/>
+<line x1="1027.24" y1="-405.37" x2="973.69" y2="-405.37"/>
+<line x1="931.19" y1="-438.65" x2="973.69" y2="-438.65"/>
+<line x1="973.69" y1="-438.65" x2="973.69" y2="-372.76"/>
+<line x1="973.69" y1="-372.76" x2="931.19" y2="-372.76"/>
+<line x1="931.19" y1="-372.76" x2="931.19" y2="-438.65"/>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-305.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -305.73)">OUTPUT</text>
+<text fill="black" stroke="none" font-family="monospace" x="1370.50" y="-320.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 1370.50 -320.73)">EXTERNAL</text>
+<line x1="1150.18" y1="-395.00" x2="1150.18" y2="-312.17"/>
+<line x1="1169.25" y1="-416.00" x2="1169.25" y2="-332.56"/>
+<line x1="1150.18" y1="-312.17" x2="1189.19" y2="-312.17"/>
+<line x1="1169.25" y1="-332.56" x2="1189.19" y2="-332.56"/>
+<line x1="1189.48" y1="-395.00" x2="1070.05" y2="-395.00"/>
+<line x1="1189.48" y1="-416.00" x2="1069.99" y2="-416.00"/>
+<line x1="1220.00" y1="-312.17" x2="1281.65" y2="-312.17"/>
+<circle cx="1286.75" cy="-312.17" r="5.10"/>
+<line x1="1281.74" y1="-311.21" x2="1291.75" y2="-311.21"/>
+<line x1="1281.74" y1="-313.14" x2="1291.75" y2="-313.14"/>
+<line x1="1281.74" y1="-333.52" x2="1291.75" y2="-333.52"/>
+<line x1="1281.74" y1="-331.59" x2="1291.75" y2="-331.59"/>
+<circle cx="1286.75" cy="-332.56" r="5.10"/>
+<line x1="1220.00" y1="-332.56" x2="1281.65" y2="-332.56"/>
+<line x1="1253.28" y1="-416.00" x2="1219.50" y2="-416.00"/>
+<line x1="1253.28" y1="-395.00" x2="1219.60" y2="-395.00"/>
+<polyline points="1334.32,-387.22 1331.61,-389.22 1328.79,-391.07 1325.88,-392.76 1322.88,-394.28 1319.79,-395.64 1316.64,-396.83 1313.43,-397.84 1310.16,-398.67 1306.86,-399.31 1303.52,-399.78 1300.16,-400.06 1296.80,-400.15 1293.43,-400.06 1290.07,-399.78 1286.74,-399.31 1283.43,-398.67 1280.17,-397.84 1276.95,-396.83 1273.80,-395.64 1270.72,-394.28 1267.72,-392.76 1264.80,-391.07 1261.99,-389.22 1259.28,-387.22"/>
+<line x1="1296.80" y1="-383.43" x2="1322.06" y2="-419.27"/>
+<line x1="1340.32" y1="-433.58" x2="1253.28" y2="-433.58"/>
+<line x1="1340.32" y1="-379.18" x2="1340.32" y2="-433.58"/>
+<line x1="1253.28" y1="-379.18" x2="1340.32" y2="-379.18"/>
+<line x1="1253.28" y1="-433.58" x2="1253.28" y2="-379.18"/>
+<line x1="952.49" y1="-632.76" x2="952.49" y2="-438.65"/>
+<line x1="757.49" y1="-667.50" x2="757.49" y2="-205.00"/>
+<line x1="952.49" y1="-372.76" x2="952.49" y2="-205.00"/>
+<line x1="852.33" y1="-648.09" x2="852.33" y2="-422.80"/>
+<line x1="761.33" y1="-208.84" x2="753.76" y2="-201.26"/>
+<line x1="753.70" y1="-208.79" x2="761.28" y2="-201.21"/>
+<line x1="948.70" y1="-208.79" x2="956.28" y2="-201.21"/>
+<line x1="956.33" y1="-208.84" x2="948.76" y2="-201.26"/>
+<line x1="400.00" y1="-436.27" x2="355.58" y2="-436.27"/>
+<line x1="351.79" y1="-208.79" x2="359.36" y2="-201.21"/>
+<line x1="359.42" y1="-208.84" x2="351.84" y2="-201.26"/>
+<line x1="481.92" y1="-208.84" x2="474.34" y2="-201.26"/>
+<line x1="474.29" y1="-208.79" x2="481.86" y2="-201.21"/>
+<line x1="478.08" y1="-618.77" x2="478.08" y2="-205.00"/>
+<line x1="478.08" y1="-618.77" x2="430.00" y2="-618.77"/>
+<line x1="478.08" y1="-358.77" x2="430.00" y2="-358.77"/>
+<line x1="550.57" y1="-648.09" x2="550.57" y2="-422.80"/>
+<line x1="550.57" y1="-746.11" x2="550.57" y2="-682.42"/>
+<line x1="812.45" y1="-767.36" x2="892.33" y2="-767.36"/>
+<line x1="892.33" y1="-724.86" x2="892.33" y2="-767.36"/>
+<line x1="812.45" y1="-724.86" x2="892.33" y2="-724.86"/>
+<line x1="812.45" y1="-767.36" x2="812.45" y2="-724.86"/>
+<line x1="892.33" y1="-746.11" x2="937.30" y2="-746.11"/>
+<line x1="919.05" y1="-825.32" x2="919.05" y2="-782.82"/>
+<line x1="919.05" y1="-782.82" x2="985.79" y2="-782.82"/>
+<line x1="985.79" y1="-782.82" x2="985.79" y2="-825.32"/>
+<line x1="919.05" y1="-825.32" x2="985.79" y2="-825.32"/>
+<line x1="852.33" y1="-804.07" x2="919.05" y2="-804.07"/>
+<line x1="852.33" y1="-724.86" x2="852.33" y2="-682.42"/>
+<circle cx="952.44" cy="-746.11" r="15.14"/>
+<line x1="952.44" y1="-746.11" x2="960.81" y2="-758.75"/>
+<text fill="black" stroke="none" font-family="monospace" x="1002.96" y="-743.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1002.96 -743.20)">SENSITIVITY</text>
+<text fill="black" stroke="none" font-family="monospace" x="982.96" y="-543.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 982.96 -543.20)">SWITCHING</text>
+<text fill="black" stroke="none" font-family="monospace" x="982.96" y="-553.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 982.96 -553.20)">MODE</text>
+<text fill="black" stroke="none" font-family="monospace" x="1060.46" y="-698.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1060.46 -698.20)">DRIVER</text>
+<text fill="black" stroke="none" font-family="monospace" x="1060.46" y="-708.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1060.46 -708.20)">METER</text>
+<text fill="black" stroke="none" font-family="monospace" x="890.46" y="-553.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 890.46 -553.20)">DIGITAL</text>
+<text fill="black" stroke="none" font-family="monospace" x="890.46" y="-543.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 890.46 -543.20)">ATTENUATOR</text>
+<text fill="black" stroke="none" font-family="monospace" x="953.00" y="-185.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 953.00 -185.73)">L&amp;R/L+R&amp;L-R</text>
+<text fill="black" stroke="none" font-family="monospace" x="758.00" y="-185.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 758.00 -185.73)">HP</text>
+<text fill="black" stroke="none" font-family="monospace" x="478.00" y="-185.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 478.00 -185.73)">600/150 OHMS</text>
+<text fill="black" stroke="none" font-family="monospace" x="478.00" y="-170.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 478.00 -170.73)">TERMINATION</text>
+<text fill="black" stroke="none" font-family="monospace" x="355.50" y="-185.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 355.50 -185.73)">BRIDGE/</text>
+<text fill="black" stroke="none" font-family="monospace" x="355.50" y="-170.73" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 355.50 -170.73)">MATCH</text>
+<text fill="black" stroke="none" font-family="monospace" x="1060.46" y="-448.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1060.46 -448.20)">METER</text>
+<text fill="black" stroke="none" font-family="monospace" x="1060.46" y="-438.20" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1060.46 -438.20)">DRIVER</text>
+<text fill="black" stroke="none" font-family="monospace" x="655.46" y="-625.70" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 655.46 -625.70)">75 Hz HP FILTER</text>
+<text fill="black" stroke="none" font-family="monospace" x="657.96" y="-365.70" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 657.96 -365.70)">75 Hz HP FILTER</text>
+<text fill="black" stroke="none" font-family="monospace" x="592.96" y="-750.70" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 592.96 -750.70)">GAIN CONTROL</text>
+<text fill="black" stroke="none" font-family="monospace" x="575.46" y="-550.70" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 575.46 -550.70)">PREAMP</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-707.45" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -707.45)">LEFT</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-692.45" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -692.45)">INPUT</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-599.95" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -599.95)">EXTERNAL</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-584.95" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -584.95)">INPUT</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-614.95" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -614.95)">LEFT</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-324.95" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -324.95)">INPUT</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-432.45" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -432.45)">INPUT</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-447.45" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -447.45)">RIGHT</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-339.95" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -339.95)">EXTERNAL</text>
+<text fill="black" stroke="none" font-family="monospace" x="140.50" y="-354.95" font-size="12.50" text-anchor="middle" transform="rotate(-0.12 140.50 -354.95)">RIGHT</text>
+<text fill="black" stroke="none" font-family="monospace" x="437.96" y="-550.70" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 437.96 -550.70)">150</text>
+<text fill="black" stroke="none" font-family="monospace" x="380.46" y="-550.70" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 380.46 -550.70)">600</text>
+<text fill="black" stroke="none" font-family="monospace" x="380.46" y="-290.70" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 380.46 -290.70)">600</text>
+<text fill="black" stroke="none" font-family="monospace" x="437.96" y="-290.70" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 437.96 -290.70)">150</text>
+<line x1="610.00" y1="-405.00" x2="610.00" y2="-450.00"/>
+<line x1="610.00" y1="-450.00" x2="735.00" y2="-450.00"/>
+<line x1="735.00" y1="-450.00" x2="735.00" y2="-430.00"/>
+<line x1="610.00" y1="-665.00" x2="610.00" y2="-710.00"/>
+<line x1="610.00" y1="-710.00" x2="735.00" y2="-710.00"/>
+<line x1="735.00" y1="-710.00" x2="735.00" y2="-690.00"/>
+<text fill="black" stroke="none" font-family="monospace" x="852.50" y="-750.00" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 852.50 -750.00)">MICRO</text>
+<text fill="black" stroke="none" font-family="monospace" x="852.50" y="-738.00" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 852.50 -738.00)">CONTROLLER</text>
+<text fill="black" stroke="none" font-family="monospace" x="952.50" y="-810.00" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 952.50 -810.00)">LCD</text>
+<text fill="black" stroke="none" font-family="monospace" x="952.50" y="-798.00" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 952.50 -798.00)">DISPLAY</text>
+<line x1="1131.03" y1="-490.06" x2="1189.19" y2="-490.06"/>
+<line x1="1220.00" y1="-490.06" x2="1290.00" y2="-490.06"/>
+<line x1="1220.00" y1="-469.67" x2="1290.00" y2="-469.67"/>
+<line x1="1160.00" y1="-469.67" x2="1189.19" y2="-469.67"/>
+<line x1="1150.18" y1="-509.67" x2="1189.19" y2="-509.67"/>
+<line x1="1169.25" y1="-530.06" x2="1189.19" y2="-530.06"/>
+<line x1="1220.00" y1="-530.06" x2="1290.00" y2="-530.06"/>
+<line x1="1220.00" y1="-509.67" x2="1290.00" y2="-509.67"/>
+<line x1="1160.00" y1="-395.00" x2="1160.00" y2="-470.00"/>
+<line x1="1290.00" y1="-497.50" x2="1290.00" y2="-460.00"/>
+<line x1="1290.00" y1="-460.00" x2="1327.50" y2="-478.75"/>
+<line x1="1327.50" y1="-478.75" x2="1290.00" y2="-497.50"/>
+<line x1="1327.50" y1="-518.75" x2="1290.00" y2="-537.50"/>
+<line x1="1290.00" y1="-500.00" x2="1327.50" y2="-518.75"/>
+<line x1="1290.00" y1="-537.50" x2="1290.00" y2="-500.00"/>
+<line x1="1350.00" y1="-526.50" x2="1350.00" y2="-510.50"/>
+<line x1="1350.00" y1="-510.50" x2="1358.00" y2="-510.50"/>
+<line x1="1358.00" y1="-510.50" x2="1358.00" y2="-526.50"/>
+<line x1="1358.00" y1="-526.50" x2="1350.00" y2="-526.50"/>
+<line x1="1358.00" y1="-526.50" x2="1366.00" y2="-534.50"/>
+<line x1="1366.00" y1="-534.50" x2="1366.00" y2="-502.50"/>
+<line x1="1366.00" y1="-502.50" x2="1358.00" y2="-510.50"/>
+<line x1="1366.00" y1="-462.50" x2="1358.00" y2="-470.50"/>
+<line x1="1366.00" y1="-494.50" x2="1366.00" y2="-462.50"/>
+<line x1="1358.00" y1="-486.50" x2="1366.00" y2="-494.50"/>
+<line x1="1358.00" y1="-486.50" x2="1350.00" y2="-486.50"/>
+<line x1="1358.00" y1="-470.50" x2="1358.00" y2="-486.50"/>
+<line x1="1350.00" y1="-470.50" x2="1358.00" y2="-470.50"/>
+<line x1="1350.00" y1="-486.50" x2="1350.00" y2="-470.50"/>
+<line x1="1327.50" y1="-478.75" x2="1350.00" y2="-478.75"/>
+<line x1="1327.50" y1="-518.75" x2="1350.00" y2="-518.75"/>
+<text fill="black" stroke="none" font-family="monospace" x="1396.25" y="-523.75" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1396.25 -523.75)">LEFT</text>
+<text fill="black" stroke="none" font-family="monospace" x="1396.25" y="-511.75" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1396.25 -511.75)">SPEAKER</text>
+<text fill="black" stroke="none" font-family="monospace" x="1396.25" y="-483.75" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1396.25 -483.75)">RIGHT</text>
+<text fill="black" stroke="none" font-family="monospace" x="1396.25" y="-471.75" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1396.25 -471.75)">SPEAKER</text>
+<line x1="1280.00" y1="-445.00" x2="1335.00" y2="-445.00"/>
+<line x1="1335.00" y1="-445.00" x2="1335.00" y2="-545.00"/>
+<line x1="1335.00" y1="-545.00" x2="1280.00" y2="-545.00"/>
+<line x1="1280.00" y1="-545.00" x2="1280.00" y2="-445.00"/>
+<text fill="black" stroke="none" font-family="monospace" x="1307.50" y="-448.75" font-size="8.75" text-anchor="middle" transform="rotate(-0.00 1307.50 -448.75)">SA14-311</text></g></svg>

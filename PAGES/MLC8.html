@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../simulator.html?m=MLC8">simulator &amp; front panel</a> · <a href="../_packages/MLC8.zip">download package (zip)</a></td>
+<td><a href="../siumulation.html?plugin=mlc8">full simulation: MLC8 / MLC6 level control</a> · <a href="../siumulation.html?plugin=rd66-mlc8-ams8e1-iss5">full simulation: RD66-MLC8UsingAMS8E-1-iss5</a> · <a href="../simulator.html?m=MLC8">simulator &amp; front panel</a> · <a href="../kicad.html?m=MLC8">KiCad symbol generator</a> · <a href="../_packages/MLC8.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -87,6 +87,887 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Products/METERING/MLC8/2018%20-%20MLC8%20-%20SLM1%20Front%20Three%20Quarter.jpg"><img loading="lazy" src="../Products/METERING/MLC8/2018%20-%20MLC8%20-%20SLM1%20Front%20Three%20Quarter.jpg" alt="" data-f="Products/METERING/MLC8/2018 - MLC8 - SLM1 Front Three Quarter.jpg" data-size="320" onerror="wbsOff(this)">2018 - MLC8 - SLM1 Front Three Quarter.jpg</a></div>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="MLC8" data-n="Multi-Channel Level Control" data-cat="METERING" role="img" aria-label="MLC8 front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the MLC8: every programmable part and the version Ward-Beck released for it, from the <a href="Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MLC8A REVISIONS — Main Board Revisions (MLC8A)</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>V050000</strong> (in 05AV0000)</td>
+<td>2014-12-15</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8A REVISIONS — Main Board Revisions (MLC8A)</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>V106</strong> (in 05AV0000)</td>
+<td>2014-12-15</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8A REVISIONS — Main Board Revisions (MLC8A)</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>AMS81 v050000</strong> (in 05AV0000)</td>
+<td>2014-12-15</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8A REVISIONS — Front Panel Revisions (MLC8A)</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>V205</strong> (in 2.0.0.5)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8A REVISIONS — Front Panel Revisions (MLC8A)</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>V200</strong> (in 2.0.0.5)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8A REVISIONS — MLC8R Front Panel Revisions (MLC8A)</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC8AV205</strong> (in 2.0.0.4)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8A REVISIONS — MLC8R Front Panel Revisions (MLC8A)</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>V200</strong> (in 2.0.0.4)</td>
+<td>2007-12-21</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions (MLC8B)</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>V050100</strong> (in 05AV0100)</td>
+<td>2014-01-27</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions (MLC8B)</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>v106</strong> (in 05AV0100)</td>
+<td>2014-01-27</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions (MLC8B)</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>AMS81 v050000</strong> (in 05AV0100)</td>
+<td>2014-01-27</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions (MLC8B)</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>V040000</strong> (in 05AV0100)</td>
+<td>2014-01-27</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions (MLC8B)</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>V040000</strong> (in 05AV0100)</td>
+<td>2014-01-27</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions (MLC8B)</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>V040100</strong> (in 05AV0200)</td>
+<td>2014-10-06</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions (MLC8B)</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>V040100</strong> (in 05AV0200)</td>
+<td>2014-10-06</td>
+<td>MLCs</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Also:</strong> <a href="MLC8A.html#software">MLC8A REVISIONS — Main Board Revisions</a> · <a href="MLC8A.html#software">MLC8A REVISIONS — Front Panel Revisions</a> · <a href="MLC8A.html#software">MLC8A REVISIONS — MLC8R Front Panel Revisions</a> · <a href="MLC8B.html#software">MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</a> · <a href="MLC8B.html#software">MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions</a> · <a href="MLC8B.html#software">MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</a></p>
+<h2>Versions</h2>
+<h3>MLC8A REVISIONS — Main Board Revisions</h3>
+<p><em>From the <a href="MLC8A.html#software">MLC8A</a> sheet: the build used in the MLC8.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2006|39</td>
+<td>2006-08-10</td>
+<td><strong>1.0.0.0</strong></td>
+<td>V100</td>
+<td>V100</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-08-25</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V101</td>
+<td>V100</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-10-02</td>
+<td><strong>2.0.0.1</strong></td>
+<td>V102</td>
+<td>V102</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-12-20</td>
+<td><strong>2.0.0.2</strong></td>
+<td>V103</td>
+<td>V104</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-02-12</td>
+<td><strong>2.0.0.3</strong></td>
+<td>V104</td>
+<td>v105</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-11-20</td>
+<td><strong>2.0.0.4</strong></td>
+<td>V105</td>
+<td>v105</td>
+<td>AMS8V202</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-12-21</td>
+<td><strong>2.0.0.5</strong></td>
+<td>V106</td>
+<td>v105</td>
+<td>AMS8V202</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2009|42</td>
+<td>2009-06-01</td>
+<td><strong>2.0.0.6</strong></td>
+<td>V106</td>
+<td>v106</td>
+<td>AMS8V203</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td>2014-12-15</td>
+<td><strong>05AV0000</strong></td>
+<td>V050000</td>
+<td>V106</td>
+<td>AMS81 v050000</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-11-21</td>
+<td><strong>Custom 039</strong></td>
+<td>V106</td>
+<td>CUSTOM 039</td>
+<td>AMS8V203</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>LOCATED IN THE "H:\mlc\Software\MLC8A\AMS8-1" FOLDER</p>
+</blockquote>
+<h3>MLC8A REVISIONS — Front Panel Revisions</h3>
+<p><em>From the <a href="MLC8A.html#software">MLC8A</a> sheet: the build used in the MLC8.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2006|39</td>
+<td>2006-08-10</td>
+<td><strong>1.0.0.0</strong></td>
+<td>V100</td>
+<td>V100</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-08-25</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V200</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-08-31</td>
+<td><strong>2.0.0.1</strong></td>
+<td>V201</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-10-02</td>
+<td><strong>2.0.0.2</strong></td>
+<td>V202</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-01-08</td>
+<td><strong>2.0.0.3</strong></td>
+<td>V203</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-02-12</td>
+<td><strong>2.0.0.4</strong></td>
+<td>V204</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-12-21</td>
+<td><strong>2.0.0.5</strong></td>
+<td>V205</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>LOCATED IN THE "H:\mlc\Software\MLC8A\" FOLDER</p>
+</blockquote>
+<h3>MLC8A REVISIONS — MLC8R Front Panel Revisions</h3>
+<p><em>From the <a href="MLC8A.html#software">MLC8A</a> sheet: the build used in the MLC8.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2006|39</td>
+<td>2006-08-10</td>
+<td><strong>1.0.0.0</strong></td>
+<td>V100</td>
+<td>V100</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-08-31</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V201</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-10-02</td>
+<td><strong>2.0.0.1</strong></td>
+<td>MLC8AV202</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-12-20</td>
+<td><strong>2.0.0.2</strong></td>
+<td>MLC8AV203</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-02-12</td>
+<td><strong>2.0.0.3</strong></td>
+<td>MLC8AV204</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-12-21</td>
+<td><strong>2.0.0.4</strong></td>
+<td>MLC8AV205</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>LOCATED IN THE "H:\mlc\Software\MLC8R\" FOLDER
+If the MAIN UNIT is the MLC8A, use the MLC8A FRONT PANEL software for the ATMEL</p>
+</blockquote>
+<h3>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</h3>
+<p><em>From the <a href="MLC8B.html#software">MLC8B</a> sheet: the build used in the MLC8.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2006|39</td>
+<td>2006-08-10</td>
+<td><strong>1.0.0.0</strong></td>
+<td>V100</td>
+<td>V100</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-08-25</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V101</td>
+<td>V100</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-10-02</td>
+<td><strong>2.0.0.1</strong></td>
+<td>V102</td>
+<td>V102</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-12-20</td>
+<td><strong>2.0.0.2</strong></td>
+<td>V103</td>
+<td>V104</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-02-12</td>
+<td><strong>2.0.0.3</strong></td>
+<td>V104</td>
+<td>v105</td>
+<td>AMS8V201</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-03-19</td>
+<td><strong>2.0.0.4</strong></td>
+<td>V105</td>
+<td>v105</td>
+<td>AMS8V202</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2013|46</td>
+<td>2013-04-01</td>
+<td><strong>2.0.0.5</strong></td>
+<td>V105</td>
+<td>v106</td>
+<td>AMS8V203</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td></td>
+<td>—</td>
+<td><strong>05AV0000</strong></td>
+<td>v050000</td>
+<td>v106</td>
+<td>AMS81 v050000</td>
+<td></td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td>2014-01-27</td>
+<td><strong>05AV0100</strong></td>
+<td>V050100</td>
+<td>v106</td>
+<td>AMS81 v050000</td>
+<td>released</td>
+<td>DEMUX compatibility DEMUX4 - 02AV0000</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>LOCATED IN THE "H:\mlc\Software\MLC8B\AMS8-1" FOLDER</p>
+</blockquote>
+<h3>MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions</h3>
+<p><em>From the <a href="MLC8B.html#software">MLC8B</a> sheet: the build used in the MLC8.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2006|39</td>
+<td>2006-10-02</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V202</td>
+<td>MLC8AV200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-12-20</td>
+<td><strong>2.0.0.1</strong></td>
+<td>V203</td>
+<td>MLC8AV200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-02-14</td>
+<td><strong>2.0.0.2</strong></td>
+<td>V204</td>
+<td>MLC8AV200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-03-19</td>
+<td><strong>2.0.0.3</strong></td>
+<td>V205</td>
+<td>MLC8AV200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td>2014-01-27</td>
+<td><strong>05AV0100</strong></td>
+<td>V040000</td>
+<td>V040000</td>
+<td>released</td>
+<td>DEMUX compatibility DEMUX4 - 02AV0000</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>LOCATED IN THE "H:\mlc\Software\MLC8AM\" FOLDER</p>
+</blockquote>
+<h3>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</h3>
+<p><em>From the <a href="MLC8B.html#software">MLC8B</a> sheet: the build used in the MLC8.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2006|39</td>
+<td>2006-08-10</td>
+<td><strong>1.0.0.0</strong></td>
+<td>V100</td>
+<td>V100</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-08-31</td>
+<td><strong>2.0.0.0</strong></td>
+<td>V201</td>
+<td>V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-10-02</td>
+<td><strong>2.0.0.1</strong></td>
+<td>MLC8RV202</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-12-20</td>
+<td><strong>2.0.0.2</strong></td>
+<td>MLC8RV203</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2007|40</td>
+<td>2007-02-12</td>
+<td><strong>2.0.0.3</strong></td>
+<td>MLC8RV204</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2008|41</td>
+<td>2008-03-19</td>
+<td><strong>2.0.0.4</strong></td>
+<td>MLC8RV205</td>
+<td>V200</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V201, ALTERA - V202</td>
+</tr>
+<tr>
+<td>2014|47</td>
+<td>2014-10-06</td>
+<td><strong>05AV0200</strong></td>
+<td>V040100</td>
+<td>V040100</td>
+<td>released</td>
+<td>DEMUX compatibility DEMUX4 - 02AV0001</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>LOCATED IN THE "H:\mlc\Software\MLC8R\" FOLDER
+if the MAIN UNIT is MLC8B use the MLC8R software</p>
+</blockquote>
+<h2>Changes in each version</h2>
+<p><em>What changed, in the words of the listing, oldest first.</em></p>
+<ul>
+<li><strong>1.0.0.0</strong> — 2006|39 · 2006-08-10 — <em>MLC8A REVISIONS — Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>Proto released to CBC</li>
+</ul>
+</li>
+<li><strong>1.0.0.0</strong> — 2006|39 · 2006-08-10 — <em>MLC8A REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>Proto released to CBC</li>
+</ul>
+</li>
+<li><strong>1.0.0.0</strong> — 2006|39 · 2006-08-10 — <em>MLC8A REVISIONS — Main Board Revisions</em><ul>
+<li>N/A</li>
+<li>Proto released to CBC</li>
+</ul>
+</li>
+<li><strong>1.0.0.0</strong> — 2006|39 · 2006-08-10 — <em>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>Proto released to CBC</li>
+</ul>
+</li>
+<li><strong>1.0.0.0</strong> — 2006|39 · 2006-08-10 — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em><ul>
+<li>N/A</li>
+<li>Proto released to CBC</li>
+</ul>
+</li>
+<li><strong>2.0.0.0</strong> — 2006|39 · 2006-08-25 — <em>MLC8A REVISIONS — Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>MLC8 MAIN BOARD - V2.0.0.0 or greater</li>
+</ul>
+</li>
+<li><strong>2.0.0.0</strong> — 2006|39 · 2006-08-25 — <em>MLC8A REVISIONS — Main Board Revisions</em>: N/A</li>
+<li><strong>2.0.0.0</strong> — 2006|39 · 2006-08-25 — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em>: N/A</li>
+<li><strong>2.0.0.1</strong> — 2006|39 · 2006-08-31 — <em>MLC8A REVISIONS — Front Panel Revisions</em>: N/A</li>
+<li><strong>2.0.0.0</strong> — 2006|39 · 2006-08-31 — <em>MLC8A REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>MLC8 - V2.0.0.0 or greater</li>
+</ul>
+</li>
+<li><strong>2.0.0.0</strong> — 2006|39 · 2006-08-31 — <em>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>MLC8 - V2.0.0.0 or greater</li>
+</ul>
+</li>
+<li><strong>2.0.0.2</strong> — 2006|39 · 2006-10-02 — <em>MLC8A REVISIONS — Front Panel Revisions</em>: N/A</li>
+<li><strong>2.0.0.1</strong> — 2006|39 · 2006-10-02 — <em>MLC8A REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>MLC8B HAS NO CARRIER LOCK INFORMATION RECEIVED FROM MOTHERBOARD</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.1</strong> — 2006|39 · 2006-10-02 — <em>MLC8A REVISIONS — Main Board Revisions</em>: DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+<li><strong>2.0.0.0</strong> — 2006|39 · 2006-10-02 — <em>MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions</em><ul>
+<li>MLC8 MAIN BOARD - V2.0.0.2 or greater (NO CARRIER INFORMATION REPORTED TO REMOTE PANEL)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.1</strong> — 2006|39 · 2006-10-02 — <em>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>MLC8B HAS NO CARRIER LOCK INFORMATION RECEIVED FROM MOTHERBOARD</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.1</strong> — 2006|39 · 2006-10-02 — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em>: DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+<li><strong>2.0.0.2</strong> — 2006|39 · 2006-12-20 — <em>MLC8A REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>MLC8B HAS CARRIER LOCK INFORMATION RECEIVED FROM MOTHERBOARD (USE MLC8RV203)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.2</strong> — 2006|39 · 2006-12-20 — <em>MLC8A REVISIONS — Main Board Revisions</em><ul>
+<li>FOR MLC8A/C/D, USE AMS8-1 IN MLC8A FOLDER. USE AMS8-1 IN MLC8B FOLDER FOR MLC8B. USE AMS8-1 IN MLC8CA FOLDER FOR MLC8CA</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.1</strong> — 2006|39 · 2006-12-20 — <em>MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions</em><ul>
+<li>MLC8 MAIN BOARD - V2.0.0.2 or greater (CARRIER INFORMATION REPORTED TO REMOTE PANEL)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.2</strong> — 2006|39 · 2006-12-20 — <em>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>MLC8B HAS CARRIER LOCK INFORMATION RECEIVED FROM MOTHERBOARD (USE MLC8RV203)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.2</strong> — 2006|39 · 2006-12-20 — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em><ul>
+<li>FOR MLC8A/C/D, USE AMS8-1 IN MLC8A FOLDER. USE AMS8-1 IN MLC8B FOLDER FOR MLC8B. USE AMS8-1 IN MLC8CA FOLDER FOR MLC8CA</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.3</strong> — 2007|40 · 2007-01-08 — <em>MLC8A REVISIONS — Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>MLC8 MAIN BOARD - V2.0.0.2 or greater</li>
+</ul>
+</li>
+<li><strong>2.0.0.4</strong> — 2007|40 · 2007-02-12 — <em>MLC8A REVISIONS — Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>ADDED DIM FEATURE (default -10dB of MASTER VOLUME)</li>
+</ul>
+</li>
+<li><strong>2.0.0.3</strong> — 2007|40 · 2007-02-12 — <em>MLC8A REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>ADDED DIM FEATURE (default -10dB of MASTER VOLUME)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.3</strong> — 2007|40 · 2007-02-12 — <em>MLC8A REVISIONS — Main Board Revisions</em><ul>
+<li>ADDED DIM FEATURE (default -10dB of MASTER VOLUME)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.3</strong> — 2007|40 · 2007-02-12 — <em>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>ADDED DIM FEATURE (default -10dB of MASTER VOLUME)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.3</strong> — 2007|40 · 2007-02-12 — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em><ul>
+<li>ADDED DIM FEATURE (default -10dB of MASTER VOLUME)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.2</strong> — 2007|40 · 2007-02-14 — <em>MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions</em><ul>
+<li>ADDED DIM FEATURE (default -10dB of MASTER VOLUME)</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.4</strong> — 2007|40 · 2007-11-20 — <em>MLC8A REVISIONS — Main Board Revisions</em><ul>
+<li>FIXED AUDIO MISMATCHING AND EEPROM CHANGE IN MODE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.5</strong> — 2007|40 · 2007-12-21 — <em>MLC8A REVISIONS — Front Panel Revisions</em><ul>
+<li>N/A</li>
+<li>FIXED COMMUNICATION ISSUE</li>
+</ul>
+</li>
+<li><strong>2.0.0.4</strong> — 2007|40 · 2007-12-21 — <em>MLC8A REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>FIXED COMMUNICATION ISSUE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.5</strong> — 2007|40 · 2007-12-21 — <em>MLC8A REVISIONS — Main Board Revisions</em><ul>
+<li>FIXED COMMUNICATION ISSUE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.3</strong> — 2008|41 · 2008-03-19 — <em>MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions</em><ul>
+<li>FIXED COMMUNICATION ISSUE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.4</strong> — 2008|41 · 2008-03-19 — <em>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>FIXED COMMUNICATION ISSUE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.4</strong> — 2008|41 · 2008-03-19 — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em><ul>
+<li>FIXED AUDIO MISMATCHING AND EEPROM CHANGE IN MODE AND FIXED COMMUNICATION ISSUE</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>Custom 039</strong> — 2008|41 · 2008-11-21 — <em>MLC8A REVISIONS — Main Board Revisions</em><ul>
+<li>ADDED LTRT OUTPUT ON AES4 WHEN ST BUTTON IS PRESSED. USE WITH FRONT PANEL V2.0.0.5 AND REMOTE PANEL V2.0.0.4</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.6</strong> — 2009|42 · 2009-06-01 — <em>MLC8A REVISIONS — Main Board Revisions</em><ul>
+<li>FIXED PHASE ISSUE WITH AES OUTPUTS AND LED DISPLAY FREEZE, ATMEL - V202, ALTERA - V203</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>2.0.0.5</strong> — 2013|46 · 2013-04-01 — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em><ul>
+<li>FIXED PHASE ISSUE WITH AES OUTPUTS AND LED DISPLAY FREEZE, ATMEL - V202, ALTERA - V203</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+<li><strong>05AV0100</strong> — 2014|47 · 2014-01-27 — <em>MLC8B (aka MLC8AM) REVISIONS — Front Panel Revisions</em><ul>
+<li>added compatibility with demux4</li>
+<li>DEMUX compatibility: DEMUX4 - 02AV0000</li>
+</ul>
+</li>
+<li><strong>05AV0100</strong> — 2014|47 · 2014-01-27 — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em><ul>
+<li>added compatibility with demux4</li>
+<li>DEMUX compatibility: DEMUX4 - 02AV0000</li>
+</ul>
+</li>
+<li><strong>05AV0200</strong> — 2014|47 · 2014-10-06 — <em>MLC8B (aka MLC8AM) REVISIONS — MLC8R Front Panel Revisions</em><ul>
+<li>AS of August 2018 the Aux Connector has been updated to a Female Tascam Standard</li>
+<li>DEMUX compatibility: DEMUX4 - 02AV0001</li>
+</ul>
+</li>
+<li><strong>05AV0000</strong> — 2014|47 · 2014-12-15 — <em>MLC8A REVISIONS — Main Board Revisions</em>: AS of August 2018 the Aux Connector has been updated to a Female Tascam</li>
+<li><strong>05AV0000</strong> — undated — <em>MLC8B (aka MLC8AM) REVISIONS — Main Board Revisions</em><ul>
+<li>removed dependence on cs8416 and ad1895 chipsets within fpga and main board atmel</li>
+<li>DEMUX compatibility: ATMEL - V201, ALTERA - V202</li>
+</ul>
+</li>
+</ul>
 <h2>Photos &amp; scans (1)</h2>
 <table>
 <thead>
@@ -103,4 +984,18 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <td><a href="../viewer.html?f=Products/METERING/MLC8/2018%20-%20MLC8%20-%20SLM1%20Front%20Three%20Quarter.jpg.md">note</a></td>
 </tr>
 </tbody>
-</table><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from MLC8.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;MLC8&quot;,
+ &quot;name&quot;: &quot;Multi-Channel Level Control&quot;,
+ &quot;category&quot;: &quot;METERING&quot;,
+ &quot;year&quot;: 2017,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/METERING/MLC8/2018 - MLC8 - SLM1 Front Three Quarter.jpg&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from MLC8.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

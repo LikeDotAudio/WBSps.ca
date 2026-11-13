@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../simulator.html?m=AMS8-1CAM">simulator &amp; front panel</a> · <a href="../_packages/AMS8-1CAM.zip">download package (zip)</a></td>
+<td><a href="../simulator.html?m=AMS8-1CAM">simulator &amp; front panel</a> · <a href="../kicad.html?m=AMS8-1CAM">KiCad symbol generator</a> · <a href="../_packages/AMS8-1CAM.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -87,6 +87,130 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Products/METERING/AMS8-1CAM/2018%20-%20AMS8-1CAM%20-%20Information%20Sheet.jpg"><img loading="lazy" src="../Products/METERING/AMS8-1CAM/2018%20-%20AMS8-1CAM%20-%20Information%20Sheet.jpg" alt="" data-f="Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Information Sheet.jpg" data-size="320" onerror="wbsOff(this)">2018 - AMS8-1CAM - Information Sheet.jpg</a><a href="../viewer.html?f=Products/METERING/AMS8-1CAM/2018%20-%20AMS8-1CAM%20-%20Rear.jpg"><img loading="lazy" src="../Products/METERING/AMS8-1CAM/2018%20-%20AMS8-1CAM%20-%20Rear.jpg" alt="" data-f="Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Rear.jpg" data-size="320" onerror="wbsOff(this)">2018 - AMS8-1CAM - Rear.jpg</a></div>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="AMS8-1CAM" data-n="Mkiii 8 Channel Audio Monitoring System" data-cat="METERING" role="img" aria-label="AMS8-1CAM front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the AMS8-1CAM: every programmable part and the version Ward-Beck released for it, from the <a href="Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AMS81-1CAM PRODUCT REVISIONS</td>
+<td>AMS8E-1 firmware</td>
+<td></td>
+<td></td>
+<td><strong>V050000</strong> (in 06VA0001)</td>
+<td>2015-07-29</td>
+<td>AMS8-1B</td>
+</tr>
+<tr>
+<td>AMS81-1CAM PRODUCT REVISIONS</td>
+<td>AMS8E-5 firmware</td>
+<td></td>
+<td></td>
+<td><strong>V040001</strong> (in 06VA0001)</td>
+<td>2015-07-29</td>
+<td>AMS8-1B</td>
+</tr>
+<tr>
+<td>AMS81-1CAM PRODUCT REVISIONS</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>AMS81B102</strong> (in 06VA0001)</td>
+<td>2015-07-29</td>
+<td>AMS8-1B</td>
+</tr>
+<tr>
+<td>AMS81-1CAM PRODUCT REVISIONS</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>AMS81 V050000</strong> (in 06VA0001)</td>
+<td>2015-07-29</td>
+<td>AMS8-1B</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Product firmware versions (PFV)</strong>: AMS81-1CAM PRODUCT REVISIONS: 3 revisions, latest released <strong>06VA0001</strong> (2015-07-29)</p>
+<p><strong>Programming:</strong> Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).</p>
+<h2>Versions</h2>
+<h3>AMS81-1CAM PRODUCT REVISIONS</h3>
+<p><em>Sheet <strong>AMS8-1B</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>AMS8E-1</th>
+<th>AMS8E-5</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2009|42</td>
+<td>2009-08-24</td>
+<td><strong>1.0.0.0</strong></td>
+<td>V1000</td>
+<td>V1000</td>
+<td>AMS81B102</td>
+<td>V1000</td>
+<td>released</td>
+<td>DEMUX compatibility ATMEL - V202, ALTERA - V203</td>
+</tr>
+<tr>
+<td>2013|46</td>
+<td>2013-08-29</td>
+<td><strong>06VA0000</strong></td>
+<td>V050000</td>
+<td>V040000</td>
+<td>AMS81B102</td>
+<td>AMS81 V050000</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2015|48</td>
+<td>2015-07-29</td>
+<td><strong>06VA0001</strong></td>
+<td>V050000</td>
+<td>V040001</td>
+<td>AMS81B102</td>
+<td>AMS81 V050000</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Changes in each version</h2>
+<p><em>What changed, in the words of the listing, oldest first.</em></p>
+<ul>
+<li><strong>1.0.0.0</strong> — 2009|42 · 2009-08-24 — <em>AMS81-1CAM PRODUCT REVISIONS</em>: DEMUX compatibility: ATMEL - V202, ALTERA - V203</li>
+<li><strong>06VA0000</strong> — 2013|46 · 2013-08-29 — <em>AMS81-1CAM PRODUCT REVISIONS</em><ul>
+<li>Utilizing new AMS8E-1 ISS5 MAIN BOARD.</li>
+<li>used by ABC/Disney Graphics</li>
+</ul>
+</li>
+<li><strong>06VA0001</strong> — 2015|48 · 2015-07-29 — <em>AMS81-1CAM PRODUCT REVISIONS</em><ul>
+<li>Front panel Atmel display initialization updated. Now compatible with PDSP1884 &amp; HDSP2533</li>
+<li>As of July 2018 the AMS8E-6 board has been changed to Support Round buttons and the Aux Connector has been changed to a Female Tascam Standard</li>
+</ul>
+</li>
+</ul>
 <h2>Dates found in the documents</h2>
 <table>
 <thead>
@@ -206,4 +330,44 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <details><summary>Warranty — 0 words · 2018 - AMS8-1CAM - Manual (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 <ul>
 <li>source: <a href="../viewer.html?f=Products/METERING/AMS8-1CAM/2018%20-%20AMS8-1CAM%20-%20Manual%20%282%29.docx">2018 - AMS8-1CAM - Manual (2).docx</a>, p. 1</li>
-</ul><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from AMS8-1CAM.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;AMS8-1CAM&quot;,
+ &quot;name&quot;: &quot;Mkiii 8 Channel Audio Monitoring System&quot;,
+ &quot;category&quot;: &quot;METERING&quot;,
+ &quot;year&quot;: 2018,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Information Sheet.jpg&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Manual (2).docx&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Manual.docx&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/METERING/AMS8-1CAM/2018 - AMS8-1CAM - Rear.jpg&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from AMS8-1CAM.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

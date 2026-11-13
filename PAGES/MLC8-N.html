@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../simulator.html?m=MLC8-N">simulator &amp; front panel</a></td>
+<td><a href="../simulator.html?m=MLC8-N">simulator &amp; front panel</a> · <a href="../kicad.html?m=MLC8-N">KiCad symbol generator</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -87,6 +87,172 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Information%20Sheet.jpg"><img loading="lazy" src="../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Information%20Sheet.jpg" alt="" data-f="Products/RAVENNA AES67/MLC8-N/2018 - MLC8-N - Information Sheet.jpg" data-size="320" onerror="wbsOff(this)">2018 - MLC8-N - Information Sheet.jpg</a><a href="../viewer.html?f=Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Three%20Quarter.jpg"><img loading="lazy" src="../Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Three%20Quarter.jpg" alt="" data-f="Products/RAVENNA AES67/MLC8-N/2018 - MLC8-N - Three Quarter.jpg" data-size="320" onerror="wbsOff(this)">2018 - MLC8-N - Three Quarter.jpg</a></div>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="MLC8-N" data-n="Three Quarter" data-cat="RAVENNA AES67" role="img" aria-label="MLC8-N front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the MLC8-N: every programmable part and the version Ward-Beck released for it, from the <a href="Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MLC8N (Ravenna) REVISIONS — Main Board Revisions</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC8A V050000</strong> (in 05AV0000)</td>
+<td>2016-05-25</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8N (Ravenna) REVISIONS — Main Board Revisions</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC8A v106</strong> (in 05AV0000)</td>
+<td>2016-05-25</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8N (Ravenna) REVISIONS — Main Board Revisions</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>v050000</strong> (in 05AV0000)</td>
+<td>2016-05-25</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8N (Ravenna) REVISIONS — Front Panel Revisions</td>
+<td>ATMEL firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC8A V205</strong> (in 05AV0000)</td>
+<td>2016-05-25</td>
+<td>MLCs</td>
+</tr>
+<tr>
+<td>MLC8N (Ravenna) REVISIONS — Front Panel Revisions</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>MLC8A V200</strong> (in 05AV0000)</td>
+<td>2016-05-25</td>
+<td>MLCs</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Product firmware versions (PFV)</strong>: MLC8N (Ravenna) REVISIONS — Main Board Revisions: 2 revisions, latest released <strong>05AV0000</strong> (2016-05-25) · MLC8N (Ravenna) REVISIONS — Front Panel Revisions: 2 revisions, latest released <strong>05AV0000</strong> (2016-05-25)</p>
+<p><strong>Programming:</strong> Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).</p>
+<h2>Versions</h2>
+<h3>MLC8N (Ravenna) REVISIONS — Main Board Revisions</h3>
+<p><em>Sheet <strong>MLCs</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2016|49</td>
+<td>2016-05-25</td>
+<td><strong>05AV0000</strong></td>
+<td>MLC8A V050000</td>
+<td>MLC8A v106</td>
+<td>v050000</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2016|49</td>
+<td>2016-05-25</td>
+<td><strong>05AV0100</strong></td>
+<td>MLC8B V050100</td>
+<td>MLC8B v106</td>
+<td>v050000</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>ALTERA LOCATED IN THE "H:\Engineering\WBSProducts\MLC\MLC8\Software\MLC8N\AMS8-1" FOLDER</p>
+</blockquote>
+<h3>MLC8N (Ravenna) REVISIONS — Front Panel Revisions</h3>
+<p><em>Sheet <strong>MLCs</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>ATMEL</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2016|49</td>
+<td>2016-05-25</td>
+<td><strong>05AV0000</strong></td>
+<td>MLC8A V205</td>
+<td>MLC8A V200</td>
+<td>released</td>
+<td></td>
+</tr>
+<tr>
+<td>2016|49</td>
+<td>2016-05-25</td>
+<td><strong>05AV0100</strong></td>
+<td>MLC8B V040000</td>
+<td>MLC8B V040000</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Changes in each version</h2>
+<p><em>What changed, in the words of the listing, oldest first.</em></p>
+<ul>
+<li><strong>05AV0000</strong> — 2016|49 · 2016-05-25 — <em>MLC8N (Ravenna) REVISIONS — Front Panel Revisions</em><ul>
+<li>based on MLC8A 2.0.0.5</li>
+<li>NOT RELEASED</li>
+</ul>
+</li>
+<li><strong>05AV0100</strong> — 2016|49 · 2016-05-25 — <em>MLC8N (Ravenna) REVISIONS — Front Panel Revisions</em><ul>
+<li>based on MLC8B 05AV0100</li>
+<li>NAB2016</li>
+</ul>
+</li>
+<li><strong>05AV0000</strong> — 2016|49 · 2016-05-25 — <em>MLC8N (Ravenna) REVISIONS — Main Board Revisions</em><ul>
+<li>based on MLC8A 05AV0000</li>
+<li>NOT RELEASED</li>
+</ul>
+</li>
+<li><strong>05AV0100</strong> — 2016|49 · 2016-05-25 — <em>MLC8N (Ravenna) REVISIONS — Main Board Revisions</em><ul>
+<li>based on MLC8B 05AV0100</li>
+<li>NAB2016</li>
+</ul>
+</li>
+</ul>
 <h2>Photos &amp; scans (2)</h2>
 <table>
 <thead>
@@ -108,4 +274,26 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <td><a href="../viewer.html?f=Products/RAVENNA%20AES67/MLC8-N/2018%20-%20MLC8-N%20-%20Three%20Quarter.jpg.md">note</a></td>
 </tr>
 </tbody>
-</table><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from MLC8-N.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;MLC8-N&quot;,
+ &quot;name&quot;: &quot;Three Quarter&quot;,
+ &quot;category&quot;: &quot;RAVENNA AES67&quot;,
+ &quot;year&quot;: 2017,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/RAVENNA AES67/MLC8-N/2018 - MLC8-N - Information Sheet.jpg&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/RAVENNA AES67/MLC8-N/2018 - MLC8-N - Three Quarter.jpg&quot;,
+   &quot;year&quot;: 2018,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from MLC8-N.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

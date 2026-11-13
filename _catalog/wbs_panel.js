@@ -10,6 +10,18 @@
  */
 (() => {
   const TPL = {
+  m441: { what: 'M441 / M441M channel amplifier: stepped mic/line sensitivity (-70 to +8 dBm), phase reverse, reverb send, foldback send, cue/solo, and channel ON.',
+    controls: [['rot','sens','SENS dBm',4,1,9], ['sw','phase','PHASE N/R',0], ['knob','rev','REVERB',-20,-60,10,'dB'],
+      ['sw','rev_post','REV PRE/PST',0], ['knob','fb','FOLDBACK',-20,-60,10,'dB'], ['sw','fb_post','FB PRE/PST',0],
+      ['btn','cue','SOLO / CUE',0], ['btn','on','CH ON',1]] },
+  m402: { what: 'M402 stepped effects equalizer: 3 dual-concentric stepped bands (HF 15k/10k + 60Hz notch, Presence freq + MLF/Presence boost, LF 30/100 + EQ active/bypass).',
+    controls: [['knob','hf','HF 15k/10k',0,-12,12,'dB'], ['sw','n60','60Hz NOTCH',0],
+      ['rot','midf','PRES FREQ',3,1,5], ['knob','mid','PRES / MLF',0,-10,10,'dB'],
+      ['knob','lf','LF 30/100',0,-12,12,'dB'], ['btn','in','EQ IN',1]] },
+  m406: { what: 'M406 chopper PWM compressor: 3 dual-concentric control groups (Threshold + Output, Ratio + Meter VU/GR, Recovery + De-Ess / Comp In).',
+    controls: [['knob','thr','THRESHOLD',-20,-40,0,'dB'], ['knob','out','OUTPUT',0,-10,20,'dB'],
+      ['rot','ratio','RATIO',2,1,5], ['sw','msel','METER VU/GR',0],
+      ['rot','rel','RECOVERY',3,1,5], ['knob','deess','DE-ESS',0,0,8,'dB'], ['sw','in','COMP IN/OUT',1]] },
   input: { what: 'Input module: mic/line gain stage, 3-band EQ with high-pass, channel ON and fader.',
     controls: [['sw','mic','MIC/LINE',1], ['knob','gain','GAIN',30,0,70,'dB'], ['sw','pad','PAD -20',0], ['knob','hf','HF',0,-15,15,'dB'],
       ['knob','mf','MID',0,-15,15,'dB'], ['knob','mff','MID FREQ',1000,300,5000,'Hz'], ['knob','lf','LF',0,-15,15,'dB'],
@@ -45,7 +57,11 @@
       ['knob','vol','LISTEN',-10,-60,10,'dB']] },
 };
 function tplFor(m) {
-  const n = (m.name || '').toLowerCase(), c = m.category;
+  const code = (m.code || m.m || '').toUpperCase();
+  if (/^M441/.test(code)) return 'm441';
+  if (/^M402/.test(code)) return 'm402';
+  if (/^M406/.test(code)) return 'm406';
+  const n = (m.name || m.n || '').toLowerCase(), c = (m.category || m.cat || '').toUpperCase();
   if (/oscillat/.test(n)) return 'osc';
   if (/meter|vu\b|ppm/.test(n) || c === 'METER' || c === 'METERING') return 'meter';
   if (/compress|limit|gate|dynamic/.test(n) || c === 'DYNAMICS') return 'comp';
@@ -71,7 +87,7 @@ const toDbu = rms => rms > 1e-9 ? 20 * Math.log10(rms * Math.SQRT2) + 24 : -Infi
   const el = (t, a, p) => { const x = document.createElementNS(NS, t); for (const k in a) x.setAttribute(k, a[k]); p.appendChild(x); return x; };
   const rowH = { knob: 84, sw: 50, btn: 52, fader: 190, rot: 92, meter: 96 };
   const draw = (svg, m) => {
-    const tpl = TPL[tplFor({ name: m.n, category: m.cat })] || TPL.amp, W = 120;
+    const tpl = TPL[tplFor({ code: m.m || m.code, name: m.n || m.name, category: m.cat || m.category })] || TPL.amp, W = 120;
     const H = 90 + tpl.controls.reduce((a, c) => a + rowH[c[0]], 0) + 30;
     svg.innerHTML = '';
     svg.setAttribute('viewBox', `-2 -2 ${W + 4} ${H + 4}`);

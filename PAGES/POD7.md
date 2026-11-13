@@ -14,7 +14,7 @@ tags: ["product", "pods", "1990s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD7) · [download package (zip)](../_packages/POD7.zip) |
+| Try it | [full simulation: POD7](../siumulation.html?plugin=pod7) · [simulator & front panel](../simulator.html?m=POD7) · [KiCad symbol generator](../kicad.html?m=POD7) · [download package (zip)](../_packages/POD7.zip) |
 | Earliest dated evidence | [1994\|27](Year-1994.md) — month & year |
 | Evidence | "Sep-94" in WBSps Engineering from H drive-20261018T013433Z-1-003/WBSps Engineering from H drive/WBSps - POD_OLD/POD7/ISS1/ORCAD/#ESP_OUT.TXT |
 | Confidence | medium |
@@ -27,6 +27,30 @@ tags: ["product", "pods", "1990s"]
 _What it is made of and what it is part of._
 
 <div class="wbs-conn"><div class="wbs-face"><div class="wbs-live" data-m="POD7" data-n="Universal Interface" data-cat="PODS"></div><svg class="wbs-panel" data-m="POD7" data-n="Universal Interface" data-cat="PODS" role="img" aria-label="POD7 front panel (drawn from the simulator's layout)"></svg></div><div class="wbs-main"><div class="wbs-spice"></div><script type="application/json" class="wbs-spice-data">{"code":"POD7","title":"Universal Interface","rto":null,"parts":[{"item":"SA14-316","title":"Control Room Interface Unit Component Layout","label":"SA14-316 Control Room Interface Uni","href":"Register-Circuit-boards-SA14-nnn.html#sa14-316","note":"Circuit boards (SA14-nnn)"},{"item":"SA14-307","title":"B 14-307-02-001 - SA14-307 EXTENDED RANGE METER LIGHT BAR - SCHEMATIC","label":"SA14-307 B 14-307-02-001 - SA14-307","href":"Register-Circuit-boards-SA14-nnn.html#sa14-307","note":"Circuit boards (SA14-nnn)"}],"parents":[]}</script></div></div><script src="wbs_spice.js"></script>
+
+<a id="software"></a>
+
+## Software
+
+_What runs on the POD7: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| POD7 | Microcontroller | PIC16F73 | HS | **POD7V103** | 2005-05-05 | Standard Products |
+
+## Versions
+
+### Listed versions
+
+| Year | Date | Listed as | Chip | Released | Not released / work copy | Tested |
+|---|---|---|---|---|---|---|
+| 2005\|38 | 2005-05-05 | POD7 | PIC16F73 | POD7V103 |  |  |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **POD7V103** — 2005|38 · 2005-05-05 — _POD7 · PIC16F73_: RELAYS HELD TO CREATE LONGER PULSES
 
 ## Dates found in the documents
 
@@ -126,3 +150,194 @@ _Read from the drawing title blocks._
 | Drawing | Title | Date | [Drawn by](People.md#drawing-staff) | [Checked by](People.md#drawing-staff) | Iss. | Source |
 |---|---|---|---|---|---|---|
 | 14-316-06-001 | Control Room Interface Unit Component Layout |  |  |  | 1 | [file](../Products/PODS/POD7/1995%20-%20POD7%20-%20POD7%20-%2014-316%20-%20PCB.pcb) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD7",
+ "name": "Universal Interface",
+ "category": "PODS",
+ "year": 1994,
+ "made_of": [
+  "SA14-307",
+  "SA14-316"
+ ],
+ "documents": [
+  {
+   "file": "Products/PODS/POD7/1994 - POD7 - #ESP_OUT.TXT - DOCUMENT.docx",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/1994 - POD7 - #ESP_OUT.txt",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/1994 - POD7 - FN5 '5TH PART FIELD' - DOCUMENT.docx",
+   "year": 1994,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "modules"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/1994 - POD7 - Front.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1994 - POD7 - POD7 - DRAFTERR.LOG - DOCUMENT.docx",
+   "year": 1994,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1994 - POD7 - Rear.jpg",
+   "year": 1994,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1995 - POD7 - POD7 - 14-316 - PCB.pcb",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "title_block"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/1995 - POD7 - POD7 - FA - DRAWING (AUTOCAD).dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1995 - POD7 - POD7 - POD7 - SCHEMATIC (ORCAD).dsn",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/1995 - POD7 - POD7 - POD7MAN1 - LAYOUT.dwg",
+   "year": 1995,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1995 - POD7 - SCHEMATIC.wpd",
+   "year": 1995,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - FAPOD7 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - LMPOD7-1 - WIRING.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - LMPOD7-2 - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - LMPOD7-3 - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - POD7-1 - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - POD7-1X - LAYOUT.dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - POD7M01 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - POD7M02 - DRAWING (AUTOCAD).dwg",
+   "year": 1996,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1996 - POD7 - POD7 - POD7MAN.wp",
+   "year": 1996,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/1997 - POD7 - POD7 - POD7 - UNKNOWN.cdr",
+   "year": 1997,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1997 - POD7 - POD7 - POD7-BIG - UNKNOWN.cdr",
+   "year": 1997,
+   "pages": null,
+   "holds": []
+  },
+  {
+   "file": "Products/PODS/POD7/1997 - POD7 - POD7 - SPECIFICATIONS (POD7).wpd",
+   "year": 1997,
+   "pages": 1,
+   "holds": [
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/2014 - POD7 - MANUAL (2).docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD7/2014 - POD7 - MANUAL.docx",
+   "year": 2014,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

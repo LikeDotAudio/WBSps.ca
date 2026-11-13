@@ -14,7 +14,7 @@ tags: ["product", "pods", "2010s"]
 |---|---|
 | Type | product |
 | Series | [PODS](Series-PODS.md) |
-| Try it | [simulator & front panel](../simulator.html?m=POD34) · [download package (zip)](../_packages/POD34.zip) |
+| Try it | [full simulation: POD34](../siumulation.html?plugin=pod34) · [simulator & front panel](../simulator.html?m=POD34) · [KiCad symbol generator](../kicad.html?m=POD34) · [download package (zip)](../_packages/POD34.zip) |
 | Earliest dated evidence | [2015\|48](Year-2015.md) — month & year |
 | Evidence | "Jul.01 2015" in PUBLIC/Manuals + tech DOCUMENTS/PODS/POD34 MANUAL(1).docx |
 | Confidence | medium |
@@ -24,6 +24,12 @@ tags: ["product", "pods", "2010s"]
 ## Front panel
 
 <svg class="wbs-panel solo" data-m="POD34" data-n="30 Watt Class D Amplifier With Digital &amp; Analog Input" data-cat="PODS" role="img" aria-label="POD34 front panel"></svg>
+
+<a id="software"></a>
+
+## Software
+
+The POD34 is not in the engineering [software listings](Software.md) (1998|31 – 2018|51): no firmware version is recorded for it.
 
 ## Dates found in the documents
 
@@ -61,3 +67,42 @@ _Each manual split into its sections. Text that is the same in many Ward-Beck ma
 - source: [2015 - POD34 - MANUAL (2).docx](../Products/PODS/POD34/2015%20-%20POD34%20-%20MANUAL%20%282%29.docx), p. 1
 <details><summary>Warranty — 0 words · 2015 - POD34 - MANUAL.docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.md#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.md#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 - source: [2015 - POD34 - MANUAL.docx](../Products/PODS/POD34/2015%20-%20POD34%20-%20MANUAL.docx), p. 1
+
+## Contents (JSON)
+
+```json
+{
+ "device": "POD34",
+ "name": "30 Watt Class D Amplifier With Digital & Analog Input",
+ "category": "PODS",
+ "year": 2015,
+ "documents": [
+  {
+   "file": "Products/PODS/POD34/2015 - POD34 - Information Sheet.jpg",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD34/2015 - POD34 - MANUAL (2).docx",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  },
+  {
+   "file": "Products/PODS/POD34/2015 - POD34 - MANUAL.docx",
+   "year": 2015,
+   "pages": 1,
+   "holds": [
+    "dates",
+    "sections"
+   ]
+  }
+ ]
+}
+```

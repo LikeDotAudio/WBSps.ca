@@ -14,7 +14,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-1CA) · [download package (zip)](../_packages/AMS8-1CA.zip) |
+| Try it | [simulator & front panel](../simulator.html?m=AMS8-1CA) · [KiCad symbol generator](../kicad.html?m=AMS8-1CA) · [download package (zip)](../_packages/AMS8-1CA.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -26,8 +26,60 @@ tags: ["product", "metering", "2010s"]
 
 <svg class="wbs-panel solo" data-m="AMS8-1CA" data-n="Mkiii 8 Channel Audio Monitoring System" data-cat="METERING" role="img" aria-label="AMS8-1CA front panel"></svg>
 
+<a id="software"></a>
+
+## Software
+
+_What runs on the AMS8-1CA: every programmable part and the version Ward-Beck released for it, from the [engineering software listings](Software.md) (the FULL HISTORY workbook, kept to 2018|51)._
+
+| Part / board | What | Chip | Clock | Current version | Date | Sheet |
+|---|---|---|---|---|---|---|
+| AMS81-C PRODUCT REVISIONS | AMS8E-1 firmware |  |  | **C1000** (in C1.0.0.0) | not released | AMS8-1B |
+| AMS81-C PRODUCT REVISIONS | AMS8E-5 firmware |  |  | **C1000** (in C1.0.0.0) | not released | AMS8-1B |
+| AMS81-C PRODUCT REVISIONS | SHARC firmware |  |  | **AMS81B102** (in C1.0.0.0) | not released | AMS8-1B |
+| AMS81-C PRODUCT REVISIONS | ALTERA firmware |  |  | **V1000** (in C1.0.0.0) | not released | AMS8-1B |
+
+**Product firmware versions (PFV)**: AMS81-C PRODUCT REVISIONS: 1 revisions, latest released **C1.0.0.0**
+
+**Programming:** Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).
+
+## Versions
+
+### AMS81-C PRODUCT REVISIONS
+
+_Sheet **AMS8-1B**: one row per product firmware version, with the firmware of each board in it._
+
+| Year | Date | Revision | AMS8E-1 | AMS8E-5 | SHARC | ALTERA | Status | Tested / PCB |
+|---|---|---|---|---|---|---|---|---|
+|  | — | **C1.0.0.0** | C1000 | C1000 | AMS81B102 | V1000 | not released |  |
+
+## Changes in each version
+
+_What changed, in the words of the listing, oldest first._
+
+- **C1.0.0.0** — not released — _AMS81-C PRODUCT REVISIONS_: USED FOR ABC DEMO
+
 ## Photos & scans (1)
 
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - AMS8-1CA - Series Front.jpg](../Products/METERING/AMS8-1CA/2014%20-%20AMS8-1CA%20-%20Series%20Front.jpg) | [note](../Products/METERING/AMS8-1CA/2014%20-%20AMS8-1CA%20-%20Series%20Front.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS8-1CA",
+ "name": "Mkiii 8 Channel Audio Monitoring System",
+ "category": "METERING",
+ "year": 2013,
+ "documents": [
+  {
+   "file": "Products/METERING/AMS8-1CA/2014 - AMS8-1CA - Series Front.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

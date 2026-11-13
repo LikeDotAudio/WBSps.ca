@@ -58,7 +58,7 @@
     return h(window.NeedleMeter, { value: v, config: cfg });
   }
   function Panel({ m, P }) {
-    const tpl = (window.WBS_TPL || {})[window.wbsTplFor ? window.wbsTplFor({ name: m.n, category: m.cat }) : 'amp'] || { controls: [] };
+    const tpl = (window.WBS_TPL || {})[window.wbsTplFor ? window.wbsTplFor({ code: m.m || m.code, name: m.n || m.name, category: m.cat || m.category }) : 'amp'] || { controls: [] };
     const comm = /COMMUNICATION|MICRO SERIES|INTERCOM/.test(m.cat || '') || /intercom|talkback|micro ?com|crosspoint/i.test(m.n || '');
     return h('div', { className: 'wl-face' },
       h('div', { className: 'wl-screw' }),

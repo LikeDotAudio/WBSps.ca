@@ -13,7 +13,7 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|
 | Type | module |
 | Category | [RAVENNA AES67](Category-RAVENNA-AES67.md) |
-| Try it | [simulator & front panel](../simulator.html?m=preMO-A1) |
+| Try it | [simulator & front panel](../simulator.html?m=preMO-A1) · [KiCad symbol generator](../kicad.html?m=preMO-A1) |
 | Earliest dated evidence | [2017\|50](Year-2017.md) — dated folder |
 | Evidence | in "WBS.NAB - 2017 - Rack layout images" |
 | Confidence | low (named by) |
@@ -30,3 +30,29 @@ tags: ["module", "ravenna-aes67", "2010s"]
 |---|---|---|
 | ? | [19xx - preMO-A1 - Information Sheet.jpg](../Products/RAVENNA%20AES67/preMO-A1/19xx%20-%20preMO-A1%20-%20Information%20Sheet.jpg) | [note](../Products/RAVENNA%20AES67/preMO-A1/19xx%20-%20preMO-A1%20-%20Information%20Sheet.jpg.md) |
 | ? | [19xx - preMO-A1 - Issue 1 Three Quarter View.jpg](../Products/RAVENNA%20AES67/preMO-A1/19xx%20-%20preMO-A1%20-%20Issue%201%20Three%20Quarter%20View.jpg) | [note](../Products/RAVENNA%20AES67/preMO-A1/19xx%20-%20preMO-A1%20-%20Issue%201%20Three%20Quarter%20View.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "preMO-A1",
+ "category": "RAVENNA AES67",
+ "year": 2017,
+ "documents": [
+  {
+   "file": "Products/RAVENNA AES67/preMO-A1/19xx - preMO-A1 - Information Sheet.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": [
+    "dates"
+   ]
+  },
+  {
+   "file": "Products/RAVENNA AES67/preMO-A1/19xx - preMO-A1 - Issue 1 Three Quarter View.jpg",
+   "year": null,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

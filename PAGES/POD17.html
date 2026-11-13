@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../simulator.html?m=POD17">simulator &amp; front panel</a> · <a href="../_packages/POD17.zip">download package (zip)</a></td>
+<td><a href="../siumulation.html?plugin=pod17">full simulation: POD17</a> · <a href="../simulator.html?m=POD17">simulator &amp; front panel</a> · <a href="../kicad.html?m=POD17">KiCad symbol generator</a> · <a href="../_packages/POD17.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -83,6 +83,80 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Products/PODS/POD17/2014%20-%20POD17%20-%20Front.jpg"><img loading="lazy" src="../Products/PODS/POD17/2014%20-%20POD17%20-%20Front.jpg" alt="" data-f="Products/PODS/POD17/2014 - POD17 - Front.jpg" data-size="320" onerror="wbsOff(this)">2014 - POD17 - Front.jpg</a><a href="../viewer.html?f=Products/PODS/POD17/2014%20-%20POD17%20-%20Rear%2075.jpg"><img loading="lazy" src="../Products/PODS/POD17/2014%20-%20POD17%20-%20Rear%2075.jpg" alt="" data-f="Products/PODS/POD17/2014 - POD17 - Rear 75.jpg" data-size="320" onerror="wbsOff(this)">2014 - POD17 - Rear 75.jpg</a></div>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="POD17" data-n="Digital Audio Distribution Amplifier" data-cat="PODS" role="img" aria-label="POD17 front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the POD17: every programmable part and the version Ward-Beck released for it, from the <a href="Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POD17</td>
+<td>Microcontroller</td>
+<td>PIC16C73</td>
+<td>HS</td>
+<td><strong>POD17V100</strong></td>
+<td>2000-03-09</td>
+<td>Standard Products</td>
+</tr>
+<tr>
+<td>POD17</td>
+<td>SHARC DSP boot (E)EPROM</td>
+<td>NM27C512N-150</td>
+<td></td>
+<td><strong>POD17V100</strong></td>
+<td>—</td>
+<td>Sharc</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Programming:</strong> Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).</p>
+<h2>Versions</h2>
+<h3>Listed versions</h3>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Listed as</th>
+<th>Chip</th>
+<th>Released</th>
+<th>Not released / work copy</th>
+<th>Tested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2000|33</td>
+<td>2000-03-09</td>
+<td>POD17</td>
+<td>PIC16C73</td>
+<td>POD17V100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>—</td>
+<td>POD17</td>
+<td>NM27C512N-150</td>
+<td>POD17V100</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Changes in each version</h2>
+<p><em>No change note in the listing for: POD17V100.</em></p>
 <h2>Dates found in the documents</h2>
 <table>
 <thead>
@@ -174,4 +248,42 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <details><summary>Warranty — 0 words · 2014 - POD17 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 <ul>
 <li>source: <a href="../viewer.html?f=Products/PODS/POD17/2014%20-%20POD17%20-%20MANUAL%20%282%29.docx">2014 - POD17 - MANUAL (2).docx</a>, p. 1</li>
-</ul><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD17.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;POD17&quot;,
+ &quot;name&quot;: &quot;Digital Audio Distribution Amplifier&quot;,
+ &quot;category&quot;: &quot;PODS&quot;,
+ &quot;year&quot;: 2014,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD17/2014 - POD17 - Front.jpg&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD17/2014 - POD17 - MANUAL (2).docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD17/2014 - POD17 - MANUAL.docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD17/2014 - POD17 - Rear 75.jpg&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD17.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

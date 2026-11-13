@@ -14,7 +14,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-1AAM) |
+| Try it | [simulator & front panel](../simulator.html?m=AMS8-1AAM) · [KiCad symbol generator](../kicad.html?m=AMS8-1AAM) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -26,9 +26,40 @@ tags: ["product", "metering", "2010s"]
 
 <svg class="wbs-panel solo" data-m="AMS8-1AAM" data-n="Mkiii 8 Channel Audio Monitoring System" data-cat="METERING" role="img" aria-label="AMS8-1AAM front panel"></svg>
 
+<a id="software"></a>
+
+## Software
+
+The software listings name the AMS8-1AAM only as part of the [AMS8-1](AMS8-1.md#software) family: its firmware, versions and change notes are on that page (latest: AMS81 PRODUCT REVISIONS 06VA0002; AMS81 PRODUCT REVISIONS — custom projects 06VC0000).
+
 ## Photos & scans (2)
 
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - AMS8-1AAM - Rear 110.jpg](../Products/METERING/AMS8-1AAM/2014%20-%20AMS8-1AAM%20-%20Rear%20110.jpg) | [note](../Products/METERING/AMS8-1AAM/2014%20-%20AMS8-1AAM%20-%20Rear%20110.jpg.md) |
 | 2014 | [2014 - AMS8-1AAM - Rear 75.jpg](../Products/METERING/AMS8-1AAM/2014%20-%20AMS8-1AAM%20-%20Rear%2075.jpg) | [note](../Products/METERING/AMS8-1AAM/2014%20-%20AMS8-1AAM%20-%20Rear%2075.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS8-1AAM",
+ "name": "Mkiii 8 Channel Audio Monitoring System",
+ "category": "METERING",
+ "year": 2013,
+ "documents": [
+  {
+   "file": "Products/METERING/AMS8-1AAM/2014 - AMS8-1AAM - Rear 75.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/MLC8B/2019 - MLC8B - Rear (OBSOLETE).jpg",
+   "year": 2019,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

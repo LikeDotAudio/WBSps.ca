@@ -72,6 +72,18 @@ MODS.forEach(m => { const o = document.createElement('option'); o.value = m.code
 
 // ---------------------------------------------------------------- module templates (behavioural models)
 const TPL = {
+  m441: { what: 'M441 / M441M channel amplifier: stepped mic/line sensitivity (-70 to +8 dBm), phase reverse, reverb send, foldback send, cue/solo, and channel ON.',
+    controls: [['rot','sens','SENS dBm',4,1,9], ['sw','phase','PHASE N/R',0], ['knob','rev','REVERB',-20,-60,10,'dB'],
+      ['sw','rev_post','REV PRE/PST',0], ['knob','fb','FOLDBACK',-20,-60,10,'dB'], ['sw','fb_post','FB PRE/PST',0],
+      ['btn','cue','SOLO / CUE',0], ['btn','on','CH ON',1]] },
+  m402: { what: 'M402 stepped effects equalizer: 3 dual-concentric stepped bands (HF 15k/10k + 60Hz notch, Presence freq + MLF/Presence boost, LF 30/100 + EQ active/bypass).',
+    controls: [['knob','hf','HF 15k/10k',0,-12,12,'dB'], ['sw','n60','60Hz NOTCH',0],
+      ['rot','midf','PRES FREQ',3,1,5], ['knob','mid','PRES / MLF',0,-10,10,'dB'],
+      ['knob','lf','LF 30/100',0,-12,12,'dB'], ['btn','in','EQ IN',1]] },
+  m406: { what: 'M406 chopper PWM compressor: 3 dual-concentric control groups (Threshold + Output, Ratio + Meter VU/GR, Recovery + De-Ess / Comp In).',
+    controls: [['knob','thr','THRESHOLD',-20,-40,0,'dB'], ['knob','out','OUTPUT',0,-10,20,'dB'],
+      ['rot','ratio','RATIO',2,1,5], ['sw','msel','METER VU/GR',0],
+      ['rot','rel','RECOVERY',3,1,5], ['knob','deess','DE-ESS',0,0,8,'dB'], ['sw','in','COMP IN/OUT',1]] },
   input: { what: 'Input module: mic/line gain stage, 3-band EQ with high-pass, channel ON and fader.',
     controls: [['sw','mic','MIC/LINE',1], ['knob','gain','GAIN',30,0,70,'dB'], ['sw','pad','PAD -20',0], ['knob','hf','HF',0,-15,15,'dB'],
       ['knob','mf','MID',0,-15,15,'dB'], ['knob','mff','MID FREQ',1000,300,5000,'Hz'], ['knob','lf','LF',0,-15,15,'dB'],
@@ -107,7 +119,11 @@ const TPL = {
       ['knob','vol','LISTEN',-10,-60,10,'dB']] },
 };
 function tplFor(m) {
-  const n = (m.name || '').toLowerCase(), c = m.category;
+  const code = (m.code || m.m || '').toUpperCase();
+  if (/^M441/.test(code)) return 'm441';
+  if (/^M402/.test(code)) return 'm402';
+  if (/^M406/.test(code)) return 'm406';
+  const n = (m.name || m.n || '').toLowerCase(), c = (m.category || m.cat || '').toUpperCase();
   if (/oscillat/.test(n)) return 'osc';
   if (/meter|vu\b|ppm/.test(n) || c === 'METER' || c === 'METERING') return 'meter';
   if (/compress|limit|gate|dynamic/.test(n) || c === 'DYNAMICS') return 'comp';
@@ -159,7 +175,60 @@ function rebuild() {
   const G = d => { const g = T(ctx.createGain()); g.gain.value = dbToLin(d); return g; };
   const key = tplFor(mod);
   let comp = null;
-  if (key === 'input') {
+  if (key === 'm441') {
+    const sensDb = [-70, -60, -50, -40, -30, -20, -10, 0, 8][P.sens - 1];
+    const gainDb = 4 - sensDb;
+    const gStage = G(gainDb);
+    if (P.phase) gStage.gain.value = -gStage.gain.value;
+    outs.push(chain([gen(), gStage, G(P.on ? 0 : -200)]));
+  } else if (key === 'm402') {
+    if (!P.in) {
+      outs.push(chain([gen(), G(0)]));
+    } else {
+      const nodes = [];
+      if (P.n60) {
+        const notch = T(biquad('notch', 60));
+        notch.Q.value = 6;
+        nodes.push(notch);
+      }
+      if (P.hf > 0) {
+        nodes.push(T(biquad('highshelf', 15000, P.hf)));
+      } else if (P.hf < 0) {
+        nodes.push(T(biquad('highshelf', 10000, P.hf)));
+      }
+      if (P.mid > 0) {
+        nodes.push(T(biquad('lowshelf', 100, P.mid)));
+      } else if (P.mid < 0) {
+        const presFr = [700, 1400, 2500, 3400, 5000][P.midf - 1];
+        nodes.push(T(biquad('peaking', presFr, Math.abs(P.mid), 1.4)));
+      }
+      if (P.lf > 0) {
+        nodes.push(T(biquad('lowshelf', 30, P.lf)));
+      } else if (P.lf < 0) {
+        nodes.push(T(biquad('lowshelf', 100, P.lf)));
+      }
+      outs.push(chain([gen(), ...(nodes.length ? nodes : [G(0)])]));
+    }
+  } else if (key === 'm406') {
+    if (!P.in) {
+      outs.push(chain([gen(), G(0)]));
+    } else {
+      comp = T(ctx.createDynamicsCompressor());
+      comp.threshold.value = P.thr;
+      const ratios = [2, 3, 5, 10, 20];
+      comp.ratio.value = ratios[P.ratio - 1] || 4;
+      comp.knee.value = 3;
+      comp.attack.value = 0.001;
+      const rels = [0.1, 0.25, 0.5, 1.5, 3.0];
+      comp.release.value = rels[P.rel - 1] || 0.5;
+      const nodes = [gen(), comp];
+      if (P.deess > 0) {
+        nodes.push(T(biquad('peaking', 6000, -P.deess, 2.0)));
+      }
+      nodes.push(G(P.out));
+      outs.push(chain(nodes));
+    }
+  } else if (key === 'input') {
     const inG = G(P.gain + (P.mic ? 0 : -40) + (P.pad ? -20 : 0) - 30);   // mic gain referred to a -30 dBu-ish source
     const hp = T(biquad(P.hpf ? 'highpass' : 'allpass', 80));
     const lf = T(biquad('lowshelf', 100, P.lf)), mf = T(biquad('peaking', P.mff, P.mf, 1)), hf = T(biquad('highshelf', 10000, P.hf));
@@ -210,6 +279,14 @@ function rebuild() {
 const NS = 'http://www.w3.org/2000/svg';
 function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
 const meters = {};
+function rotLabel(id, v) {
+  if (id === 'sens') return ['-70', '-60', '-50', '-40', '-30', '-20', '-10', '0', '+8'][v - 1] + ' dBm';
+  if (id === 'fsel') return ['100', '1k', '10k', '400'][v - 1];
+  if (id === 'midf') return ['0.7k', '1.4k', '2.5k', '3.4k', '5.0k'][v - 1];
+  if (id === 'ratio') return ['2:1', '3:1', '5:1', '10:1', 'LIMIT'][v - 1];
+  if (id === 'rel') return ['0.1s', '0.25s', '0.5s', '1.5s', '3.0s'][v - 1];
+  return v;
+}
 function fmt(v, unit) { return unit === 'Hz' ? (v >= 1000 ? (v / 1000).toFixed(v >= 10000 ? 0 : 1) + 'k' : Math.round(v)) : unit === 'ms' ? Math.round(v) : (Math.round(v * 10) / 10) + (unit === 'dB' ? '' : ''); }
 function drawPanel() {
   const svg = $('panel'); svg.innerHTML = '';
@@ -239,7 +316,7 @@ function drawPanel() {
       const unit = c[6] || '';
       const set = v => { v = Math.max(min, Math.min(max, type === 'rot' ? Math.round(v) : v)); P[id] = v;
         const t = (v - min) / (max - min); ptr.setAttribute('transform', `rotate(${-135 + 270 * t} ${cx} ${cy})`);
-        val.textContent = type === 'rot' ? (id === 'fsel' ? ['100', '1k', '10k', '400'][v - 1] : v) : fmt(v, unit) + (unit && unit !== 'Hz' ? ' ' + unit : unit === 'Hz' ? ' Hz' : ''); rebuild(); };
+        val.textContent = type === 'rot' ? rotLabel(id, v) : fmt(v, unit) + (unit && unit !== 'Hz' ? ' ' + unit : unit === 'Hz' ? ' Hz' : ''); rebuild(); };
       const log = unit === 'Hz';
       const step = (v, dir) => log ? v * Math.pow(max / min, dir * .02) : v + dir * (type === 'rot' ? 1 : (max - min) / 100);
       let drag = null;
@@ -250,7 +327,7 @@ function drawPanel() {
       g.addEventListener('wheel', e => { e.preventDefault(); set(step(P[id], e.deltaY < 0 ? 1 : -1)); }, { passive: false });
       g.addEventListener('keydown', e => { if (e.key === 'ArrowUp' || e.key === 'ArrowRight') set(step(P[id], 1)); if (e.key === 'ArrowDown' || e.key === 'ArrowLeft') set(step(P[id], -1)); });
       P[id] = c[3]; ptr.setAttribute('transform', `rotate(${-135 + 270 * (c[3] - min) / (max - min)} ${cx} ${cy})`);
-      val.textContent = type === 'rot' ? (id === 'fsel' ? ['100', '1k', '10k', '400'][c[3] - 1] : c[3]) : fmt(c[3], unit) + (unit === 'Hz' ? ' Hz' : unit ? ' ' + unit : '');
+      val.textContent = type === 'rot' ? rotLabel(id, c[3]) : fmt(c[3], unit) + (unit === 'Hz' ? ' Hz' : unit ? ' ' + unit : '');
     } else if (type === 'sw') {
       lab(label, cx, y + 8, 6.4);
       const g = el('g', { style: 'cursor:pointer', tabindex: 0, role: 'switch', 'aria-label': label }, svg);

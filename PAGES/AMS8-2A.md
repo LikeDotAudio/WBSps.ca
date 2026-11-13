@@ -14,7 +14,7 @@ tags: ["product", "metering", "2010s"]
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [simulator & front panel](../simulator.html?m=AMS8-2A) · [download package (zip)](../_packages/AMS8-2A.zip) |
+| Try it | [simulator & front panel](../simulator.html?m=AMS8-2A) · [KiCad symbol generator](../kicad.html?m=AMS8-2A) · [download package (zip)](../_packages/AMS8-2A.zip) |
 | Earliest dated evidence | [2013\|46](Year-2013.md) — dated folder |
 | Evidence | in "WBS PRODUCTS 2013 - documents-export-2013-03-08" |
 | Confidence | low (named by) |
@@ -26,9 +26,40 @@ tags: ["product", "metering", "2010s"]
 
 <svg class="wbs-panel solo" data-m="AMS8-2A" data-n="Mkiii 8 Channel Audio Monitoring System" data-cat="METERING" role="img" aria-label="AMS8-2A front panel"></svg>
 
+<a id="software"></a>
+
+## Software
+
+The software listings name the AMS8-2A only as part of the [AMS8-2](AMS8-2.md#software) family: its firmware, versions and change notes are on that page (latest: AMS82 PRODUCT REVISIONS 03AV0101; AMS82 PRODUCT REVISIONS — custom projects C.1.0.6).
+
 ## Photos & scans (2)
 
 | Year | File |  |
 |---|---|---|
 | 2014 | [2014 - AMS8-2A - Rear.jpg](../Products/METERING/AMS8-2A/2014%20-%20AMS8-2A%20-%20Rear.jpg) | [note](../Products/METERING/AMS8-2A/2014%20-%20AMS8-2A%20-%20Rear.jpg.md) |
 | 2014 | [2014 - AMS8-2A - Series Front.jpg](../Products/METERING/AMS8-2A/2014%20-%20AMS8-2A%20-%20Series%20Front.jpg) | [note](../Products/METERING/AMS8-2A/2014%20-%20AMS8-2A%20-%20Series%20Front.jpg.md) |
+
+## Contents (JSON)
+
+```json
+{
+ "device": "AMS8-2A",
+ "name": "Mkiii 8 Channel Audio Monitoring System",
+ "category": "METERING",
+ "year": 2013,
+ "documents": [
+  {
+   "file": "Products/METERING/AMS8-2A/2014 - AMS8-2A - Series Front.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  },
+  {
+   "file": "Products/METERING/AMS8-2AE/2014 - AMS8-2AE - Rear.jpg",
+   "year": 2014,
+   "pages": 1,
+   "holds": []
+  }
+ ]
+}
+```

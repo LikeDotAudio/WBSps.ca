@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../simulator.html?m=POD27">simulator &amp; front panel</a> · <a href="../_packages/POD27.zip">download package (zip)</a></td>
+<td><a href="../siumulation.html?plugin=pod27">full simulation: POD27</a> · <a href="../simulator.html?m=POD27">simulator &amp; front panel</a> · <a href="../kicad.html?m=POD27">KiCad symbol generator</a> · <a href="../_packages/POD27.zip">download package (zip)</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -83,6 +83,103 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table><h2>Pictures</h2><div class="thumbs"><a href="../viewer.html?f=Products/PODS/POD27/2014%20-%20POD27%20-%20Front.jpg"><img loading="lazy" src="../Products/PODS/POD27/2014%20-%20POD27%20-%20Front.jpg" alt="" data-f="Products/PODS/POD27/2014 - POD27 - Front.jpg" data-size="320" onerror="wbsOff(this)">2014 - POD27 - Front.jpg</a><a href="../viewer.html?f=Products/PODS/POD27/2014%20-%20POD27%20-%20Rear.jpg"><img loading="lazy" src="../Products/PODS/POD27/2014%20-%20POD27%20-%20Rear.jpg" alt="" data-f="Products/PODS/POD27/2014 - POD27 - Rear.jpg" data-size="320" onerror="wbsOff(this)">2014 - POD27 - Rear.jpg</a></div>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="POD27" data-n="Audio Muxer" data-cat="PODS" role="img" aria-label="POD27 front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the POD27: every programmable part and the version Ward-Beck released for it, from the <a href="Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>POD27</td>
+<td>Microcontroller</td>
+<td>PIC16F874</td>
+<td>HS</td>
+<td><strong>Firmware Upgrade Required POD27V102</strong></td>
+<td>2005-02-24</td>
+<td>Standard Products</td>
+</tr>
+<tr>
+<td>POD27 (NO SRC FOR DOLBY EMBEDDING)</td>
+<td>Microcontroller</td>
+<td>PIC16F874</td>
+<td>HS</td>
+<td><strong>POD27V102(NO SRC)</strong></td>
+<td>2006-09-27</td>
+<td>Standard Products</td>
+</tr>
+<tr>
+<td>POD27 (PAL - No Dolby)</td>
+<td>Microcontroller</td>
+<td>PIC16F874</td>
+<td>HS</td>
+<td><strong>v200</strong></td>
+<td>2012-02-28</td>
+<td>Standard Products</td>
+</tr>
+</tbody>
+</table>
+<h2>Versions</h2>
+<h3>Listed versions</h3>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Listed as</th>
+<th>Chip</th>
+<th>Released</th>
+<th>Not released / work copy</th>
+<th>Tested</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2005|38</td>
+<td>2005-02-24</td>
+<td>POD27</td>
+<td>PIC16F874</td>
+<td>Firmware Upgrade Required POD27V102</td>
+<td>Firmware Update Required</td>
+<td>Bob New firmware upgrade required to replace PUG mux core</td>
+</tr>
+<tr>
+<td>2006|39</td>
+<td>2006-09-27</td>
+<td>POD27 (NO SRC FOR DOLBY EMBEDDING)</td>
+<td>PIC16F874</td>
+<td>POD27V102(NO SRC)</td>
+<td></td>
+<td>Bob 2006-09-27</td>
+</tr>
+<tr>
+<td>2012|45</td>
+<td>2012-02-28</td>
+<td>POD27 (PAL - No Dolby)</td>
+<td>PIC16F874</td>
+<td>v200</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Changes in each version</h2>
+<p><em>What changed, in the words of the listing, oldest first.</em></p>
+<ul>
+<li><strong>Firmware Upgrade Required
+POD27V102</strong> — 2005|38 · 2005-02-24 — <em>POD27 · PIC16F874</em>: DISTORTED AUDIO WOULD OCCUR EVERYTIME AUDIO IN GROUP STATUS CHANGED</li>
+<li><strong>POD27V102(NO SRC)</strong> — 2006|39 · 2006-09-27 — <em>POD27 (NO SRC FOR DOLBY EMBEDDING) · PIC16F874</em>: DISTORTED AUDIO WOULD OCCUR EVERYTIME AUDIO IN GROUP STATUS CHANGED</li>
+<li><strong>v200</strong> — 2012|45 · 2012-02-28 — <em>POD27 (PAL - No Dolby) · PIC16F874</em>: PIC program changed to set genum chip for PAL SD SDI, this version doesn't work for NTSC SD SDI</li>
+</ul>
 <h2>Dates found in the documents</h2>
 <table>
 <thead>
@@ -168,4 +265,42 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <details><summary>Warranty — 0 words · 2014 - POD27 - MANUAL (2).docx, page 1</summary><p><em>(only shared text)</em></p><p class="bp">Also: <a href="Boilerplate.html#bp-63617240bb5bb638">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1a488a5cc38d92fe">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-045065cd9adcbfb5">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-073c30eb0adcf664">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1cbf852f43462543">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-b6240b9a7aed9a9e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-72f55892a1c53496">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-34741163f3361dce">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-f4e5345ab11dc585">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-1637977c20b2600e">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-7f976e2b41601d05">warranty boilerplate (67 devices)</a> · <a href="Boilerplate.html#bp-c1c0908fa3aad7e2">warranty boilerplate (68 devices)</a></p></details>
 <ul>
 <li>source: <a href="../viewer.html?f=Products/PODS/POD27/2014%20-%20POD27%20-%20MANUAL%20%282%29.docx">2014 - POD27 - MANUAL (2).docx</a>, p. 1</li>
-</ul><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD27.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</ul>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;POD27&quot;,
+ &quot;name&quot;: &quot;Audio Muxer&quot;,
+ &quot;category&quot;: &quot;PODS&quot;,
+ &quot;year&quot;: 2014,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD27/2014 - POD27 - Front.jpg&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD27/2014 - POD27 - MANUAL (2).docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD27/2014 - POD27 - MANUAL.docx&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;,
+    &quot;sections&quot;
+   ]
+  },
+  {
+   &quot;file&quot;: &quot;Products/PODS/POD27/2014 - POD27 - Rear.jpg&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  }
+ ]
+}</pre></details><script src="../_catalog/wbs_reels.js" defer></script><script src="../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from POD27.md</small></div></article><script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>

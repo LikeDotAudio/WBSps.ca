@@ -1,0 +1,2072 @@
+[
+ {
+  "id": "pod33",
+  "file": "pod33.js",
+  "folder": "#POD #SERIES/POD33 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD33"
+ },
+ {
+  "id": "bigvu",
+  "file": "bigvu.js",
+  "folder": "Big VU - #MASTER",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "Big VU"
+ },
+ {
+  "id": "ams82",
+  "file": "ams82.js",
+  "folder": "AMS82 - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "AMS82"
+ },
+ {
+  "id": "ams81",
+  "file": "ams81.js",
+  "folder": "AMS81 - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "AMS81"
+ },
+ {
+  "id": "ams16",
+  "file": "ams16.js",
+  "folder": "AMS16 - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "AMS16"
+ },
+ {
+  "id": "demux4",
+  "file": "demux4.js",
+  "folder": "SA-DEMUX4 - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "SA-DEMUX4 de-embedder"
+ },
+ {
+  "id": "xtm4",
+  "file": "xtm4.js",
+  "folder": "XTM4 - #MASTER",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "XTM4"
+ },
+ {
+  "id": "pod14a",
+  "file": "pod14a.js",
+  "folder": "#POD #SERIES/POD14A - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD14A"
+ },
+ {
+  "id": "mlc8",
+  "file": "mlc8.js",
+  "folder": "#MLC - #SERIES",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "MLC8 / MLC6 level control"
+ },
+ {
+  "id": "slm",
+  "file": "slm.js",
+  "folder": "#SLM #SERIES - To Delete",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "SLM loudness meters"
+ },
+ {
+  "id": "opengear",
+  "file": "opengear.js",
+  "folder": "#OPENGEAR #SERIES/D6203A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "openGear D6203A A/D card + system"
+ },
+ {
+  "id": "premo",
+  "file": "premo.js",
+  "folder": "#PREmo #Series/RD88-MICpre",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "PREmo AES67 mic preamp (RD88)"
+ },
+ {
+  "id": "abb1",
+  "file": "abb1.js",
+  "folder": "ABB1 - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "ABB1"
+ },
+ {
+  "id": "abs1",
+  "file": "abs1.js",
+  "folder": "ABS1 - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "ABS1"
+ },
+ {
+  "id": "mp8100",
+  "file": "mp8100.js",
+  "folder": "#MP (8100) #SERIES",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "MP 8100 meter panels"
+ },
+ {
+  "id": "qubeamp",
+  "file": "qubeamp.js",
+  "folder": "#QUBE #SERIES",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "QubeAmp class-D amplifier"
+ },
+ {
+  "id": "qtp",
+  "file": "qtp.js",
+  "folder": "#QTP #SERIES/QTP - DB25M -  DB25F - DB25Y - DB25S - #Engineering",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "QTP DB25↔RJ45 adapters"
+ },
+ {
+  "id": "ppm-driver",
+  "file": "ppm-driver.js",
+  "folder": "#PPM #SERIES",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "PPM Driver 14-060 (RD81)"
+ },
+ {
+  "id": "amx9a",
+  "file": "amx9a.js",
+  "folder": "#AMX #SERIES/XXX - AMX9A - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "AMX9A"
+ },
+ {
+  "id": "32me",
+  "file": "32me.js",
+  "folder": "32ME-N",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "32ME uNet / MADI modules"
+ },
+ {
+  "id": "d8200",
+  "file": "d8200.js",
+  "folder": "#MF8200 #SERIES/D8200 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "full",
+  "status": "ready",
+  "product": "D8200"
+ },
+ {
+  "id": "d8202",
+  "file": "d8202.js",
+  "folder": "#MF8200 #SERIES/D8202 - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "full",
+  "status": "ready",
+  "product": "D8202"
+ },
+ {
+  "id": "d8203",
+  "file": "d8203.js",
+  "folder": "#MF8200 #SERIES/D8203 - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "full",
+  "status": "ready",
+  "product": "D8203"
+ },
+ {
+  "id": "d8204",
+  "file": "d8204.js",
+  "folder": "#MF8200 #SERIES/D8204 - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "D8204"
+ },
+ {
+  "id": "d8204a",
+  "file": "d8204a.js",
+  "folder": "#MF8200 #SERIES/D8204A - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "full",
+  "status": "ready",
+  "product": "D8204A"
+ },
+ {
+  "id": "d8204b",
+  "file": "d8204b.js",
+  "folder": "#MF8200 #SERIES/D8204B - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "full",
+  "status": "ready",
+  "product": "D8204B"
+ },
+ {
+  "id": "d8204c",
+  "file": "d8204c.js",
+  "folder": "#MF8200 #SERIES/D8204C - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "D8204C"
+ },
+ {
+  "id": "d8205",
+  "file": "d8205.js",
+  "folder": "#MF8200 #SERIES/D8205 - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "full",
+  "status": "ready",
+  "product": "D8205"
+ },
+ {
+  "id": "d8206",
+  "file": "d8206.js",
+  "folder": "#MF8200 #SERIES/D8206 - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "full",
+  "status": "ready",
+  "product": "D8206"
+ },
+ {
+  "id": "d8207",
+  "file": "d8207.js",
+  "folder": "#MF8200 #SERIES/D8207 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "full",
+  "status": "ready",
+  "product": "D8207"
+ },
+ {
+  "id": "d8208",
+  "file": "d8208.js",
+  "folder": "#MF8200 #SERIES/D8208 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "D8208"
+ },
+ {
+  "id": "d8210-d8212",
+  "file": "d8210-d8212.js",
+  "folder": "#MF8200 #SERIES/D8210 & D8212 - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "D8210 & D8212"
+ },
+ {
+  "id": "m8200-terminations",
+  "file": "m8200-terminations.js",
+  "folder": "#MF8200 #SERIES/M8200 - TERMINATIONS #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8200 - TERMINATIONS"
+ },
+ {
+  "id": "m8200-extender-handle",
+  "file": "m8200-extender-handle.js",
+  "folder": "#MF8200 #SERIES/M8200 Extender, handle  - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8200 Extender, handle"
+ },
+ {
+  "id": "m8201",
+  "file": "m8201.js",
+  "folder": "#MF8200 #SERIES/M8201 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8201"
+ },
+ {
+  "id": "m8202a",
+  "file": "m8202a.js",
+  "folder": "#MF8200 #SERIES/M8202A - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8202A"
+ },
+ {
+  "id": "m8202b",
+  "file": "m8202b.js",
+  "folder": "#MF8200 #SERIES/M8202B - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8202B"
+ },
+ {
+  "id": "m8202rc",
+  "file": "m8202rc.js",
+  "folder": "#MF8200 #SERIES/M8202RC - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8202RC"
+ },
+ {
+  "id": "m8203",
+  "file": "m8203.js",
+  "folder": "#MF8200 #SERIES/M8203 - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8203"
+ },
+ {
+  "id": "m8204",
+  "file": "m8204.js",
+  "folder": "#MF8200 #SERIES/M8204 - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8204"
+ },
+ {
+  "id": "m8205",
+  "file": "m8205.js",
+  "folder": "#MF8200 #SERIES/M8205 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8205"
+ },
+ {
+  "id": "m8206",
+  "file": "m8206.js",
+  "folder": "#MF8200 #SERIES/M8206 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8206"
+ },
+ {
+  "id": "m8207",
+  "file": "m8207.js",
+  "folder": "#MF8200 #SERIES/M8207 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8207"
+ },
+ {
+  "id": "m8208",
+  "file": "m8208.js",
+  "folder": "#MF8200 #SERIES/M8208 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8208"
+ },
+ {
+  "id": "m8209",
+  "file": "m8209.js",
+  "folder": "#MF8200 #SERIES/M8209 - #Engineering #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8209"
+ },
+ {
+  "id": "m8251",
+  "file": "m8251.js",
+  "folder": "#MF8200 #SERIES/M8251 - #Master  #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8251"
+ },
+ {
+  "id": "m8252",
+  "file": "m8252.js",
+  "folder": "#MF8200 #SERIES/M8252 - #Master  #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8252"
+ },
+ {
+  "id": "mf8212-frame",
+  "file": "mf8212-frame.js",
+  "folder": "#MF8200 #SERIES/MF8212 Frame - #Master #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "MF8212 Frame"
+ },
+ {
+  "id": "mfxx",
+  "file": "mfxx.js",
+  "folder": "#MF8200 #SERIES/MFXX (DA FRAME) - #Engineering #PROBLEM #MF82",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "MFXX DA frame"
+ },
+ {
+  "id": "tb8201a",
+  "file": "tb8201a.js",
+  "folder": "#MF8200 #SERIES/TB8201A - #Engineering #MF82 #TERMINATION",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "TB8201A"
+ },
+ {
+  "id": "tb8201ap",
+  "file": "tb8201ap.js",
+  "folder": "#MF8200 #SERIES/TB8201AP - #Engineering #MF82 #TERMINATION",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "TB8201AP"
+ },
+ {
+  "id": "tb8202",
+  "file": "tb8202.js",
+  "folder": "#MF8200 #SERIES/TB8202 - #Engineering #MF82 #TERMINATION",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "TB8202"
+ },
+ {
+  "id": "tb8204",
+  "file": "tb8204.js",
+  "folder": "#MF8200 #SERIES/TB8204 - #Engineering #MF82 #TERMINATION",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "TB8204"
+ },
+ {
+  "id": "tb8205",
+  "file": "tb8205.js",
+  "folder": "#MF8200 #SERIES/TB8205 - #Engineering #MF82 #TERMINATION",
+  "family": "8200 Distribution Series",
+  "tier": "light",
+  "status": "ready",
+  "product": "TB8205"
+ },
+ {
+  "id": "aa6201a",
+  "file": "aa6201a.js",
+  "folder": "#OPENGEAR #SERIES/AA6201A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "AA6201A"
+ },
+ {
+  "id": "av6201",
+  "file": "av6201.js",
+  "folder": "#OPENGEAR #SERIES/AV6201 - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "AV6201"
+ },
+ {
+  "id": "av6201a",
+  "file": "av6201a.js",
+  "folder": "#OPENGEAR #SERIES/AV6201A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "AV6201A"
+ },
+ {
+  "id": "av6202",
+  "file": "av6202.js",
+  "folder": "#OPENGEAR #SERIES/AV6202 - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "AV6202"
+ },
+ {
+  "id": "av6202a",
+  "file": "av6202a.js",
+  "folder": "#OPENGEAR #SERIES/AV6202A - #Master  #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "AV6202A"
+ },
+ {
+  "id": "d6201",
+  "file": "d6201.js",
+  "folder": "#OPENGEAR #SERIES/D6201  # Problem is this the same as A #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "D6201 # Problem is this the same as A"
+ },
+ {
+  "id": "d6201a",
+  "file": "d6201a.js",
+  "folder": "#OPENGEAR #SERIES/D6201A - #Master #OBSOLETE #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "D6201A"
+ },
+ {
+  "id": "d6201b",
+  "file": "d6201b.js",
+  "folder": "#OPENGEAR #SERIES/D6201B - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "D6201B"
+ },
+ {
+  "id": "d6202a",
+  "file": "d6202a.js",
+  "folder": "#OPENGEAR #SERIES/D6202A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "D6202A"
+ },
+ {
+  "id": "d6202b",
+  "file": "d6202b.js",
+  "folder": "#OPENGEAR #SERIES/D6202B - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "D6202B"
+ },
+ {
+  "id": "d6203",
+  "file": "d6203.js",
+  "folder": "#OPENGEAR #SERIES/D6203 - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "D6203"
+ },
+ {
+  "id": "d6204",
+  "file": "d6204.js",
+  "folder": "#OPENGEAR #SERIES/D6204 - #PROBLEM #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "D6204"
+ },
+ {
+  "id": "d6204a",
+  "file": "d6204a.js",
+  "folder": "#OPENGEAR #SERIES/D6204A  #Engineering #TIM #PCB",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "D6204A"
+ },
+ {
+  "id": "d6207a-docs",
+  "file": "d6207a-docs.js",
+  "folder": "#OPENGEAR #SERIES/D6207A  #Engineering #TIM #PCB",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "D6207A docs (TIM)"
+ },
+ {
+  "id": "d6207a",
+  "file": "d6207a.js",
+  "folder": "#OPENGEAR #SERIES/D6207A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "D6207A"
+ },
+ {
+  "id": "d6208",
+  "file": "d6208.js",
+  "folder": "#OPENGEAR #SERIES/D6208 - #Engineering #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "D6208"
+ },
+ {
+  "id": "d6208a",
+  "file": "d6208a.js",
+  "folder": "#OPENGEAR #SERIES/D6208A  #Engineering #TIM #PCB",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "D6208A"
+ },
+ {
+  "id": "m6201",
+  "file": "m6201.js",
+  "folder": "#OPENGEAR #SERIES/M6201 - #Engineering #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "M6201"
+ },
+ {
+  "id": "m6202",
+  "file": "m6202.js",
+  "folder": "#OPENGEAR #SERIES/M6202 - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "M6202"
+ },
+ {
+  "id": "m6202a",
+  "file": "m6202a.js",
+  "folder": "#OPENGEAR #SERIES/M6202A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "M6202A"
+ },
+ {
+  "id": "m6202ae",
+  "file": "m6202ae.js",
+  "folder": "#OPENGEAR #SERIES/M6202AE - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "M6202AE"
+ },
+ {
+  "id": "m6203",
+  "file": "m6203.js",
+  "folder": "#OPENGEAR #SERIES/M6203 - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "M6203"
+ },
+ {
+  "id": "m6203a",
+  "file": "m6203a.js",
+  "folder": "#OPENGEAR #SERIES/M6203A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "M6203A"
+ },
+ {
+  "id": "m6204",
+  "file": "m6204.js",
+  "folder": "#OPENGEAR #SERIES/M6204 - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "M6204"
+ },
+ {
+  "id": "m6204a",
+  "file": "m6204a.js",
+  "folder": "#OPENGEAR #SERIES/M6204A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "M6204A"
+ },
+ {
+  "id": "m6205",
+  "file": "m6205.js",
+  "folder": "#OPENGEAR #SERIES/M6205 - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "M6205"
+ },
+ {
+  "id": "m6205-3g",
+  "file": "m6205-3g.js",
+  "folder": "#OPENGEAR #SERIES/M6205-3G - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "M6205-3G"
+ },
+ {
+  "id": "m6205c",
+  "file": "m6205c.js",
+  "folder": "#OPENGEAR #SERIES/M6205C - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "M6205C"
+ },
+ {
+  "id": "m6206",
+  "file": "m6206.js",
+  "folder": "#OPENGEAR #SERIES/M6206 - #Engineering #OPENGEAR",
+  "family": "openGear",
+  "tier": "full",
+  "status": "ready",
+  "product": "M6206"
+ },
+ {
+  "id": "m6206a",
+  "file": "m6206a.js",
+  "folder": "#OPENGEAR #SERIES/M6206A - #Master #OPENGEAR",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "M6206A"
+ },
+ {
+  "id": "m6245a",
+  "file": "m6245a.js",
+  "folder": "#OPENGEAR #SERIES/M6245A #Engineering #TIM",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "M6245A"
+ },
+ {
+  "id": "t6201",
+  "file": "t6201.js",
+  "folder": "#OPENGEAR #SERIES/T6201 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6201"
+ },
+ {
+  "id": "t6202",
+  "file": "t6202.js",
+  "folder": "#OPENGEAR #SERIES/T6202 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6202"
+ },
+ {
+  "id": "t6203",
+  "file": "t6203.js",
+  "folder": "#OPENGEAR #SERIES/T6203 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6203"
+ },
+ {
+  "id": "t6204",
+  "file": "t6204.js",
+  "folder": "#OPENGEAR #SERIES/T6204 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6204"
+ },
+ {
+  "id": "t6301",
+  "file": "t6301.js",
+  "folder": "#OPENGEAR #SERIES/T6301 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6301"
+ },
+ {
+  "id": "t6302",
+  "file": "t6302.js",
+  "folder": "#OPENGEAR #SERIES/T6302 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6302"
+ },
+ {
+  "id": "t6303",
+  "file": "t6303.js",
+  "folder": "#OPENGEAR #SERIES/T6303 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6303"
+ },
+ {
+  "id": "t6303a",
+  "file": "t6303a.js",
+  "folder": "#OPENGEAR #SERIES/T6303A - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6303A"
+ },
+ {
+  "id": "t6304",
+  "file": "t6304.js",
+  "folder": "#OPENGEAR #SERIES/T6304 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6304"
+ },
+ {
+  "id": "t6305",
+  "file": "t6305.js",
+  "folder": "#OPENGEAR #SERIES/T6305 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6305"
+ },
+ {
+  "id": "t6306",
+  "file": "t6306.js",
+  "folder": "#OPENGEAR #SERIES/T6306 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6306"
+ },
+ {
+  "id": "t6307",
+  "file": "t6307.js",
+  "folder": "#OPENGEAR #SERIES/T6307 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6307"
+ },
+ {
+  "id": "t6308",
+  "file": "t6308.js",
+  "folder": "#OPENGEAR #SERIES/T6308 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6308"
+ },
+ {
+  "id": "t6401",
+  "file": "t6401.js",
+  "folder": "#OPENGEAR #SERIES/T6401 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6401"
+ },
+ {
+  "id": "t6402",
+  "file": "t6402.js",
+  "folder": "#OPENGEAR #SERIES/T6402 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6402"
+ },
+ {
+  "id": "t6403",
+  "file": "t6403.js",
+  "folder": "#OPENGEAR #SERIES/T6403 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6403"
+ },
+ {
+  "id": "t6406",
+  "file": "t6406.js",
+  "folder": "#OPENGEAR #SERIES/T6406 - #Master #OPENGEAR #TERMINATION",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "T6406"
+ },
+ {
+  "id": "mf6220-frame",
+  "file": "mf6220-frame.js",
+  "folder": "#OPENGEAR #SERIES/XXX - MF6220 - FRAME  #Master #OPENGEAR #OBSOLETE",
+  "family": "openGear",
+  "tier": "light",
+  "status": "ready",
+  "product": "MF6220 - FRAME"
+ },
+ {
+  "id": "pod1-pod18-redesign",
+  "file": "pod1-pod18-redesign.js",
+  "folder": "#POD #SERIES/POD1  - POD18 - Redesign #RD #RD64",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD1–POD18 redesign (RD64)"
+ },
+ {
+  "id": "pod1",
+  "file": "pod1.js",
+  "folder": "#POD #SERIES/POD1 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD1"
+ },
+ {
+  "id": "pod10a",
+  "file": "pod10a.js",
+  "folder": "#POD #SERIES/POD10A - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD10A"
+ },
+ {
+  "id": "pod11a",
+  "file": "pod11a.js",
+  "folder": "#POD #SERIES/POD11A - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD11A"
+ },
+ {
+  "id": "pod12a",
+  "file": "pod12a.js",
+  "folder": "#POD #SERIES/POD12A - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD12A"
+ },
+ {
+  "id": "pod13a",
+  "file": "pod13a.js",
+  "folder": "#POD #SERIES/POD13A - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD13A"
+ },
+ {
+  "id": "pod14b-unbalance-in",
+  "file": "pod14b-unbalance-in.js",
+  "folder": "#POD #SERIES/POD14B - UNBALANCE IN #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD14B - UNBALANCE IN"
+ },
+ {
+  "id": "pod15a",
+  "file": "pod15a.js",
+  "folder": "#POD #SERIES/POD15A - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD15A"
+ },
+ {
+  "id": "pod17",
+  "file": "pod17.js",
+  "folder": "#POD #SERIES/POD17 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD17"
+ },
+ {
+  "id": "pod18",
+  "file": "pod18.js",
+  "folder": "#POD #SERIES/POD18 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD18"
+ },
+ {
+  "id": "pod19",
+  "file": "pod19.js",
+  "folder": "#POD #SERIES/POD19 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD19"
+ },
+ {
+  "id": "pod2",
+  "file": "pod2.js",
+  "folder": "#POD #SERIES/POD2 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD2"
+ },
+ {
+  "id": "pod20",
+  "file": "pod20.js",
+  "folder": "#POD #SERIES/POD20 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD20"
+ },
+ {
+  "id": "pod21",
+  "file": "pod21.js",
+  "folder": "#POD #SERIES/POD21 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD21"
+ },
+ {
+  "id": "pod22a",
+  "file": "pod22a.js",
+  "folder": "#POD #SERIES/POD22A - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD22A"
+ },
+ {
+  "id": "pod23",
+  "file": "pod23.js",
+  "folder": "#POD #SERIES/POD23 - #Engineering",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD23"
+ },
+ {
+  "id": "pod24",
+  "file": "pod24.js",
+  "folder": "#POD #SERIES/POD24 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD24"
+ },
+ {
+  "id": "pod25",
+  "file": "pod25.js",
+  "folder": "#POD #SERIES/POD25 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD25"
+ },
+ {
+  "id": "pod26",
+  "file": "pod26.js",
+  "folder": "#POD #SERIES/POD26 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD26"
+ },
+ {
+  "id": "pod27",
+  "file": "pod27.js",
+  "folder": "#POD #SERIES/POD27 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD27"
+ },
+ {
+  "id": "pod28",
+  "file": "pod28.js",
+  "folder": "#POD #SERIES/POD28 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD28"
+ },
+ {
+  "id": "pod29",
+  "file": "pod29.js",
+  "folder": "#POD #SERIES/POD29 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD29"
+ },
+ {
+  "id": "pod29l",
+  "file": "pod29l.js",
+  "folder": "#POD #SERIES/POD29L - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD29L"
+ },
+ {
+  "id": "pod30",
+  "file": "pod30.js",
+  "folder": "#POD #SERIES/POD30 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD30"
+ },
+ {
+  "id": "pod31",
+  "file": "pod31.js",
+  "folder": "#POD #SERIES/POD31 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD31"
+ },
+ {
+  "id": "pod32",
+  "file": "pod32.js",
+  "folder": "#POD #SERIES/POD32 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD32"
+ },
+ {
+  "id": "pod34",
+  "file": "pod34.js",
+  "folder": "#POD #SERIES/POD34 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD34"
+ },
+ {
+  "id": "pod3a",
+  "file": "pod3a.js",
+  "folder": "#POD #SERIES/POD3A - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD3A"
+ },
+ {
+  "id": "pod4",
+  "file": "pod4.js",
+  "folder": "#POD #SERIES/POD4 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD4"
+ },
+ {
+  "id": "pod5",
+  "file": "pod5.js",
+  "folder": "#POD #SERIES/POD5 - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD5"
+ },
+ {
+  "id": "pod7",
+  "file": "pod7.js",
+  "folder": "#POD #SERIES/POD7 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD7"
+ },
+ {
+  "id": "pod8a",
+  "file": "pod8a.js",
+  "folder": "#POD #SERIES/POD8A - #Master",
+  "family": "POD series",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD8A"
+ },
+ {
+  "id": "pod9",
+  "file": "pod9.js",
+  "folder": "#POD #SERIES/POD9 - #Master",
+  "family": "POD series",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD9"
+ },
+ {
+  "id": "ams2",
+  "file": "ams2.js",
+  "folder": "AMS2 - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "AMS2"
+ },
+ {
+  "id": "ams4",
+  "file": "ams4.js",
+  "folder": "AMS4 - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "full",
+  "status": "ready",
+  "product": "AMS4"
+ },
+ {
+  "id": "ams8e",
+  "file": "ams8e.js",
+  "folder": "AMS8E - #Master",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "AMS8E boards"
+ },
+ {
+  "id": "rd-hardwareimprovements",
+  "file": "rd-hardwareimprovements.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD - HardwareImprovements",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD - HardwareImprovements"
+ },
+ {
+  "id": "rd10-cycloneiv",
+  "file": "rd10-cycloneiv.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD10_cycloneIV",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD10_cycloneIV"
+ },
+ {
+  "id": "rd13-timinganalysis",
+  "file": "rd13-timinganalysis.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD13-TimingAnalysis",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD13-TimingAnalysis"
+ },
+ {
+  "id": "rd18-pcbdesigner",
+  "file": "rd18-pcbdesigner.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD18-PCBDesigner",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD18-PCBDesigner"
+ },
+ {
+  "id": "rd19-hd-bnc",
+  "file": "rd19-hd-bnc.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD19-HD BNC",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD19-HD BNC"
+ },
+ {
+  "id": "rd20-veriloghdl",
+  "file": "rd20-veriloghdl.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD20-VerilogHDL",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD20-VerilogHDL"
+ },
+ {
+  "id": "rd21-audiolevelloggingnlc",
+  "file": "rd21-audiolevelloggingnlc.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD21-AudioLevelLoggingNLC",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD21-AudioLevelLoggingNLC"
+ },
+ {
+  "id": "rd22-madi",
+  "file": "rd22-madi.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD22-MADI",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD22-MADI"
+ },
+ {
+  "id": "rd23-ams16-3g",
+  "file": "rd23-ams16-3g.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD23AMS163GSDIUpgrade",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD23AMS163GSDIUpgrade"
+ },
+ {
+  "id": "rd26-metadata-vanc-inserter",
+  "file": "rd26-metadata-vanc-inserter.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD26-Metadata VANC Inserter",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD26-Metadata VANC Inserter"
+ },
+ {
+  "id": "rd29-modularization",
+  "file": "rd29-modularization.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD29-Modularization",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD29-Modularization"
+ },
+ {
+  "id": "rd37-descriptivevideomandate",
+  "file": "rd37-descriptivevideomandate.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD37-DescriptiveVideoMandate",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD37-DescriptiveVideoMandate"
+ },
+ {
+  "id": "rd38-serialboxvsopengear",
+  "file": "rd38-serialboxvsopengear.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD38-SerialBoxVsOpenGear",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD38-SerialBoxVsOpenGear"
+ },
+ {
+  "id": "rd39-mpeg-heaac",
+  "file": "rd39-mpeg-heaac.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD39-MPEG-HEAAC",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD39-MPEG-HEAAC"
+ },
+ {
+  "id": "rd45-dolbyd-ac3",
+  "file": "rd45-dolbyd-ac3.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD45-DolbyD_AC3",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD45-DolbyD_AC3"
+ },
+ {
+  "id": "rd47-analogtosdivideo",
+  "file": "rd47-analogtosdivideo.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD47-AnalogToSDIVideo",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD47-AnalogToSDIVideo"
+ },
+ {
+  "id": "rd5-incremental-compilation",
+  "file": "rd5-incremental-compilation.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD5-Incremental Compilation #Software #Altera #NOTES",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD5-Incremental Compilation"
+ },
+ {
+  "id": "rd50-improvespeakerdesign",
+  "file": "rd50-improvespeakerdesign.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD50-ImproveSpeakerDesign",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD50-ImproveSpeakerDesign"
+ },
+ {
+  "id": "rd53-ideviceatodadapter",
+  "file": "rd53-ideviceatodadapter.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD53-iDeviceAtoDAdapter",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD53-iDeviceAtoDAdapter"
+ },
+ {
+  "id": "rd54-inexpensiveswitcher",
+  "file": "rd54-inexpensiveswitcher.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD54-InexpensiveSwitcher",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD54-InexpensiveSwitcher"
+ },
+ {
+  "id": "rd56-raspberrypi",
+  "file": "rd56-raspberrypi.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD56-RaspberryPI",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD56-RaspberryPI"
+ },
+ {
+  "id": "rd57-madi-distributionamplifier",
+  "file": "rd57-madi-distributionamplifier.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD57-MADI_DistributionAmplifier",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD57-MADI_DistributionAmplifier"
+ },
+ {
+  "id": "rd58-adda-8ch-metering",
+  "file": "rd58-adda-8ch-metering.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD58-AtoD-DtoA-8chanwithMetering",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD58-AtoD-DtoA-8chanwithMetering"
+ },
+ {
+  "id": "rd59-ipvideotohdmiconverter",
+  "file": "rd59-ipvideotohdmiconverter.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD59-IPVideoToHDMIConverter",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD59-IPVideoToHDMIConverter"
+ },
+ {
+  "id": "rd60-ams81a-iss5",
+  "file": "rd60-ams81a-iss5.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD60-AMS81AUsingAMS81-iss5PCB",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD60-AMS81AUsingAMS81-iss5PCB"
+ },
+ {
+  "id": "rd61-hdmi-player",
+  "file": "rd61-hdmi-player.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD61-SmallFormFactorHDMIVideoPlayer",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD61-SmallFormFactorHDMIVideoPlayer"
+ },
+ {
+  "id": "rd63-avbresearch",
+  "file": "rd63-avbresearch.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD63-AVBResearch",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD63-AVBResearch"
+ },
+ {
+  "id": "rd66-mlc8-ams8e1-iss5",
+  "file": "rd66-mlc8-ams8e1-iss5.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD66-MLC8UsingAMS8E-1-iss5",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD66-MLC8UsingAMS8E-1-iss5"
+ },
+ {
+  "id": "rd68-reducingdepthof2ruunits",
+  "file": "rd68-reducingdepthof2ruunits.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD68-ReducingDepthOf2RUUnits",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD68-ReducingDepthOf2RUUnits"
+ },
+ {
+  "id": "rd69-vidbuddy-madibuddy",
+  "file": "rd69-vidbuddy-madibuddy.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD69-VidBuddy_MADIBuddy",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD69-VidBuddy_MADIBuddy"
+ },
+ {
+  "id": "rd70-microcontrollerresearch",
+  "file": "rd70-microcontrollerresearch.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD70-MicroControllerResearch",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD70-MicroControllerResearch"
+ },
+ {
+  "id": "rd71-touchdisplay",
+  "file": "rd71-touchdisplay.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD71-TouchDisplay",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD71-TouchDisplay"
+ },
+ {
+  "id": "rd72-cat1100",
+  "file": "rd72-cat1100.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD72-Cat1100",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD72-Cat1100"
+ },
+ {
+  "id": "rd74-t6301upgradeto3g-sdi",
+  "file": "rd74-t6301upgradeto3g-sdi.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD74-T6301UpgradeTo3G-SDI",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD74-T6301UpgradeTo3G-SDI"
+ },
+ {
+  "id": "rd79-avb-monitor",
+  "file": "rd79-avb-monitor.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD79-AVB Monitor",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD79-AVB Monitor"
+ },
+ {
+  "id": "rd80-amplifier-project",
+  "file": "rd80-amplifier-project.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD80-Amplifier Project",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD80-Amplifier Project"
+ },
+ {
+  "id": "rd84-sabre",
+  "file": "rd84-sabre.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD84-Sabre",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD84-Sabre"
+ },
+ {
+  "id": "rd85-archwave-ravenna-monitor",
+  "file": "rd85-archwave-ravenna-monitor.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD85-Archwave Ravenna Monitor",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD85-Archwave Ravenna Monitor"
+ },
+ {
+  "id": "rd86-slm1d-with-old-board",
+  "file": "rd86-slm1d-with-old-board.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD86-SLM1D with old board",
+  "family": "R&D register",
+  "tier": "full",
+  "status": "ready",
+  "product": "RD86-SLM1D with old board"
+ },
+ {
+  "id": "rd9-dspresearch",
+  "file": "rd9-dspresearch.js",
+  "folder": "ENGINEERING - 2016 RD FILES/RD9-DSPResearch",
+  "family": "R&D register",
+  "tier": "light",
+  "status": "ready",
+  "product": "RD9-DSPResearch"
+ },
+ {
+  "id": "microdriver",
+  "file": "microdriver.js",
+  "folder": "microDriver - POD6 - #Master turned into microdriver",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "microDriver (POD6)"
+ },
+ {
+  "id": "microimp4",
+  "file": "microimp4.js",
+  "folder": "microIMP4 - #Engineering",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "microIMP4"
+ },
+ {
+  "id": "micromatch",
+  "file": "micromatch.js",
+  "folder": "microMATCH - #MASTER",
+  "family": "Monitors, meters & tools",
+  "tier": "light",
+  "status": "ready",
+  "product": "microMATCH"
+ },
+ {
+  "id": "consoles-r2k",
+  "file": "consoles-r2k.js",
+  "folder": "#CONSOLES - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "R2K consoles"
+ },
+ {
+  "id": "55xxxx-systems",
+  "file": "55xxxx-systems.js",
+  "folder": "#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "Custom 55XXXX systems"
+ },
+ {
+  "id": "systems-94-98",
+  "file": "systems-94-98.js",
+  "folder": "#CUSTOM #SYSTEMS/#Custom Systems 94-98",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "Custom systems 1994–98"
+ },
+ {
+  "id": "serialbox",
+  "file": "serialbox.js",
+  "folder": "#SERIALBOX #SERIES",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "SerialBoxx series"
+ },
+ {
+  "id": "fc6221",
+  "file": "fc6221.js",
+  "folder": "#OPENGEAR #SERIES/FC6221 - #Engineering #PROBLEM",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "FC6221"
+ },
+ {
+  "id": "impxx",
+  "file": "impxx.js",
+  "folder": "IMPXX - #Engineering #PROBLEM",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "IMPXX"
+ },
+ {
+  "id": "obsolete-misc",
+  "file": "obsolete-misc.js",
+  "folder": "MISC/OBSOLETE Misc - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "Obsolete misc"
+ },
+ {
+  "id": "sd405-iss1",
+  "file": "sd405-iss1.js",
+  "folder": "#SERIALBOX #SERIES/SERIALBOXX - #SD400/SD405/Sd405 - ISS1",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "Sd405 - ISS1"
+ },
+ {
+  "id": "aip8-2a",
+  "file": "aip8-2a.js",
+  "folder": "AIP8-2A - #Master #Obsolete ",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "AIP8-2A"
+ },
+ {
+  "id": "ama",
+  "file": "ama.js",
+  "folder": "#AMA #SERIES/XXX - AMA - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "AMA"
+ },
+ {
+  "id": "ama4",
+  "file": "ama4.js",
+  "folder": "#AMA #SERIES/XXX - AMA4 #Obsolete",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "AMA4"
+ },
+ {
+  "id": "amx6",
+  "file": "amx6.js",
+  "folder": "#AMX #SERIES/XXX - AMX6 - #Master",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "AMX6"
+ },
+ {
+  "id": "avm",
+  "file": "avm.js",
+  "folder": "#AV #SERIES/XXX - AVM - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "AVM"
+ },
+ {
+  "id": "avs",
+  "file": "avs.js",
+  "folder": "#AV #SERIES/XXX - AVS - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "AVS"
+ },
+ {
+  "id": "c6201-never-produced",
+  "file": "c6201-never-produced.js",
+  "folder": "#OPENGEAR #SERIES/XXX - C6201 - #Engineering NEVER PRODUCED",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "C6201 - NEVER PRODUCED"
+ },
+ {
+  "id": "custom-e8200",
+  "file": "custom-e8200.js",
+  "folder": "#CUSTOM #SYSTEMS/XXX - CUSTOM - E8200 - #Engineering",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "CUSTOM - E8200"
+ },
+ {
+  "id": "demux1",
+  "file": "demux1.js",
+  "folder": "#DEMUX #SERIES/XXX - DEMUX1 - #Engineering #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "DEMUX1"
+ },
+ {
+  "id": "demux2",
+  "file": "demux2.js",
+  "folder": "#DEMUX #SERIES/XXX - DEMUX2 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "DEMUX2"
+ },
+ {
+  "id": "demux3",
+  "file": "demux3.js",
+  "folder": "#DEMUX #SERIES/XXX - DEMUX3 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "DEMUX3"
+ },
+ {
+  "id": "dms",
+  "file": "dms.js",
+  "folder": "#DMS #SERIES/XXX - DMS - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "DMS"
+ },
+ {
+  "id": "dms1",
+  "file": "dms1.js",
+  "folder": "#DMS #SERIES/XXX - DMS1 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "DMS1"
+ },
+ {
+  "id": "m405m",
+  "file": "m405m.js",
+  "folder": "#M400 #SERIES - Meter Panels/XXX - M405M - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "M405M"
+ },
+ {
+  "id": "m405s",
+  "file": "m405s.js",
+  "folder": "#M400 #SERIES - Meter Panels/XXX - M405S - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "M405S"
+ },
+ {
+  "id": "m445",
+  "file": "m445.js",
+  "folder": "#M400 #SERIES - Meter Panels/XXX - M445 - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "M445"
+ },
+ {
+  "id": "m8245",
+  "file": "m8245.js",
+  "folder": "#SERIALBOX #SERIES/XXX - M8245 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8245"
+ },
+ {
+  "id": "m8246-r2k-console-psu",
+  "file": "m8246-r2k-console-psu.js",
+  "folder": "#CONSOLES - #OBSOLETE #Archive/XXX - M8246 - R2K CONSOLE PSU #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "M8246 - R2K CONSOLE PSU"
+ },
+ {
+  "id": "mf250-frame-for-r2k-psu",
+  "file": "mf250-frame-for-r2k-psu.js",
+  "folder": "#CONSOLES - #OBSOLETE #Archive/XXX - MF250 - FRAME FOR R2K PSU #Mechanical #Obsolete",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "MF250 - FRAME FOR R2K PSU"
+ },
+ {
+  "id": "mlc6a",
+  "file": "mlc6a.js",
+  "folder": "#MLC - #SERIES/XXX - MLC6A - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "MLC6A"
+ },
+ {
+  "id": "mlc6r",
+  "file": "mlc6r.js",
+  "folder": "#MLC - #SERIES/XXX - MLC6R - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "MLC6R"
+ },
+ {
+  "id": "pod10",
+  "file": "pod10.js",
+  "folder": "#POD #SERIES/XXX - POD10 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD10"
+ },
+ {
+  "id": "pod11",
+  "file": "pod11.js",
+  "folder": "#POD #SERIES/XXX - POD11 - #Master  #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD11"
+ },
+ {
+  "id": "pod12",
+  "file": "pod12.js",
+  "folder": "#POD #SERIES/XXX - POD12 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD12"
+ },
+ {
+  "id": "pod13",
+  "file": "pod13.js",
+  "folder": "#POD #SERIES/XXX - POD13 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD13"
+ },
+ {
+  "id": "pod14",
+  "file": "pod14.js",
+  "folder": "#POD #SERIES/XXX - POD14 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD14"
+ },
+ {
+  "id": "pod15",
+  "file": "pod15.js",
+  "folder": "#POD #SERIES/XXX - POD15 - #Master #Obsolete",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD15"
+ },
+ {
+  "id": "pod16",
+  "file": "pod16.js",
+  "folder": "#POD #SERIES/XXX - POD16 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD16"
+ },
+ {
+  "id": "pod22",
+  "file": "pod22.js",
+  "folder": "#POD #SERIES/XXX - POD22 - #Master # Obsolte",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "POD22 - # Obsolte"
+ },
+ {
+  "id": "qsp",
+  "file": "qsp.js",
+  "folder": "QSP  - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "QSP"
+ },
+ {
+  "id": "ra24",
+  "file": "ra24.js",
+  "folder": "#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/XXX - RA24 - #Mechanical #Obsolete",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "RA24"
+ },
+ {
+  "id": "rav-24",
+  "file": "rav-24.js",
+  "folder": "#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/XXX - RAV 24 - #Mechanical #Obsolete",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "RAV 24"
+ },
+ {
+  "id": "rlm",
+  "file": "rlm.js",
+  "folder": "#RLM #SERIES/XXX - RLM  - #Master #obsolete",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "RLM"
+ },
+ {
+  "id": "slm8",
+  "file": "slm8.js",
+  "folder": "#SLM #SERIES - To Delete/XXX - SLM8 - #Mechanical #Obsolete",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "SLM8"
+ },
+ {
+  "id": "sms",
+  "file": "sms.js",
+  "folder": "XXX - SMS - #Engineering #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "SMS"
+ },
+ {
+  "id": "vms",
+  "file": "vms.js",
+  "folder": "XXX - VMS - #Engineering #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "ready",
+  "product": "VMS"
+ },
+ {
+  "id": "st8201a",
+  "file": "st8201a.js",
+  "folder": "#MF8200 #SERIES/XXX - st8201a - #Engineering #PROBLEM",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "st8201a"
+ },
+ {
+  "id": "avb-vid-buddy",
+  "file": "avb-vid-buddy.js",
+  "folder": "#AV #SERIES/XXX- AVB  VID BUDDY - #OBSOLETE #Archive",
+  "family": "Obsolete products",
+  "tier": "full",
+  "status": "building",
+  "product": "AVB VID BUDDY"
+ },
+ {
+  "id": "pod8",
+  "file": "pod8.js",
+  "folder": "#POD #SERIES/xxx - POD8 - #Master #OBSOLETE",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "POD8"
+ },
+ {
+  "id": "rlm24-2",
+  "file": "rlm24-2.js",
+  "folder": "#RLM #SERIES/xxx - RLM24-2 - #Master",
+  "family": "Obsolete products",
+  "tier": "light",
+  "status": "ready",
+  "product": "RLM24-2"
+ }
+]

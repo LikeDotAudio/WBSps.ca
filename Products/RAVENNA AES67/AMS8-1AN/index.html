@@ -57,7 +57,7 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </tr>
 <tr>
 <td>Try it</td>
-<td><a href="../../../simulator.html?m=AMS8-1AN">simulator &amp; front panel</a></td>
+<td><a href="../../../simulator.html?m=AMS8-1AN">simulator &amp; front panel</a> · <a href="../../../kicad.html?m=AMS8-1AN">KiCad symbol generator</a></td>
 </tr>
 <tr>
 <td>Earliest dated evidence</td>
@@ -83,6 +83,102 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 </table><h2>Pictures</h2><div class="thumbs"><a href="../../../viewer.html?f=Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20002%20-%20AMS8-1AN%20Three%20Quarter.jpg"><img loading="lazy" src="../../../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20002%20-%20AMS8-1AN%20Three%20Quarter.jpg" alt="" data-f="Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg" data-size="320" onerror="wbsOff(this)">2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg</a><a href="../../../viewer.html?f=Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg"><img loading="lazy" src="../../../Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg" alt="" data-f="Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - Information Sheet.jpg" data-size="320" onerror="wbsOff(this)">2014 - AMS8-1AN - Information Sheet.jpg</a></div>
 <h2>Front panel</h2>
 <p><svg class="wbs-panel solo" data-m="AMS8-1AN" data-n="" data-cat="RAVENNA AES67" role="img" aria-label="AMS8-1AN front panel"></svg></p>
+<p><a id="software"></a></p>
+<h2>Software</h2>
+<p><em>What runs on the AMS8-1AN: every programmable part and the version Ward-Beck released for it, from the <a href="../../../PAGES/Software.html">engineering software listings</a> (the FULL HISTORY workbook, kept to 2018|51).</em></p>
+<table>
+<thead>
+<tr>
+<th>Part / board</th>
+<th>What</th>
+<th>Chip</th>
+<th>Clock</th>
+<th>Current version</th>
+<th>Date</th>
+<th>Sheet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AMS8-1AN</td>
+<td>AMS8E-1 firmware</td>
+<td></td>
+<td></td>
+<td><strong>V050001</strong> (in 06AV0100)</td>
+<td>2016-05-15</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS8-1AN</td>
+<td>AMS8E-5 firmware</td>
+<td></td>
+<td></td>
+<td><strong>V040100</strong> (in 06AV0100)</td>
+<td>2016-05-15</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS8-1AN</td>
+<td>SHARC firmware</td>
+<td></td>
+<td></td>
+<td><strong>v205</strong> (in 06AV0100)</td>
+<td>2016-05-15</td>
+<td>AMS8-1</td>
+</tr>
+<tr>
+<td>AMS8-1AN</td>
+<td>ALTERA firmware</td>
+<td></td>
+<td></td>
+<td><strong>V050100</strong> (in 06AV0100)</td>
+<td>2016-05-15</td>
+<td>AMS8-1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Product firmware versions (PFV)</strong>: AMS8-1AN: 1 revisions, latest released <strong>06AV0100</strong> (2016-05-15)</p>
+<p><strong>Programming:</strong> Products with the EPC1S configuration device are programmed with Quartus on the lab computer (Tools → Programmer, "Active Serial Programming" instead of JTAG, a .POF file). Boot EEPROMs are programmed with ChipWin (.LDR files from the debug folder); AT25F512 parts with the VisualDSP++ Flash Programmer (session ADSP-21262, AT25F512 driver).</p>
+<h2>Versions</h2>
+<h3>AMS8-1AN</h3>
+<p><em>Sheet <strong>AMS8-1</strong>: one row per product firmware version, with the firmware of each board in it.</em></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Date</th>
+<th>Revision</th>
+<th>AMS8E-1</th>
+<th>AMS8E-5</th>
+<th>SHARC</th>
+<th>ALTERA</th>
+<th>Status</th>
+<th>Tested / PCB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2016|49</td>
+<td>2016-05-15</td>
+<td><strong>06AV0100</strong></td>
+<td>V050001</td>
+<td>V040100</td>
+<td>v205</td>
+<td>V050100</td>
+<td>released</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Changes in each version</h2>
+<p><em>What changed, in the words of the listing, oldest first.</em></p>
+<ul>
+<li><strong>06AV0100</strong> — 2016|49 · 2016-05-15 — <em>AMS8-1AN</em><ul>
+<li>This is to accommodate unet Standard board for AMS8-1AN</li>
+<li>NAB2016</li>
+</ul>
+</li>
+</ul>
 <h2>Photos &amp; scans (2)</h2>
 <table>
 <thead>
@@ -104,4 +200,25 @@ blockquote { margin:6px 0; padding-left:12px; border-left:2px solid var(--rule);
 <td><a href="../../../viewer.html?f=Products/RAVENNA%20AES67/AMS8-1AN/2014%20-%20AMS8-1AN%20-%20Information%20Sheet.jpg.md">note</a></td>
 </tr>
 </tbody>
-</table><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from AMS8-1AN.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
+</table>
+<details class="json"><summary>Contents (JSON)</summary><pre>{
+ &quot;device&quot;: &quot;AMS8-1AN&quot;,
+ &quot;category&quot;: &quot;RAVENNA AES67&quot;,
+ &quot;year&quot;: 2014,
+ &quot;documents&quot;: [
+  {
+   &quot;file&quot;: &quot;Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - 002 - AMS8-1AN Three Quarter.jpg&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: []
+  },
+  {
+   &quot;file&quot;: &quot;Products/RAVENNA AES67/AMS8-1AN/2014 - AMS8-1AN - Information Sheet.jpg&quot;,
+   &quot;year&quot;: 2014,
+   &quot;pages&quot;: 1,
+   &quot;holds&quot;: [
+    &quot;dates&quot;
+   ]
+  }
+ ]
+}</pre></details><script src="../../../_catalog/wbs_reels.js" defer></script><script src="../../../_catalog/wbs_panel.js"></script><div class="foot">An archive by Anthony Peter Kuzub · <a href="https://wbsps.kuzub.com">WBSps.Kuzub.com</a> · <a href="https://wbsps.ca">WBSps.ca</a><br><small>generated from AMS8-1AN.md</small></div></article><script src="../../../_catalog/wbs_scan.js?v=7792b3a7"></script></body></html>
