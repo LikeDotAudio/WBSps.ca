@@ -10,13 +10,15 @@ tags: ["product", "metering", "2010s"]
 
 # XTM4 — Extended Range Test Meter
 
+**▶ [Open the XTM-4 Live Soundcard Visualizer](../XTM.WBSps.ca/)** — standalone real-time audio metering engine with live soundcard & system audio capture, VU & PPM electromechanical ballistics, and phase correlation
+
 **▶ [Open the XTM4 simulation](../siumulation.html?plugin=xtm4)** — front panel, operator tutorial, one second in slow motion, block diagram, schematics and how each control drives the firmware
 
 |  |  |
 |---|---|
 | Type | product |
 | Series | [METERING](Series-METERING.md) |
-| Try it | [full simulation: XTM4](../siumulation.html?plugin=xtm4) · [KiCad symbol generator](../kicad.html?m=XTM4) · [download package (zip)](../_packages/XTM4.zip) |
+| Try it | [live visualizer: XTM-4](../XTM.WBSps.ca/) · [full simulation: XTM4](../siumulation.html?plugin=xtm4) · [KiCad symbol generator](../kicad.html?m=XTM4) · [download package (zip)](../_packages/XTM4.zip) |
 | Earliest dated evidence | [2014\|47](Year-2014.md) — month & year |
 | Evidence | "Oct.01 2014" in PUBLIC/Manuals + tech DOCUMENTS/Metering and Monitoring Manuals/XTM4 MANUAL(1).docx |
 | Confidence | medium |
