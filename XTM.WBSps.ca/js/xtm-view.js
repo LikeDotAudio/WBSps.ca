@@ -102,7 +102,7 @@ class XtmView {
   }
 
   /* ---------------- Meter Dial & Needle SVG ---------------- */
-  renderMeter(id, cx, cy, kind, angle, isPowered, dialLamp) {
+  renderMeter(id, cx, cy, kind, angle, isPowered, dialLamp, isBlackPpm = false) {
     const MW = this.MW, MH = this.MH;
     const x0 = cx - MW / 2, y0 = cy - MH / 2;
     const px = cx, py = cy + 176, R = 246;
@@ -113,13 +113,19 @@ class XtmView {
     };
 
     let fillGrad = '#221c15';
-    if (isPowered) {
+    let ink = '#141008';
+
+    if (kind === 'ppm' && isBlackPpm) {
+      fillGrad = isPowered ? 'url(#xblackppm)' : '#0a0b0d';
+      ink = isPowered ? '#f8fafc' : '#475569';
+    } else if (isPowered) {
       if (dialLamp === 'white') fillGrad = 'url(#xwhite)';
       else if (dialLamp === 'parchment') fillGrad = 'url(#xparchment)';
       else fillGrad = 'url(#xamber)';
+      ink = '#141008';
+    } else {
+      ink = '#0c0a06';
     }
-
-    const ink = isPowered ? '#141008' : '#0c0a06';
 
     const arc = (a0, a1, r, w, col) => {
       const [x1, y1] = P(a0, r), [x2, y2] = P(a1, r);
@@ -155,8 +161,9 @@ class XtmView {
             <text x="${(x0 + MW - 140).toFixed(0)}" y="${y0 + 62}" font-size="24" font-weight="700" fill="#b91c1c">VU</text>`;
     } else {
       // PPM Scale: -12 to +12 dB
+      const warnCol = isBlackPpm ? '#ff4d36' : '#c45a10';
       s += arc(this.ppmAngle(0), this.ppmAngle(1), R, 3.5, ink);
-      s += arc(this.ppmAngle(20 / 24), this.ppmAngle(1), R + 8, 16, '#c45a10');
+      s += arc(this.ppmAngle(20 / 24), this.ppmAngle(1), R + 8, 16, warnCol);
 
       for (let d = -12; d <= 12; d += 2) {
         const a = this.ppmAngle((d + 12) / 24);
@@ -167,7 +174,8 @@ class XtmView {
       [-12, -8, -4, 0, 4, 8, 12].forEach(d => {
         const a = this.ppmAngle((d + 12) / 24);
         const [tx, ty] = P(a, R + 44);
-        s += `<text x="${tx.toFixed(1)}" y="${(ty + 8).toFixed(1)}" font-size="25" font-weight="700" text-anchor="middle" fill="${ink}">${d > 0 ? '+' + d : d}</text>`;
+        const col = d >= 8 && isBlackPpm ? '#ff4d36' : ink;
+        s += `<text x="${tx.toFixed(1)}" y="${(ty + 8).toFixed(1)}" font-size="25" font-weight="700" text-anchor="middle" fill="${col}">${d > 0 ? '+' + d : d}</text>`;
       });
       s += `<text x="${cx}" y="${y0 + 62}" font-size="22" font-weight="700" text-anchor="middle" fill="${ink}">PPM (dB)</text>`;
     }
@@ -182,14 +190,21 @@ class XtmView {
 
     // Subtle needle drop shadow
     if (isPowered) {
-      s += `<line x1="${px + 4}" y1="${py + 3}" x2="${sx.toFixed(1)}" y2="${sy.toFixed(1)}" stroke="rgba(0,0,0,0.22)" stroke-width="4" stroke-linecap="round"/>`;
+      s += `<line x1="${px + 4}" y1="${py + 3}" x2="${sx.toFixed(1)}" y2="${sy.toFixed(1)}" stroke="rgba(0,0,0,0.3)" stroke-width="4" stroke-linecap="round"/>`;
     }
 
     // Physical Needle
-    s += `<line x1="${px}" y1="${py}" x2="${nx.toFixed(1)}" y2="${ny.toFixed(1)}" stroke="#0f0f10" stroke-width="4.5" stroke-linecap="round"/>`;
-
-    // Pivot cap hub
-    s += `<circle cx="${px}" cy="${py}" r="16" fill="#17191c" stroke="#444" stroke-width="2"/>`;
+    if (kind === 'ppm' && isBlackPpm) {
+      // European Black PPM Needle: crisp white needle with fluorescent red tip
+      s += `<line x1="${px}" y1="${py}" x2="${nx.toFixed(1)}" y2="${ny.toFixed(1)}" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>`;
+      const [rx0, ry0] = P(angle, R + 6);
+      s += `<line x1="${rx0.toFixed(1)}" y1="${ry0.toFixed(1)}" x2="${nx.toFixed(1)}" y2="${ny.toFixed(1)}" stroke="#ff3b30" stroke-width="4.5" stroke-linecap="round"/>`;
+      s += `<circle cx="${px}" cy="${py}" r="16" fill="#181a1d" stroke="#64748b" stroke-width="2.5"/>`;
+    } else {
+      // Traditional black needle
+      s += `<line x1="${px}" y1="${py}" x2="${nx.toFixed(1)}" y2="${ny.toFixed(1)}" stroke="#0f0f10" stroke-width="4.5" stroke-linecap="round"/>`;
+      s += `<circle cx="${px}" cy="${py}" r="16" fill="#17191c" stroke="#444" stroke-width="2"/>`;
+    }
 
     s += `</g><rect x="${x0}" y="${y0}" width="${MW}" height="${MH}" rx="12" fill="none" stroke="#090909" stroke-width="8"/>`;
     return s;
@@ -201,6 +216,7 @@ class XtmView {
     const txt = model.getDisplayText();
     const led = on ? levels.phaseLed : -1;
     const OX = this.OX, OY = this.OY;
+    const isBlackPpm = model.ppmStyle !== 'amber';
 
     // Calculate angles
     const m0Ang = on ? this.vuAngle(levels.vu[0]) : -48;
@@ -215,6 +231,11 @@ class XtmView {
           <stop offset="0" stop-color="#ffe399"/>
           <stop offset="0.6" stop-color="#f5b842"/>
           <stop offset="1" stop-color="#ce7d14"/>
+        </radialGradient>
+        <radialGradient id="xblackppm" cx="50%" cy="75%" r="75%">
+          <stop offset="0" stop-color="#24262a"/>
+          <stop offset="0.6" stop-color="#121416"/>
+          <stop offset="1" stop-color="#08090a"/>
         </radialGradient>
         <radialGradient id="xwhite" cx="50%" cy="75%" r="75%">
           <stop offset="0" stop-color="#ffffff"/>
@@ -253,11 +274,11 @@ class XtmView {
         `<image href="assets/xtm4-front.svg" x="${OX}" y="${OY}" width="3419" height="679" preserveAspectRatio="none"/>`
       }
 
-      <!-- 4 Moving-Coil Meters -->
-      ${this.renderMeter('m0', this.MX[0] + OX, this.MYc + OY, 'vu', m0Ang, on, model.dialLamp)}
-      ${this.renderMeter('m1', this.MX[1] + OX, this.MYc + OY, 'ppm', m1Ang, on, model.dialLamp)}
-      ${this.renderMeter('m2', this.MX[2] + OX, this.MYc + OY, 'vu', m2Ang, on, model.dialLamp)}
-      ${this.renderMeter('m3', this.MX[3] + OX, this.MYc + OY, 'ppm', m3Ang, on, model.dialLamp)}
+      <!-- 4 Moving-Coil Meters: Left Pair (VU Amber + PPM Black) & Right Pair (VU Amber + PPM Black) -->
+      ${this.renderMeter('m0', this.MX[0] + OX, this.MYc + OY, 'vu', m0Ang, on, model.dialLamp, false)}
+      ${this.renderMeter('m1', this.MX[1] + OX, this.MYc + OY, 'ppm', m1Ang, on, model.dialLamp, isBlackPpm)}
+      ${this.renderMeter('m2', this.MX[2] + OX, this.MYc + OY, 'vu', m2Ang, on, model.dialLamp, false)}
+      ${this.renderMeter('m3', this.MX[3] + OX, this.MYc + OY, 'ppm', m3Ang, on, model.dialLamp, isBlackPpm)}
 
       <!-- Center Alphanumeric Display Window (HDSP-2533 VFD Dot-Matrix) -->
       ${(() => {

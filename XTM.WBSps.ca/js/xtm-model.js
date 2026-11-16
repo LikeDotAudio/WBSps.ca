@@ -39,6 +39,7 @@ class XtmModel {
     // Meter movement style & backlight
     this.meterStyle = 'simpson'; // 'simpson', 'sifam', or 'ppm'
     this.dialLamp = 'amber';     // 'amber', 'white', 'parchment'
+    this.ppmStyle = 'black';     // 'black' (Authentic European Black PPM) or 'amber'
     this.artMode = 'svg';        // 'svg' or 'png'
 
     this.onChange = null;
@@ -216,6 +217,7 @@ class XtmModel {
         term: this.term,
         meterStyle: this.meterStyle,
         dialLamp: this.dialLamp,
+        ppmStyle: this.ppmStyle,
         artMode: this.artMode
       };
       localStorage.setItem('wbs_xtm4_eeprom', JSON.stringify(state));
@@ -235,6 +237,7 @@ class XtmModel {
         if (obj.term !== undefined) this.term = obj.term;
         if (obj.meterStyle) this.meterStyle = obj.meterStyle;
         if (obj.dialLamp) this.dialLamp = obj.dialLamp;
+        if (obj.ppmStyle) this.ppmStyle = obj.ppmStyle;
         if (obj.artMode) this.artMode = obj.artMode;
       }
     } catch (_) {}

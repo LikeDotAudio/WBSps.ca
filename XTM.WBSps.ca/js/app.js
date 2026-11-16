@@ -17,10 +17,47 @@ document.addEventListener('DOMContentLoaded', async () => {
   audio.setHighPass(model.hp === 1);
   audio.setVuStyle(model.meterStyle);
 
+  let lastHandledMode = null;
+  let lastHandledSrc = null;
+
+  async function syncAudioWithHardwareMode(m) {
+    if (m.mode === 'SET') return; // in SETUP, keep active audio stream
+
+    const modeKey = m.mode + (m.mode === 'A' ? m.a.src : (m.mode === 'D' ? m.d.src : m.s.pair[m.s.sel]));
+    if (modeKey === lastHandledMode) return;
+    lastHandledMode = modeKey;
+
+    if (m.mode === 'A') {
+      // ANALOG MODE: Front Jacks A0 or Rear XLRs A1 -> Soundcard Input
+      if (audio.sourceType !== 'mic') {
+        try {
+          await handleConnectSoundcard(selectDevice.value || null);
+        } catch (_) {}
+      }
+    } else if (m.mode === 'D') {
+      // DIGITAL AES MODE: D1 = Rear Digital -> Computer Audio Output (System Audio)
+      if (m.d.src === 1) {
+        if (audio.sourceType !== 'system') {
+          try {
+            await handleConnectSystemAudio();
+          } catch (_) {}
+        }
+      } else {
+        // D0 = Front AES -> Digital Test Reference Tone
+        audio.startTestGenerator('sine1k');
+      }
+    } else if (m.mode === 'S') {
+      // SDI DEMUX MODE: Embedded Audio Test Channels
+      const testWave = (m.s.pair[m.s.sel] % 2 === 1) ? 'sine1k' : 'pink';
+      audio.startTestGenerator(testWave);
+    }
+  }
+
   model.onChange = (m) => {
     audio.setReferenceLevel(m.getActiveReferenceLevel());
     audio.setHighPass(m.hp === 1);
     audio.setVuStyle(m.meterStyle);
+    syncAudioWithHardwareMode(m);
   };
 
   /* ---------------- UI Element References ---------------- */
@@ -47,6 +84,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const monitorVolVal = document.getElementById('monitorVolVal');
 
   const selectMeterStyle = document.getElementById('selectMeterStyle');
+  const selectPpmStyle = document.getElementById('selectPpmStyle');
   const selectLampColor = document.getElementById('selectLampColor');
   const chkHpf = document.getElementById('chkHpf');
   const chkTerm = document.getElementById('chkTerm');
@@ -124,12 +162,42 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
-  btnConnectCard.addEventListener('click', () => handleConnectSoundcard(selectDevice.value || null));
-  btnConnectSystem.addEventListener('click', handleConnectSystemAudio);
+  btnConnectCard.addEventListener('click', async () => {
+    model.mode = 'A';
+    model.a.src = 1;
+    model.saveEEPROM();
+    model.notify();
+    await handleConnectSoundcard(selectDevice.value || null);
+  });
 
-  bannerMicBtn.addEventListener('click', () => handleConnectSoundcard());
-  bannerSysBtn.addEventListener('click', handleConnectSystemAudio);
+  btnConnectSystem.addEventListener('click', async () => {
+    model.mode = 'D';
+    model.d.src = 1;
+    model.saveEEPROM();
+    model.notify();
+    await handleConnectSystemAudio();
+  });
+
+  bannerMicBtn.addEventListener('click', async () => {
+    model.mode = 'A';
+    model.a.src = 1;
+    model.saveEEPROM();
+    model.notify();
+    await handleConnectSoundcard();
+  });
+
+  bannerSysBtn.addEventListener('click', async () => {
+    model.mode = 'D';
+    model.d.src = 1;
+    model.saveEEPROM();
+    model.notify();
+    await handleConnectSystemAudio();
+  });
+
   bannerTestBtn.addEventListener('click', () => {
+    model.mode = 'S';
+    model.saveEEPROM();
+    model.notify();
     audio.startTestGenerator('sine1k');
     audioBanner.classList.add('hidden');
     btnConnectCard.classList.remove('btn-active');
@@ -199,6 +267,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     audio.setVuStyle(model.meterStyle);
     model.saveEEPROM();
   });
+
+  if (selectPpmStyle) {
+    selectPpmStyle.value = model.ppmStyle || 'black';
+    selectPpmStyle.addEventListener('change', (e) => {
+      model.ppmStyle = e.target.value;
+      model.saveEEPROM();
+    });
+  }
 
   selectLampColor.value = model.dialLamp;
   selectLampColor.addEventListener('change', (e) => {
