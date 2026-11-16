@@ -43,7 +43,7 @@ def load_env_credentials():
     creds = {
         'host': os.environ.get('FTP_HOST', 'wbsps.ca'),
         'user': os.environ.get('FTP_USER_NAME', 'wbsps@wbsps.ca'),
-        'pass': os.environ.get('FTP_USER_PASS', 'EaOt+r!RnZja)e-#'),
+        'pass': os.environ.get('FTP_USER_PASS', ''),
         'port': int(os.environ.get('FTP_PORT', '21'))
     }
 
@@ -176,6 +176,10 @@ def main():
     print("-" * 68)
 
     t0 = time.time()
+
+    if not args.password:
+        print("❌ Error: No FTP password provided. Set FTP_USER_PASS in docker/.env or pass --password.", file=sys.stderr)
+        sys.exit(1)
 
     print(f"Connecting to {args.host}:{args.port}...")
     ftp = ftplib.FTP()
