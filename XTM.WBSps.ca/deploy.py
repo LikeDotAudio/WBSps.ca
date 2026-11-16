@@ -161,9 +161,8 @@ def main():
     parser.add_argument("--port", type=int, default=creds['port'], help=f"FTP port (default: {creds['port']})")
     parser.add_argument("--user", default=creds['user'], help=f"FTP username (default: {creds['user']})")
     parser.add_argument("--password", default=creds['pass'], help="FTP password")
-    parser.add_argument("--remote-dir", default="/", help="Target remote directory (default: /)")
-    parser.add_argument("--also-sync-xtm", action="store_true", default=True,
-                        help="Also sync files to /XTM subfolder for subdomain compatibility")
+    parser.add_argument("--remote-dir", default=None,
+                        help="Target remote directory (auto-detects 'XTM/' vs root)")
     parser.add_argument("--no-verify", action="store_true", help="Skip post-deployment HTTP verification")
 
     args = parser.parse_args()
@@ -174,9 +173,6 @@ def main():
     print(f" Target Server : {args.host}:{args.port}")
     print(f" FTP Account   : {args.user}")
     print(f" Local Source  : {HERE}")
-    print(f" Remote Target : {args.remote_dir}")
-    if args.also_sync_xtm:
-        print(" Subfolder Sync: /XTM (enabled for subdomain routing)")
     print("-" * 68)
 
     t0 = time.time()
@@ -192,16 +188,27 @@ def main():
         ftp.login(args.user, args.password)
         print("Authentication successful!")
 
-        # Deploy to primary target (default: /)
-        print(f"\nDeploying files to '{args.remote_dir}'...")
-        files_1, bytes_1 = upload_tree(ftp, str(HERE), args.remote_dir)
-        print(f"✔ Completed '{args.remote_dir}': {len(files_1)} files ({bytes_1:,} bytes)")
+        # Auto-detect target directory:
+        # If the account root contains 'XTM' directory or path says Wbsps.ca, deploy into XTM/
+        remote_target = args.remote_dir
+        if remote_target is None:
+            listing = []
+            try:
+                listing = ftp.nlst()
+            except Exception:
+                pass
 
-        # Also sync to /XTM if requested
-        if args.also_sync_xtm and args.remote_dir != "/XTM":
-            print(f"\nSyncing files to '/XTM'...")
-            files_2, bytes_2 = upload_tree(ftp, str(HERE), "/XTM")
-            print(f"✔ Completed '/XTM': {len(files_2)} files ({bytes_2:,} bytes)")
+            if 'XTM' in listing:
+                remote_target = '/XTM'
+                print("Auto-detected target folder: '/XTM' (inside Wbsps.ca)")
+            else:
+                remote_target = '/'
+                print("Auto-detected target folder: '/' (already inside XTM)")
+
+        # Deploy files into target
+        print(f"\nDeploying hosted application files to '{remote_target}'...")
+        files_uploaded, bytes_uploaded = upload_tree(ftp, str(HERE), remote_target)
+        print(f"✔ Completed '{remote_target}': {len(files_uploaded)} files ({bytes_uploaded:,} bytes)")
 
         ftp.quit()
         elapsed = time.time() - t0
@@ -213,14 +220,11 @@ def main():
 
     # Verification
     if not args.no_verify:
-        verify_site("https://wbsps.ca/")
         verify_site("https://xtm.wbsps.ca/")
 
     print("\n" + "=" * 68)
-    print(" Deployment finished successfully!")
-    print(" Live URLs:")
-    print("   • https://xtm.wbsps.ca/")
-    print("   • https://wbsps.ca/")
+    print(" Hosted Deployment Complete!")
+    print(" Live URL: https://xtm.wbsps.ca/")
     print("=" * 68)
 
 if __name__ == '__main__':
