@@ -147,19 +147,30 @@ function frontSVG(t){
     <text x="4" y="${FH+42}" font-size="10" fill="var(--ink2)">Front edge drawn to the D8204 outline (pin-compatible).</text><text x="4" y="${FH+56}" font-size="10" fill="var(--ink2)">LED / pot / jack order ${'inferred'} from the BOM and description.</text></svg>`;
 }
 const BNC1 = [['INPUT',6850,4525],['1',7290,4065],['2',6850,3605],['3',7290,3145],['4',6850,2685],['5',7290,2225],['6',6850,1765]];
+/* Rear module art: BNC1 of “D8204 - rear module options.cdr” (2012-01-16) as assets/d8208-rear-bnc1.svg. There is no D8208
+   sheet; the D8208 uses the D8204’s BNC1 (“pin for pin compatible with the D8204”). Centres are the BNC rings in that file. */
+const D8204_RO = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr';
+const BNC1_ART = [[373.4,229.2],[396.4,253.3],[373.4,277.6],[396.4,301.7],[373.3,326.1],[396.7,351.0],[373.3,375.5]];
+function rearArtSVG(t){ const on=outEnabledAt(t)&&(rxLockAt(t)||D.j.j1);
+  let s=`<svg viewBox="328 192 112 208" style="width:100%;max-width:260px;display:block;border-radius:4px" role="img" aria-label="BNC1 from the CorelDRAW D8204 sheet"><rect x="328" y="192" width="112" height="208" fill="#fff"/><image href="siumulation-plugins/assets/d8208-rear-bnc1.svg" x="328" y="192" width="112" height="208"/>`;
+  BNC1.forEach(([n],i)=>{ const [x,y]=BNC1_ART[i], isIn=n==='INPUT', c=isIn?(D.plugged?'#2f7de1':null):on?'#18b84a':null;
+    s+=`<g class="${isIn?'d8in':''}" style="cursor:${isIn?'pointer':'default'}"><title>${isIn?'AES INPUT — click to plug/unplug':'AES OUT '+n+(on?' — transmitting':' — muted')}</title><circle cx="${x}" cy="${y}" r="14" fill="rgba(0,0,0,0)"/>${c?`<circle cx="${x}" cy="${y}" r="13.6" fill="none" stroke="${c}" stroke-width="2.2"/>`:''}</g>`; });
+  return s+`</svg><div class="small muted">CorelDRAW artwork: BNC1 on ${SIM.src(D8204_RO,'D8204 - rear module options.cdr')} (2012-01-16). No D8208 sheet exists. <label><input type="checkbox" class="d8drawn"> drawn from the PCB</label></div>`; }
 function rearSVG(t){
+  if (!D.rearDrawn) return rearArtSVG(t);
   const on=outEnabledAt(t)&&(rxLockAt(t)||D.j.j1), S=0.07; const xs=BNC1.map(b=>b[1]), ys=BNC1.map(b=>b[2]); const x0=Math.min(...xs)-450, y1=Math.max(...ys)+450, y0=Math.min(...ys)-450, x1=Math.max(...xs)+450;
   const X=v=>20+(v-x0)*S, Y=v=>20+(y1-v)*S, W=(x1-x0)*S, H=(y1-y0)*S;
   let s=`<svg viewBox="0 0 ${W+190} ${H+40}" style="width:100%;max-width:300px"><rect x="20" y="20" width="${W}" height="${H}" rx="4" fill="#26292c" stroke="#111"/>`;
   BNC1.forEach(([n,x,y])=>{ const isIn=n==='INPUT'; const col=isIn?(D.plugged?'var(--accent2)':'#555'):on?'var(--led-g)':'#555';
     s+=`<g class="${isIn?'d8in':''}" style="cursor:${isIn?'pointer':'default'}"><title>${isIn?'AES INPUT — click to plug/unplug':'AES OUT '+n}</title><circle cx="${X(x)}" cy="${Y(y)}" r="15" fill="#b9bcbf" stroke="#666"/><circle cx="${X(x)}" cy="${Y(y)}" r="9" fill="#1a1a1a"/><circle cx="${X(x)}" cy="${Y(y)}" r="3" fill="${col}"/>${isIn&&D.plugged?`<rect x="${X(x)-6}" y="${Y(y)-30}" width="12" height="16" fill="#333"/>`:''}<text x="${X(x)}" y="${Y(y)+27}" font-size="8.5" text-anchor="middle" fill="#ddd">${isIn?'IN':'OUT '+n}</text></g>`; });
-  return s+`<text x="${W+30}" y="40" font-size="12" font-weight="700" fill="var(--ink)">BNC1 (D8204 module)</text><text x="${W+30}" y="58" font-size="10" fill="var(--ink2)">“pin for pin compatible</text><text x="${W+30}" y="72" font-size="10" fill="var(--ink2)">with the D8204”</text><text x="${W+30}" y="94" font-size="10" fill="var(--ink2)">BNC3 gives 8 outs in MF82/10</text><text x="${W+30}" y="110" font-size="10" fill="var(--ink2)">positions: BNC-XX.PCB</text></svg>`;
+  return s+`<text x="${W+30}" y="40" font-size="12" font-weight="700" fill="var(--ink)">BNC1 (D8204 module)</text><text x="${W+30}" y="58" font-size="10" fill="var(--ink2)">“pin for pin compatible</text><text x="${W+30}" y="72" font-size="10" fill="var(--ink2)">with the D8204”</text><text x="${W+30}" y="94" font-size="10" fill="var(--ink2)">BNC3 gives 8 outs in MF82/10</text><text x="${W+30}" y="110" font-size="10" fill="var(--ink2)">positions: BNC-XX.PCB</text></svg><div class="small muted"><label><input type="checkbox" class="d8drawn" checked> drawn from the PCB</label></div>`;
 }
 function jumperHTML(){
   return `<div class="small" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 8px">${Object.keys(JDOC).map(k=>`<button class="d8j ${D.j[k]?'on':''}" data-k="${k}" title="${JDOC[k][1]} / ${JDOC[k][2]}" style="text-align:left;font-size:11.5px">${k.toUpperCase().replace('J','JMP_')} ${JDOC[k][0]}: <b>${D.j[k]?JDOC[k][2]:JDOC[k][1]}</b></button>`).join('')}</div>`;
 }
 function bindPanel(m){
   m.querySelectorAll('.d8in').forEach(g=>g.onclick=()=>A.plug());
+  m.querySelectorAll('.d8drawn').forEach(c=>c.onchange=()=>{ D.rearDrawn=c.checked; SIM.refresh(); });
   m.querySelectorAll('.d8j').forEach(b=>b.onclick=()=>A.jumper(b.dataset.k));
   m.querySelectorAll('.d8pot').forEach(g=>{ const i=+g.dataset.i;
     g.onwheel=e=>{ e.preventDefault(); D.pot[i]=Math.max(0,Math.min(255,D.pot[i]+(e.deltaY<0?4:-4))); SIM.refresh(); };
@@ -295,6 +306,8 @@ function viewSoft(m){
 }
 function viewNotes(m){
   m.innerHTML=card('What the D8208 is up to — findings', `<ol>
+   <li><b>Artwork ${SIM.year(2026)}: rear module from the D8204 sheet.</b> No CorelDRAW, overlay or silk file exists for the D8208. The rear-module guides (2011 master and the 2012 per-card sheets) cover the D8205, D8206 and D8207 but not the D8208. The rear panel is therefore BNC1 from ${SIM.src(D8204_RO,'D8204 - rear module options.cdr')} (2012-01-16), the module the functional description calls “pin for pin compatible with the D8204”. The PCB-position drawing is on the checkbox.</li>
+   <li><b>The D8204 sheet calls BNC1 a “1x6”.</b> On an MF82/12 the D8208’s 1-in, 8-out DA brings out only six outputs. The 8-output build needs BNC3 in an MF82/10 (“*MF8210 Only”) <span class="tag-inf">inferred</span>.</li>
    <li><b>No D8208 code folder, but the code is there.</b> The D8208 folder holds only a 2000|33 functional description. Its firmware is the D820x tree with <span class="mono">#define D8208</span>: <span class="mono">d820x.h</span>, <span class="mono">d820x.asm</span> (init_modes, switch_8420_modes, LED_processing), <span class="mono">d820xswr.asm</span> and the SHARC's <span class="mono">D8208_beg</span>. No build folder ever had D8208 active (the working copy is D8207).</li>
    <li><b>Stereo/mono control looks inverted.</b> jumpers.txt: “JMP_3 CNTRL1: 0 = stereo control / 1 = mono control”. <span class="mono">sample_proc_D8208</span>: <span class="mono">btst r4 by D8208_JMP_CNTRL_STEREO_MONO; if not sz f9=pass f8;</span> — with the bit SET, channel B copies channel A's gain, i.e. stereo control. Either the doc or the code is backwards (or the Altera reports fitted jumpers as 0, ${inf}).</li>
    <li><b>Validity bit from the wrong receiver.</b> In <span class="mono">jmp_input</span> the D8208 branch reads <span class="mono">RD_CH1</span> (CS8420 #1) and copies its V bit into <span class="mono">CH2_8420reg1</span>, but the D8208's input is on CH2 (“LED_0 – Lock to CH2 (First input)”, AUD_OUTPUT_ROUTE OUT1 = OUT2 = CS8420 #2). The D8207 branch copies CH1→CH1 correctly.</li>
@@ -314,6 +327,10 @@ SIM.register({
   folder:'#MF8200 #SERIES/D8208 - #Engineering #MF82',
   summary:'A 1-in, 8-out AES distribution amplifier with ±15 dB trim or off…+12 dB volume, set by PCB or remote pots. It is the shared D820x platform (PIC16C73A, EPM7128S, ADSP-21061, CS8420) built with #define D8208.',
   highlights:['Pots → A/D → hysteresis → SHARC gain tables','All 9 D8208 jumpers live','Dropout: MODE 6 → MODE 0 and output mute','Stereo-control jumper polarity mismatch','Archived “D8208 manual” is the D8205 text'],
+  footnotes:[
+    {text:'The D8208 has no rear-module sheet of its own: the 2011 master and the 2012 sheets stop at the D8207. Its rear panel here is the D8204 sheet’s BNC1.', src:D8204_RO},
+    {text:'On BNC1 the D8204 sheet’s caption reads “1x6”: the 8-output D8208 loses outputs 7 and 8 in an MF82/12 frame.', src:D8204_RO},
+  ],
   depth:'Hardware model',
   stepUnits:[{label:'1 PIC pass (inferred)',period:()=>PASS},{label:'1 AES frame',period:()=>1/D.fs},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s (whole)'],[0.1,'100 ms'],[0.02,'20 ms (≈15 passes)'],[PASS,'1 pass (≈1.33 ms)'],[0.0005,'500 µs'],[4/48000,'4 frames']],

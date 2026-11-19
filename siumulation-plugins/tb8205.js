@@ -1349,7 +1349,7 @@ const LOADZ = {'600':600,'10k':10000,'110':110,'55':55,'1k5':1500,'open':1e12,'s
 
 /* ---------------- state ---------------- */
 const S0 = ()=>({ issue:DATA.defaultIssue, card:DATA.cards[0].id, variant:(DATA.variants||[{id:'std'}])[0].id, sel:null, cable:{}, load:{},
-  gen:4, wiper:0.5, remIn:true, wsteps:[], loop:'none', view:'rear', wiring:'silk', log:[], last:null, blockSel:'card' });
+  gen:4, wiper:0.5, remIn:true, wsteps:[], loop:'none', view:'art', wiring:'silk', log:[], last:null, blockSel:'card' });
 const S = S0();
 function demo(){ const iss=DATA.issues[DATA.defaultIssue], c=DATA.cards[0]; Object.keys(c.roles).forEach(k=>{ const r=c.roles[k]; if (!iss.ports.find(p=>p.id===k)) return;
   if (r[1]==='in' && !S.cable[k] && !Object.keys(S.cable).some(x=>c.roles[x]&&c.roles[x][1]==='in')) S.cable[k]=true; });
@@ -1453,11 +1453,36 @@ document.addEventListener('keydown', e=>{
   else if (k==='l'){ const r=role(S.sel), L=(SIG[r.sig]||SIG.nc).loads; if (r.dir==='out'){ A.setLoad(S.sel, L[(L.indexOf(loadOf(S.sel))+1)%L.length]); e.preventDefault(); } }
 });
 
+/* ---------------- CorelDRAW artwork (2026|59) ----------------
+   assets/tb8205-rear-art.svg: the “TB8205 SCREW TERMINAL” panel of the D8201 page in 8200 Series - Rear module drawing Master.cdr (2011-12-22); TB8205P.CDR (1999) is CorelDRAW 5 and converts with its text byte-swapped at one x.
+   Converted with Inkscape; sheet captions removed, hairlines widened. Each screw is placed on its terminal in the art
+   (columns matched to the board's, rows in order); the Gerber/PCB render stays on the View toggle. */
+const ART = {"vb":[1505,-1425,222,421],"src":"#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr","label":"8200 Series - Rear module drawing Master.cdr","date":"2011-12-22, “D8201 TERMINAL OPTIONS” page","pos":{"iss2":[[1580.9,-1276.3],[1580.9,-1289.3],[1580.9,-1302.3],[1624.3,-1276.3],[1624.3,-1289.3],[1624.3,-1302.3],[1581.1,-1135.8],[1628.0,-1135.8],[1581.1,-1148.8],[1628.0,-1148.8],[1581.1,-1161.8],[1628.0,-1161.8],[1581.1,-1174.8],[1628.0,-1174.8],[1581.1,-1187.8],[1628.0,-1187.8],[1581.1,-1200.7],[1628.0,-1200.8],[1581.1,-1213.7],[1628.0,-1213.7],[1581.1,-1226.7],[1628.0,-1226.7],[1581.1,-1239.7],[1628.0,-1239.7]],"iss1":[[1580.9,-1276.3],[1580.9,-1289.3],[1580.9,-1302.3],[1581.1,-1135.8],[1628.0,-1135.8],[1581.1,-1148.8],[1628.0,-1148.8],[1581.1,-1161.8],[1628.0,-1161.8],[1581.1,-1174.8],[1628.0,-1174.8],[1581.1,-1187.8],[1628.0,-1187.8],[1581.1,-1200.7],[1628.0,-1200.7],[1581.1,-1213.7],[1628.0,-1213.7],[1581.1,-1226.7],[1628.0,-1226.7],[1581.1,-1239.7],[1628.0,-1239.7]]},"inf":"— the art draws ISS.2 (with the passive input loop); on ISS.1 the loop block is simply absent"};
+function artSVG(opts){
+  opts=opts||{}; const iss=I(), P=ART.pos[S.issue], [vx,vy,vw,vh]=ART.vb, MX=92, sel=S.sel, cx=vx+vw/2;
+  let s=`<svg viewBox="${vx-MX} ${vy} ${vw+2*MX} ${vh+16}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${esc(DATA.product)} rear module, CorelDRAW art">
+   <defs><filter id="${ID}ga" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6"/></filter></defs>
+   <image href="${ASSET}${ID}-rear-art.svg" x="${vx}" y="${vy}" width="${vw}" height="${vh}"/>`;
+  const at={}; iss.screws.forEach((sc,i)=>{ if(P[i]) at[sc.id||i]=P[i]; });
+  const pos=(sc)=>P[iss.screws.indexOf(sc)];
+  iss.screws.forEach((sc,i)=>{ const q=P[i]; if(!q) return; const [x,y]=q, isSel=sc.port===sel, pt=port(sc.port), plug=!!S.cable[sc.port];
+    const col = sc.leg==='+'||sc.leg==='HIGH'? '#e35' : sc.leg==='-'||sc.leg==='WIPER'? '#39f' : '#888';
+    s+=`<g class="pos" data-p="${sc.port}" style="cursor:pointer"><title>${esc(sc.ref)} · “${esc(labelOf(sc))}” → ${sc.series?esc(sc.series)+' → ':''}${sc.con} (contact ${sc.contact})</title><rect x="${x-8}" y="${y-6}" width="16" height="12" fill="transparent"/>
+      <circle cx="${x}" cy="${y}" r="${isSel?5.5:4}" fill="${plug&&pt.kind!=='gnd'?col:'none'}" fill-opacity=".8" stroke="${isSel?'#e0a000':col}" stroke-width="${isSel?2:1.1}"/></g>`; });
+  ports().forEach(p=>{ const sc=screwsOf(p.id).filter(z=>pos(z)); if (!sc.length) return; const r=role(p.id), Q=sc.map(pos);
+    const y=(Math.min(...Q.map(q=>q[1]))+Math.max(...Q.map(q=>q[1])))/2, left=Math.min(...Q.map(q=>q[0]))<cx, tx=left? vx-4 : vx+vw+4;
+    const lv = r.dir==='out'? outLevel(p.id) : r.dir==='in'? inputLevel(p.id) : null, isSel=p.id===sel;
+    const lvTxt = !lv? '' : r.dir==='out'? (lv.v>0? (lv.dbu!=null? lv.dbu.toFixed(1)+' dBu':lv.v.toFixed(2)+' Vpp') : '—') : (lv.plugged? (lv.dbu!=null?lv.dbu.toFixed(1)+' dBu':lv.v.toFixed(2)+' Vpp'):'—');
+    s+=`<g class="pos" data-p="${p.id}" style="cursor:pointer"><line x1="${left?tx+1:tx-1}" y1="${y}" x2="${left?vx+6:vx+vw-6}" y2="${y}" stroke="${isSel?'#e0a000':'var(--line)'}" stroke-width="${isSel?1.2:.5}"/>
+      <text x="${tx}" y="${y+2.4}" text-anchor="${left?'end':'start'}" font-size="6.6"><tspan font-weight="700" fill="${isSel?'var(--warn)':'var(--ink)'}">${esc(p.name)}</tspan><tspan font-size="5.6" fill="${r.dir==='in'?'var(--accent2)':r.dir==='out'?'var(--accent)':'var(--ink2)'}"> ${r.dir==='nc'?'unused':lvTxt||esc(r.name.length>16?r.name.slice(0,15)+'…':r.name)}</tspan><title>${esc(r.name)}${lvTxt?' · '+lvTxt:''}</title></text>
+      ${lv&&lv.ok?`<circle cx="${left?vx-1.5:vx+vw+1.5}" cy="${y}" r="2" fill="var(--led-g)" filter="url(#${ID}ga)"/>`:''}</g>`; });
+  return s+`</svg><div class="small muted" style="text-align:center">Artwork: ${SIM.src(ART.src,ART.label)} (${ART.date}), converted from CorelDRAW${ART.inf?' '+ART.inf:''}. View → “PCB” shows the board render.</div>`;
+}
 /* ---------------- board drawing (1:1 from the artwork, inches) ---------------- */
 const PX = 150;
 function labelOf(s){ if (S.wiring==='guide'){ const g=cardObj().guide; if (g && g[s.id]) return g[s.id]; } return s.label; }
 function panelSVG(opts){
-  opts=opts||{}; const iss=I(), W=iss.w*PX, H=iss.h*PX, M=170, sel=S.sel;
+  opts=opts||{}; if (S.view==='art' && ART.pos[S.issue]) return artSVG(opts); const iss=I(), W=iss.w*PX, H=iss.h*PX, M=170, sel=S.sel;
   let s=`<svg viewBox="0 0 ${W+2*M} ${H+46}" style="width:100%;max-width:${opts.max||540}px;display:block;margin:auto" role="img" aria-label="${esc(DATA.product)} drawn from ${esc(iss.art)}">
    <defs><filter id="${ID}gl" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.5"/></filter></defs>
    <rect x="${M-3}" y="17" width="${W+6}" height="${H+6}" rx="4" fill="#0b0c0d"/>`;
@@ -1491,7 +1516,7 @@ function controlsHTML(){
     <label>Card <select data-c="card">${cardsForIssue().map(x=>`<option value="${x.id}" ${x.id===S.card?'selected':''}>${esc(x.id)} — ${esc(x.short)}</option>`).join('')}</select></label>
     ${ks.length>1?`<label>Issue <select data-c="issue">${ks.map(k=>`<option value="${k}" ${k===S.issue?'selected':''}>${esc(DATA.issues[k].label)}</option>`).join('')}</select></label>`:''}
     ${V.length>1?`<label>Build <select data-c="variant">${V.map(v=>`<option value="${v.id}" ${v.id===S.variant?'selected':''}>${esc(v.label)}</option>`).join('')}</select></label>`:''}
-    <label>View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>terminal side</option><option value="card" ${S.view==='card'?'selected':''}>solder side</option></select></label>
+    <label>View <select data-c="view">${ART.pos[S.issue]?`<option value="art" ${S.view==='art'?'selected':''}>CorelDRAW artwork</option>`:''}<option value="rear" ${S.view==='rear'||(S.view==='art'&&!ART.pos[S.issue])?'selected':''}>PCB: terminal side</option><option value="card" ${S.view==='card'?'selected':''}>PCB: solder side</option></select></label>
     ${DATA.guideToggle?`<label>Labels <select data-c="wiring"><option value="silk" ${S.wiring==='silk'?'selected':''}>board silk</option><option value="guide" ${S.wiring==='guide'?'selected':''}>2012 guide</option></select></label>`:''}
     <label>Source <input type="range" data-c="gen" min="-20" max="24" value="${S.gen}" style="width:90px"> ${S.gen>=0?'+':''}${S.gen} dBu</label>
     ${I().ports.some(p=>p.kind==='loop')?`<label>Loop out to <select data-c="loop">${['none','bridge','chain4','600'].map(v=>`<option value="${v}" ${S.loop===v?'selected':''}>${{none:'nothing',bridge:'1 bridging input (10 k)',chain4:'4 bridging inputs',600:'600 Ω termination'}[v]}</option>`).join('')}</select></label>`:''}
@@ -1702,7 +1727,14 @@ function viewFind(m){
   m.innerHTML=card('Findings — what the '+esc(DATA.product)+' files show', `<ol>${DATA.findings.concat(common).map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}</ol>`)+card('Sources used', `<ul class="small">${DATA.sources.map(s=>`<li class="mono">${esc(s)}</li>`).join('')}</ul>`);
 }
 
+DATA.findings.unshift(`<b>Artwork 2026|59: the rear panel now comes from ${SIM.src(ART.src,'8200 Series - Rear module drawing Master.cdr')} (2011-12-22).</b> Its “TB8205 SCREW TERMINAL” panel (on the D8201 page) is converted to SVG and every screw is placed on its terminal; the Tango renders stay on the View toggle. It draws ISS.2: IN +, IN −, SH plus a 3-way PASSIVE INPUT LOOP beside it, and two 9-way strips 1–8 + G. The legends are the D8201's (OUT 8 ± doubling as CONFIDENCE / NO-LOCK, with a footnote that this output can be an alarm by jumpers). The batch's ${SIM.src('#MF8200 #SERIES/M8205 - #Engineering #MF82/TB8205P.CDR','TB8205P.CDR')} files (M8205 1999-04-28, M8206 1999-04-29) are CorelDRAW 5: their text converts byte-swapped and stacked at one x, so they were not used.`);
 SIM.register({
+  footnotes:[
+  {text:'TB8205P.CDR is kept twice, in the M8205 (1999-04-28) and M8206 (1999-04-29) folders, and neither converts with readable text (CorelDRAW 5).', src:'#MF8200 #SERIES/M8206 - #Engineering #MF82/TB8205P.CDR'},
+  {text:"The guide's TB8205 page labels OUT 8 ± as “*OUT 8 +/CONFIDENCE” and “*OUT 8 −/NO-LOCK”, with the note “THIS OUTPUT CAN BE USED AS AN ALARM BY SETTING THE JUMPERS” — a D8201 feature, not the module's.", src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr'},
+  {text:'The TB8205 art shows the passive input loop block of ISS.2 (TB8205P2.PCB, 2000); ISS.1 (1997) has no loop.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr'},
+  {text:"The master sheet draws the TB8205 several times (D8201, D8202, D8203/110, M8208 pages) with each card's own legends.", src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr'},
+  {text:'The 2013 TB8205P.PCB is an empty P-CAD file; the board exists only in the 1997/2000 Tango files.', src:'#MF8200 #SERIES/TB8205 - #Engineering #MF82 #TERMINATION/TB8205P.PCB'} ],
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'0.1 ms',period:()=>1e-4},{label:'1 ms (1 tone cycle)',period:()=>0.001},{label:'10 ms',period:()=>0.01},{label:'100 ms',period:()=>0.1}],

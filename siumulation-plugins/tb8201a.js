@@ -754,7 +754,7 @@ const LOADZ = {'600':600,'10k':10000,'110':110,'55':55,'1k5':1500,'open':1e12,'s
 
 /* ---------------- state ---------------- */
 const S0 = ()=>({ issue:DATA.defaultIssue, card:DATA.cards[0].id, variant:(DATA.variants||[{id:'std'}])[0].id, sel:null, cable:{}, load:{},
-  gen:4, wiper:0.5, remIn:true, wsteps:[], loop:'none', view:'rear', wiring:'silk', log:[], last:null, blockSel:'card' });
+  gen:4, wiper:0.5, remIn:true, wsteps:[], loop:'none', view:'art', wiring:'silk', log:[], last:null, blockSel:'card' });
 const S = S0();
 function demo(){ const iss=DATA.issues[DATA.defaultIssue], c=DATA.cards[0]; Object.keys(c.roles).forEach(k=>{ const r=c.roles[k]; if (!iss.ports.find(p=>p.id===k)) return;
   if (r[1]==='in' && !S.cable[k] && !Object.keys(S.cable).some(x=>c.roles[x]&&c.roles[x][1]==='in')) S.cable[k]=true; });
@@ -858,11 +858,36 @@ document.addEventListener('keydown', e=>{
   else if (k==='l'){ const r=role(S.sel), L=(SIG[r.sig]||SIG.nc).loads; if (r.dir==='out'){ A.setLoad(S.sel, L[(L.indexOf(loadOf(S.sel))+1)%L.length]); e.preventDefault(); } }
 });
 
+/* ---------------- CorelDRAW artwork (2026|59) ----------------
+   assets/tb8201a-rear-art.svg: the right-hand (“TB8201A SCREW TERMINAL”) panel of TB8201A&AP.cdr (2006-06-23).
+   Converted with Inkscape; sheet captions removed, hairlines widened. Each screw is placed on its terminal in the art
+   (columns matched to the board's, rows in order); the Gerber/PCB render stays on the View toggle. */
+const ART = {"vb":[396,112,220,414],"src":"#MF8200 #SERIES/TB8201A - #Engineering #MF82 #TERMINATION/TB8201A&AP.cdr","label":"TB8201A&AP.cdr","date":"2006-06-23","pos":{"iss1":[[523.4,219.3],[523.4,232.0],[523.4,244.6],[523.4,398.7],[523.4,411.4],[523.4,424.0],[476.9,270.4],[523.4,270.4],[476.9,283.1],[523.4,283.1],[476.9,295.7],[523.4,295.7],[476.9,308.4],[523.4,308.4],[476.9,321.1],[523.4,321.1],[476.9,333.7],[523.4,333.7],[476.9,346.4],[523.4,346.4],[476.9,359.0],[523.4,359.0],[476.9,371.6],[523.4,371.6]]}};
+function artSVG(opts){
+  opts=opts||{}; const iss=I(), P=ART.pos[S.issue], [vx,vy,vw,vh]=ART.vb, MX=92, sel=S.sel, cx=vx+vw/2;
+  let s=`<svg viewBox="${vx-MX} ${vy} ${vw+2*MX} ${vh+16}" style="width:100%;max-width:${opts.max||560}px;display:block;margin:auto" role="img" aria-label="${esc(DATA.product)} rear module, CorelDRAW art">
+   <defs><filter id="${ID}ga" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6"/></filter></defs>
+   <image href="${ASSET}${ID}-rear-art.svg" x="${vx}" y="${vy}" width="${vw}" height="${vh}"/>`;
+  const at={}; iss.screws.forEach((sc,i)=>{ if(P[i]) at[sc.id||i]=P[i]; });
+  const pos=(sc)=>P[iss.screws.indexOf(sc)];
+  iss.screws.forEach((sc,i)=>{ const q=P[i]; if(!q) return; const [x,y]=q, isSel=sc.port===sel, pt=port(sc.port), plug=!!S.cable[sc.port];
+    const col = sc.leg==='+'||sc.leg==='HIGH'? '#e35' : sc.leg==='-'||sc.leg==='WIPER'? '#39f' : '#888';
+    s+=`<g class="pos" data-p="${sc.port}" style="cursor:pointer"><title>${esc(sc.ref)} · “${esc(labelOf(sc))}” → ${sc.series?esc(sc.series)+' → ':''}${sc.con} (contact ${sc.contact})</title><rect x="${x-8}" y="${y-6}" width="16" height="12" fill="transparent"/>
+      <circle cx="${x}" cy="${y}" r="${isSel?5.5:4}" fill="${plug&&pt.kind!=='gnd'?col:'none'}" fill-opacity=".8" stroke="${isSel?'#e0a000':col}" stroke-width="${isSel?2:1.1}"/></g>`; });
+  ports().forEach(p=>{ const sc=screwsOf(p.id).filter(z=>pos(z)); if (!sc.length) return; const r=role(p.id), Q=sc.map(pos);
+    const y=(Math.min(...Q.map(q=>q[1]))+Math.max(...Q.map(q=>q[1])))/2, left=Math.min(...Q.map(q=>q[0]))<cx, tx=left? vx-4 : vx+vw+4;
+    const lv = r.dir==='out'? outLevel(p.id) : r.dir==='in'? inputLevel(p.id) : null, isSel=p.id===sel;
+    const lvTxt = !lv? '' : r.dir==='out'? (lv.v>0? (lv.dbu!=null? lv.dbu.toFixed(1)+' dBu':lv.v.toFixed(2)+' Vpp') : '—') : (lv.plugged? (lv.dbu!=null?lv.dbu.toFixed(1)+' dBu':lv.v.toFixed(2)+' Vpp'):'—');
+    s+=`<g class="pos" data-p="${p.id}" style="cursor:pointer"><line x1="${left?tx+1:tx-1}" y1="${y}" x2="${left?vx+6:vx+vw-6}" y2="${y}" stroke="${isSel?'#e0a000':'var(--line)'}" stroke-width="${isSel?1.2:.5}"/>
+      <text x="${tx}" y="${y+2.4}" text-anchor="${left?'end':'start'}" font-size="6.6"><tspan font-weight="700" fill="${isSel?'var(--warn)':'var(--ink)'}">${esc(p.name)}</tspan><tspan font-size="5.6" fill="${r.dir==='in'?'var(--accent2)':r.dir==='out'?'var(--accent)':'var(--ink2)'}"> ${r.dir==='nc'?'unused':lvTxt||esc(r.name.length>16?r.name.slice(0,15)+'…':r.name)}</tspan><title>${esc(r.name)}${lvTxt?' · '+lvTxt:''}</title></text>
+      ${lv&&lv.ok?`<circle cx="${left?vx-1.5:vx+vw+1.5}" cy="${y}" r="2" fill="var(--led-g)" filter="url(#${ID}ga)"/>`:''}</g>`; });
+  return s+`</svg><div class="small muted" style="text-align:center">Artwork: ${SIM.src(ART.src,ART.label)} (${ART.date}), converted from CorelDRAW${ART.inf?' '+ART.inf:''}. View → “PCB” shows the board render.</div>`;
+}
 /* ---------------- board drawing (1:1 from the artwork, inches) ---------------- */
 const PX = 150;
 function labelOf(s){ if (S.wiring==='guide'){ const g=cardObj().guide; if (g && g[s.id]) return g[s.id]; } return s.label; }
 function panelSVG(opts){
-  opts=opts||{}; const iss=I(), W=iss.w*PX, H=iss.h*PX, M=170, sel=S.sel;
+  opts=opts||{}; if (S.view==='art' && ART.pos[S.issue]) return artSVG(opts); const iss=I(), W=iss.w*PX, H=iss.h*PX, M=170, sel=S.sel;
   let s=`<svg viewBox="0 0 ${W+2*M} ${H+46}" style="width:100%;max-width:${opts.max||540}px;display:block;margin:auto" role="img" aria-label="${esc(DATA.product)} drawn from ${esc(iss.art)}">
    <defs><filter id="${ID}gl" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.5"/></filter></defs>
    <rect x="${M-3}" y="17" width="${W+6}" height="${H+6}" rx="4" fill="#0b0c0d"/>`;
@@ -896,7 +921,7 @@ function controlsHTML(){
     <label>Card <select data-c="card">${cardsForIssue().map(x=>`<option value="${x.id}" ${x.id===S.card?'selected':''}>${esc(x.id)} — ${esc(x.short)}</option>`).join('')}</select></label>
     ${ks.length>1?`<label>Issue <select data-c="issue">${ks.map(k=>`<option value="${k}" ${k===S.issue?'selected':''}>${esc(DATA.issues[k].label)}</option>`).join('')}</select></label>`:''}
     ${V.length>1?`<label>Build <select data-c="variant">${V.map(v=>`<option value="${v.id}" ${v.id===S.variant?'selected':''}>${esc(v.label)}</option>`).join('')}</select></label>`:''}
-    <label>View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>terminal side</option><option value="card" ${S.view==='card'?'selected':''}>solder side</option></select></label>
+    <label>View <select data-c="view">${ART.pos[S.issue]?`<option value="art" ${S.view==='art'?'selected':''}>CorelDRAW artwork</option>`:''}<option value="rear" ${S.view==='rear'||(S.view==='art'&&!ART.pos[S.issue])?'selected':''}>PCB: terminal side</option><option value="card" ${S.view==='card'?'selected':''}>PCB: solder side</option></select></label>
     ${DATA.guideToggle?`<label>Labels <select data-c="wiring"><option value="silk" ${S.wiring==='silk'?'selected':''}>board silk</option><option value="guide" ${S.wiring==='guide'?'selected':''}>2012 guide</option></select></label>`:''}
     <label>Source <input type="range" data-c="gen" min="-20" max="24" value="${S.gen}" style="width:90px"> ${S.gen>=0?'+':''}${S.gen} dBu</label>
     ${I().ports.some(p=>p.kind==='loop')?`<label>Loop out to <select data-c="loop">${['none','bridge','chain4','600'].map(v=>`<option value="${v}" ${S.loop===v?'selected':''}>${{none:'nothing',bridge:'1 bridging input (10 k)',chain4:'4 bridging inputs',600:'600 Ω termination'}[v]}</option>`).join('')}</select></label>`:''}
@@ -1107,7 +1132,13 @@ function viewFind(m){
   m.innerHTML=card('Findings — what the '+esc(DATA.product)+' files show', `<ol>${DATA.findings.concat(common).map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}</ol>`)+card('Sources used', `<ul class="small">${DATA.sources.map(s=>`<li class="mono">${esc(s)}</li>`).join('')}</ul>`);
 }
 
+DATA.findings.unshift(`<b>Artwork 2026|59: the rear panel now comes from ${SIM.src(ART.src,'TB8201A&AP.cdr')} (2006-06-23).</b> Its “TB8201A SCREW TERMINAL” panel is converted to SVG and every screw is placed on its terminal in the art; the 2005 Gerber render stays on the View toggle. The art agrees with the copper: INA (+, −, G) top right, two 9-way strips OUT+ / OUT− numbered 1 2 3 4 G 4 3 2 1, INB bottom right. It labels only numbers, not the A/B output names, and its G is the board's SH. The same file is stored twice, in the TB8201A folder and in TB8201A - #PCB.`);
 SIM.register({
+  footnotes:[
+  {text:'TB8201A&AP.cdr is stored twice: in the TB8201A folder and again in TB8201A - #PCB.', src:'#MF8200 #SERIES/TB8201A - #Engineering #MF82 #TERMINATION/TB8201A - #PCB/TB8201A&AP.cdr'},
+  {text:'On the TB8201A art the output strips are numbered 1 2 3 4 G 4 3 2 1 with no A/B names; which half is A comes only from the netlist.', src:'#MF8200 #SERIES/TB8201A - #Engineering #MF82 #TERMINATION/TB8201A&AP.cdr'},
+  {text:'The TB8201A art marks the third input terminal “G”; the board silk and the TB8201AP art call the same position SH.', src:'#MF8200 #SERIES/TB8201A - #Engineering #MF82 #TERMINATION/TB8201A&AP.cdr'},
+  {text:'TB8201A&AP.cdr puts the pluggable TB8201AP and the fixed TB8201A side by side on one sheet, as the 2005 Gerbers put both boards on one panel.', src:'#MF8200 #SERIES/TB8201A - #Engineering #MF82 #TERMINATION/TB8201A&AP.cdr'} ],
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
   summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'0.1 ms',period:()=>1e-4},{label:'1 ms (1 tone cycle)',period:()=>0.001},{label:'10 ms',period:()=>0.01},{label:'100 ms',period:()=>0.1}],

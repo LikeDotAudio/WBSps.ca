@@ -390,27 +390,38 @@ function frontSVG(t){
   return s;
 }
 // Rear module: the D8205/75 guide art (BNC3 for MF82/10, BNC1 for MF82/12). BNC centres measured on the cut art.
-const BNC3 = [['REF',205,108,'in1'],['LOOP',294,108,'loop'],['1-1',205,216,'o1'],['1-2',294,216,'o1'],['2-1',205,321,'o2'],['2-2',294,321,'o2'],['AUDIO',205,428,'in2'],['2-3',294,428,'o3'],['2-4',205,528,'o3'],['2-5',294,528,'o3']];
-const BNC1 = [['REF',235,110,'in1'],['1-1',302,175,'o1'],['1-2',235,240,'o1'],['2-1',302,308,'o2'],['2-2',235,375,'o2'],['AUDIO',302,442,'in2'],['2-3',235,512,'o3']];
+/* BNC centres in CorelDRAW points on “D8205 - rear module options.cdr” (2012-01-16); assets/d8200-rear-bnc1/3.svg are its
+   BNC1 and BNC3 modules converted with Inkscape (sheet captions removed). The earlier PNGs (d8200-rear-d8205-*.png) were cut
+   from the same sheet's PDF render and stay on the “old PNG” toggle. */
+const BNC3 = [['REF',567.7,102.2,'in1'],['LOOP',600.5,102.2,'loop'],['1-1',567.7,138.8,'o1'],['1-2',600.5,138.8,'o1'],['2-1',567.7,175.5,'o2'],['2-2',600.5,175.5,'o2'],['AUDIO',567.7,212.9,'in2'],['2-3',600.5,212.9,'o3'],['2-4',567.7,250.3,'o3'],['2-5',600.5,250.3,'o3']];
+const BNC1 = [['REF',388.9,103.6,'in1'],['1-1',411.8,127.7,'o1'],['1-2',388.9,152.0,'o1'],['2-1',411.8,176.2,'o2'],['2-2',388.8,200.6,'o2'],['AUDIO',412.2,225.5,'in2'],['2-3',388.8,249.9,'o3']];
+const BNC_OLD = { BNC3:[['REF',205,108],['LOOP',294,108],['1-1',205,216],['1-2',294,216],['2-1',205,321],['2-2',294,321],['AUDIO',205,428],['2-3',294,428],['2-4',205,528],['2-5',294,528]], BNC1:[['REF',235,110],['1-1',302,175],['1-2',235,240],['2-1',302,308],['2-2',235,375],['AUDIO',302,442],['2-3',235,512]] };
+const REAR_VB = { BNC1:[346,64,114,210], BNC3:[524,72,130,202] };
+const D8205_RO = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8205 - rear module options.cdr';
 function rearSVG(t){
   const b3=D.frame==='MF82/10', list=b3?BNC3:BNC1, W=b3?462:474, H=598, os=outState(t), p=passAt(t);
   const o3 = P().route>>6; // D23..D22 of Altera byte 2: 00 #1, 01 #2, 10 CNT1 frame, 11 CNT2 frame (GDF note)
-  let s=`<svg viewBox="0 0 ${W} ${H+30}" style="width:100%;max-width:340px">${glow}<rect x="0" y="0" width="${W}" height="${H}" rx="6" fill="#e9e7e0"/><image href="siumulation-plugins/assets/d8200-rear-d8205-${b3?'bnc3':'bnc1'}-black.png" x="0" y="0" width="${W}" height="${H}"/>`;
-  list.forEach(([n,x,y,k])=>{
+  const old=D.rearOld, key=b3?'BNC3':'BNC1', vb=REAR_VB[key], R=old?38:14.5, SW=old?5:2;
+  let s= old? `<svg viewBox="0 0 ${W} ${H+30}" style="width:100%;max-width:340px">${glow}<rect x="0" y="0" width="${W}" height="${H}" rx="6" fill="#e9e7e0"/><image href="siumulation-plugins/assets/d8200-rear-d8205-${b3?'bnc3':'bnc1'}-black.png" x="0" y="0" width="${W}" height="${H}"/>`
+    : `<svg viewBox="${vb[0]} ${vb[1]} ${vb[2]} ${vb[3]+12}" style="width:100%;max-width:340px">${glow}<rect x="${vb[0]}" y="${vb[1]}" width="${vb[2]}" height="${vb[3]}" rx="2" fill="#fff"/><image href="siumulation-plugins/assets/d8200-rear-${b3?'bnc3':'bnc1'}.svg" x="${vb[0]}" y="${vb[1]}" width="${vb[2]}" height="${vb[3]}"/>`;
+  list.map((b,i)=>old?[b[0],BNC_OLD[key][i][1],BNC_OLD[key][i][2],b[3]]:b).forEach(([n,x,y,k])=>{
     let col='transparent', tip='', click='';
     if (k==='in1'||k==='in2'){ const on=presentAt(k,t); col=on?'#2fbf5f':'#c0392b'; tip=`${k==='in1'?'Input 1 / AES REF':'Input 2 / AES AUDIO'} — ${on?'connected, '+D[k].fs/1000+' kHz':'unplugged'}. Click to plug/unplug.`; click=`data-in="${k}"`; }
     else if (k==='o1'){ col=os.tx1?'#2fbf5f':'#888'; tip=`DIGITAL OUT ${n}: OUTPUT1 (U4-97) → U8:A → ${n==='1-1'?'T4':'T5'} — CS8420 #1 ${os.tx1?'transmitting':'TXOFF'}`; }
     else if (k==='o2'){ col=os.tx2?'#2fbf5f':'#888'; tip=`DIGITAL OUT ${n}: OUTPUT2 (U4-96) → U8:B → ${n==='2-1'?'T6':'T7'} — CS8420 #2 ${os.tx2?'transmitting':'TXOFF'}`; }
     else if (k==='o3'){ col=o3>=2?'#e3a35a':'#5aa9e6'; tip=`DIGITAL OUT ${n}: OUTPUT3 (U4-55, net WORD) → U12 → T3/T9/T10. AUD_OUTPUT_ROUTE ${hex(P().route)} → ${['CS8420 #1','CS8420 #2','frame from CNT1 (word clock)','frame from CNT2'][o3]} — see Findings`; }
     else { col='#999'; tip='INPUT LOOP (passive)'; }
-    s+=`<g ${click} style="cursor:${click?'pointer':'default'}"><title>${tip}</title><circle cx="${x}" cy="${y}" r="38" fill="none" stroke="${col}" stroke-width="5" opacity=".85" ${col.startsWith('#2f')?'filter="url(#d82g)"':''}/></g>`; });
-  s+=`<text x="4" y="${H+18}" font-size="12" fill="var(--ink2)">D8205/75 ${b3?'BNC3':'BNC1'} — from “D8205 - rear module options.pdf”</text></svg>`;
+    s+=`<g ${click} style="cursor:${click?'pointer':'default'}"><title>${tip}</title><circle cx="${x}" cy="${y}" r="${R}" fill="${click?'rgba(0,0,0,0)':'none'}" stroke="${col}" stroke-width="${SW}" opacity=".85" ${col.startsWith('#2f')?'filter="url(#d82g)"':''}/></g>`; });
+  s+= old? `<text x="4" y="${H+18}" font-size="12" fill="var(--ink2)">D8205/75 ${b3?'BNC3':'BNC1'} — old PNG cut from “D8205 - rear module options.pdf”</text></svg>`
+    : `<text x="${vb[0]+2}" y="${vb[1]+vb[3]+9}" font-size="5.5" fill="var(--ink2)">D8205/75 ${key}</text></svg>`;
+  s+=`<div class="small muted">${old?'Old PNG silk.':`CorelDRAW artwork: ${key} on ${SIM.src(D8205_RO,'D8205 - rear module options.cdr')} (2012-01-16).`} <label><input type="checkbox" class="d82old" ${old?'checked':''}> old PNG</label></div>`;
   return s;
 }
 function bindPanel(root){
   root.querySelectorAll('.d82j').forEach(g=>g.onclick=()=>A.jumper(+g.dataset.n));
   root.querySelectorAll('.d82pot').forEach(g=>g.onclick=e=>{ const r=g.getBoundingClientRect(), i=+g.dataset.i, up=e.clientX>r.left+r.width/2; A.pot(i, Math.max(0,Math.min(255,D.rv[i]+(up?16:-16)))); });
   root.querySelectorAll('[data-in]').forEach(g=>g.onclick=()=>A.input(g.dataset.in));
+  root.querySelectorAll('.d82old').forEach(c=>c.onchange=()=>{ D.rearOld=c.checked; SIM.refresh(); });
   root.querySelectorAll('.d82h').forEach(g=>g.onclick=()=>{ const a=g.dataset.a; if (a==='h16') A.h16(); else A.term(+a.slice(1)); });
 }
 function controlsHTML(){
@@ -685,6 +696,9 @@ function viewSoft(m){
 function viewNotes(m){
   window.__d8200Active=false;
   const F=[
+    ['Artwork '+SIM.year(2026)+': rear modules now from the CorelDRAW sheet', `The BNC1 and BNC3 panels are now vector art from ${SIM.src(D8205_RO,'D8205 - rear module options.cdr')} (2012-01-16), converted with Inkscape. The PNGs cut earlier from the same sheet's PDF are on the “old PNG” checkbox. Every BNC hotspot was re-placed on the sheet's connector centres. The D8200 folder has no artwork of its own; its rear modules are the D8205 builds'.`],
+    ['The sheet numbers an input among the outputs', 'Both modules carry small silk numbers 1–8 beside the BNCs. On BNC1, “5” is the AES AUDIO INPUT, between DIGITAL OUT 2-1 and 2-3. On BNC3, 5 is again AES AUDIO INPUT and 6 is OUT 2-3. The numbers are connector positions, not output numbers.'],
+    ['One sheet, two builds', `The same page draws the D8205/110 with TB8205P and TB8205P/75 pluggable screw modules (“Unbalanced Reference Input”). Its caption calls the product a “Multifunction AES/EBU Audio Distribution Amplifier”, and BNC3 is marked “*MF8210 Only”.`],
     ['Two “TESTING” lines left in the production loop', '<span class="mono">v1.104/d820xswr.asm</span> and <span class="mono">v105/…/d820xswr.asm</span>, <span class="mono">flush8420reg</span>: <span class="mono">MOVLW 0; ;TESTING</span> overwrites W just before CH1 register 2 and CH2 register 3 are sent. Chip #2 (U5, Output 2) therefore never receives TXOFF or its data-flow bits, and chip #1 always gets HOLD = 00. Output 2 cannot mute — on input loss, mode changes or during boot. v1.104-055 has no such lines. Toggle it in the Simulator.'],
     ['“Added run stop for all modes” is not there', 'The v1.104 header says revision 1.04 “Added run stop for all modes”, and <span class="mono">main</span> calls <span class="mono">REFRESH_RUN_STOP</span>. Every line of <span class="mono">refresh_run_stop</span>, <span class="mono">run_stopa/b</span> and <span class="mono">CH1/2_8420_updt_reg4a/b</span> is commented out; the call falls through to <span class="mono">ch2b_cont: return</span>.'],
     ['The 44.1 kHz option cannot work', '<span class="mono">set_ML6431_44</span> sends the same 11 bytes as <span class="mono">set_ML6431_48</span> (<span class="mono">movlw 0x80 ; 48Kshould be 80 for 48k just testing</span>) in v1.101–v1.105; only v1.103-016/016v1 send 0x81. The SHARC agrees: <span class="mono">f2=24000.0;//f2=22050.0;Sept 6 2005 make both 48k Bugs ??</span>. Yet <span class="mono">chan_status_fs_CH</span> still writes CHAN_STATUS_FS_44K into the channel status when D8206 JMP13 / D8207 JMP5 is set, so the stream would claim 44.1 kHz while running at 48 kHz.'],
@@ -720,6 +734,13 @@ SIM.register({
   folder:'#MF8200 #SERIES/D8200 - #Engineering #MF82', family:'8200 Distribution Series', depth:'Full model',
   summary:'One board — PIC16C73, EPM7128S CPLD, ADSP-21061 SHARC and two CS8420s — that becomes the D8205 mixer/level DA, D8206 tone generator, D8207 SRC or D8208 level DA depending on one #define. The model runs the v1.104 PIC firmware pass by pass: jumpers, lock, clock plans, the SHARC handshake and the delayed output enable.',
   highlights:['Board drawn from the real D8200-2 Gerber silkscreen and copper','Pass-by-pass PIC v1.104 model with 31-pass debounce and 85-pass output enable','16-nibble PIC→SHARC control frame and SHARC gain/route maths from the .dat tables','Switch the build between D8205, D8206, D8207 and D8208','Findings: TESTING lines that stop Output 2 muting, a dead 44.1 kHz option, swapped CH names'],
+  footnotes:[
+    {text:'On the D8205 rear-module sheet, BNC position “5” is the AES AUDIO INPUT on both BNC1 and BNC3: the silk numbers count connectors, not outputs.', src:D8205_RO},
+    {text:'BNC3 is marked “*MF8210 Only”; BNC1 is the MF82/12 module.', src:D8205_RO},
+    {text:'The sheet captions the D8205/75 as a “Multifunction AES/EBU Audio Distribution Amplifier”.', src:D8205_RO},
+    {text:'The same sheet offers a D8205/110 build on TB8205P / TB8205P/75 pluggable screw modules with an “Unbalanced Reference Input”.', src:D8205_RO},
+    {text:'The D8200 folder holds no artwork of its own: its rear panels come from the D8205 rear-module sheet.', src:'#MF8200 #SERIES/D8200 - #Engineering #MF82'},
+  ],
   duration:1,
   stepUnits:[ {label:'1 PIC pass (~1.23 ms)', period:()=>BASE_CYC*TCY}, {label:'1 control frame (16 passes)', period:()=>16*BASE_CYC*TCY}, {label:'1 ms', period:()=>0.001}, {label:'1 AES frame @ 48k', period:()=>1/48000}, {label:'10 ms', period:()=>0.01} ],
   zooms:[[1,'1 s (whole)'],[0.3,'300 ms'],[0.1,'100 ms'],[0.02,'20 ms (16 passes)'],[0.005,'5 ms (4 passes)'],[0.0015,'1.5 ms (1 pass)'],[0.0001,'100 µs (AES frames)']],

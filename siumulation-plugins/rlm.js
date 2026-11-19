@@ -35,6 +35,18 @@ const clamp = (x,a,b) => Math.max(a,Math.min(b,x));
 
 /* ---- panel primitives, in silkscreen pixels (200 dpi, 1 mm = 7.874 px, face 1714 × 321) ---- */
 const PW = 1714, PH = 321;
+/* Artwork 2026|59: rear panels are the CorelDRAW silks as vectors (assets/rlm-rlm24-rear.svg, rlm-rlm12-rear.svg, rlm-rlm2-rear.svg) */
+const RLMA='#RLM #SERIES/XXX - RLM  - #Master #obsolete/RLM - #OBSOLETE #Archive/', RLM2S='#RLM #SERIES/XXX - RLM  - #Master #obsolete/RLM2 - #Mechanical #Obsolete/Silks/';
+const FOOT=[
+ {text:'The 2016 RLM2 rear silk cuts each input as an XLR-size D hole and prints “G − +” beside it, but the photographed RLM2D has a BNC fitted in that D hole: the pin legend is left over from the XLR (110 Ω) version.', src:RLM2S+'Pics/RLM2D Rear.jpg'},
+ {text:'The RLM2 rear silk puts INPUT 2 on the left and INPUT 1 on the right; the photographed unit reads INPUT 1 then INPUT 2 from the left.', src:RLM2S+'RLM2-REAR-SILK(CURVE).cdr'},
+ {text:'On the RLM2 rear a small round hole sits between the IEC inlet and the first screw with no legend, and each input has its own four-pin jumper window labelled BS1 BS0 CAL1 CAL0.', src:RLM2S+'RLM2-REAR-SILK(CURVE).cdr'},
+ {text:'RLM2 rear silks exist in four saves: RLM2-REAR-SILK.cdr and -CURVE.cdr (Feb 2006), -ISS2.cdr and its Backup_of_ (9 May 2006), then the 2016 re-draw in the RLM2 mechanical folder (16–17 May 2016).', src:RLMA+'RLM2/SILK/RLM2-REAR-SILK-ISS2.cdr'},
+ {text:'The RLM12 rear silk is the analog “RLM-12 LOUDNESS METER”: three identical four-input groups, numbered 9–12, 5–8 and 1–4 from left to right as seen from the rear, each with its own ON/OFF switch window and CAL0/CAL1/BS0/BS1/PH1–PH4 jumpers.', src:RLMA+'SILK/RLM12REARcurve.cdr'},
+ {text:'The RLM12 rear reads “90-240 VAC, 50-60 Hz, MAINS FUSE 5A S.B.” while the RLM24 rear reads “90-230 VAC, 1A S.B.” and has two inlets, PS1 and PS2, with the caution “DISCONNECT BOTH AC POWER SOURCES”.', src:RLMA+'SILK/RLM24REARCURVE.cdr'},
+ {text:'The RLM24 rear prints a maker’s block “WARD-BECK SYSTEMS LTD / MADE IN CANADA / RLM-24” with a CE mark, and numbers its 24 AES inputs 1–12 on the top strip and 13–24 on the bottom, with a single “+ − G” key at the left of each strip.', src:RLMA+'SILK/RLM24REARCURVE.cdr'},
+ {text:'Each RLM silk is kept twice, as live text and as curves: RLM12REAR.cdr / RLM12REARcurve.cdr and RLM24REAR.cdr / RLM24REARCURVE.cdr, saved the same day.', src:RLMA+'SILK/RLM24REAR.cdr'},
+];
 function panelSVG(prefix, side, inner, label){
   const layers = side==='front' ? ['front-green','front-white'] : ['rear-white'];
   return `<svg viewBox="0 0 ${PW} ${PH}" role="img" aria-label="${label||''}" style="width:100%;max-width:980px;border-radius:8px;display:block">
@@ -629,9 +641,9 @@ function rearSVG(){
   o+=`<g><title>OUTPUTS 1–4: printed on the silk; the RLM24-2 netlist has no AES transmitter (inferred unused)</title><rect x="1390" y="40" width="192" height="26" rx="3" fill="#20402a" stroke="#0e5d2b" stroke-dasharray="5 3"/></g>`;
   for (let i=0;i<24;i++){ const x=IN_X[i%12], y=i<12?157:280, on=D.in[i].plug;
     o+=`<g class="rlmIn" data-m="${i}" style="cursor:pointer"><title>AES INPUT ${i+1} (+ − G, 110 Ω): ${on?'connected — click to unplug':'unplugged — click to plug in'}</title><rect x="${x-23}" y="${y-26}" width="46" height="52" rx="3" fill="#26a356" stroke="#0e5d2b"/>${[-14,0,14].map(d=>`<rect x="${x+d-5}" y="${y-14}" width="10" height="20" fill="#0e4d25"/>`).join('')}${on?`<rect x="${x-21}" y="${y-24}" width="42" height="16" fill="#2b5f9e"/><rect x="${x-3}" y="${y-40}" width="6" height="16" fill="#555"/>`:''}${i===D.sel?`<rect x="${x-26}" y="${y-29}" width="52" height="58" fill="none" stroke="var(--accent)" stroke-width="3"/>`:''}</g>`; }
-  return layered({w:1800,h:350,bg:'#151617',layers:['rlm-rlm24-rear-white.png'],over:o,label:'RLM24 rear panel (RLM24REARCURVE.cdr)'});
+  return layered({w:1800,h:350,bg:'#151617',layers:['rlm-rlm24-rear.svg'],over:o,label:'RLM24 rear panel (RLM24REARCURVE.cdr)'});
 }
-function rear12SVG(){ return layered({w:1716,h:345,bg:'#151617',layers:['rlm-rlm12-rear-white.png'],label:'RLM-12 LOUDNESS METER rear silk (RLM12REARcurve.cdr)'}); }
+function rear12SVG(){ return layered({w:1716,h:345,bg:'#151617',layers:['rlm-rlm12-rear.svg'],label:'RLM-12 LOUDNESS METER rear silk (RLM12REARcurve.cdr)'}); }
 /* RLM2: front drawn from RLM2-M1 (19" × 1.720", four 3.2" × 1.0" windows) and RLM2D Front.jpg; rear on the RLM2-REAR-SILK(CURVE).pdf artwork */
 function rlm2FrontSVG(t){
   let s=`<svg viewBox="0 0 1900 172" style="width:100%;display:block;border-radius:6px"><rect width="1900" height="172" fill="#141516"/>`;
@@ -648,7 +660,7 @@ function rlm2RearSVG(){
   let o=`<g class="rlmPw" style="cursor:pointer"><title>IEC inlet — click to switch the unit ${D.power?'off':'on'}</title>${iec(97,54,346,270)}</g>`;
   [[1500,1],[2900,0]].forEach(([x,m])=>{ const on=D.in[m].plug; o+=`<g class="rlmIn" data-m="${m}" style="cursor:pointer"><title>INPUT ${m+1} per the 2016 silk (BNC, 75 Ω AES) — ${on?'click to unplug':'click to plug in'}</title>${bnc(x,237,on,'','',52)}</g>`; });
   [1085,2485].forEach(x=>{ o+=`<rect x="${x+8}" y="76" width="86" height="42" fill="#0e4d25" stroke="#26a356"/>`; for(let p=0;p<4;p++) o+=`<circle cx="${x+22+p*20}" cy="90" r="4" fill="#d4af37"/><circle cx="${x+22+p*20}" cy="106" r="4" fill="#d4af37"/>`; });
-  return layered({w:3340,h:324,bg:'#151617',layers:['rlm-rlm2-rear-white.png'],over:o,label:'RLM2 rear (RLM2-REAR-SILK)'});
+  return layered({w:3340,h:324,bg:'#151617',layers:['rlm-rlm2-rear.svg'],over:o,label:'RLM2 rear (RLM2-REAR-SILK)'});
 }
 function bindRear(r){
   r.querySelectorAll('.rlmPs').forEach(g=>g.onclick=()=>A.ps(+g.dataset.k));
@@ -747,7 +759,7 @@ function viewSim(m){ window[ACT]=true;
   m.innerHTML = `${card('RLM24 front — bronze lens RLM24-1M3, 48 bars of 42 LEDs (rlm24-1iss2.pnp), 24 lit pushbuttons. Click a bar to select it, a button to acknowledge.',`<div id="rlmFront">${frontSVG('rf')}</div><p class="small muted" id="rlmLeg"></p>`)}
     <div class="grid2"><div>${card('Selected meter: what the SHARC computes',`<div id="rlmRead"></div>`)}${card('Controls',`<div id="rlmCtl"></div>`)}</div>
       <div>${card('Close-up (scale from rlm24_vu_data.c)',`<div id="rlmClose"></div>`)}</div></div>
-    ${card('Rear',`<div class="small" style="margin-bottom:6px">${[['rlm24','RLM24 (RLM24REARCURVE.cdr)'],['rlm12','RLM-12 analog silk (RLM12REARcurve.cdr)'],['rlm2','RLM2 1 RU (front from RLM2-M1, rear silk)']].map(([k,l])=>`<button data-rear="${k}" class="${D.rear===k?'on':''}">${l}</button>`).join(' ')}</div><div id="rlmRear"></div><p class="small muted" id="rlmRearNote"></p>`)}
+    ${card('Rear',`<div class="small" style="margin-bottom:6px">${[['rlm24','RLM24 (RLM24REARCURVE.cdr)'],['rlm12','RLM-12 analog silk (RLM12REARcurve.cdr)'],['rlm2','RLM2 1 RU (front from RLM2-M1, rear silk)']].map(([k,l])=>`<button data-rear="${k}" class="${D.rear===k?'on':''}">${l}</button>`).join(' ')}</div><div id="rlmRear"></div><p class="small muted" id="rlmRearNote"></p><div class="small muted">Artwork: ${SIM.src(RLMA+'SILK/RLM24REARCURVE.cdr','RLM24REARCURVE.cdr')} · ${SIM.src(RLMA+'SILK/RLM12REARcurve.cdr','RLM12REARcurve.cdr')} · ${SIM.src(RLM2S+'RLM2-REAR-SILK(CURVE).cdr','RLM2-REAR-SILK(CURVE).cdr')} — CorelDRAW vectors (white ink); faint lines = cut-outs.</div>`)}
     <div class="grid2">${card('Code path of the last action',`<div id="rlmTrace" class="log"></div>`)}${card('Action log',`<div id="rlmLog" class="log"></div>`)}</div>
     ${card('Timeline — the selected meter through one second (zoom to 2 ms to see the mux phases)',`<canvas id="rlmTl"></canvas>`)}`;
   const fr=m.querySelector('#rlmFront'); bindFront(fr,'rf');
@@ -956,7 +968,7 @@ function viewSoft(m){ window[ACT]=true;
 /* ---------------- findings ---------------- */
 function viewNotes(m){ window[ACT]=false;
   const f=(h,b)=>`<li><b>${h}</b> ${b}</li>`;
-  m.innerHTML = card('What the RLM SHARC code is up to — findings',`<ol>
+  m.innerHTML = card('Artwork 2026|59',`<ol><li><b>Artwork 2026|59: rear panels now from</b> ${SIM.src(RLMA+'SILK/RLM24REARCURVE.cdr','RLM24REARCURVE.cdr')} (24 Feb 2005), ${SIM.src(RLMA+'SILK/RLM12REARcurve.cdr','RLM12REARcurve.cdr')} (30 Mar 2004) and ${SIM.src(RLM2S+'RLM2-REAR-SILK(CURVE).cdr','RLM2-REAR-SILK(CURVE).cdr')} (17 May 2016) as vectors, replacing the PNG cuts. The archive has no CorelDRAW front panel for any RLM (the RLM24 front is a lens, the RLM2 front is drawn from RLM2-M1).</li>${FOOT.map(f=>`<li>${f.text} <span class="muted small">— ${SIM.src(f.src)}</span></li>`).join('')}</ol>`) + card('What the RLM SHARC code is up to — findings',`<ol>
    ${f('Settings lose their lowest bit.','<span class="mono">get_parms.c</span> clocks 31 bits (<span class="mono">for(k=0;k&lt;31;k++)</span>) out of the 32-bit <span class="mono">shift_in_out32</span> word, reading before each clock and shifting after, so bits 31…1 land in place and bit 0 is always 0. The delay byte is bits 0–7: an odd silence delay arrives one second short (15 → 14 s), and 1 s arrives as 0, which the SSensorCalc patch treats as “never alarm”. PSU1’s status (word 48 bit 0) and input 1’s lock bit never arrive either. The debug compare <span class="mono">if (atmel_data_in != 0x0100280a)</span> (channel 0, threshold 40, delay 10 — before the +3 was added) has bit 0 clear, so it never noticed.')}
    ${f('The alarm output is never raised.','<span class="mono">SS_tallies.c</span>: <span class="mono">if (*(unsigned long*)DAI_PIN_STAT&amp;0x80000==0) SRU(HIGH,DAI_PB20_I);</span> — <span class="mono">==</span> binds tighter than <span class="mono">&amp;</span>, so the test is <span class="mono">x &amp; 0</span> and never true. The matching LOW branch tests bit 0 (DAI_P1, the frame sync) instead of bit 19. DAI_PB20 stays LOW in every build.')}
    ${f('The “last” build moves bar and peak in opposite directions.','In <span class="mono">sharc/last/v100/backgnd.c</span> refresh() indexes the VU tables with <span class="mono">vu_results−6−cal</span> but the peak tables with <span class="mono">pk_results+cal</span>; v100, nab2005 and rlm12d use <span class="mono">+cal</span> for both. At −18…−14 dBFS reference the bar reads 2…6 dB high while the peak reads 2…6 dB low, and near full scale the VU index goes negative (reads before <span class="mono">rlm24_vu_data1</span>). Try it: build “last”, SW5 OFF.')}
@@ -988,7 +1000,7 @@ function viewNotes(m){ window[ACT]=false;
     <li>…/RLM24-2/PCB/rlm24-2ISS2.net · …/RLM24-1/PCB/rlm24-1iss2.net, .pnp, .bom · …/MANUAL/RLM12 RLM24 Manual.pdf · …/RLMCTL/554164 COMMUNICATION PROTOCOL.doc</li>
     <li>RLM24 - #Mechanical #Obsolete/Not in ERP/RLM24-1M3 ISS 1 (DISPLAY LENS).pdf, RLM24-1M4 ISS2 (FRONT PANEL).pdf · RLM24-1M5 ISS 1 ( L&amp;R SIDE PLATE).pdf · Reference/RLM24-FRONT ASSEMBLY.pdf</li>
     <li>RLM2 - #Mechanical #Obsolete/RLM2-M1 ISS 1 (FRONT PANEL).pdf, RLM2-M2 ISS.2 (REAR PANEL).pdf, Silks/RLM2-REAR-SILK(CURVE).pdf, Silks/Pics/RLM2D Front.jpg, RLM2D Rear.jpg</li>
-    <li>SILK/RLM24REARCURVE.cdr, RLM12REARcurve.cdr → assets/rlm-rlm24-rear-white.png, rlm-rlm12-rear-white.png · RLM2-REAR-SILK(CURVE).pdf → assets/rlm-rlm2-rear-white.png</li>
+    <li>SILK/RLM24REARCURVE.cdr, RLM12REARcurve.cdr → assets/rlm-rlm24-rear.svg, rlm-rlm12-rear.svg · RLM2-REAR-SILK(CURVE).cdr → assets/rlm-rlm2-rear.svg (Artwork 2026|59, CorelDRAW vectors; the PNG cuts are no longer used)</li>
     <li>Related plugins: rlm24-2.js (ATmega/hardware), slm.js and ams16.js (later users of this SHARC code)</li></ul>`);
 }
 /* keys on the Simulator / Tutorial / Software tabs: 1–9 select a meter, U unplug, B press its button, K skip 10 s */
@@ -996,7 +1008,7 @@ bindKeys(ACT, ()=>{ const k={ u:()=>A.plug(D.sel), b:()=>A.press(D.sel), k:()=>A
 
 SIM.register({
   id:'rlm', product:'RLM', year:2005, family:'Obsolete products', folder:'#RLM #SERIES/XXX - RLM  - #Master #obsolete',
-  name:'RLM · RLM12/RLM24 SHARC rack meters and RLM2 ('+Y(2005)+')', duration:1, depth:'Full model',
+  name:'RLM · RLM12/RLM24 SHARC rack meters and RLM2 ('+Y(2005)+')', duration:1, depth:'Full model', footnotes:FOOT,
   summary:'The RLM24 shows 24 AES stereo inputs on 48 LED bars, each with VU and peak, and flashes a pushbutton when a pair goes silent. This model runs the ADSP-21262 code (sample.c, vumeter.asm, SSensor.asm, backgnd.c) sample by sample for all 48 channels, drives the real 160-bit display frame, and takes its settings over the 31-bit ATmega word link. The front is drawn to scale from the lens drawing and the LED pick-and-place; the rears use the real silks.',
   highlights:['48-channel VU/PPM/silence maths from vumeter.asm and SSensor.asm, per sample','1:8 multiplexed display: rlm24_vu_data tables, 160-bit shift, push-button flash and acknowledge','Four DSP builds: v100, last (cal sign bug), nab2005 demo, rlm12d','ATmega words through get_parms(): bit 0 is lost (odd delays, 1 s = off)','What-ifs for the unused PEAK mode, old time constants and the bug fixes','RLM24, analog RLM-12 and RLM2 rear panels from the real silks'],
   stepUnits:[{label:'1 core tick (mux phase)',period:()=>TICK()},{label:'1 sample (48 kHz)',period:()=>1/FS},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01}],

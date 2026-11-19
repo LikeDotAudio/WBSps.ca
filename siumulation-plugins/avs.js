@@ -29,6 +29,15 @@ const SIM = window.SIM;
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 function card(t,b,cls){ return `<div class="card ${cls||''}"><h2>${t}</h2>${b}</div>`; }
 const ASSET = 'siumulation-plugins/assets/';
+const AVSA='#AV #SERIES/XXX - AVS - #OBSOLETE #Archive/';
+/* Artwork 2026|59 footnotes: small facts the CorelDRAW files in this folder show */
+const FOOT=[
+ {text:'RAV24SLK.CDR (22 Feb 1999) puts every legend on its hole: AUDIO VIDEO A/V, SWR OUT 1 2 and SOURCE SELECT 1–12 sit under the cross-hairs at 2.775 … 14.325 in. The 2015 re-draw (RAV24-FRONT&amp;REAR-SILK) moved the legends 0.88 in to the left, and the simulator had copied that origin into the AVS24-2 switch positions until 2026|59.', src:AVSA+'RAV24/RAV24SLK.CDR'},
+ {text:'The 1999 rear plate matches the 1999 rear drawing AVS24RER.BAK: two BNC rows 0.69 in apart (the later ISS 5 rear spreads them to 0.75 in), VIDEO OUTPUTS 1 2 on the first two columns, AUDIO INPUTS 1–12 and AUDIO OUTPUTS 1 2 centred on their terminal blocks, and CONTROL over the D-sub.', src:AVSA+'RAV24/RAV24SLK.CDR'},
+ {text:'The AVS folder keeps four generations of the RAV24 silk: RAV24SLK.CDR and the dark line drawing RAV24LIN.CDR (22 Feb 1999), Rav24slkWORK.cdr and Rav24slkWORKCURVE.cdr (15 Nov 2001, rear only), plus the audio-only RA24SILK.CDR (17 Dec 1998), whose front has no MODE group and its own cross-hair spacing.', src:AVSA+'RAV24/RAV24LIN.CDR'},
+ {text:'RAV24-AVS.cdr and RAV24-AVS FUNCTIONAL DIAGRAM.cdr in the folder root are the same 63,558-byte drawing saved twice on 15 Sep 2003 (identical MD5).', src:AVSA+'RAV24-AVS FUNCTIONAL DIAGRAM.cdr'},
+ {text:'Ra24manu.cdr has a Backup_of_Ra24manu.cdr from 21 Dec 1998, while the main file is dated 19 Jul 2001.', src:AVSA+'RA24/Backup_of_Ra24manu.cdr'},
+];
 const dbu2v = d => 0.7746*Math.pow(10,d/20);           // dBu -> V rms
 const v2dbu = v => v>1e-9 ? 20*Math.log10(v/0.7746) : -200;
 const sgn = x => (x>=0?'+':'') ;
@@ -350,23 +359,25 @@ const A={
 };
 /* ---------------- panels ---------------- */
 // Front: 17.1 × 1.65 in at 200 px/in. Button x from AVS24-2.PCB (SW1 x = 4025 mil … SW17 = 15575 mil, 700 mil pitch, 1050 mil gap after SW5),
-// panel origin at PCB x = 2135 mil (checked against the RAV24 silk, where MODE AUDIO sits at 1.895 in).
-const FW_=3420, FH_=330, SWX=[4025,4725,5425,6125,6825,7875,8575,9275,9975,10675,11375,12075,12775,13475,14175,14875,15575].map(x=>(x-2135)/5);
+// panel origin at PCB x = 1250 mil: SW1 sits on the first .340 SQ. hole of RAV24-FRONT ISS 2 (2.775 in) and on the 1999 silk's cross-hair.
+// (Before Artwork 2026|59 the origin was 2135 mil, taken from the 2015 silk's AUDIO legend at 1.895 in — that legend is printed 0.88 in left of its hole.)
+const FW_=3420, FH_=330, SWX=[4025,4725,5425,6125,6825,7875,8575,9275,9975,10675,11375,12075,12775,13475,14175,14875,15575].map(x=>(x-1250)/5);
+const ART=()=>D.build!=='RA24';   // Artwork 2026|59: RAV24SLK.CDR (1999) panels for the RAV24 build; the RA24 keeps the drawn panel
 function frontSVG(t){ const C=cpldAt(t); const lit=k=>D.power && C.swL[k-1]===0;
   let s=`<svg viewBox="0 0 ${FW_} ${FH_}" style="width:100%;max-width:1100px;display:block;border-radius:8px" role="img" aria-label="AVS24 front panel"><defs><filter id="glowfront" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
    <rect width="${FW_}" height="${FH_}" rx="8" fill="#1a1c1f"/><rect x="0" y="0" width="${FW_}" height="${FH_}" rx="8" fill="none" stroke="#3a3d42" stroke-width="3"/>
-   <text x="60" y="60" font-size="30" font-weight="700" fill="#e9e6dc">WARD-BECK SYSTEMS</text><text x="60" y="96" font-size="22" fill="#a9b0b5">AVS24 · 12 × 2 AUDIO/VIDEO SWITCHER</text>
+   ${ART()?`<image href="${ASSET}avs-rav24-front-1999.svg" width="${FW_}" height="${FH_}"/>`:`<text x="60" y="60" font-size="30" font-weight="700" fill="#e9e6dc">WARD-BECK SYSTEMS</text><text x="60" y="96" font-size="22" fill="#a9b0b5">AVS24 · 12 × 2 AUDIO/VIDEO SWITCHER</text>
    <text x="${(SWX[0]+SWX[2])/2}" y="48" text-anchor="middle" font-size="22" fill="#e9e6dc">MODE</text><text x="${(SWX[3]+SWX[4])/2}" y="48" text-anchor="middle" font-size="22" fill="#e9e6dc">SWR OUT</text>
-   <text x="${(SWX[5]+SWX[16])/2}" y="48" text-anchor="middle" font-size="22" fill="#e9e6dc">SOURCE SELECT</text>`;
+   <text x="${(SWX[5]+SWX[16])/2}" y="48" text-anchor="middle" font-size="22" fill="#e9e6dc">SOURCE SELECT</text>`}`;
   SWX.forEach((x,i)=>{ const k=i+1, col=k<=3?'#ffd34a':k<=5?'#ff5a3c':'#43e06a', cap=k===3?'#1b1c1e':k<=2?'#8d9196':'#3a3d42';
-    s+=pbtn(x,150,74,lit(k)?1:0,col,'fb" data-k="'+k,`SW${k} ${BTN[k-1]} — lamp = CPLD output sw${k} (${C.swL[k-1]?'high: off':'low: lit'})`,'',cap)+`<text x="${x}" y="226" text-anchor="middle" font-size="20" fill="#e9e6dc">${k<=3?BTN[k-1]:k<=5?(k-3):k-5}</text>`; });
-  s+=`<g class="pw" style="cursor:pointer"><title>Power (rear switch on the main board, PWR SW) — click</title><circle cx="3290" cy="150" r="22" fill="${D.power?'#9dff6a':'#2c332c'}" ${D.power?'filter="url(#glowfront)"':''}/><text x="3290" y="226" text-anchor="middle" font-size="18" fill="#e9e6dc">POWER</text></g>`;
+    s+=pbtn(x,ART()?112:150,74,lit(k)?1:0,col,'fb" data-k="'+k,`SW${k} ${BTN[k-1]} — lamp = CPLD output sw${k} (${C.swL[k-1]?'high: off':'low: lit'})`,'',cap)+(ART()?'':`<text x="${x}" y="226" text-anchor="middle" font-size="20" fill="#e9e6dc">${k<=3?BTN[k-1]:k<=5?(k-3):k-5}</text>`); });
+  s+=`<g class="pw" style="cursor:pointer"><title>Power (rear switch on the main board, PWR SW) — click</title><circle cx="3290" cy="${ART()?218:150}" r="18" fill="${D.power?'#9dff6a':'#2c332c'}" ${D.power?'filter="url(#glowfront)"':''}/><text x="3290" y="${ART()?260:226}" text-anchor="middle" font-size="18" fill="#e9e6dc">POWER</text></g>`;
   [[40,40],[40,290],[3380,40],[3380,290]].forEach(([x,y])=>s+=`<circle cx="${x}" cy="${y}" r="11" fill="#6d7175" stroke="#33363a" stroke-width="2"/>`);
   return s+'</svg>'; }
 // Rear: drawn to scale from AVS24RER.BAK (Jan 1999): 17.1 × 1.648 in, 16 BNC at 2.650–7.725 in, two 6.325 in terminal-block slots from 8.5 in,
 // two output blocks at 15.525–16.6 in, D-sub punch 0.465 × 0.768 in at 1.223 in, two Ø.450 × .500 double-D holes at 0.55 in.
 function rearSVG(t){ const d=decodeX(Xat(t)), P=x=>x*200;
-  let s=`<svg viewBox="0 0 ${FW_} ${FH_}" style="width:100%;max-width:1100px;display:block;border-radius:8px" role="img" aria-label="AVS24 rear panel"><rect width="${FW_}" height="${FH_}" rx="6" fill="#1a1c1f" stroke="#3a3d42" stroke-width="3"/>`;
+  let s=`<svg viewBox="0 0 ${FW_} ${FH_}" style="width:100%;max-width:1100px;display:block;border-radius:8px" role="img" aria-label="AVS24 rear panel"><rect width="${FW_}" height="${FH_}" rx="6" fill="#1a1c1f" stroke="#3a3d42" stroke-width="3"/>${ART()?`<image href="${ASSET}avs-rav24-rear-1999.svg" width="${FW_}" height="${FH_}"/>`:''}`;
   [96,234].forEach((y,i)=>s+=`<g><title>Ø.450 × .500 double-D hole (AVS24RER.BAK) — power entry / fuse (inferred)</title><path d="M${P(.55)-45} ${y-50}h90v100h-90z" fill="#0b0c0d" stroke="#555"/><circle cx="${P(.55)}" cy="${y}" r="30" fill="#2a2d31"/></g>`);
   s+=`<g class="db9"><title>D-sub punch 0.465 × 0.768 in, screws 0.984 in apart: the DB9 serial port J3A (0xCF frames from the remote panel; RS-422 via DS75176)</title><rect x="${P(1.223)}" y="${P(.89)}" width="${P(.768)}" height="${P(.465)}" rx="12" fill="#9a9da1"/><rect x="${P(1.29)}" y="${P(.95)}" width="${P(.634)}" height="${P(.345)}" rx="10" fill="#111"/>${[1.115,2.099].map(x=>`<circle cx="${P(x)}" cy="${P(1.123)}" r="12" fill="#bbb"/>`).join('')}<text x="${P(1.607)}" y="${P(.82)}" text-anchor="middle" font-size="16" fill="#ddd">SERIAL</text></g>`;
   const BX=[2.65,3.375,4.1,4.825,5.55,6.275,7.0,7.725];
@@ -490,7 +501,7 @@ function cutSummary(){ const tx=D.tx; if(!tx||tx.kind==='led') return '<span cla
   const s=S(), f=Math.floor(tx.tCut/s.field), ln=Math.floor((tx.tCut-f*s.field)/s.H)+1;
   return `${tx.vid?'Video':'Audio'} cut at <b>${SIM.fmtT(tx.tCut)}</b> — ${tx.viaVS?`on the VSYNCH edge, field ${f}, line ${ln} (vertical interval = lines 1–${s.vbi}) ✓`:tx.vid?`<b style="color:var(--bad)">by FORCE, field ${f} line ${ln} (picture area: visible glitch)</b>`:'by FORCE (audio only, no ARM)'} · ${SIM.fmtDur(tx.tCut-(D.log[0]?D.log[0].t:0))} after the action <button id="jc">Jump to the cut</button>`; }
 function viewSim(m){ window.__avsActive=true;
-  m.innerHTML=`<div class="card"><h2>AVS24 — front panel (drawn to scale from the switch positions in AVS24-2.PCB) · lamps are the CPLD's sw1..sw17 latch</h2><div id="fp"></div>
+  m.innerHTML=`<div class="card"><h2>AVS24 — front panel (RAV24 build on the 1999 RAV24SLK.CDR silk; switch positions from AVS24-2.PCB) · lamps are the CPLD's sw1..sw17 latch</h2><div id="fp"></div><div class="small muted" style="margin-top:3px">Artwork (RAV24 build): GREEN + WHITE front plates and the rear plate of ${SIM.src(AVSA+'RAV24/RAV24SLK.CDR','RAV24SLK.CDR')} (22 Feb 1999), CorelDRAW vector registered on the cross-hairs both plates carry; the RA24 build keeps the drawn panel.</div>
      <div class="small muted">Keys: A / V / B = AUDIO / VIDEO / A-V, [ ] = SWR OUT 1 / 2, 1…9 0 - = = sources 1…12. Builds: <button id="bR" class="${D.build==='RAV24'?'on':''}">RAV24 (A/V)</button> <button id="bA" class="${D.build==='RA24'?'on':''}">RA24 (audio only)</button> · house video <button id="sN" class="${D.std==='NTSC'?'on':''}">525/59.94</button> <button id="sP" class="${D.std==='PAL'?'on':''}">625/50</button> · sister plugins: <a href="siumulation.html?plugin=rav-24#sim">RAV24</a>, <a href="siumulation.html?plugin=ra24#sim">RA24</a></div></div>
    ${card('Rear panel (AVS24RER.BAK, Jan 1999) — click a video input BNC to unplug it',`<div id="rp"></div>`)}
    <div class="grid2"><div>${card('The board: AVS24-2.PCB (ISSUE.2), redrawn from the Tango-PCB file — click a part',`<div id="bd"></div>`)}</div><div>${card('Part',`<div id="pi"></div>`)}${card('Crosspoints on the board (decoded from X1..X36)',`<div id="xp"></div><div id="cs" class="small" style="margin-top:6px"></div>`)}</div></div>
@@ -637,7 +648,7 @@ function viewSoft(m){ window.__avsActive=false;
   SIM.on('time',draw); }
 /* ---------------- findings ---------------- */
 function viewNotes(m){ window.__avsActive=false;
-  m.innerHTML=card('What the AVS files show — findings',`<ol>
+  m.innerHTML=card('Artwork 2026|59',`<ol><li><b>Artwork 2026|59: front/rear panels now from</b> ${SIM.src(AVSA+'RAV24/RAV24SLK.CDR','RAV24SLK.CDR')} (22 Feb 1999), the RAV24 silk in this folder, as vectors (RAV24 build). Putting it on the board moved the switch origin: SW1 is at 2.775 in, not 1.895 in.</li>${FOOT.map(f=>`<li>${f.text} <span class="muted small">— ${SIM.src(f.src)}</span></li>`).join('')}</ol>`)+card('What the AVS files show — findings',`<ol>
    <li><b>The CPLD is an EPM7128S, not an EPM7256S.</b> The archive README (and the RAV24 plugin) read “EPM7256SQC208-7” from <span class="mono">AVS24.ACF</span>, but that is only the first line of its DEFAULT_DEVICES list. <span class="mono">avs24.rpt</span> fits <b>EPM7128SLC84-6</b> (90/128 cells, 60/64 I/O, “less than 20 % of pins available”), the PCB silk says “EPM7128S” on a PLCC-84 socket, and the older OrCAD sheets (<span class="mono">RAV24ISS3/4.DSN</span>) still name an EPM7096.</li>
    <li><b>Vertical-interval switching is two cells of logic.</b> Node <span class="mono">:76</span> = DFFE(D = ARM, clock = VSYNCH, clear = ARM) and every X output is a latch with gate <span class="mono">FORCE # :76</span>. The PIC raises ARM, the next LM1881 edge opens the latch, and dropping ARM clears it.</li>
    <li><b>FORCE always wins.</b> <span class="mono">switch_output</span> pulses FORCE when it drops ARM, ${VID_NUM-1} passes (≈ ${SIM.fmtDur((VID_NUM-1)*PASS)}) later. With sync present the latch already took the word on the VSYNCH edge, so FORCE re-latches the same bits. With no sync on the reference (or on an RA24, where the LM1881 is not fitted) the cut simply happens at FORCE, anywhere in the picture.</li>
@@ -675,6 +686,7 @@ SIM.register({
   summary:'The AVS24 is the board inside the RAV24 and RA24 routing switchers: a PIC scans 17 buttons and shifts 36-bit words into an Altera EPM7128S that holds the audio-mux, bus-select and video-crosspoint lines. This model runs the CPLD gate by gate from the compiler report and the PIC firmware branch by branch, so every press can be followed down to the LM1881 edge where the video cuts.',
   highlights:['Real AVS24-2 PCB redrawn from the Tango-PCB file, with clickable parts','CPLD simulated from the avs24.rpt equations: shift register, LED latch, X latch, ARM/VSYNCH flip-flop','Vertical-interval cut traced to the field and line, with the FORCE fallback when sync is lost','Audio bus borrowing (RX0/RX1) ported from do_audio1/2','RAV24 and RA24 builds of the same board; 0xCF remote frames'],
   depth:'Full model',
+  footnotes:FOOT,
   stepUnits:[{label:'1 main-loop pass',period:()=>PASS},{label:'1 field',period:()=>S().field},{label:'1 video line',period:()=>S().H},{label:'1 shift bit (10 cycles)',period:()=>10*TCY},{label:'1 instruction cycle',period:()=>TCY},{label:'1 ms',period:()=>0.001}],
   zooms:[[1,'1 s'],[0.1,'100 ms (a press)'],[0.04,'40 ms (ARM window)'],[0.01,'10 ms'],[0.002,'2 ms (one burst)'],[0.0005,'500 µs'],[0.00005,'50 µs (bits)']], defaultZoom:1,
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial',render:viewTutorial},{id:'second',label:'One second',render:viewSecond},

@@ -11,7 +11,7 @@
    - AVM4 - #PCB #ISS1/AVM4-2ISS1.net/.bom/.ECO (video board: U4 PIC16C73, U1/U2 GX414, U3 EL2044, U5 75176, X1 4M9152)
    - AVM WIRING.sch (P-CAD, strings only: "AMS4 ISSUE5 MAIN BOARD", DEMUX-2, AVM4-1, AVM4-2, LCD MONITOR, R54 75R)
    - AVM4.cdr ("AVM4 FUNCTIONAL DIAGRAM") and AVM manual1.cdr (cover drawings) — converted with Inkscape
-   - AVM4 - #SILK/avm4-frontssv1.cdr, AVMBCKSSILK_V1.cdr → assets/avm-front-white.png, avm-rear-white.png
+   - AVM4 - #SILK/avm4-frontssv1.cdr, AVMBCKSSILK_V1.cdr → Inkscape → tools cut (Artwork 2026|59) → assets/avm-front.svg, avm-rear.svg (vector; the older PNG cuts avm-front-white.png, avm-rear-white.png are no longer used)
    - AVM4 - #MECHANICAL/AVM4-M1.dwg (front panel 17.100 × 3.398 in, "PAINT EXTRA FINE TEXTURED WBS BLACK")
    - AVM4MAN.pdf (2-page manual: SETUP MODE, SETP / SAVE, NL, MUTE, specifications)
    - #DEMUX #SERIES/XXX - DEMUX2 - #Master #OBSOLETE/.../#v101/2v101.asm + demux-2.asm (the DEMUX-2 side of the link)
@@ -23,6 +23,16 @@
 const SIM = window.SIM;
 const ID = 'avm', FLAG = '__avmActive';
 const ASSET = 'siumulation-plugins/assets/';
+const AVMS='#AV #SERIES/XXX - AVM - #OBSOLETE #Archive/AVM4 - #Master/AVM4 - #SILK/', AVMM='#AV #SERIES/XXX - AVM - #OBSOLETE #Archive/AVM4 - #Master/';
+/* Artwork 2026|59 footnotes: small facts the CorelDRAW panel files show */
+const FOOT=[
+ {text:'The front sheet holds the whole panel twice. The upper copy has no legends at all but draws the MODE/SOURCE display window and the STEREO and HEADSET areas as solid shapes; the lower copy carries every legend. They are a layout copy and the silk copy, not two ink plates (<span class="tag-inf">inferred</span>: both carry the wordmarks and the stripe).', src:AVMS+'avm4-frontssv1.cdr'},
+ {text:'On the meter scale the 0 dB step is printed “R”, not “0”: the live-text legend between +1 and −1 is the letter R (the same font object as the R over the right-hand column).', src:AVMS+'avm4-frontssv1.cdr'},
+ {text:'Every front legend except WARD-BECK SYSTEMS and SELECT SERIES is live Arial text (scale, L R PK, MODE, SOURCE, PHASE 0° 180°, STEREO LEFT RIGHT, HEADSET, the AVM4 title), so the file depends on the fonts installed when it is opened. As converted, the scale numbers have ragged right edges and overlap the R LED column; the simulator sets them left-aligned just right of the LEDs.', src:AVMS+'avm4-frontssv1.cdr'},
+ {text:'The rear sheet draws every connector body as a solid black disc or block (8 video BNCs, 4 AES BNCs, the terminal strips, the mute block) but no mains inlet at all: only “115 VAC, 1 A.S.B” and the caution text mark where it goes.', src:AVMS+'AVMBCKSSILK_V1.cdr'},
+ {text:'The AES 110 Ω euroblocks are labelled with stacked numbers, “1 over 2” and “3 over 4”, while the AES BNCs read 1 3 on top and 2 4 below.', src:AVMS+'AVMBCKSSILK_V1.cdr'},
+ {text:'Both silk files are stored twice, byte for byte: in AVM4 - #Master/AVM4 - #SILK and in AVM4 &amp; AVM4E - #Mechanical #Obsolete/AVM4/Silks. AVM4.cdr and AVM manual1.cdr are also duplicated in the #MANUAL sub-folder (as AVM4.cdr and AVM #manual.cdr).', src:'#AV #SERIES/XXX - AVM - #OBSOLETE #Archive/AVM4 & AVM4E - #Mechanical #Obsolete/AVM4/Silks/avm4-frontssv1.cdr'},
+];
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const card = (t,b,extra)=>`<div class="card"${extra||''}><h2>${t}</h2>${b}</div>`;
 const hx = (v,n)=> (v>>>0).toString(16).toUpperCase().padStart(n||2,'0');
@@ -525,7 +535,7 @@ function meterLeds(t){
 /* ================================================================
    DRAWING — panels on the real silkscreen (pt units, 17.100 × 3.398 in = 1231.1 × 244.7 pt)
    ================================================================ */
-/* avm-front-white.png / avm-rear-white.png: lower (silk) copy of avm4-frontssv1.cdr and AVMBCKSSILK_V1.cdr between the
+/* Artwork 2026|59: avm-front.svg / avm-rear.svg (vector, 200 units per inch, shown at pt scale) replace avm-front-white.png / avm-rear-white.png: lower (silk) copy of avm4-frontssv1.cdr and AVMBCKSSILK_V1.cdr between the
    crop marks, converted with Inkscape, thin cut-out guides removed, recoloured white (panel: "WBS BLACK", AVM4-M1).
    Every hole position below is the centre of the matching circle in the CDR (converted pt coordinates). */
 const LEDX = [644.33, 658.73], LEDY = k => 44.99 + k*11.52;      // k = 0 (+12) … 15 (−30); PK row at y 21.96
@@ -557,13 +567,13 @@ function frontSVG(t){
   s += spk(46.1) + spk(943.9);
   if (play){ const a = Math.max(0.05, Math.min(0.5, (src.lvl+30)/60)); [0,1].forEach(i=> s+=`<rect x="${i?943.9:46.1}" y="54.1" width="241.2" height="136.8" fill="var(--accent)" opacity="${(a*W.vol[i]*(W.stereo||i===0?1:1)).toFixed(2)}"><title>Speaker ${i?'RIGHT':'LEFT'}: ${src.name}</title></rect>`); }
   s += `<g class="avm-lcd" style="cursor:help"><title>LCD monitor (AVM4-LCD-MODIFIED, fed from AVM4-2 BNC6): GX414 select = ${VID_NAMES[sel]}</title>${lcdSVG(sel, lcdOn, W)}</g>`;
-  s += `<image href="${ASSET}avm-front-white.png" x="0" y="0" width="1231.1" height="244.71"/>`;
+  s += `<image href="${ASSET}avm-front.svg" x="0" y="0" width="1231.1" height="244.71"/>`;
   // meter
   const led = (x,y,on,col,tip)=>`<circle cx="${x}" cy="${y}" r="4.3" fill="#060606"/><circle cx="${x}" cy="${y}" r="3.4" fill="${on?col:'var(--led-off)'}" ${on?'filter="url(#avmGlow)"':''}><title>${tip}</title></circle>`;
   for (let k=0;k<16;k++){ const seg=16-k; const col = LED_RED(k)?'#ff4630':'var(--led-g)';
     s += led(LEDX[0], LEDY(k), lm.L[seg-1], col, `L${seg} ${SILK[seg-1]} (LD${seg-1})`) + led(LEDX[1], LEDY(k), lm.R[seg-1], col, `L${seg} ${SILK[seg-1]} (LD${seg-1})`);
-    s += `<text x="667" y="${LEDY(k)+2.6}" fill="#f2f2f2" font-size="7.4" font-family="Arial,sans-serif">${SILK[seg-1]}</text>`; }
-  s += led(LEDX[0], 21.96, lm.pk[0], 'var(--led-g)', 'L17 PK (LD16 = RB0)') + led(LEDX[1], 21.96, lm.pk[1], 'var(--led-g)', 'L17 PK (LD16 = RB0)') + `<text x="667" y="24.6" fill="#f2f2f2" font-size="7.4" font-family="Arial,sans-serif">PK</text>`;
+  }   // scale legends (+12 … R … −30) come from the CorelDRAW art
+  s += led(LEDX[0], 21.96, lm.pk[0], 'var(--led-g)', 'L17 PK (LD16 = RB0)') + led(LEDX[1], 21.96, lm.pk[1], 'var(--led-g)', 'L17 PK (LD16 = RB0)');
   // display bezel + SLG2016
   s += `<rect x="739.5" y="29.5" width="100.6" height="95.6" rx="7" fill="#0c0d0e" stroke="#3a3d40" stroke-width="1"/>
         <rect x="753.7" y="42.5" width="72" height="29.1" fill="#150605" stroke="#2a2a2a"/>
@@ -600,7 +610,7 @@ function rearSVG(t){
     for (let i=0;i<4;i++) s += blk(858.5+36*i, y, 36, 3, `avm-ain" data-i="${i}`, `ANALOG ${side?'RIGHT':'LEFT'} ${i+1} (+ − G, >20 kΩ) — click to ${W.ana[i].on?'disconnect':'connect'} analog input ${i+1}`, W.ana[i].on);
     for (let j=0;j<2;j++){ const a = side? (j?3:1) : (j?2:0); s += blk(1034.1+34.2*j, y, 34.2, 3, `avm-a110" data-i="${a}`, `AES ${a+1} 110 Ω (+ − G, transformer) — click to ${W.aes[a].c110?'unplug':'plug in'}`, W.aes[a].c110); } }
   s += blk(769.5, 180.3, 30.3, 3, 'avm-mute', `EXT MUTE  I O G — I = mute input (closure to ground on RA4), O = open-collector tally (RA5). Click to ${W.mute?'open':'close'} the mute contact`, W.mute);
-  s += `<image href="${ASSET}avm-rear-white.png" x="0" y="0" width="1231.1" height="244.71"/></svg>`;
+  s += `<image href="${ASSET}avm-rear.svg" x="0" y="0" width="1231.1" height="244.71"/></svg>`;
   return s;
 }
 function bindPanels(root){
@@ -721,7 +731,7 @@ function stateTable(t){
 function viewSim(m){
   window[FLAG] = true;
   m.innerHTML = `
-  ${card('Front panel at the playhead (real silkscreen, avm4-frontssv1.cdr)', `<div id="avmF"></div>${controlsHTML()}
+  ${card('Front panel at the playhead (real silkscreen, avm4-frontssv1.cdr)', `<div id="avmF"></div><div class="small muted" style="margin-top:3px">Artwork: lower (legend) copy of ${SIM.src(AVMS+'avm4-frontssv1.cdr','avm4-frontssv1.cdr')} and ${SIM.src(AVMS+'AVMBCKSSILK_V1.cdr','AVMBCKSSILK_V1.cdr')} (12 Feb 2002), CorelDRAW vector between the crop marks, white ink on WBS black; faint lines = cut-outs and connector bodies.</div>${controlsHTML()}
     <p class="small muted">Click MODE or SOURCE to press them (100 ms). Double-click MODE (or H) to hold it until “SETP” / “SAVE”. Volume: wheel over a knob. Click the headset jack, the STEREO button, and the rear connectors to change what is plugged in. Every action is placed at the playhead and the window is re-simulated pass by pass.</p>`)}
   ${card('Rear panel (AVMBCKSSILK_V1.cdr): click BNCs, terminal blocks, mute and the mains inlet', `<div id="avmR"></div>`)}
   <div class="grid2">
@@ -949,7 +959,7 @@ function viewSoft(m){
 /* ---------------- findings ---------------- */
 function viewNotes(m){
   window[FLAG]=false;
-  m.innerHTML = card('What the AVM4 and its firmware are up to', `<ol>
+  m.innerHTML = card('Artwork 2026|59', `<ol><li><b>Artwork 2026|59: front/rear panels now from</b> ${SIM.src(AVMS+'avm4-frontssv1.cdr','avm4-frontssv1.cdr')} and ${SIM.src(AVMS+'AVMBCKSSILK_V1.cdr','AVMBCKSSILK_V1.cdr')} (12 Feb 2002) as vectors, replacing the PNG cuts.</li>${FOOT.map(f=>`<li>${f.text} <span class="muted small">— ${SIM.src(f.src)}</span></li>`).join('')}</ol>`) + card('What the AVM4 and its firmware are up to', `<ol>
    <li><b>The video board can never answer.</b> AVM4-2 <span class="mono">42v100.asm</span> was cloned from the DEMUX-2 UART code (same <span class="mono">scanuart</span>/<span class="mono">txuart</span>, same “uart0 = (framing bit, a1, a0, hp, term…)” comment, same delayed-reply counters). Its <span class="mono">txuart</span> enables the transmitter with <span class="mono">bsf PORTc,1</span>, but on <span class="mono">AVM4-2ISS1.net</span> the 75176 DE/~RE (U5-2/3) is on U4-16 = RC5, and RC1 (U4-12) is in no net. INIT even sets RC5 low (“RS485 IN RX MODE”) and leaves RC1 as an input (TRISC 10011011). Its 0x3C reply never reaches the bus. The main PIC already ignores 0x3C in <span class="mono">processdata</span>, which suggests this was known.</li>
    <li><b>So every video command ends in a time-out.</b> After sending, <span class="mono">settxdata</span> will not send again until a reply arrives or <span class="mono">loss_of_com</span> counts 26 × 256 passes (≈ ${(6656*LOOP_T).toFixed(1)} s, ${inf} pass time). A SOURCE press that changes the video waits for that time-out before the AVM4-2 switches, although the manual says the unit “will immediately monitor the associated video source”. In SDI mode the main PIC alternates DEMUX and video messages, so the DEMUX carrier status (NL) is also refreshed only every few seconds.</li>
    <li><b>Entering setup changes the mode first.</b> MODE is both the setup key and the mode key. <span class="mono">debounce</span> accepts the press after 10 passes and <span class="mono">sw_mode</span> steps the mode; only after 20 × 256 passes does <span class="mono">remember</span> show “SETP” and save the (already stepped) mode in <span class="mono">temp3</span>. Leaving with “SAVE” steps the setup audio once and then restores <span class="mono">temp3</span>. The manual says the unit “will revert to the last audio source monitored before entering the setup mode”.</li>
@@ -995,6 +1005,7 @@ SIM.register({
   summary: 'Two-rack-unit SELECT SERIES audio/video monitor: four analog, four AES (75/110 Ω auto-detect) and, with the DEMUX-2 option, eight embedded SDI pairs, each tied to one of four composite inputs or the SDI picture on a built-in LCD. Three PIC16 processors share the work: the main board (display, crosspoints, CS8415A, RS-485), the AVM4-1 LED meter and the AVM4-2 video switcher.',
   highlights: ['Front and rear panels on the real silkscreen (converted CorelDRAW)', 'Pass-by-pass port of avm4v100.asm: SETP/SAVE, NL, MUTE, auto 75/110 Ω, EEPROM', 'RS-485 bytes to the DEMUX-2 and the AVM4-2, with the video board that can never reply', 'AVM4-1 meter table and 6-slot multiplex', '14-step operator tutorial'],
   depth: 'Full model',
+  footnotes: FOOT,
   duration: DUR,
   stepUnits: [
     {label:'1 main-loop pass', period:()=>LOOP_T},

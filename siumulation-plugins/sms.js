@@ -21,7 +21,7 @@
        point_one_dB_table.dat, vms44_LDF.LDF
    SMS4 (1999 original)
    - SMS - #Old Version/V100/SMS4V100.ASM, sms4v101.asm, sms4v102.asm (PIC16C73A dig1_check..dig4_check)
-   - SMS - #Old Version/SMSSLKS.CDR (real silkscreen, converted with Inkscape → assets/sms-sms4-*.png),
+   - SMS - #Old Version/SMSSLKS.CDR (real silkscreen, converted with Inkscape → tools cut, Artwork 2026|59 → assets/sms-sms4-front.svg, sms-sms4-rear.svg; was sms-sms4-*-ink.png),
        TEMP.CDR (same art with LEDs/connectors placed), SMS-4MAN.WPD (1999 manual), SMS4.DSN (OrCAD parts)
    - SMS4.cdr (= "SMS4 - #Artwork.cdr", identical): the 1999 block diagram
    Anything not in those files is marked "inferred" on screen.
@@ -29,6 +29,17 @@
 (function(){
 const SIM = window.SIM;
 const ASSET = 'siumulation-plugins/assets/';
+const SMSS = 'XXX - SMS - #Engineering #OBSOLETE/SMS - #Old Version/SMSSLKS.CDR';
+/* Artwork 2026|59 footnotes: small facts the CorelDRAW silk shows */
+const FOOT = [
+ {text:'SMSSLKS.CDR holds three plates on one sheet: a front plate with WARD-BECK SYSTEMS, SMS-4 STEREO METER SYSTEM, the INPUT 1–4 headers and the dB scales; a front plate with L/R, LOCK, PWR and SELECT SERIES; and the rear. The simulator inks the first green and the second white, as on the AMA4 and QSP sheets (<span class="tag-inf">inferred</span>: the 1999 sheet does not name its plates).', src:SMSS},
+ {text:'The front has a lone drill cross-hair at the far left, level with the meters and outside every INPUT group, with no LED or legend.', src:SMSS},
+ {text:'The SMS-4 meter scale (−34 −28 −22 −19 −16 −13 −10 −7 −5 −3 −1 0 1 2 3 6 9 12, 18 LEDs) is the same scale the DMS-1 front silk prints in 2011.', src:SMSS},
+ {text:'The rear numbers the inputs INPUT 4, 3, 2, 1 from left to right, the mirror of the front; each group has ANALOG LEFT/RIGHT and AES (+ − G) terminals, a 110 Ω / 75 Ω slide-switch symbol, and a BNC marked only by a cross-hair and a leader line from “AES”.', src:SMSS},
+ {text:'The rear marks the mains inlet with one large drill cross-hair and “115 VAC, 1 A.S.B”; no inlet outline is drawn.', src:SMSS},
+ {text:'SMSSLKS.CDR is stored twice, byte for byte: in SMS - #Old Version and in #CUSTOM 55XXXX Systems - #OBSOLETE #Archive/SMS, beside a TEMP.CDR and two backups of the manual Sms4manu.cdr.', src:'#CUSTOM #SYSTEMS/#CUSTOM 55XXXX Systems - #OBSOLETE #Archive/SMS/SMSSLKS.CDR'},
+ {text:'“SMS4 - #Artwork.cdr” is byte-identical to SMS4.cdr (11 Aug 2003) and is the SMS4 block diagram (“D to A CONVERTER”, “MICROCONTROLLER”, “*METER CHANNEL 1 SHOWN”), not panel artwork; no CorelDRAW file for the 2003 SMS4A panel is in the archive.', src:'XXX - SMS - #Engineering #OBSOLETE/SMS4 - #Artwork.cdr'},
+];
 const inf = '<span class="tag-inf" title="Not stated in the source; inferred">inferred</span>';
 const FS = 48000;
 
@@ -445,7 +456,7 @@ function frontOld(t){
   const d = display(t);
   let s = `<svg viewBox="0 0 3423 332" role="img" aria-label="SMS-4 (1999|32) front panel on its real silkscreen" style="width:100%;display:block;border-radius:6px">
     <defs><filter id="smso" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-    <rect width="3423" height="332" rx="6" fill="#141516"/><image href="${ASSET}sms-sms4-front-ink.png" width="3423" height="332"/>`;
+    <rect width="3423" height="332" rx="6" fill="#141516"/><image href="${ASSET}sms-sms4-front.svg" width="3423" height="332"/>`;
   for (let k=0;k<4;k++){
     s += `<g class="smsWin" data-k="${k}" style="cursor:pointer"><rect x="${OF.x0-20+OF.step*k}" y="130" width="${18*OF.pitch+8}" height="82" fill="transparent" stroke="${D.sel===k?'var(--accent)':'none'}" stroke-width="3" rx="6"/>`;
     [OF.L, OF.R].forEach((y,side)=>{ const bits = d.bars[k*2+side];
@@ -463,7 +474,7 @@ function rearOld(t){
     <g class="smsPwr" style="cursor:pointer"><rect x="35" y="17" width="269" height="140" rx="8" fill="#0b0c0c" stroke="#3a3d40"/><rect x="80" y="40" width="180" height="90" rx="8" fill="#202326"/>
       ${[130,170,150].map((x,i)=>`<rect x="${x-4}" y="${i==2?95:60}" width="8" height="22" fill="#888"/>`).join('')}
       <rect x="45" y="180" width="250" height="135" rx="8" fill="#0b0c0c" stroke="#3a3d40"/><title>IEC inlet + fuse. Click to switch power</title></g>
-    <image href="${ASSET}sms-sms4-rear-ink.png" width="3423" height="336"/>`;
+    <image href="${ASSET}sms-sms4-rear.svg" width="3423" height="336"/>`;
   for (let j=0;j<4;j++){
     const k = 3-j, bx = 1471.4 + 600*j, tb = 1080 + 600*j, aOn = cable(k,'aes',t), nOn = cable(k,'ana',t), inp = D.inp[k];
     s += `<g class="smsAna" data-k="${k}" style="cursor:pointer">${[0,1,2,3,4,5].map(i=>`<rect x="${tb-14+i*33.75}" y="185" width="28" height="40" rx="3" fill="${nOn?'#2b8a4a':'#1d5f33'}"/>`).join('')}
@@ -637,7 +648,7 @@ function inspectorHTML(t){
 function viewSim(m){
   window.__smsActive = true;
   m.innerHTML = `${card(`Front panel at the playhead — ${D.gen==='SMS4A'?'SMS4A, drawn to scale from SMS4A-FRONT.dwg (legends '+inf+')':'SMS-4 (1999|32) on its real silkscreen SMSSLKS.CDR'}`, `<div id="fp"></div>`)}
-    ${card(`Rear panel — ${D.gen==='SMS4A'?'from SMS4-REAR.dwg (input order '+inf+')':'real silkscreen; click the 110/75 Ω switches too'}`, `<div id="rp"></div>`)}
+    ${card(`Rear panel — ${D.gen==='SMS4A'?'from SMS4-REAR.dwg (input order '+inf+')':'real silkscreen; click the 110/75 Ω switches too'}`, `<div id="rp"></div>${D.gen==='SMS4A'?'':`<div class="small muted" style="margin-top:3px">Artwork: ${SIM.src(SMSS,'SMSSLKS.CDR')} (29 Jan 1999), CorelDRAW vector: front GREEN + WHITE plates registered on the drill cross-hair both plates carry (ink split ${inf}), rear WHITE plate; faint lines = drill marks.</div>`}`)}
     <div class="grid2"><div>
       ${card('Inputs and test signals', controlsHTML())}
       ${D.gen==='SMS4A' ? card('Internal DIP switch SW1', `<div id="dip"></div>`) : ''}
@@ -988,6 +999,7 @@ function viewNotes(m){
     ['Drawing title blocks', 'SMS4A-FRONT.dwg (21 08 03) and SMS4-REAR.dwg (11 07 03) still carry POD10-REAR / ABB-M1 template text and two finishes ("POWDER COAT BEIGE", "TEXTURED BLACK TEXCOTE"); the notes block on the front says "WBS BLACK".'],
     ['Version labels', 'sms443v4.asm says "VERSION 2.00, August 12, 2003|36" (file date 2012|45); the WBS listing calls it SMS443V100. working.asm (Mar 2003|36) is the NAB prototype without autodetect; its history notes "Modified for CBC due to defective monitors" (VMS44 V1.01, Dec 2002|35).'],
   ];
+  F.push(['Artwork 2026|59', `1999|32 front/rear panels now from ${SIM.src(SMSS,'SMSSLKS.CDR')} (29 Jan 1999) as vectors, replacing the PNG cut. ${FOOT.map(f=>f.text).join(' ')}`]);
   m.innerHTML = card('What the SMS is "up to" — findings', `<ol>${F.map(([h,b])=>`<li style="margin-bottom:8px"><b>${h}.</b> <span class="small">${b}</span></li>`).join('')}</ol>`) +
     card('Main assumptions', `<ul class="small"><li>PIC16F874 clock 4 MHz (sms4.pjt simulator setting) — sets every PIC timing. The 1999|32 PIC16C73A is assumed to run at 4 MHz too.</li><li>CS8420/CS8412 lock time 10 ms; CS8420 output muted while unlocked.</li><li>SMS4A LED layout inside the windows, segment colours, legends and input order on the rear.</li><li>1999|32 meter ballistics (1 ms attack, 300 ms decay) and LED colours; 1999|32 panel colour (black, white ink).</li><li>Analog full scale +19.3 dBu (derived from the calibration constants).</li></ul>`);
 }
@@ -998,6 +1010,7 @@ SIM.register({
   summary:'Rack meter bridge with four stereo pairs of LED bargraphs. The 2003|36 SMS4A (VMS44-3 board) auto-selects analog or AES per input with a PIC16F874, routes audio in an EPM3128 CPLD and computes 28-segment VU/peak and correlation meters on a SHARC; the 1999|32 SMS4 used CS8412 receivers, a PIC16C73A and LM3914 drivers.',
   highlights:['Front/rear panels: SMS4A to scale from the DWGs, 1999|32 SMS4 on its real silkscreen','PIC autodetect, CS8420 lock and CPLD source switch, pass by pass','Real VU/PPM/correlation recursions on every 48 kHz sample','80 Hz L/R LED multiplex and MM5450 shift frames','Calibration DIP switches traced into the SHARC gain table'],
   depth:'Full model',
+  footnotes:FOOT,
   stepUnits:[
     {label:'1 PIC pass', period:()=>schedule().loopT},
     {label:'1 mux slot (300 samples)', period:()=>C.MUX/FS},

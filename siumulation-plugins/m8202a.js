@@ -35,7 +35,7 @@ const D = {
   wiper:0.5,               // remote pot (10 k linear, centre detent)
   load:600, cable:100, cmrTrim:0.5, commonMode:-20,
   steps:{t:[], w:[]},      // remote pot moves (for the timeline)
-  log:[],
+  log:[], tbView:'art', tsel:null,
 };
 function reset(){ Object.assign(D,{ver:'A',inDbu:4,freq:1000,local:0.5,zero:0.4,range:0.6,offset:0.3,rem:false,wiper:0.5,load:600,cable:100,cmrTrim:0.5,commonMode:-20,steps:{t:[],w:[]}}); }
 
@@ -69,6 +69,13 @@ const A = {
     if (k==='wiper') tr(`REM IN wiper ${(D.wiper*100).toFixed(0)} % → SSM2018 control ≈ ${(c.cv*1000).toFixed(0)} mV (${K.VCA_MV_DB} mV/dB ${'inferred'}) → ${c.vcaDb.toFixed(1)} dB${D.rem?'':' — but REM jumper is OUT, so ignored'}`);
     if (k==='cmrTrim') tr(`CMRR now ≈ ${c.cmrr.toFixed(0)} dB (spec > 75 dB)`);
     tr(`Overall ${c.total.toFixed(1)} dB · out ${c.out.toFixed(1)} dBu · ${c.atLoad.toFixed(1)} dBu across ${D.load} Ω through ${c.rs} Ω`); }); },
+  term(i){ const p=TB_PTS[i], c=chain(); act(`TB8202 terminal “${p[2]}”`, tr=>{ D.tsel=i;
+    tr(`M8202TR2 sheet legend “${p[2]}” → screw ${p[3]} → ${p[4]} → card contact ${p[5]}`);
+    if (p[6]==='IN') tr(p[7]==='SH'?'Input cable shield → contact L (card ground at the input)':`Balanced input ${p[7]} → input stage, ${D.inDbu} dBu applied`);
+    else if (p[6]==='REM') { tr(`Copper says this screw is REM ${p[7]}; the M8202 sheet prints “${p[2]}”${p[7]!==p[2]?' — the sheet and the board disagree here':''}`); tr(D.rem?`Remote pot wiper at ${(D.wiper*100).toFixed(0)} % → VCA ${c.vcaDb.toFixed(1)} dB`:'REM GAIN jumper is OUT: the remote terminals are ignored'); }
+    else if (p[6]==='G') tr('Output ground column → contact 2');
+    else tr(`${p[6]} ${p[7]} through ${c.rs/2} Ω build-out (per leg) → ${c.atLoad.toFixed(1)} dBu across ${D.load} Ω`); }); },
+  tbView(v){ act(v==='art'?'TB8202 view: CorelDRAW sheet':'TB8202 view: drawn from the PCB', tr=>{ D.tbView=v; tr(v==='art'?'M8202TR2.CDR “M8202 TERMINAL OPTIONS” (2005-01-20)':'Block positions from the 14-212 PCB coordinates'); }); },
   rem(){ act('REM GAIN jumper → '+(D.rem?'OUT':'IN'), tr=>{ D.rem=!D.rem; tr(D.rem?'Remote pot on TB8202 REM IN (LOW / WIPER / HIGH) now drives the SSM2018 control port':'VCA held at the GAIN ZERO setting; the manual: “must be in the OUT position if the remote control is not used”'); }); },
   turn(v){ D.steps.w0 = D.steps.t.length? D.steps.w0 : D.wiper; D.steps.t.push(SIM.t); D.steps.w.push(v); D.wiper=v; A.log('wiper'); },
   ver(v){ act('Version '+(v==='A'?'M8202 (60 Ω)':'M8202B (600 Ω)'), tr=>{ D.ver=v; tr(v==='A'?'Outputs 1–8: 60 Ω balanced (2 × 30 Ω build-out)':'Outputs 1–8: 600 Ω balanced, for 600 Ω installations (M8202BMN Issue 5)'); tr(`Into ${D.load} Ω: ${chain().atLoad.toFixed(1)} dBu`); }); },
@@ -93,7 +100,21 @@ function boardSVG(){
   return s+`</svg><div class="small muted">14-212 ISS7 top view to scale from <span class="mono">14-212.PCB</span>: front edge left (INPUT LEVEL), P1 right. Gold bars = the 301 1/2 W 1 % output resistors. Click a trim to step it, scroll to fine-tune; click REM to move the jumper.</div>`;
 }
 // TB8202 terminal (TB8202-2.PCB: 0.91 × 2.91 in, PHEN9 J52/J53, PHEN3 J54 (IN) / J55 (REM IN), CONN20 P1)
+/* ---------------- TB8202 artwork (CorelDRAW) ----------------
+   assets/m8202a-terminal-options.svg is the whole “M8202 TERMINAL OPTIONS” sheet, M8202TR2.CDR (2005-01-20),
+   taken from CorelDRAW 10's own PDF of it (M8202TR2.pdf) so the fonts are right; the Symbol “W” is set as Ω.
+   TB_PTS: [x, y, sheet legend, Tango screw, CON20 pin, card contact, port, copper leg] — the screw under
+   each symbol is matched top-to-bottom against TB8202-2.PCB (see the tb8202 plugin). */
+const ASSET = 'siumulation-plugins/assets/';
+const TR2 = '#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202TR2.CDR';
+const TB_PTS = [[331.9,269.4,"INPUT +","J54AB-3","CON20-16","9","IN","+"],[331.9,286.6,"INPUT -","J54AB-2","CON20-15","K","IN","-"],[331.9,303.9,"INPUT SH","J54AB-1","CON20-17","L","IN","SH"],[332.1,336.8,"OUT 1 +","J52AB-9","CON20-6","4","OUT1","+"],[332.1,354.1,"OUT 2 +","J52AB-8","CON20-6","4","OUT2","+"],[332.1,371.3,"OUT 3 +","J52AB-7","CON20-6","4","OUT3","+"],[332.1,388.6,"OUT 4 +","J52AB-6","CON20-8","5","OUT4","+"],[332.1,405.9,"OUT 5 +","J52AB-5","CON20-6","4","OUT5","+"],[332.1,423.1,"OUT 6 +","J52AB-4","CON20-6","4","OUT6","+"],[332.1,440.4,"OUT 7 +","J52AB-3","CON20-6","4","OUT7","+"],[332.1,457.7,"OUT 8 +","J52AB-2","CON20-6","4","OUT8","+"],[332.1,474.9,"GND","J52AB-1","CON20-18","10","G","G"],[331.9,505.9,"LOW","J55B-3","CON20-20","11","REM","HIGH"],[331.9,523.2,"WIPER","J55B-2","CON20-19","M","REM","WIPER"],[331.9,540.4,"HIGH","J55B-1","CON20-18","10","REM","LOW"],[394.6,336.8,"OUT 1 -","J53AB-9","CON20-5","D","OUT1","-"],[394.6,354.1,"OUT 2 -","J53AB-8","CON20-5","D","OUT2","-"],[394.6,371.3,"OUT 3 -","J53AB-7","CON20-5","D","OUT3","-"],[394.6,388.6,"OUT 4 -","J53AB-6","CON20-7","E","OUT4","-"],[394.6,405.9,"OUT 5 -","J53AB-5","CON20-5","D","OUT5","-"],[394.6,423.1,"OUT 6 -","J53AB-4","CON20-5","D","OUT6","-"],[394.6,440.4,"OUT 7 -","J53AB-3","CON20-5","D","OUT7","-"],[394.6,457.7,"OUT 8 -","J53AB-2","CON20-5","D","OUT8","-"],[394.6,474.9,"GND","J53AB-1","CON20-18","10","G","G"]];
+function tbArtSVG(){ const c=chain();
+  let s=`<svg viewBox="233 68 593 610" style="width:100%;max-width:560px;display:block;margin:auto;border-radius:4px" role="img" aria-label="M8202 TERMINAL OPTIONS sheet, M8202TR2.CDR"><rect x="233" y="68" width="593" height="610" fill="#fff"/><image href="${ASSET}m8202a-terminal-options.svg" x="233" y="68" width="593" height="610"/>`;
+  TB_PTS.forEach((p,i)=>{ const live = p[6]==='IN'? p[7]!=='SH' : /^OUT/.test(p[6])? (p[7]!=='G') : p[6]==='REM'? D.rem : false, on=D.tsel===i;
+    s+=`<g class="mtb" data-i="${i}" style="cursor:pointer"><title>Sheet legend “${p[2]}” · ${p[3]} (copper: ${p[6]} ${p[7]}) → ${p[4]} → card contact ${p[5]} — click to trace</title><circle cx="${p[0]}" cy="${p[1]}" r="8.5" fill="transparent"/>${live?`<circle cx="${p[0]}" cy="${p[1]}" r="3.4" fill="${p[6]==='REM'?'#e08a00':'#18b84a'}"/>`:''}${on?`<circle cx="${p[0]}" cy="${p[1]}" r="7" fill="none" stroke="#e0a800" stroke-width="2"/>`:''}</g>`; });
+  return s+`</svg>`; }
 function tbSVG(){
+  if (D.tbView!=='drawn') return tbArtSVG();
   const c=chain(), S=0.11, X=v=>10+(v-3495)*S, Y=v=>10+(18280-v)*S;
   let s=`<svg viewBox="0 0 330 ${(18280-15370)*S+30}" style="width:100%;max-width:330px"><rect x="10" y="10" width="${(4405-3495)*S}" height="${(18280-15370)*S}" fill="#26292c"/>`;
   const blk=(x,y,n,labels,cls)=>{ let r=''; labels.forEach((l,i)=>{ r+=`<rect x="${X(x)-11}" y="${Y(y)+i*14-6}" width="22" height="12" fill="#2b8a3e" stroke="#0b3"/><circle cx="${X(x)}" cy="${Y(y)+i*14}" r="3.5" fill="#ccc"/>`; }); return r; };
@@ -110,6 +131,7 @@ function remoteSVG(){
 function bindPanel(m){
   m.querySelectorAll('.mtrim').forEach(g=>{ const k=g.dataset.k; g.onclick=()=>{ D[k]=Math.round(((D[k]+0.1)%1.0001)*100)/100; A.log(k); }; g.onwheel=e=>{ e.preventDefault(); D[k]=Math.max(0,Math.min(1,D[k]+(e.deltaY<0?0.01:-0.01))); SIM.refresh(); }; });
   m.querySelectorAll('.mrem').forEach(g=>g.onclick=()=>A.rem());
+  m.querySelectorAll('.mtb').forEach(g=>g.onclick=()=>A.term(+g.dataset.i)); const tv=m.querySelector('#mtv'); if (tv) tv.onchange=()=>A.tbView(tv.value);
   m.querySelectorAll('.mknob').forEach(g=>{ g.onclick=e=>{ const r=g.getBoundingClientRect(); const v=Math.max(0,Math.min(1,D.wiper+((!e||e.clientX===undefined||(e.clientX-r.left)>r.width/2)?0.1:-0.1))); A.turn(Math.round(v*100)/100); }; g.onwheel=e=>{ e.preventDefault(); A.turn(Math.max(0,Math.min(1,Math.round((D.wiper+(e.deltaY<0?0.02:-0.02))*100)/100))); }; });
 }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:8px;align-items:center">
@@ -143,7 +165,7 @@ function inspector(){ const c=chain(); return `<table class="kv"><tr><th>Input</
 function traceHTML(){ return D.log[0]? `<div><b>${D.log[0].name}</b> at ${SIM.fmtT(D.log[0].t)}</div>`+D.log[0].tr.map(s=>`<div>→ ${s}</div>`).join('') : '<div class="muted">Click the trims on the board, the REM jumper, or turn the remote pot.</div>'; }
 function viewSim(m){
   m.innerHTML=`${card('M8202A card (14-212) at the playhead', `<div id="bd"></div>${controlsHTML()}`)}
-   <div class="grid2"><div>${card('TB8202 termination and the remote panel', `<div style="display:flex;gap:10px;flex-wrap:wrap"><div id="tb" style="flex:1;min-width:220px"></div><div id="rc" style="flex:0 0 240px"></div></div>`)}${card('Action log', `<div id="lg" class="log"></div>`)}</div><div>${card('What happened', `<div id="tr" class="log"></div>`)}${card('Level through each stage', `<div id="in"></div>`)}</div></div>
+   <div class="grid2"><div>${card('TB8202 termination and the remote panel', `<div style="display:flex;gap:10px;flex-wrap:wrap"><div id="tb" style="flex:1;min-width:220px"></div><div id="rc" style="flex:0 0 240px"></div></div><div class="small muted" style="margin-top:4px">${D.tbView!=='drawn'?`CorelDRAW artwork: ${SIM.src(TR2,'M8202TR2.CDR')} (2005-01-20), from CorelDRAW 10’s own print ${SIM.src(TR2.replace('.CDR','.pdf'),'M8202TR2.pdf')}. Click a TB8202 terminal to trace it; green = signal, orange = remote pot live.`:'Drawn from the 14-212 PCB block positions.'} <label>View <select id="mtv"><option value="art" ${D.tbView!=='drawn'?'selected':''}>CorelDRAW sheet</option><option value="drawn" ${D.tbView==='drawn'?'selected':''}>drawn from the PCB</option></select></label></div>`)}${card('Action log', `<div id="lg" class="log"></div>`)}</div><div>${card('What happened', `<div id="tr" class="log"></div>`)}${card('Level through each stage', `<div id="in"></div>`)}</div></div>
    ${card('Timeline — one second (turn the remote pot while playing to see the gain ramp)', `<canvas id="tl"></canvas><p class="small muted">Zoom to 5 ms to see the waveform and clipping. Waveform height is drawn on a compressed scale (half-dB) so +4 dBu is visible next to the +24 dBu clip level. The VCA control is smoothed with a ${K.CV_TAU*1000} ms time constant ${inf}.</p>`)}`;
   bindControls(m);
   SIM.on('time',()=>{ m.querySelector('#bd').innerHTML=boardSVG(); m.querySelector('#tb').innerHTML=tbSVG(); m.querySelector('#rc').innerHTML=remoteSVG(); bindPanel(m); m.querySelector('#tr').innerHTML=traceHTML(); m.querySelector('#in').innerHTML=inspector(); m.querySelector('#lg').innerHTML=D.log.map(e=>`<div><b>${e.name}</b> <span class="muted">@ ${SIM.fmtT(e.t)}</span></div>`).join('')||'<div class="muted">No actions yet.</div>'; SIM.drawLanes(m.querySelector('#tl'),lanes(),{labelW:180}); });
@@ -197,6 +219,10 @@ function viewNotes(m){ m.innerHTML=card('What the M8202 is up to — findings', 
    <li><b>Two manuals, two set-ups.</b> Issue 6 (M8202) step 1 says “turn the local level control to the centre detent … adjust the ZERO GAIN control”; the M8202B Issue 5 step 1 has no ZERO GAIN and says “adjust the local level control for unity gain”. The B board evidently lacked the GAIN ZERO trim the 14-212 ISS7 PCB carries.</li>
    <li><b>Specs in different units.</b> M8202: noise “−80 dBu”, max “+24 dBu”, outputs “60 Ω”; M8202B: “−86 dBm”, “+24 dBm”, “600 Ω”. The Issue 6 spec page is marked PRELIMINARY.</li>
    <li><b>ST8202 has half the outputs.</b> <span class="mono">M8202TR2.pdf</span>: the TB8202 screw terminal brings out OUT 1–8; the ST8202 solder terminal only OUT 1–4 (the rest “NOT USED”).</li>
+   <li><b>Artwork ${SIM.year(2026)}: the TB8202 rear module now comes from ${SIM.src(TR2,'M8202TR2.CDR')} (2005-01-20).</b> That is the whole “M8202 TERMINAL OPTIONS” sheet, with the TB8202 screw module and the ST8202 solder module side by side, cut from CorelDRAW 10’s own print ${SIM.src(TR2.replace('.CDR','.pdf'),'M8202TR2.pdf')}. The PCB-position drawing is still on the View selector. The 1998 sheets ${SIM.src('#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202TR1.CDR','M8202TR1.CDR')}, ${SIM.src('#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202TRM.CDR','M8202TRM.CDR')} and the M8202B pair are CorelDRAW 5 files: libcdr keeps their outlines but scrambles every legend, so they are not used.</li>
+   <li><b>The sheet’s REM IN order is upside down against the board.</b> The sheet labels the three REM IN screws LOW, WIPER, HIGH from the top. On TB8202-2.PCB the top screw (J55B-3) carries HIGH. Click the top REM terminal to see the mismatch in the trace. The M8208’s page in the 2011 master prints HIGH, WIPER, LOW.</li>
+   <li><b>Pot value.</b> The sheet draws a “10 kΩ LINEAR” remote pot. The M8208’s page for the same TB8202 draws 5 kΩ.</li>
+   <li><b>The ST8202 even moves the input.</b> On the solder module, INPUT ± and SHIELD sit below OUT 1–4, and HIGH / WIPER / LOW are split across both columns; the TB8202 keeps the input on top.</li>
    <li><b>Gain is an analog VCA.</b> The DSN names an SSM2018T and an LF353 “REMOTE GAIN AMPLIFIER”: the remote pot is a DC control, so the audio never travels to the remote panel — which is why 300 m of cable is fine.</li>
    <li><b>The remote panel is a 12-way product.</b> M8202RC: “12 POTS ARE HOUSED ON EACH PANEL … WIRED IDENTICALLY”, EDAC 38-pin plug, 1 ft cable to the frame — one pot per M8202 in a 12-slot frame.</li>
    <li><b>Output resistors.</b> 14-212.PCB carries nine “301 1/2W 1%” resistors and the DSN also holds “30R 1W” and “300R 1W” values — 30 Ω per leg (60 Ω, M8202) and 300 Ω per leg (600 Ω, M8202B) ${inf}.</li>
@@ -207,7 +233,15 @@ SIM.register({
   product:'M8202A', year:1998, family:'8200 Distribution Series',
   folder:'#MF8200 #SERIES/M8202A - #Engineering #MF82',
   summary:'A balanced 1-in, 8-out analog audio DA whose gain can be swung over 30 dB by a remote pot up to 300 m away, through an SSM2018 VCA. Set it up exactly as the manual describes with the real trims on the 14-212 board, and watch headroom and clipping through each stage.',
-  highlights:['Board drawn to scale with live trims','Manual set-up procedure as a tutorial','Remote pot → VCA ramp on the timeline','60 Ω vs 600 Ω (M8202B) outputs','Stage-1 clipping caution'],
+  highlights:['TB8202 from the CorelDRAW “M8202 TERMINAL OPTIONS” sheet','Board drawn to scale with live trims','Manual set-up procedure as a tutorial','Remote pot → VCA ramp on the timeline','60 Ω vs 600 Ω (M8202B) outputs','Stage-1 clipping caution'],
+  footnotes:[
+    {text:'The M8202 sheet labels the REM IN screws LOW, WIPER, HIGH from the top; the TB8202 copper has HIGH on the top screw (J55B-3).', src:TR2},
+    {text:'The remote pot is “10 kΩ LINEAR” on the M8202 sheet but 5 kΩ on the M8208’s page for the same TB8202.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr'},
+    {text:'The ST8202 solder module brings out only OUT 1–4; OUT 5–8 positions are marked NOT USED.', src:TR2},
+    {text:'On the ST8202 the input sits below the outputs, and HIGH and WIPER/LOW are on opposite columns.', src:TR2},
+    {text:'The Ω in “10 kΩ” is a Symbol-font W in the CorelDRAW print; viewed without the Symbol font it reads “10 kW”.', src:TR2.replace('.CDR','.pdf')},
+    {text:'M8202MAN.CDR is the manual cover: a 3 RU MF82 frame with its door dropped open. Its 1998 CorelDRAW 5 text does not survive conversion.', src:'#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202MAN.CDR'},
+  ],
   depth:'Hardware model',
   stepUnits:[{label:'1 ms',period:()=>0.001},{label:'1 cycle (1 kHz)',period:()=>0.001},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s'],[0.1,'100 ms (CV ramp)'],[0.005,'5 ms (waveform)'],[0.001,'1 cycle']],

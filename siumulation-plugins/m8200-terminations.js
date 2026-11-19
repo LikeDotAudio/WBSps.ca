@@ -73,6 +73,32 @@ function tangoSVG(){
   (b.keys||[]).forEach(k=>{ const on=(k[1]===String(D.abs.fs))||(k[1]===D.abs.lvl)||(k[1]==='OFF'&&D.abs.on); s+=`<g class="tkey" data-k="${k.join('|')}" style="cursor:pointer"><title>${k[0]} “${k[1]}”</title><rect x="${X(k[2])-14}" y="${Y(k[3])-10}" width="28" height="20" rx="3" fill="${on?'#ffd84a':'#ddd'}" stroke="#333"/><text x="${X(k[2])}" y="${Y(k[3])+4}" font-size="8.5" text-anchor="middle" fill="#000">${k[1]}</text></g>`; });
   return s+`</svg><div class="small muted">Drawn to scale from <span class="mono">${D.board==='IMP1'?'IMP1':D.board}.PCB</span> component positions (Tango ASCII, mils).</div>`;
 }
+/* ---------------- CorelDRAW artwork for each module (2026|59 artwork pass) ----------------
+   assets/m8200-terminations-*.svg are single modules cut from the rear-module guides with Inkscape (sheet titles and
+   neighbouring modules removed, headings re-centred, hairlines widened, Symbol “W” restored to Ω). The 1998
+   catalogue sheets TRM.CDR / TRMSALE1.CDR / TRMSALE2.CDR are CorelDRAW 5: their outlines survive but every legend is
+   scrambled by libcdr, so they are cited, not drawn. */
+const ASSET = 'siumulation-plugins/assets/';
+const G_DIR = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/', MASTER = G_DIR+'8200 Series - Rear module drawing Master.cdr', TR2 = '#MF8200 #SERIES/M8202A - #Engineering #MF82/M8202A - 14-212/M8202TR2.CDR', D8204RO = G_DIR+'D8204 - rear module options.cdr';
+const ART = {
+  TB8202:{f:'tb8202', vb:[1629,4515,226,418], src:MASTER, page:'“M8208 TERMINAL OPTIONS” page (2011-12-22)'},
+  ST8202:{f:'st8202', vb:[527,122,298,555], src:TR2, page:'“M8202 TERMINAL OPTIONS” (2005-01-20)'},
+  TB8204:{f:'tb8204', vb:[2181,2846,297,417], src:MASTER, page:'“M8204/A TERMINAL OPTIONS” page (2011-12-22)'},
+  TB8204P:{f:'tb8204p', vb:[1079,2830,224,417], src:MASTER, page:'“M8204 & M8204A TERMINAL OPTIONS” page (2011-12-22)'},
+  'TB8204P/600':{f:'tb8204p', vb:[1079,2830,224,417], src:MASTER, page:'“M8204 & M8204A TERMINAL OPTIONS” page — drawn once for both builds'},
+  ST8204:{f:'st8204', vb:[1893,2846,292,417], src:MASTER, page:'“M8204/A TERMINAL OPTIONS” page (2011-12-22)'},
+  TB8205:{f:'tb8205', vb:[2340.3,2336,224,416], src:MASTER, page:'“M8203 TERMINAL OPTIONS” page (2011-12-22), legends as wired for the M8203'},
+  TB8205P:{f:'tb8205p', vb:[1380.7,2336,224,416], src:MASTER, page:'“M8203 TERMINAL OPTIONS” page (2011-12-22), legends as wired for the M8203'},
+  'TB8205P/75':{f:'tb8205p75', vb:[2193.7,-1417.5,224,417], src:MASTER, page:'“D8201 TERMINAL OPTIONS” page (2011-12-22)'},
+  QC8200:{f:'qc8200', vb:[2124.3,2336,224,416], src:MASTER, page:'“M8203 TERMINAL OPTIONS” page (2011-12-22)'},
+  'BNC-1':{f:'bnc1', vb:[328,192,112,208], src:D8204RO, page:'BNC1 on the D8204 sheet (2012-01-16)'},
+  'BNC-3':{f:'bnc3', vb:[512,196,124,204], src:D8204RO, page:'BNC3 on the D8204 sheet (2012-01-16)', loop:[589.7,227.5]},
+};
+function artPanel(){ const a=ART[D.type];
+  if (!a) return `<p class="small muted">No drawing of the ${D.type} in any CorelDRAW sheet: the rear-module guides draw the ST8200, not an ST8205, and the 1998 TRM sheets have lost their legends. The terminal list above comes from TERMINAL.DSN.</p>`;
+  const [x,y,w,h]=a.vb; let s=`<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:330px;display:block;margin:auto;border-radius:4px" role="img" aria-label="${D.type} from the CorelDRAW guide"><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#fff"/><image href="${ASSET}m8200-terminations-${a.f}.svg" x="${x}" y="${y}" width="${w}" height="${h}"/>`;
+  if (a.loop) s+=`<g class="tloop" style="cursor:pointer"><title>INPUT LOOP — click to ${D.loop==='75'?'disconnect':'connect'} the loop cable</title><circle cx="${a.loop[0]}" cy="${a.loop[1]}" r="14" fill="rgba(0,0,0,0)"/>${D.loop==='75'?`<circle cx="${a.loop[0]}" cy="${a.loop[1]}" r="13.6" fill="none" stroke="#2f7de1" stroke-width="2.2"/>`:''}</g>`;
+  return s+`</svg><div class="small muted" style="text-align:center">CorelDRAW artwork: ${a.page}, ${SIM.src(a.src, a.src.split('/').pop())}.</div>`; }
 function termSVG(){
   const t=T[D.type], o=outLevel(); const rows=t.outs; let s=`<svg viewBox="0 0 420 ${rows*22+120}" style="width:100%;max-width:420px"><text x="0" y="16" font-size="13" font-weight="700" fill="var(--ink)">${D.type}</text><text x="0" y="32" font-size="10.5" fill="var(--ink2)">${t.kind} · for ${t.cards}</text>`;
   const col = t.bnc? '#b9bcbf' : t.kind==='solder'? '#c0c0c0' : '#2b8a3e';
@@ -105,10 +131,10 @@ function wave(c,X,t0,t1,y,h,f,A_,col,sq){ const span=t1-t0, pw=X(t1)-X(t0); c.st
 /* ---------------- views ---------------- */
 function traceHTML(){ return D.log[0]? `<div><b>${D.log[0].name}</b> at ${SIM.fmtT(D.log[0].t)}</div>`+D.log[0].tr.map(s=>`<div>→ ${s}</div>`).join('') : '<div class="muted">Pick a termination, change the load, or click the keys on the IMP1 (ABS-1) board.</div>'; }
 function viewSim(m){
-  m.innerHTML=`<div class="grid2"><div>${card('Termination module — outputs at the playhead', `<div id="tm2"></div>${controlsHTML()}`)}${card('Old boards in this folder (to scale)', `<div id="tg"></div>`)}</div><div>${card('What happened', `<div id="tr" class="log"></div>`)}${card('State', `<div id="in"></div>`)}</div></div>
+  m.innerHTML=`<div class="grid2"><div>${card('Termination module — outputs at the playhead', `<div id="tm2"></div>${controlsHTML()}`)}${card('The module as the rear-module guide draws it', `<div id="ta"></div>`)}${card('Old boards in this folder (to scale)', `<div id="tg"></div>`)}</div><div>${card('What happened', `<div id="tr" class="log"></div>`)}${card('State', `<div id="in"></div>`)}</div></div>
    ${card('Timeline — signal through the termination', `<canvas id="tl"></canvas><p class="small muted">Zoom to 5 ms for audio or 1 µs for AES.</p>`)}`;
   bindControls(m);
-  SIM.on('time',()=>{ m.querySelector('#tm2').innerHTML=termSVG(); m.querySelector('#tg').innerHTML=tangoSVG(); bindPanel(m); m.querySelector('#tr').innerHTML=traceHTML(); const t=T[D.type], o=outLevel();
+  SIM.on('time',()=>{ m.querySelector('#tm2').innerHTML=termSVG(); m.querySelector('#ta').innerHTML=artPanel(); m.querySelector('#tg').innerHTML=tangoSVG(); bindPanel(m); m.querySelector('#tr').innerHTML=traceHTML(); const t=T[D.type], o=outLevel();
     m.querySelector('#in').innerHTML=`<table class="kv"><tr><th>Module</th><td class="mono">${D.type} (${t.kind})</td></tr><tr><th>Cards</th><td>${t.cards}</td></tr><tr><th>Terminals</th><td class="small">${t.io}</td></tr><tr><th>Level</th><td class="mono">${o.db.toFixed(2)} ${t.bnc?'dB rel.':'dBu'} · ${o.note}</td></tr><tr><th>Source</th><td class="small mono">${t.src}</td></tr></table>`;
     SIM.drawLanes(m.querySelector('#tl'),lanes(),{labelW:200}); });
 }
@@ -150,7 +176,11 @@ function viewNotes(m){ m.innerHTML=card('What this folder is up to — findings'
    <li><b>TERMINAL.DSN is the whole termination family.</b> Twelve pages (TB8202, ST8202, TB8204, TB8204P, ST8204, TB8205, TB8205P, ST8205, BNC-1…4), each with a 20-way CON20 to the backplane, titled “MF8212 TERMINAL BLOCK”, “MF8210 BNC TERMINAL” and an “SA14-146 TERMINAL INTERFACE ASSEMBLY”.</li>
    <li><b>…and it carries an amplifier's parts list.</b> The same file's library cache holds 5532, LF353, TIP29C/TIP30C, 2N4401 and the values 36K, 8K25, 16K2 that also appear in M8202.DSN — the M8202 remote-gain amplifier's parts. The design was started from the M8202 schematic.</li>
    <li><b>Build-out resistors live on the termination for the M8204.</b> M8204T.PCB holds “30R 1W” resistors, so TB8204P (60 Ω) and TB8204P/600 differ only in the module. M8204T.PCB also contains the string “D8205” — a leftover.</li>
-   <li><b>The 1998 catalogue offered more than the 2012 guide.</b> TRM/TRMSALE CDRs list QC8200 quick-connect, ST8200/ST8204 solder and TB8205P/75 terminals that the 2011–2012 rear-module guide no longer shows.</li>
+   <li><b>The 1998 catalogue offered more than the 2012 sheets.</b> TRM/TRMSALE CDRs list QC8200 quick-connect, ST8200/ST8204 solder and TB8205P/75 terminals. The 2012 per-card “rear module options” sheets show only TB and BNC modules. The 2011 master (${SIM.src(MASTER,'8200 Series - Rear module drawing Master.cdr')}) still draws every one of them, which is where the artwork here comes from.</li>
+   <li><b>Artwork ${SIM.year(2026)}: every module now has its CorelDRAW drawing</b>, except the ST8205, which no sheet draws. The modules are cut from the 2011 master, from ${SIM.src(TR2,'M8202TR2.CDR')} (ST8202) and from ${SIM.src(D8204RO,'D8204 - rear module options.cdr')} (BNC1/BNC3). The folder’s own ${SIM.src('#MF8200 #SERIES/M8200 - TERMINATIONS #MF82/TRM.CDR','TRM.CDR')}, ${SIM.src('#MF8200 #SERIES/M8200 - TERMINATIONS #MF82/TRMSALE1.CDR','TRMSALE1.CDR')} and ${SIM.src('#MF8200 #SERIES/M8200 - TERMINATIONS #MF82/TRMSALE2.CDR','TRMSALE2.CDR')} (Oct 1998, CorelDRAW 5) convert as six module outlines per sheet, with every legend scrambled into one column of wrong characters, so they could not be used as panels.</li>
+   <li><b>The guide draws one module per card, and the legends change with the card.</b> On the M8203 page the TB8205 brings out only OUT 1–4 and a “MIC OUT” pair (“MIC OUT : 150 Ω, −60 dBm”), and the TB8205P marks its input positions “NOT CONNECTED” beside a passive input loop. On the D8201 page the TB8205P/75 carries a BNC “INPUT”. The board is the same in each case.</li>
+   <li><b>The QC8200 on the M8203 page is mostly empty.</b> Of its 20 quick-connect tabs, only OUT 1–4, GND and MIC OUT have legends.</li>
+
    <li><b>M82BNC.PCB is half TB8202.</b> Its PHEN9 J52/J53, PHEN3 J54/J55 and R400UP J64–J69 parts are the same designators as <span class="mono">TB8202-2.PCB</span> in the TB8202 folder — a panel combining TB8202 screw terminals with eight BNCs.</li>
    <li><b>Overlap.</b> The BNC boards here (M82BNC 1997|30, TB-BNC 1997|30) predate the BNC1–BNC4 set in “M8200 Extender, handle”, which is the current one. The empty OnlineDRC report is dated 09-Jun-10.</li>
   </ol>`)+card('Assumptions', `<ul class="small"><li>CON20 pin order and the per-page terminal lists are reconstructed from labels, ${inf}.</li><li>ABS-1 key behaviour ${inf} from key legends.</li><li>Card output level and the ideal resistive model ${inf}.</li></ul>`)+card('Sources', `<ul class="small mono"><li>M8200 - TERMINATIONS #MF82/TERMINAL.DSN, TRM.CDR, TRMSALE1/2.CDR</li><li>…/TB-BNC.PCB, M82BNC.PCB, M8204T.PCB, IMP1.PCB, 82M49.DWG</li><li>M8202A - #Engineering/M8202MAN.pdf · rear module options PDFs</li></ul>`); }
@@ -159,7 +189,15 @@ SIM.register({
   product:'M8200 - TERMINATIONS', year:1998, family:'8200 Distribution Series',
   folder:'#MF8200 #SERIES/M8200 - TERMINATIONS #MF82',
   summary:'The rear termination family for 8200-series cards: screw, pluggable, solder, quick-connect and BNC modules that plug into the frame backplane with a 20-way connector. Try 60 Ω and 600 Ω build-outs into real loads, BNC loop-through, and the misfiled “Audio Bit Spitter” test board.',
-  highlights:['13 module types from TERMINAL.DSN and the 1998 catalogue','60 Ω vs 600 Ω build-out maths','Old BNC boards drawn from Tango coordinates','IMP1.PCB is an AES test generator','Amplifier parts left in the terminal schematic'],
+  highlights:['Each module drawn from the CorelDRAW rear-module guides','13 module types from TERMINAL.DSN and the 1998 catalogue','60 Ω vs 600 Ω build-out maths','Old BNC boards drawn from Tango coordinates','IMP1.PCB is an AES test generator','Amplifier parts left in the terminal schematic'],
+  footnotes:[
+    {text:'TRM.CDR, TRMSALE1.CDR and TRMSALE2.CDR (1998) keep their module outlines but lose every legend in conversion; the rendered TRM.pdf shows the text as a column of “?” glyphs.', src:'#MF8200 #SERIES/M8200 - TERMINATIONS #MF82/TRM.pdf'},
+    {text:'No CorelDRAW sheet draws an ST8205: the rear-module guides use the ST8200 solder terminal for those cards.', src:MASTER},
+    {text:'On the M8203 page the TB8205 carries a “MIC OUT : 150 Ω, −60 dBm” pair in place of outputs 5–8.', src:MASTER},
+    {text:'On the M8203 page the TB8205P’s input positions read “NOT CONNECTED”, beside a “PASSIVE INPUT LOOP” block.', src:MASTER},
+    {text:'The 2011 master draws the TB8204P and the TB8204P/600 as one drawing headed “TB8204P & TB8204P/600”.', src:MASTER},
+    {text:'The screw-terminal TB8204 is headed “TB204 & TB8204/600” on the M8204 & M8204A page, with the 8 missing.', src:MASTER},
+  ],
   depth:'Hardware model',
   stepUnits:[{label:'1 µs',period:()=>1e-6},{label:'1 ms',period:()=>0.001}],
   zooms:[[1,'1 s'],[0.005,'5 ms (audio)'],[0.000002,'2 µs (AES)']],

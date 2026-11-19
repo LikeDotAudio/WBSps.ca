@@ -16,9 +16,9 @@
    Sources used:
    - PIC VERSIONS/Dms1v100, Dms1v101, Dms1v102: Dms1v100.asm, dms1v101.asm, init42~1.asm, analog42.asm, aes42.asm,
      sdi42.asm, eerw.asm, DMS1V101.BKX (hex), DMS1V101.XRF/.ERR, dms1.pjt/dms2.pjt
-   - DMSFRTS.cdr (2011 front silk) → assets/dms-front-green.png, dms-front-white.png
-     DMSRear-Demux3.cdr (2011 rear, DEMUX-3) → assets/dms-rear-demux3-white.png
-     DMSREAR_CURVE.cdr (2001 rear, DEMUX-1) → assets/dms-rear-2001-white.png   (archive PDF renders, registered
+   - DMSFRTS.cdr (2011 front silk) → assets/dms-front.svg (Artwork 2026|59; was dms-front-green/-white.png)
+     DMSRear-Demux3.cdr (2011 rear, DEMUX-3) → assets/dms-rear-demux3.svg
+     DMSREAR_CURVE.cdr (2001 rear, DEMUX-1) → assets/dms-rear-2001.svg   (archive PDF renders, registered
      at 200 px/in onto the same frame as dms1.js; colours from DMS1-FrontDemux3-1.jpg / DMS1-RearDemux3-1.jpg)
    - DMS1-Functional.cdr (2011) and DMS1-obsolete.cdr (2004) functional drawings; DMS1manu*.cdr manual covers
    - XTM4 - #MASTER/…/xtm41/PIC VERSIONS/41v203, 41v204/ONLY_DMS1/41v202.asm (scanuart, read8420, txuart)
@@ -378,6 +378,18 @@ function bindKeys(flag, mapFn){ document.addEventListener('keydown', e=>{ if (!w
 
 /* ---------------- product constants ---------------- */
 const P='dms', PW=3420, PH=330;
+/* Artwork 2026|59: panels are the CorelDRAW files themselves (Inkscape/libcdr → tools cut, 200 px per inch), not PNG cuts */
+const DMSA='#DMS #SERIES/XXX - DMS - #OBSOLETE #Archive/';
+const FOOT=[
+ {text:'DMSFRTS.cdr mixes curves and live text: WARD-BECK SYSTEMS and SELECT SERIES are curves, but “DMS-1 DIGITAL MONITOR SYSTEM” is live Hobo BT text and every legend (AUDIO, AES, SDI, GR1–GR4, SWAP, VOLUME, HEADSET and the −34 … 12 scale) is live Arial. The simulator re-anchors the live text against the archive render; the Hobo BT title shows in a substitute font.', src:DMSA+'DMSFRTS.cdr'},
+ {text:'The 2011 front has three button windows: AUDIO and AES each alone, and one long window holding SDI, GR1, GR2, GR3, GR4 and SWAP — the six SDI-group buttons the DEMUX board makes useful.', src:DMSA+'DMSFRTS.cdr'},
+ {text:'The meter scale is not linear: −34 −28 −22 −19 −16 −13 −10 −7 −5 −3 −1 0 1 2 3 6 9 12 under 18 LED columns, 6 dB steps at the bottom and 1 dB steps around 0.', src:DMSA+'DMSFRTS.cdr'},
+ {text:'The SDI connectors swap order between the rear plates: the 2001 DEMUX-1 rear (DMSREAR_CURVE.cdr) reads OUTPUT then INPUT, the 2011 DEMUX-3 rear (DMSRear-Demux3.cdr) reads INPUT then OUTPUT.', src:DMSA+'DMSRear-Demux3.cdr'},
+ {text:'The 2011 rear labels its two extra BNCs “DISEMBEDDED AES OUTPUTS” 1 and 2 — the word is spelled “DISEMBEDDED”, not “de-embedded”. In the CDR it is one live-text object on two lines; libcdr runs the lines together.', src:DMSA+'DMSRear-Demux3.cdr'},
+ {text:'DMSREAR.CDR (5 Apr 2001, 16 KB) is the live-text original of DMSREAR_CURVE.cdr, saved the next day with the text converted to curves; read with libcdr it holds only 12 text objects and no geometry.', src:DMSA+'DMSREAR.CDR'},
+ {text:'DMSFRTStest.cdr (6 Oct 2003) is the whole front panel drawn at 44 % scale (7.5 in wide instead of 17.1 in), saved the same day as the manual DMS1manu.cdr, probably to try the panel at manual-page size (<span class="tag-inf">inferred</span>).', src:DMSA+'DMSFRTStest.cdr'},
+ {text:'Neither rear sheet draws the connectors, only their legends and bracket lines; the IEC inlet, BNC and XLR positions here come from the legend positions (<span class="tag-inf">inferred</span>).', src:DMSA+'DMSREAR_CURVE.cdr'},
+];
 const BTN = ['AUDIO','AES','SDI','GR1','GR2','GR3','GR4','SWAP'];
 const BTN_PIN = ['RA0','RA1','RA2','RA3','RA4','RA5','RC2','RC0'];
 const LED_BIT = [0,1,2,3,4,5,7,6];                 // PORTB bit of each button's LED (analog42 / aes42 / sdi42)
@@ -477,7 +489,7 @@ const A = {
 function panelSVG(layers, inner, label){
   return `<svg viewBox="0 0 ${PW} ${PH}" style="width:100%;max-width:1100px;display:block;border-radius:6px" role="img" aria-label="${label}">
    <defs><filter id="dmsglow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-   <rect width="${PW}" height="${PH}" rx="8" fill="var(--dev)"/>${inner.under||''}${layers.map(l=>`<image href="${ASSET}${P}-${l}.png" width="${PW}" height="${PH}"/>`).join('')}${inner.over||''}</svg>`; }
+   <rect width="${PW}" height="${PH}" rx="8" fill="var(--dev)"/>${inner.under||''}${layers.map(l=>`<image href="${ASSET}${P}-${l}.svg" width="${PW}" height="${PH}"/>`).join('')}${inner.over||''}</svg>`; }
 function frontSVG(t){ const pb=ledsAt(t), w=world(t), dn=btnDown(t); let over='', under='';
   [[60,40],[60,290],[3360,40],[3360,290]].forEach(([x,y])=>under+=screw(x,y));
   [0,1].forEach(ch=>{ const m=meterAt(ch,t); MLEV.forEach((lv,k)=>{ const on=m>=lv-0.01, col=lv>=6?'#ff3b2f':lv>=0?'#ffd23a':'#9cff4a'; over+=led(339+32*k, ch?185:145, on, col, 11); }); });
@@ -487,14 +499,14 @@ function frontSVG(t){ const pb=ledsAt(t), w=world(t), dn=btnDown(t); let over=''
   const v=w.vol, a=(-150+300*v)*Math.PI/180;
   over+=`<g class="vol" style="cursor:pointer"><title>VOLUME — click right/left half or scroll</title><circle cx="2989" cy="165" r="56" fill="transparent"/><circle cx="2989" cy="165" r="40" fill="#1f8f4a" stroke="#0b0c0d" stroke-width="4"/><line x1="2989" y1="165" x2="${2989+Math.sin(a)*38}" y2="${165-Math.cos(a)*38}" stroke="#f2f2ee" stroke-width="7" stroke-linecap="round"/></g>`;
   over+=`<g class="hd" style="cursor:pointer"><title>HEADSET — click to ${w.hdst?'unplug':'plug in'}</title><circle cx="3219" cy="165" r="48" fill="#0a0b0c" stroke="#55595c" stroke-width="5"/><circle cx="3219" cy="165" r="24" fill="#000"/>${w.hdst?'<circle cx="3219" cy="165" r="36" fill="#2b5f9e"/>':''}</g>`;
-  return panelSVG(['front-green','front-white'],{under,over},'DMS-1 front panel, DMSFRTS.cdr 2011'); }
+  return panelSVG(['front'],{under,over},'DMS-1 front panel, DMSFRTS.cdr 2011'); }
 function rearSVG(t){ const w=world(t), dm=D.cfg.dmx; let under=iec(310,41,526,289), over='';
   if (dm==='D3'){ [[1395,'INPUT',true],[1545,'OUTPUT',false],[1697,'AES 1',false],[1850,'AES 2',false]].forEach(([x,l,isIn])=>{ over+=bnc(x,100,isIn&&w.sdi.on,isIn?'sb':'',isIn?'SDI INPUT — click to plug / unplug the SDI source':l+' (DEMUX-3 output)',50); }); }
   else if (dm==='D1'){ [[1715,'OUTPUT',false],[1880,'INPUT',true]].forEach(([x,l,isIn])=>{ over+=bnc(x,110,isIn&&w.sdi.on,isIn?'sb':'',isIn?'SDI INPUT — click to plug / unplug the SDI source':'SDI OUTPUT (DEMUX-1 re-clocked)',50); }); }
   else under+=`<rect x="1600" y="40" width="400" height="160" rx="6" fill="#141517" stroke="#2c2f33" stroke-width="3"/><text x="1800" y="130" text-anchor="middle" font-size="26" fill="#55595c">no DEMUX fitted</text>`;
   over+=bnc(800,186,w.aesB.on,'ab','AES INPUT 75 Ω BNC — click to connect / remove the source',44)+xlr(1052,186,false,w.aesX.on,'ax','AES INPUT 110 Ω XLR — click to connect / remove');
   over+=xlr(2112,186,true,true,'','MONITOR OUTPUT CH A')+xlr(2392,186,true,true,'','MONITOR OUTPUT CH B')+xlr(2692,186,false,w.an[0].on,'a0','ANALOG INPUT CH A — click')+xlr(3092,186,false,w.an[1].on,'a1','ANALOG INPUT CH B — click');
-  return panelSVG([dm==='D3'?'rear-demux3-white':'rear-2001-white'],{under,over}, dm==='D3'?'DMS-1 rear, DMSRear-Demux3.cdr 2011':'DMS-1 rear, DMSREAR_CURVE.cdr 2001'); }
+  return panelSVG([dm==='D3'?'rear-demux3':'rear-2001'],{under,over}, dm==='D3'?'DMS-1 rear, DMSRear-Demux3.cdr 2011':'DMS-1 rear, DMSREAR_CURVE.cdr 2001'); }
 function bindPanel(root){
   root.querySelectorAll('.db').forEach(g=>g.onclick=()=>A.btn(+g.dataset.b));
   bindTrim(root,'vol',d=>A.vol(d)); root.querySelectorAll('.hd').forEach(g=>g.onclick=()=>A.hdst());
@@ -559,7 +571,7 @@ function nowHTML(t){ const s=S(), r=regAt(t), f=frameAt(t), mon=monAt(t), w=worl
    <tr><th>txflags · disctl</th><td class="mono">${r?`${bn(r.txflags)} · ${bn(r.disctl)}`:'—'}</td></tr><tr><th>Monitoring</th><td>${mon.what} · meter L ${meterAt(0,t).toFixed(1)} dB</td></tr>
    <tr><th>Monitor outputs</th><td class="mono">${mon.L>-150? fdb(mon.L+4+volDb(w.vol))+' dBu' : 'silent'} ${inf}</td></tr></table>`; }
 function viewSim(m){ window.__dmsActive=true;
-  m.innerHTML=`${card('Front panel — DMSFRTS.cdr (2011 silk), LEDs driven by the emulated PORTB',`<div id="fp"></div>`)}${card('Rear panel — '+'<span id="rpt"></span>',`<div id="rp"></div><div id="ctl"></div>`)}
+  m.innerHTML=`${card('Front panel — DMSFRTS.cdr (2011 silk), LEDs driven by the emulated PORTB',`<div id="fp"></div><div class="small muted" style="margin-top:3px">Artwork: ${SIM.src(DMSA+'DMSFRTS.cdr','DMSFRTS.cdr')} (24 Mar 2011), GREEN and WHITE plates registered on the HEADSET marker both plates carry; CorelDRAW vector, live-text legends re-anchored.</div>`)}${card('Rear panel — '+'<span id="rpt"></span>',`<div id="rp"></div><div class="small muted" style="margin-top:3px">Artwork: ${SIM.src(DMSA+'DMSRear-Demux3.cdr','DMSRear-Demux3.cdr')} (9 Mar 2011) or ${SIM.src(DMSA+'DMSREAR_CURVE.cdr','DMSREAR_CURVE.cdr')} (6 Apr 2001), WHITE plate, CorelDRAW vector cropped on the panel outline / crop marks.</div><div id="ctl"></div>`)}
    <div class="grid2">${card('What the firmware did (last action)',`<div id="trace" class="log"></div>`)}${card('At the playhead',`<div id="now"></div>`)}</div>
    ${card('Timeline — one second of the real DMS1V10x code, cycle by cycle. Zoom to 5 ms for routines and UART bits.',`<canvas id="tl"></canvas>`)}${card('Action log',`<div id="log" class="log"></div>`)}`;
   const ctl=m.querySelector('#ctl'); let lastCfg='';
@@ -711,6 +723,7 @@ function viewSoft(m){ window.__dmsActive=true;
 /* ---------------- findings ---------------- */
 function viewNotes(m){ window.__dmsActive=false; const s=S(), ps=s.passStat;
   m.innerHTML=card('How this folder relates to the DMS1',`<p><b>Same product, earlier layer.</b> <span class="mono">#DMS #SERIES/XXX - DMS - #OBSOLETE #Archive</span> holds the DMS-1 as designed 2001–2011: the front-panel firmware (the only code of the product), the 2001 DEMUX-1 rear silk, the 2011 front and DEMUX-3 rear silks, both functional drawings and photos of the DEMUX-3 unit (April 2011). <span class="mono">XXX - DMS1 - #Master #OBSOLETE</span> (dms1.js) is the later master: the 2014 DEMUX-4 version, its plate, the test reports and the 2016 drafting silks. The XTM41 code that answers this panel lives in <span class="mono">XTM4 - #MASTER</span> (xtm4.js); the DEMUX code in the DEMUX folders. The panels here use the 2011 artwork on the same coordinate frame as dms1.js, so buttons, meter and connectors sit in the same places in both plugins.</p>`)
+  +card('Artwork 2026|59',`<ol><li><b>Artwork 2026|59: front/rear panels now from</b> ${SIM.src(DMSA+'DMSFRTS.cdr','DMSFRTS.cdr')} (24 Mar 2011), ${SIM.src(DMSA+'DMSRear-Demux3.cdr','DMSRear-Demux3.cdr')} (9 Mar 2011) and ${SIM.src(DMSA+'DMSREAR_CURVE.cdr','DMSREAR_CURVE.cdr')} (6 Apr 2001), converted as vectors instead of PNG cuts of the PDF renders.</li>${FOOT.map(f=>`<li>${f.text} <span class="muted small">— ${SIM.src(f.src)}</span></li>`).join('')}</ol>`)
   +card('Findings — from running the code',`<ol>
    <li><b>The archive's hex backup is V102, and the source rebuilds it exactly.</b> Assembling <span class="mono">Dms1v102/dms1v101.asm</span> gives 1094 words that match <span class="mono">DMS1V101.BKX</span> (MPLAB's backup of the previous HEX, 25 Feb 2011 08:55) with no differences. So the deleted factory HEX can be recreated from this folder. The V102 project still builds <span class="mono">DMS1V101.HEX</span> from <span class="mono">dms1v101.asm</span>, a source of version confusion.</li>
    <li><b>Root cause of the start-up SDI flashing: <span class="mono">disctl</span> is never cleared.</b> INIT clears most variables but not <span class="mono">disctl</span>, <span class="mono">lockflash4</span> or <span class="mono">flag0</span> bits 0–1. With a restored SDI mode, a power-on RAM value with <span class="mono">disctl,1</span> = 1 sends <span class="mono">sdimode</span> into <span class="mono">sdidis3</span>: the SDI LED flashes from the first pass until the first DEMUX reply (≈1 s with v101). It depends on the RAM pattern, which matches the report's “sometime when startup”. The v102 fix (a 0.64 s delay) only shortens this window. <span class="mono">clrf disctl</span> in INIT would remove it ${inf}.</li>
@@ -744,6 +757,7 @@ SIM.register({
   summary:'The DMS-1 Digital Monitor System design archive: front-panel PIC firmware DMS1V100–V102 and the 2001/2011 panel silks. This plugin assembles the archived source (matching the V102 hex backup word for word) and runs it on an emulated PIC16F73 with its USART, 93LC66B EEPROM and the XTM41 / DEMUX-1 / DEMUX-3 boards on the RS-485 bus.',
   highlights:['Real code, cycle by cycle: PC, source line and RAM at the playhead','2011 front and 2001/2011 rear silks from this folder, clickable','v100 / v101 / v102 compared on the same second, with file diffs','Reproduces the v100 bus collision and the start-up SDI flash (uncleared disctl)','Measured main-loop pass ≈100–120 µs (not 150 cycles), EEPROM save ≈20 ms stall'],
   depth:'Full model',
+  footnotes:FOOT,
   stepUnits:[{label:'1 instruction cycle (0.81 µs)',period:()=>TCY},{label:'1 main() pass (median)',period:()=>S().passStat.med*TCY||1e-4},{label:'1 UART bit',period:()=>BIT},{label:'1 UART byte',period:()=>BYTE},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s'],[0.3,'300 ms (one poll)'],[0.05,'50 ms'],[0.006,'6 ms (one exchange)'],[0.0015,'1.5 ms (a byte)'],[0.0004,'400 µs (passes)'],[0.0001,'100 µs (routines)']], defaultZoom:0,
   tabs:[{id:'sim',label:'Simulator',render:viewSim},{id:'tutorial',label:'Tutorial',render:viewTutorial},{id:'second',label:'One second',render:viewSecond},{id:'block',label:'Block diagram',render:viewBlock},

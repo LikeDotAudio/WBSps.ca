@@ -318,7 +318,14 @@ function frontSVG(t){
 }
 /* Rear terminal: BNC3 (MF82/10: input + loop, 8 outputs) and BNC1 (MF82/12: input, 6 outputs), drawn from the
    2012 manual page "D8204 TERMINAL OPTIONS" — layout only, not to scale. */
+/* Rear module art: BNC1 and BNC3 of “D8204 - rear module options.cdr” (2012-01-16), converted with Inkscape
+   (assets/d8204b-rear-bnc1/3.svg). Centres below are the BNC rings in that file (CorelDRAW points). The hand-drawn
+   module stays on the “drawn” checkbox. */
+const D8204_RO = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr';
+const ART_BNC = { BNC1:{vb:[328,192,112,208], in:[373.4,229.2], out:[[396.4,253.3],[373.4,277.6],[396.4,301.7],[373.3,326.1],[396.7,351.0],[373.3,375.5]]},
+  BNC3:{vb:[512,196,124,204], in:[556.9,227.5], loop:[589.7,227.5], out:[[556.9,264.2],[589.7,264.2],[556.9,300.9],[589.7,300.9],[556.9,338.3],[589.7,338.3],[556.9,375.7],[589.7,375.7]]} };
 function rearSVG(t){
+  if (!D.rearDrawn) return rearArtSVG(t);
   const bnc=(x,y,lb,state,act,title)=>{
     const col = state==='aes'?'var(--led-g)':state==='free'?'var(--warn)':state==='alarm'?'var(--bad)':state==='on'?'var(--accent)':'#666';
     return `<g ${act?`class="d4b-hot" data-a="${act}" style="cursor:pointer"`:''}><circle cx="${x}" cy="${y}" r="21" fill="#a98d3c" stroke="#5e4d1c" stroke-width="2"/><circle cx="${x}" cy="${y}" r="13" fill="#e1cf8c"/><circle cx="${x}" cy="${y}" r="4" fill="#6d5410"/>
@@ -337,7 +344,19 @@ function rearSVG(t){
     s+=bnc(85,52,'INPUT',inS,'in','DIGITAL INPUT. Click to pull / plug the input at the playhead.');
     for (let k=0;k<6;k++) s+=bnc(k%2?85:145, 92+k*36, 'OUT '+(k+1), oState(k), 'out'+k, oTitle(k));
   }
-  return s+`</svg>`;
+  return s+`</svg><div class="small muted"><label><input type="checkbox" class="d4b-drawn" checked> drawn module</label> (untick for the CorelDRAW sheet)</div>`;
+}
+function rearArtSVG(t){
+  const A_=ART_BNC[D.rear==='BNC3'?'BNC3':'BNC1'], [x0,y0,w,h]=A_.vb;
+  const col=st=> st==='aes'?'#18b84a':st==='free'?'#e0a800':st==='alarm'?'#d8342c':st==='on'?'#2f7de1':null;
+  const hot=(p,state,act,title,tag)=>{ const c=col(state); return `<g class="d4b-hot" data-a="${act}" style="cursor:pointer"><title>${title}</title><circle cx="${p[0]}" cy="${p[1]}" r="14" fill="rgba(0,0,0,0)"/>${c?`<circle cx="${p[0]}" cy="${p[1]}" r="13.6" fill="none" stroke="${c}" stroke-width="2.2" opacity=".9"/><circle cx="${p[0]+11}" cy="${p[1]-11}" r="2.6" fill="${c}"/>`:''}${tag?`<text x="${p[0]}" y="${p[1]+4}" text-anchor="middle" font-size="8" font-weight="700" fill="#d8342c">${tag}</text>`:''}</g>`; };
+  const oState=k=>{ const o=outAt(k,t); if (o.absent) return null; if (o.alarm) return o.low?'alarm':'off'; return o.s==='aes'?'aes':o.s==='free'?'free':'off'; };
+  const oTitle=k=>{ const o=outAt(k,t); if (o.alarm) return `OUT 8 BNC = ALARM (P1-21, NO_LOCK open collector): ${o.low?'pulled low — card unlocked':'open — locked'}`; return `DIGITAL OUT ${k+1} (P1-${OUTS[k].pin}, ${OUTS[k].drv}): ${TXTXT[o.s]}, ${o.vpp.toFixed(2)} V p-p ${D.load[k]?'into 75 Ω':'unterminated'}. Click to ${D.load[k]?'remove':'add'} the 75 Ω load.`; };
+  let s=`<svg viewBox="${x0} ${y0} ${w} ${h}" style="width:100%;max-width:250px;display:block;border-radius:4px" role="img" aria-label="${D.rear} from the CorelDRAW rear-module sheet"><rect x="${x0}" y="${y0}" width="${w}" height="${h}" fill="#fff"/><image href="siumulation-plugins/assets/d8204b-rear-${D.rear==='BNC3'?'bnc3':'bnc1'}.svg" x="${x0}" y="${y0}" width="${w}" height="${h}"/>`;
+  s+=hot(A_.in, inputOn(t)?'on':'off', 'in', 'DIGITAL INPUT. Click to pull / plug the input at the playhead.');
+  if (A_.loop) s+=hot(A_.loop, D.loop==='75'?'on':'off', 'loop', `INPUT LOOP: ${D.loop==='75'?'cable to a terminated device':'open'} (click)`);
+  A_.out.forEach((p,k)=>{ s+=hot(p, oState(k), 'out'+k, oTitle(k), k===7&&D.h1==='ALARM'?'ALM':''); });
+  return s+`</svg><div class="small muted">CorelDRAW artwork: ${D.rear} on ${SIM.src(D8204_RO,'D8204 - rear module options.cdr')} (2012-01-16); the D8204B shares the D8204’s modules. Ring colour: green AES, amber free-running, red alarm, blue input present. <label><input type="checkbox" class="d4b-drawn"> drawn module</label></div>`;
 }
 function bindHot(root){
   root.querySelectorAll('.d4b-hot').forEach(g=>g.onclick=()=>{ const a=g.dataset.a;
@@ -345,6 +364,7 @@ function bindHot(root){
     else if (a==='in') A.input(!inputOn(SIM.t)); else if (a==='loop') A.set('loop', D.loop==='75'?'open':'75', `Input loop BNC: ${D.loop==='75'?'open':'cable to a terminated device'}`);
     else if (a.startsWith('out')){ const k=+a.slice(3); if (!(k===7&&D.h1==='ALARM')) A.load(k); } });
   root.querySelectorAll('[data-p]').forEach(r=>r.onclick=()=>{ D.sel=r.dataset.p; SIM.refresh(); });
+  root.querySelectorAll('.d4b-drawn').forEach(c=>c.onchange=()=>{ D.rearDrawn=c.checked; SIM.refresh(); });
 }
 document.addEventListener('keydown', e=>{
   if (!window.__d8204bActive || (e.target.matches && e.target.matches('input,select,textarea'))) return;
@@ -736,6 +756,9 @@ function viewSoft(m){
 
 /* ---------------- findings ---------------- */
 const FINDINGS = [
+  ['Artwork '+SIM.year(2026)+': rear modules from the CorelDRAW sheet', `The BNC1 and BNC3 modules are now drawn from ${SIM.src(D8204_RO,'D8204 - rear module options.cdr')} (2012-01-16), converted with Inkscape, and every BNC hotspot sits on a connector in that drawing. No sheet exists for the D8204B: it uses the D8204’s modules, and the D8204B folder holds only PCB silk (already used for the board view). The hand-drawn module is on the “drawn module” checkbox.`],
+  ['The same card is “1x6” or “1x8” depending on the rear module', 'The D8204 sheet captions BNC1 “D8204-1x6 AES/EBU Distribution Amplifier” and BNC3 “D8204-1x8 …”. The MF82/12 BNC1 module has room for only six outputs, so outputs 7 and 8 (and the OUT 8 alarm option) exist only on the MF82/10 BNC3.'],
+  ['BNC3’s input has a loop-through, BNC1’s does not', 'BNC3 pairs the DIGITAL INPUT with an INPUT LOOP BNC joined by a bar; BNC1 has a single input. The numbers 1–6 / 1–8 printed beside the BNCs are the output numbers.'],
   ['The firmware drives a second receiver that is not on the board', 'refresh8420_2 and the AES2 half of read8420s talk to CS2 = RC4. In d8204B-ISS3.net the net CS2 has only one node (U25-42). Half of every pass (863 + 85 cycles, ≈0.77 ms) is spent writing 19 bytes to nobody, and lock_8420 bit 1 is read from a floating CDOUT line. The code came from a two-receiver design (its names are cs8420reg1x/2x, “aud4,aud3,aud2,aud1”); the D8204A firmware of June 2005 is the same file with a CS4392 DAC added.'],
   ['Every register is rewritten every 1.645 ms', 'MAIN has no delay and no change test: 38 bytes of configuration plus a 6-byte read, about 608 times a second, with CCLK toggling almost continuously. The CS8427 datasheet asks for the control port to stay static when idle to avoid interference. The upside: a register upset by a glitch is repaired within a pass.'],
   ['The first configuration write probably misses', 'INIT sets PORTC = 0, so CS1 (RC2) is already low when RESET (RC7) is released. The CS8427 selects SPI mode on a high→low CS edge after reset (datasheet §9); there is none before INIT\'s refresh8420_1, so that write is likely taken as I²C and ignored. The CS line goes high at its end, and pass #0 of MAIN configures the part properly. (Inferred; the simulator starts the chip at pass #0.)'],
@@ -774,7 +797,13 @@ SIM.register({
   product:'D8204B', year:2005, family:'8200 Distribution Series',
   folder:'#MF8200 #SERIES/D8204B - #Master #MF82',
   summary:'MF82 plug-in card that receives one AES/EBU feed on 75 Ω coax, reclocks it through a CS8427 transceiver and drives eight 75 Ω outputs. A PIC16F874 rewrites the CS8427 every 1.6 ms, reads its UNLOCK bit, drives the LOCK / NO LOCK LEDs and an alarm, and switches the transmitter off when the input is lost.',
-  highlights:['Real ISS3 silkscreen and copper from the Gerbers','Switchable cable EQ and termination with stage-by-stage levels','Every SPI byte and CCLK pulse of the 2021-cycle main loop','Lost-input sequence: UNLOCK → LEDs → TXOFF','9-step tutorial from the 2012 manual','Findings: a phantom second receiver, CS8420 leftovers, 20-bit output'],
+  highlights:['Rear BNC modules from the CorelDRAW D8204 sheet','Real ISS3 silkscreen and copper from the Gerbers','Switchable cable EQ and termination with stage-by-stage levels','Every SPI byte and CCLK pulse of the 2021-cycle main loop','Lost-input sequence: UNLOCK → LEDs → TXOFF','9-step tutorial from the 2012 manual','Findings: a phantom second receiver, CS8420 leftovers, 20-bit output'],
+  footnotes:[
+    {text:'The D8204 rear-module sheet calls the card “1x6” on BNC1 and “1x8” on BNC3; on an MF82/12 (BNC1) outputs 7 and 8 have no connector.', src:D8204_RO},
+    {text:'BNC3 is marked “*MF8210 Only”; it carries an INPUT LOOP BNC bridged to the input.', src:D8204_RO},
+    {text:'There is no rear-module sheet for the D8204B; it uses the D8204’s BNC1/BNC3 modules.', src:'#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/README.md'},
+    {text:'The “INPUT” legend on BNC1 is drawn over the input BNC’s own flange in the CorelDRAW file.', src:D8204_RO},
+  ],
   depth:'Full model',
   stepUnits:[
     {label:'1 MCU loop pass', period:()=>PASS},

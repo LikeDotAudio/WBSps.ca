@@ -26,6 +26,7 @@
 (function(){
 'use strict';
 const SIM = window.SIM;
+const AVB_DIR = '#AV #SERIES/XXX- AVB  VID BUDDY - #OBSOLETE #Archive/', AVB_SILK = AVB_DIR+'AVB - #SILK/';
 
 /* ================================================================
    1. FIRMWARE SOURCES (verbatim; CR/LF and ^Z removed). Include names as the sources spell them.
@@ -847,7 +848,7 @@ function inspectHTML(t){
 }
 function viewSim(m){
   m.innerHTML = `<div class="grid2">
-    <div>${card('Front panel at the playhead (silk: avb1-frontssv1.cdr)', `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start"><div id="fp" style="flex:1 1 300px"></div><div style="flex:0 1 200px"><div id="sp"></div></div></div><div class="small muted" style="margin-top:6px">Click a pushbutton (ON/OFF uses the press length set below; the manual says hold for about 2 s), a connector on the side panel, or the HEADSET knob. Hover a button for its U200 pins.</div>`)}</div>
+    <div>${card('Front panel at the playhead (silk: avb1-frontssv1.cdr)', `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start"><div id="fp" style="flex:1 1 300px"></div><div style="flex:0 1 200px"><div id="sp"></div></div></div><div class="small muted" style="margin-top:6px">Click a pushbutton (ON/OFF uses the press length set below; the manual says hold for about 2 s), a connector on the side panel, or the HEADSET knob. Hover a button for its U200 pins.<br>CorelDRAW silk: front ${SIM.src(AVB_SILK+'avb1-frontssv1.cdr','avb1-frontssv1.cdr')} (2002-02-13), side ${SIM.src(AVB_SILK+'avb1-sidessv2curve.cdr','avb1-sidessv2curve.cdr')} and rear ${SIM.src(AVB_SILK+'avb1-REARssv3curve.cdr','avb1-REARssv3curve.cdr')} (both 2004-01-07).</div>`)}</div>
     <div>${card('What the firmware did', `<div id="trace" class="log"></div>`)}${card('Signals and what-ifs', `<div id="ctl"></div>`)}${card('State at the playhead', `<div id="insp"></div>`)}</div></div>
   ${card('Timeline — the three PICs, their link and the displays (click to seek, wheel to zoom)', `<canvas id="tl"></canvas><p class="small muted">Everything here comes from running <span class="mono">u200v104.asm</span>, <span class="mono">u201v100.asm</span> and <span class="mono">avb1-1v104.asm</span> on three PIC16F874 models at 4.9152 MHz (X1/X201 in the BOM, 813.8 ns per cycle), wired as in <span class="mono">avb1-2iss3.net</span>. Zoom below 12 ms to see the UART bits. The CS8415 lock time and the peak-detector calibration are ${inf}.</p>`)}
   ${card('Action log', `<div id="log" class="log"></div>`)}`;
@@ -1066,6 +1067,8 @@ function viewFindings(m){
     ${li('ADV7175 and back.', 'v1.03 (June 2003) changed the I²C table for an ADV7175 (and the #working folder of 31 March 2005 still has it). v1.04 (30 March 2005) restores the ADV7171 values, and the 2006 ISSUE 3 BOM lists an ADV7171.')}
     ${li('Project files point elsewhere.', 'Every .pjt says Path=M:\\AmS\\PROGRAM\\ and source 0=ams1v101.asm, so they were cloned from the AMS1 project. v104/avb.mcp opens avb1-1v103.asm. U201 #INCLUDEs “bar_me~1.ASM” and “ADCONV~1.ASM” (8.3 short names of bar_meter.asm and ADCONVERTER.ASM), so it only builds on the original FAT/short-name drive. The .err files for v1.04/1.05 show Error[173] “source file path exceeds 62 characters” on H:\\ENGINEERING\\WBSPRODUCTS\\…, and u200v105.err a 16F874/16F747 processor mismatch. All three need /c- and /rdec (case-insensitive, decimal), as the project options say.')}
     ${li('U201 has no crystal.', 'It is clocked from U200’s OSC2 through R242 (net OSCOUT), so both front PICs share X201.')}
+    ${li('Artwork '+Y(2026)+': already CorelDRAW.', `The panels were built from the CorelDRAW silks in the first place: ${SIM.src(AVB_SILK+'avb1-frontssv1.cdr','avb1-frontssv1.cdr')}, ${SIM.src(AVB_SILK+'avb1-sidessv2curve.cdr','avb1-sidessv2curve.cdr')} and ${SIM.src(AVB_SILK+'avb1-REARssv3curve.cdr','avb1-REARssv3curve.cdr')}, with the ink layers cut from them. No further artwork turned up: the other AVB CDRs are earlier issues (REARssv1/ssv2, sidessv1), Backup_of_ copies, the manual page ${SIM.src(AVB_DIR+'AVB1Manual Page6.cdr','AVB1Manual Page6.cdr')} with its control legends, and ${SIM.src(AVB_DIR+'AVBControls.pdf','AVBControls.pdf')}, a CorelDRAW 10 print of the meter and control legends. The front exists only as a live-text issue 1. There is no “curve” front file, unlike the side and the rear.`)}
+    ${li('The meter scale skips −12.', `${SIM.src(AVB_DIR+'AVBControls.pdf','AVBControls.pdf')} prints the bar legend as −30 −28 −24 −20 −16 −8 −4 −2 −1 R +1 +2 +3 +6 +9 +12. The step from −16 to −8 is the only 8 dB gap, so there is no −12 mark, and the reference is the letter “R”, not 0.`)}
     ${li('Rear label versions.', 'avb1-REARssv2 (Oct 2003): “110-220 VAC 50-60 Hz, 1 A.S.B.”; REARssv3 (Nov 2003): “120mA CHARGING / 160mA CHARGING IN USE” and a typo “450mA MAXC”; REARssv3temp/curve (Jan 2004): “60mA CHARGING MIN / 160mA CHARGING MAX”, internal DC +24 V 300 mA, battery BBS2085 +12 V NiCd 450 mA max. The manual says 90–230 V.')}
     ${li('Battery size, compared with RD69.', 'The label’s 450 mA maximum with the manual’s 2.0 h minimum (SDI + embedded) suggests about 0.9 Ah, about 11 Wh, usable. The RD69 plugin (rd69-vidbuddy-madibuddy.js) assumed a 21.6 Wh pack for the same hours; on this evidence the AVB1 pack was about half that ' + inf + '.')}
     ${li('Front panel changes.', 'AVB1-M3 rev 2: “MOUNTING HOLES AND CUTOUT ARE CHANGED FOR NEW DISPLAY MONITOR”; rev 3: “.352 SQUARE HOLE WAS .340” (13 button holes). After painting, the panel goes back to the metal shop for paint removal (AVB1-M3-PRP; grounding areas ' + inf + ').')}
@@ -1087,6 +1090,14 @@ SIM.register({
   product:'AVB1 VIDBuddy', year: 2002, family:'Obsolete products', folder:'#AV #SERIES/XXX- AVB  VID BUDDY - #OBSOLETE #Archive',
   summary:'The 2002 “Audio/Video Buddy” handheld monitor: SDI or analog video on an LCD, and analog, AES or any of 8 embedded AES pairs on a 2 × 17 LED meter and the headset, from a 12 V NiCd pack. Three PIC16F874s run the archived firmware cycle by cycle in this model: U200 (buttons, battery), U201 (meter) and U4 (CS8415, GS9023, ADV7171), talking over a 9600 Bd link.',
   highlights:['Three archived MPASM programs assembled and run on three PIC16F874 cores','Front panel from the avb1-frontssv1 CorelDRAW silk; side connector and rear label panels','Hold-to-start, lamp flashing and the 2 s meter blackout, all from the code','U200 ↔ U4 two-byte protocol decoded live; CS8415/GS9023/ADV7171 bus traffic','Battery and charging thresholds from adconv~3.asm','Findings: stale protocol comments, mirrored button nets, WDT reset trick'],
+  footnotes:[
+    {text:'The meter legend runs −30 −28 −24 −20 −16 −8 …: there is no −12 mark, and the reference is labelled “R”.', src:AVB_DIR+'AVBControls.pdf'},
+    {text:'The front silk exists only as issue 1 with live text (avb1-frontssv1.cdr, 2002); the side and rear have “curve” (text-to-outline) versions from January 2004.', src:AVB_SILK+'avb1-frontssv1.cdr'},
+    {text:'The November 2003 rear label has the typo “450mA MAXC”.', src:AVB_SILK+'avb1-REARssv3.cdr'},
+    {text:'The October 2003 rear label reads “110-220 VAC 50-60 Hz”; the manual says 90–230 V.', src:AVB_SILK+'avb1-REARssv2.cdr'},
+    {text:'Three silks are stored twice, as Backup_of_ copies: REARssv3, REARssv3temp and sidessv2.', src:AVB_SILK+'Backup_of_avb1-sidessv2.cdr'},
+    {text:'AVB1Manual Page6.cdr and AVB1MANU.cdr are each stored twice: in the product folder and again in “AVB - #Archive”.', src:AVB_DIR+'AVB - #Archive/AVB1MANU.cdr'},
+  ],
   depth:'Full model',
   stepUnits:[{label:'1 ms', period:()=>0.001},{label:'U200 pass ≈ 0.3 ms', period:()=>0.0003},{label:'1 UART byte (1.042 ms)', period:()=>BYTE_CY*TCY},{label:'U201 Timer2 (4.72 ms)', period:()=>161*4*9*TCY},{label:'10 ms', period:()=>0.01},{label:'100 ms', period:()=>0.1}],
   zooms:[[3,'3 s (whole run)'],[1,'1 s'],[0.25,'250 ms'],[0.05,'50 ms (10 meter interrupts)'],[0.01,'10 ms (UART bits)'],[0.002,'2 ms'],[0.0005,'500 µs']],

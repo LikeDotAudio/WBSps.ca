@@ -21,7 +21,9 @@
    - .../SLM-1/SLM1 MANUAL.pdf (2003: 41 LEDs, 7-LED phase, LOCK/ERROR), SLM1 MANUAL mod.pdf (2007),
        SLM1 MANUAL .doc (2014: 57 LEDs)
    - SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr and SLM-1M2-SILK(CURVE).cdr
-       (the cuts made for slm.js, copied here as rd86-slm1d-with-old-board-*.png), PICS/*.jpg
+       (2026|59 artwork pass: converted to vector with Inkscape, GREEN and WHITE plates registered on one panel,
+        panel outline dropped, drilled holes kept as grey outlines → assets/rd86-slm1d-with-old-board-*.svg,
+        placed on the same 200 dpi px frame the controls were measured on), PICS/*.jpg
    - siumulation-plugins/slm.js and pod3a.js (their decoded tables and head wiring are reused)
    Anything not in those files is marked "inferred" on screen.
    ===================================================================== */
@@ -337,7 +339,7 @@ function newSVG(){
   s+=`<rect id="rdNP0" x="${BAR_X[0]-8}" y="1061" width="16" height="11" rx="2" fill="#3a2a10"/><rect id="rdNP1" x="${BAR_X[1]-8}" y="1061" width="16" height="11" rx="2" fill="#3a2a10"/>`;
   for (let q=0;q<9;q++) s+=`<rect id="rdNF${q}" x="${PH_X(q)-5.5}" y="${PH_Y-5}" width="11" height="10" rx="1.6" fill="${OFF_COL[2]}"/>`;
   s+=`<rect id="rdNNL" x="262" y="678" width="12" height="10" rx="2" fill="${OFF_COL[0]}"/><rect id="rdNLK" x="262" y="786" width="12" height="10" rx="2" fill="${OFF_COL[2]}"/></g>
-    <image href="${ASSET}front-green.png" width="318" height="1344"/><image href="${ASSET}front-white.png" width="318" height="1344"/>
+    <image href="${ASSET}front-green.svg" x="-1" y="-1" width="321.4" height="1348.2"/><image href="${ASSET}front-white.svg" x="-1" y="-1" width="321.4" height="1348.2"/>
     <text id="rdNmsg" x="159" y="1290" text-anchor="middle" font-size="22" fill="#ffb43a"></text></svg>`;
   return s;
 }
@@ -396,7 +398,7 @@ function rearSVG(){
     <g class="rdPwr" style="cursor:pointer"><rect x="194" y="1045" width="71" height="71" fill="#121314" stroke="#3b3e42" stroke-width="2"/><circle cx="229.5" cy="1080" r="17" fill="#050505" stroke="#555"/><circle cx="229.5" cy="1080" r="4" fill="#c9c9c9"/>
       ${D.power?`<rect x="219" y="1080" width="21" height="287" fill="#222"/><circle cx="229.5" cy="1080" r="22" fill="#2b2b2b" stroke="#111" stroke-width="3"/>`:''}
       <rect x="190" y="1040" width="80" height="80" fill="transparent"><title>6 V adapter — click to ${D.power?'unplug':'plug in'}</title></rect></g>
-    <image href="${ASSET}rear-white.png" width="339" height="1367" style="pointer-events:none"/></svg>`;
+    <image href="${ASSET}rear-white.svg" x="-2" y="-1" width="343.9" height="1370.9" style="pointer-events:none"/></svg>`;
 }
 function bindRear(root){
   root.querySelectorAll('.rdDip').forEach(g=>g.addEventListener('click',()=>A.dip(g.dataset.d)));
@@ -530,7 +532,7 @@ function headsHTML(){
   return `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start">
     <div style="width:170px"><div class="small"><b>BEFORE</b> · v1.01 (${Y(2005)}) · 41-LED head</div><div class="hOld">${oldSVG()}</div></div>
     <div style="width:190px"><div class="small"><b>AFTER</b> · <span class="engName">${ENG[D.eng]}</span> · SLM1-4 head</div><div class="hNew">${newSVG()}</div></div>
-    <div style="width:150px"><div class="small"><b>Rear</b> · old board</div><div class="hRear">${rearSVG()}</div></div></div>`;
+    <div style="width:150px"><div class="small"><b>Rear</b> · old board</div><div class="hRear">${rearSVG()}</div></div></div><p class="small muted">Artwork: ${SIM.src('#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr','SLM-1M7-SILK(CURVE).cdr')} (lens, GREEN + WHITE plates) and ${SIM.src('#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M2-SILK(CURVE).cdr','SLM-1M2-SILK(CURVE).cdr')} (rear), both dated JUN.06/16 on the sheet.</p>`;
 }
 function mountHeads(m){
   const h=m.querySelector('#heads'); h.innerHTML=headsHTML(); bindRear(h);
@@ -805,6 +807,7 @@ function viewSoft(m){
 function viewNotes(m){
   window.__rd86Active=false;
   m.innerHTML=card('What RD86 decided, and what became of it', `<ol>
+    <li><b>Artwork 2026|59:</b> the lens and rear panels now come from ${SIM.src('#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr','SLM-1M7-SILK(CURVE).cdr')} and ${SIM.src('#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M2-SILK(CURVE).cdr','SLM-1M2-SILK(CURVE).cdr')} (sheets dated JUN.06/16) as vector art, POD green and white ink, with the drilled holes shown. What the art reveals is in the footnotes.</li>
     <li><b>Decided: start from the digital master v1.01, not v1.02.</b> By MD5, 29 of the 40 files in <span class="mono">V030000/</span> are byte-identical to <span class="mono">sharc/slm-1-v1.00</span> and <span class="mono">v1.01</span> (June 2005). <span class="mono">slm-1_INIT.ASM</span> (9bdac393) differs from v1.02 and v1.02test. So RD86 does not have v1.02's "move flg9 clear in isr to lengthen pulse for pic L/R test". If the old board's PIC relied on that pulse, RD86 lost it ${inf}.</li>
     <li><b>Decided: borrow the 57-LED display engine from the analog SLM-1A.</b> The eight added files (<span class="mono">slm1_vu_data1-3.dat</span>, <span class="mono">slm1_pk_data1-3.dat</span>, <span class="mono">slm1_vu_data.c</span>, <span class="mono">slm1_vu_data1</span>) are identical to <span class="mono">slm1v102 analog</span> and to both POD3A copies. They are not in any digital tree. The rewritten <span class="mono">shift_led_data</span> and <span class="mono">translate_meter_results</span> follow slm1v102 analog almost line for line (BIT31 side select, <span class="mono">high_byte</span>, "+6", select bits 17/16).</li>
     <li><b>Decided: keep the digital front end.</b> Everything AES-specific stays from v1.01: CS8427 SPORT1 control DMA, <span class="mono">refresh_lock_status</span>, "force meter off if no lock", FLG10O "FOR PIC", <span class="mono">sample_rate_calc</span> with 32/44.1/48/96 kHz constants, and <span class="mono">read_dipswitch</span> "·4 − 6", which gives the manual's −20/−18/−16/−14 dBFS. Also kept: v1.01's <span class="mono">vumeter.asm</span> (e0655fbc), not the analog 52 kHz one.</li>
@@ -849,6 +852,16 @@ SIM.register({
   zooms:[[1,'1 s (whole second)'],[0.1,'100 ms'],[0.02,'20 ms (L/R cycles)'],[0.004,'4 ms (shift bursts)'],[0.0015,'1.5 ms (one shift)'],[0.0002,'200 µs (samples)']],
   defaultZoom:0,
   init(){ SK=''; },
+  footnotes: [
+    { text: 'The SLM-1M7 lens scale has no signs: it reads 20 down to 0 and then 1, 2 … 20, 22 … 52 again, so “+” and “−” are left to the eye. The 57 legends match the 57 LEDs per bar.', src: '#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr' },
+    { text: 'The lens says NO LOCK and LOCK, while the 2003 SLM1 manual names the two status LEDs LOCK and ERROR.', src: '#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr' },
+    { text: 'A digital AES level meter is titled “LOUDNESS METER” on both the lens and the rear panel.', src: '#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M2-SILK(CURVE).cdr' },
+    { text: 'A small “PR” legend sits between the L and R letters under the bars; it labels the PR LEDs (U5 OUT1, D0 = PR in the netlist), but nothing in the archive spells out what PR stands for.', src: '#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr' },
+    { text: 'The green window border is broken on the right-hand side to make room for the NO LOCK and LOCK legends.', src: '#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M7-SILK(CURVE).cdr' },
+    { text: 'The rear sheet is captioned “(75/110)”: one panel for both input options, yet the INPUT legend reads “+ - G” (screw-terminal style) under a round D-flat hole.', src: '#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M2-SILK(CURVE).cdr' },
+    { text: 'The rear panel has a small round hole below and between INPUT and PWR with no legend at all.', src: '#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M2-SILK(CURVE).cdr' },
+    { text: 'Every SLM silk in the 2016 artwork folder is stored twice (live text and “(CURVE)”), each with its own PDF; the M13 pair is named with a stray space (“SLM-1M13-SILK .cdr”).', src: '#SLM #SERIES - To Delete/SLM & SLM-RMK1&2 - #ARTWORK #DA #2016/SLM-1M13-SILK .cdr' },
+  ],
   tabs:[
     {id:'sim', label:'Simulator (before / after)', render:viewSim},
     {id:'tutorial', label:'Tutorial: doing the port', render:viewTutorial},

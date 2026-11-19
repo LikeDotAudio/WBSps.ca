@@ -98,16 +98,32 @@ function handleSVG(){
   // M8200-004: “8200 CUSTOM PCB HANDLE”, 1 place .250 dia hole, inside bend .030″, clear zinc; outline proportions inferred
   return `<svg viewBox="0 0 300 200" style="width:100%;max-width:300px"><path d="M40 30 h60 v140 h-60 z" fill="#c9cbc4" stroke="#777"/><path d="M100 30 h70 q10 0 10 10 v120 q0 10 -10 10 h-70" fill="none" stroke="#777" stroke-width="6"/><circle cx="70" cy="60" r="10" fill="var(--panel)" stroke="#555"/><text x="70" y="64" font-size="8" text-anchor="middle" fill="#333">.250</text><text x="70" y="120" font-size="11" text-anchor="middle" fill="#333" transform="rotate(90 70 120)">D8204C</text><text x="190" y="40" font-size="10.5" fill="var(--ink)">8200 custom PCB handle</text><text x="190" y="56" font-size="10" fill="var(--ink2)">clear zinc plate</text><text x="190" y="72" font-size="10" fill="var(--ink2)">#4 grained finish</text><text x="190" y="88" font-size="10" fill="var(--ink2)">bend radius .030″</text><text x="190" y="104" font-size="10" fill="var(--ink2)">.250″ hole: toggle</text><text x="190" y="120" font-size="10" fill="var(--ink2)">switch version</text><text x="10" y="190" font-size="9.5" fill="var(--ink2)">Outline ${'inferred'}; notes from M8200-004 handle.dwg</text></svg>`;
 }
+/* ---------------- rear-module artwork (CorelDRAW, 2026|59 pass) ----------------
+   BNC1/BNC3 from “D8204 - rear module options.cdr”, BNC2/BNC4 from “D8204A - rear module options.cdr” (both 2012-01-16),
+   converted with Inkscape into assets/m8200-extender-handle-bnc1…4.svg. BNC centres are the connector rings in those files. */
+const RO_D8204 = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204 - rear module options.cdr', RO_D8204A = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/D8204A - rear module options.cdr';
+const MOD_ART = {
+  BNC1:{vb:[328,192,112,208], src:RO_D8204, at:{IN:[373.4,229.2],'1':[396.4,253.3],'2':[373.4,277.6],'3':[396.4,301.7],'4':[373.3,326.1],'5':[396.7,351.0],'6':[373.3,375.5]}},
+  BNC2:{vb:[294.5,192,186,222], src:RO_D8204A, at:{IN:[359.7,228.7],'1':[382.5,252.6],'2':[359.7,276.8],'3':[382.5,300.9],'4':[359.6,325.1]}},
+  BNC3:{vb:[512,196,124,204], src:RO_D8204, at:{IN:[556.9,227.5],LOOP:[589.7,227.5],'1':[556.9,264.2],'2':[589.7,264.2],'3':[556.9,300.9],'4':[589.7,300.9],'5':[556.9,338.3],'6':[589.7,338.3],'7':[556.9,375.7],'8':[589.7,375.7]}},
+  BNC4:{vb:[481,200,190,214], src:RO_D8204A, at:{IN:[547.4,227.2],LOOP:[580.4,227.2],'1':[547.3,264.1],'2':[580.3,264.1],'3':[547.4,301.0],'4':[580.4,301.0]}},
+};
+function moduleArtSVG(){ const m=MODS[D.mod], a=MOD_ART[D.mod], [x,y,w,h]=a.vb, ms=moduleState();
+  let s=`<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:340px;display:block;margin:auto;border-radius:4px" role="img" aria-label="${D.mod} from the CorelDRAW rear-module sheet"><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#fff"/><image href="siumulation-plugins/assets/m8200-extender-handle-${D.mod.toLowerCase()}.svg" x="${x}" y="${y}" width="${w}" height="${h}"/>`;
+  m.bnc.forEach(([n])=>{ const p=a.at[n]; if (!p) return; const isIn=n==='IN', isLoop=n==='LOOP', live=isIn?D.inPlugged:isLoop?D.loop==='75':ms.lvl>0;
+    s+=`<g class="${isIn?'xin':isLoop?'xloop':''}" style="cursor:${isIn||isLoop?'pointer':'default'}"><title>${isIn?'INPUT — click to plug/unplug':isLoop?'INPUT LOOP — click to cable/uncable':'OUT '+n}</title><circle cx="${p[0]}" cy="${p[1]}" r="14" fill="rgba(0,0,0,0)"/>${live?`<circle cx="${p[0]}" cy="${p[1]}" r="13.6" fill="none" stroke="${isIn||isLoop?'#2f7de1':'#18b84a'}" stroke-width="2.2"/>`:''}</g>`; });
+  return s+`</svg><div class="small muted" style="text-align:center">CorelDRAW artwork: ${D.mod} on ${SIM.src(a.src,a.src.split('/').pop())} (2012-01-16). ${ms.note} <label><input type="checkbox" class="xdrawn"> drawn from the Tango PCB</label></div>`; }
 function moduleSVG(){
+  if (!D.modDrawn) return moduleArtSVG();
   const m=MODS[D.mod], pts=m.bnc.concat(m.ph), xs=pts.map(p=>p[1]), ys=pts.map(p=>p[2]); const x0=Math.min(...xs)-450, x1=Math.max(...xs)+450, y0=Math.min(...ys)-450, y1=Math.max(...ys)+450, S=0.07;
   const X=v=>20+(v-x0)*S, Y=v=>20+(y1-v)*S, ms=moduleState();
   let s=`<svg viewBox="0 0 ${(x1-x0)*S+200} ${(y1-y0)*S+40}" style="width:100%;max-width:340px"><rect x="20" y="20" width="${(x1-x0)*S}" height="${(y1-y0)*S}" rx="4" fill="#26292c"/>`;
   m.bnc.forEach(([n,x,y])=>{ const isIn=n==='IN', isLoop=n==='LOOP', live=isIn?D.inPlugged:isLoop?D.loop==='75':ms.lvl>0;
     s+=`<g class="${isIn?'xin':isLoop?'xloop':''}" style="cursor:${isIn||isLoop?'pointer':'default'}"><title>${n}</title><circle cx="${X(x)}" cy="${Y(y)}" r="15" fill="#b9bcbf" stroke="#666"/><circle cx="${X(x)}" cy="${Y(y)}" r="9" fill="#1a1a1a"/><circle cx="${X(x)}" cy="${Y(y)}" r="3" fill="${live?'var(--led-g)':'#555'}"/><text x="${X(x)}" y="${Y(y)+27}" font-size="8.5" text-anchor="middle" fill="#ddd">${n}</text></g>`; });
   m.ph.forEach(([n,x,y])=>{ s+=`<g><title>Phoenix 3-way (PHEN3): ${n}</title><rect x="${X(x)-14}" y="${Y(y)-7}" width="28" height="14" fill="#2b8a3e"/><text x="${X(x)}" y="${Y(y)+20}" font-size="8" text-anchor="middle" fill="#ddd">${n}</text></g>`; });
-  return s+`<text x="${(x1-x0)*S+30}" y="40" font-size="13" font-weight="700" fill="var(--ink)">${D.mod}</text><text x="${(x1-x0)*S+30}" y="58" font-size="10" fill="var(--ink2)">${m.cards}</text><text x="${(x1-x0)*S+30}" y="76" font-size="10" fill="var(--ink2)">${m.src}</text><text x="${(x1-x0)*S+30}" y="100" font-size="10.5" fill="var(--ink)">${ms.note}</text></svg>`;
+  return s+`<text x="${(x1-x0)*S+30}" y="40" font-size="13" font-weight="700" fill="var(--ink)">${D.mod}</text><text x="${(x1-x0)*S+30}" y="58" font-size="10" fill="var(--ink2)">${m.cards}</text><text x="${(x1-x0)*S+30}" y="76" font-size="10" fill="var(--ink2)">${m.src}</text><text x="${(x1-x0)*S+30}" y="100" font-size="10.5" fill="var(--ink)">${ms.note}</text></svg><div class="small muted"><label><input type="checkbox" class="xdrawn" checked> drawn from the Tango PCB</label></div>`;
 }
-function bindPanel(m){ m.querySelectorAll('.xpin').forEach(g=>g.onclick=()=>A.probe(g.dataset.e)); m.querySelectorAll('.xin').forEach(g=>g.onclick=()=>A.plug()); m.querySelectorAll('.xloop').forEach(g=>g.onclick=()=>A.loop()); }
+function bindPanel(m){ m.querySelectorAll('.xpin').forEach(g=>g.onclick=()=>A.probe(g.dataset.e)); m.querySelectorAll('.xin').forEach(g=>g.onclick=()=>A.plug()); m.querySelectorAll('.xloop').forEach(g=>g.onclick=()=>A.loop()); m.querySelectorAll('.xdrawn').forEach(c=>c.onchange=()=>{ D.modDrawn=c.checked; SIM.refresh(); }); }
 function controlsHTML(){ return `<div class="small" style="display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:8px;align-items:center">
   <label>Card <select id="xc"><option ${D.card==='D8204C'?'selected':''}>D8204C</option><option value="D8204" ${D.card==='D8204'?'selected':''}>D8204 (2012 / D8204B board)</option></select></label>
   <label>Rear module <select id="xm">${Object.keys(MODS).map(k=>`<option ${k===D.mod?'selected':''}>${k}</option>`).join('')}</select></label>
@@ -176,6 +192,9 @@ function viewSoft(m){
 function viewNotes(m){
   m.innerHTML=card('What these accessories are up to — findings', `<ol>
    <li><b>Three numbering schemes for the same 30 contacts.</b> Edge fingers are 1–15 and A–S (no G, I, O, Q); the E8200D drawing numbers its side 1–15 and 20–34 (16–19 skipped); P-CAD schematics use P1-1…30 interleaved (A = 1, 1 = 2, B = 3 …). V+ on a D8204C is “P1-29/30” = edges S and 15 = extender pins 34 and 15.</li>
+   <li><b>Artwork ${SIM.year(2026)}: the four BNC modules now come from the CorelDRAW rear-module sheets.</b> BNC1/BNC3 are from ${SIM.src(RO_D8204,'D8204 - rear module options.cdr')} and BNC2/BNC4 from ${SIM.src(RO_D8204A,'D8204A - rear module options.cdr')} (both 2012-01-16), and every BNC hotspot sits on its connector in those drawings. The Tango-coordinate drawing is on the checkbox. The extender and the handle have no CorelDRAW art: only the mechanical PDFs/DWGs, which stay as redrawn.</li>
+   <li><b>The sheet’s BNC2 has twice the analog terminals of the board file.</b> The D8204A sheet draws BNC2 with four 3-way pluggable blocks: ANALOG L. OUT1, L. OUT2, R. OUT1 and R. OUT2. The BNC2 set in BNC-XX.PCB has only two PHEN3 positions (R39A/R40A). BNC4 has four on both.</li>
+   <li><b>An analog output that doubles as an alarm.</b> On both BNC2 and BNC4, ANALOG R. OUT2 + is also “CONFIDENCE” and OUT2 − is “NO-LOCK”, with the note “*THIS OUTPUT CAN BE USED AS AN ALARM BY SETTING THE JUMPERS”. The sheet captions the card “1x4 AES/EBU Distribution Amplifier & Digital to Analog Converter”.</li>
    <li><b>Panel names don't match the modules.</b> <span class="mono">BNC-1234.PCB</span> holds four BNC3 + BNC4 pairs (no BNC1 or BNC2), <span class="mono">BNC-56.PCB</span> is eight BNC1 modules, <span class="mono">BNC-XX.PCB</span> is one of each type. The folder names describe panel numbers, not module types.</li>
    <li><b>The 2015|48 re-issue is split.</b> <span class="mono">BNC-5.pcb</span> holds only the BNC footprint and <span class="mono">BNC-6.pcb</span> only CON20SS — two halves of one board, with separate Gerber zips (“BNC 5 - 6”). The BNC-78 folder is named “BNC 7 - 7”.</li>
    <li><b>The handle drawing describes a toggle-switch version.</b> M8200-004 notes “WITH TOGGLE SWITCH” and a .250″ hole, kept in an “ERWIN/ODD DRAWINGS” folder; the frame master has a separate 8205-004 handle.</li>
@@ -189,6 +208,13 @@ SIM.register({
   folder:'#MF8200 #SERIES/M8200 Extender, handle  - #Master #MF82',
   summary:'Service and connection parts shared by every 8200-series card: the E8200D extender that runs a card outside the frame, the M8200-004 card handle, and the BNC1–BNC4 rear termination boards. Probe any edge contact of a card on the extender and wire the BNC loop correctly.',
   highlights:['E8200D pin map redrawn to scale','Probe any of the 30 contacts','BNC1–BNC4 from Tango coordinates','Three pin-numbering schemes','Mis-named BNC panels'],
+  footnotes:[
+    {text:'The D8204A sheet draws BNC2 with four 3-way analog blocks; the BNC-XX.PCB BNC2 set has only two PHEN3 positions.', src:RO_D8204A},
+    {text:'ANALOG R. OUT2 +/− doubles as the CONFIDENCE / NO-LOCK alarm pair “by setting the jumpers” on both BNC2 and BNC4.', src:RO_D8204A},
+    {text:'The D8204A sheet calls the card a “1x4 AES/EBU Distribution Amplifier & Digital to Analog Converter”.', src:RO_D8204A},
+    {text:'BNC3 and BNC4 are both marked “*MF8210 Only”; only they have an INPUT LOOP BNC.', src:RO_D8204},
+    {text:'No CorelDRAW art exists for the E8200D extender or the M8200-004 handle; they are drawn from the mechanical PDFs.', src:'#MF8200 #SERIES/M8200 Extender, handle  - #Master #MF82/M8200 - Handle #MECHANICAL/M8200-004 handle.pdf'},
+  ],
   depth:'Hardware model',
   stepUnits:[{label:'1 µs',period:()=>1e-6},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01}],
   zooms:[[1,'1 s'],[0.005,'5 ms (audio)'],[0.000002,'2 µs (AES cells)']],

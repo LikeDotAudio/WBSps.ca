@@ -3,248 +3,494 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ward-Beck Systems XTM-4 — Standalone Broadcast Test Meter & Visualizer</title>
-  <meta name="description" content="Standalone Ward-Beck Systems XTM-4 Extended Range Test Meter with real-time soundcard audio capture, system output monitoring, VU & PPM electromechanical ballistics, and 8-LED phase correlation.">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="css/xtm.css">
+  <title>Ward-Beck Systems</title>
+  <meta name="description" content="Precision broadcast mastering visualizers: Ward-Beck Systems Precision Mastering Visualizers and Loudness Metering.">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon-DnccVrfp.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/icon-192-CUgLmO8u.png">
+  <link rel="apple-touch-icon" href="./assets/icon-192-CUgLmO8u.png">
+  <link rel="manifest" href="./assets/manifest-C4TxlFGP.json">
+  <meta name="theme-color" content="#07080a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Ward-Beck Systems">
+  <script type="module" crossorigin src="./assets/index-D0yAIhU9.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CQYTPPDM.css">
 </head>
-<body>
+<body class="">
+  <!-- <div id="audioStartOverlay" style="position:fixed; top:0; left:0; width:100%; height:100%; background:#0a0b0d; z-index:9999; display:flex; align-items:center; justify-content:center;">
+    <button id="btnStartAudio" style="background:#22c55e; color:black; font-weight:bold; padding:20px 40px; border-radius:8px; border:none; font-size:20px; cursor:pointer;">START METERS</button>
+  </div> -->
+    <div id="mccurdyLogo" class="logo-box" style="display:none;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="68" height="20">
+        <path d="M 140,185 Q 132,160 165,155 L 475,112 Q 500,108 525,112 L 835,155 Q 868,160 860,185 L 785,375 Q 775,398 748,402 L 525,442 Q 500,446 475,442 L 252,402 Q 225,398 215,375 Z" fill="#007acc" stroke="#f4f6f8" stroke-width="26" stroke-linejoin="round" />
+        <g fill="#f4f6f8" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" letter-spacing="1.5">
+          <text x="598" y="258" font-size="28">C</text>
+          <text x="622" y="272" font-size="40">CURDY</text>
+        </g>
+      </svg>
+    </div>
+  </div>
 
-  <!-- Top Studio Header & Audio Interface Bar -->
-  <header class="studio-bar">
-    <div class="brand">
-      <span class="brand-badge">WBS</span>
-      <div>
-        <div class="brand-title">XTM-4 Extended Range Test Meter</div>
-        <div class="brand-sub">Ward-Beck Systems • Precision Audio & Ballistics Engine</div>
+  <!-- Full Window Edge-to-Edge Borderless Metering Console -->
+  <main class="console-viewport">
+
+    <!-- Mobile "Install Page as App" PWA Prompt Banner -->
+    <aside id="pwaInstallBanner" class="pwa-install-banner" style="display:none;" aria-label="Install App Prompt">
+      <div class="pwa-banner-content">
+        <div class="pwa-icon">
+          <svg viewBox="0 0 75 22" width="40" height="15">
+            <path d="M2.43 4.14 C2.43 8.26 2.43 13.33 2.43 17.45 C2.43 20.03 31.29 20.41 33.55 20.41 C37.4 20.41 36.81 20.41 40.67 20.41 C42.87 20.41 71.66 20.03 71.66 17.45 L71.66 4.14 C71.66 1.57 42.82 1.26 40.67 1.23 L33.55 1.23 C31.29 1.23 2.43 1.57 2.43 4.14 Z M-0.03 3.81 C-0.03 7.93 -0.03 13.59 -0.03 17.71 C-0.03 21.6 31.29 21.6 33.55 21.6 C35.9 21.6 38.28 21.6 40.67 21.6 C42.87 21.6 74.06 21.6 74.06 17.71 L74.06 3.81 C74.06 -0 42.87 -0 40.67 -0 C36.81 -0 37.4 -0 33.55 -0 C31.29 -0 -0.03 -0 -0.03 3.81 Z M7.82 6.09 L13.37 16.43 L15.16 16.43 L9.61 6.09 L7.82 6.09 Z M17.85 6.09 L18.93 6.09 L18.59 6.09 L19.64 6.09 L15.16 16.43 L14.27 14.58 L17.87 6.03 L17.85 6.09 Z M18.74 6.09 L23.4 16.43 L25.19 16.43 L20.53 6.09 L18.74 6.09 Z M25.19 16.43 L30.56 6.09 L28.77 6.09 L24.29 14.58 L25.19 16.43 Z M32.53 6.09 L32.53 16.43 L34.32 16.43 L34.32 6.09 L32.53 6.09 Z M34.32 6.09 L46.14 6.09 L45.24 7.94 L34.32 7.94 L34.32 6.09 Z M45.24 7.94 L46.14 6.09 L47.57 7.01 L46.14 8.49 L45.24 7.94 Z M47.57 7.01 L47.93 7.94 L46.14 8.49 L47.57 7.01 Z M47.93 7.94 L46.14 8.49 L46.14 9.78 L47.93 10.34 L47.93 7.94 Z M47.93 10.34 L46.14 9.78 L45.78 10.34 L47.03 11.26 L47.93 10.34 Z M47.03 11.26 L45.78 12.18 L46.14 12.55 L47.93 12.18 L47.03 11.26 Z M47.93 12.18 L47.93 14.58 L46.14 14.03 L46.14 12.55 L47.93 12.18 Z M47.93 14.58 L47.57 15.51 L46.14 14.03 L47.93 14.58 Z M47.57 15.51 L46.14 16.43 L45.24 14.58 L46.14 14.03 L47.57 15.51 Z M46.14 16.43 L45.24 14.58 L34.32 14.58 L34.32 16.43 L46.14 16.43 Z M34.32 10.34 L34.32 12.18 L45.78 12.18 L45.78 10.34 L34.32 10.34 Z M45.78 10.34 L45.78 12.18 L47.03 11.26 L45.78 10.34 Z M66.19 7.94 L66.19 6.09 L51.69 6.09 L52.58 7.94 L66.19 7.94 Z M52.58 7.94 L51.69 6.09 L50.25 7.01 L51.69 8.49 L52.58 7.94 Z M51.69 8.49 L50.25 7.01 L49.9 7.94 L51.69 8.49 Z M49.9 7.94 L51.69 8.49 L51.69 9.78 L49.9 10.34 L49.9 7.94 Z M49.9 10.34 L51.69 9.78 L51.69 9.78 L50.25 11.26 L49.9 10.34 Z M51.69 9.78 L50.25 11.26 L51.69 12.18 L52.58 10.34 L51.69 9.78 Z M51.69 12.18 L52.58 10.34 L64.4 10.34 L63.5 12.18 L51.69 12.18 Z M63.5 12.18 L64.4 10.34 L65.83 11.26 L64.4 12.55 L63.5 12.18 Z M65.83 11.26 L64.4 12.55 L66.19 12.18 L65.83 11.26 Z M64.4 12.55 L66.19 12.18 L66.19 14.58 L64.4 14.03 L64.4 12.55 Z M66.19 14.58 L65.83 15.51 L64.4 14.03 L66.19 14.58 Z M65.83 15.51 L64.4 14.03 L63.5 14.58 L64.4 16.43 L65.83 15.51 Z M63.5 14.58 L64.4 16.43 L49.9 16.43 L49.9 14.58 L63.5 14.58 Z" fill="#22c55e" fill-rule="evenodd"/>
+          </svg>
+        </div>
+        <div class="pwa-text">
+          <div class="pwa-title">Install page as app</div>
+          <div class="pwa-sub" id="pwaSubText">Add Ward-Beck XTM to your home screen for full-screen audio metering</div>
+        </div>
+        <div class="pwa-actions">
+          <button type="button" id="btnPwaInstall" class="btn-pwa-install">Install App</button>
+          <button type="button" id="btnPwaDismiss" class="btn-pwa-dismiss" aria-label="Dismiss">✕</button>
+        </div>
       </div>
+    </aside>
+
+    <!-- Meter Stack: Borderless & Full Window Width -->
+    <div class="meter-stack">
+      <!-- Unit 1: Ward-Beck Systems XTM-4 Mastering Meters (VU + Black PPM) -->
+      <div class="meter-unit" id="visualizerStage"></div>
+
+      <!-- Unit 2: Ward-Beck Systems POD-22 Dual 41-Segment Loudness Bar -->
+      <div class="meter-unit pod22-wrap" id="pod22Wrap">
+        <div class="meter-unit pod22" id="pod22Stage"></div>
+      </div>
+
+      <!-- Unit 3: dBFS Over Time Real-Time Scope (APK.softapp.TEST.AUDIO.DbfsMeters) -->
+      <div class="meter-unit dbfs-unit" id="dbfsStage"></div>
     </div>
 
-    <div class="audio-controls">
-      <!-- Connection Status -->
-      <div class="status-indicator">
-        <span class="status-dot" id="statusDot"></span>
-        <span id="statusText">Soundcard Ready</span>
-      </div>
+    <!-- Minimalist Bottom Controls Drawer (Auxiliary Settings) -->
+    <details class="aux-drawer" id="auxDrawer">
+      <summary class="drawer-toggle">
+        <div class="drawer-toggle-left" id="drawerToggleLeft">
+          <button type="button" class="btn-settings-cog" id="btnOpenSettings" title="Settings (Calibration, Monitoring &amp; Ballistics)" aria-label="Settings">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+            </svg>
+          </button>
+          <span class="drawer-gear-label">Settings</span>
+        </div>
 
-      <!-- Soundcard Input Selector -->
-      <select id="selectDevice" class="select-device" title="Select Connected Sound Card / Interface">
-        <option value="">Default Soundcard Input</option>
-      </select>
+        <div class="drawer-toggle-right">
+          <a href="https://ward-beck.ca" target="_blank" rel="noopener noreferrer" class="wbs-bottom-logo" title="Ward-Beck Systems" onclick="event.stopPropagation(); if (document.body.classList.contains('theme-mccurdy')) { event.preventDefault(); setMode(false); }">
+            <svg viewBox="0 0 75 22" width="68" height="20" class="wbs-logo-svg">
+              <path d="M2.43 4.14 C2.43 8.26 2.43 13.33 2.43 17.45 C2.43 20.03 31.29 20.41 33.55 20.41 C37.4 20.41 36.81 20.41 40.67 20.41 C42.87 20.41 71.66 20.03 71.66 17.45 L71.66 4.14 C71.66 1.57 42.82 1.26 40.67 1.23 L33.55 1.23 C31.29 1.23 2.43 1.57 2.43 4.14 Z M-0.03 3.81 C-0.03 7.93 -0.03 13.59 -0.03 17.71 C-0.03 21.6 31.29 21.6 33.55 21.6 C35.9 21.6 38.28 21.6 40.67 21.6 C42.87 21.6 74.06 21.6 74.06 17.71 L74.06 3.81 C74.06 -0 42.87 -0 40.67 -0 C36.81 -0 37.4 -0 33.55 -0 C31.29 -0 -0.03 -0 -0.03 3.81 Z M7.82 6.09 L13.37 16.43 L15.16 16.43 L9.61 6.09 L7.82 6.09 Z M17.85 6.09 L18.93 6.09 L18.59 6.09 L19.64 6.09 L15.16 16.43 L14.27 14.58 L17.87 6.03 L17.85 6.09 Z M18.74 6.09 L23.4 16.43 L25.19 16.43 L20.53 6.09 L18.74 6.09 Z M25.19 16.43 L30.56 6.09 L28.77 6.09 L24.29 14.58 L25.19 16.43 Z M32.53 6.09 L32.53 16.43 L34.32 16.43 L34.32 6.09 L32.53 6.09 Z M34.32 6.09 L46.14 6.09 L45.24 7.94 L34.32 7.94 L34.32 6.09 Z M45.24 7.94 L46.14 6.09 L47.57 7.01 L46.14 8.49 L45.24 7.94 Z M47.57 7.01 L47.93 7.94 L46.14 8.49 L47.57 7.01 Z M47.93 7.94 L46.14 8.49 L46.14 9.78 L47.93 10.34 L47.93 7.94 Z M47.93 10.34 L46.14 9.78 L45.78 10.34 L47.03 11.26 L47.93 10.34 Z M47.03 11.26 L45.78 12.18 L46.14 12.55 L47.93 12.18 L47.03 11.26 Z M47.93 12.18 L47.93 14.58 L46.14 14.03 L46.14 12.55 L47.93 12.18 Z M47.93 14.58 L47.57 15.51 L46.14 14.03 L47.93 14.58 Z M47.57 15.51 L46.14 16.43 L45.24 14.58 L46.14 14.03 L47.57 15.51 Z M46.14 16.43 L45.24 14.58 L34.32 14.58 L34.32 16.43 L46.14 16.43 Z M34.32 10.34 L34.32 12.18 L45.78 12.18 L45.78 10.34 L34.32 10.34 Z M45.78 10.34 L45.78 12.18 L47.03 11.26 L45.78 10.34 Z M66.19 7.94 L66.19 6.09 L51.69 6.09 L52.58 7.94 L66.19 7.94 Z M52.58 7.94 L51.69 6.09 L50.25 7.01 L51.69 8.49 L52.58 7.94 Z M51.69 8.49 L50.25 7.01 L49.9 7.94 L51.69 8.49 Z M49.9 7.94 L51.69 8.49 L51.69 9.78 L49.9 10.34 L49.9 7.94 Z M49.9 10.34 L51.69 9.78 L51.69 9.78 L50.25 11.26 L49.9 10.34 Z M51.69 9.78 L50.25 11.26 L51.69 12.18 L52.58 10.34 L51.69 9.78 Z M51.69 12.18 L52.58 10.34 L64.4 10.34 L63.5 12.18 L51.69 12.18 Z M63.5 12.18 L64.4 10.34 L65.83 11.26 L64.4 12.55 L63.5 12.18 Z M65.83 11.26 L64.4 12.55 L66.19 12.18 L65.83 11.26 Z M64.4 12.55 L66.19 12.18 L66.19 14.58 L64.4 14.03 L64.4 12.55 Z M66.19 14.58 L65.83 15.51 L64.4 14.03 L66.19 14.58 Z M65.83 15.51 L64.4 14.03 L63.5 14.58 L64.4 16.43 L65.83 15.51 Z M63.5 14.58 L64.4 16.43 L49.9 16.43 L49.9 14.58 L63.5 14.58 Z" fill="#22c55e" fill-rule="evenodd"/>
+            </svg>
+            <span class="wbs-bottom-text">Ward-Beck.ca</span>
+          </a>
+                    <button type="button" id="btnMcCurdyMode" class="mc-toggle" onclick="event.preventDefault(); event.stopPropagation(); resumeAudio();" aria-pressed="false" title="McCurdy (light) mode" aria-label="Switch to McCurdy light mode">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="120 95 760 365" width="62" height="30" aria-hidden="true">
+  <!-- Symmetrical Outer Shield with Blue fill -->
+  <path d="M 140,185 
+           Q 132,160 165,155 
+           L 475,112 
+           Q 500,108 525,112 
+           L 835,155 
+           Q 868,160 860,185 
+           L 785,375 
+           Q 775,398 748,402 
+           L 525,442 
+           Q 500,446 475,442 
+           L 252,402 
+           Q 225,398 215,375 
+           Z" fill="#007acc" stroke="#f4f6f8" stroke-width="26" stroke-linejoin="round" />
 
-      <!-- Action Buttons -->
-      <button id="btnConnectCard" class="btn btn-primary" title="Connect and listen to your computer's sound card, mic, or line-in">
-        🎤 Listen to Soundcard
-      </button>
+  <!-- Lowercase 'm' -->
+  <path d="M 248,175 L 322,175 L 322,200 C 342,178 368,170 394,173 C 418,176 434,188 444,206 C 464,180 494,170 524,173 C 564,177 586,206 586,250 L 586,322 L 782,322 L 770,350 L 586,350 L 586,362 L 608,362 L 608,385 L 498,385 L 498,362 L 520,362 L 520,350 L 452,350 L 452,322 L 520,322 L 520,255 C 520,230 508,218 488,218 C 468,218 454,232 454,258 L 454,305 L 390,305 L 390,255 C 390,230 378,218 358,218 C 338,218 324,232 324,258 L 324,362 L 346,362 L 346,385 L 248,385 L 248,362 L 268,362 L 268,200 L 248,200 Z" fill="#f4f6f8" />
 
-      <button id="btnConnectSystem" class="btn" title="Capture and listen to whatever is playing through your computer's audio output">
-        🔊 Listen to Computer Output
-      </button>
+  <!-- "CCURDY" Lettering -->
+  <g fill="#f4f6f8" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" letter-spacing="1.5">
+    <text x="598" y="258" font-size="28">C</text>
+    <text x="622" y="272" font-size="40">CURDY</text>
+  </g>
+</svg>
+  <span class="mc-toggle-text">McCurdyRadio.com</span></button>
+          <span class="build-stamp" style="font-size: 0.7em; opacity: 0.6; margin-left: 12px;">2026.11.18.19.38</span>
+        </div>
+      </summary>
 
-      <button id="btnFlipView" class="btn" title="Toggle between Front Panel and Rear Panel views">
-        🔄 View Rear Panel
-      </button>
-
-      <button id="btnFullscreen" class="btn" title="Expand rack visualizer to full screen">
-        ⛶ Fullscreen Rack
-      </button>
-    </div>
-  </header>
-
-  <!-- Main Rack Workspace -->
-  <main class="workspace">
-
-    <!-- One-Click Audio Source Prompt Banner -->
-    <div id="audioBanner" class="audio-prompt-banner">
-      <div class="prompt-text">
-        <div class="prompt-title">Select Audio Source for XTM-4 Metering</div>
-        <div class="prompt-desc">Grant access to a sound card input/line-in, capture system audio output, or run the internal test tone.</div>
-      </div>
-      <div class="prompt-actions">
-        <button id="bannerMicBtn" class="btn btn-primary">🎤 Use Sound Card</button>
-        <button id="bannerSysBtn" class="btn">🔊 Capture Computer Output</button>
-        <button id="bannerTestBtn" class="btn">⚡ 1 kHz Test Tone</button>
-      </div>
-    </div>
-
-    <!-- 19" Broadcast Equipment Rack Enclosure -->
-    <div class="rack-enclosure">
-      <div class="rack-stack">
-        <!-- Unit 1: Ward-Beck Systems XTM-4 (2RU) -->
-        <div class="visualizer-stage">
-          <div class="rack-unit-label">
-            <span>Ward-Beck Systems • XTM-4 Extended Range Test Meter (2RU)</span>
-            <span>Analog Moving Coils + VFD Matrix</span>
+      <!-- Security Lock Overlay -->
+      <div id="settingsLockOverlay" class="settings-lock-overlay">
+        <div class="lock-panel">
+          <div class="lock-icon-shield">
+            <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
           </div>
-          <div id="visualizerStage"></div>
-        </div>
-
-        <div class="rack-spacer"></div>
-
-        <!-- Unit 2: Ward-Beck Systems POD-22 (1RU / Half-Rack) -->
-        <div class="visualizer-stage">
-          <div class="rack-unit-label">
-            <span>Ward-Beck Systems • POD-22 Stereo Loudness Meter (1RU)</span>
-            <span>Dual 41-Segment LED Loudness Bargraphs • Shared Audio Input</span>
-          </div>
-          <div id="pod22Stage"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Auxiliary Configuration & Tuning Deck -->
-    <div class="deck-tray">
-
-      <!-- Card 1: Soundcard & Signal Controls -->
-      <div class="deck-card">
-        <h3>Audio Input & Routing</h3>
-        
-        <div class="deck-row">
-          <label for="inputGainSlider">Input Gain / Trim</label>
-          <div class="slider-container">
-            <input type="range" id="inputGainSlider" min="-24" max="24" step="0.5" value="0">
-            <span class="slider-val" id="inputGainVal">0.0 dB</span>
+          <div class="lock-msg-main">Available to those that know...</div>
+          <div class="lock-progress-container">
+            <div class="lock-progress-bar">
+              <div id="lockProgressFill" class="lock-progress-fill"></div>
+            </div>
+            <div id="lockCountdown" class="lock-countdown">5.0s</div>
           </div>
         </div>
+      </div>
 
-        <div class="deck-row">
-          <label for="chkMonitor">Listen Through (Monitor)</label>
-          <input type="checkbox" id="chkMonitor" title="Listen to the input audio through speakers/headphones (default muted for safety)">
-        </div>
+      <div class="drawer-grid">
+        <!-- 1. AUDIO SETTINGS -->
+        <div class="drawer-card audio-card">
+          <h4>Audio Settings</h4>
+          <div class="drawer-section-sub">INPUT &amp; ROUTING</div>
+          <div class="drawer-row">
+            <label for="selectDevice">Audio Input Device</label>
+            <select id="selectDevice" class="ctrl-select">
+              <option value="">Default Soundcard Input</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="inputGainSlider">Input Sensitivity / Trim</label>
+            <div class="slider-box">
+              <input type="range" id="inputGainSlider" min="-24" max="24" step="0.5" value="0">
+              <span id="inputGainVal">0.0 dB</span>
+            </div>
+          </div>
+          <div class="drawer-row">
+            <label for="chkMonitor">Listen Through (Monitor)</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkMonitor">
+              <span>Audible output</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label for="monitorVolSlider">Monitor Volume</label>
+            <div class="slider-box">
+              <input type="range" id="monitorVolSlider" min="0" max="1" step="0.01" value="0.7">
+              <span id="monitorVolVal">70%</span>
+            </div>
+          </div>
 
-        <div class="deck-row">
-          <label for="monitorVolSlider">Monitor Volume</label>
-          <div class="slider-container">
-            <input type="range" id="monitorVolSlider" min="0" max="1" step="0.01" value="0.7">
-            <span class="slider-val" id="monitorVolVal">70%</span>
+          <div class="drawer-section-sub">CALIBRATION &amp; FILTERS</div>
+          <div class="drawer-row">
+            <label for="selectToneCal">1 kHz Tone Calibration</label>
+            <select id="selectToneCal" class="ctrl-select">
+              <option value="0" selected>0 dBFS (Peak Full Scale Ceiling - Default)</option>
+              <option value="-6">-6 dBFS (High Peak Alignment)</option>
+              <option value="-12">-12 dBFS (Digital Nominal)</option>
+              <option value="-14">-14 dBFS (AES / Streaming Target)</option>
+              <option value="-18">-18 dBFS (0 VU ANSI C16.5 / EBU R68 Reference)</option>
+              <option value="-20">-20 dBFS (SMPTE RP155 Reference)</option>
+              <option value="-24">-24 dBFS (EBU R128 / ATSC A/85)</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="chkHpf">High-Pass Filter</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkHpf">
+              <span>80 Hz Rumble Cut</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label for="chkTerm">Termination Load</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkTerm">
+              <span>600 Ω Low-Z (Bridging if off)</span>
+            </label>
           </div>
         </div>
 
-        <div class="deck-row">
-          <label for="selectTestType">Signal Generator</label>
-          <select id="selectTestType" class="select-device" style="max-width: 140px;">
-            <option value="none">Off (Soundcard)</option>
-            <option value="sine1k">1 kHz Sine Tone</option>
-            <option value="sine400">400 Hz Sine Tone</option>
-            <option value="pink">Pink Noise</option>
-            <option value="sweep">20Hz-20kHz Sweep</option>
-          </select>
+        <!-- 2. DISPLAY FOR METERS -->
+        <div class="drawer-card meters-card">
+          <h4>Display for Meters</h4>
+          
+          <div class="drawer-section-sub">ANALOG VU METERS</div>
+          <div class="drawer-row">
+            <label for="selectMeterStyle">VU Meter Movement</label>
+            <select id="selectMeterStyle" class="ctrl-select">
+              <option value="simpson">Simpson 42V400C (Ampex Vintage Teardrop)</option>
+              <option value="sifam" selected>Sifam Director 14 (AL29 Tapered Wand)</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="selectVuBallistics">VU Ballistics Standard</label>
+            <select id="selectVuBallistics" class="ctrl-select">
+              <option value="standard_vu" selected>Standard VU (ANSI C16.5-1942) · 300ms, 1-1.5% overshoot</option>
+              <option value="console_standard">Console Standard · 200ms attack, 800ms release</option>
+              <option value="fast_response">Fast Response · 50ms attack, 200ms release</option>
+              <option value="slow_response">Slow Response · 500ms attack, 2000ms release</option>
+              <option value="super_slow">Super Slow Vintage · 1000ms attack, 4000ms release</option>
+              <option value="master_console">Master Console Bank · 300ms attack, 1500ms release</option>
+              <option value="compressor_gr">Compressor Gain Reduction · 10ms attack, 100ms release</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="selectLampColor">VU Backlight Tone</label>
+            <select id="selectLampColor" class="ctrl-select">
+              <option value="amber">Warm Amber Glow (Classic)</option>
+              <option value="white">Crisp Studio White</option>
+              <option value="parchment">Vintage Parchment</option>
+            </select>
+          </div>
+
+          <div class="drawer-section-sub">PPM METERS (QUASI-PEAK)</div>
+          <div class="drawer-row">
+            <label for="selectPpmBallistics">PPM Ballistics Standard</label>
+            <select id="selectPpmBallistics" class="ctrl-select">
+              <option value="type2" selected>PPM Type II (BBC BS 4297) · 10ms att, -24 dB / 2.8s decay (Default)</option>
+              <option value="type1">PPM Type I (DIN 45406) · 10ms att, -20 dB / 1.5s decay</option>
+              <option value="nordic">Nordic N9 · 5ms att, -20 dB / 2.0s decay</option>
+              <option value="fast_peak">Fast Digital Quasi-Peak · 1ms att, -20 dB / 1.0s decay</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="selectPeakSens">Peak Sensitivity Trim</label>
+            <select id="selectPeakSens" class="ctrl-select">
+              <option value="-6">-6 dB (Mastering Low Sensitivity)</option>
+              <option value="-3">-3 dB (Broadcasting -3 dB Lead)</option>
+              <option value="0" selected>0 dB (Calibrated Reference Alignment - Default)</option>
+              <option value="3">+3 dB (+3 dB High Sensitivity)</option>
+            </select>
+          </div>
+
+          <div class="drawer-section-sub">BARGRAPH (POD-22 MASTERING LED BAR)</div>
+          <div class="drawer-row">
+            <label for="selectPodScale">Scale Mode</label>
+            <select id="selectPodScale" class="ctrl-select">
+              <option value="log" selected>Logarithmic (ITU-R BS.1770 / EBU R128)</option>
+              <option value="vu">VU Scale (0 VU Reference)</option>
+              <option value="peak">Peak Range (dBFS Digital)</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="selectPodDecay">Bargraph Ballistics / Decay</label>
+            <select id="selectPodDecay" class="ctrl-select">
+              <option value="type2" selected>PPM Type II (BBC BS 4297) · -24 dB / 2.8s (Default)</option>
+              <option value="type1">PPM Type I (DIN 45406) · -20 dB / 1.5s</option>
+              <option value="vu">VU Dynamic Smooth · 300ms Integration</option>
+              <option value="instant">Instant Peak · Fast Decay (45 dB/s)</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="selectVfdMetric">LED Display Metric</label>
+            <select id="selectVfdMetric" class="ctrl-select">
+              <option value="lufs" selected>LUFS (Integrated Loudness)</option>
+              <option value="lus">LU S (Short-Term 3.0s)</option>
+              <option value="lum">LU M (Momentary 400ms)</option>
+              <option value="lui">LU I (Integrated Target)</option>
+              <option value="lra">LRA (Loudness Range)</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="chkExtendedLed22">Extended LED 22</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkExtendedLed22" checked>
+              <span>-100 dBFS to +22 dB</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label for="chkPodHold">Peak Hold Dot</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkPodHold" checked>
+              <span>Enabled (1.5s Hold)</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label>Front Key Reference</label>
+            <span class="ctrl-hint">Press <strong>MODE</strong> to cycle Analog/Digital/Test<br>Press <strong>SOURCE</strong> to toggle input source</span>
+          </div>
+        </div>
+
+        <!-- 3. DISPLAY FOR CHART -->
+        <div class="drawer-card chart-card">
+          <h4>Display for Chart</h4>
+          <div class="drawer-section-sub">TIME SCALE &amp; CAPTURE</div>
+          <div class="drawer-row">
+            <label>Time Scale</label>
+            <div class="scope-tabs-group">
+              <button type="button" class="scope-tab-btn active" id="btnScopeLog">LOG</button>
+              <button type="button" class="scope-tab-btn" id="btnScopeSuperLog">SUPER TRANSIENT LOG</button>
+              <button type="button" class="scope-tab-btn" id="btnScopeLin">LINEAR</button>
+            </div>
+          </div>
+          <div class="drawer-row" id="scopeLogOptionsRow">
+            <label for="selectScopeLogWarp">Logarithmic Warp</label>
+            <select id="selectScopeLogWarp" class="ctrl-select">
+              <option value="15" selected>Standard Logarithmic (β = 15)</option>
+              <option value="30">High Transient Focus (β = 30)</option>
+              <option value="60">Super High Transient (β = 60)</option>
+              <option value="120">Ultra High Transient (β = 120)</option>
+              <option value="8">Gentle Logarithmic (β = 8)</option>
+            </select>
+          </div>
+          <div class="drawer-row">
+            <label for="scopeLengthSlider">Capture Length</label>
+            <div class="slider-box" style="display:flex;align-items:center;gap:8px;">
+              <input type="range" id="scopeLengthSlider" min="0" max="16" step="1" value="5" style="width:110px;">
+              <span id="scopeLengthVal" class="scope-val-badge">1 min</span>
+              <button type="button" class="scope-clear-btn" id="btnScopeClear" title="Flush ring buffer memory">CLEAR</button>
+            </div>
+          </div>
+          <div class="drawer-row" style="flex-direction:column;align-items:flex-start;gap:6px;">
+            <div style="display:flex;justify-content:space-between;width:100%;align-items:center;">
+              <label for="scopeSpeedSlider">Capture Speed</label>
+              <div class="slider-box" style="display:flex;align-items:center;gap:8px;">
+                <input type="range" id="scopeSpeedSlider" min="0" max="4" step="1" value="2" style="width:110px;">
+                <span id="scopeSpeedVal" class="scope-val-badge">60 FPS</span>
+              </div>
+            </div>
+            <div id="scopeSpeedWarning" style="display:none;width:100%;font-size:11px;color:#facc15;background:rgba(234,179,8,0.12);border:1px solid rgba(234,179,8,0.35);border-radius:4px;padding:6px 8px;line-height:1.4;">
+              <span id="scopeSpeedWarningText">⚠️ High frame rate warning</span>
+            </div>
+          </div>
+
+          <div class="drawer-section-sub">WAVEFORM FADE &amp; VISIBILITY</div>
+          <div class="drawer-row">
+            <label for="chkEnableFade">Waveform Fade</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkEnableFade">
+              <span id="chkEnableFadeLabel">Off (Full View)</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label for="hfFadeSlider">Fade Distance</label>
+            <div class="slider-box" style="display:flex;align-items:center;gap:8px;">
+              <input type="range" id="hfFadeSlider" min="10" max="100" step="5" value="100" style="width:105px;">
+              <span id="hfFadeVal" class="scope-val-badge">100% (Full View)</span>
+            </div>
+          </div>
+
+          <div class="drawer-section-sub">DISPLAY &amp; OVERLAYS</div>
+          <div class="drawer-row">
+            <label for="chkPhasePlot">Scope Phase Plot</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkPhasePlot" checked>
+              <span>Phase Across Time</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label for="chk0DbfsLine">0 dBFS Red Ceiling Line</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chk0DbfsLine" checked>
+              <span>0 dBFS Ceiling</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label for="chkHoverTelemetry">Hover Telemetry HUD</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkHoverTelemetry" checked>
+              <span>Floating HUD</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label for="chkDockHud">Pin / Dock HUD</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkDockHud">
+              <span id="chkDockHudLabel">Pinned in Scope</span>
+            </label>
+          </div>
+          <div class="drawer-row">
+            <label for="chkCursorTrace">Cursor Trace Line</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkCursorTrace" checked>
+              <span>Crosshair Readout</span>
+            </label>
+          </div>
+
+          <div class="drawer-section-sub">CONSOLE PROFILE &amp; MEMORY (.WBS YAML)</div>
+          <div class="drawer-row" style="flex-direction:column;align-items:stretch;gap:8px;">
+            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+              <button type="button" class="scope-clear-btn" id="btnExportWbs" style="background:#0f2e1a;border-color:#22c55e;color:#86efac;padding:6px 14px;font-weight:700;display:flex;align-items:center;gap:6px;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                EXPORT CONFIG (.WBS)
+              </button>
+              <button type="button" class="scope-clear-btn" id="btnImportWbs" style="background:#132338;border-color:#38bdf8;color:#bae6fd;padding:6px 14px;font-weight:700;display:flex;align-items:center;gap:6px;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+                IMPORT CONFIG (.WBS)
+              </button>
+              <input type="file" id="inputImportWbs" accept=".WBS,.wbs,.yaml,.yml" style="display:none;">
+            </div>
+            <div style="font-size:11px;color:#94a3b8;display:flex;justify-content:space-between;align-items:center;padding:4px 0;">
+              <span>Memory Storage: <strong id="consentStatusText" style="color:#22c55e;">Checking...</strong></span>
+              <button type="button" class="scope-clear-btn" id="btnResetConsent" style="background:#1e293b;border-color:#64748b;color:#cbd5e1;padding:2px 8px;font-size:10px;">CHANGE PERMISSION</button>
+            </div>
+          </div>
+
+          <div class="drawer-section-sub">DATA EXPORT</div>
+          <div class="drawer-row">
+            <label>Telemetry Data Export</label>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+              <button type="button" class="scope-clear-btn" id="btnExportCsvTest" style="background:#1e293b;border-color:#38bdf8;color:#38bdf8;padding:4px 10px;">EXPORT CSV (TEST)</button>
+              <button type="button" class="scope-clear-btn" id="btnExportTransientLog" style="background:#1e293b;border-color:#22c55e;color:#22c55e;padding:4px 10px;">SUPER TRANSIENT LOG</button>
+            </div>
+          </div>
+          <div class="drawer-row">
+            <label for="chkAutoExportHourly">Hourly Telemetry Log</label>
+            <label class="chk-label">
+              <input type="checkbox" id="chkAutoExportHourly">
+              <span>Auto-export every 1 hr</span>
+            </label>
+          </div>
         </div>
       </div>
-
-      <!-- Card 2: XTM-4 Hardware Configuration -->
-      <div class="deck-card">
-        <h3>Hardware Filters & Setup</h3>
-
-        <div class="deck-row">
-          <label for="chkHpf">High-Pass Filter (HP)</label>
-          <label style="cursor: pointer; display: flex; align-items: center; gap: 6px;">
-            <input type="checkbox" id="chkHpf">
-            <span>80 Hz Rumble Cut</span>
-          </label>
-        </div>
-
-        <div class="deck-row">
-          <label for="chkTerm">Input Termination</label>
-          <label style="cursor: pointer; display: flex; align-items: center; gap: 6px;">
-            <input type="checkbox" id="chkTerm">
-            <span>600 Ω Low-Z (Bridging if off)</span>
-          </label>
-        </div>
-
-        <div class="deck-row" style="margin-top: 10px;">
-          <label>Front Panel Quick Keys</label>
-          <span class="hint">M: Mode • S: Source • D/U: Trim • H: Setup • P: Power</span>
-        </div>
-
-        <div class="deck-row" style="margin-top: 4px;">
-          <label>EEPROM Status</label>
-          <span class="hint" style="color: #9dff3a;">Active (Saved to Browser)</span>
-        </div>
-      </div>
-
-      <!-- Card 3: Ballistics & Aesthetic Styles -->
-      <div class="deck-card">
-        <h3>Meter Movement & Dial Style</h3>
-
-        <div class="deck-row">
-          <label for="selectMeterStyle">Needle Ballistics</label>
-          <select id="selectMeterStyle" class="select-device" style="max-width: 170px;">
-            <option value="simpson">Simpson (ANSI C16.5, 300ms)</option>
-            <option value="sifam">Modern Sifam (Taut-Band, 200ms)</option>
-          </select>
-        </div>
-
-        <div class="deck-row">
-          <label for="selectPpmStyle">PPM Dial Face</label>
-          <select id="selectPpmStyle" class="select-device" style="max-width: 170px;">
-            <option value="black">Classic Black PPM (European / BBC)</option>
-            <option value="amber">Matching Amber Dial</option>
-          </select>
-        </div>
-
-        <div class="deck-row">
-          <label for="selectLampColor">VU Backlight Lamp</label>
-          <select id="selectLampColor" class="select-device" style="max-width: 170px;">
-            <option value="amber">Warm Amber Glow (Classic)</option>
-            <option value="white">Crisp White (Sifam Style)</option>
-            <option value="parchment">Vintage Studio Parchment</option>
-          </select>
-        </div>
-
-        <div class="deck-row" style="margin-top: 10px;">
-          <label>Dual Meters Layout</label>
-          <span class="hint">Ch A (VU + PPM) • Ch B (VU + PPM)</span>
-        </div>
-
-        <div class="deck-row" style="margin-top: 4px;">
-          <label>Phase Correlation</label>
-          <span class="hint">8 Discrete LEDs (-1.0 Inverted to +1.0 Mono)</span>
-        </div>
-      </div>
-
-      <!-- Card 4: POD-22 Loudness Meter Controls -->
-      <div class="deck-card">
-        <h3>POD-22 Loudness Bargraph</h3>
-
-        <div class="deck-row">
-          <label for="chkPodHold">Peak Hold Dot</label>
-          <label style="cursor: pointer; display: flex; align-items: center; gap: 6px;">
-            <input type="checkbox" id="chkPodHold" checked>
-            <span>Enabled (DIP BS1)</span>
-          </label>
-        </div>
-
-        <div class="deck-row">
-          <label for="selectPodDecay">Decay Ballistics</label>
-          <select id="selectPodDecay" class="select-device" style="max-width: 170px;">
-            <option value="type1">Type 1 (1.5s / 24 dB)</option>
-            <option value="type2">Type 2 (3.0s / 24 dB)</option>
-          </select>
-        </div>
-
-        <div class="deck-row">
-          <label for="chkPodBright">LED Intensity</label>
-          <label style="cursor: pointer; display: flex; align-items: center; gap: 6px;">
-            <input type="checkbox" id="chkPodBright" checked>
-            <span>High Brightness (DIP BRIGHT)</span>
-          </label>
-        </div>
-
-        <div class="deck-row" style="margin-top: 10px;">
-          <label>Audio Feed</label>
-          <span class="hint" style="color: #48bb78;">Bridged to XTM-4 Shared Input</span>
-        </div>
-      </div>
-
-    </div>
+    </details>
   </main>
 
-  <!-- Application Scripts -->
-  <script src="js/audio-engine.js"></script>
-  <script src="js/xtm-model.js"></script>
-  <script src="js/xtm-view.js"></script>
-  <script src="js/pod22-view.js"></script>
-  <script src="js/app.js"></script>
-</body>
+  <!-- Cookie / Local Storage Consent Banner -->
+  <div id="wbsConsentBanner" class="wbs-consent-banner" style="display:none;">
+    <div class="consent-content">
+      <div class="consent-icon">
+        <svg viewBox="0 0 75 22" width="60" height="18">
+          <path d="M2.43 4.14 C2.43 8.26 2.43 13.33 2.43 17.45 C2.43 20.03 31.29 20.41 33.55 20.41 C37.4 20.41 36.81 20.41 40.67 20.41 C42.87 20.41 71.66 20.03 71.66 17.45 L71.66 4.14 C71.66 1.57 42.82 1.26 40.67 1.23 L33.55 1.23 C31.29 1.23 2.43 1.57 2.43 4.14 Z M-0.03 3.81 C-0.03 7.93 -0.03 13.59 -0.03 17.71 C-0.03 21.6 31.29 21.6 33.55 21.6 C35.9 21.6 38.28 21.6 40.67 21.6 C42.87 21.6 74.06 21.6 74.06 17.71 L74.06 3.81 C74.06 -0 42.87 -0 40.67 -0 C36.81 -0 37.4 -0 33.55 -0 C31.29 -0 -0.03 -0 -0.03 3.81 Z M7.82 6.09 L13.37 16.43 L15.16 16.43 L9.61 6.09 L7.82 6.09 Z M17.85 6.09 L18.93 6.09 L18.59 6.09 L19.64 6.09 L15.16 16.43 L14.27 14.58 L17.87 6.03 L17.85 6.09 Z M18.74 6.09 L23.4 16.43 L25.19 16.43 L20.53 6.09 L18.74 6.09 Z M25.19 16.43 L30.56 6.09 L28.77 6.09 L24.29 14.58 L25.19 16.43 Z M32.53 6.09 L32.53 16.43 L34.32 16.43 L34.32 6.09 L32.53 6.09 Z M34.32 6.09 L46.14 6.09 L45.24 7.94 L34.32 7.94 L34.32 6.09 Z M45.24 7.94 L46.14 6.09 L47.57 7.01 L46.14 8.49 L45.24 7.94 Z M47.57 7.01 L47.93 7.94 L46.14 8.49 L47.57 7.01 Z M47.93 7.94 L46.14 8.49 L46.14 9.78 L47.93 10.34 L47.93 7.94 Z M47.93 10.34 L46.14 9.78 L45.78 10.34 L47.03 11.26 L47.93 10.34 Z M47.03 11.26 L45.78 12.18 L46.14 12.55 L47.93 12.18 L47.03 11.26 Z M47.93 12.18 L47.93 14.58 L46.14 14.03 L46.14 12.55 L47.93 12.18 Z M47.93 14.58 L47.57 15.51 L46.14 14.03 L47.93 14.58 Z M47.57 15.51 L46.14 16.43 L45.24 14.58 L46.14 14.03 L47.57 15.51 Z M46.14 16.43 L45.24 14.58 L34.32 14.58 L34.32 16.43 L46.14 16.43 Z M34.32 10.34 L34.32 12.18 L45.78 12.18 L45.78 10.34 L34.32 10.34 Z M45.78 10.34 L45.78 12.18 L47.03 11.26 L45.78 10.34 Z M66.19 7.94 L66.19 6.09 L51.69 6.09 L52.58 7.94 L66.19 7.94 Z M52.58 7.94 L51.69 6.09 L50.25 7.01 L51.69 8.49 L52.58 7.94 Z M51.69 8.49 L50.25 7.01 L49.9 7.94 L51.69 8.49 Z M49.9 7.94 L51.69 8.49 L51.69 9.78 L49.9 10.34 L49.9 7.94 Z M49.9 10.34 L51.69 9.78 L51.69 9.78 L50.25 11.26 L49.9 10.34 Z M51.69 9.78 L50.25 11.26 L51.69 12.18 L52.58 10.34 L51.69 9.78 Z M51.69 12.18 L52.58 10.34 L64.4 10.34 L63.5 12.18 L51.69 12.18 Z M63.5 12.18 L64.4 10.34 L65.83 11.26 L64.4 12.55 L63.5 12.18 Z M65.83 11.26 L64.4 12.55 L66.19 12.18 L65.83 11.26 Z M64.4 12.55 L66.19 12.18 L66.19 14.58 L64.4 14.03 L64.4 12.55 Z M66.19 14.58 L65.83 15.51 L64.4 14.03 L66.19 14.58 Z M65.83 15.51 L64.4 14.03 L63.5 14.58 L64.4 16.43 L65.83 15.51 Z M63.5 14.58 L64.4 16.43 L49.9 16.43 L49.9 14.58 L63.5 14.58 Z" fill="#22c55e" fill-rule="evenodd"/>
+        </svg>
+      </div>
+      <div class="consent-text-block">
+        <strong class="consent-headline">WARD-BECK SYSTEMS CONSOLE MEMORY</strong>
+        <p class="consent-description">
+          Allow local storage memory to maintain your hardware calibration, meter ballistics, input routing, and last settings across browser sessions?
+        </p>
+      </div>
+    </div>
+    <div class="consent-buttons">
+      <button type="button" id="btnConsentAllow" class="btn-consent-allow">ALLOW MEMORY</button>
+      <button type="button" id="btnConsentSession" class="btn-consent-session">SESSION ONLY</button>
+    </div>
+  </div>
+
+  <!-- Application Scripts (Vite + TypeScript + WebAssembly Entrypoint) -->
+<script>
+  // Light mode (McCurdy ATS-100 faceplate) <-> dark mode (Ward-Beck), remembered per browser.
+  function applyMode(mccurdy) {
+    document.body.classList.toggle("theme-mccurdy", mccurdy);
+    var btn = document.getElementById("btnMcCurdyMode");
+    if (btn) btn.setAttribute("aria-pressed", mccurdy ? "true" : "false");
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", mccurdy ? "#dedad0" : "#07080a");
+  }
+  function setMode(on) {
+    applyMode(on);
+    try { localStorage.setItem("xtm.mccurdy", on ? "1" : "0"); } catch (e) {}
+  }
+  // McCurdy logo -> McCurdy (light) mode; WBS logo (while in McCurdy mode) -> dark mode.
+  function toggleMode() { setMode(true); }
+</script>
+
+<div id="mccurdyLogo" style="display:none;"></div>
+<script>
+  // Load mode by site: mccurdyradio.com -> McCurdy; Ward-Beck sites -> default (Ward-Beck dark);
+  // anywhere else (e.g. localhost) -> the viewer's saved choice.
+  var host = location.hostname;
+  var onMcCurdyHost = /(^|\.)mccurdyradio\.com$/i.test(host);
+  var onWardBeckHost = /(^|\.)(ward-beck\.[a-z]+|wbsps\.ca)$/i.test(host);
+  if (onMcCurdyHost) { applyMode(true); }
+  else if (onWardBeckHost) { applyMode(false); }
+  else { try { applyMode(localStorage.getItem("xtm.mccurdy") === "1"); } catch (e) { applyMode(false); } }
+  function resumeAudio() {
+    toggleMode();
+    if (window.audioContext && window.audioContext.state === "suspended") {
+      window.audioContext.resume();
+    }
+  }
+</script>
+<script src="../_catalog/wbs_scan.js?v=7792b3a7"></script></body>
 </html>

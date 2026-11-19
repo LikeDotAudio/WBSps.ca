@@ -680,12 +680,16 @@ function boardSVG(){
       <text x="${bx(1000)+4}" y="${BH+31}" font-size="10.5" fill="var(--ink2)">Click a dashed box to inspect the part; click the HIZ link to move it. Supply ≈ ${(M.isup*1000).toFixed(0)} mA per rail (${led?'outputs live':'no terminated output'}).</text></svg>`;
   return s;
 }
-const RB = { BNC1:{x0:0,w:687,pts:[['in',316,239],['o1',388,314],['o2',316,391],['o3',388,465],['o4',316,541],['o5',388,618],['o6',316,695]]},
-             BNC3:{x0:688,w:687,pts:[['in',977,234],['loop',1079,234],['o1',977,350],['o2',1079,350],['o3',977,464],['o4',1079,464],['o5',977,582],['o6',1079,582],['o7',977,699],['o8',1079,699]]} };
+/* BNC centres: the connector rings of m8251term.cdr (2000-05-23), mapped into the 1375 × 865 frame of the old PNG
+   (pt − 69, 91.6 → × 1375/655.9, 865/415.5). assets/m8252-rear-bnc.svg is that file converted with Inkscape. */
+const RB = { BNC1:{x0:0,w:687,pts:[['in',312,240],['o1',384,315],['o2',312,390],['o3',384,465],['o4',311,541],['o5',385,619],['o6',311,695]]},
+             BNC3:{x0:688,w:687,pts:[['in',976,235],['loop',1079,235],['o1',976,350],['o2',1079,350],['o3',976,465],['o4',1079,465],['o5',976,582],['o6',1079,582],['o7',976,699],['o8',1079,699]]} };
+const M8251_TERM = '#MF8200 #SERIES/M8251 - #Master  #MF82/M8251 - #Engineering/m8251term.cdr';
+const M8251_RO = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8251 - rear module options.cdr';
 function rearSVG(){
   const M=model(), R=RB[D.module], x0=R.x0;
   let s=`<svg viewBox="${x0} 0 ${R.w} 865" style="width:100%;max-width:360px;display:block;margin:auto" role="img" aria-label="${D.module} rear module, artwork ${esc(DATA.artSrc)}">
-    <rect x="${x0}" y="0" width="${R.w}" height="865" fill="#e9e7e0"/><image href="${ASSET}${ID}-rear-bnc.png" x="0" y="0" width="1375" height="865"/>
+    <rect x="${x0}" y="0" width="${R.w}" height="865" fill="#e9e7e0"/><image href="${ASSET}${ID}-rear-bnc.${D.rearPng?'png':'svg'}" x="0" y="0" width="1375" height="865" preserveAspectRatio="none"/>
     <text x="${x0+R.w/2}" y="80" text-anchor="middle" font-size="34" font-weight="700" fill="#222">${D.module} BNC TERMINAL</text>
     <text x="${x0+R.w/2}" y="122" text-anchor="middle" font-size="24" fill="#444">${D.module==='BNC3'?'(MF8210 ONLY) · 1×8 + loop':'1×6 · MF8212'}</text>`;
   R.pts.forEach(([k,x,y])=>{
@@ -697,11 +701,12 @@ function rearSVG(){
       ${sel?`<circle cx="${x}" cy="${y}" r="46" fill="none" stroke="#e0a000" stroke-width="6"/>`:''}${fill!=='none'?`<circle cx="${x+36}" cy="${y-36}" r="10" fill="${fill}" stroke="#333"/>`:''}
       ${lab?`<text x="${x}" y="${y+64}" text-anchor="middle" font-size="22" font-weight="700" fill="#0d3a6a">${lab}</text>`:''}</g>`;
   });
-  return s+`</svg><div class="small muted" style="text-align:center">Rear artwork: <span class="mono">${esc(DATA.artSrc)}</span>${DATA.artInf?' '+inf(DATA.artInf):''}. Click INPUT to connect the source, INPUT LOOP to cycle open / terminator / next DA, an output to cycle its load (none → 75 Ω → open → 37.5 Ω).</div>`;
+  return s+`</svg><div class="small muted" style="text-align:center">Rear artwork: ${D.rearPng?'old PNG cut from ':'CorelDRAW, vector: '}${SIM.src(M8251_TERM,'m8251term.cdr')} (2000-05-23, the M8251’s “M8251 TERMINAL OPTIONS”; sheet title and module captions removed)${DATA.artInf?' '+inf(DATA.artInf):''}. <label><input type="checkbox" class="vpng" ${D.rearPng?'checked':''}> old PNG</label> Click INPUT to connect the source, INPUT LOOP to cycle open / terminator / next DA, an output to cycle its load (none → 75 Ω → open → 37.5 Ω).</div>`;
 }
 function bindBoard(m){
   m.querySelectorAll('.vp').forEach(g=>g.onclick=()=>{ const p=g.dataset.p; if(p==='HIZ') A.hiz(); else A.part(p); });
   m.querySelectorAll('.vhiz').forEach(g=>g.onclick=()=>A.hiz());
+  m.querySelectorAll('.vpng').forEach(c=>c.onchange=()=>{ D.rearPng=c.checked; SIM.refresh(); });
   m.querySelectorAll('.vb').forEach(g=>g.onclick=()=>{ const k=g.dataset.k; if(k==='in') A.src(); else if(k==='loop') A.loop(); else A.out(+k.slice(1)); });
 }
 function controlsHTML(){
@@ -898,9 +903,20 @@ function viewFind(m){
   m.innerHTML=card('Findings — what the '+DATA.product+' files are up to', `<ol>${DATA.findings.map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}</ol>`)+card('Sources', `<ul class="small mono">${DATA.sources.map(s=>`<li>${esc(s)}</li>`).join('')}</ul><p class="small muted">${DATA.infNote}</p>`);
 }
 
+
+/* ---------------- 2026|59 artwork pass: findings and footnotes ---------------- */
+DATA.findings.unshift(
+  `<b>Artwork ${SIM.year(2026)}: the rear modules are now vector.</b> The BNC1/BNC3 panel is ${SIM.src(M8251_TERM,'m8251term.cdr')} (2000-05-23), converted with Inkscape, in place of the PNG cut earlier from the same file (still on the “old PNG” checkbox). Every BNC hotspot was re-placed on the file’s connector rings. The M8252 has no artwork of its own; it shares the M8251’s rear modules.`,
+  `<b>The 2012 guide re-used another product’s drawing.</b> In ${SIM.src(M8251_RO,'M8251 - rear module options.cdr')} (2012-01-09) every BNC sits at exactly the same coordinates as in the D8204 sheet; only the legends were retyped (OUT n for DIGITAL OUT n). The 2000 m8251term.cdr is a separate, older drawing with the legends in dotted boxes.`
+);
+const FOOTNOTES = [
+  {text:'The M8252 has no rear-module artwork of its own; its BNC1/BNC3 panels are the M8251’s m8251term.cdr (2000).', src:M8251_TERM},
+  {text:'The 2012 M8251 rear-module sheet places every BNC exactly where the D8204 sheet does: the same drawing with new legends.', src:M8251_RO},
+  {text:'The schematic M8252.DSN still carries the title-block name M8251.DSN and the misspelt title “EQULIZING/CLAMPING”.', src:'#MF8200 #SERIES/M8252 - #Master  #MF82/M8252 - #PCB/M8252.DSN'},
+];
 SIM.register({
   id: DATA.id, name: DATA.name, product: DATA.product, year: DATA.year, family: DATA.family, folder: DATA.folder,
-  summary: DATA.summary, highlights: DATA.highlights, depth: 'Hardware model', duration: 1,
+  summary: DATA.summary, highlights: DATA.highlights, footnotes: FOOTNOTES, depth: 'Hardware model', duration: 1,
   stepUnits: [{label:'1 line (63.56 µs)', period:()=>HL}, {label:'1 field (16.68 ms)', period:()=>FIELD}, {label:'1 subcarrier cycle', period:()=>1/FSC}, {label:'1 µs', period:()=>1e-6}],
   zooms: [[1,'1 s (60 fields)'],[0.05,'50 ms (3 fields)'],[FIELD,'1 field'],[0.001,'1 ms (16 lines)'],[2*HL,'2 lines'],[HL,'1 line'],[12e-6,'12 µs (sync + burst)'],[1e-6,'1 µs (subcarrier)']],
   defaultZoom: 5,

@@ -26,6 +26,15 @@ const ASSET = 'siumulation-plugins/assets/';
 const inf = '<span class="tag-inf">inferred</span>';
 const card = (t,b,id)=>`<div class="card"${id?` id="${id}"`:''}><h2>${t}</h2>${b}</div>`;
 const ID='ama', ERA=2002, FLAG='__amaActive';
+const AMAS='#AMA #SERIES/XXX - AMA - #OBSOLETE #Archive/AMA - #SILKS/', AMAO=AMAS+'Older Drawings/';
+/* Artwork 2026|59 footnotes: small facts the CorelDRAW files show */
+const FOOT=[
+ {text:'AMA-S1.cdr (16 May 2002) is two plates on one sheet: WHITE carries MODE, SOURCE, 0° 180°, STEREO, LEFT, RIGHT, HEADSET and SELECT SERIES; GREEN carries the wordmarks, the stripe, the L/R and −20 … 3 scale and the STEREO push-button symbol. Both carry the same LED cross-hairs, 192 px apart on the sheet.', src:AMAO+'AMA-S1.cdr'},
+ {text:'The 2002 front marks every one of the 20 meter LEDs and both MODE/SOURCE buttons with its own drill cross-hair; the 2015 silk marks the LEDs in pairs instead.', src:AMAO+'AMA-S1.cdr'},
+ {text:'The four AMA4 2015 silks in AMA - #SILKS are byte-identical copies of the ones in the AMA4 folder’s #ARTWORK #DA #2016, so the archive holds the 2015 artwork twice.', src:AMAS+'AMA4-M1-FRONT-SILK (CURVE).cdr'},
+ {text:'Ama4manu_TEST.cdr (3 Oct 2003) is a manual sketch, not a silk: it draws real connectors (IEC with fuse drawer, binding posts, BNCs, euroblocks) with live-text labels, and its “115-230 VAC, 1 A.S.B” label lands on top of the IEC inlet.', src:AMAO+'Ama4manu_TEST.cdr'},
+ {text:'Each 2002 silk has a _TEST twin: AMA-S1_TEST.cdr saved the same day, AMA-S2_TEST.cdr a month later (19 Jun 2002) — the S2 twin is the one that swaps the speaker posts to R+ R− … L+ L−.', src:AMAO+'AMA-S2_TEST.cdr'},
+];
 const off = ()=>{ window[FLAG]=false; };
 
 /* ---------------- constants ----------------
@@ -165,7 +174,7 @@ function frontSVG(){
   let leds=''; for (let i=0;i<10;i++){ const x=(5.215+i*0.16)*PX; for (const [y,v] of [[0.724*PX,vl],[0.924*PX,vr]]){ const lit=on&&v>=VU[i]; leds+=`<circle cx="${x}" cy="${y}" r="12" fill="${lit?ledCol(i):'#26302a'}" ${lit?'filter="url(#glw)"':''}/>`; } }
   const red=on&&phaseRed(), grn=on&&!red;
   const txt = dispAt(t);
-  const layers=`<image href="${ASSET}ama-front-2002-green.png" width="3420" height="330"/><image href="${ASSET}ama-front-2002-white.png" width="3420" height="330"/>`;
+  const layers=`<image href="${ASSET}ama-front-2002.svg" width="3420" height="330"/>`;   // Artwork 2026|59: AMA-S1.cdr GREEN + WHITE plates, vector
   return `<svg viewBox="0 0 3420 330" style="width:100%;display:block;border-radius:6px" role="img" aria-label="front panel">
   <defs><filter id="glw" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
   <rect width="3420" height="330" rx="6" fill="#17191b"/>${slots()}
@@ -192,7 +201,7 @@ function rearSVG(){
   const H=(cls,x,y,w,h,t,on,col)=>`<g class="${cls}" style="cursor:pointer"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3" fill="${on?(col||'#2f9e55'):'transparent'}" opacity="${on?0.45:1}" stroke="${on?(col||'#2f9e55'):'transparent'}"/><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="transparent"><title>${t}</title></rect></g>`;
   const anaX=[1035,1085,1135,1185,1235];
   let s=`<svg viewBox="0 0 1520 166" style="width:100%;display:block;border-radius:6px;background:#fff" role="img" aria-label="rear panel (2003 manual sketch)">
-  <image href="${ASSET}ama-rear-2003-manual.png" width="1520" height="166"/>`;
+  <image href="${ASSET}ama-rear-2003.svg" width="1520" height="166"/>`;
   s+=H('pw',40,22,72,124,'IEC inlet 115-230 VAC, 1 A S.B — click to '+(D.power?'unplug':'plug in'),D.power);
   s+=H('sp',185,38,100,30,'R+ / R− speaker posts (this sketch puts R on the left) — click',D.spk,'#c9302c');
   s+=H('sp',430,38,100,30,'L+ / L− speaker posts — click',D.spk,'#c9302c');
@@ -279,8 +288,8 @@ function lanes(){
 /* ---------------- views ---------------- */
 function viewSim(m){
   off();
-  m.innerHTML=`${card('Front panel '+(ERA===2016?'(real 2015|48 silk, AMA4-M1-FRONT-SILK, on the M1 ISS 2 drilling)':'(real 2002|35 silk AMA-S1.cdr on the AMA4-M1 drilling)'),'<div id="fp"></div>')}
-  ${card('Rear panel '+(ERA===2016?'(real 2015|48 silk AMA4-M2-REAR-SILK on the M2 ISS 3 drilling)':'(2003|36 manual sketch Ama4manu_TEST.cdr — click the hot spots)'),'<div id="rp"></div>')}
+  m.innerHTML=`${card('Front panel '+(ERA===2016?'(real 2015|48 silk, AMA4-M1-FRONT-SILK, on the M1 ISS 2 drilling)':'(real 2002|35 silk AMA-S1.cdr on the AMA4-M1 drilling)'),'<div id="fp"></div><div class="small muted" style="margin-top:3px">Artwork: '+(ERA===2016?SIM.src(AMAS+'AMA4-M1-FRONT-SILK (CURVE).cdr','AMA4-M1-FRONT-SILK (CURVE).cdr'):'GREEN + WHITE plates of '+SIM.src(AMAO+'AMA-S1.cdr','AMA-S1.cdr')+' (16 May 2002)')+', CorelDRAW vector registered on the LED cross-hairs both plates carry; faint lines = drill marks.</div>')}
+  ${card('Rear panel '+(ERA===2016?'(real 2015|48 silk AMA4-M2-REAR-SILK on the M2 ISS 3 drilling)':'(2003|36 manual sketch Ama4manu_TEST.cdr — click the hot spots)'),'<div id="rp"></div><div class="small muted" style="margin-top:3px">Artwork: '+SIM.src(AMAO+'Ama4manu_TEST.cdr','Ama4manu_TEST.cdr')+' (3 Oct 2003), the manual\'s rear sketch, CorelDRAW vector (live-text labels re-anchored).</div>')}
   <div class="grid2"><div>${card('Selected source','<div id="se"></div>')}${card('Level through each stage','<div id="ch"></div>')}</div><div>${card('Firmware state at the playhead','<div id="stt"></div>')}${card('What your clicks did (firmware path, AMS4 v2.03 names)','<div id="lg"></div>')}</div></div>
   ${card('Timeline — the selection was made at t = 0','<canvas id="tl"></canvas><p class="small muted">Main-loop pass time and CS8415 lock time are '+inf+'; the pass counts (bounce_num 0x0A, bcount 0x0F, lock_num1 10 × 256, lock_num2 4 × 256) are from init.asm / ams1v203.asm.</p>')}`;
   let lastKey='';
@@ -413,12 +422,12 @@ function viewDraw(m){
   const L=(y,t,d)=>({y,t,d});
   const H=[L('2002-05-08','AMA4-M3-OBSOLETE.dwg','“AMA4-BOTTOM PAN … FOR AMS4 ISSUE 4 PCB”; also carries ABB-M1 / ABB-1 ENCLOSURE notes'),L('2002-05-14','AMA4-M1-OBSOLETE.dwg','“AMA4 FRONT PANEL”, “AMA4-FRT”, “FOR AMS4-ISSUE PCB”, plus POD10-REAR leftovers'),L('2002-05-16','AMA-S1.cdr / AMA-S1_TEST.cdr','front silk; _TEST keeps the live text “AMA-4 AUDIO MONITOR SYSTEM”'),L('2002-05-16','AMA-S2.cdr','rear silk: L+ L− … R+ R−, OUTPUT 1, OUTPUT 2, SDI OUT, SDI IN'),L('2002-06-19','AMA-S2_TEST.cdr','rear silk with the posts swapped: R+ R− … L+ L−'),L('2003-10-03','Ama4manu_TEST.cdr','rear-panel sketch for a manual (the manual itself is not in the archive)'),L('2006-08-29','AmA4-M2-OBSOLETE.dwg','“AMA4 REAR PANEL … FOR AMS4-ISSUE4 PCB”, DOUBLE “D” posts'),L('2007-09-27','AMA4-M2.dwg','issue 2: removed 2 mounting holes (K)'),L('2015-11-04','AMA4-M1 ISS 2 (FRONT PANEL).dwg','71,502 B — same file as the top-level copy in XXX - AMA4 #Obsolete'),L('2015-11-05','AMA4-M1-FRONT-SILK(.cdr/(CURVE).cdr)','2015|48 silk re-draw, NOV.05/15'),L('2016-06-24','AMA4-M2 ISS 3 (REAR PANEL).dwg','131,722 B — same as in #Mechanical #DA #2016'),L('2016-07-06','(AMA4 folder only) AMA4-M1 ISS 2.dwg','72,223 B — the differing M1')];
   const draw=()=>{
-    const img = show==='2002'? `<image href="${ASSET}ama-front-2002-green.png" width="3420" height="330"/><image href="${ASSET}ama-front-2002-white.png" width="3420" height="330"/>` : show==='both'? `<image href="${ASSET}ama-front-2002-white.png" width="3420" height="330"/><image href="${ASSET}ama4-front-white.png" width="3420" height="330" style="filter:hue-rotate(0deg)" opacity=".55"/>` : `<image href="${ASSET}ama4-front-green.png" width="3420" height="330"/><image href="${ASSET}ama4-front-white.png" width="3420" height="330"/>`;
+    const img = show==='2002'? `<image href="${ASSET}ama-front-2002.svg" width="3420" height="330"/>` : show==='both'? `<image href="${ASSET}ama-front-2002.svg" width="3420" height="330"/><image href="${ASSET}ama4-front.svg" width="3420" height="330" opacity=".55"/>` : `<image href="${ASSET}ama4-front.svg" width="3420" height="330"/>`;   // Artwork 2026|59: CorelDRAW vectors (the 2015 file in this folder is byte-identical to the AMA4 folder's, so ama4.js's conversion is shown)
     m.querySelector('#cmp').innerHTML=`<svg viewBox="0 0 3420 330" style="width:100%;border-radius:6px"><rect width="3420" height="330" fill="#17191b"/>${img}</svg>`;
     m.querySelectorAll('[data-v]').forEach(b=>b.classList.toggle('on',b.dataset.v===show));
   };
   m.innerHTML=`${card('Front silk, 2002|35 vs 2015|48 (both registered at 200 px/in on the M1 drilling)','<div style="margin-bottom:6px"><button data-v="2002">AMA-S1.cdr (2002)</button> <button data-v="2015">AMA4-M1-FRONT-SILK (2015)</button> <button data-v="both">overlay white layers</button></div><div id="cmp"></div><p class="small">Same lettering and positions. 2002 marks every meter LED and the MODE/SOURCE buttons with crosshairs; 2015 marks LED pairs and adds crosshairs for the STEREO button (C hole), the headset and the display mounting screws (J). Neither marks the display window.</p>')}
-  ${card('Rear: 2003|36 manual sketch (Ama4manu_TEST.cdr) vs 2015|48 silk','<div style="background:#fff;border-radius:6px"><img src="'+ASSET+'ama-rear-2003-manual.png" style="width:100%"></div><div style="height:8px"></div><svg viewBox="0 0 3422 331" style="width:100%;border-radius:6px"><rect width="3422" height="331" fill="#17191b"/><image href="'+ASSET+'ama4-rear-white.png" width="3422" height="331"/></svg><p class="small">2002/2003: four BNCs (OUTPUT 1, OUTPUT 2, SDI OUT, SDI IN) for the DEMUX option and the posts ordered R then L. 2013–2016 (M2 ISS 2/3): that area became the Detail B cut-out (3.890 × .700″) with a plate, and the 2015 silk orders the posts L then R again.</p>')}
+  ${card('Rear: 2003|36 manual sketch (Ama4manu_TEST.cdr) vs 2015|48 silk','<div style="background:#fff;border-radius:6px"><img src="'+ASSET+'ama-rear-2003.svg" style="width:100%"></div><div style="height:8px"></div><svg viewBox="0 0 3422 331" style="width:100%;border-radius:6px"><rect width="3422" height="331" fill="#17191b"/><image href="'+ASSET+'ama4-rear.svg" width="3422" height="331"/></svg><p class="small">2002/2003: four BNCs (OUTPUT 1, OUTPUT 2, SDI OUT, SDI IN) for the DEMUX option and the posts ordered R then L. 2013–2016 (M2 ISS 2/3): that area became the Detail B cut-out (3.890 × .700″) with a plate, and the 2015 silk orders the posts L then R again.</p>')}
   ${card('Drawing history in the AMA folder (file dates)',`<table class="kv small">${H.map(h=>`<tr><td class="mono">${h.y.slice(0,4)}|${+h.y.slice(0,4)-1967} ${h.y.slice(5)}</td><td class="mono">${h.t}</td><td>${h.d}</td></tr>`).join('')}</table>`)}
   ${card('The front-panel M1 that differs between the two folders',`<table class="kv small"><tr><th></th><th>AMA folder (#MECHANICAL)</th><th>AMA4 folder (#Mechanical #DA #2016)</th></tr><tr><td>File</td><td class="mono">AMA4-M1 ISS 2 (FRONT PANEL).dwg</td><td class="mono">same name</td></tr><tr><td>Saved</td><td>2015-11-04 09:22 (2015|48)</td><td>2016-07-06 05:47 (2016|49)</td></tr><tr><td>Size</td><td>71,502 B</td><td>72,223 B (+721 B)</td></tr><tr><td>MD5</td><td class="mono">428ba4b8…</td><td class="mono">4d2d4082…</td></tr><tr><td>Recovered text</td><td colspan="2">identical (title block, notes, hole table, revision “REMOVED 2 MOUNTING HOLES (K)” and “CHANGED SPEAKER SCREEN AND MOUNTING HOLES”); only an internal GUID and some binary differ</td></tr><tr><td>Matching PDF</td><td colspan="2">only one PDF exists (printed 2015-11-04 23:42, ISS 2) — it matches the 2015 file; the 2016 save has no print</td></tr><tr><td>Third copy</td><td colspan="2">the top-level <span class="mono">XXX - AMA4 #Obsolete/AMA4-M1 ISS 2 (FRONT PANEL).dwg</span> (moved from the Master Mechanical Library) is byte-identical to the AMA-folder file</td></tr></table><p class="small">No DWG reader is available here, so the geometry change can't be shown. With no new revision text and the issue still 2, the 2016 save is most likely a small edit or re-save made during the 2016 M2/M3 updates ${inf}. <b>Keep the 2016 file</b> if one folder is deleted: it is the newer one and exists only in the AMA4 folder.</p>`)}`;
   m.querySelectorAll('[data-v]').forEach(b=>b.onclick=()=>{ show=b.dataset.v; draw(); });
@@ -428,6 +437,7 @@ function viewDraw(m){
 function viewFind(m){
   off();
   const F=[
+   ['Artwork 2026|59: front/rear panels now from the CorelDRAW files', `${SIM.src(AMAO+'AMA-S1.cdr','AMA-S1.cdr')} (16 May 2002, GREEN + WHITE plates) and ${SIM.src(AMAO+'Ama4manu_TEST.cdr','Ama4manu_TEST.cdr')} (3 Oct 2003) as vectors, replacing the PNG cuts; the 2015 comparison uses the same CDR as ama4.js. `+FOOT.map(f=>f.text).join(' ')],
    ['The name, stated once', `Only <span class="mono">AMA-S1_TEST.cdr</span> (2002-05-16) keeps the product name as live text: “AMA-4 AUDIO MONITOR SYSTEM”. AMA-S1.cdr and AMA-S2.cdr are the same artwork converted to curves (film versions, no text objects).`],
    ['A manual that is missing', `<span class="mono">Ama4manu_TEST.cdr</span> (2003-10-03) is a rear-panel illustration in the style of the AMS4 manual (IEC, posts, 4 BNCs, MUTE I O G, analog OUTPUT + 1–4, AES 1/2 3/4, AES BNCs). No AMA-4 manual text is in the archive; the tutorial uses the AMS4 manual (2007|40) ${inf}.`],
    ['L/R swapped within a month', `AMA-S2.cdr (2002-05-16): L+ L− … R+ R−. AMA-S2_TEST.cdr (2002-06-19) and the 2003 sketch: R+ R− … L+ L−. Seen from the rear, the right-hand speaker post on the left matches the front view, so the swap looks deliberate; the 2015 silk went back to L first.`],
@@ -447,6 +457,7 @@ SIM.register({
   summary:'The archive copy of the AMA-4 “Audio Monitor System”: the 2002|35 front and rear silk drawings, a 2003|36 manual sketch and the obsolete DWGs. The model runs the AMS4 v2.0x firmware path with the DEMUX option that the 2002 rear shows (SD1–SD8), and documents the front-panel M1 file that differs from the AMA4 folder.',
   highlights:['2002 front silk and 2003 manual rear sketch, clickable','SDI mode with the DEMUX option (SD1–SD8)','2002 vs 2015 silk comparison','The differing M1 DWG explained','L/R speaker posts swapped in June 2002'],
   depth:'Hardware model',
+  footnotes:FOOT,
   stepUnits:[{label:'1 main() pass',period:()=>K.TP},{label:'1 AES frame',period:()=>1/K.FS},{label:'1 ms',period:()=>0.001},{label:'10 ms',period:()=>0.01},{label:'display flash (0.5 s)',period:()=>K.FLASH}],
   zooms:[[1,'1 s (whole)'],[0.1,'100 ms'],[0.01,'10 ms (auto-detect)'],[0.001,'1 ms (passes)'],[0.0001,'100 µs (AES frames)']],
   defaultZoom:0,

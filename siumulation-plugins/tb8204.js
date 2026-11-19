@@ -1250,7 +1250,7 @@ const LOADZ = {'600':600,'10k':10000,'110':110,'55':55,'1k5':1500,'open':1e12,'s
 
 /* ---------------- state ---------------- */
 const S0 = ()=>({ issue:DATA.defaultIssue, card:DATA.cards[0].id, variant:(DATA.variants||[{id:'std'}])[0].id, sel:null, cable:{}, load:{},
-  gen:4, wiper:0.5, remIn:true, wsteps:[], loop:'none', view:'rear', wiring:'silk', log:[], last:null, blockSel:'card' });
+  gen:4, wiper:0.5, remIn:true, wsteps:[], loop:'none', view:'art', art:'m8204a', wiring:'silk', log:[], last:null, blockSel:'card' });
 const S = S0();
 function demo(){ const iss=DATA.issues[DATA.defaultIssue], c=DATA.cards[0]; Object.keys(c.roles).forEach(k=>{ const r=c.roles[k]; if (!iss.ports.find(p=>p.id===k)) return;
   if (r[1]==='in' && !S.cable[k] && !Object.keys(S.cable).some(x=>c.roles[x]&&c.roles[x][1]==='in')) S.cable[k]=true; });
@@ -1357,7 +1357,28 @@ document.addEventListener('keydown', e=>{
 /* ---------------- board drawing (1:1 from the artwork, inches) ---------------- */
 const PX = 150;
 function labelOf(s){ if (S.wiring==='guide'){ const g=cardObj().guide; if (g && g[s.id]) return g[s.id]; } return s.label; }
+
+/* ---------------- artwork (CorelDRAW) — the default panel view ----------------
+   Assets cut from the CorelDRAW sheets named in ART (converted with Inkscape, sheet titles removed).
+   Hotspot centres are the terminal symbols in those files; each carries the copper screw id it sits on
+   (matched top-to-bottom against the Tango file, so the legend shown is the sheet's own). */
+const ART_MASTER = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/8200 Series - Rear module drawing Master.cdr';
+const ART_CAP = what=>`CorelDRAW artwork: ${what} of ${SIM.src(ART_MASTER,'8200 Series - Rear module drawing Master.cdr')} (2011-12-22), converted with Inkscape. Hairlines are widened, the heading is re-centred, and the sheet title and neighbouring modules are left out.`;
+const ART = {
+  m8204a:{file:'tb8204-m8204a-art.svg', issues:['iss1'], label:'“M8204/A TERMINAL OPTIONS” page: TB8204', cap:()=>ART_CAP('the TB8204 half of the “M8204/A TERMINAL OPTIONS” page')},
+  tb204:{file:'tb8204-tb204-art.svg', issues:['iss1'], label:'“M8204 & M8204A” page: “TB204 & TB8204/600”', cap:()=>ART_CAP('the screw-terminal column of the “M8204 & M8204A TERMINAL OPTIONS” page')},
+  tb8204p:{file:'tb8204-tb8204p-art.svg', issues:['p'], label:'“M8204 & M8204A” page: TB8204P ISS1', cap:()=>ART_CAP('the TB8204P & TB8204P/600 column of the “M8204 & M8204A TERMINAL OPTIONS” page')},
+};
+const ART_PTS = {"m8204a":{"r":5,"vb":[2181,2846,297,417],"pts":[[2323.0,2953.9,"J54AB-3","A IN +"],[2323.0,2966.9,"J54AB-2","A IN -"],[2323.0,2979.8,"J54AB-1","A SHIELD"],[2296.1,3006.4,"J52AB-9","A OUT 1+"],[2296.1,3019.4,"J52AB-8","A OUT 2+"],[2296.1,3032.4,"J52AB-7","A OUT 3+"],[2296.1,3045.4,"J52AB-6","A OUT 4+"],[2296.1,3058.3,"J52AB-5","GND"],[2296.1,3071.3,"J52AB-4","B OUT 4+"],[2296.1,3084.3,"J52AB-3","B OUT 3+"],[2296.1,3097.3,"J52AB-2","B OUT 2+"],[2296.1,3110.2,"J52AB-1","B OUT 1+"],[2323.0,3137.2,"J55B-3","B IN +"],[2323.0,3150.2,"J55B-2","B IN -"],[2323.0,3163.1,"J55B-1","B SHIELD"],[2343.1,3006.4,"J53AB-9","A OUT 1-"],[2343.1,3019.4,"J53AB-8","A OUT 2-"],[2343.1,3032.4,"J53AB-7","A OUT 3-"],[2343.1,3045.4,"J53AB-6","A OUT 4-"],[2343.1,3058.3,"J53AB-5","GND"],[2343.1,3071.3,"J53AB-4","B OUT 4-"],[2343.1,3084.3,"J53AB-3","B OUT 3-"],[2343.1,3097.3,"J53AB-2","B OUT 2-"],[2343.1,3110.2,"J53AB-1","B OUT 1-"]]},"tb204":{"r":5,"vb":[1295,2830,224,417],"pts":[[1397.3,2938.1,"J54AB-3","A IN +"],[1397.3,2950.8,"J54AB-2","A IN -"],[1397.3,2963.4,"J54AB-1","A SHIELD"],[1374.4,2989.4,"J52AB-9","A OUT 1+"],[1374.4,3002.1,"J52AB-8","A OUT 2+"],[1374.4,3014.7,"J52AB-7","A OUT 3+"],[1374.4,3027.4,"J52AB-6","A OUT 4+"],[1374.4,3040.1,"J52AB-5","GND"],[1374.4,3052.8,"J52AB-4","B OUT 4+"],[1374.4,3065.4,"J52AB-3","B OUT 3+"],[1374.4,3078.1,"J52AB-2","B OUT 2+"],[1374.4,3090.8,"J52AB-1","B OUT 1+"],[1397.3,3117.1,"J55B-3","B IN +"],[1397.3,3129.8,"J55B-2","B IN -"],[1397.3,3142.4,"J55B-1","B SHIELD"],[1414.5,2989.4,"J53AB-9","A OUT 1-"],[1414.5,3002.1,"J53AB-8","A OUT 2-"],[1414.5,3014.7,"J53AB-7","A OUT 3-"],[1414.5,3027.4,"J53AB-6","A OUT 4-"],[1414.5,3040.1,"J53AB-5","GND"],[1414.5,3052.8,"J53AB-4","B OUT 4-"],[1414.5,3065.4,"J53AB-3","B OUT 3-"],[1414.5,3078.1,"J53AB-2","B OUT 2-"],[1414.5,3090.8,"J53AB-1","B OUT 1-"]]},"tb8204p":{"r":4.5,"vb":[1079,2830,224,417],"pts":[[1155.0,2939.8,"AIN-3","SH"],[1155.0,2951.1,"AIN-2","AIN -"],[1155.0,2962.3,"AIN-1","AIN +"],[1155.7,2981.1,"A1-3","SH"],[1155.7,2992.3,"A1-2","A1 -"],[1155.7,3003.6,"A1-1","A1 +"],[1155.7,3015.3,"A3-3","SH"],[1155.7,3026.6,"A3-2","A3 -"],[1155.7,3037.8,"A3-1","A3 +"],[1155.7,3049.6,"B1-3","SH"],[1155.7,3060.8,"B1-2","B1 -"],[1155.7,3072.1,"B1-1","B1 +"],[1155.7,3083.9,"B3-3","SH"],[1155.7,3095.1,"B3-2","B3 -"],[1155.7,3106.3,"B3-1","B3 +"],[1155.7,3123.8,"BIN-3","SH"],[1155.7,3135.1,"BIN-2","BIN -"],[1155.7,3146.3,"BIN-1","BIN +"],[1196.9,2981.1,"A2-1","A2 +"],[1196.9,2992.3,"A2-2","A2 -"],[1196.9,3003.6,"A2-3","SH"],[1196.9,3015.3,"A4-1","A4 +"],[1196.9,3026.6,"A4-2","A4 -"],[1196.9,3037.8,"A4-3","SH"],[1196.9,3049.6,"B2-1","B2 +"],[1196.9,3060.8,"B2-2","B2 -"],[1196.9,3072.1,"B2-3","SH"],[1196.9,3083.9,"B4-1","B4 +"],[1196.9,3095.1,"B4-2","B4 -"],[1196.9,3106.3,"B4-3","SH"]]}};
+function artKey(){ const ks=Object.keys(ART).filter(k=>!ART[k].issues||ART[k].issues.includes(S.issue)); return ks.includes(S.art)? S.art : ks[0]; }
+function artSVG(opts){ opts=opts||{}; const k=artKey(), a=ART_PTS[k], F=ART[k], [x,y,w,h]=a.vb, iss=I(), sel=S.sel, R=a.r;
+  let s=`<svg viewBox="${x} ${y} ${w} ${h}" style="width:100%;max-width:${opts.max||430}px;display:block;margin:auto;border-radius:4px" role="img" aria-label="${esc(DATA.product)}: ${esc(F.label)}"><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#fff"/><image href="${ASSET}${F.file}" x="${x}" y="${y}" width="${w}" height="${h}"/>`;
+  a.pts.forEach(p=>{ const sc=iss.screws.find(z=>z.id===p[2]); if (!sc) return; const pr=port(sc.port), isSel=sc.port===sel, plug=!!S.cable[sc.port];
+    const col = sc.leg==='+'||sc.leg==='HIGH'? '#e0304a' : sc.leg==='-'||sc.leg==='WIPER'? '#2f7de1' : '#777';
+    s+=`<g class="pos" data-p="${sc.port}" style="cursor:pointer"><title>Sheet legend “${esc(p[3])}” · ${esc(sc.ref)} (${esc(sc.leg)}) → ${sc.series?esc(sc.series)+' → ':''}${sc.con} → contact ${sc.contact} · port ${esc(pr?pr.name:sc.port)}</title><circle cx="${p[0]}" cy="${p[1]}" r="${R*1.25}" fill="transparent"/>${plug&&pr&&pr.kind!=='gnd'?`<circle cx="${p[0]}" cy="${p[1]}" r="${R*0.55}" fill="${col}" fill-opacity=".8"/>`:''}${isSel?`<circle cx="${p[0]}" cy="${p[1]}" r="${R}" fill="none" stroke="#e0a800" stroke-width="${R*0.3}"/>`:''}</g>`; });
+  return s+`</svg><div class="small muted" style="text-align:center">${F.cap()} Coloured dot = cable on that port; ring = selected port.</div>`; }
 function panelSVG(opts){
+  if (S.view==='art') return artSVG(opts);
   opts=opts||{}; const iss=I(), W=iss.w*PX, H=iss.h*PX, M=170, sel=S.sel;
   let s=`<svg viewBox="0 0 ${W+2*M} ${H+46}" style="width:100%;max-width:${opts.max||540}px;display:block;margin:auto" role="img" aria-label="${esc(DATA.product)} drawn from ${esc(iss.art)}">
    <defs><filter id="${ID}gl" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.5"/></filter></defs>
@@ -1392,7 +1413,8 @@ function controlsHTML(){
     <label>Card <select data-c="card">${cardsForIssue().map(x=>`<option value="${x.id}" ${x.id===S.card?'selected':''}>${esc(x.id)} — ${esc(x.short)}</option>`).join('')}</select></label>
     ${ks.length>1?`<label>Issue <select data-c="issue">${ks.map(k=>`<option value="${k}" ${k===S.issue?'selected':''}>${esc(DATA.issues[k].label)}</option>`).join('')}</select></label>`:''}
     ${V.length>1?`<label>Build <select data-c="variant">${V.map(v=>`<option value="${v.id}" ${v.id===S.variant?'selected':''}>${esc(v.label)}</option>`).join('')}</select></label>`:''}
-    <label>View <select data-c="view"><option value="rear" ${S.view==='rear'?'selected':''}>terminal side</option><option value="card" ${S.view==='card'?'selected':''}>solder side</option></select></label>
+    <label>View <select data-c="view"><option value="art" ${S.view==='art'?'selected':''}>CorelDRAW artwork</option><option value="rear" ${S.view==='rear'?'selected':''}>terminal side (copper)</option><option value="card" ${S.view==='card'?'selected':''}>solder side</option></select></label>
+    ${S.view==='art'?`<label>Sheet <select data-c="art">${Object.keys(ART).filter(k=>!ART[k].issues||ART[k].issues.includes(S.issue)).map(k=>`<option value="${k}" ${k===artKey()?'selected':''}>${esc(ART[k].label)}</option>`).join('')}</select></label>`:''}
     ${DATA.guideToggle?`<label>Labels <select data-c="wiring"><option value="silk" ${S.wiring==='silk'?'selected':''}>board silk</option><option value="guide" ${S.wiring==='guide'?'selected':''}>2012 guide</option></select></label>`:''}
     <label>Source <input type="range" data-c="gen" min="-20" max="24" value="${S.gen}" style="width:90px"> ${S.gen>=0?'+':''}${S.gen} dBu</label>
     ${I().ports.some(p=>p.kind==='loop')?`<label>Loop out to <select data-c="loop">${['none','bridge','chain4','600'].map(v=>`<option value="${v}" ${S.loop===v?'selected':''}>${{none:'nothing',bridge:'1 bridging input (10 k)',chain4:'4 bridging inputs',600:'600 Ω termination'}[v]}</option>`).join('')}</select></label>`:''}
@@ -1402,7 +1424,7 @@ function controlsHTML(){
 }
 function bindControls(m){
   m.querySelectorAll('[data-c]').forEach(el=>{ const k=el.dataset.c;
-    if (el.tagName==='SELECT') el.onchange=()=>{ if(k==='card') A.setCard(el.value); if(k==='issue') A.setIssue(el.value); if(k==='variant') A.setVariant(el.value); if(k==='view'){ S.view=el.value; SIM.refresh(); } if(k==='loop') A.loop(el.value); if(k==='wiring') A.wiring(el.value); };
+    if (el.tagName==='SELECT') el.onchange=()=>{ if(k==='card') A.setCard(el.value); if(k==='issue') A.setIssue(el.value); if(k==='variant') A.setVariant(el.value); if(k==='view'){ S.view=el.value; SIM.refresh(); } if(k==='art'){ S.art=el.value; SIM.refresh(); } if(k==='loop') A.loop(el.value); if(k==='wiring') A.wiring(el.value); };
     else if (el.type==='range') el.onchange=()=>{ if(k==='gen') A.gen(+el.value); if(k==='wiper') A.wiper(+el.value/100); };
     else if (el.type==='checkbox') el.onchange=()=>A.remIn();
     else el.onclick=()=>{ if(k==='plug') A.plug(S.sel); if(k==='reset') A.reset(); }; });
@@ -1603,9 +1625,27 @@ function viewFind(m){
   m.innerHTML=card('Findings — what the '+esc(DATA.product)+' files show', `<ol>${DATA.findings.concat(common).map(f=>`<li style="margin-bottom:8px">${f}</li>`).join('')}</ol>`)+card('Sources used', `<ul class="small">${DATA.sources.map(s=>`<li class="mono">${esc(s)}</li>`).join('')}</ul>`);
 }
 
+
+/* ---------------- artwork findings and footnotes (2026|59 CorelDRAW pass) ---------------- */
+const ART_M8204_2012 = '#MF8200 #SERIES/8200 Series Rear Module options graphical Guides - #Engineering #Artwork #manual #MF82 #TERMINATION/M8204 - rear module options.cdr';
+const ART_FIND = [
+  `<b>Artwork ${SIM.year(2026)}: the panels now come from ${SIM.src(ART_MASTER,'8200 Series - Rear module drawing Master.cdr')} (2011-12-22).</b> The TB8204 comes from the “M8204/A TERMINAL OPTIONS” page, or from the “TB204 & TB8204/600” column of the “M8204 & M8204A” page. The TB8204P comes from its column on that page, labelled “TB8204P ISS1”. The copper drawings are still on the View selector. No file is named after the TB8204, so a first search by name found nothing.`,
+  `<b>The 2011 master and the 2012 sheet disagree on the TB8204P.</b> The master’s right-hand column runs A2, A4, B2, B4 from the top. ${SIM.src(ART_M8204_2012,'M8204 - rear module options.cdr')} (2012-01-16) and the inferred layout of the redrawn view run A2, A4, B4, B2. With the artwork selected, the hotspots follow the master.`,
+  `<b>The heading says “TB204 & TB8204/600”.</b> The 8 is missing, and the module drawn under it carries “TB8204” in its own silk.`,
+  `<b>The legends rename the input ground.</b> The board silk marks the third input terminal “G”; the sheets call it “A SHIELD” / “B SHIELD” on the TB8204 and “SH” on the TB8204P.`,
+  `<b>The 2012 per-card sheets were not usable.</b> ${SIM.src(ART_M8204_2012,'M8204 - rear module options.cdr')} and its M8204A twin convert to legends only, with no module outline, so the 2011 master is the artwork here.`,
+];
+DATA.findings = ART_FIND.concat(DATA.findings);
+const FOOTNOTES = [
+  {text:'The “M8204 & M8204A TERMINAL OPTIONS” page heads the screw module “TB204 & TB8204/600”, with the 8 missing.', src:ART_MASTER},
+  {text:'On the TB8204P the 2011 master puts B2 above B4 in the right-hand column. The 2012 M8204 sheet puts B4 above B2.', src:ART_M8204_2012},
+  {text:'The TB8204P drawing is labelled “TB8204P ISS1” on the module itself.', src:ART_MASTER},
+  {text:'The TB8204P blocks put the shield at the top of the left-hand blocks (SH, −, +) and at the bottom of the right-hand blocks (+, −, SH).', src:ART_MASTER},
+  {text:'The sheets call the input ground “A SHIELD” / “B SHIELD” where the board silk prints “G”.', src:ART_MASTER},
+];
 SIM.register({
   id:ID, product:DATA.product, name:DATA.name, year:DATA.year, family:DATA.family, folder:DATA.folder,
-  summary:DATA.summary, highlights:DATA.highlights, depth:'Hardware model', duration:1,
+  summary:DATA.summary, highlights:['Panels from the CorelDRAW 2011 rear-module master'].concat(DATA.highlights), footnotes:FOOTNOTES, depth:'Hardware model', duration:1,
   stepUnits:[{label:'1 AES frame (48 kHz)',period:()=>1/FS},{label:'0.1 ms',period:()=>1e-4},{label:'1 ms (1 tone cycle)',period:()=>0.001},{label:'10 ms',period:()=>0.01},{label:'100 ms',period:()=>0.1}],
   zooms:[[1,'1 s (whole second)'],[0.1,'100 ms'],[0.01,'10 ms'],[0.004,'1 AES block (4 ms)'],[0.002,'2 ms (two tone cycles)'],[4/FS,'4 AES frames (83 µs)'],[2e-6,'2 µs (bit cells)']],
   defaultZoom:4,
