@@ -97,6 +97,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname.endsWith('/sw.js')) return; // the browser checks the worker itself
+  if (url.pathname.endsWith('/version.json')) return; // update check: always from the network
 
   // Page: serve stored copy at once, compare with the network in the background
   if (isPage(req, url)) {
