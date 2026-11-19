@@ -1,3 +1,4 @@
+/*! Copyright (c) 2026 Ward-Beck Systems (Ward-Beck.ca). All rights reserved. */
 /**
  * Ward-Beck Systems Precision Audio Visualizer
  * Real-Time AudioWorkletProcessor for Sub-Millisecond Metering & Ballistics

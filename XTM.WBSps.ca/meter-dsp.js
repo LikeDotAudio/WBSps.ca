@@ -1,3 +1,4 @@
+/*! Copyright (c) 2026 Ward-Beck Systems (Ward-Beck.ca). All rights reserved. */
 export async function instantiate(module, imports = {}) {
   const adaptedImports = {
     env: Object.setPrototypeOf({

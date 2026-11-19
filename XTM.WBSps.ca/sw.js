@@ -1,3 +1,4 @@
+/*! Copyright (c) 2026 Ward-Beck Systems (Ward-Beck.ca). All rights reserved. */
 // Minimal Service Worker for PWA Installation
 const CACHE_NAME = 'wbs-xtm-v1';
 
