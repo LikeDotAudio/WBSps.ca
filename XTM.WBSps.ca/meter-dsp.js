@@ -19,21 +19,21 @@ export async function instantiate(module, imports = {}) {
   const memory = exports.memory || imports.env.memory;
   const adaptedExports = Object.setPrototypeOf({
     inputBufferL: {
-      // assembly/index/inputBufferL: ~lib/staticarray/StaticArray<f32>
+      // assembly/core/buffers/inputBufferL: ~lib/staticarray/StaticArray<f32>
       valueOf() { return this.value; },
       get value() {
         return __liftStaticArray(__getF32, 2, exports.inputBufferL.value >>> 0);
       }
     },
     inputBufferR: {
-      // assembly/index/inputBufferR: ~lib/staticarray/StaticArray<f32>
+      // assembly/core/buffers/inputBufferR: ~lib/staticarray/StaticArray<f32>
       valueOf() { return this.value; },
       get value() {
         return __liftStaticArray(__getF32, 2, exports.inputBufferR.value >>> 0);
       }
     },
     outputTelemetry: {
-      // assembly/index/outputTelemetry: ~lib/staticarray/StaticArray<f32>
+      // assembly/core/buffers/outputTelemetry: ~lib/staticarray/StaticArray<f32>
       valueOf() { return this.value; },
       get value() {
         return __liftStaticArray(__getF32, 2, exports.outputTelemetry.value >>> 0);
