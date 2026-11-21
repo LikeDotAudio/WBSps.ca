@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ward-Beck Systems (WBS) DR Rotary Control &amp; Module — Interactive Styleguide</title>
+  <style>
+    :root {
+      --bg-void: #0e1013;
+      --bg-panel: #17191e;
+      --bg-elevated: #22262d;
+      --border-subtle: #2d333c;
+      --border-strong: #454d5a;
+
+      /* WBS DR Hardware Tokens */
+      --wbs-slate-blue: #3e5e71;
+      --wbs-slate-dark: #2d4554;
+      --wbs-slate-light: #527991;
+      --wbs-alu-base: #c6c3b3;
+      --wbs-alu-light: #d8d6c9;
+      --wbs-milled-lip: #8c897b;
+
+      /* Bakelite & Knurled Phenolic Tokens */
+      --wbs-knob-base: #151619;
+      --wbs-knob-sheen: #26282f;
+      --wbs-knob-flute: #0d0e10;
+      --wbs-pointer-white: #f5f7fa;
+
+      /* Indicator LED Tokens */
+      --led-red: #d93829;
+      --led-green: #28a745;
+      --led-amber: #e5a91a;
+
+      /* Text Tokens */
+      --text-primary: #f2efe9;
+      --text-secondary: #a0a4ab;
+      --text-muted: #6c7077;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-void);
+      color: var(--text-primary);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Sticky Top Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(14, 16, 19, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 1rem 2rem;
+    }
+
+    .header-inner {
+      max-width: 1340px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand-cluster {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .wbs-badge {
+      border: 3px solid var(--text-primary);
+      border-radius: 12px;
+      padding: 0.2rem 1.1rem;
+      font-size: 1.65rem;
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: 3px;
+      line-height: 1.1;
+      user-select: none;
+    }
+
+    .title-block h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+
+    .title-block p {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+
+    nav.toc {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav.toc a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      padding: 0.45rem 0.75rem;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+
+    nav.toc a:hover {
+      color: var(--text-primary);
+      background: var(--bg-elevated);
+      border-color: var(--border-subtle);
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1340px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3.5rem;
+    }
+
+    .section-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.65rem;
+      margin-bottom: 1.5rem;
+      gap: 0.5rem;
+    }
+
+    .section-header h2 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+    }
+
+    .section-header span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Color Swatch Grid */
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+      gap: 1.1rem;
+    }
+
+    .swatch-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .swatch-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-strong);
+    }
+
+    .swatch-preview {
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .swatch-preview .copy-pill {
+      opacity: 0;
+      background: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.25rem 0.6rem;
+      border-radius: 99px;
+      letter-spacing: 0.6px;
+      transition: opacity 0.15s ease;
+    }
+
+    .swatch-card:hover .copy-pill {
+      opacity: 1;
+    }
+
+    .swatch-meta {
+      padding: 0.85rem 1rem;
+    }
+
+    .swatch-meta h3 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 0.15rem;
+    }
+
+    .swatch-meta code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.78rem;
+      color: var(--wbs-alu-base);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .swatch-meta p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Two-column Spec Grid */
+    .spec-two-col {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .spec-box {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.4rem;
+    }
+
+    .spec-box h3 {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+    }
+
+    .type-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--border-subtle);
+      gap: 1rem;
+    }
+
+    .type-row:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .type-sample {
+      color: var(--text-primary);
+    }
+
+    .type-info {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .anatomy-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+      text-align: center;
+      padding-top: 0.5rem;
+    }
+
+    .anatomy-item {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 1rem 0.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.65rem;
+    }
+
+    .anatomy-item h4 {
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .anatomy-item span {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    /* Toolbar for Hero Module */
+    .rack-toolbar {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 0.9rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .toolbar-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .toolbar-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-secondary);
+      margin-right: 0.25rem;
+    }
+
+    .state-btn {
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-subtle);
+      padding: 0.4rem 0.85rem;
+      border-radius: 5px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .state-btn:hover {
+      border-color: var(--border-strong);
+      color: var(--text-primary);
+    }
+
+    .state-btn.active {
+      background: var(--wbs-alu-base);
+      color: #1a1a1a;
+      border-color: var(--wbs-alu-light);
+    }
+
+    /* Showcase Layout */
+    .showcase-stage {
+      display: grid;
+      grid-template-columns: minmax(360px, 460px) 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .module-display-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.75rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .module-svg-wrap {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .module-svg-wrap svg {
+      max-height: 520px;
+      width: auto;
+      overflow: visible;
+    }
+
+    /* Interactive Knob Drag Area */
+    .rotary-knob-interactive {
+      cursor: grab;
+      touch-action: none;
+    }
+    .rotary-knob-interactive:active {
+      cursor: grabbing;
+    }
+
+    /* Live Telemetry Card */
+    .telemetry-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .readout-pill-cluster {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .readout-pill {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .readout-pill label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-muted);
+    }
+
+    .readout-pill span {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .preset-chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .preset-chip {
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
+      padding: 0.35rem 0.7rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .preset-chip:hover {
+      border-color: var(--border-strong);
+      color: var(--text-primary);
+    }
+
+    /* Engineering Principles Cards */
+    .rules-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .rule-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.4rem;
+    }
+
+    .rule-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.55rem;
+    }
+
+    .rule-card p {
+      font-size: 0.86rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.85rem;
+    }
+
+    .rule-footnote {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 0.65rem;
+    }
+
+    /* Code Export Block */
+    .code-panel {
+      background: #0b0c0f;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .code-header {
+      background: var(--bg-elevated);
+      padding: 0.65rem 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .code-header span {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    pre {
+      padding: 1.1rem 1.25rem;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.8rem;
+      line-height: 1.55;
+      color: #c9d1d9;
+    }
+
+    footer {
+      max-width: 1340px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem 3rem;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    #toast {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background: var(--wbs-alu-base);
+      color: #1a1a1a;
+      font-weight: 700;
+      font-size: 0.82rem;
+      padding: 0.6rem 1.1rem;
+      border-radius: 6px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all 0.2s ease;
+      z-index: 999;
+    }
+
+    #toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 860px) {
+      .showcase-stage {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Shared SVG Definitions -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <!-- Panel Finish Gradients -->
+      <linearGradient id="slateFaceplate" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#4B7087" />
+        <stop offset="50%" stop-color="#3E5E71" />
+        <stop offset="100%" stop-color="#2D4554" />
+      </linearGradient>
+
+      <linearGradient id="aluFaceplate" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#D8D6C9" />
+        <stop offset="50%" stop-color="#C6C3B3" />
+        <stop offset="100%" stop-color="#B1AD9B" />
+      </linearGradient>
+
+      <linearGradient id="charcoalFaceplate" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#282B30" />
+        <stop offset="50%" stop-color="#1E2024" />
+        <stop offset="100%" stop-color="#141518" />
+      </linearGradient>
+
+      <!-- Extrusion Lip Gradient -->
+      <linearGradient id="extrusionBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#EBE8DE" />
+        <stop offset="35%" stop-color="#C6C3B3" />
+        <stop offset="100%" stop-color="#8C897B" />
+      </linearGradient>
+
+      <!-- Knob Cap Radial Lighting -->
+      <radialGradient id="knobCapGrad" cx="36%" cy="32%" r="68%">
+        <stop offset="0%" stop-color="#3A3D46" />
+        <stop offset="38%" stop-color="#23252B" />
+        <stop offset="82%" stop-color="#16171A" />
+        <stop offset="100%" stop-color="#0E0F12" />
+      </radialGradient>
+
+      <!-- Outer Skirt Radial Shading -->
+      <radialGradient id="knobSkirtGrad" cx="42%" cy="40%" r="65%">
+        <stop offset="0%" stop-color="#26282E" />
+        <stop offset="70%" stop-color="#151619" />
+        <stop offset="100%" stop-color="#090A0C" />
+      </radialGradient>
+
+      <!-- Fluting Scallop Shadow -->
+      <radialGradient id="scallopDepression" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#08080A" stop-opacity="0.9" />
+        <stop offset="75%" stop-color="#141518" stop-opacity="0.8" />
+        <stop offset="100%" stop-color="#2E3038" stop-opacity="0.2" />
+      </radialGradient>
+
+      <!-- Drop Shadows -->
+      <filter id="knobCastShadow" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.65" />
+        <feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.45" />
+      </filter>
+
+      <filter id="moduleShadow" x="-8%" y="-8%" width="120%" height="120%">
+        <feDropShadow dx="4" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.65" />
+      </filter>
+
+      <!-- LED Glow Filters -->
+      <filter id="glowRed" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" result="b" /><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <filter id="glowGreen" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" result="b" /><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <filter id="glowAmber" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" result="b" /><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+
+      <!-- Trimmer Pot -->
+      <g id="trimPot">
+        <polygon points="0,-11 9.5,-5.5 9.5,5.5 0,11 -9.5,5.5 -9.5,-5.5" fill="#A6A395" stroke="#5A584F" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7.5" fill="#D8D6C8" stroke="#6E6C61" stroke-width="0.8"/>
+        <circle cx="0" cy="0" r="5" fill="#B5B2A4" stroke="#444" stroke-width="0.8"/>
+        <line x1="-3.5" y1="-2" x2="3.5" y2="2" stroke="#2B2B2B" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+
+      <!-- Bayonet Fuse Holder -->
+      <g id="fuseHolder">
+        <circle cx="0" cy="0" r="19" fill="#161719" stroke="#38393e" stroke-width="1.2"/>
+        <circle cx="0" cy="0" r="15.5" fill="#24252a" stroke="#555" stroke-width="1" stroke-dasharray="2,1.5"/>
+        <circle cx="0" cy="0" r="12" fill="#18181a" stroke="#303135" stroke-width="0.8"/>
+        <rect x="-9.5" y="-1.6" width="19" height="3.2" rx="1" fill="#09090a" stroke="#36383e" stroke-width="0.5"/>
+        <text x="0" y="-4.2" fill="#777a82" font-size="5" font-weight="bold" text-anchor="middle" letter-spacing="0.8">FUSE</text>
+      </g>
+    </defs>
+  </svg>
+
+  <!-- Global Header -->
+  <header>
+    <div class="header-inner">
+      <div class="brand-cluster">
+        <a href="https://likedotaudio.github.io/WBSps.ca/" class="wbs-badge" title="WBSps.ca Archive Home" style="color:var(--text-primary);text-decoration:none;">WBS</a>
+        <div class="title-block">
+          <h1><a href="https://likedotaudio.github.io/WBSps.ca/" style="color:inherit;text-decoration:none;">WBSps.ca</a> • WBS DR ROTARY CONTROL &amp; MODULE STYLEGUIDE</h1>
+          <p>Ward-Beck Systems Ltd. • Collet Fluted Knobs • M460 / M466 Dynamics Series</p>
+        </div>
+      </div>
+      <nav class="toc">
+        <a href="https://likedotaudio.github.io/WBSps.ca/" style="color:#22c55e;border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08);">← WBSps.ca</a>
+        <a href="#palette">01 Palette</a>
+        <a href="#anatomy">02 Knob Anatomy</a>
+        <a href="#hero-module">03 Hero Module</a>
+        <a href="#principles">04 Engineering Rules</a>
+        <a href="#tokens">05 CSS Tokens</a>
+        <a href="styleguide-m600.html" style="color:var(--wbs-alu-base);border-color:var(--border-subtle);">M600 Guide →</a>
+        <a href="meters.html" style="color:var(--wbs-alu-base);border-color:var(--border-subtle);">Meters →</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 01 PALETTE -->
+    <section id="palette">
+      <div class="section-header">
+        <h2>01 / Surface Materials &amp; Knob Finish Palette</h2>
+        <span>Click any swatch to copy hex token</span>
+      </div>
+
+      <div class="swatch-grid">
+        <div class="swatch-card" data-copy="#3E5E71">
+          <div class="swatch-preview" style="background: #3E5E71;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>WBS Slate Blue</h3>
+            <code>#3E5E71</code>
+            <p>Console dynamics panel face</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#151619">
+          <div class="swatch-preview" style="background: #151619;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Bakelite Black</h3>
+            <code>#151619</code>
+            <p>Fluted knob body &amp; collar</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#26282F">
+          <div class="swatch-preview" style="background: #26282F;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Knob Top Sheen</h3>
+            <code>#26282F</code>
+            <p>Specular highlight crown</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#F5F7FA">
+          <div class="swatch-preview" style="background: #F5F7FA; color: #111;">
+            <span class="copy-pill" style="background: #000; color: #fff;">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Silkscreen White</h3>
+            <code>#F5F7FA</code>
+            <p>Pointer arrow &amp; scale ticks</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#C6C3B3">
+          <div class="swatch-preview" style="background: #C6C3B3;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Brushed Alloy</h3>
+            <code>#C6C3B3</code>
+            <p>Anodized alternate finish</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#D93829">
+          <div class="swatch-preview" style="background: #231616;">
+            <div style="width:18px;height:18px;border-radius:50%;background:#D93829;box-shadow:0 0 12px #D93829;"></div>
+            <span class="copy-pill" style="position:absolute;bottom:8px;">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>OVLD Signal</h3>
+            <code>#D93829</code>
+            <p>Limiting &amp; clipping LED</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#28A745">
+          <div class="swatch-preview" style="background: #142418;">
+            <div style="width:18px;height:18px;border-radius:50%;background:#28A745;box-shadow:0 0 12px #28A745;"></div>
+            <span class="copy-pill" style="position:absolute;bottom:8px;">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>NORM Active</h3>
+            <code>#28A745</code>
+            <p>Gain reduction active</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 TYPOGRAPHY & ANATOMY -->
+    <section id="anatomy">
+      <div class="section-header">
+        <h2>02 / DR Knob Construction &amp; Dial Markings</h2>
+        <span>Asymmetric logarithmic range (–50 dB to +30 dB)</span>
+      </div>
+
+      <div class="spec-two-col">
+        <div class="spec-box">
+          <h3>Scale Nomenclature &amp; Angular Range</h3>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:1.05rem;font-weight:800;letter-spacing:1px;">DR &nbsp; (Dynamic Range)</div>
+            <div class="type-info">Header • Bold Caps 10.5pt</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:0.85rem;font-weight:700;letter-spacing:1.5px;">− &nbsp; 0 &nbsp; +</div>
+            <div class="type-info">Directional Polarity • 8.5pt</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:0.75rem;font-weight:700;">10 &nbsp; 20 &nbsp; 30 &nbsp; 40 &nbsp; 50</div>
+            <div class="type-info">Major Decibel Marks • 7.5pt</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:0.7rem;font-weight:600;color:var(--text-secondary);">2 &nbsp; 4 &nbsp; 6 &nbsp; 8 (2 dB subdivisions)</div>
+            <div class="type-info">Fine Increments • 6pt</div>
+          </div>
+        </div>
+
+        <div class="spec-box">
+          <h3>Knob Mechanical Anatomy</h3>
+          <div class="anatomy-grid">
+            <!-- Item 1: Pointer Arrow -->
+            <div class="anatomy-item">
+              <svg width="42" height="42" viewBox="-21 -21 42 42">
+                <circle cx="0" cy="0" r="18" fill="#151619" stroke="#333" stroke-width="1"/>
+                <line x1="0" y1="0" x2="0" y2="-12" stroke="#F5F7FA" stroke-width="2.5" stroke-linecap="round"/>
+                <polygon points="-4,-10 4,-10 0,-17" fill="#F5F7FA"/>
+              </svg>
+              <div>
+                <h4>Arrowhead</h4>
+                <span>Crisp Skirt Index</span>
+              </div>
+            </div>
+
+            <!-- Item 2: Scalloped Teeth -->
+            <div class="anatomy-item">
+              <svg width="42" height="42" viewBox="-21 -21 42 42">
+                <circle cx="0" cy="0" r="18" fill="#1c1d22" stroke="#444" stroke-width="1"/>
+                <circle cx="-13" cy="0" r="3.2" fill="#0d0e10"/>
+                <circle cx="13" cy="0" r="3.2" fill="#0d0e10"/>
+                <circle cx="0" cy="-13" r="3.2" fill="#0d0e10"/>
+                <circle cx="0" cy="13" r="3.2" fill="#0d0e10"/>
+              </svg>
+              <div>
+                <h4>Scalloped Rim</h4>
+                <span>18 Tactile Flutes</span>
+              </div>
+            </div>
+
+            <!-- Item 3: Raised Cap -->
+            <div class="anatomy-item">
+              <svg width="42" height="42" viewBox="-21 -21 42 42">
+                <circle cx="0" cy="0" r="18" fill="url(#knobCapGrad)" stroke="#383940" stroke-width="1"/>
+                <circle cx="0" cy="0" r="12" fill="#1c1e22" stroke="#2a2c32" stroke-width="0.8"/>
+              </svg>
+              <div>
+                <h4>Raised Crown</h4>
+                <span>Specular Cap</span>
+              </div>
+            </div>
+
+            <!-- Item 4: Reference Dial -->
+            <div class="anatomy-item">
+              <svg width="42" height="42" viewBox="-21 -21 42 42">
+                <circle cx="0" cy="0" r="15" fill="none" stroke="#F5F7FA" stroke-width="1.2" stroke-dasharray="2,3"/>
+                <line x1="0" y1="-17" x2="0" y2="-13" stroke="#F5F7FA" stroke-width="2"/>
+                <text x="0" y="-8" fill="#F5F7FA" font-size="7" font-weight="bold" text-anchor="middle">0</text>
+              </svg>
+              <div>
+                <h4>Dial Scale</h4>
+                <span>–50dB to +30dB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 HERO MODULE SHOWCASE (LARGE KNOB IN THE MIDDLE) -->
+    <section id="hero-module">
+      <div class="section-header">
+        <h2>03 / Modular Faceplate Architecture — Hero Central Knob Placement</h2>
+        <span>Click and drag knob vertically or around center to rotate • Real-time telemetry readouts</span>
+      </div>
+
+      <div class="rack-toolbar">
+        <div class="toolbar-group">
+          <span class="toolbar-label">Faceplate Finish:</span>
+          <button class="state-btn active" data-finish="slate">Classic WBS Slate Blue</button>
+          <button class="state-btn" data-finish="alu">Warm Anodized Alloy</button>
+          <button class="state-btn" data-finish="charcoal">Broadcast Black</button>
+        </div>
+
+        <div class="toolbar-group">
+          <span class="toolbar-label">Rack Telemetry:</span>
+          <button class="state-btn active" data-state="normal">Normal (NORM)</button>
+          <button class="state-btn" data-state="overload">Limiting Peak (OVLD)</button>
+          <button class="state-btn" data-state="off">Bypass</button>
+        </div>
+      </div>
+
+      <div class="showcase-stage">
+        <!-- THE MODULE WITH THE KNOB IN THE MIDDLE, LARGER -->
+        <div class="module-display-card">
+          <div class="module-svg-wrap">
+            <svg id="dr-module-svg" width="300" height="560" viewBox="0 0 300 560" filter="url(#moduleShadow)">
+              <!-- Base Chassis Rect -->
+              <rect id="module-faceplate-rect" x="0" y="0" width="300" height="560" rx="3" fill="url(#slateFaceplate)" stroke="#455B69" stroke-width="1.4" />
+
+              <!-- Top Milled Bevel Lip -->
+              <rect x="-2" y="0" width="304" height="13" rx="1" fill="url(#extrusionBevel)" stroke="#5A584D" stroke-width="1"/>
+              <line x1="2" y1="13.5" x2="298" y2="13.5" stroke="#8A8778" stroke-width="1"/>
+
+              <!-- Bottom Milled Bevel Lip -->
+              <rect x="-2" y="547" width="304" height="13" rx="1" fill="url(#extrusionBevel)" stroke="#5A584D" stroke-width="1"/>
+              <line x1="2" y1="546.5" x2="298" y2="546.5" stroke="#EDEBE1" stroke-width="1"/>
+
+              <!-- Top Header Silkscreen -->
+              <g transform="translate(150, 42)" text-anchor="middle" fill="#FFFFFF">
+                <rect x="-20" y="-14" width="40" height="18" rx="4" fill="none" stroke="#FFFFFF" stroke-width="1.8" />
+                <text x="0" y="-1" font-size="11" font-weight="900" font-style="italic" letter-spacing="1.5">WBS</text>
+                <text x="0" y="20" font-size="12" font-weight="800" letter-spacing="1.2">M466-DR</text>
+                <text x="0" y="32" font-size="7.5" font-weight="700" letter-spacing="0.8" fill="rgba(255,255,255,0.7)">DYNAMIC RANGE PROCESSOR</text>
+              </g>
+
+              <!-- Top Telemetry Status Stack -->
+              <g transform="translate(42, 85)">
+                <text x="0" y="0" fill="#FFFFFF" font-size="8" font-weight="700" text-anchor="middle">OVLD</text>
+                <circle id="module-led-ovld" cx="0" cy="11" r="4.2" fill="#4A1A1A" stroke="#7A786C" stroke-width="1"/>
+
+                <circle id="module-led-norm" cx="0" cy="38" r="4.2" fill="#28A745" stroke="#7A786C" stroke-width="1" filter="url(#glowGreen)"/>
+                <text x="0" y="52" fill="#FFFFFF" font-size="8" font-weight="700" text-anchor="middle">NORM</text>
+              </g>
+
+              <!-- Top Right Mode Pushbuttons -->
+              <g transform="translate(258, 85)">
+                <text x="0" y="0" fill="#FFFFFF" font-size="8" font-weight="700" text-anchor="middle">COMP</text>
+                <rect x="-10" y="5" width="20" height="12" rx="2" fill="#222" stroke="#FFF" stroke-width="1"/>
+                <text x="0" y="34" fill="#FFFFFF" font-size="8" font-weight="700" text-anchor="middle">LIMIT</text>
+                <rect x="-10" y="39" width="20" height="12" rx="2" fill="#111" stroke="#999" stroke-width="1"/>
+              </g>
+
+              <!-- ======================================================= -->
+              <!-- HERO KNOB IN THE MIDDLE (LARGER)                        -->
+              <!-- Center: cx = 150, cy = 255                              -->
+              <!-- Outer Dial Scale: R = 98px                              -->
+              <!-- Outer Knob Skirt: R = 64px                              -->
+              <!-- Inner Raised Cap: R = 44px                              -->
+              <!-- ======================================================= -->
+              <g id="hero-knob-group" transform="translate(150, 255)">
+                <!-- Ambient Under-Knob Drop Shadow Filter -->
+                <circle cx="0" cy="4" r="66" fill="#000000" filter="url(#knobCastShadow)" />
+
+                <!-- DIAL SCALE SILKSCREEN GRAPHICS (STATIC AROUND KNOB) -->
+                <g id="dr-dial-scale" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#FFFFFF">
+                  <!-- Header Label -->
+                  <text x="0" y="-114" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="1">DR</text>
+
+                  <!-- Polarities & Center Zero Mark -->
+                  <text x="-24" y="-98" font-size="11.5" font-weight="800" text-anchor="middle">−</text>
+                  <text x="0" y="-98" font-size="11.5" font-weight="800" text-anchor="middle">0</text>
+                  <text x="24" y="-98" font-size="11.5" font-weight="800" text-anchor="middle">+</text>
+
+                  <!-- Center 0 Tick -->
+                  <line x1="0" y1="-94" x2="0" y2="-72" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+
+                  <!-- Dynamic Tick Marks Container (Populated by JS) -->
+                  <g id="dr-ticks-container"></g>
+                </g>
+
+                <!-- ROTATABLE KNOB ASSEMBLY (CLICK & DRAG TO ROTATE) -->
+                <g id="rotatable-knob" class="rotary-knob-interactive" transform="rotate(20)">
+                  <title>Click &amp; drag vertically or scroll to adjust DR</title>
+
+                  <!-- Outer Fluted Skirt (R = 64) -->
+                  <circle cx="0" cy="0" r="64" fill="url(#knobSkirtGrad)" stroke="#111215" stroke-width="1.8" />
+
+                  <!-- 18 Fluting Scallop Depressions along the Skirt Perimeter -->
+                  <g id="knob-scallops-container"></g>
+
+                  <!-- Stepped Inner Bevel -->
+                  <circle cx="0" cy="0" r="48" fill="#131417" stroke="#2e3038" stroke-width="1.1" />
+
+                  <!-- Raised Concentric Crown Cap (R = 44) -->
+                  <circle cx="0" cy="0" r="44" fill="url(#knobCapGrad)" stroke="#383b44" stroke-width="1.2" />
+
+                  <!-- Cap Subtle Inset Groove -->
+                  <circle cx="0" cy="0" r="41" fill="none" stroke="#17181c" stroke-width="0.8" />
+
+                  <!-- Pointer Stripe along Cap -->
+                  <line x1="0" y1="0" x2="0" y2="-42" stroke="#F5F7FA" stroke-width="3" stroke-linecap="round" />
+
+                  <!-- Prominent Triangular Arrowhead on Outer Skirt pointing at Scale -->
+                  <polygon points="-8,-45 8,-45 0,-62" fill="#F5F7FA" stroke="#18181A" stroke-width="0.6"/>
+                </g>
+              </g>
+
+              <!-- Lower Section: Fine Calibration & Support Controls -->
+              <!-- Calibration Trimmers -->
+              <g transform="translate(75, 415)">
+                <g class="interactive-pot" id="thresh-pot" data-angle="0">
+                  <use href="#trimPot" transform="scale(1.3)"/>
+                </g>
+                <text x="0" y="24" fill="#FFFFFF" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">THRESH</text>
+              </g>
+
+              <g transform="translate(225, 415)">
+                <g class="interactive-pot" id="ratio-pot" data-angle="90">
+                  <use href="#trimPot" transform="scale(1.3) rotate(90)"/>
+                </g>
+                <text x="0" y="24" fill="#FFFFFF" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">RELEASE</text>
+              </g>
+
+              <!-- Central Slow-Blow Bayonet Fuse Holder -->
+              <use href="#fuseHolder" transform="translate(150, 480)" />
+              <text x="150" y="512" fill="#FFFFFF" font-size="8" font-weight="700" text-anchor="middle">.25A SB</text>
+
+              <!-- Bottom Model Identification Tag -->
+              <text x="150" y="534" fill="rgba(255,255,255,0.7)" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="0.6">WARD-BECK SYSTEMS LTD. • SCARBOROUGH, ON</text>
+            </svg>
+          </div>
+          <div style="width:100%;display:flex;justify-content:space-between;align-items:center;padding-top:0.5rem;border-top:1px solid var(--border-subtle);">
+            <div>
+              <h3 style="font-size:0.95rem;font-weight:700;">WBS M466-DR</h3>
+              <p style="font-size:0.75rem;color:var(--text-muted);">Dynamic Range Controller • Centered Large DR Knob</p>
+            </div>
+            <span style="font-size:0.7rem;font-weight:700;padding:0.25rem 0.55rem;border-radius:4px;background:var(--bg-elevated);border:1px solid var(--border-subtle);color:var(--wbs-alu-base);">
+              Hero Module
+            </span>
+          </div>
+        </div>
+
+        <!-- LIVE TELEMETRY & CONTROLLER INSPECTOR -->
+        <div class="telemetry-card">
+          <div>
+            <h3 style="font-size:1.1rem;font-weight:800;margin-bottom:0.25rem;">Live Rotary Telemetry</h3>
+            <p style="font-size:0.8rem;color:var(--text-secondary);">
+              Interactive angular positioning and mathematical decibel calibration.
+            </p>
+          </div>
+
+          <div class="readout-pill-cluster">
+            <div class="readout-pill">
+              <label>Dial Value</label>
+              <span id="readout-db-val">+5.7 dB</span>
+            </div>
+            <div class="readout-pill">
+              <label>Rotary Angle</label>
+              <span id="readout-angle-val">+20.0°</span>
+            </div>
+            <div class="readout-pill">
+              <label>Mode Status</label>
+              <span id="readout-mode-val" style="color:var(--led-amber);">BOOST</span>
+            </div>
+          </div>
+
+          <!-- Quick Snap Presets -->
+          <div>
+            <span style="font-size:0.75rem;font-weight:700;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:0.5rem;">
+              Quick Value Presets:
+            </span>
+            <div class="preset-chip-row">
+              <button class="preset-chip" data-val="-50">−50 dB (Min)</button>
+              <button class="preset-chip" data-val="-30">−30 dB</button>
+              <button class="preset-chip" data-val="-20">−20 dB</button>
+              <button class="preset-chip" data-val="-10">−10 dB</button>
+              <button class="preset-chip" data-val="0">0 (Unity)</button>
+              <button class="preset-chip" data-val="10">+10 dB</button>
+              <button class="preset-chip" data-val="20">+20 dB</button>
+              <button class="preset-chip" data-val="30">+30 dB (Max)</button>
+            </div>
+          </div>
+
+          <!-- Interaction Instructions -->
+          <div style="background:var(--bg-elevated);border:1px solid var(--border-subtle);border-radius:6px;padding:0.9rem 1rem;font-size:0.8rem;color:var(--text-secondary);display:flex;flex-direction:column;gap:0.4rem;">
+            <strong style="color:var(--text-primary);">Interactive Controls:</strong>
+            <div>• <strong>Click &amp; Drag</strong> vertically on the large knob to smoothly adjust.</div>
+            <div>• <strong>Mouse Wheel</strong> over the knob for fine 1 dB incremental stepping.</div>
+            <div>• <strong>Click Presets</strong> above for instant calibration testing.</div>
+            <div>• <strong>Click Trimpots</strong> below the knob to rotate calibration screws 45°.</div>
+          </div>
+
+          <!-- Reference Image Comparison Section -->
+          <div style="border-top:1px solid var(--border-subtle);padding-top:1rem;">
+            <span style="font-size:0.75rem;font-weight:700;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:0.6rem;">
+              Hardware Reference Image:
+            </span>
+            <div style="display:flex;align-items:center;gap:1rem;">
+              <img src="assets/dr_knob_reference.png" alt="WBS DR Knob Hardware Reference" style="width:120px;height:auto;border-radius:6px;border:1px solid var(--border-subtle);box-shadow:0 4px 12px rgba(0,0,0,0.5);" />
+              <div style="font-size:0.78rem;color:var(--text-secondary);line-height:1.4;">
+                Original broadcast control: 18-flute collet knob with white arrowhead pointer, <code>DR</code> heading, and <code>− 0 +</code> asymmetric scale.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 ENGINEERING RULES -->
+    <section id="principles">
+      <div class="section-header">
+        <h2>04 / Industrial Design &amp; Knob Layout Conventions</h2>
+        <span>Engineering specifications for Ward-Beck console dynamics modules</span>
+      </div>
+
+      <div class="rules-grid">
+        <div class="rule-card">
+          <h3>1. Central Hero Prominence</h3>
+          <p>The primary dynamic range (<code>DR</code>) control occupies the geometric center of the faceplate (<code>y = 255px</code>, outer radius <code>64px</code>). Sizing it larger than surrounding trimmer pots provides an unmistakable tactile anchor for live broadcast operators without looking away from monitors.</p>
+          <div class="rule-footnote">Minimum 120px clear diameter envelope reserved on faceplate</div>
+        </div>
+
+        <div class="rule-card">
+          <h3>2. Asymmetrical Logarithmic Taper</h3>
+          <p>The rotary potentiometer features an asymmetrical scale: <strong>–50 dB to 0 dB</strong> across a 180° counter-clockwise span (for deep compression &amp; attenuation) and <strong>0 dB to +30 dB</strong> across a 105° clockwise span (for punchy makeup &amp; expansion boost).</p>
+          <div class="rule-footnote">Total active rotary sweep = 285° (6 o'clock to ~4:30 o'clock)</div>
+        </div>
+
+        <div class="rule-card">
+          <h3>3. High-Contrast Arrowhead Indexing</h3>
+          <p>Rather than a recessed needle slot, the DR control pairs a central radial stripe on the cap with a raised triangular arrowhead on the fluted skirt, ensuring parallax-free reading under sharp overhead studio lighting.</p>
+          <div class="rule-footnote">Silkscreen: #F5F7FA on #3E5E71 Slate Blue or #151619 Bakelite</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 CSS TOKENS -->
+    <section id="tokens">
+      <div class="section-header">
+        <h2>05 / CSS Design Tokens &amp; SVG Component Specs</h2>
+        <span>Ready-to-use tokens for WBS web simulators and audio plugins</span>
+      </div>
+
+      <div class="code-panel">
+        <div class="code-header">
+          <span>wbs-dr-knob-tokens.css</span>
+          <button class="state-btn" id="copyCssBtn">Copy Tokens</button>
+        </div>
+        <pre id="cssTokenCode">:root {
+  /* Ward-Beck Systems DR Module Surfaces */
+  --wbs-dr-slate-blue:   #3E5E71;
+  --wbs-dr-slate-dark:   #2D4554;
+  --wbs-dr-slate-light:  #527991;
+
+  /* Collet Knob Bakelite &amp; Knurled Body */
+  --wbs-knob-body:       #151619;
+  --wbs-knob-crown:      #26282F;
+  --wbs-knob-shadow:     #0D0E10;
+  --wbs-knob-pointer:    #F5F7FA;
+
+  /* Typography &amp; Scale Markings */
+  --wbs-scale-label:     #FFFFFF;
+  --wbs-scale-tick-maj:  #FFFFFF;
+  --wbs-scale-tick-min:  rgba(255, 255, 255, 0.75);
+
+  /* Rotary Sweep Physics */
+  --wbs-dr-min-deg:      -180deg; /* -50 dB @ 6 o'clock */
+  --wbs-dr-zero-deg:     0deg;    /*   0 dB @ 12 o'clock */
+  --wbs-dr-max-deg:      +105deg; /* +30 dB @ 4:30 o'clock */
+}</pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>WARD-BECK SYSTEMS LTD. • 841 PROGRESS AVENUE, SCARBOROUGH, ONTARIO, CANADA</span>
+    <span><a href="https://likedotaudio.github.io/WBSps.ca/" style="color:#22c55e;text-decoration:none;">WBSps.ca ARCHIVE</a> • WBS M466-DR ROTARY HARDWARE STYLEGUIDE</span>
+  </footer>
+
+  <div id="toast">Copied to clipboard</div>
+
+  <script>
+    const toast = document.getElementById('toast');
+    let toastTimer;
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), 1800);
+    }
+
+    // Swatch Click-to-Copy
+    document.querySelectorAll('.swatch-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const hex = card.dataset.copy;
+        navigator.clipboard?.writeText(hex);
+        showToast(`Copied ${hex}`);
+      });
+    });
+
+    // Copy CSS Tokens
+    document.getElementById('copyCssBtn').addEventListener('click', () => {
+      const code = document.getElementById('cssTokenCode').textContent;
+      navigator.clipboard?.writeText(code);
+      showToast('Copied CSS tokens to clipboard');
+    });
+
+    // Generate 18 Fluting Scallops on the Outer Skirt Rim
+    const scallopsContainer = document.getElementById('knob-scallops-container');
+    const numScallops = 18;
+    for (let i = 0; i < numScallops; i++) {
+      const angleDeg = (i * 360) / numScallops;
+      const angleRad = (angleDeg * Math.PI) / 180;
+      const r = 57.5;
+      const cx = r * Math.sin(angleRad);
+      const cy = -r * Math.cos(angleRad);
+
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('cx', cx.toFixed(2));
+      circle.setAttribute('cy', cy.toFixed(2));
+      circle.setAttribute('r', '5.2');
+      circle.setAttribute('fill', 'url(#scallopDepression)');
+      circle.setAttribute('stroke', '#0a0a0c');
+      circle.setAttribute('stroke-width', '0.8');
+      scallopsContainer.appendChild(circle);
+    }
+
+    // Generate Dial Scale Ticks: –50 to +30
+    // –50 dB is at –180° (6 o'clock)
+    // 0 dB is at 0° (12 o'clock) -> 3.6° per dB on minus side
+    // +30 dB is at +105° -> 3.5° per dB on plus side
+    function dbToAngle(db) {
+      if (db <= 0) {
+        return Math.max(-180, (db / 50) * 180);
+      }
+      return Math.min(105, (db / 30) * 105);
+    }
+
+    function angleToDb(angle) {
+      if (angle <= 0) {
+        return Math.max(-50, (angle / 180) * 50);
+      }
+      return Math.min(30, (angle / 105) * 30);
+    }
+
+    const ticksContainer = document.getElementById('dr-ticks-container');
+    const scaleRadius = 66;
+
+    // Build negative scale ticks (–50 to 0)
+    for (let val = -50; val <= 0; val += 2) {
+      if (val === 0) continue; // 0 is drawn statically at top
+      const deg = dbToAngle(val);
+      const rad = (deg * Math.PI) / 180;
+      const isMajor = val % 10 === 0;
+
+      const x1 = (scaleRadius + 6) * Math.sin(rad);
+      const y1 = -(scaleRadius + 6) * Math.cos(rad);
+      const x2 = (scaleRadius + (isMajor ? 18 : 11)) * Math.sin(rad);
+      const y2 = -(scaleRadius + (isMajor ? 18 : 11)) * Math.cos(rad);
+
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', x1.toFixed(1));
+      line.setAttribute('y1', y1.toFixed(1));
+      line.setAttribute('x2', x2.toFixed(1));
+      line.setAttribute('y2', y2.toFixed(1));
+      line.setAttribute('stroke', '#FFFFFF');
+      line.setAttribute('stroke-width', isMajor ? '2' : '1.2');
+      line.setAttribute('stroke-linecap', 'round');
+      ticksContainer.appendChild(line);
+
+      // Label major marks: 10, 20, 30, 40, 50, and 2, 4, 6, 8 fine numbers
+      const lx = (scaleRadius + 26) * Math.sin(rad);
+      const ly = -(scaleRadius + 26) * Math.cos(rad);
+
+      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      text.setAttribute('x', lx.toFixed(1));
+      text.setAttribute('y', (ly + (isMajor ? 4 : 3)).toFixed(1));
+      text.setAttribute('font-size', isMajor ? '11' : '7.5');
+      text.setAttribute('font-weight', isMajor ? '800' : '600');
+      text.setAttribute('fill', isMajor ? '#FFFFFF' : 'rgba(255,255,255,0.85)');
+      text.setAttribute('text-anchor', 'middle');
+      text.textContent = Math.abs(val);
+      ticksContainer.appendChild(text);
+    }
+
+    // Build positive scale ticks (0 to +30)
+    for (let val = 2; val <= 30; val += 2) {
+      const deg = dbToAngle(val);
+      const rad = (deg * Math.PI) / 180;
+      const isMajor = val % 10 === 0;
+
+      const x1 = (scaleRadius + 6) * Math.sin(rad);
+      const y1 = -(scaleRadius + 6) * Math.cos(rad);
+      const x2 = (scaleRadius + (isMajor ? 18 : 11)) * Math.sin(rad);
+      const y2 = -(scaleRadius + (isMajor ? 18 : 11)) * Math.cos(rad);
+
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', x1.toFixed(1));
+      line.setAttribute('y1', y1.toFixed(1));
+      line.setAttribute('x2', x2.toFixed(1));
+      line.setAttribute('y2', y2.toFixed(1));
+      line.setAttribute('stroke', '#FFFFFF');
+      line.setAttribute('stroke-width', isMajor ? '2' : '1.2');
+      line.setAttribute('stroke-linecap', 'round');
+      ticksContainer.appendChild(line);
+
+      const lx = (scaleRadius + 26) * Math.sin(rad);
+      const ly = -(scaleRadius + 26) * Math.cos(rad);
+
+      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      text.setAttribute('x', lx.toFixed(1));
+      text.setAttribute('y', (ly + (isMajor ? 4 : 3)).toFixed(1));
+      text.setAttribute('font-size', isMajor ? '11' : '7.5');
+      text.setAttribute('font-weight', isMajor ? '800' : '600');
+      text.setAttribute('fill', isMajor ? '#FFFFFF' : 'rgba(255,255,255,0.85)');
+      text.setAttribute('text-anchor', 'middle');
+      text.textContent = val;
+      ticksContainer.appendChild(text);
+    }
+
+    // Interactive Rotary Knob Dynamics
+    const rotatableKnob = document.getElementById('rotatable-knob');
+    const readoutDbVal = document.getElementById('readout-db-val');
+    const readoutAngleVal = document.getElementById('readout-angle-val');
+    const readoutModeVal = document.getElementById('readout-mode-val');
+
+    let currentAngle = 20.0; // Initial angle matching uploaded image (+20 deg ~ +5.7 dB)
+
+    function updateKnob(angle) {
+      currentAngle = Math.max(-180, Math.min(105, angle));
+      rotatableKnob.setAttribute('transform', `rotate(${currentAngle.toFixed(1)})`);
+
+      const db = angleToDb(currentAngle);
+      readoutAngleVal.textContent = `${currentAngle > 0 ? '+' : ''}${currentAngle.toFixed(1)}°`;
+
+      if (Math.abs(db) < 0.05) {
+        readoutDbVal.textContent = '0.0 dB';
+        readoutModeVal.textContent = 'UNITY';
+        readoutModeVal.style.color = '#FFFFFF';
+      } else if (db > 0) {
+        readoutDbVal.textContent = `+${db.toFixed(1)} dB`;
+        readoutModeVal.textContent = 'BOOST / EXP';
+        readoutModeVal.style.color = 'var(--led-amber)';
+      } else {
+        readoutDbVal.textContent = `${db.toFixed(1)} dB`;
+        readoutModeVal.textContent = 'ATTEN / COMP';
+        readoutModeVal.style.color = 'var(--wbs-alu-base)';
+      }
+    }
+
+    // Pointer Drag Handling
+    let isDragging = false;
+    let startY = 0;
+    let startAngle = 0;
+
+    rotatableKnob.addEventListener('pointerdown', (e) => {
+      e.preventDefault();
+      rotatableKnob.setPointerCapture(e.pointerId);
+      isDragging = true;
+      startY = e.clientY;
+      startAngle = currentAngle;
+    });
+
+    rotatableKnob.addEventListener('pointermove', (e) => {
+      if (!isDragging) return;
+      const dy = startY - e.clientY; // Upwards increases, downwards decreases
+      const deltaDeg = dy * 1.1;
+      updateKnob(startAngle + deltaDeg);
+    });
+
+    const endDrag = (e) => {
+      if (!isDragging) return;
+      isDragging = false;
+      try { rotatableKnob.releasePointerCapture(e.pointerId); } catch (_) {}
+      showToast(`DR set to ${readoutDbVal.textContent}`);
+    };
+
+    rotatableKnob.addEventListener('pointerup', endDrag);
+    rotatableKnob.addEventListener('pointercancel', endDrag);
+
+    // Mouse Wheel
+    rotatableKnob.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const delta = e.deltaY < 0 ? 3.5 : -3.5;
+      updateKnob(currentAngle + delta);
+    }, { passive: false });
+
+    // Preset Chips
+    document.querySelectorAll('.preset-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const val = Number(chip.dataset.val);
+        const targetAngle = dbToAngle(val);
+        updateKnob(targetAngle);
+        showToast(`Snapped to ${val > 0 ? '+' : ''}${val} dB`);
+      });
+    });
+
+    // Faceplate Finish Switcher
+    const faceplateRect = document.getElementById('module-faceplate-rect');
+    document.querySelectorAll('.state-btn[data-finish]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.state-btn[data-finish]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const finish = btn.dataset.finish;
+        if (finish === 'slate') {
+          faceplateRect.setAttribute('fill', 'url(#slateFaceplate)');
+          faceplateRect.setAttribute('stroke', '#455B69');
+          showToast('Finish: Classic WBS Slate Blue');
+        } else if (finish === 'alu') {
+          faceplateRect.setAttribute('fill', 'url(#aluFaceplate)');
+          faceplateRect.setAttribute('stroke', '#6E6C61');
+          showToast('Finish: Anodized Brushed Alloy');
+        } else if (finish === 'charcoal') {
+          faceplateRect.setAttribute('fill', 'url(#charcoalFaceplate)');
+          faceplateRect.setAttribute('stroke', '#282B30');
+          showToast('Finish: Broadcast Black Polane');
+        }
+      });
+    });
+
+    // Rack Telemetry State Switcher
+    const ledOvld = document.getElementById('module-led-ovld');
+    const ledNorm = document.getElementById('module-led-norm');
+    document.querySelectorAll('.state-btn[data-state]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.state-btn[data-state]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const st = btn.dataset.state;
+        if (st === 'overload') {
+          ledOvld.setAttribute('fill', '#D93829');
+          ledOvld.setAttribute('filter', 'url(#glowRed)');
+          ledNorm.setAttribute('fill', '#28A745');
+          ledNorm.setAttribute('filter', 'url(#glowGreen)');
+          showToast('Telemetry: Limiter Overload Peak');
+        } else if (st === 'normal') {
+          ledOvld.setAttribute('fill', '#4A1A1A');
+          ledOvld.removeAttribute('filter');
+          ledNorm.setAttribute('fill', '#28A745');
+          ledNorm.setAttribute('filter', 'url(#glowGreen)');
+          showToast('Telemetry: Normal Gain Reduction');
+        } else {
+          ledOvld.setAttribute('fill', '#4A1A1A');
+          ledOvld.removeAttribute('filter');
+          ledNorm.setAttribute('fill', '#163D24');
+          ledNorm.removeAttribute('filter');
+          showToast('Telemetry: Module Bypassed');
+        }
+      });
+    });
+
+    // Interactive Trimpots
+    ['thresh-pot', 'ratio-pot'].forEach(id => {
+      const el = document.getElementById(id);
+      el.addEventListener('click', () => {
+        let cur = (parseInt(el.dataset.angle || '0', 10) + 45) % 360;
+        el.dataset.angle = cur;
+        const inner = el.querySelector('use');
+        inner.setAttribute('transform', `scale(1.3) rotate(${cur})`);
+        showToast(`Trimmer rotated to ${cur}°`);
+      });
+    });
+
+    // Initialize initial state
+    updateKnob(20.0);
+  </script>
+</body>
+</html>

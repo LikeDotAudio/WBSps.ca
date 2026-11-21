@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>McCurdy Radio Industries • Meter Dial Cartouche Logo — Interactive Styleguide</title>
+  <style>
+    :root {
+      --bg-void: #0e1013;
+      --bg-panel: #16181d;
+      --bg-elevated: #1f232a;
+      --border-subtle: #292e37;
+      --border-strong: #3f4756;
+
+      /* McCurdy Meter Dial Hardware Tokens */
+      --mc-slate-bg: #365467;
+      --mc-slate-deep: #223746;
+      --mc-border-silver: #d9e2e8;
+      --mc-border-hi: #ffffff;
+      --mc-text-white: #e1e9ef;
+      
+      /* Alternate Dial Tokens */
+      --mc-cream-dial: #f5edd3;
+      --mc-cream-dark: #ded6c4;
+      --mc-black-dial: #141518;
+      --mc-ink-charcoal: #1e2024;
+      --mc-accent-blue: #007acc;
+      --mc-vu-red: #c82824;
+
+      /* UI Text Tokens */
+      --text-primary: #f3f4f6;
+      --text-secondary: #9ca3af;
+      --text-muted: #6b7280;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-void);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Sticky Top Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(14, 16, 19, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 0.85rem 2rem;
+    }
+
+    .header-inner {
+      max-width: 1320px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand-cluster {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .mccurdy-header-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.2rem 0.5rem;
+    }
+
+    .title-block h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .title-block h1 span.pill {
+      font-size: 0.68rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      background: rgba(0, 122, 204, 0.2);
+      color: #38bdf8;
+      border: 1px solid rgba(0, 122, 204, 0.4);
+    }
+
+    .title-block p {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    nav.toc {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    nav.toc a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      padding: 0.4rem 0.7rem;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+
+    nav.toc a:hover {
+      color: var(--text-primary);
+      background: var(--bg-elevated);
+      border-color: var(--border-subtle);
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 2rem 2rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3.5rem;
+    }
+
+    .section-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.65rem;
+      margin-bottom: 1.5rem;
+      gap: 0.5rem;
+    }
+
+    .section-header h2 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+    }
+
+    .section-header span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Hero Interactive Stage */
+    .hero-stage {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 1.5rem;
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.6);
+    }
+
+    @media (max-width: 900px) {
+      .hero-stage {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .preview-canvas-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 280px;
+      border-radius: 8px;
+      background: radial-gradient(circle at 50% 50%, #365467 0%, #223746 80%, #15242f 100%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+      overflow: hidden;
+      padding: 2rem;
+      transition: background 0.3s ease;
+    }
+
+    .preview-canvas-wrapper.theme-cream {
+      background: radial-gradient(circle at 50% 50%, #fbf5e6 0%, #ede3c7 70%, #d8caa7 100%);
+    }
+
+    .preview-canvas-wrapper.theme-black {
+      background: radial-gradient(circle at 50% 50%, #202227 0%, #131417 70%, #0a0b0d 100%);
+    }
+
+    .preview-canvas-wrapper.theme-transparent {
+      background: repeating-conic-gradient(#1f242d 0% 25%, #161920 0% 50%) 50% / 20px 20px;
+    }
+
+    .reference-photo-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(6px);
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 0.75rem;
+      font-family: ui-monospace, monospace;
+    }
+
+    .reference-photo-badge img {
+      height: 22px;
+      width: auto;
+      border-radius: 2px;
+    }
+
+    .stage-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.25rem;
+    }
+
+    .stage-controls h3 {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.5rem;
+    }
+
+    .ctrl-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .ctrl-group label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .ctrl-group input[type="range"] {
+      width: 100%;
+      accent-color: #007acc;
+    }
+
+    .btn-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+    }
+
+    .btn-action {
+      background: #252a33;
+      color: #e5e7eb;
+      border: 1px solid var(--border-subtle);
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      transition: all 0.15s ease;
+    }
+
+    .btn-action:hover {
+      background: #313743;
+      border-color: var(--border-strong);
+      color: #fff;
+    }
+
+    .btn-action.btn-primary {
+      background: #007acc;
+      border-color: #008be5;
+    }
+    .btn-action.btn-primary:hover {
+      background: #008be5;
+    }
+
+    /* Color Swatch Grid */
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 1.1rem;
+    }
+
+    .swatch-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .swatch-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-strong);
+    }
+
+    .swatch-preview {
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .swatch-preview .copy-pill {
+      opacity: 0;
+      background: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.25rem 0.6rem;
+      border-radius: 99px;
+      letter-spacing: 0.6px;
+      transition: opacity 0.15s ease;
+    }
+
+    .swatch-card:hover .copy-pill {
+      opacity: 1;
+    }
+
+    .swatch-meta {
+      padding: 0.85rem 1rem;
+    }
+
+    .swatch-meta h3 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 0.15rem;
+    }
+
+    .swatch-meta code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.78rem;
+      color: #38bdf8;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .swatch-meta p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Spec Grid */
+    .spec-two-col {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .spec-box {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.4rem;
+    }
+
+    .spec-box h3 {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+    }
+
+    .geom-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8rem;
+    }
+
+    .geom-table th {
+      text-align: left;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 0.4rem 0.6rem;
+    }
+
+    .geom-table td {
+      padding: 0.5rem 0.6rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      font-family: ui-monospace, monospace;
+    }
+
+    .geom-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Code Block */
+    .code-container {
+      background: #090a0d;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .code-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #121419;
+      padding: 0.6rem 1rem;
+      border-bottom: 1px solid var(--border-subtle);
+      font-family: ui-monospace, monospace;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .code-header button {
+      background: #1f232b;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .code-header button:hover {
+      color: #fff;
+      background: #2a303b;
+    }
+
+    pre code {
+      display: block;
+      padding: 1.2rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: #e5e7eb;
+      overflow-x: auto;
+    }
+
+    /* Notification Toast */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #007acc;
+      color: #ffffff;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.2s ease;
+      pointer-events: none;
+      z-index: 1000;
+    }
+    #toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Top Navigation Header -->
+  <header>
+    <div class="header-inner">
+      <div class="brand-cluster">
+        <a href="https://likedotaudio.github.io/WBSps.ca/" title="WBSps.ca Archive Home" style="display:flex;align-items:center;text-decoration:none;">
+          <!-- Exact Vector Cartouche in Header -->
+          <div class="mccurdy-header-badge">
+            <svg viewBox="0 0 100 32" width="76" height="24">
+              <path d="M 2.0,6.8 L 50.0,2.0 L 98.0,6.8 L 93.6,25.2 L 50.0,30.0 L 6.4,25.2 Z"
+                    fill="#365467" stroke="#d9e2e8" stroke-width="1.8" stroke-linejoin="round" />
+              <text x="50" y="20.5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e1e9ef" text-anchor="middle" letter-spacing="0.5">
+                M<tspan font-size="10.2" dy="-0.4">c</tspan><tspan font-size="13" dy="0.4">CURDY</tspan>
+              </text>
+            </svg>
+          </div>
+        </a>
+        <div class="title-block">
+          <h1>
+            <span><a href="https://likedotaudio.github.io/WBSps.ca/" style="color:inherit;text-decoration:none;">WBSps.ca</a> • McCurdy Meter Dial Cartouche</span>
+            <span class="pill">STYLEGUIDE V1.0</span>
+          </h1>
+          <p>Official vector specification and engineering guidelines for the analog meter movement badge.</p>
+        </div>
+      </div>
+
+      <nav class="toc">
+        <a href="https://likedotaudio.github.io/WBSps.ca/" style="color:#22c55e;border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08);">← WBSps.ca</a>
+        <a href="#interactive">Interactive Stage</a>
+        <a href="#palette">Color Palette</a>
+        <a href="#typography">Typography</a>
+        <a href="#geometry">Vector Blueprint</a>
+        <a href="#rules">Rules</a>
+        <a href="#tokens">Code Tokens</a>
+        <a href="styleguide-m600.html" style="color:var(--text-secondary);">M600 Guide →</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main>
+
+    <!-- SECTION 1: INTERACTIVE HERO STAGE -->
+    <section id="interactive">
+      <div class="section-header">
+        <h2>01 / Interactive Logo Inspector &amp; Vector Generator</h2>
+        <span>Real-time vector preview, physical photo comparison &amp; export</span>
+      </div>
+
+      <div class="hero-stage">
+        <!-- Left: Interactive Canvas -->
+        <div id="previewCanvas" class="preview-canvas-wrapper">
+          <!-- Physical Reference Photo Pill -->
+          <div class="reference-photo-badge">
+            <img src="images/mccurdy-meter-logo-ref.png" alt="Physical Reference" />
+            <span>Physical Reference Photo</span>
+          </div>
+
+          <!-- Dynamic SVG Cartouche Badge -->
+          <div id="svgContainer" style="width: 320px; transition: transform 0.2s ease;">
+            <svg id="liveSvg" viewBox="0 0 100 32" width="100%" height="100%" style="overflow: visible; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));">
+              <path id="cartoucheBezel" d="M 2.0,6.8 L 50.0,2.0 L 98.0,6.8 L 93.6,25.2 L 50.0,30.0 L 6.4,25.2 Z"
+                    fill="#365467" stroke="#d9e2e8" stroke-width="1.8" stroke-linejoin="round" />
+              <text id="cartoucheWordmark" x="50" y="20.5"
+                    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+                    font-size="13" font-weight="700" fill="#e1e9ef"
+                    text-anchor="middle" letter-spacing="0.5">
+                M<tspan font-size="10.2" dy="-0.4">c</tspan><tspan font-size="13" dy="0.4">CURDY</tspan>
+              </text>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Right: Inspector Controls -->
+        <div class="stage-controls">
+          <h3>Inspector Controls</h3>
+
+          <div class="ctrl-group">
+            <label>Scale / Size: <span id="valScale">320 px</span></label>
+            <input type="range" id="inputScale" min="120" max="440" value="320" />
+          </div>
+
+          <div class="ctrl-group">
+            <label>Bezel Stroke Width: <span id="valStroke">1.8 px</span></label>
+            <input type="range" id="inputStroke" min="1.0" max="3.5" step="0.1" value="1.8" />
+          </div>
+
+          <div class="ctrl-group">
+            <label>Letter Spacing: <span id="valTracking">+0.5 px</span></label>
+            <input type="range" id="inputTracking" min="0.0" max="2.0" step="0.1" value="0.5" />
+          </div>
+
+          <div class="ctrl-group">
+            <label>Dial Environment Theme:</label>
+            <div class="btn-row">
+              <button class="btn-action theme-btn" data-theme="slate">Studio Slate</button>
+              <button class="btn-action theme-btn" data-theme="cream">Cream Dial</button>
+              <button class="btn-action theme-btn" data-theme="black">Black Face</button>
+              <button class="btn-action theme-btn" data-theme="transparent">Transparent</button>
+            </div>
+          </div>
+
+          <div class="ctrl-group" style="margin-top: 0.5rem;">
+            <button id="btnCopySvg" class="btn-action btn-primary">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/></svg>
+              Copy Production SVG
+            </button>
+            <button id="btnDownloadSvg" class="btn-action" style="margin-top: 0.35rem;">
+              Download .SVG File
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: PALETTE & HARDWARE TOKENS -->
+    <section id="palette">
+      <div class="section-header">
+        <h2>02 / Color Palette &amp; Hardware Tokens</h2>
+        <span>Click any color card to copy its Hex token to clipboard</span>
+      </div>
+
+      <div class="swatch-grid">
+        <!-- Slate Dial Background -->
+        <div class="swatch-card" onclick="copyToken('#365467')">
+          <div class="swatch-preview" style="background: #365467;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Studio Dial Slate</h3>
+            <code>#365467</code>
+            <p>Primary meter dial ground and cartouche body fill.</p>
+          </div>
+        </div>
+
+        <!-- Silver Border -->
+        <div class="swatch-card" onclick="copyToken('#D9E2E8')">
+          <div class="swatch-preview" style="background: #D9E2E8;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Border Silver</h3>
+            <code>#D9E2E8</code>
+            <p>Faceted hexagonal cartouche outer stroke.</p>
+          </div>
+        </div>
+
+        <!-- Text White -->
+        <div class="swatch-card" onclick="copyToken('#E1E9EF')">
+          <div class="swatch-preview" style="background: #E1E9EF;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Wordmark White</h3>
+            <code>#E1E9EF</code>
+            <p>Crisp off-white "McCURDY" letterform fill.</p>
+          </div>
+        </div>
+
+        <!-- Deep Shadow Slate -->
+        <div class="swatch-card" onclick="copyToken('#223746')">
+          <div class="swatch-preview" style="background: #223746;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Deep Slate Shadow</h3>
+            <code>#223746</code>
+            <p>Perimeter gradient shading and bezel shadow.</p>
+          </div>
+        </div>
+
+        <!-- Vintage Cream Dial Face -->
+        <div class="swatch-card" onclick="copyToken('#F5EDD3')">
+          <div class="swatch-preview" style="background: #F5EDD3;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Cream Dial Variant</h3>
+            <code>#F5EDD3</code>
+            <p>Background ground for standard ANSI VU dial faces.</p>
+          </div>
+        </div>
+
+        <!-- High-Contrast Charcoal Ink -->
+        <div class="swatch-card" onclick="copyToken('#1E2024')">
+          <div class="swatch-preview" style="background: #1E2024;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Ink Charcoal</h3>
+            <code>#1E2024</code>
+            <p>Border & text stroke for cream VU face badge variants.</p>
+          </div>
+        </div>
+
+        <!-- McCurdy Corporate Blue -->
+        <div class="swatch-card" onclick="copyToken('#007ACC')">
+          <div class="swatch-preview" style="background: #007ACC;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>McCurdy Blue</h3>
+            <code>#007ACC</code>
+            <p>Historical brand shield reference color.</p>
+          </div>
+        </div>
+
+        <!-- Broadcast Overload Red -->
+        <div class="swatch-card" onclick="copyToken('#C82824')">
+          <div class="swatch-preview" style="background: #C82824;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Broadcast Red</h3>
+            <code>#C82824</code>
+            <p>0 to +3 VU overload band and modulation percentage ticks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: TYPOGRAPHY & WORDMARK ANATOMY -->
+    <section id="typography">
+      <div class="section-header">
+        <h2>03 / Typography &amp; Letterform Anatomy</h2>
+        <span>Optical sizing and casing specifications for the "McCURDY" logotype</span>
+      </div>
+
+      <div class="spec-two-col">
+        <div class="spec-box">
+          <h3>Letterform Casing &amp; Scale Architecture</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+            The trademark McCurdy meter logotype uses a distinct hybrid casing format where the letter <strong>'c'</strong> is rendered in lowercase while all other letters are uppercase:
+          </p>
+          
+          <div style="background: #0f1115; padding: 1.5rem; border-radius: 6px; border: 1px solid var(--border-subtle); text-align: center; margin-bottom: 1rem;">
+            <div style="font-size: 2.8rem; font-weight: 700; letter-spacing: 2px; color: #e1e9ef; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+              M<span style="font-size: 2.15rem; vertical-align: baseline;">c</span>CURDY
+            </div>
+            <div style="display: flex; justify-content: space-around; margin-top: 0.8rem; font-size: 0.72rem; color: var(--text-muted); font-family: ui-monospace, monospace;">
+              <span>Cap (100%)</span>
+              <span>Lower (78%)</span>
+              <span>Cap (100%)</span>
+              <span>Cap (100%)</span>
+              <span>Cap (100%)</span>
+              <span>Cap (100%)</span>
+              <span>Cap (100%)</span>
+            </div>
+          </div>
+
+          <ul style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.8; padding-left: 1.2rem;">
+            <li><strong>Leading 'M'</strong>: Standard capital letter, defines the $100\%$ cap height reference.</li>
+            <li><strong>Lowercase 'c'</strong>: Optical height is strictly $78\%$ of cap height, aligned firmly to the baseline.</li>
+            <li><strong>Trailing 'CURDY'</strong>: Capital letters matching the exact height, stroke weight, and optical density of the initial 'M'.</li>
+            <li><strong>Tracking / Kerning</strong>: $+0.04\text{em}$ to $+0.06\text{em}$ letter spacing to prevent ink fill during precision silk-screen printing.</li>
+          </ul>
+        </div>
+
+        <div class="spec-box">
+          <h3>Approved Font Families &amp; Fallbacks</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+            Original McCurdy instrument faces utilized hand-drafted Swiss grotesk letterforms derived from classic Haas/Linotype Helvetica:
+          </p>
+
+          <table class="geom-table">
+            <thead>
+              <tr>
+                <th>Priority</th>
+                <th>Font Family</th>
+                <th>Weight</th>
+                <th>Target Environment</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Primary</td>
+                <td>Helvetica Neue, Helvetica</td>
+                <td>700 (Bold)</td>
+                <td>Web / SVG Master Vector</td>
+              </tr>
+              <tr>
+                <td>Alternate 1</td>
+                <td>Arial, -apple-system</td>
+                <td>700 (Bold)</td>
+                <td>Universal Cross-Platform</td>
+              </tr>
+              <tr>
+                <td>Alternate 2</td>
+                <td>Univers 65 / Highway Grotesk</td>
+                <td>Bold</td>
+                <td>High-Resolution Print Reproduction</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div style="margin-top: 1.2rem; padding: 0.85rem; background: rgba(0, 122, 204, 0.08); border-left: 3px solid #007acc; border-radius: 4px; font-size: 0.78rem; color: #93c5fd;">
+            <strong>Proportion Rule:</strong> Never render the wordmark as all-caps <code>MCCURDY</code> or standard sentence-case <code>Mccurdy</code>. The small-c baseline hybrid is the authentic proprietary mark.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: VECTOR BLUEPRINT & GEOMETRY -->
+    <section id="geometry">
+      <div class="section-header">
+        <h2>04 / Vector Blueprint &amp; Cartouche Geometry</h2>
+        <span>Mathematical coordinates, angles and construction of the 6-point faceted hexagon</span>
+      </div>
+
+      <div class="spec-two-col">
+        <!-- Coordinate Table -->
+        <div class="spec-box">
+          <h3>Normalized Hexagonal Grid (100 × 32 Units)</h3>
+          <p style="font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 1rem;">
+            The cartouche outline is composed of an elongated 6-point faceted polygon with a subtle roof apex and bottom keel:
+          </p>
+
+          <table class="geom-table">
+            <thead>
+              <tr>
+                <th>Vertex</th>
+                <th>X</th>
+                <th>Y</th>
+                <th>Segment Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>V1</strong></td>
+                <td>50.0</td>
+                <td>2.0</td>
+                <td>Top Center Roof Apex (Peak pointing upward)</td>
+              </tr>
+              <tr>
+                <td><strong>V2</strong></td>
+                <td>98.0</td>
+                <td>6.8</td>
+                <td>Top-Right Corner (Slope: -5.7° pitch)</td>
+              </tr>
+              <tr>
+                <td><strong>V3</strong></td>
+                <td>93.6</td>
+                <td>25.2</td>
+                <td>Bottom-Right Corner (Inward rake: 12.3°)</td>
+              </tr>
+              <tr>
+                <td><strong>V4</strong></td>
+                <td>50.0</td>
+                <td>30.0</td>
+                <td>Bottom Center Keel Apex (Point pointing downward)</td>
+              </tr>
+              <tr>
+                <td><strong>V5</strong></td>
+                <td>6.4</td>
+                <td>25.2</td>
+                <td>Bottom-Left Corner (Slope: -5.7° pitch)</td>
+              </tr>
+              <tr>
+                <td><strong>V6</strong></td>
+                <td>2.0</td>
+                <td>6.8</td>
+                <td>Top-Left Corner (Inward rake: 12.3°)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Blueprint Diagram Box -->
+        <div class="spec-box" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <h3>Blueprint Vector Dimensioning</h3>
+          <div style="background: #0c0e12; border: 1px solid var(--border-subtle); border-radius: 6px; padding: 1.5rem; display: flex; align-items: center; justify-content: center;">
+            <svg viewBox="-5 -5 110 42" width="100%" height="auto" style="overflow: visible;">
+              <!-- Grid Background Lines -->
+              <line x1="50" y1="-2" x2="50" y2="34" stroke="#2a303c" stroke-width="0.75" stroke-dasharray="2,2" />
+              <line x1="0" y1="16" x2="100" y2="16" stroke="#2a303c" stroke-width="0.75" stroke-dasharray="2,2" />
+
+              <!-- Outer Dimension Guides -->
+              <rect x="2" y="2" width="96" height="28" fill="none" stroke="#334155" stroke-width="0.6" stroke-dasharray="1.5,1.5" />
+
+              <!-- Main Polygon -->
+              <path d="M 2.0,6.8 L 50.0,2.0 L 98.0,6.8 L 93.6,25.2 L 50.0,30.0 L 6.4,25.2 Z"
+                    fill="rgba(0, 122, 204, 0.12)" stroke="#007acc" stroke-width="1.8" stroke-linejoin="round" />
+
+              <!-- Vertex Dots -->
+              <circle cx="50.0" cy="2.0" r="1.8" fill="#38bdf8" />
+              <circle cx="98.0" cy="6.8" r="1.8" fill="#38bdf8" />
+              <circle cx="93.6" cy="25.2" r="1.8" fill="#38bdf8" />
+              <circle cx="50.0" cy="30.0" r="1.8" fill="#38bdf8" />
+              <circle cx="6.4" cy="25.2" r="1.8" fill="#38bdf8" />
+              <circle cx="2.0" cy="6.8" r="1.8" fill="#38bdf8" />
+
+              <!-- Angle Indicators -->
+              <text x="50" y="-3.5" font-size="3" fill="#94a3b8" text-anchor="middle" font-family="monospace">Apex Pitch: ~6°</text>
+              <text x="100" y="16.5" font-size="2.8" fill="#94a3b8" text-anchor="start" font-family="monospace">Rake: 12.3°</text>
+            </svg>
+          </div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.8rem; font-family: ui-monospace, monospace;">
+            Aspect Ratio: 3.125 : 1 &nbsp;|&nbsp; Included Apex Angle: 168.6° &nbsp;|&nbsp; Stroke Join: round
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: RULES & USAGE GUIDELINES -->
+    <section id="rules">
+      <div class="section-header">
+        <h2>05 / Usage Rules &amp; Dial Implementation</h2>
+        <span>Placement, clear space requirements, and prohibited modifications</span>
+      </div>
+
+      <div class="spec-two-col">
+        <!-- Placement & Clear Space -->
+        <div class="spec-box">
+          <h3>Meter Dial Placement &amp; Clear Space</h3>
+          <ul style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.8; padding-left: 1.2rem;">
+            <li><strong>Vertical Clearance</strong>: Position centered vertically between the lower 0–100% modulation scale and the bottom pivot well cap.</li>
+            <li><strong>Horizontal Centerline</strong>: The top apex ($x=50$) must align exactly with the meter movement's mechanical pivot axis.</li>
+            <li><strong>Minimum Clear Space</strong>: Maintain a minimum clearance zone equal to $0.5\times$ the badge height on all sides before any scale ticks or legend text.</li>
+            <li><strong>Minimum Legibility Width</strong>: 
+              <br/>• Screen / Digital: $\ge 64\text{ px}$ width
+              <br/>• Physical Faceplate Print: $\ge 14\text{ mm}$ width
+            </li>
+          </ul>
+        </div>
+
+        <!-- Prohibited Modifications -->
+        <div class="spec-box">
+          <h3 style="color: #f87171;">Prohibited Modifications</h3>
+          <ul style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.8; padding-left: 1.2rem;">
+            <li><strong>No Flat Roofs</strong>: Never flatten the top or bottom ridges into a simple rectangle. The faceted peaks are essential.</li>
+            <li><strong>No Capitalized 'C'</strong>: Do not spell the mark as <code>MCCURDY</code>.</li>
+            <li><strong>No Serif Typography</strong>: Never substitute serif or modern geometric circular typefaces (e.g., Futura, Times).</li>
+            <li><strong>No Drop Shadows on Dial</strong>: Meter dial graphics are printed flat via precision silk-screen or photo-etching; avoid artificial heavy drop shadows on the actual dial face.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CODE TOKENS -->
+    <section id="tokens">
+      <div class="section-header">
+        <h2>06 / Production Code Tokens</h2>
+        <span>Ready-to-use SVG, CSS and TypeScript components</span>
+      </div>
+
+      <!-- SVG Snippet -->
+      <div class="code-container" style="margin-bottom: 1.5rem;">
+        <div class="code-header">
+          <span>SVG Production Master (viewBox="0 0 100 32")</span>
+          <button onclick="copySnippet('codeSvg')">Copy SVG</button>
+        </div>
+        <pre><code id="codeSvg">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" width="100%" height="100%"&gt;
+  &lt;g id="mccurdy-meter-cartouche"&gt;
+    &lt;!-- Faceted 6-Point Hexagonal Bezel --&gt;
+    &lt;path d="M 2.0,6.8 L 50.0,2.0 L 98.0,6.8 L 93.6,25.2 L 50.0,30.0 L 6.4,25.2 Z"
+          fill="#365467" stroke="#D9E2E8" stroke-width="1.8" stroke-linejoin="round" /&gt;
+    &lt;!-- Proprietary Hybrid Logotype --&gt;
+    &lt;text x="50" y="20.5"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="700" fill="#E1E9EF"
+          text-anchor="middle" letter-spacing="0.5"&gt;
+      M&lt;tspan font-size="10.2" dy="-0.4"&gt;c&lt;/tspan&gt;&lt;tspan font-size="13" dy="0.4"&gt;CURDY&lt;/tspan&gt;
+    &lt;/text&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;</code></pre>
+      </div>
+
+      <!-- TypeScript Snippet for mccurdy-vu.ts -->
+      <div class="code-container">
+        <div class="code-header">
+          <span>TypeScript Component (mccurdy-vu.ts helper function)</span>
+          <button onclick="copySnippet('codeTs')">Copy TypeScript</button>
+        </div>
+        <pre><code id="codeTs">/**
+ * Render authentic McCurdy Meter Dial Cartouche Logo
+ * @param cx Center X position of the meter face
+ * @param cy Center Y position of the cartouche badge
+ * @param scale Uniform scale factor (default: 0.92)
+ * @param bgColor Cartouche body fill (e.g. '#365467' or 'none')
+ * @param strokeColor Bezel outline stroke (e.g. '#D9E2E8' or ink)
+ * @param textColor Wordmark text fill (e.g. '#E1E9EF' or ink)
+ */
+export function renderMcCurdyCartoucheLogo(
+  cx: number,
+  cy: number,
+  scale = 0.92,
+  bgColor = '#365467',
+  strokeColor = '#D9E2E8',
+  textColor = '#E1E9EF'
+): string {
+  const x = cx - 50 * scale;
+  const y = cy - 16 * scale;
+  return `&lt;g id="mccurdy-dial-logo" transform="translate(${x.toFixed(1)}, ${y.toFixed(1)}) scale(${scale.toFixed(3)})"&gt;
+    &lt;path d="M 2.0,6.8 L 50.0,2.0 L 98.0,6.8 L 93.6,25.2 L 50.0,30.0 L 6.4,25.2 Z"
+          fill="${bgColor}" stroke="${strokeColor}" stroke-width="1.8" stroke-linejoin="round" /&gt;
+    &lt;text x="50" y="20.5"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="700" fill="${textColor}"
+          text-anchor="middle" letter-spacing="0.5"&gt;
+      M&lt;tspan font-size="10.2" dy="-0.4"&gt;c&lt;/tspan&gt;&lt;tspan font-size="13" dy="0.4"&gt;CURDY&lt;/tspan&gt;
+    &lt;/text&gt;
+  &lt;/g&gt;`;
+}</code></pre>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Notification Toast -->
+  <div id="toast">Token copied to clipboard!</div>
+
+  <!-- Interactive Controls Engine -->
+  <script>
+    (function () {
+      const liveSvg = document.getElementById('liveSvg');
+      const svgContainer = document.getElementById('svgContainer');
+      const cartoucheBezel = document.getElementById('cartoucheBezel');
+      const cartoucheWordmark = document.getElementById('cartoucheWordmark');
+      const previewCanvas = document.getElementById('previewCanvas');
+      const inputScale = document.getElementById('inputScale');
+      const valScale = document.getElementById('valScale');
+      const inputStroke = document.getElementById('inputStroke');
+      const valStroke = document.getElementById('valStroke');
+      const inputTracking = document.getElementById('inputTracking');
+      const valTracking = document.getElementById('valTracking');
+      const toast = document.getElementById('toast');
+
+      // Theme Definitions
+      const themes = {
+        slate: {
+          wrapperClass: '',
+          fill: '#365467',
+          stroke: '#d9e2e8',
+          text: '#e1e9ef'
+        },
+        cream: {
+          wrapperClass: 'theme-cream',
+          fill: 'none',
+          stroke: '#1e2024',
+          text: '#1e2024'
+        },
+        black: {
+          wrapperClass: 'theme-black',
+          fill: 'none',
+          stroke: '#f1f5f9',
+          text: '#f1f5f9'
+        },
+        transparent: {
+          wrapperClass: 'theme-transparent',
+          fill: 'none',
+          stroke: '#d9e2e8',
+          text: '#e1e9ef'
+        }
+      };
+
+      let currentTheme = 'slate';
+
+      // Scale Slider
+      inputScale.addEventListener('input', (e) => {
+        const val = e.target.value;
+        svgContainer.style.width = val + 'px';
+        valScale.textContent = val + ' px';
+      });
+
+      // Stroke Slider
+      inputStroke.addEventListener('input', (e) => {
+        const val = parseFloat(e.target.value);
+        cartoucheBezel.setAttribute('stroke-width', val);
+        valStroke.textContent = val.toFixed(1) + ' px';
+      });
+
+      // Tracking Slider
+      inputTracking.addEventListener('input', (e) => {
+        const val = parseFloat(e.target.value);
+        cartoucheWordmark.setAttribute('letter-spacing', val + 'px');
+        valTracking.textContent = '+' + val.toFixed(1) + ' px';
+      });
+
+      // Theme Buttons
+      document.querySelectorAll('.theme-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const themeKey = btn.getAttribute('data-theme');
+          const t = themes[themeKey];
+          if (!t) return;
+          currentTheme = themeKey;
+          previewCanvas.className = 'preview-canvas-wrapper ' + t.wrapperClass;
+          cartoucheBezel.setAttribute('fill', t.fill);
+          cartoucheBezel.setAttribute('stroke', t.stroke);
+          cartoucheWordmark.setAttribute('fill', t.text);
+          showToast(`Switched to ${themeKey.toUpperCase()} theme`);
+        });
+      });
+
+      // Copy SVG Button
+      document.getElementById('btnCopySvg').addEventListener('click', () => {
+        const svgCode = liveSvg.outerHTML;
+        navigator.clipboard.writeText(svgCode).then(() => {
+          showToast('Production SVG copied to clipboard!');
+        });
+      });
+
+      // Download SVG Button
+      document.getElementById('btnDownloadSvg').addEventListener('click', () => {
+        const svgCode = liveSvg.outerHTML;
+        const blob = new Blob([svgCode], { type: 'image/svg+xml;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `mccurdy-meter-dial-logo-${currentTheme}.svg`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast('SVG file downloaded!');
+      });
+
+      // Global Helpers
+      window.copyToken = function (token) {
+        navigator.clipboard.writeText(token).then(() => {
+          showToast(`Token ${token} copied!`);
+        });
+      };
+
+      window.copySnippet = function (elemId) {
+        const code = document.getElementById(elemId).textContent;
+        navigator.clipboard.writeText(code).then(() => {
+          showToast('Code snippet copied to clipboard!');
+        });
+      };
+
+      function showToast(msg) {
+        toast.textContent = msg;
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2200);
+      }
+    })();
+  </script>
+</body>
+</html>

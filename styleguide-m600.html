@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ward-Beck Systems (WBS) M600 Series — Interactive Styleguide</title>
+  <style>
+    :root {
+      --bg-void: #111316;
+      --bg-panel: #191c21;
+      --bg-elevated: #22262d;
+      --border-subtle: #2e333d;
+      --border-strong: #454c59;
+
+      /* WBS M600 Hardware Tokens */
+      --wbs-alu-light: #d4d2c5;
+      --wbs-alu-base: #c6c3b3;
+      --wbs-alu-dark: #b3b09f;
+      --wbs-milled-edge: #8c897b;
+      --wbs-ink: #2a2b2a;
+      --wbs-bakelite: #181818;
+
+      /* Indicator LED Tokens */
+      --led-red: #d93829;
+      --led-green: #28a745;
+      --led-amber: #e5a91a;
+
+      /* Text Tokens */
+      --text-primary: #f2efe9;
+      --text-secondary: #a0a4ab;
+      --text-muted: #6c7077;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-void);
+      color: var(--text-primary);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Sticky Top Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(17, 19, 22, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 1rem 2rem;
+    }
+
+    .header-inner {
+      max-width: 1320px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand-cluster {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .wbs-badge {
+      border: 3px solid var(--text-primary);
+      border-radius: 12px;
+      padding: 0.2rem 1.1rem;
+      font-size: 1.65rem;
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: 3px;
+      line-height: 1.1;
+      user-select: none;
+    }
+
+    .title-block h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+
+    .title-block p {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+
+    nav.toc {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav.toc a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      padding: 0.45rem 0.75rem;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+
+    nav.toc a:hover {
+      color: var(--text-primary);
+      background: var(--bg-elevated);
+      border-color: var(--border-subtle);
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3.5rem;
+    }
+
+    .section-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.65rem;
+      margin-bottom: 1.5rem;
+      gap: 0.5rem;
+    }
+
+    .section-header h2 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+    }
+
+    .section-header span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Color Swatch Grid */
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+      gap: 1.1rem;
+    }
+
+    .swatch-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .swatch-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-strong);
+    }
+
+    .swatch-preview {
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .swatch-preview .copy-pill {
+      opacity: 0;
+      background: rgba(0, 0, 0, 0.72);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.25rem 0.6rem;
+      border-radius: 99px;
+      letter-spacing: 0.6px;
+      transition: opacity 0.15s ease;
+    }
+
+    .swatch-card:hover .copy-pill {
+      opacity: 1;
+    }
+
+    .swatch-meta {
+      padding: 0.85rem 1rem;
+    }
+
+    .swatch-meta h3 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 0.15rem;
+    }
+
+    .swatch-meta code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.78rem;
+      color: var(--wbs-alu-base);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .swatch-meta p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Two-column Spec Grid */
+    .spec-two-col {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .spec-box {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.4rem;
+    }
+
+    .spec-box h3 {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+    }
+
+    .type-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--border-subtle);
+      gap: 1rem;
+    }
+
+    .type-row:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .type-sample {
+      color: var(--wbs-alu-base);
+    }
+
+    .type-info {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .anatomy-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+      text-align: center;
+      padding-top: 0.5rem;
+    }
+
+    .anatomy-item {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      padding: 1rem 0.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.65rem;
+    }
+
+    .anatomy-item h4 {
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .anatomy-item span {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    /* Interactive Control Bar for Faceplates */
+    .rack-toolbar {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 0.9rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .toolbar-group {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .toolbar-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-secondary);
+      margin-right: 0.25rem;
+    }
+
+    .state-btn {
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-subtle);
+      padding: 0.4rem 0.85rem;
+      border-radius: 5px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .state-btn:hover {
+      border-color: var(--border-strong);
+      color: var(--text-primary);
+    }
+
+    .state-btn.active {
+      background: var(--wbs-alu-base);
+      color: var(--wbs-ink);
+      border-color: var(--wbs-alu-light);
+    }
+
+    /* Module Showcase Grid */
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    .module-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.5rem 1.25rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.1rem;
+    }
+
+    .module-svg-wrap {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem 0;
+    }
+
+    .module-svg-wrap svg {
+      max-height: 270px;
+      width: auto;
+      overflow: visible;
+    }
+
+    .module-footer {
+      width: 100%;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 0.9rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .module-footer h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .module-footer p {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    .slot-pill {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      padding: 0.25rem 0.55rem;
+      border-radius: 4px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--wbs-alu-base);
+      white-space: nowrap;
+    }
+
+    /* Interactive Trim Pot Cursor */
+    .interactive-pot {
+      cursor: pointer;
+    }
+    .interactive-pot:hover circle {
+      stroke: #ffffff;
+    }
+
+    /* Engineering Principles Cards */
+    .rules-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .rule-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.4rem;
+    }
+
+    .rule-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.55rem;
+    }
+
+    .rule-card p {
+      font-size: 0.86rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.85rem;
+    }
+
+    .led-legend {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .rule-footnote {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 0.65rem;
+    }
+
+    /* Code Export Block */
+    .code-panel {
+      background: #0d0e11;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .code-header {
+      background: var(--bg-elevated);
+      padding: 0.65rem 1.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .code-header span {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    pre {
+      padding: 1.1rem 1.25rem;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.8rem;
+      line-height: 1.55;
+      color: #c9d1d9;
+    }
+
+    footer {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem 3rem;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    /* Toast Notification */
+    #toast {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background: var(--wbs-alu-base);
+      color: var(--wbs-ink);
+      font-weight: 700;
+      font-size: 0.82rem;
+      padding: 0.6rem 1.1rem;
+      border-radius: 6px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all 0.2s ease;
+      z-index: 999;
+    }
+
+    #toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 640px) {
+      .spec-two-col {
+        grid-template-columns: 1fr;
+      }
+      .anatomy-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Shared SVG Defs (Hidden) -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <linearGradient id="aluPlate" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#D4D2C5" />
+        <stop offset="50%" stop-color="#C6C3B3" />
+        <stop offset="100%" stop-color="#B3B09F" />
+      </linearGradient>
+
+      <linearGradient id="extrusionBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#E5E3D8" />
+        <stop offset="40%" stop-color="#C6C3B3" />
+        <stop offset="100%" stop-color="#8C897B" />
+      </linearGradient>
+
+      <radialGradient id="fuseCap" cx="40%" cy="40%" r="60%">
+        <stop offset="0%" stop-color="#4A4A4A" />
+        <stop offset="65%" stop-color="#1E1E1E" />
+        <stop offset="100%" stop-color="#0D0D0D" />
+      </radialGradient>
+
+      <filter id="glowRed" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+      <filter id="glowGreen" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+      <filter id="glowAmber" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+
+      <filter id="moduleShadow" x="-10%" y="-10%" width="125%" height="125%">
+        <feDropShadow dx="4" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.55" />
+      </filter>
+
+      <g id="trimPot">
+        <polygon points="0,-11 9.5,-5.5 9.5,5.5 0,11 -9.5,5.5 -9.5,-5.5" fill="#A6A395" stroke="#5A584F" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7.5" fill="#D8D6C8" stroke="#6E6C61" stroke-width="0.8"/>
+        <circle cx="0" cy="0" r="5" fill="#B5B2A4" stroke="#444" stroke-width="0.8"/>
+        <line x1="-3.5" y1="-2" x2="3.5" y2="2" stroke="#2B2B2B" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+
+      <g id="fuseHolder">
+        <circle cx="0" cy="0" r="21" fill="#181818" stroke="#3A3A3A" stroke-width="1.2"/>
+        <circle cx="0" cy="0" r="17.5" fill="url(#fuseCap)" stroke="#555" stroke-width="1" stroke-dasharray="2,1.5"/>
+        <circle cx="0" cy="0" r="14" fill="#1C1C1C" stroke="#333" stroke-width="0.8"/>
+        <rect x="-11" y="-1.8" width="22" height="3.6" rx="1" fill="#0B0B0B" stroke="#3E3E3E" stroke-width="0.5"/>
+        <text x="0" y="-5" fill="#777777" font-size="5.5" font-weight="bold" text-anchor="middle" letter-spacing="0.8">FUSE</text>
+      </g>
+    </defs>
+  </svg>
+
+  <header>
+    <div class="header-inner">
+      <div class="brand-cluster">
+        <a href="https://likedotaudio.github.io/WBSps.ca/" class="wbs-badge" title="WBSps.ca Archive Home" style="color:var(--text-primary);text-decoration:none;">WBS</a>
+        <div class="title-block">
+          <h1><a href="https://likedotaudio.github.io/WBSps.ca/" style="color:inherit;text-decoration:none;">WBSps.ca</a> • M600 SERIES STYLEGUIDE</h1>
+          <p>Ward-Beck Systems Ltd. • MF-6B 3½&quot; Standard Rack Mounting Family • Distribution Amplifiers</p>
+        </div>
+      </div>
+      <nav class="toc">
+        <a href="https://likedotaudio.github.io/WBSps.ca/" style="color:#22c55e;border-color:rgba(34,197,94,0.35);background:rgba(34,197,94,0.08);">← WBSps.ca</a>
+        <a href="#palette">01 Palette</a>
+        <a href="#typography">02 Typography</a>
+        <a href="#modules">03 Faceplates</a>
+        <a href="#rules">04 Chassis Rules</a>
+        <a href="#tokens">05 CSS Tokens</a>
+        <a href="styleguide-xtm4.html" style="color:var(--wbs-alu-base);border-color:var(--border-subtle);">XTM-4 Guide →</a>
+        <a href="styleguide-dr-knob.html" style="color:var(--wbs-alu-base);border-color:var(--border-subtle);">DR Knob Guide →</a>
+        <a href="meters.html" style="color:var(--wbs-alu-base);border-color:var(--border-subtle);">Meters →</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 01 PALETTE -->
+    <section id="palette">
+      <div class="section-header">
+        <h2>01 / Surface Materials &amp; Indicator Palette</h2>
+        <span>Click any swatch to copy hex token</span>
+      </div>
+
+      <div class="swatch-grid">
+        <div class="swatch-card" data-copy="#C6C3B3">
+          <div class="swatch-preview" style="background: linear-gradient(135deg, #D4D2C5, #C6C3B3, #B3B09F);">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Brushed Alloy</h3>
+            <code>#C6C3B3</code>
+            <p>Warm anodized faceplate</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#8C897B">
+          <div class="swatch-preview" style="background: #8C897B;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Milled Edge</h3>
+            <code>#8C897B</code>
+            <p>Extruded top/bottom lip</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#2A2B2A">
+          <div class="swatch-preview" style="background: #2A2B2A;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Silkscreen Ink</h3>
+            <code>#2A2B2A</code>
+            <p>Engraved panel typography</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#181818">
+          <div class="swatch-preview" style="background: #181818;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Phenolic Cap</h3>
+            <code>#181818</code>
+            <p>Bakelite fuse holder body</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#D93829">
+          <div class="swatch-preview" style="background: #231818;">
+            <div style="width:18px;height:18px;border-radius:50%;background:#D93829;box-shadow:0 0 12px #D93829;"></div>
+            <span class="copy-pill" style="position:absolute;bottom:8px;">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>OVLD Signal</h3>
+            <code>#D93829</code>
+            <p>Overload / Clipping LED</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#28A745">
+          <div class="swatch-preview" style="background: #16241B;">
+            <div style="width:18px;height:18px;border-radius:50%;background:#28A745;box-shadow:0 0 12px #28A745;"></div>
+            <span class="copy-pill" style="position:absolute;bottom:8px;">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>NORM Signal</h3>
+            <code>#28A745</code>
+            <p>Nominal operation LED</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#E5A91A">
+          <div class="swatch-preview" style="background: #262014;">
+            <div style="width:18px;height:18px;border-radius:50%;background:#E5A91A;box-shadow:0 0 12px #E5A91A;"></div>
+            <span class="copy-pill" style="position:absolute;bottom:8px;">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>DC Power</h3>
+            <code>#E5A91A</code>
+            <p>Internal rail active LED</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 TYPOGRAPHY & HARDWARE ANATOMY -->
+    <section id="typography">
+      <div class="section-header">
+        <h2>02 / Panel Typography &amp; Hardware Components</h2>
+        <span>Silkscreen hierarchy &amp; electromechanical controls</span>
+      </div>
+
+      <div class="spec-two-col">
+        <div class="spec-box">
+          <h3>Silkscreen Type Scale</h3>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:1.1rem;font-weight:800;letter-spacing:1px;">WBS M605A / M609 / M612A</div>
+            <div class="type-info">Model ID • Sans Bold 11pt</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:0.78rem;font-weight:700;letter-spacing:0.8px;">OVLD &nbsp; NORM &nbsp; DC &nbsp; GAIN &nbsp; TRIM &nbsp; LOC/REM</div>
+            <div class="type-info">Control Labels • Caps 7.5pt</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:0.7rem;font-weight:700;letter-spacing:0.5px;">.175A SB &nbsp;&nbsp; .25A SB &nbsp;&nbsp; 0.25A SB</div>
+            <div class="type-info">Fuse Ratings • Condensed 6.5pt</div>
+          </div>
+        </div>
+
+        <div class="spec-box">
+          <h3>Electromechanical Component Anatomy</h3>
+          <div class="anatomy-grid">
+            <div class="anatomy-item">
+              <svg width="36" height="36" viewBox="-18 -18 36 36">
+                <circle cx="0" cy="0" r="8" fill="#4A1A1A" stroke="#7A786C" stroke-width="1.2"/>
+                <circle cx="0" cy="0" r="6" fill="#D93829" filter="url(#glowRed)"/>
+                <circle cx="-2" cy="-2" r="1.8" fill="#FF9E94" opacity="0.85"/>
+              </svg>
+              <div>
+                <h4>T-1 LED</h4>
+                <span>3mm Bezel</span>
+              </div>
+            </div>
+
+            <div class="anatomy-item">
+              <svg width="36" height="36" viewBox="-18 -18 36 36">
+                <use href="#trimPot" transform="scale(1.35)"/>
+              </svg>
+              <div>
+                <h4>Multi-Turn Pot</h4>
+                <span>Recessed Hex</span>
+              </div>
+            </div>
+
+            <div class="anatomy-item">
+              <svg width="46" height="46" viewBox="-24 -24 48 48">
+                <use href="#fuseHolder"/>
+              </svg>
+              <div>
+                <h4>Bayonet Fuse</h4>
+                <span>Slotted Cap</span>
+              </div>
+            </div>
+
+            <div class="anatomy-item">
+              <svg width="56" height="36" viewBox="-34 -16 68 32">
+                <rect x="-32" y="-12" width="64" height="10" fill="url(#extrusionBevel)" stroke="#555" stroke-width="0.8"/>
+                <rect x="-32" y="-2" width="64" height="14" fill="url(#aluPlate)" stroke="#555" stroke-width="0.8"/>
+              </svg>
+              <div>
+                <h4>Extruded Lip</h4>
+                <span>RF Shield Edge</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 MODULAR FACEPLATE MATRIX -->
+    <section id="modules">
+      <div class="section-header">
+        <h2>03 / M600 Series Faceplate Architectures (MF-6B 3½&quot; Rack Grid)</h2>
+        <span>Interactive simulation • Click trim pots to adjust calibration screws</span>
+      </div>
+
+      <div class="rack-toolbar">
+        <div class="toolbar-group">
+          <span class="toolbar-label">Rack Telemetry State:</span>
+          <button class="state-btn active" data-state="normal">Normal Operating (NORM + DC)</button>
+          <button class="state-btn" data-state="overload">Signal Peak / Clipping (OVLD)</button>
+          <button class="state-btn" data-state="all">Lamp Test (All Lit)</button>
+          <button class="state-btn" data-state="off">Power Off</button>
+        </div>
+        <div style="font-size:0.76rem;color:var(--text-muted);">
+          1-Slot (Single Width) vs. 2-Slot (Double Width)
+        </div>
+      </div>
+
+      <div class="module-grid">
+        <!-- MODULE 1: WBS M605A -->
+        <div class="module-card">
+          <div class="module-svg-wrap">
+            <svg width="136" height="214" viewBox="-4 -2 136 214" filter="url(#moduleShadow)">
+              <rect x="0" y="0" width="128" height="210" rx="2" fill="url(#aluPlate)" stroke="#6E6C61" stroke-width="1.2"/>
+              <rect x="-3" y="0" width="134" height="11" rx="1" fill="url(#extrusionBevel)" stroke="#5C5A50" stroke-width="1"/>
+              <rect x="-3" y="199" width="134" height="11" rx="1" fill="url(#extrusionBevel)" stroke="#5C5A50" stroke-width="1"/>
+              <line x1="2" y1="12" x2="126" y2="12" stroke="#9C998B" stroke-width="1"/>
+              <line x1="2" y1="198" x2="126" y2="198" stroke="#E8E6DC" stroke-width="1"/>
+
+              <!-- Left LED Column -->
+              <g transform="translate(32, 38)">
+                <text x="0" y="0" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">OVLD</text>
+                <circle class="led-ovld" cx="0" cy="11" r="4.2" fill="#4A1A1A" stroke="#7A786C" stroke-width="1"/>
+
+                <circle class="led-norm" cx="0" cy="36" r="4.2" fill="#28A745" stroke="#7A786C" stroke-width="1" filter="url(#glowGreen)"/>
+                <text x="0" y="51" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">NORM</text>
+
+                <circle class="led-dc" cx="0" cy="76" r="4.2" fill="#E5A91A" stroke="#7A786C" stroke-width="1" filter="url(#glowAmber)"/>
+                <text x="0" y="91" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">DC</text>
+              </g>
+
+              <!-- Gain Trim Pot -->
+              <g class="interactive-pot" transform="translate(92, 74)" data-angle="0">
+                <use href="#trimPot"/>
+              </g>
+              <text x="92" y="96" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">GAIN</text>
+
+              <!-- Fuse Holder -->
+              <use href="#fuseHolder" transform="translate(88, 132)"/>
+              <text x="88" y="164" fill="#2A2B2A" font-size="7.5" font-weight="700" text-anchor="middle">.175A SB</text>
+
+              <text x="64" y="185" fill="#2A2B2A" font-size="11.5" font-weight="800" text-anchor="middle" letter-spacing="0.6">WBS M605A</text>
+            </svg>
+          </div>
+          <div class="module-footer">
+            <div>
+              <h3>WBS M605A / C</h3>
+              <p>Standard Distribution Amp</p>
+            </div>
+            <span class="slot-pill">1-Slot</span>
+          </div>
+        </div>
+
+        <!-- MODULE 2: WBS M608A -->
+        <div class="module-card">
+          <div class="module-svg-wrap">
+            <svg width="276" height="214" viewBox="-4 -2 276 214" filter="url(#moduleShadow)">
+              <rect x="0" y="0" width="268" height="210" rx="2" fill="url(#aluPlate)" stroke="#6E6C61" stroke-width="1.2"/>
+              <rect x="-3" y="0" width="274" height="11" rx="1" fill="url(#extrusionBevel)" stroke="#5C5A50" stroke-width="1"/>
+              <rect x="-3" y="199" width="274" height="11" rx="1" fill="url(#extrusionBevel)" stroke="#5C5A50" stroke-width="1"/>
+              <line x1="2" y1="12" x2="266" y2="12" stroke="#9C998B" stroke-width="1"/>
+              <line x1="2" y1="198" x2="266" y2="198" stroke="#E8E6DC" stroke-width="1"/>
+
+              <text x="134" y="34" fill="#2A2B2A" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="0.8">WBS M608A</text>
+
+              <!-- Left LED Column -->
+              <g transform="translate(36, 48)">
+                <text x="0" y="0" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">OVLD</text>
+                <circle class="led-ovld" cx="0" cy="11" r="4.2" fill="#4A1A1A" stroke="#7A786C" stroke-width="1"/>
+
+                <circle class="led-norm" cx="0" cy="36" r="4.2" fill="#28A745" stroke="#7A786C" stroke-width="1" filter="url(#glowGreen)"/>
+                <text x="0" y="51" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">NORM</text>
+
+                <circle class="led-dc" cx="0" cy="76" r="4.2" fill="#E5A91A" stroke="#7A786C" stroke-width="1" filter="url(#glowAmber)"/>
+                <text x="0" y="91" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">DC</text>
+              </g>
+
+              <!-- Gain Trim Pot -->
+              <g class="interactive-pot" transform="translate(218, 84)" data-angle="45">
+                <use href="#trimPot" transform="rotate(45)"/>
+              </g>
+              <text x="218" y="106" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">GAIN</text>
+
+              <!-- Fuse Holder -->
+              <use href="#fuseHolder" transform="translate(218, 145)"/>
+              <text x="218" y="177" fill="#2A2B2A" font-size="7.5" font-weight="700" text-anchor="middle">.175A SB</text>
+            </svg>
+          </div>
+          <div class="module-footer">
+            <div>
+              <h3>WBS M608 / M608A</h3>
+              <p>Transformer-Coupled DA</p>
+            </div>
+            <span class="slot-pill">2-Slot</span>
+          </div>
+        </div>
+
+        <!-- MODULE 3: WBS M609 -->
+        <div class="module-card">
+          <div class="module-svg-wrap">
+            <svg width="276" height="214" viewBox="-4 -2 276 214" filter="url(#moduleShadow)">
+              <rect x="0" y="0" width="268" height="210" rx="2" fill="url(#aluPlate)" stroke="#6E6C61" stroke-width="1.2"/>
+              <rect x="-3" y="0" width="274" height="11" rx="1" fill="url(#extrusionBevel)" stroke="#5C5A50" stroke-width="1"/>
+              <rect x="-3" y="199" width="274" height="11" rx="1" fill="url(#extrusionBevel)" stroke="#5C5A50" stroke-width="1"/>
+              <line x1="2" y1="12" x2="266" y2="12" stroke="#9C998B" stroke-width="1"/>
+              <line x1="2" y1="198" x2="266" y2="198" stroke="#E8E6DC" stroke-width="1"/>
+
+              <text x="134" y="34" fill="#2A2B2A" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="0.8">WBS M609</text>
+
+              <!-- Left LED Column -->
+              <g transform="translate(36, 48)">
+                <text x="0" y="0" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">OVLD</text>
+                <circle class="led-ovld" cx="0" cy="11" r="4.2" fill="#4A1A1A" stroke="#7A786C" stroke-width="1"/>
+
+                <circle class="led-norm" cx="0" cy="36" r="4.2" fill="#28A745" stroke="#7A786C" stroke-width="1" filter="url(#glowGreen)"/>
+                <text x="0" y="51" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">NORM</text>
+
+                <circle class="led-dc" cx="0" cy="76" r="4.2" fill="#E5A91A" stroke="#7A786C" stroke-width="1" filter="url(#glowAmber)"/>
+                <text x="0" y="91" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">DC</text>
+              </g>
+
+              <!-- Center LOC/REM -->
+              <g class="interactive-pot" transform="translate(134, 72)" data-angle="90">
+                <use href="#trimPot" transform="rotate(90)"/>
+              </g>
+              <text x="134" y="94" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.3">LOC/REM</text>
+              <line x1="134" y1="98" x2="134" y2="120" stroke="#2A2B2A" stroke-width="1.2"/>
+              <circle class="led-norm" cx="134" cy="126" r="4.2" fill="#28A745" stroke="#7A786C" stroke-width="1" filter="url(#glowGreen)"/>
+              <text x="134" y="142" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">LOC</text>
+
+              <!-- Right LOC SENS -->
+              <g class="interactive-pot" transform="translate(218, 72)" data-angle="135">
+                <use href="#trimPot" transform="rotate(135)"/>
+              </g>
+              <text x="218" y="94" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.3">LOC SENS</text>
+
+              <!-- Fuse Holder -->
+              <use href="#fuseHolder" transform="translate(218, 145)"/>
+              <text x="218" y="177" fill="#2A2B2A" font-size="7.5" font-weight="700" text-anchor="middle">0.25A SB</text>
+            </svg>
+          </div>
+          <div class="module-footer">
+            <div>
+              <h3>WBS M609</h3>
+              <p>Remote Sensitivity DA</p>
+            </div>
+            <span class="slot-pill">2-Slot</span>
+          </div>
+        </div>
+
+        <!-- MODULE 4: WBS M612A -->
+        <div class="module-card">
+          <div class="module-svg-wrap">
+            <svg width="276" height="214" viewBox="-4 -2 276 214" filter="url(#moduleShadow)">
+              <rect x="0" y="0" width="268" height="210" rx="2" fill="url(#aluPlate)" stroke="#6E6C61" stroke-width="1.2"/>
+              <rect x="-3" y="0" width="274" height="11" rx="1" fill="url(#extrusionBevel)" stroke="#5C5A50" stroke-width="1"/>
+              <rect x="-3" y="199" width="274" height="11" rx="1" fill="url(#extrusionBevel)" stroke="#5C5A50" stroke-width="1"/>
+              <line x1="2" y1="12" x2="266" y2="12" stroke="#9C998B" stroke-width="1"/>
+              <line x1="2" y1="198" x2="266" y2="198" stroke="#E8E6DC" stroke-width="1"/>
+
+              <text x="134" y="34" fill="#2A2B2A" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="0.8">WBS M612A</text>
+
+              <!-- Left LED Column -->
+              <g transform="translate(36, 48)">
+                <text x="0" y="0" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">OVLD</text>
+                <circle class="led-ovld" cx="0" cy="11" r="4.2" fill="#4A1A1A" stroke="#7A786C" stroke-width="1"/>
+
+                <circle class="led-norm" cx="0" cy="36" r="4.2" fill="#28A745" stroke="#7A786C" stroke-width="1" filter="url(#glowGreen)"/>
+                <text x="0" y="51" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">NORM</text>
+
+                <circle class="led-dc" cx="0" cy="76" r="4.2" fill="#E5A91A" stroke="#7A786C" stroke-width="1" filter="url(#glowAmber)"/>
+                <text x="0" y="91" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">DC</text>
+              </g>
+
+              <!-- Center TRIM -->
+              <g class="interactive-pot" transform="translate(134, 84)" data-angle="20">
+                <use href="#trimPot" transform="rotate(20)"/>
+              </g>
+              <text x="134" y="106" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">TRIM</text>
+
+              <!-- Right GAIN -->
+              <g class="interactive-pot" transform="translate(218, 84)" data-angle="70">
+                <use href="#trimPot" transform="rotate(70)"/>
+              </g>
+              <text x="218" y="106" fill="#2A2B2A" font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="0.4">GAIN</text>
+
+              <!-- Fuse Holder -->
+              <use href="#fuseHolder" transform="translate(218, 145)"/>
+              <text x="218" y="177" fill="#2A2B2A" font-size="7.5" font-weight="700" text-anchor="middle">0.175A SB</text>
+            </svg>
+          </div>
+          <div class="module-footer">
+            <div>
+              <h3>WBS M612A</h3>
+              <p>Dual-Stage Trim/Gain DA</p>
+            </div>
+            <span class="slot-pill">2-Slot</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 CHASSIS RULES -->
+    <section id="rules">
+      <div class="section-header">
+        <h2>04 / Chassis Construction &amp; Layout Conventions</h2>
+        <span>Industrial design patterns for MF-6B rack integration</span>
+      </div>
+
+      <div class="rules-grid">
+        <div class="rule-card">
+          <h3>1. Consistent Left-Edge Telemetry</h3>
+          <p>Every module reserves the left vertical axis (<code>x = 32–36px</code>) for the tri-color status indicator stack, enabling instant visual fault scanning across densely populated 3½&quot; broadcast frames.</p>
+          <div class="led-legend">
+            <span style="color:#D93829;">● OVLD (Red)</span>
+            <span style="color:#28A745;">● NORM (Green)</span>
+            <span style="color:#E5A91A;">● DC (Amber)</span>
+          </div>
+          <div class="rule-footnote">Top-to-bottom priority: Fault → Signal → Rail</div>
+        </div>
+
+        <div class="rule-card">
+          <h3>2. Self-Powered RF Enclosure</h3>
+          <p>Fully enclosed metal housings pair slotted top ventilation louvers with custom top and bottom extruded aluminum lips to deliver maximum RF immunity in high-density studio environments.</p>
+          <div class="rule-footnote">Individual slow-blow (SB) bayonet fuse anchored bottom-right</div>
+        </div>
+
+        <div class="rule-card">
+          <h3>3. Recessed Calibration Controls</h3>
+          <p>All gain, trim, and remote sensitivity adjustments utilize screwdriver-slotted multi-turn trim pots rather than protruding rotary knobs, preventing accidental level shifts during live operation.</p>
+          <div class="rule-footnote">MF-6B 3½&quot; Frame • 841 Progress Ave, Scarborough, ON</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 CSS TOKENS -->
+    <section id="tokens">
+      <div class="section-header">
+        <h2>05 / Design System CSS Custom Properties</h2>
+        <span>Ready-to-use tokens for WBS web visualizers &amp; SVG panels</span>
+      </div>
+
+      <div class="code-panel">
+        <div class="code-header">
+          <span>wbs-m600-tokens.css</span>
+          <button class="state-btn" id="copyCssBtn">Copy Tokens</button>
+        </div>
+        <pre id="cssTokenCode">:root {
+  /* Anodized Aluminum &amp; Extrusion Surfaces */
+  --wbs-alu-highlight: #D4D2C5;
+  --wbs-alu-base:      #C6C3B3;
+  --wbs-alu-shadow:    #B3B09F;
+  --wbs-milled-lip:    #8C897B;
+
+  /* Typography &amp; Hardware Plastics */
+  --wbs-silkscreen:    #2A2B2A;
+  --wbs-bakelite:      #181818;
+
+  /* Telemetry Indicator LEDs */
+  --wbs-led-ovld:      #D93829;
+  --wbs-led-norm:      #28A745;
+  --wbs-led-dc:        #E5A91A;
+}</pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>WARD-BECK SYSTEMS LTD. • 841 PROGRESS AVENUE, SCARBOROUGH, ONTARIO, CANADA</span>
+    <span><a href="https://likedotaudio.github.io/WBSps.ca/" style="color:#22c55e;text-decoration:none;">WBSps.ca ARCHIVE</a> • M600 DISTRIBUTION AMPLIFIER SERIES • HTML STYLEGUIDE</span>
+  </footer>
+
+  <div id="toast">Copied to clipboard</div>
+
+  <script>
+    const toast = document.getElementById('toast');
+    let toastTimer;
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), 1800);
+    }
+
+    // Swatch Click-to-Copy
+    document.querySelectorAll('.swatch-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const hex = card.dataset.copy;
+        navigator.clipboard?.writeText(hex);
+        showToast(`Copied ${hex}`);
+      });
+    });
+
+    // Copy CSS Tokens
+    document.getElementById('copyCssBtn').addEventListener('click', () => {
+      const code = document.getElementById('cssTokenCode').textContent;
+      navigator.clipboard?.writeText(code);
+      showToast('Copied CSS tokens to clipboard');
+    });
+
+    // Interactive Trim Pots (rotate 45deg per click)
+    document.querySelectorAll('.interactive-pot').forEach(pot => {
+      pot.addEventListener('click', () => {
+        let angle = (parseInt(pot.dataset.angle || '0', 10) + 45) % 360;
+        pot.dataset.angle = angle;
+        const inner = pot.querySelector('use');
+        inner.setAttribute('transform', `rotate(${angle})`);
+        showToast(`Calibration screw rotated to ${angle}°`);
+      });
+    });
+
+    // Telemetry LED State Simulator
+    const stateButtons = document.querySelectorAll('.state-btn[data-state]');
+    stateButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        stateButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const state = btn.dataset.state;
+        const ovlds = document.querySelectorAll('.led-ovld');
+        const norms = document.querySelectorAll('.led-norm');
+        const dcs = document.querySelectorAll('.led-dc');
+
+        ovlds.forEach(el => {
+          const on = state === 'overload' || state === 'all';
+          el.setAttribute('fill', on ? '#D93829' : '#4A1A1A');
+          on ? el.setAttribute('filter', 'url(#glowRed)') : el.removeAttribute('filter');
+        });
+
+        norms.forEach(el => {
+          const on = state === 'normal' || state === 'overload' || state === 'all';
+          el.setAttribute('fill', on ? '#28A745' : '#163D24');
+          on ? el.setAttribute('filter', 'url(#glowGreen)') : el.removeAttribute('filter');
+        });
+
+        dcs.forEach(el => {
+          const on = state !== 'off';
+          el.setAttribute('fill', on ? '#E5A91A' : '#4A3810');
+          on ? el.setAttribute('filter', 'url(#glowAmber)') : el.removeAttribute('filter');
+        });
+      });
+    });
+  </script>
+</body>
+</html>

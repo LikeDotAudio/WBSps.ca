@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>McCurdy Radio Industries • Dual Analog VU &amp; Transmission dB Panel Meters (ATS-100)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --mc-blue: #007acc;
+      --mc-blue-dark: #005f9e;
+      --mc-cream-dial: #f5edd3;
+      --mc-cream-panel: #ded6c4;
+      --mc-red: #c82824;
+      --mc-amber: #e59f1c;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #121316;
+      background-image: radial-gradient(circle at 50% 35%, #22242a 0%, #16171b 60%, #0d0e11 100%);
+      color: #e5e7eb;
+      user-select: none;
+      -webkit-user-select: none;
+      min-height: 100vh;
+    }
+
+    .font-mono-tech {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .font-seven-seg {
+      font-family: 'Share Tech Mono', 'Courier New', monospace;
+    }
+
+    /* Anodized Studio Panel Texture Overlay */
+    .studio-panel-grain {
+      background-image: radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 0);
+      background-size: 16px 16px;
+    }
+
+    /* Brushed Aluminum Chassis Grain */
+    .brushed-aluminum-panel {
+      background: linear-gradient(180deg, #eae5d8 0%, #ded7c5 45%, #d5cdb9 75%, #ccc3ad 100%);
+      box-shadow: inset 0 2px 3px rgba(255,255,255,0.8), inset 0 -3px 4px rgba(0,0,0,0.35);
+    }
+
+    /* Custom Studio Fader */
+    input[type="range"].studio-fader {
+      -webkit-appearance: none;
+      appearance: none;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    input[type="range"].studio-fader::-webkit-slider-runnable-track {
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #334155 0%, #475569 70%, #d97706 85%, #dc2626 100%);
+      border: 1px solid #090d16;
+    }
+
+    input[type="range"].studio-fader::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 24px;
+      border-radius: 4px;
+      background: linear-gradient(180deg, #f8fafc 0%, #cbd5e1 48%, #94a3b8 100%);
+      border: 1px solid #0f172a;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+      margin-top: -9px;
+    }
+
+    input[type="range"].studio-fader::-moz-range-track {
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #334155 0%, #475569 70%, #d97706 85%, #dc2626 100%);
+      border: 1px solid #090d16;
+    }
+
+    input[type="range"].studio-fader::-moz-range-thumb {
+      width: 18px;
+      height: 24px;
+      border-radius: 4px;
+      background: linear-gradient(180deg, #f8fafc 0%, #cbd5e1 48%, #94a3b8 100%);
+      border: 1px solid #0f172a;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .trim-screw-interactive {
+      cursor: ns-resize;
+      touch-action: none;
+    }
+
+    .rotary-knob-interactive {
+      cursor: grab;
+      touch-action: none;
+    }
+    .rotary-knob-interactive:active {
+      cursor: grabbing;
+    }
+
+    /* Glow for 7-Segment Display */
+    .led-glow-red {
+      text-shadow: 0 0 8px rgba(239, 68, 68, 0.8), 0 0 16px rgba(220, 38, 38, 0.4);
+    }
+
+    /* Subtle needle smooth transitions during render */
+    .needle-motion {
+      transform-origin: 0px 0px;
+      will-change: transform;
+    }
+  </style>
+</head>
+<body class="p-3 sm:p-5 lg:p-8 studio-panel-grain flex flex-col items-center justify-between min-h-screen">
+
+  <!-- Header / Navigation Bar -->
+  <header class="w-full max-w-6xl flex flex-wrap items-center justify-between gap-4 py-2 border-b border-white/10">
+    <!-- McCurdy Radio Industries Brand Crest & Title -->
+    <div class="flex items-center gap-3">
+      <!-- Vector Shield Logo Icon -->
+      <svg class="w-12 h-8 drop-shadow-md" viewBox="0 0 1000 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 140,185 Q 132,160 165,155 L 475,112 Q 500,108 525,112 L 835,155 Q 868,160 860,185 L 785,375 Q 775,398 748,402 L 525,442 Q 500,446 475,442 L 252,402 Q 225,398 215,375 Z"
+              fill="#007acc" stroke="#f4f6f8" stroke-width="28" stroke-linejoin="round"/>
+        <path d="M 248,175 L 322,175 L 322,200 C 342,178 368,170 394,173 C 418,176 434,188 444,206 C 464,180 494,170 524,173 C 564,177 586,206 586,250 L 586,322 L 782,322 L 770,350 L 586,350 L 586,362 L 608,362 L 608,385 L 498,385 L 498,362 L 520,362 L 520,350 L 452,350 L 452,322 L 520,322 L 520,255 C 520,230 508,218 488,218 C 468,218 454,232 454,258 L 454,305 L 390,305 L 390,255 C 390,230 378,218 358,218 C 338,218 324,232 324,258 L 324,362 L 346,362 L 346,385 L 248,385 L 248,362 L 268,362 L 268,200 L 248,200 Z" fill="#f4f6f8" />
+        <g fill="#f4f6f8" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" letter-spacing="1.5">
+          <text x="598" y="258" font-size="28">C</text>
+          <text x="622" y="272" font-size="40">CURDY</text>
+        </g>
+      </svg>
+      <div>
+        <h1 class="text-sm sm:text-base font-bold tracking-wider uppercase text-neutral-100 flex items-center gap-2">
+          <span>McCurdy Radio Industries</span>
+          <span class="text-[10px] font-mono-tech px-1.5 py-0.5 rounded bg-blue-900/60 text-blue-300 border border-blue-700/50">ATS-100 / SA14023</span>
+        </h1>
+        <p class="text-[11px] text-neutral-400 font-mono-tech">
+          TORONTO, ONTARIO • BUFFALO, N.Y. &nbsp;|&nbsp; 600Ω BROADCAST TRANSMISSION LINEUP METERS
+        </p>
+      </div>
+    </div>
+
+    <!-- View Mode Selector & Audio Toggle Button -->
+    <div class="flex items-center gap-2 sm:gap-3">
+      <a href="https://likedotaudio.github.io/WBSps.ca/" class="px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 transition">
+        ← WBSps.ca
+      </a>
+      <!-- Mode Toggle: Dual Meters vs. Full ATS-100 Chassis -->
+      <div class="inline-flex rounded-lg p-0.5 bg-[#0e1013] border border-white/10 text-xs font-medium">
+        <button id="btnViewDual" class="px-3 py-1.5 rounded-md bg-blue-600 text-white shadow-sm transition">
+          Dual Meters
+        </button>
+        <button id="btnViewRack" class="px-3 py-1.5 rounded-md text-neutral-400 hover:text-white transition">
+          Full ATS-100 Rack
+        </button>
+      </div>
+
+      <!-- Live Web Audio Engine Activator -->
+      <button id="btnAudioEngineToggle" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-600/20 text-emerald-300 border border-emerald-500/40 hover:bg-emerald-600/30 transition shadow-sm">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span id="audioEngineStatusText">Audio Engine: Active</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Presentation Stage: Isolated Dual Meters OR Full ATS-100 Rack -->
+  <main class="w-full max-w-6xl flex flex-col items-center my-auto py-4">
+
+    <!-- VIEWPORT 1: ISOLATED DUAL ANALOG METERS (Bench Presentation) -->
+    <div id="container-dual-meters" class="w-full flex items-center justify-center transition-all duration-300">
+      <svg id="dual-meters-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 336" class="w-full h-auto max-w-4xl overflow-visible filter drop-shadow-[0_20px_35px_rgba(0,0,0,0.8)]">
+        <defs>
+          <!-- Outer Molded Bakelite / ABS Bezel Gradient -->
+          <linearGradient id="bezelMoldedGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2a2c31" />
+            <stop offset="6%" stop-color="#1e2024" />
+            <stop offset="50%" stop-color="#16171a" />
+            <stop offset="94%" stop-color="#111214" />
+            <stop offset="100%" stop-color="#0a0a0c" />
+          </linearGradient>
+
+          <!-- Inner Recessed Window Stepped Bezel -->
+          <linearGradient id="bezelInnerStepGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0b0c0e" />
+            <stop offset="85%" stop-color="#1a1c20" />
+            <stop offset="100%" stop-color="#2c2f35" />
+          </linearGradient>
+
+          <!-- Left Meter: Authentic McCurdy Warm Aged Cream Dial Face -->
+          <radialGradient id="vuCreamDial" cx="50%" cy="66%" r="72%">
+            <stop offset="0%" stop-color="#f8f2dc" />
+            <stop offset="58%" stop-color="#ecdfbc" />
+            <stop offset="100%" stop-color="#d9cca2" />
+          </radialGradient>
+
+          <!-- Right Meter: McCurdy Matte Black Transmission Dial Face -->
+          <radialGradient id="ppmBlackDial" cx="50%" cy="62%" r="70%">
+            <stop offset="0%" stop-color="#202226" />
+            <stop offset="68%" stop-color="#141518" />
+            <stop offset="100%" stop-color="#0a0b0d" />
+          </radialGradient>
+
+          <!-- Subtle Diagonal Window Glass Sheen -->
+          <linearGradient id="meterGlassSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
+            <stop offset="28%" stop-color="#ffffff" stop-opacity="0.06" />
+            <stop offset="55%" stop-color="#ffffff" stop-opacity="0.01" />
+            <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+          </linearGradient>
+
+          <!-- Top Window Shadow Cast by Bezel Overhang -->
+          <linearGradient id="windowTopShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#000000" stop-opacity="0.45" />
+            <stop offset="35%" stop-color="#000000" stop-opacity="0.12" />
+            <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+          </linearGradient>
+
+          <!-- Mechanical Zero-Adjust Trimmer Screw Shading -->
+          <radialGradient id="trimScrewHeadGrad" cx="35%" cy="32%" r="68%">
+            <stop offset="0%" stop-color="#4e5158" />
+            <stop offset="52%" stop-color="#24262a" />
+            <stop offset="88%" stop-color="#141518" />
+            <stop offset="100%" stop-color="#0a0b0d" />
+          </radialGradient>
+
+          <!-- Clip Paths for Meter Windows -->
+          <clipPath id="leftWindowClip">
+            <rect x="44" y="34" width="312" height="162" rx="4" />
+          </clipPath>
+          <clipPath id="rightWindowClip">
+            <rect x="484" y="34" width="312" height="162" rx="4" />
+          </clipPath>
+        </defs>
+
+        <!-- =================================================================== -->
+        <!-- LEFT METER: MCCURDY SA14023 BROADCAST VU METER (x=24..376)          -->
+        <!-- Pivot Center: cx = 200, cy = 248, Arc Radius = 172                  -->
+        <!-- =================================================================== -->
+        <g id="left-vu-housing">
+          <!-- Outer Black Molded Bezel -->
+          <rect x="24" y="16" width="352" height="294" rx="10" fill="url(#bezelMoldedGrad)" stroke="#090a0c" stroke-width="1.8" />
+          <path d="M 34 17.5 L 366 17.5" stroke="#484d56" stroke-width="1.2" stroke-linecap="round" />
+          <rect x="30" y="22" width="340" height="282" rx="7" fill="none" stroke="#25272c" stroke-width="0.9" />
+
+          <!-- Recessed Window Well -->
+          <rect x="40" y="30" width="320" height="170" rx="6" fill="url(#bezelInnerStepGrad)" stroke="#08090b" stroke-width="1.2" />
+
+          <!-- Clipped Cream Dial Face -->
+          <g clip-path="url(#leftWindowClip)">
+            <rect x="44" y="34" width="312" height="162" fill="url(#vuCreamDial)" />
+
+            <!-- Authentic McCurdy SA14023 Dial Graphics -->
+            <g id="left-dial-graphics" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+              <!-- Top-Left & Top-Right VU Legends -->
+              <text x="86" y="74" font-size="14.5" font-weight="700" fill="#221e1a" transform="rotate(-26, 86, 74)">VU</text>
+              <text x="313" y="75" font-size="15.5" font-weight="800" fill="#c82824" transform="rotate(26, 313, 75)">VU</text>
+
+              <!-- Black Scale Arc (-20 to 0 VU) -->
+              <path d="M 80.4 124.2 A 172 172 0 0 1 234.3 79.4" fill="none" stroke="#221e1a" stroke-width="1.8" />
+              <!-- McCurdy Red Overload Band (0 to +3 VU) -->
+              <path d="M 234.3 79.4 A 172 172 0 0 1 315.1 120.1" fill="none" stroke="#c82824" stroke-width="5.8" />
+
+              <!-- Scale Ticks & Numerals Container -->
+              <g id="vu-ticks-container"></g>
+
+              <!-- Authentic McCurdy Faceted 6-Point Hexagonal Cartouche on Dial Face -->
+              <g id="left-dial-mccurdy-cartouche" transform="translate(160, 134)">
+                <!-- Faceted Bezel with Studio Slate Field -->
+                <path d="M 1.6,5.4 L 40.0,1.6 L 78.4,5.4 L 74.9,20.2 L 40.0,24.0 L 5.1,20.2 Z"
+                      fill="#365467" stroke="#d9e2e8" stroke-width="1.5" stroke-linejoin="round" />
+                <!-- Wordmark -->
+                <text x="40.0" y="16.4"
+                      font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+                      font-size="10.5" font-weight="700" fill="#e1e9ef"
+                      text-anchor="middle" letter-spacing="0.4">
+                  M<tspan font-size="8.2" dy="-0.3">c</tspan><tspan font-size="10.5" dy="0.3">CURDY</tspan>
+                </text>
+              </g>
+
+              <!-- McCurdy Model SA14023 Lineage Markings -->
+              <text x="200" y="174" font-size="7.5" font-weight="700" fill="#3b372e" text-anchor="middle" letter-spacing="0.8">SA 14023 • TORONTO, CANADA</text>
+            </g>
+
+            <!-- Lower Pivot Cap -->
+            <circle cx="200" cy="202" r="22" fill="#18191c" stroke="#2f3238" stroke-width="1.5" />
+            <circle cx="200" cy="202" r="15" fill="#111214" />
+
+            <!-- Live Ballistic VU Needle (Pivot at 200, 248) -->
+            <g id="vu-needle" class="needle-motion" transform="translate(200, 248) rotate(-44)">
+              <polygon points="1.6,0 3.8,0 2.4,-185 1.5,-185" fill="#000000" fill-opacity="0.18" />
+              <!-- Tapered Black Needle Shaft with Classic Teardrop Counterweight -->
+              <polygon points="-1.5,0 1.5,0 0.45,-185 -0.45,-185" fill="#1c1a17" />
+              <circle cx="0" cy="24" r="7.5" fill="#1c1a17" />
+            </g>
+
+            <!-- Window Bezel Shadow & Glare Sheen -->
+            <rect x="44" y="34" width="312" height="16" fill="url(#windowTopShadow)" />
+            <polygon points="44,34 220,34 140,196 44,196" fill="url(#meterGlassSheen)" />
+          </g>
+
+          <!-- Lower Bezel Horizontal Seam -->
+          <line x1="25" y1="214" x2="375" y2="214" stroke="#0c0d0f" stroke-width="1.4" />
+          <line x1="25" y1="215.4" x2="375" y2="215.4" stroke="#2c2f36" stroke-width="0.9" />
+
+          <!-- Interactive Mechanical Zero-Adjust Trimmer Screw -->
+          <g id="left-trim-screw" class="trim-screw-interactive" transform="translate(200, 258)"
+             role="slider" tabindex="0" aria-label="Left VU Zero Trimmer" aria-valuemin="-3" aria-valuemax="3" aria-valuenow="0">
+            <title>Drag vertically or scroll wheel to trim Left VU Zero-Point</title>
+            <circle cx="0" cy="0" r="15" fill="#0d0e10" stroke="#2c2f36" stroke-width="1.1" />
+            <g id="left-screw-rotor" transform="rotate(-38)">
+              <circle cx="0" cy="0" r="12.2" fill="url(#trimScrewHeadGrad)" stroke="#111214" stroke-width="1" />
+              <rect x="-10.8" y="-1.7" width="21.6" height="3.4" rx="0.8" fill="#090a0c" />
+              <line x1="-10.2" y1="1.9" x2="10.2" y2="1.9" stroke="#4e525b" stroke-width="0.7" />
+            </g>
+          </g>
+        </g>
+
+        <!-- =================================================================== -->
+        <!-- RIGHT METER: MCCURDY ATS-100 PEAK / TONE dBm METER (x=464..816)     -->
+        <!-- Pivot Center: cx = 640, cy = 248, Arc Radius = 172                  -->
+        <!-- =================================================================== -->
+        <g id="right-ppm-housing">
+          <!-- Outer Black Molded Bezel -->
+          <rect x="464" y="16" width="352" height="294" rx="10" fill="url(#bezelMoldedGrad)" stroke="#090a0c" stroke-width="1.8" />
+          <path d="M 474 17.5 L 806 17.5" stroke="#484d56" stroke-width="1.2" stroke-linecap="round" />
+          <rect x="470" y="22" width="340" height="282" rx="7" fill="none" stroke="#25272c" stroke-width="0.9" />
+
+          <!-- Recessed Window Well -->
+          <rect x="480" y="30" width="320" height="170" rx="6" fill="url(#bezelInnerStepGrad)" stroke="#08090b" stroke-width="1.2" />
+
+          <!-- Clipped Matte Black Dial Face -->
+          <g clip-path="url(#rightWindowClip)">
+            <rect x="484" y="34" width="312" height="162" fill="url(#ppmBlackDial)" />
+
+            <!-- McCurdy Black-Dial ATS Transmission Scale Graphics -->
+            <g id="ppm-dial-graphics" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+              <!-- Top-Right dB Legend -->
+              <text x="762" y="64" font-size="14.5" font-weight="600" fill="#f1f5f9" text-anchor="end">dB</text>
+
+              <!-- White Scale Arc (-20 to 0 dB) -->
+              <path d="M 520.4 124.2 A 172 172 0 0 1 674.3 79.4" fill="none" stroke="#f1f5f9" stroke-width="1.8" />
+              <!-- McCurdy Warm Amber/Gold Overload Arc (0 to +4 dB) -->
+              <path d="M 674.3 79.4 A 172 172 0 0 1 755.1 120.1" fill="none" stroke="#e59f1c" stroke-width="6.0" />
+
+              <!-- Scale Ticks & Numerals Container -->
+              <g id="ppm-ticks-container"></g>
+
+              <!-- Lower-Left TONE Label -->
+              <text x="526" y="172" font-size="10.5" font-weight="700" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.5">TONE</text>
+
+              <!-- Center Stacked Legends -->
+              <text x="640" y="138" font-size="11.5" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="0.6">TONE</text>
+              <text x="640" y="153" font-size="10.2" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="0.5">600 OHM</text>
+              <text x="640" y="169" font-size="10.2" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.4">dBm/600 OHM</text>
+
+              <!-- Lower-Right Attenuator Reference -->
+              <text x="742" y="168" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="0.4">+ ATTENUATOR</text>
+              <text x="742" y="180" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="0.4">SETTING</text>
+            </g>
+
+            <!-- Lower Pivot Cap -->
+            <circle cx="640" cy="202" r="22" fill="#18191c" stroke="#2f3238" stroke-width="1.5" />
+            <circle cx="640" cy="202" r="15" fill="#101113" />
+
+            <!-- Live Off-White Needle with Amber Tip (Pivot at 640, 248) -->
+            <g id="ppm-needle" class="needle-motion" transform="translate(640, 248) rotate(11.5)">
+              <polygon points="1.8,0 4.0,0 2.6,-185 1.6,-185" fill="#000000" fill-opacity="0.45" />
+              <!-- Cream/Off-White Needle Body -->
+              <polygon points="-1.6,0 1.6,0 0.65,-185 -0.65,-185" fill="#f3efe0" />
+              <!-- Authentic Amber / Cadmium Tip -->
+              <polygon points="-0.95,-145 0.95,-145 0.65,-185 -0.65,-185" fill="#eab308" />
+              <circle cx="0" cy="24" r="7.5" fill="#f3efe0" />
+            </g>
+
+            <!-- Window Bezel Shadow & Glare Sheen -->
+            <rect x="484" y="34" width="312" height="16" fill="url(#windowTopShadow)" />
+            <polygon points="484,34 660,34 580,196 484,196" fill="url(#meterGlassSheen)" />
+          </g>
+
+          <!-- Lower Bezel Horizontal Seam -->
+          <line x1="465" y1="214" x2="815" y2="214" stroke="#0c0d0f" stroke-width="1.4" />
+          <line x1="465" y1="215.4" x2="815" y2="215.4" stroke="#2c2f36" stroke-width="0.9" />
+
+          <!-- Interactive Mechanical Zero-Adjust Trimmer Screw -->
+          <g id="right-trim-screw" class="trim-screw-interactive" transform="translate(640, 258)"
+             role="slider" tabindex="0" aria-label="Right Peak dB Zero Trimmer" aria-valuemin="-3" aria-valuemax="3" aria-valuenow="0">
+            <title>Drag vertically or scroll wheel to trim Right Peak/dB Zero-Point</title>
+            <circle cx="0" cy="0" r="15" fill="#0d0e10" stroke="#2c2f36" stroke-width="1.1" />
+            <g id="right-screw-rotor" transform="rotate(32)">
+              <circle cx="0" cy="0" r="12.2" fill="url(#trimScrewHeadGrad)" stroke="#111214" stroke-width="1" />
+              <rect x="-10.8" y="-1.7" width="21.6" height="3.4" rx="0.8" fill="#090a0c" />
+              <line x1="-10.2" y1="1.9" x2="10.2" y2="1.9" stroke="#4e525b" stroke-width="0.7" />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <!-- VIEWPORT 2: COMPLETE MCCURDY ATS-100 RACK CHASSIS (Hidden by default, toggled via View button) -->
+    <div id="container-rack-panel" class="w-full hidden flex flex-col items-center justify-center transition-all duration-300">
+      <div class="w-full max-w-5xl rounded-xl border border-stone-500/50 shadow-[0_24px_50px_rgba(0,0,0,0.85)] p-2 sm:p-4 brushed-aluminum-panel text-stone-900">
+        
+        <!-- Rack Header: Model & Lineage Nomenclature -->
+        <div class="flex items-center justify-between border-b-2 border-stone-700/30 pb-2 px-2">
+          <div class="flex items-center gap-3">
+            <svg class="w-10 h-6" viewBox="0 0 1000 520" fill="none">
+              <path d="M 140,185 Q 132,160 165,155 L 475,112 Q 500,108 525,112 L 835,155 Q 868,160 860,185 L 785,375 Q 775,398 748,402 L 525,442 Q 500,446 475,442 L 252,402 Q 225,398 215,375 Z" fill="#007acc" stroke="#222" stroke-width="26" />
+              <text x="600" y="270" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="38" fill="#fff">McCURDY</text>
+            </svg>
+            <div>
+              <span class="text-xs sm:text-sm font-black tracking-widest uppercase text-stone-800">McCurdy Radio Industries Limited</span>
+              <span class="text-[10px] block font-mono text-stone-600">AUDIO TRANSMISSION TEST SET • MODEL ATS-100</span>
+            </div>
+          </div>
+
+          <!-- Red 7-Segment Digital Attenuator Range Window -->
+          <div class="flex items-center gap-3 bg-[#111316] px-3 py-1.5 rounded border-2 border-stone-800 shadow-inner">
+            <span class="text-[9px] font-mono font-bold uppercase text-stone-400">RANGE (dB)</span>
+            <div id="rackLedRange" class="font-seven-seg text-xl sm:text-2xl font-bold text-red-500 tracking-wider led-glow-red">
+              -20
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel Controls Row: Attenuator Knob, Range Detent Switch, Jacks -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center py-4 px-2">
+          
+          <!-- Control Section 1: 31-Step Scalloped Rotary Attenuator -->
+          <div class="flex flex-col items-center justify-center p-3 rounded-lg bg-stone-300/40 border border-stone-400/60 shadow-sm">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-stone-800 mb-2">31-Step Attenuator (2 dB/Step)</span>
+            
+            <div class="relative w-36 h-36 flex items-center justify-center rotary-knob-interactive" id="attenuatorKnobContainer" title="Drag horizontally or scroll wheel to rotate Attenuator">
+              <!-- SVG Scalloped Fluted Dial with Cadmium Yellow Cap Disc -->
+              <svg id="attenuatorKnobSvg" viewBox="0 0 160 160" class="w-full h-full filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]">
+                <!-- Outer Skirt Ring with Numerals -->
+                <circle cx="80" cy="80" r="76" fill="#ded7c5" stroke="#78716c" stroke-width="1.5" />
+                <circle cx="80" cy="80" r="62" fill="#292524" />
+                <!-- 14-Flute Scalloped Knob Body -->
+                <g id="knobRotator" transform="rotate(0, 80, 80)">
+                  <circle cx="80" cy="80" r="50" fill="#1c1917" stroke="#44403c" stroke-width="2" />
+                  <!-- Yellow Center Cap -->
+                  <circle cx="80" cy="80" r="28" fill="#eab308" stroke="#ca8a04" stroke-width="1.5" />
+                  <!-- Indicator Notch on Cap -->
+                  <polygon points="80,54 84,62 76,62" fill="#1c1917" />
+                  <!-- Heavy Pointer on Skirt -->
+                  <polygon points="80,18 84,32 76,32" fill="#dc2626" />
+                </g>
+              </svg>
+            </div>
+            <span id="rackAttenReadout" class="mt-2 text-xs font-mono font-bold text-stone-900 bg-stone-200 px-2 py-0.5 rounded border border-stone-400">
+              0 dB Offset (Step 15)
+            </span>
+          </div>
+
+          <!-- Control Section 2: Range Multiplier & Channel Select -->
+          <div class="flex flex-col items-center justify-center gap-3 p-3 rounded-lg bg-stone-300/40 border border-stone-400/60 shadow-sm">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-stone-800">Range Detent Multiplier</span>
+            <div class="flex items-center gap-2">
+              <button id="btnRangeLow" class="px-3 py-1 text-xs font-mono font-bold rounded bg-blue-700 text-white shadow">
+                -50 TO +10
+              </button>
+              <button id="btnRangeHigh" class="px-3 py-1 text-xs font-mono font-bold rounded bg-stone-400 text-stone-800 hover:bg-stone-300 transition">
+                -30 TO +30
+              </button>
+            </div>
+
+            <div class="w-full flex items-center justify-between border-t border-stone-400/60 pt-2 text-[10px] font-mono text-stone-700">
+              <span>IMPEDANCE: 600Ω BAL</span>
+              <span>CAL: 1 kHz @ +8 dBm</span>
+            </div>
+          </div>
+
+          <!-- Control Section 3: Input/Output Bantam Patch Jacks -->
+          <div class="flex flex-col items-center justify-center p-3 rounded-lg bg-stone-300/40 border border-stone-400/60 shadow-sm">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-stone-800 mb-2">Line Terminations</span>
+            <div class="flex items-center gap-6">
+              <!-- Jack 1 -->
+              <div class="flex flex-col items-center gap-1">
+                <div class="w-7 h-7 rounded-full bg-[#111] border-2 border-stone-600 flex items-center justify-center shadow-inner">
+                  <div class="w-3.5 h-3.5 rounded-full bg-black border border-stone-500"></div>
+                </div>
+                <span class="text-[9px] font-mono font-bold text-stone-700">INPUT 1</span>
+              </div>
+
+              <!-- Jack 2 -->
+              <div class="flex flex-col items-center gap-1">
+                <div class="w-7 h-7 rounded-full bg-[#111] border-2 border-stone-600 flex items-center justify-center shadow-inner">
+                  <div class="w-3.5 h-3.5 rounded-full bg-black border border-stone-500"></div>
+                </div>
+                <span class="text-[9px] font-mono font-bold text-stone-700">INPUT 2</span>
+              </div>
+
+              <!-- Jack 3 (Osc Out) -->
+              <div class="flex flex-col items-center gap-1">
+                <div class="w-7 h-7 rounded-full bg-[#111] border-2 border-stone-600 flex items-center justify-center shadow-inner">
+                  <div class="w-3.5 h-3.5 rounded-full bg-amber-500/80 border border-amber-300"></div>
+                </div>
+                <span class="text-[9px] font-mono font-bold text-stone-700">OSC OUT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rack Footer Plate -->
+        <div class="flex items-center justify-between text-[10px] font-mono text-stone-600 border-t border-stone-400/60 pt-1.5 px-2">
+          <span>CANADIAN PATENTS &amp; INDUSTRIAL DESIGNS APPLIED FOR</span>
+          <span>MADE IN CANADA</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live Test Signal, Generator & Audio Worklet Control Strip -->
+    <section aria-label="Signal Calibration & Audio Engine Controls"
+      class="w-full max-w-4xl mt-6 rounded-xl bg-[#14161a]/95 border border-white/10 px-4 py-3.5 shadow-[0_16px_36px_rgba(0,0,0,0.65)] backdrop-blur-md flex flex-col gap-3">
+
+      <!-- Row 1: Signal Generator Modes & Audio Input Routing -->
+      <div class="flex flex-wrap items-center justify-between gap-2.5">
+        
+        <!-- Signal Generator Buttons -->
+        <div class="flex flex-wrap items-center gap-1 p-0.5 rounded-lg bg-[#0c0d10] border border-white/10" role="group">
+          <button type="button" data-sig="1000"
+            class="sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium bg-blue-600/30 text-blue-300 border border-blue-500/50 transition">
+            1 kHz Tone
+          </button>
+          <button type="button" data-sig="400"
+            class="sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium text-neutral-400 hover:text-white transition">
+            400 Hz
+          </button>
+          <button type="button" data-sig="100"
+            class="sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium text-neutral-400 hover:text-white transition">
+            100 Hz
+          </button>
+          <button type="button" data-sig="5000"
+            class="sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium text-neutral-400 hover:text-white transition">
+            5 kHz
+          </button>
+          <button type="button" data-sig="pink"
+            class="sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium text-neutral-400 hover:text-white transition">
+            Pink Noise
+          </button>
+          <button type="button" data-sig="program"
+            class="sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium text-neutral-400 hover:text-white transition">
+            Program Voice
+          </button>
+          <button type="button" data-sig="off"
+            class="sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium text-neutral-400 hover:text-white transition">
+            Mute
+          </button>
+        </div>
+
+        <!-- Live Physical Input Hardware Controls (Mic / File Drop) -->
+        <div class="flex items-center gap-2">
+          <!-- Mic / Hardware Line-In Toggle -->
+          <button id="btnToggleMic" type="button"
+            class="px-2.5 py-1 rounded-lg text-xs font-mono-tech flex items-center gap-1.5 bg-[#0c0d10] text-neutral-300 hover:text-white border border-white/10 hover:border-white/30 transition">
+            <svg class="w-3.5 h-3.5 text-red-400" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H7a1 1 0 100 2h6a1 1 0 100-2h-2v-2.07z"/>
+            </svg>
+            <span id="micBtnText">Live Mic / Line-In</span>
+          </button>
+
+          <!-- Audio File Loader Button -->
+          <label for="audioFileInput"
+            class="px-2.5 py-1 rounded-lg text-xs font-mono-tech flex items-center gap-1.5 bg-[#0c0d10] text-neutral-300 hover:text-white border border-white/10 hover:border-white/30 cursor-pointer transition">
+            <svg class="w-3.5 h-3.5 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Play Audio File</span>
+            <input id="audioFileInput" type="file" accept="audio/*" class="hidden" />
+          </label>
+        </div>
+      </div>
+
+      <!-- Row 2: Level Fader, Precision Calibration Readouts, and Trimmer Zero Button -->
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2 border-t border-white/10">
+        
+        <div class="flex items-center justify-between sm:justify-start gap-2 shrink-0">
+          <label for="input-level-fader" class="text-[11px] font-mono-tech uppercase tracking-wider text-neutral-400">
+            Generator Level:
+          </label>
+          <span id="readout-fader-db" class="w-14 text-right font-mono-tech text-xs font-semibold text-neutral-200">
+            0.0 dB
+          </span>
+        </div>
+
+        <input id="input-level-fader" type="range" min="-24" max="4" step="0.1" value="0"
+          class="studio-fader flex-1 h-5" aria-label="Input Signal Level in dB" />
+
+        <!-- Realtime Ballistic Readout Pill -->
+        <div class="inline-flex items-center gap-3 px-3 py-1 rounded-full bg-[#0c0d10] border border-white/10 font-mono-tech text-xs shrink-0">
+          <span class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#e8dfc0]"></span>
+            <span class="text-neutral-400">VU:</span>
+            <strong id="readout-vu" class="text-[#f5edd3]">0.0 VU</strong>
+          </span>
+          <span class="text-neutral-600">|</span>
+          <span class="flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+            <span class="text-neutral-400">PPM/600Ω:</span>
+            <strong id="readout-dbm" class="text-amber-300">0.0 dBm</strong>
+          </span>
+        </div>
+
+        <!-- Trimmer Screw Reset Button -->
+        <button id="btn-reset-trim" type="button" title="Reset Mechanical Zero-Adjust Trimmer Screws"
+          class="px-2.5 py-1 rounded-lg text-[11px] font-mono-tech text-neutral-400 hover:text-white bg-[#0c0d10] hover:bg-neutral-800 border border-white/10 transition shrink-0">
+          Reset Zero Trim
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Technical Footer -->
+  <footer class="w-full max-w-6xl flex flex-wrap items-center justify-between gap-3 py-3 border-t border-white/10 text-[11px] font-mono-tech text-neutral-400">
+    <div>
+      <span class="text-neutral-200 font-semibold">McCurdy Radio Industries Ltd.</span> • Toronto, Ontario • Buffalo, N.Y.
+    </div>
+    <div class="flex items-center gap-4">
+      <span>ANSI C16.5 VU (~300ms, ζ=0.7)</span>
+      <span>•</span>
+      <span>Peak dB (10ms Attack / 1.5s Decay)</span>
+      <span>•</span>
+      <a href="https://mccurdyradio.ca" target="_blank" class="text-blue-400 hover:underline">mccurdyradio.ca</a>
+    </div>
+  </footer>
+
+  <!-- SCRIPT ENGINE -->
+  <script>
+    /**
+     * McCurdy Radio Industries ATS-100 Audio Transmission Test Set
+     * Dual Analog VU & Peak/dB Panel Meters with Realtime Web Audio Engine
+     */
+    (function () {
+      const SVG_NS = 'http://www.w3.org/2000/svg';
+
+      // Meter Geometry (viewBox="0 0 840 336")
+      const LEFT_PIVOT = { x: 200, y: 248 };
+      const RIGHT_PIVOT = { x: 640, y: 248 };
+      const ARC_RADIUS = 172;
+
+      // Ballistics & Generator State
+      const state = {
+        signalSource: '1000',    // '1000' | '400' | '100' | '5000' | 'pink' | 'program' | 'off' | 'mic' | 'file'
+        inputDb: 0.0,            // -24.0 to +4.0 dB
+        attenuatorStep: 15,      // 0..30 (0 dB reference at step 15)
+        rangeMode: 'low',        // 'low' (-50 to +10) | 'high' (-30 to +30)
+        leftTrimDb: 0.0,         // Trimmer screw mechanical offset (-3 to +3 dB)
+        rightTrimDb: 0.0,        // Trimmer screw mechanical offset (-3 to +3 dB)
+        
+        // 2nd-order mechanical VU needle dynamics (mass, spring, damping)
+        vuAngle: -44.0,
+        vuVelocity: 0.0,
+
+        // Peak / PPM needle dynamics (fast attack, logarithmic release)
+        ppmAngle: -44.0,
+
+        audioActive: false,
+        viewMode: 'dual'         // 'dual' | 'rack'
+      };
+
+      // DOM Elements
+      const vuNeedleEl = document.getElementById('vu-needle');
+      const ppmNeedleEl = document.getElementById('ppm-needle');
+      const leftScrewRotor = document.getElementById('left-screw-rotor');
+      const rightScrewRotor = document.getElementById('right-screw-rotor');
+      const leftTrimEl = document.getElementById('left-trim-screw');
+      const rightTrimEl = document.getElementById('right-trim-screw');
+      const faderEl = document.getElementById('input-level-fader');
+      const readoutFaderDb = document.getElementById('readout-fader-db');
+      const readoutVu = document.getElementById('readout-vu');
+      const readoutDbm = document.getElementById('readout-dbm');
+      const rackLedRange = document.getElementById('rackLedRange');
+      const rackAttenReadout = document.getElementById('rackAttenReadout');
+      const knobRotator = document.getElementById('knobRotator');
+      const attenuatorKnobContainer = document.getElementById('attenuatorKnobContainer');
+
+      // Containers
+      const containerDual = document.getElementById('container-dual-meters');
+      const containerRack = document.getElementById('container-rack-panel');
+      const btnViewDual = document.getElementById('btnViewDual');
+      const btnViewRack = document.getElementById('btnViewRack');
+
+      /**
+       * Populate Left Cream VU Scale (-20 to +3 VU & 0-100% Modulation)
+       */
+      function buildLeftVuScale() {
+        const container = document.getElementById('vu-ticks-container');
+
+        const vuTicks = [
+          { deg: -44.0, label: '-20', red: false, major: true },
+          { deg: -38.0, label: '',    red: false, major: false },
+          { deg: -32.0, label: '-10', red: false, major: true },
+          { deg: -27.5, label: '',    red: false, major: false },
+          { deg: -23.0, label: '-7',  red: false, major: true },
+          { deg: -19.0, label: '',    red: false, major: false },
+          { deg: -15.0, label: '-5',  red: false, major: true },
+          { deg: -11.0, label: '',    red: false, major: false },
+          { deg: -7.0,  label: '-3',  red: false, major: true },
+          { deg: -1.0,  label: '-2',  red: false, major: true },
+          { deg: 5.0,   label: '-1',  red: false, major: true },
+          { deg: 11.5,  label: '0',   red: false, major: true },
+          { deg: 21.5,  label: '+1',  red: true,  major: true },
+          { deg: 31.5,  label: '+2',  red: true,  major: true },
+          { deg: 42.0,  label: '+3',  red: true,  major: true }
+        ];
+
+        vuTicks.forEach((t) => {
+          const g = document.createElementNS(SVG_NS, 'g');
+          g.setAttribute('transform', `translate(${LEFT_PIVOT.x}, ${LEFT_PIVOT.y}) rotate(${t.deg})`);
+          const strokeColor = t.red ? '#c82824' : '#221e1a';
+
+          const line = document.createElementNS(SVG_NS, 'line');
+          line.setAttribute('x1', '0');
+          line.setAttribute('y1', t.red ? String(-(ARC_RADIUS + 2.5)) : String(-ARC_RADIUS));
+          line.setAttribute('x2', '0');
+          line.setAttribute('y2', t.major ? String(-(ARC_RADIUS + 11.5)) : String(-(ARC_RADIUS + 6.5)));
+          line.setAttribute('stroke', strokeColor);
+          line.setAttribute('stroke-width', t.major ? '1.75' : '1.2');
+          g.appendChild(line);
+
+          if (t.label) {
+            const text = document.createElementNS(SVG_NS, 'text');
+            text.setAttribute('x', '0');
+            text.setAttribute('y', String(-(ARC_RADIUS + 17.5)));
+            text.setAttribute('font-size', '13.5');
+            text.setAttribute('font-weight', '700');
+            text.setAttribute('fill', strokeColor);
+            text.setAttribute('text-anchor', 'middle');
+            text.textContent = t.label;
+            g.appendChild(text);
+          }
+
+          container.appendChild(g);
+        });
+
+        // McCurdy Modulation Sub-scale: 0, 20, 40, 60, 80, 100% in RED
+        const pctMarks = [
+          { deg: -44.0, label: '0' },
+          { deg: -35.0, label: '20' },
+          { deg: -23.5, label: '40' },
+          { deg: -12.0, label: '60' },
+          { deg: -0.5,  label: '80' },
+          { deg: 11.5,  label: '100%' }
+        ];
+
+        pctMarks.forEach((p) => {
+          const g = document.createElementNS(SVG_NS, 'g');
+          g.setAttribute('transform', `translate(${LEFT_PIVOT.x}, ${LEFT_PIVOT.y}) rotate(${p.deg})`);
+
+          const tick = document.createElementNS(SVG_NS, 'line');
+          tick.setAttribute('x1', '0');
+          tick.setAttribute('y1', String(-ARC_RADIUS));
+          tick.setAttribute('x2', '0');
+          tick.setAttribute('y2', String(-(ARC_RADIUS - 6.5)));
+          tick.setAttribute('stroke', '#c82824');
+          tick.setAttribute('stroke-width', '1.3');
+          g.appendChild(tick);
+
+          const text = document.createElementNS(SVG_NS, 'text');
+          text.setAttribute('x', p.label === '100%' ? '5' : '0');
+          text.setAttribute('y', String(-(ARC_RADIUS - 19.5)));
+          text.setAttribute('font-size', '11.5');
+          text.setAttribute('font-weight', '700');
+          text.setAttribute('fill', '#c82824');
+          text.setAttribute('text-anchor', 'middle');
+          text.textContent = p.label;
+          g.appendChild(text);
+
+          container.appendChild(g);
+        });
+      }
+
+      /**
+       * Populate Right Matte Black Transmission dB Scale (-20 to +4 dB)
+       */
+      function buildRightPpmScale() {
+        const container = document.getElementById('ppm-ticks-container');
+
+        const ppmTicks = [
+          { deg: -44.0, label: '-20', amber: false, major: true },
+          { deg: -38.5, label: '',    amber: false, major: false },
+          { deg: -33.0, label: '-15', amber: false, major: true },
+          { deg: -28.0, label: '',    amber: false, major: false },
+          { deg: -23.0, label: '-10', amber: false, major: true },
+          { deg: -17.5, label: '',    amber: false, major: false },
+          { deg: -12.0, label: '-6',  amber: false, major: true },
+          { deg: -6.0,  label: '',    amber: false, major: false },
+          { deg: 0.0,   label: '-2',  amber: false, major: true },
+          { deg: 5.8,   label: '',    amber: false, major: false },
+          { deg: 11.5,  label: '0',   amber: false, major: true },
+          { deg: 21.5,  label: '+1',  amber: true,  major: true },
+          { deg: 31.5,  label: '+2',  amber: true,  major: true },
+          { deg: 42.0,  label: '+4',  amber: true,  major: true }
+        ];
+
+        ppmTicks.forEach((t) => {
+          const g = document.createElementNS(SVG_NS, 'g');
+          g.setAttribute('transform', `translate(${RIGHT_PIVOT.x}, ${RIGHT_PIVOT.y}) rotate(${t.deg})`);
+          const color = t.amber ? '#f3f4f6' : '#f1f5f9';
+
+          const line = document.createElementNS(SVG_NS, 'line');
+          line.setAttribute('x1', '0');
+          line.setAttribute('y1', t.amber ? String(-(ARC_RADIUS + 2.8)) : String(-ARC_RADIUS));
+          line.setAttribute('x2', '0');
+          line.setAttribute('y2', t.major ? String(-(ARC_RADIUS + 11.5)) : String(-(ARC_RADIUS + 6.5)));
+          line.setAttribute('stroke', t.amber ? '#eab308' : color);
+          line.setAttribute('stroke-width', t.major ? '1.75' : '1.25');
+          g.appendChild(line);
+
+          if (t.label) {
+            const text = document.createElementNS(SVG_NS, 'text');
+            text.setAttribute('x', '0');
+            text.setAttribute('y', String(-(ARC_RADIUS + 17.5)));
+            text.setAttribute('font-size', '13.5');
+            text.setAttribute('font-weight', '600');
+            text.setAttribute('fill', color);
+            text.setAttribute('text-anchor', 'middle');
+            text.textContent = t.label;
+            g.appendChild(text);
+          }
+
+          container.appendChild(g);
+        });
+      }
+
+      /**
+       * Map dB to Needle Deflection Angle (-44° to +43.5°)
+       */
+      function vuToAngle(db) {
+        if (db <= -24) return -45.5;
+        if (db <= -20) return -44.0 + (db + 20) * 0.375;
+        if (db <= 0) {
+          const norm = (db + 20) / 20;
+          return -44.0 + Math.pow(norm, 1.38) * 55.5;
+        }
+        return Math.min(44.5, 11.5 + db * 10.17);
+      }
+
+      function ppmToAngle(db) {
+        if (db <= -24) return -45.5;
+        if (db <= -20) return -44.0 + (db + 20) * 0.375;
+        if (db <= 0) {
+          const norm = (db + 20) / 20;
+          return -44.0 + Math.pow(norm, 1.24) * 55.5;
+        }
+        return Math.min(44.5, 11.5 + db * 7.65);
+      }
+
+      /**
+       * Update Trimmer Screw Visual Rotations
+       */
+      function updateTrimVisuals() {
+        const leftRot = -38 + state.leftTrimDb * 24;
+        const rightRot = 32 + state.rightTrimDb * 24;
+        leftScrewRotor.setAttribute('transform', `rotate(${leftRot.toFixed(1)})`);
+        rightScrewRotor.setAttribute('transform', `rotate(${rightRot.toFixed(1)})`);
+        leftTrimEl.setAttribute('aria-valuenow', state.leftTrimDb.toFixed(1));
+        rightTrimEl.setAttribute('aria-valuenow', state.rightTrimDb.toFixed(1));
+      }
+
+      /**
+       * Bind Interactive Zero Trimmer Drag & Scroll
+       */
+      function bindTrimmer(el, side) {
+        let dragging = false;
+        let startY = 0;
+        let startVal = 0;
+
+        el.addEventListener('pointerdown', (e) => {
+          e.preventDefault();
+          el.focus();
+          el.setPointerCapture(e.pointerId);
+          dragging = true;
+          startY = e.clientY;
+          startVal = side === 'left' ? state.leftTrimDb : state.rightTrimDb;
+        });
+
+        el.addEventListener('pointermove', (e) => {
+          if (!dragging) return;
+          const dy = startY - e.clientY;
+          const next = Math.max(-3, Math.min(3, startVal + dy * 0.04));
+          if (side === 'left') state.leftTrimDb = next;
+          else state.rightTrimDb = next;
+          updateTrimVisuals();
+        });
+
+        const endDrag = (e) => {
+          if (!dragging) return;
+          dragging = false;
+          try { el.releasePointerCapture(e.pointerId); } catch (_) {}
+        };
+
+        el.addEventListener('pointerup', endDrag);
+        el.addEventListener('pointercancel', endDrag);
+
+        el.addEventListener('wheel', (e) => {
+          e.preventDefault();
+          const delta = e.deltaY < 0 ? 0.25 : -0.25;
+          if (side === 'left') state.leftTrimDb = Math.max(-3, Math.min(3, state.leftTrimDb + delta));
+          else state.rightTrimDb = Math.max(-3, Math.min(3, state.rightTrimDb + delta));
+          updateTrimVisuals();
+        }, { passive: false });
+      }
+
+      /**
+       * Format dB Display String
+       */
+      function formatSigned(val, suffix) {
+        if (val <= -23.5) return `–∞ ${suffix}`;
+        const abs = Math.abs(val).toFixed(1);
+        if (val > 0.04) return `+${abs} ${suffix}`;
+        if (val < -0.04) return `–${abs} ${suffix}`;
+        return `0.0 ${suffix}`;
+      }
+
+      /**
+       * 31-Step Scalloped Attenuator Operations
+       */
+      function setAttenuatorStep(step) {
+        state.attenuatorStep = Math.max(0, Math.min(30, Math.round(step)));
+        const offsetDb = (state.attenuatorStep - 15) * 2;
+        const base = state.rangeMode === 'low' ? -50 : -30;
+        const currentCal = base + state.attenuatorStep * 2;
+        
+        // Knob Visual Rotation (337.5° / 30 steps = 11.25° per step)
+        const rot = -168.75 + state.attenuatorStep * 11.25;
+        knobRotator.setAttribute('transform', `rotate(${rot.toFixed(1)}, 80, 80)`);
+        
+        rackLedRange.textContent = (currentCal > 0 ? '+' : '') + currentCal;
+        rackAttenReadout.textContent = `${offsetDb > 0 ? '+' : ''}${offsetDb} dB Offset (Step ${state.attenuatorStep})`;
+      }
+
+      /**
+       * Interactive Knob Drag & Scroll
+       */
+      let knobDragging = false;
+      let knobStartX = 0;
+      let knobStartStep = 15;
+
+      attenuatorKnobContainer.addEventListener('pointerdown', (e) => {
+        e.preventDefault();
+        attenuatorKnobContainer.setPointerCapture(e.pointerId);
+        knobDragging = true;
+        knobStartX = e.clientX;
+        knobStartStep = state.attenuatorStep;
+      });
+
+      attenuatorKnobContainer.addEventListener('pointermove', (e) => {
+        if (!knobDragging) return;
+        const dx = e.clientX - knobStartX;
+        const stepDelta = Math.round(dx / 9);
+        setAttenuatorStep(knobStartStep + stepDelta);
+      });
+
+      const endKnobDrag = (e) => {
+        if (!knobDragging) return;
+        knobDragging = false;
+        try { attenuatorKnobContainer.releasePointerCapture(e.pointerId); } catch (_) {}
+      };
+      attenuatorKnobContainer.addEventListener('pointerup', endKnobDrag);
+      attenuatorKnobContainer.addEventListener('pointercancel', endKnobDrag);
+
+      attenuatorKnobContainer.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        setAttenuatorStep(state.attenuatorStep + (e.deltaY < 0 ? 1 : -1));
+      }, { passive: false });
+
+      // Range Multiplier Buttons
+      document.getElementById('btnRangeLow').addEventListener('click', () => {
+        state.rangeMode = 'low';
+        document.getElementById('btnRangeLow').className = 'px-3 py-1 text-xs font-mono font-bold rounded bg-blue-700 text-white shadow';
+        document.getElementById('btnRangeHigh').className = 'px-3 py-1 text-xs font-mono font-bold rounded bg-stone-400 text-stone-800 hover:bg-stone-300 transition';
+        setAttenuatorStep(state.attenuatorStep);
+      });
+
+      document.getElementById('btnRangeHigh').addEventListener('click', () => {
+        state.rangeMode = 'high';
+        document.getElementById('btnRangeHigh').className = 'px-3 py-1 text-xs font-mono font-bold rounded bg-blue-700 text-white shadow';
+        document.getElementById('btnRangeLow').className = 'px-3 py-1 text-xs font-mono font-bold rounded bg-stone-400 text-stone-800 hover:bg-stone-300 transition';
+        setAttenuatorStep(state.attenuatorStep);
+      });
+
+      // View Toggle
+      btnViewDual.addEventListener('click', () => {
+        containerDual.classList.remove('hidden');
+        containerRack.classList.add('hidden');
+        btnViewDual.className = 'px-3 py-1.5 rounded-md bg-blue-600 text-white shadow-sm transition';
+        btnViewRack.className = 'px-3 py-1.5 rounded-md text-neutral-400 hover:text-white transition';
+      });
+
+      btnViewRack.addEventListener('click', () => {
+        containerRack.classList.remove('hidden');
+        containerDual.classList.add('hidden');
+        btnViewRack.className = 'px-3 py-1.5 rounded-md bg-blue-600 text-white shadow-sm transition';
+        btnViewDual.className = 'px-3 py-1.5 rounded-md text-neutral-400 hover:text-white transition';
+      });
+
+      // Level Fader Input
+      faderEl.addEventListener('input', (e) => {
+        state.inputDb = parseFloat(e.target.value);
+        readoutFaderDb.textContent = formatSigned(state.inputDb, 'dB');
+        if (webAudio.gainNode) {
+          const lin = Math.pow(10, state.inputDb / 20);
+          webAudio.gainNode.gain.setTargetAtTime(lin, webAudio.ctx.currentTime, 0.02);
+        }
+      });
+
+      // Signal Generator Buttons
+      document.querySelectorAll('.sig-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const sig = btn.getAttribute('data-sig');
+          state.signalSource = sig;
+
+          document.querySelectorAll('.sig-btn').forEach((b) => {
+            const active = b === btn;
+            b.className = active
+              ? 'sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium bg-blue-600/30 text-blue-300 border border-blue-500/50 transition'
+              : 'sig-btn px-2.5 py-1 rounded text-xs font-mono font-medium text-neutral-400 hover:text-white transition';
+          });
+
+          updateSignalGenerator();
+        });
+      });
+
+      // Trimmer Reset
+      document.getElementById('btn-reset-trim').addEventListener('click', () => {
+        state.leftTrimDb = 0;
+        state.rightTrimDb = 0;
+        updateTrimVisuals();
+      });
+
+      // =======================================================================
+      // LIVE WEB AUDIO API ENGINE
+      // =======================================================================
+      const webAudio = {
+        ctx: null,
+        osc: null,
+        gainNode: null,
+        analyser: null,
+        noiseNode: null,
+        micStream: null,
+        micSource: null,
+        fileSource: null,
+        dataArray: null
+      };
+
+      function initWebAudio() {
+        if (webAudio.ctx) return;
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        webAudio.ctx = new AudioCtx();
+        webAudio.gainNode = webAudio.ctx.createGain();
+        webAudio.gainNode.gain.value = Math.pow(10, state.inputDb / 20);
+
+        webAudio.analyser = webAudio.ctx.createAnalyser();
+        webAudio.analyser.fftSize = 1024;
+        webAudio.analyser.smoothingTimeConstant = 0.0; // Raw instantaneous feed for our custom ballistics
+        webAudio.dataArray = new Float32Array(webAudio.analyser.fftSize);
+
+        webAudio.gainNode.connect(webAudio.analyser);
+        // Connect to destination at low volume for monitoring
+        const monitorGain = webAudio.ctx.createGain();
+        monitorGain.gain.value = 0.08;
+        webAudio.gainNode.connect(monitorGain);
+        monitorGain.connect(webAudio.ctx.destination);
+
+        state.audioActive = true;
+        document.getElementById('audioEngineStatusText').textContent = 'Audio Engine: Running';
+        updateSignalGenerator();
+      }
+
+      function stopCurrentSources() {
+        if (webAudio.osc) {
+          try { webAudio.osc.stop(); webAudio.osc.disconnect(); } catch (_) {}
+          webAudio.osc = null;
+        }
+        if (webAudio.noiseNode) {
+          try { webAudio.noiseNode.disconnect(); } catch (_) {}
+          webAudio.noiseNode = null;
+        }
+        if (webAudio.fileSource) {
+          try { webAudio.fileSource.stop(); webAudio.fileSource.disconnect(); } catch (_) {}
+          webAudio.fileSource = null;
+        }
+        if (webAudio.micSource) {
+          try { webAudio.micSource.disconnect(); } catch (_) {}
+          webAudio.micSource = null;
+        }
+      }
+
+      function updateSignalGenerator() {
+        if (!webAudio.ctx) return;
+        if (webAudio.ctx.state === 'suspended') {
+          webAudio.ctx.resume();
+        }
+        stopCurrentSources();
+
+        const src = state.signalSource;
+        if (src === 'off') return;
+
+        if (src === '1000' || src === '400' || src === '100' || src === '5000') {
+          const freq = parseFloat(src);
+          webAudio.osc = webAudio.ctx.createOscillator();
+          webAudio.osc.type = 'sine';
+          webAudio.osc.frequency.setValueAtTime(freq, webAudio.ctx.currentTime);
+          webAudio.osc.connect(webAudio.gainNode);
+          webAudio.osc.start();
+        } else if (src === 'pink') {
+          // 3-pole pink noise filter simulation
+          const bufferSize = webAudio.ctx.sampleRate * 2;
+          const noiseBuffer = webAudio.ctx.createBuffer(1, bufferSize, webAudio.ctx.sampleRate);
+          const output = noiseBuffer.getChannelData(0);
+          let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
+          for (let i = 0; i < bufferSize; i++) {
+            const white = Math.random() * 2 - 1;
+            b0 = 0.99886 * b0 + white * 0.0555179;
+            b1 = 0.99332 * b1 + white * 0.0750759;
+            b2 = 0.96900 * b2 + white * 0.1538520;
+            b3 = 0.86650 * b3 + white * 0.3104856;
+            b4 = 0.55000 * b4 + white * 0.5329522;
+            b5 = -0.7616 * b5 - white * 0.0168980;
+            output[i] = (b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362) * 0.11;
+            b6 = white * 0.115926;
+          }
+          const whiteNode = webAudio.ctx.createBufferSource();
+          whiteNode.buffer = noiseBuffer;
+          whiteNode.loop = true;
+          whiteNode.connect(webAudio.gainNode);
+          whiteNode.start();
+          webAudio.noiseNode = whiteNode;
+        }
+      }
+
+      // Audio Engine Toggle
+      document.getElementById('btnAudioEngineToggle').addEventListener('click', () => {
+        if (!webAudio.ctx) {
+          initWebAudio();
+        } else if (webAudio.ctx.state === 'running') {
+          webAudio.ctx.suspend();
+          document.getElementById('audioEngineStatusText').textContent = 'Audio Engine: Paused';
+        } else {
+          webAudio.ctx.resume();
+          document.getElementById('audioEngineStatusText').textContent = 'Audio Engine: Running';
+        }
+      });
+
+      // Microphone Input Toggle
+      const btnToggleMic = document.getElementById('btnToggleMic');
+      const micBtnText = document.getElementById('micBtnText');
+      btnToggleMic.addEventListener('click', async () => {
+        initWebAudio();
+        if (webAudio.micStream) {
+          webAudio.micStream.getTracks().forEach(t => t.stop());
+          webAudio.micStream = null;
+          stopCurrentSources();
+          micBtnText.textContent = 'Live Mic / Line-In';
+          btnToggleMic.classList.remove('bg-red-900/40', 'border-red-500/60');
+          state.signalSource = '1000';
+          updateSignalGenerator();
+          return;
+        }
+
+        try {
+          const stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+          webAudio.micStream = stream;
+          stopCurrentSources();
+          webAudio.micSource = webAudio.ctx.createMediaStreamSource(stream);
+          webAudio.micSource.connect(webAudio.gainNode);
+          state.signalSource = 'mic';
+          micBtnText.textContent = 'Mic Active (Tap to Stop)';
+          btnToggleMic.classList.add('bg-red-900/40', 'border-red-500/60');
+        } catch (err) {
+          alert('Microphone access could not be initialized: ' + err.message);
+        }
+      });
+
+      // Audio File Loader
+      const audioFileInput = document.getElementById('audioFileInput');
+      audioFileInput.addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+        initWebAudio();
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          webAudio.ctx.decodeAudioData(ev.target.result, (buf) => {
+            stopCurrentSources();
+            const src = webAudio.ctx.createBufferSource();
+            src.buffer = buf;
+            src.loop = true;
+            src.connect(webAudio.gainNode);
+            src.start();
+            webAudio.fileSource = src;
+            state.signalSource = 'file';
+          });
+        };
+        reader.readAsArrayBuffer(file);
+      });
+
+      // =======================================================================
+      // MATHEMATICAL BALLISTIC INTEGRATION LOOP
+      // =======================================================================
+      let lastTime = performance.now();
+      let lastDigitalUpdate = 0;
+
+      function animateMeters(now) {
+        const dt = Math.min(0.04, (now - lastTime) * 0.001);
+        lastTime = now;
+        const t = now * 0.001;
+
+        let liveRmsDb = -24;
+        let livePeakDb = -24;
+
+        if (webAudio.analyser && state.signalSource !== 'off' && state.signalSource !== 'program') {
+          webAudio.analyser.getFloatTimeDomainData(webAudio.dataArray);
+          let sumSquares = 0;
+          let peakAbs = 0;
+          for (let i = 0; i < webAudio.dataArray.length; i++) {
+            const v = webAudio.dataArray[i];
+            const abs = Math.abs(v);
+            if (abs > peakAbs) peakAbs = abs;
+            sumSquares += v * v;
+          }
+          const rms = Math.sqrt(sumSquares / webAudio.dataArray.length);
+          liveRmsDb = rms > 0.00001 ? 20 * Math.log10(rms * 1.414) : -24;
+          livePeakDb = peakAbs > 0.00001 ? 20 * Math.log10(peakAbs) : -24;
+        } else if (state.signalSource === 'program') {
+          // Synthetic broadcast speech cadence
+          const syllable = Math.sin(t * 4.3) * 0.45 + Math.sin(t * 7.1 + 1.1) * 0.30 + Math.cos(t * 11.7 + 0.4) * 0.25;
+          const phrase = Math.sin(t * 0.85) * 0.5 + 0.5;
+          const pauseGate = phrase < 0.16 ? -16 : 0;
+          const delta = syllable * 4.2 - (1 - phrase) * 5.5 + pauseGate;
+          const crestSpike = Math.max(0, Math.sin(t * 9.4) * Math.cos(t * 3.7)) * 3.5;
+          liveRmsDb = state.inputDb + delta;
+          livePeakDb = state.inputDb + delta + 1.4 + crestSpike;
+        } else if (state.signalSource === 'off') {
+          liveRmsDb = -24;
+          livePeakDb = -24;
+        } else {
+          liveRmsDb = state.inputDb;
+          livePeakDb = state.inputDb;
+        }
+
+        // Apply Mechanical Trimmer Offsets
+        const targetVuDb = Math.max(-24, Math.min(4.5, liveRmsDb + state.leftTrimDb));
+        const targetPpmDb = Math.max(-24, Math.min(4.5, livePeakDb + state.rightTrimDb));
+
+        const targetVuAngle = vuToAngle(targetVuDb);
+        const targetPpmAngle = ppmToAngle(targetPpmDb);
+
+        // 1. ANSI C16.5 2nd-Order Spring-Mass-Damper VU Differential Equation
+        // omega_n ≈ 14.5 rad/s, zeta ≈ 0.707 gives ~300ms rise time with 1.2% overshoot
+        const omega_n = 14.5;
+        const zeta = 0.72;
+        const springAccel = omega_n * omega_n * (targetVuAngle - state.vuAngle);
+        const dampingAccel = -2 * zeta * omega_n * state.vuVelocity;
+        const totalAccel = springAccel + dampingAccel;
+
+        state.vuVelocity += totalAccel * dt;
+        state.vuAngle += state.vuVelocity * dt;
+
+        // 2. High-Speed Attack / Logarithmic Decay Peak/PPM Dynamics
+        if (targetPpmAngle > state.ppmAngle) {
+          // 10ms fast rise time
+          const attackCoeff = 1.0 - Math.exp(-dt / 0.012);
+          state.ppmAngle += (targetPpmAngle - state.ppmAngle) * attackCoeff;
+        } else {
+          // Smooth 1.5s logarithmic decay
+          const decayCoeff = 1.0 - Math.exp(-dt / 1.4);
+          state.ppmAngle += (targetPpmAngle - state.ppmAngle) * decayCoeff;
+        }
+
+        // Apply needle rotations
+        vuNeedleEl.setAttribute('transform', `translate(${LEFT_PIVOT.x}, ${LEFT_PIVOT.y}) rotate(${state.vuAngle.toFixed(2)})`);
+        ppmNeedleEl.setAttribute('transform', `translate(${RIGHT_PIVOT.x}, ${RIGHT_PIVOT.y}) rotate(${state.ppmAngle.toFixed(2)})`);
+
+        // Refresh Digital Pill Readout at ~15 Hz
+        if (now - lastDigitalUpdate > 65) {
+          lastDigitalUpdate = now;
+          readoutVu.textContent = formatSigned(targetVuDb, 'VU');
+          readoutDbm.textContent = formatSigned(targetPpmDb, 'dBm');
+        }
+
+        requestAnimationFrame(animateMeters);
+      }
+
+      // Initialize Everything
+      buildLeftVuScale();
+      buildRightPpmScale();
+      updateTrimVisuals();
+      bindTrimmer(leftTrimEl, 'left');
+      bindTrimmer(rightTrimEl, 'right');
+      setAttenuatorStep(15);
+      readoutFaderDb.textContent = formatSigned(0, 'dB');
+
+      // Auto-launch animation loop
+      requestAnimationFrame(animateMeters);
+
+      // Pre-warm audio engine on first click anywhere
+      window.addEventListener('click', () => {
+        if (!webAudio.ctx) initWebAudio();
+      }, { once: true });
+    })();
+  </script>
+</body>
+</html>
