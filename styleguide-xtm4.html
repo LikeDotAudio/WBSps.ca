@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ward-Beck Systems (WBS) XTM-4 Series — Interactive Styleguide &amp; Meter Specification</title>
+  <style>
+    :root {
+      --bg-void: #0b0d10;
+      --bg-panel: #13171d;
+      --bg-elevated: #1a2029;
+      --border-subtle: #252e3b;
+      --border-strong: #3b495d;
+
+      /* Ward-Beck.com Signature Colors */
+      --wbs-green-bright: #22c55e;
+      --wbs-green-mid: #16a34a;
+      --wbs-green-plate: #15803d;
+      --wbs-canvas-dark: #0f1114;
+
+      /* Vintage Ward-Beck.ca Slate-Blue Baked Enamel */
+      --wbs-slate-light: #51768c;
+      --wbs-slate-mid: #375466;
+      --wbs-slate-dark: #2c4454;
+      --wbs-slate-deep: #19232b;
+
+      /* McCurdy Radio ATS-100 Tokens */
+      --mc-cream-light: #ece7db;
+      --mc-cream-base: #dedad0;
+      --mc-navy-dark: #0d172a;
+
+      /* Meter Dial Lamp & Glass Radiance */
+      --lamp-amber-warm: #fde047;
+      --lamp-amber-glow: #eab308;
+      --lamp-parchment: #fef3c7;
+      --lamp-white-led: #f8fafc;
+      --dial-ppm-black: #111317;
+      --scale-ppm-yellow: #facc15;
+      --needle-red: #dc2626;
+
+      /* Telemetry, VFD & Phase LEDs */
+      --vfd-amber-on: #fbbf24;
+      --vfd-amber-off: #2e230d;
+      --led-phase-green: #22c55e;
+      --led-phase-amber: #f59e0b;
+      --led-phase-red: #ef4444;
+
+      /* Typography & Layout */
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-void);
+      color: var(--text-primary);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Sticky Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(11, 13, 16, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 1rem 2rem;
+    }
+
+    .header-inner {
+      max-width: 1360px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand-cluster {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .wbs-badge {
+      border: 3px solid var(--wbs-green-bright);
+      border-radius: 12px;
+      padding: 0.2rem 1.1rem;
+      font-size: 1.65rem;
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: 3px;
+      line-height: 1.1;
+      color: var(--wbs-green-bright);
+      user-select: none;
+    }
+
+    .title-block h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+
+    .title-block p {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+
+    nav.toc {
+      display: flex;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+    }
+
+    nav.toc a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      padding: 0.45rem 0.75rem;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+
+    nav.toc a:hover {
+      color: var(--text-primary);
+      background: var(--bg-elevated);
+      border-color: var(--border-subtle);
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+    }
+
+    .section-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0.65rem;
+      margin-bottom: 1.5rem;
+      gap: 0.5rem;
+    }
+
+    .section-header h2 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      color: var(--wbs-green-bright);
+      text-transform: uppercase;
+    }
+
+    .section-header span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Palette Swatches */
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .swatch-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .swatch-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-strong);
+    }
+
+    .swatch-preview {
+      height: 96px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .copy-pill {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      padding: 0.25rem 0.6rem;
+      border-radius: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+    }
+
+    .swatch-card:hover .copy-pill {
+      opacity: 1;
+    }
+
+    .swatch-meta {
+      padding: 0.85rem 1rem;
+    }
+
+    .swatch-meta h3 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .swatch-meta code {
+      font-size: 0.78rem;
+      color: var(--wbs-green-bright);
+      font-family: monospace;
+      font-weight: 600;
+    }
+
+    .swatch-meta p {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    /* 2-Column Specs */
+    .spec-two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .spec-two-col {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .spec-box {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+
+    .spec-box h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      color: var(--text-primary);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .type-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 0.85rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .type-row:last-child {
+      border-bottom: none;
+    }
+
+    .type-sample {
+      color: var(--text-primary);
+    }
+
+    .type-info {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      text-align: right;
+    }
+
+    /* Interactive Simulation Stage */
+    .stage-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .stage-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .toolbar-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .toolbar-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-secondary);
+      margin-right: 0.25rem;
+    }
+
+    .state-btn {
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 5px;
+      padding: 0.4rem 0.8rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .state-btn:hover {
+      color: var(--text-primary);
+      border-color: var(--border-strong);
+    }
+
+    .state-btn.active {
+      background: var(--wbs-green-bright);
+      color: #051308;
+      border-color: var(--wbs-green-bright);
+    }
+
+    .meter-display-wrap {
+      width: 100%;
+      background: #060709;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      overflow-x: auto;
+    }
+
+    .meter-svg {
+      max-width: 100%;
+      height: auto;
+      filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.75));
+    }
+
+    /* Rules Grid */
+    .rules-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .rule-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .rule-card.highlight {
+      border-color: var(--wbs-green-bright);
+      background: linear-gradient(180deg, rgba(34, 197, 94, 0.08) 0%, var(--bg-panel) 100%);
+    }
+
+    .rule-card h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .rule-card p {
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    .rule-footnote {
+      margin-top: 1.25rem;
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      font-family: monospace;
+    }
+
+    /* Code Panel */
+    .code-panel {
+      background: #080a0d;
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .code-header {
+      background: var(--bg-panel);
+      padding: 0.65rem 1.25rem;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78rem;
+      font-family: monospace;
+      color: var(--text-secondary);
+    }
+
+    pre {
+      padding: 1.25rem;
+      font-family: Consolas, Monaco, "Lucida Console", monospace;
+      font-size: 0.82rem;
+      color: #cbd5e1;
+      overflow-x: auto;
+      line-height: 1.6;
+    }
+
+    /* Toast Notification */
+    #toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--wbs-green-bright);
+      color: #06150a;
+      font-weight: 700;
+      font-size: 0.82rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 1000;
+    }
+
+    #toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      background: #090b0e;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- STICKY HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="brand-cluster">
+        <div class="wbs-badge">WBS</div>
+        <div class="title-block">
+          <h1>Ward-Beck Systems XTM-4 Series</h1>
+          <p>Interactive Design System, Meter Ballistics &amp; Hardware Styleguide</p>
+        </div>
+      </div>
+      <nav class="toc">
+        <a href="#palette">01 Palette</a>
+        <a href="#typography">02 Typography &amp; Scale</a>
+        <a href="#meter-bridge">03 Meter Bridge</a>
+        <a href="#rules">04 Design Rules</a>
+        <a href="#tokens">05 Tokens</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 01 PALETTE -->
+    <section id="palette">
+      <div class="section-header">
+        <h2>01 / Hardware Surfaces, Dials &amp; Telemetry Palette</h2>
+        <span>Click any swatch to copy hex token</span>
+      </div>
+
+      <div class="swatch-grid">
+        <div class="swatch-card" data-copy="#22C55E">
+          <div class="swatch-preview" style="background: #22C55E;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Ward-Beck Green</h3>
+            <code>#22C55E</code>
+            <p>Channel frame &amp; brand accent</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#15803D">
+          <div class="swatch-preview" style="background: linear-gradient(180deg, #16A34A, #15803D, #166534);">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Green Centre Plate</h3>
+            <code>#15803D</code>
+            <p>Signature scalloped panel</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#0F1114">
+          <div class="swatch-preview" style="background: #0F1114;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Chassis Deep Void</h3>
+            <code>#0F1114</code>
+            <p>Main equipment faceplate</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#375466">
+          <div class="swatch-preview" style="background: linear-gradient(180deg, #436478, #375466, #2C4454);">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Petrol Slate Blue</h3>
+            <code>#375466</code>
+            <p>Ward-Beck.ca baked enamel</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#FDE047">
+          <div class="swatch-preview" style="background: linear-gradient(135deg, #FFFBEB, #FEF08A, #FDE047);">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Incandescent Amber</h3>
+            <code>#FDE047</code>
+            <p>VU dial backlight illumination</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#FEF3C7">
+          <div class="swatch-preview" style="background: #FEF3C7;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Parchment Dial</h3>
+            <code>#FEF3C7</code>
+            <p>Classic warm paper meter face</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#111317">
+          <div class="swatch-preview" style="background: #111317; border: 1px solid #333;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>European Black PPM</h3>
+            <code>#111317</code>
+            <p>High-contrast peak meter dial</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#FACC15">
+          <div class="swatch-preview" style="background: #FACC15;">
+            <span class="copy-pill">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>PPM Yellow Scale</h3>
+            <code>#FACC15</code>
+            <p>PPM -12 to +12dB ticks</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#F59E0B">
+          <div class="swatch-preview" style="background: #1F1607;">
+            <div style="width:18px;height:18px;border-radius:4px;background:#F59E0B;box-shadow:0 0 10px #F59E0B;"></div>
+            <span class="copy-pill" style="position:absolute;bottom:8px;">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>Dot Matrix VFD</h3>
+            <code>#F59E0B</code>
+            <p>Amber 5x7 alpha readout</p>
+          </div>
+        </div>
+
+        <div class="swatch-card" data-copy="#EF4444">
+          <div class="swatch-preview" style="background: #250A0A;">
+            <div style="width:18px;height:18px;border-radius:50%;background:#EF4444;box-shadow:0 0 12px #EF4444;"></div>
+            <span class="copy-pill" style="position:absolute;bottom:8px;">COPY HEX</span>
+          </div>
+          <div class="swatch-meta">
+            <h3>180° Out of Phase</h3>
+            <code>#EF4444</code>
+            <p>Correlation fault red LED</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 TYPOGRAPHY & SCALE ANATOMY -->
+    <section id="typography">
+      <div class="section-header">
+        <h2>02 / Panel Silkscreen Hierarchy &amp; Dial Calibrations</h2>
+        <span>Broadcast typography &amp; ballistic scale standards</span>
+      </div>
+
+      <div class="spec-two-col">
+        <div class="spec-box">
+          <h3>Silkscreen Typography Scale</h3>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:1.15rem;font-weight:900;letter-spacing:3px;">LEFT / RIGHT</div>
+            <div class="type-info">Channel Headers • Arial Narrow 900 18pt</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:1.0rem;font-weight:800;letter-spacing:1.5px;">MODE • SOURCE • DOWN • UP</div>
+            <div class="type-info">Switch Engravings • Helvetica Bold 10pt</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:0.95rem;font-weight:700;letter-spacing:0.8px;">0° · · · · · · · · 180°</div>
+            <div class="type-info">Phase Correlation • Sans Bold 9pt</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:0.9rem;font-weight:800;letter-spacing:0.5px;">–20  –10  –7  –5  –3  –1  0  +1  +2  +3</div>
+            <div class="type-info">ANSI VU Scale • DIN / Sifam Calibrated</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample" style="font-size:0.9rem;font-weight:800;letter-spacing:0.5px;">–12  –8  –4  0  +4  +8  +12</div>
+            <div class="type-info">European PPM • BBC Type II / Nordic</div>
+          </div>
+        </div>
+
+        <div class="spec-box">
+          <h3>Meter Dial Anatomy &amp; Radius</h3>
+          <div class="type-row">
+            <div class="type-sample">Meter Active Window</div>
+            <div class="type-info"><strong>MW: 620px × MH: 340px</strong> (rx: 28px)</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample">Pivot Origin (Needle Axis)</div>
+            <div class="type-info"><strong>cx: 310px, cy: 388px</strong> (Below Lower Rim)</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample">Scale Arc Radius (R)</div>
+            <div class="type-info"><strong>R: 290px</strong> (Center Arc Sweep)</div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample">Ballistic Sweep Angle</div>
+            <div class="type-info"><strong>–42.5° (Rest / –20dB) to +46.5° (+3dB)</strong></div>
+          </div>
+          <div class="type-row">
+            <div class="type-sample">Zero-Deflection 0 VU Angle</div>
+            <div class="type-info"><strong>+21.2°</strong> (Reference Calibration)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 METER BRIDGE SIMULATION -->
+    <section id="meter-bridge">
+      <div class="section-header">
+        <h2>03 / Interactive Meter Bridge Simulation (NO METER COVERS)</h2>
+        <span>Authentic Ward-Beck open-aperture geometry • Live skin &amp; ballistic switching</span>
+      </div>
+
+      <div class="stage-card">
+        <div class="stage-toolbar">
+          <div class="toolbar-group">
+            <span class="toolbar-label">Chassis Skin:</span>
+            <button class="state-btn active" id="btnSkinWbsCom" onclick="setBridgeSkin('wbs-com')">Ward-Beck.com (Modern)</button>
+            <button class="state-btn" id="btnSkinWbsCa" onclick="setBridgeSkin('wbs-ca')">Ward-Beck.ca (Slate Blue)</button>
+            <button class="state-btn" id="btnSkinMcCurdy" onclick="setBridgeSkin('mccurdy')">McCurdy ATS-100</button>
+          </div>
+
+          <div class="toolbar-group">
+            <span class="toolbar-label">Lamp Backlight:</span>
+            <button class="state-btn active" id="btnLampAmber" onclick="setDialLamp('amber')">Amber Glow</button>
+            <button class="state-btn" id="btnLampParchment" onclick="setDialLamp('parchment')">Parchment</button>
+            <button class="state-btn" id="btnLampWhite" onclick="setDialLamp('white')">White LED</button>
+          </div>
+
+          <div class="toolbar-group">
+            <span class="toolbar-label">Signal Level:</span>
+            <button class="state-btn" onclick="animateSignal(-10)">–10 VU</button>
+            <button class="state-btn active" onclick="animateSignal(0)">0 VU (Ref)</button>
+            <button class="state-btn" onclick="animateSignal(2)">+2 VU</button>
+            <button class="state-btn" onclick="animateSignal(3)">+3 VU Peak</button>
+          </div>
+        </div>
+
+        <div class="meter-display-wrap">
+          <svg id="bridgeSvg" class="meter-svg" viewBox="0 0 1756 220" width="1400" height="175" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <!-- Chassis Backgrounds -->
+              <linearGradient id="gSlateChassis" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#436478"/>
+                <stop offset="50%" stop-color="#375466"/>
+                <stop offset="100%" stop-color="#2c4454"/>
+              </linearGradient>
+
+              <!-- Center Plate Gradient -->
+              <linearGradient id="gCenterPlate" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#22c55e"/>
+                <stop offset="60%" stop-color="#16a34a"/>
+                <stop offset="100%" stop-color="#15803d"/>
+              </linearGradient>
+
+              <!-- Meter Dial Illumination Gradients -->
+              <radialGradient id="gDialAmber" cx="50%" cy="40%" r="65%">
+                <stop offset="0%" stop-color="#ffffff"/>
+                <stop offset="25%" stop-color="#fff8d6"/>
+                <stop offset="65%" stop-color="#fde047"/>
+                <stop offset="100%" stop-color="#eab308"/>
+              </radialGradient>
+              <radialGradient id="gDialParchment" cx="50%" cy="40%" r="65%">
+                <stop offset="0%" stop-color="#ffffff"/>
+                <stop offset="40%" stop-color="#fef3c7"/>
+                <stop offset="85%" stop-color="#fde68a"/>
+                <stop offset="100%" stop-color="#d4c89a"/>
+              </radialGradient>
+              <radialGradient id="gDialWhite" cx="50%" cy="40%" r="65%">
+                <stop offset="0%" stop-color="#ffffff"/>
+                <stop offset="60%" stop-color="#f1f5f9"/>
+                <stop offset="100%" stop-color="#cbd5e1"/>
+              </radialGradient>
+
+              <!-- Recess Shadow Overlay -->
+              <linearGradient id="gRecessTop" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#000000" stop-opacity="0.6"/>
+                <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+              </linearGradient>
+
+              <!-- Clip Path for Rounded Meter Apertures -->
+              <clipPath id="meterClipL1"><rect x="30" y="20" width="360" height="180" rx="16"/></clipPath>
+              <clipPath id="meterClipL2"><rect x="420" y="20" width="360" height="180" rx="16"/></clipPath>
+              <clipPath id="meterClipR1"><rect x="976" y="20" width="360" height="180" rx="16"/></clipPath>
+              <clipPath id="meterClipR2"><rect x="1366" y="20" width="360" height="180" rx="16"/></clipPath>
+            </defs>
+
+            <!-- Main Chassis Background -->
+            <rect id="chassisBg" x="0" y="0" width="1756" height="220" rx="8" fill="#0f1114" stroke="#1f2937" stroke-width="2"/>
+
+            <!-- Ward-Beck.com Signature Green Channel Frames -->
+            <g id="wbsFrames">
+              <path d="M 370 212 H 24 A 10 10 0 0 1 14 202 V 18 A 10 10 0 0 1 24 8 H 790 A 10 10 0 0 1 800 18 V 202 A 10 10 0 0 1 790 212 H 450" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.9"/>
+              <text x="410" y="212" dominant-baseline="central" font-size="14" font-weight="900" fill="#22c55e" text-anchor="middle" letter-spacing="2">LEFT</text>
+
+              <path d="M 1326 212 H 966 A 10 10 0 0 1 956 202 V 18 A 10 10 0 0 1 966 8 H 1732 A 10 10 0 0 1 1742 18 V 202 A 10 10 0 0 1 1732 212 H 1406" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.9"/>
+              <text x="1366" y="212" dominant-baseline="central" font-size="14" font-weight="900" fill="#22c55e" text-anchor="middle" letter-spacing="2">RIGHT</text>
+            </g>
+
+            <!-- ============================================== -->
+            <!-- METER 1 (Left Channel - VU 1)                  -->
+            <!-- ============================================== -->
+            <g clip-path="url(#meterClipL1)">
+              <rect id="dialL1" x="30" y="20" width="360" height="180" fill="url(#gDialAmber)"/>
+              <!-- Scale Arcs & Ticks -->
+              <path d="M 68 152 A 200 200 0 0 1 352 152" fill="none" stroke="#231f20" stroke-width="2.5"/>
+              <path d="M 288 152 A 200 200 0 0 1 352 152" fill="none" stroke="#dc2626" stroke-width="5"/>
+              <text x="75" y="140" font-size="11" font-weight="800" fill="#231f20">-20</text>
+              <text x="135" y="128" font-size="11" font-weight="800" fill="#231f20">-10</text>
+              <text x="210" y="124" font-size="11" font-weight="800" fill="#231f20">-5</text>
+              <text x="282" y="132" font-size="12" font-weight="900" fill="#dc2626">0</text>
+              <text x="345" y="146" font-size="11" font-weight="900" fill="#dc2626">+3</text>
+              <text x="210" y="90" font-size="14" font-weight="900" letter-spacing="1" fill="#231f20" text-anchor="middle">VU</text>
+              <!-- Needle -->
+              <line id="needle1" x1="210" y1="215" x2="282" y2="132" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round"/>
+              <rect x="30" y="20" width="360" height="40" fill="url(#gRecessTop)" pointer-events="none"/>
+            </g>
+            <!-- Clean Flush Rim (NO METER COVER) -->
+            <rect x="30" y="20" width="360" height="180" rx="16" fill="none" stroke="#000000" stroke-width="2.5"/>
+            <rect x="29" y="19" width="362" height="182" rx="17" fill="none" stroke="#2a3038" stroke-width="1.2"/>
+
+            <!-- ============================================== -->
+            <!-- METER 2 (Left Channel - VU 2)                  -->
+            <!-- ============================================== -->
+            <g clip-path="url(#meterClipL2)">
+              <rect id="dialL2" x="420" y="20" width="360" height="180" fill="url(#gDialAmber)"/>
+              <path d="M 458 152 A 200 200 0 0 1 742 152" fill="none" stroke="#231f20" stroke-width="2.5"/>
+              <path d="M 678 152 A 200 200 0 0 1 742 152" fill="none" stroke="#dc2626" stroke-width="5"/>
+              <text x="465" y="140" font-size="11" font-weight="800" fill="#231f20">-20</text>
+              <text x="525" y="128" font-size="11" font-weight="800" fill="#231f20">-10</text>
+              <text x="600" y="124" font-size="11" font-weight="800" fill="#231f20">-5</text>
+              <text x="672" y="132" font-size="12" font-weight="900" fill="#dc2626">0</text>
+              <text x="735" y="146" font-size="11" font-weight="900" fill="#dc2626">+3</text>
+              <text x="600" y="90" font-size="14" font-weight="900" letter-spacing="1" fill="#231f20" text-anchor="middle">VU</text>
+              <!-- Needle -->
+              <line id="needle2" x1="600" y1="215" x2="672" y2="132" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round"/>
+              <rect x="420" y="20" width="360" height="40" fill="url(#gRecessTop)" pointer-events="none"/>
+            </g>
+            <rect x="420" y="20" width="360" height="180" rx="16" fill="none" stroke="#000000" stroke-width="2.5"/>
+            <rect x="419" y="19" width="362" height="182" rx="17" fill="none" stroke="#2a3038" stroke-width="1.2"/>
+
+            <!-- ============================================== -->
+            <!-- CENTER CONTROLLER PLATE                         -->
+            <!-- ============================================== -->
+            <g id="centerPlateGroup">
+              <rect id="centerPlate" x="815" y="16" width="126" height="188" rx="8" fill="url(#gCenterPlate)" stroke="#166534" stroke-width="1.5"/>
+
+              <!-- Phase LED Row -->
+              <text x="826" y="32" font-size="9" font-weight="800" fill="#ffffff">0°</text>
+              <circle cx="848" cy="29" r="4" fill="#22c55e" filter="drop-shadow(0 0 3px #22c55e)"/>
+              <circle cx="859" cy="29" r="4" fill="#22c55e"/>
+              <circle cx="870" cy="29" r="4" fill="#22c55e"/>
+              <circle cx="881" cy="29" r="4" fill="#eab308"/>
+              <circle cx="892" cy="29" r="4" fill="#eab308"/>
+              <circle cx="903" cy="29" r="4" fill="#ef4444" opacity="0.3"/>
+              <circle cx="914" cy="29" r="4" fill="#ef4444" opacity="0.3"/>
+              <text x="926" y="32" font-size="9" font-weight="800" fill="#ffffff">180°</text>
+
+              <!-- Amber 5x7 Dot-Matrix Display -->
+              <rect x="827" y="44" width="102" height="34" rx="4" fill="#090a0c" stroke="#1f2937" stroke-width="1"/>
+              <text id="vfdText" x="878" y="68" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#f59e0b" letter-spacing="3" text-anchor="middle" filter="drop-shadow(0 0 4px #f59e0b)">0.0 VU</text>
+
+              <!-- 4 Pushbuttons (MODE / SOURCE / DOWN / UP) -->
+              <g transform="translate(827, 92)">
+                <text x="10" y="10" font-size="7.5" font-weight="800" fill="#ffffff" text-anchor="middle">MODE</text>
+                <rect x="0" y="15" width="20" height="68" rx="3" fill="#1e2530" stroke="#0f172a" stroke-width="1.2"/>
+                <line x1="1" y1="48" x2="19" y2="48" stroke="#334155" stroke-width="1"/>
+
+                <text x="37" y="10" font-size="7.5" font-weight="800" fill="#ffffff" text-anchor="middle">SOURCE</text>
+                <rect x="27" y="15" width="20" height="68" rx="3" fill="#1e2530" stroke="#0f172a" stroke-width="1.2"/>
+                <line x1="28" y1="48" x2="46" y2="48" stroke="#334155" stroke-width="1"/>
+
+                <text x="64" y="10" font-size="7.5" font-weight="800" fill="#ffffff" text-anchor="middle">DOWN</text>
+                <rect x="54" y="15" width="20" height="68" rx="3" fill="#1e2530" stroke="#0f172a" stroke-width="1.2"/>
+                <line x1="55" y1="48" x2="73" y2="48" stroke="#334155" stroke-width="1"/>
+
+                <text x="91" y="10" font-size="7.5" font-weight="800" fill="#ffffff" text-anchor="middle">UP</text>
+                <rect x="81" y="15" width="20" height="68" rx="3" fill="#1e2530" stroke="#0f172a" stroke-width="1.2"/>
+                <line x1="82" y1="48" x2="100" y2="48" stroke="#334155" stroke-width="1"/>
+              </g>
+            </g>
+
+            <!-- ============================================== -->
+            <!-- METER 3 (Right Channel - VU 1)                 -->
+            <!-- ============================================== -->
+            <g clip-path="url(#meterClipR1)">
+              <rect id="dialR1" x="976" y="20" width="360" height="180" fill="url(#gDialAmber)"/>
+              <path d="M 1014 152 A 200 200 0 0 1 1298 152" fill="none" stroke="#231f20" stroke-width="2.5"/>
+              <path d="M 1234 152 A 200 200 0 0 1 1298 152" fill="none" stroke="#dc2626" stroke-width="5"/>
+              <text x="1021" y="140" font-size="11" font-weight="800" fill="#231f20">-20</text>
+              <text x="1081" y="128" font-size="11" font-weight="800" fill="#231f20">-10</text>
+              <text x="1156" y="124" font-size="11" font-weight="800" fill="#231f20">-5</text>
+              <text x="1228" y="132" font-size="12" font-weight="900" fill="#dc2626">0</text>
+              <text x="1291" y="146" font-size="11" font-weight="900" fill="#dc2626">+3</text>
+              <text x="1156" y="90" font-size="14" font-weight="900" letter-spacing="1" fill="#231f20" text-anchor="middle">VU</text>
+              <line id="needle3" x1="1156" y1="215" x2="1228" y2="132" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round"/>
+              <rect x="976" y="20" width="360" height="40" fill="url(#gRecessTop)" pointer-events="none"/>
+            </g>
+            <rect x="976" y="20" width="360" height="180" rx="16" fill="none" stroke="#000000" stroke-width="2.5"/>
+            <rect x="975" y="19" width="362" height="182" rx="17" fill="none" stroke="#2a3038" stroke-width="1.2"/>
+
+            <!-- ============================================== -->
+            <!-- METER 4 (Right Channel - VU 2)                 -->
+            <!-- ============================================== -->
+            <g clip-path="url(#meterClipR2)">
+              <rect id="dialR2" x="1366" y="20" width="360" height="180" fill="url(#gDialAmber)"/>
+              <path d="M 1404 152 A 200 200 0 0 1 1688 152" fill="none" stroke="#231f20" stroke-width="2.5"/>
+              <path d="M 1624 152 A 200 200 0 0 1 1688 152" fill="none" stroke="#dc2626" stroke-width="5"/>
+              <text x="1411" y="140" font-size="11" font-weight="800" fill="#231f20">-20</text>
+              <text x="1471" y="128" font-size="11" font-weight="800" fill="#231f20">-10</text>
+              <text x="1546" y="124" font-size="11" font-weight="800" fill="#231f20">-5</text>
+              <text x="1618" y="132" font-size="12" font-weight="900" fill="#dc2626">0</text>
+              <text x="1681" y="146" font-size="11" font-weight="900" fill="#dc2626">+3</text>
+              <text x="1546" y="90" font-size="14" font-weight="900" letter-spacing="1" fill="#231f20" text-anchor="middle">VU</text>
+              <line id="needle4" x1="1546" y1="215" x2="1618" y2="132" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round"/>
+              <rect x="1366" y="20" width="360" height="40" fill="url(#gRecessTop)" pointer-events="none"/>
+            </g>
+            <rect x="1366" y="20" width="360" height="180" rx="16" fill="none" stroke="#000000" stroke-width="2.5"/>
+            <rect x="1365" y="19" width="362" height="182" rx="17" fill="none" stroke="#2a3038" stroke-width="1.2"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 ENGINEERING & DESIGN RULES -->
+    <section id="rules">
+      <div class="section-header">
+        <h2>04 / Broadcast Engineering &amp; Visual Design Rules</h2>
+        <span>Fundamental design principles governing Ward-Beck precision instruments</span>
+      </div>
+
+      <div class="rules-grid">
+        <div class="rule-card highlight">
+          <h3>1. NO METER COVERS</h3>
+          <p>Meter chambers must have completely open, unoccluded viewports. Never place dark tinted plastic covers, solid molded rectangles, or artificial bezels over the meter scales or needles. The dial faces, tick marks, and needle pointers must remain 100% visible at all angles.</p>
+          <div class="rule-footnote">Open Aperture • Clean Flush Rims • fill="none"</div>
+        </div>
+
+        <div class="rule-card">
+          <h3>2. Ballistics Compliance (ANSI vs IEC)</h3>
+          <p>VU meters follow ANSI C16.5 / IEC 60268-17: 300ms rise time to 99% with 1.0–1.5% overshoot. Peak Program Meters (PPM) follow IEC 60268-10 Type I (DIN 5ms attack) or Type II (BBC 10ms attack) with 2.8s/24dB recovery.</p>
+          <div class="rule-footnote">ANSI C16.5 VU • IEC 60268-10 DIN/BBC PPM</div>
+        </div>
+
+        <div class="rule-card">
+          <h3>3. Zero Reference Calibration</h3>
+          <p>Standard 0 VU reference corresponds to +4 dBu (1.228 Vrms into 600Ω). In digital broadcast workflows, 0 VU is calibrated to either –20 dBFS (SMPTE RP155) or –18 dBFS (EBU R68).</p>
+          <div class="rule-footnote">+4 dBu = 0 VU = -20 dBFS / -18 dBFS</div>
+        </div>
+
+        <div class="rule-card">
+          <h3>4. Phase Correlation Spectrum</h3>
+          <p>Phase correlation row consists of 8 calibrated segments: from +1.0 (0° full mono compatibility, green #22c55e) through 0.0 (90° independent stereo, amber #f59e0b) to –1.0 (180° total cancellation, red #ef4444).</p>
+          <div class="rule-footnote">Cosine Phase Spectrum: +1.0 to -1.0</div>
+        </div>
+
+        <div class="rule-card">
+          <h3>5. Authentic Ward-Beck Silkscreen</h3>
+          <p>Chassis typography uses high-legibility grotesk letterforms (Helvetica / DIN / Arial Narrow Bold). Legends are uppercase with expanded letter-spacing (0.8–2.0px) matching Toronto broadcast manufacturing heritage.</p>
+          <div class="rule-footnote">Ward-Beck Systems • Scarborough, Ontario</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 CSS & SVG DESIGN TOKENS -->
+    <section id="tokens">
+      <div class="section-header">
+        <h2>05 / Design System CSS Custom Properties</h2>
+        <span>Ready-to-use tokens for Ward-Beck &amp; McCurdy instruments</span>
+      </div>
+
+      <div class="code-panel">
+        <div class="code-header">
+          <span>wbs-xtm4-tokens.css</span>
+          <button class="state-btn" id="copyCssBtn">Copy Tokens</button>
+        </div>
+        <pre id="cssTokenCode">:root {
+  /* Ward-Beck.com Signature Branding */
+  --wbs-green-bright:   #22C55E;
+  --wbs-green-mid:      #16A34A;
+  --wbs-green-plate:    #15803D;
+  --wbs-canvas-void:    #0F1114;
+
+  /* Vintage Ward-Beck.ca Slate-Blue Baked Enamel */
+  --wbs-slate-light:    #51768C;
+  --wbs-slate-mid:      #375466;
+  --wbs-slate-dark:     #2C4454;
+  --wbs-slate-deep:     #19232B;
+
+  /* Meter Chamber & Backlight Palette */
+  --dial-lamp-amber:    #FDE047;
+  --dial-lamp-parch:    #FEF3C7;
+  --dial-lamp-white:    #F8FAFC;
+  --dial-ppm-black:     #111317;
+  --scale-ppm-yellow:   #FACC15;
+  --needle-red:         #DC2626;
+
+  /* Telemetry, VFD & Phase LEDs */
+  --vfd-amber-glow:     #F59E0B;
+  --led-phase-green:    #22C55E;
+  --led-phase-amber:    #F59E0B;
+  --led-phase-red:      #EF4444;
+
+  /* Meter Window Proportions & Radii */
+  --meter-window-width: 620px;
+  --meter-window-height: 340px;
+  --meter-corner-radius: 28px;
+  --meter-sweep-angle: 89deg;
+}</pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>WARD-BECK SYSTEMS LTD. • 841 PROGRESS AVENUE, SCARBOROUGH, ONTARIO, CANADA</span>
+    <span>XTM-4 EXTENDED RANGE TEST METER &amp; POD-22 • INTERACTIVE STYLEGUIDE</span>
+  </footer>
+
+  <div id="toast">Copied to clipboard</div>
+
+  <script>
+    const toast = document.getElementById('toast');
+    let toastTimer;
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), 1800);
+    }
+
+    // Swatch Click-to-Copy
+    document.querySelectorAll('.swatch-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const hex = card.dataset.copy;
+        navigator.clipboard?.writeText(hex);
+        showToast(`Copied ${hex}`);
+      });
+    });
+
+    // Copy CSS Tokens
+    document.getElementById('copyCssBtn').addEventListener('click', () => {
+      const code = document.getElementById('cssTokenCode').textContent;
+      navigator.clipboard?.writeText(code);
+      showToast('Copied CSS tokens to clipboard');
+    });
+
+    // Interactive Skin Switcher for Meter Bridge SVG
+    function setBridgeSkin(skin) {
+      document.querySelectorAll('#btnSkinWbsCom, #btnSkinWbsCa, #btnSkinMcCurdy').forEach(b => b.classList.remove('active'));
+      const chassis = document.getElementById('chassisBg');
+      const frames = document.getElementById('wbsFrames');
+      const plate = document.getElementById('centerPlate');
+
+      if (skin === 'wbs-com') {
+        document.getElementById('btnSkinWbsCom').classList.add('active');
+        chassis.setAttribute('fill', '#0f1114');
+        frames.style.display = 'inline';
+        plate.setAttribute('fill', 'url(#gCenterPlate)');
+        showToast('Switched to Ward-Beck.com Modern Green');
+      } else if (skin === 'wbs-ca') {
+        document.getElementById('btnSkinWbsCa').classList.add('active');
+        chassis.setAttribute('fill', 'url(#gSlateChassis)');
+        frames.style.display = 'none';
+        plate.setAttribute('fill', '#2c4454');
+        showToast('Switched to Ward-Beck.ca Vintage Slate Blue');
+      } else if (skin === 'mccurdy') {
+        document.getElementById('btnSkinMcCurdy').classList.add('active');
+        chassis.setAttribute('fill', '#dedad0');
+        frames.style.display = 'none';
+        plate.setAttribute('fill', '#0d172a');
+        showToast('Switched to McCurdy ATS-100 Classic Cream');
+      }
+    }
+
+    // Dial Lamp Switcher
+    function setDialLamp(lamp) {
+      document.querySelectorAll('#btnLampAmber, #btnLampParchment, #btnLampWhite').forEach(b => b.classList.remove('active'));
+      const dials = ['dialL1', 'dialL2', 'dialR1', 'dialR2'];
+
+      let grad = 'url(#gDialAmber)';
+      if (lamp === 'amber') {
+        document.getElementById('btnLampAmber').classList.add('active');
+        grad = 'url(#gDialAmber)';
+        showToast('Dial Backlight: Amber Glow');
+      } else if (lamp === 'parchment') {
+        document.getElementById('btnLampParchment').classList.add('active');
+        grad = 'url(#gDialParchment)';
+        showToast('Dial Backlight: Warm Parchment');
+      } else if (lamp === 'white') {
+        document.getElementById('btnLampWhite').classList.add('active');
+        grad = 'url(#gDialWhite)';
+        showToast('Dial Backlight: White LED');
+      }
+
+      dials.forEach(id => {
+        document.getElementById(id).setAttribute('fill', grad);
+      });
+    }
+
+    // Signal Level Animator
+    function animateSignal(vu) {
+      const vfd = document.getElementById('vfdText');
+      if (vfd) vfd.textContent = (vu > 0 ? '+' : '') + vu.toFixed(1) + ' VU';
+
+      // Map VU to needle coordinates
+      const needleCoords = {
+        '-10': [135, 128],
+        '0': [282, 132],
+        '2': [325, 138],
+        '3': [345, 146]
+      };
+
+      const [xOffset, yOffset] = needleCoords[String(vu)] || [282, 132];
+      const deltaX = xOffset - 210;
+
+      document.getElementById('needle1').setAttribute('x2', String(210 + deltaX));
+      document.getElementById('needle1').setAttribute('y2', String(yOffset));
+
+      document.getElementById('needle2').setAttribute('x2', String(600 + deltaX));
+      document.getElementById('needle2').setAttribute('y2', String(yOffset));
+
+      document.getElementById('needle3').setAttribute('x2', String(1156 + deltaX));
+      document.getElementById('needle3').setAttribute('y2', String(yOffset));
+
+      document.getElementById('needle4').setAttribute('x2', String(1546 + deltaX));
+      document.getElementById('needle4').setAttribute('y2', String(yOffset));
+
+      showToast(`Signal Deflection: ${vu > 0 ? '+' : ''}${vu} VU`);
+    }
+  </script>
+</body>
+</html>

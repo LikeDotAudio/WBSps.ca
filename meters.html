@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ward-Beck Systems • Dual Analog VU &amp; Peak/dB Panel Meters</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-void: #0e1013;
+      --bg-chassis: #16181c;
+      --bg-elevated: #21242b;
+      --border-subtle: #2d323b;
+      --border-strong: #444a56;
+
+      /* Authentic Ward-Beck Systems Hardware Tokens */
+      --wbs-alu-light: #d8d6c9;
+      --wbs-alu-base: #c6c3b3;
+      --wbs-alu-dark: #b1ad9b;
+      --wbs-milled-lip: #8c897b;
+      --wbs-ink: #222322;
+      --wbs-bakelite: #141517;
+
+      /* Indicator LED Tokens */
+      --led-red: #d93829;
+      --led-green: #28a745;
+      --led-amber: #e5a91a;
+
+      /* Text Tokens */
+      --text-primary: #f3efe6;
+      --text-secondary: #9ea3ab;
+      --text-muted: #656972;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-void);
+      background-image: 
+        radial-gradient(circle at 50% 20%, #1e2127 0%, #111317 65%, #090a0d 100%),
+        radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 0);
+      background-size: 100% 100%, 18px 18px;
+      color: var(--text-primary);
+      user-select: none;
+      -webkit-user-select: none;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1.5rem 1rem 3rem;
+    }
+
+    .font-mono-tech {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* WBS Badge */
+    .wbs-badge {
+      display: inline-block;
+      border: 2.5px solid var(--text-primary);
+      border-radius: 9px;
+      padding: 0.15rem 0.75rem;
+      font-size: 1.25rem;
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: 2.5px;
+      line-height: 1.05;
+      user-select: none;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    }
+
+    /* Custom studio fader styling */
+    input[type="range"].studio-fader {
+      -webkit-appearance: none;
+      appearance: none;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    input[type="range"].studio-fader::-webkit-slider-runnable-track {
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #334155 0%, #475569 70%, #eab308 82%, #dc2626 100%);
+      border: 1px solid #0f172a;
+    }
+
+    input[type="range"].studio-fader::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 16px;
+      height: 22px;
+      border-radius: 4px;
+      background: linear-gradient(180deg, #f8fafc 0%, #cbd5e1 50%, #94a3b8 100%);
+      border: 1px solid #0f172a;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+      margin-top: -9px;
+    }
+
+    input[type="range"].studio-fader::-moz-range-track {
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #334155 0%, #475569 70%, #eab308 82%, #dc2626 100%);
+      border: 1px solid #0f172a;
+    }
+
+    input[type="range"].studio-fader::-moz-range-thumb {
+      width: 16px;
+      height: 22px;
+      border-radius: 4px;
+      background: linear-gradient(180deg, #f8fafc 0%, #cbd5e1 50%, #94a3b8 100%);
+      border: 1px solid #0f172a;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .trim-screw-interactive {
+      cursor: ns-resize;
+      touch-action: none;
+    }
+
+    .interactive-pot {
+      cursor: pointer;
+    }
+    .interactive-pot:hover circle {
+      stroke: #ffffff;
+    }
+
+    /* Subtle Lamp Glow overlay */
+    .lamp-glow-on {
+      mix-blend-mode: color-dodge;
+      opacity: 0.65;
+      transition: opacity 0.35s ease;
+    }
+    .lamp-glow-off {
+      opacity: 0;
+      transition: opacity 0.35s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hidden SVG Shared Definitions -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <!-- Anodized Aluminum Plate -->
+      <linearGradient id="wbsAluPlate" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#D8D6C9" />
+        <stop offset="45%" stop-color="#C6C3B3" />
+        <stop offset="100%" stop-color="#B1AD9B" />
+      </linearGradient>
+
+      <!-- Extrusion Milled Edge Bevel -->
+      <linearGradient id="wbsExtrusionBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#EBE8DE" />
+        <stop offset="35%" stop-color="#C6C3B3" />
+        <stop offset="100%" stop-color="#8C897B" />
+      </linearGradient>
+
+      <!-- Molded Bakelite Bezel Outer Gradient -->
+      <linearGradient id="bezelMoldedGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#2a2c32" />
+        <stop offset="6%" stop-color="#1e2025" />
+        <stop offset="50%" stop-color="#16171a" />
+        <stop offset="94%" stop-color="#121316" />
+        <stop offset="100%" stop-color="#0a0b0d" />
+      </linearGradient>
+
+      <!-- Bezel Inner Recessed Step Bevel -->
+      <linearGradient id="bezelInnerStepGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#0b0c0e" />
+        <stop offset="85%" stop-color="#1a1c20" />
+        <stop offset="100%" stop-color="#2e3137" />
+      </linearGradient>
+
+      <!-- Left Meter: Bach-Simpson Warm Vintage Cream Dial -->
+      <radialGradient id="vuCreamDial" cx="50%" cy="66%" r="72%">
+        <stop offset="0%" stop-color="#f7f1dd" />
+        <stop offset="62%" stop-color="#eae0c2" />
+        <stop offset="100%" stop-color="#d9cea7" />
+      </radialGradient>
+
+      <!-- Right Meter: Deep Matte Black Dial Face -->
+      <radialGradient id="ppmBlackDial" cx="50%" cy="62%" r="70%">
+        <stop offset="0%" stop-color="#24262b" />
+        <stop offset="68%" stop-color="#16181b" />
+        <stop offset="100%" stop-color="#0d0e10" />
+      </radialGradient>
+
+      <!-- Warm Incandescent Dial Lamp Glow -->
+      <radialGradient id="lampGlowVU" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#ffe8a3" stop-opacity="0.8" />
+        <stop offset="50%" stop-color="#ffcc66" stop-opacity="0.3" />
+        <stop offset="100%" stop-color="#ffaa00" stop-opacity="0" />
+      </radialGradient>
+
+      <radialGradient id="lampGlowPPM" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#ffdc88" stop-opacity="0.65" />
+        <stop offset="50%" stop-color="#e69926" stop-opacity="0.2" />
+        <stop offset="100%" stop-color="#cc7a00" stop-opacity="0" />
+      </radialGradient>
+
+      <!-- Diagonal Glass Window Sheen Reflection -->
+      <linearGradient id="meterGlassSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16" />
+        <stop offset="28%" stop-color="#ffffff" stop-opacity="0.06" />
+        <stop offset="55%" stop-color="#ffffff" stop-opacity="0.01" />
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+      </linearGradient>
+
+      <!-- Window Top Shadow Cast by Bezel Overhang -->
+      <linearGradient id="windowTopShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#000000" stop-opacity="0.36" />
+        <stop offset="35%" stop-color="#000000" stop-opacity="0.12" />
+        <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+      </linearGradient>
+
+      <!-- Zero-Adjust Mechanical Trimmer Screw Head -->
+      <radialGradient id="trimScrewHeadGrad" cx="35%" cy="32%" r="68%">
+        <stop offset="0%" stop-color="#4c4f56" />
+        <stop offset="52%" stop-color="#24262a" />
+        <stop offset="88%" stop-color="#141518" />
+        <stop offset="100%" stop-color="#0b0c0e" />
+      </radialGradient>
+
+      <!-- Phenolic Fuse Cap Gradient -->
+      <radialGradient id="fuseCapGrad" cx="38%" cy="38%" r="62%">
+        <stop offset="0%" stop-color="#4a4a4a" />
+        <stop offset="65%" stop-color="#1f1f1f" />
+        <stop offset="100%" stop-color="#0d0d0d" />
+      </radialGradient>
+
+      <!-- Status Indicator LED Glow Filters -->
+      <filter id="glowRed" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="3.2" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+      <filter id="glowGreen" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="3.2" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+      <filter id="glowAmber" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="3.2" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+
+      <!-- Chassis Drop Shadow -->
+      <filter id="chassisDropShadow" x="-5%" y="-5%" width="110%" height="118%">
+        <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000000" flood-opacity="0.8" />
+        <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.6" />
+      </filter>
+
+      <filter id="bezelDropShadow" x="-10%" y="-10%" width="120%" height="124%">
+        <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.6" />
+      </filter>
+
+      <!-- Reusable Multi-Turn Trimmer Pot Component -->
+      <g id="trimPot">
+        <polygon points="0,-12 10.5,-6 10.5,6 0,12 -10.5,6 -10.5,-6" fill="#A4A193" stroke="#525048" stroke-width="1.1"/>
+        <circle cx="0" cy="0" r="8.2" fill="#DAD8CA" stroke="#68665B" stroke-width="0.9"/>
+        <circle cx="0" cy="0" r="5.5" fill="#B4B1A2" stroke="#403E36" stroke-width="0.8"/>
+        <line x1="-3.8" y1="-2.2" x2="3.8" y2="2.2" stroke="#262725" stroke-width="1.6" stroke-linecap="round"/>
+      </g>
+
+      <!-- Reusable Bayonet Fuse Holder -->
+      <g id="wbsFuseHolder">
+        <circle cx="0" cy="0" r="20" fill="#151618" stroke="#38393e" stroke-width="1.2"/>
+        <circle cx="0" cy="0" r="16.5" fill="url(#fuseCapGrad)" stroke="#525459" stroke-width="1" stroke-dasharray="2,1.5"/>
+        <circle cx="0" cy="0" r="13" fill="#1b1c1e" stroke="#2e3034" stroke-width="0.8"/>
+        <rect x="-10" y="-1.7" width="20" height="3.4" rx="0.9" fill="#08090a" stroke="#36383e" stroke-width="0.5"/>
+        <text x="0" y="-4.6" fill="#757983" font-size="5.2" font-weight="bold" text-anchor="middle" letter-spacing="0.8">FUSE</text>
+      </g>
+
+      <!-- 19" Rack Oval Mounting Slot with Oval Washer -->
+      <g id="rackMountEarSlot">
+        <rect x="-6" y="-14" width="12" height="28" rx="6" fill="#0c0d0f" stroke="#2c2f35" stroke-width="1.2" />
+        <ellipse cx="0" cy="0" rx="4.5" ry="10.5" fill="#1b1d22" stroke="#464a53" stroke-width="0.8" />
+        <circle cx="0" cy="0" r="3.2" fill="#08090a" />
+      </g>
+
+      <!-- Clip Paths for Meter Windows -->
+      <clipPath id="leftWindowClip">
+        <rect x="0" y="0" width="312" height="162" rx="4" />
+      </clipPath>
+      <clipPath id="rightWindowClip">
+        <rect x="0" y="0" width="312" height="162" rx="4" />
+      </clipPath>
+    </defs>
+  </svg>
+
+  <!-- Top Global Header -->
+  <header class="w-full max-w-6xl flex flex-wrap items-center justify-between gap-4 mb-5 border-b border-white/[0.08] pb-4">
+    <div class="flex items-center gap-4">
+      <div class="wbs-badge" title="Ward-Beck Systems • First by Design">WBS</div>
+      <div>
+        <h1 class="text-base sm:text-lg font-bold tracking-tight text-[#f2efe9]">
+          WARD-BECK SYSTEMS • DUAL ANALOG VU &amp; PEAK/dB MONITOR
+        </h1>
+        <p class="text-xs text-[#a0a4ab]">
+          Model MP-2 / M405 Console &amp; Rack Instrument • 19" 2RU Broadcast Specification
+        </p>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="flex items-center gap-2">
+      <a href="styleguide-xtm4.html" class="px-2.5 py-1 text-xs font-semibold rounded bg-[#1c1f24] hover:bg-[#272b32] text-neutral-300 border border-white/[0.08] transition">
+        XTM-4 Styleguide
+      </a>
+      <a href="styleguide-m600.html" class="px-2.5 py-1 text-xs font-semibold rounded bg-[#1c1f24] hover:bg-[#272b32] text-neutral-300 border border-white/[0.08] transition">
+        M600 Styleguide
+      </a>
+      <a href="Home.html" class="px-2.5 py-1 text-xs font-semibold rounded bg-[#1c1f24] hover:bg-[#272b32] text-neutral-300 border border-white/[0.08] transition">
+        Archive Home
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Stage: Ward-Beck Systems Anodized Aluminum 19" Rack Panel Instrument -->
+  <main class="w-full max-w-6xl flex flex-col items-center gap-6">
+
+    <div class="w-full flex justify-center">
+      <svg id="wbs-meter-panel-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 370" class="w-full h-auto max-w-5xl overflow-visible select-none" filter="url(#chassisDropShadow)">
+
+        <!-- ================================================================= -->
+        <!-- WARD-BECK SYSTEMS 19" 2RU ANODIZED ALUMINUM RACK FACEPLATE CHASSIS -->
+        <!-- Overall Panel: 1140 x 370, 19" Rack Proportions                    -->
+        <!-- ================================================================= -->
+
+        <!-- Main Brushed Anodized Aluminum Faceplate Surface -->
+        <rect x="0" y="0" width="1140" height="370" rx="3" fill="url(#wbsAluPlate)" stroke="#6E6C61" stroke-width="1.4" />
+
+        <!-- Top Extruded Milled Lip / Bevel -->
+        <rect x="-1" y="0" width="1142" height="15" rx="1" fill="url(#wbsExtrusionBevel)" stroke="#5A584D" stroke-width="1" />
+        <line x1="1" y1="15.5" x2="1139" y2="15.5" stroke="#9C998B" stroke-width="1" />
+
+        <!-- Bottom Extruded Milled Lip / Bevel -->
+        <rect x="-1" y="355" width="1142" height="15" rx="1" fill="url(#wbsExtrusionBevel)" stroke="#5A584D" stroke-width="1" />
+        <line x1="1" y1="354.5" x2="1139" y2="354.5" stroke="#EDEBE1" stroke-width="1" />
+
+        <!-- Rack Mount Ear Vertical Scoring Lines (Separating rack ears from center bay) -->
+        <line x1="42" y1="16" x2="42" y2="354" stroke="#8A8778" stroke-width="1" />
+        <line x1="43.5" y1="16" x2="43.5" y2="354" stroke="#E3E0D2" stroke-width="0.8" />
+        <line x1="1098" y1="16" x2="1098" y2="354" stroke="#8A8778" stroke-width="1" />
+        <line x1="1099.5" y1="16" x2="1099.5" y2="354" stroke="#E3E0D2" stroke-width="0.8" />
+
+        <!-- 19" Rack Mounting Flange Oval Slots (Top & Bottom on both ears) -->
+        <use href="#rackMountEarSlot" transform="translate(21, 52)" />
+        <use href="#rackMountEarSlot" transform="translate(21, 318)" />
+        <use href="#rackMountEarSlot" transform="translate(1119, 52)" />
+        <use href="#rackMountEarSlot" transform="translate(1119, 318)" />
+
+        <!-- ================================================================= -->
+        <!-- WBS HEADER & SILKSCREEN BRANDING ON CHASSIS                       -->
+        <!-- ================================================================= -->
+        <g id="wbs-silkscreen-branding" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#222322">
+          <!-- WBS Logo Badge on Panel -->
+          <g transform="translate(62, 32)">
+            <rect x="0" y="0" width="56" height="23" rx="5" fill="none" stroke="#222322" stroke-width="2.2" />
+            <text x="28" y="17" font-size="14.5" font-weight="900" font-style="italic" letter-spacing="2" text-anchor="middle">WBS</text>
+          </g>
+
+          <!-- Model Designation -->
+          <text x="130" y="42" font-size="13" font-weight="800" letter-spacing="1">WARD-BECK SYSTEMS</text>
+          <text x="130" y="53" font-size="8" font-weight="700" letter-spacing="0.8" fill="#4a4c49">MODEL MP-2 / M405 • DUAL ANALOG VU &amp; PEAK/dB MONITOR</text>
+
+          <!-- Right Manufacturer Mark -->
+          <text x="1078" y="42" font-size="9" font-weight="700" letter-spacing="0.6" text-anchor="end">SCARBOROUGH, ONTARIO, CANADA</text>
+          <text x="1078" y="53" font-size="7.5" font-weight="600" letter-spacing="0.4" fill="#4a4c49" text-anchor="end">BROADCAST DIVISION</text>
+        </g>
+
+        <!-- ================================================================= -->
+        <!-- LEFT METER BAY: WBS / BACH-SIMPSON 544 VU METER (x = 188..540)    -->
+        <!-- Center Pivot: cx = 364, cy = 270, Arc Radius = 172               -->
+        <!-- ================================================================= -->
+        <g id="left-meter-bay" filter="url(#bezelDropShadow)">
+          <!-- Outer Molded Black Bakelite Bezel (352 x 292) -->
+          <rect x="188" y="38" width="352" height="292" rx="10" fill="url(#bezelMoldedGrad)" stroke="#090a0c" stroke-width="1.5" />
+          <path d="M 198 39.2 L 530 39.2" stroke="#454952" stroke-width="1.2" stroke-linecap="round" />
+          <rect x="194" y="44" width="340" height="280" rx="7" fill="none" stroke="#25272c" stroke-width="0.9" />
+
+          <!-- Recessed Inner Window Frame -->
+          <rect x="204" y="52" width="320" height="170" rx="6" fill="url(#bezelInnerStepGrad)" stroke="#08090b" stroke-width="1.2" />
+
+          <!-- Clipped Meter Window Interior -->
+          <g transform="translate(208, 56)">
+            <g clip-path="url(#leftWindowClip)">
+              <!-- Warm Cream Dial Face -->
+              <rect x="0" y="0" width="312" height="162" fill="url(#vuCreamDial)" />
+
+              <!-- Incandescent Dial Lamp Glow (Interactive) -->
+              <rect id="vu-lamp-glow" x="0" y="0" width="312" height="162" fill="url(#lampGlowVU)" class="lamp-glow-on" />
+
+              <!-- Meter Dial Graphics -->
+              <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+                <!-- Top Left & Right "VU" Legends -->
+                <text x="42" y="42" font-size="14" font-weight="700" fill="#2c2b27" transform="rotate(-26, 42, 42)">VU</text>
+                <text x="269" y="43" font-size="15.5" font-weight="800" fill="#c9352b" transform="rotate(26, 269, 43)">VU</text>
+
+                <!-- Black Scale Arc (-20 to 0 VU): relative to local pivot (156, 214) -->
+                <!-- Arc R = 172. Angles: -44° (-20 VU) to +11.5° (0 VU) -->
+                <path d="M 36.4 90.2 A 172 172 0 0 1 190.3 45.4" fill="none" stroke="#242320" stroke-width="1.65" />
+                <!-- Red Overload Arc (0 to +3 VU): +11.5° to +42° -->
+                <path d="M 190.3 45.4 A 172 172 0 0 1 271.1 86.1" fill="none" stroke="#c9352b" stroke-width="5.6" />
+
+                <!-- Container for Left VU Ticks (Populated via JS) -->
+                <g id="vu-ticks-container"></g>
+
+                <!-- Center 0 VU & Authentic Ward-Beck Dial Imprint -->
+                <text x="156" y="120" font-size="15.5" font-weight="700" fill="#262521" text-anchor="middle" letter-spacing="0.8">0 VU</text>
+                
+                <g transform="translate(156, 137)">
+                  <rect x="-17" y="-7.5" width="34" height="15" rx="3.5" fill="none" stroke="#2c2b27" stroke-width="1.3" />
+                  <text x="0" y="3.8" font-size="9.5" font-weight="900" font-style="italic" fill="#2c2b27" letter-spacing="1.2" text-anchor="middle">WBS</text>
+                </g>
+                <text x="156" y="152" font-size="6.8" font-weight="700" fill="#4d4c46" text-anchor="middle" letter-spacing="0.5">WARD-BECK SYSTEMS • BACH-SIMPSON</text>
+              </g>
+
+              <!-- Pivot Hub Cap at Bottom Edge -->
+              <circle cx="156" cy="168" r="22" fill="#18191c" stroke="#2f3238" stroke-width="1.5" />
+              <circle cx="156" cy="168" r="15" fill="#111214" />
+
+              <!-- Ballistic VU Pointer Needle (Local Pivot: 156, 214) -->
+              <g id="vu-needle" transform="translate(156, 214) rotate(-44)">
+                <polygon points="1.5,0 3.5,0 2.4,-184 1.6,-184" fill="#000000" fill-opacity="0.18" />
+                <polygon points="-1.4,0 1.4,0 0.45,-184 -0.45,-184" fill="#1f1e1b" />
+              </g>
+
+              <!-- Recessed Overhang Top Shadow & Glass Reflection Sheen -->
+              <rect x="0" y="0" width="312" height="16" fill="url(#windowTopShadow)" />
+              <polygon points="0,0 176,0 96,162 0,162" fill="url(#meterGlassSheen)" />
+            </g>
+          </g>
+
+          <!-- Lower Molded Seam -->
+          <line x1="189" y1="236" x2="539" y2="236" stroke="#0c0d0f" stroke-width="1.4" />
+          <line x1="189" y1="237.4" x2="539" y2="237.4" stroke="#2c2f36" stroke-width="0.9" />
+
+          <!-- Interactive Zero-Adjust Mechanical Trimmer Screw -->
+          <g id="left-trim-screw" class="trim-screw-interactive" transform="translate(364, 280)"
+             role="slider" tabindex="0" aria-label="Left VU Meter Zero Adjust Screw"
+             aria-valuemin="-3" aria-valuemax="3" aria-valuenow="0">
+            <title>Drag vertically or scroll to trim Left VU Zero Offset</title>
+            <circle cx="0" cy="0" r="15" fill="#0d0e10" stroke="#2c2f36" stroke-width="1.1" />
+            <g id="left-screw-rotor" transform="rotate(-38)">
+              <circle cx="0" cy="0" r="12.2" fill="url(#trimScrewHeadGrad)" stroke="#111214" stroke-width="1" />
+              <rect x="-10.8" y="-1.7" width="21.6" height="3.4" rx="0.8" fill="#090a0c" />
+              <line x1="-10.2" y1="1.9" x2="10.2" y2="1.9" stroke="#4e525b" stroke-width="0.7" />
+            </g>
+          </g>
+          <text x="364" y="316" fill="#8e929b" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="middle">ZERO ADJ</text>
+        </g>
+
+        <!-- ================================================================= -->
+        <!-- RIGHT METER BAY: WBS PEAK / dBm 600 OHM METER (x = 600..952)      -->
+        <!-- Center Pivot: cx = 776, cy = 270, Arc Radius = 172               -->
+        <!-- ================================================================= -->
+        <g id="right-meter-bay" filter="url(#bezelDropShadow)">
+          <!-- Outer Molded Black Bakelite Bezel (352 x 292) -->
+          <rect x="600" y="38" width="352" height="292" rx="10" fill="url(#bezelMoldedGrad)" stroke="#090a0c" stroke-width="1.5" />
+          <path d="M 610 39.2 L 942 39.2" stroke="#454952" stroke-width="1.2" stroke-linecap="round" />
+          <rect x="606" y="44" width="340" height="280" rx="7" fill="none" stroke="#25272c" stroke-width="0.9" />
+
+          <!-- Recessed Inner Window Frame -->
+          <rect x="616" y="52" width="320" height="170" rx="6" fill="url(#bezelInnerStepGrad)" stroke="#08090b" stroke-width="1.2" />
+
+          <!-- Clipped Meter Window Interior -->
+          <g transform="translate(620, 56)">
+            <g clip-path="url(#rightWindowClip)">
+              <!-- Deep Matte Black Dial Face -->
+              <rect x="0" y="0" width="312" height="162" fill="url(#ppmBlackDial)" />
+
+              <!-- Incandescent Dial Lamp Glow (Interactive) -->
+              <rect id="ppm-lamp-glow" x="0" y="0" width="312" height="162" fill="url(#lampGlowPPM)" class="lamp-glow-on" />
+
+              <!-- Meter Dial Graphics -->
+              <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+                <!-- Top Right "dBm" Legend -->
+                <text x="278" y="30" font-size="14" font-weight="600" fill="#e5e7eb" text-anchor="end">dBm</text>
+
+                <!-- Crisp White Scale Arc (-20 to 0 dB): relative to local pivot (156, 214) -->
+                <path d="M 36.4 90.2 A 172 172 0 0 1 190.3 45.4" fill="none" stroke="#f1f5f9" stroke-width="1.75" />
+                <!-- Amber / Gold Overload Arc (0 to +4 dB) -->
+                <path d="M 190.3 45.4 A 172 172 0 0 1 271.1 86.1" fill="none" stroke="#d4942a" stroke-width="6.0" />
+
+                <!-- Container for Right PPM Ticks (Populated via JS) -->
+                <g id="ppm-ticks-container"></g>
+
+                <!-- Captions & WBS Dial Marking -->
+                <text x="42" y="138" font-size="10.2" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.4">TONE</text>
+
+                <text x="156" y="112" font-size="11.5" font-weight="600" fill="#f1f5f9" text-anchor="middle" letter-spacing="0.6">PEAK PROGRAM</text>
+                <text x="156" y="126" font-size="10" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.4">600 OHM</text>
+                <text x="156" y="140" font-size="8.8" font-weight="600" fill="#9ca3af" text-anchor="middle" letter-spacing="0.3">WARD-BECK SYSTEMS LTD.</text>
+
+                <text x="258" y="136" font-size="9" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.3">+ ATTENUATOR</text>
+                <text x="258" y="148" font-size="9" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.3">SETTING</text>
+              </g>
+
+              <!-- Pivot Hub Cap at Bottom Edge -->
+              <circle cx="156" cy="168" r="22" fill="#18191c" stroke="#2f3238" stroke-width="1.5" />
+              <circle cx="156" cy="168" r="15" fill="#101113" />
+
+              <!-- High-Visibility Pointer Needle with Amber Tip -->
+              <g id="ppm-needle" transform="translate(156, 214) rotate(-44)">
+                <polygon points="1.8,0 4.0,0 2.6,-184 1.6,-184" fill="#000000" fill-opacity="0.44" />
+                <polygon points="-1.6,0 1.6,0 0.65,-184 -0.65,-184" fill="#f3efe0" />
+                <polygon points="-0.95,-145 0.95,-145 0.65,-184 -0.65,-184" fill="#eab308" />
+              </g>
+
+              <!-- Recessed Overhang Top Shadow & Glass Sheen -->
+              <rect x="0" y="0" width="312" height="16" fill="url(#windowTopShadow)" />
+              <polygon points="0,0 176,0 96,162 0,162" fill="url(#meterGlassSheen)" />
+            </g>
+          </g>
+
+          <!-- Lower Molded Seam -->
+          <line x1="601" y1="236" x2="951" y2="236" stroke="#0c0d0f" stroke-width="1.4" />
+          <line x1="601" y1="237.4" x2="951" y2="237.4" stroke="#2c2f36" stroke-width="0.9" />
+
+          <!-- Interactive Zero-Adjust Mechanical Trimmer Screw -->
+          <g id="right-trim-screw" class="trim-screw-interactive" transform="translate(776, 280)"
+             role="slider" tabindex="0" aria-label="Right Peak dB Meter Zero Adjust Screw"
+             aria-valuemin="-3" aria-valuemax="3" aria-valuenow="0">
+            <title>Drag vertically or scroll to trim Right Peak/dB Zero Offset</title>
+            <circle cx="0" cy="0" r="15" fill="#0d0e10" stroke="#2c2f36" stroke-width="1.1" />
+            <g id="right-screw-rotor" transform="rotate(32)">
+              <circle cx="0" cy="0" r="12.2" fill="url(#trimScrewHeadGrad)" stroke="#111214" stroke-width="1" />
+              <rect x="-10.8" y="-1.7" width="21.6" height="3.4" rx="0.8" fill="#090a0c" />
+              <line x1="-10.2" y1="1.9" x2="10.2" y2="1.9" stroke="#4e525b" stroke-width="0.7" />
+            </g>
+          </g>
+          <text x="776" y="316" fill="#8e929b" font-size="7.5" font-weight="700" letter-spacing="0.5" text-anchor="middle">ZERO ADJ</text>
+        </g>
+
+        <!-- ================================================================= -->
+        <!-- HARDWARE TELEMETRY & CONTROLS ON WBS CHASSIS                      -->
+        <!-- Left Wing (x=60..160), Center Wing (x=550..590), Right (x=960..)  -->
+        <!-- ================================================================= -->
+
+        <!-- Left Channel Telemetry LED Stack (x = 110) -->
+        <g transform="translate(110, 100)">
+          <text x="0" y="0" fill="#222322" font-size="8.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">OVLD</text>
+          <circle id="led-ovld-left" cx="0" cy="11" r="4.5" fill="#4A1A1A" stroke="#7A786C" stroke-width="1" />
+
+          <circle id="led-norm-left" cx="0" cy="40" r="4.5" fill="#28A745" stroke="#7A786C" stroke-width="1" filter="url(#glowGreen)" />
+          <text x="0" y="55" fill="#222322" font-size="8.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">NORM</text>
+
+          <circle id="led-dc" cx="0" cy="84" r="4.5" fill="#E5A91A" stroke="#7A786C" stroke-width="1" filter="url(#glowAmber)" />
+          <text x="0" y="99" fill="#222322" font-size="8.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">DC</text>
+        </g>
+
+        <!-- Left Calibration Multi-Turn Trimmer Pot -->
+        <g class="interactive-pot" id="left-cal-pot" transform="translate(110, 240)" data-angle="0">
+          <use href="#trimPot" transform="scale(1.2)" />
+        </g>
+        <text x="110" y="264" fill="#222322" font-size="8.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">L CAL</text>
+
+        <!-- Center Inter-Meter Bridge Details -->
+        <!-- Center Divider & Channel Legend -->
+        <text x="570" y="80" fill="#222322" font-size="9.5" font-weight="800" text-anchor="middle" letter-spacing="0.8">CH A</text>
+        <text x="570" y="92" fill="#585c57" font-size="8" font-weight="700" text-anchor="middle">VU</text>
+        <line x1="570" y1="102" x2="570" y2="240" stroke="#908d7e" stroke-width="1.2" stroke-dasharray="3,3" />
+        <text x="570" y="256" fill="#222322" font-size="9.5" font-weight="800" text-anchor="middle" letter-spacing="0.8">CH B</text>
+        <text x="570" y="268" fill="#585c57" font-size="8" font-weight="700" text-anchor="middle">PEAK</text>
+
+        <!-- Right Channel Telemetry Stack (x = 1030) -->
+        <g transform="translate(1030, 100)">
+          <text x="0" y="0" fill="#222322" font-size="8.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">OVLD</text>
+          <circle id="led-ovld-right" cx="0" cy="11" r="4.5" fill="#4A1A1A" stroke="#7A786C" stroke-width="1" />
+
+          <circle id="led-norm-right" cx="0" cy="40" r="4.5" fill="#28A745" stroke="#7A786C" stroke-width="1" filter="url(#glowGreen)" />
+          <text x="0" y="55" fill="#222322" font-size="8.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">NORM</text>
+        </g>
+
+        <!-- Right Calibration Multi-Turn Trimmer Pot -->
+        <g class="interactive-pot" id="right-cal-pot" transform="translate(1030, 190)" data-angle="45">
+          <use href="#trimPot" transform="scale(1.2) rotate(45)" />
+        </g>
+        <text x="1030" y="214" fill="#222322" font-size="8.5" font-weight="800" text-anchor="middle" letter-spacing="0.5">R CAL</text>
+
+        <!-- Chassis Bayonet Fuse Holder (x = 1030, y = 266) -->
+        <use href="#wbsFuseHolder" transform="translate(1030, 266)" />
+        <text x="1030" y="296" fill="#222322" font-size="7.5" font-weight="800" text-anchor="middle">.25A SB</text>
+
+      </svg>
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- COMPACT STUDIO CALIBRATION & TEST SIGNAL CONTROLLER STRIP           -->
+    <!-- =================================================================== -->
+    <section aria-label="Studio Test Signal & Calibration Controller"
+      class="w-full max-w-5xl rounded-xl bg-[#14161a]/95 border border-white/[0.08] p-4 sm:p-5 shadow-[0_16px_36px_rgba(0,0,0,0.6)] backdrop-blur-md flex flex-col gap-4">
+
+      <!-- Top Row: Signal Source Mode, Sensitivity Straps, Lamp Switch & Digital Readout -->
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <!-- Signal Generator Modes -->
+        <div class="flex items-center gap-2">
+          <span class="text-[11px] font-mono-tech uppercase text-neutral-400">Signal:</span>
+          <div class="inline-flex rounded-lg p-0.5 bg-[#0d0e11] border border-white/[0.08]" role="group">
+            <button type="button" data-mode="tone"
+              class="mode-btn px-2.5 py-1 rounded-md text-xs font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/40 transition">
+              1 kHz Tone
+            </button>
+            <button type="button" data-mode="program"
+              class="mode-btn px-2.5 py-1 rounded-md text-xs font-semibold text-neutral-400 hover:text-neutral-200 border border-transparent transition">
+              Broadcast Program
+            </button>
+            <button type="button" data-mode="pink"
+              class="mode-btn px-2.5 py-1 rounded-md text-xs font-semibold text-neutral-400 hover:text-neutral-200 border border-transparent transition">
+              Noise
+            </button>
+            <button type="button" data-mode="off"
+              class="mode-btn px-2.5 py-1 rounded-md text-xs font-semibold text-neutral-400 hover:text-neutral-200 border border-transparent transition">
+              Off
+            </button>
+          </div>
+        </div>
+
+        <!-- Input Sensitivity Attenuator Selector (WBS M405 style) -->
+        <div class="flex items-center gap-2">
+          <span class="text-[11px] font-mono-tech uppercase text-neutral-400">Sens:</span>
+          <div class="inline-flex rounded-lg p-0.5 bg-[#0d0e11] border border-white/[0.08]">
+            <button type="button" data-sens="-10" class="sens-btn px-2 py-1 rounded text-xs font-mono-tech text-neutral-400 hover:text-neutral-200 transition">−10</button>
+            <button type="button" data-sens="0"   class="sens-btn px-2 py-1 rounded text-xs font-mono-tech text-neutral-400 hover:text-neutral-200 transition">0</button>
+            <button type="button" data-sens="4"   class="sens-btn px-2 py-1 rounded text-xs font-mono-tech bg-[#c6c3b3] text-[#222322] font-bold transition">+4</button>
+            <button type="button" data-sens="8"   class="sens-btn px-2 py-1 rounded text-xs font-mono-tech text-neutral-400 hover:text-neutral-200 transition">+8</button>
+          </div>
+        </div>
+
+        <!-- Dial Lamp Illumination Toggle -->
+        <div class="flex items-center gap-2">
+          <button id="btn-toggle-lamp" type="button"
+            class="px-3 py-1 rounded-lg text-xs font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30 hover:bg-amber-500/25 transition flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+            Dial Lamps
+          </button>
+        </div>
+
+        <!-- Real-Time Telemetry Readout Pill -->
+        <div class="flex items-center gap-2">
+          <div class="inline-flex items-center gap-3 px-3 py-1 rounded-full bg-[#0d0e11] border border-white/[0.08] font-mono-tech text-xs">
+            <span class="flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#eae0c2]"></span>
+              <span class="text-neutral-400">VU:</span>
+              <strong id="readout-vu" class="text-[#f7f1dd]">0.0 VU</strong>
+            </span>
+            <span class="text-neutral-700">|</span>
+            <span class="flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+              <span class="text-neutral-400">Peak:</span>
+              <strong id="readout-ppm" class="text-amber-300">0.0 dBm</strong>
+            </span>
+          </div>
+
+          <button id="btn-reset-trim" type="button" title="Reset Mechanical Zero-Adjust Trimmer Screws"
+            class="px-2.5 py-1 rounded-lg text-[11px] font-mono-tech text-neutral-400 hover:text-neutral-200 bg-[#0d0e11] hover:bg-neutral-800 border border-white/[0.08] transition">
+            Reset Zero
+          </button>
+        </div>
+      </div>
+
+      <!-- Bottom Row: Input Fader (-24 dB to +4 dB) and Presets -->
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-3 border-t border-white/[0.06]">
+        <div class="flex items-center justify-between sm:justify-start gap-2.5 shrink-0">
+          <label for="input-level-fader" class="text-[11px] font-mono-tech uppercase tracking-wider text-neutral-400">
+            Line Level
+          </label>
+          <span id="readout-fader-db" class="w-16 text-right font-mono-tech text-xs font-semibold text-neutral-200">
+            0.0 dB
+          </span>
+        </div>
+
+        <input id="input-level-fader" type="range" min="-24" max="4" step="0.1" value="0"
+          class="studio-fader flex-1 h-5" aria-label="Input Signal Level in dB" />
+
+        <!-- Quick Level Presets -->
+        <div class="flex items-center justify-between sm:justify-end gap-1.5 shrink-0">
+          <button type="button" data-preset="-20" class="preset-btn px-2 py-1 rounded text-[11px] font-mono-tech bg-[#0d0e11] hover:bg-neutral-800 text-neutral-300 border border-white/[0.08] transition">–20 dB</button>
+          <button type="button" data-preset="-10" class="preset-btn px-2 py-1 rounded text-[11px] font-mono-tech bg-[#0d0e11] hover:bg-neutral-800 text-neutral-300 border border-white/[0.08] transition">–10 dB</button>
+          <button type="button" data-preset="-3"  class="preset-btn px-2 py-1 rounded text-[11px] font-mono-tech bg-[#0d0e11] hover:bg-neutral-800 text-neutral-300 border border-white/[0.08] transition">–3 dB</button>
+          <button type="button" data-preset="0"   class="preset-btn px-2 py-1 rounded text-[11px] font-mono-tech bg-amber-500/20 text-amber-300 border border-amber-500/40 transition">0 VU/dB</button>
+          <button type="button" data-preset="2"   class="preset-btn px-2 py-1 rounded text-[11px] font-mono-tech bg-[#0d0e11] hover:bg-neutral-800 text-neutral-300 border border-white/[0.08] transition">+2 dB</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Operational Notes & Engineering Heritage -->
+    <footer class="w-full max-w-5xl text-xs text-neutral-500 flex flex-wrap items-center justify-between gap-3 pt-2">
+      <div>WARD-BECK SYSTEMS LTD. • 841 PROGRESS AVENUE, SCARBOROUGH, ONTARIO, CANADA</div>
+      <div class="font-mono-tech">ANSI C16.5 VU (300ms) • BBC/DIN PEAK (10ms) • CAL: 0 VU = +4 dBu</div>
+    </footer>
+  </main>
+
+  <div id="toast" class="fixed bottom-6 right-6 bg-[#c6c3b3] text-[#222322] font-bold text-xs px-3 py-2 rounded shadow-2xl opacity-0 pointer-events-none transition-all duration-200 z-50">
+    Toast Message
+  </div>
+
+  <script>
+    /**
+     * Ward-Beck Systems Dual Analog VU & Peak/dB Panel Meters
+     * - Left: Bach-Simpson 544 style ANSI C16.5 VU Meter (-20 to +3 VU & 0-100% Modulation)
+     * - Right: WBS Peak Programme / dBm 600Ω Meter (-20 to +4 dB)
+     * - True Ballistic Dynamics: ~300ms integration (VU) vs 10ms fast attack & logarithmic release (Peak)
+     * - Dynamic Overload Telemetry LEDs triggered by signal clipping / high peaks
+     * - Mechanical zero-adjust trimmer screws with drag/scroll interaction
+     * - Recessed multi-turn calibration trimmer pots (rotate 45° on click)
+     * - Warm incandescent dial lamp backlighting switch
+     */
+    (function () {
+      const SVG_NS = 'http://www.w3.org/2000/svg';
+
+      // Meter Geometry (Relative to local pivot (156, 214) inside the 312x162 window)
+      const LOCAL_PIVOT = { x: 156, y: 214 };
+      const ARC_RADIUS = 172;
+
+      // State Object
+      const state = {
+        mode: 'tone',          // 'tone' | 'program' | 'pink' | 'off'
+        sensOffset: 0,        // 0 for +4dBu standard, -4 for 0dBu, etc.
+        inputDb: 0.0,
+        leftTrimDb: 0.0,
+        rightTrimDb: 0.0,
+        leftCurrentAngle: -44,
+        rightCurrentAngle: -44,
+        lampOn: true
+      };
+
+      // DOM Elements
+      const vuNeedleEl = document.getElementById('vu-needle');
+      const ppmNeedleEl = document.getElementById('ppm-needle');
+      const leftScrewRotor = document.getElementById('left-screw-rotor');
+      const rightScrewRotor = document.getElementById('right-screw-rotor');
+      const leftTrimEl = document.getElementById('left-trim-screw');
+      const rightTrimEl = document.getElementById('right-trim-screw');
+
+      const ledOvldLeft = document.getElementById('led-ovld-left');
+      const ledOvldRight = document.getElementById('led-ovld-right');
+      const ledNormLeft = document.getElementById('led-norm-left');
+      const ledNormRight = document.getElementById('led-norm-right');
+      const vuLampGlow = document.getElementById('vu-lamp-glow');
+      const ppmLampGlow = document.getElementById('ppm-lamp-glow');
+      const btnToggleLamp = document.getElementById('btn-toggle-lamp');
+
+      const faderEl = document.getElementById('input-level-fader');
+      const readoutFaderDb = document.getElementById('readout-fader-db');
+      const readoutVu = document.getElementById('readout-vu');
+      const readoutPpm = document.getElementById('readout-ppm');
+      const toastEl = document.getElementById('toast');
+      let toastTimer;
+
+      function showToast(msg) {
+        toastEl.textContent = msg;
+        toastEl.style.opacity = '1';
+        toastEl.style.transform = 'translateY(0)';
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => {
+          toastEl.style.opacity = '0';
+          toastEl.style.transform = 'translateY(8px)';
+        }, 1800);
+      }
+
+      /**
+       * Populate Left VU Scale Ticks (-20 to +3 VU & 0-100% Modulation)
+       */
+      function buildLeftVuScale() {
+        const container = document.getElementById('vu-ticks-container');
+
+        const vuTicks = [
+          { deg: -44.0, label: '-20', red: false, major: true },
+          { deg: -38.0, label: '',    red: false, major: false },
+          { deg: -32.0, label: '-10', red: false, major: true },
+          { deg: -27.5, label: '',    red: false, major: false },
+          { deg: -23.0, label: '-7',  red: false, major: true },
+          { deg: -19.0, label: '',    red: false, major: false },
+          { deg: -15.0, label: '-5',  red: false, major: true },
+          { deg: -11.0, label: '',    red: false, major: false },
+          { deg: -7.0,  label: '-3',  red: false, major: true },
+          { deg: -1.0,  label: '-2',  red: false, major: true },
+          { deg: 5.0,   label: '-1',  red: false, major: true },
+          { deg: 11.5,  label: '0',   red: false, major: true },
+          { deg: 21.5,  label: '+1',  red: true,  major: true },
+          { deg: 31.5,  label: '+2',  red: true,  major: true },
+          { deg: 42.0,  label: '+3',  red: true,  major: true }
+        ];
+
+        vuTicks.forEach((t) => {
+          const g = document.createElementNS(SVG_NS, 'g');
+          g.setAttribute('transform', `translate(${LOCAL_PIVOT.x}, ${LOCAL_PIVOT.y}) rotate(${t.deg})`);
+          const strokeColor = t.red ? '#c9352b' : '#242320';
+
+          const line = document.createElementNS(SVG_NS, 'line');
+          line.setAttribute('x1', '0');
+          line.setAttribute('y1', t.red ? String(-(ARC_RADIUS + 2.5)) : String(-ARC_RADIUS));
+          line.setAttribute('x2', '0');
+          line.setAttribute('y2', t.major ? String(-(ARC_RADIUS + 11.5)) : String(-(ARC_RADIUS + 6.5)));
+          line.setAttribute('stroke', strokeColor);
+          line.setAttribute('stroke-width', t.major ? '1.65' : '1.2');
+          g.appendChild(line);
+
+          if (t.label) {
+            const text = document.createElementNS(SVG_NS, 'text');
+            text.setAttribute('x', '0');
+            text.setAttribute('y', String(-(ARC_RADIUS + 16.5)));
+            text.setAttribute('font-size', '13');
+            text.setAttribute('font-weight', '700');
+            text.setAttribute('fill', strokeColor);
+            text.setAttribute('text-anchor', 'middle');
+            text.textContent = t.label;
+            g.appendChild(text);
+          }
+
+          container.appendChild(g);
+        });
+
+        // Modulation % Marks (0, 20, 40, 60, 80, 100%)
+        const pctMarks = [
+          { deg: -44.0, label: '0' },
+          { deg: -35.0, label: '20' },
+          { deg: -23.5, label: '40' },
+          { deg: -12.0, label: '60' },
+          { deg: -0.5,  label: '80' },
+          { deg: 11.5,  label: '100%' }
+        ];
+
+        pctMarks.forEach((p) => {
+          const g = document.createElementNS(SVG_NS, 'g');
+          g.setAttribute('transform', `translate(${LOCAL_PIVOT.x}, ${LOCAL_PIVOT.y}) rotate(${p.deg})`);
+
+          const tick = document.createElementNS(SVG_NS, 'line');
+          tick.setAttribute('x1', '0');
+          tick.setAttribute('y1', String(-ARC_RADIUS));
+          tick.setAttribute('x2', '0');
+          tick.setAttribute('y2', String(-(ARC_RADIUS - 6.5)));
+          tick.setAttribute('stroke', '#2c2b27');
+          tick.setAttribute('stroke-width', '1.3');
+          g.appendChild(tick);
+
+          const text = document.createElementNS(SVG_NS, 'text');
+          text.setAttribute('x', p.label === '100%' ? '5' : '0');
+          text.setAttribute('y', String(-(ARC_RADIUS - 18.5)));
+          text.setAttribute('font-size', '10.5');
+          text.setAttribute('font-weight', '600');
+          text.setAttribute('fill', '#2c2b27');
+          text.setAttribute('text-anchor', 'middle');
+          text.textContent = p.label;
+          g.appendChild(text);
+
+          container.appendChild(g);
+        });
+      }
+
+      /**
+       * Populate Right PPM Scale Ticks (-20 to +4 dB)
+       */
+      function buildRightPpmScale() {
+        const container = document.getElementById('ppm-ticks-container');
+
+        const ppmTicks = [
+          { deg: -44.0, label: '-20', amber: false, major: true },
+          { deg: -38.5, label: '',    amber: false, major: false },
+          { deg: -33.0, label: '-15', amber: false, major: true },
+          { deg: -28.0, label: '',    amber: false, major: false },
+          { deg: -23.0, label: '-10', amber: false, major: true },
+          { deg: -17.5, label: '',    amber: false, major: false },
+          { deg: -12.0, label: '-6',  amber: false, major: true },
+          { deg: -6.0,  label: '',    amber: false, major: false },
+          { deg: 0.0,   label: '-2',  amber: false, major: true },
+          { deg: 5.8,   label: '',    amber: false, major: false },
+          { deg: 11.5,  label: '0',   amber: false, major: true },
+          { deg: 21.5,  label: '+1',  amber: true,  major: true },
+          { deg: 31.5,  label: '+2',  amber: true,  major: true },
+          { deg: 42.0,  label: '+4',  amber: true,  major: true }
+        ];
+
+        ppmTicks.forEach((t) => {
+          const g = document.createElementNS(SVG_NS, 'g');
+          g.setAttribute('transform', `translate(${LOCAL_PIVOT.x}, ${LOCAL_PIVOT.y}) rotate(${t.deg})`);
+          const color = t.amber ? '#f3f4f6' : '#f1f5f9';
+
+          const line = document.createElementNS(SVG_NS, 'line');
+          line.setAttribute('x1', '0');
+          line.setAttribute('y1', t.amber ? String(-(ARC_RADIUS + 2.8)) : String(-ARC_RADIUS));
+          line.setAttribute('x2', '0');
+          line.setAttribute('y2', t.major ? String(-(ARC_RADIUS + 11.5)) : String(-(ARC_RADIUS + 6.5)));
+          line.setAttribute('stroke', t.amber ? '#eab308' : color);
+          line.setAttribute('stroke-width', t.major ? '1.75' : '1.25');
+          g.appendChild(line);
+
+          if (t.label) {
+            const text = document.createElementNS(SVG_NS, 'text');
+            text.setAttribute('x', '0');
+            text.setAttribute('y', String(-(ARC_RADIUS + 17.5)));
+            text.setAttribute('font-size', '13');
+            text.setAttribute('font-weight', '600');
+            text.setAttribute('fill', color);
+            text.setAttribute('text-anchor', 'middle');
+            text.textContent = t.label;
+            g.appendChild(text);
+          }
+
+          container.appendChild(g);
+        });
+      }
+
+      /**
+       * Angle mapping functions
+       */
+      function vuToAngle(db) {
+        if (db <= -24) return -45.5;
+        if (db <= -20) return -44.0 + (db + 20) * 0.375;
+        if (db <= 0) {
+          const norm = (db + 20) / 20;
+          const curved = Math.pow(norm, 1.38);
+          return -44.0 + curved * 55.5;
+        }
+        return Math.min(44.5, 11.5 + db * 10.17);
+      }
+
+      function ppmToAngle(db) {
+        if (db <= -24) return -45.5;
+        if (db <= -20) return -44.0 + (db + 20) * 0.375;
+        if (db <= 0) {
+          const norm = (db + 20) / 20;
+          const curved = Math.pow(norm, 1.24);
+          return -44.0 + curved * 55.5;
+        }
+        return Math.min(44.5, 11.5 + db * 7.65);
+      }
+
+      function updateTrimScrewVisuals() {
+        const leftRot = -38 + state.leftTrimDb * 24;
+        const rightRot = 32 + state.rightTrimDb * 24;
+        leftScrewRotor.setAttribute('transform', `rotate(${leftRot.toFixed(1)})`);
+        rightScrewRotor.setAttribute('transform', `rotate(${rightRot.toFixed(1)})`);
+        leftTrimEl.setAttribute('aria-valuenow', state.leftTrimDb.toFixed(1));
+        rightTrimEl.setAttribute('aria-valuenow', state.rightTrimDb.toFixed(1));
+      }
+
+      function bindTrimmerScrew(el, side) {
+        let dragging = false;
+        let startY = 0;
+        let startTrim = 0;
+
+        el.addEventListener('pointerdown', (e) => {
+          e.preventDefault();
+          el.focus();
+          el.setPointerCapture(e.pointerId);
+          dragging = true;
+          startY = e.clientY;
+          startTrim = side === 'left' ? state.leftTrimDb : state.rightTrimDb;
+        });
+
+        el.addEventListener('pointermove', (e) => {
+          if (!dragging) return;
+          const dy = startY - e.clientY;
+          const nextTrim = Math.max(-3, Math.min(3, startTrim + dy * 0.04));
+          if (side === 'left') state.leftTrimDb = nextTrim;
+          else state.rightTrimDb = nextTrim;
+          updateTrimScrewVisuals();
+        });
+
+        const endDrag = (e) => {
+          if (!dragging) return;
+          dragging = false;
+          try { el.releasePointerCapture(e.pointerId); } catch (_) {}
+        };
+
+        el.addEventListener('pointerup', endDrag);
+        el.addEventListener('pointercancel', endDrag);
+
+        el.addEventListener('wheel', (e) => {
+          e.preventDefault();
+          const delta = e.deltaY < 0 ? 0.25 : -0.25;
+          if (side === 'left') state.leftTrimDb = Math.max(-3, Math.min(3, state.leftTrimDb + delta));
+          else state.rightTrimDb = Math.max(-3, Math.min(3, state.rightTrimDb + delta));
+          updateTrimScrewVisuals();
+        }, { passive: false });
+      }
+
+      function formatSigned(val, suffix) {
+        if (val <= -23.5) return `–∞ ${suffix}`;
+        const absVal = Math.abs(val).toFixed(1);
+        if (val > 0.04) return `+${absVal} ${suffix}`;
+        if (val < -0.04) return `–${absVal} ${suffix}`;
+        return `0.0 ${suffix}`;
+      }
+
+      function setInputLevel(db) {
+        state.inputDb = Math.max(-24, Math.min(4, Number(db)));
+        faderEl.value = String(state.inputDb);
+        readoutFaderDb.textContent = formatSigned(state.inputDb, 'dB');
+
+        document.querySelectorAll('.preset-btn').forEach((btn) => {
+          const presetVal = Number(btn.getAttribute('data-preset'));
+          const isMatch = Math.abs(presetVal - state.inputDb) < 0.05;
+          btn.className = isMatch
+            ? 'preset-btn px-2 py-1 rounded text-[11px] font-mono-tech bg-amber-500/20 text-amber-300 border border-amber-500/40 transition'
+            : 'preset-btn px-2 py-1 rounded text-[11px] font-mono-tech bg-[#0d0e11] hover:bg-neutral-800 text-neutral-300 border border-white/[0.08] transition';
+        });
+      }
+
+      function setSignalMode(mode) {
+        state.mode = mode;
+        document.querySelectorAll('.mode-btn').forEach((btn) => {
+          const isSelected = btn.getAttribute('data-mode') === mode;
+          btn.className = isSelected
+            ? 'mode-btn px-2.5 py-1 rounded-md text-xs font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/40 transition'
+            : 'mode-btn px-2.5 py-1 rounded-md text-xs font-semibold text-neutral-400 hover:text-neutral-200 border border-transparent transition';
+        });
+      }
+
+      function computeProgramEnvelope(t) {
+        const syllable =
+          Math.sin(t * 4.3) * 0.45 +
+          Math.sin(t * 7.1 + 1.1) * 0.30 +
+          Math.cos(t * 11.7 + 0.4) * 0.25;
+        const phrase = Math.sin(t * 0.85) * 0.5 + 0.5;
+        const pauseGate = phrase < 0.16 ? -14 : 0;
+        const vuMod = syllable * 4.2 - (1 - phrase) * 5.5 + pauseGate;
+        const crestSpike = Math.max(0, Math.sin(t * 9.4) * Math.cos(t * 3.7)) * 3.2;
+        return {
+          vuDelta: vuMod,
+          peakDelta: vuMod + 1.2 + crestSpike
+        };
+      }
+
+      function computePinkNoise(t) {
+        const r1 = Math.sin(t * 23.1) * 0.5 + Math.sin(t * 67.3) * 0.3;
+        const r2 = Math.cos(t * 133.7) * 0.2;
+        return {
+          vuDelta: (r1 + r2) * 1.8,
+          peakDelta: (r1 + r2) * 2.6 + 1.4
+        };
+      }
+
+      let lastDigitalUpdate = 0;
+      function animateMeters(timestamp) {
+        const t = timestamp * 0.001;
+
+        let targetVuDb = -24 + state.leftTrimDb;
+        let targetPpmDb = -24 + state.rightTrimDb;
+
+        const effectiveLevel = state.inputDb + state.sensOffset;
+
+        if (state.mode === 'tone') {
+          targetVuDb = effectiveLevel + state.leftTrimDb;
+          targetPpmDb = effectiveLevel + state.rightTrimDb;
+        } else if (state.mode === 'program') {
+          const env = computeProgramEnvelope(t);
+          targetVuDb = effectiveLevel + env.vuDelta + state.leftTrimDb;
+          targetPpmDb = effectiveLevel + env.peakDelta + state.rightTrimDb;
+        } else if (state.mode === 'pink') {
+          const n = computePinkNoise(t);
+          targetVuDb = effectiveLevel + n.vuDelta + state.leftTrimDb;
+          targetPpmDb = effectiveLevel + n.peakDelta + state.rightTrimDb;
+        }
+
+        const targetLeftDeg = vuToAngle(targetVuDb);
+        const targetRightDeg = ppmToAngle(targetPpmDb);
+
+        // Standard ANSI C16.5 VU ballistic damping (~300ms)
+        state.leftCurrentAngle += (targetLeftDeg - state.leftCurrentAngle) * 0.135;
+
+        // Fast peak attack, smooth decay
+        const rightCoeff = targetRightDeg > state.rightCurrentAngle ? 0.38 : 0.15;
+        state.rightCurrentAngle += (targetRightDeg - state.rightCurrentAngle) * rightCoeff;
+
+        vuNeedleEl.setAttribute(
+          'transform',
+          `translate(${LOCAL_PIVOT.x}, ${LOCAL_PIVOT.y}) rotate(${state.leftCurrentAngle.toFixed(2)})`
+        );
+        ppmNeedleEl.setAttribute(
+          'transform',
+          `translate(${LOCAL_PIVOT.x}, ${LOCAL_PIVOT.y}) rotate(${state.rightCurrentAngle.toFixed(2)})`
+        );
+
+        // Live Overload & Norm LED triggers
+        const leftOvld = targetVuDb >= 1.5;
+        const rightOvld = targetPpmDb >= 2.0;
+        const leftNorm = targetVuDb > -18;
+        const rightNorm = targetPpmDb > -18;
+
+        if (leftOvld) {
+          ledOvldLeft.setAttribute('fill', '#D93829');
+          ledOvldLeft.setAttribute('filter', 'url(#glowRed)');
+        } else {
+          ledOvldLeft.setAttribute('fill', '#4A1A1A');
+          ledOvldLeft.removeAttribute('filter');
+        }
+
+        if (rightOvld) {
+          ledOvldRight.setAttribute('fill', '#D93829');
+          ledOvldRight.setAttribute('filter', 'url(#glowRed)');
+        } else {
+          ledOvldRight.setAttribute('fill', '#4A1A1A');
+          ledOvldRight.removeAttribute('filter');
+        }
+
+        ledNormLeft.setAttribute('fill', leftNorm ? '#28A745' : '#14381e');
+        leftNorm ? ledNormLeft.setAttribute('filter', 'url(#glowGreen)') : ledNormLeft.removeAttribute('filter');
+
+        ledNormRight.setAttribute('fill', rightNorm ? '#28A745' : '#14381e');
+        rightNorm ? ledNormRight.setAttribute('filter', 'url(#glowGreen)') : ledNormRight.removeAttribute('filter');
+
+        // Throttle digital readouts
+        if (timestamp - lastDigitalUpdate > 65) {
+          lastDigitalUpdate = timestamp;
+          readoutVu.textContent = formatSigned(targetVuDb, 'VU');
+          readoutPpm.textContent = formatSigned(targetPpmDb, 'dBm');
+        }
+
+        requestAnimationFrame(animateMeters);
+      }
+
+      // Initialize scales & bindings
+      buildLeftVuScale();
+      buildRightPpmScale();
+      updateTrimScrewVisuals();
+      bindTrimmerScrew(leftTrimEl, 'left');
+      bindTrimmerScrew(rightTrimEl, 'right');
+
+      faderEl.addEventListener('input', (e) => setInputLevel(e.target.value));
+
+      document.querySelectorAll('.preset-btn').forEach((btn) => {
+        btn.addEventListener('click', () => setInputLevel(btn.getAttribute('data-preset')));
+      });
+
+      document.querySelectorAll('.mode-btn').forEach((btn) => {
+        btn.addEventListener('click', () => setSignalMode(btn.getAttribute('data-mode')));
+      });
+
+      // Sensitivity Straps
+      document.querySelectorAll('.sens-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.sens-btn').forEach(b => {
+            b.className = 'sens-btn px-2 py-1 rounded text-xs font-mono-tech text-neutral-400 hover:text-neutral-200 transition';
+          });
+          btn.className = 'sens-btn px-2 py-1 rounded text-xs font-mono-tech bg-[#c6c3b3] text-[#222322] font-bold transition';
+          const s = Number(btn.getAttribute('data-sens'));
+          state.sensOffset = (s - 4); // 4 dBu is reference 0 offset
+          showToast(`Input Sensitivity strapped to ${s > 0 ? '+' : ''}${s} dBu`);
+        });
+      });
+
+      // Interactive Calibration Trimmer Pots
+      ['left-cal-pot', 'right-cal-pot'].forEach(id => {
+        const el = document.getElementById(id);
+        el.addEventListener('click', () => {
+          let curAngle = parseInt(el.dataset.angle || '0', 10);
+          curAngle = (curAngle + 45) % 360;
+          el.dataset.angle = curAngle;
+          const innerUse = el.querySelector('use');
+          const isRight = id.includes('right');
+          innerUse.setAttribute('transform', `scale(1.2) rotate(${curAngle})`);
+          showToast(`${isRight ? 'Right' : 'Left'} CAL trimmer turned to ${curAngle}°`);
+        });
+      });
+
+      // Lamp toggle
+      btnToggleLamp.addEventListener('click', () => {
+        state.lampOn = !state.lampOn;
+        if (state.lampOn) {
+          vuLampGlow.classList.remove('lamp-glow-off');
+          vuLampGlow.classList.add('lamp-glow-on');
+          ppmLampGlow.classList.remove('lamp-glow-off');
+          ppmLampGlow.classList.add('lamp-glow-on');
+          btnToggleLamp.className = 'px-3 py-1 rounded-lg text-xs font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30 hover:bg-amber-500/25 transition flex items-center gap-1.5';
+          showToast('Meter illumination: ON');
+        } else {
+          vuLampGlow.classList.remove('lamp-glow-on');
+          vuLampGlow.classList.add('lamp-glow-off');
+          ppmLampGlow.classList.remove('lamp-glow-on');
+          ppmLampGlow.classList.add('lamp-glow-off');
+          btnToggleLamp.className = 'px-3 py-1 rounded-lg text-xs font-semibold bg-neutral-800 text-neutral-400 border border-white/[0.08] hover:text-neutral-200 transition flex items-center gap-1.5';
+          showToast('Meter illumination: OFF');
+        }
+      });
+
+      // Reset Trims
+      document.getElementById('btn-reset-trim').addEventListener('click', () => {
+        state.leftTrimDb = 0;
+        state.rightTrimDb = 0;
+        updateTrimScrewVisuals();
+        showToast('Mechanical Zero Offset Reset');
+      });
+
+      // Boot initialization
+      setInputLevel(0);
+      setSignalMode('tone');
+      requestAnimationFrame(animateMeters);
+    })();
+  </script>
+</body>
+</html>
